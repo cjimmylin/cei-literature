@@ -1,5 +1,15 @@
 # YAML Frontmatter Safeguards
 
+**⚠️ DEPRECATED:** This file is replaced by `_OPERATING-SYSTEM/Standards/yaml-standards.md`
+
+**Please use the new standards file instead:** [_OPERATING-SYSTEM/Standards/yaml-standards.md](_OPERATING-SYSTEM/Standards/yaml-standards.md)
+
+**Why the change:** Part of progressive disclosure architecture. See `_OPERATING-SYSTEM/README.md`.
+
+---
+
+# YAML Frontmatter Safeguards (Legacy)
+
 ## ⛔ CRITICAL: NO FILE DELETIONS
 
 **NEVER use `rm` or delete commands.** Move files to `RECYCLE-BIN/` instead:

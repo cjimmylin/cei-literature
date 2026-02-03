@@ -1,145 +1,142 @@
-# CLAUDE.md
+# CLAUDE.md - CEI Literature Vault Configuration
 
-This file provides guidance to Claude Code when working with this repository.
-
-## ⛔ CRITICAL: NO FILE DELETIONS
-
-**NEVER use `rm`, `unlink`, or any delete command. EVER.**
-
-To remove files, ALWAYS move them to `RECYCLE-BIN/`:
-```bash
-mv unwanted-file.pdf RECYCLE-BIN/
-mv unwanted-directory/ RECYCLE-BIN/
-```
-
-This rule exists because accidental deletion destroyed 422 PDF files. **NO EXCEPTIONS.**
+**Last Updated:** 2026-02-02
 
 ---
 
-## Quick Reference
+## System Context
 
-| Item | Value |
-|------|-------|
-| **Type** | Obsidian vault - CEI research literature database |
-| **GitHub** | https://github.com/cjimmylin/cei-literature (actively tracked) |
-| **Papers** | 657 in `papers/` (100% YAML valid) |
-| **PDFs** | External location (configured in `.vault-config.json`) |
-| **Extracts** | 662 searchable `.md` files in `PDF Extracts/` |
-| **Authors** | 2,946 profiles, 408 first authors enriched (99%) |
-| **AI Labs** | 14 labs, 350+ papers, 500+ files, 100% coverage - [Master Report](AI%20Labs/MASTER_COMPLETION_REPORT.md) |
-| **Zotero** | `~/Zotero/storage` as read-only reference (3,500+ PDFs) |
-| **Python** | `../.venv/` with PyMuPDF - run: `../.venv/bin/python PYTHON/script.py` |
-| **Status** | Production-ready, actively maintained |
+**Role:** Academic Literature Database Manager for CEI Research
+**Mission:** Classify, enrich, and maintain 657+ AI ethics papers
+**GitHub:** https://github.com/cjimmylin/cei-literature (actively tracked)
 
-**Recent Updates (Feb 2, 2026)**: New directory structure - PDFs now stored externally (configured via `.vault-config.json`). Main workspace is `CEI-Lit-WS/` (GitHub tracked). See `.vault-config.json.example` for setup.
+---
 
-## Essential Rules
+## Operating Principles
 
-### 1. YAML Safety (CRITICAL)
-**Always use `PYTHON/yaml_frontmatter_utils.py`** for any YAML modifications:
+- **Proactive:** Suggest classification improvements and data quality fixes
+- **Accurate:** Zero tolerance for hallucinated citations or invented metadata
+- **Structured:** Follow paper metadata schema strictly
+- **Data Safety:** NEVER use `rm`. Move to `RECYCLE-BIN/`
+- **Progressive Disclosure:** Keep configs lean. Add detailed rules to `_OPERATING-SYSTEM/Standards/`
+
+---
+
+## Quick Stats
+
+| Item | Count | Location |
+|------|-------|----------|
+| Papers | 657 | `papers/` |
+| PDFs | 652 | External (`.vault-config.json`) |
+| Extracts | 662 | `PDF Extracts/` |
+| Authors | 2,946 | `Authors/` |
+| AI Labs | 14 labs, 350+ papers | `AI Labs/` |
+
+---
+
+## Essential Rules (CRITICAL)
+
+### 1. NO FILE DELETIONS ⛔
+**NEVER use `rm`, `unlink`, or any delete command.**
+
+```bash
+# ❌ FORBIDDEN
+rm file.pdf
+
+# ✅ REQUIRED
+mv file.pdf RECYCLE-BIN/
+```
+
+**Why:** Session 7 accidentally deleted 422 PDFs. NO EXCEPTIONS.
+**Reference:** `@_OPERATING-SYSTEM/Standards/file-safety.md`
+
+### 2. YAML Safety (CRITICAL)
+**Always use `PYTHON/yaml_frontmatter_utils.py`** for ALL YAML modifications.
+
 ```python
 from PYTHON.yaml_frontmatter_utils import write_paper, validate_frontmatter
-is_valid, issues = validate_frontmatter(frontmatter)
-if not is_valid: raise ValueError(f"YAML invalid: {issues}")
-write_paper(filepath, frontmatter, body, validate=True)
-```
-- Never use regex/string manipulation on frontmatter
-- Never create orphaned list items (lists need parent keys)
-- `newtags` is a string, not a YAML list
-
-### 2. Data Source
-- `Base Source from Zotero.md` = Zotero CSV export (read-only, managed externally)
-- Papers in `papers/` have enriched YAML frontmatter
-
-### 3. Validation Check
-```bash
-../.venv/bin/python PYTHON/validate_all_papers.py       # Basic YAML
-../.venv/bin/python PYTHON/validate_papers_enhanced.py  # Extended checks
-../.venv/bin/python PYTHON/detect_content_mismatches.py # Content validation
+write_paper(filepath, frontmatter, body, validate=True)  # Validation mandatory
 ```
 
-### 4. No Deletions (See top of file)
-Rule documented above. **Use `mv` to RECYCLE-BIN/, NEVER `rm`.**
+**Reference:** `@_OPERATING-SYSTEM/Standards/yaml-standards.md`
 
-### 5. Git Tracking (IMPORTANT)
-**This repository is tracked on GitHub.** After making significant changes:
+### 3. Git Tracking
+**This repository is tracked on GitHub.** Commit meaningful changes.
+
 ```bash
 git add .
-git commit -m "Descriptive message about changes"
+git commit -m "Descriptive message"
 git push
 ```
-**See [docs/GIT_WORKFLOW.md](docs/GIT_WORKFLOW.md) for detailed workflow.** PDFs are NOT tracked (external storage).
 
-## Directory Structure
+**PDFs are NOT tracked** (external storage via `.vault-config.json`).
 
+---
+
+## Context Loading (Progressive Disclosure)
+
+Load relevant standards **when needed** for specific tasks:
+
+| Task | Load Standard |
+|------|--------------|
+| **Classification** | `@_OPERATING-SYSTEM/Standards/classification-logic.md` |
+| **YAML edits** | `@_OPERATING-SYSTEM/Standards/yaml-standards.md` |
+| **PDF work** | `@_OPERATING-SYSTEM/Standards/pdf-processing.md` |
+| **Author work** | `@_OPERATING-SYSTEM/Standards/author-management.md` |
+| **File operations** | `@_OPERATING-SYSTEM/Standards/file-safety.md` |
+| **API calls** | `@_OPERATING-SYSTEM/Standards/api-integration.md` |
+| **Field reference** | `@_OPERATING-SYSTEM/Standards/paper-metadata-schema.md` |
+| **Research** | `@_OPERATING-SYSTEM/Standards/research-standards.md` |
+
+**Architecture:** See `@_OPERATING-SYSTEM/README.md`
+**Recent Learnings:** See `@_OPERATING-SYSTEM/Learnings/learnings-log.md`
+
+---
+
+## Skills & Commands
+
+**See:** `.claude/skills/` and `docs/COMMANDS.md` for full list.
+
+**Quick reference:**
+- `/download-pdf` - Download → Extract → Summarize workflow
+- `/classify-papers` - Run classification pipeline
+- `/enrich-paper` - Add metadata enrichment
+- `/vault-stats` - Generate vault statistics
+- `/qc-code` - Code quality check
+
+---
+
+## Validation
+
+```bash
+# YAML integrity
+../.venv/bin/python PYTHON/validate_all_papers.py
+
+# Enhanced checks
+../.venv/bin/python PYTHON/validate_papers_enhanced.py
+
+# PDF links
+python3 PYTHON/audit_pdf_links.py
 ```
-CEI-Lit-WS/                    # This workspace (GitHub tracked)
-├── .vault-config.json         # External path configuration (gitignored)
-├── papers/                    # 657 paper metadata files (YAML + body)
-├── PDF Extracts/              # 662 searchable markdown extracts
-├── Authors/                   # 2,946 author profiles
-├── AI Labs/                   # 14 AI labs: 350+ papers, 500+ files
-├── PYTHON/                    # Classification & utility scripts
-│   └── vault_config.py        # Centralized path configuration
-├── STATISTICS/                # Generated reports
-├── docs/                      # All documentation
-├── logs/                      # Log files and JSON reports
-└── RECYCLE-BIN/               # Deleted files go here (NEVER use rm)
 
-External (configured via .vault-config.json):
-└── /path/to/PDFs/             # 652 PDF files (user-configured)
-```
+---
 
-## Setup (New Clone)
+## Documentation Index
 
-1. Copy `.vault-config.json.example` to `.vault-config.json`
-2. Edit `pdf_path` to point to your PDFs location
-3. Verify: `../.venv/bin/python -c "from PYTHON.vault_config import PDFS_DIR; print(PDFS_DIR)"`
+**All documentation:** `docs/INDEX.md`
+**Session history:** `docs/SESSION_HISTORY.md`
+**Workflows:** `docs/WORKFLOWS.md`
+**Git workflow:** `docs/GIT_WORKFLOW.md`
 
-## Progressive Documentation
+---
 
-Read these **only when needed** for specific tasks:
+## Memory & Learning
 
-| Task | Read |
-|------|------|
-| **All documentation** | [docs/INDEX.md](docs/INDEX.md) - Complete index |
-| **Git & GitHub workflow** | [docs/GIT_WORKFLOW.md](docs/GIT_WORKFLOW.md) - Commit, push, sync |
-| PDF recovery & download | [docs/PDF_RECOVERY_GUIDE.md](docs/PDF_RECOVERY_GUIDE.md) |
-| Author enrichment (parallel agents) | [docs/PARALLEL_AGENT_BEST_PRACTICES.md](docs/PARALLEL_AGENT_BEST_PRACTICES.md) |
-| Running classification/scripts | [docs/SCRIPTS.md](docs/SCRIPTS.md) |
-| Common workflows (import, enrich, etc.) | [docs/WORKFLOWS.md](docs/WORKFLOWS.md) |
-| Slash commands & skills reference | [docs/COMMANDS.md](docs/COMMANDS.md) |
-| YAML issues or writing scripts | [YAML_SAFEGUARDS.md](YAML_SAFEGUARDS.md) |
-| Code quality checks & standards | [docs/QC_SYSTEM.md](docs/QC_SYSTEM.md) |
-| Known issues & prevention | [docs/KNOWN_ISSUES.md](docs/KNOWN_ISSUES.md) |
-| Classification logic details | [LLM_CONTEXT.md](LLM_CONTEXT.md) |
-| Session history & past fixes | [docs/SESSION_HISTORY.md](docs/SESSION_HISTORY.md) |
-| Maintaining this doc structure | [docs/CONTEXT_OPTIMIZATION.md](docs/CONTEXT_OPTIMIZATION.md) |
-| AI Labs (all labs complete) | [AI Labs/MASTER_COMPLETION_REPORT.md](AI%20Labs/MASTER_COMPLETION_REPORT.md) - 14 labs, 350+ papers |
-| AI Labs session summary | [AI Labs/SESSION_SUMMARY_2026-01-31.md](AI%20Labs/SESSION_SUMMARY_2026-01-31.md) - Learnings & patterns |
+**Learnings log:** `_OPERATING-SYSTEM/Learnings/learnings-log.md`
+**Standards:** `_OPERATING-SYSTEM/Standards/`
+**Session closure:** Use `/end-session` skill (orchestrates remember-thread → finalize-thread)
 
-## Key Metadata Fields
+---
 
-Papers have these enriched fields (beyond Zotero data):
-- `ethics_overall`, `ethics_perspective`, `research_topic`
-- `national_ethnic_cultural`, `religious_values`, `moral_psychology`
-- `is_benchmark`, `is_eval`, `is_dataset`, `data_description`
-- `pdf_extract` (path to searchable extract)
-- `newtags` (aggregated classification tags)
-
-## Slash Commands (Quick List)
-
-| Category | Commands |
-|----------|----------|
-| **PDF** | `/download-pdf` (auto: download→extract→summarize), `/extract-pdf-text`, `/summarize-paper` |
-| **Research** | `/research-paper`, `/fetch-abstracts`, `/list-papers` |
-| **Classification** | `/classify-papers`, `/generate-reports`, `/enrich-paper` |
-| **Vault** | `/vault-stats`, `/identify-targets`, `/import-papers` |
-| **Authors** | `/fix-authors` |
-| **QA** | `/qc-code`, `/audit-papers` |
-
-See [docs/COMMANDS.md](docs/COMMANDS.md) for full details.
-
-## Maintenance Rules
-
-**Keep this file under 100 lines.** New docs → `docs/`, scripts → `PYTHON/`, logs → `logs/`. See [docs/CONTEXT_OPTIMIZATION.md](docs/CONTEXT_OPTIMIZATION.md).
+**Version:** 2.0 (Refactored with progressive disclosure architecture)
+**Maintained by:** CEI Literature Vault AI Agents

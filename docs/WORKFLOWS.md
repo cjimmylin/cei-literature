@@ -771,3 +771,118 @@ See `/check-duplicates` skill for detailed handling guidance.
 - `PYTHON/create_virtue_ethics_papers.py` - Example batch creation script
 - `PYTHON/download_virtue_ethics_pdfs.py` - Example batch download script
 - `PYTHON/yaml_frontmatter_utils.py` - Safe YAML handling utilities
+
+---
+
+## Session Closure & Maintenance (LifeOS)
+
+### End-of-Session Workflow
+
+**Command:** `/end-session`
+
+Use this skill to properly close a work session. It orchestrates a 2-phase closure:
+
+**Phase 1: remember-thread (Memory Consolidation)**
+1. Reviews session achievements and learnings
+2. Extracts reusable knowledge
+3. Creates/updates learnings-log.md
+4. Provides handoff summary
+
+**Phase 2: finalize-thread (QA + Git)**
+1. Runs 6-category quality assurance:
+   - Frontmatter validation
+   - File integrity
+   - Git status
+   - Skill health
+   - Documentation updates
+   - Dependencies
+2. Commits changes with descriptive messages
+3. Generates final session report
+
+**When to use:**
+- At the end of every work session
+- Before switching to a different project
+- After completing a major task or milestone
+
+**Example:**
+```
+/end-session
+
+[Agent orchestrates both skills and provides comprehensive closure report]
+```
+
+### Quarterly Maintenance
+
+**Command:** `/quarterly-maintenance` or run manually
+
+Performs 8-step comprehensive health check:
+
+1. ✅ **YAML Integrity** - Validates all paper frontmatter
+2. 🔗 **PDF Links** - Finds missing or broken PDF references
+3. 👤 **Author Profiles** - Detects orphaned author files
+4. 📄 **PDF Extracts** - Checks for missing extracts
+5. 🏷️ **Classifications** - Validates ethics classification consistency
+6. 🔄 **Duplicates** - Finds potential duplicate papers
+7. 📦 **Orphaned Files** - Identifies unreferenced PDFs
+8. 📊 **Health Report** - Generates detailed findings
+
+**When to run:**
+- Every 3 months (quarterly)
+- After major imports (>10 papers)
+- Before archiving/backup
+- When suspecting data issues
+
+**Output:**
+- Health score (0-100%)
+- Critical issues, warnings, info
+- Actionable recommendations
+- Saved to `_OPERATING-SYSTEM/Maintenance/`
+
+**Example:**
+```bash
+# Run with verbose output
+python3 .claude/skills/quarterly-maintenance/run_maintenance.py --verbose
+
+# Or use skill command
+/quarterly-maintenance --verbose
+```
+
+**Understanding Results:**
+- **Health Score ≥95%:** ✅ Excellent
+- **Health Score 85-94%:** ⚠️ Good
+- **Health Score <85%:** ❌ Needs attention
+
+**Common Issues Found:**
+- Missing PDFs (14 typical)
+- Missing extracts (38 typical)
+- Orphaned authors (varies)
+- Classification inconsistencies (502 typical)
+- Orphaned PDFs (77 typical)
+
+### Git Workflow Enhancement
+
+The pre-commit hook now includes 4 automated checks:
+
+1. ✅ **YAML Validation** - Frontmatter integrity
+2. 📦 **Library Imports** - All modules load correctly
+3. 🧪 **Critical Tests** - yaml_utils tests pass
+4. 📋 **Staged Files** - Verify what's being committed
+
+**What happens:**
+- Pre-commit runs automatically on `git commit`
+- Blocks commit if critical checks fail
+- Warns about direct paper commits (prefer using skills)
+- Shows helpful error messages
+
+**Bypass (use sparingly):**
+```bash
+git commit --no-verify -m "Emergency fix"
+```
+
+### Migration Reference
+
+For complete LifeOS architecture details:
+- [OPERATING_SYSTEM_MIGRATION.md](OPERATING_SYSTEM_MIGRATION.md) - Full migration guide
+- [_OPERATING-SYSTEM/README.md](../_OPERATING-SYSTEM/README.md) - 4-layer memory system
+- [_OPERATING-SYSTEM/Standards/](../_OPERATING-SYSTEM/Standards/) - Procedural knowledge
+

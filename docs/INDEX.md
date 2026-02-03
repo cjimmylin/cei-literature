@@ -11,7 +11,11 @@ Quick reference to all vault documentation.
 ## Directory Structure (Feb 2026)
 - **Workspace:** `CEI-Lit-WS/` - Main GitHub-tracked workspace
 - **PDFs:** External location configured via `.vault-config.json`
-- **Configuration:** `PYTHON/vault_config.py` - Centralized path loader
+- **Library:** `.agent/lib/` - Centralized utility modules (Phase 5-6)
+- **Operating System:** `_OPERATING-SYSTEM/` - 4-layer memory architecture (LifeOS)
+  - `Standards/` - 8 procedural knowledge standards
+  - `Learnings/` - Session-to-session knowledge
+  - `Maintenance/` - Automated health reports
 
 ## Core Documentation
 
@@ -23,6 +27,13 @@ Quick reference to all vault documentation.
 - [SCRIPTS.md](SCRIPTS.md) - Reference for all Python scripts
 - [COMMANDS.md](COMMANDS.md) - Slash commands and skills
 - [QC_SYSTEM.md](QC_SYSTEM.md) - Code quality checking system
+
+### LifeOS Architecture (NEW - Phase 1-8)
+- [_OPERATING-SYSTEM/README.md](../_OPERATING-SYSTEM/README.md) - 4-layer memory system overview
+- [_OPERATING-SYSTEM/Standards/](../_OPERATING-SYSTEM/Standards/) - 8 procedural knowledge standards
+- [OPERATING_SYSTEM_MIGRATION.md](OPERATING_SYSTEM_MIGRATION.md) - Complete migration guide
+- `.agent/lib/` - Centralized library with 72% test coverage
+- `.claude/skills/quarterly-maintenance/` - Automated health checks
 
 ## Session History & Reports
 

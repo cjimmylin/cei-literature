@@ -38,7 +38,8 @@ from lib.yaml_utils import (
     # Reconstruction
     rebuild_frontmatter,
 
-    # Writing
+    # Reading & Writing
+    read_paper,
     write_paper,
 
     # Cleaning
@@ -50,6 +51,7 @@ __all__ = [
     "parse_frontmatter",
     "validate_frontmatter",
     "rebuild_frontmatter",
+    "read_paper",
     "write_paper",
     "clean_orphaned_tags",
 ]

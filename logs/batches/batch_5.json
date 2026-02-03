@@ -1,0 +1,30 @@
+[
+  {
+    "pdf_filename": "mHC_Manifold_Constrained_Hyper_Connections_arxiv_2512.24880.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/DeepSeek/Papers/mHC_Manifold_Constrained_Hyper_Connections_arxiv_2512.24880.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/DeepSeek-mHC_Manifold_Constrained_Hyper_Connections_arxiv_2512.24880.md",
+    "company": "DeepSeek",
+    "model": null
+  },
+  {
+    "pdf_filename": "WizardMath_Reinforced_Evol-Instruct.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Microsoft Research/WizardLM/WizardMath_Reinforced_Evol-Instruct.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Microsoft Research-WizardMath_Reinforced_Evol-Instruct.md",
+    "company": "Microsoft Research",
+    "model": "WizardLM"
+  },
+  {
+    "pdf_filename": "HunyuanVideo-Avatar_Audio_Driven_Animation.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Tencent/HunyuanVideo/HunyuanVideo-Avatar_Audio_Driven_Animation.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Tencent-HunyuanVideo-Avatar_Audio_Driven_Animation.md",
+    "company": "Tencent",
+    "model": "HunyuanVideo"
+  },
+  {
+    "pdf_filename": "2025-08-20-grok-4-model-card.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/xAI/Grok-4/2025-08-20-grok-4-model-card.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/xAI-2025-08-20-grok-4-model-card.md",
+    "company": "xAI",
+    "model": "Grok-4"
+  }
+]

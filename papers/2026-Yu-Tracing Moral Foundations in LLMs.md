@@ -1,0 +1,79 @@
+---
+Human View: false
+Not AI: 
+key: AUTO_YU2026
+type: preprint
+short_title: "Tracing Moral Foundations in LLMs"
+year: 2026
+first_author: "[[Chenxiao Yu]]"
+authors: "[[Yu, Chenxiao]]; [[Yi, Bowen]]; [[Karimi-Malekabadi, Farzan]]; [[Abdurahman, Suhaib]]; [[Ye, Jinyi]]; [[Narayanan, Shrikanth]]; [[Zhao, Yue]]; [[Dehghani, Morteza]]"
+doi: N/A
+url: "https://arxiv.org/abs/2601.05437"
+local_pdf: "[[PDFs/2026-Yu-Tracing Moral Foundations in LLMs.pdf]]"
+national_ethnic_cultural: N/A
+religious_values: N/A
+moral_psychology: Yes
+newtags: "Moral Foundations Theory, LLM Interpretability, Moral Reasoning"
+key_contribution: "Uses Moral Foundations Theory with mechanistic interpretability (sparse autoencoders, activation steering) to show LLMs encode moral reasoning in structured, layer-dependent ways"
+significance: "Demonstrates moral understanding in LLMs emerges as latent pattern from language statistics, not mimicry"
+external_pdf: "https://arxiv.org/pdf/2601.05437"
+abstract: "The researchers investigated whether LLMs genuinely encode moral reasoning or merely replicate surface-level moral language. Employing Moral Foundations Theory as their analytical lens, they examined two instruction-tuned models using three complementary techniques: layer-specific analysis of moral concept representations, sparse autoencoders to identify features supporting moral reasoning, and causal interventions via steering. Their findings demonstrate that both models represent moral foundations in a structured, layer-dependent way that aligns with human judgments, with sparse features showing semantic connections to specific moral domains. The work suggests moral understanding in LLMs emerges as a latent pattern from the statistical regularities of language alone rather than mimicry."
+pdf_extract: "PDF Extracts/2026-Yu-Tracing Moral Foundations in LLMs.md"
+ethics_overall: Yes
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
+data_description: "Moral Foundations Theory analysis on instruction-tuned models"
+data_metrics: "Layer-specific representations, sparse autoencoder features, causal interventions"
+---
+# Tracing Moral Foundations in Large Language Models
+
+## Authors
+
+[[Chenxiao Yu]], [[Bowen Yi]], [[Farzan Karimi-Malekabadi]], [[Suhaib Abdurahman]], [[Jinyi Ye]], [[Shrikanth Narayanan]], [[Yue Zhao]], [[Morteza Dehghani]]
+
+## Metadata
+
+**Authors:** Yu, Chenxiao; Yi, Bowen; Karimi-Malekabadi, Farzan; Abdurahman, Suhaib; Ye, Jinyi; Narayanan, Shrikanth; Zhao, Yue; Dehghani, Morteza
+
+**Year:** 2026
+
+**Type:** preprint (arXiv)
+
+**arXiv ID:** 2601.05437
+
+**Submission Date:** January 9, 2026
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2601.05437
+- **PDF:** https://arxiv.org/pdf/2601.05437
+
+## Abstract
+
+The researchers investigated whether LLMs genuinely encode moral reasoning or merely replicate surface-level moral language. Employing Moral Foundations Theory as their analytical lens, they examined two instruction-tuned models using three complementary techniques: layer-specific analysis of moral concept representations, sparse autoencoders to identify features supporting moral reasoning, and causal interventions via steering. Their findings demonstrate that both models represent moral foundations in "a structured, layer-dependent way that aligns with human judgments," with sparse features showing semantic connections to specific moral domains. The work suggests moral understanding in LLMs emerges as "a latent pattern from the statistical regularities of language alone" rather than mimicry.
+
+## Methodology
+
+1. **Layer-specific analysis**: Moral concept representations across transformer layers
+2. **Sparse autoencoders**: Identify features supporting moral reasoning
+3. **Causal interventions**: Activation steering to test causal role
+
+## Key Findings
+
+- Moral foundations represented in structured, layer-dependent manner
+- Sparse features show semantic connections to specific moral domains
+- Moral understanding emerges from statistical regularities (not mimicry)
+- Representations align with human moral judgments
+
+## Notes
+
+- Uses Moral Foundations Theory (Haidt) as analytical framework
+- Mechanistic interpretability approach
+
+## Citation Info
+
+Yu, C., Yi, B., Karimi-Malekabadi, F., Abdurahman, S., Ye, J., Narayanan, S., Zhao, Y., & Dehghani, M. (2026). Tracing Moral Foundations in Large Language Models. arXiv:2601.05437.

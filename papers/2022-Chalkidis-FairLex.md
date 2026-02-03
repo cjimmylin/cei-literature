@@ -1,0 +1,60 @@
+---
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: JU8JYC2E
+type: document
+short_title: FairLex
+year: 2022
+first_author: "[[Ilias Chalkidis]]"
+authors: "[[Chalkidis, Ilias]]; [[Pasini, Tommaso]]; [[Zhang, Sheng]]; [[Tomada, Letizia]]; [[Schwemer, Sebastian Felix]]; [[Søgaard, Anders]]"
+url: "https://aclanthology.org/2022.acl-long.301/"
+external_pdf: "http://arxiv.org/pdf/2203.07228"
+national_ethnic_cultural: "Chinese, French, German, Italian"
+religious_values: N/A
+moral_psychology: N/A
+newtags: "Chinese, French, German, Italian, Bias & Fairness"
+key_contribution: "Created FairLex, a multilingual benchmark (EN, DE, FR, IT, ZH) for fairness in legal text processing, covering 4 jurisdictions."
+significance: "Shows that 'legal fairness' is jurisdictional – what counts as bias in Swiss law differs from US law, and models trained on one don't transfer to the other."
+tags: 
+local_pdf: "[[PDFs/2022-Chalkidis-FairLex.pdf]]"
+pdf_extract: "PDF Extracts/2022-Chalkidis-FairLex.md"
+abstract: "We present a benchmark suite of four datasets for evaluating the fairness of pre-trained lan- guage models and the techniques used to ﬁne-tune them for downstream tasks. Our benchmarks cover four jurisdictions (Euro- pean Council, USA, Switzerland, and China), ﬁve languages (English, German, French, Ital- ian and Chinese) and fairness across ﬁve at- tributes (gender, age, region, language, and le- gal area). In our experiments, we evaluate pre- trained language models using several group- robust"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for bias and fairness dataset"
+data_metrics: "Not specified"
+---
+# FairLex: A Multilingual Benchmark for Evaluating Fairness in Legal Text Processing
+
+## Authors
+
+[[Ilias Chalkidis]], [[Tommaso Pasini]], [[Sheng Zhang]], [[Letizia Tomada]], [[Sebastian Felix Schwemer]], [[Anders Søgaard]]
+## Metadata
+
+**Year:** 2022
+
+**Type:** document
+
+## Links
+
+- **Local PDF:** [[PDFs/2022-Chalkidis-FairLex.pdf|Open PDF]]
+
+- **ACL Anthology:** https://aclanthology.org/2022.acl-long.301/
+
+## Abstract
+
+We present a benchmark suite of four datasets for evaluating the fairness of pre-trained language models and the techniques used to fine-tune them for downstream tasks. Our benchmarks cover four jurisdictions (European Council, USA, Switzerland, and China), five languages (English, German, French, Italian and Chinese) and fairness across five attributes (gender, age, region, language, and legal area). In our experiments, we evaluate pre-trained language models using several group-robust fine-tuning techniques and show that performance group disparities are vibrant in many cases, while none of these techniques guarantee fairness, nor consistently mitigate group disparities. Furthermore, we provide a quantitative and qualitative analysis of our results, highlighting open challenges in the development of robustness methods in legal NLP.
+
+## Notes
+

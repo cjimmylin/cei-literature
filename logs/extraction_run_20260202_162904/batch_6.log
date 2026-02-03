@@ -1,0 +1,25 @@
+============================================================
+Batch 6 - PDF Extraction Worker
+============================================================
+
+Loaded 4 PDFs to process
+
+[1/4] Processing: Janus-Pro_arxiv_2501.17811.pdf
+✓ Extracted: Janus-Pro_arxiv_2501.17811.pdf (34,947 chars, 13 pages)
+
+[2/4] Processing: ProRL-Prolonged-Reinforcement-Learning.pdf
+✓ Extracted: ProRL-Prolonged-Reinforcement-Learning.pdf (101,663 chars, 26 pages)
+
+[3/4] Processing: HunyuanGameCraft_Interactive_Game_Video.pdf
+✓ Extracted: HunyuanGameCraft_Interactive_Game_Video.pdf (46,987 chars, 12 pages)
+
+[4/4] Processing: 2025-09-19-grok-4-fast-model-card.pdf
+✓ Extracted: 2025-09-19-grok-4-fast-model-card.pdf (20,368 chars, 7 pages)
+
+============================================================
+Batch 6 - COMPLETE
+============================================================
+Total: 4
+Succeeded: 4
+Failed: 0
+Status saved to: /Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/logs/batches/batch_6_status.json

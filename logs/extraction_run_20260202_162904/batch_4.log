@@ -1,0 +1,25 @@
+============================================================
+Batch 4 - PDF Extraction Worker
+============================================================
+
+Loaded 4 PDFs to process
+
+[1/4] Processing: Scaling_Monosemanticity_Features_in_Claude_3_Sonnet_2024.pdf
+✗ Error processing Scaling_Monosemanticity_Features_in_Claude_3_Sonnet_2024.pdf: Failed to open file '/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Anthropic/Papers/Scaling_Monosemanticity_Features_in_Claude_3_Sonnet_2024.pdf'.
+
+[2/4] Processing: WizardLM_Empowering_Complex_Instructions.pdf
+✓ Extracted: WizardLM_Empowering_Complex_Instructions.pdf (64,656 chars, 22 pages)
+
+[3/4] Processing: HunyuanProver_Automated_Theorem_Proving.pdf
+✓ Extracted: HunyuanProver_Automated_Theorem_Proving.pdf (34,933 chars, 14 pages)
+
+[4/4] Processing: 2025-11-17-grok-4-1-model-card.pdf
+✓ Extracted: 2025-11-17-grok-4-1-model-card.pdf (16,103 chars, 6 pages)
+
+============================================================
+Batch 4 - COMPLETE
+============================================================
+Total: 4
+Succeeded: 3
+Failed: 1
+Status saved to: /Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/logs/batches/batch_4_status.json

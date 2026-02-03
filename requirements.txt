@@ -1,0 +1,19 @@
+# CEI-Literature-Vault Python Dependencies
+# Install: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+
+# PDF Processing (REQUIRED for /extract-pdf-text)
+pymupdf>=1.26.0  # fitz module for PDF text extraction
+
+# YAML Processing
+pyyaml>=6.0
+
+# Web Requests (for PDF downloading, abstract fetching)
+requests>=2.28.0
+urllib3>=1.26.0
+
+# Data Processing
+python-dateutil>=2.8.0
+
+# Optional: Enhanced PDF downloading
+# beautifulsoup4>=4.11.0  # For HTML parsing during PDF discovery
+# lxml>=4.9.0             # Faster HTML parsing

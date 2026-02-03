@@ -1,0 +1,87 @@
+{
+  "downloaded": {
+    "2022-Kann-AmericasNLI.md": {
+      "url": "https://aclanthology.org/2022.acl-long.435.pdf",
+      "size_mb": 1.410909652709961,
+      "timestamp": "2026-01-24T17:45:37.857563"
+    },
+    "2022-Ziems-The Moral Integrity Corpus.md": {
+      "url": "http://arxiv.org/pdf/2204.03021",
+      "size_mb": 2.0925140380859375,
+      "timestamp": "2026-01-24T17:45:39.343478"
+    },
+    "2023-Chang-niceNLP at SemEval-2023 Task 10.md": {
+      "url": "https://aclanthology.org/2023.semeval-1.41.pdf",
+      "size_mb": 0.5083446502685547,
+      "timestamp": "2026-01-24T17:45:42.373590"
+    },
+    "2023-Harrington-I'm Fully Who I Am.md": {
+      "url": "https://arxiv.org/pdf/2305.09941",
+      "size_mb": 1.4996700286865234,
+      "timestamp": "2026-01-24T17:45:43.701897"
+    },
+    "2023-Hartmann-The political ideology of conversational AI.md": {
+      "url": "http://arxiv.org/pdf/2301.01768",
+      "size_mb": 2.7062549591064453,
+      "timestamp": "2026-01-24T17:45:45.888445"
+    },
+    "2023-Kim-KOME.md": {
+      "url": "https://www.parahostdis.org/upload/pdf/kjp-53-5-571.pdf",
+      "size_mb": 0.34968090057373047,
+      "timestamp": "2026-01-24T17:45:48.452554"
+    },
+    "2023-Lee-KoSBI.md": {
+      "url": "http://arxiv.org/pdf/2305.17701",
+      "size_mb": 2.4454126358032227,
+      "timestamp": "2026-01-24T17:45:51.784763"
+    },
+    "2023-Muhammad-AfriSenti.md": {
+      "url": "http://arxiv.org/pdf/2302.08956",
+      "size_mb": 1.2105894088745117,
+      "timestamp": "2026-01-24T17:45:53.472593"
+    },
+    "2024-Cao-The Moral Foundations Weibo Corpus.md": {
+      "url": "http://arxiv.org/pdf/2411.09612",
+      "size_mb": 0.37009334564208984,
+      "timestamp": "2026-01-24T17:45:55.068899"
+    }
+  },
+  "failed": {},
+  "skipped": {},
+  "paywalled": {
+    "2020-Awad-Universals and variations in moral decisions made.md": {
+      "url": "https://www.pnas.org/content/pnas/117/5/2332.full.pdf",
+      "reason": "Forbidden (403) - Likely paywalled",
+      "timestamp": "2026-01-24T17:45:35.904402"
+    },
+    "2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas.md": {
+      "url": "https://www.mdpi.com/2306-5729/8/10/155/pdf?version=1697687515",
+      "reason": "Forbidden (403) - Likely paywalled",
+      "timestamp": "2026-01-24T17:45:40.485435"
+    },
+    "2023-K\u00f6rner-Deontology and Utilitarianism in Real Life.md": {
+      "url": "https://doi.org/10.1177/01461672221103058",
+      "reason": "Forbidden (403) - Likely paywalled",
+      "timestamp": "2026-01-24T17:45:49.826308"
+    },
+    "2024-Rodr\u00edguez Louro-The Yarning Corpus.md": {
+      "url": "https://doi.org/10.1080/07268602.2024.2380661",
+      "reason": "Forbidden (403) - Likely paywalled",
+      "timestamp": "2026-01-24T17:45:56.365135"
+    }
+  },
+  "discovered": {},
+  "fixed_zotero": {
+    "2018-Dixon-Measuring and Mitigating Unintended Bias in Text.md": {
+      "old_url": "file:///Users/jimmylin/Zotero/storage/7UNGXMSM/Dixon et al. - 2018 - Measuring and Mitigating Unintended Bias in Text Classification.pdf",
+      "new_url": "https://dl.acm.org/doi/pdf/10.1145/3278721.3278729",
+      "source": "semantic_scholar"
+    },
+    "2023-Rao-Ethical Reasoning over Moral Alignment.md": {
+      "old_url": "file:///Users/jimmylin/Zotero/storage/IPRKMTVJ/Rao et al. - 2023 - Ethical Reasoning over Moral Alignment A Case and Framework for In-Context Ethical Policies in LLMs.pdf",
+      "new_url": "https://arxiv.org/pdf/2310.07251",
+      "source": "semantic_scholar"
+    }
+  },
+  "not_found": {}
+}

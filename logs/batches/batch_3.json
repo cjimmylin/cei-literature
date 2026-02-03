@@ -1,0 +1,30 @@
+[
+  {
+    "pdf_filename": "Claude_Character_2024.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Anthropic/Papers/Claude_Character_2024.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Anthropic-Claude_Character_2024.md",
+    "company": "Anthropic",
+    "model": null
+  },
+  {
+    "pdf_filename": "WizardCoder_Evol-Instruct.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Microsoft Research/WizardLM/WizardCoder_Evol-Instruct.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Microsoft Research-WizardCoder_Evol-Instruct.md",
+    "company": "Microsoft Research",
+    "model": "WizardLM"
+  },
+  {
+    "pdf_filename": "HY-World_1.5_Technical_Report.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Tencent/HunyuanVideo/HY-World_1.5_Technical_Report.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Tencent-HY-World_1.5_Technical_Report.md",
+    "company": "Tencent",
+    "model": "HunyuanVideo"
+  },
+  {
+    "pdf_filename": "2025-08-26-grok-code-fast-1-model-card.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/xAI/Grok Code Fast/2025-08-26-grok-code-fast-1-model-card.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/xAI-2025-08-26-grok-code-fast-1-model-card.md",
+    "company": "xAI",
+    "model": "Grok Code Fast"
+  }
+]

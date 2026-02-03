@@ -1,0 +1,24 @@
+---
+name: "Mark Yatskar"
+affiliation: "University/Organization"
+research_interests:
+  - "Topic 1"
+  - "Topic 2"
+website: ""
+google_scholar: ""
+semantic_scholar: ""
+---
+
+# Mark Yatskar
+
+## Research Summary
+
+[Brief summary of the author's research focus and contributions]
+
+## Papers in this Vault
+
+- [[2018-Zhao-Gender Bias in Coreference Resolution|Gender Bias in Coreference Resolution]]
+
+## Notes
+
+[Additional context or contact information]

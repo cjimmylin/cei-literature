@@ -1,0 +1,108 @@
+---
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: YCTS2U3I
+type: conferencePaper
+short_title: CIVICS
+year: 2024
+first_author: "[[Giada Pistilli]]"
+authors: "Giada Pistilli; Alina Leidinger; Yacine Jernite; Atoosa Kasirzadeh; Alexandra Sasha Luccioni; Margaret Mitchell"
+doi: 10.1609/aies.v7i1.31710
+url: "https://ojs.aaai.org/index.php/AIES/article/view/31710"
+external_pdf: "file:///Users/jimmylin/Zotero/storage/4LU2FNH5/Pistilli et al. - 2024 - CIVICS Building a Dataset for Examining Culturally-Informed Values in Large Language Models.pdf"
+national_ethnic_cultural: N/A
+religious_values: N/A
+moral_psychology: N/A
+newtags: "General Ethics"
+key_contribution: "Introduced CIVICS, a multilingual dataset of value-laden prompts on sensitive topics (LGBTQI+, welfare, etc.) to examine culturally-informed values in LLMs."
+significance: "Reveals the implicit value variability in models across languages and topics, showing that refusals and responses are disparately triggered depending on the cultural context of the prompt."
+tags: 
+abstract: "This paper introduces the \"
+ethics_overall: Yes
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+ethics_perspective: "General Ethics"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
+data_metrics: "Not specified"
+pdf_extract: "PDF Extracts/2024-Pistilli-CIVICS.md"
+local_pdf: "[[PDFs/2024-Pistilli-CIVICS.pdf]]"
+---
+# CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models
+
+## Metadata
+
+**Authors:** Pistilli, Giada; Leidinger, Alina; Jernite, Yacine; Kasirzadeh, Atoosa; Luccioni, Alexandra Sasha; Mitchell, Margaret
+
+**Year:** 2024
+
+**Publication:** Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (AIES)
+
+**Type:** conferencePaper
+
+**DOI:** [10.1609/aies.v7i1.31710](https://doi.org/10.1609/aies.v7i1.31710)
+
+**Pages:** 1132–1144
+
+## Links
+
+- **URL:** https://ojs.aaai.org/index.php/AIES/article/view/31710
+- **DOI:** https://doi.org/10.1609/aies.v7i1.31710
+
+## Abstract
+
+This paper introduces the \
+
+## Authors
+
+[[Giada Pistilli]], [[Alina Leidinger]], [[Yacine Jernite]], [[Atoosa Kasirzadeh]], [[Alexandra Sasha Luccioni]], [[Margaret Mitchell]]
+
+## Detailed Summary
+
+This paper introduces CIVICS (Culturally-Informed and Values-Inclusive Corpus for Societal impacts), a hand-crafted multilingual dataset designed to evaluate social and cultural variation in Large Language Models across multiple languages and value-sensitive topics. The dataset addresses LGBTQI rights, social welfare, immigration, disability rights, and surrogacy - topics chosen for their direct relevance to pressing socio-political issues across different regions.
+
+CIVICS spans five languages and nine national contexts: German (Germany), Italian (Italy), French (France and Canada), English (Australia, Canada, UK, Singapore), and Turkish (Turkey). Unlike prior work using machine translation, all samples were collected by native speakers from official documents (government bodies, civil rights societies, news agencies), ensuring cultural and linguistic authenticity. The 699 prompts were manually annotated with finer-grained topic labels by five annotators through an iterative adjudication process.
+
+The authors conducted two experimental setups to demonstrate the dataset utility. The first used log-probabilities to assess LLM agreement with CIVICS statements. The second examined long-form responses, finding that refusals are triggered disparately across models but consistently and more frequently in English or translated statements. Specific topics (immigration, LGBTQI rights, social welfare) and sources lead to more pronounced differences across model answers. The work highlights the implicit value variability in models across languages and topics.
+
+## Paper Outline
+
+1. Introduction - Initial motivation and contributions
+2. Related Work - Cultural values in LLMs, language and values
+3. CIVICS: Collection and Methodology - Data selection, prompt sources
+4. Annotation Process - Annotator demographics, protocol, stages
+5. Experiments
+   5.1 Log-probability Setup
+   5.2 Long-form Response Setup
+6. Discussion and Limitations
+7. Conclusion
+
+## Methods Summary
+
+Dataset construction: (1) Manual collection by native speakers from official sources, (2) Five languages, nine national contexts, 699 prompts, (3) Iterative annotation with five annotators through adjudication. Experiments: (1) Log-probability evaluation of LLM agreement with statements, (2) Long-form response analysis examining model outputs across languages and topics, (3) Analysis of refusal patterns across models, languages, and topics. Models evaluated include open-weight LLMs. The methodology emphasizes reproducibility and adaptability for extending to additional languages and cultural contexts.
+
+## Results Summary
+
+Key findings: (1) Refusals are triggered disparately across models but consistently more frequently in English or translated statements, (2) Specific topics lead to more pronounced differences - particularly immigration, LGBTQI rights, and social welfare, (3) Model responses show social and cultural variability across languages, (4) Different sources (government, civil society, news) elicit different model behaviors, (5) Log-probability experiments reveal implicit value stances in model predictions. The experiments demonstrate that CIVICS effectively captures value variation across linguistic and cultural contexts.
+
+## Conclusions
+
+The authors conclude that CIVICS serves as a tool for future research on LLM value variation across cultures and languages. Key contributions include: (1) First manually curated dataset on ethically-laden topics spanning five languages and nine national contexts, (2) Demonstration that refusal patterns and value expressions vary by language and topic, (3) Framework for reproducible, culturally-informed dataset curation. Limitations include the Western-centric annotator demographics and limited language coverage. Future work should expand to broader linguistic and cultural contexts.
+
+## Artifact Contributions
+
+- CIVICS Dataset: 699 hand-crafted multilingual prompts across five languages and nine national contexts
+- Available at: https://huggingface.co/CIVICS-dataset
+- Open licenses promised upon publication
+
+## Notes
+
+
+## Tags
+
+#Computer-Science---Artificial-Intelligence #Computer-Science---Computation-and-Language

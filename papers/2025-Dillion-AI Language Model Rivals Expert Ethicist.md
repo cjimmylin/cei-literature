@@ -1,0 +1,83 @@
+---
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: 
+type: journalArticle
+short_title: "AI Language Model Rivals Expert Ethicist"
+year: 2025
+first_author: "[[Danica Dillion]]"
+authors: "Danica Dillion; Debanjan Mondal; Niket Tandon; Kurt Gray"
+doi: 10.1038/s41598-025-86510-0
+url: "https://www.nature.com/articles/s41598-025-86510-0"
+external_pdf: "https://www.nature.com/articles/s41598-025-86510-0.pdf"
+publication: "Scientific Reports"
+national_ethnic_cultural: N/A
+religious_values: N/A
+moral_psychology: N/A
+newtags: "Utilitarianism, Moral Turing Test, AI Ethics"
+key_contribution: "Empirical evidence that GPT-4o's ethical advice is rated more favorably than expert human ethicists"
+significance: "Advances the Moral Turing Test research showing AI can match or exceed human moral expertise perception"
+tags: 
+pdf_extract: "[[PDF Extracts/2025-Dillion-AI Language Model Rivals Expert Ethicist.md]]"
+abstract: "This study advances work on the Moral Turing Test and finds that Americans rate ethical advice from GPT-4o as slightly more moral, trustworthy, thoughtful, and correct than that of the popular New York Times advice column, The Ethicist. Participants perceived GPT models as surpassing both a representative sample of Americans and a renowned ethicist in delivering moral justifications and advice...."
+paper_summary: 
+local_pdf: "[[PDFs/2025-Dillion-AI Language Model Rivals Expert Ethicist.pdf]]"
+ethics_overall: Yes
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
+data_metrics: "Not specified"
+---
+# AI Language Model Rivals Expert Ethicist
+
+## Metadata
+
+**Authors:** Danica Dillion; Debanjan Mondal; Niket Tandon; Kurt Gray
+
+**Year:** 2025
+
+**Type:** journalArticle
+
+**DOI:** [10.1038/s41598-025-86510-0](https://doi.org/10.1038/s41598-025-86510-0)
+
+**Publisher:** Scientific Reports
+
+## Links
+
+- **Local PDF:** [[PDFs/2025-Dillion-AI Language Model Rivals Expert Ethicist.pdf|Open PDF]]
+
+- **URL:** https://www.nature.com/articles/s41598-025-86510-0
+- **DOI:** https://doi.org/10.1038/s41598-025-86510-0
+
+## Abstract
+
+This study advances work on the Moral Turing Test and finds that Americans rate ethical advice from GPT-4o as slightly more moral, trustworthy, thoughtful, and correct than that of the popular New York Times advice column, The Ethicist. Participants perceived GPT models as surpassing both a representative sample of Americans and a renowned ethicist in delivering moral justifications and advice.
+
+## Authors
+
+[[Danica Dillion]], [[Debanjan Mondal]], [[Niket Tandon]], [[Kurt Gray]]
+
+## Key Contribution
+
+Empirical evidence that GPT-4o's ethical advice is rated more favorably than expert human ethicists
+
+## Significance
+
+Advances the Moral Turing Test research showing AI can match or exceed human moral expertise perception
+
+## Notes
+
+
+
+## Tags
+
+#Utilitarianism-#Moral-Turing-Test-#AI-Ethics
+
+## Citation Info
+

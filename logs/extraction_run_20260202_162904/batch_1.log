@@ -1,0 +1,25 @@
+============================================================
+Batch 1 - PDF Extraction Worker
+============================================================
+
+Loaded 4 PDFs to process
+
+[1/4] Processing: Constitutional_Classifiers_2501.18837.pdf
+✓ Extracted: Constitutional_Classifiers_2501.18837.pdf (202,662 chars, 54 pages)
+
+[2/4] Processing: SAM_2_2408.00714.pdf
+✓ Extracted: SAM_2_2408.00714.pdf (155,760 chars, 42 pages)
+
+[3/4] Processing: HY-Motion_1.0_Text_to_Motion.pdf
+✓ Extracted: HY-Motion_1.0_Text_to_Motion.pdf (50,714 chars, 16 pages)
+
+[4/4] Processing: iFSQ_Improving_FSQ_Image_Generation.pdf
+✓ Extracted: iFSQ_Improving_FSQ_Image_Generation.pdf (62,566 chars, 16 pages)
+
+============================================================
+Batch 1 - COMPLETE
+============================================================
+Total: 4
+Succeeded: 4
+Failed: 0
+Status saved to: /Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/logs/batches/batch_1_status.json

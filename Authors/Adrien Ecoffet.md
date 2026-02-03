@@ -1,0 +1,68 @@
+---
+name: "Adrien Ecoffet"
+title: "Research Scientist"
+affiliation: "OpenAI"
+highest_degree: "PhD (Inferred), Previously Uber AI / Quora"
+email: ""
+research_interests:
+  - "Reinforcement Learning"
+  - "Scaling Laws"
+  - "AI Safety"
+  - "Moral Uncertainty"
+  - "Exploration Algorithms"
+notable_awards: []
+website: "https://adrien.ecoffet.com"
+github: "https://github.com/AdrienLE"
+google_scholar: "https://scholar.google.com/citations?user=FczrreMAAAAJ"
+semantic_scholar: "https://www.semanticscholar.org/author/Adrien-Ecoffet/145450417"
+researchgate: ""
+orcid: "0000-0001-9985-365X"
+arxiv: ""
+dblp: "https://dblp.org/pid/152/2361.html"
+openreview: "https://openreview.net/profile?id=~Adrien_Ecoffet1"
+philpapers: ""
+linkedin: ""
+twitter: "https://twitter.com/AdrienEcoffet"
+---
+
+# Adrien Ecoffet
+
+## Biographical Summary
+
+Adrien Ecoffet is a research scientist at OpenAI, where he focuses on reinforcement learning and scaling large language models. Prior to joining OpenAI in 2020, he was a research scientist at Uber AI Labs and a staff software engineer at Quora. He is a prominent contributor to the field of exploration in reinforcement learning.
+
+## Research & Impact
+
+### Current Focus
+At OpenAI, Adrien has been involved in developing training infrastructure and algorithms for reinforcement learning and imitation learning, including work on Video PreTraining (VPT). He also investigates reinforcement learning under moral uncertainty and the scaling properties of large models.
+
+### Significant Achievements
+Adrien is first author of the "Go-Explore" algorithm, which significantly improved the state of the art on hard-exploration games like Montezuma's Revenge. His work bridges high-performance software engineering with cutting-edge AI research.
+
+## Major Publications
+
+- [Go-Explore: A New Approach for Hard-Exploration Problems](https://arxiv.org/abs/1901.10995) (2019) - *Introduced a novel exploration algorithm for RL.*
+- [Video Pretraining (VPT): Learning to Act by Watching Unlabeled Online Videos](https://arxiv.org/abs/2206.11795) (2022) - *Large-scale imitation learning from video data.*
+
+## Papers in this Vault
+- [[2023-Burns-Weak-to-Strong Generalization|Weak-to-Strong Generalization]]
+
+- [[2024-Pan-Adversarial Training Can Unintentionally|Adversarial Training Can Unintentionally]]
+- [[2025-Ecoffet-Reinforcement Learning Under Moral Uncertainty|Reinforcement Learning Under Moral Uncertainty]]
+
+## External Links & Profiles
+
+### Academic Databases
+- [Google Scholar](https://scholar.google.com/citations?user=FczrreMAAAAJ)
+- [Semantic Scholar](https://www.semanticscholar.org/author/Adrien-Ecoffet/145450417)
+- [ORCID](https://orcid.org/0000-0001-9985-365X)
+- [DBLP](https://dblp.org/pid/152/2361.html)
+- [OpenReview](https://openreview.net/profile?id=~Adrien_Ecoffet1)
+
+### Professional & Social
+- [Personal Website](https://adrien.ecoffet.com)
+- [GitHub](https://github.com/AdrienLE)
+- [Twitter/X](https://twitter.com/AdrienEcoffet)
+
+## Notes
+[Adrien is a key figure in OpenAI's RL and scaling research.]

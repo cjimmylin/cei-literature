@@ -1,0 +1,24 @@
+---
+name: "Lisa Argyle"
+affiliation: "University/Organization"
+research_interests:
+  - "Topic 1"
+  - "Topic 2"
+website: ""
+google_scholar: ""
+semantic_scholar: ""
+---
+
+# Lisa Argyle
+
+## Research Summary
+
+[Brief summary of the author's research focus and contributions]
+
+## Papers in this Vault
+
+- [[2023-Rytting-Towards Coding Social Science Datasets with|Towards Coding Social Science Datasets with]]
+
+## Notes
+
+[Additional context or contact information]

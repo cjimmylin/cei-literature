@@ -1,0 +1,30 @@
+[
+  {
+    "pdf_filename": "Constitutional_Classifiers_Plus_Plus_2601.04603.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Anthropic/Papers/Constitutional_Classifiers_Plus_Plus_2601.04603.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Anthropic-Constitutional_Classifiers_Plus_Plus_2601.04603.md",
+    "company": "Anthropic",
+    "model": null
+  },
+  {
+    "pdf_filename": "SAM_Segment_Anything_2304.02643.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Meta AI/Papers/SAM_Segment_Anything_2304.02643.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Meta AI-SAM_Segment_Anything_2304.02643.md",
+    "company": "Meta AI",
+    "model": null
+  },
+  {
+    "pdf_filename": "Hunyuan3D_2.1_Production_PBR_Material.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Tencent/Hunyuan 3D/Hunyuan3D_2.1_Production_PBR_Material.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Tencent-Hunyuan3D_2.1_Production_PBR_Material.md",
+    "company": "Tencent",
+    "model": "Hunyuan 3D"
+  },
+  {
+    "pdf_filename": "HunyuanDiT_Multi_Resolution_Diffusion.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Tencent/Hunyuan/HunyuanDiT_Multi_Resolution_Diffusion.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Tencent-HunyuanDiT_Multi_Resolution_Diffusion.md",
+    "company": "Tencent",
+    "model": "Hunyuan"
+  }
+]

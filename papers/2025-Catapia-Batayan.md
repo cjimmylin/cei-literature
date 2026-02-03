@@ -1,0 +1,68 @@
+---
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: 5FECRDTP
+type: document
+short_title: Batayan
+year: 2025
+first_author: "[[Jann Railey Montalan]]"
+authors: "Jann Railey Montalan; Jimson Paulo Layacan; David Demitri Africa; Richell Isaiah Flores; Michael T. Lopez; Theresa Denise Magsajo; Anjanette Cayabyab; William Chandra Tjhi"
+url: "https://arxiv.org/abs/2502.14911"
+external_pdf: "https://arxiv.org/pdf/2502.14911.pdf"
+national_ethnic_cultural: Filipino
+religious_values: N/A
+moral_psychology: N/A
+newtags: "Filipino, Bias & Fairness"
+key_contribution: "Created Batayan, a holistic Filipino NLP benchmark covering understanding, reasoning, and generation, designed to alleviate 'translationese' bias in existing corpora."
+significance: "Highlights the performance gap of LLMs in under-resourced languages like Filipino (Tagalog/Taglish), underscoring the need for native-speaker-validated resources to ensure fair and accurate model performance."
+tags: 
+pdf_extract: "PDF Extracts/2025-Catapia-Batayan.md"
+abstract: "Recent advances in large language models (LLMs) have demonstrated remarkable capabilities on widely benchmarked high-resource languages. However, linguistic nuances of under-resourced languages remain unexplored. We introduce BATAYAN, a holistic Filipino benchmark that systematically evaluates LLMs across three key natural language processing (NLP) competencies: understanding, reasoning, and generation. BATAYAN consolidates eight tasks, three of which have not existed prior for Filipino corpora,"
+paper_summary: "Abstract: Recent advances in large language models (LLMs) have demonstrated remarkable capabilities on widely benchmarked high-resource languages. However, linguistic nuances of under-resourced languages remain | Overview: arXiv:2502.14911v2 [cs.CL] 19 Jun 2025 BATAYAN: A Filipino NLP benchmark for evaluating Large Language Models Jann Railey Montalan1,2, Jimson Paulo Layacan3, David Demitri Africa4, Richell Isaiah Flor | Methodology: in adaptation to ensure the integrity of meaning. For example, one premise from Balanced COPA was, “The criminal turned himself in”, using the idiomat | Key Findings: suite2 and leaderboard3 for assessing LLMs across linguistic and reasoning tasks for Southeast Asian languages. Second, we provide extensive evaluatio | Conclusions: In this paper, we introduced BATAYAN for holistically evaluating LLMs on a gamut of Filipino language tasks covering natural language understanding, r"
+local_pdf: "[[PDFs/2025-Catapia-Batayan.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for bias and fairness text corpus"
+data_metrics: "Not specified"
+---
+# Batayan: A Filipino NLP benchmark for evaluating Large Language Models
+
+## Metadata
+
+**Authors:** Montalan, Jann Railey; Layacan, Jimson Paulo; Africa, David Demitri; Flores, Richell Isaiah; Lopez, Michael T.; Magsajo, Theresa Denise; Cayabyab, Anjanette; Tjhi, William Chandra
+
+**Year:** 2025
+
+**Type:** document
+
+## Links
+
+- **Local PDF:** [[PDFs/2025-Catapia-Batayan.pdf|Open PDF]]
+
+- **arXiv:** https://arxiv.org/abs/2502.14911
+
+## Abstract
+
+Recent advances in large language models (LLMs) have demonstrated remarkable capabilities on widely benchmarked high-resource languages. However, linguistic nuances of under-resourced languages remain unexplored. We introduce Batayan, a holistic Filipino benchmark that systematically evaluates LLMs across three key natural language processing (NLP) competencies: understanding, reasoning, and generation. Batayan consolidates eight tasks, three of which have not existed prior for Filipino corpora, covering both Tagalog and code-switched Taglish utterances. Our rigorous, native-speaker-driven adaptation and validation processes ensures fluency and authenticity to the complex morphological and syntactic structures of Filipino, alleviating the pervasive translationese bias in existing Filipino corpora. We report empirical results on a variety of open-source and commercial LLMs, highlighting significant performance gaps that signal the under-representation of Filipino in pre-training corpora, the unique hurdles in modeling Filipino's rich morphology and construction, and the importance of explicit Filipino language support. Moreover, we discuss the practical challenges encountered in dataset construction and propose principled solutions for building culturally and linguistically-faithful resources in under-represented languages. We also provide a public evaluation suite as a clear foundation for iterative, community-driven progress in Filipino NLP.
+
+## Authors
+
+[[Jann Railey Montalan]], [[Jimson Paulo Layacan]], [[David Demitri Africa]], [[Richell Isaiah Flores]], [[Michael T. Lopez]], [[Theresa Denise Magsajo]], [[Anjanette Cayabyab]], [[William Chandra Tjhi]]
+
+## Notes
+
+
+## Citation Info
+
+126 citations (Semantic Scholar/arXiv) [2025-08-27]

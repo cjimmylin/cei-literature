@@ -1,0 +1,25 @@
+============================================================
+Batch 0 - PDF Extraction Worker
+============================================================
+
+Loaded 4 PDFs to process
+
+[1/4] Processing: Constitutional_Classifiers_Plus_Plus_2601.04603.pdf
+✓ Extracted: Constitutional_Classifiers_Plus_Plus_2601.04603.pdf (68,054 chars, 17 pages)
+
+[2/4] Processing: SAM_Segment_Anything_2304.02643.pdf
+✓ Extracted: SAM_Segment_Anything_2304.02643.pdf (167,532 chars, 30 pages)
+
+[3/4] Processing: Hunyuan3D_2.1_Production_PBR_Material.pdf
+✓ Extracted: Hunyuan3D_2.1_Production_PBR_Material.pdf (40,353 chars, 14 pages)
+
+[4/4] Processing: HunyuanDiT_Multi_Resolution_Diffusion.pdf
+✓ Extracted: HunyuanDiT_Multi_Resolution_Diffusion.pdf (49,003 chars, 25 pages)
+
+============================================================
+Batch 0 - COMPLETE
+============================================================
+Total: 4
+Succeeded: 4
+Failed: 0
+Status saved to: /Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/logs/batches/batch_0_status.json

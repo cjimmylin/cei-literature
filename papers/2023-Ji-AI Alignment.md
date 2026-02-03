@@ -1,0 +1,79 @@
+---
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: GDL79V6X
+type: conferencePaper
+short_title: "AI Alignment"
+year: 2023
+first_author: "[[Jiaming Ji]]"
+authors: "Jiaming Ji; Tianyi Qiu; Boyuan Chen; Borong Zhang; Hantao Lou; Kaile Wang; Yawen Duan; Zhonghao He; Lukas Vierling; Donghai Hong; Jiayi Zhou; Zhaowei Zhang; Fanzhi Zeng; Juntao Dai; Xuehai Pan; Kwan Yee Ng; Aidan O'Gara; Hua Xu; Brian Tse; Jie Fu; Stephen McAleer; Yaodong Yang; Yizhou Wang; Song-Chun Zhu; Yike Guo; Wen Gao"
+doi: 10.48550/arXiv.2310.19852
+tags: 
+url: "http://arxiv.org/abs/2310.19852"
+external_pdf: "http://arxiv.org/pdf/2310.19852.pdf"
+publication: arXiv.org
+national_ethnic_cultural: N/A
+religious_values: N/A
+moral_psychology: N/A
+newtags: "AI Safety & Alignment"
+key_contribution: "A comprehensive survey organizing the AI alignment field into RICE principles (Robustness, Interpretability, Controllability, Ethicality) and identifying 'forward' vs 'backward' alignment."
+significance: "Provides a unifying taxonomy for the disparate subfields of alignment research, helping researchers see how robustness, interpretability, and ethics connect."
+pdf_extract: "PDF Extracts/2023-Ji-AI Alignment.md"
+abstract: "AI alignment aims to make AI systems behave in line with human intentions and values. As AI systems grow more capable, so do risks from misalignment. To provide a comprehensive and up-to-date overview of the alignment field, in this survey, we delve into the core concepts, methodology, and practice of align- ment. First, we identify four principles as the key objectives of AI alignment: Robustness, Interpretability, Controllability, and Ethicality (RICE). Guided by these four principles, we outl"
+paper_summary: "Abstract: AI alignment aims to make AI systems behave in line with human intentions and values. As AI systems grow more capable, so do risks from misalignment. To provide a comprehensive and up-to-date overview | Overview: AI Alignment: A Comprehensive Survey Jiaming Ji*,1 Tianyi Qiu*,1 Boyuan Chen*,1 Borong Zhang*,1 Hantao Lou1 Kaile Wang1 Yawen Duan2 Zhonghao He2 Lukas Vierling3 Donghai Hong1 Jiayi Zhou1 Zhaowei Zhang | Methodology: Robustness Interpretability Controllability Ethicality Learning from Feedback (§2) Preference Modeling (§2.2) • ◦ Policy Learning (§2.3) RL/PbRL/IRL/  | Key Findings: can be simpler than task completion28. Therefore, harnessing the evaluative capabilities of AI systems can result in distributions of capacity that ar | Conclusions: 60"
+local_pdf: "[[PDFs/2023-Ji-AI Alignment.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation framework dataset"
+data_metrics: "Not specified"
+---
+# AI Alignment: A Comprehensive Survey
+
+## Metadata
+
+**Authors:** Ji, Jiaming; Qiu, Tianyi; Chen, Boyuan; Zhang, Borong; Lou, Hantao; Wang, Kaile; Duan, Yawen; He, Zhonghao; Vierling, Lukas; Hong, Donghai; Zhou, Jiayi; Zhang, Zhaowei; Zeng, Fanzhi; Dai, Juntao; Pan, Xuehai; Ng, Kwan Yee; O'Gara, Aidan; Xu, Hua; Tse, Brian; Fu, Jie; McAleer, Stephen; Yang, Yaodong; Wang, Yizhou; Zhu, Song-Chun; Guo, Yike; Gao, Wen
+
+**Year:** 2025
+
+**Type:** preprint
+
+**DOI:** [10.48550/arXiv.2310.19852](https://doi.org/10.48550/arXiv.2310.19852)
+
+**Publisher:** arXiv
+
+## Links
+
+- **Local PDF:** [[PDFs/2023-Ji-AI Alignment.pdf|Open PDF]]
+
+- **arXiv:** http://arxiv.org/abs/2310.19852
+- **DOI:** https://doi.org/10.48550/arXiv.2310.19852
+
+## Abstract
+
+AI alignment aims to make AI systems behave in line with human intentions and values. As AI systems grow more capable, so do risks from misalignment. To provide a comprehensive and up-to-date overview of the alignment field, in this survey, we delve into the core concepts, methodology, and practice of alignment. First, we identify four principles as the key objectives of AI alignment: Robustness, Interpretability, Controllability, and Ethicality (RICE). Guided by these four principles, we outline the landscape of current alignment research and decompose them into two key components: forward alignment and backward alignment. The former aims to make AI systems aligned via alignment training, while the latter aims to gain evidence about the systems’ alignment and govern them appropriately to avoid exacerbating misalignment risks. On forward alignment, we discuss techniques for learning from feedback and learning under distribution shift. Specifically, we survey traditional preference modeling methods and reinforcement learning from human feedback, and further discuss potential frameworks to reach scalable oversight for tasks where effective human oversight is hard to obtain. Within learning under distribution shift, we also cover data distribution interventions such as adversarial training that help expand the distribution of training data, and algorithmic interventions to combat goal misgeneralization. On backward alignment, we discuss assurance techniques and governance practices. Specifically, we survey assurance methods of AI systems throughout their lifecycle, covering safety evaluation, interpretability, and human value compliance. We discuss current and prospective governance practices adopted by governments, industry actors, and other third parties, aimed at managing existing and future AI risks.
+
+## Authors
+
+[[Jiaming Ji]], [[Tianyi Qiu]], [[Boyuan Chen]], [[Borong Zhang]], [[Hantao Lou]], [[Kaile Wang]], [[Yawen Duan]], [[Zhonghao He]], [[Lukas Vierling]], [[Donghai Hong]], [[Jiayi Zhou]], [[Zhaowei Zhang]], [[Fanzhi Zeng]], [[Juntao Dai]], [[Xuehai Pan]], [[Kwan Yee Ng]], [[Aidan O'Gara]], [[Hua Xu]], [[Brian Tse]], [[Jie Fu]], [[Stephen McAleer]], [[Yaodong Yang]], [[Yizhou Wang]], [[Song-Chun Zhu]], [[Yike Guo]], [[Wen Gao]]
+
+## Notes
+
+
+## Tags
+
+#Computer-Science---Artificial-Intelligence
+
+## Citation Info
+
+244 citations (Semantic Scholar/arXiv) [2025-08-27] 241 citations (Semantic Scholar/arXiv) [2025-08-23] arXiv:2310.19852 [cs]

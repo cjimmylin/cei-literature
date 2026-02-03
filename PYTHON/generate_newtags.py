@@ -1,0 +1,163 @@
+#!/usr/bin/env python3
+"""
+Generate 'newtags' property for papers by aggregating all ethical/cultural/religious/psychological features.
+
+LEARNINGS / DESIGN DECISIONS:
+- Aggregation Source: We pull from all classified fields (Cultural, Religious, Psych, Ethics).
+- Null Handling: 'N/A', 'Unknown', 'None' are filtered out to keep the tag list clean.
+- Format: Tags are stored as a simple comma-separated string for compatibility with simple search tools.
+- Supersedes `add_newtags.py`: This script is the source of truth for the `newtags` field.
+"""
+
+import re
+from pathlib import Path
+from typing import Tuple, List, Dict
+
+PAPERS_DIR = Path(__file__).parent / "papers"
+
+def extract_frontmatter_and_content(text: str) -> Tuple[Dict[str, str], str, str]:
+    """
+    Extract YAML frontmatter as a dictionary and remaining content.
+    Returns (frontmatter_dict, raw_frontmatter_str, content_body)
+    """
+    if not text.startswith("---"):
+        return {}, "", text
+    
+    # Find the closing ---
+    end_match = re.search(r'\n---\s*\n', text[3:])
+    if not end_match:
+        return {}, "", text
+    
+    end_pos = end_match.end() + 3
+    raw_frontmatter = text[4:end_pos-4].strip()
+    content = text[end_pos:]
+    
+    # Parse frontmatter into dict
+    frontmatter_dict = {}
+    for line in raw_frontmatter.split('\n'):
+        if ':' in line:
+            key, val = line.split(':', 1)
+            key = key.strip()
+            # Remove quotes and whitespace
+            val = val.strip().strip('"').strip("'")
+            frontmatter_dict[key] = val
+            
+    return frontmatter_dict, raw_frontmatter, content
+
+def generate_tags(fm: Dict[str, str]) -> List[str]:
+    """Generate list of tags based on frontmatter fields."""
+    tags = []
+    
+    # 1. National/Ethnic/Cultural
+    val = fm.get('national_ethnic_cultural', 'N/A')
+    if val and val not in ['N/A', 'Unknown', 'None']:
+        for v in val.split(','):
+            v = v.strip()
+            if v: tags.append(v)
+            
+    # 2. Religious Values
+    val = fm.get('religious_values', 'N/A')
+    if val and val not in ['N/A', 'Unknown', 'None']:
+         for v in val.split(','):
+            v = v.strip()
+            if v: tags.append(v)
+            
+    # 3. Moral Psychology
+    val = fm.get('moral_psychology', 'N/A')
+    if val and val not in ['N/A', 'Unknown', 'None']:
+         for v in val.split(','):
+            v = v.strip()
+            if v: tags.append(v)
+            
+    # 4. Ethical Frameworks
+    if fm.get('virtue_ethics') == 'Yes':
+        tags.append("Virtue Ethics")
+    if fm.get('deontological_ethics') == 'Yes':
+        tags.append("Deontology")
+    if fm.get('utilitarian_ethics') == 'Yes':
+        tags.append("Utilitarianism")
+        
+    # 5. Ethics Perspective (if exists)
+    val = fm.get('ethics_perspective', '')
+    if val and val not in ['N/A', 'Unknown', 'None']:
+        tags.append(val)
+        
+    # Deduplicate while preserving order
+    seen = set()
+    unique_tags = []
+    for t in tags:
+        if t and t not in seen:
+            seen.add(t)
+            unique_tags.append(t)
+            
+    return unique_tags
+
+def update_frontmatter(raw_frontmatter: str, newtags: str) -> str:
+    """Add or update newtags in frontmatter string."""
+    lines = raw_frontmatter.split('\n')
+    new_lines = []
+    
+    # Remove existing newtags
+    skip_next = False
+    for line in lines:
+        if skip_next and line.startswith('  '):
+            continue
+        skip_next = False
+        
+        if line.startswith('newtags:'):
+            continue
+        # Skip standalone dashes that might have been added erroneously
+        if line.strip() == '-':
+            continue
+        new_lines.append(line)
+    
+    # Add newtags at the end
+    while new_lines and new_lines[-1].strip() == '':
+        new_lines.pop()
+    
+    new_lines.append(f'newtags: "{newtags}"')
+    
+    return '\n'.join(new_lines)
+
+def process_paper(filepath: Path) -> Tuple[str, str]:
+    """Process a single paper file."""
+    with open(filepath, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    fm_dict, raw_fm, body = extract_frontmatter_and_content(content)
+    
+    tags = generate_tags(fm_dict)
+    newtags_str = ", ".join(tags)
+    
+    # Update the file
+    new_fm = update_frontmatter(raw_fm, newtags_str)
+    new_content = f"---\n{new_fm}\n---\n{body}"
+    
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write(new_content)
+    
+    return filepath.name, newtags_str
+
+def main():
+    """Process all papers."""
+    papers = list(PAPERS_DIR.glob("*.md"))
+    print(f"Found {len(papers)} papers to process\n")
+    
+    count_tagged = 0
+    
+    for paper in sorted(papers):
+        try:
+            name, newtags = process_paper(paper)
+            if newtags:
+                count_tagged += 1
+                # Print first few for verification
+                if count_tagged <= 10:
+                    print(f"{name}:\n  newtags: {newtags}")
+        except Exception as e:
+            print(f"Error processing {paper.name}: {e}")
+            
+    print(f"\nTotal papers processed: {len(papers)}")
+    print(f"Papers with at least one tag: {count_tagged}")
+
+if __name__ == "__main__":
+    main()

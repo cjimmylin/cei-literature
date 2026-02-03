@@ -1,0 +1,32 @@
+{
+  "batch_id": 7,
+  "started_at": "2026-02-02T16:29:04.703513",
+  "total_pdfs": 3,
+  "processed": 3,
+  "succeeded": 3,
+  "failed": 0,
+  "results": [
+    {
+      "pdf_filename": "Janus_arxiv_2410.13848.pdf",
+      "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/DeepSeek/Janus/Janus_arxiv_2410.13848.pdf",
+      "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/DeepSeek-Janus_arxiv_2410.13848.md",
+      "company": "DeepSeek",
+      "status": "success"
+    },
+    {
+      "pdf_filename": "RLP-Reinforcement-Pretraining-Objective.pdf",
+      "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/NVIDIA/Reinforcement-Learning/RLP-Reinforcement-Pretraining-Objective.pdf",
+      "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/NVIDIA-RLP-Reinforcement-Pretraining-Objective.md",
+      "company": "NVIDIA",
+      "status": "success"
+    },
+    {
+      "pdf_filename": "WorldPlay_Interactive_World_Modeling.pdf",
+      "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Tencent/HunyuanVideo/WorldPlay_Interactive_World_Modeling.pdf",
+      "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Tencent-WorldPlay_Interactive_World_Modeling.md",
+      "company": "Tencent",
+      "status": "success"
+    }
+  ],
+  "completed_at": "2026-02-02T16:29:05.093666"
+}

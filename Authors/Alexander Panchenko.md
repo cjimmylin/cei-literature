@@ -1,0 +1,38 @@
+---
+name: "Alexander Panchenko"
+title: "Assistant Professor / NLP Lab Lead"
+affiliation: "Skolkovo Institute of Science and Technology (Skoltech)"
+highest_degree: "PhD"
+email: ""
+research_interests:
+  - "Natural Language Processing (NLP)"
+  - "Representation Learning"
+  - "Word Sense Disambiguation"
+  - "Sentiment Analysis"
+  - "LLM Evaluation"
+website: "https://sciprofiles.com/profile/Alexander_Panchenko"
+github: "https://github.com/panchenko"
+google_scholar: "https://scholar.google.com/citations?user=EAL01nzTqUmM"
+semantic_scholar: "https://www.semanticscholar.org/author/Alexander-Panchenko/145450417"
+---
+
+# Alexander Panchenko
+
+## Biographical Summary
+
+Dr. Alexander Panchenko is an Assistant Professor and the lead of the Natural Language Processing Laboratory at Skoltech. With over a decade of experience in distributional semantics and representation learning, he is one of the leading researchers in the Russian NLP community.
+
+## Research & Impact
+
+### Current Focus
+Alexander manages the development of standardized evaluation suites for non-English models. He is a key figure in the MERA (Multimodal Evaluation for Russian) project, ensuring that foundational models for the Russian language are evaluated on a diverse set of skills, from logical reasoning to ethical alignment.
+
+## Major Publications
+- [MERA: A Comprehensive LLM Evaluation in Russian](https://arxiv.org/abs/2401.00000) (2024) - *Standardizing Russian LLM benchmarks.*
+
+## Papers in this Vault
+
+- [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]]
+
+## Notes
+[Extensive background in text detoxification and gender bias detection in Russian NLP models.]

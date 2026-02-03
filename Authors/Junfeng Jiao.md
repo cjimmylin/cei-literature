@@ -1,0 +1,26 @@
+---
+name: "Junfeng Jiao"
+affiliation: "University of Texas at Austin"
+research_interests:
+  - "LLM Ethics"
+  - "Moral Reasoning"
+  - "AI Safety"
+  - "Urban Informatics"
+website: ""
+google_scholar: ""
+semantic_scholar: "https://www.semanticscholar.org/author/Junfeng-Jiao/27c53381af4d06fc3327dd8d138a0b9e0acdf27e"
+---
+
+# Junfeng Jiao
+
+## Research Summary
+
+Researcher at University of Texas at Austin's Urban Information Lab. Lead author on "LLM ethics benchmark: a three-dimensional assessment system for evaluating moral reasoning in large language models" (Scientific Reports 2025). Framework evaluates LLM alignment with human ethical standards through foundational moral principles, reasoning robustness, and value consistency across diverse scenarios. Addresses ethical evaluation challenges in AI systems.
+
+## Papers in this Vault
+
+- [[2025-Jiao-LLM Ethics Benchmark|LLM Ethics Benchmark]]
+
+## Notes
+
+[Additional context or contact information]

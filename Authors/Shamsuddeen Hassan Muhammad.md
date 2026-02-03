@@ -1,0 +1,26 @@
+---
+name: "Shamsuddeen Hassan Muhammad"
+affiliation: "Imperial College London & Bayero University Kano"
+research_interests:
+  - "Natural Language Processing"
+  - "African Languages NLP"
+  - "Low-Resource Languages"
+  - "Hausa Language Processing"
+website: "https://shmuhammadd.github.io/"
+google_scholar: "https://scholar.google.com/citations?user=Ne1nt4gAAAAJ"
+semantic_scholar: ""
+---
+
+# Shamsuddeen Hassan Muhammad
+
+## Research Summary
+
+Advanced Research Fellow at Imperial College London and Google DeepMind Academic Fellow. Also affiliated with Bayero University, Kano. Research focuses on Natural Language Processing for low-resource African languages, particularly Hausa. Published in top venues including ACL, EMNLP, NAACL, ICLR, and NeurIPS. Co-founder of HausaNLP research group, advancing research and development in the Hausa language. Lecturer at Bayero University Kano.
+
+## Papers in this Vault
+
+- [[2023-Muhammad-SemEval-2023 Task 12|SemEval-2023 Task 12]]
+
+## Notes
+
+[Additional context or contact information]

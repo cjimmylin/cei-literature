@@ -1,0 +1,69 @@
+---
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: MQ33Y2XN
+type: journalArticle
+short_title: "Evaluating Prompt Injection Attacks with"
+year: 2025
+first_author: "[[Sharaf Rashid]]"
+authors: "Sharaf Rashid; Edson Bollis; Lucas Pellicer; Darian Rabbani; Rafael Palacios; Aneesh Gupta; Amar Gupta"
+doi: 10.3390/make7030077
+url: "https://www.mdpi.com/2504-4990/7/3/77"
+external_pdf: "file:///Users/jimmylin/Zotero/storage/L5X24WSS/Rashid et al. - 2025 - Evaluating Prompt Injection Attacks with LSTM-Based Generative Adversarial Networks A Lightweight A.pdf"
+national_ethnic_cultural: N/A
+religious_values: N/A
+moral_psychology: N/A
+newtags: 
+tags: 
+abstract: "Generative Adversarial Networks (GANs) using Long Short-Term Memory (LSTM) provide a computationally cheaper approach for text generation compared to large language models (LLMs). The low hardware barrier of training GANs poses a threat because it means more bad actors may use them to mass-produce prompt attack messages against LLM systems. Thus, to better understand the threat of GANs being used for prompt attack generation, we train two well-known GAN architectures, SeqGAN and RelGAN, on promp"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+research_topic: "AI Safety & Alignment"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
+pdf_extract: "PDF Extracts/2025-Rashid-Evaluating Prompt Injection Attacks with.md"
+---
+# Evaluating Prompt Injection Attacks with LSTM-Based Generative Adversarial Networks: A Lightweight Alternative to Large Language Models
+
+## Metadata
+
+**Authors:** Rashid, Sharaf; Bollis, Edson; Pellicer, Lucas; Rabbani, Darian; Palacios, Rafael; Gupta, Aneesh; Gupta, Amar
+
+**Year:** 2025
+
+**Publication:** Machine Learning and Knowledge Extraction
+
+**Type:** journalArticle
+
+**DOI:** [10.3390/make7030077](https://doi.org/10.3390/make7030077)
+
+**Pages:** 77
+
+**Volume/Issue:** Vol. 7, Issue 3
+
+## Links
+
+- **URL:** https://www.mdpi.com/2504-4990/7/3/77
+- **DOI:** https://doi.org/10.3390/make7030077
+
+## Abstract
+
+Generative Adversarial Networks (GANs) using Long Short-Term Memory (LSTM) provide a computationally cheaper approach for text generation compared to large language models (LLMs). The low hardware barrier of training GANs poses a threat because it means more bad actors may use them to mass-produce prompt attack messages against LLM systems. Thus, to better understand the threat of GANs being used for prompt attack generation, we train two well-known GAN architectures, SeqGAN and RelGAN, on prompt attack messages. For each architecture, we evaluate generated prompt attack messages, comparing results with each other, with generated attacks from another computationally cheap approach, a 1-billion-parameter Llama 3.2 small language model (SLM), and with messages from the original dataset. This evaluation suggests that GAN architectures like SeqGAN and RelGAN have the potential to be used in conjunction with SLMs to readily generate malicious prompts that impose new threats against LLM-based systems such as chatbots. Analyzing the effectiveness of state-of-the-art defenses against prompt attacks, we also find that GAN-generated attacks can deceive most of these defenses with varying levels of success with the exception of Meta’s PromptGuard. Further, we suggest an improvement of prompt attack defenses based on the analysis of the language quality of the prompts, which we found to be the weakest point of GAN-generated messages.
+
+## Authors
+
+[[Sharaf Rashid]], [[Edson Bollis]], [[Lucas Pellicer]], [[Darian Rabbani]], [[Rafael Palacios]], [[Aneesh Gupta]], [[Amar Gupta]]
+
+## Notes
+
+
+## Citation Info
+
+0 citations (Semantic Scholar/DOI) [2025-08-27]

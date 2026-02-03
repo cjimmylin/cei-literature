@@ -1,0 +1,9 @@
+Corrupted Abstracts Fix Report
+============================================================
+
+Total corrupted: 0
+Fixed from body: 0
+Fixed from arXiv: 0
+Fixed from Semantic Scholar: 0
+Still corrupted: 0
+

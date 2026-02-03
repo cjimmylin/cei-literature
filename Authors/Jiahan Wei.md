@@ -1,0 +1,24 @@
+---
+name: "Jiahan Wei"
+affiliation: "University/Organization"
+research_interests:
+  - "Topic 1"
+  - "Topic 2"
+website: ""
+google_scholar: ""
+semantic_scholar: ""
+---
+
+# Jiahan Wei
+
+## Research Summary
+
+[Brief summary of the author's research focus and contributions]
+
+## Papers in this Vault
+
+- [[2024-Cao-The Moral Foundations Weibo Corpus|The Moral Foundations Weibo Corpus]]
+
+## Notes
+
+[Additional context or contact information]

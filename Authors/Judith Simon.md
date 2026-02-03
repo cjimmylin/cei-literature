@@ -1,0 +1,24 @@
+---
+name: "Judith Simon"
+affiliation: "University/Organization"
+research_interests:
+  - "Topic 1"
+  - "Topic 2"
+website: ""
+google_scholar: ""
+semantic_scholar: ""
+---
+
+# Judith Simon
+
+## Research Summary
+
+[Brief summary of the author's research focus and contributions]
+
+## Papers in this Vault
+
+- [[2023-Vida-Values, Ethics, Morals|Values, Ethics, Morals?]]
+
+## Notes
+
+[Additional context or contact information]

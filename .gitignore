@@ -1,0 +1,25 @@
+# Local configuration (contains user-specific paths)
+.vault-config.json
+
+# Log files
+logs/*.json
+logs/*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# AI Labs PDFs (stub files - actual PDFs are in external AI-Lab-PDFs directory)
+AI Labs/**/*.pdf
+
+# RECYCLE-BIN directory (deleted/archived files - should not be synced)
+RECYCLE-BIN/

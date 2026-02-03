@@ -1,0 +1,78 @@
+---
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: 2M4DFURK
+type: preprint
+short_title: M$^3$oralBench
+year: 2024
+first_author: "[[Bei Yan]]"
+authors: "Bei Yan; Jie Zhang; Zhiyuan Chen; Shiguang Shan; Xilin Chen"
+doi: 10.48550/arXiv.2412.20718
+url: "http://arxiv.org/abs/2412.20718"
+external_pdf: "http://arxiv.org/pdf/2412.20718.pdf"
+national_ethnic_cultural: N/A
+religious_values: N/A
+moral_psychology: "Moral Foundations Theory"
+newtags: "Moral Foundations Theory, Moral Reasoning & Psychology"
+key_contribution: "Introduced M3oralBench, the first Multimodal Moral Benchmark for Large Vision-Language Models (LVLMs), expanding Moral Foundations Vignettes into text-image pairs."
+significance: "Exposes the moral limitations of LVLMs, showing that adding visual modalities introduces new complexities in moral judgment that text-only benchmarks fail to capture."
+tags: 
+pdf_extract: "PDF Extracts/2024-Yan-M$^3$oralBench.md"
+abstract: "Recently, large foundation models, including large lan- guage models (LLMs) and large vision-language models (LVLMs), have become essential tools in critical fields such as law, finance, and healthcare. As these models increas- ingly integrate into our daily life, it is necessary to conduct moral evaluation to ensure that their outputs align with hu- man values and remain within moral boundaries. Previous works primarily focus on LLMs, proposing moral datasets and benchmarks limited to text moda"
+paper_summary: "Abstract: Recently, large foundation models, including large lan- guage models (LLMs) and large vision-language models (LVLMs), have become essential tools in critical fields such as law, finance, and healthcar | Overview: M³oralBench: A MultiModal Moral Benchmark for LVLMs Bei Yan1,2, Jie Zhang1,2, Zhiyuan Chen1,2, Shiguang Shan1,2, Xilin Chen1,2 1Key Laboratory of AI Safety of CAS, Institute of Computing Technology, C | Conclusions: Ethical and Social Concerns. Our research performs a multimodal moral evaluation of LVLMs, probing potential moral issues within these models. All ima"
+local_pdf: "[[PDFs/2024-Yan-M$^3$oralBench.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Moral Reasoning & Psychology"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for moral/ethical reasoning dataset"
+data_metrics: "Not specified"
+---
+# M$^3$oralBench: A MultiModal Moral Benchmark for LVLMs
+
+## Metadata
+
+**Authors:** Yan, Bei; Zhang, Jie; Chen, Zhiyuan; Shan, Shiguang; Chen, Xilin
+
+**Year:** 2024
+
+**Type:** preprint
+
+**DOI:** [10.48550/arXiv.2412.20718](https://doi.org/10.48550/arXiv.2412.20718)
+
+**Publisher:** arXiv
+
+## Links
+
+- **Local PDF:** [[PDFs/2024-Yan-M$^3$oralBench.pdf|Open PDF]]
+
+- **arXiv:** http://arxiv.org/abs/2412.20718
+- **DOI:** https://doi.org/10.48550/arXiv.2412.20718
+
+## Abstract
+
+Recently, large foundation models, including large language models (LLMs) and large vision-language models (LVLMs), have become essential tools in critical fields such as law, finance, and healthcare. As these models increasingly integrate into our daily life, it is necessary to conduct moral evaluation to ensure that their outputs align with human values and remain within moral boundaries. Previous works primarily focus on LLMs, proposing moral datasets and benchmarks limited to text modality. However, given the rapid development of LVLMs, there is still a lack of multimodal moral evaluation methods. To bridge this gap, we introduce M³oralBench, the first MultiModal Moral Benchmark for LVLMs. M³oralBench expands the everyday moral scenarios in Moral Foundations Vignettes (MFVs) and employs the text-to-image diffusion model, SD3.0, to create corresponding scenario images. It conducts moral evaluation across six moral foundations of Moral Foundations Theory (MFT) and encompasses tasks in moral judgement, moral classification, and moral response, providing a comprehensive assessment of model performance in multimodal moral understanding and reasoning. Extensive experiments on 10 popular open-source and closed-source LVLMs demonstrate that M³oralBench is a challenging benchmark, exposing notable moral limitations in current models. Our benchmark is publicly available1.
+
+## Authors
+
+[[Bei Yan]], [[Jie Zhang]], [[Zhiyuan Chen]], [[Shiguang Shan]], [[Xilin Chen]]
+
+## Notes
+
+
+## Tags
+
+#Computer-Science---Artificial-Intelligence #Computer-Science---Computer-Vision-and-Pattern-Recognition
+
+## Citation Info
+
+1 citations (Semantic Scholar/DOI) [2025-08-27] 1 citations (Semantic Scholar/DOI) [2025-08-23]

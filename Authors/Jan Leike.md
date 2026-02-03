@@ -1,0 +1,51 @@
+---
+name: "Jan Leike"
+affiliation: "Anthropic"
+role: "Head of Alignment Science"
+research_interests:
+  - "AI Alignment"
+  - "Scalable Oversight"
+  - "Reinforcement Learning from Human Feedback"
+  - "Superalignment"
+  - "Weak-to-Strong Generalization"
+website: "https://jan.leike.name/"
+google_scholar: ""
+semantic_scholar: ""
+twitter: ""
+---
+
+# Jan Leike
+
+## Research Summary
+
+Jan Leike is one of the most prominent AI alignment researchers in the world, currently leading the Alignment Science team at Anthropic. His research aims to solve the hard problem of alignment: how to train AI systems to follow human intent on tasks that are difficult for humans to evaluate directly.
+
+Leike was featured in Time magazine's list of the 100 most influential personalities in AI in both 2023 and 2024, reflecting his central role in shaping the field of AI safety.
+
+### Career History
+
+**Anthropic (2024-present):** Joined in May 2024 to lead Alignment Science, focusing on scalable oversight, weak-to-strong generalization, and robustness to jailbreaks. His team researches how to align an automated alignment researcher.
+
+**OpenAI (2018-2024):** Co-led the Superalignment Team with Ilya Sutskever, developing techniques for aligning systems potentially smarter than humans. Key contributions include:
+- Development of InstructGPT and alignment of ChatGPT and GPT-4
+- Authoring OpenAI's approach to alignment research
+- Co-authoring the Superalignment Team's research roadmap
+
+His resignation from OpenAI in May 2024 made international headlines when he publicly stated that "safety culture and processes have taken a backseat to shiny products" and that he had "gradually lost trust" in OpenAI's leadership.
+
+**DeepMind:** Before OpenAI, he worked as an alignment researcher at DeepMind where he helped prototype Reinforcement Learning from Human Feedback (RLHF), which became foundational to modern LLM training.
+
+### Education
+
+- PhD in Machine Learning, Australian National University (under Marcus Hutter)
+- MSc in Computer Science
+- BSc from University of Freiburg, Germany
+- Postdoctoral fellowship at the Future of Humanity Institute
+
+## Papers in this Vault
+
+- [[2023-Burns-Weak-to-Strong Generalization|Weak-to-Strong Generalization: Eliciting Strong Capabilities with Weak Supervision]]
+
+## Notes
+
+Leike's work on weak-to-strong generalization demonstrated that smaller models (GPT-2 level) can be used to supervise larger models (GPT-4), achieving near GPT-3.5 performance - a key insight for aligning future superintelligent AI systems.

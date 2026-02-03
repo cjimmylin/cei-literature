@@ -1,0 +1,27 @@
+---
+name: "Amr A. Munshi"
+title: "Researcher"
+affiliation: "King Abdulaziz University (Saudi Arabia)"
+research_interests:
+  - "Arabic NLP"
+  - "Islamic Informatics"
+  - "Question Answering Systems"
+  - "Deep Learning for Text"
+website: ""
+google_scholar: ""
+semantic_scholar: ""
+---
+
+# Amr A. Munshi
+
+## Research Summary
+
+Amr A. Munshi is a researcher at King Abdulaziz University in Saudi Arabia, working on Arabic natural language processing and Islamic informatics. He led the development of the first automated Islamic Fatwa system, applying AI and deep learning NLP methods to religious question answering. His work includes building the largest dataset for Islamic Fatwa, spanning widely used Fatwa websites, with baseline systems for topic classification, topic modeling, and retrieval-based question answering.
+
+## Papers in this Vault
+
+- [[2021-Munshi-Towards an Automated Islamic Fatwa System|Towards an Automated Islamic Fatwa System]]
+
+## Notes
+
+Pioneer in applying AI/ML to Islamic religious text processing. Published in International Journal of Computer Science and Mobile Computing.

@@ -1,0 +1,23 @@
+[
+  {
+    "pdf_filename": "Gemini_2.0_Flash_Model_Card.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Google DeepMind/Gemini 2.0/Gemini_2.0_Flash_Model_Card.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Google DeepMind-Gemini_2.0_Flash_Model_Card.md",
+    "company": "Google DeepMind",
+    "model": "Gemini 2.0"
+  },
+  {
+    "pdf_filename": "Nemotron-Cascade-Scaling-Cascaded-RL.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/NVIDIA/Reinforcement-Learning/Nemotron-Cascade-Scaling-Cascaded-RL.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/NVIDIA-Nemotron-Cascade-Scaling-Cascaded-RL.md",
+    "company": "NVIDIA",
+    "model": "Reinforcement-Learning"
+  },
+  {
+    "pdf_filename": "HunyuanVideo_Systematic_Framework.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Tencent/HunyuanVideo/HunyuanVideo_Systematic_Framework.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Tencent-HunyuanVideo_Systematic_Framework.md",
+    "company": "Tencent",
+    "model": "HunyuanVideo"
+  }
+]

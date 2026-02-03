@@ -1,0 +1,50 @@
+[
+  {
+    "file": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Anthropic-Core_Views_on_AI_Safety.md",
+    "verification": {
+      "exists": false,
+      "valid_yaml": false,
+      "has_content": false,
+      "file_size": 0,
+      "issues": [
+        "File does not exist"
+      ]
+    }
+  },
+  {
+    "file": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Anthropic-Claude_Character_2024.md",
+    "verification": {
+      "exists": false,
+      "valid_yaml": false,
+      "has_content": false,
+      "file_size": 0,
+      "issues": [
+        "File does not exist"
+      ]
+    }
+  },
+  {
+    "file": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Anthropic-Scaling_Monosemanticity_Features_in_Claude_3_Sonnet_2024.md",
+    "verification": {
+      "exists": false,
+      "valid_yaml": false,
+      "has_content": false,
+      "file_size": 0,
+      "issues": [
+        "File does not exist"
+      ]
+    }
+  },
+  {
+    "file": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Google DeepMind-Gemini_2.0_Flash_Model_Card.md",
+    "verification": {
+      "exists": false,
+      "valid_yaml": false,
+      "has_content": false,
+      "file_size": 0,
+      "issues": [
+        "File does not exist"
+      ]
+    }
+  }
+]

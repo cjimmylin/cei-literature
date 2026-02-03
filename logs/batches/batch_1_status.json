@@ -1,0 +1,39 @@
+{
+  "batch_id": 1,
+  "started_at": "2026-02-02T16:29:04.688675",
+  "total_pdfs": 4,
+  "processed": 4,
+  "succeeded": 4,
+  "failed": 0,
+  "results": [
+    {
+      "pdf_filename": "Constitutional_Classifiers_2501.18837.pdf",
+      "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Anthropic/Papers/Constitutional_Classifiers_2501.18837.pdf",
+      "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Anthropic-Constitutional_Classifiers_2501.18837.md",
+      "company": "Anthropic",
+      "status": "success"
+    },
+    {
+      "pdf_filename": "SAM_2_2408.00714.pdf",
+      "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Meta AI/Papers/SAM_2_2408.00714.pdf",
+      "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Meta AI-SAM_2_2408.00714.md",
+      "company": "Meta AI",
+      "status": "success"
+    },
+    {
+      "pdf_filename": "HY-Motion_1.0_Text_to_Motion.pdf",
+      "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Tencent/Hunyuan 3D/HY-Motion_1.0_Text_to_Motion.pdf",
+      "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Tencent-HY-Motion_1.0_Text_to_Motion.md",
+      "company": "Tencent",
+      "status": "success"
+    },
+    {
+      "pdf_filename": "iFSQ_Improving_FSQ_Image_Generation.pdf",
+      "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Tencent/Hunyuan Image/iFSQ_Improving_FSQ_Image_Generation.pdf",
+      "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Tencent-iFSQ_Improving_FSQ_Image_Generation.md",
+      "company": "Tencent",
+      "status": "success"
+    }
+  ],
+  "completed_at": "2026-02-02T16:29:05.927650"
+}

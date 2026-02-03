@@ -1,0 +1,54 @@
+============================================================
+Batch 9 - PDF Extraction Worker
+============================================================
+
+Loaded 3 PDFs to process
+
+[1/3] Processing: Gemini_2.0_Flash_Model_Card.pdf
+✗ Error processing Gemini_2.0_Flash_Model_Card.pdf: Failed to open file '/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Google DeepMind/Gemini 2.0/Gemini_2.0_Flash_Model_Card.pdf'.
+
+[2/3] Processing: Nemotron-Cascade-Scaling-Cascaded-RL.pdf
+✓ Extracted: Nemotron-Cascade-Scaling-Cascaded-RL.pdf (208,901 chars, 60 pages)
+
+[3/3] Processing: HunyuanVideo_Systematic_Framework.pdf
+MuPDF error: unsupported error: cannot create appearance stream for Screen annotations
+
+MuPDF error: unsupported error: cannot create appearance stream for Screen annotations
+
+MuPDF error: unsupported error: cannot create appearance stream for Screen annotations
+
+MuPDF error: unsupported error: cannot create appearance stream for Screen annotations
+
+MuPDF error: unsupported error: cannot create appearance stream for Screen annotations
+
+MuPDF error: unsupported error: cannot create appearance stream for Screen annotations
+
+MuPDF error: unsupported error: cannot create appearance stream for Screen annotations
+
+MuPDF error: unsupported error: cannot create appearance stream for Screen annotations
+
+MuPDF error: unsupported error: cannot create appearance stream for Screen annotations
+
+MuPDF error: unsupported error: cannot create appearance stream for Screen annotations
+
+MuPDF error: unsupported error: cannot create appearance stream for Screen annotations
+
+MuPDF error: unsupported error: cannot create appearance stream for Screen annotations
+
+MuPDF error: unsupported error: cannot create appearance stream for Screen annotations
+
+MuPDF error: unsupported error: cannot create appearance stream for Screen annotations
+
+MuPDF error: unsupported error: cannot create appearance stream for Screen annotations
+
+MuPDF error: unsupported error: cannot create appearance stream for Screen annotations
+
+✓ Extracted: HunyuanVideo_Systematic_Framework.pdf (97,153 chars, 35 pages)
+
+============================================================
+Batch 9 - COMPLETE
+============================================================
+Total: 3
+Succeeded: 2
+Failed: 1
+Status saved to: /Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/logs/batches/batch_9_status.json

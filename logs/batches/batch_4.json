@@ -1,0 +1,30 @@
+[
+  {
+    "pdf_filename": "Scaling_Monosemanticity_Features_in_Claude_3_Sonnet_2024.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Anthropic/Papers/Scaling_Monosemanticity_Features_in_Claude_3_Sonnet_2024.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Anthropic-Scaling_Monosemanticity_Features_in_Claude_3_Sonnet_2024.md",
+    "company": "Anthropic",
+    "model": null
+  },
+  {
+    "pdf_filename": "WizardLM_Empowering_Complex_Instructions.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Microsoft Research/WizardLM/WizardLM_Empowering_Complex_Instructions.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Microsoft Research-WizardLM_Empowering_Complex_Instructions.md",
+    "company": "Microsoft Research",
+    "model": "WizardLM"
+  },
+  {
+    "pdf_filename": "HunyuanProver_Automated_Theorem_Proving.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Tencent/HunyuanVideo/HunyuanProver_Automated_Theorem_Proving.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Tencent-HunyuanProver_Automated_Theorem_Proving.md",
+    "company": "Tencent",
+    "model": "HunyuanVideo"
+  },
+  {
+    "pdf_filename": "2025-11-17-grok-4-1-model-card.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/xAI/Grok 4.1 Fast/2025-11-17-grok-4-1-model-card.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/xAI-2025-11-17-grok-4-1-model-card.md",
+    "company": "xAI",
+    "model": "Grok 4.1 Fast"
+  }
+]

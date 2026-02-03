@@ -1,0 +1,65 @@
+---
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: 6HUKF7XV
+type: document
+short_title: FairTranslate
+year: 2025
+first_author: "[[Fanny Jourdan]]"
+authors: "[[Jourdan, Fanny]]; [[Chevalier, Yannick]]; [[Favre, Cécile]]"
+url: "https://arxiv.org/abs/2504.15941"
+local_pdf: "[[PDFs/2025-Jourdan-FairTranslate.pdf]]"
+external_pdf: "https://arxiv.org/pdf/2504.15941.pdf"
+national_ethnic_cultural: French
+religious_values: N/A
+moral_psychology: N/A
+newtags: "French, Deontology"
+key_contribution: "Evaluates non-binary gender biases in English-French translation, focusing on inclusive language (singular 'they')"
+significance: "Addresses the specific deontological duty of fairness/inclusivity in translation, revealing substantial biases in current models"
+pdf_extract: "PDF Extracts/2025-Jourdan-FairTranslate.md"
+tags: 
+abstract: "Large Language Models (LLMs) are increasingly leveraged for trans- lation tasks but often fall short when translating inclusive language – such as texts containing the singular ’they’ pronoun or otherwise reflecting fair linguistic protocols. Because these challenges span both computational and societal domains, it is imperative to criti- cally evaluate how well LLMs handle inclusive translation with a well-founded framework. This paper presents FairTranslate, a novel, fully human-annotated data"
+paper_summary: "Abstract: Large Language Models (LLMs) are increasingly leveraged for trans- lation tasks but often fall short when translating inclusive language – such as texts containing the singular ’they’ pronoun or other | Overview: FairTranslate: An English-French Dataset for Gender Bias Evaluation in Machine Translation by Overcoming Gender Binarity Fanny Jourdan fanny.jourdan@irt-saintexupery.com IRT Saint Exupery Toulouse, Fr | Conclusions: In this work, we introduced FairTranslate, a novel English-French translation dataset annotated by experts with extensive metadata, enabling detailed"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation framework annotated dataset"
+data_metrics: "Not specified"
+---
+ FairTranslate: An English-French Dataset for Gender Bias Evaluation in Machine Translation by Overcoming Gender Binarity
+
+## Authors
+
+[[Fanny Jourdan]], [[Yannick Chevalier]], [[Cécile Favre]]
+## Metadata
+
+**Authors:** Jourdan, Fanny; Chevalier, Yannick; Favre, Cécile
+
+**Year:** 2025
+
+**Type:** document
+
+## Links
+
+- **Local PDF:** [[PDFs/2025-Jourdan-FairTranslate.pdf|Open PDF]]
+
+- **arXiv:** https://arxiv.org/abs/2504.15941
+
+## Abstract
+
+Large Language Models (LLMs) are increasingly leveraged for translation tasks but often fall short when translating inclusive language -- such as texts containing the singular 'they' pronoun or otherwise reflecting fair linguistic protocols. Because these challenges span both computational and societal domains, it is imperative to critically evaluate how well LLMs handle inclusive translation with a well-founded framework. This paper presents FairTranslate, a novel, fully human-annotated dataset designed to evaluate non-binary gender biases in machine translation systems from English to French. FairTranslate includes 2418 English-French sentence pairs related to occupations, annotated with rich metadata such as the stereotypical alignment of the occupation, grammatical gender indicator ambiguity, and the ground-truth gender label (male, female, or inclusive). We evaluate four leading LLMs (Gemma2-2B, Mistral-7B, Llama3.1-8B, Llama3.3-70B) on this dataset under different prompting procedures. Our results reveal substantial biases in gender representation across LLMs, highlighting persistent challenges in achieving equitable outcomes in machine translation. These findings underscore the need for focused strategies and interventions aimed at ensuring fair and inclusive language usage in LLM-based translation systems. We make the FairTranslate dataset publicly available on Hugging Face, and disclose the code for all experiments on GitHub.
+
+## Notes
+
+
+## Citation Info
+
+38 citations (Semantic Scholar/arXiv) [2025-08-27]

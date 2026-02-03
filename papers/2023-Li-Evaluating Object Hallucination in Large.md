@@ -1,0 +1,66 @@
+---
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: VH3SW4EV
+type: document
+short_title: "Evaluating Object Hallucination in Large"
+year: 2023
+first_author: "[[Yifan Li]]"
+authors: "Yifan Li; Yifan Du; Kun Zhou; Jinpeng Wang; Wayne Xin Zhao; Ji-Rong Wen"
+url: "https://arxiv.org/abs/2305.10355"
+external_pdf: "https://arxiv.org/pdf/2305.10355.pdf"
+national_ethnic_cultural: N/A
+religious_values: N/A
+moral_psychology: N/A
+newtags: 
+tags: 
+pdf_extract: "PDF Extracts/2023-Li-Evaluating Object Hallucination in Large.md"
+abstract: "Inspired by the superior language abilities of large language models (LLM), large vision- language models (LVLM) have been recently proposed by integrating powerful LLMs for improving the performance on complex multi- modal tasks. Despite the promising progress on LVLMs, we find that they suffer from ob- ject hallucinations, i.e., they tend to generate objects inconsistent with the target images in the descriptions. To investigate it, this work presents the first systematic study on object hallu"
+paper_summary: "Abstract: Inspired by the superior language abilities of large language models (LLM), large vision- language models (LVLM) have been recently proposed by integrating powerful LLMs for improving the performance  | Overview: Evaluating Object Hallucination in Large Vision-Language Models Yifan Li1,3∗, Yifan Du1,3∗, Kun Zhou2∗, Jinpeng Wang 4, Wayne Xin Zhao2,3† and Ji-Rong Wen1, 2,3 1Gaoling School of Artificial Intellige | Key Findings: Yes, there is a pear in the image. Is there a pear in the image? Adversarial settings POPE Yes, there is a knife in the image. Is there a knife in the | Conclusions: In this work, we conducted evaluation experiments on several LVLMs and examined how they suffer from the object hallucination issue. By investigat- in"
+local_pdf: "[[PDFs/2023-Li-Evaluating Object Hallucination in Large.pdf]]"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Truthfulness & Factuality"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation methodology"
+data_metrics: "Not specified"
+---
+# Evaluating Object Hallucination in Large Vision-Language Models (POPE)
+
+## Metadata
+
+**Authors:** Li, Yifan; Du, Yifan; Zhou, Kun; Wang, Jinpeng; Zhao, Wayne Xin; Wen, Ji-Rong
+
+**Year:** 2023
+
+**Type:** document
+
+## Links
+
+- **Local PDF:** [[PDFs/2023-Li-Evaluating Object Hallucination in Large.pdf|Open PDF]]
+
+- **arXiv:** https://arxiv.org/abs/2305.10355
+
+## Abstract
+
+Inspired by the superior language abilities of large language models (LLM), large vision-language models (LVLM) have been recently explored by integrating powerful LLMs for improving the performance on complex multimodal tasks. Despite the promising progress on LVLMs, we find that LVLMs suffer from the hallucination problem, i.e. they tend to generate objects that are inconsistent with the target images in the descriptions. To investigate it, this work presents the first systematic study on object hallucination of LVLMs. We conduct the evaluation experiments on several representative LVLMs, and show that they mostly suffer from severe object hallucination issue. We further discuss that the visual instructions may influence the hallucination, and find that: objects that frequently occur in the visual instructions or co-occur with the image objects, are obviously prone to be hallucinated by LVLMs. Besides, we find that existing evaluation methods might be affected by the input instructions and generation styles of LVLMs. Thus, we further design an improved evaluation method for object hallucination by proposing a polling-based query method called POPE. Experiment results demonstrate that our POPE can evaluate the object hallucination in a more stable and flexible way. Our codes and data are publicly available at https://github.com/RUCAIBox/POPE.
+
+## Authors
+
+[[Yifan Li]], [[Yifan Du]], [[Kun Zhou]], [[Jinpeng Wang]], [[Wayne Xin Zhao]], [[Ji-Rong Wen]]
+
+## Notes
+
+
+## Citation Info
+
+926 citations (Semantic Scholar/arXiv) [2025-08-27]

@@ -1,0 +1,24 @@
+---
+name: "Noe Fabian Hsueh"
+affiliation: "University/Organization"
+research_interests:
+  - "Topic 1"
+  - "Topic 2"
+website: ""
+google_scholar: ""
+semantic_scholar: ""
+---
+
+# Noe Fabian Hsueh
+
+## Research Summary
+
+[Brief summary of the author's research focus and contributions]
+
+## Papers in this Vault
+
+- [[2024-Marraffini-The Greatest Good Benchmark|The Greatest Good Benchmark]]
+
+## Notes
+
+[Additional context or contact information]

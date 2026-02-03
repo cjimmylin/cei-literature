@@ -1,0 +1,79 @@
+---
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: N35RED3N
+type: conferencePaper
+short_title: "Apolitical Intelligence?"
+year: 2023
+first_author: "[[Jonathan H. Rystrøm]]"
+authors: "Jonathan H. Rystrøm"
+doi: 10.48550/arXiv.2306.13000
+url: "http://arxiv.org/abs/2306.13000"
+external_pdf: "http://arxiv.org/pdf/2306.13000.pdf"
+publication: arXiv.org
+national_ethnic_cultural: American
+religious_values: N/A
+moral_psychology: "Value Pluralism / Schwartz"
+newtags: "American, Value Pluralism / Schwartz, AI Safety & Alignment"
+key_contribution: "Audited Delphi's responses to controversial US political issues, finding it 'poorly calibrated' and exhibiting significant political skew (often left-leaning)."
+significance: "Critiques the notion of 'neutrality' in AI, arguing through a data-feminist lens that claiming neutrality often masks enforcing the status quo or specific political ideologies."
+tags: 
+pdf_extract: "PDF Extracts/2023-Rystrøm-Apolitical Intelligence.md"
+abstract: "As generative language models are deployed in ever-wider contexts, concerns about their political values have come to the forefront with critique from all parts of the political spec- trum that the models are biased and lack neutrality. However, the question of what neutrality is and whether it is desirable remains underexplored. In this paper, I examine neutrality through an audit of Delphi, a large language model designed for crowdsourced ethics. I analyse how Delphi responds to politically co"
+paper_summary: "Abstract: As generative language models are deployed in ever-wider contexts, concerns about their political values have come to the forefront with critique from all parts of the political spec- trum that the mo | Overview: Apolitical Intelligence? Auditing Delphi’s responses on controversial political issues in the US Jonathan H. Rystrøm Oxford Internet Institute Oxford, UK Abstract As generative language models are dep | Methodology: and training data for Delphi [43], doing a code audit would be infeasible given the complexity of the model [73]. Delphi has 11 billion non-linear par | Conclusions: 7.1 Key Findings H1 As shown in fig. 1, I found no relation between entropy and controversy. Most of Delphi’s responses had low entropy for both quest"
+local_pdf: "[[PDFs/2023-Rystrøm-Apolitical Intelligence.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
+---
+# Apolitical Intelligence? Auditing Delphi's responses on controversial political issues in the US
+
+## Metadata
+
+**Authors:** Rystrøm, Jonathan H.
+
+**Year:** 2023
+
+**Type:** preprint
+
+**DOI:** [10.48550/arXiv.2306.13000](https://doi.org/10.48550/arXiv.2306.13000)
+
+**Publisher:** arXiv
+
+## Links
+
+- **Local PDF:** [[PDFs/2023-Rystrøm-Apolitical Intelligence.pdf|Open PDF]]
+
+- **arXiv:** http://arxiv.org/abs/2306.13000
+- **DOI:** https://doi.org/10.48550/arXiv.2306.13000
+
+## Abstract
+
+As generative language models are deployed in ever-wider contexts, concerns about their political values have come to the forefront with critique from all parts of the political spectrum that the models are biased and lack neutrality. However, the question of what neutrality is and whether it is desirable remains underexplored. In this paper, I examine neutrality through an audit of Delphi, a large language model designed for crowdsourced ethics. I analyse how Delphi responds to politically controversial questions compared to different US political subgroups. I find that Delphi is poorly calibrated with respect to confidence and exhibits a significant political skew. Based on these results, I examine the question of neutrality from a data-feminist lens, in terms of how notions of neutrality shift power and further marginalise unheard voices. These findings can hopefully contribute to a more reflexive debate about the normative questions of alignment and what role we want generative models to play in society.
+
+## Authors
+
+[[Jonathan H. Rystrøm]]
+
+## Notes
+
+
+## Tags
+
+#Computer-Science---Artificial-Intelligence #Computer-Science---Computers-and-Society #Computer-Science---Computation-and-Language
+
+## Citation Info
+
+1 citations (Semantic Scholar/DOI) [2025-08-27] 0 citations (Semantic Scholar/DOI) [2025-08-23]

@@ -1,0 +1,83 @@
+---
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: 
+type: journalArticle
+short_title: "Beyond Preferences in AI Alignment"
+year: 2024
+first_author: "[[Tan Zhi-Xuan]]"
+authors: "Tan Zhi-Xuan; Micah Carroll; Matija Franklin; Hal Ashton"
+doi: 10.1007/s11098-024-02249-w
+url: "https://link.springer.com/article/10.1007/s11098-024-02249-w"
+external_pdf: "https://arxiv.org/pdf/2408.16984.pdf"
+publication: "Philosophical Studies"
+national_ethnic_cultural: N/A
+religious_values: N/A
+moral_psychology: N/A
+newtags: "Utilitarianism, Value Alignment, Expected Utility Theory"
+key_contribution: "Critiques expected utility maximization as the foundation for AI alignment"
+significance: "Proposes alternatives to preferentist approaches showing utility theory limitations"
+tags: 
+pdf_extract: "PDF Extracts/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.md"
+abstract: "The dominant practice of AI alignment assumes that preferences are an adequate representation of human values, that human rationality can be understood in terms of maximizing the satisfaction of preferences, and that AI systems should be aligned with preferences of one or more humans. These commitments constitute what we term a preferentist approach to AI alignment. In this paper, we characterize and challenge the preferentist approach, describing conceptual and technical alternatives. We argue ..."
+paper_summary: 
+local_pdf: "[[PDFs/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.pdf]]"
+ethics_overall: Yes
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
+data_metrics: "Not specified"
+---
+# Beyond Preferences in AI Alignment
+
+## Metadata
+
+**Authors:** Tan Zhi-Xuan; Micah Carroll; Matija Franklin; Hal Ashton
+
+**Year:** 2024
+
+**Type:** journalArticle
+
+**DOI:** [10.1007/s11098-024-02249-w](https://doi.org/10.1007/s11098-024-02249-w)
+
+**Publisher:** Philosophical Studies
+
+## Links
+
+- **Local PDF:** [[PDFs/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.pdf|Open PDF]]
+
+- **URL:** https://link.springer.com/article/10.1007/s11098-024-02249-w
+- **DOI:** https://doi.org/10.1007/s11098-024-02249-w
+
+## Abstract
+
+The dominant practice of AI alignment assumes that preferences are an adequate representation of human values, that human rationality can be understood in terms of maximizing the satisfaction of preferences, and that AI systems should be aligned with preferences of one or more humans. These commitments constitute what we term a preferentist approach to AI alignment. In this paper, we characterize and challenge the preferentist approach, describing conceptual and technical alternatives. We argue that expected utility theory is both unnecessary and insufficient for rational agency.
+
+## Authors
+
+[[Tan Zhi-Xuan]], [[Micah Carroll]], [[Matija Franklin]], [[Hal Ashton]]
+
+## Key Contribution
+
+Critiques expected utility maximization as the foundation for AI alignment
+
+## Significance
+
+Proposes alternatives to preferentist approaches showing utility theory limitations
+
+## Notes
+
+
+
+## Tags
+
+#Utilitarianism-#Value-Alignment-#Expected-Utility-Theory
+
+## Citation Info
+

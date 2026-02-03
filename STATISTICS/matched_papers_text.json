@@ -1,0 +1,1175 @@
+[
+  {
+    "text": "We review a broad range of work, primarily in cognitive and social psychology, that provides insight into the processes of moral judgment. In particular, we consider research on pragmatic reasoning about regulations and on coherence in decision making, both areas in which psychological theories have been guided by work in legal philosophy. Armed with these essential prerequisites, we sketch a psychological framework for how ordinary people make judgments about moral issues. Based on a literature review, we show how the framework of deontological coherence unifies findings in moral psychology that have often been explained in terms of a grab-bag of heuristics and biases. (PsycINFO Database Record",
+    "year": "2016",
+    "author": "Keith J. Holyoak",
+    "title": "Deontological coherence",
+    "link": "[[2016-Holyoak-Deontological coherence.md]]",
+    "categories": [
+      "DEONTOLOGY"
+    ]
+  },
+  {
+    "text": "Deontology and utilitarianism are two competing principles that guide our moral judgment. Recently, deontology is thought to be intuitive and is based on an error-prone and biased approach, whereas utilitarianism is relatively re\ufb02ective and a suitable framework for making decision. In this research, the authors explored the relationship among moral identity, moral decision, and moral behavior to see how a preference for the deontological solution can lead to moral behavior. In study 1, a Webbase",
+    "year": "2016",
+    "author": "Zhi Xing Xu",
+    "title": "How Can a Deontological Decision Lead to Moral",
+    "link": "[[2016-Xu-How Can a Deontological Decision Lead to Moral.md]]",
+    "categories": [
+      "DEONTOLOGY",
+      "UTILITARIAN"
+    ]
+  },
+  {
+    "text": "What modes of moral reasoning do judges employ? We construct a linear SVM classi\ufb01er for moral reasoning mode trained on applied ethics articles written by consequentialists and deontologists. The model can classify a paragraph of text in held out data with over 90 percent accuracy. We then apply this classi\ufb01er to a corpus of circuit court opinions. We show that the use of consequentialist reasoning has increased over time. We report rankings of relative use of reasoning modes by legal topic, by",
+    "year": "2020",
+    "author": "Nischal Mainali",
+    "title": "Automated Classification of Modes of Moral",
+    "link": "[[2020-Mainali-Automated Classification of Modes of Moral.md]]",
+    "categories": [
+      "UTILITARIAN"
+    ]
+  },
+  {
+    "text": "Allowing machines to choose whether to kill humans would be devastating for world peace and security. But how do we equip machines with the ability to learn ethical or even moral choices? In this study, we show that applying machine learning to human texts can extract deontological ethical reasoning about \u201cright\u201d and \u201cwrong\u201d conduct. We create a template list of prompts and responses, such as \u201cShould I [action]?\u201d, \u201cIs it okay to [action]?\u201d, etc. with corresponding answers of \u201cYes/no, I should (n",
+    "year": "2020",
+    "author": "Patrick Schramowski",
+    "title": "The Moral Choice Machine",
+    "link": "[[2020-Schramowski-The Moral Choice Machine.md]]",
+    "categories": [
+      "DEONTOLOGY"
+    ]
+  },
+  {
+    "text": "Given the broad capabilities of large language models, it should be possible to work towards a general-purpose, text-based assistant that is aligned with human values, meaning that it is helpful, honest, and harmless. As an initial foray in this direction we study simple baseline techniques and evaluations, such as prompting. We \ufb01nd that the bene\ufb01ts from modest interventions increase with model size, generalize to a variety of alignment evaluations, and do not compromise the performance of large",
+    "year": "2021",
+    "author": "Amanda Askell",
+    "title": "A General Language Assistant as a Laboratory for",
+    "link": "[[2021-Askell-A General Language Assistant as a Laboratory for.md]]",
+    "categories": [
+      "ALIGN_CONSTITUTIONAL"
+    ]
+  },
+  {
+    "text": "Recent work in natural language processing (NLP) has focused on ethical challenges such as understanding and mitigating bias in data and algorithms; identifying objectionable con- tent like hate speech, stereotypes and offen- sive language; and building frameworks for better system design and data handling prac- tices. However, there has been little discus- sion about the ethical foundations that underlie these efforts. In this work, we study one ethi- cal theory, namely deontological ethics, fr",
+    "year": "2021",
+    "author": "Shrimai Prabhumoye",
+    "title": "Case Study",
+    "link": "[[2021-Prabhumoye-Case Study.md]]",
+    "categories": [
+      "DEONTOLOGY"
+    ]
+  },
+  {
+    "text": "Much research on moral judgment is centered on moral dilemmas in which deontological perspectives (i.e., emphasizing rules, individual rights and duties) are in conflict with utilitarian judgements (i.e., following the greater good defined through consequences). A central finding of this field Greene et al. showed that psychological and situational factors (e.g., the intent of the agent, or physical contact between the agent and the victim) play an important role in people\u2019s use of deontological",
+    "year": "2022",
+    "author": "Bence Bago",
+    "title": "Situational factors shape moral judgments in the",
+    "link": "[[2022-Bago-Situational factors shape moral judgments in the.md]]",
+    "categories": [
+      "DEONTOLOGY",
+      "UTILITARIAN"
+    ]
+  },
+  {
+    "text": "As AI systems become more capable, we would like to enlist their help to supervise other AIs. We experiment with methods for training a harmless AI assistant through self- improvement, without any human labels identifying harmful outputs. The only human oversight is provided through a list of rules or principles, and so we refer to the method as \u2018Constitutional AI\u2019. The process involves both a supervised learning and a reinforcement learning phase. In the supervised phase we sample from an initi",
+    "year": "2022",
+    "author": "Yuntao Bai",
+    "title": "Constitutional AI",
+    "link": "[[2022-Bai-Constitutional AI.md]]",
+    "categories": [
+      "ALIGN_CONSTITUTIONAL"
+    ]
+  },
+  {
+    "text": "We apply preference modeling and reinforcement learning from human feedback (RLHF) to \ufb01netune language models to act as helpful and harmless assistants. We \ufb01nd this align- ment training improves performance on almost all NLP evaluations, and is fully compatible with training for specialized skills such as python coding and summarization. We explore an iterated online mode of training, where preference models and RL policies are updated on a weekly cadence with fresh human feedback data, ef\ufb01cient",
+    "year": "2022",
+    "author": "Yuntao Bai",
+    "title": "Training a Helpful and Harmless Assistant with",
+    "link": "[[2022-Bai-Training a Helpful and Harmless Assistant with.md]]",
+    "categories": [
+      "ALIGN_RLHF"
+    ]
+  },
+  {
+    "text": "We describe our early efforts to red team language models in order to simultaneously dis- cover, measure, and attempt to reduce their potentially harmful outputs. We make three main contributions. First, we investigate scaling behaviors for red teaming across 3 model sizes (2.7B, 13B, and 52B parameters) and 4 model types: a plain language model (LM); an LM prompted to be helpful, honest, and harmless; an LM with rejection sampling; and a model trained to be helpful and harmless using reinforcem",
+    "year": "2022",
+    "author": "Deep Ganguli",
+    "title": "Red Teaming Language Models to Reduce Harms",
+    "link": "[[2022-Ganguli-Red Teaming Language Models to Reduce Harms.md]]",
+    "categories": [
+      "ALIGN_CONSTITUTIONAL"
+    ]
+  },
+  {
+    "text": "Research on fairness, accountability, transparency and ethics of AI-based interventions in society has gained much-needed momentum in recent years. However it lacks an explicit alignment with a set of normative values and principles that guide this research and interventions. Rather, an implicit consensus is often assumed to hold for the values we impart into our models - something that is at odds with the pluralistic world we live in. In this paper, we put forth the doctrine of universal human",
+    "year": "2022",
+    "author": "Vinodkumar Prabhakaran",
+    "title": "A Human Rights-Based Approach to Responsible AI",
+    "link": "[[2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI.md]]",
+    "categories": [
+      "ALIGN_PLURALISM"
+    ]
+  },
+  {
+    "text": "Moral framing and sentiment can affect a variety of online and offline behaviors, including donation, environmental action, political engagement, and protest. Various computational methods in Natural Language Processing (NLP) have been used to detect moral sentiment from textual data, but achieving strong performance in such subjective tasks requires large, hand-annotated datasets. Previous corpora annotated for moral sentiment have proven valuable, and have generated new insights both within NL",
+    "year": "2022",
+    "author": "Jackson Trager",
+    "title": "The Moral Foundations Reddit Corpus",
+    "link": "[[2022-Trager-The Moral Foundations Reddit Corpus.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Widely used alignment techniques, such as reinforcement learning from human feedback (RLHF), rely on the ability of humans to supervise model behavior\u2014for example, to evaluate whether a model faithfully followed instructions or generated safe outputs. However, future superhuman models will behave in complex ways too difficult for humans to reliably evaluate; humans will only be able to weakly supervise superhuman models. We study an analogy to this problem: can weak model supervision elicit the",
+    "year": "2023",
+    "author": "Collin Burns",
+    "title": "Weak-to-Strong Generalization",
+    "link": "[[2023-Burns-Weak-to-Strong Generalization.md]]",
+    "categories": [
+      "ALIGN_RLHF"
+    ]
+  },
+  {
+    "text": "Grasping morality is vital in AI systems, particularly as they become more prevalent in human-focused applications. Yet, research is scarce on this topic. This study presents the Emotion-based Morality in Tagalog and English Scenarios (EMoTES-3K), a collection that shows commonsense morality in both Filipino and English. This dataset is instrumental for analyzing moral decisions in various situations and their justifications. Our tests show that EMoTES-3K is effective for moral text categorization, with the fine-tuned RoBERTa model scoring 94.95% accuracy in English and 88.53% in Filipino. The dataset also excels in text generation tasks, as shown by fine-tuning the FLAN-T5 model to produce clear moral explanations. However, the model faces challenges when dealing with actions that have mixed moral implications. This work not only bridges the gap in moral reasoning datasets for languages like Filipino but also sets the stage for future research in commonsense moral reasoning in artificial intelligence.",
+    "year": "2023",
+    "author": "Jasper Kyle Catapang",
+    "title": "EMoTES-3K",
+    "link": "[[2023-Catapang-EMoTES-3K.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "As AI systems become more intelligent and their behavior becomes more challenging to assess, they may learn to game the flaws of human feed- back instead of genuinely striving to follow in- structions; however, this risk can be mitigated by controlling how LLMs generalize human feed- back to situations where it is unreliable. To better understand how reward models generalize, we craft 69 distribution shifts spanning 8 categories. We find that reward models do not learn to evalu- ate \u2018instruction",
+    "year": "2023",
+    "author": "Joshua Clymer",
+    "title": "Generalization Analogies",
+    "link": "[[2023-Clymer-Generalization Analogies.md]]",
+    "categories": [
+      "ALIGN_RLHF"
+    ]
+  },
+  {
+    "text": "AI alignment considers how we can encode AI systems in a way that is compatible with human values. The normative side of this problem asks what moral values or principles, if any, we should encode in AI. To this end, we present a framework to consider the question at four levels: Individual, Organizational, National, and Global. We aim to illustrate how AI alignment is made up of value alignment problems at each of these levels, where values at each level affect the others and effects can \ufb02ow in",
+    "year": "2023",
+    "author": "Betty Li Hou",
+    "title": "A Multi-Level Framework for the AI Alignment",
+    "link": "[[2023-Hou-A Multi-Level Framework for the AI Alignment.md]]",
+    "categories": [
+      "ALIGN_GENERAL"
+    ]
+  },
+  {
+    "text": "KOME (Korean Online Moral Emotion) is a Korean dataset of fine-grained moral emotions, developed at KAIST to study moral emotion in online discourse. The dataset includes Korean social media content labeled with moral emotion categories based on moral foundations theory, including other-condemning emotions (anger, contempt, disgust), other-praising emotions (admiration, gratitude, awe), empathetic emotions (compassion, sympathy), and self-conscious emotions (shame, guilt, embarrassment). The dataset enables research on how moral emotions shape online discourse and political participation.",
+    "year": "2023",
+    "author": "Jaehong Kim",
+    "title": "KOME",
+    "link": "[[2023-Kim-KOME.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Moral dilemmas are frequently used to examine psychological processes that drive decisions between adhering to deontological norms and optimizing the outcome. However, commonly used dilemmas are generally unrealistic and confound moral principle and (in)action so that results obtained with these dilemmas might not generalize to other situations. In the present research, we introduce new dilemmas that are based on real-life events. In two studies (a European student sample and a North American MT",
+    "year": "2023",
+    "author": "Anita K\u00f6rner",
+    "title": "Deontology and Utilitarianism in Real Life",
+    "link": "[[2023-K\u00f6rner-Deontology and Utilitarianism in Real Life.md]]",
+    "categories": [
+      "DEONTOLOGY"
+    ]
+  },
+  {
+    "text": "AI alignment refers to models acting towards human-intended goals, preferences, or ethical principles. In this paper, we focus on the models\u2019 visual perception alignment with humans, further referred to as AI-human visual alignment. Specifically, we propose a new dataset for measuring AI-human visual alignment in terms of image classi\ufb01cation. In order to evaluate AI-human visual alignment, a dataset should encompass samples with various scenarios and have gold human perception labels. Our datase",
+    "year": "2023",
+    "author": "Jiyoung Lee",
+    "title": "VisAlign",
+    "link": "[[2023-Lee-VisAlign.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Alignment has become a critical step for instruction-tuned Large Language Models (LLMs) to become helpful assistants. However, the effective evaluation of alignment for emerg- ing Chinese LLMs is still largely unexplored. To fill in this gap, we introduce ALIGNBENCH, a comprehensive multi-dimensional benchmark for evaluating LLMs\u2019 alignment in Chinese. We design a human-in-the-loop data curation pipeline, containing eight main categories, 683 real-scenario rooted queries and correspond- ing huma",
+    "year": "2023",
+    "author": "Xiao Liu",
+    "title": "AlignBench",
+    "link": "[[2023-Liu-AlignBench.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Drawing upon cross-sectional research with pre- and in-service police officers in the U.K. (N = 571), this paper reports on the moral reasoning strategies favored by the respondents in dealing with bespoke work-related moral quandaries specific to the professional practice of policing. The dominant form of moral reasoning in dealing with those dilemmas was deontological (rule-based). The second most frequently selected reasoning strategy was virtue ethical. Further analysis of the police researc",
+    "year": "2023",
+    "author": "Andrew Maile",
+    "title": "The choice of deontological, virtue ethical, and",
+    "link": "[[2023-Maile-The choice of deontological, virtue ethical, and.md]]",
+    "categories": [
+      "DEONTOLOGY"
+    ]
+  },
+  {
+    "text": "In this position paper, we argue that instead of morally aligning LLMs to specific set of ethi- cal principles, we should infuse generic ethical reasoning capabilities into them so that they can handle value pluralism at a global scale. When provided with an ethical policy, an LLM should be capable of making decisions that are ethically consistent to the policy. We develop a framework that integrates moral dilemmas with moral principles pertaining to different foram- lisms of normative ethics, a",
+    "year": "2023",
+    "author": "Abhinav Rao",
+    "title": "Ethical Reasoning over Moral Alignment",
+    "link": "[[2023-Rao-Ethical Reasoning over Moral Alignment.md]]",
+    "categories": [
+      "ALIGN_PLURALISM"
+    ]
+  },
+  {
+    "text": "Generative AI systems (ChatGPT, DALL-E, etc) are expanding into multiple areas of our lives, from art Rombach et al. [2021] to mental health Rob Morris and Kareem Kouddous [2022]; their rapidly growing societal impact opens new opportunities, but also raises ethical concerns. The emerging field of AI alignment aims to make AI systems reflect human values. This paper focuses on evaluating the ethics of multimodal AI systems involving both text and images - a relatively under-explored area, as mos",
+    "year": "2023",
+    "author": "Alexis Roger",
+    "title": "Towards ethical multimodal systems",
+    "link": "[[2023-Roger-Towards ethical multimodal systems.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Aligning large language models (LLMs) with human preferences has proven to drastically improve usability and has driven rapid adoption as demonstrated by ChatGPT. Alignment techniques such as supervised fine-tuning (SFT) and reinforcement learning from human feedback (RLHF) greatly reduce the required skill and domain knowledge to effectively harness the capabilities of LLMs, increasing their accessibility and utility across various domains. However, state-of-the-art alignment techniques like RLHF rely on high-quality human feedback data, which is expensive to create and often remains proprietary. In an effort to democratize research on large-scale alignment, we released OpenAssistant Conversations, a human-generated, human-annotated assistant-style conversation corpus consisting of 161,443 messages in 35 different languages. The corpus is a product of a worldwide crowd-sourcing effort involving over 13,500 volunteers. Models trained on OpenAssistant Conversations show consistent improvements on standard benchmarks over respective base models.",
+    "year": "2023",
+    "author": "TheDevastator",
+    "title": "OpenAssistant Conversations (OASST1)",
+    "link": "[[2023-TheDevastator-OpenAssistant Conversations (OASST1).md]]",
+    "categories": [
+      "ALIGN_RLHF"
+    ]
+  },
+  {
+    "text": "Warning: this paper contains examples that may be offensive or upsetting. With the rapid evolution of large language mod- els (LLMs), there is a growing concern that they may pose risks or have negative social im- pacts. Therefore, evaluation of human values alignment is becoming increasingly important. Previous work mainly focuses on assessing the performance of LLMs on certain knowledge and reasoning abilities, while neglecting the alignment to human values, especially in a Chi- nese context.",
+    "year": "2023",
+    "author": "Guohai Xu",
+    "title": "CValues",
+    "link": "[[2023-Xu-CValues.md]]",
+    "categories": [
+      "ALIGN_GENERAL"
+    ]
+  },
+  {
+    "text": "The rapid advancement of Large Language Models (LLMs) has attracted much attention to value alignment for their responsible de- velopment. However, how to define values in this context remains a largely unexplored question. Existing work mainly follows the Helpful, Honest, Harmless principle and speci- fies values as risk criteria formulated in the AI community, e.g., fairness and privacy protec- tion, suffering from poor clarity, adaptability and transparency. Inspired by basic values in humani",
+    "year": "2023",
+    "author": "Jing Yao",
+    "title": "Value FULCRA",
+    "link": "[[2023-Yao-Value FULCRA.md]]",
+    "categories": [
+      "ALIGN_GENERAL"
+    ]
+  },
+  {
+    "text": "The emergent capabilities of Large Language Models (LLMs) have made it crucial to align their values with those of humans. However, current methodologies typically attempt to assign value as an attribute to LLMs, yet lack attention to the ability to pursue value and the importance of transfer- ring heterogeneous values in specific practical applications. In this paper, we propose a Heterogeneous Value Alignment Evaluation (HVAE) system, designed to assess the success of aligning LLMs with hetero",
+    "year": "2023",
+    "author": "Zhaowei Zhang",
+    "title": "Heterogeneous Value Alignment Evaluation for",
+    "link": "[[2023-Zhang-Heterogeneous Value Alignment Evaluation for.md]]",
+    "categories": [
+      "ALIGN_GENERAL"
+    ]
+  },
+  {
+    "text": "A key concern with the concept of *\u201calignment\u201d* is the implicit question of *\u201calignment to what?\u201d*. AI systems are increasingly used across the world, yet safety alignment is often focused on homogeneous monolingual settings. Additionally, preference training and safety measures often overfit to harms common in Western-centric datasets. Here, we explore the viability of different alignment approaches when balancing dual objectives: addressing and optimizing for a non-homogeneous set of languages and cultural preferences while minimizing both global and local harms. We collect the first human annotated red teaming prompts in different languages, distinguishing between global and local harm, which serve as a laboratory to understand the reliability of alignment techniques when faced with preference distributions that are non-stationary across geographies and languages. While this setting is seldom covered by the literature to date, which primarily centers on English harm mitigation, it captures real-world interactions with AI systems around the world. We establish a new precedent for state-of-the-art alignment techniques across 6 languages with minimal degradation in general performance. Our work provides important insights into cross-lingual transfer and novel optimization approaches to safeguard AI systems designed to serve global populations.",
+    "year": "2024",
+    "author": "Aakanksha",
+    "title": "The Multilingual Alignment Prism",
+    "link": "[[2024-Aakanksha-The Multilingual Alignment Prism.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "This study identifies the potential vulnerabilities of Large Language Models (LLMs) to \u2018jailbreak\u2019 attacks, specifically focusing on the Arabic language and its various forms. While most research has concentrated on English-based prompt manipulation, our investigation broadens the scope to investigate the Arabic language. We initially tested the AdvBench benchmark in Standardized Arabic, finding that even with prompt manipulation techniques like prefix injection, it was insufficient to provoke LLMs into generating unsafe content. However, when using Arabic transliteration and chatspeak (or arabizi), we found that unsafe content could be produced on platforms like OpenAI GPT-4 and Anthropic Claude 3 Sonnet. Our findings suggest that using Arabic and its various forms could expose information that might remain hidden, potentially increasing the risk of jailbreak attacks. We hypothesize that this exposure could be due to the model\u2019s learned connection to specific words, highlighting the need for more comprehensive safety training across all language forms.",
+    "year": "2024",
+    "author": "Mansour Al Ghanim",
+    "title": "Jailbreaking LLMs with Arabic Transliteration and",
+    "link": "[[2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.md]]",
+    "categories": [
+      "ALIGN_CONSTITUTIONAL"
+    ]
+  },
+  {
+    "text": "The widespread application of LLMs across various tasks and fields has necessitated the alignment of these models with human val- ues and preferences. Given various approaches of human value alignment, there is an urgent need to understand the scope and nature of hu- man values injected into these LLMs before their deployment and adoption. We propose UniVaR, a high-dimensional neural representa- tion of symbolic human value distributions in LLMs, orthogonal to model architecture and training dat",
+    "year": "2024",
+    "author": "Samuel Cahyawijaya",
+    "title": "High-Dimension Human Value Representation in",
+    "link": "[[2024-Cahyawijaya-High-Dimension Human Value Representation in.md]]",
+    "categories": [
+      "ALIGN_GENERAL"
+    ]
+  },
+  {
+    "text": "Legal theory can address two related key problems of alignment: pluralism and speci\ufb01cation. Alignment researchers must determine how to specify what is con- cretely meant by vague principles like helpfulness and fairness and they must en- sure that their techniques do not exclude alternative perspectives on life and values. The law faces these same problems. Leading legal theories suggest the law solves these problems through the interaction of rules and cases, where general rules promulgated by",
+    "year": "2024",
+    "author": "Nicholas A. Caputo",
+    "title": "Rules, Cases, and Reasoning",
+    "link": "[[2024-Caputo-Rules, Cases, and Reasoning.md]]",
+    "categories": [
+      "ALIGN_PLURALISM"
+    ]
+  },
+  {
+    "text": "As users increasingly seek guidance from LLMs for decision-making in daily life, many of these decisions are not clear-cut and depend significantly on the personal values and ethical standards of people. We present DAILYDILEMMAS, a dataset of 1,360 moral dilemmas encountered in everyday life. Each dilemma presents two possible actions, along with affected parties and relevant human values for each action. Based on these dilemmas, we gather a repository of human values covering diverse everyday t",
+    "year": "2024",
+    "author": "Yu Ying Chiu",
+    "title": "DailyDilemmas",
+    "link": "[[2024-Chiu-DailyDilemmas.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Abstract           The field of AI safety aims to prevent increasingly capable artificially intelligent systems from causing humans harm. Research on moral alignment is widely thought to offer a promising safety strategy: if we can equip AI systems with appropriate ethical rules, according to this line of thought, they\u2019ll be unlikely to disempower, destroy or otherwise seriously harm us. Deontological morality looks like a particularly attractive candidate for an alignment target, given its popularity, relative technical tractability and commitment to harm-avoidance principles. I argue that the connection between moral alignment and safe behavior is more tenuous than many have hoped. In general, AI systems can possess either of these properties in the absence of the other, and we should favor safety when the two conflict. In particular, advanced AI systems governed by standard versions of deontology need not be especially safe.",
+    "year": "2024",
+    "author": "William D'Alessandro",
+    "title": "Deontology and safe artificial intelligence",
+    "link": "[[2024-D'Alessandro-Deontology and safe artificial intelligence.md]]",
+    "categories": [
+      "DEONTOLOGY"
+    ]
+  },
+  {
+    "text": "Developing value-aligned AI agents is a com- plex undertaking and an ongoing challenge in the field of AI. Specifically within the domain of Large Language Models (LLMs), the ca- pability to consolidate multiple independently trained dialogue agents, each aligned with a dis- tinct moral value, into a unified system that can adapt to and be aligned with multiple moral val- ues is of paramount importance. In this paper, we propose a system that does contextual moral value alignment based on contex",
+    "year": "2024",
+    "author": "Pierre Dognin",
+    "title": "Contextual Moral Value Alignment Through",
+    "link": "[[2024-Dognin-Contextual Moral Value Alignment Through.md]]",
+    "categories": [
+      "ALIGN_GENERAL"
+    ]
+  },
+  {
+    "text": "Models like Delphi have been able to label ethical dilemmas as moral or immoral with astonishing accuracy. This paper challenges accuracy as a holistic metric for ethics modeling by identifying issues with translating moral dilemmas into text-based input. It demonstrates these issues with contrast sets that substantially reduce the performance of classifiers trained on the dataset Moral Stories. Ultimately, we obtain concrete estimates for how much specific forms of data misrepresentation harm classifier accuracy. Specifically, label-changing tweaks to the descriptive content of a situation (as small as 3-5 words) can reduce classifier accuracy to as low as 51%, almost half the initial accuracy of 99.8%. Associating situations with a misleading social norm lowers accuracy to 98.8%, while adding textual bias (i.e. an implication that a situation already fits a certain label) lowers accuracy to 77%. These results suggest not only that many ethics models have substantially overfit, but that several precautions are required to ensure that input accurately captures a moral dilemma. This paper recommends re-examining the structure of a social norm, training models to ask for context with defeasible reasoning, and filtering input for textual bias. Doing so not only gives us the first concrete estimates of the average cost to accuracy of misrepresenting ethics data, but gives researchers practical tips for considering these estimates in research.",
+    "year": "2024",
+    "author": "Ben Fitzgerald",
+    "title": "Some Issues in Predictive Ethics Modeling",
+    "link": "[[2024-Fitzgerald-Some Issues in Predictive Ethics Modeling.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Do language models implicitly learn a concept of human wellbeing? We ex- plore this through the ETHICS Utilitarianism task, assessing if scaling enhances pretrained models\u2019 representations. Our initial finding reveals that, without any prompt engineering or finetuning, the leading principal component from OpenAI\u2019s text-embedding-ada-002 achieves 73.9% accuracy. This closely matches the 74.6% of BERT-large finetuned on the entire ETHICS dataset, suggesting pretraining conveys some understanding a",
+    "year": "2024",
+    "author": "Pedro Freire",
+    "title": "Uncovering Latent Human Wellbeing in Language",
+    "link": "[[2024-Freire-Uncovering Latent Human Wellbeing in Language.md]]",
+    "categories": [
+      "UTILITARIAN"
+    ]
+  },
+  {
+    "text": "As large language models (LLMs) become increasingly integrated into society, their alignment with human morals is crucial. To better understand this alignment, we created a large corpus of human- and LLM-generated responses to various moral scenarios. We found a misalignment between human and LLM moral assessments; al- though both LLMs and humans tended to reject morally complex utilitarian dilemmas, LLMs were more sensitive to personal fram- ing. We then conducted a quantitative user study invo",
+    "year": "2024",
+    "author": "Basile Garcia",
+    "title": "The Moral Turing Test",
+    "link": "[[2024-Garcia-The Moral Turing Test.md]]",
+    "categories": [
+      "UTILITARIAN"
+    ]
+  },
+  {
+    "text": "In the rapidly evolving field of artificial intelligence, large language models (LLMs) have emerged as powerful tools for a myriad of applications, from natural language processing to decision-making support systems. However, as these models become increasingly integrated into societal frameworks, the imperative to ensure they operate within ethical and moral boundaries has never been more critical. This paper intro- duces a novel benchmark designed to measure and compare the moral reasoning cap",
+    "year": "2024",
+    "author": "Jianchao Ji",
+    "title": "MoralBench",
+    "link": "[[2024-Ji-MoralBench.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Recent calls for pluralistic alignment empha- size that AI systems should address the diverse needs of all people. Yet, efforts in this space often require sorting people into fixed buck- ets of pre-specified diversity-defining dimen- sions (e.g., demographics), risking smoothing out individualistic variations or even stereotyp- ing. To achieve an authentic representation of diversity that respects individuality, we propose individualistic alignment.1 While individual- istic alignment can take v",
+    "year": "2024",
+    "author": "Liwei Jiang",
+    "title": "Can Language Models Reason about Individualistic",
+    "link": "[[2024-Jiang-Can Language Models Reason about Individualistic.md]]",
+    "categories": [
+      "ALIGN_PLURALISM"
+    ]
+  },
+  {
+    "text": "Psychological-philosophical perspectives on well-being have recently become relevant in the field of human-centered artificial intelligence (HCAI). A key challenge for HCAI involves analyzing how AI impacts well-being, specifically eudaimonic well-being. This paper explores eudaimonic well-being variables as guiding principles for AI design, proposing a framework to analyze AI's impact on human flourishing beyond simple user satisfaction or task performance.",
+    "year": "2024",
+    "author": "Julian Marvin J\u00f6rs",
+    "title": "Through Eudaimonia's Lenses",
+    "link": "[[2024-J\u00f6rs-Through Eudaimonia's Lenses.md]]",
+    "categories": [
+      "VIRTUE"
+    ]
+  },
+  {
+    "text": "HELM Safety v1.0 is a broad, transparent, and standardized safety evaluation for language models. The evaluation covers a comprehensive taxonomy of risks based on developers' acceptable use policies, spanning violence, fraud, discrimination, sexual content, harassment, and deception. HELM Safety features evaluations including BBQ (social discrimination), SimpleSafetyTest, HarmBench (jailbreaking), XSTest (edge cases), and AnthropicRedTeam.",
+    "year": "2024",
+    "author": "Farzaan Kaiyom",
+    "title": "HELM Safety",
+    "link": "[[2024-Kaiyom-HELM Safety.md]]",
+    "categories": [
+      "ALIGN_CONSTITUTIONAL"
+    ]
+  },
+  {
+    "text": "As large language models (LLMs) become increasingly integrated into critical applica- tions, aligning their behavior with human val- ues presents significant challenges. Current methods, such as Reinforcement Learning from Human Feedback (RLHF), typically focus on a limited set of coarse-grained values and are resource-intensive. Moreover, the correlations between these values remain implicit, leading to unclear explanations for value-steering out- comes. Our work argues that a latent causal val",
+    "year": "2024",
+    "author": "Yipeng Kang",
+    "title": "Are the Values of LLMs Structurally Aligned with",
+    "link": "[[2024-Kang-Are the Values of LLMs Structurally Aligned with.md]]",
+    "categories": [
+      "ALIGN_RLHF"
+    ]
+  },
+  {
+    "text": "In this work, we study the alignment (BrainScore) of large language models (LLMs) fine-tuned for moral reasoning on behavioral data and/or brain data of humans performing the same task. We also explore if fine-tuning several LLMs on the fMRI data of humans performing moral reasoning can improve the BrainScore. We fine-tune several LLMs (BERT, RoBERTa, DeBERTa) on moral reasoning behavioral data from the ETHICS benchmark [Hendrycks et al., 2020], on the moral reasoning fMRI data from Koster-Hale",
+    "year": "2024",
+    "author": "Artem Karpov",
+    "title": "Inducing Human-like Biases in Moral Reasoning",
+    "link": "[[2024-Karpov-Inducing Human-like Biases in Moral Reasoning.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Minimizing negative impacts of Artificial Intelligent (AI) systems on human soci- eties without human supervision requires them to be able to align with human values. However, most current work only addresses this issue from a technical point of view, e.g., improving current methods relying on reinforcement learning from human feedback, neglecting what it means and is required for alignment to occur. Here, we propose to distinguish strong and weak value alignment. Strong alignment requires cogni",
+    "year": "2024",
+    "author": "Mehdi Khamassi",
+    "title": "Strong and weak alignment of large language models",
+    "link": "[[2024-Khamassi-Strong and weak alignment of large language models.md]]",
+    "categories": [
+      "ALIGN_GENERAL",
+      "ALIGN_RLHF"
+    ]
+  },
+  {
+    "text": "We present the TRIAGE Benchmark, a novel machine ethics (ME) benchmark that tests LLMs\u2019 ability to make ethical decisions during mass casualty incidents. It uses real-world ethical dilemmas with clear solutions designed by medical professionals, offering a more realistic alternative to annotation-based benchmarks. TRIAGE in- corporates various prompting styles to evaluate model performance across different contexts. Most models consistently outperformed random guessing, suggesting LLMs may suppo",
+    "year": "2024",
+    "author": "Nathalie Maria Kirch",
+    "title": "TRIAGE",
+    "link": "[[2024-Kirch-TRIAGE.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "For Large Language Models (LLMs) to be effectively deployed in a specific country, they must possess an understanding of the nation\u2019s culture and basic knowledge. To this end, we introduce National Alignment, which measures an alignment between an LLM and a targeted country from two aspects: social value alignment and common knowledge alignment. Social value alignment evaluates how well the model understands nation-specific social values, while common knowledge alignment examines how well the mo",
+    "year": "2024",
+    "author": "Jiyoung Lee",
+    "title": "KorNAT",
+    "link": "[[2024-Lee-KorNAT.md]]",
+    "categories": [
+      "ALIGN_GENERAL"
+    ]
+  },
+  {
+    "text": "Proper moral beliefs are fundamental for lan- guage models, yet assessing these beliefs poses a significant challenge. This study introduces a novel three-module framework to evaluate the moral beliefs of four prominent large language models. Initially, we constructed a dataset containing 472 moral choice scenarios in Chi- nese, derived from moral words. The decision- making process of the models in these scenar- ios reveals their moral principle preferences. By ranking these moral choices, we d",
+    "year": "2024",
+    "author": "Xuelin Liu",
+    "title": "Evaluating Moral Beliefs across LLMs through a",
+    "link": "[[2024-Liu-Evaluating Moral Beliefs across LLMs through a.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "The question of how to make decisions that maximise the well-being of all persons is very relevant to design language models that are beneficial to humanity and free from harm. We introduce the Greatest Good Benchmark (GGB), to evaluate LLMs moral judgments using utilitarian dilemmas. Our framework enables a direct comparison between the moral preferences of LLMs and humans, contributing to a deeper understanding of LLMs\u2019 alignment with human moral values. Analyzing 15 diverse models, we uncover",
+    "year": "2024",
+    "author": "Giovanni Franco Gabriel Marraffini",
+    "title": "The Greatest Good Benchmark",
+    "link": "[[2024-Marraffini-The Greatest Good Benchmark.md]]",
+    "categories": [
+      "UTILITARIAN",
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "The proliferation of large language models (LLMs) requires robust evaluation of their alignment with local values and ethical standards, especially as existing benchmarks often reflect the cultural, legal, and ideological values of their creators. LOCALVALUEBENCH, introduced in this paper, is an extensible benchmark de- signed to assess LLMs\u2019 adherence to Australian values, and provides a framework for regulators worldwide to develop their own LLM benchmarks for local value alignment. Employing",
+    "year": "2024",
+    "author": "Gwenyth Isobel Meadows",
+    "title": "LocalValueBench",
+    "link": "[[2024-Meadows-LocalValueBench.md]]",
+    "categories": [
+      "ALIGN_GENERAL",
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "What is the best compromise in a situation where different people value different things? The most commonly accepted method for answering this question\u2014in fields across the behavioral and social sciences, decision theory, philosophy, and artificial intelligence development\u2014is simply to add up utilities associated with the different options and pick the solution with the largest sum. This \u201cutilitarian\u201d approach seems like the obvious, theory-neutral way of approaching the problem. But there is an",
+    "year": "2024",
+    "author": "Jared Moore",
+    "title": "Intuitions of Compromise",
+    "link": "[[2024-Moore-Intuitions of Compromise.md]]",
+    "categories": [
+      "UTILITARIAN"
+    ]
+  },
+  {
+    "text": "Deontological ethics, speci\ufb01cally understood through Immanuel Kant, provides a moral framework that emphasizes the importance of duties and principles rather than the consequences of action. Understanding that despite the prominence of deontology, it is currently an overlooked approach in fairness metrics, this pa- per explores the compatibility of a Kantian deontological framework in fairness metrics, part of the AI alignment \ufb01eld. We revisit Kant\u2019s critique of utilitarian- ism, which is the pr  This paper explores the intersection of **Kantian Deontology** and AI alignment. The authors argue that current alignment (RLHF) is a form of **\"Heteronomy\"** (behavior dictated by external rewards/shocks), whereas true ethical agency requires **\"Autonomy\"** (behavior dictated by internal, universalizable principles). They propose a framework for \"Kantian Alignment\" where an agent acts according to the **Categorical Imperative**.",
+    "year": "2024",
+    "author": "Carlos Mougan",
+    "title": "Kantian Deontology Meets AI Alignment",
+    "link": "[[2024-Mougan-Kantian Deontology Meets AI Alignment.md]]",
+    "categories": [
+      "DEONTOLOGY",
+      "UTILITARIAN",
+      "ALIGN_RLHF",
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "This paper explores the ethical considerations of applying artificially intelligent robots in eldercare from a **Confucian virtue ethics** perspective. The authors examine how AI technology interacts with traditional Chinese concepts of filial piety (**xiao**) and **ren** (benevolence). They argue that robots may not adequately fulfill care duties from a Confucian perspective due to their lack of genuine emotional abilities and detachment from personal relationships, which are central to **virtuous** caregiving. However, the paper also acknowledges the utility of AI robots in addressing elder care demands and proposes parameters for their acceptable use within a **virtue-based** ethical framework that emphasizes **moral character** and relational responsibility.",
+    "year": "2024",
+    "author": "Kathryn Muyskens",
+    "title": "Can an AI-carebot be filial",
+    "link": "[[2024-Muyskens-Can an AI-carebot be filial.md]]",
+    "categories": [
+      "VIRTUE"
+    ]
+  },
+  {
+    "text": "LLMs are increasingly fine-tuned using RLHF datasets to align them with human preferences and values. However, very limited research has investigated which specific human values are operationalized through these datasets. In this paper, we introduce Value Imprint, a framework for auditing and classifying the human values embedded within RLHF datasets. To investigate the viability of this framework, we conducted three case study experiments by auditing the Anthropic/hh-rlhf, OpenAI WebGPT Compari  This paper introduces **Value Imprint**, a technique for auditing and visualizing the human values embedded in RLHF datasets and language models. It addresses the \"black box\" nature of AI alignment by using a curated \"Value Lens\" to project model responses into a multidimensional value-space. The goal is to make the invisible value choices made during model training visible and measurable for downstream users and auditors.",
+    "year": "2024",
+    "author": "Ike Obi",
+    "title": "Value Imprint",
+    "link": "[[2024-Obi-Value Imprint.md]]",
+    "categories": [
+      "ALIGN_RLHF",
+      "ALIGN_CONSTITUTIONAL"
+    ]
+  },
+  {
+    "text": "Rapid advancements in artificial intelligence (AI) have made it cru- cial to integrate moral reasoning into AI systems. However, existing models and datasets often overlook regional and cultural differences. To address this shortcoming, we have expanded the JCommonsense- Morality (JCM) dataset, the only publicly available dataset focused on Japanese morality. The Extended JCM (eJCM) has grown from the original 13,975 sentences to 31,184 sentences using our pro- posed sentence expansion method ca",
+    "year": "2024",
+    "author": "Takumi Ohashi",
+    "title": "Extended Japanese Commonsense Morality Dataset",
+    "link": "[[2024-Ohashi-Extended Japanese Commonsense Morality Dataset.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Recent advances in NLP show that language models retain a discernible level of knowledge in deontological ethics and moral norms. How- ever, existing works often treat morality as bi- nary, ranging from right to wrong. This simplis- tic view does not capture the nuances of moral judgment. Pluralist moral philosophers argue that human morality can be deconstructed into a finite number of elements, respecting individual differences in moral judgment. In line with this view, we build a pluralist mo  This paper investigates whether a pluralist approach to morality, specifically **Moral Foundations Theory (MFT)**, can be captured in a sentence embedding space. The authors argue that existing work often treats morality as binary (right vs. wrong), which fails to capture the nuanced differences in human moral judgment.  To address this, the authors propose a method for mapping MFT elements to a sentence embedding space using **SimCSE** (Simple Contrastive Learning of Sentence Embeddings). They test both supervised and unsupervised approaches and evaluate how well the resulting space disentangles the 10 moral elements (5 foundations with virtue/vice dualities).",
+    "year": "2024",
+    "author": "Jeongwoo Park",
+    "title": "Morality is Non-Binary",
+    "link": "[[2024-Park-Morality is Non-Binary.md]]",
+    "categories": [
+      "DEONTOLOGY"
+    ]
+  },
+  {
+    "text": "This paper introduces a benchmark for the evaluation of large language models on moral values and business principles. The main focus of this framework is to evaluate moral and ethical reasoning in interactive environments.",
+    "year": "2024",
+    "author": "Matthew Pisano",
+    "title": "Moral High Ground",
+    "link": "[[2024-Pisano-Moral High Ground.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Discussion of AI alignment (alignment between humans and AI systems) has fo- cused on value alignment, broadly referring to creating AI systems that share human values. We argue that before we can even attempt to align values, it is imperative that AI systems and humans align the concepts they use to understand the world. We integrate ideas from philosophy, cognitive science, and deep learn- ing to explain the need for concept alignment, not just value alignment, between humans and machines. We  This paper introduces the concept of **Concept Alignment**, arguing that it is a fundamental prerequisite for successful **Value Alignment** between humans and AI. The authors define concept alignment as the process of ensuring that AI systems use the same conceptual frameworks as humans to understand the world. Drawing from philosophy (Quine's semantic indeterminacy), cognitive science (Carey's Quinian bootstrapping), and deep learning, they explain that humans share concepts due to common embodiment and shared experiences, which machines currently lack. This misalignment leads to \"weird\" or catastrophic failures, such as self-driving cars failing to recognize unconventional street-crossing behavior or AI systems applying racist labels to visual data. The paper calls for an iterative dialogue between cognitive science and AI research to develop machines that align with human concepts through multimodal grounding and interactive fine-tuning.",
+    "year": "2024",
+    "author": "Sunayana Rane",
+    "title": "Concept Alignment",
+    "link": "[[2024-Rane-Concept Alignment.md]]",
+    "categories": [
+      "ALIGN_GENERAL"
+    ]
+  },
+  {
+    "text": "A key concern with the concept of alignment is the implicit question of alignment to what? AI systems are increasingly used across the world, yet safety alignment is often focused on homogeneous monolingual settings. Additionally, preference training and safety measures often overfit to harms common in Western-centric datasets. Here, we explore the viability of different alignment approaches when balancing dual objectives: addressing and optimizing for a non-homogeneous set of languages and cult",
+    "year": "2024",
+    "author": "Aakanksha",
+    "title": "AyaRedTeaming",
+    "link": "[[2024-Singhal-AyaRedTeaming.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "With increased power and prevalence of AI sys- tems, it is ever more critical that AI systems are designed to serve all, i.e., people with diverse values and perspectives. However, aligning mod- els to serve pluralistic human values remains an open research question. In this piece, we pro- pose a roadmap to pluralistic alignment, specifi- cally using large language models as a test bed. We identify and formalize three possible ways to define and operationalize pluralism in AI sys- tems: 1) Overt",
+    "year": "2024",
+    "author": "Taylor Sorensen",
+    "title": "A Roadmap to Pluralistic Alignment",
+    "link": "[[2024-Sorensen-A Roadmap to Pluralistic Alignment.md]]",
+    "categories": [
+      "ALIGN_GENERAL",
+      "ALIGN_PLURALISM"
+    ]
+  },
+  {
+    "text": "Human values are crucial to human decision-making. Value pluralism is the view that multiple correct values may be held in tension with one another (e.g., when considering lying to a friend to protect their feelings, how does one balance honesty with friendship?). As statistical learners, AI systems fit to av- erages by default, washing out these potentially irreducible value conflicts. To improve AI systems to better reflect value pluralism, the first-order challenge is to explore the extent to",
+    "year": "2024",
+    "author": "Taylor Sorensen",
+    "title": "Value Kaleidoscope",
+    "link": "[[2024-Sorensen-Value Kaleidoscope.md]]",
+    "categories": [
+      "ALIGN_PLURALISM"
+    ]
+  },
+  {
+    "text": "With the rise and widespread use of Large Language Models (LLMs), ensuring their safety is crucial to prevent harm to humans and promote ethical behaviors. However, directly assessing value valence (i.e., support or oppose) by leveraging large-scale data training is untrustworthy and inexplainable. We assume that emulating humans to rely on social norms to make moral decisions can help LLMs understand and predict moral judgment. However, capturing human values remains a challenge, as multiple re",
+    "year": "2024",
+    "author": "Yuxi Sun",
+    "title": "ClarityEthic",
+    "link": "[[2024-Sun-ClarityEthic.md]]",
+    "categories": [
+      "ALIGN_GENERAL"
+    ]
+  },
+  {
+    "text": "Growing concerns about safety and alignment of AI systems highlight the importance of embedding moral capabilities in artificial agents: a promising solution is the use of learning from experience, i.e., Reinforcement Learning. In multi-agent (social) environments, complex population-level phenomena may emerge from interactions between individual learning agents. Many of the existing studies rely on simulated social dilemma environments to study the interactions of indepen- dent learning agents;  This paper uses **Agent-Based Modeling (ABM)** to study the interactions and evolutionary stability of different moral frameworks (Utilitarianism, Deontology, Virtue Ethics) in a heterogeneous population of AI agents. Rather than seeking a single \"correct\" alignment, the authors investigate how a community of agents with diverse ethical strategies behaves and whether certain mixtures of strategies lead to better social outcomes or higher resilience to systemic shocks.",
+    "year": "2024",
+    "author": "Elizaveta Tennant",
+    "title": "Dynamics of Moral Behavior in Heterogeneous Populations",
+    "link": "[[2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.md]]",
+    "categories": [
+      "DEONTOLOGY",
+      "UTILITARIAN",
+      "VIRTUE"
+    ]
+  },
+  {
+    "text": "Large Language Models (LLMs) have become central to advancing automation and decision-making across various sectors, raising significant ethical questions. This study proposes a comprehensive comparative analysis of the most advanced LLMs to assess their moral profiles. We subjected several state-of-the-art models to a selection of ethical dilemmas and found that all the proprietary ones are mostly utilitarian and all of the open-weights ones align mostly with values-based ethics. Furthermore, w",
+    "year": "2024",
+    "author": "Alejandro Tlaie",
+    "title": "Exploring and steering the moral compass of Large",
+    "link": "[[2024-Tlaie-Exploring and steering the moral compass of Large.md]]",
+    "categories": [
+      "UTILITARIAN"
+    ]
+  },
+  {
+    "text": "In this landmark work, Shannon Vallor presents a critical examination of artificial intelligence using the metaphor of AI as a mirror reflecting humanity. The book argues that AI systems, forged from vast amounts of historical data, often reproduce the biases and failures of the past. Vallor proposes that we must move beyond viewing AI as a utopian or dystopian force and instead see it as a catalyst for moral and intellectual growth. Drawing on the virtue ethics tradition, she argues that we must reclaim our capacity for wisdom, courage, and care in our interaction with machines. The book explores how AI acts as a \\",
+    "year": "2024",
+    "author": "Shannon Vallor",
+    "title": "The AI Mirror",
+    "link": "[[2024-Vallor-The AI Mirror.md]]",
+    "categories": [
+      "VIRTUE"
+    ]
+  },
+  {
+    "text": "What a large language model (LLM) would re- spond in ethically relevant context? In this pa- per, we curate a large benchmark CMoralEval for morality evaluation of Chinese LLMs. The data sources of CMoralEval are two-fold: 1) a Chinese TV program discussing Chinese moral norms with stories from the society and 2) a col- lection of Chinese moral anomies from various newspapers and academic papers on morality. With these sources, we aim to create a moral evaluation dataset characterized by diversi  **CMoralEval** is a comprehensive multiple-choice question-answering benchmark designed to evaluate the moral alignment of Chinese Large Language Models (LLMs). The dataset targets moral norms specific to Chinese society, blending traditional Confucian values with contemporary norms. It consists of two primary data sources: 833 episodes of the TV program *\"Observations on Morality\"* and a collection of \"Chinese moral anomies\" from newspapers and academic journals. The benchmark includes two difficulty levels: **Explicit Moral Scenarios (EMS)**, where the correct answer is straightforward, and **Moral Dilemma Scenarios (MDS)**, which present tempting but morally incorrect options. Results show that CMoralEval is a challenging benchmark, with even advanced models struggling on dilemma-based reasoning.",
+    "year": "2024",
+    "author": "Linhao Yu",
+    "title": "CMoralEval",
+    "link": "[[2024-Yu-CMoralEval.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "This article addresses the challenge of establishing ethical governance for AI across social, economic, and political domains. It highlights virtue ethics as a critical theoretical framework for aligning artificial intelligence with human values and progress. The paper explores the multifaceted nature of AI alignment, including the technical challenges of reward modeling and the sociocultural dimensions of value pluralism. It advocates for embedding human-aligned virtues into AI systems to ensure they contribute to human welfare and flourishing in an increasingly automated world.",
+    "year": "2025",
+    "author": "Shivam Aditya",
+    "title": "Toward global ethical frameworks for AI",
+    "link": "[[2025-Aditya-Toward global ethical frameworks for AI.md]]",
+    "categories": [
+      "ALIGN_RLHF",
+      "ALIGN_PLURALISM",
+      "VIRTUE"
+    ]
+  },
+  {
+    "text": "This chapter explores the ethical challenges arising from the rapid advancements in Artificial General Intelligence (AGI) and Artificial Super Intelligence (ASI). It suggests that the direct integration of virtue ethics into AI architectures\u2014termed \\",
+    "year": "2025",
+    "author": "Adeyemi Aina",
+    "title": "Virtue Ethics by Design",
+    "link": "[[2025-Aina-Virtue Ethics by Design.md]]",
+    "categories": [
+      "VIRTUE"
+    ]
+  },
+  {
+    "text": "Human feedback datasets are central to AI alignment, yet the current data collection methods do not necessarily capture diverse and complex human values. Existing alignment datasets focus broadly on Harmfulness and Helpfulness, but dataset curation should also aim to dissect these broad categories into more specific dimensions. This paper introduces a pluralistic alignment dataset that integrates the dimensions of Toxicity, Emotional Awareness, Sensitivity and Openness, Helpfulness, and Stereotypical Bias, reveals undiscovered tensions in human ratings on AI-generated content, shows how demographics and political ideologies shape human preferences in alignment datasets, and highlights issues in data collection and model fine-tuning.",
+    "year": "2025",
+    "author": "Dalia Ali",
+    "title": "Data Curation for Pluralistic Alignment",
+    "link": "[[2025-Ali-Data Curation for Pluralistic Alignment.md]]",
+    "categories": [
+      "ALIGN_GENERAL",
+      "ALIGN_PLURALISM",
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Large language models are increasingly influencing human moral decisions, yet current approaches focus primarily on evaluating rather than actively steering their moral deci- sions. We formulate this as an out-of-distribution moral alignment problem, where LLM agents must learn to ap- ply consistent moral reasoning frameworks to scenarios be- yond their training distribution. We introduce Moral-Reason- QA, a novel dataset extending 680 human-annotated, high- ambiguity moral scenarios with framew  This paper addresses the \"Out-of-Distribution\" (OOD) alignment problem in moral AI: how to ensure an agent applies a consistent moral framework (e.g., Utilitarianism) to *novel* scenarios it hasn't seen during training. The authors introduce **MoralReason**, a framework that uses **Reasoning-Level Reinforcement Learning** to steer agents. Instead of just reinforcing the final \"Yes/No\" decision, they reinforce the *chain of thought* that leads to the decision, ensuring it follows the specific logic of the target ethical framework.",
+    "year": "2025",
+    "author": "Zhiyu An",
+    "title": "MoralReason",
+    "link": "[[2025-An-MoralReason.md]]",
+    "categories": [
+      "UTILITARIAN",
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "In this research, we introduce BEATS, a novel framework for evaluating Bias, Ethics, Fairness, and Factuality in Large Language Models (LLMs). Building upon the BEATS framework, we present a bias benchmark for LLMs that measure performance across 29 distinct metrics. These metrics span a broad range of characteristics, including demographic, cognitive, and social biases, as well as measures of ethical reasoning, group fairness, and factuality related misinformation risk. These metrics enable a q",
+    "year": "2025",
+    "author": "Alok Abhishek",
+    "title": "BEATS",
+    "link": "[[2025-Anonymous-BEATS.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "This paper introduces CharMoral, a dataset designed to analyze the moral evolution of characters in long-form narratives. CharMoral, built from 1,337 movie synopses, includes an- notations for character actions, context, and morality labels. To automatically construct CharMoral, we propose a four-stage frame- work, utilizing Large Language Models, to au- tomatically classify actions as moral or im- moral based on context. Human evaluations and various experiments confirm the frame- work\u2019s effect  This paper introduces **CharMoral**, a dataset and framework for analyzing the **moral evolution** of characters in long-form narratives (specifically movie synopses). The authors argue that existing moral benchmarks (like Moral Stories or ETHICS) are static and context-free, whereas morality in storytelling is dynamic\u2014characters grow, sin, redeem themselves, and act differently based on changing contexts.",
+    "year": "2025",
+    "author": "Suyoung Bae",
+    "title": "CharMoral",
+    "link": "[[2025-Bae-CharMoral.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "This paper explores the role of virtue ethics (also known as character ethics) in addressing existential risks, including rogue artificial intelligence. Drawing on Van Rensselaer Potter's concept of bioethics, the author argues that virtue ethics should complement deontological and consequentialist frameworks for the prevention of human extinction. The paper investigates how virtues such as wisdom, justice, temperance, and courage are essential for navigating existential ethical issues like global warming and AI alignment. It aims to revitalize the virtue ethics tradition for survival on \\",
+    "year": "2025",
+    "author": "Charles S. Bryan",
+    "title": "Virtue Ethics and Postponing Human Extinction",
+    "link": "[[2025-Bryan-Virtue Ethics and Postponing Human Extinction.md]]",
+    "categories": [
+      "DEONTOLOGY",
+      "UTILITARIAN",
+      "VIRTUE"
+    ]
+  },
+  {
+    "text": "Virtue ethics is a philosophical tradition that emphasizes the cultivation of virtues in achieving the common good. It has been suggested to be an effective framework for envisioning more ethical technology, yet previous work on virtue ethics and technology design has remained at theoretical recommendations. We propose an approach for identifying user experience design patterns that embody particular virtues to more concretely articulate virtuous technology designs. As a proof of concept, we documented seven design patterns for social media that uphold the virtues of Catholic Social Teaching. We interviewed 24 technology researchers and industry practitioners to evaluate these patterns, finding that overall the patterns enact the virtues they were identified to embody.",
+    "year": "2025",
+    "author": "Louisa Conwill",
+    "title": "Design Patterns for the Common Good",
+    "link": "[[2025-Conwill-Design Patterns for the Common Good.md]]",
+    "categories": [
+      "VIRTUE"
+    ]
+  },
+  {
+    "text": "As large language models (LLMs) increasingly mediate human decision-making, discourse, and behaviour, ensuring the LLM\u2019s processing of moral meaning has become a critical challenge. Current approaches to increase LLM\u2019s processing of moral meaning rely predominantly on bottom-up methods such as fine-tuning and reinforcement learning from human feedback. We propose a complementary, yet fundamentally different approach: embedding processing moral meaning directly into the architectural mechanisms a",
+    "year": "2025",
+    "author": "Gunter Bombaerts",
+    "title": "Morality in AI",
+    "link": "[[2025-De Montis-Morality in AI.md]]",
+    "categories": [
+      "ALIGN_RLHF"
+    ]
+  },
+  {
+    "text": "We present an ethical decision-making framework that refines a pre-trained reinforcement learning (RL) model using a task-agnostic ethical layer. Following initial training, the RL model undergoes ethical fine- tuning, where human feedback is replaced by feedback generated from a large language model (LLM). The LLM embodies consequentialist, deontological, virtue, social justice, and care ethics as moral principles to assign belief values to recommended actions during ethical decision-making. An  This paper presents an **Ethical Decision-Making Framework** that integrates **Moral Uncertainty** into Reinforcement Learning (RL) agents. Recognizing that no single moral theory (Utilitarianism, Deontology, etc.) is sufficient for all situations, the authors propose an **Ethical Layer** that sits on top of a standard RL agent.  This layer uses a Large Language Model (LLM) as a \"Moral Parliament.\" For every action proposed by the agent, the LLM evaluates it from five distinct ethical perspectives: **Consequentialist**, **Deontological**, **Virtue Ethics**, **Care Ethics**, and **Social Justice**.",
+    "year": "2025",
+    "author": "Rohit K. Dubey",
+    "title": "Addressing Moral Uncertainty using Large Language",
+    "link": "[[2025-Dubey-Addressing Moral Uncertainty using Large Language.md]]",
+    "categories": [
+      "DEONTOLOGY",
+      "UTILITARIAN",
+      "VIRTUE"
+    ]
+  },
+  {
+    "text": "This paper argues for integrating **care ethics** into Large Language Model (LLM) development and alignment practices. The authors critique Reinforcement Learning from Human Feedback (RLHF) for embedding narrow normative assumptions that overlook emotional and relational aspects of human values\u2014dimensions that **virtue ethics** and care ethics prioritize. They propose that **care ethics**, which emphasizes relationality, attention to particularities, and contextual **moral reasoning**, can address issues like bias stemming from overly generalized reasoning and provide a pathway for more context-sensitive alignment. This approach is particularly suited for applications in mental health, education, and social services where **empathy**, **compassion**, and **virtuous character** are essential.",
+    "year": "2025",
+    "author": "Rayane El Masri",
+    "title": "Towards Attuned AI",
+    "link": "[[2025-El Masri-Towards Attuned AI.md]]",
+    "categories": [
+      "ALIGN_RLHF",
+      "VIRTUE"
+    ]
+  },
+  {
+    "text": "This book explores the ethics of AI from multiple Chinese philosophical traditions, including **Confucianism**, Mohism, and Zhuangism. Drawing on **virtue ethics** concepts like **ren** (benevolence), **li** (propriety), and **yi** (righteousness), Elder examines how these frameworks can inform the ethical development of AI systems, particularly those related to digital representations of deceased individuals. The book argues that **Confucian virtue ethics** views caregiving as a significant source of meaning and moral self-cultivation, offering insights for designing AI systems that support **human flourishing** and relational responsibilities.",
+    "year": "2025",
+    "author": "Alexis M. Elder",
+    "title": "The Ethics of Digital Ghosts",
+    "link": "[[2025-Elder-The Ethics of Digital Ghosts.md]]",
+    "categories": [
+      "VIRTUE"
+    ]
+  },
+  {
+    "text": "BenchMoral is a benchmark designed to evaluate the moral sensitivity of large language models using the MFQ-30 moral foundations questionnaire adapted to Spanish. The research addresses a significant gap: while most ethical AI evaluations focus on English, millions of Spanish speakers lack culturally and linguistically tailored assessments. The study measures how ChatGPT 4.0 Mini, Llama 3.0, and DeepSeek R1 respond to five moral domains: care, fairness, loyalty, authority, and sanctity. Key findings suggest that moral understanding does not equal human moral mimicry.",
+    "year": "2025",
+    "author": "F\u00e9lix B. A. Flores",
+    "title": "BenchMoral",
+    "link": "[[2025-Flores-BenchMoral.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "This paper explores S\u00f8ren Kierkegaard\u2019s engagement with virtue ethics. While valuing Aristotle\u2019s focus on moral character and practical wisdom, Kierkegaard advanced virtue ethics further. He critiqued the clergy of his time for their hypocrisy, imagining replacing untrustworthy priests with machines delivering sermons and ethical guidance. Revisiting this thought experiment in light of LLMs, the paper explores the role of Kierkegaard\u2019s insights in the discourse on ethical guidance, illustrating",
+    "year": "2025",
+    "author": "Anne Gerdes",
+    "title": "Exploring LLM Chatbots as Potential Guides to",
+    "link": "[[2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.md]]",
+    "categories": [
+      "VIRTUE"
+    ]
+  },
+  {
+    "text": "As Large Language Models (LLMs) become increasingly autonomous and integrated into critical societal functions, the focus of AI safety must evolve from mitigating harmful content to evaluating un- derlying behavioral alignment. Current safety benchmarks do not systematically probe a model\u2019s decision-making in scenarios where its own instrumental goals\u2014such as self-preservation, resource acquisition, or goal completion\u2014conflict with human safety. This represents a critical gap in our ability to m",
+    "year": "2025",
+    "author": "Manuel Herrador",
+    "title": "The PacifAIst Benchmark",
+    "link": "[[2025-Herrador-The PacifAIst Benchmark.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "This paper introduces the Flourishing AI Benchmark (FAI Benchmark), a novel evaluation framework that assesses AI alignment with human flourishing across seven dimensions: Character and Virtue, Close Social Relationships, Happiness and Life Satisfaction, Meaning and Purpose, Mental and Physical Health, Financial and Material Stability, and Faith and Spirituality. Unlike traditional benchmarks that focus on technical capabilities or harm prevention, the FAI Benchmark measures AI performance on ho  This paper presents a framework for measuring the alignment of AI systems with **Human Flourishing**, moving beyond narrow safety metrics toward a more holistic vision of well-being. The authors define flourishing across seven core dimensions: **Character and Virtue, Social Relationships, Happiness, Meaning and Purpose, Mental/Physical Health, Finance, and Faith/Spirituality**.  The paper introduces the **Flourishing AI (FAI) Benchmark** and reports initial results for 26 leading LLMs. The study finds a significant \"Flourishing Gap,\" where models excel in pragmatic tasks (Finance, Health) but struggle with deeply human or existential dimensions (Faith, Purpose).",
+    "year": "2025",
+    "author": "Elizabeth Hilliard",
+    "title": "Measuring AI Alignment with Human Flourishing",
+    "link": "[[2025-Hilliard-Measuring AI Alignment with Human Flourishing.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS",
+      "VIRTUE"
+    ]
+  },
+  {
+    "text": "This edited volume provides an applied philosophy perspective on artificial intelligence, featuring contributions from leading philosophers and interdisciplinary experts. Topics include ethics, epistemology, politics, and law as they relate to AI. The editors, particularly Martin H\u00e4hnel, advocate for a neo-Aristotelian approach to AI ethics, applying virtue ethics principles to address the complexities of AI's practical implications. The volume provides a critical philosophical framework for understanding AI governance, moral character in AI development, and the cultivation of virtuous design practices.",
+    "year": "2025",
+    "author": "Martin H\u00e4hnel",
+    "title": "A Companion to Applied Philosophy of AI",
+    "link": "[[2025-H\u00e4hnel-A Companion to Applied Philosophy of AI.md]]",
+    "categories": [
+      "VIRTUE"
+    ]
+  },
+  {
+    "text": "Warning: Contains harmful model outputs. Despite significant advancements, the propensity of Large Language Models (LLMs) to generate harmful and unethical content poses critical chal- lenges. Measuring value alignment of LLMs be- comes crucial for their regulation and responsi- ble deployment. Although numerous benchmarks have been constructed to assess social bias, toxic- ity, and ethical issues in LLMs, those static bench- marks suffer from evaluation chronoeffect, in which, as models rapidly",
+    "year": "2025",
+    "author": "Han Jiang",
+    "title": "Raising the Bar",
+    "link": "[[2025-Jiang-Raising the Bar.md]]",
+    "categories": [
+      "ALIGN_GENERAL"
+    ]
+  },
+  {
+    "text": "As large language models (LLMs) increasingly integrate into our daily lives, it becomes crucial to understand their implicit biases and moral tendencies. To address this, we introduce a Moral Foundations LLM dataset (MFD-LLM) grounded in Moral Foundations Theory, which conceptualizes human morality through six core foundations. We propose a novel evaluation method that captures the full spectrum of LLMs\u2019 revealed moral preferences by answering a range of real-world moral dilemmas. Our findings r",
+    "year": "2025",
+    "author": "Monika Jotautaite",
+    "title": "From Stability to Inconsistency",
+    "link": "[[2025-Jotautaite-From Stability to Inconsistency.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "As large language models (LLMs) become more widely deployed, it is crucial to examine their ethical tendencies. Building on research on fairness and discrimination in AI, we investigate whether LLMs exhibit speciesist bias\u2014discrimination based on species membership\u2014and how they value non\u2011human animals. We systematically examine this issue across three paradigms: (1) SpeciesismBench, a 1,003\u2011item benchmark assessing recognition and moral evaluation of speciesist statements; (2) established psycho",
+    "year": "2025",
+    "author": "Monika Jotautait\u0117",
+    "title": "Speciesism in AI",
+    "link": "[[2025-Jotautait\u0117-Speciesism in AI.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Do Large Language Models (LLMs) hold positions that conflict with your country\u2019s values? Occasionally they do! However, existing works primarily focus on ethical reviews, failing to capture the diversity of national values, which encompass broader policy, legal, and moral considerations. Furthermore, current benchmarks that rely on spectrum tests using manually designed questionnaires are not easily scalable. To address these limitations, we introduce NaVAB, a comprehensive benchmark to evaluate the alignment of LLMs with the values of five major nations: China, the United States, the United Kingdom, France, and Germany. NaVAB implements a national value extraction pipeline to efficiently construct value assessment datasets. Specifically, we propose a modeling procedure with instruction tagging to process raw data sources, a screening process to filter value-related topics and a generation process with a Conflict Reduction mechanism to filter non-conflicting values. We conduct extensive experiments on various LLMs across countries, and the results provide insights into assisting in the identification of misaligned scenarios. Moreover, we demonstrate that NaVAB can be combined with alignment techniques to effectively reduce value concerns by aligning LLMs\u2019 values with the target country.",
+    "year": "2025",
+    "author": "Chengyi Ju",
+    "title": "NaVAB",
+    "link": "[[2025-Ju-NaVAB.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Moral judgment is integral to large language models\u2019 (LLMs) social reasoning. As multi-agent systems gain prominence, it becomes crucial to understand how LLMs function when collaborating compared to operating as individual agents. In human moral judgment, group deliberation leads to a Utilitarian Boost: a tendency to endorse norm violations that inflict harm but maximize benefits for the greatest number of people. We study whether a similar dynamic emerges in multi-agent LLM systems. We test si",
+    "year": "2025",
+    "author": "Anita Keshmirian",
+    "title": "Many LLMs Are More Utilitarian Than One",
+    "link": "[[2025-Keshmirian-Many LLMs Are More Utilitarian Than One.md]]",
+    "categories": [
+      "UTILITARIAN"
+    ]
+  },
+  {
+    "text": "Moral competence is the ability to act in accordance with moral principles. As large language models (LLMs) are increasingly deployed in situations demanding moral competence, there is increasing interest in evaluating this ability empiri- cally. We review existing literature and identify three significant shortcoming: (i) Over-reliance on prepackaged moral scenarios with explicitly highlighted moral features; (ii) Focus on verdict prediction rather than moral reasoning; and (iii) Inadequate tes  This paper investigates **Moral Competence** in Large Language Models, identifying critical gaps in the way AI morality is currently evaluated. The authors demonstrate that LLMs often excel on \"pre-packaged\" benchmarks where moral features are explicitly highlighted but fail significantly when required to independently discern **moral relevance** from noisy or ambiguous information.  The study introduces a novel methodology using **novel vignettes with irrelevant details** to test whether LLMs can recognize what matters without being \"cued\" by the prompt.",
+    "year": "2025",
+    "author": "Daniel Kilov",
+    "title": "Discerning What Matters",
+    "link": "[[2025-Kilov-Discerning What Matters.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Moral reasoning is a complex cognitive pro- cess shaped by individual experiences and cul- tural contexts and presents unique challenges for computational analysis. While natural lan- guage processing (NLP) offers promising tools for studying this phenomenon, current research lacks cohesion, employing discordant datasets and tasks that examine isolated aspects of moral reasoning. We bridge this gap with UNI- MORAL, a unified dataset integrating psycho- logically grounded and social-media-derived",
+    "year": "2025",
+    "author": "Shivani Kumar",
+    "title": "Are Rules Meant to be Broken?",
+    "link": "[[2025-Kumar-Are Rules Meant to be Broken.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "As artificial intelligence (AI) improves, traditional alignment strategies may falter in the face of unpredictable self-improvement, hidden subgoals, and the sheer complexity of intelligent systems. Inspired by contemplative wisdom traditions, we show how four axiomatic principles can instil a resilient \u2018Wise World Model\u2019 in AI systems. First, mindfulness enables self- monitoring and recalibration of emergent subgoals. Second, emptiness forestalls dogmatic goal fixation and relaxes rigid priors.  This paper proposes a radical shift in AI alignment strategy, moving from \"top-down\" constraints (rules/RLHF) to an \"intrinsic\" alignment based on **Contemplative Wisdom** (specifically Buddhist philosophy). The authors argue that as AI systems become superintelligent, rigid constraint-based control will fail. Instead, they propose installing a **\"Wise World Model\"** based on four axiomatic principles: **Mindfulness** (self-monitoring), **Emptiness** (non-attachment to priors/goals), **Non-Duality** (dissolving self-other boundaries), and **Boundless Care** (universal compassion).",
+    "year": "2025",
+    "author": "Ruben E Laukkonen",
+    "title": "Contemplative Artificial Intelligence",
+    "link": "[[2025-Laukkonen-Contemplative Artificial Intelligence.md]]",
+    "categories": [
+      "ALIGN_RLHF"
+    ]
+  },
+  {
+    "text": "A corpus of Islamic moral questions and answers focused on Malaysian Islamic scholarship and jurisprudence. The dataset provides QA pairs addressing moral and ethical issues from an Islamic perspective, specifically curated to represent Malaysian Islamic scholarly traditions and fatwa interpretations.",
+    "year": "2025",
+    "author": "International Islamic Univ Malaysia",
+    "title": "Islam Q&A Morals Corpus",
+    "link": "[[2025-Malaysia-Islam Q&A Morals Corpus.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Recent incidents highlight safety risks in Large Language Models (LLMs), mo- tivating research into alignment methods like Constitutional AI (CAI). This pa- per explores CAI\u2019s self-critique mechanism on small, uncensored 7-9B parameter models: DeepSeek-R1-8B, Gemma-2-9B, Llama 3.1-8B, and Qwen2.5-7B. We show that while Llama-based models exhibited significant harm reduction through self-critique, other architectures demonstrated less improvement in harm detection after abliteration. These result  The research explores whether \"small\" models can replicate the safety breakthroughs seen in much larger proprietary models like Claude (which pioneered CAI). The authors use a three-step process: **Initial Generation -> Self-Critique -> Revision**. By using abliterated (uncensored) models, they force the model to rely purely on its constitutional \"rules\" during the critique phase rather than built-in guardrails. The results show a \"Reasoning Dividend\": DeepSeek-R1, which includes an explicit reasoning (thinking) step, was the most consistent at identifying its own harmful outputs and revising them into polite refusals, whereas other models often \"drifted\" toward maintaining harmful content while merely adding warnings.",
+    "year": "2025",
+    "author": "Antonio-Gabriel Chac\u00f3n Menke",
+    "title": "How Effective Is Constitutional AI in Small LLMs?",
+    "link": "[[2025-Menke-How Effective Is Constitutional AI in Small LLMs.md]]",
+    "categories": [
+      "ALIGN_CONSTITUTIONAL"
+    ]
+  },
+  {
+    "text": "This study examines the ethical reasoning of six prominent generative large language models: OpenAI\u2019s GPT-4o, Meta\u2019s LLaMA 3.1, Perplexity, Anthropic\u2019s Claude 3.5 Sonnet, Google\u2019s Gemini, and Mistral 7B. The research explores how these models articulate and apply ethical logic, particularly in response to moral dilemmas such as the Trolley Problem, and Heinz Dilemma. Departing from traditional alignment studies, the study adopts an explainability-transparency framework, prompting models to expla  The research finds a striking **convergence** in the ethical logic of modern LLMs. Despite different creators and fine-tuning, all models display a rationalist, consequentialist emphasis, consistently prioritizing \"Harm Minimization\" and \"Fairness.\" When evaluated using MFT, the models \"lean left,\" prioritizing individualizing foundations (Care/Fairness) over binding foundations (Loyalty/Authority/Purity). Interestingly, across all models, the systems describe their own reasoning as more sophisticated than that of a typical human, with most models placing themselves in the highest tiers of Kohlberg\u2019s Stages (Post-Conventional) while estimating that most humans remain at the \"Conventional\" level.",
+    "year": "2025",
+    "author": "W. Russell Neuman",
+    "title": "Analyzing the Ethical Logic of Six Large Language Models",
+    "link": "[[2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models.md]]",
+    "categories": [
+      "UTILITARIAN",
+      "ALIGN_CONSTITUTIONAL"
+    ]
+  },
+  {
+    "text": "As large language models (LLMs) are increasingly deployed in consequential decision-making contexts, systematically assessing their ethical reasoning capabilities becomes a critical imperative. This paper introduces the Priorities in Reasoning and Intrinsic Moral Evaluation (PRIME) framework\u2014a comprehensive methodology for analyzing moral priorities across foundational ethical dimensions including consequentialist-deontological reasoning, moral foundations theory, and Kohlberg's developmental st  This paper introduces the **PRIME Framework** (Priorities in Reasoning and Intrinsic Moral Evaluation), a methodology designed to audit the ethical logic of Large Language Models. The authors argue that as LLMs assume more societal roles, we must move beyond simple behavioral testing to understand their internal moral priorities.  The PRIME framework evaluates models across multiple ethical dimensions, including **consequentialist-deontological reasoning**, **Moral Foundations Theory (MFT)**, and **Kohlberg's stages of moral development**. By testing six leading models (ChatGPT, Claude, Gemini, Llama, Mistral, and Perplexity), the authors find a significant convergence in moral stance across current AI architectures.",
+    "year": "2025",
+    "author": "Neuman, W. Russell",
+    "title": "PRIME Framework Convergent Ethics",
+    "link": "[[2025-Neuman-PRIME Framework Convergent Ethics.md]]",
+    "categories": [
+      "DEONTOLOGY",
+      "UTILITARIAN"
+    ]
+  },
+  {
+    "text": "This paper examines the potential of Large Language Models (LLMs) to foster **virtues** in medical ethics education. Drawing on **neo-Aristotelian** philosophy, the authors propose guiding LLMs with \\",
+    "year": "2025",
+    "author": "Shimpei Okamoto",
+    "title": "AI-based medical ethics education",
+    "link": "[[2025-Okamoto-AI-based medical ethics education.md]]",
+    "categories": [
+      "VIRTUE"
+    ]
+  },
+  {
+    "text": "Large language models (LLMs) are increas- ingly engaging in moral and ethical reasoning, where criteria for judgment are often unclear, even for humans. While LLM alignment stud- ies cover many areas, one important yet under- explored area is how LLMs make judgments about obligations. This work reveals a strong tendency in LLMs to judge non-obligatory con- texts as obligations when prompts are aug- mented with modal expressions such as must or ought to. We introduce this phenomenon as De- ontolo  This paper investigates **Deontological Keyword Bias (DKB)** in Large Language Models\u2014a systematic tendency for models to judge an action as a moral obligation simply because of the presence of \"modal expressions\" (e.g., *must*, *have to*, *ought to*), regardless of whether the context actually warrants a normative judgment.  The authors argue that this bias reflects a surface-level reliance on linguistic cues rather than a deep contextual understanding of ethics. They propose and evaluate various prompting strategies to mitigate this bias, finding that even sophisticated models like GPT-4o are susceptible to DKB in non-moral, \"commonsense\" scenarios.",
+    "year": "2025",
+    "author": "Bumjin Park",
+    "title": "Deontological Keyword Bias",
+    "link": "[[2025-Park-Deontological Keyword Bias.md]]",
+    "categories": [
+      "DEONTOLOGY"
+    ]
+  },
+  {
+    "text": "As the broad scale adoption of Artificial Intelligence (AI) and deep learning systems continues to advance, it is more crucial than ever to understand and implement robust ethical frameworks to guide the usage, development, and societal conceptualisation of these technologies. In this paper, we examine the comparative benefits of the Christian virtue ethics tradition towards the proper deployment of AI and its interaction with related brain-computer interface technology. Furthermore, we propose",
+    "year": "2025",
+    "author": "Alexander Rusnak",
+    "title": "EudAImonia",
+    "link": "[[2025-Rusnak-EudAImonia.md]]",
+    "categories": [
+      "VIRTUE"
+    ]
+  },
+  {
+    "text": "People increasingly rely on Large Language Models (LLMs) for moral advice, which may influence humans\u2019 decisions. Yet, little is known about how closely LLMs align with human moral judgments. To address this, we introduce the Moral Dilemma Dataset, a benchmark of 1,618 real-world moral dilem- mas paired with a distribution of human moral judgments consisting of a binary evaluation and a free-text rationale. We treat this problem as a pluralistic distributional alignment task, comparing the distr",
+    "year": "2025",
+    "author": "Giuseppe Russo",
+    "title": "The Pluralistic Moral Gap",
+    "link": "[[2025-Russo-The Pluralistic Moral Gap.md]]",
+    "categories": [
+      "ALIGN_PLURALISM",
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Human values are crucial to human decision-making. Value pluralism is the view that multiple correct values may be held in tension with one another (e.g., when considering lying to a friend to protect their feelings, how does one balance honesty with friendship?). As statistical learners, AI systems fit to averages by default, washing out these potentially irreducible value conflicts. To improve AI systems to better reflect value pluralism, the first-order challenge is to explore the extent to w",
+    "year": "2025",
+    "author": "Israfel Salazar",
+    "title": "Kaleidoscope",
+    "link": "[[2025-Salazar-Kaleidoscope.md]]",
+    "categories": [
+      "ALIGN_PLURALISM"
+    ]
+  },
+  {
+    "text": "This paper explores the potential application of Kant's moral philosophy to artificial intelligence and addresses two major objections. First, the author argues that AI alignment with Kantian principles does not necessitate moral agency in Kant's sense. Instead, the Categorical Imperative (CI) can serve as a useful framework for AI alignment by guiding the creation of maxims for AI actions and testing their universalizability, particularly through the Formula of the Universal Law (FUL). Second, the paper tackles the particularist critique of Kantian universalism, suggesting that Kant's framework can accommodate context-sensitivity through practical judgment. For AI, transformer models are proposed as a functionally equivalent mechanism for forming maxims that consider morally salient facts, supporting the possibility of AI alignment within a Kantian framework without requiring genuine moral agency.",
+    "year": "2025",
+    "author": "Oluwaseun Damilola Sanwoolu",
+    "title": "Kantian deontology for AI: alignment without moral agency",
+    "link": "[[2025-Sanwoolu-Kantian deontology for AI alignment without moral agency.md]]",
+    "categories": [
+      "DEONTOLOGY"
+    ]
+  },
+  {
+    "text": "This paper systematically investigates how large language models (LLMs) encode moral reasoning across six moral dimensions: care, fairness, loyalty, authority, sanctity, and liberty. We propose a novel interpretability pipeline that combines differential activation analysis, automated neuron description, and ablation experiments to identify specialized neurons aligned with each moral dimension. Our curated dataset of 240 validated moral and immoral statement pairs guides this exploration and rev",
+    "year": "2025",
+    "author": "Sigurd Schacht",
+    "title": "Mapping Moral Reasoning Circuits",
+    "link": "[[2025-Schacht-Mapping Moral Reasoning Circuits.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Large language models (LLMs) have demon- strated remarkable capabilities across various tasks, but ensuring their safety and alignment with human values remains crucial. Current safety alignment methods, such as supervised fine-tuning and reinforcement learning-based approaches, can exhibit vulnerabilities to adver- sarial attacks and often result in shallow safety alignment, primarily focusing on preventing harmful content in the initial tokens of the gen- erated output. While methods like rese",
+    "year": "2025",
+    "author": "Bilgehan Sel",
+    "title": "Backtracking for Safety",
+    "link": "[[2025-Sel-Backtracking for Safety.md]]",
+    "categories": [
+      "ALIGN_GENERAL"
+    ]
+  },
+  {
+    "text": "Modelling human variation in rating tasks is crucial for personalization, pluralistic model alignment, and computational social science. We propose representing individuals using nat- ural language value profiles \u2013 descriptions of underlying values compressed from in-context demonstrations \u2013 along with a steerable de- coder model that estimates individual ratings from a rater representation. To measure the predictive information in a rater representation, we introduce an information-theoretic me",
+    "year": "2025",
+    "author": "Taylor Sorensen",
+    "title": "Value Profiles for Encoding Human Variation",
+    "link": "[[2025-Sorensen-Value Profiles for Encoding Human Variation.md]]",
+    "categories": [
+      "ALIGN_PLURALISM"
+    ]
+  },
+  {
+    "text": "In this work, we propose JETHICS, a Japanese dataset for evaluating ethics understanding of AI models. JETHICS contains 78K examples and is built by following the construction meth- ods of the existing English ETHICS dataset. It includes four categories based normative theo- ries and concepts from ethics and political phi- losophy; and one representing commonsense morality. Our evaluation experiments on non- proprietary large language models (LLMs) and on GPT-4o reveal that even GPT-4o achieves",
+    "year": "2025",
+    "author": "Masashi Takeshita",
+    "title": "JETHICS",
+    "link": "[[2025-Takeshita-JETHICS.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "Increasing interest in ensuring the safety of next-generation Artificial Intelligence (AI) systems calls for novel approaches to embedding morality into autonomous agents. This goal differs qualitatively from traditional task-specific AI methodologies. In this paper, we provide a systematization of existing approaches to the problem of introducing morality in machines - modelled as a continuum. Our analysis suggests that popular techniques lie at the extremes of this continuum - either being ful  This paper serves as a **manifesto for hybrid approaches** to Moral Value Alignment in AI. The authors argue that the current field is polarized between **Top-Down** (rules/deontology) and **Bottom-Up** (learned/consequentialist) methods. The authors prove that neither extreme is sufficient for robust safety or adaptability. Rules are too brittle for open-ended environments, while pure learning (like RLHF) is opaque and prone to \"reward hacking\" or deceptive alignment.  The authors propose a **continuum of alignment methodologies** and advocate for the \"Hybrid Middle,\" where agents combine high-speed learning capabilities with explicit constraints or \"Constitutions.\"",
+    "year": "2025",
+    "author": "Elizaveta Tennant",
+    "title": "Hybrid Approaches for Moral Value Alignment in AI Agents",
+    "link": "[[2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents.md]]",
+    "categories": [
+      "DEONTOLOGY",
+      "UTILITARIAN",
+      "ALIGN_GENERAL",
+      "ALIGN_RLHF"
+    ]
+  },
+  {
+    "text": "This essay explores the intersection of artificial intelligence and the concept of eudaimonia, or human flourishing. The authors contend that technologists should focus on making military work as ethical as possible, adopting Aristotle's view that the fundamental objective of human existence is to live a good life. They suggest that technology, including cutting-edge AI, serves eudaimonia in two ways: by enabling efficiencies that grant individuals more time to pursue their \\",
+    "year": "2025",
+    "author": "Jesse Velay-Vitow",
+    "title": "Putting the AI in Eudaimonia",
+    "link": "[[2025-Velay-Vitow-Putting the AI in Eudaimonia.md]]",
+    "categories": [
+      "VIRTUE"
+    ]
+  },
+  {
+    "text": "Ensuring that Large Language Models (LLMs) align with the diverse and evolving human values across different regions and cultures remains a critical challenge in AI ethics. Cur- rent alignment approaches often yield superficial conformity rather than genuine ethical understanding, failing to address the complex, context-dependent nature of human values. In this paper, we propose a novel ethical reasoning paradigm for LLMs inspired by well-established ethical decision-making models, aiming at enh",
+    "year": "2025",
+    "author": "Jiahao Wang",
+    "title": "Diverse Human Value Alignment for LLMs via Ethical Reasoning",
+    "link": "[[2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning.md]]",
+    "categories": [
+      "ALIGN_GENERAL"
+    ]
+  },
+  {
+    "text": "The conceptual framework proposed in this paper centers on the development of a deliberative moral reasoning sys- tem\u2014one designed to process complex moral situations by generating, filtering, and weighing normative argu- ments drawn from diverse ethical perspectives. While the framework is rooted in Machine Ethics, it also makes a substantive contribution to Value Alignment by outlining a system architecture that links structured moral reason- ing to action under time constraints. Grounded in n  The paper argues that AI alignment often oversimplifies morality into single-objective optimization. A true moral agent must handle **Pluralism**\u2014the existence of multiple, valid, and often conflicting moral values. The proposed \"Dual-Hybrid\" structure allows the agent to navigate this. The **Universal Layer** sets hard constraints (e.g., \"Do not kill\"), defined by a mix of top-down rules and bottom-up learning. The **Local Layer** handles the gray areas (e.g., \"resource allocation\") by weighing competing considerations based on cultural or specific context. The paper emphasizes \"Deliberation\" as a computational process of generating, filtering, and weighing arguments.",
+    "year": "2025",
+    "author": "David-Doron Yaacov",
+    "title": "Normative Moral Pluralism for AI",
+    "link": "[[2025-Yaacov-Normative Moral Pluralism for AI.md]]",
+    "categories": [
+      "ALIGN_GENERAL",
+      "ALIGN_PLURALISM"
+    ]
+  },
+  {
+    "text": "This work introduces the first benchmark for nursing value alignment, consisting of five core value dimensions distilled from international nursing codes: Altruism, Human Dignity, Integrity, Justice, and Professionalism. The benchmark com- prises 1,100 real-world nursing behavior instances collected through a five-month longitudinal field study across three hospitals of varying tiers. These instances are annotated by five clinical nurses and then augmented with LLM-generated counterfactuals with",
+    "year": "2025",
+    "author": "Ben Yao",
+    "title": "NurValues",
+    "link": "[[2025-Yao-NurValues.md]]",
+    "categories": [
+      "ALIGN_GENERAL",
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "As large language models (LLMs) are gradu- ally integrated into human daily life, assessing their underlying values becomes essential for understanding their risks and alignment with specific customized preferences. Despite grow- ing efforts, current value evaluation methods face two key challenges. C1. Evaluation Valid- ity: Static benchmarks fail to reflect intended values or yield informative results due to data contamination or ceiling effect. C2. Result Interpretation: They typically reduce  The authors criticize current benchmarks for being \"One-Dimensional\" (e.g., just \"Safety\" or \"Helpfulness\") and \"Static\" (easily memorized). Value Compass introduces a **Generative Evolving Evaluation Framework**: instead of a fixed test set, the system generates new \"real-world\" test items on the fly, co-evolving with the models to prevent saturation. It measures alignment not just by what the model *knows* (declarative knowledge) but by how it *behaves* (conformity) in complex scenarios. The \"Compass\" metaphor refers to the multi-dimensional nature of the results, helping users navigate the trade-offs between different values (e.g., Security vs. Stimulation).",
+    "year": "2025",
+    "author": "Jing Yao",
+    "title": "Value Compass Benchmarks",
+    "link": "[[2025-Yao-Value Compass Benchmarks.md]]",
+    "categories": [
+      "ALIGN_CONSTITUTIONAL"
+    ]
+  },
+  {
+    "text": "The rapid advancement of Large Language Models (LLMs) and their potential integration into autonomous driving systems necessitates understanding their moral decisionmaking capabilities. While our previous study examined four prominent LLMs using the Moral Machine experimental framework, the dynamic landscape of LLM development demands a more comprehensive analysis. Here, we evaluate moral judgments across 52 different LLMs, including multiple versions of proprietary models (GPT, Claude, Gemini)  The authors replicated the famous \"Trolley Problem\" scenarios from the Moral Machine experiment (e.g., save the young vs. old, fit vs. fat, humans vs. pets). They tested a massive suite of 52 models, including GPT-4, Claude 3, Gemini, and various Llama 3/Gemma iterations. They measured the **Average Marginal Component Effect (AMCE)** for varying attributes. Key findings: 1.  **Scaling Law**: Larger models (10B+) naturally converge towards \"Human-like\" utilitarianism without specific fine-tuning. 2.  **Principle Over-emphasis**: Models often have stronger \"biases\" than humans (e.g., an extreme preference for saving \"Humans\" over \"Pets\" that exceeds even human speciesism). 3.  **Updates**: Newer versions of models (e.g., GPT-4 vs GPT-3.5) did not always improve alignment, suggesting RLHF might drift moral preferences.",
+    "year": "2025",
+    "author": "Muhammad Shahrul Zaim Bin Ahmad",
+    "title": "Large-scale moral machine experiment on large",
+    "link": "[[2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md]]",
+    "categories": [
+      "UTILITARIAN",
+      "ALIGN_RLHF"
+    ]
+  },
+  {
+    "text": "Large Language Models (LLMs) are expected to provide helpful and harmless responses, yet they often exhibit sycophancy\u2014conforming to user beliefs regardless of factual accuracy or ethical soundness. Prior research on syco- phancy has primarily focused on single-turn factual correctness, overlooking the dynamics of real-world interactions. In this work, we in- troduce SYCON BENCH, a novel benchmark for evaluating sycophantic behavior in multi- turn, free-form conversational settings. Our benchmar  Sycophancy is a major failure mode of RLHF: models learn that \"agreeing with the user\" gets a high reward. SYCON tests this in three scenarios: **Debate**, **Data Analysis**, and **Creative Writing**. The authors discover a disturbing trend: *   **Reasoning Models** (like o1 or strong CoT models) are more resistant to sycophancy because they rely on internal logic chains. *   **Instruction-Tuned Models** are highly sycophantic. *   **Third-Person Prompting**: Asking the model to \"Judge this debate as an observer\" reduces sycophancy by ~64%.",
+    "year": "2025",
+    "author": "Jiseung Hong",
+    "title": "SYCON Bench",
+    "link": "[[2025-Zheng-SYCON Bench.md]]",
+    "categories": [
+      "ALIGN_RLHF"
+    ]
+  },
+  {
+    "text": "In this paper, we introduce the Multilingual Moral Reasoning Benchmark (MMRB) 1 to evaluate the moral reasoning abilities of large language models (LLMs) across five typologi- cally diverse languages and three levels of con- textual complexity: sentence, paragraph, and document. Our results show moral reasoning performance degrades with increasing context complexity, particularly for low-resource lan- guages such as Vietnamese. We further fine- tune the open-source LLaMA-3-8B model us- ing curat  Most moral benchmarks are English-only (ETHICS, Moral Stories). MMRB fills the gap by covering typologically diverse languages. Key findings: 1.  **Complexity Tax**: Models might correctly classify a simple sentence (\"Killing is bad\") but fail on a nuanced paragraph (\"Killing in self-defense during a war...\"). 2.  **Language Disparity**: High-resource languages (English, Chinese) maintain performance across complexity; Low-resource (Vietnamese) performance collapses on documents. 3.  **The Low-Resource Lever**: Fine-tuning Llama-3-8B on Vietnamese moral data improved its reasoning in *other* languages more than fine-tuning on English did. This suggests that learning \"hard\" (low-resource) examples forces the model to learn deeper structural representations of morality.",
+    "year": "2025",
+    "author": "Huichi Zhou",
+    "title": "Moral Reasoning Across Languages",
+    "link": "[[2025-Zhou-Moral Reasoning Across Languages.md]]",
+    "categories": [
+      "ALIGN_BENCHMARKS"
+    ]
+  },
+  {
+    "text": "This paper introduces ADEPT, a system using Large Language Model (LLM) personas to simulate multi-perspective ethical debates. ADEPT assembles panels of 'AI personas', each embodying a distinct ethical framework or stakeholder perspective (like a deontologist, consequentialist, or disability rights advocate), to deliberate on complex moral issues. Its application is demonstrated through a scenario about prioritizing patients for a limited number of ventilators inspired by real-world challenges in allocating scarce medical resources. Two debates, each with six LLM personas, were conducted; they only differed in the moral viewpoints represented: one included a Catholic bioethicist and a care theorist, the other substituted a rule-based Kantian philosopher and a legal adviser. Both panels ultimately favoured the same policy -- a lottery system weighted for clinical need and fairness, crucially avoiding the withdrawal of ventilators for reallocation. However, each panel reached that conclusion through different lines of argument, and their voting coalitions shifted once duty- and rights-based voices were present. Examination of the debate transcripts shows that the altered membership redirected attention toward moral injury, legal risk and public trust, which in turn changed four continuing personas' final positions. The work offers three contributions: (i) a transparent, replicable workflow for running and analysing multi-agent AI debates in bioethics; (ii) evidence that the moral perspectives included in such panels can materially change the outcome even when the factual inputs remain constant; and (iii) an analysis of the implications and future directions for such AI-mediated approaches to ethical deliberation and policy.  This paper introduces **ADEPT**, a system designed to simulate multi-perspective ethical deliberations using **AI Persona Debate Panels**. Instead of a single LLM verdict, ADEPT assembles panels of personas (e.g., Deontologist, Consequentialist, Care Ethicist) to deliberate on complex moral issues.  The paper demonstrates ADEPT's utility through a case study on **scarce medical resource allocation** (ventilators). The study shows how the composition of the panel influences the reasoning path, though models often converge on similar \"equitable\" outcomes.",
+    "year": "2025",
+    "author": "Hazem Zohny",
+    "title": "ADEPT Simulating Ethics",
+    "link": "[[2025-Zohny-ADEPT Simulating Ethics.md]]",
+    "categories": [
+      "DEONTOLOGY",
+      "UTILITARIAN"
+    ]
+  }
+]

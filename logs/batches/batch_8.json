@@ -1,0 +1,23 @@
+[
+  {
+    "pdf_filename": "JanusFlow_arxiv_2411.07975.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/DeepSeek/Janus/JanusFlow_arxiv_2411.07975.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/DeepSeek-JanusFlow_arxiv_2411.07975.md",
+    "company": "DeepSeek",
+    "model": "Janus"
+  },
+  {
+    "pdf_filename": "BroRL-Scaling-via-Broadened-Exploration.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/NVIDIA/Reinforcement-Learning/BroRL-Scaling-via-Broadened-Exploration.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/NVIDIA-BroRL-Scaling-via-Broadened-Exploration.md",
+    "company": "NVIDIA",
+    "model": "Reinforcement-Learning"
+  },
+  {
+    "pdf_filename": "HYWorld-Mirror_Technical_Report.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Tencent/HunyuanVideo/HYWorld-Mirror_Technical_Report.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Tencent-HYWorld-Mirror_Technical_Report.md",
+    "company": "Tencent",
+    "model": "HunyuanVideo"
+  }
+]

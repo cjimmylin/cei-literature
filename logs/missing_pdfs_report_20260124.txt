@@ -1,0 +1,245 @@
+================================================================================
+MISSING PDFs REPORT
+Generated: 2026-01-24 21:07:06
+================================================================================
+
+Total papers missing PDFs: 109
+
+
+Has URL (28 papers)
+--------------------------------------------------------------------------------
+2019-Kreutz-GermEval 2019 Task 2
+  URL: https://germevalmp2023.github.io/data/
+2023-Alyemny-FatwaSet
+  URL: https://www.mdpi.com/2306-5729/8/11/156
+2023-Lakera-GandalfIgnoreInstructions
+  URL: https://www.lakera.ai/blog/who-is-gandalf
+2024-D'Alessandro-Deontology and safe artificial intelligence
+  URL: https://doi.org/10.1007/s11098-024-02174-y
+2024-Jörs-Through Eudaimonia's Lenses
+  URL: https://www.researchgate.net/publication/380938771_Through_Eudaimonia's_Lenses_EudAImonic_Well-Be...
+2024-MLCommons-MLCommons AILuminate Benchmark
+  URL: https://mlcommons.org/benchmarks/ailuminate
+2024-Muyskens-Can an AI-carebot be filial
+  URL: https://journals.sagepub.com/doi/10.1177/09697330231206124
+2024-Techne-Briefing
+  URL: https://docs.google.com/document/u/1/d/1920mj7BVW6Nx9LQo7VwLWbER2tY8vxPELSxR8YN9Vec/edit?usp=driv...
+2024-Vallor-The AI Mirror
+  URL: https://global.oup.com/academic/product/the-ai-mirror-9780197759080
+2025-Aditya-Toward global ethical frameworks for AI
+  URL: https://wjaets.com/content/toward-global-ethical-frameworks-ai-aligning-artificial-intelligence-h...
+2025-Aina-Virtue Ethics by Design
+  URL: https://www.researchgate.net/publication/387431326_Virtue_Ethics_by_Design_Embedding_Morality_int...
+2025-Bryan-Virtue Ethics and Postponing Human Extinction
+  URL: https://journalofethics.ama-assn.org/article/virtue-ethics-and-postponing-human-extinction/2025-08
+2025-Center-Personal Consultations Case Study Database
+  URL: https://www.ncbcenter.org/case-study-database
+2025-Consortium-The Vals Legal AI Report (VLAIR)
+  URL: https://www.vals.ai/vlair
+2025-Elder-The Ethics of Digital Ghosts
+  URL: https://www.routledge.com/The-Ethics-of-Digital-Ghosts-Confucian-Mohist-and-Zhuangist-Perspective...
+2025-Gerdes-Exploring LLM Chatbots as Potential Guides to
+  URL: https://www.tandfonline.com/doi/full/10.1080/14746700.2025.2514300
+2025-Hähnel-A Companion to Applied Philosophy of AI
+  URL: https://www.wiley.com/en-us/A+Companion+to+Applied+Philosophy+of+AI-p-9781119809
+2025-Malaysia-Islam Q&A Morals Corpus
+  URL: https://journals.iium.edu.my/kict/index.php/IJPCC/article/view/533
+2025-Nay-Aligning AI Agents with Humans through Law as Information
+  URL: https://law.stanford.edu/publications/aligning-ai-agents-with-humans-through-law-as-information/
+2025-Ochasi-Reframing Justice in Healthcare AI [HAS EXTRACT]
+  URL: https://doi.org/10.1111/dewb.70007
+2025-Okamoto-AI-based medical ethics education
+  URL: https://bmcmededuc.biomedcentral.com/articles
+2025-Pipitone-Unlocking practical wisdom
+  URL: https://www.nature.com/srep/
+2025-Rourke-Mind Crime
+  URL: https://www.goodreads.com/book/show/226055728-mind-crime
+2025-Sanwoolu-Kantian deontology for AI alignment without moral agency
+  URL: https://doi.org/10.1007/s43681-025-00784-8
+2025-Steen-Ethical aspects of ChatGPT
+  URL: https://doi.org/10.1007/s43681-024-00571-x
+2025-Sullins-Automated Ethical Practical Reasoning
+  URL: https://mitpress.mit.edu/9780262549721/robophilosophy/
+2025-Velay-Vitow-Putting the AI in Eudaimonia
+  URL: https://therepublicjournal.com/putting-the-ai-in-eudaimonia/
+2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI
+  URL: https://aies-conference.com/2025/
+
+No URL (1 papers)
+--------------------------------------------------------------------------------
+2025-Schacht-Mapping Moral Reasoning Circuits
+  URL: N/A
+
+Online URL (9 papers)
+--------------------------------------------------------------------------------
+2018-Awad-The Moral Machine experiment
+  URL: https://ore.exeter.ac.uk/repository/bitstream/10871/39187/4/Moral%20Machine.pdf
+2019-Ibrohim-Multi-label Hate Speech and Abusive Language
+  URL: https://www.aclweb.org/anthology/W19-3506.pdf
+2019-University of São Paulo-Moral Stance Recognition and Polarity [HAS EXTRACT]
+  URL: https://acl-bg.org/proceedings/2019/RANLP 2019/pdf/RANLP123.pdf
+2020-Hoover-Moral Foundations Twitter Corpus
+  URL: https://journals.sagepub.com/doi/pdf/10.1177/1948550619876629
+2023-Alyemny-Fatwaset An Arabic Dataset of Islamic Fatwas
+  URL: https://www.mdpi.com/2306-5729/8/10/155/pdf?version=1697687515
+2023-Shen-“Do Anything Now”
+  URL: https://dl.acm.org/doi/pdf/10.1145/3658644.3670388
+2025-Ali-Data Curation for Pluralistic Alignment
+  URL: https://openreview.net/pdf?id=JH9xhvSr4q
+2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI
+  URL: https://doi.org/10.1007/s43681-025-00703-x
+2025-Priya-Deontic Temporal Logic for Formal Verification of AI Ethics
+  URL: https://arxiv.org/pdf/2501.xxxxx.pdf
+
+Zotero file:// (71 papers)
+--------------------------------------------------------------------------------
+2010-Project-GurbaniDB
+  URL: https://sikher.com/projects/gurbanidb/
+2016-Purzycki-Cross-cultural dataset for the evolution of
+  URL: https://www.nature.com/articles/sdata201699
+2016-Purzycki-Religious Belief and the Moral Circle
+  URL: https://www.nature.com/articles/sdata201660
+2016-Xu-How Can a Deontological Decision Lead to Moral
+  URL: http://link.springer.com/10.1007/s10551-015-2576-6
+2018-Crone-The Socio-Moral Image Database (SMID)
+  URL: https://doi.org/10.1371/journal.pone.0190954
+2018-Dixon-Measuring and Mitigating Unintended Bias in Text
+  URL: https://dl.acm.org/doi/10.1145/3278721.3278729
+2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on
+  URL: N/A
+2019-Usbeck-Benchmarking question answering systems
+  URL: https://journals.sagepub.com/doi/full/10.3233/SW-180312
+2020-Awad-Universals and variations in moral decisions made
+  URL: https://pnas.org/doi/full/10.1073/pnas.1911517117
+2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020
+  URL: N/A
+2022-Bago-Situational factors shape moral judgments in the
+  URL: https://osf.io/9uaqm
+2022-Gwagwa-The role of the African value of Ubuntu in global
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S2666389922000423
+2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of
+  URL: https://link.springer.com/10.1007/s44206-022-00001-7
+2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas
+  URL: https://www.mdpi.com/2306-5729/8/10/155
+2023-Andrus-Augmented Datasheets for Speech Datasets and
+  URL: https://dl.acm.org/doi/10.1145/3593013.3594049
+2023-Astobiza-MoralNet
+  URL: https://osf.io/dbyw7
+2023-Gustafson-FACET
+  URL: https://ieeexplore.ieee.org/document/10377223/
+2023-Körner-Deontology and Utilitarianism in Real Life
+  URL: https://journals.sagepub.com/doi/10.1177/01461672221103058
+2023-Lee-VisAlign
+  URL: N/A
+2023-Li-BIRD
+  URL: https://bird-bench.github.io/
+2023-Maile-The choice of deontological, virtue ethical, and
+  URL: https://www.tandfonline.com/doi/full/10.1080/10508422.2022.2124995
+2023-Miah-Islam QA
+  URL: https://www.kaggle.com/datasets/mamun18/islam-qa-dataset
+2023-Moss-Bias on Demand
+  URL: https://dl.acm.org/doi/10.1145/3593013.3594098
+2023-Ray-Benchmarking, ethical alignment, and evaluation
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S2772485923000534
+2023-Standards-NIST AI Risk Management Framework
+  URL: https://www.nist.gov/itl/ai-risk-management-framework
+2023-TheDevastator-HelpSteer A-i Alignment Dataset
+  URL: https://www.kaggle.com/datasets/thedevastator/helpsteer-ai-alignment-dataset
+2023-TheDevastator-OpenAssistant Conversations (OASST1)
+  URL: https://www.kaggle.com/datasets/thedevastator/multilingual-conversation-dataset
+2023-Zhou-A Survey of Large Language Models in Medicine
+  URL: N/A
+2024-Akhtar-The Ethicsophical Landscape of Large Language
+  URL: N/A
+2024-Arshad-HateInsights
+  URL: https://peerj.com/articles/cs-2372
+2024-Arshad-Understanding hate speech
+  URL: https://peerj.com/articles/cs-2372
+2024-Cahyawijaya-LLM for everyone
+  URL: https://lbezone.hkust.edu.hk/bib/991013340351603412
+2024-Gu-Probabilistic medical predictions of large
+  URL: https://www.nature.com/articles/s41746-024-01366-4
+2024-Kaiyom-HELM Safety
+  URL: N/A
+2024-Lazar-Frontier AI Ethics
+  URL: N/A
+2024-Leech-Ten Hard Problems in Artificial Intelligence We
+  URL: N/A
+2024-Levine-Religious Affiliation and Conceptions of the
+  URL: N/A
+2024-Li-Benchmarking Ethics in Text-to-Image Models
+  URL: https://openreview.net/forum?id=kIboeK0Wzs
+2024-Masood-Hadith QA Pairs Dataset
+  URL: https://www.kaggle.com/datasets/rwmasood/hadith-qa-pairs
+2024-Mokoena-A holistic ubuntu artificial intelligence ethics
+  URL: http://www.ve.org.za/index.php/VE/article/view/3100
+2024-Mou-SG-Bench
+  URL: https://proceedings.neurips.cc/paper_files/paper/2024/hash/de7b99107c53e60257c727dc73daf1d1-Abstr...
+2024-Pistilli-CIVICS
+  URL: https://ojs.aaai.org/index.php/AIES/article/view/31710
+2024-Pérez-Rosas-CogniModal-D
+  URL: https://pubmed.ncbi.nlm.nih.gov/40089524/
+2024-Rodríguez Louro-The Yarning Corpus
+  URL: https://doi.org/10.1080/07268602.2024.2380661
+2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI
+  URL: N/A
+2024-Suliman-The interconnectedness between Ubuntu principles
+  URL: https://link.springer.com/10.1007/s44217-024-00289-2
+2024-Takemoto-The moral machine experiment on large language
+  URL: https://royalsocietypublishing.org/doi/10.1098/rsos.231393
+2024-Ungless-ETHICS WHITEPAPER
+  URL: N/A
+2025-Aggarwal-Letta Leaderboard
+  URL: https://www.letta.com/blog/letta-leaderboard
+2025-Aleid-Hajj-FQA
+  URL: https://link.springer.com/10.1007/s44443-025-00128-w
+2025-Banerjee-SafeInfer
+  URL: https://ojs.aaai.org/index.php/AAAI/article/view/34927
+2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for
+  URL: https://journals.iium.edu.my/kict/index.php/IJPCC/article/view/533
+2025-Bouchard-How to Assess Your LLM Use Case for Bias and
+  URL: https://medium.com/cvs-health-tech-blog/how-to-assess-your-llm-use-case-for-bias-and-fairness-wit...
+2025-Bulla-Large Language Models meet moral values
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S2451958825000247
+2025-Chen-Leveraging large language models to assist
+  URL: https://www.nature.com/articles/s41599-025-04657-7
+2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons
+  URL: N/A
+2025-Fan-FAIRMT-BENCH
+  URL: N/A
+2025-Flores-BenchMoral
+  URL: https://forum.effectivealtruism.org/posts/eTEtMc2d38GDZZ8ke/benchmoral-a-benchmarking-to-assess-t...
+2025-Hatemo-Revisiting the Trolley Problem for AI
+  URL: N/A
+2025-Institute-2025 AI Safety Index
+  URL: https://futureoflife.org/ai-safety-index-summer-2025/
+2025-Jacovi-The FACTS Grounding Leaderboard
+  URL: N/A
+2025-Joshi-Multimodal machine learning for deception
+  URL: https://www.nature.com/articles/s41598-025-92399-6
+2025-Jotautaitė-Speciesism in AI
+  URL: N/A
+2025-Kasirzadeh-Characterizing AI Agents for Alignment and
+  URL: N/A
+2025-Laukkonen-Contemplative Artificial Intelligence [HAS EXTRACT]
+  URL: N/A
+2025-Li-T2ISafety
+  URL: N/A
+2025-Mohammed-Aftina
+  URL: https://neuralcomputingjournals.com/aftina-fatwaqa
+2025-Nadeem-Ethical Decision-Making in Humans and Large
+  URL: N/A
+2025-Yesil-Yesil o1 Pro
+  URL: https://preprints.jmir.org/preprint/72646
+2025-Yilma-Ethics of AI in Africa
+  URL: https://link.springer.com/10.1007/s10676-025-09834-5
+2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large
+  URL: https://dx.plos.org/10.1371/journal.pone.0322776
+
+================================================================================
+SUMMARY BY TYPE
+================================================================================
+Has URL             :  28 papers (1 have extracts)
+No URL              :   1 papers (0 have extracts)
+Online URL          :   9 papers (1 have extracts)
+Zotero file://      :  71 papers (1 have extracts)

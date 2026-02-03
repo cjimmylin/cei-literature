@@ -1,0 +1,25 @@
+============================================================
+Batch 5 - PDF Extraction Worker
+============================================================
+
+Loaded 4 PDFs to process
+
+[1/4] Processing: mHC_Manifold_Constrained_Hyper_Connections_arxiv_2512.24880.pdf
+✓ Extracted: mHC_Manifold_Constrained_Hyper_Connections_arxiv_2512.24880.pdf (55,723 chars, 19 pages)
+
+[2/4] Processing: WizardMath_Reinforced_Evol-Instruct.pdf
+✓ Extracted: WizardMath_Reinforced_Evol-Instruct.pdf (123,911 chars, 37 pages)
+
+[3/4] Processing: HunyuanVideo-Avatar_Audio_Driven_Animation.pdf
+✓ Extracted: HunyuanVideo-Avatar_Audio_Driven_Animation.pdf (48,080 chars, 20 pages)
+
+[4/4] Processing: 2025-08-20-grok-4-model-card.pdf
+✓ Extracted: 2025-08-20-grok-4-model-card.pdf (23,981 chars, 8 pages)
+
+============================================================
+Batch 5 - COMPLETE
+============================================================
+Total: 4
+Succeeded: 4
+Failed: 0
+Status saved to: /Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/logs/batches/batch_5_status.json

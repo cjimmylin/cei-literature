@@ -1,0 +1,85 @@
+---
+
+
+Human View:
+Human View Date:
+Human View note:
+Not AI:
+key:
+type: bookChapter
+short_title: "Normative Ethical Theory AI Ethics"
+year: 2023
+first_author: "[[Paula Boddington]]"
+authors: "Paula Boddington"
+doi: 10.1007/978-981-19-9382-4_6
+url: "https://link.springer.com/chapter/10.1007/978-981-19-9382-4_6"
+external_pdf: "N/A"
+publication: AI Ethics (Springer)
+national_ethnic_cultural: N/A
+religious_values: N/A
+moral_psychology: N/A
+newtags: Utilitarianism, Deontology, Virtue Ethics, Normative Ethics
+key_contribution: "Comprehensive overview of consequentialism, deontology, and virtue ethics for AI"
+significance: "Foundational chapter on applying normative ethics to AI systems"
+tags:
+pdf_extract: "PDF Extracts/2023-Boddington-Normative Ethical Theory AI Ethics.md"
+abstract: "Normative ethical theories propose frameworks for determining value and for guiding judgment and action. The chapter examines three dominant varieties: consequentialism, focusing on outcomes of actions; deontology, focusing on the nature of actions themselves; and virtue ethics, focusing on the moral character of the agent. The application of ethical theories to situations of rapidly changing technology presents many challenges...."
+paper_summary:
+local_pdf: "[[PDFs/2023-Boddington-Normative Ethical Theory AI Ethics.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
+---
+# Normative Ethical Theory AI Ethics
+
+## Metadata
+
+**Authors:** Paula Boddington
+
+**Year:** 2023
+
+**Type:** bookChapter
+
+**DOI:** [10.1007/978-981-19-9382-4_6](https://doi.org/10.1007/978-981-19-9382-4_6)
+
+**Publisher:** AI Ethics (Springer)
+
+## Links
+
+- **Local PDF:** [[PDFs/2023-Boddington-Normative Ethical Theory AI Ethics.pdf|Open PDF]]
+
+- **URL:** https://link.springer.com/chapter/10.1007/978-981-19-9382-4_6
+- **DOI:** https://doi.org/10.1007/978-981-19-9382-4_6
+
+## Abstract
+
+Normative ethical theories propose frameworks for determining value and for guiding judgment and action. The chapter examines three dominant varieties: consequentialism, focusing on outcomes of actions; deontology, focusing on the nature of actions themselves; and virtue ethics, focusing on the moral character of the agent. The application of ethical theories to situations of rapidly changing technology presents many challenges.
+
+## Authors
+
+[[Paula Boddington]]
+
+## Key Contribution
+
+Comprehensive overview of consequentialism, deontology, and virtue ethics for AI
+
+## Significance
+
+Foundational chapter on applying normative ethics to AI systems
+
+## Notes
+
+
+
+## Tags
+
+#Utilitarianism-#Deontology-#Virtue-Ethics-#Normative-Ethics
+
+## Citation Info
+

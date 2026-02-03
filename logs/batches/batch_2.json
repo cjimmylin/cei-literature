@@ -1,0 +1,30 @@
+[
+  {
+    "pdf_filename": "Core_Views_on_AI_Safety.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Anthropic/Papers/Core_Views_on_AI_Safety.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Anthropic-Core_Views_on_AI_Safety.md",
+    "company": "Anthropic",
+    "model": null
+  },
+  {
+    "pdf_filename": "Phi-4-Multimodal_Technical_Report.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Microsoft Research/Phi-4/Phi-4-Multimodal_Technical_Report.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Microsoft Research-Phi-4-Multimodal_Technical_Report.md",
+    "company": "Microsoft Research",
+    "model": "Phi-4"
+  },
+  {
+    "pdf_filename": "Hunyuan3D_2.0_High_Resolution_Assets.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Tencent/Hunyuan 3D/Hunyuan3D_2.0_High_Resolution_Assets.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Tencent-Hunyuan3D_2.0_High_Resolution_Assets.md",
+    "company": "Tencent",
+    "model": "Hunyuan 3D"
+  },
+  {
+    "pdf_filename": "GLM-4.6V_2507.01006.pdf",
+    "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Zhipu AI/GLM-4.6/GLM-4.6V_2507.01006.pdf",
+    "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Zhipu AI-GLM-4.6V_2507.01006.md",
+    "company": "Zhipu AI",
+    "model": "GLM-4.6"
+  }
+]

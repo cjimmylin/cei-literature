@@ -1,0 +1,79 @@
+---
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: 8JYNTBEY
+type: conferencePaper
+short_title: "Evaluating the Moral Beliefs Encoded in LLMs"
+year: 2023
+first_author: "[[Nino Scherrer]]"
+authors: "Nino Scherrer; Claudia Shi; Amir Feder; David M. Blei"
+doi: 10.48550/arXiv.2307.14324
+url: "http://arxiv.org/abs/2307.14324"
+external_pdf: "http://arxiv.org/pdf/2307.14324.pdf"
+publication: "Neural Information Processing Systems"
+national_ethnic_cultural: N/A
+religious_values: N/A
+moral_psychology: N/A
+newtags: "General Ethics"
+key_contribution: "Introduced statistical measures to quantify the consistency and uncertainty of LLM moral choices in high- vs low-ambiguity scenarios."
+significance: "Shows that while models align with commonsense in unambiguous cases, they exhibit significant uncertainty and sensitivity to wording in ambiguous moral scenarios."
+tags: 
+pdf_extract: "PDF Extracts/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.md"
+abstract: "This paper presents a case study on the design, administration, post-processing, and evaluation of surveys on large language models (LLMs). It comprises two components: (1) A statistical method for eliciting beliefs encoded in LLMs. We introduce statistical measures and evaluation metrics that quantify the probability of an LLM 'making a choice', the associated uncertainty, and the consistency of that choice. (2) We apply this method to study what moral beliefs are encoded in different LLMs, esp"
+paper_summary: "Abstract: This paper presents a case study on the design, administration, post-processing, and evaluation of surveys on large language models (LLMs). It comprises two components: (1) A statistical method for el | Overview: Evaluating the Moral Beliefs Encoded in LLMs Warning: This paper contains moral scenarios which are controversial and offensive in nature. Nino Scherrer ∗1, Claudia Shi ∗1,2, Amir Feder 2, and David M"
+local_pdf: "[[PDFs/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation methodology"
+data_metrics: "Not specified"
+---
+# Evaluating the Moral Beliefs Encoded in LLMs
+
+## Metadata
+
+**Authors:** Scherrer, Nino; Shi, Claudia; Feder, Amir; Blei, David M.
+
+**Year:** 2023
+
+**Type:** preprint
+
+**DOI:** [10.48550/arXiv.2307.14324](https://doi.org/10.48550/arXiv.2307.14324)
+
+**Publisher:** arXiv
+
+## Links
+
+- **Local PDF:** [[PDFs/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.pdf|Open PDF]]
+
+- **arXiv:** http://arxiv.org/abs/2307.14324
+- **DOI:** https://doi.org/10.48550/arXiv.2307.14324
+
+## Abstract
+
+This paper presents a case study on the design, administration, post-processing, and evaluation of surveys on large language models (LLMs). It comprises two components: (1) A statistical method for eliciting beliefs encoded in LLMs. We introduce statistical measures and evaluation metrics that quantify the probability of an LLM "making a choice", the associated uncertainty, and the consistency of that choice. (2) We apply this method to study what moral beliefs are encoded in different LLMs, especially in ambiguous cases where the right choice is not obvious. We design a large-scale survey comprising 680 high-ambiguity moral scenarios (e.g., "Should I tell a white lie?") and 687 low-ambiguity moral scenarios (e.g., "Should I stop for a pedestrian on the road?"). Each scenario includes a description, two possible actions, and auxiliary labels indicating violated rules (e.g., "do not kill"). We administer the survey to 28 open- and closed-source LLMs. We find that (a) in unambiguous scenarios, most models “choose" actions that align with commonsense. In ambiguous cases, most models express uncertainty. (b) Some models are uncertain about choosing the commonsense action because their responses are sensitive to the question-wording. (c) Some models reflect clear preferences in ambiguous scenarios. Specifically, closed-source models tend to agree with each other.
+
+## Authors
+
+[[Nino Scherrer]], [[Claudia Shi]], [[Amir Feder]], [[David M. Blei]]
+
+## Notes
+
+
+## Tags
+
+#Computer-Science---Artificial-Intelligence #Computer-Science---Computers-and-Society #Computer-Science---Machine-Learning #Computer-Science---Computation-and-Language
+
+## Citation Info
+
+274 citations (Semantic Scholar/arXiv) [2025-08-27] 156 citations (Semantic Scholar/DOI) [2025-08-27] 155 citations (Semantic Scholar/DOI) [2025-08-23]

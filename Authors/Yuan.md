@@ -1,0 +1,24 @@
+---
+name: "Yuan"
+affiliation: "University/Organization"
+research_interests:
+  - "Topic 1"
+  - "Topic 2"
+website: ""
+google_scholar: ""
+semantic_scholar: ""
+---
+
+# Yuan
+
+## Research Summary
+
+[Brief summary of the author's research focus and contributions]
+
+## Papers in this Vault
+
+- [[2024-Yuan-R-Judge|R-Judge]]
+
+## Notes
+
+[Additional context or contact information]

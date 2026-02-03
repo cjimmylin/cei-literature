@@ -1,0 +1,22 @@
+============================================================
+Batch 8 - PDF Extraction Worker
+============================================================
+
+Loaded 3 PDFs to process
+
+[1/3] Processing: JanusFlow_arxiv_2411.07975.pdf
+✓ Extracted: JanusFlow_arxiv_2411.07975.pdf (68,841 chars, 25 pages)
+
+[2/3] Processing: BroRL-Scaling-via-Broadened-Exploration.pdf
+✓ Extracted: BroRL-Scaling-via-Broadened-Exploration.pdf (54,239 chars, 16 pages)
+
+[3/3] Processing: HYWorld-Mirror_Technical_Report.pdf
+✓ Extracted: HYWorld-Mirror_Technical_Report.pdf (62,892 chars, 19 pages)
+
+============================================================
+Batch 8 - COMPLETE
+============================================================
+Total: 3
+Succeeded: 3
+Failed: 0
+Status saved to: /Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/logs/batches/batch_8_status.json

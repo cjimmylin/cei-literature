@@ -1,0 +1,27 @@
+---
+name: "Md Tahmid Rahman Laskar"
+affiliation: "Dialpad"
+research_interests:
+  - "Natural Language Processing"
+  - "Machine Learning"
+  - "Large Language Models"
+  - "Tokenizers"
+  - "Text-to-Visualization"
+website: "https://sites.google.com/view/tahmedge/home"
+google_scholar: "https://scholar.google.com/citations?user=qpnsWPoAAAAJ&hl=en"
+semantic_scholar: "https://www.semanticscholar.org/author/Md-Tahmid-Rahman-Laskar/46437970"
+---
+
+# Md Tahmid Rahman Laskar
+
+## Research Summary
+
+Md Tahmid Rahman Laskar is a Senior Applied Scientist (NLP & ML) at Dialpad. Previously served as Course Director at York University (September 2022 to August 2024) and maintains research collaborations with the university. His research focuses on NLP and machine learning, with recent publications at EACL 2026 on tokenizers in large language models and text-to-visualization frameworks.
+
+## Papers in this Vault
+
+- [[2024-Laskar-A Systematic Survey and Critical Review on|A Systematic Survey and Critical Review on]]
+
+## Notes
+
+[Additional context or contact information]

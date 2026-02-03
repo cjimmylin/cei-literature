@@ -1,0 +1,25 @@
+============================================================
+Batch 3 - PDF Extraction Worker
+============================================================
+
+Loaded 4 PDFs to process
+
+[1/4] Processing: Claude_Character_2024.pdf
+✗ Error processing Claude_Character_2024.pdf: Failed to open file '/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Anthropic/Papers/Claude_Character_2024.pdf'.
+
+[2/4] Processing: WizardCoder_Evol-Instruct.pdf
+✓ Extracted: WizardCoder_Evol-Instruct.pdf (64,316 chars, 18 pages)
+
+[3/4] Processing: HY-World_1.5_Technical_Report.pdf
+✓ Extracted: HY-World_1.5_Technical_Report.pdf (52,061 chars, 20 pages)
+
+[4/4] Processing: 2025-08-26-grok-code-fast-1-model-card.pdf
+✓ Extracted: 2025-08-26-grok-code-fast-1-model-card.pdf (15,520 chars, 6 pages)
+
+============================================================
+Batch 3 - COMPLETE
+============================================================
+Total: 4
+Succeeded: 3
+Failed: 1
+Status saved to: /Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/logs/batches/batch_3_status.json

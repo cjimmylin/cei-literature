@@ -1,0 +1,29 @@
+---
+name: "Bryan Wilie"
+title: "PhD Student / Researcher"
+affiliation: "Center for Artificial Intelligence Research (CAiRE), The Hong Kong University of Science and Technology"
+research_interests:
+  - "Natural Language Processing"
+  - "AI Ethics"
+  - "Ethical Question Answering"
+  - "Human Value Alignment"
+  - "Large Language Models"
+website: ""
+google_scholar: ""
+semantic_scholar: ""
+---
+
+# Bryan Wilie
+
+## Research Summary
+
+Bryan Wilie is a researcher at the Center for Artificial Intelligence Research (CAiRE) at the Hong Kong University of Science and Technology. His research focuses on natural language processing and AI ethics, particularly on how language models can engage with ethical questions and represent human values. He has contributed to work on ethical quandary question answering using Socratic methods and on representing human values in LLMs across different languages and cultures.
+
+## Papers in this Vault
+
+- [[2023-Bang-Towards Answering Open-ended Ethical Quandary|Towards Answering Open-ended Ethical Quandary Questions]]
+- [[2024-Cahyawijaya-High-Dimension Human Value Representation in|High-Dimension Human Value Representation in LLMs]]
+
+## Notes
+
+Works under Pascale Fung at CAiRE, HKUST. Email: bwilie@connect.ust.hk

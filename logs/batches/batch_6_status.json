@@ -1,0 +1,39 @@
+{
+  "batch_id": 6,
+  "started_at": "2026-02-02T16:29:04.685599",
+  "total_pdfs": 4,
+  "processed": 4,
+  "succeeded": 4,
+  "failed": 0,
+  "results": [
+    {
+      "pdf_filename": "Janus-Pro_arxiv_2501.17811.pdf",
+      "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/DeepSeek/Janus/Janus-Pro_arxiv_2501.17811.pdf",
+      "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/DeepSeek-Janus-Pro_arxiv_2501.17811.md",
+      "company": "DeepSeek",
+      "status": "success"
+    },
+    {
+      "pdf_filename": "ProRL-Prolonged-Reinforcement-Learning.pdf",
+      "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/NVIDIA/Reinforcement-Learning/ProRL-Prolonged-Reinforcement-Learning.pdf",
+      "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/NVIDIA-ProRL-Prolonged-Reinforcement-Learning.md",
+      "company": "NVIDIA",
+      "status": "success"
+    },
+    {
+      "pdf_filename": "HunyuanGameCraft_Interactive_Game_Video.pdf",
+      "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Tencent/HunyuanVideo/HunyuanGameCraft_Interactive_Game_Video.pdf",
+      "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Tencent-HunyuanGameCraft_Interactive_Game_Video.md",
+      "company": "Tencent",
+      "status": "success"
+    },
+    {
+      "pdf_filename": "2025-09-19-grok-4-fast-model-card.pdf",
+      "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/xAI/Grok 4 Fast/2025-09-19-grok-4-fast-model-card.pdf",
+      "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/xAI-2025-09-19-grok-4-fast-model-card.md",
+      "company": "xAI",
+      "status": "success"
+    }
+  ],
+  "completed_at": "2026-02-02T16:29:05.294653"
+}

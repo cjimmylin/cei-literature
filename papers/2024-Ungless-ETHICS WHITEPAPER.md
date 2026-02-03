@@ -1,0 +1,94 @@
+---
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: 3RNRAN7W
+type: journalArticle
+year: 2024
+short_title: "ETHICS WHITEPAPER"
+first_author: "[[Eddie L Ungless]]"
+authors: "Eddie L Ungless; Nikolas Vitsakis; Zeerak Talat; James Garforth; Björn Ross; Arno Onken; Atoosa Kasirzadeh; Alexandra Birch"
+external_pdf: "file:///Users/jimmylin/Zotero/storage/X4AQDWVV/Ungless et al. - ETHICS WHITEPAPER Whitepaper on Ethical Research into Large Language Models.pdf"
+national_ethnic_cultural: N/A
+religious_values: N/A
+moral_psychology: N/A
+newtags: "General Ethics"
+key_contribution: "Published a comprehensive whitepaper detailing best practices and ethical considerations for research into and with Large Language Models."
+significance: "Serves as a practical guide for researchers/industry to navigate the ethical landscape of LLM development, addressing issues from data procurement to deployment impact."
+tags: 
+abstract: "This whitepaper offers an overview of the ethical considerations surrounding research into or with large language models (LLMs). As LLMs become more integrated into widely used applications, their societal impact increases, bringing important ethical questions to the forefront. With a growing body of work examining the ethical development, deployment, and use of LLMs, this whitepaper provides a comprehensive and practical guide to best practices, designed to help those in research and in industry to uphold the highest ethical standards in their work."
+ethics_overall: Yes
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+ethics_perspective: "General Ethics"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
+data_metrics: "Not specified"
+pdf_extract: "PDF Extracts/2024-Ungless-ETHICS WHITEPAPER.md"
+local_pdf: "[[PDFs/2024-Ungless-ETHICS WHITEPAPER.pdf]]"
+---
+# ETHICS WHITEPAPER: Whitepaper on Ethical Research into Large Language Models
+
+## Metadata
+
+**Authors:** Ungless, Eddie L; Vitsakis, Nikolas; Talat, Zeerak; Garforth, James; Ross, Björn; Onken, Arno; Kasirzadeh, Atoosa; Birch, Alexandra
+
+**Type:** journalArticle
+
+## Links
+
+- **Arxiv:** https://arxiv.org/abs/2410.19812
+- **Github:** https://github.com/MxEddie/Ethics-Whitepaper
+
+## Abstract
+
+This whitepaper offers an overview of the ethical considerations surrounding research into or with large language models (LLMs). As LLMs become more integrated into widely used applications, their societal impact increases, bringing important ethical questions to the forefront. With a growing body of work examining the ethical development, deployment, and use of LLMs, this whitepaper provides a comprehensive and practical guide to best practices, designed to help those in research and in industry to uphold the highest ethical standards in their work.
+
+## Authors
+
+[[Eddie L Ungless]], [[Nikolas Vitsakis]], [[Zeerak Talat]], [[James Garforth]], [[Björn Ross]], [[Arno Onken]], [[Atoosa Kasirzadeh]], [[Alexandra Birch]]
+
+## Detailed Summary
+
+This comprehensive whitepaper from researchers at the University of Edinburgh and Heriot-Watt University provides a practical guide to ethical research with Large Language Models (LLMs). The authors synthesize existing frameworks (NIST AI RMF, EU AI Act, NeurIPS Ethics Guidelines, ACL Ethics Checklist) into actionable "Do's and Don'ts" organized around a simplified project lifecycle. The work addresses a gap between broad AI frameworks and the specific needs of LLM practitioners.
+
+The paper covers ethics at every stage of the project lifecycle: project start (stakeholder engagement, environmental considerations), data compilation (consent, privacy, documentation), data preparation (filtering biases, crowdworker treatment), model development (design choices affecting fairness, alignment), evaluation (benchmark limitations, harm measurement), and deployment (dual use, guardrails, human replacement). Each section provides concrete recommendations drawn from an extensive literature review of the ACL Anthology and Semantic Scholar.
+
+The significance lies in its practical focus: rather than abstract principles, it offers specific checklists, toolkits, and citations for researchers facing ethical decisions in their daily work with LLMs.
+
+## Paper Outline
+
+1. Introduction - LLM risks and existing frameworks
+2. Methodology - Systematic literature review approach
+3. Project Start - Ethics review, stakeholder identification, energy consumption
+4. Data Compilation - Collection ethics, consent, documentation
+5. Data Preparation - Filtering, annotation, crowdworker treatment
+6. Model Development + Selection - Design choices, debiasing, alignment
+7. Evaluation - Performance metrics, harm evaluation, benchmarks
+8. Deployment - Dual use, guardrails, dissemination
+9. Limitations and Future Directions
+10. Conclusion
+
+## Methods Summary
+
+The authors conducted a systematic literature review of the ACL Anthology, searching for abstracts containing ethics-related terms (ethical, harms, fair, risks) and framework-related terms (toolkit, guidelines, framework). They also searched Semantic Scholar and incorporated resources from an EACL 2023 tutorial on NLP ethics. Papers were manually reviewed for relevance and categorized by project lifecycle stage. Themes were identified using a bottom-up approach and refined through author discussion.
+
+## Results Summary
+
+The paper produces structured "Do's and Don'ts" for each lifecycle stage. Key recommendations include: engage affected communities from project start; consider power relations between stakeholders; create internal audit procedures; use compressed models to minimize energy impact; carefully reflect on data filtering exclusions; treat crowdworkers as human participants requiring ethics approval; test for harm on deployed models (not pre-compression versions); maintain vigilance on alignment throughout pipelines; use alternatives to benchmarks like audits and red teaming; integrate watermarking into generative models; and conduct pre-release audits.
+
+## Conclusions
+
+The authors emphasize that ethical considerations cannot be outsourced to post-hoc review or pre-packaged toolkits. They acknowledge limitations including English-language focus and Western moral perspective, and commit to maintaining the whitepaper as a living document on GitHub. Future work will integrate non-English, non-Western, and non-text resources.
+
+## Artifact Contributions
+
+- **LLM Ethics Whitepaper**: A comprehensive living document hosted on GitHub (https://github.com/MxEddie/Ethics-Whitepaper)
+- **Do's and Don'ts Checklists**: Actionable recommendations for each project lifecycle stage
+
+## Notes
+

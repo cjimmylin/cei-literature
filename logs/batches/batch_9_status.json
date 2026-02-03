@@ -1,0 +1,33 @@
+{
+  "batch_id": 9,
+  "started_at": "2026-02-02T16:29:04.703058",
+  "total_pdfs": 3,
+  "processed": 3,
+  "succeeded": 2,
+  "failed": 1,
+  "results": [
+    {
+      "pdf_filename": "Gemini_2.0_Flash_Model_Card.pdf",
+      "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Google DeepMind/Gemini 2.0/Gemini_2.0_Flash_Model_Card.pdf",
+      "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Google DeepMind-Gemini_2.0_Flash_Model_Card.md",
+      "company": "Google DeepMind",
+      "status": "failed",
+      "error": "extraction returned False"
+    },
+    {
+      "pdf_filename": "Nemotron-Cascade-Scaling-Cascaded-RL.pdf",
+      "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/NVIDIA/Reinforcement-Learning/Nemotron-Cascade-Scaling-Cascaded-RL.pdf",
+      "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/NVIDIA-Nemotron-Cascade-Scaling-Cascaded-RL.md",
+      "company": "NVIDIA",
+      "status": "success"
+    },
+    {
+      "pdf_filename": "HunyuanVideo_Systematic_Framework.pdf",
+      "pdf_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Tencent/HunyuanVideo/HunyuanVideo_Systematic_Framework.pdf",
+      "output_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/PDF Extracts/AI Labs/Tencent-HunyuanVideo_Systematic_Framework.md",
+      "company": "Tencent",
+      "status": "success"
+    }
+  ],
+  "completed_at": "2026-02-02T16:29:05.167667"
+}

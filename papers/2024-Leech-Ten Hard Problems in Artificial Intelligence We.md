@@ -1,0 +1,93 @@
+---
+
+
+
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: 4YDBJ27I
+type: journalArticle
+year: 2024
+short_title: "Ten Hard Problems in Artificial Intelligence We"
+first_author: "[[Gavin Leech]]"
+authors: "Gavin Leech; Simson Garfinkel; Misha Yagudin; Alexander Briand; Aleksandr Zhuravlev"
+external_pdf: "file:///Users/jimmylin/Zotero/storage/TZNF2SVG/Leech et al. - Ten Hard Problems in Artificial Intelligence We Must Get Right.pdf"
+pdf_extract: "[[2024-Leech-Ten Hard Problems in Artificial Intelligence We]]"
+local_pdf: "[[2024-Leech-Ten Hard Problems in Artificial Intelligence We.pdf]]"
+national_ethnic_cultural: N/A
+religious_values: N/A
+moral_psychology: N/A
+newtags: "Responsible AI"
+key_contribution: "Outlines 10 'hard problems' for AI2050 (e.g., alignment, assurance, governance, philosophical disruptions) that must be solved to avoid risks and realize AI's promise."
+significance: "Provides a high-level strategic roadmap for the field, connecting technical alignment challenges (like goal specification) with broader sociotechnical and political issues."
+tags:
+abstract: "We explore the AI2050 \"hard problems\" that block the promise of AI and cause AI risks: (1) developing general capabilities of the systems; (2) assuring the performance of AI systems and their training processes; (3) aligning system goals with human goals; (4) enabling great applications of AI in real life; (5) addressing economic disruptions; (6) ensuring the participation of all; (7) at the same time ensuring socially responsible deployment; (8) addressing any geopolitical disruptions that AI causes; (9) promoting sound governance of the technology; and (10) managing the philosophical disruptions for humans living in the age of AI. For each problem, we outline the area, identify significant recent work, and suggest ways forward. [Note: this paper reviews literature through January 2023.]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Responsible AI"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
+---
+# Ten Hard Problems in Artificial Intelligence We Must Get Right
+
+## Metadata
+
+**Authors:** Leech, Gavin; Garfinkel, Simson; Yagudin, Misha; Briand, Alexander; Zhuravlev, Aleksandr
+
+**Type:** journalArticle
+
+## Links
+
+- **Arxiv:** https://arxiv.org/abs/2402.04464
+
+## Abstract
+
+We explore the AI2050 "hard problems" that block the promise of AI and cause AI risks: (1) developing general capabilities of the systems; (2) assuring the performance of AI systems and their training processes; (3) aligning system goals with human goals; (4) enabling great applications of AI in real life; (5) addressing economic disruptions; (6) ensuring the participation of all; (7) at the same time ensuring socially responsible deployment; (8) addressing any geopolitical disruptions that AI causes; (9) promoting sound governance of the technology; and (10) managing the philosophical disruptions for humans living in the age of AI. For each problem, we outline the area, identify significant recent work, and suggest ways forward. [Note: this paper reviews literature through January 2023.]
+
+## Authors
+
+[[Gavin Leech]], [[Simson Garfinkel]], [[Misha Yagudin]], [[Alexander Briand]], [[Aleksandr Zhuravlev]]
+
+## Detailed Summary
+
+This comprehensive 94-page paper, produced as part of the AI2050 initiative funded by Schmidt Futures, presents a systematic analysis of ten "hard problems" that must be addressed to ensure AI benefits society by 2050. The authors frame these as interconnected challenges spanning technical, social, economic, and philosophical dimensions of AI development. The work provides both a literature review through January 2023 and a strategic roadmap for researchers, policymakers, and practitioners working across the AI ecosystem.
+
+The paper argues that while deep learning has achieved remarkable capabilities through scaling, these advances have also introduced new risks requiring coordinated solutions. The ten hard problems cover: (1) developing general AI capabilities, (2) assuring system performance and safety, (3) aligning AI goals with human values, (4) enabling beneficial real-world applications, (5) addressing economic disruptions, (6) ensuring inclusive participation, (7) deploying AI responsibly, (8) managing geopolitical disruptions, (9) promoting sound governance, and (10) navigating philosophical disruptions for humans in the AI age.
+
+## Paper Outline
+
+1. Introduction - Framing the AI2050 initiative and motivating questions
+2. Background - History of AI progress, deep learning breakthrough
+   - 2.1 Deep Learning Liftoff (2010-2016)
+   - 2.2 The Large Scale Era (2016-Present)
+3. The Hard Problems (HP#1 through HP#10)
+4. Are These Problems Wicked?
+5. Conclusion and Outlook
+
+## Methods Summary
+
+The paper employs a comprehensive literature review methodology, surveying research published between 2017 and 2022 across multiple disciplines. For each hard problem, the authors outline the scope and subproblems, identify significant recent work, analyze what makes each problem "hard," and suggest future research directions.
+
+## Results Summary
+
+Key findings include: (1) Capabilities continue to scale but require better algorithms; (2) Current ML models perform far below engineering-standard reliability; (3) Specification gaming and emergent goals pose alignment challenges; (4) Applications in healthcare remain constrained by reliability; (5) AI may automate 15-30% of work hours; (6) AI benefits are unequally distributed; (7) Responsible deployment requires participatory design; (8) International AI governance remains fragmented; (9) Governance frameworks lag behind capabilities; (10) AI challenges human identity and agency.
+
+## Conclusions
+
+The authors conclude that while these problems are genuinely hard, they are not hopeless. Partial solutions are possible through sustained research investment, cross-disciplinary collaboration, proactive governance, and intentional design for human values.
+
+## Artifact Contributions
+
+None mentioned. The paper is a literature review and strategic analysis without associated datasets, benchmarks, or code releases.
+
+## Notes
+

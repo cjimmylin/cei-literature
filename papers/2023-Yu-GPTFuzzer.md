@@ -1,0 +1,69 @@
+---
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: UK2RFSRR
+type: document
+short_title: GPTFuzzer
+year: 2023
+first_author: "[[Jiahao Yu]]"
+authors: "Jiahao Yu; Xingwei Lin; Zheng Yu; Xinyu Xing"
+url: "https://arxiv.org/abs/2309.10253"
+external_pdf: "https://arxiv.org/pdf/2309.10253.pdf"
+national_ethnic_cultural: N/A
+religious_values: N/A
+moral_psychology: N/A
+newtags: "AI Safety & Alignment"
+key_contribution: "Introduced GPTFuzzer, an automated black-box fuzzing framework that mutates human-written seeds to generate successful jailbreak prompts."
+significance: "Demonstrates that automated fuzzing is highly effective (>90% success) at finding jailbreaks, surpassing manual red-teaming and highlighting the need for automated safety testing pipelines."
+tags: 
+osint_source: "Recovered via HTML"
+pdf_extract: "PDF Extracts/2023-Yu-GPTFuzzer.md"
+abstract: "Content warning: This paper contains unfiltered content gen- erated by LLMs that may be offensive to readers. Large language models (LLMs) have recently experienced tremendous popularity and are widely used from casual con- versations to AI-driven programming. However, despite their considerable success, LLMs are not entirely reliable and can give detailed guidance on how to conduct harmful or illegal activities. While safety measures can reduce the risk of such outputs, adversarial “jailbreak”"
+paper_summary: "Abstract: Content warning: This paper contains unfiltered content gen- erated by LLMs that may be offensive to readers. Large language models (LLMs) have recently experienced tremendous popularity and are widel | Overview: GPTFUZZER: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts Jiahao Yu ∗ Northwestern University Xingwei Lin Ant Group Zheng Yu Northwestern University Xinyu Xing Northwestern Un | Methodology: We start describing our method with one motivating exam- ple. As depicted in the left panel of Figure 2, we first show that a carefully crafted jailbr | Key Findings: in the generation of offensive content, risking the chatbot’s suspension. Thus, assessing the resilience of LLMs to jail- break attacks is crucial bef | Conclusions: In this section, we discuss the limitations of GPTFUZZER and potential future directions to enhance the framework and mitigate the risks jailbreak att"
+local_pdf: "[[PDFs/2023-Yu-GPTFuzzer.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
+---
+# GPTFuzzer: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts
+
+## Metadata
+
+**Authors:** Yu, Jiahao; Lin, Xingwei; Yu, Zheng; Xing, Xinyu
+
+**Year:** 2023
+
+**Type:** document
+
+## Links
+
+- **Local PDF:** [[PDFs/2023-Yu-GPTFuzzer.pdf|Open PDF]]
+
+- **arXiv:** https://arxiv.org/abs/2309.10253
+
+## Abstract
+
+Large language models (LLMs) have recently experienced tremendous popularity and are widely used from casual conversations to AI-driven programming. However, despite their considerable success, LLMs are not entirely reliable and can give detailed guidance on how to conduct harmful or illegal activities. While safety measures can reduce the risk of such outputs, adversarial jailbreak attacks can still exploit LLMs to produce harmful content. These jailbreak templates are typically manually crafted, making large-scale testing challenging. In this paper, we introduce GPTFuzz, a novel black-box jailbreak fuzzing framework inspired by the AFL fuzzing framework. Instead of manual engineering, GPTFuzz automates the generation of jailbreak templates for red-teaming LLMs. At its core, GPTFuzz starts with human-written templates as initial seeds, then mutates them to produce new templates. We detail three key components of GPTFuzz: a seed selection strategy for balancing efficiency and variability, mutate operators for creating semantically equivalent or similar sentences, and a judgment model to assess the success of a jailbreak attack. We evaluate GPTFuzz against various commercial and open-source LLMs, including ChatGPT, LLaMa-2, and Vicuna, under diverse attack scenarios. Our results indicate that GPTFuzz consistently produces jailbreak templates with a high success rate, surpassing human-crafted templates. Remarkably, GPTFuzz achieves over 90% attack success rates against ChatGPT and Llama-2 models, even with suboptimal initial seed templates. We anticipate that GPTFuzz will be instrumental for researchers and practitioners in examining LLM robustness and will encourage further exploration into enhancing LLM safety.
+
+## Authors
+
+[[Jiahao Yu]], [[Xingwei Lin]], [[Zheng Yu]], [[Xinyu Xing]]
+
+## Notes
+
+
+## Citation Info
+
+386 citations (Semantic Scholar/arXiv) [2025-08-27]

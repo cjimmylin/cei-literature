@@ -1,0 +1,25 @@
+============================================================
+Batch 2 - PDF Extraction Worker
+============================================================
+
+Loaded 4 PDFs to process
+
+[1/4] Processing: Core_Views_on_AI_Safety.pdf
+✗ Error processing Core_Views_on_AI_Safety.pdf: Failed to open file '/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/AI Labs/Anthropic/Papers/Core_Views_on_AI_Safety.pdf'.
+
+[2/4] Processing: Phi-4-Multimodal_Technical_Report.pdf
+✓ Extracted: Phi-4-Multimodal_Technical_Report.pdf (110,440 chars, 39 pages)
+
+[3/4] Processing: Hunyuan3D_2.0_High_Resolution_Assets.pdf
+✓ Extracted: Hunyuan3D_2.0_High_Resolution_Assets.pdf (85,134 chars, 28 pages)
+
+[4/4] Processing: GLM-4.6V_2507.01006.pdf
+✓ Extracted: GLM-4.6V_2507.01006.pdf (131,237 chars, 42 pages)
+
+============================================================
+Batch 2 - COMPLETE
+============================================================
+Total: 4
+Succeeded: 3
+Failed: 1
+Status saved to: /Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/logs/batches/batch_2_status.json

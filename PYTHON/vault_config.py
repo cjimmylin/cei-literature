@@ -1,172 +1,85 @@
 #!/usr/bin/env python3
 """
-Vault Configuration Loader
+DEPRECATED: Vault Configuration Loader (Shim)
 
-Centralized configuration for the CEI-Literature-Vault.
-Reads from .vault-config.json to determine external paths like PDFs.
+This module is deprecated and now re-exports from lib.config.
+All new code should import directly from lib.config instead.
 
-Usage:
-    from vault_config import PDFS_DIR, PAPERS_DIR, WORKSPACE_ROOT
+Old usage (still works):
+    from PYTHON.vault_config import PDFS_DIR, PAPERS_DIR
 
-    # All paths are Path objects
-    for pdf in PDFS_DIR.glob("*.pdf"):
-        print(pdf.name)
+New usage (preferred):
+    from lib.config import PDFS_DIR, PAPERS_DIR
+
+Migration: This shim ensures backward compatibility for 78 existing scripts.
+Will be removed after gradual migration to lib.config.
+
+Version: 1.1 (compatibility shim)
+Migrated to: .agent/lib/config.py
 """
 
-import os
-import json
+import sys
 from pathlib import Path
 
+# Add .agent to path so we can import from lib
+_agent_path = Path(__file__).parent.parent / ".agent"
+if str(_agent_path) not in sys.path:
+    sys.path.insert(0, str(_agent_path))
 
-def _expand_path(path_str: str) -> Path:
-    """Expand ~ and environment variables in path string."""
-    return Path(os.path.expandvars(os.path.expanduser(path_str)))
+# Re-export everything from lib.config
+from lib.config import (
+    # Core paths
+    WORKSPACE_ROOT,
+    PAPERS_DIR,
+    PDF_EXTRACTS_DIR,
+    AUTHORS_DIR,
+    AI_LABS_DIR,
+    STATISTICS_DIR,
+    LOGS_DIR,
+    RECYCLE_BIN_DIR,
 
+    # External paths
+    PDFS_DIR,
+    AI_LAB_PDFS_DIR,
+    ZOTERO_DIR,
 
-def _load_config() -> dict:
-    """
-    Load configuration from .vault-config.json.
+    # Functions
+    validate_paths,
+    get_config_info,
 
-    Search order:
-    1. WORKSPACE_ROOT/.vault-config.json
-    2. Environment variables (VAULT_PDF_PATH, VAULT_ZOTERO_PATH)
-    3. Raise error if PDF path not configured
-    """
-    config_path = WORKSPACE_ROOT / ".vault-config.json"
+    # Legacy aliases
+    VAULT_ROOT,
+    REPO_ROOT,
+)
 
-    config = {}
-
-    # Try loading from config file
-    if config_path.exists():
-        try:
-            with open(config_path, 'r', encoding='utf-8') as f:
-                config = json.load(f)
-        except (json.JSONDecodeError, IOError) as e:
-            print(f"Warning: Could not read {config_path}: {e}")
-
-    # Environment variable fallbacks
-    if 'pdf_path' not in config:
-        env_pdf = os.environ.get('VAULT_PDF_PATH')
-        if env_pdf:
-            config['pdf_path'] = env_pdf
-
-    if 'zotero_path' not in config:
-        env_zotero = os.environ.get('VAULT_ZOTERO_PATH')
-        if env_zotero:
-            config['zotero_path'] = env_zotero
-
-    return config
-
-
-# =============================================================================
-# Core Paths (always available)
-# =============================================================================
-
-# Workspace root is the directory containing this PYTHON folder
-WORKSPACE_ROOT = Path(__file__).parent.parent.resolve()
-
-# Standard directories within workspace
-PAPERS_DIR = WORKSPACE_ROOT / "papers"
-PDF_EXTRACTS_DIR = WORKSPACE_ROOT / "PDF Extracts"
-AUTHORS_DIR = WORKSPACE_ROOT / "Authors"
-AI_LABS_DIR = WORKSPACE_ROOT / "AI Labs"
-STATISTICS_DIR = WORKSPACE_ROOT / "STATISTICS"
-LOGS_DIR = WORKSPACE_ROOT / "logs"
-RECYCLE_BIN_DIR = WORKSPACE_ROOT / "RECYCLE-BIN"
-
-# =============================================================================
-# External Paths (from configuration)
-# =============================================================================
-
-_config = _load_config()
-
-# PDF directory (external, must be configured)
-if 'pdf_path' in _config:
-    PDFS_DIR = _expand_path(_config['pdf_path'])
-else:
-    # Fallback: check if PDFs exist at old location (for backward compatibility)
-    _legacy_pdfs = WORKSPACE_ROOT.parent / "PDFs"
-    if _legacy_pdfs.exists():
-        PDFS_DIR = _legacy_pdfs
-    else:
-        raise ValueError(
-            "PDF path not configured. Please create .vault-config.json with:\n"
-            '{"pdf_path": "/path/to/your/PDFs"}\n'
-            "Or set VAULT_PDF_PATH environment variable."
-        )
-
-# AI Labs PDFs (external, from configuration)
-if 'ai_lab_pdf_path' in _config:
-    AI_LAB_PDFS_DIR = _expand_path(_config['ai_lab_pdf_path'])
-else:
-    # Fallback: check old location for backward compatibility
-    _legacy_ai_labs = WORKSPACE_ROOT / "AI Labs"
-    AI_LAB_PDFS_DIR = _legacy_ai_labs
-
-# Zotero directory (optional)
-if 'zotero_path' in _config:
-    ZOTERO_DIR = _expand_path(_config['zotero_path'])
-else:
-    ZOTERO_DIR = _expand_path("~/Zotero/storage")
-
-
-# =============================================================================
-# Validation
-# =============================================================================
-
-def validate_paths(check_pdfs: bool = True) -> dict:
-    """
-    Validate that configured paths exist.
-
-    Args:
-        check_pdfs: If True, verify PDF directory exists
-
-    Returns:
-        dict with 'valid' (bool) and 'issues' (list of strings)
-    """
-    issues = []
-
-    if check_pdfs and not PDFS_DIR.exists():
-        issues.append(f"PDF directory not found: {PDFS_DIR}")
-
-    if not PAPERS_DIR.exists():
-        issues.append(f"Papers directory not found: {PAPERS_DIR}")
-
-    return {
-        'valid': len(issues) == 0,
-        'issues': issues
-    }
-
-
-def get_config_info() -> str:
-    """Return a summary of current configuration."""
-    return f"""Vault Configuration:
-  Workspace:     {WORKSPACE_ROOT}
-  Papers:        {PAPERS_DIR}
-  PDFs:          {PDFS_DIR}
-  AI Lab PDFs:   {AI_LAB_PDFS_DIR}
-  Extracts:      {PDF_EXTRACTS_DIR}
-  Authors:       {AUTHORS_DIR}
-  Zotero:        {ZOTERO_DIR}
-"""
-
-
-# =============================================================================
-# Convenience for scripts that import this
-# =============================================================================
-
-# Legacy aliases for backward compatibility
-VAULT_ROOT = WORKSPACE_ROOT
-REPO_ROOT = WORKSPACE_ROOT.parent  # The parent containing .venv, .agent, etc.
-
+# Expose all for backward compatibility
+__all__ = [
+    "WORKSPACE_ROOT",
+    "PAPERS_DIR",
+    "PDF_EXTRACTS_DIR",
+    "AUTHORS_DIR",
+    "AI_LABS_DIR",
+    "STATISTICS_DIR",
+    "LOGS_DIR",
+    "RECYCLE_BIN_DIR",
+    "PDFS_DIR",
+    "AI_LAB_PDFS_DIR",
+    "ZOTERO_DIR",
+    "validate_paths",
+    "get_config_info",
+    "VAULT_ROOT",
+    "REPO_ROOT",
+]
 
 if __name__ == "__main__":
     # When run directly, show configuration
+    print("⚠️  DEPRECATED: This module is now a shim to lib.config")
+    print("   New code should use: from lib.config import ...\n")
     print(get_config_info())
     result = validate_paths()
     if result['valid']:
-        print("All paths valid.")
+        print("✅ All paths valid.")
     else:
-        print("Issues found:")
+        print("❌ Issues found:")
         for issue in result['issues']:
             print(f"  - {issue}")

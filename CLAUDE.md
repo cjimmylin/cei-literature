@@ -21,6 +21,7 @@ This rule exists because accidental deletion destroyed 422 PDF files. **NO EXCEP
 | Item | Value |
 |------|-------|
 | **Type** | Obsidian vault - CEI research literature database |
+| **GitHub** | https://github.com/cjimmylin/cei-literature (actively tracked) |
 | **Papers** | 657 in `papers/` (100% YAML valid) |
 | **PDFs** | External location (configured in `.vault-config.json`) |
 | **Extracts** | 662 searchable `.md` files in `PDF Extracts/` |
@@ -60,6 +61,15 @@ write_paper(filepath, frontmatter, body, validate=True)
 ### 4. No Deletions (See top of file)
 Rule documented above. **Use `mv` to RECYCLE-BIN/, NEVER `rm`.**
 
+### 5. Git Tracking (IMPORTANT)
+**This repository is tracked on GitHub.** After making significant changes:
+```bash
+git add .
+git commit -m "Descriptive message about changes"
+git push
+```
+**See [docs/GIT_WORKFLOW.md](docs/GIT_WORKFLOW.md) for detailed workflow.** PDFs are NOT tracked (external storage).
+
 ## Directory Structure
 
 ```
@@ -93,6 +103,7 @@ Read these **only when needed** for specific tasks:
 | Task | Read |
 |------|------|
 | **All documentation** | [docs/INDEX.md](docs/INDEX.md) - Complete index |
+| **Git & GitHub workflow** | [docs/GIT_WORKFLOW.md](docs/GIT_WORKFLOW.md) - Commit, push, sync |
 | PDF recovery & download | [docs/PDF_RECOVERY_GUIDE.md](docs/PDF_RECOVERY_GUIDE.md) |
 | Author enrichment (parallel agents) | [docs/PARALLEL_AGENT_BEST_PRACTICES.md](docs/PARALLEL_AGENT_BEST_PRACTICES.md) |
 | Running classification/scripts | [docs/SCRIPTS.md](docs/SCRIPTS.md) |

@@ -191,3 +191,67 @@ rm -rf /Users/jimmy.lin/Documents/CEI-Literature-Vault/.git
 ---
 
 **Summary**: Three layers of protection ensure PDF directories never sync to GitHub. Git repository scope provides primary protection, with .gitignore files as additional safety measures.
+
+---
+
+## Ongoing Tracking (Post-Initial Setup)
+
+**Status**: ✅ Repository now actively tracked on GitHub
+
+### Current Configuration
+
+- **GitHub Repository**: https://github.com/cjimmylin/cei-literature
+- **Remote**: `origin` → https://github.com/cjimmylin/cei-literature.git
+- **Branch**: `main`
+- **Initial commit**: `9a076a2` (5,266 files, Feb 2, 2026)
+
+### For Future Sessions
+
+This repository is now continuously tracked on GitHub. All Claude Code sessions and future work should follow the Git workflow:
+
+1. **Check status** at session start:
+   ```bash
+   git status
+   git log --oneline -5
+   ```
+
+2. **Commit regularly** during work:
+   ```bash
+   git add .
+   git commit -m "Descriptive message"
+   git push
+   ```
+
+3. **Always push** at session end:
+   ```bash
+   git add .
+   git commit -m "Session end: [summary]"
+   git push
+   ```
+
+### Key Documentation
+
+- **Ongoing workflow**: [GIT_WORKFLOW.md](GIT_WORKFLOW.md) - Daily Git operations
+- **Initial setup**: This document - One-time configuration (completed)
+- **CLAUDE.md**: Main guidance file - Updated with Git tracking info
+
+### What to Track
+
+✅ **Always commit and push**:
+- New/modified papers
+- PDF extracts (markdown)
+- Author profiles
+- Script changes
+- Documentation updates
+- AI Labs additions
+
+❌ **Never commit** (already gitignored):
+- PDFs (external storage)
+- `.vault-config.json`
+- Log files
+- RECYCLE-BIN contents
+
+---
+
+**Setup Complete**: February 2, 2026
+**Next Steps**: See [GIT_WORKFLOW.md](GIT_WORKFLOW.md) for ongoing Git operations

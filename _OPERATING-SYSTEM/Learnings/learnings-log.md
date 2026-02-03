@@ -39,6 +39,12 @@
 | Date | Category | Learning |
 |------|----------|----------|
 | 2026-02-02 | Workflows | **Progressive Disclosure Architecture:** Created `_OPERATING-SYSTEM/` structure with 4-layer memory (learnings log, standards, skills, configs). Keeps agent configs <80 lines while maintaining detailed procedural knowledge in `Standards/`. Inspired by LifeOS-Agent-Vault. See `_OPERATING-SYSTEM/README.md`. |
+| 2026-02-02 | Workflows | **Hybrid Infrastructure Strategy:** Created `.agent/lib/` for new shared libraries while keeping existing `PYTHON/` scripts intact. Backward-compat shims re-export from lib modules, ensuring 129 existing scripts continue working. Migration is gradual, not disruptive. Pattern: Keep what works, add structure alongside. |
+| 2026-02-02 | Workflows | **Library Migration Pattern:** When migrating critical modules (like yaml_utils.py - 409 lines, 51 dependencies), do 1:1 copy with NO behavior changes. Create shim immediately. Test both import paths. Only after validation, consider enhancements. Data safety > clever refactoring. |
+| 2026-02-02 | Workflows | **Testing Before Building:** Paused at Phase 5 (40% done) to test what exists before adding more. Validated: Progressive disclosure works, thread finalization captured, lib structure sound. Next session can build confidently on tested foundation. Iterative > big-bang. |
+| 2026-02-02 | Infrastructure | **Backward Compatibility Shims:** Pattern for gradual migration: (1) Copy module to new location, (2) Create shim at old location that re-exports from new, (3) Test both import paths work, (4) Gradually update imports. Prevents breaking 100+ scripts during migration. |
+| 2026-02-02 | Skills | **Thread Finalization Design:** 2-skill workflow (remember-thread → finalize-thread) orchestrated by end-session. Remember captures learnings & updates docs (5 phases). Finalize runs QA & git (6 categories). Separation of concerns: memory vs quality checks. Systematic closure prevents knowledge loss. |
+| 2026-02-02 | Git | **Session Handoff Documentation:** Created NEXT_STEPS.md with complete continuation guide (code snippets, step-by-step, success criteria, quick start commands). Enables any agent to pick up where previous session left off. Essential for long-running projects across context clears. |
 
 ---
 

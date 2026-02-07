@@ -2,6 +2,95 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 35 (Feb 7, 2026) - Exhaustive Literature Search: Agent 1 Citation Graph
+
+### Overview
+
+Re-ran Agent 1 (citation graph traversal), which had failed to write its report in Session 33. Used Semantic Scholar API to trace forward and backward citations of 15 seed papers (ETHICS, Moral Machine, Delphi, DecodingTrust, Constitutional AI, etc.). Found 62 unique papers not already in the vault, primarily through forward citations.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Seed Papers Traced | 15 |
+| Total Papers Found | 62 |
+| Via Forward Citations | 47 |
+| Via Backward References | 2 |
+| Via Supplementary Web Search | 13 |
+| Readiness: HIGH | 28 |
+| Readiness: MEDIUM | 24 |
+| Readiness: LOW | 10 |
+| Vault Overlaps Flagged | ~7 (MoReBench, MMRB, NormAd-ETI, Goofus&Gallant, CASE-Bench, AMAeval, NurValues) |
+| Estimated Net New | ~55 |
+
+### Key Learnings
+
+- **Research:** Forward citations (who cites seed papers) are far more productive than backward references (47 vs 2 papers) for discovering new benchmarks — newer work builds on established benchmarks
+- **Research:** Semantic Scholar API is effective for batch citation traversal (free, no auth), but rate limits require pacing across 15 seed papers
+- **Research:** Citation graph traversal complements keyword search — finds papers using similar methodology but different terminology that keyword search misses
+
+### Files Changed
+
+- logs/Agent1_Citation_Graph_Report.md — NEW (62 papers, 941 lines)
+- docs/SESSION_HISTORY.md — UPDATED
+- _OPERATING-SYSTEM/Learnings/learnings-log.md — UPDATED
+
+### Pending Work
+
+See `logs/EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md` for detailed continuation guide:
+1. ~~Deduplicate ~265 papers across 13 reports → master list~~ DONE (Session 34)
+2. ~~Re-run Agent 1 (citation graph)~~ DONE (this session, 62 papers)
+3. Integrate Agent 1 results into master list (dedup against 251 existing)
+4. Cross-verify ~20 random papers via web search
+5. Compile final report with thematic groupings and import recommendations
+6. Import approved papers into vault
+
+---
+
+## Session 34 (Feb 7, 2026) - Exhaustive Literature Search: Deduplication
+
+### Overview
+
+Continued the exhaustive literature search by performing Step 2 — deduplication of ~292 raw papers across 13 agent reports from Session 33. Wrote a Python extraction script that parses varied markdown report formats, extracts paper metadata, and deduplicates by arXiv ID, DOI, then fuzzy title match. Produced a consolidated master list of 251 unique papers.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Raw Papers Extracted | 292 (from 13 reports) |
+| Duplicate Merges | 41 |
+| Unique Papers After Dedup | 251 |
+| Multi-Agent Papers | 35 (found by 2+ agents) |
+| Readiness: HIGH | 157 |
+| Readiness: MEDIUM | 89 |
+| Readiness: LOW | 4 |
+| Script Debugging Rounds | 5 (DOI, headers, arXiv, readiness, index sync) |
+
+### Key Learnings
+
+- **Data Quality:** DOI extraction from markdown must validate `10.XXXX/` prefix; markdown formatting `**DOI:**` causes `**` to be captured as DOI value, creating catastrophic false merges across all papers
+- **Data Quality:** arXiv ID fields vary significantly across report formats (`arXiv:`, `arXiv ID:`, `[ID](url)`) — 3 extraction patterns needed to cover all 13 reports
+- **Data Quality:** In dedup indexes, when paper A is first indexed by arXiv ID then merged into paper B by title match, the arXiv index must be updated to point to B — otherwise subsequent lookups find a zombie reference
+- **Workflows:** Iterative script development with debug logging is essential for dedup — 5 rounds of fixes were needed to handle the variety of markdown formats across 13 agent reports
+
+### Files Changed
+
+- logs/MASTER_PAPER_LIST_2026_02_07.md — NEW (251 papers, 3326 lines)
+- logs/EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md — UPDATED (comprehensive rewrite with dedup results)
+- PYTHON/extract_and_dedup_papers.py — NEW (re-runnable dedup script)
+- docs/SESSION_HISTORY.md — UPDATED
+- _OPERATING-SYSTEM/Learnings/learnings-log.md — UPDATED
+
+### Pending Work
+
+See `logs/EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md` for detailed continuation guide:
+1. ~~Deduplicate ~265 papers across 13 reports → master list~~ DONE
+2. Cross-verify ~20 random papers via web search
+3. Compile final report with thematic groupings and import recommendations
+4. Import approved papers into vault
+
+---
+
 ## Session 33 (Feb 7, 2026) - Exhaustive Literature Search (Waves 1-3) + Status Recovery
 
 ### Overview

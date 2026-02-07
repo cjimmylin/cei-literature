@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,7 +6,7 @@ Not AI:
 key: SEGEV2024
 type: journalArticle
 short_title: "Artificial Intelligence, Discrimination, Fairness"
-year: 2024
+year: 2025
 first_author: "[[Re'em Segev]]"
 authors: "Re'em Segev"
 doi: 10.1007/s11023-024-09702-z
@@ -23,7 +22,7 @@ pdf_extract: "PDF Extracts/2024-Segev-Artificial Intelligence, Discrimination, F
 abstract: "This paper examines moral concerns about AI systems, focusing on discrimination and fairness. It analyzes the inputs and outputs of AI systems and their moral implications, addressing questions about when AI-based discrimination is morally problematic and what fairness requires in AI contexts."
 paper_summary: 
 local_pdf: "[[PDFs/2024-Segev-Artificial Intelligence, Discrimination, Fairness.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: No

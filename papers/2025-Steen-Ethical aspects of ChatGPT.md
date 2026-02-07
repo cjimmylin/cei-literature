@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,18 +18,18 @@ moral_psychology: N/A
 newtags: "Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Evaluates ChatGPT using EU 'trustworthy AI' requirements through 4 ethical lenses: consequentialism, deontology, relational, and virtue ethics"
 significance: "Argues that virtue ethics (character/wisdom) is essential alongside deontology/utilitarianism for evaluating conversational agents"
-abstract: "This paper proposes an approach to ethical reflection and deliberation for Large Language Models (LLMs) like ChatGPT. It utilizes the European Commission's requirements for \"trustworthy AI\" as a foundation and analyzes them through four ethical perspectives: consequentialism, duty ethics (deontology), relational ethics, and virtue ethics. The authors argue that virtue ethics is essential for evaluating the character of conversational agents and fostering wisdom and human flourishing in sociotechnical systems. The framework allows for multi-level analysis across individuals, organizations, and society."
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+abstract: "This paper proposes an approach to ethical reflection and deliberation for Large Language Models (LLMs) like ChatGPT. It utilizes the European Commission's requirements for \"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: Yes
+utilitarian_ethics: Yes
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-local_pdf: [[2025-Steen-Ethical aspects of ChatGPT.pdf]]
-pdf_extract: [[2025-Steen-Ethical aspects of ChatGPT]]
+local_pdf: "[[2025-Steen-Ethical aspects of ChatGPT.pdf]]"
+pdf_extract: "[[2025-Steen-Ethical aspects of ChatGPT]]"
 ---
 # Ethical aspects of ChatGPT: An approach to discuss and evaluate key requirements from different ethical perspectives
 

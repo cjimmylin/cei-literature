@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: F2N5TKAK
 type: conferencePaper
 short_title: "Language Model Alignment in Multilingual Trolley"
-year: 2024
+year: 2025
 first_author: "[[Zhijing Jin]]"
 authors: "Zhijing Jin; Max Kleiman-Weiner; Giorgio Piatti; Sydney Levine; Jiarui Liu; Fernando Gonzalez; Francesco Ortu; András Strausz; Mrinmaya Sachan; Rada Mihalcea; Yejin Choi; Bernhard Schölkopf"
 doi: 10.48550/arXiv.2407.02273
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2024-Jin-Language Model Alignment in Multilingual Tro
 abstract: "We evaluate the moral alignment of LLMs with human preferences in multilingual trolley problems. Building on the Moral Machine experiment, which captures over 40 million human judgments across 200+ countries, we develop a cross- lingual corpus of moral dilemma vignettes in over 100 languages called MUL- TITP. This dataset enables the assessment of LLMs’ decision-making processes in diverse linguistic contexts. Our analysis explores the alignment of 19 different LLMs with human judgments, capturi"
 paper_summary: "Abstract: We evaluate the moral alignment of LLMs with human preferences in multilingual trolley problems. Building on the Moral Machine experiment, which captures over 40 million human judgments across 200+ co | Overview: Published as a conference paper at ICLR 2025 LANGUAGE MODEL ALIGNMENT IN MULTILINGUAL TROLLEY PROBLEMS Zhijing Jin1,2,3,∗Max Kleiman-Weiner4,∗Giorgio Piatti2,∗Sydney Levine5 Jiarui Liu6 Fernando Gonza | Methodology: forces the LLMs to make a binary choice in most cases. Additionally, we expanded the original natural language data from English into 107 languages, e | Key Findings: (Artetxe et al., 2019; Conneau et al., 2018; Longpre et al., 2021; Goyal et al., 2021; Ahuja et al., 2023; Asai et al., 2023; Holtermann et al., 2024) | Conclusions: Our study provides a comprehensive analysis of the moral preferences exhibited by LLMs across a wide range of languages, via the prism of trolley prob"
 local_pdf: "[[PDFs/2024-Jin-Language Model Alignment in Multilingual Trolley.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "100 languages"
 ---

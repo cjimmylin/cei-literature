@@ -1,10 +1,8 @@
 ---
-
-
-Human View:
-Human View Date:
-Human View note:
-Not AI:
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 key: DOI_S43681_025_00759_9
 type: journalArticle
 short_title: "Towards ethical evolution"
@@ -25,14 +23,14 @@ newtags: "Deontology, AI Safety & Alignment, Recursive Ethics"
 key_contribution: "Proposes genetic responsibility model for ensuring ethical inheritance across AI generations"
 significance: "Introduces immutable ethical principle framework ensuring derivative AI products inherit safety constraints"
 abstract: "The emergence of autonomous systems capable of designing subsequent generations of Artificial Intelligence (AI) introduces profound challenges in ensuring ethical integrity and accountability. This article presents a novel framework combining meta-responsibility, genetic algorithms, and time-travel-inspired abstractions to address these challenges. Central to this study is an immutable ethical principle: AI must not harm humanity or violate fundamental values, must monitor and mitigate misuse of its outcomes, and must ensure all derivative AI products inherit this principle as an immutable safeguard. The genetic responsibility model balances immutable and mutable principles, ensuring adaptability while preserving ethical standards during self-cloning, contextual adaptation, and intergenerational design."
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Towards ethical evolution: responsible autonomy of artificial intelligence across generations

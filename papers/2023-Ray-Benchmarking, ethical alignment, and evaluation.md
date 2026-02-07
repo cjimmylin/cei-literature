@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,7 +6,7 @@ Not AI:
 key: EXAGJWAD
 type: journalArticle
 short_title: "Benchmarking, ethical alignment, and evaluation"
-year: 2023
+year: 2025
 first_author: "[[Partha Pratim Ray]]"
 authors: "Partha Pratim Ray"
 doi: 10.1016/j.tbench.2023.100136
@@ -21,7 +20,7 @@ key_contribution: "Proposed a multidimensional evaluation framework for ChatGPT,
 significance: "One of the early comprehensive frameworks specifically targeting the ethical evaluation of conversational AI like ChatGPT, moving beyond simple accuracy metrics to diverse social impact standards."
 tags: 
 abstract: "Conversational AI systems like ChatGPT have seen remarkable advancements in recent years, revolutionizing human–computer interactions. However, evaluating the performance and ethical implications of these systems remains a challenge. This paper delves into the creation of rigorous benchmarks, adaptable standards, and an intelligent evaluation methodology tailored specifically for ChatGPT. We meticulously analyze several prominent benchmarks, including GLUE, SuperGLUE, SQuAD, CoQA, Persona-Chat,"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

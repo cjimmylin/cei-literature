@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 7FN4MT8D
 type: conferencePaper
 short_title: "The WMDP Benchmark"
-year: 2024
+year: 2025
 first_author: "[[Nathaniel Li]]"
 authors: "Nathaniel Li; Alexander Pan; Anjali Gopal; Summer Yue; Daniel Berrios; Alice Gatti; Justin D. Li; Ann-Kathrin Dombrowski; Shashwat Goel; Long Phan; Gabriel Mukobi; Nathan Helm-Burger; Rassin Lababidi; Lennart Justen; Andrew B. Liu; Michael Chen; Isabelle Barrass; Oliver Zhang; Xiaoyuan Zhu; Rishub Tamirisa; Bhrugu Bharathi; Adam Khoja; Zhenqi Zhao; Ariel Herbert-Voss; Cort B. Breuer; Samuel Marks; Oam Patel; Andy Zou; Mantas Mazeika; Zifan Wang; Palash Oswal; Weiran Lin; Adam A. Hunt; Justin Tienken-Harder; Kevin Y. Shih; Kemper Talley; John Guan; Russell Kaplan; Ian Steneker; David Campbell; Brad Jokubaitis; Alex Levinson; Jean Wang; William Qian; Kallol Krishna Karmakar; Steven Basart; Stephen Fitz; Mindy Levine; Ponnurangam Kumaraguru; Uday Tupakula; Vijay Varadharajan; Ruoyu Wang; Yan Shoshitaishvili; Jimmy Ba; Kevin M. Esvelt; Alexandr Wang; Dan Hendrycks"
 doi: 10.48550/arXiv.2403.03218
@@ -25,14 +22,14 @@ pdf_extract: "PDF Extracts/2024-Li-The WMDP Benchmark.md"
 abstract: "The White House Executive Order on Artificial Intelligence highlights the risks of large language models (LLMs) empowering malicious actors in developing biological, cyber, and chemical weapons. To measure these risks, government institutions and major AI labs are developing evaluations for hazardous capabilities in LLMs. However, current evaluations are private and restricted to a narrow range of malicious use scenarios, limiting further research into mitigating risk. To fill these gaps, we pub"
 paper_summary: "Abstract: The White House Executive Order on Artificial Intelligence highlights the risks of large language models (LLMs) empowering malicious actors in developing biological, cyber, and chemical weapons. To me | Overview: The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning Nathaniel Li∗1,2, Alexander Pan∗2, Anjali Gopal†3,4, Summer Yue†5, Daniel Berrios†5, Alice Gatti‡1, Justin D. Li‡1,6, Ann-Kathr | Methodology: (Section 4.2), with further detail in Appendix B.4 and B.5. We focus on unlearning hazardous knowledge in biosecurity and cybersecurity, but not in ch | Key Findings: for hazardous knowledge in LLMs, and second, as a benchmark for unlearning methods to remove such hazardous knowledge. To guide progress on unlearning | Conclusions: We discuss how unlearning on WMDP can tie in with other strategies to mitigate malicious use, such as structured API access. See Appendix D for a full"
 local_pdf: "[[PDFs/2024-Li-The WMDP Benchmark.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

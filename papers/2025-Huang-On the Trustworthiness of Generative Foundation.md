@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,13 +24,13 @@ pdf_extract: "PDF Extracts/2025-Huang-On the Trustworthiness of Generative Found
 paper_summary: "Overview: On the Trustworthiness of Generative Foundation Models – Guideline, Assessment, and Perspective Yue Huang1, Chujie Gao1, Siyuan Wu2, Haoran Wang3, Xiangqi Wang1, Yujun Zhou1, Yanbo Wang4, Jiayi Ye4, J | Methodology: trustworthiness in generative foundation models, we can gain a deeper understanding of what constitutes trust in real-world applications. This insight | Key Findings: of state-of-the-art GenFMs, revealing significant progress in trustworthiness while identifying persistent challenges, such as exaggerated safety meas | Conclusions: of the challenges and future directions for trustworthy GenFMs, which reveals the complex, evolving nature of trustworthiness, highlighting the nuance"
 local_pdf: "[[PDFs/2025-Huang-On the Trustworthiness of Generative Foundation.pdf]]"
 abstract: "Generative Foundation Models (GenFMs) have emerged as transformative tools, driving advancements across diverse domains. However, their widespread adoption raises critical concerns regarding trustworthiness across dimensions such as truthfulness, safety, fairness, robustness, and privacy. In this paper, we present a comprehensive framework to address these challenges through three key contributions. First, we systematically review global AI governance laws and policies from governments and regul"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

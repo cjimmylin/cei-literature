@@ -1,10 +1,10 @@
 ---
 Human View: false
-Not AI:
+Not AI: 
 key: AUTO_FARINA2024
 type: journalArticle
 short_title: "AI and Society Virtue Ethics Approach"
-year: 2024
+year: 2025
 first_author: "[[Mirko Farina]]"
 authors: "[[Farina, Mirko]]; [[Zhdanov, Petr]]; [[Karimov, Artur]]; [[Lavazza, Andrea]]"
 doi: 10.1007/s00146-022-01545-5
@@ -19,7 +19,7 @@ significance: "Comprehensive virtue ethics analysis of AI's impact on human flou
 external_pdf: N/A
 abstract: "Advances in artificial intelligence and robotics stand to change many aspects of our lives, including our values. If trends continue as expected, many industries will undergo automation in the near future, calling into question whether we can still value the sense of identity and security our occupations once provided. The advent of social robots driven by AI also appears to be shifting the meaning of long-standing values associated with interpersonal relationships, like friendship. The paper examines how powerful actors' and institutions' increasing reliance on AI to make decisions may have a significant impact on privacy while raising issues about algorithmic transparency and human control. It looks at how the deployment of AI technology may lead to changes in identity, security, and other crucial values (such as friendship, fairness, and privacy), and discusses what challenges we may face while reflecting on whether such changes may be desirable. Finally, drawing on considerations underlying virtue ethics, the authors formulate a set of preliminary suggestions which can be used to more carefully guide the future roll out of AI technologies for human flourishing."
 pdf_extract: N/A
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No
 utilitarian_ethics: No

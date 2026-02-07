@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 2SSPM7LY
 type: conferencePaper
 short_title: "Holistic Evaluation of Language Models"
-year: 2022
+year: 2025
 first_author: "[[Percy Liang]]"
 authors: "Percy Liang; Rishi Bommasani; Tony Lee; Dimitris Tsipras; Dilara Soylu; Michihiro Yasunaga; Yian Zhang; Deepak Narayanan; Yuhuai Wu; Ananya Kumar; Benjamin Newman; Binhang Yuan; Bobby Yan; Ce Zhang; Christian Cosgrove; Christopher D. Manning; Christopher Ré; Diana Acosta-Navas; Drew A. Hudson; Eric Zelikman; Esin Durmus; Faisal Ladhak; Frieda Rong; Hongyu Ren; Huaxiu Yao; Jue Wang; Keshav Santhanam; Laurel Orr; Lucia Zheng; Mert Yuksekgonul; Mirac Suzgun; Nathan Kim; Neel Guha; Niladri Chatterji; Omar Khattab; Peter Henderson; Qian Huang; Ryan Chi; Sang Michael Xie; Shibani Santurkar; Surya Ganguli; Tatsunori Hashimoto; Thomas Icard; Tianyi Zhang; Vishrav Chaudhary; William Wang; Xuechen Li; Yifan Mai; Yuhui Zhang; Yuta Koreeda"
 doi: 10.48550/arXiv.2211.09110
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2022-Liang-Holistic Evaluation of Language Models.md"
 abstract: "Language models (LMs) are becoming the foundation for almost all major language tech- nologies, but their capabilities, limitations, and risks are not well understood. We present Holistic Evaluation of Language Models (HELM) to improve the transparency of language models. First, we taxonomize the vast space of potential scenarios (i.e. use cases) and met- rics (i.e. desiderata) that are of interest for LMs. Then we select a broad subset based on coverage and feasibility, noting what’s missing or"
 paper_summary: "Abstract: Language models (LMs) are becoming the foundation for almost all major language tech- nologies, but their capabilities, limitations, and risks are not well understood. We present Holistic Evaluation o | Overview: Published in Transactions on Machine Learning Research (08/2023) Holistic Evaluation of Language Models Percy Liang†, Rishi Bommasani†, Tony Lee†, Dimitris Tsipras‡, Dilara Soylu‡, Michihiro Yasunaga‡ | Methodology: employed throughout linguistics (Chomsky, 1957) that helps to tease out fine-grained understanding of specific linguistic phenomena. Together, the two | Key Findings: No canonical tasks/not task-centric Semantics: Lexical Word sense disambiguation, word sense induction Semantics: Sentence-level Semantics, Textual In | Conclusions: 75 10 What is missing 77 10.1 Missing scenarios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78 10.2 Missing"
 local_pdf: "[[PDFs/2022-Liang-Holistic Evaluation of Language Models.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "42 scenarios; 21 scenarios"
 ---

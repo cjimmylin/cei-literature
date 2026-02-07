@@ -6,7 +6,7 @@ Not AI:
 key: QL4ULXYC
 type: journalArticle
 short_title: "Pro-Social Rule Breaking as a Benchmark of"
-year: 2022
+year: 2025
 first_author: "[[Rajitha Ramanayake]]"
 authors: "Rajitha Ramanayake; Vivek Nallur"
 doi: 10.1007/s44206-022-00001-7
@@ -20,7 +20,7 @@ key_contribution: "Argues for 'pro-social rule breaking' as a benchmark for ethi
 significance: "Proposes that true ethical behavior in AI requires the capability to recognize when moral goals outweigh rigid rule-based constraints, offering a more sophisticated metric for alignment."
 tags: 
 abstract: "The current mainstream approaches to ethical intelligence in modern socio-technical systems have weaknesses. This paper argues that implementing and validating prosocial rule breaking behaviour can be used as a mechanism to overcome these weaknesses and introduce a sample scenario that can be used to validate this behaviour."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

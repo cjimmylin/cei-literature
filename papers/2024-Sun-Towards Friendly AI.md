@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_SUN2024
 type: preprint
 short_title: "Towards Friendly AI"
-year: 2024
+year: 2025
 first_author: "[[Qiyang Sun]]"
 authors: "[[Sun, Qiyang]]; [[Li, Yupei]]; [[Alturki, Emran]]; [[Murthy, Sunil Munthumoduku Krishna]]; [[Schuller, Björn W.]]"
 doi: N/A
@@ -19,7 +19,7 @@ significance: "Provides formal definitions of FAI with applications in XAI, priv
 external_pdf: "https://arxiv.org/pdf/2412.15114"
 abstract: "The paper examines Friendly AI (FAI) as a framework for more equitable AI development. It provides a thorough review of FAI, focusing on theoretical perspectives both for and against its development and offers formal definitions. The work discusses key applications in explainable AI, privacy, fairness, and affective computing while identifying technological challenges and proposing future research directions. The authors emphasize that FAI advancement is necessary for ensuring ethical and beneficial AI development. The 'as-if friendship' framework advocates that AI should emulate core virtues found in human friendships, such as empathy and helpfulness, promoting social functionality while positively influencing the development of human virtues."
 pdf_extract: "PDF Extracts/2024-Sun-Towards Friendly AI.md"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No
 utilitarian_ethics: No

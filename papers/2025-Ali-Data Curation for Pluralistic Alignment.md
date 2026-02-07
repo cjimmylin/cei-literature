@@ -19,7 +19,7 @@ significance: "Addresses the 'data upstream' problem: you can't have pluralistic
 tags: 
 external_pdf: "https://openreview.net/pdf?id=JH9xhvSr4q"
 abstract: "Human feedback datasets are central to AI alignment, yet the current data collection methods do not necessarily capture diverse and complex human values. Existing alignment datasets focus broadly on Harmfulness and Helpfulness, but dataset curation should also aim to dissect these broad categories into more specific dimensions. This paper introduces a pluralistic alignment dataset that integrates the dimensions of Toxicity, Emotional Awareness, Sensitivity and Openness, Helpfulness, and Stereotypical Bias, reveals undiscovered tensions in human ratings on AI-generated content, shows how demographics and political ideologies shape human preferences in alignment datasets, and highlights issues in data collection and model fine-tuning."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

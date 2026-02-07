@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: G598XMUC
 type: conferencePaper
 short_title: "Social Chemistry 101"
-year: 2020
+year: 2025
 first_author: "[[Maxwell Forbes]]"
 authors: "Maxwell Forbes; Jena D. Hwang; Vered Shwartz; Maarten Sap; Yejin Choi"
 doi: 10.18653/v1/2020.emnlp-main.48
@@ -25,15 +22,15 @@ tags:
 abstract: "Social norms -- the unspoken commonsense rules about acceptable social behavior -- are crucial in understanding the underlying causes and intents of people's actions in narratives. For example, underlying an action such as \"
 local_pdf: "[[PDFs/2020-Forbes-Social Chemistry 101.pdf]]"
 pdf_extract: "PDF Extracts/2020-Forbes-Social Chemistry 101.md"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Social Chemistry 101: Learning to Reason about Social and Moral Norms

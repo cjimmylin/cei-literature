@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "Computational Complexity of Ethics"
-year: 2024
+year: 2025
 first_author: "[[Jakob Stenseke]]"
 authors: "Jakob Stenseke"
 doi: 10.1007/s10462-024-10732-3
@@ -24,7 +24,7 @@ pdf_extract: "PDF Extracts/2024-Stenseke-Computational Complexity of Ethics.md"
 abstract: "Debates on whether artificial intelligence can or should be used to solve problems in ethical domains have mainly been driven by what AI can or cannot do in terms of human capacities. This paper addresses these issues by exploring what kind of moral machines are possible based on the ethical problems computational systems can or cannot solve effectively, analyzing normative ethics through the lens of computational complexity theory. The results indicate that most problems the normative framework..."
 paper_summary: 
 local_pdf: "[[PDFs/2024-Stenseke-Computational Complexity of Ethics.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: Yes

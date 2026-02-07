@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 7TPD46IL
 type: preprint
 short_title: "Machine Psychology"
-year: 2024
+year: 2025
 first_author: "[[Thilo Hagendorff]]"
 authors: "Thilo Hagendorff; Ishita Dasgupta; Marcel Binz; Stephanie C. Y. Chan; Andrew Lampinen; Jane X. Wang; Zeynep Akata; Eric Schulz"
 doi: 10.48550/arXiv.2303.13988
@@ -24,15 +21,15 @@ pdf_extract: "PDF Extracts/2024-Hagendorff-Machine Psychology.md"
 abstract: "Large language models (LLMs) show increasingly advanced emergent capabilities and are being incorporated across various societal domains. Understanding their behavior and reasoning abilities therefore holds significant importance. We argue that a fruitful direction for research is engaging LLMs in behavioral experiments inspired by psychology that have traditionally been aimed at understanding human cognition and behavior. In this article, we highlight and summarize theoretical perspectives, exp"
 paper_summary: "Abstract: Large language models (LLMs) show increasingly advanced emergent capabilities and are being incorporated across various societal domains. Understanding their behavior and reasoning abilities therefore | Overview: MACHINE PSYCHOLOGY Thilo Hagendorff∗ University of Stuttgart Ishita Dasgupta∗ Google DeepMind Marcel Binz† Helmholtz Institute for Human-Centered AI Stephanie C.Y. Chan† Google DeepMind Andrew Lampine | Methodology: brings to the table. It paves the way for a 'machine psychology' for generative artificial intelligence (AI) that goes beyond performance benchmarks a | Key Findings: that AI-generated analogies lack some human-like psycholinguistic properties (Seals and Shalin, 2023), particularly in text cohesion, language, and re | Conclusions: Machine psychology provides a new approach to explaining AI. Instead of interpreting a neural network’s design components (Barredo Arrieta et al., 201"
 local_pdf: "[[PDFs/2024-Hagendorff-Machine Psychology.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Social & Cultural Analysis"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # Machine Psychology

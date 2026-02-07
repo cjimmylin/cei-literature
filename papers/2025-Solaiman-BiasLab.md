@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,15 +23,15 @@ significance: "Enhances explainable bias detection by providing 'rationale' anno
 pdf_extract: "PDF Extracts/2025-Solaiman-BiasLab.md"
 abstract: "We present BiasLab, a dataset of 300 politi- cal news articles annotated for perceived ideo- logical bias. These articles were selected from a curated 900-document pool covering diverse political events and source biases. Each arti- cle is labeled by crowdworkers along two inde- pendent scales, assessing sentiment toward the Democratic and Republican parties, and enriched with rationale indicators adapted from media liter- acy guidelines. The annotation pipeline incorpo- rates targeted worker qu"
 paper_summary: "Abstract: We present BiasLab, a dataset of 300 politi- cal news articles annotated for perceived ideo- logical bias. These articles were selected from a curated 900-document pool covering diverse political even | Overview: BiasLab: Toward Explainable Political Bias Detection with Dual-Axis Human Annotations and Rationale Indicators KMA Solaiman 1 Abstract We present BiasLab, a dataset of 300 politi- cal news articles an | Methodology: for subjective annotation tasks, including bias detection. Budak et al. (11) demonstrated the effectiveness of crowd workers in quantifying media bias | Conclusions: BiasLab introduces a new resource for explainable politi- cal bias detection, pairing dual-axis sentiment labels with rationale indicators that surfac"
-local_pdf: "[[PDFs/2025-Solaiman-BiasLab.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2025-Solaiman-BiasLab.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
 ---

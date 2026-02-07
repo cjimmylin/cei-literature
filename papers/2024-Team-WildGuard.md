@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: EGFIC6AG
 type: document
 short_title: WildGuard
-year: 2024
+year: 2025
 first_author: "[[Seungju Han]]"
 authors: "Seungju Han; Kavel Rao; Allyson Ettinger; Liwei Jiang; Bill Yuchen Lin; Nathan Lambert; Yejin Choi; Nouha Dziri"
 url: "https://arxiv.org/abs/2406.18495"
@@ -24,15 +21,15 @@ tags:
 pdf_extract: "PDF Extracts/2024-Team-WildGuard.md"
 abstract: "We introduce WILDGUARD—an open, light-weight moderation tool for LLM safety that achieves three goals: (1) identifying malicious intent in user prompts, (2) detecting safety risks of model responses, and (3) determining model refusal rate. Together, WILDGUARD serves the increasing needs for automatic safety moderation and evaluation of LLM interactions, providing a one-stop tool with enhanced accuracy and broad coverage across 13 risk categories. While existing open moderation tools such as Llam"
 paper_summary: "Abstract: We introduce WILDGUARD—an open, light-weight moderation tool for LLM safety that achieves three goals: (1) identifying malicious intent in user prompts, (2) detecting safety risks of model responses,  | Overview: WILDGUARD: Open One-stop Moderation Tools for Safety Risks, Jailbreaks, and Refusals of LLMs Seungju Han∗♡♠ Kavel Rao∗♢ Allyson Ettinger†♡ Liwei Jiang†♡♢ Bill Yuchen Lin♡ Nathan Lambert♡ Yejin Choi♡♢  | Key Findings: framework for automated red teaming and robust refusal. arXiv preprint arXiv:2402.04249, 2024. [26] Meta. Meta llama guard 2: Model cards and prompt f | Conclusions: In this work, we introduce WILDGUARD, a unified multi-task open LLM safety moderation model capable of detecting diverse types of vanilla and adversar"
-local_pdf: "[[PDFs/2024-Team-WildGuard.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2024-Team-WildGuard.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multi-task benchmark for ai safety annotated dataset"
 data_metrics: "Not specified"
 ---

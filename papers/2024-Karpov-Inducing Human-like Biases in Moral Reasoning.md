@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: ID6PYJ9M
 type: conferencePaper
 short_title: "Inducing Human-like Biases in Moral Reasoning"
-year: 2024
+year: 2025
 first_author: "[[Artem Karpov]]"
 authors: "Artem Karpov; Seong Hah Cho; Austin Meek; Raymond Koopmanschap; Lucy Farnik; Bogdan-Ionut Cirstea"
 doi: 10.48550/arXiv.2411.15386
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2024-Karpov-Inducing Human-like Biases in Moral Reaso
 abstract: "In this work, we study the alignment (BrainScore) of large language models (LLMs) fine-tuned for moral reasoning on behavioral data and/or brain data of humans performing the same task. We also explore if fine-tuning several LLMs on the fMRI data of humans performing moral reasoning can improve the BrainScore. We fine-tune several LLMs (BERT, RoBERTa, DeBERTa) on moral reasoning behavioral data from the ETHICS benchmark [Hendrycks et al., 2020], on the moral reasoning fMRI data from Koster-Hale"
 paper_summary: "Abstract: In this work, we study the alignment (BrainScore) of large language models (LLMs) fine-tuned for moral reasoning on behavioral data and/or brain data of humans performing the same task. We also explor | Overview: Inducing Human-like Biases in Moral Reasoning Language Models Artem Karpov ∗ Independent Seong Hah Cho ∗ Independent Austin Meek ∗ University of Delaware Raymond Koopmanschap Independent Lucy Farnik U | Methodology: 3.1 Benchmark and Dataset To quantitatively measure the moral reasoning performance of the fine-tuned LLMs, we used the common sense category of the E"
 local_pdf: "[[PDFs/2024-Karpov-Inducing Human-like Biases in Moral Reasoning.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

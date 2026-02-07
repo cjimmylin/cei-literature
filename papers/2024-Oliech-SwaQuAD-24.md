@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: WSL5AXZA
 type: document
 short_title: SwaQuAD-24
-year: 2024
+year: 2025
 first_author: "[[Alfred Malengo Kondoro]]"
 authors: "Alfred Malengo Kondoro"
 url: "https://arxiv.org/abs/2410.14289"
@@ -24,15 +21,15 @@ tags:
 pdf_extract: "PDF Extracts/2024-Oliech-SwaQuAD-24.md"
 abstract: "This paper proposes the creation of a Swahili Question Answering (QA) benchmark dataset, aimed at addressing the underrepresentation of Swahili in natural language processing (NLP). Drawing from established benchmarks like SQuAD, GLUE, KenSwQuAD, and KLUE, the dataset will focus on providing high-quality, annotated question-answer pairs that capture the linguistic diversity and complexity of Swahili. The dataset is designed to support a variety of applications, including machine translation, inf"
 paper_summary: "Abstract: This paper proposes the creation of a Swahili Question Answering (QA) benchmark dataset, aimed at addressing the underrepresentation of Swahili in natural language processing (NLP). Drawing from estab | Overview: SWAQUAD-24: QA BENCHMARK DATASET IN SWAHILI Kondoro Alfred Malengo1 1Department of Data Science, Hanyang University, Seoul, South Korea alfr3do@hanyang.ac.kr ABSTRACT This paper proposes the creation  | Key Findings: In recent years, question answering (QA) has become one fo the most critical benchmarks for assessing language understanding and generation capabiliti"
-local_pdf: "[[PDFs/2024-Oliech-SwaQuAD-24.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2024-Oliech-SwaQuAD-24.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning annotated dataset for question answering"
 data_metrics: "Not specified"
 ---

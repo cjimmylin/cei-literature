@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "Artificial Intelligence Values and Alignment"
-year: 2020
+year: 2025
 first_author: "[[Iason Gabriel]]"
 authors: "Iason Gabriel"
 doi: 10.1007/s11023-020-09539-2
@@ -21,7 +21,7 @@ pdf_extract: "PDF Extracts/2020-Gabriel-Artificial Intelligence Values and Align
 abstract: "This paper looks at philosophical questions that arise in the context of AI alignment. It defends three propositions: normative and technical aspects of the AI alignment problem are interrelated; there are significant differences between AI that aligns with instructions, intentions, revealed preferences, ideal preferences, interests and values; and a principle-based approach to AI alignment has considerable advantages."
 paper_summary: 
 local_pdf: "[[PDFs/2020-Gabriel-Artificial Intelligence Values and Alignment.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes
 utilitarian_ethics: Yes

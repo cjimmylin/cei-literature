@@ -6,7 +6,7 @@ Not AI:
 key: H9QH2GC6
 type: thesis
 short_title: "LLM for everyone"
-year: 2024
+year: 2025
 first_author: "[[Samuel Cahyawijaya]]"
 authors: "Samuel Cahyawijaya"
 url: "https://lbezone.hkust.edu.hk/bib/991013340351603412"
@@ -18,7 +18,7 @@ newtags:
 tags: 
 research_topic: Other
 abstract: "Natural language processing (NLP) has witnessed a profound impact of large language models (LLMs) that excel in a multitude of tasks. However, the limitation of LLMs in multilingual settings, particularly in underrepresented languages, remains a significant hurdle. This thesis aims to bridge the gap in NLP research and development by focusing on underrepresented languages. A comprehensive evaluation of LLMs is conducted to assess their capabilities in these languages, revealing the challenges of multilingual and multicultural generalization. The proposed solutions cover cross-lingual continual instruction tuning, retrieval-based cross-lingual in-context learning, and in-context query alignment."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

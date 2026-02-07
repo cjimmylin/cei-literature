@@ -6,7 +6,7 @@ Not AI:
 key: DALESSANDRO2024
 type: journalArticle
 short_title: "Deontology and Safe AI"
-year: 2024
+year: 2025
 first_author: "[[William D'Alessandro]]"
 authors: "[[D'Alessandro, William]]"
 doi: 10.1007/s11098-024-02174-y
@@ -22,7 +22,7 @@ key_contribution: "Argues that while deontology is attractive alignment target, 
 significance: "Critical analysis challenging assumption that moral alignment automatically yields safe AI behavior"
 tags: 
 abstract: "Of the ethical frameworks taken most seriously by philosophers, deontology looks like an especially promising candidate for an alignment target. It's perhaps the most popular moral theory among both professional ethicists and the general public, and it presents a relatively tractable technical challenge since well-developed formal logics of deontic inference already exist, and language models have shown promise at classifying acts into deontologically relevant categories. Research has begun on equipping AIs with deontic constraints via a combination of top-down and bottom-up methods. However, deontological morality is no royal road to safe AI. The problem isn't just the trickiness of achieving complete alignment—there's reason to think that deontological AI systems might pose distinctive safety risks of their own."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: No

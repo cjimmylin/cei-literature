@@ -1,36 +1,34 @@
 ---
-
-
 Human View: true
 Human View Date: 2026-01-24
-Human View note: combine ethics - deon, virtue, conseq
-Not AI:
+Human View note: "combine ethics - deon, virtue, conseq"
+Not AI: 
 key: AUTO_TENNANT2025
 type: preprint
-short_title: Hybrid Approaches for Moral Value Alignment in AI Agents
+short_title: "Hybrid Approaches for Moral Value Alignment in AI Agents"
 year: 2025
 first_author: "[[Elizaveta Tennant]]"
 authors: "[[Tennant, Elizaveta]]; [[Hailes, Stephen]]; [[Musolesi, Mirco]]"
 doi: 10.48550/arXiv.2312.01818
-url: https://arxiv.org/abs/2312.01818
+url: "https://arxiv.org/abs/2312.01818"
 local_pdf: "[[PDFs/2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents.pdf]]"
-external_pdf: https://arxiv.org/pdf/2312.01818.pdf
+external_pdf: "https://arxiv.org/pdf/2312.01818.pdf"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
-newtags: Virtue Ethics, Deontology, Utilitarianism
-key_contribution: Systematizes moral alignment approaches into a continuum and advocates for hybrid solutions that combine rule-based (deontological) and learning-based (virtue/consequentialist) methods
-significance: Provides a unified framework for comparing diverse alignment methodologies and argues that robust moral agents require integrating explicit rules with implicit value learning
+newtags: "Virtue Ethics, Deontology, Utilitarianism"
+key_contribution: "Systematizes moral alignment approaches into a continuum and advocates for hybrid solutions that combine rule-based (deontological) and learning-based (virtue/consequentialist) methods"
+significance: "Provides a unified framework for comparing diverse alignment methodologies and argues that robust moral agents require integrating explicit rules with implicit value learning"
 pdf_extract: "PDF Extracts/2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents.md"
-abstract: Increasing interest in ensuring the safety of next-generation Artificial Intelligence (AI) systems calls for novel approaches to embedding morality into autonomous agents. This goal differs qualitatively from traditional task-specific AI methodologies. In this paper, we provide a systematization of existing approaches to the problem of introducing morality in machines - modelled as a continuum. Our analysis suggests that popular techniques lie at the extremes of this continuum - either being ful
+abstract: "Increasing interest in ensuring the safety of next-generation Artificial Intelligence (AI) systems calls for novel approaches to embedding morality into autonomous agents. This goal differs qualitatively from traditional task-specific AI methodologies. In this paper, we provide a systematization of existing approaches to the problem of introducing morality in machines - modelled as a continuum. Our analysis suggests that popular techniques lie at the extremes of this continuum - either being ful"
 paper_summary: "Abstract: Increasing interest in ensuring the safety of next-generation Artificial Intelligence (AI) systems calls for novel approaches to embedding morality into autonomous agents. This goal differs qualitativ | Overview: Hybrid Approaches for Moral Value Alignment in AI Agents: a Manifesto Hybrid Approaches for Moral Value Alignment in AI Agents: a Manifesto Elizaveta Tennant 1 l.karmannaya.16@ucl.ac.uk Stephen Hailes | Methodology: would possibly align with the principled ‘core knowledge’ approach from cognitive science, which first builds detailed models of various cognitive cap | Key Findings: metrics can include a measure of equality such as the Gini coefficient (Gini, 1912), and an egalitarian measure of the minimum payoff obtained by any  | Conclusions: In this paper, we have made the case for the use of learning with explicitly defined moral principles for developing morality in AI agents, contrastin"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: Yes
+utilitarian_ethics: Yes
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

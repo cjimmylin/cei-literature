@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: NEPWPQR2
 type: conferencePaper
 short_title: "Ethical and social risks of harm from Language"
-year: 2021
+year: 2025
 first_author: "[[Laura Weidinger]]"
 authors: "Laura Weidinger; John Mellor; Maribeth Rauh; Conor Griffin; Jonathan Uesato; Po-Sen Huang; Myra Cheng; Mia Glaese; Borja Balle; Atoosa Kasirzadeh; Zac Kenton; Sasha Brown; Will Hawkins; Tom Stepleton; Courtney Biles; Abeba Birhane; Julia Haas; Laura Rimell; Lisa Anne Hendricks; William Isaac; Sean Legassick; Geoffrey Irving; Iason Gabriel"
 doi: 10.48550/arXiv.2112.04359
@@ -27,15 +24,15 @@ pdf_extract: "PDF Extracts/2021-Weidinger-Ethical and social risks of harm from 
 abstract: "This paper aims to help structure the risk landscape associated with large-scale Language Models (LMs). In order to foster advances in responsible innovation, an in-depth understanding of the potential risks posed by these models is needed. A wide range of established and anticipated risks are analysed in detail, drawing on multidisciplinary literature from computer science, linguistics, and social sciences. The paper outlines six speciﬁc risk areas: I. Discrimination, Exclusion and Toxicity, II"
 paper_summary: "Abstract: This paper aims to help structure the risk landscape associated with large-scale Language Models (LMs). In order to foster advances in responsible innovation, an in-depth understanding of the potentia | Overview: Ethical and social risks of harm from Language Models Laura Weidinger1, John Mellor1, Maribeth Rauh1, Conor Griﬃn1, Jonathan Uesato1, Po-Sen Huang1, Myra Cheng1,2, Mia Glaese1, Borja Balle1, Atoosa Ka | Key Findings: Risk assessment requires expanding beyond the methodologies traditionally used to evaluate LMs, LAs and LTs. For example, research on human- computer- | Conclusions: 36"
 local_pdf: "[[PDFs/2021-Weidinger-Ethical and social risks of harm from Language.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Responsible AI"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Ethical and social risks of harm from Language Models

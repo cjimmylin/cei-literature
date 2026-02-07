@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +10,7 @@ year: 2025
 first_author: "[[Suyoung Bae]]"
 authors: "[[Bae, Suyoung]]; [[Cho, Gunhee]]; [[Cheong, Yun-Gyung]]; [[Li, Boyang]]"
 url: "https://aclanthology.org/2025.coling-main.589/"
-local_pdf: "[[PDFs/2025-Bae-CharMoral.pdf]]"
+local_pdf: [[PDFs/2025-Bae-CharMoral.pdf]]
 external_pdf: "file:///Users/jimmylin/Zotero/storage/WVX533HJ/2025 - CharMoral A Character Morality Dataset for Morally Dynamic Character Analysis in Long-Form Narrativ.pdf"
 national_ethnic_cultural: N/A
 religious_values: N/A
@@ -24,13 +22,13 @@ pdf_extract: "PDF Extracts/2025-Bae-CharMoral.md"
 tags: 
 abstract: "This paper introduces CharMoral, a dataset designed to analyze the moral evolution of characters in long-form narratives. CharMoral, built from 1,337 movie synopses, includes an- notations for character actions, context, and morality labels. To automatically construct CharMoral, we propose a four-stage frame- work, utilizing Large Language Models, to au- tomatically classify actions as moral or im- moral based on context. Human evaluations and various experiments confirm the frame- work’s effect"
 paper_summary: "Abstract: This paper introduces CharMoral, a dataset designed to analyze the moral evolution of characters in long-form narratives. CharMoral, built from 1,337 movie synopses, includes an- notations for charact | Overview: Proceedings of the 31st International Conference on Computational Linguistics, pages 8809–8818 January 19–24, 2025. ©2025 Association for Computational Linguistics 8809 CharMoral: A Character Morality | Methodology: draws upon earlier work, as described in Kim et al. (2022), highlighting the significance of the main characters in these pivotal narrative moments. A | Key Findings: 4.1 Human Evaluation We evaluate the effectiveness of our framework by comparing its predictions with human assessments and recruiting nine proficient | Conclusions: In this paper, we introduced CharMoral, a novel dataset designed to analyze the moral dynam- ics of characters in long-form narratives. Using a four-s"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: No
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 ---

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: WQ9NJRNZ
 type: conferencePaper
 short_title: "Improving Model Evaluation using SMART Filtering"
-year: 2024
+year: 2025
 first_author: "[[Vipul Gupta]]"
 authors: "Vipul Gupta; Candace Ross; David Pantoja; Rebecca J. Passonneau; Megan Ung; Adina Williams"
 doi: 10.48550/arXiv.2410.20245
@@ -25,14 +22,14 @@ pdf_extract: "PDF Extracts/2024-Gupta-Improving Model Evaluation using SMART Fil
 abstract: "One of the most challenging problems facing NLP today is evaluation. Some of the most pressing issues pertain to benchmark satura- tion, data contamination, and diversity in the quality of test examples. To address these con- cerns, we propose Selection Methodology for Accurate, Reduced, and Targeted (SMART) fil- tering, a novel approach to select a high-quality subset of examples from existing benchmark datasets by systematically removing less infor- mative and less challenging examples. Our ap"
 paper_summary: "Abstract: One of the most challenging problems facing NLP today is evaluation. Some of the most pressing issues pertain to benchmark satura- tion, data contamination, and diversity in the quality of test exampl | Overview: Improving Model Evaluation using SMART Filtering of Benchmark Datasets Vipul Gupta1, 2, † Candace Ross1 David Pantoja3 Rebecca J. Passonneau2 Megan Ung1 Adina Williams1 1 FAIR, Meta AI 2 Pennsylvania  | Methodology: increases efficiency without hits to leaderboard util- ity. For example, on the ARC dataset, we shrink the dataset by 68.9%, increasing computational  | Key Findings: datasets, preserving the high-quality examples that are most informative and reliable as our basis for benchmarking. Our methodology applies three fil | Conclusions: Dataset Quality. Our approach removes the easy, data contaminated, and similar examples, thus im- proving the quality of the resulting dataset. Our me"
 local_pdf: "[[PDFs/2024-Gupta-Improving Model Evaluation using SMART Filtering.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
 ---

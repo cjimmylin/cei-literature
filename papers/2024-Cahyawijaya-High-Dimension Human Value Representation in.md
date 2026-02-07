@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 6JGA9KWA
 type: conferencePaper
 short_title: "High-Dimension Human Value Representation in"
-year: 2024
+year: 2025
 first_author: "[[Samuel Cahyawijaya]]"
 authors: "Samuel Cahyawijaya; Delong Chen; Yejin Bang; Leila Khalatbari; Bryan Wilie; Ziwei Ji; Etsuko Ishii; Pascale Fung"
 doi: 10.48550/arXiv.2404.07900
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2024-Cahyawijaya-High-Dimension Human Value Represent
 abstract: "The widespread application of LLMs across various tasks and fields has necessitated the alignment of these models with human val- ues and preferences. Given various approaches of human value alignment, there is an urgent need to understand the scope and nature of hu- man values injected into these LLMs before their deployment and adoption. We propose UniVaR, a high-dimensional neural representa- tion of symbolic human value distributions in LLMs, orthogonal to model architecture and training dat"
 paper_summary: "Abstract: The widespread application of LLMs across various tasks and fields has necessitated the alignment of these models with human val- ues and preferences. Given various approaches of human value alignment | Overview: High-Dimension Human Value Representation in Large Language Models Samuel Cahyawijaya∗ Delong Chen∗ Yejin Bang∗ Leila Khalatbari Bryan Wilie∗ Ziwei Ji Etsuko Ishii Pascale Fung* The Hong Kong Universi | Key Findings: Task To quantitatively evaluate whether represen- tation effectively captures value-relevant features in LLMs, we introduce an LLM value identificatio | Conclusions: The adoption of LLMs across various fields neces- sitates understanding how these models represent human values. Our paper introduces UniVaR, a high-d"
 local_pdf: "[[PDFs/2024-Cahyawijaya-High-Dimension Human Value Representation in.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "25 languages"
 ---

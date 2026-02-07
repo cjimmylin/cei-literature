@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: LEH5YGEV
 type: conferencePaper
 short_title: FFB
-year: 2023
+year: 2025
 first_author: "[[Xiaotian Han]]"
 authors: "Xiaotian Han; Jianfeng Chi; Yu Chen; Qifan Wang; Han Zhao; Na Zou; Xia Hu"
 doi: 10.48550/arXiv.2306.09468
@@ -26,15 +23,15 @@ tags:
 pdf_extract: "PDF Extracts/2023-Han-FFB.md"
 abstract: "This paper introduces the Fair Fairness Benchmark (FFB), a benchmarking frame- work for in-processing group fairness methods. Ensuring fairness in machine learning is important for ethical compliance. However, there exist challenges in comparing and developing fairness methods due to inconsistencies in experimental settings, lack of accessible algorithmic implementations, and limited extensibility of current fairness packages and tools. To address these issues, we introduce an open- source stand"
 paper_summary: "Abstract: This paper introduces the Fair Fairness Benchmark (FFB), a benchmarking frame- work for in-processing group fairness methods. Ensuring fairness in machine learning is important for ethical compliance. | Overview: Published as a conference paper at ICLR 2024 FFB: A FAIR FAIRNESS BENCHMARK FOR IN- PROCESSING GROUP FAIRNESS METHODS Xiaotian Han1∗Jianfeng Chi2 Yu Chen3 Qifan Wang2 Han Zhao4 Na Zou5 Xia Hu6 1Texas  | Methodology: lacks a comprehensive comparison, such as the training curves and stability, the influence of the utility-fairness trade-off parameters, and how to se"
-local_pdf: "[[PDFs/2023-Han-FFB.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2023-Han-FFB.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

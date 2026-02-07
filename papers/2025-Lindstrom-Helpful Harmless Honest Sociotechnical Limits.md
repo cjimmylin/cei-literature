@@ -20,7 +20,7 @@ key_contribution: "Critical analysis showing tensions between HHH goals; RLHF in
 significance: "Argues effective AI safety requires comprehensive sociotechnical approaches beyond technical interventions"
 tags: 
 abstract: "This paper provides critical analysis of RLHF and RLAIF techniques used to align Large Language Models with human values through the HHH (Helpful, Harmless, Honest) principle. The authors examine theoretical and practical limitations, revealing tensions between helpfulness, harmlessness, and honesty goals. Key issues include how increased user-friendliness may mislead users about AI capabilities, sycophantic model behavior prioritizing agreement over accuracy, and value imposition favoring hegemonic cultural norms. The work concludes that effective AI safety requires comprehensive sociotechnical approaches spanning institutional, process, and technological design rather than technical interventions alone."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

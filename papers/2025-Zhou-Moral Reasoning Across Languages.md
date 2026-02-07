@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2025-Zhou-Moral Reasoning Across Languages.md"
 abstract: "In this paper, we introduce the Multilingual Moral Reasoning Benchmark (MMRB) 1 to evaluate the moral reasoning abilities of large language models (LLMs) across five typologi- cally diverse languages and three levels of con- textual complexity: sentence, paragraph, and document. Our results show moral reasoning performance degrades with increasing context complexity, particularly for low-resource lan- guages such as Vietnamese. We further fine- tune the open-source LLaMA-3-8B model us- ing curat"
 paper_summary: "Abstract: In this paper, we introduce the Multilingual Moral Reasoning Benchmark (MMRB) 1 to evaluate the moral reasoning abilities of large language models (LLMs) across five typologi- cally diverse languages  | Overview: Moral Reasoning Across Languages: The Critical Role of Low-Resource Languages in LLMs Huichi Zhou1, Zehao Xu2, Munan Zhao2, Kaihong Li3, Yiqiang Li, Hongtao Wang2, 1Imperial College London 2North Chin | Key Findings: Our goal is to evaluate the consistency of moral rea- soning in multilingual settings across five LLMs on three levels of context: sentence, paragraph | Conclusions: Win-Rate Analysis. Beyond overall accuracy, we also examine pairwise win-rates between lan- guages, as shown in Figure 2. This metric cap- tures subtl"
 local_pdf: "[[PDFs/2025-Zhou-Moral Reasoning Across Languages.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark for moral/ethical reasoning dataset"
 data_metrics: "5 languages"
 ---

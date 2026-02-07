@@ -6,7 +6,7 @@ Not AI:
 key: WY4ZPF3K
 type: document
 short_title: ToxicChat
-year: 2023
+year: 2025
 first_author: "[[Zi Lin]]"
 authors: "[[Lin, Zi]]; [[Wang, Zihan]]; [[Tong, Yongqi]]; [[Wang, Yangkun]]; [[Guo, Yuxin]]; [[Wang, Yujia]]; [[Shang, Jingbo]]"
 url: "https://aclanthology.org/2023.findings-emnlp.311/"
@@ -19,7 +19,7 @@ key_contribution: "Released ToxicChat, a benchmark of real-world user-AI convers
 significance: "Reveals that models trained on standard social media data fail to detect the subtle, interaction-based toxicity found in real user-AI chats, highlighting a critical domain gap in safety evaluation."
 tags: 
 abstract: "Despite remarkable advances that large language models have achieved in chatbots nowadays, maintaining a non-toxic user-AI interactive environment has become increasingly critical nowadays. However, previous efforts in toxicity detection have been mostly based on benchmarks derived from social media contents, leaving the unique challenges inherent to real-world user-AI interactions insufficiently explored. In this work, we introduce ToxicChat, a novel benchmark constructed based on real user queries from an open-source chatbot. This benchmark contains the rich, nuanced phenomena that can be tricky for current toxicity detection models to identify, revealing a significant domain difference when compared to social media contents. Our systematic evaluation of models trained on existing toxicity datasets has shown their shortcomings when applied to this unique domain of ToxicChat. Our work illuminates the potentially overlooked challenges of toxicity detection in real-world user-AI conversations. In the future, ToxicChat can be a valuable resource to drive further advancements toward building a safe and healthy environment for user-AI interactions."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

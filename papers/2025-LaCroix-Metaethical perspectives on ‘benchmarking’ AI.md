@@ -20,7 +20,7 @@ key_contribution: "Meta-ethical critique arguing that establishing a universal '
 significance: "Challenges the industry's rush toward standardized 'ethics scores', proposing instead that we must explicitly measure 'value alignment' (which acknowledges specific, relative value systems) rather than a generic notion of 'ethics'."
 tags: 
 abstract: "Benchmarks are seen as the cornerstone for measuring technical progress in artificial intelligence (AI) research and have been developed for a variety of tasks ranging from question answering to emotion recognition. An increasingly prominent research area in AI is ethics, which currently has no set of benchmarks nor commonly accepted way for measuring the ‘ethicality’ of an AI system. In this paper, drawing upon research in moral philosophy and metaethics, we argue that it is impossible to devel"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

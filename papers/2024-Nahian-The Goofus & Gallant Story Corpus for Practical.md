@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: KKKKB7L5
 type: conferencePaper
 short_title: "The Goofus & Gallant Story Corpus for Practical"
-year: 2024
+year: 2025
 first_author: "[[Md Sultan Al Nahian]]"
 authors: "Md Sultan Al Nahian; Tasmia Tasrin; Spencer Frazier; Mark Riedl; Brent Harrison"
 doi: 10.1109/ICMLA61862.2024.00098
@@ -26,15 +23,15 @@ pdf_extract: "PDF Extracts/2024-Nahian-The Goofus & Gallant Story Corpus for Pra
 paper_summary: "Overview: The Goofus & Gallant Story Corpus for Practical Value Alignment Md Sultan Al Nahian Institute for Biomedical Informatics University of Kentucky Lexington, KY, USA sa.nahian@uky.edu Tasmia Tasrin Depar | Key Findings: Type Acc F1-score Precision Recall MCC Scene + Strict 52.26 16.84 18.06 18.13 35.94 Action Relax 74.84 32.76 32.64 34.04 63.72 Action Strict 52.90 19. | Conclusions: In this study, we present a multi-modal dataset to facilitate value alignment. Our comprehensive experiments demonstrate the effectiveness of this dat"
 local_pdf: "[[PDFs/2024-Nahian-The Goofus & Gallant Story Corpus for Practical.pdf]]"
 abstract: "Values or principles are key elements of human society that influence people to behave and function according to an accepted standard set of social rules to maintain social order. As AI systems are becoming ubiquitous in human society, it is a major concern that they could violate these norms or values and potentially cause harm. Thus, to prevent intentional or unintentional harm, AI systems are expected to take actions that align with these principles. Training systems to exhibit this type of b"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # The Goofus & Gallant Story Corpus for Practical Value Alignment

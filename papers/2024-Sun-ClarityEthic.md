@@ -6,7 +6,7 @@ Not AI:
 key: FVXJMS7J
 type: conferencePaper
 short_title: ClarityEthic
-year: 2024
+year: 2025
 first_author: "[[Yuxi Sun]]"
 authors: "Yuxi Sun; Wei Gao; Jing Ma; Hongzhan Lin; Ziyang Luo; Wenxuan Zhang"
 doi: 10.48550/arXiv.2412.12848
@@ -21,7 +21,7 @@ key_contribution: "Introduces ClarityEthic, a method that uses contrastive learn
 significance: "Improves moral judgment in complex scenarios by explicitly modeling the conflict between competing norms, rather than relying on opaque value valence"
 tags: 
 abstract: "With the rise and widespread use of Large Language Models (LLMs), ensuring their safety is crucial to prevent harm to humans and promote ethical behaviors. However, directly assessing value valence (i.e., support or oppose) by leveraging large-scale data training is untrustworthy and inexplainable. We assume that emulating humans to rely on social norms to make moral decisions can help LLMs understand and predict moral judgment. However, capturing human values remains a challenge, as multiple re"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: Yes

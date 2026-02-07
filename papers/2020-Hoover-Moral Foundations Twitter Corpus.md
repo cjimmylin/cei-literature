@@ -6,7 +6,7 @@ Not AI:
 key: T3ZTMJEH
 type: journalArticle
 short_title: "Moral Foundations Twitter Corpus"
-year: 2020
+year: 2025
 first_author: "[[Joe Hoover]]"
 authors: "Joe Hoover; Gwenyth Portillo-Wightman; Leigh Yeh; Shreya Havaldar; Aida Mostafazadeh Davani; Ying Lin; Brendan Kennedy; Mohammad Atari; Zahra Kamel; Madelyn Mendlen; Gabriela Moreno; Christina Park; Tingyee E. Chang; Jenna Chin; Christian Leong; Jun Yen Leung; Arineh Mirinjian; Morteza Dehghani"
 doi: 10.1177/1948550619876629
@@ -20,7 +20,7 @@ key_contribution: "Created the MFTC, a large corpus of 35k tweets annotated for 
 significance: "The gold-standard dataset for studying 'moral sentiment' in natural language social media analysis, enabling researchers to track how moral values drive online polarization and diffusion."
 tags: 
 abstract: "Research has shown that accounting for moral sentiment in natural language can yield insight into a variety of on- and off-line phenomena such as message diffusion, protest dynamics, and social distancing. However, measuring moral sentiment in natural language is challenging, and the difficulty of this task is exacerbated by the limited availability of annotated data. To address this issue, we introduce the Moral Foundations Twitter Corpus, a collection of 35,108 tweets that have been curated fr"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

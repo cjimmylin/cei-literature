@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 3RMHBD6V
 type: journalArticle
 short_title: AI-Face
-year: 2024
+year: 2025
 first_author: "[[Li Lin]]"
 authors: "Li Lin; Santosh; Mingyang Wu; Xin Wang; Shu Hu"
 url: "https://arxiv.org/abs/2406.00783"
@@ -24,15 +21,15 @@ tags:
 pdf_extract: "PDF Extracts/2024-Lin-AI-Face.md"
 abstract: "AI-generated faces have enriched human life, such as en- tertainment, education, and art. However, they also pose misuse risks. Therefore, detecting AI-generated faces be- comes crucial, yet current detectors show biased perfor- mance across different demographic groups. Mitigating biases can be done by designing algorithmic fairness meth- ods, which usually require demographically annotated face datasets for model training. However, no existing dataset encompasses both demographic attributes an"
 paper_summary: "Abstract: AI-generated faces have enriched human life, such as en- tertainment, education, and art. However, they also pose misuse risks. Therefore, detecting AI-generated faces be- comes crucial, yet current d | Overview: AI-Face: A Million-Scale Demographically Annotated AI-Generated Face Dataset and Fairness Benchmark* Li Lin1, Santosh1, Mingyang Wu1, Xin Wang2, Shu Hu1† 1Purdue University, West Lafayette, USA {lin17 | Methodology: Gender Gender, Age Gender, Age, Skin Tone DF DF, GAN GAN, DM DF, GAN,DM 1 3 5 8 37 Demographic Annotation Generation Category Figure 1. Comparison bet | Key Findings: under default/basic settings. Fairness ‘Reliability’ measures fair- ness consistency across dynamic scenarios (e.g., post-processing). fairness reliab | Conclusions: According to the above experiments, we summarize the un- solved fairness problems in recent detectors: 1) Detectors’ fairness is unstable when detecti"
-local_pdf: "[[PDFs/2024-Lin-AI-Face.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2024-Lin-AI-Face.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness annotated dataset"
 data_metrics: "Not specified"
 ---

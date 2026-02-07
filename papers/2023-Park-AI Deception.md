@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: JR85YRDT
 type: conferencePaper
 short_title: "AI Deception"
-year: 2023
+year: 2025
 first_author: "[[Peter S. Park]]"
 authors: "Peter S. Park; Simon Goldstein; Aidan O'Gara; Michael Chen; Dan Hendrycks"
 doi: 10.48550/arXiv.2308.14752
@@ -25,14 +22,14 @@ pdf_extract: "PDF Extracts/2023-Park-AI Deception.md"
 abstract: "This paper argues that a range of current AI systems have learned how to deceive humans. We define deception as the systematic inducement of false beliefs in the pursuit of some outcome other than the truth. We first survey empirical examples of AI deception, discussing both special-use AI systems (including Meta’s CICERO) built for specific competitive situations, and general-purpose AI systems (such as large language models). Next, we detail several risks from AI deception, such as fraud, elec"
 paper_summary: "Abstract: This paper argues that a range of current AI systems have learned how to deceive humans. We define deception as the systematic inducement of false beliefs in the pursuit of some outcome other than the | Overview: AI Deception: A Survey of Examples, Risks, and Potential Solutions Peter S. Park∗ MIT Simon Goldstein* Australian Catholic University Center for AI Safety Aidan O’Gara Center for AI Safety Michael Che"
 local_pdf: "[[PDFs/2023-Park-AI Deception.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

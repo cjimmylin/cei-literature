@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,14 +25,14 @@ paper_summary: "Abstract: Changing the behavior of large language models (LLMs) 
 local_pdf: "[[PDFs/2025-Zhu-Steering Risk Preferences in Large Language.pdf]]"
 key_contribution: "Proposes a principled approach for steering risk preferences in LLMs by aligning behavioral representations (elicited via MCMC) with neural representations (activations)."
 significance: "Bridges the gap between behavioral psychometrics and mechanistic interpretability, providing a lightweight, training-free way to control model risk-taking behavior for safer alignment."
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 ---

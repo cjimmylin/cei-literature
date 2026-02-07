@@ -19,7 +19,7 @@ key_contribution: "Proposes the RusCode benchmark, consisting of 1250 text promp
 significance: "Mitigates Western/English-speaking cultural bias in generative CV models, ensuring unique cultural characteristics of diverse language groups are accurately represented."
 tags: 
 abstract: "This paper introduces RusCode, a benchmark specifically designed to evaluate the Russian Cultural Code in text-to-image generation models. Current generative models exhibit a strong Anglo-Centric bias, often failing to correctly render concepts specific to Russian history, folklore, and daily life. RusCode consists of 1250 text prompts across 19 categories (e.g., fairytale characters like Baba Yaga, historical architecture, and specific cultural artifacts). The study compares major models (like Midjourney, Kandinsky, and Stable Diffusion), revealing significant gaps in cultural competence."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2025-Leteno-Histoires Morales.md"
 abstract: "Aligning language models with human values is crucial, especially as they become more inte- grated into everyday life. While models are of- ten adapted to user preferences, it is equally im- portant to ensure they align with moral norms and behaviours in real-world social situations. Despite significant progress in languages like English and Chinese, French has seen little at- tention in this area, leaving a gap in understand- ing how LLMs handle moral reasoning in this language. To address this"
 paper_summary: "Abstract: Aligning language models with human values is crucial, especially as they become more inte- grated into everyday life. While models are of- ten adapted to user preferences, it is equally im- portant t | Overview: HISTOIRESMORALES: A French Dataset for Assessing Moral Alignment Thibaud Leteno1∗, Irina Proskurina2∗, Antoine Gourru1, Julien Velcin2, Charlotte Laclau3, Guillaume Metzler2, and Christophe Gravier1 1 | Methodology: Inspired by recent works on fair- ness (Nangia et al., 2020; Manerba et al., 2023), we use the perplexity metric derived from the log- likelihood loss | Key Findings: 4.1 Translation Evaluation This section analyses the quality of the obtained HISTOIRESMORALES dataset. Grammatical Acceptability We use a rule- based  | Conclusions: This work introduces HISTOIRESMORALES, the first dataset for social reasoning informed by behavioural guidelines in the French language. The introduce"
 local_pdf: "[[PDFs/2025-Leteno-Histoires Morales.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

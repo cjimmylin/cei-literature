@@ -1,5 +1,5 @@
 # Learnings Log
-*Last updated: 2026-02-02*
+*Last updated: 2026-02-07*
 
 ---
 
@@ -31,6 +31,20 @@
 - Include context (what triggered the learning)
 - Note edge cases and exceptions
 - Link to relevant Standards/ files if applicable
+
+---
+
+## 2026-02-07
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-07 | YAML | **parse_frontmatter() Destroys Lists:** The vault's `parse_frontmatter()` uses a simple regex that only handles flat `key: value` pairs. Round-tripping through `parse_frontmatter()` → `rebuild_frontmatter()` strips list-based fields (tags, etc.). For adding a single field to many papers, append the field line directly to the raw frontmatter string before the closing `---`. This preserves all formatting. See `lib/yaml_utils.py`. |
+| 2026-02-07 | Workflows | **Multi-Agent Exhaustive Search Architecture:** Ran 19 parallel search agents across 3 waves for literature discovery. Architecture: Wave 1 (foundation: citation graphs, ACL Anthology, AIES/FAccT, workshops, PapersWithCode, PhilPapers, author networks, GitHub), Wave 2 (non-Western: Chinese, Islamic, African, East Asian, multilingual), Wave 3 (adjacent domains: professional ethics, prosocial/empathy, safety, political values, game theory, moral psychology). ~265 raw papers found pre-dedup. Status file: `logs/EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md`. |
+| 2026-02-07 | Workflows | **Context Window Management for Large Tasks:** The 19-agent search consumed the entire context window (~200K tokens) before Wave 4 (dedup/verification) could run. Lesson: For massive parallel operations, write intermediate summaries to disk after each wave completes, and consider using `/compact` between waves. Each subagent wrote its report to disk independently, so all work was recoverable despite main session failing. |
+| 2026-02-07 | Workflows | **Session Continuity via Status Files:** Created `EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md` as a "checkpoint" document. Contains: what was done (13 reports, paper counts), what's missing (Agent 1, Wave 4), step-by-step continuation guide, file locations, and estimated unique paper count. Enables any future session to pick up exactly where previous session left off. Pattern: always write recovery docs before context limit hits. |
+| 2026-02-07 | Classification | **Normative vs Descriptive Ethics Boundary:** The key exclusion criterion for normative ethics benchmarks is whether the paper uses *prescriptive* philosophical frameworks (deontological, utilitarian, virtue) vs *descriptive* behavioral frameworks (Moral Foundations Theory, Kohlberg, revealed preference theory). MFT is the most common false positive — it's a psychological taxonomy, not a normative ethical system. ~61% of candidate papers excluded for this reason. |
+| 2026-02-07 | Data Quality | **YAML Tags Unreliable for Cross-Cutting Research:** Existing classification fields (`virtue_ethics`, `deontological_ethics`, `is_benchmark`, etc.) are individually reasonable but don't reliably capture cross-cutting research questions. For identifying papers that combine normative ethics + benchmarks + LLM testing, direct paper reading was necessary. ~80 papers read to find 31 qualifying. Tag-based filtering would have missed ~30% and false-positived ~20%. |
+| 2026-02-07 | Research | **Normative Ethics Benchmark Landscape (2024-2025):** 20 papers qualify as combining normative ethics + LLM benchmarks. Most common pattern: consequentialist + deontological (18 papers reference one or both). Virtue ethics is underrepresented (7 papers). Care ethics emerging (3 papers). All major LLM families tested somewhere. Report: `STATISTICS/normative-ethics-benchmarks-report.md`. |
 
 ---
 

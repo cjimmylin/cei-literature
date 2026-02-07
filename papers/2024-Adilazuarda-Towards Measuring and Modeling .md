@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 7SYVF7GD
 type: conferencePaper
 short_title: "Towards Measuring and Modeling \"
-year: 2024
+year: 2025
 first_author: "[[Muhammad Farid Adilazuarda]]"
 authors: "Muhammad Farid Adilazuarda; Sagnik Mukherjee; Pradhyumna Lavania; Siddhant Singh; Alham Fikri Aji; Jacki O'Neill; Ashutosh Modi; Monojit Choudhury"
 doi: 10.48550/arXiv.2403.15412
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2024-Adilazuarda-Towards Measuring and Modeling .md"
 abstract: "We present a survey of more than 90 recent papers that aim to study cultural representa- tion and inclusion in large language models (LLMs). We observe that none of the studies explicitly define “culture”, which is a complex, multifaceted concept; instead, they probe the models on some specially designed datasets which represent certain aspects of “culture.' We call these aspects the proxies of culture, and organize them across two dimensions of demographic and semantic proxies. We also categori"
 paper_summary: "Abstract: We present a survey of more than 90 recent papers that aim to study cultural representa- tion and inclusion in large language models (LLMs). We observe that none of the studies explicitly define “cult | Overview: Towards Measuring and Modeling “Culture” in LLMs: A Survey Muhammad Farid Adilazuarda1∗, Sagnik Mukherjee1*, Pradhyumna Lavania2, Siddhant Singh2, Alham Fikri Aji1, Jacki O’Neill3, Ashutosh Modi2, Mon | Methodology: Scope of this survey is limited to the study of cul- tural representations within LLMs and LLM-based applications. Studies on culture in NLP that does | Conclusions: In this survey, we explored how language and cul- ture are connected and stressed the importance of LLMs’ understanding of cultural differences. We ha"
 local_pdf: "[[PDFs/2024-Adilazuarda-Towards Measuring and Modeling .pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

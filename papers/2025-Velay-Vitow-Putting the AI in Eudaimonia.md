@@ -1,35 +1,33 @@
 ---
-
-
 Human View: true
 Human View Date: 2026-01-24
-Human View note: Human flourishing in AI
-Not AI:
+Human View note: "Human flourishing in AI"
+Not AI: 
 key: AUTO_VELAYVITOW2025
 type: journalArticle
-short_title: Putting the AI in Eudaimonia
+short_title: "Putting the AI in Eudaimonia"
 year: 2025
 first_author: "[[Jesse Velay-Vitow]]"
 authors: "[[Velay-Vitow, Jesse]]; [[Grant, John]]"
 doi: N/A
-url: https://therepublicjournal.com/putting-the-ai-in-eudaimonia/
+url: "https://therepublicjournal.com/putting-the-ai-in-eudaimonia/"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
-newtags: Virtue Ethics
-key_contribution: Argues that the development of AI (civil and military) should be unified by the teleological goal of protecting the space and time necessary for human eudaimonia
-significance: Reframes the purpose of AI technology from mere capability advancement to the Aristotelian support of the 'good life' and societal stability
-abstract: "This essay explores the intersection of artificial intelligence and the concept of eudaimonia, or human flourishing. The authors contend that technologists should focus on making military work as ethical as possible, adopting Aristotle's view that the fundamental objective of human existence is to live a good life. They suggest that technology, including cutting-edge AI, serves eudaimonia in two ways: by enabling efficiencies that grant individuals more time to pursue their \"good life,\" and by fostering a secure and stable society in which that life can be lived. The essay argues that AI can profoundly redefine what it means to live a flourishing life and proposes that AI development across commercial, civil, and military contexts should be unified by the mission to protect the space and time necessary for human eudaimonia."
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+newtags: "Virtue Ethics"
+key_contribution: "Argues that the development of AI (civil and military) should be unified by the teleological goal of protecting the space and time necessary for human eudaimonia"
+significance: "Reframes the purpose of AI technology from mere capability advancement to the Aristotelian support of the 'good life' and societal stability"
+abstract: "This essay explores the intersection of artificial intelligence and the concept of eudaimonia, or human flourishing. The authors contend that technologists should focus on making military work as ethical as possible, adopting Aristotle's view that the fundamental objective of human existence is to live a good life. They suggest that technology, including cutting-edge AI, serves eudaimonia in two ways: by enabling efficiencies that grant individuals more time to pursue their \"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: No
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
-pdf_extract: [[2025-Velay-Vitow-Putting the AI in Eudaimonia]]
+pdf_extract: "[[2025-Velay-Vitow-Putting the AI in Eudaimonia]]"
 ---
 # Putting the AI in Eudaimonia
 

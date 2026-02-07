@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 2UT83INB
 type: conferencePaper
 short_title: "Moral Stance Recognition and Polarity"
-year: 2019
+year: 2025
 first_author: "[[Brazil University of São Paulo]]"
 authors: "Brazil University of São Paulo; Wesley Ramos Dos Santos; Ivandré Paraboni"
 doi: 10.26615/978-954-452-056-4_123
@@ -25,14 +22,14 @@ significance: "Provides a rare resource for computational ethics in Portuguese, 
 tags: 
 abstract: "We introduce a labelled corpus of stances about moral issues for the Brazilian Portuguese language, and present reference results for both the stance recognition and polarity classiﬁcation tasks. The corpus is built from Twitter and further expanded with data elicited through crowd sourcing and labelled by their own authors. Put together, the corpus and reference results are expected to be taken as a baseline for further studies in the ﬁeld of stance recognition and polarity classiﬁcation from t"
 pdf_extract: "PDF Extracts/2019-University of São Paulo-Moral Stance Recognition and Polarity.md"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "General Ethics"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
 ---

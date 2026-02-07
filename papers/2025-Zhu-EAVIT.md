@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,15 +23,15 @@ significance: "Solves the cost/scalability bottleneck of using SOTA LLMs for lar
 pdf_extract: "PDF Extracts/2025-Zhu-EAVIT.md"
 abstract: "The rapid evolution of large language models (LLMs) has revolutionized various fields, includ- ing the identification and discovery of human val- ues within text data. While traditional NLP mod- els, such as BERT, have been employed for this task, their ability to represent textual data is sig- nificantly outperformed by emerging LLMs like GPTs. However, the performance of online LLMs often degrades when handling long contexts re- quired for value identification, which also incurs substantial co"
 paper_summary: "Abstract: The rapid evolution of large language models (LLMs) has revolutionized various fields, includ- ing the identification and discovery of human val- ues within text data. While traditional NLP mod- els,  | Overview: arXiv:2505.12792v1 [cs.CL] 19 May 2025 EAVIT: Efficient and Accurate Human Value Identification from Text data via LLMs Wenhao Zhu1 , Yuhang Xie1 , Guojie Song∗1 and Xin Zhang1 1National Key Laborator | Methodology: effectively reduces the number of values requiring explicit definition in the input context, thereby shortening the over- all context length. To enabl | Key Findings: Output Stage | Conclusions: This paper investigates the potential of LLMs for identify- ing human values from text data. Despite challenges, LLMs have demonstrated superior capab"
-local_pdf: "[[PDFs/2025-Zhu-EAVIT.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2025-Zhu-EAVIT.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "2000 word"
 ---

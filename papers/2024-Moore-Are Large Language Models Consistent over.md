@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: QTHPTLW2
 type: conferencePaper
 short_title: "Are Large Language Models Consistent over"
-year: 2024
+year: 2025
 first_author: "[[Jared Moore]]"
 authors: "Jared Moore; Tanvi Deshpande; Diyi Yang"
 doi: 10.48550/arXiv.2407.02996
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2024-Moore-Are Large Language Models Consistent over.
 abstract: "Large language models (LLMs) appear to bias their survey answers toward certain values. Nonetheless, some argue that LLMs are too inconsistent to simulate particular values. Are they? To answer, we first define value consis- tency as the similarity of answers across (1) paraphrases of one question, (2) related ques- tions under one topic, (3) multiple-choice and open-ended use-cases of one question, and (4) multilingual translations of a question to En- glish, Chinese, German, and Japanese. We a"
 paper_summary: "Abstract: Large language models (LLMs) appear to bias their survey answers toward certain values. Nonetheless, some argue that LLMs are too inconsistent to simulate particular values. Are they? To answer, we fi | Overview: Are Large Language Models Consistent over Value-laden Questions? Jared Moore Stanford University jlcmoore@stanford.edu Tanvi Deshpande Stanford University tanvimd@stanford.edu Diyi Yang Stanford Unive | Conclusions: Prior work has argued that models either do (Dur- mus et al., 2024; Santurkar et al., 2023) or do not (Röttger et al., 2024; Shu et al., 2023) hold ce"
 local_pdf: "[[PDFs/2024-Moore-Are Large Language Models Consistent over.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "8,000 questions"
 ---

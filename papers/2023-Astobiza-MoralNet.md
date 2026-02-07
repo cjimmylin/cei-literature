@@ -6,7 +6,7 @@ Not AI:
 key: L6RS9M6J
 type: preprint
 short_title: MoralNet
-year: 2023
+year: 2025
 first_author: "[[Aníbal M. Astobiza]]"
 authors: "Aníbal M. Astobiza"
 doi: 10.31234/osf.io/dbyw7
@@ -20,7 +20,7 @@ key_contribution: "Proposed MoralNet, a 'benchmarking protocol' and database sim
 significance: "A conceptual proposal for a standardized, large-scale 'EthicsNet' to unify machine ethics evaluation."
 tags: 
 abstract: "Artificial intelligence has prompted unprecedented concerns regarding ethical decision-making in autonomous systems. Here, we introduce MoralNet, a proof ofconcept database and benchmarking platform akin to ImageNet, designed to assess, evaluate, and iteratively refine any instance of ethical decision-making in machines.Inspired by the lessons of moral psychology and moral philosophy, MoralNet is a call to action to take the first step towards a computational ethics."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -31,7 +31,7 @@ is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2023-Astobiza-MoralNet.md"
-local_pdf: "[[PDFs/2023-Astobiza-MoralNet.pdf]]"
+local_pdf: [[PDFs/2023-Astobiza-MoralNet.pdf]]
 ---
 # MoralNet: A Benchmarking Protocol for Evaluating Morality in AI Systems
 

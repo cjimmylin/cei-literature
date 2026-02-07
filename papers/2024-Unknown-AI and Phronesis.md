@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,7 +6,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "AI and Phronesis"
-year: 2022
+year: 2025
 first_author: "[[Eisikovits, Nir]]"
 authors: "Nir Eisikovits; Dan Feldman"
 doi: 10.1515/mopp-2021-0026
@@ -22,7 +21,7 @@ pdf_extract: "PDF Extracts/2024-Unknown-AI and Phronesis.md"
 abstract: "This paper argues that the growing prevalence of statistical machine learning in everyday decision making effectively replaces many of our practical judgments. It leans on Aristotle's account of how phronesis develops to examine the implications for human moral development."
 paper_summary: 
 local_pdf: 
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No
 utilitarian_ethics: No

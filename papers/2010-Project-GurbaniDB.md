@@ -1,37 +1,33 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: 9PE6HG5I
 type: document
-year: 2010
+year: 2025
 short_title: GurbaniDB
-first_author: "[[Project]]"
+first_author: [[Project]]
 authors: "Project; The Sikher"
 url: "https://sikher.com/projects/gurbanidb/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ZNGV87C6/Project - GurbaniDB.pdf"
-pdf_extract: "[[2010-Project-GurbaniDB]]"
-local_pdf: "[[2010-Project-GurbaniDB.pdf]]"
+pdf_extract: [[2010-Project-GurbaniDB]]
+local_pdf: [[2010-Project-GurbaniDB.pdf]]
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
 newtags: 
-tags:
+tags: 
 abstract: "GurbaniDB is a comprehensive digital database and search engine for the Sikh scriptures, dedicated to making Sikh scriptures accessible to everyone. It is the world's first Gurbani database to correctly archive Guru Granth Sahib into all 60 Raags (moods/melodies) with pop-up descriptions of each Author and Melody. The platform allows users to search the Guru Granth Sahib in English, Gurmukhi and 52 other languages, including 22 transliterations, fostering collaboration among volunteers to enhance translations and promote innovation and community engagement."
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-research_topic: "Other"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+research_topic: Other
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # GurbaniDB

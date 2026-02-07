@@ -6,7 +6,7 @@ Not AI:
 key: YCTS2U3I
 type: conferencePaper
 short_title: CIVICS
-year: 2024
+year: 2025
 first_author: "[[Giada Pistilli]]"
 authors: "Giada Pistilli; Alina Leidinger; Yacine Jernite; Atoosa Kasirzadeh; Alexandra Sasha Luccioni; Margaret Mitchell"
 doi: 10.1609/aies.v7i1.31710
@@ -20,7 +20,7 @@ key_contribution: "Introduced CIVICS, a multilingual dataset of value-laden prom
 significance: "Reveals the implicit value variability in models across languages and topics, showing that refusals and responses are disparately triggered depending on the cultural context of the prompt."
 tags: 
 abstract: "This paper introduces the \"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -31,7 +31,7 @@ is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2024-Pistilli-CIVICS.md"
-local_pdf: "[[PDFs/2024-Pistilli-CIVICS.pdf]]"
+local_pdf: [[PDFs/2024-Pistilli-CIVICS.pdf]]
 ---
 # CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models
 

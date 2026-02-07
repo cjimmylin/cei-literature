@@ -6,7 +6,7 @@ Not AI: Yes
 key: KNNFTMH4
 type: journalArticle
 short_title: "The choice of deontological, virtue ethical, and"
-year: 2023
+year: 2025
 first_author: "[[Andrew Maile]]"
 authors: "[[Maile, Andrew]]; [[Thompson, Aidan]]; [[McLoughlin, Shane]]; [[Kristjánsson, Kristján]]"
 doi: 10.1080/10508422.2022.2124995
@@ -20,7 +20,7 @@ key_contribution: "Empirically analyzes the moral reasoning strategies of UK pol
 significance: "Provides empirical data on how professional moral decision-making occurs in practice, highlighting the gap between theoretical virtue ethics and applied rule-following in high-stakes professions"
 tags: 
 abstract: "Drawing upon cross-sectional research with pre- and in-service police officers in the U.K. (N = 571), this paper reports on the moral reasoning strategies favored by the respondents in dealing with bespoke work-related moral quandaries specific to the professional practice of policing. The dominant form of moral reasoning in dealing with those dilemmas was deontological (rule-based). The second most frequently selected reasoning strategy was virtue ethical. Further analysis of the police researc"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes
 utilitarian_ethics: Yes

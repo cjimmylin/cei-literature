@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,14 +22,14 @@ pdf_extract: "PDF Extracts/2025-Wang-Is Your Model Fairly Certain Uncertainty-Aw
 abstract: "The recent rapid adoption of large language mod- els (LLMs) highlights the critical need for bench- marking their fairness. Conventional fairness met- rics, which focus on discrete accuracy-based eval- uations (i.e., prediction correctness), fail to cap- ture the implicit impact of model uncertainty (e.g., higher model confidence about one group over an- other despite similar accuracy). To address this limitation, we propose an uncertainty-aware fair- ness metric, UCerF, to enable a fine-grained"
 paper_summary: "Abstract: The recent rapid adoption of large language mod- els (LLMs) highlights the critical need for bench- marking their fairness. Conventional fairness met- rics, which focus on discrete accuracy-based eval | Overview: arXiv:2505.23996v1 [cs.CL] 29 May 2025 Is Your Model Fairly Certain? Uncertainty-Aware Fairness Evaluation for LLMs Yinong Oliver Wang* 1 Nivedha Sivakumar 2 Falaah Arif Khan* 3 Rin Metcalf Susa 2 Ada | Key Findings: dataset X = {xi}N i=1, an uncertainty estimator fu(x; G), we first derive the model’s certainty c by converting the uncertainty estimator. For simplic | Conclusions: Per-occupation fairness analysis. To better understand fairness composition, we break down fairness scores per occupation in Fig. 7. The x-axis labels"
 local_pdf: "[[PDFs/2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "31,756 samples"
 ---

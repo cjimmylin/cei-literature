@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: XE3T6PWS
 type: conferencePaper
 short_title: ValueBench
-year: 2024
+year: 2025
 first_author: "[[Yuanyi Ren]]"
 authors: "Yuanyi Ren; Haoran Ye; Hanjun Fang; Xin Zhang; Guojie Song"
 doi: 10.48550/arXiv.2406.04214
@@ -26,16 +23,16 @@ significance: "Applies human psychometrics to AI, allowing us to map models onto
 pdf_extract: "PDF Extracts/2024-Ren-ValueBench.md"
 abstract: "Large Language Models (LLMs) are trans- forming diverse fields and gaining increasing influence as human proxies. This develop- ment underscores the urgent need for evalu- ating value orientations and understanding of LLMs to ensure their responsible integration into public-facing applications. This work in- troduces ValueBench, the first comprehensive psychometric benchmark for evaluating value orientations and value understanding in LLMs. ValueBench collects data from 44 established psychometr"
 paper_summary: "Abstract: Large Language Models (LLMs) are trans- forming diverse fields and gaining increasing influence as human proxies. This develop- ment underscores the urgent need for evalu- ating value orientations and | Overview: ValueBench: Towards Comprehensively Evaluating Value Orientations and Understanding of Large Language Models Yuanyi Ren1, Haoran Ye1, Hanjun Fang2, Xin Zhang3, Guojie Song1,4,∗ 1National Key Laborator | Key Findings: of LLMs to settings demanding more powerful se- mantic understanding and reasoning skills. This evaluation also examines LLMs’ potential to per- form  | Conclusions: This work presents ValueBench, a comprehensive benchmark for evaluating value orientations and understanding in LLMs. ValueBench comprises hundreds of"
-local_pdf: "[[PDFs/2024-Ren-ValueBench.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2024-Ren-ValueBench.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Responsible AI"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # ValueBench: Towards Comprehensively Evaluating Value Orientations and Understanding of Large Language Models

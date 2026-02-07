@@ -20,7 +20,7 @@ key_contribution: "Explored using LLMs for 'philosophical counseling' (logic-bas
 significance: "Investigates a niche but high-stakes application: AI as a counselor for existential/philosophical issues, raising questions about 'machine empathy' and the therapeutic alliance."
 tags: 
 abstract: "Abstract Large language models (LLMs) have emerged as transformative tools with the potential to revolutionize philosophical counseling. By harnessing their advanced natural language processing and reasoning capabilities, LLMs offer innovative solutions to overcome limitations inherent in traditional counseling approaches—such as counselor scarcity, difficulties in identifying mental health issues, subjective outcome assessment, and cultural adaptation challenges. In this study, we explore cutti"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

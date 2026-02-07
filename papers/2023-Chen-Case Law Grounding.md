@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 5K3XEJ5L
 type: conferencePaper
 short_title: "Case Law Grounding"
-year: 2023
+year: 2025
 first_author: "[[Quan Ze Chen]]"
 authors: "Quan Ze Chen; Amy X. Zhang"
 doi: 10.48550/arXiv.2310.07019
@@ -25,14 +22,14 @@ pdf_extract: "PDF Extracts/2023-Chen-Case Law Grounding.md"
 abstract: "From moderating content within an online community to producing socially-appropriate generative outputs, decision-making tasks— conducted by either humans or AI—often depend on subjective or socially-established criteria. To ensure such decisions are consistent, prevailing processes primarily make use of high-level rules and guidelines to ground decisions, similar to applying “constitutions” in the legal context. However, inconsistencies in specifying and interpreting constitutional grounding ca"
 paper_summary: "Abstract: From moderating content within an online community to producing socially-appropriate generative outputs, decision-making tasks— conducted by either humans or AI—often depend on subjective or socially- | Overview: Case Law Grounding: Using Precedents to Align Decision-Making for Humans and AI Quan Ze Chen cqz@cs.washington.edu University of Washington Seattle, WA, USA Amy X. Zhang axz@cs.washington.edu Universi | Methodology: can be implemented in both human and AI decision-making con- texts, introducing both a human-led process and a large language model (LLM) prompting se | Conclusions: 5.1 Limitations of Our Implementation In this work, we explored a relatively simple implementation of case law for grounding decisions where reasoning"
 local_pdf: "[[PDFs/2023-Chen-Case Law Grounding.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "NLP & Representation Learning"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

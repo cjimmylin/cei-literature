@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,15 +21,15 @@ tags:
 pdf_extract: "PDF Extracts/2025-Catapia-Batayan.md"
 abstract: "Recent advances in large language models (LLMs) have demonstrated remarkable capabilities on widely benchmarked high-resource languages. However, linguistic nuances of under-resourced languages remain unexplored. We introduce BATAYAN, a holistic Filipino benchmark that systematically evaluates LLMs across three key natural language processing (NLP) competencies: understanding, reasoning, and generation. BATAYAN consolidates eight tasks, three of which have not existed prior for Filipino corpora,"
 paper_summary: "Abstract: Recent advances in large language models (LLMs) have demonstrated remarkable capabilities on widely benchmarked high-resource languages. However, linguistic nuances of under-resourced languages remain | Overview: arXiv:2502.14911v2 [cs.CL] 19 Jun 2025 BATAYAN: A Filipino NLP benchmark for evaluating Large Language Models Jann Railey Montalan1,2, Jimson Paulo Layacan3, David Demitri Africa4, Richell Isaiah Flor | Methodology: in adaptation to ensure the integrity of meaning. For example, one premise from Balanced COPA was, “The criminal turned himself in”, using the idiomat | Key Findings: suite2 and leaderboard3 for assessing LLMs across linguistic and reasoning tasks for Southeast Asian languages. Second, we provide extensive evaluatio | Conclusions: In this paper, we introduced BATAYAN for holistically evaluating LLMs on a gamut of Filipino language tasks covering natural language understanding, r"
-local_pdf: "[[PDFs/2025-Catapia-Batayan.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2025-Catapia-Batayan.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
 ---

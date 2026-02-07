@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: preprint
 short_title: "Safe RLHF"
-year: 2023
+year: 2025
 first_author: "[[Josef Dai]]"
 authors: "Josef Dai; Xuehai Pan; Ruiyang Sun; Jiaming Ji; Xinbo Xu; Mickel Liu; Yizhou Wang; Yaodong Yang"
 doi: 10.48550/arXiv.2310.12773
@@ -24,7 +24,7 @@ pdf_extract: "PDF Extracts/2023-Dai-Safe RLHF.md"
 abstract: "This research addresses the challenge of balancing AI system performance with safety in large language models. The authors propose Safe RLHF, an algorithm that explicitly decouples human preferences regarding helpfulness and harmlessness by training separate reward and cost models. The approach formalizes safety as a constrained optimization problem and employs the Lagrangian method to dynamically balance these competing objectives during model fine-tuning...."
 paper_summary: 
 local_pdf: "[[PDFs/2023-Dai-Safe RLHF.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: Yes

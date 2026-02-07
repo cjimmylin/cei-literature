@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: W6S5H3ZC
 type: conferencePaper
 short_title: "All That's 'Human' Is Not Gold"
-year: 2021
+year: 2025
 first_author: "[[Elizabeth Clark]]"
 authors: "Elizabeth Clark; Tal August; Sofia Serrano; Nikita Haduong; Suchin Gururangan; Noah A. Smith"
 doi: 10.48550/arXiv.2107.00061
@@ -25,14 +22,14 @@ local_pdf: "[[PDFs/2021-Clark-All That's 'Human' Is Not Gold.pdf]]"
 pdf_extract: "PDF Extracts/2021-Clark-All That's 'Human' Is Not Gold.md"
 abstract: "Human evaluations are typically considered the gold standard in natural language gener- ation, but as models’ ﬂuency improves, how well can evaluators detect and judge machine- generated text? We run a study assessing non- experts’ ability to distinguish between human- and machine-authored text (GPT2 and GPT3) in three domains (stories, news articles, and recipes). We ﬁnd that, without training, evalua- tors distinguished between GPT3- and human- authored text at random chance level. We explore"
 paper_summary: "Abstract: Human evaluations are typically considered the gold standard in natural language gener- ation, but as models’ ﬂuency improves, how well can evaluators detect and judge machine- generated text? We run  | Overview: All That’s ‘Human’ Is Not Gold: Evaluating Human Evaluation of Generated Text Elizabeth Clark1 Tal August1 Soﬁa Serrano1 Nikita Haduong1 Suchin Gururangan1 Noah A. Smith1,2 1Paul G. Allen School of Co | Key Findings: criteria is left to the discretion of the evaluator. Though other evaluations are broken down along speciﬁc dimensions of text quality (e.g., grammat- | Conclusions: Overall, none of our three training methods sig- niﬁcantly improved evaluators’ ability to detect machine-generated text reliably across text do- main"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-research_topic: "Other"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+research_topic: Other
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

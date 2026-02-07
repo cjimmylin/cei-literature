@@ -1,15 +1,11 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: U6X9LC4B
 type: journalArticle
-year: 2024
+year: 2025
 short_title: "Religious Affiliation and Conceptions of the"
 first_author: "[[Sydney Levine]]"
 authors: "Sydney Levine"
@@ -24,15 +20,15 @@ key_contribution: "Investigates how religious affiliation (Muslim, Mormon, Jewis
 significance: "Challenges the assumption of a universal boundary between 'moral' and 'conventional' domains, showing that AI alignment must account for deep disagreements about *what counts* as a moral issue across religions."
 tags: 
 abstract: "What is the relationship between religious affiliation and conceptions of the moral domain? Putting aside the question of whether people from different religions agree about how to answer moral questions, here we investigate a more fundamental question: How much disagreement is there across religions about which issues count as moral in the first place? That is, do people from different religions conceptualize the scope of morality differently? Using a new methodology to map out how individuals"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Religious Affiliation and Conceptions of the Moral Domain

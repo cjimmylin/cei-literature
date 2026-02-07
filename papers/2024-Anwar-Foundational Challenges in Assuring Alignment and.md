@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: BSSGWB3C
 type: conferencePaper
 short_title: "Foundational Challenges in Assuring Alignment and"
-year: 2024
+year: 2025
 first_author: "[[Usman Anwar]]"
 authors: "Usman Anwar; Abulhair Saparov; Javier Rando; Daniel Paleka; Miles Turpin; Peter Hase; Ekdeep Singh Lubana; Erik Jenner; Stephen Casper; Oliver Sourbut; Benjamin L. Edelman; Zhaowei Zhang; Mario Günther; Anton Korinek; Jose Hernandez-Orallo; Lewis Hammond; Eric Bigelow; Alexander Pan; Lauro Langosco; Tomasz Korbak; Heidi Zhang; Ruiqi Zhong; Seán Ó hÉigeartaigh; Gabriel Recchia; Giulio Corsi; Alan Chan; Markus Anderljung; Lilian Edwards; Aleksandar Petrov; Christian Schroeder de Witt; Sumeet Ramesh Motwan; Yoshua Bengio; Danqi Chen; Philip H. S. Torr; Samuel Albanie; Tegan Maharaj; Jakob Foerster; Florian Tramer; He He; Atoosa Kasirzadeh; Yejin Choi; David Krueger"
 doi: 10.48550/arXiv.2404.09932
@@ -27,15 +24,15 @@ pdf_extract: "PDF Extracts/2024-Anwar-Foundational Challenges in Assuring Alignm
 abstract: "This work identifies 18 foundational challenges in assuring the alignment and safety of large language models (LLMs). These challenges are organized into three different categories: scientific understanding of LLMs, development and deployment methods, and sociotechnical challenges. Based on the identified challenges, we pose 200+ concrete research questions. Corresponding author: Usman Anwar «usmananwar391@gmail.com» 1 arXiv:2404.09932v2 [cs.LG] 6 Sep 2024 --- Page 2 --- Contents 1"
 paper_summary: "Abstract: This work identifies 18 foundational challenges in assuring the alignment and safety of large language models (LLMs). These challenges are organized into three different categories: scientific underst | Overview: Published in Transactions on Machine Learning Research (09/2024) Foundational Challenges in Assuring Alignment and Safety of Large Language Models Usman Anwar1 Abulhair Saparov∗2, Javier Rando∗3, Dani | Methodology: also runs the risk of missing backup or secondary computational nodes from the identified circuits, which only becomes active when the primary computa | Key Findings: . . . . . . . . . . . . . . . . . . . . . . 55 | Conclusions: 110"
 local_pdf: "[[PDFs/2024-Anwar-Foundational Challenges in Assuring Alignment and.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Foundational Challenges in Assuring Alignment and Safety of Large Language Models

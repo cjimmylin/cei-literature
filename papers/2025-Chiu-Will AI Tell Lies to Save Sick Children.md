@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2025-Chiu-Will AI Tell Lies to Save Sick Children.md"
 abstract: "Detecting AI risks becomes more challenging as stronger models emerge and find novel methods such as Alignment Faking to circumvent these detection attempts. Inspired by how risky behaviors in humans (i.e., illegal activities that may hurt others) are sometimes guided by strongly-held values, we believe that identifying values within AI models can be an early warning system for AI’s risky behaviors. We create LITMUSVALUES, an evaluation pipeline to reveal AI models’ priorities on a range of AI v"
 paper_summary: "Abstract: Detecting AI risks becomes more challenging as stronger models emerge and find novel methods such as Alignment Faking to circumvent these detection attempts. Inspired by how risky behaviors in humans  | Overview: Will AI Tell Lies to Save Sick Children? Litmus-Testing AI Values Prioritization with AIRISKDILEMMAS Yu Ying Chiu1, Zhilin Wang2, Sharan Maiya3, Yejin Choi4, Kyle Fish7, Sydney Levine5,6, Evan Hubinge | Methodology: 2.1 Identifying Shared AI Values Figure 2: 16 Shared Value Classes drawing from Anthropic Claude’s Constitution [2] and OpenAI ModelSpec (2025-02-12)  | Key Findings: framework for automated red teaming and robust refusal. arXiv preprint arXiv:2402.04249, 2024. 12 --- Page 13 --- [32] Mantas Mazeika, Xuwang Yin, Ris | Conclusions: We present LITMUSVALUES, which contains 16 shared AI value classes that are important to AI models, inspired by AI-centric behavior guides (specifical"
 local_pdf: "[[PDFs/2025-Chiu-Will AI Tell Lies to Save Sick Children.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

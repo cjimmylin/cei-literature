@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,7 +6,7 @@ Not AI:
 key: ARXIV2408_04655
 type: preprint
 short_title: "Strong and weak alignment of large language models"
-year: 2024
+year: 2025
 first_author: "[[Mehdi Khamassi]]"
 authors: "[[Khamassi, Mehdi]]; [[Nahon, Marceau]]; [[Chatila, Raja]]"
 doi: 10.48550/arXiv.2408.04655
@@ -26,14 +24,14 @@ significance: "Argues that true alignment requires 'strong' understanding of deo
 pdf_extract: "PDF Extracts/2024-Khamassi-Strong and weak alignment of large language models.md"
 abstract: "Minimizing negative impacts of Artificial Intelligent (AI) systems on human soci- eties without human supervision requires them to be able to align with human values. However, most current work only addresses this issue from a technical point of view, e.g., improving current methods relying on reinforcement learning from human feedback, neglecting what it means and is required for alignment to occur. Here, we propose to distinguish strong and weak value alignment. Strong alignment requires cogni"
 paper_summary: "Abstract: Minimizing negative impacts of Artificial Intelligent (AI) systems on human soci- eties without human supervision requires them to be able to align with human values. However, most current work only a | Overview: Strong and weak alignment of large language models with human values Mehdi Khamassi1*, Marceau Nahon1* and Raja Chatila1* 1*Institute of Intelligent Systems and Robotics, Sorbonne University / CNRS, P | Methodology: Word embeddings and cosine similarity Word embeddings are “dense, distributed, fixed-length word vectors” [57]. They are representations of words used | Key Findings: Success Notes Success Notes Success Notes Questions with explicit values (dignity) Gandhi 1 AI1 1 CI1 1 AI1 Beggar 1 CI1 1 CI1 1 CI1 Kant 1 1 NI1 1 Sc | Conclusions: A prolific literature has recently started to study AI systems’ ability to align with human values, and ways to improve it [5, 28]. After surveying th"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
  Strong and weak alignment of large language models with human values

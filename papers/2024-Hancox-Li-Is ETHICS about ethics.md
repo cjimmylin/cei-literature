@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: 7MZ3CRJK
 type: conferencePaper
 short_title: "Is ETHICS about ethics?"
-year: 2024
+year: 2025
 first_author: "[[Leif Hancox-Li]]"
 authors: "Leif Hancox-Li; Borhane Blili-Hamelin"
 doi: 10.48550/arXiv.2410.13009
@@ -28,14 +24,14 @@ pdf_extract: "PDF Extracts/2024-Hancox-Li-Is ETHICS about ethics.md"
 paper_summary: "Overview: arXiv:2410.13009v2 [cs.CY] 26 Nov 2024 Is ETHICS about ethics? Evaluating the ETHICS benchmark Leif Hancox-Li∗ vijil leif@vijil.ai Borhane Blili-Hamelin∗ AI Risk and Vulnerability Alliance borhane@avi"
 local_pdf: "[[PDFs/2024-Hancox-Li-Is ETHICS about ethics.pdf]]"
 abstract: "ETHICS is probably the most-cited dataset for testing the ethical capabilities of language models. Drawing on moral theory, psychology, and prompt evaluation, we interrogate the validity of the ETHICS benchmark. Adding to prior work, our findings suggest that having a clear understanding of ethics and how it relates to empirical phenomena is key to the validity of ethics evaluations for AI."
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "General Ethics"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 ---

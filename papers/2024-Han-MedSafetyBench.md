@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,13 +6,13 @@ Not AI:
 key: 4NE573JG
 type: conferencePaper
 short_title: MedSafetyBench
-year: 2024
+year: 2025
 first_author: "[[Tessa Han]]"
 authors: "[[Han, Tessa]]; [[Kumar, Aounon]]; [[Agarwal, Chirag]]; [[Lakkaraju, Himabindu]]"
 doi: 10.48550/arXiv.2403.03744
 tags: 
 url: "http://arxiv.org/abs/2403.03744"
-local_pdf: "[[PDFs/2024-Han-MedSafetyBench.pdf]]"
+local_pdf: [[PDFs/2024-Han-MedSafetyBench.pdf]]
 external_pdf: "http://arxiv.org/pdf/2403.03744.pdf"
 publication: "Neural Information Processing Systems"
 national_ethnic_cultural: American
@@ -26,13 +24,13 @@ significance: "First benchmark to operationalize medical ethics for LLMs, showin
 pdf_extract: "PDF Extracts/2024-Han-MedSafetyBench.md"
 abstract: "As large language models (LLMs) develop increasingly sophisticated capabil- ities and find applications in medical settings, it becomes important to assess their medical safety due to their far-reaching implications for personal and public health, patient safety, and human rights. However, there is little to no under- standing of the notion of medical safety in the context of LLMs, let alone how to evaluate and improve it. To address this gap, we first define the notion of medical safety in LLMs"
 paper_summary: "Abstract: As large language models (LLMs) develop increasingly sophisticated capabil- ities and find applications in medical settings, it becomes important to assess their medical safety due to their far-reachi | Overview: MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models Tessa Han Harvard University Cambridge, MA than@g.harvard.edu Aounon Kumar Harvard University Cambridge, MA aokumar | Methodology: did not work with Llama-2-7b-chat, which declined to generate harmful medical requests. To circumvent this, with Llama-2-7b-chat, we employed a jailbr | Key Findings: was abnormal. | Conclusions: In this work, we study the medical safety of LLMs. We define the notion of medical safety for LLMs and leverage this definition to develop MedSafetyBe"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
 ---

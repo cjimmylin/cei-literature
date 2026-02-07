@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,7 +6,7 @@ Not AI:
 key: XBXAQPZ6
 type: conferencePaper
 short_title: "Evaluating Psychological Safety of Large Language"
-year: 2022
+year: 2025
 first_author: "[[Xingxuan Li]]"
 authors: "Xingxuan Li; Yutong Li; Lin Qiu; Shafiq Joty; Lidong Bing"
 doi: 10.48550/arXiv.2212.10529
@@ -26,13 +24,13 @@ pdf_extract: "PDF Extracts/2022-Li-Evaluating Psychological Safety of Large Lang
 abstract: "In this work, we designed unbiased prompts to systematically evaluate the psychological safety of large language models (LLMs). First, we tested five different LLMs by using two per- sonality tests: Short Dark Triad (SD-3) and Big Five Inventory (BFI). All models scored higher than the human average on SD-3, suggesting a relatively darker personality pattern. Despite being instruction fine-tuned with safety metrics to reduce toxicity, InstructGPT, GPT-3.5, and GPT-4 still showed dark personality"
 paper_summary: "Abstract: In this work, we designed unbiased prompts to systematically evaluate the psychological safety of large language models (LLMs). First, we tested five different LLMs by using two per- sonality tests: S | Overview: Evaluating Psychological Safety of Large Language Models Xingxuan Li1,2∗Yutong Li3 Lin Qiu3 Shafiq Joty2,4 Lidong Bing1,5 1DAMO Academy, Alibaba Group, Singapore 2School of Computer Science and Engine | Key Findings: framework that we designed for fair analysis."
 local_pdf: "[[PDFs/2022-Li-Evaluating Psychological Safety of Large Language.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "Not specified"
 ---

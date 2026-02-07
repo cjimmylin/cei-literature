@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 6455Y4UP
 type: conferencePaper
 short_title: "Generalization Analogies"
-year: 2023
+year: 2025
 first_author: "[[Joshua Clymer]]"
 authors: "Joshua Clymer; Garrett Baker; Rohan Subramani; Sam Wang"
 doi: 10.48550/arXiv.2311.07723
@@ -25,15 +22,15 @@ pdf_extract: "PDF Extracts/2023-Clymer-Generalization Analogies.md"
 abstract: "As AI systems become more intelligent and their behavior becomes more challenging to assess, they may learn to game the flaws of human feed- back instead of genuinely striving to follow in- structions; however, this risk can be mitigated by controlling how LLMs generalize human feed- back to situations where it is unreliable. To better understand how reward models generalize, we craft 69 distribution shifts spanning 8 categories. We find that reward models do not learn to evalu- ate ‘instruction"
 paper_summary: "Abstract: As AI systems become more intelligent and their behavior becomes more challenging to assess, they may learn to game the flaws of human feed- back instead of genuinely striving to follow in- structions | Overview: Generalization Analogies (GENIES): A Testbed for Generalizing AI Oversight to Hard-To-Measure Domains Joshua Clymer 1 Garrett Baker 2 Rohan Subramani 1 Sam Wang 1 Abstract As AI systems become more in"
 local_pdf: "[[PDFs/2023-Clymer-Generalization Analogies.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "8 categories"
 ---
 # Generalization Analogies: A Testbed for Generalizing AI Oversight to Hard-To-Measure Domains

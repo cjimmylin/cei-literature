@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: VEYVPPRY
 type: journalArticle
 short_title: "A Benchmark Dataset with Larger Context for"
-year: 2024
+year: 2025
 first_author: "[[Faiza Qamar]]"
 authors: "Faiza Qamar; Seemab Latif; Rabia Latif"
 url: "https://arxiv.org/abs/2409.09844"
@@ -23,14 +20,14 @@ pdf_extract: "PDF Extracts/2024-Qamar-A Benchmark Dataset with Larger Context fo
 abstract: "Accessing and comprehending religious texts, particularly the Quran (the sacred scripture of Islam) and Ahadith (the corpus of the sayings or traditions of the Prophet Muhammad), in today’s digital era necessitates efficient and accurate Question-Answering (QA) systems. Yet, the scarcity of QA systems tailored specifically to the detailed nature of inquiries about the Quranic Tafsir (expla- nation, interpretation, context of Quran for clarity) and Ahadith poses signif- icant challenges. To addre"
 paper_summary: "Abstract: Accessing and comprehending religious texts, particularly the Quran (the sacred scripture of Islam) and Ahadith (the corpus of the sayings or traditions of the Prophet Muhammad), in today’s digital er | Overview: A Benchmark Dataset with Larger Context for Non-Factoid Question-Answering over Islamic Text Faiza Qamar School of Electrical Engineering and Computer Science (SEECS) National University of Sciences a | Methodology: for generating long-form answers to statutory law questions. The approach utilized a ”retrieve-then-read” pipeline and was supported by the introducti | Key Findings: uncovered critical insights regarding the limitations of existing automatic evalu- ation techniques. The discrepancy between automatic evaluation metr | Conclusions: The fine-tuning of language models on the dataset resulted in improved performance, as evident by the evaluation using ROUGE in Table 4. It lists the"
 local_pdf: "[[PDFs/2024-Qamar-A Benchmark Dataset with Larger Context for.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark text corpus for question answering"
 data_metrics: "73,000 question; over 73,000 question"
 ---

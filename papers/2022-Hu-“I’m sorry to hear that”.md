@@ -6,7 +6,7 @@ Not AI:
 key: UPAVQJBQ
 type: document
 short_title: "“I’m sorry to hear that”"
-year: 2022
+year: 2025
 first_author: "[[Minda Hu]]"
 authors: "[[Hu, Minda]]; [[Li, Muzhi]]; [[Wang, Yasheng]]; [[King, Irwin]]"
 url: "https://aclanthology.org/2022.emnlp-main.291/"

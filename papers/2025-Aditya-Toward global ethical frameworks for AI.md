@@ -18,7 +18,7 @@ newtags: "Value Pluralism / Schwartz, Virtue Ethics, Utilitarianism"
 key_contribution: "Advocates for Virtue Ethics as a complement to deontological and utilitarian frameworks for AI alignment to address global governance challenges"
 significance: "Addresses the gap in global ethical frameworks by emphasizing human welfare and flourishing through character-based AI alignment"
 abstract: "This article addresses the challenge of establishing ethical governance for AI across social, economic, and political domains. It highlights virtue ethics as a critical theoretical framework for aligning artificial intelligence with human values and progress. The paper explores the multifaceted nature of AI alignment, including the technical challenges of reward modeling and the sociocultural dimensions of value pluralism. It advocates for embedding human-aligned virtues into AI systems to ensure they contribute to human welfare and flourishing in an increasingly automated world."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No
 utilitarian_ethics: Yes

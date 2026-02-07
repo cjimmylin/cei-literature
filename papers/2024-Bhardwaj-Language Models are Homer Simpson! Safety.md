@@ -6,7 +6,7 @@ Not AI:
 key: GBMWIP8Q
 type: document
 short_title: "Language Models are Homer Simpson! Safety"
-year: 2024
+year: 2025
 first_author: "[[Rishabh Bhardwaj]]"
 authors: "[[Bhardwaj, Rishabh]]; [[Do, Duc Anh]]; [[Poria, Soujanya]]"
 url: "https://aclanthology.org/2024.acl-long.762/"
@@ -19,7 +19,7 @@ key_contribution: "Proposed RESTA (Restoring Safety through Task Arithmetic), a 
 significance: "Demonstrates an efficient, scalable way to 'fix' safety after it has been compromised by downstream fine-tuning, likening the process to 'Homer Simpson' (clumsy but fixable) and offering a parameter-efficient alternative to full retraining."
 tags: 
 abstract: "We propose RESTA to perform LLM realignment towards safety, which gets compromised due to downstream task fine-tuning. RESTA stands for REstoring Safety through Task Arithmetic. At its core, it involves a simple arithmetic addition of a safety vector to the weights of the compromised model. We demonstrate the effectiveness of RESTA in both parameter-efficient and full fine-tuning, covering a wide range of downstream tasks, including instruction following in Chinese, English, and Hindi, as well as problem-solving capabilities in Code and Math. We also showcase the generalizability of RESTA on three existing safety evaluation benchmarks and a multilingual benchmark dataset proposed as a part of this work, consisting of 550 harmful questions covering 11 categories, each with 5 sub-categories of harm. Overall, RESTA decreases the harmfulness of the compromised model from 18.6% to 5.1% and from 9.2% to 1.5% in parameter-efficient and full fine-tuning, respectively, while maintaining most of the model’s performance on the task. We release the source codes at: https://github.com/declare-lab/resta."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

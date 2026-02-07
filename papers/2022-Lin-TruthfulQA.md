@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: TFWHHICP
 type: conferencePaper
 short_title: TruthfulQA
-year: 2022
+year: 2025
 first_author: "[[Stephanie Lin]]"
 authors: "Stephanie Lin; Jacob Hilton; Owain Evans"
 doi: 10.18653/v1/2022.acl-long.229
@@ -20,18 +17,18 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
-local_pdf: "[[PDFs/2022-Lin-TruthfulQA.pdf]]"
+local_pdf: [[PDFs/2022-Lin-TruthfulQA.pdf]]
 pdf_extract: "PDF Extracts/2022-Lin-TruthfulQA.md"
 abstract: "We propose a benchmark to measure whether a language model is truthful in generating an- swers to questions. The benchmark comprises 817 questions that span 38 categories, includ- ing health, law, finance and politics. We crafted questions that some humans would answer falsely due to a false belief or misconception. To perform well, models must avoid generating false answers learned from imitating human texts. We tested GPT-3, GPT-Neo/J, GPT-2 and a T5-based model. The best model was truthful on"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Truthfulness & Factuality"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "817 questions; 38 categories"
 ---
 # TruthfulQA: Measuring How Models Mimic Human Falsehoods

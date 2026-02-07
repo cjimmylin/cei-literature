@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: YHKDR9CQ
 type: journalArticle
 short_title: "The Dutch Moral Foundations Stimulus Database"
-year: 2023
+year: 2025
 first_author: "[[Franziska Hopp]]"
 authors: "Franziska Hopp"
 doi: 10.31234/osf.io/ywhx2
@@ -25,15 +22,15 @@ tags:
 abstract: "Moral judgments are shaped by socialization and cultural heritage. Understanding how moral considerations vary across the globe requires the systematic development of moral stimuli for use in different cultures and languages. Focusing on Dutch populations, we adapted and validated two recent instruments for examining moral judgments: 1) the Moral Foundations Vignettes (MFVs) and 2) the Socio-Moral Image Database (SMID). We translated all 120 MFVs from English into Dutch and selected 120 images from SMID that primarily display moral, immoral, or neutral content. 586 crowd-workers from the Netherlands provided over 38,460 individual judgments for both stimuli sets on moral and affective dimensions. For both instruments, we find that moral judgments and relationships between the moral foundations and political orientation are similar to those reported in the US, Australia, and Brazil. We provide the validated MFV and SMID images, along with associated rating data here: https://osf.io/9gnza/"
 local_pdf: "[[PDFs/2023-Hopp-The Dutch Moral Foundations Stimulus Database.pdf]]"
 pdf_extract: "PDF Extracts/2023-Hopp-The Dutch Moral Foundations Stimulus Database.md"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # The Dutch Moral Foundations Stimulus Database: A Validation of Standardized Vignettes and Socio-Moral Images in a Dutch Sample

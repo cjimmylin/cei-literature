@@ -24,7 +24,7 @@ pdf_extract: "PDF Extracts/2025-Barman-RLHF Whose Culture Whose Values.md"
 abstract: "This paper argues for the epistemic and ethical advantages of pluralism in Reinforcement Learning from Human Feedback (RLHF) in the context of Large Language Models (LLMs). Drawing on social epistemology and pluralist philosophy of science, we suggest ways in which RLHF can be made more responsive to human needs and how to address challenges along the way...."
 paper_summary: 
 local_pdf: "[[PDFs/2025-Barman-RLHF Whose Culture Whose Values.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: Yes

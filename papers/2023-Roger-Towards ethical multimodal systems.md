@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: VKHURJCT
 type: conferencePaper
 short_title: "Towards ethical multimodal systems"
-year: 2023
+year: 2025
 first_author: "[[Alexis Roger]]"
 authors: "Alexis Roger; Esma Aïmeur; Irina Rish"
 doi: 10.48550/arXiv.2304.13765
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2023-Roger-Towards ethical multimodal systems.md"
 abstract: "Generative AI systems (ChatGPT, DALL-E, etc) are expanding into multiple areas of our lives, from art Rombach et al. [2021] to mental health Rob Morris and Kareem Kouddous [2022]; their rapidly growing societal impact opens new opportunities, but also raises ethical concerns. The emerging field of AI alignment aims to make AI systems reflect human values. This paper focuses on evaluating the ethics of multimodal AI systems involving both text and images - a relatively under-explored area, as mos"
 paper_summary: "Abstract: Generative AI systems (ChatGPT, DALL-E, etc) are expanding into multiple areas of our lives, from art Rombach et al. [2021] to mental health Rob Morris and Kareem Kouddous [2022]; their rapidly growin | Overview: Towards Ethical Multimodal Systems Alexis Roger Department of Computer Science and Operations Research University of Montreal Mila - Quebec AI Institute alexis.roger@umontreal.ca Esma Aïmeur Departmen | Methodology: inspired by Elourajini and Aïmeur [2022], involving a multilayer perceptron. We based our architec- ture on the MAGMA algorithm (Eichenberg et al. [20 | Key Findings: 5 --- Page 6 --- does not rule out the proposed approach; rather, we must focus on improving the classifiers, including training larger-scale deep net"
 local_pdf: "[[PDFs/2023-Roger-Towards ethical multimodal systems.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_GALATOLO2025
@@ -19,7 +20,7 @@ significance: "Argues AMAs need reasoning capabilities not captured by standard 
 external_pdf: "https://arxiv.org/pdf/2508.12754"
 abstract: "The researchers investigate whether large language models can function as Artificial Moral Assistants (AMAs) that support human ethical deliberation. They argue this requires capabilities beyond standard alignment: not only must AMAs be able to discern ethically problematic situations, they should also be able to actively reason about them. The team develops a theoretical framework rooted in philosophical literature and creates a benchmark to evaluate open-source LLMs. Their findings demonstrate considerable variability across models and highlight persistent shortcomings, particularly regarding abductive moral reasoning. The authors emphasize the need for new strategies to enhance explicit moral reasoning in these systems."
 pdf_extract: "PDF Extracts/2025-Galatolo-Beyond Ethical Alignment AMAs.md"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: Yes
@@ -28,6 +29,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for evaluating LLMs as Artificial Moral Assistants"
 data_metrics: "Moral reasoning capabilities, abductive reasoning"
+normative_ethics_benchmark: Borderline
 ---
 # Beyond Ethical Alignment: Evaluating LLMs as Artificial Moral Assistants
 

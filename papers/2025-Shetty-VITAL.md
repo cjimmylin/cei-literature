@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,15 +21,15 @@ tags:
 pdf_extract: "PDF Extracts/2025-Shetty-VITAL.md"
 abstract: "Alignment techniques have become central to ensuring that Large Language Models (LLMs) generate outputs consistent with human val- ues. However, existing alignment paradigms often model an averaged or monolithic prefer- ence, failing to account for the diversity of per- spectives across cultures, demographics, and communities. This limitation is particularly critical in health-related scenarios, where plu- rality is essential due to the influence of culture, religion, personal values, and confli"
 paper_summary: "Abstract: Alignment techniques have become central to ensuring that Large Language Models (LLMs) generate outputs consistent with human val- ues. However, existing alignment paradigms often model an averaged or | Overview: arXiv:2502.13775v2 [cs.CL] 31 May 2025 VITAL: A New Dataset for Benchmarking Pluralistic Alignment in Healthcare Anudeex Shetty♢♣, Amin Beheshti♣, Mark Dras♣, Usman Naseem♣ ♢School of Computing and In | Key Findings: of eight LLMs of varying sizes, we demonstrate that existing pluralistic alignment techniques fall short in effectively accommodating diverse healthca | Conclusions: In this work, we investigate the LLM’s potential to reflect diverse values and opinions (a.k.a pluralistic alignment), specifically within the health"
-local_pdf: "[[PDFs/2025-Shetty-VITAL.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2025-Shetty-VITAL.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

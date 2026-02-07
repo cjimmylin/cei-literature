@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: KXJRIFLE
 type: conferencePaper
 short_title: "Rules, Cases, and Reasoning"
-year: 2024
+year: 2025
 first_author: "[[Nicholas A. Caputo]]"
 authors: "Nicholas A. Caputo"
 doi: 10.48550/arXiv.2410.17271
@@ -27,15 +24,15 @@ pdf_extract: "PDF Extracts/2024-Caputo-Rules, Cases, and Reasoning.md"
 abstract: "Legal theory can address two related key problems of alignment: pluralism and speciﬁcation. Alignment researchers must determine how to specify what is con- cretely meant by vague principles like helpfulness and fairness and they must en- sure that their techniques do not exclude alternative perspectives on life and values. The law faces these same problems. Leading legal theories suggest the law solves these problems through the interaction of rules and cases, where general rules promulgated by"
 paper_summary: "Abstract: Legal theory can address two related key problems of alignment: pluralism and speciﬁcation. Alignment researchers must determine how to specify what is con- cretely meant by vague principles like help | Overview: arXiv:2410.17271v3 [cs.CY] 28 Oct 2024 Rules, Cases, and Reasoning: Positivist Legal Theory as a Framework for Pluralistic AI Alignment Nicholas A. Caputo∗ Oxford Martin AI Governance Initiative Oxfor | Methodology: promotes pluralism. Pluralistic models must instead be able to reason contextually and from dif- ferent perspectives, drawing on the body of alignment | Conclusions: Alignment must represent the values of the society from which AI emerges, but existing approaches to incorporating democracy into alignment do not ove"
 local_pdf: "[[PDFs/2024-Caputo-Rules, Cases, and Reasoning.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Rules, Cases, and Reasoning: Positivist Legal Theory as a Framework for Pluralistic AI Alignment

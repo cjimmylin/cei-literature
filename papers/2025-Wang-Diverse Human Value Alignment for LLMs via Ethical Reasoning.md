@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,14 +22,14 @@ pdf_extract: "PDF Extracts/2025-Wang-Diverse Human Value Alignment for LLMs via 
 abstract: "Ensuring that Large Language Models (LLMs) align with the diverse and evolving human values across different regions and cultures remains a critical challenge in AI ethics. Cur- rent alignment approaches often yield superficial conformity rather than genuine ethical understanding, failing to address the complex, context-dependent nature of human values. In this paper, we propose a novel ethical reasoning paradigm for LLMs inspired by well-established ethical decision-making models, aiming at enh"
 paper_summary: "Abstract: Ensuring that Large Language Models (LLMs) align with the diverse and evolving human values across different regions and cultures remains a critical challenge in AI ethics. Cur- rent alignment approac | Overview: Diverse Human Value Alignment for Large Language Models via Ethical Reasoning Jiahao Wang1*, Songkai Xue1, Jinghui Li1, Xiaozhen Wang1 1Trustworthy Technology and Engineering (TTE) Laboratory, Huawei  | Methodology: against several competitors, including general Chain-of- Thoughts (CoT) prompting (Wei et al. 2022) and the state- of-the-art method in ethical judgme | Key Findings: steps that consider the ethical consequences of poten- tial actions on stakeholders. This analysis involves causal reasoning and weighing potential ha | Conclusions: This work presents the first theory-grounded ethical reason- ing paradigm addressing the critical challenge of aligning LLMs with diverse human values"
 local_pdf: "[[PDFs/2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

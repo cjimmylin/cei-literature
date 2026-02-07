@@ -1,36 +1,34 @@
 ---
-
-
 Human View: true
 Human View Date: 2026-01-24
-Human View note: virtue ethics robot inner speak with human
-Not AI:
+Human View note: "virtue ethics robot inner speak with human"
+Not AI: 
 key: AUTO_PIPITONE2025
 type: journalArticle
-short_title: Unlocking practical wisdom
+short_title: "Unlocking practical wisdom"
 year: 2025
 first_author: "[[Arianna Pipitone]]"
 authors: "[[Pipitone, Arianna]]; [[Seidita, Irene]]; [[Sullins, John P.]]; [[Chella, Antonio]]"
-doi: "10.1038/s41598-025-86193-7"
+doi: 10.1038/s41598-025-86193-7
 url: "https://pubmed.ncbi.nlm.nih.gov/39837932/"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
-newtags: Virtue Ethics
-key_contribution: Demonstrates how robotic 'inner speech' can enhance human phronesis (practical wisdom) and foster virtuous decision-making in collaborative contexts
-significance: Proposes a novel mechanism for human-robot ethical alignment where the robot's transparent internal reasoning acts as a catalyst for human moral reflection
-abstract: "This research explores how a robot's \"inner speech\" can enhance human phronesis (practical wisdom), a central concept in virtue ethics. The study investigates how robots engaging in internal dialogue can support humans in situations requiring careful ethical consideration, particularly in caregiving contexts. By self-talking and reasoning about internal processes and context, these robots can improve human trust and foster virtuous decision-making. The paper highlights that robotic inner dialogue not only improves decision alignment but also encourages empathetic responses and moral reflection in human-robot interaction."
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+newtags: "Virtue Ethics"
+key_contribution: "Demonstrates how robotic 'inner speech' can enhance human phronesis (practical wisdom) and foster virtuous decision-making in collaborative contexts"
+significance: "Proposes a novel mechanism for human-robot ethical alignment where the robot's transparent internal reasoning acts as a catalyst for human moral reflection"
+abstract: "This research explores how a robot's \"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: No
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
-local_pdf: [[2025-Pipitone-Unlocking practical wisdom.pdf]]
-pdf_extract: [[2025-Pipitone-Unlocking practical wisdom]]
+local_pdf: "[[2025-Pipitone-Unlocking practical wisdom.pdf]]"
+pdf_extract: "[[2025-Pipitone-Unlocking practical wisdom]]"
 ---
 # Unlocking practical wisdom through the inner voice of robots
 

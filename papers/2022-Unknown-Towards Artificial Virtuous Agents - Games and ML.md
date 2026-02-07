@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "Towards Artificial Virtuous Agents - Games and ML"
-year: 2022
+year: 2025
 first_author: [[Unknown]]
 authors: Unknown
 doi: 10.1007/s43681-022-00251-8
@@ -21,7 +21,7 @@ pdf_extract: "PDF Extracts/2022-Unknown-Towards Artificial Virtuous Agents - Gam
 abstract: "This paper proposes using role-playing games riddled with moral dilemmas to bridge the gap in engineering artificial virtuous agents. It shows how a systemic role-playing game can be designed to develop virtues within an artificial agent, using affinity-based reinforcement learning and explainable AI."
 paper_summary: 
 local_pdf: "[[PDFs/2022-Unknown-Towards Artificial Virtuous Agents - Games and ML.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No
 utilitarian_ethics: No

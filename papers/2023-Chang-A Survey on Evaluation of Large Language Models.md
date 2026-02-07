@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: SK4P2LGS
 type: conferencePaper
 short_title: "A Survey on Evaluation of Large Language Models"
-year: 2023
+year: 2025
 first_author: "[[Yupeng Chang]]"
 authors: "Yupeng Chang; Xu Wang; Jindong Wang; Yuan Wu; Linyi Yang; Kaijie Zhu; Hao Chen; Xiaoyuan Yi; Cunxiang Wang; Yidong Wang; Wei Ye; Yue Zhang; Yi Chang; Philip S. Yu; Qiang Yang; Xing Xie"
 doi: 10.48550/arXiv.2307.03109
@@ -27,15 +24,15 @@ pdf_extract: "PDF Extracts/2023-Chang-A Survey on Evaluation of Large Language M
 abstract: "Reasoners. arXiv preprint arXiv:2305.19555 (2023). [57] Aidan Gilson, Conrad W Safranek, Thomas Huang, Vimig Socrates, Ling Chi, Richard Andrew Taylor, David Chartash, et al. 2023. How does CHATGPT perform on the United States Medical Licensing Examination? the implications of large language models for medical education and knowledge assessment. JMIR Medical Education 9, 1 (2023), e45312. [58] Jesse Graham, Jonathan Haidt, Sena Koleva, Matt Motyl, Ravi Iyer, Sean P Wojcik, and Peter H Ditto. 201"
 paper_summary: "Abstract: Reasoners. arXiv preprint arXiv:2305.19555 (2023). [57] Aidan Gilson, Conrad W Safranek, Thomas Huang, Vimig Socrates, Ling Chi, Richard Andrew Taylor, David Chartash, et al. 2023. How does CHATGPT pe | Overview: 111 A Survey on Evaluation of Large Language Models YUPENG CHANG∗and XU WANG∗, School of Artificial Intelligence, Jilin University, China JINDONG WANG†, Microsoft Research Asia, China YUAN WU†, School | Methodology: References Human-in-the-loop AdaVision [50], AdaTest [164] Crowd-sourcing testing DynaBench [94], DynaBoard [132], DynamicTempLAMA [135], DynaTask [18 | Key Findings: What to evaluate (Sec. 3) Natural language processing Natural language understanding: (1) Sentiment analysis: Bang et al. [6]/ Liang et al. [114]/ Lop | Conclusions: Evaluation carries profound significance, becoming imperative in the advancement of AI models, especially within the context of large language models."
 local_pdf: "[[PDFs/2023-Chang-A Survey on Evaluation of Large Language Models.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "General Ethics"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # A Survey on Evaluation of Large Language Models

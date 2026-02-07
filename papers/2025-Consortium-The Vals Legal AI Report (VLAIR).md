@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +7,26 @@ key: SIXNG6RX
 type: document
 short_title: "The Vals Legal AI Report (VLAIR)"
 year: 2025
-first_author: "[[Consortium]]"
+first_author: [[Consortium]]
 authors: "Consortium; Vals AI &"
 url: "https://www.vals.ai/vlair"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
 newtags: 
-tags:
+tags: 
 abstract: "VLAIR (Vals Legal AI Report) is the first independent benchmarking study of legal AI tools, released in February 2025. The study evaluated legal AI tools on tasks including Document Extraction, Document Question-Answering, Document Summarization, Redlining, Transcript Analysis, Chronology Generation, EDGAR Research, and Legal Research. Results showed that in four tasks, at least one AI tool outperformed human lawyers: Data Extraction, Document Q&A, Document Summarization, and Transcript Analysis."
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "NLP & Representation Learning"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
-pdf_extract: [[2025-Consortium-The Vals Legal AI Report (VLAIR)]]
+pdf_extract: "[[2025-Consortium-The Vals Legal AI Report (VLAIR)]]"
 ---
 # The Vals Legal AI Report (VLAIR)
 

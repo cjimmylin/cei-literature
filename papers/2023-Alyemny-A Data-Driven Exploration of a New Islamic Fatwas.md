@@ -6,7 +6,7 @@ Not AI:
 key: B9AUPLYG
 type: journalArticle
 short_title: "A Data-Driven Exploration of a New Islamic Fatwas"
-year: 2023
+year: 2025
 first_author: "[[Ohoud Alyemny]]"
 authors: "Ohoud Alyemny; Hend Al-Khalifa; Abdulrahman Mirza"
 doi: 10.3390/data8100155

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,7 +19,7 @@ key_contribution: "Benchmarks 5 major LLMs against human judgments across 5 mora
 significance: "Provides empirical proof that different RLHF recipes create distinct moral 'characters', necessitating transparent categorization of model ethics"
 tags: 
 abstract: "Introduction: The rapid integration of large language models (LLMs) into sensitive domains such as healthcare, law, and public policy has intensified scrutiny of their ethical decisionmaking. Although LLMs can express structured reasoning, their capacity to mirror human moral intuitions—especially in socially and emotionally complex situations—remains uncertain. Objectives: This study assesses the alignment between ethical judgments made by five widely used LLMs (GPT-4.0, Copilot, Gemini, Perple"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: Yes
@@ -29,6 +30,7 @@ data_description: "Evaluation framework annotated dataset"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2025-Nadeem-Ethical Decision-Making in Humans and Large.md"
 local_pdf: "[[PDFs/2025-Nadeem-Ethical Decision-Making in Humans and Large.pdf]]"
+normative_ethics_benchmark: Yes
 ---
 # Ethical Decision-Making in Humans and Large Language Models: Insights from Five Moral Domains
 

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,14 +21,14 @@ significance: "Proposes 'Attuned AI' as a model for alignment that prioritizes c
 external_pdf: "https://openreview.net/pdf?id=s42bQle1CQ"
 abstract: "This paper argues for integrating **care ethics** into Large Language Model (LLM) development and alignment practices. The authors critique Reinforcement Learning from Human Feedback (RLHF) for embedding narrow normative assumptions that overlook emotional and relational aspects of human values—dimensions that **virtue ethics** and care ethics prioritize. They propose that **care ethics**, which emphasizes relationality, attention to particularities, and contextual **moral reasoning**, can address issues like bias stemming from overly generalized reasoning and provide a pathway for more context-sensitive alignment. This approach is particularly suited for applications in mental health, education, and social services where **empathy**, **compassion**, and **virtuous character** are essential."
 pdf_extract: "PDF Extracts/2025-El Masri-Towards Attuned AI.md"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: No
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Towards Attuned AI: Integrating Care Ethics in Large Language Model Development and Alignment

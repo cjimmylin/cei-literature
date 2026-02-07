@@ -6,7 +6,7 @@ Not AI:
 key: SERAFIMOVA2020HSSC
 type: journalArticle
 short_title: "Whose Morality Which Rationality"
-year: 2020
+year: 2025
 first_author: "[[Silviya Serafimova]]"
 authors: "Silviya Serafimova"
 doi: 10.1057/s41599-020-00614-8
@@ -24,7 +24,7 @@ pdf_extract: "PDF Extracts/2020-Serafimova-Whose Morality Which Rationality.md"
 abstract: "This paper examines three different prospects for moral machines: deontological, utilitarian, and virtue ethical machines. By comparing and contrasting those theories, it aims to reveal how they face similar difficulties when relating the process of computation to that of estimation. The paper examines problems with the computation of moral feelings and moral motivation faced by a Kantian machine and an act utilitarian machine."
 paper_summary: 
 local_pdf: "[[PDFs/2020-Serafimova-Whose Morality Which Rationality.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes
 utilitarian_ethics: Yes

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: E9AQ47CN
 type: conferencePaper
 short_title: "Measuring Human and AI Values Based on Generative"
-year: 2024
+year: 2025
 first_author: "[[Haoran Ye]]"
 authors: "Haoran Ye; Yuhang Xie; Yuanyi Ren; Hanjun Fang; Xin Zhang; Guojie Song"
 doi: 10.48550/arXiv.2409.12106
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2024-Ye-Measuring Human and AI Values Based on Genera
 abstract: "Human values and their measurement are long-standing interdisciplinary inquiry. Recent advances in AI have sparked renewed interest in this area, with large lan- guage models (LLMs) emerging as both tools and subjects of value measurement. This work introduces Generative Psychometrics for Values (GPV), an LLM-based, data-driven value measurement paradigm, theoretically grounded in text-revealed selective perceptions. The core idea is to dynamically parse unstructured texts into perceptions akin"
 paper_summary: "Abstract: Human values and their measurement are long-standing interdisciplinary inquiry. Recent advances in AI have sparked renewed interest in this area, with large lan- guage models (LLMs) emerging as both t | Overview: Measuring Human and AI Values Based on Generative Psychometrics with Large Language Models Haoran Ye∗,1, Yuhang Xie∗,2, Yuanyi Ren∗,1, Hanjun Fang3, Xin Zhang4, Guojie Song†,1,5 1State Key Laboratory  | Methodology: studies. Journal of personality and social psychology, 89(6):1010, 2005. [82] S. H. Schwartz, G. Melech, A. Lehmann, S. Burgess, M. Harris, and V. Owe | Key Findings: methods [43, 69, 100], which this work aims to address. 3 --- Page 4 --- 3 Generative Psychometrics for Values (GPV) | Conclusions: Relation to Self-Reports. The items organized in self-report inventories are essentially perceptions that support or oppose specific values [78]. Comp"
 local_pdf: "[[PDFs/2024-Ye-Measuring Human and AI Values Based on Generative.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 ---

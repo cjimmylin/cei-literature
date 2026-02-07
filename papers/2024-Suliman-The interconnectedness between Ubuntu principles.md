@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,7 +6,7 @@ Not AI:
 key: Z9XMJ5H7
 type: journalArticle
 short_title: "The interconnectedness between Ubuntu principles"
-year: 2024
+year: 2025
 first_author: "[[Zuleika Suliman]]"
 authors: "Zuleika Suliman; Ntshimane Elphas Mohale; Kgabo Bridget Maphoto; Kershnee Sevnarayan"
 doi: 10.1007/s44217-024-00289-2
@@ -21,7 +20,7 @@ key_contribution: "Explores the fusion of Ubuntu principles with Generative AI i
 significance: "Advocates for using AI not just as a tool but as a medium to restore self-determination and community well-being (Ubuntu) in educational systems"
 tags: 
 abstract: "The interconnectedness of African philosophical principles of Ubuntu with generative artificial intelligence may provide an inclusive approach to distance higher education. This fusion may improve and provide customised learning, access quality education, collaboration, inclusivity, strengthens lecturer support and development, and a culturally relevant experience that acknowledges the communal interests of all stakeholders. Generative artificial intelligence promotes epistemological access for"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: Yes

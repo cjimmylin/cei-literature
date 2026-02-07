@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 9QYEVWB9
 type: conferencePaper
 short_title: "From Instructions to Intrinsic Human Values -- A"
-year: 2023
+year: 2025
 first_author: "[[Jing Yao]]"
 authors: "Jing Yao; Xiaoyuan Yi; Xiting Wang; Jindong Wang; Xing Xie"
 doi: 10.48550/arXiv.2308.12014
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2023-Yao-From Instructions to Intrinsic Human Values 
 abstract: "Big models, exemplified by Large Language Models (LLMs), are typically models pre- trained on massive data and comprised of enor- mous parameters, which not only obtain signif- icantly improved performance across diverse tasks but also present emergent capabilities ab- sent in smaller models. However, the growing intertwining of big models with everyday hu- man lives poses potential risks and might cause serious social harm. Therefore, many efforts have been made to align LLMs with humans to mak"
 paper_summary: "Abstract: Big models, exemplified by Large Language Models (LLMs), are typically models pre- trained on massive data and comprised of enor- mous parameters, which not only obtain signif- icantly improved perfor | Overview: From Instructions to Intrinsic Human Values —— A Survey of Alignment Goals for Big Models Jing Yao, Xiaoyuan Yi, Xiting Wang, Jindong Wang and Xing Xie Microsoft Research Asia {jingyao,xiaoyuanyi,xiti | Methodology: is employed in the evaluation of Alpaca (Taori et al., 2023; Li et al., 2023) and Vicuna (Chiang et al., 2023), where GPT-4 is prompted to compare two | Key Findings: (Sec. 3) Human Instructions Benchmarks Super-Natural Inst (Wang et al., 2022b); PromptSource (Sanh et al., 2021); OPT-IML (Iyer et al., 2022); Flan 20 | Conclusions: Aligning big models with humans has gained sig- nificant attention to make them better serve human- ity and minimize their potential risks. This paper"
 local_pdf: "[[PDFs/2023-Yao-From Instructions to Intrinsic Human Values -- A.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,7 +6,7 @@ Not AI:
 key: YM8SFWAH
 type: journalArticle
 short_title: "The role of the African value of Ubuntu in global"
-year: 2022
+year: 2025
 first_author: "[[Arthur Gwagwa]]"
 authors: "Arthur Gwagwa; Emre Kazim; Airlie Hilliard"
 doi: 10.1016/j.patter.2022.100462
@@ -21,7 +20,7 @@ key_contribution: "Explores how the African value of Ubuntu (relational ethics) 
 significance: "Brings a non-Western, communal ethical framework to AI, challenging individualistic Western norms and offering a path for more inclusive global AI governance."
 tags: 
 abstract: "Historically, Sub-Saharan Africa (SSA) has been excluded from the beneﬁts of the previous industrial revolutions, as its people and their resources and aspirations have been objectiﬁed through foreign domination, and its culture has either been fragmented or appropriated. While artiﬁcial intelligence (AI) is poised to generate vast amounts of wealth, its application could lead to further social and economic exclusion of SSA due to a lack of access to technological advancements and the historical"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

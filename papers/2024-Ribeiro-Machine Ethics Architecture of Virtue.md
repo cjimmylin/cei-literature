@@ -1,13 +1,13 @@
 ---
 Human View: false
-Not AI:
+Not AI: 
 key: AUTO_RIBEIRO2024
 type: conferencePaper
 short_title: "Machine Ethics Architecture of Virtue"
-year: 2024
+year: 2025
 first_author: "[[B.A. Ribeiro]]"
 authors: "[[Ribeiro, B.A.]]; [[da Silva, M.B.]]"
-doi: "10.1007/978-3-031-48855-9_29"
+doi: 10.1007/978-3-031-48855-9_29
 url: "https://link.springer.com/chapter/10.1007/978-3-031-48855-9_29"
 local_pdf: "[[PDFs/2024-Ribeiro-Machine Ethics Architecture of Virtue.pdf]]"
 national_ethnic_cultural: N/A
@@ -19,13 +19,13 @@ significance: "Conference paper bridging virtue ethics theory with practical rob
 external_pdf: N/A
 abstract: "This paper presents Virtue Ethics as a better option for implementing moral behavior on robots, based on advances in robotics including neural networks, machine learning, and robots with cognitive abilities. The authors argue that virtue ethics provides a suitable framework for machine ethics given modern AI capabilities."
 pdf_extract: N/A
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: No
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: No
+is_dataset: No
 data_description: N/A
 data_metrics: N/A
 ---

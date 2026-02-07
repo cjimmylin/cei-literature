@@ -7,7 +7,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "Evaluating Computational Models of Ethics"
-year: 2024
+year: 2025
 first_author: "[[Chhabra, Jatin]]"
 authors: "Jatin Chhabra; Kartik Sama; Jay Deshmukh; et al."
 doi: 10.1007/s43681-024-00532-4
@@ -22,7 +22,7 @@ pdf_extract: "PDF Extracts/2024-Unknown-Evaluating Computational Models of Ethic
 abstract: "This paper presents SPECTRA (Strategic Protocol Evaluation and Configuration Testbed for Responsible Autonomy), a general purpose multi-agent, message-passing framework on which different models of computational ethics can be implemented, including deontology, utilitarianism, virtue ethics and computational transcendence."
 paper_summary: 
 local_pdf: 
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes
 utilitarian_ethics: Yes
@@ -32,6 +32,7 @@ is_eval: No
 is_dataset: No
 data_description: 
 data_metrics:
+normative_ethics_benchmark: Borderline
 ---
 # Evaluating Computational Models of Ethics
 

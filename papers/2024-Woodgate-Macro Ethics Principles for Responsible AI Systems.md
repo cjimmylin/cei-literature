@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: LGVXSBWF
 type: journalArticle
 short_title: "Macro Ethics Principles for Responsible AI Systems"
-year: 2024
+year: 2025
 first_author: "[[Jessica Woodgate]]"
 authors: "Jessica Woodgate; Nirav Ajmeri"
 doi: 10.1145/3672394
@@ -26,15 +23,15 @@ pdf_extract: "PDF Extracts/2024-Woodgate-Macro Ethics Principles for Responsible
 abstract: "rules that provide logical propositions denoting which actions are morally acceptable. Applying ethical principles to indicate moral acceptability helps to determine which actions are aligned with AI principles. Ethical principles are thus abstract rules which can be used to promote the instantiation of AI principles. To illustrate the distinction, we explore how the ethical principle of egalitarianism helps to implement the AI principle of fairness. Egalitarianism supports the notion that human"
 paper_summary: "Abstract: rules that provide logical propositions denoting which actions are morally acceptable. Applying ethical principles to indicate moral acceptability helps to determine which actions are aligned with AI  | Overview: Macro Ethics Principles for Responsible AI Systems: Taxonomy and Directions JESSICA WOODGATE and NIRAV AJMERI, University of Bristol, United Kingdom Responsible AI must be able to make or support deci | Methodology: Taking inspiration from software engineering research, for reproducibility we follow Kitchenham and Charters [82] guidelines on conducting a systemati | Key Findings: Type Deontology Egalitarianism Proportionalism Kantian Virtue Descriptive None [1, 14, 16, 24, 62, 66, 79, 113, 125] [16, 66, 106] [106] [1, 14, 26, 6 | Conclusions: To better address the pursuit of responsible AI, research must be human-centred [31, 41]. Shifting the perspective to the macro ethics of STS, conside"
 local_pdf: "[[PDFs/2024-Woodgate-Macro Ethics Principles for Responsible AI Systems.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Responsible AI"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Macro Ethics Principles for Responsible AI Systems: Taxonomy and Future Directions

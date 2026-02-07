@@ -22,7 +22,7 @@ key_contribution: "Proposes formal methods using deontic + temporal logic for sp
 significance: "Demonstrates practical application on COMPAS and loan prediction systems, revealing ethical failures"
 tags: 
 abstract: "The paper proposes a formal methods approach using deontic logic to specify and evaluate ethical behavior in AI systems. It introduces axioms and theorems to capture ethical requirements related to fairness and explainability with temporal operators for reasoning about AI ethics over time. The authors tested their framework on real-world systems—COMPAS and loan prediction AI—encoding ethical properties as logical formulas. Their verification process reveals that both systems fail to fulfill certain key ethical properties related to fairness and non-discrimination, demonstrating the method's effectiveness in identifying ethical issues in deployed AI applications."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: No

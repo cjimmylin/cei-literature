@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,13 +23,13 @@ significance: "Demonstrates that while LLMs can select explicit values, they str
 pdf_extract: "PDF Extracts/2025-Liu-Can LLMs Grasp Implicit Cultural Values.md"
 abstract: "Cultural Intelligence (CQ) refers to the ability to understand unfamiliar cultural contexts—a crucial skill for large language models (LLMs) to effectively engage with globally diverse users. Existing studies often focus on explicitly stated cultural norms, but fail to capture the subtle, implicit values that are common in daily conversation. To address this gap, we introduce CQ-Bench, a benchmark specifically designed to assess LLMs’ capability to infer implicit cul- tural values from natural c"
 paper_summary: "Abstract: Cultural Intelligence (CQ) refers to the ability to understand unfamiliar cultural contexts—a crucial skill for large language models (LLMs) to effectively engage with globally diverse users. Existing | Overview: Can LLMs Grasp Implicit Cultural Values? Benchmarking LLMs’ Cultural Intelligence with CQ-Bench Ziyi Liu1 Priyanka Dey1 Jen-tse Huang3 Zhenyu Zhao1 Bowen Jiang4 Rahul Gupta2 Yang Liu2 Yao Du1 Jieyu Zh | Methodology: for extracting social norms from conversations, em- phasizing norm mining rather than cultural value identification. In contrast, our work focuses on  | Key Findings: We construct three escalating tasks—attitude detection, value selection, and value extraction—to systemati- cally evaluate open-sourced and close-sour | Conclusions: We introduce CQ-Bench, a benchmark for evaluat- ing LLMs’ ability to infer implicit cultural values in conversations. CQ-Bench assesses model’s cul- t"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: No
+utilitarian_ethics: No
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning text corpus for conversational ai"
 data_metrics: "Not specified"
 ---

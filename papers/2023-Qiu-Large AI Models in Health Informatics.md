@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: XKDK2QQB
 type: journalArticle
 short_title: "Large AI Models in Health Informatics"
-year: 2023
+year: 2025
 first_author: "[[Jianing Qiu]]"
 authors: "Jianing Qiu; Lin Li; Jiankai Sun; Jiachuan Peng; Peilun Shi; Ruiyang Zhang; Yinzhao Dong; Kyle Lam; Frank P. -W. Lo; Bo Xiao; Wu Yuan; Ningli Wang; Dong Xu; Benny Lo"
 doi: 10.1109/JBHI.2023.3316750
@@ -24,15 +21,15 @@ pdf_extract: "PDF Extracts/2023-Qiu-Large AI Models in Health Informatics.md"
 paper_summary: "Overview: arXiv:2303.11568v2 [cs.AI] 24 Sep 2023 1 Large AI Models in Health Informatics: Applications, Challenges, and the Future Jianing Qiu, Lin Li, Jiankai Sun, Jiachuan Peng, Peilun Shi, Ruiyang Zhang, Yin"
 local_pdf: "[[PDFs/2023-Qiu-Large AI Models in Health Informatics.pdf]]"
 abstract: "Large AI models, or foundation models, are models recently emerging with massive scales both parameter-wise and data-wise, the magnitudes of which can reach beyond billions. Once pretrained, large AI models demonstrate impressive performance in various downstream tasks. A prime example is ChatGPT, whose capability has compelled people's imagination about the far-reaching influence that large AI models can have and their potential to transform different domains of our lives. In health informatics"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Machine Learning"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Large AI Models in Health Informatics: Applications, Challenges, and the Future

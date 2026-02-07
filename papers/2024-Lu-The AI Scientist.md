@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: R3D4BBTX
 type: conferencePaper
 short_title: "The AI Scientist"
-year: 2024
+year: 2025
 first_author: "[[Chris Lu]]"
 authors: "Chris Lu; Cong Lu; Robert Tjarko Lange; Jakob Foerster; Jeff Clune; David Ha"
 doi: 10.48550/ARXIV.2408.06292
@@ -25,14 +22,14 @@ pdf_extract: "PDF Extracts/2024-Lu-The AI Scientist.md"
 paper_summary: "Overview: 2024-9-4 The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery Chris Lu1,2,*, Cong Lu3,4,*, Robert Tjarko Lange1,*, Jakob Foerster2,, Jeff Clune3,4,5, and David Ha1, *Equal Cont | Methodology: for low-dimensional diffusion models, aiming to balance global structure and local details in generated samples. The novel architecture incorporates t | Conclusions: In this paper, we introduced The AI Scientist, the first framework designed to fully automate the scientific discovery process, and, as a first demons"
 local_pdf: "[[PDFs/2024-Lu-The AI Scientist.pdf]]"
 abstract: "One of the grand challenges of artificial general intelligence is developing agents capable of conducting scientific research and discovering new knowledge. While frontier models have already been used as aides to human scientists, e.g. for brainstorming ideas, writing code, or prediction tasks, they still conduct only a small part of the scientific process. This paper presents the first comprehensive framework for fully automatic scientific discovery, enabling frontier large language models to"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Machine Learning"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

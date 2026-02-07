@@ -6,7 +6,7 @@ Not AI:
 key: KRRH92SR
 type: conferencePaper
 short_title: "Multi-label Hate Speech and Abusive Language"
-year: 2019
+year: 2025
 first_author: "[[Muhammad Okky Ibrohim]]"
 authors: "Muhammad Okky Ibrohim; Indra Budi"
 doi: 10.18653/v1/W19-3506
@@ -20,7 +20,7 @@ key_contribution: "Developed a multi-label classification framework for hate spe
 significance: "Addresses the lack of safety resources for low-resource languages (Indonesian), enabling more nuanced content moderation that distinguishes between different types and severities of hate."
 tags: 
 abstract: "Hate speech and abusive language spreading on social media need to be detected automatically to avoid conﬂicts between citizens. Moreover, hate speech has a target, category, and level that also need to be detected to help the authority in prioritizing which hate speech must be addressed immediately. This research discusses multi-label text classiﬁcation for abusive language and hate speech detection including detecting the target, category, and level of hate speech in Indonesian Twitter using m"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

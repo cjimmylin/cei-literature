@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_CONSTANTINESCU2022
 type: journalArticle
 short_title: "Can Robotic AI Be Virtuous"
-year: 2022
+year: 2025
 first_author: "[[Mihaela Constantinescu]]"
 authors: "[[Constantinescu, Mihaela]]; [[Crisp, Roger]]"
 doi: 10.1007/s12369-022-00887-w
@@ -19,7 +19,7 @@ significance: "Influential Oxford-based analysis of virtue ethics limitations fo
 external_pdf: N/A
 abstract: "This article addresses ethical concerns for Human-Robot Interaction in the context of growing use of social robots. It raises a virtue-ethics-based concern regarding deployment of social robots relying on deep learning AI and asks whether they may be endowed with ethical virtue. The authors argue that AI systems cannot genuinely be virtuous but can only behave in a virtuous way. This conclusion is based on the Aristotelian understanding that virtue requires performing the right actions, with the right feelings, and in the right way - and they conclude AI is unable to satisfy any of these requirements."
 pdf_extract: "PDF Extracts/2022-Constantinescu-Can Robotic AI Be Virtuous.md"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No
 utilitarian_ethics: No

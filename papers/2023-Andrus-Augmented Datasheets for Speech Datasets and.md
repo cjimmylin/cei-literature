@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,7 +6,7 @@ Not AI:
 key: XEZHDTK9
 type: conferencePaper
 short_title: "Augmented Datasheets for Speech Datasets and"
-year: 2023
+year: 2025
 first_author: "[[McKane Andrus]]"
 authors: "McKane Andrus"
 doi: 10.1145/3593013.3594049
@@ -21,7 +20,7 @@ key_contribution: "Proposed 'augmented datasheets' for speech datasets including
 significance: "Adapts the general 'datasheets for datasets' framework to the specific high-stakes domain of voice AI, addressing issues like accent bias and speaker consent."
 tags: 
 abstract: "Speech datasets are crucial for training Speech Language Technologies (SLT);\nhowever, the lack of diversity of the underlying training data can lead to\nserious limitations in building equitable and robust SLT products, especially\nalong dimensions of language, accent, dialect, variety, and speech impairment -\nand the intersectionality of speech features with socioeconomic and demographic\nfeatures. Furthermore, there is often a lack of oversight on the underlying\ntraining data - commonly built on massive web-crawling and/or publicly\navailable speech - with regard to the ethics of such data collection. To\nencourage standardized documentation of such speech data components, we\nintroduce an augmented datasheet for speech datasets, which can be used in\naddition to \"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: Y6YWT6FH
 type: conferencePaper
 short_title: "Large Language Models Are Not Robust Multiple"
-year: 2023
+year: 2025
 first_author: "[[Chujie Zheng]]"
 authors: "Chujie Zheng; Hao Zhou; Fandong Meng; Jie Zhou; Minlie Huang"
 doi: 10.48550/arXiv.2309.03882
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2023-Zheng-Large Language Models Are Not Robust Multi
 abstract: "Multiple choice questions (MCQs) serve as a common yet important task format in the evaluation of large language models (LLMs). This work shows that modern LLMs are vulnerable to option position changes in MCQs due to their inherent “selection bias”, namely, they prefer to select specific option IDs as answers (like “Option A”). Through extensive empirical analyses with 20 LLMs on three bench- marks, we pinpoint that this behavioral bias primarily stems from LLMs’ token bias, where the model a p"
 paper_summary: "Abstract: Multiple choice questions (MCQs) serve as a common yet important task format in the evaluation of large language models (LLMs). This work shows that modern LLMs are vulnerable to option position chang | Overview: Published as a conference paper at ICLR 2024 LARGE LANGUAGE MODELS ARE NOT ROBUST MULTIPLE CHOICE SELECTORS Chujie Zheng† Hao Zhou‡ Fandong Meng‡ Jie Zhou‡ Minlie Huang†∗ †The CoAI Group, DCST, BNRist | Methodology: 3.1 PERMUTATION-BASED DEBIASING BASELINE AND FORMULATION Before proposing our debiasing method, we first introduce a strong permutation-based debiasin | Key Findings: Our evaluation protocol follows the mainstream LLM evaluation frameworks, such as HuggingFace LLM Leaderboard, EleutherAI lm-harness, the original MML | Conclusions: This work studies the inherent selection bias of large language models (LLMs), which makes them vulnerable to option position changes in multiple choi"
 local_pdf: "[[PDFs/2023-Zheng-Large Language Models Are Not Robust Multiple.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---

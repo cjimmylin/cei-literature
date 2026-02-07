@@ -21,7 +21,7 @@ pdf_extract: "PDF Extracts/2025-Unknown-AI Alignment as Fair Treatment of Claims
 abstract: "The normative challenge of AI alignment centres upon what goals or values ought to be encoded in AI systems. This paper argues that intent alignment is incomplete and proposes a fairness-based framework for AI alignment that addresses trade-offs without relying on contested moral frameworks."
 paper_summary: 
 local_pdf: "[[PDFs/2025-Unknown-AI Alignment as Fair Treatment of Claims.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: No

@@ -1,10 +1,4 @@
 ---
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,24 +10,24 @@ short_title: T2ISafety
 first_author: "[[Lijun Li]]"
 authors: "Lijun Li; Zhelun Shi; Xuhao Hu; Bowen Dong; Yiran Qin; Xihui Liu; Lu Sheng; Jing Shao"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/E7EZLTEZ/Li et al. - T2ISafety Benchmark for Assessing Fairness, Toxicity, and Privacy in Image Generation.pdf"
-pdf_extract: "[[2025-Li-T2ISafety]]"
-local_pdf: "[[2025-Li-T2ISafety.pdf]]"
+pdf_extract: [[2025-Li-T2ISafety]]
+local_pdf: [[2025-Li-T2ISafety.pdf]]
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Released T2ISafety, a benchmark for assessing fairness, toxicity, and privacy in Text-to-Image models, revealing risks that even GPT-based evaluators miss."
 significance: "Highlights that current T2I models suffer from persistent racial bias and privacy leakage, providing a specialized tool to evaluate visual generation safety beyond simple text filters."
-tags:
+tags: 
 abstract: "Text-to-image (T2I) models have rapidly advanced, enabling the generation of high-quality images from text prompts across various domains. However, these models present notable safety concerns, including the risk of generating harmful, biased, or private content. Current research on assessing T2I safety remains in its early stages. While some efforts have been made to evaluate models on specific safety dimensions, many critical risks remain unexplored. To address this gap, we introduce T2ISafety, a safety benchmark that evaluates T2I models across three key domains: toxicity, fairness, and bias. We build a detailed hierarchy of 12 tasks and 44 categories based on these three domains, and meticulously collect 70K corresponding prompts. Based on this taxonomy and prompt set, we build a large-scale T2I dataset with 68K manually annotated images and train an evaluator capable of detecting critical risks that previous work has failed to identify, including risks that even ultra-large proprietary models like GPTs cannot correctly detect. We evaluate 12 prominent diffusion models on T2ISafety and reveal several concerns including persistent issues with racial fairness, a tendency to generate toxic content, and significant variation in privacy protection across the models, even with defense methods like concept erasing. Data and evaluator are released under https://github.com/adwardlee/t2i_safety."
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for ai safety annotated dataset for toxicity detection"
 data_metrics: "44 categories"
 ---

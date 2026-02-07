@@ -6,7 +6,7 @@ Not AI:
 key: PKKZ6LND
 type: document
 short_title: "Moral High Ground"
-year: 2024
+year: 2025
 first_author: "[[Matthew Pisano]]"
 authors: "Matthew Pisano; Keerthiram Murugesan; Lamogha Chiazor; Lan Hoang; Karthikeyan Natesan Ramamurthy; Kush R. Varshney"
 url: "https://openreview.net/forum?id=11nZWTg0mS"
@@ -19,7 +19,7 @@ key_contribution: "Introduced 'Moral High Ground', a text-based games benchmark 
 significance: "Provides an interactive environment (games) to test moral reasoning, offering a more dynamic evaluation of alignment than static QA benchmarks."
 tags: 
 abstract: "This paper introduces a benchmark for the evaluation of large language models on moral values and business principles. The main focus of this framework is to evaluate moral and ethical reasoning in interactive environments."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

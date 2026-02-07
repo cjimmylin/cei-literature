@@ -6,7 +6,7 @@ Not AI:
 key: BWGTAQ8H
 type: conferencePaper
 short_title: "How Do Moral Emotions Shape Political"
-year: 2024
+year: 2025
 first_author: "[[Jaehong Kim]]"
 authors: "Jaehong Kim; Chaeyoon Jeong; Seongchan Park; Meeyoung Cha; Wonjae Lee"
 doi: 10.18653/v1/2024.findings-acl.963
@@ -20,7 +20,7 @@ key_contribution: "Analyzed cross-cultural online petitions to see how 'moral em
 significance: "Shows that emotional drivers of political action are culture-specific (e.g., 'other-praising' works differently in Korea vs UK), meaning AI that generates/analyzes political content needs cultural emotional intelligence."
 tags: 
 abstract: "Understanding the interplay between emotions in language and user behaviors is critical. We study how moral emotions shape the political participation of users based on cross-cultural online petition data. To quantify moral emotions, we employ a context-aware NLP model that is designed to capture the subtle nuances of emotions across cultures. For model training, we construct and share a moral emotion dataset comprising nearly 50,000 petition sentences in Korean and English each, along with emot"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

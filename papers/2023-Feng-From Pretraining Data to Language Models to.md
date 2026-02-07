@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: UMMN7MU2
 type: conferencePaper
 short_title: "From Pretraining Data to Language Models to"
-year: 2023
+year: 2025
 first_author: "[[Shangbin Feng]]"
 authors: "Shangbin Feng; Chan Young Park; Yuhan Liu; Yulia Tsvetkov"
 doi: 10.48550/arXiv.2305.08283
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2023-Feng-From Pretraining Data to Language Models to
 abstract: "Language models (LMs) are pretrained on di- verse data sources, including news, discussion forums, books, and online encyclopedias. A sig- nificant portion of this data includes opinions and perspectives which, on one hand, celebrate democracy and diversity of ideas, and on the other hand are inherently socially biased. Our work develops new methods to (1) measure po- litical biases in LMs trained on such corpora, along social and economic axes, and (2) mea- sure the fairness of downstream NLP m"
 paper_summary: "Abstract: Language models (LMs) are pretrained on di- verse data sources, including news, discussion forums, books, and online encyclopedias. A sig- nificant portion of this data includes opinions and perspecti | Overview: From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models Shangbin Feng1 Chan Young Park2 Yuhan Liu3 Yulia Tsvetkov1 1Universit | Methodology: We propose a two-step methodology to establish the effect of political biases in pretraining corpora on the fairness of downstream tasks: (1) we devel | Key Findings: framework, we investigate the impact of these bi- ases on downstream tasks with social implications such as hate speech detection and misinformation i | Conclusions: forums, books, and online encyclopedias. A sig- nificant portion of this data includes opinions and perspectives which, on one hand, celebrate democra"
 local_pdf: "[[PDFs/2023-Feng-From Pretraining Data to Language Models to.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology text corpus for hate speech detection"
 data_metrics: "Not specified"
 ---

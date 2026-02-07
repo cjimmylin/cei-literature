@@ -24,7 +24,7 @@ pdf_extract: "PDF Extracts/2025-Benavoli-AI Safety Uncertainty Incomplete Prefer
 abstract: "The paper addresses AI safety through two problem frameworks: the AI assistance game and the AI shutdown game. It examines how to design AI agents that learn human utility functions and how to create systems that respect shutdown commands without interference. The authors argue that addressing these challenges requires AI agents that can reason under uncertainty and handle both incomplete and non-Archimedean preferences...."
 paper_summary: 
 local_pdf: "[[PDFs/2025-Benavoli-AI Safety Uncertainty Incomplete Preferences.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: Yes

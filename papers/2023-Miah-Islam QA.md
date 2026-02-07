@@ -6,7 +6,7 @@ Not AI:
 key: A3BRN3YJ
 type: document
 short_title: "Islam QA"
-year: 2023
+year: 2025
 first_author: "[[M. Miah]]"
 authors: "M. Miah"
 url: "https://www.kaggle.com/datasets/mamun18/islam-qa-dataset"

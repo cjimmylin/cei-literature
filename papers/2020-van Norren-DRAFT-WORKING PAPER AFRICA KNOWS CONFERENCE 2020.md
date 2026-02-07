@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: 9WY3JY6S
 type: journalArticle
-year: 2020
+year: 2025
 short_title: "DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020"
 first_author: "[[Dorine van Norren]]"
 authors: "Dorine van Norren"
@@ -18,7 +18,7 @@ key_contribution: "Working paper discussing the exclusion of African ethical fra
 significance: "Critiques the Western-centric dominance in AI ethics, advocating for the inclusion of African 'relational ethics' which prioritize community and interconnectedness over individual autonomy."
 tags: 
 abstract: "UNESCO recently published a report on the ethics of Artificial Intelligence (AI). Its member states have commissioned a recommendation to be written on the ethics of AI, to be adopted in November 2021 during the UNESCO General Conference. The consultations are ongoing, and were preceded by the report of the UNESCO World Commission on the ethics of scientific knowledge and technology (COMEST) on AI and ethics."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

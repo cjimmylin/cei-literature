@@ -1,13 +1,11 @@
 ---
-
-
 Human View: true
 Human View Date: 2026-01-24
-Human View note: UX Virtue ethics, catholic social teaching
-Not AI:
+Human View note: "UX Virtue ethics, catholic social teaching"
+Not AI: 
 key: B2UYZWYZ
 type: conferencePaper
-short_title: Design Patterns for the Common Good
+short_title: "Design Patterns for the Common Good"
 year: 2025
 first_author: "[[Louisa Conwill]]"
 authors: "[[Conwill, Louisa]]; [[Levis, Megan K.]]; [[Badillo-Urquiola, Karla]]; [[Scheirer, Walter J.]]"
@@ -17,21 +15,21 @@ local_pdf: "[[PDFs/2025-Conwill-Design Patterns for the Common Good.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2501.10288.pdf"
 national_ethnic_cultural: N/A
 religious_values: Christianity
-moral_psychology: Value Pluralism / Schwartz
-newtags: Christianity, Value Pluralism / Schwartz, Virtue Ethics
-key_contribution: Identifies seven UX design patterns for social media that embody the virtues of Catholic Social Teaching to support the common good
-significance: Moves virtue ethics from theory to practice by providing concrete design patterns that technologists can instantiate to foster specific virtues like solidarity and subsidiarity
+moral_psychology: "Value Pluralism / Schwartz"
+newtags: "Christianity, Value Pluralism / Schwartz, Virtue Ethics"
+key_contribution: "Identifies seven UX design patterns for social media that embody the virtues of Catholic Social Teaching to support the common good"
+significance: "Moves virtue ethics from theory to practice by providing concrete design patterns that technologists can instantiate to foster specific virtues like solidarity and subsidiarity"
 pdf_extract: "PDF Extracts/2025-Conwill-Design Patterns for the Common Good.md"
-tags:
+tags: 
 abstract: "Virtue ethics is a philosophical tradition that emphasizes the cultivation of virtues in achieving the common good. It has been suggested to be an effective framework for envisioning more ethical technology, yet previous work on virtue ethics and technology design has remained at theoretical recommendations. We propose an approach for identifying user experience design patterns that embody particular virtues to more concretely articulate virtuous technology designs. As a proof of concept, we documented seven design patterns for social media that uphold the virtues of Catholic Social Teaching. We interviewed 24 technology researchers and industry practitioners to evaluate these patterns, finding that overall the patterns enact the virtues they were identified to embody."
 paper_summary: "Proposes an approach for identifying UX design patterns that embody virtues from Catholic Social Teaching. Documents seven social media design patterns that uphold virtues like solidarity and subsidiarity. Evaluation with 24 practitioners found the patterns effectively enact their intended virtues."
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: No
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

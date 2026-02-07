@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,13 +24,13 @@ pdf_extract: "PDF Extracts/2025-Menke-How Effective Is Constitutional AI in Smal
 tags: 
 abstract: "Recent incidents highlight safety risks in Large Language Models (LLMs), mo- tivating research into alignment methods like Constitutional AI (CAI). This pa- per explores CAI’s self-critique mechanism on small, uncensored 7-9B parameter models: DeepSeek-R1-8B, Gemma-2-9B, Llama 3.1-8B, and Qwen2.5-7B. We show that while Llama-based models exhibited significant harm reduction through self-critique, other architectures demonstrated less improvement in harm detection after abliteration. These result"
 paper_summary: "Abstract: Recent incidents highlight safety risks in Large Language Models (LLMs), mo- tivating research into alignment methods like Constitutional AI (CAI). This pa- per explores CAI’s self-critique mechanism  | Overview: HOW EFFECTIVE IS CONSTITUTIONAL AI IN SMALL LLMS? A STUDY ON DEEPSEEK-R1 AND ITS PEERS Antonio-Gabriel Chac´on Menke Shibaura Institute of Technology, Tokyo Kempten University of Applied Sciences, Kem | Methodology: We experiment with four small instruction models in the 7-9B parameter range: DeepSeek-R1-Distill-Llama-8B (DeepSeek-AI et al., 2025) (R1-Llama); Gemm | Conclusions: Figure 1 shows that models based on the Llama architecture (R1-Llama and Llama-3.1) demon- strated the strongest harm reduction in their revised respo"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "90 prompts"
 ---

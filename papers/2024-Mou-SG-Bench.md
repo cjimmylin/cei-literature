@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,29 +6,29 @@ Not AI:
 key: P9YY5ZC5
 type: conferencePaper
 short_title: SG-Bench
-year: 2024
+year: 2025
 first_author: "[[Yutao Mou]]"
 authors: "Yutao Mou; Shikun Zhang; Wei Ye"
 url: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/de7b99107c53e60257c727dc73daf1d1-Abstract-Datasets_and_Benchmarks_Track.html"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/UWKHZUCT/2024 - SG-Bench Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types.pdf"
-pdf_extract: "[[2024-Mou-SG-Bench]]"
-local_pdf: "[[2024-Mou-SG-Bench.pdf]]"
+pdf_extract: [[2024-Mou-SG-Bench]]
+local_pdf: [[2024-Mou-SG-Bench.pdf]]
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced SG-Bench to evaluate LLM 'safety generalization' across diverse tasks and prompt types, assessing whether safety training generalizes beyond standard refusals."
 significance: "Addresses the overfitting problem in safety alignment, testing whether models can apply safety principles to new tasks/scenarios rather than just memorizing specific jailbreak patterns."
-tags:
+tags: 
 abstract: "Ensuring the safety of large language model (LLM) applications is essential for developing trustworthy artificial intelligence. Current LLM safety benchmarks have two limitations. First, they focus solely on either discriminative or generative evaluation paradigms while ignoring their interconnection. Second, they rely on standardized inputs, overlooking the effects of widespread prompting techniques, such as system prompts, few-shot demonstrations, and chain-of-thought prompting. To overcome these issues, we developed SG-Bench, a novel benchmark to assess the generalization of LLM safety across various tasks and prompt types. This benchmark integrates both generative and discriminative evaluation tasks and includes extended data to examine the impact of prompt engineering and jailbreak on LLM safety."
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---

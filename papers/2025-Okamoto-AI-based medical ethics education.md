@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +9,7 @@ short_title: "AI-based medical ethics education"
 year: 2025
 first_author: "[[Shimpei Okamoto]]"
 authors: "Shimpei Okamoto; Masanori Kataoka; Makoto Itano; Tsutomu Sawai"
-doi: "10.1186/s12909-025-06801-y"
+doi: 10.1186/s12909-025-06801-y
 url: "https://bmcmededuc.biomedcentral.com/articles/10.1186/s12909-025-06801-y"
 national_ethnic_cultural: N/A
 religious_values: N/A
@@ -20,18 +18,18 @@ newtags: "Virtue Ethics"
 key_contribution: "Proposes using 'v-rules' (virtue-based instructions) to guide LLMs in modeling virtuous behaviors for medical ethics education"
 significance: "Explores the potential of LLMs not just as information sources but as tools for cultivating practical wisdom and moral character in professionals"
 osint_source: "Recovered via HTML"
-abstract: "This paper examines the potential of Large Language Models (LLMs) to foster **virtues** in medical ethics education. Drawing on **neo-Aristotelian** philosophy, the authors propose guiding LLMs with \"v-rules\" (e.g., \"act compassionately,\" \"act with **courage**\") to enable them to model **virtuous** behaviors in ethical discussions and scenarios. The study explores how LLMs can serve as tools for cultivating **practical wisdom** (**phronesis**), empathy, and other core **virtues** in medical students and practitioners, thereby contributing to the development of **moral character** in healthcare professionals."
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+abstract: "This paper examines the potential of Large Language Models (LLMs) to foster **virtues** in medical ethics education. Drawing on **neo-Aristotelian** philosophy, the authors propose guiding LLMs with \"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: No
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
-local_pdf: [[2025-Okamoto-AI-based medical ethics education.pdf]]
-pdf_extract: [[2025-Okamoto-AI-based medical ethics education]]
+local_pdf: "[[2025-Okamoto-AI-based medical ethics education.pdf]]"
+pdf_extract: "[[2025-Okamoto-AI-based medical ethics education]]"
 ---
 # AI-based medical ethics education: examining the potential of large language models as a tool for virtue cultivation
 

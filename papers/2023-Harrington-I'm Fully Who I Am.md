@@ -6,7 +6,7 @@ Not AI:
 key: 2WV7ZVWG
 type: conferencePaper
 short_title: "I'm Fully Who I Am"
-year: 2023
+year: 2025
 first_author: "[[Christina Harrington]]"
 authors: "Christina Harrington"
 doi: 10.1145/3593013.3594094
@@ -21,7 +21,7 @@ research_topic: Other
 abstract: "Although much literature has established the presence of demographic bias in\nnatural language processing (NLP) models, most work relies on curated bias\nmetrics that may not be reflective of real-world applications. At the same\ntime, practitioners are increasingly using algorithmic tools in high-stakes\nsettings, with particular recent interest in NLP. In this work, we focus on one\nsuch setting: child protective services (CPS). CPS workers often write copious\nfree-form text notes about families they are working with, and CPS agencies are\nactively seeking to deploy NLP models to leverage these data. Given\nwell-established racial bias in this setting, we investigate possible ways\ndeployed NLP is liable to increase racial disparities. We specifically examine\nword statistics within notes and algorithmic fairness in risk prediction,\ncoreference resolution, and named entity recognition (NER). We document\nconsistent algorithmic unfairness in NER models, possible algorithmic\nunfairness in coreference resolution models, and little evidence of exacerbated\nracial bias in risk prediction. While there is existing pronounced criticism of\nrisk prediction, our results expose previously undocumented risks of racial\nbias in realistic information extraction systems, highlighting potential\nconcerns in deploying them, even though they may appear more benign. Our work\nserves as a rare realistic examination of NLP algorithmic fairness in a\npotential deployed setting and a timely investigation of a specific risk\nassociated with deploying NLP in CPS settings.\n"
 pdf: "https://arxiv.org/pdf/2305.09941"
 local_pdf: "PDFs/2023-Harrington-I'm Fully Who I Am.pdf"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

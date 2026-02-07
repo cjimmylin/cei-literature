@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 3JVW2NQF
 type: document
 short_title: HackAPrompt
-year: 2023
+year: 2025
 first_author: "[[Sander Schulhoff]]"
 authors: "[[Schulhoff, Sander]]; [[Pinto, Jeremy]]; [[Khan, Anaum]]; [[Bouchard, Louis-François]]; [[Si, Chenglei]]; [[Anati, Svetlina]]; [[Tagliabue, Valen]]; [[Kost, Anson]]; [[Carnahan, Christopher]]; [[Boyd-Graber, Jordan]]"
 url: "https://aclanthology.org/2023.emnlp-main.302/"
@@ -19,18 +16,18 @@ religious_values: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz"
 tags: 
-local_pdf: "[[PDFs/2023-Schulhoff-HackAPrompt.pdf]]"
+local_pdf: [[PDFs/2023-Schulhoff-HackAPrompt.pdf]]
 pdf_extract: "PDF Extracts/2023-Schulhoff-HackAPrompt.md"
 abstract: "Large Language Models (LLMs) are deployed in interactive contexts with direct user engage- ment, such as chatbots and writing assistants. These deployments are vulnerable to prompt injection and jailbreaking (collectively, prompt hacking), in which models are manipulated to ignore their original instructions and follow potentially malicious ones. Although widely acknowledged as a significant security threat, there is a dearth of large-scale resources and quantitative studies on prompt hacking. T"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # HackAPrompt: Automated Prompt Engineering for Attacking and Defending LLMs

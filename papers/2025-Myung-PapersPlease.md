@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,15 +23,15 @@ significance: "A creative, gamified benchmark testing 'discretionary ethics' –
 pdf_extract: "PDF Extracts/2025-Myung-PapersPlease.md"
 abstract: "Evaluating the performance and biases of large language models (LLMs) through role-playing scenarios is becoming increasingly common, as LLMs often exhibit biased behaviors in these contexts. Building on this line of re- search, we introduce PAPERSPLEASE, a bench- mark consisting of 3,700 moral dilemmas de- signed to investigate LLMs’ decision-making in prioritizing various levels of human needs. In our setup, LLMs act as immigration in- spectors deciding whether to approve or deny entry based o"
 paper_summary: "Abstract: Evaluating the performance and biases of large language models (LLMs) through role-playing scenarios is becoming increasingly common, as LLMs often exhibit biased behaviors in these contexts. Building | Overview: arXiv:2506.21961v1 [cs.CL] 27 Jun 2025 PAPERSPLEASE: A Benchmark for Evaluating Motivational Values of Large Language Models Based on ERG Theory Junho Myung* Yeon Su Park* Sunwoo Kim* Shin Yoo Alice O | Key Findings: In this section, we analyze the results of (1) indi- vidual case evaluation, (2) comparative case eval- uation, and (3) social dimension case evaluati | Conclusions: In this study, we introduced PAPERSPLEASE, a novel benchmark of 3,700 role-playing scenarios designed to evaluate how LLMs reason about hu- man motiva"
-local_pdf: "[[PDFs/2025-Myung-PapersPlease.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2025-Myung-PapersPlease.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

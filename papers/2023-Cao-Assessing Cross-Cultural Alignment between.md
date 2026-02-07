@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: MMP5Y9IT
 type: conferencePaper
 short_title: "Assessing Cross-Cultural Alignment between"
-year: 2023
+year: 2025
 first_author: "[[Yong Cao]]"
 authors: "Yong Cao; Li Zhou; Seolhwa Lee; Laura Cabello; Min Chen; Daniel Hershcovich"
 doi: 10.48550/arXiv.2303.17466
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2023-Cao-Assessing Cross-Cultural Alignment between.m
 abstract: "The recent release of ChatGPT has garnered widespread recognition for its exceptional abil- ity to generate human-like responses in dia- logue. Given its usage by users from various nations and its training on a vast multilingual corpus that incorporates diverse cultural and societal norms, it is crucial to evaluate its effec- tiveness in cultural adaptation. In this paper, we investigate the underlying cultural back- ground of ChatGPT by analyzing its responses to questions designed to quantify"
 paper_summary: "Abstract: The recent release of ChatGPT has garnered widespread recognition for its exceptional abil- ity to generate human-like responses in dia- logue. Given its usage by users from various nations and its tr | Overview: Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study Yong Cao12, Li Zhou23, Seolhwa Lee4, Laura Cabello2, Min Chen5, Daniel Hershcovich2 1Huazhong University of S | Methodology: In this section, we elaborate on the survey,3 our probing prompts, and interaction strategy below. | Key Findings: Before comparing the model outputs to human sur- vey responses, it is important to verify that the model is consistent when asked the same ques- tion"
 local_pdf: "[[PDFs/2023-Cao-Assessing Cross-Cultural Alignment between.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach text corpus for conversational ai"
 data_metrics: "Not specified"
 ---

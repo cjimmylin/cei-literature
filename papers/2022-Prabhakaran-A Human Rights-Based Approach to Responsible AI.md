@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: CRU8XUKJ
 type: conferencePaper
 short_title: "A Human Rights-Based Approach to Responsible AI"
-year: 2022
+year: 2025
 first_author: "[[Vinodkumar Prabhakaran]]"
 authors: "[[Prabhakaran, Vinodkumar]]; [[Mitchell, Margaret]]; [[Gebru, Timnit]]; [[Gabriel, Iason]]"
 doi: 10.48550/arXiv.2210.02667
@@ -27,15 +24,15 @@ pdf_extract: "PDF Extracts/2022-Prabhakaran-A Human Rights-Based Approach to Res
 tags: 
 paper_summary: "Overview: arXiv:2210.02667v1 [cs.AI] 6 Oct 2022 A Human Rights-Based Approach to Responsible AI VINODKUMAR PRABHAKARAN, Google Research, USA MARGARET MITCHELL, Hugging Face, USA TIMNIT GEBRU, DAIR, USA IASON GA | Methodology: of the knowledge production. Moreover, the right applies bothto scientiﬁc knowledge itself and to the beneﬁts it creates. This right has special relev | Key Findings: in disproportionate removal of content of that religious group. In contrast, the biases around certain dialects or other linguistic features associate | Conclusions: In this paper, we have sought to show how greater attention to human rights can help ground the aspiration to build more ethical AI systems, anchored"
 abstract: "Research on fairness, accountability, transparency and ethics of AI-based interventions in society has gained much-needed momentum in recent years. However it lacks an explicit alignment with a set of normative values and principles that guide this research and interventions. Rather, an implicit consensus is often assumed to hold for the values we impart into our models - something that is at odds with the pluralistic world we live in. In this paper, we put forth the doctrine of universal human"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Human Rights"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
  A Human Rights-Based Approach to Responsible AI

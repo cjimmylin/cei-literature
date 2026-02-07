@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 6YXS5H9B
 type: conferencePaper
 short_title: DefAn
-year: 2024
+year: 2025
 first_author: "[[A B M Ashikur Rahman]]"
 authors: "A B M Ashikur Rahman; Saeed Anwar; Muhammad Usman; Ajmal Mian"
 doi: 10.48550/arXiv.2406.09155
@@ -24,15 +21,15 @@ tags:
 pdf_extract: "PDF Extracts/2024-Rahman-DefAn.md"
 abstract: "Large Language Models (LLMs) have demonstrated remarkable capabilities, revo- lutionizing the integration of AI in daily life applications. However, they are prone to hallucinations, generating claims that contradict established facts, deviating from prompts, and producing inconsistent responses when the same prompt is presented multiple times. Addressing these issues is challenging due to the lack of com- prehensive and easily assessable benchmark datasets. Most existing datasets are small and"
 paper_summary: "Abstract: Large Language Models (LLMs) have demonstrated remarkable capabilities, revo- lutionizing the integration of AI in daily life applications. However, they are prone to hallucinations, generating claims | Overview: DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation A B M Ashikur Rahman∗ ICS Department KFUPM Dhahran, KSA - 31261 g202204800@kfupm.edu.sa Saeed Anwar ICS Department, KFUPM JRCAI, SDAI | Key Findings: A B M Ashikur Rahman∗ ICS Department KFUPM Dhahran, KSA - 31261 g202204800@kfupm.edu.sa Saeed Anwar ICS Department, KFUPM JRCAI, SDAIA-KFUPM Dhahran,  | Conclusions: This paper introduces a comprehensive benchmark dataset designed for evaluating hallucinations in LLMs. To facilitate accurate assessment and evaluati"
-local_pdf: "[[PDFs/2024-Rahman-DefAn.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2024-Rahman-DefAn.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Truthfulness & Factuality"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "75,000 prompts"
 ---

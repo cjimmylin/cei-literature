@@ -6,7 +6,7 @@ Not AI:
 key: MOUGAN2023
 type: preprint
 short_title: "Kantian Deontology Meets AI Alignment"
-year: 2023
+year: 2025
 first_author: "[[Carlos Mougan]]"
 authors: "[[Mougan, Carlos]]; [[Brand, Joshua]]"
 doi: 10.48550/arXiv.2311.05227
@@ -22,7 +22,7 @@ key_contribution: "Shows 12/14 existing fairness metrics are utilitarian; propos
 significance: "Fills gap in fairness metrics literature by providing non-consequentialist ethical grounding for AI fairness"
 tags: 
 abstract: "The paper explores how deontological ethics, grounded in Immanuel Kant's philosophy, can be integrated into AI fairness metrics. The authors argue that Kantian principles—emphasizing duties and rules over consequences—offer an overlooked alternative to the utilitarian approaches currently dominant in AI alignment. They propose that fairness metrics should incorporate this framework to achieve a more morally grounded AI landscape that better balances outcomes and procedures."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: No

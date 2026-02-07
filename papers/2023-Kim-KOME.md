@@ -6,7 +6,7 @@ Not AI:
 key: C8CSWIUC
 type: document
 short_title: KOME
-year: 2023
+year: 2025
 first_author: "[[Jaehong Kim]]"
 authors: "Jaehong Kim; Chaeyoon Jeong; Seongchan Park; Meeyoung Cha; Wonjae Lee"
 url: "https://sociology.kaist.ac.kr/works/kome-korean-online-moral-emotion-a-korean-dataset-of-fine-grained-moral-emotions-korea-computer-congress-2023-june"
@@ -21,7 +21,7 @@ tags:
 abstract: "KOME (Korean Online Moral Emotion) is a Korean dataset of fine-grained moral emotions, developed at KAIST to study moral emotion in online discourse. The dataset includes Korean social media content labeled with moral emotion categories based on moral foundations theory, including other-condemning emotions (anger, contempt, disgust), other-praising emotions (admiration, gratitude, awe), empathetic emotions (compassion, sympathy), and self-conscious emotions (shame, guilt, embarrassment). The dataset enables research on how moral emotions shape online discourse and political participation."
 pdf: "https://www.parahostdis.org/upload/pdf/kjp-53-5-571.pdf"
 local_pdf: PDFs/2023-Kim-KOME.pdf
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

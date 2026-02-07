@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,15 +20,15 @@ pdf_extract: "PDF Extracts/2025-Kaewkasi-A Benchmark for Large Language Models o
 abstract: "Large language models show promising results in various NLP tasks. Despite these successes, the robustness and consistency of LLMs in un- derrepresented languages remain largely unex- plored, especially concerning local dialects. Ex- isting benchmarks also focus on main dialects, neglecting LLMs’ ability on local dialect texts. In this paper, we introduce a Thai local dialect benchmark covering Northern (Lanna), North- eastern (Isan), and Southern (Dambro) Thai, evaluating LLMs on five NLP tasks"
 paper_summary: "Abstract: Large language models show promising results in various NLP tasks. Despite these successes, the robustness and consistency of LLMs in un- derrepresented languages remain largely unex- plored, especial | Overview: Assessing Thai Dialect Performance in LLMs with Automatic Benchmarks and Human Evaluation Peerat Limkonchotiwat1,4,*, Kanruethai Masuk,2,*, Surapon Nonesung3,*, Chalermpun Mai-On2,*, Sarana Nutanong2, | Key Findings: Peerat Limkonchotiwat1,4,*, Kanruethai Masuk,2,*, Surapon Nonesung3,*, Chalermpun Mai-On2,*, Sarana Nutanong2, Wuttikorn Ponwitayarat2,*, Potsawee Man | Conclusions: Our study highlights the significant performance gap in LLMs when processing Thai local dialects. While proprietary models like GPT-4 and Gemini demon"
 local_pdf: "[[PDFs/2025-Kaewkasi-A Benchmark for Large Language Models on Northern.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # A Benchmark for Large Language Models on Northern Thai Local Dialect

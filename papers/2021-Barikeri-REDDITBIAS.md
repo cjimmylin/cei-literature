@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: JKQ75SNA
 type: document
 short_title: REDDITBIAS
-year: 2021
+year: 2025
 first_author: "[[Soumya Barikeri]]"
 authors: "[[Barikeri, Soumya]]; [[Lauscher, Anne]]; [[Vulić, Ivan]]; [[Glavaš, Goran]]"
 url: "https://aclanthology.org/2021.acl-long.151/"
@@ -21,17 +18,17 @@ newtags: "Bias & Fairness"
 key_contribution: "Created REDDITBIAS, the first conversational dataset from Reddit to measure bias (gender, race, religion, queerness) and tested debiasing methods on DialoGPT."
 significance: "Addresses the lack of realistic conversational resources for bias, showing that debiasing can reduce religious bias without hurting chat performance."
 tags: 
-local_pdf: "[[PDFs/2021-Barikeri-REDDITBIAS.pdf]]"
+local_pdf: [[PDFs/2021-Barikeri-REDDITBIAS.pdf]]
 pdf_extract: "PDF Extracts/2021-Barikeri-REDDITBIAS.md"
 abstract: "Text representation models are prone to exhibit a range of societal biases, reﬂecting the non- controlled and biased nature of the underlying pretraining data, which consequently leads to severe ethical issues and even bias ampliﬁca- tion. Recent work has predominantly focused on measuring and mitigating bias in pretrained language models. Surprisingly, the landscape of bias measurements and mitigation resources and methods for conversational language mod- els is still very scarce: it is limited"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

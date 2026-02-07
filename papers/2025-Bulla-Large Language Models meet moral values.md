@@ -1,8 +1,8 @@
 ---
-Human View:
-Human View Date:
-Human View note:
-Not AI:
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 key: TMLLB5F3
 type: journalArticle
 short_title: "Large Language Models meet moral values"
@@ -18,9 +18,9 @@ moral_psychology: N/A
 newtags: "Machine Ethics"
 key_contribution: "Evaluated the ability of LLMs (GPT-4, Llama, etc.) to perform *unsupervised* moral classification on the Moral Foundation Reddit Corpus, comparing them to human annotations."
 significance: "Assesses whether general-purpose LLMs can replace specific supervised models for moral sensing, finding that GPT-4 is superior but significant variations exist across moral domains."
-tags:
+tags: 
 abstract: "Automatic moral classification in textual data is crucial for various fields including Natural Language Processing (NLP), social sciences, and ethical AI development. Despite advancements in supervised models, their performance often suffers when faced with real-world scenarios due to overfitting to specific data distributions. To address these limitations, we propose leveraging state-of-the-art Large Language Models (LLMs) trained on extensive common-sense data for unsupervised moral classifica"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

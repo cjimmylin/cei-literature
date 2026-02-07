@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,7 +20,7 @@ key_contribution: "Used mechanistic interpretability to identify specific 'moral
 significance: "Moves beyond behavioral analysis to finding the *physical* location of moral reasoning in model weights, opening the door for precise circuit-level editing of moral alignment."
 tags: 
 abstract: "This paper systematically investigates how large language models (LLMs) encode moral reasoning across six moral dimensions: care, fairness, loyalty, authority, sanctity, and liberty. We propose a novel interpretability pipeline that combines differential activation analysis, automated neuron description, and ablation experiments to identify specialized neurons aligned with each moral dimension. Our curated dataset of 240 validated moral and immoral statement pairs guides this exploration and rev"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

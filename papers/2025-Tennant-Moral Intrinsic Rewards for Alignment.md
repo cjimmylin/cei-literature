@@ -24,7 +24,7 @@ pdf_extract: "PDF Extracts/2025-Tennant-Moral Intrinsic Rewards for Alignment.md
 abstract: "The paper introduces intrinsic reward functions that explicitly encode core human values for automated Reinforcement Learning-based fine-tuning of foundation agent models. As an initial implementation, the paper evaluates training using the traditional philosophical frameworks of Deontological Ethics and Utilitarianism, quantifying moral rewards for agents in terms of actions and consequences on the Iterated Prisoner's Dilemma environment...."
 paper_summary: 
 local_pdf: "[[PDFs/2025-Tennant-Moral Intrinsic Rewards for Alignment.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: Yes

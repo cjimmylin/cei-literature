@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_HAN2024
 type: journalArticle
 short_title: "Moral Exemplars in AI Education"
-year: 2024
+year: 2025
 first_author: "[[Hyemin Han]]"
 authors: "[[Han, Hyemin]]"
 doi: N/A
@@ -19,7 +19,7 @@ significance: "Bridges virtue ethics moral exemplar theory with neural network l
 external_pdf: N/A
 abstract: "In this paper, Han examines why moral exemplars are useful and even necessary in moral education despite several critiques from researchers and educators. To support this point, Han reviews recent AI research demonstrating that exemplar-based learning is superior to rule-based learning in model performance in training neural networks, such as large language models. The paper particularly focuses on why education aiming at promoting the development of multifaceted moral functioning can be done effectively by using exemplars, which is similar to exemplar-based learning in AI model training. Furthermore, the paper discusses the potential limitations and issues related to exemplar-applied moral education with findings from recent studies in AI research raising concerns about model biases and toxic outcomes."
 pdf_extract: "PDF Extracts/2024-Han-Moral Exemplars in AI Education.md"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No
 utilitarian_ethics: No

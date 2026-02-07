@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,7 +18,7 @@ key_contribution: "Introduced FairMT-Bench for evaluating fairness in *multi-tur
 significance: "Critical for evaluating chat agents, as single-turn benchmarks miss the 'drift' into biased behavior that happens in longer interactions."
 tags: 
 abstract: "The increasing deployment of large language model (LLM)-based chatbots has raised concerns regarding fairness. Fairness issues in LLMs may result in serious consequences, such as bias amplification, discrimination, and harm to minority groups. Many efforts are dedicated to evaluating and mitigating biases in LLMs. However, existing fairness benchmarks mainly focus on single-turn dialogues, while multi-turn scenarios, which better reflect real-world conversations, pose greater challenges due to c"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -30,7 +29,7 @@ is_dataset: Yes
 data_description: "Benchmark for bias and fairness text corpus for conversational ai"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2025-Fan-FAIRMT-BENCH.md"
-local_pdf: "[[PDFs/2025-Fan-FAIRMT-BENCH.pdf]]"
+local_pdf: [[PDFs/2025-Fan-FAIRMT-BENCH.pdf]]
 ---
 # FAIRMT-BENCH: BENCHMARKING FAIRNESS FOR MULTI-TURN DIALOGUE IN CONVERSATIONAL LLMS
 

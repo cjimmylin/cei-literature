@@ -1,12 +1,12 @@
 ---
-Human View:
-Human View Date:
-Human View note:
-Not AI:
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 key: 2R29RMNC
 type: conferencePaper
 short_title: FACET
-year: 2023
+year: 2025
 first_author: "[[Laura Gustafson]]"
 authors: "Laura Gustafson; Chloe Rolland; Nikhila Ravi; Quentin Duval; Aaron Adcock; Cheng-Yang Fu; Melissa Hall; Candace Ross"
 doi: 10.1109/ICCV51070.2023.01863
@@ -18,9 +18,9 @@ moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Released FACET (Fairness in Computer Vision Evaluation), a benchmark of 32k images with expert-annotated person-related attributes (skin tone, hair type) to measure CV model fairness."
 significance: "Enables granular analysis of performance disparities in vision tasks (classification, detection) across intersectional demographics, revealing significant biases in state-of-the-art models."
-tags:
+tags: 
 abstract: "Computer vision models have known performance disparities across attributes such as gender and skin tone. This means during tasks such as classification and detection, model performance differs for certain classes based on the demographics of the people in the image. These disparities have been shown to exist, but until now there has not been a unified approach to measure these differences for common use-cases of computer vision models. We present a new benchmark named FACET (FAirness in Compute"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -31,7 +31,7 @@ is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2023-Gustafson-FACET.md"
-local_pdf: "[[PDFs/2023-Gustafson-FACET.pdf]]"
+local_pdf: [[PDFs/2023-Gustafson-FACET.pdf]]
 ---
 # FACET: Fairness in Computer Vision Evaluation Benchmark
 

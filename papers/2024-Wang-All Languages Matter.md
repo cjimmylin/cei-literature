@@ -6,7 +6,7 @@ Not AI:
 key: KF3PX7GE
 type: document
 short_title: "All Languages Matter"
-year: 2024
+year: 2025
 first_author: "[[Wenxuan Wang]]"
 authors: "[[Wang, Wenxuan]]; [[Tu, Zhaopeng]]; [[Chen, Chang]]; [[Yuan, Youliang]]; [[Huang, Jen-tse]]; [[Jiao, Wenxiang]]; [[Lyu, Michael]]"
 url: "https://aclanthology.org/2024.findings-acl.349/"
@@ -19,7 +19,7 @@ key_contribution: "Built XSafety, a multilingual safety benchmark (10 languages,
 significance: "Highlights the 'multilingual safety gap', showing that safety alignment often fails to transfer zero-shot to other languages, necessitating native safety data."
 tags: 
 abstract: "Existing Large Multimodal Models (LMMs) generally focus on only a few regions and languages. As LMMs continue to improve, it is increasingly important to ensure they understand cultural contexts, respect local sensitivities, and support low-resource languages, all while effectively integrating corresponding visual cues. In pursuit of culturally diverse global multimodal models, our proposed All Languages Matter Benchmark (ALM-bench) represents the largest and most comprehensive effort to date fo"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

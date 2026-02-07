@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,27 +7,27 @@ key: T7SMT2WN
 type: document
 short_title: "Personal Consultations Case Study Database"
 year: 2025
-first_author: "[[Center]]"
+first_author: [[Center]]
 authors: "Center; NCBC Bioethics"
 url: "https://www.ncbcenter.org/case-study-database"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
 newtags: 
-tags:
-research_topic: "Other"
+tags: 
+research_topic: Other
 abstract: "A case study database containing records of personal consultations for ethics and values research. The database provides real-world examples of ethical decision-making scenarios and consultations that can be used to study how individuals and organizations approach moral dilemmas and value conflicts in practice."
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Machine Ethics"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
-pdf_extract: [[2025-Center-Personal Consultations Case Study Database]]
+pdf_extract: "[[2025-Center-Personal Consultations Case Study Database]]"
 ---
 # Personal Consultations Case Study Database
 

@@ -1,12 +1,12 @@
 ---
-Human View:
-Human View Date:
-Human View note:
-Not AI:
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 key: SEKRST2024
 type: preprint
 short_title: "AI Ethics by Design"
-year: 2024
+year: 2025
 first_author: "[[Kristina Šekrst]]"
 authors: "Kristina Šekrst; Jeremy McHugh; Jonathan Rodriguez Cefalù"
 doi: 10.48550/arXiv.2411.14442
@@ -16,13 +16,13 @@ publication: arXiv
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
-newtags:
-tags:
+newtags: 
+tags: 
 pdf_extract: "PDF Extracts/2024-Šekrst-AI Ethics by Design.md"
 abstract: "This paper presents a framework for implementing customizable guardrails for responsible AI development, focusing on AI ethics by design principles. It addresses how ethical considerations can be integrated into AI systems from the development stage rather than as an afterthought."
-paper_summary:
+paper_summary: 
 local_pdf: "[[PDFs/2024-Šekrst-AI Ethics by Design.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

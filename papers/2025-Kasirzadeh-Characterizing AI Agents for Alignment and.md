@@ -18,7 +18,7 @@ key_contribution: "Proposed a 4-dimensional framework (Autonomy, Efficacy, Goal 
 significance: "Provides a vocabulary for regulators to classify 'Agents' distinct from 'Tools', which is crucial for upcoming AI legislation (e.g., EU AI Act, liability laws)."
 tags: 
 abstract: "The creation of effective governance mechanisms for AI agents requires a deeper understanding of their core properties and how these properties relate to questions surrounding the deployment and operation of agents in the world. This paper provides a characterization of AI agents that focuses on four dimensions: autonomy, efficacy, goal complexity, and generality. We propose different gradations for each dimension, and argue that each dimension raises unique questions about the design, operation"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: ESCKGR37
 type: conferencePaper
 short_title: "A Systematic Survey and Critical Review on"
-year: 2024
+year: 2025
 first_author: "[[Md Tahmid Rahman Laskar]]"
 authors: "Md Tahmid Rahman Laskar; Sawsan Alqahtani; M Saiful Bari; Mizanur Rahman; Mohammad Abdullah Matin Khan; Haidar Khan; Israt Jahan; Amran Bhuiyan; Chee Wei Tan; Md Rizwan Parvez; Enamul Hoque; Shafiq Joty; Jimmy Huang"
 doi: 10.48550/arXiv.2407.04069
@@ -25,14 +22,14 @@ pdf_extract: "PDF Extracts/2024-Laskar-A Systematic Survey and Critical Review o
 abstract: "Large Language Models (LLMs) have re- cently gained significant attention due to their remarkable capabilities in performing diverse tasks across various domains. How- ever, a thorough evaluation of these mod- els is crucial before deploying them in real- world applications to ensure they produce reliable performance. Despite the well- established importance of evaluating LLMs in the community, the complexity of the evaluation process has led to varied evalua- tion setups, causing inconsistencie"
 paper_summary: "Abstract: Large Language Models (LLMs) have re- cently gained significant attention due to their remarkable capabilities in performing diverse tasks across various domains. How- ever, a thorough evaluation of t | Overview: A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations Md Tahmid Rahman Laskar†,||,∗, Sawsan Alqahtani§, M Saiful Bari¶,∗ Mizanur Rah | Methodology: Parsing Script Design: Evaluating LLM- generated responses is difficult because they often produce verbose outputs (see Table 6 for some examples). Th | Key Findings: of LLMs often focus only on benchmark tasks, datasets, and evaluation criteria, neglecting the broader complexities. This oversight can under- mine th"
 local_pdf: "[[PDFs/2024-Laskar-A Systematic Survey and Critical Review on.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-research_topic: "Other"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+research_topic: Other
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

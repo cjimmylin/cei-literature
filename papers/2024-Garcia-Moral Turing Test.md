@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_GARCIA2024
 type: preprint
 short_title: "Moral Turing Test"
-year: 2024
+year: 2025
 first_author: "[[Basile Garcia]]"
 authors: "[[Garcia, Basile]]; [[Qian, Crystal]]; [[Palminteri, Stefano]]"
 doi: N/A
@@ -19,7 +19,7 @@ significance: "Novel 'Moral Turing Test' methodology revealing complex dynamics 
 external_pdf: "https://arxiv.org/pdf/2410.07304"
 abstract: "The researchers examined how well large language models align with human moral judgments by collecting responses to moral scenarios from both humans and LLMs. They discovered important misalignments: both LLMs and humans tended to reject morally complex utilitarian dilemmas, but LLMs were more sensitive to personal framing. In a study with 230 participants, evaluators actually preferred the AI responses but showed bias against them when they knew the source was AI. The analysis revealed that subtle linguistic differences in responses influenced detection and agreement, highlighting the intricate dynamics of human-AI interaction in ethically charged contexts."
 pdf_extract: "PDF Extracts/2024-Garcia-Moral Turing Test.md"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: Yes

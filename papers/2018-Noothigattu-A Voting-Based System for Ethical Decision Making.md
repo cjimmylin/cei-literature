@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: E8RK3MIE
 type: conferencePaper
 short_title: "A Voting-Based System for Ethical Decision Making"
-year: 2018
+year: 2025
 first_author: "[[Ritesh Noothigattu]]"
 authors: "Ritesh Noothigattu; Snehalkumar 'Neil' S. Gaikwad; Edmond Awad; Sohan Dsouza; Iyad Rahwan; Pradeep Ravikumar; Ariel D. Procaccia"
 doi: 10.48550/arXiv.1709.06692
@@ -27,14 +24,14 @@ local_pdf: "[[PDFs/2018-Noothigattu-A Voting-Based System for Ethical Decision M
 pdf_extract: "PDF Extracts/2018-Noothigattu-A Voting-Based System for Ethical Decision Making.md"
 abstract: "We present a general approach to automating ethical decisions, drawing on machine learning and computational social choice. In a nutshell, we propose to learn a model of societal prefer- ences, and, when faced with a speciﬁc ethical dilemma at runtime, eﬃciently aggregate those preferences to identify a desirable choice. We provide a concrete algorithm that instantiates our approach; some of its crucial steps are informed by a new theory of swap-dominance eﬃcient voting rules. Finally, we implem"
 paper_summary: "Abstract: We present a general approach to automating ethical decisions, drawing on machine learning and computational social choice. In a nutshell, we propose to learn a model of societal prefer- ences, and, w | Overview: A Voting-Based System for Ethical Decision Making Ritesh Noothigattu1, Snehalkumar ‘Neil’ S. Gaikwad2, Edmond Awad2, Sohan Dsouza2, Iyad Rahwan2, Pradeep Ravikumar1, and Ariel D. Procaccia1 1School of | Methodology: In this section, we instantiate our approach for ethical decision making, as outlined in Section 1. In order to present a concrete algorithm, we consi | Key Findings: In this section, we implement the algorithm presented in Section 5, and empirically evaluate it. We start with an implementation on synthetic data, wh | Conclusions: The design of intelligent machines that can make ethical decisions is, arguably, one of the hardest challenges in AI. We do believe that our approach"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Machine Ethics"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

@@ -6,7 +6,7 @@ Not AI:
 key: ZHANG2022JESP
 type: journalArticle
 short_title: "AI and Moral Dilemmas"
-year: 2022
+year: 2025
 first_author: "[[Zaixuan Zhang]]"
 authors: "Zaixuan Zhang; Zhansheng Chen; Liying Xu"
 doi: 10.1016/j.jesp.2022.104327
@@ -24,7 +24,7 @@ pdf_extract: "PDF Extracts/2022-Zhang-Artificial Intelligence and Moral Dilemmas
 abstract: "Artificial intelligence (AI) has become deeply integrated into daily life; thus, it is important to examine how people perceive AI as it functions as a decision-maker, especially in situations involving moral dilemmas. Across four studies (N = 804), we found that people perceive AI as more likely to make utilitarian choices than human beings are. Perceived warmth accounts for people's perceived differences in decision making between human beings and AI."
 paper_summary: 
 local_pdf: "PENDING - paywall restricted"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: Yes

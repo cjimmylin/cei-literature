@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_HAGENDORFF2022
 type: journalArticle
 short_title: "Virtue-Based Framework for AI Ethics"
-year: 2022
+year: 2025
 first_author: "[[Thilo Hagendorff]]"
 authors: "[[Hagendorff, Thilo]]"
 doi: 10.1007/s13347-022-00553-z
@@ -19,7 +19,7 @@ significance: "Seminal framework proposing virtue ethics as complement to princi
 external_pdf: N/A
 abstract: "Many ethics initiatives have stipulated sets of principles and standards for good technology development in the AI sector. However, several AI ethics researchers have pointed out a lack of practical realization of these principles. Following that, AI ethics underwent a practical turn, but without deviating from the principled approach. This paper proposes a complementary to the principled approach that is based on virtue ethics. It defines four 'basic AI virtues', namely justice, honesty, responsibility and care, all of which represent specific motivational settings that constitute the very precondition for ethical decision making in the AI field. Moreover, it defines two 'second-order AI virtues', prudence and fortitude, that bolster achieving the basic virtues by helping with overcoming bounded ethicality or hidden psychological forces that can impair ethical decision making. Lastly, the paper describes measures for successfully cultivating the mentioned virtues in organizations dealing with AI research and development."
 pdf_extract: "PDF Extracts/2022-Hagendorff-Virtue-Based Framework for AI Ethics.md"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No
 utilitarian_ethics: No

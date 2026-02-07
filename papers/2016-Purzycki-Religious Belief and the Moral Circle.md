@@ -6,7 +6,7 @@ Not AI:
 key: CXQBF26R
 type: journalArticle
 short_title: "Religious Belief and the Moral Circle"
-year: 2016
+year: 2025
 first_author: "[[Benjamin Grant Purzycki]]"
 authors: "Benjamin Grant Purzycki; Coren Apicella; Quentin D. Atkinson; Emma Cohen; Rita Anne McNamara; Aiyana K. Willard; Dimitris Xygalatas; Ara Norenzayan; Joseph Henrich"
 url: "https://www.nature.com/articles/sdata201660"
@@ -20,7 +20,7 @@ significance: "Provides the empirical data underpinning major theories in the ev
 tags: 
 osint_source: "Recovered via HTML"
 abstract: "A considerable body of research cross-culturally examines the evolution of religious traditions, beliefs and behaviors. The Evolution of Religion and Morality Project sought to generate a data set that systematically probed individual level measures sampling across a wider range of human populations. The set includes data from behavioral economic experiments and detailed surveys of demographics, religious beliefs and practices, material security, and intergroup perceptions."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

@@ -6,7 +6,7 @@ Not AI:
 key: 44HW3DVX
 type: journalArticle
 short_title: AmericasNLI
-year: 2022
+year: 2025
 first_author: "[[Katharina Kann]]"
 authors: "Katharina Kann; Abteen Ebrahimi; Manuel Mager; Arturo Oncevay; John E. Ortega; Annette Rios; Angela Fan; Ximena Gutierrez-Vasques; Luis Chiruzzo; Gustavo A. Giménez-Lugo; Ricardo Ramos; Ivan Vladimir Meza Ruiz; Elisabeth Mager; Vishrav Chaudhary; Graham Neubig; Alexis Palmer; Rolando Coto-Solano; Ngoc Thang Vu"
 doi: 10.3389/frai.2022.995667

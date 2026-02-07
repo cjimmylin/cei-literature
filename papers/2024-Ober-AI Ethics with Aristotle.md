@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: report
 short_title: "AI Ethics with Aristotle"
-year: 2024
+year: 2025
 first_author: "[[Josiah Ober]]"
 authors: "Josiah Ober; John Tasioulas"
 url: "https://www.oxford-aiethics.ox.ac.uk/sites/default/files/2024-06/Aristotle%20and%20AI%20White%20Paper%20-%20June%202024.pdf"
@@ -21,7 +21,7 @@ pdf_extract: "PDF Extracts/2024-Ober-AI Ethics with Aristotle.md"
 abstract: "This white paper argues that AI systems should be understood, developed, and deployed as intelligent tools that enhance our ability to flourish as individuals and communities, rather than means of transcending our human nature or creating artificial beings with comparable ethical standing to humans."
 paper_summary: 
 local_pdf: "[[PDFs/2024-Ober-AI Ethics with Aristotle.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No
 utilitarian_ethics: No

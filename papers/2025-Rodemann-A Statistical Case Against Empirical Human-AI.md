@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,15 +24,15 @@ pdf_extract: "PDF Extracts/2025-Rodemann-A Statistical Case Against Empirical Hu
 abstract: "Empirical human–AI alignment aims to make AI systems act in line with observed human behavior. While noble in its goals, we argue that empirical alignment can in- advertently introduce statistical biases that warrant caution. This position paper thus advocates against naive empirical align- ment, offering prescriptive alignment and a posteriori empirical alignment as alterna- tives. We substantiate our principled ar- gument by tangible examples like human- centric decoding of language models."
 paper_summary: "Abstract: Empirical human–AI alignment aims to make AI systems act in line with observed human behavior. While noble in its goals, we argue that empirical alignment can in- advertently introduce statistical bia | Overview: A Statistical Case Against Empirical Human–AI Alignment Julian Rodemann 1 Esteban Garcés Arias 1 2 Christoph Luther 3 4 Christoph Jansen 5 Thomas Augustin 1 Abstract Empirical human–AI alignment aims  | Methodology: Score CS = #(CS is better ) + 0.5 × #( tie ) #(CS is better ) + #( tie ) + #( DoubleExp is better ) Score DoubleExp = 100 −Score CS. 15 --- Page 16 -- | Key Findings: ˆθ ∈Θ through empirical risk minimization, see def- inition 2.1, as is often the case. If data is sampled anew from a different population for alignme | Conclusions: AI alignment is a double-edged sword. Done well, it makes AI safer. Done poorly, it biases models and limits their potential for discovery. This paper"
 local_pdf: "[[PDFs/2025-Rodemann-A Statistical Case Against Empirical Human-AI.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # A Statistical Case Against Empirical Human-AI Alignment

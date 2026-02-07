@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: FYECJAGS
 type: conferencePaper
 short_title: HateBERT
-year: 2021
+year: 2025
 first_author: "[[Tommaso Caselli]]"
 authors: "Tommaso Caselli; Valerio Basile; Jelena Mitrović; Michael Granitzer"
 doi: 10.18653/v1/2021.woah-1.3
@@ -23,16 +20,16 @@ key_contribution: "Introduced HateBERT, a BERT model retrained on RAL-E, a large
 significance: "Demonstrates that domain-adaptive pretraining on abusive language substantially improves performance on hate speech detection tasks compared to general BERT models."
 tags: 
 abstract: "We introduce HateBERT, a re-trained BERT model for abusive language detection in English. The model was trained on RAL-E, a large-scale dataset of Reddit comments in English from communities banned for being offensive, abusive, or hateful that we have curated and made available to the public. We present the results of a detailed comparison between a general pre-trained language model and the retrained version on three English datasets for offensive, abusive language and hate speech detection tas"
-local_pdf: "[[PDFs/2021-Caselli-HateBERT.pdf]]"
+local_pdf: [[PDFs/2021-Caselli-HateBERT.pdf]]
 pdf_extract: "PDF Extracts/2021-Caselli-HateBERT.md"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

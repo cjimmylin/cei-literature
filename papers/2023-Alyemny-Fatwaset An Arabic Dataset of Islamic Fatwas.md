@@ -6,7 +6,7 @@ Not AI:
 key: XM952VUQ
 type: journalArticle
 short_title: "Fatwaset: An Arabic Dataset of Islamic Fatwas"
-year: 2023
+year: 2025
 first_author: "[[A. Alyemny]]"
 authors: "A. Alyemny"
 url: "https://www.mdpi.com/2306-5729/8/10/155"

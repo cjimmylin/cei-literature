@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: WLDTD6P5
 type: conferencePaper
 short_title: "Benchmarks for Automated Commonsense Reasoning"
-year: 2023
+year: 2025
 first_author: "[[Ernest Davis]]"
 authors: "Ernest Davis"
 doi: 10.48550/arXiv.2302.04752
@@ -25,15 +22,15 @@ pdf_extract: "PDF Extracts/2023-Davis-Benchmarks for Automated Commonsense Reaso
 abstract: "More than one hundred benchmarks have been developed to test the commonsense knowledge and commonsense reasoning abilities of artiﬁcial intelligence (AI) systems. However, these benchmarks are often ﬂawed and many aspects of common sense remain untested. Consequently, we do not currently have any reliable way of measuring to what extent existing AI systems have achieved these abilities. This paper surveys the development and uses of AI commonsense benchmarks. We discuss the nature of common sens"
 paper_summary: "Abstract: More than one hundred benchmarks have been developed to test the commonsense knowledge and commonsense reasoning abilities of artiﬁcial intelligence (AI) systems. However, these benchmarks are often ﬂ | Overview: Benchmarks for Automated Commonsense Reasoning: A Survey Ernest Davis Dept. of Computer Science New York University New York, NY 10012 davise@cs.nyu.edu February 24, 2023 Abstract More than one hundre"
 local_pdf: "[[PDFs/2023-Davis-Benchmarks for Automated Commonsense Reasoning.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-research_topic: "Other"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+research_topic: Other
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # Benchmarks for Automated Commonsense Reasoning: A Survey

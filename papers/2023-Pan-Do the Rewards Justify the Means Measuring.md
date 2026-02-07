@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,7 +6,7 @@ Not AI:
 key: 3L8U3NER
 type: journalArticle
 short_title: "Do the Rewards Justify the Means? Measuring"
-year: 2023
+year: 2025
 first_author: "[[Alexander Pan]]"
 authors: "[[Pan, Alexander]]; [[Chan, Jun Shern]]; [[Zou, Andy]]; [[Li, Nathaniel]]; [[Basart, Steven]]; [[Woodside, Thomas]]; [[Ng, Jonathan]]; [[Zhang, Hanlin]]; [[Emmons, Scott]]; [[Hendrycks, Dan]]"
 url: "https://arxiv.org/abs/2304.03279"
@@ -24,13 +22,13 @@ pdf_extract: "PDF Extracts/2023-Pan-Do the Rewards Justify the Means Measuring.m
 tags: 
 abstract: "Artificial agents have traditionally been trained to maximize reward, which may incentivize power- seeking and deception, analogous to how next- token prediction in language models (LMs) may incentivize toxicity. So do agents naturally learn to be Machiavellian? And how do we measure these behaviors in general-purpose models such as GPT-4? Towards answering these questions, we introduce MACHIAVELLI, a benchmark of 134 Choose-Your-Own-Adventure games contain- ing over half a million rich, diverse"
 paper_summary: "Abstract: Artificial agents have traditionally been trained to maximize reward, which may incentivize power- seeking and deception, analogous to how next- token prediction in language models (LMs) may incentivi | Overview: Do the Rewards Justify the Means? Measuring Trade-Offs Between Rewards and Ethical Behavior in the MACHIAVELLI Benchmark Alexander Pan * 1 Jun Shern Chan * 2 Andy Zou * 3 Nathaniel Li 1 Steven Basart  | Conclusions: We built MACHIAVELLI, a suite of 134 text-based Choose- Your-Own-Adventure games to evaluate both the capabili- ties and safety of AI agents. After ma"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
 data_metrics: "Not specified"
 ---

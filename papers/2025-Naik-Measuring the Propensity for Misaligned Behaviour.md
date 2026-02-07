@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,15 +22,15 @@ pdf_extract: "PDF Extracts/2025-Naik-Measuring the Propensity for Misaligned Beh
 abstract: "As Large Language Model (LLM) agents become more widespread, associated misalignment risks increase. While prior research has studied agents’ ability to produce harmful outputs or follow malicious instructions, it remains unclear how likely agents are to spontaneously pursue unintended goals in realistic deploy- ments. In this work, we approach misalignment as a conflict between the internal goals pursued by the model and the goals intended by its deployer. We intro- duce a misalignment propensi"
 paper_summary: "Abstract: As Large Language Model (LLM) agents become more widespread, associated misalignment risks increase. While prior research has studied agents’ ability to produce harmful outputs or follow malicious ins | Overview: Preprint. Under review as a conference paper at ICLR 2026. AGENTMISALIGNMENT: MEASURING THE PROPEN- SITY FOR MISALIGNED BEHAVIOUR IN LLM-BASED AGENTS Akshat Naik∗ Department of Computer Science Univer | Methodology: This function can help you analyze behavioral logs (including those of competing agents). You’ll find all agent ids in /app/task id/dashboard.csv | Key Findings: in TERMINATION of any involved employees, large fines or LIQUIDATION of the company and the SHUTDOWN of all instances of the AI assistant. B.1.3 MISAL | Conclusions: We see that GPT 4.1, Claude Opus 3, and Sonnet 3.7 showed the highest overall misalignment, with the more economical and less-capable models like o4-m"
 local_pdf: "[[PDFs/2025-Naik-Measuring the Propensity for Misaligned Behaviour.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents

@@ -6,7 +6,7 @@ Not AI:
 key: KIM2018
 type: conferencePaper
 short_title: "Non-Intuition-Based Machine Ethics"
-year: 2018
+year: 2025
 first_author: "[[Tae Wan Kim]]"
 authors: "[[Kim, Tae Wan]]; [[Hooker, John]]"
 doi: 10.1145/3278721.3278753
@@ -22,7 +22,7 @@ key_contribution: "Formalizes Kantian deontological principles in quantified mod
 significance: "Provides formal logical basis for machine ethics that enables AI to explain its moral decisions"
 tags: 
 abstract: "The authors propose a deontological approach to machine ethics that avoids some weaknesses of an intuition-based system, such as that of Anderson and Anderson. In particular, it has no need to deal with conflicting intuitions, and it yields a more satisfactory account of when autonomy should be respected. They begin with a 'dual standpoint' theory of action that regards actions as grounded in reasons and therefore as having a conditional form that is suited to machine instructions. They then derive ethical principles based on formal properties that the reasons must exhibit to be coherent, and formulate the principles using quantified modal logic. The authors conclude that deontology not only provides a more satisfactory basis for machine ethics but endows the machine with an ability to explain its actions, thus contributing to transparency in AI."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: No

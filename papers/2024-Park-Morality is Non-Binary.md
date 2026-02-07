@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,7 +6,7 @@ Not AI:
 key: 373IZL7R
 type: conferencePaper
 short_title: "Morality is Non-Binary"
-year: 2024
+year: 2025
 first_author: "[[Jeongwoo Park]]"
 authors: "[[Park, Jeongwoo]]; [[Liscio, Enrico]]; [[Murukannaiah, Pradeep K.]]"
 doi: 10.48550/arXiv.2401.17228
@@ -26,14 +24,14 @@ pdf_extract: "PDF Extracts/2024-Park-Morality is Non-Binary.md"
 tags: 
 abstract: "Recent advances in NLP show that language models retain a discernible level of knowledge in deontological ethics and moral norms. How- ever, existing works often treat morality as bi- nary, ranging from right to wrong. This simplis- tic view does not capture the nuances of moral judgment. Pluralist moral philosophers argue that human morality can be deconstructed into a finite number of elements, respecting individual differences in moral judgment. In line with this view, we build a pluralist mo"
 paper_summary: "Abstract: Recent advances in NLP show that language models retain a discernible level of knowledge in deontological ethics and moral norms. How- ever, existing works often treat morality as bi- nary, ranging fr | Overview: Morality is Non-Binary: Building a Pluralist Moral Sentence Embedding Space using Contrastive Learning Jeongwoo Park∗, Enrico Liscio∗, and Pradeep K. Murukannaiah Delft University of Technology, the N | Methodology: to morality can be captured in a sentence embed- ding space, but also that human labels are necessary to successfully train the embeddings. Our work r | Key Findings: We investigate the embedding space by (1) show- ing a visualization of the training set data in the embedding space to gain an intuitive understand- i | Conclusions: We report the results of the intrinsic evaluations to judge the effect of supervised training, and the re- sults of the extrinsic evaluation to assess"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
  Morality is Non-Binary: Building a Pluralist Moral Sentence Embedding Space using Contrastive Learning

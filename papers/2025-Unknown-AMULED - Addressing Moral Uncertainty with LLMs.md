@@ -21,7 +21,7 @@ pdf_extract: "PDF Extracts/2025-Unknown-AMULED - Addressing Moral Uncertainty wi
 abstract: "This paper presents an ethical decision-making framework that refines a pre-trained reinforcement learning model using a task-agnostic ethical layer, where the LLM embodies consequentialist, deontological, virtue, social justice, and care ethics as moral principles to assign belief values to recommended actions."
 paper_summary: 
 local_pdf: "[[PDFs/2025-Unknown-AMULED - Addressing Moral Uncertainty with LLMs.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes
 utilitarian_ethics: Yes

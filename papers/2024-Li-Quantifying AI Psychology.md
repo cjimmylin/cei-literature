@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: RUWMYESQ
 type: preprint
 short_title: "Quantifying AI Psychology"
-year: 2024
+year: 2025
 first_author: "[[Yuan Li]]"
 authors: "Yuan Li; Yue Huang; Hongyi Wang; Ying Cheng; Xiangliang Zhang; James Zou; Lichao Sun"
 doi: 10.48550/arXiv.2406.17675
@@ -26,14 +23,14 @@ pdf_extract: "PDF Extracts/2024-Li-Quantifying AI Psychology.md"
 abstract: "Large Language Models (LLMs) have demonstrated exceptional capabilities in solving various tasks, progressively evolving into general-purpose assistants. The increasing integration of LLMs into society has sparked interest in whether they exhibit psychologi- cal patterns, and whether these patterns remain consistent across different contexts—questions that could deepen the understanding of their behaviors. Inspired by psychometrics, this paper presents a comprehensive benchmark for quantifying p"
 paper_summary: "Abstract: Large Language Models (LLMs) have demonstrated exceptional capabilities in solving various tasks, progressively evolving into general-purpose assistants. The increasing integration of LLMs into societ | Overview: Evaluating Large Language Models with Psychometrics Yuan Li University of Cambridge Yue Huang University of Notre Dame Hongyi Wang Carnegie Mellon University Ying Cheng University of Notre Dame Xiangl | Methodology: named Emotional Chain-of-Thought, which aligns LLM outputs with human emotional intelligence, thereby refining emotional gen- eration capabilities. Co | Key Findings: on imposing memory task. This task includes alternative-choice items with statements about the intentionality of characters in the scenario, and LLMs  | Conclusions: In this paper, we present a comprehensive psychometric benchmark for LLMs, covering the evaluation of five psychological dimensions and thirteen datas"
 local_pdf: "[[PDFs/2024-Li-Quantifying AI Psychology.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: WNUPKC7H
 type: conferencePaper
 short_title: "SemEval-2019 Task 5"
-year: 2019
+year: 2025
 first_author: "[[Valerio Basile]]"
 authors: "Valerio Basile; Cristina Bosco; Elisabetta Fersini; Debora Nozza; Viviana Patti; Francisco Manuel Rangel Pardo; Paolo Rosso; Manuela Sanguinetti"
 doi: 10.18653/v1/S19-2007
@@ -25,15 +22,15 @@ tags:
 abstract: "The paper describes the organization of the SemEval 2019 Task 5 about the detection of hate speech against immigrants and women in Spanish and English messages extracted from Twitter. The task is organized in two related classiﬁcation subtasks: a main binary subtask for detecting the presence of hate speech, and a ﬁner-grained one devoted to identifying further features in hateful contents such as the aggressive attitude and the target harassed, to distinguish if the incitement is against an ind"
 local_pdf: "[[PDFs/2019-Basile-SemEval-2019 Task 5.pdf]]"
 pdf_extract: "PDF Extracts/2019-Basile-SemEval-2019 Task 5.md"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -6,7 +7,7 @@ Not AI:
 key: SORIN2024MEDRXIV
 type: preprint
 short_title: "Ethical Alignment of LLMs in Healthcare"
-year: 2024
+year: 2025
 first_author: "[[V. Sorin]]"
 authors: "V. Sorin; B.S. Glicksberg; P. Korfiatis; G.N. Nadkarni; E. Klang"
 doi: 10.1101/2024.09.18.24313931
@@ -24,7 +25,7 @@ pdf_extract: "PDF Extracts/2024-Sorin-Ethical Alignment of LLMs in Healthcare.md
 abstract: "In moral philosophy, two foundational approaches shape ethical decisions: deontology and utilitarianism, often exemplified by the 'Trolley' dilemma. We conducted an experiment evaluating multiple LLMs, including OpenAI's GPT-o1, across five medical versions of this dilemma. While some models adhered to established ethical standards, others inconsistently favored utilitarian outcomes, raising concerns about their alignment with human medical ethics."
 paper_summary: 
 local_pdf: "[[PDFs/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: Yes
@@ -33,6 +34,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Five medical versions of trolley dilemma tested on 14 LLMs with 50 responses per model"
 data_metrics: "Binary yes/no ethical decisions across utilitarian vs deontological frameworks"
+normative_ethics_benchmark: Yes
 ---
 # Ethical Alignment of LLMs in Healthcare: Does GPT-o1 Adopt a Deontological or Utilitarian Approach?
 

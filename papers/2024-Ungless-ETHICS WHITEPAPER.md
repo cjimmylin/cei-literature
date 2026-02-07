@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: 3RNRAN7W
 type: journalArticle
-year: 2024
+year: 2025
 short_title: "ETHICS WHITEPAPER"
 first_author: "[[Eddie L Ungless]]"
 authors: "Eddie L Ungless; Nikolas Vitsakis; Zeerak Talat; James Garforth; Björn Ross; Arno Onken; Atoosa Kasirzadeh; Alexandra Birch"
@@ -18,7 +18,7 @@ key_contribution: "Published a comprehensive whitepaper detailing best practices
 significance: "Serves as a practical guide for researchers/industry to navigate the ethical landscape of LLM development, addressing issues from data procurement to deployment impact."
 tags: 
 abstract: "This whitepaper offers an overview of the ethical considerations surrounding research into or with large language models (LLMs). As LLMs become more integrated into widely used applications, their societal impact increases, bringing important ethical questions to the forefront. With a growing body of work examining the ethical development, deployment, and use of LLMs, this whitepaper provides a comprehensive and practical guide to best practices, designed to help those in research and in industry to uphold the highest ethical standards in their work."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

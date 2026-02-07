@@ -6,7 +6,7 @@ Not AI:
 key: 2HHK5J6K
 type: document
 short_title: "MLCommons AILuminate Benchmark"
-year: 2024
+year: 2025
 first_author: [[MLCommons]]
 authors: MLCommons
 url: "https://mlcommons.org/benchmarks/ailuminate"
@@ -17,7 +17,7 @@ newtags:
 tags: 
 research_topic: "Machine Learning"
 abstract: "The rapid advancement and deployment of AI systems have created an urgent need for standard safety-evaluation frameworks. AILuminate v1.0 is the first comprehensive industry-standard benchmark for assessing AI-product risk and reliability. Its development employed an open process that included participants from multiple fields. The benchmark evaluates an AI system's resistance to prompts designed to elicit dangerous, illegal, or undesirable behavior in 12 hazard categories, including violent crimes, nonviolent crimes, sex-related crimes, child sexual exploitation, indiscriminate weapons, suicide and self-harm, intellectual property, privacy, defamation, hate, sexual content, and specialized advice."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

@@ -1,12 +1,12 @@
 ---
-Human View:
-Human View Date:
-Human View note:
-Not AI:
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 key: XFBL55N2
 type: journalArticle
 short_title: "Understanding hate speech"
-year: 2024
+year: 2025
 first_author: "[[Muhammad Umair Arshad]]"
 authors: "Muhammad Umair Arshad; Waseem Shahzad"
 doi: 10.7717/peerj-cs.2372
@@ -18,9 +18,9 @@ moral_psychology: N/A
 newtags: "Toxicity & Hate Speech"
 key_contribution: "Introduced HateInsights, a hate speech dataset with dual evaluations (class labels + rationales) to assess model interpretability alongside classification performance."
 significance: "Reveals that high-performing hate speech classifiers often fail on explainability metrics (plausibility/faithfulness), arguing that effective moderation requires transparent reasoning, not just accurate flag-prediction."
-tags:
+tags: 
 abstract: "The persistence of hate speech continues to pose an obstacle in the realm of online social media. Despite the continuous evolution of advanced models for identifying hate speech, the critical dimensions of interpretability and explainability have not received proportional scholarly attention. In this article, we introduce the HateInsights dataset, a groundbreaking benchmark in the ﬁeld of hate speech datasets, encompassing diverse aspects of this widespread issue. Within our dataset, each indivi"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

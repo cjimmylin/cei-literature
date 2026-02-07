@@ -6,7 +6,7 @@ Not AI:
 key: THMU43GQ
 type: journalArticle
 short_title: "The Moral Machine experiment"
-year: 2018
+year: 2025
 first_author: "[[Edmond Awad]]"
 authors: "Edmond Awad; Sohan Dsouza; Richard Kim; Jonathan Schulz; Joseph Henrich; Azim Shariff; Jean-François Bonnefon; Iyad Rahwan"
 doi: 10.1038/s41586-018-0637-6
@@ -20,7 +20,7 @@ key_contribution: "Deployed the Moral Machine experiment (40M decisions) to map 
 significance: "The foundational large-scale study of machine ethics, revealing that ethical preferences are not universal but culturally clustered (Western vs. Eastern vs. Southern), complicating global alignment."
 tags: 
 abstract: "With the rapid development of Artificial Intelligence technology come widespread concerns about how machines will behave in morally charged situations. Addressing these concerns raises the major challenge of quantifying societal expectations about the ethical principles that should guide machine behavior. To address this challenge, we deployed the Moral Machine, an Internet-based experimental platform that is designed to explore the multi-dimensional moral dilemmas faced by autonomous vehicles."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

@@ -6,7 +6,7 @@ Not AI:
 key: VFFFBUPX
 type: journalArticle
 short_title: "Crowdsourcing moral machines"
-year: 2020
+year: 2025
 first_author: "[[Edmond Awad]]"
 authors: "Edmond Awad; Sohan Dsouza; Jean-François Bonnefon; Azim Shariff; Iyad Rahwan"
 doi: 10.1145/3339904
@@ -20,7 +20,7 @@ key_contribution: "Introduced the Moral Machine platform, a global crowdsourcing
 significance: "Laid the groundwork for the largest cross-cultural study of machine ethics, providing the data necessary to understand regional variations in moral intuition for autonomous vehicle regulation."
 tags: 
 abstract: "A platform for creating a crowdsourced picture of human opinions on how machines should handle moral dilemmas."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

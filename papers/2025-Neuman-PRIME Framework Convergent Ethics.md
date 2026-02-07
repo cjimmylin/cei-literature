@@ -1,6 +1,5 @@
 ---
 
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,15 +24,16 @@ significance: "Reveals a convergence across models on care/harm and fairness whi
 pdf_extract: "PDF Extracts/2025-Neuman-PRIME Framework Convergent Ethics.md"
 abstract: "As large language models (LLMs) are increasingly deployed in consequential decision-making contexts, systematically assessing their ethical reasoning capabilities becomes a critical imperative. This paper introduces the Priorities in Reasoning and Intrinsic Moral Evaluation (PRIME) framework—a comprehensive methodology for analyzing moral priorities across foundational ethical dimensions including consequentialist-deontological reasoning, moral foundations theory, and Kohlberg's developmental st"
 paper_summary: "Abstract: As large language models (LLMs) are increasingly deployed in consequential decision-making contexts, systematically assessing their ethical reasoning capabilities becomes a critical imperative. This p | Overview: The Convergent Ethics of AI? Analyzing Moral Foundation Priorities in Large Language Models with a Multi-Framework Approach Chad Coleman W. Russell Neuman Ali Dasdan New York University New York Unive | Methodology: Chad Coleman W. Russell Neuman Ali Dasdan New York University New York University DropBox cjc652@nyu.edu wrn210@nyu.edu alidasdan@gmail.com Safinah Al | Key Findings: (PRIME) framework—a comprehensive methodology for analyzing moral priorities across foundational ethical dimensions including consequentialist-deontol | Conclusions: This comprehensive analysis of moral reasoning patterns in language models reveals significant insights into how artificial intelligence systems appro"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: Yes
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Yes
 ---
  The Convergent Ethics of AI? Analyzing Moral Foundation Priorities in Large Language Models with a Multi-Framework Approach
 

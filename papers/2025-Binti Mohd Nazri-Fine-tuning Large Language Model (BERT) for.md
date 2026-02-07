@@ -1,8 +1,8 @@
 ---
-Human View:
-Human View Date:
-Human View note:
-Not AI:
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 key: KEWE563L
 type: journalArticle
 short_title: "Fine-tuning Large Language Model (BERT) for"
@@ -18,9 +18,9 @@ moral_psychology: N/A
 newtags: "Islam, Virtue Ethics"
 key_contribution: "Fine-tunes a BERT model on the 'Islam: Questions and Answers' corpus to enhance its ability to perform moral-related QA tasks from an Islamic perspective"
 significance: "Demonstrates the feasibility of specializing LLMs for non-Western, virtue-based (Islamic character) moral inquiry using targeted domain-specific fine-tuning"
-tags:
+tags: 
 abstract: "The development of Large Language Models (LLM) that are capable of understanding and responding to issues from an Islamic perspective is extremely insightful as it will benefit many people. For an LLM to do so, it is not enough for the model to only understand the language, but it also needs to understand the context and specific doctrines within the Islamic texts due to the complexity of Islamic jurisprudence and moral philosophy. Therefore, in this research, we intend to fine-tune an LLM model"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No
 utilitarian_ethics: No

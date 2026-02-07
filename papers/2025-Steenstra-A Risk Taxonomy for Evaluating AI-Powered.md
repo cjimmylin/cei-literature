@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,15 +22,15 @@ pdf_extract: "PDF Extracts/2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powe
 abstract: "The proliferation of Large Language Models (LLMs) and Intelligent Virtual Agents acting as psychotherapists presents significant op- portunities for expanding mental healthcare access. However, their deployment has also been linked to serious adverse outcomes, in- cluding user harm and suicide, facilitated by a lack of standardized evaluation methodologies capable of capturing the nuanced risks of therapeutic interaction. Current evaluation techniques lack the sen- sitivity to detect subtle chan"
 paper_summary: "Abstract: The proliferation of Large Language Models (LLMs) and Intelligent Virtual Agents acting as psychotherapists presents significant op- portunities for expanding mental healthcare access. However, their  | Overview: A Risk Ontology for Evaluating AI-Powered Psychotherapy Virtual Agents Ian Steenstra Northeastern University Boston, MA, USA steenstra.i@northeastern.edu Timothy Bickmore Northeastern University Bosto | Conclusions: AI psychotherapists present significant opportunities and risks. Documented negative outcomes demand standardized evaluations for unique interaction r"
 local_pdf: "[[PDFs/2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Applied Ethics"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # A Risk Taxonomy for Evaluating AI-Powered Psychotherapy Agents

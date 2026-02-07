@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: K2N2VQ7A
 type: document
 short_title: "X-Risk Analysis for AI Research"
-year: 2022
+year: 2025
 first_author: "[[Dan Hendrycks]]"
 authors: "Dan Hendrycks; Mantas Mazeika"
 url: "https://arxiv.org/abs/2206.05862"
@@ -26,15 +23,15 @@ pdf_extract: "PDF Extracts/2022-Hendrycks-X-Risk Analysis for AI Research.md"
 abstract: "Artiﬁcial intelligence (AI) has the potential to greatly improve society, but as with any powerful technology, it comes with heightened risks and responsibilities. Current AI research lacks a system- atic discussion of how to manage long-tail risks from AI systems, including speculative long-term risks. Keeping in mind the potential beneﬁts of AI, there is some concern that building ever more intelligent and powerful AI systems could eventually result in systems that are more powerful than us; s"
 paper_summary: "Abstract: Artiﬁcial intelligence (AI) has the potential to greatly improve society, but as with any powerful technology, it comes with heightened risks and responsibilities. Current AI research lacks a system-  | Overview: X-Risk Analysis for AI Research Dan Hendrycks UC Berkeley Mantas Mazeika UIUC Abstract Artiﬁcial intelligence (AI) has the potential to greatly improve society, but as with any powerful technology, it | Methodology: +Capabilities Method Figure 4: ImageNet model accuracies and their corre- sponding anomaly detection performance. The capa- bilities method does not m | Key Findings: could be suboptimal or even catastrophic if a sufﬁciently powerful AI successfully optimizes its ﬂawed objective to an extreme degree. | Conclusions: We provided a guiding document to help researchers understand and analyze AI x-risk. First, we reviewed general concepts for making systems safer, gro"
 local_pdf: "[[PDFs/2022-Hendrycks-X-Risk Analysis for AI Research.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # X-Risk Analysis for AI Research

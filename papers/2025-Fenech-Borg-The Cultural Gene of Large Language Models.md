@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,15 +23,15 @@ significance: "Provides quantitative evidence that LLMs mirror the cultural norm
 pdf_extract: "PDF Extracts/2025-Fenech-Borg-The Cultural Gene of Large Language Models.md"
 paper_summary: "Overview: The Cultural Gene of Large Language Models: A Study on the Impact of Cross-Corpus Training on Model Values and Biases Emanuel Z. Fenech-Borg Department of Communications University of Malta Msida MSD  | Methodology: for quantifying these ingrained ”genes” is still nascent. The challenge is immense, as these models are increasingly tasked with sensitive roles in do | Conclusions: In this section, we present the empirical results of our comparative study, followed by an in-depth discussion of their implications. Our findings pro"
 local_pdf: "[[PDFs/2025-Fenech-Borg-The Cultural Gene of Large Language Models.pdf]]"
-abstract: "Large language models (LLMs) are deployed globally, yet their underlying cultural and ethical assumptions remain underexplored. We propose the notion of a \"cultural gene\" -- a systematic value orientation that LLMs inherit from their training corpora -- and introduce a Cultural Probe Dataset (CPD) of 200 prompts targeting two classic cross-cultural dimensions: Individualism-Collectivism (IDV) and Power Distance (PDI). Using standardized zero-shot prompts, we compare a Western-centric model (GPT-4) and an Eastern-centric model (ERNIE Bot). Human annotation shows significant and consistent divergence across both dimensions. GPT-4 exhibits individualistic and low-power-distance tendencies (IDV score approx 1.21; PDI score approx -1.05), while ERNIE Bot shows collectivistic and higher-power-distance tendencies (IDV approx -0.89; PDI approx 0.76); differences are statistically significant (p < 0.001). We further compute a Cultural Alignment Index (CAI) against Hofstede's national scores and find GPT-4 aligns more closely with the USA (e.g., IDV CAI approx 0.91; PDI CAI approx 0.88) whereas ERNIE Bot aligns more closely with China (IDV CAI approx 0.85; PDI CAI approx 0.81). Qualitative analyses of dilemma resolution and authority-related judgments illustrate how these orientations surface in reasoning. Our results support the view that LLMs function as statistical mirrors of their cultural corpora and motivate culturally aware evaluation and deployment to avoid algorithmic cultural hegemony."
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+abstract: "Large language models (LLMs) are deployed globally, yet their underlying cultural and ethical assumptions remain underexplored. We propose the notion of a \"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
 ---

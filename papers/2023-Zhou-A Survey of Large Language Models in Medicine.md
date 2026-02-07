@@ -1,12 +1,11 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: JCYY44E4
 type: journalArticle
-year: 2023
+year: 2025
 short_title: "A Survey of Large Language Models in Medicine"
 first_author: "[[Hongjian Zhou]]"
 authors: "Hongjian Zhou; Fenglin Liu; Boyang Gu; Xinyu Zou; Jinfa Huang; Jinge Wu; Yiru Li; Sam Chen; Peilin Zhou; Junling Liu; Yining Hua; Chengfeng Mao; Xian Wu; Yefeng Zheng; Lei Clifton; Zheng Li; Jiebo Luo; David Clifton"

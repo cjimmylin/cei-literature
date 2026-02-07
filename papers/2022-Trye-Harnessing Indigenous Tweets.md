@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 5BYLIFBB
 type: journalArticle
 short_title: "Harnessing Indigenous Tweets"
-year: 2022
+year: 2025
 first_author: "[[David Trye]]"
 authors: "David Trye; Te Taka Keegan; Paora Mato; Mark Apperley"
 doi: 10.1007/s10579-022-09580-w
@@ -23,14 +20,14 @@ tags:
 local_pdf: "[[PDFs/2022-Trye-Harnessing Indigenous Tweets.pdf]]"
 pdf_extract: "PDF Extracts/2022-Trye-Harnessing Indigenous Tweets.md"
 abstract: "Abstract Te reo Māori, the Indigenous language of Aotearoa New Zealand, is a distinctive feature of the nation’s cultural heritage. This paper documents our efforts to build a corpus of 79,000 Māori-language tweets using computational methods. The Reo Māori Twitter (RMT) Corpus was created by targeting Māori-language users identified by the Indigenous Tweets website, pre-processing their data and filtering out non-Māori tweets, together with other sources of noise. Our motivation for creating su"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "NLP & Representation Learning"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
 ---

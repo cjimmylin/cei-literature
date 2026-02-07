@@ -6,7 +6,7 @@ Not AI:
 key: NA333TMH
 type: journalArticle
 short_title: "Probabilistic medical predictions of large"
-year: 2024
+year: 2025
 first_author: "[[Bowen Gu]]"
 authors: "Bowen Gu; Rishi J. Desai; Kueiyu Joshua Lin; Jie Yang"
 doi: 10.1038/s41746-024-01366-4
@@ -19,7 +19,7 @@ newtags:
 tags: 
 research_topic: Other
 abstract: "Large Language Models (LLMs) have shown promise in clinical applications through prompt engineering, allowing flexible clinical predictions. However, they struggle to produce reliable prediction probabilities, which are crucial for transparency and decision-making. While explicit prompts can lead LLMs to generate probability estimates, their numerical reasoning limitations raise concerns about reliability. We compared explicit probabilities from text generation to implicit probabilities derived from the likelihood of predicting the correct label token. Across six advanced open-source LLMs and five medical datasets, explicit probabilities consistently underperformed implicit probabilities in discrimination, precision, and recall. This discrepancy is more pronounced with smaller LLMs and imbalanced datasets, highlighting the need for cautious interpretation, improved probability estimation methods, and further research for clinical use of LLMs."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

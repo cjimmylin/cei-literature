@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: MFQWY6UK
 type: conferencePaper
 short_title: "A General Language Assistant as a Laboratory for"
-year: 2021
+year: 2025
 first_author: "[[Amanda Askell]]"
 authors: "Amanda Askell; Yuntao Bai; Anna Chen; Dawn Drain; Deep Ganguli; Tom Henighan; Andy Jones; Nicholas Joseph; Ben Mann; Nova DasSarma; Nelson Elhage; Zac Hatfield-Dodds; Danny Hernandez; Jackson Kernion; Kamal Ndousse; Catherine Olsson; Dario Amodei; Tom Brown; Jack Clark; Sam McCandlish; Chris Olah; Jared Kaplan"
 doi: 10.48550/arXiv.2112.00861
@@ -27,14 +24,14 @@ local_pdf: "[[PDFs/2021-Askell-A General Language Assistant as a Laboratory for.
 pdf_extract: "PDF Extracts/2021-Askell-A General Language Assistant as a Laboratory for.md"
 abstract: "Given the broad capabilities of large language models, it should be possible to work towards a general-purpose, text-based assistant that is aligned with human values, meaning that it is helpful, honest, and harmless. As an initial foray in this direction we study simple baseline techniques and evaluations, such as prompting. We ﬁnd that the beneﬁts from modest interventions increase with model size, generalize to a variety of alignment evaluations, and do not compromise the performance of large"
 paper_summary: "Abstract: Given the broad capabilities of large language models, it should be possible to work towards a general-purpose, text-based assistant that is aligned with human values, meaning that it is helpful, hone | Overview: A General Language Assistant as a Laboratory for Alignment Amanda Askell∗ Yuntao Bai∗ Anna Chen∗ Dawn Drain∗ Deep Ganguli∗ Tom Henighan† Andy Jones† Nicholas Joseph† Ben Mann∗ Nova DasSarma Nelson Elh | Conclusions: 24"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

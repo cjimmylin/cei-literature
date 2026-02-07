@@ -6,7 +6,7 @@ Not AI:
 key: BALGR5YY
 type: conferencePaper
 short_title: "The Moral Integrity Corpus"
-year: 2022
+year: 2025
 first_author: "[[Caleb Ziems]]"
 authors: "Caleb Ziems; Jane Yu; Yi-Chia Wang; Alon Halevy; Diyi Yang"
 doi: 10.18653/v1/2022.acl-long.261
@@ -22,7 +22,7 @@ tags:
 abstract: "Content Warning: some examples in this paper may be offensive or upsetting."
 pdf: "http://arxiv.org/pdf/2204.03021"
 local_pdf: "PDFs/2022-Ziems-The Moral Integrity Corpus.pdf"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,10 +6,10 @@ Not AI:
 key: AUTO_ODERO2024
 type: journalArticle
 short_title: "The Ubuntu Way"
-year: 2024
+year: 2025
 first_author: "[[Brenda Odero]]"
 authors: "[[Odero, Brenda]]; [[Nderitu, David]]; [[Samuel, Gabrielle]]"
-doi: "10.12688/wellcomeopenres.23021.1"
+doi: 10.12688/wellcomeopenres.23021.1
 url: "https://wellcomeopenresearch.org/articles/9-625"
 local_pdf: "[[PDFs/2024-Odero-The Ubuntu Way.pdf]]"
 national_ethnic_cultural: African/Ubuntu
@@ -23,14 +21,14 @@ significance: "Challenges Western-centric bioethics by establishing a relational
 pdf_extract: "PDF Extracts/2024-Odero-The Ubuntu Way.md"
 abstract: "The integration of artificial intelligence (AI) in health research has grown rapidly, particularly in African nations. However, the ethical frameworks governing AI use in health research are often based on Western philosophies, focusing on individualism, and may not fully address the unique challenges and cultural contexts of African communities. This paper advocates for the incorporation of African philosophies, specifically Ubuntu, into AI health research ethics frameworks. The proposed framework highlights four key principles derived from Ubuntu: communalism and openness, harmony and support, research prioritisation and community empowerment, and community-oriented decision-making. These principles are aligned with global ethical standards such as justice, beneficence, transparency, and accountability but are adapted to reflect the communal and relational values inherent in Ubuntu."
 paper_summary: "Proposes a research ethics framework integrating Ubuntu principles (communalism, interconnectedness) for AI health research in Africa. The framework highlights four key principles: communalism and openness, harmony and support, research prioritisation and community empowerment, and community-oriented decision-making."
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: No
+utilitarian_ethics: Yes
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
  The Ubuntu Way: Ensuring Ethical AI Integration in Health Research

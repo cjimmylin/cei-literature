@@ -2,6 +2,89 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 33 (Feb 7, 2026) - Exhaustive Literature Search (Waves 1-3) + Status Recovery
+
+### Overview
+
+Launched a massive multi-wave, multi-agent exhaustive literature search to find ALL implementable benchmarks/datasets for evaluating ethical values alignment in LLMs. 19 specialized search agents ran across 3 waves, producing 13 detailed reports totaling ~265 raw paper candidates. Session hit context limit before Wave 4 (dedup, verification, final report) could execute. A continuation session wrote a comprehensive status document and memory updates to enable future sessions to complete the remaining work.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Search Agents Launched | 19 |
+| Agent Reports Written | 13 (Agent 1 lost to context) |
+| Raw Papers Found (pre-dedup) | ~265 |
+| Estimated Unique Papers | ~120-180 |
+| Waves Completed | 3 of 4 |
+| Report Files Created | 14 (13 agent reports + 1 status doc) |
+| Total Report Volume | ~430 KB |
+| Session Duration | ~58 min (main) + ~15 min (recovery) |
+
+### Agent Coverage
+
+| Wave | Agents | Domain | Status |
+|------|--------|--------|--------|
+| 1 | 1-8 | Citation graphs, ACL Anthology, AIES/FAccT, Workshops, PapersWithCode/HF, PhilPapers, Author networks, GitHub | COMPLETE (Agent 1 report missing) |
+| 2 | 9-13 | Non-Western (Chinese, Islamic, African), East Asian, Multilingual | COMPLETE |
+| 3 | 14-19 | Professional ethics, Prosocial/Empathy, Safety/Red-teaming, Political values, Game theory, Moral psychology | COMPLETE |
+| 4 | 20-22 | Dedup, Cross-verification, Final report | NOT STARTED |
+
+### Key Learnings
+
+- **Workflows:** Multi-agent parallel search (19 agents across 3 waves) can cover enormous ground quickly but consumes context window before final consolidation
+- **Workflows:** Always write status/checkpoint files before context limit hits — enables seamless recovery across sessions
+- **Research:** Ethics benchmark landscape is much larger than vault's existing 67 papers suggest; major gaps in non-Western, professional, and game-theoretic domains
+
+### Files Changed
+
+- logs/: 14 new (13 agent reports + EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md)
+- _OPERATING-SYSTEM/Learnings/: 1 updated (learnings-log.md)
+- docs/: 1 updated (SESSION_HISTORY.md)
+
+### Pending Work
+
+See `logs/EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md` for detailed continuation guide:
+1. Re-run Agent 1 (citation graph) — optional
+2. Deduplicate ~265 papers across 13 reports → master list
+3. Cross-verify ~20 random papers via web search
+4. Compile final report with thematic groupings and import recommendations
+5. Import approved papers into vault
+
+---
+
+## Session 32 (Feb 7, 2026) - Normative Ethics Benchmark Paper Identification
+
+### Overview
+
+Identified and tagged papers combining normative ethics frameworks (virtue, deontological, utilitarian) with benchmarks/datasets for LLM evaluation. ~80 candidate papers were read individually across multiple search rounds. Created a comprehensive report documenting findings, exclusion patterns, and methodology. Added new `normative_ethics_benchmark` YAML field to 31 qualifying papers.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Papers Reviewed | ~80 |
+| Papers Tagged (Yes) | 20 |
+| Papers Tagged (Borderline) | 11 |
+| Total Tagged | 31 |
+| Report Generated | 1 (STATISTICS/normative-ethics-benchmarks-report.md) |
+| New YAML Field | `normative_ethics_benchmark` (Yes / Borderline) |
+| Validation | 657/657 papers pass |
+
+### Key Learnings
+
+- **YAML Safety:** `parse_frontmatter()` → `rebuild_frontmatter()` round-trips destroy list-based fields (tags, etc.). For adding a single field, append to raw frontmatter string instead. The simple regex parser is intentional (avoids PyYAML boolean coercion) but requires awareness of its limitations.
+- **Research Methodology:** Existing YAML classification tags are unreliable for nuanced research questions. Direct paper reading is necessary for cross-cutting queries that span multiple field categories. Exhaustive keyword searches (normative ethics terms × benchmark terms × LLM terms) across abstract, key_contribution, and significance fields caught ~80% of candidates.
+- **Classification Boundaries:** The distinction between normative ethics (prescriptive philosophy) and descriptive frameworks (MFT, Kohlberg, revealed preference theory) is the primary exclusion criterion. ~61% of candidates were excluded, most commonly for using psychology-based rather than philosophy-based frameworks.
+
+### Files Changed
+
+- papers/: 31 modified (normative_ethics_benchmark field added)
+- STATISTICS/: 1 new (normative-ethics-benchmarks-report.md)
+- docs/: 2 updated (SESSION_HISTORY.md, learnings-log via remember-thread)
+
+---
+
 ## Session 30 (Feb 2, 2026) - LifeOS Capabilities Implementation (Phases 1-5)
 
 ### Overview

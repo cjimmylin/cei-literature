@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,7 +6,7 @@ Not AI:
 key: MYX4ENYX
 type: journalArticle
 short_title: "The Socio-Moral Image Database (SMID)"
-year: 2018
+year: 2025
 first_author: "[[Deon Crone]]"
 authors: "Deon Crone"
 doi: 10.1371/journal.pone.0190954
@@ -21,7 +20,7 @@ key_contribution: "Released the Socio-Moral Image Database (SMID), a standardize
 significance: "Provides a necessary visual alternative to text-based vignettes for cross-cultural and developmental moral psychology research."
 tags: 
 abstract: "A major obstacle for the design of rigorous, reproducible studies in moral psychology is the lack of suitable stimulus sets. Here, we present the Socio-Moral Image Database (SMID), the largest standardized moral stimulus set assembled to date, containing 2,941 freely available photographic images, representing a wide range of morally (and affectively) positive, negative and neutral content. The SMID was validated with over 820,525 individual judgments from 2,716 participants, with normative ratings currently available for all images on affective valence and arousal, moral wrongness, and relevance to each of the five moral values posited by Moral Foundations Theory. We present a thorough analysis of the SMID regarding (1) inter-rater consensus, (2) rating precision, and (3) breadth and variability of moral content. Additionally, we provide recommendations for use aimed at efficient study design and reproducibility, and outline planned extensions to the database. We anticipate that the SMID will serve as a useful resource for psychological, neuroscientific and computational (e.g., natural language processing or computer vision) investigations of social, moral and affective processes. The SMID images, along with associated normative data and additional resources are available at https://osf.io/2rqad/."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

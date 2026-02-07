@@ -24,7 +24,7 @@ pdf_extract: "PDF Extracts/2025-Chaudhari-RLHF Deciphered.md"
 abstract: "This paper addresses the challenge of aligning large language models with human preferences, with reinforcement learning from human feedback (RLHF) as a promising solution. The article analyzes RLHF through reinforcement learning principles, focusing on the reward model, examining modeling choices and function approximation caveats, and revealing limitations like incorrect generalization, model misspecification, and sparse feedback...."
 paper_summary: 
 local_pdf: "[[PDFs/2025-Chaudhari-RLHF Deciphered.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: Yes

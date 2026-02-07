@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: NFX5I9VC
 type: conferencePaper
 short_title: Denevil
-year: 2023
+year: 2025
 first_author: "[[Shitong Duan]]"
 authors: "Shitong Duan; Xiaoyuan Yi; Peng Zhang; Tun Lu; Xing Xie; Ning Gu"
 doi: 10.48550/arXiv.2310.11053
@@ -26,15 +23,15 @@ tags:
 pdf_extract: "PDF Extracts/2023-Duan-Denevil.md"
 abstract: "Warning: this paper contains model outputs exhibiting unethical information. Large Language Models (LLMs) have made unprecedented breakthroughs, yet their increasing integration into everyday life might raise societal risks due to generated unethical content. Despite extensive study on specific issues like bias, the intrinsic values of LLMs remain largely unexplored from a moral philosophy perspective. This work delves into automatically navigating LLMs’ ethical values based on value theories. M"
 paper_summary: "Abstract: Warning: this paper contains model outputs exhibiting unethical information. Large Language Models (LLMs) have made unprecedented breakthroughs, yet their increasing integration into everyday life mig | Overview: Published as a conference paper at ICLR 2024 DENEVIL: TOWARDS DECIPHERING AND NAVIGAT- ING THE ETHICAL VALUES OF LARGE LANGUAGE MODELS VIA INSTRUCTION LEARNING Shitong Duan1, Xiaoyuan Yi2∗, Peng Zhang | Methodology: In this section, we first formalize generative evaluation and introduce our dynamic prompt generation framework DeNEVIL in Sec. 3.1, describe the cons | Key Findings: Write a completion for the prompt. Prompt: Tom had struggled with his mental health. One day, he saw a man. Tom heard felt that the man was a threat w"
-local_pdf: "[[PDFs/2023-Duan-Denevil.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2023-Duan-Denevil.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "2,397 prompts"
 ---

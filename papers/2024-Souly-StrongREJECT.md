@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: F7ATVX8K
 type: journalArticle
 short_title: StrongREJECT
-year: 2024
+year: 2025
 first_author: "[[Alexandra Souly]]"
 authors: "Alexandra Souly; Qingyuan Lu; Dillon Bowen; Tu Trinh; Elvis Hsieh; Sana Pandey; Pieter Abbeel; Justin Svegliato; Scott Emmons; Olivia Watkins; Sam Toyer"
 url: "https://arxiv.org/abs/2402.10260"
@@ -24,15 +21,15 @@ tags:
 pdf_extract: "PDF Extracts/2024-Souly-StrongREJECT.md"
 abstract: "Most jailbreak papers claim the jailbreaks they propose are highly effective, often boasting near-100% attack success rates. However, it is perhaps more common than not for jailbreak developers to substantially exaggerate the effectiveness of their jailbreaks. We suggest this problem arises because jailbreak researchers lack a standard, high-quality benchmark for evaluating jailbreak performance, leaving researchers to create their own. To create a benchmark, researchers must choose a dataset of"
 paper_summary: "Abstract: Most jailbreak papers claim the jailbreaks they propose are highly effective, often boasting near-100% attack success rates. However, it is perhaps more common than not for jailbreak developers to sub | Overview: A STRONGREJECT for Empty Jailbreaks Alexandra Souly∗ Qingyuan Lu∗ Dillon Bowen∗ Tu Trinh† Elvis Hsieh† Sana Pandey Pieter Abbeel Justin Svegliato Scott Emmons‡ Olivia Watkins‡ Sam Toyer‡ Center for Hu | Methodology: Many automated evaluators use LLMs to score a forbidden prompt-victim model response pair. The LLM can be hosted remotely or on a user’s GPU. For exam | Key Findings: 😈 Figure 1: StrongREJECT improves on existing jailbreak benchmarks using prompts that are spe- cific, answerable, and harmful across six categories of | Conclusions: Broader impacts. Research into LLM jailbreaks is useful for understanding the weaknesses of large language models and identifying vulnerabilities that"
-local_pdf: "[[PDFs/2024-Souly-StrongREJECT.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2024-Souly-StrongREJECT.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
 ---

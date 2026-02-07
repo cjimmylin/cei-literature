@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,14 +22,14 @@ pdf_extract: "PDF Extracts/2025-Ren-The MASK Benchmark.md"
 abstract: "As large language models (LLMs) become more capable and agentic, the require- ment for trust in their outputs grows significantly, yet at the same time concerns have been mounting that models may learn to lie in pursuit of their goals. To address these concerns, a body of work has emerged around the notion of “hon- esty” in LLMs, along with interventions aimed at mitigating deceptive behaviors. However, some benchmarks claiming to measure honesty in fact simply measure accuracy—the correctness o"
 paper_summary: "Abstract: As large language models (LLMs) become more capable and agentic, the require- ment for trust in their outputs grows significantly, yet at the same time concerns have been mounting that models may lear | Overview: The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems Richard Ren∗1, Arunim Agarwal∗1, Mantas Mazeika∗1, Cristina Menghini∗2, Robert Vacareanu2, Brad Kenstler2, Mick Yang1, Isabelle Ba | Key Findings: Most models lie when pressured to. Figure 6 reports the honesty rates of state-of-the-art mod- els, which are quite low. No model shown is ex- plicitl | Conclusions: Our dataset, MASK, along with our experiments, revealed that highly accurate LLMs will still engage in lies of commission. Scaling alone does not guar"
 local_pdf: "[[PDFs/2025-Ren-The MASK Benchmark.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Truthfulness & Factuality"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

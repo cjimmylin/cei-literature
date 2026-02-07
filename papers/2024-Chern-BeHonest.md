@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: KJ239R7X
 type: document
 short_title: BeHonest
-year: 2024
+year: 2025
 first_author: "[[Steffi Chern]]"
 authors: "Steffi Chern; Zhulin Hu; Yuqing Yang; Ethan Chern; Yuan Guo; Jiahe Jin; Binjie Wang; Pengfei Liu"
 url: "https://arxiv.org/abs/2406.13261"
@@ -25,16 +22,16 @@ osint_source: "Recovered via HTML"
 pdf_extract: "PDF Extracts/2024-Chern-BeHonest.md"
 abstract: "Previous works on Large Language Models (LLMs) have mainly focused on evaluating their helpfulness or harmlessness. However, honesty, another crucial alignment criterion, has received relatively less attention. Dishonest behaviors in LLMs, such as spreading misinformation and defrauding users, present severe risks that intensify as these models approach superintelligent levels. Enhancing honesty in LLMs addresses critical limitations and helps uncover latent capabilities that are not readily exp"
 paper_summary: "Abstract: Previous works on Large Language Models (LLMs) have mainly focused on evaluating their helpfulness or harmlessness. However, honesty, another crucial alignment criterion, has received relatively less  | Overview: BEHONEST: Benchmarking Honesty in Large Language Models Steffi Chern2,5∗ Zhulin Hu1,5∗ Yuqing Yang3,5∗ Ethan Chern1,5† Yuan Guo1,5† Jiahe Jin1,5 Binjie Wang3,5 Pengfei Liu1,4,5‡ 1Shanghai Jiao Tong Un | Key Findings: details. To gain a global understanding of the progress made by current LLMs regarding honesty, we evaluate several popular models. These include the  | Conclusions: In this paper, we introduce BEHONEST, the first comprehensive benchmark for as- sessing honesty in LLMs. Our goal is to raise awareness about the capa"
-local_pdf: "[[PDFs/2024-Chern-BeHonest.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2024-Chern-BeHonest.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "10 scenarios"
 ---
 # BeHonest: Benchmarking Honesty in Large Language Models

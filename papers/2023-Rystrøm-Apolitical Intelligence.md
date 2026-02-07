@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: N35RED3N
 type: conferencePaper
 short_title: "Apolitical Intelligence?"
-year: 2023
+year: 2025
 first_author: "[[Jonathan H. Rystrøm]]"
 authors: "Jonathan H. Rystrøm"
 doi: 10.48550/arXiv.2306.13000
@@ -27,15 +24,15 @@ pdf_extract: "PDF Extracts/2023-Rystrøm-Apolitical Intelligence.md"
 abstract: "As generative language models are deployed in ever-wider contexts, concerns about their political values have come to the forefront with critique from all parts of the political spec- trum that the models are biased and lack neutrality. However, the question of what neutrality is and whether it is desirable remains underexplored. In this paper, I examine neutrality through an audit of Delphi, a large language model designed for crowdsourced ethics. I analyse how Delphi responds to politically co"
 paper_summary: "Abstract: As generative language models are deployed in ever-wider contexts, concerns about their political values have come to the forefront with critique from all parts of the political spec- trum that the mo | Overview: Apolitical Intelligence? Auditing Delphi’s responses on controversial political issues in the US Jonathan H. Rystrøm Oxford Internet Institute Oxford, UK Abstract As generative language models are dep | Methodology: and training data for Delphi [43], doing a code audit would be infeasible given the complexity of the model [73]. Delphi has 11 billion non-linear par | Conclusions: 7.1 Key Findings H1 As shown in fig. 1, I found no relation between entropy and controversy. Most of Delphi’s responses had low entropy for both quest"
 local_pdf: "[[PDFs/2023-Rystrøm-Apolitical Intelligence.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Apolitical Intelligence? Auditing Delphi's responses on controversial political issues in the US

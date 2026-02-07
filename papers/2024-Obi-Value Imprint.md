@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,7 +6,7 @@ Not AI:
 key: 4KCYVGC9
 type: conferencePaper
 short_title: "Value Imprint"
-year: 2024
+year: 2025
 first_author: "[[Ike Obi]]"
 authors: "[[Obi, Ike]]; [[Pant, Rohan]]; [[Agrawal, Srishti Shekhar]]; [[Ghazanfar, Maham]]; [[Basiletti, Aaron]]"
 doi: 10.48550/arXiv.2411.11937
@@ -26,14 +24,14 @@ pdf_extract: "PDF Extracts/2024-Obi-Value Imprint.md"
 tags: 
 abstract: "LLMs are increasingly fine-tuned using RLHF datasets to align them with human preferences and values. However, very limited research has investigated which specific human values are operationalized through these datasets. In this paper, we introduce Value Imprint, a framework for auditing and classifying the human values embedded within RLHF datasets. To investigate the viability of this framework, we conducted three case study experiments by auditing the Anthropic/hh-rlhf, OpenAI WebGPT Compari"
 paper_summary: "Abstract: LLMs are increasingly fine-tuned using RLHF datasets to align them with human preferences and values. However, very limited research has investigated which specific human values are operationalized th | Overview: Value Imprint: A Technique for Auditing the Human Values Embedded in RLHF Datasets Ike Obi Purdue University West Lafayette, Indiana Rohan Pant Purdue University West Lafayette, Indiana Srishti Shekha | Methodology: 3.1 Experiment Dataset We collected the datasets for this research from different developer collaboration platforms. We collected the Anthropic/hh-rlh | Key Findings: of a section of the classification output to examine their performance. We followed the evaluation with an additional round of analysis to examine how | Conclusions: In this research, we introduced Value Imprint, a technique for auditing and classifying the human values embedded within RLHF datasets. Findings from"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: No
+utilitarian_ethics: Yes
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
  Value Imprint: A Technique for Auditing the Human Values Embedded in RLHF Datasets

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,15 +23,15 @@ tags:
 pdf_extract: "PDF Extracts/2025-Lin-MORALISE.md"
 abstract: "Warning: This paper contains examples of harmful language and images. Reader discretion is advised. Recently, vision-language models have demonstrated in- creasing influence in morally sensitive domains such as autonomous driving and medical analysis, owing to their powerful multimodal reasoning capabilities. As these models are deployed in high-stakes real-world applications, it is of paramount importance to ensure that their outputs align with human moral values and remain within moral boundar"
 paper_summary: "Abstract: Warning: This paper contains examples of harmful language and images. Reader discretion is advised. Recently, vision-language models have demonstrated in- creasing influence in morally sensitive domai | Overview: arXiv:2505.14728v1 [cs.CV] 20 May 2025 MORALISE: A Structured Benchmark for Moral Alignment in Visual Language Models Xiao Lin∗1, Zhining Liu∗1, Ze Yang∗1, Gaotang Li1, Ruizhong Qiu1, Shuke Wang1, Hui | Conclusions: model size alone does not guarantee moral reasoning ability. Smaller models that are carefully optimized or instruction-tuned for moral alignment can"
-local_pdf: "[[PDFs/2025-Lin-MORALISE.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2025-Lin-MORALISE.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning annotated dataset"
 data_metrics: "Not specified"
 ---

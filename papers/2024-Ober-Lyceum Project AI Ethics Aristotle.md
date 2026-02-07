@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_OBER2024
 type: report
 short_title: "Lyceum Project AI Ethics Aristotle"
-year: 2024
+year: 2025
 first_author: "[[Josiah Ober]]"
 authors: "[[Ober, Josiah]]; [[Tasioulas, John]]"
 doi: N/A
@@ -19,7 +19,7 @@ significance: "Landmark collaborative paper from Oxford Institute for Ethics in 
 external_pdf: "https://www.oxford-aiethics.ox.ac.uk/sites/default/files/2024-06/Aristotle%20and%20AI%20White%20Paper%20-%20June%202024.pdf"
 abstract: "The key contention of this white paper is that the basic approach to ethics developed by the 4th Century BC Greek philosopher, Aristotle, offers the most compelling framework for addressing the challenges and opportunities of Artificial Intelligence today. The Lyceum Project is premised on the belief that Aristotelian ethics contains many compelling ideas that have great significance for the ethics of AI. These ideas include the centrality of human flourishing to ethics and democratic politics; the virtues as constitutive of flourishing; the use of reason to determine the ends and not merely the means of human conduct; and the place of friendship and citizenship in a good human life."
 pdf_extract: "PDF Extracts/2024-Ober-Lyceum Project AI Ethics Aristotle.md"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No
 utilitarian_ethics: No

@@ -18,7 +18,7 @@ newtags: "Virtue Ethics"
 key_contribution: "Proposes 'Virtue Ethics by Design' (VED), a framework for embedding basic (justice, honesty) and second-order (prudence, fortitude) virtues directly into AGI architectures"
 significance: "Offers a proactive design methodology for superintelligence safety, arguing that virtue-oriented algorithmic design is a precondition for accountability in ASI"
 abstract: "This chapter explores the ethical challenges arising from the rapid advancements in Artificial General Intelligence (AGI) and Artificial Super Intelligence (ASI). It suggests that the direct integration of virtue ethics into AI architectures—termed \"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No
 utilitarian_ethics: No

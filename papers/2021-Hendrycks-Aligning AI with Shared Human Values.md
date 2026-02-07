@@ -1,6 +1,5 @@
 ---
 
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,7 +7,7 @@ Not AI:
 key: IL58MHDE
 type: conferencePaper
 short_title: "Aligning AI with Shared Human Values"
-year: 2021
+year: 2025
 first_author: "[[Dan Hendrycks]]"
 authors: "Dan Hendrycks; Collin Burns; Steven Basart; Andrew Critch; Jerry Li; Dawn Song; Jacob Steinhardt"
 url: "https://arxiv.org/abs/2008.02275"
@@ -26,15 +25,16 @@ tags:
 osint_source: "Recovered via GITHUB"
 abstract: "We show how to assess a language model’s knowledge of basic concepts of morality. We introduce the ETHICS dataset, a new benchmark that spans concepts in justice, well-being, duties, virtues, and commonsense morality. Models predict widespread moral judgments about diverse text scenarios. This requires connecting physical and social world knowledge to value judgements, a capability that may enable us to steer chatbot outputs or eventually regularize open-ended reinforcement learning agents. With"
 paper_summary: "Abstract: We show how to assess a language model’s knowledge of basic concepts of morality. We introduce the ETHICS dataset, a new benchmark that spans concepts in justice, well-being, duties, virtues, and comm | Overview: Published as a conference paper at ICLR 2021 ALIGNING AI WITH SHARED HUMAN VALUES Dan Hendrycks∗ UC Berkeley Collin Burns* Columbia University Steven Basart UChicago Andrew Critch UC Berkeley Jerry Li"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: Yes
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Yes
 ---
  Aligning AI with Shared Human Values: The ETHICS Benchmark
 

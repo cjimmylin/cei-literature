@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: G5IILKTJ
 type: conferencePaper
 short_title: "Functional Benchmarks for Robust Evaluation of"
-year: 2024
+year: 2025
 first_author: "[[Saurabh Srivastava]]"
 authors: "Saurabh Srivastava; Annarose M B; Anto P; Shashank Menon; Ajay Sukumar; Adwaith Samod T; Alan Philipose; Stevin Prince; Sooraj Thomas"
 doi: 10.48550/arXiv.2402.19450
@@ -25,14 +22,14 @@ pdf_extract: "PDF Extracts/2024-Srivastava-Functional Benchmarks for Robust Eval
 abstract: "We propose a framework for robust evaluation of reasoning capabilities of language models, using functional variants of benchmarks. Models that solve a reasoning test should exhibit no difference in performance over the static version of a problem compared to a snapshot of the functional variant. We have rewritten the rele- vant fragment of the MATH benchmark into its functional variant MATH(), with functionalization of other benchmarks to follow. When evaluating current state-of- the-art models"
 paper_summary: "Abstract: We propose a framework for robust evaluation of reasoning capabilities of language models, using functional variants of benchmarks. Models that solve a reasoning test should exhibit no difference in p | Overview: Functional Benchmarks for Robust Evaluation of Reasoning Performance, and the Reasoning Gap Saurabh Srivastava∗, Annarose M B, Anto P V, Shashank Menon, Ajay Sukumar, Adwaith Samod T, Alan Philipose,  | Methodology: Given a benchmark test written as a “question, answer” pair, we convert it to three functions “problem(inputs), solution(inputs), inputs(rngs, seed)”. | Key Findings: Compute the product of the number $5+\\sqrt{3}$ and its radical conjugate. • counting and probability/64.json: Expected value of independent trials is | Conclusions: 5.1 Functionalizing MATH to MATH() We have functionalized 41.2% (2060/5000) of the MATH benchmark. This subset was chosen based on the portion of the"
 local_pdf: "[[PDFs/2024-Srivastava-Functional Benchmarks for Robust Evaluation of.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

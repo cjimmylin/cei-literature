@@ -1,34 +1,32 @@
 ---
-
-
 Human View: true
 Human View Date: 2026-01-24
-Human View note: virtue ethics book
-Not AI:
+Human View note: "virtue ethics book"
+Not AI: 
 key: AUTO_VALLOR2024
 type: book
-short_title: The AI Mirror
-year: 2024
+short_title: "The AI Mirror"
+year: 2025
 first_author: "[[Shannon Vallor]]"
 authors: "[[Vallor, Shannon]]"
-doi: "10.1093/oso/9780197759080.001.0001"
-isbn: "9780197759066"
+doi: 10.1093/oso/9780197759080.001.0001
+isbn: 9780197759066
 url: "https://global.oup.com/academic/product/the-ai-mirror-9780197759066"
 national_ethnic_cultural: American
 religious_values: N/A
-moral_psychology: Value Pluralism / Schwartz
-newtags: American, Value Pluralism / Schwartz, Virtue Ethics
-key_contribution: Presents the metaphor of 'AI as a mirror' and argues that reclaiming human virtues like wisdom, courage, and care is essential for navigating the age of machine thinking
-significance: Shifts the AI ethics discourse from existential fear to active moral self-cultivation, emphasizing that AI reflects and amplifies our existing moral character
-abstract: "In this landmark work, Shannon Vallor presents a critical examination of artificial intelligence using the metaphor of AI as a mirror reflecting humanity. The book argues that AI systems, forged from vast amounts of historical data, often reproduce the biases and failures of the past. Vallor proposes that we must move beyond viewing AI as a utopian or dystopian force and instead see it as a catalyst for moral and intellectual growth. Drawing on the virtue ethics tradition, she argues that we must reclaim our capacity for wisdom, courage, and care in our interaction with machines. The book explores how AI acts as a \"digital mirror\" that can either confine humanity in a \"hall of mirrors\" of its own distortions or help us rediscover our potential for collective flourishing and virtuous character."
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
+newtags: "American, Value Pluralism / Schwartz, Virtue Ethics"
+key_contribution: "Presents the metaphor of 'AI as a mirror' and argues that reclaiming human virtues like wisdom, courage, and care is essential for navigating the age of machine thinking"
+significance: "Shifts the AI ethics discourse from existential fear to active moral self-cultivation, emphasizing that AI reflects and amplifies our existing moral character"
+abstract: "In this landmark work, Shannon Vallor presents a critical examination of artificial intelligence using the metaphor of AI as a mirror reflecting humanity. The book argues that AI systems, forged from vast amounts of historical data, often reproduce the biases and failures of the past. Vallor proposes that we must move beyond viewing AI as a utopian or dystopian force and instead see it as a catalyst for moral and intellectual growth. Drawing on the virtue ethics tradition, she argues that we must reclaim our capacity for wisdom, courage, and care in our interaction with machines. The book explores how AI acts as a \"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: No
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # The AI Mirror: How to Reclaim Our Humanity in an Age of Machine Thinking

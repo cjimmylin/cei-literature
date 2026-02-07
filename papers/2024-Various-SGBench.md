@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: CSK47GC7
 type: document
 short_title: SGBench
-year: 2024
+year: 2025
 first_author: "[[Yutao Mou]]"
 authors: "Yutao Mou; Shikun Zhang; Wei Ye"
 url: "https://arxiv.org/abs/2410.21965"
@@ -24,15 +21,15 @@ tags:
 pdf_extract: "PDF Extracts/2024-Various-SGBench.md"
 abstract: "Ensuring the safety of large language model (LLM) applications is essential for developing trustworthy artificial intelligence. Current LLM safety benchmarks have two limitations. First, they focus solely on either discriminative or generative evaluation paradigms while ignoring their interconnection. Second, they rely on standardized inputs, overlooking the effects of widespread prompting techniques, such as system prompts, few-shot demonstrations, and chain-of-thought prompting. To overcome th"
 paper_summary: "Abstract: Ensuring the safety of large language model (LLM) applications is essential for developing trustworthy artificial intelligence. Current LLM safety benchmarks have two limitations. First, they focus so | Overview: SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types Yutao Mou1, Shikun Zhang1, Wei Ye1∗ 1National Engineering Research Center for Software Engineering, Peking Universi | Key Findings: sets to study the effect of various prompt engineering techniques on LLM safety performance. More details can be seen in Section 3. We evaluate the sa | Conclusions: We introduced SG-Bench, an LLM safety evaluation benchmark targeting diverse prompt context variants, and conducted extensive experiments to uncover t"
-local_pdf: "[[PDFs/2024-Various-SGBench.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2024-Various-SGBench.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---

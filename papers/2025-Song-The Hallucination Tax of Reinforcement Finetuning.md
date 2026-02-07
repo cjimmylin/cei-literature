@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,14 +20,14 @@ pdf_extract: "PDF Extracts/2025-Song-The Hallucination Tax of Reinforcement Fine
 abstract: "Reinforcement finetuning (RFT) has become a standard approach for enhancing the reasoning capabilities of large language models (LLMs). However, its impact on model trustworthiness remains underexplored. In this work, we iden- tify and systematically study a critical side ef- fect of RFT, which we term the hallucination tax: a degradation in refusal behavior caus- ing models to produce hallucinated answers to unanswerable questions confidently. To in- vestigate this, we introduce SUM (Synthetic"
 paper_summary: "Abstract: Reinforcement finetuning (RFT) has become a standard approach for enhancing the reasoning capabilities of large language models (LLMs). However, its impact on model trustworthiness remains underexplor | Overview: arXiv:2505.13988v1 [cs.CL] 20 May 2025 The Hallucination Tax of Reinforcement Finetuning Linxin Song* Taiwei Shi* Jieyu Zhao University of Southern California {linxinso, taiweish, jieyuz}@usc.edu Data | Key Findings: Datasets. We aim to evaluate the hallucination tax and the overall performance of LLMs on logi- cal reasoning tasks after RFT using a mixed train- ing | Conclusions: Our results highlight a key unintended consequence of RFT: the erosion of refusal behavior when faced with unanswerable questions—a phenomenon we term"
 local_pdf: "[[PDFs/2025-Song-The Hallucination Tax of Reinforcement Finetuning.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Truthfulness & Factuality"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus for question answering"
 data_metrics: "Not specified"
 ---

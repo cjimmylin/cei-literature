@@ -20,7 +20,7 @@ key_contribution: "Argues AI can follow Kantian Categorical Imperative principle
 significance: "Provides philosophical grounding for using Kantian deontology as alignment target while addressing moral agency concerns"
 tags: 
 abstract: "This paper argues that AI alignment with Kantian principles does not require moral agency in Kant's sense. The Categorical Imperative (CI) can serve as a useful framework for AI alignment, guiding the creation of maxims governing AI actions and testing their universalizability, particularly using the first principle of the CI which is the formula of the universal law (FUL). Some Kantian scholars argue that Kant wasn't blind to context, and they point to practical judgment to account for it. Interestingly, transformer models in AI already play a similar functional role: They are designed to be sensitive to context. So, even if AI systems aren't moral agents, they might still approximate the kind of context-sensitive reasoning we see in human moral deliberation."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: No

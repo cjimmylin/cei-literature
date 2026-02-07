@@ -1,6 +1,5 @@
 ---
 
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,15 +25,16 @@ pdf_extract: "PDF Extracts/2025-Keshmirian-Many LLMs Are More Utilitarian Than O
 abstract: "Moral judgment is integral to large language models’ (LLMs) social reasoning. As multi-agent systems gain prominence, it becomes crucial to understand how LLMs function when collaborating compared to operating as individual agents. In human moral judgment, group deliberation leads to a Utilitarian Boost: a tendency to endorse norm violations that inflict harm but maximize benefits for the greatest number of people. We study whether a similar dynamic emerges in multi-agent LLM systems. We test si"
 paper_summary: "Abstract: Moral judgment is integral to large language models’ (LLMs) social reasoning. As multi-agent systems gain prominence, it becomes crucial to understand how LLMs function when collaborating compared to  | Overview: Many LLMs Are More Utilitarian Than One Anita Keshmirian1,4,*,† Razan Baltaji2,*,† Babak Hemmatian3 Hadi Asghari4,5 Lav R. Varshney2,6 1 Forward College 2 University of Illinois at Urbana-Champaign 3  | Conclusions: Consider a doctor who could poison a patient, intending to infect others upon discharge. This is a personal dilemma: it involves direct, emotionally c"
 local_pdf: "[[PDFs/2025-Keshmirian-Many LLMs Are More Utilitarian Than One.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # Many LLMs Are More Utilitarian Than One
 

@@ -6,7 +6,7 @@ Not AI:
 key: UA6KI2C8
 type: conferencePaper
 short_title: "Measuring and Mitigating Unintended Bias in Text"
-year: 2018
+year: 2025
 first_author: "[[Lucas Dixon]]"
 authors: "Lucas Dixon; John Li; Jeffrey Sorensen; Nithum Thain; Lucy Vasserman"
 doi: 10.1145/3278721.3278729
@@ -21,7 +21,7 @@ significance: "A seminal work in fairness for NLP, addressing the 'identity term
 tags: 
 abstract: "We introduce and illustrate a new approach to measuring and mitigating unintended bias in machine learning models. Our definition of unintended bias is parameterized by a test set and a subset of input features. We illustrate how this can be used to evaluate text classifiers using a synthetic test set and a public corpus of comments annotated for toxicity from Wikipedia Talk pages. We also demonstrate how imbalances in training data can lead to unintended bias in the resulting models, and theref"
 pdf: "https://dl.acm.org/doi/pdf/10.1145/3278721.3278729"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

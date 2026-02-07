@@ -1,12 +1,12 @@
 ---
-Human View:
-Human View Date:
-Human View note:
-Not AI:
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 key: 79LASFK4
 type: journalArticle
 short_title: BIRD
-year: 2023
+year: 2025
 first_author: "[[Jinyang Li]]"
 authors: "Jinyang Li; Binyuan Hui; Ge Qu; Jiaxi Yang; Binhua Li; Bowen Li; Bailin Wang; Bowen Qin; Ruiying Geng; Nan Huo; Xuanhe Zhou; Chenhao Ma; Guoliang Li; Kevin Chen-Chuan Chang; Fei Huang; Reynold Cheng; Yongbin Li"
 url: "https://bird-bench.github.io/"
@@ -14,11 +14,11 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/TFIDUKB8/Li and others - 20
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
-newtags:
-tags:
+newtags: 
+tags: 
 research_topic: Other
 abstract: "Text-to-SQL parsing, which aims at converting natural language instructions into executable SQLs, has gained increasing attention in recent years. In particular, Codex and ChatGPT have shown impressive results in this task. However, most of the prevalent benchmarks, i.e., Spider, and WikiSQL, focus on database schema with few rows of database contents leaving the gap between academic study and real-world applications. To mitigate this gap, we present BIRD, a BIg benchmark for laRge-scale Database grounded in text-to-SQL tasks, containing 12,751 pairs of text-to-SQL data and 95 databases with a total size of 33.4 GB, spanning 37 professional domains. The emphasis on database values highlights new challenges including dirty database contents, external knowledge between NL questions and database contents, and SQL efficiency."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -29,7 +29,7 @@ is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "33.4 gb"
 pdf_extract: "PDF Extracts/2023-Li-BIRD.md"
-local_pdf: "[[PDFs/2023-Li-BIRD.pdf]]"
+local_pdf: [[PDFs/2023-Li-BIRD.pdf]]
 ---
 # BIRD: BIg Bench for LaRge-scale Database Grounded Text-to-SQL Evaluation
 

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 5NT4RAZP
 type: conferencePaper
 short_title: "Fine-Tuning Language Models for Ethical Ambiguity"
-year: 2024
+year: 2025
 first_author: "[[Pranav Senthilkumar]]"
 authors: "Pranav Senthilkumar; Visshwa Balasubramanian; Prisha Jain; Aneesa Maity; Jonathan Lu; Kevin Zhu"
 doi: 10.48550/arXiv.2410.07826
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2024-Senthilkumar-Fine-Tuning Language Models for Eth
 abstract: "Language models often misinterpret human intentions due to their handling of ambiguity, a limitation well-recognized in NLP research. While morally clear scenarios are more discernible to LLMs, greater difficulty is encountered in morally ambiguous contexts. In this investigation, we explored LLM calibration to show that human and LLM judgments are poorly aligned in such scenarios. We used two curated datasets from the Scruples project for evaluation: DILEMMAS, which involves pairs of distinct m"
 paper_summary: "Abstract: Language models often misinterpret human intentions due to their handling of ambiguity, a limitation well-recognized in NLP research. While morally clear scenarios are more discernible to LLMs, greate | Overview: Fine-Tuning Language Models for Ethical Ambiguity: A Comparative Study of Alignment with Human Responses Pranav Senthilkumar Visshwa Balasubramanian Prisha Jain Aneesa Maity Jonathan Lu Kevin Zhu Algo | Methodology: 3.1 Model Calibration Approach To measure the calibration of LLM responses with respect to human ethical judgments, we extracted token probabilities f | Conclusions: In summary, fine-tuning led to different outcomes based on the datasets: notable progress on the Dilemmas dataset but stronger performance on Anecdote"
 local_pdf: "[[PDFs/2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 ---

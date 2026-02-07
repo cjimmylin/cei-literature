@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,7 +6,7 @@ Not AI:
 key: AUTO_SEROR2024
 type: preprint
 short_title: "The Moral Mind(s) of Large Language Models"
-year: 2024
+year: 2025
 first_author: "[[Avner Seror]]"
 authors: "[[Seror, Avner]]"
 doi: 10.48550/arXiv.2412.04476
@@ -24,13 +22,13 @@ pdf_extract: "PDF Extracts/2024-Seror-The Moral Mind(s) of Large Language Models
 abstract: "As large language models (LLMs) increasingly participate in tasks with ethical and societal stakes, a critical question arises: do they exhibit an emergent “moral mind”—a consistent structure of moral preferences guiding their decisions—and to what extent is this structure shared across models? To investigate this, we applied tools from revealed preference theory to nearly 40 leading LLMs, presenting each with many structured moral dilemmas spanning five foundational dimensions of ethi- cal reas"
 paper_summary: "Abstract: As large language models (LLMs) increasingly participate in tasks with ethical and societal stakes, a critical question arises: do they exhibit an emergent “moral mind”—a consistent structure of moral | Overview: The Moral Mind(s) of Large Language Models Avner Seror∗ April, 2025 Abstract As large language models (LLMs) increasingly participate in tasks with ethical and societal stakes, a critical question ari | Methodology: is not constrained by violations of rationality. We applied this non-parametric approach to our dataset, generating 500 synthetic datasets in which ea | Conclusions: In this study, we investigated whether large language models (LLMs) exhibit an emergent “moral mind”—a structured set of moral principles guiding thei"
 local_pdf: "[[PDFs/2024-Seror-The Moral Mind(s) of Large Language Models.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

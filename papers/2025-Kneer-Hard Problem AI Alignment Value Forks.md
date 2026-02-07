@@ -24,7 +24,7 @@ pdf_extract: "PDF Extracts/2025-Kneer-Hard Problem AI Alignment Value Forks.md"
 abstract: "In this article, we report findings from a series of experiments (N=1029) intended to establish whether agent-type (Human vs. AI) matters for what should be done in moral trade-offs. We find that, relative to a human decision-maker, participants more often judge that AI agents should opt for fairness at the expense of maximizing utility. Aligning AI with human values may require that an AI act differently from what a human agent should do, even when facing the exact same dilemma...."
 paper_summary: 
 local_pdf: "[[PDFs/2025-Kneer-Hard Problem AI Alignment Value Forks.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: Yes

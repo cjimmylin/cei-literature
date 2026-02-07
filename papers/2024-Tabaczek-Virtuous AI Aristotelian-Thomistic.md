@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_TABACZEK2024
 type: journalArticle
 short_title: "Virtuous AI Aristotelian-Thomistic"
-year: 2024
+year: 2025
 first_author: "[[Mariusz Tabaczek]]"
 authors: "[[Tabaczek, Mariusz]]"
 doi: 10.35765/forphil.2024.2902.08
@@ -19,7 +19,7 @@ significance: "Rigorous philosophical analysis of AI virtue through Aquinas's fr
 external_pdf: "https://forumphilosophicum.ignatianum.edu.pl/docannexe/file/7566/08.tabaczek.pdf"
 abstract: "This paper offers an Aristotelian-Thomistic response to the question whether AI is capable of developing virtue. On the one hand, it could be argued that this is possible on the assumption of the minimalist (thin) definition of virtue as a stable (permanent) and reliable disposition toward an actualization of a given power in the agent. On the other hand, a closer inquiry into Aquinas's understanding of both moral and intellectual virtues, and a more detailed analysis of the ontological status of AI, show that it is highly unlikely to envision the design of specifically human-like reason-based and/or behavioral-based ('strong') AI that would possess properly human virtues. Still, virtuous 'weak AI' might be possible."
 pdf_extract: "PDF Extracts/2024-Tabaczek-Virtuous AI Aristotelian-Thomistic.md"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No
 utilitarian_ethics: No

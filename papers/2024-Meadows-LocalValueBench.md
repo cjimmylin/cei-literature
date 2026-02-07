@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: VEP3PT84
 type: conferencePaper
 short_title: LocalValueBench
-year: 2024
+year: 2025
 first_author: "[[Gwenyth Isobel Meadows]]"
 authors: "Gwenyth Isobel Meadows; Nicholas Wai Long Lau; Eva Adelina Susanto; Chi Lok Yu; Aditya Paul"
 doi: 10.48550/arXiv.2408.01460
@@ -26,15 +23,15 @@ tags:
 pdf_extract: "PDF Extracts/2024-Meadows-LocalValueBench.md"
 abstract: "The proliferation of large language models (LLMs) requires robust evaluation of their alignment with local values and ethical standards, especially as existing benchmarks often reflect the cultural, legal, and ideological values of their creators. LOCALVALUEBENCH, introduced in this paper, is an extensible benchmark de- signed to assess LLMs’ adherence to Australian values, and provides a framework for regulators worldwide to develop their own LLM benchmarks for local value alignment. Employing"
 paper_summary: "Abstract: The proliferation of large language models (LLMs) requires robust evaluation of their alignment with local values and ethical standards, especially as existing benchmarks often reflect the cultural, l | Overview: LOCALVALUEBENCH: A Collaboratively Built and Extensible Benchmark for Evaluating Localized Value Alignment and Ethical Safety in Large Language Models Gwenyth Isobel Meadows Telopea Park School Canber | Methodology: 2.1 Typology Our approach aimed not only to build a value alignment benchmark for Australian values, but also to provide a generic methodology for con | Key Findings: of their alignment with local values and ethical standards, especially as existing benchmarks often reflect the cultural, legal, and ideological value | Conclusions: The deployment of LLMs in diverse socio-cultural environments necessitates rigorous scrutiny to ensure their alignment with local values and ethical s"
-local_pdf: "[[PDFs/2024-Meadows-LocalValueBench.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2024-Meadows-LocalValueBench.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

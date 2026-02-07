@@ -6,7 +6,7 @@ Not AI:
 key: ALMEIDA2024
 type: journalArticle
 short_title: "Psychology of LLMs Moral Reasoning"
-year: 2024
+year: 2025
 first_author: "[[Guilherme F. C. F. Almeida]]"
 authors: "[[Almeida, Guilherme F. C. F.]]; [[Nunes, José Luiz]]; [[Pontes, Neele]]; [[Brinhosa, Markus]]; [[Gubert, Renato]]"
 doi: 10.1016/j.artint.2024.104081
@@ -22,7 +22,7 @@ key_contribution: "Replicates 8 psychology studies with 4 LLMs; finds GPT-4 lead
 significance: "First systematic application of experimental psychology methods to probe LLM moral and legal reasoning"
 tags: 
 abstract: "Large language models (LLMs) exhibit expert-level performance in tasks across a wide range of different domains. Ethical issues raised by LLMs and the need to align future versions makes it important to know how state of the art models reason about moral and legal issues. In this paper, the authors employ the methods of experimental psychology to probe into this question. They replicated eight studies from the experimental literature with instances of Google's Gemini Pro, Anthropic's Claude 2.1, OpenAI's GPT-4, and Meta's Llama 2 Chat 70b. They found that alignment with human responses shifts from one experiment to another, and that models differ amongst themselves as to their overall alignment, with GPT-4 taking a clear lead over all other models tested. Nonetheless, even when LLM-generated responses are highly correlated to human responses, there are still systematic differences, with a tendency for models to exaggerate effects that are present among humans, in part by reducing variance."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

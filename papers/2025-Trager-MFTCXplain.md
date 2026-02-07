@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,15 +23,15 @@ significance: "Addresses cultural and linguistic bias in moral reasoning evaluat
 pdf_extract: "PDF Extracts/2025-Trager-MFTCXplain.md"
 abstract: "Ensuring the moral reasoning capabilities of Large Language Models (LLMs) is a growing concern as these systems are used in socially sensitive tasks. Nevertheless, current evalua- tion benchmarks present two major shortcom- ings: a lack of annotations that justify moral classifications, which limits transparency and interpretability; and a predominant focus on En- glish, which constrains the assessment of moral reasoning across diverse cultural settings. In this paper, we introduce MFTCXplain, a"
 paper_summary: "Abstract: Ensuring the moral reasoning capabilities of Large Language Models (LLMs) is a growing concern as these systems are used in socially sensitive tasks. Nevertheless, current evalua- tion benchmarks pres | Overview: MFTCXplain: A Multilingual Benchmark Dataset for Evaluating the Moral Reasoning of LLMs through Multi-hop Hate Speech Explanation Jackson Trager∗ University of Southern California Francielle Vargas* S | Key Findings: We proposed two approaches for annotation eval- uation: (i) empirical evaluation, and (ii) qualitative evaluation, which we describe as follows. Empir | Conclusions: Results are shown in Table 7, and Figures 8, 3, and 4. We find that model-generated rationales are substantially more verbose than human anno- tations"
-local_pdf: "[[PDFs/2025-Trager-MFTCXplain.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2025-Trager-MFTCXplain.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark for moral/ethical reasoning annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

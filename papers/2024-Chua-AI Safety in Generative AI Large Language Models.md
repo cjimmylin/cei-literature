@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: BPQVTDT8
 type: conferencePaper
 short_title: "AI Safety in Generative AI Large Language Models"
-year: 2024
+year: 2025
 first_author: "[[Jaymari Chua]]"
 authors: "Jaymari Chua; Yun Li; Shiyi Yang; Chen Wang; Lina Yao"
 doi: 10.48550/arXiv.2407.18369
@@ -27,15 +24,15 @@ pdf_extract: "PDF Extracts/2024-Chua-AI Safety in Generative AI Large Language M
 paper_summary: "Overview: Highlights AI Safety in Generative AI Large Language Models: A Survey Jaymari Chua,Yun Li,Shiyi Yang,Chen Wang,Lina Yao • Up-to-date. • Computer scientists’ perspective: specific and technical. arXiv: | Methodology: to LLM security is imperative, incorporating rigorous red- teaming exercises, enhanced input validation, prompt filter- ing, dynamic randomization tec | Key Findings: reflects the what the language models align to, and in this case, the human labelers were tasked to choose the most positive and happy continuation (s | Conclusions: of advanced applications such as ChatGPT, Gemini, and others into distinct aspects, we can narrow safety concerns at their technical scope and underst"
 local_pdf: "[[PDFs/2024-Chua-AI Safety in Generative AI Large Language Models.pdf]]"
 abstract: "Large Language Model (LLMs) such as ChatGPT that exhibit generative AI capabilities are facing accelerated adoption and innovation. The increased presence of Generative AI (GAI) inevitably raises concerns about the risks and safety associated with these models. This article provides an up-to-date survey of recent trends in AI safety research of GAI-LLMs from a computer scientist’s perspective: specific and technical. In this survey, we explore the background and motivation for the identified har"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # AI Safety in Generative AI Large Language Models: A Survey

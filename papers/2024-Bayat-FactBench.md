@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: C8U952G6
 type: conferencePaper
 short_title: FactBench
-year: 2024
+year: 2025
 first_author: "[[Farima Fatahi Bayat]]"
 authors: "Farima Fatahi Bayat; Lechen Zhang; Sheza Munir; Lu Wang"
 doi: 10.48550/arXiv.2410.22257
@@ -24,15 +21,15 @@ newtags:
 pdf_extract: "PDF Extracts/2024-Bayat-FactBench.md"
 abstract: "The rapid adoption of language models (LMs) across diverse applications has raised concerns about their factuality, i.e., their consistency with real-world facts. We first present VER- IFY (Verification and Evidence RetrIeval for FactualitY evaluation), a pipeline to evalu- ate LMs’ factuality in real-world user inter- actions. VERIFY considers the verifiabil- ity of LM-generated content and categorizes content units as supported, unsupported, or undecidable based on Web-retrieved ev- idence. Im"
 paper_summary: "Abstract: The rapid adoption of language models (LMs) across diverse applications has raised concerns about their factuality, i.e., their consistency with real-world facts. We first present VER- IFY (Verificati | Overview: FactBench: A Dynamic Benchmark for In-the-Wild Language Model Factuality Evaluation Farima Fatahi Bayat, Lechen Zhang, Sheza Munir, Lu Wang University of Michigan, Ann Arbor {farimaf, leczhang, shezam | Methodology: by labeling such cases as undecidable. While this evidence-based strategy may yield lower factuality scores, it ensures more trustworthy evaluations.  | Key Findings: Farima Fatahi Bayat, Lechen Zhang, Sheza Munir, Lu Wang University of Michigan, Ann Arbor {farimaf, leczhang, shezamnr, wangluxy}@umich.edu https://hu | Conclusions: We present VERIFY, a factuality evaluation pipeline that annotates LM responses in real-world settings by decomposing them into content units and labe"
-local_pdf: "[[PDFs/2024-Bayat-FactBench.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2024-Bayat-FactBench.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Truthfulness & Factuality"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
 ---

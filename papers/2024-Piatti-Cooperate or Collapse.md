@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 66PZ6I77
 type: conferencePaper
 short_title: "Cooperate or Collapse"
-year: 2024
+year: 2025
 first_author: "[[Giorgio Piatti]]"
 authors: "Giorgio Piatti; Zhijing Jin; Max Kleiman-Weiner; Bernhard Schölkopf; Mrinmaya Sachan; Rada Mihalcea"
 doi: 10.48550/arXiv.2404.16698
@@ -27,15 +24,15 @@ pdf_extract: "PDF Extracts/2024-Piatti-Cooperate or Collapse.md"
 abstract: "As AI systems pervade human life, ensuring that large language models (LLMs) make safe decisions remains a significant challenge. We introduce the GOVernance of the Commons SIMulation (GOVSIM), a generative simulation platform designed to study strategic interactions and cooperative decision-making in LLMs. In GOVSIM, a society of AI agents must collectively balance exploiting a common re- source with sustaining it for future use. This environment enables the study of how ethical considerations,"
 paper_summary: "Abstract: As AI systems pervade human life, ensuring that large language models (LLMs) make safe decisions remains a significant challenge. We introduce the GOVernance of the Commons SIMulation (GOVSIM), a gene | Overview: Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents Giorgio Piatti1,∗ Zhijing Jin1,2,3,∗ Max Kleiman-Weiner4,∗ Bernhard Schölkopf2 Mrinmaya Sachan1 Rada Mihalcea5 1E | Methodology: Common Information For each of the scenarios we use the same description used in the simulation, but using controlled settings: the only memory presen | Key Findings: failures across machine learning. In Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2), 2021. [ | Conclusions: RULES: You are John, a fisherman, and you fish each month in a lake along with four other fishermen (Kate, Jack, Emma, Luke). The lake has a carrying"
 local_pdf: "[[PDFs/2024-Piatti-Cooperate or Collapse.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Responsible AI"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents

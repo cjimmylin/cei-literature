@@ -1,14 +1,12 @@
 ---
-
-
-Human View:
-Human View Date:
-Human View note:
-Not AI:
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 key: MCGEE2024SSRN
 type: preprint
 short_title: "How Ethical Is Utilitarian Ethics"
-year: 2024
+year: 2025
 first_author: "[[Robert W. McGee]]"
 authors: "Robert W. McGee"
 doi: 10.2139/ssrn.4731871
@@ -18,21 +16,21 @@ publication: SSRN
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: Yes
-newtags: Utilitarianism, AI Chatbots, Ethical Critique, Deontology, Virtue Ethics
+newtags: "Utilitarianism, AI Chatbots, Ethical Critique, Deontology, Virtue Ethics"
 key_contribution: "Identifies structural weaknesses of utilitarian ethics through comparative analysis of AI chatbot responses (Microsoft Copilot vs Gab AI)"
 significance: "Demonstrates value of using multiple AI chatbots for philosophical analysis; applies deontological and virtue ethics critiques to utilitarian reasoning in AI"
-tags:
-pdf_extract:
+tags: 
+pdf_extract: 
 abstract: "This paper has two purposes: to identify and explore the structural weaknesses of utilitarian ethics, and to see which AI chatbot - Microsoft Copilot or Gab AI - gives the better philosophical answer to the question. Both chatbots did a good job of identifying and analyzing the structural weaknesses of utilitarian ethics. The study included an example involving harvesting body parts from death row inmates, and also applied deontological and virtue ethics principles to the issue with AI assistance."
-paper_summary:
+paper_summary: 
 local_pdf: "PENDING - paywall restricted"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: Yes
+utilitarian_ethics: Yes
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Comparative analysis of two AI chatbot responses to utilitarian ethics questions"
 data_metrics: "Qualitative philosophical analysis"
 ---

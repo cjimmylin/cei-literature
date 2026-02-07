@@ -20,7 +20,7 @@ key_contribution: "Interrogated the role of **Ubuntu** in African AI governance,
 significance: "A critical policy paper highlighting 'epistemic injustice' – the risk that 'African AI' becomes just a label for Western AI with a local coating, rather than a system truly built on indigenous values."
 tags: 
 abstract: "One of the common concerns raised in AI ethics scholarship is the overly western-centric nature of ongoing AI ethics discourse and governance initiatives. This has recently prompted many commentators to proclaim the emergence of an epistemic injustice or “ethical colonialism”. Many scholars point to the role of indigenous ethical systems, particularly Ubuntu, in addressing this flaw. In the meantime, a series of national and continental AI governance initiatives are also emerging in Africa. But"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

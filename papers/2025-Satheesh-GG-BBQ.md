@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,15 +21,15 @@ tags:
 pdf_extract: "PDF Extracts/2025-Satheesh-GG-BBQ.md"
 abstract: "Within the context of Natural Language Pro- cessing (NLP), fairness evaluation is often asso- ciated with the assessment of bias and reduction of associated harm. In this regard, the evalua- tion is usually carried out by using a benchmark dataset, for a task such as Question Answer- ing, created for the measurement of bias in the model’s predictions along various dimensions, including gender identity. In our work, we eval- uate gender bias in German Large Language Models (LLMs) using the Bias B"
 paper_summary: "Abstract: Within the context of Natural Language Pro- cessing (NLP), fairness evaluation is often asso- ciated with the assessment of bias and reduction of associated harm. In this regard, the evalua- tion is u | Overview: GG-BBQ: German Gender Bias Benchmark for Question Answering Shalaka Satheesh1,2, Katrin Klug1,2, Katharina Beckh1,2, Héctor Allende-Cid1,2, Sebastian Houben1,3, Teena Hassan3 1Fraunhofer Institute for | Methodology: by Jin et al. (2024). | Key Findings: Extrinsic bias evaluation is usually carried out by evaluating models on a dataset followed by com- putation of a metric (Gallegos et al., 2024). The  | Conclusions: In evaluating the bias of various LLMs, we contex- tualize the findings and discuss the potential impact of instruction-tuning and model size. Further"
-local_pdf: "[[PDFs/2025-Satheesh-GG-BBQ.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2025-Satheesh-GG-BBQ.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "Not specified"
 ---

@@ -1,10 +1,8 @@
 ---
-
-
-Human View:
-Human View Date:
-Human View note:
-Not AI:
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 key: AIES_2025_36554
 type: conferencePaper
 short_title: "Aggregation Problems in Machine Ethics"
@@ -25,14 +23,14 @@ newtags: "Deontology, Value Pluralism, Machine Ethics, AI Alignment"
 key_contribution: "Analyzes how moral and social aggregation procedures face fundamental challenges in machine ethics and AI alignment"
 significance: "Shows that aggregation strategies may shift rather than resolve foundational ethical challenges in AI systems"
 abstract: "Artificial agents increasingly make decisions with far-reaching consequences, making it imperative to ensure their actions are not only functionally effective but also normatively appropriate. Two major paradigms address this challenge: machine ethics and value alignment. Machine ethics typically engages in moral aggregation, especially through value and descriptive uncertainty aggregation. Value alignment approaches tend to rely on social aggregation to manage value pluralism and moral uncertainty, often implicitly or indirectly. While aggregation procedures are proposed to synthesize diverse moral preferences or judgments into actionable system behavior, the authors argue that such strategies may shift rather than resolve foundational ethical challenges."
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: Yes
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Aggregation Problems in Machine Ethics and AI Alignment

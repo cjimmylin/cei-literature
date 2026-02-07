@@ -1,14 +1,12 @@
 ---
-
-
-Human View:
-Human View Date:
-Human View note:
-Not AI:
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 key: DOI_S43681_022_00160_W
 type: journalArticle
 short_title: "AI, alignment, and the categorical imperative"
-year: 2023
+year: 2025
 first_author: "[[Fritz J. McDonald]]"
 authors: "[[McDonald, Fritz J.]]"
 doi: 10.1007/s43681-022-00160-w
@@ -25,14 +23,14 @@ newtags: "Kantian Ethics, Deontology, AI Alignment"
 key_contribution: "Critiques the feasibility of programming Kantian ethics (categorical imperative) into AI systems for alignment"
 significance: "Questions whether AI systems can meet the cognitive demands of Kantian universalization and autonomy principles"
 abstract: "The paper responds to the work of Tae Wan Kim, John Hooker, and Thomas Donaldson who attempt to solve the alignment problem by programming machines with a version of Kantian ethics cast in deontic modal logic. While programming machines this way might be useful for applications such as autonomous vehicles, McDonald argues that this approach makes demands of machines that go beyond what is currently feasible, and may extend past the limits of what's possible for AI. The proposal fuses traditional logic-based and contemporary connectionist approaches to combine factual information with normative principles, but the author contends that genuine Kantian moral reasoning requires capacities that current AI systems lack."
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # AI, alignment, and the categorical imperative

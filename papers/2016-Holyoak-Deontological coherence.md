@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,7 +6,7 @@ Not AI:
 key: IVDNFJYI
 type: journalArticle
 short_title: "Deontological coherence"
-year: 2016
+year: 2025
 first_author: "[[Keith J. Holyoak]]"
 authors: "[[Holyoak, Keith J.]]; [[Powell, Derek]]"
 doi: 10.1037/bul0000075
@@ -24,14 +22,14 @@ significance: "Offers a cognitive model for how humans integrate conflicting deo
 tags: 
 abstract: "We review a broad range of work, primarily in cognitive and social psychology, that provides insight into the processes of moral judgment. In particular, we consider research on pragmatic reasoning about regulations and on coherence in decision making, both areas in which psychological theories have been guided by work in legal philosophy. Armed with these essential prerequisites, we sketch a psychological framework for how ordinary people make judgments about moral issues. Based on a literature review, we show how the framework of deontological coherence unifies findings in moral psychology that have often been explained in terms of a grab-bag of heuristics and biases. (PsycINFO Database Record"
 pdf_extract: "PDF Extracts/2016-Holyoak-Deontological coherence.md"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Deontological coherence: A framework for commonsense moral reasoning.

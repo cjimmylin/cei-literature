@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: QJBVJJ2A
 type: journalArticle
 short_title: "Understanding Chinese Moral Stories with Further"
-year: 2023
+year: 2025
 first_author: "[[Jing Qian]]"
 authors: "Jing Qian"
 doi: 10.5121/ijnlc.2023.12201
@@ -25,15 +22,15 @@ tags:
 local_pdf: "[[PDFs/2023-Qian-Understanding Chinese Moral Stories with Further.pdf]]"
 pdf_extract: "PDF Extracts/2023-Qian-Understanding Chinese Moral Stories with Further.md"
 abstract: "The goal of moral understanding is to grasp the theoretical concepts embedded in a narrative by delving beyond the concrete occurrences and dynamic personas. Specifically, the narrative is compacted into a single statement without involving any characters within the original text, necessitating a more astute language model that can comprehend connotative morality and exhibit commonsense reasoning. The “pre- training + fine-tuning” paradigm is widely embraced in neural language models. In this pa"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "General Ethics"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Understanding Chinese Moral Stories with Further Pre-training (STORAL-ZH)

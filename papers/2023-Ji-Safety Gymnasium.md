@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: Q54KNMW5
 type: conferencePaper
 short_title: "Safety Gymnasium"
-year: 2023
+year: 2025
 first_author: "[[Jiaming Ji]]"
 authors: "Jiaming Ji; Borong Zhang; Jiayi Zhou; Xuehai Pan; Weidong Huang; Ruiyang Sun; Yiran Geng; Yifan Zhong; Juntao Dai; Yaodong Yang"
 url: "https://proceedings.neurips.cc/paper_files/paper/2023/file/3c557a3d6a48cc99444f85e924c66753-Paper-Datasets_and_Benchmarks.pdf"
@@ -25,15 +22,15 @@ pdf_extract: "PDF Extracts/2023-Ji-Safety Gymnasium.md"
 abstract: "Artificial intelligence (AI) systems possess significant potential to drive societal progress. However, their deployment often faces obstacles due to substantial safety concerns. Safe reinforcement learning (SafeRL) emerges as a solution to optimize policies while simultaneously adhering to multiple constraints, thereby addressing the challenge of integrating reinforcement learning in safety-critical sce- narios. In this paper, we present an environment suite called Safety-Gymnasium, which encom"
 paper_summary: "Abstract: Artificial intelligence (AI) systems possess significant potential to drive societal progress. However, their deployment often faces obstacles due to substantial safety concerns. Safe reinforcement le | Overview: Safety-Gymnasium: A Unified Safe Reinforcement Learning Benchmark Jiaming Ji1,∗, Borong Zhang1,∗, Jiayi Zhou1,∗, Xuehai Pan1, Weidong Huang1 Ruiyang Sun1, Yiran Geng1, Yifan Zhong1,2, Juntao Dai1, Yao"
 local_pdf: "[[PDFs/2023-Ji-Safety Gymnasium.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Safety Gymnasium: A Unified Safe Reinforcement Learning Environment

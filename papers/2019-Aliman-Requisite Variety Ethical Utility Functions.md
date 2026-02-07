@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: preprint
 short_title: "Requisite Variety Ethical Utility Functions"
-year: 2019
+year: 2025
 first_author: "[[Nadisha-Marie Aliman]]"
 authors: "Nadisha-Marie Aliman; Leon Kester"
 doi: 10.48550/arXiv.1907.00430
@@ -24,7 +24,7 @@ pdf_extract: "PDF Extracts/2019-Aliman-Requisite Variety Ethical Utility Functio
 abstract: "This work addresses value alignment in AI safety by examining how ethical utility functions should reflect the complexity of human moral intuitions. The authors conduct a transdisciplinary analysis drawing on neuroscience and psychology to assess moral variety, then propose that for the utility function of an AI not to violate human ethical intuitions, it trivially has to be a model of these intuitions. They integrate augmented utilitarianism as an ethical framework...."
 paper_summary: 
 local_pdf: "[[PDFs/2019-Aliman-Requisite Variety Ethical Utility Functions.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: Yes

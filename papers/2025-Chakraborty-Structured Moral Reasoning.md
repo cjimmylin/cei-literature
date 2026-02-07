@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,7 +22,7 @@ key_contribution: "Shows structured prompting with explicit moral frameworks imp
 significance: "Practical methodology for improving LLM moral reasoning through value-grounded prompting"
 tags: 
 abstract: "The researchers introduce a framework for assessing how well large language models engage in ethical decision-making. Their work examines whether prompting with explicit moral structure consistently improves accuracy and coherence across 12 open-source models. Key findings show that structured approaches rooted in value systems and ethical frameworks enhance model performance, and that smaller models can acquire moral reasoning capabilities through knowledge transfer from larger ones."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -33,6 +34,7 @@ data_description: "Four moral datasets with value-grounded prompts"
 data_metrics: "Accuracy, coherence across ethical frameworks"
 pdf_extract: "PDF Extracts/2025-Chakraborty-Structured Moral Reasoning.md"
 local_pdf: "[[PDFs/2025-Chakraborty-Structured Moral Reasoning.pdf]]"
+normative_ethics_benchmark: Yes
 ---
 # Structured Moral Reasoning in Language Models: A Value-Grounded Evaluation Framework
 

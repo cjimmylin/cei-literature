@@ -1,14 +1,11 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: MAHWYKT8
 type: journalArticle
-year: 2020
+year: 2025
 short_title: "A Multi-Dimensional View of Aggression when"
 first_author: "[[Arjit Srivastava]]"
 authors: "Arjit Srivastava; Avijit Vajpayee; Syed Sarfaraz Akhtar; Naman Jain; Vinay Singh; Manish Shrivastava"
@@ -24,14 +21,14 @@ tags:
 abstract: "The advent of social media has immensely proliferated the amount of opinions and arguments voiced on the internet. These virtual debates often present cases of aggression. While research has been focused largely on analyzing aggression and stance in isolation from each other, this work is the ﬁrst attempt to gain an extensive and ﬁne-grained understanding of patterns of aggression and ﬁgurative language use when voicing opinion. We present a Hindi-English code-mixed dataset of opinion on the pol"
 local_pdf: "[[PDFs/2020-Srivastava-A Multi-Dimensional View of Aggression when.pdf]]"
 pdf_extract: "PDF Extracts/2020-Srivastava-A Multi-Dimensional View of Aggression when.md"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

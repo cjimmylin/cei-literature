@@ -1,10 +1,9 @@
 ---
 
-
-Human View:
-Human View Date:
-Human View note:
-Not AI:
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 key: ARXIV_2507_20796
 type: preprint
 short_title: "Aligning LLM Agents with Rational and Kantian Preferences"
@@ -17,7 +16,7 @@ url: "https://arxiv.org/abs/2507.20796"
 local_pdf: "[[PDFs/2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences.pdf]]"
 pdf_extract: "[[PDF Extracts/2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences.md]]"
 external_pdf: "https://arxiv.org/pdf/2507.20796.pdf"
-publication: "arXiv"
+publication: arXiv
 ethics_perspective: "Kantian Ethics"
 national_ethnic_cultural: N/A
 religious_values: N/A
@@ -26,15 +25,16 @@ newtags: "Kantian Ethics, Deontology, AI Alignment, LLM Fine-tuning"
 key_contribution: "Proposes supervised fine-tuning pipeline aligning LLM agents with homo economicus and homo moralis (Kantian universalizability) preferences"
 significance: "Empirically tests Kantian moral concern parameter in GPT-4o; applies fine-tuned agents to autonomous vehicles and algorithmic pricing"
 abstract: "Understanding how large language model (LLM) agents behave in strategic interactions is essential as these systems increasingly participate autonomously in economically and morally consequential decisions. The authors evaluate LLM preferences using canonical economic games, finding substantial deviations from human behavior. Models like GPT-4o show excessive cooperation and limited incentive sensitivity, while reasoning models, such as o3-mini, align more consistently with payoff-maximizing strategies. They propose a supervised fine-tuning pipeline that uses synthetic datasets derived from economic reasoning to align LLM agents with economic preferences, focusing on two stylized preference structures: utility depending only on individual payoffs (homo economicus) and including Kantian universalizability (homo moralis). The fine-tuned agents are assessed in moral dilemmas involving autonomous vehicles and algorithmic pricing in competitive markets."
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: Yes
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Synthetic datasets from economic games"
 data_metrics: "Kantian moral concern parameter κ, cooperation rates"
+normative_ethics_benchmark: Borderline
 ---
 # Aligning Large Language Model Agents with Rational and Moral Preferences: A Supervised Fine-Tuning Approach
 

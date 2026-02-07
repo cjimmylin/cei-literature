@@ -6,7 +6,7 @@ Not AI:
 key: 7ZERPP8H
 type: document
 short_title: "The Humanistic Buddhism Corpus (HBC)"
-year: 2024
+year: 2025
 first_author: "[[Youheng W. Wong]]"
 authors: "[[Wong, Youheng W.]]; [[Parde, Natalie]]; [[Koyuncu, Erdem]]"
 url: "https://aclanthology.org/2024.lrec-main.737/"

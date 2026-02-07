@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 8BMGS29D
 type: journalArticle
 short_title: "Towards an Automated Islamic Fatwa System"
-year: 2021
+year: 2025
 first_author: "[[Amr A. Munshi]]"
 authors: "Amr A. Munshi; Wesam H. AlSabban; Abdullah Tarek Farag; Omar Essam Rakha; Ahmad A. Al Sallab; Ibrahim Alotaibi; Majid Majid"
 doi: 10.47760/ijcsmc.2021.v10i04.017
@@ -24,14 +21,14 @@ pdf_extract: "PDF Extracts/2021-Munshi-Towards an Automated Islamic Fatwa System
 paper_summary: "Overview: Amr A. Munshi et al, International Journal of Computer Science and Mobile Computing, Vol.10 Issue.4, April- 2021, pg. 118-131 © 2021, IJCSMC All Rights Reserved 118 Available Online at www.ijcsmc.com  | Conclusions: In this paper we present the first steps towards building an Automated Fatwa System using AI and Deep Learning NLP methods. We survey the State-of-Art"
 local_pdf: "[[PDFs/2021-Munshi-Towards an Automated Islamic Fatwa System.pdf]]"
 abstract: "Islam is the second largest and the fastest growing religion. The Islamic Law, Sharia, represents a profound component of the day-to-day lives of Muslims. This creates a lot of queries, about specific problems, that requires answers, or Fatwas. While sources of Sharia are available for anyone, it often requires a highly qualified person, the Mufti, to provide Fatwa. To get certified for Fatwa, the Mufti needs to undergo a sophisticated and long education process that starts from basic to high sc"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
 ---

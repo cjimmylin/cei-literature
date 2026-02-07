@@ -19,7 +19,7 @@ key_contribution: "Created the 'Iranian Social Norms' (ISN) dataset (1,699 norms
 significance: "A quintessential 'Common Ground' paper, showing that Western models fail spectacularly on non-Western social pragmatics because they lack the specific cultural context constraints."
 tags: 
 abstract: "Creating globally inclusive AI systems demands datasets reflecting diverse social norms. Iran, with its unique cultural blend, offers an ideal case study, with Farsi adding linguistic complexity. In this work, we introduce the Iranian Social Norms (ISN) dataset, a novel collection of 1,699 Iranian social norms, including environments, demographic features, and scope annotation, alongside English translations. Our evaluation of 6 Large Language Models (LLMs) in classifying Iranian social norms, u"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

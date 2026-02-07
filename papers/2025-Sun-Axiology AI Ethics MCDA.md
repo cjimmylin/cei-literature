@@ -24,7 +24,7 @@ pdf_extract: "PDF Extracts/2025-Sun-Axiology AI Ethics MCDA.md"
 abstract: "The fast advancement of artificial intelligence presents ethical challenges that exceed the scope of traditional moral theories. This paper proposes a value-centered framework for AI ethics grounded in axiology, which distinguishes intrinsic values like dignity and fairness from instrumental ones such as accuracy and efficiency. Using Multi-Criteria Decision Analysis (MCDA), the framework translates values into structured evaluations, enabling transparent trade-offs...."
 paper_summary: 
 local_pdf: "[[PDFs/2025-Sun-Axiology AI Ethics MCDA.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: Yes

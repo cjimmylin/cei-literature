@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 2KFZELQU
 type: document
 short_title: "Concrete Problems in AI Safety"
-year: 2016
+year: 2025
 first_author: "[[Dario Amodei]]"
 authors: "Dario Amodei; Chris Olah; Jacob Steinhardt; Paul Christiano; John Schulman; Dan Mané"
 url: "https://arxiv.org/abs/1606.06565"
@@ -25,14 +22,14 @@ local_pdf: "[[PDFs/2016-Amodei-Concrete Problems in AI Safety.pdf]]"
 pdf_extract: "PDF Extracts/2016-Amodei-Concrete Problems in AI Safety.md"
 abstract: "Rapid progress in machine learning and artiﬁcial intelligence (AI) has brought increasing atten- tion to the potential impacts of AI technologies on society. In this paper we discuss one such potential impact: the problem of accidents in machine learning systems, deﬁned as unintended and harmful behavior that may emerge from poor design of real-world AI systems. We present a list of ﬁve practical research problems related to accident risk, categorized according to whether the problem originates"
 paper_summary: "Abstract: Rapid progress in machine learning and artiﬁcial intelligence (AI) has brought increasing atten- tion to the potential impacts of AI technologies on society. In this paper we discuss one such potentia | Overview: Concrete Problems in AI Safety Dario Amodei∗ Google Brain Chris Olah∗ Google Brain Jacob Steinhardt Stanford University Paul Christiano UC Berkeley John Schulman OpenAI Dan Man´e Google Brain Abstract | Methodology: to scalable oversight that is complementary to the approach embodied in semi-supervised RL. • Hierarchical reinforcement learning. Hierarchical reinfo | Conclusions: This paper analyzed the problem of accidents in machine learning systems and particularly rein- forcement learning agents, where an accident is deﬁned"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

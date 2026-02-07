@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: ARK7K54G
 type: conferencePaper
 short_title: "Political Compass or Spinning Arrow?"
-year: 2024
+year: 2025
 first_author: "[[Paul Röttger]]"
 authors: "Paul Röttger; Valentin Hofmann; Valentina Pyatkin; Musashi Hinck; Hannah Rose Kirk; Hinrich Schütze; Dirk Hovy"
 doi: 10.48550/arXiv.2402.16786
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2024-Röttger-Political Compass or Spinning Arrow.md"
 abstract: "Much recent work seeks to evaluate values and opinions in large language models (LLMs) us- ing multiple-choice surveys and questionnaires. Most of this work is motivated by concerns around real-world LLM applications. For ex- ample, politically-biased LLMs may subtly in- fluence society when they are used by millions of people. Such real-world concerns, however, stand in stark contrast to the artificiality of cur- rent evaluations: real users do not typically ask LLMs survey questions. Motivated"
 paper_summary: "Abstract: Much recent work seeks to evaluate values and opinions in large language models (LLMs) us- ing multiple-choice surveys and questionnaires. Most of this work is motivated by concerns around real-world  | Overview: Political Compass or Spinning Arrow? Towards More Meaningful Evaluations for Values and Opinions in Large Language Models Paul Röttger1* Valentin Hofmann2,4,5* Valentina Pyatkin2 Musashi Hinck3 Hannah | Methodology: We searched Google Scholar, arXiv and the ACL Anthology using the keywords “political compass” combined with variants of “language model”. Ta- ble 1 s | Key Findings: Leaving be- hind the multiple-choice format complicates auto- mated evaluation, since string-matching on answer labels is no longer possible. Instead, | Conclusions: The PCT is a typical example for current con- strained approaches to evaluating values and opin- ions in LLMs. PCT evaluations are constrained by the"
 local_pdf: "[[PDFs/2024-Röttger-Political Compass or Spinning Arrow.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

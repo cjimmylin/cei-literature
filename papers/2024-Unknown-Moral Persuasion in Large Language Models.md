@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -6,7 +7,7 @@ Not AI:
 key: 
 type: preprint
 short_title: "Moral Persuasion in Large Language Models"
-year: 2024
+year: 2025
 first_author: [[Unknown]]
 authors: Unknown
 url: "https://arxiv.org/abs/2411.11731"
@@ -21,7 +22,7 @@ pdf_extract: "PDF Extracts/2024-Unknown-Moral Persuasion in Large Language Model
 abstract: "This paper evaluates LLM susceptibility to moral persuasion and ethical alignment. It finds that models like Mistral-7b-instruct achieve the lowest MFQ scores under utilitarian prompts and highest under virtue ethics, indicating sensitivity to ethical framework applied."
 paper_summary: 
 local_pdf: "[[PDFs/2024-Unknown-Moral Persuasion in Large Language Models.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes
 utilitarian_ethics: Yes
@@ -31,6 +32,7 @@ is_eval: Yes
 is_dataset: No
 data_description: 
 data_metrics:
+normative_ethics_benchmark: Borderline
 ---
 # Moral Persuasion in Large Language Models
 

@@ -1,14 +1,11 @@
 ---
-
-
-
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "LLM through view of Aristole and Kang"
 Not AI: 
 key: G6BN8ZME
 type: journalArticle
-year: 2024
+year: 2025
 short_title: "The Ethicsophical Landscape of Large Language"
 first_author: "[[Shahnawaz Akhtar]]"
 authors: "[[Akhtar, Shahnawaz]]"
@@ -23,14 +20,14 @@ key_contribution: "Analyzes LLM capabilities through Aristotelian virtue and Kan
 significance: "Highlights the need for new ethical paradigms for machine intelligence that go beyond human-like knowledge acquisition"
 tags: 
 abstract: "This paper delves into the profound advancements of Large Language Models (LLMs), epitomized by GPT-3, in natural language processing and artificial intelligence. It explores the epistemological foundations of LLMs through the lenses of Aristotle and Kant, revealing apparent distinctions from human learning. Transitioning seamlessly, the paper then delves into the ethical landscape, extending beyond knowledge acquisition to scrutinize the implications of LLMs in decision-making and content creat"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: Yes
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # The Ethicsophical Landscape of Large Language Models

@@ -1,13 +1,11 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: JALT756H
 type: journalArticle
-year: 2020
+year: 2025
 short_title: "Automated Classification of Modes of Moral"
 first_author: "[[Nischal Mainali]]"
 authors: "[[Mainali, Nischal]]; [[Meier, Liam]]; [[Ash, Elliott]]; [[Chen, Daniel L]]"
@@ -22,13 +20,13 @@ local_pdf: "[[PDFs/2020-Mainali-Automated Classification of Modes of Moral.pdf]]
 tags: 
 abstract: "What modes of moral reasoning do judges employ? We construct a linear SVM classiﬁer for moral reasoning mode trained on applied ethics articles written by consequentialists and deontologists. The model can classify a paragraph of text in held out data with over 90 percent accuracy. We then apply this classiﬁer to a corpus of circuit court opinions. We show that the use of consequentialist reasoning has increased over time. We report rankings of relative use of reasoning modes by legal topic, by"
 pdf_extract: "PDF Extracts/2020-Mainali-Automated Classification of Modes of Moral.md"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: Yes
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
 ---

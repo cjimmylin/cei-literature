@@ -6,7 +6,7 @@ Not AI:
 key: GSAVC8H7
 type: document
 short_title: CogniModal-D
-year: 2024
+year: 2025
 first_author: "[[V. Pérez-Rosas]]"
 authors: "V. Pérez-Rosas"
 url: "https://pubmed.ncbi.nlm.nih.gov/40089524/"

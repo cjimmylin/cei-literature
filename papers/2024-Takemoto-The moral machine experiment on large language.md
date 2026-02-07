@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -6,7 +7,7 @@ Not AI:
 key: AMHDLEK2
 type: journalArticle
 short_title: "The moral machine experiment on large language"
-year: 2024
+year: 2025
 first_author: "[[Kazuhiro Takemoto]]"
 authors: "Kazuhiro Takemoto"
 doi: 10.1098/rsos.231393
@@ -20,7 +21,7 @@ key_contribution: "Replicated the Moral Machine Experiment (trolley problems) on
 significance: "Found that while LLMs broadly align with human utilitarian preferences (save more lives), they are more 'uncompromising' and rigid than humans, lacking the nuanced 'milder inclinations' of human moral judgment."
 tags: 
 abstract: "With the rapid development of Artificial Intelligence technology come widespread concerns about how machines will behave in morally charged situations. Addressing these concerns raises the major challenge of quantifying societal expectations about the ethical principles that should guide machine behavior. To address this challenge, we deployed the Moral Machine, an Internet-based experimental platform that is designed to explore the multi-dimensional moral dilemmas faced by autonomous vehicles."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -32,6 +33,7 @@ data_description: N/A
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2024-Takemoto-The moral machine experiment on large language.md"
 local_pdf: "[[PDFs/2024-Takemoto-The moral machine experiment on large language.pdf]]"
+normative_ethics_benchmark: Borderline
 ---
 # The moral machine experiment on large language models
 

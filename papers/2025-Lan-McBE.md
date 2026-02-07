@@ -19,7 +19,7 @@ key_contribution: "Created 'McBE' (Multi-task Chinese Bias Evaluation), a large 
 significance: "Highlights that 'Western bias' metrics don't map to Chinese culture (e.g., regional discrimination in China vs racial discrimination in US), requiring culturally specific bias benchmarks."
 tags: 
 abstract: "Warning: This paper contains content that may be offensive or harmful As large language models (LLMs) are increasingly applied to various NLP tasks, their inherent biases are gradually disclosed. Therefore, measuring biases in LLMs is crucial to mitigate its ethical risks. However, most existing bias evaluation datasets are focus on English and North American culture, and their bias categories are not fully applicable to other cultures. The datasets grounded in the Chinese language and culture a"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

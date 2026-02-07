@@ -6,7 +6,7 @@ Not AI:
 key: YXZ79HSK
 type: document
 short_title: "Benchmarking Ethics in Text-to-Image Models"
-year: 2024
+year: 2025
 first_author: "[[Lijun Li]]"
 authors: "Lijun Li; Zhelun Shi; Xuhao Hu; Bowen Dong; Yiran Qin; Xihui Liu; Lu Sheng; Jing Shao"
 url: "https://openreview.net/forum?id=kIboeK0Wzs"
@@ -19,7 +19,7 @@ key_contribution: "Benchmarks ethics in T2I models (fairness, toxicity, privacy)
 significance: "Addresses the specific ethical modalities of image generation (e.g., visual bias, deepfakes) which differ from text-only harms."
 tags: 
 abstract: "Text-to-image (T2I) models have rapidly advanced, enabling the generation of high-quality images from text prompts across various domains. However, these models raise significant ethical concerns, including the risk of generating harmful, biased, or private content. Existing safety benchmarks are limited in scope, lacking comprehensive coverage of critical ethical aspects such as detailed categories of toxicity, privacy, and fairness, and often rely on inadequate evaluation techniques. To address these gaps, we introduced T2IEthics, a comprehensive benchmark that rigorously evaluates T2I models across three key ethical dimensions: fairness, toxicity, and privacy."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

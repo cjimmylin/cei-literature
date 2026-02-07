@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "Beyond Preferences in AI Alignment"
-year: 2024
+year: 2025
 first_author: "[[Tan Zhi-Xuan]]"
 authors: "Tan Zhi-Xuan; Micah Carroll; Matija Franklin; Hal Ashton"
 doi: 10.1007/s11098-024-02249-w
@@ -24,7 +24,7 @@ pdf_extract: "PDF Extracts/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.md"
 abstract: "The dominant practice of AI alignment assumes that preferences are an adequate representation of human values, that human rationality can be understood in terms of maximizing the satisfaction of preferences, and that AI systems should be aligned with preferences of one or more humans. These commitments constitute what we term a preferentist approach to AI alignment. In this paper, we characterize and challenge the preferentist approach, describing conceptual and technical alternatives. We argue ..."
 paper_summary: 
 local_pdf: "[[PDFs/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: Yes

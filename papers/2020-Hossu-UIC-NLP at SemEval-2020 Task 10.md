@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: C7HHNAZA
 type: conferencePaper
 short_title: "UIC-NLP at SemEval-2020 Task 10"
-year: 2020
+year: 2025
 first_author: "[[Philip Hossu]]"
 authors: "Philip Hossu; Natalie Parde"
 doi: 10.18653/v1/2020.semeval-1.223
@@ -23,14 +20,14 @@ tags:
 abstract: "In this work we describe and analyze a supervised learning system for word emphasis selection in phrases drawn from visual media as a part of the Semeval 2020 Shared Task 10. More speciﬁcally, we begin by brieﬂy introducing the shared task problem and provide an analysis of interesting and relevant features present in the training dataset. We then introduce our LSTM-based model and describe its structure, input features, and limitations. Our model ultimately failed to beat the benchmark score, a"
 local_pdf: "[[PDFs/2020-Hossu-UIC-NLP at SemEval-2020 Task 10.pdf]]"
 pdf_extract: "PDF Extracts/2020-Hossu-UIC-NLP at SemEval-2020 Task 10.md"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

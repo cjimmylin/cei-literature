@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,15 +19,15 @@ tags:
 pdf_extract: "PDF Extracts/2025-Bang-HalluLens LLM Hallucination Benchmark.md"
 paper_summary: "Overview: HalluLens: LLM Hallucination Benchmark Yejin Bang3,∗, Ziwei Ji3,∗, Alan Schelten2, Anthony Hartshorn2, Tara Fowler2, Cheng Zhang2, Nicola Cancedda1, Pascale Fung1,3 1FAIR at Meta, 2GenAI at Meta, 3HKU | Methodology: allows room for model improvement and prevents the benchmark from becoming obsolete quickly. Reproducibility: To foster consensus and transparency in  | Key Findings: of a model’s performance, rather than encouraging narrow optimization for the benchmark itself – a pitfall known as Goodhart’s law. By focusing on rea | Conclusions: Table 7 shows the false acceptance rates in percentages for each subtasks and average of those two. We find that the absolute performance vary across"
 local_pdf: "[[PDFs/2025-Bang-HalluLens LLM Hallucination Benchmark.pdf]]"
-abstract: "Large language models (LLMs) often generate responses that deviate from user input or training data, a phenomenon known as \"hallucination.\" These hallucinations undermine user trust and hinder the adoption of generative AI systems. Addressing hallucinations is essential for the advancement of LLMs. This paper introduces a comprehensive hallucination benchmark, incorporating both new extrinsic and existing intrinsic evaluation tasks, built upon clear taxonomy of hallucination. A major challenge in benchmarking hallucinations is the lack of a unified framework due to inconsistent definitions and categorizations. We disentangle LLM hallucination from \"factuality,\" proposing a clear taxonomy that distinguishes between extrinsic and intrinsic hallucinations, to promote consistency and facilitate research. Extrinsic hallucinations, where the generated content is not consistent with the training data, are increasingly important as LLMs evolve. Our benchmark includes dynamic test set generation to mitigate data leakage and ensure robustness against such leakage. We also analyze existing benchmarks, highlighting their limitations and saturation. The work aims to: (1) establish a clear taxonomy of hallucinations, (2) introduce new extrinsic hallucination tasks, with data that can be dynamically regenerated to prevent saturation by leakage, (3) provide a comprehensive analysis of existing benchmarks, distinguishing them from factuality evaluations."
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+abstract: "Large language models (LLMs) often generate responses that deviate from user input or training data, a phenomenon known as \"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for hallucination detection text corpus"
 data_metrics: "Not specified"
 ---

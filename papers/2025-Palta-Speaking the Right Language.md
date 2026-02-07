@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2025-Palta-Speaking the Right Language.md"
 abstract: "Using a sample of 25, 000 Bing Copilot con- versations, we study how the agent responds to users of varying levels of domain expertise and the resulting impact on user experience along multiple dimensions. Our findings show that across a variety of topical domains, the agent largely responds at proficient or expert levels of expertise (77% of conversations) which cor- relates with positive user experience regardless of the user’s level of expertise. Misalignment, such that the agent responds at"
 paper_summary: "Abstract: Using a sample of 25, 000 Bing Copilot con- versations, we study how the agent responds to users of varying levels of domain expertise and the resulting impact on user experience along multiple dimens | Overview: Speaking the Right Language: The Impact of Expertise Alignment in User-AI Interactions Shramay Palta†♢* Nirupama Chandrasekaran♢ Rachel Rudinger† Scott Counts♢ †University of Maryland, College Park ♢M | Methodology: Consider a conversation Ci from a corpus of con- versations C consisting of t interaction turns of user-agent utterances Ci = [U1, A1, ..., Ut, At].2  | Conclusions: We examined the alignment between LLMS and users along a dimension relevant to the user experi- ence: expertise. We show that the LLM’s expertise is l"
 local_pdf: "[[PDFs/2025-Palta-Speaking the Right Language.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

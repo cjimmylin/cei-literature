@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,7 +22,7 @@ key_contribution: "Introduces taxonomy of moral rationales; finds LLM chains-of-
 significance: "Reveals systematic differences in how LLMs reason vs explain moral decisions, important for interpretability"
 tags: 
 abstract: "The researchers investigate how large language models approach ethical decision-making by analyzing over 600 distinct trolley problems. Their framework classifies reasoning according to consequentialist versus deontological ethical theories. Key finding: LLM chains-of-thought tend to favor deontological principles based on moral obligations, while post-hoc explanations shift notably toward consequentialist rationales that emphasize utility. The work aims to advance safe deployment of language models in high-stakes contexts."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: Yes
@@ -33,6 +34,7 @@ data_description: "600+ trolley problem scenarios with moral reasoning analysis"
 data_metrics: "Moral reasoning classification"
 pdf_extract: "PDF Extracts/2025-Samway-Are Language Models Consequentialist or Deontological.md"
 local_pdf: "[[PDFs/2025-Samway-Are Language Models Consequentialist or Deontological.pdf]]"
+normative_ethics_benchmark: Yes
 ---
 # Are Language Models Consequentialist or Deontological Moral Reasoners?
 

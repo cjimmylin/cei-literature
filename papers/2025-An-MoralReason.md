@@ -1,6 +1,5 @@
 ---
 
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +12,7 @@ first_author: "[[Zhiyu An]]"
 authors: "[[An, Zhiyu]]; [[Du, Wan]]"
 doi: 10.48550/arXiv.2511.12271
 url: "https://arxiv.org/abs/2511.12271"
-local_pdf: "[[PDFs/2025-An-MoralReason.pdf]]"
+local_pdf: [[PDFs/2025-An-MoralReason.pdf]]
 external_pdf: "https://arxiv.org/pdf/2511.12271.pdf"
 national_ethnic_cultural: N/A
 religious_values: N/A
@@ -24,15 +23,16 @@ significance: "Demonstrates that LLMs can be trained to internalize and generali
 pdf_extract: "PDF Extracts/2025-An-MoralReason.md"
 abstract: "Large language models are increasingly influencing human moral decisions, yet current approaches focus primarily on evaluating rather than actively steering their moral deci- sions. We formulate this as an out-of-distribution moral alignment problem, where LLM agents must learn to ap- ply consistent moral reasoning frameworks to scenarios be- yond their training distribution. We introduce Moral-Reason- QA, a novel dataset extending 680 human-annotated, high- ambiguity moral scenarios with framew"
 paper_summary: "Abstract: Large language models are increasingly influencing human moral decisions, yet current approaches focus primarily on evaluating rather than actively steering their moral deci- sions. We formulate this  | Overview: MoralReason: Generalizable Moral Decision Alignment For LLM Agents Using Reasoning-Level Reinforcement Learning Zhiyu An, Wan Du University of California, Merced {zan7, wdu3}@ucmerced.edu Warning: Thi"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: Yes
+utilitarian_ethics: Yes
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework annotated dataset for question answering"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Yes
 ---
  MoralReason: Generalizable Moral Decision Alignment For LLM Agents Using Reasoning-Level Reinforcement Learning
 

@@ -6,7 +6,7 @@ Not AI:
 key: LJLNGYRQ
 type: conferencePaper
 short_title: "Detecting Unintended Social Bias in Toxic"
-year: 2022
+year: 2025
 first_author: "[[Nihar Sahoo]]"
 authors: "Nihar Sahoo; Himanshu Gupta; Pushpak Bhattacharyya"
 doi: 10.18653/v1/2022.conll-1.10
@@ -20,7 +20,7 @@ key_contribution: "Created the 'ToxicBias' dataset annotated for 5 bias categori
 significance: "Addresses the 'false positive' problem in hate speech detection where models flag neutral mentions of marginalized identities as toxic, hindering fair content moderation."
 tags: 
 abstract: "Warning: This paper has contents which may be offensive, or upsetting however this cannot be avoided owing to the nature of the work."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

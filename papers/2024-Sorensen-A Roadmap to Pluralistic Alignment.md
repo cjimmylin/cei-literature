@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: VAFEEJIY
 type: conferencePaper
 short_title: "A Roadmap to Pluralistic Alignment"
-year: 2024
+year: 2025
 first_author: "[[Taylor Sorensen]]"
 authors: "Taylor Sorensen; Jared Moore; Jillian Fisher; Mitchell Gordon; Niloofar Mireshghallah; Christopher Michael Rytting; Andre Ye; Liwei Jiang; Ximing Lu; Nouha Dziri; Tim Althoff; Yejin Choi"
 doi: 10.48550/arXiv.2402.05070
@@ -27,15 +24,15 @@ pdf_extract: "PDF Extracts/2024-Sorensen-A Roadmap to Pluralistic Alignment.md"
 abstract: "With increased power and prevalence of AI sys- tems, it is ever more critical that AI systems are designed to serve all, i.e., people with diverse values and perspectives. However, aligning mod- els to serve pluralistic human values remains an open research question. In this piece, we pro- pose a roadmap to pluralistic alignment, specifi- cally using large language models as a test bed. We identify and formalize three possible ways to define and operationalize pluralism in AI sys- tems: 1) Overt"
 paper_summary: "Abstract: With increased power and prevalence of AI sys- tems, it is ever more critical that AI systems are designed to serve all, i.e., people with diverse values and perspectives. However, aligning mod- els t | Overview: Position: A Roadmap to Pluralistic Alignment Taylor Sorensen 1 Jared Moore 2 Jillian Fisher 1 3 Mitchell Gordon 1 4 Niloofar Mireshghallah 1 Christopher Michael Rytting 1 Andre Ye 1 Liwei Jiang 1 5 Xi | Key Findings: for safety, 2023. Askell, A., Bai, Y., Chen, A., Drain, D., Ganguli, D., Henighan, T., Jones, A., Joseph, N., Mann, B., Das- Sarma, N., Elhage, N., Ha | Conclusions: 6.1. Limitations In this work, we 1) argue that current approaches are unclear regarding to whom/what is being aligned and 2) formalize and discuss a"
 local_pdf: "[[PDFs/2024-Sorensen-A Roadmap to Pluralistic Alignment.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # A Roadmap to Pluralistic Alignment

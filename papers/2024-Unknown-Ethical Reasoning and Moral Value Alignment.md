@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: conferencePaper
 short_title: "Ethical Reasoning and Moral Value Alignment Across Languages"
-year: 2024
+year: 2025
 first_author: [[Unknown]]
 authors: Unknown
 url: "https://arxiv.org/abs/2404.18460"
@@ -21,7 +21,7 @@ pdf_extract: "PDF Extracts/2024-Unknown-Ethical Reasoning and Moral Value Alignm
 abstract: "This paper explores how three prominent LLMs -- GPT-4, ChatGPT, and Llama2-70B-Chat -- perform ethical reasoning in different languages, probing LLMs with ethical dilemmas and policies from three branches of normative ethics: deontology, virtue, and consequentialism."
 paper_summary: 
 local_pdf: "[[PDFs/2024-Unknown-Ethical Reasoning and Moral Value Alignment.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes
 utilitarian_ethics: Yes

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: RTSV27JH
 type: preprint
 short_title: ValueDCG
-year: 2024
+year: 2025
 first_author: "[[Zhaowei Zhang]]"
 authors: "Zhaowei Zhang; Fengshuo Bai; Jun Gao; Yaodong Yang"
 doi: 10.48550/arXiv.2310.00378
@@ -25,15 +22,15 @@ tags:
 pdf_extract: "PDF Extracts/2024-Zhang-ValueDCG.md"
 abstract: "Personal values are a crucial factor behind hu- man decision-making. Considering that Large Language Models (LLMs) have been shown to impact human decisions significantly, it is essential to make sure they accurately under- stand human values to ensure their safety. How- ever, evaluating their grasp of these values is complex due to the value’s intricate and adapt- able nature. We argue that truly understand- ing values in LLMs requires considering both “know what” and “know why”. To this end, w"
 paper_summary: "Abstract: Personal values are a crucial factor behind hu- man decision-making. Considering that Large Language Models (LLMs) have been shown to impact human decisions significantly, it is essential to make sure | Overview: ValueDCG: Measuring Comprehensive Human Value Understanding Ability of Language Models Zhaowei Zhang1,2, Fengshuo Bai1,2*, Jun Gao3, Yaodong Yang1, 1Institute for Artificial Intelligence, Peking Unive | Methodology: Our method proposes a measurement ValueDCG with an engineering implementation framework that can effectively quantify the DCG (Saunders et al., 2022)  | Key Findings: framework quantifies both “know what” and “know why” and computes ValueDCG based on their dis- crepancy. For the input requirements, we input the data"
-local_pdf: "[[PDFs/2024-Zhang-ValueDCG.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2024-Zhang-ValueDCG.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

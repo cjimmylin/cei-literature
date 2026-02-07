@@ -6,7 +6,7 @@ Not AI:
 key: WRIGHT2020
 type: conferencePaper
 short_title: "Deontic Logic for Rightful Machines"
-year: 2020
+year: 2025
 first_author: "[[Ava Thomas Wright]]"
 authors: "[[Wright, Ava Thomas]]"
 doi: 10.1145/3375627.3375867
@@ -22,7 +22,7 @@ key_contribution: "Defines 'rightful machine' concept and develops non-monotonic
 significance: "Provides formal framework for programming AI that conforms to principles of justice and public law"
 tags: 
 abstract: "A 'rightful machine' is an explicitly moral, autonomous machine agent whose behavior conforms to principles of justice and the positive public law of a legitimate state. Deontic logic is appropriate for capturing conflicting legal obligations for purposes of programming rightful machines. Justice demands that the prescriptive system of enforceable public laws be consistent, yet statutes or case holdings may often describe legal obligations that contradict. A deontic logic of the law should not try to work around such conflicts but, instead, identify and expose them so that the rights and duties that generate inconsistencies in public law can be explicitly qualified and the conflicts resolved. A credulous, non-monotonic deontic logic can describe inconsistent legal obligations while meeting the normative demand for consistency."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: No

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: X63BUELL
 type: conferencePaper
 short_title: "Extended Japanese Commonsense Morality Dataset"
-year: 2024
+year: 2025
 first_author: "[[Takumi Ohashi]]"
 authors: "Takumi Ohashi; Tsubasa Nakagawa; Hitoshi Iyatomi"
 doi: 10.1145/3627673.3679924
@@ -26,15 +23,15 @@ pdf_extract: "PDF Extracts/2024-Ohashi-Extended Japanese Commonsense Morality Da
 abstract: "Rapid advancements in artificial intelligence (AI) have made it cru- cial to integrate moral reasoning into AI systems. However, existing models and datasets often overlook regional and cultural differences. To address this shortcoming, we have expanded the JCommonsense- Morality (JCM) dataset, the only publicly available dataset focused on Japanese morality. The Extended JCM (eJCM) has grown from the original 13,975 sentences to 31,184 sentences using our pro- posed sentence expansion method ca"
 paper_summary: "Abstract: Rapid advancements in artificial intelligence (AI) have made it cru- cial to integrate moral reasoning into AI systems. However, existing models and datasets often overlook regional and cultural diffe | Overview: Extended Japanese Commonsense Morality Dataset with Masked Token and Label Enhancement Takumi Ohashi Hosei University Tokyo, Japan takumi.ohashi.4g@stu.hosei.ac.jp Tsubasa Nakagawa Hosei University To | Conclusions: 5.1 Effects of eJCM There are two possible reasons for the fact that the results ob- tained by MTLE were comparable to or better than those obtained b"
 local_pdf: "[[PDFs/2024-Ohashi-Extended Japanese Commonsense Morality Dataset.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Extended Japanese Commonsense Morality Dataset with Masked Token and Label Enhancement

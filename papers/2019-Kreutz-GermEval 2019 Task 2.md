@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: F5F25757
 type: conferencePaper
 short_title: "GermEval 2019 Task 2"
-year: 2019
+year: 2025
 first_author: "[[Sven Kreutz]]"
 authors: "Sven Kreutz; Hendrik Klawitter"
 url: "https://germevalmp2023.github.io/data/"
@@ -19,17 +16,17 @@ moral_psychology: N/A
 newtags: "German, Toxicity & Hate Speech"
 key_contribution: "A shared task dataset for identifying offensive language in *German*."
 significance: "Benchmark resource for German hate speech detection."
-tags:
+tags: 
 abstract: "This paper presents an overview of the second edition of the GermEval Shared Task on the Identification of Offensive Language, dealing with the classification of German tweets from Twitter. Two subtasks were continued from the first edition, namely a coarse-grained binary classification task and a fine-grained multi-class classification task. As a novel subtask, the classification of offensive tweets as explicit or implicit was introduced. The shared task had 13 participating groups submitting runs across the three subtasks."
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # GermEval 2019 Task 2: Offensive Language Identification (Data Page)

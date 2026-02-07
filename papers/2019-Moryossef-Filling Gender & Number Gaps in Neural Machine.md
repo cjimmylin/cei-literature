@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: W3LNG2ZA
 type: conferencePaper
 short_title: "Filling Gender & Number Gaps in Neural Machine"
-year: 2019
+year: 2025
 first_author: "[[Amit Moryossef]]"
 authors: "Amit Moryossef; Roee Aharoni; Yoav Goldberg"
 doi: 10.18653/v1/W19-3807
@@ -23,14 +20,14 @@ tags:
 abstract: "When translating from a language that does not morphologically mark information such as gender and number into a language that does, translation systems must “guess” this missing information, often leading to incorrect translations in the given context. We propose a black-box approach for injecting the missing information to a pre-trained neural machine translation system, allowing to control the morphological variations in the generated translations without changing the underlying model or trai"
 local_pdf: "[[PDFs/2019-Moryossef-Filling Gender & Number Gaps in Neural Machine.pdf]]"
 pdf_extract: "PDF Extracts/2019-Moryossef-Filling Gender & Number Gaps in Neural Machine.md"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: RL573MSX
 type: journalArticle
-year: 2024
+year: 2025
 short_title: "Frontier AI Ethics"
 first_author: "[[Seth Lazar]]"
 authors: "Seth Lazar"
@@ -18,7 +18,7 @@ key_contribution: "Explores societal impacts and normative questions of 'Languag
 significance: "Shifts ethical focus from static models or far-future risks to the near-term disruptive potential of agentic AI systems and their societal integration"
 tags: 
 abstract: "Some have criticised Generative AI Systems for replicating the familiar pathologies of already widely-deployed AI systems. Other critics highlight how they foreshadow vastly more powerful future systems, which might threaten humanity's survival. The first group says there is nothing new here; the other looks through the present to a perhaps distant horizon. In this paper, I instead pay attention to what makes these particular systems distinctive: both their remarkable scientific achievement, and"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: Yes

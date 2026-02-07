@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,15 +21,15 @@ tags:
 pdf_extract: "PDF Extracts/2025-Various-AISafetyLab.md"
 abstract: "As AI models are increasingly deployed across diverse real-world scenarios, ensuring their safety remains a critical yet underexplored chal- lenge. While substantial efforts have been made to evaluate and enhance AI safety, the lack of a standardized framework and compre- hensive toolkit poses significant obstacles to systematic research and practical adoption. To bridge this gap, we introduce AISafetyLab, a unified framework and toolkit that integrates representative attack, defense, and evalua"
 paper_summary: "Abstract: As AI models are increasingly deployed across diverse real-world scenarios, ensuring their safety remains a critical yet underexplored chal- lenge. While substantial efforts have been made to evaluate | Overview: AISafetyLab: A Comprehensive Framework for AI Safety Evaluation and Improvement Zhexin Zhang∗1, Leqi Lei∗1, Junxiao Yang∗1, Xijie Huang∗2, Yida Lu1, Shiyao Cui1, Renmiao Chen1, Qinglin Zhang1, Xinyuan | Methodology: Coverage. AISafetyLab offers a broad array of attack, defense, and evaluation techniques. Notably, compared to existing toolkits, we are the first to  | Key Findings: methodologies for AI safety. AISafetyLab fea- tures an intuitive interface that enables devel- opers to seamlessly apply various techniques while main"
-local_pdf: "[[PDFs/2025-Various-AISafetyLab.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2025-Various-AISafetyLab.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

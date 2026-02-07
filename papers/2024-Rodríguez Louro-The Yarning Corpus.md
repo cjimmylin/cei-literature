@@ -6,7 +6,7 @@ Not AI:
 key: 8DBSJ2EW
 type: journalArticle
 short_title: "The Yarning Corpus"
-year: 2024
+year: 2025
 first_author: "[[Celeste Rodríguez Louro]]"
 authors: "Celeste Rodríguez Louro; Glenys Collard"
 doi: 10.1080/07268602.2024.2380661
@@ -22,7 +22,7 @@ tags:
 research_topic: Other
 abstract: "The Yarning Corpus consists of acrolectal Aboriginal English data gathered in metropolitan Perth, WA. It features video-recorded interactions with 58 Aboriginal English speakers born between 1931 and 2009. Using this corpus, we sought to uncover variation and change in Aboriginal English in Nyungar Country, Southwest WA. We designed a cross-cultural research model that allowed us to document sociolinguistic aspects of Aboriginal English “yarning” – a First Nations cultural form of storytelling and conversation which we used to capture diverse voices in sociolinguistic research. The corpus features video-recorded interactions with 58 Aboriginal English speakers born between 1931 and 2009. These materials amount to 517,600 words of unscripted, interactional speech data from 36 women and 22 men aged 10–88 who speak Aboriginal English as their vernacular. We focus on speakers who use Aboriginal English as their main language of communication, and who do not speak ancestral languages fluently. The Yarning Corpus allowed us to enrich sociolinguistic research methods by utilizing an approach grounded in a relational ethic. It also made it possible to explore the quotative system of Aboriginal English, and to contribute to more inclusive models in the design of medical media and Artificial Intelligence-powered technologies for First Nations communities."
 pdf: "https://doi.org/10.1080/07268602.2024.2380661"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

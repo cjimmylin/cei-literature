@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,24 +11,24 @@ first_author: "[[Somnath Banerjee]]"
 authors: "Somnath Banerjee; Sayan Layek; Soham Tripathy; Shanu Kumar; Animesh Mukherjee; Rima Hazra"
 url: "https://ojs.aaai.org/index.php/AAAI/article/view/34927"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/KV9GGDEF/Jain and others - 2025 - SafeInfer Context Adaptive Decoding Time Safety Alignment for Large Language Models.pdf"
-pdf_extract: "[[2025-Banerjee-SafeInfer]]"
-local_pdf: "[[2025-Banerjee-SafeInfer.pdf]]"
+pdf_extract: [[2025-Banerjee-SafeInfer]]
+local_pdf: [[2025-Banerjee-SafeInfer.pdf]]
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed 'SafeInfer' for inference-time safety alignment (decoding adaptation)."
 significance: "Suggests shifting safety from training (fine-tuning) to inference (decoding), allowing for flexible, context-adaptive safety rails without retraining."
-tags:
+tags: 
 abstract: "Safety-aligned language models often exhibit fragile and imbalanced safety mechanisms, increasing the likelihood of generating unsafe content. This work proposes SafeInfer, a context-adaptive decoding time safety alignment strategy. SafeInfer operates in two stages: first employing safe demonstration examples to adjust the model's hidden states and increase the likelihood of safer outputs, then applying safety-optimized distributions to guide token selection during generation. We also introduce HarmEval, a novel benchmark for extensive safety evaluations designed to address potential misuse scenarios in accordance with the policies of leading AI tech giants."
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---

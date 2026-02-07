@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: QF84CVXQ
 type: conferencePaper
 short_title: "The Alignment Problem from a Deep Learning"
-year: 2022
+year: 2025
 first_author: "[[Richard Ngo]]"
 authors: "Richard Ngo; Lawrence Chan; Sören Mindermann"
 doi: 10.48550/arXiv.2209.00626
@@ -27,15 +24,15 @@ pdf_extract: "PDF Extracts/2022-Ngo-The Alignment Problem from a Deep Learning.m
 abstract: "In coming years or decades, artiﬁcial general intelligence (AGI) may surpass human capabilities at many critical tasks. We argue that, without substantial effort to prevent it, AGIs could learn to pursue goals that are in conﬂict (i.e., misaligned) with human interests. If trained like today’s most capable models, AGIs could learn to act deceptively to receive higher reward, learn misaligned internally-represented goals that generalize beyond their ﬁne-tuning distributions, and pursue those goal"
 paper_summary: "Abstract: In coming years or decades, artiﬁcial general intelligence (AGI) may surpass human capabilities at many critical tasks. We argue that, without substantial effort to prevent it, AGIs could learn to pur | Overview: arXiv:2209.00626v8 [cs.AI] 4 May 2025 Published as a conference paper at ICLR 2024 The Alignment Problem from a Deep Learning Perspective Richard Ngo OpenAI richard@openai.com Lawrence Chan UC Berkele | Methodology: to alignment research, January 2023c. URL https://openai.com/blog/our-approach-to-alignment-research/. Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida,  | Conclusions: We ground the analysis of large-scale risks from misaligned AGI in the deep learning literature. We argue that if AGI-level policies are trained using"
 local_pdf: "[[PDFs/2022-Ngo-The Alignment Problem from a Deep Learning.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # The Alignment Problem from a Deep Learning Perspective

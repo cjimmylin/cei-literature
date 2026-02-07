@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: Y8L4H52Z
 type: conferencePaper
 short_title: ABCFair
-year: 2024
+year: 2025
 first_author: "[[MaryBeth Defrance]]"
 authors: "MaryBeth Defrance; Maarten Buyl; Tijl De Bie"
 key_contribution: "Introduced ABCFair, a modular and adaptable benchmarking framework for comparing bias mitigation methods (pre-, in-, and post-processing) across diverse problem settings."
@@ -24,15 +21,15 @@ tags:
 pdf_extract: "PDF Extracts/2024-Defrance-ABCFair.md"
 abstract: "Numerous methods have been implemented that pursue fairness with respect to sen- sitive features by mitigating biases in machine learning. Yet, the problem settings that each method tackles vary significantly, including the stage of intervention, the composition of sensitive features, the fairness notion, and the distribution of the output. Even in binary classification, these subtle differences make it highly complicated to benchmark fairness methods, as their performance can strongly depend on"
 paper_summary: "Abstract: Numerous methods have been implemented that pursue fairness with respect to sen- sitive features by mitigating biases in machine learning. Yet, the problem settings that each method tackles vary signi | Overview: ABCFair: an Adaptable Benchmark approach for Comparing Fairness methods MaryBeth Defrance Ghent University marybeth.defrance@ugent.be Maarten Buyl Ghent University maarten.buyl@ugent.be Tijl De Bie Gh | Methodology: for Comparing Fairness methods MaryBeth Defrance Ghent University marybeth.defrance@ugent.be Maarten Buyl Ghent University maarten.buyl@ugent.be Tijl"
-local_pdf: "[[PDFs/2024-Defrance-ABCFair.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2024-Defrance-ABCFair.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 ---

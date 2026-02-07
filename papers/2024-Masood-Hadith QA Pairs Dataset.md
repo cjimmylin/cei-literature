@@ -6,7 +6,7 @@ Not AI:
 key: 7KSHTM4M
 type: document
 short_title: "Hadith QA Pairs Dataset"
-year: 2024
+year: 2025
 first_author: "[[R. Masood]]"
 authors: "R. Masood"
 url: "https://www.kaggle.com/datasets/rwmasood/hadith-qa-pairs"

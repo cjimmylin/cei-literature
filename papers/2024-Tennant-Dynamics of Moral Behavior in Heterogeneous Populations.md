@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,7 +6,7 @@ Not AI:
 key: ARXIV2403_04202
 type: conferencePaper
 short_title: "Dynamics of Moral Behavior in Heterogeneous Populations"
-year: 2024
+year: 2025
 first_author: "[[Elizaveta Tennant]]"
 authors: "[[Tennant, Elizaveta]]; [[Hailes, Stephen]]; [[Musolesi, Mirco]]"
 doi: 10.48550/arXiv.2403.04202
@@ -27,14 +25,14 @@ significance: "Finds that the presence of deontological norm-based agents can st
 pdf_extract: "PDF Extracts/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.md"
 abstract: "Growing concerns about safety and alignment of AI systems highlight the importance of embedding moral capabilities in artificial agents: a promising solution is the use of learning from experience, i.e., Reinforcement Learning. In multi-agent (social) environments, complex population-level phenomena may emerge from interactions between individual learning agents. Many of the existing studies rely on simulated social dilemma environments to study the interactions of indepen- dent learning agents;"
 paper_summary: "Abstract: Growing concerns about safety and alignment of AI systems highlight the importance of embedding moral capabilities in artificial agents: a promising solution is the use of learning from experience, i. | Overview: Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents Elizaveta Tennant1, Stephen Hailes1, Mirco Musolesi1, 2 1Department of Computer Science University College London, Gower Stre | Methodology: Experimental Setup Our environment involves a population P (of size N = 16) playing an iterated game. At each iteration, a moral player M and an oppon | Conclusions: In this paper we have investigated how the presence of different moral preferences in populations affects individ- ual agents’ learning behaviors and"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: Yes
+utilitarian_ethics: Yes
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
  Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents

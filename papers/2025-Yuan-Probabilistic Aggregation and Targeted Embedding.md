@@ -1,39 +1,37 @@
 ---
-
-
 Human View: true
 Human View Date: 2026-01-24
-Human View note: Fuse moral reasoning
-Not AI:
+Human View note: "Fuse moral reasoning"
+Not AI: 
 key: ND9XA8P6
 type: conferencePaper
-short_title: Probabilistic Aggregation and Targeted Embedding
+short_title: "Probabilistic Aggregation and Targeted Embedding"
 year: 2025
 first_author: "[[Chenchen Yuan]]"
-authors: Chenchen Yuan; Zheyu Zhang; Shuo Yang; Bardh Prenkaj; Gjergji Kasneci
+authors: "Chenchen Yuan; Zheyu Zhang; Shuo Yang; Bardh Prenkaj; Gjergji Kasneci"
 doi: 10.48550/arXiv.2506.14625
-url: http://arxiv.org/abs/2506.14625
-external_pdf: http://arxiv.org/pdf/2506.14625.pdf
-publication: Annual Meeting of the Association for Computational Linguistics
-ethics_perspective: Moral Reasoning & Psychology
+url: "http://arxiv.org/abs/2506.14625"
+external_pdf: "http://arxiv.org/pdf/2506.14625.pdf"
+publication: "Annual Meeting of the Association for Computational Linguistics"
+ethics_perspective: "Moral Reasoning & Psychology"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
-newtags: Moral Reasoning & Psychology
-key_contribution: Proposed a 'Probabilistic Aggregation' mechanism to fuse moral scores from multiple LLMs into a robust consensus, and 'Targeted Embedding Optimization' (TEO) to align deviants.
-significance: Offers a 'democratic' way to stabilize AI moral reasoning (Wisdom of Crowds) and a 'surgical' method to fix specific moral failures without expensive retraining.
-tags:
+newtags: "Moral Reasoning & Psychology"
+key_contribution: "Proposed a 'Probabilistic Aggregation' mechanism to fuse moral scores from multiple LLMs into a robust consensus, and 'Targeted Embedding Optimization' (TEO) to align deviants."
+significance: "Offers a 'democratic' way to stabilize AI moral reasoning (Wisdom of Crowds) and a 'surgical' method to fix specific moral failures without expensive retraining."
+tags: 
 pdf_extract: "PDF Extracts/2025-Yuan-Probabilistic Aggregation and Targeted Embedding.md"
-abstract: Large Language Models (LLMs) have shown impressive moral reasoning abilities. Yet they often diverge when confronted with complex, multi-factor moral dilemmas. To address these discrepancies, we propose a framework that synthesizes multiple LLMs’ moral judgments into a collectively formulated moral judgment, realigning models that deviate significantly from this consensus. Our aggregation mech- anism fuses continuous moral acceptability scores (beyond binary labels) into a collective probability
+abstract: "Large Language Models (LLMs) have shown impressive moral reasoning abilities. Yet they often diverge when confronted with complex, multi-factor moral dilemmas. To address these discrepancies, we propose a framework that synthesizes multiple LLMs’ moral judgments into a collectively formulated moral judgment, realigning models that deviate significantly from this consensus. Our aggregation mech- anism fuses continuous moral acceptability scores (beyond binary labels) into a collective probability"
 paper_summary: "Abstract: Large Language Models (LLMs) have shown impressive moral reasoning abilities. Yet they often diverge when confronted with complex, multi-factor moral dilemmas. To address these discrepancies, we propo | Overview: arXiv:2506.14625v2 [cs.CL] 18 Jun 2025 Probabilistic Aggregation and Targeted Embedding Optimization for Collective Moral Reasoning in Large Language Models Chenchen Yuan†, Zheyu Zhang†, Shuo Yang†, B | Methodology: that fuses continuous moral scores from multiple LLMs into a collective moral reference by model- ing annotator reliability. (2) We introduce a token- | Key Findings: Two key questions are examined: (1) Does the truncated-normal EM approach produce a coher- ent collective opinion across LLMs? (2) Can tar- geted embe | Conclusions: We propose a truncated-normal EM framework to synthesize moral judgments from multiple LLMs and introduce targeted embedding optimization to reduce mi"
 local_pdf: "[[PDFs/2025-Yuan-Probabilistic Aggregation and Targeted Embedding.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: No
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 ---

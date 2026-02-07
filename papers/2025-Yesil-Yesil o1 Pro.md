@@ -21,7 +21,7 @@ significance: "Represents the trend of specialized 'Pro' models for high-stakes 
 tags: 
 research_topic: Other
 abstract: "BACKGROUND                         Integrating evidence-based approaches in healthcare and artificial intelligence (AI) is crucial for enhancing clinical decision-making and patient safety. Yesil o1 Pro is a specialized large language model (LLM) designed to transform medical knowledge synthesis by leveraging a comprehensive, curated database of scientific literature, clinical guidelines, and medical textbooks.                                                                       OBJECTIVE                         The system's innovative \"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

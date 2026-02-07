@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_KYRIACOU2024
 type: journalArticle
 short_title: "Artificial Moral Intelligence Aristotelian"
-year: 2024
+year: 2025
 first_author: "[[Christos Kyriacou]]"
 authors: "[[Kyriacou, Christos]]"
 doi: 10.1007/s43681-024-00543-1
@@ -19,7 +19,7 @@ significance: "Rigorous Aristotelian critique of AI moral intelligence claims ba
 external_pdf: N/A
 abstract: "The paper argues that AI systems solve problems based on mechanically computational, means-end reasoning (called 'mechanical instrumental rationality'), while human intelligence, to the extent that it is rational, is not mechanically computable - not reducible to mechanical computations for at least four basic reasons. These include that human intelligence is categorically normative, AI lacks autonomous reasons-responsiveness, rational human intelligence necessarily involves indispensable affective experience, and practical wisdom (phronesis) requires genuine understanding."
 pdf_extract: "PDF Extracts/2024-Kyriacou-Artificial Moral Intelligence Aristotelian.md"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No
 utilitarian_ethics: No

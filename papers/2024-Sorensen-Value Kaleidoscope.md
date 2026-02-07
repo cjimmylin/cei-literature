@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,7 +6,7 @@ Not AI:
 key: 4YHKRNTT
 type: journalArticle
 short_title: "Value Kaleidoscope"
-year: 2024
+year: 2025
 first_author: "[[Taylor Sorensen]]"
 authors: "[[Sorensen, Taylor]]; [[Jiang, Liwei]]; [[Hwang, Jena]]; [[Levine, Sydney]]; [[Pyatkin, Valentina]]; [[West, Peter]]; [[Dziri, Nouha]]; [[Lu, Ximing]]; [[Rao, Kavel]]; [[Bhagavatula, Chandra]]; [[Sap, Maarten]]; [[Tasioulas, John]]; [[Choi, Yejin]]"
 doi: 10.1609/aaai.v38i18.29970
@@ -25,14 +23,14 @@ pdf_extract: "PDF Extracts/2024-Sorensen-Value Kaleidoscope.md"
 tags: 
 abstract: "Human values are crucial to human decision-making. Value pluralism is the view that multiple correct values may be held in tension with one another (e.g., when considering lying to a friend to protect their feelings, how does one balance honesty with friendship?). As statistical learners, AI systems fit to av- erages by default, washing out these potentially irreducible value conflicts. To improve AI systems to better reflect value pluralism, the first-order challenge is to explore the extent to"
 paper_summary: "Abstract: Human values are crucial to human decision-making. Value pluralism is the view that multiple correct values may be held in tension with one another (e.g., when considering lying to a friend to protect | Overview: Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties Taylor Sorensen 1,2, Liwei Jiang 1,2, Jena D. Hwang 2, Sydney Levine 2, Valentina Pyatkin 1,2, Peter West 1,2, Nouha D | Conclusions: Strengths Over Teacher Model Although our model per- forms strongly against the teacher in value generation, it also has several other advantages. It"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
  Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties

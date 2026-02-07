@@ -6,7 +6,7 @@ Not AI:
 key: 3FVZCJRK
 type: document
 short_title: EMoTES-3K
-year: 2023
+year: 2025
 first_author: "[[Jasper Kyle Catapang]]"
 authors: "[[Catapang, Jasper Kyle]]; [[Visperas, Moses]]"
 url: "https://aclanthology.org/2023.nlp4dh-1.1/"
@@ -19,7 +19,7 @@ key_contribution: "Created EMoTES-3K, the first dataset for emotion-based morali
 significance: "Addresses the 'Anglocentrism' of moral AI benchmarks, providing a crucial resource for Filipino NLP and showing that models struggle with 'mixed' moral scenarios in Tagalog."
 tags: 
 abstract: "Grasping morality is vital in AI systems, particularly as they become more prevalent in human-focused applications. Yet, research is scarce on this topic. This study presents the Emotion-based Morality in Tagalog and English Scenarios (EMoTES-3K), a collection that shows commonsense morality in both Filipino and English. This dataset is instrumental for analyzing moral decisions in various situations and their justifications. Our tests show that EMoTES-3K is effective for moral text categorization, with the fine-tuned RoBERTa model scoring 94.95% accuracy in English and 88.53% in Filipino. The dataset also excels in text generation tasks, as shown by fine-tuning the FLAN-T5 model to produce clear moral explanations. However, the model faces challenges when dealing with actions that have mixed moral implications. This work not only bridges the gap in moral reasoning datasets for languages like Filipino but also sets the stage for future research in commonsense moral reasoning in artificial intelligence."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

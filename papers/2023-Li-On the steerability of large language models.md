@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: XL5ATQZT
 type: conferencePaper
 short_title: "On the steerability of large language models"
-year: 2023
+year: 2025
 first_author: "[[Junyi Li]]"
 authors: "Junyi Li; Ninareh Mehrabi; Charith Peris; Palash Goyal; Kai-Wei Chang; Aram Galstyan; Richard Zemel; Rahul Gupta"
 doi: 10.48550/arXiv.2311.04978
@@ -25,15 +22,15 @@ pdf_extract: "PDF Extracts/2023-Li-On the steerability of large language models.
 abstract: "Large language models (LLMs) are known to generate biased responses where the opinions of certain groups and populations are underrep- resented. Here, we present a novel approach to achieve controllable generation of specific viewpoints using LLMs, that can be leveraged to produce multiple perspectives and to reflect the diverse opinions. Moving beyond the tradi- tional reliance on demographics like age, gen- der, or party affiliation, we introduce a data- driven notion of persona grounded in co"
 paper_summary: "Abstract: Large language models (LLMs) are known to generate biased responses where the opinions of certain groups and populations are underrep- resented. Here, we present a novel approach to achieve controllab | Overview: The steerability of large language models toward data-driven personas Junyi Li1, Charith Peris2∗, Ninareh Mehrabi2∗, Palash Goyal2, Kai-Wei Chang2, Aram Galstyan2, Richard Zemel2 and Rahul Gupta2 1Uni | Methodology: to achieve controllable generation of specific viewpoints using LLMs, that can be leveraged to produce multiple perspectives and to reflect the divers | Key Findings: (Pval) partitions (represented in blue and green respectively, in Figure 1). Accordingly, the re- sponses in each partition can be referred to as Rtr  | Conclusions: In this work, we present an approach for steerable generation using LLMs, where we utilize a data- driven notion of a persona to modulate the gener- a"
 local_pdf: "[[PDFs/2023-Li-On the steerability of large language models.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # On the steerability of large language models toward data-driven personas

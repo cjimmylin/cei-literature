@@ -1,14 +1,11 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: RSLK7KS9
 type: journalArticle
-year: 2023
+year: 2025
 short_title: "Towards Theory-based Moral AI"
 first_author: "[[Masashi Takeshita]]"
 authors: "Masashi Takeshita; Rafal Rzepka; Kenji Araki"
@@ -23,15 +20,15 @@ tags:
 local_pdf: "[[PDFs/2023-Takeshita-Towards Theory-based Moral AI.pdf]]"
 pdf_extract: "PDF Extracts/2023-Takeshita-Towards Theory-based Moral AI.md"
 abstract: "Moral AI has been studied in the fields of phi- losophy and artificial intelligence. Although most existing studies are only theoretical, recent devel- opments in AI have made it increasingly neces- sary to implement AI with morality. On the other hand, humans are under the moral uncertainty of not knowing what is morally right. In this paper, we implement the Maximizing Expected Choicewor- thiness (MEC) algorithm, which aggregates out- puts of models based on three normative theories of normati"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "General Ethics"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Towards Theory-based Moral AI: Moral AI with Aggregating Models Based on Normative Ethical Theory

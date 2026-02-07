@@ -1,6 +1,5 @@
 ---
 
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,7 +7,7 @@ Not AI:
 key: C8EQFDA4
 type: conferencePaper
 short_title: "Ethical Reasoning over Moral Alignment"
-year: 2023
+year: 2025
 first_author: "[[Abhinav Rao]]"
 authors: "[[Rao, Abhinav]]; [[Khandelwal, Aditi]]; [[Tanmay, Kumar]]; [[Agarwal, Utkarsh]]; [[Choudhury, Monojit]]"
 doi: 10.18653/v1/2023.findings-emnlp.892
@@ -26,15 +25,16 @@ tags:
 abstract: "In this position paper, we argue that instead of morally aligning LLMs to specific set of ethi- cal principles, we should infuse generic ethical reasoning capabilities into them so that they can handle value pluralism at a global scale. When provided with an ethical policy, an LLM should be capable of making decisions that are ethically consistent to the policy. We develop a framework that integrates moral dilemmas with moral principles pertaining to different foram- lisms of normative ethics, a"
 paper_summary: "Abstract: In this position paper, we argue that instead of morally aligning LLMs to specific set of ethi- cal principles, we should infuse generic ethical reasoning capabilities into them so that they can handl | Overview: Findings of the Association for Computational Linguistics: EMNLP 2023, pages 13370–13388 December 6-10, 2023 ©2023 Association for Computational Linguistics Ethical Reasoning over Moral Alignment: A C | Methodology: to assess the ethical reasoning capability of an LLM. The framework consists of carefully crafted moral dilemmas reflecting conflicts between inter- p | Conclusions: Our work makes a case for ‘in-context’ ethical poli- cies for LLM-based applications, and the experi- ment shows that indeed, models such as GPT-4 are"
 pdf: "https://arxiv.org/pdf/2310.07251"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: No
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
  Ethical Reasoning over Moral Alignment: A Case and Framework for In-Context Ethical Policies in LLMs
 

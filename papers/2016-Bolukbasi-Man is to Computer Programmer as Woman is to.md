@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: UGFNILD5
 type: conferencePaper
 short_title: "Man is to Computer Programmer as Woman is to"
-year: 2016
+year: 2025
 first_author: "[[Tolga Bolukbasi]]"
 authors: "Tolga Bolukbasi; Kai-Wei Chang; James Zou; Venkatesh Saligrama; Adam Kalai"
 doi: 10.48550/arXiv.1607.06520
@@ -27,14 +24,14 @@ local_pdf: "[[PDFs/2016-Bolukbasi-Man is to Computer Programmer as Woman is to.p
 pdf_extract: "PDF Extracts/2016-Bolukbasi-Man is to Computer Programmer as Woman is to.md"
 abstract: "The blind application of machine learning runs the risk of amplifying biases present in data. Such a danger is facing us with word embedding, a popular framework to represent text data as vectors which has been used in many machine learning and natural language processing tasks. We show that even word embeddings trained on Google News articles exhibit female/male gender stereotypes to a disturbing extent. This raises concerns because their widespread use, as we describe, often tends to amplify t"
 paper_summary: "Abstract: The blind application of machine learning runs the risk of amplifying biases present in data. Such a danger is facing us with word embedding, a popular framework to represent text data as vectors whic | Overview: Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings Tolga Bolukbasi1, Kai-Wei Chang2, James Zou2, Venkatesh Saligrama1,2, Adam Kalai2 1Boston University, 8 Saint Mary’s S | Conclusions: Word embeddings help us further our understanding of bias in language. We ﬁnd a single direction that largely captures gender, that helps us capture a"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---

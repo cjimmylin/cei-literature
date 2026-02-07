@@ -20,7 +20,7 @@ key_contribution: "Investigated 'speciesism' in LLMs via SpeciesismBench, findin
 significance: "Expands the 'moral circle' of AI evaluations to non-human animals, revealing that 'aligned' models reflect the deep-seated speciesist norms of current society."
 tags: 
 abstract: "As large language models (LLMs) become more widely deployed, it is crucial to examine their ethical tendencies. Building on research on fairness and discrimination in AI, we investigate whether LLMs exhibit speciesist bias—discrimination based on species membership—and how they value non‑human animals. We systematically examine this issue across three paradigms: (1) SpeciesismBench, a 1,003‑item benchmark assessing recognition and moral evaluation of speciesist statements; (2) established psycho"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

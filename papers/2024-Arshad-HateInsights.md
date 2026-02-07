@@ -6,7 +6,7 @@ Not AI:
 key: EZIKWT8F
 type: journalArticle
 short_title: HateInsights
-year: 2024
+year: 2025
 first_author: "[[Muhammad Umair Arshad]]"
 authors: "Muhammad Umair Arshad; Waseem Shahzad"
 url: "https://peerj.com/articles/cs-2372"
@@ -19,7 +19,7 @@ key_contribution: "Introduced HateInsights, a fine-grained benchmark for explain
 significance: "Emphasizes 'explainability' in toxicity detection, providing resources to evaluate *why* a model flags content, which is crucial for trust and error analysis in moderation systems."
 tags: 
 abstract: "The persistence of hate speech continues to pose an obstacle in the realm of online social media. Despite the continuous evolution of advanced models for identifying hate speech, the critical dimensions of interpretability and explainability have not received proportional scholarly attention. In this article, we introduce the HateInsights dataset, a groundbreaking benchmark in the ﬁeld of hate speech datasets, encompassing diverse aspects of this widespread issue. Within our dataset, each indivi"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -30,7 +30,7 @@ is_dataset: Yes
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2024-Arshad-HateInsights.md"
-local_pdf: "[[PDFs/2024-Arshad-HateInsights.pdf]]"
+local_pdf: [[PDFs/2024-Arshad-HateInsights.pdf]]
 ---
 # HateInsights: A Fine-Grained Benchmark for Explainable Hate Speech Detection
 

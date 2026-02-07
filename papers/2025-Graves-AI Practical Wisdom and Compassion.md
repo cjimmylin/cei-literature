@@ -19,7 +19,7 @@ significance: "Novel cross-cultural virtue ethics framework for AI with practica
 external_pdf: N/A
 abstract: "Practical wisdom (phronesis) is the context-sensitive capacity to skillfully achieve morally good outcomes in complex situations. Developing artificial practical wisdom offers a more ethically robust and achievable goal for AI development than artificial general intelligence (AGI). While identifying what is morally good in ethically complex situations remains challenging, grounding artificial practical wisdom explicitly in compassion effectively reduces ethical risks associated with AI-induced suffering, surpassing conventional alignment strategies like rule-based guardrails or predefined reward systems. As a theoretical foundation for initial development of artificial practical wisdom, this virtue ethics approach integrates Aristotelian practical wisdom with cross-cultural perspectives on suffering and compassion from utilitarianism, the Capability Approach, Buddhism, and contemporary moral psychology. Operationalizing compassionate AI involves recognizing suffering, empathetic engagement, context-sensitive moral decision making, and motivational responses. Compassionate AI demonstrates immediate practical benefits, particularly in healthcare, by measurably improving patient outcomes, enhancing well-being, and reducing caregiver burdens."
 pdf_extract: "PDF Extracts/2025-Graves-AI Practical Wisdom and Compassion.md"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No
 utilitarian_ethics: Yes

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,9 +6,9 @@ Not AI:
 key: 
 type: conferencePaper
 short_title: "Socratic Dialogue for Virtue Ethics in AI"
-year: 2024
-first_author: "[[Unknown]]"
-authors: "Unknown"
+year: 2025
+first_author: [[Unknown]]
+authors: Unknown
 url: "https://ojs.aaai.org/index.php/AIES/article/view/36748"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
 national_ethnic_cultural: N/A
@@ -22,14 +20,14 @@ pdf_extract:
 abstract: "This paper presents the Socratic Dialogue as a method for implementing virtue ethics in AI systems, providing a case study of how philosophical dialogue can inform ethical AI development."
 paper_summary: 
 local_pdf: 
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Socratic AI Ethics"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 data_description: 
 data_metrics:
 ---

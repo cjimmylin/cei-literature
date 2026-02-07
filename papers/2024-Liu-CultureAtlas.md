@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: V9SITYM9
 type: journalArticle
 short_title: CultureAtlas
-year: 2024
+year: 2025
 first_author: "[[Yi Fung]]"
 authors: "Yi Fung; Ruining Zhao; Jae Doo; Chenkai Sun; Heng Ji"
 url: "https://arxiv.org/abs/2402.09369"
@@ -24,15 +21,15 @@ tags:
 pdf_extract: "PDF Extracts/2024-Liu-CultureAtlas.md"
 abstract: "Pretrained large language models have revolu- tionized many applications but still face chal- lenges related to cultural bias and a lack of cultural commonsense knowledge crucial for guiding cross-culture communication and in- teractions. Recognizing the shortcomings of existing methods in capturing the diverse and rich cultures across the world, this paper intro- duces a novel approach for massively multicul- tural knowledge acquisition. Specifically, our method strategically navigates from den"
 paper_summary: "Abstract: Pretrained large language models have revolu- tionized many applications but still face chal- lenges related to cultural bias and a lack of cultural commonsense knowledge crucial for guiding cross-cul | Overview: No Culture Left Behind: Massively Multi-Cultural Knowledge Acquisition & LM Benchmarking on 1000+ Sub-Country Regions and 2000+ Ethnolinguistic Groups Yi R. Fung Ruining Zhao Jae Doo Chenkai Sun Heng  | Methodology: Pass Rate (%) Pos. Data - Orig Sent. 49.5 - Post Proc. Sent. 93.2 Neg. Data - Direct Gen. 81.1 - Direct Gen. w/ self-check 90.1 - Direct Gen. w/ self-"
-local_pdf: "[[PDFs/2024-Liu-CultureAtlas.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2024-Liu-CultureAtlas.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 ---

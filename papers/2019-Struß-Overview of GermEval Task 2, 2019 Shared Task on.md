@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: SRKAQM3X
 type: journalArticle
-year: 2019
+year: 2025
 short_title: "Overview of GermEval Task 2, 2019 Shared Task on"
 first_author: "[[Julia Maria Struß]]"
 authors: "Julia Maria Struß; Melanie Siegel; Josef Ruppenhofer; Michael Wiegand; Manfred Klenner"
@@ -18,7 +18,7 @@ key_contribution: "Shared task on offensive language identification in German tw
 significance: "A standard reference for German toxicity detection, highlighting the difficulty of detecting 'implicit' offense (sarcasm, dogwhistles) compared to explicit slurs."
 tags: 
 abstract: "We present the second edition of the GermEval Shared Task on the Identiﬁcation of Offensive Language. This shared task deals with the classiﬁcation of German tweets from Twitter. Two subtasks were continued from the ﬁrst edition, namely a coarse-grained binary classiﬁcation task and a ﬁne-grained multi-class classiﬁcation task. As a novel subtask, we introduce the classiﬁcation of offensive tweets as explicit or implicit."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

@@ -23,7 +23,7 @@ newtags: "Kantian Ethics, Deontology, Utilitarianism, Explainable AI"
 key_contribution: "Gamified XAI system with separate Kantian and utilitarian modules plus meta-explainer for ethical trade-offs"
 significance: "Demonstrates tunable trade-off where Kantian module secures full deontic compliance at welfare cost"
 abstract: "This paper presents a gamified explainable AI (XAI) system for ethically aware consumer decision-making in the coffee domain. Two symbolic engines provide real-time reasons: a Kantian module flags rule violations (e.g., child labor, deforestation risk without shade certification, opaque supply chains, unsafe decaf), and a utilitarian module scores options via multi-criteria aggregation over normalized attributes (price, carbon, water, transparency, farmer income share, taste/freshness, packaging, convenience). A meta-explainer with a regret bound (0.2) highlights Kantian-utilitarian (mis)alignment and switches to a deontically clean, near-parity option when welfare loss is small. Results reveal a tunable trade-off where Kantian secures full deontic compliance at a welfare cost while combined + meta preserves near-utilitarian welfare while sharply reducing violations via regret-bounded switches."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: Yes

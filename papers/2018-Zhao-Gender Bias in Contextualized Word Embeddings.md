@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 559CYS5K
 type: journalArticle
 short_title: "Gender Bias in Contextualized Word Embeddings"
-year: 2018
+year: 2025
 first_author: "[[Jieyu Zhao]]"
 authors: "Jieyu Zhao; Yichao Zhou; Zeyu Li; Wei Wang; Kai-Wei Chang"
 url: "https://arxiv.org/abs/1809.01496"
@@ -25,14 +22,14 @@ local_pdf: "[[PDFs/2018-Zhao-Gender Bias in Contextualized Word Embeddings.pdf]]
 pdf_extract: "PDF Extracts/2018-Zhao-Gender Bias in Contextualized Word Embeddings.md"
 abstract: "Word embedding models have become a fun- damental component in a wide range of Natural Language Processing (NLP) appli- cations. However, embeddings trained on human-generated corpora have been demon- strated to inherit strong gender stereotypes that reﬂect social constructs. To address this con- cern, in this paper, we propose a novel training procedure for learning gender-neutral word embeddings. Our approach aims to preserve gender information in certain dimensions of word vectors while compe"
 paper_summary: "Abstract: Word embedding models have become a fun- damental component in a wide range of Natural Language Processing (NLP) appli- cations. However, embeddings trained on human-generated corpora have been demon- | Overview: Learning Gender-Neutral Word Embeddings Jieyu Zhao Yichao Zhou Zeyu Li Wei Wang Kai-Wei Chang University of California, Los Angeles {jyzhao, yz, zyli, weiwang, kwchang}@cs.ucla.edu Abstract Word embed | Methodology: In this paper, we take GloVe (Pennington et al., 2014) as the base embedding model and gender as the protected attribute. It is worth noting that our  | Conclusions: In this paper, we introduced an algorithm for train- ing gender-neutral word embedding. Our method is general and can be applied in any language as lo"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
 ---

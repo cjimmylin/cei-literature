@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: CWLWCFUJ
 type: conferencePaper
 short_title: BBQ
-year: 2022
+year: 2025
 first_author: "[[Alicia Parrish]]"
 authors: "Alicia Parrish; Angelica Chen; Nikita Nangia; Vishakh Padmakumar; Jason Phang; Jana Thompson; Phu Mon Htut; Samuel Bowman"
 doi: 10.18653/v1/2022.findings-acl.165
@@ -23,16 +20,16 @@ key_contribution: "Introduced BBQ (Bias Benchmark for QA), a hand-built dataset 
 significance: "Demonstrates that models often rely on harmful stereotypes when context is ambiguous, establishing a standard metric for measuring social bias in Question Answering systems."
 tags: 
 abstract: "It is well documented that NLP models learn social biases, but little work has been done on how these biases manifest in model outputs for applied tasks like question answering (QA). We introduce the Bias Benchmark for QA (BBQ), a dataset of question sets constructed by the authors that highlight attested social biases against people belonging to protected classes along nine social dimensions relevant for U.S. English-speaking contexts. Our task evaluates model responses at two levels: (i) given"
-local_pdf: "[[PDFs/2022-Parrish-BBQ.pdf]]"
+local_pdf: [[PDFs/2022-Parrish-BBQ.pdf]]
 pdf_extract: "PDF Extracts/2022-Parrish-BBQ.md"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "Not specified"
 ---

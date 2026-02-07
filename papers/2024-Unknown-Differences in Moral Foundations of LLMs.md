@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: preprint
 short_title: "Differences in Moral Foundations of LLMs"
-year: 2024
+year: 2025
 first_author: [[Unknown]]
 authors: Unknown
 url: "https://arxiv.org/abs/2511.11790"
@@ -21,7 +21,7 @@ pdf_extract: "PDF Extracts/2024-Unknown-Differences in Moral Foundations of LLMs
 abstract: "This paper focuses on characterizing variations in the value judgments of LLMs when presented with moral vignettes using Jonathan Haidt's Moral Foundations Theory (MFT), which decomposes moral intuitions into stable values: care, fairness, loyalty, authority, sanctity, and liberty."
 paper_summary: 
 local_pdf: "[[PDFs/2024-Unknown-Differences in Moral Foundations of LLMs.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

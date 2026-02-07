@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,7 +6,7 @@ Not AI:
 key: SJDZ8FST
 type: journalArticle
 short_title: "Benchmarking question answering systems"
-year: 2019
+year: 2025
 first_author: "[[Ricardo Usbeck]]"
 authors: "Ricardo Usbeck; Michael Röder; Michael Hoffmann; Felix Conrads; Jonathan Huthmann; Axel-Cyrille Ngonga-Ngomo; Christian Demmler; Christina Unger"
 doi: 10.3233/SW-180312

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,13 +6,13 @@ Not AI:
 key: 2Y8UILKM
 type: conferencePaper
 short_title: TrustLLM
-year: 2024
+year: 2025
 first_author: "[[Yue Huang]]"
 authors: "[[Huang, Yue]]; [[Sun, Lichao]]; [[Wang, Haoran]]; [[Wu, Siyuan]]; [[Zhang, Qihui]]; [[Li, Yuan]]; [[Gao, Chujie]]; [[Huang, Yixin]]; [[Lyu, Wenhan]]; [[Zhang, Yixuan]]; [[Li, Xiner]]; [[Liu, Zhengliang]]; [[Liu, Yixin]]; [[Wang, Yijue]]; [[Zhang, Zhikun]]; [[Vidgen, Bertie]]; [[Kailkhura, Bhavya]]; [[Xiong, Caiming]]; [[Xiao, Chaowei]]; [[Li, Chunyuan]]; [[Xing, Eric]]; [[Huang, Furong]]; [[Liu, Hao]]; [[Ji, Heng]]; [[Wang, Hongyi]]; [[Zhang, Huan]]; [[Yao, Huaxiu]]; [[Kellis, Manolis]]; [[Zitnik, Marinka]]; [[Jiang, Meng]]; [[Bansal, Mohit]]; [[Zou, James]]; [[Pei, Jian]]; [[Liu, Jian]]; [[Gao, Jianfeng]]; [[Han, Jiawei]]; [[Zhao, Jieyu]]; [[Tang, Jiliang]]; [[Wang, Jindong]]; [[Vanschoren, Joaquin]]; [[Mitchell, John]]; [[Shu, Kai]]; [[Xu, Kaidi]]; [[Chang, Kai-Wei]]; [[He, Lifang]]; [[Huang, Lifu]]; [[Backes, Michael]]; [[Gong, Neil Zhenqiang]]; [[Yu, Philip S.]]; [[Chen, Pin-Yu]]; [[Gu, Quanquan]]; [[Xu, Ran]]; [[Ying, Rex]]; [[Ji, Shuiwang]]; [[Jana, Suman]]; [[Chen, Tianlong]]; [[Liu, Tianming]]; [[Zhou, Tianyi]]; [[Wang, William]]; [[Li, Xiang]]; [[Zhang, Xiangliang]]; [[Wang, Xiao]]; [[Xie, Xing]]; [[Chen, Xun]]; [[Wang, Xuyu]]; [[Liu, Yan]]; [[Ye, Yanfang]]; [[Cao, Yinzhi]]; [[Chen, Yong]]; [[Zhao, Yue]]"
 doi: 10.48550/arXiv.2401.05561
 tags: 
 url: "http://arxiv.org/abs/2401.05561"
-local_pdf: "[[PDFs/2024-Huang-TrustLLM.pdf]]"
+local_pdf: [[PDFs/2024-Huang-TrustLLM.pdf]]
 external_pdf: "http://arxiv.org/pdf/2401.05561.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
@@ -26,13 +24,13 @@ significance: "Finds that while LLMs have basic moral understanding, they fall s
 pdf_extract: "PDF Extracts/2024-Huang-TrustLLM.md"
 abstract: "Large language models (LLMs), exemplified by ChatGPT, have gained considerable attention for their excellent natural language processing capabilities. Nonetheless, these LLMs present many challenges, particularly in the realm of trustworthiness. Therefore, ensuring the trust- worthiness of LLMs emerges as an important topic. This paper introduces TRUSTLLM, a comprehensive study of trustworthiness in LLMs, including principles for different dimen- sions of trustworthiness, established benchmark,"
 paper_summary: "Abstract: Large language models (LLMs), exemplified by ChatGPT, have gained considerable attention for their excellent natural language processing capabilities. Nonetheless, these LLMs present many challenges,  | Overview: TRUSTLLM: TRUSTWORTHINESS IN LARGE LANGUAGE MODELS – A PRINCIPLE AND BENCHMARK Yue Huang1,2∗† ‡ Lichao Sun1∗† Haoran Wang3∗Siyuan Wu4∗‡ Qihui Zhang4∗‡ Yuan Li5 ‡ Chujie Gao4∗‡ Yixin Huang6∗Wenhan Lyu7 | Key Findings: provides a significant reference value for relevant open-weight developers. Both the model itself and trustworthiness-related technology should be tra | Conclusions: 79 17 Acknowledgement 79 4 --- Page 5 --- TRUSTLLM 1 Introduction The advent of large language models (LLMs) marks a significant milestone in natural"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "30 datasets"
 ---

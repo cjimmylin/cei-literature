@@ -1,17 +1,11 @@
 ---
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: 8HB8V7WZ
 type: journalArticle
-year: 2024
+year: 2025
 short_title: "A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI"
 first_author: "[[Cole Salvador]]"
 authors: "Cole Salvador"
@@ -24,17 +18,17 @@ moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposes an 'approval regulation' schematic for frontier AI, similar to the FDA/FAA, featuring major approval gates before large-scale training and before deployment."
 significance: "Provides a concrete policy framework for regulating high-risk AI models, shifting from voluntary commitments to a mandatory, experiment-based approval process to prevent unsafe deployments."
-tags:
+tags: 
 abstract: "Recent and unremitting capability advances have been accompanied by calls for comprehensive, rather than patchwork, regulation of frontier artificial intelligence (AI). Approval regulation is emerging as a promising candidate. An approval regulation scheme is one in which a firm cannot legally market, or in some cases develop, a product without explicit approval from a regulator on the basis of experiments performed upon the product that demonstrate its safety. This approach is used successfully by the FDA and FAA. Further, its application to frontier AI has been publicly supported by many prominent stakeholders. This report proposes an approval regulation schematic for only the largest AI projects in which scrutiny begins before training and continues through to post-deployment monitoring. The centerpieces of the schematic are two major approval gates, the first requiring approval for large-scale training and the second for deployment. Five main challenges make implementation difficult: noncompliance through unsanctioned deployment, specification of deployment readiness requirements, reliable model experimentation, filtering out safe models before the process, and minimizing regulatory overhead. This report makes a number of crucial recommendations to increase the feasibility of approval regulation, some of which must be followed urgently if such a regime is to succeed in the near future. Further recommendations, produced by this report's analysis, may improve the effectiveness of any regulatory regime for frontier AI."
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI

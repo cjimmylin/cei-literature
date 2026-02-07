@@ -1,15 +1,12 @@
 ---
-
-
-
-Human View:
-Human View Date:
-Human View note:
-Not AI:
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 key: 6VLYYJDA
 type: journalArticle
 short_title: "Situational factors shape moral judgments in the"
-year: 2022
+year: 2025
 first_author: "[[Bence Bago]]"
 authors: "Bence Bago; Marton Kovacs; John Protzko; Zoltan Kekecs; Tamas Nagy; Rink Hoekstra; Manyu Li; Erica D. Musser; Alexios Arvanitis; Macyjane Tinsley Iones; Fatih Bayrak; Marietta Papadatou-Pastou; Anabel Belaus; Daniel Storage; Andrew G. Thomas; Erin Michelle Buchanan; Benjamin Becker; Ernest Baskin; Keith Kendrick; Mirsolav Sirota; Trent M. Lynds; Dustin P Calvillo; Michael Craig Mensink; Iris Zezelj; Jordan Rose Wagge; Jan Philipp Röer; Leigh Ann Vaughn; Cecilia Reyna; Sarah Wood; Matus Adamkovic; Benjamin T. Brown; Jackson G. Lu; Xin Liu; Tripat Gill; Mario Gollwitzer; Zoe Magraw-Mickelson; Carlota Batres; Evgeniya Hristova; Maurice Grinberg; Gabriela Mariana Marcu; Sean P. Mackinnon; Darius-Aurel Frank; Michal Bialek; Leigh Solano Wilton; Michal Parzuchowski; Halil Emre Kocalar; Elif Gizem Demirag Burak; Sara Álvarez Solas; Thomas Rhys Evans; Carmel Levitan; Mariola Paruzel-Czachura; Andrej Findor; Christina Shane-Simpson; Elisa Puvia; Zahir Vally; Miguel A. Vadillo; Rizqy Amelia Zein; Anthony Lantian; Stefan Czoschke; Nathan Carnes; Kim Olivia Peters; Susann Fiedler; Ljiljana B. Lazarevic; Taciano L Milfont; Jared Celniker; Anna Wlodarczyk; William J. Chopik; Ian David Stephen; Jiaxin Shi; Xinyuan Fei; Nicholas Calbraith Owsley; Yansong Li; Gilad Feldman; Barnaby Dixson; Panagiotis Mitkidis; Fanny Lalot; Alberto Mirisola; Xiaoxiao Zheng; Alain Quiamzade; Kevin E. Tiede; Alexandra Fleischmann; Bastiaan T Rutjens; Maja Becker; Danka Purić; Mirjana Tonković; Francesca Dumačić; Samuel Lins; Don Chenhui Zhang; Ulf-Dietrich Reips; Alasdair R Gordon-Finlayson; Elizabeth Ann Harris; Neil McLatchie; Sangsuk Yoon; Elke B Lange; Celine-Justine Matibag; Charlotte A. Hudson; Laura Jane Stevens-Wilson; Lauren Victoria Tunstead; Skye-loren West; Diego A. Reinero; Luisa Batalha; Rockwell F. Clancy; Christopher Michael Castille; Raluca Diana Szekely-Copîndean; Farzan Karimi-Malekabadi; Jerome Olsen; Gwenaël Kaminski; Mathias Twardawski; Christoph Schild; Karolina Aleksandra Ścigała; Pavol Kačmár; Stefan Stieger; Alan Mattiassi; Ennio Bilancini; Jennifer Nicole Lenz; Mehrad Moeini-Jazani; Philip Pärnamets; Anni Sternisko; Danielle Ochoa; Biljana Jokic; Jasper Hidding; Marijke C. Leliveld; Cubillas C. Perez; Onurcan Yilmaz; Anton Kühberger; Niklas K Steffens; Sinan Alper; Sumaya Albalooshi; Luis Eudave; Kyle J. Susa; Kathleen Schmidt; Martin Voracek; Maliki E. Ghossainy; Krystian Barzykowski; Sylwia Adamus; Andree Hartanto; Aurélien Graton; Bastian Jaeger; David Moreau; Erin Sievers; Jin X. Goh; Jordane Boudesseul; Joris Lammers; Julia Paterlini; Katarzyna Rybus; Natalia Szostak; Richard Huskey; Steve M. J. Janssen; Tiago Jessé Souza Lima; Biljana Gjoneska; Christopher R. Chartier; Maximilian Primbs; Robert M Ross; Natalia Bezerra Dutra; Balazs Aczel"
 doi: 10.31234/osf.io/9uaqm
@@ -24,16 +21,16 @@ moral_psychology: N/A
 newtags: "American, Deontology, Utilitarianism"
 key_contribution: "Replicated Greene's trolley dilemma experiments across 45 countries, testing the universality of situational factors on deontological vs utilitarian judgment"
 significance: "Confirmed that situational factors (like physical contact) universally influence moral judgment across cultures, supporting a dual-process model of moral cognition"
-tags:
+tags: 
 abstract: "Much research on moral judgment is centered on moral dilemmas in which deontological perspectives (i.e., emphasizing rules, individual rights and duties) are in conflict with utilitarian judgements (i.e., following the greater good defined through consequences). A central finding of this field Greene et al. showed that psychological and situational factors (e.g., the intent of the agent, or physical contact between the agent and the victim) play an important role in people's use of deontological"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: Yes
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Situational factors shape moral judgments in the trolley dilemma in Eastern, Southern, and Western countries in a culturally diverse sample

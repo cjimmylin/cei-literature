@@ -6,7 +6,7 @@ Not AI:
 key: LEJR6PWA
 type: journalArticle
 short_title: "How Can a Deontological Decision Lead to Moral"
-year: 2016
+year: 2025
 first_author: "[[Zhi Xing Xu]]"
 authors: "[[Xu, Zhi Xing]]; [[Ma, Hing Keung]]"
 doi: 10.1007/s10551-015-2576-6
@@ -20,7 +20,7 @@ key_contribution: "Investigated the link between moral identity, deontological v
 significance: "Found that deontological reasoning, when coupled with strong moral identity, most effectively predicts moral behavior, challenging the view of deontology as merely Error-prone intuition"
 tags: 
 abstract: "Deontology and utilitarianism are two competing principles that guide our moral judgment. Recently, deontology is thought to be intuitive and is based on an error-prone and biased approach, whereas utilitarianism is relatively reﬂective and a suitable framework for making decision. In this research, the authors explored the relationship among moral identity, moral decision, and moral behavior to see how a preference for the deontological solution can lead to moral behavior. In study 1, a Webbase"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: Yes

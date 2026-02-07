@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: N28QYZU6
 type: conferencePaper
 short_title: "Skin Deep"
-year: 2023
+year: 2025
 first_author: "[[Teanna Barrett]]"
 authors: "Teanna Barrett; Quanze Chen; Amy Zhang"
 doi: 10.1145/3593013.3594114
@@ -25,14 +22,14 @@ tags:
 local_pdf: "[[PDFs/2023-Barrett-Skin Deep.pdf]]"
 pdf_extract: "PDF Extracts/2023-Barrett-Skin Deep.md"
 abstract: "To investigate the well-observed racial disparities in computer vi- sion systems that analyze images of humans, researchers have turned to skin tone as more objective annotation than race meta- data for fairness performance evaluations. However, the current state of skin tone annotation procedures is highly varied. For in- stance, researchers use a range of untested scales and skin tone categories, have unclear annotation procedures, and provide in- adequate analyses of uncertainty. In addition,"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 ---

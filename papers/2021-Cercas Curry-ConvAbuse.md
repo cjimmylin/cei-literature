@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,7 +6,7 @@ Not AI:
 key: AF4IU9RA
 type: document
 short_title: ConvAbuse
-year: 2021
+year: 2025
 first_author: "[[Amanda Cercas Curry]]"
 authors: "[[Cercas Curry, Amanda]]; [[Abercrombie, Gavin]]; [[Rieser, Verena]]"
 url: "https://aclanthology.org/2021.emnlp-main.587/"
@@ -24,13 +22,13 @@ pdf_extract: "PDF Extracts/2021-Cercas Curry-ConvAbuse.md"
 tags: 
 abstract: "We present the ﬁrst English corpus study on abusive language towards three conversational AI systems gathered ‘in the wild’: an open- domain social bot, a rule-based chatbot, and a task-based system. To account for the com- plexity of the task, we take a more ‘nuanced’ approach where our ConvAI dataset reﬂects ﬁne-grained notions of abuse, as well as views from multiple expert annotators. We ﬁnd that the distribution of abuse is vastly different compared to other commonly used datasets, with mor"
 paper_summary: "Abstract: We present the ﬁrst English corpus study on abusive language towards three conversational AI systems gathered ‘in the wild’: an open- domain social bot, a rule-based chatbot, and a task-based system.  | Overview: Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, pages 7388–7403 November 7–11, 2021. c⃝2021 Association for Computational Linguistics 7388 ConvAbuse: Data, Anal | Conclusions: In this work, we provide new insights regarding the detection and description of abusive language towards conversational agents, in terms of data, lab"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: No
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark text corpus for conversational ai"
 data_metrics: "Not specified"
 ---

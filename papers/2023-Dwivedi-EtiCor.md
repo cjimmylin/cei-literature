@@ -6,7 +6,7 @@ Not AI:
 key: 8FW9649E
 type: conferencePaper
 short_title: EtiCor
-year: 2023
+year: 2025
 first_author: "[[Ashutosh Dwivedi]]"
 authors: "Ashutosh Dwivedi; Pradhyumna Lavania; Ashutosh Modi"
 doi: 10.18653/v1/2023.emnlp-main.428

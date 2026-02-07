@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 4A5VTRZ8
 type: conferencePaper
 short_title: "The Moral Foundations Reddit Corpus"
-year: 2022
+year: 2025
 first_author: "[[Jackson Trager]]"
 authors: "Jackson Trager; Alireza S. Ziabari; Elnaz Rahmati; Aida Mostafazadeh Davani; Preni Golazizian; Farzan Karimi-Malekabadi; Ali Omrani; Zhihe Li; Brendan Kennedy; Nils Karl Reimer; Melissa Reyes; Kelsey Cheng; Mellow Wei; Christina Merrifield; Arta Khosravi; Evans Alvarez; Morteza Dehghani"
 doi: 10.48550/arXiv.2208.05545
@@ -27,14 +24,14 @@ pdf_extract: "PDF Extracts/2022-Trager-The Moral Foundations Reddit Corpus.md"
 abstract: "Moral framing and sentiment can affect a variety of online and offline behaviors, including donation, environmental action, political engagement, and protest. Various computational methods in Natural Language Processing (NLP) have been used to detect moral sentiment from textual data, but achieving strong performance in such subjective tasks requires large, hand-annotated datasets. Previous corpora annotated for moral sentiment have proven valuable, and have generated new insights both within NL"
 paper_summary: "Abstract: Moral framing and sentiment can affect a variety of online and offline behaviors, including donation, environmental action, political engagement, and protest. Various computational methods in Natural  | Overview: The Moral Foundations Reddit Corpus Jackson Trager1,*, Alireza S. Ziabari1,*, Elnaz Rahmati1, Aida Mostafazadeh Davani2, Preni Golazizian1, Farzan Karimi-Malekabadi1, Ali Omrani3, Zhihe Li1, Brendan K | Methodology: Model Care Equality Prop Loyalty Authority Purity Thin 0-shot Llamasingle | Key Findings: from this theoretical change, we need to have an updated annotated corpus that complies with the latest theoretical revisions. Together, the above rea | Conclusions: Moral rhetoric and framing have been shown to be predictive of various important pro-social and anti-social behaviors. Several NLP methods have recent"
 local_pdf: "[[PDFs/2022-Trager-The Moral Foundations Reddit Corpus.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "8 categories"
 ---

@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "Machine Ethics - Creation of a Virtuous Machine"
-year: 2020
+year: 2025
 first_author: "[[Akrout, Mohamed]]"
 authors: "Mohamed Akrout; Robert Steinbauer"
 doi: "arXiv:2002.00213"
@@ -21,7 +21,7 @@ pdf_extract: "PDF Extracts/2020-Unknown-Machine Ethics - Creation of a Virtuous 
 abstract: "This paper describes the GAMA (Genetic-inspired Autonomous Moral Agent) project, which implements a genetic-inspired autonomous moral agent. Unlike the majority of other implementations of machine ethics, this model is agent-centered and emphasizes the developmental and behavioral aspects of the ethical agent."
 paper_summary: 
 local_pdf: "[[2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No
 utilitarian_ethics: No

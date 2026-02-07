@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,14 +22,14 @@ pdf_extract: "PDF Extracts/2025-Drukker-Concerns and Values in Human-Robot Inter
 abstract: "Robots, as AI with physical instantiation, inhabit our social and physi- cal world, where their actions have both social and physical consequences, posing challenges for researchers when designing social robots. This study starts with a scoping review to identify discussions and potential concerns arising from interactions with robotic systems in the context of health- care, education, and private homes. Two focus groups of technology ethics experts then validated a comprehensive list of key top"
 paper_summary: "Abstract: Robots, as AI with physical instantiation, inhabit our social and physi- cal world, where their actions have both social and physical consequences, posing challenges for researchers when designing soc | Overview: Concerns and Values in Human-Robot Interactions: A Focus on Social Robotics Giulio Antonio Abbo*, Tony Belpaeme*, and Micol Spitale** *IDLab-AIRO, Ghent University – imec, Ghent, Belgium **DEIB, Polit | Methodology: aligns with previous research, such as Pommeranz et al. [66], which success- fully used expert focus groups to explore complex themes in technology an | Key Findings: initial values and topics final values and topics the tool points to relevant publications overview on HRI | Conclusions: 6.1 Relationship between human and HRI values The resulting set of HRI values reported in Section 4.3 has been identified after screening the past HRI"
 local_pdf: "[[PDFs/2025-Drukker-Concerns and Values in Human-Robot Interactions.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

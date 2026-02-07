@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: JUEAJ5Q4
 type: conferencePaper
 short_title: "Finding Answers from the Word of God"
-year: 2018
+year: 2025
 first_author: "[[Helen Jiahe Zhao]]"
 authors: "Helen Jiahe Zhao; Jiamou Liu"
 doi: 10.1109/IJCNN.2018.8489756
@@ -24,14 +21,14 @@ local_pdf: "[[PDFs/2018-Zhao-Finding Answers from the Word of God.pdf]]"
 pdf_extract: "PDF Extracts/2018-Zhao-Finding Answers from the Word of God.md"
 abstract: "Question answering (QA) has signiﬁcantly beneﬁtted from deep learning tech- niques in recent years. However, domain-speciﬁc QA remains a challenge due to the signiﬁcant amount of data required to train a neural network. This paper stud- ies the answer sentence selection task in the Bible domain and answer questions by selecting relevant verses from the Bible. For this purpose, we create a new dataset BibleQA based on bible trivia questions and propose three neural network mod- els for our task."
 paper_summary: "Abstract: Question answering (QA) has signiﬁcantly beneﬁtted from deep learning tech- niques in recent years. However, domain-speciﬁc QA remains a challenge due to the signiﬁcant amount of data required to trai | Overview: Finding Answers from the Word of God: Domain Adaptation for Neural Networks in Biblical Question Answering Helen Jiahe Zhao, Jiamou Liu Department of Computer Science The University of Auckland New Ze | Methodology: is to pre-train the model on the source data and then ﬁne-tune the parameters on the data from the target domain [18, 30]. Overall, transfer learning"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Machine Learning"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
 ---

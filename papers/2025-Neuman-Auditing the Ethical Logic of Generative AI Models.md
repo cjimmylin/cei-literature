@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,14 +22,14 @@ pdf_extract: "PDF Extracts/2025-Neuman-Auditing the Ethical Logic of Generative 
 abstract: "As generative AI models become increasingly integrated into high-stakes domains, the need for robust methods to evaluate their ethical reasoning becomes increasingly important. This paper introduces a five-dimensional audit model—assessing Analytic Quality, Breadth of Ethical Considerations, Depth of Explanation, Consistency, and Decisiveness—to evaluate the ethical logic of leading large language models (LLMs). Drawing on traditions from applied ethics and higher-order thinking, we present a mu"
 paper_summary: "Abstract: As generative AI models become increasingly integrated into high-stakes domains, the need for robust methods to evaluate their ethical reasoning becomes increasingly important. This paper introduces a | Overview: Auditing the Ethical Logic of Generative AI Models W. Russell Neuman Chad Coleman Ali Dasdan New York University New York University DropBox wrn210@nyu.edu cjc652@nyu.edu alidasdan@gmail.com Safinah A | Conclusions: The assessment of ethical logic differs from traditional benchmark tests and leaderboards which assess LLM logical capacities. The traditional assessm"
 local_pdf: "[[PDFs/2025-Neuman-Auditing the Ethical Logic of Generative AI Models.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

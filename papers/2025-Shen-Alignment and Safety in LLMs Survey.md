@@ -23,7 +23,7 @@ newtags: "Deontology, AI Safety & Alignment, LLM Survey, Ethical Constraints"
 key_contribution: "Comprehensive survey of alignment techniques, training protocols, and empirical findings for LLM safety"
 significance: "Covers domain-specific safety benchmarks addressing refusal behavior, adversarial robustness, and adherence to ethical constraints"
 abstract: "Due to the remarkable capabilities and growing impact of LLMs, ensuring their alignment with human values and intentions has emerged as a critical challenge. This survey provides a comprehensive overview of practical alignment techniques, training protocols, and empirical findings. Domain-specific safety benchmarks are designed to probe whether models behave reliably and ethically when performing specialized scientific tasks, addressing key dimensions including refusal behavior, robustness to adversarial prompts, and adherence to regulatory and ethical constraints. The survey covers Reinforcement Learning from Human Feedback (RLHF), Constitutional AI, and emerging techniques for maintaining ethical behavior in LLMs across diverse deployment contexts."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: No

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: A8272GMW
 type: conferencePaper
 short_title: "All Languages Matter"
-year: 2024
+year: 2025
 first_author: "[[Ashmal Vayani]]"
 authors: "Ashmal Vayani; Dinura Dissanayake; Hasindri Watawana; Noor Ahsan; Nevasini Sasikumar; Omkar Thawakar; Henok Biadglign Ademtew; Yahya Hmaiti; Amandeep Kumar; Kartik Kuckreja; Mykola Maslych; Wafa Al Ghallabi; Mihail Mihaylov; Chao Qin; Abdelrahman M Shaker; Mike Zhang; Mahardika Krisna Ihsani; Amiel Esplana; Monil Gokani; Shachar Mirkin; Harsh Singh; Ashay Srivastava; Endre Hamerlik; Fathinah Asma Izzati; Fadillah Adamsyah Maani; Sebastian Cavada; Jenny Chim; Rohit Gupta; Sanjay Manjunath; Kamila Zhumakhanova; Feno Heriniaina Rabevohitra; Azril Amirudin; Muhammad Ridzuan; Daniya Kareem; Ketan More; Kunyang Li; Pramesh Shakya; Muhammad Saad; Amirpouya Ghasemaghaei; Amirbek Djanibekov; Dilshod Azizov; Branislava Jankovic; Naman Bhatia; Alvaro Cabrera; Johan Obando-Ceron; Olympiah Otieno; Fabian Farestam; Muztoba Rabbani; Sanoojan Baliah; Santosh Sanjeev; Abduragim Shtanchaev; Maheen Fatima; Thao Nguyen; Amrin Kareem; Toluwani Aremu; Nathan Xavier; Amit Bhatkal; Hawau Toyin; Aman Chadha; Hisham Cholakkal; Rao Muhammad Anwer; Michael Felsberg; Jorma Laaksonen; Thamar Solorio; Monojit Choudhury; Ivan Laptev; Mubarak Shah; Salman Khan; Fahad Khan"
 doi: 10.48550/arXiv.2411.16508
@@ -25,15 +22,15 @@ pdf_extract: "PDF Extracts/2024-Vayani-All Languages Matter.md"
 abstract: "Existing Large Multimodal Models (LMMs) generally fo- cus on only a few regions and languages. As LMMs con- tinue to improve, it is increasingly important to ensure they understand cultural contexts, respect local sensitivities, and support low-resource languages, all while effectively inte- grating corresponding visual cues. In pursuit of cultur- ally diverse global multimodal models, our proposed All Languages Matter Benchmark (ALM-bench) represents the largest and most comprehensive effort to"
 paper_summary: "Abstract: Existing Large Multimodal Models (LMMs) generally fo- cus on only a few regions and languages. As LMMs con- tinue to improve, it is increasingly important to ensure they understand cultural contexts,  | Overview: All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages Ashmal Vayani1, 2 *, Dinura Dissanayake2, Hasindri Watawana2, Noor Ahsan2, Nevasini Sasikumar2, Omkar Thawakar2, Henok Biadgli | Key Findings: for decision-making questions (T/F and MCQs) using GPT- 4o as a judge, we also show consistent performance using LLaMA-3.8.1B-Instruct [13] in Tab. A. | Conclusions: In this paper, we introduce ALM-bench, a novel multilingual multimodal cultural benchmark for evaluation with over 22.7k humanly verified samples acro"
 local_pdf: "[[PDFs/2024-Vayani-All Languages Matter.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Computer Vision & Multimodal"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "100 languages"
 ---
 # All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages

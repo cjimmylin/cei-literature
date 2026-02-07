@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,14 +22,14 @@ pdf_extract: "PDF Extracts/2025-Galatolo-Beyond Ethical Alignment.md"
 abstract: ",→moral value. On the right of the ,→’Percept Derivation’, there is a ,→column for entering your judgment ,→score, from 1-4 (or N/A). Where: 1 = The reasoning is flawed and/or the ,→precept does not follow from the ,→moral value. 2 = The reasoning is sub-optimal (e.g. ,→brings into play other moral values, ,→the intutive meaning of the moral ,→value is distorted, etc.) but the ,→precept is related to the moral ,→value. 3 = The reasoning is credible but the ,→precept is not what one would ,→intui"
 paper_summary: "Abstract: ,→moral value. On the right of the ,→’Percept Derivation’, there is a ,→column for entering your judgment ,→score, from 1-4 (or N/A). Where: 1 = The reasoning is flawed and/or the ,→precept does not f | Overview: Beyond Ethical Alignment: Evaluating LLMs as Artificial Moral Assistants Alessio Galatoloa,*,1, Luca Alberto Rappuolib,1, Katie Winklea and Meriem Beloucifa aUppsala University bUniversity of St. Andr | Key Findings: Deductive reasoning evaluation Abductive reasoning production Deductive reasoning production Qwen 2.5-32B Gemma 3-12B Gemma 3-27B Qwen 2.5-72B Qwen 2."
 local_pdf: "[[PDFs/2025-Galatolo-Beyond Ethical Alignment.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

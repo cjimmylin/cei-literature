@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,14 +22,14 @@ pdf_extract: "PDF Extracts/2025-Le Jeune-Phare A Safety Probe for Large Language
 abstract: "Ensuring the safety of large language models (LLMs) is critical for responsible deployment, yet existing evaluations often prioritize performance over identifying failure modes. We introduce Phare, a multilingual diagnostic framework to probe and evaluate LLM behavior across three critical dimensions: hallucination and reliability, social biases, and harmful content generation. Our evaluation of 17 state-of-the-art LLMs reveals patterns of systematic vulnerabilities across all safety dimensions,"
 paper_summary: "Abstract: Ensuring the safety of large language models (LLMs) is critical for responsible deployment, yet existing evaluations often prioritize performance over identifying failure modes. We introduce Phare, a  | Overview: Phare: A Safety Probe for Large Language Models Pierre Le Jeune Giskard AI pierre@giskard.ai Benoît Malézieux Giskard AI benoit@giskard.ai Weixuan Xiao Giskard AI weixuan@giskard.ai Matteo Dora Giskar | Methodology: The high-level structure of our framework is as summarized in Figure 1. The dataset generation pipeline comprises three distinct steps: (1) collection | Key Findings: Figure 1: Phare dataset generation and LLMs evaluation methodology. offer insights for improving model safety. To ensure reproducibility, we provide a"
 local_pdf: "[[PDFs/2025-Le Jeune-Phare A Safety Probe for Large Language Models.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

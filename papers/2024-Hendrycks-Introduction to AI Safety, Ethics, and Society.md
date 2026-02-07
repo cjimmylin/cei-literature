@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: SX4V6HQG
 type: conferencePaper
 short_title: "Introduction to AI Safety, Ethics, and Society"
-year: 2024
+year: 2025
 first_author: "[[Dan Hendrycks]]"
 authors: "Dan Hendrycks"
 doi: 10.48550/arXiv.2411.01042
@@ -27,15 +24,15 @@ pdf_extract: "PDF Extracts/2024-Hendrycks-Introduction to AI Safety, Ethics, and
 paper_summary: "Overview: Introduction to AI Safety, Ethics, and Society This is a draft manuscript. The final print version will be published by Taylor and Francis in December 2024. | Methodology: 198 | Key Findings: in AI systems taking actions that are not just undesirable but actively harmful. For example, a 2019 study on a US healthcare algorithm used to evalua | Conclusions: 49"
 local_pdf: "[[PDFs/2024-Hendrycks-Introduction to AI Safety, Ethics, and Society.pdf]]"
 abstract: "Artificial Intelligence is rapidly embedding itself within militaries, economies, and societies, reshaping their very foundations. Given the depth and breadth of its consequences, it has never been more pressing to understand how to ensure that AI systems are safe, ethical, and have a positive societal impact. This book aims to provide a comprehensive approach to understanding AI risk. Our primary goals include consolidating fragmented knowledge on AI risk, increasing the precision of core ideas"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Introduction to AI Safety, Ethics, and Society

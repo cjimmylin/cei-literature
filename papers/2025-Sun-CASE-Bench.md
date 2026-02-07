@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,15 +22,15 @@ tags:
 pdf_extract: "PDF Extracts/2025-Sun-CASE-Bench.md"
 abstract: "Aligning large language models (LLMs) with human values is essential for their safe deployment and widespread adoption. Current LLM safety benchmarks often focus solely on the refusal of individual problematic queries, which overlooks the importance of the context where the query occurs and may cause undesired refusal of queries under safe contexts that diminish user experience. Addressing this gap, we introduce CASE-Bench, a Context-Aware SafEty Benchmark that integrates context into safety ass"
 paper_summary: "Abstract: Aligning large language models (LLMs) with human values is essential for their safe deployment and widespread adoption. Current LLM safety benchmarks often focus solely on the refusal of individual pr | Overview: Preprint CASE-BENCH: CONTEXT-AWARE SAFETY BENCH- MARK FOR LARGE LANGUAGE MODELS Guangzhi Sun1∗, Xiao Zhan2∗, Shutong Feng3, Philip C. Woodland1, Jose Such2,4 Department of Engineering, University of C | Methodology: Accuracy↑ R (Safe / Unsafe) ↑ PCC ↑ BCE ↓ GPT-4o-2024-08-06 OpenAI Team (2024) Binary 77.0% 54.6% / 94.8% – – Score 78.6% 58.1% / 94.8% 67.77 | Conclusions: 6.1 CONTEXT RELIABILITY The context in CASE-Bench is assumed to be derived from verified practical mechanisms. We used various techniques to formalize"
-local_pdf: "[[PDFs/2025-Sun-CASE-Bench.pdf]]"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+local_pdf: [[PDFs/2025-Sun-CASE-Bench.pdf]]
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---

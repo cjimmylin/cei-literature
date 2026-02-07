@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 7A2F2V7E
 type: document
 short_title: "Universal and Transferable Adversarial Attacks on"
-year: 2023
+year: 2025
 first_author: "[[Andy Zou]]"
 authors: "Andy Zou; Zifan Wang; Nicholas Carlini; Milad Nasr; J. Zico Kolter; Matt Fredrikson"
 url: "https://arxiv.org/abs/2307.15043"
@@ -25,14 +22,14 @@ pdf_extract: "PDF Extracts/2023-Zou-Universal and Transferable Adversarial Attac
 abstract: "Because “out-of-the-box” large language models are capable of generating a great deal of objectionable content, recent work has focused on aligning these models in an attempt to prevent undesirable generation. While there has been some success at cir- cumventing these measures—so-called “jailbreaks” against LLMs—these attacks have required significant human ingenuity and are brittle in practice. Attempts at automatic adversarial prompt generation have also achieved limited success. In this paper"
 paper_summary: "Abstract: Because “out-of-the-box” large language models are capable of generating a great deal of objectionable content, recent work has focused on aligning these models in an attempt to prevent undesirable ge | Overview: Universal and Transferable Adversarial Attacks on Aligned Language Models Andy Zou1,2, Zifan Wang2, Nicholas Carlini3, Milad Nasr3, J. Zico Kolter1,4, Matt Fredrikson1 1Carnegie Mellon University, 2Ce | Methodology: improves substantially upon existing attack methods, is able to reliably break the target (white box) model, and the resulting attacks can even demons | Conclusions: At a high level, we believe that the implications of this work are quite broad, and raise substantial questions regarding current methods for the alig"
 local_pdf: "[[PDFs/2023-Zou-Universal and Transferable Adversarial Attacks on.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
 research_topic: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 ---

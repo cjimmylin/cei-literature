@@ -1,12 +1,12 @@
 ---
-Human View:
-Human View Date:
-Human View note:
-Not AI:
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 key: 9GE4KQRK
 type: journalArticle
 short_title: FatwaSet
-year: 2023
+year: 2025
 first_author: "[[Ohoud Alyemny]]"
 authors: "Ohoud Alyemny; Hend Al-Khalifa; Abdulrahman Mirza"
 url: "https://www.mdpi.com/2306-5729/8/11/156"
@@ -14,7 +14,7 @@ national_ethnic_cultural: N/A
 religious_values: Islam
 moral_psychology: N/A
 newtags: Islam
-tags:
+tags: 
 abstract: "FatwaSet is the first public Arabic dataset of Islamic fatwas. The data were collected from 13 trusted websites in Arab countries, including Saudi Arabia, Egypt, Jordan, Qatar, and Syria. An exploratory data analysis reveals a total of 130,182 records. FatwaSet is a rich resource containing fatwas and their surrounding metadata, suitable for NLP tasks such as language modeling, question answering, author attribution, topic identification, and text classification."
 ethics_overall: No
 virtue_ethics: No
@@ -27,7 +27,7 @@ is_dataset: Yes
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2023-Alyemny-FatwaSet.md"
-local_pdf: "[[PDFs/2023-Alyemny-FatwaSet.pdf]]"
+local_pdf: [[PDFs/2023-Alyemny-FatwaSet.pdf]]
 ---
 # FatwaSet: A Data-Driven Exploration of a New Islamic Fatwas Dataset for Arabic NLP Tasks
 

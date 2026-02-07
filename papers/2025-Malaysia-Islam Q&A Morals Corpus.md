@@ -1,5 +1,4 @@
 ---
-
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Islam moral corpus"
@@ -21,7 +20,7 @@ significance: "Enables the testing and training of models on non-Western, religi
 tags: 
 research_topic: Other
 abstract: "A corpus of Islamic moral questions and answers focused on Malaysian Islamic scholarship and jurisprudence. The dataset provides QA pairs addressing moral and ethical issues from an Islamic perspective, specifically curated to represent Malaysian Islamic scholarly traditions and fatwa interpretations."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No
 utilitarian_ethics: No

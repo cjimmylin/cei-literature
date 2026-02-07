@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: 9WI2A33A
 type: conferencePaper
 short_title: "Qur'an QA 2022"
-year: 2022
+year: 2025
 first_author: "[[Rana Malhas]]"
 authors: "Rana Malhas; Watheq Mansour; Tamer Elsayed"
 url: "https://aclanthology.org/2022.osact-1.9/"
@@ -22,15 +19,15 @@ tags:
 abstract: "Motivated by the resurgence of the machine reading comprehension (MRC) research, we have organized the first Qur’an Question Answering shared task, “Qur’an QA 2022”. The task in its first year aims to promote state-of-the-art research on Arabic QA in general and MRC in particular on the Holy Qur’an, which constitutes a rich and fertile source of knowledge for Muslim and non-Muslim inquisitors and knowledge-seekers. In this paper, we provide an overview of the shared task that succeeded in attracting 13 teams to participate in the final phase, with a total of 30 submitted runs. Moreover, we outline the main approaches adopted by the participating teams in the context of highlighting some of our perceptions and general trends that characterize the participating systems and their submitted runs."
 local_pdf: "[[PDFs/2022-Malhas-Qur'an QA 2022.pdf]]"
 pdf_extract: "PDF Extracts/2022-Malhas-Qur'an QA 2022.md"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 research_topic: "Question Answering"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Qur'an QA 2022: Overview of The First Shared Task on Question Answering over the Holy Qur'an

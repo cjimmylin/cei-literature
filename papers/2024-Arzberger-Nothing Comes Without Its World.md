@@ -6,7 +6,7 @@ Not AI:
 key: ARZBERGER2024
 type: conferencePaper
 short_title: "Nothing Comes Without Its World"
-year: 2024
+year: 2025
 first_author: "[[Anne Arzberger]]"
 authors: "[[Arzberger, Anne]]; [[Buijsman, Stefan]]; [[Lupetti, Maria Luce]]; [[Bozzon, Alessandro]]; [[Yang, Jie]]"
 doi: 10.1609/aies.v7i1.31617
@@ -22,7 +22,7 @@ key_contribution: "Critiques RLHF through feminist epistemology lens; proposes s
 significance: "Reveals fundamental limitations of RLHF for capturing situated human values in diverse contexts"
 tags: 
 abstract: "This perspective paper unpacks the limitations of predominant alignment practices of reinforcement learning from human feedback (RLHF) for LLMs through the lens of situated values and proposes three research directions to address these shortcomings. The authors build on feminist epistemology to argue that at the design-time, RLHF has problems with representation in the subjects providing feedback and implicitness in the conceptualization of values and situations of real-world users while lacking system adaptation to real user situations at the use-time. To address these shortcomings, they propose three research directions: 1) situated annotation, 2) expressive instruction, and 3) reflexive adaptation."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

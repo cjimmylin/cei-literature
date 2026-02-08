@@ -11,6 +11,8 @@ first_author: "[[Martin Hähnel]]"
 authors: "[[Hähnel, Martin]]; [[Müller, Regina (eds.)]]"
 doi: 10.1002/9781119809449
 url: "https://www.wiley.com/en-us/A+Companion+to+Applied+Philosophy+of+AI-p-9781119809"
+local_pdf: "[[PDFs/2025-Hähnel-A Companion to Applied Philosophy of AI.pdf]]"
+pdf_extract: "PDF Extracts/2025-Hähnel-A Companion to Applied Philosophy of AI.md"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A

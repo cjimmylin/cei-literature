@@ -13,6 +13,8 @@ first_author: "[[Memi Ebara]]"
 authors: Memi Ebara et al.
 doi: 10.3233/SHTI250854
 url: "https://doi.org/10.3233/SHTI250854"
+local_pdf: "[[PDFs/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.pdf]]"
+pdf_extract: "PDF Extracts/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.md"
 publication: Unknown
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

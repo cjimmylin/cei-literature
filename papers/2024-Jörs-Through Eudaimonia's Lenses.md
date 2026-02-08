@@ -11,6 +11,8 @@ first_author: "[[Julian Marvin Jörs]]"
 authors: "[[Jörs, Julian Marvin]]; [[De Luca, Ernesto William]]"
 doi: N/A
 url: "https://www.researchgate.net/publication/380938771_Through_Eudaimonia's_Lenses_EudAImonic_Well-Being_Variables_As_Guiding_Principles_For_AI_Design"
+local_pdf: "[[PDFs/2024-Jörs-Through Eudaimonia's Lenses.pdf]]"
+pdf_extract: "PDF Extracts/2024-Jörs-Through Eudaimonia's Lenses.md"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A

@@ -2,6 +2,32 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 46 (Feb 8, 2026) - Create Missing PDF Extracts
+
+### Overview
+
+Closed the last remaining main-vault PDF-to-extract gap by extracting text from the Farina (2024) virtue ethics paper and linking it via YAML fields. Verified AI Labs extracts were already complete (337/337 covered). Ran full validation (923/923 pass).
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Main vault extracts created | 1 (Farina 2024) |
+| Paper YAML fields updated | 1 (local_pdf + pdf_extract) |
+| AI Labs extracts created | 0 (all 337 already existed) |
+| Validation | 923/923 pass, 0 errors |
+| Remaining gap | 1 book PDF in INBOX (Vallor "The AI Mirror") |
+
+### Key Learnings
+- [PDF Processing] Paper stem may differ from PDF stem (Farina: "Virtue Ethics Approach" vs "- A Virtue Ethics Approach") — extracts should use paper stem for vault consistency
+- [Data Quality] Always verify actual gaps before execution — AI Labs extraction gap from plan had already been closed in a prior session
+
+### Files Changed
+- `papers/2024-Farina-AI and Society Virtue Ethics Approach.md` — Added `local_pdf` and `pdf_extract` fields
+- `PDF Extracts/2024/2024-Farina-AI and Society Virtue Ethics Approach.md` — **NEW**: 36 pages, 29 KB
+
+---
+
 ## Session 45 (Feb 8, 2026) - Organize PDFs & Extracts into Year-Based Subdirectories
 
 ### Overview

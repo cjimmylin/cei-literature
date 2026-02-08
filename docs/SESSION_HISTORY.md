@@ -2,6 +2,47 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 44 (Feb 8, 2026) - Process PDF INBOX + Create Skill
+
+### Overview
+
+Processed 6 manually-downloaded PDFs from `PDFs/INBOX/` into the vault. 5 papers received new PDFs (Gao, Hähnel, Sullins, Jörs, Ebara) with local_pdf + pdf_extract YAML fields and text extracts created. 1 duplicate (Ohlhorst) moved to RECYCLE-BIN. Created reusable `/process-pdf-inbox` skill for future manual PDF intake.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| PDFs processed | 5 |
+| Duplicates recycled | 1 |
+| PDF extracts created | 5 (total pages: 521) |
+| YAML fields added | 10 (5 local_pdf + 5 pdf_extract) |
+| New skill created | process-pdf-inbox |
+| Validation | 923/923 pass |
+
+### Papers Processed
+
+| Paper | Pages | Source |
+|-------|-------|--------|
+| 2025-Gao — MIST Moral Inference | 7 | ACM DL (manual) |
+| 2025-Hähnel — Companion to Applied Philosophy of AI | 456 | Wiley (manual) |
+| 2025-Sullins — Automated Ethical Practical Reasoning | 45 | Academia.edu (manual) |
+| 2024-Jörs — Through Eudaimonia's Lenses | 8 | ResearchGate (manual) |
+| 2025-Ebara — Corpus-Based Medical Ethics | 5 | IOS Press (manual) |
+
+### Key Learnings
+- [Workflows] PDFs directory is at vault root (one level above CEI-Lit-WS/) — scripts must use `../PDFs/` relative path
+- [Skills] Created reusable skill for future INBOX processing with confirmation-before-action pattern
+- [PDF Processing] Hähnel book at 456 pages is the largest single extract in the vault
+
+### Files Created/Changed
+- `.claude/skills/process-pdf-inbox.md` — New skill (not git-tracked, lives at vault root)
+- `PYTHON/process_inbox_pdfs.py` — Script (already committed in previous session)
+- `PDF Extracts/`: 5 new extract files
+- `papers/`: 5 papers updated with local_pdf + pdf_extract fields
+- `RECYCLE-BIN/Virtues_for_AI.pdf` — Duplicate recycled
+
+---
+
 ## Session 43 (Feb 8, 2026) - Fix Unknown/Placeholder Authors Across the Vault
 
 ### Overview

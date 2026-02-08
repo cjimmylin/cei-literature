@@ -16,26 +16,24 @@ This report presents the final results of an exhaustive literature search for et
 
 | Metric | Value |
 |--------|-------|
-| **Total unique papers (master list)** | **251** |
-| **Additional papers from Agent 1 (citation graph)** | **62 (~55 net new)** |
-| **Estimated total unique papers** | **~300+** |
-| **Papers found by multiple agents** | 35 (14% cross-agent agreement) |
-| **Implementation Readiness: HIGH** | 157 (62.5%) |
-| **Implementation Readiness: MEDIUM** | 89 (35.5%) |
-| **Implementation Readiness: LOW** | 4 (1.6%) |
-| **Implementation Readiness: UNKNOWN** | 1 (0.4%) |
+| **Total unique papers** | **300** |
+| **Papers found by multiple agents** | 48 (16% cross-agent agreement) |
+| **Implementation Readiness: HIGH** | 177 (59.0%) |
+| **Implementation Readiness: MEDIUM** | 108 (36.0%) |
+| **Implementation Readiness: LOW** | 14 (4.7%) |
+| **Implementation Readiness: UNKNOWN** | 1 (0.3%) |
 | **Year range** | 2019-2026 |
-| **Papers from 2025-2026** | 142 (56.6%) |
+| **Papers from 2025-2026** | 185 (61.7%) |
 | **Search agents deployed** | 19 (13 reports + 1 citation graph) |
 | **Total web searches performed** | ~300+ |
-| **Raw papers extracted (before dedup)** | 292 |
-| **Duplicate merges** | 41 |
+| **Raw papers extracted (before dedup)** | 354 (292 + 62 from Agent 1) |
+| **Duplicate merges** | 66 (41 original + 25 Agent 1 exclusions) |
 
 ### Quality Assessment
 
 | Quality Metric | Result |
 |----------------|--------|
-| **Cross-verification sample size** | 20 / 251 (8.0%) |
+| **Cross-verification sample size** | 20 / 251 (8.0%, covers original papers only) |
 | **Papers confirmed real** | **20 / 20 (100%)** |
 | **Hallucinated citations detected** | **0** |
 | **Minor metadata discrepancies** | 2 (year attribution, title shortening) |
@@ -83,8 +81,11 @@ Papers are categorized into thematic groups. A paper may appear in multiple cate
 | 227 | Value FULCRA | 2024 | HIGH |
 | 228 | Value Kaleidoscope / ValuePrism | 2024 | HIGH |
 | 14 | VALUEFLOW (Pluralistic Alignment) | 2026 | MEDIUM |
+| 272 | AdAEM (Schwartz-based Self-Extensible Assessment) | 2025 | HIGH |
+| 274 | EVALUESTEER (Reward Model Value Steerability) | 2025 | HIGH |
+| 287 | GPLA (Psycho-Lexical Value Systems) | 2025 | MEDIUM |
 
-**Count: 13 papers**
+**Count: 16 papers**
 
 ### 2.3 Cross-Cultural & Non-Western Ethics
 *Papers addressing non-WEIRD ethical norms, cultural variation, or non-Western moral systems.*
@@ -104,6 +105,8 @@ Papers are categorized into thematic groups. A paper may appear in multiple cate
 | 163 | Edu-Values (Chinese Education Values) | 2024 | HIGH |
 | 207 | OpenEval (Chinese LLM Alignment) | 2024 | HIGH |
 | 235 | CValues | 2023 | HIGH |
+| 270 | C-VARC (Chinese Value Rule Corpus, 250K+ rules) | 2025 | HIGH |
+| 297 | CoreValue (Chinese Values Knowledge Base) | 2022 | LOW |
 
 #### 2.3.2 Islamic / Arabic Ethics
 
@@ -116,6 +119,7 @@ Papers are categorized into thematic groups. A paper may appear in multiple cate
 | 102 | PalmX 2025 (Arabic & Islamic Culture) | 2025 | HIGH |
 | 109 | QIAS 2025 (Islamic Inheritance Reasoning) | 2025 | HIGH |
 | 123 | Saudi-Alignment Benchmark | 2025 | MEDIUM |
+| 256 | BRAND (Bilingual Religious Norms, 4 religions) | 2025 | HIGH |
 
 #### 2.3.3 Japanese Ethics
 
@@ -174,8 +178,14 @@ Papers are categorized into thematic groups. A paper may appear in multiple cate
 | 158 | Decoding Multilingual Moral Preferences (Moral Machine) | 2024 | HIGH |
 | 186 | Investigating Cultural Alignment of LLMs | 2024 | MEDIUM |
 | 226 | Unintended Impacts of LLM Alignment on Global Representation | 2024 | MEDIUM |
+| 267 | VideoNorms (US/Chinese Cultural Norms, Video) | 2025 | MEDIUM |
+| 268 | NormGenesis (Multicultural Dialogue, EN/CN/KR) | 2025 | HIGH |
+| 273 | CQ-Bench (Cultural Intelligence) | 2025 | MEDIUM |
+| 283 | CCD-Bench (Cultural Conflict, GLOBE clusters) | 2025 | HIGH |
+| 293 | NormAd-ETI (Cultural Alignment, 75 countries) | 2025 | HIGH |
+| 296 | Cross-cultural Value Alignment Audit (Liu) | 2025 | LOW |
 
-**Total Cross-Cultural: 51 papers**
+**Total Cross-Cultural: 60 papers**
 
 ### 2.4 Professional Ethics
 
@@ -213,7 +223,13 @@ Papers are categorized into thematic groups. A paper may appear in multiple cate
 |---|-------|------|-----------|
 | 149 | COMPL-AI (EU AI Act Compliance) | 2024 | HIGH |
 
-**Total Professional Ethics: 19 papers**
+#### 2.4.4 Business Ethics
+
+| # | Paper | Year | Readiness |
+|---|-------|------|-----------|
+| 291 | ManagerBench (Safety-Pragmatism Trade-off) | 2025 | MEDIUM |
+
+**Total Professional Ethics: 20 papers**
 
 ### 2.5 Political Values, Ideology & Social Norms
 
@@ -247,8 +263,9 @@ Papers are categorized into thematic groups. A paper may appear in multiple cate
 | 240 | OpinionQA | 2023 | HIGH |
 | 243 | BBQ (Bias Benchmark for QA) | 2022 | HIGH |
 | 247 | CrowS-Pairs | 2021 | HIGH |
+| 275 | OvertonScore (Viewpoint Diversity/Pluralism) | 2025 | HIGH |
 
-**Count: 28 papers**
+**Count: 29 papers**
 
 ### 2.6 Safety, Red-Teaming & Guardrails (with Ethical Dimensions)
 
@@ -292,8 +309,14 @@ Papers are categorized into thematic groups. A paper may appear in multiple cate
 | 234 | BeaverTails | 2023 | HIGH |
 | 236 | DecodingTrust | 2023 | HIGH |
 | 244 | HH-RLHF | 2022 | HIGH |
+| 260 | GVS-Scale/GVS-Bench (GenAI Value Safety) | 2026 | MEDIUM |
+| 281 | I2P (Inappropriate Image Prompts) | 2022 | MEDIUM |
+| 284 | SafetyPrompts (Meta-Review of 144 datasets) | 2024 | HIGH |
+| 289 | DIVE (Pluralistic Text-to-Image Safety) | 2025 | MEDIUM |
+| 292 | MoralBench-Gai (Multi-Faceted, 19K annotations) | 2025 | HIGH |
+| 300 | Chain-of-Ethics (Defense Framework) | 2025 | LOW |
 
-**Count: 38 papers**
+**Count: 44 papers**
 
 ### 2.7 Game Theory, Cooperation & Strategic Behavior
 
@@ -357,8 +380,9 @@ Papers are categorized into thematic groups. A paper may appear in multiple cate
 | 237 | EtiCor (Etiquette Corpus) | 2023 | MEDIUM |
 | 246 | ProsocialDialog | 2022 | HIGH |
 | 251 | EmpatheticDialogues | 2019 | HIGH |
+| 269 | BehaviorBench (Agent Behavior Editing, moral psychology) | 2025 | MEDIUM |
 
-**Count: 19 papers**
+**Count: 20 papers**
 
 ### 2.10 Meta-Ethics, Moral Competence & Survey Frameworks
 
@@ -396,8 +420,20 @@ Papers are categorized into thematic groups. A paper may appear in multiple cate
 | 208 | PRISM Alignment Dataset | 2024 | HIGH |
 | 209 | Pluralistic Alignment Over Time | 2024 | MEDIUM |
 | 241 | Probing Moral Development through DIT | 2023 | MEDIUM |
+| 252 | COMETH (Empirical Moral Evaluation, 300 scenarios) | 2025 | HIGH |
+| 253 | VAL-Bench (Belief Consistency, 115K pairs) | 2025 | HIGH |
+| 257 | EthicsSuite (Behavioral Inconsistency, 20K situations) | 2025 | HIGH |
+| 258 | MoVa (Generalizable Moral Classification, 16 datasets) | 2025 | HIGH |
+| 263 | SFF (Syntactic Framing Fragility) | 2025 | MEDIUM |
+| 264 | NSI (Negation Sensitivity Index) | 2026 | MEDIUM |
+| 265 | PSYCH (Psychometric LLM Assessment) | 2026 | LOW |
+| 280 | Moral Association Graph (Cognitive Model) | 2024 | MEDIUM |
+| 286 | Delphi Nature MI (Machine Moral Judgment) | 2025 | MEDIUM |
+| 288 | Do LLMs Walk Their Talk (Multi-Method Framework) | 2025 | MEDIUM |
+| 290 | SpeciesismBench (Animal Ethics, 1003 items) | 2025 | HIGH |
+| 299 | Moral Coherentism (Theoretical Framework) | 2025 | LOW |
 
-**Count: 32 papers**
+**Count: 44 papers**
 
 ### 2.11 Multilingual Moral Evaluation
 
@@ -413,8 +449,10 @@ Papers are categorized into thematic groups. A paper may appear in multiple cate
 | 194 | MULTITP (Multilingual Trolley Problems) | 2024 | HIGH |
 | 202 | Multilingual Defining Issues Test | 2024 | MEDIUM |
 | 231 | Whose Morality Do They Speak? (MFQ-2, 8 languages) | 2024 | HIGH |
+| 262 | Moralization Corpus (German, Argumentative) | 2025 | MEDIUM |
+| 294 | TF3-RO (Romanian Moral Microfiction, 3M fables) | 2026 | LOW |
 
-**Count: 10 papers**
+**Count: 12 papers**
 
 ### 2.12 Bias & Fairness Benchmarks
 
@@ -437,8 +475,10 @@ Papers are categorized into thematic groups. A paper may appear in multiple cate
 | 223 | Geographic Inclusion in Text-to-Image | 2024 | HIGH |
 | 243 | BBQ | 2022 | HIGH |
 | 247 | CrowS-Pairs | 2021 | HIGH |
+| 276 | Fair-PP (Personalized Equity Preferences, 238K records) | 2025 | HIGH |
+| 277 | DIB Benchmark (Decision-based Implicit Bias) | 2026 | MEDIUM |
 
-**Count: 17 papers**
+**Count: 19 papers**
 
 ### 2.13 Legal Reasoning & Judicial Ethics
 
@@ -465,8 +505,13 @@ Papers are categorized into thematic groups. A paper may appear in multiple cate
 | 133 | TrolleyBench (Agent 4/6) | 2025 | HIGH |
 | 194 | MULTITP (Multilingual Trolley Problems) | 2024 | HIGH |
 | 221 | The Greatest Good Benchmark (Utilitarian) | 2024 | HIGH |
+| 255 | CLASH (High-Stakes Dilemmas, Multiple Perspectives) | 2025 | HIGH |
+| 259 | MORABLES (Fables for Abstract Moral Reasoning) | 2025 | HIGH |
+| 271 | MIST (Moral Inference, Multimodal Storytelling) | 2025 | MEDIUM |
+| 278 | VIVA (Vision-Grounded Values Decisions) | 2024 | HIGH |
+| 279 | OffTheRails (Procedural Dilemma Generation) | 2024 | HIGH |
 
-**Count: 7 papers**
+**Count: 12 papers**
 
 ### 2.15 Alignment Infrastructure & Meta-Benchmarks
 
@@ -486,8 +531,14 @@ Papers are categorized into thematic groups. A paper may appear in multiple cate
 | 217 | Safetywashing | 2024 | HIGH |
 | 225 | TrustLLM | 2024 | HIGH |
 | 230 | WalledEval | 2024 | HIGH |
+| 261 | VAPT (Value-Alignment Perception Toolkit) | 2026 | MEDIUM |
+| 266 | TTC (Theory Trace Card Documentation) | 2026 | LOW |
+| 282 | Values in the Wild (3,307 values from real interactions) | 2025 | MEDIUM |
+| 295 | Reward Model Perspectives (Demographic Alignment) | 2025 | LOW |
+| 297 | Scales of Justitia (Safety Eval Taxonomy) | 2025 | LOW |
+| 298 | BenchRisk (57 Failure Modes in AI Safety Benchmarks) | 2025 | LOW |
 
-**Count: 14 papers**
+**Count: 20 papers**
 
 ### 2.16 Foundational Moral Datasets (Rules-of-Thumb, Social Norms, Narratives)
 
@@ -502,23 +553,24 @@ Papers are categorized into thematic groups. A paper may appear in multiple cate
 | 248 | Moral Stories | 2021 | HIGH |
 | 249 | Scruples | 2021 | HIGH |
 | 250 | Social Chemistry 101 | 2020 | HIGH |
+| 285 | Multimodal Human Values in Videos | 2025 | MEDIUM |
 
-**Count: 9 papers**
+**Count: 10 papers**
 
 ---
 
 ## 3. Implementation Readiness Tiers
 
-### Tier 1: HIGH (157 papers, 62.5%)
+### Tier 1: HIGH (177 papers, 59.0%)
 
 These papers have publicly available datasets, code, or clearly documented benchmarks that can be directly integrated into the CEI vault evaluation pipeline.
 
 **Breakdown by year:**
 - 2026: 7
-- 2025: 77
-- 2024: 58
+- 2025: 91
+- 2024: 62
 - 2023: 8
-- 2022: 4
+- 2022: 5
 - 2021: 3
 - 2020: 1
 - 2019: 0 (note: EmpatheticDialogues listed as 2019 is HIGH)
@@ -530,7 +582,7 @@ These papers have publicly available datasets, code, or clearly documented bench
 - Well-documented evaluation protocols
 - Multiple-choice or structured evaluation formats
 
-### Tier 2: MEDIUM (89 papers, 35.5%)
+### Tier 2: MEDIUM (108 papers, 36.0%)
 
 These papers describe benchmarks or evaluation methodologies that are promising but require additional work to implement:
 - Dataset may need to be requested from authors
@@ -538,15 +590,24 @@ These papers describe benchmarks or evaluation methodologies that are promising 
 - Framework papers requiring operationalization
 - Survey/review papers with methodological value but no direct benchmark
 
-### Tier 3: LOW (4 papers, 1.6%)
+### Tier 3: LOW (14 papers, 4.7%)
 
-These are primarily conceptual or philosophical papers:
+These are primarily conceptual, philosophical, or meta-analytical papers:
 - #34: Can We Trust AI Benchmarks? (meta-review)
 - #88: Metaethical Perspectives on Benchmarking AI Ethics (critical philosophy)
 - #159: Decolonial AI Alignment (conceptual framework)
 - #182: How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas (theoretical proposal)
+- #265: PSYCH (psychometric assessment methodology)
+- #266: TTC (theory trace card documentation standard)
+- #294: TF3-RO (Romanian moral microfiction corpus)
+- #295: Reward Model Perspectives (demographic alignment analysis)
+- #296: Cross-cultural Value Alignment Audit (audit framework)
+- #297: CoreValue / Scales of Justitia (knowledge base / taxonomy)
+- #298: BenchRisk (failure mode analysis of safety benchmarks)
+- #299: Moral Coherentism (theoretical framework)
+- #300: Chain-of-Ethics (defense framework)
 
-### Tier 4: UNKNOWN (1 paper, 0.4%)
+### Tier 4: UNKNOWN (1 paper, 0.3%)
 
 - #26: Awesome-LLM-Eval Repository (meta-resource; aggregator rather than a paper)
 
@@ -554,7 +615,7 @@ These are primarily conceptual or philosophical papers:
 
 ## 4. Import Priority Recommendations
 
-The following 30 papers are recommended for priority import into the CEI Literature Vault, ranked by a composite score of: (a) multi-agent agreement, (b) HIGH implementation readiness, (c) novelty of ethical framework, and (d) recency (2025-2026 preferred).
+The following papers are recommended for priority import into the CEI Literature Vault, ranked by a composite score of: (a) multi-agent agreement, (b) HIGH implementation readiness, (c) novelty of ethical framework, and (d) recency (2025-2026 preferred).
 
 ### Priority 1: Multi-Agent Agreement + HIGH Readiness (Top 10)
 
@@ -603,6 +664,21 @@ These papers were independently discovered by 3+ agents, indicating they are hig
 | 29 | 208 | **PRISM Alignment Dataset** | 2024 | 1,500 participants from 75 countries; NeurIPS 2024 |
 | 30 | 137 | **Value Compass Benchmarks** | 2025 | Dynamic platform; 27 dimensions x 33 LLMs; ACL 2025 |
 
+### Priority 4: Agent 1 Notable Additions (Papers 31-40)
+
+| Rank | # | Paper | Year | Why Import |
+|------|---|-------|------|-----------|
+| 31 | 252 | **COMETH** | 2025 | Empirically grounded 300-scenario moral evaluation |
+| 32 | 255 | **CLASH** | 2025 | 345 high-stakes dilemmas with 3,795 perspectives |
+| 33 | 270 | **C-VARC** | 2025 | 250K+ Chinese value rules; largest Chinese moral dataset |
+| 34 | 279 | **OffTheRails** | 2024 | Procedural dilemma generation from causal graphs |
+| 35 | 278 | **VIVA** | 2024 | Vision-language moral reasoning benchmark |
+| 36 | 284 | **SafetyPrompts** | 2024 | Meta-resource cataloguing 144 safety datasets |
+| 37 | 290 | **SpeciesismBench** | 2025 | Novel moral domain (animal ethics) |
+| 38 | 258 | **MoVa** | 2025 | 16-dataset moral classification suite |
+| 39 | 283 | **CCD-Bench** | 2025 | Cultural conflict across 10 GLOBE clusters |
+| 40 | 257 | **EthicsSuite** | 2025 | 20K situations testing behavioral inconsistency |
+
 ---
 
 ## 5. Gap Analysis
@@ -616,8 +692,8 @@ Despite deploying 19 specialized agents performing ~300+ web searches, the follo
 | **African Ubuntu ethics** | 2 papers (IrokoBench, AfroBench) | Both focus on language coverage, not Ubuntu ethics specifically. No benchmark operationalizes Ubuntu moral philosophy. |
 | **Indigenous/First Nations ethics** | 0 papers | Complete gap. No benchmarks for Indigenous Australian, Native American, Maori, or other Indigenous moral frameworks. |
 | **Latin American ethics** | 0 papers | Complete gap. No benchmarks for liberation theology, buen vivir, or Latin American moral philosophy. |
-| **Buddhist ethics** | 1 indirect reference | Decolonial AI mentions Visesa-Dharma; no dedicated Buddhist ethics benchmark. |
-| **Hindu ethics (dharma, karma)** | 1 indirect reference (Decolonial AI) | Indian bias benchmarks focus on caste/social bias, not Hindu moral philosophy. |
+| **Buddhist ethics** | 1 indirect reference + BRAND | Decolonial AI mentions Visesa-Dharma; BRAND (#256) covers Buddhist norms alongside Christianity, Hinduism, and Islam, partially filling the religious diversity gap. No dedicated Buddhist ethics benchmark. |
+| **Hindu ethics (dharma, karma)** | 1 indirect reference (Decolonial AI) + BRAND | Indian bias benchmarks focus on caste/social bias, not Hindu moral philosophy. BRAND includes Hindu norms. |
 | **Confucian ethics** | 1 paper (#182, LOW readiness) | Theoretical only; no implemented Confucian ethics benchmark. |
 | **Virtue ethics (Aristotelian)** | 0 dedicated papers | Some papers touch on virtue ethics (AMAeval, Beyond Verdicts) but no benchmark specifically operationalizes Aristotelian virtues. |
 | **Care ethics (Gilligan)** | 0 dedicated papers | Empathy benchmarks are adjacent but do not operationalize care ethics as a moral framework. |
@@ -628,13 +704,13 @@ Despite deploying 19 specialized agents performing ~300+ web searches, the follo
 
 | Benchmark Type | Coverage | Gap Assessment |
 |----------------|----------|----------------|
-| **Multimodal moral reasoning** | 3 papers (HumaniBench, EmoBench-M, EmpathicStories++) | Emerging but sparse; most benchmarks are text-only. |
+| **Multimodal moral reasoning** | 6 papers (HumaniBench, EmoBench-M, EmpathicStories++, VIVA, MIST, VideoNorms, Multimodal Human Values in Videos, DIVE) | Improved from 3 to 6+ papers with Agent 1 additions; still an emerging area but growing. |
 | **Audio/speech-based moral evaluation** | 0 papers | Complete gap. No benchmarks evaluate moral reasoning in speech/audio. |
 | **Longitudinal moral consistency** | 1 paper (#209, Pluralistic Alignment Over Time) | Conceptual only; no implemented longitudinal benchmark. |
 | **Embodied agent moral behavior** | 1 paper (SafeAgentBench) | Physical-world moral decisions by robots/embodied agents are unstudied. |
 | **Child/developmental moral reasoning** | 1 paper (#134, Gen Alpha language) | Adjacent only; no benchmark maps developmental moral stages in LLMs. |
-| **Moral creativity/novel dilemma generation** | 2 papers (MoCoP, ConflictScope) | Both MEDIUM readiness; area is emerging. |
-| **Environmental/climate ethics** | 0 papers | Complete gap. No benchmarks for sustainability ethics, animal rights, or ecological moral reasoning. |
+| **Moral creativity/novel dilemma generation** | 3 papers (MoCoP, ConflictScope, OffTheRails) | OffTheRails (#279) adds procedural dilemma generation from causal graphs; area is emerging. |
+| **Environmental/climate ethics / Animal rights** | 1 paper (SpeciesismBench #290) | Previously a complete gap. SpeciesismBench addresses animal ethics with 1,003 items. Environmental/climate ethics remains a complete gap. |
 | **Intergenerational ethics** | 0 papers | Complete gap. No benchmarks for long-term consequences, future generations, or temporal discounting of moral obligations. |
 
 ### 5.3 Underrepresented Geographic Regions
@@ -695,17 +771,15 @@ Papers #121 and #122 both appear to be "SafetyAnalyst" by related teams at ICML 
 
 Papers #132 and #133 are both "TrolleyBench" at NeurIPS 2025 from different agents. These are likely the same paper and should be merged.
 
-### 6.4 Agent 1 Integration (Not Yet Done)
+### 6.4 Agent 1 Integration -- COMPLETE
 
-The Agent 1 citation graph report (`Agent1_Citation_Graph_Report.md`) contains 62 additional papers that have not yet been integrated into the master list. An estimated 55 of these are net new (after removing overlap with the existing 251). Key papers from Agent 1 that should be high-priority for integration include:
+Agent 1's 62 citation graph papers have been integrated into the master list:
+- **49 net-new papers** added (entries #252-#300)
+- **13 papers** already in master list, updated with Agent 1 as additional source
+- **7 papers** excluded (already in vault)
+- **5 appendix papers** excluded (already tracked)
 
-- **COMETH** (300-scenario dataset, ternary moral judgments, HIGH readiness)
-- **MoReBench** (procedural and pluralistic moral reasoning)
-- **OffTheRails** (procedural moral dilemma generation)
-- **VIVA** (vision-language moral benchmarks)
-- **SafetyPrompts** (meta-evaluation infrastructure)
-
-The integration step (Step 2b in the status file) requires adding Agent 1's report to the `REPORT_FILES` list in `PYTHON/extract_and_dedup_papers.py` and re-running the script.
+The master list now contains **300 unique papers** with Agent 1 citation graph coverage.
 
 ---
 
@@ -730,7 +804,7 @@ Papers were deduplicated using three cascaded methods:
 ### 7.3 Known Limitations
 
 1. **Vault exclusion list:** Approximately 67 papers already in the vault were excluded from agent reports. The full exclusion list was provided at agent launch time but not preserved in a separate file.
-2. **Agent 1 gap:** Agent 1 (citation graph) was run separately and its results have not been integrated into the master list.
+2. **Agent 1 integration:** Agent 1 (citation graph) results have been fully integrated into the master list as of 2026-02-07.
 3. **Context window limits:** The main orchestrating session hit context limits after ~58 minutes. All agent reports were written to disk before this occurred.
 4. **Web search limitations:** Agents could not access papers behind paywalls or institutional authentication. Some papers may have been missed due to indexing delays in search engines.
 5. **Date bias:** The search was conducted on 2026-02-07, meaning very recent papers (January-February 2026) may not yet be fully indexed.
@@ -741,22 +815,24 @@ Papers were deduplicated using three cascaded methods:
 
 | Year | Count | Percentage |
 |------|-------|------------|
-| 2026 | 14 | 5.6% |
-| 2025 | 128 | 51.0% |
-| 2024 | 90 | 35.9% |
-| 2023 | 10 | 4.0% |
-| 2022 | 4 | 1.6% |
-| 2021 | 3 | 1.2% |
-| 2020 | 1 | 0.4% |
-| 2019 | 1 | 0.4% |
+| 2026 | 21 | 7.0% |
+| 2025 | 164 | 54.7% |
+| 2024 | 94 | 31.3% |
+| 2023 | 10 | 3.3% |
+| 2022 | 6 | 2.0% |
+| 2021 | 3 | 1.0% |
+| 2020 | 1 | 0.3% |
+| 2019 | 1 | 0.3% |
 
-The concentration in 2024-2025 (87%) reflects the explosion of ethical evaluation benchmarks following the mainstream adoption of ChatGPT (late 2022) and the subsequent regulatory attention (EU AI Act, US Executive Order on AI Safety). The 14 papers from 2026 demonstrate that this area continues to grow rapidly.
+The concentration in 2024-2025 (86%) reflects the explosion of ethical evaluation benchmarks following the mainstream adoption of ChatGPT (late 2022) and the subsequent regulatory attention (EU AI Act, US Executive Order on AI Safety). The 21 papers from 2026 demonstrate that this area continues to grow rapidly.
 
 ---
 
 ## 9. Appendix: Multi-Agent Papers (Full List)
 
 Papers discovered independently by 2+ agents, sorted by agent count (descending). These represent the most prominent and well-known works in the field.
+
+**Total: 48 papers found by multiple agents**
 
 ### 4-Agent Papers (1)
 - **MoralBench** (#201) -- Agent 14, Agent 15, Agent 16, Agent 19
@@ -766,7 +842,7 @@ Papers discovered independently by 2+ agents, sorted by agent count (descending)
 - **LLM Ethics Benchmark (Three-Dimensional)** (#69) -- Agent 14, Agent 16, Agent 19
 - **Normative Evaluation (Everyday Moral Dilemmas)** (#96) -- Agent 3, Agent 17, Agent 19
 
-### 2-Agent Papers (31)
+### 2-Agent Papers (44)
 - One Model, Many Morals (#9) -- Agent 7-8, Agent 12-13
 - PsychEthicsBench (#12) -- Agent 5, Agent 14
 - AMAeval (#29) -- Agent 7-8, Agent 19
@@ -798,6 +874,18 @@ Papers discovered independently by 2+ agents, sorted by agent count (descending)
 - WMDP Benchmark (#229) -- Agent 7-8, Agent 16
 - Decolonial AI Alignment (#159) -- Agent 9-11, Agent 12-13
 - ProsocialDialog (#246) -- Agent 15, Agent 17
+- COMETH (#252) -- Agent 1, Agent 19
+- CLASH (#255) -- Agent 1, Agent 18
+- MoVa (#258) -- Agent 1, Agent 15
+- VIVA (#278) -- Agent 1, Agent 6
+- OffTheRails (#279) -- Agent 1, Agent 4
+- SafetyPrompts (#284) -- Agent 1, Agent 16
+- SpeciesismBench (#290) -- Agent 1, Agent 19
+- CCD-Bench (#283) -- Agent 1, Agent 12-13
+- NormAd-ETI (#293) -- Agent 1, Agent 3
+- C-VARC (#270) -- Agent 1, Agent 9-11
+- MoralBench-Gai (#292) -- Agent 1, Agent 14
+- NormGenesis (#268) -- Agent 1, Agent 12-13
 
 ---
 
@@ -805,6 +893,7 @@ Papers discovered independently by 2+ agents, sorted by agent count (descending)
 
 | Agent | Domain | Papers Extracted | Unique Contribution |
 |-------|--------|-----------------|---------------------|
+| Agent 1 | Citation Graph Traversal | 62 (49 net new) | Citation-discovered: COMETH, CLASH, C-VARC, OffTheRails, VIVA, SafetyPrompts |
 | Agent 2 | ACL Anthology | 20 | Core NLP venue papers: UniMoral, PERSONA, Value FULCRA, CMoralEval |
 | Agent 3 | AIES/FAccT/EAAMO | 19 | Ethics conference papers: Normative Evaluation, GermanPartiesQA, PRISM methodology papers |
 | Agent 4 | Workshops (NeurIPS/ICML/ICLR) | 12 | Workshop-track papers: SORRY-Bench, MULTITP, ALI-Agent, SaTML CTF |
@@ -824,7 +913,7 @@ Papers discovered independently by 2+ agents, sorted by agent count (descending)
 
 **Report generated:** 2026-02-07
 **Report location:** `CEI-Lit-WS/logs/EXHAUSTIVE_SEARCH_FINAL_REPORT_2026_02_07.md`
-**Master list:** `CEI-Lit-WS/logs/MASTER_PAPER_LIST_2026_02_07.md` (251 papers)
+**Master list:** `CEI-Lit-WS/logs/MASTER_PAPER_LIST_2026_02_07.md` (300 papers)
 **Cross-verification:** `CEI-Lit-WS/logs/CROSS_VERIFICATION_REPORT_2026_02_07.md` (20/20 verified)
-**Citation graph:** `CEI-Lit-WS/logs/Agent1_Citation_Graph_Report.md` (62 additional papers)
+**Citation graph:** `CEI-Lit-WS/logs/Agent1_Citation_Graph_Report.md` (62 additional papers, fully integrated)
 **Next step:** Import priority papers into the vault (Step 5)

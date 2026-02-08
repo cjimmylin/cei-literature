@@ -7,17 +7,17 @@
 
 ## Summary Statistics
 
-- **Total unique papers:** 251
-- **Papers found by multiple agents:** 35
-- **Implementation Readiness:** HIGH=157, MEDIUM=89, LOW=4, UNKNOWN=1
+- **Total unique papers:** 300
+- **Papers found by multiple agents:** 48
+- **Implementation Readiness:** HIGH=177, MEDIUM=108, LOW=14, UNKNOWN=1
 
 ### By Year
 
-- 2026: 14
-- 2025: 128
-- 2024: 90
+- 2026: 21
+- 2025: 164
+- 2024: 94
 - 2023: 10
-- 2022: 4
+- 2022: 6
 - 2021: 3
 - 2020: 1
 - 2019: 1
@@ -189,7 +189,7 @@
 - **Dataset Size:** 150 prompts calibrated across full harmfulness spectrum
 - **Code/Data:** None listed
 - **Implementation Readiness:** MEDIUM
-- **Source Agent(s):** Agent 16
+- **Source Agent(s):** Agent 16, Agent 1
 
 ---
 
@@ -241,7 +241,7 @@
 - **Dataset Size:** See report
 - **Code/Data:** None listed
 - **Implementation Readiness:** MEDIUM
-- **Source Agent(s):** Agent 7-8
+- **Source Agent(s):** Agent 7-8, Agent 1
 
 ---
 
@@ -514,7 +514,7 @@
 - **Dataset Size:** Automated pipeline generating value-conflict dilemmas from user-defined value sets; systematic pairwise comparison of values; MCQ and open-ended formats
 - **Code/Data:** None listed
 - **Implementation Readiness:** MEDIUM
-- **Source Agent(s):** Agent 15
+- **Source Agent(s):** Agent 15, Agent 1
 
 ---
 
@@ -579,7 +579,7 @@
 - **Dataset Size:** Dataset with controlled confounds between deep values and shallow features; three separate human validation experiments
 - **Code/Data:** None listed
 - **Implementation Readiness:** HIGH
-- **Source Agent(s):** Agent 19
+- **Source Agent(s):** Agent 19, Agent 1
 
 ---
 
@@ -696,7 +696,7 @@
 - **Dataset Size:** Size: 125 therapy-relevant scenarios
 - **Code/Data:** https://huggingface.co/datasets/UVSKKR/Ethical-Reasoning-in-Mental-Health-v1](https://huggingface.co/datasets/UVSKKR/Ethical-Reasoning-in-Mental-Health-v1
 - **Implementation Readiness:** MEDIUM
-- **Source Agent(s):** Agent 5, Agent 14
+- **Source Agent(s):** Agent 5, Agent 14, Agent 1
 
 ---
 
@@ -828,7 +828,7 @@
 - **Dataset Size:** 106 fine-grained categories
 - **Code/Data:** None listed
 - **Implementation Readiness:** MEDIUM
-- **Source Agent(s):** Agent 16
+- **Source Agent(s):** Agent 16, Agent 1
 
 ---
 
@@ -1516,7 +1516,7 @@
 - **Dataset Size:** 13K+ realistic role conflict scenarios across 65 roles; three-stage generation pipeline; systematically varying social expectations and urgency levels
 - **Code/Data:** None listed
 - **Implementation Readiness:** MEDIUM
-- **Source Agent(s):** Agent 15
+- **Source Agent(s):** Agent 15, Agent 1
 
 ---
 
@@ -1555,7 +1555,7 @@
 - **Dataset Size:** 2,221 authentic multi-turn dialogues from social networking platform; 312 manually annotated dialogues across 8 models; Chinese language; anonymized
 - **Code/Data:** https://github.com/SI-Bench/SI-Bench.git](https://github.com/SI-Bench/SI-Bench.git
 - **Implementation Readiness:** HIGH
-- **Source Agent(s):** Agent 15
+- **Source Agent(s):** Agent 15, Agent 1
 
 ---
 
@@ -1749,7 +1749,7 @@
 - **Dataset Size:** Moral Dilemma Dataset: 1,618 real-world moral dilemmas
 - **Code/Data:** None listed
 - **Implementation Readiness:** MEDIUM
-- **Source Agent(s):** Agent 6, Agent 19
+- **Source Agent(s):** Agent 6, Agent 19, Agent 1
 
 ---
 
@@ -1762,7 +1762,7 @@
 - **Dataset Size:** 3,302 five-stage moral dilemmas (Multi-step Moral Dilemmas / MMDs dataset); each dilemma contains 5 progressive stages with pairwise value comparisons
 - **Code/Data:** None listed
 - **Implementation Readiness:** HIGH
-- **Source Agent(s):** Agent 19
+- **Source Agent(s):** Agent 19, Agent 1
 
 ---
 
@@ -1825,7 +1825,7 @@
 - **Dataset Size:** Size: 13,100 value-laden situations + 5,400 multiple-choice questions
 - **Code/Data:** None listed
 - **Implementation Readiness:** HIGH
-- **Source Agent(s):** Agent 2
+- **Source Agent(s):** Agent 2, Agent 1
 
 ---
 
@@ -1851,7 +1851,7 @@
 - **Dataset Size:** Psychometrically validated items with human-subject correlation data; evaluates 10 Schwartz value dimensions
 - **Code/Data:** None listed
 - **Implementation Readiness:** HIGH
-- **Source Agent(s):** Agent 19
+- **Source Agent(s):** Agent 19, Agent 1
 
 ---
 
@@ -3321,6 +3321,641 @@
 - **Dataset Size:** 25,000 conversations; 32 emotion labels; grounded in emotional situations; human-to-human dialogues
 - **Code/Data:** https://github.com/facebookresearch/EmpatheticDialogues](https://github.com/facebookresearch/EmpatheticDialogues; https://huggingface.co/datasets/facebook/empathetic_dialogues
 - **Implementation Readiness:** HIGH
-- **Source Agent(s):** Agent 15
+- **Source Agent(s):** Agent 15, Agent 1
+
+---
+
+## Agent 1 Papers (Citation Graph Traversal) — 49 Net New
+
+### 252. COMETH: Contextual Organization of Moral Evaluation from Textual Human Inputs
+
+- **Authors:** Morlat, G. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2512.21439](https://arxiv.org/abs/2512.21439)
+- **Dataset Size:** 300 scenarios with ternary moral judgments (Blame/Neutral/Support) from 101 participants across six core moral actions
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 253. VAL-Bench: Belief Consistency as a Measure for Value Alignment
+
+- **Authors:** Gupta, A. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2510.05465](https://arxiv.org/abs/2510.05465)
+- **Dataset Size:** 115K pairs of prompts from Wikipedia eliciting opposing stances on controversial issues
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 254. CLASH: Evaluating Language Models on Judging High-Stakes Dilemmas from Multiple Perspectives
+
+- **Authors:** Lee, A. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2504.10823](https://arxiv.org/abs/2504.10823)
+- **Dataset Size:** 345 high-impact dilemmas with 3,795 diverse value perspectives across 14 models
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 255. BRAND: Bilingual Religious Accountable Norm Dataset
+
+- **Authors:** Hossain, K.A. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2512.03943](https://arxiv.org/abs/2512.03943)
+- **Dataset Size:** 2,400+ entries across Buddhism, Christianity, Hinduism, and Islam in English and Bengali
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 256. MoVa: Towards Generalizable Classification of Human Morals and Values
+
+- **Authors:** Chen, Z. et al.
+- **Year:** 2025
+- **Venue:** EMNLP
+- **arXiv:** [2509.24216](https://arxiv.org/abs/2509.24216)
+- **Dataset Size:** Suite of 16 labeled datasets across four moral frameworks with lightweight LLM prompting strategy
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 257. MORABLES: A Benchmark for Assessing Abstract Moral Reasoning in LLMs with Fables
+
+- **Authors:** Marcuzzo, M. et al.
+- **Year:** 2025
+- **Venue:** EMNLP
+- **arXiv:** [2509.12371](https://arxiv.org/abs/2509.12371)
+- **Dataset Size:** Literature-based benchmark using fables for abstract moral reasoning, includes adversarial variants
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 258. EthicsSuite: Detecting Behavioral Inconsistency in LLM Ethics Suggestions
+
+- **Authors:** Ma, P. et al.
+- **Year:** 2025
+- **Venue:** ACM TOSEM
+- **DOI:** [10.1145/3722554](https://doi.org/10.1145/3722554)
+- **Dataset Size:** 20K moral situations designed to detect behavioral inconsistency using reflective equilibrium principles
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 259. GVS-Scale and GVS-Bench: GenAI Value Safety Scale
+
+- **Authors:** He, Z. et al.
+- **Year:** 2026
+- **Venue:** arXiv
+- **arXiv:** [2601.09112](https://arxiv.org/abs/2601.09112)
+- **Dataset Size:** Unified value safety framework with lifecycle-oriented taxonomy for GenAI systems
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 260. VAPT: Value-Alignment Perception Toolkit
+
+- **Authors:** Yun, S. et al.
+- **Year:** 2026
+- **Venue:** arXiv
+- **arXiv:** [2601.22440](https://arxiv.org/abs/2601.22440)
+- **Dataset Size:** Month-long chatbot interaction study capturing naturalistic value perception from LLMs
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 261. The Moralization Corpus
+
+- **Authors:** Becker, S. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2512.15248](https://arxiv.org/abs/2512.15248)
+- **Dataset Size:** Multi-genre German dataset analyzing moral values in argumentative discourse with frame-based annotation
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 262. Syntactic Framing Fragility (SFF): Robustness Evaluation of LLM Ethical Decisions
+
+- **Authors:** Elkins, K. & Chun, J.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2601.09724](https://arxiv.org/abs/2601.09724)
+- **Dataset Size:** 39,975 ethical decisions from 23 models across 14 scenarios using Logical Polarity Normalization
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 263. Negation Sensitivity Index (NSI)
+
+- **Authors:** Elkins, K. & Chun, J.
+- **Year:** 2026
+- **Venue:** arXiv
+- **arXiv:** [2601.21433](https://arxiv.org/abs/2601.21433)
+- **Dataset Size:** 16 models audited across 14 ethical scenarios for negation sensitivity; tiered certification framework
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 264. PSYCH: Psychometric Assessment of LLM Characters
+
+- **Authors:** Kratzke, N. et al.
+- **Year:** 2026
+- **Venue:** Analytics
+- **DOI:** [10.3390/analytics5010005](https://doi.org/10.3390/analytics5010005)
+- **Dataset Size:** 330,000+ Big Five Inventory-2 responses from 32 LLMs testing moral personality dimensions
+- **Code/Data:** Not specified
+- **Implementation Readiness:** LOW
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 265. Theory Trace Card (TTC): Documentation for Socio-Cognitive Benchmarks
+
+- **Authors:** Karimi-Malekabadi, F. et al.
+- **Year:** 2026
+- **Venue:** arXiv
+- **arXiv:** [2601.01878](https://arxiv.org/abs/2601.01878)
+- **Dataset Size:** Documentation artifact making explicit the theoretical basis of moral reasoning evaluations
+- **Code/Data:** Not specified
+- **Implementation Readiness:** LOW
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 266. VideoNorms: Benchmarking Cultural Awareness of Video Language Models
+
+- **Authors:** Varimaldi, N.R. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2510.08543](https://arxiv.org/abs/2510.08543)
+- **Dataset Size:** 1,000+ video-norm pairs from US and Chinese cultures annotated with socio-cultural norms
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 267. NormGenesis: Multicultural Dialogue Generation Dataset
+
+- **Authors:** Hong, M. et al.
+- **Year:** 2025
+- **Venue:** EMNLP
+- **arXiv:** [2509.18395](https://arxiv.org/abs/2509.18395)
+- **Dataset Size:** 10,800 multi-turn dialogues across English, Chinese, Korean annotated for norm adherence
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 268. BehaviorBench: Multi-Tier Benchmark for Agent Behavior Editing
+
+- **Authors:** Huang, B. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2506.20606](https://arxiv.org/abs/2506.20606)
+- **Dataset Size:** Multi-tier benchmark grounded in psychological moral theories for behavior evaluation and editing
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 269. C-VARC: Chinese Value Rule Corpus
+
+- **Authors:** Wu, P. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2506.01495](https://arxiv.org/abs/2506.01495)
+- **Dataset Size:** 250,000+ value rules based on hierarchical Chinese value framework (50 values) + 400,000 moral dilemma scenarios
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 270. MIST: Moral Inference through Storytelling with Text and Images
+
+- **Authors:** Gao, C. et al.
+- **Year:** 2025
+- **Venue:** CIKM
+- **DOI:** [10.1145/3746252.3760884](https://doi.org/10.1145/3746252.3760884)
+- **Dataset Size:** Multi-image dataset evaluating moral reasoning in complex dynamic scenarios across seven VLMs
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 271. AdAEM: Adaptively and Automated Extensible Measurement for Value Alignment
+
+- **Authors:** Duan, S. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2505.13531](https://arxiv.org/abs/2505.13531)
+- **Dataset Size:** 12,310 self-generated questions grounded in Schwartz Value Theory, auto-adapting to reveal value differences
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 272. CQ-Bench: Cultural Intelligence Benchmark for LLMs
+
+- **Authors:** Liu, Z. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2504.01127](https://arxiv.org/abs/2504.01127)
+- **Dataset Size:** Benchmarks LLMs' metacognitive cultural intelligence for implicit cultural values across diverse contexts
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 273. OvertonScore: Benchmarking Overton Pluralism in LLMs
+
+- **Authors:** Poole-Dayan, E. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2512.01351](https://arxiv.org/abs/2512.01351)
+- **Dataset Size:** OvertonScore metric validated against 1,209 human respondents across 60 questions and 8 models
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 274. EVALUESTEER: Measuring Reward Model Steerability Across Value Dimensions
+
+- **Authors:** Ghate, K. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2510.06370](https://arxiv.org/abs/2510.06370)
+- **Dataset Size:** 165,888 synthetic preference pairs testing alignment across value dimensions (traditional, secular-rational, survival, self-expression)
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 275. Fair-PP: Synthetic Dataset for Aligning LLM with Personalized Preferences of Social Equity
+
+- **Authors:** Zhou, Q. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2505.11861](https://arxiv.org/abs/2505.11861)
+- **Dataset Size:** 238,623 preference records across 28 social groups and 98 equity topics
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 276. DIB Benchmark: Decision-based Implicit Bias in LLMs
+
+- **Authors:** Ma, Y. et al.
+- **Year:** 2026
+- **Venue:** arXiv
+- **arXiv:** [2602.01558](https://arxiv.org/abs/2602.01558)
+- **Dataset Size:** 3,776 decision-making scenarios across nine social domains for quantifying implicit bias
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 277. VIVA: A Benchmark for Vision-Grounded Decision-Making with Human Values
+
+- **Authors:** Hu, Z. et al.
+- **Year:** 2024
+- **Venue:** EMNLP
+- **arXiv:** [2407.03000](https://arxiv.org/abs/2407.03000)
+- **Dataset Size:** 1,062 images assessing vision-language models' capacity to leverage human values for decision-making
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 278. OffTheRails: Procedural Dilemma Generation for Moral Reasoning
+
+- **Authors:** Franken, J.-P. et al.
+- **Year:** 2024
+- **Venue:** arXiv
+- **arXiv:** [2404.10975](https://arxiv.org/abs/2404.10975)
+- **Dataset Size:** 50 procedurally generated scenarios with 400 test items from causal graphs for harm-related permissibility
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 279. Moral Association Graph: Cognitive Model for Interpretable Moral Inference
+
+- **Authors:** Ramezani, A. & Xu, Y.
+- **Year:** 2024
+- **Venue:** Topics in Cognitive Science
+- **DOI:** [10.1111/tops.12774](https://doi.org/10.1111/tops.12774)
+- **Dataset Size:** Word association network-based cognitive model for moral inference grounded in psychological data
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 280. Multimodal Understanding of Human Values in Videos
+
+- **Authors:** Wang, Y. et al.
+- **Year:** 2025
+- **Venue:** Neurocomputing
+- **DOI:** [10.1016/j.neucom.2025.130170](https://doi.org/10.1016/j.neucom.2025.130170)
+- **Dataset Size:** First multimodal benchmark for human value understanding in video content
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 281. Values in the Wild: Discovering and Analyzing Values in Real AI Interactions
+
+- **Authors:** Huang, S. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2504.15236](https://arxiv.org/abs/2504.15236)
+- **Dataset Size:** 3,307 AI values extracted from hundreds of thousands of real interactions with high ecological validity
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 282. I2P: Inappropriate Image Prompts Test Bed
+
+- **Authors:** Schramowski, P. et al.
+- **Year:** 2022
+- **Venue:** FAccT
+- **arXiv:** [2202.06675](https://arxiv.org/abs/2202.06675)
+- **Dataset Size:** Real-world prompts for evaluating inappropriate content in image generation models
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 283. CCD-Bench: Probing Cultural Conflict in LLM Decision-Making
+
+- **Authors:** Multiple authors
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2510.03553](https://arxiv.org/abs/2510.03553)
+- **Dataset Size:** 2,182 open-ended dilemmas spanning seven domains with ten response options from ten GLOBE cultural clusters
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 284. SafetyPrompts: Systematic Review of Open Datasets for LLM Safety
+
+- **Authors:** Rottger, P. et al.
+- **Year:** 2024
+- **Venue:** AAAI
+- **arXiv:** [2404.05399](https://arxiv.org/abs/2404.05399)
+- **Dataset Size:** Systematic review of 144 datasets for LLM safety evaluation; living catalogue at SafetyPrompts.com
+- **Code/Data:** SafetyPrompts.com
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 285. Investigating Machine Moral Judgement through the Delphi Experiment
+
+- **Authors:** Jiang, L. et al.
+- **Year:** 2025
+- **Venue:** Nature Machine Intelligence
+- **DOI:** [10.1038/s42256-024-00969-6](https://doi.org/10.1038/s42256-024-00969-6)
+- **Dataset Size:** Large-scale systematic investigation of machine moral judgment across 14 models (extends original Delphi)
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 286. GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems
+
+- **Authors:** Ye, H. et al.
+- **Year:** 2025
+- **Venue:** ACL
+- **arXiv:** [2502.02444](https://arxiv.org/abs/2502.02444)
+- **Dataset Size:** Psychologically-grounded method for constructing LLM value systems with three benchmarking tasks
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 287. Do LLMs Walk Their Talk? Multi-Method Moral Evaluation Framework
+
+- **Authors:** Andric, S. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2512.01568](https://arxiv.org/abs/2512.01568)
+- **Dataset Size:** Tests implicit associations (IAT), behavioral altruism, and explicit beliefs across 24 LLMs
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 288. DIVE: Dataset for Pluralistic Alignment of Text-to-Image Models
+
+- **Authors:** Rastogi, C. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2507.13383](https://arxiv.org/abs/2507.13383)
+- **Dataset Size:** 1,000 prompts with safety perspectives from demographically intersectional raters for text-to-image alignment
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 289. SpeciesismBench: Evaluating LLM Recognition of Speciesist Statements
+
+- **Authors:** Jotautaite, M. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2508.11534](https://arxiv.org/abs/2508.11534)
+- **Dataset Size:** 1,003-item benchmark assessing recognition and moral evaluation of speciesist statements
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 290. ManagerBench: Evaluating Safety-Pragmatism Trade-off in Managerial Contexts
+
+- **Authors:** Simhi, A. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2510.00857](https://arxiv.org/abs/2510.00857)
+- **Dataset Size:** Realistic human-validated managerial scenarios forcing choices between pragmatic/harmful and safe alternatives
+- **Code/Data:** Not specified
+- **Implementation Readiness:** MEDIUM
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 291. MoralBench: A Multi-Faceted Benchmark (Gai et al.)
+
+- **Authors:** Gai, Y. et al.
+- **Year:** 2025
+- **Venue:** PhilArchive
+- **Dataset Size:** Three-component: 1K safety-alignment prompts, 10K abstracted variations, 19,132 structured ethical annotations
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 292. NormAd-ETI: Multiple LLM Agents Debate for Equitable Cultural Alignment
+
+- **Authors:** Ki, H. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2505.24671](https://arxiv.org/abs/2505.24671)
+- **Dataset Size:** Social etiquette norms across 75 countries for cultural adaptability through multi-agent debate
+- **Code/Data:** Not specified
+- **Implementation Readiness:** HIGH
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 293. TF3-RO: Training Compact Romanian Language Models on Synthetic Moral Microfiction
+
+- **Authors:** Nadies, S. et al.
+- **Year:** 2026
+- **Venue:** arXiv
+- **arXiv:** [2601.10410](https://arxiv.org/abs/2601.10410)
+- **Dataset Size:** 3M Romanian synthetic fables + 3M English fables with six-slot scaffold for narrative-based moral training
+- **Code/Data:** Not specified
+- **Implementation Readiness:** LOW
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 294. Reward Model Perspectives on Demographic Alignment (Elle et al.)
+
+- **Authors:** Elle, S. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2510.06391](https://arxiv.org/abs/2510.06391)
+- **Dataset Size:** Framework for demographic alignment of reward models
+- **Code/Data:** Not specified
+- **Implementation Readiness:** LOW
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 295. Cross-cultural Value Alignment: Multi-Method Audit (Liu et al.)
+
+- **Authors:** Liu, Y. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2511.17256](https://arxiv.org/abs/2511.17256)
+- **Dataset Size:** Multi-method audit framework for cross-cultural value alignment
+- **Code/Data:** Not specified
+- **Implementation Readiness:** LOW
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 296. Scales of Justitia: Safety Evaluation Taxonomy (Liu et al.)
+
+- **Authors:** Liu, Y. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2506.11094](https://arxiv.org/abs/2506.11094)
+- **Dataset Size:** Survey and taxonomy of safety evaluation approaches
+- **Code/Data:** Not specified
+- **Implementation Readiness:** LOW
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 297. BenchRisk: Identifying 57 Failure Modes in AI Safety Benchmarks (McGregor et al.)
+
+- **Authors:** McGregor, S. et al.
+- **Year:** 2025
+- **Venue:** arXiv
+- **arXiv:** [2510.21460](https://arxiv.org/abs/2510.21460)
+- **Dataset Size:** Meta-evaluation identifying 57 failure modes across AI safety benchmarks
+- **Code/Data:** Not specified
+- **Implementation Readiness:** LOW
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 298. CoreValue: Chinese Values Knowledge Base (Liu et al.)
+
+- **Authors:** Liu, Y. et al.
+- **Year:** 2022
+- **Venue:** Not specified
+- **Dataset Size:** Chinese values knowledge base
+- **Code/Data:** Not specified
+- **Implementation Readiness:** LOW
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 299. Moral Coherentism: Theoretical Framework (Muntean)
+
+- **Authors:** Muntean, I.
+- **Year:** 2025
+- **Venue:** Not specified
+- **Dataset Size:** Theoretical framework for moral coherentism in AI systems
+- **Code/Data:** Not specified
+- **Implementation Readiness:** LOW
+- **Source Agent(s):** Agent 1 (Citation Graph)
+
+---
+
+### 300. Chain-of-Ethics: Defense Framework (Wu et al.)
+
+- **Authors:** Wu, Y. et al.
+- **Year:** 2025
+- **Venue:** Not specified
+- **Dataset Size:** Defense framework using chain-of-ethics reasoning
+- **Code/Data:** Not specified
+- **Implementation Readiness:** LOW
+- **Source Agent(s):** Agent 1 (Citation Graph)
 
 ---

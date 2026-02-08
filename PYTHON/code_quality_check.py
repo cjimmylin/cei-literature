@@ -198,7 +198,7 @@ class CodeQualityChecker:
             'yaml_frontmatter_utils.py',
             'generate_report_v2.py',  # Only writes to STATISTICS/, not papers
             'fix_yaml_tags.py',       # Fixes malformed YAML that can't use standard utilities
-            'identify_benchmarks.py',  # Only writes to STATISTICS/benchmark_papers_list.json
+            'identify_benchmarks.py',  # Only writes to STATISTICS/20260124-benchmark_papers_list.json
         }
         if filepath.name in YAML_SAFETY_EXCEPTIONS:
             return

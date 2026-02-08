@@ -3,15 +3,15 @@
 Generate statistics report for data nature classification.
 Creates a markdown report showing papers categorized by benchmark/eval/dataset status.
 
-This script generates data-nature-statistics.md (1,604 lines), a focused report containing:
+This script generates 20260119-data-nature-statistics.md (1,604 lines), a focused report containing:
 - Summary statistics and category overlaps
 - All benchmarks with descriptions and metrics
 - All evaluation papers with descriptions and metrics
 - All datasets with descriptions and metrics
 - Papers with extracted metrics (detailed list)
 
-This report is more detailed than paper-statistics-3.md but less comprehensive in
-organization. Use this for quick reference, use paper-statistics-3.md for full breakdown.
+This report is more detailed than 20260119-paper-statistics-3.md but less comprehensive in
+organization. Use this for quick reference, use 20260119-paper-statistics-3.md for full breakdown.
 
 OUTPUT FORMAT:
 - Year - Author - [[Wikilink to paper]]
@@ -118,7 +118,7 @@ def main():
             print(f"Error processing {filepath.name}: {e}")
     
     # Generate markdown report
-    report_path = STATISTICS_DIR / 'data-nature-statistics.md'
+    report_path = STATISTICS_DIR / '20260119-data-nature-statistics.md'
 
     # Ensure STATISTICS directory exists
     STATISTICS_DIR.mkdir(exist_ok=True)

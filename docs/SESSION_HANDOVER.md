@@ -517,7 +517,7 @@ All known issues have been resolved:
 python3 PYTHON/comprehensive_audit.py
 
 # 2. Review report
-cat STATISTICS/comprehensive-audit-report.md
+cat STATISTICS/20260124-comprehensive-audit-report.md
 
 # 3. Apply cleanups if needed
 python3 PYTHON/comprehensive_cleanup.py

@@ -600,8 +600,8 @@ If classification logic changes:
 ## Reporting
 
 ### Scripts
-- `PYTHON/generate_stats.py` → `STATISTICS/paper-statistics-1.md` (General Stats & Frameworks)
-- `PYTHON/generate_report_v2.py` → `STATISTICS/paper-statistics-2.md` (Cultural, Religious, Psych)
+- `PYTHON/generate_stats.py` → `STATISTICS/20260119-paper-statistics-1.md` (General Stats & Frameworks)
+- `PYTHON/generate_report_v2.py` → `STATISTICS/20260119-paper-statistics-2.md` (Cultural, Religious, Psych)
 
 ### Format
 ```

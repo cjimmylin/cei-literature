@@ -190,7 +190,7 @@ def main():
     logger.info("")
 
     # Load the list of abbreviated authors from the log
-    log_file = LOGS_DIR / "author_issues_resolution.json"
+    log_file = LOGS_DIR / "20260124-author_issues_resolution.json"
     if not log_file.exists():
         logger.warning("No log file found. Run resolve_author_issues.py first.")
         return
@@ -256,7 +256,7 @@ def main():
         'to_delete': to_delete,
     }
 
-    results_file = LOGS_DIR / "author_expansion_results.json"
+    results_file = LOGS_DIR / "20260124-author_expansion_results.json"
     with open(results_file, 'w') as f:
         json.dump(results, f, indent=2)
 

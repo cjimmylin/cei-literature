@@ -128,10 +128,10 @@ python3 check_enrichment_status.py
 ## Files Created/Updated
 
 ### Reports
-- `logs/AUTHOR_ENRICHMENT_REPORT.md` - Full enrichment report
-- `logs/METADATA_CORRECTIONS_2026_01_25.md` - Corrections made
-- `logs/authors_to_enrich.json` - Original target list
-- `logs/enrichment_batches.json` - Batch assignments
+- `logs/20260125-AUTHOR_ENRICHMENT_REPORT.md` - Full enrichment report
+- `logs/20260125-METADATA_CORRECTIONS_2026_01_25.md` - Corrections made
+- `logs/20260124-authors_to_enrich.json` - Original target list
+- `logs/20260124-enrichment_batches.json` - Batch assignments
 
 ### Author Profiles
 - ~150 new profiles created

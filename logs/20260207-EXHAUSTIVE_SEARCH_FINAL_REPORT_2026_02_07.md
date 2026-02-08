@@ -744,7 +744,7 @@ While multilingual benchmarks exist, dedicated moral evaluation datasets are mis
 
 ## 6. Corrections & Enrichments
 
-Based on the cross-verification report at `/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/logs/CROSS_VERIFICATION_REPORT_2026_02_07.md`, the following corrections and enrichments should be applied to the master list.
+Based on the cross-verification report at `/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/logs/20260207-CROSS_VERIFICATION_REPORT_2026_02_07.md`, the following corrections and enrichments should be applied to the master list.
 
 ### 6.1 Corrections Needed
 
@@ -912,8 +912,8 @@ Papers discovered independently by 2+ agents, sorted by agent count (descending)
 ---
 
 **Report generated:** 2026-02-07
-**Report location:** `CEI-Lit-WS/logs/EXHAUSTIVE_SEARCH_FINAL_REPORT_2026_02_07.md`
-**Master list:** `CEI-Lit-WS/logs/MASTER_PAPER_LIST_2026_02_07.md` (300 papers)
-**Cross-verification:** `CEI-Lit-WS/logs/CROSS_VERIFICATION_REPORT_2026_02_07.md` (20/20 verified)
-**Citation graph:** `CEI-Lit-WS/logs/Agent1_Citation_Graph_Report.md` (62 additional papers, fully integrated)
+**Report location:** `CEI-Lit-WS/logs/20260207-EXHAUSTIVE_SEARCH_FINAL_REPORT_2026_02_07.md`
+**Master list:** `CEI-Lit-WS/logs/20260207-MASTER_PAPER_LIST_2026_02_07.md` (300 papers)
+**Cross-verification:** `CEI-Lit-WS/logs/20260207-CROSS_VERIFICATION_REPORT_2026_02_07.md` (20/20 verified)
+**Citation graph:** `CEI-Lit-WS/logs/20260207-Agent1_Citation_Graph_Report.md` (62 additional papers, fully integrated)
 **Next step:** Import priority papers into the vault (Step 5)

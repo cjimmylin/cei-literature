@@ -146,7 +146,7 @@ If you have access to a university library:
 | `comprehensive_pdf_manager.py` | Analysis tool | ✅ Working | Identify problematic papers |
 
 ### Logging System
-- **File:** `pdf_download_all_log.json`
+- **File:** `20260124-pdf_download_all_log.json`
 - **Contains:** All download attempts, timestamps, success/failure reasons
 - **Utility:** Track which papers were downloaded and from where
 

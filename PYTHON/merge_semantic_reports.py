@@ -2,7 +2,7 @@
 import re
 import pathlib
 
-STATS_FILE = pathlib.Path("STATISTICS/paper-statistics-5.md")
+STATS_FILE = pathlib.Path("STATISTICS/20260124-paper-statistics-5.md")
 DEEP_DIVE_FILE = pathlib.Path("STATISTICS/semantic_deep_dive.md")
 OUTPUT_FILE = pathlib.Path("STATISTICS/comprehensive_semantic_report.md")
 

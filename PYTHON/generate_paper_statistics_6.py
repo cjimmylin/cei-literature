@@ -2,12 +2,12 @@ import json
 import pathlib
 import datetime
 
-INPUT_JSON = pathlib.Path("STATISTICS/verified_benchmarks.json")
-OUTPUT_MD = pathlib.Path("STATISTICS/paper-statistics-6.md")
+INPUT_JSON = pathlib.Path("STATISTICS/20260124-verified_benchmarks.json")
+OUTPUT_MD = pathlib.Path("STATISTICS/20260124-paper-statistics-6.md")
 
 def main():
     if not INPUT_JSON.exists():
-        print("Input file verified_benchmarks.json not found.")
+        print("Input file 20260124-verified_benchmarks.json not found.")
         return
 
     data = json.loads(INPUT_JSON.read_text(encoding='utf-8'))

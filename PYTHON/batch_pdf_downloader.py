@@ -33,7 +33,7 @@ logger = logging.getLogger(__name__)
 
 # Setup paths - use vault_config for external PDF location
 from vault_config import PAPERS_DIR, PDFS_DIR, WORKSPACE_ROOT
-LOG_FILE = WORKSPACE_ROOT / "pdf_download_log.json"
+LOG_FILE = WORKSPACE_ROOT / "20260124-pdf_download_log.json"
 
 HEADERS = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'}
 RATE_LIMIT = 1.0  # seconds between downloads

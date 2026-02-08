@@ -7,7 +7,7 @@ from typing import Dict, List
 # PDF extracts location
 PDF_EXTRACTS_DIR = Path("PDF Extracts")
 STATISTICS_DIR = Path("STATISTICS")
-OUTPUT_FILE = STATISTICS_DIR / "ethics_snippets_review.md"
+OUTPUT_FILE = STATISTICS_DIR / "20260124-ethics_snippets_review.md"
 
 # Context window size (characters before and after match)
 CONTEXT_WINDOW = 300

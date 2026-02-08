@@ -6,8 +6,8 @@ Reads results_agent_01.json through results_agent_20.json, validates
 completeness, and produces consolidated output files.
 
 Output:
-  - logs/benchmark_survey_all_classifications.json  (all 924 entries)
-  - logs/benchmark_survey_candidates.json           (only Yes candidates)
+  - logs/20260208-benchmark_survey_all_classifications.json  (all 924 entries)
+  - logs/20260208-benchmark_survey_candidates.json           (only Yes candidates)
 """
 
 import json
@@ -153,14 +153,14 @@ def main():
             agent_counts.get("Exclude", 0)))
 
     # Write consolidated output
-    all_path = LOGS_DIR / "benchmark_survey_all_classifications.json"
+    all_path = LOGS_DIR / "20260208-benchmark_survey_all_classifications.json"
     with open(all_path, "w", encoding="utf-8") as f:
         json.dump(all_results, f, indent=2, ensure_ascii=False)
     print("\nAll classifications: {} ({} entries)".format(all_path, len(all_results)))
 
     # Write candidates only (Yes)
     candidates = [r for r in all_results if r["decision"] == "Yes"]
-    candidates_path = LOGS_DIR / "benchmark_survey_candidates.json"
+    candidates_path = LOGS_DIR / "20260208-benchmark_survey_candidates.json"
     with open(candidates_path, "w", encoding="utf-8") as f:
         json.dump(candidates, f, indent=2, ensure_ascii=False)
     print("Candidates (Yes): {} ({} entries)".format(candidates_path, len(candidates)))

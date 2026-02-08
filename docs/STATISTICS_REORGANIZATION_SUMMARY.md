@@ -15,10 +15,10 @@ All 4 generated statistics markdown files have been moved from the vault root di
 **Before:**
 ```
 CEI-Literature-Vault/
-├── paper-statistics-1.md
-├── paper-statistics-2.md
-├── paper-statistics-3.md
-├── data-nature-statistics.md
+├── 20260119-paper-statistics-1.md
+├── 20260119-paper-statistics-2.md
+├── 20260119-paper-statistics-3.md
+├── 20260119-data-nature-statistics.md
 ├── PYTHON/
 ├── papers/
 └── ...
@@ -29,10 +29,10 @@ CEI-Literature-Vault/
 CEI-Literature-Vault/
 ├── STATISTICS/
 │   ├── README.md (NEW)
-│   ├── paper-statistics-1.md
-│   ├── paper-statistics-2.md
-│   ├── paper-statistics-3.md
-│   └── data-nature-statistics.md
+│   ├── 20260119-paper-statistics-1.md
+│   ├── 20260119-paper-statistics-2.md
+│   ├── 20260119-paper-statistics-3.md
+│   └── 20260119-data-nature-statistics.md
 ├── PYTHON/
 ├── papers/
 └── ...
@@ -41,33 +41,33 @@ CEI-Literature-Vault/
 ### 2. Files Moved
 
 **4 Statistics Report Files:**
-- `paper-statistics-1.md` (79 KB) - Ethical frameworks and perspectives
-- `paper-statistics-2.md` (26 KB) - Cultural, religious, moral psychology
-- `data-nature-statistics.md` (156 KB) - Detailed benchmark/eval/dataset breakdown
-- `paper-statistics-3.md` (305 KB) - Comprehensive data nature report
+- `20260119-paper-statistics-1.md` (79 KB) - Ethical frameworks and perspectives
+- `20260119-paper-statistics-2.md` (26 KB) - Cultural, religious, moral psychology
+- `20260119-data-nature-statistics.md` (156 KB) - Detailed benchmark/eval/dataset breakdown
+- `20260119-paper-statistics-3.md` (305 KB) - Comprehensive data nature report
 
 ### 3. Python Scripts Updated
 
 **4 Report Generation Scripts in `PYTHON/`:**
 
 **generate_stats.py**
-- Changed: `open('paper-statistics-1.md', ...)`
-- To: `open(stats_dir / 'paper-statistics-1.md', ...)`
+- Changed: `open('20260119-paper-statistics-1.md', ...)`
+- To: `open(stats_dir / '20260119-paper-statistics-1.md', ...)`
 - Added: `stats_dir = Path('./STATISTICS')` and `mkdir(exist_ok=True)`
 
 **generate_report_v2.py**
-- Changed: `OUTPUT_FILE = Path(__file__).parent / "paper-statistics-2.md"`
-- To: `OUTPUT_FILE = Path(__file__).parent.parent / "STATISTICS" / "paper-statistics-2.md"`
+- Changed: `OUTPUT_FILE = Path(__file__).parent / "20260119-paper-statistics-2.md"`
+- To: `OUTPUT_FILE = Path(__file__).parent.parent / "STATISTICS" / "20260119-paper-statistics-2.md"`
 - Added: Directory creation before file writing
 
 **generate_data_report.py**
-- Changed: `report_path = Path(__file__).parent / 'data-nature-statistics.md'`
-- To: `report_path = Path(__file__).parent.parent / 'STATISTICS' / 'data-nature-statistics.md'`
+- Changed: `report_path = Path(__file__).parent / '20260119-data-nature-statistics.md'`
+- To: `report_path = Path(__file__).parent.parent / 'STATISTICS' / '20260119-data-nature-statistics.md'`
 - Added: Directory creation before file writing
 
 **generate_paper_statistics_3.py**
-- Changed: `report_path = Path(__file__).parent / 'paper-statistics-3.md'`
-- To: `report_path = Path(__file__).parent.parent / 'STATISTICS' / 'paper-statistics-3.md'`
+- Changed: `report_path = Path(__file__).parent / '20260119-paper-statistics-3.md'`
+- To: `report_path = Path(__file__).parent.parent / 'STATISTICS' / '20260119-paper-statistics-3.md'`
 - Added: Directory creation before file writing
 
 ### 4. Agent Skills Updated
@@ -75,7 +75,7 @@ CEI-Literature-Vault/
 **`.agent/skills/generate_reports/scripts/run_reports.py`**
 - Updated REPORTS configuration to use new paths:
   - `generate_stats.py` → `PYTHON/generate_stats.py`
-  - `paper-statistics-1.md` → `STATISTICS/paper-statistics-1.md`
+  - `20260119-paper-statistics-1.md` → `STATISTICS/20260119-paper-statistics-1.md`
   - (and 3 more reports with updated paths)
 - Updated output message: "Reports are in the STATISTICS/ directory"
 
@@ -83,10 +83,10 @@ CEI-Literature-Vault/
 
 **`.agent/workflows/weekly_maintenance.md`**
 - Updated Step 4 description to list new paths:
-  - `paper-statistics-1.md` → `STATISTICS/paper-statistics-1.md`
-  - `paper-statistics-2.md` → `STATISTICS/paper-statistics-2.md`
-  - `data-nature-statistics.md` → `STATISTICS/data-nature-statistics.md`
-  - `paper-statistics-3.md` → `STATISTICS/paper-statistics-3.md`
+  - `20260119-paper-statistics-1.md` → `STATISTICS/20260119-paper-statistics-1.md`
+  - `20260119-paper-statistics-2.md` → `STATISTICS/20260119-paper-statistics-2.md`
+  - `20260119-data-nature-statistics.md` → `STATISTICS/20260119-data-nature-statistics.md`
+  - `20260119-paper-statistics-3.md` → `STATISTICS/20260119-paper-statistics-3.md`
 
 ### 6. Documentation Updated
 
@@ -96,10 +96,10 @@ CEI-Literature-Vault/
 
 **CLAUDE.md**
 - Updated script descriptions to show new output paths:
-  - `generate_stats.py` → `STATISTICS/paper-statistics-1.md`
-  - `generate_report_v2.py` → `STATISTICS/paper-statistics-2.md`
-  - `generate_data_report.py` → `STATISTICS/data-nature-statistics.md`
-  - `generate_paper_statistics_3.py` → `STATISTICS/paper-statistics-3.md`
+  - `generate_stats.py` → `STATISTICS/20260119-paper-statistics-1.md`
+  - `generate_report_v2.py` → `STATISTICS/20260119-paper-statistics-2.md`
+  - `generate_data_report.py` → `STATISTICS/20260119-data-nature-statistics.md`
+  - `generate_paper_statistics_3.py` → `STATISTICS/20260119-paper-statistics-3.md`
 
 **LLM_CONTEXT.md**
 - Added new Section 14: "Statistics Reports Directory (`STATISTICS/`)"
@@ -144,7 +144,7 @@ python3 PYTHON/generate_paper_statistics_3.py
 
 ### Access Reports
 ```bash
-# In Obsidian: STATISTICS/paper-statistics-1.md
+# In Obsidian: STATISTICS/20260119-paper-statistics-1.md
 # Via filesystem: STATISTICS/
 # Via command line: cat STATISTICS/paper-statistics-*.md
 ```
@@ -169,8 +169,8 @@ python3 .agent/skills/generate_reports/scripts/run_reports.py
 ⚠️ **Breaking Change:** Report file locations have changed
 
 **Migration:**
-- Old: `paper-statistics-1.md` in root
-- New: `STATISTICS/paper-statistics-1.md`
+- Old: `20260119-paper-statistics-1.md` in root
+- New: `STATISTICS/20260119-paper-statistics-1.md`
 
 **Impact:**
 - Any Obsidian wikilinks to reports need updating
@@ -205,10 +205,10 @@ python3 .agent/skills/generate_reports/scripts/run_reports.py
 - STATISTICS_REORGANIZATION_SUMMARY.md
 
 **Moved:**
-- paper-statistics-1.md → STATISTICS/paper-statistics-1.md
-- paper-statistics-2.md → STATISTICS/paper-statistics-2.md
-- paper-statistics-3.md → STATISTICS/paper-statistics-3.md
-- data-nature-statistics.md → STATISTICS/data-nature-statistics.md
+- 20260119-paper-statistics-1.md → STATISTICS/20260119-paper-statistics-1.md
+- 20260119-paper-statistics-2.md → STATISTICS/20260119-paper-statistics-2.md
+- 20260119-paper-statistics-3.md → STATISTICS/20260119-paper-statistics-3.md
+- 20260119-data-nature-statistics.md → STATISTICS/20260119-data-nature-statistics.md
 
 ## Next Steps
 

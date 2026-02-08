@@ -5,7 +5,7 @@ from pathlib import Path
 # Paths
 PAPERS_DIR = Path("papers")
 STATISTICS_DIR = Path("STATISTICS")
-OUTPUT_FILE = STATISTICS_DIR / "abstracts_for_review.md"
+OUTPUT_FILE = STATISTICS_DIR / "20260124-abstracts_for_review.md"
 
 def get_frontmatter_and_content(content):
     match = re.search(r'^---\n(.*?)\n---\n(.*)', content, re.DOTALL)

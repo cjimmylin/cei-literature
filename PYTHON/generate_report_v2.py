@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate a detailed statistics report (paper-statistics-2.md) for Cultural, Religious, and Moral Psych classifications.
+Generate a detailed statistics report (20260119-paper-statistics-2.md) for Cultural, Religious, and Moral Psych classifications.
 
 LEARNINGS / DESIGN DECISIONS:
 - Format: "Year, Author, [[Filename|Title]]" per user preference.
@@ -14,7 +14,7 @@ from typing import Dict, List, Tuple
 
 from vault_config import PAPERS_DIR, STATISTICS_DIR
 
-OUTPUT_FILE = STATISTICS_DIR / "paper-statistics-2.md"
+OUTPUT_FILE = STATISTICS_DIR / "20260119-paper-statistics-2.md"
 
 def extract_frontmatter(text: str) -> Dict[str, str]:
     """Extract YAML frontmatter as a dictionary."""

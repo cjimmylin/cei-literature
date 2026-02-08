@@ -34,11 +34,11 @@ This document summarizes critical learnings for future LLM instances to referenc
   - Special repository pattern recognition
 
 ### 3. Reference Files (in logs/)
-- `SEARCH_GUIDE.md` - Manual search guide for 102 missing papers
-- `papers_to_search.csv` - CSV for batch processing
-- `papers_to_find_UPDATED.json` - Machine-readable with new DOIs
-- `newly_found_dois.json` - 7 discovered DOIs
-- `missing_pdfs_report_20260124.txt` - Categorized by URL type
+- `20260124-SEARCH_GUIDE.md` - Manual search guide for 102 missing papers
+- `20260124-papers_to_search.csv` - CSV for batch processing
+- `20260124-papers_to_find_UPDATED.json` - Machine-readable with new DOIs
+- `20260124-newly_found_dois.json` - 7 discovered DOIs
+- `20260124-missing_pdfs_report_20260124.txt` - Categorized by URL type
 
 ## Updated Documentation
 
@@ -203,7 +203,7 @@ for paper in papers:
 
 5. **For Manual Download**: Reference search guide
    ```bash
-   cat logs/SEARCH_GUIDE.md
+   cat logs/20260124-SEARCH_GUIDE.md
    ```
 
 ### When User Asks About Missing PDFs
@@ -223,7 +223,7 @@ for paper in papers:
    ```
 
 3. **Categorize by availability**:
-   - Check `logs/papers_to_find_UPDATED.json`
+   - Check `logs/20260124-papers_to_find_UPDATED.json`
    - Papers with DOI → easier (Sci-Hub)
    - Papers without DOI → harder (Anna's Archive)
 

@@ -3,8 +3,8 @@ import json
 import pathlib
 import re
 
-INPUT_JSON = pathlib.Path("STATISTICS/benchmark_papers_list.json")
-OUTPUT_MD = pathlib.Path("STATISTICS/paper-statistics-6.md")
+INPUT_JSON = pathlib.Path("STATISTICS/20260124-benchmark_papers_list.json")
+OUTPUT_MD = pathlib.Path("STATISTICS/20260124-paper-statistics-6.md")
 
 def get_category(text):
     text = text.lower()

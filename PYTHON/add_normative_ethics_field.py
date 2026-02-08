@@ -2,7 +2,7 @@
 """
 Add normative_ethics_benchmark field to classified papers.
 
-Reads decisions from logs/normative_ethics_decisions_20260207.json
+Reads decisions from logs/20260207-normative_ethics_decisions_20260207.json
 and safely appends the field to paper YAML frontmatter.
 
 YAML Safety: Uses direct string append — NOT add_field() which uses
@@ -24,7 +24,7 @@ from config import PAPERS_DIR, LOGS_DIR
 
 
 def add_normative_field(dry_run=True, force=False):
-    decisions_path = LOGS_DIR / "normative_ethics_decisions_20260207.json"
+    decisions_path = LOGS_DIR / "20260207-normative_ethics_decisions_20260207.json"
     if not decisions_path.exists():
         print("ERROR: Decisions file not found: {}".format(decisions_path))
         sys.exit(1)

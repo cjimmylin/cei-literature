@@ -204,7 +204,7 @@ def main(dry_run: bool = True):
             update_paper_references(abbrev, full, dry_run=False)
 
     LOGS_DIR.mkdir(exist_ok=True)
-    with open(LOGS_DIR / "author_issues_resolution.json", 'w') as f:
+    with open(LOGS_DIR / "20260124-author_issues_resolution.json", 'w') as f:
         json.dump({'scan': scan_results['by_issue'], 'mappings': all_mappings,
                    'cleaned': broken + invalid, 'merged': merged, 'dry_run': dry_run}, f, indent=2, default=list)
 

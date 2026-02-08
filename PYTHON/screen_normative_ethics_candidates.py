@@ -13,7 +13,7 @@ Input sources:
   - Papers WITH PDF extracts → full PDF extract text (body only, not YAML)
   - Papers WITHOUT PDF extracts → paper body text (NOT frontmatter field names)
 
-Output: logs/normative_ethics_candidates_20260207.json
+Output: logs/20260207-normative_ethics_candidates_20260207.json
 """
 
 import json
@@ -203,7 +203,7 @@ def screen_papers():
         "no_extract_files": sorted(no_extract),
     }
 
-    out_path = LOGS_DIR / "normative_ethics_candidates_20260207.json"
+    out_path = LOGS_DIR / "20260207-normative_ethics_candidates_20260207.json"
     LOGS_DIR.mkdir(exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)

@@ -107,7 +107,7 @@ Added new constant `AI_LAB_PDFS_DIR` with fallback logic:
 
 ## Migration Log
 
-**Location**: `logs/pdf_migration_20260202_165500.json`
+**Location**: `logs/20260202-pdf_migration_20260202_165500.json`
 **Size**: 112KB
 **Contains**: Complete source→destination mappings for all 392 files
 

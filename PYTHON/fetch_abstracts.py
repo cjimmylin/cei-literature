@@ -149,7 +149,7 @@ def main():
         print(f"Papers with read errors: {len(read_errors)}")
 
     # Write lists
-    with open(WORKSPACE_ROOT / 'missing_abstracts.txt', 'w') as f:
+    with open(WORKSPACE_ROOT / '20260119-missing_abstracts.txt', 'w') as f:
         f.write("=== Papers without arXiv URL ===\n")
         for name in no_arxiv_url:
             f.write(name + '\n')

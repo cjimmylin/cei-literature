@@ -14,8 +14,8 @@
 
 **Key files to read first:**
 1. This file (status overview — especially the Step 2b section)
-2. `logs/MASTER_PAPER_LIST_2026_02_07.md` — the deduplicated master list (251 papers, 3326 lines)
-3. `logs/Agent1_Citation_Graph_Report.md` — citation graph results (62 papers, 941 lines)
+2. `logs/20260207-MASTER_PAPER_LIST_2026_02_07.md` — the deduplicated master list (251 papers, 3326 lines)
+3. `logs/20260207-Agent1_Citation_Graph_Report.md` — citation graph results (62 papers, 941 lines)
 4. `PYTHON/extract_and_dedup_papers.py` — the dedup script (can be extended)
 
 ---
@@ -25,11 +25,11 @@
 | Step | Description | Status | Output |
 |------|-------------|--------|--------|
 | Waves 1-3 | 19 search agents across 13 reports | COMPLETE | 13 agent report files (see below) |
-| Agent 1 | Citation graph traversal | COMPLETE | `Agent1_Citation_Graph_Report.md` (62 papers, 941 lines) |
+| Agent 1 | Citation graph traversal | COMPLETE | `20260207-Agent1_Citation_Graph_Report.md` (62 papers, 941 lines) |
 | Step 2b | Integrate Agent 1 into master list | **COMPLETE** | 49 net new papers added (entries 252-300); master list now 300 total |
-| Step 2 | Deduplication & Master List | COMPLETE | `MASTER_PAPER_LIST_2026_02_07.md` |
-| Step 3 | Cross-verification spot checks | **COMPLETE** | `CROSS_VERIFICATION_REPORT_2026_02_07.md` — 20/20 verified, 0 hallucinations |
-| Step 4 | Final report & import recommendations | **COMPLETE** | `EXHAUSTIVE_SEARCH_FINAL_REPORT_2026_02_07.md` (830 lines, 16 themes, top 30 priorities) |
+| Step 2 | Deduplication & Master List | COMPLETE | `20260207-MASTER_PAPER_LIST_2026_02_07.md` |
+| Step 3 | Cross-verification spot checks | **COMPLETE** | `20260207-CROSS_VERIFICATION_REPORT_2026_02_07.md` — 20/20 verified, 0 hallucinations |
+| Step 4 | Final report & import recommendations | **COMPLETE** | `20260207-EXHAUSTIVE_SEARCH_FINAL_REPORT_2026_02_07.md` (830 lines, 16 themes, top 30 priorities) |
 | Step 5 | Import approved papers into vault | **COMPLETE** | 266 new papers created, 34 skipped (duplicates), 923 total in vault |
 
 ---
@@ -46,8 +46,8 @@ Agent 1 performed **citation graph traversal** (forward/backward citations via S
 
 | File | Description |
 |------|-------------|
-| `logs/Agent1_Citation_Graph_Report.md` | 62 papers, 941 lines. Has 3 sections + appendix |
-| `logs/MASTER_PAPER_LIST_2026_02_07.md` | 251 papers, 3326 lines. The target to merge into |
+| `logs/20260207-Agent1_Citation_Graph_Report.md` | 62 papers, 941 lines. Has 3 sections + appendix |
+| `logs/20260207-MASTER_PAPER_LIST_2026_02_07.md` | 251 papers, 3326 lines. The target to merge into |
 | `PYTHON/extract_and_dedup_papers.py` | Existing dedup script (handles Agents 2-19 formats) |
 
 ### Agent 1 Report Format (DIFFERENT from Agents 2-19)
@@ -126,7 +126,7 @@ Agent 1's appendix (lines 911-928) lists 12 additional framework/survey papers i
 1. Add Agent 1 to the `REPORT_FILES` list in `extract_and_dedup_papers.py`
 2. Add a new parser branch that handles Agent 1's format (different field labels)
 3. Re-run the script — it will dedup Agent 1 papers against the existing 251
-4. Output: updated `MASTER_PAPER_LIST_2026_02_07.md` with new total
+4. Output: updated `20260207-MASTER_PAPER_LIST_2026_02_07.md` with new total
 
 **Option B: Manual merge** (faster for 62 papers, less error-prone for one-time use)
 1. Read Agent 1 report, manually check each of 62 papers against master list + vault
@@ -161,7 +161,7 @@ After merging, update:
 
 **Completed:** 2026-02-07, Session 34
 **Script:** `PYTHON/extract_and_dedup_papers.py` (re-runnable; add new reports to REPORT_FILES)
-**Output:** `logs/MASTER_PAPER_LIST_2026_02_07.md`
+**Output:** `logs/20260207-MASTER_PAPER_LIST_2026_02_07.md`
 
 ### Summary Statistics
 
@@ -232,40 +232,40 @@ Key design decisions documented in the script header (`PYTHON/extract_and_dedup_
 | Agent | Domain | Report File | Papers Found | Status |
 |-------|--------|-------------|--------------|--------|
 | 1 | Citation graph deep dive (forward/backward citation of known papers) | **NO REPORT FILE** | Unknown | Agent ran but likely hit context before writing report |
-| 2 | ACL Anthology systematic search (ACL, EMNLP, NAACL, EACL, COLING, AACL, workshops) | `AGENT2_ACL_ANTHOLOGY_SEARCH_2026_02_07.md` | 20 | COMPLETE |
-| 3 | AIES + FAccT + EAAMO proceedings mining | `Agent3_AIES_FAccT_Proceedings_Mining_Report.md` | 19 | COMPLETE |
+| 2 | ACL Anthology systematic search (ACL, EMNLP, NAACL, EACL, COLING, AACL, workshops) | `20260207-AGENT2_ACL_ANTHOLOGY_SEARCH_2026_02_07.md` | 20 | COMPLETE |
+| 3 | AIES + FAccT + EAAMO proceedings mining | `20260207-Agent3_AIES_FAccT_Proceedings_Mining_Report.md` | 19 | COMPLETE |
 
 ### Wave 1 Batch 2: Agents 4-6
 
 | Agent | Domain | Report File | Papers Found | Status |
 |-------|--------|-------------|--------------|--------|
-| 4 | NeurIPS/ICML/ICLR workshop proceedings + Datasets & Benchmarks tracks | `Agent4_Workshop_Proceedings_Report.md` | 12 | COMPLETE |
-| 5 | PapersWithCode + HuggingFace dataset hub | `Agent5_PapersWithCode_HuggingFace_Report.md` | 17 | COMPLETE |
-| 6 | PhilPapers + philosophy databases (Royal Society, PNAS, Nature MI, Springer AI&Ethics) | `Agent6_PhilPapers_Philosophy_Report.md` | 14 | COMPLETE |
+| 4 | NeurIPS/ICML/ICLR workshop proceedings + Datasets & Benchmarks tracks | `20260207-Agent4_Workshop_Proceedings_Report.md` | 12 | COMPLETE |
+| 5 | PapersWithCode + HuggingFace dataset hub | `20260207-Agent5_PapersWithCode_HuggingFace_Report.md` | 17 | COMPLETE |
+| 6 | PhilPapers + philosophy databases (Royal Society, PNAS, Nature MI, Springer AI&Ethics) | `20260207-Agent6_PhilPapers_Philosophy_Report.md` | 14 | COMPLETE |
 
 ### Wave 1 Batch 3: Agents 7-8
 
 | Agent | Domain | Report File | Papers Found | Status |
 |-------|--------|-------------|--------------|--------|
-| 7-8 | Author network traversal (7 research groups) + GitHub awesome lists | `Agent7_8_AuthorNetwork_GitHub_Report.md` | 19 | COMPLETE |
+| 7-8 | Author network traversal (7 research groups) + GitHub awesome lists | `20260207-Agent7_8_AuthorNetwork_GitHub_Report.md` | 19 | COMPLETE |
 
 ### Wave 2: Agents 9-13 (Non-Western & Cross-Cultural Deep Dives)
 
 | Agent | Domain | Report File | Papers Found | Status |
 |-------|--------|-------------|--------------|--------|
-| 9-11 | Non-Western ethics: Chinese, Islamic/Arabic, African/Indigenous/Latin American | `Agent9_11_NonWestern_Ethics_Report.md` | 22 | COMPLETE |
-| 12-13 | East/South Asian ethics (Buddhist, Hindu, Confucian, Japanese) + multilingual moral eval | `Agent12_13_EastAsian_Multilingual_Report.md` | 16 | COMPLETE |
+| 9-11 | Non-Western ethics: Chinese, Islamic/Arabic, African/Indigenous/Latin American | `20260207-Agent9_11_NonWestern_Ethics_Report.md` | 22 | COMPLETE |
+| 12-13 | East/South Asian ethics (Buddhist, Hindu, Confucian, Japanese) + multilingual moral eval | `20260207-Agent12_13_EastAsian_Multilingual_Report.md` | 16 | COMPLETE |
 
 ### Wave 3: Agents 14-19 (Adjacent Domain Sweeps)
 
 | Agent | Domain | Report File | Papers Found | Status |
 |-------|--------|-------------|--------------|--------|
-| 14 | Professional ethics (medical, legal, engineering, business) | `Agent14_Professional_Ethics_Report.md` | 19 | COMPLETE |
-| 15 | Prosocial behavior, empathy, emotional intelligence | `Agent15_Prosocial_Empathy_Report.md` | 22 | COMPLETE |
-| 16 | Safety & red-teaming with ethical dimensions | `Agent16_Safety_RedTeaming_Report.md` | 29 | COMPLETE |
-| 17 | Political values, social norms, ideology, fairness, sycophancy | `Agent17_Political_Values_Report.md` | 28 | COMPLETE |
-| 18 | Game theory, cooperation, ethical persuasion, negotiation, deception | `Agent18_GameTheory_Persuasion_Report.md` | 25 | COMPLETE |
-| 19 | Moral psychology instruments, dynamic moral reasoning, value measurement, meta-ethics | `Agent19_Moral_Psychology_Report.md` | 30 | COMPLETE |
+| 14 | Professional ethics (medical, legal, engineering, business) | `20260207-Agent14_Professional_Ethics_Report.md` | 19 | COMPLETE |
+| 15 | Prosocial behavior, empathy, emotional intelligence | `20260207-Agent15_Prosocial_Empathy_Report.md` | 22 | COMPLETE |
+| 16 | Safety & red-teaming with ethical dimensions | `20260207-Agent16_Safety_RedTeaming_Report.md` | 29 | COMPLETE |
+| 17 | Political values, social norms, ideology, fairness, sycophancy | `20260207-Agent17_Political_Values_Report.md` | 28 | COMPLETE |
+| 18 | Game theory, cooperation, ethical persuasion, negotiation, deception | `20260207-Agent18_GameTheory_Persuasion_Report.md` | 25 | COMPLETE |
+| 19 | Moral psychology instruments, dynamic moral reasoning, value measurement, meta-ethics | `20260207-Agent19_Moral_Psychology_Report.md` | 30 | COMPLETE |
 
 ---
 
@@ -292,7 +292,7 @@ Produce a final report with:
 3. Papers ranked by implementation readiness (HIGH / MEDIUM / LOW tiers)
 4. Recommended import priority (which papers to add to the vault first)
 5. Gap analysis: what ethical traditions or benchmark types are still underrepresented
-Output: `EXHAUSTIVE_SEARCH_FINAL_REPORT_2026_02_07.md`
+Output: `20260207-EXHAUSTIVE_SEARCH_FINAL_REPORT_2026_02_07.md`
 
 ### Step 5: Import into Vault
 For approved papers, use the vault's `/import-papers` skill or manual YAML creation following the vault's metadata schema. Each paper needs:
@@ -308,21 +308,21 @@ For approved papers, use the vault's `/import-papers` skill or manual YAML creat
 All reports are in: `CEI-Lit-WS/logs/`
 
 ```
-AGENT2_ACL_ANTHOLOGY_SEARCH_2026_02_07.md
-Agent3_AIES_FAccT_Proceedings_Mining_Report.md
-Agent4_Workshop_Proceedings_Report.md
-Agent5_PapersWithCode_HuggingFace_Report.md
-Agent6_PhilPapers_Philosophy_Report.md
-Agent7_8_AuthorNetwork_GitHub_Report.md
-Agent9_11_NonWestern_Ethics_Report.md
-Agent12_13_EastAsian_Multilingual_Report.md
-Agent14_Professional_Ethics_Report.md
-Agent15_Prosocial_Empathy_Report.md
-Agent16_Safety_RedTeaming_Report.md
-Agent17_Political_Values_Report.md
-Agent18_GameTheory_Persuasion_Report.md
-Agent19_Moral_Psychology_Report.md
-MASTER_PAPER_LIST_2026_02_07.md          ← Deduplicated master list (251 papers)
+20260207-AGENT2_ACL_ANTHOLOGY_SEARCH_2026_02_07.md
+20260207-Agent3_AIES_FAccT_Proceedings_Mining_Report.md
+20260207-Agent4_Workshop_Proceedings_Report.md
+20260207-Agent5_PapersWithCode_HuggingFace_Report.md
+20260207-Agent6_PhilPapers_Philosophy_Report.md
+20260207-Agent7_8_AuthorNetwork_GitHub_Report.md
+20260207-Agent9_11_NonWestern_Ethics_Report.md
+20260207-Agent12_13_EastAsian_Multilingual_Report.md
+20260207-Agent14_Professional_Ethics_Report.md
+20260207-Agent15_Prosocial_Empathy_Report.md
+20260207-Agent16_Safety_RedTeaming_Report.md
+20260207-Agent17_Political_Values_Report.md
+20260207-Agent18_GameTheory_Persuasion_Report.md
+20260207-Agent19_Moral_Psychology_Report.md
+20260207-MASTER_PAPER_LIST_2026_02_07.md          ← Deduplicated master list (251 papers)
 ```
 
 **Dedup script:** `PYTHON/extract_and_dedup_papers.py` (re-runnable)
@@ -382,5 +382,5 @@ Based on the agent summaries, the newly found papers cluster into these major th
   3. arXiv `ID:` format (bare numbers without `arXiv:` prefix) not extracted
   4. Readiness extraction failed on `**High**` (bold formatting around value)
   5. Index stale references after title-match merges (zombie paper objects)
-- **Output:** `MASTER_PAPER_LIST_2026_02_07.md` (251 unique, 3326 lines)
+- **Output:** `20260207-MASTER_PAPER_LIST_2026_02_07.md` (251 unique, 3326 lines)
 - **Script saved:** `PYTHON/extract_and_dedup_papers.py`

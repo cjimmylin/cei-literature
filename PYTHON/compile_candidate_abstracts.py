@@ -4,9 +4,9 @@ import pathlib
 import re
 
 # Input: The existing broad list (we will use this as the candidate pool)
-INPUT_LIST = pathlib.Path("STATISTICS/benchmark_papers_list.json")
+INPUT_LIST = pathlib.Path("STATISTICS/20260124-benchmark_papers_list.json")
 # Output: A text file for the agent to read
-OUTPUT_TEXT = pathlib.Path("STATISTICS/candidates_for_review.txt")
+OUTPUT_TEXT = pathlib.Path("STATISTICS/20260124-candidates_for_review.txt")
 PAPERS_DIR = pathlib.Path("papers")
 
 def get_full_content(paper_entry):

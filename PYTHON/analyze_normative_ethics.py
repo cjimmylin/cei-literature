@@ -6,7 +6,7 @@ from typing import Dict, List, Set
 # Constants
 PDF_EXTRACTS_DIR = Path("PDF Extracts")
 STATISTICS_DIR = Path("STATISTICS")
-OUTPUT_FILE = STATISTICS_DIR / "paper-statistics-4.md"
+OUTPUT_FILE = STATISTICS_DIR / "20260124-paper-statistics-4.md"
 
 # Regex Patterns for Classification
 # 1. Context Filter: Must discuss AI/Optimization/Alignment

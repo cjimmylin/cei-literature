@@ -212,7 +212,7 @@ def main():
     # ------------------------------------------------------------------
     # Write log file
     # ------------------------------------------------------------------
-    log_path = LOGS_DIR / "organize_pdfs_by_framework_log.md"
+    log_path = LOGS_DIR / "20260207-organize_pdfs_by_framework_log.md"
     log_lines = [
         f"# PDF Organization by Framework — Log",
         f"",

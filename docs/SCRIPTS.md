@@ -59,10 +59,10 @@ python3 PYTHON/classify_data_nature.py
 ## Report Generation
 
 ```bash
-python3 PYTHON/generate_stats.py              # → STATISTICS/paper-statistics-1.md
-python3 PYTHON/generate_report_v2.py          # → STATISTICS/paper-statistics-2.md
-python3 PYTHON/generate_data_report.py        # → STATISTICS/data-nature-statistics.md
-python3 PYTHON/generate_paper_statistics_3.py # → STATISTICS/paper-statistics-3.md
+python3 PYTHON/generate_stats.py              # → STATISTICS/20260119-paper-statistics-1.md
+python3 PYTHON/generate_report_v2.py          # → STATISTICS/20260119-paper-statistics-2.md
+python3 PYTHON/generate_data_report.py        # → STATISTICS/20260119-data-nature-statistics.md
+python3 PYTHON/generate_paper_statistics_3.py # → STATISTICS/20260119-paper-statistics-3.md
 ```
 
 ## PDF Extraction
@@ -183,7 +183,7 @@ python3 PYTHON/code_quality_check.py -o logs/qc_report.md
 Comprehensive scripts for finding and fixing data quality issues.
 
 ```bash
-# Run full audit (generates STATISTICS/comprehensive-audit-report.md)
+# Run full audit (generates STATISTICS/20260124-comprehensive-audit-report.md)
 python3 PYTHON/comprehensive_audit.py
 
 # Initial cleanup - fixes common issues
@@ -218,7 +218,7 @@ python3 PYTHON/fix_truncated_abstracts.py
 python3 PYTHON/comprehensive_audit.py
 
 # 2. Review report
-cat STATISTICS/comprehensive-audit-report.md
+cat STATISTICS/20260124-comprehensive-audit-report.md
 
 # 3. Apply cleanups
 python3 PYTHON/comprehensive_cleanup.py
@@ -345,9 +345,9 @@ These older scripts are superseded by the enhanced downloader but retained for r
 For papers that require manual intervention (typically 15-20%):
 
 **Reference Files Generated**:
-- `logs/SEARCH_GUIDE.md` - Complete guide with DOIs and search queries
-- `logs/papers_to_search.csv` - CSV for batch processing
-- `logs/papers_to_find_UPDATED.json` - Machine-readable data
+- `logs/20260124-SEARCH_GUIDE.md` - Complete guide with DOIs and search queries
+- `logs/20260124-papers_to_search.csv` - CSV for batch processing
+- `logs/20260124-papers_to_find_UPDATED.json` - Machine-readable data
 
 **Manual Sources** (when automated fails):
 - **Sci-Hub**: For papers with DOI (paste DOI directly)

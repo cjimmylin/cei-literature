@@ -15,7 +15,7 @@ import re
 import sys
 from pathlib import Path
 
-MASTER_LIST = Path("logs/MASTER_PAPER_LIST_2026_02_07.md")
+MASTER_LIST = Path("logs/20260207-MASTER_PAPER_LIST_2026_02_07.md")
 PAPERS_DIR = Path("papers")
 DATE_ADDED = "20260207"
 

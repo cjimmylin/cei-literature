@@ -4,7 +4,7 @@ Discover Unknown Authors — Script 1 of 2
 
 Scans all papers for placeholder authors (Unknown, Authors, etc.),
 resolves via arXiv API, Semantic Scholar API, and PDF extract parsing,
-writes results to logs/unknown_authors_resolved.json for human review.
+writes results to logs/20260208-unknown_authors_resolved.json for human review.
 
 Usage:
     # Full run (sequential)
@@ -46,7 +46,7 @@ from vault_config import PAPERS_DIR, PDF_EXTRACTS_DIR, PDFS_DIR, LOGS_DIR
 # --- Constants ---
 ARXIV_API_BASE = "http://export.arxiv.org/api/query"
 SEMANTIC_SCHOLAR_API = "https://api.semanticscholar.org/graph/v1/paper"
-OUTPUT_JSON = LOGS_DIR / "unknown_authors_resolved.json"
+OUTPUT_JSON = LOGS_DIR / "20260208-unknown_authors_resolved.json"
 
 PLACEHOLDER_PATTERNS = [
     "Unknown",

@@ -24,7 +24,7 @@ def main(dry_run: bool = True):
     logger.info("")
 
     # Load results
-    results_file = LOGS_DIR / "author_expansion_results.json"
+    results_file = LOGS_DIR / "20260124-author_expansion_results.json"
     if not results_file.exists():
         logger.error("No results file found. Run expand_abbreviated_authors.py first.")
         return

@@ -8,7 +8,7 @@ Combines results from two deep-reading rounds:
 
 After deduplication (3 papers in both batches), yields 73 unique papers.
 
-Output: STATISTICS/normative-ethics-benchmarks-v3-report.md
+Output: STATISTICS/20260207-normative-ethics-benchmarks-v3-report.md
 
 Read-only — does NOT modify any YAML frontmatter.
 """
@@ -30,9 +30,9 @@ from yaml_utils import extract_frontmatter, parse_frontmatter
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
-R1_REPORT = STATISTICS_DIR / "normative-ethics-benchmarks-report.md"
-R2_JSON = LOGS_DIR / "normative_v2_decisions.json"
-OUTPUT = STATISTICS_DIR / "normative-ethics-benchmarks-v3-report.md"
+R1_REPORT = STATISTICS_DIR / "20260207-normative-ethics-benchmarks-report.md"
+R2_JSON = LOGS_DIR / "20260207-normative_v2_decisions.json"
+OUTPUT = STATISTICS_DIR / "20260207-normative-ethics-benchmarks-v3-report.md"
 
 # ---------------------------------------------------------------------------
 # Known duplicates: (R1 filename, R2 filename, resolution)

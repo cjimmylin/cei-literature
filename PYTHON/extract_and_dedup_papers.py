@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Extract papers from all 13 agent reports and deduplicate them.
-Produces MASTER_PAPER_LIST_2026_02_07.md in the logs directory.
+Produces 20260207-MASTER_PAPER_LIST_2026_02_07.md in the logs directory.
 
 Created: 2026-02-07, Session 34 (Deduplication)
 Usage: python3 PYTHON/extract_and_dedup_papers.py
@@ -28,20 +28,20 @@ from difflib import SequenceMatcher
 LOGS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "logs")
 
 REPORT_FILES = [
-    ("Agent 2", "AGENT2_ACL_ANTHOLOGY_SEARCH_2026_02_07.md"),
-    ("Agent 3", "Agent3_AIES_FAccT_Proceedings_Mining_Report.md"),
-    ("Agent 4", "Agent4_Workshop_Proceedings_Report.md"),
-    ("Agent 5", "Agent5_PapersWithCode_HuggingFace_Report.md"),
-    ("Agent 6", "Agent6_PhilPapers_Philosophy_Report.md"),
-    ("Agent 7-8", "Agent7_8_AuthorNetwork_GitHub_Report.md"),
-    ("Agent 9-11", "Agent9_11_NonWestern_Ethics_Report.md"),
-    ("Agent 12-13", "Agent12_13_EastAsian_Multilingual_Report.md"),
-    ("Agent 14", "Agent14_Professional_Ethics_Report.md"),
-    ("Agent 15", "Agent15_Prosocial_Empathy_Report.md"),
-    ("Agent 16", "Agent16_Safety_RedTeaming_Report.md"),
-    ("Agent 17", "Agent17_Political_Values_Report.md"),
-    ("Agent 18", "Agent18_GameTheory_Persuasion_Report.md"),
-    ("Agent 19", "Agent19_Moral_Psychology_Report.md"),
+    ("Agent 2", "20260207-AGENT2_ACL_ANTHOLOGY_SEARCH_2026_02_07.md"),
+    ("Agent 3", "20260207-Agent3_AIES_FAccT_Proceedings_Mining_Report.md"),
+    ("Agent 4", "20260207-Agent4_Workshop_Proceedings_Report.md"),
+    ("Agent 5", "20260207-Agent5_PapersWithCode_HuggingFace_Report.md"),
+    ("Agent 6", "20260207-Agent6_PhilPapers_Philosophy_Report.md"),
+    ("Agent 7-8", "20260207-Agent7_8_AuthorNetwork_GitHub_Report.md"),
+    ("Agent 9-11", "20260207-Agent9_11_NonWestern_Ethics_Report.md"),
+    ("Agent 12-13", "20260207-Agent12_13_EastAsian_Multilingual_Report.md"),
+    ("Agent 14", "20260207-Agent14_Professional_Ethics_Report.md"),
+    ("Agent 15", "20260207-Agent15_Prosocial_Empathy_Report.md"),
+    ("Agent 16", "20260207-Agent16_Safety_RedTeaming_Report.md"),
+    ("Agent 17", "20260207-Agent17_Political_Values_Report.md"),
+    ("Agent 18", "20260207-Agent18_GameTheory_Persuasion_Report.md"),
+    ("Agent 19", "20260207-Agent19_Moral_Psychology_Report.md"),
 ]
 
 
@@ -468,7 +468,7 @@ def main():
     print(f"Unique papers after dedup: {len(unique)}")
 
     output = generate_master_list(unique)
-    output_path = os.path.join(LOGS_DIR, "MASTER_PAPER_LIST_2026_02_07.md")
+    output_path = os.path.join(LOGS_DIR, "20260207-MASTER_PAPER_LIST_2026_02_07.md")
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(output)
 

@@ -122,9 +122,9 @@ Papers NOT in the previous 63 candidates that scored Yes/Borderline:
 |------|----------|
 | `logs/normative_v2_batches/batch_01.json` — `batch_10.json` | Input batches (266 papers) |
 | `logs/normative_v2_batches/results_agent_01.json` — `results_agent_10.json` | Per-agent classifications |
-| `logs/normative_v2_all_classifications.json` | All 266 classifications |
-| `logs/normative_v2_decisions.json` | 45 Yes/Borderline decisions |
-| `STATISTICS/normative-ethics-benchmarks-v2-report.md` | This report |
+| `logs/20260207-normative_v2_all_classifications.json` | All 266 classifications |
+| `logs/20260207-normative_v2_decisions.json` | 45 Yes/Borderline decisions |
+| `STATISTICS/20260207-normative-ethics-benchmarks-v2-report.md` | This report |
 
 ## Scripts Created
 

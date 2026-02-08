@@ -2,8 +2,8 @@ import re
 import json
 import pathlib
 
-REVIEW_FILE = pathlib.Path("STATISTICS/abstracts_for_review.md")
-OUTPUT_FILE = pathlib.Path("STATISTICS/matched_papers_text.json")
+REVIEW_FILE = pathlib.Path("STATISTICS/20260124-abstracts_for_review.md")
+OUTPUT_FILE = pathlib.Path("STATISTICS/20260124-matched_papers_text.json")
 
 # Reuse patterns from generate_semantic_report.py
 SEMANTIC_PATTERNS = {

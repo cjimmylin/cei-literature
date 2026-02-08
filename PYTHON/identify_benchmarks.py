@@ -5,7 +5,7 @@ import json
 
 # Paths - use vault_config
 from vault_config import PAPERS_DIR, PDF_EXTRACTS_DIR, STATISTICS_DIR
-OUTPUT_JSON = STATISTICS_DIR / "benchmark_papers_list.json"
+OUTPUT_JSON = STATISTICS_DIR / "20260124-benchmark_papers_list.json"
 
 # Stricter Patterns for "Contribution" of a benchmark
 # We want papers that PROVIDE/CREATE benchmarks, not just use them.

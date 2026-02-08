@@ -338,7 +338,7 @@ python3 PYTHON/comprehensive_pdf_manager.py --discover
 **Solution:** Just press Ctrl+C. Next run will skip already-downloaded PDFs.
 
 ### Problem: Want to retry failed papers
-**Solution:** Check `pdf_download_all_log.json` for failed list, or use Phase 2 which will retry.
+**Solution:** Check `20260124-pdf_download_all_log.json` for failed list, or use Phase 2 which will retry.
 
 ### Problem: A specific paper didn't download
 **Solution:**
@@ -363,8 +363,8 @@ python3 PYTHON/comprehensive_pdf_manager.py --discover
 - ✅ `IMPLEMENTATION_SUMMARY.md` - This file
 
 ### New Data Files
-- ✅ `pdf_download_all_log.json` - Download log (auto-created)
-- ✅ `pdf_sources_log.json` - Source tracking (auto-created by Phase 2)
+- ✅ `20260124-pdf_download_all_log.json` - Download log (auto-created)
+- ✅ `20260124-pdf_sources_log.json` - Source tracking (auto-created by Phase 2)
 
 ### PDFs Directory
 - ✅ `PDFs/` - Now contains 375 papers (was 56)
@@ -438,7 +438,7 @@ ls -1 PDFs/*.pdf | wc -l
 python3 PYTHON/comprehensive_pdf_manager.py --discover
 
 # View failed downloads
-python3 -c "import json; log=json.load(open('pdf_download_all_log.json')); print(list(log.get('phase1_failed',{}).keys())[:10])"
+python3 -c "import json; log=json.load(open('20260124-pdf_download_all_log.json')); print(list(log.get('phase1_failed',{}).keys())[:10])"
 ```
 
 ---

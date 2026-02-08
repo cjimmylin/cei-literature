@@ -7,8 +7,8 @@ completeness, reconciles with the previous round (63 papers), and
 produces consolidated output files.
 
 Output:
-  - logs/normative_v2_all_classifications.json  (all 266 entries)
-  - logs/normative_v2_decisions.json            (only Yes + Borderline)
+  - logs/20260207-normative_v2_all_classifications.json  (all 266 entries)
+  - logs/20260207-normative_v2_decisions.json            (only Yes + Borderline)
 """
 
 import json
@@ -105,7 +105,7 @@ def validate_completeness(all_results, expected_filenames):
 
 def reconcile_with_previous(all_results):
     """Compare with the previous round's classifications."""
-    prev_path = LOGS_DIR / "normative_ethics_all_classifications_20260207.json"
+    prev_path = LOGS_DIR / "20260207-normative_ethics_all_classifications_20260207.json"
     if not prev_path.exists():
         print("\n  Previous classification file not found — skipping reconciliation")
         return
@@ -204,14 +204,14 @@ def main():
             agent_counts.get("Exclude", 0)))
 
     # Write consolidated output
-    all_path = LOGS_DIR / "normative_v2_all_classifications.json"
+    all_path = LOGS_DIR / "20260207-normative_v2_all_classifications.json"
     with open(all_path, "w", encoding="utf-8") as f:
         json.dump(all_results, f, indent=2, ensure_ascii=False)
     print("\nAll classifications: {} ({} entries)".format(all_path, len(all_results)))
 
     # Write decisions only (Yes + Borderline)
     decisions = [r for r in all_results if r["decision"] in ("Yes", "Borderline")]
-    decisions_path = LOGS_DIR / "normative_v2_decisions.json"
+    decisions_path = LOGS_DIR / "20260207-normative_v2_decisions.json"
     with open(decisions_path, "w", encoding="utf-8") as f:
         json.dump(decisions, f, indent=2, ensure_ascii=False)
     print("Decisions (Yes+Borderline): {} ({} entries)".format(decisions_path, len(decisions)))

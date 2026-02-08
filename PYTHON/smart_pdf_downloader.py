@@ -36,7 +36,7 @@ logger = logging.getLogger(__name__)
 
 # Setup paths - use vault_config for external PDF location
 from vault_config import PAPERS_DIR, PDFS_DIR, WORKSPACE_ROOT
-LOG_FILE = WORKSPACE_ROOT / "pdf_download_log.json"
+LOG_FILE = WORKSPACE_ROOT / "20260124-pdf_download_log.json"
 
 from yaml_frontmatter_utils import (
     extract_frontmatter,

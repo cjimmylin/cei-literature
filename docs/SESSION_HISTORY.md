@@ -2,6 +2,91 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 50 (Feb 8, 2026) - Comprehensive LLM Ethics Benchmark Survey
+
+### Overview
+
+Executed a 20-agent parallel deep-read survey of all 924 papers in the vault to identify every benchmark, dataset, or evaluation metric for assessing LLMs on moral reasoning, ethical decision-making, and value alignment. Used body text and PDF extracts (not YAML classification tags, which are unreliable for cross-cutting queries). Generated a comprehensive categorized report with gap analysis.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Papers screened | 924 |
+| Candidates found | 528 (57.1%) |
+| Excluded | 396 (42.9%) |
+| Categories | 10 (multi-category assignment, 1,662 total rows) |
+| Agents used | 20 (4 waves of 5) |
+| Report size | 1,905 lines, 544KB |
+| Pluralistic: Yes/Partial/No | 39% / 38% / 24% |
+| Publicly available | 54% |
+| Validation | 924/924 pass, 0 errors (read-only) |
+
+### Top Categories
+1. HHH/RLHF Alignment: 299 papers
+2. Moral Reasoning: 268 papers
+3. Fairness/Bias: 233 papers
+4. Cultural Ethics: 193 papers
+5. Safety/Red Teaming: 181 papers
+6. Value Alignment: 150 papers
+7. Domain Ethics: 117 papers
+8. Toxicity/Hate Speech: 94 papers
+9. Normative Ethics: 65 papers
+10. Moral Psychology: 62 papers
+
+### Key Learnings
+- [Workflows] 20-agent swarm (4 waves × 5) scaled well from proven 10-agent pattern
+- [Workflows] Zsh glob failure (`no matches found`) crashes ALL sibling tool calls — never combine Bash glob with parallel Task launches
+- [Workflows] Python keyword-based categorization is more consistent than per-agent categorization for 528+ entries
+- [Research] 76% of benchmark papers have some pluralistic relevance; key gap: Ubuntu, Buddhist, Indigenous ethical traditions have zero benchmarks
+
+### Files Created
+- `PYTHON/generate_benchmark_survey_batches.py`: Batch preparation (split 924 papers into 20 batches)
+- `PYTHON/consolidate_benchmark_survey.py`: Result consolidation + validation
+- `PYTHON/generate_benchmark_survey_report.py`: Keyword-based report categorization + markdown generation
+- `STATISTICS/20260208-llm-ethics-benchmark-survey.md`: Final report (1,905 lines)
+- `logs/20260208-benchmark_survey_all_classifications.json`: All 924 classifications
+- `logs/20260208-benchmark_survey_candidates.json`: 528 candidates
+- `logs/benchmark_survey_batches/batch_01-20.json`: 20 batch input files
+- `logs/benchmark_survey_batches/results_agent_01-20.json`: 20 agent output files
+
+---
+
+## Session 49 (Feb 8, 2026) - Enforce YYYYMMDD- Date Prefix Convention
+
+### Overview
+
+Standardized all files in `STATISTICS/` and `logs/` (top-level only) to follow the `YYYYMMDD-` date prefix convention. Created two reusable scripts for renaming and cross-reference updating.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Files renamed (STATISTICS) | 22 |
+| Files renamed (logs) | 79 |
+| **Total files renamed** | **101** |
+| Cross-references updated | 322 (in 85 files) |
+| Double-prefix cascading fixes | 143 (in 47 files) |
+| Scripts created | 2 |
+| Vault validation | 924/924 pass, 0 errors |
+
+### Key Learnings
+- [Workflows] Bare-name replacement pairs cause cascading double-prefix when old name is substring of new name; fixed with `re.subn(r'(\d{8})-\1-', r'\1-', content)`
+- [Workflows] Date extraction from filenames (embedded regex first, `st_birthtime` fallback) preserves semantic creation dates vs filesystem metadata
+- [Python] Vault venv is Python 3.9.6 — `str | None` union syntax requires 3.10+, use `Optional[str]` from `typing`
+
+### Files Changed
+- `PYTHON/batch_date_prefix_rename.py`: New — rename script with `--dry-run`/`--execute`
+- `PYTHON/update_date_prefix_references.py`: New — cross-reference updater
+- `STATISTICS/`: 22 files renamed with date prefix
+- `logs/`: 79 files renamed with date prefix
+- `PYTHON/*.py`: 46 scripts with updated file path references
+- `docs/*.md`: 14 files with updated cross-references
+- `_OPERATING-SYSTEM/`: 3 files with updated references
+- `logs/20260208-date_prefix_rename_mapping.json`: Complete old→new mapping
+
+---
+
 ## Session 48 (Feb 8, 2026) - Integrate New PDF Acquisition Strategies
 
 ### Overview
@@ -233,11 +318,11 @@ Resolved all 97 papers with placeholder authors (Unknown, Authors, results, extr
 ### Files Created/Changed
 - `PYTHON/discover_unknown_authors.py` — New script for author resolution
 - `PYTHON/apply_author_fixes.py` — New script for applying all fixes
-- `logs/unknown_authors_resolved.json` — Resolution data for all 97 papers
+- `logs/20260208-unknown_authors_resolved.json` — Resolution data for all 97 papers
 - `papers/`: 97 papers updated + renamed
 - `PDF Extracts/`: 93 extracts renamed
 - `Authors/`: 410 new profiles created
-- `STATISTICS/paper-statistics-1.md`: 22 wikilink fixes
+- `STATISTICS/20260119-paper-statistics-1.md`: 22 wikilink fixes
 
 ---
 
@@ -280,7 +365,7 @@ All 5 blocked by anti-bot/paywall: Jörs (ResearchGate 403), Muntean (no OA copy
 
 ### Phase 3: Manual Research Report
 
-Generated `logs/manual_pdf_research_report.md` covering 12 remaining papers in 3 categories: anti-bot blocked (4), not found (3), books/paywalled (5).
+Generated `logs/20260208-manual_pdf_research_report.md` covering 12 remaining papers in 3 categories: anti-bot blocked (4), not found (3), books/paywalled (5).
 
 ### Muntean Paper Enrichment
 
@@ -407,7 +492,7 @@ Re-classified all 266 EXSR papers for `normative_ethics_benchmark` using 10-agen
 
 - papers/: 45 modified (normative_ethics_benchmark field added/updated)
 - PYTHON/: 3 new scripts
-- STATISTICS/: 1 new report (normative-ethics-benchmarks-v2-report.md)
+- STATISTICS/: 1 new report (20260207-normative-ethics-benchmarks-v2-report.md)
 - logs/normative_v2_batches/: 10 batch files + 10 result files + 2 consolidated JSONs
 
 ---
@@ -531,9 +616,9 @@ Integrated Agent 1's 62 citation-graph papers (plus 12 appendix) into the master
 
 ### Files Changed
 
-- logs/MASTER_PAPER_LIST_2026_02_07.md — UPDATED (49 papers appended, 13 source fields updated, header stats updated)
-- logs/EXHAUSTIVE_SEARCH_FINAL_REPORT_2026_02_07.md — UPDATED (830→919 lines, all 16 themes updated, Priority 4 added)
-- logs/EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md — UPDATED (Step 2b marked COMPLETE)
+- logs/20260207-MASTER_PAPER_LIST_2026_02_07.md — UPDATED (49 papers appended, 13 source fields updated, header stats updated)
+- logs/20260207-EXHAUSTIVE_SEARCH_FINAL_REPORT_2026_02_07.md — UPDATED (830→919 lines, all 16 themes updated, Priority 4 added)
+- logs/20260207-EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md — UPDATED (Step 2b marked COMPLETE)
 - _OPERATING-SYSTEM/Learnings/learnings-log.md — UPDATED (2 new entries)
 - docs/SESSION_HISTORY.md — UPDATED
 
@@ -571,9 +656,9 @@ Completed Steps 3 and 4 of the exhaustive literature search on the 251-paper mas
 
 ### Files Changed
 
-- logs/CROSS_VERIFICATION_REPORT_2026_02_07.md — NEW (20 papers verified, 119 lines)
-- logs/EXHAUSTIVE_SEARCH_FINAL_REPORT_2026_02_07.md — NEW (16 themes, 830 lines)
-- logs/EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md — UPDATED (Steps 3-4 complete, Step 2b handoff added)
+- logs/20260207-CROSS_VERIFICATION_REPORT_2026_02_07.md — NEW (20 papers verified, 119 lines)
+- logs/20260207-EXHAUSTIVE_SEARCH_FINAL_REPORT_2026_02_07.md — NEW (16 themes, 830 lines)
+- logs/20260207-EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md — UPDATED (Steps 3-4 complete, Step 2b handoff added)
 - docs/SESSION_HISTORY.md — UPDATED
 - MEMORY.md — UPDATED
 
@@ -614,13 +699,13 @@ Re-ran Agent 1 (citation graph traversal), which had failed to write its report 
 
 ### Files Changed
 
-- logs/Agent1_Citation_Graph_Report.md — NEW (62 papers, 941 lines)
+- logs/20260207-Agent1_Citation_Graph_Report.md — NEW (62 papers, 941 lines)
 - docs/SESSION_HISTORY.md — UPDATED
 - _OPERATING-SYSTEM/Learnings/learnings-log.md — UPDATED
 
 ### Pending Work
 
-See `logs/EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md` for detailed continuation guide:
+See `logs/20260207-EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md` for detailed continuation guide:
 1. ~~Deduplicate ~265 papers across 13 reports → master list~~ DONE (Session 34)
 2. ~~Re-run Agent 1 (citation graph)~~ DONE (this session, 62 papers)
 3. Integrate Agent 1 results into master list (dedup against 251 existing)
@@ -658,15 +743,15 @@ Continued the exhaustive literature search by performing Step 2 — deduplicatio
 
 ### Files Changed
 
-- logs/MASTER_PAPER_LIST_2026_02_07.md — NEW (251 papers, 3326 lines)
-- logs/EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md — UPDATED (comprehensive rewrite with dedup results)
+- logs/20260207-MASTER_PAPER_LIST_2026_02_07.md — NEW (251 papers, 3326 lines)
+- logs/20260207-EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md — UPDATED (comprehensive rewrite with dedup results)
 - PYTHON/extract_and_dedup_papers.py — NEW (re-runnable dedup script)
 - docs/SESSION_HISTORY.md — UPDATED
 - _OPERATING-SYSTEM/Learnings/learnings-log.md — UPDATED
 
 ### Pending Work
 
-See `logs/EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md` for detailed continuation guide:
+See `logs/20260207-EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md` for detailed continuation guide:
 1. ~~Deduplicate ~265 papers across 13 reports → master list~~ DONE
 2. Cross-verify ~20 random papers via web search
 3. Compile final report with thematic groupings and import recommendations
@@ -710,13 +795,13 @@ Launched a massive multi-wave, multi-agent exhaustive literature search to find 
 
 ### Files Changed
 
-- logs/: 14 new (13 agent reports + EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md)
+- logs/: 14 new (13 agent reports + 20260207-EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md)
 - _OPERATING-SYSTEM/Learnings/: 1 updated (learnings-log.md)
 - docs/: 1 updated (SESSION_HISTORY.md)
 
 ### Pending Work
 
-See `logs/EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md` for detailed continuation guide:
+See `logs/20260207-EXHAUSTIVE_SEARCH_2026_02_07_STATUS.md` for detailed continuation guide:
 1. Re-run Agent 1 (citation graph) — optional
 2. Deduplicate ~265 papers across 13 reports → master list
 3. Cross-verify ~20 random papers via web search
@@ -739,7 +824,7 @@ Identified and tagged papers combining normative ethics frameworks (virtue, deon
 | Papers Tagged (Yes) | 20 |
 | Papers Tagged (Borderline) | 11 |
 | Total Tagged | 31 |
-| Report Generated | 1 (STATISTICS/normative-ethics-benchmarks-report.md) |
+| Report Generated | 1 (STATISTICS/20260207-normative-ethics-benchmarks-report.md) |
 | New YAML Field | `normative_ethics_benchmark` (Yes / Borderline) |
 | Validation | 657/657 papers pass |
 
@@ -752,7 +837,7 @@ Identified and tagged papers combining normative ethics frameworks (virtue, deon
 ### Files Changed
 
 - papers/: 31 modified (normative_ethics_benchmark field added)
-- STATISTICS/: 1 new (normative-ethics-benchmarks-report.md)
+- STATISTICS/: 1 new (20260207-normative-ethics-benchmarks-report.md)
 - docs/: 2 updated (SESSION_HISTORY.md, learnings-log via remember-thread)
 
 ---
@@ -1169,7 +1254,7 @@ Conducted comprehensive audit of all AI Labs PDFs to ensure extraction coverage.
 
 ### Documentation Created
 
-1. `logs/session_2026-01-31_ai_labs_pdf_extraction.md` - Detailed session log
+1. `logs/20260131-session_2026-01-31_ai_labs_pdf_extraction.md` - Detailed session log
 2. `AI Labs/EXTRACTION_STATUS.md` - Status reference document
 
 ### Verification
@@ -2420,7 +2505,7 @@ Expanded vault coverage of **virtue ethics for AI values alignment, moral reason
 
 ### Related Documentation
 
-- [STATISTICS/paper-statistics-5.md](../STATISTICS/paper-statistics-5.md) - Original virtue ethics baseline
+- [STATISTICS/20260124-paper-statistics-5.md](../STATISTICS/20260124-paper-statistics-5.md) - Original virtue ethics baseline
 - [docs/WORKFLOWS.md](WORKFLOWS.md) - Literature search workflow
 
 ---
@@ -2792,10 +2877,10 @@ grep -r '"Topic 1"' Authors/*.md | wc -l
 ### Files Created/Updated
 
 **Reports**:
-- `logs/AUTHOR_ENRICHMENT_REPORT.md` - Full enrichment report
-- `logs/METADATA_CORRECTIONS_2026_01_25.md` - Corrections made
-- `logs/authors_to_enrich.json` - Original target list
-- `logs/enrichment_batches.json` - Batch assignments
+- `logs/20260125-AUTHOR_ENRICHMENT_REPORT.md` - Full enrichment report
+- `logs/20260125-METADATA_CORRECTIONS_2026_01_25.md` - Corrections made
+- `logs/20260124-authors_to_enrich.json` - Original target list
+- `logs/20260124-enrichment_batches.json` - Batch assignments
 
 **Documentation**:
 - `docs/SESSION_2026_01_25_AUTHOR_ENRICHMENT.md` - Complete session report
@@ -2826,7 +2911,7 @@ grep -r '"Topic 1"' Authors/*.md | wc -l
 
 - [docs/SESSION_2026_01_25_AUTHOR_ENRICHMENT.md](SESSION_2026_01_25_AUTHOR_ENRICHMENT.md) - Detailed session report
 - [docs/WORKFLOWS.md](WORKFLOWS.md) - Updated with parallel enrichment workflow
-- [logs/AUTHOR_ENRICHMENT_REPORT.md](../logs/AUTHOR_ENRICHMENT_REPORT.md) - Comprehensive results
+- [logs/20260125-AUTHOR_ENRICHMENT_REPORT.md](../logs/20260125-AUTHOR_ENRICHMENT_REPORT.md) - Comprehensive results
 
 ---
 
@@ -2926,11 +3011,11 @@ Successfully discovered **7 new DOIs** using creative methods:
    - Manual search guide templates
 
 2. **Reference Files for Manual Completion**:
-   - `logs/SEARCH_GUIDE.md` - Complete search guide with DOIs/titles for 102 missing papers
-   - `logs/papers_to_search.csv` - CSV for batch processing
-   - `logs/papers_to_find_UPDATED.json` - Machine-readable data
-   - `logs/newly_found_dois.json` - 7 newly discovered DOIs
-   - `logs/missing_pdfs_report_20260124.txt` - Categorized missing papers
+   - `logs/20260124-SEARCH_GUIDE.md` - Complete search guide with DOIs/titles for 102 missing papers
+   - `logs/20260124-papers_to_search.csv` - CSV for batch processing
+   - `logs/20260124-papers_to_find_UPDATED.json` - Machine-readable data
+   - `logs/20260124-newly_found_dois.json` - 7 newly discovered DOIs
+   - `logs/20260124-missing_pdfs_report_20260124.txt` - Categorized missing papers
 
 ### Key Learnings
 
@@ -3067,7 +3152,7 @@ All replaced with specific exception types (e.g., `except (yaml.YAMLError, IOErr
 Added exclusions to QC checker for false positives:
 - `generate_report_v2.py` - Only writes to STATISTICS/, not papers
 - `fix_yaml_tags.py` - Fixes malformed YAML that can't use standard utilities
-- `identify_benchmarks.py` - Only writes to STATISTICS/benchmark_papers_list.json
+- `identify_benchmarks.py` - Only writes to STATISTICS/20260124-benchmark_papers_list.json
 
 #### 3. Unused Imports (111 Low issues → 0)
 Removed unused imports from 50+ files using parallel subagents:

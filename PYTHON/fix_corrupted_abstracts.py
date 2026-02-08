@@ -286,7 +286,7 @@ def main():
             logger.error(f"  - {name}: {err}")
 
     # Write report
-    report_path = WORKSPACE_ROOT / 'corrupted_abstracts_report.txt'
+    report_path = WORKSPACE_ROOT / '20260124-corrupted_abstracts_report.txt'
     with open(report_path, 'w') as f:
         f.write("Corrupted Abstracts Fix Report\n")
         f.write("=" * 60 + "\n\n")

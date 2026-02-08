@@ -60,9 +60,9 @@ Quick reference to all vault documentation.
   - Recovered 474 PDFs via multi-source downloads
 
 ### Completion Reports
-- [AUTHOR_ENRICHMENT_REPORT.md](../logs/AUTHOR_ENRICHMENT_REPORT.md) - 408 authors enriched
-- [METADATA_CORRECTIONS_2026_01_25.md](../logs/METADATA_CORRECTIONS_2026_01_25.md) - Papers fixed
-- [SESSION_2026_01_25_SUMMARY.md](../logs/SESSION_2026_01_25_SUMMARY.md) - Session summary
+- [20260125-AUTHOR_ENRICHMENT_REPORT.md](../logs/20260125-AUTHOR_ENRICHMENT_REPORT.md) - 408 authors enriched
+- [20260125-METADATA_CORRECTIONS_2026_01_25.md](../logs/20260125-METADATA_CORRECTIONS_2026_01_25.md) - Papers fixed
+- [20260125-SESSION_2026_01_25_SUMMARY.md](../logs/20260125-SESSION_2026_01_25_SUMMARY.md) - Session summary
 
 ## Specialized Guides
 

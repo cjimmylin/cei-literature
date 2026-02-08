@@ -230,7 +230,7 @@ def main():
     print()
 
     # Load list of problematic papers
-    issues_file = WORKSPACE_ROOT / "REMAINING_AUTHOR_ISSUES.json"
+    issues_file = WORKSPACE_ROOT / "20260124-REMAINING_AUTHOR_ISSUES.json"
 
     if not issues_file.exists():
         print("No issues file found. Run analysis first.")

@@ -241,7 +241,7 @@ python3 PYTHON/smart_pdf_downloader.py --download --limit 50
 ```
 
 ### Log File
-- **Location:** `pdf_download_log.json`
+- **Location:** `20260124-pdf_download_log.json`
 - **Contains:**
   - Successfully discovered links
   - Fixed Zotero URLs

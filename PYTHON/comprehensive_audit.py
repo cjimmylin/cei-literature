@@ -566,7 +566,7 @@ def main():
 
     # Generate report
     print("\nGenerating report...")
-    report_path = WORKSPACE_ROOT / "STATISTICS" / "comprehensive-audit-report.md"
+    report_path = WORKSPACE_ROOT / "STATISTICS" / "20260124-comprehensive-audit-report.md"
     report = generate_report(all_issues, duplicates, report_path)
 
     # Print summary

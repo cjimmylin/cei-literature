@@ -28,10 +28,10 @@ All enrichment work has been verified as complete:
 ### Statistics Reports Regenerated ✅
 | Report | Papers | Status |
 |--------|--------|--------|
-| paper-statistics-1.md | 580 | ✅ Updated |
-| paper-statistics-2.md | 580 | ✅ Updated |
-| data-nature-statistics.md | 580 | ✅ Updated |
-| paper-statistics-3.md | 580 | ✅ Updated |
+| 20260119-paper-statistics-1.md | 580 | ✅ Updated |
+| 20260119-paper-statistics-2.md | 580 | ✅ Updated |
+| 20260119-data-nature-statistics.md | 580 | ✅ Updated |
+| 20260119-paper-statistics-3.md | 580 | ✅ Updated |
 
 ### YAML Validation ✅
 - **580/580 papers** validated (100%)

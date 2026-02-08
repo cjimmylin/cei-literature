@@ -532,7 +532,7 @@ def main(dry_run: bool = False, limit: int = None):
             logger.info(f"  - {paper}: {error}")
 
     # Save report
-    report_path = VAULT_PATH / "AUTHOR_FIX_REPORT.json"
+    report_path = VAULT_PATH / "20260124-AUTHOR_FIX_REPORT.json"
     with open(report_path, 'w', encoding='utf-8') as f:
         json.dump(RESULTS, f, indent=2)
 

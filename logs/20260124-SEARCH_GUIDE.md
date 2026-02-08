@@ -665,7 +665,7 @@ Search these sources:
 
 ## Batch Processing Tips
 
-- Use the CSV file (`logs/papers_to_search.csv`) for automation
+- Use the CSV file (`logs/20260124-papers_to_search.csv`) for automation
 - Papers are sorted by year
 - Check DOI papers first (higher success rate)
 - Some papers may not be available anywhere

@@ -315,7 +315,7 @@ def main(dry_run: bool = False, limit: int = None):
             print(f"  - {item['paper']}: {item['error']}")
 
     # Save results
-    results_path = WORKSPACE_ROOT / "AUTHOR_FIX_RESULTS.json"
+    results_path = WORKSPACE_ROOT / "20260124-AUTHOR_FIX_RESULTS.json"
     with open(results_path, 'w') as f:
         json.dump(results, f, indent=2)
 

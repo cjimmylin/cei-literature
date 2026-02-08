@@ -137,7 +137,7 @@ FILES CREATED
    - Size: ~8 KB
    - Contains: How-to fixes, validation checklists, research sources
 
-3. ASSESSMENT_SUMMARY.txt (this file)
+3. 20260124-ASSESSMENT_SUMMARY.txt (this file)
    - Executive summary
    - Quick reference for key findings
 

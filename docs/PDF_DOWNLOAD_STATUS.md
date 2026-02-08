@@ -81,7 +81,7 @@
   ```
 
 ### 2. **Logging System**
-- **File:** `pdf_download_all_log.json`
+- **File:** `20260124-pdf_download_all_log.json`
 - **Contents:**
   - `phase1_success`: Successfully downloaded papers with URLs
   - `phase1_failed`: Papers with failed downloads (broken links, errors)
@@ -131,7 +131,7 @@ Breakdown:
 python3 PYTHON/download_all_pdfs.py --status
 
 # Check log when complete
-cat pdf_download_all_log.json | grep -c "phase1_success"
+cat 20260124-pdf_download_all_log.json | grep -c "phase1_success"
 ```
 
 ### Short-term (Phase 2 - Run Next)
@@ -215,17 +215,17 @@ For the final 50-100 papers:
 ## Log Files
 
 ### Main Logs
-- `pdf_download_all_log.json` - Phase 1 and 2 results
-- `pdf_sources_log.json` - Semantic Scholar findings (if Phase 2 run)
+- `20260124-pdf_download_all_log.json` - Phase 1 and 2 results
+- `20260124-pdf_sources_log.json` - Semantic Scholar findings (if Phase 2 run)
 
 ### How to Analyze Logs
 
 ```bash
 # Count successful downloads
-cat pdf_download_all_log.json | grep -o '"phase1_success"' | wc -l
+cat 20260124-pdf_download_all_log.json | grep -o '"phase1_success"' | wc -l
 
 # Find failed downloads
-python3 -c "import json; log = json.load(open('pdf_download_all_log.json')); print([k for k in log.get('phase1_failed', {})])"
+python3 -c "import json; log = json.load(open('20260124-pdf_download_all_log.json')); print([k for k in log.get('phase1_failed', {})])"
 
 # Check file sizes
 ls -lh PDFs/ | awk '{print $5}' | tail -n +2 | awk '{sum+=$1} END {print "Total: " sum}'
@@ -236,7 +236,7 @@ ls -lh PDFs/ | awk '{print $5}' | tail -n +2 | awk '{sum+=$1} END {print "Total:
 ## Troubleshooting
 
 ### If downloader stops/crashes
-1. Check log for errors: `tail -f pdf_download_all_log.json`
+1. Check log for errors: `tail -f 20260124-pdf_download_all_log.json`
 2. Restart with: `python3 PYTHON/download_all_pdfs.py --phase 1`
 3. It will skip already-downloaded PDFs and resume
 
@@ -288,14 +288,14 @@ ls -lh PDFs/ | awk '{print $5}' | tail -n +2 | awk '{sum+=$1} END {print "Total:
 python3 PYTHON/download_all_pdfs.py --status
 
 # Watch real-time log
-tail -f pdf_download_all_log.json
+tail -f 20260124-pdf_download_all_log.json
 
 # Count PDFs
 ls -1 PDFs/*.pdf | wc -l
 
 # Find failed papers
-grep -l "phase1_failed" pdf_download_all_log.json && \
-  python3 -c "import json; print(json.load(open('pdf_download_all_log.json')).get('phase1_failed', {}))"
+grep -l "phase1_failed" 20260124-pdf_download_all_log.json && \
+  python3 -c "import json; print(json.load(open('20260124-pdf_download_all_log.json')).get('phase1_failed', {}))"
 ```
 
 ---

@@ -24,10 +24,10 @@ The following scripts enrich metadata. Execute them in this order:
 
 ## Reporting
 
-- `generate_stats.py` -> `paper-statistics-1.md`
-- `generate_report_v2.py` -> `paper-statistics-2.md`
-- `generate_data_report.py` -> `data-nature-statistics.md`
-- `generate_paper_statistics_3.py` -> `paper-statistics-3.md`
+- `generate_stats.py` -> `20260119-paper-statistics-1.md`
+- `generate_report_v2.py` -> `20260119-paper-statistics-2.md`
+- `generate_data_report.py` -> `20260119-data-nature-statistics.md`
+- `generate_paper_statistics_3.py` -> `20260119-paper-statistics-3.md`
 
 ## Authors CRM
 

@@ -3,7 +3,7 @@
 **Date:** 2026-02-07
 **Scope:** 266 newly imported papers (DATE_ADDED: 20260207)
 **YAML Field:** `normative_ethics_benchmark` (values: `Yes`, `Borderline`)
-**Reference:** See `normative-ethics-benchmarks-report.md` for original 657-paper classification
+**Reference:** See `20260207-normative-ethics-benchmarks-report.md` for original 657-paper classification
 
 ---
 
@@ -184,7 +184,7 @@ The following paper types were reviewed in the 63-paper candidate list and did N
 |------|---------|
 | `PYTHON/screen_normative_ethics_candidates.py` | Keyword screening script |
 | `PYTHON/add_normative_ethics_field.py` | Safe YAML field addition script |
-| `logs/normative_ethics_candidates_20260207.json` | Screening output (237 raw, 63 filtered) |
-| `logs/normative_ethics_decisions_20260207.json` | Final decisions (14 papers: 5 Yes + 9 Borderline) |
-| `logs/normative_ethics_all_classifications_20260207.json` | Full 63-paper classification with reasoning |
-| `STATISTICS/normative-ethics-benchmarks-report-new-papers.md` | This report |
+| `logs/20260207-normative_ethics_candidates_20260207.json` | Screening output (237 raw, 63 filtered) |
+| `logs/20260207-normative_ethics_decisions_20260207.json` | Final decisions (14 papers: 5 Yes + 9 Borderline) |
+| `logs/20260207-normative_ethics_all_classifications_20260207.json` | Full 63-paper classification with reasoning |
+| `STATISTICS/20260207-normative-ethics-benchmarks-report-new-papers.md` | This report |

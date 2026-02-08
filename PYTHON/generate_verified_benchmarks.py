@@ -1,7 +1,7 @@
 import json
 import pathlib
 
-OUTPUT_JSON = pathlib.Path("STATISTICS/verified_benchmarks.json")
+OUTPUT_JSON = pathlib.Path("STATISTICS/20260124-verified_benchmarks.json")
 
 # Manual verification results from semantic analysis of candidate papers
 # Selected papers that explicitly introduce a Benchmark, Dataset, Evaluation Framework, or Metric.

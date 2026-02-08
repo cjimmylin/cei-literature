@@ -488,7 +488,7 @@ The enhanced downloader tries sources in this order:
 
 When automated methods fail (typically 15-20% of papers):
 
-**Step 1**: Check logs/SEARCH_GUIDE.md for paper details
+**Step 1**: Check logs/20260124-SEARCH_GUIDE.md for paper details
 
 **Step 2**: Search on alternative sources
 - **Sci-Hub**: For papers with DOI (paste DOI directly)

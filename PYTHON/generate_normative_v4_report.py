@@ -45,7 +45,7 @@ from generate_normative_v3_report import (
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
-OUTPUT = STATISTICS_DIR / "normative-ethics-benchmarks-v4-report.md"
+OUTPUT = STATISTICS_DIR / "20260208-normative-ethics-benchmarks-v4-report.md"
 
 # Target framework directory names for PDF organization stats
 TARGET_FRAMEWORKS = {

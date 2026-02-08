@@ -61,7 +61,7 @@ Move all AI Labs PDFs from workspace to external root-level directory, separatin
 
 ### Migration Log
 
-**Location**: `logs/pdf_migration_20260202_165500.json`
+**Location**: `logs/20260202-pdf_migration_20260202_165500.json`
 **Size**: 112KB
 **Contains**: Complete source→destination mappings for all 392 files
 
@@ -291,7 +291,7 @@ git push
 
 ### Migration
 - `PYTHON/migrate_ai_labs_pdfs.py`
-- `logs/pdf_migration_20260202_165500.json`
+- `logs/20260202-pdf_migration_20260202_165500.json`
 - `docs/AI_LABS_PDF_MIGRATION.md`
 
 ### Git Setup

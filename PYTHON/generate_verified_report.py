@@ -2,8 +2,8 @@ import os
 from pathlib import Path
 
 # Input/Output
-SNIPPETS_FILE = Path("STATISTICS/ethics_snippets_review.md")
-FINAL_REPORT_FILE = Path("STATISTICS/paper-statistics-4.md")
+SNIPPETS_FILE = Path("STATISTICS/20260124-ethics_snippets_review.md")
+FINAL_REPORT_FILE = Path("STATISTICS/20260124-paper-statistics-4.md")
 
 def generate_final_report():
     # Read the snippets file (simulating the agent reading it)

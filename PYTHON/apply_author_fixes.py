@@ -2,7 +2,7 @@
 """
 Apply Author Fixes — Script 2 of 2
 
-Reads the reviewed logs/unknown_authors_resolved.json and applies all updates:
+Reads the reviewed logs/20260208-unknown_authors_resolved.json and applies all updates:
   A. Update YAML frontmatter (safe regex in-place)
   B. Update paper body (Authors section, metadata block)
   C. Rename paper file
@@ -47,7 +47,7 @@ from vault_config import (
     LOGS_DIR, RECYCLE_BIN_DIR, WORKSPACE_ROOT as WS_ROOT,
 )
 
-INPUT_JSON = LOGS_DIR / "unknown_authors_resolved.json"
+INPUT_JSON = LOGS_DIR / "20260208-unknown_authors_resolved.json"
 AUTHOR_TEMPLATE = AUTHORS_DIR / "TEMPLATE.md"
 
 

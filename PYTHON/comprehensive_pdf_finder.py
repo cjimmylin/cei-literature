@@ -47,7 +47,7 @@ print = functools.partial(print, flush=True)
 PAPERS_DIR = Path("papers")
 VAULT_CONFIG = Path(".vault-config.json")
 LOG_DIR = Path("logs")
-LOG_FILE = LOG_DIR / "comprehensive_pdf_finder_log.json"
+LOG_FILE = LOG_DIR / "20260207-comprehensive_pdf_finder_log.json"
 CURL_TIMEOUT = 60
 MAX_RETRIES = 2
 UNPAYWALL_EMAIL = "research@cei-literature.org"

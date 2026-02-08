@@ -235,7 +235,7 @@ These remaining papers could be improved through:
 |------|---------|----------|
 | `complete_author_data_fix.py` | Main author data expansion | `PYTHON/` |
 | `update_author_wikilinks.py` | Wikilink addition | `PYTHON/` |
-| `AUTHOR_FIX_REPORT.json` | Detailed results | Root vault |
+| `20260124-AUTHOR_FIX_REPORT.json` | Detailed results | Root vault |
 | `AUTHOR_COMPLETION_SUMMARY.md` | This document | Root vault |
 
 ---

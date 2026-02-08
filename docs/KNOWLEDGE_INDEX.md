@@ -164,7 +164,7 @@ from PYTHON.yaml_frontmatter_utils import (
 
 **Using classification data**:
 - Papers organized by ethics/topic/cultural values
-- See `STATISTICS/paper-statistics-1.md` for overview
+- See `STATISTICS/20260119-paper-statistics-1.md` for overview
 - Use Obsidian graph view to see relationships
 
 **Regenerating reports**:

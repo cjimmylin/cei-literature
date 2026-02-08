@@ -5,7 +5,7 @@
 
 ## Summary
 
-Expanded the vault's coverage of virtue ethics for AI, adding 28+ papers across two search phases. This session built on paper-statistics-5.md which showed 8 existing virtue ethics papers.
+Expanded the vault's coverage of virtue ethics for AI, adding 28+ papers across two search phases. This session built on 20260124-paper-statistics-5.md which showed 8 existing virtue ethics papers.
 
 ## Papers Added
 

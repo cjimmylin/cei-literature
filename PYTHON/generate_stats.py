@@ -153,10 +153,10 @@ def main():
     stats_dir = Path('./STATISTICS')
     stats_dir.mkdir(exist_ok=True)
 
-    with open(stats_dir / 'paper-statistics-1.md', 'w', encoding='utf-8') as f:
+    with open(stats_dir / '20260119-paper-statistics-1.md', 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines))
 
-    print("Report generated: STATISTICS/paper-statistics-1.md")
+    print("Report generated: STATISTICS/20260119-paper-statistics-1.md")
 
 if __name__ == "__main__":
     main()

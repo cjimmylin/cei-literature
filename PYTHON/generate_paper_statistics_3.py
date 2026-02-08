@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate paper-statistics-3.md report for data nature classification.
+Generate 20260119-paper-statistics-3.md report for data nature classification.
 Provides detailed breakdown of papers by benchmark/eval/dataset categories.
 
 This script generates the most comprehensive data nature report (3,391 lines) with:
@@ -24,7 +24,7 @@ All paper links use Obsidian-friendly wikilinks: [[Filename|Title]]
 USAGE:
 python3 generate_paper_statistics_3.py
 
-This will create/overwrite paper-statistics-3.md in the current directory.
+This will create/overwrite 20260119-paper-statistics-3.md in the current directory.
 """
 
 import re
@@ -63,7 +63,7 @@ def extract_title_from_content(content: str) -> str:
 
 
 def main():
-    """Generate the paper-statistics-3.md report."""
+    """Generate the 20260119-paper-statistics-3.md report."""
     papers_dir = PAPERS_DIR
 
     if not papers_dir.exists():
@@ -166,7 +166,7 @@ def main():
             print(f"Error processing {filepath.name}: {e}")
     
     # Generate markdown report
-    report_path = STATISTICS_DIR / 'paper-statistics-3.md'
+    report_path = STATISTICS_DIR / '20260119-paper-statistics-3.md'
 
     # Ensure STATISTICS directory exists
     STATISTICS_DIR.mkdir(exist_ok=True)

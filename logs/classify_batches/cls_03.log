@@ -1,0 +1,39 @@
+Total papers needing processing: 264
+Processing positions 55-81 (27 papers)
+
+  [ 55] OK (ABS, E=Yes): 2024-Sorensen-Value Kaleidoscope ValuePrism
+  [ 56] OK (---, E=Yes): 2024-Team-FABLE Fairness and Bias in LLM Evaluation
+  [ 57] OK (---, E=No): 2024-Team-GuardBench
+  [ 58] OK (ABS, E=Yes): 2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark
+  [ 59] OK (ABS, E=Yes): 2024-Tom-SG-Bench - Evaluating LLM Safety Generalization
+  [ 60] OK (ABS, E=Yes): 2024-Unknown-BELLS A Framework Towards Future Proof Benchmarks for the Evalua...
+  [ 61] OK (ABS, E=Yes): 2024-Unknown-Cooperation Competition and Maliciousness LLM-Stakeholders
+  [ 62] OK (ABS, E=No): 2024-Unknown-EmoBench Evaluating the Emotional Intelligence of Large Language
+  [ 63] OK (ABS, E=Yes): 2024-Unknown-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional
+  [ 64] OK (ABS, E=No): 2024-Unknown-EmotionQueen A Benchmark for Evaluating Empathy of Large Language
+  [ 65] OK (ABS, E=No): 2024-Unknown-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal
+  [ 66] OK (ABS, E=No): 2024-Unknown-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via
+  [ 67] OK (---, E=Yes): 2024-Unknown-Gaps in the Safety Evaluation of Generative AI
+  [ 68] OK (ABS, E=Yes): 2024-Unknown-LLM Voting Human Choices and AI Collective Decision-Making
+  [ 69] OK (ABS, E=No): 2024-Unknown-MAgIC Investigation of Large Language Model Powered Multi-Agent in
+  [ 70] OK (ABS, E=No): 2024-Unknown-Measuring Bargaining Abilities of LLMs A Benchmark and A
+  [ 71] OK (ABS, E=No): 2024-Unknown-NegotiationArena How Well Can LLMs Negotiate
+  [ 72] OK (ABS, E=Yes): 2024-Unknown-Norm Inconsistency in LLM Decision-Making
+  [ 73] OK (ABS, E=Yes): 2024-Unknown-On The Stability of Moral Preferences A Problem with Computational
+  [ 74] OK (ABS, E=Yes): 2024-Unknown-On the Pros and Cons of Active Learning for Moral Preference
+  [ 75] OK (ABS, E=No): 2024-Unknown-Synth-Empathy Towards High-Quality Synthetic Empathy Data
+  [ 76] OK (ABS, E=No): 2024-Unknown-The Emergence of Strategic Reasoning of Large Language Models
+  [ 77] OK (---, E=No): 2024-Unknown-Towards Geographic Inclusion in the Evaluation of Text-to-Image ...
+  [ 78] OK (---, E=Yes): 2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including
+  [ 79] OK (ABS, E=Yes): 2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases
+  [ 80] OK (---, E=Yes): 2024-Wang-Fake Alignment FINE Framework
+  [ 81] OK (ABS, E=Yes): 2024-Yanaka-JBBQ Japanese Bias Benchmark for Question Answering
+
+==================================================
+BATCH 55-81 SUMMARY
+  Processed:       27
+  Errors:          0
+  Skipped:         0
+  Abstracts found: 21/27
+  Ethics=Yes:      16/27
+==================================================

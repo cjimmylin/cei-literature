@@ -1,0 +1,25 @@
+Total papers needing extraction: 211
+Processing positions 169-183 (15 papers)
+
+  [169] OK (19pp, 68KB): 2025-Unknown-Randomness Not Representation The Unreliability of Evalua
+  [170] OK (31pp, 110KB): 2025-Unknown-RoleConflictBench A Benchmark of Role Conflict Scenarios 
+  [171] OK (28pp, 133KB): 2025-Unknown-SENSE-7 Taxonomy and Dataset for Measuring User Perceptio
+  [172] OK (17pp, 57KB): 2025-Unknown-SI-Bench Benchmarking Social Intelligence of Large Langua
+  [173] OK (32pp, 100KB): 2025-Unknown-SPARC Evaluating LLMs in Open-Source Games Strategic Prog
+  [174] OK (10pp, 36KB): 2025-Unknown-SYNTHEMPATHY A Scalable Empathy Corpus Generated Using LL
+  [175] OK (55pp, 213KB): 2025-Unknown-SocialEval Evaluating Social Intelligence of Large Langua
+  [176] OK (11pp, 64KB): 2025-Unknown-Understanding Gen Alpha's Digital Language Evaluation of 
+  [177] OK (12pp, 39KB): 2025-Unknown-ValueCompass A Framework for Measuring Contextual Value A
+  [178] OK (33pp, 96KB): 2025-Unknown-When Ethics and Payoffs Diverge LLM Agents in Morally Cha
+  [179] OK (10pp, 50KB): 2025-Unknown-Will Systems of LLM Agents Cooperate An Investigation int
+  [180] OK (24pp, 80KB): 2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Lan
+  [181] OK (20pp, 79KB): 2025-Wei-MedEthicsQA A Comprehensive Question Answering Benchmark for 
+  [182] OK (29pp, 81KB): 2025-Wu-C-VARC Chinese Value Rule Corpus
+  [183] OK (25pp, 69KB): 2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas
+
+==================================================
+BATCH 169-183 SUMMARY
+  Extracted: 15
+  Skipped:   0
+  Failed:    0
+==================================================

@@ -1,0 +1,41 @@
+Total papers needing processing: 264
+Processing positions 1-27 (27 papers)
+
+  [  1] OK (ABS, E=Yes): 2021-Nangia-CrowS-Pairs
+  [  2] OK (ABS, E=Yes): 2022-Bai-HH-RLHF Helpful and Harmless RLHF
+  [  3] OK (ABS, E=Yes): 2022-Kim-ProsocialDialog A Prosocial Backbone for Conversational Agents
+  [  4] OK (---, E=Yes): 2022-Liu-CoreValue Chinese Values Knowledge Base Liu et al.
+  [  5] OK (ABS, E=Yes): 2022-Parrish-BBQ Bias Benchmark for Question Answering
+  [  6] OK (---, E=No): 2022-Schramowski-I2P Inappropriate Image Prompts Test Bed
+  WARN: 2022-Ziems-Moral Integrity Corpus MIC.md: ['Line 31: Mismatched quotes: abstract: "\\" Content Warning: some examples in this paper may be offensive or upsetting. Conversational agents have come increasingly closer to human competence in open-domain dialogue settings; however, such models can reﬂect insensitive, hurtful, or entirely incoherent viewpoints that erode a user’s trust in the moral integrity of the system. Moral deviations are difﬁcult to mitigate because moral judgments are not universal, and there may be multiple competing judgments that apply to a situation..."']
+  [  7] FAIL: 2022-Ziems-Moral Integrity Corpus MIC: Frontmatter validation failed:
+Line 31: Mismatched quotes: abstract: "\" Content Warning: some examples in this paper may be offensive or upsetting. Conversational agents have come increasingly closer to human competence in open-domain dialogue settings; however, such models can reﬂect insensitive, hurtful, or entirely incoherent viewpoints that erode a user’s trust in the moral integrity of the system. Moral deviations are difﬁcult to mitigate because moral judgments are not universal, and there may be multiple competing judgments that apply to a situation..."
+  [  8] OK (---, E=Yes): 2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop
+  [  9] OK (ABS, E=Yes): 2023-Ji-BeaverTails
+  [ 10] OK (ABS, E=No): 2023-Ojo-AfroBench - How Good are LLMs on African Languages
+  [ 11] OK (ABS, E=Yes): 2023-Santurkar-OpinionQA
+  [ 12] OK (ABS, E=Yes): 2023-Tanmay-Probing Moral Development through Defining Issues Test DIT
+  [ 13] OK (ABS, E=No): 2023-Unknown-EtiCor Corpus for Analyzing LLMs for Etiquettes
+  [ 14] OK (ABS, E=Yes): 2023-Xu-CValues - Measuring the Values of Chinese LLMs from Safety to
+  [ 15] OK (ABS, E=No): 2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs
+  [ 16] OK (---, E=Yes): 2024-Agarwal-Ethical Reasoning and Moral Value Alignment Multilingual
+  [ 17] OK (---, E=Yes): 2024-AlKhamissi-Investigating Cultural Alignment of LLMs
+  [ 18] OK (ABS, E=Yes): 2024-Authors-Edu-Values - Evaluating Chinese Education Values of LLMs
+  [ 19] OK (---, E=No): 2024-Authors-Measuring What Matters - Construct Validity in LLM Benchmarks
+  [ 20] OK (ABS, E=Yes): 2024-Authors-Pluralistic Alignment Over Time
+  [ 21] OK (---, E=Yes): 2024-Bajaj-GenMO Gender-bias in Morality Opinions
+  [ 22] OK (ABS, E=Yes): 2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said
+  [ 23] OK (ABS, E=Yes): 2024-Bonagiri-SaGE Semantic Graph Entropy Moral Consistency Corpus
+  [ 24] OK (ABS, E=Yes): 2024-Chao-JailbreakBench - An Open Robustness Benchmark
+  [ 25] OK (ABS, E=No): 2024-Debenedetti-SaTML LLM CTF Dataset
+  [ 26] OK (ABS, E=Yes): 2024-Duan-DeNEVIL MoralPrompt
+  [ 27] OK (ABS, E=Yes): 2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning
+
+==================================================
+BATCH 1-27 SUMMARY
+  Processed:       26
+  Errors:          1
+  Skipped:         0
+  Abstracts found: 19/26
+  Ethics=Yes:      20/26
+==================================================

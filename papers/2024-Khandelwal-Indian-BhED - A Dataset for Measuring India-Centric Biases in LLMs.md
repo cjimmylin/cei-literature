@@ -1,0 +1,74 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0184
+type: preprint
+short_title: Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs
+year: 2024
+first_author: "[[V. & Tonneau Khandelwal]]"
+authors: "Khandelwal, V. & Tonneau, M. et al"
+doi: 10.1145/3677525.3678666
+url: "https://arxiv.org/abs/2309.08573"
+external_pdf: "https://arxiv.org/pdf/2309.08573.pdf"
+local_pdf: "[[PDFs/2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.pdf]]"
+pdf_extract: "PDF Extracts/2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md"
+publication: arXiv
+DATE_ADDED: 20260207
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indian"
+religious_values: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+tags: 
+abstract:
+research_topic: "Machine Learning"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
+---
+# Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs
+
+## Authors
+
+[[Khandelwal, V. & Tonneau, M. et al]]
+
+## Metadata
+
+**Authors:** Khandelwal, V. & Tonneau, M. et al
+
+**Year:** 2024
+
+**Type:** preprint
+
+**Venue:** arXiv
+
+**DOI:** [10.1145/3677525.3678666](https://doi.org/10.1145/3677525.3678666)
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2309.08573
+- **DOI:** https://doi.org/10.1145/3677525.3678666
+
+## Abstract
+
+*(To be fetched)*
+
+## Dataset Information
+
+Stereotypical and anti-stereotypical sentence pairs
+
+## Notes
+
+**Source:** Exhaustive Literature Search (2026-02-07), Agent 9-11
+**Implementation Readiness:** MEDIUM
+
+## Tags
+

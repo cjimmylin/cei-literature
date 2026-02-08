@@ -1,0 +1,30 @@
+Parsed 300 entries from master list
+Processing entries 141-160 (20 papers)
+
+  [141] CREATED: 2025-Unknown-When Ethics and Payoffs Diverge LLM Agents in Morally Charged Social.md
+  [142] CREATED: 2025-Unknown-Will Systems of LLM Agents Cooperate An Investigation into a Social.md
+  [143] CREATED: 2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via.md
+  [144] CREATED: 2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents.md
+  [145] CREATED: 2024-Unknown-BELLS A Framework Towards Future Proof Benchmarks for the Evaluation.md
+  [146] CREATED: 2024-Zhang-CHiSafetyBench - A Chinese Hierarchical Safety Benchmark for LLMs.md
+  [147] CREATED: 2024-Yao-CLAVE ValEval.md
+  [148] SKIP (exists): 2024-Yu-CMoralEval.md
+  [149] CREATED: 2024-Guldimann-COMPL-AI EU AI Act Compliance.md
+  [150] CREATED: 2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark.md
+  [151] CREATED: 2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs.md
+  [152] CREATED: 2024-Yu-CoSafe.md
+  [153] CREATED: 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public.md
+  [154] CREATED: 2024-results-Conscience Conflict Evaluating Language Models' Moral Understanding.md
+  [155] CREATED: 2024-Unknown-Cooperation Competition and Maliciousness LLM-Stakeholders.md
+  [156] CREATED: 2024-retrieved-Cross-Linguistic Moral Preferences in LLMs - Evidence from.md
+  [157] CREATED: 2024-Duan-DeNEVIL MoralPrompt.md
+  [158] CREATED: 2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.md
+  [159] CREATED: 2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md
+  [160] CREATED: 2024-Jinnai-Does Cross-Cultural Alignment Change the Commonsense Morality of.md
+
+==================================================
+BATCH 141-160 SUMMARY
+  Created: 19
+  Skipped: 1
+  Errors:  0
+==================================================

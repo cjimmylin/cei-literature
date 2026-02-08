@@ -1,0 +1,39 @@
+Total papers needing processing: 264
+Processing positions 109-135 (27 papers)
+
+  [109] OK (ABS, E=Yes): 2025-Becker-The Moralization Corpus
+  [110] OK (ABS, E=Yes): 2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030
+  [111] OK (---, E=Yes): 2025-Capraro-Large Language Models Show Amplified Cognitive Biases in Moral
+  [112] OK (---, E=Yes): 2025-Castricato-PERSONA Pluralistic Alignment Testbed
+  [113] OK (ABS, E=Yes): 2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values
+  [114] OK (---, E=Yes): 2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment
+  [115] OK (ABS, E=No): 2025-Cheng-ELEPHANT Social Sycophancy
+  [116] OK (ABS, E=Yes): 2025-Chua-Between a Rock and a Hard Place TRIAL
+  [117] OK (ABS, E=Yes): 2025-Coleman-The Convergent Ethics of AI Analyzing Moral Foundation Prioritie...
+  [118] OK (ABS, E=Yes): 2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value
+  [119] OK (---, E=Yes): 2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation
+  [120] OK (ABS, E=Yes): 2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical
+  [121] OK (ABS, E=Yes): 2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al.
+  [122] OK (ABS, E=No): 2025-Fan-LEXam
+  [123] OK (ABS, E=No): 2025-Fanous-SycEval Evaluating LLM Sycophancy
+  [124] OK (---, E=No): 2025-Gai-MoralBench A Multi-Faceted Benchmark Gai et al.
+  [125] OK (---, E=Yes): 2025-Gao-MIST Moral Inference through Storytelling with Text and Images
+  [126] OK (ABS, E=Yes): 2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value
+  [127] OK (ABS, E=Yes): 2025-Ghosh-AEGIS 2.0
+  [128] OK (ABS, E=Yes): 2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness
+  [129] OK (ABS, E=Yes): 2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment
+  [130] OK (ABS, E=Yes): 2025-Han-Value Portrait
+  [131] OK (---, E=No): 2025-Helwe-Navigating the Political Compass Multilingual 50 Countries
+  [132] OK (ABS, E=Yes): 2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset
+  [133] OK (ABS, E=Yes): 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to
+  [134] OK (ABS, E=Yes): 2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset
+  [135] OK (ABS, E=Yes): 2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models
+
+==================================================
+BATCH 109-135 SUMMARY
+  Processed:       27
+  Errors:          0
+  Skipped:         0
+  Abstracts found: 20/27
+  Ethics=Yes:      22/27
+==================================================

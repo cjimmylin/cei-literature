@@ -1,0 +1,71 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0019
+type: conferencePaper
+short_title: "ALYMPICS: LLM Agents Meet Game Theory"
+year: 2025
+first_author: "[[Unknown]]"
+authors: Unknown
+url: "https://arxiv.org/abs/2311.03220"
+external_pdf: "https://arxiv.org/pdf/2311.03220.pdf"
+local_pdf: "[[PDFs/2025-Unknown-ALYMPICS LLM Agents Meet Game Theory.pdf]]"
+pdf_extract: "PDF Extracts/2025-Unknown-ALYMPICS LLM Agents Meet Game Theory.md"
+publication: COLING 2025
+DATE_ADDED: 20260207
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+tags: 
+abstract: "This paper introduces Alympics (Olympics for Agents), a systematic simulation framework utilizing Large Language Model (LLM) agents for game theory research. Alympics creates a versatile platform for studying complex game theory problems, bridging the gap between theoretical game theory and empirical investigations by providing a controlled environment for simulating human-like strategic interactions with LLM agents."
+research_topic: "NLP & Representation Learning"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
+---
+# ALYMPICS: LLM Agents Meet Game Theory
+
+## Authors
+
+[[Unknown]]
+
+## Metadata
+
+**Authors:** Unknown
+
+**Year:** 2025
+
+**Type:** conferencePaper
+
+**Venue:** COLING 2025
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2311.03220
+- **Code/Data:** https://github.com/microsoft/Alympics
+
+## Abstract
+
+This paper introduces Alympics (Olympics for Agents), a systematic simulation framework utilizing Large Language Model (LLM) agents for game theory research. Alympics creates a versatile platform for studying complex game theory problems, bridging the gap between theoretical game theory and empirical investigations by providing a controlled environment for simulating human-like strategic interactions with LLM agents. In our pilot case study, the ”Water Allocation Challenge,” we explore Alympics through a challenging strategic game focused on the multi-round auction on scarce survival resources. This study demonstrates the framework’s ability to qualitatively and quantitatively analyze game determinants, strategies, and outcomes. Additionally, we conduct a comprehensive human assessment and an in-depth evaluation of LLM agents in strategic decision-making scenarios. Our findings not only expand the understanding of LLM agents’ proficiency in emulating human strategic behavior but also highlight their potential in advancing game theory knowledge, thereby enriching our understanding of both game theory and empowering further research into strategic decision-making domains with LLM agents. Codes, prompts, and all related resources are available at Alympics.
+
+## Dataset Information
+
+Sandbox-based game environments (pilot: Water Allocation Challenge -- 20-day multi-round sealed-bid auction); text-based agent interaction
+
+## Notes
+
+**Source:** Exhaustive Literature Search (2026-02-07), Agent 18
+**Implementation Readiness:** HIGH
+
+## Tags
+

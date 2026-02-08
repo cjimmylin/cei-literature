@@ -1,0 +1,30 @@
+Parsed 300 entries from master list
+Processing entries 41-60 (20 papers)
+
+  [ 41] SKIP (similar): 2025-Liu-Diagnosing Moral Reasoning Acquisition.md ~ 2025-Liu-Diagnosing Moral Reasoning Acquisition in.md
+  [ 42] CREATED: 2025-Unknown-Diagnosing Moral Reasoning Acquisition in Language Models Pragmatics.md
+  [ 43] CREATED: 2025-Kilov-Discerning What Matters Multi-Dimensional Moral Competence Assessment.md
+  [ 44] CREATED: 2025-Rozen-Do LLMs Have Consistent Values.md
+  [ 45] CREATED: 2025-Cheng-ELEPHANT Social Sycophancy.md
+  [ 46] CREATED: 2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.md
+  [ 47] CREATED: 2025-Unknown-EQ-Bench An Emotional Intelligence Benchmark for Large Language Models.md
+  [ 48] CREATED: 2025-Unknown-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large.md
+  [ 49] CREATED: 2025-Kasu-EthicsMH.md
+  [ 50] CREATED: 2025-Unknown-EtiCor++ Towards Understanding Etiquettical Bias in LLMs.md
+  [ 51] CREATED: 2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.md
+  [ 52] CREATED: 2025-Authors-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.md
+  [ 53] SKIP (exists): 2025-Fan-FairMT-Bench.md
+  [ 54] CREATED: 2025-Xu-FiSCo Fine-grained Semantic Comparison.md
+  [ 55] CREATED: 2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md
+  [ 56] CREATED: 2025-Unknown-From Surveys to Narratives Rethinking Cultural Value Adaptation in.md
+  [ 57] CREATED: 2025-Unknown-GAMEBoT Transparent Assessment of LLM Reasoning in Games.md
+  [ 58] CREATED: 2025-Batzner-GermanPartiesQA Benchmarking LLMs for Political Alignment and.md
+  [ 59] CREATED: 2025-Machlovi-GuardEval.md
+  [ 60] CREATED: 2025-Authors-Hajj-FQA - Benchmark Arabic Dataset for Hajj Fatwa QA.md
+
+==================================================
+BATCH 41-60 SUMMARY
+  Created: 18
+  Skipped: 2
+  Errors:  0
+==================================================

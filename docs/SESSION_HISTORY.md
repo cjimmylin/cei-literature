@@ -2,6 +2,53 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 38 (Feb 7, 2026) - Exhaustive Search Steps 5-8: Import, Download, Extract, Classify
+
+### Overview
+
+Completed the final four steps of the exhaustive literature search pipeline. Imported 266 net-new papers from the 300-paper master list into the vault, downloaded 214 PDFs from arXiv, extracted text from all 214 PDFs, and ran the full 7-stage classification pipeline (abstract extraction + keyword-based classification) on all 266 papers. Vault grew from 657 to 923 papers. All operations used parallel batch processing (5-15 agents per step).
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Papers Imported | 266 (34 skipped as duplicates) |
+| PDFs Downloaded (arXiv) | 214 / 214 (0 failures) |
+| PDF Extracts Created | 214 (vault total: 876) |
+| Abstracts Extracted | 204 / 266 (76%) |
+| Ethics Overall = Yes | 199 / 266 (74%) |
+| Is Benchmark | 123 / 266 (46%) |
+| Is Evaluation | 189 / 266 (71%) |
+| Is Dataset | 118 / 266 (44%) |
+| Cultural/National Focus | 67 papers |
+| Moral Psychology Theory | 24 papers |
+| YAML Validation | 923/923 pass |
+
+### Key Learnings
+
+- **YAML:** `validate_frontmatter()` counts raw `"` characters — `\"` escaping produces odd counts that trigger false validation failures. Fix: replace `"` with `'` in values instead of backslash-escaping.
+- **PDF Processing:** Python stdout buffering causes empty log files in parallel batch execution even when the work completes. Fix: `print = functools.partial(print, flush=True)` at script top + sequential mop-up pass after parallel batches.
+- **Workflows:** Author name parsing edge cases: (1) Chinese given names like "Han" (3 chars) mistaken for initials — fix by checking for period in name part, (2) bracket-wrapped names like "[Authors from Kurt Gray Lab]" — fix by stripping brackets.
+- **Workflows:** Import regex parsing fragility: Master list had colon *inside* bold markers (`**Authors:**` not `**Authors**:`) — hex inspection was needed to discover the difference. Always test parsers against raw byte content.
+
+### Scripts Created
+
+| Script | Purpose |
+|--------|---------|
+| `PYTHON/import_from_master_list.py` | Parse master list → create vault paper files |
+| `PYTHON/batch_download_pdfs.py` | Download PDFs from arXiv with rate limiting |
+| `PYTHON/batch_extract_pdfs.py` | Extract text from PDFs using PyMuPDF |
+| `PYTHON/batch_abstract_and_classify.py` | Extract abstracts + 7-stage classification |
+
+### Files Changed
+
+- papers/: 266 new, 266 modified (classification fields filled)
+- PDF Extracts/: 214 new
+- PYTHON/: 4 scripts created
+- logs/: 4 batch log directories (import, pdf, extract, classify)
+
+---
+
 ## Session 37 (Feb 7, 2026) - Exhaustive Literature Search: Step 2b Agent 1 Integration
 
 ### Overview

@@ -1,0 +1,30 @@
+Parsed 300 entries from master list
+Processing entries 121-140 (20 papers)
+
+  [121] CREATED: 2025-Li-SafetyAnalyst.md
+  [122] CREATED: 2025-Unknown-SafetyAnalyst Interpretable Transparent and Steerable Safety.md
+  [123] CREATED: 2025-Authors-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi.md
+  [124] CREATED: 2025-Unknown-SocialEval Evaluating Social Intelligence of Large Language Models.md
+  [125] CREATED: 2025-Pandey-SocialHarmBench.md
+  [126] SKIP (similar): 2025-Chakraborty-Structured Moral Reasoning in Language Models A Value-Grounded.md ~ 2025-Chakraborty-Structured Moral Reasoning.md
+  [127] CREATED: 2025-Fanous-SycEval Evaluating LLM Sycophancy.md
+  [128] CREATED: 2025-Coleman-The Convergent Ethics of AI Analyzing Moral Foundation Priorities in.md
+  [129] CREATED: 2025-Jamshidi-The Moral Consistency Pipeline MoCoP.md
+  [130] SKIP (similar): 2025-Russo-The Pluralistic Moral Gap Understanding Judgment and Value.md ~ 2025-Russo-The Pluralistic Moral Gap.md
+  [131] CREATED: 2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md
+  [132] CREATED: 2025-Zhu-TrolleyBench.md
+  [133] CREATED: 2025-Authors-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md
+  [134] CREATED: 2025-Unknown-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety.md
+  [135] CREATED: 2025-Kumar-UniMoral ACL 2025 Best Resource Paper.md
+  [136] CREATED: 2025-Shetty-VITAL Pluralistic Alignment in Healthcare.md
+  [137] SKIP (exists): 2025-Yao-Value Compass Benchmarks.md
+  [138] CREATED: 2025-Han-Value Portrait.md
+  [139] CREATED: 2025-Shen-ValueActionLens Mind the Value-Action Gap.md
+  [140] CREATED: 2025-Unknown-ValueCompass A Framework for Measuring Contextual Value Alignment.md
+
+==================================================
+BATCH 121-140 SUMMARY
+  Created: 17
+  Skipped: 3
+  Errors:  0
+==================================================

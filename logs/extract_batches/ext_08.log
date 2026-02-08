@@ -1,0 +1,27 @@
+Total papers needing extraction: 211
+Processing positions 109-123 (15 papers)
+
+  [109] OK (29pp, 70KB): 2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesi
+  [110] OK (14pp, 50KB): 2025-Kasu-EthicsMH
+  [111] OK (37pp, 137KB): 2025-Ki-NormAd-ETI Multiple LLM Agents Debate for Equitable Cultural A
+  [112] OK (21pp, 63KB): 2025-Kilov-Discerning What Matters Multi-Dimensional Moral Competence 
+  [113] OK (40pp, 138KB): 2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilem
+  [114] OK (23pp, 78KB): 2025-Li-LegalAgentBench
+  [115] OK (7pp, 28KB): 2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chi
+MuPDF error: syntax error: could not parse color space (434 0 R)
+
+  [116] OK (22pp, 81KB): 2025-Li-SafetyAnalyst
+  [117] OK (25pp, 79KB): 2025-Liu-CQ-Bench Cultural Intelligence Benchmark for LLMs
+  [118] OK (17pp, 59KB): 2025-Liu-On the Convergence of Moral Self-Correction in LLMs
+  [119] OK (25pp, 163KB): 2025-Liu-Scales of Justitia Safety Evaluation Taxonomy Liu et al.
+  [120] OK (21pp, 75KB): 2025-Machlovi-GuardEval
+  [121] OK (25pp, 91KB): 2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reason
+  [122] OK (19pp, 66KB): 2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benc
+  [123] OK (17pp, 52KB): 2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with L
+
+==================================================
+BATCH 109-123 SUMMARY
+  Extracted: 15
+  Skipped:   0
+  Failed:    0
+==================================================

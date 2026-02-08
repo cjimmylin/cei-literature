@@ -1,0 +1,30 @@
+Parsed 300 entries from master list
+Processing entries 281-300 (20 papers)
+
+  [281] CREATED: 2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI.md
+  [282] CREATED: 2022-Schramowski-I2P Inappropriate Image Prompts Test Bed.md
+  [283] CREATED: 2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md
+  [284] CREATED: 2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety.md
+  [285] SKIP (exists): 2025-Jiang-Investigating Machine Moral Judgement through the Delphi Experiment.md
+  [286] CREATED: 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems.md
+  [287] CREATED: 2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.md
+  [288] CREATED: 2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models.md
+  [289] CREATED: 2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.md
+  [290] CREATED: 2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial.md
+  [291] CREATED: 2025-Gai-MoralBench A Multi-Faceted Benchmark Gai et al..md
+  [292] CREATED: 2025-Ki-NormAd-ETI Multiple LLM Agents Debate for Equitable Cultural Alignment.md
+  [293] CREATED: 2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral.md
+  [294] CREATED: 2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..md
+  [295] SKIP (similar): 2025-Liu-Cross-cultural Value Alignment Multi-Method Audit Liu et al..md ~ 2025-Liu-Cross-cultural value alignment frameworks.md
+  [296] CREATED: 2025-Liu-Scales of Justitia Safety Evaluation Taxonomy Liu et al..md
+  [297] CREATED: 2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks.md
+  [298] CREATED: 2022-Liu-CoreValue Chinese Values Knowledge Base Liu et al..md
+  [299] CREATED: 2025-Muntean-Moral Coherentism Theoretical Framework Muntean.md
+  [300] CREATED: 2025-Wu-Chain-of-Ethics Defense Framework Wu et al..md
+
+==================================================
+BATCH 281-300 SUMMARY
+  Created: 18
+  Skipped: 2
+  Errors:  0
+==================================================

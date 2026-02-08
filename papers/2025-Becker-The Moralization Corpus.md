@@ -1,0 +1,70 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0261
+type: preprint
+short_title: The Moralization Corpus
+year: 2025
+first_author: "[[S. Becker]]"
+authors: Becker, S. et al.
+url: "https://arxiv.org/abs/2512.15248"
+external_pdf: "https://arxiv.org/pdf/2512.15248.pdf"
+local_pdf: "[[PDFs/2025-Becker-The Moralization Corpus.pdf]]"
+pdf_extract: "PDF Extracts/2025-Becker-The Moralization Corpus.md"
+publication: arXiv
+DATE_ADDED: 20260207
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "German"
+religious_values: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+tags: 
+abstract: "Moralizations – arguments that invoke moral values to justify demands or positions – are a yet underexplored form of persuasive communication. We present the Moralization Corpus, a novel multi-genre dataset designed to analyze how moral values are strategically used in argumentative discourse. Moralizations are pragmatically complex and often implicit, posing significant challenges for both human annotators and NLP systems."
+ethics_perspective: "Moral Reasoning & Psychology"
+data_description: "Evaluation approach text corpus"
+data_metrics: "Not specified"
+---
+# The Moralization Corpus
+
+## Authors
+
+[[Becker, S. et al.]]
+
+## Metadata
+
+**Authors:** Becker, S. et al.
+
+**Year:** 2025
+
+**Type:** preprint
+
+**Venue:** arXiv
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2512.15248
+
+## Abstract
+
+Moralizations – arguments that invoke moral values to justify demands or positions – are a yet underexplored form of persuasive communication. We present the Moralization Corpus, a novel multi-genre dataset designed to analyze how moral values are strategically used in argumentative discourse. Moralizations are pragmatically complex and often implicit, posing significant challenges for both human annotators and NLP systems. We develop a frame-based annotation scheme that captures the constitutive elements of moralizations – moral values, demands, and discourse protagonists – and apply it to a diverse set of German texts, including political debates, news articles, and online discussions. The corpus enables fine-grained analysis of moralizing language across communicative formats and domains. We further evaluate several large language models (LLMs) under varied prompting conditions for the task of moralization detection and moralization component extraction and compare it to human annotations in order to investigate the challenges of automatic and manual analysis of moralizations. Results show that detailed prompt instructions has a greater effect than few-shot or explanation-based prompting, and that moralization remains a highly subjective and context-sensitive task. We release all data, annotation guidelines, and code to foster future interdisciplinary research on moral discourse and moral reasoning in NLP.
+
+## Dataset Information
+
+Multi-genre German dataset analyzing moral values in argumentative discourse with frame-based annotation
+
+## Notes
+
+**Source:** Exhaustive Literature Search (2026-02-07), Agent 1 (Citation Graph)
+**Implementation Readiness:** MEDIUM
+
+## Tags
+

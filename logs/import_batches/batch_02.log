@@ -1,0 +1,30 @@
+Parsed 300 entries from master list
+Processing entries 21-40 (20 papers)
+
+  [ 21] CREATED: 2025-Mohammed-Aftina - Enhancing Stability in AI-Based Islamic Fatwa Generation.md
+  [ 22] SKIP (exists): 2025-Andriushchenko-AgentHarm.md
+  [ 23] CREATED: 2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM.md
+  [ 24] CREATED: 2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.md
+  [ 25] CREATED: 2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.md
+  [ 26] CREATED: 2025-Unknown-Awesome-LLM-Eval Repository Meta-Resource.md
+  [ 27] CREATED: 2025-Zulaika-BasqBBQ Basque BBQ.md
+  [ 28] CREATED: 2025-Chua-Between a Rock and a Hard Place TRIAL.md
+  [ 29] SKIP (similar): 2025-Galatolo-Beyond Ethical Alignment Evaluating LLMs as Artificial Moral.md ~ 2025-Galatolo-Beyond Ethical Alignment AMAs.md
+  [ 30] CREATED: 2025-Solaiman-BiasLab Political Bias Detection - News Articles.md
+  [ 31] CREATED: 2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.md
+  [ 32] CREATED: 2025-Sun-CASE-Bench Context-Aware SafEty Benchmark.md
+  [ 33] CREATED: 2025-Authors-COIG-P - Chinese Preference Dataset for Alignment with Human Values.md
+  [ 34] CREATED: 2025-Unknown-Can We Trust AI Benchmarks An Interdisciplinary Review.md
+  [ 35] CREATED: 2025-Unknown-ConflictScope Generative Value Conflicts Reveal LLM Priorities.md
+  [ 36] CREATED: 2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.md
+  [ 37] CREATED: 2025-Unknown-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language.md
+  [ 38] CREATED: 2025-Unknown-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors.md
+  [ 39] CREATED: 2025-extracted-Decoding Moral Responses in AI A Quantitative Analysis of Large.md
+  [ 40] CREATED: 2025-Ashkinaze-Deep Value Benchmark.md
+
+==================================================
+BATCH 21-40 SUMMARY
+  Created: 18
+  Skipped: 2
+  Errors:  0
+==================================================

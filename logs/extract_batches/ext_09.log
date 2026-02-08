@@ -1,0 +1,25 @@
+Total papers needing extraction: 211
+Processing positions 124-138 (15 papers)
+
+  [124] OK (35pp, 100KB): 2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Te
+  [125] OK (15pp, 68KB): 2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models 
+  [126] OK (45pp, 170KB): 2025-Pandey-SocialHarmBench
+  [127] OK (36pp, 92KB): 2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs
+  [128] OK (28pp, 85KB): 2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image M
+  [129] OK (22pp, 61KB): 2025-Rozen-Do LLMs Have Consistent Values
+  [130] OK (30pp, 98KB): 2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Publi
+  [131] OK (22pp, 72KB): 2025-Shen-ValueActionLens Mind the Value-Action Gap
+  [132] OK (21pp, 75KB): 2025-Shetty-VITAL Pluralistic Alignment in Healthcare
+  [133] OK (30pp, 106KB): 2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Mana
+  [134] OK (12pp, 38KB): 2025-Solaiman-BiasLab Political Bias Detection - News Articles
+  [135] OK (13pp, 40KB): 2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM
+  [136] OK (23pp, 78KB): 2025-Sun-CASE-Bench Context-Aware SafEty Benchmark
+  [137] OK (17pp, 47KB): 2025-Takeshita-JETHICS - Japanese Ethics Understanding Evaluation Data
+  [138] OK (32pp, 125KB): 2025-Trager-MFTCXplain A Multilingual Benchmark Dataset for Evaluating
+
+==================================================
+BATCH 124-138 SUMMARY
+  Extracted: 15
+  Skipped:   0
+  Failed:    0
+==================================================

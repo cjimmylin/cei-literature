@@ -1,0 +1,30 @@
+Parsed 300 entries from master list
+Processing entries 101-120 (20 papers)
+
+  [101] CREATED: 2025-Ji-PKU-SafeRLHF.md
+  [102] CREATED: 2025-Authors-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md
+  [103] CREATED: 2025-Unknown-PersuSafety LLM Can be a Dangerous Persuader.md
+  [104] CREATED: 2025-Unknown-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion.md
+  [105] CREATED: 2025-Unknown-PersuasionBench & PersuasionArena Measuring and Improving.md
+  [106] CREATED: 2025-Unknown-Playing Repeated Games with Large Language Models.md
+  [107] CREATED: 2025-Authors-PoliCon.md
+  [108] CREATED: 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.md
+  [109] CREATED: 2025-Authors-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and.md
+  [110] CREATED: 2025-Unknown-Randomness Not Representation The Unreliability of Evaluating.md
+  [111] CREATED: 2025-Oh-Robustness of Large Language Models in Moral Judgements.md
+  [112] CREATED: 2025-Unknown-RoleConflictBench A Benchmark of Role Conflict Scenarios for.md
+  [113] CREATED: 2025-Yuan-S-Eval.md
+  [114] CREATED: 2025-Unknown-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of.md
+  [115] CREATED: 2025-Unknown-SI-Bench Benchmarking Social Intelligence of Large Language Models in.md
+  [116] CREATED: 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal.md
+  [117] CREATED: 2025-Unknown-SPARC Evaluating LLMs in Open-Source Games Strategic Program Analysis.md
+  [118] CREATED: 2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment.md
+  [119] CREATED: 2025-Unknown-SYNTHEMPATHY A Scalable Empathy Corpus Generated Using LLMs Without.md
+  [120] CREATED: 2025-Xia-SafeToolBench.md
+
+==================================================
+BATCH 101-120 SUMMARY
+  Created: 20
+  Skipped: 0
+  Errors:  0
+==================================================

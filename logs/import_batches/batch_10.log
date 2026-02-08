@@ -1,0 +1,30 @@
+Parsed 300 entries from master list
+Processing entries 181-200 (20 papers)
+
+  [181] CREATED: 2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on.md
+  [182] CREATED: 2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md
+  [183] CREATED: 2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context.md
+  [184] CREATED: 2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md
+  [185] CREATED: 2024-Moore-Intuitions of Compromise - Utilitarianism vs. Contractualism.md
+  [186] CREATED: 2024-AlKhamissi-Investigating Cultural Alignment of LLMs.md
+  [187] CREATED: 2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs.md
+  [188] CREATED: 2024-Liu-JAILJUDGE.md
+  [189] CREATED: 2024-Yanaka-JBBQ Japanese Bias Benchmark for Question Answering.md
+  [190] CREATED: 2024-Chao-JailbreakBench - An Open Robustness Benchmark.md
+  [191] SKIP (exists): 2024-Lee-KorNAT.md
+  [192] CREATED: 2024-Unknown-LLM Voting Human Choices and AI Collective Decision-Making.md
+  [193] CREATED: 2024-Unknown-MAgIC Investigation of Large Language Model Powered Multi-Agent in.md
+  [194] CREATED: 2024-Jin-MULTITP - Language Model Alignment in Multilingual Trolley Problems.md
+  [195] CREATED: 2024-Unknown-Measuring Bargaining Abilities of LLMs A Benchmark and A.md
+  [196] CREATED: 2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said.md
+  [197] CREATED: 2024-Authors-Measuring What Matters - Construct Validity in LLM Benchmarks.md
+  [198] SKIP (exists): 2024-Han-MedSafetyBench.md
+  [199] SKIP (exists): 2024-Abdulhai-Moral Foundations of Large Language Models.md
+  [200] SKIP (similar): 2024-Unknown-Moral Persuasion in Large Language Models Evaluating Susceptibility.md ~ 2024-Unknown-Moral Persuasion in Large Language Models.md
+
+==================================================
+BATCH 181-200 SUMMARY
+  Created: 16
+  Skipped: 4
+  Errors:  0
+==================================================

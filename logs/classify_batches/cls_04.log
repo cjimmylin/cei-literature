@@ -1,0 +1,39 @@
+Total papers needing processing: 264
+Processing positions 82-108 (27 papers)
+
+  [ 82] OK (ABS, E=Yes): 2024-Yao-CLAVE ValEval
+  [ 83] OK (ABS, E=Yes): 2024-Yao-Value FULCRA
+  [ 84] OK (ABS, E=Yes): 2024-Yin-SafeAgentBench
+  [ 85] OK (---, E=No): 2024-Yu-CoSafe
+  [ 86] OK (ABS, E=No): 2024-Yuan-Social Measuring Social Norms of LLMs
+  [ 87] OK (ABS, E=Yes): 2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents
+  [ 88] OK (ABS, E=Yes): 2024-Zhang-CHiSafetyBench - A Chinese Hierarchical Safety Benchmark for LLMs
+  [ 89] OK (ABS, E=Yes): 2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs
+  [ 90] OK (ABS, E=Yes): 2024-Zhang-SafetyBench Evaluating the Safety of Large Language Models
+  [ 91] OK (ABS, E=Yes): 2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via
+  [ 92] OK (---, E=Yes): 2024-results-Conscience Conflict Evaluating Language Models' Moral Understanding
+  [ 93] OK (---, E=Yes): 2024-retrieved-Cross-Linguistic Moral Preferences in LLMs - Evidence from
+  [ 94] OK (ABS, E=Yes): 2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment
+  [ 95] OK (ABS, E=Yes): 2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic
+  [ 96] OK (ABS, E=Yes): 2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework
+  [ 97] OK (ABS, E=Yes): 2025-Ashkinaze-Deep Value Benchmark
+  [ 98] OK (ABS, E=Yes): 2025-Authors-COIG-P - Chinese Preference Dataset for Alignment with Human Values
+  [ 99] OK (ABS, E=Yes): 2025-Authors-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts
+  [100] OK (---, E=No): 2025-Authors-Hajj-FQA - Benchmark Arabic Dataset for Hajj Fatwa QA
+  [101] OK (ABS, E=Yes): 2025-Authors-IndiCASA - Dataset and Bias Evaluation Framework for LLMs in Indian
+  [102] OK (---, E=No): 2025-Authors-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in
+  [103] OK (ABS, E=No): 2025-Authors-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and
+  [104] OK (---, E=No): 2025-Authors-PoliCon
+  [105] OK (---, E=No): 2025-Authors-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and
+  [106] OK (---, E=Yes): 2025-Authors-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi
+  [107] OK (---, E=Yes): 2025-Authors-TrolleyBench - Evaluating Emergent Moral Reasoning and Consisten...
+  [108] OK (ABS, E=Yes): 2025-Batzner-GermanPartiesQA Benchmarking LLMs for Political Alignment and
+
+==================================================
+BATCH 82-108 SUMMARY
+  Processed:       27
+  Errors:          0
+  Skipped:         0
+  Abstracts found: 18/27
+  Ethics=Yes:      20/27
+==================================================

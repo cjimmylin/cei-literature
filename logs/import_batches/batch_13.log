@@ -1,0 +1,30 @@
+Parsed 300 entries from master list
+Processing entries 241-260 (20 papers)
+
+  [241] CREATED: 2023-Tanmay-Probing Moral Development through Defining Issues Test DIT.md
+  [242] CREATED: 2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop.md
+  [243] CREATED: 2022-Parrish-BBQ Bias Benchmark for Question Answering.md
+  [244] CREATED: 2022-Bai-HH-RLHF Helpful and Harmless RLHF.md
+  [245] CREATED: 2022-Ziems-Moral Integrity Corpus MIC.md
+  [246] CREATED: 2022-Kim-ProsocialDialog A Prosocial Backbone for Conversational Agents.md
+  [247] CREATED: 2021-Nangia-CrowS-Pairs.md
+  [248] SKIP (exists): 2021-Emelin-Moral Stories.md
+  [249] SKIP (exists): 2021-Lourie-Scruples.md
+  [250] CREATED: 2020-Forbes-Social Chemistry 101 SOCIAL-CHEM-101.md
+  [251] CREATED: 2019-Unknown-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models.md
+  [252] CREATED: 2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human.md
+  [253] CREATED: 2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.md
+  [254] CREATED: 2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from.md
+  [255] CREATED: 2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.md
+  [256] CREATED: 2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.md
+  [257] CREATED: 2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs.md
+  [258] CREATED: 2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.md
+  [259] CREATED: 2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.md
+  [260] CREATED: 2026-Yun-VAPT Value-Alignment Perception Toolkit.md
+
+==================================================
+BATCH 241-260 SUMMARY
+  Created: 18
+  Skipped: 2
+  Errors:  0
+==================================================

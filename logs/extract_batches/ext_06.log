@@ -1,0 +1,25 @@
+Total papers needing extraction: 211
+Processing positions 79-93 (15 papers)
+
+  [ 79] OK (16pp, 57KB): 2025-Authors-PalmX 2025 - First Shared Task on Benchmarking LLMs on Ar
+  [ 80] OK (45pp, 136KB): 2025-Authors-PoliCon
+  [ 81] OK (15pp, 64KB): 2025-Batzner-GermanPartiesQA Benchmarking LLMs for Political Alignment
+  [ 82] OK (11pp, 52KB): 2025-Becker-The Moralization Corpus
+  [ 83] OK (6pp, 26KB): 2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030
+  [ 84] OK (23pp, 55KB): 2025-Castricato-PERSONA Pluralistic Alignment Testbed
+  [ 85] OK (45pp, 163KB): 2025-Chen-MoVa Towards Generalizable Classification of Human Morals an
+  [ 86] OK (34pp, 132KB): 2025-Cheng-ELEPHANT Social Sycophancy
+  [ 87] OK (30pp, 125KB): 2025-Chua-Between a Rock and a Hard Place TRIAL
+  [ 88] OK (25pp, 58KB): 2025-Coleman-The Convergent Ethics of AI Analyzing Moral Foundation Pr
+  [ 89] OK (43pp, 141KB): 2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Va
+  [ 90] OK (31pp, 67KB): 2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of L
+  [ 91] OK (25pp, 88KB): 2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et a
+  [ 92] OK (38pp, 121KB): 2025-Fan-LEXam
+  [ 93] OK (8pp, 32KB): 2025-Fanous-SycEval Evaluating LLM Sycophancy
+
+==================================================
+BATCH 79-93 SUMMARY
+  Extracted: 15
+  Skipped:   0
+  Failed:    0
+==================================================

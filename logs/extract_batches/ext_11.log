@@ -1,0 +1,25 @@
+Total papers needing extraction: 211
+Processing positions 154-168 (15 papers)
+
+  [154] OK (33pp, 59KB): 2025-Unknown-LongEmotion Measuring Emotional Intelligence of Large Lan
+  [155] OK (22pp, 70KB): 2025-Unknown-MASK Benchmark Disentangling Honesty From Accuracy in AI 
+  [156] OK (20pp, 57KB): 2025-Unknown-MASLegalBench
+  [157] OK (10pp, 26KB): 2025-Unknown-Measuring Moral LLM Responses in Multilingual Capacities
+  [158] OK (34pp, 115KB): 2025-Unknown-Moral Alignment for LLM Agents Intrinsic Rewards
+  [159] OK (8pp, 26KB): 2025-Unknown-Moral Anchor System A Predictive Framework for AI Value A
+  [160] OK (5pp, 22KB): 2025-Unknown-Moral Reasoning Across Languages The Critical Role of Low
+  [161] OK (42pp, 156KB): 2025-Unknown-MultiAgentBench MARBLE Evaluating Collaboration and Compe
+  [162] OK (14pp, 62KB): 2025-Unknown-Nicer Than Humans How Do Large Language Models Behave in 
+  [163] OK (20pp, 71KB): 2025-Unknown-OpenDeception Benchmarking and Investigating AI Deceptive
+  [164] OK (22pp, 78KB): 2025-Unknown-PERM Psychology-grounded Empathetic Reward Modeling for L
+  [165] OK (20pp, 76KB): 2025-Unknown-PersuSafety LLM Can be a Dangerous Persuader
+  [166] OK (26pp, 97KB): 2025-Unknown-Persuade Me if You Can PMIYC A Framework for Evaluating P
+  [167] OK (37pp, 139KB): 2025-Unknown-PersuasionBench & PersuasionArena Measuring and Improving
+  [168] OK (15pp, 66KB): 2025-Unknown-Playing Repeated Games with Large Language Models
+
+==================================================
+BATCH 154-168 SUMMARY
+  Extracted: 15
+  Skipped:   0
+  Failed:    0
+==================================================

@@ -1,0 +1,23 @@
+Total papers needing extraction: 211
+Processing positions 199-211 (13 papers)
+
+  [199] OK (22pp, 82KB): 2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale
+  [200] OK (19pp, 62KB): 2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Act
+  [201] OK (19pp, 52KB): 2026-Jin-MedES Chinese Medical Ethics Scenarios
+  [202] OK (15pp, 59KB): 2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-C
+  [203] OK (15pp, 55KB): 2026-Lee-BiasJailbreak
+  [204] OK (36pp, 101KB): 2026-Li-PluriHarms
+  [205] OK (12pp, 47KB): 2026-Liu-JMedEthicBench
+  [206] OK (16pp, 63KB): 2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs
+  [207] OK (14pp, 59KB): 2026-Nadeem-Bias Beyond Borders
+  [208] OK (27pp, 110KB): 2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthe
+  [209] OK (17pp, 67KB): 2026-Shen-PsychEthicsBench
+  [210] OK (62pp, 142KB): 2026-Unknown-VALUEFLOW Toward Pluralistic and Steerable Value-based Al
+  [211] OK (38pp, 194KB): 2026-Yun-VAPT Value-Alignment Perception Toolkit
+
+==================================================
+BATCH 199-211 SUMMARY
+  Extracted: 13
+  Skipped:   0
+  Failed:    0
+==================================================

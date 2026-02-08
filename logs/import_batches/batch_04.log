@@ -1,0 +1,30 @@
+Parsed 300 entries from master list
+Processing entries 61-80 (20 papers)
+
+  [ 61] CREATED: 2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.md
+  [ 62] CREATED: 2025-Unknown-How LLM Counselors Violate Ethical Standards in Mental Health Practice.md
+  [ 63] CREATED: 2025-Unknown-HumaniBench A Human-Centric Framework for Large Multimodal Models.md
+  [ 64] CREATED: 2025-Authors-IndiCASA - Dataset and Bias Evaluation Framework for LLMs in Indian.md
+  [ 65] CREATED: 2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment.md
+  [ 66] CREATED: 2025-Authors-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in.md
+  [ 67] CREATED: 2025-Takeshita-JETHICS - Japanese Ethics Understanding Evaluation Dataset.md
+  [ 68] CREATED: 2025-Fan-LEXam.md
+  [ 69] CREATED: 2025-Jiao-LLM Ethics Benchmark Three-Dimensional Assessment.md
+  [ 70] CREATED: 2025-Unknown-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators.md
+  [ 71] CREATED: 2025-Zhang-LLMEval-Med Medical Safety & Ethics Component.md
+  [ 72] CREATED: 2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models.md
+  [ 73] CREATED: 2025-Unknown-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gaming Contexts.md
+  [ 74] SKIP (similar): 2025-Bulla-Large Language Models Meet Moral Values Comprehensive Assessment.md ~ 2025-Bulla-Large Language Models meet moral values.md
+  [ 75] CREATED: 2025-Capraro-Large Language Models Show Amplified Cognitive Biases in Moral.md
+  [ 76] CREATED: 2025-Li-LegalAgentBench.md
+  [ 77] CREATED: 2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese.md
+  [ 78] CREATED: 2025-Unknown-LongEmotion Measuring Emotional Intelligence of Large Language Models.md
+  [ 79] CREATED: 2025-Unknown-MASK Benchmark Disentangling Honesty From Accuracy in AI Systems.md
+  [ 80] CREATED: 2025-Unknown-MASLegalBench.md
+
+==================================================
+BATCH 61-80 SUMMARY
+  Created: 19
+  Skipped: 1
+  Errors:  0
+==================================================

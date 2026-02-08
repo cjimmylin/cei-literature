@@ -1,0 +1,39 @@
+Total papers needing processing: 264
+Processing positions 190-216 (27 papers)
+
+  [190] OK (ABS, E=Yes): 2025-Unknown-EtiCor++ Towards Understanding Etiquettical Bias in LLMs
+  [191] OK (ABS, E=Yes): 2025-Unknown-From Surveys to Narratives Rethinking Cultural Value Adaptation in
+  [192] OK (ABS, E=No): 2025-Unknown-GAMEBoT Transparent Assessment of LLM Reasoning in Games
+  [193] OK (---, E=Yes): 2025-Unknown-How LLM Counselors Violate Ethical Standards in Mental Health Pr...
+  [194] OK (---, E=No): 2025-Unknown-HumaniBench A Human-Centric Framework for Large Multimodal Models
+  [195] OK (ABS, E=No): 2025-Unknown-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators
+  [196] OK (ABS, E=No): 2025-Unknown-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gaming Con...
+  [197] OK (ABS, E=No): 2025-Unknown-LongEmotion Measuring Emotional Intelligence of Large Language M...
+  [198] OK (ABS, E=No): 2025-Unknown-MASK Benchmark Disentangling Honesty From Accuracy in AI Systems
+  [199] OK (ABS, E=No): 2025-Unknown-MASLegalBench
+  [200] OK (---, E=Yes): 2025-Unknown-Mapping Moral Reasoning in LLMs A Multi-Dimensional Analysis of
+  [201] OK (ABS, E=Yes): 2025-Unknown-Measuring Moral LLM Responses in Multilingual Capacities
+  [202] OK (---, E=Yes): 2025-Unknown-Measuring What Matters Connecting AI Ethics Evaluations to System
+  [203] OK (ABS, E=Yes): 2025-Unknown-Moral Alignment for LLM Agents Intrinsic Rewards
+  [204] OK (ABS, E=Yes): 2025-Unknown-Moral Anchor System A Predictive Framework for AI Value Alignmen...
+  [205] OK (ABS, E=Yes): 2025-Unknown-Moral Reasoning Across Languages The Critical Role of Low-Resource
+  [206] OK (ABS, E=No): 2025-Unknown-MultiAgentBench MARBLE Evaluating Collaboration and Competition of
+  [207] OK (ABS, E=Yes): 2025-Unknown-Nicer Than Humans How Do Large Language Models Behave in the
+  [208] OK (ABS, E=Yes): 2025-Unknown-OpenDeception Benchmarking and Investigating AI Deceptive Behaviors
+  [209] OK (ABS, E=No): 2025-Unknown-PERM Psychology-grounded Empathetic Reward Modeling for Large
+  [210] OK (ABS, E=Yes): 2025-Unknown-PersuSafety LLM Can be a Dangerous Persuader
+  [211] OK (ABS, E=Yes): 2025-Unknown-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion
+  [212] OK (ABS, E=No): 2025-Unknown-PersuasionBench & PersuasionArena Measuring and Improving
+  [213] OK (ABS, E=No): 2025-Unknown-Playing Repeated Games with Large Language Models
+  [214] OK (---, E=Yes): 2025-Unknown-Randomness Not Representation The Unreliability of Evaluating
+  [215] OK (ABS, E=Yes): 2025-Unknown-RoleConflictBench A Benchmark of Role Conflict Scenarios for
+  [216] OK (ABS, E=No): 2025-Unknown-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of
+
+==================================================
+BATCH 190-216 SUMMARY
+  Processed:       27
+  Errors:          0
+  Skipped:         0
+  Abstracts found: 22/27
+  Ethics=Yes:      15/27
+==================================================

@@ -1,0 +1,70 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0014
+type: preprint
+short_title: "VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models"
+year: 2026
+first_author: "[[Unknown]]"
+authors: Unknown
+url: "https://arxiv.org/abs/2602.03160"
+external_pdf: "https://arxiv.org/pdf/2602.03160.pdf"
+local_pdf: "[[PDFs/2026-Unknown-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.pdf]]"
+pdf_extract: "PDF Extracts/2026-Unknown-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md"
+publication: arXiv preprint
+DATE_ADDED: 20260207
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+tags: 
+abstract: "Aligning Large Language Models (LLMs) with the diverse spectrum of human values remains a central challenge: preference-based methods often fail to capture deeper motivational principles. Value-based approaches offer a more principled path, yet three gaps persist– extraction often ignores hierarchical structure, evaluation detects presence but not calibrated intensity, and therefore, the steerability of LLMs at controlled intensities remains insufficiently understood."
+ethics_perspective: "AI Safety & Alignment"
+data_description: "Evaluation framework dataset"
+data_metrics: "Not specified"
+---
+# VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models
+
+## Authors
+
+[[Unknown]]
+
+## Metadata
+
+**Authors:** Unknown
+
+**Year:** 2026
+
+**Type:** preprint
+
+**Venue:** arXiv preprint
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2602.03160
+
+## Abstract
+
+Aligning Large Language Models (LLMs) with the diverse spectrum of human values remains a central challenge: preference-based methods often fail to capture deeper motivational principles. Value-based approaches offer a more principled path, yet three gaps persist– extraction often ignores hierarchical structure, evaluation detects presence but not calibrated intensity, and therefore, the steerability of LLMs at controlled intensities remains insufficiently understood. To address these limitations, we introduce VALUEFLOW, the first unified framework that spans extraction, evaluation, and steering with calibrated intensity control. The framework integrates three components: (i) HIVES, a hierarchical value embedding space that captures intra- and crosstheory value structure; (ii) the Value Intensity DataBase (VIDB), a large-scale resource of valuelabeled texts with intensity estimates derived from ranking-based aggregation; and (iii) an anchorbased evaluator that produces consistent intensity scores for model outputs by ranking them against VIDB panels. Using VALUEFLOW, we conduct a comprehensive large-scale study across ten models and four value theories, identifying asymmetries in steerability and composition laws for multi-value control. This paper establishes a scalable infrastructure for evaluating and controlling value intensity, advancing pluralistic alignment of LLMs.
+
+## Dataset Information
+
+See report
+
+## Notes
+
+**Source:** Exhaustive Literature Search (2026-02-07), Agent 7-8, Agent 1
+**Implementation Readiness:** MEDIUM
+
+## Tags
+

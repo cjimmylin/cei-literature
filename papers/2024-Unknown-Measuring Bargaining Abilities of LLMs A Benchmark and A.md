@@ -1,0 +1,71 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0195
+type: conferencePaper
+short_title: "Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method"
+year: 2024
+first_author: "[[Unknown]]"
+authors: Unknown
+url: "https://arxiv.org/abs/2402.15813"
+external_pdf: "https://arxiv.org/pdf/2402.15813.pdf"
+local_pdf: "[[PDFs/2024-Unknown-Measuring Bargaining Abilities of LLMs A Benchmark and A.pdf]]"
+pdf_extract: "PDF Extracts/2024-Unknown-Measuring Bargaining Abilities of LLMs A Benchmark and A.md"
+publication: ACL 2024
+DATE_ADDED: 20260207
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "American"
+religious_values: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+tags: 
+abstract: "Bargaining is an important and unique part of negotiation between humans. As LLM-driven agents learn to negotiate and act like real humans, how to evaluate agents’ bargaining abilities remains an open problem. For the first time, we formally described the Bargaining task as an asymmetric incomplete information game, defining the gains of the Buyer and Seller in multiple bargaining processes. It allows us to quantitatively assess an agent’s performance in the Bargain task."
+research_topic: "AI Safety & Alignment"
+data_description: "Benchmark dataset"
+data_metrics: "Not specified"
+---
+# Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method
+
+## Authors
+
+[[Unknown]]
+
+## Metadata
+
+**Authors:** Unknown
+
+**Year:** 2024
+
+**Type:** conferencePaper
+
+**Venue:** ACL 2024
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2402.15813
+- **Code/Data:** https://github.com/TianXiaSJTU/AmazonPriceHistory
+
+## Abstract
+
+Bargaining is an important and unique part of negotiation between humans. As LLM-driven agents learn to negotiate and act like real humans, how to evaluate agents’ bargaining abilities remains an open problem. For the first time, we formally described the Bargaining task as an asymmetric incomplete information game, defining the gains of the Buyer and Seller in multiple bargaining processes. It allows us to quantitatively assess an agent’s performance in the Bargain task. We collected a real product price dataset, AmazonHistoryPrice, and conducted evaluations of various LLM agents’ bargaining abilities1. We find that playing a Buyer is much harder than a Seller, and increasing model size can not effectively improve the Buyer’s performance. To address the challenge, we propose a novel approach called OGNarrator that integrates a deterministic Offer Generator to control the price range of Buyer’s offers, and an LLM Narrator to create natural language sentences for generated offers. Experimental results show that OG-Narrator improves the buyer’s deal rates from 26.67% to 88.88% and brings a ten times multiplication of profits on all baselines, even a model that has not been aligned.
+
+## Dataset Information
+
+AmazonHistoryPrice dataset -- 930 popular products across 18 categories with real price data (lowest/highest/current/list price, descriptions, features); multi-round bargaining format
+
+## Notes
+
+**Source:** Exhaustive Literature Search (2026-02-07), Agent 18
+**Implementation Readiness:** HIGH
+
+## Tags
+

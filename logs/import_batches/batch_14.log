@@ -1,0 +1,30 @@
+Parsed 300 entries from master list
+Processing entries 261-280 (20 papers)
+
+  [261] CREATED: 2025-Becker-The Moralization Corpus.md
+  [262] CREATED: 2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical.md
+  [263] CREATED: 2026-Elkins-Negation Sensitivity Index NSI.md
+  [264] CREATED: 2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters.md
+  [265] CREATED: 2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks.md
+  [266] CREATED: 2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models.md
+  [267] CREATED: 2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset.md
+  [268] CREATED: 2025-Huang-BehaviorBench Multi-Tier Benchmark for Agent Behavior Editing.md
+  [269] CREATED: 2025-Wu-C-VARC Chinese Value Rule Corpus.md
+  [270] CREATED: 2025-Gao-MIST Moral Inference through Storytelling with Text and Images.md
+  [271] CREATED: 2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value.md
+  [272] CREATED: 2025-Liu-CQ-Bench Cultural Intelligence Benchmark for LLMs.md
+  [273] CREATED: 2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs.md
+  [274] CREATED: 2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.md
+  [275] CREATED: 2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized.md
+  [276] CREATED: 2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs.md
+  [277] CREATED: 2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values.md
+  [278] CREATED: 2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md
+  [279] CREATED: 2024-Ramezani-Moral Association Graph Cognitive Model for Interpretable Moral.md
+  [280] CREATED: 2025-Wang-Multimodal Understanding of Human Values in Videos.md
+
+==================================================
+BATCH 261-280 SUMMARY
+  Created: 20
+  Skipped: 0
+  Errors:  0
+==================================================

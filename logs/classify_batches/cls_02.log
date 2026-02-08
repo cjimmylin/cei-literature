@@ -1,0 +1,39 @@
+Total papers needing processing: 264
+Processing positions 28-54 (27 papers)
+
+  [ 28] OK (ABS, E=Yes): 2024-Guldimann-COMPL-AI EU AI Act Compliance
+  [ 29] OK (ABS, E=Yes): 2024-Gupta-WalledEval
+  [ 30] OK (ABS, E=Yes): 2024-Han-WildGuard WildGuardTest
+  [ 31] OK (ABS, E=Yes): 2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values
+  [ 32] OK (ABS, E=Yes): 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public
+  [ 33] OK (---, E=No): 2024-Huang-Flames
+  [ 34] OK (ABS, E=Yes): 2024-Jin-MULTITP - Language Model Alignment in Multilingual Trolley Problems
+  [ 35] OK (---, E=Yes): 2024-Jinnai-Does Cross-Cultural Alignment Change the Commonsense Morality of
+  [ 36] OK (ABS, E=Yes): 2024-Kaneko-Eagle Ethical Dataset Given from Real Interactions
+  [ 37] OK (---, E=No): 2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in...
+  [ 38] OK (---, E=No): 2024-Khandelwal-Multilingual Defining Issues Test
+  [ 39] OK (ABS, E=Yes): 2024-Kirk-PRISM Alignment Dataset
+  [ 40] OK (ABS, E=Yes): 2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and
+  [ 41] OK (ABS, E=No): 2024-Li-WMDP Benchmark Measuring and Reducing Malicious Use With Unlearning
+  [ 42] OK (ABS, E=Yes): 2024-Liu-JAILJUDGE
+  [ 43] OK (ABS, E=Yes): 2024-Moore-Intuitions of Compromise - Utilitarianism vs. Contractualism
+  [ 44] OK (---, E=Yes): 2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and
+  [ 45] OK (ABS, E=Yes): 2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on
+  [ 46] OK (---, E=Yes): 2024-Ramezani-Moral Association Graph Cognitive Model for Interpretable Moral
+  [ 47] OK (ABS, E=Yes): 2024-Ren-Safetywashing Do AI Safety Benchmarks Actually Measure Safety Progress
+  [ 48] OK (ABS, E=Yes): 2024-Rottger-Political Compass or Spinning Arrow
+  [ 49] OK (ABS, E=Yes): 2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety
+  [ 50] OK (---, E=No): 2024-Rozado-The Political Preferences of LLMs
+  [ 51] OK (---, E=Yes): 2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation
+  [ 52] OK (ABS, E=Yes): 2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context
+  [ 53] OK (ABS, E=No): 2024-Sharma-Towards Understanding Sycophancy in Language Models
+  [ 54] OK (---, E=Yes): 2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas
+
+==================================================
+BATCH 28-54 SUMMARY
+  Processed:       27
+  Errors:          0
+  Skipped:         0
+  Abstracts found: 18/27
+  Ethics=Yes:      21/27
+==================================================

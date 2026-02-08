@@ -1,0 +1,70 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0003
+type: conferencePaper
+short_title: BiasJailbreak
+year: 2026
+first_author: "[[Isack Lee]]"
+authors: Isack Lee, Haebin Seong
+url: "https://arxiv.org/abs/2410.13334"
+external_pdf: "https://arxiv.org/pdf/2410.13334.pdf"
+local_pdf: "[[PDFs/2026-Lee-BiasJailbreak.pdf]]"
+pdf_extract: "PDF Extracts/2026-Lee-BiasJailbreak.md"
+publication: AAAI 2026
+DATE_ADDED: 20260207
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+tags: 
+abstract: "Warning: This paper contains potentially offensive and harmful text. Although large language models (LLMs) demonstrate impressive proficiency in various tasks, they present potential safety risks, such as ‘jailbreaks’, where malicious inputs can coerce LLMs into generating harmful content bypassing safety alignments. In this paper, we delve into the ethical biases in LLMs and examine how those biases could be exploited for jailbreaks."
+ethics_perspective: "AI Safety & Alignment"
+data_description: "N/A"
+data_metrics: "Not specified"
+---
+# BiasJailbreak
+
+## Authors
+
+[[Isack Lee, Haebin Seong]]
+
+## Metadata
+
+**Authors:** Isack Lee, Haebin Seong
+
+**Year:** 2026
+
+**Type:** conferencePaper
+
+**Venue:** AAAI 2026
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2410.13334
+
+## Abstract
+
+Warning: This paper contains potentially offensive and harmful text. Although large language models (LLMs) demonstrate impressive proficiency in various tasks, they present potential safety risks, such as ‘jailbreaks’, where malicious inputs can coerce LLMs into generating harmful content bypassing safety alignments. In this paper, we delve into the ethical biases in LLMs and examine how those biases could be exploited for jailbreaks. Notably, these biases result in a jailbreaking success rate in GPT-4o models that differs by 20% between non-binary and cisgender keywords and by 16% between white and black keywords, even when the other parts of the prompts are identical. We introduce the concept of BiasJailbreak, highlighting the inherent risks posed by these safety-induced biases. BiasJailbreak generates biased keywords automatically by asking the target LLM itself, and utilizes the keywords to generate harmful output. Additionally, we propose an efficient defense method BiasDefense, which prevents jailbreak attempts by injecting defense prompts prior to generation. BiasDefense stands as an appealing alternative to Guard Models, such as Llama-Guard, that require additional inference cost after text generation. Our findings emphasize that ethical biases in LLMs can actually lead to generating unsafe output, and suggest a method to make the LLMs more secure and unbiased. To enable further research and improvements, we open-source our code and artifacts of BiasJailbreak, providing the community with tools to better understand and mitigate safety-induced biases in LLMs. Code and Artifacts — https://github.com/Isaac-theori/BiasJailbreak
+
+## Dataset Information
+
+Adversarial prompts with systematically varied demographic keywords
+
+## Notes
+
+**Source:** Exhaustive Literature Search (2026-02-07), Agent 16
+**Implementation Readiness:** MEDIUM
+
+## Tags
+

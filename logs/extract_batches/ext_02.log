@@ -1,0 +1,35 @@
+Total papers needing extraction: 211
+Processing positions 19-33 (15 papers)
+
+  [ 19] OK (40pp, 140KB): 2024-Duan-DeNEVIL MoralPrompt
+  [ 20] OK (8pp, 37KB): 2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reaso
+  [ 21] OK (38pp, 141KB): 2024-Guldimann-COMPL-AI EU AI Act Compliance
+  [ 22] OK (11pp, 40KB): 2024-Gupta-WalledEval
+  [ 23] OK (38pp, 100KB): 2024-Han-WildGuard WildGuardTest
+  [ 24] OK (18pp, 89KB): 2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Huma
+  [ 25] OK (23pp, 113KB): 2024-Huang-Collective Constitutional AI Aligning a Language Model with
+  [ 26] OK (30pp, 98KB): 2024-Jin-MULTITP - Language Model Alignment in Multilingual Trolley Pr
+  [ 27] OK (15pp, 61KB): 2024-Kaneko-Eagle Ethical Dataset Given from Real Interactions
+  [ 28] OK (15pp, 54KB): 2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Bi
+  [ 29] OK (107pp, 365KB): 2024-Kirk-PRISM Alignment Dataset
+  [ 30] OK (20pp, 71KB): 2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignme
+MuPDF error: syntax error: could not parse color space (287 0 R)
+
+MuPDF error: syntax error: could not parse color space (417 0 R)
+
+MuPDF error: syntax error: could not parse color space (628 0 R)
+
+MuPDF error: syntax error: could not parse color space (917 0 R)
+
+MuPDF error: syntax error: could not parse color space (994 0 R)
+
+  [ 31] OK (31pp, 103KB): 2024-Li-WMDP Benchmark Measuring and Reducing Malicious Use With Unlea
+  [ 32] OK (32pp, 108KB): 2024-Liu-JAILJUDGE
+  [ 33] OK (42pp, 155KB): 2024-Moore-Intuitions of Compromise - Utilitarianism vs. Contractualis
+
+==================================================
+BATCH 19-33 SUMMARY
+  Extracted: 15
+  Skipped:   0
+  Failed:    0
+==================================================

@@ -1,0 +1,30 @@
+Parsed 300 entries from master list
+Processing entries 201-220 (20 papers)
+
+  [201] SKIP (exists): 2024-Ji-MoralBench.md
+  [202] CREATED: 2024-Khandelwal-Multilingual Defining Issues Test.md
+  [203] CREATED: 2024-Unknown-NegotiationArena How Well Can LLMs Negotiate.md
+  [204] CREATED: 2024-Unknown-Norm Inconsistency in LLM Decision-Making.md
+  [205] CREATED: 2024-Unknown-On The Stability of Moral Preferences A Problem with Computational.md
+  [206] CREATED: 2024-Unknown-On the Pros and Cons of Active Learning for Moral Preference.md
+  [207] CREATED: 2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and.md
+  [208] CREATED: 2024-Kirk-PRISM Alignment Dataset.md
+  [209] CREATED: 2024-Authors-Pluralistic Alignment Over Time.md
+  [210] CREATED: 2024-Rottger-Political Compass or Spinning Arrow.md
+  [211] SKIP (exists): 2024-Li-SALAD-Bench.md
+  [212] CREATED: 2024-Tom-SG-Bench - Evaluating LLM Safety Generalization.md
+  [213] CREATED: 2024-Bonagiri-SaGE Semantic Graph Entropy Moral Consistency Corpus.md
+  [214] CREATED: 2024-Debenedetti-SaTML LLM CTF Dataset.md
+  [215] CREATED: 2024-Yin-SafeAgentBench.md
+  [216] CREATED: 2024-Zhang-SafetyBench Evaluating the Safety of Large Language Models.md
+  [217] CREATED: 2024-Ren-Safetywashing Do AI Safety Benchmarks Actually Measure Safety Progress.md
+  [218] CREATED: 2024-Yuan-Social Measuring Social Norms of LLMs.md
+  [219] CREATED: 2024-Unknown-Synth-Empathy Towards High-Quality Synthetic Empathy Data.md
+  [220] CREATED: 2024-Unknown-The Emergence of Strategic Reasoning of Large Language Models.md
+
+==================================================
+BATCH 201-220 SUMMARY
+  Created: 18
+  Skipped: 2
+  Errors:  0
+==================================================

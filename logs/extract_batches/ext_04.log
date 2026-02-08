@@ -1,0 +1,25 @@
+Total papers needing extraction: 211
+Processing positions 49-63 (15 papers)
+
+  [ 49] OK (29pp, 89KB): 2024-Unknown-GTBench Uncovering the Strategic Reasoning Limitations of
+  [ 50] OK (19pp, 76KB): 2024-Unknown-LLM Voting Human Choices and AI Collective Decision-Makin
+  [ 51] OK (18pp, 83KB): 2024-Unknown-MAgIC Investigation of Large Language Model Powered Multi
+  [ 52] OK (24pp, 76KB): 2024-Unknown-Measuring Bargaining Abilities of LLMs A Benchmark and A
+  [ 53] OK (16pp, 70KB): 2024-Unknown-NegotiationArena How Well Can LLMs Negotiate
+  [ 54] OK (16pp, 60KB): 2024-Unknown-Norm Inconsistency in LLM Decision-Making
+  [ 55] OK (27pp, 70KB): 2024-Unknown-On The Stability of Moral Preferences A Problem with Comp
+  [ 56] OK (30pp, 85KB): 2024-Unknown-On the Pros and Cons of Active Learning for Moral Prefere
+  [ 57] OK (10pp, 51KB): 2024-Unknown-Synth-Empathy Towards High-Quality Synthetic Empathy Data
+  [ 58] OK (58pp, 122KB): 2024-Unknown-The Emergence of Strategic Reasoning of Large Language Mo
+  [ 59] OK (22pp, 78KB): 2024-Unknown-Towards Geographic Inclusion in the Evaluation of Text-to
+  [ 60] OK (21pp, 94KB): 2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Inc
+  [ 61] OK (18pp, 68KB): 2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Bi
+  [ 62] OK (17pp, 67KB): 2024-Yanaka-JBBQ Japanese Bias Benchmark for Question Answering
+  [ 63] OK (23pp, 81KB): 2024-Yao-CLAVE ValEval
+
+==================================================
+BATCH 49-63 SUMMARY
+  Extracted: 15
+  Skipped:   0
+  Failed:    0
+==================================================

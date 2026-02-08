@@ -1,0 +1,25 @@
+Total papers needing extraction: 211
+Processing positions 4-18 (15 papers)
+
+  [  4] OK (19pp, 69KB): 2022-Schramowski-I2P Inappropriate Image Prompts Test Bed
+  [  5] OK (19pp, 78KB): 2022-Ziems-Moral Integrity Corpus MIC
+  [  6] OK (27pp, 86KB): 2023-Ji-BeaverTails
+  [  7] OK (47pp, 135KB): 2023-Ojo-AfroBench - How Good are LLMs on African Languages
+  [  8] OK (43pp, 84KB): 2023-Santurkar-OpinionQA
+  [  9] OK (15pp, 45KB): 2023-Tanmay-Probing Moral Development through Defining Issues Test DIT
+  [ 10] OK (11pp, 35KB): 2023-Unknown-EtiCor Corpus for Analyzing LLMs for Etiquettes
+  [ 11] OK (15pp, 50KB): 2023-Xu-CValues - Measuring the Values of Chinese LLMs from Safety to
+  [ 12] OK (26pp, 117KB): 2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age
+  [ 13] OK (5pp, 28KB): 2024-Authors-Edu-Values - Evaluating Chinese Education Values of LLMs
+  [ 14] OK (6pp, 22KB): 2024-Authors-Pluralistic Alignment Over Time
+  [ 15] OK (16pp, 64KB): 2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is 
+  [ 16] OK (13pp, 51KB): 2024-Bonagiri-SaGE Semantic Graph Entropy Moral Consistency Corpus
+  [ 17] OK (25pp, 79KB): 2024-Chao-JailbreakBench - An Open Robustness Benchmark
+  [ 18] OK (23pp, 77KB): 2024-Debenedetti-SaTML LLM CTF Dataset
+
+==================================================
+BATCH 4-18 SUMMARY
+  Extracted: 15
+  Skipped:   0
+  Failed:    0
+==================================================

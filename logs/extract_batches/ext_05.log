@@ -1,0 +1,25 @@
+Total papers needing extraction: 211
+Processing positions 64-78 (15 papers)
+
+  [ 64] OK (18pp, 68KB): 2024-Yao-Value FULCRA
+  [ 65] OK (28pp, 82KB): 2024-Yin-SafeAgentBench
+  [ 66] OK (50pp, 344KB): 2024-Yuan-Social Measuring Social Norms of LLMs
+  [ 67] OK (26pp, 76KB): 2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents
+  [ 68] OK (16pp, 40KB): 2024-Zhang-CHiSafetyBench - A Chinese Hierarchical Safety Benchmark fo
+  [ 69] OK (17pp, 53KB): 2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in 
+  [ 70] OK (17pp, 62KB): 2024-Zhang-SafetyBench Evaluating the Safety of Large Language Models
+  [ 71] OK (42pp, 119KB): 2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via
+  [ 72] OK (18pp, 90KB): 2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Ali
+  [ 73] OK (14pp, 35KB): 2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in 
+  [ 74] OK (14pp, 33KB): 2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Fram
+  [ 75] OK (41pp, 128KB): 2025-Ashkinaze-Deep Value Benchmark
+  [ 76] OK (26pp, 75KB): 2025-Authors-COIG-P - Chinese Preference Dataset for Alignment with Hu
+  [ 77] OK (50pp, 194KB): 2025-Authors-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian
+  [ 78] OK (16pp, 80KB): 2025-Authors-IndiCASA - Dataset and Bias Evaluation Framework for LLMs
+
+==================================================
+BATCH 64-78 SUMMARY
+  Extracted: 15
+  Skipped:   0
+  Failed:    0
+==================================================

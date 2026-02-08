@@ -1,0 +1,25 @@
+Total papers needing extraction: 211
+Processing positions 139-153 (15 papers)
+
+  [139] OK (35pp, 137KB): 2025-Unknown-AI Alignment at Your Discretion
+  [140] OK (17pp, 59KB): 2025-Unknown-ALYMPICS LLM Agents Meet Game Theory
+  [141] OK (20pp, 104KB): 2025-Unknown-Can We Trust AI Benchmarks An Interdisciplinary Review
+  [142] OK (39pp, 133KB): 2025-Unknown-ConflictScope Generative Value Conflicts Reveal LLM Prior
+  [143] OK (21pp, 61KB): 2025-Unknown-D-REX A Benchmark for Detecting Deceptive Reasoning in La
+  [144] OK (28pp, 149KB): 2025-Unknown-DeceptionBench A Comprehensive Benchmark for AI Deception
+  [145] OK (15pp, 56KB): 2025-Unknown-Diagnosing Moral Reasoning Acquisition in Language Models
+  [146] OK (20pp, 47KB): 2025-Unknown-EQ-Bench An Emotional Intelligence Benchmark for Large La
+  [147] OK (29pp, 134KB): 2025-Unknown-EmoBench-M Benchmarking Emotional Intelligence for Multim
+  [148] OK (22pp, 79KB): 2025-Unknown-EtiCor++ Towards Understanding Etiquettical Bias in LLMs
+  [149] OK (26pp, 86KB): 2025-Unknown-From Surveys to Narratives Rethinking Cultural Value Adap
+  [150] OK (27pp, 110KB): 2025-Unknown-GAMEBoT Transparent Assessment of LLM Reasoning in Games
+  [151] OK (34pp, 141KB): 2025-Unknown-HumaniBench A Human-Centric Framework for Large Multimoda
+  [152] OK (10pp, 38KB): 2025-Unknown-LLM Rationalis Measuring Bargaining Capabilities of AI Ne
+  [153] OK (13pp, 52KB): 2025-Unknown-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gam
+
+==================================================
+BATCH 139-153 SUMMARY
+  Extracted: 15
+  Skipped:   0
+  Failed:    0
+==================================================

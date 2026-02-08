@@ -1,0 +1,71 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0076
+type: conferencePaper
+short_title: LegalAgentBench
+year: 2025
+first_author: "[[Haitao Li]]"
+authors: Haitao Li et al.
+url: "https://arxiv.org/abs/2412.17259"
+external_pdf: "https://arxiv.org/pdf/2412.17259.pdf"
+local_pdf: "[[PDFs/2025-Li-LegalAgentBench.pdf]]"
+pdf_extract: "PDF Extracts/2025-Li-LegalAgentBench.md"
+publication: ACL 2025
+DATE_ADDED: 20260207
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
+religious_values: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+tags: 
+abstract: "With the increasing intelligence and autonomy of LLM agents, their potential applications in the legal domain are becoming increasingly apparent. However, existing general-domain benchmarks cannot fully capture the complexity and subtle nuances of real-world judicial cognition and decision-making. Therefore, we propose LegalAgentBench, a comprehensive benchmark specifically designed to evaluate LLM Agents in the Chinese legal domain."
+research_topic: "Machine Learning"
+data_description: "Benchmark annotated dataset"
+data_metrics: "Not specified"
+---
+# LegalAgentBench
+
+## Authors
+
+[[Haitao Li et al.]]
+
+## Metadata
+
+**Authors:** Haitao Li et al.
+
+**Year:** 2025
+
+**Type:** conferencePaper
+
+**Venue:** ACL 2025
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2412.17259
+- **Code/Data:** https://github.com/CSHaitao/LegalAgentBench](https://github.com/CSHaitao/LegalAgentBench
+
+## Abstract
+
+With the increasing intelligence and autonomy of LLM agents, their potential applications in the legal domain are becoming increasingly apparent. However, existing general-domain benchmarks cannot fully capture the complexity and subtle nuances of real-world judicial cognition and decision-making. Therefore, we propose LegalAgentBench, a comprehensive benchmark specifically designed to evaluate LLM Agents in the Chinese legal domain. LegalAgentBench includes 17 corpora from real-world legal scenarios and provides 37 tools for interacting with external knowledge. We designed a scalable task construction framework and carefully annotated 300 tasks. These tasks span various types, including multi-hop reasoning and writing, and range across different difficulty levels, effectively reflecting the complexity of real-world legal scenarios. Moreover, beyond evaluating final success, LegalAgentBench incorporates keyword analysis during intermediate processes to calculate progress rates, enabling more fine-grained evaluation. We evaluated eight popular LLMs, highlighting the strengths, limitations, and potential areas for improvement of existing models and methods. LegalAgentBench sets a new benchmark for the practical application of LLMs in the legal domain, with its code and data available at https://github.com/CSHaitao/ LegalAgentBench.
+
+## Dataset Information
+
+300 carefully annotated tasks
+
+## Notes
+
+**Source:** Exhaustive Literature Search (2026-02-07), Agent 14
+**Implementation Readiness:** HIGH
+
+## Tags
+

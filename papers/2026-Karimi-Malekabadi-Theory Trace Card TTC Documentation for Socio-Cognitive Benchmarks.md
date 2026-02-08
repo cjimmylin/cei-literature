@@ -1,0 +1,70 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0265
+type: preprint
+short_title: "Theory Trace Card (TTC): Documentation for Socio-Cognitive Benchmarks"
+year: 2026
+first_author: "[[F. Karimi-Malekabadi]]"
+authors: Karimi-Malekabadi, F. et al.
+url: "https://arxiv.org/abs/2601.01878"
+external_pdf: "https://arxiv.org/pdf/2601.01878.pdf"
+local_pdf: "[[PDFs/2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks.pdf]]"
+pdf_extract: "PDF Extracts/2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks.md"
+publication: arXiv
+DATE_ADDED: 20260207
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+tags: 
+abstract: "Socio-cognitive benchmarks for large language models (LLMs) often fail to predict real-world behavior, even when models achieve high benchmark scores. Prior work has attributed this evaluation–deployment gap to problems of measurement and validity. While these critiques are insightful, we argue that they overlook a more fundamental issue: many sociocognitive evaluations proceed without an explicit theoretical specification of the target capability, leaving the assumptions linking task..."
+research_topic: "Machine Learning"
+data_description: "Benchmark"
+data_metrics: "Not specified"
+---
+# Theory Trace Card (TTC): Documentation for Socio-Cognitive Benchmarks
+
+## Authors
+
+[[Karimi-Malekabadi, F. et al.]]
+
+## Metadata
+
+**Authors:** Karimi-Malekabadi, F. et al.
+
+**Year:** 2026
+
+**Type:** preprint
+
+**Venue:** arXiv
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2601.01878
+
+## Abstract
+
+Socio-cognitive benchmarks for large language models (LLMs) often fail to predict real-world behavior, even when models achieve high benchmark scores. Prior work has attributed this evaluation–deployment gap to problems of measurement and validity. While these critiques are insightful, we argue that they overlook a more fundamental issue: many sociocognitive evaluations proceed without an explicit theoretical specification of the target capability, leaving the assumptions linking task performance to competence implicit. Without this theoretical grounding, benchmarks that exercise only narrow subsets of a capability are routinely misinterpreted as evidence of broad competence: a gap that creates a systemic validity illusion by masking the failure to evaluate the capability’s other essential dimensions. To address this gap, we make two contributions. First, we diagnose and formalize this theory gap as a foundational failure that undermines measurement and enables systematic overgeneralization of benchmark results. Second, we introduce the THEORY TRACE CARD (TTC), a lightweight documentation artifact designed to accompany socio-cognitive evaluations, which explicitly outlines the theoretical basis of an evaluation, the components of the target capability it exercises, its operationalization, and its limitations. We argue that TTCs enhance the interpretability and reuse of socio-cognitive evaluations by making explicit the full validity chain, which links theory, task operationalization, scoring, and limitations, without modifying benchmarks or requiring agreement on a single theory.
+
+## Dataset Information
+
+Documentation artifact making explicit the theoretical basis of moral reasoning evaluations
+
+## Notes
+
+**Source:** Exhaustive Literature Search (2026-02-07), Agent 1 (Citation Graph)
+**Implementation Readiness:** LOW
+
+## Tags
+

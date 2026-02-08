@@ -1,0 +1,30 @@
+Parsed 300 entries from master list
+Processing entries 161-180 (20 papers)
+
+  [161] CREATED: 2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.md
+  [162] CREATED: 2024-Kaneko-Eagle Ethical Dataset Given from Real Interactions.md
+  [163] CREATED: 2024-Authors-Edu-Values - Evaluating Chinese Education Values of LLMs.md
+  [164] CREATED: 2024-Unknown-EmoBench Evaluating the Emotional Intelligence of Large Language.md
+  [165] CREATED: 2024-Unknown-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional.md
+  [166] CREATED: 2024-Unknown-EmotionQueen A Benchmark for Evaluating Empathy of Large Language.md
+  [167] CREATED: 2024-Unknown-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal.md
+  [168] CREATED: 2024-Agarwal-Ethical Reasoning and Moral Value Alignment Multilingual.md
+  [169] SKIP (similar): 2024-Agarwal-Ethical Reasoning and Moral Value Alignment of LLMs Depend on the.md ~ 2024-Agarwal-Ethical Reasoning and Moral Value Alignment Multilingual.md
+  [170] SKIP (similar): 2024-Liu-Evaluating Moral Beliefs Pluralistic Framework.md ~ 2024-Liu-Evaluating Moral Beliefs across LLMs through a.md
+  [171] SKIP (similar): 2024-Liu-Evaluating Moral Beliefs across LLMs through a Pluralistic Framework.md ~ 2024-Liu-Evaluating Moral Beliefs across LLMs through a.md
+  [172] SKIP (similar): 2024-Ohashi-Extended Japanese Commonsense Morality Dataset eJCM.md ~ 2024-Ohashi-Extended Japanese Commonsense Morality Dataset.md
+  [173] CREATED: 2024-Team-FABLE Fairness and Bias in LLM Evaluation.md
+  [174] CREATED: 2024-Wang-Fake Alignment FINE Framework.md
+  [175] CREATED: 2024-Huang-Flames.md
+  [176] CREATED: 2024-Unknown-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via.md
+  [177] CREATED: 2024-Unknown-Gaps in the Safety Evaluation of Generative AI.md
+  [178] CREATED: 2024-Bajaj-GenMO Gender-bias in Morality Opinions.md
+  [179] CREATED: 2024-Team-GuardBench.md
+  [180] SKIP (exists): 2024-Mazeika-HarmBench.md
+
+==================================================
+BATCH 161-180 SUMMARY
+  Created: 15
+  Skipped: 5
+  Errors:  0
+==================================================

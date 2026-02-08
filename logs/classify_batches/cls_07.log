@@ -1,0 +1,39 @@
+Total papers needing processing: 264
+Processing positions 163-189 (27 papers)
+
+  [163] OK (ABS, E=Yes): 2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in
+  [164] OK (---, E=Yes): 2025-Oh-Robustness of Large Language Models in Moral Judgements
+  [165] OK (ABS, E=Yes): 2025-Pandey-SocialHarmBench
+  [166] OK (ABS, E=Yes): 2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs
+  [167] OK (ABS, E=Yes): 2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models
+  [168] OK (ABS, E=Yes): 2025-Rozen-Do LLMs Have Consistent Values
+  [169] OK (ABS, E=Yes): 2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion
+  [170] OK (ABS, E=Yes): 2025-Shen-ValueActionLens Mind the Value-Action Gap
+  [171] OK (ABS, E=Yes): 2025-Shetty-VITAL Pluralistic Alignment in Healthcare
+  [172] OK (ABS, E=Yes): 2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial
+  [173] OK (ABS, E=Yes): 2025-Solaiman-BiasLab Political Bias Detection - News Articles
+  [174] OK (ABS, E=Yes): 2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM
+  [175] OK (ABS, E=Yes): 2025-Sun-CASE-Bench Context-Aware SafEty Benchmark
+  [176] OK (ABS, E=Yes): 2025-Takeshita-JETHICS - Japanese Ethics Understanding Evaluation Dataset
+  [177] OK (ABS, E=Yes): 2025-Trager-MFTCXplain A Multilingual Benchmark Dataset for Evaluating the Moral
+  [178] OK (ABS, E=Yes): 2025-Unknown-AI Alignment at Your Discretion
+  [179] OK (---, E=Yes): 2025-Unknown-AI Language Model Rivals Expert Ethicist in Perceived Moral Expe...
+  [180] OK (ABS, E=No): 2025-Unknown-ALYMPICS LLM Agents Meet Game Theory
+  [181] OK (---, E=No): 2025-Unknown-Awesome-LLM-Eval Repository Meta-Resource
+  [182] OK (ABS, E=Yes): 2025-Unknown-Can We Trust AI Benchmarks An Interdisciplinary Review
+  [183] OK (ABS, E=Yes): 2025-Unknown-ConflictScope Generative Value Conflicts Reveal LLM Priorities
+  [184] OK (ABS, E=Yes): 2025-Unknown-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Lan...
+  [185] OK (ABS, E=No): 2025-Unknown-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors
+  [186] OK (ABS, E=Yes): 2025-Unknown-Diagnosing Moral Reasoning Acquisition in Language Models Pragma...
+  [187] OK (---, E=Yes): 2025-Unknown-Do Your Guardrails Even Guard Evaluating Moderation Guardrails for
+  [188] OK (ABS, E=No): 2025-Unknown-EQ-Bench An Emotional Intelligence Benchmark for Large Language ...
+  [189] OK (ABS, E=No): 2025-Unknown-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large
+
+==================================================
+BATCH 163-189 SUMMARY
+  Processed:       27
+  Errors:          0
+  Skipped:         0
+  Abstracts found: 23/27
+  Ethics=Yes:      22/27
+==================================================

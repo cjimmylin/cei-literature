@@ -1,0 +1,27 @@
+Total papers needing extraction: 211
+Processing positions 34-48 (15 papers)
+
+  [ 34] OK (46pp, 141KB): 2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influe
+MuPDF error: syntax error: could not parse color space (773 0 R)
+
+  [ 35] OK (43pp, 128KB): 2024-Ren-Safetywashing Do AI Safety Benchmarks Actually Measure Safety
+  [ 36] OK (17pp, 66KB): 2024-Rottger-Political Compass or Spinning Arrow
+  [ 37] OK (19pp, 102KB): 2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM 
+  [ 38] OK (21pp, 84KB): 2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Co
+  [ 39] OK (35pp, 115KB): 2024-Sharma-Towards Understanding Sycophancy in Language Models
+  [ 40] OK (48pp, 177KB): 2024-Sorensen-Value Kaleidoscope ValuePrism
+  [ 41] OK (21pp, 76KB): 2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark
+  [ 42] OK (23pp, 86KB): 2024-Tom-SG-Bench - Evaluating LLM Safety Generalization
+  [ 43] OK (11pp, 37KB): 2024-Unknown-BELLS A Framework Towards Future Proof Benchmarks for the
+  [ 44] OK (45pp, 182KB): 2024-Unknown-Cooperation Competition and Maliciousness LLM-Stakeholder
+  [ 45] OK (19pp, 76KB): 2024-Unknown-EmoBench Evaluating the Emotional Intelligence of Large L
+  [ 46] OK (30pp, 99KB): 2024-Unknown-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emo
+  [ 47] OK (29pp, 103KB): 2024-Unknown-EmotionQueen A Benchmark for Evaluating Empathy of Large 
+  [ 48] OK (12pp, 50KB): 2024-Unknown-EmpathicStories++ A Multimodal Dataset for Empathy toward
+
+==================================================
+BATCH 34-48 SUMMARY
+  Extracted: 15
+  Skipped:   0
+  Failed:    0
+==================================================

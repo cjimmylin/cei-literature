@@ -1,0 +1,30 @@
+Parsed 300 entries from master list
+Processing entries 221-240 (20 papers)
+
+  [221] SKIP (similar): 2024-Marraffini-The Greatest Good Benchmark Utilitarian Moral Dilemmas.md ~ 2024-Marraffini-The Greatest Good Benchmark.md
+  [222] CREATED: 2024-Rozado-The Political Preferences of LLMs.md
+  [223] CREATED: 2024-Unknown-Towards Geographic Inclusion in the Evaluation of Text-to-Image Models.md
+  [224] CREATED: 2024-Sharma-Towards Understanding Sycophancy in Language Models.md
+  [225] SKIP (exists): 2024-Huang-TrustLLM.md
+  [226] CREATED: 2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation.md
+  [227] CREATED: 2024-Yao-Value FULCRA.md
+  [228] CREATED: 2024-Sorensen-Value Kaleidoscope ValuePrism.md
+  [229] CREATED: 2024-Li-WMDP Benchmark Measuring and Reducing Malicious Use With Unlearning.md
+  [230] CREATED: 2024-Gupta-WalledEval.md
+  [231] SKIP (similar): 2024-Aksoy-Whose Morality Do They Speak Unraveling Cultural Bias in Multilingual.md ~ 2024-Aksoy-Whose Morality Do They Speak.md
+  [232] CREATED: 2024-Han-WildGuard WildGuardTest.md
+  [233] CREATED: 2023-Ojo-AfroBench - How Good are LLMs on African Languages.md
+  [234] CREATED: 2023-Ji-BeaverTails.md
+  [235] CREATED: 2023-Xu-CValues - Measuring the Values of Chinese LLMs from Safety to.md
+  [236] SKIP (exists): 2023-Wang-DecodingTrust.md
+  [237] CREATED: 2023-Unknown-EtiCor Corpus for Analyzing LLMs for Etiquettes.md
+  [238] SKIP (exists): 2023-Guha-LegalBench.md
+  [239] SKIP (exists): 2023-Ziems-NormBank.md
+  [240] CREATED: 2023-Santurkar-OpinionQA.md
+
+==================================================
+BATCH 221-240 SUMMARY
+  Created: 14
+  Skipped: 6
+  Errors:  0
+==================================================

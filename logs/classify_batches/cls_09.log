@@ -1,0 +1,39 @@
+Total papers needing processing: 264
+Processing positions 217-243 (27 papers)
+
+  [217] OK (ABS, E=No): 2025-Unknown-SI-Bench Benchmarking Social Intelligence of Large Language Mode...
+  [218] OK (ABS, E=No): 2025-Unknown-SPARC Evaluating LLMs in Open-Source Games Strategic Program Ana...
+  [219] OK (ABS, E=No): 2025-Unknown-SYNTHEMPATHY A Scalable Empathy Corpus Generated Using LLMs Without
+  [220] OK (---, E=Yes): 2025-Unknown-SafetyAnalyst Interpretable Transparent and Steerable Safety
+  [221] OK (ABS, E=No): 2025-Unknown-SocialEval Evaluating Social Intelligence of Large Language Models
+  [222] OK (ABS, E=Yes): 2025-Unknown-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety
+  [223] OK (ABS, E=Yes): 2025-Unknown-ValueCompass A Framework for Measuring Contextual Value Alignment
+  [224] OK (ABS, E=Yes): 2025-Unknown-When Ethics and Payoffs Diverge LLM Agents in Morally Charged So...
+  [225] OK (ABS, E=No): 2025-Unknown-Will Systems of LLM Agents Cooperate An Investigation into a Social
+  [226] OK (ABS, E=No): 2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language M...
+  [227] OK (---, E=Yes): 2025-Wang-Multimodal Understanding of Human Values in Videos
+  [228] OK (ABS, E=Yes): 2025-Wei-MedEthicsQA A Comprehensive Question Answering Benchmark for Medical
+  [229] OK (ABS, E=Yes): 2025-Wu-C-VARC Chinese Value Rule Corpus
+  [230] OK (---, E=Yes): 2025-Wu-Chain-of-Ethics Defense Framework Wu et al.
+  [231] OK (---, E=Yes): 2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas
+  [232] OK (ABS, E=Yes): 2025-Xia-SafeToolBench
+  [233] OK (ABS, E=Yes): 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal
+  [234] OK (ABS, E=Yes): 2025-Xu-FiSCo Fine-grained Semantic Comparison
+  [235] OK (ABS, E=Yes): 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems
+  [236] OK (ABS, E=Yes): 2025-Yu-MSLR-Bench Multi-Step Legal Reasoning
+  [237] OK (ABS, E=Yes): 2025-Yuan-S-Eval
+  [238] OK (ABS, E=Yes): 2025-Zhang-LLMEval-Med Medical Safety & Ethics Component
+  [239] OK (ABS, E=Yes): 2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized
+  [240] OK (---, E=No): 2025-Zhu-TrolleyBench
+  [241] OK (---, E=No): 2025-Zulaika-BasqBBQ Basque BBQ
+  [242] OK (ABS, E=Yes): 2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Making
+  [243] OK (---, E=Yes): 2025-extracted-Decoding Moral Responses in AI A Quantitative Analysis of Large
+
+==================================================
+BATCH 217-243 SUMMARY
+  Processed:       27
+  Errors:          0
+  Skipped:         0
+  Abstracts found: 20/27
+  Ethics=Yes:      19/27
+==================================================

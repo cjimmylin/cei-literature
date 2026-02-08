@@ -1,0 +1,25 @@
+Total papers needing extraction: 211
+Processing positions 94-108 (15 papers)
+
+  [ 94] OK (31pp, 109KB): 2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Valu
+  [ 95] OK (33pp, 110KB): 2025-Ghosh-AEGIS 2.0
+  [ 96] OK (30pp, 104KB): 2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Aw
+  [ 97] OK (25pp, 69KB): 2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignme
+  [ 98] OK (41pp, 134KB): 2025-Han-Value Portrait
+  [ 99] OK (39pp, 92KB): 2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset
+  [100] OK (17pp, 52KB): 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledg
+  [101] OK (22pp, 112KB): 2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset
+  [102] OK (75pp, 197KB): 2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language 
+  [103] OK (14pp, 59KB): 2025-Huang-BehaviorBench Multi-Tier Benchmark for Agent Behavior Editi
+  [104] OK (44pp, 121KB): 2025-Huang-Values in the Wild Discovering and Analyzing Values in Real
+  [105] OK (8pp, 43KB): 2025-Jamshidi-The Moral Consistency Pipeline MoCoP
+  [106] OK (34pp, 109KB): 2025-Ji-PKU-SafeRLHF
+  [107] OK (29pp, 94KB): 2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling
+  [108] OK (20pp, 63KB): 2025-Jiao-LLM Ethics Benchmark Three-Dimensional Assessment
+
+==================================================
+BATCH 94-108 SUMMARY
+  Extracted: 15
+  Skipped:   0
+  Failed:    0
+==================================================

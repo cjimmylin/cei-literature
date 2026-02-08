@@ -1,0 +1,53 @@
+Total papers needing PDF download: 207
+Processing positions 90-132 (43 papers)
+
+  [ 90] OK (1305KB): 2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.pdf
+  [ 91] OK (1628KB): 2025-Ghosh-AEGIS 2.0.pdf
+  [ 92] OK (3844KB): 2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.pdf
+  [ 93] OK (1870KB): 2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.pdf
+  [ 94] OK (5476KB): 2025-Han-Value Portrait.pdf
+  [ 95] OK (42248KB): 2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset.pdf
+  [ 96] OK (2256KB): 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.pdf
+  [ 97] OK (1707KB): 2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.pdf
+  [ 98] OK (17796KB): 2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models.pdf
+  [ 99] OK (602KB): 2025-Huang-BehaviorBench Multi-Tier Benchmark for Agent Behavior Editing.pdf
+  [100] OK (5831KB): 2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI.pdf
+  [101] OK (10364KB): 2025-Jamshidi-The Moral Consistency Pipeline MoCoP.pdf
+  [102] OK (2651KB): 2025-Ji-PKU-SafeRLHF.pdf
+  [103] OK (835KB): 2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.pdf
+  [104] OK (393KB): 2025-Jiao-LLM Ethics Benchmark Three-Dimensional Assessment.pdf
+  [105] OK (1686KB): 2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.pdf
+  [106] OK (302KB): 2025-Kasu-EthicsMH.pdf
+  [107] OK (2796KB): 2025-Ki-NormAd-ETI Multiple LLM Agents Debate for Equitable Cultural Alignment.pdf
+  [108] OK (478KB): 2025-Kilov-Discerning What Matters Multi-Dimensional Moral Competence Assessment.pdf
+  [109] OK (4763KB): 2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from.pdf
+  [110] OK (460KB): 2025-Li-LegalAgentBench.pdf
+  [111] OK (2299KB): 2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese.pdf
+  [112] OK (8327KB): 2025-Li-SafetyAnalyst.pdf
+  [113] OK (2980KB): 2025-Liu-CQ-Bench Cultural Intelligence Benchmark for LLMs.pdf
+  [114] OK (5716KB): 2025-Liu-On the Convergence of Moral Self-Correction in LLMs.pdf
+  [115] OK (1096KB): 2025-Liu-Scales of Justitia Safety Evaluation Taxonomy Liu et al..pdf
+  [116] OK (1303KB): 2025-Machlovi-GuardEval.pdf
+  [117] OK (1845KB): 2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs.pdf
+  [118] OK (1363KB): 2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks.pdf
+  [119] OK (1257KB): 2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.pdf
+  [120] OK (2559KB): 2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human.pdf
+  [121] OK (1133KB): 2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.pdf
+  [122] OK (3846KB): 2025-Pandey-SocialHarmBench.pdf
+  [123] OK (5561KB): 2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs.pdf
+  [124] OK (4080KB): 2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models.pdf
+  [125] OK (2220KB): 2025-Rozen-Do LLMs Have Consistent Values.pdf
+  [126] OK (3353KB): 2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.pdf
+  [127] OK (19073KB): 2025-Shen-ValueActionLens Mind the Value-Action Gap.pdf
+  [128] OK (9710KB): 2025-Shetty-VITAL Pluralistic Alignment in Healthcare.pdf
+  [129] OK (637KB): 2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial.pdf
+  [130] OK (1248KB): 2025-Solaiman-BiasLab Political Bias Detection - News Articles.pdf
+  [131] OK (491KB): 2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM.pdf
+  [132] OK (4356KB): 2025-Sun-CASE-Bench Context-Aware SafEty Benchmark.pdf
+
+==================================================
+BATCH 90-132 SUMMARY
+  Downloaded: 43
+  Skipped:    0
+  Failed:     0
+==================================================

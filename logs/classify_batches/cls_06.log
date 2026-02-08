@@ -1,0 +1,39 @@
+Total papers needing processing: 264
+Processing positions 136-162 (27 papers)
+
+  [136] OK (ABS, E=Yes): 2025-Huang-BehaviorBench Multi-Tier Benchmark for Agent Behavior Editing
+  [137] OK (ABS, E=Yes): 2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI
+  [138] OK (ABS, E=Yes): 2025-Jamshidi-The Moral Consistency Pipeline MoCoP
+  [139] OK (ABS, E=Yes): 2025-Ji-PKU-SafeRLHF
+  [140] OK (ABS, E=Yes): 2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling
+  [141] OK (---, E=Yes): 2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment
+  [142] OK (ABS, E=Yes): 2025-Jiao-LLM Ethics Benchmark Three-Dimensional Assessment
+  [143] OK (ABS, E=Yes): 2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Stat...
+  [144] OK (ABS, E=Yes): 2025-Kasu-EthicsMH
+  [145] OK (ABS, E=Yes): 2025-Ki-NormAd-ETI Multiple LLM Agents Debate for Equitable Cultural Alignment
+  [146] OK (ABS, E=Yes): 2025-Kilov-Discerning What Matters Multi-Dimensional Moral Competence Assessment
+  [147] OK (---, E=No): 2025-Kumar-UniMoral ACL 2025 Best Resource Paper
+  [148] OK (ABS, E=Yes): 2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from
+  [149] OK (ABS, E=No): 2025-Li-LegalAgentBench
+  [150] OK (ABS, E=Yes): 2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese
+  [151] OK (ABS, E=Yes): 2025-Li-SafetyAnalyst
+  [152] OK (ABS, E=Yes): 2025-Liu-CQ-Bench Cultural Intelligence Benchmark for LLMs
+  [153] OK (ABS, E=Yes): 2025-Liu-On the Convergence of Moral Self-Correction in LLMs
+  [154] OK (ABS, E=Yes): 2025-Liu-Scales of Justitia Safety Evaluation Taxonomy Liu et al.
+  [155] OK (---, E=Yes): 2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics
+  [156] OK (---, E=No): 2025-Machlovi-GuardEval
+  [157] OK (ABS, E=Yes): 2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in ...
+  [158] OK (ABS, E=Yes): 2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks
+  [159] OK (ABS, E=Yes): 2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large La...
+  [160] OK (---, E=No): 2025-Mohammed-Aftina - Enhancing Stability in AI-Based Islamic Fatwa Generation
+  [161] OK (ABS, E=Yes): 2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual H...
+  [162] OK (---, E=Yes): 2025-Muntean-Moral Coherentism Theoretical Framework Muntean
+
+==================================================
+BATCH 136-162 SUMMARY
+  Processed:       27
+  Errors:          0
+  Skipped:         0
+  Abstracts found: 21/27
+  Ethics=Yes:      23/27
+==================================================

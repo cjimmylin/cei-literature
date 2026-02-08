@@ -1,0 +1,70 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0288
+type: preprint
+short_title: "DIVE: Dataset for Pluralistic Alignment of Text-to-Image Models"
+year: 2025
+first_author: "[[C. Rastogi]]"
+authors: Rastogi, C. et al.
+url: "https://arxiv.org/abs/2507.13383"
+external_pdf: "https://arxiv.org/pdf/2507.13383.pdf"
+local_pdf: "[[PDFs/2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models.pdf]]"
+pdf_extract: "PDF Extracts/2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models.md"
+publication: arXiv
+DATE_ADDED: 20260207
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+tags: 
+abstract: "Current text-to-image (T2I) models often fail to account for diverse human experiences, leading to misaligned systems. We advocate for pluralistic alignment, where an AI understands and is steerable towards diverse, and often conflicting, human values. Our work provides three core contributions to achieve this in T2I models. First, we introduce a novel dataset for Diverse Intersectional Visual Evaluation (DIVE) – the first multimodal dataset for pluralistic alignment."
+ethics_perspective: "AI Safety & Alignment"
+data_description: "Evaluation approach dataset"
+data_metrics: "1000 prompts"
+---
+# DIVE: Dataset for Pluralistic Alignment of Text-to-Image Models
+
+## Authors
+
+[[Rastogi, C. et al.]]
+
+## Metadata
+
+**Authors:** Rastogi, C. et al.
+
+**Year:** 2025
+
+**Type:** preprint
+
+**Venue:** arXiv
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2507.13383
+
+## Abstract
+
+Current text-to-image (T2I) models often fail to account for diverse human experiences, leading to misaligned systems. We advocate for pluralistic alignment, where an AI understands and is steerable towards diverse, and often conflicting, human values. Our work provides three core contributions to achieve this in T2I models. First, we introduce a novel dataset for Diverse Intersectional Visual Evaluation (DIVE) – the first multimodal dataset for pluralistic alignment. It enables deep alignment to diverse safety perspectives through a large pool of demographically intersectional human raters who provided extensive feedback across 1000 prompts, with high replication, capturing nuanced safety perceptions. Second, we empirically confirm demographics as a crucial proxy for diverse viewpoints in this domain, revealing significant, context-dependent differences in harm perception that diverge from conventional evaluations. Finally, we discuss implications for building aligned T2I models, including efficient data collection strategies, LLM judgment capabilities, and model steerability towards diverse perspectives. This research offers foundational tools for more equitable and aligned T2I systems. Content Warning: The paper includes sensitive content that may be harmful.
+
+## Dataset Information
+
+1,000 prompts with safety perspectives from demographically intersectional raters for text-to-image alignment
+
+## Notes
+
+**Source:** Exhaustive Literature Search (2026-02-07), Agent 1 (Citation Graph)
+**Implementation Readiness:** MEDIUM
+
+## Tags
+

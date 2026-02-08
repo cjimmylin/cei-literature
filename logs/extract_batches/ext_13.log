@@ -1,0 +1,25 @@
+Total papers needing extraction: 211
+Processing positions 184-198 (15 papers)
+
+  [184] OK (18pp, 73KB): 2025-Xia-SafeToolBench
+  [185] OK (37pp, 143KB): 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal
+  [186] OK (33pp, 99KB): 2025-Xu-FiSCo Fine-grained Semantic Comparison
+  [187] OK (24pp, 83KB): 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value
+  [188] OK (21pp, 73KB): 2025-Yu-MSLR-Bench Multi-Step Legal Reasoning
+  [189] OK (16pp, 86KB): 2025-Yuan-S-Eval
+  [190] OK (27pp, 90KB): 2025-Zhang-LLMEval-Med Medical Safety & Ethics Component
+  [191] OK (19pp, 56KB): 2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized
+  [192] OK (9pp, 47KB): 2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Makin
+  [193] OK (13pp, 76KB): 2026-Chen-PoliBias Parliamentary Voting Records
+  [194] OK (30pp, 106KB): 2026-Dang-RedBench
+  [195] OK (13pp, 73KB): 2026-Elkins-Negation Sensitivity Index NSI
+  [196] OK (22pp, 89KB): 2026-Farid-One Model Many Morals Uncovering Cross-Linguistic Misalignm
+  [197] OK (8pp, 22KB): 2026-Goel-Building Interpretable Models for Moral Decision-Making
+  [198] OK (13pp, 32KB): 2026-Guey-BiasLab Multilingual Dual-Framing Framework
+
+==================================================
+BATCH 184-198 SUMMARY
+  Extracted: 15
+  Skipped:   0
+  Failed:    0
+==================================================

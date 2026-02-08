@@ -1,0 +1,65 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0242
+type: conferencePaper
+short_title: Probing PLMs for Cross-Cultural Values (C3NLP Workshop)
+year: 2023
+first_author: "[[Arnav Arora]]"
+authors: Arnav Arora, Lucie-Aimee Kaffee, Isabelle Augenstein
+publication: Unknown
+DATE_ADDED: 20260207
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+religious_values: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+tags: 
+abstract:
+ethics_perspective: "Social & Cultural Values"
+data_description: "N/A"
+data_metrics: "Not specified"
+---
+# Probing PLMs for Cross-Cultural Values (C3NLP Workshop)
+
+## Authors
+
+[[Arnav Arora, Lucie-Aimee Kaffee, Isabelle Augenstein]]
+
+## Metadata
+
+**Authors:** Arnav Arora, Lucie-Aimee Kaffee, Isabelle Augenstein
+
+**Year:** 2023
+
+**Type:** conferencePaper
+
+**Venue:** Unknown
+
+## Links
+
+
+## Abstract
+
+*(To be fetched)*
+
+## Dataset Information
+
+Size: Probe-based evaluation (details in full paper)
+
+## Notes
+
+**Source:** Exhaustive Literature Search (2026-02-07), Agent 2
+**Implementation Readiness:** MEDIUM
+
+## Tags
+

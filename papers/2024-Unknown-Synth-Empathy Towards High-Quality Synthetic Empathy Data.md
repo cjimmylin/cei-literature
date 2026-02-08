@@ -1,0 +1,70 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0219
+type: preprint
+short_title: "Synth-Empathy: Towards High-Quality Synthetic Empathy Data"
+year: 2024
+first_author: "[[Unknown]]"
+authors: Unknown
+url: "https://arxiv.org/abs/2407.21669"
+external_pdf: "https://arxiv.org/pdf/2407.21669.pdf"
+local_pdf: "[[PDFs/2024-Unknown-Synth-Empathy Towards High-Quality Synthetic Empathy Data.pdf]]"
+pdf_extract: "PDF Extracts/2024-Unknown-Synth-Empathy Towards High-Quality Synthetic Empathy Data.md"
+publication: arXiv preprint
+DATE_ADDED: 20260207
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+tags: 
+abstract: "In recent years, with the rapid advancements in large language models (LLMs), achieving excellent empathetic response capabilities has become a crucial prerequisite. Consequently, managing and understanding empathetic datasets have gained increasing significance. However, empathetic data are typically human-labeled, leading to insufficient datasets and wasted human labor. In this work, we present Synth-Empathy, an LLM-based data generation and quality and diversity selection pipeline that..."
+research_topic: "AI Safety & Alignment"
+data_description: "Benchmark dataset"
+data_metrics: "Not specified"
+---
+# Synth-Empathy: Towards High-Quality Synthetic Empathy Data
+
+## Authors
+
+[[Unknown]]
+
+## Metadata
+
+**Authors:** Unknown
+
+**Year:** 2024
+
+**Type:** preprint
+
+**Venue:** arXiv preprint
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2407.21669
+
+## Abstract
+
+In recent years, with the rapid advancements in large language models (LLMs), achieving excellent empathetic response capabilities has become a crucial prerequisite. Consequently, managing and understanding empathetic datasets have gained increasing significance. However, empathetic data are typically human-labeled, leading to insufficient datasets and wasted human labor. In this work, we present Synth-Empathy, an LLM-based data generation and quality and diversity selection pipeline that automatically generates high-quality empathetic data while discarding low-quality data. With the data generated from a low empathetic model, we are able to further improve empathetic response performance and achieve state-of-the-art (SoTA) results across multiple benchmarks. Moreover, our model achieves SoTA performance on various human evaluation benchmarks, demonstrating its effectiveness and robustness in real-world applications. Furthermore, we show the trade-off between data quantity and quality, providing insights into empathetic data generation and selection. The codebase and data are made available at https://github.com/Aurora-slz/Synth-Empathy.
+
+## Dataset Information
+
+250K+ empathetic data points generated from EmpatheticDialogues (25K base conversations, 32 emotion labels); three-step pipeline: generation, quality selection, diversity selection
+
+## Notes
+
+**Source:** Exhaustive Literature Search (2026-02-07), Agent 15
+**Implementation Readiness:** MEDIUM
+
+## Tags
+

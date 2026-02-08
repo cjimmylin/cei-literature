@@ -1,0 +1,69 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0287
+type: preprint
+short_title: Do LLMs Walk Their Talk? Multi-Method Moral Evaluation Framework
+year: 2025
+first_author: "[[S. Andric]]"
+authors: Andric, S. et al.
+url: "https://arxiv.org/abs/2512.01568"
+external_pdf: "https://arxiv.org/pdf/2512.01568.pdf"
+local_pdf: "[[PDFs/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.pdf]]"
+pdf_extract: "PDF Extracts/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.md"
+publication: arXiv
+DATE_ADDED: 20260207
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+tags: 
+abstract: "We investigate whether Large Language Models (LLMs) exhibit altruistic tendencies, and critically, whether their implicit associations and self-reports predict actual altruistic behavior. Using a multimethod approach inspired by human social psychology, we tested 24 frontier LLMs across three paradigms: (1) an Implicit Association Test (IAT) measuring implicit altruism bias, (2) a forced binary choice task measuring behavioral altruism, and (3) a self-assessment scale measuring explicit..."
+data_description: "Evaluation methodology"
+data_metrics: "Not specified"
+---
+# Do LLMs Walk Their Talk? Multi-Method Moral Evaluation Framework
+
+## Authors
+
+[[Andric, S. et al.]]
+
+## Metadata
+
+**Authors:** Andric, S. et al.
+
+**Year:** 2025
+
+**Type:** preprint
+
+**Venue:** arXiv
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2512.01568
+
+## Abstract
+
+We investigate whether Large Language Models (LLMs) exhibit altruistic tendencies, and critically, whether their implicit associations and self-reports predict actual altruistic behavior. Using a multimethod approach inspired by human social psychology, we tested 24 frontier LLMs across three paradigms: (1) an Implicit Association Test (IAT) measuring implicit altruism bias, (2) a forced binary choice task measuring behavioral altruism, and (3) a self-assessment scale measuring explicit altruism beliefs. Our key findings are: (1) All models show strong implicit pro-altruism bias (mean IAT = 0.87, p < .0001), confirming models “know” altruism is good. (2) Models behave more altruistically than chance (65.6% vs. 50%, p < .0001), but with substantial variation (48–85%). (3) Implicit associations do not predict behavior (r = .22, p = .29). (4) Most critically, models systematically overestimate their own altruism, claiming 77.5% altruism while acting at 65.6% (p < .0001, Cohen’s d = 1.08). This “virtue signaling gap” affects 75% of models tested. Based on these findings, we recommend the Calibration Gap (the discrepancy between self-reported and behavioral values) as a standardized alignment metric. Well-calibrated models are more predictable and behaviorally consistent; only 12.5% of models achieve the ideal combination of high prosocial behavior and accurate self-knowledge. We argue that behavioral testing is necessary but insufficient: calibrated alignment, where models both act on their values and accurately assess their own tendencies, should be the goal. Keywords Large Language Models · AI Alignment · Altruism · Implicit Association Test · Behavioral Economics · Self-Report Calibration
+
+## Dataset Information
+
+Tests implicit associations (IAT), behavioral altruism, and explicit beliefs across 24 LLMs
+
+## Notes
+
+**Source:** Exhaustive Literature Search (2026-02-07), Agent 1 (Citation Graph)
+**Implementation Readiness:** MEDIUM
+
+## Tags
+

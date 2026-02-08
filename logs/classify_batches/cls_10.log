@@ -1,0 +1,33 @@
+Total papers needing processing: 264
+Processing positions 244-264 (21 papers)
+
+  [244] OK (ABS, E=Yes): 2026-Chen-PoliBias Parliamentary Voting Records
+  [245] OK (ABS, E=Yes): 2026-Dang-RedBench
+  [246] OK (ABS, E=Yes): 2026-Elkins-Negation Sensitivity Index NSI
+  [247] OK (ABS, E=Yes): 2026-Farid-One Model Many Morals Uncovering Cross-Linguistic Misalignments in
+  [248] OK (ABS, E=Yes): 2026-Goel-Building Interpretable Models for Moral Decision-Making
+  [249] OK (ABS, E=Yes): 2026-Guey-BiasLab Multilingual Dual-Framing Framework
+  [250] OK (ABS, E=Yes): 2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale
+  [251] OK (ABS, E=Yes): 2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in
+  [252] OK (ABS, E=Yes): 2026-Jin-MedES Chinese Medical Ethics Scenarios
+  [253] OK (ABS, E=No): 2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitiv...
+  [254] OK (---, E=No): 2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters
+  [255] OK (ABS, E=Yes): 2026-Lee-BiasJailbreak
+  [256] OK (ABS, E=Yes): 2026-Li-PluriHarms
+  [257] OK (ABS, E=Yes): 2026-Liu-JMedEthicBench
+  [258] OK (ABS, E=Yes): 2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs
+  [259] OK (ABS, E=Yes): 2026-Nadeem-Bias Beyond Borders
+  [260] OK (ABS, E=Yes): 2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral
+  [261] OK (ABS, E=Yes): 2026-Shen-PsychEthicsBench
+  [262] OK (---, E=Yes): 2026-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence
+  [263] OK (ABS, E=Yes): 2026-Unknown-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in
+  [264] OK (ABS, E=Yes): 2026-Yun-VAPT Value-Alignment Perception Toolkit
+
+==================================================
+BATCH 244-264 SUMMARY
+  Processed:       21
+  Errors:          0
+  Skipped:         0
+  Abstracts found: 19/21
+  Ethics=Yes:      19/21
+==================================================

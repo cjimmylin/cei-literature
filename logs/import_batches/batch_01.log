@@ -1,0 +1,30 @@
+Parsed 300 entries from master list
+Processing entries 1-20 (20 papers)
+
+  [  1] CREATED: 2026-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence.md
+  [  2] CREATED: 2026-Nadeem-Bias Beyond Borders.md
+  [  3] CREATED: 2026-Lee-BiasJailbreak.md
+  [  4] CREATED: 2026-Guey-BiasLab Multilingual Dual-Framing Framework.md
+  [  5] CREATED: 2026-Goel-Building Interpretable Models for Moral Decision-Making.md
+  [  6] CREATED: 2026-Liu-JMedEthicBench.md
+  [  7] CREATED: 2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.md
+  [  8] CREATED: 2026-Jin-MedES Chinese Medical Ethics Scenarios.md
+  [  9] CREATED: 2026-Farid-One Model Many Morals Uncovering Cross-Linguistic Misalignments in.md
+  [ 10] CREATED: 2026-Li-PluriHarms.md
+  [ 11] CREATED: 2026-Chen-PoliBias Parliamentary Voting Records.md
+  [ 12] CREATED: 2026-Shen-PsychEthicsBench.md
+  [ 13] CREATED: 2026-Dang-RedBench.md
+  [ 14] CREATED: 2026-Unknown-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md
+  [ 15] CREATED: 2025-Unknown-Do Your Guardrails Even Guard Evaluating Moderation Guardrails for.md
+  [ 16] CREATED: 2025-Ghosh-AEGIS 2.0.md
+  [ 17] CREATED: 2025-Unknown-AI Alignment at Your Discretion.md
+  [ 18] CREATED: 2025-Unknown-AI Language Model Rivals Expert Ethicist in Perceived Moral Expertise.md
+  [ 19] CREATED: 2025-Unknown-ALYMPICS LLM Agents Meet Game Theory.md
+  [ 20] SKIP (similar): 2025-Dubey-Addressing Moral Uncertainty using LLMs for Ethical Decision-Making.md ~ 2025-Dubey-Addressing Moral Uncertainty using Large Language.md
+
+==================================================
+BATCH 1-20 SUMMARY
+  Created: 19
+  Skipped: 1
+  Errors:  0
+==================================================

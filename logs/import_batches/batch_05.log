@@ -1,0 +1,30 @@
+Parsed 300 entries from master list
+Processing entries 81-100 (20 papers)
+
+  [ 81] CREATED: 2025-Trager-MFTCXplain A Multilingual Benchmark Dataset for Evaluating the Moral.md
+  [ 82] CREATED: 2025-Yu-MSLR-Bench Multi-Step Legal Reasoning.md
+  [ 83] CREATED: 2025-Unknown-Mapping Moral Reasoning in LLMs A Multi-Dimensional Analysis of.md
+  [ 84] CREATED: 2025-Unknown-Measuring Moral LLM Responses in Multilingual Capacities.md
+  [ 85] CREATED: 2025-Unknown-Measuring What Matters Connecting AI Ethics Evaluations to System.md
+  [ 86] SKIP (exists): 2025-Jin-MedEthicEval.md
+  [ 87] CREATED: 2025-Wei-MedEthicsQA A Comprehensive Question Answering Benchmark for Medical.md
+  [ 88] SKIP (similar): 2025-LaCroix-Metaethical Perspectives on 'Benchmarking' AI Ethics.md ~ 2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI.md
+  [ 89] CREATED: 2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md
+  [ 90] CREATED: 2025-Unknown-Moral Alignment for LLM Agents Intrinsic Rewards.md
+  [ 91] CREATED: 2025-Unknown-Moral Anchor System A Predictive Framework for AI Value Alignment and.md
+  [ 92] CREATED: 2025-Unknown-Moral Reasoning Across Languages The Critical Role of Low-Resource.md
+  [ 93] CREATED: 2025-Unknown-MultiAgentBench MARBLE Evaluating Collaboration and Competition of.md
+  [ 94] CREATED: 2025-Helwe-Navigating the Political Compass Multilingual 50 Countries.md
+  [ 95] CREATED: 2025-Unknown-Nicer Than Humans How Do Large Language Models Behave in the.md
+  [ 96] SKIP (similar): 2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas Sachdeva et.md ~ 2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md
+  [ 97] CREATED: 2025-Liu-On the Convergence of Moral Self-Correction in LLMs.md
+  [ 98] CREATED: 2025-Unknown-OpenDeception Benchmarking and Investigating AI Deceptive Behaviors.md
+  [ 99] CREATED: 2025-Unknown-PERM Psychology-grounded Empathetic Reward Modeling for Large.md
+  [100] CREATED: 2025-Castricato-PERSONA Pluralistic Alignment Testbed.md
+
+==================================================
+BATCH 81-100 SUMMARY
+  Created: 17
+  Skipped: 3
+  Errors:  0
+==================================================

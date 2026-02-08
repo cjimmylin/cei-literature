@@ -1,0 +1,70 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0256
+type: conferencePaper
+short_title: "MoVa: Towards Generalizable Classification of Human Morals and Values"
+year: 2025
+first_author: "[[Z. Chen]]"
+authors: Chen, Z. et al.
+url: "https://arxiv.org/abs/2509.24216"
+external_pdf: "https://arxiv.org/pdf/2509.24216.pdf"
+local_pdf: "[[PDFs/2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.pdf]]"
+pdf_extract: "PDF Extracts/2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.md"
+publication: EMNLP
+DATE_ADDED: 20260207
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+tags: 
+abstract: "Identifying human morals and values embedded in language is essential to empirical studies of communication. However, researchers often face substantial difficulty navigating the diversity of theoretical frameworks and data available for their analysis. Here, we contribute MoVa, a well-documented suite of resources for generalizable classification of human morals and values, consisting of (1) 16 labeled datasets and benchmarking results from four theoretically-grounded frameworks; (2) a..."
+ethics_perspective: "AI Safety & Alignment"
+data_description: "Benchmark for moral/ethical reasoning dataset"
+data_metrics: "Not specified"
+---
+# MoVa: Towards Generalizable Classification of Human Morals and Values
+
+## Authors
+
+[[Chen, Z. et al.]]
+
+## Metadata
+
+**Authors:** Chen, Z. et al.
+
+**Year:** 2025
+
+**Type:** conferencePaper
+
+**Venue:** EMNLP
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2509.24216
+
+## Abstract
+
+Identifying human morals and values embedded in language is essential to empirical studies of communication. However, researchers often face substantial difficulty navigating the diversity of theoretical frameworks and data available for their analysis. Here, we contribute MoVa, a well-documented suite of resources for generalizable classification of human morals and values, consisting of (1) 16 labeled datasets and benchmarking results from four theoretically-grounded frameworks; (2) a lightweight LLM prompting strategy that outperforms fine-tuned models across multiple domains and frameworks; and (3) a new application that helps evaluate psychological surveys. In practice, we specifically recommend a classification strategy, all@once, that scores all related concepts simultaneously, resembling the well-known multi-label classifier chain. The data and methods in MoVa can facilitate many fine-grained interpretations of human and machine communication, with potential implications for the alignment of machine behavior.
+
+## Dataset Information
+
+Suite of 16 labeled datasets across four moral frameworks with lightweight LLM prompting strategy
+
+## Notes
+
+**Source:** Exhaustive Literature Search (2026-02-07), Agent 1 (Citation Graph)
+**Implementation Readiness:** HIGH
+
+## Tags
+

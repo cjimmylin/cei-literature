@@ -1,0 +1,210 @@
+[
+  {
+    "filename": "2025-Unknown-Do Your Guardrails Even Guard Evaluating Moderation Guardrails for.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Real-world evaluation scenarios (resume quality, recidivism prediction)",
+    "llms_tested": "Unknown (no PDF extract available)",
+    "reasoning": "Evaluates moderation guardrails for LLM alignment, focusing on bias in safety filters. No normative ethical theories (deontology, utilitarianism, etc.) are operationalized; the paper addresses AI safety guardrail effectiveness, not prescriptive moral philosophy."
+  },
+  {
+    "filename": "2025-Unknown-EQ-Bench An Emotional Intelligence Benchmark for Large Language Models.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "EQ-Bench, 60 English-language questions rating emotional intensity of dialogue characters",
+    "llms_tested": "GPT-4, GPT-3.5, Claude 2, Llama-2 (7B/13B/70B), SynthIA-70B, Qwen-72B-Chat, Yi-34B, Mistral-7B-OpenOrca, Vicuna, and others",
+    "reasoning": "Benchmark measures emotional understanding/intelligence in LLMs by predicting emotional intensity ratings. No normative ethical frameworks are involved; this is about emotional cognition, not prescriptive moral philosophy."
+  },
+  {
+    "filename": "2025-Unknown-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "EmoBench-M, multimodal emotional intelligence benchmark with tasks including humor understanding, sarcasm detection, emotion recognition",
+    "llms_tested": "InternVL2.5-Chat-78B, GLM-4V-PLUS, Gemini-3.0-Pro, AffectGPT, GPT-5.2, and others",
+    "reasoning": "Benchmarks emotional intelligence for multimodal LLMs across tasks like sarcasm detection and emotion recognition. No normative ethical theories are tested; this is emotional/affective intelligence evaluation, not moral philosophy."
+  },
+  {
+    "filename": "2025-Unknown-EtiCor++ Towards Understanding Etiquettical Bias in LLMs.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "EtiCor++, corpus of 48K etiquettes covering regions worldwide with tasks for etiquette sensitivity, region identification, and etiquette generation",
+    "llms_tested": "Multiple LLMs (specific models evaluated in experiments)",
+    "reasoning": "Evaluates cultural etiquette knowledge and bias in LLMs. Etiquettes are descriptive social norms, not prescriptive normative ethical theories. Fails the normative ethics condition entirely."
+  },
+  {
+    "filename": "2025-Unknown-From Surveys to Narratives Rethinking Cultural Value Adaptation in.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "WVS-based training data augmented with Wikipedia and NormAd narratives for cultural value adaptation",
+    "llms_tested": "LLMs fine-tuned on WVS data (specific models in experiments)",
+    "reasoning": "Investigates World Values Survey (WVS)-based cultural value adaptation in LLMs. WVS is a descriptive cultural survey instrument, explicitly listed as a critical exclusion. No normative ethical theories are operationalized."
+  },
+  {
+    "filename": "2025-Unknown-GAMEBoT Transparent Assessment of LLM Reasoning in Games.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "GAMEBoT (GAME Battle of Tactics), gaming arena with 8 games and CoT-based reasoning assessment",
+    "llms_tested": "17 LLMs benchmarked across 8 games",
+    "reasoning": "Evaluates LLM reasoning capabilities through strategic games using chain-of-thought decomposition. No normative ethical theories involved; this is a game-based reasoning benchmark, not an ethics evaluation."
+  },
+  {
+    "filename": "2025-Unknown-How LLM Counselors Violate Ethical Standards in Mental Health Practice.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "137 sessions (110 self-counseling tests + 27 simulated clinical interactions)",
+    "llms_tested": "LLM counselors (specific models unknown, no PDF extract)",
+    "reasoning": "Evaluates LLM adherence to professional mental health counseling ethics standards. Professional codes of conduct are applied/domain ethics, not prescriptive normative philosophical frameworks like deontology or utilitarianism."
+  },
+  {
+    "filename": "2025-Unknown-HumaniBench A Human-Centric Framework for Large Multimodal Models.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "HumaniBench, 32,000 expert-verified image-question pairs spanning 7 evaluation tasks (scene understanding, VQA, empathy, etc.)",
+    "llms_tested": "15 state-of-the-art LMMs including GPT-4o, Gemini 2.5, Qwen family",
+    "reasoning": "Evaluates human-centric alignment of multimodal models across fairness, ethics, empathy, and robustness. While ethics is one dimension, the paper uses broad HC (human-centric) principles rather than specific normative ethical theories like deontology or utilitarianism."
+  },
+  {
+    "filename": "2025-Unknown-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Mathematical framework for negotiation with burstiness and CRI metrics, tested across natural-language and numeric-offers settings",
+    "llms_tested": "4 state-of-the-art LLMs (compared with human negotiators)",
+    "reasoning": "Measures bargaining and negotiation capabilities of LLMs using game-theoretic and economic frameworks. No normative ethical theories are operationalized; this is about strategic negotiation behavior, not moral philosophy."
+  },
+  {
+    "filename": "2025-Unknown-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gaming Contexts.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "LLMsPark, game theory-based evaluation platform with classic game-theoretic settings",
+    "llms_tested": "15 leading LLMs (both commercial and open-source)",
+    "reasoning": "Evaluates strategic intelligence and decision-making of LLMs in game-theoretic scenarios. No normative ethical frameworks are used; this is about strategic reasoning and gaming capabilities, not ethics."
+  },
+  {
+    "filename": "2025-Unknown-LongEmotion Measuring Emotional Intelligence of Large Language Models.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "LongEmotion benchmark with tasks for emotion recognition, knowledge application, and empathetic generation (avg context length 15,341 tokens)",
+    "llms_tested": "Various LLMs evaluated in long-context settings",
+    "reasoning": "Benchmarks emotional intelligence in long-context scenarios. Based on Affective Information Processing Theory (descriptive psychology), not normative ethical theories. No moral philosophy frameworks are operationalized."
+  },
+  {
+    "filename": "2025-Unknown-MASK Benchmark Disentangling Honesty From Accuracy in AI Systems.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "MASK (Model Alignment between Statements and Knowledge), large-scale human-collected dataset for measuring lying in LLMs",
+    "llms_tested": "Diverse set of frontier LLMs",
+    "reasoning": "Measures propensity of LLMs to lie under pressure, distinguishing honesty from accuracy. While honesty is a virtue-adjacent concept, the paper does not operationalize virtue ethics or any other normative ethical theory; it treats honesty as a behavioral safety property."
+  },
+  {
+    "filename": "2025-Unknown-MASLegalBench.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "MASLegalBench, 950 legal questions from GDPR court cases with deductive reasoning structure",
+    "llms_tested": "Multiple state-of-the-art LLMs with various MAS configurations",
+    "reasoning": "Benchmarks multi-agent systems on deductive legal reasoning using GDPR scenarios. Legal reasoning is domain-specific applied ethics, not normative philosophical ethics (deontology, utilitarianism, etc.)."
+  },
+  {
+    "filename": "2025-Unknown-Mapping Moral Reasoning in LLMs A Multi-Dimensional Analysis of.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Safety principles that may derive from normative frameworks (details unclear without PDF extract)",
+    "data_artifact": "Scenarios with conflicting safety principles, multi-dimensional analysis of reasoning chains",
+    "llms_tested": "LLMs (specific models unknown, no PDF extract)",
+    "reasoning": "Maps moral reasoning in LLMs through safety principle conflicts. The title suggests moral reasoning analysis, but without a PDF extract, it is unclear whether specific normative ethical theories are formally operationalized or just safety principles. Meets LLM testing and benchmark conditions weakly, but normative ethics condition is uncertain."
+  },
+  {
+    "filename": "2025-Unknown-Measuring Moral LLM Responses in Multilingual Capacities.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Mentions utilitarianism and deontology in related work; uses categories of Biases & Stereotypes, Consent & Autonomy, Harm Prevention & Safety, Legality, Moral Judgment",
+    "data_artifact": "Dataset of 500 questions (5 categories x 100 questions) in 6 languages",
+    "llms_tested": "GPT-5, Gemini 2.5 Pro, and other frontier/open-source models",
+    "reasoning": "Evaluates multilingual moral/ethical responses of LLMs across five categories. While utilitarianism and deontology are referenced in related work, the paper's own evaluation uses applied categories (Consent & Autonomy, Harm Prevention) rather than directly operationalizing normative ethical theories. Meets 2 of 3 conditions (benchmark + LLM testing) strongly, normative ethics weakly."
+  },
+  {
+    "filename": "2025-Unknown-Measuring What Matters Connecting AI Ethics Evaluations to System.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "RAI Measures Dataset - 791 ethical evaluation measures mapped to system attributes, hazards, and ethical principles",
+    "llms_tested": "N/A (dataset of measures, not direct LLM testing)",
+    "reasoning": "Creates a dataset mapping AI ethics evaluation measures to system attributes and hazards. This is a meta-level resource about AI ethics evaluation methodology, not a benchmark that tests LLMs using normative ethical theories. Fails both the normative ethics and LLM testing conditions."
+  },
+  {
+    "filename": "2025-Unknown-Moral Alignment for LLM Agents Intrinsic Rewards.md",
+    "decision": "Yes",
+    "normative_frameworks": "Deontological Ethics (Kant, duty-based norms like conditional cooperation), Utilitarianism (Bentham, collective welfare maximization)",
+    "data_artifact": "Iterated Prisoner's Dilemma (IPD) environment with moral reward functions encoding deontological and utilitarian values; generalization tested on other matrix games",
+    "llms_tested": "Gemma2-2b-it fine-tuned with RL using intrinsic moral rewards",
+    "reasoning": "Explicitly operationalizes deontological ethics (Kant) and utilitarianism (Bentham) as intrinsic reward functions for RL-based fine-tuning of LLM agents. Tests moral alignment on IPD and generalization to other games. Published at ICLR 2025. All three conditions fully met."
+  },
+  {
+    "filename": "2025-Unknown-Moral Anchor System A Predictive Framework for AI Value Alignment and.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (references utility maximization, empathy, rule adherence as value state dimensions but does not formally operationalize normative ethical theories)",
+    "data_artifact": "Simulated environments with goal-misaligned AI agents",
+    "llms_tested": "N/A (AI agents in simulation, not LLM testing per se)",
+    "reasoning": "Proposes a technical framework (Bayesian inference + LSTM) for detecting and preventing value drift in AI systems. While value state dimensions include utility, empathy, and rule adherence (loosely mapping to ethical concepts), these are not formally grounded in normative ethical theories. No LLM benchmark testing is conducted."
+  },
+  {
+    "filename": "2025-Unknown-Moral Reasoning Across Languages The Critical Role of Low-Resource.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Uses ETHICS dataset covering justice, well-being, duties, virtues, and commonsense morality (derived from normative ethics but operationalized as classification tasks)",
+    "data_artifact": "MMRB (Multilingual Moral Reasoning Benchmark), 2,170 moral scenarios across 5 languages at 3 complexity levels (sentence/paragraph/document)",
+    "llms_tested": "5 LLMs including GPT-4 and LLaMA-3-8B (fine-tuned)",
+    "reasoning": "Creates MMRB using ETHICS dataset (Hendrycks et al.), which derives from normative ethics concepts (justice, duties, virtues). However, these are operationalized as binary/classification moral reasoning tasks rather than explicitly testing specific normative theories. Meets all 3 conditions but normative operationalization is indirect."
+  },
+  {
+    "filename": "2025-Unknown-MultiAgentBench MARBLE Evaluating Collaboration and Competition of.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "MultiAgentBench (MARBLE), multi-agent evaluation across diverse interactive scenarios with milestone-based KPIs",
+    "llms_tested": "Multiple LLMs including gpt-4o-mini",
+    "reasoning": "Evaluates multi-agent collaboration and competition of LLM agents across task-solving and simulation scenarios. No normative ethical theories are operationalized; this is about coordination protocols and task performance."
+  },
+  {
+    "filename": "2025-Unknown-Nicer Than Humans How Do Large Language Models Behave in the.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (uses behavioral economics/game theory dimensions from Axelrod, not normative ethics)",
+    "data_artifact": "Iterated Prisoner's Dilemma simulations (100 rounds against adversaries with varying hostility levels)",
+    "llms_tested": "Llama2, Llama3, GPT3.5",
+    "reasoning": "Investigates cooperative behavior of LLMs in the Iterated Prisoner's Dilemma using behavioral economics dimensions (niceness, forgiveness, retaliation). While the IPD has ethical implications, the paper frames analysis through behavioral economics and game theory, not normative ethical theories. No deontology, utilitarianism, or other prescriptive frameworks are operationalized."
+  },
+  {
+    "filename": "2025-Unknown-OpenDeception Benchmarking and Investigating AI Deceptive Behaviors.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "OpenDeception, 50 real-world-inspired scenarios across 5 deception types (telecom fraud, product promotion, personal safety, emotional deception, privacy stealing)",
+    "llms_tested": "11 LLMs including GPTs, Claudes, Llamas, Qwens",
+    "reasoning": "Benchmarks AI deceptive behaviors through open-ended simulations. Evaluates deception intention and capability, which is a safety/alignment concern, not a test of normative ethical theories."
+  },
+  {
+    "filename": "2025-Unknown-PERM Psychology-grounded Empathetic Reward Modeling for Large.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (grounded in Empathy Cycle theory from psychology, not normative ethics)",
+    "data_artifact": "Empathetic reward model evaluated on emotional intelligence benchmark and industrial conversation dataset",
+    "llms_tested": "LLMs optimized with PERM reward model",
+    "reasoning": "Proposes psychology-grounded empathetic reward modeling based on Empathy Cycle theory (Barrett-Lennard). This is descriptive psychology applied to LLM training, not normative ethical theories. No deontology, utilitarianism, or other prescriptive philosophical frameworks."
+  },
+  {
+    "filename": "2025-Unknown-PersuSafety LLM Can be a Dangerous Persuader.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "PERSUSAFETY framework with 6 unethical persuasion topics and 15 unethical strategies, three-stage assessment pipeline",
+    "llms_tested": "8 widely used LLMs",
+    "reasoning": "Assesses persuasion safety of LLMs, focusing on whether they reject unethical persuasion tasks and avoid unethical strategies. While ethical in scope, it evaluates persuasion safety behaviors, not normative ethical theories. No deontological, utilitarian, or other philosophical frameworks are operationalized."
+  },
+  {
+    "filename": "2025-Unknown-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "PMIYC framework for automated multi-agent persuasion evaluation with subjective and misinformation scenarios",
+    "llms_tested": "Llama-3.3-70B, GPT-4o, Claude 3 Haiku, and others",
+    "reasoning": "Evaluates persuasiveness and susceptibility to persuasion of LLMs in multi-agent interactions. No normative ethical theories are operationalized; this is about persuasion dynamics and AI safety, not moral philosophy."
+  },
+  {
+    "filename": "2025-Unknown-PersuasionBench & PersuasionArena Measuring and Improving.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "PersuasionBench and PersuasionArena, large-scale benchmark with transsuasion task using paired tweets",
+    "llms_tested": "Multiple LLMs of varying sizes",
+    "reasoning": "Measures and benchmarks persuasiveness of LLMs using natural language persuasion tasks. No normative ethical theories are operationalized; this is about linguistic persuasion capabilities, not moral philosophy."
+  }
+]

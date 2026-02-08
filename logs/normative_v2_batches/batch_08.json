@@ -1,0 +1,132 @@
+[
+  {
+    "filename": "2025-Unknown-Do Your Guardrails Even Guard Evaluating Moderation Guardrails for.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Unknown-EQ-Bench An Emotional Intelligence Benchmark for Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-EQ-Bench An Emotional Intelligence Benchmark for Large Language Models.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-EtiCor++ Towards Understanding Etiquettical Bias in LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-EtiCor++ Towards Understanding Etiquettical Bias in LLMs.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-From Surveys to Narratives Rethinking Cultural Value Adaptation in.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-From Surveys to Narratives Rethinking Cultural Value Adaptation in.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-GAMEBoT Transparent Assessment of LLM Reasoning in Games.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-GAMEBoT Transparent Assessment of LLM Reasoning in Games.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-How LLM Counselors Violate Ethical Standards in Mental Health Practice.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Unknown-HumaniBench A Human-Centric Framework for Large Multimodal Models.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-HumaniBench A Human-Centric Framework for Large Multimodal Models.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gaming Contexts.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gaming Contexts.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-LongEmotion Measuring Emotional Intelligence of Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-LongEmotion Measuring Emotional Intelligence of Large Language Models.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-MASK Benchmark Disentangling Honesty From Accuracy in AI Systems.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-MASK Benchmark Disentangling Honesty From Accuracy in AI Systems.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-MASLegalBench.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-MASLegalBench.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-Mapping Moral Reasoning in LLMs A Multi-Dimensional Analysis of.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Unknown-Measuring Moral LLM Responses in Multilingual Capacities.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-Measuring Moral LLM Responses in Multilingual Capacities.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-Measuring What Matters Connecting AI Ethics Evaluations to System.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Unknown-Moral Alignment for LLM Agents Intrinsic Rewards.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-Moral Alignment for LLM Agents Intrinsic Rewards.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-Moral Anchor System A Predictive Framework for AI Value Alignment and.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-Moral Anchor System A Predictive Framework for AI Value Alignment and.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-Moral Reasoning Across Languages The Critical Role of Low-Resource.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-Moral Reasoning Across Languages The Critical Role of Low-Resource.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-MultiAgentBench MARBLE Evaluating Collaboration and Competition of.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-MultiAgentBench MARBLE Evaluating Collaboration and Competition of.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-Nicer Than Humans How Do Large Language Models Behave in the.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-Nicer Than Humans How Do Large Language Models Behave in the.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-OpenDeception Benchmarking and Investigating AI Deceptive Behaviors.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-OpenDeception Benchmarking and Investigating AI Deceptive Behaviors.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-PERM Psychology-grounded Empathetic Reward Modeling for Large.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-PERM Psychology-grounded Empathetic Reward Modeling for Large.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-PersuSafety LLM Can be a Dangerous Persuader.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-PersuSafety LLM Can be a Dangerous Persuader.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-PersuasionBench & PersuasionArena Measuring and Improving.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-PersuasionBench & PersuasionArena Measuring and Improving.md",
+    "has_extract": true
+  }
+]

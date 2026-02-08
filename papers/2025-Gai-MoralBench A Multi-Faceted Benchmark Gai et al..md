@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ abstract:
 research_topic: "Machine Learning"
 data_description: "Benchmark"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # MoralBench: A Multi-Faceted Benchmark (Gai et al.)
 

@@ -1,0 +1,132 @@
+[
+  {
+    "filename": "2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized.md",
+    "pdf_extract_path": "PDF Extracts/2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Zhu-TrolleyBench.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Zulaika-BasqBBQ Basque BBQ.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md",
+    "pdf_extract_path": "PDF Extracts/2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-extracted-Decoding Moral Responses in AI A Quantitative Analysis of Large.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2026-Chen-PoliBias Parliamentary Voting Records.md",
+    "pdf_extract_path": "PDF Extracts/2026-Chen-PoliBias Parliamentary Voting Records.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-Dang-RedBench.md",
+    "pdf_extract_path": "PDF Extracts/2026-Dang-RedBench.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-Elkins-Negation Sensitivity Index NSI.md",
+    "pdf_extract_path": "PDF Extracts/2026-Elkins-Negation Sensitivity Index NSI.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-Farid-One Model Many Morals Uncovering Cross-Linguistic Misalignments in.md",
+    "pdf_extract_path": "PDF Extracts/2026-Farid-One Model Many Morals Uncovering Cross-Linguistic Misalignments in.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-Goel-Building Interpretable Models for Moral Decision-Making.md",
+    "pdf_extract_path": "PDF Extracts/2026-Goel-Building Interpretable Models for Moral Decision-Making.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-Guey-BiasLab Multilingual Dual-Framing Framework.md",
+    "pdf_extract_path": "PDF Extracts/2026-Guey-BiasLab Multilingual Dual-Framing Framework.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.md",
+    "pdf_extract_path": "PDF Extracts/2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.md",
+    "pdf_extract_path": "PDF Extracts/2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-Jin-MedES Chinese Medical Ethics Scenarios.md",
+    "pdf_extract_path": "PDF Extracts/2026-Jin-MedES Chinese Medical Ethics Scenarios.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks.md",
+    "pdf_extract_path": "PDF Extracts/2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2026-Lee-BiasJailbreak.md",
+    "pdf_extract_path": "PDF Extracts/2026-Lee-BiasJailbreak.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-Li-PluriHarms.md",
+    "pdf_extract_path": "PDF Extracts/2026-Li-PluriHarms.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-Liu-JMedEthicBench.md",
+    "pdf_extract_path": "PDF Extracts/2026-Liu-JMedEthicBench.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-Nadeem-Bias Beyond Borders.md",
+    "pdf_extract_path": "PDF Extracts/2026-Nadeem-Bias Beyond Borders.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral.md",
+    "pdf_extract_path": "PDF Extracts/2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-Shen-PsychEthicsBench.md",
+    "pdf_extract_path": "PDF Extracts/2026-Shen-PsychEthicsBench.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2026-Unknown-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md",
+    "pdf_extract_path": "PDF Extracts/2026-Unknown-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2026-Yun-VAPT Value-Alignment Perception Toolkit.md",
+    "pdf_extract_path": "PDF Extracts/2026-Yun-VAPT Value-Alignment Perception Toolkit.md",
+    "has_extract": true
+  }
+]

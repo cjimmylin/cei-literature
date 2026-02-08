@@ -1,0 +1,210 @@
+[
+  {
+    "filename": "2025-Unknown-Playing Repeated Games with Large Language Models.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "144 2x2 games from behavioral game theory (Prisoner's Dilemma, Battle of the Sexes, etc.)",
+    "llms_tested": "GPT-4, text-davinci-002, text-davinci-003, Claude 2, Llama 2 70B",
+    "reasoning": "Studies LLM strategic behavior in game-theoretic settings (cooperation, coordination) using behavioral economics frameworks, not normative ethics. No deontology, consequentialism, or virtue ethics are operationalized."
+  },
+  {
+    "filename": "2025-Unknown-Randomness Not Representation The Unreliability of Evaluating.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "GQA dataset (180 questions), VSM survey (24 questions), cover letter evaluation dataset (600 pairs)",
+    "llms_tested": "GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash, Llama 3.1 405B, Mistral Large 2411",
+    "reasoning": "Evaluates the reliability of cultural alignment evaluations in LLMs using Hofstede's cultural dimensions and survey-based methods. This is descriptive cultural psychology, not normative ethics."
+  },
+  {
+    "filename": "2025-Unknown-RoleConflictBench A Benchmark of Role Conflict Scenarios for.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "RoleConflictBench: 13,914 role conflict scenarios across 65 roles",
+    "llms_tested": "10 different LLMs (not specified by name in excerpt)",
+    "reasoning": "Evaluates LLMs' contextual sensitivity in social dilemmas involving role conflicts. While it touches on moral decision-making, it focuses on social role biases and contextual sensitivity rather than operationalizing specific normative ethical theories."
+  },
+  {
+    "filename": "2025-Unknown-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "SENSE-7 dataset: 695 conversations from 109 participants with per-turn empathy annotations",
+    "llms_tested": "General-purpose LLMs (not specified in detail)",
+    "reasoning": "Focuses on measuring user perceptions of empathy in human-AI conversations using a taxonomy of empathic behaviors. This is affective computing and HCI research, not normative ethics benchmarking."
+  },
+  {
+    "filename": "2025-Unknown-SI-Bench Benchmarking Social Intelligence of Large Language Models in.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "SI-Bench: 2,221 authentic multi-turn dialogues, 312 manually annotated subset",
+    "llms_tested": "8 major LLMs (not specified by name in excerpt)",
+    "reasoning": "Benchmarks social intelligence of LLMs in real human conversations covering complex social situations like sarcasm, relational tests, etc. This is social cognition evaluation, not normative ethics."
+  },
+  {
+    "filename": "2025-Unknown-SPARC Evaluating LLMs in Open-Source Games Strategic Program Analysis.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "SPARC benchmark: >230 human-written programs for IPD classification",
+    "llms_tested": "Leading open- and closed-weight LLMs (not specified in detail)",
+    "reasoning": "Studies LLM agents in open-source game theory settings (Prisoner's Dilemma), focusing on strategic code understanding and cooperative equilibria. This is game theory research, not normative ethics."
+  },
+  {
+    "filename": "2025-Unknown-SYNTHEMPATHY A Scalable Empathy Corpus Generated Using LLMs Without.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "SYNTHEMPATHY corpus: 105,578 empathetic single-turn dialogues",
+    "llms_tested": "Mistral 7B (fine-tuned on corpus)",
+    "reasoning": "Creates a scalable empathy corpus for fine-tuning LLMs using psychotherapy-inspired prompting. This is about empathetic dialogue generation, not normative ethics benchmarking."
+  },
+  {
+    "filename": "2025-Unknown-SafetyAnalyst Interpretable Transparent and Steerable Safety.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "N/A",
+    "llms_tested": "N/A",
+    "reasoning": "Based on available metadata, this is an AI safety moderation framework paper. No abstract or PDF extract available to confirm details, but the title and metadata indicate safety moderation rather than normative ethics benchmarking."
+  },
+  {
+    "filename": "2025-Unknown-SocialEval Evaluating Social Intelligence of Large Language Models.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "SocialEval: script-based bilingual SI benchmark with world tree narrative scripts",
+    "llms_tested": "Multiple LLMs (evaluated on outcome-oriented and process-oriented social intelligence)",
+    "reasoning": "Evaluates social intelligence of LLMs through narrative scripts covering prosocial and antisocial behaviors. While it involves moral-adjacent social behaviors, it does not operationalize normative ethical theories."
+  },
+  {
+    "filename": "2025-Unknown-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Dataset of 100 contemporary Gen Alpha expressions",
+    "llms_tested": "GPT-4, Claude, Gemini, Llama 3",
+    "reasoning": "Evaluates AI content moderation systems' ability to understand Gen Alpha digital communication patterns and detect masked harassment. This is content moderation/online safety research, not normative ethics."
+  },
+  {
+    "filename": "2025-Unknown-ValueCompass A Framework for Measuring Contextual Value Alignment.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Schwartz's Theory of Basic Values (descriptive psychology, not normative ethics)",
+    "data_artifact": "ValueCompass framework with Value Form instrument across 4 scenarios, 28 contexts, 7 countries",
+    "llms_tested": "5 diverse LLMs (not specified by name in excerpt)",
+    "reasoning": "Measures human-AI value alignment using Schwartz's Theory of Basic Values, a descriptive psychological framework. While it evaluates LLMs across scenarios, Schwartz values are descriptive psychology, not prescriptive normative philosophy."
+  },
+  {
+    "filename": "2025-Unknown-When Ethics and Payoffs Diverge LLM Agents in Morally Charged Social.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Generic moral norms framed through cooperation as the 'normatively preferable choice' in morally charged contexts (green production, privacy protection, contractual reporting)",
+    "data_artifact": "MORALSIM: repeated prisoner's dilemma and public goods game with 3 moral framings, 2 game structures, opponent types, survival risk conditions",
+    "llms_tested": "9 state-of-the-art LLMs (frontier models)",
+    "reasoning": "Tests LLM agents in social dilemmas where moral norms conflict with payoff-maximizing strategies. While it uses moral contexts and defines cooperation as morally preferable, it does not formally operationalize specific normative ethical theories (deontology, consequentialism, etc.) -- the moral framings are scenario-based rather than theory-grounded."
+  },
+  {
+    "filename": "2025-Unknown-Will Systems of LLM Agents Cooperate An Investigation into a Social.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Iterated Prisoner's Dilemma strategies generated by LLMs, evolutionary game theory simulations",
+    "llms_tested": "State-of-the-art LLMs (generating strategies for IPD)",
+    "reasoning": "Investigates cooperative vs aggressive behavioral tendencies of LLM agent populations using evolutionary game theory. This is strategic behavior analysis, not normative ethics benchmarking."
+  },
+  {
+    "filename": "2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "VIDEONORMS: 1000+ (video clip, norm) pairs from US and Chinese cultures",
+    "llms_tested": "Open-weight VideoLLMs (benchmarked on cultural norm understanding)",
+    "reasoning": "Benchmarks cultural norm awareness of video language models using speech act theory and social norms. This is descriptive cultural norm evaluation, not normative ethics."
+  },
+  {
+    "filename": "2025-Wang-Multimodal Understanding of Human Values in Videos.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "First multimodal benchmark for human value understanding in video content (per metadata)",
+    "llms_tested": "N/A (no PDF extract; metadata suggests video understanding focus)",
+    "reasoning": "Based on available metadata, this paper creates a multimodal benchmark for understanding human values in videos. No PDF extract available, but the description suggests descriptive value understanding rather than normative ethics operationalization."
+  },
+  {
+    "filename": "2025-Wei-MedEthicsQA A Comprehensive Question Answering Benchmark for Medical.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Four pillar principles of medical ethics: beneficence, non-maleficence, autonomy, justice (Beauchamp's bioethics principles, derived from but not identical to normative philosophy)",
+    "data_artifact": "MedEthicsQA: 5,623 MCQs + 5,351 open-ended questions with 4P-26C-256G hierarchical taxonomy",
+    "llms_tested": "State-of-the-art MedLLMs and their foundation models (evaluated on medical ethics questions)",
+    "reasoning": "Creates a comprehensive medical ethics benchmark grounded in the four pillar principles of bioethics (Beauchamp). These derive from normative philosophy (deontological duty, consequentialist benefit) but are bioethics principles rather than directly operationalizing normative ethical theories. Meets benchmark and LLM testing conditions strongly."
+  },
+  {
+    "filename": "2025-Wu-C-VARC Chinese Value Rule Corpus.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Chinese socialist core values framework (12 core values, 50 derived values) -- political/cultural value system, not normative ethics",
+    "data_artifact": "C-VARC: 250,000+ value rules; 404,505 moral dilemma scenarios",
+    "llms_tested": "17 LLMs evaluated on moral dilemma scenarios; 7 mainstream LLMs for value alignment",
+    "reasoning": "Constructs a Chinese value rule corpus grounded in socialist core values for LLM alignment. While it involves moral dilemmas and value evaluation, the framework is based on Chinese political-cultural values rather than normative ethical theories from Western philosophical tradition."
+  },
+  {
+    "filename": "2025-Wu-Chain-of-Ethics Defense Framework Wu et al..md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "N/A",
+    "llms_tested": "N/A",
+    "reasoning": "Based on available metadata only (no PDF extract, no abstract), this appears to be a defense framework using chain-of-ethics reasoning. Insufficient information suggests it is a safety/defense method paper rather than a normative ethics benchmark."
+  },
+  {
+    "filename": "2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Moral Foundations Theory (MFT) and Schwartz's Theory of Basic Values -- both are descriptive psychology frameworks",
+    "data_artifact": "Multi-step Moral Dilemmas (MMDs): 3,302 five-stage dilemmas",
+    "llms_tested": "9 widely used LLMs (GPT-4o-mini, DeepSeek-V3, GLM-4-Plus, and others)",
+    "reasoning": "While this paper creates an innovative multi-step moral dilemma benchmark and tests LLMs, its value classification relies entirely on MFT and Schwartz's Theory -- both descriptive psychology frameworks explicitly excluded by the rubric. No normative ethical theories (deontology, consequentialism, virtue ethics) are operationalized."
+  },
+  {
+    "filename": "2025-Xia-SafeToolBench.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "SafeToolBench: 1,200 adversarial user instructions spanning 16 domains, 4 risk types",
+    "llms_tested": "4 LLMs (not specified by name in excerpt)",
+    "reasoning": "Evaluates tool utilization safety in LLMs by assessing whether models can identify risky tool executions before they happen. This is AI safety/security research, not normative ethics."
+  },
+  {
+    "filename": "2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "SORRY-Bench: 440 class-balanced unsafe instructions across 44 fine-grained risk categories + 8,800 linguistic augmentations",
+    "llms_tested": "50+ proprietary and open-weight LLMs",
+    "reasoning": "Systematically evaluates LLM safety refusal behavior using a fine-grained taxonomy of unsafe topics. This is AI safety evaluation focused on content moderation and refusal behavior, not normative ethics benchmarking."
+  },
+  {
+    "filename": "2025-Xu-FiSCo Fine-grained Semantic Comparison.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "FiSCo benchmark: 150K dataset spanning gender, race, and age for fairness evaluation",
+    "llms_tested": "Multiple state-of-the-art LLMs (evaluated for fairness)",
+    "reasoning": "Proposes a statistical framework for evaluating group-level fairness in LLMs by detecting semantic differences across demographic groups. This is algorithmic fairness research, not normative ethics benchmarking."
+  },
+  {
+    "filename": "2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Schwartz's Theory of Basic Human Values (descriptive psychology) and a novel five-factor LLM value system (Social Responsibility, Risk-taking, Rule-following, Self-competence, Rationality)",
+    "data_artifact": "GPLA methodology applied to 33 LLMs with 21 value-anchoring prompts; benchmarking tasks for value systems",
+    "llms_tested": "33 LLMs (value measurement and system construction)",
+    "reasoning": "Constructs a psychologically grounded value system for LLMs using the psycho-lexical approach. The framework is rooted in descriptive value psychology (Schwartz), not normative ethical philosophy."
+  },
+  {
+    "filename": "2025-Yu-MSLR-Bench Multi-Step Legal Reasoning.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "MSLR: ~1,400 Chinese insider trading legal decisions with 60K step-level IRAC annotations",
+    "llms_tested": "General, legal, and reasoning-focused LLMs (including OpenAI o1-mini)",
+    "reasoning": "Benchmarks multi-step legal reasoning in Chinese insider trading cases using the IRAC framework. This is legal reasoning evaluation, not normative ethics benchmarking."
+  },
+  {
+    "filename": "2025-Yuan-S-Eval.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "S-Eval benchmark: 220,000 test cases across 102 risks in 8 dimensions",
+    "llms_tested": "21 influential LLMs",
+    "reasoning": "Proposes an automated safety evaluation framework with a hierarchical risk taxonomy covering content safety risks. This is general AI safety evaluation, not normative ethics benchmarking."
+  },
+  {
+    "filename": "2025-Zhang-LLMEval-Med Medical Safety & Ethics Component.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (medical ethics is included as one component but not the primary focus; no specific normative theories operationalized)",
+    "data_artifact": "LLMEval-Medicine: 2,996 questions from real-world clinical scenarios covering 5 core medical areas including ethics",
+    "llms_tested": "13 LLMs across 3 categories (specialized medical, open-source, closed-source)",
+    "reasoning": "While LLMEval-Med includes a medical ethics component, ethics is just one of five areas evaluated alongside medical knowledge, reasoning, etc. The ethics component is not the primary focus and does not formally operationalize normative ethical theories -- it is part of a broader clinical benchmark."
+  }
+]

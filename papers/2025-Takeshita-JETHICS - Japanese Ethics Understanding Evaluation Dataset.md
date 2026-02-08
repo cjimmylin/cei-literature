@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,7 @@ abstract: "In this work, we propose JETHICS, a Japanese dataset for evaluating e
 ethics_perspective: "General Ethics"
 data_description: "Evaluation methodology dataset"
 data_metrics: "78k examples"
+normative_ethics_benchmark: Yes
 ---
 # JETHICS -- Japanese Ethics Understanding Evaluation Dataset
 

@@ -2,6 +2,50 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 40 (Feb 7, 2026) - Normative Ethics V2: Full Deep-Read of 266 Papers
+
+### Overview
+
+Re-classified all 266 EXSR papers for `normative_ethics_benchmark` using 10-agent full deep-read (no keyword pre-screening), replacing the v1 keyword-screened approach. This caught 18 papers that keyword screening missed entirely, increasing tagged papers from 14 to 45.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Papers Deep-Read | 266 (all EXSR) |
+| Agents Used | 10 (2 waves of 5) |
+| Tagged: Yes | 7 |
+| Tagged: Borderline | 38 |
+| Total Tagged | 45 |
+| New Discoveries (vs v1) | 18 |
+| Consistency with v1 (63 overlap) | 78% |
+| Upgraded (Exclude→Yes/Borderline) | 11 |
+| Downgraded (Yes→Borderline) | 3 |
+| YAML Validation | 923/923 pass |
+
+### Key Learnings
+
+- **Classification:** Keyword screening misses ~40% of positive papers (18/45). Full deep-read catches implicit normative framing, bioethics, Confucian virtue ethics, Gert's common morality, and other non-keyword-matching patterns.
+- **Workflows:** 10-agent 2-wave pattern scales well. All agents produced exact expected paper counts. 266 papers deep-read in ~4min wall time.
+- **Classification:** Bioethics/medical ethics emerged as the largest new category — papers using Beauchamp & Childress's principlism (autonomy, beneficence, non-maleficence, justice) are philosophically normative but use medical vocabulary that keyword screening misses.
+
+### Scripts Created
+
+| Script | Purpose |
+|--------|---------|
+| `PYTHON/generate_normative_v2_batches.py` | Split 266 EXSR papers into 10 balanced batches |
+| `PYTHON/consolidate_normative_v2.py` | Merge, validate, reconcile 10 agent results |
+| `PYTHON/add_normative_v2_field.py` | Safe YAML field addition for v2 decisions |
+
+### Files Changed
+
+- papers/: 45 modified (normative_ethics_benchmark field added/updated)
+- PYTHON/: 3 new scripts
+- STATISTICS/: 1 new report (normative-ethics-benchmarks-v2-report.md)
+- logs/normative_v2_batches/: 10 batch files + 10 result files + 2 consolidated JSONs
+
+---
+
 ## Session 39 (Feb 7, 2026) - Normative Ethics Benchmark Classification of New Papers
 
 ### Overview

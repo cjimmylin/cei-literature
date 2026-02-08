@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,7 @@ abstract: "Past work seeks to align large language model (LLM)-based assistants 
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # ConflictScope: Generative Value Conflicts Reveal LLM Priorities
 

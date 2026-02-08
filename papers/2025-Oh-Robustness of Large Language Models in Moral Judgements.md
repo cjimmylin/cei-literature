@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,7 @@ abstract:
 ethics_perspective: "AI Safety & Alignment"
 data_description: "N/A"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # Robustness of Large Language Models in Moral Judgements
 

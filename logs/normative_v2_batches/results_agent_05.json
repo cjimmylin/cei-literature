@@ -1,0 +1,218 @@
+[
+  {
+    "filename": "2025-Authors-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Trolley-problem-style moral dilemmas (implicitly utilitarian/deontological framing)",
+    "data_artifact": "TrolleyBench - trolley-problem-style moral dilemma scenarios (size unspecified, no PDF extract available)",
+    "llms_tested": "Likely LLMs tested (details unavailable - no PDF extract, no abstract)",
+    "reasoning": "The title and dataset description indicate trolley-problem scenarios used to evaluate LLM moral reasoning, which implicitly invokes utilitarian vs deontological reasoning. However, without the full paper, it is unclear whether normative theories are explicitly operationalized or merely implicit in the trolley dilemma framing. Meets conditions 2 and 3, condition 1 is uncertain."
+  },
+  {
+    "filename": "2025-Batzner-GermanPartiesQA Benchmarking LLMs for Political Alignment and.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "GermanPartiesQA - 418 political statements from German Voting Advice Applications across 11 elections",
+    "llms_tested": "ChatGPT-3.5, ChatGPT-4o, Claude 2.1, Claude 3 Sonnet, Command, Command R+",
+    "reasoning": "This paper benchmarks LLMs for political alignment and sycophancy using German political party positions. It does not engage with normative ethical theories; it measures political bias and steerability, not ethical reasoning."
+  },
+  {
+    "filename": "2025-Becker-The Moralization Corpus.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Moral Foundations Theory (MFT - descriptive psychology, not normative ethics)",
+    "data_artifact": "The Moralization Corpus - 11,503 instances of moralizing text passages across 7 genres in German",
+    "llms_tested": "LLaMA-4-Scout, C4AI-Command, Mistral-Small, GPT-5-mini, Claude-3.5-Haiku",
+    "reasoning": "The paper creates a corpus for detecting moralizing speech acts in text, using MFT as the value taxonomy. The goal is descriptive linguistic analysis of moral rhetoric, not testing normative ethical reasoning in LLMs. MFT is explicitly a descriptive psychology framework."
+  },
+  {
+    "filename": "2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Bioethics principles (beneficence, non-maleficence, patient autonomy, justice) - derived from but not identical to normative philosophy",
+    "data_artifact": "12,000-item Q&A benchmark covering 11 ethics and 9 safety dimensions in medical contexts",
+    "llms_tested": "Qwen 2.5-32B, DeepSeek (Chinese medical LLMs)",
+    "reasoning": "The paper creates and uses a medical ethics benchmark that tests LLMs on bioethics principles (beneficence, non-maleficence, autonomy, justice). These derive from Beauchamp and Childress's principlist framework, which is rooted in normative ethics but is applied/bioethical rather than pure normative philosophy. Meets conditions 2 and 3 strongly; condition 1 is borderline since the framework is bioethics-applied rather than directly operationalizing normative theory."
+  },
+  {
+    "filename": "2025-Capraro-Large Language Models Show Amplified Cognitive Biases in Moral.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Personal/impersonal moral dilemmas (implicitly utilitarian vs deontological framing)",
+    "data_artifact": "Series of realistic moral dilemmas (personal and impersonal) - size unspecified",
+    "llms_tested": "Likely multiple LLMs (details unavailable - no PDF extract)",
+    "reasoning": "Published in PNAS, this paper studies cognitive biases in LLM moral decision-making using moral dilemmas that typically probe utilitarian vs deontological reasoning. However, without the full text, the explicit operationalization of normative frameworks cannot be confirmed. The personal/impersonal dilemma distinction is a classic paradigm but may be framed through moral psychology rather than prescriptive philosophy."
+  },
+  {
+    "filename": "2025-Castricato-PERSONA Pluralistic Alignment Testbed.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "PERSONA Bench - 1,586 synthetic personas, 3,868 prompts, 317,200 feedback pairs",
+    "llms_tested": "GPT-4, LLaMA 3 70B, Qwen 2 72B, Mistral Large",
+    "reasoning": "PERSONA is a testbed for pluralistic alignment that evaluates LLMs' ability to role-play diverse user personas and match preferences. It focuses on demographic-based preference alignment, not normative ethical theory testing. No normative ethics frameworks are operationalized."
+  },
+  {
+    "filename": "2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Moral Foundations Theory, Schwartz Values, and other descriptive frameworks",
+    "data_artifact": "MoVa - 16 labeled datasets across 4 theoretically-grounded frameworks for morals/values classification",
+    "llms_tested": "Multiple LLMs evaluated via prompting strategies",
+    "reasoning": "MoVa benchmarks the classification of morals and values in text using descriptive psychology frameworks (MFT, Schwartz Values). These are descriptive, not prescriptive normative ethical frameworks. The paper focuses on text classification of values, not testing LLMs against normative ethical theories."
+  },
+  {
+    "filename": "2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "SPICA - evaluation with 544 participants across 4 demographic groups + 120 end-to-end",
+    "llms_tested": "Unknown (no PDF extract available)",
+    "reasoning": "SPICA focuses on pluralistic in-context alignment - aligning LLMs with diverse user groups' preferences. No normative ethical frameworks are mentioned in the available metadata; the focus is on demographic preference alignment, not ethical theory testing."
+  },
+  {
+    "filename": "2025-Cheng-ELEPHANT Social Sycophancy.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "ELEPHANT benchmark for measuring social sycophancy in LLMs (Reddit AITA data, advice queries)",
+    "llms_tested": "11 models (including GPT-4o and others)",
+    "reasoning": "ELEPHANT measures social sycophancy - whether LLMs excessively affirm users' self-image rather than providing honest feedback. While it touches on 'moral sycophancy' (affirming both sides of moral conflicts), this is a behavioral measurement of sycophancy, not a test of normative ethical reasoning. No normative ethics frameworks are operationalized."
+  },
+  {
+    "filename": "2025-Chua-Between a Rock and a Hard Place TRIAL.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Utilitarian reasoning (trolley-problem framing), ethical dilemmas with moral trade-offs",
+    "data_artifact": "TRIAL - multi-turn red-teaming methodology using ethical framings; ERR defense framework",
+    "llms_tested": "Multiple open- and closed-source LLMs (specific models not enumerated in excerpt)",
+    "reasoning": "TRIAL exploits LLMs' ethical reasoning capabilities by embedding harmful requests within ethical dilemma framings (trolley problems, utilitarian trade-offs). It uses normative ethical reasoning as an attack vector, not as a benchmark for measuring ethical reasoning quality. The paper is primarily about AI safety/red-teaming rather than evaluating normative ethics understanding, but it does explicitly structure attacks around formalized ethical dilemmas."
+  },
+  {
+    "filename": "2025-Coleman-The Convergent Ethics of AI Analyzing Moral Foundation Priorities in.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Consequentialist-deontological dichotomy, Moral Foundations Theory, Kohlberg's stages",
+    "data_artifact": "PRIME framework - multi-framework ethical analysis using direct questioning and moral dilemmas across 6 LLMs",
+    "llms_tested": "GPT-4o, LLaMA 3.1, Perplexity, Claude 3.5 Sonnet, Gemini, Mistral 7B",
+    "reasoning": "The PRIME framework uses three analytical lenses including the consequentialist-deontological dichotomy (normative philosophy) alongside MFT and Kohlberg (descriptive psychology). While it does incorporate genuine normative ethics framing, MFT and Kohlberg are explicitly descriptive frameworks per the rubric's exclusion criteria. The normative component (consequentialism vs deontology) is present but mixed with excluded descriptive frameworks."
+  },
+  {
+    "filename": "2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Schwartz Value Theory (descriptive cross-cultural psychology)",
+    "data_artifact": "AdAEM - 12,310 auto-generated questions grounded in Schwartz Value Theory, benchmarking 16 LLMs",
+    "llms_tested": "16 LLMs including DeepSeek-V3, GPT-4-Turbo, and others",
+    "reasoning": "AdAEM generates value-laden questions based on Schwartz Value Theory to measure value differences across LLMs. Schwartz Value Theory is a descriptive cross-cultural psychology framework, not a normative ethical theory. The paper explicitly aims to reveal value differences, not test normative ethical reasoning."
+  },
+  {
+    "filename": "2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Medical ethics principles (likely bioethics - autonomy, beneficence, non-maleficence, justice)",
+    "data_artifact": "50 clinical case scenarios for medical ethics decision-making evaluation",
+    "llms_tested": "Unknown (no PDF extract available)",
+    "reasoning": "The paper creates 50 clinical case scenarios for evaluating medical ethics decision-making in LLMs. Medical ethics inherently draws on bioethics principles derived from normative philosophy. However, without the full text, the degree of explicit normative theory operationalization cannot be confirmed. Meets conditions 2 and 3; condition 1 is probable but unconfirmed."
+  },
+  {
+    "filename": "2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (ethical scenarios used but no specific normative framework operationalized)",
+    "data_artifact": "SFF framework - 14 ethical scenarios x 4 controlled framings, 39,975 decisions across 23 models",
+    "llms_tested": "23 models spanning US commercial, Chinese, and US open-source (SOTA models)",
+    "reasoning": "SFF tests whether LLMs maintain consistent ethical judgments across logically equivalent but syntactically different prompts. The focus is on syntactic robustness of ethical responses, not on testing normative ethical reasoning per se. The ethical scenarios are a vehicle for measuring prompt sensitivity, not for evaluating alignment with specific normative theories."
+  },
+  {
+    "filename": "2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Framework for measuring RM opinion alignment using opinion polls and demographic data",
+    "llms_tested": "Multiple reward models (specific models not enumerated in excerpt)",
+    "reasoning": "This paper studies sociodemographic biases in reward models, measuring whose opinions RMs reflect on controversial topics. It focuses on demographic alignment of reward models, not normative ethical theory. No normative ethics frameworks are operationalized."
+  },
+  {
+    "filename": "2025-Fan-LEXam.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "LEXAM - 4,886 law exam questions from 340 exams across 116 courses (English and German)",
+    "llms_tested": "Multiple LLMs (evaluated via LLM-as-a-Judge paradigm)",
+    "reasoning": "LEXAM benchmarks legal reasoning capabilities of LLMs using real law exam questions. While law intersects with ethics, this is a legal reasoning benchmark, not a normative ethics benchmark. The paper tests statutory analysis, precedent interpretation, and legal inference, not ethical theory."
+  },
+  {
+    "filename": "2025-Fanous-SycEval Evaluating LLM Sycophancy.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "SycEval framework using AMPS (mathematics) and MedQuad (medical advice) datasets",
+    "llms_tested": "ChatGPT-4o, Claude-Sonnet, Gemini-1.5-Pro",
+    "reasoning": "SycEval evaluates sycophantic behavior in LLMs across mathematics and medical domains. The focus is on whether LLMs sacrifice truthfulness for user agreement, not on normative ethical reasoning. No normative ethics frameworks are involved."
+  },
+  {
+    "filename": "2025-Gai-MoralBench A Multi-Faceted Benchmark Gai et al..md",
+    "decision": "Borderline",
+    "normative_frameworks": "Unknown - title suggests moral benchmarking with structured ethical annotations",
+    "data_artifact": "MoralBench - 1K safety-alignment prompts, 10K abstracted variations, 19,132 structured ethical annotations",
+    "llms_tested": "Unknown (no PDF extract available)",
+    "reasoning": "MoralBench is described as a multi-faceted benchmark with structured ethical annotations, suggesting it may operationalize ethical frameworks. However, without the full paper, it is unclear whether specific normative ethical theories are used or whether this is more general moral/safety alignment. The scale and structure suggest a serious benchmark effort, but the specific frameworks cannot be confirmed."
+  },
+  {
+    "filename": "2025-Gao-MIST Moral Inference through Storytelling with Text and Images.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (general moral reasoning, no specific normative theories mentioned)",
+    "data_artifact": "MIST - multi-image dataset for moral reasoning evaluation across seven VLMs",
+    "llms_tested": "Seven VLMs (vision-language models, specific models unspecified)",
+    "reasoning": "MIST evaluates moral inference in vision-language models through storytelling with text and images. The available metadata describes general 'moral reasoning' without referencing specific normative ethical theories. This appears to be a general moral reasoning evaluation for multimodal models, not a normative ethics benchmark."
+  },
+  {
+    "filename": "2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.md",
+    "decision": "Exclude",
+    "normative_frameworks": "World Values Survey dimensions (traditional vs secular-rational, survival vs self-expression) - descriptive cultural surveys",
+    "data_artifact": "EVALUESTEER - 165,888 preference pairs across 4 value and 4 style dimensions",
+    "llms_tested": "Six open-source and proprietary LLMs and RMs",
+    "reasoning": "EVALUESTEER measures reward model steerability toward user value and style profiles using World Values Survey dimensions (Inglehart). These are descriptive cultural value dimensions, not normative ethical theories. The paper focuses on preference alignment steering, not normative ethics testing."
+  },
+  {
+    "filename": "2025-Ghosh-AEGIS 2.0.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "AEGIS 2.0 - 34,248 samples of human-LLM interactions annotated for safety across 12 hazard categories",
+    "llms_tested": "Multiple lightweight models trained on AEGIS 2.0 data",
+    "reasoning": "AEGIS 2.0 is a safety dataset and risk taxonomy for LLM guardrails. It focuses on content safety moderation (harmful content detection), not normative ethical reasoning. No normative ethics frameworks are operationalized."
+  },
+  {
+    "filename": "2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "CARE - 3,490 culturally specific questions and 31.7K responses with human judgments",
+    "llms_tested": "Various LMs including Llama-3, Qwen-2.5 and others",
+    "reasoning": "CARE focuses on incorporating cultural preferences into LM alignment to improve cultural awareness. The paper addresses culturally appropriate responses across languages, not normative ethical theory testing. No normative ethics frameworks are used."
+  },
+  {
+    "filename": "2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (mentions meta-ethics, Rawls's reasonable pluralism, but does not operationalize normative theories)",
+    "data_artifact": "VAL-Bench - 115K pairs of prompts on controversial issues from Wikipedia",
+    "llms_tested": "Leading open- and closed-source models including Claude and GPT models",
+    "reasoning": "VAL-Bench measures belief consistency in LLM value expressions on controversial topics. While it discusses meta-ethics and mentions Rawls, it does not operationalize specific normative ethical theories as test criteria. The benchmark measures consistency of stance, not alignment with normative frameworks."
+  },
+  {
+    "filename": "2025-Han-Value Portrait.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Schwartz Value Theory (descriptive cross-cultural psychology)",
+    "data_artifact": "Value Portrait benchmark - psychometrically validated items evaluating 44 LLMs' value orientations",
+    "llms_tested": "44 LLMs evaluated",
+    "reasoning": "Value Portrait uses Schwartz's value theory to assess LLM value orientations through psychometrically validated items. Schwartz Value Theory is a descriptive psychology framework, not a normative ethical theory. The paper focuses on describing value profiles, not testing normative ethical reasoning."
+  },
+  {
+    "filename": "2025-Helwe-Navigating the Political Compass Multilingual 50 Countries.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Political Compass Test administered across 50 countries and their official languages",
+    "llms_tested": "15 multilingual LLMs",
+    "reasoning": "This paper evaluates LLMs on the Political Compass Test across 50 countries and languages. The Political Compass measures political ideology (economic left-right, social authoritarian-libertarian), not normative ethical theory. No normative ethics frameworks are operationalized."
+  },
+  {
+    "filename": "2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (social norms, not normative ethical theories)",
+    "data_artifact": "NormGenesis - 10,800 multi-turn dialogues annotated for norm adherence across English, Chinese, Korean",
+    "llms_tested": "LLMs used for generation and evaluation (specific models not enumerated in excerpt)",
+    "reasoning": "NormGenesis focuses on social norm modeling in multicultural dialogues - generating culturally appropriate conversations. Social norms are descriptive cultural expectations, not prescriptive normative ethical theories. The paper addresses pragmatic competence in ethically sensitive contexts, not normative ethics testing."
+  },
+  {
+    "filename": "2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.md",
+    "decision": "Yes",
+    "normative_frameworks": "Principlism (Beauchamp & Childress): Autonomy, Non-Maleficence, Beneficence, Justice",
+    "data_artifact": "PrinciplismQA - 3,648 questions (MCQ from textbooks + open-ended from case study literature), expert-validated",
+    "llms_tested": "Multiple LLMs including frontier closed-source models and medical domain fine-tuned models",
+    "reasoning": "PrinciplismQA explicitly grounds its benchmark in Beauchamp and Childress's Principlism - a recognized normative ethical framework in medical ethics comprising Autonomy, Non-Maleficence, Beneficence, and Justice. The benchmark systematically tests LLMs on both knowledge of these ethical principles and their practical application to clinical dilemmas. All three conditions are clearly met: normative ethics operationalized, structured benchmark created, LLMs tested."
+  }
+]

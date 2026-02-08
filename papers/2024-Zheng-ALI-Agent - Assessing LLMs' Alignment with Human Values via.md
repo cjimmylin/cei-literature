@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,7 @@ abstract: "Large Language Models (LLMs) can elicit unintended and even harmful c
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # ALI-Agent -- Assessing LLMs' Alignment with Human Values via Agent-based Evaluation
 

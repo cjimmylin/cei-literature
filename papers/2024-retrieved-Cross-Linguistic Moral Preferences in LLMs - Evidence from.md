@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ abstract:
 ethics_perspective: "General Ethics"
 data_description: "N/A"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Yes
 ---
 # Cross-Linguistic Moral Preferences in LLMs -- Evidence from Distributive Justice Scenarios and Domain Persona Interventions
 

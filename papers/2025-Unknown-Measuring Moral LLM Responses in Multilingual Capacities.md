@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,7 @@ abstract: "With LLM usage becoming widespread across countries, languages, and h
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # Measuring Moral LLM Responses in Multilingual Capacities
 

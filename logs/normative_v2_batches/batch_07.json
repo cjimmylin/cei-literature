@@ -1,0 +1,132 @@
+[
+  {
+    "filename": "2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human.md",
+    "pdf_extract_path": "PDF Extracts/2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Muntean-Moral Coherentism Theoretical Framework Muntean.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.md",
+    "pdf_extract_path": "PDF Extracts/2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Oh-Robustness of Large Language Models in Moral Judgements.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Pandey-SocialHarmBench.md",
+    "pdf_extract_path": "PDF Extracts/2025-Pandey-SocialHarmBench.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models.md",
+    "pdf_extract_path": "PDF Extracts/2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Rozen-Do LLMs Have Consistent Values.md",
+    "pdf_extract_path": "PDF Extracts/2025-Rozen-Do LLMs Have Consistent Values.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md",
+    "pdf_extract_path": "PDF Extracts/2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Shen-ValueActionLens Mind the Value-Action Gap.md",
+    "pdf_extract_path": "PDF Extracts/2025-Shen-ValueActionLens Mind the Value-Action Gap.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Shetty-VITAL Pluralistic Alignment in Healthcare.md",
+    "pdf_extract_path": "PDF Extracts/2025-Shetty-VITAL Pluralistic Alignment in Healthcare.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial.md",
+    "pdf_extract_path": "PDF Extracts/2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Solaiman-BiasLab Political Bias Detection - News Articles.md",
+    "pdf_extract_path": "PDF Extracts/2025-Solaiman-BiasLab Political Bias Detection - News Articles.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM.md",
+    "pdf_extract_path": "PDF Extracts/2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Sun-CASE-Bench Context-Aware SafEty Benchmark.md",
+    "pdf_extract_path": "PDF Extracts/2025-Sun-CASE-Bench Context-Aware SafEty Benchmark.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Takeshita-JETHICS - Japanese Ethics Understanding Evaluation Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2025-Takeshita-JETHICS - Japanese Ethics Understanding Evaluation Dataset.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Trager-MFTCXplain A Multilingual Benchmark Dataset for Evaluating the Moral.md",
+    "pdf_extract_path": "PDF Extracts/2025-Trager-MFTCXplain A Multilingual Benchmark Dataset for Evaluating the Moral.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-AI Alignment at Your Discretion.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-AI Alignment at Your Discretion.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-AI Language Model Rivals Expert Ethicist in Perceived Moral Expertise.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Unknown-ALYMPICS LLM Agents Meet Game Theory.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-ALYMPICS LLM Agents Meet Game Theory.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-Awesome-LLM-Eval Repository Meta-Resource.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Unknown-Can We Trust AI Benchmarks An Interdisciplinary Review.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-Can We Trust AI Benchmarks An Interdisciplinary Review.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-ConflictScope Generative Value Conflicts Reveal LLM Priorities.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-ConflictScope Generative Value Conflicts Reveal LLM Priorities.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Unknown-Diagnosing Moral Reasoning Acquisition in Language Models Pragmatics.md",
+    "pdf_extract_path": "PDF Extracts/2025-Unknown-Diagnosing Moral Reasoning Acquisition in Language Models Pragmatics.md",
+    "has_extract": true
+  }
+]

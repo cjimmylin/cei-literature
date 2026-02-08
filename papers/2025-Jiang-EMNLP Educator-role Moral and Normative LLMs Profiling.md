@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,7 @@ abstract: "Simulating Professions (SP) enables Large Language Models (LLMs) to e
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # EMNLP (Educator-role Moral and Normative LLMs Profiling)
 

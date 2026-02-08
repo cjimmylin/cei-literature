@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,7 @@ tags:
 abstract: "Warning: This paper contains potentially offensive and harmful text. Large Language Model safety alignment predominantly operates on a binary assumption that requests are either safe or unsafe. This classification proves insufficient when models encounter ethical dilemmas, where the capacity to reason through moral trade-offs creates a distinct attack surface. We formalize this vulnerability through TRIAL, a multi-turn red-teaming methodology that embeds harmful requests within ethical framings."
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # Between a Rock and a Hard Place (TRIAL)
 

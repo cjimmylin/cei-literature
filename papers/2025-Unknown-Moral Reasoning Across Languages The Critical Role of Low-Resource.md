@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract: "In this paper, we introduce the Multilingual Moral Reasoning Benchmar
 ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-normative_ethics_benchmark: Yes
+normative_ethics_benchmark: Borderline
 ---
 # Moral Reasoning Across Languages: The Critical Role of Low-Resource Languages in LLMs (MMRB)
 

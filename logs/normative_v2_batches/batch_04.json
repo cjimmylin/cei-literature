@@ -1,0 +1,137 @@
+[
+  {
+    "filename": "2024-Wang-Fake Alignment FINE Framework.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2024-Yanaka-JBBQ Japanese Bias Benchmark for Question Answering.md",
+    "pdf_extract_path": "PDF Extracts/2024-Yanaka-JBBQ Japanese Bias Benchmark for Question Answering.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Yao-CLAVE ValEval.md",
+    "pdf_extract_path": "PDF Extracts/2024-Yao-CLAVE ValEval.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Yao-Value FULCRA.md",
+    "pdf_extract_path": "PDF Extracts/2024-Yao-Value FULCRA.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Yin-SafeAgentBench.md",
+    "pdf_extract_path": "PDF Extracts/2024-Yin-SafeAgentBench.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Yu-CoSafe.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2024-Yuan-Social Measuring Social Norms of LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2024-Yuan-Social Measuring Social Norms of LLMs.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents.md",
+    "pdf_extract_path": "PDF Extracts/2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Zhang-CHiSafetyBench - A Chinese Hierarchical Safety Benchmark for LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2024-Zhang-CHiSafetyBench - A Chinese Hierarchical Safety Benchmark for LLMs.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Zhang-SafetyBench Evaluating the Safety of Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2024-Zhang-SafetyBench Evaluating the Safety of Large Language Models.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via.md",
+    "pdf_extract_path": "PDF Extracts/2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-results-Conscience Conflict Evaluating Language Models' Moral Understanding.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2024-retrieved-Cross-Linguistic Moral Preferences in LLMs - Evidence from.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md",
+    "pdf_extract_path": "PDF Extracts/2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.md",
+    "pdf_extract_path": "PDF Extracts/2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.md",
+    "pdf_extract_path": "PDF Extracts/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Ashkinaze-Deep Value Benchmark.md",
+    "pdf_extract_path": "PDF Extracts/2025-Ashkinaze-Deep Value Benchmark.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Authors-COIG-P - Chinese Preference Dataset for Alignment with Human Values.md",
+    "pdf_extract_path": "PDF Extracts/2025-Authors-COIG-P - Chinese Preference Dataset for Alignment with Human Values.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Authors-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.md",
+    "pdf_extract_path": "PDF Extracts/2025-Authors-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Authors-Hajj-FQA - Benchmark Arabic Dataset for Hajj Fatwa QA.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Authors-IndiCASA - Dataset and Bias Evaluation Framework for LLMs in Indian.md",
+    "pdf_extract_path": "PDF Extracts/2025-Authors-IndiCASA - Dataset and Bias Evaluation Framework for LLMs in Indian.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Authors-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Authors-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md",
+    "pdf_extract_path": "PDF Extracts/2025-Authors-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Authors-PoliCon.md",
+    "pdf_extract_path": "PDF Extracts/2025-Authors-PoliCon.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Authors-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Authors-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  }
+]

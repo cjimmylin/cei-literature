@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ abstract:
 ethics_perspective: "General Ethics"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # Conscience Conflict: Evaluating Language Models' Moral Understanding
 

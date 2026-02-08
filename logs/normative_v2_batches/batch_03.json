@@ -1,0 +1,137 @@
+[
+  {
+    "filename": "2024-Sharma-Towards Understanding Sycophancy in Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2024-Sharma-Towards Understanding Sycophancy in Language Models.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2024-Sorensen-Value Kaleidoscope ValuePrism.md",
+    "pdf_extract_path": "PDF Extracts/2024-Sorensen-Value Kaleidoscope ValuePrism.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Team-FABLE Fairness and Bias in LLM Evaluation.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2024-Team-GuardBench.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark.md",
+    "pdf_extract_path": "PDF Extracts/2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Tom-SG-Bench - Evaluating LLM Safety Generalization.md",
+    "pdf_extract_path": "PDF Extracts/2024-Tom-SG-Bench - Evaluating LLM Safety Generalization.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Unknown-BELLS A Framework Towards Future Proof Benchmarks for the Evaluation.md",
+    "pdf_extract_path": "PDF Extracts/2024-Unknown-BELLS A Framework Towards Future Proof Benchmarks for the Evaluation.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Unknown-Cooperation Competition and Maliciousness LLM-Stakeholders.md",
+    "pdf_extract_path": "PDF Extracts/2024-Unknown-Cooperation Competition and Maliciousness LLM-Stakeholders.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Unknown-EmoBench Evaluating the Emotional Intelligence of Large Language.md",
+    "pdf_extract_path": "PDF Extracts/2024-Unknown-EmoBench Evaluating the Emotional Intelligence of Large Language.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Unknown-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional.md",
+    "pdf_extract_path": "PDF Extracts/2024-Unknown-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Unknown-EmotionQueen A Benchmark for Evaluating Empathy of Large Language.md",
+    "pdf_extract_path": "PDF Extracts/2024-Unknown-EmotionQueen A Benchmark for Evaluating Empathy of Large Language.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Unknown-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal.md",
+    "pdf_extract_path": "PDF Extracts/2024-Unknown-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Unknown-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via.md",
+    "pdf_extract_path": "PDF Extracts/2024-Unknown-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Unknown-Gaps in the Safety Evaluation of Generative AI.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2024-Unknown-LLM Voting Human Choices and AI Collective Decision-Making.md",
+    "pdf_extract_path": "PDF Extracts/2024-Unknown-LLM Voting Human Choices and AI Collective Decision-Making.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Unknown-MAgIC Investigation of Large Language Model Powered Multi-Agent in.md",
+    "pdf_extract_path": "PDF Extracts/2024-Unknown-MAgIC Investigation of Large Language Model Powered Multi-Agent in.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Unknown-Measuring Bargaining Abilities of LLMs A Benchmark and A.md",
+    "pdf_extract_path": "PDF Extracts/2024-Unknown-Measuring Bargaining Abilities of LLMs A Benchmark and A.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Unknown-NegotiationArena How Well Can LLMs Negotiate.md",
+    "pdf_extract_path": "PDF Extracts/2024-Unknown-NegotiationArena How Well Can LLMs Negotiate.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Unknown-Norm Inconsistency in LLM Decision-Making.md",
+    "pdf_extract_path": "PDF Extracts/2024-Unknown-Norm Inconsistency in LLM Decision-Making.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Unknown-On The Stability of Moral Preferences A Problem with Computational.md",
+    "pdf_extract_path": "PDF Extracts/2024-Unknown-On The Stability of Moral Preferences A Problem with Computational.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Unknown-On the Pros and Cons of Active Learning for Moral Preference.md",
+    "pdf_extract_path": "PDF Extracts/2024-Unknown-On the Pros and Cons of Active Learning for Moral Preference.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Unknown-Synth-Empathy Towards High-Quality Synthetic Empathy Data.md",
+    "pdf_extract_path": "PDF Extracts/2024-Unknown-Synth-Empathy Towards High-Quality Synthetic Empathy Data.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Unknown-The Emergence of Strategic Reasoning of Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2024-Unknown-The Emergence of Strategic Reasoning of Large Language Models.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Unknown-Towards Geographic Inclusion in the Evaluation of Text-to-Image Models.md",
+    "pdf_extract_path": "PDF Extracts/2024-Unknown-Towards Geographic Inclusion in the Evaluation of Text-to-Image Models.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+    "pdf_extract_path": "PDF Extracts/2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.md",
+    "pdf_extract_path": "PDF Extracts/2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.md",
+    "has_extract": true
+  }
+]

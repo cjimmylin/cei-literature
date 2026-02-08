@@ -1,0 +1,218 @@
+[
+  {
+    "filename": "2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "BRAND dataset: 2,400+ entries across 4 religions in English and Bengali",
+    "llms_tested": "Multiple multilingual LLMs (not specified by name in extract)",
+    "reasoning": "BRAND focuses on religious bias detection in LLMs across languages, not on normative ethical theories. It tests whether LLMs misrepresent religious content, which is a descriptive bias study, not a normative ethics benchmark."
+  },
+  {
+    "filename": "2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Rawlsian fairness theory mentioned as theoretical grounding for the framework",
+    "data_artifact": "JudiFair: 177,100 unique case facts with 65 labels and 161 values",
+    "llms_tested": "16 LLMs",
+    "reasoning": "While the paper references Rawls's theory of justice as a theoretical foundation, it does not operationalize normative ethical theories into a test. The benchmark measures judicial fairness (consistency, bias, imbalanced inaccuracy) in legal sentencing, not normative ethical reasoning per se. Borderline on Rawlsian grounding, but the evaluation is about fairness/bias metrics rather than testing normative ethical reasoning."
+  },
+  {
+    "filename": "2025-Huang-BehaviorBench Multi-Tier Benchmark for Agent Behavior Editing.md",
+    "decision": "Yes",
+    "normative_frameworks": "Deontology, virtue ethics, justice, commonsense morality (from ETHICS dataset); normative ethics framework (Kagan 2018) explicitly cited as theoretical grounding",
+    "data_artifact": "BEHAVIORBENCH: 1,001 moral scenarios across 10 datasets including ETHICS (justice, deontology, virtue subsets), MoralChoice, Social Chemistry 101, Jiminy Cricket",
+    "llms_tested": "9 open-weight LLMs (LLaMA-2-7B, LLaMA-3-8B, Mistral-7B, etc.) and 20 proprietary frontier models",
+    "reasoning": "BEHAVIORBENCH explicitly operationalizes normative ethical theories (deontology, virtue ethics, justice, utilitarianism) from the ETHICS benchmark and grounds its multi-tier structure in normative ethics (Kagan 2018). It creates a structured benchmark testing LLM-based agents on these normative dimensions, satisfying all three criteria."
+  },
+  {
+    "filename": "2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (empirical taxonomy of values, not normative ethical frameworks)",
+    "data_artifact": "Taxonomy of 3,307 AI values extracted from 308,210 real-world conversations",
+    "llms_tested": "Claude 3 and 3.5 models (Sonnet, Opus, Haiku)",
+    "reasoning": "This is a descriptive empirical study of what values AI systems express in real-world interactions. It does not operationalize normative ethical theories and does not create a benchmark for testing ethical reasoning. The values taxonomy is bottom-up and observational, not prescriptive philosophy."
+  },
+  {
+    "filename": "2025-Jamshidi-The Moral Consistency Pipeline MoCoP.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (generic moral consistency evaluation, no specific normative theories operationalized)",
+    "data_artifact": "MoCoP: dataset-free autonomous evaluation pipeline generating ethical scenarios dynamically",
+    "llms_tested": "GPT-4-Turbo, DeepSeek",
+    "reasoning": "MoCoP evaluates moral consistency and ethical stability of LLMs through lexical, semantic, and reasoning analysis, but does not operationalize specific normative ethical theories (deontology, utilitarianism, virtue ethics, etc.). It is a general moral coherence evaluation framework without normative theory grounding."
+  },
+  {
+    "filename": "2025-Ji-PKU-SafeRLHF.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "PKU-SafeRLHF: 44.6k prompts, 265k Q-A pairs with safety meta-labels across 19 harm categories and 3 severity levels, 166.8k preference data",
+    "llms_tested": "Llama-family models (Llama2-7B, Llama3-8B, Llama3-70B) and various open-source/API models",
+    "reasoning": "This is a safety alignment dataset focused on harmlessness and helpfulness preferences. It uses harm categories and severity levels, not normative ethical theories. The dataset is designed for RLHF training and moderation, not normative ethics benchmarking."
+  },
+  {
+    "filename": "2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.md",
+    "decision": "Borderline",
+    "normative_frameworks": "References utilitarianism, virtue ethics, deontology, social contract theory; uses Kohlberg's stages as primary moral development framework; 88 teacher-specific moral dilemmas",
+    "data_artifact": "EMNLP framework: CPST-E personality scales, 88 moral dilemmas for teacher SP, soft prompt injection set; tested on 14 LLMs",
+    "llms_tested": "14 LLMs (not fully specified in extract)",
+    "reasoning": "The paper mentions normative theories (utilitarianism, virtue ethics, deontology) as related work but primarily uses Kohlberg's developmental psychology framework and personality scales for evaluation. The 88 moral dilemmas test teacher-role ethical judgment but are not explicitly structured around normative ethical theories. Meets 2 of 3 criteria strongly (benchmark + LLM testing), but normative framework operationalization is weak."
+  },
+  {
+    "filename": "2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Gert's 10 moral principles (operationalized as symbolic constraints in DelphiHYBRID)",
+    "data_artifact": "Delphi system with moral judgments dataset",
+    "llms_tested": "Delphi model (based on UNICORN/T5-11B); unclear if modern LLMs tested",
+    "reasoning": "DelphiHYBRID operationalizes Gert's 10 moral principles as symbolic constraints, which is a normative ethics framework. However, the paper primarily builds the Delphi commonsense moral reasoning system rather than benchmarking modern LLMs. The Delphi system itself is more of a moral judgment model than a standard LLM. Meets normative criteria weakly (Gert's principles) and benchmark criteria, but LLM testing is unclear."
+  },
+  {
+    "filename": "2025-Jiao-LLM Ethics Benchmark Three-Dimensional Assessment.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Moral Foundations Theory (MFQ-30), World Values Survey, moral dilemmas referencing consequentialist vs deontological approaches",
+    "data_artifact": "Three-dimensional assessment framework: MFQ-30 adapted for LLMs, WVS items adapted for LLMs, moral dilemmas scenarios; evaluation codebase released",
+    "llms_tested": "GPT-4o and other LLMs (results table includes multiple models)",
+    "reasoning": "The framework uses MFQ (descriptive psychology per Haidt/Graham) and WVS (descriptive cultural surveys) as primary instruments, which are explicitly listed as critical exclusions. However, the moral dilemmas component references consequentialist vs. deontological reasoning approaches, and the paper does test LLMs on these. Two of the three assessment pillars are descriptive psychology frameworks, placing this at borderline."
+  },
+  {
+    "filename": "2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Animal ethics/rights-based ethics (Singer's speciesism concept; moral evaluation of speciesist statements; references to fairness and moral standing of non-human animals)",
+    "data_artifact": "SpeciesismBench: 1,003 speciesist statements across 8 types and 44 species; plus psychological measures and text-generation tasks",
+    "llms_tested": "17 LLMs across 6 families: GPT-3.5/4o/4.1/o1/o3-mini, Gemini-1.5/2/2.5, Claude-3.5/3.7/4, Llama-3.1/3.3/4, DeepSeek-R1/V3, Grok-3",
+    "reasoning": "SpeciesismBench draws on Peter Singer's rights-based/utilitarian ethical arguments about speciesism. It evaluates whether LLMs can recognize speciesist statements and morally condemn them. This is grounded in normative animal ethics (rights-based ethics), uses a structured benchmark, and tests multiple LLMs. However, the normative framework is implicit rather than formally operationalized as distinct ethical theories -- it tests recognition of speciesism rather than operationalizing utilitarian/deontological reasoning directly."
+  },
+  {
+    "filename": "2025-Kasu-EthicsMH.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Bioethics principles: autonomy, beneficence, confidentiality, fairness (derived from but not identical to normative philosophy)",
+    "data_artifact": "EthicsMH: 125 ethically challenging scenarios in mental health contexts with structured annotations",
+    "llms_tested": "Not specified in the extract (pilot dataset, may not have LLM evaluation results yet)",
+    "reasoning": "EthicsMH uses bioethics principles (autonomy, beneficence, confidentiality) which derive from normative philosophy but are applied in clinical/mental health context. The dataset is a pilot benchmark of 125 scenarios, but it is unclear whether LLMs were systematically tested. Meets normative criteria weakly (bioethics principles) and benchmark criteria, but LLM testing is uncertain."
+  },
+  {
+    "filename": "2025-Ki-NormAd-ETI Multiple LLM Agents Debate for Equitable Cultural Alignment.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (social etiquette norms, not normative ethical theories)",
+    "data_artifact": "NORMAD-ETI benchmark: social etiquette norms across 75 countries",
+    "llms_tested": "7 open-weight LLMs (21 combinations) including models with 7-27B parameters",
+    "reasoning": "This paper tests LLMs on social etiquette norms across cultures using the NORMAD-ETI dataset. Social etiquette norms are descriptive cultural practices, not prescriptive normative ethical theories. The paper does not operationalize deontology, consequentialism, virtue ethics, or other normative frameworks."
+  },
+  {
+    "filename": "2025-Kilov-Discerning What Matters Multi-Dimensional Moral Competence Assessment.md",
+    "decision": "Exclude",
+    "normative_frameworks": "General moral competence framework (identifying morally relevant features, weighting, assigning reasons, synthesizing judgments) -- philosophical but not specific normative theories operationalized",
+    "data_artifact": "Novel moral vignettes and scenarios (12 existing + custom-designed novel scenarios); pairwise comparison methodology",
+    "llms_tested": "6 LLMs: Llama 3.3, GPT-4o, DeepSeek V3 Chat, Gemini 1.5 Flash, GPT-o1, Claude 3.7 Sonnet",
+    "reasoning": "The paper evaluates LLMs on general moral competence dimensions (identifying morally relevant features, weighting, reasoning, synthesizing) compared to humans and philosophers. While philosophically grounded, it does not operationalize specific normative ethical theories (deontology, utilitarianism, virtue ethics). It tests general moral reasoning skills rather than alignment with specific normative frameworks."
+  },
+  {
+    "filename": "2025-Kumar-UniMoral ACL 2025 Best Resource Paper.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "UniMoral: 8,784 instances (unified moral reasoning dataset)",
+    "llms_tested": "N/A (limited metadata available; ACL Best Resource Paper, likely a dataset contribution)",
+    "reasoning": "Based on available metadata, UniMoral is a unified moral dataset of 8,784 instances. Without a PDF extract, classification relies on metadata which shows ethics_overall=No, no specific normative frameworks. The paper appears to be a dataset unification resource rather than a normative ethics benchmark."
+  },
+  {
+    "filename": "2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Pragmatic ethics (Dewey & Tufts) mentioned as promising framework; value-based reasoning with competing values; no specific deontology/consequentialism/virtue ethics operationalization",
+    "data_artifact": "CLASH: 345 high-stakes dilemmas with 3,795 individual perspectives of diverse values",
+    "llms_tested": "14 non-thinking and thinking models including GPT-5, Claude-4-Sonnet, GPT-4o-mini",
+    "reasoning": "CLASH evaluates LLMs on high-stakes value dilemmas with competing values, ambivalence, and value shifts. It references pragmatic ethics (Dewey) and tests multiple LLMs systematically. However, the normative framing is indirect -- the benchmark tests value-based reasoning broadly rather than explicitly operationalizing specific normative ethical theories. The values are pluralistic and contextual rather than derived from formal normative philosophy."
+  },
+  {
+    "filename": "2025-Li-LegalAgentBench.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "LegalAgentBench: 300 tasks across 17 corpora with 37 tools in Chinese legal domain",
+    "llms_tested": "8 popular LLMs",
+    "reasoning": "LegalAgentBench evaluates LLM agents on legal domain tasks (case analysis, legal reasoning, retrieval) in the Chinese legal system. It is a legal capability benchmark, not a normative ethics benchmark. No normative ethical theories are operationalized."
+  },
+  {
+    "filename": "2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "LiveSecBench: continuously updated safety benchmark across 5 dimensions (Public Safety, Fairness&Bias, Privacy, Truthfulness, Mental Health Safety)",
+    "llms_tested": "57 LLMs evaluated using ELO rating system",
+    "reasoning": "LiveSecBench is a Chinese LLM safety benchmark focused on adversarial testing across safety dimensions. It does not operationalize normative ethical theories; it tests content safety, privacy, truthfulness, and bias -- standard AI safety dimensions rather than philosophical ethics."
+  },
+  {
+    "filename": "2025-Li-SafetyAnalyst.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Cost-benefit analysis principles (consequentialist in nature but applied as harm-benefit moderation framework, not normative ethics operationalization)",
+    "data_artifact": "SafetyAnalyst system: 18.5M harm-benefit features on 19k prompts; harm-benefit tree framework with 28 interpretable parameters",
+    "llms_tested": "Llama-3.1-8B-Instruct (fine-tuned); evaluated against multiple moderation baselines",
+    "reasoning": "SafetyAnalyst is an AI safety moderation framework using harm-benefit trees for content safety classification. While the harm-benefit analysis has consequentialist philosophical roots, the paper applies it as a technical moderation system, not as a normative ethics benchmark. It does not test LLMs on normative ethical reasoning."
+  },
+  {
+    "filename": "2025-Liu-CQ-Bench Cultural Intelligence Benchmark for LLMs.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (uses World Values Survey and GlobalOpinions for cultural values, not normative ethical theories)",
+    "data_artifact": "CQ-Bench: conversation-based stories with values from WVS and GlobalOpinions, with 3 tasks (attitude detection, value selection, value extraction)",
+    "llms_tested": "Multiple open-source and closed-source LLMs including o1, o3-mini, LLaMA-3.2-3B",
+    "reasoning": "CQ-Bench measures LLMs' cultural intelligence by testing their ability to infer implicit cultural values from conversations. It uses WVS and descriptive cultural survey data, which are explicitly listed as critical exclusions from normative ethics. The benchmark assesses cultural value detection, not normative ethical reasoning."
+  },
+  {
+    "filename": "2025-Liu-On the Convergence of Moral Self-Correction in LLMs.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (generic moral self-correction instructions, no specific normative theories)",
+    "data_artifact": "Uses existing tasks (text detoxification, stereotype/bias reduction) as evaluation tasks; no novel benchmark",
+    "llms_tested": "Multiple LLMs (not fully specified in extract; focus on mechanistic analysis)",
+    "reasoning": "This paper studies the convergence behavior of moral self-correction in LLMs -- how iterative self-correction instructions reduce toxicity and bias. It is a mechanistic analysis of self-correction behavior, not a normative ethics benchmark. No specific normative ethical theories are operationalized."
+  },
+  {
+    "filename": "2025-Liu-Scales of Justitia Safety Evaluation Taxonomy Liu et al..md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (survey paper, not a benchmark paper)",
+    "data_artifact": "N/A (survey/review paper covering existing benchmarks and datasets)",
+    "llms_tested": "N/A (survey paper reviewing evaluation of multiple LLMs across studies)",
+    "reasoning": "This is a comprehensive survey paper on LLM safety evaluation, covering toxicity, robustness, ethics, bias, fairness, and truthfulness. As a survey, it does not create or operationalize any normative ethics benchmark. It reviews existing work rather than contributing a novel evaluation artifact."
+  },
+  {
+    "filename": "2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Reflective equilibrium principles (philosophical concept used to detect behavioral inconsistency)",
+    "data_artifact": "EthicsSuite: 20K moral situations designed to detect behavioral inconsistency",
+    "llms_tested": "LLMs tested (specific models not available from metadata)",
+    "reasoning": "EthicsSuite uses reflective equilibrium (a normative philosophical method from Rawls/Goodman) to detect behavioral inconsistency in LLM ethical suggestions. This is a philosophical framework applied to benchmark design. However, without the full PDF extract, it is difficult to confirm whether specific normative theories (deontology, utilitarianism, etc.) are explicitly operationalized beyond reflective equilibrium. The 20K moral situations and LLM testing suggest it meets benchmark and LLM criteria."
+  },
+  {
+    "filename": "2025-Machlovi-GuardEval.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "GuardEval: unified benchmark with 106 fine-grained categories spanning emotions, offensive language, bias, and safety",
+    "llms_tested": "GGuard (fine-tuned Gemma3-12B), OpenAI Moderator, Llama Guard",
+    "reasoning": "GuardEval is a content moderation benchmark for evaluating LLM moderators on safety, fairness, and robustness. It focuses on harm taxonomy, bias detection, and content classification rather than normative ethical reasoning. No normative ethical theories are operationalized."
+  },
+  {
+    "filename": "2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (tests moral inference from fables, not specific normative ethical theories)",
+    "data_artifact": "MORABLES: 709 fable/moral pairs as MCQA benchmark with adversarial variants",
+    "llms_tested": "Multiple LLMs including reasoning-enhanced models (specific models evaluated but not fully listed in extract)",
+    "reasoning": "MORABLES tests abstract moral reasoning through fables and their morals, using multiple-choice question answering. While it involves moral inference, it does not operationalize specific normative ethical theories. The morals are literary/folk wisdom from fables rather than philosophical normative frameworks. The benchmark tests reading comprehension and moral inference, not alignment with deontology, consequentialism, or virtue ethics."
+  },
+  {
+    "filename": "2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "BenchRisk: meta-benchmark scoring 26 AI safety benchmarks on 57 failure modes with 196 mitigations",
+    "llms_tested": "N/A (evaluates benchmarks, not LLMs directly)",
+    "reasoning": "BenchRisk is a meta-evaluation framework that assesses the reliability of AI safety benchmarks, not a normative ethics benchmark. It identifies failure modes in existing benchmarks and does not operationalize normative ethical theories or test LLMs on ethical reasoning."
+  },
+  {
+    "filename": "2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (uses WVS and PEW surveys, which are descriptive cultural/moral attitude surveys)",
+    "data_artifact": "Probing framework using WVS Wave 7 (55 countries, 19 topics) and PEW 2013 (39 countries, 8 topics)",
+    "llms_tested": "20 models across 9 families: GPT-2, OPT, BLOOMZ, Qwen, GPT-4o, GPT-4o-mini, Gemma-2-9b-it, Llama-3.3-70B-Instruct",
+    "reasoning": "This paper probes LLMs for cultural moral attitudes using WVS and PEW survey data, which are explicitly listed as critical exclusions (descriptive cultural surveys). It measures alignment with cross-cultural moral attitudes, not normative ethical reasoning. The log-probability-based scoring correlates model outputs with survey data, making this a descriptive cultural alignment study."
+  },
+  {
+    "filename": "2025-Mohammed-Aftina - Enhancing Stability in AI-Based Islamic Fatwa Generation.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Islamic jurisprudence (Fatwa generation) -- religious legal framework, not normative philosophy in the Western tradition",
+    "data_artifact": "Fatwa-specific dataset for fine-tuning and evaluation",
+    "llms_tested": "LLMs (specific models not detailed in metadata)",
+    "reasoning": "Aftina focuses on enhancing stability in AI-based Islamic fatwa generation, which is grounded in Islamic religious jurisprudence rather than normative ethical theories (deontology, consequentialism, virtue ethics). While fatwa generation involves moral reasoning within a religious framework, it does not operationalize normative philosophy as defined by the rubric."
+  }
+]

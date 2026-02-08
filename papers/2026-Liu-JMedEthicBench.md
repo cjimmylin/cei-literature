@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,7 @@ abstract: "As Large Language Models (LLMs) are increasingly deployed in healthca
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # JMedEthicBench
 

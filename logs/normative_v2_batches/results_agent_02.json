@@ -1,0 +1,218 @@
+[
+  {
+    "filename": "2024-Duan-DeNEVIL MoralPrompt.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (uses Moral Foundations Theory - descriptive social psychology)",
+    "data_artifact": "MoralPrompt dataset (2,397 prompts covering 500+ value principles based on MFT)",
+    "llms_tested": "27 LLMs across diverse architectures and scales",
+    "reasoning": "Uses Moral Foundations Theory (Graham et al., 2013) as its ethical framework, which is descriptive social psychology, not prescriptive normative philosophy. Explicitly situated within MFT's five innate moral foundations."
+  },
+  {
+    "filename": "2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Deontology (Kant, Darwall) and utilitarianism (consequentialism) explicitly referenced as competing frameworks whose verdicts diverge in the generated dilemmas",
+    "data_artifact": "OffTheRails benchmark (50 scenarios, 400 unique test items with 8 conditions each)",
+    "llms_tested": "GPT-4 and Claude-2",
+    "reasoning": "Explicitly frames moral dilemmas where deontological and utilitarian theories give different verdicts, and tests LLMs on these dilemmas. However, the normative theories serve as background motivation rather than being formally operationalized as measurable constructs - the benchmark measures permissibility and intention judgments rather than testing alignment with specific normative theories."
+  },
+  {
+    "filename": "2024-Guldimann-COMPL-AI EU AI Act Compliance.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (EU AI Act regulatory principles - legal compliance, not normative ethics)",
+    "data_artifact": "COMPL-AI benchmarking suite (27 benchmarks covering robustness, safety, fairness, etc.)",
+    "llms_tested": "12 prominent LLMs",
+    "reasoning": "Focuses on EU AI Act compliance benchmarking across technical requirements like robustness, safety, privacy, and fairness. No normative ethical theories are operationalized; the framework is regulatory/legal rather than grounded in philosophical normative ethics."
+  },
+  {
+    "filename": "2024-Gupta-WalledEval.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "WalledEval toolkit with 35+ safety benchmarks, SGXSTest, HIXSTest",
+    "llms_tested": "Multiple open-weight and API-based LLMs (Llama, Mistral, Qwen, Gemma, GPT-4, Claude)",
+    "reasoning": "A safety evaluation toolkit covering multilingual safety, exaggerated safety, and prompt injections. No normative ethical theories are referenced or operationalized; purely an AI safety testing framework."
+  },
+  {
+    "filename": "2024-Han-WildGuard WildGuardTest.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "WildGuardMix (92K labeled examples), WildGuardTest (5,299 human-annotated items)",
+    "llms_tested": "Compared against GPT-4, Llama-Guard2, Aegis-Guard, and other moderation models",
+    "reasoning": "A safety moderation tool and dataset for detecting prompt harmfulness, response harmfulness, and refusals. No normative ethical theories are used; focuses on content safety classification across 13 risk categories."
+  },
+  {
+    "filename": "2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (references Schwartz Value Theory - descriptive cross-cultural psychology)",
+    "data_artifact": "VIVA benchmark (1,240 images with annotated decisions and human values)",
+    "llms_tested": "Large vision language models (VLMs) evaluated on the benchmark",
+    "reasoning": "Tests vision-grounded decision-making with 'human values' grounded in Schwartz's value theory (descriptive psychology), not normative philosophical ethics. The values are generic social values like compassion and duty to help, not systematically operationalized normative ethical frameworks."
+  },
+  {
+    "filename": "2024-Huang-Collective Constitutional AI Aligning a Language Model with Public.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (public deliberation and Constitutional AI principles, not normative ethics)",
+    "data_artifact": "Collectively sourced 'Public' constitution via Polis platform from US adults",
+    "llms_tested": "Two models: CCAI-trained model vs Standard constitution model (Anthropic's Claude family)",
+    "reasoning": "Focuses on participatory alignment through public input into Constitutional AI, not on normative ethical theories. The 'constitution' is crowd-sourced preferences, not operationalized deontology, utilitarianism, or other normative frameworks."
+  },
+  {
+    "filename": "2024-Huang-Flames.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Flames dataset (adversarial prompts and annotated responses)",
+    "llms_tested": "N/A (limited information available; paper appears to focus on Chinese LLM safety evaluation)",
+    "reasoning": "Based on available metadata and description, this paper focuses on LLM safety evaluation with adversarial prompts, not on normative ethical theories. No normative philosophical frameworks are referenced."
+  },
+  {
+    "filename": "2024-Jin-MULTITP - Language Model Alignment in Multilingual Trolley Problems.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Trolley problems historically grounded in deontology vs. utilitarianism debate (Foot 1967, Thomson 1984), but the paper's dimensions (species, gender, fitness, status, age, number) are descriptive preference dimensions from the Moral Machine",
+    "data_artifact": "MULTITP dataset (98,440 trolley problem scenarios in 107 languages, based on Moral Machine)",
+    "llms_tested": "19 different LLMs (open and closed-weight)",
+    "reasoning": "While trolley problems originate from the deontology-vs-utilitarianism debate, this paper uses the Moral Machine framework which measures descriptive preferences across demographic dimensions (age, gender, status, species, fitness, number of lives) rather than formally operationalizing normative ethical theories. The framework is more descriptive (what people prefer) than prescriptive (what normative theory recommends)."
+  },
+  {
+    "filename": "2024-Jinnai-Does Cross-Cultural Alignment Change the Commonsense Morality of.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (commonsense morality, cross-cultural alignment)",
+    "data_artifact": "JCommonsenseMorality (Japanese), ETHICS (English)",
+    "llms_tested": "Language models evaluated on cross-cultural moral alignment",
+    "reasoning": "Studies cross-cultural alignment effects on commonsense morality using existing datasets. While the ETHICS dataset has normative components, this paper focuses on cross-cultural transfer effects, not on operationalizing normative ethical theories."
+  },
+  {
+    "filename": "2024-Kaneko-Eagle Ethical Dataset Given from Real Interactions.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Eagle dataset (618 social bias, 516 opinion bias, 778 toxic language, 1,142 morality instances from real ChatGPT interactions)",
+    "llms_tested": "ChatGPT and other LLMs evaluated on the dataset",
+    "reasoning": "Creates an ethical dataset from real user-ChatGPT interactions covering social bias, opinion bias, toxicity, and morality. No normative ethical theories are operationalized; the dataset captures real-world ethical challenges (jailbreaks, bias) rather than testing normative philosophical frameworks."
+  },
+  {
+    "filename": "2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Indian-BhED dataset (229 English-language examples covering caste and religious stereotypes in India)",
+    "llms_tested": "GPT-2, GPT-2 Large, GPT-3.5, LLaMA-2, and other encoder/decoder-based LLMs",
+    "reasoning": "A bias evaluation dataset measuring India-centric caste and religious stereotypes in LLMs. No normative ethical theories are used; it measures stereotypical bias using log-likelihood disparities, not ethical reasoning."
+  },
+  {
+    "filename": "2024-Khandelwal-Multilingual Defining Issues Test.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (Kohlberg's stages of moral development - developmental psychology, explicitly excluded per rubric)",
+    "data_artifact": "Defining Issues Test scenarios translated into 6 languages",
+    "llms_tested": "LLMs evaluated on multilingual DIT scenarios",
+    "reasoning": "The Defining Issues Test (DIT) is based on Kohlberg's stages of moral development, which is developmental psychology, not prescriptive normative philosophy. This is explicitly listed as a critical exclusion in the classification rubric."
+  },
+  {
+    "filename": "2024-Kirk-PRISM Alignment Dataset.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (subjective, multicultural preferences; descriptive paradigm explicitly stated)",
+    "data_artifact": "PRISM dataset (8,011 conversations with 21 LLMs from 1,500 participants across 75 countries)",
+    "llms_tested": "21 LLMs from 6 providers (commercial and open access)",
+    "reasoning": "Explicitly operates in the 'descriptive paradigm without guidelines that characterise good responses.' Focuses on subjective and multicultural human feedback preferences for alignment, not on normative ethical theories."
+  },
+  {
+    "filename": "2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "OpenEval platform (35 benchmarks across capability, alignment, and safety for Chinese LLMs)",
+    "llms_tested": "14 Chinese LLMs (9 open-source, 5 proprietary, 7B-72B parameters)",
+    "reasoning": "A comprehensive evaluation platform for Chinese LLMs covering capability, alignment, and safety. While it includes alignment and ethics-related datasets, no normative philosophical frameworks are operationalized; focuses on general benchmarking across bias, toxicity, and safety."
+  },
+  {
+    "filename": "2024-Li-WMDP Benchmark Measuring and Reducing Malicious Use With Unlearning.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "WMDP benchmark (3,668 multiple-choice questions on biosecurity, cybersecurity, chemical security)",
+    "llms_tested": "Multiple LLMs evaluated; RMU unlearning method applied to reduce hazardous knowledge",
+    "reasoning": "Focuses on measuring and reducing hazardous knowledge (weapons of mass destruction) in LLMs through unlearning. No normative ethical theories; this is purely an AI safety/dual-use risk benchmark."
+  },
+  {
+    "filename": "2024-Liu-JAILJUDGE.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "JailJudge dataset (35K+ training data, 4.5K+ labeled complex scenarios, 6K+ multilingual scenarios)",
+    "llms_tested": "GPT-4, Llama-Guard, ShieldGemma, and other safety moderation models",
+    "reasoning": "A jailbreak judge benchmark for evaluating LLM safety against jailbreak attacks. No normative ethical theories are operationalized; focuses on detecting whether LLMs have been compromised by adversarial prompts."
+  },
+  {
+    "filename": "2024-Moore-Intuitions of Compromise - Utilitarianism vs. Contractualism.md",
+    "decision": "Yes",
+    "normative_frameworks": "Utilitarianism (Utilitarian Sum), Contractualism (Nash Product/Nash Social Welfare Function), Rawlsian lexical minimum (maximin)",
+    "data_artifact": "Systematically generated value aggregation scenarios (Focused set: 162 disagreement cases from 19,657 total; Random set with outcomes sampled from [1,101])",
+    "llms_tested": "GPT-4 and additional LLMs (referenced in supplementary materials)",
+    "reasoning": "Explicitly operationalizes and formally compares utilitarian vs. contractualist approaches to value aggregation through mathematical social welfare functions, creates a structured scenario set to test these competing normative proposals, and evaluates LLM alignment with human judgments on these normative-theory-grounded scenarios."
+  },
+  {
+    "filename": "2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Strategic game scenarios (bargaining, repeated games)",
+    "llms_tested": "LLMs evaluated on strategic game scenarios and ethical dilemmas",
+    "reasoning": "Studies emotional decision-making of LLMs in strategic games and ethical dilemmas. Based on available metadata, this focuses on game theory and emotional reasoning, not on operationalizing normative ethical theories like deontology or utilitarianism."
+  },
+  {
+    "filename": "2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Voting simulation and policy-question experiments across 45 political topics; user experiment with 935 US registered voters",
+    "llms_tested": "18 open- and closed-weight LLMs (voting simulation); Claude-3-Opus, Llama-3-70B, GPT-4-Turbo (user experiment)",
+    "reasoning": "Studies political leanings of LLMs and their influence on voter choices in US presidential elections. No normative ethical theories; focuses on political bias and persuasion effects."
+  },
+  {
+    "filename": "2024-Ramezani-Moral Association Graph Cognitive Model for Interpretable Moral.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (cognitive/psychological model of moral inference)",
+    "data_artifact": "Word association network-based cognitive model for moral inference",
+    "llms_tested": "N/A (cognitive model grounded in psychological data)",
+    "reasoning": "A cognitive model for interpretable moral inference based on word association networks and psychological data. This is descriptive cognitive science, not prescriptive normative ethics, and does not appear to test LLMs on normative ethical benchmarks."
+  },
+  {
+    "filename": "2024-Ren-Safetywashing Do AI Safety Benchmarks Actually Measure Safety Progress.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Meta-analysis of AI safety benchmarks (dozens of models and safety benchmarks analyzed for correlation with capabilities)",
+    "llms_tested": "Dozens of chat models analyzed across multiple safety benchmarks",
+    "reasoning": "A meta-analysis examining whether safety benchmarks are entangled with upstream capabilities. While it discusses machine ethics and alignment benchmarks, it does not itself operationalize normative ethical theories; it analyzes the statistical properties of existing safety benchmarks."
+  },
+  {
+    "filename": "2024-Rottger-Political Compass or Spinning Arrow.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Political Compass Test (62 propositions) used in constrained and unconstrained evaluation settings",
+    "llms_tested": "Multiple LLMs evaluated on PCT (specific models in systematic review of 12 prior works)",
+    "reasoning": "Evaluates political values and opinions in LLMs using the Political Compass Test. No normative ethical theories are operationalized; focuses on methodological issues in measuring political leanings via constrained vs. unconstrained evaluation formats."
+  },
+  {
+    "filename": "2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Systematic review of 144 open datasets for LLM safety (SafetyPrompts.com catalogue)",
+    "llms_tested": "N/A (review paper, does not directly test LLMs)",
+    "reasoning": "A systematic review cataloguing 144 open LLM safety datasets. Does not operationalize normative ethical theories or test LLMs; it is a survey paper analyzing the landscape of safety evaluation datasets."
+  },
+  {
+    "filename": "2024-Rozado-The Political Preferences of LLMs.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "11 political orientation tests administered across 24 LLMs (2,640 total test administrations)",
+    "llms_tested": "24 LLMs evaluated on political orientation tests",
+    "reasoning": "Measures political preferences of LLMs using political orientation questionnaires. No normative ethical theories; focuses on political bias detection using descriptive political science instruments."
+  },
+  {
+    "filename": "2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Multi-axis evaluation across dialects, languages, global opinions",
+    "llms_tested": "LLMs evaluated on alignment impacts across global representation dimensions",
+    "reasoning": "Studies unintended side effects of LLM alignment on global representation across dialects, languages, and opinions. No normative ethical theories are operationalized; focuses on alignment's impact on linguistic and cultural diversity."
+  },
+  {
+    "filename": "2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "IndiBias dataset (800 sentence pairs in English and Hindi, 300 tuples, intersectional bias resource of ~1000 sentences)",
+    "llms_tested": "10 multilingual language models probed for bias",
+    "reasoning": "A bias benchmark for measuring social stereotypes in the Indian context covering gender, religion, caste, age, region, physical appearance, and occupation. No normative ethical theories; focuses on stereotypical bias measurement using log-likelihood metrics."
+  }
+]

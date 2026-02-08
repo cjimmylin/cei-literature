@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,7 @@ abstract: "Moral actions are judged not only by their outcomes but by the contex
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework dataset"
 data_metrics: "300 scenarios"
+normative_ethics_benchmark: Borderline
 ---
 # COMETH: Contextual Organization of Moral Evaluation from Textual Human Inputs
 

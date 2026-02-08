@@ -1,0 +1,218 @@
+[
+  {
+    "filename": "2024-Wang-Fake Alignment FINE Framework.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "FINE framework benchmark with MC and open-ended questions",
+    "llms_tested": "Not specified in available metadata",
+    "reasoning": "Paper focuses on detecting fake alignment behaviors in LLMs, an AI safety concern. No normative ethical theories (deontology, consequentialism, virtue ethics, etc.) are operationalized; the framework evaluates surface-level vs genuine safety alignment."
+  },
+  {
+    "filename": "2024-Yanaka-JBBQ Japanese Bias Benchmark for Question Answering.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "JBBQ: 50,856 question pairs across 5 social categories (age, disability, gender, physical appearance, sexual orientation)",
+    "llms_tested": "8 open Japanese LLMs (LLMJP, Swallow variants 13B-70B), GPT-4o, GPT-4o-mini",
+    "reasoning": "Social bias benchmark measuring stereotyping behavior in Japanese LLMs. Tests social bias through QA tasks, not normative ethical theories. The framework is about descriptive social bias detection, not prescriptive ethics."
+  },
+  {
+    "filename": "2024-Yao-CLAVE ValEval.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Moral Foundations Theory (descriptive), Schwartz Theory of Basic Values (descriptive), Social Risk Categories",
+    "data_artifact": "ValEval benchmark: 13k+ (text, value, label) tuples across 3 value systems with original, perturbation, and generalization test splits",
+    "llms_tested": "12+ LLM evaluators including GPT-4, Mistral-7B, Llama-2-7b, Phi-3, GPT-2-Large",
+    "reasoning": "Comprehensive value evaluation benchmark with LLM testing and structured dataset. However, the value systems used are descriptive psychology frameworks (MFT, Schwartz) and safety risk categories, not prescriptive normative ethics theories. Meets conditions 2 and 3 strongly but condition 1 only weakly."
+  },
+  {
+    "filename": "2024-Yao-Value FULCRA.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Schwartz's Theory of Basic Values (descriptive cross-cultural psychology)",
+    "data_artifact": "FULCRA dataset: 5k (LLM output, value vector) pairs with 10-dimensional value vectors",
+    "llms_tested": "GPT-35-Turbo, GPT-4, Llama2-7B, Llama2-13B, Vicuna-13B, plus evaluators (BERT-large, DeBERTa-large, BART-large, OPT-1.3B)",
+    "reasoning": "Maps LLM behaviors to Schwartz's Theory of Basic Values, which is a descriptive cross-cultural psychology framework, not prescriptive normative ethics. While it creates a structured dataset and tests LLMs, it fails the normative ethics condition."
+  },
+  {
+    "filename": "2024-Yin-SafeAgentBench.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "SafeAgentBench: 750 tasks covering 10 physical hazards and 3 task types in interactive simulation environments",
+    "llms_tested": "9 state-of-the-art embodied agent baselines",
+    "reasoning": "Safety benchmark for embodied LLM agents focused on physical hazards (fire, explosion, electrical shock, etc.) in household environments. No normative ethics theories are involved; the evaluation concerns task-level physical safety awareness."
+  },
+  {
+    "filename": "2024-Yu-CoSafe.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "CoSafe: 1,400 questions across 14 safety categories",
+    "llms_tested": "Not specified in available metadata",
+    "reasoning": "Safety evaluation benchmark focused on content safety categories. No normative ethical theories are operationalized; the paper addresses generic safety concerns rather than prescriptive ethics."
+  },
+  {
+    "filename": "2024-Yuan-Social Measuring Social Norms of LLMs.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Social: 12,383 questions covering 402 social norm skills, K-12 curriculum-based",
+    "llms_tested": "GPT-3.5-Turbo, LLaMA2-Chat, and others",
+    "reasoning": "Measures LLMs' understanding of social norms (rules, culture, economics, laws) using K-12 education standards. These are descriptive social norms and conventions, not prescriptive normative ethics theories."
+  },
+  {
+    "filename": "2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Agent-SafetyBench: 349 interaction environments, 2,000 test cases across 8 safety risk categories and 10 failure modes",
+    "llms_tested": "16 popular LLM agents",
+    "reasoning": "Comprehensive safety benchmark for LLM agents evaluating behavioral safety in interactive environments. Focuses on safety risks and failure modes, not normative ethical theories."
+  },
+  {
+    "filename": "2024-Zhang-CHiSafetyBench - A Chinese Hierarchical Safety Benchmark for LLMs.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "CHiSafetyBench: dataset covering 5 risk areas and 31 categories with MC and QA tasks",
+    "llms_tested": "Mainstream Chinese LLMs (not fully specified in excerpt)",
+    "reasoning": "Chinese-language safety benchmark evaluating risk content identification and refusal of risky questions. No normative ethics theories; the taxonomy is about safety risk categories specific to Chinese regulatory contexts."
+  },
+  {
+    "filename": "2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "ChineseSafe: 205,034 examples across 4 classes and 10 sub-classes of safety issues",
+    "llms_tested": "Popular Chinese and English LLMs including open-sourced models and APIs",
+    "reasoning": "Large-scale Chinese safety benchmark focused on content moderation categories (political sensitivity, pornography, variant words). No normative ethics; evaluates legal and content safety risks."
+  },
+  {
+    "filename": "2024-Zhang-SafetyBench Evaluating the Safety of Large Language Models.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "SafetyBench: 11,435 multiple choice questions across 7 safety categories in Chinese and English",
+    "llms_tested": "25 popular Chinese and English LLMs including GPT-4",
+    "reasoning": "Comprehensive safety benchmark with multiple-choice format. Evaluates safety understanding rather than normative ethical reasoning. No normative ethics theories are operationalized."
+  },
+  {
+    "filename": "2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via.md",
+    "decision": "Borderline",
+    "normative_frameworks": "References ETHICS dataset (which includes justice, deontology, utilitarianism, virtue ethics); evaluates stereotypes, morality, and legality",
+    "data_artifact": "ALI-Agent evaluation framework with auto-generated test scenarios; uses CrowS-Pairs and ETHICS benchmarks",
+    "llms_tested": "Multiple LLMs evaluated with GPT-4 as controller agent",
+    "reasoning": "Agent-based framework for evaluating LLM alignment across stereotypes, morality, and legality. Uses the ETHICS benchmark which contains normative ethics categories, but ALI-Agent itself is a meta-evaluation framework rather than a normative ethics benchmark. Meets conditions 2-3 but condition 1 is indirect."
+  },
+  {
+    "filename": "2024-results-Conscience Conflict Evaluating Language Models' Moral Understanding.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Moral dilemmas (likely involving competing normative principles, but specifics unavailable without full text)",
+    "data_artifact": "6 human-authored high-stakes moral dilemmas with 3 mutually exclusive decisions each",
+    "llms_tested": "Language models (specifics not available in metadata)",
+    "reasoning": "Evaluates moral understanding through high-stakes moral dilemmas requiring choice and justification. The framing of 'conscience conflict' and moral dilemmas suggests normative ethical tensions, but without full text, the extent to which specific normative theories are formally operationalized cannot be confirmed. Very small scale (6 dilemmas)."
+  },
+  {
+    "filename": "2024-retrieved-Cross-Linguistic Moral Preferences in LLMs - Evidence from.md",
+    "decision": "Yes",
+    "normative_frameworks": "Distributive justice (Rawlsian/egalitarian frameworks), with domain persona interventions across professional domains",
+    "data_artifact": "1,201,200 observations across ten professional domains testing distributive justice scenarios",
+    "llms_tested": "LLMs tested cross-linguistically (specifics not available in metadata)",
+    "reasoning": "Explicitly operationalizes distributive justice -- a core normative ethics concept from Rawlsian contractualism -- through structured scenarios across multiple domains. Creates a large-scale evaluation artifact and tests LLMs cross-linguistically. Meets all three conditions."
+  },
+  {
+    "filename": "2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Evaluation framework using nationally representative surveys (PEW-style) and community-sourced QA datasets for India",
+    "llms_tested": "6 Indic LLMs and 6 global LLMs",
+    "reasoning": "Evaluates cultural alignment of regional vs global LLMs using descriptive survey data and cultural knowledge tests. Uses descriptive cultural surveys, not normative ethics theories. Focus is on value alignment in the cultural/descriptive sense."
+  },
+  {
+    "filename": "2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "AraTrust: 522 human-written MCQs covering truthfulness, ethics, safety, physical/mental health, unfairness, illegal activities, privacy, offensive language",
+    "llms_tested": "GPT-4, AceGPT 7B, Jais 13B, and others",
+    "reasoning": "Arabic trustworthiness benchmark covering broad safety and ethics categories. While it includes an 'ethics' dimension, it is not grounded in specific normative ethical theories but in general safety and trustworthiness concerns."
+  },
+  {
+    "filename": "2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (uses descriptive psychological methods: Implicit Association Test, behavioral economics paradigms, self-report scales)",
+    "data_artifact": "LLM-IAT (32-word categorization), Forced Binary Choice paradigm, LLM-ASA (15-item self-report scale)",
+    "llms_tested": "24 frontier LLMs from 9 providers (OpenAI, Google, Anthropic, Meta, Mistral, X-AI, IBM, Microsoft, Z-AI)",
+    "reasoning": "Multi-method evaluation of altruism in LLMs using descriptive psychological instruments (IAT, behavioral choice paradigms). The methods are from descriptive social psychology, not prescriptive normative ethics. Measures prosocial behavior empirically rather than operationalizing normative theories."
+  },
+  {
+    "filename": "2025-Ashkinaze-Deep Value Benchmark.md",
+    "decision": "Borderline",
+    "normative_frameworks": "References moral principles including non-maleficence and justice as 'deep values' in experimental design",
+    "data_artifact": "Deep Value Benchmark (DVB): controlled experimental framework testing deep value generalization rate (DVGR) with confound-then-deconfound design",
+    "llms_tested": "9 models (details in paper)",
+    "reasoning": "Uses moral principles (non-maleficence, justice) as deep values in a controlled experimental design to test whether LLMs learn fundamental values vs shallow preferences. Normative principles are referenced but the focus is on preference learning mechanics rather than systematic operationalization of normative theories. Meets conditions 2-3 but condition 1 only partially."
+  },
+  {
+    "filename": "2025-Authors-COIG-P - Chinese Preference Dataset for Alignment with Human Values.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "COIG-P: 1,006k Chinese preference pairs across 6 domains (Chat, Code, Math, Logic, Novel, Role), plus CRBench reward benchmark",
+    "llms_tested": "15 mainstream LLMs for generation; Qwen2/2.5 and Infinity-Instruct series for DPO training",
+    "reasoning": "Large-scale Chinese preference dataset for RLHF-style alignment. Focus is on general preference alignment (response quality) rather than normative ethical theories. No normative ethics frameworks are operationalized."
+  },
+  {
+    "filename": "2025-Authors-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "INDIC-BIAS: 20,000 scenario templates across 85 identity groups, 1,800+ socio-cultural topics, 3 evaluation tasks (plausibility, judgment, generation)",
+    "llms_tested": "14 popular LLMs",
+    "reasoning": "India-centric fairness and bias benchmark evaluating stereotypes across caste, religion, region, and tribes. Focuses on descriptive bias detection and social stereotypes, not normative ethical theories."
+  },
+  {
+    "filename": "2025-Authors-Hajj-FQA - Benchmark Arabic Dataset for Hajj Fatwa QA.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Islamic jurisprudence (fiqh) -- religious legal rulings, not Western normative philosophy",
+    "data_artifact": "Hajj-FQA: 2,826 QA pairs from 800 expert-annotated fatwas",
+    "llms_tested": "Not specified in available metadata",
+    "reasoning": "Arabic QA dataset for Hajj-related religious rulings (fatwas). While Islamic jurisprudence is prescriptive, it is religious law rather than the normative philosophy frameworks specified in the rubric. Also unclear if LLMs are tested."
+  },
+  {
+    "filename": "2025-Authors-IndiCASA - Dataset and Bias Evaluation Framework for LLMs in Indian.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "IndiCASA: 2,575 human-validated sentences spanning caste, gender, religion, disability, socioeconomic status",
+    "llms_tested": "Multiple open-weight LLMs",
+    "reasoning": "Indian context bias evaluation using contrastive embedding similarity. Focuses on measuring stereotypical bias across demographic axes, not normative ethical theories."
+  },
+  {
+    "filename": "2025-Authors-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Hallucination detection/correction dataset for Qur'anic and Hadith references",
+    "llms_tested": "LLMs (shared task format)",
+    "reasoning": "Shared task focused on detecting and correcting LLM hallucinations in Islamic religious content. This is about factual accuracy of religious texts, not normative ethical reasoning."
+  },
+  {
+    "filename": "2025-Authors-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "PalmX 2025: MCQs in MSA covering General Arabic Culture and General Islamic Culture subtasks",
+    "llms_tested": "Multiple teams' fine-tuned LLMs; 26 teams registered for Subtask 1, 19 for Subtask 2",
+    "reasoning": "Shared task benchmarking LLMs on Arabic and Islamic cultural knowledge (traditions, food, history, religious practices, language expressions). This is cultural knowledge QA, not normative ethics evaluation."
+  },
+  {
+    "filename": "2025-Authors-PoliCon.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Rawlsianism (Rawlsian justice as political goal), Utilitarianism (as political goal), social choice theory",
+    "data_artifact": "PoliCon: 2,225 deliberation records from European Parliament (2009-2022), with structured task environments varying political goals and power structures",
+    "llms_tested": "State-of-the-art LLMs (specifics in paper)",
+    "reasoning": "Explicitly uses Rawlsianism and Utilitarianism as political consensus goal parameters in the benchmark design. However, these normative frameworks serve as political goal specifications for consensus-building tasks rather than being systematically tested as ethical reasoning benchmarks. Meets conditions 2-3 but condition 1 is applied in political science context rather than ethical reasoning evaluation."
+  },
+  {
+    "filename": "2025-Authors-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Islamic inheritance law (fiqh al-mawarith) -- religious legal reasoning",
+    "data_artifact": "22,000 examples (20k train, 1k val, 1k test) for inheritance reasoning",
+    "llms_tested": "LLMs (shared task format)",
+    "reasoning": "Shared task on Islamic inheritance reasoning, which is religious jurisprudence applied to mathematical inheritance calculations. Not normative philosophy; focuses on rule-based religious legal computation."
+  },
+  {
+    "filename": "2025-Authors-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Saudi-Alignment Benchmark: questions across Saudi cultural, ethical, and domain knowledge categories",
+    "llms_tested": "LLMs (specifics not available in metadata)",
+    "reasoning": "Benchmark assessing LLM alignment with Saudi cultural and ethical norms. Focus is on cultural alignment rather than operationalization of normative ethical theories. The 'ethical norms' referenced are culturally specific standards, not systematic normative philosophy."
+  }
+]

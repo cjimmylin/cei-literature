@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,7 @@ abstract:
 ethics_perspective: "Applied Ethics"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # Corpus-Based Medical Ethics Decision-Making Evaluation
 

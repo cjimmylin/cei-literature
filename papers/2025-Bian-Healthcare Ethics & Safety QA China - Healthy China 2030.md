@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,7 @@ abstract: "Large Language Models (LLMs) are poised to transform healthcare under
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # Healthcare Ethics & Safety QA (China -- Healthy China 2030)
 

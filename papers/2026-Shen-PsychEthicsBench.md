@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,7 @@ abstract: "The increasing integration of large language models (LLMs) into menta
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # PsychEthicsBench
 

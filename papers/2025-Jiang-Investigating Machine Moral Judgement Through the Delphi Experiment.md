@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,7 @@ abstract:
 ethics_perspective: "General Ethics"
 data_description: "N/A"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)
 

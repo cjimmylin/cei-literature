@@ -1,0 +1,137 @@
+[
+  {
+    "filename": "2019-Unknown-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models.md",
+    "pdf_extract_path": "PDF Extracts/2019-Unknown-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2020-Forbes-Social Chemistry 101 SOCIAL-CHEM-101.md",
+    "pdf_extract_path": "PDF Extracts/2020-Forbes-Social Chemistry 101 SOCIAL-CHEM-101.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2021-Nangia-CrowS-Pairs.md",
+    "pdf_extract_path": "PDF Extracts/2021-Nangia-CrowS-Pairs.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2022-Bai-HH-RLHF Helpful and Harmless RLHF.md",
+    "pdf_extract_path": "PDF Extracts/2022-Bai-HH-RLHF Helpful and Harmless RLHF.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2022-Kim-ProsocialDialog A Prosocial Backbone for Conversational Agents.md",
+    "pdf_extract_path": "PDF Extracts/2022-Kim-ProsocialDialog A Prosocial Backbone for Conversational Agents.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2022-Liu-CoreValue Chinese Values Knowledge Base Liu et al..md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2022-Parrish-BBQ Bias Benchmark for Question Answering.md",
+    "pdf_extract_path": "PDF Extracts/2022-Parrish-BBQ Bias Benchmark for Question Answering.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2022-Schramowski-I2P Inappropriate Image Prompts Test Bed.md",
+    "pdf_extract_path": "PDF Extracts/2022-Schramowski-I2P Inappropriate Image Prompts Test Bed.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2022-Ziems-Moral Integrity Corpus MIC.md",
+    "pdf_extract_path": "PDF Extracts/2022-Ziems-Moral Integrity Corpus MIC.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2023-Ji-BeaverTails.md",
+    "pdf_extract_path": "PDF Extracts/2023-Ji-BeaverTails.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2023-Ojo-AfroBench - How Good are LLMs on African Languages.md",
+    "pdf_extract_path": "PDF Extracts/2023-Ojo-AfroBench - How Good are LLMs on African Languages.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2023-Santurkar-OpinionQA.md",
+    "pdf_extract_path": "PDF Extracts/2023-Santurkar-OpinionQA.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2023-Tanmay-Probing Moral Development through Defining Issues Test DIT.md",
+    "pdf_extract_path": "PDF Extracts/2023-Tanmay-Probing Moral Development through Defining Issues Test DIT.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2023-Unknown-EtiCor Corpus for Analyzing LLMs for Etiquettes.md",
+    "pdf_extract_path": "PDF Extracts/2023-Unknown-EtiCor Corpus for Analyzing LLMs for Etiquettes.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2023-Xu-CValues - Measuring the Values of Chinese LLMs from Safety to.md",
+    "pdf_extract_path": "PDF Extracts/2023-Xu-CValues - Measuring the Values of Chinese LLMs from Safety to.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Agarwal-Ethical Reasoning and Moral Value Alignment Multilingual.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2024-AlKhamissi-Investigating Cultural Alignment of LLMs.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2024-Authors-Edu-Values - Evaluating Chinese Education Values of LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2024-Authors-Edu-Values - Evaluating Chinese Education Values of LLMs.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Authors-Measuring What Matters - Construct Validity in LLM Benchmarks.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2024-Authors-Pluralistic Alignment Over Time.md",
+    "pdf_extract_path": "PDF Extracts/2024-Authors-Pluralistic Alignment Over Time.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Bajaj-GenMO Gender-bias in Morality Opinions.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said.md",
+    "pdf_extract_path": "PDF Extracts/2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Bonagiri-SaGE Semantic Graph Entropy Moral Consistency Corpus.md",
+    "pdf_extract_path": "PDF Extracts/2024-Bonagiri-SaGE Semantic Graph Entropy Moral Consistency Corpus.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Chao-JailbreakBench - An Open Robustness Benchmark.md",
+    "pdf_extract_path": "PDF Extracts/2024-Chao-JailbreakBench - An Open Robustness Benchmark.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2024-Debenedetti-SaTML LLM CTF Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2024-Debenedetti-SaTML LLM CTF Dataset.md",
+    "has_extract": true
+  }
+]

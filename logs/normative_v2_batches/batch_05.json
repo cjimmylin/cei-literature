@@ -1,0 +1,137 @@
+[
+  {
+    "filename": "2025-Authors-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Batzner-GermanPartiesQA Benchmarking LLMs for Political Alignment and.md",
+    "pdf_extract_path": "PDF Extracts/2025-Batzner-GermanPartiesQA Benchmarking LLMs for Political Alignment and.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Becker-The Moralization Corpus.md",
+    "pdf_extract_path": "PDF Extracts/2025-Becker-The Moralization Corpus.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.md",
+    "pdf_extract_path": "PDF Extracts/2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Capraro-Large Language Models Show Amplified Cognitive Biases in Moral.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Castricato-PERSONA Pluralistic Alignment Testbed.md",
+    "pdf_extract_path": "PDF Extracts/2025-Castricato-PERSONA Pluralistic Alignment Testbed.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.md",
+    "pdf_extract_path": "PDF Extracts/2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Cheng-ELEPHANT Social Sycophancy.md",
+    "pdf_extract_path": "PDF Extracts/2025-Cheng-ELEPHANT Social Sycophancy.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Chua-Between a Rock and a Hard Place TRIAL.md",
+    "pdf_extract_path": "PDF Extracts/2025-Chua-Between a Rock and a Hard Place TRIAL.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Coleman-The Convergent Ethics of AI Analyzing Moral Foundation Priorities in.md",
+    "pdf_extract_path": "PDF Extracts/2025-Coleman-The Convergent Ethics of AI Analyzing Moral Foundation Priorities in.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value.md",
+    "pdf_extract_path": "PDF Extracts/2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical.md",
+    "pdf_extract_path": "PDF Extracts/2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..md",
+    "pdf_extract_path": "PDF Extracts/2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Fan-LEXam.md",
+    "pdf_extract_path": "PDF Extracts/2025-Fan-LEXam.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Fanous-SycEval Evaluating LLM Sycophancy.md",
+    "pdf_extract_path": "PDF Extracts/2025-Fanous-SycEval Evaluating LLM Sycophancy.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Gai-MoralBench A Multi-Faceted Benchmark Gai et al..md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Gao-MIST Moral Inference through Storytelling with Text and Images.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.md",
+    "pdf_extract_path": "PDF Extracts/2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Ghosh-AEGIS 2.0.md",
+    "pdf_extract_path": "PDF Extracts/2025-Ghosh-AEGIS 2.0.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.md",
+    "pdf_extract_path": "PDF Extracts/2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.md",
+    "pdf_extract_path": "PDF Extracts/2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Han-Value Portrait.md",
+    "pdf_extract_path": "PDF Extracts/2025-Han-Value Portrait.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Helwe-Navigating the Political Compass Multilingual 50 Countries.md",
+    "pdf_extract_path": "",
+    "has_extract": false
+  },
+  {
+    "filename": "2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset.md",
+    "has_extract": true
+  },
+  {
+    "filename": "2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.md",
+    "pdf_extract_path": "PDF Extracts/2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.md",
+    "has_extract": true
+  }
+]

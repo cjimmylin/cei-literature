@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,7 @@ abstract: "Recent advances in large language models (LLMs) have enabled their us
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # When Ethics and Payoffs Diverge: LLM Agents in Morally Charged Social Dilemmas (MoralSim)
 

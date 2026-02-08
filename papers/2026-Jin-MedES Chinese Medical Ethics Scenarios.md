@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,7 @@ abstract: "Recent advances in large language models (LLMs) have enabled their ap
 ethics_perspective: "Applied Ethics"
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # MedES (Chinese Medical Ethics Scenarios)
 

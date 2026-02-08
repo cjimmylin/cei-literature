@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,7 @@ tags:
 abstract: "Decision-making agents based on pre-trained Large Language Models (LLMs) are increasingly being deployed across various domains of human activity. While their applications are currently rather specialized, several research efforts are underway to develop more generalist agents. As LLM-based systems become more agentic, their influence on human activity will grow and their transparency will decrease. Consequently, developing effective methods for aligning them to human values is vital."
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Yes
 ---
 # Moral Alignment for LLM Agents (Intrinsic Rewards)
 

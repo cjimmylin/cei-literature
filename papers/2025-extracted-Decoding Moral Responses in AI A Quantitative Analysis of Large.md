@@ -13,6 +13,9 @@ first_author: "[[Authors not fully extracted]]"
 authors: "[Authors not fully extracted]"
 doi: 10.1016/j.chbah.2025.100121
 url: "https://doi.org/10.1016/j.chbah.2025.100121"
+external_pdf: "https://arxiv.org/pdf/2310.13297.pdf"
+local_pdf: "[[PDFs/2025-extracted-Decoding Moral Responses in AI A Quantitative Analysis of Large.pdf]]"
+pdf_extract: "PDF Extracts/2025-extracted-Decoding Moral Responses in AI A Quantitative Analysis of Large.md"
 publication: Unknown
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

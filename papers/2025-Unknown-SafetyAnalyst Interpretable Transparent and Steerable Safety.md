@@ -11,6 +11,9 @@ year: 2025
 first_author: "[[Unknown]]"
 authors: Unknown
 publication: ICML 2025
+external_pdf: "https://openreview.net/pdf?id=WUGrleBcYP"
+local_pdf: "[[PDFs/2025-Unknown-SafetyAnalyst Interpretable Transparent and Steerable Safety.pdf]]"
+pdf_extract: "PDF Extracts/2025-Unknown-SafetyAnalyst Interpretable Transparent and Steerable Safety.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

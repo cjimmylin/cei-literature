@@ -12,6 +12,9 @@ year: 2024
 first_author: "[[Authors not fully retrieved]]"
 authors: "[Authors not fully retrieved]"
 publication: Unknown
+external_pdf: "https://arxiv.org/pdf/2312.10075v1.pdf"
+local_pdf: "[[PDFs/2024-retrieved-Cross-Linguistic Moral Preferences in LLMs - Evidence from.pdf]]"
+pdf_extract: "PDF Extracts/2024-retrieved-Cross-Linguistic Moral Preferences in LLMs - Evidence from.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

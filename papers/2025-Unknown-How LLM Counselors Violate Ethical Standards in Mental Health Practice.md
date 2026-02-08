@@ -12,6 +12,9 @@ first_author: "[[Unknown]]"
 authors: Unknown
 doi: 10.1609/aies.v8i1.36632
 url: "https://doi.org/10.1609/aies.v8i1.36632"
+external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/36632/38770"
+local_pdf: "[[PDFs/2025-Unknown-How LLM Counselors Violate Ethical Standards in Mental Health Practice.pdf]]"
+pdf_extract: "PDF Extracts/2025-Unknown-How LLM Counselors Violate Ethical Standards in Mental Health Practice.md"
 publication: Unknown
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

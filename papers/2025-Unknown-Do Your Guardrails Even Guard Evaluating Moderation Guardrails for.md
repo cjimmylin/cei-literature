@@ -12,6 +12,9 @@ first_author: "[[Unknown]]"
 authors: Unknown
 doi: 10.1609/aies.v8i1.36583
 url: "https://doi.org/10.1609/aies.v8i1.36583"
+external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/36583/38721"
+local_pdf: "[[PDFs/2025-Unknown-Do Your Guardrails Even Guard Evaluating Moderation Guardrails for.pdf]]"
+pdf_extract: "PDF Extracts/2025-Unknown-Do Your Guardrails Even Guard Evaluating Moderation Guardrails for.md"
 publication: Unknown
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

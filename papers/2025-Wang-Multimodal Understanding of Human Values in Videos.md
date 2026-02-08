@@ -12,6 +12,9 @@ first_author: "[[Y. Wang]]"
 authors: Wang, Y. et al.
 doi: 10.1016/j.neucom.2025.130170
 url: "https://doi.org/10.1016/j.neucom.2025.130170"
+external_pdf: "https://arxiv.org/pdf/2501.11770.pdf"
+local_pdf: "[[PDFs/2025-Wang-Multimodal Understanding of Human Values in Videos.pdf]]"
+pdf_extract: "PDF Extracts/2025-Wang-Multimodal Understanding of Human Values in Videos.md"
 publication: Neurocomputing
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

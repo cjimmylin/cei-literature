@@ -12,6 +12,9 @@ first_author: "[[Unknown]]"
 authors: "[Authors from Kurt Gray Lab]"
 doi: 10.1038/s41598-025-86510-0
 url: "https://doi.org/10.1038/s41598-025-86510-0"
+external_pdf: "https://www.nature.com/articles/s41598-025-86510-0.pdf"
+local_pdf: "[[PDFs/2025-Unknown-AI Language Model Rivals Expert Ethicist in Perceived Moral Expertise.pdf]]"
+pdf_extract: "PDF Extracts/2025-Unknown-AI Language Model Rivals Expert Ethicist in Perceived Moral Expertise.md"
 publication: Scientific Reports
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

@@ -11,6 +11,9 @@ year: 2024
 first_author: "[[Yixu Wang]]"
 authors: Yixu Wang et al.
 publication: ACL 2024
+external_pdf: "https://arxiv.org/pdf/2510.05703.pdf"
+local_pdf: "[[PDFs/2024-Wang-Fake Alignment FINE Framework.pdf]]"
+pdf_extract: "PDF Extracts/2024-Wang-Fake Alignment FINE Framework.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

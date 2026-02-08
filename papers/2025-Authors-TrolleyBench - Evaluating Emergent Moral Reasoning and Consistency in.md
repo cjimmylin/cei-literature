@@ -12,6 +12,9 @@ year: 2025
 first_author: "[[Authors]]"
 authors: "[Authors]"
 publication: NeurIPS 2025
+external_pdf: "https://openreview.net/pdf?id=27j9XJQV5O"
+local_pdf: "[[PDFs/2025-Authors-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.pdf]]"
+pdf_extract: "PDF Extracts/2025-Authors-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

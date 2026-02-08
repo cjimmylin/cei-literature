@@ -12,6 +12,9 @@ year: 2024
 first_author: "[[Utkarsh Agarwal]]"
 authors: Utkarsh Agarwal, Kumar Tanmay, Aditi Khandelwal, Monojit Choudhury
 publication: COLING 2024
+external_pdf: "https://arxiv.org/pdf/2404.18460v1.pdf"
+local_pdf: "[[PDFs/2024-Agarwal-Ethical Reasoning and Moral Value Alignment Multilingual.pdf]]"
+pdf_extract: "PDF Extracts/2024-Agarwal-Ethical Reasoning and Moral Value Alignment Multilingual.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

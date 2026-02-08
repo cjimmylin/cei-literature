@@ -11,6 +11,9 @@ year: 2024
 first_author: "[[Y Jinnai]]"
 authors: Jinnai, Y
 publication: ACL 2024
+external_pdf: "https://arxiv.org/pdf/2406.16316v1.pdf"
+local_pdf: "[[PDFs/2024-Jinnai-Does Cross-Cultural Alignment Change the Commonsense Morality of.pdf]]"
+pdf_extract: "PDF Extracts/2024-Jinnai-Does Cross-Cultural Alignment Change the Commonsense Morality of.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

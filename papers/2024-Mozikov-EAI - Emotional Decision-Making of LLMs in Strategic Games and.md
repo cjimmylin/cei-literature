@@ -11,6 +11,9 @@ year: 2024
 first_author: "[[M. Mozikov]]"
 authors: Mozikov, M., et al
 publication: NeurIPS 2024
+external_pdf: "https://openreview.net/pdf?id=Vov1mypRjw"
+local_pdf: "[[PDFs/2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.pdf]]"
+pdf_extract: "PDF Extracts/2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

@@ -11,6 +11,9 @@ year: 2026
 first_author: "[[Aaron J. Snoswell]]"
 authors: Aaron J. Snoswell, Daniel Kilov, Seth Lazar
 publication: AAAI 2026
+external_pdf: "https://arxiv.org/pdf/2506.13082.pdf"
+local_pdf: "[[PDFs/2026-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence.pdf]]"
+pdf_extract: "PDF Extracts/2026-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

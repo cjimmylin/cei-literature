@@ -12,6 +12,9 @@ first_author: "[[N. Kratzke]]"
 authors: Kratzke, N. et al.
 doi: 10.3390/analytics5010005
 url: "https://doi.org/10.3390/analytics5010005"
+external_pdf: "https://mdpi-res.com/d_attachment/analytics/analytics-05-00005/article_deploy/analytics-05-00005.pdf"
+local_pdf: "[[PDFs/2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters.pdf]]"
+pdf_extract: "PDF Extracts/2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters.md"
 publication: Analytics
 DATE_ADDED: 20260207
 ethics_overall: "No"

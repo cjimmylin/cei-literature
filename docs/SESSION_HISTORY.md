@@ -2,6 +2,62 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 41 (Feb 7, 2026) - Comprehensive PDF Finder: 44 Non-arXiv PDFs Recovered
+
+### Overview
+
+Built and ran a 13-strategy waterfall PDF acquisition engine (`comprehensive_pdf_finder.py`) to recover PDFs for 53 non-arXiv papers from the exhaustive search import. Recovered 44 PDFs (83%), created 44 text extracts, bringing EXSR to 97% PDF coverage and overall vault to 98.6%.
+
+### Results
+
+| Metric | Before | After | Delta |
+|--------|--------|-------|-------|
+| EXSR PDFs | 214/266 (80.5%) | 258/266 (97.0%) | +44 |
+| EXSR Extracts | 214/266 | 258/266 | +44 |
+| Overall Vault PDFs | 866/923 | 910/923 (98.6%) | +44 |
+| Overall Extracts | 876/923 | 920/923 | +44 |
+| YAML Validation | 923/923 pass | 923/923 pass | — |
+
+### Strategy Yield Breakdown
+
+| Strategy | Papers Found |
+|----------|-------------|
+| Unpaywall (DOI→OA) | 7 |
+| OpenAlex | 6 |
+| arXiv title search | 4 |
+| OpenReview | 2 |
+| PhilArchive | 2 |
+| CORE | 1 |
+| DOI publisher scrape (PLOS, EuropePMC, MDPI) | 3 |
+| Manual targeted (Semantic Scholar + retries) | 19 |
+
+### Key Learnings
+
+- **PDF Acquisition:** 13-strategy waterfall with category-based ordering (A=DOI, B=conference, C=minimal metadata) is highly effective. Each category routes to the most likely API first.
+- **API Rate Limits:** Semantic Scholar is extremely aggressive — 429s after ~4 requests even with 4s delays. Need 10-15s between requests for sustained use.
+- **Publisher Workarounds:** Unpaywall/OpenAlex often return landing pages not PDFs. Publisher-specific URL construction (PLOS `type=printable`, MDPI `mdpi-res.com/d_attachment`, EuropePMC for Wiley/Nature) recovered ~7 papers that generic APIs couldn't download.
+- **Title Matching:** Normalize + 80% word overlap threshold handles subtitle differences well. Lower thresholds (50%) produce false matches.
+- **Parallel Logging:** Concurrent JSON writes from parallel processes corrupt shared log file — real ground truth is on disk (PDF exists + YAML field set).
+
+### 8 Papers Remaining (Unavailable)
+
+3 Islamic shared tasks (not yet published), IOS Press (paywalled), ACM DL (2 papers, paywalled), philosophy monograph (not OA), GitHub repo (not a paper).
+
+### Scripts Created
+
+| Script | Purpose |
+|--------|---------|
+| `PYTHON/comprehensive_pdf_finder.py` | 13-strategy waterfall PDF acquisition engine |
+
+### Files Changed
+
+- papers/: 45 modified (external_pdf + local_pdf fields added)
+- PDF Extracts/: 44 new extract files
+- PYTHON/: 1 new script
+- logs/: JSON progress log
+
+---
+
 ## Session 40 (Feb 7, 2026) - Normative Ethics V2: Full Deep-Read of 266 Papers
 
 ### Overview

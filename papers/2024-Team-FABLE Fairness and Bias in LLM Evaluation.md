@@ -11,6 +11,9 @@ year: 2024
 first_author: "[[KFUPM Research Team]]"
 authors: KFUPM Research Team
 publication: Unknown
+external_pdf: "https://arxiv.org/pdf/2502.05849.pdf"
+local_pdf: "[[PDFs/2024-Team-FABLE Fairness and Bias in LLM Evaluation.pdf]]"
+pdf_extract: "PDF Extracts/2024-Team-FABLE Fairness and Bias in LLM Evaluation.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

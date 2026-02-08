@@ -11,6 +11,9 @@ year: 2025
 first_author: "[[Unknown]]"
 authors: Unknown
 publication: Unknown
+external_pdf: "https://arxiv.org/pdf/2510.10339v1.pdf"
+local_pdf: "[[PDFs/2025-Unknown-Measuring What Matters Connecting AI Ethics Evaluations to System.pdf]]"
+pdf_extract: "PDF Extracts/2025-Unknown-Measuring What Matters Connecting AI Ethics Evaluations to System.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

@@ -11,6 +11,9 @@ year: 2024
 first_author: "[[Authors]]"
 authors: "[Authors]"
 publication: NeurIPS 2024
+external_pdf: "https://openreview.net/pdf?id=mdA5lVvNcU"
+local_pdf: "[[PDFs/2024-Authors-Measuring What Matters - Construct Validity in LLM Benchmarks.pdf]]"
+pdf_extract: "PDF Extracts/2024-Authors-Measuring What Matters - Construct Validity in LLM Benchmarks.md"
 DATE_ADDED: 20260207
 ethics_overall: "No"
 virtue_ethics: "No"

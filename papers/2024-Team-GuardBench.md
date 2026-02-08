@@ -11,6 +11,9 @@ year: 2024
 first_author: "[[GuardBench Team]]"
 authors: GuardBench Team
 publication: EMNLP 2024
+external_pdf: "https://aclanthology.org/2024.emnlp-main.1022.pdf"
+local_pdf: "[[PDFs/2024-Team-GuardBench.pdf]]"
+pdf_extract: "PDF Extracts/2024-Team-GuardBench.md"
 DATE_ADDED: 20260207
 ethics_overall: "No"
 virtue_ethics: "No"

@@ -13,6 +13,9 @@ first_author: "[[Unknown]]"
 authors: Unknown
 doi: 10.1609/aies.v8i2.36665
 url: "https://doi.org/10.1609/aies.v8i2.36665"
+external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/36665/38803"
+local_pdf: "[[PDFs/2025-Unknown-Mapping Moral Reasoning in LLMs A Multi-Dimensional Analysis of.pdf]]"
+pdf_extract: "PDF Extracts/2025-Unknown-Mapping Moral Reasoning in LLMs A Multi-Dimensional Analysis of.md"
 publication: Unknown
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

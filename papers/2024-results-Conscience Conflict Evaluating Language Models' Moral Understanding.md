@@ -12,6 +12,9 @@ year: 2024
 first_author: "[[Authors not fully specified in search results]]"
 authors: Authors not fully specified in search results
 publication: Unknown
+external_pdf: "https://arxiv.org/pdf/2405.11100.pdf"
+local_pdf: "[[PDFs/2024-results-Conscience Conflict Evaluating Language Models' Moral Understanding.pdf]]"
+pdf_extract: "PDF Extracts/2024-results-Conscience Conflict Evaluating Language Models' Moral Understanding.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

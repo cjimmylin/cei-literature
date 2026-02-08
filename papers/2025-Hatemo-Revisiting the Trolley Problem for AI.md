@@ -11,7 +11,7 @@ first_author: "[[Sahan Hatemo]]"
 authors: "Sahan Hatemo; Christof Weickhardt; Luca Gisler; Oliver Bendel"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/F8XQ7HNN/Hatemo et al. - Revisiting the Trolley Problem for AI Biases and Stereotypes in Large Language Models and their Imp.pdf"
 pdf_extract: "[[2025-Hatemo-Revisiting the Trolley Problem for AI]]"
-local_pdf: "[[2025-Hatemo-Revisiting the Trolley Problem for AI.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Hatemo-Revisiting the Trolley Problem for AI.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: "Trolley / Dilemmas (Psych)"

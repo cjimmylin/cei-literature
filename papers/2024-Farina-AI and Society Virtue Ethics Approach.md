@@ -9,7 +9,7 @@ first_author: "[[Mirko Farina]]"
 authors: "[[Farina, Mirko]]; [[Zhdanov, Petr]]; [[Karimov, Artur]]; [[Lavazza, Andrea]]"
 doi: 10.1007/s00146-022-01545-5
 url: "https://link.springer.com/article/10.1007/s00146-022-01545-5"
-local_pdf: "[[PDFs/2024/2024-Farina-AI and Society - A Virtue Ethics Approach.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Farina-AI and Society Virtue Ethics Approach.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: Yes

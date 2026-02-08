@@ -16,10 +16,10 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
-pdf_extract: 
+pdf_extract: "PDF Extracts/2024/2024-Wilders-Socratic Dialogue for Virtue Ethics in AI.md"
 abstract: "This paper presents the Socratic Dialogue as a method for implementing virtue ethics in AI systems, providing a case study of how philosophical dialogue can inform ethical AI development."
 paper_summary: 
-local_pdf: 
+local_pdf: "[[PDFs/2024/2024-Wilders-Socratic Dialogue for Virtue Ethics in AI.pdf]]"
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No

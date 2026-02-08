@@ -30,6 +30,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "MCT and MFQ responses from humans and LLMs"
 data_metrics: "Moral competence scores, MFQ foundation scores"
+local_pdf: "[[PDFs/2025/2025-Sameer-Insights into Moral Reasoning of AI.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Sameer-Insights into Moral Reasoning of AI.md"
 ---
 # Insights into Moral Reasoning of AI: A Comparative Study Between Humans and Large Language Models
 

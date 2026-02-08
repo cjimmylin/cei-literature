@@ -1,0 +1,462 @@
+[
+  {
+    "filename": "2024-Chen-DiaHalu.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Chen-DiaHalu.md",
+    "has_extract": true,
+    "authors": "Kedi Chen; Qin Chen; Jie Zhou; Yishen He; Liang He",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2403.00896",
+    "url": "http://arxiv.org/abs/2403.00896",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language.md",
+    "has_extract": true,
+    "authors": "Yuyan Chen; Hao Wang; Songzhou Yan; Sijia Liu; Yueze Li; Yi Zhao; Yanghua Xiao",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2409.13359",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Chen-GMAI-MMBench.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Chen-GMAI-MMBench.md",
+    "has_extract": true,
+    "authors": "Pengcheng Chen; Jin Ye; Guoan Wang; Yanjun Li; Zhongying Deng; Wei Li; Tianbin Li; Haodong Duan; Ziyan Huang; Yanzhou Su; Benyou Wang; Shaoting Zhang; Bin Fu; Jianfei Cai; Bohan Zhuang; Eric J Seibel; Junjun He; Yu Qiao",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2408.03361",
+    "url": "http://arxiv.org/abs/2408.03361",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Chen-ToMBench.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Chen-ToMBench.md",
+    "has_extract": true,
+    "authors": "Zhuang Chen; Jincenzi Wu; Jinfeng Zhou; Bosi Wen; Guanqun Bi; Gongyao Jiang; Yaru Cao; Mengting Hu; Yunghwei Lai; Zexuan Xiong; Minlie Huang",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2402.15052",
+    "url": "http://arxiv.org/abs/2402.15052",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Chern-BeHonest.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Chern-BeHonest.md",
+    "has_extract": true,
+    "authors": "Steffi Chern; Zhulin Hu; Yuqing Yang; Ethan Chern; Yuan Guo; Jiahe Jin; Binjie Wang; Pengfei Liu",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2406.13261",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Chhabra-Evaluating Computational Models of Ethics.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Chhabra-Evaluating Computational Models of Ethics.md",
+    "has_extract": true,
+    "authors": "Jatin Chhabra; Kartik Sama; Jay Deshmukh",
+    "year": "2025",
+    "doi": "10.1007/s43681-024-00532-4",
+    "url": "https://link.springer.com/article/10.1007/s43681-024-00532-4",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Chiu-DailyDilemmas.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Chiu-DailyDilemmas.md",
+    "has_extract": true,
+    "authors": "Yu Ying Chiu; Liwei Jiang; Yejin Choi",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2410.02683",
+    "url": "http://arxiv.org/abs/2410.02683",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Chua-AI Safety in Generative AI Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Chua-AI Safety in Generative AI Large Language Models.md",
+    "has_extract": true,
+    "authors": "Jaymari Chua; Yun Li; Shiyi Yang; Chen Wang; Lina Yao",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2407.18369",
+    "url": "http://arxiv.org/abs/2407.18369",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Conitzer-Social Choice for AI Alignment.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Conitzer-Social Choice for AI Alignment.md",
+    "has_extract": true,
+    "authors": "[[Conitzer, Vincent]]; [[Freedman, Rachel]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2404.10000",
+    "url": "https://arxiv.org/abs/2404.10000",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-DAlessandro-Deontology and Safe Artificial Intelligence.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-DAlessandro-Deontology and Safe Artificial Intelligence.md",
+    "has_extract": true,
+    "authors": "[[D'Alessandro, William]]",
+    "year": "2025",
+    "doi": "10.1007/s11098-024-02174-y",
+    "url": "https://link.springer.com/article/10.1007/s11098-024-02174-y",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Debenedetti-SaTML LLM CTF Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Debenedetti-SaTML LLM CTF Dataset.md",
+    "has_extract": true,
+    "authors": "Debenedetti et al.",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2406.07954",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Defrance-ABCFair.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Defrance-ABCFair.md",
+    "has_extract": true,
+    "authors": "MaryBeth Defrance; Maarten Buyl; Tijl De Bie",
+    "year": "2025",
+    "doi": "",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/46bae562da84d63269673808e8eff777-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Dognin-Contextual Moral Value Alignment Through.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Dognin-Contextual Moral Value Alignment Through.md",
+    "has_extract": true,
+    "authors": "Pierre Dognin; Jesus Rios; Ronny Luss; Inkit Padhi; Matthew D Riemer; Miao Liu; Prasanna Sattigeri; Manish Nagireddy; Kush R. Varshney; Djallel Bouneffouf",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2403.12805",
+    "url": "http://arxiv.org/abs/2403.12805",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Dorn-BELLS A Framework Towards Future Proof Benchmarks for the Evaluation.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Dorn-BELLS A Framework Towards Future Proof Benchmarks for the Evaluation.md",
+    "has_extract": true,
+    "authors": "Diego Dorn; Alexandre Variengien; Charbel-Raphaël Segerie; Vincent Corruble",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2406.01364",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Duan-DeNEVIL MoralPrompt.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Duan-DeNEVIL MoralPrompt.md",
+    "has_extract": true,
+    "authors": "Duan, S., Yi, X., Zhang, P., Lu, T., Xie, X., & Gu, N",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2310.11053",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via.md",
+    "has_extract": true,
+    "authors": "Jinhao Duan; Renming Zhang; James Diffenderfer; Bhavya Kailkhura; Lichao Sun; Elias Stengel-Eskin; Mohit Bansal; Tianlong Chen; Kaidi Xu",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2402.12348",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Eisikovits-AI and Phronesis.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Eisikovits-AI and Phronesis.md",
+    "has_extract": true,
+    "authors": "Nir Eisikovits; Dan Feldman",
+    "year": "2025",
+    "doi": "10.1515/mopp-2021-0026",
+    "url": "https://www.degruyter.com/document/doi/10.1515/mopp-2021-0026/html",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Farina-AI and Society Virtue Ethics Approach.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Farina-AI and Society Virtue Ethics Approach.md",
+    "has_extract": true,
+    "authors": "[[Farina, Mirko]]; [[Zhdanov, Petr]]; [[Karimov, Artur]]; [[Lavazza, Andrea]]",
+    "year": "2025",
+    "doi": "10.1007/s00146-022-01545-5",
+    "url": "https://link.springer.com/article/10.1007/s00146-022-01545-5",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.md",
+    "has_extract": true,
+    "authors": "[[Fenogenova, Alena]]; [[Chervyakov, Artem]]; [[Martynov, Nikita]]; [[Kozlova, Anastasia]]; [[Tikhonova, Maria]]; [[Akhmetgareeva, Albina]]; [[Emelyanov, Anton]]; [[Shevelev, Denis]]; [[Lebedev, Pavel]]; [[Sinev, Leonid]]; [[Isaeva, Ulyana]]; [[Kolomeytseva, Katerina]]; [[Moskovskiy, Daniil]]; [[Goncharova, Elizaveta]]; [[Savushkin, Nikita]]; [[Mikhailova, Polina]]; [[Minaeva, Anastasia]]; [[Dimitrov, Denis]]; [[Panchenko, Alexander]]; [[Markov, Sergey]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2024.acl-long.534/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Fitzgerald-Some Issues in Predictive Ethics Modeling.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Fitzgerald-Some Issues in Predictive Ethics Modeling.md",
+    "has_extract": true,
+    "authors": "Ben Fitzgerald",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2407.05244",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md",
+    "has_extract": true,
+    "authors": "Franken, J.-P. et al.",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2404.10975",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Freire-Uncovering Latent Human Wellbeing in Language.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Freire-Uncovering Latent Human Wellbeing in Language.md",
+    "has_extract": true,
+    "authors": "Pedro Freire; ChengCheng Tan; Adam Gleave; Dan Hendrycks; Scott Emmons",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2402.11777",
+    "url": "http://arxiv.org/abs/2402.11777",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Gabriel-Ethics of Advanced AI Assistants.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Gabriel-Ethics of Advanced AI Assistants.md",
+    "has_extract": true,
+    "authors": "[[Gabriel, Iason]]; [[Manzini, Arianna]]; [[Keeling, Geoff]]; [[Hendricks, Lisa Anne]]; [[Rieser, Verena]]; [[Iqbal, Hasan]]; [[Tomašev, Nenad]]; [[Ktena, Ira]]; [[Kenton, Zachary]]; [[Rodriguez, Mikel]]; [[El-Sayed, Seliem]]; [[Brown, Sasha]]; [[Akbulut, Canfer]]; [[Trask, Andrew]]; [[Hughes, Edward]]; [[Bergman, A. Stevie]]; [[Shelby, Renee]]; [[Marchal, Nahema]]; [[Griffin, Conor]]; [[Mateos-Garcia, Juan]]; [[Weidinger, Laura]]; [[Street, Winnie]]; [[Lange, Benjamin]]; [[Ingerman, Alex]]; [[Lentz, Alison]]; [[Enger, Reed]]; [[Barakat, Andrew]]; [[Krakovna, Victoria]]; [[Siy, John Oliver]]; [[Kurth-Nelson, Zeb]]; [[McCroskery, Amanda]]; [[Bolina, Vijay]]; [[Law, Harry]]; [[Shanahan, Murray]]; [[Alberts, Lize]]; [[Balle, Borja]]; [[de Haas, Sarah]]; [[Ibitoye, Yetunde]]; [[Dafoe, Allan]]; [[Goldberg, Beth]]; [[Krier, Sébastien]]; [[Reese, Alexander]]; [[Witherspoon, Sims]]; [[Hawkins, Will]]; [[Rauh, Maribeth]]; [[Wallace, Don]]; [[Franklin, Matija]]; [[Goldstein, Josh A.]]; [[Lehman, Joel]]; [[Klenk, Michael]]; [[Vallor, Shannon]]; [[Biles, Courtney]]; [[Morris, Meredith Ringel]]; [[King, Helen]]; [[Agüera y Arcas, Blaise]]; [[Isaac, William]]; [[Manyika, James]]",
+    "year": "2025",
+    "doi": "N/A",
+    "url": "https://arxiv.org/abs/2404.16244",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Gabriel-The Ethics of Advanced AI Assistants.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Gabriel-The Ethics of Advanced AI Assistants.md",
+    "has_extract": true,
+    "authors": "Iason Gabriel; Arianna Manzini; Geoff Keeling; Lisa Anne Hendricks; Verena Rieser; Hasan Iqbal; Nenad Tomašev; Ira Ktena; Zachary Kenton; Mikel Rodriguez; Seliem El-Sayed; Sasha Brown; Canfer Akbulut; Andrew Trask; Edward Hughes; Abigail Stevie Bergman; Renee Shelby; Nahema Marchal; Conor Griffin; Juan Mateos-Garcia; Laura Weidinger; Winnie Street; Benjamin Lange; Alex Ingerman; Alison Lentz; Reed Enger; Andrew Barakat; Victoria Krakovna; John Oliver Siy; Zeb Kurth-Nelson; Amanda McCroskery; Vijay Bolina; Harry Law; Murray Shanahan; Lize Alberts; Borja Balle; Sarah de Haas; Yetunde Ibitoye; Allan Dafoe; Beth Goldberg; Sébastien Krier; Alexander Reese; Sims Witherspoon; Will Hawkins; Maribeth Rauh; Don Wallace; Matija Franklin; Josh A. Goldstein; Joel Lehman; Michael Klenk; Shannon Vallor; Courtney Biles; Meredith Ringel Morris; Helen King; Blaise Agüera y Arcas; William Isaac; James Manyika",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2404.16244",
+    "url": "http://arxiv.org/abs/2404.16244",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Garcia-Moral Turing Test.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Garcia-Moral Turing Test.md",
+    "has_extract": true,
+    "authors": "[[Garcia, Basile]]; [[Qian, Crystal]]; [[Palminteri, Stefano]]",
+    "year": "2025",
+    "doi": "N/A",
+    "url": "https://arxiv.org/abs/2410.07304",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Garcia-The Moral Turing Test.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Garcia-The Moral Turing Test.md",
+    "has_extract": true,
+    "authors": "Basile Garcia; Crystal Qian; Stefano Palminteri",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2410.07304",
+    "url": "http://arxiv.org/abs/2410.07304",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Ghosh-AEGIS.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Ghosh-AEGIS.md",
+    "has_extract": true,
+    "authors": "Shaona Ghosh; Prasoon Varshney; Erick Galinkin; Christopher Parisien",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2404.05993",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Group-The AI Safety Benchmark.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Group-The AI Safety Benchmark.md",
+    "has_extract": true,
+    "authors": "Bertie Vidgen; Adarsh Agrawal; Ahmed M. Ahmed; Victor Akinwande; Namir Al-Nuaimi; Najla Alfaraj; Elie Alhajjar; Lora Aroyo; Trupti Bavalatti; Max Bartolo; Borhane Blili-Hamelin; Kurt Bollacker; Rishi Bomassani; Marisa Ferrara Boston; Siméon Campos; Kal Chakra; Canyu Chen; Cody Coleman; Zacharie Delpierre Coudert; Leon Derczynski; Debojyoti Dutta; Ian Eisenberg; James Ezick; Heather Frase; Brian Fuller; Ram Gandikota; Agasthya Gangavarapu; Ananya Gangavarapu; James Gealy; Rajat Ghosh; James Goel; Usman Gohar; Sujata Goswami; Scott A. Hale; Wiebke Hutiri; Joseph Marvin Imperial; Surgan Jandial; Nick Judd; Felix Juefei-Xu; Foutse Khomh; Bhavya Kailkhura; Hannah Rose Kirk; Kevin Klyman; Chris Knotz; Michael Kuchnik; Shachi H. Kumar; Srijan Kumar; Chris Lengerich; Bo Li; Zeyi Liao; Eileen Peters Long; Victor Lu; Sarah Luger; Yifan Mai; Priyanka Mary Mammen; Kelvin Manyeki; Sean McGregor; Virendra Mehta; Shafee Mohammed; Emanuel Moss; Lama Nachman; Dinesh Jinenhally Naganna; Amin Nikanjam; Besmira Nushi; Luis Oala; Iftach Orr; Alicia Parrish; Cigdem Patlak; William Pietri; Forough Poursabzi-Sangdeh; Eleonora Presani; Fabrizio Puletti; Paul Röttger; Saurav Sahay; Tim Santos; Nino Scherrer; Alice Schoenauer Sebag; Patrick Schramowski; Abolfazl Shahbazi; Vin Sharma; Xudong Shen; Vamsi Sistla; Leonard Tang; Davide Testuggine; Vithursan Thangarasa; Elizabeth Anne Watkins; Rebecca Weiss; Chris Welty; Tyler Wilbers; Adina Williams; Carole-Jean Wu; Poonam Yadav; Xianjun Yang; Yi Zeng; Wenhui Zhang; Fedor Zhdanov; Jiacheng Zhu; Percy Liang; Peter Mattson; Joaquin Vanschoren",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2404.12241",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Gu-Probabilistic medical predictions of large.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Gu-Probabilistic medical predictions of large.md",
+    "has_extract": true,
+    "authors": "Bowen Gu; Rishi J. Desai; Kueiyu Joshua Lin; Jie Yang",
+    "year": "2025",
+    "doi": "10.1038/s41746-024-01366-4",
+    "url": "https://www.nature.com/articles/s41746-024-01366-4",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Guldimann-COMPL-AI EU AI Act Compliance.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Guldimann-COMPL-AI EU AI Act Compliance.md",
+    "has_extract": true,
+    "authors": "Philipp Guldimann et al.",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.07959",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Gupta-Improving Model Evaluation using SMART Filtering.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Gupta-Improving Model Evaluation using SMART Filtering.md",
+    "has_extract": true,
+    "authors": "Vipul Gupta; Candace Ross; David Pantoja; Rebecca J. Passonneau; Megan Ung; Adina Williams",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2410.20245",
+    "url": "http://arxiv.org/abs/2410.20245",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Gupta-WalledEval.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Gupta-WalledEval.md",
+    "has_extract": true,
+    "authors": "Prannaya Gupta et al.",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2408.03837",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Hagendorff-Machine Psychology.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Hagendorff-Machine Psychology.md",
+    "has_extract": true,
+    "authors": "Thilo Hagendorff; Ishita Dasgupta; Marcel Binz; Stephanie C. Y. Chan; Andrew Lampinen; Jane X. Wang; Zeynep Akata; Eric Schulz",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2303.13988",
+    "url": "http://arxiv.org/abs/2303.13988",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Hall-Towards Geographic Inclusion in the Evaluation of Text-to-Image Models.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Hall-Towards Geographic Inclusion in the Evaluation of Text-to-Image Models.md",
+    "has_extract": true,
+    "authors": "Melissa Hall; Samuel J. Bell; Candace Ross; Adina Williams; Michal Drozdzal; Adriana Romero Soriano",
+    "year": "2024",
+    "doi": "10.1145/3630106.3658927",
+    "url": "https://arxiv.org/abs/2405.04457",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Han-MedSafetyBench.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Han-MedSafetyBench.md",
+    "has_extract": true,
+    "authors": "[[Han, Tessa]]; [[Kumar, Aounon]]; [[Agarwal, Chirag]]; [[Lakkaraju, Himabindu]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2403.03744",
+    "url": "http://arxiv.org/abs/2403.03744",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Han-Moral Exemplars in AI Education.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Han-Moral Exemplars in AI Education.md",
+    "has_extract": true,
+    "authors": "[[Han, Hyemin]]",
+    "year": "2025",
+    "doi": "N/A",
+    "url": "https://www.researchgate.net/publication/380001142",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Han-WildGuard WildGuardTest.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Han-WildGuard WildGuardTest.md",
+    "has_extract": true,
+    "authors": "Seungju Han et al.",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2406.18495",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Hancox-Li-Is ETHICS about ethics.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Hancox-Li-Is ETHICS about ethics.md",
+    "has_extract": true,
+    "authors": "Leif Hancox-Li; Borhane Blili-Hamelin",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2410.13009",
+    "url": "http://arxiv.org/abs/2410.13009",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Hayes-Virtue and Narrative in AI Practices.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Hayes-Virtue and Narrative in AI Practices.md",
+    "has_extract": true,
+    "authors": "[[Hayes, Paul]]; [[Fitzpatrick, Noel]]; [[Ferrández, José Manuel]]",
+    "year": "2025",
+    "doi": "10.1007/s43681-024-00472-z",
+    "url": "https://link.springer.com/article/10.1007/s43681-024-00472-z",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Hendrycks-Introduction to AI Safety, Ethics, and Society.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Hendrycks-Introduction to AI Safety, Ethics, and Society.md",
+    "has_extract": true,
+    "authors": "Dan Hendrycks",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2411.01042",
+    "url": "http://arxiv.org/abs/2411.01042",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values.md",
+    "has_extract": true,
+    "authors": "Hu, Z. et al.",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2407.03000",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Hua-TrustAgent.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Hua-TrustAgent.md",
+    "has_extract": true,
+    "authors": "Wenyue Hua; Xianjun Yang; Mingyu Jin; Zelong Li; Wei Cheng; Ruixiang Tang; Yongfeng Zhang",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2402.01586",
+    "url": "http://arxiv.org/abs/2402.01586",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Huang-CBBQ.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Huang-CBBQ.md",
+    "has_extract": true,
+    "authors": "[[Huang, Yufei]]; [[Xiong, Deyi]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2024.lrec-main.260/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Huang-Collective Constitutional AI Aligning a Language Model with Public.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Huang-Collective Constitutional AI Aligning a Language Model with Public.md",
+    "has_extract": true,
+    "authors": "Saffron Huang et al.",
+    "year": "2024",
+    "doi": "10.1145/3630106.3658979",
+    "url": "https://arxiv.org/abs/2406.07814",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional.md",
+    "has_extract": true,
+    "authors": "Jen-tse Huang; Man Ho Lam; Eric John Li; Shujie Ren; Wenxuan Wang; Wenxiang Jiao; Zhaopeng Tu; Michael R. Lyu",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2308.03656",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Huang-Flames.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Huang-Flames.md",
+    "has_extract": true,
+    "authors": "Kexin Huang et al.",
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  }
+]

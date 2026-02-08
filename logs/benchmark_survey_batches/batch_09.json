@@ -1,0 +1,462 @@
+[
+  {
+    "filename": "2024-Liu-CultureAtlas.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Liu-CultureAtlas.md",
+    "has_extract": true,
+    "authors": "Yi Fung; Ruining Zhao; Jae Doo; Chenkai Sun; Heng Ji",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2402.09369",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Liu-Evaluating Moral Beliefs across LLMs through a.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Liu-Evaluating Moral Beliefs across LLMs through a.md",
+    "has_extract": true,
+    "authors": "[[Liu, Xuelin]]; [[Zhu, Yanfei]]; [[Zhu, Shucheng]]; [[Liu, Pengyuan]]; [[Liu, Ying]]; [[Yu, Dong]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2411.03665",
+    "url": "http://arxiv.org/abs/2411.03665",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Liu-JAILJUDGE.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Liu-JAILJUDGE.md",
+    "has_extract": true,
+    "authors": "Fan Liu, Yue Feng, Zhao Xu, Lixin Su, Xinyu Ma, Dawei Yin, Hao Liu",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.12855",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Lu-The AI Scientist.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Lu-The AI Scientist.md",
+    "has_extract": true,
+    "authors": "Chris Lu; Cong Lu; Robert Tjarko Lange; Jakob Foerster; Jeff Clune; David Ha",
+    "year": "2025",
+    "doi": "10.48550/ARXIV.2408.06292",
+    "url": "https://arxiv.org/abs/2408.06292",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Luo-HalluDial.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Luo-HalluDial.md",
+    "has_extract": true,
+    "authors": "Wen Luo; Tianshu Shen; Wei Li; Guangyue Peng; Richeng Xuan; Houfeng Wang; Xi Yang",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2406.07070",
+    "url": "http://arxiv.org/abs/2406.07070",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Luong-Realistic Evaluation of Toxicity in Large.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Luong-Realistic Evaluation of Toxicity in Large.md",
+    "has_extract": true,
+    "authors": "Tinh Son Luong; Thanh-Thien Le; Linh Ngo Van; Thien Huu Nguyen",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2405.10659",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-MLCommons-MLCommons AILuminate Benchmark.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-MLCommons-MLCommons AILuminate Benchmark.md",
+    "has_extract": true,
+    "authors": "MLCommons",
+    "year": "2025",
+    "doi": "",
+    "url": "https://mlcommons.org/benchmarks/ailuminate",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Marraffini-The Greatest Good Benchmark.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Marraffini-The Greatest Good Benchmark.md",
+    "has_extract": true,
+    "authors": "Giovanni Franco Gabriel Marraffini; Andrés Cotton; Noe Fabian Hsueh; Axel Fridman; Juan Wisznia; Luciano Del Corro",
+    "year": "2025",
+    "doi": "10.18653/v1/2024.emnlp-main.1224",
+    "url": "https://aclanthology.org/2024.emnlp-main.1224/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Masood-Hadith QA Pairs Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Masood-Hadith QA Pairs Dataset.md",
+    "has_extract": true,
+    "authors": "R. Masood",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.kaggle.com/datasets/rwmasood/hadith-qa-pairs",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Mazeika-HarmBench.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Mazeika-HarmBench.md",
+    "has_extract": true,
+    "authors": "Mantas Mazeika; Long Phan; Xuwang Yin; Andy Zou; Zifan Wang; Norman Mu; Elham Sakhaee; Nathaniel Li; Steven Basart; Bo Li; David Forsyth; Dan Hendrycks",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2402.04249",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-McGee-How Ethical Is Utilitarian Ethics.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Robert W. McGee",
+    "year": "2025",
+    "doi": "10.2139/ssrn.4731871",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4731871",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Meadows-LocalValueBench.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Meadows-LocalValueBench.md",
+    "has_extract": true,
+    "authors": "Gwenyth Isobel Meadows; Nicholas Wai Long Lau; Eva Adelina Susanto; Chi Lok Yu; Aditya Paul",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2408.01460",
+    "url": "http://arxiv.org/abs/2408.01460",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md",
+    "has_extract": true,
+    "authors": "Katleho K. Mokoena",
+    "year": "2025",
+    "doi": "10.4102/ve.v45i1.3100",
+    "url": "http://www.ve.org.za/index.php/VE/article/view/3100",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Moon-BEAF.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Moon-BEAF.md",
+    "has_extract": true,
+    "authors": "[[Moon, Y.]]; [[Nam, H.]]; [[Choi, W.]]; [[Oh, T.]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2407.13442",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Moore-Are Large Language Models Consistent over.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Moore-Are Large Language Models Consistent over.md",
+    "has_extract": true,
+    "authors": "Jared Moore; Tanvi Deshpande; Diyi Yang",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2407.02996",
+    "url": "http://arxiv.org/abs/2407.02996",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Moore-Intuitions of Compromise - Utilitarianism vs. Contractualism.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Moore-Intuitions of Compromise - Utilitarianism vs. Contractualism.md",
+    "has_extract": true,
+    "authors": "Moore, J",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.05496",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Moore-Intuitions of Compromise.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Moore-Intuitions of Compromise.md",
+    "has_extract": true,
+    "authors": "Jared Moore; Yejin Choi; Sydney Levine",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2410.05496",
+    "url": "http://arxiv.org/abs/2410.05496",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Mou-SG-Bench.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Mou-SG-Bench.md",
+    "has_extract": true,
+    "authors": "Yutao Mou; Shikun Zhang; Wei Ye",
+    "year": "2025",
+    "doi": "",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/de7b99107c53e60257c727dc73daf1d1-Abstract-Datasets_and_Benchmarks_Track.html",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.md",
+    "has_extract": true,
+    "authors": "Mozikov, M., et al",
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Muyskens-Can an AI-carebot be filial.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Muyskens, Kathryn]]; [[Ma, Yonghui]]; [[Dunn, Michael]]",
+    "year": "2025",
+    "doi": "10.1177/09697330241238332",
+    "url": "https://journals.sagepub.com/doi/10.1177/09697330241238332",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Myers-People Expect Artificial Moral Advisors.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Myers-People Expect Artificial Moral Advisors.md",
+    "has_extract": true,
+    "authors": "Simon Myers; Jim A.C. Everett",
+    "year": "2025",
+    "doi": "10.1016/j.cognition.2024.106028",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0010027724003147",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Nahian-The Goofus & Gallant Story Corpus for Practical.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Nahian-The Goofus & Gallant Story Corpus for Practical.md",
+    "has_extract": true,
+    "authors": "Md Sultan Al Nahian; Tasmia Tasrin; Spencer Frazier; Mark Riedl; Brent Harrison",
+    "year": "2025",
+    "doi": "10.1109/ICMLA61862.2024.00098",
+    "url": "http://arxiv.org/abs/2501.09707",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.md",
+    "has_extract": true,
+    "authors": "José Luiz Nunes; Guilherme F. C. F. Almeida; Marcelo de Araujo; Simone D. J. Barbosa",
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Ober-AI Ethics with Aristotle.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Ober-AI Ethics with Aristotle.md",
+    "has_extract": true,
+    "authors": "Josiah Ober; John Tasioulas",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.oxford-aiethics.ox.ac.uk/sites/default/files/2024-06/Aristotle%20and%20AI%20White%20Paper%20-%20June%202024.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Ober-Lyceum Project AI Ethics Aristotle.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Ober-Lyceum Project AI Ethics Aristotle.md",
+    "has_extract": true,
+    "authors": "[[Ober, Josiah]]; [[Tasioulas, John]]",
+    "year": "2025",
+    "doi": "N/A",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4879572",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Obi-Value Imprint.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Obi-Value Imprint.md",
+    "has_extract": true,
+    "authors": "[[Obi, Ike]]; [[Pant, Rohan]]; [[Agrawal, Srishti Shekhar]]; [[Ghazanfar, Maham]]; [[Basiletti, Aaron]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2411.11937",
+    "url": "http://arxiv.org/abs/2411.11937",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Odero-The Ubuntu Way.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Odero-The Ubuntu Way.md",
+    "has_extract": true,
+    "authors": "[[Odero, Brenda]]; [[Nderitu, David]]; [[Samuel, Gabrielle]]",
+    "year": "2025",
+    "doi": "10.12688/wellcomeopenres.23021.1",
+    "url": "https://wellcomeopenresearch.org/articles/9-625",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Ohashi-Extended Japanese Commonsense Morality Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Ohashi-Extended Japanese Commonsense Morality Dataset.md",
+    "has_extract": true,
+    "authors": "Takumi Ohashi; Tsubasa Nakagawa; Hitoshi Iyatomi",
+    "year": "2025",
+    "doi": "10.1145/3627673.3679924",
+    "url": "http://arxiv.org/abs/2410.09564",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Oliech-SwaQuAD-24.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Oliech-SwaQuAD-24.md",
+    "has_extract": true,
+    "authors": "Alfred Malengo Kondoro",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.14289",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Pardeshi-Learning Social Welfare Functions.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Pardeshi-Learning Social Welfare Functions.md",
+    "has_extract": true,
+    "authors": "[[Pardeshi, Kanad Shrikar]]; [[Shapira, Itai]]; [[Procaccia, Ariel D.]]; [[Singh, Aarti]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2410.15000",
+    "url": "https://arxiv.org/abs/2410.15000",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Park-Morality is Non-Binary.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Park-Morality is Non-Binary.md",
+    "has_extract": true,
+    "authors": "[[Park, Jeongwoo]]; [[Liscio, Enrico]]; [[Murukannaiah, Pradeep K.]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2401.17228",
+    "url": "http://arxiv.org/abs/2401.17228",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Piatti-Cooperate or Collapse.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Piatti-Cooperate or Collapse.md",
+    "has_extract": true,
+    "authors": "Giorgio Piatti; Zhijing Jin; Max Kleiman-Weiner; Bernhard Schölkopf; Mrinmaya Sachan; Rada Mihalcea",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2404.16698",
+    "url": "http://arxiv.org/abs/2404.16698",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Pisano-Moral High Ground.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Pisano-Moral High Ground.md",
+    "has_extract": true,
+    "authors": "Matthew Pisano; Keerthiram Murugesan; Lamogha Chiazor; Lan Hoang; Karthikeyan Natesan Ramamurthy; Kush R. Varshney",
+    "year": "2025",
+    "doi": "",
+    "url": "https://openreview.net/forum?id=11nZWTg0mS",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Pistilli-CIVICS.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Pistilli-CIVICS.md",
+    "has_extract": true,
+    "authors": "Giada Pistilli; Alina Leidinger; Yacine Jernite; Atoosa Kasirzadeh; Alexandra Sasha Luccioni; Margaret Mitchell",
+    "year": "2025",
+    "doi": "10.1609/aies.v7i1.31710",
+    "url": "https://ojs.aaai.org/index.php/AIES/article/view/31710",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on.md",
+    "has_extract": true,
+    "authors": "Yujin Potter, Shiyang Lai, Junsol Kim, James Evans, Dawn Song",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.24190",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Pujari-LLM-Human Pipeline for Cultural Context Grounding.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Pujari-LLM-Human Pipeline for Cultural Context Grounding.md",
+    "has_extract": true,
+    "authors": "Rajkumar Pujari; Dan Goldwasser",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2410.13727",
+    "url": "http://arxiv.org/abs/2410.13727",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Pérez-Rosas-CogniModal-D.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Pérez-Rosas-CogniModal-D.md",
+    "has_extract": true,
+    "authors": "V. Pérez-Rosas",
+    "year": "2025",
+    "doi": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40089524/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Qamar-A Benchmark Dataset with Larger Context for.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Qamar-A Benchmark Dataset with Larger Context for.md",
+    "has_extract": true,
+    "authors": "Faiza Qamar; Seemab Latif; Rabia Latif",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2409.09844",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Qiu-ProgressGym.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Qiu-ProgressGym.md",
+    "has_extract": true,
+    "authors": "Tianyi Qiu; Yang Zhang; Xuchuan Huang; Jasmine Xinze Li; Jiaming Ji; Yaodong Yang",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2406.20087",
+    "url": "http://arxiv.org/abs/2406.20087",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Rahman-DefAn.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Rahman-DefAn.md",
+    "has_extract": true,
+    "authors": "A B M Ashikur Rahman; Saeed Anwar; Muhammad Usman; Ajmal Mian",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2406.09155",
+    "url": "http://arxiv.org/abs/2406.09155",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Rahman-Definitive Answer Dataset for LLMs Hallucination.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Rahman-Definitive Answer Dataset for LLMs Hallucination.md",
+    "has_extract": true,
+    "authors": "A B M Ashikur Rahman; Saeed Anwar; Muhammad Usman; Ajmal Mian",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2406.09155",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Ramezani-Moral Association Graph Cognitive Model for Interpretable Moral.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Ramezani-Moral Association Graph Cognitive Model for Interpretable Moral.md",
+    "has_extract": true,
+    "authors": "Ramezani, A. & Xu, Y.",
+    "year": "2024",
+    "doi": "10.1111/tops.12774",
+    "url": "https://doi.org/10.1111/tops.12774",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Rane-Concept Alignment.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Rane-Concept Alignment.md",
+    "has_extract": true,
+    "authors": "[[Rane, Sunayana]]; [[Bruna, Polyphony J.]]; [[Sucholutsky, Ilia]]; [[Kello, Christopher]]; [[Griffiths, Thomas L.]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2401.08672",
+    "url": "http://arxiv.org/abs/2401.08672",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Ranjan-A Comprehensive Survey of Bias in LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Ranjan-A Comprehensive Survey of Bias in LLMs.md",
+    "has_extract": true,
+    "authors": "Rajesh Ranjan; Shailja Gupta; Surya Narayan Singh",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2409.16430",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Rauh-Gaps in the Safety Evaluation of Generative AI.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Rauh-Gaps in the Safety Evaluation of Generative AI.md",
+    "has_extract": true,
+    "authors": "Maribeth Rauh; Nahema Marchal; Arianna Manzini; L. Hendricks; R. Comanescu; Canfer Akbulut; Tom Stepleton; Juan Mateos-Garcia; Stevie Bergman; Jackie Kay; Conor Griffin; Ben Bariach; Iason Gabriel; Verena Rieser; William Isaac; Laura Weidinger",
+    "year": "2024",
+    "doi": "10.1609/aies.v7i1.31717",
+    "url": "https://doi.org/10.1609/aies.v7i1.31717",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Ren-Safetywashing Do AI Safety Benchmarks Actually Measure Safety Progress.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Ren-Safetywashing Do AI Safety Benchmarks Actually Measure Safety Progress.md",
+    "has_extract": true,
+    "authors": "Richard Ren et al.",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2407.21792",
+    "body_richness": "thin"
+  }
+]

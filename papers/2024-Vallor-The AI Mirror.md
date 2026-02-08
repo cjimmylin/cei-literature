@@ -12,6 +12,8 @@ authors: "[[Vallor, Shannon]]"
 doi: 10.1093/oso/9780197759080.001.0001
 isbn: 9780197759066
 url: "https://global.oup.com/academic/product/the-ai-mirror-9780197759066"
+local_pdf: "[[PDFs/2024/2024-Vallor-The AI Mirror.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Vallor-The AI Mirror.md"
 national_ethnic_cultural: American
 religious_values: N/A
 moral_psychology: "Value Pluralism / Schwartz"

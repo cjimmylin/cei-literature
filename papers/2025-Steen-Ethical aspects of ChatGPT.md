@@ -28,7 +28,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-local_pdf: "[[2025-Steen-Ethical aspects of ChatGPT.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Steen-Ethical aspects of ChatGPT.pdf]]"
 pdf_extract: "[[2025-Steen-Ethical aspects of ChatGPT]]"
 ---
 # Ethical aspects of ChatGPT: An approach to discuss and evaluate key requirements from different ethical perspectives

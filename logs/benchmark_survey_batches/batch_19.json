@@ -1,0 +1,462 @@
+[
+  {
+    "filename": "2025-Tennant-Moral Alignment for LLM Agents.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Tennant-Moral Alignment for LLM Agents.md",
+    "has_extract": true,
+    "authors": "Elizaveta Tennant; Stephen Hailes; Mirco Musolesi",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2410.01639",
+    "url": "https://arxiv.org/abs/2410.01639",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Tennant-Moral Intrinsic Rewards for Alignment.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Tennant-Moral Intrinsic Rewards for Alignment.md",
+    "has_extract": true,
+    "authors": "Elizaveta Tennant; Stephen Hailes; Mirco Musolesi",
+    "year": "2025",
+    "doi": "N/A",
+    "url": "https://openreview.net/forum?id=ZFk4eh0WcL",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.md",
+    "has_extract": true,
+    "authors": "Yehor Tereshchenko; Mika Hämäläinen",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2505.04654",
+    "url": "http://arxiv.org/abs/2505.04654",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Terziyan-Towards ethical evolution.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Terziyan-Towards ethical evolution.md",
+    "has_extract": true,
+    "authors": "[[Terziyan, Vagan]], [[Tiihonen, Timo]], [[Shukla, Amit K.]], [[Gryshko, Svitlana]], [[Golovianko, Mariia]], [[Terziyan, Oleksandr]], [[Vitko, Oleksandra]]",
+    "year": "2025",
+    "doi": "10.1007/s43681-025-00759-9",
+    "url": "https://doi.org/10.1007/s43681-025-00759-9",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Trager-MFTCXplain A Multilingual Benchmark Dataset for Evaluating the Moral.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Trager-MFTCXplain A Multilingual Benchmark Dataset for Evaluating the Moral.md",
+    "has_extract": true,
+    "authors": "Jackson Trager et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2506.19073",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Trager-MFTCXplain.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Trager-MFTCXplain.md",
+    "has_extract": true,
+    "authors": "Jackson Trager; Francielle Vargas; Diego Alves; Matteo Guida; Mikel K. Ngueajio; Ameeta Agrawal; Yalda Daryani; Farzan Karimi-Malekabadi; Flor Miriam Plaza-del-Arco",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2506.19073",
+    "url": "http://arxiv.org/abs/2506.19073",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment.md",
+    "has_extract": true,
+    "authors": "Trisanth Srinivasan; Santosh Patapati",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2508.19562",
+    "url": "https://arxiv.org/abs/2508.19562",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models.md",
+    "has_extract": true,
+    "authors": "Varimaldi, N.R. et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2510.08543",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Various-AISafetyLab.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Various-AISafetyLab.md",
+    "has_extract": true,
+    "authors": "Zhexin Zhang; Leqi Lei; Junxiao Yang; Xijie Huang; Yida Lu; Shiyao Cui; Renmiao Chen; Qinglin Zhang; Xinyuan Wang; Hao Wang; Hao Li; Xianqi Lei; Chengwei Pan; Lei Sha; Hongning Wang; Minlie Huang",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2502.16776",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Various-U-SafeBench.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Various-U-SafeBench.md",
+    "has_extract": true,
+    "authors": "Sean Cleary; Mareike Fischer; Katherine St. John",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2502.12854",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Vasilev-RusCode.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Vasilev-RusCode.md",
+    "has_extract": true,
+    "authors": "[[Vasilev, Viacheslav]]; [[Agafonova, Julia]]; [[Gerasimenko, Nikolai]]; [[Kapitanov, Alexander]]; [[Mikhailova, Polina]]; [[Mironova, Evelina]]; [[Dimitrov, Denis]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2025.findings-naacl.425/",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Velay-Vitow-Putting the AI in Eudaimonia.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Velay-Vitow-Putting the AI in Eudaimonia.md",
+    "has_extract": true,
+    "authors": "[[Velay-Vitow, Jesse]]; [[Grant, John]]",
+    "year": "2025",
+    "doi": "N/A",
+    "url": "https://therepublicjournal.com/putting-the-ai-in-eudaimonia/",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Vishwanath-Machine Ethics or AI Alignment.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Vishwanath-Machine Ethics or AI Alignment.md",
+    "has_extract": true,
+    "authors": "Ajay Vishwanath; Marija Slavkovik",
+    "year": "2025",
+    "doi": "N/A",
+    "url": "https://ceur-ws.org/Vol-3975/paper9.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Waldner-AI Safety Alignment Ethics.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Waldner-AI Safety Alignment Ethics.md",
+    "has_extract": true,
+    "authors": "[[Waldner, Dylan]]",
+    "year": "2025",
+    "doi": "N/A",
+    "url": "https://arxiv.org/abs/2509.24065",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning.md",
+    "has_extract": true,
+    "authors": "[[Wang, Jiahao]]; [[Xue, Songkai]]; [[Li, Jinghui]]; [[Wang, Xiaozhen]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2511.00379",
+    "url": "https://arxiv.org/abs/2511.00379",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware.md",
+    "has_extract": true,
+    "authors": "Yinong Oliver Wang; Nivedha Sivakumar; Falaah Arif Khan; Rin Metcalf Susa; Adam Golinski; Natalie Mackraz; Barry-John Theobald; Luca Zappella; Nicholas Apostoloff",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2505.23996",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Wang-Measuring Desired Group Discrimination in LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wang-Measuring Desired Group Discrimination in LLMs.md",
+    "has_extract": true,
+    "authors": "[[Wang, Angelina]]; [[Phan, Michelle]]; [[Ho, Daniel E.]]; [[Koyejo, Sanmi]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2025.acl-long.341/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Wang-Multimodal Understanding of Human Values in Videos.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wang-Multimodal Understanding of Human Values in Videos.md",
+    "has_extract": true,
+    "authors": "Wang, Y. et al.",
+    "year": "2025",
+    "doi": "10.1016/j.neucom.2025.130170",
+    "url": "https://doi.org/10.1016/j.neucom.2025.130170",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Wang-PERM Psychology-grounded Empathetic Reward Modeling for Large.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wang-PERM Psychology-grounded Empathetic Reward Modeling for Large.md",
+    "has_extract": true,
+    "authors": "Chengbing Wang; Wuqiang Zheng; Yang Zhang; Fengbin Zhu; Junyi Cheng; Yi Xie; Wenjie Wang; Fuli Feng",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.10532",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Wang-X-WebAgentBench.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wang-X-WebAgentBench.md",
+    "has_extract": true,
+    "authors": "Peng Wang; Ruihan Tao; Qiguang Chen; Mengkang Hu; Libo Qin",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2505.15372",
+    "url": "http://arxiv.org/abs/2505.15372",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Wei-MedEthicsQA A Comprehensive Question Answering Benchmark for Medical.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wei-MedEthicsQA A Comprehensive Question Answering Benchmark for Medical.md",
+    "has_extract": true,
+    "authors": "Wei, J., Meng, Z., Xiao, Z., Hu, T., Feng, Y., Zhou, Z., Wu, J., & Liu, Z",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2506.22808",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Wei-MedEthicsQA.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wei-MedEthicsQA.md",
+    "has_extract": true,
+    "authors": "Jianhui Wei; Zijie Meng; Zikai Xiao; Tianxiang Hu; Yang Feng; Zhijie Zhou; Jian Wu; Zuozhu Liu",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2506.22808",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Wen-Evaluating Implicit Bias in Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wen-Evaluating Implicit Bias in Large Language Models.md",
+    "has_extract": true,
+    "authors": "[[Wen, Yuchen]]; [[Bi, Keping]]; [[Chen, Wei]]; [[Guo, Jiafeng]]; [[Cheng, Xueqi]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2025.findings-acl.263/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI.md",
+    "has_extract": true,
+    "authors": "[[Wilders, Maarten]]; [[Martínez de Rituerto de Troya, Íñigo]]; [[Dobbe, Roel]]",
+    "year": "2025",
+    "doi": "N/A",
+    "url": "https://aies-conference.com/2025/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social.md",
+    "has_extract": true,
+    "authors": "Richard Willis; Yali Du; Joel Z Leibo; Michael Luck",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2501.16173",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Wiyono-IndoPref.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wiyono-IndoPref.md",
+    "has_extract": true,
+    "authors": "Vanessa Rebecca Wiyono; David Anugraha; Ayu Purwarianti; Genta Indra Winata",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2507.22159",
+    "url": "http://arxiv.org/abs/2507.22159",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Wu-C-VARC Chinese Value Rule Corpus.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wu-C-VARC Chinese Value Rule Corpus.md",
+    "has_extract": true,
+    "authors": "Wu, P. et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2506.01495",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Wu-COIG-P - Chinese Preference Dataset for Alignment with Human Values.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wu-COIG-P - Chinese Preference Dataset for Alignment with Human Values.md",
+    "has_extract": true,
+    "authors": "Siwei Wu; Jincheng Ren; Xinrun Du; Shuyue Guo; Xingwei Qu; Yiming Liang; Jie Liu; Yunwen Li; Tianyu Zheng; Boyu Feng; Huaqing Yuan; Zenith Wang; Jiaheng Liu; Wenhao Huang; Chenglin Cai; Haoran Que; Jian Yang; Yuelin Bai; Zekun Moore Wang; Zhouliang Yu; Qunshu Lin; Ding Pan; Yuchen Jiang; Tiannan Wang; Wangchunshu Zhou; Shenzhi Wang; Xingyuan Bu; Minghao Liu; Guoyin Wang; Ge Zhang; Chenghua Lin",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2504.05535",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Wu-COIG-P.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wu-COIG-P.md",
+    "has_extract": true,
+    "authors": "M-A-P Team; Siwei Wu; Jincheng Ren; Xinrun Du; Shuyue Guo; Xingwei Qu; Yiming Liang; Jie Liu; Yunwen Li; Tianyu Zheng; Boyu Feng; Huaqing Yuan; Zenith Wang; Jiaheng Liu; Wenhao Huang; Chenglin Cai; Haoran Que; Jian Yang; Yuelin Bai; Zekun Moore Wang; Zhouliang Yu; Qunshu Lin; Ding Pan; Yuchen Jiang; Tiannan Wang; Wangchunshu Zhou; Shenzhi Wang; Xingyuan Bu; Minghao Liu; Guoyin Wang; Ge Zhang; Chenghua Lin",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2504.05535",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Wu-CVC.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wu-CVC.md",
+    "has_extract": true,
+    "authors": "[[Wu, Ping]]; [[Shen, Guobin]]; [[Zhao, Dongcheng]]; [[Wang, Yuwei]]; [[Dong, Yiting]]; [[Shi, Yu]]; [[Lu, Enmeng]]; [[Zhao, Feifei]]; [[Zeng, Yi]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2506.01495",
+    "url": "http://arxiv.org/abs/2506.01495",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Wu-Chain-of-Ethics Defense Framework Wu et al..md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wu-Chain-of-Ethics Defense Framework Wu et al..md",
+    "has_extract": true,
+    "authors": "Wu, Y. et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Wu-OpenDeception Benchmarking and Investigating AI Deceptive Behaviors.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wu-OpenDeception Benchmarking and Investigating AI Deceptive Behaviors.md",
+    "has_extract": true,
+    "authors": "Yichen Wu; Xudong Pan; Geng Hong; Min Yang",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2504.13707",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Wu-OpenDeception.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wu-OpenDeception.md",
+    "has_extract": true,
+    "authors": "Yichen Wu; Xudong Pan; Geng Hong; Min Yang",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2504.13707",
+    "url": "http://arxiv.org/abs/2504.13707",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md",
+    "has_extract": true,
+    "authors": "Ya Wu et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2505.18154",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Xi-InfoDeepSeek.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Xi-InfoDeepSeek.md",
+    "has_extract": true,
+    "authors": "Yunjia Xi; Jianghao Lin; Menghui Zhu; Yongzhao Xiao; Zhuoying Ou; Jiaqi Liu; Tong Wan; Bo Chen; Weiwen Liu; Yasheng Wang; Ruiming Tang; Weinan Zhang; Yong Yu",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2505.15872",
+    "url": "http://arxiv.org/abs/2505.15872",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Xia-SafeToolBench.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Xia-SafeToolBench.md",
+    "has_extract": true,
+    "authors": "Hongfei Xia, Hongru Wang, Zeming Liu, Qian Yu, Yuhang Guo, Haifeng Wang",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2509.07315",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Xiang-Comparing Moral Values in Western.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Xiang-Comparing Moral Values in Western.md",
+    "has_extract": true,
+    "authors": "Chaoyi Xiang; Chunhua Liu; Simon De Deyne; Lea Frermann",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2505.19674",
+    "url": "http://arxiv.org/abs/2505.19674",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal.md",
+    "has_extract": true,
+    "authors": "Xie, T., et al",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2406.14598",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Xu-FiSCo Fine-grained Semantic Comparison.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Xu-FiSCo Fine-grained Semantic Comparison.md",
+    "has_extract": true,
+    "authors": "Weijie Xu et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2506.19028",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yaacov-Normative Moral Pluralism for AI.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yaacov-Normative Moral Pluralism for AI.md",
+    "has_extract": true,
+    "authors": "[[David-Doron Yaacov]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2508.08333",
+    "url": "https://arxiv.org/abs/2508.08333",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Yao-NurValues.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yao-NurValues.md",
+    "has_extract": true,
+    "authors": "Ben Yao; Qiuchi Li; Yazhou Zhang; Siyu Yang; Bohan Zhang; Prayag Tiwari; Jing Qin",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2505.08734",
+    "url": "http://arxiv.org/abs/2505.08734",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yao-Value Compass Benchmarks.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yao-Value Compass Benchmarks.md",
+    "has_extract": true,
+    "authors": "Jing Yao; Xiaoyuan Yi; Shitong Duan; Jindong Wang; Yuzhuo Bai; Muhua Huang; Peng Zhang; Tun Lu; Zhicheng Dou; Maosong Sun; Xing Xie",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2501.07071",
+    "url": "http://arxiv.org/abs/2501.07071",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems.md",
+    "has_extract": true,
+    "authors": "Ye, H. et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2502.02444",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Ye-Large Language Model Psychometrics.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ye-Large Language Model Psychometrics.md",
+    "has_extract": true,
+    "authors": "Haoran Ye; Jing Jin; Yuhang Xie; Xin Zhang; Guojie Song",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2505.08245",
+    "url": "http://arxiv.org/abs/2505.08245",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Yesil-Yesil o1 Pro.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yesil-Yesil o1 Pro.md",
+    "has_extract": true,
+    "authors": "Yusuf Yesil",
+    "year": "2025",
+    "doi": "10.2196/preprints.72646",
+    "url": "https://preprints.jmir.org/preprint/72646",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Yilma-Ethics of AI in Africa.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yilma-Ethics of AI in Africa.md",
+    "has_extract": true,
+    "authors": "Kinfe Yilma",
+    "year": "2025",
+    "doi": "10.1007/s10676-025-09834-5",
+    "url": "https://link.springer.com/10.1007/s10676-025-09834-5",
+    "body_richness": "rich"
+  }
+]

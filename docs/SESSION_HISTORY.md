@@ -2,6 +2,78 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 48 (Feb 8, 2026) - Integrate New PDF Acquisition Strategies
+
+### Overview
+
+Integrated 5 new PDF acquisition strategies discovered during Session 47's manual PDF recovery into the canonical `comprehensive_pdf_finder.py` pipeline, so future runs benefit automatically. Also created the previously-missing `/download-pdf` skill and updated the `pdf-processing.md` standard.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| New strategies added | 2 (EuropePMC, NeurIPS direct) |
+| Strategies enhanced | 2 (OpenAlex +locations/preprints, DOI scrape +MDPI d_attachment) |
+| Total strategies | 15 (was 13) |
+| Skills created | 1 (`download-pdf/SKILL.md`) |
+| Standards updated | 1 (`pdf-processing.md` v1.0 → v1.1) |
+| Validation | 924/924 pass, 0 errors |
+
+### Key Learnings
+- [PDF Processing] OpenAlex `locations` field (not just `primary_location`) catches preprints on Research Square, SSRN, and institutional repos
+- [Skills] The `/download-pdf` skill was referenced in COMMANDS.md and WORKFLOWS.md but never created — now documents the full 15-strategy waterfall
+- [API] EuropePMC two-tier approach (fullTextUrlList → PMCID ptpmcrender) is effective for bioethics/medical papers
+
+### Files Changed
+- `PYTHON/comprehensive_pdf_finder.py`: +2 strategy functions, 2 enhanced, config updated (13→15)
+- `_OPERATING-SYSTEM/Standards/pdf-processing.md`: Strategy list expanded 6→10, Strategy Tips subsection added
+- `.claude/skills/download-pdf/SKILL.md`: New skill file (~150 lines)
+
+---
+
+## Session 47 (Feb 8, 2026) - Complete Missing PDFs & Orphan Cleanup
+
+### Overview
+
+Continued and completed the interrupted Missing PDFs & Orphan Cleanup thread. Resolved all 3 remaining orphan PDFs, cleared 5 broken `local_pdf` fields, downloaded 7 open-access PDFs (including a creative Research Square preprint recovery for a T&F paywalled paper), created 7 PDF extracts, and restored 1 accidentally recycled paper.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Orphan PDFs resolved | 3 (2× Stenseke → RECYCLE-BIN, 1× Sachdeva → restored) |
+| Broken local_pdf cleared | 3 (Boddington, Stenseke, Ribeiro) |
+| PDFs downloaded | 7 (Wilders, Zhou, Ochasi, Rashid, Shahriar, Cheung, Sameer) |
+| PDF extracts created | 7 |
+| Papers modified | 28 (19 path fixes + 6 new local_pdf + 3 cleared) |
+| Papers restored | 1 (Sachdeva "Deliberative Dynamics" from RECYCLE-BIN) |
+| Vault total | 924 papers, 910 PDFs, 0 orphans, 0 broken links |
+| Validation | 924/924 pass, 0 errors |
+
+### Download Sources
+
+| Paper | Source | Method |
+|-------|--------|--------|
+| Wilders | AAAI OJS | 3-part download URL |
+| Zhou | NeurIPS | Direct `-Paper-Conference.pdf` pattern |
+| Ochasi | EuropePMC | `ptpmcrender.fcgi` endpoint |
+| Rashid | MDPI | `d_attachment` URL pattern |
+| Shahriar | MDPI | `d_attachment` URL pattern |
+| Cheung | EuropePMC | `ptpmcrender.fcgi` endpoint |
+| Sameer | Research Square | Preprint (CC BY 4.0), discovered via OpenAlex |
+
+### Key Learnings
+- [PDF Processing] Research Square preprints are discoverable via OpenAlex API even when the published T&F version shows `is_oa: false`
+- [PDF Processing] EuropePMC `ptpmcrender.fcgi` reliably delivers PMC-deposited PDFs for PNAS/Wiley papers behind paywalls
+- [Data Quality] Orphan PDFs may correspond to accidentally recycled papers — always check RECYCLE-BIN before discarding
+
+### Files Changed
+- `papers/`: 28 modified, 1 restored from RECYCLE-BIN
+- `PDF Extracts/`: 7 new, 5 modified (re-extracted), 2 moved to RECYCLE-BIN
+- `_OPERATING-SYSTEM/Learnings/learnings-log.md`: 5 entries added
+
+---
+
 ## Session 46 (Feb 8, 2026) - Create Missing PDF Extracts
 
 ### Overview

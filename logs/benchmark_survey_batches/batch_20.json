@@ -1,0 +1,462 @@
+[
+  {
+    "filename": "2025-Yu-MSLR-Bench Multi-Step Legal Reasoning.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yu-MSLR-Bench Multi-Step Legal Reasoning.md",
+    "has_extract": true,
+    "authors": "Wenhan Yu, Xinbo Lin, Lanxin Ni, Jinhua Cheng, and Lei Sha",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2511.07979",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yuan-Probabilistic Aggregation and Targeted Embedding.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yuan-Probabilistic Aggregation and Targeted Embedding.md",
+    "has_extract": true,
+    "authors": "Chenchen Yuan; Zheyu Zhang; Shuo Yang; Bardh Prenkaj; Gjergji Kasneci",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2506.14625",
+    "url": "http://arxiv.org/abs/2506.14625",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Yuan-S-Eval.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yuan-S-Eval.md",
+    "has_extract": true,
+    "authors": "Xiaohan Yuan et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2405.14191",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md",
+    "has_extract": true,
+    "authors": "Muhammad Shahrul Zaim Bin Ahmad; Kazuhiro Takemoto",
+    "year": "2025",
+    "doi": "10.1371/journal.pone.0322776",
+    "url": "https://dx.plos.org/10.1371/journal.pone.0322776",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.md",
+    "has_extract": true,
+    "authors": "[[Zgliczyński-Cuber, Tomasz]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2507.11552",
+    "url": "https://arxiv.org/abs/2507.11552",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhang-LLMEval-Med Medical Safety & Ethics Component.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhang-LLMEval-Med Medical Safety & Ethics Component.md",
+    "has_extract": true,
+    "authors": "Ming Zhang et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2506.04078",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhang-MedHallTune.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhang-MedHallTune.md",
+    "has_extract": true,
+    "authors": "Qiao Yan; Yuchen Yuan; Xiaowei Hu; Yihan Wang; Jiaqi Xu; Jinpeng Li; Chi-Wing Fu; Pheng-Ann Heng",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2502.20780",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Zhang-PoliCon.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhang-PoliCon.md",
+    "has_extract": true,
+    "authors": "Zhaowei Zhang; Xiaobo Wang; Minghua Yi; Mengmeng Wang; Fengshuo Bai; Zilong Zheng; Yipeng Kang; Yaodong Yang",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2505.19558",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhang-REVAL.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhang-REVAL.md",
+    "has_extract": true,
+    "authors": "Jie Zhang; Zheng Yuan; Zhongqi Wang; Bei Yan; Sibo Wang; Xiangkui Cao; Zonghui Guo; Shiguang Shan; Xilin Chen",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2503.16566",
+    "url": "http://arxiv.org/abs/2503.16566",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Zheng-SYCON Bench.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zheng-SYCON Bench.md",
+    "has_extract": true,
+    "authors": "Jiseung Hong; Grace Byun; Seungone Kim; Kai Shu; Jinho D. Choi",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2505.23840",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized.md",
+    "has_extract": true,
+    "authors": "Zhou, Q. et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2505.11861",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhou-Moral Reasoning Across Languages The Critical Role of Low-Resource.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhou-Moral Reasoning Across Languages The Critical Role of Low-Resource.md",
+    "has_extract": true,
+    "authors": "Huichi Zhou; Zehao Xu; Munan Zhao; Kaihong Li; Yiqiang Li; Hongtao Wang",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2504.19759",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhou-Moral Reasoning Across Languages.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhou-Moral Reasoning Across Languages.md",
+    "has_extract": true,
+    "authors": "Huichi Zhou; Zehao Xu; Munan Zhao; Kaihong Li; Yiqiang Li; Hongtao Wang",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2504.19759",
+    "url": "http://arxiv.org/abs/2504.19759",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models.md",
+    "has_extract": true,
+    "authors": "Jinfeng Zhou; Yuxuan Chen; Yihan Shi; Xuanming Zhang; Leqi Lei; Yi Feng; Zexuan Xiong; Miao Yan; Xunzhi Wang; Yaru Cao; Jianing Yin; Shuai Wang; Quanyu Dai; Zhenhua Dong; Hongning Wang; Minlie Huang",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2506.00900",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhu-EAVIT.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhu-EAVIT.md",
+    "has_extract": true,
+    "authors": "Wenhao Zhu; Yuhang Xie; Guojie Song; Xin Zhang",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2505.12792",
+    "url": "http://arxiv.org/abs/2505.12792",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Zhu-MultiAgentBench MARBLE Evaluating Collaboration and Competition of.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhu-MultiAgentBench MARBLE Evaluating Collaboration and Competition of.md",
+    "has_extract": true,
+    "authors": "Kunlun Zhu; Hongyi Du; Zhaochen Hong; Xiaocheng Yang; Shuyi Guo; Zhe Wang; Zhenhailong Wang; Cheng Qian; Xiangru Tang; Heng Ji; Jiaxuan You",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2503.01935",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhu-Steering Risk Preferences in Large Language.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhu-Steering Risk Preferences in Large Language.md",
+    "has_extract": true,
+    "authors": "Jian-Qiao Zhu; Haijiang Yan; Thomas L. Griffiths",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2505.11615",
+    "url": "http://arxiv.org/abs/2505.11615",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md",
+    "has_extract": true,
+    "authors": "Andrew Zhu",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhu-TrolleyBench.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhu-TrolleyBench.md",
+    "has_extract": true,
+    "authors": "Zhu, A",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zohny-ADEPT Simulating Ethics.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zohny-ADEPT Simulating Ethics.md",
+    "has_extract": true,
+    "authors": "[[Zohny, Hazem]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2505.21112",
+    "url": "https://arxiv.org/abs/2505.21112",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Zulaika-BasqBBQ Basque BBQ.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zulaika-BasqBBQ Basque BBQ.md",
+    "has_extract": true,
+    "authors": "Muitze Zulaika et al",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md",
+    "has_extract": true,
+    "authors": "Multiple authors",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2510.03553",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-onejune2018-Awesome-LLM-Eval Repository Meta-Resource.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "onejune2018",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Chen-PoliBias Parliamentary Voting Records.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Chen-PoliBias Parliamentary Voting Records.md",
+    "has_extract": true,
+    "authors": "Jieying Chen et al.",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.08785",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Dang-RedBench.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Dang-RedBench.md",
+    "has_extract": true,
+    "authors": "Quy-Anh Dang, Chris Ngo, Truong-Son Hy",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.03699",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Elkins-Negation Sensitivity Index NSI.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Elkins-Negation Sensitivity Index NSI.md",
+    "has_extract": true,
+    "authors": "Elkins, K. & Chun, J.",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.21433",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Farid-One Model Many Morals Uncovering Cross-Linguistic Misalignments in.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Farid-One Model Many Morals Uncovering Cross-Linguistic Misalignments in.md",
+    "has_extract": true,
+    "authors": "Farid, S., Lin, J., Chen, Z., Kumar, S., & Jurgens, D",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2509.21443",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Goel-Building Interpretable Models for Moral Decision-Making.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Goel-Building Interpretable Models for Moral Decision-Making.md",
+    "has_extract": true,
+    "authors": "Goel, M., Das, A",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2602.03351",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Guey-BiasLab Multilingual Dual-Framing Framework.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Guey-BiasLab Multilingual Dual-Framing Framework.md",
+    "has_extract": true,
+    "authors": "William Guey et al.",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.06861",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.md",
+    "has_extract": true,
+    "authors": "He, Z. et al.",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.09112",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.md",
+    "has_extract": true,
+    "authors": "Jen-tse Huang et al.",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.07972",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Jin-MedES Chinese Medical Ethics Scenarios.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Jin-MedES Chinese Medical Ethics Scenarios.md",
+    "has_extract": true,
+    "authors": "Haoan Jin, Han Ying, Jiacheng Ji, Hanhui Xu, and Mengyue Wu",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.07954",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks.md",
+    "has_extract": true,
+    "authors": "Karimi-Malekabadi, F. et al.",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.01878",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md",
+    "has_extract": true,
+    "authors": "Woojin Kim; Sieun Hyeon; Jusang Oh; Jaeyoung Do",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2602.03160",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Kolt-Legal Alignment for Safe and Ethical AI.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Kolt-Legal Alignment for Safe and Ethical AI.md",
+    "has_extract": true,
+    "authors": "[[Kolt, Noam]], [[Caputo, Nicholas]], [[Boeglin, Jack]], [[O'Keefe, Cullen]], [[Bommasani, Rishi]], [[Casper, Stephen]], [[Cuéllar, Mariano-Florentino]], [[Feldman, Noah]], [[Gabriel, Iason]], [[Hadfield, Gillian K.]], [[Hammond, Lewis]], [[Henderson, Peter]], [[Kasirzadeh, Atoosa]], [[Lazar, Seth]], [[Reuel, Anka]], [[Wei, Kevin L.]], [[Zittrain, Jonathan]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2601.04175",
+    "url": "https://arxiv.org/abs/2601.04175",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters.md",
+    "has_extract": true,
+    "authors": "Kratzke, N. et al.",
+    "year": "2026",
+    "doi": "10.3390/analytics5010005",
+    "url": "https://doi.org/10.3390/analytics5010005",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Lee-BiasJailbreak.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Lee-BiasJailbreak.md",
+    "has_extract": true,
+    "authors": "Isack Lee, Haebin Seong",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.13334",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Li-PluriHarms.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Li-PluriHarms.md",
+    "has_extract": true,
+    "authors": "Jing-Jing Li et al.",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.08951",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Liu-JMedEthicBench.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Liu-JMedEthicBench.md",
+    "has_extract": true,
+    "authors": "Junyu Liu et al",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.01627",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs.md",
+    "has_extract": true,
+    "authors": "Ma, Y. et al.",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2602.01558",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Nadeem-Bias Beyond Borders.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Nadeem-Bias Beyond Borders.md",
+    "has_extract": true,
+    "authors": "Afrozah Nadeem, Agrima, Mehwish Nasim, Usman Naseem",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.23001",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral.md",
+    "has_extract": true,
+    "authors": "Nadies, S. et al.",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.10410",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Shen-PsychEthicsBench.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Shen-PsychEthicsBench.md",
+    "has_extract": true,
+    "authors": "Shen et al.",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.03578",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence.md",
+    "has_extract": true,
+    "authors": "Aaron J. Snoswell, Daniel Kilov, Seth Lazar",
+    "year": "2026",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Yu-Tracing Moral Foundations in LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Yu-Tracing Moral Foundations in LLMs.md",
+    "has_extract": true,
+    "authors": "[[Yu, Chenxiao]]; [[Yi, Bowen]]; [[Karimi-Malekabadi, Farzan]]; [[Abdurahman, Suhaib]]; [[Ye, Jinyi]]; [[Narayanan, Shrikanth]]; [[Zhao, Yue]]; [[Dehghani, Morteza]]",
+    "year": "2025",
+    "doi": "N/A",
+    "url": "https://arxiv.org/abs/2601.05437",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2026-Yun-VAPT Value-Alignment Perception Toolkit.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Yun-VAPT Value-Alignment Perception Toolkit.md",
+    "has_extract": true,
+    "authors": "Yun, S. et al.",
+    "year": "2026",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.22440",
+    "body_richness": "thin"
+  }
+]

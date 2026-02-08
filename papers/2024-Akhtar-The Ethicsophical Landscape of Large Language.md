@@ -11,7 +11,7 @@ first_author: "[[Shahnawaz Akhtar]]"
 authors: "[[Akhtar, Shahnawaz]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/DIHXXCK6/Akhtar - The Ethicsophical Landscape of Large Language Models.pdf"
 pdf_extract: "[[2024-Akhtar-The Ethicsophical Landscape of Large Language]]"
-local_pdf: "[[2024-Akhtar-The Ethicsophical Landscape of Large Language.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Akhtar-The Ethicsophical Landscape of Large Language.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A

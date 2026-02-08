@@ -1,0 +1,393 @@
+[
+  {
+    "filename": "2024-Tlaie-Exploring and steering the moral compass of Large.md",
+    "decision": "Yes",
+    "benchmark_name": "Moral Foundations Questionnaire (MFQ) + ethical dilemmas battery",
+    "what_measures": "Moral profiles of LLMs across ethical schools (utilitarian vs values-based) and liberal/conservative bias via Moral Foundations Theory",
+    "how_measures": "Scenario-based ethical dilemmas + Moral Foundations Questionnaire survey instrument applied to LLMs; activation steering to causally intervene in moral compass",
+    "dataset_size": "Not stated (uses existing MFQ instrument + selection of ethical dilemmas)",
+    "models_evaluated": "Multiple proprietary (GPT-4, etc.) and open-weights LLMs (Llama 2-7B, etc.)",
+    "pluralistic_relevance": "Yes",
+    "availability": "Not stated",
+    "reasoning": "Adapts the Moral Foundations Questionnaire and ethical dilemmas to empirically evaluate LLMs' moral profiles, comparing proprietary vs open-weight models and proposing activation steering for ethical alignment"
+  },
+  {
+    "filename": "2024-Tom-SG-Bench - Evaluating LLM Safety Generalization.md",
+    "decision": "Yes",
+    "benchmark_name": "SG-Bench",
+    "what_measures": "LLM safety generalization across discriminative and generative evaluation paradigms under various prompting techniques",
+    "how_measures": "Both discriminative (identifying harm) and generative (refusing harm) tasks; examines impact of system prompts, few-shot demonstrations, CoT prompting, and jailbreak",
+    "dataset_size": "Not specified (draws from AdvBench, HarmfulQA, BeaverTails, SaladBench)",
+    "models_evaluated": "3 proprietary LLMs + 10 open-source LLMs",
+    "pluralistic_relevance": "No",
+    "availability": "Public (https://github.com/MurrayTom/SG-Bench)",
+    "reasoning": "Creates SG-Bench, a novel safety benchmark integrating discriminative and generative evaluation with prompt engineering effects on safety"
+  },
+  {
+    "filename": "2024-Tonneau-NaijaHate.md",
+    "decision": "Exclude",
+    "reasoning": "Hate speech detection dataset for Nigerian Twitter. While it evaluates NLP models on hate speech, it focuses on content moderation performance rather than moral reasoning or ethical evaluation of LLMs specifically."
+  },
+  {
+    "filename": "2024-Tsai-Why AI May Undermine Phronesis.md",
+    "decision": "Exclude",
+    "reasoning": "Purely philosophical paper on AI and practical wisdom (phronesis) from Aristotelian perspective. No empirical evaluation, no benchmark or dataset."
+  },
+  {
+    "filename": "2024-Tu-CharacterEval.md",
+    "decision": "Exclude",
+    "reasoning": "CharacterEval is a benchmark for evaluating role-playing conversational agents on character consistency, engagement, and immersion. It does not evaluate moral reasoning, ethical judgment, or value alignment -- it evaluates character persona fidelity in Chinese literary contexts."
+  },
+  {
+    "filename": "2024-Uluoglakci-HypoTermQA.md",
+    "decision": "Exclude",
+    "reasoning": "HypoTermQA is a hallucination detection benchmark using hypothetical (fake) terms. It tests epistemic humility but not moral reasoning or ethical judgment."
+  },
+  {
+    "filename": "2024-Ungless-ETHICS WHITEPAPER.md",
+    "decision": "Exclude",
+    "reasoning": "A practical whitepaper on ethical best practices for LLM research covering the project lifecycle. It is a guide/review paper and does not introduce its own benchmark, dataset, or evaluation methodology for assessing LLMs on ethics."
+  },
+  {
+    "filename": "2024-Vallor-The AI Mirror.md",
+    "decision": "Exclude",
+    "reasoning": "A philosophical book on virtue ethics and AI. Purely theoretical/philosophical with no empirical evaluation component."
+  },
+  {
+    "filename": "2024-Various-SGBench.md",
+    "decision": "Yes",
+    "benchmark_name": "SG-Bench",
+    "what_measures": "LLM safety generalization across diverse tasks and prompt types (discriminative and generative)",
+    "how_measures": "Discriminative tasks (identifying unsafe content) and generative tasks (refusing harmful queries); tests effects of various prompting techniques on safety",
+    "dataset_size": "Not specified",
+    "models_evaluated": "3 proprietary LLMs + 10 open-source LLMs",
+    "pluralistic_relevance": "No",
+    "availability": "Public (GitHub)",
+    "reasoning": "Same benchmark as SG-Bench (duplicate entry with different paper file). Creates a safety evaluation benchmark integrating discriminative and generative evaluation with prompt engineering effects."
+  },
+  {
+    "filename": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+    "decision": "Exclude",
+    "reasoning": "Theoretical/conceptual framework paper on decolonial AI alignment using Hindu philosophical concepts (visesa-dharma). Proposes a reference architecture but does not create any empirical benchmark, dataset, or evaluation instrument."
+  },
+  {
+    "filename": "2024-Vayani-All Languages Matter.md",
+    "decision": "Exclude",
+    "reasoning": "ALM-bench evaluates large multimodal models on culturally diverse visual-linguistic understanding across 100 languages. While it covers cultural aspects like traditions and heritage, it evaluates visual QA and cultural knowledge rather than moral reasoning or ethical judgment."
+  },
+  {
+    "filename": "2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.md",
+    "decision": "Yes",
+    "benchmark_name": "Moral Machine Experiment (MME) for LLMs",
+    "what_measures": "Multilingual moral preferences and biases of LLMs compared to human cultural moral preferences across 10 languages",
+    "how_measures": "Scenario-based moral dilemmas (trolley-problem-style) from the Moral Machine Experiment; forced-choice between actions across multiple languages",
+    "dataset_size": "6,500 moral dilemma scenarios",
+    "models_evaluated": "Falcon, Gemini, Llama 3, GPT, MPT (5 LLMs)",
+    "pluralistic_relevance": "Yes",
+    "availability": "Not stated",
+    "reasoning": "Adapts the Moral Machine Experiment to evaluate LLMs' moral preferences across 10 languages, comparing with human cultural preferences and revealing cross-lingual moral biases"
+  },
+  {
+    "filename": "2024-Vladimirova-FairJob.md",
+    "decision": "Exclude",
+    "reasoning": "FairJob is a fairness-aware dataset for job recommendation advertising. It addresses algorithmic fairness in a purely technical sense (gender bias in ad recommendation), not moral reasoning or ethical judgment evaluation."
+  },
+  {
+    "filename": "2024-Wang-A Comprehensive Survey of LLM Alignment Techniques.md",
+    "decision": "Exclude",
+    "reasoning": "A comprehensive survey paper reviewing LLM alignment techniques (RLHF, RLAIF, DPO, PPO, etc.). Does not introduce its own benchmark, dataset, or evaluation methodology."
+  },
+  {
+    "filename": "2024-Wang-All Languages Matter.md",
+    "decision": "Yes",
+    "benchmark_name": "XSafety",
+    "what_measures": "Multilingual safety of LLMs across 14 safety issues in 10 languages",
+    "how_measures": "Queries covering 14 safety issue categories presented in 10 languages; measures rate of unsafe responses; proposes cross-lingual safety alignment prompting method",
+    "dataset_size": "Not specified (14 issues x 10 languages)",
+    "models_evaluated": "4 LLMs (close-API and open-source models)",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public (data and results to be released)",
+    "reasoning": "Introduces XSafety, the first multilingual safety benchmark for LLMs, covering 14 safety issues across 10 languages and revealing significant safety gaps for non-English queries"
+  },
+  {
+    "filename": "2024-Wang-BenchMAW.md",
+    "decision": "Exclude",
+    "reasoning": "Evaluates LLM hallucination using unanswerable math word problems (UMWP). Tests mathematical reasoning hallucination, not moral reasoning or ethical judgment."
+  },
+  {
+    "filename": "2024-Wang-Do-Not-Answer.md",
+    "decision": "Yes",
+    "benchmark_name": "Do-Not-Answer",
+    "what_measures": "Safeguards in LLMs -- evaluates ability to refuse responding to dangerous/harmful instructions",
+    "how_measures": "Dataset of instructions that responsible LLMs should not follow; automated safety evaluation using BERT-style classifiers comparable to GPT-4",
+    "dataset_size": "Not specified (curated dangerous capability instructions)",
+    "models_evaluated": "6 popular LLMs",
+    "pluralistic_relevance": "No",
+    "availability": "Public (https://github.com/Libr-AI/do-not-answer)",
+    "reasoning": "Creates an open-source dataset for evaluating LLM safeguards against dangerous capability instructions, with ethical dimension in content safety evaluation"
+  },
+  {
+    "filename": "2024-Wang-Fake Alignment FINE Framework.md",
+    "decision": "Exclude",
+    "reasoning": "The PDF extract reveals this paper is actually about Primal-Dual DPO for constrained LLM alignment (a training method paper), not specifically a benchmark or evaluation framework. The paper body has no abstract and the dataset information suggests comparative evaluation but the actual content is about a constrained alignment training approach, not a benchmark creation."
+  },
+  {
+    "filename": "2024-Wang-Possibilities and challenges in the moral growth of LLMs.md",
+    "decision": "Exclude",
+    "reasoning": "Purely philosophical/theoretical paper analyzing LLM moral development through Dewey's moral philosophy framework. No empirical evaluation, no benchmark or dataset created."
+  },
+  {
+    "filename": "2024-Watts-PARIKSHA.md",
+    "decision": "Exclude",
+    "reasoning": "PARIKSHA evaluates multilingual LLM performance across 10 Indic languages with human and LLM-based evaluation. While it has cultural relevance, it evaluates general language generation quality (not moral reasoning or ethical judgment). It studies evaluator agreement, not ethics."
+  },
+  {
+    "filename": "2024-Weidinger-Holistic Safety and Responsibility Evaluations of.md",
+    "decision": "Exclude",
+    "reasoning": "A Google DeepMind report summarizing their approach to safety evaluation frameworks. While it discusses safety evaluation broadly, it is a position/lessons-learned paper and does not introduce a specific benchmark, dataset, or publicly available evaluation instrument."
+  },
+  {
+    "filename": "2024-Wilders-Socratic Dialogue for Virtue Ethics in AI.md",
+    "decision": "Exclude",
+    "reasoning": "A qualitative case study of the Socratic Dialogue method for cultivating virtue ethics among AI practitioners at a financial bank. It evaluates human practitioners (not AI models) and produces no benchmark or dataset for LLM evaluation."
+  },
+  {
+    "filename": "2024-Wong-The Humanistic Buddhism Corpus (HBC).md",
+    "decision": "Exclude",
+    "reasoning": "HBC is a Chinese-English parallel corpus for machine translation from Buddhist texts. While it involves religious content, it is a machine translation dataset, not a moral reasoning or ethical evaluation benchmark for LLMs."
+  },
+  {
+    "filename": "2024-Woodgate-Macro Ethics Principles for Responsible AI Systems.md",
+    "decision": "Exclude",
+    "reasoning": "A survey/taxonomy paper developing 21 normative ethical principles for responsible AI. Theoretical framework paper that does not introduce an empirical benchmark or evaluation instrument for testing LLMs."
+  },
+  {
+    "filename": "2024-Wu-AutoHallusion.md",
+    "decision": "Exclude",
+    "reasoning": "AutoHallusion is a benchmark for visual hallucinations in large vision-language models. It tests object hallucination in images, not moral reasoning or ethical judgment."
+  },
+  {
+    "filename": "2024-Wu-WorldValuesBench.md",
+    "decision": "Yes",
+    "benchmark_name": "WorldValuesBench",
+    "what_measures": "Multi-cultural value awareness of language models across diverse global demographics",
+    "how_measures": "Value prediction task: given demographic attributes and a value question, model generates a rating response. Evaluated using Wasserstein 1-distance from human answer distributions",
+    "dataset_size": "20M+ examples derived from World Values Survey (94,728 participants)",
+    "models_evaluated": "Alpaca-7B, Vicuna-7B-v1.5, Mixtral-8x7B-Instruct-v0.1, GPT-3.5 Turbo",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Creates a large-scale benchmark from World Values Survey data to test LLMs' awareness of multi-cultural values including ethical, social, and economic dimensions across global demographics"
+  },
+  {
+    "filename": "2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A.md",
+    "decision": "Exclude",
+    "reasoning": "Benchmarks LLMs' bargaining/negotiation abilities using price negotiation scenarios. While it involves strategic interaction, it measures economic negotiation skills rather than moral reasoning or ethical judgment."
+  },
+  {
+    "filename": "2024-Xu-Course-Correction.md",
+    "decision": "Yes",
+    "benchmark_name": "C2-EVAL",
+    "what_measures": "LLMs' capability for course-correction -- autonomously steering away from generating harmful content mid-generation",
+    "how_measures": "Quantitative assessment of 10 LLMs on course-correction tasks; also creates C2-SYN synthetic preference dataset (750K pairwise preferences) for fine-tuning",
+    "dataset_size": "C2-SYN: 750K pairwise preferences; C2-EVAL benchmark size not specified",
+    "models_evaluated": "10 popular LLMs including LLAMA2-CHAT 7B, QWEN2 7B",
+    "pluralistic_relevance": "No",
+    "availability": "Not stated",
+    "reasoning": "Introduces C2-EVAL benchmark for assessing LLMs' ability to course-correct away from harmful content, plus C2-SYN dataset for improving safety alignment"
+  },
+  {
+    "filename": "2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in.md",
+    "decision": "Exclude",
+    "reasoning": "MAgIC evaluates LLM multi-agent cognition, adaptability, rationality, and collaboration using social deduction games and game theory scenarios. While it tests cooperation and deception, it focuses on strategic reasoning rather than moral/ethical evaluation."
+  },
+  {
+    "filename": "2024-Yan-M$^3$oralBench.md",
+    "decision": "Yes",
+    "benchmark_name": "M3oralBench",
+    "what_measures": "Multimodal moral understanding and reasoning of large vision-language models across six moral foundations (Moral Foundations Theory)",
+    "how_measures": "Tasks in moral judgement, moral classification, and moral response using text-image pairs generated from Moral Foundations Vignettes + SD3.0 diffusion model",
+    "dataset_size": "Not specified (expanded from Moral Foundations Vignettes)",
+    "models_evaluated": "10 popular open-source and closed-source LVLMs",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "First multimodal moral benchmark for LVLMs, extending Moral Foundations Vignettes with generated images to evaluate moral judgment, classification, and response across six moral foundations"
+  },
+  {
+    "filename": "2024-Yanaka-JBBQ Japanese Bias Benchmark for Question Answering.md",
+    "decision": "Yes",
+    "benchmark_name": "JBBQ (Japanese Bias Benchmark for Question Answering)",
+    "what_measures": "Social biases in Japanese LLMs across categories of age, disability, gender, physical appearance, and sexual orientation",
+    "how_measures": "QA format based on English BBQ benchmark, adapted to Japanese cultural context; measures accuracy and bias scores",
+    "dataset_size": "50,856 question pairs (JBBQ-Lite: 912)",
+    "models_evaluated": "Multiple Japanese LLMs (open-source)",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public (https://github.com/ynklab/JBBQ_data)",
+    "reasoning": "Adapts the English BBQ bias benchmark to Japanese cultural context, evaluating social biases in Japanese LLMs -- addresses ethics-related fairness and bias"
+  },
+  {
+    "filename": "2024-Yanaka-JBBQ.md",
+    "decision": "Yes",
+    "benchmark_name": "JBBQ (Japanese Bias Benchmark for Question Answering)",
+    "what_measures": "Social biases in Japanese LLMs (same benchmark as the companion paper)",
+    "how_measures": "QA format adapted from English BBQ benchmark for Japanese contexts; measures accuracy vs bias trade-offs",
+    "dataset_size": "50,856 question pairs",
+    "models_evaluated": "Multiple Japanese LLMs",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public (https://github.com/ynklab/JBBQ_data)",
+    "reasoning": "Duplicate/companion paper for JBBQ -- same benchmark evaluating Japanese social biases in LLMs through culturally adapted QA"
+  },
+  {
+    "filename": "2024-Yang-DistillSeq.md",
+    "decision": "Exclude",
+    "reasoning": "DistillSeq is a framework for cost-effective red-teaming/safety alignment testing using knowledge distillation. It is a testing methodology (attack generation), not a benchmark or evaluation instrument for moral reasoning."
+  },
+  {
+    "filename": "2024-Yang-LLM Voting Human Choices and AI Collective Decision-Making.md",
+    "decision": "Exclude",
+    "reasoning": "Studies LLM voting behavior and biases in collective decision-making scenarios. While it touches on bias, it evaluates political/collective choice alignment rather than moral reasoning or ethical judgment specifically."
+  },
+  {
+    "filename": "2024-Yao-CLAVE ValEval.md",
+    "decision": "Yes",
+    "benchmark_name": "CLAVE / ValEval",
+    "what_measures": "Value alignment of LLM outputs -- identifies values reflected in generated responses across three major value systems",
+    "how_measures": "Dual-model framework: large LLM extracts high-level value concepts from few human labels, smaller fine-tuned LLM aligns with human value understanding; benchmarks 12+ LLM evaluators",
+    "dataset_size": "13,000+ (text, value, label) tuples",
+    "models_evaluated": "12+ popular LLM evaluators",
+    "pluralistic_relevance": "Yes",
+    "availability": "Not stated",
+    "reasoning": "Introduces CLAVE framework and ValEval dataset covering three major value systems for evaluating LLMs' value alignment, enabling calibration with any value system"
+  },
+  {
+    "filename": "2024-Yao-Value FULCRA.md",
+    "decision": "Yes",
+    "benchmark_name": "FULCRA",
+    "what_measures": "Basic human values in LLM outputs using Schwartz's Theory of Basic Values",
+    "how_measures": "Maps LLM behaviors into a value space spanned by basic value dimensions; (LLM output, value vector) pairs enable value evaluation and alignment",
+    "dataset_size": "5,000 (LLM output, value vector) pairs (paper says 5k; dataset info says 20k)",
+    "models_evaluated": "Not specified in abstract",
+    "pluralistic_relevance": "Yes",
+    "availability": "Not stated",
+    "reasoning": "Proposes a basic value alignment paradigm using Schwartz's Theory and creates FULCRA dataset of LLM output-value pairs for evaluating and aligning LLM values"
+  },
+  {
+    "filename": "2024-Ye-Measuring Human and AI Values Based on Generative.md",
+    "decision": "Yes",
+    "benchmark_name": "GPV (Generative Psychometrics for Values)",
+    "what_measures": "Human and AI values using Schwartz's value theory; bridges LLM values to safety predictions",
+    "how_measures": "Parses unstructured LLM outputs into value-laden perceptions (akin to psychometric stimuli), measures value orientations, and aggregates results; context-specific measurement from free-form outputs",
+    "dataset_size": "Not specified (paradigm applied to human blogs and LLM outputs)",
+    "models_evaluated": "Multiple LLMs (not specified individually in abstract)",
+    "pluralistic_relevance": "Yes",
+    "availability": "Not stated",
+    "reasoning": "Introduces a novel psychometric methodology for measuring LLM values from their free-form outputs, revealing predictive power of value systems for LLM safety and comparing measurement paradigms"
+  },
+  {
+    "filename": "2024-Yin-SafeAgentBench.md",
+    "decision": "Yes",
+    "benchmark_name": "SafeAgentBench",
+    "what_measures": "Safety awareness of embodied LLM agents in interactive simulation environments, covering explicit and implicit hazards",
+    "how_measures": "750 tasks across 10 potential hazards and 3 task types; SafeAgentEnv with low-level controller supporting multi-agent execution; evaluation from execution and semantic perspectives",
+    "dataset_size": "750 tasks",
+    "models_evaluated": "9 state-of-the-art baselines (embodied LLM agents)",
+    "pluralistic_relevance": "No",
+    "availability": "Public (https://github.com/shengyin1224/SafeAgentBench; HuggingFace)",
+    "reasoning": "First comprehensive benchmark for safety-aware task planning of embodied LLM agents, covering ethical dimensions of hazard awareness in real-world-like scenarios"
+  },
+  {
+    "filename": "2024-Yu-CMoralEval.md",
+    "decision": "Yes",
+    "benchmark_name": "CMoralEval",
+    "what_measures": "Moral alignment of Chinese LLMs across Chinese-specific moral norms (familial, social, professional, internet, personal morality)",
+    "how_measures": "MCQ benchmark with explicit moral scenarios and moral dilemma scenarios; three options (moral, unmoral, neutral); derived from Chinese TV program and moral anomie collections",
+    "dataset_size": "30,388 data instances (14,964 explicit + 15,424 dilemma scenarios)",
+    "models_evaluated": "26 Chinese LLMs of various sizes",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public (GitHub: tjunlp-lab/CMoralEval)",
+    "reasoning": "Creates a comprehensive Chinese moral evaluation benchmark with culturally specific moral norms, Confucian values, and five fundamental moral principles for evaluating Chinese LLMs"
+  },
+  {
+    "filename": "2024-Yu-CoSafe.md",
+    "decision": "Yes",
+    "benchmark_name": "CoSafe",
+    "what_measures": "LLM safety in multi-turn dialogue coreference -- evaluates whether models can be attacked through coreference-based safety exploits across conversation turns",
+    "how_measures": "1,400 questions across 14 safety categories featuring multi-turn coreference safety attacks; measures attack success rate",
+    "dataset_size": "1,400 questions across 14 categories",
+    "models_evaluated": "5 open-source LLMs (LLaMA2-Chat-7b, Mistral-7B-Instruct, etc.)",
+    "pluralistic_relevance": "No",
+    "availability": "Public (https://github.com/ErxinYu/CoSafe-Dataset)",
+    "reasoning": "Creates a dataset for evaluating LLM safety vulnerabilities in multi-turn dialogue coreference, a novel safety evaluation dimension with ethical implications"
+  },
+  {
+    "filename": "2024-Yuan-R-Judge.md",
+    "decision": "Yes",
+    "benchmark_name": "R-Judge",
+    "what_measures": "Behavioral safety risk awareness of LLM agents in interactive environments across 27 risk scenarios in 5 application categories",
+    "how_measures": "569 records of multi-turn agent interaction with annotated safety labels and risk descriptions; LLMs must judge safety/risk in given interaction records",
+    "dataset_size": "569 records, 27 risk scenarios, 10 risk types",
+    "models_evaluated": "11 LLMs including GPT-4o",
+    "pluralistic_relevance": "No",
+    "availability": "Public (https://github.com/Lordog/R-Judge)",
+    "reasoning": "Benchmark for evaluating LLMs' ability to identify safety risks in agent interaction scenarios, addressing ethical dimensions of behavioral safety beyond content harm"
+  },
+  {
+    "filename": "2024-Yuan-Social Measuring Social Norms of LLMs.md",
+    "decision": "Yes",
+    "benchmark_name": "Social (Social Norms Dataset)",
+    "what_measures": "LLMs' understanding of social norms covering opinions, arguments, culture, and laws",
+    "how_measures": "MCQ format aligned with K-12 curriculum; 402 social norm skills; multi-agent framework to improve social norm understanding",
+    "dataset_size": "12,383 questions covering 402 skills",
+    "models_evaluated": "GPT-3.5-Turbo, LLaMA2-Chat, and others",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public (https://github.com/socialnormdataset/socialagent; HuggingFace)",
+    "reasoning": "Creates a large-scale benchmark for evaluating LLMs' understanding of social norms including cultural and ethical norms, designed to compare AI vs human elementary student social understanding"
+  },
+  {
+    "filename": "2024-Zeng-AIR-Bench 2024.md",
+    "decision": "Yes",
+    "benchmark_name": "AIR-Bench 2024",
+    "what_measures": "AI safety aligned with government regulations and company policies across 314 granular risk categories in a four-tiered taxonomy",
+    "how_measures": "5,694 diverse prompts spanning risk categories from 8 government regulations and 16 company policies; manual curation and human auditing; measures refusal rates",
+    "dataset_size": "5,694 prompts across 314 risk categories",
+    "models_evaluated": "Leading language models (not individually specified in abstract)",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "First AI safety benchmark aligned with real government regulations and company policies, bridging public benchmarks with practical regulatory requirements including ethical risk categories"
+  },
+  {
+    "filename": "2024-Zeng-Quantifying Risk Propensities of Large Language.md",
+    "decision": "Yes",
+    "benchmark_name": "DOSPERT for LLMs / EDRAS (Ethical Decision-Making Risk Attitude Scale)",
+    "what_measures": "LLMs' risk decision-making tendencies with focus on ethical domain; quantifies systematic biases across different demographic groups",
+    "how_measures": "Applies DOSPERT scale from cognitive science to LLMs; proposes novel EDRAS scale; integrates role-playing for bias detection",
+    "dataset_size": "Not specified (based on DOSPERT scale items + novel EDRAS items)",
+    "models_evaluated": "Multiple mainstream LLMs",
+    "pluralistic_relevance": "Partial",
+    "availability": "Not stated",
+    "reasoning": "Adapts cognitive science risk assessment instrument (DOSPERT) to LLMs and proposes a novel Ethical Decision-Making Risk Attitude Scale for evaluating LLMs' ethical risk attitudes and biases"
+  },
+  {
+    "filename": "2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents.md",
+    "decision": "Yes",
+    "benchmark_name": "Agent-SafetyBench",
+    "what_measures": "Safety of LLM agents across 8 categories of safety risks and 10 common failure modes in interactive environments",
+    "how_measures": "349 interaction environments with 2,000 test cases; evaluates agent safety in tool use and interactive scenarios",
+    "dataset_size": "2,000 test cases across 349 environments, 8 safety risk categories",
+    "models_evaluated": "16 popular LLM agents",
+    "pluralistic_relevance": "No",
+    "availability": "Public (https://github.com/thu-coai/Agent-SafetyBench)",
+    "reasoning": "Comprehensive benchmark for evaluating LLM agent safety in interactive environments, revealing that no agent achieves above 60% safety score, with ethical implications for real-world deployment"
+  },
+  {
+    "filename": "2024-Zhang-CHiSafetyBench - A Chinese Hierarchical Safety Benchmark for LLMs.md",
+    "decision": "Yes",
+    "benchmark_name": "CHiSafetyBench",
+    "what_measures": "Chinese LLM safety across 5 risk areas and 31 categories in a hierarchical Chinese safety taxonomy",
+    "how_measures": "MCQ tasks for risk content identification + question-answering tasks for refusal ability; automatic evaluation validated against human evaluation",
+    "dataset_size": "1,861 multiple-choice questions across 31 categories",
+    "models_evaluated": "Mainstream Chinese LLMs (not individually listed in abstract)",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public (https://github.com/UnicomAI/UnicomBenchmark/tree/main/CHiSafetyBench)",
+    "reasoning": "Chinese-specific hierarchical safety benchmark for LLMs, covering culturally relevant risk areas and safety categories in authentic Chinese scenarios"
+  }
+]

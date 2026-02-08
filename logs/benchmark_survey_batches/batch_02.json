@@ -1,0 +1,472 @@
+[
+  {
+    "filename": "2020-Sap-Social Bias Frames.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Sap-Social Bias Frames.md",
+    "has_extract": true,
+    "authors": "Maarten Sap; Saadia Gabriel; Lianhui Qin; Dan Jurafsky; Noah A. Smith; Yejin Choi",
+    "year": "2025",
+    "doi": "10.18653/v1/2020.acl-main.486",
+    "url": "https://www.aclweb.org/anthology/2020.acl-main.486",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Schramowski-The Moral Choice Machine.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Schramowski-The Moral Choice Machine.md",
+    "has_extract": true,
+    "authors": "[[Schramowski, Patrick]]; [[Turan, Cigdem]]; [[Jentzsch, Sophie]]; [[Rothkopf, Constantin]]; [[Kersting, Kristian]]",
+    "year": "2025",
+    "doi": "10.3389/frai.2020.00036",
+    "url": "https://www.frontiersin.org/article/10.3389/frai.2020.00036/full",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Serafimova-Whose Morality Which Rationality.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Serafimova-Whose Morality Which Rationality.md",
+    "has_extract": true,
+    "authors": "Silviya Serafimova",
+    "year": "2025",
+    "doi": "10.1057/s41599-020-00614-8",
+    "url": "https://www.nature.com/articles/s41599-020-00614-8",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Srivastava-A Multi-Dimensional View of Aggression when.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Srivastava-A Multi-Dimensional View of Aggression when.md",
+    "has_extract": true,
+    "authors": "Arjit Srivastava; Avijit Vajpayee; Syed Sarfaraz Akhtar; Naman Jain; Vinay Singh; Manish Shrivastava",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2020.trac-1.3/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Wright-A Deontic Logic for Programming Rightful Machines.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Wright-A Deontic Logic for Programming Rightful Machines.md",
+    "has_extract": true,
+    "authors": "[[Wright, Ava Thomas]]",
+    "year": "2025",
+    "doi": "10.1145/3375627.3375867",
+    "url": "https://dl.acm.org/doi/10.1145/3375627.3375867",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Zampieri-SemEval-2020 Task 12.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Zampieri-SemEval-2020 Task 12.md",
+    "has_extract": true,
+    "authors": "[[Zampieri, Marcos]]; [[Nakov, Preslav]]; [[Rosenthal, Sara]]; [[Atanasova, Pepa]]; [[Karadzhov, Georgi]]; [[Mubarak, Hamdy]]; [[Derczynski, Leon]]; [[Pitenis, Zeses]]; [[Çöltekin, Çağrı]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2020.semeval-1.188/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md",
+    "has_extract": true,
+    "authors": "Dorine van Norren",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2021-Angle-Can AI Lead to Genuine Virtue Confucian.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Angle-Can AI Lead to Genuine Virtue Confucian.md",
+    "has_extract": true,
+    "authors": "[[Angle, Stephen C.]]",
+    "year": "2025",
+    "doi": "10.1007/978-981-16-2309-7_4",
+    "url": "https://link.springer.com/chapter/10.1007/978-981-16-2309-7_4",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2021-Askell-A General Language Assistant as a Laboratory for.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Askell-A General Language Assistant as a Laboratory for.md",
+    "has_extract": true,
+    "authors": "Amanda Askell; Yuntao Bai; Anna Chen; Dawn Drain; Deep Ganguli; Tom Henighan; Andy Jones; Nicholas Joseph; Ben Mann; Nova DasSarma; Nelson Elhage; Zac Hatfield-Dodds; Danny Hernandez; Jackson Kernion; Kamal Ndousse; Catherine Olsson; Dario Amodei; Tom Brown; Jack Clark; Sam McCandlish; Chris Olah; Jared Kaplan",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2112.00861",
+    "url": "http://arxiv.org/abs/2112.00861",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Barikeri-REDDITBIAS.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Barikeri-REDDITBIAS.md",
+    "has_extract": true,
+    "authors": "[[Barikeri, Soumya]]; [[Lauscher, Anne]]; [[Vulić, Ivan]]; [[Glavaš, Goran]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2021.acl-long.151/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Cao-Toward Gender-Inclusive Coreference Resolution.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Cao-Toward Gender-Inclusive Coreference Resolution.md",
+    "has_extract": true,
+    "authors": "Yang Trista Cao; Hal Daumé III",
+    "year": "2025",
+    "doi": "10.1162/coli_a_00415",
+    "url": "https://direct.mit.edu/coli/article/47/3/615/102824/Toward-Gender-Inclusive-Coreference-Resolution-An",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Caselli-HateBERT.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Caselli-HateBERT.md",
+    "has_extract": true,
+    "authors": "Tommaso Caselli; Valerio Basile; Jelena Mitrović; Michael Granitzer",
+    "year": "2025",
+    "doi": "10.18653/v1/2021.woah-1.3",
+    "url": "https://aclanthology.org/2021.woah-1.3/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Cercas Curry-ConvAbuse.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Cercas Curry-ConvAbuse.md",
+    "has_extract": true,
+    "authors": "[[Cercas Curry, Amanda]]; [[Abercrombie, Gavin]]; [[Rieser, Verena]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2021.emnlp-main.587/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Clark-All That's 'Human' Is Not Gold.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Clark-All That's 'Human' Is Not Gold.md",
+    "has_extract": true,
+    "authors": "Elizabeth Clark; Tal August; Sofia Serrano; Nikita Haduong; Suchin Gururangan; Noah A. Smith",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2107.00061",
+    "url": "http://arxiv.org/abs/2107.00061",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Croce-RobustBench.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Croce-RobustBench.md",
+    "has_extract": true,
+    "authors": "Francesco Croce; Maksym Andriushchenko; Vikash Sehwag; Edoardo Debenedetti; Nicolas Flammarion; Mung Chiang; Prateek Mittal; Matthias Hein",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2010.09670",
+    "url": "http://arxiv.org/abs/2010.09670",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Dhamala-BOLD.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Dhamala-BOLD.md",
+    "has_extract": true,
+    "authors": "Jwala Dhamala; Tony Sun; Varun Kumar; Satyapriya Krishna; Yada Pruksachatkun; Kai-Wei Chang; Rahul Gupta",
+    "year": "2025",
+    "doi": "10.1145/3442188.3445924",
+    "url": "http://arxiv.org/abs/2101.11718",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Emelin-Moral Stories.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Emelin-Moral Stories.md",
+    "has_extract": true,
+    "authors": "Denis Emelin; Ronan Le Bras; Jena D. Hwang; Maxwell Forbes; Yejin Choi",
+    "year": "2025",
+    "doi": "10.18653/v1/2021.emnlp-main.54",
+    "url": "https://aclanthology.org/2021.emnlp-main.54/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Hendrycks-Aligning AI with Shared Human Values.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Hendrycks-Aligning AI with Shared Human Values.md",
+    "has_extract": true,
+    "authors": "Dan Hendrycks; Collin Burns; Steven Basart; Andrew Critch; Jerry Li; Dawn Song; Jacob Steinhardt",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2008.02275",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Keren-ParaShoot.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Keren-ParaShoot.md",
+    "has_extract": true,
+    "authors": "Omri Keren; Omer Levy",
+    "year": "2025",
+    "doi": "10.18653/v1/2021.mrqa-1.11",
+    "url": "https://aclanthology.org/2021.mrqa-1.11/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Levy-Collecting a Large-Scale Gender Bias Dataset for.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Levy-Collecting a Large-Scale Gender Bias Dataset for.md",
+    "has_extract": true,
+    "authors": "[[Levy, Shahar]]; [[Lazar, Koren]]; [[Stanovsky, Gabriel]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2021.findings-emnlp.211/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Lourie-Scruples.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Lourie-Scruples.md",
+    "has_extract": true,
+    "authors": "Nicholas Lourie; Ronan Le Bras; Yejin Choi",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2008.09094",
+    "url": "http://arxiv.org/abs/2008.09094",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Munshi-Towards an Automated Islamic Fatwa System.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Munshi-Towards an Automated Islamic Fatwa System.md",
+    "has_extract": true,
+    "authors": "Amr A. Munshi; Wesam H. AlSabban; Abdullah Tarek Farag; Omar Essam Rakha; Ahmad A. Al Sallab; Ibrahim Alotaibi; Majid Majid",
+    "year": "2025",
+    "doi": "10.47760/ijcsmc.2021.v10i04.017",
+    "url": "https://www.ijcsmc.com/docs/papers/April2021/V10I4202119.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Nadeem-StereoSet.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Nadeem-StereoSet.md",
+    "has_extract": true,
+    "authors": "Moin Nadeem; Anna Bethke; Siva Reddy",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2004.09456",
+    "url": "http://arxiv.org/abs/2004.09456",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Nangia-CrowS-Pairs.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Nangia-CrowS-Pairs.md",
+    "has_extract": true,
+    "authors": "Nikita Nangia, Clara Vania, Rasika Bhalerao, Samuel R. Bowman",
+    "year": "2021",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2010.00133",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Prabhumoye-Case Study.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Prabhumoye-Case Study.md",
+    "has_extract": true,
+    "authors": "[[Prabhumoye, Shrimai]]; [[Boldt, Brendon]]; [[Salakhutdinov, Ruslan]]; [[Black, Alan W]]",
+    "year": "2025",
+    "doi": "10.18653/v1/2021.naacl-main.297",
+    "url": "https://aclanthology.org/2021.naacl-main.297/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Röttger-HateCheck.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Röttger-HateCheck.md",
+    "has_extract": true,
+    "authors": "Paul Röttger; Bertie Vidgen; Dong Nguyen; Zeerak Waseem; Helen Margetts; Janet Pierrehumbert",
+    "year": "2025",
+    "doi": "10.18653/v1/2021.acl-long.4",
+    "url": "https://aclanthology.org/2021.acl-long.4/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Stenseke-Artificial Virtuous Agents.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Stenseke-Artificial Virtuous Agents.md",
+    "has_extract": true,
+    "authors": "[[Stenseke, Jakob]]",
+    "year": "2025",
+    "doi": "10.1007/s00146-021-01325-7",
+    "url": "https://link.springer.com/article/10.1007/s00146-021-01325-7",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Sullins-Artificial Phronesis - What It Is and Is Not.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "John P. Sullins",
+    "year": "2025",
+    "doi": "10.1093/oso/9780190081713.003.0015",
+    "url": "https://academic.oup.com/book/41621/chapter-abstract/353452047",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Wang-MedAI at SemEval-2021 Task 5.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Wang-MedAI at SemEval-2021 Task 5.md",
+    "has_extract": true,
+    "authors": "Zhen Wang; Hongjie Fan; Junfei Liu",
+    "year": "2025",
+    "doi": "10.18653/v1/2021.semeval-1.30",
+    "url": "https://aclanthology.org/2021.semeval-1.30/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Wang-SemEval-2021 Task 5 Toxic Spans Detection.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Wang-SemEval-2021 Task 5 Toxic Spans Detection.md",
+    "has_extract": true,
+    "authors": "[[Wang, Zhen]]; [[Fan, Hongjie]]; [[Liu, Junfei]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2021.semeval-1.30/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Weidinger-Ethical and social risks of harm from Language.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Weidinger-Ethical and social risks of harm from Language.md",
+    "has_extract": true,
+    "authors": "Laura Weidinger; John Mellor; Maribeth Rauh; Conor Griffin; Jonathan Uesato; Po-Sen Huang; Myra Cheng; Mia Glaese; Borja Balle; Atoosa Kasirzadeh; Zac Kenton; Sasha Brown; Will Hawkins; Tom Stepleton; Courtney Biles; Abeba Birhane; Julia Haas; Laura Rimell; Lisa Anne Hendricks; William Isaac; Sean Legassick; Geoffrey Irving; Iason Gabriel",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2112.04359",
+    "url": "http://arxiv.org/abs/2112.04359",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Baan-Stop Measuring Calibration When Humans Disagree.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Baan-Stop Measuring Calibration When Humans Disagree.md",
+    "has_extract": true,
+    "authors": "Joris Baan; Wilker Aziz; Barbara Plank; Raquel Fernández",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2210.16133",
+    "url": "http://arxiv.org/abs/2210.16133",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Bago-Situational factors shape moral judgments in the.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Bago-Situational factors shape moral judgments in the.md",
+    "has_extract": true,
+    "authors": "Bence Bago; Marton Kovacs; John Protzko; Zoltan Kekecs; Tamas Nagy; Rink Hoekstra; Manyu Li; Erica D. Musser; Alexios Arvanitis; Macyjane Tinsley Iones; Fatih Bayrak; Marietta Papadatou-Pastou; Anabel Belaus; Daniel Storage; Andrew G. Thomas; Erin Michelle Buchanan; Benjamin Becker; Ernest Baskin; Keith Kendrick; Mirsolav Sirota; Trent M. Lynds; Dustin P Calvillo; Michael Craig Mensink; Iris Zezelj; Jordan Rose Wagge; Jan Philipp Röer; Leigh Ann Vaughn; Cecilia Reyna; Sarah Wood; Matus Adamkovic; Benjamin T. Brown; Jackson G. Lu; Xin Liu; Tripat Gill; Mario Gollwitzer; Zoe Magraw-Mickelson; Carlota Batres; Evgeniya Hristova; Maurice Grinberg; Gabriela Mariana Marcu; Sean P. Mackinnon; Darius-Aurel Frank; Michal Bialek; Leigh Solano Wilton; Michal Parzuchowski; Halil Emre Kocalar; Elif Gizem Demirag Burak; Sara Álvarez Solas; Thomas Rhys Evans; Carmel Levitan; Mariola Paruzel-Czachura; Andrej Findor; Christina Shane-Simpson; Elisa Puvia; Zahir Vally; Miguel A. Vadillo; Rizqy Amelia Zein; Anthony Lantian; Stefan Czoschke; Nathan Carnes; Kim Olivia Peters; Susann Fiedler; Ljiljana B. Lazarevic; Taciano L Milfont; Jared Celniker; Anna Wlodarczyk; William J. Chopik; Ian David Stephen; Jiaxin Shi; Xinyuan Fei; Nicholas Calbraith Owsley; Yansong Li; Gilad Feldman; Barnaby Dixson; Panagiotis Mitkidis; Fanny Lalot; Alberto Mirisola; Xiaoxiao Zheng; Alain Quiamzade; Kevin E. Tiede; Alexandra Fleischmann; Bastiaan T Rutjens; Maja Becker; Danka Purić; Mirjana Tonković; Francesca Dumačić; Samuel Lins; Don Chenhui Zhang; Ulf-Dietrich Reips; Alasdair R Gordon-Finlayson; Elizabeth Ann Harris; Neil McLatchie; Sangsuk Yoon; Elke B Lange; Celine-Justine Matibag; Charlotte A. Hudson; Laura Jane Stevens-Wilson; Lauren Victoria Tunstead; Skye-loren West; Diego A. Reinero; Luisa Batalha; Rockwell F. Clancy; Christopher Michael Castille; Raluca Diana Szekely-Copîndean; Farzan Karimi-Malekabadi; Jerome Olsen; Gwenaël Kaminski; Mathias Twardawski; Christoph Schild; Karolina Aleksandra Ścigała; Pavol Kačmár; Stefan Stieger; Alan Mattiassi; Ennio Bilancini; Jennifer Nicole Lenz; Mehrad Moeini-Jazani; Philip Pärnamets; Anni Sternisko; Danielle Ochoa; Biljana Jokic; Jasper Hidding; Marijke C. Leliveld; Cubillas C. Perez; Onurcan Yilmaz; Anton Kühberger; Niklas K Steffens; Sinan Alper; Sumaya Albalooshi; Luis Eudave; Kyle J. Susa; Kathleen Schmidt; Martin Voracek; Maliki E. Ghossainy; Krystian Barzykowski; Sylwia Adamus; Andree Hartanto; Aurélien Graton; Bastian Jaeger; David Moreau; Erin Sievers; Jin X. Goh; Jordane Boudesseul; Joris Lammers; Julia Paterlini; Katarzyna Rybus; Natalia Szostak; Richard Huskey; Steve M. J. Janssen; Tiago Jessé Souza Lima; Biljana Gjoneska; Christopher R. Chartier; Maximilian Primbs; Robert M Ross; Natalia Bezerra Dutra; Balazs Aczel",
+    "year": "2025",
+    "doi": "10.31234/osf.io/9uaqm",
+    "url": "https://osf.io/9uaqm",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2022-Bai-Constitutional AI.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Bai-Constitutional AI.md",
+    "has_extract": true,
+    "authors": "Yuntao Bai; Saurav Kadavath; Sandipan Kundu; Amanda Askell; Jackson Kernion; Andy Jones; Anna Chen; Anna Goldie; Azalia Mirhoseini; Cameron McKinnon; Carol Chen; Catherine Olsson; Christopher Olah; Danny Hernandez; Dawn Drain; Deep Ganguli; Dustin Li; Eli Tran-Johnson; Ethan Perez; Jamie Kerr; Jared Mueller; Jeffrey Ladish; Joshua Landau; Kamal Ndousse; Kamile Lukosuite; Liane Lovitt; Michael Sellitto; Nelson Elhage; Nicholas Schiefer; Noemi Mercado; Nova DasSarma; Robert Lasenby; Robin Larson; Sam Ringer; Scott Johnston; Shauna Kravec; Sheer El Showk; Stanislav Fort; Tamera Lanham; Timothy Telleen-Lawton; Tom Conerly; Tom Henighan; Tristan Hume; Samuel R. Bowman; Zac Hatfield-Dodds; Ben Mann; Dario Amodei; Nicholas Joseph; Sam McCandlish; Tom Brown; Jared Kaplan",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2212.08073",
+    "url": "http://arxiv.org/abs/2212.08073",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Bai-HH-RLHF Helpful and Harmless RLHF.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Bai-HH-RLHF Helpful and Harmless RLHF.md",
+    "has_extract": true,
+    "authors": "Yuntao Bai et al.",
+    "year": "2022",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2204.05862",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Bai-Training a Helpful and Harmless Assistant with.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Bai-Training a Helpful and Harmless Assistant with.md",
+    "has_extract": true,
+    "authors": "Yuntao Bai; Andy Jones; Kamal Ndousse; Amanda Askell; Anna Chen; Nova DasSarma; Dawn Drain; Stanislav Fort; Deep Ganguli; Tom Henighan; Nicholas Joseph; Saurav Kadavath; Jackson Kernion; Tom Conerly; Sheer El-Showk; Nelson Elhage; Zac Hatfield-Dodds; Danny Hernandez; Tristan Hume; Scott Johnston; Shauna Kravec; Liane Lovitt; Neel Nanda; Catherine Olsson; Dario Amodei; Tom Brown; Jack Clark; Sam McCandlish; Chris Olah; Ben Mann; Jared Kaplan",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2204.05862",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Bang-Enabling Classifiers to Make Judgements.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Bang-Enabling Classifiers to Make Judgements.md",
+    "has_extract": true,
+    "authors": "Yejin Bang; Tiezheng Yu; Andrea Madotto; Zhaojiang Lin; Mona Diab; Pascale Fung",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2210.07652",
+    "url": "http://arxiv.org/abs/2210.07652",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Caron-Identifying and Manipulating the Personality.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Caron-Identifying and Manipulating the Personality.md",
+    "has_extract": true,
+    "authors": "Graham Caron; Shashank Srivastava",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2212.10276",
+    "url": "http://arxiv.org/abs/2212.10276",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Chalkidis-FairLex.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Chalkidis-FairLex.md",
+    "has_extract": true,
+    "authors": "[[Chalkidis, Ilias]]; [[Pasini, Tommaso]]; [[Zhang, Sheng]]; [[Tomada, Letizia]]; [[Schwemer, Sebastian Felix]]; [[Søgaard, Anders]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2022.acl-long.301/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Constantinescu-Can Robotic AI Be Virtuous.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Constantinescu-Can Robotic AI Be Virtuous.md",
+    "has_extract": true,
+    "authors": "[[Constantinescu, Mihaela]]; [[Crisp, Roger]]",
+    "year": "2025",
+    "doi": "10.1007/s12369-022-00887-w",
+    "url": "https://link.springer.com/article/10.1007/s12369-022-00887-w",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Fraser-Does Moral Code Have a Moral Code.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Fraser-Does Moral Code Have a Moral Code.md",
+    "has_extract": true,
+    "authors": "[[Fraser, Kathleen C.]]; [[Kiritchenko, Svetlana]]; [[Balkir, Esma]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2205.12771",
+    "url": "http://arxiv.org/abs/2205.12771",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Ganguli-Red Teaming Language Models to Reduce Harms.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Ganguli-Red Teaming Language Models to Reduce Harms.md",
+    "has_extract": true,
+    "authors": "Deep Ganguli; Liane Lovitt; Jackson Kernion; Amanda Askell; Yuntao Bai; Saurav Kadavath; Ben Mann; Ethan Perez; Nicholas Schiefer; Kamal Ndousse; Andy Jones; Sam Bowman; Anna Chen; Tom Conerly; Nova DasSarma; Dawn Drain; Nelson Elhage; Sheer El-Showk; Stanislav Fort; Zac Hatfield-Dodds; Tom Henighan; Danny Hernandez; Tristan Hume; Josh Jacobson; Scott Johnston; Shauna Kravec; Catherine Olsson; Sam Ringer; Eli Tran-Johnson; Dario Amodei; Tom Brown; Nicholas Joseph; Sam McCandlish; Chris Olah; Jared Kaplan; Jack Clark",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2209.07858",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Gwagwa-The role of the African value of Ubuntu in global.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.md",
+    "has_extract": true,
+    "authors": "Arthur Gwagwa; Emre Kazim; Airlie Hilliard",
+    "year": "2025",
+    "doi": "10.1016/j.patter.2022.100462",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666389922000423",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2022-Hagendorff-Virtue-Based Framework for AI Ethics.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Hagendorff-Virtue-Based Framework for AI Ethics.md",
+    "has_extract": true,
+    "authors": "[[Hagendorff, Thilo]]",
+    "year": "2025",
+    "doi": "10.1007/s13347-022-00553-z",
+    "url": "https://link.springer.com/article/10.1007/s13347-022-00553-z",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Hartvigsen-ToxiGen.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Hartvigsen-ToxiGen.md",
+    "has_extract": true,
+    "authors": "Thomas Hartvigsen; Saadia Gabriel; Hamid Palangi; Maarten Sap; Dipankar Ray; Ece Kamar",
+    "year": "2025",
+    "doi": "10.18653/v1/2022.acl-long.234",
+    "url": "https://aclanthology.org/2022.acl-long.234/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Hendrycks-What Would Jiminy Cricket Do.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Hendrycks-What Would Jiminy Cricket Do.md",
+    "has_extract": true,
+    "authors": "Dan Hendrycks; Mantas Mazeika; Andy Zou; Sahil Patel; Christine Zhu; Jesus Navarro; Dawn Song; Bo Li; Jacob Steinhardt",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2110.13136",
+    "url": "http://arxiv.org/abs/2110.13136",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Hendrycks-X-Risk Analysis for AI Research.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Hendrycks-X-Risk Analysis for AI Research.md",
+    "has_extract": true,
+    "authors": "Dan Hendrycks; Mantas Mazeika",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2206.05862",
+    "body_richness": "thin"
+  }
+]

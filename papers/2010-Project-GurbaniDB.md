@@ -12,7 +12,7 @@ authors: "Project; The Sikher"
 url: "https://sikher.com/projects/gurbanidb/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ZNGV87C6/Project - GurbaniDB.pdf"
 pdf_extract: [[2010-Project-GurbaniDB]]
-local_pdf: [[2010-Project-GurbaniDB.pdf]]
+local_pdf: "[[PDFs/2010/2010-Project-GurbaniDB.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A

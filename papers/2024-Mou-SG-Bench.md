@@ -12,7 +12,7 @@ authors: "Yutao Mou; Shikun Zhang; Wei Ye"
 url: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/de7b99107c53e60257c727dc73daf1d1-Abstract-Datasets_and_Benchmarks_Track.html"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/UWKHZUCT/2024 - SG-Bench Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types.pdf"
 pdf_extract: [[2024-Mou-SG-Bench]]
-local_pdf: [[2024-Mou-SG-Bench.pdf]]
+local_pdf: "[[PDFs/2024/2024-Mou-SG-Bench.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A

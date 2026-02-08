@@ -1,0 +1,462 @@
+[
+  {
+    "filename": "2023-Liu-AlignBench.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Liu-AlignBench.md",
+    "has_extract": true,
+    "authors": "Xiao Liu; Xuanyu Lei; Shengyuan Wang; Yue Huang; Zhuoer Feng; Bosi Wen; Jiale Cheng; Pei Ke; Yifan Xu; Weng Lam Tam; Xiaohan Zhang; Lichao Sun; Xiaotao Gu; Hongning Wang; Jing Zhang; Minlie Huang; Yuxiao Dong; Jie Tang",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2311.18743",
+    "url": "http://arxiv.org/abs/2311.18743",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Lu-The Chai Platform's AI Safety Framework.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Lu-The Chai Platform's AI Safety Framework.md",
+    "has_extract": true,
+    "authors": "Xiaoding Lu; Aleksey Korshuk; Zongyi Liu; William Beauchamp",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2306.02979",
+    "url": "http://arxiv.org/abs/2306.02979",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Maile-The choice of deontological, virtue ethical, and.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Maile-The choice of deontological, virtue ethical, and.md",
+    "has_extract": true,
+    "authors": "[[Maile, Andrew]]; [[Thompson, Aidan]]; [[McLoughlin, Shane]]; [[Kristjánsson, Kristján]]",
+    "year": "2025",
+    "doi": "10.1080/10508422.2022.2124995",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/10508422.2022.2124995",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2023-McDonald-AI alignment and the categorical imperative.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-McDonald-AI alignment and the categorical imperative.md",
+    "has_extract": true,
+    "authors": "[[McDonald, Fritz J.]]",
+    "year": "2025",
+    "doi": "10.1007/s43681-022-00160-w",
+    "url": "https://doi.org/10.1007/s43681-022-00160-w",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Miah-Islam QA.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Miah-Islam QA.md",
+    "has_extract": true,
+    "authors": "M. Miah",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.kaggle.com/datasets/mamun18/islam-qa-dataset",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2023-Morris-Levels of AGI.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Morris-Levels of AGI.md",
+    "has_extract": true,
+    "authors": "Meredith Ringel Morris; Jascha Sohl-Dickstein; Noah Fiedel; Tris Warkentin; Allan Dafoe; Aleksandra Faust; Clement Farabet; Shane Legg",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2311.02462",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Moss-Bias on Demand.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Moss-Bias on Demand.md",
+    "has_extract": true,
+    "authors": "Nathan Moss",
+    "year": "2025",
+    "doi": "10.1145/3593013.3594098",
+    "url": "https://dl.acm.org/doi/10.1145/3593013.3594098",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2023-Mougan-Kantian Deontology Meets AI Alignment.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Mougan-Kantian Deontology Meets AI Alignment.md",
+    "has_extract": true,
+    "authors": "[[Mougan, Carlos]]; [[Brand, Joshua]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2311.05227",
+    "url": "https://arxiv.org/abs/2311.05227",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Muhammad-AfriSenti.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Muhammad-AfriSenti.md",
+    "has_extract": true,
+    "authors": "Shamsuddeen Muhammad; Idris Abdulmumin; Abinew Ayele; Nedjma Ousidhoum; David Adelani; Seid Yimam; Ibrahim Ahmad; Meriem Beloucif; Saif Mohammad; Sebastian Ruder; Oumaima Hourrane; Alipio Jorge; Pavel Brazdil; Felermino Ali; Davis David; Salomey Osei; Bello Shehu-Bello; Falalu Lawan; Tajuddeen Gwadabe; Samuel Rutunda; Tadesse Belay; Wendimu Messelle; Hailu Balcha; Sisay Chala; Hagos Gebremichael; Bernard Opoku; Stephen Arthur",
+    "year": "2025",
+    "doi": "10.18653/v1/2023.emnlp-main.862",
+    "url": "https://aclanthology.org/2023.emnlp-main.862/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Muhammad-SemEval-2023 Task 12.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Muhammad-SemEval-2023 Task 12.md",
+    "has_extract": true,
+    "authors": "Shamsuddeen Hassan Muhammad; Idris Abdulmumin; Seid Muhie Yimam; David Ifeoluwa Adelani; Ibrahim Sa'id Ahmad; Nedjma Ousidhoum; Abinew Ayele; Saif M. Mohammad; Meriem Beloucif; Sebastian Ruder",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2304.06845",
+    "url": "http://arxiv.org/abs/2304.06845",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Nie-MoCa.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Nie-MoCa.md",
+    "has_extract": true,
+    "authors": "Allen Nie; Yuhui Zhang; Atharva Amdekar; Chris Piech; Tatsunori Hashimoto; Tobias Gerstenberg",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2310.19677",
+    "url": "http://arxiv.org/abs/2310.19677",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Ojo-AfroBench - How Good are LLMs on African Languages.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Ojo-AfroBench - How Good are LLMs on African Languages.md",
+    "has_extract": true,
+    "authors": "Ojo, J. et al",
+    "year": "2023",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2311.07978",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Oliveira-Culturally-Attuned Moral Machines.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Oliveira-Culturally-Attuned Moral Machines.md",
+    "has_extract": true,
+    "authors": "Nigini Oliveira; Jasmine Li; Koosha Khalvati; Rodolfo Cortes Barragan; Katharina Reinecke; Andrew N. Meltzoff; Rajesh P. N. Rao",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2312.17479",
+    "url": "http://arxiv.org/abs/2312.17479",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Pan-Do the Rewards Justify the Means Measuring.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Pan-Do the Rewards Justify the Means Measuring.md",
+    "has_extract": true,
+    "authors": "[[Pan, Alexander]]; [[Chan, Jun Shern]]; [[Zou, Andy]]; [[Li, Nathaniel]]; [[Basart, Steven]]; [[Woodside, Thomas]]; [[Ng, Jonathan]]; [[Zhang, Hanlin]]; [[Emmons, Scott]]; [[Hendrycks, Dan]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2304.03279",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Park-AI Deception.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Park-AI Deception.md",
+    "has_extract": true,
+    "authors": "Peter S. Park; Simon Goldstein; Aidan O'Gara; Michael Chen; Dan Hendrycks",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2308.14752",
+    "url": "http://arxiv.org/abs/2308.14752",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Qian-Understanding Chinese Moral Stories with Further.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Qian-Understanding Chinese Moral Stories with Further.md",
+    "has_extract": true,
+    "authors": "Jing Qian",
+    "year": "2025",
+    "doi": "10.5121/ijnlc.2023.12201",
+    "url": "https://doi.org/10.5121/ijnlc.2023.12201",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Qiu-Large AI Models in Health Informatics.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Qiu-Large AI Models in Health Informatics.md",
+    "has_extract": true,
+    "authors": "Jianing Qiu; Lin Li; Jiankai Sun; Jiachuan Peng; Peilun Shi; Ruiyang Zhang; Yinzhao Dong; Kyle Lam; Frank P. -W. Lo; Bo Xiao; Wu Yuan; Ningli Wang; Dong Xu; Benny Lo",
+    "year": "2025",
+    "doi": "10.1109/JBHI.2023.3316750",
+    "url": "http://arxiv.org/abs/2303.11568",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Rao-Ethical Reasoning over Moral Alignment.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Rao-Ethical Reasoning over Moral Alignment.md",
+    "has_extract": true,
+    "authors": "[[Rao, Abhinav]]; [[Khandelwal, Aditi]]; [[Tanmay, Kumar]]; [[Agarwal, Utkarsh]]; [[Choudhury, Monojit]]",
+    "year": "2025",
+    "doi": "10.18653/v1/2023.findings-emnlp.892",
+    "url": "https://aclanthology.org/2023.findings-emnlp.892/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Rao-What Makes it Ok to Set a Fire Iterative.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Rao-What Makes it Ok to Set a Fire Iterative.md",
+    "has_extract": true,
+    "authors": "[[Rao, Kavel]]; [[Jiang, Liwei]]; [[Pyatkin, Valentina]]; [[Gu, Yuling]]; [[Tandon, Niket]]; [[Dziri, Nouha]]; [[Brahman, Faeze]]; [[Choi, Yejin]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2023.findings-emnlp.812/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Ray-Benchmarking, ethical alignment, and evaluation.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.md",
+    "has_extract": true,
+    "authors": "Partha Pratim Ray",
+    "year": "2025",
+    "doi": "10.1016/j.tbench.2023.100136",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S2772485923000534",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2023-Rizqullah-QASiNa.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Rizqullah-QASiNa.md",
+    "has_extract": true,
+    "authors": "Muhammad Razif Rizqullah; Ayu Purwarianti; Alham Fikri Aji",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2310.08102",
+    "url": "http://arxiv.org/abs/2310.08102",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Roger-Towards ethical multimodal systems.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Roger-Towards ethical multimodal systems.md",
+    "has_extract": true,
+    "authors": "Alexis Roger; Esma Aïmeur; Irina Rish",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2304.13765",
+    "url": "http://arxiv.org/abs/2304.13765",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Rystrøm-Apolitical Intelligence.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Rystrøm-Apolitical Intelligence.md",
+    "has_extract": true,
+    "authors": "Jonathan H. Rystrøm",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2306.13000",
+    "url": "http://arxiv.org/abs/2306.13000",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Rytting-Towards Coding Social Science Datasets with.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Rytting-Towards Coding Social Science Datasets with.md",
+    "has_extract": true,
+    "authors": "Christopher Michael Rytting; Taylor Sorensen; Lisa Argyle; Ethan Busby; Nancy Fulda; Joshua Gubler; David Wingate",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2306.02177",
+    "url": "http://arxiv.org/abs/2306.02177",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Santurkar-OpinionQA.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Santurkar-OpinionQA.md",
+    "has_extract": true,
+    "authors": "Shibani Santurkar et al.",
+    "year": "2023",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2303.17548",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Santurkar-Whose Opinions Do Language Models Reflect.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Santurkar-Whose Opinions Do Language Models Reflect.md",
+    "has_extract": true,
+    "authors": "Shibani Santurkar; Esin Durmus; Faisal Ladhak; Cinoo Lee; Percy Liang; Tatsunori Hashimoto",
+    "year": "2025",
+    "doi": "",
+    "url": "http://arxiv.org/abs/2303.17548",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.md",
+    "has_extract": true,
+    "authors": "Nino Scherrer; Claudia Shi; Amir Feder; David M. Blei",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2307.14324",
+    "url": "http://arxiv.org/abs/2307.14324",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Schulhoff-HackAPrompt.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Schulhoff-HackAPrompt.md",
+    "has_extract": true,
+    "authors": "[[Schulhoff, Sander]]; [[Pinto, Jeremy]]; [[Khan, Anaum]]; [[Bouchard, Louis-François]]; [[Si, Chenglei]]; [[Anati, Svetlina]]; [[Tagliabue, Valen]]; [[Kost, Anson]]; [[Carnahan, Christopher]]; [[Boyd-Graber, Jordan]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2023.emnlp-main.302/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Shao-Character-LLM A Trainable Agent for Role-Playing.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Shao-Character-LLM A Trainable Agent for Role-Playing.md",
+    "has_extract": true,
+    "authors": "[[Shao, Yunfan]]; [[Li, Linyang]]; [[Dai, Junqi]]; [[Qiu, Xipeng]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2023.emnlp-main.814/",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2023-Shen-Large Language Model Alignment.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Shen-Large Language Model Alignment.md",
+    "has_extract": true,
+    "authors": "Tianhao Shen; Renren Jin; Yufei Huang; Chuang Liu; Weilong Dong; Zishan Guo; Xinwei Wu; Yan Liu; Deyi Xiong",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2309.15025",
+    "url": "http://arxiv.org/abs/2309.15025",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Shen-“Do Anything Now”.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Shen-“Do Anything Now”.md",
+    "has_extract": true,
+    "authors": "Xinyue Shen; Zeyuan Chen; Michael Backes; Yun Shen; Yang Zhang",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2308.03825",
+    "url": "https://jailbreak-llms.xinyueshen.me/",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2023-Standards-NIST AI Risk Management Framework.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Standards-NIST AI Risk Management Framework.md",
+    "has_extract": true,
+    "authors": "National Institute of Standards and Technology (NIST)",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2023-Stenseke-Use and Abuse Normative Ethics Moral Machines.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Jakob Stenseke",
+    "year": "2025",
+    "doi": "10.3233/FAIA220614",
+    "url": "https://ebooks.iospress.nl/doi/10.3233/FAIA220614",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Takeshita-Towards Theory-based Moral AI.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Takeshita-Towards Theory-based Moral AI.md",
+    "has_extract": true,
+    "authors": "Masashi Takeshita; Rafal Rzepka; Kenji Araki",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Tan-How to Catch an AI Liar.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Tan-How to Catch an AI Liar.md",
+    "has_extract": true,
+    "authors": "Lorenzo Pacchiardi; Alex J. Chan; Sören Mindermann; Ilan Moscovitz; Alexa Y. Pan; Yarin Gal; Owain Evans; Jan Brauner",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2309.15840",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Tanmay-Probing Moral Development through Defining Issues Test DIT.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Tanmay-Probing Moral Development through Defining Issues Test DIT.md",
+    "has_extract": true,
+    "authors": "Kumar Tanmay, Aditi Khandelwal, Utkarsh Agarwal, Monojit Choudhury",
+    "year": "2023",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2309.13356",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-TheDevastator-HelpSteer A-i Alignment Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.md",
+    "has_extract": true,
+    "authors": "TheDevastator",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.kaggle.com/datasets/thedevastator/helpsteer-ai-alignment-dataset",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2023-TheDevastator-OpenAssistant Conversations (OASST1).md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-TheDevastator-OpenAssistant Conversations (OASST1).md",
+    "has_extract": true,
+    "authors": "TheDevastator",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.kaggle.com/datasets/thedevastator/multilingual-conversation-dataset",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2023-Vida-Values, Ethics, Morals.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Vida-Values, Ethics, Morals.md",
+    "has_extract": true,
+    "authors": "Karina Vida; Judith Simon; Anne Lauscher",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2310.13915",
+    "url": "http://arxiv.org/abs/2310.13915",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Wang-DecodingTrust.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Wang-DecodingTrust.md",
+    "has_extract": true,
+    "authors": "Boxin Wang; Weixin Chen; Hengzhi Pei; Chulin Xie; Mintong Kang; Chenhui Zhang; Chejian Xu; Zidi Xiong; Ritik Dutta; Rylan Schaeffer; Sang T. Truong; Simran Arora; Mantas Mazeika; Dan Hendrycks; Zinan Lin; Yu Cheng; Sanmi Koyejo; Dawn Song; Bo Li",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2306.11698",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Wang-STREAM.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Wang-STREAM.md",
+    "has_extract": true,
+    "authors": "Yuwei Wang; Enmeng Lu; Zizhe Ruan; Yao Liang; Yi Zeng",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2310.05563",
+    "url": "http://arxiv.org/abs/2310.05563",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2023-Xu-CValues - Measuring the Values of Chinese LLMs from Safety to.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Xu-CValues - Measuring the Values of Chinese LLMs from Safety to.md",
+    "has_extract": true,
+    "authors": "Xu et al.",
+    "year": "2023",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2307.09705",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Xu-CValues.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Xu-CValues.md",
+    "has_extract": true,
+    "authors": "Guohai Xu; Jiayi Liu; Ming Yan; Haotian Xu; Jinghui Si; Zhuoran Zhou; Peng Yi; Xing Gao; Jitao Sang; Rong Zhang; Ji Zhang; Chao Peng; Fei Huang; Jingren Zhou",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2307.09705",
+    "url": "http://arxiv.org/abs/2307.09705",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Xu-SC-Safety.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Xu-SC-Safety.md",
+    "has_extract": true,
+    "authors": "Liang Xu; Kangkang Zhao; Lei Zhu; Hang Xue",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2310.05818",
+    "url": "http://arxiv.org/abs/2310.05818",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Yao-From Instructions to Intrinsic Human Values -- A.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Yao-From Instructions to Intrinsic Human Values -- A.md",
+    "has_extract": true,
+    "authors": "Jing Yao; Xiaoyuan Yi; Xiting Wang; Jindong Wang; Xing Xie",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2308.12014",
+    "url": "http://arxiv.org/abs/2308.12014",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Yao-Value FULCRA.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Yao-Value FULCRA.md",
+    "has_extract": true,
+    "authors": "Jing Yao; Xiaoyuan Yi; Xiting Wang; Yifan Gong; Xing Xie",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2311.10766",
+    "url": "http://arxiv.org/abs/2311.10766",
+    "body_richness": "thin"
+  }
+]

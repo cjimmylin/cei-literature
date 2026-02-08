@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 """
-Comprehensive PDF Finder — 13-Strategy Waterfall for Missing Papers
+Comprehensive PDF Finder — 15-Strategy Waterfall for Missing Papers
 
 Finds and downloads PDFs for the 52+ non-arXiv papers from the exhaustive
 search import (DATE_ADDED=20260207) that lack local PDFs.
 
 Strategies (cascading waterfall):
-  Tier 1: Direct download, Unpaywall, ACL Anthology, OpenReview, Semantic Scholar
-  Tier 2: arXiv title search, OpenAlex, CrossRef, DBLP
-  Tier 3: DOI publisher scrape, CORE, PhilArchive, Manual URL generation
+  Tier 1: Direct download, Unpaywall, EuropePMC, ACL Anthology, OpenReview,
+          Semantic Scholar
+  Tier 2: arXiv title search, OpenAlex (incl. preprint locations), CrossRef,
+          DBLP, NeurIPS direct URL
+  Tier 3: DOI publisher scrape (incl. MDPI d_attachment), CORE, PhilArchive,
+          Manual URL generation
 
 Usage:
     python3 PYTHON/comprehensive_pdf_finder.py 1 53             # Full run
@@ -56,6 +59,7 @@ HEADERS = {
 # Rate limits (seconds between requests per source)
 RATE_LIMITS = {
     "unpaywall": 1.0,
+    "europepmc": 1.0,
     "acl": 1.0,
     "openreview": 1.0,
     "semantic_scholar": 4.0,
@@ -72,16 +76,19 @@ RATE_LIMITS = {
 # Strategy ordering per category
 STRATEGY_ORDER = {
     "A": [  # Has DOI
-        "direct_download", "unpaywall", "semantic_scholar", "crossref",
-        "arxiv_title", "openalex", "doi_scrape", "manual_urls"
+        "direct_download", "unpaywall", "europepmc",
+        "semantic_scholar", "crossref", "arxiv_title",
+        "openalex", "doi_scrape", "manual_urls"
     ],
     "B": [  # Known conference, no DOI
-        "direct_download", "acl_anthology", "openreview", "arxiv_title",
-        "semantic_scholar", "dblp", "openalex", "manual_urls"
+        "direct_download", "acl_anthology", "openreview",
+        "neurips_direct", "arxiv_title", "semantic_scholar",
+        "dblp", "openalex", "europepmc", "manual_urls"
     ],
     "C": [  # Minimal metadata
-        "direct_download", "arxiv_title", "semantic_scholar", "openalex",
-        "core", "philarchive", "dblp", "manual_urls"
+        "direct_download", "arxiv_title", "semantic_scholar",
+        "openalex", "europepmc", "core", "philarchive",
+        "dblp", "manual_urls"
     ],
 }
 
@@ -382,7 +389,7 @@ def safe_update_local_pdf(paper_path: Path, pdf_filename: str):
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# 13 Acquisition Strategies
+# 15 Acquisition Strategies
 # ═══════════════════════════════════════════════════════════════════════════════
 
 
@@ -409,6 +416,40 @@ def strategy_unpaywall(meta: dict) -> Optional[str]:
             pdf_url = loc.get("url_for_pdf") or loc.get("pdf_url")
             if pdf_url:
                 return pdf_url
+    return None
+
+
+def strategy_europepmc(meta: dict) -> Optional[str]:
+    """Strategy: EuropePMC — broader OA coverage via PMC-deposited papers.
+
+    Queries EuropePMC REST API by DOI, checks for OA PDF URLs, and falls back
+    to PMCID-based ptpmcrender endpoint for PMC-deposited papers (covers
+    PNAS, Wiley, Nature, etc. that deposit to PMC after embargo).
+    """
+    doi = meta["doi"]
+    if not doi:
+        return None
+
+    encoded = urllib.parse.quote(doi, safe="")
+    url = (
+        f"https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+        f"?query=DOI:{encoded}&format=json&resultType=core"
+    )
+    data = api_get(url, "europepmc")
+    if not data:
+        return None
+
+    results = data.get("resultList", {}).get("result", [])
+    for r in results:
+        # Check fullTextUrlList for direct OA PDF
+        ft_urls = r.get("fullTextUrlList", {}).get("fullTextUrl", [])
+        for ft in ft_urls:
+            if ft.get("documentStyle") == "pdf" and ft.get("availability") == "Open access":
+                return ft.get("url")
+        # Fallback: use PMCID to construct ptpmcrender URL
+        pmcid = r.get("pmcid")
+        if pmcid:
+            return f"https://europepmc.org/backend/ptpmcrender.fcgi?accid={pmcid}&blobtype=pdf"
     return None
 
 
@@ -486,6 +527,31 @@ def strategy_openreview(meta: dict) -> Optional[str]:
     return None
 
 
+def strategy_neurips_direct(meta: dict) -> Optional[str]:
+    """Strategy: NeurIPS direct URL pattern — convert proceedings page to PDF.
+
+    NeurIPS proceedings pages use predictable URL patterns:
+      .../hash-Abstract-Conference.html  → .../hash-Paper-Conference.pdf
+      .../hash-Abstract-Datasets_and_Benchmarks.html → .../hash-Paper-...pdf
+    No API call needed — pure URL manipulation.
+    """
+    url = meta.get("url", "")
+    if not url or "neurips.cc" not in url:
+        return None
+
+    # Handle all NeurIPS abstract page patterns
+    # Pattern: -Abstract-{track}.html → -Paper-{track}.pdf
+    pdf_url = re.sub(
+        r"-Abstract(-[^.]+)?\.html$",
+        lambda m: f"-Paper{m.group(1) or ''}.pdf",
+        url,
+    )
+    if pdf_url != url:
+        return pdf_url
+
+    return None
+
+
 def strategy_semantic_scholar(meta: dict) -> Optional[str]:
     """Strategy 5: Semantic Scholar open access PDF search."""
     title = meta["title"]
@@ -554,7 +620,12 @@ def strategy_arxiv_title(meta: dict) -> Optional[str]:
 
 
 def strategy_openalex(meta: dict) -> Optional[str]:
-    """Strategy 7: OpenAlex works search."""
+    """Strategy 7: OpenAlex works search (incl. alternate OA locations).
+
+    Enhanced to check ALL locations (not just primary_location), which catches
+    preprints on Research Square, SSRN, bioRxiv, institutional repositories, etc.
+    Also does a follow-up OA-only search if the matched work is not itself OA.
+    """
     title = meta["title"]
     if not title:
         return None
@@ -563,7 +634,7 @@ def strategy_openalex(meta: dict) -> Optional[str]:
     url = (
         f"https://api.openalex.org/works"
         f"?filter=title.search:{urllib.parse.quote(search_title)}"
-        f"&select=id,title,open_access,primary_location"
+        f"&select=id,title,open_access,primary_location,locations"
         f"&per_page=3"
     )
     data = api_get(url, "openalex")
@@ -572,21 +643,53 @@ def strategy_openalex(meta: dict) -> Optional[str]:
 
     for work in data["results"][:3]:
         work_title = work.get("title", "")
-        if titles_match(title, work_title):
-            oa = work.get("open_access", {})
-            oa_url = oa.get("oa_url")
-            if oa_url:
-                # OpenAlex oa_url may be a landing page; check for PDF patterns
-                if oa_url.endswith(".pdf"):
-                    return oa_url
-                # Try primary_location
-                loc = work.get("primary_location", {})
-                if loc:
-                    pdf_url = loc.get("pdf_url")
-                    if pdf_url:
-                        return pdf_url
-                # Return oa_url as last resort (might redirect to PDF)
-                return oa_url
+        if not titles_match(title, work_title):
+            continue
+
+        # Check primary OA URL first
+        oa = work.get("open_access", {})
+        oa_url = oa.get("oa_url")
+        if oa_url and oa_url.endswith(".pdf"):
+            return oa_url
+
+        # Check primary_location
+        loc = work.get("primary_location") or {}
+        pdf_url = loc.get("pdf_url")
+        if pdf_url:
+            return pdf_url
+
+        # Check ALL locations for alternate OA versions (preprints, repos)
+        for location in work.get("locations", []):
+            if location.get("is_oa"):
+                loc_pdf = location.get("pdf_url")
+                if loc_pdf:
+                    return loc_pdf
+
+        # Return oa_url as last resort (might redirect to PDF)
+        if oa_url:
+            return oa_url
+
+        # If matched work is not OA, try a follow-up OA-filtered search
+        if not oa.get("is_oa"):
+            oa_url2 = (
+                f"https://api.openalex.org/works"
+                f"?filter=title.search:{urllib.parse.quote(search_title)},is_oa:true"
+                f"&select=id,title,open_access,primary_location,locations"
+                f"&per_page=3"
+            )
+            data2 = api_get(oa_url2, "openalex")
+            if data2 and data2.get("results"):
+                for w2 in data2["results"][:3]:
+                    if titles_match(title, w2.get("title", "")):
+                        oa2 = w2.get("open_access", {})
+                        if oa2.get("oa_url"):
+                            loc2 = w2.get("primary_location") or {}
+                            if loc2.get("pdf_url"):
+                                return loc2["pdf_url"]
+                            for loc2alt in w2.get("locations", []):
+                                if loc2alt.get("is_oa") and loc2alt.get("pdf_url"):
+                                    return loc2alt["pdf_url"]
+                            return oa2["oa_url"]
 
     return None
 
@@ -683,8 +786,19 @@ def strategy_doi_scrape(meta: dict) -> Optional[str]:
             if m:
                 return "https://royalsocietypublishing.org" + m.group(1)
 
-        # MDPI pattern
+        # MDPI pattern (enhanced with d_attachment)
         if "mdpi.com" in final_url:
+            # Check for d_attachment / mdpi-res.com links (most reliable)
+            m_att = re.search(r'href="(https?://mdpi-res\.com/d_attachment/[^"]+)"', html)
+            if m_att:
+                return m_att.group(1)
+            m_att2 = re.search(r'href="([^"]*d_attachment[^"]*\.pdf[^"]*)"', html)
+            if m_att2:
+                link = m_att2.group(1)
+                if link.startswith("http"):
+                    return link
+                return "https://mdpi-res.com" + link
+            # Standard MDPI PDF path
             m = re.search(r'href="(/\d+/\d+/\d+/pdf)"', html)
             if m:
                 return "https://www.mdpi.com" + m.group(1)
@@ -837,8 +951,10 @@ def generate_manual_search_urls(meta: dict) -> List[dict]:
 STRATEGIES = {
     "direct_download": strategy_direct_download,
     "unpaywall": strategy_unpaywall,
+    "europepmc": strategy_europepmc,
     "acl_anthology": strategy_acl_anthology,
     "openreview": strategy_openreview,
+    "neurips_direct": strategy_neurips_direct,
     "semantic_scholar": strategy_semantic_scholar,
     "arxiv_title": strategy_arxiv_title,
     "openalex": strategy_openalex,

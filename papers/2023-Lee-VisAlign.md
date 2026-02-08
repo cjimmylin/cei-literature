@@ -11,7 +11,7 @@ first_author: "[[Jiyoung Lee]]"
 authors: "Jiyoung Lee; Seungho Kim; Seunghyun Won; Joonseok Lee; Marzyeh Ghassemi; James Thorne; Jaeseok Choi; O-Kil Kwon; Edward Choi"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/T6VNUFSA/Lee et al. - VisAlign Dataset for Measuring the Alignment between AI and Humans in Visual Perception.pdf"
 pdf_extract: [[2023-Lee-VisAlign]]
-local_pdf: [[2023-Lee-VisAlign.pdf]]
+local_pdf: "[[PDFs/2023/2023-Lee-VisAlign.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A

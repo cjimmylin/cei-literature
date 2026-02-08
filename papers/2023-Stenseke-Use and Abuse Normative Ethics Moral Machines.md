@@ -23,7 +23,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Stenseke-Use and Abuse Normative Ethics Moral Machines.md"
 abstract: "The paper asks how we develop AI systems that adhere to human norms and values, and whether it's promising to develop systems based on normative frameworks such as consequentialism, deontology, or virtue ethics. While many machine ethics researchers answer yes, the author challenges this methodological strategy by exploring the difference between normative ethics in human practices versus machines...."
 paper_summary: 
-local_pdf: "[[PDFs/2023/2023-Stenseke-Use and Abuse Normative Ethics Moral Machines.pdf]]"
+local_pdf: N/A
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

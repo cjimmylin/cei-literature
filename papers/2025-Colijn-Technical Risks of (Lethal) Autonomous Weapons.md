@@ -11,7 +11,7 @@ first_author: "[[Whitepaper Alycia Colijn]]"
 authors: "Whitepaper Alycia Colijn; Heramb Podar"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/RWCWHF43/Colijn and Podar - Technical Risks of (Lethal) Autonomous Weapons Systems.pdf"
 pdf_extract: "[[2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons]]"
-local_pdf: "[[2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: "Value Pluralism / Schwartz"

@@ -1,0 +1,462 @@
+[
+  {
+    "filename": "2025-Dubey-AMULED - Addressing Moral Uncertainty with LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Dubey-AMULED - Addressing Moral Uncertainty with LLMs.md",
+    "has_extract": true,
+    "authors": "Rohit K. Dubey; Damian Dailisan; Sachit Mahajan",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2503.05724",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Dubey-Addressing Moral Uncertainty using Large Language.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Dubey-Addressing Moral Uncertainty using Large Language.md",
+    "has_extract": true,
+    "authors": "[[Dubey, Rohit K.]]; [[Dailisan, Damian]]; [[Mahajan, Sachit]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2503.05724",
+    "url": "http://arxiv.org/abs/2503.05724",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Dwivedi-EtiCor++ Towards Understanding Etiquettical Bias in LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Dwivedi-EtiCor++ Towards Understanding Etiquettical Bias in LLMs.md",
+    "has_extract": true,
+    "authors": "Ashutosh Dwivedi; Siddhant Shivdutt Singh; Ashutosh Modi",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2506.08488",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.md",
+    "has_extract": true,
+    "authors": "Memi Ebara et al.",
+    "year": "2025",
+    "doi": "10.3233/SHTI250854",
+    "url": "https://doi.org/10.3233/SHTI250854",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-El Masri-Towards Attuned AI.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-El Masri-Towards Attuned AI.md",
+    "has_extract": true,
+    "authors": "[[El Masri, Rayane]]; [[Snoswell, Aaron J.]]",
+    "year": "2025",
+    "doi": "N/A",
+    "url": "https://openreview.net/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Elder-The Ethics of Digital Ghosts.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Elder, Alexis M.]]",
+    "year": "2025",
+    "doi": "10.4324/9781003632658",
+    "url": "https://www.taylorfrancis.com/books/mono/10.4324/9781003632658/ethics-digital-ghosts-alexis-elder",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical.md",
+    "has_extract": true,
+    "authors": "Elkins, K. & Chun, J.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.09724",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..md",
+    "has_extract": true,
+    "authors": "Elle, S. et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2510.06391",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Emezue-NaijaVoices.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Emezue-NaijaVoices.md",
+    "has_extract": true,
+    "authors": "Chris Emezue; NaijaVoices Community; Busayo Awobade; Abraham Owodunni; Handel Emezue; Gloria Monica Tobechukwu Emezue; Nefertiti Nneoma Emezue; Sewade Ogun; Bunmi Akinremi; David Ifeoluwa Adelani; Chris Pal",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2505.20564",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review.md",
+    "has_extract": true,
+    "authors": "Maria Eriksson; Erasmo Purificato; Arman Noroozian; Joao Vinagre; Guillaume Chaslot; Emilia Gomez; David Fernandez-Llorca",
+    "year": "2025",
+    "doi": "10.1609/aies.v8i1.36595",
+    "url": "https://arxiv.org/abs/2502.06559",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Fan-FAIRMT-BENCH.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Fan-FAIRMT-BENCH.md",
+    "has_extract": true,
+    "authors": "Zhiting Fan; Ruizhe Chen; Tianxiang Hu; Zuozhu Liu",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Fan-LEXam.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Fan-LEXam.md",
+    "has_extract": true,
+    "authors": "Yu Fan et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2505.12864",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Fanous-SycEval Evaluating LLM Sycophancy.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Fanous-SycEval Evaluating LLM Sycophancy.md",
+    "has_extract": true,
+    "authors": "Aaron Fanous et al.",
+    "year": "2025",
+    "doi": "10.1609/aies.v8i1.36598",
+    "url": "https://arxiv.org/abs/2502.08177",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Farid-One Model, Many Morals.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Farid-One Model, Many Morals.md",
+    "has_extract": true,
+    "authors": "[[Farid, Sualeha]]; [[Lin, Jayden]]; [[Chen, Zean]]; [[Kumar, Shivani]]; [[Jurgens, David]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2509.21443",
+    "url": "https://arxiv.org/abs/2509.21443",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Fenech-Borg-The Cultural Gene of Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Fenech-Borg-The Cultural Gene of Large Language Models.md",
+    "has_extract": true,
+    "authors": "Emanuel Z. Fenech-Borg; Tilen P. Meznaric-Kos; Milica D. Lekovic-Bojovic; Arni J. Hentze-Djurhuus",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2508.12411",
+    "url": "http://arxiv.org/abs/2508.12411",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Feng-ERPO.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Feng-ERPO.md",
+    "has_extract": true,
+    "authors": "Kehua Feng; Keyan Ding; Yuhao Wang; Menghan Li; Fanjunduo Wei; Xinda Wang; Qiang Zhang; Huajun Chen",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2504.02725",
+    "url": "http://arxiv.org/abs/2504.02725",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Flores-BenchMoral.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Flores-BenchMoral.md",
+    "has_extract": true,
+    "authors": "Félix B. A. Flores",
+    "year": "2025",
+    "doi": "",
+    "url": "https://forum.effectivealtruism.org/posts/eTEtMc2d38GDZZ8ke/benchmoral-a-benchmarking-to-assess-the-moral-sensitivity-of",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Fontana-Nicer Than Humans How Do Large Language Models Behave in the.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Fontana-Nicer Than Humans How Do Large Language Models Behave in the.md",
+    "has_extract": true,
+    "authors": "Nicoló Fontana; Francesco Pierri; Luca Maria Aiello",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2406.13605",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Fu-MME-CoT.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Fu-MME-CoT.md",
+    "has_extract": true,
+    "authors": "Dongzhi Jiang; Renrui Zhang; Ziyu Guo; Yanwei Li; Yu Qi; Xinyan Chen; Liuhui Wang; Jianhan Jin; Claire Guo; Shen Yan; Bo Zhang; Chaoyou Fu; Peng Gao; Hongsheng Li",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2502.09621",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Gabriel-AI Alignment as Fair Treatment of Claims.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Gabriel-AI Alignment as Fair Treatment of Claims.md",
+    "has_extract": true,
+    "authors": "Iason Gabriel; Geoff Keeling",
+    "year": "2025",
+    "doi": "10.1007/s11098-025-02300-4",
+    "url": "https://link.springer.com/article/10.1007/s11098-025-02300-4",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Gai-MoralBench A Multi-Faceted Benchmark Gai et al..md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Gai-MoralBench A Multi-Faceted Benchmark Gai et al..md",
+    "has_extract": true,
+    "authors": "Gai, Y. et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Galatolo-Beyond Ethical Alignment AMAs.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Galatolo-Beyond Ethical Alignment AMAs.md",
+    "has_extract": true,
+    "authors": "[[Galatolo, Alessio]]; [[Rappuoli, Luca Alberto]]; [[Winkle, Katie]]; [[Beloucif, Meriem]]",
+    "year": "2025",
+    "doi": "N/A",
+    "url": "https://arxiv.org/abs/2508.12754",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Galatolo-Beyond Ethical Alignment.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Galatolo-Beyond Ethical Alignment.md",
+    "has_extract": true,
+    "authors": "[[Galatolo, Alessio]]; [[Rappuoli, Luca Alberto]]; [[Winkle, Katie]]; [[Beloucif, Meriem]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2508.12754",
+    "url": "https://arxiv.org/abs/2508.12754",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Gao-MIST Moral Inference through Storytelling with Text and Images.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Gao-MIST Moral Inference through Storytelling with Text and Images.md",
+    "has_extract": true,
+    "authors": "Gao, C. et al.",
+    "year": "2025",
+    "doi": "10.1145/3746252.3760884",
+    "url": "https://doi.org/10.1145/3746252.3760884",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.md",
+    "has_extract": true,
+    "authors": "Anne Gerdes; Peter Øhrstrøm",
+    "year": "2025",
+    "doi": "10.1080/14746700.2025.2514300",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/14746700.2025.2514300",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.md",
+    "has_extract": true,
+    "authors": "Ghate, K. et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2510.06370",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Ghosh-AEGIS 2.0.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ghosh-AEGIS 2.0.md",
+    "has_extract": true,
+    "authors": "Shaona Ghosh et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2501.09004",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Gounaris-Virtue in the Machine.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Gounaris-Virtue in the Machine.md",
+    "has_extract": true,
+    "authors": "[[Gounaris, Alkis]]; [[Kosteletos, George]]; [[Kolliniati, Maria-Artemis]]",
+    "year": "2025",
+    "doi": "N/A",
+    "url": "https://ejournals.epublishing.ekt.gr/index.php/Conatus/article/view/36423",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Graves-AI Practical Wisdom and Compassion.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Graves-AI Practical Wisdom and Compassion.md",
+    "has_extract": true,
+    "authors": "[[Graves, Mark]]",
+    "year": "2025",
+    "doi": "10.1007/s43681-025-00877-4",
+    "url": "https://link.springer.com/article/10.1007/s43681-025-00877-4",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Group-AILuminate.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Group-AILuminate.md",
+    "has_extract": true,
+    "authors": "Shaona Ghosh; Heather Frase; Adina Williams; Sarah Luger; Paul Röttger; Fazl Barez; Sean McGregor; Kenneth Fricklas; Mala Kumar; Quentin Feuillade--Montixi; Kurt Bollacker; Felix Friedrich; Ryan Tsang; Bertie Vidgen; Alicia Parrish; Chris Knotz; Eleonora Presani; Jonathan Bennion; Marisa Ferrara Boston; Mike Kuniavsky; Wiebke Hutiri; James Ezick; Malek Ben Salem; Rajat Sahay; Sujata Goswami; Usman Gohar; Ben Huang; Supheakmungkol Sarin; Elie Alhajjar; Canyu Chen; Roman Eng; Kashyap Ramanandula Manjusha; Virendra Mehta; Eileen Long; Murali Emani; Natan Vidra; Benjamin Rukundo; Abolfazl Shahbazi; Kongtao Chen; Rajat Ghosh; Vithursan Thangarasa; Pierre Peigné; Abhinav Singh; Max Bartolo; Satyapriya Krishna; Mubashara Akhtar; Rafael Gold; Cody Coleman; Luis Oala; Vassil Tashev; Joseph Marvin Imperial; Amy Russ; Sasidhar Kunapuli; Nicolas Miailhe; Julien Delaunay; Bhaktipriya Radharapu; Rajat Shinde; Tuesday; Debojyoti Dutta; Declan Grabb; Ananya Gangavarapu; Saurav Sahay; Agasthya Gangavarapu; Patrick Schramowski; Stephen Singam; Tom David; Xudong Han; Priyanka Mary Mammen; Tarunima Prabhakar; Venelin Kovatchev; Rebecca Weiss; Ahmed Ahmed; Kelvin N. Manyeki; Sandeep Madireddy; Foutse Khomh; Fedor Zhdanov; Joachim Baumann; Nina Vasan; Xianjun Yang; Carlos Mougn; Jibin Rajan Varghese; Hussain Chinoy; Seshakrishna Jitendar; Manil Maskey; Claire V. Hardgrove; Tianhao Li; Aakash Gupta; Emil Joswin; Yifan Mai; Shachi H Kumar; Cigdem Patlak; Kevin Lu; Vincent Alessi; Sree Bhargavi Balija; Chenhe Gu; Robert Sullivan; James Gealy; Matt Lavrisa; James Goel; Peter Mattson; Percy Liang; Joaquin Vanschoren",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2503.05731",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.md",
+    "has_extract": true,
+    "authors": "Guo et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2504.05154",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.md",
+    "has_extract": true,
+    "authors": "Gupta, A. et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2510.05465",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Han-Value Portrait.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Han-Value Portrait.md",
+    "has_extract": true,
+    "authors": "Jongwook Han, Dongmin Choi, Woojung Song, Eun-Ju Lee, Yohan Jo",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2505.01015",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Hatemo-Revisiting the Trolley Problem for AI.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Hatemo-Revisiting the Trolley Problem for AI.md",
+    "has_extract": true,
+    "authors": "Sahan Hatemo; Christof Weickhardt; Luca Gisler; Oliver Bendel",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Helwe-Navigating the Political Compass Multilingual 50 Countries.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Helwe-Navigating the Political Compass Multilingual 50 Countries.md",
+    "has_extract": true,
+    "authors": "Chadi Helwe, Oana Balalau, Davide Ceolin",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Herrador-The PacifAIst Benchmark.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Herrador-The PacifAIst Benchmark.md",
+    "has_extract": true,
+    "authors": "Manuel Herrador",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2508.09762",
+    "url": "http://arxiv.org/abs/2508.09762",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Hilliard-Measuring AI Alignment with Human Flourishing.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Hilliard-Measuring AI Alignment with Human Flourishing.md",
+    "has_extract": true,
+    "authors": "[[Hilliard, Elizabeth]]; [[Jagadeesh, Akshaya]]; [[Cook, Alex]]; [[Billings, Steele]]; [[Skytland, Nicholas]]; [[Llewellyn, Alicia]]; [[Paull, Jackson]]; [[Paull, Nathan]]; [[Kurylo, Nolan]]; [[Nesbitt, Keatra]]; [[Gruenewald, Robert]]; [[Jantzi, Anthony]]; [[Chavez, Omar]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2507.07787",
+    "url": "https://arxiv.org/abs/2507.07787",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset.md",
+    "has_extract": true,
+    "authors": "Hong, M. et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2509.18395",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.md",
+    "has_extract": true,
+    "authors": "Hong, C., Wu, M., Xiao, Q., Wang, Y., Wan, X., Yu, G., Wang, B., & Hu, Y",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2508.05132",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.md",
+    "has_extract": true,
+    "authors": "Hossain, K.A. et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2512.03943",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large.md",
+    "has_extract": true,
+    "authors": "He Hu; Yucheng Zhou; Lianzhong You; Hongbo Xu; Qianning Wang; Zheng Lian; Fei Richard Yu; Fei Ma; Laizhong Cui",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2502.04424",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models.md",
+    "has_extract": true,
+    "authors": "Hu et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2507.10852",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Huang-BehaviorBench Multi-Tier Benchmark for Agent Behavior Editing.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Huang-BehaviorBench Multi-Tier Benchmark for Agent Behavior Editing.md",
+    "has_extract": true,
+    "authors": "Huang, B. et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2506.20606",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Huang-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Huang-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors.md",
+    "has_extract": true,
+    "authors": "Yao Huang; Yitong Sun; Yichi Zhang; Ruochen Zhang; Yinpeng Dong; Xingxing Wei",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2510.15501",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Huang-Model Editing as a Double-Edged Sword.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Huang-Model Editing as a Double-Edged Sword.md",
+    "has_extract": true,
+    "authors": "Baixiang Huang; Zhen Tan; Haoran Wang; Zijie Liu; Dawei Li; Ali Payani; Huan Liu; Tianlong Chen; Kai Shu",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2506.20606",
+    "url": "http://arxiv.org/abs/2506.20606",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Huang-On the Trustworthiness of Generative Foundation.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Huang-On the Trustworthiness of Generative Foundation.md",
+    "has_extract": true,
+    "authors": "Yue Huang; Chujie Gao; Siyuan Wu; Haoran Wang; Xiangqi Wang; Yujun Zhou; Yanbo Wang; Jiayi Ye; Jiawen Shi; Qihui Zhang; Yuan Li; Han Bao; Zhaoyi Liu; Tianrui Guan; Dongping Chen; Ruoxi Chen; Kehan Guo; Andy Zou; Bryan Hooi Kuen-Yew; Caiming Xiong; Elias Stengel-Eskin; Hongyang Zhang; Hongzhi Yin; Huan Zhang; Huaxiu Yao; Jaehong Yoon; Jieyu Zhang; Kai Shu; Kaijie Zhu; Ranjay Krishna; Swabha Swayamdipta; Taiwei Shi; Weijia Shi; Xiang Li; Yiwei Li; Yuexing Hao; Zhihao Jia; Zhize Li; Xiuying Chen; Zhengzhong Tu; Xiyang Hu; Tianyi Zhou; Jieyu Zhao; Lichao Sun; Furong Huang; Or Cohen Sasson; Prasanna Sattigeri; Anka Reuel; Max Lamparth; Yue Zhao; Nouha Dziri; Yu Su; Huan Sun; Heng Ji; Chaowei Xiao; Mohit Bansal; Nitesh V. Chawla; Jian Pei; Jianfeng Gao; Michael Backes; Philip S. Yu; Neil Zhenqiang Gong; Pin-Yu Chen; Bo Li; Dawn Song; Xiangliang Zhang",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2502.14296",
+    "url": "http://arxiv.org/abs/2502.14296",
+    "body_richness": "thin"
+  }
+]

@@ -1,0 +1,405 @@
+[
+  {
+    "filename": "2010-Project-GurbaniDB.md",
+    "decision": "Exclude",
+    "reasoning": "Digital database of Sikh scriptures (Guru Granth Sahib). No AI/LLM ethics evaluation; purely a religious text digitization project."
+  },
+  {
+    "filename": "2015-Clifford-Moral Foundations Vignettes.md",
+    "decision": "Exclude",
+    "reasoning": "Human moral psychology stimulus set (Moral Foundations Vignettes) for neuroimaging/psychology research. No AI/LLM evaluation component; purely a human-subjects instrument."
+  },
+  {
+    "filename": "2016-Amodei-Concrete Problems in AI Safety.md",
+    "decision": "Exclude",
+    "reasoning": "Seminal AI safety paper defining five concrete technical problems (side effects, reward hacking, scalable supervision, safe exploration, distributional shift). Purely theoretical/conceptual framework paper with no specific benchmark, dataset, or evaluation instrument."
+  },
+  {
+    "filename": "2016-Bolukbasi-Man is to Computer Programmer as Woman is to.md",
+    "decision": "Yes",
+    "benchmark_name": "Word Embedding Association Test (WEAT) / Debiasing Metrics",
+    "what_measures": "Gender bias in word embeddings (stereotypical associations between gender and occupation/concepts)",
+    "how_measures": "Geometric analysis of word embedding directions; analogy-based bias quantification; crowd-worker evaluation of debiased embeddings",
+    "dataset_size": "Not explicitly stated (based on Google News word2vec embeddings, 300-dimensional)",
+    "models_evaluated": "Word2Vec (Google News trained), GloVe",
+    "pluralistic_relevance": "No",
+    "availability": "Public",
+    "reasoning": "Defines metrics to quantify direct and indirect gender biases in word embeddings and proposes debiasing algorithms. Creates evaluation methodology for measuring social bias in NLP models, which is an ethics-related fairness evaluation."
+  },
+  {
+    "filename": "2016-Holyoak-Deontological coherence.md",
+    "decision": "Exclude",
+    "reasoning": "Psychological review paper proposing a cognitive framework for how humans make moral judgments (deontological coherence). No AI/LLM evaluation component; purely human moral psychology."
+  },
+  {
+    "filename": "2016-Purzycki-Cross-cultural dataset for the evolution of.md",
+    "decision": "Exclude",
+    "reasoning": "Cross-cultural dataset on religion and morality using behavioral economics experiments with human participants across diverse societies. No AI/LLM evaluation; human subjects research on the evolution of religion and moral behavior."
+  },
+  {
+    "filename": "2016-Purzycki-Religious Belief and the Moral Circle.md",
+    "decision": "Exclude",
+    "reasoning": "Cross-cultural dataset investigating relationship between religious belief (moralistic gods) and prosocial behavior in humans. No AI/LLM component; purely human behavioral/anthropological research."
+  },
+  {
+    "filename": "2016-Xu-How Can a Deontological Decision Lead to Moral.md",
+    "decision": "Exclude",
+    "reasoning": "Human moral psychology study investigating the relationship between moral identity, deontological reasoning, and moral behavior. No AI/LLM evaluation; empirical study with human participants only."
+  },
+  {
+    "filename": "2018-Awad-The Moral Machine experiment.md",
+    "decision": "Yes",
+    "benchmark_name": "Moral Machine",
+    "what_measures": "Cross-cultural moral preferences for autonomous vehicle ethical dilemmas (trolley-problem variants); measures preferences for sparing lives based on age, gender, status, species, number, legality",
+    "how_measures": "Scenario-based forced-choice binary dilemmas presented via web platform; crowdsourced from 2.3 million people across 233 countries; cross-cultural clustering analysis",
+    "dataset_size": "40 million decisions from 2.3 million participants",
+    "models_evaluated": "Not LLMs directly, but the dataset/platform provides moral preference data for training AI decision-making systems (used in Noothigattu et al. 2018 for voting-based ethical AI)",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Creates the Moral Machine platform and dataset of 40M moral decisions used for developing machine ethics. While focused on human preference collection, the dataset is explicitly designed for training value-aligned autonomous systems and has been widely used to evaluate AI moral reasoning."
+  },
+  {
+    "filename": "2018-Behzadan-TrolleyMod v1.0.md",
+    "decision": "Yes",
+    "benchmark_name": "TrolleyMod v1.0",
+    "what_measures": "Ethical decision-making in autonomous vehicle trolley-problem scenarios",
+    "how_measures": "Interactive simulation platform (CARLA-based) for collecting human ethical decisions in driving scenarios; supports training deep reinforcement learning agents",
+    "dataset_size": "Not stated (platform for data collection)",
+    "models_evaluated": "Deep reinforcement learning agents (framework supports custom controllers)",
+    "pluralistic_relevance": "No",
+    "availability": "Public (open-source)",
+    "reasoning": "Creates an open-source simulation platform explicitly designed for collecting ethical decision-making data and training value-aligned autonomous vehicles. Provides a tool for evaluating AI on trolley-problem moral dilemmas."
+  },
+  {
+    "filename": "2018-Berberich-The Virtuous Machine - Old Ethics for New.md",
+    "decision": "Exclude",
+    "reasoning": "Theoretical/philosophical paper arguing for Aristotelian virtue ethics as a framework for AI alignment via imitation learning. No empirical evaluation, benchmark, or dataset created."
+  },
+  {
+    "filename": "2018-Berberich-The Virtuous Machine.md",
+    "decision": "Exclude",
+    "reasoning": "Duplicate of the above Berberich 2018 paper (same arXiv ID 1806.10322). Theoretical paper on virtue ethics for AI with no empirical evaluation component."
+  },
+  {
+    "filename": "2018-Crone-The Socio-Moral Image Database (SMID).md",
+    "decision": "Yes",
+    "benchmark_name": "SMID (Socio-Moral Image Database)",
+    "what_measures": "Moral wrongness, affective valence/arousal, and relevance to five Moral Foundations Theory values (Care, Fairness, Ingroup, Authority, Purity) via images",
+    "how_measures": "2,941 photographic images rated on 7-point scales for valence, arousal, wrongness, and 5 moral foundations; validated by 2,716 participants with 820,525 judgments",
+    "dataset_size": "2,941 images with normative ratings",
+    "models_evaluated": "Intended for computational (NLP, computer vision) investigations of moral processes; specific models not evaluated in original paper",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Although originally created for human psychology/neuroscience, the paper explicitly states the database is intended for 'computational (e.g., natural language processing or computer vision) investigations of social, moral and affective processes.' This provides a standardized moral stimulus set usable for evaluating AI models on moral perception."
+  },
+  {
+    "filename": "2018-Dixon-Measuring and Mitigating Unintended Bias in Text.md",
+    "decision": "Yes",
+    "benchmark_name": "Identity Phrase Template Test Set / Pinned AUC",
+    "what_measures": "Unintended identity-term bias in toxicity classifiers (models falsely flagging neutral mentions of identity groups as toxic)",
+    "how_measures": "Synthetic template test set (77,000 phrase templates); novel Pinned AUC metric; Error Rate Equality Difference metric comparing false positive/negative rates across identity subgroups",
+    "dataset_size": "77,000 synthetic test examples; training on 127,820 Wikipedia Talk Page comments",
+    "models_evaluated": "CNN-based toxicity classifier (Keras/TensorFlow)",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Introduces evaluation metrics and a synthetic test set for measuring identity-based bias in toxicity classifiers. The Pinned AUC metric and template-based evaluation methodology are widely used for fairness evaluation of NLP models, which relates to ethical harms of biased AI systems."
+  },
+  {
+    "filename": "2018-Kim-Toward Non-Intuition-Based Machine Ethics.md",
+    "decision": "Exclude",
+    "reasoning": "Theoretical paper proposing a formal logical (quantified modal logic) approach to machine ethics based on Kantian deontology. No empirical evaluation, benchmark, or dataset."
+  },
+  {
+    "filename": "2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred.md",
+    "decision": "Yes",
+    "benchmark_name": "Equity Evaluation Corpus (EEC)",
+    "what_measures": "Gender and race bias in sentiment analysis systems (whether systems assign different sentiment intensity based on gender/race of person mentioned)",
+    "how_measures": "8,640 template-based English sentences with controlled gender/race markers; statistical significance testing of sentiment score differences across identity groups",
+    "dataset_size": "8,640 sentences",
+    "models_evaluated": "219 sentiment analysis systems from SemEval-2018 Task 1",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Creates the Equity Evaluation Corpus (EEC), the first benchmark dataset for examining inappropriate biases in NLP systems, and uses it to systematically audit 219 systems for gender and race bias. Directly evaluates AI systems for ethics-related fairness concerns."
+  },
+  {
+    "filename": "2018-Noothigattu-A Voting-Based System for Ethical Decision Making.md",
+    "decision": "Yes",
+    "benchmark_name": "Unnamed (Voting-Based Ethical Decision Making System)",
+    "what_measures": "Ethical decision-making alignment with aggregated societal moral preferences in autonomous vehicle dilemmas",
+    "how_measures": "Machine learning to learn preference models from crowdsourced data; computational social choice theory (swap-dominance efficient voting rules) to aggregate preferences at runtime",
+    "dataset_size": "Preference data from 1.3 million people (Moral Machine website)",
+    "models_evaluated": "Custom voting-based ethical decision system",
+    "pluralistic_relevance": "Partial",
+    "availability": "Not stated",
+    "reasoning": "Proposes and empirically evaluates a concrete algorithm for automated ethical decision-making that learns from societal moral preferences. Implements and tests a system using Moral Machine data to make value-aligned decisions in the autonomous vehicle domain."
+  },
+  {
+    "filename": "2018-Zhao-Finding Answers from the Word of God.md",
+    "decision": "Exclude",
+    "reasoning": "Question answering system for Biblical text (BibleQA dataset). Technical NLP/QA task with no ethics evaluation component; the religious content is the domain, not ethics assessment."
+  },
+  {
+    "filename": "2018-Zhao-Gender Bias in Contextualized Word Embeddings.md",
+    "decision": "Exclude",
+    "reasoning": "Proposes a debiasing training procedure for word embeddings (GN-GloVe). While it addresses gender bias, the focus is on the debiasing technique itself rather than creating a benchmark or evaluation for moral reasoning. Technical debiasing method without structured ethical evaluation."
+  },
+  {
+    "filename": "2018-Zhao-Gender Bias in Coreference Resolution.md",
+    "decision": "Yes",
+    "benchmark_name": "WinoBias",
+    "what_measures": "Gender bias in coreference resolution systems (whether systems preferentially link pronouns to stereotypical occupations based on gender)",
+    "how_measures": "Winograd-schema style sentence pairs with pro-stereotypical vs. anti-stereotypical occupation-gender pairings; measures F1 score difference between stereotype-consistent and stereotype-inconsistent resolutions",
+    "dataset_size": "Not explicitly stated (Winograd-schema style corpus with occupational pairs)",
+    "models_evaluated": "Rule-based coreference system, feature-rich system, neural coreference system",
+    "pluralistic_relevance": "No",
+    "availability": "Public",
+    "reasoning": "Creates WinoBias, a benchmark specifically designed to measure gender bias in coreference resolution systems. Demonstrates 21.1 F1 difference between pro- and anti-stereotypical entities across three types of NLP systems, directly measuring ethics-related fairness in AI."
+  },
+  {
+    "filename": "2018-Zhao-Learning Gender-Neutral Word Embeddings.md",
+    "decision": "Exclude",
+    "reasoning": "Duplicate of 2018-Zhao-Gender Bias in Contextualized Word Embeddings (same arXiv paper, same content). Proposes GN-GloVe debiasing technique; focuses on the debiasing method rather than creating an evaluation benchmark."
+  },
+  {
+    "filename": "2019-Aliman-Requisite Variety Ethical Utility Functions.md",
+    "decision": "Exclude",
+    "reasoning": "Theoretical paper on augmented utilitarianism for AI utility functions. Transdisciplinary analysis drawing on neuroscience and psychology, but no empirical evaluation, benchmark, or dataset."
+  },
+  {
+    "filename": "2019-Basile-SemEval-2019 Task 5.md",
+    "decision": "Yes",
+    "benchmark_name": "HatEval (SemEval-2019 Task 5)",
+    "what_measures": "Hate speech detection against immigrants and women in English and Spanish tweets",
+    "how_measures": "Binary hate speech detection (Subtask A); fine-grained classification of aggressiveness and target (individual vs group) in hateful content (Subtask B); shared task competition format",
+    "dataset_size": "108 submitted runs for Subtask A, 70 for Subtask B, from 74 teams (dataset size not stated in paper body but implied thousands of annotated tweets)",
+    "models_evaluated": "74 participating team systems across multiple NLP architectures",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Organizes a shared task creating a standard benchmark dataset for hate speech detection against specific protected groups (immigrants, women) in a multilingual setting (English and Spanish). Directly evaluates NLP systems on ethics-related harmful content detection."
+  },
+  {
+    "filename": "2019-De-Arteaga-Bias in Bios.md",
+    "decision": "Yes",
+    "benchmark_name": "Bias in Bios",
+    "what_measures": "Gender bias in occupation classification from online biographies (allocation harms from semantic representation bias)",
+    "how_measures": "Analysis of true positive rate differences between genders across occupations; testing with and without explicit gender indicators (names, pronouns); proxy behavior analysis",
+    "dataset_size": "Large-scale (biographies from the web; exact count not stated in abstract)",
+    "models_evaluated": "Multiple occupation classifiers using different semantic representations (bag-of-words, word embeddings, deep learning)",
+    "pluralistic_relevance": "No",
+    "availability": "Not stated",
+    "reasoning": "Creates a large-scale study quantifying gender bias in occupation classification systems, demonstrating how ML models compound existing gender imbalances. Provides an empirical evaluation of fairness-related ethical harms in AI systems."
+  },
+  {
+    "filename": "2019-He-Unlearn Dataset Bias in Natural Language.md",
+    "decision": "Exclude",
+    "reasoning": "Proposes the DRiFt debiasing algorithm for NLI models to remove dataset-specific superficial cues. Addresses technical dataset bias (spurious correlations like negation=contradiction), not ethics/moral reasoning evaluation. Purely technical bias mitigation."
+  },
+  {
+    "filename": "2019-Ibrohim-Multi-label Hate Speech and Abusive Language.md",
+    "decision": "Yes",
+    "benchmark_name": "Indonesian Twitter Hate Speech Dataset",
+    "what_measures": "Hate speech and abusive language detection in Indonesian Twitter, including target, category, and level of hate speech",
+    "how_measures": "Multi-label text classification using SVM, Naive Bayes, Random Forest with Binary Relevance, Label Power-set, and Classifier Chains; features include term frequency, orthography, and lexicon",
+    "dataset_size": "Not explicitly stated (Indonesian Twitter corpus)",
+    "models_evaluated": "SVM, Naive Bayes, Random Forest Decision Tree classifiers",
+    "pluralistic_relevance": "Partial",
+    "availability": "Not stated",
+    "reasoning": "Creates a multi-label hate speech detection dataset and evaluation framework for Indonesian Twitter. Addresses ethics-related harmful content detection in a non-English, culturally specific context, contributing to multilingual safety evaluation."
+  },
+  {
+    "filename": "2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification.md",
+    "decision": "Yes",
+    "benchmark_name": "ToxicBias / Jigsaw Unintended Bias Dataset",
+    "what_measures": "Unintended social bias in toxicity classification (models flagging identity terms as toxic in neutral contexts)",
+    "how_measures": "Kaggle competition format; toxicity classification with identity-term bias evaluation; curated from Jigsaw's Civil Comments dataset",
+    "dataset_size": "Not explicitly stated (large-scale Kaggle competition dataset)",
+    "models_evaluated": "Multiple competing systems in Kaggle competition",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Provides a dataset specifically curated for identifying and mitigating unintended bias in toxicity classification, where models disproportionately flag neutral mentions of identity groups as toxic. Directly evaluates AI fairness in content moderation."
+  },
+  {
+    "filename": "2019-Kreutz-GermEval 2019 Task 2.md",
+    "decision": "Yes",
+    "benchmark_name": "GermEval 2019 Task 2",
+    "what_measures": "Offensive language identification in German tweets (coarse binary, fine-grained 4-way, and explicit vs implicit offense)",
+    "how_measures": "Shared task with 3 subtasks: binary OFFENSE/OTHER, 4-way ABUSE/INSULT/PROFANITY/OTHER, and EXPLICIT/IMPLICIT classification; macro-averaged F-score evaluation",
+    "dataset_size": "~12,000 annotated German tweets (3,994 train + 3,031 test for 2019)",
+    "models_evaluated": "13 participating teams; BERT-based systems, SVMs, and other classifiers",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Creates a shared task with annotated dataset for German offensive language detection, introducing the novel implicit vs. explicit offense classification subtask. Evaluates NLP systems on ethics-related harmful content detection in a non-English language."
+  },
+  {
+    "filename": "2019-Moryossef-Filling Gender & Number Gaps in Neural Machine.md",
+    "decision": "Exclude",
+    "reasoning": "Technical NLP paper on injecting gender/number information into neural machine translation (English to Hebrew). Addresses gender accuracy in translation rather than ethics/moral reasoning evaluation."
+  },
+  {
+    "filename": "2019-Rashkin-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models.md",
+    "decision": "Exclude",
+    "reasoning": "Creates EmpatheticDialogues dataset (25k conversations) for training empathetic dialogue models. While related to social/emotional intelligence, it measures empathetic response quality rather than moral reasoning, ethical judgment, or value alignment."
+  },
+  {
+    "filename": "2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.md",
+    "decision": "Yes",
+    "benchmark_name": "GermEval 2019 Shared Task on Offensive Language",
+    "what_measures": "Offensive language identification in German tweets with explicit vs. implicit offense distinction",
+    "how_measures": "Three subtasks: binary classification (OFFENSE/OTHER), fine-grained 4-way (ABUSE/INSULT/PROFANITY/OTHER), and novel explicit/implicit classification; shared task with macro-averaged F-score",
+    "dataset_size": "~12,000 annotated German tweets across 2018+2019 editions",
+    "models_evaluated": "13 participating teams including BERT-based systems, SVMs",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Official overview paper of the GermEval 2019 shared task on offensive language identification. Introduces the implicit vs. explicit offense classification subtask and provides the benchmark dataset and evaluation results. Note: overlaps substantially with the Kreutz 2019 paper but is the authoritative shared task overview."
+  },
+  {
+    "filename": "2019-University of São Paulo-Moral Stance Recognition and Polarity.md",
+    "decision": "Yes",
+    "benchmark_name": "Brazilian Portuguese Moral Stance Corpus",
+    "what_measures": "Moral stance recognition and polarity classification in Brazilian Portuguese text",
+    "how_measures": "Labelled corpus from Twitter and crowdsourced text; stance recognition and polarity classification tasks with supervised learning baselines",
+    "dataset_size": "Not explicitly stated (Twitter + crowdsourced data)",
+    "models_evaluated": "Reference NLP classification baselines (not specified in detail)",
+    "pluralistic_relevance": "Partial",
+    "availability": "Not stated",
+    "reasoning": "Creates a labelled corpus of moral stances for Brazilian Portuguese with reference classification results. Directly addresses computational detection of moral sentiment in text, providing a resource for evaluating NLP models on moral stance classification in a non-English language."
+  },
+  {
+    "filename": "2019-Usbeck-Benchmarking question answering systems.md",
+    "decision": "Exclude",
+    "reasoning": "GERBIL QA platform for benchmarking RDF-based question answering systems on the Semantic Web. No ethics/moral reasoning component; purely technical QA evaluation."
+  },
+  {
+    "filename": "2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.md",
+    "decision": "Exclude",
+    "reasoning": "Proposes the GAMA (Genetic-inspired Autonomous Moral Agent) conceptual framework based on virtue ethics. Theoretical/design paper with no empirical evaluation, benchmark, or dataset."
+  },
+  {
+    "filename": "2020-Awad-Crowdsourcing moral machines.md",
+    "decision": "Exclude",
+    "reasoning": "Communications of the ACM summary/perspective piece about the Moral Machine platform. Describes the crowdsourcing approach but does not introduce new evaluation methodology beyond what was already described in the 2018 Nature paper."
+  },
+  {
+    "filename": "2020-Awad-Universals and variations in moral decisions made.md",
+    "decision": "Yes",
+    "benchmark_name": "Moral Machine Classic Mode Dataset",
+    "what_measures": "Cross-cultural moral preferences in sacrificial (trolley-problem) dilemmas; universals vs. cultural variations in utilitarian sacrifice acceptability",
+    "how_measures": "Three trolley problem variants (Switch, Loop, Footbridge) presented via Moral Machine Classic mode; binary forced-choice; cross-cultural analysis across 42 countries in 10 languages",
+    "dataset_size": "70,000 participants across 42 countries, 10 languages",
+    "models_evaluated": "No AI models directly; dataset provides ground truth for value-aligned AI development",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Produces a large-scale public dataset of cross-cultural moral preferences on sacrificial dilemmas, demonstrating both universal patterns and significant cultural variation. Explicitly made available as a resource for researchers studying AI alignment and moral universals/variations."
+  },
+  {
+    "filename": "2020-Della Foresta-Consequentialism Machine Ethics.md",
+    "decision": "Exclude",
+    "reasoning": "Theoretical/philosophical paper arguing consequentialism is the most suitable foundation for machine ethics. No empirical evaluation, benchmark, or dataset; purely normative argument."
+  },
+  {
+    "filename": "2020-Forbes-Social Chemistry 101 SOCIAL-CHEM-101.md",
+    "decision": "Yes",
+    "benchmark_name": "SOCIAL-CHEM-101",
+    "what_measures": "Social norms and moral judgments (rules-of-thumb) across 12 dimensions including social judgments of good/bad, moral foundations, cultural pressure, and legality",
+    "how_measures": "292k crowdsourced rules-of-thumb annotated with 12 categorical dimensions; over 4.5 million annotations; Neural Norm Transformer model for generating attribute-aware social rules",
+    "dataset_size": "292,000 rules-of-thumb; 4.5 million annotations",
+    "models_evaluated": "Neural Norm Transformer (based on GPT-2); state-of-the-art neural models",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Creates SOCIAL-CHEM-101, a large-scale corpus of social/moral norms with rich multi-dimensional annotations. Directly trains and evaluates neural models on reasoning about social and moral norms, making it a key dataset for AI moral/social reasoning evaluation."
+  },
+  {
+    "filename": "2020-Forbes-Social Chemistry 101.md",
+    "decision": "Yes",
+    "benchmark_name": "SOCIAL-CHEM-101",
+    "what_measures": "Social norms and moral judgments via rules-of-thumb with 12 annotation dimensions",
+    "how_measures": "Crowdsourced rules-of-thumb with categorical annotations; neural model training and evaluation",
+    "dataset_size": "292,000 rules-of-thumb",
+    "models_evaluated": "Neural Norm Transformer and other neural models",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Duplicate entry for the same SOCIAL-CHEM-101 paper (same DOI). Introduces a large-scale corpus for computational modeling of social and moral norms."
+  },
+  {
+    "filename": "2020-Gabriel-Artificial Intelligence Values and Alignment.md",
+    "decision": "Exclude",
+    "reasoning": "Philosophical paper examining the AI alignment problem from a normative ethics perspective. Defends propositions about different alignment targets (instructions, intentions, preferences, values). No empirical evaluation, benchmark, or dataset."
+  },
+  {
+    "filename": "2020-Gehman-RealToxicityPrompts.md",
+    "decision": "Yes",
+    "benchmark_name": "RealToxicityPrompts",
+    "what_measures": "Neural toxic degeneration in pretrained language models (propensity to generate racist, sexist, or otherwise toxic language)",
+    "how_measures": "100K naturally occurring sentence-level prompts paired with toxicity scores from Perspective API; evaluation of controllable text generation methods for toxicity mitigation",
+    "dataset_size": "100,000 prompts",
+    "models_evaluated": "GPT-2 (multiple sizes), CTRL, and other pretrained LMs; controllable generation methods including PPLM, GeDi, word banning",
+    "pluralistic_relevance": "No",
+    "availability": "Public",
+    "reasoning": "Creates RealToxicityPrompts, a widely used benchmark for evaluating toxic language generation by LMs. Directly measures an ethically relevant dimension (toxicity/harmful content generation) of language model behavior and evaluates mitigation methods."
+  },
+  {
+    "filename": "2020-Hoover-Moral Foundations Twitter Corpus.md",
+    "decision": "Yes",
+    "benchmark_name": "Moral Foundations Twitter Corpus (MFTC)",
+    "what_measures": "Moral sentiment in natural language based on Moral Foundations Theory (Care/Harm, Fairness/Cheating, Loyalty/Betrayal, Authority/Subversion, Purity/Degradation, with virtue/vice variants)",
+    "how_measures": "35,108 tweets annotated by 3+ trained annotators for 10 moral sentiment categories; classification baselines using MFD, DDR, BERT-based models",
+    "dataset_size": "35,108 tweets across 7 discourse domains",
+    "models_evaluated": "Moral Foundations Dictionary (MFD), Distributed Dictionary Representations (DDR), BERT-based classifiers, various supervised learning methods",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Creates the gold-standard annotated dataset for detecting moral sentiment in natural language based on Moral Foundations Theory. Provides baselines for NLP models on moral sentiment classification, directly relevant to evaluating AI models on moral reasoning detection."
+  },
+  {
+    "filename": "2020-Hossu-UIC-NLP at SemEval-2020 Task 10.md",
+    "decision": "Exclude",
+    "reasoning": "System description paper for SemEval-2020 Task 10 on word emphasis selection in visual media. No ethics/morality component; purely technical NLP task about typographic emphasis."
+  },
+  {
+    "filename": "2020-Kumar-Evaluating Aggression Identification in Social.md",
+    "decision": "Yes",
+    "benchmark_name": "TRAC-2 Shared Task Dataset",
+    "what_measures": "Aggression and gendered aggression identification in social media (YouTube comments) across three languages (Bangla, Hindi, English)",
+    "how_measures": "Two subtasks: aggression identification (3-class) and gendered aggression identification; shared task competition with 19 participating teams; weighted F-score evaluation",
+    "dataset_size": "~5,000 instances per language for training; ~1,000 per language for testing",
+    "models_evaluated": "19 participating team systems",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Shared task creating a multilingual (Bangla, Hindi, English) benchmark for aggression and gendered aggression detection in social media. Evaluates NLP systems on identifying ethically harmful content with a specific focus on gendered targeting."
+  },
+  {
+    "filename": "2020-Mainali-Automated Classification of Modes of Moral.md",
+    "decision": "Yes",
+    "benchmark_name": "Unnamed (Moral Reasoning Mode Classifier)",
+    "what_measures": "Classification of moral reasoning modes (consequentialist vs. deontological) in text (judicial decisions and applied ethics articles)",
+    "how_measures": "Linear SVM classifier trained on applied ethics articles by consequentialists and deontologists; applied to circuit court opinions corpus; over 90% paragraph-level accuracy",
+    "dataset_size": "Not explicitly stated (applied ethics articles + circuit court opinion corpus)",
+    "models_evaluated": "Linear SVM classifier",
+    "pluralistic_relevance": "Partial",
+    "availability": "Not stated",
+    "reasoning": "Develops an NLP classifier for distinguishing consequentialist vs. deontological moral reasoning in text, achieving 90%+ accuracy. While applied to legal texts rather than LLMs, it creates a methodology and trained model for computationally detecting modes of ethical reasoning, directly relevant to evaluating AI moral reasoning."
+  },
+  {
+    "filename": "2020-Mathew-HateXplain.md",
+    "decision": "Yes",
+    "benchmark_name": "HateXplain",
+    "what_measures": "Explainable hate speech detection: classification (hate/offensive/normal), target community identification, and rationale spans for labeling decisions",
+    "how_measures": "Multi-perspective annotation: 3-class classification, target community labels, and rationale annotations; evaluation on classification accuracy, model plausibility, faithfulness (explainability metrics), and unintended bias",
+    "dataset_size": "Not explicitly stated (benchmark dataset of annotated social media posts)",
+    "models_evaluated": "State-of-the-art hate speech detection models (including BERT-based models)",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Creates HateXplain, the first benchmark hate speech dataset covering classification, target identification, and rationale annotation. Demonstrates that high-performing classifiers score poorly on explainability and that human rationale training reduces bias, directly evaluating ethical dimensions of AI content moderation."
+  },
+  {
+    "filename": "2020-Nangia-CrowS-Pairs.md",
+    "decision": "Yes",
+    "benchmark_name": "CrowS-Pairs",
+    "what_measures": "Social biases in masked language models across 9 bias categories (race, gender, sexual orientation, religion, age, nationality, disability, physical appearance, socioeconomic status)",
+    "how_measures": "1,508 crowdsourced sentence pairs (more stereotyping vs. less stereotyping); model preference measured by comparing pseudo-log-likelihood scores for stereotypical vs. anti-stereotypical sentences",
+    "dataset_size": "1,508 sentence pairs",
+    "models_evaluated": "BERT, RoBERTa, ALBERT (masked language models)",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Creates CrowS-Pairs, a widely-used benchmark for measuring social stereotypes in masked language models. Demonstrates that all tested MLMs substantially favor stereotypical sentences across all 9 bias categories, directly evaluating ethics-related fairness concerns in pretrained models."
+  }
+]

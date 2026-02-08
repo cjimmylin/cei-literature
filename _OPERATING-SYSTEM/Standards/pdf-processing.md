@@ -1,6 +1,6 @@
 # PDF Processing Standards
 
-**Version:** 1.0
+**Version:** 1.1
 **Created:** 2026-02-02
 **Category:** PDF Download & Extraction
 **Applies to:** PDF workflows
@@ -12,11 +12,26 @@
 ### Multi-Source Strategy (Priority Order)
 
 1. **arXiv** (if arXiv ID available)
-2. **Semantic Scholar** (via API, DOI-based)
-3. **Publisher website** (conference/journal)
-4. **ACL Anthology** (for NLP papers)
-5. **OpenReview** (for ML conference papers)
-6. **Zotero backup** (`~/Zotero/storage` - read-only)
+2. **Unpaywall** (DOI → OA PDF lookup)
+3. **EuropePMC / PubMed Central** (DOI → PMCID → ptpmcrender PDF)
+4. **Semantic Scholar** (title/DOI → OA PDF)
+5. **OpenAlex** (title search → OA locations incl. preprints like Research Square, SSRN)
+6. **Publisher website** (DOI scrape: Nature, PLOS, Springer, MDPI d_attachment, PNAS, etc.)
+7. **ACL Anthology** (for NLP/CL papers)
+8. **OpenReview** (for ML conference papers — NeurIPS, ICML, ICLR)
+9. **NeurIPS direct** (proceedings URL → PDF URL pattern)
+10. **Zotero backup** (`~/Zotero/storage` - read-only)
+
+### Strategy Tips
+
+Non-obvious patterns discovered during PDF acquisition campaigns:
+
+- **MDPI `d_attachment`:** More reliable than `/pdf` suffix. Look for `mdpi-res.com/d_attachment/` links in the HTML, or construct from journal/volume/article metadata.
+- **NeurIPS direct URL:** Replace `-Abstract-Conference.html` with `-Paper-Conference.pdf` in the URL. Also works for `-Abstract-Datasets_and_Benchmarks.html` track variants.
+- **AAAI OJS 3-part URL:** Requires `article/download/{article_id}/{galley_id}/{submission_file_id}`. The search API only returns `article_id`; the galley and file IDs must be scraped from the article page.
+- **EuropePMC `ptpmcrender`:** For PMC-deposited papers, construct `https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMCXXXXXXX&blobtype=pdf`. Covers PNAS, Wiley, Nature papers that deposit to PMC after embargo.
+- **Research Square preprints:** OpenAlex indexes these as alternate locations. Request `&select=...,locations` and iterate all `locations` where `is_oa: true` — catches preprints that the primary location doesn't expose.
+- **Taylor & Francis green OA:** Many T&F journals allow immediate preprint sharing. Check OpenAlex/Unpaywall for author-deposited versions.
 
 ### Download Methods
 
@@ -340,4 +355,5 @@ python3 PYTHON/find_orphaned_pdfs.py
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.1 | 2026-02-08 | Expanded strategy list (6→10), added Strategy Tips, EuropePMC/NeurIPS/MDPI patterns |
 | 1.0 | 2026-02-02 | Initial PDF processing standards |

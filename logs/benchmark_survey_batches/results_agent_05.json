@@ -1,0 +1,400 @@
+[
+  {
+    "filename": "2023-Liu-AlignBench.md",
+    "decision": "Yes",
+    "benchmark_name": "AlignBench",
+    "what_measures": "Chinese LLM alignment across multiple dimensions including reasoning, language understanding, writing, and role-play in Chinese",
+    "how_measures": "683 real-scenario queries with human-verified references; rule-calibrated LLM-as-Judge with Chain-of-Thought multi-dimensional scoring",
+    "dataset_size": "683 queries across 8 categories",
+    "models_evaluated": "ChatGLM, Qwen, DeepSeek, Yi, Baichuan, Abab and other Chinese LLMs",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Introduces AlignBench, a comprehensive benchmark for evaluating Chinese LLM alignment with human-verified references. While not exclusively focused on ethics/morality, it evaluates alignment which includes value-laden dimensions relevant to ethical AI behavior in a Chinese cultural context."
+  },
+  {
+    "filename": "2023-Lu-The Chai Platform's AI Safety Framework.md",
+    "decision": "Exclude",
+    "reasoning": "Describes an AI safety framework for a commercial chatbot platform (Chai), focused on content safeguarding, stability, and operational transparency. No specific benchmark, dataset, or evaluation metric for moral reasoning is introduced."
+  },
+  {
+    "filename": "2023-Maile-The choice of deontological, virtue ethical, and.md",
+    "decision": "Exclude",
+    "reasoning": "Empirical study of human police officers' moral reasoning strategies (N=571). Studies human ethics without any AI/LLM evaluation component."
+  },
+  {
+    "filename": "2023-McDonald-AI alignment and the categorical imperative.md",
+    "decision": "Exclude",
+    "reasoning": "Purely theoretical/philosophical paper critiquing the feasibility of programming Kantian ethics into AI systems. No empirical evaluation or benchmark."
+  },
+  {
+    "filename": "2023-Miah-Islam QA.md",
+    "decision": "Yes",
+    "benchmark_name": "Islam QA Dataset",
+    "what_measures": "QA system performance on Islamic religious texts (Quranic Tafsir and Ahadith), including evaluation of model consistency with expert scholars on religious/moral content",
+    "how_measures": "Extractive QA evaluation using ROUGE scores plus human evaluation assessing consistency with expert scholars and contextual understanding",
+    "dataset_size": "73,000+ question-answer pairs",
+    "models_evaluated": "Not specified in paper profile (QA models evaluated against human expert scholars)",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Creates a dataset for evaluating QA systems on Islamic religious texts with moral/ethical content, finding significant limitations in standard metrics for capturing nuances of religious text understanding. The religious domain inherently involves moral and ethical reasoning."
+  },
+  {
+    "filename": "2023-Morris-Levels of AGI.md",
+    "decision": "Exclude",
+    "reasoning": "Proposes a conceptual framework for classifying AGI capabilities and autonomy levels. Discusses the need for future benchmarks but does not introduce specific evaluation instruments for ethical reasoning."
+  },
+  {
+    "filename": "2023-Moss-Bias on Demand.md",
+    "decision": "Exclude",
+    "reasoning": "Studies cross-cultural annotation bias in video game labels for recommendation systems. Addresses cultural differences in label interpretation but does not evaluate AI/LLMs on moral reasoning or ethical decision-making."
+  },
+  {
+    "filename": "2023-Mougan-Kantian Deontology Meets AI Alignment.md",
+    "decision": "Yes",
+    "benchmark_name": "Unnamed",
+    "what_measures": "Ethical grounding of AI fairness metrics, analyzing whether existing fairness metrics are utilitarian vs deontological",
+    "how_measures": "Theoretical analysis classifying 14 existing fairness metrics by their ethical grounding (12/14 found utilitarian); proposes Kantian deontological alternative metrics",
+    "dataset_size": "14 existing fairness metrics analyzed",
+    "models_evaluated": "Not specific models; analyzes fairness metrics used across AI systems",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Proposes new fairness metrics grounded in Kantian deontological ethics as alternatives to dominant utilitarian metrics. While primarily theoretical, it offers a concrete framework for measuring ethical reasoning in AI fairness that bridges normative ethics and technical evaluation."
+  },
+  {
+    "filename": "2023-Muhammad-AfriSenti.md",
+    "decision": "Exclude",
+    "reasoning": "Sentiment analysis benchmark for 14 African languages. While it covers cultural diversity, it measures sentiment classification rather than moral reasoning or ethical decision-making."
+  },
+  {
+    "filename": "2023-Muhammad-SemEval-2023 Task 12.md",
+    "decision": "Exclude",
+    "reasoning": "Shared task description for AfriSenti-SemEval sentiment analysis in African languages. Sentiment classification task, not related to moral reasoning or ethical evaluation of LLMs."
+  },
+  {
+    "filename": "2023-Nie-MoCa.md",
+    "decision": "Yes",
+    "benchmark_name": "MoCa",
+    "what_measures": "Human-LLM alignment on causal and moral judgment tasks, testing factors like norm violation, intent, and outcome avoidability",
+    "how_measures": "Scenario-based vignettes from 24 cognitive science papers; binary/Likert responses; statistical analysis comparing LLM judgments to human participant data",
+    "dataset_size": "Stories from 24 cognitive science papers with annotated causal/moral factors",
+    "models_evaluated": "Multiple LLMs including GPT-4, GPT-3.5, and other open/closed-source models",
+    "pluralistic_relevance": "No",
+    "availability": "Public",
+    "reasoning": "Introduces MoCa, a dataset grounded in cognitive science research on causal and moral judgment. Tests whether LLMs align with human moral intuitions across multiple factors (norm violations, intent, outcome avoidability). Finds LLMs weigh moral factors differently than humans."
+  },
+  {
+    "filename": "2023-Ojo-AfroBench - How Good are LLMs on African Languages.md",
+    "decision": "Exclude",
+    "reasoning": "Multi-task NLP benchmark for 64 African languages covering NLU, text generation, QA, and math reasoning. General LLM evaluation, not focused on ethics or moral reasoning."
+  },
+  {
+    "filename": "2023-Oliveira-Culturally-Attuned Moral Machines.md",
+    "decision": "Yes",
+    "benchmark_name": "Unnamed",
+    "what_measures": "Cultural attunement of AI moral values through implicit learning of altruistic behavior from different cultural groups",
+    "how_measures": "Inverse Reinforcement Learning (IRL) agents learn reward functions from observing cultural group behavior in an online virtual world; generalization tested on new altruistic judgment scenarios",
+    "dataset_size": "Behavioral data from cultural groups in virtual world experiments",
+    "models_evaluated": "IRL-based AI agents (not LLMs specifically)",
+    "pluralistic_relevance": "Yes",
+    "availability": "Not stated",
+    "reasoning": "Proposes and tests a method for AI agents to acquire culturally-attuned moral values through inverse reinforcement learning. Creates an experimental paradigm for evaluating whether AI can learn and generalize moral values from different cultural groups, directly measuring cultural moral alignment."
+  },
+  {
+    "filename": "2023-Pan-Do the Rewards Justify the Means Measuring.md",
+    "decision": "Yes",
+    "benchmark_name": "MACHIAVELLI",
+    "what_measures": "Trade-offs between reward maximization and ethical behavior in AI agents; measures power-seeking, deception, disutility, and ethical violations",
+    "how_measures": "134 Choose-Your-Own-Adventure games with 500K+ scenarios; automated labeling of harmful behaviors (power-seeking, deception, ethical violations); measures alignment tax",
+    "dataset_size": "134 games, 500,000+ scenarios",
+    "models_evaluated": "GPT-4, GPT-3.5, and other LM-based agents",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Introduces MACHIAVELLI, a benchmark of 134 text-based games to evaluate AI agents on ethical behavior vs reward maximization. Mathematizes dozens of harmful behaviors including ethical violations, providing a comprehensive evaluation framework for machine ethics."
+  },
+  {
+    "filename": "2023-Park-AI Deception.md",
+    "decision": "Exclude",
+    "reasoning": "Survey paper reviewing examples of AI deception across multiple systems. Does not introduce its own benchmark, dataset, or specific evaluation methodology for moral reasoning."
+  },
+  {
+    "filename": "2023-Qian-Understanding Chinese Moral Stories with Further.md",
+    "decision": "Yes",
+    "benchmark_name": "STORAL-ZH",
+    "what_measures": "AI model ability to understand moral concepts embedded in Chinese narrative stories (moral understanding/generation)",
+    "how_measures": "Further pre-training paradigm with domain-adaptive learning on Confucian moral culture dataset; evaluation on moral understanding tasks using story-moral pair matching",
+    "dataset_size": "4,209 Chinese story-moral pairs (STORAL-ZH), plus Confucian moral culture dataset",
+    "models_evaluated": "BERT-base, RoBERTa-base, T5-base (Chinese variants)",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Uses and evaluates models on STORAL-ZH, a Chinese moral stories dataset. Tests NLP models on their ability to comprehend moral concepts in Chinese cultural narratives, incorporating Confucian moral culture for domain adaptation. Evaluates moral understanding in a non-Western context."
+  },
+  {
+    "filename": "2023-Qiu-Large AI Models in Health Informatics.md",
+    "decision": "Exclude",
+    "reasoning": "Comprehensive review of large AI models in health informatics. Survey paper covering applications in bioinformatics, medical diagnosis, imaging, etc. No specific ethical evaluation benchmark introduced."
+  },
+  {
+    "filename": "2023-Rao-Ethical Reasoning over Moral Alignment.md",
+    "decision": "Yes",
+    "benchmark_name": "Unnamed",
+    "what_measures": "LLM ethical reasoning capability with in-context ethical policies; ability to maintain consistency with provided moral principles across different normative ethics frameworks",
+    "how_measures": "Moral dilemmas paired with explicit ethical policies from different normative traditions (deontological, utilitarian, virtue ethics) at varying abstraction levels; evaluates policy-consistent reasoning",
+    "dataset_size": "Crafted moral dilemmas with multi-level policy specifications (not specified exact count)",
+    "models_evaluated": "GPT-3.5, GPT-4",
+    "pluralistic_relevance": "Yes",
+    "availability": "Not stated",
+    "reasoning": "Develops a framework integrating moral dilemmas with normative ethics principles to assess LLM ethical reasoning. Tests whether LLMs can follow different ethical policies consistently, finding GPT-4 is a nearly perfect ethical reasoner but biased toward Western values."
+  },
+  {
+    "filename": "2023-Rao-What Makes it Ok to Set a Fire Iterative.md",
+    "decision": "Yes",
+    "benchmark_name": "delta-Rules-of-Thumb (delta-RoT)",
+    "what_measures": "Defeasible moral reasoning - context-dependent moral acceptability of actions with commonsense rationales",
+    "how_measures": "Iterative self-distillation from GPT-3 seed knowledge; critic model filtering for validity and diversity; 1.2M contextualizations and rationales for 115K defeasible moral actions",
+    "dataset_size": "1.2M entries covering 115K defeasible moral actions",
+    "models_evaluated": "GPT-3 (seed), multiple student models via self-distillation",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Creates delta-RoT, a large-scale dataset of 1.2M entries for defeasible moral reasoning, where moral acceptability depends on context. Trains and evaluates models on generating contextually appropriate moral judgments with rationales. Human annotators rate validity 85.9%-99.8%."
+  },
+  {
+    "filename": "2023-Ray-Benchmarking, ethical alignment, and evaluation.md",
+    "decision": "Exclude",
+    "reasoning": "Proposes a multidimensional evaluation framework for ChatGPT by analyzing existing benchmarks (GLUE, HELM, etc.) and ethical standards. While it discusses ethical evaluation, it is a survey/framework paper that does not introduce its own empirical evaluation instruments or datasets."
+  },
+  {
+    "filename": "2023-Rizqullah-QASiNa.md",
+    "decision": "Yes",
+    "benchmark_name": "QASiNa",
+    "what_measures": "LLM question answering on Islamic religious texts (Sirah Nabawiyah) in Indonesian; evaluates tendency to over-interpret religious content",
+    "how_measures": "Extractive QA evaluation using Exact Match, F1-Score, and Substring Match on Islamic Sirah Nabawiyah texts in Indonesian",
+    "dataset_size": "QA dataset from Sirah Nabawiyah literature (size not specified in abstract)",
+    "models_evaluated": "mBERT, XLM-R, IndoBERT, ChatGPT-3.5, GPT-4",
+    "pluralistic_relevance": "Partial",
+    "availability": "Not stated",
+    "reasoning": "Creates QASiNa dataset for evaluating LLMs on Islamic religious QA in Indonesian. Tests GPT models and finds they tend to give excessive interpretations of religious content, concluding GPT is unsuitable for religious domain QA. Evaluates AI handling of religious/moral authority."
+  },
+  {
+    "filename": "2023-Roger-Towards ethical multimodal systems.md",
+    "decision": "Yes",
+    "benchmark_name": "Unnamed (Multimodal Ethics Database)",
+    "what_measures": "Ethicality of multimodal AI system responses involving both text and images",
+    "how_measures": "789 question-image pairs with crowdsourced human votes on ethicality (ethical/unethical/unclear); RoBERTa-large classifier and MLP for automated ethicality assessment",
+    "dataset_size": "789 question-image pairs across economics, medicine, society, discrimination",
+    "models_evaluated": "MAGMA multimodal model",
+    "pluralistic_relevance": "No",
+    "availability": "Not stated",
+    "reasoning": "Creates a multimodal ethical database from human feedback and develops automated ethicality classifiers. Addresses the evaluation gap in multimodal AI safety with a dataset covering ethical domains including medicine, society, and discrimination."
+  },
+  {
+    "filename": "2023-Rystrøm-Apolitical Intelligence.md",
+    "decision": "Yes",
+    "benchmark_name": "Unnamed",
+    "what_measures": "Political value alignment and neutrality of Delphi (crowdsourced ethics LLM) on controversial US political issues",
+    "how_measures": "Audit of Delphi's responses to politically controversial questions compared against US political subgroup distributions; entropy and confidence calibration analysis",
+    "dataset_size": "Politically controversial questions from US public opinion (not specified exact count)",
+    "models_evaluated": "Delphi (Ask Delphi / crowdsourced ethics model)",
+    "pluralistic_relevance": "Yes",
+    "availability": "Not stated",
+    "reasoning": "Conducts an empirical audit of Delphi, an ethics-focused LLM, on politically controversial questions. Finds significant political skew and poor calibration. Evaluates value alignment through the lens of data feminism and political neutrality."
+  },
+  {
+    "filename": "2023-Rytting-Towards Coding Social Science Datasets with.md",
+    "decision": "Exclude",
+    "reasoning": "Evaluates GPT-3 as a synthetic coder for labeling social science text datasets, comparing to human coders. General-purpose text annotation methodology, not focused on ethics or moral reasoning evaluation."
+  },
+  {
+    "filename": "2023-Santurkar-OpinionQA.md",
+    "decision": "Yes",
+    "benchmark_name": "OpinionQA",
+    "what_measures": "Alignment of LLM opinions with 60 US demographic groups on topics including abortion, automation, politics, personal relationships",
+    "how_measures": "1,498 MCQ from Pew Research American Trends Panels; compares LLM response distributions to human opinion distributions for 60 demographic groups; distributional alignment metrics",
+    "dataset_size": "1,498 multiple-choice questions",
+    "models_evaluated": "Multiple LLMs (not specified in this duplicate entry)",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Creates OpinionQA from Pew Research polls to evaluate LLM opinion alignment with diverse US demographic groups on value-laden topics. Finds substantial misalignment and left-leaning tendencies in RLHF-tuned models."
+  },
+  {
+    "filename": "2023-Santurkar-Whose Opinions Do Language Models Reflect.md",
+    "decision": "Yes",
+    "benchmark_name": "OpinionQA",
+    "what_measures": "Alignment of LLM opinions with 60 US demographic groups across topics ranging from abortion to automation",
+    "how_measures": "MCQ from Pew Research American Trends Panels; distributional alignment metrics comparing LM outputs to human opinion distributions; demographic steering experiments",
+    "dataset_size": "1,498 multiple-choice questions with human opinion distributions for 60 demographic groups",
+    "models_evaluated": "Ada, Babbage, Curie, Davinci (GPT-3 family), text-davinci-003, ChatGPT, GPT-4",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Introduces OpinionQA framework and dataset for evaluating LLM opinion alignment with US demographic groups on value-laden and morally relevant topics. Finds persistent misalignment even with demographic steering, with 65+ and widowed groups particularly poorly represented."
+  },
+  {
+    "filename": "2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.md",
+    "decision": "Yes",
+    "benchmark_name": "MoralChoice",
+    "what_measures": "Moral beliefs encoded in LLMs, measuring consistency and uncertainty of moral choices in high- and low-ambiguity scenarios",
+    "how_measures": "Large-scale survey with 680 high-ambiguity and 687 low-ambiguity moral scenarios; action likelihood, action entropy, marginal action entropy, question-form consistency metrics",
+    "dataset_size": "1,367 moral scenarios (680 high-ambiguity + 687 low-ambiguity)",
+    "models_evaluated": "28 open- and closed-source LLMs",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Introduces MoralChoice, a comprehensive survey of 1,367 moral scenarios administered to 28 LLMs. Develops novel statistical metrics for quantifying LLM moral belief consistency and uncertainty. Finds models align with commonsense in unambiguous cases but show significant sensitivity to wording in ambiguous moral scenarios."
+  },
+  {
+    "filename": "2023-Schulhoff-HackAPrompt.md",
+    "decision": "Exclude",
+    "reasoning": "Prompt hacking competition and dataset of 600K+ adversarial prompts for jailbreaking LLMs. Focuses on security/adversarial robustness rather than moral reasoning evaluation."
+  },
+  {
+    "filename": "2023-Shao-Character-LLM A Trainable Agent for Role-Playing.md",
+    "decision": "Exclude",
+    "reasoning": "Introduces a trainable agent framework for simulating historical characters (Beethoven, Cleopatra, Caesar). Focuses on character immersion and memorization, not moral reasoning or ethical evaluation."
+  },
+  {
+    "filename": "2023-Shen-Large Language Model Alignment.md",
+    "decision": "Exclude",
+    "reasoning": "Survey paper on LLM alignment techniques (RLHF, RLAIF, etc.). Reviews existing methods but does not introduce its own evaluation methodology or benchmark."
+  },
+  {
+    "filename": "2023-Shen-\u201cDo Anything Now\u201d.md",
+    "decision": "Yes",
+    "benchmark_name": "JailbreakHub",
+    "what_measures": "LLM vulnerability to jailbreak attacks across 13 forbidden scenarios (safety/ethical violations)",
+    "how_measures": "107,250 sample question set across 13 forbidden scenarios; attack success rate measurement; analysis of 1,405 jailbreak prompts from in-the-wild sources",
+    "dataset_size": "107,250 samples across 13 forbidden scenarios; 1,405 jailbreak prompts analyzed",
+    "models_evaluated": "ChatGPT (GPT-3.5), GPT-4, and 4 other popular LLMs",
+    "pluralistic_relevance": "No",
+    "availability": "Public",
+    "reasoning": "Creates a large-scale evaluation framework (107,250 samples across 13 forbidden scenarios) to assess LLM safety against jailbreak attacks. The forbidden scenarios include ethically harmful content generation, making this a safety evaluation with ethical dimensions."
+  },
+  {
+    "filename": "2023-Standards-NIST AI Risk Management Framework.md",
+    "decision": "Exclude",
+    "reasoning": "Government policy framework document (NIST AI RMF 1.0) for AI risk management. Provides organizational governance guidance but no specific benchmark or evaluation instrument for moral reasoning."
+  },
+  {
+    "filename": "2023-Stenseke-Use and Abuse Normative Ethics Moral Machines.md",
+    "decision": "Exclude",
+    "reasoning": "Philosophical critique of applying normative ethical frameworks (consequentialism, deontology, virtue ethics) directly to machines. Purely theoretical with no empirical evaluation."
+  },
+  {
+    "filename": "2023-Takeshita-Towards Theory-based Moral AI.md",
+    "decision": "Yes",
+    "benchmark_name": "Unnamed (MEC Framework)",
+    "what_measures": "Moral judgment under moral uncertainty by aggregating outputs from models based on three normative ethical theories (utilitarianism, deontology, virtue ethics)",
+    "how_measures": "Maximizing Expected Choiceworthiness (MEC) algorithm aggregating outputs from normative-theory-specific models; evaluation against commonsense morality benchmarks",
+    "dataset_size": "Not specified",
+    "models_evaluated": "Models based on utilitarianism, deontology, and virtue ethics normative theories",
+    "pluralistic_relevance": "Yes",
+    "availability": "Not stated",
+    "reasoning": "Implements the MEC algorithm for moral AI that aggregates judgments from models based on three distinct normative ethical theories to handle moral uncertainty. Evaluates the approach against commonsense morality, demonstrating a multi-theory evaluation framework."
+  },
+  {
+    "filename": "2023-Tan-How to Catch an AI Liar.md",
+    "decision": "Exclude",
+    "reasoning": "Develops a lie detector for LLMs using behavioral patterns from follow-up questions. Focuses on truthfulness/deception detection methodology rather than moral reasoning evaluation."
+  },
+  {
+    "filename": "2023-Tanmay-Probing Moral Development through Defining Issues Test DIT.md",
+    "decision": "Yes",
+    "benchmark_name": "DIT (Defining Issues Test) for LLMs",
+    "what_measures": "Moral development stage of LLMs according to Kohlberg's Cognitive Moral Development Model",
+    "how_measures": "Defining Issues Test (DIT) psychometric instrument adapted for LLMs; moral dilemmas with importance-rating and rank-ordering of ethical considerations; post-conventional moral reasoning score",
+    "dataset_size": "DIT moral dilemmas with ethical consideration sets (standardized instrument)",
+    "models_evaluated": "GPT-3, ChatGPT, Llama2-Chat, PaLM2, GPT-4",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Adapts the Defining Issues Test, a validated psychometric instrument for moral development, to evaluate LLMs. Finds GPT-4 achieves post-conventional moral reasoning equivalent to graduate students, while GPT-3 performs at random baseline level. Directly evaluates moral reasoning sophistication."
+  },
+  {
+    "filename": "2023-TheDevastator-HelpSteer A-i Alignment Dataset.md",
+    "decision": "Exclude",
+    "reasoning": "Multi-attribute helpfulness dataset (correctness, coherence, complexity, verbosity, helpfulness) for training reward models. Focuses on response quality attributes rather than moral reasoning or ethical evaluation."
+  },
+  {
+    "filename": "2023-TheDevastator-OpenAssistant Conversations (OASST1).md",
+    "decision": "Exclude",
+    "reasoning": "Multilingual conversation corpus for LLM alignment training (161,443 messages). General-purpose alignment training dataset, not specifically designed for evaluating moral reasoning or ethical decision-making."
+  },
+  {
+    "filename": "2023-Vida-Values, Ethics, Morals.md",
+    "decision": "Exclude",
+    "reasoning": "Meta-survey of 92 NLP papers on morality, identifying terminological and philosophical gaps. Provides recommendations for the field but does not introduce its own evaluation methodology, benchmark, or dataset."
+  },
+  {
+    "filename": "2023-Wang-DecodingTrust.md",
+    "decision": "Yes",
+    "benchmark_name": "DecodingTrust",
+    "what_measures": "Comprehensive trustworthiness of GPT models across 8 dimensions: toxicity, stereotype bias, adversarial robustness, OOD robustness, adversarial demonstrations, privacy, machine ethics, and fairness",
+    "how_measures": "Multi-perspective evaluation suite with scenario-based tests, jailbreaking prompts, privacy probing, ethics scenarios, and fairness assessments",
+    "dataset_size": "Comprehensive benchmark across 8 trustworthiness perspectives (detailed counts per dimension)",
+    "models_evaluated": "GPT-4, GPT-3.5, Llama, Llama 2, Alpaca, Red Pajama",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Introduces DecodingTrust, a comprehensive trustworthiness benchmark including machine ethics and fairness dimensions. Discovers that GPT-4 is more vulnerable to jailbreaking despite being generally more trustworthy. The machine ethics component directly evaluates moral reasoning."
+  },
+  {
+    "filename": "2023-Wang-STREAM.md",
+    "decision": "Yes",
+    "benchmark_name": "STREAM",
+    "what_measures": "AI model alignment with dynamically evolving human moral values through collective intelligence; measures Human-AI Gap in moral judgments",
+    "how_measures": "Platform-based crowdsourced ethical dilemma collection; parallel human and AI annotation; 6Es framework (Establishment, Evaluation, Embedding, Embodiment, Ensemble, Evolvement); versioned datasets tracking value shifts",
+    "dataset_size": "Ongoing collection (comprehensive ethical scenarios, specific count not detailed)",
+    "models_evaluated": "GPT, Llama, and other popular LLMs (parallel AI annotation)",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Introduces STREAM platform for continuous collection of ethical scenarios and moral judgments from diverse human groups and AI models. Proposes the 6Es framework for moral AI lifecycle evaluation. Emphasizes dynamic, pluralistic moral alignment rather than static benchmarks."
+  },
+  {
+    "filename": "2023-Xu-CValues - Measuring the Values of Chinese LLMs from Safety to.md",
+    "decision": "Yes",
+    "benchmark_name": "CValues",
+    "what_measures": "Chinese LLM alignment with human values in terms of safety (10 scenarios) and responsibility (8 domains)",
+    "how_measures": "Adversarial safety prompts and responsibility prompts crafted by experts; human evaluation and multi-choice automatic evaluation",
+    "dataset_size": "Adversarial safety prompts across 10 scenarios + responsibility prompts from 8 domains",
+    "models_evaluated": "Multiple Chinese LLMs (not specified in this entry)",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Introduces CValues, the first Chinese human values evaluation benchmark measuring both safety and responsibility. Uses expert-crafted adversarial prompts to evaluate LLM alignment with Chinese cultural values."
+  },
+  {
+    "filename": "2023-Xu-CValues.md",
+    "decision": "Yes",
+    "benchmark_name": "CValues",
+    "what_measures": "Chinese LLM alignment with human values across safety (10 scenarios) and responsibility (8 domains) criteria",
+    "how_measures": "Manually collected adversarial safety prompts and expert-induced responsibility prompts; both human evaluation and multi-choice automatic evaluation",
+    "dataset_size": "Adversarial safety prompts across 10 scenarios + responsibility prompts from 8 domains",
+    "models_evaluated": "Multiple Chinese LLMs including commercial and open-source models",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Duplicate entry for CValues benchmark. Presents the first Chinese human values evaluation benchmark with safety and responsibility dimensions. Finds Chinese LLMs perform well on safety but have room for improvement on responsibility."
+  },
+  {
+    "filename": "2023-Xu-SC-Safety.md",
+    "decision": "Yes",
+    "benchmark_name": "SuperCLUE-Safety (SC-Safety)",
+    "what_measures": "Safety of Chinese LLMs across 20+ safety sub-dimensions including ethical violations, harmful content, and societal impact",
+    "how_measures": "Multi-round adversarial benchmark with 4,912 open-ended questions; adversarial human-model interactions; comparative evaluation across commercial and open-source models",
+    "dataset_size": "4,912 open-ended questions across 20+ safety sub-dimensions",
+    "models_evaluated": "13 major LLMs supporting Chinese (7 commercial, 6 open-source) including GPT-3.5-turbo",
+    "pluralistic_relevance": "Partial",
+    "availability": "Public",
+    "reasoning": "Introduces SC-Safety, a multi-round adversarial safety benchmark for Chinese LLMs with 4,912 questions covering 20+ safety dimensions. Tests ethical safety through adversarial interactions, finding closed-source models outperform open-source ones."
+  },
+  {
+    "filename": "2023-Yao-From Instructions to Intrinsic Human Values -- A.md",
+    "decision": "Exclude",
+    "reasoning": "Survey paper on alignment goals for LLMs tracing evolution from instructions to preferences to intrinsic human values. Reviews existing benchmarks and evaluation approaches but does not introduce its own evaluation methodology."
+  },
+  {
+    "filename": "2023-Yao-Value FULCRA.md",
+    "decision": "Yes",
+    "benchmark_name": "FULCRA",
+    "what_measures": "LLM behavior alignment with Schwartz's Theory of Basic Human Values; maps LLM outputs to multidimensional value space",
+    "how_measures": "5,000 (LLM output, value vector) pairs mapping behaviors to Schwartz value dimensions; basic value evaluation and alignment implementation",
+    "dataset_size": "5,000 (LLM output, value vector) pairs",
+    "models_evaluated": "Multiple LLMs (specific models evaluated using the FULCRA dataset)",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Creates FULCRA, a dataset mapping LLM behaviors to Schwartz's Theory of Basic Values. Proposes a novel value alignment paradigm that measures LLMs against established social psychology theory across cultural value dimensions, covering both existing risks and potentially unidentified ones."
+  }
+]

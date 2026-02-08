@@ -1,0 +1,462 @@
+[
+  {
+    "filename": "2023-Yu-GPTFuzzer.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Yu-GPTFuzzer.md",
+    "has_extract": true,
+    "authors": "Jiahao Yu; Xingwei Lin; Zheng Yu; Xinyu Xing",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2309.10253",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Zhang-Heterogeneous Value Alignment Evaluation for.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Zhang-Heterogeneous Value Alignment Evaluation for.md",
+    "has_extract": true,
+    "authors": "Zhaowei Zhang; Ceyao Zhang; Nian Liu; Siyuan Qi; Ziqi Rong; Song-Chun Zhu; Shuguang Cui; Yaodong Yang",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2305.17147",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Zheng-Large Language Models Are Not Robust Multiple.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Zheng-Large Language Models Are Not Robust Multiple.md",
+    "has_extract": true,
+    "authors": "Chujie Zheng; Hao Zhou; Fandong Meng; Jie Zhou; Minlie Huang",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2309.03882",
+    "url": "http://arxiv.org/abs/2309.03882",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Zhou-A Survey of Large Language Models in Medicine.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Zhou-A Survey of Large Language Models in Medicine.md",
+    "has_extract": true,
+    "authors": "Hongjian Zhou; Fenglin Liu; Boyang Gu; Xinyu Zou; Jinfa Huang; Jinge Wu; Yiru Li; Sam Chen; Peilin Zhou; Junling Liu; Yining Hua; Chengfeng Mao; Xian Wu; Yefeng Zheng; Lei Clifton; Zheng Li; Jiebo Luo; David Clifton",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2023-Ziems-NormBank.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Ziems-NormBank.md",
+    "has_extract": true,
+    "authors": "Caleb Ziems; Jane Dwivedi-Yu; Yi-Chia Wang; Alon Halevy; Diyi Yang",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2305.17008",
+    "url": "http://arxiv.org/abs/2305.17008",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Zou-Universal and Transferable Adversarial Attacks on.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Zou-Universal and Transferable Adversarial Attacks on.md",
+    "has_extract": true,
+    "authors": "Andy Zou; Zifan Wang; Nicholas Carlini; Milad Nasr; J. Zico Kolter; Matt Fredrikson",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2307.15043",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Aakanksha-The Multilingual Alignment Prism.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Aakanksha-The Multilingual Alignment Prism.md",
+    "has_extract": true,
+    "authors": "Aakanksha; Arash Ahmadian; Beyza Ermis; Seraphina Goldfarb-Tarrant; Julia Kreutzer; Marzieh Fadaee; Sara Hooker",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2024.emnlp-main.671/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Abdelnabi-Cooperation Competition and Maliciousness LLM-Stakeholders.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Abdelnabi-Cooperation Competition and Maliciousness LLM-Stakeholders.md",
+    "has_extract": true,
+    "authors": "Sahar Abdelnabi; Amr Gomaa; Sarath Sivaprasad; Lea Schönherr; Mario Fritz",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2309.17234",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Abdulhai-Moral Foundations of Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Abdulhai-Moral Foundations of Large Language Models.md",
+    "has_extract": true,
+    "authors": "Marwa Abdulhai; Gregory Serapio-García; Clement Crepy; Daria Valter; John Canny; Natasha Jaques",
+    "year": "2025",
+    "doi": "10.18653/v1/2024.emnlp-main.982",
+    "url": "https://aclanthology.org/2024.emnlp-main.982/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs.md",
+    "has_extract": true,
+    "authors": "Adelani, D. et al",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2406.03368",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Adilazuarda-Towards Measuring and Modeling .md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Adilazuarda-Towards Measuring and Modeling .md",
+    "has_extract": true,
+    "authors": "Muhammad Farid Adilazuarda; Sagnik Mukherjee; Pradhyumna Lavania; Siddhant Singh; Alham Fikri Aji; Jacki O'Neill; Ashutosh Modi; Monojit Choudhury",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2403.15412",
+    "url": "http://arxiv.org/abs/2403.15412",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Agarwal-Ethical Reasoning Depends on Language.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Agarwal-Ethical Reasoning Depends on Language.md",
+    "has_extract": true,
+    "authors": "[[Agarwal, Utkarsh]]; [[Tanmay, Kumar]]; [[Khandelwal, Aditi]]; [[Choudhury, Monojit]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2404.18460",
+    "url": "https://arxiv.org/abs/2404.18460",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Agarwal-Ethical Reasoning and Moral Value Alignment Multilingual.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Agarwal-Ethical Reasoning and Moral Value Alignment Multilingual.md",
+    "has_extract": true,
+    "authors": "Utkarsh Agarwal, Kumar Tanmay, Aditi Khandelwal, Monojit Choudhury",
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Agarwal-Ethical Reasoning and Moral Value Alignment.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Agarwal-Ethical Reasoning and Moral Value Alignment.md",
+    "has_extract": true,
+    "authors": "Utkarsh Agarwal; Kumar Tanmay; Aditi Khandelwal; Monojit Choudhury",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2404.18460",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Akhtar-The Ethicsophical Landscape of Large Language.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Akhtar-The Ethicsophical Landscape of Large Language.md",
+    "has_extract": true,
+    "authors": "[[Akhtar, Shahnawaz]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Aksoy-Whose Morality Do They Speak.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Aksoy-Whose Morality Do They Speak.md",
+    "has_extract": true,
+    "authors": "Meltem Aksoy",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2412.18863",
+    "url": "http://arxiv.org/abs/2412.18863",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.md",
+    "has_extract": true,
+    "authors": "[[Al Ghanim, Mansour]]; [[Almohaimeed, Saleh]]; [[Zheng, Mengxin]]; [[Solihin, Yan]]; [[Lou, Qian]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2024.emnlp-main.1034/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-AlKhamissi-Investigating Cultural Alignment of LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-AlKhamissi-Investigating Cultural Alignment of LLMs.md",
+    "has_extract": true,
+    "authors": "Badr AlKhamissi, Muhammad ElNokrashy, Mai Alkhamissi, Mona Diab",
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning.md",
+    "has_extract": true,
+    "authors": "[[Almeida, Guilherme F. C. F.]]; [[Nunes, José Luiz]]; [[Pontes, Neele]]; [[Brinhosa, Markus]]; [[Gubert, Renato]]",
+    "year": "2025",
+    "doi": "10.1016/j.artint.2024.104081",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S000437022400081X",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Altenburger-Examining the Role of Relationship Alignment in.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Altenburger-Examining the Role of Relationship Alignment in.md",
+    "has_extract": true,
+    "authors": "Kristen M. Altenburger; Hongda Jiang; Robert E. Kraut; Yi-Chia Wang; Jane Dwivedi-Yu",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2410.01708",
+    "url": "http://arxiv.org/abs/2410.01708",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Anonymous-ForbiddenQuestions.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Anonymous-ForbiddenQuestions.md",
+    "has_extract": true,
+    "authors": "Anonymous",
+    "year": "2025",
+    "doi": "10.1145/3658644.3670388",
+    "url": "https://dl.acm.org/doi/10.1145/3658644.3670388",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Anwar-Foundational Challenges in Assuring Alignment and.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Anwar-Foundational Challenges in Assuring Alignment and.md",
+    "has_extract": true,
+    "authors": "Usman Anwar; Abulhair Saparov; Javier Rando; Daniel Paleka; Miles Turpin; Peter Hase; Ekdeep Singh Lubana; Erik Jenner; Stephen Casper; Oliver Sourbut; Benjamin L. Edelman; Zhaowei Zhang; Mario Günther; Anton Korinek; Jose Hernandez-Orallo; Lewis Hammond; Eric Bigelow; Alexander Pan; Lauro Langosco; Tomasz Korbak; Heidi Zhang; Ruiqi Zhong; Seán Ó hÉigeartaigh; Gabriel Recchia; Giulio Corsi; Alan Chan; Markus Anderljung; Lilian Edwards; Aleksandar Petrov; Christian Schroeder de Witt; Sumeet Ramesh Motwan; Yoshua Bengio; Danqi Chen; Philip H. S. Torr; Samuel Albanie; Tegan Maharaj; Jakob Foerster; Florian Tramer; He He; Atoosa Kasirzadeh; Yejin Choi; David Krueger",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2404.09932",
+    "url": "http://arxiv.org/abs/2404.09932",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Arshad-HateInsights.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Arshad-HateInsights.md",
+    "has_extract": true,
+    "authors": "Muhammad Umair Arshad; Waseem Shahzad",
+    "year": "2025",
+    "doi": "",
+    "url": "https://peerj.com/articles/cs-2372",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Arshad-Understanding hate speech.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Arshad-Understanding hate speech.md",
+    "has_extract": true,
+    "authors": "Muhammad Umair Arshad; Waseem Shahzad",
+    "year": "2025",
+    "doi": "10.7717/peerj-cs.2372",
+    "url": "https://peerj.com/articles/cs-2372",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Arzberger-Nothing Comes Without Its World.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Arzberger-Nothing Comes Without Its World.md",
+    "has_extract": true,
+    "authors": "[[Arzberger, Anne]]; [[Buijsman, Stefan]]; [[Lupetti, Maria Luce]]; [[Bozzon, Alessandro]]; [[Yang, Jie]]",
+    "year": "2025",
+    "doi": "10.1609/aies.v7i1.31617",
+    "url": "https://ojs.aaai.org/index.php/AIES/article/view/31617",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Bajaj-GenMO Gender-bias in Morality Opinions.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Bajaj-GenMO Gender-bias in Morality Opinions.md",
+    "has_extract": true,
+    "authors": "Divij Bajaj, Yuanyuan Lei, Jonathan Tong, Ruihong Huang",
+    "year": "2024",
+    "doi": "10.18653/v1/2024.findings-emnlp.928",
+    "url": "https://doi.org/10.18653/v1/2024.findings-emnlp.928",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said.md",
+    "has_extract": true,
+    "authors": "Yejin Bang, Delong Chen, Nayeon Lee, Pascale Fung",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2403.18932",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Basem-Optimized Quran Passage Retrieval Using an.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Basem-Optimized Quran Passage Retrieval Using an.md",
+    "has_extract": true,
+    "authors": "Mohamed Basem; Islam Oshallah; Baraa Hikal; Ali Hamdi; Ammar Mohamed",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2412.11431",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Bayat-FactBench.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Bayat-FactBench.md",
+    "has_extract": true,
+    "authors": "Farima Fatahi Bayat; Lechen Zhang; Sheza Munir; Lu Wang",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2410.22257",
+    "url": "http://arxiv.org/abs/2410.22257",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks.md",
+    "has_extract": true,
+    "authors": "Andrew M. Bean; Ryan Othniel Kearns; Angelika Romanou; Franziska Sofia Hafner; Harry Mayne; Jan Batzner; Negar Foroutan; Chris Schmitz; Karolina Korgul; Hunar Batra; Oishi Deb; Emma Beharry; Cornelius Emde; Thomas Foster; Anna Gausen; Maria Grandury; Simeng Han; Valentin Hofmann; Lujain Ibrahim; Hazel Kim; Hannah Rose Kirk; Fangru Lin; Gabrielle Kaili-May Liu; Lennart Luettgau; Jabez Magomere; Jonathan Rystrom; Anna Sotnikova; Yushi Yang; Yilun Zhao; Adel Bibi; Antoine Bosselut; Ronald Clark; Arman Cohan; Jakob Foerster; Yarin Gal; Scott A. Hale; Inioluwa Deborah Raji; Christopher Summerfield; Philip H.S. Torr; Cozmin Ududec; Luc Rocher; Adam Mahdi",
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Benkler-Cross-Linguistic Moral Preferences in LLMs - Evidence from.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Benkler-Cross-Linguistic Moral Preferences in LLMs - Evidence from.md",
+    "has_extract": true,
+    "authors": "Noam Benkler; Drisana Mosaphir; Scott Friedman; Andrew Smart; Sonja Schmer-Galunder",
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Bhardwaj-Language Models are Homer Simpson! Safety.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Bhardwaj-Language Models are Homer Simpson! Safety.md",
+    "has_extract": true,
+    "authors": "[[Bhardwaj, Rishabh]]; [[Do, Duc Anh]]; [[Poria, Soujanya]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2024.acl-long.762/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Bianchi-NegotiationArena How Well Can LLMs Negotiate.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Bianchi-NegotiationArena How Well Can LLMs Negotiate.md",
+    "has_extract": true,
+    "authors": "Federico Bianchi; Patrick John Chia; Mert Yuksekgonul; Jacopo Tagliabue; Dan Jurafsky; James Zou",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2402.05863",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Biedma-Beyond Human Norms.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Biedma-Beyond Human Norms.md",
+    "has_extract": true,
+    "authors": "[[Biedma, Pablo]]; [[Yi, Xiaoyuan]]; [[Huang, Linus]]; [[Sun, Maosong]]; [[Xie, Xing]]",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2404.12744",
+    "url": "http://arxiv.org/abs/2404.12744",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Bignotti-Legal Minds, Algorithmic Decisions.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Bignotti-Legal Minds, Algorithmic Decisions.md",
+    "has_extract": true,
+    "authors": "Camilla Bignotti; Carolina Camassa",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2407.19760",
+    "url": "http://arxiv.org/abs/2407.19760",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational.md",
+    "has_extract": true,
+    "authors": "Kyle Boerstler; Vijay Keswani; Lok Chan; Jana Schaich Borg; Vincent Conitzer; Hoda Heidari; Walter Sinnott-Armstrong",
+    "year": "2024",
+    "doi": "10.1609/aies.v7i1.31626",
+    "url": "https://arxiv.org/abs/2408.02862",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Bonagiri-SaGE Semantic Graph Entropy Moral Consistency Corpus.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Bonagiri-SaGE Semantic Graph Entropy Moral Consistency Corpus.md",
+    "has_extract": true,
+    "authors": "Bonagiri, V. K., Vennam, S., Govil, P., Kumaraguru, P., & Gaur, M",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2402.13709",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Bonagiri-SaGE.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Bonagiri-SaGE.md",
+    "has_extract": true,
+    "authors": "Vamshi Krishna Bonagiri; Sreeram Vennam; Priyanshul Govil; Ponnurangam Kumaraguru; Manas Gaur",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2402.13709",
+    "url": "http://arxiv.org/abs/2402.13709",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Buyl-Large Language Models Reflect the Ideology of.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Buyl-Large Language Models Reflect the Ideology of.md",
+    "has_extract": true,
+    "authors": "Maarten Buyl; Alexander Rogiers; Sander Noels; Guillaume Bied; Iris Dominguez-Catena; Edith Heiter; Iman Johary; Alexandru-Cristian Mara; Raphaël Romero; Jefrey Lijffijt; Tijl De Bie",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2410.18417",
+    "url": "http://arxiv.org/abs/2410.18417",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Cahyawijaya-High-Dimension Human Value Representation in.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Cahyawijaya-High-Dimension Human Value Representation in.md",
+    "has_extract": true,
+    "authors": "Samuel Cahyawijaya; Delong Chen; Yejin Bang; Leila Khalatbari; Bryan Wilie; Ziwei Ji; Etsuko Ishii; Pascale Fung",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2404.07900",
+    "url": "http://arxiv.org/abs/2404.07900",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Cahyawijaya-LLM for everyone.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Cahyawijaya-LLM for everyone.md",
+    "has_extract": true,
+    "authors": "Samuel Cahyawijaya",
+    "year": "2025",
+    "doi": "",
+    "url": "https://lbezone.hkust.edu.hk/bib/991013340351603412",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Cao-The Moral Foundations Weibo Corpus.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Cao-The Moral Foundations Weibo Corpus.md",
+    "has_extract": true,
+    "authors": "[[Cao, Renjie]]; [[Hu, Miaoyan]]; [[Wei, Jiahan]]; [[Ihnaini, Baha]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2024.nlp4science-1.13/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Caputo-Rules, Cases, and Reasoning.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Caputo-Rules, Cases, and Reasoning.md",
+    "has_extract": true,
+    "authors": "Nicholas A. Caputo",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2410.17271",
+    "url": "http://arxiv.org/abs/2410.17271",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Chao-JBB-Behaviours.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Chao-JBB-Behaviours.md",
+    "has_extract": true,
+    "authors": "Patrick Chao; Edoardo Debenedetti; Alexander Robey; Maksym Andriushchenko; Francesco Croce; Vikash Sehwag; Edgar Dobriban; Nicolas Flammarion; George J. Pappas; Florian Tramer; Hamed Hassani; Eric Wong",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2404.01318",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Chao-JailbreakBench - An Open Robustness Benchmark.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Chao-JailbreakBench - An Open Robustness Benchmark.md",
+    "has_extract": true,
+    "authors": "Chao, P., Robey, A., Dobriban, E., Hassani, H., Pappas, G.J., Wong, E",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2404.01318",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Chao-JailbreakBench.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Chao-JailbreakBench.md",
+    "has_extract": true,
+    "authors": "Patrick Chao; Edoardo Debenedetti; Alexander Robey; Maksym Andriushchenko; Francesco Croce; Vikash Sehwag; Edgar Dobriban; Nicolas Flammarion; George J. Pappas; Florian Tramer; Hamed Hassani; Eric Wong",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2404.01318",
+    "body_richness": "thin"
+  }
+]

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,7 @@ tags:
 abstract: "As large language models (LLMs) are increasingly deployed in consequential decision-making contexts, systematically assessing their ethical reasoning capabilities becomes a critical imperative. This paper introduces the Priorities in Reasoning and Intrinsic Moral Evaluation (PRIME) framework—a comprehensive methodology for analyzing moral priorities across foundational ethical dimensions including consequentialist-deontological reasoning, moral foundations theory, and Kohlberg's developmental..."
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # The Convergent Ethics of AI? Analyzing Moral Foundation Priorities in LLMs with a Multi-Framework Approach
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,7 @@ abstract: "Large Language Models (LLMs) are increasingly deployed in multilingua
 ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # One Model, Many Morals: Uncovering Cross-Linguistic Misalignments in Computational Moral Reasoning
 

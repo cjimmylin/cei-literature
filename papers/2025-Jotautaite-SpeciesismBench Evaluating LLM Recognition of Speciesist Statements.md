@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,7 @@ abstract: "As large language models (LLMs) become more widely deployed, it is cr
 ethics_perspective: "Bias & Fairness"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # SpeciesismBench: Evaluating LLM Recognition of Speciesist Statements
 

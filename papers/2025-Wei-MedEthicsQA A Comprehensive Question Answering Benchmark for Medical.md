@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,7 @@ abstract: "While Medical Large Language Models (MedLLMs) have demonstrated remar
 ethics_perspective: "Applied Ethics"
 data_description: "Benchmark for moral/ethical reasoning dataset for question answering"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Borderline
 ---
 # MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics Evaluation of LLMs
 

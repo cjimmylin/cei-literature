@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,7 @@ abstract: "As AI systems like language models are increasingly integrated into d
 ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "50 scenarios"
+normative_ethics_benchmark: Yes
 ---
 # OffTheRails: Procedural Dilemma Generation for Moral Reasoning
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,7 @@ abstract: "We evaluate the moral alignment of LLMs with human preferences in mul
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach text corpus"
 data_metrics: "100 languages"
+normative_ethics_benchmark: Borderline
 ---
 # MULTITP -- Language Model Alignment in Multilingual Trolley Problems
 

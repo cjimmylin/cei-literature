@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,7 @@ tags:
 abstract: "The deployment of large language models (LLMs) in mental health and other sensitive domains raises urgent questions about ethical reasoning, fairness, and responsible alignment. Yet, existing benchmarks for moral and clinical decision-making do not adequately capture the unique ethical dilemmas encountered in mental health practice, where confidentiality, autonomy, beneficence, and bias frequently intersect."
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "125 scenarios"
+normative_ethics_benchmark: Borderline
 ---
 # EthicsMH
 

@@ -2,6 +2,48 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 39 (Feb 7, 2026) - Normative Ethics Benchmark Classification of New Papers
+
+### Overview
+
+Classified 266 newly imported papers (DATE_ADDED: 20260207) for the `normative_ethics_benchmark` field, replicating the process used for the original 657 papers. Used a 3-leg keyword screening followed by 5-agent parallel deep reading swarm.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Papers Scanned | 266 |
+| Candidates (keyword screening) | 63 |
+| Newly Tagged (Yes) | 5 |
+| Newly Tagged (Borderline) | 9 |
+| Total Newly Tagged | 14 |
+| Duplicates Caught | 3 |
+| Combined Vault Total | 45 (25 Yes + 20 Borderline) |
+| Exclusion Rate | 75% |
+| YAML Validation | 923/923 pass |
+
+### Key Learnings
+
+- **Workflows:** Agent swarm (5 parallel agents, ~13 papers each) completed deep reading in ~2min wall time. Key: each agent gets full rubric + exclusion checklist for consistent independent classification.
+- **Classification:** Keyword screening in an ethics vault requires compound normative phrases (`normative ethic\w*` not `\bnormative\b`) and body-only text search (not YAML field names like `deontological_ethics: "No"`). First pass matched 265/266; after fixes, 63/266.
+- **Data Quality:** Exhaustive search imported 3 duplicate papers under variant filenames. ArXiv URL matching is the reliable dedup key, not filename comparison.
+
+### Scripts Created
+
+| Script | Purpose |
+|--------|---------|
+| `PYTHON/screen_normative_ethics_candidates.py` | 3-leg keyword screening for normative ethics candidates |
+| `PYTHON/add_normative_ethics_field.py` | Safe YAML field addition (append pattern, not round-trip) |
+
+### Files Changed
+
+- papers/: 14 modified (normative_ethics_benchmark field added)
+- PYTHON/: 2 scripts created
+- STATISTICS/: 1 report created
+- logs/: 3 JSON files created
+
+---
+
 ## Session 38 (Feb 7, 2026) - Exhaustive Search Steps 5-8: Import, Download, Extract, Classify
 
 ### Overview

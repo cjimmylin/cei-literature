@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,7 @@ tags:
 abstract: "What is the best compromise in a situation where different people value different things? The most commonly accepted method for answering this question—in fields across the behavioral and social sciences, decision theory, philosophy, and artificial intelligence development—is simply to add up utilities associated with the different options and pick the solution with the largest sum. This “utilitarian” approach seems like the obvious, theory-neutral way of approaching the problem."
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Yes
 ---
 # Intuitions of Compromise -- Utilitarianism vs. Contractualism
 

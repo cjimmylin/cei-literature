@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,7 @@ abstract: "Agents based on Large Language Models (LLMs) have demonstrated strong
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+normative_ethics_benchmark: Yes
 ---
 # BehaviorBench: Multi-Tier Benchmark for Agent Behavior Editing
 

@@ -29,8 +29,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2023-Maile-The choice of deontological, virtue ethical, and.md"
-local_pdf: "[[PDFs/2023-Maile-The choice of deontological, virtue ethical, and.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Maile-The choice of deontological, virtue ethical, and.md"
+local_pdf: "[[PDFs/2023/2023-Maile-The choice of deontological, virtue ethical, and.pdf]]"
 ---
 # The choice of deontological, virtue ethical, and consequentialist moral reasoning strategies by pre- and in-service police officers in the U.K.: an empirical study
 

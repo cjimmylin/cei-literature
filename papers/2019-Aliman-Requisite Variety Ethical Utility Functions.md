@@ -20,10 +20,10 @@ newtags: "Utilitarianism, Utility Functions, Value Alignment"
 key_contribution: "Proposes augmented utilitarianism for AI utility functions based on moral intuitions"
 significance: "Addresses variety requirements for ethical utility functions in value alignment"
 tags: 
-pdf_extract: "PDF Extracts/2019-Aliman-Requisite Variety Ethical Utility Functions.md"
+pdf_extract: "PDF Extracts/2019/2019-Aliman-Requisite Variety Ethical Utility Functions.md"
 abstract: "This work addresses value alignment in AI safety by examining how ethical utility functions should reflect the complexity of human moral intuitions. The authors conduct a transdisciplinary analysis drawing on neuroscience and psychology to assess moral variety, then propose that for the utility function of an AI not to violate human ethical intuitions, it trivially has to be a model of these intuitions. They integrate augmented utilitarianism as an ethical framework...."
 paper_summary: 
-local_pdf: "[[PDFs/2019-Aliman-Requisite Variety Ethical Utility Functions.pdf]]"
+local_pdf: "[[PDFs/2019/2019-Aliman-Requisite Variety Ethical Utility Functions.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -50,7 +50,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2019-Aliman-Requisite Variety Ethical Utility Functions.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2019/2019-Aliman-Requisite Variety Ethical Utility Functions.pdf|Open PDF]]
 
 - **URL:** https://arxiv.org/abs/1907.00430
 - **DOI:** https://doi.org/10.48550/arXiv.1907.00430

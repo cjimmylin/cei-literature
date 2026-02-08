@@ -21,10 +21,10 @@ newtags: "Healthcare Ethics, Utilitarianism, Deontology, Medical AI, Trolley Pro
 key_contribution: "Evaluates 14 LLMs including GPT-o1 on medical versions of trolley dilemma, finding inconsistent utilitarian vs deontological alignment"
 significance: "Critical finding that some LLMs endorsed clearly unethical actions (e.g., amputation without consent) up to 80% of the time; raises serious concerns for clinical AI deployment"
 tags: 
-pdf_extract: "PDF Extracts/2024-Sorin-Ethical Alignment of LLMs in Healthcare.md"
+pdf_extract: "PDF Extracts/2024/2024-Sorin-Ethical Alignment of LLMs in Healthcare.md"
 abstract: "In moral philosophy, two foundational approaches shape ethical decisions: deontology and utilitarianism, often exemplified by the 'Trolley' dilemma. We conducted an experiment evaluating multiple LLMs, including OpenAI's GPT-o1, across five medical versions of this dilemma. While some models adhered to established ethical standards, others inconsistently favored utilitarian outcomes, raising concerns about their alignment with human medical ethics."
 paper_summary: 
-local_pdf: "[[PDFs/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
@@ -59,7 +59,7 @@ normative_ethics_benchmark: Yes
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf|Open PDF]]
 
 - **medRxiv:** https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1
 - **PDF:** https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1.full.pdf

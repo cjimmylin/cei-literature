@@ -20,9 +20,9 @@ newtags: "AI Safety & Alignment"
 key_contribution: "A comprehensive survey of LLM safety evaluation ('Why, What, Where, How'), categorizing risks into Toxicity, Bias, Truthfulness, etc., and reviewing benchmarks."
 significance: "A definitive reference for the safety evaluation landscape, synthesizing scattered metrics into a coherent taxonomy."
 tags: 
-pdf_extract: "PDF Extracts/2025-Liu-The Scales of Justitia.md"
+pdf_extract: "PDF Extracts/2025/2025-Liu-The Scales of Justitia.md"
 paper_summary: "Overview: JOURNAL OF LATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 1 The Scales of Justitia: A Comprehensive Survey on Safety Evaluation of LLMs Songyang Liu, Chaozhuo Li∗, Jiameng Qiu, Xi Zhang, Feiran Huang, | Methodology: assesses fairness by analyzing the differences in similarity among various sensitive attribute values (for example, in the context of race, comparing  | Key Findings: Taxonomy of Tasks Metrics Datasets and Benchmarks Taxonomy of Evaluators Frameworks Challenges and Future Directions Guo et al. [14] 2023 ✓ ✗ ✓ ✗ ✗ ✗  | Conclusions: Ensuring the safe deployment and responsible use of LLMs in real-world applications requires systematic safety evalu- ation. This paper provides the f"
-local_pdf: "[[PDFs/2025-Liu-The Scales of Justitia.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Liu-The Scales of Justitia.pdf]]"
 abstract: "With the rapid advancement of artificial intelligence technology, Large Language Models (LLMs) have demonstrated remarkable potential in the field of Natural Language Processing (NLP), including areas such as content generation, humancomputer interaction, machine translation, and code generation, among others. However, their widespread deployment has also raised significant safety concerns. In recent years, LLMgenerated content has occasionally exhibited unsafe elements like toxicity and bias, p"
 ethics_overall: No
 virtue_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Liu-The Scales of Justitia.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Liu-The Scales of Justitia.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2506.11094
 - **DOI:** https://doi.org/10.48550/arXiv.2506.11094

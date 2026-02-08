@@ -12,8 +12,8 @@ first_author: "[[Richard Willis]]"
 authors: Richard Willis; Yali Du; Joel Z Leibo; Michael Luck
 url: "https://arxiv.org/abs/2501.16173"
 external_pdf: "https://arxiv.org/pdf/2501.16173.pdf"
-local_pdf: "[[PDFs/2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social.pdf]]"
-pdf_extract: "PDF Extracts/2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social.md"
+local_pdf: "[[PDFs/2025/2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "No"

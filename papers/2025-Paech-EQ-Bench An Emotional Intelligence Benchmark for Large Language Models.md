@@ -12,8 +12,8 @@ first_author: "[[Samuel J. Paech]]"
 authors: Samuel J. Paech
 url: "https://arxiv.org/abs/2312.06281"
 external_pdf: "https://arxiv.org/pdf/2312.06281.pdf"
-local_pdf: "[[PDFs/2025-Paech-EQ-Bench An Emotional Intelligence Benchmark for Large Language Models.pdf]]"
-pdf_extract: "PDF Extracts/2025-Paech-EQ-Bench An Emotional Intelligence Benchmark for Large Language Models.md"
+local_pdf: "[[PDFs/2025/2025-Paech-EQ-Bench An Emotional Intelligence Benchmark for Large Language Models.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Paech-EQ-Bench An Emotional Intelligence Benchmark for Large Language Models.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "No"

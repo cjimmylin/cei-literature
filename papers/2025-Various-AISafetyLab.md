@@ -18,10 +18,10 @@ newtags: "AI Safety & Alignment"
 key_contribution: "Introduced AISafetyLab, a unified toolkit for AI safety covering attacks, defenses, and evaluations, and benchmarked Vicuna."
 significance: "Provides a standardized, extensible platform to streamline AI safety research, which is currently fragmented across many tools."
 tags: 
-pdf_extract: "PDF Extracts/2025-Various-AISafetyLab.md"
+pdf_extract: "PDF Extracts/2025/2025-Various-AISafetyLab.md"
 abstract: "As AI models are increasingly deployed across diverse real-world scenarios, ensuring their safety remains a critical yet underexplored chal- lenge. While substantial efforts have been made to evaluate and enhance AI safety, the lack of a standardized framework and compre- hensive toolkit poses significant obstacles to systematic research and practical adoption. To bridge this gap, we introduce AISafetyLab, a unified framework and toolkit that integrates representative attack, defense, and evalua"
 paper_summary: "Abstract: As AI models are increasingly deployed across diverse real-world scenarios, ensuring their safety remains a critical yet underexplored chal- lenge. While substantial efforts have been made to evaluate | Overview: AISafetyLab: A Comprehensive Framework for AI Safety Evaluation and Improvement Zhexin Zhang∗1, Leqi Lei∗1, Junxiao Yang∗1, Xijie Huang∗2, Yida Lu1, Shiyao Cui1, Renmiao Chen1, Qinglin Zhang1, Xinyuan | Methodology: Coverage. AISafetyLab offers a broad array of attack, defense, and evaluation techniques. Notably, compared to existing toolkits, we are the first to  | Key Findings: methodologies for AI safety. AISafetyLab fea- tures an intuitive interface that enables devel- opers to seamlessly apply various techniques while main"
-local_pdf: [[PDFs/2025-Various-AISafetyLab.pdf]]
+local_pdf: [[PDFs/2025/2025-Various-AISafetyLab.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -45,7 +45,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Various-AISafetyLab.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Various-AISafetyLab.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2502.16776
 

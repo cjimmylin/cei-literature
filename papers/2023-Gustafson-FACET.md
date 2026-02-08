@@ -30,8 +30,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2023-Gustafson-FACET.md"
-local_pdf: [[PDFs/2023-Gustafson-FACET.pdf]]
+pdf_extract: "PDF Extracts/2023/2023-Gustafson-FACET.md"
+local_pdf: [[PDFs/2023/2023-Gustafson-FACET.pdf]]
 ---
 # FACET: Fairness in Computer Vision Evaluation Benchmark
 

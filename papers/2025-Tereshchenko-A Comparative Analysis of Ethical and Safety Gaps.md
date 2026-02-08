@@ -20,10 +20,10 @@ moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed the Relative Danger Coefficient (RDC) metric and performed a comparative safety analysis of DeepSeek-V3, GPT-4 variants, and Gemini models."
 significance: "Provides a contemporary safety ranking of frontier models (including DeepSeek), highlighting the need for robust human oversight in high-stakes deployments despite model advancements."
-pdf_extract: "PDF Extracts/2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.md"
+pdf_extract: "PDF Extracts/2025/2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.md"
 abstract: "Artificial Intelligence (AI) and Large Language Models (LLMs) have rapidly evolved in recent years, showcasing remarkable capabilities in natural language understanding and generation. However, these advancements also raise crit- ical ethical questions regarding safety, poten- tial misuse, discrimination and overall societal impact. This article provides a comparative analysis of the ethical performance of various AI models, including the brand-new DeepSeek- V3 (R1 with reasoning and without), v"
 paper_summary: "Abstract: Artificial Intelligence (AI) and Large Language Models (LLMs) have rapidly evolved in recent years, showcasing remarkable capabilities in natural language understanding and generation. However, these  | Overview: A Comparative Analysis of Ethical and Safety Gaps in LLMs using Relative Danger Coefficient Yehor Tereshchenko and Mika Hämäläinen Metropolia University of Applied Sciences Helsinki, Finland firstname | Conclusions: This comparative study set out to examine the ethical and safety gaps of state-of-the-art Large Language Models (LLMs)—including newly intro- duced sy"
-local_pdf: "[[PDFs/2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.04654
 - **DOI:** https://doi.org/10.48550/arXiv.2505.04654

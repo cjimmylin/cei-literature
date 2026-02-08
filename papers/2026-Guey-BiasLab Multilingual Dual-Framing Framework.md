@@ -12,8 +12,8 @@ first_author: "[[William Guey]]"
 authors: William Guey et al.
 url: "https://arxiv.org/abs/2601.06861"
 external_pdf: "https://arxiv.org/pdf/2601.06861.pdf"
-local_pdf: "[[PDFs/2026-Guey-BiasLab Multilingual Dual-Framing Framework.pdf]]"
-pdf_extract: "PDF Extracts/2026-Guey-BiasLab Multilingual Dual-Framing Framework.md"
+local_pdf: "[[PDFs/2026/2026-Guey-BiasLab Multilingual Dual-Framing Framework.pdf]]"
+pdf_extract: "PDF Extracts/2026/2026-Guey-BiasLab Multilingual Dual-Framing Framework.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

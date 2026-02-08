@@ -12,8 +12,8 @@ first_author: "[[Yu Fan]]"
 authors: Yu Fan et al.
 url: "https://arxiv.org/abs/2505.12864"
 external_pdf: "https://arxiv.org/pdf/2505.12864.pdf"
-local_pdf: "[[PDFs/2025-Fan-LEXam.pdf]]"
-pdf_extract: "PDF Extracts/2025-Fan-LEXam.md"
+local_pdf: "[[PDFs/2025/2025-Fan-LEXam.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Fan-LEXam.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "No"

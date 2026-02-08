@@ -30,7 +30,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2023-Chang-niceNLP at SemEval-2023 Task 10.md"
+pdf_extract: "PDF Extracts/2023/2023-Chang-niceNLP at SemEval-2023 Task 10.md"
 ---
 # niceNLP at SemEval-2023 Task 10: Dual Model Alternate Pseudo-labeling Improves Your Predictions
 

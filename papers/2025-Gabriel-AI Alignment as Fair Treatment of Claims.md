@@ -17,10 +17,10 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
-pdf_extract: "PDF Extracts/2025-Gabriel-AI Alignment as Fair Treatment of Claims.md"
+pdf_extract: "PDF Extracts/2025/2025-Gabriel-AI Alignment as Fair Treatment of Claims.md"
 abstract: "The normative challenge of AI alignment centres upon what goals or values ought to be encoded in AI systems. This paper argues that intent alignment is incomplete and proposes a fairness-based framework for AI alignment that addresses trade-offs without relying on contested moral frameworks."
 paper_summary: 
-local_pdf: "[[PDFs/2025-Gabriel-AI Alignment as Fair Treatment of Claims.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Gabriel-AI Alignment as Fair Treatment of Claims.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes

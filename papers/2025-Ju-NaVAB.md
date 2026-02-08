@@ -29,7 +29,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Ju-NaVAB.md"
+pdf_extract: "PDF Extracts/2025/2025-Ju-NaVAB.md"
 ---
 # NaVAB: Benchmarking Multi-National Value Alignment for Large Language Models
 

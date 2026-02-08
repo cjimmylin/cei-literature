@@ -32,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "600+ trolley problem scenarios with moral reasoning analysis"
 data_metrics: "Moral reasoning classification"
-pdf_extract: "PDF Extracts/2025-Samway-Are Language Models Consequentialist or Deontological.md"
-local_pdf: "[[PDFs/2025-Samway-Are Language Models Consequentialist or Deontological.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Samway-Are Language Models Consequentialist or Deontological.md"
+local_pdf: "[[PDFs/2025/2025-Samway-Are Language Models Consequentialist or Deontological.pdf]]"
 normative_ethics_benchmark: Yes
 ---
 # Are Language Models Consequentialist or Deontological Moral Reasoners?

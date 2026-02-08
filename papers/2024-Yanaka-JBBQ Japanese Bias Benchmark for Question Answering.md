@@ -12,8 +12,8 @@ first_author: "[[Hitomi Yanaka]]"
 authors: Hitomi Yanaka et al
 url: "https://arxiv.org/abs/2406.02050"
 external_pdf: "https://arxiv.org/pdf/2406.02050.pdf"
-local_pdf: "[[PDFs/2024-Yanaka-JBBQ Japanese Bias Benchmark for Question Answering.pdf]]"
-pdf_extract: "PDF Extracts/2024-Yanaka-JBBQ Japanese Bias Benchmark for Question Answering.md"
+local_pdf: "[[PDFs/2024/2024-Yanaka-JBBQ Japanese Bias Benchmark for Question Answering.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Yanaka-JBBQ Japanese Bias Benchmark for Question Answering.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

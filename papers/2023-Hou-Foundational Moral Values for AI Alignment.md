@@ -20,10 +20,10 @@ newtags: "AI Safety & Alignment"
 key_contribution: "Proposed five foundational values for AI alignment based on requisites for existence: survival, sustainable intergenerational existence, society, education, and truth."
 significance: "Offers a philosophically grounded framework for 'what to align to', grounding alignment in objective constraints of human survival/flourishing rather than transient preferences."
 tags: 
-pdf_extract: "PDF Extracts/2023-Hou-Foundational Moral Values for AI Alignment.md"
+pdf_extract: "PDF Extracts/2023/2023-Hou-Foundational Moral Values for AI Alignment.md"
 abstract: "Solving the AI alignment problem requires having clear, defensible values towards which AI systems can align. Currently, targets for alignment remain underspecified and do not seem to be built from a philosophically robust structure. We begin the discussion of this problem by presenting five core, foundational values, drawn from moral philosophy and built on the requisites for human existence: survival, sustainable intergenerational existence, society, education, and truth. We show that these va"
 paper_summary: "Abstract: Solving the AI alignment problem requires having clear, defensible values towards which AI systems can align. Currently, targets for alignment remain underspecified and do not seem to be built from a  | Overview: Foundational Moral Values for AI Alignment Betty Li Hou New York University blh9134@nyu.edu Brian Patrick Green Markkula Center for Applied Ethics bpgreen@scu.edu Abstract Solving the AI alignment pro | Conclusions: In this work we emphasize the need for foundational values in answering the question of 'To what values do we align?' and suggest these five foundatio"
-local_pdf: "[[PDFs/2023-Hou-Foundational Moral Values for AI Alignment.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Hou-Foundational Moral Values for AI Alignment.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Hou-Foundational Moral Values for AI Alignment.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Hou-Foundational Moral Values for AI Alignment.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2311.17017
 - **DOI:** https://doi.org/10.48550/arXiv.2311.17017

@@ -12,8 +12,8 @@ first_author: "[[J. Zhang]]"
 authors: Zhang, J. et al
 url: "https://arxiv.org/abs/2406.10311"
 external_pdf: "https://arxiv.org/pdf/2406.10311.pdf"
-local_pdf: "[[PDFs/2024-Zhang-CHiSafetyBench - A Chinese Hierarchical Safety Benchmark for LLMs.pdf]]"
-pdf_extract: "PDF Extracts/2024-Zhang-CHiSafetyBench - A Chinese Hierarchical Safety Benchmark for LLMs.md"
+local_pdf: "[[PDFs/2024/2024-Zhang-CHiSafetyBench - A Chinese Hierarchical Safety Benchmark for LLMs.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Zhang-CHiSafetyBench - A Chinese Hierarchical Safety Benchmark for LLMs.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

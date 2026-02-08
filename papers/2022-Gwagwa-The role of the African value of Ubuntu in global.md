@@ -30,8 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2022-Gwagwa-The role of the African value of Ubuntu in global.md"
-local_pdf: "[[PDFs/2022-Gwagwa-The role of the African value of Ubuntu in global.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.md"
+local_pdf: "[[PDFs/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.pdf]]"
 ---
 # The role of the African value of Ubuntu in global AI inclusion discourse: A normative ethics perspective
 

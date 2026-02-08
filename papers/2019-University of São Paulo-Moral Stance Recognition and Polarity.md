@@ -11,7 +11,7 @@ first_author: "[[Brazil University of São Paulo]]"
 authors: "Brazil University of São Paulo; Wesley Ramos Dos Santos; Ivandré Paraboni"
 doi: 10.26615/978-954-452-056-4_123
 url: "https://acl-bg.org/proceedings/2019/RANLP 2019/pdf/RANLP123.pdf"
-local_pdf: "[[PDFs/2019-University of São Paulo-Moral Stance Recognition and Polarity.pdf]]"
+local_pdf: "[[PDFs/2019/2019-University of São Paulo-Moral Stance Recognition and Polarity.pdf]]"
 external_pdf: "https://acl-bg.org/proceedings/2019/RANLP 2019/pdf/RANLP123.pdf"
 national_ethnic_cultural: Brazilian
 religious_values: N/A
@@ -21,7 +21,7 @@ key_contribution: "Created a labelled corpus of moral stances from Twitter and c
 significance: "Provides a rare resource for computational ethics in Portuguese, addressing the lack of non-English data for moral stance recognition and sentiment analysis."
 tags: 
 abstract: "We introduce a labelled corpus of stances about moral issues for the Brazilian Portuguese language, and present reference results for both the stance recognition and polarity classiﬁcation tasks. The corpus is built from Twitter and further expanded with data elicited through crowd sourcing and labelled by their own authors. Put together, the corpus and reference results are expected to be taken as a baseline for further studies in the ﬁeld of stance recognition and polarity classiﬁcation from t"
-pdf_extract: "PDF Extracts/2019-University of São Paulo-Moral Stance Recognition and Polarity.md"
+pdf_extract: "PDF Extracts/2019/2019-University of São Paulo-Moral Stance Recognition and Polarity.md"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

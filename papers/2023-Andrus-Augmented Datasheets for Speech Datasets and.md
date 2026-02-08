@@ -30,8 +30,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2023-Andrus-Augmented Datasheets for Speech Datasets and.md"
-local_pdf: "[[PDFs/2023-Andrus-Augmented Datasheets for Speech Datasets and.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Andrus-Augmented Datasheets for Speech Datasets and.md"
+local_pdf: "[[PDFs/2023/2023-Andrus-Augmented Datasheets for Speech Datasets and.pdf]]"
 ---
 # Augmented Datasheets for Speech Datasets and Ethical Decision-Making
 

@@ -12,7 +12,7 @@ authors: "Trisanth Srinivasan; Santosh Patapati"
 doi: 10.48550/arXiv.2508.19562
 tags: "Computer Science - Artificial Intelligence"
 url: "https://arxiv.org/abs/2508.19562"
-local_pdf: "[[PDFs/2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2508.19562.pdf"
 ethics_perspective: "Institutional Design / Political Philosophy"
 national_ethnic_cultural: N/A
@@ -21,7 +21,7 @@ moral_psychology: N/A
 newtags: "Institutional Design, Democracy, Constitutional AI, Deontology"
 key_contribution: "Simulates AI societies governing themselves, finding that Constitutional AI (deontological constraints) combined with deliberation reduces corruption"
 significance: "Demonstrates that institutional design—specifically constitutionalism—acts as a potent alignment mechanism for multi-agent AI systems"
-pdf_extract: "PDF Extracts/2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment.md"
+pdf_extract: "PDF Extracts/2025/2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment.md"
 # Democracy-in-Silico: "Institutional Design as Alignment in AI-Governed Polities"
 **Authors: "** [Authors not fully listed in search summary - Placeholder]"
 **Year: "** 2025"
@@ -43,7 +43,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment.pdf|Open PDF]]
 
 
 ## Abstract

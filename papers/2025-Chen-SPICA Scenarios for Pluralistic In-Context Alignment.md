@@ -12,8 +12,8 @@ first_author: "[[Quan Ze Chen]]"
 authors: Quan Ze Chen, Kevin Feng, Chan Young Park, Amy X. Zhang
 publication: ACL 2025
 external_pdf: "https://arxiv.org/pdf/2411.10912.pdf"
-local_pdf: "[[PDFs/2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment.pdf]]"
-pdf_extract: "PDF Extracts/2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment.md"
+local_pdf: "[[PDFs/2025/2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

@@ -22,8 +22,8 @@ utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 religious_values: "N/A"
 moral_psychology: "N/A"
-local_pdf: "[[PDFs/2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.pdf]]"
-pdf_extract: "PDF Extracts/2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.md"
+local_pdf: "[[PDFs/2025/2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.md"
 newtags: "Ethics-Testing, Reflective-Equilibrium, Behavioral-Inconsistency, LLM-Evaluation"
 is_benchmark: "Yes"
 is_eval: "Yes"
@@ -58,7 +58,7 @@ normative_ethics_benchmark: Borderline
 - **DOI:** https://doi.org/10.1145/3722554
 - **arXiv:** https://arxiv.org/abs/2305.02626
 - **Code:** https://github.com/LLM-Ethics/EthicsSuite
-- **Local PDF:** [[PDFs/2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.pdf|Open PDF]]
 
 ## Abstract
 

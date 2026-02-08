@@ -20,10 +20,10 @@ newtags: "Machine Ethics, Utilitarianism, Deontology, Virtue Ethics, Moral Enhan
 key_contribution: "Systematically compares Kantian, utilitarian, and virtue ethical approaches to machine ethics, demonstrating fundamental limitations of each for creating truly moral AI"
 significance: "Foundational philosophical analysis showing that well-working AI serving moral purposes does not equal building moral machines; computation cannot replicate moral feelings/motivation"
 tags: 
-pdf_extract: "PDF Extracts/2020-Serafimova-Whose Morality Which Rationality.md"
+pdf_extract: "PDF Extracts/2020/2020-Serafimova-Whose Morality Which Rationality.md"
 abstract: "This paper examines three different prospects for moral machines: deontological, utilitarian, and virtue ethical machines. By comparing and contrasting those theories, it aims to reveal how they face similar difficulties when relating the process of computation to that of estimation. The paper examines problems with the computation of moral feelings and moral motivation faced by a Kantian machine and an act utilitarian machine."
 paper_summary: 
-local_pdf: "[[PDFs/2020-Serafimova-Whose Morality Which Rationality.pdf]]"
+local_pdf: "[[PDFs/2020/2020-Serafimova-Whose Morality Which Rationality.pdf]]"
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes
@@ -53,7 +53,7 @@ data_metrics: N/A
 
 ## Links
 
-- **Local PDF:** [[PDFs/2020-Serafimova-Whose Morality Which Rationality.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2020/2020-Serafimova-Whose Morality Which Rationality.pdf|Open PDF]]
 
 - **Nature Article:** https://www.nature.com/articles/s41599-020-00614-8
 

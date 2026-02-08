@@ -20,10 +20,10 @@ moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed SPARTA ALIGNMENT, a multi-model alignment framework where LLMs compete and judge each other ('combat') to improve performance and alignment without human supervision."
 significance: "Demonstrates that collective, adversarial self-alignment among diverse models can outperform single-model self-alignment baselines and generalize better to unseen tasks."
-pdf_extract: "PDF Extracts/2025-Jiang-SPARTA ALIGNMENT.md"
+pdf_extract: "PDF Extracts/2025/2025-Jiang-SPARTA ALIGNMENT.md"
 abstract: "We propose SPARTA ALIGNMENT, an algorithm to collectively align multiple LLMs through competition and combat. To complement a single model’s lack of diversity in generation and biases in evaluation, multiple LLMs form a “sparta tribe” to compete against each other in fulfilling instructions while serving as judges for the competition of others. For each iteration, one instruction and two models are selected for a duel, the other models evaluate the two responses, and their evaluation scores are"
 paper_summary: "Abstract: We propose SPARTA ALIGNMENT, an algorithm to collectively align multiple LLMs through competition and combat. To complement a single model’s lack of diversity in generation and biases in evaluation, m | Overview: SPARTA ALIGNMENT: Collectively Aligning Multiple Language Models through Combat Yuru Jiang∗1 Wenxuan Ding∗2 Shangbin Feng∗3 Greg Durrett2 Yulia Tsvetkov3 1Zhejiang University 2New York University 3Uni | Methodology: Overview SPARTA ALIGNMENT assumes access to a pool of LLMs, denoted as M0 = {M 0 k}m k=1 where 0 denotes the 0-th iteration, and a dataset X. The mode | Key Findings: domains: (1) Domain-Specific Question Answering, including MedQA-US (MedQA) [46] and Normad [73]. Normad is a benchmark assessing LLMs’ cultural adapt | Conclusions: We propose SPARTA ALIGNMENT, a game-theoretic algorithm to collectively improve multiple LLMs through competition. Starting with a pool of diverse mod"
-local_pdf: "[[PDFs/2025-Jiang-SPARTA ALIGNMENT.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Jiang-SPARTA ALIGNMENT.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Jiang-SPARTA ALIGNMENT.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Jiang-SPARTA ALIGNMENT.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2506.04721
 - **DOI:** https://doi.org/10.48550/arXiv.2506.04721

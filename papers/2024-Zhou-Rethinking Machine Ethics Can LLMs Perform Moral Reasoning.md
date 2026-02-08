@@ -21,10 +21,10 @@ newtags: "Moral Reasoning, Deontology, Utilitarianism, Virtue Ethics, Top-Down E
 key_contribution: "Proposes flexible top-down framework steering LLMs to perform moral reasoning with established moral theories from interdisciplinary research"
 significance: "Demonstrates effectiveness of theory-guided approach over bottom-up crowd-sourced methods; shows all models perform best with deontological framework"
 tags: 
-pdf_extract: "PDF Extracts/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.md"
+pdf_extract: "PDF Extracts/2024/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.md"
 abstract: "Making moral judgments is an essential step toward developing ethical AI systems. Prevalent approaches are mostly implemented in a bottom-up manner using annotated data to train models based on crowd-sourced opinions, which have been criticized for overgeneralizing moral stances and lacking explainability. This work proposes a flexible top-down framework to steer Large Language Models to perform moral reasoning with well-established moral theories from interdisciplinary research."
 paper_summary: 
-local_pdf: "[[PDFs/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.pdf]]"
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes
@@ -61,7 +61,7 @@ normative_ethics_benchmark: Yes
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2024.findings-naacl.144/
 - **arXiv:** https://arxiv.org/abs/2308.15399

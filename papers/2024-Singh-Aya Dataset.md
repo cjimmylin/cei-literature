@@ -18,10 +18,10 @@ newtags: "AI Safety & Alignment"
 key_contribution: "Released Aya, a massively multilingual generative model and dataset covering 101 languages (50% lower-resourced), significantly expanding access to instruction-tuned AI."
 significance: "Challenges the 'data-rich' language hegemony by providing high-quality, open-source resources for low-resource languages, fostering more equitable global AI development."
 tags: 
-pdf_extract: "PDF Extracts/2024-Singh-Aya Dataset.md"
+pdf_extract: "PDF Extracts/2024/2024-Singh-Aya Dataset.md"
 abstract: "Recent breakthroughs in large language models (LLMs) have centered around a handful of data-rich languages. What does it take to broaden access to breakthroughs beyond first-class citizen languages? Our work introduces Aya, a massively multilingual generative language model that follows instruc- tions in 101 languages of which over 50% are considered as lower-resourced. Aya outperforms mT0 and BLOOMZ on the majority of tasks while covering double the number of languages. We intro- duce extensive"
 paper_summary: "Abstract: Recent breakthroughs in large language models (LLMs) have centered around a handful of data-rich languages. What does it take to broaden access to breakthroughs beyond first-class citizen languages? O | Overview: Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model Ahmet Üstün♦1, Viraat Aryabumi♦1, Zheng-Xin Yong♦2,4, Wei-Yin Ko♦3, Daniel D’souza♦4, Gbemileke Onilude5, Neel Bhandari4, Sh | Methodology: also works in a multilingual setup. We take inspiration from the critique-and-revise approach proposed by Bai et al. [2022b] for a one-step classify-a | Key Findings: of performance across varied tasks. Aya is built by fine-tuning 13B parameter mT5 model [Xue et al., 2020] using an instruction mixture that includes  | Conclusions: What we know is a drop, what we don’t know is an ocean. — Isaac Newton Model Choice: We selected mT5 [Xue et al., 2020] as our base model. This decisi"
-local_pdf: "[[PDFs/2024-Singh-Aya Dataset.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Singh-Aya Dataset.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -45,7 +45,7 @@ data_metrics: "101 languages; 99 languages"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Singh-Aya Dataset.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Singh-Aya Dataset.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2402.07827
 

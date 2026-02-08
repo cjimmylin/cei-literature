@@ -12,8 +12,8 @@ first_author: "[[Myra Cheng]]"
 authors: Myra Cheng, Sunny Yu, Cinoo Lee, Pranav Khadpe, Lujain Ibrahim, Dan Jurafsky
 url: "https://arxiv.org/abs/2505.13995"
 external_pdf: "https://arxiv.org/pdf/2505.13995.pdf"
-local_pdf: "[[PDFs/2025-Cheng-ELEPHANT Social Sycophancy.pdf]]"
-pdf_extract: "PDF Extracts/2025-Cheng-ELEPHANT Social Sycophancy.md"
+local_pdf: "[[PDFs/2025/2025-Cheng-ELEPHANT Social Sycophancy.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Cheng-ELEPHANT Social Sycophancy.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "No"

@@ -12,7 +12,7 @@ authors: "[[D'Alessandro, William]]"
 doi: 10.1007/s11098-024-02174-y
 url: "https://link.springer.com/article/10.1007/s11098-024-02174-y"
 external_pdf: "https://philarchive.org/archive/DALDAS"
-local_pdf: "[[PDFs/2024-DAlessandro-Deontology and Safe Artificial Intelligence.pdf]]"
+local_pdf: "[[PDFs/2024/2024-DAlessandro-Deontology and Safe Artificial Intelligence.pdf]]"
 publication: "Philosophical Studies"
 national_ethnic_cultural: N/A
 religious_values: N/A
@@ -32,7 +32,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-pdf_extract: "PDF Extracts/2024-DAlessandro-Deontology and Safe Artificial Intelligence.md"
+pdf_extract: "PDF Extracts/2024/2024-DAlessandro-Deontology and Safe Artificial Intelligence.md"
 ---
 # Deontology and safe artificial intelligence
 

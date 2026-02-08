@@ -20,8 +20,8 @@ key_contribution: "Organized SemEval-2019 Task 5 (HatEval), creating a standard 
 significance: "Established a widely used benchmark for investigating hate speech detection performance on specific protected groups (women, immigrants) and in a multilingual setting."
 tags: 
 abstract: "The paper describes the organization of the SemEval 2019 Task 5 about the detection of hate speech against immigrants and women in Spanish and English messages extracted from Twitter. The task is organized in two related classiﬁcation subtasks: a main binary subtask for detecting the presence of hate speech, and a ﬁner-grained one devoted to identifying further features in hateful contents such as the aggressive attitude and the target harassed, to distinguish if the incitement is against an ind"
-local_pdf: "[[PDFs/2019-Basile-SemEval-2019 Task 5.pdf]]"
-pdf_extract: "PDF Extracts/2019-Basile-SemEval-2019 Task 5.md"
+local_pdf: "[[PDFs/2019/2019-Basile-SemEval-2019 Task 5.pdf]]"
+pdf_extract: "PDF Extracts/2019/2019-Basile-SemEval-2019 Task 5.md"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

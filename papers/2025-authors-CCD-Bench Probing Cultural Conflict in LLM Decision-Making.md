@@ -12,8 +12,8 @@ first_author: "[[Multiple authors]]"
 authors: Multiple authors
 url: "https://arxiv.org/abs/2510.03553"
 external_pdf: "https://arxiv.org/pdf/2510.03553.pdf"
-local_pdf: "[[PDFs/2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.pdf]]"
-pdf_extract: "PDF Extracts/2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md"
+local_pdf: "[[PDFs/2025/2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

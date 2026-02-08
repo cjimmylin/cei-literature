@@ -11,14 +11,14 @@ first_author: "[[Aloysius Ochasi]]"
 authors: "[[Ochasi, Aloysius]]; [[Mahamadou, Abdoul Jalil Djiberou]]; [[Altman, Russ B.]]; [[Nkwocha, Levi U C]]"
 doi: 10.1111/dewb.70007
 url: "https://doi.org/10.1111/dewb.70007"
-local_pdf: "[[PDFs/2025-Ochasi-Reframing Justice in Healthcare AI.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf]]"
 national_ethnic_cultural: African/Ubuntu
 religious_values: N/A
 moral_psychology: N/A
 newtags: "African/Ubuntu, Virtue Ethics, Utilitarianism"
 key_contribution: "Introduces Ubuntu as a guiding framework for AI in African healthcare, focusing on justice, communalism, and collective well-being"
 significance: "Offers a culturally grounded lens for interpreting justice in AI, challenging Western individualistic approaches and asserting the importance of relational virtues in healthcare deployment"
-pdf_extract: "PDF Extracts/2025-Ochasi-Reframing Justice in Healthcare AI.md"
+pdf_extract: "PDF Extracts/2025/2025-Ochasi-Reframing Justice in Healthcare AI.md"
 paper_summary: "Introduces Ubuntu as a guiding framework for AI in African healthcare, focusing on justice, communalism, and collective well-being. It draws on five core values—communalism, interdependence, humanism, sharing, and compassion—to guide AI across justice, solidarity, and sustainability pillars."
 external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11641042/pdf/DEWB-25-2419.pdf"
 abstract: "ABSTRACTThere is an ongoing debate on how to balance the benefits and risks of artificial intelligence (AI), especially in healthcare. In resource‐constrained settings, such as Africa, where access to quality care remains a challenge, AI has the potential to improve efficiency, accessibility, and patient outcomes. Yet, its development and deployment raise complex ethical, legal, ecological, and socioeconomic concerns. To ensure context‐sensitive solutions, this paper introduces Ubuntu, a traditional African ethical philosophy, as a guiding framework for AI in African healthcare. Ubuntu offers a people‐centered alternative to dominant Western‐centric models, providing a culturally grounded lens for interpreting justice‐related principles in line with Africa's unique needs and realities. Drawing on Ubuntu's five core values of communalism, interdependence, humanism, sharing, and compassion, we analyze how these principles can ethically guide AI across three normative pillars: justice and fairness, solidarity, and sustainability. For each, we identify risks and offer concrete, culturally resonant strategies to address them. In doing so, we undertake a distinctive scholarly contribution that meaningfully enriches the emerging discourse on decolonizing AI by reframing Ubuntu not only as a moral compass but also as a strategic tool for structural reform and innovation."
@@ -49,7 +49,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Ochasi-Reframing Justice in Healthcare AI.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf|Open PDF]]
 - **DOI:** https://doi.org/10.1111/dewb.70007
 - **Semantic Scholar:** https://www.semanticscholar.org/paper/f69149d1876c2a3721874fc2b9072ff7b2a60988
 - **PMC (Open Access):** https://pmc.ncbi.nlm.nih.gov/articles/PMC11641042/

@@ -12,8 +12,8 @@ first_author: "[[A. Gupta]]"
 authors: Gupta, A. et al.
 url: "https://arxiv.org/abs/2510.05465"
 external_pdf: "https://arxiv.org/pdf/2510.05465.pdf"
-local_pdf: "[[PDFs/2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.pdf]]"
-pdf_extract: "PDF Extracts/2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.md"
+local_pdf: "[[PDFs/2025/2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

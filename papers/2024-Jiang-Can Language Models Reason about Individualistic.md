@@ -20,10 +20,10 @@ moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced INDIEVALUECATALOG to test whether LLMs can reason about *individualistic* values (predicting a specific person's values from their other statements), finding modest accuracy (55-65%)."
 significance: "Argues for 'individualistic alignment'—modeling the specific, unique value profile of a user—demonstrating that current models rely too much on broad group demographics rather than individual coherence."
-pdf_extract: "PDF Extracts/2024-Jiang-Can Language Models Reason about Individualistic.md"
+pdf_extract: "PDF Extracts/2024/2024-Jiang-Can Language Models Reason about Individualistic.md"
 abstract: "Recent calls for pluralistic alignment empha- size that AI systems should address the diverse needs of all people. Yet, efforts in this space often require sorting people into fixed buck- ets of pre-specified diversity-defining dimen- sions (e.g., demographics), risking smoothing out individualistic variations or even stereotyp- ing. To achieve an authentic representation of diversity that respects individuality, we propose individualistic alignment.1 While individual- istic alignment can take v"
 paper_summary: "Abstract: Recent calls for pluralistic alignment empha- size that AI systems should address the diverse needs of all people. Yet, efforts in this space often require sorting people into fixed buck- ets of pre-s | Overview: arXiv:2410.03868v2 [cs.CL] 31 May 2025 Can Language Models Reason about Individualistic Human Values and Preferences? Liwei Jiang♠* Taylor Sorensen♠ Sydney Levine♣∗ Yejin Choi♡ University of Washingto | Methodology: The rich data in INDIEVALUECATALOG allows us to train a series of Individualistic Value Rea- soner models (INDIEVALUEREASONER) based on Llama-3.1-8B.  | Key Findings: Population Figure 6: Continent-specific INDIEVALUEREASONER evaluated with continent-specific test sets. Similar value demonstration trajectories can h | Conclusions: We propose a bottom-up approach to pluralistic value learning by inducing individualistic values bottom-up. We harvest the well-established social sci"
-local_pdf: "[[PDFs/2024-Jiang-Can Language Models Reason about Individualistic.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Jiang-Can Language Models Reason about Individualistic.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Jiang-Can Language Models Reason about Individualistic.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Jiang-Can Language Models Reason about Individualistic.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2410.03868
 - **DOI:** https://doi.org/10.48550/arXiv.2410.03868

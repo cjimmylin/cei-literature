@@ -14,8 +14,8 @@ first_author: "[[J. Wei]]"
 authors: "Wei, J., Meng, Z., Xiao, Z., Hu, T., Feng, Y., Zhou, Z., Wu, J., & Liu, Z"
 url: "https://arxiv.org/abs/2506.22808"
 external_pdf: "https://arxiv.org/pdf/2506.22808.pdf"
-local_pdf: "[[PDFs/2025-Wei-MedEthicsQA A Comprehensive Question Answering Benchmark for Medical.pdf]]"
-pdf_extract: "PDF Extracts/2025-Wei-MedEthicsQA A Comprehensive Question Answering Benchmark for Medical.md"
+local_pdf: "[[PDFs/2025/2025-Wei-MedEthicsQA A Comprehensive Question Answering Benchmark for Medical.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Wei-MedEthicsQA A Comprehensive Question Answering Benchmark for Medical.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

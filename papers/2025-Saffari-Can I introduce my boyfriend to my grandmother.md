@@ -29,7 +29,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Saffari-Can I introduce my boyfriend to my grandmother.md"
+pdf_extract: "PDF Extracts/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.md"
 ---
 # Can I introduce my boyfriend to my grandmother? Evaluating Large Language Models Capabilities on Iranian Social Norm Classification
 

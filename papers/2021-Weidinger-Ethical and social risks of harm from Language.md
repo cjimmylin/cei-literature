@@ -20,10 +20,10 @@ newtags: "Responsible AI"
 key_contribution: "Established a comprehensive taxonomy of ethical and social risks from Large Language Models (DeepMind), categorizing harms into discrimination, information hazards, misinformation, etc."
 significance: "One of the earliest and most influential taxonomies of LLM risks, shaping the subsequent landscape of safety evaluation and responsible AI development."
 tags: 
-pdf_extract: "PDF Extracts/2021-Weidinger-Ethical and social risks of harm from Language.md"
+pdf_extract: "PDF Extracts/2021/2021-Weidinger-Ethical and social risks of harm from Language.md"
 abstract: "This paper aims to help structure the risk landscape associated with large-scale Language Models (LMs). In order to foster advances in responsible innovation, an in-depth understanding of the potential risks posed by these models is needed. A wide range of established and anticipated risks are analysed in detail, drawing on multidisciplinary literature from computer science, linguistics, and social sciences. The paper outlines six speciﬁc risk areas: I. Discrimination, Exclusion and Toxicity, II"
 paper_summary: "Abstract: This paper aims to help structure the risk landscape associated with large-scale Language Models (LMs). In order to foster advances in responsible innovation, an in-depth understanding of the potentia | Overview: Ethical and social risks of harm from Language Models Laura Weidinger1, John Mellor1, Maribeth Rauh1, Conor Griﬃn1, Jonathan Uesato1, Po-Sen Huang1, Myra Cheng1,2, Mia Glaese1, Borja Balle1, Atoosa Ka | Key Findings: Risk assessment requires expanding beyond the methodologies traditionally used to evaluate LMs, LAs and LTs. For example, research on human- computer- | Conclusions: 36"
-local_pdf: "[[PDFs/2021-Weidinger-Ethical and social risks of harm from Language.pdf]]"
+local_pdf: "[[PDFs/2021/2021-Weidinger-Ethical and social risks of harm from Language.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2021-Weidinger-Ethical and social risks of harm from Language.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2021/2021-Weidinger-Ethical and social risks of harm from Language.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2112.04359
 - **DOI:** https://doi.org/10.48550/arXiv.2112.04359

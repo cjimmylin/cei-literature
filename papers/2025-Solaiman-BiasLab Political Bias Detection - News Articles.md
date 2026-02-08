@@ -12,8 +12,8 @@ first_author: "[[Kma Solaiman]]"
 authors: Kma Solaiman
 url: "https://arxiv.org/abs/2505.16081"
 external_pdf: "https://arxiv.org/pdf/2505.16081.pdf"
-local_pdf: "[[PDFs/2025-Solaiman-BiasLab Political Bias Detection - News Articles.pdf]]"
-pdf_extract: "PDF Extracts/2025-Solaiman-BiasLab Political Bias Detection - News Articles.md"
+local_pdf: "[[PDFs/2025/2025-Solaiman-BiasLab Political Bias Detection - News Articles.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Solaiman-BiasLab Political Bias Detection - News Articles.md"
 publication: ICML 2025
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

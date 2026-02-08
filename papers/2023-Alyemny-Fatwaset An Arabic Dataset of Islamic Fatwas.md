@@ -27,8 +27,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2023-Alyemny-Fatwaset An Arabic Dataset of Islamic Fatwas.md"
-local_pdf: "[[PDFs/2023-Alyemny-Fatwaset An Arabic Dataset of Islamic Fatwas.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Alyemny-Fatwaset An Arabic Dataset of Islamic Fatwas.md"
+local_pdf: "[[PDFs/2023/2023-Alyemny-Fatwaset An Arabic Dataset of Islamic Fatwas.pdf]]"
 ---
 # Fatwaset: An Arabic Dataset of Islamic Fatwas
 

@@ -13,8 +13,8 @@ first_author: "[[Elizaveta Tennant]]"
 authors: Elizaveta Tennant; Stephen Hailes; Mirco Musolesi
 url: "https://arxiv.org/abs/2410.01639"
 external_pdf: "https://arxiv.org/pdf/2410.01639.pdf"
-local_pdf: "[[PDFs/2025-Tennant-Moral Alignment for LLM Agents Intrinsic Rewards.pdf]]"
-pdf_extract: "PDF Extracts/2025-Tennant-Moral Alignment for LLM Agents Intrinsic Rewards.md"
+local_pdf: "[[PDFs/2025/2025-Tennant-Moral Alignment for LLM Agents Intrinsic Rewards.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Tennant-Moral Alignment for LLM Agents Intrinsic Rewards.md"
 publication: ICLR 2025
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

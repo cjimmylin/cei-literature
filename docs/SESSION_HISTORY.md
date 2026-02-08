@@ -2,6 +2,60 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 45 (Feb 8, 2026) - Organize PDFs & Extracts into Year-Based Subdirectories
+
+### Overview
+
+Migrated 921 PDFs and 931 extracts from flat directories into year-based subdirectories (`PDFs/YYYY/`, `PDF Extracts/YYYY/`). Updated all YAML references (local_pdf, pdf_extract) and body wikilinks across 890 papers. Added year-aware helper functions to `pdf_utils.py` and updated 3 active scripts for the new layout.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| PDFs moved | 921 (into 12 year dirs: 2010–2026) |
+| Extracts moved | 931 (into 12 year dirs) |
+| Papers modified | 890 (YAML + body links) |
+| local_pdf fields updated | 824 |
+| pdf_extract fields updated | 875 |
+| Body wikilinks updated | 404 |
+| Scripts updated | 4 (pdf_utils.py, audit_pdf_links.py, process_inbox_pdfs.py, find_unlinked_pdfs.py) |
+| New script | migrate_pdfs_to_year_dirs.py (idempotent, --dry-run) |
+| Validation | 923/923 pass, 0 errors |
+| Audit | 825 valid links (unchanged from pre-migration) |
+
+### Year Distribution
+
+| Year | PDFs |
+|------|------|
+| 2024 | 283 |
+| 2025 | 373 |
+| 2023 | 117 |
+| 2022 | 48 |
+| 2026 | 23 |
+| 2021 | 23 |
+| 2020 | 21 |
+| 2018 | 13 |
+| 2019 | 12 |
+| 2016 | 6 |
+| 2010, 2015 | 1 each |
+
+### Key Learnings
+- [Architecture] `validate_pdf_link()` survived unchanged because `Path / "2024/file.pdf"` resolves correctly — Python's Path joining absorbs relative subpaths
+- [Migration] Regex idempotency: matching `PDFs/(\d{4})-` only catches flat paths; once migrated, re-runs are safe
+- [Scripts] Any script using `glob("*.pdf")` must be updated to `rglob("*.pdf")` after year-based reorganization
+- [Safety] Existing ethics-framework subdirs (Deontological/Virtue/Utilitarian Ethics/) are left untouched — separate org purpose
+
+### Files Created/Changed
+- `PYTHON/migrate_pdfs_to_year_dirs.py` — **NEW**: idempotent migration script with `--dry-run`
+- `.agent/lib/pdf_utils.py` — Added `resolve_pdf_path()`, `make_pdf_wikilink()`, `make_extract_path()`; fixed `find_orphaned_pdfs()` glob
+- `PYTHON/audit_pdf_links.py` — Fixed glob + path matching for year subdirs
+- `PYTHON/process_inbox_pdfs.py` — Year-aware PDF/extract destinations + YAML construction
+- `PYTHON/find_unlinked_pdfs.py` — Fixed glob to rglob
+- `papers/*.md` — 890 papers with updated YAML and body links
+- `PDF Extracts/YYYY/` — 931 extracts organized into 12 year subdirectories
+
+---
+
 ## Session 44 (Feb 8, 2026) - Process PDF INBOX + Create Skill
 
 ### Overview

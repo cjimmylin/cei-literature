@@ -28,8 +28,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md"
-local_pdf: "[[PDFs/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.pdf]]"
+pdf_extract: "PDF Extracts/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md"
+local_pdf: "[[PDFs/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.pdf]]"
 ---
 # DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020 (Africa Study Centre)
 

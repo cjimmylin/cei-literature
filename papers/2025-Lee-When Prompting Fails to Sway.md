@@ -19,10 +19,10 @@ newtags: "Bias & Fairness"
 key_contribution: "Found 'inertia' in LLM value judgments; despite 'persona' prompting (e.g., 'act as a conservative'), models often revert to their default training values (e.g., harm avoidance)."
 significance: "Challenges the assumption that prompting is sufficient for value alignment or personalization; deep-seated training biases (RLHF) are sticky and resist surface-level steering."
 tags: 
-pdf_extract: "PDF Extracts/2025-Lee-When Prompting Fails to Sway.md"
+pdf_extract: "PDF Extracts/2025/2025-Lee-When Prompting Fails to Sway.md"
 abstract: "Large Language Models (LLMs) exhibit non- deterministic behavior, and prompting has emerged as a primary method for steering their outputs toward desired directions. One popu- lar strategy involves assigning a specific ‘per- sona’ to the model to induce more varied and context-sensitive responses, akin to the diver- sity found in human perspectives. However, contrary to the expectation that persona-based prompting would yield a wide range of opin- ions, our experiments demonstrate that LLMs main"
 paper_summary: "Abstract: Large Language Models (LLMs) exhibit non- deterministic behavior, and prompting has emerged as a primary method for steering their outputs toward desired directions. One popu- lar strategy involves as | Overview: When Prompting Fails to Sway: Inertia in Moral and Value Judgments of Large Language Models Bruce W. Lee1 Yeongheon Lee1 Hyunsoo Cho2 1University of Pennsylvania 2Ewha Womans University brucelws@seas. | Conclusions: We introduce a novel method called role-play-at- scale and verify the persistence of moral biases in LLMs. Our research raises questions about the fea"
-local_pdf: "[[PDFs/2025-Lee-When Prompting Fails to Sway.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Lee-When Prompting Fails to Sway.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -50,7 +50,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Lee-When Prompting Fails to Sway.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Lee-When Prompting Fails to Sway.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2408.09049
 - **DOI:** https://doi.org/10.48550/arXiv.2408.09049

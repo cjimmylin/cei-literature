@@ -29,8 +29,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2024-Gu-Probabilistic medical predictions of large.md"
-local_pdf: "[[PDFs/2024-Gu-Probabilistic medical predictions of large.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Gu-Probabilistic medical predictions of large.md"
+local_pdf: "[[PDFs/2024/2024-Gu-Probabilistic medical predictions of large.pdf]]"
 ---
 # Probabilistic medical predictions of large language models
 

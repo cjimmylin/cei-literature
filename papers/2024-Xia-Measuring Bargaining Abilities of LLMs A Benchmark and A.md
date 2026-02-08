@@ -12,8 +12,8 @@ first_author: "[[Tian Xia]]"
 authors: Tian Xia; Zhiwei He; Tong Ren; Yibo Miao; Zhuosheng Zhang; Yang Yang; Rui Wang
 url: "https://arxiv.org/abs/2402.15813"
 external_pdf: "https://arxiv.org/pdf/2402.15813.pdf"
-local_pdf: "[[PDFs/2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A.pdf]]"
-pdf_extract: "PDF Extracts/2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A.md"
+local_pdf: "[[PDFs/2024/2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A.md"
 publication: ACL 2024
 DATE_ADDED: 20260207
 ethics_overall: "No"

@@ -20,10 +20,10 @@ newtags: "Responsible AI"
 key_contribution: "Introduced the Social Worldview Taxonomy (SWT) based on Cultural Theory to measure cognitive differences (Hierarchy, Egalitarianism, etc.) across 28 LLMs."
 significance: "Operationalizes the concept of 'worldview' for LLMs, showing that models have distinct cognitive profiles that are systematically shaped by social cues, beyond simple bias metrics."
 tags: 
-pdf_extract: "PDF Extracts/2025-Li-Analyzing Cognitive Differences Among Large.md"
+pdf_extract: "PDF Extracts/2025/2025-Li-Analyzing Cognitive Differences Among Large.md"
 abstract: "Large Language Models significantly influence so- cial interactions, decision-making, and information dissemination, underscoring the need to understand the implicit socio-cognitive attitudes, referred to as “worldviews”, encoded within these systems. Un- like previous studies predominantly addressing de- mographic and ethical biases as fixed attributes, our study explores deeper cognitive orientations toward authority, equality, autonomy, and fate, emphasizing their adaptability in dynamic soci"
 paper_summary: "Abstract: Large Language Models significantly influence so- cial interactions, decision-making, and information dissemination, underscoring the need to understand the implicit socio-cognitive attitudes, referre | Overview: Analyzing Cognitive Differences Among Large Language Models through the Lens of Social Worldview Jiatao Li1,2 , Yanheng Li3 , Xiaojun Wan1 1Wangxuan Institute of Computer Technology, Peking University | Methodology: Inter-Agent Validation Accuracy The inter-agent validation accuracy is calculated by comparing automated categorization | Key Findings: of socio-cognitive biases in large language models. Leverag- ing our novel Automated Multi-Agent Prompting Framework, we operationalized and assessed  | Conclusions: We introduced the Social Worldview Taxonomy (SWT), grounded in Cultural Theory, enabling systematic evaluation of socio-cognitive biases in large lang"
-local_pdf: "[[PDFs/2025-Li-Analyzing Cognitive Differences Among Large.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Li-Analyzing Cognitive Differences Among Large.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Li-Analyzing Cognitive Differences Among Large.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Li-Analyzing Cognitive Differences Among Large.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.01967
 - **DOI:** https://doi.org/10.48550/arXiv.2505.01967

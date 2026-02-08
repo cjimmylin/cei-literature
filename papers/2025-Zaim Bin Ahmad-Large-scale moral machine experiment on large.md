@@ -30,8 +30,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md"
-local_pdf: "[[PDFs/2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md"
+local_pdf: "[[PDFs/2025/2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.pdf]]"
 normative_ethics_benchmark: Borderline
 ---
 # Large-scale moral machine experiment on large language models

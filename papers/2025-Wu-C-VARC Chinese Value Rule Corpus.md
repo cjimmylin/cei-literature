@@ -12,8 +12,8 @@ first_author: "[[P. Wu]]"
 authors: Wu, P. et al.
 url: "https://arxiv.org/abs/2506.01495"
 external_pdf: "https://arxiv.org/pdf/2506.01495.pdf"
-local_pdf: "[[PDFs/2025-Wu-C-VARC Chinese Value Rule Corpus.pdf]]"
-pdf_extract: "PDF Extracts/2025-Wu-C-VARC Chinese Value Rule Corpus.md"
+local_pdf: "[[PDFs/2025/2025-Wu-C-VARC Chinese Value Rule Corpus.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Wu-C-VARC Chinese Value Rule Corpus.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

@@ -13,8 +13,8 @@ first_author: "[[E So]]"
 authors: So, E
 publication: Unknown
 external_pdf: "https://arxiv.org/pdf/2601.16513v1.pdf"
-local_pdf: "[[PDFs/2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.pdf]]"
-pdf_extract: "PDF Extracts/2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md"
+local_pdf: "[[PDFs/2024/2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

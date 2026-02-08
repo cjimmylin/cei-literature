@@ -12,8 +12,8 @@ first_author: "[[Louis Castricato]]"
 authors: Louis Castricato et al.
 url: "https://arxiv.org/abs/2407.17387"
 external_pdf: "https://arxiv.org/pdf/2407.17387.pdf"
-local_pdf: "[[PDFs/2025-Castricato-PERSONA Pluralistic Alignment Testbed.pdf]]"
-pdf_extract: "PDF Extracts/2025-Castricato-PERSONA Pluralistic Alignment Testbed.md"
+local_pdf: "[[PDFs/2025/2025-Castricato-PERSONA Pluralistic Alignment Testbed.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Castricato-PERSONA Pluralistic Alignment Testbed.md"
 publication: COLING 2025
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

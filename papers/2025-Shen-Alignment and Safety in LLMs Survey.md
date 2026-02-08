@@ -12,7 +12,7 @@ authors: "[[Shen, Tianhao]], [[Jin, Renren]], [[Huang, Yufei]]"
 doi: 10.48550/arXiv.2507.19672
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2507.19672"
-local_pdf: "[[PDFs/2025-Shen-Alignment and Safety in LLMs Survey.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Shen-Alignment and Safety in LLMs Survey.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2507.19672.pdf"
 publication: arXiv
 ethics_perspective: "AI Safety & Alignment"
@@ -32,7 +32,7 @@ is_eval: No
 is_dataset: No
 data_description: "Survey paper"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Shen-Alignment and Safety in LLMs Survey.md"
+pdf_extract: "PDF Extracts/2025/2025-Shen-Alignment and Safety in LLMs Survey.md"
 ---
 # Alignment and Safety in Large Language Models: Safety Mechanisms, Training Paradigms, and Emerging Challenges
 

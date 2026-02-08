@@ -29,8 +29,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2024-Arshad-HateInsights.md"
-local_pdf: [[PDFs/2024-Arshad-HateInsights.pdf]]
+pdf_extract: "PDF Extracts/2024/2024-Arshad-HateInsights.md"
+local_pdf: [[PDFs/2024/2024-Arshad-HateInsights.pdf]]
 ---
 # HateInsights: A Fine-Grained Benchmark for Explainable Hate Speech Detection
 

@@ -26,8 +26,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2023-Zhou-A Survey of Large Language Models in Medicine.md"
-local_pdf: "[[PDFs/2023-Zhou-A Survey of Large Language Models in Medicine.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Zhou-A Survey of Large Language Models in Medicine.md"
+local_pdf: "[[PDFs/2023/2023-Zhou-A Survey of Large Language Models in Medicine.pdf]]"
 ---
 # A Survey of Large Language Models in Medicine: Progress, Application, and Challenge
 

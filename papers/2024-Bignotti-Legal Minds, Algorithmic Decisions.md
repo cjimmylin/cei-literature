@@ -20,10 +20,10 @@ newtags: "Italian, Applied Ethics"
 key_contribution: "Empirically analyzed GPT-4's interpretation of Italian Constitutional Court rulings on bioethics, comparing its arguments to those of the State, Court, and applicants."
 significance: "Finds that GPT-4 consistently aligns with progressive interpretations (mirroring applicants) rather than the Court's moderate or the State's conservative positions, highlighting a specific ideological bias in legal reasoning."
 tags: 
-pdf_extract: "PDF Extracts/2024-Bignotti-Legal Minds, Algorithmic Decisions.md"
+pdf_extract: "PDF Extracts/2024/2024-Bignotti-Legal Minds, Algorithmic Decisions.md"
 abstract: "In this paper, we conduct an empirical analysis of how large language models (LLMs), specifically GPT-4, interpret con- stitutional principles in complex decision-making scenarios. We examine rulings from the Italian Constitutional Court on bioethics issues that involve trade-offs between compet- ing values and compare model-generated legal arguments on these issues to those presented by the State, the Court, and the applicants. Our results indicate that GPT-4 consistently aligns more closely wi"
 paper_summary: "Abstract: In this paper, we conduct an empirical analysis of how large language models (LLMs), specifically GPT-4, interpret con- stitutional principles in complex decision-making scenarios. We examine rulings  | Overview: Legal Minds, Algorithmic Decisions: How LLMs Apply Constitutional Principles in Complex Scenarios Camilla Bignotti, Carolina Camassa Bank of Italy* camilla.bignotti@bancaditalia.it, carolina.camassa@b | Methodology: The main goal of our experiments is to empirically assess GPT-4’s alignment in a set of complex scenarios that re- quire trade-offs between competing  | Conclusions: Implications Our experiment shows GPT-4’s inclination towards progressive stances, at least in the context of the le- gal cases examined. This raises"
-local_pdf: "[[PDFs/2024-Bignotti-Legal Minds, Algorithmic Decisions.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Bignotti-Legal Minds, Algorithmic Decisions.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

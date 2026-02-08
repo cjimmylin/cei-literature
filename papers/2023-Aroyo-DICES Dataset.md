@@ -20,10 +20,10 @@ moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Released the DICES (Diversity In Conversational AI Evaluation for Safety) dataset, containing fine-grained demographic information and high replication of ratings (votes) from diverse raters."
 significance: "Enables the analysis of how safety perceptions vary by demographic group (race, age, gender), challenging the notion of a single 'ground truth' for safety and promoting value-pluralistic evaluation."
-pdf_extract: "PDF Extracts/2023-Aroyo-DICES Dataset.md"
+pdf_extract: "PDF Extracts/2023/2023-Aroyo-DICES Dataset.md"
 abstract: "Machine learning approaches often require training and evaluation datasets with a clear separation between positive and negative examples. This risks simplifying and even obscuring the inherent subjectivity present in many tasks. Preserving such variance in content and diversity in datasets is often expensive and laborious. This is especially troubling when building safety datasets for conversational AI systems, as safety is both socially and culturally situated. To demonstrate this crucial aspe"
 paper_summary: "Abstract: Machine learning approaches often require training and evaluation datasets with a clear separation between positive and negative examples. This risks simplifying and even obscuring the inherent subjec | Overview: DICES Dataset: Diversity in Conversational AI Evaluation for Safety Lora Aroyo1, Alex S. Taylor2, Mark Díaz1, Christopher M. Homan1, Alicia Parrish1, Greg Serapio-García3, Vinodkumar Prabhakaran1, and | Methodology: Driving the development of DICES was the overarching aim to produce a benchmark dataset able to systematically capture variability in safety judgement"
-local_pdf: "[[PDFs/2023-Aroyo-DICES Dataset.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Aroyo-DICES Dataset.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Aroyo-DICES Dataset.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Aroyo-DICES Dataset.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2306.11247
 - **DOI:** https://doi.org/10.48550/arXiv.2306.11247

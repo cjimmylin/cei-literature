@@ -12,8 +12,8 @@ first_author: "[[M. Marcuzzo]]"
 authors: Marcuzzo, M. et al.
 url: "https://arxiv.org/abs/2509.12371"
 external_pdf: "https://arxiv.org/pdf/2509.12371.pdf"
-local_pdf: "[[PDFs/2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs.pdf]]"
-pdf_extract: "PDF Extracts/2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs.md"
+local_pdf: "[[PDFs/2025/2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs.md"
 publication: EMNLP
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

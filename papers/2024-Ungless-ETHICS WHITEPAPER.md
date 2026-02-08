@@ -28,8 +28,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2024-Ungless-ETHICS WHITEPAPER.md"
-local_pdf: "[[PDFs/2024-Ungless-ETHICS WHITEPAPER.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Ungless-ETHICS WHITEPAPER.md"
+local_pdf: "[[PDFs/2024/2024-Ungless-ETHICS WHITEPAPER.pdf]]"
 ---
 # ETHICS WHITEPAPER: Whitepaper on Ethical Research into Large Language Models
 

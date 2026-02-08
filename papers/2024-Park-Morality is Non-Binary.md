@@ -11,7 +11,7 @@ first_author: "[[Jeongwoo Park]]"
 authors: "[[Park, Jeongwoo]]; [[Liscio, Enrico]]; [[Murukannaiah, Pradeep K.]]"
 doi: 10.48550/arXiv.2401.17228
 url: "http://arxiv.org/abs/2401.17228"
-local_pdf: "[[PDFs/2024-Park-Morality is Non-Binary.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Park-Morality is Non-Binary.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2401.17228.pdf"
 publication: Findings
 national_ethnic_cultural: N/A
@@ -20,7 +20,7 @@ moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Builds a 'pluralist moral sentence embedding space' using contrastive learning to capture multiple moral elements rather than binary right/wrong"
 significance: "Shows that moral pluralism (including deontology) can be mathematically represented in embedding space, enabling more nuanced value alignment"
-pdf_extract: "PDF Extracts/2024-Park-Morality is Non-Binary.md"
+pdf_extract: "PDF Extracts/2024/2024-Park-Morality is Non-Binary.md"
 tags: 
 abstract: "Recent advances in NLP show that language models retain a discernible level of knowledge in deontological ethics and moral norms. How- ever, existing works often treat morality as bi- nary, ranging from right to wrong. This simplis- tic view does not capture the nuances of moral judgment. Pluralist moral philosophers argue that human morality can be deconstructed into a finite number of elements, respecting individual differences in moral judgment. In line with this view, we build a pluralist mo"
 paper_summary: "Abstract: Recent advances in NLP show that language models retain a discernible level of knowledge in deontological ethics and moral norms. How- ever, existing works often treat morality as bi- nary, ranging fr | Overview: Morality is Non-Binary: Building a Pluralist Moral Sentence Embedding Space using Contrastive Learning Jeongwoo Park∗, Enrico Liscio∗, and Pradeep K. Murukannaiah Delft University of Technology, the N | Methodology: to morality can be captured in a sentence embed- ding space, but also that human labels are necessary to successfully train the embeddings. Our work r | Key Findings: We investigate the embedding space by (1) show- ing a visualization of the training set data in the embedding space to gain an intuitive understand- i | Conclusions: We report the results of the intrinsic evaluations to judge the effect of supervised training, and the re- sults of the extrinsic evaluation to assess"
@@ -53,7 +53,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Park-Morality is Non-Binary.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Park-Morality is Non-Binary.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2401.17228
 - **DOI:** https://doi.org/10.48550/arXiv.2401.17228

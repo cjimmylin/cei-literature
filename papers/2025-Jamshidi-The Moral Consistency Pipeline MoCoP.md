@@ -12,8 +12,8 @@ first_author: "[[Saeid Jamshidi]]"
 authors: Saeid Jamshidi et al.
 url: "https://arxiv.org/abs/2512.03026"
 external_pdf: "https://arxiv.org/pdf/2512.03026.pdf"
-local_pdf: "[[PDFs/2025-Jamshidi-The Moral Consistency Pipeline MoCoP.pdf]]"
-pdf_extract: "PDF Extracts/2025-Jamshidi-The Moral Consistency Pipeline MoCoP.md"
+local_pdf: "[[PDFs/2025/2025-Jamshidi-The Moral Consistency Pipeline MoCoP.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Jamshidi-The Moral Consistency Pipeline MoCoP.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

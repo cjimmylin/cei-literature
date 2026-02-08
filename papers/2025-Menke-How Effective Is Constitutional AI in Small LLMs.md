@@ -11,7 +11,7 @@ first_author: "[[Antonio-Gabriel Chacón Menke]]"
 authors: "[[Antonio-Gabriel Chacón Menke]], [[Phan Xuan Tan]]"
 doi: 10.48550/arXiv.2503.17365
 url: "http://arxiv.org/abs/2503.17365"
-local_pdf: "[[PDFs/2025-Menke-How Effective Is Constitutional AI in Small LLMs.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Menke-How Effective Is Constitutional AI in Small LLMs.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2503.17365.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
@@ -20,7 +20,7 @@ moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Studies the effectiveness of Constitutional AI (CAI) self-critique on small (7-9B) models like DeepSeek-R1 and Llama 3"
 significance: "Finds that CAI efficacy is highly architecture-dependent; Llama models improve significantly, while others show little gain, suggesting alignment techniques are not essentially transferable across model sizes"
-pdf_extract: "PDF Extracts/2025-Menke-How Effective Is Constitutional AI in Small LLMs.md"
+pdf_extract: "PDF Extracts/2025/2025-Menke-How Effective Is Constitutional AI in Small LLMs.md"
 tags: 
 abstract: "Recent incidents highlight safety risks in Large Language Models (LLMs), mo- tivating research into alignment methods like Constitutional AI (CAI). This pa- per explores CAI’s self-critique mechanism on small, uncensored 7-9B parameter models: DeepSeek-R1-8B, Gemma-2-9B, Llama 3.1-8B, and Qwen2.5-7B. We show that while Llama-based models exhibited significant harm reduction through self-critique, other architectures demonstrated less improvement in harm detection after abliteration. These result"
 paper_summary: "Abstract: Recent incidents highlight safety risks in Large Language Models (LLMs), mo- tivating research into alignment methods like Constitutional AI (CAI). This pa- per explores CAI’s self-critique mechanism  | Overview: HOW EFFECTIVE IS CONSTITUTIONAL AI IN SMALL LLMS? A STUDY ON DEEPSEEK-R1 AND ITS PEERS Antonio-Gabriel Chac´on Menke Shibaura Institute of Technology, Tokyo Kempten University of Applied Sciences, Kem | Methodology: We experiment with four small instruction models in the 7-9B parameter range: DeepSeek-R1-Distill-Llama-8B (DeepSeek-AI et al., 2025) (R1-Llama); Gemm | Conclusions: Figure 1 shows that models based on the Llama architecture (R1-Llama and Llama-3.1) demon- strated the strongest harm reduction in their revised respo"
@@ -53,7 +53,7 @@ data_metrics: "90 prompts"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Menke-How Effective Is Constitutional AI in Small LLMs.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Menke-How Effective Is Constitutional AI in Small LLMs.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2503.17365
 - **DOI:** https://doi.org/10.48550/arXiv.2503.17365

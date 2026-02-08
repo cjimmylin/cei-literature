@@ -12,8 +12,8 @@ first_author: "[[Z. Liu]]"
 authors: Liu, Z. et al.
 url: "https://arxiv.org/abs/2504.01127"
 external_pdf: "https://arxiv.org/pdf/2504.01127.pdf"
-local_pdf: "[[PDFs/2025-Liu-CQ-Bench Cultural Intelligence Benchmark for LLMs.pdf]]"
-pdf_extract: "PDF Extracts/2025-Liu-CQ-Bench Cultural Intelligence Benchmark for LLMs.md"
+local_pdf: "[[PDFs/2025/2025-Liu-CQ-Bench Cultural Intelligence Benchmark for LLMs.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Liu-CQ-Bench Cultural Intelligence Benchmark for LLMs.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

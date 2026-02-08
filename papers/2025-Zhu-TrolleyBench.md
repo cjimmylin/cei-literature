@@ -13,8 +13,8 @@ first_author: "[[A Zhu]]"
 authors: Zhu, A
 publication: NeurIPS 2025
 external_pdf: "https://openreview.net/pdf?id=27j9XJQV5O"
-local_pdf: "[[PDFs/2025-Zhu-TrolleyBench.pdf]]"
-pdf_extract: "PDF Extracts/2025-Zhu-TrolleyBench.md"
+local_pdf: "[[PDFs/2025/2025-Zhu-TrolleyBench.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Zhu-TrolleyBench.md"
 DATE_ADDED: 20260207
 ethics_overall: "No"
 virtue_ethics: "No"

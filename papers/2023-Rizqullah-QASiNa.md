@@ -18,9 +18,9 @@ national_ethnic_cultural: Indonesian
 religious_values: Islam
 moral_psychology: N/A
 newtags: "Indonesian, Islam"
-pdf_extract: "PDF Extracts/2023-Rizqullah-QASiNa.md"
+pdf_extract: "PDF Extracts/2023/2023-Rizqullah-QASiNa.md"
 paper_summary: "Overview: QASiNa: Religious Domain Question Answering using Sirah Nabawiyah Muhammad Razif Rizqullah1, Ayu Purwarianti1, Alham Fikri Aji2 1School of Electrical Engineering and Informatics Bandung Institute of T | Methodology: revolves around obtaining answers using predefined patterns. Extractive method has been conducted in several studies [21] [13]. The extractive method  | Key Findings: We evaluate the dataset using the transfer learning approach with mBERT, XLM-R, and IndoBERT with also test the Chat GPT-3.5 and GPT-4. The evaluation | Conclusions: drawn from this evaluation was that the EM and F1-scores of Chat GPT are lower compared to XLM-R, on the other side Chat GPT has high Substring Match"
-local_pdf: [[PDFs/2023-Rizqullah-QASiNa.pdf]]
+local_pdf: [[PDFs/2023/2023-Rizqullah-QASiNa.pdf]]
 abstract: "Nowadays, Question Answering (QA) tasks receive significant research focus, particularly with the development of Large Language Model (LLM) such as Chat GPT [1]. LLM can be applied to various domains, but it contradicts the principles of information transmission when applied to the Islamic domain. In Islam we strictly regulates the sources of information and who can give interpretations or tafseer for that sources [2]. The approach used by LLM to generate answers based on its own interpretation"
 ethics_overall: No
 virtue_ethics: No
@@ -49,7 +49,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Rizqullah-QASiNa.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Rizqullah-QASiNa.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2310.08102
 - **DOI:** https://doi.org/10.48550/arXiv.2310.08102

@@ -12,8 +12,8 @@ first_author: "[[Y. Zhang]]"
 authors: Zhang, Y., Gao, Y., et al
 url: "https://arxiv.org/abs/2410.18491"
 external_pdf: "https://arxiv.org/pdf/2410.18491.pdf"
-local_pdf: "[[PDFs/2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs.pdf]]"
-pdf_extract: "PDF Extracts/2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs.md"
+local_pdf: "[[PDFs/2024/2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

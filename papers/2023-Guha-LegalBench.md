@@ -17,10 +17,10 @@ moral_psychology: N/A
 newtags: 
 tags: 
 osint_source: "Recovered via HTML"
-pdf_extract: "PDF Extracts/2023-Guha-LegalBench.md"
+pdf_extract: "PDF Extracts/2023/2023-Guha-LegalBench.md"
 abstract: "The advent of large language models (LLMs) and their adoption by the legal community has given rise to the question: what types of legal reasoning can LLMs perform? To enable greater study of this question, we present LEGALBENCH: a collaboratively constructed legal reasoning bench- mark consisting of 162 tasks covering six different types of legal reasoning. LEGALBENCH was built through an interdisciplinary process, in which we collected tasks designed and hand-crafted by legal professionals. Be"
 paper_summary: "Abstract: The advent of large language models (LLMs) and their adoption by the legal community has given rise to the question: what types of legal reasoning can LLMs perform? To enable greater study of this que | Overview: LEGALBENCH: A COLLABORATIVELY BUILT BENCHMARK FOR MEASURING LEGAL REASONING IN LARGE LANGUAGE MODELS Neel Guha∗1, Julian Nyarko∗1, Daniel E. Ho∗1, Christopher Ré∗1, Adam Chilton2, Aditya Narayana3, Al | Key Findings: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 | Conclusions: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16"
-local_pdf: [[PDFs/2023-Guha-LegalBench.pdf]]
+local_pdf: [[PDFs/2023/2023-Guha-LegalBench.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -44,7 +44,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Guha-LegalBench.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Guha-LegalBench.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2308.11462
 

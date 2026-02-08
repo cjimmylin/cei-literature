@@ -12,8 +12,8 @@ first_author: "[[Badr AlKhamissi]]"
 authors: Badr AlKhamissi, Muhammad ElNokrashy, Mai Alkhamissi, Mona Diab
 publication: ACL 2024
 external_pdf: "https://arxiv.org/pdf/2402.13231.pdf"
-local_pdf: "[[PDFs/2024-AlKhamissi-Investigating Cultural Alignment of LLMs.pdf]]"
-pdf_extract: "PDF Extracts/2024-AlKhamissi-Investigating Cultural Alignment of LLMs.md"
+local_pdf: "[[PDFs/2024/2024-AlKhamissi-Investigating Cultural Alignment of LLMs.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-AlKhamissi-Investigating Cultural Alignment of LLMs.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

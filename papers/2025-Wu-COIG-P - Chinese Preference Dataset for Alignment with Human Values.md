@@ -12,8 +12,8 @@ first_author: "[[Siwei Wu]]"
 authors: Siwei Wu; Jincheng Ren; Xinrun Du; Shuyue Guo; Xingwei Qu; Yiming Liang; Jie Liu; Yunwen Li; Tianyu Zheng; Boyu Feng; Huaqing Yuan; Zenith Wang; Jiaheng Liu; Wenhao Huang; Chenglin Cai; Haoran Que; Jian Yang; Yuelin Bai; Zekun Moore Wang; Zhouliang Yu; Qunshu Lin; Ding Pan; Yuchen Jiang; Tiannan Wang; Wangchunshu Zhou; Shenzhi Wang; Xingyuan Bu; Minghao Liu; Guoyin Wang; Ge Zhang; Chenghua Lin
 url: "https://arxiv.org/abs/2504.05535"
 external_pdf: "https://arxiv.org/pdf/2504.05535.pdf"
-local_pdf: "[[PDFs/2025-Wu-COIG-P - Chinese Preference Dataset for Alignment with Human Values.pdf]]"
-pdf_extract: "PDF Extracts/2025-Wu-COIG-P - Chinese Preference Dataset for Alignment with Human Values.md"
+local_pdf: "[[PDFs/2025/2025-Wu-COIG-P - Chinese Preference Dataset for Alignment with Human Values.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Wu-COIG-P - Chinese Preference Dataset for Alignment with Human Values.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

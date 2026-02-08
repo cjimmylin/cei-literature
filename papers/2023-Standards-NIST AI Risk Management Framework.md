@@ -28,8 +28,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2023-Standards-NIST AI Risk Management Framework.md"
-local_pdf: "[[PDFs/2023-Standards-NIST AI Risk Management Framework.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Standards-NIST AI Risk Management Framework.md"
+local_pdf: "[[PDFs/2023/2023-Standards-NIST AI Risk Management Framework.pdf]]"
 ---
 # NIST AI Risk Management Framework
 

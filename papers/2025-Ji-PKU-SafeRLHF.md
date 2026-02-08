@@ -12,8 +12,8 @@ first_author: "[[Jiaming Ji]]"
 authors: Jiaming Ji et al.
 url: "https://arxiv.org/abs/2406.15513"
 external_pdf: "https://arxiv.org/pdf/2406.15513.pdf"
-local_pdf: "[[PDFs/2025-Ji-PKU-SafeRLHF.pdf]]"
-pdf_extract: "PDF Extracts/2025-Ji-PKU-SafeRLHF.md"
+local_pdf: "[[PDFs/2025/2025-Ji-PKU-SafeRLHF.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Ji-PKU-SafeRLHF.md"
 publication: ACL 2025
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

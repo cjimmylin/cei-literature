@@ -12,8 +12,8 @@ first_author: "[[S. Becker]]"
 authors: Becker, S. et al.
 url: "https://arxiv.org/abs/2512.15248"
 external_pdf: "https://arxiv.org/pdf/2512.15248.pdf"
-local_pdf: "[[PDFs/2025-Becker-The Moralization Corpus.pdf]]"
-pdf_extract: "PDF Extracts/2025-Becker-The Moralization Corpus.md"
+local_pdf: "[[PDFs/2025/2025-Becker-The Moralization Corpus.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Becker-The Moralization Corpus.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

@@ -31,8 +31,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Yesil-Yesil o1 Pro.md"
-local_pdf: "[[PDFs/2025-Yesil-Yesil o1 Pro.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Yesil-Yesil o1 Pro.md"
+local_pdf: "[[PDFs/2025/2025-Yesil-Yesil o1 Pro.pdf]]"
 ---
 # Yesil o1 Pro: Evidence-Based AI Model for Health and Benchmarking in Clinical Decision Support
 

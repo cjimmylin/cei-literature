@@ -29,7 +29,7 @@ is_eval: No
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2024-Röttger-XSTest.md"
+pdf_extract: "PDF Extracts/2024/2024-Röttger-XSTest.md"
 ---
 # XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models
 

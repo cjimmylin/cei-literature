@@ -19,10 +19,10 @@ key_contribution: "Created OpinionsQA to compare LLM views against US public opi
 significance: "Quantifies specific demographic biases in 'aligned' models, showing they often reflect a narrow 'WEIRD' (Western, Educated, Industrialized, Rich, Democratic) worldview rather than a representative one."
 tags: 
 osint_source: "Recovered via HTML"
-pdf_extract: "PDF Extracts/2023-Santurkar-Whose Opinions Do Language Models Reflect.md"
+pdf_extract: "PDF Extracts/2023/2023-Santurkar-Whose Opinions Do Language Models Reflect.md"
 abstract: "Language models (LMs) are increasingly being used in open-ended contexts, where the opinions reﬂected by LMs in response to subjective queries can have a profound impact, both on user satisfaction, as well as shaping the views of society at large. In this work, we put forth a quantitative framework to investigate the opinions reﬂected by LMs – by leveraging high-quality public opinion polls and their associated human responses. Using this framework, we create OpinionQA, a new dataset for evaluat"
 paper_summary: "Abstract: Language models (LMs) are increasingly being used in open-ended contexts, where the opinions reﬂected by LMs in response to subjective queries can have a profound impact, both on user satisfaction, as | Overview: Whose Opinions Do Language Models Reﬂect? Shibani Santurkar Stanford shibani@stanford.edu Esin Durmus Stanford esindurmus@cs.stanford.edu Faisal Ladhak Columbia University faisal@cs.columbia.edu Cinoo | Methodology: from the main paper), focusing on the 500 questions from Section 4.2 computational reasons—see Appendix Figure 14. We only include a subset of demogra | Conclusions: Our work puts forth a framework to examine the opinions reﬂected by LMs through the lens of public opinion polls. Using our OpinionQA dataset, we iden"
-local_pdf: "[[PDFs/2023-Santurkar-Whose Opinions Do Language Models Reflect.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Santurkar-Whose Opinions Do Language Models Reflect.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -48,7 +48,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Santurkar-Whose Opinions Do Language Models Reflect.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Santurkar-Whose Opinions Do Language Models Reflect.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2303.17548
 

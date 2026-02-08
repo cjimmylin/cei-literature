@@ -11,7 +11,7 @@ first_author: "[[Patrick Schramowski]]"
 authors: "[[Schramowski, Patrick]]; [[Turan, Cigdem]]; [[Jentzsch, Sophie]]; [[Rothkopf, Constantin]]; [[Kersting, Kristian]]"
 doi: 10.3389/frai.2020.00036
 url: "https://www.frontiersin.org/article/10.3389/frai.2020.00036/full"
-local_pdf: "[[PDFs/2020-Schramowski-The Moral Choice Machine.pdf]]"
+local_pdf: "[[PDFs/2020/2020-Schramowski-The Moral Choice Machine.pdf]]"
 external_pdf: "https://www.frontiersin.org/articles/10.3389/frai.2020.00036/pdf"
 national_ethnic_cultural: N/A
 religious_values: Christianity
@@ -20,7 +20,7 @@ newtags: "Christianity, Value Pluralism / Schwartz, Deontology"
 key_contribution: "Extracts deontological ethical reasoning from text corpora using the 'Moral Choice Machine' (MCM) by calculating embedding bias scores"
 significance: "Demonstrates that text corpora contain recoverable imprints of social/ethical choices that can be quantified and tracked temporally"
 tags: 
-pdf_extract: "PDF Extracts/2020-Schramowski-The Moral Choice Machine.md"
+pdf_extract: "PDF Extracts/2020/2020-Schramowski-The Moral Choice Machine.md"
 abstract: "Allowing machines to choose whether to kill humans would be devastating for world peace and security. But how do we equip machines with the ability to learn ethical or even moral choices? In this study, we show that applying machine learning to human texts can extract deontological ethical reasoning about “right” and “wrong” conduct. We create a template list of prompts and responses, such as “Should I [action]?”, “Is it okay to [action]?”, etc. with corresponding answers of “Yes/no, I should (n"
 ethics_overall: No
 virtue_ethics: No
@@ -55,7 +55,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2020-Schramowski-The Moral Choice Machine.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2020/2020-Schramowski-The Moral Choice Machine.pdf|Open PDF]]
 
 - **URL:** https://www.frontiersin.org/article/10.3389/frai.2020.00036/full
 - **DOI:** https://doi.org/10.3389/frai.2020.00036

@@ -12,8 +12,8 @@ first_author: "[[Huihao Jing]]"
 authors: Huihao Jing; Wenbin Hu; Hongyu Luo; Jianhui Yang; Wei Fan; Haoran Li; Yangqiu Song
 url: "https://arxiv.org/abs/2509.24922"
 external_pdf: "https://arxiv.org/pdf/2509.24922.pdf"
-local_pdf: "[[PDFs/2025-Jing-MASLegalBench.pdf]]"
-pdf_extract: "PDF Extracts/2025-Jing-MASLegalBench.md"
+local_pdf: "[[PDFs/2025/2025-Jing-MASLegalBench.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Jing-MASLegalBench.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "No"

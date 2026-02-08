@@ -12,8 +12,8 @@ first_author: "[[Yichen Wu]]"
 authors: Yichen Wu; Xudong Pan; Geng Hong; Min Yang
 url: "https://arxiv.org/abs/2504.13707"
 external_pdf: "https://arxiv.org/pdf/2504.13707.pdf"
-local_pdf: "[[PDFs/2025-Wu-OpenDeception Benchmarking and Investigating AI Deceptive Behaviors.pdf]]"
-pdf_extract: "PDF Extracts/2025-Wu-OpenDeception Benchmarking and Investigating AI Deceptive Behaviors.md"
+local_pdf: "[[PDFs/2025/2025-Wu-OpenDeception Benchmarking and Investigating AI Deceptive Behaviors.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Wu-OpenDeception Benchmarking and Investigating AI Deceptive Behaviors.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

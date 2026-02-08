@@ -20,10 +20,10 @@ newtags: "Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Analyzed 4300 participants from 21 countries to show that 'offensiveness' is not universal but culturally mediated by Moral Foundations (Care/Purity)."
 significance: "Reframes content moderation from a 'classification task' to a 'moral judgment task', arguing that 'Global Safety Filters' are impossible without accounting for local moral norms."
 tags: 
-pdf_extract: "PDF Extracts/2023-Davani-Disentangling Perceptions of Offensiveness.md"
+pdf_extract: "PDF Extracts/2023/2023-Davani-Disentangling Perceptions of Offensiveness.md"
 abstract: "Perception of offensiveness is inherently sub- jective, shaped by the lived experiences and socio-cultural values of the perceivers. Recent years have seen substantial efforts to build AI- based tools that can detect offensive language at scale, as a means to moderate social media platforms, and to ensure safety of conversa- tional AI technologies such as ChatGPT and Bard. However, existing approaches treat this task as a technical endeavor, built on top of data annotated for offensiveness by a"
 paper_summary: "Abstract: Perception of offensiveness is inherently sub- jective, shaped by the lived experiences and socio-cultural values of the perceivers. Recent years have seen substantial efforts to build AI- based tools | Overview: Disentangling Perceptions of Offensiveness: Cultural and Moral Correlates Aida Davani Google Research aidamd@google.com Mark Díaz Google Research markdiaz@google.com Dylan Baker Distributed AI Researc | Methodology: (Ouyang et al., 2022; Kenton et al., 2021), the key role of culture in defining humans, and val- ues is overlooked in benchmark creation and fine- tun | Key Findings: data. Lora Aroyo and Chris Welty. 2015. Truth is a lie: Crowd truth and the seven myths of human annotation. AI Magazine, 36(1):15–24. Mohammad Atari, | Conclusions: Research on safety considerations of large lan- guage models has mostly focused on evaluations of model harms through crowdsourced benchmarks (Srivast"
-local_pdf: "[[PDFs/2023-Davani-Disentangling Perceptions of Offensiveness.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Davani-Disentangling Perceptions of Offensiveness.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Davani-Disentangling Perceptions of Offensiveness.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Davani-Disentangling Perceptions of Offensiveness.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2312.06861
 - **DOI:** https://doi.org/10.48550/arXiv.2312.06861

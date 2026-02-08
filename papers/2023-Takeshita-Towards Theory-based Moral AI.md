@@ -17,8 +17,8 @@ newtags: "General Ethics"
 key_contribution: "Implemented 'Maximizing Expected Choiceworthiness' (MEC), an algorithm that aggregates value judgments from multiple normative theories (Utilitarianism, Deontology, etc.) to handle moral uncertainty."
 significance: "Operationalizes the philosophical concept of 'moral uncertainty', allowing AI systems to make decisions that are robust across different ethical frameworks rather than committing to just one."
 tags: 
-local_pdf: "[[PDFs/2023-Takeshita-Towards Theory-based Moral AI.pdf]]"
-pdf_extract: "PDF Extracts/2023-Takeshita-Towards Theory-based Moral AI.md"
+local_pdf: "[[PDFs/2023/2023-Takeshita-Towards Theory-based Moral AI.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Takeshita-Towards Theory-based Moral AI.md"
 abstract: "Moral AI has been studied in the fields of phi- losophy and artificial intelligence. Although most existing studies are only theoretical, recent devel- opments in AI have made it increasingly neces- sary to implement AI with morality. On the other hand, humans are under the moral uncertainty of not knowing what is morally right. In this paper, we implement the Maximizing Expected Choicewor- thiness (MEC) algorithm, which aggregates out- puts of models based on three normative theories of normati"
 ethics_overall: No
 virtue_ethics: No
@@ -41,7 +41,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Takeshita-Towards Theory-based Moral AI.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Takeshita-Towards Theory-based Moral AI.pdf|Open PDF]]
 
 - **Arxiv:** https://arxiv.org/abs/2306.11432
 

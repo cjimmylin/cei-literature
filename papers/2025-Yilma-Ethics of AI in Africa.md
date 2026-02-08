@@ -30,8 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Yilma-Ethics of AI in Africa.md"
-local_pdf: "[[PDFs/2025-Yilma-Ethics of AI in Africa.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Yilma-Ethics of AI in Africa.md"
+local_pdf: "[[PDFs/2025/2025-Yilma-Ethics of AI in Africa.pdf]]"
 ---
 # Ethics of AI in Africa: Interrogating the role of Ubuntu and AI governance initiatives
 

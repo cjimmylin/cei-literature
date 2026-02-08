@@ -29,8 +29,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "107,250 samples"
-pdf_extract: "PDF Extracts/2023-Shen-“Do Anything Now”.md"
-local_pdf: "[[PDFs/2023-Shen-“Do Anything Now”.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Shen-“Do Anything Now”.md"
+local_pdf: "[[PDFs/2023/2023-Shen-“Do Anything Now”.pdf]]"
 ---
 # “Do Anything Now”: Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models
 

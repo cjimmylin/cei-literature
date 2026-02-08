@@ -19,10 +19,10 @@ moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed ERPO (Ex-Ante Reasoning Preference Optimization), a safety alignment framework that equips LLMs with explicit reasoning modules (Chain-of-Thought) before safety training."
 significance: "Demonstrates that teaching models to 'reason about safety' before generating a response improves robustness against attacks compared to standard rejection-learning methods."
-pdf_extract: "PDF Extracts/2025-Feng-ERPO.md"
+pdf_extract: "PDF Extracts/2025/2025-Feng-ERPO.md"
 abstract: "Recent advancements in large language mod- els (LLMs) have accelerated progress toward artificial general intelligence, yet their poten- tial to generate harmful content poses critical safety challenges. Existing alignment meth- ods often struggle to cover diverse safety sce- narios and remain vulnerable to adversarial at- tacks. In this work, we propose SAFER, a framework for Safety Alignment via eFficient Ex-Ante Reasoning. Our approach instanti- ates structured Ex-Ante reasoning through ini-"
 paper_summary: "Abstract: Recent advancements in large language mod- els (LLMs) have accelerated progress toward artificial general intelligence, yet their poten- tial to generate harmful content poses critical safety challeng | Overview: SAFER: Advancing Safety Alignment via Efficient Ex-Ante Reasoning Kehua Feng1,2∗, Keyan Ding1,2*, Yuhao Wang2,3, Menghan Li4, Fanjunduo Wei1,2, Xinda Wang2,4, Qiang Zhang2,5†, Huajun Chen1,2† 1College"
-local_pdf: [[PDFs/2025-Feng-ERPO.pdf]]
+local_pdf: [[PDFs/2025/2025-Feng-ERPO.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -50,7 +50,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Feng-ERPO.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Feng-ERPO.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2504.02725
 - **DOI:** https://doi.org/10.48550/arXiv.2504.02725

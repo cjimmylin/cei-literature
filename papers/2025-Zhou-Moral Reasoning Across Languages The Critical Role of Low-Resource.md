@@ -14,8 +14,8 @@ first_author: "[[Huichi Zhou]]"
 authors: Huichi Zhou; Zehao Xu; Munan Zhao; Kaihong Li; Yiqiang Li; Hongtao Wang
 url: "https://arxiv.org/abs/2504.19759"
 external_pdf: "https://arxiv.org/pdf/2504.19759.pdf"
-local_pdf: "[[PDFs/2025-Zhou-Moral Reasoning Across Languages The Critical Role of Low-Resource.pdf]]"
-pdf_extract: "PDF Extracts/2025-Zhou-Moral Reasoning Across Languages The Critical Role of Low-Resource.md"
+local_pdf: "[[PDFs/2025/2025-Zhou-Moral Reasoning Across Languages The Critical Role of Low-Resource.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Zhou-Moral Reasoning Across Languages The Critical Role of Low-Resource.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

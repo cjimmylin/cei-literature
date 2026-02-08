@@ -29,8 +29,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2024-Li-Benchmarking Ethics in Text-to-Image Models.md"
-local_pdf: "[[PDFs/2024-Li-Benchmarking Ethics in Text-to-Image Models.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Li-Benchmarking Ethics in Text-to-Image Models.md"
+local_pdf: "[[PDFs/2024/2024-Li-Benchmarking Ethics in Text-to-Image Models.pdf]]"
 ---
 # Benchmarking Ethics in Text-to-Image Models: A Holistic Dataset and Evaluator for Fairness, Toxicity, and Privacy
 

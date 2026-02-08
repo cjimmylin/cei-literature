@@ -18,10 +18,10 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
-pdf_extract: "PDF Extracts/2024-Huang-Moral Persuasion in Large Language Models.md"
+pdf_extract: "PDF Extracts/2024/2024-Huang-Moral Persuasion in Large Language Models.md"
 abstract: "This paper evaluates LLM susceptibility to moral persuasion and ethical alignment. It finds that models like Mistral-7b-instruct achieve the lowest MFQ scores under utilitarian prompts and highest under virtue ethics, indicating sensitivity to ethical framework applied."
 paper_summary: 
-local_pdf: "[[PDFs/2024-Huang-Moral Persuasion in Large Language Models.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Huang-Moral Persuasion in Large Language Models.pdf]]"
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes

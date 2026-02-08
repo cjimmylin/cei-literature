@@ -29,7 +29,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "11 categories"
-pdf_extract: "PDF Extracts/2024-Bhardwaj-Language Models are Homer Simpson! Safety.md"
+pdf_extract: "PDF Extracts/2024/2024-Bhardwaj-Language Models are Homer Simpson! Safety.md"
 ---
 # Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Arithmetic
 

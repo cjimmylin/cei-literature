@@ -13,8 +13,8 @@ authors: "Ziems, C., Yu, J. A., Wang, Y.-C., Halevy, A. Y., & Yang, D"
 doi: 10.18653/v1/2022.acl-long.261
 url: "https://arxiv.org/abs/2204.03021"
 external_pdf: "https://arxiv.org/pdf/2204.03021.pdf"
-local_pdf: "[[PDFs/2022-Ziems-Moral Integrity Corpus MIC.pdf]]"
-pdf_extract: "PDF Extracts/2022-Ziems-Moral Integrity Corpus MIC.md"
+local_pdf: "[[PDFs/2022/2022-Ziems-Moral Integrity Corpus MIC.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Ziems-Moral Integrity Corpus MIC.md"
 publication: ACL 2022
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

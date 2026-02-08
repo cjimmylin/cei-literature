@@ -13,8 +13,8 @@ authors: Jing Yao, Xiaoyuan Yi, Yifan Gong, Xiting Wang, Xing Xie
 doi: 10.18653/v1/2024.naacl-long.486
 url: "https://arxiv.org/abs/2311.10766"
 external_pdf: "https://arxiv.org/pdf/2311.10766.pdf"
-local_pdf: "[[PDFs/2024-Yao-Value FULCRA.pdf]]"
-pdf_extract: "PDF Extracts/2024-Yao-Value FULCRA.md"
+local_pdf: "[[PDFs/2024/2024-Yao-Value FULCRA.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Yao-Value FULCRA.md"
 publication: ACL 2024
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

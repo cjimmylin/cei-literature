@@ -10,7 +10,7 @@ first_author: "[[Avner Seror]]"
 authors: "[[Seror, Avner]]"
 doi: N/A
 url: "https://arxiv.org/abs/2412.04476"
-local_pdf: "[[PDFs/2024-Seror-Moral Minds of LLMs.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Seror-Moral Minds of LLMs.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: Yes
@@ -19,7 +19,7 @@ key_contribution: "Uses revealed preference theory to analyze whether LLMs have 
 significance: "Provides framework for evaluating moral consistency and benchmarking ethical alignment in AI"
 external_pdf: "https://arxiv.org/pdf/2412.04476"
 abstract: "This research investigates whether large language models possess an emergent moral mind - a consistent structure of moral preferences guiding their decisions. The researcher examined nearly 40 leading LLMs using revealed preference theory and moral dilemmas across five ethical dimensions. Key findings include: most models displayed behavior consistent with stable moral preferences, with utility functions clustering around neutral stances. Analysis revealed a shared core in LLMs' moral reasoning, but also meaningful variation: some models show flexible reasoning across perspectives, while others adhere to more rigid ethical profiles. The work provides a framework for evaluating moral consistency and benchmarking ethical alignment in AI systems."
-pdf_extract: "PDF Extracts/2024-Seror-Moral Minds of LLMs.md"
+pdf_extract: "PDF Extracts/2024/2024-Seror-Moral Minds of LLMs.md"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes

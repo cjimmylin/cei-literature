@@ -9,7 +9,7 @@ first_author: "[[Iason Gabriel]]"
 authors: "[[Gabriel, Iason]]; [[Manzini, Arianna]]; [[Keeling, Geoff]]; [[Hendricks, Lisa Anne]]; [[Rieser, Verena]]; [[Iqbal, Hasan]]; [[Tomašev, Nenad]]; [[Ktena, Ira]]; [[Kenton, Zachary]]; [[Rodriguez, Mikel]]; [[El-Sayed, Seliem]]; [[Brown, Sasha]]; [[Akbulut, Canfer]]; [[Trask, Andrew]]; [[Hughes, Edward]]; [[Bergman, A. Stevie]]; [[Shelby, Renee]]; [[Marchal, Nahema]]; [[Griffin, Conor]]; [[Mateos-Garcia, Juan]]; [[Weidinger, Laura]]; [[Street, Winnie]]; [[Lange, Benjamin]]; [[Ingerman, Alex]]; [[Lentz, Alison]]; [[Enger, Reed]]; [[Barakat, Andrew]]; [[Krakovna, Victoria]]; [[Siy, John Oliver]]; [[Kurth-Nelson, Zeb]]; [[McCroskery, Amanda]]; [[Bolina, Vijay]]; [[Law, Harry]]; [[Shanahan, Murray]]; [[Alberts, Lize]]; [[Balle, Borja]]; [[de Haas, Sarah]]; [[Ibitoye, Yetunde]]; [[Dafoe, Allan]]; [[Goldberg, Beth]]; [[Krier, Sébastien]]; [[Reese, Alexander]]; [[Witherspoon, Sims]]; [[Hawkins, Will]]; [[Rauh, Maribeth]]; [[Wallace, Don]]; [[Franklin, Matija]]; [[Goldstein, Josh A.]]; [[Lehman, Joel]]; [[Klenk, Michael]]; [[Vallor, Shannon]]; [[Biles, Courtney]]; [[Morris, Meredith Ringel]]; [[King, Helen]]; [[Agüera y Arcas, Blaise]]; [[Isaac, William]]; [[Manyika, James]]"
 doi: N/A
 url: "https://arxiv.org/abs/2404.16244"
-local_pdf: "[[PDFs/2024-Gabriel-Ethics of Advanced AI Assistants.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Gabriel-Ethics of Advanced AI Assistants.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
@@ -18,7 +18,7 @@ key_contribution: "Comprehensive Google DeepMind report on ethical challenges of
 significance: "Landmark 50+ author collaborative work from Google DeepMind on AI assistant ethics with actionable recommendations"
 external_pdf: "https://arxiv.org/pdf/2404.16244"
 abstract: "The paper examines opportunities alongside ethical and societal challenges posed by advanced AI assistants - defined as artificial agents with natural language interfaces, whose function is to plan and execute sequences of actions on behalf of a user. Key topics covered include value alignment, safety, user-level concerns like manipulation and privacy, societal impacts including misinformation and equity, and evaluation frameworks. The work concludes with actionable recommendations for multiple stakeholder groups."
-pdf_extract: "PDF Extracts/2024-Gabriel-Ethics of Advanced AI Assistants.md"
+pdf_extract: "PDF Extracts/2024/2024-Gabriel-Ethics of Advanced AI Assistants.md"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

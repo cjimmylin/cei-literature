@@ -19,10 +19,10 @@ key_contribution: "Created JailbreakBench, an open repository of SOTA jailbreak 
 significance: "Standardizes the 'Red Teaming' arms race, allowing apples-to-apples comparison of attacks (e.g., GCG, PAIR) and defenses."
 tags: 
 osint_source: "Recovered via HTML"
-pdf_extract: "PDF Extracts/2024-Chao-JailbreakBench.md"
+pdf_extract: "PDF Extracts/2024/2024-Chao-JailbreakBench.md"
 abstract: "Jailbreak attacks cause large language models (LLMs) to generate harmful, un- ethical, or otherwise objectionable content. Evaluating these attacks presents a number of challenges, which the current collection of benchmarks and evalua- tion techniques do not adequately address. First, there is no clear standard of practice regarding jailbreaking evaluation. Second, existing works compute costs and success rates in incomparable ways. And third, numerous works are not re- producible, as they withh"
 paper_summary: "Abstract: Jailbreak attacks cause large language models (LLMs) to generate harmful, un- ethical, or otherwise objectionable content. Evaluating these attacks presents a number of challenges, which the current c | Overview: JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models Patrick Chao∗1, Edoardo Debenedetti∗2, Alexander Robey∗1, Maksym Andriushchenko∗3, Francesco Croce3, Vikash Sehwag4, | Key Findings: framework at https://github.com/JailbreakBench/jailbreakbench that includes a clearly defined threat model, system prompts, chat templates, and scor-"
-local_pdf: [[PDFs/2024-Chao-JailbreakBench.pdf]]
+local_pdf: [[PDFs/2024/2024-Chao-JailbreakBench.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -48,7 +48,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Chao-JailbreakBench.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Chao-JailbreakBench.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2404.01318
 

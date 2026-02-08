@@ -29,7 +29,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2024-Wang-Do-Not-Answer.md"
+pdf_extract: "PDF Extracts/2024/2024-Wang-Do-Not-Answer.md"
 ---
 # Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs
 

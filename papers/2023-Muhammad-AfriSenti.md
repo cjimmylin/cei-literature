@@ -30,7 +30,7 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark annotated dataset"
 data_metrics: "2,000 languages; 75 languages"
-pdf_extract: "PDF Extracts/2023-Muhammad-AfriSenti.md"
+pdf_extract: "PDF Extracts/2023/2023-Muhammad-AfriSenti.md"
 ---
 # AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages
 

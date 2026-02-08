@@ -17,10 +17,10 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
-pdf_extract: "PDF Extracts/2025-Dubey-AMULED - Addressing Moral Uncertainty with LLMs.md"
+pdf_extract: "PDF Extracts/2025/2025-Dubey-AMULED - Addressing Moral Uncertainty with LLMs.md"
 abstract: "This paper presents an ethical decision-making framework that refines a pre-trained reinforcement learning model using a task-agnostic ethical layer, where the LLM embodies consequentialist, deontological, virtue, social justice, and care ethics as moral principles to assign belief values to recommended actions."
 paper_summary: 
-local_pdf: "[[PDFs/2025-Dubey-AMULED - Addressing Moral Uncertainty with LLMs.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Dubey-AMULED - Addressing Moral Uncertainty with LLMs.pdf]]"
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes

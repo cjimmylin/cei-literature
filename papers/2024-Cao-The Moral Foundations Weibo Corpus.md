@@ -31,7 +31,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2024-Cao-The Moral Foundations Weibo Corpus.md"
+pdf_extract: "PDF Extracts/2024/2024-Cao-The Moral Foundations Weibo Corpus.md"
 ---
 # The Moral Foundations Weibo Corpus
 

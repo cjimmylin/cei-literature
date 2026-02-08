@@ -12,7 +12,7 @@ authors: "[[Mougan, Carlos]]; [[Brand, Joshua]]"
 doi: 10.48550/arXiv.2311.05227
 url: "https://arxiv.org/abs/2311.05227"
 external_pdf: "https://arxiv.org/pdf/2311.05227.pdf"
-local_pdf: "[[PDFs/2023-Mougan-Kantian Deontology Meets AI Alignment.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Mougan-Kantian Deontology Meets AI Alignment.pdf]]"
 publication: arXiv
 national_ethnic_cultural: N/A
 religious_values: N/A
@@ -32,7 +32,7 @@ is_eval: Yes
 is_dataset: No
 data_description: N/A
 data_metrics: "Fairness metrics analysis"
-pdf_extract: "PDF Extracts/2023-Mougan-Kantian Deontology Meets AI Alignment.md"
+pdf_extract: "PDF Extracts/2023/2023-Mougan-Kantian Deontology Meets AI Alignment.md"
 ---
 # Kantian Deontology Meets AI Alignment: Towards Morally Grounded Fairness Metrics
 

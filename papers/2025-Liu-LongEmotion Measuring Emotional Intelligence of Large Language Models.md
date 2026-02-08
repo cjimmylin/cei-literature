@@ -12,8 +12,8 @@ first_author: "[[Weichu Liu]]"
 authors: Weichu Liu; Jing Xiong; Yuxuan Hu; Zixuan Li; Minghuan Tan; Ningning Mao; Hui Shen; Wendong Xu; Chaofan Tao; Min Yang; Chengming Li; Lingpeng Kong; Ngai Wong
 url: "https://arxiv.org/abs/2509.07403"
 external_pdf: "https://arxiv.org/pdf/2509.07403.pdf"
-local_pdf: "[[PDFs/2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models.pdf]]"
-pdf_extract: "PDF Extracts/2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models.md"
+local_pdf: "[[PDFs/2025/2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "No"

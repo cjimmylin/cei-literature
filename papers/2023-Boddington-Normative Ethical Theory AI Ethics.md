@@ -20,10 +20,10 @@ newtags: "Utilitarianism, Deontology, Virtue Ethics, Normative Ethics"
 key_contribution: "Comprehensive overview of consequentialism, deontology, and virtue ethics for AI"
 significance: "Foundational chapter on applying normative ethics to AI systems"
 tags: 
-pdf_extract: "PDF Extracts/2023-Boddington-Normative Ethical Theory AI Ethics.md"
+pdf_extract: "PDF Extracts/2023/2023-Boddington-Normative Ethical Theory AI Ethics.md"
 abstract: "Normative ethical theories propose frameworks for determining value and for guiding judgment and action. The chapter examines three dominant varieties: consequentialism, focusing on outcomes of actions; deontology, focusing on the nature of actions themselves; and virtue ethics, focusing on the moral character of the agent. The application of ethical theories to situations of rapidly changing technology presents many challenges...."
 paper_summary: 
-local_pdf: "[[PDFs/2023-Boddington-Normative Ethical Theory AI Ethics.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Boddington-Normative Ethical Theory AI Ethics.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -50,7 +50,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Boddington-Normative Ethical Theory AI Ethics.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Boddington-Normative Ethical Theory AI Ethics.pdf|Open PDF]]
 
 - **URL:** https://link.springer.com/chapter/10.1007/978-981-19-9382-4_6
 - **DOI:** https://doi.org/10.1007/978-981-19-9382-4_6

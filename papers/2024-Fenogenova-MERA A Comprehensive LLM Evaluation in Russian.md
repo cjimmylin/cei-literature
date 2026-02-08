@@ -29,7 +29,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.md"
+pdf_extract: "PDF Extracts/2024/2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.md"
 ---
 # MERA: A Comprehensive LLM Evaluation in Russian
 

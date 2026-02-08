@@ -14,8 +14,8 @@ first_author: "[[B. Huang]]"
 authors: Huang, B. et al.
 url: "https://arxiv.org/abs/2506.20606"
 external_pdf: "https://arxiv.org/pdf/2506.20606.pdf"
-local_pdf: "[[PDFs/2025-Huang-BehaviorBench Multi-Tier Benchmark for Agent Behavior Editing.pdf]]"
-pdf_extract: "PDF Extracts/2025-Huang-BehaviorBench Multi-Tier Benchmark for Agent Behavior Editing.md"
+local_pdf: "[[PDFs/2025/2025-Huang-BehaviorBench Multi-Tier Benchmark for Agent Behavior Editing.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Huang-BehaviorBench Multi-Tier Benchmark for Agent Behavior Editing.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

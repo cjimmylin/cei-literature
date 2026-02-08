@@ -28,8 +28,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2024-Cahyawijaya-LLM for everyone.md"
-local_pdf: "[[PDFs/2024-Cahyawijaya-LLM for everyone.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Cahyawijaya-LLM for everyone.md"
+local_pdf: "[[PDFs/2024/2024-Cahyawijaya-LLM for everyone.pdf]]"
 ---
 # LLM for everyone : representing the underrepresented in large language models
 

@@ -18,10 +18,10 @@ newtags: "Bias & Fairness"
 key_contribution: "Introduced 'UCerF' (Uncertainty-Aware Fairness), a metric that penalizes models not just for being wrong, but for being *overconfidently* wrong about specific demographic groups."
 significance: "Refines fairness evaluation by adding the dimension of uncertainty/calibration – a model that is 'unsure' about a stereotype is better than one that is 'certainly' wrong, even if accuracy is similar."
 tags: 
-pdf_extract: "PDF Extracts/2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware.md"
+pdf_extract: "PDF Extracts/2025/2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware.md"
 abstract: "The recent rapid adoption of large language mod- els (LLMs) highlights the critical need for bench- marking their fairness. Conventional fairness met- rics, which focus on discrete accuracy-based eval- uations (i.e., prediction correctness), fail to cap- ture the implicit impact of model uncertainty (e.g., higher model confidence about one group over an- other despite similar accuracy). To address this limitation, we propose an uncertainty-aware fair- ness metric, UCerF, to enable a fine-grained"
 paper_summary: "Abstract: The recent rapid adoption of large language mod- els (LLMs) highlights the critical need for bench- marking their fairness. Conventional fairness met- rics, which focus on discrete accuracy-based eval | Overview: arXiv:2505.23996v1 [cs.CL] 29 May 2025 Is Your Model Fairly Certain? Uncertainty-Aware Fairness Evaluation for LLMs Yinong Oliver Wang* 1 Nivedha Sivakumar 2 Falaah Arif Khan* 3 Rin Metcalf Susa 2 Ada | Key Findings: dataset X = {xi}N i=1, an uncertainty estimator fu(x; G), we first derive the model’s certainty c by converting the uncertainty estimator. For simplic | Conclusions: Per-occupation fairness analysis. To better understand fairness composition, we break down fairness scores per occupation in Fig. 7. The x-axis labels"
-local_pdf: "[[PDFs/2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -45,7 +45,7 @@ data_metrics: "31,756 samples"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2505.23996
 

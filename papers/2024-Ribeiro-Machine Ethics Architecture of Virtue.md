@@ -9,7 +9,7 @@ first_author: "[[B.A. Ribeiro]]"
 authors: "[[Ribeiro, B.A.]]; [[da Silva, M.B.]]"
 doi: 10.1007/978-3-031-48855-9_29
 url: "https://link.springer.com/chapter/10.1007/978-3-031-48855-9_29"
-local_pdf: "[[PDFs/2024-Ribeiro-Machine Ethics Architecture of Virtue.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Ribeiro-Machine Ethics Architecture of Virtue.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A

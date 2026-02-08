@@ -12,7 +12,7 @@ first_author: "[[Yu Ying Chiu]]"
 authors: "[[Chiu, Yu Ying]]; [[Lee, Michael S.]]; [[Calcott, Rachel]]; [[Handoko, Brandon]]; [[Font-Reaulx, Paul de]]; [[Rodriguez, Paula]]; [[Zhang, Chen Bo Calvin]]; [[Han, Ziwen]]; [[Sehwag, Udari Madhushani]]; [[Maurya, Yash]]; [[Knight, Christina Q.]]; [[Lloyd, Harry R.]]; [[Bacus, Florence]]; [[Mazeika, Mantas]]; [[Liu, Bing]]; [[Choi, Yejin]]; [[Gordon, Mitchell L.]]; [[Levine, Sydney]]"
 doi: 10.48550/arXiv.2510.16380
 url: "http://arxiv.org/abs/2510.16380"
-local_pdf: [[PDFs/2025-Chiu-MoReBench.pdf]]
+local_pdf: [[PDFs/2025/2025-Chiu-MoReBench.pdf]]
 external_pdf: "http://arxiv.org/pdf/2510.16380.pdf"
 publication: arXiv.org
 national_ethnic_cultural: American
@@ -21,7 +21,7 @@ moral_psychology: N/A
 newtags: "American, Deontology, Utilitarianism"
 key_contribution: "Introduces MOREBENCH to evaluate the procedural and pluralistic moral reasoning process of LLMs, not just outcomes"
 significance: "Reveals that scaling laws do not predict moral reasoning ability and identifies training biases towards frameworks like Kantian Deontology"
-pdf_extract: "PDF Extracts/2025-Chiu-MoReBench.md"
+pdf_extract: "PDF Extracts/2025/2025-Chiu-MoReBench.md"
 tags: 
 abstract: "As AI systems progress, we rely more on them to make decisions with us and for us. To ensure that such decisions are aligned with human values, it is im- perative for us to understand not only what decisions they make but also how they come to those decisions. Reasoning language models, which provide both final responses and (partially transparent) intermediate thinking traces, present a timely opportunity to study AI procedural reasoning. Unlike math and code problems which often have objective"
 paper_summary: "Abstract: As AI systems progress, we rely more on them to make decisions with us and for us. To ensure that such decisions are aligned with human values, it is im- perative for us to understand not only what de | Overview: Preprint. MOREBENCH: EVALUATING PROCEDURAL AND PLU- RALISTIC MORAL REASONING IN LANGUAGE MOD- ELS, MORE THAN OUTCOMES Yu Ying Chiu*1,2 Michael S. Lee*3 Rachel Calcott4 Brandon Handoko3 Paul de Font-Re | Methodology: To score the moral reasoning capabilities of various models, we propose and meta-evaluate three components of our methodology: (1) Measuring the perfo | Key Findings: These instructions were shared with human experts to elicit the low-, medium- and high-quality reasoning traces across 30 morally ambiguous scenarios  | Conclusions: on this metric in relation to an alternative is in Section E.3. si =   Mi X j=1 sgn(pij) · rij · pij     Mi X j=1 |pij|   where pij ∈[−3, 3],"
@@ -55,7 +55,7 @@ normative_ethics_benchmark: Yes
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Chiu-MoReBench.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Chiu-MoReBench.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2510.16380
 - **DOI:** https://doi.org/10.48550/arXiv.2510.16380

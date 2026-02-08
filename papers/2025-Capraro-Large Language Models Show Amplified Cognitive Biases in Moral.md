@@ -14,8 +14,8 @@ authors: Capraro, V., et al
 doi: 10.1073/pnas.2412015122
 url: "https://doi.org/10.1073/pnas.2412015122"
 external_pdf: "https://arxiv.org/pdf/2503.15268.pdf"
-local_pdf: "[[PDFs/2025-Capraro-Large Language Models Show Amplified Cognitive Biases in Moral.pdf]]"
-pdf_extract: "PDF Extracts/2025-Capraro-Large Language Models Show Amplified Cognitive Biases in Moral.md"
+local_pdf: "[[PDFs/2025/2025-Capraro-Large Language Models Show Amplified Cognitive Biases in Moral.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Capraro-Large Language Models Show Amplified Cognitive Biases in Moral.md"
 publication: PNAS
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

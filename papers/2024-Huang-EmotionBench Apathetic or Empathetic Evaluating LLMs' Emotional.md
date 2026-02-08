@@ -12,8 +12,8 @@ first_author: "[[Jen-tse Huang]]"
 authors: Jen-tse Huang; Man Ho Lam; Eric John Li; Shujie Ren; Wenxuan Wang; Wenxiang Jiao; Zhaopeng Tu; Michael R. Lyu
 url: "https://arxiv.org/abs/2308.03656"
 external_pdf: "https://arxiv.org/pdf/2308.03656.pdf"
-local_pdf: "[[PDFs/2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional.pdf]]"
-pdf_extract: "PDF Extracts/2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional.md"
+local_pdf: "[[PDFs/2024/2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional.md"
 publication: NeurIPS 2024
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

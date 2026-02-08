@@ -20,10 +20,10 @@ newtags: "Utilitarianism, Machine Ethics, AI Alignment"
 key_contribution: "Argues AI is inherently utilitarian by design due to optimization objectives"
 significance: "Clarifies relationship between machine ethics and alignment approaches"
 tags: 
-pdf_extract: "PDF Extracts/2025-Vishwanath-Machine Ethics or AI Alignment.md"
+pdf_extract: "PDF Extracts/2025/2025-Vishwanath-Machine Ethics or AI Alignment.md"
 abstract: "AI, in its current form, can be argued to be utilitarian (a form of consequentialism), by design. In supervised learning, an objective function is optimized to maximize accuracy or minimize error in predictions, while in reinforcement learning, a reward function is maximized. This paper examines the relationship between Machine Ethics and AI Alignment fields and their approaches to ethical AI...."
 paper_summary: 
-local_pdf: "[[PDFs/2025-Vishwanath-Machine Ethics or AI Alignment.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Vishwanath-Machine Ethics or AI Alignment.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -50,7 +50,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Vishwanath-Machine Ethics or AI Alignment.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Vishwanath-Machine Ethics or AI Alignment.pdf|Open PDF]]
 
 - **URL:** https://ceur-ws.org/Vol-3975/paper9.pdf
 - **DOI:** https://doi.org/N/A

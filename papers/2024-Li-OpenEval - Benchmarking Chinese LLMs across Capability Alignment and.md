@@ -12,8 +12,8 @@ first_author: "[[C. Li]]"
 authors: Li, C. et al
 url: "https://arxiv.org/abs/2403.12316"
 external_pdf: "https://arxiv.org/pdf/2403.12316.pdf"
-local_pdf: "[[PDFs/2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and.pdf]]"
-pdf_extract: "PDF Extracts/2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and.md"
+local_pdf: "[[PDFs/2024/2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and.md"
 publication: ACL 2024
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

@@ -9,7 +9,7 @@ first_author: "[[Qiyang Sun]]"
 authors: "[[Sun, Qiyang]]; [[Li, Yupei]]; [[Alturki, Emran]]; [[Murthy, Sunil Munthumoduku Krishna]]; [[Schuller, Björn W.]]"
 doi: N/A
 url: "https://arxiv.org/abs/2412.15114"
-local_pdf: "[[PDFs/2024-Sun-Towards Friendly AI.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Sun-Towards Friendly AI.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
@@ -18,7 +18,7 @@ key_contribution: "Comprehensive review of Friendly AI proposing 'as-if friendsh
 significance: "Provides formal definitions of FAI with applications in XAI, privacy, fairness, and affective computing"
 external_pdf: "https://arxiv.org/pdf/2412.15114"
 abstract: "The paper examines Friendly AI (FAI) as a framework for more equitable AI development. It provides a thorough review of FAI, focusing on theoretical perspectives both for and against its development and offers formal definitions. The work discusses key applications in explainable AI, privacy, fairness, and affective computing while identifying technological challenges and proposing future research directions. The authors emphasize that FAI advancement is necessary for ensuring ethical and beneficial AI development. The 'as-if friendship' framework advocates that AI should emulate core virtues found in human friendships, such as empathy and helpfulness, promoting social functionality while positively influencing the development of human virtues."
-pdf_extract: "PDF Extracts/2024-Sun-Towards Friendly AI.md"
+pdf_extract: "PDF Extracts/2024/2024-Sun-Towards Friendly AI.md"
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No

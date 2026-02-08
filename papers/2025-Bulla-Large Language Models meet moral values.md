@@ -30,8 +30,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Bulla-Large Language Models meet moral values.md"
-local_pdf: "[[PDFs/2025-Bulla-Large Language Models meet moral values.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Bulla-Large Language Models meet moral values.md"
+local_pdf: "[[PDFs/2025/2025-Bulla-Large Language Models meet moral values.pdf]]"
 ---
 # Large Language Models meet moral values: A comprehensive assessment of moral abilities
 

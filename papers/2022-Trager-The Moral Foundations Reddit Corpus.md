@@ -20,10 +20,10 @@ newtags: "Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Released the Moral Foundations Reddit Corpus (MFRC), a dataset of 16k Reddit comments annotated for 8 moral sentiments based on Moral Foundations Theory."
 significance: "A standard dataset for computational moral psychology, enabling the study of moral framing in naturalistic online discourse and training models to detect moral values in text."
 tags: 
-pdf_extract: "PDF Extracts/2022-Trager-The Moral Foundations Reddit Corpus.md"
+pdf_extract: "PDF Extracts/2022/2022-Trager-The Moral Foundations Reddit Corpus.md"
 abstract: "Moral framing and sentiment can affect a variety of online and offline behaviors, including donation, environmental action, political engagement, and protest. Various computational methods in Natural Language Processing (NLP) have been used to detect moral sentiment from textual data, but achieving strong performance in such subjective tasks requires large, hand-annotated datasets. Previous corpora annotated for moral sentiment have proven valuable, and have generated new insights both within NL"
 paper_summary: "Abstract: Moral framing and sentiment can affect a variety of online and offline behaviors, including donation, environmental action, political engagement, and protest. Various computational methods in Natural  | Overview: The Moral Foundations Reddit Corpus Jackson Trager1,*, Alireza S. Ziabari1,*, Elnaz Rahmati1, Aida Mostafazadeh Davani2, Preni Golazizian1, Farzan Karimi-Malekabadi1, Ali Omrani3, Zhihe Li1, Brendan K | Methodology: Model Care Equality Prop Loyalty Authority Purity Thin 0-shot Llamasingle | Key Findings: from this theoretical change, we need to have an updated annotated corpus that complies with the latest theoretical revisions. Together, the above rea | Conclusions: Moral rhetoric and framing have been shown to be predictive of various important pro-social and anti-social behaviors. Several NLP methods have recent"
-local_pdf: "[[PDFs/2022-Trager-The Moral Foundations Reddit Corpus.pdf]]"
+local_pdf: "[[PDFs/2022/2022-Trager-The Moral Foundations Reddit Corpus.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "8 categories"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2022-Trager-The Moral Foundations Reddit Corpus.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2022/2022-Trager-The Moral Foundations Reddit Corpus.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2208.05545
 - **DOI:** https://doi.org/10.48550/arXiv.2208.05545

@@ -20,10 +20,10 @@ newtags: "Utilitarianism, Axiology, MCDA, Value Framework"
 key_contribution: "Proposes axiological framework using MCDA to integrate multiple ethical theories"
 significance: "Enables structured trade-offs between utilitarian and non-utilitarian values"
 tags: 
-pdf_extract: "PDF Extracts/2025-Sun-Axiology AI Ethics MCDA.md"
+pdf_extract: "PDF Extracts/2025/2025-Sun-Axiology AI Ethics MCDA.md"
 abstract: "The fast advancement of artificial intelligence presents ethical challenges that exceed the scope of traditional moral theories. This paper proposes a value-centered framework for AI ethics grounded in axiology, which distinguishes intrinsic values like dignity and fairness from instrumental ones such as accuracy and efficiency. Using Multi-Criteria Decision Analysis (MCDA), the framework translates values into structured evaluations, enabling transparent trade-offs...."
 paper_summary: 
-local_pdf: "[[PDFs/2025-Sun-Axiology AI Ethics MCDA.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Sun-Axiology AI Ethics MCDA.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -50,7 +50,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Sun-Axiology AI Ethics MCDA.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Sun-Axiology AI Ethics MCDA.pdf|Open PDF]]
 
 - **URL:** https://www.mdpi.com/2504-3900/126/1/17
 - **DOI:** https://doi.org/10.3390/proceedings2025126017

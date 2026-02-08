@@ -30,8 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.md"
-local_pdf: "[[PDFs/2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.md"
+local_pdf: "[[PDFs/2022/2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.pdf]]"
 ---
 # Pro-Social Rule Breaking as a Benchmark of Ethical Intelligence in Socio-Technical Systems
 

@@ -20,10 +20,10 @@ newtags: "Utilitarianism, Deontology, Virtue Ethics, Computational Complexity"
 key_contribution: "Analyzes consequentialism, deontology, and virtue ethics through computational complexity theory"
 significance: "Shows tractability issues for all major normative frameworks when implemented computationally"
 tags: 
-pdf_extract: "PDF Extracts/2024-Stenseke-Computational Complexity of Ethics.md"
+pdf_extract: "PDF Extracts/2024/2024-Stenseke-Computational Complexity of Ethics.md"
 abstract: "Debates on whether artificial intelligence can or should be used to solve problems in ethical domains have mainly been driven by what AI can or cannot do in terms of human capacities. This paper addresses these issues by exploring what kind of moral machines are possible based on the ethical problems computational systems can or cannot solve effectively, analyzing normative ethics through the lens of computational complexity theory. The results indicate that most problems the normative framework..."
 paper_summary: 
-local_pdf: "[[PDFs/2024-Stenseke-Computational Complexity of Ethics.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Stenseke-Computational Complexity of Ethics.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -50,7 +50,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Stenseke-Computational Complexity of Ethics.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Stenseke-Computational Complexity of Ethics.pdf|Open PDF]]
 
 - **URL:** https://link.springer.com/article/10.1007/s10462-024-10732-3
 - **DOI:** https://doi.org/10.1007/s10462-024-10732-3

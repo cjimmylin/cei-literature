@@ -12,8 +12,8 @@ first_author: "[[Naseem Machlovi]]"
 authors: Naseem Machlovi et al.
 url: "https://arxiv.org/abs/2601.03273"
 external_pdf: "https://arxiv.org/pdf/2601.03273.pdf"
-local_pdf: "[[PDFs/2025-Machlovi-GuardEval.pdf]]"
-pdf_extract: "PDF Extracts/2025-Machlovi-GuardEval.md"
+local_pdf: "[[PDFs/2025/2025-Machlovi-GuardEval.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Machlovi-GuardEval.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "No"

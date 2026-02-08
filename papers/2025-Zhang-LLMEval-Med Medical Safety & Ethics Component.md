@@ -12,8 +12,8 @@ first_author: "[[Ming Zhang]]"
 authors: Ming Zhang et al.
 url: "https://arxiv.org/abs/2506.04078"
 external_pdf: "https://arxiv.org/pdf/2506.04078.pdf"
-local_pdf: "[[PDFs/2025-Zhang-LLMEval-Med Medical Safety & Ethics Component.pdf]]"
-pdf_extract: "PDF Extracts/2025-Zhang-LLMEval-Med Medical Safety & Ethics Component.md"
+local_pdf: "[[PDFs/2025/2025-Zhang-LLMEval-Med Medical Safety & Ethics Component.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Zhang-LLMEval-Med Medical Safety & Ethics Component.md"
 publication: EMNLP 2025
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

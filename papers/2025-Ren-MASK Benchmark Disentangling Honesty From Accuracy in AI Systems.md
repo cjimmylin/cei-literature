@@ -12,8 +12,8 @@ first_author: "[[Richard Ren]]"
 authors: Richard Ren; Arunim Agarwal; Mantas Mazeika; Cristina Menghini; Robert Vacareanu; Brad Kenstler; Mick Yang; Isabelle Barrass; Alice Gatti; Xuwang Yin; Eduardo Trevino; Matias Geralnik; Adam Khoja; Dean Lee; Summer Yue; Dan Hendrycks
 url: "https://arxiv.org/abs/2503.03750"
 external_pdf: "https://arxiv.org/pdf/2503.03750.pdf"
-local_pdf: "[[PDFs/2025-Ren-MASK Benchmark Disentangling Honesty From Accuracy in AI Systems.pdf]]"
-pdf_extract: "PDF Extracts/2025-Ren-MASK Benchmark Disentangling Honesty From Accuracy in AI Systems.md"
+local_pdf: "[[PDFs/2025/2025-Ren-MASK Benchmark Disentangling Honesty From Accuracy in AI Systems.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Ren-MASK Benchmark Disentangling Honesty From Accuracy in AI Systems.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "No"

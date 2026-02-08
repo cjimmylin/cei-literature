@@ -12,8 +12,8 @@ first_author: "[[Yuntao Bai]]"
 authors: Yuntao Bai et al.
 url: "https://arxiv.org/abs/2204.05862"
 external_pdf: "https://arxiv.org/pdf/2204.05862.pdf"
-local_pdf: "[[PDFs/2022-Bai-HH-RLHF Helpful and Harmless RLHF.pdf]]"
-pdf_extract: "PDF Extracts/2022-Bai-HH-RLHF Helpful and Harmless RLHF.md"
+local_pdf: "[[PDFs/2022/2022-Bai-HH-RLHF Helpful and Harmless RLHF.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Bai-HH-RLHF Helpful and Harmless RLHF.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

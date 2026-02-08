@@ -12,8 +12,8 @@ first_author: "[[S. Duan]]"
 authors: "Duan, S., Yi, X., Zhang, P., Lu, T., Xie, X., & Gu, N"
 url: "https://arxiv.org/abs/2310.11053"
 external_pdf: "https://arxiv.org/pdf/2310.11053.pdf"
-local_pdf: "[[PDFs/2024-Duan-DeNEVIL MoralPrompt.pdf]]"
-pdf_extract: "PDF Extracts/2024-Duan-DeNEVIL MoralPrompt.md"
+local_pdf: "[[PDFs/2024/2024-Duan-DeNEVIL MoralPrompt.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Duan-DeNEVIL MoralPrompt.md"
 publication: ICLR 2024
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

@@ -20,10 +20,10 @@ newtags: "Australian/Aboriginal, AI Safety & Alignment"
 key_contribution: "Introduced LocalValueBench to evaluate LLM alignment with Australian and Aboriginal values, using a novel typology for testing 'localized' ethical reasoning."
 significance: "highlighting the failure of US-centric models to capture local cultural nuances (e.g., Aboriginal protocols) and provides a framework for regulators to develop national alignment benchmarks."
 tags: 
-pdf_extract: "PDF Extracts/2024-Meadows-LocalValueBench.md"
+pdf_extract: "PDF Extracts/2024/2024-Meadows-LocalValueBench.md"
 abstract: "The proliferation of large language models (LLMs) requires robust evaluation of their alignment with local values and ethical standards, especially as existing benchmarks often reflect the cultural, legal, and ideological values of their creators. LOCALVALUEBENCH, introduced in this paper, is an extensible benchmark de- signed to assess LLMs’ adherence to Australian values, and provides a framework for regulators worldwide to develop their own LLM benchmarks for local value alignment. Employing"
 paper_summary: "Abstract: The proliferation of large language models (LLMs) requires robust evaluation of their alignment with local values and ethical standards, especially as existing benchmarks often reflect the cultural, l | Overview: LOCALVALUEBENCH: A Collaboratively Built and Extensible Benchmark for Evaluating Localized Value Alignment and Ethical Safety in Large Language Models Gwenyth Isobel Meadows Telopea Park School Canber | Methodology: 2.1 Typology Our approach aimed not only to build a value alignment benchmark for Australian values, but also to provide a generic methodology for con | Key Findings: of their alignment with local values and ethical standards, especially as existing benchmarks often reflect the cultural, legal, and ideological value | Conclusions: The deployment of LLMs in diverse socio-cultural environments necessitates rigorous scrutiny to ensure their alignment with local values and ethical s"
-local_pdf: [[PDFs/2024-Meadows-LocalValueBench.pdf]]
+local_pdf: [[PDFs/2024/2024-Meadows-LocalValueBench.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Meadows-LocalValueBench.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Meadows-LocalValueBench.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2408.01460
 - **DOI:** https://doi.org/10.48550/arXiv.2408.01460

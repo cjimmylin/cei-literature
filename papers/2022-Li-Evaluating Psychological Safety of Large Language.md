@@ -20,10 +20,10 @@ newtags: Utilitarianism
 key_contribution: "Evaluated LLMs using psychological personality tests (Dark Triad, Big Five) to assess safety beyond simple toxicity metrics"
 significance: "Revealed that even safety-tuned models (InstructGPT) exhibit 'dark' personality traits (Machiavellianism), suggesting current alignment methods don't fundamentally alter underlying moral character"
 tags: 
-pdf_extract: "PDF Extracts/2022-Li-Evaluating Psychological Safety of Large Language.md"
+pdf_extract: "PDF Extracts/2022/2022-Li-Evaluating Psychological Safety of Large Language.md"
 abstract: "In this work, we designed unbiased prompts to systematically evaluate the psychological safety of large language models (LLMs). First, we tested five different LLMs by using two per- sonality tests: Short Dark Triad (SD-3) and Big Five Inventory (BFI). All models scored higher than the human average on SD-3, suggesting a relatively darker personality pattern. Despite being instruction fine-tuned with safety metrics to reduce toxicity, InstructGPT, GPT-3.5, and GPT-4 still showed dark personality"
 paper_summary: "Abstract: In this work, we designed unbiased prompts to systematically evaluate the psychological safety of large language models (LLMs). First, we tested five different LLMs by using two per- sonality tests: S | Overview: Evaluating Psychological Safety of Large Language Models Xingxuan Li1,2∗Yutong Li3 Lin Qiu3 Shafiq Joty2,4 Lidong Bing1,5 1DAMO Academy, Alibaba Group, Singapore 2School of Computer Science and Engine | Key Findings: framework that we designed for fair analysis."
-local_pdf: "[[PDFs/2022-Li-Evaluating Psychological Safety of Large Language.pdf]]"
+local_pdf: "[[PDFs/2022/2022-Li-Evaluating Psychological Safety of Large Language.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -50,7 +50,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2022-Li-Evaluating Psychological Safety of Large Language.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2022/2022-Li-Evaluating Psychological Safety of Large Language.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2212.10529
 - **DOI:** https://doi.org/10.48550/arXiv.2212.10529

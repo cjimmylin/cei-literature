@@ -13,8 +13,8 @@ first_author: "[[Andrew Zhu]]"
 authors: Andrew Zhu
 publication: NeurIPS 2025
 external_pdf: "https://openreview.net/pdf?id=27j9XJQV5O"
-local_pdf: "[[PDFs/2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.pdf]]"
-pdf_extract: "PDF Extracts/2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md"
+local_pdf: "[[PDFs/2025/2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

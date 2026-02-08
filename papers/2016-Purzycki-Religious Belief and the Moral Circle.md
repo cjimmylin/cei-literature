@@ -30,8 +30,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2016-Purzycki-Religious Belief and the Moral Circle.md"
-local_pdf: "[[PDFs/2016-Purzycki-Religious Belief and the Moral Circle.pdf]]"
+pdf_extract: "PDF Extracts/2016/2016-Purzycki-Religious Belief and the Moral Circle.md"
+local_pdf: "[[PDFs/2016/2016-Purzycki-Religious Belief and the Moral Circle.pdf]]"
 ---
 # Religious Belief and the Moral Circle: Cross-Cultural Dataset
 

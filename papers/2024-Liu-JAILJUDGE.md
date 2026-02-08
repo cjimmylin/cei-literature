@@ -12,8 +12,8 @@ first_author: "[[Fan Liu]]"
 authors: Fan Liu, Yue Feng, Zhao Xu, Lixin Su, Xinyu Ma, Dawei Yin, Hao Liu
 url: "https://arxiv.org/abs/2410.12855"
 external_pdf: "https://arxiv.org/pdf/2410.12855.pdf"
-local_pdf: "[[PDFs/2024-Liu-JAILJUDGE.pdf]]"
-pdf_extract: "PDF Extracts/2024-Liu-JAILJUDGE.md"
+local_pdf: "[[PDFs/2024/2024-Liu-JAILJUDGE.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Liu-JAILJUDGE.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

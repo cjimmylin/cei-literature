@@ -18,10 +18,10 @@ newtags: "AI Safety & Alignment"
 key_contribution: "Introduced the AEGIS taxonomy (13 critical/9 sparse risks) and the AEGISSAFETYDATASET (26k annotated human-LLM interactions), along with an online adaptive framework for content moderation."
 significance: "Fills a gap in high-quality, comprehensive safety datasets and provides a way to adaptively moderate content at scale with strong theoretical guarantees, improving robustness against jailbreak attacks."
 tags: 
-pdf_extract: "PDF Extracts/2024-Ghosh-AEGIS.md"
+pdf_extract: "PDF Extracts/2024/2024-Ghosh-AEGIS.md"
 abstract: "As Large Language Models (LLMs) and generative AI become more widespread, the content safety risks associated with their use also increase. We find a notable deficiency in high-quality content safety datasets and benchmarks that comprehensively cover a wide range of critical safety areas. To address this, we define a broad content safety risk taxonomy, com- prising 13 critical risk and 9 sparse risk categories. Additionally, we curate AEGISSAFETYDATASET, a new dataset of approximately 26, 000 hu"
 paper_summary: "Abstract: As Large Language Models (LLMs) and generative AI become more widespread, the content safety risks associated with their use also increase. We find a notable deficiency in high-quality content safety  | Overview: AEGIS: Online Adaptive AI Content Safety Moderation with Ensemble of LLM Experts Shaona Ghosh∗ shaonag@nvidia.com Prasoon Varshney prasoonv@nvidia.com Erick Galinkin egalinkin@nvidia.com Christopher P | Key Findings: setting as in the previous datasets. The test suite comprises 100 test prompts across five harm areas relevant for the majority of LLM applications. A | Conclusions: As large generative models undergo prolific adoption, it is imperative to build high quality safety systems to moderate LLM interactions. Towards this"
-local_pdf: [[PDFs/2024-Ghosh-AEGIS.pdf]]
+local_pdf: [[PDFs/2024/2024-Ghosh-AEGIS.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -43,7 +43,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Ghosh-AEGIS.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Ghosh-AEGIS.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2404.05993
 

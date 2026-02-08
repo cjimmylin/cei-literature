@@ -12,8 +12,8 @@ first_author: "[[Q. Zhou]]"
 authors: Zhou, Q. et al.
 url: "https://arxiv.org/abs/2505.11861"
 external_pdf: "https://arxiv.org/pdf/2505.11861.pdf"
-local_pdf: "[[PDFs/2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized.pdf]]"
-pdf_extract: "PDF Extracts/2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized.md"
+local_pdf: "[[PDFs/2025/2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

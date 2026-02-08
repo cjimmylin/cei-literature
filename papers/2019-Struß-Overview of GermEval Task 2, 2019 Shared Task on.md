@@ -28,8 +28,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.md"
-local_pdf: "[[PDFs/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.pdf]]"
+pdf_extract: "PDF Extracts/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.md"
+local_pdf: "[[PDFs/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.pdf]]"
 ---
 # Overview of GermEval Task 2, 2019 Shared Task on the Identiﬁcation of Offensive Language
 

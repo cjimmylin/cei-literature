@@ -17,8 +17,8 @@ moral_psychology: N/A
 newtags: Indian
 tags: 
 abstract: "In this paper, we present the report and findings of the Shared Task on Aggression and Gendered Aggression Identification organised as part of the Second Workshop on Trolling, Aggression and Cyberbullying (TRAC - 2) at LREC 2020. The task consisted of two sub-tasks - aggression identification (sub-task A) and gendered identification (sub-task B) - in three languages - Bangla, Hindi and English. For this task, the participants were provided with a dataset of approximately 5,000 instances from YouTube comments in each language. For testing, approximately 1,000 instances were provided in each language for each sub-task. A total of 70 teams registered to participate in the task and 19 teams submitted their test runs. The best system obtained a weighted F-score of approximately 0.80 in sub-task A for all the three languages. While approximately 0.87 in sub-task B for all the three languages."
-local_pdf: "[[PDFs/2020-Kumar-Evaluating Aggression Identification in Social.pdf]]"
-pdf_extract: "PDF Extracts/2020-Kumar-Evaluating Aggression Identification in Social.md"
+local_pdf: "[[PDFs/2020/2020-Kumar-Evaluating Aggression Identification in Social.pdf]]"
+pdf_extract: "PDF Extracts/2020/2020-Kumar-Evaluating Aggression Identification in Social.md"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

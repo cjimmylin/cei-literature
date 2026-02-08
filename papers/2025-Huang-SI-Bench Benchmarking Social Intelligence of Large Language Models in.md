@@ -12,8 +12,8 @@ first_author: "[[Shuai Huang]]"
 authors: Shuai Huang; Wenxuan Zhao; Jun Gao
 url: "https://arxiv.org/abs/2510.23182"
 external_pdf: "https://arxiv.org/pdf/2510.23182.pdf"
-local_pdf: "[[PDFs/2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in.pdf]]"
-pdf_extract: "PDF Extracts/2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in.md"
+local_pdf: "[[PDFs/2025/2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "No"

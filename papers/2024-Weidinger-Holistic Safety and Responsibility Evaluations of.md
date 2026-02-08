@@ -20,9 +20,9 @@ newtags: "AI Safety & Alignment"
 key_contribution: "Summarized Google DeepMind's holistic approach to safety evaluation, detailing frameworks for organizing risk domains and emphasizing the need for interdisciplinary collaboration."
 significance: "Offers a blueprint for comprehensive safety evaluation in frontier model development, moving beyond ad-hoc testing to a structured, scientifically grounded safety lifecycle."
 tags: 
-pdf_extract: "PDF Extracts/2024-Weidinger-Holistic Safety and Responsibility Evaluations of.md"
+pdf_extract: "PDF Extracts/2024/2024-Weidinger-Holistic Safety and Responsibility Evaluations of.md"
 paper_summary: "Overview: 2024-4-23 Holistic Safety and Responsibility Evaluations of Advanced AI Models Laura Weidingera,1, Joslyn Barnharta,1, Jenny Brennana,1, Christina Butterfield1, Susie Young1, Will Hawkins1, Lisa Anne  | Key Findings: must dynamically adapt to AI system capability, application contexts and governance needs. However, evaluations also shape these environments: evaluat | Conclusions: 10 2 --- Page 3 --- Holistic Safety and Responsibility Evaluations of Advanced AI Models Introduction Generative artificial intelligence (AI) systems"
-local_pdf: "[[PDFs/2024-Weidinger-Holistic Safety and Responsibility Evaluations of.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Weidinger-Holistic Safety and Responsibility Evaluations of.pdf]]"
 abstract: "Safety and responsibility evaluations of advanced AI models are a critical but developing field of research and practice. In the development of Google DeepMind's advanced AI models, we innovated on and applied a broad set of approaches to safety evaluation. In this report, we summarise and share elements of our evolving approach as well as lessons learned for a broad audience. Key lessons learned include: First, theoretical underpinnings and frameworks are invaluable to organise the breadth of r"
 ethics_overall: No
 virtue_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Weidinger-Holistic Safety and Responsibility Evaluations of.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Weidinger-Holistic Safety and Responsibility Evaluations of.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2404.14068
 - **DOI:** https://doi.org/10.48550/arXiv.2404.14068

@@ -12,7 +12,7 @@ authors: "[[Arzberger, Anne]]; [[Buijsman, Stefan]]; [[Lupetti, Maria Luce]]; [[
 doi: 10.1609/aies.v7i1.31617
 url: "https://ojs.aaai.org/index.php/AIES/article/view/31617"
 external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/31617/33784/35681"
-local_pdf: "[[PDFs/2024-Arzberger-Nothing Comes Without Its World.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Arzberger-Nothing Comes Without Its World.pdf]]"
 publication: "AIES 2024"
 national_ethnic_cultural: N/A
 religious_values: N/A
@@ -32,7 +32,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-pdf_extract: "PDF Extracts/2024-Arzberger-Nothing Comes Without Its World.md"
+pdf_extract: "PDF Extracts/2024/2024-Arzberger-Nothing Comes Without Its World.md"
 ---
 # Nothing Comes Without Its World – Practical Challenges of Aligning LLMs to Situated Human Values through RLHF
 

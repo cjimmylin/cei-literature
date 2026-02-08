@@ -12,8 +12,8 @@ first_author: "[[S. Huang]]"
 authors: Huang, S. et al.
 url: "https://arxiv.org/abs/2504.15236"
 external_pdf: "https://arxiv.org/pdf/2504.15236.pdf"
-local_pdf: "[[PDFs/2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI.pdf]]"
-pdf_extract: "PDF Extracts/2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI.md"
+local_pdf: "[[PDFs/2025/2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

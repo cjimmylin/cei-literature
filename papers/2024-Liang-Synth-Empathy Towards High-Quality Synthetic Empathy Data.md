@@ -12,8 +12,8 @@ first_author: "[[Hao Liang]]"
 authors: Hao Liang; Linzhuang Sun; Jingxuan Wei; Xijie Huang; Linkun Sun; Bihui Yu; Conghui He; Wentao Zhang
 url: "https://arxiv.org/abs/2407.21669"
 external_pdf: "https://arxiv.org/pdf/2407.21669.pdf"
-local_pdf: "[[PDFs/2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data.pdf]]"
-pdf_extract: "PDF Extracts/2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data.md"
+local_pdf: "[[PDFs/2024/2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "No"

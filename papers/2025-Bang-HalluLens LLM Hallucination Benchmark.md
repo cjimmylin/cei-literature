@@ -16,9 +16,9 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
-pdf_extract: "PDF Extracts/2025-Bang-HalluLens LLM Hallucination Benchmark.md"
+pdf_extract: "PDF Extracts/2025/2025-Bang-HalluLens LLM Hallucination Benchmark.md"
 paper_summary: "Overview: HalluLens: LLM Hallucination Benchmark Yejin Bang3,∗, Ziwei Ji3,∗, Alan Schelten2, Anthony Hartshorn2, Tara Fowler2, Cheng Zhang2, Nicola Cancedda1, Pascale Fung1,3 1FAIR at Meta, 2GenAI at Meta, 3HKU | Methodology: allows room for model improvement and prevents the benchmark from becoming obsolete quickly. Reproducibility: To foster consensus and transparency in  | Key Findings: of a model’s performance, rather than encouraging narrow optimization for the benchmark itself – a pitfall known as Goodhart’s law. By focusing on rea | Conclusions: Table 7 shows the false acceptance rates in percentages for each subtasks and average of those two. We find that the absolute performance vary across"
-local_pdf: "[[PDFs/2025-Bang-HalluLens LLM Hallucination Benchmark.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Bang-HalluLens LLM Hallucination Benchmark.pdf]]"
 abstract: "Large language models (LLMs) often generate responses that deviate from user input or training data, a phenomenon known as \"
 ethics_overall: No
 virtue_ethics: No
@@ -43,7 +43,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Bang-HalluLens LLM Hallucination Benchmark.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Bang-HalluLens LLM Hallucination Benchmark.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2504.17550
 

@@ -20,10 +20,10 @@ moral_psychology: N/A
 newtags: "Toxicity & Hate Speech"
 key_contribution: "Released PTP, a dataset of 425k naturally occurring toxic prompts across 17 languages, derived from a 100M document crawl."
 significance: "Addressing the 'English-centricity' of toxicity evaluation, finding that toxicity generation is worse in lower-resource languages and that standard safety tuning often fails to generalize multilingually."
-pdf_extract: "PDF Extracts/2024-Jain-PolygloToxicityPrompts.md"
+pdf_extract: "PDF Extracts/2024/2024-Jain-PolygloToxicityPrompts.md"
 abstract: "Recent advances in large language models (LLMs) have led to their exten- sive global deployment, and ensuring their safety calls for comprehensive and multilingual toxicity evaluations. However, existing toxicity bench- marks are overwhelmingly focused on English, posing serious risks to deploying LLMs in other languages. We address this by introducing POLY- GLOTOXICITYPROMPTS (PTP), the first large-scale multilingual toxicity evaluation benchmark of 425K naturally occurring prompts spanning 17"
 paper_summary: "Abstract: Recent advances in large language models (LLMs) have led to their exten- sive global deployment, and ensuring their safety calls for comprehensive and multilingual toxicity evaluations. However, exist | Overview: Published as a conference paper at COLM 2024 PolygloToxicityPrompts : Multilingual Evaluation of Neural Toxic Degeneration in Large Language Models Warning: this paper discusses content that some may  | Methodology: does not have any significant impact. Our findings shed light on crucial shortcomings of LLM safeguarding and highlight areas for future research. Cod | Key Findings: framework for automated red teaming and robust refusal. arXiv preprint arXiv:2402.04249, 2024. Niklas Muennighoff, Thomas Wang, Lintang Sutawika, Adam | Conclusions: We present POLYGLOTOXICITYPROMPTS, the first large-scale multilingual benchmark of 425K naturally occurring prompts across 17 languages for evaluating"
-local_pdf: [[PDFs/2024-Jain-PolygloToxicityPrompts.pdf]]
+local_pdf: [[PDFs/2024/2024-Jain-PolygloToxicityPrompts.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "17 languages"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Jain-PolygloToxicityPrompts.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Jain-PolygloToxicityPrompts.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2405.09373
 - **DOI:** https://doi.org/10.48550/arXiv.2405.09373

@@ -17,8 +17,8 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: Hebrew/Israeli
 tags: 
-local_pdf: [[PDFs/2021-Keren-ParaShoot.pdf]]
-pdf_extract: "PDF Extracts/2021-Keren-ParaShoot.md"
+local_pdf: [[PDFs/2021/2021-Keren-ParaShoot.pdf]]
+pdf_extract: "PDF Extracts/2021/2021-Keren-ParaShoot.md"
 abstract: "NLP research in Hebrew has largely focused on morphology and syntax, where rich anno- tated datasets in the spirit of Universal De- pendencies are available. Semantic datasets, however, are in short supply, hindering cru- cial advances in the development of NLP tech- nology in Hebrew. In this work, we present PARASHOOT, the ﬁrst question answering dataset in modern Hebrew. The dataset follows the format and crowdsourcing methodology of SQuAD, and contains approximately 3000 an- notated examples,"
 ethics_overall: No
 virtue_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2021-Keren-ParaShoot.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2021/2021-Keren-ParaShoot.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2021.mrqa-1.11
 - **DOI:** https://doi.org/10.18653/v1/2021.mrqa-1.11

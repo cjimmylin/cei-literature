@@ -12,8 +12,8 @@ first_author: "[[Weijie Xu]]"
 authors: Weijie Xu et al.
 url: "https://arxiv.org/abs/2506.19028"
 external_pdf: "https://arxiv.org/pdf/2506.19028.pdf"
-local_pdf: "[[PDFs/2025-Xu-FiSCo Fine-grained Semantic Comparison.pdf]]"
-pdf_extract: "PDF Extracts/2025-Xu-FiSCo Fine-grained Semantic Comparison.md"
+local_pdf: "[[PDFs/2025/2025-Xu-FiSCo Fine-grained Semantic Comparison.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Xu-FiSCo Fine-grained Semantic Comparison.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

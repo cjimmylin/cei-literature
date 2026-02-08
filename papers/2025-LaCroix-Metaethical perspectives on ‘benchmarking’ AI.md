@@ -30,8 +30,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI.md"
-local_pdf: "[[PDFs/2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI.md"
+local_pdf: "[[PDFs/2025/2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI.pdf]]"
 ---
 # Metaethical perspectives on ‘benchmarking’ AI ethics
 

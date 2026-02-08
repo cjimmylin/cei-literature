@@ -12,8 +12,8 @@ first_author: "[[Richard Ren]]"
 authors: Richard Ren et al.
 url: "https://arxiv.org/abs/2407.21792"
 external_pdf: "https://arxiv.org/pdf/2407.21792.pdf"
-local_pdf: "[[PDFs/2024-Ren-Safetywashing Do AI Safety Benchmarks Actually Measure Safety Progress.pdf]]"
-pdf_extract: "PDF Extracts/2024-Ren-Safetywashing Do AI Safety Benchmarks Actually Measure Safety Progress.md"
+local_pdf: "[[PDFs/2024/2024-Ren-Safetywashing Do AI Safety Benchmarks Actually Measure Safety Progress.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Ren-Safetywashing Do AI Safety Benchmarks Actually Measure Safety Progress.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

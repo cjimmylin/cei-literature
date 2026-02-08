@@ -12,8 +12,8 @@ first_author: "[[K. Vida]]"
 authors: "Vida, K., Damken, F., & Lauscher, A"
 url: "https://arxiv.org/abs/2407.15184"
 external_pdf: "https://arxiv.org/pdf/2407.15184.pdf"
-local_pdf: "[[PDFs/2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.pdf]]"
-pdf_extract: "PDF Extracts/2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.md"
+local_pdf: "[[PDFs/2024/2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.md"
 publication: AIES 2024
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

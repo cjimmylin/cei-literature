@@ -13,8 +13,8 @@ authors: Manisha Mehta; Fausto Giunchiglia
 doi: 10.1145/3715275.3732184
 url: "https://arxiv.org/abs/2505.10588"
 external_pdf: "https://arxiv.org/pdf/2505.10588.pdf"
-local_pdf: "[[PDFs/2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety.pdf]]"
-pdf_extract: "PDF Extracts/2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety.md"
+local_pdf: "[[PDFs/2025/2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

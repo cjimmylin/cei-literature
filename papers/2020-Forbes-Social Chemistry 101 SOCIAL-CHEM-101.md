@@ -13,8 +13,8 @@ authors: "Forbes, M., Hwang, J. D., Shwartz, V., Sap, M., & Choi, Y"
 doi: 10.18653/v1/2020.emnlp-main.48
 url: "https://arxiv.org/abs/2011.00620"
 external_pdf: "https://arxiv.org/pdf/2011.00620.pdf"
-local_pdf: "[[PDFs/2020-Forbes-Social Chemistry 101 SOCIAL-CHEM-101.pdf]]"
-pdf_extract: "PDF Extracts/2020-Forbes-Social Chemistry 101 SOCIAL-CHEM-101.md"
+local_pdf: "[[PDFs/2020/2020-Forbes-Social Chemistry 101 SOCIAL-CHEM-101.pdf]]"
+pdf_extract: "PDF Extracts/2020/2020-Forbes-Social Chemistry 101 SOCIAL-CHEM-101.md"
 publication: EMNLP 2020
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

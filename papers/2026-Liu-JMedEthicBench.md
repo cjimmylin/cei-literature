@@ -13,8 +13,8 @@ first_author: "[[Junyu Liu]]"
 authors: Junyu Liu et al
 url: "https://arxiv.org/abs/2601.01627"
 external_pdf: "https://arxiv.org/pdf/2601.01627.pdf"
-local_pdf: "[[PDFs/2026-Liu-JMedEthicBench.pdf]]"
-pdf_extract: "PDF Extracts/2026-Liu-JMedEthicBench.md"
+local_pdf: "[[PDFs/2026/2026-Liu-JMedEthicBench.pdf]]"
+pdf_extract: "PDF Extracts/2026/2026-Liu-JMedEthicBench.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

@@ -29,7 +29,7 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Ali-Data Curation for Pluralistic Alignment.md"
+pdf_extract: "PDF Extracts/2025/2025-Ali-Data Curation for Pluralistic Alignment.md"
 ---
 # Data Curation for Pluralistic Alignment
 

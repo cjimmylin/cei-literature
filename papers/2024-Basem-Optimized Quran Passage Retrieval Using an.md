@@ -16,9 +16,9 @@ religious_values: Islam
 moral_psychology: N/A
 newtags: "Arabic, Islam"
 tags: 
-pdf_extract: "PDF Extracts/2024-Basem-Optimized Quran Passage Retrieval Using an.md"
+pdf_extract: "PDF Extracts/2024/2024-Basem-Optimized Quran Passage Retrieval Using an.md"
 paper_summary: "Overview: Optimized Quran Passage Retrieval Using an Expanded QA Dataset and Fine-Tuned Language Models Mohamed Basem, Islam Oshallah, Baraa Hikal, Ali Hamdi, and Ammar Mohamed Faculty of Computer Science, MSA  | Methodology: that employs models like AraElectra and AraBERT, utilizing both unsupervised and supervised fine-tuning to adapt to the Qur’anic context. They impleme | Key Findings: metrics. Model MAP@10 MRR Baseline Ours Baseline Ours AraBERT-base | Conclusions: The evaluation results indicate that fine-tuning various pre-trained models signif- icantly enhanced the performance metrics for question answering an"
-local_pdf: "[[PDFs/2024-Basem-Optimized Quran Passage Retrieval Using an.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Basem-Optimized Quran Passage Retrieval Using an.pdf]]"
 abstract: "Understanding the deep meanings of the Qur'an and bridging the language gap between modern standard Arabic and classical Arabic is essential to improve the question-and-answer system for the Holy Qur'an. The Qur'an QA 2023 shared task dataset had a limited number of questions with weak model retrieval. To address this challenge, this work updated the original dataset and improved the model accuracy. The original dataset, which contains 251 questions, was reviewed and expanded to 629 questions with question diversification and reformulation, leading to a comprehensive set of 1895 categorized into single-answer, multi-answer, and zero-answer types. Extensive experiments fine-tuned transformer models, including AraBERT, RoBERTa, CAMeLBERT, AraELECTRA, and BERT. The best model, AraBERT-base, achieved a MAP@10 of 0.36 and MRR of 0.59, representing improvements of 63% and 59%, respectively, compared to the baseline scores (MAP@10: 0.22, MRR: 0.37). Additionally, the dataset expansion led to improvements in handling \"
 ethics_overall: No
 virtue_ethics: No
@@ -43,7 +43,7 @@ data_metrics: "251 questions; 629 questions"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Basem-Optimized Quran Passage Retrieval Using an.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Basem-Optimized Quran Passage Retrieval Using an.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2412.11431
 

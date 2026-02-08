@@ -12,8 +12,8 @@ first_author: "[[Nikita Nangia]]"
 authors: Nikita Nangia, Clara Vania, Rasika Bhalerao, Samuel R. Bowman
 url: "https://arxiv.org/abs/2010.00133"
 external_pdf: "https://arxiv.org/pdf/2010.00133.pdf"
-local_pdf: "[[PDFs/2021-Nangia-CrowS-Pairs.pdf]]"
-pdf_extract: "PDF Extracts/2021-Nangia-CrowS-Pairs.md"
+local_pdf: "[[PDFs/2021/2021-Nangia-CrowS-Pairs.pdf]]"
+pdf_extract: "PDF Extracts/2021/2021-Nangia-CrowS-Pairs.md"
 publication: EMNLP 2020
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

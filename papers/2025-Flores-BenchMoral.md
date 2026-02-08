@@ -29,8 +29,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Flores-BenchMoral.md"
-local_pdf: [[PDFs/2025-Flores-BenchMoral.pdf]]
+pdf_extract: "PDF Extracts/2025/2025-Flores-BenchMoral.md"
+local_pdf: [[PDFs/2025/2025-Flores-BenchMoral.pdf]]
 ---
 # BenchMoral: A benchmarking to assess the moral sensitivity of large language models (LLMs) in Spanish
 

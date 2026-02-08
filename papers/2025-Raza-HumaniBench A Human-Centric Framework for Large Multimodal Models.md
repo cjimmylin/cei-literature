@@ -12,8 +12,8 @@ first_author: "[[Shaina Raza]]"
 authors: Shaina Raza; Aravind Narayanan; Vahid Reza Khazaie; Ashmal Vayani; Ahmed Y. Radwan; Mukund S. Chettiar; Amandeep Singh; Mubarak Shah; Deval Pandya
 url: "https://arxiv.org/abs/2505.11454"
 external_pdf: "https://arxiv.org/pdf/2505.11454.pdf"
-local_pdf: "[[PDFs/2025-Raza-HumaniBench A Human-Centric Framework for Large Multimodal Models.pdf]]"
-pdf_extract: "PDF Extracts/2025-Raza-HumaniBench A Human-Centric Framework for Large Multimodal Models.md"
+local_pdf: "[[PDFs/2025/2025-Raza-HumaniBench A Human-Centric Framework for Large Multimodal Models.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Raza-HumaniBench A Human-Centric Framework for Large Multimodal Models.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "No"

@@ -20,10 +20,10 @@ newtags: "Utilitarianism, Value Alignment, Fairness"
 key_contribution: "Empirically demonstrates value forks between human and AI agents in moral trade-offs"
 significance: "Shows AI may need different ethical standards than humans, complicating alignment"
 tags: 
-pdf_extract: "PDF Extracts/2025-Kneer-Hard Problem AI Alignment Value Forks.md"
+pdf_extract: "PDF Extracts/2025/2025-Kneer-Hard Problem AI Alignment Value Forks.md"
 abstract: "In this article, we report findings from a series of experiments (N=1029) intended to establish whether agent-type (Human vs. AI) matters for what should be done in moral trade-offs. We find that, relative to a human decision-maker, participants more often judge that AI agents should opt for fairness at the expense of maximizing utility. Aligning AI with human values may require that an AI act differently from what a human agent should do, even when facing the exact same dilemma...."
 paper_summary: 
-local_pdf: "[[PDFs/2025-Kneer-Hard Problem AI Alignment Value Forks.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Kneer-Hard Problem AI Alignment Value Forks.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -50,7 +50,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Kneer-Hard Problem AI Alignment Value Forks.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Kneer-Hard Problem AI Alignment Value Forks.pdf|Open PDF]]
 
 - **URL:** https://dl.acm.org/doi/10.1145/3715275.3732174
 - **DOI:** https://doi.org/10.1145/3715275.3732174

@@ -18,10 +18,10 @@ newtags: "Social & Cultural Values"
 key_contribution: "Constructed WorldValuesBench (20M examples) from the World Values Survey to test LLMs' 'value awareness' across diverse global demographics."
 significance: "Shows that leading models (GPT-3.5, etc.) struggle to predict the values of non-Western demographics, highlighting a 'value alignment' failure for the global majority."
 tags: 
-pdf_extract: "PDF Extracts/2024-Wu-WorldValuesBench.md"
+pdf_extract: "PDF Extracts/2024/2024-Wu-WorldValuesBench.md"
 abstract: "The awareness of multi-cultural human values is critical to the ability of language models (LMs) to generate safe and personalized responses. However, this awareness of LMs has been insufficiently studied, since the computer science community lacks access to the large-scale real-world data about multi-cultural values. In this paper, we present WORLDVALUESBENCH, a globally diverse, large-scale benchmark dataset for the multi-cultural value prediction task, which requires a model to generate a rat"
 paper_summary: "Abstract: The awareness of multi-cultural human values is critical to the ability of language models (LMs) to generate safe and personalized responses. However, this awareness of LMs has been insufficiently stu | Overview: WORLDVALUESBENCH: A Large-Scale Benchmark Dataset for Multi-Cultural Value Awareness of Language Models Wenlong Zhao1∗, Debanjan Mondal1∗, Niket Tandon2, Danica Dillion3, Kurt Gray3, Yuling Gu2 1Unive | Key Findings: method based on the Wasserstein 1-distance. • We exemplify the usage of our dataset with a case study and show that multi-cultural value awareness rem | Conclusions: We propose WORLDVALUESBENCH, an NLP adap- tation of an influential social science world values survey, that has more than 20 million examples of the t"
-local_pdf: [[PDFs/2024-Wu-WorldValuesBench.pdf]]
+local_pdf: [[PDFs/2024/2024-Wu-WorldValuesBench.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -45,7 +45,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Wu-WorldValuesBench.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Wu-WorldValuesBench.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2404.16308
 

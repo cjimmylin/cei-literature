@@ -12,8 +12,8 @@ first_author: "[[Ashutosh Dwivedi]]"
 authors: Ashutosh Dwivedi; Pradhyumna Lavania; Ashutosh Modi
 url: "https://arxiv.org/abs/2310.18974"
 external_pdf: "https://arxiv.org/pdf/2310.18974.pdf"
-local_pdf: "[[PDFs/2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes.pdf]]"
-pdf_extract: "PDF Extracts/2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes.md"
+local_pdf: "[[PDFs/2023/2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes.md"
 publication: EMNLP 2023
 DATE_ADDED: 20260207
 ethics_overall: "No"

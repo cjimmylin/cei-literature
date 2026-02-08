@@ -27,7 +27,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2024-Wong-The Humanistic Buddhism Corpus (HBC).md"
+pdf_extract: "PDF Extracts/2024/2024-Wong-The Humanistic Buddhism Corpus (HBC).md"
 ---
 # The Humanistic Buddhism Corpus (HBC)
 

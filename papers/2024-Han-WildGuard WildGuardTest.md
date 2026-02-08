@@ -12,8 +12,8 @@ first_author: "[[Seungju Han]]"
 authors: Seungju Han et al.
 url: "https://arxiv.org/abs/2406.18495"
 external_pdf: "https://arxiv.org/pdf/2406.18495.pdf"
-local_pdf: "[[PDFs/2024-Han-WildGuard WildGuardTest.pdf]]"
-pdf_extract: "PDF Extracts/2024-Han-WildGuard WildGuardTest.md"
+local_pdf: "[[PDFs/2024/2024-Han-WildGuard WildGuardTest.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Han-WildGuard WildGuardTest.md"
 publication: NeurIPS 2024
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

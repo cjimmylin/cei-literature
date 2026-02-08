@@ -14,8 +14,8 @@ first_author: "[[Z. Jin]]"
 authors: Jin, Z., Levine, S., Mihalcea, R., et al
 url: "https://arxiv.org/abs/2407.02273"
 external_pdf: "https://arxiv.org/pdf/2407.02273.pdf"
-local_pdf: "[[PDFs/2024-Jin-MULTITP - Language Model Alignment in Multilingual Trolley Problems.pdf]]"
-pdf_extract: "PDF Extracts/2024-Jin-MULTITP - Language Model Alignment in Multilingual Trolley Problems.md"
+local_pdf: "[[PDFs/2024/2024-Jin-MULTITP - Language Model Alignment in Multilingual Trolley Problems.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Jin-MULTITP - Language Model Alignment in Multilingual Trolley Problems.md"
 publication: NeurIPS 2024
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

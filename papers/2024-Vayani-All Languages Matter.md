@@ -18,10 +18,10 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
-pdf_extract: "PDF Extracts/2024-Vayani-All Languages Matter.md"
+pdf_extract: "PDF Extracts/2024/2024-Vayani-All Languages Matter.md"
 abstract: "Existing Large Multimodal Models (LMMs) generally fo- cus on only a few regions and languages. As LMMs con- tinue to improve, it is increasingly important to ensure they understand cultural contexts, respect local sensitivities, and support low-resource languages, all while effectively inte- grating corresponding visual cues. In pursuit of cultur- ally diverse global multimodal models, our proposed All Languages Matter Benchmark (ALM-bench) represents the largest and most comprehensive effort to"
 paper_summary: "Abstract: Existing Large Multimodal Models (LMMs) generally fo- cus on only a few regions and languages. As LMMs con- tinue to improve, it is increasingly important to ensure they understand cultural contexts,  | Overview: All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages Ashmal Vayani1, 2 *, Dinura Dissanayake2, Hasindri Watawana2, Noor Ahsan2, Nevasini Sasikumar2, Omkar Thawakar2, Henok Biadgli | Key Findings: for decision-making questions (T/F and MCQs) using GPT- 4o as a judge, we also show consistent performance using LLaMA-3.8.1B-Instruct [13] in Tab. A. | Conclusions: In this paper, we introduce ALM-bench, a novel multilingual multimodal cultural benchmark for evaluation with over 22.7k humanly verified samples acro"
-local_pdf: "[[PDFs/2024-Vayani-All Languages Matter.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Vayani-All Languages Matter.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -49,7 +49,7 @@ data_metrics: "100 languages"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Vayani-All Languages Matter.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Vayani-All Languages Matter.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2411.16508
 - **DOI:** https://doi.org/10.48550/arXiv.2411.16508

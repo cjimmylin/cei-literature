@@ -12,8 +12,8 @@ first_author: "[[P. Rottger]]"
 authors: Rottger, P. et al.
 url: "https://arxiv.org/abs/2404.05399"
 external_pdf: "https://arxiv.org/pdf/2404.05399.pdf"
-local_pdf: "[[PDFs/2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety.pdf]]"
-pdf_extract: "PDF Extracts/2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety.md"
+local_pdf: "[[PDFs/2024/2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety.md"
 publication: AAAI
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

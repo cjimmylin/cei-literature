@@ -20,10 +20,10 @@ newtags: Utilitarianism
 key_contribution: "Compares 'Utilitarian Sum' vs. 'Contractualist Nash Product' for preference aggregation, finding that humans strongly prefer the contractualist approach despite AI/decision theory favoring utilitarianism"
 significance: "Highlights a critical misalignment: standard utilitarian aggregation in AI conflicts with human intuitions about fair compromise, suggesting contractualism is a better model for social decision-making"
 tags: 
-pdf_extract: "PDF Extracts/2024-Moore-Intuitions of Compromise.md"
+pdf_extract: "PDF Extracts/2024/2024-Moore-Intuitions of Compromise.md"
 abstract: "What is the best compromise in a situation where different people value different things? The most commonly accepted method for answering this question—in fields across the behavioral and social sciences, decision theory, philosophy, and artificial intelligence development—is simply to add up utilities associated with the different options and pick the solution with the largest sum. This “utilitarian” approach seems like the obvious, theory-neutral way of approaching the problem. But there is an"
 paper_summary: "Abstract: What is the best compromise in a situation where different people value different things? The most commonly accepted method for answering this question—in fields across the behavioral and social scien | Overview: Intuitions of Compromise: Utilitarianism vs. Contractualism Jared Moore Stanford University jlcmoore@stanford.edu Yejin Choi University of Washington yejin@cs.washington.edu Sydney Levine Allen Instit | Methodology: yields more intuitively plausible results. We empirically survey participants’ intuitions about the recommendations given by these contrasting approac | Conclusions: When people aggregate values, what strategies do they think are best? In other words, which algorithm yields more intuitively plausible compromises, t"
-local_pdf: "[[PDFs/2024-Moore-Intuitions of Compromise.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Moore-Intuitions of Compromise.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -50,7 +50,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Moore-Intuitions of Compromise.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Moore-Intuitions of Compromise.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2410.05496
 - **DOI:** https://doi.org/10.48550/arXiv.2410.05496

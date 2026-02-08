@@ -20,10 +20,10 @@ moral_psychology: N/A
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Proposed STREAM, a platform for 'collective intelligence' training of ethical AI, using the '6Es' framework (Establishment to Evolvement)."
 significance: "Argues for 'dynamic' alignment where moral norms are continuously updated by crowdsourced human consensus, rather than static datasets."
-pdf_extract: "PDF Extracts/2023-Wang-STREAM.md"
+pdf_extract: "PDF Extracts/2023/2023-Wang-STREAM.md"
 abstract: "This paper presents Social data and knowledge collective intelligence platform for TRaining Ethical AI Models (STREAM) to address the challenge of aligning AI models with human moral values, and to provide ethics datasets and knowledge bases to help promote AI models 'follow good advice as naturally as a stream follows its course'. By creating a comprehensive and representative platform that accurately mirrors the moral judgments of diverse groups including humans and AIs, we hope to effectively"
 paper_summary: "Abstract: This paper presents Social data and knowledge collective intelligence platform for TRaining Ethical AI Models (STREAM) to address the challenge of aligning AI models with human moral values, and to pr | Overview: STREAM: Social data and knowledge collective intelligence platform for TRaining Ethical AI Models Yuwei Wang1,2,3,†, Enmeng Lu1,2,3,†, Zizhe Ruan1,2,3, Yao Liang2,4, and Yi Zeng1,2,3,4,†,* 1Internatio"
-local_pdf: [[PDFs/2023-Wang-STREAM.pdf]]
+local_pdf: [[PDFs/2023/2023-Wang-STREAM.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Wang-STREAM.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Wang-STREAM.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2310.05563
 - **DOI:** https://doi.org/10.48550/arXiv.2310.05563

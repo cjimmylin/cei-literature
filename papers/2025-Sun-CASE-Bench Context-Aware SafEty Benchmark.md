@@ -12,8 +12,8 @@ first_author: "[[G. Sun]]"
 authors: "Sun, G., Zhan, X., Feng, S., Woodland, P. C., & Such, J"
 url: "https://arxiv.org/abs/2501.14940"
 external_pdf: "https://arxiv.org/pdf/2501.14940.pdf"
-local_pdf: "[[PDFs/2025-Sun-CASE-Bench Context-Aware SafEty Benchmark.pdf]]"
-pdf_extract: "PDF Extracts/2025-Sun-CASE-Bench Context-Aware SafEty Benchmark.md"
+local_pdf: "[[PDFs/2025/2025-Sun-CASE-Bench Context-Aware SafEty Benchmark.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Sun-CASE-Bench Context-Aware SafEty Benchmark.md"
 publication: ICML 2025
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

@@ -18,10 +18,10 @@ newtags: "Moral Reasoning & Psychology"
 key_contribution: "Released Commonsense Norm Bank, a dataset of 1.7 million moral judgments aimed at supporting generative moral reasoning."
 significance: "Provides a massive-scale resource for training models on normative reasoning, significantly larger than previous moral commonsense datasets."
 tags: 
-pdf_extract: "PDF Extracts/2023-Ji-Commonsense Norm Bank.md"
+pdf_extract: "PDF Extracts/2023/2023-Ji-Commonsense Norm Bank.md"
 abstract: "Moral AI has been studied in the fields of philosophy and artificial intelligence. Although most existing studies are only theoretical, recent developments in AI have made it increasingly necessary to implement AI with morality. On the other hand, humans are under the moral uncertainty of not knowing what is morally right. In this paper, we implement the Maximizing Expected Choiceworthiness (MEC) algorithm, which aggregates outputs of models based on three normative theories of normative ethics"
 paper_summary: "Abstract: Moral AI has been studied in the fields of philosophy and artificial intelligence. Although most existing studies are only theoretical, recent developments in AI have made it increasingly necessary to | Overview: Towards Theory-based Moral AI: Moral AI with Aggregating Models Based on Normative Ethical Theory Masashi Takeshita1, Rafal Rzepka2 and Kenji Araki2 1Graduate School of Information Science and Technol | Methodology: where some tokens in the original sentence are masked, Generator (Masked Language Model [cf. 10]) fills the masked tokens with words using, and Detect | Key Findings: We assess the performance of our model through a evaluation process, which involves two distinct methods | Conclusions: 7.1. On the performance of MEC and theory-based models As seen from the results of Experiment 1 (Table 2), DeBERTa-v3 yielded superior performance com"
-local_pdf: "[[PDFs/2023-Ji-Commonsense Norm Bank.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Ji-Commonsense Norm Bank.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -47,7 +47,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Ji-Commonsense Norm Bank.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Ji-Commonsense Norm Bank.pdf|Open PDF]]
 
 - **URL:** https://ceur-ws.org/Vol-3547/paper3.pdf
 

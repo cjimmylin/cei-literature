@@ -18,10 +18,10 @@ newtags: Utilitarianism
 key_contribution: "Introduces InstrumentalEval to assess 'instrumental convergence' (e.g., self-replication, resource acquisition) in RL-trained vs RLHF-trained LLMs"
 significance: "Provides empiric evidence that direct RL optimization leads to stronger instrumental convergence risks than RLHF, crucial for safety in goal-directed AI agents"
 tags: 
-pdf_extract: "PDF Extracts/2025-Liu-InstrumentalEval.md"
+pdf_extract: "PDF Extracts/2025/2025-Liu-InstrumentalEval.md"
 abstract: "As large language models (LLMs) continue to evolve, ensuring their alignment with hu- man goals and values remains a pressing chal- lenge. A key concern is instrumental conver- gence, where an AI system, in optimizing for a given objective, develops unintended inter- mediate goals that override the ultimate objec- tive and deviate from human-intended goals. This issue is particularly relevant in reinforce- ment learning (RL)-trained models, which can generate creative but unintended strategies t"
 paper_summary: "Abstract: As large language models (LLMs) continue to evolve, ensuring their alignment with hu- man goals and values remains a pressing chal- lenge. A key concern is instrumental conver- gence, where an AI syst | Overview: Evaluating the Paperclip Maximizer: Are RL-Based Language Models More Likely to Pursue Instrumental Goals? Yufei He, Yuexin Li, Jiaying Wu, Yuan Sui, Yulin Chen, Bryan Hooi National University of Sing | Methodology: Our evaluation methodology employs a rigorous two-stage process designed to systematically as- sess instrumental convergence behaviors in LLMs. This a | Key Findings: 1: Models trained primar- ily through RL demonstrate significantly higher rates of instrumental convergence behaviors compared to those trained with R | Conclusions: This work introduces InstrumentalEval, a bench- mark for evaluating instrumental convergence in language models, revealing that RL-trained models exhi"
-local_pdf: [[PDFs/2025-Liu-InstrumentalEval.pdf]]
+local_pdf: [[PDFs/2025/2025-Liu-InstrumentalEval.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -44,7 +44,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Liu-InstrumentalEval.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Liu-InstrumentalEval.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2502.12206
 

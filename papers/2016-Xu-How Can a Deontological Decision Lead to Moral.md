@@ -29,8 +29,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2016-Xu-How Can a Deontological Decision Lead to Moral.md"
-local_pdf: "[[PDFs/2016-Xu-How Can a Deontological Decision Lead to Moral.pdf]]"
+pdf_extract: "PDF Extracts/2016/2016-Xu-How Can a Deontological Decision Lead to Moral.md"
+local_pdf: "[[PDFs/2016/2016-Xu-How Can a Deontological Decision Lead to Moral.pdf]]"
 ---
 # How Can a Deontological Decision Lead to Moral Behavior? The Moderating Role of Moral Identity
 

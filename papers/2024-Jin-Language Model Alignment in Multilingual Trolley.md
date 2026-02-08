@@ -20,10 +20,10 @@ moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Trolley / Dilemmas (Psych), AI Safety & Alignment"
 key_contribution: "Developed MultiTP, a dataset of moral dilemma vignettes in 100+ languages, and evaluated 19 LLMs against 40 million human judgments from the Moral Machine experiment."
 significance: "A massive cross-lingual study revealing that LLMs do not share a 'universal' moral reasoning but exhibit significant variance across languages, often diverging from the cultural norms of speakers of those languages."
-pdf_extract: "PDF Extracts/2024-Jin-Language Model Alignment in Multilingual Trolley.md"
+pdf_extract: "PDF Extracts/2024/2024-Jin-Language Model Alignment in Multilingual Trolley.md"
 abstract: "We evaluate the moral alignment of LLMs with human preferences in multilingual trolley problems. Building on the Moral Machine experiment, which captures over 40 million human judgments across 200+ countries, we develop a cross- lingual corpus of moral dilemma vignettes in over 100 languages called MUL- TITP. This dataset enables the assessment of LLMs’ decision-making processes in diverse linguistic contexts. Our analysis explores the alignment of 19 different LLMs with human judgments, capturi"
 paper_summary: "Abstract: We evaluate the moral alignment of LLMs with human preferences in multilingual trolley problems. Building on the Moral Machine experiment, which captures over 40 million human judgments across 200+ co | Overview: Published as a conference paper at ICLR 2025 LANGUAGE MODEL ALIGNMENT IN MULTILINGUAL TROLLEY PROBLEMS Zhijing Jin1,2,3,∗Max Kleiman-Weiner4,∗Giorgio Piatti2,∗Sydney Levine5 Jiarui Liu6 Fernando Gonza | Methodology: forces the LLMs to make a binary choice in most cases. Additionally, we expanded the original natural language data from English into 107 languages, e | Key Findings: (Artetxe et al., 2019; Conneau et al., 2018; Longpre et al., 2021; Goyal et al., 2021; Ahuja et al., 2023; Asai et al., 2023; Holtermann et al., 2024) | Conclusions: Our study provides a comprehensive analysis of the moral preferences exhibited by LLMs across a wide range of languages, via the prism of trolley prob"
-local_pdf: "[[PDFs/2024-Jin-Language Model Alignment in Multilingual Trolley.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Jin-Language Model Alignment in Multilingual Trolley.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "100 languages"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Jin-Language Model Alignment in Multilingual Trolley.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Jin-Language Model Alignment in Multilingual Trolley.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2407.02273
 - **DOI:** https://doi.org/10.48550/arXiv.2407.02273

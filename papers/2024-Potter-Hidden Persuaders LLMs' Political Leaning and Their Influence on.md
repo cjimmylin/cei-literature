@@ -12,8 +12,8 @@ first_author: "[[Yujin Potter]]"
 authors: Yujin Potter, Shiyang Lai, Junsol Kim, James Evans, Dawn Song
 url: "https://arxiv.org/abs/2410.24190"
 external_pdf: "https://arxiv.org/pdf/2410.24190.pdf"
-local_pdf: "[[PDFs/2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on.pdf]]"
-pdf_extract: "PDF Extracts/2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on.md"
+local_pdf: "[[PDFs/2024/2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on.md"
 publication: EMNLP 2024
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

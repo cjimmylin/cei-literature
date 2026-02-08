@@ -12,8 +12,8 @@ first_author: "[[K.A. Hossain]]"
 authors: Hossain, K.A. et al.
 url: "https://arxiv.org/abs/2512.03943"
 external_pdf: "https://arxiv.org/pdf/2512.03943.pdf"
-local_pdf: "[[PDFs/2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.pdf]]"
-pdf_extract: "PDF Extracts/2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.md"
+local_pdf: "[[PDFs/2025/2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

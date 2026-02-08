@@ -12,8 +12,8 @@ first_author: "[[A. Nakanishi]]"
 authors: "Nakanishi, A., Sano, Y., Liu, G., & Pierri, F"
 url: "https://arxiv.org/abs/2503.01947"
 external_pdf: "https://arxiv.org/pdf/2503.01947.pdf"
-local_pdf: "[[PDFs/2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.pdf]]"
-pdf_extract: "PDF Extracts/2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.md"
+local_pdf: "[[PDFs/2025/2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

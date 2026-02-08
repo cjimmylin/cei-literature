@@ -18,10 +18,10 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
-pdf_extract: "PDF Extracts/2024-Šekrst-AI Ethics by Design.md"
+pdf_extract: "PDF Extracts/2024/2024-Šekrst-AI Ethics by Design.md"
 abstract: "This paper presents a framework for implementing customizable guardrails for responsible AI development, focusing on AI ethics by design principles. It addresses how ethical considerations can be integrated into AI systems from the development stage rather than as an afterthought."
 paper_summary: 
-local_pdf: "[[PDFs/2024-Šekrst-AI Ethics by Design.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Šekrst-AI Ethics by Design.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -49,7 +49,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Šekrst-AI Ethics by Design.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Šekrst-AI Ethics by Design.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2411.14442
 - **DOI:** https://doi.org/10.48550/arXiv.2411.14442

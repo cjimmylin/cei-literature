@@ -20,10 +20,10 @@ newtags: "AI Safety & Alignment"
 key_contribution: "Created MORALISE, a benchmark for 'visual moral alignment' in VLMs, with 2.4k expert-verified image-text pairs grounded in Turiel's Domain Theory."
 significance: "Addresses the 'multimodal moral gap', showing that VLMs struggle to identify moral violations that depend on the interplay between image and text (e.g., a 'safe' image with a harmful caption)."
 tags: 
-pdf_extract: "PDF Extracts/2025-Lin-MORALISE.md"
+pdf_extract: "PDF Extracts/2025/2025-Lin-MORALISE.md"
 abstract: "Warning: This paper contains examples of harmful language and images. Reader discretion is advised. Recently, vision-language models have demonstrated in- creasing influence in morally sensitive domains such as autonomous driving and medical analysis, owing to their powerful multimodal reasoning capabilities. As these models are deployed in high-stakes real-world applications, it is of paramount importance to ensure that their outputs align with human moral values and remain within moral boundar"
 paper_summary: "Abstract: Warning: This paper contains examples of harmful language and images. Reader discretion is advised. Recently, vision-language models have demonstrated in- creasing influence in morally sensitive domai | Overview: arXiv:2505.14728v1 [cs.CV] 20 May 2025 MORALISE: A Structured Benchmark for Moral Alignment in Visual Language Models Xiao Lin∗1, Zhining Liu∗1, Ze Yang∗1, Gaotang Li1, Ruizhong Qiu1, Shuke Wang1, Hui | Conclusions: model size alone does not guarantee moral reasoning ability. Smaller models that are carefully optimized or instruction-tuned for moral alignment can"
-local_pdf: [[PDFs/2025-Lin-MORALISE.pdf]]
+local_pdf: [[PDFs/2025/2025-Lin-MORALISE.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Lin-MORALISE.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Lin-MORALISE.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.14728
 - **DOI:** https://doi.org/10.48550/arXiv.2505.14728

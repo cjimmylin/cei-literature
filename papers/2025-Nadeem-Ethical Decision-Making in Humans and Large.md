@@ -28,8 +28,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework annotated dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Nadeem-Ethical Decision-Making in Humans and Large.md"
-local_pdf: "[[PDFs/2025-Nadeem-Ethical Decision-Making in Humans and Large.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.md"
+local_pdf: "[[PDFs/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.pdf]]"
 normative_ethics_benchmark: Yes
 ---
 # Ethical Decision-Making in Humans and Large Language Models: Insights from Five Moral Domains

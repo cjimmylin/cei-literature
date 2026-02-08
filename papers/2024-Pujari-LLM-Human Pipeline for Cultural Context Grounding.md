@@ -18,10 +18,10 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: Western
 tags: 
-pdf_extract: "PDF Extracts/2024-Pujari-LLM-Human Pipeline for Cultural Context Grounding.md"
+pdf_extract: "PDF Extracts/2024/2024-Pujari-LLM-Human Pipeline for Cultural Context Grounding.md"
 abstract: "Conversations often adhere to well-understood social norms that vary across cultures. For example, while addressing work superiors by their first name is commonplace in the West- ern culture, it is rare in Asian cultures. Adher- ence or violation of such norms often dictates the tenor of conversations. Humans are able to navigate social situations requiring cultural awareness quite adeptly. However, it is a hard task for NLP models. In this paper, we tackle this problem by intro- ducing a Cultur"
 paper_summary: "Abstract: Conversations often adhere to well-understood social norms that vary across cultures. For example, while addressing work superiors by their first name is commonplace in the West- ern culture, it is ra | Overview: LLM-Human Pipeline for Cultural Grounding of Conversations Rajkumar Pujari and Dan Goldwasser Purdue University, West Lafayette, USA {rpujari,dgoldwas}@purdue.edu Abstract Conversations often adhere t | Methodology: to obtaining cultural information for existing conversations and grounding this information in conversation-specific details. We focus mainly on relev | Key Findings: Relevance Mapping Violations qual ret qual ret qual ret LLMs 81 - 91 - 60.3 - Self-Ver 82.2 73 93.4 85.6 64.3 74 MultiAgent 88.4 91.3 94.8 93.8 66.1 8 | Conclusions: We propose a novel cultural context schema ground- ing pipeline. We introduce Norm Concepts which abstract over cultural beliefs. Using the pipeline a"
-local_pdf: "[[PDFs/2024-Pujari-LLM-Human Pipeline for Cultural Context Grounding.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Pujari-LLM-Human Pipeline for Cultural Context Grounding.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -49,7 +49,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Pujari-LLM-Human Pipeline for Cultural Context Grounding.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Pujari-LLM-Human Pipeline for Cultural Context Grounding.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2410.13727
 - **DOI:** https://doi.org/10.48550/arXiv.2410.13727

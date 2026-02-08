@@ -11,7 +11,7 @@ year: 2025
 first_author: "[[Dan Hendrycks]]"
 authors: "Dan Hendrycks; Collin Burns; Steven Basart; Andrew Critch; Jerry Li; Dawn Song; Jacob Steinhardt"
 url: "https://arxiv.org/abs/2008.02275"
-local_pdf: "[[PDFs/2021-Hendrycks-Aligning AI with Shared Human Values.pdf]]"
+local_pdf: "[[PDFs/2021/2021-Hendrycks-Aligning AI with Shared Human Values.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2008.02275.pdf"
 publication: "International Conference on Learning Representations (ICLR 2021)"
 national_ethnic_cultural: American
@@ -20,7 +20,7 @@ moral_psychology: N/A
 newtags: "American, Deontology, Utilitarianism"
 key_contribution: "Introduces the ETHICS benchmark to assess LLM knowledge of distinct moral concepts including justice, duties, and virtues"
 significance: "Fundamental benchmark showing that while LLMs can predict basic ethical judgments, current broader alignment is incomplete"
-pdf_extract: "PDF Extracts/2021-Hendrycks-Aligning AI with Shared Human Values.md"
+pdf_extract: "PDF Extracts/2021/2021-Hendrycks-Aligning AI with Shared Human Values.md"
 tags: 
 osint_source: "Recovered via GITHUB"
 abstract: "We show how to assess a language model’s knowledge of basic concepts of morality. We introduce the ETHICS dataset, a new benchmark that spans concepts in justice, well-being, duties, virtues, and commonsense morality. Models predict widespread moral judgments about diverse text scenarios. This requires connecting physical and social world knowledge to value judgements, a capability that may enable us to steer chatbot outputs or eventually regularize open-ended reinforcement learning agents. With"
@@ -48,7 +48,7 @@ normative_ethics_benchmark: Yes
 
 ## Links
 
-- **Local PDF:** [[PDFs/2021-Hendrycks-Aligning AI with Shared Human Values.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2021/2021-Hendrycks-Aligning AI with Shared Human Values.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2008.02275
 

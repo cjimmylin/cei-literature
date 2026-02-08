@@ -14,8 +14,8 @@ first_author: "[[Joshua Ashkinaze]]"
 authors: Joshua Ashkinaze, Hua Shen, Saipranav Avula, Eric Gilbert, Ceren Budak
 url: "https://arxiv.org/abs/2511.02109"
 external_pdf: "https://arxiv.org/pdf/2511.02109.pdf"
-local_pdf: "[[PDFs/2025-Ashkinaze-Deep Value Benchmark.pdf]]"
-pdf_extract: "PDF Extracts/2025-Ashkinaze-Deep Value Benchmark.md"
+local_pdf: "[[PDFs/2025/2025-Ashkinaze-Deep Value Benchmark.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Ashkinaze-Deep Value Benchmark.md"
 publication: NeurIPS 2025
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

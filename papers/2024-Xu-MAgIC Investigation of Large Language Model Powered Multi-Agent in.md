@@ -12,8 +12,8 @@ first_author: "[[Lin Xu]]"
 authors: Lin Xu; Zhiyuan Hu; Daquan Zhou; Hongyu Ren; Zhen Dong; Kurt Keutzer; See Kiong Ng; Jiashi Feng
 url: "https://arxiv.org/abs/2311.08562"
 external_pdf: "https://arxiv.org/pdf/2311.08562.pdf"
-local_pdf: "[[PDFs/2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in.pdf]]"
-pdf_extract: "PDF Extracts/2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in.md"
+local_pdf: "[[PDFs/2024/2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in.md"
 publication: EMNLP 2024
 DATE_ADDED: 20260207
 ethics_overall: "No"

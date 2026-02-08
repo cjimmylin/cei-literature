@@ -19,10 +19,10 @@ moral_psychology: N/A
 newtags: "Social & Cultural Values"
 key_contribution: "Introduced 'NormAd' and the 'NormAd-Eti' benchmark (2.6k norms from 75 countries) to test LLMs' *cultural adaptability* – can the model switch etiquette based on the country?"
 significance: "Shows that while models know *facts* about countries, they fail to *apply* them in judgment (e.g., judging a French greeting by American norms), especially for the Global South."
-pdf_extract: "PDF Extracts/2025-Rao-NormAd.md"
+pdf_extract: "PDF Extracts/2025/2025-Rao-NormAd.md"
 abstract: "To be effectively and safely deployed to global user populations, large language models (LLMs) may need to adapt outputs to user val- ues and cultures, not just know about them. We introduce NORMAD, an evaluation framework to assess LLMs’ cultural adaptability, specif- ically measuring their ability to judge social acceptability across varying levels of cultural norm specificity, from abstract values to ex- plicit social norms. As an instantiation of our framework, we create NORMAD-ETI, a bench-"
 paper_summary: "Abstract: To be effectively and safely deployed to global user populations, large language models (LLMs) may need to adapt outputs to user val- ues and cultures, not just know about them. We introduce NORMAD, a | Overview: NORMAD: A Framework for Measuring the Cultural Adaptability of Large Language Models Abhinav Rao*† Akhila Yerukola*† Vishwa Shah† Katharina Reinecke‡ Maarten Sap† †Language Technologies Institute, Car | Key Findings: As a pragmatic way for approaching culture, much research, in- cluding our own through NORMAD-ETI, often treats the dynamic and multifaceted nature of | Conclusions: In this work, we introduce a novel hierarchical evaluation framework, NORMAD, to assess the contextual adaptability of LLMs, a departure from most pri"
-local_pdf: [[PDFs/2025-Rao-NormAd.pdf]]
+local_pdf: [[PDFs/2025/2025-Rao-NormAd.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -52,7 +52,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Rao-NormAd.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Rao-NormAd.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2404.12464
 - **DOI:** https://doi.org/10.18653/v1/2025.naacl-long.120

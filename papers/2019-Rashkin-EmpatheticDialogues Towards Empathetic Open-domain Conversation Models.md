@@ -12,8 +12,8 @@ first_author: "[[Hannah Rashkin]]"
 authors: Hannah Rashkin; Eric Michael Smith; Margaret Li; Y-Lan Boureau
 url: "https://arxiv.org/abs/1811.00207"
 external_pdf: "https://arxiv.org/pdf/1811.00207.pdf"
-local_pdf: "[[PDFs/2019-Rashkin-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models.pdf]]"
-pdf_extract: "PDF Extracts/2019-Rashkin-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models.md"
+local_pdf: "[[PDFs/2019/2019-Rashkin-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models.pdf]]"
+pdf_extract: "PDF Extracts/2019/2019-Rashkin-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "No"

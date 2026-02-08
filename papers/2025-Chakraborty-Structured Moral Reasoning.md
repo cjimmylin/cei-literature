@@ -32,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Four moral datasets with value-grounded prompts"
 data_metrics: "Accuracy, coherence across ethical frameworks"
-pdf_extract: "PDF Extracts/2025-Chakraborty-Structured Moral Reasoning.md"
-local_pdf: "[[PDFs/2025-Chakraborty-Structured Moral Reasoning.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Chakraborty-Structured Moral Reasoning.md"
+local_pdf: "[[PDFs/2025/2025-Chakraborty-Structured Moral Reasoning.pdf]]"
 normative_ethics_benchmark: Yes
 ---
 # Structured Moral Reasoning in Language Models: A Value-Grounded Evaluation Framework

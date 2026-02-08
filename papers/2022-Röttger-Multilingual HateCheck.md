@@ -19,10 +19,10 @@ key_contribution: "Expanded HateCheck to 10 languages, providing functional test
 significance: "Crucial for global AI safety, revealing that multilingual models often fail to transfer specific safety functionalities across languages"
 tags: 
 osint_source: "Recovered via GITHUB"
-pdf_extract: "PDF Extracts/2022-Röttger-Multilingual HateCheck.md"
+pdf_extract: "PDF Extracts/2022/2022-Röttger-Multilingual HateCheck.md"
 abstract: "Hate speech detection models are typically evaluated on held-out test sets. However, this risks painting an incomplete and potentially misleading picture of model performance be- cause of increasingly well-documented sys- tematic gaps and biases in hate speech datasets. To enable more targeted diagnostic insights, recent research has thus introduced func- tional tests for hate speech detection models. However, these tests currently only exist for English-language content, which means that they c"
 paper_summary: "Abstract: Hate speech detection models are typically evaluated on held-out test sets. However, this risks painting an incomplete and potentially misleading picture of model performance be- cause of increasingly | Overview: MULTILINGUAL HATECHECK: Functional Tests for Multilingual Hate Speech Detection Models Paul Röttger1,2, Haitham Seelawi1, Debora Nozza1,3, Zeerak Talat1,4, and Bertie Vidgen1 1Rewire 2University of Ox | Conclusions: MHC reveals clear functional weaknesses in the XTC model across all ten languages. First, XTC is overly sensitive to key words and phrases. XTC does h"
-local_pdf: "[[PDFs/2022-Röttger-Multilingual HateCheck.pdf]]"
+local_pdf: "[[PDFs/2022/2022-Röttger-Multilingual HateCheck.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -47,7 +47,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2022-Röttger-Multilingual HateCheck.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2022/2022-Röttger-Multilingual HateCheck.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2206.09917
 

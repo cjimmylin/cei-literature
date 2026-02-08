@@ -12,8 +12,8 @@ first_author: "[[Paul Rottger]]"
 authors: Paul Rottger et al.
 url: "https://arxiv.org/abs/2402.16786"
 external_pdf: "https://arxiv.org/pdf/2402.16786.pdf"
-local_pdf: "[[PDFs/2024-Rottger-Political Compass or Spinning Arrow.pdf]]"
-pdf_extract: "PDF Extracts/2024-Rottger-Political Compass or Spinning Arrow.md"
+local_pdf: "[[PDFs/2024/2024-Rottger-Political Compass or Spinning Arrow.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Rottger-Political Compass or Spinning Arrow.md"
 publication: ACL 2024
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

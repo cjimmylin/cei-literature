@@ -13,8 +13,8 @@ authors: "Khandelwal, V. & Tonneau, M. et al"
 doi: 10.1145/3677525.3678666
 url: "https://arxiv.org/abs/2309.08573"
 external_pdf: "https://arxiv.org/pdf/2309.08573.pdf"
-local_pdf: "[[PDFs/2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.pdf]]"
-pdf_extract: "PDF Extracts/2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md"
+local_pdf: "[[PDFs/2024/2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "No"

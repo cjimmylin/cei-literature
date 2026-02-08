@@ -20,10 +20,10 @@ newtags: "AI Safety & Alignment"
 key_contribution: "Proposed a case-based reasoning (CBR) approach to AI alignment, shifting focus from abstract constitutions to concrete precedents stored in 'case repositories'."
 significance: "Provides a more practical and interpretable method for aligning AI with conflicting human values, allowing individuals and communities to negotiate alignment through specific moral cases."
 tags: 
-pdf_extract: "PDF Extracts/2023-Feng-Case Repositories.md"
+pdf_extract: "PDF Extracts/2023/2023-Feng-Case Repositories.md"
 abstract: "Case studies commonly form the pedagogical backbone in law, ethics, and many other domains that face complex and ambiguous societal questions informed by human values. Similar complexities and ambiguities arise when we consider how AI should be aligned in practice: when faced with vast quantities of diverse (and sometimes conflicting) values from different individuals and communities, with whose values is AI to align, and how should AI do so? We propose a complemen- tary approach to constitution"
 paper_summary: "Abstract: Case studies commonly form the pedagogical backbone in law, ethics, and many other domains that face complex and ambiguous societal questions informed by human values. Similar complexities and ambigui | Overview: Case Repositories: Towards Case-Based Reasoning for AI Alignment K. J. Kevin Feng1, Quan Ze Chen1, Inyoung Cheong1, King Xia2, Amy X. Zhang1 1University of Washington, 2Independent Attorney sfl-case-l | Methodology: to complex moral dilemmas. Fullinwider [2010] stresses to revive casuistic reasoning in moral education to develop individuals’ ability to make nuance | Conclusions: 3.1 Case-based Reasoning (CBR) in Moral Philosophy As Kolodner [1992] notes, CBR has a long and storied pedigree in Western philosophy, theology, and"
-local_pdf: "[[PDFs/2023-Feng-Case Repositories.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Feng-Case Repositories.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Feng-Case Repositories.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Feng-Case Repositories.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2311.10934
 - **DOI:** https://doi.org/10.48550/arXiv.2311.10934

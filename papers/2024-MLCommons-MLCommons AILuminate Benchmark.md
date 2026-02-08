@@ -27,8 +27,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2024-MLCommons-MLCommons AILuminate Benchmark.md"
-local_pdf: "[[PDFs/2024-MLCommons-MLCommons AILuminate Benchmark.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-MLCommons-MLCommons AILuminate Benchmark.md"
+local_pdf: "[[PDFs/2024/2024-MLCommons-MLCommons AILuminate Benchmark.pdf]]"
 ---
 # MLCommons AILuminate Benchmark
 

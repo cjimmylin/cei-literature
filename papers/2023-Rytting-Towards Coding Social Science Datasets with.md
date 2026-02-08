@@ -18,9 +18,9 @@ national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
 newtags: 
-pdf_extract: "PDF Extracts/2023-Rytting-Towards Coding Social Science Datasets with.md"
+pdf_extract: "PDF Extracts/2023/2023-Rytting-Towards Coding Social Science Datasets with.md"
 paper_summary: "Overview: Page 1 of 27 Towards Coding Social Science Datasets with Language Models CHRISTOPHER MICHAEL RYTTING Computer Science Depart- ment, Brigham Young University TAYLOR SORENSEN Computer Science Department | Methodology: To use GPT-3 to code texts, we provide it with a specific prompt designed to teach GPT-3 the coding process. This prompt varies from application to ap | Conclusions: With four dramatically different sources of data, we have demonstrated that LMs can be used to code social science datasets more efficiently and as ac"
-local_pdf: "[[PDFs/2023-Rytting-Towards Coding Social Science Datasets with.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Rytting-Towards Coding Social Science Datasets with.pdf]]"
 abstract: "Researchers often rely on humans to code (label, annotate, etc.) large sets of texts. This kind of human coding forms an important part of social science research, yet the coding process is both resource intensive and highly variable from application to application. In some cases, efforts to automate this process have achieved human-level accuracies, but to achieve this, these attempts frequently rely on thousands of hand-labeled training examples, which makes them inapplicable to small-scale re"
 ethics_overall: No
 virtue_ethics: No
@@ -49,7 +49,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Rytting-Towards Coding Social Science Datasets with.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Rytting-Towards Coding Social Science Datasets with.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2306.02177
 - **DOI:** https://doi.org/10.48550/arXiv.2306.02177

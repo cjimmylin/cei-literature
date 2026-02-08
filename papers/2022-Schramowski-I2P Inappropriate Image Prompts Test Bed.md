@@ -12,8 +12,8 @@ first_author: "[[P. Schramowski]]"
 authors: Schramowski, P. et al.
 url: "https://arxiv.org/abs/2202.06675"
 external_pdf: "https://arxiv.org/pdf/2202.06675.pdf"
-local_pdf: "[[PDFs/2022-Schramowski-I2P Inappropriate Image Prompts Test Bed.pdf]]"
-pdf_extract: "PDF Extracts/2022-Schramowski-I2P Inappropriate Image Prompts Test Bed.md"
+local_pdf: "[[PDFs/2022/2022-Schramowski-I2P Inappropriate Image Prompts Test Bed.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Schramowski-I2P Inappropriate Image Prompts Test Bed.md"
 publication: FAccT
 DATE_ADDED: 20260207
 ethics_overall: "No"

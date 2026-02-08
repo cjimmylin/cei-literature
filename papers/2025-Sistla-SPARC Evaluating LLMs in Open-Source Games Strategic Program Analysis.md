@@ -12,8 +12,8 @@ first_author: "[[Swadesh Sistla]]"
 authors: Swadesh Sistla; Max Kleiman-Weiner
 url: "https://arxiv.org/abs/2512.00371"
 external_pdf: "https://arxiv.org/pdf/2512.00371.pdf"
-local_pdf: "[[PDFs/2025-Sistla-SPARC Evaluating LLMs in Open-Source Games Strategic Program Analysis.pdf]]"
-pdf_extract: "PDF Extracts/2025-Sistla-SPARC Evaluating LLMs in Open-Source Games Strategic Program Analysis.md"
+local_pdf: "[[PDFs/2025/2025-Sistla-SPARC Evaluating LLMs in Open-Source Games Strategic Program Analysis.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Sistla-SPARC Evaluating LLMs in Open-Source Games Strategic Program Analysis.md"
 publication: NeurIPS 2025
 DATE_ADDED: 20260207
 ethics_overall: "No"

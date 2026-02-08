@@ -12,8 +12,8 @@ first_author: "[[Ji]]"
 authors: Ji et al.
 url: "https://arxiv.org/abs/2307.04657"
 external_pdf: "https://arxiv.org/pdf/2307.04657.pdf"
-local_pdf: "[[PDFs/2023-Ji-BeaverTails.pdf]]"
-pdf_extract: "PDF Extracts/2023-Ji-BeaverTails.md"
+local_pdf: "[[PDFs/2023/2023-Ji-BeaverTails.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Ji-BeaverTails.md"
 publication: NeurIPS 2023
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

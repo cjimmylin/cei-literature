@@ -12,8 +12,8 @@ authors: "[[Körner, Anita]]; [[Deutsch, Roland]]"
 doi: 10.1177/01461672221103058
 url: "https://journals.sagepub.com/doi/10.1177/01461672221103058"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/RRZFH676/Körner and Deutsch - 2023 - Deontology and Utilitarianism in Real Life A Set of Moral Dilemmas Based on Historic Events.pdf"
-pdf_extract: "PDF Extracts/2023-Körner-Deontology and Utilitarianism in Real Life.md"
-local_pdf: "[[PDFs/2023-Körner-Deontology and Utilitarianism in Real Life.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Körner-Deontology and Utilitarianism in Real Life.md"
+local_pdf: "[[PDFs/2023/2023-Körner-Deontology and Utilitarianism in Real Life.pdf]]"
 national_ethnic_cultural: American
 religious_values: N/A
 moral_psychology: N/A

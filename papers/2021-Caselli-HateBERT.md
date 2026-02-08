@@ -20,8 +20,8 @@ key_contribution: "Introduced HateBERT, a BERT model retrained on RAL-E, a large
 significance: "Demonstrates that domain-adaptive pretraining on abusive language substantially improves performance on hate speech detection tasks compared to general BERT models."
 tags: 
 abstract: "We introduce HateBERT, a re-trained BERT model for abusive language detection in English. The model was trained on RAL-E, a large-scale dataset of Reddit comments in English from communities banned for being offensive, abusive, or hateful that we have curated and made available to the public. We present the results of a detailed comparison between a general pre-trained language model and the retrained version on three English datasets for offensive, abusive language and hate speech detection tas"
-local_pdf: [[PDFs/2021-Caselli-HateBERT.pdf]]
-pdf_extract: "PDF Extracts/2021-Caselli-HateBERT.md"
+local_pdf: [[PDFs/2021/2021-Caselli-HateBERT.pdf]]
+pdf_extract: "PDF Extracts/2021/2021-Caselli-HateBERT.md"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

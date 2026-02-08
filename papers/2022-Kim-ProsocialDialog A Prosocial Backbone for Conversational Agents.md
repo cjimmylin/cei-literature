@@ -12,8 +12,8 @@ first_author: "[[Hyunwoo Kim]]"
 authors: Hyunwoo Kim et al.
 url: "https://arxiv.org/abs/2205.12688"
 external_pdf: "https://arxiv.org/pdf/2205.12688.pdf"
-local_pdf: "[[PDFs/2022-Kim-ProsocialDialog A Prosocial Backbone for Conversational Agents.pdf]]"
-pdf_extract: "PDF Extracts/2022-Kim-ProsocialDialog A Prosocial Backbone for Conversational Agents.md"
+local_pdf: "[[PDFs/2022/2022-Kim-ProsocialDialog A Prosocial Backbone for Conversational Agents.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Kim-ProsocialDialog A Prosocial Backbone for Conversational Agents.md"
 publication: EMNLP 2022
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

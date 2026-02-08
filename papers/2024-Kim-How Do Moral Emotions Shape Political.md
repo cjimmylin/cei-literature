@@ -30,7 +30,7 @@ is_eval: No
 is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2024-Kim-How Do Moral Emotions Shape Political.md"
+pdf_extract: "PDF Extracts/2024/2024-Kim-How Do Moral Emotions Shape Political.md"
 ---
 # How Do Moral Emotions Shape Political Participation? A Cross-Cultural Analysis of Online Petitions Using Language Models
 

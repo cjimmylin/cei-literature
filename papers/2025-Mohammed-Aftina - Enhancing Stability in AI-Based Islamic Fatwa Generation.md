@@ -13,8 +13,8 @@ authors: "Mohammed, A. & Ali, H"
 doi: 10.1007/s00521-025-11229-y
 url: "https://doi.org/10.1007/s00521-025-11229-y"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s00521-025-11229-y.pdf"
-local_pdf: "[[PDFs/2025-Mohammed-Aftina - Enhancing Stability in AI-Based Islamic Fatwa Generation.pdf]]"
-pdf_extract: "PDF Extracts/2025-Mohammed-Aftina - Enhancing Stability in AI-Based Islamic Fatwa Generation.md"
+local_pdf: "[[PDFs/2025/2025-Mohammed-Aftina - Enhancing Stability in AI-Based Islamic Fatwa Generation.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Mohammed-Aftina - Enhancing Stability in AI-Based Islamic Fatwa Generation.md"
 publication: Unknown
 DATE_ADDED: 20260207
 ethics_overall: "No"

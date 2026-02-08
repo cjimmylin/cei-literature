@@ -12,8 +12,8 @@ first_author: "[[Guangliang Liu]]"
 authors: Guangliang Liu; Zimo Qi; Xitong Zhang; Lei Jiang; Kristen Marie Johnson
 url: "https://arxiv.org/abs/2502.16600"
 external_pdf: "https://arxiv.org/pdf/2502.16600.pdf"
-local_pdf: "[[PDFs/2025-Liu-Diagnosing Moral Reasoning Acquisition in Language Models Pragmatics.pdf]]"
-pdf_extract: "PDF Extracts/2025-Liu-Diagnosing Moral Reasoning Acquisition in Language Models Pragmatics.md"
+local_pdf: "[[PDFs/2025/2025-Liu-Diagnosing Moral Reasoning Acquisition in Language Models Pragmatics.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Liu-Diagnosing Moral Reasoning Acquisition in Language Models Pragmatics.md"
 publication: EMNLP 2025
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

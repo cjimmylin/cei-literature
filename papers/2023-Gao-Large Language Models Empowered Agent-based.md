@@ -20,10 +20,10 @@ newtags: "AI Safety & Alignment"
 key_contribution: "Surveys the landscape of LLM-empowered Agent-Based Modeling and Simulation (ABMS), covering challenges in environment perception, human alignment, and evaluation."
 significance: "Establishes LLMs as a transformative tool for social simulation, enabling agents with realistic cognitive capabilities to model complex social, physical, and cyber systems more accurately than traditional heuristic-based agents."
 tags: 
-pdf_extract: "PDF Extracts/2023-Gao-Large Language Models Empowered Agent-based.md"
+pdf_extract: "PDF Extracts/2023/2023-Gao-Large Language Models Empowered Agent-based.md"
 abstract: "Agent-based modeling and simulation has evolved as a powerful tool for modeling complex systems, offering insights into emergent behaviors and interactions among diverse agents. Integrating large language models into agent-based modeling and simulation presents a promising avenue for enhancing simulation capabilities. This paper surveys the landscape of utilizing large language models in agent- based modeling and simulation, examining their challenges and promising future directions. In this sur"
 paper_summary: "Abstract: Agent-based modeling and simulation has evolved as a powerful tool for modeling complex systems, offering insights into emergent behaviors and interactions among diverse agents. Integrating large lang | Overview: Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives Chen Gao Xiaochong Lan Nian Li Yuan Yuan Jingtao Ding Zhilun Zhou Fengli Xu Yong Li Tsinghua University,  | Methodology: to bounded rationality. The American economic review, 81(2):353–359, 1991. [14] Anonymous Authors. Sociodojo: Building lifelong analytical agents. [15 | Key Findings: Besides the simulation accuracy or explainability of the large language model-empowered agent- based simulation, the ethics issue is also of great imp | Conclusions: Agent-based modeling and simulation is one of the most important methods to model complex systems in various domains. The recent advances in large lan"
-local_pdf: "[[PDFs/2023-Gao-Large Language Models Empowered Agent-based.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Gao-Large Language Models Empowered Agent-based.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Gao-Large Language Models Empowered Agent-based.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Gao-Large Language Models Empowered Agent-based.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2312.11970
 - **DOI:** https://doi.org/10.48550/arXiv.2312.11970

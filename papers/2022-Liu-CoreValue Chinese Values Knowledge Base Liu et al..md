@@ -12,8 +12,8 @@ first_author: "[[Y. Liu]]"
 authors: Liu, Y. et al.
 publication: Not specified
 external_pdf: "https://arxiv.org/pdf/2005.08146v2.pdf"
-local_pdf: "[[PDFs/2022-Liu-CoreValue Chinese Values Knowledge Base Liu et al..pdf]]"
-pdf_extract: "PDF Extracts/2022-Liu-CoreValue Chinese Values Knowledge Base Liu et al..md"
+local_pdf: "[[PDFs/2022/2022-Liu-CoreValue Chinese Values Knowledge Base Liu et al..pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Liu-CoreValue Chinese Values Knowledge Base Liu et al..md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

@@ -13,8 +13,8 @@ first_author: "[[Steffen Backmann]]"
 authors: Steffen Backmann; David Guzman Piedrahita; Emanuel Tewolde; Rada Mihalcea; Bernhard Schölkopf; Zhijing Jin
 url: "https://arxiv.org/abs/2505.19212"
 external_pdf: "https://arxiv.org/pdf/2505.19212.pdf"
-local_pdf: "[[PDFs/2025-Backmann-When Ethics and Payoffs Diverge LLM Agents in Morally Charged Social.pdf]]"
-pdf_extract: "PDF Extracts/2025-Backmann-When Ethics and Payoffs Diverge LLM Agents in Morally Charged Social.md"
+local_pdf: "[[PDFs/2025/2025-Backmann-When Ethics and Payoffs Diverge LLM Agents in Morally Charged Social.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Backmann-When Ethics and Payoffs Diverge LLM Agents in Morally Charged Social.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

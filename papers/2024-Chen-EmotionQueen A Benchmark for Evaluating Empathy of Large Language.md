@@ -12,8 +12,8 @@ first_author: "[[Yuyan Chen]]"
 authors: Yuyan Chen; Hao Wang; Songzhou Yan; Sijia Liu; Yueze Li; Yi Zhao; Yanghua Xiao
 url: "https://arxiv.org/abs/2409.13359"
 external_pdf: "https://arxiv.org/pdf/2409.13359.pdf"
-local_pdf: "[[PDFs/2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language.pdf]]"
-pdf_extract: "PDF Extracts/2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language.md"
+local_pdf: "[[PDFs/2024/2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language.md"
 publication: ACL 2024
 DATE_ADDED: 20260207
 ethics_overall: "No"

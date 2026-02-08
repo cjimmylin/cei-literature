@@ -20,10 +20,10 @@ newtags: "AI Safety & Alignment"
 key_contribution: "Proposed a 'backtracking' method for safety alignment that allows models to revert to a safer generation state when a violation is detected during the generation process."
 significance: "Enables targeted correction of toxicity or safety violations in real-time generation without discarding the entire output, offering a more efficient alternative to full resets for long-form content."
 tags: 
-pdf_extract: "PDF Extracts/2025-Sel-Backtracking for Safety.md"
+pdf_extract: "PDF Extracts/2025/2025-Sel-Backtracking for Safety.md"
 abstract: "Large language models (LLMs) have demon- strated remarkable capabilities across various tasks, but ensuring their safety and alignment with human values remains crucial. Current safety alignment methods, such as supervised fine-tuning and reinforcement learning-based approaches, can exhibit vulnerabilities to adver- sarial attacks and often result in shallow safety alignment, primarily focusing on preventing harmful content in the initial tokens of the gen- erated output. While methods like rese"
 paper_summary: "Abstract: Large language models (LLMs) have demon- strated remarkable capabilities across various tasks, but ensuring their safety and alignment with human values remains crucial. Current safety alignment metho | Overview: BSAFE: (B)acktracking for (SAFE)ty Bilgehan Sel Google, Virginia Tech Dingcheng Li Google Phillip Wallis Google Vaishakh Keshava Google Ming Jin † Virginia Tech Siddhartha Reddy Jonnalagadda † Google  | Methodology: enables targeted correction of problematic seg- ments without discarding the entire generated text, thereby preserving efficiency. We demon- strate th | Conclusions: We introduced BSAFE, a novel backtracking method that enhances large language model safety. BSAFE overcomes limitations of current tech- niques by ena"
-local_pdf: "[[PDFs/2025-Sel-Backtracking for Safety.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Sel-Backtracking for Safety.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Sel-Backtracking for Safety.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Sel-Backtracking for Safety.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2503.08919
 - **DOI:** https://doi.org/10.48550/arXiv.2503.08919

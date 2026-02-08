@@ -28,8 +28,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "33.4 gb"
-pdf_extract: "PDF Extracts/2023-Li-BIRD.md"
-local_pdf: [[PDFs/2023-Li-BIRD.pdf]]
+pdf_extract: "PDF Extracts/2023/2023-Li-BIRD.md"
+local_pdf: [[PDFs/2023/2023-Li-BIRD.pdf]]
 ---
 # BIRD: BIg Bench for LaRge-scale Database Grounded Text-to-SQL Evaluation
 

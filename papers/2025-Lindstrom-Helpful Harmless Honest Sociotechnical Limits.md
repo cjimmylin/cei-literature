@@ -30,8 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-pdf_extract: "PDF Extracts/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.md"
-local_pdf: "[[PDFs/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.md"
+local_pdf: "[[PDFs/2025/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.pdf]]"
 ---
 # Helpful, harmless, honest? Sociotechnical limits of AI alignment and safety through Reinforcement Learning from Human Feedback
 

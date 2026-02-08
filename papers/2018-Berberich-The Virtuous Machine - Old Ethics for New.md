@@ -17,10 +17,10 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
-pdf_extract: "PDF Extracts/2018-Berberich-The Virtuous Machine - Old Ethics for New.md"
+pdf_extract: "PDF Extracts/2018/2018-Berberich-The Virtuous Machine - Old Ethics for New.md"
 abstract: "This paper argues for taking inspiration from Aristotelian virtue ethics for AI, showing it forms a suitable combination with modern AI due to its focus on learning from experience. It proposes that imitation learning from moral exemplars can solve the value alignment problem, and that an intelligent system endowed with virtues of temperance and friendship would not pose a control problem."
 paper_summary: 
-local_pdf: "[[PDFs/2018-Berberich-The Virtuous Machine - Old Ethics for New.pdf]]"
+local_pdf: "[[PDFs/2018/2018-Berberich-The Virtuous Machine - Old Ethics for New.pdf]]"
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No

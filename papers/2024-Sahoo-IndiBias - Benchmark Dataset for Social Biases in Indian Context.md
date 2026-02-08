@@ -12,8 +12,8 @@ first_author: "[[N. Sahoo]]"
 authors: Sahoo, N. et al
 url: "https://arxiv.org/abs/2403.20147"
 external_pdf: "https://arxiv.org/pdf/2403.20147.pdf"
-local_pdf: "[[PDFs/2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context.pdf]]"
-pdf_extract: "PDF Extracts/2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context.md"
+local_pdf: "[[PDFs/2024/2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context.md"
 publication: ACL 2024
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

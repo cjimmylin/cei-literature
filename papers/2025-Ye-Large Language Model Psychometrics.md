@@ -19,10 +19,10 @@ moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "A systematic review establishing the field of 'LLM Psychometrics', categorizing methods for measuring Personality, Values, and Intelligence in AI."
 significance: "Formalizes the ad-hoc practice of 'personality testing' AI, warning about 'Anthropomorphism' and 'Reliability' issues (e.g., test-retest instability) that plague current evaluations."
-pdf_extract: "PDF Extracts/2025-Ye-Large Language Model Psychometrics.md"
+pdf_extract: "PDF Extracts/2025/2025-Ye-Large Language Model Psychometrics.md"
 abstract: "The advancement of large language models (LLMs) has outpaced traditional evaluation methodolo- gies. This progress presents novel challenges, such as measuring human-like psychological constructs, moving beyond static and task-specific benchmarks, and establishing human-centered evaluation. These challenges intersect with psychometrics, the science of quantifying the intangible aspects of human psychology, such as personality, values, and intelligence. This review paper introduces and synthesize"
 paper_summary: "Abstract: The advancement of large language models (LLMs) has outpaced traditional evaluation methodolo- gies. This progress presents novel challenges, such as measuring human-like psychological constructs, mov | Overview: Large language model psychometrics: A systematic review of evaluation, validation, and enhancement Haoran Ye1, Jing Jin1, Yuhang Xie1, Xin Zhang2,3, Guojie Song 1,4,B 1State Key Laboratory of General  | Methodology: 20 | Key Findings: results. Beyond evaluation, § 7 introduces strategies for enhancing LLMs through psychometric insights. § 8 discusses emerging trends, challenges, and | Conclusions: 32 3 --- Page 4 --- 1 Introduction The advent of large language models (LLMs) represents a transformative breakthrough in AI. These systems exhibit ge"
-local_pdf: "[[PDFs/2025-Ye-Large Language Model Psychometrics.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Ye-Large Language Model Psychometrics.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -50,7 +50,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Ye-Large Language Model Psychometrics.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Ye-Large Language Model Psychometrics.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.08245
 - **DOI:** https://doi.org/10.48550/arXiv.2505.08245

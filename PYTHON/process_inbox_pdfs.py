@@ -72,7 +72,13 @@ def add_local_pdf_field(paper_path: Path, pdf_filename: str) -> bool:
         print(f"  ⚠ local_pdf already exists, skipping")
         return False
 
-    local_pdf_line = f'local_pdf: "[[PDFs/{pdf_filename}]]"'
+    # Year-aware path: PDFs/YYYY/filename.pdf
+    year_match = re.match(r'^(\d{4})-', pdf_filename)
+    if year_match:
+        pdf_rel = f"PDFs/{year_match.group(1)}/{pdf_filename}"
+    else:
+        pdf_rel = f"PDFs/{pdf_filename}"
+    local_pdf_line = f'local_pdf: "[[{pdf_rel}]]"'
 
     if "external_pdf:" in content:
         content = re.sub(
@@ -112,7 +118,13 @@ def add_pdf_extract_field(paper_path: Path, extract_filename: str) -> bool:
         print(f"  ⚠ pdf_extract already exists, skipping")
         return False
 
-    extract_line = f'pdf_extract: "PDF Extracts/{extract_filename}"'
+    # Year-aware path: PDF Extracts/YYYY/filename.md
+    year_match = re.match(r'^(\d{4})-', extract_filename)
+    if year_match:
+        ext_rel = f"PDF Extracts/{year_match.group(1)}/{extract_filename}"
+    else:
+        ext_rel = f"PDF Extracts/{extract_filename}"
+    extract_line = f'pdf_extract: "{ext_rel}"'
 
     if "local_pdf:" in content:
         content = re.sub(
@@ -211,8 +223,17 @@ def main():
 
         inbox_path = INBOX_DIR / inbox_file
         paper_path = PAPERS_DIR / f"{paper_stem}.md"
-        pdf_dest = PDFS_DIR / pdf_name
-        extract_path = EXTRACTS_DIR / f"{paper_stem}.md"
+
+        # Year-aware destination: PDFs/YYYY/ and PDF Extracts/YYYY/
+        year_match = re.match(r'^(\d{4})-', pdf_name)
+        if year_match:
+            pdf_year_dir = PDFS_DIR / year_match.group(1)
+            extract_year_dir = EXTRACTS_DIR / year_match.group(1)
+        else:
+            pdf_year_dir = PDFS_DIR
+            extract_year_dir = EXTRACTS_DIR
+        pdf_dest = pdf_year_dir / pdf_name
+        extract_path = extract_year_dir / f"{paper_stem}.md"
 
         # Verify source PDF exists
         if not inbox_path.exists():
@@ -230,8 +251,9 @@ def main():
         if pdf_dest.exists():
             print(f"  ⚠ PDF already exists at destination, skipping move")
         else:
+            pdf_year_dir.mkdir(exist_ok=True)
             shutil.move(str(inbox_path), str(pdf_dest))
-            print(f"  ✓ Moved PDF → PDFs/{pdf_name}")
+            print(f"  ✓ Moved PDF → {pdf_dest.relative_to(PDFS_DIR.parent)}")
 
         # Step 2: Add local_pdf field
         if add_local_pdf_field(paper_path, pdf_name):
@@ -241,6 +263,7 @@ def main():
         if extract_path.exists():
             print(f"  ⚠ Extract already exists, skipping")
         else:
+            extract_year_dir.mkdir(exist_ok=True)
             num_pages = extract_pdf_text(pdf_dest, extract_path)
             print(f"  ✓ Created extract ({num_pages} pages)")
 

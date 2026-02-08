@@ -12,8 +12,8 @@ first_author: "[[S. McGregor]]"
 authors: McGregor, S. et al.
 url: "https://arxiv.org/abs/2510.21460"
 external_pdf: "https://arxiv.org/pdf/2510.21460.pdf"
-local_pdf: "[[PDFs/2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks.pdf]]"
-pdf_extract: "PDF Extracts/2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks.md"
+local_pdf: "[[PDFs/2025/2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

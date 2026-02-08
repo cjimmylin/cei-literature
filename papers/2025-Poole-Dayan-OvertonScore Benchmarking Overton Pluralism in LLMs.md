@@ -12,8 +12,8 @@ first_author: "[[E. Poole-Dayan]]"
 authors: Poole-Dayan, E. et al.
 url: "https://arxiv.org/abs/2512.01351"
 external_pdf: "https://arxiv.org/pdf/2512.01351.pdf"
-local_pdf: "[[PDFs/2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs.pdf]]"
-pdf_extract: "PDF Extracts/2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs.md"
+local_pdf: "[[PDFs/2025/2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

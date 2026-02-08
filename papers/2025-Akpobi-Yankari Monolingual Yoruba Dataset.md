@@ -29,7 +29,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Akpobi-Yankari Monolingual Yoruba Dataset.md"
+pdf_extract: "PDF Extracts/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.md"
 ---
 # Yankari: Monolingual Yoruba Dataset
 

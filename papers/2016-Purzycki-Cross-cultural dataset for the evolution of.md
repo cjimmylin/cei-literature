@@ -30,8 +30,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2016-Purzycki-Cross-cultural dataset for the evolution of.md"
-local_pdf: "[[PDFs/2016-Purzycki-Cross-cultural dataset for the evolution of.pdf]]"
+pdf_extract: "PDF Extracts/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.md"
+local_pdf: "[[PDFs/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.pdf]]"
 ---
 # Cross-cultural dataset for the evolution of religion and morality project
 

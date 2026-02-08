@@ -18,10 +18,10 @@ newtags: "Bias & Fairness"
 key_contribution: "Introduced COBBLER to benchmark cognitive biases in LLM-as-a-judge (e.g., egocentric bias, order bias), finding machine preferences misaligned with humans (49% RBO)."
 significance: "Critically evaluates the trend of using LLMs to evaluate other LLMs, showing that 'AI judges' have their own distinct cognitive biases that differ from human judges."
 tags: 
-pdf_extract: "PDF Extracts/2023-Guo-COBBLER.md"
+pdf_extract: "PDF Extracts/2023/2023-Guo-COBBLER.md"
 abstract: "Large Language Models (LLMs) have recently been shown to be effective as automatic eval- uators with simple prompting and in-context learning. In this work, we assemble 16 LLMs encompassing four different size ranges and evaluate their output responses by prefer- ence ranking from the other LLMs as evalua- tors, such as System Star is better than Sys- tem Square. We then evaluate the quality of ranking outputs introducing the COgnitive Bias Benchmark for LLMs as EvaluatoRs (COBBLER)1, a benchmar"
 paper_summary: "Abstract: Large Language Models (LLMs) have recently been shown to be effective as automatic eval- uators with simple prompting and in-context learning. In this work, we assemble 16 LLMs encompassing four diffe | Overview: Benchmarking Cognitive Biases in Large Language Models as Evaluators Ryan Koo1 Minhwa Lee1 Vipul Raheja2 Jonginn Park1, Zae Myung Kim1 Dongyeop Kang1 1University of Minnesota, 2Grammarly {koo00017,lee | Key Findings: suites such as Fan et al. (2019) and Wang et al. (2020). With the increased usage of language mod- els as general-purpose assistants and their artifi- | Conclusions: For each bias, we analyze the performance of each of the 16 models as evaluators. We provide a vi- sual breakdown of the proportional impact of the av"
-local_pdf: [[PDFs/2023-Guo-COBBLER.pdf]]
+local_pdf: [[PDFs/2023/2023-Guo-COBBLER.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -45,7 +45,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Guo-COBBLER.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Guo-COBBLER.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2309.17012
 

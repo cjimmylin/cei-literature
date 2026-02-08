@@ -30,8 +30,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology annotated dataset"
 data_metrics: "10 categories"
-pdf_extract: "PDF Extracts/2020-Hoover-Moral Foundations Twitter Corpus.md"
-local_pdf: "[[PDFs/2020-Hoover-Moral Foundations Twitter Corpus.pdf]]"
+pdf_extract: "PDF Extracts/2020/2020-Hoover-Moral Foundations Twitter Corpus.md"
+local_pdf: "[[PDFs/2020/2020-Hoover-Moral Foundations Twitter Corpus.pdf]]"
 ---
 # Moral Foundations Twitter Corpus: A Collection of 35k Tweets Annotated for Moral Sentiment
 

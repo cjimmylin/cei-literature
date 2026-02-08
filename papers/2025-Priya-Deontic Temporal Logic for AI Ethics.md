@@ -12,7 +12,7 @@ authors: "[[Priya, T.V.]]; [[Rao, Shrisha]]"
 doi: 10.48550/arXiv.2501.05765
 url: "https://arxiv.org/abs/2501.05765"
 external_pdf: "https://arxiv.org/pdf/2501.05765.pdf"
-local_pdf: "[[PDFs/2025-Priya-Deontic Temporal Logic for AI Ethics.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Priya-Deontic Temporal Logic for AI Ethics.pdf]]"
 publication: arXiv
 national_ethnic_cultural: N/A
 religious_values: N/A
@@ -32,7 +32,7 @@ is_eval: Yes
 is_dataset: No
 data_description: N/A
 data_metrics: "Formal verification metrics"
-pdf_extract: "PDF Extracts/2025-Priya-Deontic Temporal Logic for AI Ethics.md"
+pdf_extract: "PDF Extracts/2025/2025-Priya-Deontic Temporal Logic for AI Ethics.md"
 ---
 # Deontic Temporal Logic for Formal Verification of AI Ethics
 

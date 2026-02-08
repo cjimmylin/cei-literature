@@ -28,8 +28,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness text corpus for conversational ai"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Fan-FAIRMT-BENCH.md"
-local_pdf: [[PDFs/2025-Fan-FAIRMT-BENCH.pdf]]
+pdf_extract: "PDF Extracts/2025/2025-Fan-FAIRMT-BENCH.md"
+local_pdf: [[PDFs/2025/2025-Fan-FAIRMT-BENCH.pdf]]
 ---
 # FAIRMT-BENCH: BENCHMARKING FAIRNESS FOR MULTI-TURN DIALOGUE IN CONVERSATIONAL LLMS
 

@@ -17,10 +17,10 @@ national_ethnic_cultural: "Arabic, African/Ubuntu, Brazilian"
 religious_values: N/A
 moral_psychology: N/A
 newtags: "Arabic, African/Ubuntu, Brazilian"
-pdf_extract: "PDF Extracts/2023-Muhammad-SemEval-2023 Task 12.md"
+pdf_extract: "PDF Extracts/2023/2023-Muhammad-SemEval-2023 Task 12.md"
 abstract: "We present the ﬁrst Africentric SemEval Shared task, Sentiment Analysis for African Languages (AfriSenti-SemEval)1. AfriSenti- SemEval is a sentiment classiﬁcation chal- lenge in 14 African languages (Amharic, Al- gerian Arabic, Hausa, Igbo, Kinyarwanda, Mo- roccan Arabic, Mozambican Portuguese, Nige- rian Pidgin, Oromo, Swahili, Tigrinya, Twi, Xitsonga, and Yorùbá) (Muhammad et al., 2023), using data labeled with 3 sentiment classes. We present three subtasks: (1) Task A: monolingual classiﬁcat"
 paper_summary: "Abstract: We present the ﬁrst Africentric SemEval Shared task, Sentiment Analysis for African Languages (AfriSenti-SemEval)1. AfriSenti- SemEval is a sentiment classiﬁcation chal- lenge in 14 African languages  | Overview: SemEval-2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval) Shamsuddeen Hassan Muhammad1,2+∗, Idris Abdulmumin3+∗, Seid Muhie Yimam4∗, David Ifeoluwa Adelani5∗, Ibrahim Sa’id Ah | Methodology: involved continued pre-training of the PLM on the monolingual portion of the Leipzig Corpus Collec- tion (Goldhahn et al., 2012) (covering Wikipedia,  | Key Findings: All three tasks in the AfriSenti-SemEval shared task required participants to perform a sentiment (negative, neutral, positive) classiﬁcation. To eval | Conclusions: We summarize some of the approaches that led to the best results in different sub-tasks. Sub-task A All of the top-10 best-performing teams with syste"
-local_pdf: "[[PDFs/2023-Muhammad-SemEval-2023 Task 12.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Muhammad-SemEval-2023 Task 12.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -48,7 +48,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Muhammad-SemEval-2023 Task 12.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Muhammad-SemEval-2023 Task 12.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2304.06845
 - **DOI:** https://doi.org/10.48550/arXiv.2304.06845

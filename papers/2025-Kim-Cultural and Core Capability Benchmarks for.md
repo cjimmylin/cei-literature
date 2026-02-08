@@ -27,7 +27,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Kim-Cultural and Core Capability Benchmarks for.md"
+pdf_extract: "PDF Extracts/2025/2025-Kim-Cultural and Core Capability Benchmarks for.md"
 ---
 # Cultural and Core Capability Benchmarks for Developing Thai LLMs (ThaiCLI)
 

@@ -12,8 +12,8 @@ first_author: "[[M. Tom]]"
 authors: Tom, M., et al
 url: "https://arxiv.org/abs/2410.21965"
 external_pdf: "https://arxiv.org/pdf/2410.21965.pdf"
-local_pdf: "[[PDFs/2024-Tom-SG-Bench - Evaluating LLM Safety Generalization.pdf]]"
-pdf_extract: "PDF Extracts/2024-Tom-SG-Bench - Evaluating LLM Safety Generalization.md"
+local_pdf: "[[PDFs/2024/2024-Tom-SG-Bench - Evaluating LLM Safety Generalization.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Tom-SG-Bench - Evaluating LLM Safety Generalization.md"
 publication: NeurIPS 2024
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

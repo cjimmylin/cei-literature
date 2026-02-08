@@ -29,7 +29,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "6 languages"
-pdf_extract: "PDF Extracts/2024-Aakanksha-The Multilingual Alignment Prism.md"
+pdf_extract: "PDF Extracts/2024/2024-Aakanksha-The Multilingual Alignment Prism.md"
 ---
 # The Multilingual Alignment Prism: Aligning Global and Local Preferences to Reduce Harm
 

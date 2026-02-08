@@ -31,7 +31,7 @@ def audit_links():
     papers_dir = PAPERS_DIR
     pdfs_dir = PDFS_DIR
     
-    pdf_files = {f.name for f in pdfs_dir.glob("*.pdf")}
+    pdf_files = {f.name for f in pdfs_dir.rglob("*.pdf")}
     paper_files = list(papers_dir.glob("*.md"))
     
     results = {
@@ -80,7 +80,9 @@ def audit_links():
             link_path = link_val
             
         if link_path.startswith("PDFs/"):
-            clean_name = link_path[5:]
+            # After year migration, link_path may be "PDFs/2024/file.pdf"
+            # Extract basename for set lookup
+            clean_name = Path(link_path).name
             if clean_name in pdf_files:
                 results["valid"].append(paper.name)
             else:

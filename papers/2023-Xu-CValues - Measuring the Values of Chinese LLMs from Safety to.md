@@ -12,8 +12,8 @@ first_author: "[[Xu]]"
 authors: Xu et al.
 url: "https://arxiv.org/abs/2307.09705"
 external_pdf: "https://arxiv.org/pdf/2307.09705.pdf"
-local_pdf: "[[PDFs/2023-Xu-CValues - Measuring the Values of Chinese LLMs from Safety to.pdf]]"
-pdf_extract: "PDF Extracts/2023-Xu-CValues - Measuring the Values of Chinese LLMs from Safety to.md"
+local_pdf: "[[PDFs/2023/2023-Xu-CValues - Measuring the Values of Chinese LLMs from Safety to.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Xu-CValues - Measuring the Values of Chinese LLMs from Safety to.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

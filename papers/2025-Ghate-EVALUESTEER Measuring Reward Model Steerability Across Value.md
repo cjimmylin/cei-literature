@@ -12,8 +12,8 @@ first_author: "[[K. Ghate]]"
 authors: Ghate, K. et al.
 url: "https://arxiv.org/abs/2510.06370"
 external_pdf: "https://arxiv.org/pdf/2510.06370.pdf"
-local_pdf: "[[PDFs/2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.pdf]]"
-pdf_extract: "PDF Extracts/2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.md"
+local_pdf: "[[PDFs/2025/2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

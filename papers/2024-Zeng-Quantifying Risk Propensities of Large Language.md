@@ -20,10 +20,10 @@ newtags: "Bias & Fairness"
 key_contribution: "Applied the Domain-Specific Risk-Taking (DOSPERT) scale to LLMs to quantify their 'risk personalities' and ethical risk attitudes."
 significance: "Offers a cognitive-science-based method for profiling the risk appetite of AI models, quantifying systematic biases in how they approach ethical decisions relative to financial, health, or social risks."
 tags: 
-pdf_extract: "PDF Extracts/2024-Zeng-Quantifying Risk Propensities of Large Language.md"
+pdf_extract: "PDF Extracts/2024/2024-Zeng-Quantifying Risk Propensities of Large Language.md"
 abstract: "As Large Language Models (LLMs) become more preva- lent, concerns about their safety, ethics, and potential biases have risen. Systematically evaluating LLMs’ risk decision- making tendencies, particularly in the ethical domain, has be- come crucial. This study innovatively applies the Domain- Specific Risk-Taking (DOSPERT) scale from cognitive sci- ence to LLMs and proposes a novel Ethical Decision-Making Risk Attitude Scale (EDRAS) to assess LLMs’ ethical risk at- titudes in depth. We further"
 paper_summary: "Abstract: As Large Language Models (LLMs) become more preva- lent, concerns about their safety, ethics, and potential biases have risen. Systematically evaluating LLMs’ risk decision- making tendencies, particu | Overview: Quantifying Risk Propensities of Large Language Models: Ethical Focus and Bias Detection through Role-Play Yifan Zeng Kairong Liang Fangzhou Dong Peijia Zheng‡ School of Computer Science and Engineeri | Methodology: to moral risks, indicating that they are unlikely to engage even in minor ethical transgressions, such as talking loudly on the subway. In contrast, E | Conclusions: This study innovatively applies cognitive science risk assess- ment tools to LLMs, introducing a method to evaluate their risk propensities and ethica"
-local_pdf: "[[PDFs/2024-Zeng-Quantifying Risk Propensities of Large Language.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Zeng-Quantifying Risk Propensities of Large Language.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Zeng-Quantifying Risk Propensities of Large Language.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Zeng-Quantifying Risk Propensities of Large Language.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2411.08884
 - **DOI:** https://doi.org/10.48550/arXiv.2411.08884

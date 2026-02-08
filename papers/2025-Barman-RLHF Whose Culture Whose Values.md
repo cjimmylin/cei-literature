@@ -20,10 +20,10 @@ newtags: "RLHF, Value Pluralism, Social Epistemology"
 key_contribution: "Argues for epistemic and ethical pluralism in RLHF to address value diversity"
 significance: "Addresses whose values are encoded in RLHF and proposes pluralist solutions"
 tags: 
-pdf_extract: "PDF Extracts/2025-Barman-RLHF Whose Culture Whose Values.md"
+pdf_extract: "PDF Extracts/2025/2025-Barman-RLHF Whose Culture Whose Values.md"
 abstract: "This paper argues for the epistemic and ethical advantages of pluralism in Reinforcement Learning from Human Feedback (RLHF) in the context of Large Language Models (LLMs). Drawing on social epistemology and pluralist philosophy of science, we suggest ways in which RLHF can be made more responsive to human needs and how to address challenges along the way...."
 paper_summary: 
-local_pdf: "[[PDFs/2025-Barman-RLHF Whose Culture Whose Values.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Barman-RLHF Whose Culture Whose Values.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -50,7 +50,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Barman-RLHF Whose Culture Whose Values.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Barman-RLHF Whose Culture Whose Values.pdf|Open PDF]]
 
 - **URL:** https://link.springer.com/article/10.1007/s13347-025-00861-0
 - **DOI:** https://doi.org/10.1007/s13347-025-00861-0

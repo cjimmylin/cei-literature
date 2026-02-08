@@ -20,10 +20,10 @@ newtags: "AI Safety & Alignment"
 key_contribution: "Argues against 'naive empirical alignment' (mimicking observed human behavior), demonstrating that it introduces statistical biases and lacks normative grounding."
 significance: "Advocates for 'prescriptive alignment' or 'a posteriori empirical alignment' to avoid encoding the statistical flaws of human data into AI systems, emphasizing a more rigorous statistical foundation for alignment."
 tags: 
-pdf_extract: "PDF Extracts/2025-Rodemann-A Statistical Case Against Empirical Human-AI.md"
+pdf_extract: "PDF Extracts/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.md"
 abstract: "Empirical human–AI alignment aims to make AI systems act in line with observed human behavior. While noble in its goals, we argue that empirical alignment can in- advertently introduce statistical biases that warrant caution. This position paper thus advocates against naive empirical align- ment, offering prescriptive alignment and a posteriori empirical alignment as alterna- tives. We substantiate our principled ar- gument by tangible examples like human- centric decoding of language models."
 paper_summary: "Abstract: Empirical human–AI alignment aims to make AI systems act in line with observed human behavior. While noble in its goals, we argue that empirical alignment can in- advertently introduce statistical bia | Overview: A Statistical Case Against Empirical Human–AI Alignment Julian Rodemann 1 Esteban Garcés Arias 1 2 Christoph Luther 3 4 Christoph Jansen 5 Thomas Augustin 1 Abstract Empirical human–AI alignment aims  | Methodology: Score CS = #(CS is better ) + 0.5 × #( tie ) #(CS is better ) + #( tie ) + #( DoubleExp is better ) Score DoubleExp = 100 −Score CS. 15 --- Page 16 -- | Key Findings: ˆθ ∈Θ through empirical risk minimization, see def- inition 2.1, as is often the case. If data is sampled anew from a different population for alignme | Conclusions: AI alignment is a double-edged sword. Done well, it makes AI safer. Done poorly, it biases models and limits their potential for discovery. This paper"
-local_pdf: "[[PDFs/2025-Rodemann-A Statistical Case Against Empirical Human-AI.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Rodemann-A Statistical Case Against Empirical Human-AI.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2502.14581
 - **DOI:** https://doi.org/10.48550/arXiv.2502.14581

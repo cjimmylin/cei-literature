@@ -17,10 +17,10 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: American
 tags: 
-pdf_extract: "PDF Extracts/2024-Hagendorff-Machine Psychology.md"
+pdf_extract: "PDF Extracts/2024/2024-Hagendorff-Machine Psychology.md"
 abstract: "Large language models (LLMs) show increasingly advanced emergent capabilities and are being incorporated across various societal domains. Understanding their behavior and reasoning abilities therefore holds significant importance. We argue that a fruitful direction for research is engaging LLMs in behavioral experiments inspired by psychology that have traditionally been aimed at understanding human cognition and behavior. In this article, we highlight and summarize theoretical perspectives, exp"
 paper_summary: "Abstract: Large language models (LLMs) show increasingly advanced emergent capabilities and are being incorporated across various societal domains. Understanding their behavior and reasoning abilities therefore | Overview: MACHINE PSYCHOLOGY Thilo Hagendorff∗ University of Stuttgart Ishita Dasgupta∗ Google DeepMind Marcel Binz† Helmholtz Institute for Human-Centered AI Stephanie C.Y. Chan† Google DeepMind Andrew Lampine | Methodology: brings to the table. It paves the way for a 'machine psychology' for generative artificial intelligence (AI) that goes beyond performance benchmarks a | Key Findings: that AI-generated analogies lack some human-like psycholinguistic properties (Seals and Shalin, 2023), particularly in text cohesion, language, and re | Conclusions: Machine psychology provides a new approach to explaining AI. Instead of interpreting a neural network’s design components (Barredo Arrieta et al., 201"
-local_pdf: "[[PDFs/2024-Hagendorff-Machine Psychology.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Hagendorff-Machine Psychology.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -48,7 +48,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Hagendorff-Machine Psychology.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Hagendorff-Machine Psychology.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2303.13988
 - **DOI:** https://doi.org/10.48550/arXiv.2303.13988

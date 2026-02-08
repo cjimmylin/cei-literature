@@ -14,8 +14,8 @@ authors: Varshney, K. R
 doi: 10.5555/3716662.3716790
 url: "https://arxiv.org/abs/2309.05030"
 external_pdf: "https://arxiv.org/pdf/2309.05030.pdf"
-local_pdf: "[[PDFs/2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.pdf]]"
-pdf_extract: "PDF Extracts/2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md"
+local_pdf: "[[PDFs/2024/2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md"
 publication: AIES 2024
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

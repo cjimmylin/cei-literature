@@ -20,9 +20,9 @@ moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Chinese, Multicultural/Cross-cultural, Value Pluralism / Schwartz, Social & Cultural Values"
 key_contribution: "Investigates the 'cultural genes' of LLMs using a Cultural Probe Dataset (CPD), comparing the value orientations (Individualism vs. Collectivism) of Western (GPT-4) vs. Eastern (ERNIE) models."
 significance: "Provides quantitative evidence that LLMs mirror the cultural norms of their training data (GPT-4 is individualistic, ERNIE is collectivistic), warning against the 'algorithmic cultural hegemony' of exporting Western models globally."
-pdf_extract: "PDF Extracts/2025-Fenech-Borg-The Cultural Gene of Large Language Models.md"
+pdf_extract: "PDF Extracts/2025/2025-Fenech-Borg-The Cultural Gene of Large Language Models.md"
 paper_summary: "Overview: The Cultural Gene of Large Language Models: A Study on the Impact of Cross-Corpus Training on Model Values and Biases Emanuel Z. Fenech-Borg Department of Communications University of Malta Msida MSD  | Methodology: for quantifying these ingrained ”genes” is still nascent. The challenge is immense, as these models are increasingly tasked with sensitive roles in do | Conclusions: In this section, we present the empirical results of our comparative study, followed by an in-depth discussion of their implications. Our findings pro"
-local_pdf: "[[PDFs/2025-Fenech-Borg-The Cultural Gene of Large Language Models.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Fenech-Borg-The Cultural Gene of Large Language Models.pdf]]"
 abstract: "Large language models (LLMs) are deployed globally, yet their underlying cultural and ethical assumptions remain underexplored. We propose the notion of a \"
 ethics_overall: No
 virtue_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Fenech-Borg-The Cultural Gene of Large Language Models.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Fenech-Borg-The Cultural Gene of Large Language Models.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2508.12411
 - **DOI:** https://doi.org/10.48550/arXiv.2508.12411

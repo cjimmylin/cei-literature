@@ -28,8 +28,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2019-Usbeck-Benchmarking question answering systems.md"
-local_pdf: "[[PDFs/2019-Usbeck-Benchmarking question answering systems.pdf]]"
+pdf_extract: "PDF Extracts/2019/2019-Usbeck-Benchmarking question answering systems.md"
+local_pdf: "[[PDFs/2019/2019-Usbeck-Benchmarking question answering systems.pdf]]"
 ---
 # Benchmarking question answering systems
 

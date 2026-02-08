@@ -27,7 +27,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Shahriar-Priv-IQ.md"
+pdf_extract: "PDF Extracts/2025/2025-Shahriar-Priv-IQ.md"
 ---
 # Priv-IQ: A Multimodal Benchmark for Evaluating the Privacy Intelligence of Large Language Models
 

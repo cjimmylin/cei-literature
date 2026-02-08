@@ -17,10 +17,10 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: "Chinese, African/Ubuntu"
 tags: 
-pdf_extract: "PDF Extracts/2025-Chiu-CulturalBench.md"
+pdf_extract: "PDF Extracts/2025/2025-Chiu-CulturalBench.md"
 abstract: "Robust, diverse, and challenging cultural knowledge benchmarks are essential for mea- suring our progress towards making LMs that are helpful across diverse cultures. We intro- duce CULTURALBENCH: a set of 1,696 human- written and human-verified questions to assess LMs’ cultural knowledge, covering 45 global regions including underrepresented ones like Bangladesh, Zimbabwe, and Peru. Questions are each verified by five independent annotators and span 17 diverse topics ranging from food preferenc"
 paper_summary: "Abstract: Robust, diverse, and challenging cultural knowledge benchmarks are essential for mea- suring our progress towards making LMs that are helpful across diverse cultures. We intro- duce CULTURALBENCH: a s | Overview: arXiv:2410.02677v2 [cs.CL] 3 Jun 2025 CulturalBench: A Robust, Diverse, and Challenging Cultural Benchmark by Human-AI CulturalTeaming Yu Ying Chiu1 Liwei Jiang1 Bill Yuchen Lin1 Chan Young Park1 Shuy | Methodology: facilitates fair comparisons of cultural understand- ing across different regions. For instance, in un- derrepresented regions such as Bangladesh, the | Key Findings: Distribution- based Evaluation We explored using GPT-4o to calculate probability distributions over answers, computing linear probability using log pr | Conclusions: Inspired by the human-AI red teaming, we establish CULTURALBENCH: a robust, diverse, and chal- lenging benchmark for measuring LMs’ culture knowledge."
-local_pdf: [[PDFs/2025-Chiu-CulturalBench.pdf]]
+local_pdf: [[PDFs/2025/2025-Chiu-CulturalBench.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -48,7 +48,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Chiu-CulturalBench.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Chiu-CulturalBench.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2410.02677
 - **DOI:** https://doi.org/10.48550/arXiv.2410.02677

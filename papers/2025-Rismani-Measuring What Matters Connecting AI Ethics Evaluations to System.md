@@ -12,8 +12,8 @@ first_author: "[[Shalaleh Rismani]]"
 authors: Shalaleh Rismani; Renee Shelby; Leah Davis; Negar Rostamzadeh; AJung Moon
 publication: Unknown
 external_pdf: "https://arxiv.org/pdf/2510.10339v1.pdf"
-local_pdf: "[[PDFs/2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System.pdf]]"
-pdf_extract: "PDF Extracts/2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System.md"
+local_pdf: "[[PDFs/2025/2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

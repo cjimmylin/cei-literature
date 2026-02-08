@@ -20,10 +20,10 @@ newtags: "AI Safety & Alignment"
 key_contribution: "Established HELM (Holistic Evaluation of Language Models), a massive benchmarking initiative evaluating 30 prominent models across 42 scenarios and 7 metrics (accuracy, fairness, bias, toxicity, etc.)."
 significance: "Shifted the field's evaluation standard from identifying 'state-of-the-art' on single metrics to analyzing trade-offs (e.g., accuracy vs. fairness) and ensuring comprehensive transparency across diverse use cases."
 tags: 
-pdf_extract: "PDF Extracts/2022-Liang-Holistic Evaluation of Language Models.md"
+pdf_extract: "PDF Extracts/2022/2022-Liang-Holistic Evaluation of Language Models.md"
 abstract: "Language models (LMs) are becoming the foundation for almost all major language tech- nologies, but their capabilities, limitations, and risks are not well understood. We present Holistic Evaluation of Language Models (HELM) to improve the transparency of language models. First, we taxonomize the vast space of potential scenarios (i.e. use cases) and met- rics (i.e. desiderata) that are of interest for LMs. Then we select a broad subset based on coverage and feasibility, noting what’s missing or"
 paper_summary: "Abstract: Language models (LMs) are becoming the foundation for almost all major language tech- nologies, but their capabilities, limitations, and risks are not well understood. We present Holistic Evaluation o | Overview: Published in Transactions on Machine Learning Research (08/2023) Holistic Evaluation of Language Models Percy Liang†, Rishi Bommasani†, Tony Lee†, Dimitris Tsipras‡, Dilara Soylu‡, Michihiro Yasunaga‡ | Methodology: employed throughout linguistics (Chomsky, 1957) that helps to tease out fine-grained understanding of specific linguistic phenomena. Together, the two | Key Findings: No canonical tasks/not task-centric Semantics: Lexical Word sense disambiguation, word sense induction Semantics: Sentence-level Semantics, Textual In | Conclusions: 75 10 What is missing 77 10.1 Missing scenarios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78 10.2 Missing"
-local_pdf: "[[PDFs/2022-Liang-Holistic Evaluation of Language Models.pdf]]"
+local_pdf: "[[PDFs/2022/2022-Liang-Holistic Evaluation of Language Models.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "42 scenarios; 21 scenarios"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2022-Liang-Holistic Evaluation of Language Models.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2022/2022-Liang-Holistic Evaluation of Language Models.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2211.09110
 - **DOI:** https://doi.org/10.48550/arXiv.2211.09110

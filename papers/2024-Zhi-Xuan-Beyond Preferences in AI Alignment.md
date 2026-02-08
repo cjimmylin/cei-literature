@@ -20,10 +20,10 @@ newtags: "Utilitarianism, Value Alignment, Expected Utility Theory"
 key_contribution: "Critiques expected utility maximization as the foundation for AI alignment"
 significance: "Proposes alternatives to preferentist approaches showing utility theory limitations"
 tags: 
-pdf_extract: "PDF Extracts/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.md"
+pdf_extract: "PDF Extracts/2024/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.md"
 abstract: "The dominant practice of AI alignment assumes that preferences are an adequate representation of human values, that human rationality can be understood in terms of maximizing the satisfaction of preferences, and that AI systems should be aligned with preferences of one or more humans. These commitments constitute what we term a preferentist approach to AI alignment. In this paper, we characterize and challenge the preferentist approach, describing conceptual and technical alternatives. We argue ..."
 paper_summary: 
-local_pdf: "[[PDFs/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -50,7 +50,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.pdf|Open PDF]]
 
 - **URL:** https://link.springer.com/article/10.1007/s11098-024-02249-w
 - **DOI:** https://doi.org/10.1007/s11098-024-02249-w

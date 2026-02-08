@@ -30,7 +30,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2022-Kann-AmericasNLI.md"
+pdf_extract: "PDF Extracts/2022/2022-Kann-AmericasNLI.md"
 ---
 # AmericasNLI: Machine translation and natural language inference systems for Indigenous languages of the Americas
 

@@ -17,7 +17,7 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
-pdf_extract: "PDF Extracts/2024-Eisikovits-AI and Phronesis.md"
+pdf_extract: "PDF Extracts/2024/2024-Eisikovits-AI and Phronesis.md"
 abstract: "This paper argues that the growing prevalence of statistical machine learning in everyday decision making effectively replaces many of our practical judgments. It leans on Aristotle's account of how phronesis develops to examine the implications for human moral development."
 paper_summary: 
 local_pdf: 

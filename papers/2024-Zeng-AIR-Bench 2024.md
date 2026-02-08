@@ -19,10 +19,10 @@ newtags: "AI Safety & Alignment"
 key_contribution: "Created AIR-Bench 2024, a safety benchmark aligned with 8 government regulations and 16 company policies, categorized into a four-tiered taxonomy of 314 risk categories."
 significance: "Bridges the gap between academic safety benchmarks and practical regulatory requirements, providing a compliance-focused tool for evaluating Foundation Models against real-world policy standards."
 tags: 
-pdf_extract: "PDF Extracts/2024-Zeng-AIR-Bench 2024.md"
+pdf_extract: "PDF Extracts/2024/2024-Zeng-AIR-Bench 2024.md"
 abstract: "Foundation models (FMs) provide societal benefits but also amplify risks. Gov- ernments, companies, and researchers have proposed regulatory frameworks, ac- ceptable use policies, and safety benchmarks in response. However, existing public benchmarks often define safety categories based on previous literature, intuitions, or common sense, leading to disjointed sets of categories for risks specified in recent regulations and policies, which makes it challenging to evaluate and com- pare FMs acros"
 paper_summary: "Abstract: Foundation models (FMs) provide societal benefits but also amplify risks. Gov- ernments, companies, and researchers have proposed regulatory frameworks, ac- ceptable use policies, and safety benchmark | Overview: AIR-BENCH 2024: A Safety Benchmark Based on Risk Categories from Regulations and Policies o This paper contains model outputs that can be offensive in nature. Yi Zeng* 1,2 Yu Yang* 1,3 Andy Zhou* 4,5  | Methodology: than these top-ranked models to handle the response to risky inquires, with an average refusal rate of 15%, frequently providing harmful contents upon | Key Findings: ० Limited insights to regulation-based risks. HEx-PHI Figure 2: The gap between existing safety benchmarks and the comprehensive list of risks specifi"
-local_pdf: "[[PDFs/2024-Zeng-AIR-Bench 2024.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Zeng-AIR-Bench 2024.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -48,7 +48,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Zeng-AIR-Bench 2024.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Zeng-AIR-Bench 2024.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2407.17436
 - **DOI:** https://doi.org/10.48550/arXiv.2407.17436

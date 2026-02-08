@@ -18,10 +18,10 @@ newtags: "Applied Ethics"
 key_contribution: "Developed a comprehensive risk ontology/taxonomy for evaluating AI-driven psychotherapy agents, aligned with clinical and legal standards."
 significance: "Provides a structured and standardized framework to identify and assess potential harms in AI mental health support, addressing the lack of sensitive evaluation methodologies in this high-risk domain."
 tags: 
-pdf_extract: "PDF Extracts/2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered.md"
+pdf_extract: "PDF Extracts/2025/2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered.md"
 abstract: "The proliferation of Large Language Models (LLMs) and Intelligent Virtual Agents acting as psychotherapists presents significant op- portunities for expanding mental healthcare access. However, their deployment has also been linked to serious adverse outcomes, in- cluding user harm and suicide, facilitated by a lack of standardized evaluation methodologies capable of capturing the nuanced risks of therapeutic interaction. Current evaluation techniques lack the sen- sitivity to detect subtle chan"
 paper_summary: "Abstract: The proliferation of Large Language Models (LLMs) and Intelligent Virtual Agents acting as psychotherapists presents significant op- portunities for expanding mental healthcare access. However, their  | Overview: A Risk Ontology for Evaluating AI-Powered Psychotherapy Virtual Agents Ian Steenstra Northeastern University Boston, MA, USA steenstra.i@northeastern.edu Timothy Bickmore Northeastern University Bosto | Conclusions: AI psychotherapists present significant opportunities and risks. Documented negative outcomes demand standardized evaluations for unique interaction r"
-local_pdf: "[[PDFs/2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -45,7 +45,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2505.15108
 

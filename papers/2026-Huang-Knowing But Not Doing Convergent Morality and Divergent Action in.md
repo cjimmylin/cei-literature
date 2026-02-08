@@ -12,8 +12,8 @@ first_author: "[[Jen-tse Huang]]"
 authors: Jen-tse Huang et al.
 url: "https://arxiv.org/abs/2601.07972"
 external_pdf: "https://arxiv.org/pdf/2601.07972.pdf"
-local_pdf: "[[PDFs/2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.pdf]]"
-pdf_extract: "PDF Extracts/2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.md"
+local_pdf: "[[PDFs/2026/2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.pdf]]"
+pdf_extract: "PDF Extracts/2026/2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

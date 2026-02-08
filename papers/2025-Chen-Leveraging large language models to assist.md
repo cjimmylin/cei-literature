@@ -30,8 +30,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Chen-Leveraging large language models to assist.md"
-local_pdf: "[[PDFs/2025-Chen-Leveraging large language models to assist.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Chen-Leveraging large language models to assist.md"
+local_pdf: "[[PDFs/2025/2025-Chen-Leveraging large language models to assist.pdf]]"
 ---
 # Leveraging large language models to assist philosophical counseling: prospective techniques, value, and challenges
 

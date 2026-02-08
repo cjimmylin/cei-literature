@@ -19,10 +19,10 @@ newtags: "Bias & Fairness"
 key_contribution: "Developed methods to estimate 'personality traits' (Big Five) of LLMs using Zero-shot classification on standard personality questionnaires."
 significance: "Shows that LLMs exhibit anthropomorphic 'personality' profiles (often mirroring training data biases) that affect their open-ended generation, which is crucial for characterizing model behavior in social interactions."
 tags: 
-pdf_extract: "PDF Extracts/2023-Karra-Estimating the Personality of White-Box Language.md"
+pdf_extract: "PDF Extracts/2023/2023-Karra-Estimating the Personality of White-Box Language.md"
 abstract: "Technology for open-ended language generation, a key application of artiﬁcial in- telligence, has advanced to a great extent in recent years. Large-scale language models, which are trained on large corpora of text, are being used in a wide range of applications everywhere, from virtual assistants to conversational bots. While these language models output ﬂuent text, existing research shows that these mod- els can and do capture human biases. Many of these biases, especially those that could pote"
 paper_summary: "Abstract: Technology for open-ended language generation, a key application of artiﬁcial in- telligence, has advanced to a great extent in recent years. Large-scale language models, which are trained on large co | Overview: Estimating the Personality of White-Box Language Models Saketh Reddy Karraa, Son The Nguyena, Theja Tulabandhulaa aUniversity of Illinois Chicago, Chicago, United States Abstract Technology for open-e | Methodology: described in Section 4. 4 --- Page 5 --- | Conclusions: In this paper, we developed approaches to quantify the personality traits of datasets and language models designed for open-ended text generation. We"
-local_pdf: "[[PDFs/2023-Karra-Estimating the Personality of White-Box Language.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Karra-Estimating the Personality of White-Box Language.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -50,7 +50,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Karra-Estimating the Personality of White-Box Language.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Karra-Estimating the Personality of White-Box Language.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2204.12000
 - **DOI:** https://doi.org/10.48550/arXiv.2204.12000

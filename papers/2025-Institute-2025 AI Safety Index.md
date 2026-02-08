@@ -29,8 +29,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Institute-2025 AI Safety Index.md"
-local_pdf: "[[PDFs/2025-Institute-2025 AI Safety Index.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Institute-2025 AI Safety Index.md"
+local_pdf: "[[PDFs/2025/2025-Institute-2025 AI Safety Index.pdf]]"
 ---
 # 2025 AI Safety Index
 

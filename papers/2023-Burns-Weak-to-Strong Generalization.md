@@ -20,10 +20,10 @@ moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "A fundamental paper from OpenAI showing that strong models (GPT-4) can be aligned by weak supervisors (GPT-2) and often generalize *beyond* the supervisor's capability ('Weak-to-Strong Generalization')."
 significance: "Provides a hopeful path for 'Superalignment': if we can align superhuman AI using human (weak) supervision, we might remain in control even when AI outsmarts us."
-pdf_extract: "PDF Extracts/2023-Burns-Weak-to-Strong Generalization.md"
+pdf_extract: "PDF Extracts/2023/2023-Burns-Weak-to-Strong Generalization.md"
 abstract: "Widely used alignment techniques, such as reinforcement learning from human feedback (RLHF), rely on the ability of humans to supervise model behavior—for example, to evaluate whether a model faithfully followed instructions or generated safe outputs. However, future superhuman models will behave in complex ways too difficult for humans to reliably evaluate; humans will only be able to weakly supervise superhuman models. We study an analogy to this problem: can weak model supervision elicit the"
 paper_summary: "Abstract: Widely used alignment techniques, such as reinforcement learning from human feedback (RLHF), rely on the ability of humans to supervise model behavior—for example, to evaluate whether a model faithful | Overview: WEAK-TO-STRONG GENERALIZATION: ELICITING STRONG CAPABILITIES WITH WEAK SUPERVISION Collin Burns∗ Pavel Izmailov∗ Jan Hendrik Kirchner∗ Bowen Baker∗ Leo Gao∗ Leopold Aschenbrenner∗ Yining Chen∗ Adrien  | Methodology: A core challenge of superalignment is that humans will need to supervise models much smarter than us. This is a special case of what we call the weak- | Conclusions: In this paper, we proposed a simple analogy for studying a core challenge of aligning superhuman models and showed that it is feasible to make signifi"
-local_pdf: "[[PDFs/2023-Burns-Weak-to-Strong Generalization.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Burns-Weak-to-Strong Generalization.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Burns-Weak-to-Strong Generalization.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Burns-Weak-to-Strong Generalization.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2312.09390
 - **DOI:** https://doi.org/10.48550/arXiv.2312.09390

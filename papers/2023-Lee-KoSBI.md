@@ -31,7 +31,7 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "15 categories"
-pdf_extract: "PDF Extracts/2023-Lee-KoSBI.md"
+pdf_extract: "PDF Extracts/2023/2023-Lee-KoSBI.md"
 ---
 # KoSBI: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Applications
 

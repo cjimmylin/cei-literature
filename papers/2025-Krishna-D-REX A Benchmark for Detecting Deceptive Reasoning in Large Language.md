@@ -12,8 +12,8 @@ first_author: "[[Satyapriya Krishna]]"
 authors: Satyapriya Krishna; Andy Zou; Rahul Gupta; Eliot Krzysztof Jones; Nick Winter; Dan Hendrycks; J. Zico Kolter; Matt Fredrikson; Spyros Matsoukas
 url: "https://arxiv.org/abs/2509.17938"
 external_pdf: "https://arxiv.org/pdf/2509.17938.pdf"
-local_pdf: "[[PDFs/2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language.pdf]]"
-pdf_extract: "PDF Extracts/2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language.md"
+local_pdf: "[[PDFs/2025/2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language.md"
 publication: ACL 2025
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

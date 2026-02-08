@@ -30,7 +30,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2024-Lee-KorNAT.md"
+pdf_extract: "PDF Extracts/2024/2024-Lee-KorNAT.md"
 ---
 # KorNAT: LLM Alignment Benchmark for Korean Social Values and Common Knowledge
 

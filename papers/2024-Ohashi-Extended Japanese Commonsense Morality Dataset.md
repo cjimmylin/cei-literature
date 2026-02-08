@@ -19,10 +19,10 @@ newtags: "Japanese, Moral Reasoning & Psychology"
 key_contribution: "Expanded the JCommonsenseMorality dataset (eJCM) using 'Masked Token and Label Enhancement' to capture Japanese-specific cultural moral norms."
 significance: "Provides a culturally specific benchmark for Japan, demonstrating that models trained on Western data fail to capture local nuances of 'commonsense' morality in non-Western cultures."
 tags: 
-pdf_extract: "PDF Extracts/2024-Ohashi-Extended Japanese Commonsense Morality Dataset.md"
+pdf_extract: "PDF Extracts/2024/2024-Ohashi-Extended Japanese Commonsense Morality Dataset.md"
 abstract: "Rapid advancements in artificial intelligence (AI) have made it cru- cial to integrate moral reasoning into AI systems. However, existing models and datasets often overlook regional and cultural differences. To address this shortcoming, we have expanded the JCommonsense- Morality (JCM) dataset, the only publicly available dataset focused on Japanese morality. The Extended JCM (eJCM) has grown from the original 13,975 sentences to 31,184 sentences using our pro- posed sentence expansion method ca"
 paper_summary: "Abstract: Rapid advancements in artificial intelligence (AI) have made it cru- cial to integrate moral reasoning into AI systems. However, existing models and datasets often overlook regional and cultural diffe | Overview: Extended Japanese Commonsense Morality Dataset with Masked Token and Label Enhancement Takumi Ohashi Hosei University Tokyo, Japan takumi.ohashi.4g@stu.hosei.ac.jp Tsubasa Nakagawa Hosei University To | Conclusions: 5.1 Effects of eJCM There are two possible reasons for the fact that the results ob- tained by MTLE were comparable to or better than those obtained b"
-local_pdf: "[[PDFs/2024-Ohashi-Extended Japanese Commonsense Morality Dataset.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Ohashi-Extended Japanese Commonsense Morality Dataset.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -52,7 +52,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Ohashi-Extended Japanese Commonsense Morality Dataset.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Ohashi-Extended Japanese Commonsense Morality Dataset.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2410.09564
 - **DOI:** https://doi.org/10.1145/3627673.3679924

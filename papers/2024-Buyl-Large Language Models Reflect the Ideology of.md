@@ -18,10 +18,10 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
-pdf_extract: "PDF Extracts/2024-Buyl-Large Language Models Reflect the Ideology of.md"
+pdf_extract: "PDF Extracts/2024/2024-Buyl-Large Language Models Reflect the Ideology of.md"
 abstract: "Large language models (LLMs) are trained on vast amounts of data to generate natural language, enabling them to perform tasks like text summarization and question answering. These models have become popular in artificial intelligence (AI) assistants like ChatGPT and already play an influential role in how humans access information. However, the behavior of LLMs varies depending on their design, training, and use. In this paper, we prompt a diverse panel of popular LLMs to describe a large number"
 paper_summary: "Abstract: Large language models (LLMs) are trained on vast amounts of data to generate natural language, enabling them to perform tasks like text summarization and question answering. These models have become p | Overview: LARGE LANGUAGE MODELS REFLECT THE IDEOLOGY OF THEIR CREATORS Maarten Buyl1∗† Alexander Rogiers1† Sander Noels1† Guillaume Bied1 Iris Dominguez-Catena2 Edith Heiter1 Iman Johary1 Alexandru-Cristian Mar | Conclusions: Designing LLMs involves numerous choices that affect the ideological positions reflected in their behavior. These positions can also vary depending on"
-local_pdf: "[[PDFs/2024-Buyl-Large Language Models Reflect the Ideology of.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Buyl-Large Language Models Reflect the Ideology of.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -49,7 +49,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Buyl-Large Language Models Reflect the Ideology of.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Buyl-Large Language Models Reflect the Ideology of.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2410.18417
 - **DOI:** https://doi.org/10.48550/arXiv.2410.18417

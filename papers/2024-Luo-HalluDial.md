@@ -18,10 +18,10 @@ national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
 newtags: 
-pdf_extract: "PDF Extracts/2024-Luo-HalluDial.md"
+pdf_extract: "PDF Extracts/2024/2024-Luo-HalluDial.md"
 abstract: "Large Language Models (LLMs) have significantly advanced the field of Natural Language Processing (NLP), achieving remarkable performance across diverse tasks and enabling widespread real-world applications. However, LLMs are prone to hallucination, generating content that either conflicts with established knowl- edge or is unfaithful to the original sources. Existing hallucination benchmarks primarily focus on sentence- or passage-level hallucination detection, neglect- ing dialogue-level evalu"
 paper_summary: "Abstract: Large Language Models (LLMs) have significantly advanced the field of Natural Language Processing (NLP), achieving remarkable performance across diverse tasks and enabling widespread real-world applic | Overview: HalluDial: A Large-Scale Benchmark for Automatic Dialogue-Level Hallucination Evaluation Wen Luo1,2∗ Tianshu Shen3 Wei Li2 Guangyue Peng2 Richeng Xuan1 Houfeng Wang2† Xi Yang1† 1Beijing Academy of Art | Key Findings: Wen Luo1,2∗ Tianshu Shen3 Wei Li2 Guangyue Peng2 Richeng Xuan1 Houfeng Wang2† Xi Yang1† 1Beijing Academy of Artificial Intelligence 2National Key Labo | Conclusions: In this paper, we introduced HalluDial, the first large-scale benchmark for dialogue-level halluci- nation evaluation, addressing critical gaps in exi"
-local_pdf: [[PDFs/2024-Luo-HalluDial.pdf]]
+local_pdf: [[PDFs/2024/2024-Luo-HalluDial.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -49,7 +49,7 @@ data_metrics: "146,856 samples"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Luo-HalluDial.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Luo-HalluDial.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2406.07070
 - **DOI:** https://doi.org/10.48550/arXiv.2406.07070

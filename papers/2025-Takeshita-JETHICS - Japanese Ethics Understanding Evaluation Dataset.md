@@ -13,8 +13,8 @@ first_author: "[[M. Takeshita]]"
 authors: "Takeshita, M., & Rzepka, R"
 url: "https://arxiv.org/abs/2506.16187"
 external_pdf: "https://arxiv.org/pdf/2506.16187.pdf"
-local_pdf: "[[PDFs/2025-Takeshita-JETHICS - Japanese Ethics Understanding Evaluation Dataset.pdf]]"
-pdf_extract: "PDF Extracts/2025-Takeshita-JETHICS - Japanese Ethics Understanding Evaluation Dataset.md"
+local_pdf: "[[PDFs/2025/2025-Takeshita-JETHICS - Japanese Ethics Understanding Evaluation Dataset.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Takeshita-JETHICS - Japanese Ethics Understanding Evaluation Dataset.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

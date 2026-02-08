@@ -18,10 +18,10 @@ national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
 newtags: 
-pdf_extract: "PDF Extracts/2023-Li-On the steerability of large language models.md"
+pdf_extract: "PDF Extracts/2023/2023-Li-On the steerability of large language models.md"
 abstract: "Large language models (LLMs) are known to generate biased responses where the opinions of certain groups and populations are underrep- resented. Here, we present a novel approach to achieve controllable generation of specific viewpoints using LLMs, that can be leveraged to produce multiple perspectives and to reflect the diverse opinions. Moving beyond the tradi- tional reliance on demographics like age, gen- der, or party affiliation, we introduce a data- driven notion of persona grounded in co"
 paper_summary: "Abstract: Large language models (LLMs) are known to generate biased responses where the opinions of certain groups and populations are underrep- resented. Here, we present a novel approach to achieve controllab | Overview: The steerability of large language models toward data-driven personas Junyi Li1, Charith Peris2∗, Ninareh Mehrabi2∗, Palash Goyal2, Kai-Wei Chang2, Aram Galstyan2, Richard Zemel2 and Rahul Gupta2 1Uni | Methodology: to achieve controllable generation of specific viewpoints using LLMs, that can be leveraged to produce multiple perspectives and to reflect the divers | Key Findings: (Pval) partitions (represented in blue and green respectively, in Figure 1). Accordingly, the re- sponses in each partition can be referred to as Rtr  | Conclusions: In this work, we present an approach for steerable generation using LLMs, where we utilize a data- driven notion of a persona to modulate the gener- a"
-local_pdf: "[[PDFs/2023-Li-On the steerability of large language models.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Li-On the steerability of large language models.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -49,7 +49,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Li-On the steerability of large language models.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Li-On the steerability of large language models.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2311.04978
 - **DOI:** https://doi.org/10.48550/arXiv.2311.04978

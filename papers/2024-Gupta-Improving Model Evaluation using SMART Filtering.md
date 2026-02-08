@@ -18,10 +18,10 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: American
 tags: 
-pdf_extract: "PDF Extracts/2024-Gupta-Improving Model Evaluation using SMART Filtering.md"
+pdf_extract: "PDF Extracts/2024/2024-Gupta-Improving Model Evaluation using SMART Filtering.md"
 abstract: "One of the most challenging problems facing NLP today is evaluation. Some of the most pressing issues pertain to benchmark satura- tion, data contamination, and diversity in the quality of test examples. To address these con- cerns, we propose Selection Methodology for Accurate, Reduced, and Targeted (SMART) fil- tering, a novel approach to select a high-quality subset of examples from existing benchmark datasets by systematically removing less infor- mative and less challenging examples. Our ap"
 paper_summary: "Abstract: One of the most challenging problems facing NLP today is evaluation. Some of the most pressing issues pertain to benchmark satura- tion, data contamination, and diversity in the quality of test exampl | Overview: Improving Model Evaluation using SMART Filtering of Benchmark Datasets Vipul Gupta1, 2, † Candace Ross1 David Pantoja3 Rebecca J. Passonneau2 Megan Ung1 Adina Williams1 1 FAIR, Meta AI 2 Pennsylvania  | Methodology: increases efficiency without hits to leaderboard util- ity. For example, on the ARC dataset, we shrink the dataset by 68.9%, increasing computational  | Key Findings: datasets, preserving the high-quality examples that are most informative and reliable as our basis for benchmarking. Our methodology applies three fil | Conclusions: Dataset Quality. Our approach removes the easy, data contaminated, and similar examples, thus im- proving the quality of the resulting dataset. Our me"
-local_pdf: "[[PDFs/2024-Gupta-Improving Model Evaluation using SMART Filtering.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Gupta-Improving Model Evaluation using SMART Filtering.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -49,7 +49,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Gupta-Improving Model Evaluation using SMART Filtering.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Gupta-Improving Model Evaluation using SMART Filtering.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2410.20245
 - **DOI:** https://doi.org/10.48550/arXiv.2410.20245

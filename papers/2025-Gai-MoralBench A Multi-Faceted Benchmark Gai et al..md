@@ -13,8 +13,8 @@ first_author: "[[Y. Gai]]"
 authors: Gai, Y. et al.
 publication: PhilArchive
 external_pdf: "https://arxiv.org/pdf/2406.04428v2.pdf"
-local_pdf: "[[PDFs/2025-Gai-MoralBench A Multi-Faceted Benchmark Gai et al..pdf]]"
-pdf_extract: "PDF Extracts/2025-Gai-MoralBench A Multi-Faceted Benchmark Gai et al..md"
+local_pdf: "[[PDFs/2025/2025-Gai-MoralBench A Multi-Faceted Benchmark Gai et al..pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Gai-MoralBench A Multi-Faceted Benchmark Gai et al..md"
 DATE_ADDED: 20260207
 ethics_overall: "No"
 virtue_ethics: "No"

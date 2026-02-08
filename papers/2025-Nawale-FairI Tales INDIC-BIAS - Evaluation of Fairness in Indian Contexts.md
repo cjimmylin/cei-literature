@@ -13,8 +13,8 @@ authors: Janki Atul Nawale; Mohammed Safi Ur Rahman Khan; Janani D; Mansi Gupta;
 doi: 10.1007/s44443-025-00137-9
 url: "https://arxiv.org/abs/2506.23111"
 external_pdf: "https://arxiv.org/pdf/2506.23111.pdf"
-local_pdf: "[[PDFs/2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.pdf]]"
-pdf_extract: "PDF Extracts/2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.md"
+local_pdf: "[[PDFs/2025/2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.md"
 publication: ACL 2025
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

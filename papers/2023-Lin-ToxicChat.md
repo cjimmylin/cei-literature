@@ -29,7 +29,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset for toxicity detection"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2023-Lin-ToxicChat.md"
+pdf_extract: "PDF Extracts/2023/2023-Lin-ToxicChat.md"
 ---
 # ToxicChat: Unveiling Hidden Challenges of Toxicity Detection in Real-World User-AI Conversations
 

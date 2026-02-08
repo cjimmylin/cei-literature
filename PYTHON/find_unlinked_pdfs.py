@@ -28,7 +28,7 @@ def find_unlinked_pdfs():
     papers_dir = PAPERS_DIR
     pdfs_dir = PDFS_DIR
     
-    pdf_files = {f.name for f in pdfs_dir.glob("*.pdf")}
+    pdf_files = {f.name for f in pdfs_dir.rglob("*.pdf")}
     paper_files = list(papers_dir.glob("*.md"))
     
     unlinked_found = []

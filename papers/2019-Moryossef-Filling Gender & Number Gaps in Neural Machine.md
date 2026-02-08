@@ -18,8 +18,8 @@ moral_psychology: N/A
 newtags: Hebrew/Israeli
 tags: 
 abstract: "When translating from a language that does not morphologically mark information such as gender and number into a language that does, translation systems must “guess” this missing information, often leading to incorrect translations in the given context. We propose a black-box approach for injecting the missing information to a pre-trained neural machine translation system, allowing to control the morphological variations in the generated translations without changing the underlying model or trai"
-local_pdf: "[[PDFs/2019-Moryossef-Filling Gender & Number Gaps in Neural Machine.pdf]]"
-pdf_extract: "PDF Extracts/2019-Moryossef-Filling Gender & Number Gaps in Neural Machine.md"
+local_pdf: "[[PDFs/2019/2019-Moryossef-Filling Gender & Number Gaps in Neural Machine.pdf]]"
+pdf_extract: "PDF Extracts/2019/2019-Moryossef-Filling Gender & Number Gaps in Neural Machine.md"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

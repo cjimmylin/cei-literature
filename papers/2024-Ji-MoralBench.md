@@ -12,7 +12,7 @@ first_author: "[[Jianchao Ji]]"
 authors: "[[Ji, Jianchao]]; [[Chen, Yutong]]; [[Jin, Mingyu]]; [[Xu, Wujiang]]; [[Hua, Wenyue]]; [[Zhang, Yongfeng]]"
 doi: 10.48550/arXiv.2406.04428
 url: "http://arxiv.org/abs/2406.04428"
-local_pdf: [[PDFs/2024-Ji-MoralBench.pdf]]
+local_pdf: [[PDFs/2024/2024-Ji-MoralBench.pdf]]
 external_pdf: "http://arxiv.org/pdf/2406.04428.pdf"
 publication: "SIGKDD Explorations"
 national_ethnic_cultural: N/A
@@ -21,7 +21,7 @@ moral_psychology: "Moral Identity"
 newtags: "Moral Identity, Deontology"
 key_contribution: "Curates a comprehensive dataset to probe 'moral identity' of LLMs across diverse ethical dilemmas and real-world scenarios"
 significance: "Focuses on assessing 'moral identity' (nuance, context sensitivity) rather than just correct labels, offering a more holistic evaluation"
-pdf_extract: "PDF Extracts/2024-Ji-MoralBench.md"
+pdf_extract: "PDF Extracts/2024/2024-Ji-MoralBench.md"
 tags: 
 abstract: "In the rapidly evolving field of artificial intelligence, large language models (LLMs) have emerged as powerful tools for a myriad of applications, from natural language processing to decision-making support systems. However, as these models become increasingly integrated into societal frameworks, the imperative to ensure they operate within ethical and moral boundaries has never been more critical. This paper intro- duces a novel benchmark designed to measure and compare the moral reasoning cap"
 paper_summary: "Abstract: In the rapidly evolving field of artificial intelligence, large language models (LLMs) have emerged as powerful tools for a myriad of applications, from natural language processing to decision-making  | Overview: arXiv:2406.04428v2 [cs.CL] 4 Jul 2025 MoralBench: Moral Evaluation of LLMs Jianchao Ji∗1 ∗, Yutong Chen∗2, Mingyu Jin1, Wujiang Xu1, Wenyue Hua1, Yongfeng Zhang1 1Rutgers, The State University of New  | Methodology: In this paper, we undertake a systematic evaluation to inves- tigate the moral identity of various Large Language Models --- Page 3 --- (LLMs). Our me | Key Findings: benchmark, we aim to catalyze a shift in AI development towards more morally aware models, emphasizing the impor- tance of ethical considerations in t | Conclusions: In this paper, we introduce a novel benchmark designed to evaluate the moral identity of Large Language Models (LLMs). Our benchmark consists of two d"
@@ -55,7 +55,7 @@ normative_ethics_benchmark: Yes
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Ji-MoralBench.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Ji-MoralBench.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2406.04428
 - **DOI:** https://doi.org/10.48550/arXiv.2406.04428

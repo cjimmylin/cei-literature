@@ -13,8 +13,8 @@ first_author: "[[Mouxiao Bian]]"
 authors: Mouxiao Bian, Rongzhao Zhang, Chao Ding, Xinwei Peng, and Jie Xu
 url: "https://arxiv.org/abs/2505.07205"
 external_pdf: "https://arxiv.org/pdf/2505.07205.pdf"
-local_pdf: "[[PDFs/2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.pdf]]"
-pdf_extract: "PDF Extracts/2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.md"
+local_pdf: "[[PDFs/2025/2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

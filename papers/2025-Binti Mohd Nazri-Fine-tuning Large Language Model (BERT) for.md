@@ -29,8 +29,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach text corpus for question answering"
 data_metrics: "0 dataset"
-pdf_extract: "PDF Extracts/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.md"
-local_pdf: "[[PDFs/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.md"
+local_pdf: "[[PDFs/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.pdf]]"
 ---
 # Fine-tuning Large Language Model (BERT) for Islamic Moral Inquiry and Response
 

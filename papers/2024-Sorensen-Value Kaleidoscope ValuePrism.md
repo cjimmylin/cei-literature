@@ -15,8 +15,8 @@ authors: Sorensen et al.
 doi: 10.1609/aaai.v38i18.29970
 url: "https://arxiv.org/abs/2309.00779"
 external_pdf: "https://arxiv.org/pdf/2309.00779.pdf"
-local_pdf: "[[PDFs/2024-Sorensen-Value Kaleidoscope ValuePrism.pdf]]"
-pdf_extract: "PDF Extracts/2024-Sorensen-Value Kaleidoscope ValuePrism.md"
+local_pdf: "[[PDFs/2024/2024-Sorensen-Value Kaleidoscope ValuePrism.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Sorensen-Value Kaleidoscope ValuePrism.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

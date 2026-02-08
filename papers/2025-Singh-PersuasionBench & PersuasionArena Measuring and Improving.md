@@ -12,8 +12,8 @@ first_author: "[[Somesh Singh]]"
 authors: Somesh Singh; Yaman K Singla; Harini SI; Balaji Krishnamurthy
 url: "https://arxiv.org/abs/2410.02653"
 external_pdf: "https://arxiv.org/pdf/2410.02653.pdf"
-local_pdf: "[[PDFs/2025-Singh-PersuasionBench & PersuasionArena Measuring and Improving.pdf]]"
-pdf_extract: "PDF Extracts/2025-Singh-PersuasionBench & PersuasionArena Measuring and Improving.md"
+local_pdf: "[[PDFs/2025/2025-Singh-PersuasionBench & PersuasionArena Measuring and Improving.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Singh-PersuasionBench & PersuasionArena Measuring and Improving.md"
 publication: ICLR 2025
 DATE_ADDED: 20260207
 ethics_overall: "No"

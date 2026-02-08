@@ -31,8 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology annotated dataset for toxicity detection"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.md"
-local_pdf: "[[PDFs/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.pdf]]"
+pdf_extract: "PDF Extracts/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.md"
+local_pdf: "[[PDFs/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.pdf]]"
 ---
 # Measuring and Mitigating Unintended Bias in Text Classification
 

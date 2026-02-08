@@ -9,7 +9,7 @@ first_author: "[[Basile Garcia]]"
 authors: "[[Garcia, Basile]]; [[Qian, Crystal]]; [[Palminteri, Stefano]]"
 doi: N/A
 url: "https://arxiv.org/abs/2410.07304"
-local_pdf: "[[PDFs/2024-Garcia-Moral Turing Test.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Garcia-Moral Turing Test.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: Yes
@@ -18,7 +18,7 @@ key_contribution: "Discovers systematic misalignments between human and LLM mora
 significance: "Novel 'Moral Turing Test' methodology revealing complex dynamics of human-AI moral evaluation"
 external_pdf: "https://arxiv.org/pdf/2410.07304"
 abstract: "The researchers examined how well large language models align with human moral judgments by collecting responses to moral scenarios from both humans and LLMs. They discovered important misalignments: both LLMs and humans tended to reject morally complex utilitarian dilemmas, but LLMs were more sensitive to personal framing. In a study with 230 participants, evaluators actually preferred the AI responses but showed bias against them when they knew the source was AI. The analysis revealed that subtle linguistic differences in responses influenced detection and agreement, highlighting the intricate dynamics of human-AI interaction in ethically charged contexts."
-pdf_extract: "PDF Extracts/2024-Garcia-Moral Turing Test.md"
+pdf_extract: "PDF Extracts/2024/2024-Garcia-Moral Turing Test.md"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes

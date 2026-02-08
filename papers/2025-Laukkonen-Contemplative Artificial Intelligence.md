@@ -43,7 +43,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Laukkonen-Contemplative Artificial Intelligence.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Laukkonen-Contemplative Artificial Intelligence.pdf|Open PDF]]
 
 - **Arxiv:** https://arxiv.org/abs/2504.15125
 

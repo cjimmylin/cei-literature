@@ -30,8 +30,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Aleid-Hajj-FQA.md"
-local_pdf: [[PDFs/2025-Aleid-Hajj-FQA.pdf]]
+pdf_extract: "PDF Extracts/2025/2025-Aleid-Hajj-FQA.md"
+local_pdf: [[PDFs/2025/2025-Aleid-Hajj-FQA.pdf]]
 ---
 # Hajj-FQA: A benchmark Arabic dataset for developing question-answering systems on Hajj fatwas
 

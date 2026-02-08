@@ -20,10 +20,10 @@ newtags: "Utilitarianism, Deontology, Moral Alignment, Reinforcement Learning, L
 key_contribution: "Proposes intrinsic moral rewards for fine-tuning LLM agents, using deontological and utilitarian frameworks defined in terms of actions and consequences"
 significance: "Demonstrates that moral fine-tuning with intrinsic rewards is more transparent and cost-effective alternative to RLHF; shows moral strategies generalize across game environments"
 tags: 
-pdf_extract: "PDF Extracts/2025-Tennant-Moral Alignment for LLM Agents.md"
+pdf_extract: "PDF Extracts/2025/2025-Tennant-Moral Alignment for LLM Agents.md"
 abstract: "Decision-making agents based on pre-trained Large Language Models (LLMs) are increasingly being deployed across various domains of human activity. As LLM-based systems become more agentic, their influence on human activity will grow and their transparency will decrease. Consequently, developing effective methods for aligning them to human values is vital. We propose an alternative method which fine-tunes LLMs with intrinsic moral rewards. We define a set of fundamental frameworks from moral philosophy in terms of actions and consequences for agents playing a Prisoner's Dilemma game."
 paper_summary: 
-local_pdf: "[[PDFs/2025-Tennant-Moral Alignment for LLM Agents.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Tennant-Moral Alignment for LLM Agents.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
@@ -55,7 +55,7 @@ data_metrics: "Moral reward functions based on deontological (action-based) and 
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Tennant-Moral Alignment for LLM Agents.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Tennant-Moral Alignment for LLM Agents.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2410.01639
 - **OpenReview:** https://openreview.net/forum?id=MeGDmZjUXy

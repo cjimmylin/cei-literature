@@ -18,10 +18,10 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: Arabic
 tags: 
-pdf_extract: "PDF Extracts/2025-Abdaljalil-HalluVerse25.md"
+pdf_extract: "PDF Extracts/2025/2025-Abdaljalil-HalluVerse25.md"
 abstract: "Large Language Models (LLMs) are in- creasingly used in various contexts, yet re- main prone to generating non-factual con- tent, commonly referred to as “hallucina- tions”. The literature categorizes halluci- nations into several types, including entity- level, relation-level, and sentence-level hal- lucinations. However, existing hallucination datasets often fail to capture fine-grained hal- lucinations in multilingual settings. In this work, we introduce HalluVerse25, a multilin- gual LLM hal"
 paper_summary: "Abstract: Large Language Models (LLMs) are in- creasingly used in various contexts, yet re- main prone to generating non-factual con- tent, commonly referred to as “hallucina- tions”. The literature categorizes | Overview: HalluVerse25: Fine-grained Multilingual Benchmark Dataset for LLM Hallucinations Samir Abdaljalil Texas A&M University College Station, TX., USA sabdaljalil@tamu.edu Hasan Kurban Hamad Bin Khalifa Uni | Key Findings: process, since the intended output is one of three labels, we set the temperature to 0 to ensure that it is deterministic. | Conclusions: In this paper, we present HalluVerse25, a fine- grained multilingual dataset for LLM-generated hallucinations, constructed by injecting halluci- nated"
-local_pdf: [[PDFs/2025-Abdaljalil-HalluVerse25.pdf]]
+local_pdf: [[PDFs/2025/2025-Abdaljalil-HalluVerse25.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -49,7 +49,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Abdaljalil-HalluVerse25.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Abdaljalil-HalluVerse25.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2503.07833
 - **DOI:** https://doi.org/10.48550/arXiv.2503.07833

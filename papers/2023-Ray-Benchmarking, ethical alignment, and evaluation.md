@@ -30,8 +30,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2023-Ray-Benchmarking, ethical alignment, and evaluation.md"
-local_pdf: "[[PDFs/2023-Ray-Benchmarking, ethical alignment, and evaluation.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.md"
+local_pdf: "[[PDFs/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.pdf]]"
 ---
 # Benchmarking, ethical alignment, and evaluation framework for conversational AI: Advancing responsible development of ChatGPT
 

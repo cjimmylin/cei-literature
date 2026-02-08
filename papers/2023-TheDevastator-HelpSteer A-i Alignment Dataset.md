@@ -29,8 +29,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2023-TheDevastator-HelpSteer A-i Alignment Dataset.md"
-local_pdf: "[[PDFs/2023-TheDevastator-HelpSteer A-i Alignment Dataset.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.md"
+local_pdf: "[[PDFs/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.pdf]]"
 ---
 # HelpSteer: A-i Alignment Dataset
 

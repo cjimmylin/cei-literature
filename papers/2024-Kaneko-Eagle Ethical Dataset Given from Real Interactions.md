@@ -12,8 +12,8 @@ first_author: "[[M. Kaneko]]"
 authors: "Kaneko, M., Bollegala, D., & Baldwin, T"
 url: "https://arxiv.org/abs/2402.14258"
 external_pdf: "https://arxiv.org/pdf/2402.14258.pdf"
-local_pdf: "[[PDFs/2024-Kaneko-Eagle Ethical Dataset Given from Real Interactions.pdf]]"
-pdf_extract: "PDF Extracts/2024-Kaneko-Eagle Ethical Dataset Given from Real Interactions.md"
+local_pdf: "[[PDFs/2024/2024-Kaneko-Eagle Ethical Dataset Given from Real Interactions.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Kaneko-Eagle Ethical Dataset Given from Real Interactions.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

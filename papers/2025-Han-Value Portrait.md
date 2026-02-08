@@ -12,8 +12,8 @@ first_author: "[[Jongwook Han]]"
 authors: Jongwook Han, Dongmin Choi, Woojung Song, Eun-Ju Lee, Yohan Jo
 url: "https://arxiv.org/abs/2505.01015"
 external_pdf: "https://arxiv.org/pdf/2505.01015.pdf"
-local_pdf: "[[PDFs/2025-Han-Value Portrait.pdf]]"
-pdf_extract: "PDF Extracts/2025-Han-Value Portrait.md"
+local_pdf: "[[PDFs/2025/2025-Han-Value Portrait.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Han-Value Portrait.md"
 publication: ACL 2025
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

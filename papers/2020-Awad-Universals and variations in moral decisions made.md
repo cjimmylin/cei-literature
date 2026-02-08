@@ -31,8 +31,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "10 languages"
-pdf_extract: "PDF Extracts/2020-Awad-Universals and variations in moral decisions made.md"
-local_pdf: "[[PDFs/2020-Awad-Universals and variations in moral decisions made.pdf]]"
+pdf_extract: "PDF Extracts/2020/2020-Awad-Universals and variations in moral decisions made.md"
+local_pdf: "[[PDFs/2020/2020-Awad-Universals and variations in moral decisions made.pdf]]"
 ---
 # Universals and variations in moral decisions made in 42 countries by 70,000 participants
 

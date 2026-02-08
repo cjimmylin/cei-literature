@@ -12,8 +12,8 @@ first_author: "[[Yao Huang]]"
 authors: Yao Huang; Yitong Sun; Yichi Zhang; Ruochen Zhang; Yinpeng Dong; Xingxing Wei
 url: "https://arxiv.org/abs/2510.15501"
 external_pdf: "https://arxiv.org/pdf/2510.15501.pdf"
-local_pdf: "[[PDFs/2025-Huang-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors.pdf]]"
-pdf_extract: "PDF Extracts/2025-Huang-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors.md"
+local_pdf: "[[PDFs/2025/2025-Huang-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Huang-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "No"

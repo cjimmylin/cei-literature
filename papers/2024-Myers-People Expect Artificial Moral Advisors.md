@@ -20,7 +20,7 @@ newtags: "Utilitarianism, AI Trust, Moral Advisors, Human-AI Interaction"
 key_contribution: "Demonstrates that humans expect AI to make utilitarian decisions and distrust AI giving utilitarian moral advice, revealing a fundamental tension in AI moral advisory roles"
 significance: "Large-scale empirical evidence (N=2604) that humans have aversion to AI moral advice, especially when utilitarian, even when they agree with the decision"
 tags: 
-pdf_extract: "PDF Extracts/2024-Myers-People Expect Artificial Moral Advisors.md"
+pdf_extract: "PDF Extracts/2024/2024-Myers-People Expect Artificial Moral Advisors.md"
 abstract: "Across four pre-registered studies (total N = 2604), we investigated how people perceive and trust artificial moral advisors compared to human advisors. We found that people have a significant aversion to AMAs (vs humans) giving moral advice, participants expect AI to make utilitarian decisions, and even when participants agreed with an AMA's decision, they still expected to disagree with it more than a human advisor in the future."
 paper_summary: 
 local_pdf: "PENDING - paywall restricted"
@@ -54,7 +54,7 @@ data_metrics: "Trust ratings, expectation of utilitarian decisions, agreement me
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Myers-People Expect Artificial Moral Advisors.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Myers-People Expect Artificial Moral Advisors.pdf|Open PDF]]
 
 - **ScienceDirect:** https://www.sciencedirect.com/science/article/pii/S0010027724003147
 - **PubMed:** https://pubmed.ncbi.nlm.nih.gov/39671980/

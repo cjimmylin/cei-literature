@@ -20,9 +20,9 @@ newtags: "AI Safety & Alignment"
 key_contribution: "Provides a comprehensive, accessible textbook introduction to AI Safety, covering technical alignment, ethics, and societal impacts in a modular, unified format."
 significance: "Consolidates fragmented AI safety knowledge into a structured curriculum, lowering the barrier to entry for researchers and key stakeholders in understanding both present-day risks and catastrophic futures."
 tags: 
-pdf_extract: "PDF Extracts/2024-Hendrycks-Introduction to AI Safety, Ethics, and Society.md"
+pdf_extract: "PDF Extracts/2024/2024-Hendrycks-Introduction to AI Safety, Ethics, and Society.md"
 paper_summary: "Overview: Introduction to AI Safety, Ethics, and Society This is a draft manuscript. The final print version will be published by Taylor and Francis in December 2024. | Methodology: 198 | Key Findings: in AI systems taking actions that are not just undesirable but actively harmful. For example, a 2019 study on a US healthcare algorithm used to evalua | Conclusions: 49"
-local_pdf: "[[PDFs/2024-Hendrycks-Introduction to AI Safety, Ethics, and Society.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Hendrycks-Introduction to AI Safety, Ethics, and Society.pdf]]"
 abstract: "Artificial Intelligence is rapidly embedding itself within militaries, economies, and societies, reshaping their very foundations. Given the depth and breadth of its consequences, it has never been more pressing to understand how to ensure that AI systems are safe, ethical, and have a positive societal impact. This book aims to provide a comprehensive approach to understanding AI risk. Our primary goals include consolidating fragmented knowledge on AI risk, increasing the precision of core ideas"
 ethics_overall: No
 virtue_ethics: No

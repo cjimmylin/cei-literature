@@ -30,8 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2018-Awad-The Moral Machine experiment.md"
-local_pdf: "[[PDFs/2018-Awad-The Moral Machine experiment.pdf]]"
+pdf_extract: "PDF Extracts/2018/2018-Awad-The Moral Machine experiment.md"
+local_pdf: "[[PDFs/2018/2018-Awad-The Moral Machine experiment.pdf]]"
 ---
 # The Moral Machine experiment
 

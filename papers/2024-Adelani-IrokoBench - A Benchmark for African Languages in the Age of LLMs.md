@@ -12,8 +12,8 @@ first_author: "[[D. Adelani]]"
 authors: Adelani, D. et al
 url: "https://arxiv.org/abs/2406.03368"
 external_pdf: "https://arxiv.org/pdf/2406.03368.pdf"
-local_pdf: "[[PDFs/2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs.pdf]]"
-pdf_extract: "PDF Extracts/2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs.md"
+local_pdf: "[[PDFs/2024/2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs.md"
 publication: ACL 2025
 DATE_ADDED: 20260207
 ethics_overall: "No"

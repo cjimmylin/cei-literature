@@ -12,8 +12,8 @@ first_author: "[[Daniel Kilov]]"
 authors: Daniel Kilov, Caroline Hendy, Secil Yanik Guyot, Aaron J. Snoswell, Seth Lazar
 url: "https://arxiv.org/abs/2506.13082"
 external_pdf: "https://arxiv.org/pdf/2506.13082.pdf"
-local_pdf: "[[PDFs/2025-Kilov-Discerning What Matters Multi-Dimensional Moral Competence Assessment.pdf]]"
-pdf_extract: "PDF Extracts/2025-Kilov-Discerning What Matters Multi-Dimensional Moral Competence Assessment.md"
+local_pdf: "[[PDFs/2025/2025-Kilov-Discerning What Matters Multi-Dimensional Moral Competence Assessment.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Kilov-Discerning What Matters Multi-Dimensional Moral Competence Assessment.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

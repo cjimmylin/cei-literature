@@ -13,8 +13,8 @@ first_author: "[[Noam Benkler]]"
 authors: Noam Benkler; Drisana Mosaphir; Scott Friedman; Andrew Smart; Sonja Schmer-Galunder
 publication: Unknown
 external_pdf: "https://arxiv.org/pdf/2312.10075v1.pdf"
-local_pdf: "[[PDFs/2024-Benkler-Cross-Linguistic Moral Preferences in LLMs - Evidence from.pdf]]"
-pdf_extract: "PDF Extracts/2024-Benkler-Cross-Linguistic Moral Preferences in LLMs - Evidence from.md"
+local_pdf: "[[PDFs/2024/2024-Benkler-Cross-Linguistic Moral Preferences in LLMs - Evidence from.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Benkler-Cross-Linguistic Moral Preferences in LLMs - Evidence from.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

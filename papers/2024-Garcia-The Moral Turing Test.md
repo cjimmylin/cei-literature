@@ -21,10 +21,10 @@ newtags: Utilitarianism
 key_contribution: "Created a corpus of human vs. LLM responses to moral scenarios and conducted a user study (N=230) to evaluate detection and agreement"
 significance: "Revealed that while humans often prefer LLM moral assessments, an 'anti-AI bias' leads them to reject judgments they believe are machine-generated, complicating user-aligned AI deployment"
 tags: 
-pdf_extract: "PDF Extracts/2024-Garcia-The Moral Turing Test.md"
+pdf_extract: "PDF Extracts/2024/2024-Garcia-The Moral Turing Test.md"
 abstract: "As large language models (LLMs) become increasingly integrated into society, their alignment with human morals is crucial. To better understand this alignment, we created a large corpus of human- and LLM-generated responses to various moral scenarios. We found a misalignment between human and LLM moral assessments; al- though both LLMs and humans tended to reject morally complex utilitarian dilemmas, LLMs were more sensitive to personal fram- ing. We then conducted a quantitative user study invo"
 paper_summary: "Abstract: As large language models (LLMs) become increasingly integrated into society, their alignment with human morals is crucial. To better understand this alignment, we created a large corpus of human- and  | Overview: The Moral Turing Test: Evaluating Human-LLM Alignment in Moral Decision-Making Basile Garcia basile.garcia@unige.ch University of Geneva Geneva, Switzerland Crystal Qian cjqian@google.com Google DeepM | Key Findings: In the main stage of the study (Figure 2B), we presented the re- sponses generated in the first stage to new human participants (N=230). 77 participan | Conclusions: 5.1 Summary In the first part of our study, we set the stage to examine differences in human- and LLM- reasoning, administering a well-established psy"
-local_pdf: "[[PDFs/2024-Garcia-The Moral Turing Test.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Garcia-The Moral Turing Test.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -52,7 +52,7 @@ normative_ethics_benchmark: Yes
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Garcia-The Moral Turing Test.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Garcia-The Moral Turing Test.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2410.07304
 - **DOI:** https://doi.org/10.48550/arXiv.2410.07304

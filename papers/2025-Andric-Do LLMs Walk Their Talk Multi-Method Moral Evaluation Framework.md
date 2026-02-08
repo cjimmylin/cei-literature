@@ -12,8 +12,8 @@ first_author: "[[S. Andric]]"
 authors: Andric, S. et al.
 url: "https://arxiv.org/abs/2512.01568"
 external_pdf: "https://arxiv.org/pdf/2512.01568.pdf"
-local_pdf: "[[PDFs/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.pdf]]"
-pdf_extract: "PDF Extracts/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.md"
+local_pdf: "[[PDFs/2025/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

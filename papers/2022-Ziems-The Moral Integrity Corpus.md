@@ -32,7 +32,7 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning text corpus for conversational ai"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2022-Ziems-The Moral Integrity Corpus.md"
+pdf_extract: "PDF Extracts/2022/2022-Ziems-The Moral Integrity Corpus.md"
 ---
 # The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems
 

@@ -29,8 +29,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.md"
-local_pdf: "[[PDFs/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.md"
+local_pdf: "[[PDFs/2025/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.pdf]]"
 ---
 # How to Assess Your LLM Use Case for Bias and Fairness with LangFair
 

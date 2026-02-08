@@ -29,7 +29,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "1250 prompts; 19 categories"
-pdf_extract: "PDF Extracts/2025-Vasilev-RusCode.md"
+pdf_extract: "PDF Extracts/2025/2025-Vasilev-RusCode.md"
 ---
 # RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation
 

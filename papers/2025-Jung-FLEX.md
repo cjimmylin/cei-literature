@@ -29,7 +29,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Jung-FLEX.md"
+pdf_extract: "PDF Extracts/2025/2025-Jung-FLEX.md"
 ---
 # FLEX: A Benchmark for Evaluating Robustness of Fairness in Large Language Models
 

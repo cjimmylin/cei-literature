@@ -12,8 +12,8 @@ first_author: "[[J. Ojo]]"
 authors: Ojo, J. et al
 url: "https://arxiv.org/abs/2311.07978"
 external_pdf: "https://arxiv.org/pdf/2311.07978.pdf"
-local_pdf: "[[PDFs/2023-Ojo-AfroBench - How Good are LLMs on African Languages.pdf]]"
-pdf_extract: "PDF Extracts/2023-Ojo-AfroBench - How Good are LLMs on African Languages.md"
+local_pdf: "[[PDFs/2023/2023-Ojo-AfroBench - How Good are LLMs on African Languages.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Ojo-AfroBench - How Good are LLMs on African Languages.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "No"

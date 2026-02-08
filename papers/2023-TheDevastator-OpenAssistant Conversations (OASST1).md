@@ -27,8 +27,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark annotated dataset for conversational ai"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2023-TheDevastator-OpenAssistant Conversations (OASST1).md"
-local_pdf: "[[PDFs/2023-TheDevastator-OpenAssistant Conversations (OASST1).pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-TheDevastator-OpenAssistant Conversations (OASST1).md"
+local_pdf: "[[PDFs/2023/2023-TheDevastator-OpenAssistant Conversations (OASST1).pdf]]"
 ---
 # OpenAssistant Conversations (OASST1)
 

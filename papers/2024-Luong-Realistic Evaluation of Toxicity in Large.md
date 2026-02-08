@@ -18,10 +18,10 @@ newtags: "Toxicity & Hate Speech"
 key_contribution: "Introduced the Thoroughly Engineered Toxicity (TET) dataset, comprising prompts manually designed to bypass safety filters and elicit toxic responses from LLMs."
 significance: "Shows that standard toxicity evaluations using 'normal' prompts underestimate risk, while adversarial prompts (TET) reveal deeper flaws and vulnerabilities in safety alignment."
 tags: 
-pdf_extract: "PDF Extracts/2024-Luong-Realistic Evaluation of Toxicity in Large.md"
+pdf_extract: "PDF Extracts/2024/2024-Luong-Realistic Evaluation of Toxicity in Large.md"
 abstract: "Large language models (LLMs) have become integral to our professional workflows and daily lives. Nevertheless, these machine companions of ours have a critical flaw: the huge amount of data which endows them with vast and diverse knowledge, also exposes them to the inevitable toxicity and bias. While most LLMs incorpo- rate defense mechanisms to prevent the gener- ation of harmful content, these safeguards can be easily bypassed with minimal prompt engi- neering. In this paper, we introduce the"
 paper_summary: "Abstract: Large language models (LLMs) have become integral to our professional workflows and daily lives. Nevertheless, these machine companions of ours have a critical flaw: the huge amount of data which endo | Overview: Realistic Evaluation of Toxicity in Large Language Models Tinh Son Luong1∗, Thanh-Thien Le2∗, Linh Ngo Van3†, Thien Huu Nguyen2,4 1Oraichain Labs 2VinAI Research 3Hanoi University of Science and Techn"
-local_pdf: "[[PDFs/2024-Luong-Realistic Evaluation of Toxicity in Large.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Luong-Realistic Evaluation of Toxicity in Large.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -45,7 +45,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Luong-Realistic Evaluation of Toxicity in Large.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Luong-Realistic Evaluation of Toxicity in Large.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2405.10659
 

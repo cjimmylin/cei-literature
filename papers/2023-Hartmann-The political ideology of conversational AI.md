@@ -30,7 +30,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2023-Hartmann-The political ideology of conversational AI.md"
+pdf_extract: "PDF Extracts/2023/2023-Hartmann-The political ideology of conversational AI.md"
 ---
 # The political ideology of conversational AI: Converging evidence on ChatGPT’s pro-environmental, left-libertarian orientation
 

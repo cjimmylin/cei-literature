@@ -30,8 +30,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2023-Astobiza-MoralNet.md"
-local_pdf: [[PDFs/2023-Astobiza-MoralNet.pdf]]
+pdf_extract: "PDF Extracts/2023/2023-Astobiza-MoralNet.md"
+local_pdf: [[PDFs/2023/2023-Astobiza-MoralNet.pdf]]
 ---
 # MoralNet: A Benchmarking Protocol for Evaluating Morality in AI Systems
 

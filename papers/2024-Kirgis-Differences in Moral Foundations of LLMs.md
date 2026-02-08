@@ -17,10 +17,10 @@ religious_values: N/A
 moral_psychology: "Moral Foundations Theory"
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
-pdf_extract: "PDF Extracts/2024-Kirgis-Differences in Moral Foundations of LLMs.md"
+pdf_extract: "PDF Extracts/2024/2024-Kirgis-Differences in Moral Foundations of LLMs.md"
 abstract: "This paper focuses on characterizing variations in the value judgments of LLMs when presented with moral vignettes using Jonathan Haidt's Moral Foundations Theory (MFT), which decomposes moral intuitions into stable values: care, fairness, loyalty, authority, sanctity, and liberty."
 paper_summary: 
-local_pdf: "[[PDFs/2024-Kirgis-Differences in Moral Foundations of LLMs.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Kirgis-Differences in Moral Foundations of LLMs.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

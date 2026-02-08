@@ -28,8 +28,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Kasirzadeh-Characterizing AI Agents for Alignment and.md"
-local_pdf: "[[PDFs/2025-Kasirzadeh-Characterizing AI Agents for Alignment and.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Kasirzadeh-Characterizing AI Agents for Alignment and.md"
+local_pdf: "[[PDFs/2025/2025-Kasirzadeh-Characterizing AI Agents for Alignment and.pdf]]"
 ---
 # Characterizing AI Agents for Alignment and Governance
 

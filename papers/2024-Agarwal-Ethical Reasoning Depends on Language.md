@@ -32,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual ethical dilemmas across 6 languages"
 data_metrics: "Ethical consistency across languages"
-pdf_extract: "PDF Extracts/2024-Agarwal-Ethical Reasoning Depends on Language.md"
-local_pdf: "[[PDFs/2024-Agarwal-Ethical Reasoning Depends on Language.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Agarwal-Ethical Reasoning Depends on Language.md"
+local_pdf: "[[PDFs/2024/2024-Agarwal-Ethical Reasoning Depends on Language.pdf]]"
 normative_ethics_benchmark: Yes
 ---
 # Ethical Reasoning and Moral Value Alignment of LLMs Depend on the Language We Prompt Them In

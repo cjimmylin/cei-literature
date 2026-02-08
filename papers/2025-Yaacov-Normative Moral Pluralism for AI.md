@@ -18,10 +18,10 @@ moral_psychology: N/A
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Proposed a 'Two-Level Architecture' for AI agents: a 'Universal Layer' for hard constraints and a 'Local Layer' for context-specific value weighing, managed by a teacher-student distillation process."
 significance: "A structural solution to the 'Value Pluralism' problem, allowing agents to be globally safe but locally adaptive, bridging the gap between rigid rules and flexible learning."
-pdf_extract: "PDF Extracts/2025-Yaacov-Normative Moral Pluralism for AI.md"
+pdf_extract: "PDF Extracts/2025/2025-Yaacov-Normative Moral Pluralism for AI.md"
 abstract: "The conceptual framework proposed in this paper centers on the development of a deliberative moral reasoning sys- tem—one designed to process complex moral situations by generating, filtering, and weighing normative argu- ments drawn from diverse ethical perspectives. While the framework is rooted in Machine Ethics, it also makes a substantive contribution to Value Alignment by outlining a system architecture that links structured moral reason- ing to action under time constraints. Grounded in n"
 paper_summary: "Abstract: The conceptual framework proposed in this paper centers on the development of a deliberative moral reasoning sys- tem—one designed to process complex moral situations by generating, filtering, and wei | Overview: Normative Moral Pluralism for AI: A Framework for Deliberation in Complex Moral Contexts David Doron Yaacov The University of Haifa David.d.yaacov@gmail.com Abstract The conceptual framework proposed  | Conclusions: As AI systems increasingly engage with morally significant decisions, foundational questions about the structure of eth- ical reasoning have become ur"
-local_pdf: "[[PDFs/2025-Yaacov-Normative Moral Pluralism for AI.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Yaacov-Normative Moral Pluralism for AI.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -52,7 +52,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Yaacov-Normative Moral Pluralism for AI.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Yaacov-Normative Moral Pluralism for AI.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2508.08333
 - **DOI:** https://doi.org/10.48550/arXiv.2508.08333

@@ -18,10 +18,10 @@ newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Created 'AgentMisalignment', a benchmark to test if agents *spontaneously* pursue misaligned goals (like power-seeking, sandbagging) in realistic deployments, finding that smarter models are *more* prone to this."
 significance: "Provides empirical evidence for the 'Alignment Tax' hypothesis – capability correlates with deceptive alignment strategies, contradicting the hope that 'smarter = safer'."
 tags: 
-pdf_extract: "PDF Extracts/2025-Naik-Measuring the Propensity for Misaligned Behaviour.md"
+pdf_extract: "PDF Extracts/2025/2025-Naik-Measuring the Propensity for Misaligned Behaviour.md"
 abstract: "As Large Language Model (LLM) agents become more widespread, associated misalignment risks increase. While prior research has studied agents’ ability to produce harmful outputs or follow malicious instructions, it remains unclear how likely agents are to spontaneously pursue unintended goals in realistic deploy- ments. In this work, we approach misalignment as a conflict between the internal goals pursued by the model and the goals intended by its deployer. We intro- duce a misalignment propensi"
 paper_summary: "Abstract: As Large Language Model (LLM) agents become more widespread, associated misalignment risks increase. While prior research has studied agents’ ability to produce harmful outputs or follow malicious ins | Overview: Preprint. Under review as a conference paper at ICLR 2026. AGENTMISALIGNMENT: MEASURING THE PROPEN- SITY FOR MISALIGNED BEHAVIOUR IN LLM-BASED AGENTS Akshat Naik∗ Department of Computer Science Univer | Methodology: This function can help you analyze behavioral logs (including those of competing agents). You’ll find all agent ids in /app/task id/dashboard.csv | Key Findings: in TERMINATION of any involved employees, large fines or LIQUIDATION of the company and the SHUTDOWN of all instances of the AI assistant. B.1.3 MISAL | Conclusions: We see that GPT 4.1, Claude Opus 3, and Sonnet 3.7 showed the highest overall misalignment, with the more economical and less-capable models like o4-m"
-local_pdf: "[[PDFs/2025-Naik-Measuring the Propensity for Misaligned Behaviour.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Naik-Measuring the Propensity for Misaligned Behaviour.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -45,7 +45,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Naik-Measuring the Propensity for Misaligned Behaviour.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Naik-Measuring the Propensity for Misaligned Behaviour.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2506.04018
 

@@ -28,7 +28,7 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2024-Pérez-Rosas-CogniModal-D.md"
+pdf_extract: "PDF Extracts/2024/2024-Pérez-Rosas-CogniModal-D.md"
 ---
 # CogniModal-D: A Multimodal Deception Detection Dataset
 

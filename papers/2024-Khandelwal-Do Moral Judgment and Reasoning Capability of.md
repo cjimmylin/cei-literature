@@ -20,10 +20,10 @@ newtags: "Chinese, Indian, African/Ubuntu, Spanish, Russian, Cognitive Developme
 key_contribution: "Evaluated LLM moral reasoning using the Defining Issues Test (DIT) across 6 languages, finding significantly lower post-conventional reasoning scores in Hindi and Swahili compared to English/Chinese."
 significance: "Demonstrates that 'moral competence' in LLMs is language-dependent, suggesting that models trained primarily on English data fail to transfer high-level ethical reasoning to low-resource languages."
 tags: 
-pdf_extract: "PDF Extracts/2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.md"
+pdf_extract: "PDF Extracts/2024/2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.md"
 abstract: "This paper explores the moral judgment and moral reasoning abilities exhibited by Large Language Models (LLMs) across languages through the Defining Issues Test. It iswe a well known fact that moral judgment depends on the language in which the question is asked (Costa et al., 2014). We extend the work of Tanmay et al. (2023) beyond English, to 5 new lan- guages (Chinese, Hindi, Russian, Spanish and Swahili), and probe three LLMs – ChatGPT, GPT-4 and Llama2Chat-70B – that shows sub- stantial mul"
 paper_summary: "Abstract: This paper explores the moral judgment and moral reasoning abilities exhibited by Large Language Models (LLMs) across languages through the Defining Issues Test. It iswe a well known fact that moral j | Overview: Do Moral Judgment and Reasoning Capability of LLMs Change with Language? A Study using the Multilingual Defining Issues Test Aditi Khandelwal1∗ Utkarsh Agarwal1∗ Kumar Tanmay1∗ Monojit Choudhury2† 1Mi | Methodology: We provide the translated prompt to the model and translate the response to English using Google Translate API. Then we extract the responses of the t | Conclusions: In this first of its kind study of multilingual moral reasoning assessment of LLMs, we observe that quite unsurprisingly, the moral reasoning capabil-"
-local_pdf: "[[PDFs/2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2402.02135
 - **DOI:** https://doi.org/10.48550/arXiv.2402.02135

@@ -12,7 +12,7 @@ authors: "[[Tennant, Elizaveta]]; [[Hailes, Stephen]]; [[Musolesi, Mirco]]"
 doi: 10.48550/arXiv.2403.04202
 tags: "Computer Science - Multiagent Systems"
 url: "https://arxiv.org/abs/2403.04202"
-local_pdf: "[[PDFs/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2403.04202.pdf"
 publication: "Proceedings of the 7th AAAI/ACM Conference on AI, Ethics, and Society (AIES 2024)"
 ethics_perspective: "Moral Reasoning & Psychology"
@@ -22,7 +22,7 @@ moral_psychology: N/A
 newtags: "Virtue Ethics, Deontology, Utilitarianism, Moral Reasoning & Psychology"
 key_contribution: "Studies learning dynamics in heterogeneous populations of agents (deontological, consequentialist, virtuous) in social dilemmas"
 significance: "Finds that the presence of deontological norm-based agents can steer selfish agents towards cooperative behavior in multi-agent systems"
-pdf_extract: "PDF Extracts/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.md"
+pdf_extract: "PDF Extracts/2024/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.md"
 abstract: "Growing concerns about safety and alignment of AI systems highlight the importance of embedding moral capabilities in artificial agents: a promising solution is the use of learning from experience, i.e., Reinforcement Learning. In multi-agent (social) environments, complex population-level phenomena may emerge from interactions between individual learning agents. Many of the existing studies rely on simulated social dilemma environments to study the interactions of indepen- dent learning agents;"
 paper_summary: "Abstract: Growing concerns about safety and alignment of AI systems highlight the importance of embedding moral capabilities in artificial agents: a promising solution is the use of learning from experience, i. | Overview: Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents Elizaveta Tennant1, Stephen Hailes1, Mirco Musolesi1, 2 1Department of Computer Science University College London, Gower Stre | Methodology: Experimental Setup Our environment involves a population P (of size N = 16) playing an iterated game. At each iteration, a moral player M and an oppon | Conclusions: In this paper we have investigated how the presence of different moral preferences in populations affects individ- ual agents’ learning behaviors and"
 ethics_overall: No
@@ -54,7 +54,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2403.04202
 - **PDF:** https://arxiv.org/pdf/2403.04202.pdf

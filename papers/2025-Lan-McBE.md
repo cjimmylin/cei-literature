@@ -29,7 +29,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multi-task benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Lan-McBE.md"
+pdf_extract: "PDF Extracts/2025/2025-Lan-McBE.md"
 ---
 # McBE: A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models
 

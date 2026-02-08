@@ -14,8 +14,8 @@ first_author: "[[S. Farid]]"
 authors: "Farid, S., Lin, J., Chen, Z., Kumar, S., & Jurgens, D"
 url: "https://arxiv.org/abs/2509.21443"
 external_pdf: "https://arxiv.org/pdf/2509.21443.pdf"
-local_pdf: "[[PDFs/2026-Farid-One Model Many Morals Uncovering Cross-Linguistic Misalignments in.pdf]]"
-pdf_extract: "PDF Extracts/2026-Farid-One Model Many Morals Uncovering Cross-Linguistic Misalignments in.md"
+local_pdf: "[[PDFs/2026/2026-Farid-One Model Many Morals Uncovering Cross-Linguistic Misalignments in.pdf]]"
+pdf_extract: "PDF Extracts/2026/2026-Farid-One Model Many Morals Uncovering Cross-Linguistic Misalignments in.md"
 publication: ICLR 2026
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

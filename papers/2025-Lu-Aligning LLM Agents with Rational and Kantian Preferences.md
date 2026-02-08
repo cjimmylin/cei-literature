@@ -13,7 +13,7 @@ authors: "[[Lu, Wei]], [[Chen, Daniel L.]], [[Hansen, Christian B.]]"
 doi: 10.48550/arXiv.2507.20796
 tags: "Computer Science - Machine Learning"
 url: "https://arxiv.org/abs/2507.20796"
-local_pdf: "[[PDFs/2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences.pdf]]"
 pdf_extract: "[[PDF Extracts/2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences.md]]"
 external_pdf: "https://arxiv.org/pdf/2507.20796.pdf"
 publication: arXiv

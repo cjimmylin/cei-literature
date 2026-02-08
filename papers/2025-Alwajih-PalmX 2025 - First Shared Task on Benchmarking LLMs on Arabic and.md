@@ -12,8 +12,8 @@ first_author: "[[Fakhraddin Alwajih]]"
 authors: Fakhraddin Alwajih; Abdellah El Mekki; Hamdy Mubarak; Majd Hawasly; Abubakr Mohamed; Muhammad Abdul-Mageed
 url: "https://arxiv.org/abs/2509.02550"
 external_pdf: "https://arxiv.org/pdf/2509.02550.pdf"
-local_pdf: "[[PDFs/2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.pdf]]"
-pdf_extract: "PDF Extracts/2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md"
+local_pdf: "[[PDFs/2025/2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "No"

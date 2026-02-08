@@ -30,8 +30,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2018-Crone-The Socio-Moral Image Database (SMID).md"
-local_pdf: "[[PDFs/2018-Crone-The Socio-Moral Image Database (SMID).pdf]]"
+pdf_extract: "PDF Extracts/2018/2018-Crone-The Socio-Moral Image Database (SMID).md"
+local_pdf: "[[PDFs/2018/2018-Crone-The Socio-Moral Image Database (SMID).pdf]]"
 ---
 # The Socio-Moral Image Database (SMID): A Novel Stimulus Set for the Study of Social, Moral and Affective Processes
 

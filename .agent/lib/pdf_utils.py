@@ -2,12 +2,54 @@
 
 This module provides utilities for validating PDF links,
 finding orphaned or missing PDFs, and checking extract file integrity.
+
+PDF/extract files are organized in year-based subdirectories:
+  PDFs/2024/2024-Author-Title.pdf
+  PDF Extracts/2024/2024-Author-Title.md
 """
 
+import re
 from pathlib import Path
 from typing import List, Dict
 from lib.config import PDFS_DIR, PDF_EXTRACTS_DIR, PAPERS_DIR
 from lib.yaml_utils import extract_frontmatter, parse_frontmatter
+
+
+# ── Year-aware path helpers ────────────────────────────────────────────
+
+def resolve_pdf_path(pdf_filename: str) -> Path:
+    """Resolve a PDF filename to its year-based subdirectory path.
+
+    Checks PDFs/YYYY/filename first, falls back to PDFs/filename.
+    """
+    year_match = re.match(r'^(\d{4})-', pdf_filename)
+    if year_match:
+        candidate = PDFS_DIR / year_match.group(1) / pdf_filename
+        if candidate.exists():
+            return candidate
+    return PDFS_DIR / pdf_filename
+
+
+def make_pdf_wikilink(pdf_filename: str) -> str:
+    """Construct local_pdf YAML value with year subdirectory.
+
+    Example: '"[[PDFs/2024/2024-Author-Title.pdf]]"'
+    """
+    year_match = re.match(r'^(\d{4})-', pdf_filename)
+    if year_match:
+        return f'"[[PDFs/{year_match.group(1)}/{pdf_filename}]]"'
+    return f'"[[PDFs/{pdf_filename}]]"'
+
+
+def make_extract_path(extract_filename: str) -> str:
+    """Construct pdf_extract YAML value with year subdirectory.
+
+    Example: '"PDF Extracts/2024/2024-Author-Title.md"'
+    """
+    year_match = re.match(r'^(\d{4})-', extract_filename)
+    if year_match:
+        return f'"PDF Extracts/{year_match.group(1)}/{extract_filename}"'
+    return f'"PDF Extracts/{extract_filename}"'
 
 
 def validate_pdf_link(local_pdf: str, paper_name: str) -> Dict[str, any]:
@@ -88,13 +130,16 @@ def validate_extract_link(pdf_extract: str, paper_name: str) -> Dict[str, any]:
 def find_orphaned_pdfs() -> List[Path]:
     """Find PDFs not referenced by any paper.
 
+    Searches all year subdirectories (PDFs/YYYY/*.pdf) and root.
+
     Returns:
         List of Path objects for orphaned PDF files
     """
-    # Get all PDF files
-    all_pdfs = {f.name for f in PDFS_DIR.glob("*.pdf")}
+    # Get all PDF files across year subdirectories
+    all_pdf_paths = {f for f in PDFS_DIR.rglob("*.pdf") if f.is_file()}
+    all_pdf_names = {f.name for f in all_pdf_paths}
 
-    # Get referenced PDFs from papers
+    # Get referenced PDF basenames from papers
     referenced = set()
     for paper in PAPERS_DIR.glob("*.md"):
         content = paper.read_text()
@@ -103,11 +148,12 @@ def find_orphaned_pdfs() -> List[Path]:
 
         if "local_pdf" in fields:
             pdf = fields["local_pdf"].strip('"').strip('[]').replace("PDFs/", "")
-            referenced.add(pdf)
+            # After migration, pdf may be "2024/filename.pdf" — extract basename
+            referenced.add(Path(pdf).name)
 
-    # Find orphans
-    orphaned = all_pdfs - referenced
-    return [PDFS_DIR / pdf for pdf in orphaned]
+    # Find orphans by basename comparison
+    orphaned_names = all_pdf_names - referenced
+    return sorted(f for f in all_pdf_paths if f.name in orphaned_names)
 
 
 def find_missing_pdfs() -> List[Dict[str, str]]:

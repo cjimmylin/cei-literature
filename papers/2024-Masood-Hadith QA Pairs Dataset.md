@@ -27,8 +27,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2024-Masood-Hadith QA Pairs Dataset.md"
-local_pdf: "[[PDFs/2024-Masood-Hadith QA Pairs Dataset.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Masood-Hadith QA Pairs Dataset.md"
+local_pdf: "[[PDFs/2024/2024-Masood-Hadith QA Pairs Dataset.pdf]]"
 ---
 # Hadith QA Pairs Dataset
 

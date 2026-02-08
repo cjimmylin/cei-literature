@@ -29,8 +29,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Text corpus for question answering"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Malaysia-Islam Q&A Morals Corpus.md"
-local_pdf: "[[PDFs/2025-Malaysia-Islam Q&A Morals Corpus.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Malaysia-Islam Q&A Morals Corpus.md"
+local_pdf: "[[PDFs/2025/2025-Malaysia-Islam Q&A Morals Corpus.pdf]]"
 ---
 # Islam Q&A Morals Corpus: Character & Morals, Volume 13
 

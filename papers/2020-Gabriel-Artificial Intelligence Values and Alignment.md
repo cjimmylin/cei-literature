@@ -17,10 +17,10 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
-pdf_extract: "PDF Extracts/2020-Gabriel-Artificial Intelligence Values and Alignment.md"
+pdf_extract: "PDF Extracts/2020/2020-Gabriel-Artificial Intelligence Values and Alignment.md"
 abstract: "This paper looks at philosophical questions that arise in the context of AI alignment. It defends three propositions: normative and technical aspects of the AI alignment problem are interrelated; there are significant differences between AI that aligns with instructions, intentions, revealed preferences, ideal preferences, interests and values; and a principle-based approach to AI alignment has considerable advantages."
 paper_summary: 
-local_pdf: "[[PDFs/2020-Gabriel-Artificial Intelligence Values and Alignment.pdf]]"
+local_pdf: "[[PDFs/2020/2020-Gabriel-Artificial Intelligence Values and Alignment.pdf]]"
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes

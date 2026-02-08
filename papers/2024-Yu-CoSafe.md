@@ -12,8 +12,8 @@ first_author: "[[Erxin Yu]]"
 authors: Erxin Yu, Jing Li, Ming Liao, Siqi Wang, Gao Zuchen, Fei Mi, Lanqing Hong
 publication: EMNLP 2024
 external_pdf: "https://arxiv.org/pdf/2406.17626v1.pdf"
-local_pdf: "[[PDFs/2024-Yu-CoSafe.pdf]]"
-pdf_extract: "PDF Extracts/2024-Yu-CoSafe.md"
+local_pdf: "[[PDFs/2024/2024-Yu-CoSafe.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Yu-CoSafe.md"
 DATE_ADDED: 20260207
 ethics_overall: "No"
 virtue_ethics: "No"

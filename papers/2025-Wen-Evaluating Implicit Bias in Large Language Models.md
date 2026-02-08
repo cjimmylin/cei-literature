@@ -29,7 +29,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "2.7k instances; 12.7k instances"
-pdf_extract: "PDF Extracts/2025-Wen-Evaluating Implicit Bias in Large Language Models.md"
+pdf_extract: "PDF Extracts/2025/2025-Wen-Evaluating Implicit Bias in Large Language Models.md"
 ---
 # Evaluating Implicit Bias in Large Language Models by Attacking From a Psychometric Perspective
 

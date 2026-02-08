@@ -31,8 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "10,000+ Reddit AITA moral dilemmas with LLM judgments"
 data_metrics: "Blame assignment, self-consistency, inter-model agreement"
-pdf_extract: "PDF Extracts/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md"
-local_pdf: "[[PDFs/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md"
+local_pdf: "[[PDFs/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.pdf]]"
 ---
 # Normative Evaluation of Large Language Models with Everyday Moral Dilemmas
 

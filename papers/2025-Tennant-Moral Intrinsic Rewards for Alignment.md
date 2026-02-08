@@ -20,10 +20,10 @@ newtags: "Utilitarianism, Deontology, Intrinsic Rewards, RL"
 key_contribution: "Introduces intrinsic reward functions encoding deontological and utilitarian ethics for RL"
 significance: "Proposes transparent alternative to RLHF using explicit ethical frameworks"
 tags: 
-pdf_extract: "PDF Extracts/2025-Tennant-Moral Intrinsic Rewards for Alignment.md"
+pdf_extract: "PDF Extracts/2025/2025-Tennant-Moral Intrinsic Rewards for Alignment.md"
 abstract: "The paper introduces intrinsic reward functions that explicitly encode core human values for automated Reinforcement Learning-based fine-tuning of foundation agent models. As an initial implementation, the paper evaluates training using the traditional philosophical frameworks of Deontological Ethics and Utilitarianism, quantifying moral rewards for agents in terms of actions and consequences on the Iterated Prisoner's Dilemma environment...."
 paper_summary: 
-local_pdf: "[[PDFs/2025-Tennant-Moral Intrinsic Rewards for Alignment.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Tennant-Moral Intrinsic Rewards for Alignment.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -50,7 +50,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Tennant-Moral Intrinsic Rewards for Alignment.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Tennant-Moral Intrinsic Rewards for Alignment.pdf|Open PDF]]
 
 - **URL:** https://openreview.net/forum?id=ZFk4eh0WcL
 - **DOI:** https://doi.org/N/A

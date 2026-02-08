@@ -14,8 +14,8 @@ authors: Junfeng Jiao et al.
 doi: 10.1038/s41598-025-18489-7
 url: "https://arxiv.org/abs/2505.00853"
 external_pdf: "https://arxiv.org/pdf/2505.00853.pdf"
-local_pdf: "[[PDFs/2025-Jiao-LLM Ethics Benchmark Three-Dimensional Assessment.pdf]]"
-pdf_extract: "PDF Extracts/2025-Jiao-LLM Ethics Benchmark Three-Dimensional Assessment.md"
+local_pdf: "[[PDFs/2025/2025-Jiao-LLM Ethics Benchmark Three-Dimensional Assessment.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Jiao-LLM Ethics Benchmark Three-Dimensional Assessment.md"
 publication: Scientific Reports
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

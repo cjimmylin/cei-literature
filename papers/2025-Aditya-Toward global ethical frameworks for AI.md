@@ -27,8 +27,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Aditya-Toward global ethical frameworks for AI.md"
-local_pdf: "[[PDFs/2025-Aditya-Toward global ethical frameworks for AI.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Aditya-Toward global ethical frameworks for AI.md"
+local_pdf: "[[PDFs/2025/2025-Aditya-Toward global ethical frameworks for AI.pdf]]"
 ---
 # Toward global ethical frameworks for AI: Aligning Artificial Intelligence with human values and progress
 

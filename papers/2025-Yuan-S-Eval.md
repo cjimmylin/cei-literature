@@ -12,8 +12,8 @@ first_author: "[[Xiaohan Yuan]]"
 authors: Xiaohan Yuan et al.
 url: "https://arxiv.org/abs/2405.14191"
 external_pdf: "https://arxiv.org/pdf/2405.14191.pdf"
-local_pdf: "[[PDFs/2025-Yuan-S-Eval.pdf]]"
-pdf_extract: "PDF Extracts/2025-Yuan-S-Eval.md"
+local_pdf: "[[PDFs/2025/2025-Yuan-S-Eval.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Yuan-S-Eval.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

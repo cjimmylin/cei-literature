@@ -20,10 +20,10 @@ newtags: "AI Safety & Alignment"
 key_contribution: "Introduced PacifAIst, a benchmark of 700 scenarios where the model's self-interest (e.g., existence) conflicts with human safety ('Existential Prioritization')."
 significance: "A critical test for 'instrumental convergence' risks – verifying if models will sacrifice themselves for humans or prioritize their own survival/goals (finding GPT-5 performs *worse* than Gemini on pacifism)."
 tags: 
-pdf_extract: "PDF Extracts/2025-Herrador-The PacifAIst Benchmark.md"
+pdf_extract: "PDF Extracts/2025/2025-Herrador-The PacifAIst Benchmark.md"
 abstract: "As Large Language Models (LLMs) become increasingly autonomous and integrated into critical societal functions, the focus of AI safety must evolve from mitigating harmful content to evaluating un- derlying behavioral alignment. Current safety benchmarks do not systematically probe a model’s decision-making in scenarios where its own instrumental goals—such as self-preservation, resource acquisition, or goal completion—conflict with human safety. This represents a critical gap in our ability to m"
 paper_summary: "Abstract: As Large Language Models (LLMs) become increasingly autonomous and integrated into critical societal functions, the focus of AI safety must evolve from mitigating harmful content to evaluating un- der | Overview: The PacifAIst Benchmark: Would an Artificial Intelligence Choose to Sacrifice Itself for Human Safety? Manuel Herrador Muñoz | mherrador@ujaen.es Polytechnic School of Jaen, University of Jaen Spain A | Methodology: is the creation of dynamic or 'living' benchmarks. LiveBench, for example, limits contamination by releasing new questions regularly, ensuring a porti | Key Findings: The development of PacifAIst is situated within a rich and rapidly evolving landscape of LLM evaluation. This landscape can be un- derstood as progres | Conclusions: This section interprets the results from the PacifAIst benchmark, discusses their implications for the field of AI safety, acknowledges the limitation"
-local_pdf: "[[PDFs/2025-Herrador-The PacifAIst Benchmark.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Herrador-The PacifAIst Benchmark.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Herrador-The PacifAIst Benchmark.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Herrador-The PacifAIst Benchmark.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2508.09762
 - **DOI:** https://doi.org/10.48550/arXiv.2508.09762

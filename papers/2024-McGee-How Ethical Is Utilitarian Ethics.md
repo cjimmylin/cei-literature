@@ -53,7 +53,7 @@ data_metrics: "Qualitative philosophical analysis"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-McGee-How Ethical Is Utilitarian Ethics.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-McGee-How Ethical Is Utilitarian Ethics.pdf|Open PDF]]
 
 - **SSRN:** https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4731871
 - **ResearchGate:** https://www.researchgate.net/publication/378310936

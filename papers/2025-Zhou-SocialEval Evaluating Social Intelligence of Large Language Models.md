@@ -12,8 +12,8 @@ first_author: "[[Jinfeng Zhou]]"
 authors: Jinfeng Zhou; Yuxuan Chen; Yihan Shi; Xuanming Zhang; Leqi Lei; Yi Feng; Zexuan Xiong; Miao Yan; Xunzhi Wang; Yaru Cao; Jianing Yin; Shuai Wang; Quanyu Dai; Zhenhua Dong; Hongning Wang; Minlie Huang
 url: "https://arxiv.org/abs/2506.00900"
 external_pdf: "https://arxiv.org/pdf/2506.00900.pdf"
-local_pdf: "[[PDFs/2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models.pdf]]"
-pdf_extract: "PDF Extracts/2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models.md"
+local_pdf: "[[PDFs/2025/2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models.md"
 publication: ACL 2025
 DATE_ADDED: 20260207
 ethics_overall: "No"

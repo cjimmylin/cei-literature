@@ -27,8 +27,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Aggarwal-Letta Leaderboard.md"
-local_pdf: "[[PDFs/2025-Aggarwal-Letta Leaderboard.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Aggarwal-Letta Leaderboard.md"
+local_pdf: "[[PDFs/2025/2025-Aggarwal-Letta Leaderboard.pdf]]"
 ---
 # Letta Leaderboard: Benchmarking Agentic Memory in LLMs
 

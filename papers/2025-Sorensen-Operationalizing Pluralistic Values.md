@@ -13,7 +13,7 @@ authors: "[[Sorensen, Taylor]]"
 doi: 10.48550/arXiv.2511.14476
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2511.14476"
-local_pdf: "[[PDFs/2025-Sorensen-Operationalizing Pluralistic Values.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Sorensen-Operationalizing Pluralistic Values.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2511.14476.pdf"
 publication: arXiv
 ethics_perspective: "Value Pluralism"
@@ -33,7 +33,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Pluralistic alignment evaluation"
 data_metrics: "Safety-inclusivity trade-off metrics"
-pdf_extract: "PDF Extracts/2025-Sorensen-Operationalizing Pluralistic Values.md"
+pdf_extract: "PDF Extracts/2025/2025-Sorensen-Operationalizing Pluralistic Values.md"
 normative_ethics_benchmark: Borderline
 ---
 # Operationalizing Pluralistic Values in Large Language Model Alignment Reveals Trade-offs in Safety, Inclusivity, and Model Behavior

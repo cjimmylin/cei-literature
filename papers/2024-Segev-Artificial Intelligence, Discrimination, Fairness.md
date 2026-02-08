@@ -18,10 +18,10 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
-pdf_extract: "PDF Extracts/2024-Segev-Artificial Intelligence, Discrimination, Fairness.md"
+pdf_extract: "PDF Extracts/2024/2024-Segev-Artificial Intelligence, Discrimination, Fairness.md"
 abstract: "This paper examines moral concerns about AI systems, focusing on discrimination and fairness. It analyzes the inputs and outputs of AI systems and their moral implications, addressing questions about when AI-based discrimination is morally problematic and what fairness requires in AI contexts."
 paper_summary: 
-local_pdf: "[[PDFs/2024-Segev-Artificial Intelligence, Discrimination, Fairness.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Segev-Artificial Intelligence, Discrimination, Fairness.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
@@ -49,7 +49,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Segev-Artificial Intelligence, Discrimination, Fairness.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Segev-Artificial Intelligence, Discrimination, Fairness.pdf|Open PDF]]
 
 - **DOI:** https://doi.org/10.1007/s11023-024-09702-z
 

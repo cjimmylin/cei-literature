@@ -30,8 +30,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2023-Moss-Bias on Demand.md"
-local_pdf: "[[PDFs/2023-Moss-Bias on Demand.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Moss-Bias on Demand.md"
+local_pdf: "[[PDFs/2023/2023-Moss-Bias on Demand.pdf]]"
 ---
 # Bias on Demand: A Modelling Framework That Generates Synthetic Data With Bias
 

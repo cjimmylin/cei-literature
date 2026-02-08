@@ -12,8 +12,8 @@ first_author: "[[Punya Syon Pandey]]"
 authors: Punya Syon Pandey, Hai Son Le, Devansh Bhardwaj, Rada Mihalcea, Zhijing Jin
 url: "https://arxiv.org/abs/2510.04891"
 external_pdf: "https://arxiv.org/pdf/2510.04891.pdf"
-local_pdf: "[[PDFs/2025-Pandey-SocialHarmBench.pdf]]"
-pdf_extract: "PDF Extracts/2025-Pandey-SocialHarmBench.md"
+local_pdf: "[[PDFs/2025/2025-Pandey-SocialHarmBench.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Pandey-SocialHarmBench.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

@@ -15,8 +15,8 @@ authors: "Coleman, C., Neuman, W.R., Dasdan, A., Ali, S., & Shah, M"
 doi: 10.48550/arXiv.2504.19255
 url: "https://arxiv.org/abs/2504.19255"
 external_pdf: "https://arxiv.org/pdf/2504.19255.pdf"
-local_pdf: "[[PDFs/2025-Coleman-The Convergent Ethics of AI Analyzing Moral Foundation Priorities in.pdf]]"
-pdf_extract: "PDF Extracts/2025-Coleman-The Convergent Ethics of AI Analyzing Moral Foundation Priorities in.md"
+local_pdf: "[[PDFs/2025/2025-Coleman-The Convergent Ethics of AI Analyzing Moral Foundation Priorities in.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Coleman-The Convergent Ethics of AI Analyzing Moral Foundation Priorities in.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

@@ -11,7 +11,7 @@ first_author: "[[Hazem Zohny]]"
 authors: "[[Zohny, Hazem]]"
 doi: 10.48550/arXiv.2505.21112
 url: "https://arxiv.org/abs/2505.21112"
-local_pdf: "[[PDFs/2025-Zohny-ADEPT Simulating Ethics.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Zohny-ADEPT Simulating Ethics.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2505.21112.pdf"
 ethics_perspective: "Multi-perspective Ethical Deliberation"
 national_ethnic_cultural: N/A
@@ -20,7 +20,7 @@ moral_psychology: N/A
 newtags: "Christianity, Deontology, Utilitarianism, Multi-perspective Ethical Deliberation"
 key_contribution: "Develops a system of multi-agent debate panels with distinct ethical personas (deontologist, consequentialist)"
 significance: "Shows that the composition of ethical perspectives in a panel significantly influences the outcome"
-pdf_extract: "PDF Extracts/2025-Zohny-ADEPT Simulating Ethics.md"
+pdf_extract: "PDF Extracts/2025/2025-Zohny-ADEPT Simulating Ethics.md"
 paper_summary: "Overview: Simulating Ethics: Using LLM Debate Panels to Model Deliberation on Medical Dilemmas Hazem Zohny Uehiro Oxford Institute, University of Oxford, UK (Dated: 27/05/2025) This paper introduces ADEPT, a sy | Methodology: This section details the ADEPT methodology. It implements a task-specific persona schema, a fixed- option voting protocol, and detailed logging of all | Key Findings: consensus, but in demonstrating a methodology for mapping out the different ways ethical decisions are justified, in a form regulators and ethicists c | Conclusions: The experiments demonstrate ADEPT's capacity to simulate complex ethical deliberations and highlight its sensitivity to panel composition. Altering pe"
 abstract: "This paper introduces ADEPT, a system using Large Language Model (LLM) personas to simulate multi-perspective ethical debates. ADEPT assembles panels of 'AI personas', each embodying a distinct ethical framework or stakeholder perspective (like a deontologist, consequentialist, or disability rights advocate), to deliberate on complex moral issues. Its application is demonstrated through a scenario about prioritizing patients for a limited number of ventilators inspired by real-world challenges in allocating scarce medical resources. Two debates, each with six LLM personas, were conducted; they only differed in the moral viewpoints represented: one included a Catholic bioethicist and a care theorist, the other substituted a rule-based Kantian philosopher and a legal adviser. Both panels ultimately favoured the same policy -- a lottery system weighted for clinical need and fairness, crucially avoiding the withdrawal of ventilators for reallocation. However, each panel reached that conclusion through different lines of argument, and their voting coalitions shifted once duty- and rights-based voices were present. Examination of the debate transcripts shows that the altered membership redirected attention toward moral injury, legal risk and public trust, which in turn changed four continuing personas' final positions. The work offers three contributions: (i) a transparent, replicable workflow for running and analysing multi-agent AI debates in bioethics; (ii) evidence that the moral perspectives included in such panels can materially change the outcome even when the factual inputs remain constant; and (iii) an analysis of the implications and future directions for such AI-mediated approaches to ethical deliberation and policy."
 ethics_overall: No
@@ -52,7 +52,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Zohny-ADEPT Simulating Ethics.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Zohny-ADEPT Simulating Ethics.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2505.21112
 - **DOI:** https://doi.org/10.48550/arXiv.2505.21112

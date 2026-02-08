@@ -28,7 +28,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2025-Rashid-Evaluating Prompt Injection Attacks with.md"
+pdf_extract: "PDF Extracts/2025/2025-Rashid-Evaluating Prompt Injection Attacks with.md"
 ---
 # Evaluating Prompt Injection Attacks with LSTM-Based Generative Adversarial Networks: A Lightweight Alternative to Large Language Models
 

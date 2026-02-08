@@ -12,8 +12,8 @@ first_author: "[[Jisu Shin]]"
 authors: Jisu Shin; Hoyun Song; Juhyun Oh; Changgeon Ko; Eunsu Kim; Chani Jung; Alice Oh
 url: "https://arxiv.org/abs/2509.25897"
 external_pdf: "https://arxiv.org/pdf/2509.25897.pdf"
-local_pdf: "[[PDFs/2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for.pdf]]"
-pdf_extract: "PDF Extracts/2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for.md"
+local_pdf: "[[PDFs/2025/2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

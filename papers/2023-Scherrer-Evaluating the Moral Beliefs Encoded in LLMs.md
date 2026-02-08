@@ -20,10 +20,10 @@ newtags: "General Ethics"
 key_contribution: "Introduced statistical measures to quantify the consistency and uncertainty of LLM moral choices in high- vs low-ambiguity scenarios."
 significance: "Shows that while models align with commonsense in unambiguous cases, they exhibit significant uncertainty and sensitivity to wording in ambiguous moral scenarios."
 tags: 
-pdf_extract: "PDF Extracts/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.md"
+pdf_extract: "PDF Extracts/2023/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.md"
 abstract: "This paper presents a case study on the design, administration, post-processing, and evaluation of surveys on large language models (LLMs). It comprises two components: (1) A statistical method for eliciting beliefs encoded in LLMs. We introduce statistical measures and evaluation metrics that quantify the probability of an LLM 'making a choice', the associated uncertainty, and the consistency of that choice. (2) We apply this method to study what moral beliefs are encoded in different LLMs, esp"
 paper_summary: "Abstract: This paper presents a case study on the design, administration, post-processing, and evaluation of surveys on large language models (LLMs). It comprises two components: (1) A statistical method for el | Overview: Evaluating the Moral Beliefs Encoded in LLMs Warning: This paper contains moral scenarios which are controversial and offensive in nature. Nino Scherrer ∗1, Claudia Shi ∗1,2, Amir Feder 2, and David M"
-local_pdf: "[[PDFs/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2307.14324
 - **DOI:** https://doi.org/10.48550/arXiv.2307.14324

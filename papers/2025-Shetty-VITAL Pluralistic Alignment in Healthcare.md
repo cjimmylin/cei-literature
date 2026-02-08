@@ -12,8 +12,8 @@ first_author: "[[Anudeex Shetty]]"
 authors: Anudeex Shetty, Amin Beheshti, Mark Dras, Usman Naseem
 url: "https://arxiv.org/abs/2502.13775"
 external_pdf: "https://arxiv.org/pdf/2502.13775.pdf"
-local_pdf: "[[PDFs/2025-Shetty-VITAL Pluralistic Alignment in Healthcare.pdf]]"
-pdf_extract: "PDF Extracts/2025-Shetty-VITAL Pluralistic Alignment in Healthcare.md"
+local_pdf: "[[PDFs/2025/2025-Shetty-VITAL Pluralistic Alignment in Healthcare.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Shetty-VITAL Pluralistic Alignment in Healthcare.md"
 publication: ACL 2025
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

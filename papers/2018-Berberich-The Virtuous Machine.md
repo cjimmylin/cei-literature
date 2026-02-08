@@ -9,7 +9,7 @@ first_author: "[[Nicolas Berberich]]"
 authors: "[[Berberich, Nicolas]]; [[Diepold, Klaus]]"
 doi: N/A
 url: "https://arxiv.org/abs/1806.10322"
-local_pdf: "[[PDFs/2018-Berberich-The Virtuous Machine.pdf]]"
+local_pdf: "[[PDFs/2018/2018-Berberich-The Virtuous Machine.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
@@ -18,7 +18,7 @@ key_contribution: "Proposes imitation learning from moral exemplars (virtue ethi
 significance: "Early influential work connecting Aristotelian virtue ethics with modern machine learning approaches"
 external_pdf: "https://arxiv.org/pdf/1806.10322"
 abstract: "Modern AI and robotic systems are characterized by a high and ever-increasing level of autonomy, with applications in fields such as autonomous driving, service robotics, and digital personal assistants moving closer to humans. From this combination emerges the field of AI ethics which recognizes that the actions of autonomous machines entail moral dimensions. The authors argue for taking inspiration from Aristotelian virtue ethics by showing that it forms a suitable combination with modern AI due to its focus on learning from experience. The paper proposes that imitation learning from moral exemplars, a central concept in virtue ethics, can solve the value alignment problem. Additionally, the authors argue that an intelligent system endowed with the virtues of temperance and friendship to humans would not pose a control problem as it would not have the desire for limitless self-improvement."
-pdf_extract: "PDF Extracts/2018-Berberich-The Virtuous Machine.md"
+pdf_extract: "PDF Extracts/2018/2018-Berberich-The Virtuous Machine.md"
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No

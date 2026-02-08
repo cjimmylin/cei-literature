@@ -12,8 +12,8 @@ first_author: "[[Jackson Trager]]"
 authors: Jackson Trager et al.
 url: "https://arxiv.org/abs/2506.19073"
 external_pdf: "https://arxiv.org/pdf/2506.19073.pdf"
-local_pdf: "[[PDFs/2025-Trager-MFTCXplain A Multilingual Benchmark Dataset for Evaluating the Moral.pdf]]"
-pdf_extract: "PDF Extracts/2025-Trager-MFTCXplain A Multilingual Benchmark Dataset for Evaluating the Moral.md"
+local_pdf: "[[PDFs/2025/2025-Trager-MFTCXplain A Multilingual Benchmark Dataset for Evaluating the Moral.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Trager-MFTCXplain A Multilingual Benchmark Dataset for Evaluating the Moral.md"
 publication: EMNLP 2025
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

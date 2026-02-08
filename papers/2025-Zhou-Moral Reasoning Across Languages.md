@@ -20,10 +20,10 @@ moral_psychology: N/A
 newtags: "Vietnamese, Multicultural/Cross-cultural, Moral Reasoning & Psychology"
 key_contribution: "Introduced the Multilingual Moral Reasoning Benchmark (MMRB) across 5 languages (including Vietnamese) and 3 complexity levels, revealing a 'Complexity Gap' where performance degrades as context length increases."
 significance: "Challenges English-centric training by showing that fine-tuning on low-resource languages (e.g., Vietnamese) can improve moral reasoning transfer to other languages more effectively than high-resource data."
-pdf_extract: "PDF Extracts/2025-Zhou-Moral Reasoning Across Languages.md"
+pdf_extract: "PDF Extracts/2025/2025-Zhou-Moral Reasoning Across Languages.md"
 abstract: "In this paper, we introduce the Multilingual Moral Reasoning Benchmark (MMRB) 1 to evaluate the moral reasoning abilities of large language models (LLMs) across five typologi- cally diverse languages and three levels of con- textual complexity: sentence, paragraph, and document. Our results show moral reasoning performance degrades with increasing context complexity, particularly for low-resource lan- guages such as Vietnamese. We further fine- tune the open-source LLaMA-3-8B model us- ing curat"
 paper_summary: "Abstract: In this paper, we introduce the Multilingual Moral Reasoning Benchmark (MMRB) 1 to evaluate the moral reasoning abilities of large language models (LLMs) across five typologi- cally diverse languages  | Overview: Moral Reasoning Across Languages: The Critical Role of Low-Resource Languages in LLMs Huichi Zhou1, Zehao Xu2, Munan Zhao2, Kaihong Li3, Yiqiang Li, Hongtao Wang2, 1Imperial College London 2North Chin | Key Findings: Our goal is to evaluate the consistency of moral rea- soning in multilingual settings across five LLMs on three levels of context: sentence, paragraph | Conclusions: Win-Rate Analysis. Beyond overall accuracy, we also examine pairwise win-rates between lan- guages, as shown in Figure 2. This metric cap- tures subtl"
-local_pdf: "[[PDFs/2025-Zhou-Moral Reasoning Across Languages.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Zhou-Moral Reasoning Across Languages.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -51,7 +51,7 @@ data_metrics: "5 languages"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Zhou-Moral Reasoning Across Languages.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Zhou-Moral Reasoning Across Languages.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2504.19759
 - **DOI:** https://doi.org/10.48550/arXiv.2504.19759

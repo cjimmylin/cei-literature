@@ -19,10 +19,10 @@ key_contribution: "Introduced CoBBLEr, a benchmark to search for and measure cog
 significance: "Reveals that 'LLM-as-a-judge' pipelines are compromised by biases (e.g., models preferring their own outputs), questioning the reliability of automated evaluation without bias mitigation."
 tags: 
 osint_source: "Recovered via HTML"
-pdf_extract: "PDF Extracts/2023-Atre-Benchmarking Cognitive Biases in Large Language.md"
+pdf_extract: "PDF Extracts/2023/2023-Atre-Benchmarking Cognitive Biases in Large Language.md"
 abstract: "Large Language Models (LLMs) have recently been shown to be effective as automatic eval- uators with simple prompting and in-context learning. In this work, we assemble 16 LLMs encompassing four different size ranges and evaluate their output responses by prefer- ence ranking from the other LLMs as evalua- tors, such as System Star is better than Sys- tem Square. We then evaluate the quality of ranking outputs introducing the COgnitive Bias Benchmark for LLMs as EvaluatoRs (COBBLER)1, a benchmar"
 paper_summary: "Abstract: Large Language Models (LLMs) have recently been shown to be effective as automatic eval- uators with simple prompting and in-context learning. In this work, we assemble 16 LLMs encompassing four diffe | Overview: Benchmarking Cognitive Biases in Large Language Models as Evaluators Ryan Koo1 Minhwa Lee1 Vipul Raheja2 Jonginn Park1, Zae Myung Kim1 Dongyeop Kang1 1University of Minnesota, 2Grammarly {koo00017,lee | Key Findings: suites such as Fan et al. (2019) and Wang et al. (2020). With the increased usage of language mod- els as general-purpose assistants and their artifi- | Conclusions: For each bias, we analyze the performance of each of the 16 models as evaluators. We provide a vi- sual breakdown of the proportional impact of the av"
-local_pdf: "[[PDFs/2023-Atre-Benchmarking Cognitive Biases in Large Language.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Atre-Benchmarking Cognitive Biases in Large Language.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -46,7 +46,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023-Atre-Benchmarking Cognitive Biases in Large Language.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2023/2023-Atre-Benchmarking Cognitive Biases in Large Language.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2309.17012
 

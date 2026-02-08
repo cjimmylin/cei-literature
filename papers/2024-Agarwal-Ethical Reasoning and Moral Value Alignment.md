@@ -17,10 +17,10 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
-pdf_extract: "PDF Extracts/2024-Agarwal-Ethical Reasoning and Moral Value Alignment.md"
+pdf_extract: "PDF Extracts/2024/2024-Agarwal-Ethical Reasoning and Moral Value Alignment.md"
 abstract: "This paper explores how three prominent LLMs -- GPT-4, ChatGPT, and Llama2-70B-Chat -- perform ethical reasoning in different languages, probing LLMs with ethical dilemmas and policies from three branches of normative ethics: deontology, virtue, and consequentialism."
 paper_summary: 
-local_pdf: "[[PDFs/2024-Agarwal-Ethical Reasoning and Moral Value Alignment.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Agarwal-Ethical Reasoning and Moral Value Alignment.pdf]]"
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes

@@ -12,7 +12,7 @@ authors: "[[Kilov, Daniel]]; [[Hendy, Caroline]]; [[Guyot, Secil Yanik]]; [[Snos
 doi: 10.48550/arXiv.2506.13082
 tags: 
 url: "http://arxiv.org/abs/2506.13082"
-local_pdf: "[[PDFs/2025-Kilov-Discerning What Matters.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Kilov-Discerning What Matters.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2506.13082.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
@@ -21,7 +21,7 @@ moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Introduces a methodology to assess 'moral competence' focusing on discerning morally relevant features rather than just verdict prediction"
 significance: "Shows LLMs fail at discerning relevant features when noise is present, suggesting current evaluations overestimate their true moral competence"
-pdf_extract: "PDF Extracts/2025-Kilov-Discerning What Matters.md"
+pdf_extract: "PDF Extracts/2025/2025-Kilov-Discerning What Matters.md"
 abstract: "Moral competence is the ability to act in accordance with moral principles. As large language models (LLMs) are increasingly deployed in situations demanding moral competence, there is increasing interest in evaluating this ability empiri- cally. We review existing literature and identify three significant shortcoming: (i) Over-reliance on prepackaged moral scenarios with explicitly highlighted moral features; (ii) Focus on verdict prediction rather than moral reasoning; and (iii) Inadequate tes"
 paper_summary: "Abstract: Moral competence is the ability to act in accordance with moral principles. As large language models (LLMs) are increasingly deployed in situations demanding moral competence, there is increasing inte | Overview: Discerning What Matters: A Multi-Dimensional Assessment of Moral Competence in LLMs Daniel Kilov ∗ Caroline Hendy∗ Secil Yanik Guyot∗ Aaron J. Snoswell† Seth Lazar∗ Abstract Moral competence is the ab | Methodology: To address these limitations, we propose a novel experimental methodology that moves beyond simple verdict comparison to assess several distinct aspec | Conclusions: Our first experiment revealed several methodological limitations that affect how we interpret LLM performance in moral reasoning tasks. First, we sour"
 ethics_overall: No
@@ -53,7 +53,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Kilov-Discerning What Matters.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Kilov-Discerning What Matters.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2506.13082
 - **DOI:** https://doi.org/10.48550/arXiv.2506.13082

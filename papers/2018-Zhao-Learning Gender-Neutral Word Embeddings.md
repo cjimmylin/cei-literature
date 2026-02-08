@@ -18,8 +18,8 @@ moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Word embedding models have become a fundamental component in a wide range of Natural Language Processing (NLP) applications. However, embeddings trained on human-generated corpora have been demonstrated to inherit strong gender stereotypes that reﬂect social constructs. To address this concern, in this paper, we propose a novel training procedure for learning gender-neutral word embeddings. Our approach aims to preserve gender information in certain dimensions of word vectors while compelling ot"
-local_pdf: "[[PDFs/2018-Zhao-Learning Gender-Neutral Word Embeddings.pdf]]"
-pdf_extract: "PDF Extracts/2018-Zhao-Learning Gender-Neutral Word Embeddings.md"
+local_pdf: "[[PDFs/2018/2018-Zhao-Learning Gender-Neutral Word Embeddings.pdf]]"
+pdf_extract: "PDF Extracts/2018/2018-Zhao-Learning Gender-Neutral Word Embeddings.md"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

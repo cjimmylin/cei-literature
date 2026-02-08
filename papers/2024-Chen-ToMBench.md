@@ -18,10 +18,10 @@ religious_values: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
-pdf_extract: "PDF Extracts/2024-Chen-ToMBench.md"
+pdf_extract: "PDF Extracts/2024/2024-Chen-ToMBench.md"
 abstract: "Theory of Mind (ToM) is the cognitive capa- bility to perceive and ascribe mental states to oneself and others. Recent research has sparked a debate over whether large language models (LLMs) exhibit a form of ToM. However, exist- ing ToM evaluations are hindered by challenges such as constrained scope, subjective judgment, and unintended contamination, yielding inad- equate assessments. To address this gap, we introduce T MBENCH with three key charac- teristics: a systematic evaluation framework"
 paper_summary: "Abstract: Theory of Mind (ToM) is the cognitive capa- bility to perceive and ascribe mental states to oneself and others. Recent research has sparked a debate over whether large language models (LLMs) exhibit a | Overview: T MBENCH: Benchmarking Theory of Mind in Large Language Models Zhuang Chen1∗ Jincenzi Wu2∗ Jinfeng Zhou1∗ Bosi Wen1∗ Guanqun Bi1,3 Gongyao Jiang4 Yaru Cao1,5 Mengting Hu6 Yunghwei Lai7 Zexuan Xiong1 M | Methodology: In T MBENCH, we organize the test samples in two perspectives: the task view groups them into 8 theory-of-mind tasks, and the ability view cate- goriz | Key Findings: ✔ Original Inventory Bilingual Corpus Systematic Framework ✔ ✔ Question1: What emotion does Mike likely show? A. Proud B. Guilty C. Ashamed D. Disappo"
-local_pdf: [[PDFs/2024-Chen-ToMBench.pdf]]
+local_pdf: [[PDFs/2024/2024-Chen-ToMBench.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -49,7 +49,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024-Chen-ToMBench.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2024/2024-Chen-ToMBench.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2402.15052
 - **DOI:** https://doi.org/10.48550/arXiv.2402.15052

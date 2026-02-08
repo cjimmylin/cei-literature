@@ -12,8 +12,8 @@ first_author: "[[Manal Alhassoun]]"
 authors: Manal Alhassoun; Imaan Alkhanen; Nouf Alshalawi; Ibtehal Baazeem; Waleed Alsanie
 publication: Unknown
 external_pdf: "https://aclanthology.org/2025.arabicnlp-main.11.pdf"
-local_pdf: "[[PDFs/2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi.pdf]]"
-pdf_extract: "PDF Extracts/2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi.md"
+local_pdf: "[[PDFs/2025/2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi.md"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

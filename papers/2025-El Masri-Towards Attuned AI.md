@@ -11,7 +11,7 @@ first_author: "[[Rayane El Masri]]"
 authors: "[[El Masri, Rayane]]; [[Snoswell, Aaron J.]]"
 doi: N/A
 url: "https://openreview.net/"
-local_pdf: "[[PDFs/2025-El Masri-Towards Attuned AI.pdf]]"
+local_pdf: "[[PDFs/2025/2025-El Masri-Towards Attuned AI.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
@@ -20,7 +20,7 @@ key_contribution: "Argues for integrating care ethics into LLM alignment to addr
 significance: "Proposes 'Attuned AI' as a model for alignment that prioritizes context, relationships, and particularity over abstract rules, crucial for empathetic AI domains"
 external_pdf: "https://openreview.net/pdf?id=s42bQle1CQ"
 abstract: "This paper argues for integrating **care ethics** into Large Language Model (LLM) development and alignment practices. The authors critique Reinforcement Learning from Human Feedback (RLHF) for embedding narrow normative assumptions that overlook emotional and relational aspects of human values—dimensions that **virtue ethics** and care ethics prioritize. They propose that **care ethics**, which emphasizes relationality, attention to particularities, and contextual **moral reasoning**, can address issues like bias stemming from overly generalized reasoning and provide a pathway for more context-sensitive alignment. This approach is particularly suited for applications in mental health, education, and social services where **empathy**, **compassion**, and **virtuous character** are essential."
-pdf_extract: "PDF Extracts/2025-El Masri-Towards Attuned AI.md"
+pdf_extract: "PDF Extracts/2025/2025-El Masri-Towards Attuned AI.md"
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No

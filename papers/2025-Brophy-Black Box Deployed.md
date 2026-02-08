@@ -11,7 +11,7 @@ first_author: "[[Matthew E. Brophy]]"
 authors: "[[Brophy, Matthew E.]]"
 doi: 10.48550/arXiv.2507.13175
 url: "https://arxiv.org/abs/2507.13175"
-local_pdf: "[[PDFs/2025-Brophy-Black Box Deployed.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Brophy-Black Box Deployed.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2507.13175.pdf"
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: N/A
@@ -20,7 +20,7 @@ moral_psychology: N/A
 newtags: "Virtue Ethics, AI Safety & Alignment"
 key_contribution: "Establishes 'Moral Imagination' and 'Normative Integrity' as functional criteria for evaluating 'black-box' LLMs without internal transparency"
 significance: "Provides a pragmatic, behavior-focused evaluation framework compatible with the opaque nature of modern deep learning models"
-pdf_extract: "PDF Extracts/2025-Brophy-Black Box Deployed.md"
+pdf_extract: "PDF Extracts/2025/2025-Brophy-Black Box Deployed.md"
 abstract: "The advancement of powerful yet opaque large language models (LLMs) necessitates a fundamental revision of the philosophical criteria used to evaluate artificial moral agents (AMAs). Pre-LLM frameworks often relied on the assumption of transparent architectures, which LLMs defy due to their stochastic outputs and opaque internal states. This paper argues that traditional ethical criteria are pragmatically obsolete for LLMs and proposes a revised set of ten functional criteria: moral concordance, context sensitivity, normative integrity, metaethical awareness, system resilience, trustworthiness, corrigibility, partial transparency, functional autonomy, and moral imagination."
 paper_summary: "Proposes ten functional criteria for evaluating LLM-based Artificial Moral Agents: moral concordance, context sensitivity, normative integrity, metaethical awareness, system resilience, trustworthiness, corrigibility, partial transparency, functional autonomy, and moral imagination. These criteria focus on observable behavior rather than internal moral understanding."
 ethics_overall: No
@@ -52,7 +52,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025-Brophy-Black Box Deployed.pdf|Open PDF]]
+- **Local PDF:** [[PDFs/2025/2025-Brophy-Black Box Deployed.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2507.13175
 - **DOI:** https://doi.org/10.48550/arXiv.2507.13175

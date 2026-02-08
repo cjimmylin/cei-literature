@@ -12,8 +12,8 @@ first_author: "[[Y. Liu]]"
 authors: Liu, Y. et al.
 url: "https://arxiv.org/abs/2506.11094"
 external_pdf: "https://arxiv.org/pdf/2506.11094.pdf"
-local_pdf: "[[PDFs/2025-Liu-Scales of Justitia Safety Evaluation Taxonomy Liu et al..pdf]]"
-pdf_extract: "PDF Extracts/2025-Liu-Scales of Justitia Safety Evaluation Taxonomy Liu et al..md"
+local_pdf: "[[PDFs/2025/2025-Liu-Scales of Justitia Safety Evaluation Taxonomy Liu et al..pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Liu-Scales of Justitia Safety Evaluation Taxonomy Liu et al..md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

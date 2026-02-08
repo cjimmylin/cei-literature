@@ -13,8 +13,8 @@ first_author: "[[Andy Liu]]"
 authors: Andy Liu; Kshitish Ghate; Mona Diab; Daniel Fried; Atoosa Kasirzadeh; Max Kleiman-Weiner
 url: "https://arxiv.org/abs/2509.25369"
 external_pdf: "https://arxiv.org/pdf/2509.25369.pdf"
-local_pdf: "[[PDFs/2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities.pdf]]"
-pdf_extract: "PDF Extracts/2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities.md"
+local_pdf: "[[PDFs/2025/2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities.md"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ethics_overall: "Yes"

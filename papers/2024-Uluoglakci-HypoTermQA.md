@@ -29,7 +29,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for hallucination detection dataset for question answering"
 data_metrics: "Not specified"
-pdf_extract: "PDF Extracts/2024-Uluoglakci-HypoTermQA.md"
+pdf_extract: "PDF Extracts/2024/2024-Uluoglakci-HypoTermQA.md"
 ---
 # HypoTermQA: Hypothetical Terms Dataset for Benchmarking Hallucination Tendency of LLMs
 

@@ -24,12 +24,12 @@
 
 | Paper | Authors Identified | Source |
 |-------|-------------------|--------|
-| 2020-Unknown-Machine Ethics - Creation of a Virtuous Machine | **Mohamed Akrout; Robert Steinbauer** | arXiv:2002.00213 |
-| 2021-Unknown-Artificial Phronesis - What It Is and Is Not | **John P. Sullins** | Oxford University Press |
+| 2020-Akrout-Machine Ethics - Creation of a Virtuous Machine | **Mohamed Akrout; Robert Steinbauer** | arXiv:2002.00213 |
+| 2021-Sullins-Artificial Phronesis - What It Is and Is Not | **John P. Sullins** | Oxford University Press |
 | 2022-Unknown-Can Robotic AI Systems Be Virtuous | **Mihaela Constantinescu; Roger Crisp** | Int J Social Robotics |
-| 2024-Unknown-AI and Phronesis | **Nir Eisikovits; Dan Feldman** | Moral Philosophy and Politics (2022) |
-| 2024-Unknown-Evaluating Computational Models of Ethics | **Jatin Chhabra; Kartik Sama; Jay Deshmukh et al.** | AI and Ethics |
-| 2024-Unknown-Socratic Dialogue for Virtue Ethics in AI | **Maarten Wilders; Íñigo Martínez de Rituerto de Troya; Roel Dobbe** | AIES 2025 |
+| 2024-Eisikovits-AI and Phronesis | **Nir Eisikovits; Dan Feldman** | Moral Philosophy and Politics (2022) |
+| 2024-Chhabra-Evaluating Computational Models of Ethics | **Jatin Chhabra; Kartik Sama; Jay Deshmukh et al.** | AI and Ethics |
+| 2024-Wilders-Socratic Dialogue for Virtue Ethics in AI | **Maarten Wilders; Íñigo Martínez de Rituerto de Troya; Roel Dobbe** | AIES 2025 |
 | 2022-Unknown-Automated Ethical Practical Reasoning | **John P. Sullins et al.** (related to Pipitone 2025) | Academia.edu |
 
 ### DOIs Found for Papers Without DOIs

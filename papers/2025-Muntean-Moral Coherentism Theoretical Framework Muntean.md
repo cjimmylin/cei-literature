@@ -5,12 +5,17 @@ Human View Date:
 Human View note: 
 Not AI: 
 key: EXSR0299
-type: conferencePaper
-short_title: "Moral Coherentism: Theoretical Framework (Muntean)"
+type: journalArticle
+short_title: "Moral Coherentism in the Age of Artificial Intelligence"
 year: 2025
-first_author: "[[I. Muntean]]"
-authors: Muntean, I.
-publication: Not specified
+first_author: "[[Ioan Muntean]]"
+authors: "Muntean, Ioan"
+doi: 10.5406/21521123.62.3.06
+url: "https://doi.org/10.5406/21521123.62.3.06"
+publication: "American Philosophical Quarterly"
+volume: "62"
+issue: "3"
+pages: "279-308"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -24,37 +29,40 @@ is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 tags: 
-abstract:
-ethics_perspective: "General Ethics"
+abstract: "The current project focuses on models of 'artificial moral learning' (as a type of moral cognition) and 'moral coherentism.' It clarifies how artificial moral agency sheds light on some meta-ethical questions in the coherentism framework (Brink, Dorsey, Lynch, Sayre-McCord). In the current approach, data of artificial moral cognition is divided into two subspaces (representing facts and values, respectively) and contains complex, mixed machine-learnable patterns. Inspired by Lynch's 'moral concordance,' some schematic models of this type of two-dimensional data are proposed and assessed. The last, more comprehensive model is premised on the theoretical concept of 'distributed concordance' over a population of artificial moral agents. The paper concludes that coherentism, when generalized to machine ethics and artificial moral learning, has some advantages over foundationalist or reliabilist approaches in meta-ethics."
+ethics_perspective: "Meta-Ethics"
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
-# Moral Coherentism: Theoretical Framework (Muntean)
+# Moral Coherentism in the Age of Artificial Intelligence: A Project in Machine Moral Learning
 
 ## Authors
 
-[[Muntean, I.]]
+[[Ioan Muntean]]
 
 ## Metadata
 
-**Authors:** Muntean, I.
+**Authors:** Muntean, Ioan
 
 **Year:** 2025
 
-**Type:** conferencePaper
+**Type:** journalArticle
 
-**Venue:** Not specified
+**Journal:** American Philosophical Quarterly, Vol. 62, Issue 3, pp. 279-308
+
+**Publisher:** University of Illinois Press (via Duke University Press)
 
 ## Links
 
+- [DOI](https://doi.org/10.5406/21521123.62.3.06)
 
 ## Abstract
 
-*(To be fetched)*
+The current project focuses on models of "artificial moral learning" (as a type of moral cognition) and "moral coherentism." It clarifies how artificial moral agency sheds light on some meta-ethical questions in the coherentism framework (Brink, Dorsey, Lynch, Sayre-McCord). In the current approach, data of artificial moral cognition is divided into two subspaces (representing facts and values, respectively) and contains complex, mixed machine-learnable patterns. Inspired by Lynch's "moral concordance," some schematic models of this type of two-dimensional data are proposed and assessed. The last, more comprehensive model is premised on the theoretical concept of "distributed concordance" over a population of artificial moral agents. The paper concludes that coherentism, when generalized to machine ethics and artificial moral learning, has some advantages over foundationalist or reliabilist approaches in meta-ethics.
 
 ## Dataset Information
 
-Theoretical framework for moral coherentism in AI systems
+Theoretical framework for moral coherentism in AI systems. No dataset — this is a theoretical/philosophical paper.
 
 ## Notes
 

@@ -2,6 +2,123 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 43 (Feb 8, 2026) - Fix Unknown/Placeholder Authors Across the Vault
+
+### Overview
+
+Resolved all 97 papers with placeholder authors (Unknown, Authors, results, extracted) in filenames and YAML. Two-script pipeline: `discover_unknown_authors.py` resolves authors via arXiv API, Semantic Scholar, PDF extract parsing, and manual web search; `apply_author_fixes.py` applies all updates (YAML, body, file renames, wikilinks, author profiles).
+
+### Results
+
+| Metric | Before | After | Delta |
+|--------|--------|-------|-------|
+| Papers with placeholder authors | 97 | 0 | -97 |
+| Papers with `Unknown` in filename | 84 | 0 | -84 |
+| Papers with `Authors` in filename | 13 | 0 | -13 |
+| Author profiles | 2,946 | 3,356 | +410 |
+| PDFs renamed | — | 108 | +108 |
+| PDF extracts renamed | — | 93 | +93 |
+| STATISTICS wikilinks fixed | — | 22 | +22 |
+| YAML Validation | 923/923 pass | 923/923 pass | — |
+
+### Resolution Sources
+
+| Source | Count |
+|--------|-------|
+| arXiv API | 77 |
+| Semantic Scholar API | 7 |
+| PDF extract parsing | 7 |
+| Existing YAML (rename-only) | 4 |
+| Manual web search | 2 |
+
+### Key Learnings
+- [Workflows] Parallel JSON writes need PID-scoped temp files + `os.replace()` to avoid race conditions
+- [Author Management] PDF extract author parsing is unreliable (~60% garbage) — API sources preferred
+- [Workflows] Review checkpoint between discovery and application scripts caught 8 bad entries before they corrupted data
+- [Author Management] arXiv API is the most reliable author source (77/97), followed by Semantic Scholar DOI lookups (7)
+
+### Files Created/Changed
+- `PYTHON/discover_unknown_authors.py` — New script for author resolution
+- `PYTHON/apply_author_fixes.py` — New script for applying all fixes
+- `logs/unknown_authors_resolved.json` — Resolution data for all 97 papers
+- `papers/`: 97 papers updated + renamed
+- `PDF Extracts/`: 93 extracts renamed
+- `Authors/`: 410 new profiles created
+- `STATISTICS/paper-statistics-1.md`: 22 wikilink fixes
+
+---
+
+## Session 42 (Feb 8, 2026) - Advanced PDF Finder: 7 More PDFs Resolved + Muntean Enrichment
+
+### Overview
+
+Created `PYTHON/advanced_pdf_finder.py` — a targeted 3-phase script for the 19 papers that the comprehensive finder couldn't acquire. Resolved 7 of 19: downloaded 5 new PDFs (Wilders/AAAI, 3 ACL ArabicNLP 2025, Nay/Stanford), marked 1 GitHub repo as `no_pdf_applicable`, and confirmed 1 already had its PDF (Kreutz). Created 5 PDF extracts. Also enriched the Muntean paper with full Duke University Press metadata (DOI, journal, volume, issue, pages, abstract).
+
+### Results
+
+| Metric | Before | After | Delta |
+|--------|--------|-------|-------|
+| EXSR PDFs | 258/266 (97.0%) | 263/266 (98.9%) | +5 |
+| EXSR Extracts | 258/266 | 263/266 | +5 |
+| Overall Vault PDFs | ~910/923 | ~915/923 | +5 |
+| Overall Extracts | 920/923 | 925/923* | +5 |
+| YAML Validation | 923/923 pass | 923/923 pass | — |
+| Papers w/o any PDF | 19 | 12 | -7 |
+
+*Some papers have extracts but no local PDF (external PDF only).
+
+### Phase 1 Results (Direct Downloads — 9 papers)
+
+| Paper | Strategy | Result |
+|-------|----------|--------|
+| Wilders — Socratic Dialogue for Virtue Ethics | AAAI OJS (3-part URL) | Downloaded (192KB) |
+| IslamicEval 2025 — Shared Task | ACL Anthology direct | Downloaded (564KB) |
+| QIAS 2025 — Islamic Inheritance | ACL Anthology direct | Downloaded (404KB) |
+| Saudi-Alignment — Saudi Norms | ACL Anthology direct | Downloaded (809KB) |
+| Nay — Aligning AI through Law | Stanford CodeX | Downloaded (1.2MB) |
+| Kreutz — GermEval 2019 | Already had PDF | Skipped (confirmed 468KB) |
+| Awesome-LLM-Eval | GitHub repo (not a paper) | Marked `no_pdf_applicable` |
+| Bryan — Virtue Ethics & Extinction | AMA Journal Cloudflare | Failed (403) |
+| Sullins — Automated Ethical Reasoning | Academia.edu login wall | Failed (HTML) |
+
+### Phase 2 Results (Creative Strategies — 5 papers)
+
+All 5 blocked by anti-bot/paywall: Jörs (ResearchGate 403), Muntean (no OA copy), Ebara (IOS Press paywall), Gao (ACM DL Cloudflare), Muyskens (Sage paywall).
+
+### Phase 3: Manual Research Report
+
+Generated `logs/manual_pdf_research_report.md` covering 12 remaining papers in 3 categories: anti-bot blocked (4), not found (3), books/paywalled (5).
+
+### Muntean Paper Enrichment
+
+Updated from user-provided Duke University Press page:
+- Type: `conferencePaper` → `journalArticle`
+- Added: DOI `10.5406/21521123.62.3.06`, journal "American Philosophical Quarterly", vol 62 issue 3 pp 279-308
+- Added: full abstract (moral coherentism + artificial moral learning)
+- Corrected: `ethics_perspective` → "Meta-Ethics"
+
+### Key Learnings
+
+- **AAAI OJS 3-part URL:** Download requires `article/download/{article_id}/{galley_id}/{submission_file_id}` — search API only returns article_id, need to scrape galley page for the other two.
+- **ACL Anthology API gaps:** API doesn't index all recent workshops (ArabicNLP 2025). Web search + direct URL construction from paper IDs is more reliable.
+- **Cloudflare JS challenge:** Blocks all curl-based downloads regardless of browser-like headers. Only manual browser download works for AMA JoE, ACM DL, ResearchGate, Academia.edu.
+- **Stanford CodeX:** Publications page has direct PDF links in `wp-content/uploads/`.
+
+### Scripts Created
+
+| Script | Purpose |
+|--------|---------|
+| `PYTHON/advanced_pdf_finder.py` | 3-phase targeted PDF acquisition for 19 remaining papers |
+
+### Files Changed
+
+- papers/: 7 modified (5 with local_pdf/external_pdf, 1 no_pdf_applicable, 1 enriched metadata)
+- PDF Extracts/: 5 new extract files
+- PYTHON/: 1 new script
+- logs/: manual research report + JSON log
+
+---
+
 ## Session 41 (Feb 7, 2026) - Comprehensive PDF Finder: 44 Non-arXiv PDFs Recovered
 
 ### Overview

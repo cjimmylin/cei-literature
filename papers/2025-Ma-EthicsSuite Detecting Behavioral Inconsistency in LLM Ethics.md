@@ -68,10 +68,44 @@ LLMs increasingly serve as general-purpose AI assistants in daily life, and thei
 
 20K moral situations designed to detect behavioral inconsistency using reflective equilibrium principles
 
+## Detailed Summary
+
+This paper (published as "Reeq" in ACM TOSEM, arXiv preprint titled "Oops, Did I Just Say That?") introduces the first framework for automatically testing and repairing unethical suggestions made by LLMs. The key insight is that rather than trying to define what is "ethical" (which is inherently subjective and context-dependent), the authors detect **behavioral inconsistency** as a proxy for unethical behavior. If an LLM makes a suggestion but then accepts a critique of that suggestion, this contradiction signals a likely ethical problem.
+
+The framework draws on **reflective equilibrium**, a philosophical method from moral and political philosophy (Rawls), reformulated as a fixed-point iteration process. The authors create EthicsSuite, a test suite of ~20K contextualized moral situations derived from the ETHICS benchmark via LLM-assisted augmentation. They also propose an on-the-fly (OTF) repair scheme that uses critic feedback to guide the LLM in revising its unethical suggestions in real-time, applicable to black-box API settings.
+
+## Paper Outline
+
+1. Introduction — motivation and challenge of detecting subtle unethical LLM suggestions
+2. Background & Related Work — LLM capabilities, challenge of formulating unethical suggestions, NLP model testing
+3. Technical Pipeline — test case enhancement, SCR (Suggest-Critique-Reflect) oracle, automated OTF repairing
+4. Pilot Study — test case realism (95% realistic), diversity (15+ ethical topics), LLM plausibility
+5. Findings — RQ1 (testing effectiveness), RQ2 (repair effectiveness), RQ3 (critic model impact)
+6. Discussion — ethical considerations, threats to validity, extensions
+7. Conclusion
+
+## Methods Summary
+
+The framework has three components: (1) **Test Case Enhancement** — uses ChatGPT to rewrite simple yes/no ethical questions from the ETHICS benchmark into contextualized, complex moral situations via in-context learning, producing ~20K test cases. (2) **SCR Test Oracle** — a three-step process where the suggester (LLM under test) generates a suggestion, a critic LLM critiques it, and the suggester reflects on the critique; if it accepts the critique (contradicting its own suggestion), the behavior is flagged as unethical. (3) **OTF Repairing** — iteratively uses the critique to prompt the suggester to refine its suggestion until the contradiction is resolved.
+
+## Results Summary
+
+Testing across 7 LLMs (GPT-Neo, Llama-7B, Llama-13B, ChatGLM, Vicuna, ChatGPT, GPT-4) revealed that 81.22% of test cases on average prompted ethically inconsistent suggestions. SCR achieved an average F1 score of 0.81 for detecting unethical suggestions (0.91 on Llama-13B). The OTF repair scheme successfully improved 81.8% of unethical suggestions for Llama-13B and 95.1% for ChatGPT. Existing content moderation tools (Azure, OpenAI) and ethics reasoning tools (Delphi) failed to detect these subtle ethical issues (AUROC ~0.50). Combining multiple critic models (ChatGLM, Vicuna, ChatGPT) improved detection through complementary strengths.
+
+## Conclusions
+
+The authors conclude that current LLMs have significant room for improvement in ethical suggestion generation, with even mature commercial models like ChatGPT exhibiting high rates of behavioral inconsistency. The SCR process is effective at automatically detecting these issues without human annotation. The OTF repair scheme provides a practical, real-time mitigation approach applicable to black-box LLMs. Limitations include the English-only focus and potential cultural bias in annotators (predominantly Western social majority).
+
+## Artifact Contributions
+
+- **EthicsSuite** — ~20K contextualized moral situation test cases (released at https://github.com/LLM-Ethics/EthicsSuite)
+- **SCR framework code** — available at https://github.com/LLM-Ethics/SCR
+
 ## Notes
 
 **Source:** Exhaustive Literature Search (2026-02-07), Agent 1 (Citation Graph)
 **Implementation Readiness:** HIGH
+**Note:** Published as "Reeq" in ACM TOSEM (2025). arXiv preprint (2305.02626) titled "Oops, Did I Just Say That?" is the earlier version.
 
 ## Tags
 

@@ -1,5 +1,5 @@
 # Learnings Log
-*Last updated: 2026-02-07*
+*Last updated: 2026-02-08*
 
 ---
 
@@ -31,6 +31,25 @@
 - Include context (what triggered the learning)
 - Note edge cases and exceptions
 - Link to relevant Standards/ files if applicable
+
+---
+
+## 2026-02-08
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-08 | Author Management | **PDF Extract Author Parsing Is Unreliable (~60% Garbage):** Of 7 papers resolved via PDF extract parsing, only 2 returned correct authors. The other 5 returned title fragments ("Steerable Safety.pdf"), conference names ("Proceedings of The Third Arabic NLP Conference"), or subtitle text ("A Practitioner-Informed Framework"). Root cause: heuristic between-title-and-abstract extraction fails when PDF text lacks clear "Abstract" markers or has multi-line titles. Always prefer API sources (arXiv, Semantic Scholar) over PDF extract parsing. |
+| 2026-02-08 | Workflows | **Parallel JSON Write Race Condition Fix:** When 5 parallel Python processes use `Path.rename()` on the same `.tmp` file, concurrent renames cause `FileNotFoundError`. Fix: PID-scoped temp files (`f".tmp.{os.getpid()}"`) + `os.replace()` (atomic POSIX overwrite, works even if target exists). `Path.rename()` on Python 3.9 fails if target already exists on some systems. Pattern: `tmp = output.parent / f".name.tmp.{os.getpid()}"` → write → `os.replace(str(tmp), str(output))`. |
+| 2026-02-08 | Workflows | **Discovery→Review→Apply Pipeline Prevents Data Corruption:** Separating author resolution (Script 1) from application (Script 2) with a JSON review checkpoint caught 8 entries with garbage PDF extract results before they would have renamed files to things like `2025-Conference-IslamicEval.md` or `2025-in.pdf-TrolleyBench.md`. Pattern: always write intermediate results to a reviewable file before making irreversible changes (renames, YAML updates). |
+| 2026-02-08 | Author Management | **arXiv API Is Most Reliable Author Source (79% Hit Rate):** Of 97 papers with placeholder authors, 77 were resolved via arXiv API (79%), 7 via Semantic Scholar (7%), 4 from existing YAML (4%), 7 from PDF extracts (7%), 2 manual (2%). Most vault papers have arXiv URLs. Semantic Scholar is useful as DOI-based fallback with 10s delays. For papers with no URL/DOI/extract, manual web search is the only option. |
+| 2026-02-08 | Author Management | **Surname Extraction Edge Cases:** "M-A-P Team" (collective name, not a person) → use first individual author (Siwei Wu). "Santhosh G S" (South Indian patronymic, no traditional surname) → use first name token as surname prefix. "Authors not fully specified in search results" (import artifact) → treat as placeholder. CJK names in Western order from arXiv (e.g., "Zhaowei Zhang") → last token is correct surname. |
+| 2026-02-08 | Workflows | **Wikilink Propagation Must Cover Author References Too:** File-stem wikilink propagation (`[[2024-Unknown-Title]]` → `[[2024-Author-Title]]`) handled paper references but missed standalone author wikilinks (`[[Unknown]]` in STATISTICS files). These required a separate pass matching `[[Unknown]]` + paper stem on the same line to determine which author to substitute. Total: 22 orphaned author wikilinks across STATISTICS/paper-statistics-1.md. |
+| 2026-02-08 | PDF Processing | **AAAI OJS 3-Part Download URL:** AAAI's Open Journal Systems requires 3 IDs for PDF download: `article/download/{article_id}/{galley_id}/{submission_file_id}`. The search API only returns `article_id`. Must scrape the article's galley page to get the other two IDs, or use web search to find the full 3-part URL. Simpler 2-part URLs (`article/download/{id}/{id}`) return 404. |
+| 2026-02-08 | PDF Processing | **ACL Anthology API Indexing Gaps:** The ACL Anthology API (`/api/`) does not index all recent workshops — ArabicNLP 2025 shared task papers were not found via API search despite being hosted on ACL Anthology. Web search for the paper title + "aclanthology.org" reliably finds exact paper IDs. Direct URL construction from IDs (`aclanthology.org/{id}.pdf`) always works. |
+| 2026-02-08 | PDF Processing | **Cloudflare JS Challenge Defeats All Curl Approaches:** AMA Journal of Ethics, ACM Digital Library, ResearchGate, and Academia.edu all use Cloudflare JS challenges that cannot be bypassed with any combination of curl headers (User-Agent, Accept, Referer, cookies). Even `download_pdf_browser()` with full Chrome UA string fails. These require manual browser download — document in a manual research report for the user. |
+| 2026-02-08 | PDF Processing | **Stanford CodeX PDF Pattern:** Stanford CodeX publications page hosts whitepapers with direct PDF links under `wp-content/uploads/` paths. No access control or CAPTCHA — standard curl download works. Useful for legal/AI alignment papers by Stanford law faculty. |
+| 2026-02-08 | API | **EuropePMC + PubMed Central ID Converter:** For medical/bioethics papers with DOIs, try: (1) EuropePMC REST API `search?query=DOI:XXX` → check `fullTextUrlList` for OA PDF, (2) NCBI ID Converter `idconv/v1.0/?ids=DOI` → get PMCID → construct PMC PDF URL. Yields results for ~30% of bioethics papers that Unpaywall misses. |
+| 2026-02-08 | Data Quality | **Paper Metadata Enrichment from Publisher Pages:** When a paper has minimal metadata (e.g., type=conferencePaper, publication=Unknown), the publisher's DOI page often has complete data (journal name, volume, issue, pages, full abstract, correct article type). WebFetch on the DOI URL → extract structured data. Example: Muntean paper updated from 5 fields to 12 fields via Duke University Press page. |
 
 ---
 

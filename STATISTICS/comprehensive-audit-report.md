@@ -34,7 +34,7 @@
 
 ### Authors field contains incomplete placeholder (et al./and others) (1 papers)
 
-- [[2024-Unknown-Evaluating Computational Models of Ethics]]
+- [[2024-Chhabra-Evaluating Computational Models of Ethics]]
 
 ---
 

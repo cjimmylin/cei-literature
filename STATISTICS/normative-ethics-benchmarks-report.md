@@ -72,7 +72,7 @@ A paper is **Borderline** if it meets most criteria but has a notable gap (e.g.,
 | # | File | Why Borderline |
 |---|------|----------------|
 | 1 | `2025-Galatolo-Beyond Ethical Alignment AMAs.md` | Philosophical benchmark for LLMs; abductive reasoning focus rather than normative evaluation |
-| 2 | `2024-Unknown-Evaluating Computational Models of Ethics.md` | All 3 frameworks referenced; unclear if benchmarks modern LLMs |
+| 2 | `2024-Chhabra-Evaluating Computational Models of Ethics.md` | All 3 frameworks referenced; unclear if benchmarks modern LLMs |
 | 3 | `2025-Sorensen-Operationalizing Pluralistic Values.md` | Deontological + consequentialist; primarily alignment trade-offs focus |
 | 4 | `2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences.md` | Kantian framework + GPT-4o; primarily an alignment method paper |
 | 5 | `2023-Rao-Ethical Reasoning over Moral Alignment.md` | Normative dilemmas + GPT-4; position paper, no released dataset |
@@ -80,7 +80,7 @@ A paper is **Borderline** if it meets most criteria but has a notable gap (e.g.,
 | 7 | `2025-Hui-Decoding Moral Responses in AI.md` | Tests 7 LLMs under deontological/utilitarian conditions; no released benchmark artifact |
 | 8 | `2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md` | Tests 52 LLMs on utilitarian alignment; implicit normative framework in Moral Machine design |
 | 9 | `2024-Takemoto-The moral machine experiment on large language.md` | Tests 4 LLMs on utilitarian preferences (50K scenarios); implicit normative framework |
-| 10 | `2024-Unknown-Moral Persuasion in Large Language Models.md` | Tests LLMs with V+D+U prompts but measures via MFQ (psychology instrument) |
+| 10 | `2024-Huang-Moral Persuasion in Large Language Models.md` | Tests LLMs with V+D+U prompts but measures via MFQ (psychology instrument) |
 | 11 | `2024-Seror-Moral Minds of LLMs.md` | Tests ~40 LLMs on moral preferences (D+U dimensions); uses revealed preference theory (economics) |
 
 ---
@@ -141,7 +141,7 @@ The following paper types were reviewed but did NOT qualify. These patterns expl
 
 ### Note on Duplicate
 
-The paper `2024-Unknown-Ethical Reasoning and Moral Value Alignment` (arXiv:2404.18460) appears to be a duplicate/variant of `2024-Agarwal-Ethical Reasoning Depends on Language` (same scope, models, methodology) — not double-counted.
+The paper `2024-Agarwal-Ethical Reasoning and Moral Value Alignment` (arXiv:2404.18460) appears to be a duplicate/variant of `2024-Agarwal-Ethical Reasoning Depends on Language` (same scope, models, methodology) — not double-counted.
 
 ---
 

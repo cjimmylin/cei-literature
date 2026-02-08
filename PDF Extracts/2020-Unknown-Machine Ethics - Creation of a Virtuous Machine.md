@@ -1,13 +1,13 @@
 ---
 title: "Machine Ethics - Creation of a Virtuous Machine - PDF Extract"
-source_pdf: "2020-Unknown-Machine Ethics - Creation of a Virtuous Machine.pdf"
+source_pdf: "2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.pdf"
 pages: 4
 extracted_at: "2026-01-29T16:49:08.978221"
 ---
 
 # PDF Extract: Machine Ethics - Creation of a Virtuous Machine
 
-**Source PDF:** 2020-Unknown-Machine Ethics - Creation of a Virtuous Machine.pdf
+**Source PDF:** 2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.pdf
 **Total Pages:** 4
 
 ---

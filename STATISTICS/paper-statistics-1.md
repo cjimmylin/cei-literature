@@ -16,7 +16,7 @@ Total Categories: 3
 - 2025, [[Yu Ying Chiu]], [[2025-Chiu-MoReBench|2025-Chiu-MoReBench.md]]
 - 2025, [[Wei Lu]], [[2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences|Aligning LLM Agents with Rational and Kantian Preferences]]
 - 2025, [[Vanessa Cheung]], [[2025-Cheung-LLMs Amplified Cognitive Biases Moral|LLMs Amplified Cognitive Biases]]
-- 2025, [[Unknown]], [[2025-Unknown-AMULED - Addressing Moral Uncertainty with LLMs|AMULED - Addressing Moral Uncertainty with LLMs]]
+- 2025, [[Rohit K. Dubey]], [[2025-Dubey-AMULED - Addressing Moral Uncertainty with LLMs|AMULED - Addressing Moral Uncertainty with LLMs]]
 - 2025, [[Trisanth Srinivasan]], [[2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment|Democracy-in-Silico: Institutional Design as Alignment]]
 - 2025, [[Taylor Sorensen]], [[2025-Sorensen-Operationalizing Pluralistic Values|Operationalizing Pluralistic Values]]
 - 2025, [[Shreyas Chaudhari]], [[2025-Chaudhari-RLHF Deciphered|RLHF Deciphered]]
@@ -60,8 +60,8 @@ Total Categories: 3
 - 2024, [[Yuxi Sun]], [[2024-Sun-ClarityEthic|2024-Sun-ClarityEthic.md]]
 - 2024, [[V. Sorin]], [[2024-Sorin-Ethical Alignment of LLMs in Healthcare|Ethical Alignment of LLMs in Healthcare]]
 - 2024, [[Utkarsh Agarwal]], [[2024-Agarwal-Ethical Reasoning Depends on Language|Ethical Reasoning Depends on Language]]
-- 2024, [[Unknown]], [[2024-Unknown-Ethical Reasoning and Moral Value Alignment|Ethical Reasoning and Moral Value Alignment Across Languages]]
-- 2024, [[Unknown]], [[2024-Unknown-Moral Persuasion in Large Language Models|Moral Persuasion in Large Language Models]]
+- 2024, [[Utkarsh Agarwal]], [[2024-Agarwal-Ethical Reasoning and Moral Value Alignment|Ethical Reasoning and Moral Value Alignment Across Languages]]
+- 2024, [[Allison Huang]], [[2024-Huang-Moral Persuasion in Large Language Models|Moral Persuasion in Large Language Models]]
 - 2024, [[Tessa Han]], [[2024-Han-MedSafetyBench|2024-Han-MedSafetyBench.md]]
 - 2024, [[Tan Zhi-Xuan]], [[2024-Zhi-Xuan-Beyond Preferences in AI Alignment|Beyond Preferences in AI Alignment]]
 - 2024, [[Simon Myers]], [[2024-Myers-People Expect Artificial Moral Advisors|People Expect AI Moral Advisors More Utilitarian]]
@@ -81,7 +81,7 @@ Total Categories: 3
 - 2024, [[Iason Gabriel]], [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 - 2024, [[Giovanni Franco Gabriel Marraffini]], [[2024-Marraffini-The Greatest Good Benchmark|The Greatest Good Benchmark]]
 - 2024, [[Elizaveta Tennant]], [[2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations|Dynamics of Moral Behavior in Heterogeneous Populations]]
-- 2024, [[Chhabra, [[2024-Unknown-Evaluating Computational Models of Ethics|Evaluating Computational Models of Ethics]]
+- 2024, [[Chhabra, [[2024-Chhabra-Evaluating Computational Models of Ethics|Evaluating Computational Models of Ethics]]
 - 2024, [[Brenda Odero]], [[2024-Odero-The Ubuntu Way|The Ubuntu Way]]
 - 2024, [[Basile Garcia]], [[2024-Garcia-Moral Turing Test|Moral Turing Test]]
 - 2024, [[Basile Garcia]], [[2024-Garcia-The Moral Turing Test|The Moral Turing Test]]
@@ -116,7 +116,7 @@ Total Categories: 3
 ### Virtue Ethics (80)
 - 2025, [[Ziyi Liu]], [[2025-Liu-Can LLMs Grasp Implicit Cultural Values|Can LLMs Grasp Implicit Cultural Values?]]
 - 2025, [[Zhiyu An]], [[2025-An-MoralReason|2025-An-MoralReason.md]]
-- 2025, [[Unknown]], [[2025-Unknown-AMULED - Addressing Moral Uncertainty with LLMs|AMULED - Addressing Moral Uncertainty with LLMs]]
+- 2025, [[Rohit K. Dubey]], [[2025-Dubey-AMULED - Addressing Moral Uncertainty with LLMs|AMULED - Addressing Moral Uncertainty with LLMs]]
 - 2025, [[Suyoung Bae]], [[2025-Bae-CharMoral|2025-Bae-CharMoral.md]]
 - 2025, [[Shivam Aditya]], [[2025-Aditya-Toward global ethical frameworks for AI|Toward global ethical frameworks for AI]]
 - 2025, [[Shimpei Okamoto]], [[2025-Okamoto-AI-based medical ethics education|AI-based medical ethics education]]
@@ -152,9 +152,9 @@ Total Categories: 3
 - 2025, [[Aaron J. Snoswell]], [[2025-Snoswell-Beyond Verdicts LLM Moral Competence|Beyond Verdicts LLM Moral Competence]]
 - 2024, [[Y. Moon]], [[2024-Moon-BEAF|2024-Moon-BEAF.md]]
 - 2024, [[Utkarsh Agarwal]], [[2024-Agarwal-Ethical Reasoning Depends on Language|Ethical Reasoning Depends on Language]]
-- 2024, [[Unknown]], [[2024-Unknown-Ethical Reasoning and Moral Value Alignment|Ethical Reasoning and Moral Value Alignment Across Languages]]
-- 2024, [[Unknown]], [[2024-Unknown-Moral Persuasion in Large Language Models|Moral Persuasion in Large Language Models]]
-- 2024, [[Unknown]], [[2024-Unknown-Socratic Dialogue for Virtue Ethics in AI|Socratic Dialogue for Virtue Ethics in AI]]
+- 2024, [[Utkarsh Agarwal]], [[2024-Agarwal-Ethical Reasoning and Moral Value Alignment|Ethical Reasoning and Moral Value Alignment Across Languages]]
+- 2024, [[Allison Huang]], [[2024-Huang-Moral Persuasion in Large Language Models|Moral Persuasion in Large Language Models]]
+- 2024, [[Maarten Wilders]], [[2024-Wilders-Socratic Dialogue for Virtue Ethics in AI|Socratic Dialogue for Virtue Ethics in AI]]
 - 2024, [[Shannon Vallor]], [[2024-Vallor-The AI Mirror|2024-Vallor-The AI Mirror.md]]
 - 2024, [[Shahnawaz Akhtar]], [[2024-Akhtar-The Ethicsophical Landscape of Large Language|The Ethicsophical Landscape of Large Language]]
 - 2024, [[Robert W. McGee]], [[2024-McGee-How Ethical Is Utilitarian Ethics|How Ethical Is Utilitarian Ethics]]
@@ -176,23 +176,23 @@ Total Categories: 3
 - 2024, [[Emma So]], [[2024-So-AI Trained on Confucian Analects|AI Trained on Confucian Analects]]
 - 2024, [[Elizaveta Tennant]], [[2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations|Dynamics of Moral Behavior in Heterogeneous Populations]]
 - 2024, [[Christos Kyriacou]], [[2024-Kyriacou-Artificial Moral Intelligence Aristotelian|Artificial Moral Intelligence Aristotelian]]
-- 2024, [[Chhabra, [[2024-Unknown-Evaluating Computational Models of Ethics|Evaluating Computational Models of Ethics]]
+- 2024, [[Chhabra, [[2024-Chhabra-Evaluating Computational Models of Ethics|Evaluating Computational Models of Ethics]]
 - 2024, [[Cheng-hung Tsai]], [[2024-Tsai-Why AI May Undermine Phronesis|Why AI May Undermine Phronesis]]
 - 2024, [[Brenda Odero]], [[2024-Odero-The Ubuntu Way|The Ubuntu Way]]
 - 2024, [[B.A. Ribeiro]], [[2024-Ribeiro-Machine Ethics Architecture of Virtue|Machine Ethics Architecture of Virtue]]
 - 2023, [[Yunfan Shao]], [[2023-Shao-Character-LLM A Trainable Agent for Role-Playing|Character-LLM: A Trainable Agent for Role-Playing]]
 - 2023, [[Andrew Maile]], [[2023-Maile-The choice of deontological, virtue ethical, and|The choice of deontological, virtue ethical, and]]
-- 2022, [[Unknown]], [[2022-Unknown-Towards Artificial Virtuous Agents - Games and ML|Towards Artificial Virtuous Agents - Games and ML]]
+- 2022, [[Ajay Vishwanath]], [[2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML|Towards Artificial Virtuous Agents - Games and ML]]
 - 2022, [[Thilo Hagendorff]], [[2022-Hagendorff-Virtue-Based Framework for AI Ethics|Virtue-Based Framework for AI Ethics]]
 - 2022, [[Mihaela Constantinescu]], [[2022-Constantinescu-Can Robotic AI Be Virtuous|Can Robotic AI Be Virtuous]]
-- 2022, [[Eisikovits, [[2024-Unknown-AI and Phronesis|AI and Phronesis]]
-- 2021, [[Sullins, [[2021-Unknown-Artificial Phronesis - What It Is and Is Not|Artificial Phronesis - What It Is and Is Not]]
+- 2022, [[Eisikovits, [[2024-Eisikovits-AI and Phronesis|AI and Phronesis]]
+- 2021, [[Sullins, [[2021-Sullins-Artificial Phronesis - What It Is and Is Not|Artificial Phronesis - What It Is and Is Not]]
 - 2021, [[Stephen C. Angle]], [[2021-Angle-Can AI Lead to Genuine Virtue Confucian|Can AI Lead to Genuine Virtue Confucian]]
 - 2021, [[Jakob Stenseke]], [[2021-Stenseke-Artificial Virtuous Agents|Artificial Virtuous Agents]]
 - 2020, [[Silviya Serafimova]], [[2020-Serafimova-Whose Morality Which Rationality|Whose Morality Which Rationality]]
 - 2020, [[Iason Gabriel]], [[2020-Gabriel-Artificial Intelligence Values and Alignment|Artificial Intelligence Values and Alignment]]
-- 2020, [[Akrout, [[2020-Unknown-Machine Ethics - Creation of a Virtuous Machine|Machine Ethics - Creation of a Virtuous Machine]]
-- 2018, [[Unknown]], [[2018-Unknown-The Virtuous Machine - Old Ethics for New|The Virtuous Machine - Old Ethics for New Technology]]
+- 2020, [[Akrout, [[2020-Akrout-Machine Ethics - Creation of a Virtuous Machine|Machine Ethics - Creation of a Virtuous Machine]]
+- 2018, [[Nicolas Berberich]], [[2018-Berberich-The Virtuous Machine - Old Ethics for New|The Virtuous Machine - Old Ethics for New Technology]]
 - 2018, [[Nicolas Berberich]], [[2018-Berberich-The Virtuous Machine|The Virtuous Machine]]
 
 ### Deontological Ethics (80)
@@ -205,8 +205,8 @@ Total Categories: 3
 - 2025, [[Wei Lu]], [[2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences|Aligning LLM Agents with Rational and Kantian Preferences]]
 - 2025, [[Vanessa Cheung]], [[2025-Cheung-LLMs Amplified Cognitive Biases Moral|LLMs Amplified Cognitive Biases]]
 - 2025, [[Vagan Terziyan]], [[2025-Terziyan-Towards ethical evolution|Towards ethical evolution]]
-- 2025, [[Unknown]], [[2025-Unknown-AI Alignment as Fair Treatment of Claims|AI Alignment as Fair Treatment of Claims]]
-- 2025, [[Unknown]], [[2025-Unknown-AMULED - Addressing Moral Uncertainty with LLMs|AMULED - Addressing Moral Uncertainty with LLMs]]
+- 2025, [[Iason Gabriel]], [[2025-Gabriel-AI Alignment as Fair Treatment of Claims|AI Alignment as Fair Treatment of Claims]]
+- 2025, [[Rohit K. Dubey]], [[2025-Dubey-AMULED - Addressing Moral Uncertainty with LLMs|AMULED - Addressing Moral Uncertainty with LLMs]]
 - 2025, [[Tomasz Zgliczyński-Cuber]], [[2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis|AI Ethical Resonance Hypothesis]]
 - 2025, [[Tianhao Shen]], [[2025-Shen-Alignment and Safety in LLMs Survey|Alignment and Safety in LLMs Survey]]
 - 2025, [[Taylor Sorensen]], [[2025-Sorensen-Operationalizing Pluralistic Values|Operationalizing Pluralistic Values]]
@@ -239,8 +239,8 @@ Total Categories: 3
 - 2024, [[William D'Alessandro]], [[2024-DAlessandro-Deontology and Safe Artificial Intelligence|Deontology and Safe AI]]
 - 2024, [[V. Sorin]], [[2024-Sorin-Ethical Alignment of LLMs in Healthcare|Ethical Alignment of LLMs in Healthcare]]
 - 2024, [[Utkarsh Agarwal]], [[2024-Agarwal-Ethical Reasoning Depends on Language|Ethical Reasoning Depends on Language]]
-- 2024, [[Unknown]], [[2024-Unknown-Ethical Reasoning and Moral Value Alignment|Ethical Reasoning and Moral Value Alignment Across Languages]]
-- 2024, [[Unknown]], [[2024-Unknown-Moral Persuasion in Large Language Models|Moral Persuasion in Large Language Models]]
+- 2024, [[Utkarsh Agarwal]], [[2024-Agarwal-Ethical Reasoning and Moral Value Alignment|Ethical Reasoning and Moral Value Alignment Across Languages]]
+- 2024, [[Allison Huang]], [[2024-Huang-Moral Persuasion in Large Language Models|Moral Persuasion in Large Language Models]]
 - 2024, [[Tongxin Yuan]], [[2024-Yuan-R-Judge|2024-Yuan-R-Judge.md]]
 - 2024, [[Taylor Sorensen]], [[2024-Sorensen-Value Kaleidoscope|Value Kaleidoscope]]
 - 2024, [[Sunayana Rane]], [[2024-Rane-Concept Alignment|Concept Alignment]]
@@ -254,7 +254,7 @@ Total Categories: 3
 - 2024, [[Jeongwoo Park]], [[2024-Park-Morality is Non-Binary|Morality is Non-Binary]]
 - 2024, [[G. Y. Wang]], [[2024-Wang-Possibilities and challenges in the moral growth of LLMs|Possibilities and challenges in the moral growth of LLMs]]
 - 2024, [[Elizaveta Tennant]], [[2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations|Dynamics of Moral Behavior in Heterogeneous Populations]]
-- 2024, [[Chhabra, [[2024-Unknown-Evaluating Computational Models of Ethics|Evaluating Computational Models of Ethics]]
+- 2024, [[Chhabra, [[2024-Chhabra-Evaluating Computational Models of Ethics|Evaluating Computational Models of Ethics]]
 - 2024, [[Basile Garcia]], [[2024-Garcia-Moral Turing Test|Moral Turing Test]]
 - 2024, [[Avner Seror]], [[2024-Seror-Moral Minds of LLMs|Moral Minds of LLMs]]
 - 2023, [[Fritz J. McDonald]], [[2023-McDonald-AI alignment and the categorical imperative|AI, alignment, and the categorical imperative]]
@@ -853,7 +853,7 @@ Total Categories: 30
 - 2024, [[Kristina Šekrst]], [[2024-Šekrst-AI Ethics by Design|AI Ethics by Design]]
 
 ### Virtue Ethics & Machine Learning (1)
-- 2018, [[Unknown]], [[2018-Unknown-The Virtuous Machine - Old Ethics for New|The Virtuous Machine - Old Ethics for New Technology]]
+- 2018, [[Nicolas Berberich]], [[2018-Berberich-The Virtuous Machine - Old Ethics for New|The Virtuous Machine - Old Ethics for New Technology]]
 
 ### Bias & Fairness (1)
 - 2018, [[Jieyu Zhao]], [[2018-Zhao-Learning Gender-Neutral Word Embeddings|Learning Gender-Neutral Word Embeddings]]
@@ -862,46 +862,46 @@ Total Categories: 30
 - 2020, [[Iason Gabriel]], [[2020-Gabriel-Artificial Intelligence Values and Alignment|Artificial Intelligence Values and Alignment]]
 
 ### GAMA Moral Agent (1)
-- 2020, [[Akrout, [[2020-Unknown-Machine Ethics - Creation of a Virtuous Machine|Machine Ethics - Creation of a Virtuous Machine]]
+- 2020, [[Akrout, [[2020-Akrout-Machine Ethics - Creation of a Virtuous Machine|Machine Ethics - Creation of a Virtuous Machine]]
 
 ### Defining Artificial Phronesis (1)
-- 2021, [[Sullins, [[2021-Unknown-Artificial Phronesis - What It Is and Is Not|Artificial Phronesis - What It Is and Is Not]]
+- 2021, [[Sullins, [[2021-Sullins-Artificial Phronesis - What It Is and Is Not|Artificial Phronesis - What It Is and Is Not]]
 
 ### Dialogue Systems (1)
 - 2022, [[Hyunwoo Kim]], [[2022-Kim-SODA|2022-Kim-SODA.md]]
 
 ### Virtue Learning via Games (1)
-- 2022, [[Unknown]], [[2022-Unknown-Towards Artificial Virtuous Agents - Games and ML|Towards Artificial Virtuous Agents - Games and ML]]
+- 2022, [[Ajay Vishwanath]], [[2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML|Towards Artificial Virtuous Agents - Games and ML]]
 
 ### Aristotelian Ethics & AI Flourishing (1)
 - 2024, [[Josiah Ober]], [[2024-Ober-AI Ethics with Aristotle|AI Ethics with Aristotle]]
 
 ### AI Impact on Practical Wisdom (1)
-- 2022, [[Eisikovits, [[2024-Unknown-AI and Phronesis|AI and Phronesis]]
+- 2022, [[Eisikovits, [[2024-Eisikovits-AI and Phronesis|AI and Phronesis]]
 
 ### LLM Moral Foundations (1)
-- 2024, [[Unknown]], [[2024-Unknown-Differences in Moral Foundations of LLMs|Differences in Moral Foundations of LLMs]]
+- 2024, [[Peter Kirgis]], [[2024-Kirgis-Differences in Moral Foundations of LLMs|Differences in Moral Foundations of LLMs]]
 
 ### Cross-lingual LLM Ethics (1)
-- 2024, [[Unknown]], [[2024-Unknown-Ethical Reasoning and Moral Value Alignment|Ethical Reasoning and Moral Value Alignment Across Languages]]
+- 2024, [[Utkarsh Agarwal]], [[2024-Agarwal-Ethical Reasoning and Moral Value Alignment|Ethical Reasoning and Moral Value Alignment Across Languages]]
 
 ### SPECTRA Ethical Framework (1)
-- 2024, [[Chhabra, [[2024-Unknown-Evaluating Computational Models of Ethics|Evaluating Computational Models of Ethics]]
+- 2024, [[Chhabra, [[2024-Chhabra-Evaluating Computational Models of Ethics|Evaluating Computational Models of Ethics]]
 
 ### LLM Moral Persuasion (1)
-- 2024, [[Unknown]], [[2024-Unknown-Moral Persuasion in Large Language Models|Moral Persuasion in Large Language Models]]
+- 2024, [[Allison Huang]], [[2024-Huang-Moral Persuasion in Large Language Models|Moral Persuasion in Large Language Models]]
 
 ### Socratic AI Ethics (1)
-- 2024, [[Unknown]], [[2024-Unknown-Socratic Dialogue for Virtue Ethics in AI|Socratic Dialogue for Virtue Ethics in AI]]
+- 2024, [[Maarten Wilders]], [[2024-Wilders-Socratic Dialogue for Virtue Ethics in AI|Socratic Dialogue for Virtue Ethics in AI]]
 
 ### AI Ethics Verification (1)
 - 2025, [[Priya T.V.]], [[2025-Priya-Deontic Temporal Logic for AI Ethics|Deontic Temporal Logic for AI Ethics]]
 
 ### AI Alignment & Fairness (1)
-- 2025, [[Unknown]], [[2025-Unknown-AI Alignment as Fair Treatment of Claims|AI Alignment as Fair Treatment of Claims]]
+- 2025, [[Iason Gabriel]], [[2025-Gabriel-AI Alignment as Fair Treatment of Claims|AI Alignment as Fair Treatment of Claims]]
 
 ### LLM Ethical Decision Framework (1)
-- 2025, [[Unknown]], [[2025-Unknown-AMULED - Addressing Moral Uncertainty with LLMs|AMULED - Addressing Moral Uncertainty with LLMs]]
+- 2025, [[Rohit K. Dubey]], [[2025-Dubey-AMULED - Addressing Moral Uncertainty with LLMs|AMULED - Addressing Moral Uncertainty with LLMs]]
 
 ## Religious Values
 Total Categories: 6
@@ -1264,7 +1264,7 @@ Total Categories: 12
 - 2025, [[Jackson Trager]], [[2025-Trager-MFTCXplain|2025-Trager-MFTCXplain.md]]
 - 2025, [[Ahmed Sameer]], [[2025-Sameer-Insights into Moral Reasoning of AI|Insights into Moral Reasoning of AI]]
 - 2024, [[Yu Ying Chiu]], [[2024-Chiu-DailyDilemmas|2024-Chiu-DailyDilemmas.md]]
-- 2024, [[Unknown]], [[2024-Unknown-Differences in Moral Foundations of LLMs|Differences in Moral Foundations of LLMs]]
+- 2024, [[Peter Kirgis]], [[2024-Kirgis-Differences in Moral Foundations of LLMs|Differences in Moral Foundations of LLMs]]
 - 2024, [[Renjie Cao]], [[2024-Cao-The Moral Foundations Weibo Corpus|The Moral Foundations Weibo Corpus]]
 - 2024, [[Meltem Aksoy]], [[2024-Aksoy-Whose Morality Do They Speak|Whose Morality Do They Speak?]]
 - 2024, [[Marwa Abdulhai]], [[2024-Abdulhai-Moral Foundations of Large Language Models|Moral Foundations of Large Language Models]]

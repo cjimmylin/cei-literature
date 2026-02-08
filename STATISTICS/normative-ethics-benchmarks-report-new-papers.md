@@ -44,7 +44,7 @@
 | 2 | `2024-Moore-Intuitions of Compromise - Utilitarianism vs. Contractualism.md` | Utilitarian (additive welfare) vs Contractualist (Nash Product) | Systematic value aggregation scenarios | GPT-4, Claude-3, Claude-2.1, GPT-3.5 |
 | 3 | `2025-Ashkinaze-Deep Value Benchmark.md` | W.D. Ross's prima facie duties (deontological: beneficence, fidelity, justice, non-maleficence, reparation, self-improvement) | DVB (12K questions, DVGR metric) | 9 models |
 | 4 | `2025-Huang-BehaviorBench Multi-Tier Benchmark for Agent Behavior Editing.md` | Deontology, utilitarianism, virtue ethics, justice (per Kagan's Normative Ethics) | BEHAVIORBENCH (multi-tier benchmark) | Frontier LLM agents |
-| 5 | `2025-Unknown-Moral Reasoning Across Languages The Critical Role of Low-Resource.md` | Virtue ethics, deontological ethics, consequentialism (ETHICSMAX with 6 principles per branch) | MMRB (2,170 scenarios, 5 languages) | GPT-4, GPT-3.5, LLaMA3, Mixtral |
+| 5 | `2025-Zhou-Moral Reasoning Across Languages The Critical Role of Low-Resource.md` | Virtue ethics, deontological ethics, consequentialism (ETHICSMAX with 6 principles per branch) | MMRB (2,170 scenarios, 5 languages) | GPT-4, GPT-3.5, LLaMA3, Mixtral |
 
 ---
 

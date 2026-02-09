@@ -31,6 +31,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2020/2020-Awad-Crowdsourcing moral machines.md"
+local_pdf: "[[PDFs/2020/2020-Awad-Crowdsourcing moral machines.pdf]]"
 ---
 # Crowdsourcing moral machines
 

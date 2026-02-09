@@ -28,6 +28,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 pdf_extract: "[[2025-Velay-Vitow-Putting the AI in Eudaimonia]]"
+local_pdf: N/A
 ---
 # Putting the AI in Eudaimonia
 

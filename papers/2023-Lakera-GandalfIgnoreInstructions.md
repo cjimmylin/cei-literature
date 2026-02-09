@@ -27,6 +27,7 @@ is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
 pdf_extract: [[2023-Lakera-GandalfIgnoreInstructions]]
+no_pdf_applicable: "true"
 ---
 # GandalfIgnoreInstructions
 

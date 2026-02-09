@@ -30,6 +30,7 @@ is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "16k questions"
 pdf_extract: "PDF Extracts/2025/2025-Wang-Measuring Desired Group Discrimination in LLMs.md"
+local_pdf: "[[PDFs/2025/2025-Wang-Measuring Desired Group Discrimination in LLMs.pdf]]"
 ---
 # Measuring Desired Group Discrimination in LLMs (DiffAware Benchmark Suite)
 

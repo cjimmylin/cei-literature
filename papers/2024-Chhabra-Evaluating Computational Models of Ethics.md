@@ -21,7 +21,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Chhabra-Evaluating Computational Models of Ethics.md"
 abstract: "This paper presents SPECTRA (Strategic Protocol Evaluation and Configuration Testbed for Responsible Autonomy), a general purpose multi-agent, message-passing framework on which different models of computational ethics can be implemented, including deontology, utilitarianism, virtue ethics and computational transcendence."
 paper_summary: 
-local_pdf: 
+local_pdf: "[[PDFs/2024/2024-Chhabra-Evaluating Computational Models of Ethics.pdf]]"
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes

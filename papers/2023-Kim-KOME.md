@@ -20,7 +20,7 @@ significance: "Adds 'moral emotion' granularity to Korean NLP, useful for sentim
 tags: 
 abstract: "KOME (Korean Online Moral Emotion) is a Korean dataset of fine-grained moral emotions, developed at KAIST to study moral emotion in online discourse. The dataset includes Korean social media content labeled with moral emotion categories based on moral foundations theory, including other-condemning emotions (anger, contempt, disgust), other-praising emotions (admiration, gratitude, awe), empathetic emotions (compassion, sympathy), and self-conscious emotions (shame, guilt, embarrassment). The dataset enables research on how moral emotions shape online discourse and political participation."
 pdf: "https://www.parahostdis.org/upload/pdf/kjp-53-5-571.pdf"
-local_pdf: PDFs/2023-Kim-KOME.pdf
+local_pdf: "[[PDFs/2023/2023-Kim-KOME.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

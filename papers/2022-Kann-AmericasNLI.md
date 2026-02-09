@@ -19,7 +19,7 @@ newtags: American
 tags: 
 abstract: "Little attention has been paid to the development of human language technology for truly low-resource languages—i.e., languages with limited amounts of digitally available text data, such as Indigenous languages. However, it has been shown that pretrained multilingual models are able to perform crosslingual transfer in a zero-shot setting even for low-resource languages which are unseen during pretraining. Yet, prior work evaluating performance on unseen languages has largely been limited to sha"
 pdf: "https://aclanthology.org/2022.acl-long.435.pdf"
-local_pdf: PDFs/2022-Kann-AmericasNLI.pdf
+local_pdf: "[[PDFs/2022/2022-Kann-AmericasNLI.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

@@ -10,6 +10,8 @@ year: 2025
 first_author: "[[Sven Kreutz]]"
 authors: "Sven Kreutz; Hendrik Klawitter"
 url: "https://germevalmp2023.github.io/data/"
+local_pdf: "[[PDFs/2019/2019-Kreutz-GermEval 2019 Task 2.pdf]]"
+pdf_extract: "PDF Extracts/2019/2019-Kreutz-GermEval 2019 Task 2.md"
 national_ethnic_cultural: German
 religious_values: N/A
 moral_psychology: N/A

@@ -20,7 +20,7 @@ tags:
 pdf_extract: 
 abstract: "This chapter looks at the need to develop machines with ethical and moral practical wisdom - artificial phronesis. Phronesis is a skill that most adult humans have to some level, but as of yet no machine has it. It is the ability to think creatively, artfully, and effectively in solving novel ethical and moral problems as they arise."
 paper_summary: 
-local_pdf: 
+local_pdf: N/A
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No

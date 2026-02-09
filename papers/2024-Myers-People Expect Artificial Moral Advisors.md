@@ -11,7 +11,7 @@ first_author: "[[Simon Myers]]"
 authors: "Simon Myers; Jim A.C. Everett"
 doi: 10.1016/j.cognition.2024.106028
 url: "https://www.sciencedirect.com/science/article/pii/S0010027724003147"
-external_pdf: 
+external_pdf: ""
 publication: Cognition
 national_ethnic_cultural: N/A
 religious_values: N/A
@@ -23,7 +23,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Myers-People Expect Artificial Moral Advisors.md"
 abstract: "Across four pre-registered studies (total N = 2604), we investigated how people perceive and trust artificial moral advisors compared to human advisors. We found that people have a significant aversion to AMAs (vs humans) giving moral advice, participants expect AI to make utilitarian decisions, and even when participants agreed with an AMA's decision, they still expected to disagree with it more than a human advisor in the future."
 paper_summary: 
-local_pdf: "PENDING - paywall restricted"
+local_pdf: "[[PDFs/2024/2024-Myers-People Expect Artificial Moral Advisors.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

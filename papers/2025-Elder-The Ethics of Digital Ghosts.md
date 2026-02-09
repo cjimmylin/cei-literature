@@ -28,6 +28,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+local_pdf: N/A
 ---
 # The Ethics of Digital Ghosts: Confucian, Mohist, and Zhuangist Perspectives on AI and Death
 

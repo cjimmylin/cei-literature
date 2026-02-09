@@ -1,21 +1,14 @@
 ---
 title: "“I’m sorry to hear that” - PDF Extract"
 source_pdf: "2022-Hu-“I’m sorry to hear that”.pdf"
-pages: 7
-extracted_at: "2026-01-24T19:37:55.292603"
+extraction_method: PyMuPDF
+pages_extracted: 7
+total_characters: 27662
 ---
 
-# PDF Extract: “I’m sorry to hear that”
+# “I’m sorry to hear that”
 
-**Source PDF:** 2022-Hu-“I’m sorry to hear that”.pdf
-**Total Pages:** 7
-
----
-
-## Content
-
-```
---- Page 1 ---
+## Page 1
 
 Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, pages 4324–4330
 December 7-11, 2022 ©2022 Association for Computational Linguistics
@@ -116,7 +109,7 @@ we propose a Momentum
 Contrastive pRe-training fOr queStion AnSwer-
 4324
 
---- Page 2 ---
+## Page 2
 
 ing (MCROSS) method for extractive QA. Specifi-
 cally, MCROSS employs a momentum contrastive
@@ -250,7 +243,7 @@ ing (MoCo) (He et al., 2020) strategy, we main-
 tain a large pool of consistent negative samples
 4325
 
---- Page 3 ---
+## Page 3
 
 from several previous batch iterations to preserve
 more information on negative samples and ob-
@@ -406,7 +399,7 @@ Specifically, TriviaQA (Joshi et al.,
 out-of-domain datasets from MRQA 2019 Shared
 4326
 
---- Page 4 ---
+## Page 4
 
 Task (Fisch et al., 2019). Since SQuADv1.1 (Ra-
 jpurkar et al., 2016) dataset is utilized to fine-tune
@@ -579,7 +572,7 @@ et al., 2017), into which MCROSS(w/o LMoCo) is
 overfitted to capture lexical overlaps.
 4327
 
---- Page 5 ---
+## Page 5
 
 4
 Conclusion
@@ -697,7 +690,7 @@ man Language Technologies, pages 210–219. Asso-
 ciation for Computational Linguistics.
 4328
 
---- Page 6 ---
+## Page 6
 
 Colin Raffel, Noam Shazeer, Adam Roberts, Kather-
 ine Lee, Sharan Narang, Michael Matena, Yanqi
@@ -809,7 +802,7 @@ v4.21.2/en/model_doc/bert#transformers.
 BertForQuestionAnswering
 4329
 
---- Page 7 ---
+## Page 7
 
 D
 Dataset
@@ -865,5 +858,3 @@ Training of the SSPT baselines and the MCROSS
 method took approximately 40 hours each on 8
 V-100 GPUs.
 4330
-
-```

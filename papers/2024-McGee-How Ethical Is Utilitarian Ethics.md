@@ -20,10 +20,10 @@ newtags: "Utilitarianism, AI Chatbots, Ethical Critique, Deontology, Virtue Ethi
 key_contribution: "Identifies structural weaknesses of utilitarian ethics through comparative analysis of AI chatbot responses (Microsoft Copilot vs Gab AI)"
 significance: "Demonstrates value of using multiple AI chatbots for philosophical analysis; applies deontological and virtue ethics critiques to utilitarian reasoning in AI"
 tags: 
-pdf_extract: 
+pdf_extract: "PDF Extracts/2024/2024-McGee-How Ethical Is Utilitarian Ethics.md"
 abstract: "This paper has two purposes: to identify and explore the structural weaknesses of utilitarian ethics, and to see which AI chatbot - Microsoft Copilot or Gab AI - gives the better philosophical answer to the question. Both chatbots did a good job of identifying and analyzing the structural weaknesses of utilitarian ethics. The study included an example involving harvesting body parts from death row inmates, and also applied deontological and virtue ethics principles to the issue with AI assistance."
 paper_summary: 
-local_pdf: "PENDING - paywall restricted"
+local_pdf: "[[PDFs/2024/2024-McGee-How Ethical Is Utilitarian Ethics.pdf]]"
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes

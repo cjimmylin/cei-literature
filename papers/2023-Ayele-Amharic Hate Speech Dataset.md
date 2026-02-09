@@ -30,6 +30,7 @@ is_dataset: Yes
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "15.1k tweets"
 pdf_extract: "PDF Extracts/2023/2023-Ayele-Amharic Hate Speech Dataset.md"
+local_pdf: "[[PDFs/2023/2023-Ayele-Amharic Hate Speech Dataset.pdf]]"
 ---
 # Amharic Hate Speech Dataset
 

@@ -30,6 +30,7 @@ is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2023/2023-Catapang-EMoTES-3K.md"
+local_pdf: "[[PDFs/2023/2023-Catapang-EMoTES-3K.pdf]]"
 ---
 # EMoTES-3K: Emotion-based Morality in Tagalog and English Scenarios
 

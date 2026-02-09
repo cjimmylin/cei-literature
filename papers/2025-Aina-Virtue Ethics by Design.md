@@ -28,6 +28,7 @@ is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2025/2025-Aina-Virtue Ethics by Design.md"
+local_pdf: "[[PDFs/2025/2025-Aina-Virtue Ethics by Design.pdf]]"
 ---
 # Virtue Ethics by Design: Embedding Morality into AGI and ASI
 

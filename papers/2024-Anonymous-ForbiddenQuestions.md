@@ -30,6 +30,7 @@ is_dataset: No
 data_description: Benchmark
 data_metrics: "107,250 samples"
 pdf_extract: "PDF Extracts/2024/2024-Anonymous-ForbiddenQuestions.md"
+local_pdf: "[[PDFs/2024/2024-Anonymous-ForbiddenQuestions.pdf]]"
 ---
 # ForbiddenQuestions: A Benchmark of In-the-Wild Jailbreak Prompts
 

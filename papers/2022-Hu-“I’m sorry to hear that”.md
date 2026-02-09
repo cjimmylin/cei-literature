@@ -28,6 +28,7 @@ is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2022/2022-Hu-“I’m sorry to hear that”.md"
+local_pdf: "[[PDFs/2022/2022-Hu-“I’m sorry to hear that”.pdf]]"
 ---
 # “I’m sorry to hear that”: Finding New Biases in Language Models with a Holistic Descriptor Dataset
 

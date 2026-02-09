@@ -30,6 +30,7 @@ is_dataset: No
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "10 languages"
 pdf_extract: "PDF Extracts/2024/2024-Wang-All Languages Matter.md"
+local_pdf: "[[PDFs/2024/2024-Wang-All Languages Matter.pdf]]"
 ---
 # All Languages Matter: On the Multilingual Safety of Large Language Models
 

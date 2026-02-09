@@ -28,6 +28,7 @@ is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2025/2025-Seveso-ITALIC.md"
+local_pdf: "[[PDFs/2025/2025-Seveso-ITALIC.pdf]]"
 ---
 # ITALIC: An Italian Culture-Aware Natural Language Benchmark
 

@@ -31,6 +31,7 @@ is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2024/2024-Marraffini-The Greatest Good Benchmark.md"
+local_pdf: "[[PDFs/2024/2024-Marraffini-The Greatest Good Benchmark.pdf]]"
 normative_ethics_benchmark: Yes
 ---
 # The Greatest Good Benchmark: Measuring LLMs’ Alignment with Utilitarian Moral Dilemmas

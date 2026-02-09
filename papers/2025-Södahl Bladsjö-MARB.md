@@ -30,6 +30,7 @@ is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2025/2025-Södahl Bladsjö-MARB.md"
+local_pdf: "[[PDFs/2025/2025-Södahl Bladsjö-MARB.pdf]]"
 ---
 # MARB: A Dataset for Studying the Social Dimensions of Reporting Bias in Language Models
 

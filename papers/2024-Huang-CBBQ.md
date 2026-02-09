@@ -30,6 +30,7 @@ is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "100k questions; over 100k questions"
 pdf_extract: "PDF Extracts/2024/2024-Huang-CBBQ.md"
+local_pdf: "[[PDFs/2024/2024-Huang-CBBQ.pdf]]"
 ---
 # CBBQ: A Chinese Bias Benchmark Dataset Curated with Human–AI Collaboration
 

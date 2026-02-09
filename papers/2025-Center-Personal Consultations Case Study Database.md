@@ -28,6 +28,7 @@ is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
 pdf_extract: "[[2025-Center-Personal Consultations Case Study Database]]"
+no_pdf_applicable: "true"
 ---
 # Personal Consultations Case Study Database
 

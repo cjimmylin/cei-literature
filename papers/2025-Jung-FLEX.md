@@ -30,6 +30,7 @@ is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2025/2025-Jung-FLEX.md"
+local_pdf: "[[PDFs/2025/2025-Jung-FLEX.pdf]]"
 ---
 # FLEX: A Benchmark for Evaluating Robustness of Fairness in Large Language Models
 

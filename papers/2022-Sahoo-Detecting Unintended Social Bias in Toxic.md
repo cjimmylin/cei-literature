@@ -31,6 +31,7 @@ is_dataset: Yes
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2022/2022-Sahoo-Detecting Unintended Social Bias in Toxic.md"
+local_pdf: "[[PDFs/2022/2022-Sahoo-Detecting Unintended Social Bias in Toxic.pdf]]"
 ---
 # Detecting Unintended Social Bias in Toxic Language Datasets
 

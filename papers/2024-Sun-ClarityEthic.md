@@ -31,6 +31,7 @@ is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2024/2024-Sun-ClarityEthic.md"
+local_pdf: "[[PDFs/2024/2024-Sun-ClarityEthic.pdf]]"
 ---
 # ClarityEthic: Explainable Moral Judgment Utilizing Contrastive Ethical Insights from Large Language Models
 

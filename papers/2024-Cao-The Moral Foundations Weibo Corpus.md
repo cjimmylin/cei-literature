@@ -20,7 +20,7 @@ significance: "Addresses the lack of non-English resources in computational mora
 tags: 
 abstract: "Moral sentiments expressed in natural language significantly influence both online and offline environments, shaping behavioral styles and interaction patterns, including social media self-presentation, cyberbullying, adherence to social norms, and ethical decision-making. To effectively measure moral sentiments in natural language processing texts, it is crucial to utilize large, annotated datasets that provide nuanced understanding for accurate analysis and model training. However, existing corpora, while valuable, often face linguistic limitations. To address this gap in the Chinese language domain, we introduce the Moral Foundation Weibo Corpus. This corpus consists of 25,671 Chinese comments on Weibo, encompassing six diverse topic areas. Each comment is manually annotated by at least three systematically trained annotators based on ten moral categories derived from a grounded theory of morality. To assess annotator reliability, we present the kappa test results, a gold standard for measuring consistency. Additionally, we apply several the latest large language models to supplement the manual annotations, conducting analytical experiments to compare their performance and report baseline results for moral sentiment classification."
 pdf: "http://arxiv.org/pdf/2411.09612"
-local_pdf: "PDFs/2024-Cao-The Moral Foundations Weibo Corpus.pdf"
+local_pdf: "[[PDFs/2024/2024-Cao-The Moral Foundations Weibo Corpus.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

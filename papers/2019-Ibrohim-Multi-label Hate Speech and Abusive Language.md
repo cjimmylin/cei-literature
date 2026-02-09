@@ -31,6 +31,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2019/2019-Ibrohim-Multi-label Hate Speech and Abusive Language.md"
+local_pdf: "[[PDFs/2019/2019-Ibrohim-Multi-label Hate Speech and Abusive Language.pdf]]"
 ---
 # Multi-label Hate Speech and Abusive Language Detection in Indonesian Twitter
 

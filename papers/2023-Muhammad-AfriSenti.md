@@ -19,7 +19,7 @@ newtags: "Arabic, African/Ubuntu, Brazilian"
 tags: 
 abstract: "We present the ﬁrst Africentric SemEval Shared task, Sentiment Analysis for African Languages (AfriSenti-SemEval)1. AfriSentiSemEval is a sentiment classiﬁcation challenge in 14 African languages (Amharic, Algerian Arabic, Hausa, Igbo, Kinyarwanda, Moroccan Arabic, Mozambican Portuguese, Nigerian Pidgin, Oromo, Swahili, Tigrinya, Twi, Xitsonga, and Yorùbá) (Muhammad et al., 2023), using data labeled with 3 sentiment classes. We present three subtasks: (1) Task A: monolingual classiﬁcation, which"
 pdf: "http://arxiv.org/pdf/2302.08956"
-local_pdf: PDFs/2023-Muhammad-AfriSenti.pdf
+local_pdf: "[[PDFs/2023/2023-Muhammad-AfriSenti.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

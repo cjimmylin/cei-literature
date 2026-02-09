@@ -31,6 +31,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: N/A
 pdf_extract: "PDF Extracts/2025/2025-Sanwoolu-Kantian deontology for AI.md"
+local_pdf: "[[PDFs/2025/2025-Sanwoolu-Kantian deontology for AI.pdf]]"
 ---
 # Kantian deontology for AI: alignment without moral agency
 

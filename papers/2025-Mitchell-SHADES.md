@@ -29,6 +29,7 @@ is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "16 languages"
 pdf_extract: "PDF Extracts/2025/2025-Mitchell-SHADES.md"
+local_pdf: "[[PDFs/2025/2025-Mitchell-SHADES.pdf]]"
 ---
 # SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models
 

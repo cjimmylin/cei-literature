@@ -31,6 +31,7 @@ is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2024/2024-Abdulhai-Moral Foundations of Large Language Models.md"
+local_pdf: "[[PDFs/2024/2024-Abdulhai-Moral Foundations of Large Language Models.pdf]]"
 ---
 # Moral Foundations of Large Language Models
 

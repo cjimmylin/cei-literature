@@ -30,6 +30,7 @@ is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2024/2024-Pisano-Moral High Ground.md"
+local_pdf: "[[PDFs/2024/2024-Pisano-Moral High Ground.pdf]]"
 ---
 # Moral High Ground: A text-based games benchmark for moral evaluation
 

@@ -2,6 +2,47 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 51 (Feb 8, 2026) - Missing PDFs Phase 2: YAML Cleanup & INBOX Processing
+
+### Overview
+
+Executed Phase 2 of the Missing PDFs & Orphan Cleanup project, resolving 76 papers with PDF-related issues discovered in a systematic cross-reference audit. Three parallel tracks: (A) batch YAML fixes via script, (B/C) PDF download attempts from open-access sources, (D) post-download YAML updates + extract creation, (E) validation. Additionally processed 2 manually-downloaded PDFs (Bryan, McGee) from the INBOX after automated download attempts failed due to anti-bot/JS-gating.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Papers with YAML fixes (Track A) | 60 (45 added local_pdf, 9 broken paths fixed, 3 PENDING resolved, 2 corrupted external_pdf cleaned, 1 pdf_extract added) |
+| PDFs downloaded (Tracks B/C) | 4 automated (Hu/ACL, Awad/HAL, ForbiddenQuestions/arXiv, Myers/Kent Uni) + 2 manual INBOX (Bryan/AMA, McGee/SSRN) |
+| Download failures | 6 (Zhang/paywalled, Sullins/OUP, Muyskens/Sage, Muntean/AmPhilQ, Velay-Vitow/JS-only) |
+| Invalid HTML-as-PDF cleaned | 5 moved to RECYCLE-BIN |
+| PDF extracts created | 6 (Hu 7pp, Awad 9pp, ForbiddenQuestions 22pp, Myers 19pp, Bryan 8pp, McGee 28pp) |
+| Papers marked non-downloadable | 5 (3 no_pdf_applicable + 2 N/A) |
+| Final valid local_pdf | 908 (98.4% of 923) |
+| Final local_pdf N/A | 11 |
+| Final no_pdf_applicable | 4 |
+| PDFs on disk | 993 |
+| Validation | 923/923 pass, 0 errors |
+
+### Key Learnings
+- [PDF Processing] Magic byte verification (`%PDF-` check) caught 5 invalid HTML-as-PDF files that publisher paywalls had served — essential guard for any automated download pipeline
+- [PDF Processing] Background Bash agents cannot get interactive permission prompts approved — download tasks requiring user-approved `curl` must run in main thread
+- [YAML] Corrupted YAML can be subtle: Sullins' `local_pdf` line contained `ethics_overall: No` as its value; regex field-matching must handle cross-contamination
+- [PDF Processing] Unpaywall `oa_locations[]` array (not just `best_oa_location`) is critical — HAL Science was the 3rd location for Awad, not the primary
+- [Workflows] Curly quotes and Unicode in filenames (Hu's curly quotes, Harrington's curly apostrophe) break shell heredocs — use Python script files instead of inline bash
+
+### Scripts Created
+- `PYTHON/fix_pdf_yaml_references.py`: Batch YAML fix for 60+ papers (add local_pdf, fix paths, mark non-downloadable, clean corrupted fields)
+
+### Files Changed
+- `papers/`: 72 modified (60 YAML fixes + 10 post-download updates + 2 INBOX processing)
+- `PDF Extracts/`: 7 modified/created (4 re-created + 2 new INBOX + 1 deleted old Ziems name)
+- `PYTHON/`: 1 new script
+- `STATISTICS/`: 2 files (1 new final report + 1 modified benchmark survey)
+- Report: `STATISTICS/20260208-missing-pdfs-final-report.md`
+
+---
+
 ## Session 50 (Feb 8, 2026) - Comprehensive LLM Ethics Benchmark Survey
 
 ### Overview
@@ -3503,6 +3544,6 @@ python3 PYTHON/validate_yaml_hook.py --staged-only
 
 ## Known Limitations
 
-- 158 papers lack local PDFs (126 Zotero URLs, 26 missing links, ~6 paywalled)
+- 15 papers lack local PDFs (11 paywalled/books with N/A, 4 no_pdf_applicable web resources)
 - Papers classified using keyword matching; results may need refinement
 - ~11% of papers have extractable quantitative metrics in their abstracts

@@ -6,7 +6,7 @@ Not AI:
 key: BALGR5YY
 type: conferencePaper
 short_title: "The Moral Integrity Corpus"
-year: 2025
+year: 2022
 first_author: "[[Caleb Ziems]]"
 authors: "Caleb Ziems; Jane Yu; Yi-Chia Wang; Alon Halevy; Diyi Yang"
 doi: 10.18653/v1/2022.acl-long.261
@@ -21,8 +21,9 @@ significance: "Enables 'moral transparency' in dialogue systems, allowing models
 tags: 
 abstract: "Content Warning: some examples in this paper may be offensive or upsetting."
 pdf: "http://arxiv.org/pdf/2204.03021"
-local_pdf: "PDFs/2022-Ziems-The Moral Integrity Corpus.pdf"
-ethics_overall: No
+local_pdf: "[[PDFs/2022/2022-Ziems-The Moral Integrity Corpus.pdf]]"
+publication: "ACL 2022"
+ethics_overall: "Yes"
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -64,6 +65,10 @@ Conversational agents have come increasingly closer to human competence in open-
 ## Authors
 
 [[Caleb Ziems]], [[Jane Yu]], [[Yi-Chia Wang]], [[Alon Halevy]], [[Diyi Yang]]
+
+## Dataset Information
+
+Size: 38,000 prompt-reply pairs; 99,000 distinct Rules of Thumb; 114,000 annotations
 
 ## Notes
 

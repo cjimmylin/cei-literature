@@ -20,7 +20,7 @@ significance: "Validates the 'localization hypothesis': you cannot just translat
 tags: 
 abstract: "Large language models (LLMs) not only learn natural text generation abilities but also social biases against different demographic groups from real-world data. This poses a critical risk when deploying LLM-based applications. Existing research and resources are not readily applicable in South Korea due to the differences in language and culture, both of which significantly affect the biases and targeted demographic groups. This limitation requires localized social bias datasets to ensure the safe and effective deployment of LLMs. To this end, we present KosBi, a new social bias dataset of 34k pairs of contexts and sentences in Korean covering 72 demographic groups in 15 categories. We find that through filtering-based moderation, social biases in generated content can be reduced by 16.47%p on average for HyperClova (30B and 82B), and GPT-3."
 pdf: "http://arxiv.org/pdf/2305.17701"
-local_pdf: PDFs/2023-Lee-KoSBI.pdf
+local_pdf: "[[PDFs/2023/2023-Lee-KoSBI.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

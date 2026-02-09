@@ -29,6 +29,7 @@ is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2024/2024-Li-SALAD-Bench.md"
+local_pdf: "[[PDFs/2024/2024-Li-SALAD-Bench.pdf]]"
 ---
 # SALAD-Bench: A Hierarchical and Comprehensive Safety Benchmark for Large Language Models
 

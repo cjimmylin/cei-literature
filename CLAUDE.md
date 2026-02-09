@@ -1,13 +1,13 @@
 # CLAUDE.md - CEI Literature Vault Configuration
 
-**Last Updated:** 2026-02-02
+**Last Updated:** 2026-02-08
 
 ---
 
 ## System Context
 
 **Role:** Academic Literature Database Manager for CEI Research
-**Mission:** Classify, enrich, and maintain 657+ AI ethics papers
+**Mission:** Classify, enrich, and maintain 923+ AI ethics papers
 **GitHub:** https://github.com/cjimmylin/cei-literature (actively tracked)
 
 ---
@@ -26,10 +26,10 @@
 
 | Item | Count | Location |
 |------|-------|----------|
-| Papers | 657 | `papers/` |
-| PDFs | 652 | External (`.vault-config.json`) |
-| Extracts | 662 | `PDF Extracts/` |
-| Authors | 2,946 | `Authors/` |
+| Papers | 923 | `papers/` |
+| PDFs | 993 | External (`PDFs/YYYY/`) |
+| Extracts | 1,277 | `PDF Extracts/YYYY/` |
+| Authors | 3,356 | `Authors/` |
 | AI Labs | 14 labs, 350+ papers | `AI Labs/` |
 
 ---

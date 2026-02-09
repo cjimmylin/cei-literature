@@ -11,6 +11,7 @@ first_author: "[[Kathryn Muyskens]]"
 authors: "[[Muyskens, Kathryn]]; [[Ma, Yonghui]]; [[Dunn, Michael]]"
 doi: 10.1177/09697330241238332
 url: "https://journals.sagepub.com/doi/10.1177/09697330241238332"
+local_pdf: N/A
 national_ethnic_cultural: Chinese
 religious_values: N/A
 moral_psychology: "Value Pluralism / Schwartz"

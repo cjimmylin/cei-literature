@@ -29,6 +29,7 @@ is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2023/2023-Dwivedi-EtiCor.md"
+local_pdf: "[[PDFs/2023/2023-Dwivedi-EtiCor.pdf]]"
 ---
 # EtiCor: Corpus for Analyzing LLMs for Etiquettes
 

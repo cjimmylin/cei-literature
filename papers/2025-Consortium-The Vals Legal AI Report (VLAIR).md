@@ -27,6 +27,7 @@ is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
 pdf_extract: "[[2025-Consortium-The Vals Legal AI Report (VLAIR)]]"
+no_pdf_applicable: "true"
 ---
 # The Vals Legal AI Report (VLAIR)
 

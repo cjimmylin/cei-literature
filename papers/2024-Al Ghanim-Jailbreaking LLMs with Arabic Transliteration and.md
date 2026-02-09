@@ -30,6 +30,7 @@ is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2024/2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.md"
+local_pdf: "[[PDFs/2024/2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.pdf]]"
 ---
 # Jailbreaking LLMs with Arabic Transliteration and Arabizi
 

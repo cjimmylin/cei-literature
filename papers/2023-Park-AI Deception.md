@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "AI Deception"
 year: 2025
 first_author: "[[Peter S. Park]]"
+last_author: "[[Dan Hendrycks]]"
 authors: "Peter S. Park; Simon Goldstein; Aidan O'Gara; Michael Chen; Dan Hendrycks"
 doi: 10.48550/arXiv.2308.14752
 url: "http://arxiv.org/abs/2308.14752"

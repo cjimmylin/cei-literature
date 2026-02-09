@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: REVAL
 year: 2025
 first_author: "[[Jie Zhang]]"
+last_author: "[[Xilin Chen]]"
 authors: "Jie Zhang; Zheng Yuan; Zhongqi Wang; Bei Yan; Sibo Wang; Xiangkui Cao; Zonghui Guo; Shiguang Shan; Xilin Chen"
 doi: 10.48550/arXiv.2503.16566
 tags: "Computer Science - Computer Vision and Pattern Recognition"

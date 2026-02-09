@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Controllable Preference Optimization"
 year: 2025
 first_author: "[[Yiju Guo]]"
+last_author: "[[Maosong Sun]]"
 authors: "Yiju Guo; Ganqu Cui; Lifan Yuan; Ning Ding; Zexu Sun; Bowen Sun; Huimin Chen; Ruobing Xie; Jie Zhou; Yankai Lin; Zhiyuan Liu; Maosong Sun"
 url: "https://arxiv.org/abs/2402.19085"
 external_pdf: "https://arxiv.org/pdf/2402.19085.pdf"
@@ -58,7 +59,7 @@ Alignment in artificial intelligence pursues the consistency between model respo
 
 ## Authors
 
-[[Yiju Guo]], [[Ganqu Cui]], [[Lifan Yuan]], [[Ning Ding]], [[Zexu Sun]], [[Bowen Sun]], [[Huimin Chen]], [[Ruobing Xie]], [[Jie Zhou]], [[Yankai Lin]], [[Zhiyuan Liu]], [[Maosong Sun]]
+[[Yiju Guo]], [[Ganqu Cui]], [[Lifan Yuan]], [[Ning Ding]], [[Zexu Sun]], [[Bowen Sun]], [[Huimin Chen]], [[Ruobing Xie]], [[Jie Zhou]], [[Ying Lin|Yankai Lin]], [[Zhiyuan Liu]], [[Maosong Sun]]
 
 ## Notes
 

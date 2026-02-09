@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: ToMBench
 year: 2025
 first_author: "[[Zhuang Chen]]"
+last_author: "[[Minlie Huang]]"
 authors: "Zhuang Chen; Jincenzi Wu; Jinfeng Zhou; Bosi Wen; Guanqun Bi; Gongyao Jiang; Yaru Cao; Mengting Hu; Yunghwei Lai; Zexuan Xiong; Minlie Huang"
 doi: 10.48550/arXiv.2402.15052
 url: "http://arxiv.org/abs/2402.15052"

@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Universals and variations in moral decisions made"
 year: 2025
 first_author: "[[Edmond Awad]]"
+last_author: "[[Jean-François Bonnefon]]"
 authors: "Edmond Awad; Sohan Dsouza; Azim Shariff; Iyad Rahwan; Jean-François Bonnefon"
 doi: 10.1073/pnas.1911517117
 url: "https://pnas.org/doi/full/10.1073/pnas.1911517117"

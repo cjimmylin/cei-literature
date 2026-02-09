@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: Chinese SafetyQA -- A Safety Short-form Factuality Benchmark
 year: 2024
 first_author: "[[Y. Tian]]"
+last_author: "[[Y. Tian]]"
 authors: Tian, Y. et al
+authors_incomplete: true
 url: "https://arxiv.org/abs/2412.15265"
 external_pdf: "https://arxiv.org/pdf/2412.15265.pdf"
 local_pdf: "[[PDFs/2024/2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Tian, Y. et al]]
+[[Yuandong Tian|Y. Tian]]
 
 ## Metadata
 

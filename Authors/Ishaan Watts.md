@@ -18,8 +18,11 @@ Master in Machine Learning (MSML) student at Carnegie Mellon University (joined 
 
 ## Papers in this Vault
 
-- [[2024-Watts-PARIKSHA|PARIKSHA]]
+
+- [[2024-Watts-PARIKSHA|PARIKSHA]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Watts-PARIKSHA*: Affiliation: lable on the web and have already been con-, Email: wattsishaan18@gmail.com
 [Additional context or contact information]

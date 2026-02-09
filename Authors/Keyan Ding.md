@@ -1,6 +1,6 @@
 ---
 name: "Keyan Ding"
-affiliation: "University/Organization"
+affiliation: "College of Computer Science and Technology, Zhejiang University"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Feng-ERPO|ERPO]]
 
 ## Notes
 
+
+- *From 2025-Feng-ERPO*: Affiliation: College of Computer Science and Technology, Zhejiang University
 [Additional context or contact information]

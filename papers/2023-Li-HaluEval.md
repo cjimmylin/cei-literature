@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: HaluEval
 year: 2025
 first_author: "[[Junyi Li]]"
+last_author: "[[Ji-Rong Wen]]"
 authors: "Junyi Li; Xiaoxue Cheng; Wayne Xin Zhao; Jian-Yun Nie; Ji-Rong Wen"
 doi: 10.48550/arXiv.2305.11747
 tags: 

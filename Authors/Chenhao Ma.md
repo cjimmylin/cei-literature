@@ -32,6 +32,8 @@ Chenhao Ma is an Assistant Professor at the Chinese University of Hong Kong, She
 
 ## Papers in this Vault
 
+
+- [[2023-Li-BIRD|BIRD]]
 - [[2023-Li-Can LLM Already Serve as A Database Interface|Can LLM Already Serve as A Database Interface?]]
 
 ## External Links & Profiles
@@ -40,4 +42,6 @@ Chenhao Ma is an Assistant Professor at the Chinese University of Hong Kong, She
 
 ## Notes
 
+
+- *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk
 Chenhao Ma's work is essential for making complex data accessible to non-technical users via natural language interfaces.

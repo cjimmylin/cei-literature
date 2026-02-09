@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: "A Survey of Large Language Models in Medicine"
 first_author: "[[Hongjian Zhou]]"
+last_author: "[[David Clifton]]"
 authors: "Hongjian Zhou; Fenglin Liu; Boyang Gu; Xinyu Zou; Jinfa Huang; Jinge Wu; Yiru Li; Sam Chen; Peilin Zhou; Junling Liu; Yining Hua; Chengfeng Mao; Xian Wu; Yefeng Zheng; Lei Clifton; Zheng Li; Jiebo Luo; David Clifton"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/W4BM83AK/Zhou et al. - A Survey of Large Language Models in Medicine Progress, Application, and Challenge.pdf"
 national_ethnic_cultural: N/A

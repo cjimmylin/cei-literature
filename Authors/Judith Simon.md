@@ -1,6 +1,6 @@
 ---
 name: "Judith Simon"
-affiliation: "University/Organization"
+affiliation: "University of Hamburg"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2023-Vida-Values, Ethics, Morals|Values, Ethics, Morals?]]
 
 ## Notes
 
+
+- *From 2023-Vida-Values, Ethics, Morals*: Affiliation: University of Hamburg
 [Additional context or contact information]

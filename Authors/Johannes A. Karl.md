@@ -1,6 +1,6 @@
 ---
 name: "Johannes A. Karl"
-affiliation: "University/Organization"
+affiliation: "Research Group, Institute D’Or for Research and Teaching, Rua"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Fischer-What does ChatGPT return about human values|What does ChatGPT return about human values?]]
+
+- [[2023-Fischer-What does ChatGPT return about human values|What does ChatGPT return about human values?]] (Last Author)
 
 ## Notes
 
+
+- *From 2023-Fischer-What does ChatGPT return about human values*: Affiliation: Research Group, Institute D’Or for Research and Teaching, Rua, Email: ronald.fischer@idor.org
 [Additional context or contact information]

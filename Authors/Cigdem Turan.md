@@ -29,10 +29,13 @@ Dr. Cigdem Turan (also known as Cigdem Turan-Schwiewager) is a researcher from t
 - Demonstrated that text corpora contain recoverable imprints of social, ethical, and moral choices across different time periods (1510-2009)
 
 ## Papers in this Vault
+
 - [[2020-Schramowski-The Moral Choice Machine|The Moral Choice Machine]]
 
 ## External Links & Profiles
 - [The Moral Choice Machine Paper](https://www.frontiersin.org/articles/10.3389/frai.2020.00036/full)
 
 ## Notes
+
+- *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
 Relevant to AI ethics research, particularly on encoding moral values in AI systems. The Moral Choice Machine work showed that AI can learn to differentiate moral contexts (e.g., "kill people" vs. "kill time") and that moral biases in text reflect historical evolution of ethical standards. This provides foundational work for understanding how LLMs acquire and represent moral knowledge.

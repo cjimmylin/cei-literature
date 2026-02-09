@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "The Moral Turing Test"
 year: 2025
 first_author: "[[Basile Garcia]]"
+last_author: "[[Stefano Palminteri]]"
 authors: "Basile Garcia; Crystal Qian; Stefano Palminteri"
 doi: 10.48550/arXiv.2410.07304
 url: "http://arxiv.org/abs/2410.07304"

@@ -46,6 +46,7 @@ Amandeep Singh is a researcher contributing to human-centered AI evaluation, not
 
 ## Papers in this Vault
 
+
 - [[2025-Raza-HumaniBench|HumaniBench]]
 
 ## External Links & Profiles
@@ -54,4 +55,6 @@ Amandeep Singh is a researcher contributing to human-centered AI evaluation, not
 
 ## Notes
 
+
+- *From 2025-Raza-HumaniBench*: Affiliation: Institute for Artificial Intelligence, Toronto, Canada
 Note: There are multiple researchers named "Amandeep Singh" in AI/ML. This profile corresponds to the Amandeep Singh who co-authored HumaniBench with Shaina Raza et al. The HumaniBench work is highly relevant to CEI's focus on AI alignment, as it provides a systematic way to evaluate whether multimodal AI systems embody human-centered values like empathy, fairness, and ethical behavior.

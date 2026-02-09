@@ -8,6 +8,7 @@ type: journalArticle
 short_title: SafetyBench
 year: 2025
 first_author: "[[Zhexin Zhang]]"
+last_author: "[[Minlie Huang]]"
 authors: "Zhexin Zhang; Leqi Lei; Lindong Wu; Rui Sun; Yongkang Huang; Chong Long; Xiao Liu; Xuanyu Lei; Jie Tang; Minlie Huang"
 url: "https://arxiv.org/abs/2309.07045"
 external_pdf: "https://arxiv.org/pdf/2309.07045.pdf"

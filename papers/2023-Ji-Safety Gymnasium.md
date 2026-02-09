@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Safety Gymnasium"
 year: 2025
 first_author: "[[Jiaming Ji]]"
+last_author: "[[Yaodong Yang]]"
 authors: "Jiaming Ji; Borong Zhang; Jiayi Zhou; Xuehai Pan; Weidong Huang; Ruiyang Sun; Yiran Geng; Yifan Zhong; Juntao Dai; Yaodong Yang"
 url: "https://proceedings.neurips.cc/paper_files/paper/2023/file/3c557a3d6a48cc99444f85e924c66753-Paper-Datasets_and_Benchmarks.pdf"
 external_pdf: "https://proceedings.neurips.cc/paper_files/paper/2023/file/3c557a3d6a48cc99444f85e924c66753-Paper-Datasets_and_Benchmarks.pdf"
@@ -57,7 +58,7 @@ Artificial intelligence (AI) systems possess significant potential to drive soci
 
 ## Authors
 
-[[Jiaming Ji]], [[Borong Zhang]], [[Jiayi Zhou]], [[Xuehai Pan]], [[Weidong Huang]], [[Ruiyang Sun]], [[Yiran Geng]], [[Yifan Zhong]], [[Juntao Dai]], [[Yaodong Yang]]
+[[Jiaming Ji]], [[Borong Zhang]], [[Jiayi Zhou]], [[Xuehai Pan]], [[Wenhao Huang|Weidong Huang]], [[Rui Sun|Ruiyang Sun]], [[Yiran Geng]], [[Yifan Zhong]], [[Juntao Dai]], [[Yaodong Yang]]
 
 ## Notes
 

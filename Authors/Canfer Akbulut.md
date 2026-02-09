@@ -46,7 +46,9 @@ Akbulut has been involved in several large-scale red-teaming initiatives, provid
 
 ## Papers in this Vault
 
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
+- [[2024-Rauh-Gaps in the Safety Evaluation of Generative AI|Gaps in the Safety Evaluation of Generative AI]]
 
 ## External Links & Profiles
 
@@ -55,4 +57,6 @@ Akbulut has been involved in several large-scale red-teaming initiatives, provid
 - [GitHub Profile](https://github.com/canfer)
 
 ## Notes
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 Canfer's position at the intersection of Western and Eastern AI research hubs makes him a valuable contributor to the "Global Safety" dialogue.

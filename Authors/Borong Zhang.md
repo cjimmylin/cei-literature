@@ -45,9 +45,9 @@ Zhang has developed novel solvers for ptychographic phase retrieval and wideband
 - [Stochastic Multigrid Method for Phase Retrieval](https://doi.org/10.1137/123456) (2022) - *Advanced numerical analysis for structural biology.*
 
 ## Papers in this Vault
-- [[2023-Ji-AI Alignment|AI Alignment]]
 
-- [[2024-Ungless-ETHICS WHITEPAPER|ETHICS WHITEPAPER]]
+- [[2023-Ji-AI Alignment|AI Alignment]]
+- [[2023-Ji-Safety Gymnasium|Safety Gymnasium]]
 
 ## External Links & Profiles
 
@@ -56,4 +56,6 @@ Zhang has developed novel solvers for ptychographic phase retrieval and wideband
 - [Personal Website](https://borongzhang.com/)
 
 ## Notes
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 His research is at the forefront of the "Safety and Reliability" of AI in science, where the goal is to create models that respect the physical laws of the universe.

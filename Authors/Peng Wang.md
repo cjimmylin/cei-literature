@@ -16,8 +16,11 @@ Multiple researchers named "Peng Wang" found in 2026 with different AI-related a
 
 ## Papers in this Vault
 
-- [[2025-Wang-X-WebAgentBench|X-WebAgentBench]]
+
+- [[2025-Wang-X-WebAgentBench|X-WebAgentBench]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Wang-X-WebAgentBench*: Affiliation: School of Computer Science and Engineering, Central South University, China, Email: wpengxss@gmail.com
 [Additional context or contact information]

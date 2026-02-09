@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment"
 year: 2024
 first_author: "[[K. Vida]]"
+last_author: "[[A]]"
 authors: "Vida, K., Damken, F., & Lauscher, A"
 url: "https://arxiv.org/abs/2407.15184"
 external_pdf: "https://arxiv.org/pdf/2407.15184.pdf"
@@ -37,7 +38,7 @@ data_metrics: "6500 scenarios"
 
 ## Authors
 
-[[Vida, K., Damken, F., & Lauscher, A]]
+[[Vida]], [[Katleho K.|K.]], [[Damken]], [[F.]], [[& Lauscher]], [[A]]
 
 ## Metadata
 

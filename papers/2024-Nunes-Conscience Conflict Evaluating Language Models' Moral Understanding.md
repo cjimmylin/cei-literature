@@ -10,6 +10,7 @@ type: conferencePaper
 short_title: "Conscience Conflict: Evaluating Language Models' Moral Understanding"
 year: 2024
 first_author: "[[José Luiz Nunes]]"
+last_author: "[[Simone D. J. Barbosa]]"
 authors: José Luiz Nunes; Guilherme F. C. F. Almeida; Marcelo de Araujo; Simone D. J. Barbosa
 publication: Unknown
 external_pdf: "https://arxiv.org/pdf/2405.11100.pdf"

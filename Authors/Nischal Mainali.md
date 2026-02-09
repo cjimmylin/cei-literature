@@ -17,8 +17,11 @@ Nischal Mainali is affiliated with ELSC (Edmond & Lily Safra Center for Brain Sc
 
 ## Papers in this Vault
 
-- [[2020-Mainali-Automated Classification of Modes of Moral|Automated Classification of Modes of Moral]]
+
+- [[2020-Mainali-Automated Classification of Modes of Moral|Automated Classification of Modes of Moral]] (First Author)
 
 ## Notes
 
+
+- *From 2020-Mainali-Automated Classification of Modes of Moral*: Affiliation: research centers, Email: e.ash@warwick.ac.uk
 [Additional context or contact information]

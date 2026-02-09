@@ -1,6 +1,6 @@
 ---
 name: "Jing Shao"
-affiliation: "University/Organization"
+affiliation: "Institute of Technology"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,10 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Li-Benchmarking Ethics in Text-to-Image Models|Benchmarking Ethics in Text-to-Image Models]]
-- [[2024-Li-SALAD-Bench|SALAD-Bench]]
-- [[2025-Li-T2ISafety|T2ISafety]]
+
+- [[2025-Li-T2ISafety|T2ISafety]] (Last Author)
+- [[2024-Li-Benchmarking Ethics in Text-to-Image Models|Benchmarking Ethics in Text-to-Image Models]] (Last Author)
+- [[2024-Li-SALAD-Bench|SALAD-Bench]] (Last Author)
 
 ## Notes
 
+
+- *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 [Additional context or contact information]

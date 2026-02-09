@@ -1,9 +1,9 @@
 ---
 name: "Walid Magdy"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University, Qatar"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "telsayed@qu.edu.qa"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in|IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in]]
+- [[2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in|IslamicEval 2025 -- Shared Task on Capturing LLM Hallucination in Islamic Content]] (Last Author)
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in*: Affiliation: University, Qatar, Email: telsayed@qu.edu.qa
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

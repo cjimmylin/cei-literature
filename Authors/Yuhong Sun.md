@@ -20,8 +20,11 @@ Yuhong Sun is a researcher at Fudan University's Software Engineering Institute 
 
 ## Papers in this Vault
 
-- [[2024-Sun-Benchmarking Hallucination in Large Language|Benchmarking Hallucination in Large Language]]
+
+- [[2024-Sun-Benchmarking Hallucination in Large Language|Benchmarking Hallucination in Large Language]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Sun-Benchmarking Hallucination in Large Language*: Affiliation: Institute, East China Normal University, Email: guoqipeng@pjlab.org.cn
 [Additional context or contact information]

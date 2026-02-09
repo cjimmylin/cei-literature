@@ -3,7 +3,7 @@ name: "Alipio Jorge"
 title: "Associate Professor / Coordinator"
 affiliation: "University of Porto (FCUP) / INESC TEC"
 highest_degree: "PhD"
-email: ""
+email: "shmuhammad.csc@buk.edu.ng"
 research_interests:
   - "Machine Learning"
   - "Data Mining"
@@ -31,11 +31,14 @@ Professor Jorge's research focuses on extracting structured knowledge from unstr
 - [Text2Story: Extracting Narratives from Text](https://link.springer.com/chapter/10.1007/978-3-030-45442-5_57) (2020) - *Leading research on narrative structures in ML.*
 
 ## Papers in this Vault
-- [[2024-Buyl-Large Language Models Reflect the Ideology of|Large Language Models Reflect the Ideology of]]
+
+- [[2023-Muhammad-AfriSenti|AfriSenti]]
 
 ## External Links & Profiles
 - [Personal Page](https://www.dcc.fc.up.pt/~amjorge/)
 - [Google Scholar](https://scholar.google.com/citations?user=wMjqg7QAAAAJ)
 
 ## Notes
+
+- *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 [Coordinates major AI laboratories in Porto, focusing on decision support and narrative analysis.]

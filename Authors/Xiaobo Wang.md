@@ -1,9 +1,9 @@
 ---
 name: "Xiaobo Wang"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute for Artificial Intelligence, Peking University"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "kangyipeng@bigai.ai"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
 - [[2025-Zhang-PoliCon|PoliCon]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Zhang-PoliCon*: Affiliation: Institute for Artificial Intelligence, Peking University, Email: kangyipeng@bigai.ai
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

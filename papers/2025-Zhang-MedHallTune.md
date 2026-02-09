@@ -8,6 +8,7 @@ type: document
 short_title: MedHallTune
 year: 2025
 first_author: "[[Qiao Yan]]"
+last_author: "[[Pheng-Ann Heng]]"
 authors: "Qiao Yan; Yuchen Yuan; Xiaowei Hu; Yihan Wang; Jiaqi Xu; Jinpeng Li; Chi-Wing Fu; Pheng-Ann Heng"
 url: "https://arxiv.org/abs/2502.20780"
 external_pdf: "https://arxiv.org/pdf/2502.20780.pdf"
@@ -83,7 +84,7 @@ Specific domain hallucination requires specific domain tuning. MedHallTune provi
 
 ## Authors
 
-[[Qiao Yan]], [[Yuchen Yuan]], [[Xiaowei Hu]], [[Yihan Wang]], [[Jiaqi Xu]], [[Jinpeng Li]], [[Chi-Wing Fu]], [[Pheng-Ann Heng]]
+[[Qiao Yan]], [[Yuchen Yuan]], [[Xiaowei Hu]], [[Yihan Wang]], [[Jiajie Xu|Jiaqi Xu]], [[Jinpeng Li]], [[Cheng-Yang Fu|Chi-Wing Fu]], [[Pheng-Ann Heng]]
 
 ## Notes
 

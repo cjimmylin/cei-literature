@@ -3,7 +3,7 @@ name: "Bing Liu"
 title: "Distinguished Professor"
 affiliation: "University of Illinois Chicago (UIC)"
 highest_degree: "PhD, University of Edinburgh (1989)"
-email: ""
+email: "kellycyy@uw.edu"
 research_interests:
   - "Sentiment Analysis"
   - "Lifelong Machine Learning"
@@ -49,9 +49,8 @@ He has authored foundational textbooks, including *Sentiment Analysis: Mining Op
 - [Lifelong Machine Learning](https://www.morganclaypool.com/doi/abs/10.2200/S00868ED1V01Y201808AIM041) (2018) - *Foundational work on continuous learning.*
 
 ## Papers in this Vault
-- [[2025-Chiu-MoReBench|MoReBench]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2025-Chiu-MoReBench|MoReBench]]
 
 ## External Links & Profiles
 
@@ -61,4 +60,6 @@ He has authored foundational textbooks, including *Sentiment Analysis: Mining Op
 - [Personal Website](https://www.cs.uic.edu/~liub/)
 
 ## Notes
+
+- *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 [Bing is a legendary researcher whose work on sentiment and lifelong learning is foundational to AI.]

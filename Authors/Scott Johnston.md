@@ -1,6 +1,6 @@
 ---
 name: "Scott Johnston"
-affiliation: "University/Organization"
+affiliation: "labels identifying harmful outputs"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
+- [[2022-Bai-Training a Helpful and Harmless Assistant with|Training a Helpful and Harmless Assistant with]]
+- [[2022-Ganguli-Red Teaming Language Models to Reduce Harms|Red Teaming Language Models to Reduce Harms]]
 
 ## Notes
 
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 [Additional context or contact information]

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: BiasLab
 year: 2025
 first_author: "[[Kma Solaiman]]"
+last_author: "[[Kma Solaiman]]"
 authors: "Kma Solaiman"
 doi: 10.48550/arXiv.2505.16081
 tags: 

@@ -3,7 +3,7 @@ name: "Bernard Opoku"
 title: "Research Assistant & Junior Lecturer"
 affiliation: "Accra Institute of Technology (AIT), Ghana"
 highest_degree: "MSc, Mathematical Sciences, AIMS Cameroon (2015)"
-email: ""
+email: "shmuhammad.csc@buk.edu.ng"
 research_interests:
   - "Natural Language Processing"
   - "African Languages"
@@ -45,9 +45,8 @@ Opoku is a co-author of "AfriSenti," a significant sentiment analysis benchmark 
 - [Machine Learning for Medical Data Analysis in Ghana](https://doi.org/10.1007/s11042-022-12345-z) (2022) - *Research on healthcare applications of AI.*
 
 ## Papers in this Vault
-- [[2023-Muhammad-AfriSenti|AfriSenti]]
 
-- [[2023-Opoku-AfriSenti|AfriSenti]]
+- [[2023-Muhammad-AfriSenti|AfriSenti]]
 
 ## External Links & Profiles
 
@@ -56,4 +55,6 @@ Opoku is a co-author of "AfriSenti," a significant sentiment analysis benchmark 
 - [ResearchGate](https://www.researchgate.net/profile/Bernard-Opoku)
 
 ## Notes
+
+- *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 His work is vital for cultural alignment and ensuring that AI ethics frameworks are applicable to the diverse linguistic and cultural landscape of the African continent.

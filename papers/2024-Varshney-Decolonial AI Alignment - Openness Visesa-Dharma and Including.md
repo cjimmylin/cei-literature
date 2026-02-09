@@ -10,6 +10,7 @@ type: conferencePaper
 short_title: Decolonial AI Alignment -- Openness, Visesa-Dharma, and Including Excluded Knowledges
 year: 2024
 first_author: "[[K. R Varshney]]"
+last_author: "[[K. R Varshney]]"
 authors: Varshney, K. R
 doi: 10.5555/3716662.3716790
 url: "https://arxiv.org/abs/2309.05030"
@@ -40,7 +41,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Varshney, K. R]]
+[[Kush R. Varshney|K. R Varshney]]
 
 ## Metadata
 

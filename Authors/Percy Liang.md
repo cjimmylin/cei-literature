@@ -19,9 +19,16 @@ Percy Liang is an Associate Professor of Computer Science, Senior Fellow at the 
 
 ## Papers in this Vault
 
-- [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]
+
+- [[2025-Group-AILuminate|AILuminate]]
+- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
+- [[2024-Kaiyom-HELM Safety|HELM Safety]] (Last Author)
 - [[2024-Zeng-AIR-Bench 2024|AIR-Bench 2024]]
+- [[2023-Santurkar-Whose Opinions Do Language Models Reflect|Whose Opinions Do Language Models Reflect?]]
+- [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]] (First Author)
 
 ## Notes
 
+
+- *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: tonyhlee@stanford.edu
 [Additional context or contact information]

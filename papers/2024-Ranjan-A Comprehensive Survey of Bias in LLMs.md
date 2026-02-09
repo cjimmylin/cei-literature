@@ -8,6 +8,7 @@ type: document
 short_title: "A Comprehensive Survey of Bias in LLMs"
 year: 2025
 first_author: "[[Rajesh Ranjan]]"
+last_author: "[[Surya Narayan Singh]]"
 authors: "Rajesh Ranjan; Shailja Gupta; Surya Narayan Singh"
 url: "https://arxiv.org/abs/2409.16430"
 external_pdf: "https://arxiv.org/pdf/2409.16430.pdf"

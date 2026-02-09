@@ -19,8 +19,11 @@ Jie Fu is a researcher currently at Shanghai AI Lab (since August 2024), working
 
 ## Papers in this Vault
 
+
 - [[2023-Ji-AI Alignment|AI Alignment]]
 
 ## Notes
 
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 Notable achievements include 1st place in Google's Natural Question Answering with RikiNet (December 2019, first superhuman performance), 1st place in Multi-Agent Reinforcement Learning competition (2020), and receiving Microsoft Research Montreal & Mila Research Grant as PI (2021). He has contributed to Chinese language model research including work on "Chinese Open Instruction Generalist."

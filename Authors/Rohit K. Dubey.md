@@ -20,8 +20,11 @@ Postdoctoral researcher heading the Zurich team for the "Semantic Urban Elements
 
 ## Papers in this Vault
 
-- [[2025-Dubey-Addressing Moral Uncertainty using Large Language|Addressing Moral Uncertainty using Large Language]]
+
+- [[2025-Dubey-Addressing Moral Uncertainty using Large Language|Addressing Moral Uncertainty using Large Language]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Dubey-Addressing Moral Uncertainty using Large Language*:, Email: rohit.dubey@gess.ethz.ch
 [Additional context or contact information]

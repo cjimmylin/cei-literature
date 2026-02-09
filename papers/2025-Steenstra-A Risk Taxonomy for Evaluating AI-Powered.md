@@ -8,6 +8,7 @@ type: document
 short_title: "A Risk Taxonomy for Evaluating AI-Powered"
 year: 2025
 first_author: "[[Ian Steenstra]]"
+last_author: "[[Timothy W. Bickmore]]"
 authors: "Ian Steenstra; Timothy W. Bickmore"
 url: "https://arxiv.org/abs/2505.15108"
 external_pdf: "https://arxiv.org/pdf/2505.15108.pdf"

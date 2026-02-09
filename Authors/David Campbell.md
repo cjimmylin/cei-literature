@@ -24,8 +24,11 @@ Campbell's research focuses on understanding and mitigating catastrophic risks f
 
 ## Papers in this Vault
 
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## Notes
 
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 Campbell's work on the WMDP benchmark addresses one of the most serious potential risks from advanced AI systems: the possibility of AI being used to assist in creating weapons of mass destruction.

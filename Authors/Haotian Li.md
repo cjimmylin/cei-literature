@@ -23,8 +23,11 @@ Haotian Li is a researcher at the University of Illinois Urbana-Champaign workin
 
 ## Papers in this Vault
 
+
 - [[2025-Lin-MORALISE|MORALISE]]
 
 ## Notes
 
+
+- *From 2025-Lin-MORALISE*: Affiliation: University of Illinois Urbana-Champaign 2Amazon 3Fidelity Investments, Email: xiaol13@illinois.edu
 Part of the collaborative research team between UIUC, Amazon, and Fidelity Investments working on moral evaluation of multimodal AI systems.

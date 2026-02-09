@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: "A Multi-Dimensional View of Aggression when"
 first_author: "[[Arjit Srivastava]]"
+last_author: "[[Manish Shrivastava]]"
 authors: "Arjit Srivastava; Avijit Vajpayee; Syed Sarfaraz Akhtar; Naman Jain; Vinay Singh; Manish Shrivastava"
 url: "https://aclanthology.org/2020.trac-1.3/"
 external_pdf: "https://aclanthology.org/2020.trac-1.3.pdf"

@@ -8,6 +8,7 @@ type: document
 short_title: "What Makes it Ok to Set a Fire? Iterative"
 year: 2025
 first_author: "[[Kavel Rao]]"
+last_author: "[[Choi, Yejin]]"
 authors: "[[Rao, Kavel]]; [[Jiang, Liwei]]; [[Pyatkin, Valentina]]; [[Gu, Yuling]]; [[Tandon, Niket]]; [[Dziri, Nouha]]; [[Brahman, Faeze]]; [[Choi, Yejin]]"
 url: "https://aclanthology.org/2023.findings-emnlp.812/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/V233P2RS/2023 - What Makes it Ok to Set a Fire Iterative Self-Distillation of Contexts and Rationales for Disambigu.pdf"
@@ -36,12 +37,7 @@ local_pdf: "[[PDFs/2023/2023-Rao-What Makes it Ok to Set a Fire Iterative.pdf]]"
 
 ## Authors
 
-[[Kavel Rao]], [[Liwei Jiang]], [[Valentina Pyatkin]], [[Yuling Gu]], [[Niket Tandon]], [[Nouha Dziri]], [[Faeze Brahman]], [[Yejin Choi]]
-## Metadata
-
-**Year:** 2023
-
-**Type:** document
+[[Kavel Rao|Rao, Kavel]], [[Liwei Jiang|Jiang, Liwei]], [[Valentina Pyatkin|Pyatkin, Valentina]], [[Yuling Gu|Gu, Yuling]], [[Niket Tandon|Tandon, Niket]], [[Nouha Dziri|Dziri, Nouha]], [[Faeze Brahman|Brahman, Faeze]], [[Yejin Choi|Choi, Yejin]]
 
 ## Links
 

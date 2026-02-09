@@ -10,6 +10,7 @@ type: preprint
 short_title: MedES (Chinese Medical Ethics Scenarios)
 year: 2026
 first_author: "[[Haoan Jin]]"
+last_author: "[[Mengyue Wu]]"
 authors: Haoan Jin, Han Ying, Jiacheng Ji, Hanhui Xu, and Mengyue Wu
 url: "https://arxiv.org/abs/2601.07954"
 external_pdf: "https://arxiv.org/pdf/2601.07954.pdf"
@@ -39,7 +40,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Haoan Jin, Han Ying, Jiacheng Ji, Hanhui Xu, and Mengyue Wu]]
+[[Haoan Jin]], [[Han Ying]], [[Jiacheng Ji]], [[Hanhui Xu]], [[Mengyue Wu]]
 
 ## Metadata
 

@@ -8,6 +8,7 @@ type: document
 short_title: WildGuard
 year: 2025
 first_author: "[[Seungju Han]]"
+last_author: "[[Nouha Dziri]]"
 authors: "Seungju Han; Kavel Rao; Allyson Ettinger; Liwei Jiang; Bill Yuchen Lin; Nathan Lambert; Yejin Choi; Nouha Dziri"
 url: "https://arxiv.org/abs/2406.18495"
 external_pdf: "https://arxiv.org/pdf/2406.18495.pdf"

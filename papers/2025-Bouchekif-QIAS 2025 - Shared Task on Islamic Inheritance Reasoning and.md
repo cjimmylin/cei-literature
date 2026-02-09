@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: QIAS 2025 -- Shared Task on Islamic Inheritance Reasoning and Knowledge Assessment
 year: 2025
 first_author: "[[Abdessalam Bouchekif]]"
+last_author: "[[Mohammed Ghaly]]"
 authors: Abdessalam Bouchekif; Samer Rashwani; Emad Mohamed; Mutaz Al-Khatib; Heba Sbahi; Shahd Gaben; Wajdi Zaghouani; Aiman Erbad; Mohammed Ghaly
 publication: Unknown
 external_pdf: "https://aclanthology.org/2025.arabicnlp-sharedtasks.117.pdf"

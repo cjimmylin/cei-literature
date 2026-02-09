@@ -8,6 +8,7 @@ type: journalArticle
 short_title: COBBLER
 year: 2025
 first_author: "[[Ryan Koo]]"
+last_author: "[[Dongyeop Kang]]"
 authors: "Ryan Koo; Minhwa Lee; Vipul Raheja; Jong Inn Park; Zae Myung Kim; Dongyeop Kang"
 url: "https://arxiv.org/abs/2309.17012"
 external_pdf: "https://arxiv.org/pdf/2309.17012.pdf"
@@ -55,7 +56,7 @@ Large Language Models are cognitively biased judges. Large Language Models (LLMs
 
 ## Authors
 
-[[Ryan Koo]], [[Minhwa Lee]], [[Vipul Raheja]], [[Jong Inn Park]], [[Zae Myung Kim]], [[Dongyeop Kang]]
+[[Ryan Koo]], [[Michael S. Lee|Minhwa Lee]], [[Vipul Raheja]], [[Jong Inn Park]], [[Zae Myung Kim]], [[Dongyeop Kang]]
 
 ## Notes
 

@@ -20,8 +20,11 @@ Himabindu "Hima" Lakkaraju is an Assistant Professor of Business Administration 
 
 ## Papers in this Vault
 
-- [[2024-Han-MedSafetyBench|MedSafetyBench]]
+
+- [[2024-Han-MedSafetyBench|MedSafetyBench]] (Last Author)
 
 ## Notes
 
+
+- *From 2024-Han-MedSafetyBench*: Affiliation: University of Virginia, Email: aokumar@hbs.edu
 Professor Lakkaraju is a leading figure in trustworthy AI, with her research receiving best paper awards at SDM and INFORMS, and grants from NSF, Google, Amazon, and Bayer.

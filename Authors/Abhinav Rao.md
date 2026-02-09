@@ -3,7 +3,7 @@ name: "Abhinav Rao"
 title: "PhD Student"
 affiliation: "University of Maryland, College Park"
 highest_degree: "M.S., Carnegie Mellon University (2024)"
-email: ""
+email: "reinecke@cs.washington.edu"
 research_interests:
   - "AI Ethics & Fairness"
   - "Moral Biases in LLMs"
@@ -33,8 +33,9 @@ Abhinav investigates the ethical reasoning capabilities of large language models
 
 ## Papers in this Vault
 
-- [[2023-Rao-Ethical Reasoning over Moral Alignment|Ethical Reasoning over Moral Alignment]]
-- [[2025-Rao-NormAd|NormAd]]
+
+- [[2025-Rao-NormAd|NormAd]] (First Author)
+- [[2023-Rao-Ethical Reasoning over Moral Alignment|Ethical Reasoning over Moral Alignment]] (First Author)
 
 ## External Links & Profiles
 
@@ -47,4 +48,6 @@ Abhinav investigates the ethical reasoning capabilities of large language models
 - [Twitter/X](https://twitter.com/abhinavraorao)
 
 ## Notes
+
+- *From 2025-Rao-NormAd*: Affiliation: Institute, Carnegie Mellon University, Email: reinecke@cs.washington.edu
 [Bridges the gap between technical AI security and normative ethical alignment.]

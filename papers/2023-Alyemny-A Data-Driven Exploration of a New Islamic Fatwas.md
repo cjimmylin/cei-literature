@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "A Data-Driven Exploration of a New Islamic Fatwas"
 year: 2025
 first_author: "[[Ohoud Alyemny]]"
+last_author: "[[Abdulrahman Mirza]]"
 authors: "Ohoud Alyemny; Hend Al-Khalifa; Abdulrahman Mirza"
 doi: 10.3390/data8100155
 url: "https://www.mdpi.com/2306-5729/8/10/155"

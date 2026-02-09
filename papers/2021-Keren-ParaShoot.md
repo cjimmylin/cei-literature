@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: ParaShoot
 year: 2025
 first_author: "[[Omri Keren]]"
+last_author: "[[Omer Levy]]"
 authors: "Omri Keren; Omer Levy"
 doi: 10.18653/v1/2021.mrqa-1.11
 url: "https://aclanthology.org/2021.mrqa-1.11/"

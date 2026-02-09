@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Yang-DistillSeq|DistillSeq]]
 
 ## Notes
 
+
+- *From 2024-Yang-DistillSeq*:, Email: ling.shi@ntu.edu.sg
 [Additional context or contact information]

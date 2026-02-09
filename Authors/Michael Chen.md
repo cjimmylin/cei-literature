@@ -1,6 +1,6 @@
 ---
 name: "Michael Chen"
-affiliation: "University/Organization"
+affiliation: "Center for AI Safety"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Park-AI Deception|AI Deception]]
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
+- [[2023-Park-AI Deception|AI Deception]]
 
 ## Notes
 
+
+- *From 2023-Park-AI Deception*: Affiliation: Center for AI Safety
 [Additional context or contact information]

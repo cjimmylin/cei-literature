@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "The Moral Machine experiment"
 year: 2025
 first_author: "[[Edmond Awad]]"
+last_author: "[[Iyad Rahwan]]"
 authors: "Edmond Awad; Sohan Dsouza; Richard Kim; Jonathan Schulz; Joseph Henrich; Azim Shariff; Jean-François Bonnefon; Iyad Rahwan"
 doi: 10.1038/s41586-018-0637-6
 url: "https://www.nature.com/articles/s41586-018-0637-6"

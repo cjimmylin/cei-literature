@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: "Technical Risks of (Lethal) Autonomous Weapons"
 first_author: "[[Whitepaper Alycia Colijn]]"
+last_author: "[[Heramb Podar]]"
 authors: "Whitepaper Alycia Colijn; Heramb Podar"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/RWCWHF43/Colijn and Podar - Technical Risks of (Lethal) Autonomous Weapons Systems.pdf"
 pdf_extract: "[[2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons]]"

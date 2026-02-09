@@ -28,12 +28,18 @@ Jiaming Ji is a PhD student at Peking University working with PKU-Alignment on A
 
 ## Papers in this Vault
 
-- [[2023-Ji-AI Alignment|AI Alignment]]
-- [[2024-Qiu-ProgressGym|ProgressGym]]
+
+- [[2025-Ji-PKU-SafeRLHF|PKU-SafeRLHF]] (First Author)
 - [[2025-Ju-NaVAB|NaVAB]]
+- [[2024-Qiu-ProgressGym|ProgressGym]]
+- [[2023-Dai-Safe RLHF|Safe RLHF]]
+- [[2023-Ji-AI Alignment|AI Alignment]] (First Author)
+- [[2023-Ji-Safety Gymnasium|Safety Gymnasium]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk
 - PhD student at Peking University
 - Core member of PKU-Alignment team
 - Research spans both theoretical and practical AI safety

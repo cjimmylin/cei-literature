@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: CASE-Bench
 year: 2025
 first_author: "[[Guangzhi Sun]]"
+last_author: "[[Jose Such]]"
 authors: "Guangzhi Sun; Xiao Zhan; Shutong Feng; Philip C. Woodland; Jose Such"
 doi: 10.48550/arXiv.2501.14940
 url: "http://arxiv.org/abs/2501.14940"

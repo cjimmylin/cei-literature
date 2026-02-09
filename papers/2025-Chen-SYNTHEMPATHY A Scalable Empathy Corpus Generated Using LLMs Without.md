@@ -9,6 +9,7 @@ type: preprint
 short_title: "SYNTHEMPATHY: A Scalable Empathy Corpus Generated Using LLMs Without Any Crowdsourcing"
 year: 2025
 first_author: "[[Run Chen]]"
+last_author: "[[Julia Hirschberg]]"
 authors: Run Chen; Jun Shin; Julia Hirschberg
 url: "https://arxiv.org/abs/2502.17857"
 external_pdf: "https://arxiv.org/pdf/2502.17857.pdf"

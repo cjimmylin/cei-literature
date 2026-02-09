@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Artificial Intelligence, Discrimination, Fairness"
 year: 2025
 first_author: "[[Re'em Segev]]"
+last_author: "[[Re'em Segev]]"
 authors: "Re'em Segev"
 doi: 10.1007/s11023-024-09702-z
 url: "https://doi.org/10.1007/s11023-024-09702-z"

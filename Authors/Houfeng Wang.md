@@ -20,8 +20,11 @@ Houfeng Wang is a Professor at the Institute of Computational Linguistics, Pekin
 
 ## Papers in this Vault
 
+
 - [[2024-Luo-HalluDial|HalluDial]]
 
 ## Notes
 
+
+- *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 Professor Wang is a senior figure in Chinese NLP research, mentoring Ph.D. students and maintaining a prolific research output across diverse NLP topics.

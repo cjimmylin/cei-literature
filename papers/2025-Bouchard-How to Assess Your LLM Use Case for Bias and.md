@@ -8,6 +8,7 @@ type: document
 short_title: "How to Assess Your LLM Use Case for Bias and"
 year: 2025
 first_author: "[[Dominique Bouchard]]"
+last_author: "[[Dominique Bouchard]]"
 authors: "Dominique Bouchard"
 url: "https://medium.com/cvs-health-tech-blog/how-to-assess-your-llm-use-case-for-bias-and-fairness-with-langfair-7be89c0c4fab"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/DJYXXBYZ/Bouchard - 2025 - How to Assess Your LLM Use Case for Bias and Fairness with LangFair.pdf"

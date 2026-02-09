@@ -31,7 +31,10 @@ Alex's work in AI safety emphasizes the importance of diversity in model evaluat
 
 ## Papers in this Vault
 
+
 - [[2023-Aroyo-DICES Dataset|DICES Dataset]]
 
 ## Notes
+
+- *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London
 [Advocates for moving beyond monolithic safety definitions toward pluralistic evaluation frameworks.]

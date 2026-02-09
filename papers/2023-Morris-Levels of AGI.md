@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Levels of AGI"
 year: 2025
 first_author: "[[Meredith Ringel Morris]]"
+last_author: "[[Shane Legg]]"
 authors: "Meredith Ringel Morris; Jascha Sohl-Dickstein; Noah Fiedel; Tris Warkentin; Allan Dafoe; Aleksandra Faust; Clement Farabet; Shane Legg"
 url: "https://arxiv.org/abs/2311.02462"
 external_pdf: "https://arxiv.org/pdf/2311.02462.pdf"

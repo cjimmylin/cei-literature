@@ -8,6 +8,7 @@ type: document
 short_title: "Heterogeneous Value Alignment Evaluation for"
 year: 2025
 first_author: "[[Zhaowei Zhang]]"
+last_author: "[[Yaodong Yang]]"
 authors: "Zhaowei Zhang; Ceyao Zhang; Nian Liu; Siyuan Qi; Ziqi Rong; Song-Chun Zhu; Shuguang Cui; Yaodong Yang"
 url: "https://arxiv.org/abs/2305.17147"
 external_pdf: "https://arxiv.org/pdf/2305.17147.pdf"
@@ -55,7 +56,7 @@ The emergent capabilities of Large Language Models (LLMs) have made it crucial t
 
 ## Authors
 
-[[Zhaowei Zhang]], [[Ceyao Zhang]], [[Nian Liu]], [[Siyuan Qi]], [[Ziqi Rong]], [[Song-Chun Zhu]], [[Shuguang Cui]], [[Yaodong Yang]]
+[[Zhaowei Zhang]], [[Ceyao Zhang]], [[Nian Liu]], [[Siya Qi|Siyuan Qi]], [[Ziqi Rong]], [[Song-Chun Zhu]], [[Shuguang Cui]], [[Yaodong Yang]]
 
 ## Notes
 

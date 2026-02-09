@@ -3,7 +3,7 @@ name: "Ali Omrani"
 title: "Researcher"
 affiliation: "University of Southern California / ISI"
 highest_degree: "PhD Candidate"
-email: ""
+email: "jptrager@usc.edu"
 research_interests:
   - "Computational Social Science"
   - "Moral Foundations"
@@ -31,7 +31,10 @@ Ali is a primary author behind the *Moral Foundations Reddit Corpus*, a signific
 
 ## Papers in this Vault
 
+
 - [[2022-Trager-The Moral Foundations Reddit Corpus|The Moral Foundations Reddit Corpus]]
 
 ## Notes
+
+- *From 2022-Trager-The Moral Foundations Reddit Corpus*: Affiliation: University of Southern California, Email: jptrager@usc.edu
 [Specializes in the intersection of moral psychology and large-scale NLP datasets.]

@@ -11,7 +11,9 @@ type: preprint
 short_title: "OffTheRails: Procedural Dilemma Generation for Moral Reasoning"
 year: 2024
 first_author: "[[Franken]]"
+last_author: "[[J.-P. Franken]]"
 authors: Franken, J.-P. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2404.10975"
 external_pdf: "https://arxiv.org/pdf/2404.10975.pdf"
 local_pdf: "[[PDFs/2024/2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.pdf]]"
@@ -40,7 +42,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Franken, J.-P. et al.]]
+[[J.-P. Franken]]
 
 ## Metadata
 

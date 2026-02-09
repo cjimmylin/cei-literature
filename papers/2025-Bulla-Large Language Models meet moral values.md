@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Large Language Models meet moral values"
 year: 2025
 first_author: "[[Luana Bulla]]"
+last_author: "[[Aldo Gangemi]]"
 authors: "Luana Bulla; Stefano De Giorgis; Misael Mongiovì; Aldo Gangemi"
 doi: 10.1016/j.chbr.2025.100609
 url: "https://linkinghub.elsevier.com/retrieve/pii/S2451958825000247"

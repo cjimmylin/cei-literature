@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Harnessing Indigenous Tweets"
 year: 2025
 first_author: "[[David Trye]]"
+last_author: "[[Mark Apperley]]"
 authors: "David Trye; Te Taka Keegan; Paora Mato; Mark Apperley"
 doi: 10.1007/s10579-022-09580-w
 url: "https://link.springer.com/10.1007/s10579-022-09580-w"

@@ -28,11 +28,15 @@ Chuang Liu is a researcher affiliated with Tianjin University (TJU) NLP Lab, wor
 - Co-authored "Large Language Model Safety: A Holistic Survey" (arXiv:2412.17686), covering four major safety categories: value misalignment, robustness, misuse, and autonomous AI risks
 
 ## Papers in this Vault
-- [[2023-Shen-Large Language Model Alignment|Large Language Model Alignment: A Survey]]
-- [[2024-Shi-Large Language Model Safety|Large Language Model Safety: A Holistic Survey]]
+
+- [[2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and|OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety]] (First Author)
+- [[2024-Shi-Large Language Model Safety|Large Language Model Safety]]
+- [[2023-Shen-Large Language Model Alignment|Large Language Model Alignment]]
 
 ## External Links & Profiles
 - [TJU NLP Lab LLM Safety Papers](https://github.com/tjunlp-lab/Awesome-LLM-Safety-Papers)
 
 ## Notes
+
+- *From 2023-Shen-Large Language Model Alignment*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China
 Directly relevant to AI safety and alignment research. The surveys authored by Chuang Liu provide comprehensive overviews of the field, covering technical solutions, ethical considerations, and governance frameworks. His work emphasizes the necessity for proactive, multifaceted approaches to LLM safety.

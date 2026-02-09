@@ -37,9 +37,10 @@ According to Google Scholar, Kim has 120 research works with 4,427 citations, wi
 
 ## Papers in this Vault
 
+
+- [[2023-Lee-KoSBI|KoSBI]]
 - [[2022-Kim-ProsocialDialog|ProsocialDialog]]
 - [[2022-Kim-SODA|SODA]]
-- [[2023-Lee-KoSBI|KoSBI]]
 
 ## Links
 
@@ -49,4 +50,6 @@ According to Google Scholar, Kim has 120 research works with 4,427 citations, wi
 
 ## Notes
 
+
+- *From 2022-Kim-ProsocialDialog*: Affiliation: Institute for Artiﬁcial Intelligence, Email: hyunw.kim@vl.snu.ac.kr
 Kim's work on prosocial dialogue systems and social commonsense contributes to developing AI systems that can engage in ethically appropriate conversations and respond constructively to harmful content.

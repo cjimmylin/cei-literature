@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Raising the Bar"
 year: 2025
 first_author: "[[Han Jiang]]"
+last_author: "[[Xing Xie]]"
 authors: "Han Jiang; Xiaoyuan Yi; Zhihua Wei; Ziang Xiao; Shu Wang; Xing Xie"
 doi: 10.48550/arXiv.2406.14230
 url: "http://arxiv.org/abs/2406.14230"

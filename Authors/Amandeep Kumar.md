@@ -49,6 +49,7 @@ Amandeep Kumar is a PhD student in the Department of Electrical and Computer Eng
 
 ## Papers in this Vault
 
+
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## External Links & Profiles
@@ -58,4 +59,6 @@ Amandeep Kumar is a PhD student in the Department of Electrical and Computer Eng
 
 ## Notes
 
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 Amandeep Kumar's involvement in the "All Languages Matter" benchmark project demonstrates his interest in ensuring AI systems work equitably across diverse linguistic and cultural contexts. His selection for Amazon's AI PhD Fellowship indicates strong research potential. His work connects computer vision with cultural inclusivity—relevant to CEI's mission of ensuring AI systems serve diverse global populations.

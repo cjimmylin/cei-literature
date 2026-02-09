@@ -3,7 +3,7 @@ name: "Animesh Mukherjee"
 title: "Professor"
 affiliation: "IIT Kharagpur"
 highest_degree: "PhD in Computer Science, IIT Kharagpur"
-email: ""
+email: "animeshm@cse.iitkgp.ac.in"
 research_interests:
   - "Content Governance"
   - "Social Computing"
@@ -48,9 +48,9 @@ He has received numerous prestigious awards, including the Humboldt Fellowship a
 - [Social Computing and the Ethics of AI](https://arxiv.org/abs/2101.00000) (2021) - *A comprehensive survey on social-aware AI.*
 
 ## Papers in this Vault
-- [[2020-Mathew-HateXplain|HateXplain]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2025-Banerjee-SafeInfer|SafeInfer]]
+- [[2020-Mathew-HateXplain|HateXplain]] (Last Author)
 
 ## External Links & Profiles
 
@@ -60,4 +60,6 @@ He has received numerous prestigious awards, including the Humboldt Fellowship a
 - [IIT Kharagpur Profile](https://www.iitkgp.ac.in/department/CS/faculty/cs-animeshm)
 
 ## Notes
+
+- *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: animeshm@cse.iitkgp.ac.in
 [Animesh is a pioneering researcher in computational social science and the ethics of digital content.]

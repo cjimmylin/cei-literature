@@ -3,7 +3,7 @@ name: "Abinet Ayele"
 title: "Lecturer / Researcher"
 affiliation: "Addis Ababa University / Bahir Dar University"
 highest_degree: "M.Sc. (In Progress)"
-email: ""
+email: "tadesseit@gmail.com"
 research_interests:
   - "Natural Language Processing"
   - "Amharic NLP"
@@ -32,7 +32,10 @@ Abinet's research addresses the societal challenges of digital communication in 
 
 ## Papers in this Vault
 
-- [[2023-Ayele-Amharic Hate Speech Dataset|Amharic Hate Speech Dataset]]
+
+- [[2023-Ayele-Amharic Hate Speech Dataset|Amharic Hate Speech Dataset]] (First Author)
 
 ## Notes
+
+- *From 2023-Ayele-Amharic Hate Speech Dataset*: Affiliation: University, Ethiopia, 3Wollo University, Ethiopia, Email: tadesseit@gmail.com
 [Specializes in the ethical moderation of social media content in Ethiopian languages.]

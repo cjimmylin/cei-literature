@@ -30,7 +30,9 @@ Alon's research has evolved to include the ethical and societal impacts of data-
 - [The Case for Data Management in Machine Learning](https://arxiv.org/abs/2001.00000) (2020) - *Highlighting the technical debt and ethical risks in ML data pipelines.*
 
 ## Papers in this Vault
-- [[2022-Pang-Preserving Integrity in Social Networks|Preserving Integrity in Social Networks]]
+
+- [[2023-Ziems-NormBank|NormBank]]
+- [[2022-Ziems-The Moral Integrity Corpus|The Moral Integrity Corpus]]
 
 ## External Links & Profiles
 - [Personal Website](https://homes.cs.washington.edu/~alon/)
@@ -38,4 +40,6 @@ Alon's research has evolved to include the ethical and societal impacts of data-
 - [Wikipedia](https://en.wikipedia.org/wiki/Alon_Halevy)
 
 ## Notes
+
+- *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 [Founded several startups (e.g., Nimble Technology, Transformic) before joining Google/Meta.]

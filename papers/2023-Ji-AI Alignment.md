@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "AI Alignment"
 year: 2025
 first_author: "[[Jiaming Ji]]"
+last_author: "[[Wen Gao]]"
 authors: "Jiaming Ji; Tianyi Qiu; Boyuan Chen; Borong Zhang; Hantao Lou; Kaile Wang; Yawen Duan; Zhonghao He; Lukas Vierling; Donghai Hong; Jiayi Zhou; Zhaowei Zhang; Fanzhi Zeng; Juntao Dai; Xuehai Pan; Kwan Yee Ng; Aidan O'Gara; Hua Xu; Brian Tse; Jie Fu; Stephen McAleer; Yaodong Yang; Yizhou Wang; Song-Chun Zhu; Yike Guo; Wen Gao"
 doi: 10.48550/arXiv.2310.19852
 tags: 

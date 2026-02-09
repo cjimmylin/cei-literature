@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "Measuring Political Bias in LLMs: What Is Said and How It Is Said"
 year: 2024
 first_author: "[[Yejin Bang]]"
+last_author: "[[Pascale Fung Nayeon Lee]]"
 authors: Yejin Bang, Delong Chen, Nayeon Lee, Pascale Fung
 url: "https://arxiv.org/abs/2403.18932"
 external_pdf: "https://arxiv.org/pdf/2403.18932.pdf"
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Yejin Bang, Delong Chen, Nayeon Lee, Pascale Fung]]
+[[Delong Chen Yejin Bang]], [[Pascale Fung Nayeon Lee]]
 
 ## Metadata
 

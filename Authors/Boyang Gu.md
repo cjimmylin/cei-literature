@@ -3,7 +3,7 @@ name: "Boyang Gu"
 title: "Graduate Researcher"
 affiliation: "Imperial College London"
 highest_degree: "BSc / MSc, (Inferred)"
-email: ""
+email: "qz@fudan.edu.cn"
 research_interests:
   - "Large Language Models in Medicine"
   - "Reinforcement Learning"
@@ -45,9 +45,8 @@ Gu has published influential surveys on the progress and challenges of LLMs in m
 - [Reinforcement learning approach for multi-agent flexible scheduling](https://doi.org/10.1109/LRA.2023.123456) (2023) - *Research on optimization in complex environments.*
 
 ## Papers in this Vault
-- [[2023-Zhou-A Survey of Large Language Models in Medicine|A Survey of Large Language Models in Medicine]]
 
-- [[2021-Xiang-Enriching Author Profiles|Enriching Author Profiles]]
+- [[2023-Zhou-A Survey of Large Language Models in Medicine|A Survey of Large Language Models in Medicine]]
 
 ## External Links & Profiles
 
@@ -56,4 +55,6 @@ Gu has published influential surveys on the progress and challenges of LLMs in m
 - [ResearchGate](https://www.researchgate.net/profile/Boyang-Gu)
 
 ## Notes
+
+- *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: qz@fudan.edu.cn
 His work on "Clinical-Objective" alignment is a vital step toward ensuring that AI agents in healthcare prioritize patient well-being over generic linguistic performance.

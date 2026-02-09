@@ -31,7 +31,8 @@ Dong Yu is a Distinguished Scientist at Tencent AI Lab, previously at Microsoft 
 
 ## Papers in this Vault
 
-- [[2024-Liu-Evaluating Moral Beliefs across LLMs through a|Evaluating Moral Beliefs across LLMs through a]]
+
+- [[2024-Liu-Evaluating Moral Beliefs across LLMs through a|Evaluating Moral Beliefs across LLMs through a]] (Last Author)
 
 ## Selected Publications
 

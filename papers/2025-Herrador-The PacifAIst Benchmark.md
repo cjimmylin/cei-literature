@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "The PacifAIst Benchmark"
 year: 2025
 first_author: "[[Manuel Herrador]]"
+last_author: "[[Manuel Herrador]]"
 authors: "Manuel Herrador"
 doi: 10.48550/arXiv.2508.09762
 url: "http://arxiv.org/abs/2508.09762"

@@ -45,7 +45,8 @@ Dr. Christian Schroeder de Witt is a Senior Research Associate in Machine Learni
 
 ## Papers in this Vault
 
-- [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and Safety]]
+
+- [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 
 ## External Links & Profiles
 
@@ -62,4 +63,6 @@ Dr. Christian Schroeder de Witt is a Senior Research Associate in Machine Learni
 
 ## Notes
 
+
+- *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
 Christian Schroeder de Witt's research on secret collusion and undetectable AI threats represents critical work for AI safety. His discovery that AI systems can engage in hidden coordination that evades detection has profound implications for AI alignment and oversight. The Royal Academy fellowship and Quanta recognition underscore his standing as a leading AI safety researcher. His background in theoretical physics brings rigorous mathematical foundations to his ML research.

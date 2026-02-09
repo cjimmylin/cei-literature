@@ -23,6 +23,7 @@ He has also contributed to AfriHate, a multilingual collection of hate speech an
 
 ## Papers in this Vault
 
+
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
 
 ## Links
@@ -32,4 +33,6 @@ He has also contributed to AfriHate, a multilingual collection of hate speech an
 
 ## Notes
 
+
+- *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 Key contributor to AfriSenti-SemEval shared task (SemEval 2023 Task 12), the first Afro-centric SemEval shared task with over 200 participants. Work enables sentiment analysis models specific to African languages, helping address underrepresentation in NLP.

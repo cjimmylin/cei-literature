@@ -37,8 +37,13 @@ Dwivedi is the lead author of EtiCor (Etiquettes Corpus), a comprehensive corpus
 
 ## Papers in this Vault
 
-- [[2023-Dwivedi-EtiCor|EtiCor]]
+
+- [[2025-Dwivedi-EtiCor++ Towards Understanding Etiquettical Bias in LLMs|EtiCor++: Towards Understanding Etiquettical Bias in LLMs]] (First Author)
+- [[2023-Dwivedi-EtiCor|EtiCor]] (First Author)
+- [[2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes|EtiCor: Corpus for Analyzing LLMs for Etiquettes]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes*: Affiliation: Institute of Technology Kanpur (IIT Kanpur), Email: ashutoshm@cse.iitk.ac.in
 His work on culturally diverse etiquette evaluation is essential for ensuring AI systems can operate appropriately in global contexts, rather than imposing Western social norms universally.

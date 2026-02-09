@@ -32,7 +32,8 @@ Deon Crone is a researcher in moral psychology and social cognition. He contribu
 - "The Socio-Moral Image Database (SMID): A novel stimulus set for the study of social, moral and affective processes" (2018)
 
 ## Papers in this Vault
-- [[2018-Crone-The Socio-Moral Image Database (SMID)|The Socio-Moral Image Database (SMID)]]
+
+- [[2018-Crone-The Socio-Moral Image Database (SMID)|The Socio-Moral Image Database (SMID)]] (First Author)
 
 ## Links
 - Semantic Scholar: https://www.semanticscholar.org/author/Deon-Crone/1398766988

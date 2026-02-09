@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: "Towards Theory-based Moral AI"
 first_author: "[[Masashi Takeshita]]"
+last_author: "[[Kenji Araki]]"
 authors: "Masashi Takeshita; Rafal Rzepka; Kenji Araki"
 external_pdf: "http://arxiv.org/pdf/2306.11432"
 national_ethnic_cultural: N/A

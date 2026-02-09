@@ -8,6 +8,7 @@ type: document
 short_title: RealToxicityPrompts
 year: 2025
 first_author: "[[Samuel Gehman]]"
+last_author: "[[Smith, Noah A]]"
 authors: "[[Gehman, Samuel]]; [[Gururangan, Suchin]]; [[Sap, Maarten]]; [[Choi, Yejin]]; [[Smith, Noah A.]]"
 url: "https://aclanthology.org/2020.findings-emnlp.301/"
 external_pdf: "https://arxiv.org/pdf/2009.11462v2.pdf"
@@ -36,12 +37,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Samuel Gehman]], [[Suchin Gururangan]], [[Maarten Sap]], [[Yejin Choi]], [[Noah A. Smith]]
-## Metadata
-
-**Year:** 2020
-
-**Type:** document
+[[Samuel Gehman|Gehman, Samuel]], [[Suchin Gururangan|Gururangan, Suchin]], [[Maarten Sap|Sap, Maarten]], [[Yejin Choi|Choi, Yejin]], [[Smith, Noah A]]
 
 ## Links
 

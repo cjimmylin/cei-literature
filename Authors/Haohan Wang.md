@@ -34,8 +34,11 @@ Haohan Wang is an Assistant Professor in the School of Information Sciences at t
 
 ## Papers in this Vault
 
-- [[2019-He-Unlearn Dataset Bias in Natural Language|Unlearn Dataset Bias in Natural Language]]
+
+- [[2019-He-Unlearn Dataset Bias in Natural Language|Unlearn Dataset Bias in Natural Language]] (Last Author)
 
 ## Notes
 
+
+- *From 2019-He-Unlearn Dataset Bias in Natural Language*: Affiliation: University, 3Carnegie Mellon University, Email: haohanw@cs.cmu.edu
 Research bridges trustworthy AI methods with applications in biology and healthcare.

@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "The PRISM Alignment Project"
 year: 2025
 first_author: "[[Hannah Rose Kirk]]"
+last_author: "[[Scott A. Hale]]"
 authors: "Hannah Rose Kirk; Alexander Whitefield; Paul Röttger; Andrew Bean; Katerina Margatina; Juan Ciro; Rafael Mosquera; Max Bartolo; Adina Williams; He He; Bertie Vidgen; Scott A. Hale"
 url: "https://arxiv.org/abs/2404.16019"
 external_pdf: "https://arxiv.org/pdf/2404.16019.pdf"
@@ -57,7 +58,7 @@ Human feedback is central to the alignment of Large Language Models (LLMs). Howe
 
 ## Authors
 
-[[Hannah Rose Kirk]], [[Alexander Whitefield]], [[Paul Röttger]], [[Andrew Bean]], [[Katerina Margatina]], [[Juan Ciro]], [[Rafael Mosquera]], [[Max Bartolo]], [[Adina Williams]], [[He He]], [[Bertie Vidgen]], [[Scott A. Hale]]
+[[Hannah Rose Kirk]], [[Alexander Whitefield]], [[Paul Röttger]], [[Andrew M. Bean|Andrew Bean]], [[Katerina Margatina]], [[Juan Ciro]], [[Rafael Mosquera]], [[Max Bartolo]], [[Adina Williams]], [[He He]], [[Bertie Vidgen]], [[Scott A. Hale]]
 
 ## Notes
 

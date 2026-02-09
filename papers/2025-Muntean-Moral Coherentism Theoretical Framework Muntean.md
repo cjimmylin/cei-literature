@@ -9,6 +9,7 @@ type: journalArticle
 short_title: "Moral Coherentism in the Age of Artificial Intelligence"
 year: 2025
 first_author: "[[Ioan Muntean]]"
+last_author: "[[Ioan Muntean]]"
 authors: "Muntean, Ioan"
 doi: 10.5406/21521123.62.3.06
 url: "https://doi.org/10.5406/21521123.62.3.06"

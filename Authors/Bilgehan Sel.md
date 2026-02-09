@@ -46,9 +46,8 @@ Sel co-developed the "Algorithm of Thoughts" (AoT) framework, which allows LLMs 
 - [Skin-in-the-Game: Decision Making via Multi-Stakeholder Alignment in LLMs](https://arxiv.org/abs/2312.00000) (2023) - *Framework for grounding AI ethics in stakeholder outcomes.*
 
 ## Papers in this Vault
-- [[2025-Sel-Backtracking for Safety|Backtracking for Safety]]
 
-- [[2024-Sel-Collaborative Alignment|Collaborative Alignment]]
+- [[2025-Sel-Backtracking for Safety|Backtracking for Safety]] (First Author)
 
 ## External Links & Profiles
 

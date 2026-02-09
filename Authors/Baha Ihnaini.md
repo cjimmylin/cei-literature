@@ -45,9 +45,8 @@ Dr. Ihnaini has contributed to the methodology and administration of projects fo
 - [Lexicon-Based Sentiment Analysis of Arabic Tweets](https://ieeexplore.ieee.org/document/8971844) (2019) - *Framework for analyzing sentiments in low-resource language contexts.*
 
 ## Papers in this Vault
-- [[2024-Cao-The Moral Foundations Weibo Corpus|The Moral Foundations Weibo Corpus]]
 
-- [[2025-Keshmirian-Many LLMs Are More Utilitarian Than One|Many LLMs Are More Utilitarian Than One]] (Note: Verify if this is the correct paper for him, as the filename matches a previous author)
+- [[2024-Cao-The Moral Foundations Weibo Corpus|The Moral Foundations Weibo Corpus]] (Last Author)
 
 ## External Links & Profiles
 
@@ -60,4 +59,6 @@ Dr. Ihnaini has contributed to the methodology and administration of projects fo
 - [University Profile](https://wku.edu.cn/en/faculties/sm-college/baha-ihnaini/)
 
 ## Notes
+
+- *From 2024-Cao-The Moral Foundations Weibo Corpus*:, Email: 21061301@stu.nchu.edu.cn
 His work on toxic comment detection is relevant to safety and moderation research in LLMs.

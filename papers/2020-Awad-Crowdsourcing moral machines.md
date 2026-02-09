@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Crowdsourcing moral machines"
 year: 2025
 first_author: "[[Edmond Awad]]"
+last_author: "[[Iyad Rahwan]]"
 authors: "Edmond Awad; Sohan Dsouza; Jean-François Bonnefon; Azim Shariff; Iyad Rahwan"
 doi: 10.1145/3339904
 url: "https://dl.acm.org/doi/10.1145/3339904"

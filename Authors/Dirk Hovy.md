@@ -27,10 +27,13 @@ Dirk Hovy is a Professor of Computing Sciences at Bocconi University in Milan, w
 
 ## Papers in this Vault
 
-- [[2024-Röttger-Political Compass or Spinning Arrow|Political Compass or Spinning Arrow?]]
-- [[2024-Röttger-XSTest|XSTest]]
-- [[2025-Russo-The Pluralistic Moral Gap|The Pluralistic Moral Gap]]
+
+- [[2025-Russo-The Pluralistic Moral Gap|The Pluralistic Moral Gap]] (Last Author)
+- [[2024-Röttger-Political Compass or Spinning Arrow|Political Compass or Spinning Arrow?]] (Last Author)
+- [[2024-Röttger-XSTest|XSTest]] (Last Author)
 
 ## Notes
 
+
+- *From 2024-Röttger-Political Compass or Spinning Arrow*: Affiliation: University 2Allen Institute for AI 3Intel Labs
 Leading researcher in NLP ethics and computational social science. Director of MilaNLP lab at Bocconi University.

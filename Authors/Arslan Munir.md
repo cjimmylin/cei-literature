@@ -1,6 +1,6 @@
 ---
 name: "Arslan Munir"
-affiliation: "University/Organization"
+affiliation: "University, Manhattan, KS 66506, USA"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2018-Behzadan-TrolleyMod v1.0|TrolleyMod v1.0]]
+
+- [[2018-Behzadan-TrolleyMod v1.0|TrolleyMod v1.0]] (Last Author)
 
 ## Notes
 
+
+- *From 2018-Behzadan-TrolleyMod v1.0*: Affiliation: University, Manhattan, KS 66506, USA
 [Additional context or contact information]

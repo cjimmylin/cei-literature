@@ -51,7 +51,9 @@ He is well-known for his foundational work on fair division, especially the "Cak
 
 ## Papers in this Vault
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+
+- [[2024-Pardeshi-Learning Social Welfare Functions|Learning Social Welfare Functions]]
+- [[2018-Noothigattu-A Voting-Based System for Ethical Decision Making|A Voting-Based System for Ethical Decision Making]] (Last Author)
 
 ## External Links & Profiles
 
@@ -66,4 +68,6 @@ He is well-known for his foundational work on fair division, especially the "Cak
 - [Twitter/X](https://twitter.com/arielprocaccia)
 
 ## Notes
+
+- *From 2018-Noothigattu-A Voting-Based System for Ethical Decision Making*: Affiliation: School of Computer Science, Carnegie Mellon University
 [Ariel is a world-class expert in fair division and democratic AI alignment.]

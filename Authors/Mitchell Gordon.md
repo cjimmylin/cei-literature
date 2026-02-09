@@ -1,6 +1,6 @@
 ---
 name: "Mitchell Gordon"
-affiliation: "University/Organization"
+affiliation: "Department of Computer Science, University of Washing-"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Sorensen-A Roadmap to Pluralistic Alignment|A Roadmap to Pluralistic Alignment]]
 
 ## Notes
 
+
+- *From 2024-Sorensen-A Roadmap to Pluralistic Alignment*: Affiliation: Department of Computer Science, University of Washing-, Email: tsor13@cs.washington.edu
 [Additional context or contact information]

@@ -8,6 +8,7 @@ type: whitepaper
 short_title: "Aligning AI Agents with Humans through Law as Information"
 year: 2025
 first_author: "[[John Nay]]"
+last_author: "[[John Nay]]"
 authors: "[[Nay, John]]"
 doi: N/A
 tags: "Law - Legal Informatics"
@@ -39,15 +40,6 @@ data_metrics: "Not specified"
 ## Authors
 
 [[John Nay]]
-## Metadata
-
-**Authors:** Nay, John
-
-**Year:** 2025
-
-**Type:** whitepaper
-
-**Publisher:** Stanford Law School / CodeX
 
 ## Links
 

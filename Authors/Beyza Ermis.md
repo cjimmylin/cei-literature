@@ -46,10 +46,10 @@ Dr. Ermis has published influential work on the challenges of toxicity evaluatio
 - [Toxicity evaluation in the age of large language models](https://arxiv.org/abs/2212.00000) (2022) - *Analysis of the limitations of existing safety benchmarks.*
 
 ## Papers in this Vault
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 - [[2024-Aakanksha-The Multilingual Alignment Prism|The Multilingual Alignment Prism]]
-
-- [[2024-Ermis-Multilingual Safety|Multilingual Safety]]
+- [[2024-Singhal-AyaRedTeaming|AyaRedTeaming]]
 
 ## External Links & Profiles
 
@@ -58,4 +58,6 @@ Dr. Ermis has published influential work on the challenges of toxicity evaluatio
 - [ResearchGate](https://www.researchgate.net/profile/Beyza-Ermis)
 
 ## Notes
+
+- *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures
 Her focus on "multilingual safety" is essential for ensuring that AI alignment doesn't become ethnocentric and that safety safeguards scale effectively to global populations.

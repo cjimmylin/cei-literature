@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: DistillSeq
 year: 2025
 first_author: "[[Mingke Yang]]"
+last_author: "[[Ling Shi]]"
 authors: "Mingke Yang; Yuqi Chen; Yi Liu; Ling Shi"
 doi: 10.1145/3650212.3680304
 tags: 

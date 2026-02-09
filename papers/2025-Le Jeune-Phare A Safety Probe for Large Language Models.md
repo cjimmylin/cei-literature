@@ -8,6 +8,7 @@ type: document
 short_title: "Phare: A Safety Probe for Large Language Models"
 year: 2025
 first_author: "[[Pierre Le Jeune]]"
+last_author: "[[Matteo Dora]]"
 authors: "Pierre Le Jeune; Benoît Malézieux; Weixuan Xiao; Matteo Dora"
 url: "https://arxiv.org/abs/2505.11365"
 external_pdf: "https://arxiv.org/pdf/2505.11365.pdf"

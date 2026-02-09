@@ -3,7 +3,7 @@ name: "Boyang Li"
 title: "Nanyang Associate Professor"
 affiliation: "Nanyang Technological University (NTU)"
 highest_degree: "PhD in Computer Science, Georgia Institute of Technology (2014)"
-email: ""
+email: "boyang.li@ntu.edu.sg"
 research_interests:
   - "Computational Narrative Intelligence"
   - "Multi-modal Learning"
@@ -45,9 +45,8 @@ He has held leadership roles in major industrial labs (Disney and Baidu) and is 
 - [Story Understanding for AI Agents](https://boyangli.org/publications/) (2020) - *Overview of recent work in narrative processing.*
 
 ## Papers in this Vault
-- [[2025-Bae-CharMoral|CharMoral]]
 
-- [[2021-Bakhtin-Learning to Speak with a Purpose|Learning to Speak with a Purpose]]
+- [[2025-Bae-CharMoral|CharMoral]] (Last Author)
 
 ## External Links & Profiles
 
@@ -62,4 +61,6 @@ He has held leadership roles in major industrial labs (Disney and Baidu) and is 
 - [NTU Faculty Profile](https://dr.ntu.edu.sg/expert/boyangli)
 
 ## Notes
+
+- *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg
 [Boyang is a unique researcher focusing on the intersection of AI, creativity, and storytelling.]

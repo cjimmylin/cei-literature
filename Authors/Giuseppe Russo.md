@@ -32,7 +32,8 @@ This work frames alignment as a pluralistic distributional task rather than opti
 
 ## Papers in this Vault
 
-- [[2025-Russo-The Pluralistic Moral Gap|The Pluralistic Moral Gap]]
+
+- [[2025-Russo-The Pluralistic Moral Gap|The Pluralistic Moral Gap]] (First Author)
 
 ## External Links
 
@@ -44,4 +45,6 @@ This work frames alignment as a pluralistic distributional task rather than opti
 
 ## Notes
 
+
+- *From 2025-Russo-The Pluralistic Moral Gap*: Affiliation: school and asked me to help pay, Email: giuseppe.russo@epfl.ch
 Also known as "Peppe" Russo. Research provides important insights for pluralistic AI alignment. Collaborator with Kristina Gligoric at EPFL.

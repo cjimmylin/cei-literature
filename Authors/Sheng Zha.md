@@ -1,6 +1,6 @@
 ---
 name: "Sheng Zha"
-affiliation: "University/Organization"
+affiliation: "University, 3Carnegie Mellon University"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2019-He-Unlearn Dataset Bias in Natural Language|Unlearn Dataset Bias in Natural Language]]
 
 ## Notes
 
+
+- *From 2019-He-Unlearn Dataset Bias in Natural Language*: Affiliation: University, 3Carnegie Mellon University, Email: haohanw@cs.cmu.edu
 [Additional context or contact information]

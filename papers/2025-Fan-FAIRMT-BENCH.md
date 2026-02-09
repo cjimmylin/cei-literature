@@ -8,6 +8,7 @@ type: journalArticle
 short_title: FAIRMT-BENCH
 year: 2025
 first_author: "[[Zhiting Fan]]"
+last_author: "[[Zuozhu Liu]]"
 authors: "Zhiting Fan; Ruizhe Chen; Tianxiang Hu; Zuozhu Liu"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/PNCXQE8M/Fan et al. - 2025 - FAIRMT-BENCH BENCHMARKING FAIRNESS FOR MULTI-TURN DIALOGUE IN CONVERSATIONAL LLMS.pdf"
 national_ethnic_cultural: N/A

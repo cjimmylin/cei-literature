@@ -17,13 +17,19 @@ Paul Röttger is a Postdoctoral Researcher in the MilaNLP Lab at Bocconi Univers
 
 ## Papers in this Vault
 
-- [[2021-Röttger-HateCheck|HateCheck]]
-- [[2022-Röttger-Multilingual HateCheck|Multilingual HateCheck]]
-- [[2023-Kirk-SemEval-2023 Task 10|SemEval-2023 Task 10]]
-- [[2024-Röttger-Political Compass or Spinning Arrow|Political Compass or Spinning Arrow?]]
-- [[2024-Röttger-XSTest|XSTest]]
+
+- [[2025-Group-AILuminate|AILuminate]]
 - [[2025-Russo-The Pluralistic Moral Gap|The Pluralistic Moral Gap]]
+- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
+- [[2024-Kirk-The PRISM Alignment Project|The PRISM Alignment Project]]
+- [[2024-Röttger-Political Compass or Spinning Arrow|Political Compass or Spinning Arrow?]] (First Author)
+- [[2024-Röttger-XSTest|XSTest]] (First Author)
+- [[2023-Kirk-SemEval-2023 Task 10|SemEval-2023 Task 10]] (Last Author)
+- [[2022-Röttger-Multilingual HateCheck|Multilingual HateCheck]] (First Author)
+- [[2021-Röttger-HateCheck|HateCheck]] (First Author)
 
 ## Notes
 
+
+- *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
 [Additional context or contact information]

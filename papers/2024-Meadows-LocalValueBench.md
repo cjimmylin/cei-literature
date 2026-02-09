@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: LocalValueBench
 year: 2025
 first_author: "[[Gwenyth Isobel Meadows]]"
+last_author: "[[Aditya Paul]]"
 authors: "Gwenyth Isobel Meadows; Nicholas Wai Long Lau; Eva Adelina Susanto; Chi Lok Yu; Aditya Paul"
 doi: 10.48550/arXiv.2408.01460
 url: "http://arxiv.org/abs/2408.01460"

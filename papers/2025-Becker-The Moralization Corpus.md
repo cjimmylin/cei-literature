@@ -9,7 +9,9 @@ type: preprint
 short_title: The Moralization Corpus
 year: 2025
 first_author: "[[S. Becker]]"
+last_author: "[[S. Becker]]"
 authors: Becker, S. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2512.15248"
 external_pdf: "https://arxiv.org/pdf/2512.15248.pdf"
 local_pdf: "[[PDFs/2025/2025-Becker-The Moralization Corpus.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Becker, S. et al.]]
+[[S. Becker]]
 
 ## Metadata
 

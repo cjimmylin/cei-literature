@@ -1,7 +1,7 @@
 ---
 name: "Furu Wei"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "College of Computer Science and Technology, Zhejiang University"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Mao-ALYMPICS LLM Agents Meet Game Theory|ALYMPICS LLM Agents Meet Game Theory]]
+- [[2025-Feng-ERPO|ERPO]]
+- [[2025-Mao-ALYMPICS LLM Agents Meet Game Theory|ALYMPICS: LLM Agents Meet Game Theory]] (Last Author)
 
 ## External Links & Profiles
 
@@ -83,6 +83,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Feng-ERPO*: Affiliation: College of Computer Science and Technology, Zhejiang University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

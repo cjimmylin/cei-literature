@@ -8,6 +8,7 @@ type: preprint
 short_title: ERPO
 year: 2025
 first_author: "[[Kehua Feng]]"
+last_author: "[[Huajun Chen]]"
 authors: "Kehua Feng; Keyan Ding; Yuhao Wang; Menghan Li; Fanjunduo Wei; Xinda Wang; Qiang Zhang; Huajun Chen"
 doi: 10.48550/arXiv.2504.02725
 tags: 
@@ -61,7 +62,7 @@ Recent advancements in large language models (LLMs) have accelerated progress to
 
 ## Authors
 
-[[Kehua Feng]], [[Keyan Ding]], [[Yuhao Wang]], [[Menghan Li]], [[Fanjunduo Wei]], [[Xinda Wang]], [[Qiang Zhang]], [[Huajun Chen]]
+[[Kehua Feng]], [[Keyan Ding]], [[Yuhao Wang]], [[Menghan Li]], [[Furu Wei|Fanjunduo Wei]], [[Xinda Wang]], [[Qiang Zhang]], [[Huajun Chen]]
 
 ## Notes
 

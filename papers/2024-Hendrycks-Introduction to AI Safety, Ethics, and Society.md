@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Introduction to AI Safety, Ethics, and Society"
 year: 2025
 first_author: "[[Dan Hendrycks]]"
+last_author: "[[Dan Hendrycks]]"
 authors: "Dan Hendrycks"
 doi: 10.48550/arXiv.2411.01042
 url: "http://arxiv.org/abs/2411.01042"

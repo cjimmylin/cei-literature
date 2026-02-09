@@ -8,6 +8,7 @@ type: document
 short_title: AISafetyLab
 year: 2025
 first_author: "[[Zhexin Zhang]]"
+last_author: "[[Minlie Huang]]"
 authors: "Zhexin Zhang; Leqi Lei; Junxiao Yang; Xijie Huang; Yida Lu; Shiyao Cui; Renmiao Chen; Qinglin Zhang; Xinyuan Wang; Hao Wang; Hao Li; Xianqi Lei; Chengwei Pan; Lei Sha; Hongning Wang; Minlie Huang"
 url: "https://arxiv.org/abs/2502.16776"
 external_pdf: "https://arxiv.org/pdf/2502.16776.pdf"
@@ -55,7 +56,7 @@ As AI models are increasingly deployed across diverse real-world scenarios, ensu
 
 ## Authors
 
-[[Zhexin Zhang]], [[Leqi Lei]], [[Junxiao Yang]], [[Xijie Huang]], [[Yida Lu]], [[Shiyao Cui]], [[Renmiao Chen]], [[Qinglin Zhang]], [[Xinyuan Wang]], [[Hao Wang]], [[Hao Li]], [[Xianqi Lei]], [[Chengwei Pan]], [[Lei Sha]], [[Hongning Wang]], [[Minlie Huang]]
+[[Zhexin Zhang]], [[Leqi Lei]], [[Junxiao Yang]], [[Xijie Huang]], [[Yida Lu]], [[Shiyao Cui]], [[Renmiao Chen]], [[Qinglin Zhang]], [[Xinyuan Wang]], [[Hao Wang]], [[Hao Li]], [[Xuanyu Lei|Xianqi Lei]], [[Chengwei Pan]], [[Lei Sha]], [[Hongning Wang]], [[Minlie Huang]]
 
 ## Notes
 

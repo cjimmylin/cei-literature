@@ -8,6 +8,7 @@ type: document
 short_title: "Hadith QA Pairs Dataset"
 year: 2025
 first_author: "[[R. Masood]]"
+last_author: "[[R. Masood]]"
 authors: "R. Masood"
 url: "https://www.kaggle.com/datasets/rwmasood/hadith-qa-pairs"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/C5KAAG92/Masood - 2024 - Hadith QA Pairs Dataset.pdf"

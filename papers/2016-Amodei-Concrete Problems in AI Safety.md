@@ -8,6 +8,7 @@ type: document
 short_title: "Concrete Problems in AI Safety"
 year: 2025
 first_author: "[[Dario Amodei]]"
+last_author: "[[Dan Mané]]"
 authors: "Dario Amodei; Chris Olah; Jacob Steinhardt; Paul Christiano; John Schulman; Dan Mané"
 url: "https://arxiv.org/abs/1606.06565"
 external_pdf: "https://arxiv.org/pdf/1606.06565.pdf"
@@ -55,7 +56,7 @@ Rapid progress in machine learning and artificial intelligence (AI) has brought 
 
 ## Authors
 
-[[Dario Amodei]], [[Chris Olah]], [[Jacob Steinhardt]], [[Paul Christiano]], [[John Schulman]], [[Dan Mané]]
+[[Dario Amodei]], [[Chris Olah]], [[Jacob Steinhardt]], [[Paul Christiano]], [[John Schulman]], [[Dan Mane|Dan Mané]]
 
 ## Notes
 

@@ -20,8 +20,11 @@ Muhammad Okky Ibrohim is a Research Fellow at The Institute of Social Studies, U
 
 ## Papers in this Vault
 
-- [[2019-Ibrohim-Multi-label Hate Speech and Abusive Language|Multi-label Hate Speech and Abusive Language]]
+
+- [[2019-Ibrohim-Multi-label Hate Speech and Abusive Language|Multi-label Hate Speech and Abusive Language]] (First Author)
 
 ## Notes
 
+
+- *From 2019-Ibrohim-Multi-label Hate Speech and Abusive Language*: Affiliation: label Hate Speech and Abusive Language - PDF Extract", Email: okkyibrohim@cs.ui.ac.id
 [Additional context or contact information]

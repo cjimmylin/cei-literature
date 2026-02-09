@@ -8,6 +8,7 @@ type: preprint
 short_title: "Resource Rational Contractualism Should Guide AI Alignment"
 year: 2025
 first_author: "[[Sydney Levine]]"
+last_author: "[[Gabriel, Iason]]"
 authors: "[[Levine, Sydney]]; [[Franklin, Matija]]; [[Zhi-Xuan, Tan]]; [[Guyot, Secil Yanik]]; [[Wong, Lionel]]; [[Kilov, Daniel]]; [[Choi, Yejin]]; [[Tenenbaum, Joshua B.]]; [[Goodman, Noah]]; [[Lazar, Seth]]; [[Gabriel, Iason]]"
 doi: 10.48550/arXiv.2506.17434
 tags: "Computer Science - Artificial Intelligence"
@@ -38,18 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Sydney Levine]], [[Matija Franklin]], [[Tan Zhi-Xuan]], [[Secil Yanik Guyot]], [[Lionel Wong]], [[Daniel Kilov]], [[Yejin Choi]], [[Joshua B. Tenenbaum]], [[Noah Goodman]], [[Seth Lazar]], [[Iason Gabriel]]
-## Metadata
-
-**Authors:** Levine, Sydney; Franklin, Matija; Zhi-Xuan, Tan; Gabriel, Iason
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2506.17434](https://doi.org/10.48550/arXiv.2506.17434)
-
-**Publisher:** arXiv
+[[Sydney Levine|Levine, Sydney]], [[Matija Franklin|Franklin, Matija]], [[Tan Zhi-Xuan|Zhi-Xuan, Tan]], [[Secil Yanik Guyot|Guyot, Secil Yanik]], [[Lionel Wong|Wong, Lionel]], [[Daniel Kilov|Kilov, Daniel]], [[Yejin Choi|Choi, Yejin]], [[Tenenbaum, Joshua B]], [[Noah Goodman|Goodman, Noah]], [[Seth Lazar|Lazar, Seth]], [[Iason Gabriel|Gabriel, Iason]]
 
 ## Links
 

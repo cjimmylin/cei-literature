@@ -18,7 +18,8 @@ Angelina Wang is an Assistant Professor at Cornell Tech whose research focuses o
 
 ## Papers in this Vault
 
-- [[2025-Wang-Measuring Desired Group Discrimination in LLMs|Measuring Desired Group Discrimination in LLMs]]
+
+- [[2025-Wang-Measuring Desired Group Discrimination in LLMs|Measuring Desired Group Discrimination in LLMs]] (First Author)
 
 ## Affiliation
 Cornell Tech, New York (Assistant Professor)
@@ -46,4 +47,6 @@ Recent publications at FAccT 2025 include "Identities are not Interchangeable: t
 
 ## Notes
 
+
+- *From 2025-Wang-Measuring Desired Group Discrimination in LLMs*: Affiliation: University, Cornell Tech
 Wang's approach emphasizes the importance of understanding social context and stakeholder perspectives in developing fair ML systems. Her work has been influential in shifting the field from equality-based metrics toward equity-focused approaches.

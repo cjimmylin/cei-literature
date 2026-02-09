@@ -1,6 +1,6 @@
 ---
 name: "Ketan Kotecha"
-affiliation: "University/Organization"
+affiliation: "lable, and advanced deception detection systems"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Joshi-Multimodal machine learning for deception|Multimodal machine learning for deception]]
+
+- [[2025-Joshi-Multimodal machine learning for deception|Multimodal machine learning for deception]] (Last Author)
 
 ## Notes
 
+
+- *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 [Additional context or contact information]

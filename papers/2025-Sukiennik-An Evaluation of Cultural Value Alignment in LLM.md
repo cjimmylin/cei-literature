@@ -9,6 +9,7 @@ type: preprint
 short_title: An Evaluation of Cultural Value Alignment in LLM
 year: 2025
 first_author: "[[N. Sukiennik]]"
+last_author: "[[Y]]"
 authors: "Sukiennik, N., Gao, C., Xu, F., & Li, Y"
 url: "https://arxiv.org/abs/2504.08863"
 external_pdf: "https://arxiv.org/pdf/2504.08863.pdf"
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Sukiennik, N., Gao, C., Xu, F., & Li, Y]]
+[[Sukiennik]], [[N.]], [[Guanglai Gao|Gao]], [[C.]], [[Xu]], [[F.]], [[Li|& Li]], [[Y]]
 
 ## Metadata
 

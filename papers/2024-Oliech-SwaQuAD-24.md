@@ -8,6 +8,7 @@ type: document
 short_title: SwaQuAD-24
 year: 2025
 first_author: "[[Alfred Malengo Kondoro]]"
+last_author: "[[Alfred Malengo Kondoro]]"
 authors: "Alfred Malengo Kondoro"
 url: "https://arxiv.org/abs/2410.14289"
 external_pdf: "https://arxiv.org/pdf/2410.14289.pdf"

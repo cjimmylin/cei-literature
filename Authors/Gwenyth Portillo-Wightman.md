@@ -43,6 +43,7 @@ Portillo-Wightman has also contributed to research including work with Kennedy e
 
 ## Papers in this Vault
 
+
 - [[2020-Hoover-Moral Foundations Twitter Corpus|Moral Foundations Twitter Corpus]]
 
 ## Links
@@ -53,4 +54,6 @@ Portillo-Wightman has also contributed to research including work with Kennedy e
 
 ## Notes
 
+
+- *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 Portillo-Wightman's work on the Moral Foundations Twitter Corpus has been foundational for research on moral sentiment in NLP, enabling numerous studies on how moral language affects social media dynamics and behavior.

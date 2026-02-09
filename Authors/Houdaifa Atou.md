@@ -19,8 +19,11 @@ Houdaifa Atou is a researcher focused on Arabic Natural Language Processing and 
 
 ## Papers in this Vault
 
+
 - [[2025-Alwajih-Palm|Palm]]
 
 ## Notes
 
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 His work on Arabic NLP and culturally inclusive datasets helps address the underrepresentation of Arabic dialects in language technology.

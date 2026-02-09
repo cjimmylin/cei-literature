@@ -1,6 +1,6 @@
 ---
 name: "Min Chen"
-affiliation: "University/Organization"
+affiliation: "University of Science and Technology"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2023-Cao-Assessing Cross-Cultural Alignment between|Assessing Cross-Cultural Alignment between]]
 
 ## Notes
 
+
+- *From 2023-Cao-Assessing Cross-Cultural Alignment between*: Affiliation: University of Science and Technology, Email: minchen@ieee.org
 [Additional context or contact information]

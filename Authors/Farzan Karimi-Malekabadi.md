@@ -1,6 +1,6 @@
 ---
 name: "Farzan Karimi-Malekabadi"
-affiliation: "University/Organization"
+affiliation: "University of Southern California"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,10 +17,15 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+- [[2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks|Theory Trace Card (TTC): Documentation for Socio-Cognitive Benchmarks]] (First Author)
+- [[2026-Yu-Tracing Moral Foundations in LLMs|Tracing Moral Foundations in LLMs]]
+- [[2025-Trager-MFTCXplain|MFTCXplain]]
 - [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 - [[2022-Trager-The Moral Foundations Reddit Corpus|The Moral Foundations Reddit Corpus]]
-- [[2025-Trager-MFTCXplain|MFTCXplain]]
 
 ## Notes
 
+
+- *From 2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks*: Affiliation: University of Southern California
 [Additional context or contact information]

@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Paech-EQ-Bench An Emotional Intelligence Benchmark for Large Language Models|EQ-Bench An Emotional Intelligence Benchmark for Large Language Models]]
+- [[2025-Paech-EQ-Bench An Emotional Intelligence Benchmark for Large Language Models|EQ-Bench: An Emotional Intelligence Benchmark for Large Language Models]] (First Author)
 
 ## External Links & Profiles
 

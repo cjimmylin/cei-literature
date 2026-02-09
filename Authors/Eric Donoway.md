@@ -26,8 +26,11 @@ Eric Donoway is a researcher at Apollo Research, an organization focused on AI s
 
 ## Papers in this Vault
 
+
 - [[2025-Arike-A Framework for Analyzing and Measuring Goal|A Framework for Analyzing and Measuring Goal]]
 
 ## Notes
 
+
+- *From 2025-Arike-A Framework for Analyzing and Measuring Goal*:, Email: rauno.arike@gmail.com
 Eric Donoway's work on goal misgeneralization addresses a key challenge in AI safety: ensuring AI systems pursue the objectives we actually intend.

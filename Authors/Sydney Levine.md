@@ -20,15 +20,20 @@ Sydney Levine is a Research Scientist at Google DeepMind focusing on AI safety, 
 
 ## Papers in this Vault
 
+
+- [[2025-Chiu-MoReBench|MoReBench]] (Last Author)
+- [[2025-Chiu-Will AI Tell Lies to Save Sick Children|Will AI Tell Lies to Save Sick Children?]]
+- [[2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment|Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)]]
+- [[2025-Levine-Resource Rational Contractualism Should Guide AI Alignment|Resource Rational Contractualism Should Guide AI Alignment]] (First Author)
+- [[2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety|SafetyAnalyst: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior]] (Last Author)
 - [[2024-Jiang-Can Language Models Reason about Individualistic|Can Language Models Reason about Individualistic]]
 - [[2024-Jin-Language Model Alignment in Multilingual Trolley|Language Model Alignment in Multilingual Trolley]]
-- [[2024-Moore-Intuitions of Compromise|Intuitions of Compromise]]
+- [[2024-Levine-Religious Affiliation and Conceptions of the|Religious Affiliation and Conceptions of the]] (First Author)
+- [[2024-Moore-Intuitions of Compromise|Intuitions of Compromise]] (Last Author)
 - [[2024-Sorensen-Value Kaleidoscope|Value Kaleidoscope]]
-- [[2025-Chiu-MoReBench|MoReBench]]
-- [[2025-Chiu-Will AI Tell Lies to Save Sick Children|Will AI Tell Lies to Save Sick Children?]]
-- [[2025-Levine-Resource Rational Contractualism Should Guide AI Alignment|Resource Rational Contractualism Should Guide AI Alignment]]
-- [[2025-Levine-Resource Rational Contractualism Should Guide AI|Resource Rational Contractualism Should Guide AI]]
 
 ## Notes
 
+
+- *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 [Additional context or contact information]

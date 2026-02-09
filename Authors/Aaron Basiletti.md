@@ -28,7 +28,8 @@ Aaron's research interests center on "Dark Patterns" in user experience—design
 
 ## Papers in this Vault
 
-- [[2024-Obi-Value Imprint|Value Imprint]]
+
+- [[2024-Obi-Value Imprint|Value Imprint]] (Last Author)
 
 ## External Links & Profiles
 
@@ -36,4 +37,6 @@ Aaron's research interests center on "Dark Patterns" in user experience—design
 - [Profile](https://abasilet.weebly.com/)
 
 ## Notes
+
+- *From 2024-Obi-Value Imprint*: Affiliation: labels generated from the annotation as ground truth data for
 [Investigates the psychological impact of deceptive design in digital interfaces.]

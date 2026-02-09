@@ -20,9 +20,12 @@ Tianyi Alex Qiu is affiliated with Peking University and UC Berkeley (with a ver
 
 ## Papers in this Vault
 
+
+- [[2024-Qiu-ProgressGym|ProgressGym]] (First Author)
 - [[2023-Ji-AI Alignment|AI Alignment]]
-- [[2024-Qiu-ProgressGym|ProgressGym]]
 
 ## Notes
 
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 [Additional context or contact information]

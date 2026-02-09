@@ -32,7 +32,9 @@ Coren Apicella is an associate professor of psychology at the University of Penn
 - Key contributor to the "Beyond WEIRD" movement in psychology research
 
 ## Papers in this Vault
-- [[2016-Purzycki-Cross-cultural dataset for the evolution of|Cross-cultural Dataset for the Evolution of Religion and Morality]]
+
+- [[2016-Purzycki-Cross-cultural dataset for the evolution of|Cross-cultural dataset for the evolution of]]
+- [[2016-Purzycki-Religious Belief and the Moral Circle|Religious Belief and the Moral Circle]]
 
 ## External Links & Profiles
 - [Personal Website](https://corenapicella.com/)
@@ -42,4 +44,6 @@ Coren Apicella is an associate professor of psychology at the University of Penn
 - [HBO Lab](https://corenapicella.com/hbo)
 
 ## Notes
+
+- *From 2016-Purzycki-Cross-cultural dataset for the evolution of*: Affiliation: Department of Human Behavior, Ecology, and Culture, Max Planck Institute for Evolutionary Anthropology
 Highly relevant to AI ethics research on cross-cultural values. Her work provides critical empirical grounding for understanding how moral values vary across human populations, which is essential for pluralistic AI alignment. The cross-cultural dataset work directly informs efforts to ensure AI systems are not biased toward WEIRD populations' moral frameworks.

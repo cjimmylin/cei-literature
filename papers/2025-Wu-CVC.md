@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: CVC
 year: 2025
 first_author: "[[Ping Wu]]"
+last_author: "[[Zeng, Yi]]"
 authors: "[[Wu, Ping]]; [[Shen, Guobin]]; [[Zhao, Dongcheng]]; [[Wang, Yuwei]]; [[Dong, Yiting]]; [[Shi, Yu]]; [[Lu, Enmeng]]; [[Zhao, Feifei]]; [[Zeng, Yi]]"
 doi: 10.48550/arXiv.2506.01495
 tags: 
@@ -39,18 +40,7 @@ DATE_ADDED: 20260207
 
 ## Authors
 
-[[Ping Wu]], [[Guobin Shen]], [[Dongcheng Zhao]], [[Yuwei Wang]], [[Yiting Dong]], [[Yu Shi]], [[Enmeng Lu]], [[Feifei Zhao]], [[Yi Zeng]]
-## Metadata
-
-**Authors:** Wu, Ping; Shen, Guobin; Zhao, Dongcheng; Wang, Yuwei; Dong, Yiting; Shi, Yu; Lu, Enmeng; Zhao, Feifei; Zeng, Yi
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2506.01495](https://doi.org/10.48550/arXiv.2506.01495)
-
-**Publisher:** arXiv
+[[Ping Wu|Wu, Ping]], [[Guobin Shen|Shen, Guobin]], [[Dongcheng Zhao|Zhao, Dongcheng]], [[Yuwei Wang|Wang, Yuwei]], [[Yiting Dong|Dong, Yiting]], [[Yu Shi|Shi, Yu]], [[Enmeng Lu|Lu, Enmeng]], [[Feifei Zhao|Zhao, Feifei]], [[Yi Zeng|Zeng, Yi]]
 
 ## Links
 

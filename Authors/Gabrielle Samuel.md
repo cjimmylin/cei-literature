@@ -32,7 +32,8 @@ Her findings have been featured in international media and academic journals.
 
 ## Papers in this Vault
 
-- [[2024-Odero-The Ubuntu Way|The Ubuntu Way]]
+
+- [[2024-Odero-The Ubuntu Way|The Ubuntu Way]] (Last Author)
 
 ## External Links
 
@@ -40,4 +41,6 @@ Her findings have been featured in international media and academic journals.
 
 ## Notes
 
+
+- *From 2024-Odero-The Ubuntu Way*: Affiliation: Institute of Healthcare Management, Strathmore University Business School, Strathmore University, Nairobi, Na, Email: AMusiega@kemri-wellcome.org
 Research bridges Western ethical frameworks with African communal values for more inclusive AI governance.

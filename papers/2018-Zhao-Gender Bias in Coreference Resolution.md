@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Gender Bias in Coreference Resolution"
 year: 2025
 first_author: "[[Jieyu Zhao]]"
+last_author: "[[Chang, Kai-Wei]]"
 authors: "[[Zhao, Jieyu]]; [[Wang, Tianlu]]; [[Yatskar, Mark]]; [[Ordonez, Vicente]]; [[Chang, Kai-Wei]]"
 doi: 10.18653/v1/N18-2003
 url: "https://arxiv.org/abs/1804.06876"
@@ -37,22 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Jieyu Zhao]], [[Tianlu Wang]], [[Mark Yatskar]], [[Vicente Ordonez]], [[Kai-Wei Chang]]
-## Metadata
-
-**Authors:** Zhao, Jieyu; Wang, Tianlu; Yatskar, Mark; Ordonez, Vicente; Chang, Kai-Wei
-
-**Year:** 2018
-
-**Publication:** Proceedings of the 2018 Conference of the North American Chapter of           the Association for Computational Linguistics: Human Language           Technologies, Volume 2 (Short Papers)
-
-**Type:** conferencePaper
-
-**DOI:** [10.18653/v1/N18-2003](https://doi.org/10.18653/v1/N18-2003)
-
-**Pages:** 15-20
-
-**Publisher:** Association for Computational Linguistics
+[[Jieyu Zhao|Zhao, Jieyu]], [[Tianlu Wang|Wang, Tianlu]], [[Mark Yatskar|Yatskar, Mark]], [[Vicente Ordonez|Ordonez, Vicente]], [[Kai-Wei Chang|Chang, Kai-Wei]]
 
 ## Links
 

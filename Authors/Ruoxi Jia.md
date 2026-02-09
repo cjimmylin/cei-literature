@@ -1,6 +1,6 @@
 ---
 name: "Ruoxi Jia"
-affiliation: "University/Organization"
+affiliation: "University of California, Los Angeles"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+- [[2025-Liu-PersuSafety LLM Can be a Dangerous Persuader|PersuSafety: LLM Can be a Dangerous Persuader]]
 - [[2024-Zeng-AIR-Bench 2024|AIR-Bench 2024]]
 
 ## Notes
 
+
+- *From 2024-Zeng-AIR-Bench 2024*: Affiliation: University of California, Los Angeles
 [Additional context or contact information]

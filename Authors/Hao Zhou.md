@@ -30,8 +30,11 @@ Hao Zhou is a professor at the MLNLC group at ByteDance AI Lab. He received his 
 
 ## Papers in this Vault
 
+
 - [[2023-Zheng-Large Language Models Are Not Robust Multiple|Large Language Models Are Not Robust Multiple]]
 
 ## Notes
 
+
+- *From 2023-Zheng-Large Language Models Are Not Robust Multiple*: Affiliation: University, Beijing 100084, China, Email: aihuang@tsinghua.edu.cn
 Leading researcher in efficient language model generation and training optimization.

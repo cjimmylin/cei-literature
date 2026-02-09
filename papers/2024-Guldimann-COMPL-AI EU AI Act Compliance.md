@@ -9,7 +9,9 @@ type: preprint
 short_title: COMPL-AI (EU AI Act Compliance)
 year: 2024
 first_author: "[[Philipp Guldimann]]"
+last_author: "[[Philipp Guldimann]]"
 authors: Philipp Guldimann et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2410.07959"
 external_pdf: "https://arxiv.org/pdf/2410.07959.pdf"
 local_pdf: "[[PDFs/2024/2024-Guldimann-COMPL-AI EU AI Act Compliance.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Philipp Guldimann et al.]]
+[[Philipp Guldimann]]
 
 ## Metadata
 

@@ -30,3 +30,7 @@ University of Kansas (PhD candidate in Philosophy)
 - Website:
 - Google Scholar:
 - Semantic Scholar:
+
+## Papers in this Vault
+
+- [[2025-Sanwoolu-Kantian deontology for AI|Kantian deontology for AI]] (First Author)

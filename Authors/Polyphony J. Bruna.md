@@ -1,6 +1,6 @@
 ---
 name: "Polyphony J. Bruna"
-affiliation: "University/Organization"
+affiliation: "Department of Computer Science"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Rane-Concept Alignment|Concept Alignment]]
 
 ## Notes
 
+
+- *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: srane@princeton.edu
 [Additional context or contact information]

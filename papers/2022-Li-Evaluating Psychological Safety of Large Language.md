@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Evaluating Psychological Safety of Large Language"
 year: 2025
 first_author: "[[Xingxuan Li]]"
+last_author: "[[Lidong Bing]]"
 authors: "Xingxuan Li; Yutong Li; Lin Qiu; Shafiq Joty; Lidong Bing"
 doi: 10.48550/arXiv.2212.10529
 url: "http://arxiv.org/abs/2212.10529"

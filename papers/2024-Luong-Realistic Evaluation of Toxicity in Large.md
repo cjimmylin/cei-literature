@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Realistic Evaluation of Toxicity in Large"
 year: 2025
 first_author: "[[Tinh Son Luong]]"
+last_author: "[[Thien Huu Nguyen]]"
 authors: "Tinh Son Luong; Thanh-Thien Le; Linh Ngo Van; Thien Huu Nguyen"
 url: "https://arxiv.org/abs/2405.10659"
 external_pdf: "https://arxiv.org/pdf/2405.10659.pdf"
@@ -55,7 +56,7 @@ Large language models (LLMs) have become integral to our professional workflows 
 
 ## Authors
 
-[[Tinh Son Luong]], [[Thanh-Thien Le]], [[Linh Ngo Van]], [[Thien Huu Nguyen]]
+[[Tinh Son Luong]], [[Thanh-Thien Le]], [[Linh Ngo Van]], [[Thao Nguyen|Thien Huu Nguyen]]
 
 ## Notes
 

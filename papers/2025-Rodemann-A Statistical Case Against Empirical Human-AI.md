@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "A Statistical Case Against Empirical Human-AI"
 year: 2025
 first_author: "[[Julian Rodemann]]"
+last_author: "[[Thomas Augustin]]"
 authors: "Julian Rodemann; Esteban Garces Arias; Christoph Luther; Christoph Jansen; Thomas Augustin"
 doi: 10.48550/arXiv.2502.14581
 url: "http://arxiv.org/abs/2502.14581"

@@ -29,3 +29,7 @@ Virginia Tech, Department of Computer Science (Research Assistant, Master's in C
 - Website:
 - Google Scholar:
 - Semantic Scholar:
+
+## Papers in this Vault
+
+- [[2025-Aina-Virtue Ethics by Design|Virtue Ethics by Design]] (First Author)

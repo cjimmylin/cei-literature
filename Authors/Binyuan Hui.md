@@ -3,7 +3,7 @@ name: "Binyuan Hui"
 title: "Staff Research Scientist"
 affiliation: "Alibaba Qwen Team"
 highest_degree: "PhD Research"
-email: ""
+email: "ckcheng@cs.hku.hk"
 research_interests:
   - "Code Generation"
   - "Foundation Models"
@@ -45,9 +45,10 @@ He has co-authored multiple technical reports for the Qwen series, including Qwe
 - [A Survey on Text-to-SQL Parsing](https://arxiv.org/abs/2201.00000) (2022) - *A comprehensive review of the field.*
 
 ## Papers in this Vault
-- [[2023-Li-Can LLM Already Serve as A Database Interface|Can LLM Already Serve as A Database Interface?]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2025-Hui-Decoding Moral Responses in AI|Decoding Moral Responses in AI]] (First Author)
+- [[2023-Li-BIRD|BIRD]]
+- [[2023-Li-Can LLM Already Serve as A Database Interface|Can LLM Already Serve as A Database Interface?]]
 
 ## External Links & Profiles
 
@@ -61,4 +62,6 @@ He has co-authored multiple technical reports for the Qwen series, including Qwe
 - [Twitter/X](https://twitter.com/binyuan_hui)
 
 ## Notes
+
+- *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk
 [Binyuan is a central architect of the Qwen model's coding and reasoning capabilities.]

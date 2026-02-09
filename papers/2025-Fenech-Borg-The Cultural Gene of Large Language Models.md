@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "The Cultural Gene of Large Language Models"
 year: 2025
 first_author: "[[Emanuel Z. Fenech-Borg]]"
+last_author: "[[Arni J. Hentze-Djurhuus]]"
 authors: "Emanuel Z. Fenech-Borg; Tilen P. Meznaric-Kos; Milica D. Lekovic-Bojovic; Arni J. Hentze-Djurhuus"
 doi: 10.48550/arXiv.2508.12411
 tags: 

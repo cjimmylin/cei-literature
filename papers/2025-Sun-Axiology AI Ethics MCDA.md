@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Axiology AI Ethics MCDA"
 year: 2025
 first_author: "[[Fei Sun]]"
+last_author: "[[Gordana Dodig-Crnkovic]]"
 authors: "Fei Sun; Damir Isovic; Gordana Dodig-Crnkovic"
 doi: 10.3390/proceedings2025126017
 url: "https://www.mdpi.com/2504-3900/126/1/17"

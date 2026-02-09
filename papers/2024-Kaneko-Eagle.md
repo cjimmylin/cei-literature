@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: Eagle
 year: 2025
 first_author: "[[Masahiro Kaneko]]"
+last_author: "[[Timothy Baldwin]]"
 authors: "Masahiro Kaneko; Danushka Bollegala; Timothy Baldwin"
 doi: 10.48550/arXiv.2402.14258
 tags: 

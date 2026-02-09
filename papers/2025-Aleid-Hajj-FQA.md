@@ -8,6 +8,7 @@ type: journalArticle
 short_title: Hajj-FQA
 year: 2025
 first_author: "[[Hayfa A. Aleid]]"
+last_author: "[[Aqil M. Azmi]]"
 authors: "Hayfa A. Aleid; Aqil M. Azmi"
 doi: 10.1007/s44443-025-00128-w
 url: "https://link.springer.com/10.1007/s44443-025-00128-w"

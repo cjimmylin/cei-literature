@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: IslamicEval 2025 -- Shared Task on Capturing LLM Hallucination in Islamic Content
 year: 2025
 first_author: "[[Hamdy Mubarak]]"
+last_author: "[[Walid Magdy]]"
 authors: Hamdy Mubarak; Rana Malhas; Watheq Mansour; Abubakr Mohamed; Mahmoud Fawzi; Majd Hawasly; Tamer Elsayed; Kareem Darwish; Walid Magdy
 publication: Unknown
 external_pdf: "https://aclanthology.org/2025.arabicnlp-sharedtasks.67.pdf"

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "AI Safety in Generative AI Large Language Models"
 year: 2025
 first_author: "[[Jaymari Chua]]"
+last_author: "[[Lina Yao]]"
 authors: "Jaymari Chua; Yun Li; Shiyi Yang; Chen Wang; Lina Yao"
 doi: 10.48550/arXiv.2407.18369
 url: "http://arxiv.org/abs/2407.18369"

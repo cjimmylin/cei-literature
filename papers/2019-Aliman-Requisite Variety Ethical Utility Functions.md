@@ -8,6 +8,7 @@ type: preprint
 short_title: "Requisite Variety Ethical Utility Functions"
 year: 2025
 first_author: "[[Nadisha-Marie Aliman]]"
+last_author: "[[Leon Kester]]"
 authors: "Nadisha-Marie Aliman; Leon Kester"
 doi: 10.48550/arXiv.1907.00430
 url: "https://arxiv.org/abs/1907.00430"

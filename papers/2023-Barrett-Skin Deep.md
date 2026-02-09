@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Skin Deep"
 year: 2025
 first_author: "[[Teanna Barrett]]"
+last_author: "[[Amy Zhang]]"
 authors: "Teanna Barrett; Quanze Chen; Amy Zhang"
 doi: 10.1145/3593013.3594114
 url: "https://doi.org/10.1145/3593013.3594114"

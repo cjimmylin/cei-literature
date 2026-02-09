@@ -34,6 +34,8 @@ Dan Jurafsky is one of the most influential figures in natural language processi
 - Foundational work on statistical NLP and speech recognition
 
 ## Papers in this Vault
+
+- [[2024-Bianchi-NegotiationArena How Well Can LLMs Negotiate|NegotiationArena: How Well Can LLMs Negotiate?]]
 - [[2020-Sap-Social Bias Frames|Social Bias Frames]]
 
 ## Links

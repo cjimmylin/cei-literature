@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "The Moral Foundations Reddit Corpus"
 year: 2025
 first_author: "[[Jackson Trager]]"
+last_author: "[[Morteza Dehghani]]"
 authors: "Jackson Trager; Alireza S. Ziabari; Elnaz Rahmati; Aida Mostafazadeh Davani; Preni Golazizian; Farzan Karimi-Malekabadi; Ali Omrani; Zhihe Li; Brendan Kennedy; Nils Karl Reimer; Melissa Reyes; Kelsey Cheng; Mellow Wei; Christina Merrifield; Arta Khosravi; Evans Alvarez; Morteza Dehghani"
 doi: 10.48550/arXiv.2208.05545
 url: "http://arxiv.org/abs/2208.05545"

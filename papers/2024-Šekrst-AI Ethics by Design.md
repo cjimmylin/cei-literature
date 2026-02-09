@@ -8,6 +8,7 @@ type: preprint
 short_title: "AI Ethics by Design"
 year: 2025
 first_author: "[[Kristina Šekrst]]"
+last_author: "[[Jonathan Rodriguez Cefalù]]"
 authors: "Kristina Šekrst; Jeremy McHugh; Jonathan Rodriguez Cefalù"
 doi: 10.48550/arXiv.2411.14442
 url: "http://arxiv.org/abs/2411.14442"

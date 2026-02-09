@@ -34,7 +34,8 @@ Elif Gizem Demirag Burak is a researcher in psychology based in Turkey. Her rese
 
 ## Papers in this Vault
 
-- [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the trolley dilemma]]
+
+- [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 
 ## Notes
 

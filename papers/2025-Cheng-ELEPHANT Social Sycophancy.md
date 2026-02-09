@@ -9,6 +9,7 @@ type: preprint
 short_title: ELEPHANT (Social Sycophancy)
 year: 2025
 first_author: "[[Myra Cheng]]"
+last_author: "[[Dan Jurafsky Lujain Ibrahim]]"
 authors: Myra Cheng, Sunny Yu, Cinoo Lee, Pranav Khadpe, Lujain Ibrahim, Dan Jurafsky
 url: "https://arxiv.org/abs/2505.13995"
 external_pdf: "https://arxiv.org/pdf/2505.13995.pdf"
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Myra Cheng, Sunny Yu, Cinoo Lee, Pranav Khadpe, Lujain Ibrahim, Dan Jurafsky]]
+[[Sunny Yu Myra Cheng]], [[Pranav Khadpe Cinoo Lee]], [[Dan Jurafsky Lujain Ibrahim]]
 
 ## Metadata
 

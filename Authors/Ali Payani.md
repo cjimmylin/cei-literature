@@ -3,7 +3,7 @@ name: "Ali Payani"
 title: "Senior Research Scientist"
 affiliation: "Cisco Research"
 highest_degree: "PhD"
-email: ""
+email: "apayani@cisco.com"
 research_interests:
   - "Model Editing"
   - "AI Robustness"
@@ -31,7 +31,10 @@ Ali's research addresses the "double-edged sword" of model editing—how correct
 
 ## Papers in this Vault
 
+
 - [[2025-Huang-Model Editing as a Double-Edged Sword|Model Editing as a Double-Edged Sword]]
 
 ## Notes
+
+- *From 2025-Huang-Model Editing as a Double-Edged Sword*:, Email: apayani@cisco.com
 [A pioneer in applying uncertainty quantification to assess the risks of AI knowledge updates.]

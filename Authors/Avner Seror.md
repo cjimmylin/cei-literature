@@ -48,7 +48,8 @@ He has published in top-tier journals such as the *Journal of Economic Behavior 
 
 ## Papers in this Vault
 
-- [[2024-Seror-The Moral Mind(s) of Large Language Models|The Moral Mind(s) of Large Language Models]]
+
+- [[2024-Seror-The Moral Mind(s) of Large Language Models|The Moral Mind(s) of Large Language Models]] (First Author)
 
 ## External Links & Profiles
 
@@ -57,4 +58,6 @@ He has published in top-tier journals such as the *Journal of Economic Behavior 
 - [AMSE Profile](https://www.amse-aixmarseille.edu/en/members/seror)
 
 ## Notes
+
+- *From 2024-Seror-The Moral Mind(s) of Large Language Models*: Affiliation: University -, Email: avner.seror@univ-amu.fr.
 [Avner is a key collaborator on the psychological and economic foundations of AI morality.]

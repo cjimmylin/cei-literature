@@ -29,6 +29,7 @@ Christof Weickhardt is a bachelor student at the FHNW School of Computer Science
 - Contributed to research revealing how nationality significantly influences LLM decisions, exposing potential biases
 
 ## Papers in this Vault
+
 - [[2025-Hatemo-Revisiting the Trolley Problem for AI|Revisiting the Trolley Problem for AI]]
 
 ## External Links & Profiles

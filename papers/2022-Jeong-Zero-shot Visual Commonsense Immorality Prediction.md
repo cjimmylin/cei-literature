@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Zero-shot Visual Commonsense Immorality Prediction"
 year: 2025
 first_author: "[[Yujin Jeong]]"
+last_author: "[[Jinkyu Kim]]"
 authors: "Yujin Jeong; Seongbeom Park; Suhong Moon; Jinkyu Kim"
 doi: 10.48550/arXiv.2211.05521
 url: "http://arxiv.org/abs/2211.05521"

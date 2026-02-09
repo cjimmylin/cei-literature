@@ -1,6 +1,6 @@
 ---
 name: "Xudong Han"
-affiliation: "University/Organization"
+affiliation: "University of Melbourne"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+- [[2025-Group-AILuminate|AILuminate]]
 - [[2024-Wang-Do-Not-Answer|Do-Not-Answer]]
 
 ## Notes
 
+
+- *From 2024-Wang-Do-Not-Answer*: Affiliation: University of Melbourne
 [Additional context or contact information]

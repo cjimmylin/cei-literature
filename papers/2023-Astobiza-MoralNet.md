@@ -8,6 +8,7 @@ type: preprint
 short_title: MoralNet
 year: 2025
 first_author: "[[Aníbal M. Astobiza]]"
+last_author: "[[Aníbal M. Astobiza]]"
 authors: "Aníbal M. Astobiza"
 doi: 10.31234/osf.io/dbyw7
 url: "https://osf.io/dbyw7"

@@ -9,7 +9,9 @@ type: preprint
 short_title: S-Eval
 year: 2025
 first_author: "[[Xiaohan Yuan]]"
+last_author: "[[Xiaohan Yuan]]"
 authors: Xiaohan Yuan et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2405.14191"
 external_pdf: "https://arxiv.org/pdf/2405.14191.pdf"
 local_pdf: "[[PDFs/2025/2025-Yuan-S-Eval.pdf]]"
@@ -36,7 +38,7 @@ data_metrics: "220,000 test cases"
 
 ## Authors
 
-[[Xiaohan Yuan et al.]]
+[[Xiaohan Yuan]]
 
 ## Metadata
 

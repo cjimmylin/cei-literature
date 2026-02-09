@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: Investigating Cultural Alignment of LLMs
 year: 2024
 first_author: "[[Badr AlKhamissi]]"
+last_author: "[[Mona Diab Mai Alkhamissi]]"
 authors: Badr AlKhamissi, Muhammad ElNokrashy, Mai Alkhamissi, Mona Diab
 publication: ACL 2024
 external_pdf: "https://arxiv.org/pdf/2402.13231.pdf"
@@ -36,7 +37,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Badr AlKhamissi, Muhammad ElNokrashy, Mai Alkhamissi, Mona Diab]]
+[[Muhammad ElNokrashy Badr AlKhamissi]], [[Mona Diab Mai Alkhamissi]]
 
 ## Metadata
 

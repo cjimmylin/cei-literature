@@ -1,6 +1,6 @@
 ---
 name: "Qin Chen"
-affiliation: "University/Organization"
+affiliation: "School of Computer Science and Technology, East China Normal University, Shanghai, China"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Chen-DiaHalu|DiaHalu]]
 
 ## Notes
 
+
+- *From 2024-Chen-DiaHalu*: Affiliation: School of Computer Science and Technology, East China Normal University, Shanghai, China
 [Additional context or contact information]

@@ -37,7 +37,9 @@ Purzycki co-authored the influential book "Religion Evolving: Cultural, Cognitiv
 
 ## Papers in this Vault
 
-(Auto-generated list of linked papers)
+
+- [[2016-Purzycki-Cross-cultural dataset for the evolution of|Cross-cultural dataset for the evolution of]] (First Author)
+- [[2016-Purzycki-Religious Belief and the Moral Circle|Religious Belief and the Moral Circle]] (First Author)
 
 ## Links
 
@@ -47,4 +49,6 @@ Purzycki co-authored the influential book "Religion Evolving: Cultural, Cognitiv
 
 ## Notes
 
+
+- *From 2016-Purzycki-Cross-cultural dataset for the evolution of*: Affiliation: Department of Human Behavior, Ecology, and Culture, Max Planck Institute for Evolutionary Anthropology
 His work on the cognitive and evolutionary foundations of religious morality provides important context for understanding how cultural value systems shape human cooperation, which is directly relevant to AI alignment research on diverse moral frameworks.

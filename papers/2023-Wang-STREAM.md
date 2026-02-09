@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: STREAM
 year: 2025
 first_author: "[[Yuwei Wang]]"
+last_author: "[[Yi Zeng]]"
 authors: "Yuwei Wang; Enmeng Lu; Zizhe Ruan; Yao Liang; Yi Zeng"
 doi: 10.48550/arXiv.2310.05563
 tags: 

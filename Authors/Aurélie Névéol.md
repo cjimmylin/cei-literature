@@ -46,7 +46,8 @@ She is a pioneer in clinical NLP in French and English and a strong advocate for
 
 ## Papers in this Vault
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+
+- [[2025-Mitchell-SHADES|SHADES]]
 
 ## External Links & Profiles
 
@@ -60,4 +61,6 @@ She is a pioneer in clinical NLP in French and English and a strong advocate for
 - [Twitter/X](https://twitter.com/aurelieneveol)
 
 ## Notes
+
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 [Aurélie is a critical voice for ethics and sustainability in NLP.]

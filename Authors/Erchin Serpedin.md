@@ -34,7 +34,8 @@ Erchin Serpedin is a Professor in the Department of Electrical and Computer Engi
 
 ## Papers in this Vault
 
-- [[2025-Abdaljalil-HalluVerse25|HalluVerse25]]
+
+- [[2025-Abdaljalil-HalluVerse25|HalluVerse25]] (Last Author)
 
 ## External Links
 
@@ -43,4 +44,6 @@ Erchin Serpedin is a Professor in the Department of Electrical and Computer Engi
 
 ## Notes
 
+
+- *From 2025-Abdaljalil-HalluVerse25*: Affiliation: College Station, TX, Email: sabdaljalil@tamu.edu
 Erchin Serpedin's interdisciplinary expertise contributes to rigorous evaluation of AI systems, including work on hallucination detection in LLMs.

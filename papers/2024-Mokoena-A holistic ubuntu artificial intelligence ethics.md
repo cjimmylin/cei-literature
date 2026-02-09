@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "A holistic ubuntu artificial intelligence ethics"
 year: 2025
 first_author: "[[Katleho K. Mokoena]]"
+last_author: "[[Katleho K. Mokoena]]"
 authors: "Katleho K. Mokoena"
 doi: 10.4102/ve.v45i1.3100
 url: "http://www.ve.org.za/index.php/VE/article/view/3100"

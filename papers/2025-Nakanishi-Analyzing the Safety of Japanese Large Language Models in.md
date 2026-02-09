@@ -9,6 +9,7 @@ type: preprint
 short_title: Analyzing the Safety of Japanese Large Language Models in Stereotype-Triggering Prompts
 year: 2025
 first_author: "[[A. Nakanishi]]"
+last_author: "[[F]]"
 authors: "Nakanishi, A., Sano, Y., Liu, G., & Pierri, F"
 url: "https://arxiv.org/abs/2503.01947"
 external_pdf: "https://arxiv.org/pdf/2503.01947.pdf"
@@ -37,7 +38,7 @@ data_metrics: "3,612 prompts"
 
 ## Authors
 
-[[Nakanishi, A., Sano, Y., Liu, G., & Pierri, F]]
+[[Nakanishi]], [[A.]], [[Sano]], [[Y.]], [[Liu]], [[G.]], [[& Pierri]], [[F]]
 
 ## Metadata
 

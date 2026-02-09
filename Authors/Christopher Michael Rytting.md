@@ -30,8 +30,9 @@ Christopher Michael Rytting is a researcher focused on understanding the extent 
 - Contributed to foundational work on pluralistic alignment methodologies
 
 ## Papers in this Vault
-- [[2023-Rytting-Towards Coding Social Science Datasets with|Towards Coding Social Science Datasets with Language Models]]
+
 - [[2024-Sorensen-A Roadmap to Pluralistic Alignment|A Roadmap to Pluralistic Alignment]]
+- [[2023-Rytting-Towards Coding Social Science Datasets with|Towards Coding Social Science Datasets with]] (First Author)
 
 ## External Links & Profiles
 - [Personal Website](https://chrisrytting.github.io/)
@@ -40,4 +41,6 @@ Christopher Michael Rytting is a researcher focused on understanding the extent 
 - [OpenReview](https://openreview.net/profile?id=~Christopher_Michael_Rytting1)
 
 ## Notes
+
+- *From 2023-Rytting-Towards Coding Social Science Datasets with*: Affiliation: Department, Brigham Young, Email: christophermichaelrytting@gmail.com
 Highly relevant to AI ethics research, particularly on value alignment and pluralistic approaches to AI. His work bridges computational linguistics and social science, demonstrating how LLMs can both reflect and potentially help mitigate political polarization. His research on algorithmic fidelity has implications for understanding what values LLMs encode and how they might be aligned with diverse human perspectives.

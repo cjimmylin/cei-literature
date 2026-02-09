@@ -22,8 +22,11 @@ His expertise centers on designing systems that make working with data and AI mo
 
 ## Papers in this Vault
 
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 
 ## Notes
 
+
+- *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
 Notable publications include "Task Me Anything" (NeurIPS 2024, Oral Presentation), "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework," "Large Language Model as Attributed Training Data Generator" (NeurIPS 2023), "SugarCrepe: Fixing Hackable Benchmarks for Vision-Language Compositionality" (NeurIPS 2023), and "WRENCH: A Comprehensive Benchmark for Weak Supervision" (NeurIPS 2021).

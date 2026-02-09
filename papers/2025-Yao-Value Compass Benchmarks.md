@@ -8,6 +8,7 @@ type: preprint
 short_title: "Value Compass Benchmarks"
 year: 2025
 first_author: "[[Jing Yao]]"
+last_author: "[[Xing Xie]]"
 authors: "Jing Yao; Xiaoyuan Yi; Shitong Duan; Jindong Wang; Yuzhuo Bai; Muhua Huang; Peng Zhang; Tun Lu; Zhicheng Dou; Maosong Sun; Xing Xie"
 doi: 10.48550/arXiv.2501.07071
 tags: "Computer Science - Artificial Intelligence"

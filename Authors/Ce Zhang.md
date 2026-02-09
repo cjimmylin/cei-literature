@@ -3,7 +3,7 @@ name: "Ce Zhang"
 title: "Neubauer Associate Professor / CTO"
 affiliation: "University of Chicago / Together AI"
 highest_degree: "PhD, CS, University of Wisconsin-Madison"
-email: ""
+email: "tonyhlee@stanford.edu"
 research_interests:
   - "Decentralized Machine Learning"
   - "Data-centric AI"
@@ -46,6 +46,7 @@ As the CTO of Together AI, Zhang is a leader in decentralized and efficient AI t
 
 ## Papers in this Vault
 
+
 - [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]
 
 ## External Links & Profiles
@@ -55,4 +56,6 @@ As the CTO of Together AI, Zhang is a leader in decentralized and efficient AI t
 - [University Profile](https://cs.uchicago.edu/people/ce-zhang/)
 
 ## Notes
+
+- *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: tonyhlee@stanford.edu
 Ce Zhang's dual role as a top academic and the CTO of a major AI infrastructure company makes him a key figure in the "Scalable Alignment" and "Open Access" movements.

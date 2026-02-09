@@ -20,7 +20,8 @@ Ahmed Mohammed is a researcher working on Arabic natural language processing and
 
 ## Papers in this Vault
 
-- [[2025-Mohammed-Aftina|Aftina]]
+
+- [[2025-Mohammed-Aftina|Aftina]] (First Author)
 
 ## Notes
 

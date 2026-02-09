@@ -21,10 +21,14 @@ Note: There are multiple prominent researchers named Yi Zeng. (1) Yi Zeng is a P
 
 ## Papers in this Vault
 
-- [[2023-Wang-STREAM|STREAM]]
-- [[2024-Zeng-AIR-Bench 2024|AIR-Bench 2024]]
-- [[2025-Wu-CVC|CVC]]
+
+- [[2025-Wu-CVC|CVC]] (Last Author)
+- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
+- [[2024-Zeng-AIR-Bench 2024|AIR-Bench 2024]] (First Author)
+- [[2023-Wang-STREAM|STREAM]] (Last Author)
 
 ## Notes
 
+
+- *From 2023-Wang-STREAM*: Affiliation: Research Center for AI Ethics and Governance, Institute of Automation, Chinese Academy of, Email: yi.zeng@ia.ac.cn
 [Additional context or contact information]

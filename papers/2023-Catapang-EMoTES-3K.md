@@ -8,6 +8,7 @@ type: document
 short_title: EMoTES-3K
 year: 2025
 first_author: "[[Jasper Kyle Catapang]]"
+last_author: "[[Visperas, Moses]]"
 authors: "[[Catapang, Jasper Kyle]]; [[Visperas, Moses]]"
 url: "https://aclanthology.org/2023.nlp4dh-1.1/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5GQQWIXN/2023 - EMoTES-3K Emotion-based Morality in Tagalog and English Scenarios.pdf"
@@ -36,12 +37,7 @@ local_pdf: "[[PDFs/2023/2023-Catapang-EMoTES-3K.pdf]]"
 
 ## Authors
 
-[[Jasper Kyle Catapang]], [[Moses Visperas]]
-## Metadata
-
-**Year:** 2023
-
-**Type:** document
+[[Jasper Kyle Catapang|Catapang, Jasper Kyle]], [[Moses Visperas|Visperas, Moses]]
 
 ## Links
 

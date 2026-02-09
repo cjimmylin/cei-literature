@@ -46,6 +46,7 @@ Reyna has contributed to massive, cross-cultural studies that define the "Global
 
 ## Papers in this Vault
 
+
 - [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 
 ## External Links & Profiles

@@ -1,6 +1,6 @@
 ---
 name: "Jasper Schwenzow"
-affiliation: "University/Organization"
+affiliation: "University of Munich, TUM School of Management, Arcisstr"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2023-Hartmann-The political ideology of conversational AI|The political ideology of conversational AI]]
 
 ## Notes
 
+
+- *From 2023-Hartmann-The political ideology of conversational AI*: Affiliation: University of Munich, TUM School of Management, Arcisstr, Email: jochen.hartmann@tum.de
 [Additional context or contact information]

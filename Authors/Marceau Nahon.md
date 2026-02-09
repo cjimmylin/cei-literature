@@ -1,6 +1,6 @@
 ---
 name: "Marceau Nahon"
-affiliation: "University/Organization"
+affiliation: "Institute of Intelligent Systems and Robotics, Sorbonne University /"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Khamassi-Strong and weak alignment of large language models|Strong and weak alignment of large language models]]
-- [[2024-Khamassi-Strong and weak alignment of large language|Strong and weak alignment of large language]]
 
 ## Notes
 
+
+- *From 2024-Khamassi-Strong and weak alignment of large language models*: Affiliation: Institute of Intelligent Systems and Robotics, Sorbonne University /, Email: marceau.nahon@gmail.com
 [Additional context or contact information]

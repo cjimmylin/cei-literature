@@ -18,8 +18,11 @@ Researcher working on moral foundations analysis in Chinese social media. Known 
 
 ## Papers in this Vault
 
-- [[2024-Cao-The Moral Foundations Weibo Corpus|The Moral Foundations Weibo Corpus]]
+
+- [[2024-Cao-The Moral Foundations Weibo Corpus|The Moral Foundations Weibo Corpus]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Cao-The Moral Foundations Weibo Corpus*:, Email: 21061301@stu.nchu.edu.cn
 [Additional context or contact information]

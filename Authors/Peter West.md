@@ -1,6 +1,6 @@
 ---
 name: "Peter West"
-affiliation: "University/Organization"
+affiliation: "Institute for Artificial Intelligence"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2022-Kim-SODA|SODA]]
+
 - [[2024-Sorensen-Value Kaleidoscope|Value Kaleidoscope]]
+- [[2022-Kim-SODA|SODA]]
 
 ## Notes
 
+
+- *From 2022-Kim-SODA*: Affiliation: Institute for Artificial Intelligence
 [Additional context or contact information]

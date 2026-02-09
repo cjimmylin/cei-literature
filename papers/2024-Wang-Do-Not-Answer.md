@@ -8,6 +8,7 @@ type: document
 short_title: Do-Not-Answer
 year: 2025
 first_author: "[[Yuxia Wang]]"
+last_author: "[[Baldwin, Timothy]]"
 authors: "[[Wang, Yuxia]]; [[Li, Haonan]]; [[Han, Xudong]]; [[Nakov, Preslav]]; [[Baldwin, Timothy]]"
 url: "https://aclanthology.org/2024.findings-eacl.61/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/VZA7CY4P/2024 - Do-Not-Answer A Dataset for Evaluating Safeguards in LLMs.pdf"
@@ -36,12 +37,7 @@ local_pdf: "[[PDFs/2024/2024-Wang-Do-Not-Answer.pdf]]"
 
 ## Authors
 
-[[Yuxia Wang]], [[Haonan Li]], [[Xudong Han]], [[Preslav Nakov]], [[Timothy Baldwin]]
-## Metadata
-
-**Year:** 2024
-
-**Type:** document
+[[Yuxia Wang|Wang, Yuxia]], [[Haonan Li|Li, Haonan]], [[Xudong Han|Han, Xudong]], [[Preslav Nakov|Nakov, Preslav]], [[Timothy Baldwin|Baldwin, Timothy]]
 
 ## Links
 

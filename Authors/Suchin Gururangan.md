@@ -1,6 +1,6 @@
 ---
 name: "Suchin Gururangan"
-affiliation: "University/Organization"
+affiliation: "School of Computer Science & Engineering, University of Washington"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2020-Gehman-RealToxicityPrompts|RealToxicityPrompts]]
+
 - [[2021-Clark-All That's 'Human' Is Not Gold|All That's 'Human' Is Not Gold]]
+- [[2020-Gehman-RealToxicityPrompts|RealToxicityPrompts]]
 
 ## Notes
 
+
+- *From 2020-Gehman-RealToxicityPrompts*: Affiliation: School of Computer Science & Engineering, University of Washington
 [Additional context or contact information]

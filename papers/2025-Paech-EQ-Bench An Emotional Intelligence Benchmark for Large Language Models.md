@@ -9,6 +9,7 @@ type: preprint
 short_title: "EQ-Bench: An Emotional Intelligence Benchmark for Large Language Models"
 year: 2025
 first_author: "[[Samuel J. Paech]]"
+last_author: "[[Samuel J. Paech]]"
 authors: Samuel J. Paech
 url: "https://arxiv.org/abs/2312.06281"
 external_pdf: "https://arxiv.org/pdf/2312.06281.pdf"

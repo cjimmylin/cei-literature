@@ -1,6 +1,6 @@
 ---
 name: "Xiao Zhan"
-affiliation: "University/Organization"
+affiliation: "Department of Engineering, University of Cambridge1"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Sun-CASE-Bench|CASE-Bench]]
 
 ## Notes
 
+
+- *From 2025-Sun-CASE-Bench*: Affiliation: Department of Engineering, University of Cambridge1
 [Additional context or contact information]

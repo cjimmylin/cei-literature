@@ -32,7 +32,8 @@ Chen Bo Calvin Zhang is a researcher affiliated with Scale AI, working on AI saf
 - Co-authored "ORSO: Accelerating Reward Design via Online Reward Selection and Policy Optimization" (ICLR 2025)
 
 ## Papers in this Vault
-- [[2025-Chiu-MoReBench|MoReBench: Evaluating Procedural and Pluralistic Moral Reasoning in Language Models, More than Outcomes]]
+
+- [[2025-Chiu-MoReBench|MoReBench]]
 
 ## External Links & Profiles
 - [Personal Website](https://calvincbzhang.github.io/)
@@ -40,4 +41,6 @@ Chen Bo Calvin Zhang is a researcher affiliated with Scale AI, working on AI saf
 - [GitHub Repository](https://github.com/morebench/morebench)
 
 ## Notes
+
+- *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 Highly relevant to AI ethics/safety through his work on MoReBench, which addresses a critical gap in moral reasoning evaluation. Unlike math and code problems with objectively correct answers, moral dilemmas allow for multiple defensible conclusions, making them excellent testbeds for process-focused evaluation. His research reveals important limitations in current LLM training paradigms.

@@ -26,8 +26,11 @@ This research has important implications for AI safety and alignment, as it reve
 
 ## Papers in this Vault
 
-- [[2023-Guo-COBBLER|COBBLER]]
+
+- [[2023-Guo-COBBLER|COBBLER]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Guo-COBBLER*: Affiliation: University of Minnesota, 2Grammarly, Email: vipul.raheja@grammarly.com
 Research critically examines the meta-problem of AI evaluation, showing that "AI judges" have their own cognitive biases that differ from human judges, with implications for the reliability and validity of using LLMs for automated evaluation and preference learning.

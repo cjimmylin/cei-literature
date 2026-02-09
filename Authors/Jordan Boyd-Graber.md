@@ -1,6 +1,6 @@
 ---
 name: "Jordan Boyd-Graber"
-affiliation: "University/Organization"
+affiliation: "University of Maryland"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Schulhoff-HackAPrompt|HackAPrompt]]
+
+- [[2023-Schulhoff-HackAPrompt|HackAPrompt]] (Last Author)
 
 ## Notes
 
+
+- *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jbg@umiacs.umd.edu
 [Additional context or contact information]

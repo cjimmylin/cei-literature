@@ -20,8 +20,11 @@ Hitomi Yanaka is an Associate Professor with dual affiliations at RIKEN's Explai
 
 ## Papers in this Vault
 
-- [[2024-Yanaka-JBBQ|JBBQ]]
+
+- [[2024-Yanaka-JBBQ|JBBQ]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 Research demonstrates that while larger Japanese LLMs show improved accuracy, they also exhibit higher bias scores, highlighting trade-offs in current model scaling approaches.

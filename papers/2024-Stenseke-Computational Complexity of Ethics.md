@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Computational Complexity of Ethics"
 year: 2025
 first_author: "[[Jakob Stenseke]]"
+last_author: "[[Jakob Stenseke]]"
 authors: "Jakob Stenseke"
 doi: 10.1007/s10462-024-10732-3
 url: "https://link.springer.com/article/10.1007/s10462-024-10732-3"

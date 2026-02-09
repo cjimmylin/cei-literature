@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: Pluralistic Alignment Over Time
 year: 2024
 first_author: "[[Toryn Q. Klassen]]"
+last_author: "[[Sheila A. McIlraith]]"
 authors: Toryn Q. Klassen; Parand A. Alamdari; Sheila A. McIlraith
 url: "https://arxiv.org/abs/2411.10654"
 external_pdf: "https://arxiv.org/pdf/2411.10654.pdf"
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[[Authors]]]
+[[Toryn Q. Klassen]], [[Parand A. Alamdari]], [[Sheila A. McIlraith]]
 
 ## Metadata
 

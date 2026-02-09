@@ -18,10 +18,13 @@ Nikita Nangia is an NLP researcher working on Responsible AI at Amazon AGI. She 
 
 ## Papers in this Vault
 
-- [[2020-Nangia-CrowS-Pairs|CrowS-Pairs]]
-- [[2022-Parrish-BBQ|BBQ]]
+
 - [[2025-Mitchell-SHADES|SHADES]]
+- [[2022-Parrish-BBQ|BBQ]]
+- [[2020-Nangia-CrowS-Pairs|CrowS-Pairs]] (First Author)
 
 ## Notes
 
+
+- *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science
 [Additional context or contact information]

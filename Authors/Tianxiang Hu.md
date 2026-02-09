@@ -1,6 +1,6 @@
 ---
 name: "Tianxiang Hu"
-affiliation: "University/Organization"
+affiliation: "lable at FairMT-Bench"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Fan-FAIRMT-BENCH|FAIRMT-BENCH]]
 - [[2025-Wei-MedEthicsQA|MedEthicsQA]]
 
 ## Notes
 
+
+- *From 2025-Fan-FAIRMT-BENCH*: Affiliation: lable at FairMT-Bench
 [Additional context or contact information]

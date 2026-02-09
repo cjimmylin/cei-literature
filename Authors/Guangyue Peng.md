@@ -39,6 +39,7 @@ Peng has also contributed to research on FEA-Bench, a benchmark designed to asse
 
 ## Papers in this Vault
 
+
 - [[2024-Luo-HalluDial|HalluDial]]
 
 ## Links
@@ -47,4 +48,6 @@ Peng has also contributed to research on FEA-Bench, a benchmark designed to asse
 
 ## Notes
 
+
+- *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 Peng's work on hallucination evaluation contributes to understanding and measuring the reliability of LLM outputs in dialogue systems.

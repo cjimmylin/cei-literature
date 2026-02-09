@@ -1,7 +1,7 @@
 ---
 name: "Shuai Huang"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "lable at https://github"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in|SI-Bench Benchmarking Social Intelligence of Large Language Models in]]
+- [[2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in|SI-Bench: Benchmarking Social Intelligence of Large Language Models in Human-to-Human Conversations]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in*: Affiliation: lable at https://github
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

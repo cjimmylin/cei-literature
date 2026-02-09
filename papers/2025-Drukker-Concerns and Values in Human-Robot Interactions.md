@@ -8,6 +8,7 @@ type: document
 short_title: "Concerns and Values in Human-Robot Interactions"
 year: 2025
 first_author: "[[Giulio Antonio Abbo]]"
+last_author: "[[Micol Spitale]]"
 authors: "Giulio Antonio Abbo; Tony Belpaeme; Micol Spitale"
 url: "https://arxiv.org/abs/2501.05628"
 external_pdf: "https://arxiv.org/pdf/2501.05628.pdf"

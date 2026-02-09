@@ -1,6 +1,6 @@
 ---
 name: "Richeng Xuan"
-affiliation: "University/Organization"
+affiliation: "Academy of Artificial Intelligence"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Luo-HalluDial|HalluDial]]
 
 ## Notes
 
+
+- *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 [Additional context or contact information]

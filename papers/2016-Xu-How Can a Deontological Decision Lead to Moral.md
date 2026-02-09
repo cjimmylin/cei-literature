@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "How Can a Deontological Decision Lead to Moral"
 year: 2025
 first_author: "[[Zhi Xing Xu]]"
+last_author: "[[Ma, Hing Keung]]"
 authors: "[[Xu, Zhi Xing]]; [[Ma, Hing Keung]]"
 doi: 10.1007/s10551-015-2576-6
 url: "http://link.springer.com/10.1007/s10551-015-2576-6"
@@ -36,22 +37,7 @@ local_pdf: "[[PDFs/2016/2016-Xu-How Can a Deontological Decision Lead to Moral.p
 
 ## Authors
 
-[[Zhi Xing Xu]], [[Hing Keung Ma]]
-## Metadata
-
-**Authors:** Xu, Zhi Xing; Ma, Hing Keung
-
-**Year:** 2016
-
-**Publication:** Journal of Business Ethics
-
-**Type:** journalArticle
-
-**DOI:** [10.1007/s10551-015-2576-6](https://doi.org/10.1007/s10551-015-2576-6)
-
-**Pages:** 537-549
-
-**Volume/Issue:** Vol. 137, Issue 3
+[[Zhi Xing Xu|Xu, Zhi Xing]], [[Hing Keung Ma|Ma, Hing Keung]]
 
 ## Links
 

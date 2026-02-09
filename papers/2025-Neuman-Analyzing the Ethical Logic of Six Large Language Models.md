@@ -9,6 +9,7 @@ type: preprint
 short_title: "Analyzing the Ethical Logic of Six Large Language Models"
 year: 2025
 first_author: "[[[[[[W. Russell Neuman]]"
+last_author: "[[Manan Shah]]"
 authors: "[[[[[[W. Russell Neuman]], [[Chad Coleman]], [[Manan Shah]]]]]]"
 doi: 10.48550/arXiv.2501.08951
 tags: "Computer Science - Computation and Language"
@@ -40,18 +41,7 @@ normative_ethics_benchmark: Yes
 
 ## Authors
 
-[[[[[[[[W. Russell Neuman]], [[Chad Coleman]], [[Manan Shah]]]]]]]]
-## Metadata
-
-**Authors:** Neuman, W. Russell; Coleman, Chad; Shah, Manan
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2501.08951](https://doi.org/10.48550/arXiv.2501.08951)
-
-**Publisher:** arXiv
+[[W. Russell Neuman]], [[Chad Coleman]], [[Manan Shah]]
 
 ## Links
 

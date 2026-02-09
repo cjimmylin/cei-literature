@@ -9,6 +9,7 @@ type: journalArticle
 short_title: "Moral Association Graph: Cognitive Model for Interpretable Moral Inference"
 year: 2024
 first_author: "[[A. & Xu Ramezani]]"
+last_author: "[[Y.]]"
 authors: "Ramezani, A. & Xu, Y."
 doi: 10.1111/tops.12774
 url: "https://doi.org/10.1111/tops.12774"
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Ramezani, A. & Xu, Y.]]
+[[Ramezani]], [[A. & Xu]], [[Y.]]
 
 ## Metadata
 

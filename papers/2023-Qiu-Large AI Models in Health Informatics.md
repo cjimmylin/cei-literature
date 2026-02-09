@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Large AI Models in Health Informatics"
 year: 2025
 first_author: "[[Jianing Qiu]]"
+last_author: "[[Benny Lo]]"
 authors: "Jianing Qiu; Lin Li; Jiankai Sun; Jiachuan Peng; Peilun Shi; Ruiyang Zhang; Yinzhao Dong; Kyle Lam; Frank P. -W. Lo; Bo Xiao; Wu Yuan; Ningli Wang; Dong Xu; Benny Lo"
 doi: 10.1109/JBHI.2023.3316750
 url: "http://arxiv.org/abs/2303.11568"
@@ -63,7 +64,7 @@ Large AI models, or foundation models, are models recently emerging with massive
 
 ## Authors
 
-[[Jianing Qiu]], [[Lin Li]], [[Jiankai Sun]], [[Jiachuan Peng]], [[Peilun Shi]], [[Ruiyang Zhang]], [[Yinzhao Dong]], [[Kyle Lam]], [[Frank P. -W. Lo]], [[Bo Xiao]], [[Wu Yuan]], [[Ningli Wang]], [[Dong Xu]], [[Benny Lo]]
+[[Jianing Qiu]], [[Lin Li]], [[Jiankai Sun]], [[Jiachuan Peng]], [[Peilun Shi]], [[Ruiyang Zhang]], [[Yinzhao Dong]], [[Kyle Lam]], [[Frank P.-W. Lo|Frank P. -W. Lo]], [[Bo Xiao]], [[Wu Yuan]], [[Ningli Wang]], [[Dong Xu]], [[Benny Lo]]
 
 ## Notes
 

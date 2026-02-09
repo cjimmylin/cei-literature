@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: AraTrust -- An Evaluation of Trustworthiness for LLMs in Arabic
 year: 2025
 first_author: "[[R. Alghamdi]]"
+last_author: "[[Z. Alyafeai]]"
 authors: Alghamdi, R., Alyafeai, Z., et al
+authors_incomplete: true
 url: "https://arxiv.org/abs/2403.09017"
 external_pdf: "https://arxiv.org/pdf/2403.09017.pdf"
 local_pdf: "[[PDFs/2025/2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Alghamdi, R., Alyafeai, Z., et al]]
+[[R. Alghamdi]], [[Z. Alyafeai]]
 
 ## Metadata
 

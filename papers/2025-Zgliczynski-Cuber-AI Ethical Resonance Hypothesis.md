@@ -8,6 +8,7 @@ type: preprint
 short_title: "AI Ethical Resonance Hypothesis"
 year: 2025
 first_author: "[[Tomasz Zgliczyński-Cuber]]"
+last_author: "[[Tomasz Zgliczyński-Cuber]]"
 authors: "[[Zgliczyński-Cuber, Tomasz]]"
 doi: 10.48550/arXiv.2507.11552
 tags: "Computer Science - AI Ethics"
@@ -39,17 +40,6 @@ pdf_extract: "PDF Extracts/2025/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypo
 ## Authors
 
 [[Tomasz Zgliczyński-Cuber]]
-## Metadata
-
-**Authors:** Zgliczyński-Cuber, Tomasz
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2507.11552](https://doi.org/10.48550/arXiv.2507.11552)
-
-**Publisher:** arXiv
 
 ## Links
 

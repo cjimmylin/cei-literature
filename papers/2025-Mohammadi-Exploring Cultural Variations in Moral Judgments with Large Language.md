@@ -9,6 +9,7 @@ type: preprint
 short_title: Exploring Cultural Variations in Moral Judgments with Large Language Models
 year: 2025
 first_author: "[[H. Mohammadi]]"
+last_author: "[[A]]"
 authors: "Mohammadi, H., & Bagheri, A"
 url: "https://arxiv.org/abs/2506.12433"
 external_pdf: "https://arxiv.org/pdf/2506.12433.pdf"
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Mohammadi, H., & Bagheri, A]]
+[[Mohammadi]], [[H.]], [[& Bagheri]], [[A]]
 
 ## Metadata
 

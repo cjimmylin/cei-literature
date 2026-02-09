@@ -3,7 +3,7 @@ name: "Brian Patrick Green"
 title: "Director of Technology Ethics"
 affiliation: "Markkula Center for Applied Ethics, Santa Clara University"
 highest_degree: "PhD in Ethics and Social Theory, Graduate Theological Union"
-email: ""
+email: "blh9134@nyu.edu"
 research_interests:
   - "AI Ethics"
   - "Space Ethics"
@@ -45,10 +45,9 @@ He has collaborated with the Vatican and the World Economic Forum on establishin
 - [Ethics in the Age of Disruptive Technologies: An Operational Roadmap](https://www.scu.edu/ethics/operational-roadmap/) (2023) - *A practical guide for organizations managing AI risk.*
 
 ## Papers in this Vault
-- [[2023-Hou-Foundational Moral Values for AI Alignment|Foundational Moral Values for AI Alignment]]
-- [[2023-Hou-A Multi-Level Framework for the AI Alignment|A Multi-Level Framework for the AI Alignment]]
 
-- [[2021-Willard-Cognitive Biases and Religious Belief|Cognitive Biases and Religious Belief]]
+- [[2023-Hou-A Multi-Level Framework for the AI Alignment|A Multi-Level Framework for the AI Alignment]] (Last Author)
+- [[2023-Hou-Foundational Moral Values for AI Alignment|Foundational Moral Values for AI Alignment]] (Last Author)
 
 ## External Links & Profiles
 
@@ -62,4 +61,6 @@ He has collaborated with the Vatican and the World Economic Forum on establishin
 - [LinkedIn Profile](https://www.linkedin.com/in/brianpatrickgreen/)
 
 ## Notes
+
+- *From 2023-Hou-A Multi-Level Framework for the AI Alignment*: Affiliation: Center for Applied Ethics, Email: blh9134@nyu.edu
 [Brian is a leading expert in the intersection of religious ethics and technological governance.]

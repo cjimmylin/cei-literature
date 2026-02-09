@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Is ETHICS about ethics?"
 year: 2025
 first_author: "[[Leif Hancox-Li]]"
+last_author: "[[Borhane Blili-Hamelin]]"
 authors: "Leif Hancox-Li; Borhane Blili-Hamelin"
 doi: 10.48550/arXiv.2410.13009
 tags: 

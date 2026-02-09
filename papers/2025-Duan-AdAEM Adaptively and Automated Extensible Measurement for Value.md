@@ -9,7 +9,9 @@ type: preprint
 short_title: "AdAEM: Adaptively and Automated Extensible Measurement for Value Alignment"
 year: 2025
 first_author: "[[S. Duan]]"
+last_author: "[[S. Duan]]"
 authors: Duan, S. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2505.13531"
 external_pdf: "https://arxiv.org/pdf/2505.13531.pdf"
 local_pdf: "[[PDFs/2025/2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "12,310 questions"
 
 ## Authors
 
-[[Duan, S. et al.]]
+[[S. Duan]]
 
 ## Metadata
 

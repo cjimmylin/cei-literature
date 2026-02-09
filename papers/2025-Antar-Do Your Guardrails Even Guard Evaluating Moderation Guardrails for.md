@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "\"Do Your Guardrails Even Guard?\" Evaluating Moderation Guardrails for LLM Alignment"
 year: 2025
 first_author: "[[Anindya Das Antar]]"
+last_author: "[[Nikola Banovic]]"
 authors: Anindya Das Antar; Xun Huan; Nikola Banovic
 doi: 10.1609/aies.v8i1.36583
 url: "https://doi.org/10.1609/aies.v8i1.36583"

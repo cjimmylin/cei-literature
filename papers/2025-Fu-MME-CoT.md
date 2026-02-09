@@ -8,6 +8,7 @@ type: document
 short_title: MME-CoT
 year: 2025
 first_author: "[[Dongzhi Jiang]]"
+last_author: "[[Hongsheng Li]]"
 authors: "Dongzhi Jiang; Renrui Zhang; Ziyu Guo; Yanwei Li; Yu Qi; Xinyan Chen; Liuhui Wang; Jianhan Jin; Claire Guo; Shen Yan; Bo Zhang; Chaoyou Fu; Peng Gao; Hongsheng Li"
 url: "https://arxiv.org/abs/2502.09621"
 external_pdf: "https://arxiv.org/pdf/2502.09621.pdf"
@@ -53,7 +54,7 @@ Answering questions with Chain-of-Thought (CoT) has significantly enhanced the r
 
 ## Authors
 
-[[Dongzhi Jiang]], [[Renrui Zhang]], [[Ziyu Guo]], [[Yanwei Li]], [[Yu Qi]], [[Xinyan Chen]], [[Liuhui Wang]], [[Jianhan Jin]], [[Claire Guo]], [[Shen Yan]], [[Bo Zhang]], [[Chaoyou Fu]], [[Peng Gao]], [[Hongsheng Li]]
+[[Dongzhi Jiang]], [[Renrui Zhang]], [[Ziyu Guo]], [[Yanwei Li]], [[Yunjia Qi|Yu Qi]], [[Xinyan Chen]], [[Liuhui Wang]], [[Jing Jin|Jianhan Jin]], [[Claire Guo]], [[Songzhou Yan|Shen Yan]], [[Bo Zhang]], [[Cheng-Yang Fu|Chaoyou Fu]], [[Peng Gao]], [[Hongsheng Li]]
 
 ## Notes
 

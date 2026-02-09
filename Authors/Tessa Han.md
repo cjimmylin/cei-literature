@@ -20,8 +20,11 @@ Tessa Han is a Doctoral Student in the Bioinformatics and Integrative Genomics P
 
 ## Papers in this Vault
 
-- [[2024-Han-MedSafetyBench|MedSafetyBench]]
+
+- [[2024-Han-MedSafetyBench|MedSafetyBench]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Han-MedSafetyBench*: Affiliation: University of Virginia, Email: aokumar@hbs.edu
 [Additional context or contact information]

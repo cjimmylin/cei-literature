@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Evaluating the Moral Beliefs Encoded in LLMs"
 year: 2025
 first_author: "[[Nino Scherrer]]"
+last_author: "[[David M. Blei]]"
 authors: "Nino Scherrer; Claudia Shi; Amir Feder; David M. Blei"
 doi: 10.48550/arXiv.2307.14324
 url: "http://arxiv.org/abs/2307.14324"

@@ -1,6 +1,6 @@
 ---
 name: "Nicholas Apostoloff"
-affiliation: "University/Organization"
+affiliation: "University, Pittsburgh, PA, US"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware|Is Your Model Fairly Certain? Uncertainty-Aware]]
+
+- [[2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware|Is Your Model Fairly Certain? Uncertainty-Aware]] (Last Author)
 
 ## Notes
 
+
+- *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu
 [Additional context or contact information]

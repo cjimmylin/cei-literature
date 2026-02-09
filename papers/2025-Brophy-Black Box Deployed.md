@@ -8,6 +8,7 @@ type: preprint
 short_title: "Black Box Deployed"
 year: 2025
 first_author: "[[Matthew E. Brophy]]"
+last_author: "[[Matthew E. Brophy]]"
 authors: "[[Brophy, Matthew E.]]"
 doi: 10.48550/arXiv.2507.13175
 url: "https://arxiv.org/abs/2507.13175"
@@ -38,17 +39,6 @@ data_metrics: "Not specified"
 ## Authors
 
 [[Matthew E. Brophy]]
-## Metadata
-
-**Authors:** Brophy, Matthew E.
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2507.13175](https://doi.org/10.48550/arXiv.2507.13175)
-
-**Publisher:** arXiv
 
 ## Links
 

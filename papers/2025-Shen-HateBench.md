@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: HateBench
 year: 2025
 first_author: "[[Xinyue Shen]]"
+last_author: "[[Yang Zhang]]"
 authors: "Xinyue Shen; Yixin Wu; Yiting Qu; Michael Backes; Savvas Zannettou; Yang Zhang"
 doi: 10.48550/arXiv.2501.16750
 url: "http://arxiv.org/abs/2501.16750"

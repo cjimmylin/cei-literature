@@ -1,6 +1,6 @@
 ---
 name: "Lakshminarayanan Subramanian"
-affiliation: "University/Organization"
+affiliation: "University of Oxford, 3 New York University"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Tonneau-NaijaHate|NaijaHate]]
 
 ## Notes
 
+
+- *From 2024-Tonneau-NaijaHate*: Affiliation: University of Oxford, 3 New York University
 [Additional context or contact information]

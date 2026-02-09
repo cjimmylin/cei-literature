@@ -19,8 +19,11 @@ Yang (Trista) Cao received her PhD from the University of Maryland, College Park
 
 ## Papers in this Vault
 
-- [[2021-Cao-Toward Gender-Inclusive Coreference Resolution|Toward Gender-Inclusive Coreference Resolution]]
+
+- [[2021-Cao-Toward Gender-Inclusive Coreference Resolution|Toward Gender-Inclusive Coreference Resolution]] (First Author)
 
 ## Notes
 
+
+- *From 2021-Cao-Toward Gender-Inclusive Coreference Resolution*: Affiliation: University of Maryland, Email: me@hal3.name
 [Additional context or contact information]

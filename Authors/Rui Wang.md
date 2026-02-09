@@ -17,8 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Jacovi-The FACTS Grounding Leaderboard|The FACTS Grounding Leaderboard]]
+- [[2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A|Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method]] (Last Author)
+- [[2024-Yuan-R-Judge|R-Judge]]
 
 ## Notes
 
+
+- *From 2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A*:, Email: wangrui12@sjtu.edu.cn
 [Additional context or contact information]

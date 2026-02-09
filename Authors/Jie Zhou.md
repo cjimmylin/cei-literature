@@ -20,9 +20,13 @@ Zhou was a Master student at the Department of Computer Science and Technology a
 
 ## Papers in this Vault
 
-- [[2023-Zheng-Large Language Models Are Not Robust Multiple|Large Language Models Are Not Robust Multiple]]
+
 - [[2024-Chen-DiaHalu|DiaHalu]]
+- [[2024-Liu-Controllable Preference Optimization|Controllable Preference Optimization]]
+- [[2023-Zheng-Large Language Models Are Not Robust Multiple|Large Language Models Are Not Robust Multiple]]
 
 ## Notes
 
+
+- *From 2023-Zheng-Large Language Models Are Not Robust Multiple*: Affiliation: University, Beijing 100084, China, Email: aihuang@tsinghua.edu.cn
 Received the National Scholarship from Tsinghua University in 2019, was named Excellent Graduate in Beijing (2016) and Excellent Graduate from Tsinghua University (2016). Citations: 6,800+.

@@ -1,6 +1,6 @@
 ---
 name: "Federico Pavone"
-affiliation: "University/Organization"
+affiliation: "lability of fairness-"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Vladimirova-FairJob|FairJob]]
 
 ## Notes
 
+
+- *From 2024-Vladimirova-FairJob*: Affiliation: lability of fairness-, Email: federico.pavone@dauphine.psl.eu
 [Additional context or contact information]

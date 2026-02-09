@@ -1,6 +1,6 @@
 ---
 name: "Ruohui Wang"
-affiliation: "University/Organization"
+affiliation: "Institute of Technology"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Li-SALAD-Bench|SALAD-Bench]]
 
 ## Notes
 
+
+- *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 [Additional context or contact information]

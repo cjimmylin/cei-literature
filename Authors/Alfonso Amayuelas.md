@@ -3,7 +3,7 @@ name: "Alfonso Amayuelas"
 title: "Research Scientist / PhD Candidate"
 affiliation: "UC Santa Barbara / Microsoft / Apple"
 highest_degree: "PhD (In Progress)"
-email: ""
+email: "mburda@dc.uba.ar"
 research_interests:
   - "AI Safety"
   - "Social Bias in LLMs"
@@ -31,7 +31,10 @@ Alfonso is a key contributor to the *Kaleidoscope* project, a comprehensive benc
 
 ## Papers in this Vault
 
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 
 ## Notes
+
+- *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 [Specializes in identifying 'cultural translation' failures in model safety filters.]

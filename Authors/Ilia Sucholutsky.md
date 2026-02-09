@@ -28,8 +28,11 @@ Ilia Sucholutsky is a Faculty Fellow/Assistant Professor at the NYU Center for D
 
 ## Papers in this Vault
 
+
 - [[2024-Rane-Concept Alignment|Concept Alignment]]
 
 ## Notes
 
+
+- *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: srane@princeton.edu
 Ilia Sucholutsky's work on representational alignment between humans and AI systems is directly relevant to the vault's focus on AI alignment and value representation.

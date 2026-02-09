@@ -30,7 +30,8 @@ Chengfeng Mao is a PhD student at the MIT Sloan School of Management, focusing o
 
 ## Papers in this Vault
 
-- [[2023-zhou-A Survey of Large Language Models in Medicine|A Survey of Large Language Models in Medicine]]
+
+- [[2023-Zhou-A Survey of Large Language Models in Medicine|A Survey of Large Language Models in Medicine]]
 
 ## External Links & Profiles
 - [MIT Sloan Profile](https://mitsloan.mit.edu/faculty/academic-groups/marketing/phd-students)
@@ -38,4 +39,6 @@ Chengfeng Mao is a PhD student at the MIT Sloan School of Management, focusing o
 
 ## Notes
 
+
+- *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: qz@fudan.edu.cn
 Chengfeng Mao's research provides a critical overview of the opportunities and risks associated with deploying generative AI in the high-stakes environment of clinical medicine.

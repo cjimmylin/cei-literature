@@ -17,12 +17,16 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Rao-Ethical Reasoning over Moral Alignment|Ethical Reasoning over Moral Alignment]]
-- [[2024-Adilazuarda-Towards Measuring and Modeling |Towards Measuring and Modeling \"Culture\" in LLMs]]
-- [[2024-Agarwal-Ethical Reasoning and Moral Value Alignment of|Ethical Reasoning and Moral Value Alignment of]]
-- [[2024-Khandelwal-Do Moral Judgment and Reasoning Capability of|Do Moral Judgment and Reasoning Capability of]]
+
+- [[2024-Adilazuarda-Towards Measuring and Modeling |Towards Measuring and Modeling \]] (Last Author)
+- [[2024-Agarwal-Ethical Reasoning Depends on Language|Ethical Reasoning Depends on Language]] (Last Author)
+- [[2024-Khandelwal-Do Moral Judgment and Reasoning Capability of|Do Moral Judgment and Reasoning Capability of]] (Last Author)
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
+- [[2023-Deng-Probing the Moral Development of Large Language|Probing the Moral Development of Large Language]] (Last Author)
+- [[2023-Rao-Ethical Reasoning over Moral Alignment|Ethical Reasoning over Moral Alignment]] (Last Author)
 
 ## Notes
 
+
+- *From 2023-Rao-Ethical Reasoning over Moral Alignment*:, Email: abhinavr@cs.cmu.edu
 [Additional context or contact information]

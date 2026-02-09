@@ -20,8 +20,11 @@ Graduate Research Assistant and PhD student at Texas A&M University. Research fo
 
 ## Papers in this Vault
 
-- [[2025-Abdaljalil-HalluVerse25|HalluVerse25]]
+
+- [[2025-Abdaljalil-HalluVerse25|HalluVerse25]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Abdaljalil-HalluVerse25*: Affiliation: College Station, TX, Email: sabdaljalil@tamu.edu
 [Additional context or contact information]

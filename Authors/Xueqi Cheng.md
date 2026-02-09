@@ -1,6 +1,6 @@
 ---
 name: "Xueqi Cheng"
-affiliation: "University/Organization"
+affiliation: "Laboratory of AI Safety, Institute of Computing Technology"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Wen-Evaluating Implicit Bias in Large Language Models|Evaluating Implicit Bias in Large Language Models]]
+
+- [[2025-Wen-Evaluating Implicit Bias in Large Language Models|Evaluating Implicit Bias in Large Language Models]] (Last Author)
 
 ## Notes
 
+
+- *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
 [Additional context or contact information]

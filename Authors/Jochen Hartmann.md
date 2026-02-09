@@ -23,8 +23,11 @@ He co-authored "Natural Language Processing in Marketing" (2023), a comprehensiv
 
 ## Papers in this Vault
 
-- [[2023-Hartmann-The political ideology of conversational AI|The political ideology of conversational AI]]
+
+- [[2023-Hartmann-The political ideology of conversational AI|The political ideology of conversational AI]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Hartmann-The political ideology of conversational AI*: Affiliation: University of Munich, TUM School of Management, Arcisstr, Email: jochen.hartmann@tum.de
 Before academia, Hartmann worked as a management consultant at McKinsey & Company. He received TUM School of Management's Best Teaching Award (2024) for his interdisciplinary course "Digital Marketing & Text Analytics."

@@ -8,6 +8,7 @@ type: document
 short_title: XSTest
 year: 2025
 first_author: "[[Paul Röttger]]"
+last_author: "[[Hovy, Dirk]]"
 authors: "[[Röttger, Paul]]; [[Kirk, Hannah]]; [[Vidgen, Bertie]]; [[Attanasio, Giuseppe]]; [[Bianchi, Federico]]; [[Hovy, Dirk]]"
 url: "https://aclanthology.org/2024.naacl-long.301/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/W25TJPES/2024 - XSTest A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models.pdf"
@@ -36,12 +37,7 @@ local_pdf: "[[PDFs/2024/2024-Röttger-XSTest.pdf]]"
 
 ## Authors
 
-[[Paul Röttger]], [[Hannah Kirk]], [[Bertie Vidgen]], [[Giuseppe Attanasio]], [[Federico Bianchi]], [[Dirk Hovy]]
-## Metadata
-
-**Year:** 2024
-
-**Type:** document
+[[Paul Röttger|Röttger, Paul]], [[Hannah Kirk|Kirk, Hannah]], [[Bertie Vidgen|Vidgen, Bertie]], [[Giuseppe Attanasio|Attanasio, Giuseppe]], [[Federico Bianchi|Bianchi, Federico]], [[Dirk Hovy|Hovy, Dirk]]
 
 ## Links
 

@@ -46,7 +46,9 @@ Alwajih led the development of Palm, a year-long community-driven project involv
 
 ## Papers in this Vault
 
-- [[2025-Alwajih-Palm|Palm]]
+
+- [[2025-Alwajih-Palm|Palm]] (First Author)
+- [[2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and|PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture]] (First Author)
 
 ## External Links & Profiles
 
@@ -57,4 +59,6 @@ Alwajih led the development of Palm, a year-long community-driven project involv
 
 ## Notes
 
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 Fakhraddin Alwajih's work on Palm represents a critical contribution to ensuring AI systems serve Arabic-speaking populations equitably across diverse cultural and linguistic contexts spanning 22 countries.

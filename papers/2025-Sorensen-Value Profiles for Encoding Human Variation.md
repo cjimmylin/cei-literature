@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Value Profiles for Encoding Human Variation"
 year: 2025
 first_author: "[[Taylor Sorensen]]"
+last_author: "[[Verena Rieser]]"
 authors: "Taylor Sorensen; Pushkar Mishra; Roma Patel; Michael Henry Tessler; Michiel Bakker; Georgina Evans; Iason Gabriel; Noah Goodman; Verena Rieser"
 doi: 10.48550/arXiv.2503.15484
 url: "http://arxiv.org/abs/2503.15484"

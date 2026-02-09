@@ -18,8 +18,12 @@ John Oliver Siy is a researcher at Google DeepMind contributing to research on A
 
 ## Papers in this Vault
 
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
+- [[2024-Street-LLMs achieve adult human performance on|LLMs achieve adult human performance on]]
 
 ## Notes
 
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 Contributes to DeepMind's work on ethical frameworks for AI assistant development.

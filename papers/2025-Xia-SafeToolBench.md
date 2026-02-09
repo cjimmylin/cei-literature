@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: SafeToolBench
 year: 2025
 first_author: "[[Hongfei Xia]]"
+last_author: "[[Haifeng Wang Yuhang Guo]]"
 authors: Hongfei Xia, Hongru Wang, Zeming Liu, Qian Yu, Yuhang Guo, Haifeng Wang
 url: "https://arxiv.org/abs/2509.07315"
 external_pdf: "https://arxiv.org/pdf/2509.07315.pdf"
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Hongfei Xia, Hongru Wang, Zeming Liu, Qian Yu, Yuhang Guo, Haifeng Wang]]
+[[Hongru Wang Hongfei Xia]], [[Qun Liu|Qian Yu Zeming Liu]], [[Haifeng Wang Yuhang Guo]]
 
 ## Metadata
 

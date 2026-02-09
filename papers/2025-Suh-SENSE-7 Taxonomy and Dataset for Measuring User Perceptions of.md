@@ -9,6 +9,7 @@ type: preprint
 short_title: "SENSE-7: Taxonomy and Dataset for Measuring User Perceptions of Empathy in Sustained Human-AI Conversations"
 year: 2025
 first_author: "[[Jina Suh]]"
+last_author: "[[Javier Hernandez]]"
 authors: Jina Suh; Lindy Le; Erfan Shayegani; Gonzalo Ramos; Judith Amores; Desmond C. Ong; Mary Czerwinski; Javier Hernandez
 url: "https://arxiv.org/abs/2509.16437"
 external_pdf: "https://arxiv.org/pdf/2509.16437.pdf"

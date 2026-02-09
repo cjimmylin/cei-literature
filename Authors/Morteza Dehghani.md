@@ -1,6 +1,6 @@
 ---
 name: "Morteza Dehghani"
-affiliation: "University/Organization"
+affiliation: "Department of Computer Science, University of Southern California"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2020-Hoover-Moral Foundations Twitter Corpus|Moral Foundations Twitter Corpus]]
-- [[2022-Trager-The Moral Foundations Reddit Corpus|The Moral Foundations Reddit Corpus]]
+
+- [[2026-Yu-Tracing Moral Foundations in LLMs|Tracing Moral Foundations in LLMs]] (Last Author)
+- [[2022-Trager-The Moral Foundations Reddit Corpus|The Moral Foundations Reddit Corpus]] (Last Author)
+- [[2020-Hoover-Moral Foundations Twitter Corpus|Moral Foundations Twitter Corpus]] (Last Author)
 
 ## Notes
 
+
+- *From 2026-Yu-Tracing Moral Foundations in LLMs*: Affiliation: Department of Computer Science, University of Southern California
 [Additional context or contact information]

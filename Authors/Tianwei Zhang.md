@@ -1,6 +1,6 @@
 ---
 name: "Tianwei Zhang"
-affiliation: "University/Organization"
+affiliation: "University, 2Central South University"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Xu-Course-Correction|Course-Correction]]
 
 ## Notes
 
+
+- *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 [Additional context or contact information]

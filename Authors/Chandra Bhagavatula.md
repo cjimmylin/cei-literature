@@ -47,8 +47,10 @@ Chandra received the AAAI Outstanding Paper Award in 2020 for his work on abduct
 
 ## Papers in this Vault
 
-- [[2022-Jiang-Can Machines Learn Morality|Can Machines Learn Morality?]]
+
+- [[2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment|Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)]]
 - [[2024-Sorensen-Value Kaleidoscope|Value Kaleidoscope]]
+- [[2022-Jiang-Can Machines Learn Morality|Can Machines Learn Morality?]]
 
 ## External Links & Profiles
 
@@ -57,4 +59,6 @@ Chandra received the AAAI Outstanding Paper Award in 2020 for his work on abduct
 - [Personal Website](https://www.chandrab.page/)
 
 ## Notes
+
+- *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 Chandra's move to found Chipstack AI reflects the industry's shift toward applying "Commonsense Foundations" to enterprise AI solutions.

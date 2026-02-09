@@ -1,6 +1,7 @@
 ---
 name: "MLCommons"
-affiliation: "University/Organization"
+affiliation: "Research
+Institutes 9Turaco Strategy 10PRISM Eval 11TU Darmstadt 12Contextual AI 13Google DeepMind"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +18,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-MLCommons-MLCommons AILuminate Benchmark|MLCommons AILuminate Benchmark]]
+
+- [[2024-MLCommons-MLCommons AILuminate Benchmark|MLCommons AILuminate Benchmark]] (First Author)
 
 ## Notes
 
+
+- *From 2024-MLCommons-MLCommons AILuminate Benchmark*: Affiliation: Research
+Institutes 9Turaco Strategy 10PRISM Eval 11TU Darmstadt 12Contextual AI 13Google DeepMind
 [Additional context or contact information]

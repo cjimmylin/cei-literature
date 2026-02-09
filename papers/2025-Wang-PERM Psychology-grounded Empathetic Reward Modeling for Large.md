@@ -9,6 +9,7 @@ type: preprint
 short_title: "PERM: Psychology-grounded Empathetic Reward Modeling for Large Language Models"
 year: 2025
 first_author: "[[Chengbing Wang]]"
+last_author: "[[Fuli Feng]]"
 authors: Chengbing Wang; Wuqiang Zheng; Yang Zhang; Fengbin Zhu; Junyi Cheng; Yi Xie; Wenjie Wang; Fuli Feng
 url: "https://arxiv.org/abs/2601.10532"
 external_pdf: "https://arxiv.org/pdf/2601.10532.pdf"

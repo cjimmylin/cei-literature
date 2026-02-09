@@ -22,6 +22,7 @@ His work includes systematic studies on the security of image captchas, proposin
 
 ## Papers in this Vault
 
+
 - [[2024-Xu-Course-Correction|Course-Correction]]
 
 ## Links
@@ -31,4 +32,6 @@ His work includes systematic studies on the security of image captchas, proposin
 
 ## Notes
 
+
+- *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 Research published in top venues including USENIX Security Symposium (2023, 2024), IJCAI 2021, and IEEE TDSC. Expertise in adversarial attacks on ML systems, security of captchas, and AI-assisted vulnerability analysis.

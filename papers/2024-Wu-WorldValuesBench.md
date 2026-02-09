@@ -8,6 +8,7 @@ type: journalArticle
 short_title: WorldValuesBench
 year: 2025
 first_author: "[[Wenlong Zhao]]"
+last_author: "[[Yuling Gu]]"
 authors: "Wenlong Zhao; Debanjan Mondal; Niket Tandon; Danica Dillion; Kurt Gray; Yuling Gu"
 url: "https://arxiv.org/abs/2404.16308"
 external_pdf: "https://arxiv.org/pdf/2404.16308.pdf"

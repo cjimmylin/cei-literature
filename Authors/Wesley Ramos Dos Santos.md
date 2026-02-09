@@ -1,6 +1,6 @@
 ---
 name: "Wesley Ramos Dos Santos"
-affiliation: "University/Organization"
+affiliation: "University of São Paulo-Moral Stance Recognition and Polarity"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2019-University of São Paulo-Moral Stance Recognition and Polarity|Moral Stance Recognition and Polarity]]
 
 ## Notes
 
+
+- *From 2019-University of São Paulo-Moral Stance Recognition and Polarity*: Affiliation: University of São Paulo-Moral Stance Recognition and Polarity, Email: wesley.ramos.santos@usp.br
 [Additional context or contact information]

@@ -46,9 +46,10 @@ Dong has contributed to several high-impact benchmarks that have become the stan
 
 ## Papers in this Vault
 
+
+- [[2025-Li-T2ISafety|T2ISafety]]
 - [[2024-Li-Benchmarking Ethics in Text-to-Image Models|Benchmarking Ethics in Text-to-Image Models]]
 - [[2024-Li-SALAD-Bench|SALAD-Bench]]
-- [[2025-Li-T2ISafety|T2ISafety]]
 
 ## External Links & Profiles
 
@@ -56,4 +57,6 @@ Dong has contributed to several high-impact benchmarks that have become the stan
 - [SALAD Group (PKU)](https://github.com/PKU-Alignment-Team)
 
 ## Notes
+
+- *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 His focus on "visual ethics" is a critical frontier for AI safety, as image generation often carries more immediate and visceral social impact than text generation alone.

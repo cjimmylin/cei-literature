@@ -6,6 +6,7 @@ type: journalArticle
 short_title: "Can Robotic AI Be Virtuous"
 year: 2025
 first_author: "[[Mihaela Constantinescu]]"
+last_author: "[[Crisp, Roger]]"
 authors: "[[Constantinescu, Mihaela]]; [[Crisp, Roger]]"
 doi: 10.1007/s12369-022-00887-w
 url: "https://link.springer.com/article/10.1007/s12369-022-00887-w"
@@ -33,7 +34,7 @@ data_metrics: N/A
 
 ## Authors
 
-[[Mihaela Constantinescu]], [[Roger Crisp]]
+[[Constantinescu, Mihaela]], [[Crisp, Roger]]
 
 ## Metadata
 

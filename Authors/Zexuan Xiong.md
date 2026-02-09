@@ -1,6 +1,6 @@
 ---
 name: "Zexuan Xiong"
-affiliation: "University/Organization"
+affiliation: "University of Hong Kong"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+- [[2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models|SocialEval: Evaluating Social Intelligence of Large Language Models]]
 - [[2024-Chen-ToMBench|ToMBench]]
+- [[2023-Wang-DecodingTrust|DecodingTrust]]
 
 ## Notes
 
+
+- *From 2024-Chen-ToMBench*: Affiliation: University of Hong Kong, Email: zhchen-nlp@mail.tsinghua.edu.cn
 [Additional context or contact information]

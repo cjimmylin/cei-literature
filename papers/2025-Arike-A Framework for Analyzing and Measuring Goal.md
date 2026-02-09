@@ -8,6 +8,7 @@ type: document
 short_title: "A Framework for Analyzing and Measuring Goal"
 year: 2025
 first_author: "[[Rauno Arike]]"
+last_author: "[[Marius Hobbhahn]]"
 authors: "Rauno Arike; Elizabeth Donoway; Henning Bartsch; Marius Hobbhahn"
 url: "https://arxiv.org/abs/2505.02709"
 external_pdf: "https://arxiv.org/pdf/2505.02709.pdf"
@@ -53,7 +54,7 @@ As language models (LMs) are increasingly deployed as autonomous agents, their r
 
 ## Authors
 
-[[Rauno Arike]], [[Elizabeth Donoway]], [[Henning Bartsch]], [[Marius Hobbhahn]]
+[[Rauno Arike]], [[Eric Donoway|Elizabeth Donoway]], [[Henning Bartsch]], [[Martin Hobbhahn|Marius Hobbhahn]]
 
 ## Notes
 

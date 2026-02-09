@@ -9,7 +9,9 @@ type: preprint
 short_title: BiasLab (Multilingual Dual-Framing Framework)
 year: 2026
 first_author: "[[William Guey]]"
+last_author: "[[William Guey]]"
 authors: William Guey et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2601.06861"
 external_pdf: "https://arxiv.org/pdf/2601.06861.pdf"
 local_pdf: "[[PDFs/2026/2026-Guey-BiasLab Multilingual Dual-Framing Framework.pdf]]"
@@ -36,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[William Guey et al.]]
+[[William Guey]]
 
 ## Metadata
 

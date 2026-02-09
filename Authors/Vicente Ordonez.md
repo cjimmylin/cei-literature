@@ -1,6 +1,6 @@
 ---
 name: "Vicente Ordonez"
-affiliation: "University/Organization"
+affiliation: "lable coreference"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2018-Zhao-Gender Bias in Coreference Resolution|Gender Bias in Coreference Resolution]]
 
 ## Notes
 
+
+- *From 2018-Zhao-Gender Bias in Coreference Resolution*: Affiliation: lable coreference
 [Additional context or contact information]

@@ -19,8 +19,11 @@ Doctoral researcher at University of Göttingen's Institute of Computer Science,
 
 ## Papers in this Vault
 
-- [[2025-Becker-Stay Focused|Stay Focused]]
+
+- [[2025-Becker-Stay Focused|Stay Focused]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Becker-Stay Focused*: Affiliation: University of Göttingen, Germany; 2LKA NRW, Germany; 3University of Vienna, Germany, Email: jonas.becker@uni-goettingen.de
 [Additional context or contact information]

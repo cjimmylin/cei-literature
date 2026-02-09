@@ -18,8 +18,11 @@ Note: There are multiple researchers named Yu Chang or variations (Yen-Yu Chang,
 
 ## Papers in this Vault
 
-- [[2023-Chang-niceNLP at SemEval-2023 Task 10|niceNLP at SemEval-2023 Task 10]]
+
+- [[2023-Chang-niceNLP at SemEval-2023 Task 10|niceNLP at SemEval-2023 Task 10]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Chang-niceNLP at SemEval-2023 Task 10*: Affiliation: University of Electronic Science and Technology of China, Chengdu, Email: yanruzhang@uestc.edu.cn
 [Additional context or contact information]

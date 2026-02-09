@@ -19,8 +19,11 @@ Note: There are multiple researchers named Yifan Li. The most relevant to this v
 
 ## Papers in this Vault
 
-- [[2023-Li-Evaluating Object Hallucination in Large|Evaluating Object Hallucination in Large]]
+
+- [[2023-Li-Evaluating Object Hallucination in Large|Evaluating Object Hallucination in Large]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Li-Evaluating Object Hallucination in Large*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: jrwen@ruc.edu.cn
 [Additional context or contact information]

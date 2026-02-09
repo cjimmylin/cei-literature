@@ -1,6 +1,6 @@
 ---
 name: "Sooraj Thomas"
-affiliation: "University/Organization"
+affiliation: "lable at https://github"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Srivastava-Functional Benchmarks for Robust Evaluation of|Functional Benchmarks for Robust Evaluation of]]
+
+- [[2024-Srivastava-Functional Benchmarks for Robust Evaluation of|Functional Benchmarks for Robust Evaluation of]] (Last Author)
 
 ## Notes
 
+
+- *From 2024-Srivastava-Functional Benchmarks for Robust Evaluation of*: Affiliation: lable at https://github, Email: saurabh@consequent.ai.
 [Additional context or contact information]

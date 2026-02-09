@@ -23,8 +23,11 @@ In August 2024, Schulman joined Anthropic to focus on AI alignment research. In 
 
 ## Papers in this Vault
 
+
 - [[2016-Amodei-Concrete Problems in AI Safety|Concrete Problems in AI Safety]]
 
 ## Notes
 
+
+- *From 2016-Amodei-Concrete Problems in AI Safety*: Affiliation: lable supervision”), or undesirable behavior during the learning process (“safe exploration”
 One of the original co-founders of OpenAI (December 2015), alongside Sam Altman, Elon Musk, Ilya Sutskever, and Greg Brockman. His PPO algorithm remains the most widely-used policy gradient method in reinforcement learning and was crucial for RLHF in ChatGPT and similar systems.

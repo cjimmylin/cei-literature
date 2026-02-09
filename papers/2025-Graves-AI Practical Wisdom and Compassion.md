@@ -6,6 +6,7 @@ type: journalArticle
 short_title: "AI Practical Wisdom and Compassion"
 year: 2025
 first_author: "[[Mark Graves]]"
+last_author: "[[Mark Graves]]"
 authors: "[[Graves, Mark]]"
 doi: 10.1007/s43681-025-00877-4
 url: "https://link.springer.com/article/10.1007/s43681-025-00877-4"

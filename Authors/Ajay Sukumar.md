@@ -19,8 +19,11 @@ Ajay Sukumar is a researcher working on robust evaluation methodologies for larg
 
 ## Papers in this Vault
 
-- [[2024-Srivastava-Functional Benchmarks for Robust Evaluation of|Functional Benchmarks for Robust Evaluation of Reasoning Performance]]
+
+- [[2024-Srivastava-Functional Benchmarks for Robust Evaluation of|Functional Benchmarks for Robust Evaluation of]]
 
 ## Notes
 
+
+- *From 2024-Srivastava-Functional Benchmarks for Robust Evaluation of*: Affiliation: lable at https://github, Email: saurabh@consequent.ai.
 Contributed to the functional benchmarks project (MATH()) which revealed reasoning gaps of 58-80% in state-of-the-art models. The work is associated with Consequent AI and is publicly available at https://github.com/consequentai/fneval/.

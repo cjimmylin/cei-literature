@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: "ETHICS WHITEPAPER"
 first_author: "[[Eddie L Ungless]]"
+last_author: "[[Alexandra Birch]]"
 authors: "Eddie L Ungless; Nikolas Vitsakis; Zeerak Talat; James Garforth; Björn Ross; Arno Onken; Atoosa Kasirzadeh; Alexandra Birch"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/X4AQDWVV/Ungless et al. - ETHICS WHITEPAPER Whitepaper on Ethical Research into Large Language Models.pdf"
 national_ethnic_cultural: N/A

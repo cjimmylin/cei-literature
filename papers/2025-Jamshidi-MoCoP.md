@@ -8,6 +8,7 @@ type: preprint
 short_title: MoCoP
 year: 2025
 first_author: "[[Saeid Jamshidi]]"
+last_author: "[[Foutse Khomh]]"
 authors: "[[Saeid Jamshidi]]; [[Kawser Wazed Nafi]]; [[Arghavan Moradi Dakhel]]; [[Negar Shahabi]]; [[Foutse Khomh]]"
 doi: 10.48550/arXiv.2512.03026
 url: "https://arxiv.org/abs/2512.03026"
@@ -40,18 +41,7 @@ DATE_ADDED: 20260207
 
 ## Authors
 
-[[[[Saeid Jamshidi]]]], [[[[Kawser Wazed Nafi]]]], [[[[Arghavan Moradi Dakhel]]]], [[[[Negar Shahabi]]]], [[[[Foutse Khomh]]]]
-## Metadata
-
-**Authors:** Unknown
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2512.03026](https://doi.org/10.48550/arXiv.2512.03026)
-
-**Publisher:** arXiv
+[[Saeid Jamshidi]], [[Kawser Wazed Nafi]], [[Arghavan Moradi Dakhel]], [[Negar Shahabi]], [[Foutse Khomh]]
 
 ## Links
 

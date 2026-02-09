@@ -1,9 +1,9 @@
 ---
 name: "Nicholas Clark"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Washington, q NYU Shanghai, New York University"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "tmitra@uw.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment|ValueCompass A Framework for Measuring Contextual Value Alignment]]
+- [[2025-Shen-ValueActionLens Mind the Value-Action Gap|ValueActionLens (Mind the Value-Action Gap)]]
+- [[2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment|ValueCompass: A Framework for Measuring Contextual Value Alignment Between Humans and LLMs]]
 
 ## External Links & Profiles
 
@@ -83,6 +83,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Shen-ValueActionLens Mind the Value-Action Gap*: Affiliation: University of Washington, q NYU Shanghai, New York University, Email: tmitra@uw.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

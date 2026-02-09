@@ -1,6 +1,6 @@
 ---
 name: "Jane Yu"
-affiliation: "University/Organization"
+affiliation: "Institute of Technology"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2022-Ziems-The Moral Integrity Corpus|The Moral Integrity Corpus]]
 
 ## Notes
 
+
+- *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 [Additional context or contact information]

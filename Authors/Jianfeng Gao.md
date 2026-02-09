@@ -27,12 +27,15 @@ Jianfeng Gao is a Distinguished Scientist and Vice President at Microsoft, leadi
 
 ## Papers in this Vault
 
-- [[2022-Qiu-ValueNet|ValueNet]]
-- [[2024-Huang-TrustLLM|TrustLLM]]
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
+- [[2024-Huang-TrustLLM|TrustLLM]]
+- [[2022-Qiu-ValueNet|ValueNet]]
 
 ## Notes
 
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 - At Microsoft Research since 1999
 - IEEE Fellow, ACM Fellow, ACL Fellow, AAIA Fellow
 - Formerly at Microsoft Research Asia (1999-2005)

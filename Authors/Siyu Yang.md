@@ -1,6 +1,6 @@
 ---
 name: "Siyu Yang"
-affiliation: "University/Organization"
+affiliation: "University; 2University of Copenhagen; 3Tianjin University"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Yao-NurValues|NurValues]]
 
 ## Notes
 
+
+- *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University
 [Additional context or contact information]

@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: AEGIS 2.0
 year: 2025
 first_author: "[[Shaona Ghosh]]"
+last_author: "[[Shaona Ghosh]]"
 authors: Shaona Ghosh et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2501.09004"
 external_pdf: "https://arxiv.org/pdf/2501.09004.pdf"
 local_pdf: "[[PDFs/2025/2025-Ghosh-AEGIS 2.0.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "248 samples"
 
 ## Authors
 
-[[Shaona Ghosh et al.]]
+[[Shaona Ghosh]]
 
 ## Metadata
 

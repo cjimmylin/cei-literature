@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Enabling Classifiers to Make Judgements"
 year: 2025
 first_author: "[[Yejin Bang]]"
+last_author: "[[Pascale Fung]]"
 authors: "Yejin Bang; Tiezheng Yu; Andrea Madotto; Zhaojiang Lin; Mona Diab; Pascale Fung"
 doi: 10.48550/arXiv.2210.07652
 url: "http://arxiv.org/abs/2210.07652"

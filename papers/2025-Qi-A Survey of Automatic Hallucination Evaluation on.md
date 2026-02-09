@@ -8,6 +8,7 @@ type: preprint
 short_title: "A Survey of Automatic Hallucination Evaluation on"
 year: 2025
 first_author: "[[Siya Qi]]"
+last_author: "[[Zheng Yuan]]"
 authors: "Siya Qi; Lin Gui; Yulan He; Zheng Yuan"
 doi: 10.48550/arXiv.2404.12041
 url: "http://arxiv.org/abs/2404.12041"

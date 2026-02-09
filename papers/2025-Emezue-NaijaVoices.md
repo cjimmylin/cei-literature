@@ -8,6 +8,7 @@ type: document
 short_title: NaijaVoices
 year: 2025
 first_author: "[[Chris Emezue]]"
+last_author: "[[Chris Pal]]"
 authors: "Chris Emezue; NaijaVoices Community; Busayo Awobade; Abraham Owodunni; Handel Emezue; Gloria Monica Tobechukwu Emezue; Nefertiti Nneoma Emezue; Sewade Ogun; Bunmi Akinremi; David Ifeoluwa Adelani; Chris Pal"
 url: "https://arxiv.org/abs/2505.20564"
 external_pdf: "https://arxiv.org/pdf/2505.20564.pdf"

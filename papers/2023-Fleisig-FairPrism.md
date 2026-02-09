@@ -8,6 +8,7 @@ type: document
 short_title: FairPrism
 year: 2025
 first_author: "[[Eve Fleisig]]"
+last_author: "[[Wallach, Hanna]]"
 authors: "[[Fleisig, Eve]]; [[Amstutz, Aubrie]]; [[Atalla, Chad]]; [[Blodgett, Su Lin]]; [[Daumé III, Hal]]; [[Olteanu, Alexandra]]; [[Sheng, Emily]]; [[Vann, Dan]]; [[Wallach, Hanna]]"
 url: "https://aclanthology.org/2023.acl-long.343/"
 external_pdf: "https://aclanthology.org/2023.acl-long.343.pdf"
@@ -36,12 +37,7 @@ data_metrics: "5,000 examples"
 
 ## Authors
 
-[[Eve Fleisig]], [[Aubrie Amstutz]], [[Chad Atalla]], [[Su Lin Blodgett]], [[Hal Daumé III]], [[Alexandra Olteanu]], [[Emily Sheng]], [[Dan Vann]], [[Hanna Wallach]]
-## Metadata
-
-**Year:** 2023
-
-**Type:** document
+[[Eve Fleisig|Fleisig, Eve]], [[Aubrie Amstutz|Amstutz, Aubrie]], [[Chad Atalla|Atalla, Chad]], [[Su Lin Blodgett|Blodgett, Su Lin]], [[Hal Daumé III|Daumé III, Hal]], [[Alexandra Olteanu|Olteanu, Alexandra]], [[Emily Sheng|Sheng, Emily]], [[Dan Vann|Vann, Dan]], [[Hanna Wallach|Wallach, Hanna]]
 
 ## Links
 

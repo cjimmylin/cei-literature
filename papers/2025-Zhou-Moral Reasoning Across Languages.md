@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Moral Reasoning Across Languages"
 year: 2025
 first_author: "[[Huichi Zhou]]"
+last_author: "[[Hongtao Wang]]"
 authors: "Huichi Zhou; Zehao Xu; Munan Zhao; Kaihong Li; Yiqiang Li; Hongtao Wang"
 doi: 10.48550/arXiv.2504.19759
 tags: "Computer Science - Computation and Language"

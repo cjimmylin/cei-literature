@@ -21,9 +21,13 @@ Masashi Takeshita is a post-doctoral fellow at Nagoya University, Graduate Schoo
 
 ## Papers in this Vault
 
-- [[2023-Takeshita-Towards Theory-based Moral AI|Towards Theory-based Moral AI]]
-- [[2025-Takeshita-JETHICS|JETHICS]]
+
+- [[2025-Takeshita-JETHICS|JETHICS]] (First Author)
+- [[2024-Yanaka-JBBQ|JBBQ]]
+- [[2023-Takeshita-Towards Theory-based Moral AI|Towards Theory-based Moral AI]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Takeshita-Towards Theory-based Moral AI*: Affiliation: School of Information Science and Technology, Hokkaido University
 [Additional context or contact information]

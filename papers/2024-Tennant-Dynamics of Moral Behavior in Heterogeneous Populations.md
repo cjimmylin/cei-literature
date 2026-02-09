@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Dynamics of Moral Behavior in Heterogeneous Populations"
 year: 2025
 first_author: "[[Elizaveta Tennant]]"
+last_author: "[[Musolesi, Mirco]]"
 authors: "[[Tennant, Elizaveta]]; [[Hailes, Stephen]]; [[Musolesi, Mirco]]"
 doi: 10.48550/arXiv.2403.04202
 tags: "Computer Science - Multiagent Systems"
@@ -39,18 +40,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Elizaveta Tennant]], [[Stephen Hailes]], [[Mirco Musolesi]]
-## Metadata
-
-**Authors:** Tennant, Elizaveta; Hailes, Stephen; Musolesi, Mirco
-
-**Year:** 2024
-
-**Type:** conferencePaper
-
-**DOI:** [10.48550/arXiv.2403.04202](https://doi.org/10.48550/arXiv.2403.04202)
-
-**Publisher:** AAAI/ACM AIES 2024
+[[Elizaveta Tennant|Tennant, Elizaveta]], [[Stephen Hailes|Hailes, Stephen]], [[Mirco Musolesi|Musolesi, Mirco]]
 
 ## Links
 

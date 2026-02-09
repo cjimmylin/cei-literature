@@ -20,8 +20,11 @@ Luana Bulla is a Ph.D. student at the University of Catania and Associate Resear
 
 ## Papers in this Vault
 
-- [[2025-Bulla-Large Language Models meet moral values|Large Language Models meet moral values]]
+
+- [[2025-Bulla-Large Language Models meet moral values|Large Language Models meet moral values]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Bulla-Large Language Models meet moral values*: Affiliation: lable online 8 February 2025
 [Additional context or contact information]

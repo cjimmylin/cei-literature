@@ -47,9 +47,8 @@ Under his leadership, Scale AI became the "foundational" layer for almost all ma
 - [The Importance of Data in AI Strategy](https://scale.com/blog) (Multiple) - *Influential white papers on the AI infrastructure.*
 
 ## Papers in this Vault
-- [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## External Links & Profiles
 
@@ -59,4 +58,6 @@ Under his leadership, Scale AI became the "foundational" layer for almost all ma
 - [LinkedIn Profile](https://www.linkedin.com/in/alexandr-wang/)
 
 ## Notes
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 [Alexandr is perhaps the most influential figure in the AI data supply chain.]

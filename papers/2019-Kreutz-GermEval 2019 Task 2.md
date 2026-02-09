@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "GermEval 2019 Task 2"
 year: 2025
 first_author: "[[Sven Kreutz]]"
+last_author: "[[Hendrik Klawitter]]"
 authors: "Sven Kreutz; Hendrik Klawitter"
 url: "https://germevalmp2023.github.io/data/"
 local_pdf: "[[PDFs/2019/2019-Kreutz-GermEval 2019 Task 2.pdf]]"

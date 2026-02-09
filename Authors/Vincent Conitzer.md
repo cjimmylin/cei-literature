@@ -21,8 +21,13 @@ Vincent Conitzer is a Professor of Computer Science at Carnegie Mellon Universit
 
 ## Papers in this Vault
 
-- [[2024-Conitzer-Social Choice for AI Alignment|Social Choice for AI Alignment]]
+
+- [[2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational|On The Stability of Moral Preferences: A Problem with Computational Elicitation Methods]]
+- [[2024-Conitzer-Social Choice for AI Alignment|Social Choice for AI Alignment]] (First Author)
+- [[2024-Keswani-On the Pros and Cons of Active Learning for Moral Preference|On the Pros and Cons of Active Learning for Moral Preference Elicitation]]
 
 ## Notes
 
+
+- *From 2024-Conitzer-Social Choice for AI Alignment*: Affiliation: Department of Physics and Astronomy, Email: marko@yorku.ca
 [Additional context or contact information]

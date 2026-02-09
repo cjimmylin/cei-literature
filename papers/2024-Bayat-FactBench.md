@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: FactBench
 year: 2025
 first_author: "[[Farima Fatahi Bayat]]"
+last_author: "[[Lu Wang]]"
 authors: "Farima Fatahi Bayat; Lechen Zhang; Sheza Munir; Lu Wang"
 doi: 10.48550/arXiv.2410.22257
 tags: 

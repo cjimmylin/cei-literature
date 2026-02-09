@@ -45,9 +45,8 @@ He has made significant contributions to the Chinese AI community through the KE
 - [A Survey on Knowledge-Augmented Language Models](https://arxiv.org/abs/2301.00000) (2023) - *Influential review of the field.*
 
 ## Papers in this Vault
-- [[2025-Qi-AGENTIF|AGENTIF]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2025-Qi-AGENTIF|AGENTIF]]
 
 ## External Links & Profiles
 

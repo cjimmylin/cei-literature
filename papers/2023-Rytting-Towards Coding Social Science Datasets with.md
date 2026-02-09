@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Towards Coding Social Science Datasets with"
 year: 2025
 first_author: "[[Christopher Michael Rytting]]"
+last_author: "[[David Wingate]]"
 authors: "Christopher Michael Rytting; Taylor Sorensen; Lisa Argyle; Ethan Busby; Nancy Fulda; Joshua Gubler; David Wingate"
 doi: 10.48550/arXiv.2306.02177
 tags: 

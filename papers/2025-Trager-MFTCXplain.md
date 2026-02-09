@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: MFTCXplain
 year: 2025
 first_author: "[[Jackson Trager]]"
+last_author: "[[Flor Miriam Plaza-del-Arco]]"
 authors: "Jackson Trager; Francielle Vargas; Diego Alves; Matteo Guida; Mikel K. Ngueajio; Ameeta Agrawal; Yalda Daryani; Farzan Karimi-Malekabadi; Flor Miriam Plaza-del-Arco"
 doi: 10.48550/arXiv.2506.19073
 tags: 
@@ -63,7 +64,7 @@ Ensuring the moral reasoning capabilities of Large Language Models (LLMs) is a g
 
 ## Authors
 
-[[Jackson Trager]], [[Francielle Vargas]], [[Diego Alves]], [[Matteo Guida]], [[Mikel K. Ngueajio]], [[Ameeta Agrawal]], [[Yalda Daryani]], [[Farzan Karimi-Malekabadi]], [[Flor Miriam Plaza-del-Arco]]
+[[Jackson Trager]], [[Francielle Vargas]], [[Diego Alves]], [[Matteo Guida]], [[Mikel K. Ngueajio]], [[Ameeta Agrawal]], [[Yalda Daryani]], [[Farzan Karimi-Malekabadi]], [[Flor Plaza-del-Arco|Flor Miriam Plaza-del-Arco]]
 
 ## Notes
 

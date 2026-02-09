@@ -45,9 +45,8 @@ He was a pioneer in unit selection speech synthesis, which transitioned the fiel
 - [Unit selection in a concatenative speech synthesis system using a large speech database](https://ieeexplore.ieee.org/document/543110) (1996) - *A seminal paper on data-driven speech synthesis.*
 
 ## Papers in this Vault
-- [[2021-Prabhumoye-Case Study|Case Study]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2021-Prabhumoye-Case Study|Case Study]] (Last Author)
 
 ## External Links & Profiles
 
@@ -62,4 +61,6 @@ He was a pioneer in unit selection speech synthesis, which transitioned the fiel
 - [GitHub (Festvox)](https://github.com/festvox)
 
 ## Notes
+
+- *From 2021-Prabhumoye-Case Study*: Affiliation: School of Computer Science
 [Alan is a legend in the speech synthesis community and a key figure in CMU's LTI history.]

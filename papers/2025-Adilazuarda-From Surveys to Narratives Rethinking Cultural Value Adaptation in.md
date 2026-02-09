@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "From Surveys to Narratives: Rethinking Cultural Value Adaptation in LLMs"
 year: 2025
 first_author: "[[Muhammad Farid Adilazuarda]]"
+last_author: "[[Alham Fikri Aji]]"
 authors: Muhammad Farid Adilazuarda; Chen Cecilia Liu; Iryna Gurevych; Alham Fikri Aji
 url: "https://arxiv.org/abs/2505.16408"
 external_pdf: "https://arxiv.org/pdf/2505.16408.pdf"

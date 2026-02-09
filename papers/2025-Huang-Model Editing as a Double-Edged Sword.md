@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Model Editing as a Double-Edged Sword"
 year: 2025
 first_author: "[[Baixiang Huang]]"
+last_author: "[[Kai Shu]]"
 authors: "Baixiang Huang; Zhen Tan; Haoran Wang; Zijie Liu; Dawei Li; Ali Payani; Huan Liu; Tianlong Chen; Kai Shu"
 doi: 10.48550/arXiv.2506.20606
 tags: 

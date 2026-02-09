@@ -6,6 +6,7 @@ type: journalArticle
 short_title: "Virtues for AI"
 year: 2025
 first_author: "[[Jakob Ohlhorst]]"
+last_author: "[[Jakob Ohlhorst]]"
 authors: "[[Ohlhorst, Jakob]]"
 doi: 10.1007/s00146-025-02264-3
 url: "https://link.springer.com/article/10.1007/s00146-025-02264-3"

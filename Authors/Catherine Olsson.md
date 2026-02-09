@@ -40,8 +40,11 @@ Catherine Olsson is a Member of Technical Staff at Anthropic, where she works on
 
 ## Papers in this Vault
 
-- [[2021-Askell-A General Language Assistant as a Laboratory for|A General Language Assistant as a Laboratory for Alignment]]
-- [[2022-Bai-Constitutional AI|Constitutional AI: Harmlessness from AI Feedback]]
+
+- [[2022-Bai-Constitutional AI|Constitutional AI]]
+- [[2022-Bai-Training a Helpful and Harmless Assistant with|Training a Helpful and Harmless Assistant with]]
+- [[2022-Ganguli-Red Teaming Language Models to Reduce Harms|Red Teaming Language Models to Reduce Harms]]
+- [[2021-Askell-A General Language Assistant as a Laboratory for|A General Language Assistant as a Laboratory for]]
 
 ## External Links & Profiles
 
@@ -57,4 +60,6 @@ Catherine Olsson is a Member of Technical Staff at Anthropic, where she works on
 
 ## Notes
 
+
+- *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
 Catherine Olsson embodies the multidisciplinary nature of AI safety research, combining cognitive science training with deep technical ML expertise. Her career path—from MIT to Google Brain to OpenAI to Anthropic—reflects the evolution of the AI safety field. As she has noted, "AI safety is not one thing," emphasizing the need for diverse approaches including interpretability, robustness, and reward learning.

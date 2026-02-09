@@ -8,6 +8,7 @@ type: document
 short_title: "The Vals Legal AI Report (VLAIR)"
 year: 2025
 first_author: [[Consortium]]
+last_author: "[[Vals AI &]]"
 authors: "Consortium; Vals AI &"
 url: "https://www.vals.ai/vlair"
 national_ethnic_cultural: N/A

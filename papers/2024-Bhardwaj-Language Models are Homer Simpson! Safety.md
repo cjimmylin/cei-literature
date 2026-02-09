@@ -8,6 +8,7 @@ type: document
 short_title: "Language Models are Homer Simpson! Safety"
 year: 2025
 first_author: "[[Rishabh Bhardwaj]]"
+last_author: "[[Poria, Soujanya]]"
 authors: "[[Bhardwaj, Rishabh]]; [[Do, Duc Anh]]; [[Poria, Soujanya]]"
 url: "https://aclanthology.org/2024.acl-long.762/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/B6BW5928/2024 - Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Ar.pdf"
@@ -36,12 +37,7 @@ local_pdf: "[[PDFs/2024/2024-Bhardwaj-Language Models are Homer Simpson! Safety.
 
 ## Authors
 
-[[Rishabh Bhardwaj]], [[Duc Anh Do]], [[Soujanya Poria]]
-## Metadata
-
-**Year:** 2024
-
-**Type:** document
+[[Rishabh Bhardwaj|Bhardwaj, Rishabh]], [[Duc Anh Do|Do, Duc Anh]], [[Soujanya Poria|Poria, Soujanya]]
 
 ## Links
 

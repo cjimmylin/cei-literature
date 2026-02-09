@@ -34,6 +34,7 @@ Emre Kazim is Co-Director of the Digital Ethics Center at University College Lon
 
 ## Papers in this Vault
 
+
 - [[2022-Gwagwa-The role of the African value of Ubuntu in global|The role of the African value of Ubuntu in global]]
 
 ## External Links
@@ -44,4 +45,6 @@ Emre Kazim is Co-Director of the Digital Ethics Center at University College Lon
 
 ## Notes
 
+
+- *From 2022-Gwagwa-The role of the African value of Ubuntu in global*: Affiliation: Institute, Department of Philosophy & Religious Studies, Utrecht University, Janskerkhof 13, 3512 BL Utrecht, Email: e.a.gwagwa@uu.nl
 Emre Kazim's work on Ubuntu in AI ethics represents important efforts to incorporate diverse philosophical traditions into predominantly Western AI ethics discourse.

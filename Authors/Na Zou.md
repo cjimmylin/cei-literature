@@ -1,6 +1,6 @@
 ---
 name: "Na Zou"
-affiliation: "University/Organization"
+affiliation: "University of Houston"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2023-Han-FFB|FFB]]
 
 ## Notes
 
+
+- *From 2023-Han-FFB*: Affiliation: University of Houston, Email: han@tamu.edu
 [Additional context or contact information]

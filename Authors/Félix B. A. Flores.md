@@ -21,7 +21,8 @@ Information to be confirmed through additional research or direct sources.
 
 ## Papers in this Vault
 
-(Auto-generated list of linked papers)
+
+- [[2025-Flores-BenchMoral|BenchMoral]] (First Author)
 
 ## Notes
 

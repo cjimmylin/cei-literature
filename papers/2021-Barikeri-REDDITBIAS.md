@@ -8,6 +8,7 @@ type: document
 short_title: REDDITBIAS
 year: 2025
 first_author: "[[Soumya Barikeri]]"
+last_author: "[[Glavaš, Goran]]"
 authors: "[[Barikeri, Soumya]]; [[Lauscher, Anne]]; [[Vulić, Ivan]]; [[Glavaš, Goran]]"
 url: "https://aclanthology.org/2021.acl-long.151/"
 external_pdf: "https://aclanthology.org/2021.acl-long.151.pdf"
@@ -36,12 +37,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Soumya Barikeri]], [[Anne Lauscher]], [[Ivan Vulić]], [[Goran Glavaš]]
-## Metadata
-
-**Year:** 2021
-
-**Type:** document
+[[Soumya Barikeri|Barikeri, Soumya]], [[Anne Lauscher|Lauscher, Anne]], [[Ivan Vulić|Vulić, Ivan]], [[Goran Glavaš|Glavaš, Goran]]
 
 ## Links
 

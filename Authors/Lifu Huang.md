@@ -1,6 +1,6 @@
 ---
 name: "Lifu Huang"
-affiliation: "University/Organization"
+affiliation: "University of Notre Dame"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+- [[2025-Liu-PersuSafety LLM Can be a Dangerous Persuader|PersuSafety: LLM Can be a Dangerous Persuader]] (Last Author)
 - [[2024-Huang-TrustLLM|TrustLLM]]
 
 ## Notes
 
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 [Additional context or contact information]

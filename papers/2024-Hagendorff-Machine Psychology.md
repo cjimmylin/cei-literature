@@ -8,6 +8,7 @@ type: preprint
 short_title: "Machine Psychology"
 year: 2025
 first_author: "[[Thilo Hagendorff]]"
+last_author: "[[Eric Schulz]]"
 authors: "Thilo Hagendorff; Ishita Dasgupta; Marcel Binz; Stephanie C. Y. Chan; Andrew Lampinen; Jane X. Wang; Zeynep Akata; Eric Schulz"
 doi: 10.48550/arXiv.2303.13988
 url: "http://arxiv.org/abs/2303.13988"

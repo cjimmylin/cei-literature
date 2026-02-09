@@ -8,6 +8,7 @@ type: document
 short_title: "Jailbreaking LLMs with Arabic Transliteration and"
 year: 2025
 first_author: "[[Mansour Al Ghanim]]"
+last_author: "[[Lou, Qian]]"
 authors: "[[Al Ghanim, Mansour]]; [[Almohaimeed, Saleh]]; [[Zheng, Mengxin]]; [[Solihin, Yan]]; [[Lou, Qian]]"
 url: "https://aclanthology.org/2024.emnlp-main.1034/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/KHCWIX2B/2024 - Jailbreaking LLMs with Arabic Transliteration and Arabizi.pdf"
@@ -36,12 +37,7 @@ local_pdf: "[[PDFs/2024/2024-Al Ghanim-Jailbreaking LLMs with Arabic Translitera
 
 ## Authors
 
-[[Mansour Al Ghanim]], [[Saleh Almohaimeed]], [[Mengxin Zheng]], [[Yan Solihin]], [[Qian Lou]]
-## Metadata
-
-**Year:** 2024
-
-**Type:** document
+[[Mansour Al Ghanim|Al Ghanim, Mansour]], [[Saleh Almohaimeed|Almohaimeed, Saleh]], [[Mengxin Zheng|Zheng, Mengxin]], [[Yan Solihin|Solihin, Yan]], [[Qian Lou|Lou, Qian]]
 
 ## Links
 

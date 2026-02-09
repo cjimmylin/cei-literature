@@ -19,8 +19,11 @@ Researcher at Zhejiang University. Lead author on MedEthicsQA (published June 20
 
 ## Papers in this Vault
 
-- [[2025-Wei-MedEthicsQA|MedEthicsQA]]
+
+- [[2025-Wei-MedEthicsQA|MedEthicsQA]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Wei-MedEthicsQA*: Affiliation: University 2 Angelalign Technology Inc
 [Additional context or contact information]

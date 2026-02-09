@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Auditing the Ethical Logic of Generative AI Models"
 year: 2025
 first_author: "[[W. Russell Neuman]]"
+last_author: "[[Manan Shah]]"
 authors: "W. Russell Neuman; Chad Coleman; Ali Dasdan; Safinah Ali; Manan Shah"
 url: "https://arxiv.org/abs/2504.17544"
 external_pdf: "https://arxiv.org/pdf/2504.17544.pdf"

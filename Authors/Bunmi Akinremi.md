@@ -3,7 +3,7 @@ name: "Bunmi Akinremi"
 title: "Machine Learning Engineer"
 affiliation: "Kochava / MIT MicroMasters"
 highest_degree: "BSc, Computer Science, OAU"
-email: ""
+email: "info@naijavoices.com"
 research_interests:
   - "African Speech Data"
   - "Reinforcement Learning"
@@ -47,6 +47,7 @@ Akinremi is a co-author of the "NaijaVoices" dataset, one of the largest and mos
 
 ## Papers in this Vault
 
+
 - [[2025-Emezue-NaijaVoices|NaijaVoices]]
 
 ## External Links & Profiles
@@ -56,4 +57,6 @@ Akinremi is a co-author of the "NaijaVoices" dataset, one of the largest and mos
 - [Google Scholar](https://scholar.google.com/citations?user=PByg_i0AAAAJ)
 
 ## Notes
+
+- *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 Bunmi's dedication to "Women in Data Science" and her focus on African linguistic representative data makes her a key figure in the "Fairness and Representation" pillar of AI ethics.

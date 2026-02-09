@@ -19,9 +19,12 @@ Neel Guha is a sixth year JD-PhD student in Computer Science at Stanford Univers
 
 ## Papers in this Vault
 
+
+- [[2023-Guha-LegalBench|LegalBench]] (First Author)
 - [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]
-- [[2023-Guha-LegalBench|LegalBench]]
 
 ## Notes
 
+
+- *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: tonyhlee@stanford.edu
 [Additional context or contact information]

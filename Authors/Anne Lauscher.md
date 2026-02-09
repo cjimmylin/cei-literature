@@ -47,11 +47,10 @@ She has made major contributions to the study of bias in NLP and the development
 - [Sustainable NLP: A Review](https://arxiv.org/abs/2201.00000) (2022) - *Investigated the environmental impact of large models.*
 
 ## Papers in this Vault
-- [[2025-Mitchell-SHADES|SHADES]]
-- [[2021-Barikeri-REDDITBIAS|REDDITBIAS]]
-- [[2023-Vida-Values, Ethics, Morals|Values, Ethics, Morals?]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2025-Mitchell-SHADES|SHADES]]
+- [[2023-Vida-Values, Ethics, Morals|Values, Ethics, Morals?]] (Last Author)
+- [[2021-Barikeri-REDDITBIAS|REDDITBIAS]]
 
 ## External Links & Profiles
 
@@ -65,4 +64,6 @@ She has made major contributions to the study of bias in NLP and the development
 - [Twitter/X](https://twitter.com/annelauscher)
 
 ## Notes
+
+- *From 2023-Vida-Values, Ethics, Morals*: Affiliation: University of Hamburg
 [Anne is a leading voice in European AI ethics and fair NLP.]

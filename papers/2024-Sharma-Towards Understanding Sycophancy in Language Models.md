@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: Towards Understanding Sycophancy in Language Models
 year: 2024
 first_author: "[[Mrinank Sharma]]"
+last_author: "[[Mrinank Sharma]]"
 authors: Mrinank Sharma et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2310.13548"
 external_pdf: "https://arxiv.org/pdf/2310.13548.pdf"
 local_pdf: "[[PDFs/2024/2024-Sharma-Towards Understanding Sycophancy in Language Models.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Mrinank Sharma et al.]]
+[[Mrinank Sharma]]
 
 ## Metadata
 

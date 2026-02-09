@@ -46,9 +46,8 @@ She has been a vocal advocate for rigorous biosecurity guardrails in the develop
 - [Engineering Principles for Quantitative Measurement Tools in Pandemic Response](https://escholarship.org/uc/item/12345678) (2021) - *PhD Dissertation.*
 
 ## Papers in this Vault
-- [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## External Links & Profiles
 
@@ -61,4 +60,6 @@ She has been a vocal advocate for rigorous biosecurity guardrails in the develop
 - [Anthropic Research](https://www.anthropic.com/)
 
 ## Notes
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 [Anjali is a critical bridge between the biological sciences and AI safety policy.]

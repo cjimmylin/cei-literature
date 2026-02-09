@@ -3,7 +3,7 @@ name: "Alice Oh"
 title: "Professor & Director"
 affiliation: "KAIST"
 highest_degree: "PhD in Computer Science, MIT"
-email: ""
+email: "alice.oh@kaist.edu"
 research_interests:
   - "Computational Social Science"
   - "Natural Language Processing"
@@ -47,9 +47,9 @@ She has been instrumental in organizing the top venues in AI, serving as General
 - [Social Bias in Language Models](https://arxiv.org/abs/2101.00000) (2021) - *Influential study on the propagation of social stereotypes.*
 
 ## Papers in this Vault
-- [[2025-Myung-PapersPlease|PapersPlease]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2025-Myung-PapersPlease|PapersPlease]] (Last Author)
+- [[2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for|RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity]] (Last Author)
 
 ## External Links & Profiles
 
@@ -63,4 +63,6 @@ She has been instrumental in organizing the top venues in AI, serving as General
 - [Twitter/X](https://twitter.com/aliceoh)
 
 ## Notes
+
+- *From 2025-Myung-PapersPlease*:, Email: alice.oh@kaist.edu
 [Alice is a pivotal leader in the global AI community, particularly in bridging East-West AI perspectives.]

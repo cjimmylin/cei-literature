@@ -1,6 +1,6 @@
 ---
 name: "Shane McLoughlin"
-affiliation: "University/Organization"
+affiliation: "Centre for Character and Virtues, University of Birmingham"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2023-Maile-The choice of deontological, virtue ethical, and|The choice of deontological, virtue ethical, and]]
 
 ## Notes
 
+
+- *From 2023-Maile-The choice of deontological, virtue ethical, and*: Affiliation: Centre for Character and Virtues, University of Birmingham
 [Additional context or contact information]

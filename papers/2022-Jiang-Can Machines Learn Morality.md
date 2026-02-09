@@ -8,6 +8,7 @@ type: preprint
 short_title: "Can Machines Learn Morality?"
 year: 2025
 first_author: "[[Liwei Jiang]]"
+last_author: "[[Yejin Choi]]"
 authors: "Liwei Jiang; Jena D. Hwang; Chandra Bhagavatula; Ronan Le Bras; Jenny Liang; Jesse Dodge; Keisuke Sakaguchi; Maxwell Forbes; Jon Borchardt; Saadia Gabriel; Yulia Tsvetkov; Oren Etzioni; Maarten Sap; Regina Rini; Yejin Choi"
 doi: 10.48550/arXiv.2110.07574
 tags: 

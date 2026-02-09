@@ -43,7 +43,8 @@ He is the first author of the influential paper "Toward global ethical framework
 
 ## Papers in this Vault
 
-- [[2025-Aditya-Toward global ethical frameworks for AI|Toward global ethical frameworks for AI]]
+
+- [[2025-Aditya-Toward global ethical frameworks for AI|Toward global ethical frameworks for AI]] (First Author)
 
 ## External Links & Profiles
 
@@ -51,4 +52,6 @@ He is the first author of the influential paper "Toward global ethical framework
 - [Semantic Scholar](https://www.semanticscholar.org/author/Shivam-Aditya/2153282217)
 
 ## Notes
+
+- *From 2025-Aditya-Toward global ethical frameworks for AI*: Affiliation: labor market transformations, dual-use security concerns, and strategies for ensuring equitable
 [Shivam is a notable voice in the push for globalized AI ethics standards.]

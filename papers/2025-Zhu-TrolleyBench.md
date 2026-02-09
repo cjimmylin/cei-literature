@@ -10,6 +10,7 @@ type: conferencePaper
 short_title: TrolleyBench
 year: 2025
 first_author: "[[A Zhu]]"
+last_author: "[[A]]"
 authors: Zhu, A
 publication: NeurIPS 2025
 external_pdf: "https://openreview.net/pdf?id=27j9XJQV5O"
@@ -38,7 +39,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Zhu, A]]
+[[Zhu]], [[A]]
 
 ## Metadata
 

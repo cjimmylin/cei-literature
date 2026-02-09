@@ -17,6 +17,7 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Laukkonen-Contemplative Artificial Intelligence|Contemplative Artificial Intelligence]]
 
 ## Notes

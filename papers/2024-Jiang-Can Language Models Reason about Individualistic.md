@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Can Language Models Reason about Individualistic"
 year: 2025
 first_author: "[[Liwei Jiang]]"
+last_author: "[[Yejin Choi]]"
 authors: "Liwei Jiang; Taylor Sorensen; Sydney Levine; Yejin Choi"
 doi: 10.48550/arXiv.2410.03868
 tags: 

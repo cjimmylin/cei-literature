@@ -20,7 +20,8 @@ Heuiseok Lim is a Full Professor at the NLP & AI Lab in the Department of Comput
 
 ## Papers in this Vault
 
-- [[2025-Jung-FLEX|FLEX]]
+
+- [[2025-Jung-FLEX|FLEX]] (Last Author)
 
 ## Notes
 

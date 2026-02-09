@@ -9,7 +9,9 @@ type: preprint
 short_title: SafeAgentBench
 year: 2024
 first_author: "[[Sheng Yin]]"
+last_author: "[[Sheng Yin]]"
 authors: Sheng Yin et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2412.13178"
 external_pdf: "https://arxiv.org/pdf/2412.13178.pdf"
 local_pdf: "[[PDFs/2024/2024-Yin-SafeAgentBench.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Sheng Yin et al.]]
+[[Sheng Yin]]
 
 ## Metadata
 

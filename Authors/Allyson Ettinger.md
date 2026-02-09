@@ -3,7 +3,7 @@ name: "Allyson Ettinger"
 title: "Assistant Professor / Research Scientist"
 affiliation: "University of Chicago / Allen Institute for AI (AI2)"
 highest_degree: "PhD"
-email: ""
+email: "lwjiang@cs.washington.edu"
 research_interests:
   - "Natural Language Processing"
   - "Psycholinguistics"
@@ -30,12 +30,15 @@ Allyson's research applies methodologies from human psycholinguistics to the dia
 - [What BERT is Not: Lessons from a New Suite of Psycholinguistic Diagnostics](https://transacl.org/ojs/tacl/article/view/1781) (2020) - *Fundamental paper on the limitations of Transformer-based models.*
 
 ## Papers in this Vault
-- [[2021-Bowman-What Will it Take to Fix Benchmarking|What Will it Take to Fix Benchmarking]]
-- [[2021-Bowman-What will it take to|What will it take to]]
+
+- [[2024-Jiang-WildTeaming at Scale|WildTeaming at Scale]]
+- [[2024-Team-WildGuard|WildGuard]]
 
 ## External Links & Profiles
 - [Personal Website](https://aetting.github.io/)
 - [Google Scholar](https://scholar.google.com/citations?user=tn6F5o0AAAAJ)
 
 ## Notes
+
+- *From 2024-Jiang-WildTeaming at Scale*: Affiliation: University of Washington, Email: lwjiang@cs.washington.edu
 [Bridges the gap between cognitive science and deep learning performance.]

@@ -31,7 +31,8 @@ Dr. Christopher Michael Castille is an Associate Professor of Management at Nich
 - Work on how organizational constraints motivate Machiavellians to undermine peers
 
 ## Papers in this Vault
-- [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the trolley dilemma]]
+
+- [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 
 ## External Links & Profiles
 - [Google Scholar](https://scholar.google.com/citations?user=vO-9e7MAAAAJ)

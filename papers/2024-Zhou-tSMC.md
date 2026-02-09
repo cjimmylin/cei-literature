@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: tSMC
 year: 2025
 first_author: "[[Ziyi Zhou]]"
+last_author: "[[Wei, Xuetao]]"
 authors: "[[Zhou, Ziyi]]; [[Guo, Xinwei]]; [[Gao, Jiashi]]; [[Zhao, Xiangyu]]; [[Zhang, Shiyao]]; [[Yao, Xin]]; [[Wei, Xuetao]]"
 url: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/48726631f87322012c6be38e00c72a47-Abstract-Conference.html"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/MWSLHSCV/2024 - tSMC A Toolbox for Safety-Aware Multi-Agent Reinforcement Learning.pdf"
@@ -36,16 +37,7 @@ pdf_extract: "PDF Extracts/2024/2024-Zhou-tSMC.md"
 
 ## Authors
 
-[[Ziyi Zhou]], [[Xinwei Guo]], [[Jiashi Gao]], [[Xiangyu Zhao]], [[Shiyao Zhang]], [[Xin Yao]], [[Xuetao Wei]]
-## Metadata
-
-**Authors:** Zhou, Ziyi; Guo, Xinwei; Gao, Jiashi; Zhao, Xiangyu; Zhang, Shiyao; Yao, Xin; Wei, Xuetao
-
-**Year:** 2024
-
-**Publication:** Advances in Neural Information Processing Systems 37 (NeurIPS 2024)
-
-**Type:** conferencePaper
+[[Ziyi Zhou|Zhou, Ziyi]], [[Xinwei Guo|Guo, Xinwei]], [[Jiashi Gao|Gao, Jiashi]], [[Xiangyu Zhao|Zhao, Xiangyu]], [[Shiyao Zhang|Zhang, Shiyao]], [[Xin Yao|Yao, Xin]], [[Xuetao Wei|Wei, Xuetao]]
 
 ## Links
 

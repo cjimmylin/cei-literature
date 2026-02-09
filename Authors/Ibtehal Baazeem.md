@@ -3,7 +3,7 @@ name: "Ibtehal Baazeem"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "Organization, Department (if applicable)"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "walsanie@kacst.gov.sa"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi|Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi]]
+- [[2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi|Saudi-Alignment Benchmark -- Assessing LLMs Alignment with Saudi Cultural and Ethical Norms]]
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi*:, Email: walsanie@kacst.gov.sa
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

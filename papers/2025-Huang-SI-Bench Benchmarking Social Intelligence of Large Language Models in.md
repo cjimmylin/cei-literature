@@ -9,6 +9,7 @@ type: preprint
 short_title: "SI-Bench: Benchmarking Social Intelligence of Large Language Models in Human-to-Human Conversations"
 year: 2025
 first_author: "[[Shuai Huang]]"
+last_author: "[[Jun Gao]]"
 authors: Shuai Huang; Wenxuan Zhao; Jun Gao
 url: "https://arxiv.org/abs/2510.23182"
 external_pdf: "https://arxiv.org/pdf/2510.23182.pdf"

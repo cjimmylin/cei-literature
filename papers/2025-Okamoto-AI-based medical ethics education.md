@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "AI-based medical ethics education"
 year: 2025
 first_author: "[[Shimpei Okamoto]]"
+last_author: "[[Tsutomu Sawai]]"
 authors: "Shimpei Okamoto; Masanori Kataoka; Makoto Itano; Tsutomu Sawai"
 doi: 10.1186/s12909-025-06801-y
 url: "https://bmcmededuc.biomedcentral.com/articles/10.1186/s12909-025-06801-y"
@@ -36,15 +37,6 @@ pdf_extract: "[[2025-Okamoto-AI-based medical ethics education]]"
 ## Authors
 
 [[Shimpei Okamoto]], [[Masanori Kataoka]], [[Makoto Itano]], [[Tsutomu Sawai]]
-## Metadata
-
-**Authors:** Okamoto, Shimpei; Kataoka, Masanori; Itano, Makoto; Sawai, Tsutomu
-
-**Year:** 2025
-
-**Type:** journal article
-
-**Publisher:** PubMed Central (February 2025)
 
 ## Links
 

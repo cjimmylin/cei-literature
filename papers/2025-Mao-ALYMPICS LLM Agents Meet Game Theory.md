@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "ALYMPICS: LLM Agents Meet Game Theory"
 year: 2025
 first_author: "[[Shaoguang Mao]]"
+last_author: "[[Furu Wei]]"
 authors: Shaoguang Mao; Yuzhe Cai; Yan Xia; Wenshan Wu; Xun Wang; Fengyi Wang; Tao Ge; Furu Wei
 url: "https://arxiv.org/abs/2311.03220"
 external_pdf: "https://arxiv.org/pdf/2311.03220.pdf"

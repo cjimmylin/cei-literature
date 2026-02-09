@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "EmotionBench (Apathetic or Empathetic?): Evaluating LLMs' Emotional Alignments with Humans"
 year: 2024
 first_author: "[[Jen-tse Huang]]"
+last_author: "[[Michael R. Lyu]]"
 authors: Jen-tse Huang; Man Ho Lam; Eric John Li; Shujie Ren; Wenxuan Wang; Wenxiang Jiao; Zhaopeng Tu; Michael R. Lyu
 url: "https://arxiv.org/abs/2308.03656"
 external_pdf: "https://arxiv.org/pdf/2308.03656.pdf"

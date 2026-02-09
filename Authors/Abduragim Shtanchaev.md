@@ -31,6 +31,7 @@ Abduragim's research is focused on large-scale multimodal evaluation. He contrib
 
 ## Papers in this Vault
 
+
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## External Links & Profiles
@@ -39,4 +40,6 @@ Abduragim's research is focused on large-scale multimodal evaluation. He contrib
 - [MBZUAI Profile](https://mbzuai.ac.ae/)
 
 ## Notes
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 [Specializes in the evaluation of multimodal systems for global deployment.]

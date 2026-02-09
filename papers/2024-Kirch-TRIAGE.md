@@ -8,6 +8,7 @@ type: document
 short_title: TRIAGE
 year: 2025
 first_author: "[[Nathalie Maria Kirch]]"
+last_author: "[[Matthias Samwald]]"
 authors: "Nathalie Maria Kirch; Konstantin Hebenstreit; Matthias Samwald"
 url: "https://arxiv.org/abs/2410.18991"
 external_pdf: "https://arxiv.org/pdf/2410.18991.pdf"

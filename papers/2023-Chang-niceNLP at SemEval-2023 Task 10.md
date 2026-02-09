@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "niceNLP at SemEval-2023 Task 10"
 year: 2025
 first_author: "[[Yu Chang]]"
+last_author: "[[Yanru Zhang]]"
 authors: "Yu Chang; Yuxi Chen; Yanru Zhang"
 doi: 10.18653/v1/2023.semeval-1.41
 url: "https://aclanthology.org/2023.semeval-1.41/"

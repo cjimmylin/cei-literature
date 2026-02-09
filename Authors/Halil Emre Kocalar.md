@@ -24,6 +24,7 @@ He has also contributed to open science by translating materials on Open Science
 
 ## Papers in this Vault
 
+
 - [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 
 ## Links

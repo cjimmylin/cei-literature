@@ -6,6 +6,7 @@ type: preprint
 short_title: "AI Safety Alignment Ethics"
 year: 2025
 first_author: "[[Dylan Waldner]]"
+last_author: "[[Dylan Waldner]]"
 authors: "[[Waldner, Dylan]]"
 doi: N/A
 url: "https://arxiv.org/abs/2509.24065"

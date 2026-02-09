@@ -8,6 +8,7 @@ type: document
 short_title: "Benchmarking Ethics in Text-to-Image Models"
 year: 2025
 first_author: "[[Lijun Li]]"
+last_author: "[[Jing Shao]]"
 authors: "Lijun Li; Zhelun Shi; Xuhao Hu; Bowen Dong; Yiran Qin; Xihui Liu; Lu Sheng; Jing Shao"
 url: "https://openreview.net/forum?id=kIboeK0Wzs"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/BU3GIQZ6/1558_Benchmarking_Ethics_in_Te.pdf"

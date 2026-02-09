@@ -8,6 +8,7 @@ type: preprint
 short_title: M$^3$oralBench
 year: 2025
 first_author: "[[Bei Yan]]"
+last_author: "[[Xilin Chen]]"
 authors: "Bei Yan; Jie Zhang; Zhiyuan Chen; Shiguang Shan; Xilin Chen"
 doi: 10.48550/arXiv.2412.20718
 url: "http://arxiv.org/abs/2412.20718"

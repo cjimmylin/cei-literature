@@ -35,6 +35,7 @@ He contributes to making NLP research more accessible through open publishing of
 
 ## Papers in this Vault
 
+
 - [[2022-Kann-AmericasNLI|AmericasNLI]]
 
 ## Links
@@ -45,4 +46,6 @@ He contributes to making NLP research more accessible through open publishing of
 
 ## Notes
 
+
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 Neubig's work on multilingual NLP and low-resource languages contributes to making AI systems more accessible across linguistic communities worldwide.

@@ -8,6 +8,7 @@ type: document
 short_title: "Beyond Ethical Alignment"
 year: 2025
 first_author: "[[Alessio Galatolo]]"
+last_author: "[[Beloucif, Meriem]]"
 authors: "[[Galatolo, Alessio]]; [[Rappuoli, Luca Alberto]]; [[Winkle, Katie]]; [[Beloucif, Meriem]]"
 doi: 10.48550/arXiv.2508.12754
 url: "https://arxiv.org/abs/2508.12754"
@@ -37,18 +38,7 @@ data_metrics: "Moral reasoning capabilities, abductive reasoning"
 
 ## Authors
 
-[[Alessio Galatolo]], [[Luca Alberto Rappuoli]], [[Katie Winkle]], [[Meriem Beloucif]]
-## Metadata
-
-**Authors:** Galatolo, Alessio; Rappuoli, Luca Alberto; Winkle, Katie; Beloucif, Meriem
-
-**Year:** 2025
-
-**Type:** document
-
-**DOI:** [10.48550/arXiv.2508.12754](https://doi.org/10.48550/arXiv.2508.12754)
-
-**Publisher:** arXiv
+[[Alessio Galatolo|Galatolo, Alessio]], [[Luca Alberto Rappuoli|Rappuoli, Luca Alberto]], [[Katie Winkle|Winkle, Katie]], [[Meriem Beloucif|Beloucif, Meriem]]
 
 ## Links
 

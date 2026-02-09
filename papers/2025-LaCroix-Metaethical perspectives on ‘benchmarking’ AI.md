@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Metaethical perspectives on ‘benchmarking’ AI"
 year: 2025
 first_author: "[[Travis LaCroix]]"
+last_author: "[[Alexandra Sasha Luccioni]]"
 authors: "Travis LaCroix; Alexandra Sasha Luccioni"
 doi: 10.1007/s43681-025-00703-x
 url: "https://link.springer.com/10.1007/s43681-025-00703-x"

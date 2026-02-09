@@ -36,6 +36,7 @@ Contributed to influential work on LLM evaluation methodologies and agentic AI s
 
 ## Papers in this Vault
 
+
 - [[2024-Zhuge-Agent-as-a-Judge|Agent-as-a-Judge]]
 
 ## External Links & Profiles
@@ -45,4 +46,6 @@ Contributed to influential work on LLM evaluation methodologies and agentic AI s
 
 ## Notes
 
+
+- *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: mingchen.zhuge@kaust.edu.sa
 Researcher focused on novel evaluation paradigms for AI systems, particularly agentic approaches to LLM assessment.

@@ -1,9 +1,9 @@
 ---
 name: "Hua Shen"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Michigan"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "jashkina@umich.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment|ValueCompass A Framework for Measuring Contextual Value Alignment]]
+- [[2025-Ashkinaze-Deep Value Benchmark|Deep Value Benchmark]]
+- [[2025-Shen-ValueActionLens Mind the Value-Action Gap|ValueActionLens (Mind the Value-Action Gap)]] (First Author)
+- [[2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment|ValueCompass: A Framework for Measuring Contextual Value Alignment Between Humans and LLMs]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +84,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Ashkinaze-Deep Value Benchmark*: Affiliation: University of Michigan, Email: jashkina@umich.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

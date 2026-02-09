@@ -1,6 +1,6 @@
 ---
 name: "Wilker Aziz"
-affiliation: "University/Organization"
+affiliation: "University of Amsterdam, 2IT University of Copenhagen, 3MCML Munich, 4LMU Munich"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2022-Baan-Stop Measuring Calibration When Humans Disagree|Stop Measuring Calibration When Humans Disagree]]
 
 ## Notes
 
+
+- *From 2022-Baan-Stop Measuring Calibration When Humans Disagree*: Affiliation: University of Amsterdam, 2IT University of Copenhagen, 3MCML Munich, 4LMU Munich, Email: b.plank@lmu.de
 [Additional context or contact information]

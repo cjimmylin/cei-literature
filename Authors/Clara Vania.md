@@ -38,7 +38,8 @@ Clara Vania is an Applied Scientist at Amazon Alexa, where she works on natural 
 
 ## Papers in this Vault
 
-- [[2020-Nangia-CrowS-Pairs|CrowS-Pairs: A Challenge Dataset for Measuring Social Biases]]
+
+- [[2020-Nangia-CrowS-Pairs|CrowS-Pairs]]
 
 ## External Links & Profiles
 

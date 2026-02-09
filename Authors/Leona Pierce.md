@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Dickerson-Who Gets the Kidney|Who Gets the Kidney?]]
+
+- [[2025-Dickerson-Who Gets the Kidney|Who Gets the Kidney?]] (Last Author)
 
 ## Notes
 
+
+- *From 2025-Dickerson-Who Gets the Kidney*:, Email: hadi@psu.edu
 [Additional context or contact information]

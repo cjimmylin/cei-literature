@@ -8,6 +8,7 @@ type: journalArticle
 short_title: Priv-IQ
 year: 2025
 first_author: "[[S. Shahriar]]"
+last_author: "[[R. Dara]]"
 authors: "S. Shahriar; R. Dara"
 url: "https://www.mdpi.com/2673-2688/6/2/29"
 external_pdf: "https://doi.org/10.3390/ai6020029"

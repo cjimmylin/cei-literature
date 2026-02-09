@@ -17,7 +17,8 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2010-Project-GurbaniDB|GurbaniDB]]
+
+- [[2010-Project-GurbaniDB|GurbaniDB]] (First Author)
 
 ## Notes
 

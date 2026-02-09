@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "EmotionQueen: A Benchmark for Evaluating Empathy of Large Language Models"
 year: 2024
 first_author: "[[Yuyan Chen]]"
+last_author: "[[Yanghua Xiao]]"
 authors: Yuyan Chen; Hao Wang; Songzhou Yan; Sijia Liu; Yueze Li; Yi Zhao; Yanghua Xiao
 url: "https://arxiv.org/abs/2409.13359"
 external_pdf: "https://arxiv.org/pdf/2409.13359.pdf"

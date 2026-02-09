@@ -20,9 +20,15 @@ Professor of Philosophy at Johns Hopkins University (as of 2026), previously at 
 
 ## Papers in this Vault
 
-- [[2025-Kilov-Discerning What Matters|Discerning What Matters]]
-- [[2025-Levine-Resource Rational Contractualism Should Guide AI|Resource Rational Contractualism Should Guide AI]]
+
+- [[2026-Kolt-Legal Alignment for Safe and Ethical AI|Legal Alignment for Safe and Ethical AI]]
+- [[2025-Kilov-Discerning What Matters|Discerning What Matters]] (Last Author)
+- [[2025-Levine-Resource Rational Contractualism Should Guide AI Alignment|Resource Rational Contractualism Should Guide AI Alignment]]
+- [[2025-Snoswell-Beyond Verdicts LLM Moral Competence|Beyond Verdicts LLM Moral Competence]] (Last Author)
+- [[2024-Lazar-Frontier AI Ethics|Frontier AI Ethics]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Levine-Resource Rational Contractualism Should Guide AI Alignment*: Affiliation: Department, 2MIT, Brain and Cognitive Sciences Department, Email: smlevine@mit.edu
 [Additional context or contact information]

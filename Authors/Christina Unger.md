@@ -31,7 +31,8 @@ Christina Unger is a postdoctoral researcher in the Semantic Computing group at 
 - Published extensively in top NLP venues including ACL, EMNLP, and NAACL
 
 ## Papers in this Vault
-- [[2019-Usbeck-Benchmarking question answering systems|Benchmarking question answering systems]]
+
+- [[2019-Usbeck-Benchmarking question answering systems|Benchmarking question answering systems]] (Last Author)
 
 ## External Links & Profiles
 - [Google Scholar](https://scholar.google.de/citations?user=rC_nwQ0AAAAJ)
@@ -42,4 +43,6 @@ Christina Unger is a postdoctoral researcher in the Semantic Computing group at 
 - [Semantic Scholar](https://www.semanticscholar.org/author/Christina-Unger/1711387)
 
 ## Notes
+
+- *From 2019-Usbeck-Benchmarking question answering systems*: Affiliation: University, Country
 Her work on question answering benchmarks and natural language interfaces is relevant to AI ethics in the context of making AI systems more transparent and explainable. By enabling natural language access to knowledge bases, her research contributes to making AI decision-making more interpretable to non-technical users.

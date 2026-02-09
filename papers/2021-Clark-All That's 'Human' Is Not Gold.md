@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "All That's 'Human' Is Not Gold"
 year: 2025
 first_author: "[[Elizabeth Clark]]"
+last_author: "[[Noah A. Smith]]"
 authors: "Elizabeth Clark; Tal August; Sofia Serrano; Nikita Haduong; Suchin Gururangan; Noah A. Smith"
 doi: 10.48550/arXiv.2107.00061
 tags: 

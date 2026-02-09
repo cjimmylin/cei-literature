@@ -46,9 +46,8 @@ He has made significant contributions to the field of automated scientific disco
 - [Visual self-modeling of robot morphologies](https://www.science.org/doi/10.1126/scirobotics.abn1930) (2022) - *Investigated how robots can learn their own physical structure.*
 
 ## Papers in this Vault
-- [[2023-Ji-AI Alignment|AI Alignment]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2023-Ji-AI Alignment|AI Alignment]]
 
 ## External Links & Profiles
 
@@ -63,4 +62,6 @@ He has made significant contributions to the field of automated scientific disco
 - [General Robotics Lab](https://generalroboticslab.com/)
 
 ## Notes
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 [Boyuan is a leading figure in the intersection of robotic embodiment and AI safety/discovery.]

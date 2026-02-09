@@ -19,8 +19,12 @@ Wenxuan Wang is a PhD student at the Chinese University of Hong Kong specializin
 
 ## Papers in this Vault
 
-- [[2024-Wang-All Languages Matter|All Languages Matter]]
+
+- [[2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional|EmotionBench (Apathetic or Empathetic?): Evaluating LLMs' Emotional Alignments with Humans]]
+- [[2024-Wang-All Languages Matter|All Languages Matter]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Wang-All Languages Matter*: Affiliation: University of Hong Kong
 [Additional context or contact information]

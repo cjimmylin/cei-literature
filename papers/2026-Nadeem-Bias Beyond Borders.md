@@ -9,6 +9,7 @@ type: preprint
 short_title: Bias Beyond Borders
 year: 2026
 first_author: "[[Afrozah Nadeem]]"
+last_author: "[[Usman Naseem Mehwish Nasim]]"
 authors: Afrozah Nadeem, Agrima, Mehwish Nasim, Usman Naseem
 url: "https://arxiv.org/abs/2601.23001"
 external_pdf: "https://arxiv.org/pdf/2601.23001.pdf"
@@ -37,7 +38,7 @@ data_metrics: "33 languages"
 
 ## Authors
 
-[[Afrozah Nadeem, Agrima, Mehwish Nasim, Usman Naseem]]
+[[Agrima Afrozah Nadeem]], [[Usman Naseem Mehwish Nasim]]
 
 ## Metadata
 

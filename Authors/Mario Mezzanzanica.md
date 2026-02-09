@@ -1,6 +1,6 @@
 ---
 name: "Mario Mezzanzanica"
-affiliation: "University/Organization"
+affiliation: "University of Milano-Bicocca, Italy"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Seveso-ITALIC|ITALIC]]
 
 ## Notes
 
+
+- *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy
 [Additional context or contact information]

@@ -1,6 +1,6 @@
 ---
 name: "Sreeram Vennam"
-affiliation: "University/Organization"
+affiliation: "Institute of Information Technology Hyderabad (IIITH)"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Bonagiri-SaGE|SaGE]]
 
 ## Notes
 
+
+- *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: pk.guru@iiit.ac.in
 [Additional context or contact information]

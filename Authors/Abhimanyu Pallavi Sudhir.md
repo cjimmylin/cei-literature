@@ -3,7 +3,7 @@ name: "Abhimanyu Pallavi Sudhir"
 title: "Researcher"
 affiliation: "University of Warwick"
 highest_degree: "PhD Candidate (Inferred)"
-email: ""
+email: "abhimanyu.pallavi-sudhir@warwick.ac.uk"
 research_interests:
   - "AI Alignment"
   - "Theoretical Economics"
@@ -38,7 +38,8 @@ Sudhir has published work on scalable oversight protocols for AI alignment, with
 
 ## Papers in this Vault
 
-(Auto-generated list of linked papers)
+
+- [[2025-Saunders-A Scalable Oversight Benchmark|A Scalable Oversight Benchmark]] (First Author)
 
 ## External Links & Profiles
 
@@ -54,4 +55,6 @@ Sudhir has published work on scalable oversight protocols for AI alignment, with
 
 ## Notes
 
+
+- *From 2025-Saunders-A Scalable Oversight Benchmark*: Affiliation: lable Oversight Benchmark - PDF Extract", Email: abhimanyu.pallavi-sudhir@warwick.ac.uk
 His integration of prediction markets and economic mechanisms with AI alignment represents a novel interdisciplinary approach to ensuring AI systems make reliable and trustworthy forecasts.

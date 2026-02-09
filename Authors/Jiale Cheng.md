@@ -28,10 +28,13 @@ Jiale Cheng is a PhD student in the Department of Computer Science and Technolog
 
 ## Papers in this Vault
 
+
 - [[2023-Liu-AlignBench|AlignBench]]
 
 ## Notes
 
+
+- *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 - PhD student at Tsinghua University
 - Works with CoAI Group and Zhipu AI
 - Collaborates with Jie Tang and Minlie Huang

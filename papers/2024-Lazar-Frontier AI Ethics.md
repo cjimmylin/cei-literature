@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: "Frontier AI Ethics"
 first_author: "[[Seth Lazar]]"
+last_author: "[[Seth Lazar]]"
 authors: "Seth Lazar"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/FNRNTSRF/Lazar - Frontier AI Ethics Anticipating and Evaluating the Societal Impacts of Language Model Agents.pdf"
 national_ethnic_cultural: N/A

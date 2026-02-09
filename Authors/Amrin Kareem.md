@@ -20,8 +20,11 @@ Amrin Kareem is a researcher affiliated with the Mohamed bin Zayed University of
 
 ## Papers in this Vault
 
+
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## Notes
 
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 Part of a large international collaboration led by MBZUAI focusing on culturally and linguistically inclusive AI evaluation.

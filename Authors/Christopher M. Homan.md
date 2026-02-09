@@ -43,7 +43,8 @@ Christopher M. Homan is a Professor in the Department of Computer Science at Roc
 
 ## Papers in this Vault
 
-- [[2023-Aroyo-DICES Dataset|DICES Dataset: Diversity in Conversational AI Evaluation for Safety]]
+
+- [[2023-Aroyo-DICES Dataset|DICES Dataset]]
 
 ## External Links & Profiles
 
@@ -53,4 +54,6 @@ Christopher M. Homan is a Professor in the Department of Computer Science at Roc
 
 ## Notes
 
+
+- *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London
 Christopher Homan's research addresses critical challenges in AI safety: how do we build systems that can reliably detect harmful content, and how do we account for human subjectivity and disagreement in training data? His Bayesian approaches to annotation quality provide principled methods for handling the inherent subjectivity in tasks like hate speech detection. The DICES dataset represents important infrastructure for evaluating conversational AI safety across diverse populations.

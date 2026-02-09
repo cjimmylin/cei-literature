@@ -16,8 +16,11 @@ Multiple researchers named "Ping Wu" found in 2026: (1) UTMB - Department of Neu
 
 ## Papers in this Vault
 
-- [[2025-Wu-CVC|CVC]]
+
+- [[2025-Wu-CVC|CVC]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Wu-CVC*: Affiliation: Lab, Institute of Automation, Chinese Academy of Sciences, Beijing, China, Email: zhaofeifei2014@ia.ac.cn
 [Additional context or contact information]

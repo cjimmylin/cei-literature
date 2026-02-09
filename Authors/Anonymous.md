@@ -1,6 +1,6 @@
 ---
 name: "Anonymous"
-affiliation: "University/Organization"
+affiliation: "Center for Information Security"
 research_interests:
   - "Research area 1"
   - "Research area 2"
@@ -25,3 +25,7 @@ University/Organization
 - Website:
 - Google Scholar:
 - Semantic Scholar:
+
+## Papers in this Vault
+
+- [[2024-Anonymous-ForbiddenQuestions|ForbiddenQuestions]] (First Author)

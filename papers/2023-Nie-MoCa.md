@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: MoCa
 year: 2025
 first_author: "[[Allen Nie]]"
+last_author: "[[Tobias Gerstenberg]]"
 authors: "Allen Nie; Yuhui Zhang; Atharva Amdekar; Chris Piech; Tatsunori Hashimoto; Tobias Gerstenberg"
 doi: 10.48550/arXiv.2310.19677
 tags: 

@@ -36,7 +36,8 @@ Has contributed to influential work on fairness in job recommendation systems, d
 
 ## Papers in this Vault
 
-- [[2024-Vladimirova-FairJob|FairJob]]
+
+- [[2024-Vladimirova-FairJob|FairJob]] (Last Author)
 
 ## External Links & Profiles
 
@@ -45,4 +46,6 @@ Has contributed to influential work on fairness in job recommendation systems, d
 
 ## Notes
 
+
+- *From 2024-Vladimirova-FairJob*: Affiliation: lability of fairness-, Email: federico.pavone@dauphine.psl.eu
 Industry researcher focused on fairness and causal inference in ML systems, bridging academic research and real-world applications.

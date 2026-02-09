@@ -3,7 +3,7 @@ name: "Abhejay Murali"
 title: "AI Researcher"
 affiliation: "University of Texas at Austin, Urban Information Lab (UIL)"
 highest_degree: "B.Sc. Computer Science (In Progress)"
-email: ""
+email: "saleh.afroogh@utexas.edu"
 research_interests:
   - "LLM Ethics"
   - "Moral Reasoning"
@@ -31,6 +31,7 @@ Abhejay contributes to the development of systematic benchmarks for AI ethics. H
 
 ## Papers in this Vault
 
+
 - [[2025-Jiao-LLM Ethics Benchmark|LLM Ethics Benchmark]]
 
 ## External Links & Profiles
@@ -39,4 +40,6 @@ Abhejay contributes to the development of systematic benchmarks for AI ethics. H
 - [Urban Information Lab Profile](https://uil.ae.utexas.edu/)
 
 ## Notes
+
+- *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: saleh.afroogh@utexas.edu
 [Focuses on multi-dimensional ethical benchmarking for generative AI.]

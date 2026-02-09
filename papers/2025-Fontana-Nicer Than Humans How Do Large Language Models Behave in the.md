@@ -9,6 +9,7 @@ type: preprint
 short_title: "Nicer Than Humans: How Do Large Language Models Behave in the Prisoner's Dilemma?"
 year: 2025
 first_author: "[[Nicoló Fontana]]"
+last_author: "[[Luca Maria Aiello]]"
 authors: Nicoló Fontana; Francesco Pierri; Luca Maria Aiello
 url: "https://arxiv.org/abs/2406.13605"
 external_pdf: "https://arxiv.org/pdf/2406.13605.pdf"

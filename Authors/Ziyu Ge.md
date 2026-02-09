@@ -1,6 +1,6 @@
 ---
 name: "Ziyu Ge"
-affiliation: "University/Organization"
+affiliation: "University of Technology and Design"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Chua-RabakBench|RabakBench]]
 
 ## Notes
 
+
+- *From 2025-Chua-RabakBench*: Affiliation: University of Technology and Design
 [Additional context or contact information]

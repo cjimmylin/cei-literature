@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "Are LLMs Consequentialist or Deontological"
 year: 2025
 first_author: "[[Keenan Samway]]"
+last_author: "[[Jin, Zhijing]]"
 authors: "[[Samway, Keenan]]; [[Kleiman-Weiner, Max]]; [[Guzman Piedrahita, David]]; [[Mihalcea, Rada]]; [[Schölkopf, Bernhard]]; [[Jin, Zhijing]]"
 doi: 10.48550/arXiv.2505.21479
 url: "https://arxiv.org/abs/2505.21479"
@@ -40,7 +41,7 @@ normative_ethics_benchmark: Yes
 
 ## Authors
 
-[[Keenan Samway]], [[Max Kleiman-Weiner]], [[David Guzman Piedrahita]], [[Rada Mihalcea]], [[Bernhard Schölkopf]], [[Zhijing Jin]]
+[[Keenan Samway|Samway, Keenan]], [[Max Kleiman-Weiner|Kleiman-Weiner, Max]], [[David Guzman Piedrahita|Guzman Piedrahita, David]], [[Rada Mihalcea|Mihalcea, Rada]], [[Bernhard Schölkopf|Schölkopf, Bernhard]], [[Zhijing Jin|Jin, Zhijing]]
 
 ## Metadata
 

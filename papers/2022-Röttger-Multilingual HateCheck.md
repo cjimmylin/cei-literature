@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Multilingual HateCheck"
 year: 2025
 first_author: "[[Paul Röttger]]"
+last_author: "[[Bertie Vidgen]]"
 authors: "Paul Röttger; Haitham Seelawi; Debora Nozza; Zeerak Talat; Bertie Vidgen"
 url: "https://arxiv.org/abs/2206.09917"
 external_pdf: "https://arxiv.org/pdf/2206.09917.pdf"

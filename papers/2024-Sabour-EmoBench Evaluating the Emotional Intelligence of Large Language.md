@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "EmoBench: Evaluating the Emotional Intelligence of Large Language Models"
 year: 2024
 first_author: "[[Sahand Sabour]]"
+last_author: "[[Minlie Huang]]"
 authors: Sahand Sabour; Siyang Liu; Zheyuan Zhang; June M. Liu; Jinfeng Zhou; Alvionna S. Sunaryo; Juanzi Li; Tatia M. C. Lee; Rada Mihalcea; Minlie Huang
 url: "https://arxiv.org/abs/2402.12071"
 external_pdf: "https://arxiv.org/pdf/2402.12071.pdf"

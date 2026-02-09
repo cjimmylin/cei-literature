@@ -29,6 +29,7 @@ Research on Russian language NLP, particularly examining how language models han
 
 ## Papers in this Vault
 
+
 - [[2025-Vasilev-RusCode|RusCode]]
 
 ## External Links & Profiles
@@ -37,4 +38,6 @@ Research on Russian language NLP, particularly examining how language models han
 
 ## Notes
 
+
+- *From 2025-Vasilev-RusCode*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu
 Researcher contributing to non-English AI ethics resources, specifically for Russian language.

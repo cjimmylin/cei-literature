@@ -1,7 +1,7 @@
 ---
 name: "Flavio du Pin Calmon"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Oxford"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Buyl-AI Alignment at Your Discretion|AI Alignment at Your Discretion]]
+- [[2025-Buyl-AI Alignment at Your Discretion|AI Alignment at Your Discretion]] (Last Author)
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Buyl-AI Alignment at Your Discretion*: Affiliation: University of Oxford
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

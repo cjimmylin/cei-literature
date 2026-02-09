@@ -45,9 +45,8 @@ Adam is recognized for his contributions to machine learning theory and the stud
 - [Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](https://arxiv.org/abs/1607.06520) (2016) - *A seminal paper on quantifying and mitigating gender bias in AI.*
 
 ## Papers in this Vault
-- [[2019-De-Arteaga-Bias in Bios|Bias in Bios]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2019-De-Arteaga-Bias in Bios|Bias in Bios]] (Last Author)
 
 ## External Links & Profiles
 
@@ -64,4 +63,6 @@ Adam is recognized for his contributions to machine learning theory and the stud
 - [Twitter/X](https://twitter.com/kalai)
 
 ## Notes
+
+- *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 [Adam is a high-level theorist at OpenAI with a long history in AI fairness research.]

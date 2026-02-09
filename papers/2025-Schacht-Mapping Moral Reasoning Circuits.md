@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Mapping Moral Reasoning Circuits"
 year: 2025
 first_author: "[[Sigurd Schacht]]"
+last_author: "[[Carsten Lanquillon]]"
 authors: "Sigurd Schacht; Carsten Lanquillon"
 doi: 10.1007/978-3-031-93415-5_6
 url: "https://link.springer.com/chapter/10.1007/978-3-031-93415-5_6"

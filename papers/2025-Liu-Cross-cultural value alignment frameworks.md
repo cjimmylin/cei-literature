@@ -8,6 +8,7 @@ type: preprint
 short_title: "Cross-cultural value alignment frameworks"
 year: 2025
 first_author: "[[Haijiang Liu]]"
+last_author: "[[Qiaoling Xiao]]"
 authors: "[[Liu, Haijiang]], [[Gu, Jinguang]], [[Wu, Xun]], [[Hershcovich, Daniel]], [[Xiao, Qiaoling]]"
 doi: 10.48550/arXiv.2511.17256
 tags: "Computer Science - AI Ethics"
@@ -39,19 +40,6 @@ data_metrics: "Truth vs loyalty rates, temporal stability, cultural fidelity sco
 ## Authors
 
 [[Haijiang Liu]], [[Jinguang Gu]], [[Xun Wu]], [[Daniel Hershcovich]], [[Qiaoling Xiao]]
-## Metadata
-
-**Authors:** Liu, Haijiang; Gu, Jinguang; Wu, Xun; Hershcovich, Daniel; Xiao, Qiaoling
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2511.17256](https://doi.org/10.48550/arXiv.2511.17256)
-
-**Publisher:** arXiv
-
-**Affiliation:** Visiting PhD at HKUST (Guangzhou)
 
 ## Links
 

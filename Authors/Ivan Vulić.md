@@ -1,6 +1,6 @@
 ---
 name: "Ivan Vulić"
-affiliation: "University/Organization"
+affiliation: "Research Group"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2021-Barikeri-REDDITBIAS|REDDITBIAS]]
 
 ## Notes
 
+
+- *From 2021-Barikeri-REDDITBIAS*: Affiliation: Research Group, Email: soumyabarikeri@gmail.com
 [Additional context or contact information]

@@ -8,6 +8,7 @@ type: document
 short_title: "Evaluating Aggression Identification in Social"
 year: 2025
 first_author: "[[Ritesh Kumar]]"
+last_author: "[[Zampieri, Marcos]]"
 authors: "[[Kumar, Ritesh]]; [[Ojha, Atul Kr.]]; [[Malmasi, Shervin]]; [[Zampieri, Marcos]]"
 url: "https://aclanthology.org/2020.trac-1.1/"
 external_pdf: "https://aclanthology.org/2020.trac-1.1.pdf"
@@ -34,12 +35,7 @@ data_metrics: "5,000 instances; 1,000 instances"
 
 ## Authors
 
-[[Ritesh Kumar]], [[Atul Kr. Ojha]], [[Shervin Malmasi]], [[Marcos Zampieri]]
-## Metadata
-
-**Year:** 2020
-
-**Type:** document
+[[Ritesh Kumar|Kumar, Ritesh]], [[Ojha, Atul Kr]], [[Shervin Malmasi|Malmasi, Shervin]], [[Marcos Zampieri|Zampieri, Marcos]]
 
 ## Links
 

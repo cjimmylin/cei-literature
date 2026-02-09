@@ -20,8 +20,11 @@ Zahra Pourbahman is a PhD Candidate in Computer Engineering at Amirkabir Univers
 
 ## Papers in this Vault
 
-- [[2025-Pourbahman-ELAB|ELAB]]
+
+- [[2025-Pourbahman-ELAB|ELAB]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Pourbahman-ELAB*: Affiliation: LAB - PDF Extract"
 [Additional context or contact information]

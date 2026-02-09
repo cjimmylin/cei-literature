@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "SemEval-2019 Task 5"
 year: 2025
 first_author: "[[Valerio Basile]]"
+last_author: "[[Manuela Sanguinetti]]"
 authors: "Valerio Basile; Cristina Bosco; Elisabetta Fersini; Debora Nozza; Viviana Patti; Francisco Manuel Rangel Pardo; Paolo Rosso; Manuela Sanguinetti"
 doi: 10.18653/v1/S19-2007
 url: "https://www.aclweb.org/anthology/S19-2007"

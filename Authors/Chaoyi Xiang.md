@@ -29,11 +29,14 @@ Chaoyi Xiang is a researcher at the School of Computing and Information Systems 
 - Applied Moral Foundation Theory to systematically analyze moral differences between human and AI associations
 
 ## Papers in this Vault
-- [[2025-Xiang-Comparing Moral Values in Western|Comparing Moral Values in Western English-speaking societies and LLMs with Word Associations]]
+
+- [[2025-Xiang-Comparing Moral Values in Western|Comparing Moral Values in Western]] (First Author)
 
 ## External Links & Profiles
 - [AI Models FYI Author Profile](https://www.aimodels.fyi/author-profile/chaoyi-xiang-51cab2f5-bea5-414c-8fc0-0790723b8d63)
 - [ResearchGate Paper](https://www.researchgate.net/publication/392105755)
 
 ## Notes
+
+- *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au
 Relevant to AI ethics through her novel approach to measuring moral alignment between LLMs and human moral intuitions. Her work acknowledges limitations including focus on Western English-speaking societies and the need for more diverse cultural perspectives in moral AI research. Collaborates with researchers from University of Melbourne (Chunhua Liu, Simon De Deyne) and University of Edinburgh (Lea Frermann).

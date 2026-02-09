@@ -1,9 +1,9 @@
 ---
 name: "Jing-Jing Li"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "labels that describe potential im-"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "jl3676@berkeley.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety|SafetyAnalyst Interpretable Transparent and Steerable Safety]]
+- [[2026-Li-PluriHarms|PluriHarms]] (First Author)
+- [[2025-Li-SafetyAnalyst|SafetyAnalyst]] (First Author)
+- [[2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety|SafetyAnalyst: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +84,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety*: Affiliation: labels that describe potential im-, Email: jl3676@berkeley.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

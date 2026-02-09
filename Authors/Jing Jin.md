@@ -1,6 +1,6 @@
 ---
 name: "Jing Jin"
-affiliation: "University/Organization"
+affiliation: "University 2Carnegie Mellon University"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+- [[2025-Fu-MME-CoT|MME-CoT]]
 - [[2025-Ye-Large Language Model Psychometrics|Large Language Model Psychometrics]]
+- [[2024-Chern-BeHonest|BeHonest]]
 
 ## Notes
 
+
+- *From 2024-Chern-BeHonest*: Affiliation: University 2Carnegie Mellon University
 [Additional context or contact information]

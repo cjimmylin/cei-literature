@@ -1,9 +1,9 @@
 ---
 name: "Kanak Garg"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of California San Diego"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "c4shah@ucsd.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators|LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators]]
+- [[2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators|LLM Rationalis? Measuring Bargaining Capabilities of AI Negotiators]]
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators*: Affiliation: University of California San Diego, Email: c4shah@ucsd.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

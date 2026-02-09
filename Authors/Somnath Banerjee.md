@@ -29,7 +29,8 @@ Along with SafeInfer, the research introduces HarmEval, a novel benchmark for ex
 
 ## Papers in this Vault
 
-- [[2025-Banerjee-SafeInfer|SafeInfer]]
+
+- [[2025-Banerjee-SafeInfer|SafeInfer]] (First Author)
 
 ## Notes
 

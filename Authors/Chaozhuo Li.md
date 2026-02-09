@@ -32,6 +32,7 @@ Dr. Chaozhuo Li is a researcher who received his Ph.D. in Engineering from Beiha
 - Research spans user identity linkage, image inpainting with GANs, knowledge graph alignment, and unsupervised graph representation learning
 
 ## Papers in this Vault
+
 - [[2025-Liu-The Scales of Justitia|The Scales of Justitia]]
 
 ## External Links & Profiles
@@ -40,4 +41,6 @@ Dr. Chaozhuo Li is a researcher who received his Ph.D. in Engineering from Beiha
 - [DeepAI Profile](https://deepai.org/profile/chaozhuo-li)
 
 ## Notes
+
+- *From 2025-Liu-The Scales of Justitia*: Affiliation: School of Cyberspace Security, Bei-, Email: liusyang@bupt.edu.cn
 Relevant to AI ethics through his research on LLM security and fairness. His work on knowledge graphs and social network analysis also contributes to understanding AI systems in social contexts. Currently accepts prospective students interested in related research.

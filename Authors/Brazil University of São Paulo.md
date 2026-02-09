@@ -1,6 +1,6 @@
 ---
 name: "Brazil University of São Paulo"
-affiliation: University/Organization
+affiliation: "University of São Paulo-Moral Stance Recognition and Polarity"
 research_interests: 
 website: 
 google_scholar: 
@@ -23,3 +23,7 @@ University/Organization
 - Website:
 - Google Scholar:
 - Semantic Scholar:
+
+## Papers in this Vault
+
+- [[2019-University of São Paulo-Moral Stance Recognition and Polarity|Moral Stance Recognition and Polarity]] (First Author)

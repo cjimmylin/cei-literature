@@ -1,6 +1,6 @@
 ---
 name: "Kaggle /"
-affiliation: "University/Organization"
+affiliation: "Institute of Technology Bombay, India"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification|Jigsaw Unintended Bias in Toxicity Classification]]
+
+- [[2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification|Jigsaw Unintended Bias in Toxicity Classification]] (Last Author)
 
 ## Notes
 
+
+- *From 2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification*: Affiliation: Institute of Technology Bombay, India
 [Additional context or contact information]

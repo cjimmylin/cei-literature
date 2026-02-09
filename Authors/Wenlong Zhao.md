@@ -27,8 +27,11 @@ The research was conducted in collaboration with Debanjan Mondal, Niket Tandon, 
 
 ## Papers in this Vault
 
-- [[2024-Wu-WorldValuesBench|WorldValuesBench: A Large-Scale Benchmark Dataset for Multi-Cultural Value Awareness of Language Models]]
+
+- [[2024-Wu-WorldValuesBench|WorldValuesBench]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Wu-WorldValuesBench*: Affiliation: University of Massachusetts Amherst, Email: kurtgray@unc.edu
 The WorldValuesBench dataset is publicly available on GitHub at https://github.com/Demon702/WorldValuesBench and has received 166 citations as of August 2025, indicating significant impact in the cross-cultural AI research community.

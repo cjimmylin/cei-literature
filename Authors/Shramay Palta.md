@@ -19,8 +19,11 @@ Shramay Palta is a PhD Candidate in Computer Science at the University of Maryla
 
 ## Papers in this Vault
 
-- [[2025-Palta-Speaking the Right Language|Speaking the Right Language]]
+
+- [[2025-Palta-Speaking the Right Language|Speaking the Right Language]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Palta-Speaking the Right Language*: Affiliation: University of Maryland, College Park
 [Additional context or contact information]

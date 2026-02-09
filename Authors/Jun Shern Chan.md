@@ -1,6 +1,6 @@
 ---
 name: "Jun Shern Chan"
-affiliation: "University/Organization"
+affiliation: "University of Oxford"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Jiang-MACHIAVELLI|Do the Rewards Justify the Means? Measuring]]
+
+- [[2023-Jiang-MACHIAVELLI|MACHIAVELLI]]
+- [[2023-Tan-How to Catch an AI Liar|How to Catch an AI Liar]]
 
 ## Notes
 
+
+- *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford
 [Additional context or contact information]

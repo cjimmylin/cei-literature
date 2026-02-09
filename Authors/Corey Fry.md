@@ -26,7 +26,8 @@ Corey Fry is a researcher at Google DeepMind who contributed to the FACTS Ground
 - Helped develop evaluation infrastructure for assessing LLM factuality
 
 ## Papers in this Vault
-- [[2025-Jacovi-The FACTS Grounding Leaderboard|The FACTS Grounding Leaderboard: Benchmarking LLMs' Ability to Ground Responses to Long-Form Input]]
+
+- [[2025-Jacovi-The FACTS Grounding Leaderboard|The FACTS Grounding Leaderboard]]
 
 ## External Links & Profiles
 - [FACTS Grounding Blog](https://deepmind.google/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/)

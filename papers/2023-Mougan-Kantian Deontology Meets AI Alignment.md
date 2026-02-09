@@ -8,6 +8,7 @@ type: preprint
 short_title: "Kantian Deontology Meets AI Alignment"
 year: 2025
 first_author: "[[Carlos Mougan]]"
+last_author: "[[Brand, Joshua]]"
 authors: "[[Mougan, Carlos]]; [[Brand, Joshua]]"
 doi: 10.48550/arXiv.2311.05227
 url: "https://arxiv.org/abs/2311.05227"
@@ -38,7 +39,7 @@ pdf_extract: "PDF Extracts/2023/2023-Mougan-Kantian Deontology Meets AI Alignmen
 
 ## Authors
 
-[[Carlos Mougan]], [[Joshua Brand]]
+[[Carlos Mougan|Mougan, Carlos]], [[Joshua Brand|Brand, Joshua]]
 
 ## Metadata
 

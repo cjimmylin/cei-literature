@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: Value-Spectrum
 year: 2025
 first_author: "[[Jingxuan Li]]"
+last_author: "[[Ying Nian Wu]]"
 authors: "Jingxuan Li; Yuning Yang; Shengqi Yang; Linfan Zhang; Ying Nian Wu"
 doi: 10.48550/arXiv.2411.11479
 tags: 

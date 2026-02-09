@@ -3,7 +3,7 @@ name: "Busayo Awobade"
 title: "Research Scientist"
 affiliation: "MLCollective"
 highest_degree: "BSc / MSc, (Inferred)"
-email: ""
+email: "info@naijavoices.com"
 research_interests:
   - "Speech Processing"
   - "Multilingualism"
@@ -45,9 +45,8 @@ Awobade is a key author of "AfriSpeech-MultiBench," a critical benchmark suite f
 - [AfriSpeech-MultiBench: A Verticalized Multidomain Multicountry Benchmark Suite for African Accented English ASR](https://arxiv.org/abs/2501.00000) (2025) - *Proposed a new standard for voice recognition inclusivity.*
 
 ## Papers in this Vault
-- [[2025-Emezue-NaijaVoices|NaijaVoices]]
 
-- [[2021-Xiang-Enriching Author Profiles|Enriching Author Profiles]]
+- [[2025-Emezue-NaijaVoices|NaijaVoices]]
 
 ## External Links & Profiles
 
@@ -56,4 +55,6 @@ Awobade is a key author of "AfriSpeech-MultiBench," a critical benchmark suite f
 - [Hugging Face Profile](https://huggingface.co/bawobade)
 
 ## Notes
+
+- *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 Busayo's research on "Verticalized Multidomain" benchmarks is essential for testing whether AI models truly generalize across the varied linguistic landscapes of Nigeria and broader Africa.

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: Palm
 year: 2025
 first_author: "[[Fakhraddin Alwajih]]"
+last_author: "[[Muhammad Abdul-Mageed]]"
 authors: "Fakhraddin Alwajih; Abdellah El Mekki; Samar Mohamed Magdy; Abdelrahim A. Elmadany; Omer Nacar; El Moatez Billah Nagoudi; Reem Abdel-Salam; Hanin Atwany; Youssef Nafea; Abdulfattah Mohammed Yahya; Rahaf Alhamouri; Hamzah A. Alsayadi; Hiba Zayed; Sara Shatnawi; Serry Sibaee; Yasir Ech-Chammakhy; Walid Al-Dhabyani; Marwa Mohamed Ali; Imen Jarraya; Ahmed Oumar El-Shangiti; Aisha Alraeesi; Mohammed Anwar Al-Ghrawi; Abdulrahman S. Al-Batati; Elgizouli Mohamed; Noha Taha Elgindi; Muhammed Saeed; Houdaifa Atou; Issam Ait Yahia; Abdelhak Bouayad; Mohammed Machrouh; Amal Makouar; Dania Alkawi; Mukhtar Mohamed; Safaa Taher Abdelfadil; Amine Ziad Ounnoughene; Rouabhia Anfel; Rwaa Assi; Ahmed Sorkatti; Mohamedou Cheikh Tourad; Anis Koubaa; Ismail Berrada; Mustafa Jarrar; Shady Shehata; Muhammad Abdul-Mageed"
 doi: 10.48550/arXiv.2503.00151
 url: "http://arxiv.org/abs/2503.00151"

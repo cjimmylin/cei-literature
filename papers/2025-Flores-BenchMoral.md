@@ -8,6 +8,7 @@ type: document
 short_title: BenchMoral
 year: 2025
 first_author: "[[Félix B. A. Flores]]"
+last_author: "[[Félix B. A. Flores]]"
 authors: "Félix B. A. Flores"
 url: "https://forum.effectivealtruism.org/posts/eTEtMc2d38GDZZ8ke/benchmoral-a-benchmarking-to-assess-the-moral-sensitivity-of"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/PC7NWK8G/BenchMoral_ A benchmarking to assess the moral sensitivity of large language models (LLMs) in Spanish. — EA Forum.pdf"

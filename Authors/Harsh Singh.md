@@ -25,8 +25,11 @@ Harsh Singh is a researcher at MBZUAI (Mohamed bin Zayed University of Artificia
 
 ## Papers in this Vault
 
+
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## Notes
 
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 Research bridges vision, language, and robotics for embodied AI systems.

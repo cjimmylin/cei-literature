@@ -27,7 +27,8 @@ Dahyun Kim is a researcher at Upstage AI working on Korean language models and c
 - Multilingual AI Systems
 
 ## Papers in this Vault
-- [[2025-Kim-Cultural and Core Capability Benchmarks for|Cultural and Core Capability Benchmarks for]]
+
+- [[2025-Kim-Cultural and Core Capability Benchmarks for|Cultural and Core Capability Benchmarks for]] (First Author)
 
 ## Links
 - Google Scholar: https://scholar.google.com/citations?user=SN1-_-4AAAAJ

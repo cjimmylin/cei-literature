@@ -1,6 +1,6 @@
 ---
 name: "Jinkyu Kim"
-affiliation: "University/Organization"
+affiliation: "University of California, Berkeley"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction|Zero-shot Visual Commonsense Immorality Prediction]]
+
+- [[2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction|Zero-shot Visual Commonsense Immorality Prediction]] (Last Author)
 
 ## Notes
 
+
+- *From 2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction*: Affiliation: University of California, Berkeley, Email: jinkyukim@korea.ac.kr
 [Additional context or contact information]

@@ -1,9 +1,9 @@
 ---
 name: "Gavin Kader"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Finance and Economics"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "dwlee05@gmail.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Kader-The Emergence of Strategic Reasoning of Large Language Models|The Emergence of Strategic Reasoning of Large Language Models]]
+- [[2024-Kader-The Emergence of Strategic Reasoning of Large Language Models|The Emergence of Strategic Reasoning of Large Language Models]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Kader-The Emergence of Strategic Reasoning of Large Language Models*: Affiliation: University of Finance and Economics, Email: dwlee05@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

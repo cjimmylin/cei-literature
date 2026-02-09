@@ -29,6 +29,7 @@ Christian Demmler is a Research Associate at the University of Leipzig, working 
 
 ## Papers in this Vault
 
+
 - [[2019-Usbeck-Benchmarking question answering systems|Benchmarking question answering systems]]
 
 ## External Links & Profiles
@@ -36,4 +37,6 @@ Christian Demmler is a Research Associate at the University of Leipzig, working 
 
 ## Notes
 
+
+- *From 2019-Usbeck-Benchmarking question answering systems*: Affiliation: University, Country
 Christian Demmler's work is crucial for the "structured knowledge" side of AI, ensuring systems can accurately retrieve answers from knowledge bases.

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Identifying and Manipulating the Personality"
 year: 2025
 first_author: "[[Graham Caron]]"
+last_author: "[[Shashank Srivastava]]"
 authors: "Graham Caron; Shashank Srivastava"
 doi: 10.48550/arXiv.2212.10276
 tags: 

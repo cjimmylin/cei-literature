@@ -3,7 +3,7 @@ name: "Alan Schelten"
 title: "Research Scientist / Software Engineer"
 affiliation: "Meta AI (FAIR / GenAI)"
 highest_degree: "M.Sc."
-email: ""
+email: "yjbang@connect.ust.hk"
 research_interests:
   - "Large Language Models"
   - "Model Hallucinations"
@@ -31,7 +31,10 @@ Alan's research addresses the systemic issue of hallucinations in Large Language
 
 ## Papers in this Vault
 
+
 - [[2025-Bang-HalluLens LLM Hallucination Benchmark|HalluLens: LLM Hallucination Benchmark]]
 
 ## Notes
+
+- *From 2025-Bang-HalluLens LLM Hallucination Benchmark*:, Email: yjbang@connect.ust.hk
 [Specializes in the intersection of large-scale systems engineering and model reliability.]

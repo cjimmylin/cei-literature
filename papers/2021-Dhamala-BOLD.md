@@ -8,6 +8,7 @@ type: journalArticle
 short_title: BOLD
 year: 2025
 first_author: "[[Jwala Dhamala]]"
+last_author: "[[Rahul Gupta]]"
 authors: "Jwala Dhamala; Tony Sun; Varun Kumar; Satyapriya Krishna; Yada Pruksachatkun; Kai-Wei Chang; Rahul Gupta"
 doi: 10.1145/3442188.3445924
 url: "http://arxiv.org/abs/2101.11718"

@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Possibilities and challenges in the moral growth of LLMs"
 year: 2025
 first_author: "[[G. Y. Wang]]"
+last_author: "[[Y. C. Wang]]"
 authors: "[[Wang, G. Y.]], [[Wang, W.]], [[Cao, Y. Q.]], [[Wang, H. F.]], [[Guo, Y. T.]], [[Guo, Q. Y.]], [[Ma, J. J.]], [[Liu, J.]], [[Lin, J. Y.]], [[Wang, Y. C.]]"
 doi: 10.1007/s10676-024-09818-x
 tags: "Philosophy - AI Ethics"
@@ -37,18 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[G. Y. Wang]], [[W. Wang]], [[Y. Q. Cao]], [[H. F. Wang]], [[Y. T. Guo]], [[Q. Y. Guo]], [[J. J. Ma]], [[J. Liu]], [[J. Y. Lin]], [[Y. C. Wang]]
-## Metadata
-
-**Authors:** Wang, G. Y.; Wang, W.; Cao, Y. Q.; Wang, H. F.; Guo, Y. T.; Guo, Q. Y.; Ma, J. J.; Liu, J.; Lin, J. Y.; Wang, Y. C.
-
-**Year:** 2024
-
-**Type:** journalArticle
-
-**DOI:** [10.1007/s10676-024-09818-x](https://doi.org/10.1007/s10676-024-09818-x)
-
-**Publisher:** Springer - Ethics and Information Technology
+[[G. Y. Wang]], [[W. Wang]], [[Y. Q. Cao]], [[H. F. Wang]], [[Y. T. Guo]], [[Q. Y. Guo]], [[Jing Ma|J. J. Ma]], [[J. Liu]], [[J. Y. Lin]], [[Y. C. Wang]]
 
 ## Links
 

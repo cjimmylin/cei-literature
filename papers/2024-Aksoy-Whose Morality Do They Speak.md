@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Whose Morality Do They Speak?"
 year: 2025
 first_author: "[[Meltem Aksoy]]"
+last_author: "[[Meltem Aksoy]]"
 authors: "Meltem Aksoy"
 doi: 10.48550/arXiv.2412.18863
 url: "http://arxiv.org/abs/2412.18863"

@@ -10,6 +10,7 @@ type: conferencePaper
 short_title: TrolleyBench -- Evaluating Emergent Moral Reasoning and Consistency in LLMs
 year: 2025
 first_author: "[[Andrew Zhu]]"
+last_author: "[[Andrew Zhu]]"
 authors: Andrew Zhu
 publication: NeurIPS 2025
 external_pdf: "https://openreview.net/pdf?id=27j9XJQV5O"
@@ -38,7 +39,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[[Authors]]]
+[[Andrew Zhu]]
 
 ## Metadata
 

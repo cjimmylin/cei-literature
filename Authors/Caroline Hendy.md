@@ -28,7 +28,8 @@ Caroline Hendy is a PhD student in the Department of Linguistics at the Universi
 - Found that LLMs perform significantly worse than humans on novel scenarios with embedded relevant features among irrelevant details
 
 ## Papers in this Vault
-- [[2025-Kilov-Discerning What Matters|Discerning What Matters: A Multi-Dimensional Assessment of Moral Competence in LLMs]]
+
+- [[2025-Kilov-Discerning What Matters|Discerning What Matters]]
 
 ## External Links & Profiles
 - [ResearchGate Profile](https://www.researchgate.net/profile/Caroline-Hendy)

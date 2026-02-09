@@ -47,11 +47,9 @@ He has published over 500 peer-reviewed works and is one of the most highly cite
 - [What BERT is Not: Lessons from a New Suite of Psycholinguistic Diagnostics](https://aclanthology.org/2020.tacl-1.3/) (2020) - *Co-author of the influential evaluation study.*
 
 ## Papers in this Vault
-- [[2024-Wang-Do-Not-Answer|Do-Not-Answer]]
-- [[2024-Kaneko-Eagle|Eagle]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
-- [[2024-Ungless-ETHICS WHITEPAPER|ETHICS WHITEPAPER]]
+- [[2024-Kaneko-Eagle|Eagle]] (Last Author)
+- [[2024-Wang-Do-Not-Answer|Do-Not-Answer]] (Last Author)
 
 ## External Links & Profiles
 
@@ -66,4 +64,6 @@ He has published over 500 peer-reviewed works and is one of the most highly cite
 - [MBZUAI Profile](https://mbzuai.ac.ae/study/faculty/timothy-baldwin)
 
 ## Notes
+
+- *From 2024-Wang-Do-Not-Answer*: Affiliation: University of Melbourne
 [Timothy is a major leader in the NLP community with a strong focus on AI safety and cross-linguistic applications.]

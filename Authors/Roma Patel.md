@@ -1,6 +1,6 @@
 ---
 name: "Roma Patel"
-affiliation: "University/Organization"
+affiliation: "Department of Computer Science, University of Washington, Seattle, WA, USA"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Sorensen-Value Profiles for Encoding Human Variation|Value Profiles for Encoding Human Variation]]
 
 ## Notes
 
+
+- *From 2025-Sorensen-Value Profiles for Encoding Human Variation*: Affiliation: Department of Computer Science, University of Washington, Seattle, WA, USA, Email: tsor13@cs.washington.edu
 [Additional context or contact information]

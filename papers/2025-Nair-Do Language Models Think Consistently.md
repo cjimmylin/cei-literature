@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Do Language Models Think Consistently?"
 year: 2025
 first_author: "[[Inderjeet Nair]]"
+last_author: "[[Lu Wang]]"
 authors: "Inderjeet Nair; Lu Wang"
 doi: 10.48550/arXiv.2506.02481
 url: "http://arxiv.org/abs/2506.02481"

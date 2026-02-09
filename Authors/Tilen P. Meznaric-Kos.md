@@ -1,6 +1,6 @@
 ---
 name: "Tilen P. Meznaric-Kos"
-affiliation: "University/Organization"
+affiliation: "Department of Communications"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Fenech-Borg-The Cultural Gene of Large Language Models|The Cultural Gene of Large Language Models]]
 
 ## Notes
 
+
+- *From 2025-Fenech-Borg-The Cultural Gene of Large Language Models*: Affiliation: Department of Communications, Email: emanuel.fenech-borg@um.edu.mt
 [Additional context or contact information]

@@ -9,6 +9,7 @@ type: preprint
 short_title: "LLM Voting: Human Choices and AI Collective Decision-Making"
 year: 2024
 first_author: "[[Joshua C. Yang]]"
+last_author: "[[Dirk Helbing]]"
 authors: Joshua C. Yang; Damian Dailisan; Marcin Korecki; Carina I. Hausladen; Dirk Helbing
 doi: 10.1609/aies.v7i1.31758
 url: "https://arxiv.org/abs/2402.01766"

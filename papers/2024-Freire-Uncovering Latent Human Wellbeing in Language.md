@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Uncovering Latent Human Wellbeing in Language"
 year: 2025
 first_author: "[[Pedro Freire]]"
+last_author: "[[Scott Emmons]]"
 authors: "Pedro Freire; ChengCheng Tan; Adam Gleave; Dan Hendrycks; Scott Emmons"
 doi: 10.48550/arXiv.2402.11777
 url: "http://arxiv.org/abs/2402.11777"

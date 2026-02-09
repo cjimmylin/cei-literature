@@ -28,8 +28,11 @@ This research is particularly relevant to virtue ethics modeling, as maintaining
 
 ## Papers in this Vault
 
-- [[2024-Tu-CharacterEval|CharacterEval]]
+
+- [[2024-Tu-CharacterEval|CharacterEval]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Tu-CharacterEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: fansl@bupt.edu.cn
 Research focus on culturally and linguistically grounded evaluation of conversational AI, providing infrastructure to measure the authenticity and consistency of AI-generated character personas, with applications to both entertainment and ethical AI research.

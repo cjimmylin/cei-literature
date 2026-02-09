@@ -1,6 +1,6 @@
 ---
 name: "Natasha Jaques"
-affiliation: "University/Organization"
+affiliation: "Department of Computer Science, University of California, Berkeley"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Abdulhai-Moral Foundations of Large Language Models|Moral Foundations of Large Language Models]]
+
+- [[2024-Abdulhai-Moral Foundations of Large Language Models|Moral Foundations of Large Language Models]] (Last Author)
 
 ## Notes
 
+
+- *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
 [Additional context or contact information]

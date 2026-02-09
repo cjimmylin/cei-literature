@@ -1,6 +1,6 @@
 ---
 name: "Oscar Chang"
-affiliation: "University/Organization"
+affiliation: "laboration to clarify goals, methods and challenges, and facilitate the transfer of insights"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Weidinger-Holistic Safety and Responsibility Evaluations of|Holistic Safety and Responsibility Evaluations of]]
 
 ## Notes
 
+
+- *From 2024-Weidinger-Holistic Safety and Responsibility Evaluations of*: Affiliation: laboration to clarify goals, methods and challenges, and facilitate the transfer of insights, Email: lweidinger@google.com
 [Additional context or contact information]

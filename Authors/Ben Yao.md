@@ -46,7 +46,8 @@ Yao has contributed to surveys on LLMs for subjective language understanding, hi
 
 ## Papers in this Vault
 
-- [[2025-Yao-NurValues|NurValues]]
+
+- [[2025-Yao-NurValues|NurValues]] (First Author)
 
 ## External Links & Profiles
 
@@ -55,4 +56,6 @@ Yao has contributed to surveys on LLMs for subjective language understanding, hi
 - [ResearchGate](https://www.researchgate.net/profile/Ben-Yao-2)
 
 ## Notes
+
+- *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University
 His work on "NurValues" is a direct contribution to the quantifiable alignment of AI with diverse human value systems.

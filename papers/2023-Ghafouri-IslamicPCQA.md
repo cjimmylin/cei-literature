@@ -8,6 +8,7 @@ type: journalArticle
 short_title: IslamicPCQA
 year: 2025
 first_author: "[[Arash Ghafouri]]"
+last_author: "[[Mahdi Firouzmandi]]"
 authors: "Arash Ghafouri; Hasan Naderi; Mohammad Aghajani asl; Mahdi Firouzmandi"
 url: "https://arxiv.org/abs/2304.11664"
 external_pdf: "https://arxiv.org/pdf/2304.11664.pdf"

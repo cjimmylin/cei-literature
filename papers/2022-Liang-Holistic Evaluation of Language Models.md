@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Holistic Evaluation of Language Models"
 year: 2025
 first_author: "[[Percy Liang]]"
+last_author: "[[Yuta Koreeda]]"
 authors: "Percy Liang; Rishi Bommasani; Tony Lee; Dimitris Tsipras; Dilara Soylu; Michihiro Yasunaga; Yian Zhang; Deepak Narayanan; Yuhuai Wu; Ananya Kumar; Benjamin Newman; Binhang Yuan; Bobby Yan; Ce Zhang; Christian Cosgrove; Christopher D. Manning; Christopher Ré; Diana Acosta-Navas; Drew A. Hudson; Eric Zelikman; Esin Durmus; Faisal Ladhak; Frieda Rong; Hongyu Ren; Huaxiu Yao; Jue Wang; Keshav Santhanam; Laurel Orr; Lucia Zheng; Mert Yuksekgonul; Mirac Suzgun; Nathan Kim; Neel Guha; Niladri Chatterji; Omar Khattab; Peter Henderson; Qian Huang; Ryan Chi; Sang Michael Xie; Shibani Santurkar; Surya Ganguli; Tatsunori Hashimoto; Thomas Icard; Tianyi Zhang; Vishrav Chaudhary; William Wang; Xuechen Li; Yifan Mai; Yuhui Zhang; Yuta Koreeda"
 doi: 10.48550/arXiv.2211.09110
 url: "http://arxiv.org/abs/2211.09110"

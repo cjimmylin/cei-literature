@@ -9,7 +9,9 @@ type: preprint
 short_title: PluriHarms
 year: 2026
 first_author: "[[Jing-Jing Li]]"
+last_author: "[[Jing-Jing Li]]"
 authors: Jing-Jing Li et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2601.08951"
 external_pdf: "https://arxiv.org/pdf/2601.08951.pdf"
 local_pdf: "[[PDFs/2026/2026-Li-PluriHarms.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "150 prompts"
 
 ## Authors
 
-[[Jing-Jing Li et al.]]
+[[Jing-Jing Li]]
 
 ## Metadata
 

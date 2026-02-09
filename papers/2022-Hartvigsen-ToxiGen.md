@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: ToxiGen
 year: 2025
 first_author: "[[Thomas Hartvigsen]]"
+last_author: "[[Ece Kamar]]"
 authors: "Thomas Hartvigsen; Saadia Gabriel; Hamid Palangi; Maarten Sap; Dipankar Ray; Ece Kamar"
 doi: 10.18653/v1/2022.acl-long.234
 url: "https://aclanthology.org/2022.acl-long.234/"

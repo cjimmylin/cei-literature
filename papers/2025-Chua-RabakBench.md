@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: RabakBench
 year: 2025
 first_author: "[[Gabriel Chua]]"
+last_author: "[[Roy Ka-Wei Lee]]"
 authors: "Gabriel Chua; Leanne Tan; Ziyu Ge; Roy Ka-Wei Lee"
 doi: 10.48550/arXiv.2507.05980
 url: "http://arxiv.org/abs/2507.05980"

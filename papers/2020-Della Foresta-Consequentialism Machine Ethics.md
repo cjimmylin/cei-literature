@@ -8,6 +8,7 @@ type: report
 short_title: "Consequentialism Machine Ethics"
 year: 2025
 first_author: "[[Josiah Della Foresta]]"
+last_author: "[[Josiah Della Foresta]]"
 authors: "Josiah Della Foresta"
 doi: N/A
 url: "https://montrealethics.ai/consequentialism-and-machine-ethics-towards-a-foundational-machine-ethic-to-ensure-the-ethical-conduct-of-artificial-moral-agents/"

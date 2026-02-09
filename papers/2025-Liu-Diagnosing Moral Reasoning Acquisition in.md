@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Diagnosing Moral Reasoning Acquisition in"
 year: 2025
 first_author: "[[Guangliang Liu]]"
+last_author: "[[Kristen Marie Johnson]]"
 authors: "Guangliang Liu; Zimo Qi; Xitong Zhang; Lei Jiang; Kristen Marie Johnson"
 doi: 10.48550/arXiv.2502.16600
 tags: 

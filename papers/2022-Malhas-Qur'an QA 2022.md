@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Qur'an QA 2022"
 year: 2025
 first_author: "[[Rana Malhas]]"
+last_author: "[[Tamer Elsayed]]"
 authors: "Rana Malhas; Watheq Mansour; Tamer Elsayed"
 url: "https://aclanthology.org/2022.osact-1.9/"
 external_pdf: "https://aclanthology.org/2022.osact-1.9.pdf"

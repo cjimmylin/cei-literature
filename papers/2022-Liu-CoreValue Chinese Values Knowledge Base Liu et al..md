@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: "CoreValue: Chinese Values Knowledge Base (Liu et al.)"
 year: 2022
 first_author: "[[Y. Liu]]"
+last_author: "[[Y. Liu]]"
 authors: Liu, Y. et al.
+authors_incomplete: true
 publication: Not specified
 external_pdf: "https://arxiv.org/pdf/2005.08146v2.pdf"
 local_pdf: "[[PDFs/2022/2022-Liu-CoreValue Chinese Values Knowledge Base Liu et al..pdf]]"
@@ -36,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Liu, Y. et al.]]
+[[Y. Liu]]
 
 ## Metadata
 

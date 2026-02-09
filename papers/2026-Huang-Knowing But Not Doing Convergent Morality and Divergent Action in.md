@@ -9,7 +9,9 @@ type: preprint
 short_title: "Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs (ValAct-15k)"
 year: 2026
 first_author: "[[Jen-tse Huang]]"
+last_author: "[[Jen-tse Huang]]"
 authors: Jen-tse Huang et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2601.07972"
 external_pdf: "https://arxiv.org/pdf/2601.07972.pdf"
 local_pdf: "[[PDFs/2026/2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Jen-tse Huang et al.]]
+[[Jen-tse Huang]]
 
 ## Metadata
 

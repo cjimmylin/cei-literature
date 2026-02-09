@@ -46,9 +46,8 @@ Goldberg has conducted extensive digital ethnographic studies with extremist gro
 - [The psychology of misinformation and its countermeasures](https://doi.org/10.1177/1529100620913530) (2020) - *Influential review of misinformation cognitive mechanisms.*
 
 ## Papers in this Vault
-- [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
-- [[2021-Goldberg-Prebunking|Prebunking]]
+- [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
 ## External Links & Profiles
 
@@ -57,4 +56,6 @@ Goldberg has conducted extensive digital ethnographic studies with extremist gro
 - [ResearchGate](https://www.researchgate.net/profile/Beth-Goldberg-2)
 
 ## Notes
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 Her work at the intersection of political psychology and AI engineering is critical for developing "human-centric" defenses against the large-scale generation of disinformation by LLMs.

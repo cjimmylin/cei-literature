@@ -32,6 +32,7 @@ Aleksey's work centers on creating "safer by design" conversational agents. He l
 
 ## Papers in this Vault
 
+
 - [[2023-Lu-The Chai Platform's AI Safety Framework|The Chai Platform's AI Safety Framework]]
 
 ## External Links & Profiles
@@ -40,4 +41,6 @@ Aleksey's work centers on creating "safer by design" conversational agents. He l
 - [Hugging Face Profile](https://huggingface.co/akorshuk)
 
 ## Notes
+
+- *From 2023-Lu-The Chai Platform's AI Safety Framework*: Affiliation: centres and adapted
 [Integrates Reinforcement Learning from Human Feedback (RLHF) with practical content moderation.]

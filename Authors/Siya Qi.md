@@ -19,8 +19,12 @@ Siya Qi is a PhD student in the Department of Informatics at King's College Lond
 
 ## Papers in this Vault
 
-- [[2025-Qi-A Survey of Automatic Hallucination Evaluation on|A Survey of Automatic Hallucination Evaluation on]]
+
+- [[2025-Qi-A Survey of Automatic Hallucination Evaluation on|A Survey of Automatic Hallucination Evaluation on]] (First Author)
+- [[2023-Zhang-Heterogeneous Value Alignment Evaluation for|Heterogeneous Value Alignment Evaluation for]]
 
 ## Notes
 
+
+- *From 2025-Qi-A Survey of Automatic Hallucination Evaluation on*: Affiliation: College London, Email: zheng.yuan1@sheffield.ac.uk
 [Additional context or contact information]

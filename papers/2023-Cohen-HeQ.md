@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: HeQ
 year: 2025
 first_author: "[[Amir Cohen]]"
+last_author: "[[Reut Tsarfaty]]"
 authors: "Amir Cohen; Hilla Merhav-Fine; Yoav Goldberg; Reut Tsarfaty"
 doi: 10.18653/v1/2023.findings-emnlp.915
 url: "https://aclanthology.org/2023.findings-emnlp.915/"

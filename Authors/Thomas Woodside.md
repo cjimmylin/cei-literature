@@ -1,6 +1,6 @@
 ---
 name: "Thomas Woodside"
-affiliation: "University/Organization"
+affiliation: "center on social decision-making"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Jiang-MACHIAVELLI|Do the Rewards Justify the Means? Measuring]]
+
+- [[2023-Jiang-MACHIAVELLI|MACHIAVELLI]]
 
 ## Notes
 
+
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 [Additional context or contact information]

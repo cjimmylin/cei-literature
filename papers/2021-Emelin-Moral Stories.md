@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Moral Stories"
 year: 2025
 first_author: "[[Denis Emelin]]"
+last_author: "[[Yejin Choi]]"
 authors: "Denis Emelin; Ronan Le Bras; Jena D. Hwang; Maxwell Forbes; Yejin Choi"
 doi: 10.18653/v1/2021.emnlp-main.54
 url: "https://aclanthology.org/2021.emnlp-main.54/"

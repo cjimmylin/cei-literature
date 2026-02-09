@@ -1,6 +1,6 @@
 ---
 name: "Yun-Gyung Cheong"
-affiliation: "University/Organization"
+affiliation: "University, South Korea"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Bae-CharMoral|CharMoral]]
 
 ## Notes
 
+
+- *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg
 [Additional context or contact information]

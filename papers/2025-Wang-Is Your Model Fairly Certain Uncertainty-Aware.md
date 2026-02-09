@@ -8,6 +8,7 @@ type: document
 short_title: "Is Your Model Fairly Certain? Uncertainty-Aware"
 year: 2025
 first_author: "[[Yinong Oliver Wang]]"
+last_author: "[[Nicholas Apostoloff]]"
 authors: "Yinong Oliver Wang; Nivedha Sivakumar; Falaah Arif Khan; Rin Metcalf Susa; Adam Golinski; Natalie Mackraz; Barry-John Theobald; Luca Zappella; Nicholas Apostoloff"
 url: "https://arxiv.org/abs/2505.23996"
 external_pdf: "https://arxiv.org/pdf/2505.23996.pdf"

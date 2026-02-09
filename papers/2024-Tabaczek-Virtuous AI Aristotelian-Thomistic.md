@@ -6,6 +6,7 @@ type: journalArticle
 short_title: "Virtuous AI Aristotelian-Thomistic"
 year: 2025
 first_author: "[[Mariusz Tabaczek]]"
+last_author: "[[Mariusz Tabaczek]]"
 authors: "[[Tabaczek, Mariusz]]"
 doi: 10.35765/forphil.2024.2902.08
 url: "https://forumphilosophicum.ignatianum.edu.pl/7559-2902-08.html"

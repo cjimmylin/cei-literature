@@ -1,6 +1,6 @@
 ---
 name: "Stefano Palminteri"
-affiliation: "University/Organization"
+affiliation: "University of Geneva"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Garcia-The Moral Turing Test|The Moral Turing Test]]
+
+- [[2024-Garcia-The Moral Turing Test|The Moral Turing Test]] (Last Author)
 
 ## Notes
 
+
+- *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: stefano.palminteri@ens.fr
 [Additional context or contact information]

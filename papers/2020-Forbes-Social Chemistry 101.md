@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Social Chemistry 101"
 year: 2025
 first_author: "[[Maxwell Forbes]]"
+last_author: "[[Yejin Choi]]"
 authors: "Maxwell Forbes; Jena D. Hwang; Vered Shwartz; Maarten Sap; Yejin Choi"
 doi: 10.18653/v1/2020.emnlp-main.48
 url: "https://www.aclweb.org/anthology/2020.emnlp-main.48"

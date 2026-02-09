@@ -48,15 +48,19 @@ Gabriel led one of DeepMind's largest ethics foresight projects to date, produci
 
 ## Papers in this Vault
 
-- [[2021-Weidinger-Ethical and social risks of harm from Language|Ethical and social risks of harm from Language]]
-- [[2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI|A Human Rights-Based Approach to Responsible AI]]
-- [[2022-Rauh-Characteristics of Harmful Text|Characteristics of Harmful Text]]
-- [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
-- [[2024-Weidinger-Holistic Safety and Responsibility Evaluations of|Holistic Safety and Responsibility Evaluations of]]
-- [[2025-Kasirzadeh-Characterizing AI Agents for Alignment and|Characterizing AI Agents for Alignment and]]
-- [[2025-Levine-Resource Rational Contractualism Should Guide AI Alignment|Resource Rational Contractualism Should Guide AI Alignment]]
-- [[2025-Levine-Resource Rational Contractualism Should Guide AI|Resource Rational Contractualism Should Guide AI]]
+
+- [[2026-Kolt-Legal Alignment for Safe and Ethical AI|Legal Alignment for Safe and Ethical AI]]
+- [[2025-Gabriel-AI Alignment as Fair Treatment of Claims|AI Alignment as Fair Treatment of Claims]] (First Author)
+- [[2025-Kasirzadeh-Characterizing AI Agents for Alignment and|Characterizing AI Agents for Alignment and]] (Last Author)
+- [[2025-Levine-Resource Rational Contractualism Should Guide AI Alignment|Resource Rational Contractualism Should Guide AI Alignment]] (Last Author)
 - [[2025-Sorensen-Value Profiles for Encoding Human Variation|Value Profiles for Encoding Human Variation]]
+- [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]] (First Author)
+- [[2024-Rauh-Gaps in the Safety Evaluation of Generative AI|Gaps in the Safety Evaluation of Generative AI]]
+- [[2024-Weidinger-Holistic Safety and Responsibility Evaluations of|Holistic Safety and Responsibility Evaluations of]]
+- [[2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI|A Human Rights-Based Approach to Responsible AI]] (Last Author)
+- [[2022-Rauh-Characteristics of Harmful Text|Characteristics of Harmful Text]]
+- [[2021-Weidinger-Ethical and social risks of harm from Language|Ethical and social risks of harm from Language]] (Last Author)
+- [[2020-Gabriel-Artificial Intelligence Values and Alignment|Artificial Intelligence Values and Alignment]] (First Author)
 
 ## External Links & Profiles
 
@@ -67,4 +71,6 @@ Gabriel led one of DeepMind's largest ethics foresight projects to date, produci
 
 ## Notes
 
+
+- *From 2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI*: Affiliation: center the conversation around who is harmed, what harms they face, and how those harms may be
 Iason Gabriel's work represents a vital bridge between philosophical ethics and practical AI development, bringing rigorous moral frameworks to bear on the most pressing challenges in AI safety and alignment.

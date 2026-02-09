@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Benchmarks for Automated Commonsense Reasoning"
 year: 2025
 first_author: "[[Ernest Davis]]"
+last_author: "[[Ernest Davis]]"
 authors: "Ernest Davis"
 doi: 10.48550/arXiv.2302.04752
 tags: 

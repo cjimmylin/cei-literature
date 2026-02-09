@@ -1,6 +1,6 @@
 ---
 name: "Saeed Anwar"
-affiliation: "University/Organization"
+affiliation: "Department, KFUPM"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Rahman-DefAn|DefAn]]
 
 ## Notes
 
+
+- *From 2024-Rahman-DefAn*: Affiliation: Department, KFUPM, Email: saeed.anwar@kfupm.edu.sa
 [Additional context or contact information]

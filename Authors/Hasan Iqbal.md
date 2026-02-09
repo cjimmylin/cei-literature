@@ -25,8 +25,11 @@ Hasan Iqbal is a professional who worked at Google DeepMind for nearly 8 years b
 
 ## Papers in this Vault
 
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
 ## Notes
 
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 Brings industry perspective to AI ethics research from extensive experience at DeepMind.

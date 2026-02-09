@@ -1,6 +1,6 @@
 ---
 name: "Swati Gupta"
-affiliation: "University/Organization"
+affiliation: "University, Cambridge, USA"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Kim-Navigating the Social Welfare Frontier|Navigating the Social Welfare Frontier]]
+
+- [[2025-Kim-Navigating the Social Welfare Frontier|Navigating the Social Welfare Frontier]] (Last Author)
 
 ## Notes
 
+
+- *From 2025-Kim-Navigating the Social Welfare Frontier*: Affiliation: University, Cambridge, USA, Email: cwkim@seas.harvard.edu
 [Additional context or contact information]

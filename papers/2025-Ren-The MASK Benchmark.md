@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "The MASK Benchmark"
 year: 2025
 first_author: "[[Richard Ren]]"
+last_author: "[[Dan Hendrycks]]"
 authors: "Richard Ren; Arunim Agarwal; Mantas Mazeika; Cristina Menghini; Robert Vacareanu; Brad Kenstler; Mick Yang; Isabelle Barrass; Alice Gatti; Xuwang Yin; Eduardo Trevino; Matias Geralnik; Adam Khoja; Dean Lee; Summer Yue; Dan Hendrycks"
 doi: 10.48550/arXiv.2503.03750
 url: "http://arxiv.org/abs/2503.03750"

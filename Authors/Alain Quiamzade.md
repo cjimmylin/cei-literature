@@ -45,9 +45,8 @@ He has authored several key works on the social psychology of knowledge, includi
 - [Influence sociale](https://www.pug.fr/produit/1113/9782706126581/influence-sociale) (2016) - *A general introduction to the theories of social influence.*
 
 ## Papers in this Vault
-- [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 
-- [[2021-Willard-Cognitive Biases and Religious Belief|Cognitive Biases and Religious Belief]]
+- [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 
 ## External Links & Profiles
 

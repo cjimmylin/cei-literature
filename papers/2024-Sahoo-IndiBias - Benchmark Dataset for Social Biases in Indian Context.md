@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: IndiBias -- Benchmark Dataset for Social Biases in Indian Context
 year: 2024
 first_author: "[[N. Sahoo]]"
+last_author: "[[N. Sahoo]]"
 authors: Sahoo, N. et al
+authors_incomplete: true
 url: "https://arxiv.org/abs/2403.20147"
 external_pdf: "https://arxiv.org/pdf/2403.20147.pdf"
 local_pdf: "[[PDFs/2024/2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Sahoo, N. et al]]
+[[Nihar Sahoo|N. Sahoo]]
 
 ## Metadata
 

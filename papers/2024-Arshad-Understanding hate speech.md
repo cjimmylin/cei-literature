@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Understanding hate speech"
 year: 2025
 first_author: "[[Muhammad Umair Arshad]]"
+last_author: "[[Waseem Shahzad]]"
 authors: "Muhammad Umair Arshad; Waseem Shahzad"
 doi: 10.7717/peerj-cs.2372
 url: "https://peerj.com/articles/cs-2372"

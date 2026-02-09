@@ -24,6 +24,7 @@ At OpenAI, Clune worked on emergent behavior research, including AI bots that le
 
 ## Papers in this Vault
 
+
 - [[2024-Lu-The AI Scientist|The AI Scientist]]
 
 ## Notable Contributions
@@ -35,5 +36,7 @@ At OpenAI, Clune worked on emergent behavior research, including AI bots that le
 
 ## Notes
 
+
+- *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR
 Clune's work is particularly relevant to AI safety as it explores fundamental questions about how to create AI systems that can continue to learn and improve safely. His research on open-ended algorithms has implications for understanding how AI capabilities might develop over time.
 

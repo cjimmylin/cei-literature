@@ -8,6 +8,7 @@ type: document
 short_title: HackAPrompt
 year: 2025
 first_author: "[[Sander Schulhoff]]"
+last_author: "[[Boyd-Graber, Jordan]]"
 authors: "[[Schulhoff, Sander]]; [[Pinto, Jeremy]]; [[Khan, Anaum]]; [[Bouchard, Louis-François]]; [[Si, Chenglei]]; [[Anati, Svetlina]]; [[Tagliabue, Valen]]; [[Kost, Anson]]; [[Carnahan, Christopher]]; [[Boyd-Graber, Jordan]]"
 url: "https://aclanthology.org/2023.emnlp-main.302/"
 external_pdf: "https://aclanthology.org/2023.emnlp-main.302.pdf"
@@ -34,12 +35,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Sander Schulhoff]], [[Jeremy Pinto]], [[Anaum Khan]], [[Louis-François Bouchard]], [[Chenglei Si]], [[Svetlina Anati]], [[Valen Tagliabue]], [[Anson Kost]], [[Christopher Carnahan]], [[Jordan Boyd-Graber]]
-## Metadata
-
-**Year:** 2023
-
-**Type:** document
+[[Sander Schulhoff|Schulhoff, Sander]], [[Jeremy Pinto|Pinto, Jeremy]], [[Anaum Khan|Khan, Anaum]], [[Louis-François Bouchard|Bouchard, Louis-François]], [[Chenglei Si|Si, Chenglei]], [[Svetlina Anati|Anati, Svetlina]], [[Valen Tagliabue|Tagliabue, Valen]], [[Anson Kost|Kost, Anson]], [[Christopher Carnahan|Carnahan, Christopher]], [[Jordan Boyd-Graber|Boyd-Graber, Jordan]]
 
 ## Links
 

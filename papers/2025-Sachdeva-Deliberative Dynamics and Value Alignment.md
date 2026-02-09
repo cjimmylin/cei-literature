@@ -11,6 +11,7 @@ type: preprint
 short_title: "Deliberative Dynamics and Value Alignment"
 year: 2025
 first_author: "[[Pratik S. Sachdeva]]"
+last_author: "[[van Nuenen, Tom]]"
 authors: "[[Sachdeva, Pratik S.]]; [[van Nuenen, Tom]]"
 doi: 10.48550/arXiv.2510.10002
 url: "https://arxiv.org/abs/2510.10002"
@@ -40,18 +41,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Pratik S. Sachdeva]], [[Tom van Nuenen]]
-## Metadata
-
-**Authors:** Sachdeva, Pratik S.; van Nuenen, Tom
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2510.10002](https://doi.org/10.48550/arXiv.2510.10002)
-
-**Publisher:** arXiv
+[[Sachdeva, Pratik S]], [[Tom van Nuenen|van Nuenen, Tom]]
 
 ## Links
 

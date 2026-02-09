@@ -17,7 +17,8 @@ Researcher in Natural Language Processing and Machine Learning. Multiple individ
 
 ## Papers in this Vault
 
-[Auto-generated list of linked papers]
+
+- [[2024-Akhtar-The Ethicsophical Landscape of Large Language|The Ethicsophical Landscape of Large Language]] (First Author)
 
 ## Notes
 

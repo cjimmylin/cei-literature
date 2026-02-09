@@ -9,7 +9,9 @@ type: preprint
 short_title: "Theory Trace Card (TTC): Documentation for Socio-Cognitive Benchmarks"
 year: 2026
 first_author: "[[F. Karimi-Malekabadi]]"
+last_author: "[[F. Karimi-Malekabadi]]"
 authors: Karimi-Malekabadi, F. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2601.01878"
 external_pdf: "https://arxiv.org/pdf/2601.01878.pdf"
 local_pdf: "[[PDFs/2026/2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Karimi-Malekabadi, F. et al.]]
+[[F. Karimi-Malekabadi]]
 
 ## Metadata
 

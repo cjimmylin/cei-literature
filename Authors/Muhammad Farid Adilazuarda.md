@@ -20,8 +20,12 @@ Muhammad Farid Adilazuarda is a PhD student at the University of Edinburgh, advi
 
 ## Papers in this Vault
 
-- [[2024-Adilazuarda-Towards Measuring and Modeling |Towards Measuring and Modeling \"Culture\" in LLMs]]
+
+- [[2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in|From Surveys to Narratives: Rethinking Cultural Value Adaptation in LLMs]] (First Author)
+- [[2024-Adilazuarda-Towards Measuring and Modeling |Towards Measuring and Modeling \]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Adilazuarda-Towards Measuring and Modeling *: Affiliation: Institute of Technology Kanpur, India
 [Additional context or contact information]

@@ -25,10 +25,13 @@ This research represents a creative intersection of political philosophy, instit
 
 ## Papers in this Vault
 
-- [[2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment|Democracy-in-Silico: Institutional Design as Alignment in AI-Governed Polities]]
+
+- [[2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment|Democracy-in-Silico: Institutional Design as Alignment]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment*:, Email: santosh@cyrionlabs.org
 Email: trisanth@cyrionlabs.org
 
 The Democracy-in-Silico work was submitted to arXiv on August 27, 2025, and represents innovative research combining simulation, political theory, and AI alignment. Co-authored with Santosh Patapati at Cyrion Labs.

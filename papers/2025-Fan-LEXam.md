@@ -9,7 +9,9 @@ type: preprint
 short_title: LEXam
 year: 2025
 first_author: "[[Yu Fan]]"
+last_author: "[[Yu Fan]]"
 authors: Yu Fan et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2505.12864"
 external_pdf: "https://arxiv.org/pdf/2505.12864.pdf"
 local_pdf: "[[PDFs/2025/2025-Fan-LEXam.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Yu Fan et al.]]
+[[Yu Fan]]
 
 ## Metadata
 

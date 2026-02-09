@@ -3,7 +3,7 @@ name: "Edmond Awad"
 title: "Lecturer / Senior Research Fellow"
 affiliation: "University of Exeter / University of Oxford"
 highest_degree: "PhD (inferred)"
-email: ""
+email: "irahwan@mit.edu"
 research_interests:
   - "Machine Ethics"
   - "Computational Social Science"
@@ -47,10 +47,11 @@ Awad led the design and development of Moral Machine in 2016, a website that gat
 
 ## Papers in this Vault
 
-- [[2018-Awad-The Moral Machine experiment|The Moral Machine experiment]]
+
+- [[2020-Awad-Crowdsourcing moral machines|Crowdsourcing moral machines]] (First Author)
+- [[2020-Awad-Universals and variations in moral decisions made|Universals and variations in moral decisions made]] (First Author)
+- [[2018-Awad-The Moral Machine experiment|The Moral Machine experiment]] (First Author)
 - [[2018-Noothigattu-A Voting-Based System for Ethical Decision Making|A Voting-Based System for Ethical Decision Making]]
-- [[2020-Awad-Crowdsourcing moral machines|Crowdsourcing moral machines]]
-- [[2020-Awad-Universals and variations in moral decisions made|Universals and variations in moral decisions made]]
 
 ## External Links & Profiles
 
@@ -60,4 +61,6 @@ Awad led the design and development of Moral Machine in 2016, a website that gat
 
 ## Notes
 
+
+- *From 2018-Awad-The Moral Machine experiment*: Affiliation: Faculty has made this article openly available, Email: irahwan@mit.edu
 Edmond Awad's Moral Machine project represents one of the largest-scale empirical investigations of moral preferences ever conducted, providing foundational data for understanding how cultural context shapes ethical judgments about AI systems.

@@ -1,6 +1,6 @@
 ---
 name: "Long Phan"
-affiliation: "University/Organization"
+affiliation: "Lababidi4, Lennart Justen3,4"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,10 +17,14 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
-- [[2024-Ren-Safetywashing|Safetywashing]]
+
 - [[2025-Mazeika-Utility Engineering|Utility Engineering]]
+- [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
+- [[2024-Mazeika-HarmBench|HarmBench]]
+- [[2024-Ren-Safetywashing|Safetywashing]]
 
 ## Notes
 
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 [Additional context or contact information]

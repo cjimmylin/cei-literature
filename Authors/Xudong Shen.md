@@ -1,6 +1,6 @@
 ---
 name: "Xudong Shen"
-affiliation: "University/Organization"
+affiliation: "Institute of Technology"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Mitchell-SHADES|SHADES]]
+- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 
 ## Notes
 
+
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 [Additional context or contact information]

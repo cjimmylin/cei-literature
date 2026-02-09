@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Multiple LLM Agents Debate for Equitable Cultural"
 year: 2025
 first_author: "[[Dayeon Ki]]"
+last_author: "[[Marine Carpuat]]"
 authors: "Dayeon Ki; Rachel Rudinger; Tianyi Zhou; Marine Carpuat"
 doi: 10.48550/arXiv.2505.24671
 url: "http://arxiv.org/abs/2505.24671"

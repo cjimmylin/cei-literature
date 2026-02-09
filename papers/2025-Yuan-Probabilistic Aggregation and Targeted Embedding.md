@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Probabilistic Aggregation and Targeted Embedding"
 year: 2025
 first_author: "[[Chenchen Yuan]]"
+last_author: "[[Gjergji Kasneci]]"
 authors: "Chenchen Yuan; Zheyu Zhang; Shuo Yang; Bardh Prenkaj; Gjergji Kasneci"
 doi: 10.48550/arXiv.2506.14625
 url: "http://arxiv.org/abs/2506.14625"

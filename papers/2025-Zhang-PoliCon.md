@@ -10,6 +10,7 @@ type: preprint
 short_title: PoliCon
 year: 2025
 first_author: "[[Zhaowei Zhang]]"
+last_author: "[[Yaodong Yang]]"
 authors: Zhaowei Zhang; Xiaobo Wang; Minghua Yi; Mengmeng Wang; Fengshuo Bai; Zilong Zheng; Yipeng Kang; Yaodong Yang
 url: "https://arxiv.org/abs/2505.19558"
 external_pdf: "https://arxiv.org/pdf/2505.19558.pdf"

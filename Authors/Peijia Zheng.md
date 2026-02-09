@@ -1,6 +1,6 @@
 ---
 name: "Peijia Zheng"
-affiliation: "University/Organization"
+affiliation: "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou, China"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Zeng-Quantifying Risk Propensities of Large Language|Quantifying Risk Propensities of Large Language]]
+
+- [[2024-Zeng-Quantifying Risk Propensities of Large Language|Quantifying Risk Propensities of Large Language]] (Last Author)
 
 ## Notes
 
+
+- *From 2024-Zeng-Quantifying Risk Propensities of Large Language*: Affiliation: School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou, China
 [Additional context or contact information]

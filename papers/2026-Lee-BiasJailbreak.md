@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: BiasJailbreak
 year: 2026
 first_author: "[[Isack Lee]]"
+last_author: "[[Haebin Seong Isack Lee]]"
 authors: Isack Lee, Haebin Seong
 url: "https://arxiv.org/abs/2410.13334"
 external_pdf: "https://arxiv.org/pdf/2410.13334.pdf"
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Isack Lee, Haebin Seong]]
+[[Hwaran Lee|Haebin Seong Isack Lee]]
 
 ## Metadata
 

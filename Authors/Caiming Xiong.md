@@ -46,10 +46,9 @@ Xiong is a highly influential researcher with over 72,000 citations. He has been
 - [Salesforce's AI Research Portfolio](https://research.salesforce.com/) - *Leadership of numerous high-impact projects in LLMs and CV.*
 
 ## Papers in this Vault
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
-
-- [[2021-Xiang-Enriching Author Profiles|Enriching Author Profiles]]
 
 ## External Links & Profiles
 
@@ -58,4 +57,6 @@ Xiong is a highly influential researcher with over 72,000 citations. He has been
 - [Personal Website](https://www.cmxiong.com/)
 
 ## Notes
+
+- *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
 Caiming's role as VP of Research makes him a key link between academic innovation and industry application, particularly in the "AI for Good" initiative at Salesforce.

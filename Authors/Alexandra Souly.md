@@ -3,7 +3,7 @@ name: "Alexandra Souly"
 title: "Researcher"
 affiliation: "UK AI Security Institute (AISI)"
 highest_degree: "Master's in Machine Learning, UCL"
-email: ""
+email: "alexandrasouly@gmail.com"
 research_interests:
   - "AI Security"
   - "Safety of Frontier LLMs"
@@ -45,9 +45,9 @@ She is a lead researcher in the UK government's efforts to characterize the risk
 - [AgentHarm: Benchmarking the Robustness of LLM Agents on Harmful Tasks](https://arxiv.org/abs/2401.00000) (2024) - *Critical work on agentic safety.*
 
 ## Papers in this Vault
-- [[2025-Andriushchenko-AgentHarm|AgentHarm]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2025-Andriushchenko-AgentHarm|AgentHarm]]
+- [[2024-Souly-StrongREJECT|StrongREJECT]] (First Author)
 
 ## External Links & Profiles
 
@@ -57,4 +57,6 @@ She is a lead researcher in the UK government's efforts to characterize the risk
 - [UK AISI Profile](https://www.aisi.gov.uk/)
 
 ## Notes
+
+- *From 2024-Souly-StrongREJECT*: Affiliation: Center for Human-Compatible AI, UC Berkeley, Email: alexandrasouly@gmail.com
 [Alexandra is a key technical expert in the UK's AI safety and security initiative.]

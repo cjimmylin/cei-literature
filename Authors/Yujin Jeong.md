@@ -20,8 +20,11 @@ Yujin Jeong is a PhD student at TU Darmstadt and member of the ELLIS program, su
 
 ## Papers in this Vault
 
-- [[2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction|Zero-shot Visual Commonsense Immorality Prediction]]
+
+- [[2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction|Zero-shot Visual Commonsense Immorality Prediction]] (First Author)
 
 ## Notes
 
+
+- *From 2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction*: Affiliation: University of California, Berkeley, Email: jinkyukim@korea.ac.kr
 [Additional context or contact information]

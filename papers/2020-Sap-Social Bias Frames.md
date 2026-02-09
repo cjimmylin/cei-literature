@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Social Bias Frames"
 year: 2025
 first_author: "[[Maarten Sap]]"
+last_author: "[[Yejin Choi]]"
 authors: "Maarten Sap; Saadia Gabriel; Lianhui Qin; Dan Jurafsky; Noah A. Smith; Yejin Choi"
 doi: 10.18653/v1/2020.acl-main.486
 url: "https://www.aclweb.org/anthology/2020.acl-main.486"

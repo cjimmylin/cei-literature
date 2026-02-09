@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Utility Engineering"
 year: 2025
 first_author: "[[Mantas Mazeika]]"
+last_author: "[[Dan Hendrycks]]"
 authors: "Mantas Mazeika; Xuwang Yin; Rishub Tamirisa; Jaehyuk Lim; Bruce W. Lee; Richard Ren; Long Phan; Norman Mu; Adam Khoja; Oliver Zhang; Dan Hendrycks"
 doi: 10.48550/arXiv.2502.08640
 url: "http://arxiv.org/abs/2502.08640"

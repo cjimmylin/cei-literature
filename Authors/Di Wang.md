@@ -29,7 +29,8 @@ Di Wang is an assistant professor at KAUST specializing in machine learning theo
 - Optimization
 
 ## Papers in this Vault
-- [[2025-Su-Understanding How Value Neurons Shape the|Understanding How Value Neurons Shape the]]
+
+- [[2025-Su-Understanding How Value Neurons Shape the|Understanding How Value Neurons Shape the]] (Last Author)
 
 ## Links
 - Website: https://cemse.kaust.edu.sa/ai/people/person/di-wang

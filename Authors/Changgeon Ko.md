@@ -1,9 +1,9 @@
 ---
 name: "Changgeon Ko"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute of Science and Technology (KAIST)"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "alice.oh@kaist.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for|RoleConflictBench A Benchmark of Role Conflict Scenarios for]]
+- [[2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for|RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity]]
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for*: Affiliation: Institute of Science and Technology (KAIST), Email: alice.oh@kaist.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

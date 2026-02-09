@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: AfriSenti
 year: 2025
 first_author: "[[Shamsuddeen Muhammad]]"
+last_author: "[[Stephen Arthur]]"
 authors: "Shamsuddeen Muhammad; Idris Abdulmumin; Abinew Ayele; Nedjma Ousidhoum; David Adelani; Seid Yimam; Ibrahim Ahmad; Meriem Beloucif; Saif Mohammad; Sebastian Ruder; Oumaima Hourrane; Alipio Jorge; Pavel Brazdil; Felermino Ali; Davis David; Salomey Osei; Bello Shehu-Bello; Falalu Lawan; Tajuddeen Gwadabe; Samuel Rutunda; Tadesse Belay; Wendimu Messelle; Hailu Balcha; Sisay Chala; Hagos Gebremichael; Bernard Opoku; Stephen Arthur"
 doi: 10.18653/v1/2023.emnlp-main.862
 url: "https://aclanthology.org/2023.emnlp-main.862/"

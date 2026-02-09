@@ -8,6 +8,7 @@ type: document
 short_title: "Personal Consultations Case Study Database"
 year: 2025
 first_author: [[Center]]
+last_author: "[[NCBC Bioethics]]"
 authors: "Center; NCBC Bioethics"
 url: "https://www.ncbcenter.org/case-study-database"
 national_ethnic_cultural: N/A

@@ -19,8 +19,11 @@ Stephanie Lin is a Research Scholar who has been affiliated with the University 
 
 ## Papers in this Vault
 
-- [[2022-Lin-TruthfulQA|TruthfulQA]]
+
+- [[2022-Lin-TruthfulQA|TruthfulQA]] (First Author)
 
 ## Notes
 
+
+- *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: owaine@gmail.com
 [Additional context or contact information]

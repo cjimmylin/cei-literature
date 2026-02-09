@@ -3,7 +3,7 @@ name: "Ajmal Mian"
 title: "Professor of Computer Science"
 affiliation: "The University of Western Australia (UWA)"
 highest_degree: "PhD, (Inferred)"
-email: ""
+email: "saeed.anwar@kfupm.edu.sa"
 research_interests:
   - "Computer Vision"
   - "3D Point Cloud Analysis"
@@ -47,9 +47,8 @@ He has published over 300 scientific papers and has been recognized as a highly 
 - [Deep Affinity Network for Multiple Object Tracking](https://arxiv.org/abs/1810.11760) (2018) - *Advanced research on video analysis and tracking.*
 
 ## Papers in this Vault
-- [[2024-Rahman-DefAn|DefAn]]
 
-- [[2025-Mian-Deep Learning for 3D Computer Vision|Deep Learning for 3D Computer Vision]]
+- [[2024-Rahman-DefAn|DefAn]] (Last Author)
 
 ## External Links & Profiles
 
@@ -60,4 +59,6 @@ He has published over 300 scientific papers and has been recognized as a highly 
 - [DBLP](https://dblp.org/pid/89/3784.html)
 
 ## Notes
+
+- *From 2024-Rahman-DefAn*: Affiliation: Department, KFUPM, Email: saeed.anwar@kfupm.edu.sa
 [Ajmal is one of Australia's most prominent AI researchers in computer vision.]

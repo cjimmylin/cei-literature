@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Cross-cultural dataset for the evolution of"
 year: 2025
 first_author: "[[Benjamin Grant Purzycki]]"
+last_author: "[[Joseph Henrich]]"
 authors: "Benjamin Grant Purzycki; Coren Apicella; Quentin D. Atkinson; Emma Cohen; Rita Anne McNamara; Aiyana K. Willard; Dimitris Xygalatas; Ara Norenzayan; Joseph Henrich"
 doi: 10.1038/sdata.2016.99
 url: "https://www.nature.com/articles/sdata201699"

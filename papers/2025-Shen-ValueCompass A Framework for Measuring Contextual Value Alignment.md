@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "ValueCompass: A Framework for Measuring Contextual Value Alignment Between Humans and LLMs"
 year: 2025
 first_author: "[[Hua Shen]]"
+last_author: "[[Yun Huang]]"
 authors: Hua Shen; Tiffany Knearem; Reshmi Ghosh; Yu-Ju Yang; Nicholas Clark; Tanushree Mitra; Yun Huang
 url: "https://arxiv.org/abs/2409.09586"
 external_pdf: "https://arxiv.org/pdf/2409.09586.pdf"

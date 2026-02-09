@@ -1,6 +1,6 @@
 ---
 name: "Yeongheon Lee"
-affiliation: "University/Organization"
+affiliation: "University of Pennsylvania"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Lee-When Prompting Fails to Sway|When Prompting Fails to Sway]]
 
 ## Notes
 
+
+- *From 2025-Lee-When Prompting Fails to Sway*: Affiliation: University of Pennsylvania, Email: brucelws@seas.upenn.edu
 [Additional context or contact information]

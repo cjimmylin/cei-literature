@@ -19,8 +19,11 @@ Co-founder/CEO of Walled AI. Completed PhD at Singapore University of Technology
 
 ## Papers in this Vault
 
-- [[2024-Bhardwaj-Language Models are Homer Simpson! Safety|Language Models are Homer Simpson! Safety]]
+
+- [[2024-Bhardwaj-Language Models are Homer Simpson! Safety|Language Models are Homer Simpson! Safety]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Bhardwaj-Language Models are Homer Simpson! Safety*: Affiliation: University of Technology and Design, 2 Nanyang Technological University
 [Additional context or contact information]

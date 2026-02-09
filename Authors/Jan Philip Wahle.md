@@ -1,6 +1,6 @@
 ---
 name: "Jan Philip Wahle"
-affiliation: "University/Organization"
+affiliation: "University of Göttingen, Germany; 2LKA NRW, Germany; 3University of Vienna, Germany"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Becker-Stay Focused|Stay Focused]]
 
 ## Notes
 
+
+- *From 2025-Becker-Stay Focused*: Affiliation: University of Göttingen, Germany; 2LKA NRW, Germany; 3University of Vienna, Germany, Email: jonas.becker@uni-goettingen.de
 [Additional context or contact information]

@@ -9,7 +9,9 @@ type: preprint
 short_title: FiSCo (Fine-grained Semantic Comparison)
 year: 2025
 first_author: "[[Weijie Xu]]"
+last_author: "[[Weijie Xu]]"
 authors: Weijie Xu et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2506.19028"
 external_pdf: "https://arxiv.org/pdf/2506.19028.pdf"
 local_pdf: "[[PDFs/2025/2025-Xu-FiSCo Fine-grained Semantic Comparison.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Weijie Xu et al.]]
+[[Weijie Xu]]
 
 ## Metadata
 

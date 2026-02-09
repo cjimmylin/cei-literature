@@ -8,6 +8,7 @@ type: preprint
 short_title: SB-Bench
 year: 2025
 first_author: "[[Vishal Narnaware]]"
+last_author: "[[Mubarak Shah]]"
 authors: "Vishal Narnaware; Ashmal Vayani; Rohit Gupta; Sirnam Swetha; Mubarak Shah"
 doi: 10.48550/arXiv.2502.08779
 tags: 

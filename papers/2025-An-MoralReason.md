@@ -9,6 +9,7 @@ type: preprint
 short_title: MoralReason
 year: 2025
 first_author: "[[Zhiyu An]]"
+last_author: "[[Du, Wan]]"
 authors: "[[An, Zhiyu]]; [[Du, Wan]]"
 doi: 10.48550/arXiv.2511.12271
 url: "https://arxiv.org/abs/2511.12271"
@@ -38,18 +39,7 @@ normative_ethics_benchmark: Yes
 
 ## Authors
 
-[[Zhiyu An]], [[Wan Du]]
-## Metadata
-
-**Authors:** An, Zhiyu; Du, Wan
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2511.12271](https://doi.org/10.48550/arXiv.2511.12271)
-
-**Publisher:** arXiv
+[[Zhiyu An|An, Zhiyu]], [[Wan Du|Du, Wan]]
 
 ## Links
 

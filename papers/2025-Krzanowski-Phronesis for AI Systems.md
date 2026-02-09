@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Phronesis for AI Systems"
 year: 2025
 first_author: "[[Roman Krzanowski]]"
+last_author: "[[Polak, Paweł]]"
 authors: "[[Krzanowski, Roman]]; [[Polak, Paweł]]"
 doi: N/A
 url: "https://www.researchgate.net/publication/381504958_Phronesis_for_AI_Systems_Conceptual_Foundations_Current_Research_and_Prospects"
@@ -35,16 +36,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Roman Krzanowski]], [[Paweł Polak]]
-## Metadata
-
-**Authors:** Krzanowski, Roman; Polak, Paweł
-
-**Year:** 2025
-
-**Type:** article
-
-**Publisher:** Pontifical University of John Paul II (presented at SPT 2025)
+[[Roman Krzanowski|Krzanowski, Roman]], [[Paweł Polak|Polak, Paweł]]
 
 ## Links
 

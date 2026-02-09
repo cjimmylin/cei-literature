@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Multimodal machine learning for deception"
 year: 2025
 first_author: "[[Gargi Joshi]]"
+last_author: "[[Ketan Kotecha]]"
 authors: "Gargi Joshi; Vaibhav Tasgaonkar; Aditya Deshpande; Aditya Desai; Bhavya Shah; Akshay Kushawaha; Aadith Sukumar; Kermi Kotecha; Saumit Kunder; Yoginii Waykole; Harsh Maheshwari; Abhijit Das; Shubhashi Gupta; Akanksha Subudhi; Priyanka Jain; N. K. Jain; Rahee Walambe; Ketan Kotecha"
 doi: 10.1038/s41598-025-92399-6
 url: "https://www.nature.com/articles/s41598-025-92399-6"

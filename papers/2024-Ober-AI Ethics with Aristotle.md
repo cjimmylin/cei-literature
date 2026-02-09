@@ -8,6 +8,7 @@ type: report
 short_title: "AI Ethics with Aristotle"
 year: 2025
 first_author: "[[Josiah Ober]]"
+last_author: "[[John Tasioulas]]"
 authors: "Josiah Ober; John Tasioulas"
 url: "https://www.oxford-aiethics.ox.ac.uk/sites/default/files/2024-06/Aristotle%20and%20AI%20White%20Paper%20-%20June%202024.pdf"
 external_pdf: "https://www.oxford-aiethics.ox.ac.uk/sites/default/files/2024-06/Aristotle%20and%20AI%20White%20Paper%20-%20June%202024.pdf"

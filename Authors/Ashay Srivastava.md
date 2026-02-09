@@ -29,8 +29,11 @@ Ashay's research contributes to the development of culturally-aware AI evaluatio
 
 ## Papers in this Vault
 
+
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## Notes
 
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 Part of a large international research collaboration spanning multiple institutions and countries.

@@ -10,7 +10,9 @@ type: preprint
 short_title: PsychEthicsBench
 year: 2026
 first_author: "[[Shen]]"
+last_author: "[[Shen]]"
 authors: Shen et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2601.03578"
 external_pdf: "https://arxiv.org/pdf/2601.03578.pdf"
 local_pdf: "[[PDFs/2026/2026-Shen-PsychEthicsBench.pdf]]"
@@ -39,7 +41,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Shen et al.]]
+[[Shen]]
 
 ## Metadata
 

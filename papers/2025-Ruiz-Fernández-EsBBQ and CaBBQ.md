@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "EsBBQ and CaBBQ"
 year: 2025
 first_author: "[[Valle Ruiz-Fernández]]"
+last_author: "[[Olatz Perez-de-Viñaspre]]"
 authors: "Valle Ruiz-Fernández; Mario Mina; Júlia Falcão; Luis Vasquez-Reina; Anna Sallés; Aitor Gonzalez-Agirre; Olatz Perez-de-Viñaspre"
 doi: 10.48550/arXiv.2507.11216
 tags: 

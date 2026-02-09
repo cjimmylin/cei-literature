@@ -21,8 +21,11 @@ Li Lin is a PhD student in the Department of Computer and Information Technology
 
 ## Papers in this Vault
 
-- [[2024-Lin-AI-Face|AI-Face]]
+
+- [[2024-Lin-AI-Face|AI-Face]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Lin-AI-Face*: Affiliation: University, West Lafayette, USA {lin1785, santosh2, wu2415, hu968}@purdue, Email: xwang56@albany.edu
 Research has garnered 307 citations and represents the first method to address fairness generalization in deepfake detection, working to mitigate biases that cause detection systems to underperform on certain demographics.

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Moral Stance Recognition and Polarity"
 year: 2025
 first_author: "[[Brazil University of São Paulo]]"
+last_author: "[[Ivandré Paraboni]]"
 authors: "Brazil University of São Paulo; Wesley Ramos Dos Santos; Ivandré Paraboni"
 doi: 10.26615/978-954-452-056-4_123
 url: "https://acl-bg.org/proceedings/2019/RANLP 2019/pdf/RANLP123.pdf"

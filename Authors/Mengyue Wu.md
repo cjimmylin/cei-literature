@@ -1,6 +1,6 @@
 ---
 name: "Mengyue Wu"
-affiliation: "University/Organization"
+affiliation: "Institute of Technology Ethics for Human Future"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Jin-MedEthicEval|MedEthicEval]]
+
+- [[2026-Jin-MedES Chinese Medical Ethics Scenarios|MedES (Chinese Medical Ethics Scenarios)]] (Last Author)
+- [[2025-Jin-MedEthicEval|MedEthicEval]] (Last Author)
+- [[2024-Lin-AI-Face|AI-Face]]
 
 ## Notes
 
+
+- *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: xuhanhui@fudan.edu.cn
 [Additional context or contact information]

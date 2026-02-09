@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: MoralBench
 year: 2025
 first_author: "[[Jianchao Ji]]"
+last_author: "[[Zhang, Yongfeng]]"
 authors: "[[Ji, Jianchao]]; [[Chen, Yutong]]; [[Jin, Mingyu]]; [[Xu, Wujiang]]; [[Hua, Wenyue]]; [[Zhang, Yongfeng]]"
 doi: 10.48550/arXiv.2406.04428
 url: "http://arxiv.org/abs/2406.04428"
@@ -41,18 +42,7 @@ DATE_ADDED: 20260207
 
 ## Authors
 
-[[Jianchao Ji]], [[Yutong Chen]], [[Mingyu Jin]], [[Wujiang Xu]], [[Wenyue Hua]], [[Yongfeng Zhang]]
-## Metadata
-
-**Authors:** Ji, Jianchao; Chen, Yutong; Jin, Mingyu; Xu, Wujiang; Hua, Wenyue; Zhang, Yongfeng
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2406.04428](https://doi.org/10.48550/arXiv.2406.04428)
-
-**Publisher:** arXiv
+[[Jianchao Ji|Ji, Jianchao]], [[Yutong Chen|Chen, Yutong]], [[Mingyu Jin|Jin, Mingyu]], [[Wujiang Xu|Xu, Wujiang]], [[Wenyue Hua|Hua, Wenyue]], [[Yongfeng Zhang|Zhang, Yongfeng]]
 
 ## Links
 

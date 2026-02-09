@@ -20,8 +20,8 @@ Director of the Flourishing Intelligence Program (FLIP) at University of Oxford 
 
 ## Papers in this Vault
 
-- [[2025-Laukkonen-Contemplative Artificial Intelligence|Contemplative Artificial Intelligence]]
-- [[2025-Laukkonen-The Artificial Wisdom of Model Alignment|The Artificial Wisdom of Model Alignment]]]
+
+- [[2025-Laukkonen-Contemplative Artificial Intelligence|Contemplative Artificial Intelligence]] (First Author)
 
 ## Notes
 

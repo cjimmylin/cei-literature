@@ -36,6 +36,7 @@ Crystal Qian is a researcher affiliated with Stanford University and Google. Her
 
 ## Papers in this Vault
 
+
 - [[2024-Garcia-The Moral Turing Test|The Moral Turing Test]]
 
 ## External Links & Profiles
@@ -47,4 +48,6 @@ Crystal Qian is a researcher affiliated with Stanford University and Google. Her
 
 ## Notes
 
+
+- *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: stefano.palminteri@ens.fr
 Crystal Qian's research on the Moral Turing Test addresses fundamental questions in AI alignment: Can AI systems make moral judgments that are indistinguishable from human judgments? And perhaps more importantly, do humans evaluate AI moral reasoning fairly? Her finding of anti-AI bias suggests that alignment challenges exist not just in the AI systems themselves but in how humans perceive and interact with them.

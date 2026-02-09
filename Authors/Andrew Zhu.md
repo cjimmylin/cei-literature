@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in|TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in]]
+- [[2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in|TrolleyBench -- Evaluating Emergent Moral Reasoning and Consistency in LLMs]] (First Author)
 
 ## External Links & Profiles
 

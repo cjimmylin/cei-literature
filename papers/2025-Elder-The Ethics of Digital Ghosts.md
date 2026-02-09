@@ -8,6 +8,7 @@ type: book
 short_title: "The Ethics of Digital Ghosts"
 year: 2025
 first_author: "[[Alexis M. Elder]]"
+last_author: "[[Alexis M. Elder]]"
 authors: "[[Elder, Alexis M.]]"
 doi: 10.4324/9781003632658
 isbn: 9781041058410
@@ -35,15 +36,6 @@ local_pdf: N/A
 ## Authors
 
 [[Alexis M. Elder]]
-## Metadata
-
-**Authors:** Elder, Alexis M.
-
-**Year:** 2025
-
-**Type:** book
-
-**Publisher:** Expected June 2025
 
 ## Links
 

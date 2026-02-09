@@ -33,6 +33,7 @@ Dr. Christopher Kello is Professor and Department Chair of Cognitive & Informati
 - Previously: Postdoctoral fellow at Carnegie Mellon (Center for Neural Basis of Cognition), faculty at George Mason University
 
 ## Papers in this Vault
+
 - [[2024-Rane-Concept Alignment|Concept Alignment]]
 
 ## External Links & Profiles
@@ -43,4 +44,6 @@ Dr. Christopher Kello is Professor and Department Chair of Cognitive & Informati
 - [Cognitive Mechanics Lab](http://cogmech.ucmerced.edu/)
 
 ## Notes
+
+- *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: srane@princeton.edu
 His work on cognitive science and concept alignment is relevant to AI ethics and alignment research. Understanding how human cognition processes concepts and meaning is foundational for developing AI systems that can align with human understanding and values.

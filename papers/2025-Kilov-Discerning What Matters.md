@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Discerning What Matters"
 year: 2025
 first_author: "[[Daniel Kilov]]"
+last_author: "[[Lazar, Seth]]"
 authors: "[[Kilov, Daniel]]; [[Hendy, Caroline]]; [[Guyot, Secil Yanik]]; [[Snoswell, Aaron J.]]; [[Lazar, Seth]]"
 doi: 10.48550/arXiv.2506.13082
 tags: 
@@ -39,18 +40,7 @@ DATE_ADDED: 20260207
 
 ## Authors
 
-[[Daniel Kilov]], [[Caroline Hendy]], [[Secil Yanik Guyot]], [[Aaron J. Snoswell]], [[Seth Lazar]]
-## Metadata
-
-**Authors:** Kilov, Daniel; Hendy, Caroline; Guyot, Secil Yanik; Snoswell, Aaron J.; Lazar, Seth
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2506.13082](https://doi.org/10.48550/arXiv.2506.13082)
-
-**Publisher:** arXiv
+[[Daniel Kilov|Kilov, Daniel]], [[Caroline Hendy|Hendy, Caroline]], [[Secil Yanik Guyot|Guyot, Secil Yanik]], [[Snoswell, Aaron J]], [[Seth Lazar|Lazar, Seth]]
 
 ## Links
 

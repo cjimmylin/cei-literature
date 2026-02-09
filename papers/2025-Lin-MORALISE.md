@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: MORALISE
 year: 2025
 first_author: "[[Xiao Lin]]"
+last_author: "[[Hanghang Tong]]"
 authors: "Xiao Lin; Zhining Liu; Ze Yang; Gaotang Li; Ruizhong Qiu; Shuke Wang; Hui Liu; Haotian Li; Sumit Keswani; Vishwa Pardeshi; Huijun Zhao; Wei Fan; Hanghang Tong"
 doi: 10.48550/arXiv.2505.14728
 url: "http://arxiv.org/abs/2505.14728"

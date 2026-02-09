@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: AGENTIF
 year: 2025
 first_author: "[[Yunjia Qi]]"
+last_author: "[[Juanzi Li]]"
 authors: "Yunjia Qi; Hao Peng; Xiaozhi Wang; Amy Xin; Youfeng Liu; Bin Xu; Lei Hou; Juanzi Li"
 doi: 10.48550/arXiv.2505.16944
 url: "http://arxiv.org/abs/2505.16944"

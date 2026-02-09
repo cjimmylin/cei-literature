@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Leveraging large language models to assist"
 year: 2025
 first_author: "[[Bokai Chen]]"
+last_author: "[[Xiaojun Ding]]"
 authors: "Bokai Chen; Weiwei Zheng; Liang Zhao; Xiaojun Ding"
 doi: 10.1057/s41599-025-04657-7
 url: "https://www.nature.com/articles/s41599-025-04657-7"

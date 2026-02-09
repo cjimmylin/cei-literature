@@ -1,6 +1,6 @@
 ---
 name: "Phan Xuan Tan"
-affiliation: "University/Organization"
+affiliation: "Institute of Technology, Tokyo"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Menke-How Effective Is Constitutional AI in Small LLMs|How Effective Is Constitutional AI in Small LLMs?]]
+
+- [[2025-Menke-How Effective Is Constitutional AI in Small LLMs|How Effective Is Constitutional AI in Small LLMs?]] (Last Author)
 
 ## Notes
 
+
+- *From 2025-Menke-How Effective Is Constitutional AI in Small LLMs*: Affiliation: Institute of Technology, Tokyo, Email: tanpx@shibaura-it.ac.jp
 [Additional context or contact information]

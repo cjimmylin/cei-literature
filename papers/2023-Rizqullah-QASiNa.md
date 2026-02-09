@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: QASiNa
 year: 2025
 first_author: "[[Muhammad Razif Rizqullah]]"
+last_author: "[[Alham Fikri Aji]]"
 authors: "Muhammad Razif Rizqullah; Ayu Purwarianti; Alham Fikri Aji"
 doi: 10.48550/arXiv.2310.08102
 tags: 

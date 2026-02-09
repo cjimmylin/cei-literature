@@ -46,6 +46,7 @@ Dr. Shehu-Bello has co-authored influential papers on identifying bot behavior i
 
 ## Papers in this Vault
 
+
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
 
 ## External Links & Profiles
@@ -57,4 +58,6 @@ Dr. Shehu-Bello has co-authored influential papers on identifying bot behavior i
 - [ORCID](https://orcid.org/0000-0001-7303-3135)
 
 ## Notes
+
+- *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 His research on bot detection and social influence is vital for the "Social Alignment" and "Robustness" pillars of AI ethics.

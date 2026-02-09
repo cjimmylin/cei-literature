@@ -6,6 +6,7 @@ type: journalArticle
 short_title: "Virtue and Narrative in AI Practices"
 year: 2025
 first_author: "[[Paul Hayes]]"
+last_author: "[[Ferrández, José Manuel]]"
 authors: "[[Hayes, Paul]]; [[Fitzpatrick, Noel]]; [[Ferrández, José Manuel]]"
 doi: 10.1007/s43681-024-00472-z
 url: "https://link.springer.com/article/10.1007/s43681-024-00472-z"
@@ -33,7 +34,7 @@ data_metrics: N/A
 
 ## Authors
 
-[[Paul Hayes]], [[Noel Fitzpatrick]], [[José Manuel Ferrández]]
+[[Hayes, Paul]], [[Fitzpatrick, Noel]], [[Ferrández, José Manuel]]
 
 ## Metadata
 

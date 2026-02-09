@@ -19,8 +19,11 @@ Hilla Merhav is a Product Manager for NLP Data at Webiks in Tel Aviv, Israel, wi
 
 ## Papers in this Vault
 
+
 - [[2023-Cohen-HeQ|HeQ]]
 
 ## Notes
 
+
+- *From 2023-Cohen-HeQ*: Affiliation: University, Ramat-Gan, Israel, Email: yoav.goldberg@gmail.com
 Her work on HeQ bridges an important gap in Hebrew NLP by delivering a machine reading comprehension dataset that properly handles morphological complexity.

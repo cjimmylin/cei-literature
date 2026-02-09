@@ -1,9 +1,9 @@
 ---
 name: "Kurt Gray"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Massachusetts Amherst"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "kurtgray@unc.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Dillion-AI Language Model Rivals Expert Ethicist|AI Language Model Rivals Expert Ethicist in Perceived Moral Expertise]]
+- [[2025-Dillion-AI Language Model Rivals Expert Ethicist|AI Language Model Rivals Expert Ethicist]] (Last Author)
+- [[2024-Wu-WorldValuesBench|WorldValuesBench]]
 
 ## External Links & Profiles
 
@@ -83,6 +83,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Wu-WorldValuesBench*: Affiliation: University of Massachusetts Amherst, Email: kurtgray@unc.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

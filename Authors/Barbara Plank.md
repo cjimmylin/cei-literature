@@ -3,7 +3,7 @@ name: "Barbara Plank"
 title: "Professor & Chair"
 affiliation: "LMU Munich & IT University of Copenhagen"
 highest_degree: "PhD in Computational Linguistics, University of Groningen (2011)"
-email: ""
+email: "b.plank@lmu.de"
 research_interests:
   - "Natural Language Processing"
   - "Computational Linguistics"
@@ -48,9 +48,8 @@ She has received numerous prestigious grants, including an ERC Consolidator Gran
 - [Robust Machine Learning for NLP](https://arxiv.org/abs/2201.00000) (2022) - *Focusing on inclusivity and fairness.*
 
 ## Papers in this Vault
-- [[2022-Baan-Stop Measuring Calibration When Humans Disagree|Stop Measuring Calibration When Humans Disagree]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2022-Baan-Stop Measuring Calibration When Humans Disagree|Stop Measuring Calibration When Humans Disagree]]
 
 ## External Links & Profiles
 
@@ -64,4 +63,6 @@ She has received numerous prestigious grants, including an ERC Consolidator Gran
 - [Twitter/X](https://twitter.com/barbaraplank)
 
 ## Notes
+
+- *From 2022-Baan-Stop Measuring Calibration When Humans Disagree*: Affiliation: University of Amsterdam, 2IT University of Copenhagen, 3MCML Munich, 4LMU Munich, Email: b.plank@lmu.de
 [Barbara is a world-class expert in the robustness and inclusivity of language models.]

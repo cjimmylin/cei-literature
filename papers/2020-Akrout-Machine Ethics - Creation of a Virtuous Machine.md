@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Machine Ethics - Creation of a Virtuous Machine"
 year: 2025
 first_author: "[[Mohamed Akrout]]"
+last_author: "[[Robert Steinbauer]]"
 authors: Mohamed Akrout; Robert Steinbauer
 doi: "arXiv:2002.00213"
 url: "https://arxiv.org/abs/2002.00213"

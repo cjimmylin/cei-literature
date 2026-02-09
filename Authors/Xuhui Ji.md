@@ -18,8 +18,11 @@ Note: The vault lists "Xuhui Ji" but the researcher found is "Xuhuai Ji" - a phy
 
 ## Papers in this Vault
 
-- [[2023-Ji-Commonsense Norm Bank|Commonsense Norm Bank]]
+
+- [[2023-Ji-Commonsense Norm Bank|Commonsense Norm Bank]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Ji-Commonsense Norm Bank*: Affiliation: School of Information Science and Technology, Hokkaido University, Email: araki@ist.hokudai.ac.jp
 [Additional context or contact information]

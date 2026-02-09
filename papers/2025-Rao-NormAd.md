@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: NormAd
 year: 2025
 first_author: "[[Abhinav Rao]]"
+last_author: "[[Maarten Sap]]"
 authors: "Abhinav Rao; Akhila Yerukola; Vishwa Shah; Katharina Reinecke; Maarten Sap"
 doi: 10.18653/v1/2025.naacl-long.120
 tags: 

@@ -1,6 +1,6 @@
 ---
 name: "Wenjie Yin"
-affiliation: "University/Organization"
+affiliation: "University of Oxford"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2023-Kirk-SemEval-2023 Task 10|SemEval-2023 Task 10]]
 
 ## Notes
 
+
+- *From 2023-Kirk-SemEval-2023 Task 10*: Affiliation: University of Oxford
 [Additional context or contact information]

@@ -1,6 +1,6 @@
 ---
 name: "Yang Zhang"
-affiliation: "University/Organization"
+affiliation: "Center for Information Security"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,10 +17,14 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Shen-“Do Anything Now”|“Do Anything Now”]]
+
+- [[2025-Shen-HateBench|HateBench]] (Last Author)
+- [[2025-Wang-PERM Psychology-grounded Empathetic Reward Modeling for Large|PERM: Psychology-grounded Empathetic Reward Modeling for Large Language Models]]
 - [[2024-Qiu-ProgressGym|ProgressGym]]
-- [[2025-Shen-HateBench|HateBench]]
+- [[2023-Shen-“Do Anything Now”|“Do Anything Now”]] (Last Author)
 
 ## Notes
 
+
+- *From 2023-Shen-“Do Anything Now”*: Affiliation: Center for Information Security
 [Additional context or contact information]

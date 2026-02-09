@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: McBE
 first_author: "[[Tian Lan]]"
+last_author: "[[Guanglai Gao]]"
 authors: "Tian Lan; Xiangdong Su; Xu Liu; Ruirui Wang; Ke Chang; Jiang Li; Guanglai Gao"
 url: "https://aclanthology.org/2025.findings-acl.313/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/MNNLABM6/Lan et al. - McBE A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models.pdf"

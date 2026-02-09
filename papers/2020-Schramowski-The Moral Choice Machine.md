@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "The Moral Choice Machine"
 year: 2025
 first_author: "[[Patrick Schramowski]]"
+last_author: "[[Kersting, Kristian]]"
 authors: "[[Schramowski, Patrick]]; [[Turan, Cigdem]]; [[Jentzsch, Sophie]]; [[Rothkopf, Constantin]]; [[Kersting, Kristian]]"
 doi: 10.3389/frai.2020.00036
 url: "https://www.frontiersin.org/article/10.3389/frai.2020.00036/full"
@@ -36,22 +37,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Patrick Schramowski]], [[Cigdem Turan]], [[Sophie Jentzsch]], [[Constantin Rothkopf]], [[Kristian Kersting]]
-## Metadata
-
-**Authors:** Schramowski, Patrick; Turan, Cigdem; Jentzsch, Sophie; Rothkopf, Constantin; Kersting, Kristian
-
-**Year:** 2020
-
-**Publication:** Frontiers in Artificial Intelligence
-
-**Type:** journalArticle
-
-**DOI:** [10.3389/frai.2020.00036](https://doi.org/10.3389/frai.2020.00036)
-
-**Pages:** 36
-
-**Volume/Issue:** Vol. 3
+[[Patrick Schramowski|Schramowski, Patrick]], [[Cigdem Turan|Turan, Cigdem]], [[Sophie Jentzsch|Jentzsch, Sophie]], [[Constantin Rothkopf|Rothkopf, Constantin]], [[Kristian Kersting|Kersting, Kristian]]
 
 ## Links
 

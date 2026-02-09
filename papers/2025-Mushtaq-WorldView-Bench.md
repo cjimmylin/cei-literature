@@ -8,6 +8,7 @@ type: document
 short_title: WorldView-Bench
 year: 2025
 first_author: "[[Abdullah Mushtaq]]"
+last_author: "[[Junaid Qadir]]"
 authors: "Abdullah Mushtaq; Imran Taj; Rafay Naeem; Ibrahim Ghaznavi; Junaid Qadir"
 url: "https://arxiv.org/abs/2505.09595"
 external_pdf: "https://arxiv.org/pdf/2505.09595.pdf"

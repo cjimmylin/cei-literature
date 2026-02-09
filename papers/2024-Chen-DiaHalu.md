@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: DiaHalu
 year: 2025
 first_author: "[[Kedi Chen]]"
+last_author: "[[Liang He]]"
 authors: "Kedi Chen; Qin Chen; Jie Zhou; Yishen He; Liang He"
 doi: 10.48550/arXiv.2403.00896
 url: "http://arxiv.org/abs/2403.00896"

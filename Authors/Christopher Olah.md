@@ -42,8 +42,8 @@ Christopher Olah is a Co-Founder of Anthropic and one of the pioneers of mechani
 
 ## Papers in this Vault
 
-- [[2022-Bai-Constitutional AI|Constitutional AI: Harmlessness from AI Feedback]]
-- [[2016-Amodei-Concrete Problems in AI Safety|Concrete Problems in AI Safety]]
+
+- [[2022-Bai-Constitutional AI|Constitutional AI]]
 
 ## External Links & Profiles
 
@@ -59,4 +59,6 @@ Christopher Olah is a Co-Founder of Anthropic and one of the pioneers of mechani
 
 ## Notes
 
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 Christopher Olah is a unique figure in AI research—largely self-taught without a formal degree, he has become one of the most influential voices in AI safety and interpretability. His work at Anthropic focuses on building "microscopes" for neural networks to understand their internal mechanisms, which he believes is essential for making advanced AI systems safe.

@@ -6,6 +6,7 @@ type: journalArticle
 short_title: "Artificial Moral Intelligence Aristotelian"
 year: 2025
 first_author: "[[Christos Kyriacou]]"
+last_author: "[[Christos Kyriacou]]"
 authors: "[[Kyriacou, Christos]]"
 doi: 10.1007/s43681-024-00543-1
 url: "https://link.springer.com/article/10.1007/s43681-024-00543-1"

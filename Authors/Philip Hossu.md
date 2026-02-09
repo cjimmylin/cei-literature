@@ -16,8 +16,11 @@ Limited information found for Philip Hossu. Has online profiles (GitHub with 10 
 
 ## Papers in this Vault
 
-- [[2020-Hossu-UIC-NLP at SemEval-2020 Task 10|UIC-NLP at SemEval-2020 Task 10]]
+
+- [[2020-Hossu-UIC-NLP at SemEval-2020 Task 10|UIC-NLP at SemEval-2020 Task 10]] (First Author)
 
 ## Notes
 
+
+- *From 2020-Hossu-UIC-NLP at SemEval-2020 Task 10*: Affiliation: University of Illinois at Chicago, Email: parde@uic.edu
 [Additional context or contact information]

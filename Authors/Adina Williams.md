@@ -45,10 +45,12 @@ She has been a central figure in the creation of large-scale NLP datasets and ev
 - [Holistic Evaluation of Language Models (HELM)](https://arxiv.org/abs/2211.09110) (2022) - *Co-author of a major framework for comprehensive model evaluation.*
 
 ## Papers in this Vault
-- [[2024-Gupta-Improving Model Evaluation using SMART Filtering|Improving Model Evaluation using SMART Filtering]]
 
-- [[2024-Ungless-ETHICS WHITEPAPER|ETHICS WHITEPAPER]]
-- [[2025-Williams-Wait, That’s Not What I Meant! Resolving Ambiguity|Wait, That’s Not What I Meant! Resolving Ambiguity]]
+- [[2025-Group-AILuminate|AILuminate]]
+- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
+- [[2024-Gupta-Improving Model Evaluation using SMART Filtering|Improving Model Evaluation using SMART Filtering]] (Last Author)
+- [[2024-Hall-Towards Geographic Inclusion in the Evaluation of Text-to-Image Models|Towards Geographic Inclusion in the Evaluation of Text-to-Image Models]]
+- [[2024-Kirk-The PRISM Alignment Project|The PRISM Alignment Project]]
 
 ## External Links & Profiles
 
@@ -63,4 +65,6 @@ She has been a central figure in the creation of large-scale NLP datasets and ev
 - [GitHub](https://github.com/adinawilliams)
 
 ## Notes
+
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 [Adina is a key bridge between NLP research at FAIR and the linguistics community.]

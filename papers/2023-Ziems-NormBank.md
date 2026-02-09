@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: NormBank
 year: 2025
 first_author: "[[Caleb Ziems]]"
+last_author: "[[Diyi Yang]]"
 authors: "Caleb Ziems; Jane Dwivedi-Yu; Yi-Chia Wang; Alon Halevy; Diyi Yang"
 doi: 10.48550/arXiv.2305.17008
 tags: 

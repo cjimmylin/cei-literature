@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Moral Alignment for LLM Agents"
 year: 2025
 first_author: "[[Elizaveta Tennant]]"
+last_author: "[[Mirco Musolesi]]"
 authors: "Elizaveta Tennant; Stephen Hailes; Mirco Musolesi"
 doi: 10.48550/arXiv.2410.01639
 url: "https://arxiv.org/abs/2410.01639"

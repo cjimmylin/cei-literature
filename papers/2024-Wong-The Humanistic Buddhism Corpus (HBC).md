@@ -8,6 +8,7 @@ type: document
 short_title: "The Humanistic Buddhism Corpus (HBC)"
 year: 2025
 first_author: "[[Youheng W. Wong]]"
+last_author: "[[Koyuncu, Erdem]]"
 authors: "[[Wong, Youheng W.]]; [[Parde, Natalie]]; [[Koyuncu, Erdem]]"
 url: "https://aclanthology.org/2024.lrec-main.737/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/6ATYMD6Y/2024 - The Humanistic Buddhism Corpus (HBC).pdf"
@@ -34,12 +35,7 @@ local_pdf: "[[PDFs/2024/2024-Wong-The Humanistic Buddhism Corpus (HBC).pdf]]"
 
 ## Authors
 
-[[Youheng W. Wong]], [[Natalie Parde]], [[Erdem Koyuncu]]
-## Metadata
-
-**Year:** 2024
-
-**Type:** document
+[[Wong, Youheng W]], [[Natalie Parde|Parde, Natalie]], [[Erdem Koyuncu|Koyuncu, Erdem]]
 
 ## Links
 

@@ -1,6 +1,6 @@
 ---
 name: "Wan Du"
-affiliation: "University/Organization"
+affiliation: "University of California, Merced"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-An-MoralReason|MoralReason]]
+
+- [[2025-An-MoralReason|MoralReason]] (Last Author)
 
 ## Notes
 
+
+- *From 2025-An-MoralReason*: Affiliation: University of California, Merced
 [Additional context or contact information]

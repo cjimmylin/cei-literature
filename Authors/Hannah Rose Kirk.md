@@ -24,7 +24,11 @@ Alongside academia, she collaborates with industry at Google, OpenAI, and Meta A
 
 ## Papers in this Vault
 
-- [[2024-Kirk-The PRISM Alignment Project|The PRISM Alignment Project]]
+
+- [[2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks|Measuring What Matters -- Construct Validity in LLM Benchmarks]]
+- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
+- [[2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs|Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs]]
+- [[2024-Kirk-The PRISM Alignment Project|The PRISM Alignment Project]] (First Author)
 - [[2024-Röttger-Political Compass or Spinning Arrow|Political Compass or Spinning Arrow?]]
 
 ## Links
@@ -36,4 +40,6 @@ Alongside academia, she collaborates with industry at Google, OpenAI, and Meta A
 
 ## Notes
 
+
+- *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
 Best Paper Award at NeurIPS 2024 (Datasets & Benchmarks track) for PRISM Alignment Dataset. Outstanding Paper Award at ACL 2024 for work on political bias in AI. Degrees from Oxford (MSc), Cambridge (BA), and Peking University (MA). Note: This is the same person as [[Hannah Kirk]].

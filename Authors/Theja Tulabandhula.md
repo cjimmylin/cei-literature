@@ -1,6 +1,6 @@
 ---
 name: "Theja Tulabandhula"
-affiliation: "University/Organization"
+affiliation: "labandhulaa"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Karra-Estimating the Personality of White-Box Language|Estimating the Personality of White-Box Language]]
+
+- [[2023-Karra-Estimating the Personality of White-Box Language|Estimating the Personality of White-Box Language]] (Last Author)
 
 ## Notes
 
+
+- *From 2023-Karra-Estimating the Personality of White-Box Language*: Affiliation: labandhulaa, Email: snguye65@uic.edu
 [Additional context or contact information]

@@ -18,8 +18,11 @@ Postdoctoral Researcher at the University of Copenhagen, Department of Computer 
 
 ## Papers in this Vault
 
-- [[2022-Chalkidis-FairLex|FairLex]]
+
+- [[2022-Chalkidis-FairLex|FairLex]] (First Author)
 
 ## Notes
 
+
+- *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk
 [Additional context or contact information]

@@ -31,11 +31,14 @@ Cheol Woo Kim is a PhD student in Computer Science and Operations Research at th
 
 ## Papers in this Vault
 
-- [[2025-Kim-Navigating the Social Welfare Frontier|Navigating the Social Welfare Frontier]]
+
+- [[2025-Kim-Navigating the Social Welfare Frontier|Navigating the Social Welfare Frontier]] (First Author)
 
 ## External Links & Profiles
 - [Google Scholar](https://scholar.google.com/scholar?q=Cheol+Woo+Kim)
 
 ## Notes
 
+
+- *From 2025-Kim-Navigating the Social Welfare Frontier*: Affiliation: University, Cambridge, USA, Email: cwkim@seas.harvard.edu
 Cheol Woo Kim's work brings rigorous economic frameworks to the problem of AI value alignment, moving beyond simple "single-reward" paradigms.

@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: "The FACTS Grounding Leaderboard"
 first_author: "[[Alon Jacovi]]"
+last_author: "[[Dipanjan Das]]"
 authors: "Alon Jacovi; Andrew Wang; Chris Alberti; Connie Tao; Jon Lipovetz; Kate Olszewska; Michelle Liu; Nate Keating; Adam Bloniarz; Carl Saroufim; Corey Fry; Dror Marcus; Gaurav Singh Tomar; James Swirhun; Jinwei Xing; Lily Wang; Madhu Gurumurthy; Michael Aaron; Moran Ambar; Rachana Fellinger; Rui Wang; Zizhao Zhang; Sasha Goldshtein; Dipanjan Das"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ELGTPL3J/Jacovi et al. - The FACTS Grounding Leaderboard Benchmarking LLMs’ Ability to Ground Responses to Long-Form Input.pdf"
 pdf_extract: "[[2025-Jacovi-The FACTS Grounding Leaderboard]]"

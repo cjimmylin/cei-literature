@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Culturally-Attuned Moral Machines"
 year: 2025
 first_author: "[[Nigini Oliveira]]"
+last_author: "[[Rajesh P. N. Rao]]"
 authors: "Nigini Oliveira; Jasmine Li; Koosha Khalvati; Rodolfo Cortes Barragan; Katharina Reinecke; Andrew N. Meltzoff; Rajesh P. N. Rao"
 doi: 10.48550/arXiv.2312.17479
 url: "http://arxiv.org/abs/2312.17479"

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Case Law Grounding"
 year: 2025
 first_author: "[[Quan Ze Chen]]"
+last_author: "[[Amy X. Zhang]]"
 authors: "Quan Ze Chen; Amy X. Zhang"
 doi: 10.48550/arXiv.2310.07019
 tags: 

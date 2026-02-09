@@ -1,6 +1,6 @@
 ---
 name: "Yuzhuo Bai"
-affiliation: "University/Organization"
+affiliation: "University, 3Tsinghua University"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Yao-Value Compass Benchmarks|Value Compass Benchmarks]]
 
 ## Notes
 
+
+- *From 2025-Yao-Value Compass Benchmarks*: Affiliation: University, 3Tsinghua University
 [Additional context or contact information]

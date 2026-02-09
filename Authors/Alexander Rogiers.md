@@ -3,7 +3,7 @@ name: "Alexander Rogiers"
 title: "Research Scientist"
 affiliation: "KU Leuven, Department of Electrical Engineering (ESAT-STADIUS)"
 highest_degree: "M.Sc."
-email: ""
+email: "maarten.buyl@ugent.be"
 research_interests:
   - "Machine Learning"
   - "AI Ideology"
@@ -32,7 +32,10 @@ Alexander's work centers on the ideological alignment of large language models. 
 
 ## Papers in this Vault
 
+
 - [[2024-Buyl-Large Language Models Reflect the Ideology of|Large Language Models Reflect the Ideology of]]
 
 ## Notes
+
+- *From 2024-Buyl-Large Language Models Reflect the Ideology of*: Affiliation: University, Belgium; 2Public University of Navarre, Spain, Email: maarten.buyl@ugent.be
 [Contributes to the understanding of how technical training processes result in normative social outputs.]

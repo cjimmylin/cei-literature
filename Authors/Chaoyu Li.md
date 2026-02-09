@@ -38,7 +38,8 @@ Co-author of "VideoA11y: Method and Dataset for Accessible Video Description," a
 
 ## Papers in this Vault
 
-- [[2025-Liu-VidHalluc|VidHalluc: Evaluating Temporal Hallucinations in MLLMs]]
+
+- [[2025-Liu-VidHalluc|VidHalluc]] (First Author)
 
 ## Links
 - Website: https://chaoyuli.com/

@@ -1,6 +1,6 @@
 ---
 name: "Tijl De Bie"
-affiliation: "University/Organization"
+affiliation: "University, Belgium; 2Public University of Navarre, Spain"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Buyl-Large Language Models Reflect the Ideology of|Large Language Models Reflect the Ideology of]]
+
+- [[2024-Buyl-Large Language Models Reflect the Ideology of|Large Language Models Reflect the Ideology of]] (Last Author)
+- [[2024-Defrance-ABCFair|ABCFair]] (Last Author)
 
 ## Notes
 
+
+- *From 2024-Buyl-Large Language Models Reflect the Ideology of*: Affiliation: University, Belgium; 2Public University of Navarre, Spain, Email: maarten.buyl@ugent.be
 [Additional context or contact information]

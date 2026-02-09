@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Virtue in the Machine"
 year: 2025
 first_author: "[[Alkis Gounaris]]"
+last_author: "[[Kolliniati, Maria-Artemis]]"
 authors: "[[Gounaris, Alkis]]; [[Kosteletos, George]]; [[Kolliniati, Maria-Artemis]]"
 doi: N/A
 url: "https://ejournals.epublishing.ekt.gr/index.php/Conatus/article/view/36423"
@@ -35,16 +36,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Alkis Gounaris]], [[George Kosteletos]], [[Maria-Artemis Kolliniati]]
-## Metadata
-
-**Authors:** Gounaris, Alkis; Kosteletos, George; Kolliniati, Maria-Artemis
-
-**Year:** 2025
-
-**Type:** journal article
-
-**Publisher:** Conatus – Journal of Philosophy
+[[Alkis Gounaris|Gounaris, Alkis]], [[George Kosteletos|Kosteletos, George]], [[Maria-Artemis Kolliniati|Kolliniati, Maria-Artemis]]
 
 ## Links
 

@@ -1,6 +1,6 @@
 ---
 name: "William Wang"
-affiliation: "University/Organization"
+affiliation: "University of Notre Dame"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]
+
 - [[2024-Huang-TrustLLM|TrustLLM]]
+- [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]
 
 ## Notes
 
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 [Additional context or contact information]

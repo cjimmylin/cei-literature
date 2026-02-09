@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Foundational Moral Values for AI Alignment"
 year: 2025
 first_author: "[[Betty Li Hou]]"
+last_author: "[[Brian Patrick Green]]"
 authors: "Betty Li Hou; Brian Patrick Green"
 doi: 10.48550/arXiv.2311.17017
 url: "http://arxiv.org/abs/2311.17017"

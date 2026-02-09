@@ -37,7 +37,8 @@ His research focuses on safe and controllable multimodal large language models a
 
 ## Papers in this Vault
 
-- [[2025-Sun-CASE-Bench|CASE-Bench]]
+
+- [[2025-Sun-CASE-Bench|CASE-Bench]] (First Author)
 
 ## Links
 
@@ -47,4 +48,6 @@ His research focuses on safe and controllable multimodal large language models a
 
 ## Notes
 
+
+- *From 2025-Sun-CASE-Bench*: Affiliation: Department of Engineering, University of Cambridge1
 According to Google Scholar, Sun has been cited over 1,800 times, with research areas in speech and language technology and conversational AI. His work on CASE-Bench contributes to understanding context-aware safety evaluation in large language models.

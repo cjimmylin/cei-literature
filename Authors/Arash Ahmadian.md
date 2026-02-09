@@ -30,8 +30,12 @@ Arash's research focuses on the intersection of multilingual NLP and AI alignmen
 
 ## Papers in this Vault
 
+
 - [[2024-Aakanksha-The Multilingual Alignment Prism|The Multilingual Alignment Prism]]
+- [[2024-Singhal-AyaRedTeaming|AyaRedTeaming]]
 
 ## Notes
 
+
+- *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures
 Collaborated with researchers from Cohere For AI and other organizations on foundational work in multilingual AI safety.

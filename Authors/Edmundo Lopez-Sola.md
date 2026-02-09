@@ -32,6 +32,7 @@ Edmundo Lopez-Sola is a researcher working at the intersection of contemplative 
 
 ## Papers in this Vault
 
+
 - [[2025-Laukkonen-Contemplative Artificial Intelligence|Contemplative Artificial Intelligence]]
 
 ## Links

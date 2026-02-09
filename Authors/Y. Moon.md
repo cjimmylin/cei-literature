@@ -18,8 +18,11 @@ Note: Based on search results, "Y. Moon" likely refers to Youngme Moon, the Dona
 
 ## Papers in this Vault
 
-- [[2024-Moon-BEAF|BEAF]]
+
+- [[2024-Moon-BEAF|BEAF]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea
 [Additional context or contact information]

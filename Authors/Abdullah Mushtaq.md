@@ -3,7 +3,7 @@ name: "Abdullah Mushtaq"
 title: "Researcher"
 affiliation: "Information Technology University (ITU) Lahore"
 highest_degree: "B.Sc. / Research Assistant"
-email: ""
+email: "jqadir@qu.edu.qa"
 research_interests:
   - "AI Ethics"
   - "Global Cultural Inclusivity"
@@ -31,7 +31,8 @@ Abdullah is a primary developer of WorldView-Bench, a benchmark designed to eval
 
 ## Papers in this Vault
 
-- [[2025-Mushtaq-WorldView-Bench|WorldView-Bench]]
+
+- [[2025-Mushtaq-WorldView-Bench|WorldView-Bench]] (First Author)
 
 ## External Links & Profiles
 
@@ -39,4 +40,6 @@ Abdullah is a primary developer of WorldView-Bench, a benchmark designed to eval
 - [WorldView-Bench Website](https://github.com/abdullah-mushtaq/WorldView-Bench)
 
 ## Notes
+
+- *From 2025-Mushtaq-WorldView-Bench*: Affiliation: Department of Computer Science, Email: jqadir@qu.edu.qa
 [Specializes in quantifying and mitigating cultural polarization in generative AI.]

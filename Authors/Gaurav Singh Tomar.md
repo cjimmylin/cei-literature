@@ -34,6 +34,7 @@ His research areas include Natural Language Processing, Language Technologies, a
 
 ## Papers in this Vault
 
+
 - [[2025-Jacovi-The FACTS Grounding Leaderboard|The FACTS Grounding Leaderboard]]
 
 ## External Links

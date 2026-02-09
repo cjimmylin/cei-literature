@@ -9,6 +9,7 @@ type: journalArticle
 short_title: "Large-scale moral machine experiment on large"
 year: 2025
 first_author: "[[Muhammad Shahrul Zaim Bin Ahmad]]"
+last_author: "[[Kazuhiro Takemoto]]"
 authors: "Muhammad Shahrul Zaim Bin Ahmad; Kazuhiro Takemoto"
 doi: 10.1371/journal.pone.0322776
 url: "https://dx.plos.org/10.1371/journal.pone.0322776"

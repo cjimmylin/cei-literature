@@ -1,6 +1,6 @@
 ---
 name: "Ying Lin"
-affiliation: "University/Organization"
+affiliation: "lable Preference Optimization - PDF Extract'"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+- [[2024-Liu-Controllable Preference Optimization|Controllable Preference Optimization]]
 - [[2020-Hoover-Moral Foundations Twitter Corpus|Moral Foundations Twitter Corpus]]
 
 ## Notes
 
+
+- *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: cgq22@mails.tsinghua.edu.cn
 [Additional context or contact information]

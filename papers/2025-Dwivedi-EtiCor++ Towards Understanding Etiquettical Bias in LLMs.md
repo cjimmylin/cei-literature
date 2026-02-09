@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "EtiCor++: Towards Understanding Etiquettical Bias in LLMs"
 year: 2025
 first_author: "[[Ashutosh Dwivedi]]"
+last_author: "[[Ashutosh Modi]]"
 authors: Ashutosh Dwivedi; Siddhant Shivdutt Singh; Ashutosh Modi
 url: "https://arxiv.org/abs/2506.08488"
 external_pdf: "https://arxiv.org/pdf/2506.08488.pdf"

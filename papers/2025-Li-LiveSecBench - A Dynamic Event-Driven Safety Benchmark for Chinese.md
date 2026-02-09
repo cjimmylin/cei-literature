@@ -9,7 +9,9 @@ type: preprint
 short_title: LiveSecBench -- A Dynamic Event-Driven Safety Benchmark for Chinese LLMs
 year: 2025
 first_author: "[[X. Li]]"
+last_author: "[[X. Li]]"
 authors: Li, X. et al
+authors_incomplete: true
 url: "https://arxiv.org/abs/2511.02366"
 external_pdf: "https://arxiv.org/pdf/2511.02366.pdf"
 local_pdf: "[[PDFs/2025/2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Li, X. et al]]
+[[X. Li]]
 
 ## Metadata
 

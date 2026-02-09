@@ -19,9 +19,12 @@ Marcos Zampieri is an Assistant Professor in the Department of Information Scien
 
 ## Papers in this Vault
 
-- [[2020-Kumar-Evaluating Aggression Identification in Social|Evaluating Aggression Identification in Social]]
-- [[2020-Zampieri-SemEval-2020 Task 12|SemEval-2020 Task 12]]
+
+- [[2020-Kumar-Evaluating Aggression Identification in Social|Evaluating Aggression Identification in Social]] (Last Author)
+- [[2020-Zampieri-SemEval-2020 Task 12|SemEval-2020 Task 12]] (First Author)
 
 ## Notes
 
+
+- *From 2020-Kumar-Evaluating Aggression Identification in Social*: Affiliation: University, Agra, 2Charles University, Faculty of Mathematics and Physics Institute of, Email: marcos.zampieri@rit.edu
 [Additional context or contact information]

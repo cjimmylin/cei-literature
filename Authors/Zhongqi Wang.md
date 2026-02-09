@@ -1,6 +1,6 @@
 ---
 name: "Zhongqi Wang"
-affiliation: "University/Organization"
+affiliation: "Laboratory of AI Safety of CAS, Institute of Computing"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Zhang-REVAL|REVAL]]
 
 ## Notes
 
+
+- *From 2025-Zhang-REVAL*: Affiliation: Laboratory of AI Safety of CAS, Institute of Computing, Email: zhangjie@ict.ac.cn
 [Additional context or contact information]

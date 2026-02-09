@@ -18,8 +18,11 @@ Omri Keren has research work in Hebrew NLP, including publications on "ParaShoot
 
 ## Papers in this Vault
 
-- [[2021-Keren-ParaShoot|ParaShoot]]
+
+- [[2021-Keren-ParaShoot|ParaShoot]] (First Author)
 
 ## Notes
 
+
+- *From 2021-Keren-ParaShoot*: Affiliation: School of Computer Science, Email: omrikeren@mail.tau.ac.il
 [Additional context or contact information]

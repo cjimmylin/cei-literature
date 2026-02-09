@@ -26,7 +26,8 @@ His work has been featured at venues including AAAI 2026, ICML 2025, and ICLR 20
 
 ## Papers in this Vault
 
-- [[2025-Chua-RabakBench|RabakBench]]
+
+- [[2025-Chua-RabakBench|RabakBench]] (First Author)
 
 ## External Links
 
@@ -36,4 +37,6 @@ His work has been featured at venues including AAAI 2026, ICML 2025, and ICLR 20
 
 ## Notes
 
+
+- *From 2025-Chua-RabakBench*: Affiliation: University of Technology and Design
 Based in Singapore. Research collaborators include Leanne Tan, Ziyu Ge, Roy Ka-Wei Lee, and Shaun Khoo.

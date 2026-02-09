@@ -3,7 +3,7 @@ name: "Alexandra Sasha Luccioni"
 title: "Research Scientist & Climate Lead"
 affiliation: "Hugging Face"
 highest_degree: "PhD in Cognitive Computing, Université du Québec à Montréal (2018)"
-email: ""
+email: "giada@hf.co"
 research_interests:
   - "AI Ethics"
   - "Climate Change & AI"
@@ -49,8 +49,9 @@ Named one of TIME's 100 most influential people in AI (2024), Sasha is a leading
 
 ## Papers in this Vault
 
+
+- [[2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI|Metaethical perspectives on ‘benchmarking’ AI]] (Last Author)
 - [[2024-Pistilli-CIVICS|CIVICS]]
-- [[2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI|Metaethical perspectives on ‘benchmarking’ AI]]
 
 ## External Links & Profiles
 
@@ -68,4 +69,6 @@ Named one of TIME's 100 most influential people in AI (2024), Sasha is a leading
 - [Twitter/X](https://twitter.com/sashaluccioni)
 
 ## Notes
+
+- *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co
 [Sasha is the foremost expert on the intersection of AI, ethics, and environmental sustainability.]

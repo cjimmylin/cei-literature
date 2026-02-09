@@ -20,8 +20,11 @@ Zhuang Chen is a researcher focusing on Natural Language Processing, particularl
 
 ## Papers in this Vault
 
-- [[2024-Chen-ToMBench|ToMBench]]
+
+- [[2024-Chen-ToMBench|ToMBench]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Chen-ToMBench*: Affiliation: University of Hong Kong, Email: zhchen-nlp@mail.tsinghua.edu.cn
 [Additional context or contact information]

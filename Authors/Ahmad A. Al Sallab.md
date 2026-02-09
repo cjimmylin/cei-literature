@@ -3,7 +3,7 @@ name: "Ahmad A. Al Sallab"
 title: "Senior Chief Engineer & Senior Expert"
 affiliation: "Valeo Group"
 highest_degree: "PhD (Inferred), Previously Intel / Cairo University"
-email: ""
+email: "abdullahtarek57@gmail.com"
 research_interests:
   - "Deep Learning"
   - "Autonomous Driving"
@@ -45,9 +45,8 @@ He is a pioneer in the application of deep reinforcement learning to autonomous 
 - [A Fusion-Based Deep Learning Architecture for Perception in Autonomous Vehicles](https://ieeexplore.ieee.org/document/10101010) (2021) - *Advanced research on multi-modal sensing.*
 
 ## Papers in this Vault
-- [[2021-Munshi-Towards an Automated Islamic Fatwa System|Towards an Automated Islamic Fatwa System]]
 
-- [[2021-ElSallab-Deep Learning for Automotive Applications|Deep Learning for Automotive Applications]]
+- [[2021-Munshi-Towards an Automated Islamic Fatwa System|Towards an Automated Islamic Fatwa System]]
 
 ## External Links & Profiles
 
@@ -58,4 +57,6 @@ He is a pioneer in the application of deep reinforcement learning to autonomous 
 - [DBLP](https://dblp.org/pid/159/3990.html)
 
 ## Notes
+
+- *From 2021-Munshi-Towards an Automated Islamic Fatwa System*: Affiliation: lable Online at www, Email: abdullahtarek57@gmail.com
 [Ahmad is a key industrial researcher at the intersection of deep learning and automotive safety.]

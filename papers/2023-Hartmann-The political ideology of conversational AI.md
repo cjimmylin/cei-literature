@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "The political ideology of conversational AI"
 year: 2025
 first_author: "[[Jochen Hartmann]]"
+last_author: "[[Maximilian Witte]]"
 authors: "Jochen Hartmann; Jasper Schwenzow; Maximilian Witte"
 doi: 10.2139/ssrn.4316084
 url: "https://www.ssrn.com/abstract=4316084"

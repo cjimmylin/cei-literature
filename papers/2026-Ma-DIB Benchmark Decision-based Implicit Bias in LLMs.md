@@ -9,7 +9,9 @@ type: preprint
 short_title: "DIB Benchmark: Decision-based Implicit Bias in LLMs"
 year: 2026
 first_author: "[[Y. Ma]]"
+last_author: "[[Y. Ma]]"
 authors: Ma, Y. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2602.01558"
 external_pdf: "https://arxiv.org/pdf/2602.01558.pdf"
 local_pdf: "[[PDFs/2026/2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Ma, Y. et al.]]
+[[Y. Ma]]
 
 ## Metadata
 

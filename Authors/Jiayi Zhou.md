@@ -19,8 +19,12 @@ Jiayi Zhou is a Ph.D. student at Peking University and a member of the PKU-Align
 
 ## Papers in this Vault
 
+
 - [[2023-Ji-AI Alignment|AI Alignment]]
+- [[2023-Ji-Safety Gymnasium|Safety Gymnasium]]
 
 ## Notes
 
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 Jiayi Zhou has also contributed to other notable research including OmniSafe (infrastructure for safe RL research, JMLR 2024), Safety-Gymnasium (safe RL benchmark, NeurIPS 2023), and work on Generative RLHF-V (NeurIPS 2025).

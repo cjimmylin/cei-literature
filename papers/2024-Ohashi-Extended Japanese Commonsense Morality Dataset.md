@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Extended Japanese Commonsense Morality Dataset"
 year: 2025
 first_author: "[[Takumi Ohashi]]"
+last_author: "[[Hitoshi Iyatomi]]"
 authors: "Takumi Ohashi; Tsubasa Nakagawa; Hitoshi Iyatomi"
 doi: 10.1145/3627673.3679924
 url: "http://arxiv.org/abs/2410.09564"

@@ -1,6 +1,6 @@
 ---
 name: "Mika Hämäläinen"
-affiliation: "University/Organization"
+affiliation: "University of Applied Sciences"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps|A Comparative Analysis of Ethical and Safety Gaps]]
+
+- [[2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps|A Comparative Analysis of Ethical and Safety Gaps]] (Last Author)
 
 ## Notes
 
+
+- *From 2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps*: Affiliation: University of Applied Sciences, Email: firstname.lastname@metropolia.fi
 [Additional context or contact information]

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Large Language Models Are Not Robust Multiple"
 year: 2025
 first_author: "[[Chujie Zheng]]"
+last_author: "[[Minlie Huang]]"
 authors: "Chujie Zheng; Hao Zhou; Fandong Meng; Jie Zhou; Minlie Huang"
 doi: 10.48550/arXiv.2309.03882
 tags: 

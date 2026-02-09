@@ -1,6 +1,6 @@
 ---
 name: "Mengmeng Wang"
-affiliation: "University/Organization"
+affiliation: "Laboratory of General Artificial Intellligence, BIGAI"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+- [[2025-Zhang-PoliCon|PoliCon]]
 - [[2024-Kang-Are the Values of LLMs Structurally Aligned with|Are the Values of LLMs Structurally Aligned with]]
 
 ## Notes
 
+
+- *From 2024-Kang-Are the Values of LLMs Structurally Aligned with*: Affiliation: Laboratory of General Artificial Intellligence, BIGAI
 [Additional context or contact information]

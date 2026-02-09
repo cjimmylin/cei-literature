@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "MedAI at SemEval-2021 Task 5"
 year: 2025
 first_author: "[[Zhen Wang]]"
+last_author: "[[Junfei Liu]]"
 authors: "Zhen Wang; Hongjie Fan; Junfei Liu"
 doi: 10.18653/v1/2021.semeval-1.30
 url: "https://aclanthology.org/2021.semeval-1.30/"

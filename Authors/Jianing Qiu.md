@@ -19,8 +19,11 @@ Assistant Professor at Mohamed bin Zayed University of Artificial Intelligence (
 
 ## Papers in this Vault
 
-- [[2023-Qiu-Large AI Models in Health Informatics|Large AI Models in Health Informatics]]
+
+- [[2023-Qiu-Large AI Models in Health Informatics|Large AI Models in Health Informatics]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: lin.3.li@kcl.ac.uk
 [Additional context or contact information]

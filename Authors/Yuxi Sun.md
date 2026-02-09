@@ -20,7 +20,8 @@ Yuxi Sun is a researcher at Hong Kong Baptist University focusing on explainable
 
 ## Papers in this Vault
 
-- [[2024-Sun-ClarityEthic|ClarityEthic]]
+
+- [[2024-Sun-ClarityEthic|ClarityEthic]] (First Author)
 
 ## Notes
 

@@ -8,6 +8,7 @@ type: document
 short_title: "What does ChatGPT return about human values?"
 year: 2025
 first_author: "[[Ronald Fischer]]"
+last_author: "[[Johannes A Karl]]"
 authors: "Ronald Fischer; Markus Luczak-Roesch; Johannes A Karl"
 url: "https://arxiv.org/abs/2304.03612"
 external_pdf: "https://arxiv.org/pdf/2304.03612.pdf"
@@ -55,7 +56,7 @@ There has been concern about ideological basis and possible discrimination in te
 
 ## Authors
 
-[[Ronald Fischer]], [[Markus Luczak-Roesch]], [[Johannes A Karl]]
+[[Ronald Fischer]], [[Markus Luczak-Roesch]], [[Johannes A. Karl|Johannes A Karl]]
 
 ## Notes
 

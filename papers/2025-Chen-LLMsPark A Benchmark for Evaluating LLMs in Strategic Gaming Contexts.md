@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "LLMsPark: A Benchmark for Evaluating LLMs in Strategic Gaming Contexts"
 year: 2025
 first_author: "[[Junhao Chen]]"
+last_author: "[[Hao Zhao]]"
 authors: Junhao Chen; Jingbo Sun; Xiang Li; Haidong Xin; Yuhao Xue; Yibin Xu; Hao Zhao
 url: "https://arxiv.org/abs/2509.16610"
 external_pdf: "https://arxiv.org/pdf/2509.16610.pdf"

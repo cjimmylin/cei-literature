@@ -18,8 +18,11 @@ Rauno Arike is affiliated with Aether (an independent LLM agent safety research 
 
 ## Papers in this Vault
 
-- [[2025-Arike-A Framework for Analyzing and Measuring Goal|A Framework for Analyzing and Measuring Goal]]
+
+- [[2025-Arike-A Framework for Analyzing and Measuring Goal|A Framework for Analyzing and Measuring Goal]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Arike-A Framework for Analyzing and Measuring Goal*:, Email: rauno.arike@gmail.com
 [Additional context or contact information]

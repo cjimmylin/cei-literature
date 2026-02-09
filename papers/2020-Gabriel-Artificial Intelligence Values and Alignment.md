@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Artificial Intelligence Values and Alignment"
 year: 2025
 first_author: "[[Iason Gabriel]]"
+last_author: "[[Iason Gabriel]]"
 authors: "Iason Gabriel"
 doi: 10.1007/s11023-020-09539-2
 url: "https://link.springer.com/article/10.1007/s11023-020-09539-2"

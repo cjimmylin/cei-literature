@@ -30,11 +30,14 @@ Alkis's research explores the philosophical foundations of AI ethics, specifical
 - (Various articles and book chapters on the Philosophy of Artificial Intelligence and Applied Ethics.)
 
 ## Papers in this Vault
-- [[2025-Neuman-PRIME Framework Convergent Ethics|PRIME Framework Convergent Ethics]]
+
+- [[2025-Gounaris-Virtue in the Machine|Virtue in the Machine]] (First Author)
 
 ## External Links & Profiles
 - [Personal Website](https://alkisgounaris.gr/en/about/)
 - [University Profile](https://leadership.philosophy.uoa.gr/staff/faculty/alkis_gounaris)
 
 ## Notes
+
+- *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
 [A leading voice in the Greek academic community for AI ethics and philosophy of mind.]

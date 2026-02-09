@@ -22,8 +22,11 @@ Before joining MSU as an Assistant Professor in 2016, he was a Research Scientis
 
 ## Papers in this Vault
 
+
 - [[2024-Huang-TrustLLM|TrustLLM]]
 
 ## Notes
 
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 Tang received the Tao Li Award at IEEE ICDM 2021, was named a "Rising Star" in data mining at KDD 2020, and received an NSF Faculty Early Career Development Award ($507,700) in 2019. He was appointed as an MSU Foundation Professor of Computer Science and Engineering. One of the leading researchers in trustworthy AI and graph machine learning.

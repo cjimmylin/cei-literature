@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Benchmarking, ethical alignment, and evaluation"
 year: 2025
 first_author: "[[Partha Pratim Ray]]"
+last_author: "[[Partha Pratim Ray]]"
 authors: "Partha Pratim Ray"
 doi: 10.1016/j.tbench.2023.100136
 url: "https://linkinghub.elsevier.com/retrieve/pii/S2772485923000534"

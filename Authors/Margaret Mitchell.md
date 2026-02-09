@@ -21,10 +21,13 @@ Margaret Mitchell is a Research Scientist and Chief Ethics Scientist at Hugging 
 
 ## Papers in this Vault
 
+
+- [[2025-Mitchell-SHADES|SHADES]] (First Author)
+- [[2024-Pistilli-CIVICS|CIVICS]] (Last Author)
 - [[2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI|A Human Rights-Based Approach to Responsible AI]]
-- [[2024-Pistilli-CIVICS|CIVICS]]
-- [[2025-Mitchell-SHADES|SHADES]]
 
 ## Notes
 
+
+- *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co
 [Additional context or contact information]

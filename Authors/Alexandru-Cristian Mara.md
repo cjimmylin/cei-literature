@@ -3,7 +3,7 @@ name: "Alexandru-Cristian Mara"
 title: "CEO & Co-founder"
 affiliation: "Nobl.ai / KU Leuven"
 highest_degree: "PhD"
-email: ""
+email: "maarten.buyl@ugent.be"
 research_interests:
   - "Network Science"
   - "Network Representation Learning"
@@ -31,7 +31,10 @@ Alexandru's research investigates the ideological and political dimensions of ar
 
 ## Papers in this Vault
 
+
 - [[2024-Buyl-Large Language Models Reflect the Ideology of|Large Language Models Reflect the Ideology of]]
 
 ## Notes
+
+- *From 2024-Buyl-Large Language Models Reflect the Ideology of*: Affiliation: University, Belgium; 2Public University of Navarre, Spain, Email: maarten.buyl@ugent.be
 [Founder of Nobl.ai, focusing on trust and safety in AI representations.]

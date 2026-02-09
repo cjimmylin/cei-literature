@@ -45,9 +45,8 @@ Boldt has developed "XferBench," a data-driven benchmark for evaluating emergent
 - [XferBench: a data-driven benchmark for emergent language](https://arxiv.org/abs/2205.00000) (2022) - *Proposed a new standard for evaluating agent communication.*
 
 ## Papers in this Vault
-- [[2021-Prabhumoye-Case Study|Case Study]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2021-Prabhumoye-Case Study|Case Study]]
 
 ## External Links & Profiles
 
@@ -56,4 +55,6 @@ Boldt has developed "XferBench," a data-driven benchmark for evaluating emergent
 - [Personal Website](https://brendonjboldt.xyz/)
 
 ## Notes
+
+- *From 2021-Prabhumoye-Case Study*: Affiliation: School of Computer Science
 His background in "Philosophy of Science" allows him to critically examine the validity and limitations of using simulations as a proxy for understanding human-like communication in AI.

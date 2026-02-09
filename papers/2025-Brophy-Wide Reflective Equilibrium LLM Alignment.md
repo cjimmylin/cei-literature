@@ -6,6 +6,7 @@ type: preprint
 short_title: "Wide Reflective Equilibrium LLM Alignment"
 year: 2025
 first_author: "[[Matthew Brophy]]"
+last_author: "[[Matthew Brophy]]"
 authors: "[[Brophy, Matthew]]"
 doi: N/A
 url: "https://arxiv.org/abs/2506.00415"
@@ -33,7 +34,7 @@ data_metrics: N/A
 
 ## Authors
 
-[[Matthew Brophy]]
+[[Matthew E. Brophy|Matthew Brophy]]
 
 ## Metadata
 

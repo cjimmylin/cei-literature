@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Large Language Model Alignment"
 year: 2025
 first_author: "[[Tianhao Shen]]"
+last_author: "[[Deyi Xiong]]"
 authors: "Tianhao Shen; Renren Jin; Yufei Huang; Chuang Liu; Weilong Dong; Zishan Guo; Xinwei Wu; Yan Liu; Deyi Xiong"
 doi: 10.48550/arXiv.2309.15025
 url: "http://arxiv.org/abs/2309.15025"

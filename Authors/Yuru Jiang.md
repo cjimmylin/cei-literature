@@ -20,8 +20,11 @@ Yuru Jiang is a researcher at Zhejiang University focusing on collective alignme
 
 ## Papers in this Vault
 
-- [[2025-Jiang-SPARTA ALIGNMENT|SPARTA ALIGNMENT]]
+
+- [[2025-Jiang-SPARTA ALIGNMENT|SPARTA ALIGNMENT]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Jiang-SPARTA ALIGNMENT*: Affiliation: University of Washington, Email: shangbin@cs.washington.edu
 [Additional context or contact information]

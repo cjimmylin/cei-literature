@@ -20,10 +20,14 @@ Kavel Rao is a Software Engineer at Jane Street. He received his M.S. in Compute
 
 ## Papers in this Vault
 
-- [[2023-Rao-What Makes it Ok to Set a Fire Iterative|What Makes it Ok to Set a Fire? Iterative]]
+
 - [[2024-Jiang-WildTeaming at Scale|WildTeaming at Scale]]
 - [[2024-Sorensen-Value Kaleidoscope|Value Kaleidoscope]]
+- [[2024-Team-WildGuard|WildGuard]]
+- [[2023-Rao-What Makes it Ok to Set a Fire Iterative|What Makes it Ok to Set a Fire? Iterative]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Jiang-WildTeaming at Scale*: Affiliation: University of Washington, Email: lwjiang@cs.washington.edu
 [Additional context or contact information]

@@ -1,6 +1,6 @@
 ---
 name: "Savvas Zannettou"
-affiliation: "University/Organization"
+affiliation: "Center for Information Security"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Shen-HateBench|HateBench]]
 
 ## Notes
 
+
+- *From 2025-Shen-HateBench*: Affiliation: Center for Information Security
 [Additional context or contact information]

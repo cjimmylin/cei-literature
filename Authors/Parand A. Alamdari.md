@@ -1,7 +1,7 @@
 ---
 name: "Parand A. Alamdari"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Toronto & Vector Institute"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
 - [[2024-Klassen-Pluralistic Alignment Over Time|Pluralistic Alignment Over Time]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Klassen-Pluralistic Alignment Over Time*: Affiliation: University of Toronto & Vector Institute
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

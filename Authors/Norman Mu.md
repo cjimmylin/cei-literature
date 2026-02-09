@@ -1,6 +1,6 @@
 ---
 name: "Norman Mu"
-affiliation: "University/Organization"
+affiliation: "centerforaisafety/HarmBench"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Mazeika-Utility Engineering|Utility Engineering]]
+- [[2024-Mazeika-HarmBench|HarmBench]]
 
 ## Notes
 
+
+- *From 2024-Mazeika-HarmBench*: Affiliation: centerforaisafety/HarmBench, Email: mantas3@illinois.edu
 [Additional context or contact information]

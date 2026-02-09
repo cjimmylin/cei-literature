@@ -31,7 +31,8 @@ Chris Emezue is a researcher and PhD student affiliated with Mila (Quebec AI Ins
 
 ## Papers in this Vault
 
-- [[2025-Emezue-NaijaVoices|NaijaVoices]]
+
+- [[2025-Emezue-NaijaVoices|NaijaVoices]] (First Author)
 
 ## External Links & Profiles
 - [Personal Website](https://chrisemezue.com/)
@@ -39,4 +40,6 @@ Chris Emezue is a researcher and PhD student affiliated with Mila (Quebec AI Ins
 
 ## Notes
 
+
+- *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 Chris Emezue is a leader in the grassroots movement to decolonize AI and build technologies that serve the African continent.

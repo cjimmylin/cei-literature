@@ -1,6 +1,6 @@
 ---
 name: "Scott Counts"
-affiliation: "University/Organization"
+affiliation: "University of Maryland, College Park"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Palta-Speaking the Right Language|Speaking the Right Language]]
+
+- [[2025-Palta-Speaking the Right Language|Speaking the Right Language]] (Last Author)
 
 ## Notes
 
+
+- *From 2025-Palta-Speaking the Right Language*: Affiliation: University of Maryland, College Park
 [Additional context or contact information]

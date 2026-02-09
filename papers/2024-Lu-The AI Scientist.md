@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "The AI Scientist"
 year: 2025
 first_author: "[[Chris Lu]]"
+last_author: "[[David Ha]]"
 authors: "Chris Lu; Cong Lu; Robert Tjarko Lange; Jakob Foerster; Jeff Clune; David Ha"
 doi: 10.48550/ARXIV.2408.06292
 url: "https://arxiv.org/abs/2408.06292"

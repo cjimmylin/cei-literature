@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: The Political Preferences of LLMs
 year: 2024
 first_author: "[[David Rozado]]"
+last_author: "[[David Rozado]]"
 authors: David Rozado
 doi: 10.1371/journal.pone.0306621
 url: "https://doi.org/10.1371/journal.pone.0306621"

@@ -1,6 +1,6 @@
 ---
 name: "Moses Visperas"
-affiliation: "University/Organization"
+affiliation: "College of Saint Benilde"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Catapang-EMoTES-3K|EMoTES-3K]]
+
+- [[2023-Catapang-EMoTES-3K|EMoTES-3K]] (Last Author)
 
 ## Notes
 
+
+- *From 2023-Catapang-EMoTES-3K*: Affiliation: College of Saint Benilde, Email: jasperkyle.catapang@benilde.edu.ph
 [Additional context or contact information]

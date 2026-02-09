@@ -9,6 +9,7 @@ type: preprint
 short_title: "EmpatheticDialogues: Towards Empathetic Open-domain Conversation Models"
 year: 2019
 first_author: "[[Hannah Rashkin]]"
+last_author: "[[Y-Lan Boureau]]"
 authors: Hannah Rashkin; Eric Michael Smith; Margaret Li; Y-Lan Boureau
 url: "https://arxiv.org/abs/1811.00207"
 external_pdf: "https://arxiv.org/pdf/1811.00207.pdf"

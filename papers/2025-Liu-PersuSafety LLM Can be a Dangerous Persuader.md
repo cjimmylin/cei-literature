@@ -9,6 +9,7 @@ type: preprint
 short_title: "PersuSafety: LLM Can be a Dangerous Persuader"
 year: 2025
 first_author: "[[Minqian Liu]]"
+last_author: "[[Lifu Huang]]"
 authors: Minqian Liu; Zhiyang Xu; Xinyi Zhang; Heajun An; Sarvech Qadir; Qi Zhang; Pamela J. Wisniewski; Jin-Hee Cho; Sang Won Lee; Ruoxi Jia; Lifu Huang
 url: "https://arxiv.org/abs/2504.10430"
 external_pdf: "https://arxiv.org/pdf/2504.10430.pdf"

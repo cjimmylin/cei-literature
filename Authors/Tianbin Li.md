@@ -1,6 +1,6 @@
 ---
 name: "Tianbin Li"
-affiliation: "University/Organization"
+affiliation: "University of Washington"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+- [[2025-Group-AILuminate|AILuminate]]
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
 
 ## Notes
 
+
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
 [Additional context or contact information]

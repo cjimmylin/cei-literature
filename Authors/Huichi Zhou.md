@@ -45,7 +45,8 @@ Zhou introduced the Multilingual Moral Reasoning Benchmark (MMRB), comprising 2,
 
 ## Papers in this Vault
 
-- [[2025-Zhou-Moral Reasoning Across Languages|Moral Reasoning Across Languages]]
+
+- [[2025-Zhou-Moral Reasoning Across Languages|Moral Reasoning Across Languages]] (First Author)
 
 ## External Links & Profiles
 
@@ -54,4 +55,6 @@ Zhou introduced the Multilingual Moral Reasoning Benchmark (MMRB), comprising 2,
 
 ## Notes
 
+
+- *From 2025-Zhou-Moral Reasoning Across Languages*: Affiliation: College London
 Huichi Zhou's work on the Multilingual Moral Reasoning Benchmark highlights important challenges in developing culturally fair and linguistically diverse AI systems, demonstrating the critical role of low-resource languages in multilingual AI alignment.

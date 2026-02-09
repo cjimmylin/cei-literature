@@ -9,6 +9,7 @@ type: preprint
 short_title: RedBench
 year: 2026
 first_author: "[[Quy-Anh Dang]]"
+last_author: "[[Truong-Son Hy]]"
 authors: Quy-Anh Dang, Chris Ngo, Truong-Son Hy
 url: "https://arxiv.org/abs/2601.03699"
 external_pdf: "https://arxiv.org/pdf/2601.03699.pdf"
@@ -37,7 +38,7 @@ data_metrics: "29,362 samples"
 
 ## Authors
 
-[[Quy-Anh Dang, Chris Ngo, Truong-Son Hy]]
+[[Quy-Anh Dang]], [[Chris Ngo]], [[Truong-Son Hy]]
 
 ## Metadata
 

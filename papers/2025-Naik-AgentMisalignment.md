@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: AgentMisalignment
 year: 2025
 first_author: "[[Akshat Naik]]"
+last_author: "[[Edward James Young]]"
 authors: "Akshat Naik; Patrick Quinn; Guillermo Bosch; Emma Gouné; Francisco Javier Campos Zabala; Jason Ross Brown; Edward James Young"
 doi: 10.48550/arXiv.2506.04018
 url: "http://arxiv.org/abs/2506.04018"

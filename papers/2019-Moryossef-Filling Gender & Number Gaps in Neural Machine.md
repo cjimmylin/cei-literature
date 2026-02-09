@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Filling Gender & Number Gaps in Neural Machine"
 year: 2025
 first_author: "[[Amit Moryossef]]"
+last_author: "[[Yoav Goldberg]]"
 authors: "Amit Moryossef; Roee Aharoni; Yoav Goldberg"
 doi: 10.18653/v1/W19-3807
 url: "https://www.aclweb.org/anthology/W19-3807"

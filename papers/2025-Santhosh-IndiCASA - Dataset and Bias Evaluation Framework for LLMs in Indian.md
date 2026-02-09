@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: IndiCASA -- Dataset and Bias Evaluation Framework for LLMs in Indian Context
 year: 2025
 first_author: "[[Santhosh G S]]"
+last_author: "[[Sriraam Natarajan]]"
 authors: Santhosh G S; Akshay Govind S; Gokul S Krishnan; Balaraman Ravindran; Sriraam Natarajan
 url: "https://arxiv.org/abs/2510.02742"
 external_pdf: "https://arxiv.org/pdf/2510.02742.pdf"

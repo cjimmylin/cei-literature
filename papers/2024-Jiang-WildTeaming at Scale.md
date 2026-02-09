@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "WildTeaming at Scale"
 year: 2025
 first_author: "[[Liwei Jiang]]"
+last_author: "[[Nouha Dziri]]"
 authors: "Liwei Jiang; Kavel Rao; Seungju Han; Allyson Ettinger; Faeze Brahman; Sachin Kumar; Niloofar Mireshghallah; Ximing Lu; Maarten Sap; Yejin Choi; Nouha Dziri"
 doi: 10.48550/arXiv.2406.18510
 url: "https://arxiv.org/abs/2406.18510"

@@ -25,7 +25,8 @@ Stanford University
 
 ## Papers in this Vault
 
-- [[2023-Nie-MoCa|MoCa: Measuring Human-Language Model Alignment on Causal and Moral Judgment Tasks]]
+
+- [[2023-Nie-MoCa|MoCa]]
 
 ## Notes
 

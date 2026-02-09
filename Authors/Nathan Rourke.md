@@ -22,3 +22,7 @@ Unable to determine - multiple individuals with this name
 - Website:
 - Google Scholar:
 - Semantic Scholar:
+
+## Papers in this Vault
+
+- [[2025-Rourke-Mind Crime|Mind Crime]] (First Author)

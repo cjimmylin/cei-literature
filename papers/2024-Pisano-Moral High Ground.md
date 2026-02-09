@@ -8,6 +8,7 @@ type: document
 short_title: "Moral High Ground"
 year: 2025
 first_author: "[[Matthew Pisano]]"
+last_author: "[[Kush R. Varshney]]"
 authors: "Matthew Pisano; Keerthiram Murugesan; Lamogha Chiazor; Lan Hoang; Karthikeyan Natesan Ramamurthy; Kush R. Varshney"
 url: "https://openreview.net/forum?id=11nZWTg0mS"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/7KJT72S3/8903_Moral_High_Ground_A_text_.pdf"

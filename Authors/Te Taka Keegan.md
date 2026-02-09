@@ -1,6 +1,6 @@
 ---
 name: "Te Taka Keegan"
-affiliation: "University/Organization"
+affiliation: "lable at https://"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2022-Trye-Harnessing Indigenous Tweets|Harnessing Indigenous Tweets]]
 
 ## Notes
 
+
+- *From 2022-Trye-Harnessing Indigenous Tweets*: Affiliation: lable at https://, Email: dtrye@waikato.ac.nz
 [Additional context or contact information]

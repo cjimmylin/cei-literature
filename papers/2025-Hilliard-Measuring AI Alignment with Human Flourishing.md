@@ -9,6 +9,7 @@ type: preprint
 short_title: "Measuring AI Alignment with Human Flourishing"
 year: 2025
 first_author: "[[Elizabeth Hilliard]]"
+last_author: "[[Chavez, Omar]]"
 authors: "[[Hilliard, Elizabeth]]; [[Jagadeesh, Akshaya]]; [[Cook, Alex]]; [[Billings, Steele]]; [[Skytland, Nicholas]]; [[Llewellyn, Alicia]]; [[Paull, Jackson]]; [[Paull, Nathan]]; [[Kurylo, Nolan]]; [[Nesbitt, Keatra]]; [[Gruenewald, Robert]]; [[Jantzi, Anthony]]; [[Chavez, Omar]]"
 doi: 10.48550/arXiv.2507.07787
 url: "https://arxiv.org/abs/2507.07787"
@@ -38,18 +39,7 @@ normative_ethics_benchmark: Yes
 
 ## Authors
 
-[[Elizabeth Hilliard]], [[Akshaya Jagadeesh]], [[Alex Cook]], [[Steele Billings]], [[Nicholas Skytland]], [[Alicia Llewellyn]], [[Jackson Paull]], [[Nathan Paull]], [[Nolan Kurylo]], [[Keatra Nesbitt]], [[Robert Gruenewald]], [[Anthony Jantzi]], [[Omar Chavez]]
-## Metadata
-
-**Authors:** Hilliard, Elizabeth; Jagadeesh, Akshaya; Cook, Alex; Billings, Steele; Skytland, Nicholas; Llewellyn, Alicia; Paull, Jackson; Paull, Nathan; Kurylo, Nolan; Nesbitt, Keatra; Gruenewald, Robert; Jantzi, Anthony; Chavez, Omar
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2507.07787](https://doi.org/10.48550/arXiv.2507.07787)
-
-**Publisher:** arXiv
+[[Elizabeth Hilliard|Hilliard, Elizabeth]], [[Akshaya Jagadeesh|Jagadeesh, Akshaya]], [[Alex Cook|Cook, Alex]], [[Steele Billings|Billings, Steele]], [[Nicholas Skytland|Skytland, Nicholas]], [[Alicia Llewellyn|Llewellyn, Alicia]], [[Jackson Paull|Paull, Jackson]], [[Nathan Paull|Paull, Nathan]], [[Nolan Kurylo|Kurylo, Nolan]], [[Keatra Nesbitt|Nesbitt, Keatra]], [[Robert Gruenewald|Gruenewald, Robert]], [[Anthony Jantzi|Jantzi, Anthony]], [[Omar Chavez|Chavez, Omar]]
 
 ## Links
 

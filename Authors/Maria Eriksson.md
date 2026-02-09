@@ -1,9 +1,9 @@
 ---
 name: "Maria Eriksson"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Centre (JRC)"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "joao.vinagre@ec.europa.eu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review|Can We Trust AI Benchmarks An Interdisciplinary Review]]
+- [[2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review|Can We Trust AI Benchmarks? An Interdisciplinary Review]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review*: Affiliation: Centre (JRC), Email: joao.vinagre@ec.europa.eu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

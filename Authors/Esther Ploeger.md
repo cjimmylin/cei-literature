@@ -33,6 +33,7 @@ Contributed to the SHADES benchmark for evaluating social biases across multiple
 
 ## Papers in this Vault
 
+
 - [[2025-Mitchell-SHADES|SHADES]]
 
 ## External Links & Profiles
@@ -41,4 +42,6 @@ Contributed to the SHADES benchmark for evaluating social biases across multiple
 
 ## Notes
 
+
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 Researcher focused on ensuring NLP bias evaluation methods work across languages, not just English.

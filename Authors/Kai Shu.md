@@ -17,10 +17,14 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Huang-TrustLLM|TrustLLM]]
-- [[2025-Huang-Model Editing as a Double-Edged Sword|Model Editing as a Double-Edged Sword]]
+
+- [[2025-Huang-Model Editing as a Double-Edged Sword|Model Editing as a Double-Edged Sword]] (Last Author)
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
+- [[2025-Zheng-SYCON Bench|SYCON Bench]]
+- [[2024-Huang-TrustLLM|TrustLLM]]
 
 ## Notes
 
+
+- *From 2025-Huang-Model Editing as a Double-Edged Sword*:, Email: apayani@cisco.com
 [Additional context or contact information]

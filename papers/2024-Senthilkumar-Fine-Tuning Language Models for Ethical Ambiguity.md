@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Fine-Tuning Language Models for Ethical Ambiguity"
 year: 2025
 first_author: "[[Pranav Senthilkumar]]"
+last_author: "[[Kevin Zhu]]"
 authors: "Pranav Senthilkumar; Visshwa Balasubramanian; Prisha Jain; Aneesa Maity; Jonathan Lu; Kevin Zhu"
 doi: 10.48550/arXiv.2410.07826
 tags: 

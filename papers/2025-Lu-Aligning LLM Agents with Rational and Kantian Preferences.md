@@ -9,6 +9,7 @@ type: preprint
 short_title: "Aligning LLM Agents with Rational and Kantian Preferences"
 year: 2025
 first_author: "[[Wei Lu]]"
+last_author: "[[Christian B. Hansen]]"
 authors: "[[Lu, Wei]], [[Chen, Daniel L.]], [[Hansen, Christian B.]]"
 doi: 10.48550/arXiv.2507.20796
 tags: "Computer Science - Machine Learning"
@@ -40,20 +41,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Wei Lu]], [[Daniel L. Chen]], [[Christian B. Hansen]]
-## Metadata
-
-**Authors:** Lu, Wei; Chen, Daniel L.; Hansen, Christian B.
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2507.20796](https://doi.org/10.48550/arXiv.2507.20796)
-
-**Publisher:** arXiv
-
-**Affiliations:** Wei Lu - Zicklin School of Business, CUNY Baruch College; Daniel L. Chen - Toulouse School of Economics; Christian B. Hansen - Booth School of Business, University of Chicago
+[[Wei Lu]], [[Daniel L Chen|Daniel L. Chen]], [[Christian B. Hansen]]
 
 ## Links
 

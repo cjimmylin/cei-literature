@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Legal Minds, Algorithmic Decisions"
 year: 2025
 first_author: "[[Camilla Bignotti]]"
+last_author: "[[Carolina Camassa]]"
 authors: "Camilla Bignotti; Carolina Camassa"
 doi: 10.48550/arXiv.2407.19760
 url: "http://arxiv.org/abs/2407.19760"

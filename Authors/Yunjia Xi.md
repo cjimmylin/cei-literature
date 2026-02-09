@@ -20,8 +20,11 @@ Yunjia Xi is a researcher at Shanghai Jiao Tong University working on agentic in
 
 ## Papers in this Vault
 
-- [[2025-Xi-InfoDeepSeek|InfoDeepSeek]]
+
+- [[2025-Xi-InfoDeepSeek|InfoDeepSeek]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Xi-InfoDeepSeek*: Affiliation: University, 2Huawei Noah’s Ark Lab
 [Additional context or contact information]

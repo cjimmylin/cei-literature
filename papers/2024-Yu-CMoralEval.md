@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: CMoralEval
 year: 2025
 first_author: "[[Linhao Yu]]"
+last_author: "[[Xiong, Deyi]]"
 authors: "[[Yu, Linhao]]; [[Leng, Yongqi]]; [[Huang, Yufei]]; [[Wu, Shang]]; [[Liu, Haixin]]; [[Ji, Xinmeng]]; [[Zhao, Jiahui]]; [[Song, Jinwang]]; [[Cui, Tingting]]; [[Cheng, Xiaoqing]]; [[Liutao, Liutao]]; [[Xiong, Deyi]]"
 doi: 10.18653/v1/2024.findings-acl.703
 url: "https://aclanthology.org/2024.findings-acl.703/"
@@ -39,22 +40,7 @@ normative_ethics_benchmark: Yes
 
 ## Authors
 
-[[Linhao Yu]], [[Yongqi Leng]], [[Yufei Huang]], [[Shang Wu]], [[Haixin Liu]], [[Xinmeng Ji]], [[Jiahui Zhao]], [[Jinwang Song]], [[Tingting Cui]], [[Xiaoqing Cheng]], [[Liutao Liutao]], [[Deyi Xiong]]
-## Metadata
-
-**Authors:** Yu, Linhao; Leng, Yongqi; Huang, Yufei; Wu, Shang; Liu, Haixin; Ji, Xinmeng; Zhao, Jiahui; Song, Jinwang; Cui, Tingting; Cheng, Xiaoqing; Liutao, Liutao; Xiong, Deyi
-
-**Year:** 2024
-
-**Publication:** Findings of the Association for Computational Linguistics ACL 2024
-
-**Type:** conferencePaper
-
-**DOI:** [10.18653/v1/2024.findings-acl.703](https://doi.org/10.18653/v1/2024.findings-acl.703)
-
-**Pages:** 11817-11837
-
-**Publisher:** Association for Computational Linguistics
+[[Linhao Yu|Yu, Linhao]], [[Yongqi Leng|Leng, Yongqi]], [[Yufei Huang|Huang, Yufei]], [[Shang Wu|Wu, Shang]], [[Haixin Liu|Liu, Haixin]], [[Xinmeng Ji|Ji, Xinmeng]], [[Jiahui Zhao|Zhao, Jiahui]], [[Jinwang Song|Song, Jinwang]], [[Tingting Cui|Cui, Tingting]], [[Xiaoqing Cheng|Cheng, Xiaoqing]], [[Liutao Liutao|Liutao, Liutao]], [[Deyi Xiong|Xiong, Deyi]]
 
 ## Links
 

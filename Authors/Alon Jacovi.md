@@ -30,7 +30,8 @@ Alon's work addresses the "crisis of trust" in AI interpretability. He has chall
 - [Towards Faithfully Interpretable NLP Systems: How can we tell if an explanation is faithful?](https://arxiv.org/abs/2004.03685) (2020) - *Highly influential critical review of XAI methodologies.*
 
 ## Papers in this Vault
-- [[2021-Jacovi-Contrastive Explanations for Model Interpretability|Contrastive Explanations for Model Interpretability]]
+
+- [[2025-Jacovi-The FACTS Grounding Leaderboard|The FACTS Grounding Leaderboard]] (First Author)
 
 ## External Links & Profiles
 - [Personal Website](https://alonjacovi.com/)

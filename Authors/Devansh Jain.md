@@ -32,7 +32,8 @@ Devansh Jain is a PhD student researching multilingual NLP and language model sa
 - "PolygloToxicityPrompts: Multilingual Evaluation of Neural Toxic Degeneration in Large Language Models" (2024)
 
 ## Papers in this Vault
-- [[2024-Jain-PolygloToxicityPrompts|PolygloToxicityPrompts]]
+
+- [[2024-Jain-PolygloToxicityPrompts|PolygloToxicityPrompts]] (First Author)
 
 ## Links
 - Semantic Scholar: https://www.semanticscholar.org/author/Devansh-Jain/2280688096

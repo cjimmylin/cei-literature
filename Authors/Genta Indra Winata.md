@@ -32,7 +32,8 @@ His work addresses the reality that in multilingual communities, people use two 
 
 ## Papers in this Vault
 
-- [[2025-Wiyono-IndoPref|IndoPref]]
+
+- [[2025-Wiyono-IndoPref|IndoPref]] (Last Author)
 
 ## External Links
 
@@ -42,4 +43,6 @@ His work addresses the reality that in multilingual communities, people use two 
 
 ## Notes
 
+
+- *From 2025-Wiyono-IndoPref*:, Email: vanessarebecca29@gmail.com
 Active in Southeast Asian NLP community. Maintains curated lists of Indonesian NLP resources.

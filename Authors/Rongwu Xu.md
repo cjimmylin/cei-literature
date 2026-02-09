@@ -19,8 +19,11 @@ PhD student at Allen School of Computer Science & Engineering at University of W
 
 ## Papers in this Vault
 
-- [[2024-Xu-Course-Correction|Course-Correction]]
+
+- [[2024-Xu-Course-Correction|Course-Correction]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 [Additional context or contact information]

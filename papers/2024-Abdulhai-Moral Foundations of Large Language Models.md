@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Moral Foundations of Large Language Models"
 year: 2025
 first_author: "[[Marwa Abdulhai]]"
+last_author: "[[Natasha Jaques]]"
 authors: "Marwa Abdulhai; Gregory Serapio-García; Clement Crepy; Daria Valter; John Canny; Natasha Jaques"
 doi: 10.18653/v1/2024.emnlp-main.982
 url: "https://aclanthology.org/2024.emnlp-main.982/"

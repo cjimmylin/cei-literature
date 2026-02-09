@@ -32,6 +32,7 @@ Abdelrahim's research is dedicated to advancing the state-of-the-art in Arabic N
 
 ## Papers in this Vault
 
+
 - [[2025-Alwajih-Palm|Palm]]
 
 ## External Links & Profiles
@@ -42,4 +43,6 @@ Abdelrahim's research is dedicated to advancing the state-of-the-art in Arabic N
 - [ResearchGate](https://www.researchgate.net/profile/Abdelrahim-Elmadany)
 
 ## Notes
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 [Extensive expertise in the technical evaluation of Arabic language technology.]

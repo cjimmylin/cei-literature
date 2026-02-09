@@ -8,6 +8,7 @@ type: preprint
 short_title: "One Model, Many Morals"
 year: 2025
 first_author: "[[Sualeha Farid]]"
+last_author: "[[Jurgens, David]]"
 authors: "[[Farid, Sualeha]]; [[Lin, Jayden]]; [[Chen, Zean]]; [[Kumar, Shivani]]; [[Jurgens, David]]"
 doi: 10.48550/arXiv.2509.21443
 url: "https://arxiv.org/abs/2509.21443"
@@ -39,18 +40,7 @@ DATE_ADDED: 20260207
 
 ## Authors
 
-[[Sualeha Farid]], [[Jayden Lin]], [[Zean Chen]], [[Shivani Kumar]], [[David Jurgens]]
-## Metadata
-
-**Authors:** Farid, Sualeha; Lin, Jayden; Chen, Zean; Kumar, Shivani; Jurgens, David
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2509.21443](https://doi.org/10.48550/arXiv.2509.21443)
-
-**Publisher:** arXiv
+[[Sualeha Farid|Farid, Sualeha]], [[Jayden Lin|Lin, Jayden]], [[Zean Chen|Chen, Zean]], [[Shivani Kumar|Kumar, Shivani]], [[David Jurgens|Jurgens, David]]
 
 ## Links
 

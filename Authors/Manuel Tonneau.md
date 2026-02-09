@@ -19,8 +19,12 @@ Manuel Tonneau is a fourth and final year Ph.D. candidate in Social Data Science
 
 ## Papers in this Vault
 
-- [[2024-Tonneau-NaijaHate|NaijaHate]]
+
+- [[2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs|Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs]]
+- [[2024-Tonneau-NaijaHate|NaijaHate]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs*: Affiliation: Institute, University of Oxford, UK
 [Additional context or contact information]

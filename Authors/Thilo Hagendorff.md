@@ -20,9 +20,13 @@ Dr. Thilo Hagendorff is an Independent Research Group Leader at the University o
 
 ## Papers in this Vault
 
-- [[2024-Hagendorff-Machine Psychology|Machine Psychology]]
-- [[2025-Jotautaitė-Speciesism in AI|Speciesism in AI]]
+
+- [[2025-Jotautaitė-Speciesism in AI|Speciesism in AI]] (Last Author)
+- [[2024-Hagendorff-Machine Psychology|Machine Psychology]] (First Author)
+- [[2022-Hagendorff-Virtue-Based Framework for AI Ethics|Virtue-Based Framework for AI Ethics]] (First Author)
 
 ## Notes
 
+
+- *From 2022-Hagendorff-Virtue-Based Framework for AI Ethics*: Affiliation: institutes or com-, Email: thilo.hagendorff@uni-tuebingen.de
 [Additional context or contact information]

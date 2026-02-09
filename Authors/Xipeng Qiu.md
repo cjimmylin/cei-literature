@@ -1,6 +1,6 @@
 ---
 name: "Xipeng Qiu"
-affiliation: "University/Organization"
+affiliation: "School of Computer Science, Fudan University"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,10 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Huang-Flames|Flames]]
-- [[2023-Shao-Character-LLM A Trainable Agent for Role-Playing|Character-LLM: A Trainable Agent for Role-Playing]]
+
 - [[2024-Sun-Benchmarking Hallucination in Large Language|Benchmarking Hallucination in Large Language]]
+- [[2023-Huang-Flames|Flames]]
+- [[2023-Shao-Character-LLM A Trainable Agent for Role-Playing|Character-LLM: A Trainable Agent for Role-Playing]] (Last Author)
 
 ## Notes
 
+
+- *From 2023-Shao-Character-LLM A Trainable Agent for Role-Playing*: Affiliation: School of Computer Science, Fudan University
 [Additional context or contact information]

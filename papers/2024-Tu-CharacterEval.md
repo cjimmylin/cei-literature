@@ -8,6 +8,7 @@ type: journalArticle
 short_title: CharacterEval
 year: 2025
 first_author: "[[Quan Tu]]"
+last_author: "[[Rui Yan]]"
 authors: "Quan Tu; Shilong Fan; Zihang Tian; Rui Yan"
 url: "https://arxiv.org/abs/2401.01275"
 local_pdf: [[PDFs/2024/2024-Tu-CharacterEval.pdf]]

@@ -25,3 +25,7 @@ Multiple researchers with this name - unable to determine specific individual wi
 - Website:
 - Google Scholar:
 - Semantic Scholar:
+
+## Papers in this Vault
+
+- [[2023-Ray-Benchmarking, ethical alignment, and evaluation|Benchmarking, ethical alignment, and evaluation]] (First Author)

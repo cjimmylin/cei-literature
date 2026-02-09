@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Bias in Bios"
 year: 2025
 first_author: "[[Maria De-Arteaga]]"
+last_author: "[[Adam Tauman Kalai]]"
 authors: "Maria De-Arteaga; Alexey Romanov; Hanna Wallach; Jennifer Chayes; Christian Borgs; Alexandra Chouldechova; Sahin Geyik; Krishnaram Kenthapadi; Adam Tauman Kalai"
 doi: 10.1145/3287560.3287572
 url: "http://arxiv.org/abs/1901.09451"

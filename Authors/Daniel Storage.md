@@ -34,6 +34,7 @@ Daniel Storage is a social psychologist at the University of Denver whose resear
 - Studies on the development of ability beliefs
 
 ## Papers in this Vault
+
 - [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 
 ## Links

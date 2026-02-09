@@ -1,6 +1,6 @@
 ---
 name: "Renren Jin"
-affiliation: "University/Organization"
+affiliation: "College of Intelligence and Computing, Tianjin University, Tianjin, China"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,14 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Shen-Large Language Model Alignment|Large Language Model Alignment]]
+
+- [[2025-Shen-Alignment and Safety in LLMs Survey|Alignment and Safety in LLMs Survey]]
+- [[2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and|OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety]]
 - [[2024-Shi-Large Language Model Safety|Large Language Model Safety]]
+- [[2023-Shen-Large Language Model Alignment|Large Language Model Alignment]]
 
 ## Notes
 
+
+- *From 2023-Shen-Large Language Model Alignment*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China
 [Additional context or contact information]

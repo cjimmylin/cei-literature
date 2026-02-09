@@ -33,8 +33,11 @@ Adelani's research focuses on making NLP more inclusive by developing datasets, 
 
 ## Papers in this Vault
 
+
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
 
 ## Notes
 
+
+- *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 Adelani is a co-founder of Masakhane, a grassroots organization dedicated to advancing NLP for African languages. He has received the ACL Test of Time Award and been recognized for his contributions to making AI more accessible and beneficial for underserved language communities.

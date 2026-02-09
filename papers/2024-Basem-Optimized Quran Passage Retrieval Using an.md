@@ -8,6 +8,7 @@ type: document
 short_title: "Optimized Quran Passage Retrieval Using an"
 year: 2025
 first_author: "[[Mohamed Basem]]"
+last_author: "[[Ammar Mohamed]]"
 authors: "Mohamed Basem; Islam Oshallah; Baraa Hikal; Ali Hamdi; Ammar Mohamed"
 url: "https://arxiv.org/abs/2412.11431"
 external_pdf: "https://arxiv.org/pdf/2412.11431.pdf"
@@ -53,7 +54,7 @@ Understanding the deep meanings of the Qur'an and bridging the language gap betw
 
 ## Authors
 
-[[Mohamed Basem]], [[Islam Oshallah]], [[Baraa Hikal]], [[Ali Hamdi]], [[Ammar Mohamed]]
+[[Mohamed Basem]], [[Islam Oshallah]], [[Baraa Hikal]], [[Ali Hamdi]], [[Abubakr Mohamed|Ammar Mohamed]]
 
 ## Notes
 

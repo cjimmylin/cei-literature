@@ -33,6 +33,7 @@ Charlotte A. Hudson is a PhD researcher in Department of Psychology at the Unive
 
 ## Papers in this Vault
 
+
 - [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 
 ## External Links & Profiles

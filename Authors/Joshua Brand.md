@@ -1,6 +1,6 @@
 ---
 name: "Joshua Brand"
-affiliation: "University/Organization"
+affiliation: "University of Southampton"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Mougan-Kantian Deontology Meets AI Alignment|Kantian Deontology Meets AI Alignment]]
+
+- [[2023-Mougan-Kantian Deontology Meets AI Alignment|Kantian Deontology Meets AI Alignment]] (Last Author)
 
 ## Notes
 
+
+- *From 2023-Mougan-Kantian Deontology Meets AI Alignment*: Affiliation: University of Southampton, Email: c.mougan@soton.ac.uk
 [Additional context or contact information]

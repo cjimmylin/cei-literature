@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: "Contemplative Artificial Intelligence"
 first_author: "[[Ruben E Laukkonen]]"
+last_author: "[[Adam Elwood]]"
 authors: "[[Ruben E Laukkonen]], [[Fionn Inglis]], [[Shamil Chandaria]], [[Lars Sandved-Smith]], [[Edmundo Lopez-Sola]], [[Jakob Hohwy]], [[Jonathan Gold]], [[Adam Elwood]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/744PDNTG/Laukkonen et al. - Contemplative Artificial Intelligence.pdf"
 national_ethnic_cultural: N/A
@@ -34,12 +35,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[[[Ruben E Laukkonen]], [[Fionn Inglis]], [[Shamil Chandaria]], [[Lars Sandved-Smith]], [[Edmundo Lopez-Sola]], [[Jakob Hohwy]], [[Jonathan Gold]], [[Adam Elwood]]]]
-## Metadata
-
-**Authors:** Laukkonen, Ruben E; Inglis, Fionn; Chandaria, Shamil; Sandved-Smith, Lars; Lopez-Sola, Edmundo; Hohwy, Jakob; Gold, Jonathan; Elwood, Adam
-
-**Type:** journalArticle
+[[Ruben E Laukkonen]], [[Fionn Inglis]], [[Shamil Chandaria]], [[Lars Sandved-Smith]], [[Edmundo Lopez-Sola]], [[Jakob Hohwy]], [[Jonathan Gold]], [[Adam Elwood]]
 
 ## Links
 

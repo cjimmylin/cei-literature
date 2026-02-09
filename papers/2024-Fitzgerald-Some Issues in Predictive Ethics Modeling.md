@@ -8,6 +8,7 @@ type: document
 short_title: "Some Issues in Predictive Ethics Modeling"
 year: 2025
 first_author: "[[Ben Fitzgerald]]"
+last_author: "[[Ben Fitzgerald]]"
 authors: "Ben Fitzgerald"
 url: "https://arxiv.org/abs/2407.05244"
 external_pdf: "https://arxiv.org/pdf/2407.05244.pdf"

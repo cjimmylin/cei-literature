@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Value Imprint"
 year: 2025
 first_author: "[[Ike Obi]]"
+last_author: "[[Basiletti, Aaron]]"
 authors: "[[Obi, Ike]]; [[Pant, Rohan]]; [[Agrawal, Srishti Shekhar]]; [[Ghazanfar, Maham]]; [[Basiletti, Aaron]]"
 doi: 10.48550/arXiv.2411.11937
 url: "http://arxiv.org/abs/2411.11937"
@@ -38,18 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Ike Obi]], [[Rohan Pant]], [[Srishti Shekhar Agrawal]], [[Maham Ghazanfar]], [[Aaron Basiletti]]
-## Metadata
-
-**Authors:** Obi, Ike; Pant, Rohan; Agrawal, Srishti Shekhar; Ghazanfar, Maham; Basiletti, Aaron
-
-**Year:** 2024
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2411.11937](https://doi.org/10.48550/arXiv.2411.11937)
-
-**Publisher:** arXiv
+[[Ike Obi|Obi, Ike]], [[Rohan Pant|Pant, Rohan]], [[Srishti Shekhar Agrawal|Agrawal, Srishti Shekhar]], [[Maham Ghazanfar|Ghazanfar, Maham]], [[Aaron Basiletti|Basiletti, Aaron]]
 
 ## Links
 

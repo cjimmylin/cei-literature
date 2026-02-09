@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: PKU-SafeRLHF
 year: 2025
 first_author: "[[Jiaming Ji]]"
+last_author: "[[Jiaming Ji]]"
 authors: Jiaming Ji et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2406.15513"
 external_pdf: "https://arxiv.org/pdf/2406.15513.pdf"
 local_pdf: "[[PDFs/2025/2025-Ji-PKU-SafeRLHF.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "265k question"
 
 ## Authors
 
-[[Jiaming Ji et al.]]
+[[Jiaming Ji]]
 
 ## Metadata
 

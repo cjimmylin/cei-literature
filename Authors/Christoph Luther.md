@@ -25,10 +25,13 @@ Christoph Luther was a student assistant in the Workgroup "Methods for Missing D
 - Involvement in teaching statistics for economics students at LMU Munich
 
 ## Papers in this Vault
+
 - [[2025-Rodemann-A Statistical Case Against Empirical Human-AI|A Statistical Case Against Empirical Human-AI]]
 
 ## External Links & Profiles
 - [LMU Munich Workgroup](https://www.misoda.statistik.uni-muenchen.de/personen/former_students/luther/index.html)
 
 ## Notes
+
+- *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
 Limited information available about current position and ongoing research. His contribution to the paper on statistical issues in human-AI alignment is relevant to AI ethics by highlighting methodological concerns in how AI systems are aligned with human preferences.

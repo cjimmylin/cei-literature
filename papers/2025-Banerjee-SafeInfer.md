@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: SafeInfer
 year: 2025
 first_author: "[[Somnath Banerjee]]"
+last_author: "[[Rima Hazra]]"
 authors: "Somnath Banerjee; Sayan Layek; Soham Tripathy; Shanu Kumar; Animesh Mukherjee; Rima Hazra"
 url: "https://ojs.aaai.org/index.php/AAAI/article/view/34927"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/KV9GGDEF/Jain and others - 2025 - SafeInfer Context Adaptive Decoding Time Safety Alignment for Large Language Models.pdf"

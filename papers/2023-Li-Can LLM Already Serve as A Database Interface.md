@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Can LLM Already Serve as A Database Interface?"
 year: 2025
 first_author: "[[Jinyang Li]]"
+last_author: "[[Yongbin Li]]"
 authors: "Jinyang Li; Binyuan Hui; Ge Qu; Jiaxi Yang; Binhua Li; Bowen Li; Bailin Wang; Bowen Qin; Rongyu Cao; Ruiying Geng; Nan Huo; Xuanhe Zhou; Chenhao Ma; Guoliang Li; Kevin C. C. Chang; Fei Huang; Reynold Cheng; Yongbin Li"
 doi: 10.48550/arXiv.2305.03111
 tags: 

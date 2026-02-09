@@ -46,7 +46,8 @@ Salvador authored a comprehensive 60-page research report titled "Certified Safe
 
 ## Papers in this Vault
 
-(Auto-generated list of linked papers)
+
+- [[2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI|A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI]] (First Author)
 
 ## External Links & Profiles
 

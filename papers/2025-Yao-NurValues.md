@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: NurValues
 year: 2025
 first_author: "[[Ben Yao]]"
+last_author: "[[Jing Qin]]"
 authors: "Ben Yao; Qiuchi Li; Yazhou Zhang; Siyu Yang; Bohan Zhang; Prayag Tiwari; Jing Qin"
 doi: 10.48550/arXiv.2505.08734
 tags: 

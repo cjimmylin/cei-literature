@@ -20,8 +20,11 @@ Brad Jokubaitis is a researcher focused on AI safety, particularly concerning th
 
 ## Papers in this Vault
 
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## Notes
 
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 Contributed to the WMDP Benchmark as part of a consortium of academics and technical consultants working on AI safety evaluation, published at ICML 2024.

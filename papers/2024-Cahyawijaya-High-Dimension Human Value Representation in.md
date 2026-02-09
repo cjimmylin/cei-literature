@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "High-Dimension Human Value Representation in"
 year: 2025
 first_author: "[[Samuel Cahyawijaya]]"
+last_author: "[[Pascale Fung]]"
 authors: "Samuel Cahyawijaya; Delong Chen; Yejin Bang; Leila Khalatbari; Bryan Wilie; Ziwei Ji; Etsuko Ishii; Pascale Fung"
 doi: 10.48550/arXiv.2404.07900
 url: "http://arxiv.org/abs/2404.07900"

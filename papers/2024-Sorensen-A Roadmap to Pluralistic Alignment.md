@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "A Roadmap to Pluralistic Alignment"
 year: 2025
 first_author: "[[Taylor Sorensen]]"
+last_author: "[[Yejin Choi]]"
 authors: "Taylor Sorensen; Jared Moore; Jillian Fisher; Mitchell Gordon; Niloofar Mireshghallah; Christopher Michael Rytting; Andre Ye; Liwei Jiang; Ximing Lu; Nouha Dziri; Tim Althoff; Yejin Choi"
 doi: 10.48550/arXiv.2402.05070
 url: "http://arxiv.org/abs/2402.05070"

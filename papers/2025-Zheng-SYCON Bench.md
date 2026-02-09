@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "SYCON Bench"
 year: 2025
 first_author: "[[Jiseung Hong]]"
+last_author: "[[Jinho D. Choi]]"
 authors: "Jiseung Hong; Grace Byun; Seungone Kim; Kai Shu; Jinho D. Choi"
 url: "https://arxiv.org/abs/2505.23840"
 external_pdf: "https://arxiv.org/pdf/2505.23840.pdf"

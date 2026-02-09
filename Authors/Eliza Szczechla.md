@@ -32,6 +32,7 @@ Eliza Szczechla is a researcher contributing to AI safety evaluation and bias de
 
 ## Papers in this Vault
 
+
 - [[2025-Mitchell-SHADES|SHADES]]
 
 ## Links

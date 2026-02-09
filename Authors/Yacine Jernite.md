@@ -1,6 +1,6 @@
 ---
 name: "Yacine Jernite"
-affiliation: "University/Organization"
+affiliation: "University of Amsterdam"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Pistilli-CIVICS|CIVICS]]
 
 ## Notes
 
+
+- *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co
 [Additional context or contact information]

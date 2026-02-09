@@ -8,6 +8,7 @@ type: document
 short_title: "SemEval-2020 Task 12"
 year: 2025
 first_author: "[[Marcos Zampieri]]"
+last_author: "[[Çöltekin, Çağrı]]"
 authors: "[[Zampieri, Marcos]]; [[Nakov, Preslav]]; [[Rosenthal, Sara]]; [[Atanasova, Pepa]]; [[Karadzhov, Georgi]]; [[Mubarak, Hamdy]]; [[Derczynski, Leon]]; [[Pitenis, Zeses]]; [[Çöltekin, Çağrı]]"
 url: "https://aclanthology.org/2020.semeval-1.188/"
 external_pdf: "https://aclanthology.org/2020.semeval-1.188.pdf"
@@ -36,12 +37,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Marcos Zampieri]], [[Preslav Nakov]], [[Sara Rosenthal]], [[Pepa Atanasova]], [[Georgi Karadzhov]], [[Hamdy Mubarak]], [[Leon Derczynski]], [[Zeses Pitenis]], [[Çağrı Çöltekin]]
-## Metadata
-
-**Year:** 2020
-
-**Type:** document
+[[Marcos Zampieri|Zampieri, Marcos]], [[Preslav Nakov|Nakov, Preslav]], [[Sara Rosenthal|Rosenthal, Sara]], [[Pepa Atanasova|Atanasova, Pepa]], [[Georgi Karadzhov|Karadzhov, Georgi]], [[Hamdy Mubarak|Mubarak, Hamdy]], [[Leon Derczynski|Derczynski, Leon]], [[Zeses Pitenis|Pitenis, Zeses]], [[Çağrı Çöltekin|Çöltekin, Çağrı]]
 
 ## Links
 

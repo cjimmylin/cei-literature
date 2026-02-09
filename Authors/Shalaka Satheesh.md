@@ -20,8 +20,11 @@ Researcher at Bonn-Rhein-Sieg University of Applied Sciences, Department of Comp
 
 ## Papers in this Vault
 
-- [[2025-Satheesh-GG-BBQ|GG-BBQ]]
+
+- [[2025-Satheesh-GG-BBQ|GG-BBQ]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Satheesh-GG-BBQ*: Affiliation: Institute for Intelligent Analysis and Information Systems IAIS, Email: shalaka.satheesh@iais.fraunhofer.de
 [Additional context or contact information]

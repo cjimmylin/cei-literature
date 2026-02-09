@@ -30,11 +30,14 @@ Amal's research focuses on developing robust named entity recognition and evalua
 - [DialectalArabicMMLU](https://arxiv.org/abs/2400.00000) (2024) - *Benchmarking LLM knowledge in dialectal Arabic contexts.*
 
 ## Papers in this Vault
-- [[2024-Adilazuarda-Towards Measuring and Modeling |Towards Measuring and Modeling \"Culture\" in LLMs]]
+
+- [[2025-Alwajih-Palm|Palm]]
 
 ## External Links & Profiles
 - [Google Scholar](https://scholar.google.com/citations?user=7V29uJIAAAAJ)
 - [ResearchGate](https://www.researchgate.net/profile/Amal-Makouar)
 
 ## Notes
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 [Focused on 'localizing' AI capabilities for the Arabic-speaking world.]

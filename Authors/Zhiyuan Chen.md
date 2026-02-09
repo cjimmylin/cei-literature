@@ -1,6 +1,6 @@
 ---
 name: "Zhiyuan Chen"
-affiliation: "University/Organization"
+affiliation: "Laboratory of AI Safety of CAS, Institute of Computing Technology"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Yan-M$^3$oralBench|M$^3$oralBench]]
 
 ## Notes
 
+
+- *From 2024-Yan-M$^3$oralBench*: Affiliation: Laboratory of AI Safety of CAS, Institute of Computing Technology, Email: chenzhiyuan21@mails.ucas.ac.cn
 [Additional context or contact information]

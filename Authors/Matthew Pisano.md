@@ -20,7 +20,8 @@ Matthew Pisano is an Artificial Intelligence Researcher and Software Engineer wi
 
 ## Papers in this Vault
 
-- [[2024-Pisano-Moral High Ground|Moral High Ground]]
+
+- [[2024-Pisano-Moral High Ground|Moral High Ground]] (First Author)
 
 ## Notes
 

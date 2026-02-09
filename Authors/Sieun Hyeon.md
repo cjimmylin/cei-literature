@@ -1,9 +1,9 @@
 ---
 name: "Sieun Hyeon"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "labeled texts with intensity estimates derived from"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "jaeyoung.do@snu.ac.kr"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in|VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in]]
+- [[2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in|VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models]]
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in*: Affiliation: labeled texts with intensity estimates derived from, Email: jaeyoung.do@snu.ac.kr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

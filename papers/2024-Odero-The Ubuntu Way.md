@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "The Ubuntu Way"
 year: 2025
 first_author: "[[Brenda Odero]]"
+last_author: "[[Samuel, Gabrielle]]"
 authors: "[[Odero, Brenda]]; [[Nderitu, David]]; [[Samuel, Gabrielle]]"
 doi: 10.12688/wellcomeopenres.23021.1
 url: "https://wellcomeopenresearch.org/articles/9-625"
@@ -35,16 +36,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Brenda Odero]], [[David Nderitu]], [[Gabrielle Samuel]]
-## Metadata
-
-**Authors:** Odero, Brenda; Nderitu, David; Samuel, Gabrielle
-
-**Year:** 2024
-
-**Type:** journal article
-
-**Publisher:** PubMed Central
+[[Brenda Odero|Odero, Brenda]], [[David Nderitu|Nderitu, David]], [[Gabrielle Samuel|Samuel, Gabrielle]]
 
 ## Links
 

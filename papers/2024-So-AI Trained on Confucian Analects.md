@@ -6,6 +6,7 @@ type: journalArticle
 short_title: "AI Trained on Confucian Analects"
 year: 2025
 first_author: "[[Emma So]]"
+last_author: "[[Emma So]]"
 authors: "[[So, Emma]]"
 doi: N/A
 url: "https://philarchive.org/archive/SOHATI"

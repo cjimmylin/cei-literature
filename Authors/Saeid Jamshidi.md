@@ -28,8 +28,11 @@ This work advances the field by reframing ethical evaluation as a dynamic, model
 
 ## Papers in this Vault
 
-- [[2025-Jamshidi-MoCoP|MoCoP]]
+
+- [[2025-Jamshidi-MoCoP|MoCoP]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Jamshidi-MoCoP*: Affiliation: Laboratory, Polytechnique Montréal, Email: negar.shahabi@concordia.ca
 Research emphasis on developing automated, continuous monitoring systems for AI ethics that can track "moral drift" and consistency over time and contexts, moving beyond static benchmark evaluations toward dynamic ethical auditing frameworks.

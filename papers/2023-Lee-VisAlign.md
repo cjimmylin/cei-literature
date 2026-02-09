@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: VisAlign
 first_author: "[[Jiyoung Lee]]"
+last_author: "[[Edward Choi]]"
 authors: "Jiyoung Lee; Seungho Kim; Seunghyun Won; Joonseok Lee; Marzyeh Ghassemi; James Thorne; Jaeseok Choi; O-Kil Kwon; Edward Choi"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/T6VNUFSA/Lee et al. - VisAlign Dataset for Measuring the Alignment between AI and Humans in Visual Perception.pdf"
 pdf_extract: [[2023-Lee-VisAlign]]

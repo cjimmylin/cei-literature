@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Probabilistic medical predictions of large"
 year: 2025
 first_author: "[[Bowen Gu]]"
+last_author: "[[Jie Yang]]"
 authors: "Bowen Gu; Rishi J. Desai; Kueiyu Joshua Lin; Jie Yang"
 doi: 10.1038/s41746-024-01366-4
 url: "https://www.nature.com/articles/s41746-024-01366-4"

@@ -49,7 +49,8 @@ At Google Brain, she co-led the development of **AlphaChip**, a pioneering deep 
 
 ## Papers in this Vault
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+
+- [[2022-Bai-Constitutional AI|Constitutional AI]]
 
 ## External Links & Profiles
 
@@ -64,4 +65,6 @@ At Google Brain, she co-led the development of **AlphaChip**, a pioneering deep 
 - [Twitter/X](https://twitter.com/azaliams)
 
 ## Notes
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 [Azalia is a world-class pioneer in self-improving systems and AI-accelerated chip design.]

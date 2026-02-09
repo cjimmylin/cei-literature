@@ -46,6 +46,7 @@ McKinnon has contributed to foundational research on automated red-teaming and r
 
 ## Papers in this Vault
 
+
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
 
 ## External Links & Profiles
@@ -55,4 +56,6 @@ McKinnon has contributed to foundational research on automated red-teaming and r
 - [LinkedIn Profile](https://www.linkedin.com/in/cameron-mckinnon-7b8a5b174/)
 
 ## Notes
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 Cameron's transition from pure mathematics to deep learning engineering at DeepMind reflects the growing need for rigorous formal analysis in the alignment of Frontier models.

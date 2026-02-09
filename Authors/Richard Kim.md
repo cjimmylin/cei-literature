@@ -1,6 +1,6 @@
 ---
 name: "Richard Kim"
-affiliation: "University/Organization"
+affiliation: "Faculty has made this article openly available"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2018-Awad-The Moral Machine experiment|The Moral Machine experiment]]
 
 ## Notes
 
+
+- *From 2018-Awad-The Moral Machine experiment*: Affiliation: Faculty has made this article openly available, Email: irahwan@mit.edu
 [Additional context or contact information]

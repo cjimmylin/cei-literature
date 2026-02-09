@@ -1,6 +1,6 @@
 ---
 name: "Tiezheng Yu"
-affiliation: "University/Organization"
+affiliation: "University of Science and Technology"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2022-Bang-Enabling Classifiers to Make Judgements|Enabling Classifiers to Make Judgements]]
+
 - [[2023-Bang-Towards Answering Open-ended Ethical Quandary|Towards Answering Open-ended Ethical Quandary]]
+- [[2022-Bang-Enabling Classifiers to Make Judgements|Enabling Classifiers to Make Judgements]]
 
 ## Notes
 
+
+- *From 2022-Bang-Enabling Classifiers to Make Judgements*: Affiliation: University of Science and Technology
 [Additional context or contact information]

@@ -8,6 +8,7 @@ type: journalArticle
 short_title: MACHIAVELLI
 year: 2025
 first_author: "[[Alexander Pan]]"
+last_author: "[[Dan Hendrycks]]"
 authors: "Alexander Pan; Jun Shern Chan; Andy Zou; Nathaniel Li; Steven Basart; Thomas Woodside; Jonathan Ng; Hanlin Zhang; Scott Emmons; Dan Hendrycks"
 url: "https://arxiv.org/abs/2304.03279"
 external_pdf: "https://arxiv.org/pdf/2304.03279.pdf"

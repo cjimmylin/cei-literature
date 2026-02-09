@@ -1,6 +1,6 @@
 ---
 name: "Zhuoying Ou"
-affiliation: "University/Organization"
+affiliation: "University, 2Huawei Noah’s Ark Lab"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Xi-InfoDeepSeek|InfoDeepSeek]]
 
 ## Notes
 
+
+- *From 2025-Xi-InfoDeepSeek*: Affiliation: University, 2Huawei Noah’s Ark Lab
 [Additional context or contact information]

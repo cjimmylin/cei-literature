@@ -1,6 +1,6 @@
 ---
 name: "Ishita Dasgupta"
-affiliation: "University/Organization"
+affiliation: "University of Stuttgart"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Hagendorff-Machine Psychology|Machine Psychology]]
 
 ## Notes
 
+
+- *From 2024-Hagendorff-Machine Psychology*: Affiliation: University of Stuttgart
 [Additional context or contact information]

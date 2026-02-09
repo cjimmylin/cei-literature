@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Evaluating Prompt Injection Attacks with"
 year: 2025
 first_author: "[[Sharaf Rashid]]"
+last_author: "[[Amar Gupta]]"
 authors: "Sharaf Rashid; Edson Bollis; Lucas Pellicer; Darian Rabbani; Rafael Palacios; Aneesh Gupta; Amar Gupta"
 doi: 10.3390/make7030077
 url: "https://www.mdpi.com/2504-4990/7/3/77"

@@ -10,6 +10,7 @@ type: preprint
 short_title: "ConflictScope: Generative Value Conflicts Reveal LLM Priorities"
 year: 2025
 first_author: "[[Andy Liu]]"
+last_author: "[[Max Kleiman-Weiner]]"
 authors: Andy Liu; Kshitish Ghate; Mona Diab; Daniel Fried; Atoosa Kasirzadeh; Max Kleiman-Weiner
 url: "https://arxiv.org/abs/2509.25369"
 external_pdf: "https://arxiv.org/pdf/2509.25369.pdf"

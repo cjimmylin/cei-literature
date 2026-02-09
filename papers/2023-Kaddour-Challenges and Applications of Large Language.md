@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Challenges and Applications of Large Language"
 year: 2025
 first_author: "[[Jean Kaddour]]"
+last_author: "[[Robert McHardy]]"
 authors: "Jean Kaddour; Joshua Harris; Maximilian Mozes; Herbie Bradley; Roberta Raileanu; Robert McHardy"
 doi: 10.48550/arXiv.2307.10169
 url: "http://arxiv.org/abs/2307.10169"

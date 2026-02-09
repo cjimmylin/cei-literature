@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Multi-label Hate Speech and Abusive Language"
 year: 2025
 first_author: "[[Muhammad Okky Ibrohim]]"
+last_author: "[[Indra Budi]]"
 authors: "Muhammad Okky Ibrohim; Indra Budi"
 doi: 10.18653/v1/W19-3506
 url: "https://www.aclweb.org/anthology/W19-3506"

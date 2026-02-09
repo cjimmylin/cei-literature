@@ -1,6 +1,6 @@
 ---
 name: "Xiaohan Zhang"
-affiliation: "University/Organization"
+affiliation: "University; 2Zhipu AI"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2023-Liu-AlignBench|AlignBench]]
 
 ## Notes
 
+
+- *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 [Additional context or contact information]

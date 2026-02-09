@@ -6,6 +6,7 @@ type: preprint
 short_title: "Towards Friendly AI"
 year: 2025
 first_author: "[[Qiyang Sun]]"
+last_author: "[[Schuller, Björn W]]"
 authors: "[[Sun, Qiyang]]; [[Li, Yupei]]; [[Alturki, Emran]]; [[Murthy, Sunil Munthumoduku Krishna]]; [[Schuller, Björn W.]]"
 doi: N/A
 url: "https://arxiv.org/abs/2412.15114"
@@ -33,7 +34,7 @@ data_metrics: N/A
 
 ## Authors
 
-[[Qiyang Sun]], [[Yupei Li]], [[Emran Alturki]], [[Sunil Munthumoduku Krishna Murthy]], [[Björn W. Schuller]]
+[[Sun, Qiyang]], [[Li, Yupei]], [[Alturki, Emran]], [[Murthy, Sunil Munthumoduku Krishna]], [[Schuller, Björn W]]
 
 ## Metadata
 

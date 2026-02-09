@@ -8,6 +8,7 @@ type: journalArticle
 short_title: Aftina
 year: 2025
 first_author: "[[Ahmed Mohammed]]"
+last_author: "[[Ahmed Mohammed]]"
 authors: "Ahmed Mohammed"
 doi: 10.1007/s00521-025-11229-y
 url: "https://neuralcomputingjournals.com/aftina-fatwaqa"

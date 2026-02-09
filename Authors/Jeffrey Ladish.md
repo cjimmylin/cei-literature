@@ -26,7 +26,8 @@ Ladish is a mentor for MATS (ML Alignment Theory Scholars), a fellowship program
 
 ## Papers in this Vault
 
-- [[2022-Bai-Constitutional AI|Constitutional AI: Harmlessness from AI Feedback]]
+
+- [[2022-Bai-Constitutional AI|Constitutional AI]]
 
 ## Notable Contributions
 
@@ -37,5 +38,7 @@ Ladish is a mentor for MATS (ML Alignment Theory Scholars), a fellowship program
 
 ## Notes
 
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 Ladish's work is particularly relevant to understanding how AI systems might be misused or how safety measures might fail. He appeared on the 80,000 Hours podcast and the FLI podcast to discuss AI loss of control risks.
 

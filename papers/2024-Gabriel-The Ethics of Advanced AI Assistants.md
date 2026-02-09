@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "The Ethics of Advanced AI Assistants"
 year: 2025
 first_author: "[[Iason Gabriel]]"
+last_author: "[[James Manyika]]"
 authors: "Iason Gabriel; Arianna Manzini; Geoff Keeling; Lisa Anne Hendricks; Verena Rieser; Hasan Iqbal; Nenad Tomašev; Ira Ktena; Zachary Kenton; Mikel Rodriguez; Seliem El-Sayed; Sasha Brown; Canfer Akbulut; Andrew Trask; Edward Hughes; Abigail Stevie Bergman; Renee Shelby; Nahema Marchal; Conor Griffin; Juan Mateos-Garcia; Laura Weidinger; Winnie Street; Benjamin Lange; Alex Ingerman; Alison Lentz; Reed Enger; Andrew Barakat; Victoria Krakovna; John Oliver Siy; Zeb Kurth-Nelson; Amanda McCroskery; Vijay Bolina; Harry Law; Murray Shanahan; Lize Alberts; Borja Balle; Sarah de Haas; Yetunde Ibitoye; Allan Dafoe; Beth Goldberg; Sébastien Krier; Alexander Reese; Sims Witherspoon; Will Hawkins; Maribeth Rauh; Don Wallace; Matija Franklin; Josh A. Goldstein; Joel Lehman; Michael Klenk; Shannon Vallor; Courtney Biles; Meredith Ringel Morris; Helen King; Blaise Agüera y Arcas; William Isaac; James Manyika"
 doi: 10.48550/arXiv.2404.16244
 tags: 

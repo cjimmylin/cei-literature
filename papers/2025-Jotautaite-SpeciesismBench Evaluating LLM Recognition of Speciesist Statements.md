@@ -11,7 +11,9 @@ type: preprint
 short_title: "SpeciesismBench: Evaluating LLM Recognition of Speciesist Statements"
 year: 2025
 first_author: "[[M. Jotautaite]]"
+last_author: "[[M. Jotautaite]]"
 authors: Jotautaite, M. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2508.11534"
 external_pdf: "https://arxiv.org/pdf/2508.11534.pdf"
 local_pdf: "[[PDFs/2025/2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.pdf]]"
@@ -40,7 +42,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Jotautaite, M. et al.]]
+[[M. Jotautaite]]
 
 ## Metadata
 

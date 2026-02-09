@@ -1,6 +1,6 @@
 ---
 name: "Yaodong Yang"
-affiliation: "University/Organization"
+affiliation: "University of Science and Technology"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,11 +17,18 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Ji-AI Alignment|AI Alignment]]
-- [[2024-Qiu-ProgressGym|ProgressGym]]
-- [[2024-Zhang-ValueDCG|ValueDCG]]
+
 - [[2025-Ju-NaVAB|NaVAB]]
+- [[2025-Zhang-PoliCon|PoliCon]] (Last Author)
+- [[2024-Qiu-ProgressGym|ProgressGym]] (Last Author)
+- [[2024-Zhang-ValueDCG|ValueDCG]] (Last Author)
+- [[2023-Dai-Safe RLHF|Safe RLHF]] (Last Author)
+- [[2023-Ji-AI Alignment|AI Alignment]]
+- [[2023-Ji-Safety Gymnasium|Safety Gymnasium]] (Last Author)
+- [[2023-Zhang-Heterogeneous Value Alignment Evaluation for|Heterogeneous Value Alignment Evaluation for]] (Last Author)
 
 ## Notes
 
+
+- *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk
 [Additional context or contact information]

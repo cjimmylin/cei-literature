@@ -19,8 +19,11 @@ Researcher at Rutgers, The State University of New Jersey. Research interests in
 
 ## Papers in this Vault
 
-- [[2024-Ji-MoralBench|MoralBench]]
+
+- [[2024-Ji-MoralBench|MoralBench]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Ji-MoralBench*: Affiliation: University of New Jersey, 2University of Chicago
 [Additional context or contact information]

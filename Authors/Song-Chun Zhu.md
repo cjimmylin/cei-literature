@@ -1,6 +1,6 @@
 ---
 name: "Song-Chun Zhu"
-affiliation: "University/Organization"
+affiliation: "Center for Vision, Cognition, Learning, and Autonomy"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2022-Qiu-ValueNet|ValueNet]]
+
 - [[2023-Ji-AI Alignment|AI Alignment]]
+- [[2023-Zhang-Heterogeneous Value Alignment Evaluation for|Heterogeneous Value Alignment Evaluation for]]
+- [[2022-Qiu-ValueNet|ValueNet]] (Last Author)
 
 ## Notes
 
+
+- *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
 [Additional context or contact information]

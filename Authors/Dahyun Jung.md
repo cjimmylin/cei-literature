@@ -27,6 +27,7 @@ Dahyun Jung is a researcher working on natural language processing, with a focus
 - Language Model Evaluation and Benchmarking
 
 ## Papers in this Vault
-- [[2025-Jung-FLEX|FLEX]]
+
+- [[2025-Jung-FLEX|FLEX]] (First Author)
 
 ## Links

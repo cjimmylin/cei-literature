@@ -10,7 +10,9 @@ type: preprint
 short_title: JMedEthicBench
 year: 2026
 first_author: "[[Junyu Liu]]"
+last_author: "[[Junyu Liu]]"
 authors: Junyu Liu et al
+authors_incomplete: true
 url: "https://arxiv.org/abs/2601.01627"
 external_pdf: "https://arxiv.org/pdf/2601.01627.pdf"
 local_pdf: "[[PDFs/2026/2026-Liu-JMedEthicBench.pdf]]"
@@ -39,7 +41,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Junyu Liu et al]]
+[[Junyu Liu]]
 
 ## Metadata
 

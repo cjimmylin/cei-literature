@@ -8,6 +8,7 @@ type: journalArticle
 short_title: CultureAtlas
 year: 2025
 first_author: "[[Yi Fung]]"
+last_author: "[[Heng Ji]]"
 authors: "Yi Fung; Ruining Zhao; Jae Doo; Chenkai Sun; Heng Ji"
 url: "https://arxiv.org/abs/2402.09369"
 external_pdf: "https://arxiv.org/pdf/2402.09369.pdf"

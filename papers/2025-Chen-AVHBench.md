@@ -8,6 +8,7 @@ type: document
 short_title: AVHBench
 year: 2025
 first_author: "[[Kim Sung-Bin]]"
+last_author: "[[Tae-Hyun Oh]]"
 authors: "Kim Sung-Bin; Oh Hyun-Bin; JungMok Lee; Arda Senocak; Joon Son Chung; Tae-Hyun Oh"
 url: "https://arxiv.org/abs/2410.18325"
 external_pdf: "https://arxiv.org/pdf/2410.18325.pdf"

@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "Persuade Me if You Can (PMIYC): A Framework for Evaluating Persuasion Effectiveness and Susceptibility"
 year: 2025
 first_author: "[[Nimet Beyza Bozdag]]"
+last_author: "[[Dilek Hakkani-Tür]]"
 authors: Nimet Beyza Bozdag; Shuhaib Mehri; Gokhan Tur; Dilek Hakkani-Tür
 url: "https://arxiv.org/abs/2503.01829"
 external_pdf: "https://arxiv.org/pdf/2503.01829.pdf"

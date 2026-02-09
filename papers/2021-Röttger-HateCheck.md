@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: HateCheck
 year: 2025
 first_author: "[[Paul Röttger]]"
+last_author: "[[Janet Pierrehumbert]]"
 authors: "Paul Röttger; Bertie Vidgen; Dong Nguyen; Zeerak Waseem; Helen Margetts; Janet Pierrehumbert"
 doi: 10.18653/v1/2021.acl-long.4
 url: "https://aclanthology.org/2021.acl-long.4/"

@@ -8,6 +8,7 @@ type: preprint
 short_title: "The Moral Mind(s) of Large Language Models"
 year: 2025
 first_author: "[[Avner Seror]]"
+last_author: "[[Avner Seror]]"
 authors: "[[Seror, Avner]]"
 doi: 10.48550/arXiv.2412.04476
 url: "https://arxiv.org/abs/2412.04476"
@@ -37,17 +38,6 @@ data_metrics: "Revealed preference consistency, utility function clustering"
 ## Authors
 
 [[Avner Seror]]
-## Metadata
-
-**Authors:** Seror, Avner
-
-**Year:** 2024
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2412.04476](https://doi.org/10.48550/arXiv.2412.04476)
-
-**Publisher:** arXiv
 
 ## Links
 

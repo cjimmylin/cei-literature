@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "D-REX: A Benchmark for Detecting Deceptive Reasoning in Large Language Models"
 year: 2025
 first_author: "[[Satyapriya Krishna]]"
+last_author: "[[Spyros Matsoukas]]"
 authors: Satyapriya Krishna; Andy Zou; Rahul Gupta; Eliot Krzysztof Jones; Nick Winter; Dan Hendrycks; J. Zico Kolter; Matt Fredrikson; Spyros Matsoukas
 url: "https://arxiv.org/abs/2509.17938"
 external_pdf: "https://arxiv.org/pdf/2509.17938.pdf"

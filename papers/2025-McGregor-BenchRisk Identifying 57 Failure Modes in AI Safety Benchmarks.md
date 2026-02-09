@@ -9,7 +9,9 @@ type: preprint
 short_title: "BenchRisk: Identifying 57 Failure Modes in AI Safety Benchmarks (McGregor et al.)"
 year: 2025
 first_author: "[[S. McGregor]]"
+last_author: "[[S. McGregor]]"
 authors: McGregor, S. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2510.21460"
 external_pdf: "https://arxiv.org/pdf/2510.21460.pdf"
 local_pdf: "[[PDFs/2025/2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[McGregor, S. et al.]]
+[[S. McGregor]]
 
 ## Metadata
 

@@ -3,7 +3,7 @@ name: "Cem Uluoglakci"
 title: "PhD Student"
 affiliation: "Middle East Technical University (METU)"
 highest_degree: "BSc / MSc, METU"
-email: ""
+email: "ttemizel@metu.edu.tr"
 research_interests:
   - "Natural Language Processing"
   - "Large Language Models"
@@ -46,7 +46,8 @@ Uluoglakci's work on hallucination tendency provides critical tools for the "AI 
 
 ## Papers in this Vault
 
-- [[2024-Uluoglakci-HypoTermQA|HypoTermQA]]
+
+- [[2024-Uluoglakci-HypoTermQA|HypoTermQA]] (First Author)
 
 ## External Links & Profiles
 
@@ -54,4 +55,6 @@ Uluoglakci's work on hallucination tendency provides critical tools for the "AI 
 - [ResearchGate Profile](https://www.researchgate.net/profile/Cem-Uluoglakci)
 
 ## Notes
+
+- *From 2024-Uluoglakci-HypoTermQA*: Affiliation: School of Informatics, Email: ttemizel@metu.edu.tr
 Cem's focus on "Hypothetical Terms" is a clever methodology for bypassing the "Contamination" problem in LLM benchmarks, as models cannot have seen these fictitious terms in their training data.

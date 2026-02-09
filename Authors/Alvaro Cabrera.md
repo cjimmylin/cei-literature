@@ -30,10 +30,13 @@ Alvaro's research centers on the equitable evaluation of AI systems across langu
 - [In-language Exams for Massively Multilingual Vision Evaluation](https://arxiv.org/abs/2400.00000) (2025) - *Proposed at CVPR 2025.*
 
 ## Papers in this Vault
-- [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
+
+- [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## External Links & Profiles
 - [LinkedIn](https://ae.linkedin.com/in/alvaro-cabrera-r)
 
 ## Notes
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 [Collaborator with Aman Chadha on large-scale multilingual evaluation projects.]

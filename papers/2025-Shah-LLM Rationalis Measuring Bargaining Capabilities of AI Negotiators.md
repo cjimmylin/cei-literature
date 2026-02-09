@@ -9,6 +9,7 @@ type: preprint
 short_title: LLM Rationalis? Measuring Bargaining Capabilities of AI Negotiators
 year: 2025
 first_author: "[[Cheril Shah]]"
+last_author: "[[Mourad Heddaya]]"
 authors: Cheril Shah; Akshit Agarwal; Kanak Garg; Mourad Heddaya
 url: "https://arxiv.org/abs/2512.13063"
 external_pdf: "https://arxiv.org/pdf/2512.13063.pdf"

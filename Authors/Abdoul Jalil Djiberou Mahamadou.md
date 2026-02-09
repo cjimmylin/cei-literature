@@ -3,7 +3,7 @@ name: "Abdoul Jalil Djiberou Mahamadou"
 title: "Postdoctoral Scholar in AI Ethics"
 affiliation: "Stanford University, Center for Biomedical Ethics"
 highest_degree: "PhD, Clermont Auvergne University"
-email: ""
+email: "jung.ha@khu.ac.kr"
 research_interests:
   - "Algorithmic Bias & Fairness"
   - "Healthcare AI Ethics"
@@ -32,6 +32,7 @@ Abdoul's research investigates the ethics of AI in healthcare settings, specific
 
 ## Papers in this Vault
 
+
 - [[2025-Ochasi-Reframing Justice in Healthcare AI|Reframing Justice in Healthcare AI]]
 
 ## External Links & Profiles
@@ -42,4 +43,6 @@ Abdoul's research investigates the ethics of AI in healthcare settings, specific
 - [ORCID](https://orcid.org/0000-0002-7913-9296)
 
 ## Notes
+
+- *From 2025-Ochasi-Reframing Justice in Healthcare AI*: Affiliation: School of Physical Education, Kyung Hee University, Yongin 17104, Republic of Korea, Email: jung.ha@khu.ac.kr
 [Key researcher in the ELSI of AI within the Stanford medical ecosystem.]

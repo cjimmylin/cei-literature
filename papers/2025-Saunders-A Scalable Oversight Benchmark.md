@@ -8,6 +8,7 @@ type: document
 short_title: "A Scalable Oversight Benchmark"
 year: 2025
 first_author: "[[Abhimanyu Pallavi Sudhir]]"
+last_author: "[[Arjun Panickssery]]"
 authors: "Abhimanyu Pallavi Sudhir; Jackson Kaunismaa; Arjun Panickssery"
 url: "https://arxiv.org/abs/2504.03731"
 external_pdf: "https://arxiv.org/pdf/2504.03731.pdf"

@@ -1,6 +1,6 @@
 ---
 name: "Minwoo Kim"
-affiliation: "University/Organization"
+affiliation: "University Bundang Hospital"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Lee-KorNAT|KorNAT]]
 
 ## Notes
 
+
+- *From 2024-Lee-KorNAT*: Affiliation: University Bundang Hospital, Email: 3shwon0213@gmail.com
 [Additional context or contact information]

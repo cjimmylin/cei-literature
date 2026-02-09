@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Deontological coherence"
 year: 2025
 first_author: "[[Keith J. Holyoak]]"
+last_author: "[[Powell, Derek]]"
 authors: "[[Holyoak, Keith J.]]; [[Powell, Derek]]"
 doi: 10.1037/bul0000075
 url: "https://doi.apa.org/doi/10.1037/bul0000075"
@@ -36,22 +37,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Keith J. Holyoak]], [[Derek Powell]]
-## Metadata
-
-**Authors:** Holyoak, Keith J.; Powell, Derek
-
-**Year:** 2016
-
-**Publication:** Psychological Bulletin
-
-**Type:** journalArticle
-
-**DOI:** [10.1037/bul0000075](https://doi.org/10.1037/bul0000075)
-
-**Pages:** 1179-1203
-
-**Volume/Issue:** Vol. 142, Issue 11
+[[Holyoak, Keith J]], [[Derek Powell|Powell, Derek]]
 
 ## Links
 

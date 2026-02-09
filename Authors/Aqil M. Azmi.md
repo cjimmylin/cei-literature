@@ -1,6 +1,6 @@
 ---
 name: "Azmi, Aqil M."
-affiliation: "University/Organization"
+affiliation: "University Computer and Information Sciences          (2025) 37:135"
 research_interests:
   - "Research area 1"
   - "Research area 2"
@@ -25,3 +25,7 @@ University/Organization
 - Website:
 - Google Scholar:
 - Semantic Scholar:
+
+## Papers in this Vault
+
+- [[2025-Aleid-Hajj-FQA|Hajj-FQA]] (Last Author)

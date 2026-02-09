@@ -8,6 +8,7 @@ type: document
 year: 2025
 short_title: GurbaniDB
 first_author: [[Project]]
+last_author: "[[The Sikher]]"
 authors: "Project; The Sikher"
 url: "https://sikher.com/projects/gurbanidb/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ZNGV87C6/Project - GurbaniDB.pdf"

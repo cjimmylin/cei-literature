@@ -30,6 +30,8 @@ This research addresses the gap between academic text-to-SQL studies and real-wo
 
 ## Papers in this Vault
 
+
+- [[2023-Li-BIRD|BIRD]]
 - [[2023-Li-Can LLM Already Serve as A Database Interface|Can LLM Already Serve as A Database Interface?]]
 
 ## External Links
@@ -38,4 +40,6 @@ This research addresses the gap between academic text-to-SQL studies and real-wo
 
 ## Notes
 
+
+- *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk
 Research collaborators include Jinyang Li, Binyuan Hui, and others from Tsinghua University and Alibaba. The BIRD benchmark has become influential in text-to-SQL research.

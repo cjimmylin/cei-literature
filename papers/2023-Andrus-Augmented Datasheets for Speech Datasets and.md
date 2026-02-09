@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Augmented Datasheets for Speech Datasets and"
 year: 2025
 first_author: "[[McKane Andrus]]"
+last_author: "[[McKane Andrus]]"
 authors: "McKane Andrus"
 doi: 10.1145/3593013.3594049
 url: "https://dl.acm.org/doi/10.1145/3593013.3594049"

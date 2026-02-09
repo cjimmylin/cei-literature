@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Hard Problem AI Alignment Value Forks"
 year: 2025
 first_author: "[[Markus Kneer]]"
+last_author: "[[Juri Viehoff]]"
 authors: "Markus Kneer; Juri Viehoff"
 doi: 10.1145/3715275.3732174
 url: "https://dl.acm.org/doi/10.1145/3715275.3732174"

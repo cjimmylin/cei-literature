@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: Fake Alignment (FINE Framework)
 year: 2024
 first_author: "[[Yixu Wang]]"
+last_author: "[[Yixu Wang]]"
 authors: Yixu Wang et al.
+authors_incomplete: true
 publication: ACL 2024
 external_pdf: "https://arxiv.org/pdf/2510.05703.pdf"
 local_pdf: "[[PDFs/2024/2024-Wang-Fake Alignment FINE Framework.pdf]]"
@@ -36,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Yixu Wang et al.]]
+[[Yixu Wang]]
 
 ## Metadata
 

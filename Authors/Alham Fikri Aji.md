@@ -46,7 +46,10 @@ He has created benchmarks like **Global PIQA** and **SEA-SafeguardBench** to ass
 
 ## Papers in this Vault
 
-- [[2025-Aji-SEA-SafeguardBench|SEA-SafeguardBench]] *(Note: Verify correct file link)*
+
+- [[2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in|From Surveys to Narratives: Rethinking Cultural Value Adaptation in LLMs]] (Last Author)
+- [[2024-Adilazuarda-Towards Measuring and Modeling |Towards Measuring and Modeling \]]
+- [[2023-Rizqullah-QASiNa|QASiNa]] (Last Author)
 
 ## External Links & Profiles
 
@@ -60,4 +63,6 @@ He has created benchmarks like **Global PIQA** and **SEA-SafeguardBench** to ass
 - [Twitter/X](https://twitter.com/alhamfikri)
 
 ## Notes
+
+- *From 2023-Rizqullah-QASiNa*: Affiliation: School of Electrical Engineering and Informatics, Email: alham.fikri@mbzuai.ac.ae
 [Alham is a primary leader in democratizing NLP for low-resource and Southeast Asian languages.]

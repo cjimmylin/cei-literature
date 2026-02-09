@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Deontology and Utilitarianism in Real Life"
 year: 2025
 first_author: "[[Anita Körner]]"
+last_author: "[[Deutsch, Roland]]"
 authors: "[[Körner, Anita]]; [[Deutsch, Roland]]"
 doi: 10.1177/01461672221103058
 url: "https://journals.sagepub.com/doi/10.1177/01461672221103058"
@@ -37,22 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Anita Körner]], [[Roland Deutsch]]
-## Metadata
-
-**Authors:** Körner, Anita; Deutsch, Roland
-
-**Year:** 2023
-
-**Publication:** Personality and Social Psychology Bulletin
-
-**Type:** journalArticle
-
-**DOI:** [10.1177/01461672221103058](https://doi.org/10.1177/01461672221103058)
-
-**Pages:** 1511-1528
-
-**Volume/Issue:** Vol. 49, Issue 10
+[[Anita Körner|Körner, Anita]], [[Roland Deutsch|Deutsch, Roland]]
 
 ## Links
 

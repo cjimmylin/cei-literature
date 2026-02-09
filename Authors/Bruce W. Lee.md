@@ -3,7 +3,7 @@ name: "Bruce W. Lee"
 title: "Research Scholar"
 affiliation: "University of Pennsylvania & MATS"
 highest_degree: "BS in Computer Science (Candidate), UPenn"
-email: ""
+email: "brucelws@seas.upenn.edu"
 research_interests:
   - "AI Safety"
   - "ML Alignment"
@@ -46,10 +46,9 @@ Despite being early in his career, he has co-authored influential work on the em
 - [Programming Refusal with Conditional Activation Steering](https://arxiv.org/abs/2301.00000) (2023) - *Research on steerable AI safety.*
 
 ## Papers in this Vault
-- [[2025-Lee-When Prompting Fails to Sway|When Prompting Fails to Sway]]
-- [[2025-Mazeika-Utility Engineering|Utility Engineering]]
 
-- [[2024-Ungless-ETHICS WHITEPAPER|ETHICS WHITEPAPER]]
+- [[2025-Lee-When Prompting Fails to Sway|When Prompting Fails to Sway]] (First Author)
+- [[2025-Mazeika-Utility Engineering|Utility Engineering]]
 
 ## External Links & Profiles
 
@@ -63,4 +62,6 @@ Despite being early in his career, he has co-authored influential work on the em
 - [Twitter/X](https://twitter.com/brucewlee_)
 
 ## Notes
+
+- *From 2025-Lee-When Prompting Fails to Sway*: Affiliation: University of Pennsylvania, Email: brucelws@seas.upenn.edu
 [Bruce is a promising young researcher focusing on the technical alignment of AI agents.]

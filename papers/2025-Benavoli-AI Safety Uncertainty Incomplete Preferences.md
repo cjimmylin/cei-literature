@@ -8,6 +8,7 @@ type: preprint
 short_title: "AI Safety Uncertainty Incomplete Preferences"
 year: 2025
 first_author: "[[Alessio Benavoli]]"
+last_author: "[[Marco Zaffalon]]"
 authors: "Alessio Benavoli; Alessandro Facchini; Marco Zaffalon"
 doi: 10.48550/arXiv.2512.23508
 url: "https://arxiv.org/abs/2512.23508"

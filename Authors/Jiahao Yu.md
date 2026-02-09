@@ -20,7 +20,8 @@ Jiahao Yu is a final-year Computer Science Ph.D. candidate at Northwestern Unive
 
 ## Papers in this Vault
 
-- [[2023-Yu-GPTFuzzer|GPTFuzzer]]
+
+- [[2023-Yu-GPTFuzzer|GPTFuzzer]] (First Author)
 
 ## Notes
 

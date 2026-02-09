@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: BasqBBQ (Basque BBQ)
 year: 2025
 first_author: "[[Muitze Zulaika]]"
+last_author: "[[Muitze Zulaika]]"
 authors: Muitze Zulaika et al
+authors_incomplete: true
 publication: COLING 2025
 external_pdf: "https://arxiv.org/pdf/2308.10684v2.pdf"
 local_pdf: "[[PDFs/2025/2025-Zulaika-BasqBBQ Basque BBQ.pdf]]"
@@ -36,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Muitze Zulaika et al]]
+[[Muitze Zulaika]]
 
 ## Metadata
 

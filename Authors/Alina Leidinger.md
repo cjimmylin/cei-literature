@@ -3,7 +3,7 @@ name: "Alina Leidinger"
 title: "PhD Candidate"
 affiliation: "University of Amsterdam (ILLC)"
 highest_degree: "M.Sc."
-email: ""
+email: "giada@hf.co"
 research_interests:
   - "NLP Robustness"
   - "Computational Linguistics"
@@ -31,7 +31,8 @@ Alina's research investigates the vulnerabilities of LLM guardrails and the syst
 - [Data Feminism for AI: A Framework for Intersectional Fairness](https://arxiv.org/abs/2301.00000) (2023) - *Proposing social-justice frameworks for AI evaluation.*
 
 ## Papers in this Vault
-- [[2024-Leidinger-What prevents me from answering this|What prevents me from answering this]]
+
+- [[2024-Pistilli-CIVICS|CIVICS]]
 
 ## External Links & Profiles
 - [Personal Website](https://aleidinger.github.io/)
@@ -39,4 +40,6 @@ Alina's research investigates the vulnerabilities of LLM guardrails and the syst
 - [Google Scholar](https://scholar.google.com/citations?user=nK-pQ-0AAAAJ)
 
 ## Notes
+
+- *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co
 [Focused on the socio-technical factors that influence how LLMs refuse or censor content.]

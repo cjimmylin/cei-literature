@@ -31,6 +31,7 @@ Abteen's work centers on the AmericasNLI project, which benchmarks the zero-shot
 
 ## Papers in this Vault
 
+
 - [[2022-Kann-AmericasNLI|AmericasNLI]]
 
 ## External Links & Profiles
@@ -43,4 +44,6 @@ Abteen's work centers on the AmericasNLI project, which benchmarks the zero-shot
 - [Personal Website](https://abteen.github.io/)
 
 ## Notes
+
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 [Specializes in the evaluation of AI systems for communities with minimal digital presence.]

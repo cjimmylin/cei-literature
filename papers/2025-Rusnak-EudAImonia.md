@@ -8,6 +8,7 @@ type: journalArticle
 short_title: EudAImonia
 year: 2025
 first_author: "[[Alexander Rusnak]]"
+last_author: "[[Seals, Zachary]]"
 authors: "[[Rusnak, Alexander]]; [[Seals, Zachary]]"
 doi: N/A
 url: "https://iscast.org/journal/cposat/"
@@ -35,16 +36,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Alexander Rusnak]], [[Zachary Seals]]
-## Metadata
-
-**Authors:** Rusnak, Alexander; Seals, Zachary
-
-**Year:** 2025
-
-**Type:** journal article
-
-**Publisher:** The ISCAST Journal (Christian Perspectives on Science and Technology)
+[[Alexander Rusnak|Rusnak, Alexander]], [[Zachary Seals|Seals, Zachary]]
 
 ## Links
 

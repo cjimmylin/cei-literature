@@ -29,8 +29,9 @@ Denis Dimitrov is a research scientist at SberDevices working on large language 
 - Code generation
 
 ## Papers in this Vault
+
+- [[2025-Vasilev-RusCode|RusCode]] (Last Author)
 - [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]]
-- [[2025-Vasilev-RusCode|RusCode]]
 
 ## Links
 - Semantic Scholar: https://www.semanticscholar.org/author/Denis-Dimitrov/2265548871

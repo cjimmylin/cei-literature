@@ -1,6 +1,6 @@
 ---
 name: "Amy Zhang"
-affiliation: University/Organization
+affiliation: "University of Washington"
 research_interests: 
 website: 
 google_scholar: 
@@ -23,3 +23,7 @@ University/Organization
 - Website:
 - Google Scholar:
 - Semantic Scholar:
+
+## Papers in this Vault
+
+- [[2023-Barrett-Skin Deep|Skin Deep]] (Last Author)

@@ -8,6 +8,7 @@ type: document
 short_title: "Islam QA"
 year: 2025
 first_author: "[[M. Miah]]"
+last_author: "[[M. Miah]]"
 authors: "M. Miah"
 url: "https://www.kaggle.com/datasets/mamun18/islam-qa-dataset"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/JJPDXDYI/Miah - 2023 - Islam QA Web-scraped Islamic Question-Answer Corpus.pdf"

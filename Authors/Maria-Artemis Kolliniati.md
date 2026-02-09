@@ -1,6 +1,6 @@
 ---
 name: "Maria-Artemis Kolliniati"
-affiliation: "University/Organization"
+affiliation: "University of Athens, Greece"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Gounaris-Virtue in the Machine|Virtue in the Machine]]
+
+- [[2025-Gounaris-Virtue in the Machine|Virtue in the Machine]] (Last Author)
 
 ## Notes
 
+
+- *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
 [Additional context or contact information]

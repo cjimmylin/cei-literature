@@ -30,7 +30,8 @@ Allen's research spans the intersection of NLP and Reinforcement Learning. He is
 - [Token-level Direct Preference Optimization](https://arxiv.org/abs/2401.00000) (2024) - *Advancing preference learning for LLM alignment.*
 
 ## Papers in this Vault
-- [[2019-Zhong-DeepTruth|DeepTruth]]
+
+- [[2023-Nie-MoCa|MoCa]] (First Author)
 
 ## External Links & Profiles
 - [Personal Website](https://anie.me/)

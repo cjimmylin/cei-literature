@@ -10,7 +10,9 @@ type: preprint
 short_title: "COMETH: Contextual Organization of Moral Evaluation from Textual Human Inputs"
 year: 2025
 first_author: "[[G. Morlat]]"
+last_author: "[[G. Morlat]]"
 authors: Morlat, G. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2512.21439"
 external_pdf: "https://arxiv.org/pdf/2512.21439.pdf"
 local_pdf: "[[PDFs/2025/2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human.pdf]]"
@@ -39,7 +41,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Morlat, G. et al.]]
+[[G. Morlat]]
 
 ## Metadata
 

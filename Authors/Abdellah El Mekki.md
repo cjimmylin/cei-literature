@@ -32,7 +32,9 @@ Abdellah's research focuses on the intersection of multilingual NLP and AI value
 
 ## Papers in this Vault
 
+
 - [[2025-Alwajih-Palm|Palm]]
+- [[2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and|PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture]]
 
 ## External Links & Profiles
 
@@ -46,4 +48,6 @@ Abdellah's research focuses on the intersection of multilingual NLP and AI value
 - [GitHub](https://github.com/elmekki)
 
 ## Notes
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 [A leading researcher in the cultural and value alignment of Arabic AI models.]

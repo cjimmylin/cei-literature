@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Addressing Moral Uncertainty using Large Language"
 year: 2025
 first_author: "[[Rohit K. Dubey]]"
+last_author: "[[Mahajan, Sachit]]"
 authors: "[[Dubey, Rohit K.]]; [[Dailisan, Damian]]; [[Mahajan, Sachit]]"
 doi: 10.48550/arXiv.2503.05724
 url: "http://arxiv.org/abs/2503.05724"
@@ -38,18 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Rohit K. Dubey]], [[Damian Dailisan]], [[Sachit Mahajan]]
-## Metadata
-
-**Authors:** Dubey, Rohit K.; Dailisan, Damian; Mahajan, Sachit
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2503.05724](https://doi.org/10.48550/arXiv.2503.05724)
-
-**Publisher:** arXiv
+[[Dubey, Rohit K]], [[Damian Dailisan|Dailisan, Damian]], [[Sachit Mahajan|Mahajan, Sachit]]
 
 ## Links
 

@@ -1,6 +1,6 @@
 ---
 name: "Samuel Bowman"
-affiliation: "University/Organization"
+affiliation: "Center for Data Science"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2022-Parrish-BBQ|BBQ]]
+
+- [[2022-Parrish-BBQ|BBQ]] (Last Author)
 
 ## Notes
 
+
+- *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science
 [Additional context or contact information]

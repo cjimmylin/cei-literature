@@ -29,6 +29,7 @@ Clement Crepy is a researcher affiliated with UC Berkeley and Google Research wh
 - Showed that adversarial prompt selection can influence model behavior on downstream tasks through moral foundation manipulation
 
 ## Papers in this Vault
+
 - [[2024-Abdulhai-Moral Foundations of Large Language Models|Moral Foundations of Large Language Models]]
 
 ## External Links & Profiles
@@ -36,4 +37,6 @@ Clement Crepy is a researcher affiliated with UC Berkeley and Google Research wh
 - [Paper on arXiv](https://arxiv.org/abs/2310.15337)
 
 ## Notes
+
+- *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
 Highly relevant to AI ethics research. The work demonstrates that LLMs trained on internet data may reflect political and moral biases present in training corpora. Finding that some models show conservative-leaning moral foundations by default has important implications for AI alignment and value representation in deployed systems.

@@ -1,6 +1,6 @@
 ---
 name: "Jena Hwang"
-affiliation: "University/Organization"
+affiliation: "Department of Computer Science & Engineering, University of Washington"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Sorensen-Value Kaleidoscope|Value Kaleidoscope]]
 
 ## Notes
 
+
+- *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 [Additional context or contact information]

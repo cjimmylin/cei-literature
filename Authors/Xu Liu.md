@@ -1,6 +1,6 @@
 ---
 name: "Xu Liu"
-affiliation: "University/Organization"
+affiliation: "College of Computer Science, Inner Mongolia University, China"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Lan-McBE|McBE]]
 
 ## Notes
 
+
+- *From 2025-Lan-McBE*: Affiliation: College of Computer Science, Inner Mongolia University, China, Email: cssxd@imu.edu.cn
 [Additional context or contact information]

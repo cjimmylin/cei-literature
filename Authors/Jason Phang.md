@@ -24,7 +24,8 @@ At EleutherAI, Phang has helped establish a radically novel approach to AI resea
 
 ## Papers in this Vault
 
-- [[2022-Parrish-BBQ|BBQ: A Hand-Built Bias Benchmark for Question Answering]]
+
+- [[2022-Parrish-BBQ|BBQ]]
 
 ## Notable Contributions
 
@@ -35,5 +36,7 @@ At EleutherAI, Phang has helped establish a radically novel approach to AI resea
 
 ## Notes
 
+
+- *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science
 Phang's last name is written as a phonetic transliteration from Hakka Chinese, where the character is pronounced closer to "Pang."
 

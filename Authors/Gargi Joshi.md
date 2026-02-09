@@ -32,7 +32,8 @@ This work addresses limitations of traditional polygraph tests and existing data
 
 ## Papers in this Vault
 
-- [[2025-Joshi-Multimodal machine learning for deception|Multimodal machine learning for deception]]
+
+- [[2025-Joshi-Multimodal machine learning for deception|Multimodal machine learning for deception]] (First Author)
 
 ## External Links
 
@@ -40,4 +41,6 @@ This work addresses limitations of traditional polygraph tests and existing data
 
 ## Notes
 
+
+- *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 Research funded by MeitY, Government of India (grant sanction ID: 4(13)/2021-ITEA). Collaborators include Vaibhav Tasgaonkar, Aditya Deshpande, Rahee Walambe, and Ketan Kotecha.

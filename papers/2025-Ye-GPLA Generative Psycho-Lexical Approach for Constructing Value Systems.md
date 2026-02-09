@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: "GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems"
 year: 2025
 first_author: "[[H. Ye]]"
+last_author: "[[H. Ye]]"
 authors: Ye, H. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2502.02444"
 external_pdf: "https://arxiv.org/pdf/2502.02444.pdf"
 local_pdf: "[[PDFs/2025/2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Ye, H. et al.]]
+[[H. Ye]]
 
 ## Metadata
 

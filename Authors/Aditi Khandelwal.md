@@ -19,10 +19,14 @@ Aditi Khandelwal is a PhD student at Mila - Quebec Artificial Intelligence Insti
 
 ## Papers in this Vault
 
+
+- [[2024-Agarwal-Ethical Reasoning Depends on Language|Ethical Reasoning Depends on Language]]
+- [[2024-Khandelwal-Do Moral Judgment and Reasoning Capability of|Do Moral Judgment and Reasoning Capability of]] (First Author)
+- [[2023-Deng-Probing the Moral Development of Large Language|Probing the Moral Development of Large Language]]
 - [[2023-Rao-Ethical Reasoning over Moral Alignment|Ethical Reasoning over Moral Alignment]]
-- [[2024-Agarwal-Ethical Reasoning and Moral Value Alignment of|Ethical Reasoning and Moral Value Alignment of]]
-- [[2024-Khandelwal-Do Moral Judgment and Reasoning Capability of|Do Moral Judgment and Reasoning Capability of]]
 
 ## Notes
 
+
+- *From 2023-Deng-Probing the Moral Development of Large Language*: Affiliation: school students, Email: t-ktanmay@microsoft.com
 [Additional context or contact information]

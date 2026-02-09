@@ -1,7 +1,7 @@
 ---
 name: "Majd Hawasly"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of British Columbia"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,10 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and|PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and]]
-- [[2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in|IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in]]
+- [[2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and|PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture]]
+- [[2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in|IslamicEval 2025 -- Shared Task on Capturing LLM Hallucination in Islamic Content]]
 
 ## External Links & Profiles
 
@@ -84,6 +83,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and*: Affiliation: University of British Columbia
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

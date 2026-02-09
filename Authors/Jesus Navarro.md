@@ -17,6 +17,7 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2022-Hendrycks-What Would Jiminy Cricket Do|What Would Jiminy Cricket Do?]]
 
 ## Notes

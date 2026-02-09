@@ -1,6 +1,6 @@
 ---
 name: "Yan Solihin"
-affiliation: "University/Organization"
+affiliation: "University of Central Florida"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and|Jailbreaking LLMs with Arabic Transliteration and]]
 
 ## Notes
 
+
+- *From 2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and*: Affiliation: University of Central Florida
 [Additional context or contact information]

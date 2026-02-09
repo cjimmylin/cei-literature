@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Religious Belief and the Moral Circle"
 year: 2025
 first_author: "[[Benjamin Grant Purzycki]]"
+last_author: "[[Joseph Henrich]]"
 authors: "Benjamin Grant Purzycki; Coren Apicella; Quentin D. Atkinson; Emma Cohen; Rita Anne McNamara; Aiyana K. Willard; Dimitris Xygalatas; Ara Norenzayan; Joseph Henrich"
 url: "https://www.nature.com/articles/sdata201660"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/D4GRALMJ/Purzycki and others - 2016 - Religious Belief and the Moral Circle Cross-Cultural Dataset.pdf"

@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "People Expect AI Moral Advisors More Utilitarian"
 year: 2025
 first_author: "[[Simon Myers]]"
+last_author: "[[Jim A.C. Everett]]"
 authors: "Simon Myers; Jim A.C. Everett"
 doi: 10.1016/j.cognition.2024.106028
 url: "https://www.sciencedirect.com/science/article/pii/S0010027724003147"

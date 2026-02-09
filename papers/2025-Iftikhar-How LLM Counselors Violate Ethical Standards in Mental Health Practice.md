@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: How LLM Counselors Violate Ethical Standards in Mental Health Practice
 year: 2025
 first_author: "[[Zainab Iftikhar]]"
+last_author: "[[Harini Suresh]]"
 authors: Zainab Iftikhar; Amy Xiao; Sean Ransom; Jeff Huang; Harini Suresh
 doi: 10.1609/aies.v8i1.36632
 url: "https://doi.org/10.1609/aies.v8i1.36632"

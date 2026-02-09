@@ -46,9 +46,9 @@ Qin achieved the #1 spot on the Spider (Text-to-SQL) and CSQA leaderboards. His 
 - [Analyzing Hallucinations in Multi-turn Dialogue Systems](https://arxiv.org/abs/2309.00000) (2023) - *Research on the stability of long-context AI interactions.*
 
 ## Papers in this Vault
-- [[2023-Li-Can LLM Already Serve as A Database Interface|Can LLM Already Serve as A Database Interface?]]
 
-- [[2021-Xiang-Enriching Author Profiles|Enriching Author Profiles]]
+- [[2023-Li-BIRD|BIRD]]
+- [[2023-Li-Can LLM Already Serve as A Database Interface|Can LLM Already Serve as A Database Interface?]]
 
 ## External Links & Profiles
 
@@ -57,4 +57,6 @@ Qin achieved the #1 spot on the Spider (Text-to-SQL) and CSQA leaderboards. His 
 - [Semantic Scholar](https://www.semanticscholar.org/author/Bowen-Qin/145450417)
 
 ## Notes
+
+- *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk
 Bowen's work on "Text-to-SQL" and "Dialogue Hallucinations" is a key technical contribution to the goal of "honest" AI—systems that accurately report what they know and what is in the data.

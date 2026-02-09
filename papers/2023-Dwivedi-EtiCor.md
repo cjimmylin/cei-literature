@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: EtiCor
 year: 2025
 first_author: "[[Ashutosh Dwivedi]]"
+last_author: "[[Ashutosh Modi]]"
 authors: "Ashutosh Dwivedi; Pradhyumna Lavania; Ashutosh Modi"
 doi: 10.18653/v1/2023.emnlp-main.428
 url: "https://aclanthology.org/2023.emnlp-main.428/"

@@ -9,7 +9,9 @@ type: preprint
 short_title: "BRAND: Bilingual Religious Accountable Norm Dataset"
 year: 2025
 first_author: "[[K.A. Hossain]]"
+last_author: "[[K.A. Hossain]]"
 authors: Hossain, K.A. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2512.03943"
 external_pdf: "https://arxiv.org/pdf/2512.03943.pdf"
 local_pdf: "[[PDFs/2025/2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Hossain, K.A. et al.]]
+[[K.A. Hossain]]
 
 ## Metadata
 

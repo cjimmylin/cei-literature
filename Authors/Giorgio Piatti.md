@@ -32,8 +32,9 @@ The research team open-sourced the GovSim simulation environment, agent prompts,
 
 ## Papers in this Vault
 
+
 - [[2024-Jin-Language Model Alignment in Multilingual Trolley|Language Model Alignment in Multilingual Trolley]]
-- [[2024-Piatti-Cooperate or Collapse|Cooperate or Collapse]]
+- [[2024-Piatti-Cooperate or Collapse|Cooperate or Collapse]] (First Author)
 
 ## External Links
 
@@ -43,4 +44,6 @@ The research team open-sourced the GovSim simulation environment, agent prompts,
 
 ## Notes
 
+
+- *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
 NeurIPS 2024 publication. Research collaborators include Zhijing Jin, Max Kleiman-Weiner, Bernhard Scholkopf, Mrinmaya Sachan, and Rada Mihalcea.

@@ -8,6 +8,7 @@ type: preprint
 short_title: "Legal Alignment for Safe and Ethical AI"
 year: 2025
 first_author: "[[Noam Kolt]]"
+last_author: "[[Jonathan Zittrain]]"
 authors: "[[Kolt, Noam]], [[Caputo, Nicholas]], [[Boeglin, Jack]], [[O'Keefe, Cullen]], [[Bommasani, Rishi]], [[Casper, Stephen]], [[Cuéllar, Mariano-Florentino]], [[Feldman, Noah]], [[Gabriel, Iason]], [[Hadfield, Gillian K.]], [[Hammond, Lewis]], [[Henderson, Peter]], [[Kasirzadeh, Atoosa]], [[Lazar, Seth]], [[Reuel, Anka]], [[Wei, Kevin L.]], [[Zittrain, Jonathan]]"
 doi: 10.48550/arXiv.2601.04175
 tags: "Computer Science - AI Ethics"
@@ -38,20 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Noam Kolt]], [[Nicholas Caputo]], [[Jack Boeglin]], [[Cullen O'Keefe]], [[Rishi Bommasani]], [[Stephen Casper]], [[Mariano-Florentino Cuéllar]], [[Noah Feldman]], [[Iason Gabriel]], [[Gillian K. Hadfield]], [[Lewis Hammond]], [[Peter Henderson]], [[Atoosa Kasirzadeh]], [[Seth Lazar]], [[Anka Reuel]], [[Kevin L. Wei]], [[Jonathan Zittrain]]
-## Metadata
-
-**Authors:** Kolt, Noam; Caputo, Nicholas; Boeglin, Jack; O'Keefe, Cullen; Bommasani, Rishi; Casper, Stephen; Cuéllar, Mariano-Florentino; Feldman, Noah; Gabriel, Iason; Hadfield, Gillian K.; Hammond, Lewis; Henderson, Peter; Kasirzadeh, Atoosa; Lazar, Seth; Reuel, Anka; Wei, Kevin L.; Zittrain, Jonathan
-
-**Year:** 2026
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2601.04175](https://doi.org/10.48550/arXiv.2601.04175)
-
-**Publisher:** arXiv
-
-**Affiliations:** Multiple institutions including Stanford, Harvard, Oxford, DeepMind/Google, Anthropic, MIT
+[[Noam Kolt]], [[Nicholas A. Caputo|Nicholas Caputo]], [[Jack Boeglin]], [[Cullen O'Keefe]], [[Rishi Bommasani]], [[Stephen Casper]], [[Mariano-Florentino Cuéllar]], [[Noah Feldman]], [[Iason Gabriel]], [[Gillian K. Hadfield]], [[Lewis Hammond]], [[Peter Henderson]], [[Atoosa Kasirzadeh]], [[Seth Lazar]], [[Anka Reuel]], [[Kevin L. Wei]], [[Jonathan Zittrain]]
 
 ## Links
 

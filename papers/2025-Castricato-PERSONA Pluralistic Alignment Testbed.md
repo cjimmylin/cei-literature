@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: PERSONA (Pluralistic Alignment Testbed)
 year: 2025
 first_author: "[[Louis Castricato]]"
+last_author: "[[Louis Castricato]]"
 authors: Louis Castricato et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2407.17387"
 external_pdf: "https://arxiv.org/pdf/2407.17387.pdf"
 local_pdf: "[[PDFs/2025/2025-Castricato-PERSONA Pluralistic Alignment Testbed.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Louis Castricato et al.]]
+[[Louis Castricato]]
 
 ## Metadata
 

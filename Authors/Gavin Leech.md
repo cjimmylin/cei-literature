@@ -32,7 +32,8 @@ His areas of expertise include Bayesian epidemiology, metascience, computational
 
 ## Papers in this Vault
 
-- [[2024-Leech-Ten Hard Problems in Artificial Intelligence We|Ten Hard Problems in Artificial Intelligence We]]
+
+- [[2024-Leech-Ten Hard Problems in Artificial Intelligence We|Ten Hard Problems in Artificial Intelligence We]] (First Author)
 
 ## External Links
 

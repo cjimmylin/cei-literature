@@ -9,7 +9,9 @@ type: preprint
 short_title: GuardEval
 year: 2025
 first_author: "[[Naseem Machlovi]]"
+last_author: "[[Naseem Machlovi]]"
 authors: Naseem Machlovi et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2601.03273"
 external_pdf: "https://arxiv.org/pdf/2601.03273.pdf"
 local_pdf: "[[PDFs/2025/2025-Machlovi-GuardEval.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Naseem Machlovi et al.]]
+[[Naseem Machlovi]]
 
 ## Metadata
 

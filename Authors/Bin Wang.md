@@ -3,7 +3,7 @@ name: "Bin Wang"
 title: "AI Research Scientist"
 affiliation: "MiroMind & National University of Singapore"
 highest_degree: "PhD in Computer Science, University of Southern California (2021)"
-email: ""
+email: "aihuang@tsinghua.edu.cn"
 research_interests:
   - "Multimodal LLMs"
   - "Conversational AI"
@@ -46,9 +46,8 @@ He has received multiple best paper awards and has served in leadership roles fo
 - [Multimodal Large Language Models for Conversational AI](https://arxiv.org/abs/2301.00000) (2023) - *Investigated the fusion of visual and textual data.*
 
 ## Papers in this Vault
-- [[2022-Sun-MoralDial|MoralDial]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2022-Sun-MoralDial|MoralDial]]
 
 ## External Links & Profiles
 
@@ -58,4 +57,6 @@ He has received multiple best paper awards and has served in leadership roles fo
 - [Personal Website](https://binwang.xyz/)
 
 ## Notes
+
+- *From 2022-Sun-MoralDial*: Affiliation: Institute for Artificial Intelligence; 1State Key Lab of Intelligent Technology and Systems, Email: aihuang@tsinghua.edu.cn
 [Bin is a key researcher in the Singaporean AI landscape, particularly in multimodal learning.]

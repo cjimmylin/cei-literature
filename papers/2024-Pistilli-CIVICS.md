@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: CIVICS
 year: 2025
 first_author: "[[Giada Pistilli]]"
+last_author: "[[Margaret Mitchell]]"
 authors: "Giada Pistilli; Alina Leidinger; Yacine Jernite; Atoosa Kasirzadeh; Alexandra Sasha Luccioni; Margaret Mitchell"
 doi: 10.1609/aies.v7i1.31710
 url: "https://ojs.aaai.org/index.php/AIES/article/view/31710"

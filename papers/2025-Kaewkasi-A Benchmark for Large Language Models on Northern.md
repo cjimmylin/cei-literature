@@ -8,6 +8,7 @@ type: document
 short_title: "A Benchmark for Large Language Models on Northern"
 year: 2025
 first_author: "[[Peerat Limkonchotiwat]]"
+last_author: "[[Potsawee Manakul]]"
 authors: "Peerat Limkonchotiwat; Kanruethai Masuk; Surapon Nonesung; Chalermpun Mai-On; Sarana Nutanong; Wuttikorn Ponwitayarat; Potsawee Manakul"
 url: "https://arxiv.org/abs/2504.05898"
 external_pdf: "https://arxiv.org/pdf/2504.05898.pdf"

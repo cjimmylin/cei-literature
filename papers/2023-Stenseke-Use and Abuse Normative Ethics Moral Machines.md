@@ -8,6 +8,7 @@ type: bookChapter
 short_title: "Use and Abuse Normative Ethics Moral Machines"
 year: 2025
 first_author: "[[Jakob Stenseke]]"
+last_author: "[[Jakob Stenseke]]"
 authors: "Jakob Stenseke"
 doi: 10.3233/FAIA220614
 url: "https://ebooks.iospress.nl/doi/10.3233/FAIA220614"

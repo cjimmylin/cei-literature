@@ -8,6 +8,7 @@ type: document
 short_title: "2025 AI Safety Index"
 year: 2025
 first_author: [[Institute]]
+last_author: "[[Future of Life]]"
 authors: "Institute; Future of Life"
 url: "https://futureoflife.org/ai-safety-index-summer-2025/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/NQNT4L9B/AI-Safety-Index-Summer-2025-2-page-v4.pdf"

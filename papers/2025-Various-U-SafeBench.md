@@ -8,6 +8,7 @@ type: document
 short_title: U-SafeBench
 year: 2025
 first_author: "[[Sean Cleary]]"
+last_author: "[[Katherine St. John]]"
 authors: "Sean Cleary; Mareike Fischer; Katherine St. John"
 url: "https://arxiv.org/abs/2502.12854"
 external_pdf: "https://arxiv.org/pdf/2502.12854.pdf"

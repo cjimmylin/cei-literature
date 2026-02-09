@@ -20,8 +20,11 @@ Katharina Kann (also known as Katharina von der Wense) is an Assistant Professor
 
 ## Papers in this Vault
 
-- [[2022-Kann-AmericasNLI|AmericasNLI]]
+
+- [[2022-Kann-AmericasNLI|AmericasNLI]] (First Author)
 
 ## Notes
 
+
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 [Additional context or contact information]

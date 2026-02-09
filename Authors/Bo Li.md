@@ -3,7 +3,7 @@ name: "Bo Li"
 title: "Abbasi Associate Professor"
 affiliation: "University of Illinois at Urbana-Champaign (UIUC)"
 highest_degree: "PhD, (Inferred)"
-email: ""
+email: "boxinw2@illinois.edu"
 research_interests:
   - "Trustworthy Machine Learning"
   - "AI Robustness"
@@ -49,12 +49,13 @@ She has received some of the most prestigious awards in AI, including the IJCAI 
 - [Holistic Evaluation of Language Models (HELM)](https://arxiv.org/abs/2211.09110) (2022) - *Co-author of the comprehensive benchmark suite.*
 
 ## Papers in this Vault
-- [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
-- [[2024-Zeng-AIR-Bench 2024|AIR-Bench 2024]]
-- [[2022-Hendrycks-What Would Jiminy Cricket Do|What Would Jiminy Cricket Do?]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
-- [[2024-Ungless-ETHICS WHITEPAPER|ETHICS WHITEPAPER]]
+- [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
+- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
+- [[2024-Mazeika-HarmBench|HarmBench]]
+- [[2024-Zeng-AIR-Bench 2024|AIR-Bench 2024]] (Last Author)
+- [[2023-Wang-DecodingTrust|DecodingTrust]] (Last Author)
+- [[2022-Hendrycks-What Would Jiminy Cricket Do|What Would Jiminy Cricket Do?]]
 
 ## External Links & Profiles
 
@@ -69,4 +70,6 @@ She has received some of the most prestigious awards in AI, including the IJCAI 
 - [Personal Website](https://bolaigun.github.io/)
 
 ## Notes
+
+- *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
 [Bo Li is a central figure in the technical AI safety and robustness research community.]

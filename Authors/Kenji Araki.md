@@ -1,6 +1,6 @@
 ---
 name: "Kenji Araki"
-affiliation: "University/Organization"
+affiliation: "School of Information Science and Technology, Hokkaido University"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Takeshita-Towards Theory-based Moral AI|Towards Theory-based Moral AI]]
+
+- [[2023-Takeshita-Towards Theory-based Moral AI|Towards Theory-based Moral AI]] (Last Author)
 
 ## Notes
 
+
+- *From 2023-Takeshita-Towards Theory-based Moral AI*: Affiliation: School of Information Science and Technology, Hokkaido University
 [Additional context or contact information]

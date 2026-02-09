@@ -3,7 +3,7 @@ name: "Amanda Askell"
 title: "Research Scientist"
 affiliation: "Anthropic"
 highest_degree: "PhD in Philosophy, New York University (2018)"
-email: ""
+email: "jared@anthropic.com"
 research_interests:
   - "AI Alignment"
   - "Constitutional AI"
@@ -47,9 +47,12 @@ Selected for TIME's 100 most influential people in AI (2023), she is a key archi
 
 ## Papers in this Vault
 
-- [[2021-Askell-A General Language Assistant as a Laboratory for|A General Language Assistant as a Laboratory for]]
-- [[2022-Bai-Constitutional AI|Constitutional AI]]
+
 - [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]]
+- [[2022-Bai-Constitutional AI|Constitutional AI]]
+- [[2022-Bai-Training a Helpful and Harmless Assistant with|Training a Helpful and Harmless Assistant with]]
+- [[2022-Ganguli-Red Teaming Language Models to Reduce Harms|Red Teaming Language Models to Reduce Harms]]
+- [[2021-Askell-A General Language Assistant as a Laboratory for|A General Language Assistant as a Laboratory for]] (First Author)
 
 ## External Links & Profiles
 
@@ -67,4 +70,6 @@ Selected for TIME's 100 most influential people in AI (2023), she is a key archi
 - [Twitter/X](https://twitter.com/AmandaAskell)
 
 ## Notes
+
+- *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
 [Amanda is a central figure in the development of Claude and Constitutional AI at Anthropic.]

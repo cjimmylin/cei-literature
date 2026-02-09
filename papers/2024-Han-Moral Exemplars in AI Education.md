@@ -6,6 +6,7 @@ type: journalArticle
 short_title: "Moral Exemplars in AI Education"
 year: 2025
 first_author: "[[Hyemin Han]]"
+last_author: "[[Hyemin Han]]"
 authors: "[[Han, Hyemin]]"
 doi: N/A
 url: "https://www.researchgate.net/publication/380001142"

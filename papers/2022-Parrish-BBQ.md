@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: BBQ
 year: 2025
 first_author: "[[Alicia Parrish]]"
+last_author: "[[Samuel Bowman]]"
 authors: "Alicia Parrish; Angelica Chen; Nikita Nangia; Vishakh Padmakumar; Jason Phang; Jana Thompson; Phu Mon Htut; Samuel Bowman"
 doi: 10.18653/v1/2022.findings-acl.165
 url: "https://aclanthology.org/2022.findings-acl.165/"

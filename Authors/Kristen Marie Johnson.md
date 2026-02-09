@@ -1,6 +1,6 @@
 ---
 name: "Kristen Marie Johnson"
-affiliation: "University/Organization"
+affiliation: "University 2Johns Hopkins University"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Liu-Diagnosing Moral Reasoning Acquisition in|Diagnosing Moral Reasoning Acquisition in]]
+
+- [[2025-Liu-Diagnosing Moral Reasoning Acquisition in|Diagnosing Moral Reasoning Acquisition in]] (Last Author)
 
 ## Notes
 
+
+- *From 2025-Liu-Diagnosing Moral Reasoning Acquisition in*: Affiliation: University 2Johns Hopkins University, Email: zqi15@jh.edu
 [Additional context or contact information]

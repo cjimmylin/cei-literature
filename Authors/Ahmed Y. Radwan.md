@@ -1,7 +1,7 @@
 ---
 name: "Ahmed Y. Radwan"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute for Artificial Intelligence, Toronto, Canada"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Raza-HumaniBench|HumaniBench A Human-Centric Framework for Large Multimodal Models]]
+- [[2025-Raza-HumaniBench|HumaniBench]]
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Raza-HumaniBench*: Affiliation: Institute for Artificial Intelligence, Toronto, Canada
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

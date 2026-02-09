@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: MoralDial
 year: 2025
 first_author: "[[Hao Sun]]"
+last_author: "[[Minlie Huang]]"
 authors: "Hao Sun; Zhexin Zhang; Fei Mi; Yasheng Wang; Wei Liu; Jianwei Cui; Bin Wang; Qun Liu; Minlie Huang"
 doi: 10.48550/arXiv.2212.10720
 tags: 

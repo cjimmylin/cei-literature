@@ -31,7 +31,8 @@ Adam's research explores "Contemplative Superalignment"—the theory that AI sys
 
 ## Papers in this Vault
 
-- [[2025-Laukkonen-Contemplative Artificial Intelligence|Contemplative Artificial Intelligence]]
+
+- [[2025-Laukkonen-Contemplative Artificial Intelligence|Contemplative Artificial Intelligence]] (Last Author)
 
 ## External Links & Profiles
 

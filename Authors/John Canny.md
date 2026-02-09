@@ -21,8 +21,11 @@ Beyond his foundational work in computer vision, Canny has contributed to divers
 
 ## Papers in this Vault
 
+
 - [[2024-Abdulhai-Moral Foundations of Large Language Models|Moral Foundations of Large Language Models]]
 
 ## Notes
 
+
+- *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
 The Canny edge detector remains a standard algorithm in image processing textbooks and applications, demonstrating his lasting impact on computer vision. His interdisciplinary work spans from low-level vision to high-level AI ethics.

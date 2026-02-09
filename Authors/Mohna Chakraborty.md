@@ -20,8 +20,11 @@ Mohna Chakraborty is a Postdoctoral Researcher at University of Michigan. Her re
 
 ## Papers in this Vault
 
-- [[2025-Chakraborty-Structured Moral Reasoning in Language Models|Structured Moral Reasoning in Language Models]]
+
+- [[2025-Chakraborty-Structured Moral Reasoning|Structured Moral Reasoning]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Chakraborty-Structured Moral Reasoning*: Affiliation: University of Michigan, Ann Arbor
 [Additional context or contact information]

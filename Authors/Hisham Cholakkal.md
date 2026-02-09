@@ -20,8 +20,11 @@ Hisham Cholakkal is an Assistant Professor in Computer Vision at MBZUAI, where h
 
 ## Papers in this Vault
 
+
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## Notes
 
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 Professor Cholakkal serves on program committees for top conferences including CVPR, ICCV, NeurIPS, ICLR, and ECCV.

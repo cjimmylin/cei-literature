@@ -1,6 +1,6 @@
 ---
 name: "Omer Levy"
-affiliation: "University/Organization"
+affiliation: "School of Computer Science"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2021-Keren-ParaShoot|ParaShoot]]
+
+- [[2021-Keren-ParaShoot|ParaShoot]] (Last Author)
 
 ## Notes
 
+
+- *From 2021-Keren-ParaShoot*: Affiliation: School of Computer Science, Email: omrikeren@mail.tau.ac.il
 [Additional context or contact information]

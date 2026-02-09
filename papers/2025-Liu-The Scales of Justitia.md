@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "The Scales of Justitia"
 year: 2025
 first_author: "[[Songyang Liu]]"
+last_author: "[[Philip S. Yu]]"
 authors: "Songyang Liu; Chaozhuo Li; Jiameng Qiu; Xi Zhang; Feiran Huang; Litian Zhang; Yiming Hei; Philip S. Yu"
 doi: 10.48550/arXiv.2506.11094
 url: "http://arxiv.org/abs/2506.11094"

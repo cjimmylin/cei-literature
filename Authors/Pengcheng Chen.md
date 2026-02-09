@@ -16,8 +16,11 @@ Multiple researchers with similar names found: (1) Zhang Pengcheng - Lecturer at
 
 ## Papers in this Vault
 
-- [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
+
+- [[2024-Chen-GMAI-MMBench|GMAI-MMBench]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
 [Additional context or contact information]

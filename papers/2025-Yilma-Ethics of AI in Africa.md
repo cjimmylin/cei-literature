@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Ethics of AI in Africa"
 year: 2025
 first_author: "[[Kinfe Yilma]]"
+last_author: "[[Kinfe Yilma]]"
 authors: "Kinfe Yilma"
 doi: 10.1007/s10676-025-09834-5
 url: "https://link.springer.com/10.1007/s10676-025-09834-5"

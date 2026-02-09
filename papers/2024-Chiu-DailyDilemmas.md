@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: DailyDilemmas
 year: 2025
 first_author: "[[Yu Ying Chiu]]"
+last_author: "[[Yejin Choi]]"
 authors: "Yu Ying Chiu; Liwei Jiang; Yejin Choi"
 doi: 10.48550/arXiv.2410.02683
 url: "http://arxiv.org/abs/2410.02683"

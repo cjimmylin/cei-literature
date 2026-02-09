@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: Flames
 year: 2025
 first_author: "[[Kexin Huang]]"
+last_author: "[[Dahua Lin]]"
 authors: "Kexin Huang; Xiangyang Liu; Qianyu Guo; Tianxiang Sun; Jiawei Sun; Yaru Wang; Zeyang Zhou; Yixu Wang; Yan Teng; Xipeng Qiu; Yingchun Wang; Dahua Lin"
 doi: 10.48550/arXiv.2311.06899
 url: "http://arxiv.org/abs/2311.06899"

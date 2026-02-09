@@ -30,6 +30,7 @@ Chloe Rolland is a Research Engineer at Meta AI (Facebook AI Research). She play
 
 ## Papers in this Vault
 
+
 - [[2023-Gustafson-FACET|FACET]]
 
 ## External Links & Profiles
@@ -37,4 +38,6 @@ Chloe Rolland is a Research Engineer at Meta AI (Facebook AI Research). She play
 
 ## Notes
 
+
+- *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 Chloe Rolland's engineering leadership on FACET has provided the community with one of the most robust tools for auditing vision models for demographic bias.

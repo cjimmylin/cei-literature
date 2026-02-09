@@ -1,6 +1,6 @@
 ---
 name: "Preslav Nakov"
-affiliation: "University/Organization"
+affiliation: "Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2020-Zampieri-SemEval-2020 Task 12|SemEval-2020 Task 12]]
+
 - [[2024-Wang-Do-Not-Answer|Do-Not-Answer]]
+- [[2020-Zampieri-SemEval-2020 Task 12|SemEval-2020 Task 12]]
 
 ## Notes
 
+
+- *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu
 [Additional context or contact information]

@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: Social (Measuring Social Norms of LLMs)
 year: 2024
 first_author: "[[Ye Yuan]]"
+last_author: "[[Chenguang Wang]]"
 authors: Ye Yuan, Kexin Tang, Jianhao Shen, Ming Zhang, Chenguang Wang
 url: "https://arxiv.org/abs/2404.02491"
 external_pdf: "https://arxiv.org/pdf/2404.02491.pdf"
@@ -37,7 +38,7 @@ data_metrics: "383 questions"
 
 ## Authors
 
-[[Ye Yuan, Kexin Tang, Jianhao Shen, Ming Zhang, Chenguang Wang]]
+[[Ye Yuan]], [[Kexin Tang]], [[Jocelyn Shen|Jianhao Shen]], [[Mike Zhang|Ming Zhang]], [[Chenguang Wang]]
 
 ## Metadata
 

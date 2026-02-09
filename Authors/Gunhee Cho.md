@@ -35,6 +35,7 @@ Key features of CharMoral:
 
 ## Papers in this Vault
 
+
 - [[2025-Bae-CharMoral|CharMoral]]
 
 ## Links
@@ -44,4 +45,6 @@ Key features of CharMoral:
 
 ## Notes
 
+
+- *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg
 Cho's work on moral reasoning in narratives contributes to understanding how AI systems can analyze and classify moral behavior in complex, context-dependent situations.

@@ -36,8 +36,11 @@ Karpov co-authored "Inducing Human-like Biases in Moral Reasoning Language Model
 
 ## Papers in this Vault
 
-- [[2024-Karpov-Inducing Human-like Biases in Moral Reasoning|Inducing Human-like Biases in Moral Reasoning]]
+
+- [[2024-Karpov-Inducing Human-like Biases in Moral Reasoning|Inducing Human-like Biases in Moral Reasoning]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware
 His work on neuroscience-informed AI alignment represents an innovative approach to the alignment problem, using brain imaging data to ground AI moral reasoning in human neural processes rather than purely behavioral patterns.

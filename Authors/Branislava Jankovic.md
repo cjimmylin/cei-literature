@@ -46,6 +46,7 @@ Jankovic is a lead author of the "All Languages Matter" (ALM-bench) project, whi
 
 ## Papers in this Vault
 
+
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## External Links & Profiles
@@ -55,4 +56,6 @@ Jankovic is a lead author of the "All Languages Matter" (ALM-bench) project, whi
 - [MBZUAI Profile](https://mbzuai.ac.ae/students/branislava-jankovic/)
 
 ## Notes
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 Branislava's work on "ALM-bench" is a critical contribution to the "fairness and representation" pillar of AI ethics, moving beyond Western-centric benchmarks.

@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "The Socio-Moral Image Database (SMID)"
 year: 2025
 first_author: "[[Deon Crone]]"
+last_author: "[[Deon Crone]]"
 authors: "Deon Crone"
 doi: 10.1371/journal.pone.0190954
 url: "https://doi.org/10.1371/journal.pone.0190954"

@@ -8,6 +8,7 @@ type: preprint
 short_title: "How Ethical Is Utilitarian Ethics"
 year: 2025
 first_author: "[[Robert W. McGee]]"
+last_author: "[[Robert W. McGee]]"
 authors: "Robert W. McGee"
 doi: 10.2139/ssrn.4731871
 url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4731871"

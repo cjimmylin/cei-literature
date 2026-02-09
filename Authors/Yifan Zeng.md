@@ -18,8 +18,11 @@ Yifan Zeng is a third-year Computer Science PhD student at Oregon State Universi
 
 ## Papers in this Vault
 
-- [[2024-Zeng-Quantifying Risk Propensities of Large Language|Quantifying Risk Propensities of Large Language]]
+
+- [[2024-Zeng-Quantifying Risk Propensities of Large Language|Quantifying Risk Propensities of Large Language]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Zeng-Quantifying Risk Propensities of Large Language*: Affiliation: School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou, China
 [Additional context or contact information]

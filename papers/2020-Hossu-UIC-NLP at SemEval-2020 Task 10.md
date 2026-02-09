@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "UIC-NLP at SemEval-2020 Task 10"
 year: 2025
 first_author: "[[Philip Hossu]]"
+last_author: "[[Natalie Parde]]"
 authors: "Philip Hossu; Natalie Parde"
 doi: 10.18653/v1/2020.semeval-1.223
 url: "https://aclanthology.org/2020.semeval-1.223/"

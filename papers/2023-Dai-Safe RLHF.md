@@ -8,6 +8,7 @@ type: preprint
 short_title: "Safe RLHF"
 year: 2025
 first_author: "[[Josef Dai]]"
+last_author: "[[Yaodong Yang]]"
 authors: "Josef Dai; Xuehai Pan; Ruiyang Sun; Jiaming Ji; Xinbo Xu; Mickel Liu; Yizhou Wang; Yaodong Yang"
 doi: 10.48550/arXiv.2310.12773
 url: "https://arxiv.org/abs/2310.12773"
@@ -61,7 +62,7 @@ This research addresses the challenge of balancing AI system performance with sa
 
 ## Authors
 
-[[Josef Dai]], [[Xuehai Pan]], [[Ruiyang Sun]], [[Jiaming Ji]], [[Xinbo Xu]], [[Mickel Liu]], [[Yizhou Wang]], [[Yaodong Yang]]
+[[Josef Dai]], [[Xuehai Pan]], [[Rui Sun|Ruiyang Sun]], [[Jiaming Ji]], [[Xinbo Xu]], [[Mickel Liu]], [[Yizhou Wang]], [[Yaodong Yang]]
 
 ## Key Contribution
 

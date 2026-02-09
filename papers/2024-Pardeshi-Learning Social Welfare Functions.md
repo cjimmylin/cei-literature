@@ -8,6 +8,7 @@ type: preprint
 short_title: "Learning Social Welfare Functions"
 year: 2025
 first_author: "[[Kanad Shrikar Pardeshi]]"
+last_author: "[[Singh, Aarti]]"
 authors: "[[Pardeshi, Kanad Shrikar]]; [[Shapira, Itai]]; [[Procaccia, Ariel D.]]; [[Singh, Aarti]]"
 doi: 10.48550/arXiv.2410.15000
 url: "https://arxiv.org/abs/2410.15000"
@@ -37,18 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Kanad Shrikar Pardeshi]], [[Itai Shapira]], [[Ariel D. Procaccia]], [[Aarti Singh]]
-## Metadata
-
-**Authors:** Pardeshi, Kanad Shrikar; Shapira, Itai; Procaccia, Ariel D.; Singh, Aarti
-
-**Year:** 2024
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2410.15000](https://doi.org/10.48550/arXiv.2410.15000)
-
-**Publisher:** arXiv
+[[Kanad Shrikar Pardeshi|Pardeshi, Kanad Shrikar]], [[Itai Shapira|Shapira, Itai]], [[Procaccia, Ariel D]], [[Aarti Singh|Singh, Aarti]]
 
 ## Links
 

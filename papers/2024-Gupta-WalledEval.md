@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: WalledEval
 year: 2024
 first_author: "[[Prannaya Gupta]]"
+last_author: "[[Prannaya Gupta]]"
 authors: Prannaya Gupta et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2408.03837"
 external_pdf: "https://arxiv.org/pdf/2408.03837.pdf"
 local_pdf: "[[PDFs/2024/2024-Gupta-WalledEval.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Prannaya Gupta et al.]]
+[[Prannaya Gupta]]
 
 ## Metadata
 

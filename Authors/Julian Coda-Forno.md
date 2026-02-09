@@ -1,9 +1,9 @@
 ---
 name: "Julian Coda-Forno"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute for Human-Centered AI, Helmholtz Munich, Oberschleißheim, Germany"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "elif.akata@uni-tuebingen.de"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
 - [[2025-Akata-Playing Repeated Games with Large Language Models|Playing Repeated Games with Large Language Models]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Akata-Playing Repeated Games with Large Language Models*: Affiliation: Institute for Human-Centered AI, Helmholtz Munich, Oberschleißheim, Germany, Email: elif.akata@uni-tuebingen.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

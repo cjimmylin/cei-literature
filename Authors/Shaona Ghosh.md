@@ -29,8 +29,13 @@ The AEGIS dataset and models have been released to the research community throug
 
 ## Papers in this Vault
 
-- [[2024-Ghosh-AEGIS|AEGIS]]
+
+- [[2025-Ghosh-AEGIS 2.0|AEGIS 2.0]] (First Author)
+- [[2025-Group-AILuminate|AILuminate]] (First Author)
+- [[2024-Ghosh-AEGIS|AEGIS]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Ghosh-AEGIS*:, Email: shaonag@nvidia.com
 Research emphasizes scalable, adaptive approaches to AI safety that can handle diverse risk categories and evolving attack patterns. The work provides both theoretical frameworks and practical tools for content moderation at scale, with significant contributions to the open-source AI safety community.

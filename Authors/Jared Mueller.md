@@ -20,9 +20,12 @@ Constitutional AI represents a significant approach to AI alignment where the mo
 
 ## Papers in this Vault
 
-- [[2022-Bai-Constitutional AI|Constitutional AI: Harmlessness from AI Feedback]]
+
+- [[2022-Bai-Constitutional AI|Constitutional AI]]
 
 ## Notes
 
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 Mueller's contribution to Constitutional AI is part of broader efforts at Anthropic to develop scalable approaches to AI safety that reduce reliance on human oversight while maintaining alignment with human values.
 

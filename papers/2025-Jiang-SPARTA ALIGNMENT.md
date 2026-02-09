@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "SPARTA ALIGNMENT"
 year: 2025
 first_author: "[[Yuru Jiang]]"
+last_author: "[[Yulia Tsvetkov]]"
 authors: "Yuru Jiang; Wenxuan Ding; Shangbin Feng; Greg Durrett; Yulia Tsvetkov"
 doi: 10.48550/arXiv.2506.04721
 tags: 

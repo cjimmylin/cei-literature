@@ -18,8 +18,11 @@ Ibrahim Ahmad is a researcher who has contributed to African language NLP resear
 
 ## Papers in this Vault
 
+
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
 
 ## Notes
 
+
+- *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 Ibrahim Ahmad's contributions to African language NLP support the vault's focus on cultural and linguistic diversity in AI systems.

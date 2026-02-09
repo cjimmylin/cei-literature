@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "SafetyAnalyst: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior"
 year: 2025
 first_author: "[[Jing-Jing Li]]"
+last_author: "[[Sydney Levine]]"
 authors: Jing-Jing Li; Valentina Pyatkin; Max Kleiman-Weiner; Liwei Jiang; Nouha Dziri; Anne G. E. Collins; Jana Schaich Borg; Maarten Sap; Yejin Choi; Sydney Levine
 publication: ICML 2025
 external_pdf: "https://openreview.net/pdf?id=WUGrleBcYP"

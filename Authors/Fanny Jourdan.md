@@ -3,7 +3,7 @@ name: "Fanny Jourdan"
 title: "Researcher / PhD"
 affiliation: "IRT Saint Exupéry (DEEL Team)"
 highest_degree: "PhD, Fairness and XAI for NLP"
-email: ""
+email: "fanny.jourdan@irt-saintexupery.com"
 research_interests:
   - "Natural Language Processing"
   - "Fairness in AI"
@@ -46,7 +46,8 @@ Jourdan created FairTranslate, a novel, fully human-annotated dataset designed t
 
 ## Papers in this Vault
 
-- [[2025-Jourdan-FairTranslate|FairTranslate]]
+
+- [[2025-Jourdan-FairTranslate|FairTranslate]] (First Author)
 
 ## External Links & Profiles
 
@@ -57,4 +58,6 @@ Jourdan created FairTranslate, a novel, fully human-annotated dataset designed t
 
 ## Notes
 
+
+- *From 2025-Jourdan-FairTranslate*: Affiliation: label (male, female, or inclusive), Email: fanny.jourdan@irt-saintexupery.com
 Fanny Jourdan's work on FairTranslate addresses the critical challenge of non-binary gender representation in machine translation, moving beyond traditional binary approaches to create more inclusive AI systems.

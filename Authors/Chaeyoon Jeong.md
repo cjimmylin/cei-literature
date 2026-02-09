@@ -3,7 +3,7 @@ name: "Chaeyoon Jeong"
 title: "Researcher"
 affiliation: "Samsung Research / KAIST"
 highest_degree: "MS / PhD Student (KAIST)"
-email: ""
+email: "cjy@snu.ac.kr"
 research_interests:
   - "Natural Language Processing"
   - "Moral Emotions"
@@ -46,7 +46,9 @@ Jeong's work has been published in top-tier venues like ACL (Findings), where he
 
 ## Papers in this Vault
 
+
 - [[2024-Kim-How Do Moral Emotions Shape Political|How Do Moral Emotions Shape Political]]
+- [[2023-Kim-KOME|KOME]]
 
 ## External Links & Profiles
 
@@ -55,4 +57,6 @@ Jeong's work has been published in top-tier venues like ACL (Findings), where he
 - [Personal GitHub](https://github.com/chaeyoonjeong)
 
 ## Notes
+
+- *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr
 Chaeyoon's focus on "Moral Emotions" provides a necessary psychological layer to the technical "Alignment" problem, suggesting that AI must understand human feelings, not just human rules.

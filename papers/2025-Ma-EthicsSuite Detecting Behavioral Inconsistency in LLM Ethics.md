@@ -10,6 +10,7 @@ type: journalArticle
 short_title: "EthicsSuite: Detecting Behavioral Inconsistency in LLM Ethics Suggestions"
 year: 2025
 first_author: "[[Pingchuan Ma]]"
+last_author: "[[Wang, Shuai]]"
 authors: "[[Ma, Pingchuan]]; [[Li, Zongjie]]; [[Sun, Ao]]; [[Wang, Shuai]]"
 doi: 10.1145/3722554
 url: "https://doi.org/10.1145/3722554"
@@ -39,7 +40,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Pingchuan Ma]], [[Zongjie Li]], [[Ao Sun]], [[Shuai Wang]]
+[[Ma, Pingchuan]], [[Li, Zongjie]], [[Sun, Ao]], [[Wang, Shuai]]
 
 ## Metadata
 

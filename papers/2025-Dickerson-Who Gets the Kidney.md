@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Who Gets the Kidney?"
 year: 2025
 first_author: "[[John P. Dickerson]]"
+last_author: "[[Leona Pierce]]"
 authors: "John P. Dickerson; Hadi Hosseini; Samarth Khanna; Leona Pierce"
 doi: 10.48550/arXiv.2506.00079
 url: "http://arxiv.org/abs/2506.00079"

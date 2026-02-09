@@ -8,6 +8,7 @@ type: preprint
 short_title: CulturalBench
 year: 2025
 first_author: "[[Yu Ying Chiu]]"
+last_author: "[[Yejin Choi]]"
 authors: "Yu Ying Chiu; Liwei Jiang; Bill Yuchen Lin; Chan Young Park; Shuyue Stella Li; Sahithya Ravi; Mehar Bhatia; Maria Antoniak; Yulia Tsvetkov; Vered Shwartz; Yejin Choi"
 doi: 10.48550/arXiv.2410.02677
 url: "http://arxiv.org/abs/2410.02677"

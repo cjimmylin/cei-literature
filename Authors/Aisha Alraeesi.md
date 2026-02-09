@@ -19,8 +19,11 @@ Aisha Alraeesi is a researcher contributing to Arabic NLP and cultural AI resear
 
 ## Papers in this Vault
 
-- [[2025-Alwajih-Palm|Palm: A Culturally Inclusive and Linguistically Diverse Dataset for Arabic LLMs]]
+
+- [[2025-Alwajih-Palm|Palm]]
 
 ## Notes
 
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 Contributed to the PALM dataset as part of a collaborative research team representing diverse Arabic-speaking regions. The project spans Modern Standard Arabic (MSA) and dialectal Arabic (DA) across 20 diverse topics.

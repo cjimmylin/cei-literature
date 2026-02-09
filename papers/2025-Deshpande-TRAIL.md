@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: TRAIL
 year: 2025
 first_author: "[[Darshan Deshpande]]"
+last_author: "[[Rebecca Qian]]"
 authors: "Darshan Deshpande; Varun Gangal; Hersh Mehta; Jitin Krishnan; Anand Kannappan; Rebecca Qian"
 doi: 10.48550/arXiv.2505.08638
 url: "http://arxiv.org/abs/2505.08638"

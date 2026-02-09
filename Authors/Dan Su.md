@@ -1,6 +1,6 @@
 ---
 name: "Dan Su"
-affiliation: ""
+affiliation: "Center for Artiﬁcial Intelligence Research (CAiRE), The Hong Kong University of Science and Technology"
 research_interests:
   - "Natural Language Processing"
   - "Dialogue Systems"
@@ -27,9 +27,12 @@ Dan Su is a researcher working on natural language processing and dialogue syste
 - Question Answering Systems
 
 ## Papers in this Vault
+
 - [[2023-Bang-Towards Answering Open-ended Ethical Quandary|Towards Answering Open-ended Ethical Quandary]]
 
 ## Links
 
 ## Notes
+
+- *From 2023-Bang-Towards Answering Open-ended Ethical Quandary*: Affiliation: Center for Artiﬁcial Intelligence Research (CAiRE), The Hong Kong University of Science and Technology, Email: pascale@ece.ust.hk
 Profile to be updated when more details about affiliation are confirmed.

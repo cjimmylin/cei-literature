@@ -3,7 +3,7 @@ name: "Aida Davani"
 title: "Research Scientist"
 affiliation: "Google Research"
 highest_degree: "PhD, Computer Science, University of Southern California"
-email: ""
+email: "mdehghan@usc.edu"
 research_interests:
   - "Natural Language Processing"
   - "Fairness and Ethics of AI"
@@ -51,7 +51,9 @@ Her research contributions include developing NLP models for identifying moral e
 
 ## Papers in this Vault
 
-- [[2023-Davani-Disentangling Perceptions of Offensiveness|Disentangling Perceptions of Offensiveness]]
+
+- [[2022-Trager-The Moral Foundations Reddit Corpus|The Moral Foundations Reddit Corpus]]
+- [[2020-Hoover-Moral Foundations Twitter Corpus|Moral Foundations Twitter Corpus]]
 
 ## External Links & Profiles
 
@@ -72,4 +74,6 @@ Her research contributions include developing NLP models for identifying moral e
 - [Twitter/X](URL)
 
 ## Notes
+
+- *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 [Internal notes on collaboration, contact history, or specific expertise relevant to CEI research.]

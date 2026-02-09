@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration"
 year: 2024
 first_author: "[[Lin Xu]]"
+last_author: "[[Jiashi Feng]]"
 authors: Lin Xu; Zhiyuan Hu; Daquan Zhou; Hongyu Ren; Zhen Dong; Kurt Keutzer; See Kiong Ng; Jiashi Feng
 url: "https://arxiv.org/abs/2311.08562"
 external_pdf: "https://arxiv.org/pdf/2311.08562.pdf"

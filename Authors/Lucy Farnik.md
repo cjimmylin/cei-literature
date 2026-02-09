@@ -1,6 +1,6 @@
 ---
 name: "Lucy Farnik"
-affiliation: "University/Organization"
+affiliation: "University of Delaware"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Karpov-Inducing Human-like Biases in Moral Reasoning|Inducing Human-like Biases in Moral Reasoning]]
 
 ## Notes
 
+
+- *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware
 [Additional context or contact information]

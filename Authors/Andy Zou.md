@@ -18,12 +18,15 @@ Andy Zou is a PhD student at Carnegie Mellon University working in the area of M
 
 ## Papers in this Vault
 
-- [[2022-Hendrycks-What Would Jiminy Cricket Do|What Would Jiminy Cricket Do?]]
-- [[2023-Jiang-MACHIAVELLI|Do the Rewards Justify the Means? Measuring]]
-- [[2023-Zou-Universal and Transferable Adversarial Attacks on|Universal and Transferable Adversarial Attacks on]]
-- [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
+
 - [[2025-Andriushchenko-AgentHarm|AgentHarm]]
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
+- [[2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language|D-REX: A Benchmark for Detecting Deceptive Reasoning in Large Language Models]]
+- [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
+- [[2024-Mazeika-HarmBench|HarmBench]]
+- [[2023-Jiang-MACHIAVELLI|MACHIAVELLI]]
+- [[2023-Zou-Universal and Transferable Adversarial Attacks on|Universal and Transferable Adversarial Attacks on]] (First Author)
+- [[2022-Hendrycks-What Would Jiminy Cricket Do|What Would Jiminy Cricket Do?]]
 
 ## Affiliation
 Carnegie Mellon University
@@ -45,4 +48,6 @@ His research has significant implications for AI safety, as he argues there shou
 
 ## Notes
 
+
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 Working under advisors Zico Kolter and Matt Fredrikson at Carnegie Mellon University. His work has been featured in major tech publications and has influenced the field of AI safety evaluation.

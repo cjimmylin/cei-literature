@@ -9,7 +9,8 @@ type: preprint
 short_title: "VAL-Bench: Belief Consistency as a Measure for Value Alignment"
 year: 2025
 first_author: "[[A. Gupta]]"
-authors: Gupta, A. et al.
+last_author: "[[Fazl Barez]]"
+authors: "Aman Gupta; Denny O'Shea; Fazl Barez"
 url: "https://arxiv.org/abs/2510.05465"
 external_pdf: "https://arxiv.org/pdf/2510.05465.pdf"
 local_pdf: "[[PDFs/2025/2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.pdf]]"
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Gupta, A. et al.]]
+[[Aman Gupta]], [[Denny O'Shea]], [[Fazl Barez]]
 
 ## Metadata
 

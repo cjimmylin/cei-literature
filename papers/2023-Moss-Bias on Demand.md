@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Bias on Demand"
 year: 2025
 first_author: "[[Nathan Moss]]"
+last_author: "[[Nathan Moss]]"
 authors: "Nathan Moss"
 doi: 10.1145/3593013.3594098
 url: "https://dl.acm.org/doi/10.1145/3593013.3594098"

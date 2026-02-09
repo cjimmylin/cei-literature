@@ -35,7 +35,8 @@ Ece Kamar is a Principal Researcher and Research Manager at Microsoft Research i
 
 ## Papers in this Vault
 
-- [[2022-Hartvigsen-ToxiGen|ToxiGen]]
+
+- [[2022-Hartvigsen-ToxiGen|ToxiGen]] (Last Author)
 
 ## Links
 

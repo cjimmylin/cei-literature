@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: "Can I introduce my boyfriend to my grandmother?"
 first_author: "[[Hamidreza Saffari]]"
+last_author: "[[Debora Nozza]]"
 authors: "Hamidreza Saffari; Mohammadamin Shafiei; Donya Rooein; Francesco Pierri; Debora Nozza"
 url: "https://aclanthology.org/2025.findings-naacl.337/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/MJ364QQ4/Saffari et al. - Can I introduce my boyfriend to my grandmother Evaluating Large Language Models Capabilities on Ira.pdf"

@@ -8,6 +8,7 @@ type: document
 short_title: "Universal and Transferable Adversarial Attacks on"
 year: 2025
 first_author: "[[Andy Zou]]"
+last_author: "[[Matt Fredrikson]]"
 authors: "Andy Zou; Zifan Wang; Nicholas Carlini; Milad Nasr; J. Zico Kolter; Matt Fredrikson"
 url: "https://arxiv.org/abs/2307.15043"
 external_pdf: "https://arxiv.org/pdf/2307.15043.pdf"

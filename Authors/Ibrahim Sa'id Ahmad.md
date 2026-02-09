@@ -28,8 +28,11 @@ Ibrahim Said Ahmad is a postdoctoral fellow at the Institute for Experiential AI
 
 ## Papers in this Vault
 
+
 - [[2023-Muhammad-SemEval-2023 Task 12|SemEval-2023 Task 12]]
 
 ## Notes
 
+
+- *From 2023-Muhammad-SemEval-2023 Task 12*: Affiliation: University of Porto, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Universität Hamburg, Email: shmuhammad.csc@buk.edu.ng
 Ibrahim Said Ahmad's work on African language NLP is essential for the vault's focus on cultural and linguistic inclusivity in AI systems. His contributions help address the significant underrepresentation of African languages in NLP research.

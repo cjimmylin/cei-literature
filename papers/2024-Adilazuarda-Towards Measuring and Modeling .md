@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Towards Measuring and Modeling \"
 year: 2025
 first_author: "[[Muhammad Farid Adilazuarda]]"
+last_author: "[[Monojit Choudhury]]"
 authors: "Muhammad Farid Adilazuarda; Sagnik Mukherjee; Pradhyumna Lavania; Siddhant Singh; Alham Fikri Aji; Jacki O'Neill; Ashutosh Modi; Monojit Choudhury"
 doi: 10.48550/arXiv.2403.15412
 url: "http://arxiv.org/abs/2403.15412"

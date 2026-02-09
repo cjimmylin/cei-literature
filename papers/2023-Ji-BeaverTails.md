@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: BeaverTails
 year: 2023
 first_author: "[[Ji]]"
+last_author: "[[Ji]]"
 authors: Ji et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2307.04657"
 external_pdf: "https://arxiv.org/pdf/2307.04657.pdf"
 local_pdf: "[[PDFs/2023/2023-Ji-BeaverTails.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "333,963 question"
 
 ## Authors
 
-[[Ji et al.]]
+[[Ji]]
 
 ## Metadata
 

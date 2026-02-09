@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Macro Ethics Principles for Responsible AI Systems"
 year: 2025
 first_author: "[[Jessica Woodgate]]"
+last_author: "[[Nirav Ajmeri]]"
 authors: "Jessica Woodgate; Nirav Ajmeri"
 doi: 10.1145/3672394
 url: "http://arxiv.org/abs/2208.12616"

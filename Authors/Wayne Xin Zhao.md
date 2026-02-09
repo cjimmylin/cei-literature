@@ -1,6 +1,6 @@
 ---
 name: "Wayne Xin Zhao"
-affiliation: "University/Organization"
+affiliation: "School of Artificial Intelligence, Renmin University of China"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2023-Li-Evaluating Object Hallucination in Large|Evaluating Object Hallucination in Large]]
 - [[2023-Li-HaluEval|HaluEval]]
 
 ## Notes
 
+
+- *From 2023-Li-Evaluating Object Hallucination in Large*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: jrwen@ruc.edu.cn
 [Additional context or contact information]

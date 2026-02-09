@@ -36,8 +36,11 @@ He teaches the Digital Ethics course to the Research Masters class at Utrecht an
 
 ## Papers in this Vault
 
-- [[2022-Gwagwa-The role of the African value of Ubuntu in global|The role of the African value of Ubuntu in global]]
+
+- [[2022-Gwagwa-The role of the African value of Ubuntu in global|The role of the African value of Ubuntu in global]] (First Author)
 
 ## Notes
 
+
+- *From 2022-Gwagwa-The role of the African value of Ubuntu in global*: Affiliation: Institute, Department of Philosophy & Religious Studies, Utrecht University, Janskerkhof 13, 3512 BL Utrecht, Email: e.a.gwagwa@uu.nl
 His work on Ubuntu-based AI ethics is critical for ensuring that AI alignment frameworks reflect global moral diversity rather than imposing Western-centric value systems on non-Western contexts.

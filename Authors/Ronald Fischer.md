@@ -19,8 +19,11 @@ Researcher at Instituto D'Or de Pesquisa e Ensino (IDOR) in Rio de Janeiro, Braz
 
 ## Papers in this Vault
 
-- [[2023-Fischer-What does ChatGPT return about human values|What does ChatGPT return about human values?]]
+
+- [[2023-Fischer-What does ChatGPT return about human values|What does ChatGPT return about human values?]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Fischer-What does ChatGPT return about human values*: Affiliation: Research Group, Institute D’Or for Research and Teaching, Rua, Email: ronald.fischer@idor.org
 [Additional context or contact information]

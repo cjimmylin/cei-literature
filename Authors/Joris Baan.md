@@ -19,8 +19,11 @@ PhD student at University of Amsterdam's Institute of Logic, Language and Comput
 
 ## Papers in this Vault
 
-- [[2022-Baan-Stop Measuring Calibration When Humans Disagree|Stop Measuring Calibration When Humans Disagree]]
+
+- [[2022-Baan-Stop Measuring Calibration When Humans Disagree|Stop Measuring Calibration When Humans Disagree]] (First Author)
 
 ## Notes
 
+
+- *From 2022-Baan-Stop Measuring Calibration When Humans Disagree*: Affiliation: University of Amsterdam, 2IT University of Copenhagen, 3MCML Munich, 4LMU Munich, Email: b.plank@lmu.de
 [Additional context or contact information]

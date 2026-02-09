@@ -8,6 +8,7 @@ type: document
 short_title: "X-Risk Analysis for AI Research"
 year: 2025
 first_author: "[[Dan Hendrycks]]"
+last_author: "[[Mantas Mazeika]]"
 authors: "Dan Hendrycks; Mantas Mazeika"
 url: "https://arxiv.org/abs/2206.05862"
 external_pdf: "https://arxiv.org/pdf/2206.05862.pdf"

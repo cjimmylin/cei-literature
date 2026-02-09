@@ -29,10 +29,11 @@ He has received numerous awards including an ERC Advanced Grant and the German I
 
 ## Papers in this Vault
 
-- [[2023-Shen-"Do Anything Now"|"Do Anything Now"]]
-- [[2024-Huang-TrustLLM|TrustLLM]]
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2025-Shen-HateBench|HateBench]]
+- [[2024-Huang-TrustLLM|TrustLLM]]
+- [[2023-Shen-“Do Anything Now”|“Do Anything Now”]]
 
 ## External Links & Profiles
 
@@ -46,4 +47,6 @@ He has received numerous awards including an ERC Advanced Grant and the German I
 
 ## Notes
 
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 Michael Backes leads one of the most prominent research groups working on the security and trustworthiness of AI systems. His work bridges traditional computer security with modern AI safety concerns.

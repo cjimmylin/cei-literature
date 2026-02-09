@@ -29,6 +29,7 @@ Chi Lok Yu is an emerging researcher known for leading collaborative efforts in 
 
 ## Papers in this Vault
 
+
 - [[2024-Meadows-LocalValueBench|LocalValueBench]]
 
 ## External Links & Profiles
@@ -36,4 +37,6 @@ Chi Lok Yu is an emerging researcher known for leading collaborative efforts in 
 
 ## Notes
 
+
+- *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and
 Chi Lok Yu represents a growing trend of high-impact research coming from diverse and younger contributors in the open AI research community.

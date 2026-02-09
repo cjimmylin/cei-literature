@@ -9,7 +9,8 @@ type: preprint
 short_title: "SycEval: Evaluating LLM Sycophancy"
 year: 2025
 first_author: "[[Aaron Fanous]]"
-authors: Aaron Fanous et al.
+last_author: "[[Sanmi Koyejo]]"
+authors: "Aaron Fanous; Jacob Goldberg; Ank Agarwal; Joanna Lin; Anson Zhou; Sonnet Xu; Vasiliki Bikia; Roxana Daneshjou; Sanmi Koyejo"
 doi: 10.1609/aies.v8i1.36598
 url: "https://arxiv.org/abs/2502.08177"
 external_pdf: "https://arxiv.org/pdf/2502.08177.pdf"
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Aaron Fanous et al.]]
+[[Aaron Fanous]], [[Jacob Goldberg]], [[Ank Agarwal]], [[Joanna Lin]], [[Andy Zhou|Anson Zhou]], [[Sonnet Xu]], [[Vasiliki Bikia]], [[Roxana Daneshjou]], [[Sanmi Koyejo]]
 
 ## Metadata
 

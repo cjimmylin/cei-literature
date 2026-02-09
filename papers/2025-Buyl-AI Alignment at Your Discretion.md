@@ -9,6 +9,7 @@ type: preprint
 short_title: AI Alignment at Your Discretion
 year: 2025
 first_author: "[[Maarten Buyl]]"
+last_author: "[[Flavio du Pin Calmon]]"
 authors: Maarten Buyl; Hadi Khalaf; Claudio Mayrink Verdun; Lucas Monteiro Paes; Caio C. Vieira Machado; Flavio du Pin Calmon
 doi: 10.1145/3715275.3732194
 url: "https://arxiv.org/abs/2502.10441"

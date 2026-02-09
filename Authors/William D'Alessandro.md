@@ -28,7 +28,8 @@ William D'Alessandro is a philosopher specializing in the philosophy of mathemat
 - Publications on mathematical explanation and understanding in philosophy journals
 
 ## Papers in this Vault
-- [[2024-D'Alessandro-Deontology and safe artificial intelligence|Deontology and safe artificial intelligence]]
+
+- [[2024-DAlessandro-Deontology and Safe Artificial Intelligence|Deontology and Safe AI]] (First Author)
 
 ## Links
 - Website: https://www.williamdalessandro.com/

@@ -19,8 +19,11 @@ Undergraduate student at Peking University's Information Management Department (
 
 ## Papers in this Vault
 
-- [[2025-Li-Analyzing Cognitive Differences Among Large|Analyzing Cognitive Differences Among Large]]
+
+- [[2025-Li-Analyzing Cognitive Differences Among Large|Analyzing Cognitive Differences Among Large]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Li-Analyzing Cognitive Differences Among Large*: Affiliation: Institute of Computer Technology, Peking University, Email: yanheng@ruc.edu.cn
 [Additional context or contact information]

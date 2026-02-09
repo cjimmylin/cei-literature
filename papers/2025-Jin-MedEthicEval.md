@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: MedEthicEval
 first_author: "[[Haoan Jin]]"
+last_author: "[[Mengyue Wu]]"
 authors: "Haoan Jin; Jiacheng Shi; Hanhui Xu; Kenny Q Zhu; Mengyue Wu"
 url: "https://aclanthology.org/2025.naacl-industry.34/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/7CB4XXBJ/Jin et al. - MedEthicEval Evaluating Large Language Models Based on Chinese Medical Ethics.pdf"

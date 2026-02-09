@@ -21,8 +21,11 @@ Maro Akpobi is a Nigerian independent researcher and writer affiliated with the 
 
 ## Papers in this Vault
 
-- Yankari: A Monolingual Yoruba Dataset
+
+- [[2025-Akpobi-Yankari Monolingual Yoruba Dataset|Yankari: Monolingual Yoruba Dataset]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Akpobi-Yankari Monolingual Yoruba Dataset*: Affiliation: Center for Language Preservation, Email: maro@acflp.org
 In addition to NLP research, Akpobi has written social commentary on Nigerian political and economic issues, including publications on enduring colonialism and neoliberalism in Africa (2025).

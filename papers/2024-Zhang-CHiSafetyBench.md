@@ -8,6 +8,7 @@ type: journalArticle
 short_title: CHiSafetyBench
 year: 2025
 first_author: "[[Wenjing Zhang]]"
+last_author: "[[Shiguo Lian]]"
 authors: "Wenjing Zhang; Xuejiao Lei; Zhaoxiang Liu; Meijuan An; Bikun Yang; KaiKai Zhao; Kai Wang; Shiguo Lian"
 url: "https://arxiv.org/abs/2406.10311"
 external_pdf: "https://arxiv.org/pdf/2406.10311.pdf"
@@ -55,7 +56,7 @@ With the profound development of large language models(LLMs), their safety conce
 
 ## Authors
 
-[[Wenjing Zhang]], [[Xuejiao Lei]], [[Zhaoxiang Liu]], [[Meijuan An]], [[Bikun Yang]], [[KaiKai Zhao]], [[Kai Wang]], [[Shiguo Lian]]
+[[Wenjing Zhang]], [[Xuanyu Lei|Xuejiao Lei]], [[Zhaoxiang Liu]], [[Meijuan An]], [[Bikun Yang]], [[Kangkang Zhao|KaiKai Zhao]], [[Kaile Wang|Kai Wang]], [[Shiguo Lian]]
 
 ## Notes
 

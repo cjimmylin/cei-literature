@@ -1,6 +1,6 @@
 ---
 name: "Yan Liu"
-affiliation: "University/Organization"
+affiliation: "University of Notre Dame"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,10 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Shen-Large Language Model Alignment|Large Language Model Alignment]]
+
 - [[2024-Huang-TrustLLM|TrustLLM]]
 - [[2024-Xu-Course-Correction|Course-Correction]]
+- [[2023-Shen-Large Language Model Alignment|Large Language Model Alignment]]
 
 ## Notes
 
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 [Additional context or contact information]

@@ -20,8 +20,11 @@ Ahmed Sorkatti is a researcher contributing to Arabic natural language processin
 
 ## Papers in this Vault
 
+
 - [[2025-Alwajih-Palm|Palm]]
 
 ## Notes
 
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 Part of the 44-researcher team across the Arab world that developed the PALM dataset. The project covers Modern Standard Arabic and dialectal Arabic across 20 diverse topics, published at ACL 2025.

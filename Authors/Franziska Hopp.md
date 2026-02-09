@@ -3,7 +3,7 @@ name: "Franziska Hopp"
 title: "Junior Professor"
 affiliation: "Leibniz Institute for Psychology (ZPID)"
 highest_degree: "PhD (Doctor of Philosophy)"
-email: ""
+email: "fhopp@uva.nl"
 research_interests:
   - "Moral Psychology"
   - "Moral Foundations Theory"
@@ -48,7 +48,8 @@ Hopp developed the Dutch Moral Foundations Stimulus Database, adapting and valid
 
 ## Papers in this Vault
 
-- [[2023-Hopp-The Dutch Moral Foundations Stimulus Database|The Dutch Moral Foundations Stimulus Database]]
+
+- [[2023-Hopp-The Dutch Moral Foundations Stimulus Database|The Dutch Moral Foundations Stimulus Database]] (First Author)
 
 ## External Links & Profiles
 
@@ -59,4 +60,6 @@ Hopp developed the Dutch Moral Foundations Stimulus Database, adapting and valid
 
 ## Notes
 
+
+- *From 2023-Hopp-The Dutch Moral Foundations Stimulus Database*: Affiliation: School of Communication Research, University of Amsterdam, Amsterdam, Netherlands; 2Department of, Email: fhopp@uva.nl
 This researcher's work provides crucial cross-cultural moral psychology tools, enabling comparative research on moral judgments across different populations and languages. **Name verification needed**: Web sources consistently refer to "Frederic Hopp" rather than "Franziska Hopp".

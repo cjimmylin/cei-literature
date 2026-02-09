@@ -3,7 +3,7 @@ name: "Albina Akhmetgareeva"
 title: "AGI NLP Data Scientist"
 affiliation: "Moscow Institute of Physics and Technology (MIPT) / SberDevices"
 highest_degree: "M.Sc. (Innovations and High Technology)"
-email: ""
+email: "alenush93@gmail.com"
 research_interests:
   - "Large Language Models"
   - "Russian NLP"
@@ -32,7 +32,10 @@ Albina is a core contributor to the MERA (Multimodal Evaluation for Russian) ben
 
 ## Papers in this Vault
 
+
 - [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]]
 
 ## Notes
+
+- *From 2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian*: Affiliation: University, 3Center for Artificial Intelligence Technology, 4AIRI, Email: alenush93@gmail.com
 [Key role in the development of robust evaluation pipelines for non-English foundational models.]

@@ -19,8 +19,11 @@ Dianqi Li is a researcher working on multimodal AI systems and computer vision. 
 
 ## Papers in this Vault
 
+
 - [[2024-Wu-AutoHallusion|AutoHallusion]]
 
 ## Notes
 
+
+- *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 Research on AI reliability and hallucination detection in multimodal systems.

@@ -8,6 +8,7 @@ type: document
 short_title: "Red Teaming Language Models to Reduce Harms"
 year: 2025
 first_author: "[[Deep Ganguli]]"
+last_author: "[[Jack Clark]]"
 authors: "Deep Ganguli; Liane Lovitt; Jackson Kernion; Amanda Askell; Yuntao Bai; Saurav Kadavath; Ben Mann; Ethan Perez; Nicholas Schiefer; Kamal Ndousse; Andy Jones; Sam Bowman; Anna Chen; Tom Conerly; Nova DasSarma; Dawn Drain; Nelson Elhage; Sheer El-Showk; Stanislav Fort; Zac Hatfield-Dodds; Tom Henighan; Danny Hernandez; Tristan Hume; Josh Jacobson; Scott Johnston; Shauna Kravec; Catherine Olsson; Sam Ringer; Eli Tran-Johnson; Dario Amodei; Tom Brown; Nicholas Joseph; Sam McCandlish; Chris Olah; Jared Kaplan; Jack Clark"
 url: "https://arxiv.org/abs/2209.07858"
 external_pdf: "https://arxiv.org/pdf/2209.07858.pdf"

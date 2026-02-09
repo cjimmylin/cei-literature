@@ -26,7 +26,8 @@ Pierrehumbert is a Member of the National Academy of Sciences, a Fellow of the A
 
 ## Papers in this Vault
 
-- [[2021-Röttger-HateCheck|HateCheck: Functional Tests for Hate Speech Detection Models]]
+
+- [[2021-Röttger-HateCheck|HateCheck]] (Last Author)
 
 ## Notable Contributions
 
@@ -37,5 +38,7 @@ Pierrehumbert is a Member of the National Academy of Sciences, a Fellow of the A
 
 ## Notes
 
+
+- *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
 Pierrehumbert's work on NLP robustness and handling variation across social contexts is relevant to understanding bias and fairness in language models.
 

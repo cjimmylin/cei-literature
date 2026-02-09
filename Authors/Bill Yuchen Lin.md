@@ -3,7 +3,7 @@ name: "Bill Yuchen Lin"
 title: "Research Scientist"
 affiliation: "Allen Institute for AI (AI2)"
 highest_degree: "PhD in Computer Science, University of Southern California"
-email: ""
+email: "nouhad@allenai.org"
 research_interests:
   - "Natural Language Processing"
   - "Large Language Models"
@@ -45,9 +45,9 @@ He is the primary developer of several widely used benchmarks and datasets, most
 - [MoE-LLM: Mixture-of-Experts for Large Language Models](https://arxiv.org/abs/2401.00000) (2024) - *Advanced the state of the art in efficient model design.*
 
 ## Papers in this Vault
-- [[2025-Chiu-CulturalBench|CulturalBench]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2025-Chiu-CulturalBench|CulturalBench]]
+- [[2024-Team-WildGuard|WildGuard]]
 
 ## External Links & Profiles
 
@@ -61,4 +61,6 @@ He is the primary developer of several widely used benchmarks and datasets, most
 - [Twitter/X](https://twitter.com/billyuchenlin)
 
 ## Notes
+
+- *From 2024-Team-WildGuard*: Affiliation: Institute for AI, Email: nouhad@allenai.org
 [Bill is a key figure in the reasoning and commonsense capabilities of AI2's Mosaic models.]

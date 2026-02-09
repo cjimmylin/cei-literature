@@ -30,7 +30,8 @@ Her work focuses on the intersection of human-centered design, emerging technolo
 - (Participated in various HPE AI ethics whitepapers and strategic governance documents)
 
 ## Papers in this Vault
-- [[2025-Neuman-PRIME Framework Convergent Ethics|PRIME Framework Convergent Ethics]]
+
+- [[2025-Hilliard-Measuring AI Alignment with Human Flourishing|Measuring AI Alignment with Human Flourishing]]
 
 ## External Links & Profiles
 - [LinkedIn](https://www.linkedin.com/in/alillewellyn/)

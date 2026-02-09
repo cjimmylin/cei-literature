@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: Awesome-LLM-Eval Repository (Meta-Resource)
 year: 2025
 first_author: "[[onejune2018]]"
+last_author: "[[onejune2018]]"
 authors: onejune2018
 publication: ACL 2024
 DATE_ADDED: 20260207

@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "AI, alignment, and the categorical imperative"
 year: 2025
 first_author: "[[Fritz J. McDonald]]"
+last_author: "[[Fritz J. McDonald]]"
 authors: "[[McDonald, Fritz J.]]"
 doi: 10.1007/s43681-022-00160-w
 tags: "Philosophy - AI Ethics"
@@ -38,17 +39,6 @@ data_metrics: "Not specified"
 ## Authors
 
 [[Fritz J. McDonald]]
-## Metadata
-
-**Authors:** McDonald, Fritz J.
-
-**Year:** 2023
-
-**Type:** journalArticle
-
-**DOI:** [10.1007/s43681-022-00160-w](https://doi.org/10.1007/s43681-022-00160-w)
-
-**Publisher:** Springer - AI and Ethics, Volume 3, Pages 337-344
 
 ## Links
 

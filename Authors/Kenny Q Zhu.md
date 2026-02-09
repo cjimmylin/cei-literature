@@ -1,6 +1,6 @@
 ---
 name: "Kenny Q Zhu"
-affiliation: "University/Organization"
+affiliation: "Institute of Technology Ethics for Human Future"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Jin-MedEthicEval|MedEthicEval]]
 
 ## Notes
 
+
+- *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: xuhanhui@fudan.edu.cn
 [Additional context or contact information]

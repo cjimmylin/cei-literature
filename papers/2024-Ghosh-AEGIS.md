@@ -8,6 +8,7 @@ type: journalArticle
 short_title: AEGIS
 year: 2025
 first_author: "[[Shaona Ghosh]]"
+last_author: "[[Christopher Parisien]]"
 authors: "Shaona Ghosh; Prasoon Varshney; Erick Galinkin; Christopher Parisien"
 url: "https://arxiv.org/abs/2404.05993"
 external_pdf: "https://arxiv.org/pdf/2404.05993.pdf"

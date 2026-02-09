@@ -32,7 +32,8 @@ Derek Powell is a cognitive scientist studying moral judgment, causal reasoning,
 - "Deontological coherence: A framework for commonsense moral reasoning" (Psychological Bulletin, 2016)
 
 ## Papers in this Vault
-- [[2016-Holyoak-Deontological coherence|Deontological coherence]]
+
+- [[2016-Holyoak-Deontological coherence|Deontological coherence]] (Last Author)
 
 ## Links
 - Website: https://www.derekpowell.net

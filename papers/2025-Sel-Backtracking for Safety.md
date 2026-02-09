@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Backtracking for Safety"
 year: 2025
 first_author: "[[Bilgehan Sel]]"
+last_author: "[[Siddhartha Reddy Jonnalagadda]]"
 authors: "Bilgehan Sel; Dingcheng Li; Phillip Wallis; Vaishakh Keshava; Ming Jin; Siddhartha Reddy Jonnalagadda"
 doi: 10.48550/arXiv.2503.08919
 url: "http://arxiv.org/abs/2503.08919"

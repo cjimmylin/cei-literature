@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: ForbiddenQuestions
 year: 2025
 first_author: [[Anonymous]]
+last_author: "[[Anonymous]]"
 authors: Anonymous
 doi: 10.1145/3658644.3670388
 url: "https://dl.acm.org/doi/10.1145/3658644.3670388"

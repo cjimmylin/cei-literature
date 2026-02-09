@@ -19,8 +19,11 @@ AI safety researcher affiliated with Columbia University, working at cutting edg
 
 ## Papers in this Vault
 
-- [[2023-Clymer-Generalization Analogies|Generalization Analogies]]
+
+- [[2023-Clymer-Generalization Analogies|Generalization Analogies]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Clymer-Generalization Analogies*: Affiliation: University in NY 2NA, Email: joshuamclymer@gmail.com
 [Additional context or contact information]

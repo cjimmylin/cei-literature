@@ -33,7 +33,8 @@ Dan Goldwasser is an Associate Professor of Computer Science at Purdue Universit
 - Research on political discourse analysis and social media NLP
 
 ## Papers in this Vault
-- [[2024-Pujari-LLM-Human Pipeline for Cultural Context Grounding|LLM-Human Pipeline for Cultural Context Grounding]]
+
+- [[2024-Pujari-LLM-Human Pipeline for Cultural Context Grounding|LLM-Human Pipeline for Cultural Context Grounding]] (Last Author)
 
 ## Links
 - Website: https://www.cs.purdue.edu/homes/dgoldwas/

@@ -21,9 +21,12 @@ Bryan Wilie is a researcher at the Center for Artificial Intelligence Research (
 
 ## Papers in this Vault
 
-- [[2023-Bang-Towards Answering Open-ended Ethical Quandary|Towards Answering Open-ended Ethical Quandary Questions]]
-- [[2024-Cahyawijaya-High-Dimension Human Value Representation in|High-Dimension Human Value Representation in LLMs]]
+
+- [[2024-Cahyawijaya-High-Dimension Human Value Representation in|High-Dimension Human Value Representation in]]
+- [[2023-Bang-Towards Answering Open-ended Ethical Quandary|Towards Answering Open-ended Ethical Quandary]]
 
 ## Notes
 
+
+- *From 2023-Bang-Towards Answering Open-ended Ethical Quandary*: Affiliation: Center for Artiﬁcial Intelligence Research (CAiRE), The Hong Kong University of Science and Technology, Email: pascale@ece.ust.hk
 Works under Pascale Fung at CAiRE, HKUST. Email: bwilie@connect.ust.hk

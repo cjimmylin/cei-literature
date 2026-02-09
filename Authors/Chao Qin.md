@@ -33,6 +33,7 @@ Chao Qin is a Senior Algorithm Engineer at Alibaba Group and a PhD candidate at 
 
 ## Papers in this Vault
 
+
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## External Links & Profiles
@@ -41,4 +42,6 @@ Chao Qin is a Senior Algorithm Engineer at Alibaba Group and a PhD candidate at 
 
 ## Notes
 
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 Chao Qin is part of the Alibaba-NTU collaboration, focusing on the practical application of reinforcement learning in complex, multi-agent industrial scenarios.

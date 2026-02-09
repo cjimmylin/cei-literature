@@ -34,8 +34,9 @@ Currently supervised by Prof. Debora Nozza, introducing speech-based annotation 
 
 ## Papers in this Vault
 
-- [[2024-Rottger-XSTest|XSTest]]
+
 - [[2025-Mitchell-SHADES|SHADES]]
+- [[2024-Röttger-XSTest|XSTest]]
 
 ## External Links
 
@@ -46,4 +47,6 @@ Currently supervised by Prof. Debora Nozza, introducing speech-based annotation 
 
 ## Notes
 
+
+- *From 2024-Röttger-XSTest*: Affiliation: University, 2University of Oxford, 3Stanford University
 Former teaching assistant at Politecnico di Torino (171 hours). Active in NLP safety and fairness research communities.

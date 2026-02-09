@@ -1,6 +1,6 @@
 ---
 name: "Lucy Vasserman"
-affiliation: "University/Organization"
+affiliation: "lable, so that bias mitigation"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2018-Dixon-Measuring and Mitigating Unintended Bias in Text|Measuring and Mitigating Unintended Bias in Text]]
+
+- [[2018-Dixon-Measuring and Mitigating Unintended Bias in Text|Measuring and Mitigating Unintended Bias in Text]] (Last Author)
 
 ## Notes
 
+
+- *From 2018-Dixon-Measuring and Mitigating Unintended Bias in Text*: Affiliation: lable, so that bias mitigation, Email: lucyvasserman@google.com
 [Additional context or contact information]

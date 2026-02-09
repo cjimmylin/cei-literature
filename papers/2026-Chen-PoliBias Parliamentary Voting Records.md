@@ -9,7 +9,9 @@ type: preprint
 short_title: PoliBias (Parliamentary Voting Records)
 year: 2026
 first_author: "[[Jieying Chen]]"
+last_author: "[[Jieying Chen]]"
 authors: Jieying Chen et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2601.08785"
 external_pdf: "https://arxiv.org/pdf/2601.08785.pdf"
 local_pdf: "[[PDFs/2026/2026-Chen-PoliBias Parliamentary Voting Records.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Jieying Chen et al.]]
+[[Jieying Chen]]
 
 ## Metadata
 

@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Towards Artificial Virtuous Agents - Games and ML"
 year: 2025
 first_author: "[[Ajay Vishwanath]]"
+last_author: "[[C. Omlin]]"
 authors: Ajay Vishwanath; E. Bøhn; Ole-Christoffer Granmo; Charl Maree; C. Omlin
 doi: 10.1007/s43681-022-00251-8
 url: "https://link.springer.com/article/10.1007/s43681-022-00251-8"

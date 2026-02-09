@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: FairI Tales / INDIC-BIAS -- Evaluation of Fairness in Indian Contexts
 year: 2025
 first_author: "[[Janki Atul Nawale]]"
+last_author: "[[Mitesh M. Khapra]]"
 authors: Janki Atul Nawale; Mohammed Safi Ur Rahman Khan; Janani D; Mansi Gupta; Danish Pruthi; Mitesh M. Khapra
 doi: 10.1007/s44443-025-00137-9
 url: "https://arxiv.org/abs/2506.23111"

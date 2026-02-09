@@ -1,6 +1,6 @@
 ---
 name: "Tsubasa Nakagawa"
-affiliation: "University/Organization"
+affiliation: "Label Enhancement"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Ohashi-Extended Japanese Commonsense Morality Dataset|Extended Japanese Commonsense Morality Dataset]]
 
 ## Notes
 
+
+- *From 2024-Ohashi-Extended Japanese Commonsense Morality Dataset*: Affiliation: Label Enhancement, Email: tsubasa.nakagawa.5p@stu.hosei.ac.jp
 [Additional context or contact information]

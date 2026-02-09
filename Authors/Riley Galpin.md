@@ -17,6 +17,7 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Anderson-Model Misalignment and Language Change|Model Misalignment and Language Change]]
 
 ## Notes

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Normative Evaluation of LLMs"
 year: 2025
 first_author: "[[Pratik S. Sachdeva]]"
+last_author: "[[van Nuenen, Tom]]"
 authors: "[[Sachdeva, Pratik S.]]; [[van Nuenen, Tom]]"
 doi: 10.1145/3715275.3732044
 url: "https://dl.acm.org/doi/10.1145/3715275.3732044"
@@ -38,7 +39,7 @@ local_pdf: "[[PDFs/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday
 
 ## Authors
 
-[[Pratik S. Sachdeva]], [[Tom van Nuenen]]
+[[Sachdeva, Pratik S]], [[Tom van Nuenen|van Nuenen, Tom]]
 
 ## Metadata
 

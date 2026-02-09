@@ -9,7 +9,9 @@ type: preprint
 short_title: "Fair-PP: Synthetic Dataset for Aligning LLM with Personalized Preferences of Social Equity"
 year: 2025
 first_author: "[[Q. Zhou]]"
+last_author: "[[Q. Zhou]]"
 authors: Zhou, Q. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2505.11861"
 external_pdf: "https://arxiv.org/pdf/2505.11861.pdf"
 local_pdf: "[[PDFs/2025/2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Zhou, Q. et al.]]
+[[Q. Zhou]]
 
 ## Metadata
 

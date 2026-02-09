@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: Kaleidoscope
 year: 2025
 first_author: "[[Israfel Salazar]]"
+last_author: "[[Marzieh Fadaee]]"
 authors: "Israfel Salazar; Manuel Fernández Burda; Shayekh Bin Islam; Arshia Soltani Moakhar; Shivalika Singh; Fabian Farestam; Angelika Romanou; Danylo Boiko; Dipika Khullar; Mike Zhang; Dominik Krzemiński; Jekaterina Novikova; Luísa Shimabucoro; Joseph Marvin Imperial; Rishabh Maheshwary; Sharad Duwal; Alfonso Amayuelas; Swati Rajwal; Jebish Purbey; Ahmed Ruby; Nicholas Popovič; Marek Suppa; Azmine Toushik Wasi; Ram Mohan Rao Kadiyala; Olga Tsymboi; Maksim Kostritsya; Bardia Soltani Moakhar; Gabriel da Costa Merlin; Otávio Ferracioli Coletti; Maral Jabbari Shiviari; MohammadAmin farahani fard; Silvia Fernandez; María Grandury; Dmitry Abulkhanov; Drishti Sharma; Andre Guarnier De Mitri; Leticia Bossatto Marchezi; Setayesh Heydari; Johan Obando-Ceron; Nazar Kohut; Beyza Ermis; Desmond Elliott; Enzo Ferrante; Sara Hooker; Marzieh Fadaee"
 doi: 10.48550/arXiv.2504.07072
 url: "http://arxiv.org/abs/2504.07072"

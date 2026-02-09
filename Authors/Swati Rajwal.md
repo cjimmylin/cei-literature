@@ -1,6 +1,6 @@
 ---
 name: "Swati Rajwal"
-affiliation: "University/Organization"
+affiliation: "Department of Computer Science, University of Copenhagen, 3Institute of Computer"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 
 ## Notes
 
+
+- *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 [Additional context or contact information]

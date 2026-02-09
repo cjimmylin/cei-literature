@@ -27,10 +27,13 @@ His work argues that Western psychological traits like individualism and analyti
 
 ## Papers in this Vault
 
-- [[2016-Purzycki-Cross-cultural dataset for the evolution of|Cross-cultural dataset for the evolution of religion and morality]]
+
 - [[2018-Awad-The Moral Machine experiment|The Moral Machine experiment]]
-- [[2024-Kirk-The PRISM Alignment Project|The PRISM Alignment Project]]
+- [[2016-Purzycki-Cross-cultural dataset for the evolution of|Cross-cultural dataset for the evolution of]] (Last Author)
+- [[2016-Purzycki-Religious Belief and the Moral Circle|Religious Belief and the Moral Circle]] (Last Author)
 
 ## Notes
 
+
+- *From 2016-Purzycki-Cross-cultural dataset for the evolution of*: Affiliation: Department of Human Behavior, Ecology, and Culture, Max Planck Institute for Evolutionary Anthropology
 Recipient of the 2003 Presidential Early Career Award for Scientists and Engineers and the 2022 Hayek Prize. His WEIRD concept has fundamentally changed how psychologists think about the generalizability of their findings, with major implications for AI alignment work that must consider diverse human values rather than just Western preferences.

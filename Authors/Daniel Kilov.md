@@ -29,7 +29,9 @@ Daniel Kilov is a researcher working at the intersection of philosophy and artif
 - Resource-Rational Approaches to Ethics
 
 ## Papers in this Vault
-- [[2025-Kilov-Discerning What Matters|Discerning What Matters]]
-- [[2025-Levine-Resource Rational Contractualism Should Guide AI|Resource Rational Contractualism Should Guide AI]]
+
+- [[2025-Kilov-Discerning What Matters|Discerning What Matters]] (First Author)
+- [[2025-Levine-Resource Rational Contractualism Should Guide AI Alignment|Resource Rational Contractualism Should Guide AI Alignment]]
+- [[2025-Snoswell-Beyond Verdicts LLM Moral Competence|Beyond Verdicts LLM Moral Competence]]
 
 ## Links

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Finding Answers from the Word of God"
 year: 2025
 first_author: "[[Helen Jiahe Zhao]]"
+last_author: "[[Jiamou Liu]]"
 authors: "Helen Jiahe Zhao; Jiamou Liu"
 doi: 10.1109/IJCNN.2018.8489756
 url: "http://arxiv.org/abs/1810.12118"

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: FACET
 year: 2025
 first_author: "[[Laura Gustafson]]"
+last_author: "[[Candace Ross]]"
 authors: "Laura Gustafson; Chloe Rolland; Nikhila Ravi; Quentin Duval; Aaron Adcock; Cheng-Yang Fu; Melissa Hall; Candace Ross"
 doi: 10.1109/ICCV51070.2023.01863
 url: "https://ieeexplore.ieee.org/document/10377223/"

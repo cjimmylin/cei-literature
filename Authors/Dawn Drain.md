@@ -30,8 +30,11 @@ Drain's work focuses on developing training methods that produce AI systems alig
 
 ## Papers in this Vault
 
-- [[2021-Askell-A General Language Assistant as a Laboratory for|A General Language Assistant as a Laboratory for]]
+
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
+- [[2022-Bai-Training a Helpful and Harmless Assistant with|Training a Helpful and Harmless Assistant with]]
+- [[2022-Ganguli-Red Teaming Language Models to Reduce Harms|Red Teaming Language Models to Reduce Harms]]
+- [[2021-Askell-A General Language Assistant as a Laboratory for|A General Language Assistant as a Laboratory for]]
 
 ## External Links
 

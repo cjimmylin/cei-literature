@@ -9,6 +9,7 @@ type: preprint
 short_title: "RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity"
 year: 2025
 first_author: "[[Jisu Shin]]"
+last_author: "[[Alice Oh]]"
 authors: Jisu Shin; Hoyun Song; Juhyun Oh; Changgeon Ko; Eunsu Kim; Chani Jung; Alice Oh
 url: "https://arxiv.org/abs/2509.25897"
 external_pdf: "https://arxiv.org/pdf/2509.25897.pdf"

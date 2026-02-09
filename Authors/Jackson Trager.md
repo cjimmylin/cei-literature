@@ -53,9 +53,12 @@ Contributed to the first multilingual benchmark for evaluating moral reasoning i
 
 ## Papers in this Vault
 
-- [[2022-Trager-The Moral Foundations Reddit Corpus|The Moral Foundations Reddit Corpus]]
-- [[2025-Trager-MFTCXplain|MFTCXplain: Multilingual Moral Reasoning Benchmark]]
+
+- [[2025-Trager-MFTCXplain|MFTCXplain]] (First Author)
+- [[2022-Trager-The Moral Foundations Reddit Corpus|The Moral Foundations Reddit Corpus]] (First Author)
 
 ## Notes
 
+
+- *From 2022-Trager-The Moral Foundations Reddit Corpus*: Affiliation: University of Southern California, Email: jptrager@usc.edu
 Cited 146 times according to Google Scholar. Research areas span Moral Psychology, Cultural Conflict, Online Polarization and Hate, and AI Ethics.

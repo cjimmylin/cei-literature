@@ -10,6 +10,7 @@ type: preprint
 short_title: Measuring Moral LLM Responses in Multilingual Capacities
 year: 2025
 first_author: "[[Kimaya Basu]]"
+last_author: "[[Allison Yu]]"
 authors: Kimaya Basu; Savi Kolari; Allison Yu
 url: "https://arxiv.org/abs/2510.08776"
 external_pdf: "https://arxiv.org/pdf/2510.08776.pdf"

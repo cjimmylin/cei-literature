@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: "Speciesism in AI"
 first_author: "[[Monika Jotautaitė]]"
+last_author: "[[Thilo Hagendorff]]"
 authors: "Monika Jotautaitė; Lucius Caviola; David A Brewster; Thilo Hagendorff"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/XG6G6KHG/Jotautaitė et al. - Speciesism in AI Evaluating Discrimination Against Animals in Large Language Models.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Jotautaitė-Speciesism in AI.md"

@@ -20,9 +20,11 @@ Mehdi Khamassi is a CNRS Research Director at the Institute of Intelligent Syste
 
 ## Papers in this Vault
 
-- [[2024-Khamassi-Strong and weak alignment of large language models|Strong and weak alignment of large language models]]
-- [[2024-Khamassi-Strong and weak alignment of large language|Strong and weak alignment of large language]]
+
+- [[2024-Khamassi-Strong and weak alignment of large language models|Strong and weak alignment of large language models]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Khamassi-Strong and weak alignment of large language models*: Affiliation: Institute of Intelligent Systems and Robotics, Sorbonne University /, Email: marceau.nahon@gmail.com
 [Additional context or contact information]

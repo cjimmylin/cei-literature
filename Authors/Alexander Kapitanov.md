@@ -3,7 +3,7 @@ name: "Alexander Kapitanov"
 title: "ML Research Scientist"
 affiliation: "SberDevices (ML RnD) / Salute Devices"
 highest_degree: "M.Sc."
-email: ""
+email: "vasilev.va@phystech.edu"
 research_interests:
   - "Computer Vision"
   - "Multimodal Foundations"
@@ -32,7 +32,10 @@ Alexander lead researcher on the RusCode project, a unique benchmark designed to
 
 ## Papers in this Vault
 
+
 - [[2025-Vasilev-RusCode|RusCode]]
 
 ## Notes
+
+- *From 2025-Vasilev-RusCode*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu
 [Extensive expertise in specialized datasets, including Slovo (Sign Language) and HaGRID (Hand Gestures).]

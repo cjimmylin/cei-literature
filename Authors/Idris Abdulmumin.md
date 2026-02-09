@@ -28,9 +28,12 @@ Dr. Idris Abdulmumin is affiliated with the Computer Science Department at Ahmad
 
 ## Papers in this Vault
 
+
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
 - [[2023-Muhammad-SemEval-2023 Task 12|SemEval-2023 Task 12]]
 
 ## Notes
 
+
+- *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 Dr. Abdulmumin's research is driven by the belief that AI should be inclusive and accessible, aiming to make meaningful contributions while addressing the needs of underrepresented communities. His work addresses the significant gap in NLP resources for African languages.

@@ -9,6 +9,7 @@ type: preprint
 short_title: "DeceptionBench: A Comprehensive Benchmark for AI Deception Behaviors in Real-world Scenarios"
 year: 2025
 first_author: "[[Yao Huang]]"
+last_author: "[[Xingxing Wei]]"
 authors: Yao Huang; Yitong Sun; Yichi Zhang; Ruochen Zhang; Yinpeng Dong; Xingxing Wei
 url: "https://arxiv.org/abs/2510.15501"
 external_pdf: "https://arxiv.org/pdf/2510.15501.pdf"

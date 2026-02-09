@@ -1,6 +1,6 @@
 ---
 name: "Ziwei Ji"
-affiliation: "University/Organization"
+affiliation: "University of Science and Technology"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Cahyawijaya-High-Dimension Human Value Representation in|High-Dimension Human Value Representation in]]
+
 - [[2025-Bang-HalluLens LLM Hallucination Benchmark|HalluLens: LLM Hallucination Benchmark]]
+- [[2024-Cahyawijaya-High-Dimension Human Value Representation in|High-Dimension Human Value Representation in]]
 
 ## Notes
 
+
+- *From 2024-Cahyawijaya-High-Dimension Human Value Representation in*: Affiliation: University of Science and Technology, Email: pascale@ece.ust.hk
 [Additional context or contact information]

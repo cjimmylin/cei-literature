@@ -6,6 +6,7 @@ type: journalArticle
 short_title: "Artificial Virtuous Agents"
 year: 2025
 first_author: "[[Jakob Stenseke]]"
+last_author: "[[Jakob Stenseke]]"
 authors: "[[Stenseke, Jakob]]"
 doi: 10.1007/s00146-021-01325-7
 url: "https://link.springer.com/article/10.1007/s00146-021-01325-7"

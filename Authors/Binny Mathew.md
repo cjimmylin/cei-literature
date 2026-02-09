@@ -3,7 +3,7 @@ name: "Binny Mathew"
 title: "Ph.D. Scholar & Researcher"
 affiliation: "IIT Kharagpur"
 highest_degree: "M.Tech in Computer Science, IIT Kharagpur (2016)"
-email: ""
+email: "animeshm@cse.iitkgp.ac.in"
 research_interests:
   - "Hate Speech Detection"
   - "Social Computing"
@@ -45,9 +45,8 @@ He co-developed "HateXplain," a widely used benchmark dataset for explainable ha
 - [Spread of Hate Speech in Online Social Media](https://arxiv.org/abs/1904.05315) (2019) - *A foundational study on the dynamics of hateful content.*
 
 ## Papers in this Vault
-- [[2020-Mathew-HateXplain|HateXplain]]
 
-- [[2021-Mathew-HateXplain-A Benchmark Dataset for|HateXplain-A Benchmark Dataset for]]
+- [[2020-Mathew-HateXplain|HateXplain]] (First Author)
 
 ## External Links & Profiles
 
@@ -62,4 +61,6 @@ He co-developed "HateXplain," a widely used benchmark dataset for explainable ha
 - [IIT Kharagpur CNeRG Profile](https://cnerg-iitkgp.github.io/people/binny.html)
 
 ## Notes
+
+- *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: animeshm@cse.iitkgp.ac.in
 His work on "counterspeech" is particularly innovative, as it moves beyond simple censorship toward using AI to generate constructive interventions that reduce online polarization.

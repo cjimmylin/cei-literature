@@ -6,6 +6,7 @@ type: report
 short_title: "Lyceum Project AI Ethics Aristotle"
 year: 2025
 first_author: "[[Josiah Ober]]"
+last_author: "[[Tasioulas, John]]"
 authors: "[[Ober, Josiah]]; [[Tasioulas, John]]"
 doi: N/A
 url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4879572"
@@ -33,7 +34,7 @@ data_metrics: N/A
 
 ## Authors
 
-[[Josiah Ober]], [[John Tasioulas]]
+[[Ober, Josiah]], [[John Tasioulas|Tasioulas, John]]
 
 ## Metadata
 

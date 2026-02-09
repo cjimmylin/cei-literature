@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: "NormGenesis: Multicultural Dialogue Generation Dataset"
 year: 2025
 first_author: "[[M. Hong]]"
+last_author: "[[M. Hong]]"
 authors: Hong, M. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2509.18395"
 external_pdf: "https://arxiv.org/pdf/2509.18395.pdf"
 local_pdf: "[[PDFs/2025/2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Hong, M. et al.]]
+[[M. Hong]]
 
 ## Metadata
 

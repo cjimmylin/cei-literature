@@ -8,6 +8,7 @@ type: bookSection
 short_title: "Automated Ethical Practical Reasoning"
 year: 2025
 first_author: "[[John P. Sullins]]"
+last_author: "[[John P. Sullins]]"
 authors: "[[Sullins, John P.]]"
 doi: N/A
 url: "https://mitpress.mit.edu/9780262549721/robophilosophy/"
@@ -35,15 +36,6 @@ data_metrics: "Not specified"
 ## Authors
 
 [[John P. Sullins]]
-## Metadata
-
-**Authors:** Sullins, John P.
-
-**Year:** 2025
-
-**Type:** book chapter
-
-**Publisher:** MIT Press (in Robophilosophy: Philosophy of, for, and by Social Robotics)
 
 ## Links
 

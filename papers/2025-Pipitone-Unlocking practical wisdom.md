@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Unlocking practical wisdom"
 year: 2025
 first_author: "[[Arianna Pipitone]]"
+last_author: "[[Chella, Antonio]]"
 authors: "[[Pipitone, Arianna]]; [[Seidita, Irene]]; [[Sullins, John P.]]; [[Chella, Antonio]]"
 doi: 10.1038/s41598-025-86193-7
 url: "https://pubmed.ncbi.nlm.nih.gov/39837932/"
@@ -34,16 +35,7 @@ pdf_extract: "[[2025-Pipitone-Unlocking practical wisdom]]"
 
 ## Authors
 
-[[Arianna Pipitone]], [[Irene Seidita]], [[John P. Sullins]], [[Antonio Chella]]
-## Metadata
-
-**Authors:** Pipitone, Arianna; Seidita, Irene; Sullins, John P.; Chella, Antonio
-
-**Year:** 2025
-
-**Type:** journal article
-
-**Publisher:** Scientific Reports (Nature)
+[[Arianna Pipitone|Pipitone, Arianna]], [[Irene Seidita|Seidita, Irene]], [[Sullins, John P]], [[Antonio Chella|Chella, Antonio]]
 
 ## Links
 

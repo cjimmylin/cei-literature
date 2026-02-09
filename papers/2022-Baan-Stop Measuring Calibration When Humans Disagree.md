@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Stop Measuring Calibration When Humans Disagree"
 year: 2025
 first_author: "[[Joris Baan]]"
+last_author: "[[Raquel Fernández]]"
 authors: "Joris Baan; Wilker Aziz; Barbara Plank; Raquel Fernández"
 doi: 10.48550/arXiv.2210.16133
 url: "http://arxiv.org/abs/2210.16133"

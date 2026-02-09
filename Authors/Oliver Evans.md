@@ -29,7 +29,8 @@ Research on evaluating fairness in image processing systems, particularly examin
 
 ## Papers in this Vault
 
-- [[2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling|Benchmarking Fairness in Image Upsampling]]
+
+- [[2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling|Benchmarking Fairness in Image Upsampling]] (Last Author)
 
 ## External Links & Profiles
 
@@ -37,4 +38,6 @@ Research on evaluating fairness in image processing systems, particularly examin
 
 ## Notes
 
+
+- *From 2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling*: Affiliation: Faculty of Computer Science, Ruhr, Email: Mike.Laszkiewicz@rub.de
 Researcher examining fairness issues in computer vision, contributing to evaluation methods for visual AI systems.

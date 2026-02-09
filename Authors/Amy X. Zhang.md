@@ -49,8 +49,9 @@ Her work has received best paper awards at major venues like CHI and CSCW and ha
 
 ## Papers in this Vault
 
-- [[2023-Chen-Case Law Grounding|Case Law Grounding]]
-- [[2023-Feng-Case Repositories|Case Repositories]]
+
+- [[2023-Chen-Case Law Grounding|Case Law Grounding]] (Last Author)
+- [[2023-Feng-Case Repositories|Case Repositories]] (Last Author)
 
 ## External Links & Profiles
 
@@ -64,4 +65,6 @@ Her work has received best paper awards at major venues like CHI and CSCW and ha
 - [Twitter/X](https://twitter.com/amy_x_zhang)
 
 ## Notes
+
+- *From 2023-Chen-Case Law Grounding*: Affiliation: University of Washington, Email: axz@cs.washington.edu
 [Amy is a leading researcher in the intersection of social systems and AI governance.]

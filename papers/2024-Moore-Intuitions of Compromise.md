@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Intuitions of Compromise"
 year: 2025
 first_author: "[[Jared Moore]]"
+last_author: "[[Sydney Levine]]"
 authors: "Jared Moore; Yejin Choi; Sydney Levine"
 doi: 10.48550/arXiv.2410.05496
 url: "http://arxiv.org/abs/2410.05496"

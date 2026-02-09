@@ -3,7 +3,7 @@ name: "Camilla Bignotti"
 title: "Legal Researcher / PhD Candidate"
 affiliation: "Bank of Italy / University of Trento"
 highest_degree: "Law Degree, Univ Trento (2018)"
-email: ""
+email: "camilla.bignotti@bancaditalia.it"
 research_interests:
   - "AI & Constitutional Law"
   - "Algorithmic Decision Making"
@@ -46,7 +46,8 @@ Bignotti's work provides a critical "Civil Law" perspective to AI ethics, often 
 
 ## Papers in this Vault
 
-- [[2024-Bignotti-Legal Minds, Algorithmic Decisions|Legal Minds, Algorithmic Decisions]]
+
+- [[2024-Bignotti-Legal Minds, Algorithmic Decisions|Legal Minds, Algorithmic Decisions]] (First Author)
 
 ## External Links & Profiles
 
@@ -54,4 +55,6 @@ Bignotti's work provides a critical "Civil Law" perspective to AI ethics, often 
 - [LinkedIn Profile](https://www.linkedin.com/in/camilla-bignotti-174b8b171/)
 
 ## Notes
+
+- *From 2024-Bignotti-Legal Minds, Algorithmic Decisions*:, Email: camilla.bignotti@bancaditalia.it
 Camilla's transition from physical "Transnational Crime" to "Algorithmic Decision" mirrors the legal world's shift toward digital governance and its inherent ethical challenges.

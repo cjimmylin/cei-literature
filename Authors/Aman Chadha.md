@@ -30,7 +30,8 @@ Aman's research addresses the scalability and reliability of foundation models. 
 - [Kaleidoscope: A Benchmark for Multilingual AI Safety](https://arxiv.org/abs/2410.00000) (2024) - *Leading large-scale safety evaluation.*
 
 ## Papers in this Vault
-- [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
+
+- [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## External Links & Profiles
 - [Personal Website](https://amanchadha.com/)
@@ -39,4 +40,6 @@ Aman's research addresses the scalability and reliability of foundation models. 
 - [Google Scholar](https://scholar.google.com/citations?user=846oT78AAAAJ)
 
 ## Notes
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 [A central hub for AI research curation and large-scale evaluation strategies.]

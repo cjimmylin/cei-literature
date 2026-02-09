@@ -34,6 +34,7 @@ He has been awarded the Fudan Policy Advisory Research Support Program.
 
 ## Papers in this Vault
 
+
 - [[2025-Wu-OpenDeception|OpenDeception]]
 
 ## External Links
@@ -44,4 +45,6 @@ He has been awarded the Fudan Policy Advisory Research Support Program.
 
 ## Notes
 
+
+- *From 2025-Wu-OpenDeception*: Affiliation: University, 2Shanghai Innovation Institute (SII)
 Published at top security venues (IEEE S&P, ACM CCS, NDSS, USENIX Security). Research bridges traditional cybersecurity with emerging LLM security concerns.

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "How Effective Is Constitutional AI in Small LLMs?"
 year: 2025
 first_author: "[[Antonio-Gabriel Chacón Menke]]"
+last_author: "[[Phan Xuan Tan]]"
 authors: "[[Antonio-Gabriel Chacón Menke]], [[Phan Xuan Tan]]"
 doi: 10.48550/arXiv.2503.17365
 url: "http://arxiv.org/abs/2503.17365"
@@ -38,18 +39,7 @@ data_metrics: "90 prompts"
 
 ## Authors
 
-[[[[Antonio-Gabriel Chacón Menke]], [[Phan Xuan Tan]]]]
-## Metadata
-
-**Authors:** Menke, Antonio-Gabriel Chacón; Tan, Phan Xuan
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2503.17365](https://doi.org/10.48550/arXiv.2503.17365)
-
-**Publisher:** arXiv
+[[Antonio-Gabriel Chacón Menke]], [[Phan Xuan Tan]]
 
 ## Links
 

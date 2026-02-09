@@ -3,7 +3,7 @@ name: "Chan Young Park"
 title: "Incoming Assistant Professor"
 affiliation: "UT Austin / University of Washington / Microsoft Research"
 highest_degree: "PhD, LTI, Carnegie Mellon University"
-email: ""
+email: "chanyoun@cs.cmu.edu"
 research_interests:
   - "Computational Social Science"
   - "Natural Language Processing"
@@ -49,8 +49,9 @@ Park has won several major awards, including the ACL Best Paper Award. Her co-au
 
 ## Papers in this Vault
 
-- [[2023-Feng-From Pretraining Data to Language Models to|From Pretraining Data to Language Models to]]
+
 - [[2025-Chiu-CulturalBench|CulturalBench]]
+- [[2023-Feng-From Pretraining Data to Language Models to|From Pretraining Data to Language Models to]]
 
 ## External Links & Profiles
 
@@ -59,4 +60,6 @@ Park has won several major awards, including the ACL Best Paper Award. Her co-au
 - [Personal Website](https://chanyoungpark.github.io/)
 
 ## Notes
+
+- *From 2023-Feng-From Pretraining Data to Language Models to*: Affiliation: University of Washington, Email: chanyoun@cs.cmu.edu
 Chan Young's transition to a tenure-track position at UT Austin marks her as a rising leader in the "Ethical AI" community, specifically in the domain of social-aware NLP.

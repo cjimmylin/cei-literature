@@ -20,8 +20,11 @@ Tolga Bolukbasi is affiliated with Google DeepMind and has connections to Boston
 
 ## Papers in this Vault
 
-- [[2016-Bolukbasi-Man is to Computer Programmer as Woman is to|Man is to Computer Programmer as Woman is to]]
+
+- [[2016-Bolukbasi-Man is to Computer Programmer as Woman is to|Man is to Computer Programmer as Woman is to]] (First Author)
 
 ## Notes
 
+
+- *From 2016-Bolukbasi-Man is to Computer Programmer as Woman is to*: Affiliation: University, 8 Saint Mary’s Street, Boston, MA, Email: tolgab@bu.edu
 [Additional context or contact information]

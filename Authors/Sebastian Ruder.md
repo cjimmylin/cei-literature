@@ -1,6 +1,6 @@
 ---
 name: "Sebastian Ruder"
-affiliation: "University/Organization"
+affiliation: "University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
-- [[2023-Muhammad-SemEval-2023 Task 12|SemEval-2023 Task 12]]
+- [[2023-Muhammad-SemEval-2023 Task 12|SemEval-2023 Task 12]] (Last Author)
 
 ## Notes
 
+
+- *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 [Additional context or contact information]

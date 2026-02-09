@@ -18,8 +18,11 @@ Johannes Welbl is a researcher at Google DeepMind working on AI safety and natur
 
 ## Papers in this Vault
 
+
 - [[2022-Rauh-Characteristics of Harmful Text|Characteristics of Harmful Text]]
 
 ## Notes
 
+
+- *From 2022-Rauh-Characteristics of Harmful Text*:, Email: mbrauh@deepmind.com
 Part of the DeepMind team studying the safety properties of large language models.

@@ -1,6 +1,6 @@
 ---
 name: "Sophie Jentzsch"
-affiliation: "University/Organization"
+affiliation: "University of Sussex, United Kingdom"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2020-Schramowski-The Moral Choice Machine|The Moral Choice Machine]]
 
 ## Notes
 
+
+- *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
 [Additional context or contact information]

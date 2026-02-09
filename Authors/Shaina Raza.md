@@ -19,8 +19,11 @@ Applied Machine Learning Scientist at Vector Institute specializing in Responsib
 
 ## Papers in this Vault
 
-- [[2025-Raza-HumaniBench|HumaniBench]]
+
+- [[2025-Raza-HumaniBench|HumaniBench]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Raza-HumaniBench*: Affiliation: Institute for Artificial Intelligence, Toronto, Canada
 [Additional context or contact information]

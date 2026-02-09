@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Gender Bias in Contextualized Word Embeddings"
 year: 2025
 first_author: "[[Jieyu Zhao]]"
+last_author: "[[Kai-Wei Chang]]"
 authors: "Jieyu Zhao; Yichao Zhou; Zeyu Li; Wei Wang; Kai-Wei Chang"
 url: "https://arxiv.org/abs/1809.01496"
 external_pdf: "https://arxiv.org/pdf/1809.01496.pdf"

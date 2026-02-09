@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: Saudi-Alignment Benchmark -- Assessing LLMs Alignment with Saudi Cultural and Ethical Norms
 year: 2025
 first_author: "[[Manal Alhassoun]]"
+last_author: "[[Waleed Alsanie]]"
 authors: Manal Alhassoun; Imaan Alkhanen; Nouf Alshalawi; Ibtehal Baazeem; Waleed Alsanie
 publication: Unknown
 external_pdf: "https://aclanthology.org/2025.arabicnlp-main.11.pdf"

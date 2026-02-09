@@ -8,6 +8,7 @@ type: document
 short_title: MedEthicsQA
 year: 2025
 first_author: "[[Jianhui Wei]]"
+last_author: "[[Zuozhu Liu]]"
 authors: "Jianhui Wei; Zijie Meng; Zikai Xiao; Tianxiang Hu; Yang Feng; Zhijie Zhou; Jian Wu; Zuozhu Liu"
 url: "https://arxiv.org/abs/2506.22808"
 external_pdf: "https://arxiv.org/pdf/2506.22808.pdf"

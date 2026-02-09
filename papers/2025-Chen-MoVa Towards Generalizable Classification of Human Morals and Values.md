@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: "MoVa: Towards Generalizable Classification of Human Morals and Values"
 year: 2025
 first_author: "[[Z. Chen]]"
+last_author: "[[Z. Chen]]"
 authors: Chen, Z. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2509.24216"
 external_pdf: "https://arxiv.org/pdf/2509.24216.pdf"
 local_pdf: "[[PDFs/2025/2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Chen, Z. et al.]]
+[[Z. Chen]]
 
 ## Metadata
 

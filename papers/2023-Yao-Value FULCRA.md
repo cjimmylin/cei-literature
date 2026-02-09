@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Value FULCRA"
 year: 2025
 first_author: "[[Jing Yao]]"
+last_author: "[[Xing Xie]]"
 authors: "Jing Yao; Xiaoyuan Yi; Xiting Wang; Yifan Gong; Xing Xie"
 doi: 10.48550/arXiv.2311.10766
 url: "http://arxiv.org/abs/2311.10766"

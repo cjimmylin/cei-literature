@@ -8,6 +8,7 @@ type: document
 short_title: "Unlearn Dataset Bias in Natural Language"
 year: 2025
 first_author: "[[He He]]"
+last_author: "[[Wang, Haohan]]"
 authors: "[[He, He]]; [[Zha, Sheng]]; [[Wang, Haohan]]"
 url: "https://aclanthology.org/D19-6115/"
 external_pdf: "https://aclanthology.org/D19-6115.pdf"
@@ -36,12 +37,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[He He]], [[Sheng Zha]], [[Haohan Wang]]
-## Metadata
-
-**Year:** 2019
-
-**Type:** document
+[[He He|He, He]], [[Sheng Zha|Zha, Sheng]], [[Haohan Wang|Wang, Haohan]]
 
 ## Links
 

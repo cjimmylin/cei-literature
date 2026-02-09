@@ -1,6 +1,6 @@
 ---
 name: "Ruslan Salakhutdinov"
-affiliation: "University/Organization"
+affiliation: "School of Computer Science"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2021-Prabhumoye-Case Study|Case Study]]
 
 ## Notes
 
+
+- *From 2021-Prabhumoye-Case Study*: Affiliation: School of Computer Science
 [Additional context or contact information]

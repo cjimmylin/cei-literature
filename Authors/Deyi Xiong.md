@@ -35,10 +35,12 @@ Deyi Xiong is a prolific researcher in natural language processing, with particu
 - "Large Language Model Safety: A Survey" (2024)
 
 ## Papers in this Vault
-- [[2023-Shen-Large Language Model Alignment|Large Language Model Alignment]]
-- [[2024-Huang-CBBQ|CBBQ]]
-- [[2024-Shi-Large Language Model Safety|Large Language Model Safety]]
-- [[2024-Yu-CMoralEval|CMoralEval]]
+
+- [[2024-Huang-CBBQ|CBBQ]] (Last Author)
+- [[2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and|OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety]] (Last Author)
+- [[2024-Shi-Large Language Model Safety|Large Language Model Safety]] (Last Author)
+- [[2024-Yu-CMoralEval|CMoralEval]] (Last Author)
+- [[2023-Shen-Large Language Model Alignment|Large Language Model Alignment]] (Last Author)
 
 ## Links
 - Website: https://dyxiong.github.io/

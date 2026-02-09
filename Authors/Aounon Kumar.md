@@ -1,6 +1,6 @@
 ---
 name: "Aounon Kumar"
-affiliation: "University/Organization"
+affiliation: "University of Virginia"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Han-MedSafetyBench|MedSafetyBench]]
 
 ## Notes
 
+
+- *From 2024-Han-MedSafetyBench*: Affiliation: University of Virginia, Email: aokumar@hbs.edu
 [Additional context or contact information]

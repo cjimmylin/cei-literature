@@ -3,7 +3,7 @@ name: "Hamidreza Saffari"
 title: "Researcher / PhD Student"
 affiliation: "Politecnico di Milano"
 highest_degree: "PhD (in progress)"
-email: ""
+email: "hamidreza.saffari@mail.polimi.it"
 research_interests:
   - "Natural Language Processing"
   - "Cross-Cultural AI"
@@ -46,7 +46,9 @@ Saffari led the development of the Iranian Social Norms (ISN) dataset, the first
 
 ## Papers in this Vault
 
-- [[2025-Saffari-Can I introduce my boyfriend to my grandmother|Can I introduce my boyfriend to my grandmother?]]
+
+- [[2025-Saffari-Can I introduce my boyfriend to my grandmother|Can I introduce my boyfriend to my grandmother?]] (First Author)
+- [[2024-Saffari-PSN|PSN]] (First Author)
 
 ## External Links & Profiles
 
@@ -56,4 +58,6 @@ Saffari led the development of the Iranian Social Norms (ISN) dataset, the first
 
 ## Notes
 
+
+- *From 2024-Saffari-PSN*: Affiliation: University of Milan, 3Bocconi University, Email: hamidreza.saffari@mail.polimi.it
 Hamidreza Saffari's work on Iranian social norms represents a critical contribution to ensuring AI systems understand and respect cultural diversity beyond Western contexts, highlighting the importance of culturally-specific datasets.

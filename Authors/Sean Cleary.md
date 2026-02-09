@@ -27,8 +27,11 @@ His research on rotation distances measures the differences in structure between
 
 ## Papers in this Vault
 
-- [[2025-Various-U-SafeBench|U-SafeBench]] (Note: Metadata mismatch - paper abstract discusses tree balance in phylogenetics)
+
+- [[2025-Various-U-SafeBench|U-SafeBench]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Various-U-SafeBench*: Affiliation: lable, recently
 While primarily a mathematician working on theoretical aspects of tree structures and group theory, his work provides mathematical foundations relevant to computational decision-making systems and hierarchical structures in AI. The vault contains a paper with mismatched metadata that should be verified.

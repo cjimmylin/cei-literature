@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Speaking the Right Language"
 year: 2025
 first_author: "[[Shramay Palta]]"
+last_author: "[[Scott Counts]]"
 authors: "Shramay Palta; Nirupama Chandrasekaran; Rachel Rudinger; Scott Counts"
 doi: 10.48550/arXiv.2502.18685
 url: "http://arxiv.org/abs/2502.18685"

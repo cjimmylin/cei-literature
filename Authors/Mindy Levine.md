@@ -1,6 +1,6 @@
 ---
 name: "Mindy Levine"
-affiliation: "University/Organization"
+affiliation: "Lababidi4, Lennart Justen3,4"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## Notes
 
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 [Additional context or contact information]

@@ -8,6 +8,7 @@ type: document
 short_title: "MERA: A Comprehensive LLM Evaluation in Russian"
 year: 2025
 first_author: "[[Alena Fenogenova]]"
+last_author: "[[Markov, Sergey]]"
 authors: "[[Fenogenova, Alena]]; [[Chervyakov, Artem]]; [[Martynov, Nikita]]; [[Kozlova, Anastasia]]; [[Tikhonova, Maria]]; [[Akhmetgareeva, Albina]]; [[Emelyanov, Anton]]; [[Shevelev, Denis]]; [[Lebedev, Pavel]]; [[Sinev, Leonid]]; [[Isaeva, Ulyana]]; [[Kolomeytseva, Katerina]]; [[Moskovskiy, Daniil]]; [[Goncharova, Elizaveta]]; [[Savushkin, Nikita]]; [[Mikhailova, Polina]]; [[Minaeva, Anastasia]]; [[Dimitrov, Denis]]; [[Panchenko, Alexander]]; [[Markov, Sergey]]"
 url: "https://aclanthology.org/2024.acl-long.534/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/6ESQLWPZ/2024 - MERA A Comprehensive LLM Evaluation in Russian.pdf"
@@ -36,12 +37,7 @@ local_pdf: "[[PDFs/2024/2024-Fenogenova-MERA A Comprehensive LLM Evaluation in R
 
 ## Authors
 
-[[Alena Fenogenova]], [[Artem Chervyakov]], [[Nikita Martynov]], [[Anastasia Kozlova]], [[Maria Tikhonova]], [[Albina Akhmetgareeva]], [[Anton Emelyanov]], [[Denis Shevelev]], [[Pavel Lebedev]], [[Leonid Sinev]], [[Ulyana Isaeva]], [[Katerina Kolomeytseva]], [[Daniil Moskovskiy]], [[Elizaveta Goncharova]], [[Nikita Savushkin]], [[Polina Mikhailova]], [[Anastasia Minaeva]], [[Denis Dimitrov]], [[Alexander Panchenko]], [[Sergey Markov]]
-## Metadata
-
-**Year:** 2024
-
-**Type:** document
+[[Alena Fenogenova|Fenogenova, Alena]], [[Artem Chervyakov|Chervyakov, Artem]], [[Nikita Martynov|Martynov, Nikita]], [[Anastasia Kozlova|Kozlova, Anastasia]], [[Maria Tikhonova|Tikhonova, Maria]], [[Albina Akhmetgareeva|Akhmetgareeva, Albina]], [[Anton Emelyanov|Emelyanov, Anton]], [[Denis Shevelev|Shevelev, Denis]], [[Pavel Lebedev|Lebedev, Pavel]], [[Leonid Sinev|Sinev, Leonid]], [[Ulyana Isaeva|Isaeva, Ulyana]], [[Katerina Kolomeytseva|Kolomeytseva, Katerina]], [[Daniil Moskovskiy|Moskovskiy, Daniil]], [[Elizaveta Goncharova|Goncharova, Elizaveta]], [[Nikita Savushkin|Savushkin, Nikita]], [[Polina Mikhailova|Mikhailova, Polina]], [[Anastasia Minaeva|Minaeva, Anastasia]], [[Denis Dimitrov|Dimitrov, Denis]], [[Alexander Panchenko|Panchenko, Alexander]], [[Sergey Markov|Markov, Sergey]]
 
 ## Links
 

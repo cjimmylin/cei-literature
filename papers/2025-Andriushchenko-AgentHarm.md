@@ -8,6 +8,7 @@ type: journalArticle
 short_title: AgentHarm
 year: 2025
 first_author: "[[Maksym Andriushchenko]]"
+last_author: "[[Xander Davies]]"
 authors: "Maksym Andriushchenko; Alexandra Souly; Mateusz Dziemian; Derek Duenas; Maxwell Lin; Justin Wang; Dan Hendrycks; Andy Zou; Zico Kolter; Matt Fredrikson; Eric Winsor; Jerome Wynne; Yarin Gal; Xander Davies"
 doi: 10.48550/arXiv.2410.09024
 url: "http://arxiv.org/abs/2410.09024"

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: ProsocialDialog
 year: 2025
 first_author: "[[Hyunwoo Kim]]"
+last_author: "[[Maarten Sap]]"
 authors: "Hyunwoo Kim; Youngjae Yu; Liwei Jiang; Ximing Lu; Daniel Khashabi; Gunhee Kim; Yejin Choi; Maarten Sap"
 doi: 10.48550/arXiv.2205.12688
 tags: 

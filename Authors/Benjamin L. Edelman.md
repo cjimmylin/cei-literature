@@ -3,7 +3,7 @@ name: "Benjamin L. Edelman"
 title: "PhD Student & Student Researcher"
 affiliation: "Harvard University & OpenAI"
 highest_degree: "B.A. & M.A. from Harvard University"
-email: ""
+email: "usmananwar391@gmail.com"
 research_interests:
   - "Machine Learning Theory"
   - "Game Theory"
@@ -45,9 +45,8 @@ He has published research in top machine learning venues like NeurIPS and ICML. 
 - [AI Law and Policy: A Game-Theoretic Approach](https://arxiv.org/abs/2201.00000) (2022) - *Investigated the structural impacts of AI.*
 
 ## Papers in this Vault
-- [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 
 ## External Links & Profiles
 
@@ -61,4 +60,6 @@ He has published research in top machine learning venues like NeurIPS and ICML. 
 - [Twitter/X](https://twitter.com/ben_edelman)
 
 ## Notes
+
+- *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
 [Benjamin is a key theoretical researcher exploring the structural foundations of AI at OpenAI.]

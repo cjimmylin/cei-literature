@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: Scruples
 year: 2025
 first_author: "[[Nicholas Lourie]]"
+last_author: "[[Yejin Choi]]"
 authors: "Nicholas Lourie; Ronan Le Bras; Yejin Choi"
 doi: 10.48550/arXiv.2008.09094
 tags: 

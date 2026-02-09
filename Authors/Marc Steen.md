@@ -20,7 +20,8 @@ Marc Steen is a Senior Research Scientist at TNO with MSc, PDEng and PhD degrees
 
 ## Papers in this Vault
 
-- [[2025-Steen-Ethical aspects of ChatGPT|Ethical aspects of ChatGPT]]
+
+- [[2025-Steen-Ethical aspects of ChatGPT|Ethical aspects of ChatGPT]] (First Author)
 
 ## Notes
 

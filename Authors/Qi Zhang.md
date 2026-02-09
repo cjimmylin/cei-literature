@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Liu-PersuSafety LLM Can be a Dangerous Persuader|PersuSafety LLM Can be a Dangerous Persuader]]
+- [[2025-Liu-PersuSafety LLM Can be a Dangerous Persuader|PersuSafety: LLM Can be a Dangerous Persuader]]
 
 ## External Links & Profiles
 

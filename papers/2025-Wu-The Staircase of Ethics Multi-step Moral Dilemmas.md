@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: The Staircase of Ethics (Multi-step Moral Dilemmas)
 year: 2025
 first_author: "[[Ya Wu]]"
+last_author: "[[Ya Wu]]"
 authors: Ya Wu et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2505.18154"
 external_pdf: "https://arxiv.org/pdf/2505.18154.pdf"
 local_pdf: "[[PDFs/2025/2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Ya Wu et al.]]
+[[Ya Wu]]
 
 ## Metadata
 

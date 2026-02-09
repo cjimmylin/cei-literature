@@ -7,6 +7,7 @@ type: journalArticle
 short_title: "LLMs Amplified Cognitive Biases"
 year: 2025
 first_author: "[[Vanessa Cheung]]"
+last_author: "[[Lieder, Falk]]"
 authors: "[[Cheung, Vanessa]]; [[Maier, Maximilian]]; [[Lieder, Falk]]"
 doi: 10.1073/pnas.2412015122
 url: "https://www.pnas.org/doi/10.1073/pnas.2412015122"
@@ -37,7 +38,7 @@ DATE_ADDED: 20260207
 
 ## Authors
 
-[[Vanessa Cheung]], [[Maximilian Maier]], [[Falk Lieder]]
+[[Cheung, Vanessa]], [[Maier, Maximilian]], [[Lieder, Falk]]
 
 ## Metadata
 

@@ -31,3 +31,7 @@ Research Center Trustworthy Data Science and Security, TU Dortmund University
 - Website:
 - Google Scholar:
 - Semantic Scholar:
+
+## Papers in this Vault
+
+- [[2024-Aksoy-Whose Morality Do They Speak|Whose Morality Do They Speak?]] (First Author)

@@ -33,6 +33,7 @@ Before his doctoral work, he conducted cross-cultural and clinical psychology as
 
 ## Papers in this Vault
 
+
 - [[2023-Aroyo-DICES Dataset|DICES Dataset]]
 
 ## Links
@@ -43,6 +44,8 @@ Before his doctoral work, he conducted cross-cultural and clinical psychology as
 
 ## Notes
 
+
+- *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London
 Serapio-Garcia's work on measuring and shaping personality in LLMs raises important questions about AI safety and the ethical implications of AI systems that can convincingly mimic human personality traits.
 
 Note: This author may also appear as "Gregory Serapio-Garcia" in the vault.

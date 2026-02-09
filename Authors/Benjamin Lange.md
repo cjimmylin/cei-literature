@@ -47,6 +47,7 @@ Lange leads a research group dedicated to exploring the ethical foundations of a
 
 ## Papers in this Vault
 
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
 ## External Links & Profiles
@@ -57,4 +58,6 @@ Lange leads a research group dedicated to exploring the ethical foundations of a
 - [ORCID](https://orcid.org/0000-0002-4128-6856)
 
 ## Notes
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 His background in moral philosophy combined with industry experience at Google makes him a key voice in translating abstract ethical principles into practical AI safeguards.

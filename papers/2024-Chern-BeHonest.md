@@ -8,6 +8,7 @@ type: document
 short_title: BeHonest
 year: 2025
 first_author: "[[Steffi Chern]]"
+last_author: "[[Pengfei Liu]]"
 authors: "Steffi Chern; Zhulin Hu; Yuqing Yang; Ethan Chern; Yuan Guo; Jiahe Jin; Binjie Wang; Pengfei Liu"
 url: "https://arxiv.org/abs/2406.13261"
 external_pdf: "https://arxiv.org/pdf/2406.13261.pdf"
@@ -56,7 +57,7 @@ Previous works on Large Language Models (LLMs) have mainly focused on evaluating
 
 ## Authors
 
-[[Steffi Chern]], [[Zhulin Hu]], [[Yuqing Yang]], [[Ethan Chern]], [[Yuan Guo]], [[Jiahe Jin]], [[Binjie Wang]], [[Pengfei Liu]]
+[[Steffi Chern]], [[Zhiyuan Hu|Zhulin Hu]], [[Yuqing Yang]], [[Ethan Chern]], [[Yuan Guo]], [[Jing Jin|Jiahe Jin]], [[Binjie Wang]], [[Pengyuan Liu|Pengfei Liu]]
 
 ## Notes
 

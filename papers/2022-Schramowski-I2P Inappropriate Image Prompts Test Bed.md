@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: "I2P: Inappropriate Image Prompts Test Bed"
 year: 2022
 first_author: "[[P. Schramowski]]"
+last_author: "[[P. Schramowski]]"
 authors: Schramowski, P. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2202.06675"
 external_pdf: "https://arxiv.org/pdf/2202.06675.pdf"
 local_pdf: "[[PDFs/2022/2022-Schramowski-I2P Inappropriate Image Prompts Test Bed.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Schramowski, P. et al.]]
+[[P. Schramowski]]
 
 ## Metadata
 

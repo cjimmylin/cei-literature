@@ -10,7 +10,8 @@ type: journalArticle
 short_title: Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)
 year: 2025
 first_author: "[[L. Jiang]]"
-authors: Jiang, L., Sakaguchi, K., et al
+last_author: "[[Yejin Choi]]"
+authors: "Liwei Jiang; Jena D. Hwang; Chandra Bhagavatula; Ronan Le Bras; Jenny T. Liang; Sydney Levine; Jesse Dodge; Keisuke Sakaguchi; Maxwell Forbes; Jack Hessel; Jon Borchardt; Taylor Sorensen; Saadia Gabriel; Yulia Tsvetkov; Oren Etzioni; Maarten Sap; Regina Rini; Yejin Choi"
 doi: 10.1038/s42256-024-00969-6
 url: "https://doi.org/10.1038/s42256-024-00969-6"
 external_pdf: "https://www.nature.com/articles/s42256-024-00969-6.pdf"
@@ -40,7 +41,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Jiang, L., Sakaguchi, K., et al]]
+[[Liwei Jiang]], [[Jena D. Hwang]], [[Chandra Bhagavatula]], [[Ronan Le Bras]], [[Jenny Liang|Jenny T. Liang]], [[Sydney Levine]], [[Jesse Dodge]], [[Keisuke Sakaguchi]], [[Maxwell Forbes]], [[Jack Hessel]], [[Jon Borchardt]], [[Taylor Sorensen]], [[Saadia Gabriel]], [[Yulia Tsvetkov]], [[Oren Etzioni]], [[Maarten Sap]], [[Regina Rini]], [[Yejin Choi]]
 
 ## Metadata
 

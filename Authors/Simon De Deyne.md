@@ -1,6 +1,6 @@
 ---
 name: "Simon De Deyne"
-affiliation: "University/Organization"
+affiliation: "School of Computing and Information Systems, The University of Melbourne"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Xiang-Comparing Moral Values in Western|Comparing Moral Values in Western]]
 
 ## Notes
 
+
+- *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au
 [Additional context or contact information]

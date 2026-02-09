@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: ABCFair
 year: 2025
 first_author: "[[MaryBeth Defrance]]"
+last_author: "[[Tijl De Bie]]"
 authors: "MaryBeth Defrance; Maarten Buyl; Tijl De Bie"
 key_contribution: "Introduced ABCFair, a modular and adaptable benchmarking framework for comparing bias mitigation methods (pre-, in-, and post-processing) across diverse problem settings."
 significance: "Standardizes the evaluation of fairness algorithms, addressing the lack of proper comparability caused by inconsistent intervention stages and fairness notions."
@@ -57,7 +58,7 @@ Numerous methods have been implemented that pursue fairness with respect to sens
 
 ## Authors
 
-[[Yiru Liu]], [[S Wang]], [[Jilin Chen]], [[Zhize Liu]], [[Zhongqi Wang]], [[Zhize Li]], [[Jie Zhang]]
+[[MaryBeth Defrance]], [[Maarten Buyl]], [[Tijl De Bie]]
 
 ## Notes
 

@@ -19,8 +19,12 @@ Kexin Huang is a PhD student at Stanford Computer Science, advised by Prof. Jure
 
 ## Papers in this Vault
 
-- [[2023-Huang-Flames|Flames]]
+
+- [[2024-Huang-Flames|Flames]] (First Author)
+- [[2023-Huang-Flames|Flames]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Huang-Flames*:, Email: tengyan@pjlab.org.cn
 [Additional context or contact information]

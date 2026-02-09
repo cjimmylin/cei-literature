@@ -3,7 +3,7 @@ name: "Abdulrahman Mirza"
 title: "Professor of Information Systems"
 affiliation: "King Saud University, College of Computer and Information Sciences"
 highest_degree: "PhD, University of Missouri (Year)"
-email: ""
+email: "oalyemni@ksu.edu.sa"
 research_interests:
   - "Arabic NLP"
   - "Knowledge Management"
@@ -32,9 +32,9 @@ Dr. Mirza's recent work explores the intersection of Arabic NLP and Islamic know
 - [A Data-Driven Exploration of a New Islamic Fatwas Dataset for Arabic NLP Tasks](https://example.com) (2024) - *Exploring religious knowledge in AI contexts.*
 
 ## Papers in this Vault
-- [[2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas|A Data-Driven Exploration of a New Islamic Fatwas]]
 
-- [[2025-Alwajih-Palm|Palm]]
+- [[2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas|A Data-Driven Exploration of a New Islamic Fatwas]] (Last Author)
+- [[2023-Alyemny-FatwaSet|FatwaSet]] (Last Author)
 
 ## External Links & Profiles
 
@@ -43,4 +43,6 @@ Dr. Mirza's recent work explores the intersection of Arabic NLP and Islamic know
 - [ResearchGate](https://www.researchgate.net/profile/Abdulrahman-Mirza)
 
 ## Notes
+
+- *From 2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas*: Affiliation: Department of Information Systems, College of Computer and Information Sciences, King Saud University, Email: oalyemni@ksu.edu.sa
 [Extensive expertise in the digitalization of Islamic knowledge and Arabic information systems.]

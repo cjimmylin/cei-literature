@@ -10,6 +10,7 @@ type: conferencePaper
 short_title: "Decoding Moral Responses in AI: A Quantitative Analysis of Large Language Models"
 year: 2025
 first_author: "[[Chenkai Sun]]"
+last_author: "[[Heng Ji]]"
 authors: Chenkai Sun; Jinning Li; Yi R. Fung; Hou Pong Chan; Tarek Abdelzaher; ChengXiang Zhai; Heng Ji
 doi: 10.1016/j.chbah.2025.100121
 url: "https://doi.org/10.1016/j.chbah.2025.100121"
@@ -40,7 +41,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[[Authors not fully extracted]]]
+[[Chenkai Sun]], [[Jinning Li]], [[Yi R. Fung]], [[Hou Pong Chan]], [[Tarek Abdelzaher]], [[ChengXiang Zhai]], [[Heng Ji]]
 
 ## Metadata
 

@@ -8,6 +8,7 @@ type: preprint
 short_title: "When Prompting Fails to Sway"
 year: 2025
 first_author: "[[Bruce W. Lee]]"
+last_author: "[[Hyunsoo Cho]]"
 authors: "Bruce W. Lee; Yeongheon Lee; Hyunsoo Cho"
 doi: 10.48550/arXiv.2408.09049
 url: "http://arxiv.org/abs/2408.09049"

@@ -1,6 +1,6 @@
 ---
 name: "Xudong Pan"
-affiliation: "University/Organization"
+affiliation: "University, 2Shanghai Innovation Institute (SII)"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Wu-OpenDeception|OpenDeception]]
 
 ## Notes
 
+
+- *From 2025-Wu-OpenDeception*: Affiliation: University, 2Shanghai Innovation Institute (SII)
 [Additional context or contact information]

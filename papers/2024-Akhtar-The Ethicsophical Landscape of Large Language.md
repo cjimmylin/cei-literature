@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: "The Ethicsophical Landscape of Large Language"
 first_author: "[[Shahnawaz Akhtar]]"
+last_author: "[[Shahnawaz Akhtar]]"
 authors: "[[Akhtar, Shahnawaz]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/DIHXXCK6/Akhtar - The Ethicsophical Landscape of Large Language Models.pdf"
 pdf_extract: "[[2024-Akhtar-The Ethicsophical Landscape of Large Language]]"
@@ -35,11 +36,6 @@ data_metrics: "Not specified"
 ## Authors
 
 [[Shahnawaz Akhtar]]
-## Metadata
-
-**Authors:** Akhtar, Shahnawaz
-
-**Type:** journalArticle
 
 ## Abstract
 

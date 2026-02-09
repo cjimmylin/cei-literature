@@ -45,9 +45,8 @@ He co-developed "Grape," a parallel graph computation system that was commercial
 - [Grape: Parallelizing Sequential Graph Algorithms](https://arxiv.org/abs/1701.00000) (2017) - *Award-winning work on graph systems.*
 
 ## Papers in this Vault
-- [[2025-Yao-NurValues|NurValues]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2025-Yao-NurValues|NurValues]]
 
 ## External Links & Profiles
 
@@ -57,4 +56,6 @@ He co-developed "Grape," a parallel graph computation system that was commercial
 - [LinkedIn Profile](https://www.linkedin.com/in/bohan-zhang-87b6a1b1/)
 
 ## Notes
+
+- *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University
 [Bohan is a critical systems engineer bridging the gap between databases and AI.]

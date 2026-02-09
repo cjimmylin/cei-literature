@@ -8,6 +8,7 @@ type: document
 short_title: DecodingTrust
 year: 2025
 first_author: "[[Boxin Wang]]"
+last_author: "[[Bo Li]]"
 authors: "Boxin Wang; Weixin Chen; Hengzhi Pei; Chulin Xie; Mintong Kang; Chenhui Zhang; Chejian Xu; Zidi Xiong; Ritik Dutta; Rylan Schaeffer; Sang T. Truong; Simran Arora; Mantas Mazeika; Dan Hendrycks; Zinan Lin; Yu Cheng; Sanmi Koyejo; Dawn Song; Bo Li"
 url: "https://arxiv.org/abs/2306.11698"
 external_pdf: "https://arxiv.org/pdf/2306.11698.pdf"
@@ -56,7 +57,7 @@ Generative Pre-trained Transformer (GPT) models have exhibited exciting progress
 
 ## Authors
 
-[[Boxin Wang]], [[Weixin Chen]], [[Hengzhi Pei]], [[Chulin Xie]], [[Mintong Kang]], [[Chenhui Zhang]], [[Chejian Xu]], [[Zidi Xiong]], [[Ritik Dutta]], [[Rylan Schaeffer]], [[Sang T. Truong]], [[Simran Arora]], [[Mantas Mazeika]], [[Dan Hendrycks]], [[Zinan Lin]], [[Yu Cheng]], [[Sanmi Koyejo]], [[Dawn Song]], [[Bo Li]]
+[[Boxin Wang]], [[Wei Chen|Weixin Chen]], [[Hengzhi Pei]], [[Chulin Xie]], [[Mintong Kang]], [[Chenhui Zhang]], [[Chejian Xu]], [[Zexuan Xiong|Zidi Xiong]], [[Ritik Dutta]], [[Rylan Schaeffer]], [[Sang T. Truong]], [[Simran Arora]], [[Mantas Mazeika]], [[Dan Hendrycks]], [[Zinan Lin]], [[Yu Cheng]], [[Sanmi Koyejo]], [[Dawn Song]], [[Bo Li]]
 
 ## Notes
 

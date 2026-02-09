@@ -8,6 +8,7 @@ type: journalArticle
 short_title: JBB-Behaviours
 year: 2025
 first_author: "[[Patrick Chao]]"
+last_author: "[[Eric Wong]]"
 authors: "Patrick Chao; Edoardo Debenedetti; Alexander Robey; Maksym Andriushchenko; Francesco Croce; Vikash Sehwag; Edgar Dobriban; Nicolas Flammarion; George J. Pappas; Florian Tramer; Hamed Hassani; Eric Wong"
 url: "https://arxiv.org/abs/2404.01318"
 external_pdf: "https://arxiv.org/pdf/2404.01318.pdf"

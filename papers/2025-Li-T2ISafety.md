@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: T2ISafety
 first_author: "[[Lijun Li]]"
+last_author: "[[Jing Shao]]"
 authors: "Lijun Li; Zhelun Shi; Xuhao Hu; Bowen Dong; Yiran Qin; Xihui Liu; Lu Sheng; Jing Shao"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/E7EZLTEZ/Li et al. - T2ISafety Benchmark for Assessing Fairness, Toxicity, and Privacy in Image Generation.pdf"
 pdf_extract: [[2025-Li-T2ISafety]]

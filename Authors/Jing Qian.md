@@ -19,8 +19,11 @@ Researcher at Microsoft AI Platform team. PhD in Computer Science from UCSB (adv
 
 ## Papers in this Vault
 
-- [[2023-Qian-Understanding Chinese Moral Stories with Further|Understanding Chinese Moral Stories with Further]]
+
+- [[2023-Qian-Understanding Chinese Moral Stories with Further|Understanding Chinese Moral Stories with Further]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Qian-Understanding Chinese Moral Stories with Further*: Affiliation: School of Advanced Technology, Xi’an Jiaotong Liverpool University
 [Additional context or contact information]

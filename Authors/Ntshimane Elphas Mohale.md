@@ -1,6 +1,6 @@
 ---
 name: "Ntshimane Elphas Mohale"
-affiliation: "University/Organization"
+affiliation: "laboration, inclusivity, strengthens lecturer support and development, and a culturally relevant"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Suliman-The interconnectedness between Ubuntu principles|The interconnectedness between Ubuntu principles]]
 
 ## Notes
 
+
+- *From 2024-Suliman-The interconnectedness between Ubuntu principles*: Affiliation: laboration, inclusivity, strengthens lecturer support and development, and a culturally relevant
 [Additional context or contact information]

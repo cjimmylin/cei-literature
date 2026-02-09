@@ -8,6 +8,7 @@ type: document
 short_title: NaVAB
 year: 2025
 first_author: "[[Chengyi Ju]]"
+last_author: "[[Guo, Yike]]"
 authors: "[[Ju, Chengyi]]; [[Shi, Weijie]]; [[Liu, Chengzhong]]; [[Ji, Jiaming]]; [[Zhang, Jipeng]]; [[Zhang, Ruiyuan]]; [[Xu, Jiajie]]; [[Yang, Yaodong]]; [[Han, Sirui]]; [[Guo, Yike]]"
 url: "https://aclanthology.org/2025.findings-acl.1028/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5RMIU8JW/2025 - NaVAB Benchmarking Multi-National Value Alignment for Large Language Models.pdf"
@@ -36,12 +37,7 @@ local_pdf: "[[PDFs/2025/2025-Ju-NaVAB.pdf]]"
 
 ## Authors
 
-[[Chengyi Ju]], [[Weijie Shi]], [[Chengzhong Liu]], [[Jiaming Ji]], [[Jipeng Zhang]], [[Ruiyuan Zhang]], [[Jiajie Xu]], [[Yaodong Yang]], [[Sirui Han]], [[Yike Guo]]
-## Metadata
-
-**Year:** 2025
-
-**Type:** document
+[[Chengyi Ju|Ju, Chengyi]], [[Weijie Shi|Shi, Weijie]], [[Chengzhong Liu|Liu, Chengzhong]], [[Jiaming Ji|Ji, Jiaming]], [[Jipeng Zhang|Zhang, Jipeng]], [[Ruiyuan Zhang|Zhang, Ruiyuan]], [[Jiajie Xu|Xu, Jiajie]], [[Yaodong Yang|Yang, Yaodong]], [[Sirui Han|Han, Sirui]], [[Yike Guo|Guo, Yike]]
 
 ## Links
 

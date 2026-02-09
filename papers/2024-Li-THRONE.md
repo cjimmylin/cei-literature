@@ -8,6 +8,7 @@ type: journalArticle
 short_title: THRONE
 year: 2025
 first_author: "[[Prannay Kaul]]"
+last_author: "[[Stefano Soatto]]"
 authors: "Prannay Kaul; Zhizhong Li; Hao Yang; Yonatan Dukler; Ashwin Swaminathan; C. J. Taylor; Stefano Soatto"
 url: "https://arxiv.org/abs/2405.05256"
 external_pdf: "https://arxiv.org/pdf/2405.05256.pdf"

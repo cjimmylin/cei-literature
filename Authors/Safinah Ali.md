@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Neuman-Auditing the Ethical Logic of Generative AI Models|Auditing the Ethical Logic of Generative AI Models]]
 
 ## Notes
 
+
+- *From 2025-Neuman-Auditing the Ethical Logic of Generative AI Models*:, Email: ms10537@nyu.edu
 [Additional context or contact information]

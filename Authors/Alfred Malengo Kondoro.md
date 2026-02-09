@@ -29,3 +29,7 @@ Hanyang University, Department of Data Science, Seoul, South Korea
 - Website:
 - Google Scholar: https://scholar.google.com/citations?user=QAIBPscAAAAJ&hl=en
 - Semantic Scholar:
+
+## Papers in this Vault
+
+- [[2024-Oliech-SwaQuAD-24|SwaQuAD-24]] (First Author)

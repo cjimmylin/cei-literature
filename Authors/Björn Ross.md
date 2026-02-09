@@ -3,7 +3,7 @@ name: "Björn Ross"
 title: "Reader in Computational Social Science"
 affiliation: "University of Edinburgh"
 highest_degree: "PhD in Computer Science, University of Duisburg-Essen (2019)"
-email: ""
+email: "a.birch@ed.ac.uk"
 research_interests:
   - "Misinformation"
   - "Social Media Analytics"
@@ -46,6 +46,7 @@ He is a Co-Director of the SMASH (Social Media Analysis of Science and Health) g
 
 ## Papers in this Vault
 
+
 - [[2024-Ungless-ETHICS WHITEPAPER|ETHICS WHITEPAPER]]
 
 ## External Links & Profiles
@@ -61,4 +62,6 @@ He is a Co-Director of the SMASH (Social Media Analysis of Science and Health) g
 - [Twitter/X](https://twitter.com/bjoernross)
 
 ## Notes
+
+- *From 2024-Ungless-ETHICS WHITEPAPER*: Affiliation: University of Edinburgh 2Heriot-Watt University, Email: a.birch@ed.ac.uk
 [Björn is a central figure in the European computational social science community.]

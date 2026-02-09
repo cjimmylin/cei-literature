@@ -45,9 +45,8 @@ He has published innovative work on "Deontological Keyword Bias," analyzing how 
 - [Identifying the Source of Generation for Large Language Models](https://arxiv.org/abs/2201.00000) (2022) - *Research on AI-generated content detection.*
 
 ## Papers in this Vault
-- [[2025-Park-Deontological Keyword Bias|Deontological Keyword Bias]]
 
-- [[2025-Bae-CharMoral|CharMoral]]
+- [[2025-Park-Deontological Keyword Bias|Deontological Keyword Bias]] (First Author)
 
 ## External Links & Profiles
 

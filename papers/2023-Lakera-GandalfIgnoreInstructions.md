@@ -8,6 +8,7 @@ type: document
 short_title: GandalfIgnoreInstructions
 year: 2025
 first_author: "[[Lakera AI]]"
+last_author: "[[Lakera AI]]"
 authors: "Lakera AI"
 url: "https://www.lakera.ai/blog/who-is-gandalf"
 national_ethnic_cultural: N/A

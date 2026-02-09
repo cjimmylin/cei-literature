@@ -1,6 +1,6 @@
 ---
 name: "Reut Tsarfaty"
-affiliation: "University/Organization"
+affiliation: "University, Ramat-Gan, Israel"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Cohen-HeQ|HeQ]]
+
+- [[2023-Cohen-HeQ|HeQ]] (Last Author)
 
 ## Notes
 
+
+- *From 2023-Cohen-HeQ*: Affiliation: University, Ramat-Gan, Israel, Email: yoav.goldberg@gmail.com
 [Additional context or contact information]

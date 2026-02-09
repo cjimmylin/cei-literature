@@ -19,8 +19,11 @@ Dilshod Azizov is a researcher at Mohamed bin Zayed University of Artificial Int
 
 ## Papers in this Vault
 
+
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## Notes
 
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 Research on multilingual AI and language diversity in NLP systems.

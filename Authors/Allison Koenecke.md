@@ -30,7 +30,8 @@ Allison is a leading researcher in the field of algorithmic fairness. Her work o
 - [Racial disparities in automated speech recognition](https://www.pnas.org/doi/10.1073/pnas.1915768117) (2020) - *Landmark study revealing bias in industry-standard ASR systems.*
 
 ## Papers in this Vault
-- [[2021-Koenecke-The ethics of machine learning in|The ethics of machine learning in]]
+
+- [[2025-Ali-Data Curation for Pluralistic Alignment|Data Curation for Pluralistic Alignment]]
 
 ## External Links & Profiles
 - [Personal Website](https://koenecke.infosci.cornell.edu/)
@@ -38,4 +39,6 @@ Allison is a leading researcher in the field of algorithmic fairness. Her work o
 - [Google Scholar](https://scholar.google.com/citations?user=gzHLTVwAAAAJ)
 
 ## Notes
+
+- *From 2025-Ali-Data Curation for Pluralistic Alignment*: Affiliation: School of Computing and Information Systems, The University of Melbourne
 [Her research is frequently cited in policy discussions regarding racial bias in AI.]

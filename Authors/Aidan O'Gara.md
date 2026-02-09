@@ -45,10 +45,9 @@ He has co-authored comprehensive surveys on AI alignment and deception, contribu
 - [Hardware-Enabled Mechanisms for Verifying Responsible AI Development](https://arxiv.org/abs/2301.00000) (2023) - *Research on the infrastructure of AI governance.*
 
 ## Papers in this Vault
+
 - [[2023-Ji-AI Alignment|AI Alignment]]
 - [[2023-Park-AI Deception|AI Deception]]
-
-- [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 
 ## External Links & Profiles
 
@@ -62,4 +61,6 @@ He has co-authored comprehensive surveys on AI alignment and deception, contribu
 - [Twitter/X](https://twitter.com/aidan_ogara)
 
 ## Notes
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 [Aidan is an emerging leader in technical AI governance and hardware-level safety research.]

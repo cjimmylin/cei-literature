@@ -1,6 +1,6 @@
 ---
 name: "Indra Budi"
-affiliation: "University/Organization"
+affiliation: "label Hate Speech and Abusive Language - PDF Extract'"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2019-Ibrohim-Multi-label Hate Speech and Abusive Language|Multi-label Hate Speech and Abusive Language]]
+
+- [[2019-Ibrohim-Multi-label Hate Speech and Abusive Language|Multi-label Hate Speech and Abusive Language]] (Last Author)
 
 ## Notes
 
+
+- *From 2019-Ibrohim-Multi-label Hate Speech and Abusive Language*: Affiliation: label Hate Speech and Abusive Language - PDF Extract", Email: okkyibrohim@cs.ui.ac.id
 [Additional context or contact information]

@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Moral Foundations Vignettes"
 year: 2025
 first_author: "[[Scott Clifford]]"
+last_author: "[[Walter Sinnott-Armstrong]]"
 authors: "Scott Clifford; Vijeth Iyengar; Raúl Cabeza; Walter Sinnott-Armstrong"
 doi: 10.3758/s13428-014-0551-2
 url: "https://doi.org/10.3758/s13428-014-0551-2"

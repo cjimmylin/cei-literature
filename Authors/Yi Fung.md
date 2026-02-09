@@ -27,8 +27,11 @@ The research was conducted in collaboration with Ruining Zhao, Jae Doo, Chenkai 
 
 ## Papers in this Vault
 
-- [[2024-Liu-CultureAtlas|CultureAtlas: A Benchmark for Testing Cross-Cultural Knowledge in Large Language Models]]
+
+- [[2024-Liu-CultureAtlas|CultureAtlas]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
 The CultureAtlas work has received 35 citations as of August 2025 and represents pioneering research in moving beyond country-level cultural generalizations to address fine-grained cultural diversity in AI systems.

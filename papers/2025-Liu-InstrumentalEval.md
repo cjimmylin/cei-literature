@@ -8,6 +8,7 @@ type: journalArticle
 short_title: InstrumentalEval
 year: 2025
 first_author: "[[Yufei He]]"
+last_author: "[[Bryan Hooi]]"
 authors: "Yufei He; Yuexin Li; Jiaying Wu; Yuan Sui; Yulin Chen; Bryan Hooi"
 url: "https://arxiv.org/abs/2502.12206"
 external_pdf: "https://arxiv.org/pdf/2502.12206.pdf"

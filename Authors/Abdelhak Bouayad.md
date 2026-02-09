@@ -28,6 +28,7 @@ Abdelhak's research centers on Privacy-Preserving Machine Learning (PPML). He de
 
 ## Papers in this Vault
 
+
 - [[2025-Alwajih-Palm|Palm]]
 
 ## External Links & Profiles
@@ -40,4 +41,6 @@ Abdelhak's research centers on Privacy-Preserving Machine Learning (PPML). He de
 - [Personal Website](http://abouayad.com)
 
 ## Notes
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 [Specializes in technical implementations of privacy-first AI in the North African research ecosystem.]

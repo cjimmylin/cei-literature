@@ -9,6 +9,7 @@ type: preprint
 short_title: Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment
 year: 2025
 first_author: "[[D. Agarwal]]"
+last_author: "[[A]]"
 authors: "Agarwal, D., Shukla, A., Sitaram, S., & Vashistha, A"
 url: "https://arxiv.org/abs/2505.21548"
 external_pdf: "https://arxiv.org/pdf/2505.21548.pdf"
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Agarwal, D., Shukla, A., Sitaram, S., & Vashistha, A]]
+[[Agarwal]], [[D.]], [[Shukla]], [[A.]], [[Sunayana Sitaram|Sitaram]], [[S.]], [[& Vashistha]], [[A]]
 
 ## Metadata
 

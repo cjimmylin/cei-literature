@@ -8,6 +8,7 @@ type: document
 short_title: "Letta Leaderboard"
 year: 2025
 first_author: "[[Charles Packer]]"
+last_author: "[[Letta Team]]"
 authors: "[[Charles Packer]]; [[Sarah Wooders]]; Letta Team"
 url: "https://www.letta.com/blog/letta-leaderboard"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ASQRZ4EW/Aggarwal and others - 2025 - Letta Leaderboard Benchmarking Agentic Memory in LLMs.pdf"
@@ -50,7 +51,7 @@ The Letta Leaderboard is a comprehensive benchmark suite that evaluates how effe
 
 ## Authors
 
-[[Charles Packer]], [[Sarah Wooders]]
+[[Charles Packer]], [[Sarah Wooders]], [[Letta Team]]
 
 ## Detailed Summary
 

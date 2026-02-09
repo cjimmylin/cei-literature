@@ -1,9 +1,9 @@
 ---
 name: "Diego Dorn"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Centre pour la S´ecurit´e de l’IA"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "diego@securite-ia.fr"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Dorn-BELLS A Framework Towards Future Proof Benchmarks for the Evaluation|BELLS A Framework Towards Future Proof Benchmarks for the Evaluation]]
+- [[2024-Dorn-BELLS A Framework Towards Future Proof Benchmarks for the Evaluation|BELLS: A Framework Towards Future Proof Benchmarks for the Evaluation of LLM Safeguards]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Dorn-BELLS A Framework Towards Future Proof Benchmarks for the Evaluation*: Affiliation: Centre pour la S´ecurit´e de l’IA, Email: diego@securite-ia.fr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

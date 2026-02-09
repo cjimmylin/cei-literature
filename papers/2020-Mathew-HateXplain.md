@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: HateXplain
 year: 2025
 first_author: "[[Binny Mathew]]"
+last_author: "[[Animesh Mukherjee]]"
 authors: "Binny Mathew; Punyajoy Saha; Seid Muhie Yimam; Chris Biemann; Pawan Goyal; Animesh Mukherjee"
 doi: 10.48550/arXiv.2012.10289
 url: "http://arxiv.org/abs/2012.10289"

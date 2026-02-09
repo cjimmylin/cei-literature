@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: RobustBench
 year: 2025
 first_author: "[[Francesco Croce]]"
+last_author: "[[Matthias Hein]]"
 authors: "Francesco Croce; Maksym Andriushchenko; Vikash Sehwag; Edoardo Debenedetti; Nicolas Flammarion; Mung Chiang; Prateek Mittal; Matthias Hein"
 doi: 10.48550/arXiv.2010.09670
 url: "http://arxiv.org/abs/2010.09670"

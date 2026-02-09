@@ -19,8 +19,11 @@ Amir Cohen is a researcher specializing in Hebrew natural language processing an
 
 ## Papers in this Vault
 
-- [[2023-Cohen-HeQ|HeQ]]
+
+- [[2023-Cohen-HeQ|HeQ]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Cohen-HeQ*: Affiliation: University, Ramat-Gan, Israel, Email: yoav.goldberg@gmail.com
 Lead author of HeQ (Hebrew QA), a large and diverse Hebrew reading comprehension benchmark featuring 30,147 question-answer pairs. Collaborated with Yoav Goldberg and Reut Tsarfaty on addressing challenges in NLU for morphologically rich languages.

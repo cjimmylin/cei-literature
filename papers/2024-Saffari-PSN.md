@@ -8,6 +8,7 @@ type: journalArticle
 short_title: PSN
 year: 2025
 first_author: "[[Hamidreza Saffari]]"
+last_author: "[[Debora Nozza]]"
 authors: "Hamidreza Saffari; Mohammadamin Shafiei; Donya Rooein; Francesco Pierri; Debora Nozza"
 url: "https://arxiv.org/abs/2406.09123"
 external_pdf: "https://arxiv.org/pdf/2406.09123.pdf"

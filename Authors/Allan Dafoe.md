@@ -3,7 +3,7 @@ name: "Allan Dafoe"
 title: "Senior Director of Frontier Strategy and Governance"
 affiliation: "Google DeepMind / GovAI"
 highest_degree: "PhD"
-email: ""
+email: "merrie@google.com"
 research_interests:
   - "AI Governance"
   - "Frontier AI Safety"
@@ -31,8 +31,10 @@ Allan's research focuses on the "Grand Strategy" of AI development—how nations
 - [Cooperation in the Shadow of AI](https://arxiv.org/abs/2003.00000) (2020) - *Analyzing the strategic landscape of AI development.*
 
 ## Papers in this Vault
-- [[2022-Hendrycks-X-Risk Analysis for AI Research|X-Risk Analysis for AI Research]]
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
+- [[2024-Weidinger-Holistic Safety and Responsibility Evaluations of|Holistic Safety and Responsibility Evaluations of]]
+- [[2023-Morris-Levels of AGI|Levels of AGI]]
 
 ## External Links & Profiles
 - [Personal Website](https://www.allandafoe.com/)
@@ -40,4 +42,6 @@ Allan's research focuses on the "Grand Strategy" of AI development—how nations
 - [Google Scholar](https://scholar.google.com/citations?user=7oCYmT8AAAAJ)
 
 ## Notes
+
+- *From 2023-Morris-Levels of AGI*:, Email: merrie@google.com
 [A central figure in bridging the gap between technical AI safety and international relations.]

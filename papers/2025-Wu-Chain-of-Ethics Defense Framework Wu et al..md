@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: "Chain-of-Ethics: Defense Framework (Wu et al.)"
 year: 2025
 first_author: "[[Y. Wu]]"
+last_author: "[[Y. Wu]]"
 authors: Wu, Y. et al.
+authors_incomplete: true
 publication: Not specified
 external_pdf: "https://arxiv.org/pdf/2601.12652.pdf"
 local_pdf: "[[PDFs/2025/2025-Wu-Chain-of-Ethics Defense Framework Wu et al..pdf]]"
@@ -36,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Wu, Y. et al.]]
+[[Y. Wu]]
 
 ## Metadata
 

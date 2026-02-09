@@ -9,7 +9,9 @@ type: preprint
 short_title: "DIVE: Dataset for Pluralistic Alignment of Text-to-Image Models"
 year: 2025
 first_author: "[[C. Rastogi]]"
+last_author: "[[C. Rastogi]]"
 authors: Rastogi, C. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2507.13383"
 external_pdf: "https://arxiv.org/pdf/2507.13383.pdf"
 local_pdf: "[[PDFs/2025/2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "1000 prompts"
 
 ## Authors
 
-[[Rastogi, C. et al.]]
+[[C. Rastogi]]
 
 ## Metadata
 

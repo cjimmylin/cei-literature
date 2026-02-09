@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: InfoDeepSeek
 year: 2025
 first_author: "[[Yunjia Xi]]"
+last_author: "[[Yong Yu]]"
 authors: "Yunjia Xi; Jianghao Lin; Menghui Zhu; Yongzhao Xiao; Zhuoying Ou; Jiaqi Liu; Tong Wan; Bo Chen; Weiwen Liu; Yasheng Wang; Ruiming Tang; Weinan Zhang; Yong Yu"
 doi: 10.48550/arXiv.2505.15872
 url: "http://arxiv.org/abs/2505.15872"

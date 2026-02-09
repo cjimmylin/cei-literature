@@ -8,6 +8,7 @@ type: preprint
 short_title: "Can LLMs Grasp Implicit Cultural Values?"
 year: 2025
 first_author: "[[Ziyi Liu]]"
+last_author: "[[Zhao, Jieyu]]"
 authors: "[[Liu, Ziyi]]; [[Dey, Priyanka]]; [[Zhao, Zhenyu]]; [[Huang, Jen-tse]]; [[Gupta, Rahul]]; [[Liu, Yang]]; [[Zhao, Jieyu]]"
 doi: 10.48550/arXiv.2504.01127
 tags: 
@@ -39,18 +40,7 @@ DATE_ADDED: 20260207
 
 ## Authors
 
-[[Ziyi Liu]], [[Priyanka Dey]], [[Zhenyu Zhao]], [[Jen-tse Huang]], [[Rahul Gupta]], [[Yang Liu]], [[Jieyu Zhao]]
-## Metadata
-
-**Authors:** Liu, Ziyi; Dey, Priyanka; Zhao, Zhenyu; Huang, Jen-tse; Gupta, Rahul; Liu, Yang; Zhao, Jieyu
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2504.01127](https://doi.org/10.48550/arXiv.2504.01127)
-
-**Publisher:** arXiv
+[[Ziyi Liu|Liu, Ziyi]], [[Priyanka Dey|Dey, Priyanka]], [[Zhenyu Zhao|Zhao, Zhenyu]], [[Jen-tse Huang|Huang, Jen-tse]], [[Rahul Gupta|Gupta, Rahul]], [[Yang Liu|Liu, Yang]], [[Jieyu Zhao|Zhao, Jieyu]]
 
 ## Links
 

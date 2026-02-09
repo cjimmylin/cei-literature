@@ -9,6 +9,7 @@ type: preprint
 short_title: PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture
 year: 2025
 first_author: "[[Fakhraddin Alwajih]]"
+last_author: "[[Muhammad Abdul-Mageed]]"
 authors: Fakhraddin Alwajih; Abdellah El Mekki; Hamdy Mubarak; Majd Hawasly; Abubakr Mohamed; Muhammad Abdul-Mageed
 url: "https://arxiv.org/abs/2509.02550"
 external_pdf: "https://arxiv.org/pdf/2509.02550.pdf"

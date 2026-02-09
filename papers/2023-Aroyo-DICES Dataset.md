@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "DICES Dataset"
 year: 2025
 first_author: "[[Lora Aroyo]]"
+last_author: "[[Ding Wang]]"
 authors: "Lora Aroyo; Alex S. Taylor; Mark Diaz; Christopher M. Homan; Alicia Parrish; Greg Serapio-Garcia; Vinodkumar Prabhakaran; Ding Wang"
 doi: 10.48550/arXiv.2306.11247
 tags: 

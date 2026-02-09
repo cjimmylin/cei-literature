@@ -8,6 +8,7 @@ type: journalArticle
 short_title: ValueNet
 year: 2025
 first_author: "[[Liang Qiu]]"
+last_author: "[[Song-Chun Zhu]]"
 authors: "Liang Qiu; Yizhou Zhao; Jinchao Li; Pan Lu; Baolin Peng; Jianfeng Gao; Song-Chun Zhu"
 doi: 10.1609/aaai.v36i10.21368
 url: "http://arxiv.org/abs/2112.06346"

@@ -1,6 +1,6 @@
 ---
 name: "Misael Mongiovì"
-affiliation: "University/Organization"
+affiliation: "lable online 8 February 2025"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Bulla-Large Language Models meet moral values|Large Language Models meet moral values]]
 
 ## Notes
 
+
+- *From 2025-Bulla-Large Language Models meet moral values*: Affiliation: lable online 8 February 2025
 [Additional context or contact information]

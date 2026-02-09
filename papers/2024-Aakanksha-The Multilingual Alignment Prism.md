@@ -8,6 +8,7 @@ type: document
 short_title: "The Multilingual Alignment Prism"
 year: 2025
 first_author: [[Aakanksha]]
+last_author: "[[Sara Hooker]]"
 authors: "Aakanksha; Arash Ahmadian; Beyza Ermis; Seraphina Goldfarb-Tarrant; Julia Kreutzer; Marzieh Fadaee; Sara Hooker"
 url: "https://aclanthology.org/2024.emnlp-main.671/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/EMDAVPXV/2024 - The Multilingual Alignment Prism Aligning Global and Local Preferences to Reduce Harm.pdf"
@@ -37,11 +38,6 @@ local_pdf: "[[PDFs/2024/2024-Aakanksha-The Multilingual Alignment Prism.pdf]]"
 ## Authors
 
 [[Aakanksha]], [[Arash Ahmadian]], [[Beyza Ermis]], [[Seraphina Goldfarb-Tarrant]], [[Julia Kreutzer]], [[Marzieh Fadaee]], [[Sara Hooker]]
-## Metadata
-
-**Year:** 2024
-
-**Type:** document
 
 ## Links
 

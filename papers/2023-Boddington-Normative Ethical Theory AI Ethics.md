@@ -8,6 +8,7 @@ type: bookChapter
 short_title: "Normative Ethical Theory AI Ethics"
 year: 2025
 first_author: "[[Paula Boddington]]"
+last_author: "[[Paula Boddington]]"
 authors: "Paula Boddington"
 doi: 10.1007/978-981-19-9382-4_6
 url: "https://link.springer.com/chapter/10.1007/978-981-19-9382-4_6"

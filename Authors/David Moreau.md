@@ -36,6 +36,7 @@ David Moreau is an Associate Professor at the University of Auckland's Centre fo
 
 ## Papers in this Vault
 
+
 - [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 
 ## Links

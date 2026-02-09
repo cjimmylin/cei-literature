@@ -3,7 +3,7 @@ name: "Andrew Smart"
 title: "Researcher"
 affiliation: "Google (Responsible AI Impact Lab)"
 highest_degree: "Master's in Cognitive Science, Lund University"
-email: ""
+email: "sfriedman@sift.net"
 research_interests:
   - "Machine Learning Fairness"
   - "AI Governance"
@@ -45,9 +45,8 @@ He is the author of the provocative book *Beyond Zero and One: Machines, Psyched
 - [Socially Responsible Data for Large Multilingual Language Models](https://arxiv.org/abs/2201.00000) (2022) - *Investigated the ethics of multilingual data collection.*
 
 ## Papers in this Vault
-- [[2023-Benkler-Assessing LLMs for Moral Value Pluralism|Assessing LLMs for Moral Value Pluralism]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2023-Benkler-Assessing LLMs for Moral Value Pluralism|Assessing LLMs for Moral Value Pluralism]]
 
 ## External Links & Profiles
 
@@ -60,4 +59,6 @@ He is the author of the provocative book *Beyond Zero and One: Machines, Psyched
 - [Google Research Profile](https://research.google/people/andrew-smart/)
 
 ## Notes
+
+- *From 2023-Benkler-Assessing LLMs for Moral Value Pluralism*: Affiliation: University of Florida, Email: sfriedman@sift.net
 [Andrew is a leading philosophical voice within Google's Responsible AI efforts.]

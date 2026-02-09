@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: Denevil
 year: 2025
 first_author: "[[Shitong Duan]]"
+last_author: "[[Ning Gu]]"
 authors: "Shitong Duan; Xiaoyuan Yi; Peng Zhang; Tun Lu; Xing Xie; Ning Gu"
 doi: 10.48550/arXiv.2310.11053
 url: "http://arxiv.org/abs/2310.11053"

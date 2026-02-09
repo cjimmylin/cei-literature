@@ -20,8 +20,11 @@ Jingxuan Li is affiliated with the University of California, Los Angeles (UCLA) 
 
 ## Papers in this Vault
 
-- [[2024-Li-Value-Spectrum|Value-Spectrum]]
+
+- [[2024-Li-Value-Spectrum|Value-Spectrum]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Li-Value-Spectrum*: Affiliation: University of California, Los Angeles, Email: ywu@stat.ucla.edu
 [Additional context or contact information]

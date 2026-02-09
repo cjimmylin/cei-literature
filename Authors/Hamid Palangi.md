@@ -1,6 +1,6 @@
 ---
 name: "Hamid Palangi"
-affiliation: "University/Organization"
+affiliation: "Institute of Technology"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2022-Hartvigsen-ToxiGen|ToxiGen]]
 
 ## Notes
 
+
+- *From 2022-Hartvigsen-ToxiGen*: Affiliation: Institute of Technology, Email: skgabrie@cs.washington.edu
 [Additional context or contact information]

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: ValueBench
 year: 2025
 first_author: "[[Yuanyi Ren]]"
+last_author: "[[Guojie Song]]"
 authors: "Yuanyi Ren; Haoran Ye; Hanjun Fang; Xin Zhang; Guojie Song"
 doi: 10.48550/arXiv.2406.04214
 tags: 

@@ -3,7 +3,7 @@ name: "Chad Atalla"
 title: "Senior Applied Scientist"
 affiliation: "Microsoft Research (STAC team)"
 highest_degree: "MS, CS, UC San Diego"
-email: ""
+email: "aubrieamstutz@gmail.com"
 research_interests:
   - "Socio-technical Alignment"
   - "Responsible AI"
@@ -46,6 +46,7 @@ Atalla's work on the "FairPrism" benchmark and related evaluation toolkits provi
 
 ## Papers in this Vault
 
+
 - [[2023-Fleisig-FairPrism|FairPrism]]
 
 ## External Links & Profiles
@@ -55,4 +56,6 @@ Atalla's work on the "FairPrism" benchmark and related evaluation toolkits provi
 - [Microsoft Research Biography](https://www.microsoft.com/en-us/research/people/chad-atalla/)
 
 ## Notes
+
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 Chad Atalla (they/them) is a central figure in Microsoft's efforts to institutionalize "Responsible AI" at the scale of Frontier models like GPT-4.

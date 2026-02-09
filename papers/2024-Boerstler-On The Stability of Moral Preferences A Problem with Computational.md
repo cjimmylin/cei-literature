@@ -9,6 +9,7 @@ type: preprint
 short_title: "On The Stability of Moral Preferences: A Problem with Computational Elicitation Methods"
 year: 2024
 first_author: "[[Kyle Boerstler]]"
+last_author: "[[Walter Sinnott-Armstrong]]"
 authors: Kyle Boerstler; Vijay Keswani; Lok Chan; Jana Schaich Borg; Vincent Conitzer; Hoda Heidari; Walter Sinnott-Armstrong
 doi: 10.1609/aies.v7i1.31626
 url: "https://arxiv.org/abs/2408.02862"

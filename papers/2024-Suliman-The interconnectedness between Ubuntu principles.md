@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "The interconnectedness between Ubuntu principles"
 year: 2025
 first_author: "[[Zuleika Suliman]]"
+last_author: "[[Kershnee Sevnarayan]]"
 authors: "Zuleika Suliman; Ntshimane Elphas Mohale; Kgabo Bridget Maphoto; Kershnee Sevnarayan"
 doi: 10.1007/s44217-024-00289-2
 url: "https://link.springer.com/10.1007/s44217-024-00289-2"

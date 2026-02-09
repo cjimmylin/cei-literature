@@ -36,7 +36,8 @@ Has led major research groups in Germany focused on knowledge technologies and d
 
 ## Papers in this Vault
 
-- [[2024-Jors-Through Eudaimonia's Lenses|Through Eudaimonia's Lenses]]
+
+- [[2024-Jörs-Through Eudaimonia's Lenses|Through Eudaimonia's Lenses]] (Last Author)
 
 ## External Links & Profiles
 
@@ -46,4 +47,6 @@ Has led major research groups in Germany focused on knowledge technologies and d
 
 ## Notes
 
+
+- *From 2024-Jörs-Through Eudaimonia's Lenses*: Affiliation: University, Germany
 Bridges information science and AI ethics, with a unique focus on virtue ethics approaches to evaluating AI systems.

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Whose Opinions Do Language Models Reflect?"
 year: 2025
 first_author: "[[Shibani Santurkar]]"
+last_author: "[[Tatsunori Hashimoto]]"
 authors: "Shibani Santurkar; Esin Durmus; Faisal Ladhak; Cinoo Lee; Percy Liang; Tatsunori Hashimoto"
 url: "http://arxiv.org/abs/2303.17548"
 external_pdf: "http://arxiv.org/pdf/2303.17548.pdf"

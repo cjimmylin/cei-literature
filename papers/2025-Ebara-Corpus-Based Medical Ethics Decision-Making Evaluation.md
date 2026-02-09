@@ -10,7 +10,8 @@ type: conferencePaper
 short_title: Corpus-Based Medical Ethics Decision-Making Evaluation
 year: 2025
 first_author: "[[Memi Ebara]]"
-authors: Memi Ebara et al.
+last_author: "[[Kazuhiko Ohe]]"
+authors: "Memi Ebara; Yoshimasa Kawazoe; Tomohisa Seki; Emiko Shinohara; Eisuke Nakazawa; Kazuhiko Ohe"
 doi: 10.3233/SHTI250854
 url: "https://doi.org/10.3233/SHTI250854"
 local_pdf: "[[PDFs/2025/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.pdf]]"
@@ -39,7 +40,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Memi Ebara et al.]]
+[[Memi Ebara]], [[Yoshimasa Kawazoe]], [[Tomohisa Seki]], [[Emiko Shinohara]], [[Eisuke Nakazawa]], [[Kazuhiko Ohe]]
 
 ## Metadata
 

@@ -8,6 +8,7 @@ type: preprint
 short_title: ValueDCG
 year: 2025
 first_author: "[[Zhaowei Zhang]]"
+last_author: "[[Yaodong Yang]]"
 authors: "Zhaowei Zhang; Fengshuo Bai; Jun Gao; Yaodong Yang"
 doi: 10.48550/arXiv.2310.00378
 url: "http://arxiv.org/abs/2310.00378"

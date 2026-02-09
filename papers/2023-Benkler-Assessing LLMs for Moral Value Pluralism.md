@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Assessing LLMs for Moral Value Pluralism"
 year: 2025
 first_author: "[[Noam Benkler]]"
+last_author: "[[Sonja Schmer-Galunder]]"
 authors: "Noam Benkler; Drisana Mosaphir; Scott Friedman; Andrew Smart; Sonja Schmer-Galunder"
 doi: 10.48550/arXiv.2312.10075
 url: "http://arxiv.org/abs/2312.10075"

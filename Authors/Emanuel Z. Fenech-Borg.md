@@ -25,8 +25,11 @@ Emanuel Z. Fenech-Borg is a researcher affiliated with the University of Malta, 
 
 ## Papers in this Vault
 
-- [[2025-Fenech-Borg-The Cultural Gene of Large Language Models|The Cultural Gene of Large Language Models]]
+
+- [[2025-Fenech-Borg-The Cultural Gene of Large Language Models|The Cultural Gene of Large Language Models]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Fenech-Borg-The Cultural Gene of Large Language Models*: Affiliation: Department of Communications, Email: emanuel.fenech-borg@um.edu.mt
 Emanuel Fenech-Borg's work on the cultural dimensions of LLMs contributes to understanding how AI systems may perpetuate or challenge cultural norms and values.

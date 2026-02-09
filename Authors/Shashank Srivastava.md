@@ -1,6 +1,6 @@
 ---
 name: "Shashank Srivastava"
-affiliation: "University/Organization"
+affiliation: "lable to the language"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2022-Caron-Identifying and Manipulating the Personality|Identifying and Manipulating the Personality]]
+
+- [[2022-Caron-Identifying and Manipulating the Personality|Identifying and Manipulating the Personality]] (Last Author)
 
 ## Notes
 
+
+- *From 2022-Caron-Identifying and Manipulating the Personality*: Affiliation: lable to the language, Email: ssrivastava@cs.unc.edu
 [Additional context or contact information]

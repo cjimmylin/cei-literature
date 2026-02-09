@@ -8,6 +8,7 @@ type: document
 short_title: "Character-LLM: A Trainable Agent for Role-Playing"
 year: 2025
 first_author: "[[Yunfan Shao]]"
+last_author: "[[Qiu, Xipeng]]"
 authors: "[[Shao, Yunfan]]; [[Li, Linyang]]; [[Dai, Junqi]]; [[Qiu, Xipeng]]"
 url: "https://aclanthology.org/2023.emnlp-main.814/"
 local_pdf: "[[PDFs/2023/2023-Shao-Character-LLM A Trainable Agent for Role-Playing.pdf]]"
@@ -37,12 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Yunfan Shao]], [[Linyang Li]], [[Junqi Dai]], [[Xipeng Qiu]]
-## Metadata
-
-**Year:** 2023
-
-**Type:** document
+[[Yunfan Shao|Shao, Yunfan]], [[Linyang Li|Li, Linyang]], [[Junqi Dai|Dai, Junqi]], [[Xipeng Qiu|Qiu, Xipeng]]
 
 ## Links
 

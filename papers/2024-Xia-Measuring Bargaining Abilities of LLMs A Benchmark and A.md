@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method"
 year: 2024
 first_author: "[[Tian Xia]]"
+last_author: "[[Rui Wang]]"
 authors: Tian Xia; Zhiwei He; Tong Ren; Yibo Miao; Zhuosheng Zhang; Yang Yang; Rui Wang
 url: "https://arxiv.org/abs/2402.15813"
 external_pdf: "https://arxiv.org/pdf/2402.15813.pdf"

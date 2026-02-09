@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "LLM-Human Pipeline for Cultural Context Grounding"
 year: 2025
 first_author: "[[Rajkumar Pujari]]"
+last_author: "[[Dan Goldwasser]]"
 authors: "Rajkumar Pujari; Dan Goldwasser"
 doi: 10.48550/arXiv.2410.13727
 url: "http://arxiv.org/abs/2410.13727"

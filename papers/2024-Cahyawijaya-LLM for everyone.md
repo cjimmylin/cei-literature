@@ -8,6 +8,7 @@ type: thesis
 short_title: "LLM for everyone"
 year: 2025
 first_author: "[[Samuel Cahyawijaya]]"
+last_author: "[[Samuel Cahyawijaya]]"
 authors: "Samuel Cahyawijaya"
 url: "https://lbezone.hkust.edu.hk/bib/991013340351603412"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/XZEW2FQS/Cahyawijaya - 2024 - LLM for everyone  representing the underrepresented in large language models.pdf"

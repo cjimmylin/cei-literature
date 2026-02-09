@@ -8,6 +8,7 @@ type: document
 short_title: "Evaluating Object Hallucination in Large"
 year: 2025
 first_author: "[[Yifan Li]]"
+last_author: "[[Ji-Rong Wen]]"
 authors: "Yifan Li; Yifan Du; Kun Zhou; Jinpeng Wang; Wayne Xin Zhao; Ji-Rong Wen"
 url: "https://arxiv.org/abs/2305.10355"
 external_pdf: "https://arxiv.org/pdf/2305.10355.pdf"

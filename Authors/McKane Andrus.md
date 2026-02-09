@@ -20,8 +20,11 @@ McKane Andrus is affiliated with UW HCDE (University of Washington, Human Center
 
 ## Papers in this Vault
 
-- [[2023-Andrus-Augmented Datasheets for Speech Datasets and|Augmented Datasheets for Speech Datasets and]]
+
+- [[2023-Andrus-Augmented Datasheets for Speech Datasets and|Augmented Datasheets for Speech Datasets and]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Andrus-Augmented Datasheets for Speech Datasets and*: Affiliation: lable speech—with regard to the ethics of such, Email: jerone.andrews@sony.com
 [Additional context or contact information]

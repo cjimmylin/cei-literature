@@ -10,6 +10,7 @@ type: preprint
 short_title: Between a Rock and a Hard Place (TRIAL)
 year: 2025
 first_author: "[[Shei Pern Chua]]"
+last_author: "[[Xiaolin Hu Qibing Ren]]"
 authors: Shei Pern Chua, Zhen Leng Thai, Kai Jun Teh, Xiao Li, Qibing Ren, Xiaolin Hu
 url: "https://arxiv.org/abs/2509.05367"
 external_pdf: "https://arxiv.org/pdf/2509.05367.pdf"
@@ -38,7 +39,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Shei Pern Chua, Zhen Leng Thai, Kai Jun Teh, Xiao Li, Qibing Ren, Xiaolin Hu]]
+[[Zhen Leng Thai Shei Pern Chua]], [[Xiao Li Kai Jun Teh]], [[Xiaolin Hu Qibing Ren]]
 
 ## Metadata
 

@@ -24,8 +24,11 @@ Anugraha's research focuses on developing resources and evaluation methods for I
 
 ## Papers in this Vault
 
+
 - [[2025-Wiyono-IndoPref|IndoPref]]
 
 ## Notes
 
+
+- *From 2025-Wiyono-IndoPref*:, Email: vanessarebecca29@gmail.com
 Anugraha's work is part of the growing effort to expand NLP capabilities to Indonesian and other Southeast Asian languages.

@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: "Overview of GermEval Task 2, 2019 Shared Task on"
 first_author: "[[Julia Maria Struß]]"
+last_author: "[[Manfred Klenner]]"
 authors: "Julia Maria Struß; Melanie Siegel; Josef Ruppenhofer; Michael Wiegand; Manfred Klenner"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ITICC3WW/Struß et al. - Overview of GermEval Task 2, 2019 Shared Task on the Identiﬁcation of Offensive Language.pdf"
 national_ethnic_cultural: German

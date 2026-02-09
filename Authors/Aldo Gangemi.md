@@ -45,9 +45,8 @@ He has authored over 300 peer-reviewed papers and is a co-designer of foundation
 - [DOLCE: A Descriptive Ontology for Linguistic and Cognitive Engineering](https://link.springer.com/book/10.1007/11574659) (2002) - *One of the most widely used foundational ontologies.*
 
 ## Papers in this Vault
-- [[2025-Bulla-Large Language Models meet moral values|Large Language Models meet moral values]]
 
-- [[2021-Gangemi-Neurosymbolic AI for Social Good|Neurosymbolic AI for Social Good]]
+- [[2025-Bulla-Large Language Models meet moral values|Large Language Models meet moral values]] (Last Author)
 
 ## External Links & Profiles
 
@@ -61,4 +60,6 @@ He has authored over 300 peer-reviewed papers and is a co-designer of foundation
 - [University of Bologna Profile](https://www.unibo.it/sitoweb/aldo.gangemi/en)
 
 ## Notes
+
+- *From 2025-Bulla-Large Language Models meet moral values*: Affiliation: lable online 8 February 2025
 [Aldo is a leading figure in the European Semantic Web and Neurosymbolic AI research communities.]

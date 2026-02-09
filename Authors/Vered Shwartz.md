@@ -1,6 +1,6 @@
 ---
 name: "Vered Shwartz"
-affiliation: "University/Organization"
+affiliation: "School of Computer Science & Engineering, University of Washington"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2020-Forbes-Social Chemistry 101|Social Chemistry 101]]
+
 - [[2025-Chiu-CulturalBench|CulturalBench]]
+- [[2020-Forbes-Social Chemistry 101|Social Chemistry 101]]
 
 ## Notes
 
+
+- *From 2020-Forbes-Social Chemistry 101*: Affiliation: School of Computer Science & Engineering, University of Washington
 [Additional context or contact information]

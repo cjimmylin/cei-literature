@@ -1,6 +1,6 @@
 ---
 name: "Kaihong Li"
-affiliation: "University/Organization"
+affiliation: "College London"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Zhou-Moral Reasoning Across Languages|Moral Reasoning Across Languages]]
 
 ## Notes
 
+
+- *From 2025-Zhou-Moral Reasoning Across Languages*: Affiliation: College London
 [Additional context or contact information]

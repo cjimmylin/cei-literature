@@ -31,7 +31,8 @@ Dr. Christoph Schild is a Postdoctoral Researcher in the Department of Psycholog
 - Presented at Applied Ethics and Morality Research Group seminar at Prague University of Economics and Business
 
 ## Papers in this Vault
-- [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the trolley dilemma]]
+
+- [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 
 ## External Links & Profiles
 - [Personal Website](https://christophschild.com/)

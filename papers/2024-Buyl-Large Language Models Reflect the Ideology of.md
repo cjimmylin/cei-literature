@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Large Language Models Reflect the Ideology of"
 year: 2025
 first_author: "[[Maarten Buyl]]"
+last_author: "[[Tijl De Bie]]"
 authors: "Maarten Buyl; Alexander Rogiers; Sander Noels; Guillaume Bied; Iris Dominguez-Catena; Edith Heiter; Iman Johary; Alexandru-Cristian Mara; Raphaël Romero; Jefrey Lijffijt; Tijl De Bie"
 doi: 10.48550/arXiv.2410.18417
 url: "http://arxiv.org/abs/2410.18417"

@@ -9,6 +9,7 @@ type: preprint
 short_title: "Structured Moral Reasoning"
 year: 2025
 first_author: "[[Mohna Chakraborty]]"
+last_author: "[[Jurgens, David]]"
 authors: "[[Chakraborty, Mohna]]; [[Wang, Lu]]; [[Jurgens, David]]"
 doi: 10.48550/arXiv.2506.14948
 url: "https://arxiv.org/abs/2506.14948"
@@ -40,7 +41,7 @@ normative_ethics_benchmark: Yes
 
 ## Authors
 
-[[Mohna Chakraborty]], [[Lu Wang]], [[David Jurgens]]
+[[Mohna Chakraborty|Chakraborty, Mohna]], [[Lu Wang|Wang, Lu]], [[David Jurgens|Jurgens, David]]
 
 ## Metadata
 

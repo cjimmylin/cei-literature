@@ -9,7 +9,8 @@ type: preprint
 short_title: "Collective Constitutional AI: Aligning a Language Model with Public Input"
 year: 2024
 first_author: "[[Saffron Huang]]"
-authors: Saffron Huang et al.
+last_author: "[[Deep Ganguli]]"
+authors: "Saffron Huang; Divya Siddarth; Liane Lovitt; Thomas I. Liao; Esin Durmus; Alex Tamkin; Deep Ganguli"
 doi: 10.1145/3630106.3658979
 url: "https://arxiv.org/abs/2406.07814"
 external_pdf: "https://arxiv.org/pdf/2406.07814.pdf"
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Saffron Huang et al.]]
+[[Saffron Huang]], [[Divya Siddarth]], [[Liane Lovitt]], [[Thomas I. Liao]], [[Esin Durmus]], [[Alex Tamkin]], [[Deep Ganguli]]
 
 ## Metadata
 

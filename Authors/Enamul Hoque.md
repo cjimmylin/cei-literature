@@ -34,7 +34,9 @@ Enamul Hoque is an Assistant Professor at York University in Toronto, Canada. Hi
 
 ## Papers in this Vault
 
+
 - [[2024-Laskar-A Systematic Survey and Critical Review on|A Systematic Survey and Critical Review on]]
+- [[2023-Guha-LegalBench|LegalBench]]
 
 ## External Links
 
@@ -44,4 +46,6 @@ Enamul Hoque is an Assistant Professor at York University in Toronto, Canada. Hi
 
 ## Notes
 
+
+- *From 2023-Guha-LegalBench*: Affiliation: LABORATIVELY BUILT BENCHMARK FOR
 Enamul Hoque's systematic surveys provide valuable overviews of evaluation methods in NLP, helping researchers understand the landscape of LLM assessment.

@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: IrokoBench -- A Benchmark for African Languages in the Age of LLMs
 year: 2024
 first_author: "[[D. Adelani]]"
+last_author: "[[D. Adelani]]"
 authors: Adelani, D. et al
+authors_incomplete: true
 url: "https://arxiv.org/abs/2406.03368"
 external_pdf: "https://arxiv.org/pdf/2406.03368.pdf"
 local_pdf: "[[PDFs/2024/2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Adelani, D. et al]]
+[[D. Adelani]]
 
 ## Metadata
 

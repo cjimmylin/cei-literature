@@ -3,7 +3,7 @@ name: "Deep Ganguli"
 title: "Research Scientist / Societal Impacts Team Lead"
 affiliation: "Anthropic"
 highest_degree: "PhD, Computational Neuroscience, NYU"
-email: ""
+email: "jared@anthropic.com"
 research_interests:
   - "AI Alignment"
   - "Societal Impacts of AI"
@@ -47,10 +47,14 @@ Ganguli has co-authored foundational work in AI safety, including influential pa
 
 ## Papers in this Vault
 
-- [[2021-Askell-A General Language Assistant as a Laboratory for|A General Language Assistant as a Laboratory for]]
+
+- [[2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI|Values in the Wild: Discovering and Analyzing Values in Real AI Interactions]] (Last Author)
+- [[2024-Huang-Collective Constitutional AI Aligning a Language Model with Public|Collective Constitutional AI: Aligning a Language Model with Public Input]] (Last Author)
+- [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]] (Last Author)
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
-- [[2022-Ganguli-Red Teaming Language Models to Reduce Harms|Red Teaming Language Models to Reduce Harms]]
-- [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]]
+- [[2022-Bai-Training a Helpful and Harmless Assistant with|Training a Helpful and Harmless Assistant with]]
+- [[2022-Ganguli-Red Teaming Language Models to Reduce Harms|Red Teaming Language Models to Reduce Harms]] (First Author)
+- [[2021-Askell-A General Language Assistant as a Laboratory for|A General Language Assistant as a Laboratory for]]
 
 ## External Links & Profiles
 
@@ -61,4 +65,6 @@ Ganguli has co-authored foundational work in AI safety, including influential pa
 
 ## Notes
 
+
+- *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
 Deep Ganguli's work represents a comprehensive approach to AI alignment that extends beyond technical safety to encompass societal impacts and democratic governance of AI systems.

@@ -32,7 +32,8 @@ His work extends to semantic parsing, information extraction, and question answe
 
 ## Papers in this Vault
 
-- [[2021-Levy-Collecting a Large-Scale Gender Bias Dataset for|Collecting a Large-Scale Gender Bias Dataset for]]
+
+- [[2021-Levy-Collecting a Large-Scale Gender Bias Dataset for|Collecting a Large-Scale Gender Bias Dataset for]] (Last Author)
 
 ## External Links
 
@@ -43,4 +44,6 @@ His work extends to semantic parsing, information extraction, and question answe
 
 ## Notes
 
+
+- *From 2021-Levy-Collecting a Large-Scale Gender Bias Dataset for*: Affiliation: School of Computer Science and Engineering, Email: shaharl6000@gmail.com
 Developer of the mt_gender benchmark for evaluating gender bias in machine translation.

@@ -20,8 +20,12 @@ Yutao Mou is a researcher at the National Engineering Research Center for Softwa
 
 ## Papers in this Vault
 
-- [[2024-Various-SGBench|SGBench]]
+
+- [[2024-Mou-SG-Bench|SG-Bench]] (First Author)
+- [[2024-Various-SGBench|SGBench]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Various-SGBench*: Affiliation: Research Center for Software Engineering, Peking University, China
 [Additional context or contact information]

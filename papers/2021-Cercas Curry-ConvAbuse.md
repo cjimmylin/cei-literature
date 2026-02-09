@@ -8,6 +8,7 @@ type: document
 short_title: ConvAbuse
 year: 2025
 first_author: "[[Amanda Cercas Curry]]"
+last_author: "[[Rieser, Verena]]"
 authors: "[[Cercas Curry, Amanda]]; [[Abercrombie, Gavin]]; [[Rieser, Verena]]"
 url: "https://aclanthology.org/2021.emnlp-main.587/"
 local_pdf: "[[PDFs/2021/2021-Cercas Curry-ConvAbuse.pdf]]"
@@ -36,12 +37,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Amanda Cercas Curry]], [[Gavin Abercrombie]], [[Verena Rieser]]
-## Metadata
-
-**Year:** 2021
-
-**Type:** document
+[[Amanda Cercas Curry|Cercas Curry, Amanda]], [[Gavin Abercrombie|Abercrombie, Gavin]], [[Verena Rieser|Rieser, Verena]]
 
 ## Links
 

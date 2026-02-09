@@ -46,9 +46,8 @@ She is a founding member of the executive committee for the ACM FAccT conference
 - [A case study in algorithm-in-the-loop decision making in child protective services](https://arxiv.org/abs/1801.00000) (2018) - *Critical analysis of AI in human services.*
 
 ## Papers in this Vault
-- [[2019-De-Arteaga-Bias in Bios|Bias in Bios]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2019-De-Arteaga-Bias in Bios|Bias in Bios]]
 
 ## External Links & Profiles
 
@@ -62,4 +61,6 @@ She is a founding member of the executive committee for the ACM FAccT conference
 - [Twitter/X](https://twitter.com/achould)
 
 ## Notes
+
+- *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 [Alexandra is a leading statistician working on the ethics of algorithmic decision-making.]

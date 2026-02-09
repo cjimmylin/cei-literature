@@ -33,7 +33,8 @@ Christophe Gravier is a Professor at Jean Monnet University, Saint-Etienne, Fran
 - Supervising PhD students including Raphaël Chevasson, Kunpeng Guo, Fatos Torba, and Thibaud Leteno
 
 ## Papers in this Vault
-- [[2025-Leteno-Histoires Morales|Histoires Morales]]
+
+- [[2025-Leteno-Histoires Morales|Histoires Morales]] (Last Author)
 
 ## External Links & Profiles
 - [Personal Website](https://cgravier.fr/)
@@ -43,4 +44,6 @@ Christophe Gravier is a Professor at Jean Monnet University, Saint-Etienne, Fran
 - [Semantic Scholar](https://www.semanticscholar.org/author/Christophe-Gravier/1701478)
 
 ## Notes
+
+- *From 2025-Leteno-Histoires Morales*: Affiliation: Laboratoire Hubert Curien, UMR CNRS 5516, Saint-Etienne, France, Email: irina.proskurina@univ-lyon2.fr
 His work on French NLP resources, including the Histoires Morales dataset, is relevant to AI ethics by expanding moral reasoning evaluation beyond English. This contributes to developing more culturally diverse and linguistically inclusive AI ethics benchmarks.

@@ -1,6 +1,6 @@
 ---
 name: "Manish Shrivastava"
-affiliation: "University/Organization"
+affiliation: "Institute of Information Technology, Hyderabad, Telangana, India"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2020-Srivastava-A Multi-Dimensional View of Aggression when|A Multi-Dimensional View of Aggression when]]
+
+- [[2020-Srivastava-A Multi-Dimensional View of Aggression when|A Multi-Dimensional View of Aggression when]] (Last Author)
 
 ## Notes
 
+
+- *From 2020-Srivastava-A Multi-Dimensional View of Aggression when*: Affiliation: Institute of Information Technology, Hyderabad, Telangana, India, Email: m.shrivastava@iiit.ac.in
 [Additional context or contact information]

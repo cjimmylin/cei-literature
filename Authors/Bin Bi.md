@@ -45,9 +45,8 @@ He co-authored the PALM technical report and has been a lead contributor to Alib
 - [UFT: Unifying Fine-tuning of SFT and RLHF/DPO/UNA](https://arxiv.org/abs/2401.00000) (2024) - *Proposed a generalized reward function for alignment.*
 
 ## Papers in this Vault
-- [[2024-Wang-A Comprehensive Survey of LLM Alignment Techniques|A Comprehensive Survey of LLM Alignment Techniques]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2024-Wang-A Comprehensive Survey of LLM Alignment Techniques|A Comprehensive Survey of LLM Alignment Techniques]]
 
 ## External Links & Profiles
 
@@ -59,4 +58,6 @@ He co-authored the PALM technical report and has been a lead contributor to Alib
 - [Alibaba DAMO Academy](https://damo.alibaba.com/)
 
 ## Notes
+
+- *From 2024-Wang-A Comprehensive Survey of LLM Alignment Techniques*: Affiliation: lability of trillions tokens in a pre-training
 [Bin is a core expert in the alignment and multimodal capabilities of the Qwen framework.]

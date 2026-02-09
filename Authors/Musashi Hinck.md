@@ -1,6 +1,6 @@
 ---
 name: "Musashi Hinck"
-affiliation: "University/Organization"
+affiliation: "University 2Allen Institute for AI 3Intel Labs"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Röttger-Political Compass or Spinning Arrow|Political Compass or Spinning Arrow?]]
 
 ## Notes
 
+
+- *From 2024-Röttger-Political Compass or Spinning Arrow*: Affiliation: University 2Allen Institute for AI 3Intel Labs
 [Additional context or contact information]

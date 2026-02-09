@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Amharic Hate Speech Dataset"
 year: 2025
 first_author: "[[Abinet Ayele]]"
+last_author: "[[Chris Biemann]]"
 authors: "Abinet Ayele; Seid Muhie Yimam; Yaregal Assabie Belay; Moges Asfaw; Chris Biemann"
 url: "https://aclanthology.org/2023.ranlp-1.6/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/UZ25W9FY/Ayele et al. - 2023 - Amharic Hate Speech Dataset.pdf"

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: Course-Correction
 year: 2025
 first_author: "[[Rongwu Xu]]"
+last_author: "[[Han Qiu]]"
 authors: "Rongwu Xu; Yishuo Cai; Zhenhong Zhou; Renjie Gu; Haiqin Weng; Yan Liu; Tianwei Zhang; Wei Xu; Han Qiu"
 doi: 10.48550/arXiv.2407.16637
 url: "http://arxiv.org/abs/2407.16637"

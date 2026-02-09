@@ -48,9 +48,8 @@ Dr. Wang has won several prestigious awards, including the Gold Medal in the AI 
 - [Explainability for NLP: A Review and Taxonomy](https://arxiv.org/abs/2112.00000) (2021) - *Comprehensive roadmap for trustworthy language models.*
 
 ## Papers in this Vault
-- [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
 
-- [[2023-Wang-Understanding and Evaluating Sarcasm in Large|Understanding and Evaluating Sarcasm in Large]]
+- [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
 
 ## External Links & Profiles
 
@@ -60,4 +59,6 @@ Dr. Wang has won several prestigious awards, including the Gold Medal in the AI 
 - [ORCID](https://orcid.org/0000-0002-1501-9914)
 
 ## Notes
+
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
 His work on "democratizing" LLM capabilities is central to ensuring that advanced AI remains accessible and its decision-making processes transparent and explainable.

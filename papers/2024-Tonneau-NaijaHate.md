@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: NaijaHate
 year: 2025
 first_author: "[[Manuel Tonneau]]"
+last_author: "[[Samuel P. Fraiberger]]"
 authors: "Manuel Tonneau; Pedro Vitor Quinta de Castro; Karim Lasri; Ibrahim Farouq; Lakshminarayanan Subramanian; Victor Orozco-Olvera; Samuel P. Fraiberger"
 doi: 10.48550/arXiv.2403.19260
 tags: 

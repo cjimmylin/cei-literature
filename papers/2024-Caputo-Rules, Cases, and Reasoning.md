@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Rules, Cases, and Reasoning"
 year: 2025
 first_author: "[[Nicholas A. Caputo]]"
+last_author: "[[Nicholas A. Caputo]]"
 authors: "Nicholas A. Caputo"
 doi: 10.48550/arXiv.2410.17271
 url: "http://arxiv.org/abs/2410.17271"

@@ -9,7 +9,9 @@ type: preprint
 short_title: "EVALUESTEER: Measuring Reward Model Steerability Across Value Dimensions"
 year: 2025
 first_author: "[[K. Ghate]]"
+last_author: "[[K. Ghate]]"
 authors: Ghate, K. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2510.06370"
 external_pdf: "https://arxiv.org/pdf/2510.06370.pdf"
 local_pdf: "[[PDFs/2025/2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Ghate, K. et al.]]
+[[K. Ghate]]
 
 ## Metadata
 

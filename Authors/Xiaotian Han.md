@@ -18,8 +18,11 @@ Xiaotian Han is an Assistant Professor in the Department of Computer and Data Sc
 
 ## Papers in this Vault
 
-- [[2023-Han-FFB|FFB]]
+
+- [[2023-Han-FFB|FFB]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Han-FFB*: Affiliation: University of Houston, Email: han@tamu.edu
 [Additional context or contact information]

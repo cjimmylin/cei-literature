@@ -3,7 +3,7 @@ name: "Brent Harrison"
 title: "Assistant Professor"
 affiliation: "University of Kentucky"
 highest_degree: "PhD in Computer Science, North Carolina State University (2014)"
-email: ""
+email: "sa.nahian@uky.edu"
 research_interests:
   - "Computational Storytelling"
   - "AI Ethics & Safety"
@@ -45,9 +45,8 @@ He is a leading expert in the use of stories for value alignment, demonstrating 
 - [Explainable AI via Narrative Justification](https://arxiv.org/abs/2001.00000) (2020) - *Investigated story-based XAI.*
 
 ## Papers in this Vault
-- [[2024-Nahian-The Goofus & Gallant Story Corpus for Practical|The Goofus & Gallant Story Corpus for Practical]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2024-Nahian-The Goofus & Gallant Story Corpus for Practical|The Goofus & Gallant Story Corpus for Practical]] (Last Author)
 
 ## External Links & Profiles
 
@@ -57,4 +56,6 @@ He is a leading expert in the use of stories for value alignment, demonstrating 
 - [CORGI Lab Profile](https://corgilabai.com/)
 
 ## Notes
+
+- *From 2024-Nahian-The Goofus & Gallant Story Corpus for Practical*: Affiliation: Institute for Biomedical Informatics, Email: sa.nahian@uky.edu
 [Brent's work is critical for bridging the gap between technical reinforcement learning and human value systems.]

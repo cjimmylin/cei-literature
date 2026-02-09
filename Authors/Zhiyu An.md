@@ -20,8 +20,11 @@ Zhiyu An (Ryan Zhiyu An) is a postdoctoral scholar at University of California, 
 
 ## Papers in this Vault
 
-- [[2025-An-MoralReason|MoralReason]]
+
+- [[2025-An-MoralReason|MoralReason]] (First Author)
 
 ## Notes
 
+
+- *From 2025-An-MoralReason*: Affiliation: University of California, Merced
 [Additional context or contact information]

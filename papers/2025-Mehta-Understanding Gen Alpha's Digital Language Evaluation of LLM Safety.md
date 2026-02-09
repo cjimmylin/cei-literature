@@ -9,6 +9,7 @@ type: preprint
 short_title: "Understanding Gen Alpha's Digital Language: Evaluation of LLM Safety Systems for Content Moderation"
 year: 2025
 first_author: "[[Manisha Mehta]]"
+last_author: "[[Fausto Giunchiglia]]"
 authors: Manisha Mehta; Fausto Giunchiglia
 doi: 10.1145/3715275.3732184
 url: "https://arxiv.org/abs/2505.10588"

@@ -6,6 +6,7 @@ type: journalArticle
 short_title: "Virtue-Based Framework for AI Ethics"
 year: 2025
 first_author: "[[Thilo Hagendorff]]"
+last_author: "[[Thilo Hagendorff]]"
 authors: "[[Hagendorff, Thilo]]"
 doi: 10.1007/s13347-022-00553-z
 url: "https://link.springer.com/article/10.1007/s13347-022-00553-z"

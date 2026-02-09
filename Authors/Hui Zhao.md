@@ -1,6 +1,6 @@
 ---
 name: "Hui Zhao"
-affiliation: "University/Organization"
+affiliation: "Institute, East China Normal University"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Sun-Benchmarking Hallucination in Large Language|Benchmarking Hallucination in Large Language]]
+
+- [[2024-Sun-Benchmarking Hallucination in Large Language|Benchmarking Hallucination in Large Language]] (Last Author)
 
 ## Notes
 
+
+- *From 2024-Sun-Benchmarking Hallucination in Large Language*: Affiliation: Institute, East China Normal University, Email: guoqipeng@pjlab.org.cn
 [Additional context or contact information]

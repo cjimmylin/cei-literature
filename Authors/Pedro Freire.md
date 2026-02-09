@@ -20,8 +20,11 @@ Pedro Freire is affiliated with AIPT (Aston Institute of Photonic Technologies) 
 
 ## Papers in this Vault
 
-- [[2024-Freire-Uncovering Latent Human Wellbeing in Language|Uncovering Latent Human Wellbeing in Language]]
+
+- [[2024-Freire-Uncovering Latent Human Wellbeing in Language|Uncovering Latent Human Wellbeing in Language]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Freire-Uncovering Latent Human Wellbeing in Language*: Affiliation: Center for AI Safety
 [Additional context or contact information]

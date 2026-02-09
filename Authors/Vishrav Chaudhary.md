@@ -1,6 +1,6 @@
 ---
 name: "Vishrav Chaudhary"
-affiliation: "University/Organization"
+affiliation: "University of Colorado Boulder"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2022-Kann-AmericasNLI|AmericasNLI]]
 - [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]
 
 ## Notes
 
+
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 [Additional context or contact information]

@@ -8,6 +8,7 @@ type: document
 short_title: Batayan
 year: 2025
 first_author: "[[Jann Railey Montalan]]"
+last_author: "[[William Chandra Tjhi]]"
 authors: "Jann Railey Montalan; Jimson Paulo Layacan; David Demitri Africa; Richell Isaiah Flores; Michael T. Lopez; Theresa Denise Magsajo; Anjanette Cayabyab; William Chandra Tjhi"
 url: "https://arxiv.org/abs/2502.14911"
 external_pdf: "https://arxiv.org/pdf/2502.14911.pdf"

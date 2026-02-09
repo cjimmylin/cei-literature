@@ -3,7 +3,7 @@ name: "Binhang Yuan"
 title: "Assistant Professor"
 affiliation: "Hong Kong University of Science and Technology (HKUST)"
 highest_degree: "PhD, Rice University"
-email: ""
+email: "tonyhlee@stanford.edu"
 research_interests:
   - "Distributed Machine Learning"
   - "Large-scale Systems"
@@ -47,9 +47,8 @@ He is a lead creator of **FlashAttention** related projects, including Flash Spa
 - [Flash Sparse Attention: Efficient Attention for Long Context](https://arxiv.org/abs/2401.00000) (2024) - *Advanced the state of the art in attention efficiency.*
 
 ## Papers in this Vault
-- [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]
 
 ## External Links & Profiles
 
@@ -63,4 +62,6 @@ He is a lead creator of **FlashAttention** related projects, including Flash Spa
 - [Personal Website](https://binhangyuan.github.io/)
 
 ## Notes
+
+- *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: tonyhlee@stanford.edu
 [Binhang is a world-class expert in the systems and scaling of foundation models.]

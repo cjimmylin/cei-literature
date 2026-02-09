@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: HumaniBench
 year: 2025
 first_author: "[[Shaina Raza]]"
+last_author: "[[Deval Pandya]]"
 authors: "Shaina Raza; Aravind Narayanan; Vahid Reza Khazaie; Ashmal Vayani; Ahmed Y. Radwan; Mukund S. Chettiar; Amandeep Singh; Mubarak Shah; Deval Pandya"
 doi: 10.48550/arXiv.2505.11454
 url: "http://arxiv.org/abs/2505.11454"

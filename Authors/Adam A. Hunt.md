@@ -31,7 +31,10 @@ Adam's recent work includes the development of the Weapons of Mass Destruction P
 
 ## Papers in this Vault
 
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## Notes
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 [Specializes in the technical evaluation of extreme risks and bio-containment in AI.]

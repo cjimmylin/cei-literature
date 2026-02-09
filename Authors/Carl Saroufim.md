@@ -46,6 +46,7 @@ Saroufim is a key technical contributor to the "FACTS Grounding" project, which 
 
 ## Papers in this Vault
 
+
 - [[2025-Jacovi-The FACTS Grounding Leaderboard|The FACTS Grounding Leaderboard]]
 
 ## External Links & Profiles

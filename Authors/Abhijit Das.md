@@ -33,6 +33,7 @@ Dr. Das's research program investigates multimodal machine learning for deceptiv
 
 ## Papers in this Vault
 
+
 - [[2025-Joshi-Multimodal machine learning for deception|Multimodal machine learning for deception]]
 
 ## External Links & Profiles
@@ -42,4 +43,6 @@ Dr. Das's research program investigates multimodal machine learning for deceptiv
 - [ITS BITS Profile](https://universe.bits-pilani.ac.be/hyderabad/abhijitdas/profile)
 
 ## Notes
+
+- *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 [A leading researcher in biometrics and affective computing for security in India.]

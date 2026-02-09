@@ -17,6 +17,7 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2023-Lee-VisAlign|VisAlign]]
 
 ## Notes

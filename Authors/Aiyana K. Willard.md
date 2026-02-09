@@ -46,9 +46,9 @@ She has published extensively on the psychology of atheism, witchcraft beliefs, 
 - [Cognitive Biases and Religious Belief](https://journals.sagepub.com/doi/10.1177/0956797612452578) (2012) - *Investigated the mental architecture of belief.*
 
 ## Papers in this Vault
-- [[2016-Purzycki-Cross-cultural dataset for the evolution of|Cross-cultural dataset for the evolution of]]
 
-- [[2021-Willard-Cognitive Biases and Religious Belief|Cognitive Biases and Religious Belief]]
+- [[2016-Purzycki-Cross-cultural dataset for the evolution of|Cross-cultural dataset for the evolution of]]
+- [[2016-Purzycki-Religious Belief and the Moral Circle|Religious Belief and the Moral Circle]]
 
 ## External Links & Profiles
 
@@ -62,4 +62,6 @@ She has published extensively on the psychology of atheism, witchcraft beliefs, 
 - [Brunel Profile](https://www.brunel.ac.uk/people/aiyana-willard)
 
 ## Notes
+
+- *From 2016-Purzycki-Cross-cultural dataset for the evolution of*: Affiliation: Department of Human Behavior, Ecology, and Culture, Max Planck Institute for Evolutionary Anthropology
 [Aiyana is a central figure in the evolutionary psychology of morality and belief.]

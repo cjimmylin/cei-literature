@@ -1,6 +1,6 @@
 ---
 name: "Md Rizwan Parvez"
-affiliation: "University/Organization"
+affiliation: "University, §Princess Nourah Bint Abdulrahman University, ‡Nanyang Technological University"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Laskar-A Systematic Survey and Critical Review on|A Systematic Survey and Critical Review on]]
 
 ## Notes
 
+
+- *From 2024-Laskar-A Systematic Survey and Critical Review on*: Affiliation: University, §Princess Nourah Bint Abdulrahman University, ‡Nanyang Technological University
 [Additional context or contact information]

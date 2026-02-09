@@ -1,6 +1,6 @@
 ---
 name: "Mick Yang"
-affiliation: "University/Organization"
+affiliation: "Center for AI Safety 2Scale AI"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Ren-The MASK Benchmark|The MASK Benchmark]]
 
 ## Notes
 
+
+- *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI
 [Additional context or contact information]

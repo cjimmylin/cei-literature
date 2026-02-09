@@ -45,9 +45,8 @@ Hooi has made foundational contributions to the detection of suspicious patterns
 - [A Multi-turn, Multilingual, Multimodal Evaluation of ChatGPT](https://arxiv.org/abs/2302.00000) (2023) - *Research on model reliability across diverse tasks.*
 
 ## Papers in this Vault
-- [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 
-- [[2021-Xiang-Enriching Author Profiles|Enriching Author Profiles]]
+- [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 
 ## External Links & Profiles
 
@@ -56,4 +55,6 @@ Hooi has made foundational contributions to the detection of suspicious patterns
 - [Personal Website](https://briihooi.github.io/)
 
 ## Notes
+
+- *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
 His focus on "Anomaly Detection" provides a robust technical defense against "Adversarial AI"—identifying when a system is being steered off-course by malicious data.

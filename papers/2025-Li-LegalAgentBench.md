@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: LegalAgentBench
 year: 2025
 first_author: "[[Haitao Li]]"
+last_author: "[[Haitao Li]]"
 authors: Haitao Li et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2412.17259"
 external_pdf: "https://arxiv.org/pdf/2412.17259.pdf"
 local_pdf: "[[PDFs/2025/2025-Li-LegalAgentBench.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Haitao Li et al.]]
+[[Haitao Li]]
 
 ## Metadata
 

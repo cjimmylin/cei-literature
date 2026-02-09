@@ -31,7 +31,8 @@ Cristina Bosco is an assistant professor of computer science at the University o
 - Extensive publication record on hate speech corpora and detection methods
 
 ## Papers in this Vault
-- [[2019-Basile-SemEval-2019 Task 5|SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter]]
+
+- [[2019-Basile-SemEval-2019 Task 5|SemEval-2019 Task 5]]
 
 ## External Links & Profiles
 - [University Page](http://www.di.unito.it/~bosco/curriculum.html)
@@ -39,4 +40,6 @@ Cristina Bosco is an assistant professor of computer science at the University o
 - [DBLP](https://dblp.org/pid/27/3697.html)
 
 ## Notes
+
+- *From 2019-Basile-SemEval-2019 Task 5*: Affiliation: Research Center, Universitat Polit`ecnica de Val`encia (Spain), Email: francisco.rangel@autoritas.es
 Highly relevant to AI ethics research on hate speech and online harm. Her work on developing hate speech corpora and organizing shared tasks (SemEval, EVALITA) has provided foundational resources for training and evaluating hate speech detection systems. The focus on protecting immigrants and women from online hate directly addresses AI safety concerns around harmful content moderation.

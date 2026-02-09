@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "The Moral Integrity Corpus"
 year: 2022
 first_author: "[[Caleb Ziems]]"
+last_author: "[[Diyi Yang]]"
 authors: "Caleb Ziems; Jane Yu; Yi-Chia Wang; Alon Halevy; Diyi Yang"
 doi: 10.18653/v1/2022.acl-long.261
 url: "https://aclanthology.org/2022.acl-long.261/"

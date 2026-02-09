@@ -29,10 +29,12 @@ He is a co-author of the influential ETHICS benchmark (Aligning AI with Shared H
 
 ## Papers in this Vault
 
-- [[2021-Hendrycks-Aligning AI with Shared Human Values|Aligning AI with Shared Human Values]]
-- [[2023-Jiang-MACHIAVELLI|Do the Rewards Justify the Means? Measuring]]
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
+- [[2024-Mazeika-HarmBench|HarmBench]]
 - [[2024-Ren-Safetywashing|Safetywashing]]
+- [[2023-Jiang-MACHIAVELLI|MACHIAVELLI]]
+- [[2021-Hendrycks-Aligning AI with Shared Human Values|Aligning AI with Shared Human Values]]
 
 ## External Links & Profiles
 
@@ -46,4 +48,6 @@ He is a co-author of the influential ETHICS benchmark (Aligning AI with Shared H
 
 ## Notes
 
+
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 Steven Basart's work is central to AI safety benchmark development. His contributions to the ETHICS benchmark and WMDP are widely used for evaluating AI systems' alignment with human values and potential for misuse.

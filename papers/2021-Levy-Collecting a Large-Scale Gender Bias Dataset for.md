@@ -8,6 +8,7 @@ type: document
 short_title: "Collecting a Large-Scale Gender Bias Dataset for"
 year: 2025
 first_author: "[[Shahar Levy]]"
+last_author: "[[Stanovsky, Gabriel]]"
 authors: "[[Levy, Shahar]]; [[Lazar, Koren]]; [[Stanovsky, Gabriel]]"
 url: "https://aclanthology.org/2021.findings-emnlp.211/"
 external_pdf: "https://aclanthology.org/2021.findings-emnlp.211.pdf"
@@ -36,12 +37,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Shahar Levy]], [[Koren Lazar]], [[Gabriel Stanovsky]]
-## Metadata
-
-**Year:** 2021
-
-**Type:** document
+[[Shahar Levy|Levy, Shahar]], [[Koren Lazar|Lazar, Koren]], [[Gabriel Stanovsky|Stanovsky, Gabriel]]
 
 ## Links
 

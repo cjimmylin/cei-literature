@@ -1,6 +1,6 @@
 ---
 name: "Luca Alberto Rappuoli"
-affiliation: "University/Organization"
+affiliation: "University of St"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Galatolo-Beyond Ethical Alignment|Beyond Ethical Alignment]]
 
 ## Notes
 
+
+- *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St
 [Additional context or contact information]

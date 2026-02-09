@@ -9,7 +9,8 @@ type: preprint
 short_title: "Values in the Wild: Discovering and Analyzing Values in Real AI Interactions"
 year: 2025
 first_author: "[[S. Huang]]"
-authors: Huang, S. et al.
+last_author: "[[Deep Ganguli]]"
+authors: "Saffron Huang; Esin Durmus; Miles McCain; Kunal Handa; Alex Tamkin; Jerry Hong; Michael Stern; Arushi Somani; Xiuruo Zhang; Deep Ganguli"
 url: "https://arxiv.org/abs/2504.15236"
 external_pdf: "https://arxiv.org/pdf/2504.15236.pdf"
 local_pdf: "[[PDFs/2025/2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI.pdf]]"
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Huang, S. et al.]]
+[[Saffron Huang]], [[Esin Durmus]], [[Miles McCain]], [[Kunal Handa]], [[Alex Tamkin]], [[Jiseung Hong|Jerry Hong]], [[Michael Stern]], [[Arushi Somani]], [[Xiuruo Zhang]], [[Deep Ganguli]]
 
 ## Metadata
 

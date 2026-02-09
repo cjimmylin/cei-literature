@@ -1,6 +1,6 @@
 ---
 name: "Patrick Quinn"
-affiliation: "University/Organization"
+affiliation: "Department of Computer Science"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Naik-AgentMisalignment|AgentMisalignment]]
 
 ## Notes
 
+
+- *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: javcamposz@hotmail.com
 [Additional context or contact information]

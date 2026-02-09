@@ -1,6 +1,6 @@
 ---
 name: "Zechun Liu"
-affiliation: "University/Organization"
+affiliation: "lable self-improvement"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Zhuge-Agent-as-a-Judge|Agent-as-a-Judge]]
 
 ## Notes
 
+
+- *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: mingchen.zhuge@kaust.edu.sa
 [Additional context or contact information]

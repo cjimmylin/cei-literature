@@ -1,6 +1,6 @@
 ---
 name: "Jung-woo Ha"
-affiliation: "University/Organization"
+affiliation: "University of Richmond"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Lee-KoSBI|KoSBI]]
+
+- [[2023-Lee-KoSBI|KoSBI]] (Last Author)
 
 ## Notes
 
+
+- *From 2023-Lee-KoSBI*: Affiliation: University of Richmond, Email: park@joonsuk.org
 [Additional context or contact information]

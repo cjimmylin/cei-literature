@@ -1,6 +1,6 @@
 ---
 name: "Irina Rish"
-affiliation: "University/Organization"
+affiliation: "Department of Computer Science and Operations Research"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Roger-Towards ethical multimodal systems|Towards ethical multimodal systems]]
+
+- [[2023-Roger-Towards ethical multimodal systems|Towards ethical multimodal systems]] (Last Author)
 
 ## Notes
 
+
+- *From 2023-Roger-Towards ethical multimodal systems*: Affiliation: Department of Computer Science and Operations Research, Email: alexis.roger@umontreal.ca
 [Additional context or contact information]

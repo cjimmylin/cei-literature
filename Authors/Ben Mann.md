@@ -3,7 +3,7 @@ name: "Ben Mann"
 title: "Co-founder & Researcher"
 affiliation: "Anthropic (formerly OpenAI)"
 highest_degree: "B.S. in Computer Science"
-email: ""
+email: "jared@anthropic.com"
 research_interests:
   - "Large Language Models"
   - "Infrastructure & Scaling"
@@ -45,10 +45,11 @@ As a core contributor at OpenAI, he played a critical role in the GPT-3 project,
 - [Training Language Models to Follow Instructions with Human Feedback](https://arxiv.org/abs/2203.02155) (2022) - *Seminal work on InstructGPT/RLHF.*
 
 ## Papers in this Vault
-- [[2021-Askell-A General Language Assistant as a Laboratory for|A General Language Assistant as a Laboratory for]]
-- [[2022-Bai-Constitutional AI|Constitutional AI]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2022-Bai-Constitutional AI|Constitutional AI]]
+- [[2022-Bai-Training a Helpful and Harmless Assistant with|Training a Helpful and Harmless Assistant with]]
+- [[2022-Ganguli-Red Teaming Language Models to Reduce Harms|Red Teaming Language Models to Reduce Harms]]
+- [[2021-Askell-A General Language Assistant as a Laboratory for|A General Language Assistant as a Laboratory for]]
 
 ## External Links & Profiles
 
@@ -62,4 +63,6 @@ As a core contributor at OpenAI, he played a critical role in the GPT-3 project,
 - [Twitter/X](https://twitter.com/benmann)
 
 ## Notes
+
+- *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
 [Ben is a legendary figure in the scaling and alignment of LLMs at OpenAI and Anthropic.]

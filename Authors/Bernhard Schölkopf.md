@@ -48,12 +48,11 @@ During the 1990s and 2000s, he co-developed Kernel Principal Component Analysis 
 - [Elements of Causal Inference: Foundations and Learning Algorithms](https://mitpress.mit.edu/9780262037310/elements-of-causal-inference/) (2017) - *Foundational work on modern causality.*
 
 ## Papers in this Vault
-- [[2025-Backmann-When Ethics and Payoffs Diverge|When Ethics and Payoffs Diverge]]
-- [[2024-Jin-Language Model Alignment in Multilingual Trolley|Language Model Alignment in Multilingual Trolley]]
-- [[2025-Samway-Are Language Models Consequentialist or|Are Language Models Consequentialist or]]
-- [[2024-Piatti-Cooperate or Collapse|Cooperate or Collapse]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2025-Backmann-When Ethics and Payoffs Diverge|When Ethics and Payoffs Diverge]]
+- [[2025-Samway-Are Language Models Consequentialist or Deontological|Are LLMs Consequentialist or Deontological]]
+- [[2024-Jin-Language Model Alignment in Multilingual Trolley|Language Model Alignment in Multilingual Trolley]] (Last Author)
+- [[2024-Piatti-Cooperate or Collapse|Cooperate or Collapse]]
 
 ## External Links & Profiles
 
@@ -66,4 +65,6 @@ During the 1990s and 2000s, he co-developed Kernel Principal Component Analysis 
 - [MPI-IS Profile](https://is.mpg.de/person/bs)
 
 ## Notes
+
+- *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
 [Bernhard is a legendary figure whose work defines the mathematical core of machine learning.]

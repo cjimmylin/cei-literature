@@ -47,6 +47,7 @@ Shah has developed robust deep learning systems for anomaly detection and path p
 
 ## Papers in this Vault
 
+
 - [[2025-Joshi-Multimodal machine learning for deception|Multimodal machine learning for deception]]
 
 ## External Links & Profiles
@@ -56,4 +57,6 @@ Shah has developed robust deep learning systems for anomaly detection and path p
 - [ORCID](https://orcid.org/0009-0001-3321-8482)
 
 ## Notes
+
+- *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 His work on "deception detection" is a critical technical component for building "honest" AI systems that can identify and resist misinformation.

@@ -1,7 +1,7 @@
 ---
 name: "Lingpeng Kong"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University, 2The University of Hong Kong, 3City University of Hong Kong"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models|LongEmotion Measuring Emotional Intelligence of Large Language Models]]
+- [[2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models|LongEmotion: Measuring Emotional Intelligence of Large Language Models in Long-Context Interaction]]
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models*: Affiliation: University, 2The University of Hong Kong, 3City University of Hong Kong
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

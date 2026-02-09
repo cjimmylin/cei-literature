@@ -46,7 +46,9 @@ He is an active contributor to academic and public discussions on AI ethics, fre
 
 ## Papers in this Vault
 
-- [[2025-Brophy-Black Box Deployed|Black Box Deployed]]
+
+- [[2025-Brophy-Black Box Deployed|Black Box Deployed]] (First Author)
+- [[2025-Brophy-Wide Reflective Equilibrium LLM Alignment|Wide Reflective Equilibrium LLM Alignment]] (First Author)
 
 ## External Links & Profiles
 
@@ -55,4 +57,6 @@ He is an active contributor to academic and public discussions on AI ethics, fre
 - [HPU Faculty Profile](https://www.highpoint.edu/philosophy/faculty/matthew-brophy/)
 
 ## Notes
+
+- *From 2025-Brophy-Wide Reflective Equilibrium LLM Alignment*: Affiliation: Department of Philosophy, High Point University, Email: mbrophy@highpoint.edu
 [Matthew provides deep philosophical grounding for the ethical evaluation of AI systems.]

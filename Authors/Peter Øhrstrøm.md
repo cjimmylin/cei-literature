@@ -17,7 +17,8 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Gerdes-Exploring LLM Chatbots as Potential Guides to|Exploring LLM Chatbots as Potential Guides to]]
+
+- [[2025-Gerdes-Exploring LLM Chatbots as Potential Guides to|Exploring LLM Chatbots as Potential Guides to]] (Last Author)
 
 ## Notes
 

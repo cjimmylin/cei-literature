@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: Building Interpretable Models for Moral Decision-Making
 year: 2026
 first_author: "[[M. Goel]]"
+last_author: "[[A]]"
 authors: Goel, M., Das, A
 url: "https://arxiv.org/abs/2602.03351"
 external_pdf: "https://arxiv.org/pdf/2602.03351.pdf"
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Goel, M., Das, A]]
+[[Goel]], [[M.]], [[Dipanjan Das|Das]], [[A]]
 
 ## Metadata
 

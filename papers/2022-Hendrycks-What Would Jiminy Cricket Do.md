@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "What Would Jiminy Cricket Do?"
 year: 2025
 first_author: "[[Dan Hendrycks]]"
+last_author: "[[Jacob Steinhardt]]"
 authors: "Dan Hendrycks; Mantas Mazeika; Andy Zou; Sahil Patel; Christine Zhu; Jesus Navarro; Dawn Song; Bo Li; Jacob Steinhardt"
 doi: 10.48550/arXiv.2110.13136
 url: "http://arxiv.org/abs/2110.13136"

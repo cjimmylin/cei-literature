@@ -8,6 +8,7 @@ type: preprint
 short_title: "When Ethics and Payoffs Diverge"
 year: 2025
 first_author: "[[Steffen Backmann]]"
+last_author: "[[Jin, Zhijing]]"
 authors: "[[Backmann, Steffen]]; [[Guzman Piedrahita, David]]; [[Tewolde, Emanuel]]; [[Mihalcea, Rada]]; [[Schölkopf, Bernhard]]; [[Jin, Zhijing]]"
 doi: 10.48550/arXiv.2505.19212
 url: "https://arxiv.org/abs/2505.19212"
@@ -39,20 +40,7 @@ DATE_ADDED: 20260207
 
 ## Authors
 
-[[Steffen Backmann]], [[David Guzman Piedrahita]], [[Emanuel Tewolde]], [[Rada Mihalcea]], [[Bernhard Schölkopf]], [[Zhijing Jin]]
-## Metadata
-
-**Authors:** Backmann, Steffen; Guzman Piedrahita, David; Tewolde, Emanuel; Mihalcea, Rada; Schölkopf, Bernhard; Jin, Zhijing
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2505.19212](https://doi.org/10.48550/arXiv.2505.19212)
-
-**Publisher:** arXiv
-
-**Code:** https://github.com/sbackmann/moralsim
+[[Steffen Backmann|Backmann, Steffen]], [[David Guzman Piedrahita|Guzman Piedrahita, David]], [[Emanuel Tewolde|Tewolde, Emanuel]], [[Rada Mihalcea|Mihalcea, Rada]], [[Bernhard Schölkopf|Schölkopf, Bernhard]], [[Zhijing Jin|Jin, Zhijing]]
 
 ## Links
 

@@ -31,7 +31,8 @@ Aleksandr contributes to systemic investigations of "hard problems" in AI safety
 
 ## Papers in this Vault
 
-- [[2024-Leech-Ten Hard Problems in Artificial Intelligence We|Ten Hard Problems in Artificial Intelligence We]]
+
+- [[2024-Leech-Ten Hard Problems in Artificial Intelligence We|Ten Hard Problems in Artificial Intelligence We]] (Last Author)
 
 ## Notes
 [Focuses on the consolidation of global consensus around AI safety priorities.]

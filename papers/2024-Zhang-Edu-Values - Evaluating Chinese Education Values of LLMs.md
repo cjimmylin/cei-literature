@@ -9,6 +9,7 @@ type: preprint
 short_title: Edu-Values -- Evaluating Chinese Education Values of LLMs
 year: 2024
 first_author: "[[Peiyi Zhang]]"
+last_author: "[[Jing Qin]]"
 authors: Peiyi Zhang; Yazhou Zhang; Bo Wang; Lu Rong; Prayag Tiwari; Jing Qin
 doi: 10.1145/3701716.3715518
 url: "https://arxiv.org/abs/2409.12739"

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Through Eudaimonia's Lenses"
 year: 2025
 first_author: "[[Julian Marvin Jörs]]"
+last_author: "[[De Luca, Ernesto William]]"
 authors: "[[Jörs, Julian Marvin]]; [[De Luca, Ernesto William]]"
 doi: N/A
 url: "https://www.researchgate.net/publication/380938771_Through_Eudaimonia's_Lenses_EudAImonic_Well-Being_Variables_As_Guiding_Principles_For_AI_Design"
@@ -35,16 +36,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Julian Marvin Jörs]], [[Ernesto William De Luca]]
-## Metadata
-
-**Authors:** Jörs, Julian Marvin; De Luca, Ernesto William
-
-**Year:** 2024
-
-**Type:** workshop paper
-
-**Publisher:** CHI 2024 (Workshop on Designing (with) AI for Wellbeing)
+[[Julian Marvin Jörs|Jörs, Julian Marvin]], [[Ernesto William De Luca|De Luca, Ernesto William]]
 
 ## Links
 

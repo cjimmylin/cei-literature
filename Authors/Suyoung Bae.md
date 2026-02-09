@@ -3,7 +3,7 @@ name: "Suyoung Bae"
 title: "Research Scholar"
 affiliation: "Hanyang University / KAIST"
 highest_degree: "PhD Student (Inferred)"
-email: ""
+email: "boyang.li@ntu.edu.sg"
 research_interests:
   - "Natural Language Processing"
   - "AI Ethics"
@@ -45,7 +45,8 @@ She is the lead author of the CharMoral dataset, a significant contribution to t
 
 ## Papers in this Vault
 
-- [[2025-Bae-CharMoral|CharMoral]]
+
+- [[2025-Bae-CharMoral|CharMoral]] (First Author)
 
 ## External Links & Profiles
 
@@ -55,4 +56,6 @@ She is the lead author of the CharMoral dataset, a significant contribution to t
 - [ResearchGate](https://www.researchgate.net/profile/Suyoung-Bae)
 
 ## Notes
+
+- *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg
 [Suyoung is an emerging researcher specializing in moral reasoning and narrative AI.]

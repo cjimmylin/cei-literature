@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "Evaluating Moral Beliefs across LLMs through a"
 year: 2025
 first_author: "[[Xuelin Liu]]"
+last_author: "[[Yu, Dong]]"
 authors: "[[Liu, Xuelin]]; [[Zhu, Yanfei]]; [[Zhu, Shucheng]]; [[Liu, Pengyuan]]; [[Liu, Ying]]; [[Yu, Dong]]"
 doi: 10.48550/arXiv.2411.03665
 url: "http://arxiv.org/abs/2411.03665"
@@ -40,18 +41,7 @@ normative_ethics_benchmark: Yes
 
 ## Authors
 
-[[Xuelin Liu]], [[Yanfei Zhu]], [[Shucheng Zhu]], [[Pengyuan Liu]], [[Ying Liu]], [[Dong Yu]]
-## Metadata
-
-**Authors:** Liu, Xuelin; Zhu, Yanfei; Zhu, Shucheng; Liu, Pengyuan; Liu, Ying; Yu, Dong
-
-**Year:** 2024
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2411.03665](https://doi.org/10.48550/arXiv.2411.03665)
-
-**Publisher:** arXiv
+[[Xuelin Liu|Liu, Xuelin]], [[Yanfei Zhu|Zhu, Yanfei]], [[Shucheng Zhu|Zhu, Shucheng]], [[Pengyuan Liu|Liu, Pengyuan]], [[Ying Liu|Liu, Ying]], [[Dong Yu|Yu, Dong]]
 
 ## Links
 

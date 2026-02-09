@@ -20,8 +20,11 @@ Sunayana Rane is affiliated with Princeton University, focusing on AI alignment 
 
 ## Papers in this Vault
 
-- [[2024-Rane-Concept Alignment|Concept Alignment]]
+
+- [[2024-Rane-Concept Alignment|Concept Alignment]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: srane@princeton.edu
 [Additional context or contact information]

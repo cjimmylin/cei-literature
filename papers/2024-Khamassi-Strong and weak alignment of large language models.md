@@ -8,6 +8,7 @@ type: preprint
 short_title: "Strong and weak alignment of large language models"
 year: 2025
 first_author: "[[Mehdi Khamassi]]"
+last_author: "[[Chatila, Raja]]"
 authors: "[[Khamassi, Mehdi]]; [[Nahon, Marceau]]; [[Chatila, Raja]]"
 doi: 10.48550/arXiv.2408.04655
 tags: "Computer Science - Artificial Intelligence"
@@ -38,18 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Mehdi Khamassi]], [[Marceau Nahon]], [[Raja Chatila]]
-## Metadata
-
-**Authors:** Khamassi, Mehdi; Nahon, Marceau; Chatila, Raja
-
-**Year:** 2024
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2408.04655](https://doi.org/10.48550/arXiv.2408.04655)
-
-**Publisher:** arXiv
+[[Mehdi Khamassi|Khamassi, Mehdi]], [[Marceau Nahon|Nahon, Marceau]], [[Raja Chatila|Chatila, Raja]]
 
 ## Links
 

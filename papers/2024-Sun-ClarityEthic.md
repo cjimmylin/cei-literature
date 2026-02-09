@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: ClarityEthic
 year: 2025
 first_author: "[[Yuxi Sun]]"
+last_author: "[[Wenxuan Zhang]]"
 authors: "Yuxi Sun; Wei Gao; Jing Ma; Hongzhan Lin; Ziyang Luo; Wenxuan Zhang"
 doi: 10.48550/arXiv.2412.12848
 url: "http://arxiv.org/abs/2412.12848"

@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Moral Foundations Twitter Corpus"
 year: 2025
 first_author: "[[Joe Hoover]]"
+last_author: "[[Morteza Dehghani]]"
 authors: "Joe Hoover; Gwenyth Portillo-Wightman; Leigh Yeh; Shreya Havaldar; Aida Mostafazadeh Davani; Ying Lin; Brendan Kennedy; Mohammad Atari; Zahra Kamel; Madelyn Mendlen; Gabriela Moreno; Christina Park; Tingyee E. Chang; Jenna Chin; Christian Leong; Jun Yen Leung; Arineh Mirinjian; Morteza Dehghani"
 doi: 10.1177/1948550619876629
 url: "https://doi.org/10.1177/1948550619876629"

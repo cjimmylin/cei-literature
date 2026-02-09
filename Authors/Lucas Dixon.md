@@ -22,8 +22,11 @@ Lucas Dixon is a Principal Research Scientist at Google DeepMind and co-lead of 
 
 ## Papers in this Vault
 
-- [[2018-Dixon-Measuring and Mitigating Unintended Bias in Text|Measuring and Mitigating Unintended Bias in Text]]
+
+- [[2018-Dixon-Measuring and Mitigating Unintended Bias in Text|Measuring and Mitigating Unintended Bias in Text]] (First Author)
 
 ## Notes
 
+
+- *From 2018-Dixon-Measuring and Mitigating Unintended Bias in Text*: Affiliation: lable, so that bias mitigation, Email: lucyvasserman@google.com
 [Additional context or contact information]

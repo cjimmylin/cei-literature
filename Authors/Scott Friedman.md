@@ -1,6 +1,6 @@
 ---
 name: "Scott Friedman"
-affiliation: "University/Organization"
+affiliation: "University of Florida"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2023-Benkler-Assessing LLMs for Moral Value Pluralism|Assessing LLMs for Moral Value Pluralism]]
 
 ## Notes
 
+
+- *From 2023-Benkler-Assessing LLMs for Moral Value Pluralism*: Affiliation: University of Florida, Email: sfriedman@sift.net
 [Additional context or contact information]

@@ -3,7 +3,7 @@ name: "Brendan Kennedy"
 title: "Data Scientist"
 affiliation: "Pacific Northwest National Laboratory (PNNL)"
 highest_degree: "PhD in Computer Science, University of Southern California (2022)"
-email: ""
+email: "mdehghan@usc.edu"
 research_interests:
   - "Natural Language Processing"
   - "AI Ethics & Bias"
@@ -45,10 +45,9 @@ During his doctoral research, he compiled influential datasets for hate speech d
 - [A Context-Aware Characterization of Bias in Language Models](https://arxiv.org/abs/2110.00000) (2021) - *Advanced the measurement of social bias.*
 
 ## Papers in this Vault
-- [[2020-Hoover-Moral Foundations Twitter Corpus|Moral Foundations Twitter Corpus]]
-- [[2022-Trager-The Moral Foundations Reddit Corpus|The Moral Foundations Reddit Corpus]]
 
-- [[2021-Mathew-HateXplain-A Benchmark Dataset for|HateXplain-A Benchmark Dataset for]]
+- [[2022-Trager-The Moral Foundations Reddit Corpus|The Moral Foundations Reddit Corpus]]
+- [[2020-Hoover-Moral Foundations Twitter Corpus|Moral Foundations Twitter Corpus]]
 
 ## External Links & Profiles
 
@@ -64,4 +63,6 @@ During his doctoral research, he compiled influential datasets for hate speech d
 - [Twitter/X](https://twitter.com/brendan_phd)
 
 ## Notes
+
+- *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 [Brendan's work is critical for understanding the psychological and ethical dimensions of online hate speech.]

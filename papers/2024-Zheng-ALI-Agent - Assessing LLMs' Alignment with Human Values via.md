@@ -10,7 +10,9 @@ type: conferencePaper
 short_title: "ALI-Agent -- Assessing LLMs' Alignment with Human Values via Agent-based Evaluation"
 year: 2024
 first_author: "[[S. Zheng]]"
+last_author: "[[Z. Wang]]"
 authors: Zheng, S., Wang, Z., et al
+authors_incomplete: true
 url: "https://arxiv.org/abs/2405.14125"
 external_pdf: "https://arxiv.org/pdf/2405.14125.pdf"
 local_pdf: "[[PDFs/2024/2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via.pdf]]"
@@ -39,7 +41,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Zheng, S., Wang, Z., et al]]
+[[S. Zheng]], [[Z. Wang]]
 
 ## Metadata
 

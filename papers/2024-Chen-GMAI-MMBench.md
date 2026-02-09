@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: GMAI-MMBench
 year: 2025
 first_author: "[[Pengcheng Chen]]"
+last_author: "[[Yu Qiao]]"
 authors: "Pengcheng Chen; Jin Ye; Guoan Wang; Yanjun Li; Zhongying Deng; Wei Li; Tianbin Li; Haodong Duan; Ziyan Huang; Yanzhou Su; Benyou Wang; Shaoting Zhang; Bin Fu; Jianfei Cai; Bohan Zhuang; Eric J Seibel; Junjun He; Yu Qiao"
 doi: 10.48550/arXiv.2408.03361
 url: "http://arxiv.org/abs/2408.03361"
@@ -60,7 +61,7 @@ Large Vision-Language Models (LVLMs) are capable of handling diverse data types 
 
 ## Authors
 
-[[Pengcheng Chen]], [[Jin Ye]], [[Guoan Wang]], [[Yanjun Li]], [[Zhongying Deng]], [[Wei Li]], [[Tianbin Li]], [[Haodong Duan]], [[Ziyan Huang]], [[Yanzhou Su]], [[Benyou Wang]], [[Shaoting Zhang]], [[Bin Fu]], [[Jianfei Cai]], [[Bohan Zhuang]], [[Eric J Seibel]], [[Junjun He]], [[Yu Qiao]]
+[[Pengcheng Chen]], [[Jin Ye]], [[Guoan Wang]], [[Yanjun Li]], [[Zhongying Deng]], [[Wei Li]], [[Tianbin Li]], [[Haodong Duan]], [[Ziyan Huang]], [[Yanzhou Su]], [[Benyou Wang]], [[Shaoting Zhang]], [[Bin Fu]], [[Jianfei Cai]], [[Bohan Zhuang]], [[Eric J. Seibel|Eric J Seibel]], [[Junjun He]], [[Yu Qiao]]
 
 ## Notes
 

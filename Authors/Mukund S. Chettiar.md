@@ -1,6 +1,6 @@
 ---
 name: "Mukund S. Chettiar"
-affiliation: "University/Organization"
+affiliation: "Institute for Artificial Intelligence, Toronto, Canada"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Raza-HumaniBench|HumaniBench]]
 
 ## Notes
 
+
+- *From 2025-Raza-HumaniBench*: Affiliation: Institute for Artificial Intelligence, Toronto, Canada
 [Additional context or contact information]

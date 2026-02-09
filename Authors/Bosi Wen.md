@@ -45,10 +45,9 @@ Wen is a lead author of the "CritiqueLLM" and "Complex Instruction-Following" be
 - [Benchmarking Complex Instruction-Following with Multiple Constraints](https://arxiv.org/abs/2310.00000) (2023) - *Proposed a new standard for model instruction depth.*
 
 ## Papers in this Vault
+
 - [[2024-Chen-ToMBench|ToMBench]]
 - [[2023-Liu-AlignBench|AlignBench]]
-
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
 
 ## External Links & Profiles
 
@@ -57,4 +56,6 @@ Wen is a lead author of the "CritiqueLLM" and "Complex Instruction-Following" be
 - [Semantic Scholar](https://www.semanticscholar.org/author/Bosi-Wen/145450417)
 
 ## Notes
+
+- *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 Their research on "CritiqueLLM" provides a scalable path for human-aligned feedback, reducing the reliance on manual human scoring for every model iteration.

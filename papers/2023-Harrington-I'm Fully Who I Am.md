@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "I'm Fully Who I Am"
 year: 2025
 first_author: "[[Christina Harrington]]"
+last_author: "[[Christina Harrington]]"
 authors: "Christina Harrington"
 doi: 10.1145/3593013.3594094
 url: "https://dl.acm.org/doi/10.1145/3593013.3594094"

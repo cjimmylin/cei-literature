@@ -8,6 +8,7 @@ type: preprint
 short_title: "Evidence of conceptual mastery in the application"
 year: 2025
 first_author: "[[José Luiz Nunes]]"
+last_author: "[[Brian Flanagan]]"
 authors: "[[José Luiz Nunes]], [[Guilherme Almeida]], [[Brian Flanagan]]"
 doi: 10.2139/ssrn.5161877
 url: "https://arxiv.org/abs/2503.00992"
@@ -37,18 +38,7 @@ data_metrics: "240 instances"
 
 ## Authors
 
-[[[[José Luiz Nunes]], [[Guilherme Almeida]], [[Brian Flanagan]]]]
-## Metadata
-
-**Authors:** Nunes, José Luiz; Almeida, Guilherme; Flanagan, Brian
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.2139/ssrn.5161877](https://doi.org/10.2139/ssrn.5161877)
-
-**Publisher:** SSRN
+[[José Luiz Nunes]], [[Guilherme Almeida]], [[Brian Flanagan]]
 
 ## Links
 

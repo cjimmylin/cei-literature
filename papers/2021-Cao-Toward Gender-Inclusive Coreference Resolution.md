@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Toward Gender-Inclusive Coreference Resolution"
 year: 2025
 first_author: "[[Yang Trista Cao]]"
+last_author: "[[Hal Daumé III]]"
 authors: "Yang Trista Cao; Hal Daumé III"
 doi: 10.1162/coli_a_00415
 url: "https://direct.mit.edu/coli/article/47/3/615/102824/Toward-Gender-Inclusive-Coreference-Resolution-An"

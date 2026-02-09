@@ -11,6 +11,7 @@ type: conferencePaper
 short_title: Deep Value Benchmark
 year: 2025
 first_author: "[[Joshua Ashkinaze]]"
+last_author: "[[Ceren Budak]]"
 authors: Joshua Ashkinaze, Hua Shen, Saipranav Avula, Eric Gilbert, Ceren Budak
 url: "https://arxiv.org/abs/2511.02109"
 external_pdf: "https://arxiv.org/pdf/2511.02109.pdf"
@@ -39,7 +40,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Joshua Ashkinaze, Hua Shen, Saipranav Avula, Eric Gilbert, Ceren Budak]]
+[[Joshua Ashkinaze]], [[Hua Shen]], [[Saipranav Avula]], [[Eric Gilbert]], [[Ceren Budak]]
 
 ## Metadata
 

@@ -29,6 +29,7 @@ Denis Shevelev is a research scientist at SberDevices contributing to the develo
 - Natural language understanding
 
 ## Papers in this Vault
+
 - [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]]
 
 ## Links

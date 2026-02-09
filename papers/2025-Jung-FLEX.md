@@ -8,6 +8,7 @@ type: document
 short_title: FLEX
 year: 2025
 first_author: "[[Dahyun Jung]]"
+last_author: "[[Lim, Heuiseok]]"
 authors: "[[Jung, Dahyun]]; [[Lee, Seungyoon]]; [[Moon, Hyeonseok]]; [[Park, Chanjun]]; [[Lim, Heuiseok]]"
 url: "https://aclanthology.org/2025.findings-naacl.199/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/M5J3WHBS/2025 - FLEX A Benchmark for Evaluating Robustness of Fairness in Large Language Models.pdf"
@@ -36,12 +37,7 @@ local_pdf: "[[PDFs/2025/2025-Jung-FLEX.pdf]]"
 
 ## Authors
 
-[[Dahyun Jung]], [[Seungyoon Lee]], [[Hyeonseok Moon]], [[Chanjun Park]], [[Heuiseok Lim]]
-## Metadata
-
-**Year:** 2025
-
-**Type:** document
+[[Dahyun Jung|Jung, Dahyun]], [[Seungyoon Lee|Lee, Seungyoon]], [[Hyeonseok Moon|Moon, Hyeonseok]], [[Chanjun Park|Park, Chanjun]], [[Heuiseok Lim|Lim, Heuiseok]]
 
 ## Links
 

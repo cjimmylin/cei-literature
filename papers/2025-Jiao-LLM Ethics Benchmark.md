@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "LLM Ethics Benchmark"
 year: 2025
 first_author: "[[Junfeng Jiao]]"
+last_author: "[[Dhurandhar, Amit]]"
 authors: "[[Jiao, Junfeng]]; [[Afroogh, Saleh]]; [[Murali, Abhejay]]; [[Chen, Kevin]]; [[Atkinson, David]]; [[Dhurandhar, Amit]]"
 doi: 10.48550/arXiv.2505.00853
 tags: 
@@ -41,18 +42,7 @@ DATE_ADDED: 20260207
 
 ## Authors
 
-[[Junfeng Jiao]], [[Saleh Afroogh]], [[Abhejay Murali]], [[Kevin Chen]], [[David Atkinson]], [[Amit Dhurandhar]]
-## Metadata
-
-**Authors:** Jiao, Junfeng; Afroogh, Saleh; Murali, Abhejay; Chen, Kevin; Atkinson, David; Dhurandhar, Amit
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2505.00853](https://doi.org/10.48550/arXiv.2505.00853)
-
-**Publisher:** arXiv
+[[Junfeng Jiao|Jiao, Junfeng]], [[Saleh Afroogh|Afroogh, Saleh]], [[Abhejay Murali|Murali, Abhejay]], [[Kevin Chen|Chen, Kevin]], [[David Atkinson|Atkinson, David]], [[Amit Dhurandhar|Dhurandhar, Amit]]
 
 ## Links
 

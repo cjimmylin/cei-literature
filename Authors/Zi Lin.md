@@ -20,7 +20,8 @@ Zi Lin is a PhD student in Computer Science and Engineering at UC San Diego. He 
 
 ## Papers in this Vault
 
-- [[2023-Lin-ToxicChat|ToxicChat]]
+
+- [[2023-Lin-ToxicChat|ToxicChat]] (First Author)
 
 ## Notes
 

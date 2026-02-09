@@ -1,6 +1,6 @@
 ---
 name: "Jelena Mitrović"
-affiliation: "University/Organization"
+affiliation: "University of Groningen"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2021-Caselli-HateBERT|HateBERT]]
 
 ## Notes
 
+
+- *From 2021-Caselli-HateBERT*: Affiliation: University of Groningen, Email: valerio.basile@unito.it
 [Additional context or contact information]

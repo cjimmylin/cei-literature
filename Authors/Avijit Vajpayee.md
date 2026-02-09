@@ -25,8 +25,11 @@ International Institute of Information Technology Hyderabad (IIIT-H)
 
 ## Papers in this Vault
 
-- [[2020-Srivastava-A Multi-Dimensional View of Aggression when|A Multi-Dimensional View of Aggression when Voicing Opinion]]
+
+- [[2020-Srivastava-A Multi-Dimensional View of Aggression when|A Multi-Dimensional View of Aggression when]]
 
 ## Notes
 
+
+- *From 2020-Srivastava-A Multi-Dimensional View of Aggression when*: Affiliation: Institute of Information Technology, Hyderabad, Telangana, India, Email: m.shrivastava@iiit.ac.in
 Contributed to research on multi-dimensional annotation of aggression in Hindi-English code-mixed text, covering dimensions including aggression level, hate speech, emotion, and figurative language (sarcasm, irony).

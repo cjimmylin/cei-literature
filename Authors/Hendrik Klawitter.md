@@ -1,6 +1,6 @@
 ---
 name: "Hendrik Klawitter"
-affiliation: "University/Organization"
+affiliation: "University of Applied Sciences), Melanie Siegel (Darmstadt University of Applied Sciences), Josef Ruppenhofer"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2019-Kreutz-GermEval 2019 Task 2|GermEval 2019 Task 2]]
+
+- [[2019-Kreutz-GermEval 2019 Task 2|GermEval 2019 Task 2]] (Last Author)
 
 ## Notes
 
+
+- *From 2019-Kreutz-GermEval 2019 Task 2*: Affiliation: University of Applied Sciences), Melanie Siegel (Darmstadt University of Applied Sciences), Josef Ruppenhofer
 [Additional context or contact information]

@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Yesil o1 Pro"
 year: 2025
 first_author: "[[Yusuf Yesil]]"
+last_author: "[[Yusuf Yesil]]"
 authors: "Yusuf Yesil"
 doi: 10.2196/preprints.72646
 url: "https://preprints.jmir.org/preprint/72646"

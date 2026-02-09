@@ -32,9 +32,12 @@ Alice focuses on the problem of "Safetywashing"—where companies claim high saf
 
 ## Papers in this Vault
 
+
+- [[2025-Ren-The MASK Benchmark|The MASK Benchmark]]
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 - [[2024-Ren-Safetywashing|Safetywashing]]
-- [[2025-Ren-The MASK Benchmark|The MASK Benchmark]]
 
 ## Notes
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 [Collaborates closely with the Berkeley alignment community on 'hard' safety problems.]

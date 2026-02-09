@@ -6,6 +6,7 @@ type: preprint
 short_title: "Tracing Moral Foundations in LLMs"
 year: 2025
 first_author: "[[Chenxiao Yu]]"
+last_author: "[[Dehghani, Morteza]]"
 authors: "[[Yu, Chenxiao]]; [[Yi, Bowen]]; [[Karimi-Malekabadi, Farzan]]; [[Abdurahman, Suhaib]]; [[Ye, Jinyi]]; [[Narayanan, Shrikanth]]; [[Zhao, Yue]]; [[Dehghani, Morteza]]"
 doi: N/A
 url: "https://arxiv.org/abs/2601.05437"
@@ -33,7 +34,7 @@ data_metrics: "Layer-specific representations, sparse autoencoder features, caus
 
 ## Authors
 
-[[Chenxiao Yu]], [[Bowen Yi]], [[Farzan Karimi-Malekabadi]], [[Suhaib Abdurahman]], [[Jinyi Ye]], [[Shrikanth Narayanan]], [[Yue Zhao]], [[Morteza Dehghani]]
+[[Yu, Chenxiao]], [[Yi, Bowen]], [[Farzan Karimi-Malekabadi|Karimi-Malekabadi, Farzan]], [[Abdurahman, Suhaib]], [[Ye, Jinyi]], [[Narayanan, Shrikanth]], [[Yue Zhao|Zhao, Yue]], [[Morteza Dehghani|Dehghani, Morteza]]
 
 ## Metadata
 

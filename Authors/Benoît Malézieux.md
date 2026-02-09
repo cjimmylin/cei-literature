@@ -3,7 +3,7 @@ name: "Benoît Malézieux"
 title: "Machine Learning Researcher"
 affiliation: "Giskard AI"
 highest_degree: "PhD (candidate/recent), Signal Processing & Optimization"
-email: ""
+email: "matteo@giskard.ai"
 research_interests:
   - "AI Ethics"
   - "AI Robustness"
@@ -46,9 +46,8 @@ Malézieux is a contributor to several open-source AI security tools, including 
 - [Benchopt: A framework for automating and publishing optimization benchmarks](https://arxiv.org/abs/2206.14373) (2022) - *Framework for improving ML reproducibility.*
 
 ## Papers in this Vault
-- [[2025-Le Jeune-Phare A Safety Probe for Large Language Models|Phare: A Safety Probe for Large Language Models]]
 
-- [[2024-Malezieux|Giskard: Open-source vulnerability scanner for AI models]]
+- [[2025-Le Jeune-Phare A Safety Probe for Large Language Models|Phare: A Safety Probe for Large Language Models]]
 
 ## External Links & Profiles
 
@@ -57,4 +56,6 @@ Malézieux is a contributor to several open-source AI security tools, including 
 - [GitHub](https://github.com/benoit-malezieux)
 
 ## Notes
+
+- *From 2025-Le Jeune-Phare A Safety Probe for Large Language Models*:, Email: matteo@giskard.ai
 His transition from pure signal processing to AI "vulnerability scanning" represents a growing trend in ensuring the technical robustness of ethical AI frameworks.

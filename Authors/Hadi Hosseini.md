@@ -24,6 +24,7 @@ Prior to joining Penn State in Fall 2020, Hosseini was an assistant professor at
 
 ## Papers in this Vault
 
+
 - [[2025-Dickerson-Who Gets the Kidney|Who Gets the Kidney?]]
 
 ## Links
@@ -34,4 +35,6 @@ Prior to joining Penn State in Fall 2020, Hosseini was an assistant professor at
 
 ## Notes
 
+
+- *From 2025-Dickerson-Who Gets the Kidney*:, Email: hadi@psu.edu
 Recipient of NSF CAREER Award, NSF Medium RI Award, NSF CRII Award, and Junior Faculty Excellence in Research Award at Penn State. Actively recruiting PhD students for projects in algorithmic fairness, multiagent systems, and algorithmic game theory.

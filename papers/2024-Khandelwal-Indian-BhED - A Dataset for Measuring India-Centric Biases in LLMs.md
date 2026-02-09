@@ -9,7 +9,8 @@ type: preprint
 short_title: Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs
 year: 2024
 first_author: "[[V. & Tonneau Khandelwal]]"
-authors: "Khandelwal, V. & Tonneau, M. et al"
+last_author: "[[Scott A. Hale]]"
+authors: "Khyati Khandelwal; Manuel Tonneau; Andrew M. Bean; Hannah Rose Kirk; Scott A. Hale"
 doi: 10.1145/3677525.3678666
 url: "https://arxiv.org/abs/2309.08573"
 external_pdf: "https://arxiv.org/pdf/2309.08573.pdf"
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Khandelwal, V. & Tonneau, M. et al]]
+[[Khyati Khandelwal]], [[Manuel Tonneau]], [[Andrew M. Bean]], [[Hannah Rose Kirk]], [[Scott A. Hale]]
 
 ## Metadata
 

@@ -3,7 +3,7 @@ name: "Blaise Agüera y Arcas"
 title: "VP, Google Fellow & CTO, Technology & Society"
 affiliation: "Google"
 highest_degree: "BA in Physics, Princeton University (1998)"
-email: ""
+email: "istreet@google.com"
 research_interests:
   - "Neural Computing"
   - "Active Inference"
@@ -45,9 +45,9 @@ Beyond his technical inventions like federated learning and on-device machine le
 - [The Ethics of Advanced AI Assistants](https://arxiv.org/abs/2404.16244) (2024) - *A recent overview of the ethical landscape of AGIs.*
 
 ## Papers in this Vault
-- [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
+- [[2024-Street-LLMs achieve adult human performance on|LLMs achieve adult human performance on]]
 
 ## External Links & Profiles
 
@@ -62,4 +62,6 @@ Beyond his technical inventions like federated learning and on-device machine le
 - [Twitter/X](https://twitter.com/thebaseheight)
 
 ## Notes
+
+- *From 2024-Street-LLMs achieve adult human performance on*: Affiliation: Lab, Johns Hopkins University, Email: istreet@google.com
 Blaise represents a bridge between high-level philosophical AI alignment (the "nature of mind") and practical, large-scale engineering safety (federated learning and privacy).

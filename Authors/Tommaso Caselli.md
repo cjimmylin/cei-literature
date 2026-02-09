@@ -20,8 +20,11 @@ Tommaso Caselli is a Senior Assistant Professor at the Faculty of Arts, Universi
 
 ## Papers in this Vault
 
-- [[2021-Caselli-HateBERT|HateBERT]]
+
+- [[2021-Caselli-HateBERT|HateBERT]] (First Author)
 
 ## Notes
 
+
+- *From 2021-Caselli-HateBERT*: Affiliation: University of Groningen, Email: valerio.basile@unito.it
 [Additional context or contact information]

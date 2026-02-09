@@ -20,7 +20,8 @@ Zhi Xing Xu is affiliated with the Business School at Beijing Normal University 
 
 ## Papers in this Vault
 
-- [[2016-Xu-How Can a Deontological Decision Lead to Moral|How Can a Deontological Decision Lead to Moral]]
+
+- [[2016-Xu-How Can a Deontological Decision Lead to Moral|How Can a Deontological Decision Lead to Moral]] (First Author)
 
 ## Notes
 

@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: SafetyAnalyst
 year: 2025
 first_author: "[[Jing-Jing Li]]"
+last_author: "[[Jing-Jing Li]]"
 authors: Jing-Jing Li et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2410.16665"
 external_pdf: "https://arxiv.org/pdf/2410.16665.pdf"
 local_pdf: "[[PDFs/2025/2025-Li-SafetyAnalyst.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Jing-Jing Li et al.]]
+[[Jing-Jing Li]]
 
 ## Metadata
 

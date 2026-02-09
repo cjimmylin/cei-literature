@@ -32,3 +32,7 @@ Previously: Ernst Strüngmann Institute for Neuroscience (2022-2024), Istituto I
 - Website:
 - Google Scholar:
 - Semantic Scholar:
+
+## Papers in this Vault
+
+- [[2024-Tlaie-Exploring and steering the moral compass of Large|Exploring and steering the moral compass of Large]] (First Author)

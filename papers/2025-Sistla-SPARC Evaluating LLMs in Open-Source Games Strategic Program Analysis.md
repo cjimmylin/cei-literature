@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "SPARC: Evaluating LLMs in Open-Source Games (Strategic Program Analysis for Reciprocal Cooperation)"
 year: 2025
 first_author: "[[Swadesh Sistla]]"
+last_author: "[[Max Kleiman-Weiner]]"
 authors: Swadesh Sistla; Max Kleiman-Weiner
 url: "https://arxiv.org/abs/2512.00371"
 external_pdf: "https://arxiv.org/pdf/2512.00371.pdf"

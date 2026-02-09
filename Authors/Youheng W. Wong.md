@@ -25,8 +25,11 @@ The research highlights how domain-specific datasets, particularly those from re
 
 ## Papers in this Vault
 
-- [[2024-Wong-The Humanistic Buddhism Corpus (HBC)|The Humanistic Buddhism Corpus (HBC)]]
+
+- [[2024-Wong-The Humanistic Buddhism Corpus (HBC)|The Humanistic Buddhism Corpus (HBC)]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Wong-The Humanistic Buddhism Corpus (HBC)*: Affiliation: University of Illinois Chicago
 The HBC dataset is publicly available through ACL Anthology and represents a significant contribution to machine translation research for specialized religious and philosophical texts. The dataset addresses the need for culturally and contextually sensitive translation systems beyond general-purpose NLP applications.

@@ -34,8 +34,11 @@ His writing has appeared in The Guardian, Vox, and Marginal Revolution. He has w
 
 ## Papers in this Vault
 
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
 ## Notes
 
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 Brings historical and philosophical perspective to AI ethics research.

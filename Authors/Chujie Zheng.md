@@ -40,7 +40,8 @@ Chujie Zheng (郑楚杰) is a Research Scientist in the Qwen Team at Alibaba Gro
 
 ## Papers in this Vault
 
-- [[2023-Zheng-Large Language Models Are Not Robust Multiple|Large Language Models Are Not Robust to Multiple Choice Questions]]
+
+- [[2023-Zheng-Large Language Models Are Not Robust Multiple|Large Language Models Are Not Robust Multiple]] (First Author)
 
 ## External Links & Profiles
 
@@ -55,4 +56,6 @@ Chujie Zheng (郑楚杰) is a Research Scientist in the Qwen Team at Alibaba Gro
 
 ## Notes
 
+
+- *From 2023-Zheng-Large Language Models Are Not Robust Multiple*: Affiliation: University, Beijing 100084, China, Email: aihuang@tsinghua.edu.cn
 Chujie Zheng's work on emotional support dialogue systems represents an important application of NLP to mental health and well-being. His ESConv dataset and ESC framework, grounded in established psychological theory (Helping Skills), provide a principled approach to training AI systems that can genuinely help people in emotional distress rather than just generating plausible-sounding responses. This work is particularly relevant for AI alignment as it addresses how AI systems should interact with humans in emotionally sensitive contexts.

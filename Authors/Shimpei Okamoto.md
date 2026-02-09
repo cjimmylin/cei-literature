@@ -31,7 +31,8 @@ His research is supported by funding from the Japan Society for the Promotion of
 
 ## Papers in this Vault
 
-- [[2025-Okamoto-AI-based medical ethics education|AI-based medical ethics education]]
+
+- [[2025-Okamoto-AI-based medical ethics education|AI-based medical ethics education]] (First Author)
 
 ## Notes
 

@@ -3,7 +3,7 @@ name: "Abulhair Saparov"
 title: "Assistant Professor"
 affiliation: "Purdue University"
 highest_degree: "PhD, NYU (Inferred)"
-email: ""
+email: "usmananwar391@gmail.com"
 research_interests:
   - "Natural Language Processing"
   - "Reasoning in LLMs"
@@ -45,9 +45,8 @@ His work at NYU with He He pioneered synthetic datasets for analyzing reasoning 
 - [Testing the Reasoning Abilities of Language Models using synthetic datasets](https://arxiv.org/abs/2301.00000) (2023) - *Developed benchmarks for logical reasoning in NLP.*
 
 ## Papers in this Vault
-- [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 
-- [[2021-He-Characterizing Truthfulness in Language Models|Characterizing Truthfulness in Language Models]]
+- [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 
 ## External Links & Profiles
 
@@ -63,4 +62,6 @@ His work at NYU with He He pioneered synthetic datasets for analyzing reasoning 
 - [Twitter/X](https://twitter.com/asaparov)
 
 ## Notes
+
+- *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
 [Abulhair is a key researcher in the field of LLM reasoning and mechanistic evaluation.]

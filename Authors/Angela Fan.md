@@ -45,9 +45,8 @@ She was a primary contributor to the M2M-100 model, the first multilingual trans
 - [Hierarchical Neural Story Generation](https://arxiv.org/abs/1805.04833) (2018) - *Influential work on long-form text generation.*
 
 ## Papers in this Vault
-- [[2022-Kann-AmericasNLI|AmericasNLI]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2022-Kann-AmericasNLI|AmericasNLI]]
 
 ## External Links & Profiles
 
@@ -60,4 +59,6 @@ She was a primary contributor to the M2M-100 model, the first multilingual trans
 - [Meta AI Profile](https://ai.meta.com/people/angela-fan/)
 
 ## Notes
+
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 [Angela is a leading expert in multilingual NLP and the scaling of generative models.]

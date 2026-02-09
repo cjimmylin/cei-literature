@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "Measuring What Matters: Connecting AI Ethics Evaluations to System Attributes, Hazards, and Harms (RAI Measures Dataset)"
 year: 2025
 first_author: "[[Shalaleh Rismani]]"
+last_author: "[[AJung Moon]]"
 authors: Shalaleh Rismani; Renee Shelby; Leah Davis; Negar Rostamzadeh; AJung Moon
 publication: Unknown
 external_pdf: "https://arxiv.org/pdf/2510.10339v1.pdf"

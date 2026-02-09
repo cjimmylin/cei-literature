@@ -3,7 +3,7 @@ name: "Hyunwoo Kim"
 title: "Incoming Assistant Professor / Postdoctoral Researcher"
 affiliation: "KAIST AI / NVIDIA"
 highest_degree: "PhD, Computer Science, Seoul National University"
-email: ""
+email: "hyunw.kim@vl.snu.ac.kr"
 research_interests:
   - "Prosocial AI"
   - "Social Reasoning"
@@ -48,8 +48,9 @@ Kim created ProsocialDialog, the first large-scale multi-turn dialogue dataset t
 
 ## Papers in this Vault
 
-- [[2022-Kim-ProsocialDialog|ProsocialDialog]]
-- [[2022-Kim-SODA|SODA]]
+
+- [[2022-Kim-ProsocialDialog|ProsocialDialog]] (First Author)
+- [[2022-Kim-SODA|SODA]] (First Author)
 
 ## External Links & Profiles
 
@@ -60,4 +61,6 @@ Kim created ProsocialDialog, the first large-scale multi-turn dialogue dataset t
 
 ## Notes
 
+
+- *From 2022-Kim-ProsocialDialog*: Affiliation: Institute for Artiﬁcial Intelligence, Email: hyunw.kim@vl.snu.ac.kr
 Hyunwoo Kim's work on prosocial AI represents a critical contribution to developing AI systems that can navigate complex social situations while promoting positive, ethical behavior.

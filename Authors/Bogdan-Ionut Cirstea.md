@@ -46,7 +46,8 @@ Cirstea co-authored influential research on inducing "systematic" moral reasonin
 
 ## Papers in this Vault
 
-- [[2024-Karpov-Inducing Human-like Biases in Moral Reasoning|Inducing Human-like Biases in Moral Reasoning]]
+
+- [[2024-Karpov-Inducing Human-like Biases in Moral Reasoning|Inducing Human-like Biases in Moral Reasoning]] (Last Author)
 
 ## External Links & Profiles
 
@@ -55,4 +56,6 @@ Cirstea co-authored influential research on inducing "systematic" moral reasonin
 - [ResearchGate](https://www.researchgate.net/profile/Bogdan-Ionut-Cirstea)
 
 ## Notes
+
+- *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware
 His work on "inducing biases" is a double-edged sword: it shows how models can be aligned with human values, but also how they can be manipulated into adopting specific (and potentially harmful) ideological stances.

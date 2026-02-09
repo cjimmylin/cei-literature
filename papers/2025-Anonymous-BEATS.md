@@ -8,6 +8,7 @@ type: document
 short_title: BEATS
 year: 2025
 first_author: "[[Alok Abhishek]]"
+last_author: "[[Tushar Bandopadhyay]]"
 authors: "Alok Abhishek; Lisa Erickson; Tushar Bandopadhyay"
 url: "https://arxiv.org/abs/2503.24310"
 external_pdf: "https://arxiv.org/pdf/2503.24310.pdf"

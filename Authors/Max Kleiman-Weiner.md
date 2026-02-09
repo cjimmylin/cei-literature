@@ -1,6 +1,6 @@
 ---
 name: "Max Kleiman-Weiner"
-affiliation: "University/Organization"
+affiliation: "Institute for Intelligent Systems, Tübingen, 2University of Washington"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,10 +17,16 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+- [[2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety|SafetyAnalyst: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior]]
+- [[2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities|ConflictScope: Generative Value Conflicts Reveal LLM Priorities]] (Last Author)
+- [[2025-Samway-Are Language Models Consequentialist or Deontological|Are LLMs Consequentialist or Deontological]]
+- [[2025-Sistla-SPARC Evaluating LLMs in Open-Source Games Strategic Program Analysis|SPARC: Evaluating LLMs in Open-Source Games (Strategic Program Analysis for Reciprocal Cooperation)]] (Last Author)
 - [[2024-Jin-Language Model Alignment in Multilingual Trolley|Language Model Alignment in Multilingual Trolley]]
 - [[2024-Piatti-Cooperate or Collapse|Cooperate or Collapse]]
-- [[2025-Samway-Are Language Models Consequentialist or|Are Language Models Consequentialist or]]
 
 ## Notes
 
+
+- *From 2025-Samway-Are Language Models Consequentialist or Deontological*: Affiliation: Institute for Intelligent Systems, Tübingen, 2University of Washington
 [Additional context or contact information]

@@ -1,6 +1,6 @@
 ---
 name: "Furong Huang"
-affiliation: "University/Organization"
+affiliation: "University of Maryland, College Park"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,10 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+- [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
 - [[2024-Wu-AutoHallusion|AutoHallusion]]
-- [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 
 ## Notes
 
+
+- *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 [Additional context or contact information]

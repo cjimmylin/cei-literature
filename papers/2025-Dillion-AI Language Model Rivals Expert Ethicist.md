@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "AI Language Model Rivals Expert Ethicist"
 year: 2025
 first_author: "[[Danica Dillion]]"
+last_author: "[[Kurt Gray]]"
 authors: "Danica Dillion; Debanjan Mondal; Niket Tandon; Kurt Gray"
 doi: 10.1038/s41598-025-86510-0
 url: "https://www.nature.com/articles/s41598-025-86510-0"

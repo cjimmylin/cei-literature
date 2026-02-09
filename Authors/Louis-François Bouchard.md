@@ -3,7 +3,7 @@ name: "Louis-François Bouchard"
 title: "Founder & AI Researcher"
 affiliation: "What's AI / Polytechnique Montréal"
 highest_degree: "MASc, Polytechnique Montréal"
-email: ""
+email: "jbg@umiacs.umd.edu"
 research_interests:
   - "AI Education"
   - "Transparency in AI"
@@ -45,6 +45,7 @@ He has built a large international community around **What's AI**, providing dee
 
 ## Papers in this Vault
 
+
 - [[2023-Schulhoff-HackAPrompt|HackAPrompt]]
 
 ## External Links & Profiles
@@ -55,4 +56,6 @@ He has built a large international community around **What's AI**, providing dee
 - [Twitter/X](https://twitter.com/whats_ai)
 
 ## Notes
+
+- *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jbg@umiacs.umd.edu
 [Louis-François is a leading voice in AI education and technical literacy.]

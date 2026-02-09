@@ -3,7 +3,7 @@ name: "Alexandra Olteanu"
 title: "Principal Researcher"
 affiliation: "Microsoft Research (FATE)"
 highest_degree: "PhD in Computer Science, EPFL"
-email: ""
+email: "aubrieamstutz@gmail.com"
 research_interests:
   - "Computational Social Science"
   - "Social Computing"
@@ -46,9 +46,8 @@ She is a leading voice in the critical survey of "bias" in NLP, advocating for m
 - [Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries](https://www.microsoft.com/en-us/research/publication/social-data-biases-methodological-pitfalls-and-ethical-boundaries/) (2019) - *A foundational study on the ethics of social data.*
 
 ## Papers in this Vault
-- [[2023-Fleisig-FairPrism|FairPrism]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2023-Fleisig-FairPrism|FairPrism]]
 
 ## External Links & Profiles
 
@@ -62,4 +61,6 @@ She is a leading voice in the critical survey of "bias" in NLP, advocating for m
 - [Twitter/X](https://twitter.com/alextane)
 
 ## Notes
+
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 [Alexandra is a key researcher in the FATE community, bridging technical NLP and social science.]

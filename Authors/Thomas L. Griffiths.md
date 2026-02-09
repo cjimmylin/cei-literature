@@ -1,6 +1,6 @@
 ---
 name: "Thomas L. Griffiths"
-affiliation: "University/Organization"
+affiliation: "Department of Computer Science"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Rane-Concept Alignment|Concept Alignment]]
-- [[2025-Zhu-Steering Risk Preferences in Large Language|Steering Risk Preferences in Large Language]]
+
+- [[2025-Zhu-Steering Risk Preferences in Large Language|Steering Risk Preferences in Large Language]] (Last Author)
+- [[2024-Rane-Concept Alignment|Concept Alignment]] (Last Author)
 
 ## Notes
 
+
+- *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: srane@princeton.edu
 [Additional context or contact information]

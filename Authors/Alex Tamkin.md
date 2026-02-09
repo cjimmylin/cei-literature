@@ -3,7 +3,7 @@ name: "Alex Tamkin"
 title: "Research Scientist"
 affiliation: "Anthropic"
 highest_degree: "PhD in Computer Science (Machine Learning), Stanford University"
-email: ""
+email: "saffron@cip.org"
 research_interests:
   - "Machine Learning"
   - "Natural Language Processing"
@@ -47,6 +47,9 @@ During his doctoral studies, Alex pioneered domain-general benchmarks for self-s
 
 ## Papers in this Vault
 
+
+- [[2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI|Values in the Wild: Discovering and Analyzing Values in Real AI Interactions]]
+- [[2024-Huang-Collective Constitutional AI Aligning a Language Model with Public|Collective Constitutional AI: Aligning a Language Model with Public Input]]
 - [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]]
 
 ## External Links & Profiles
@@ -64,4 +67,6 @@ During his doctoral studies, Alex pioneered domain-general benchmarks for self-s
 - [Twitter/X](https://twitter.com/alextamkin)
 
 ## Notes
+
+- *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: saffron@cip.org
 [Alex is a key bridge between technical NLP at Stanford and the alignment/product teams at Anthropic.]

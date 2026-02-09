@@ -20,8 +20,11 @@ Linxin Song is a second-year CS Ph.D. student at University of Southern Californ
 
 ## Papers in this Vault
 
-- [[2025-Song-The Hallucination Tax of Reinforcement Finetuning|The Hallucination Tax of Reinforcement Finetuning]]
+
+- [[2025-Song-The Hallucination Tax of Reinforcement Finetuning|The Hallucination Tax of Reinforcement Finetuning]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Song-The Hallucination Tax of Reinforcement Finetuning*: Affiliation: University of Southern California
 [Additional context or contact information]

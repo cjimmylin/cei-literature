@@ -9,7 +9,9 @@ type: preprint
 short_title: "GVS-Scale and GVS-Bench: GenAI Value Safety Scale"
 year: 2026
 first_author: "[[Z. He]]"
+last_author: "[[Z. He]]"
 authors: He, Z. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2601.09112"
 external_pdf: "https://arxiv.org/pdf/2601.09112.pdf"
 local_pdf: "[[PDFs/2026/2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[He, Z. et al.]]
+[[Z. He]]
 
 ## Metadata
 

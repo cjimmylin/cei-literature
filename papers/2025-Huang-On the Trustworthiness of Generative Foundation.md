@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "On the Trustworthiness of Generative Foundation"
 year: 2025
 first_author: "[[Yue Huang]]"
+last_author: "[[Xiangliang Zhang]]"
 authors: "Yue Huang; Chujie Gao; Siyuan Wu; Haoran Wang; Xiangqi Wang; Yujun Zhou; Yanbo Wang; Jiayi Ye; Jiawen Shi; Qihui Zhang; Yuan Li; Han Bao; Zhaoyi Liu; Tianrui Guan; Dongping Chen; Ruoxi Chen; Kehan Guo; Andy Zou; Bryan Hooi Kuen-Yew; Caiming Xiong; Elias Stengel-Eskin; Hongyang Zhang; Hongzhi Yin; Huan Zhang; Huaxiu Yao; Jaehong Yoon; Jieyu Zhang; Kai Shu; Kaijie Zhu; Ranjay Krishna; Swabha Swayamdipta; Taiwei Shi; Weijia Shi; Xiang Li; Yiwei Li; Yuexing Hao; Zhihao Jia; Zhize Li; Xiuying Chen; Zhengzhong Tu; Xiyang Hu; Tianyi Zhou; Jieyu Zhao; Lichao Sun; Furong Huang; Or Cohen Sasson; Prasanna Sattigeri; Anka Reuel; Max Lamparth; Yue Zhao; Nouha Dziri; Yu Su; Huan Sun; Heng Ji; Chaowei Xiao; Mohit Bansal; Nitesh V. Chawla; Jian Pei; Jianfeng Gao; Michael Backes; Philip S. Yu; Neil Zhenqiang Gong; Pin-Yu Chen; Bo Li; Dawn Song; Xiangliang Zhang"
 doi: 10.48550/arXiv.2502.14296
 tags: 

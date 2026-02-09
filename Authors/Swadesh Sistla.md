@@ -1,9 +1,9 @@
 ---
 name: "Swadesh Sistla"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Washington"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "maxkw@uw.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Sistla-SPARC Evaluating LLMs in Open-Source Games Strategic Program Analysis|SPARC Evaluating LLMs in Open-Source Games Strategic Program Analysis]]
+- [[2025-Sistla-SPARC Evaluating LLMs in Open-Source Games Strategic Program Analysis|SPARC: Evaluating LLMs in Open-Source Games (Strategic Program Analysis for Reciprocal Cooperation)]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Sistla-SPARC Evaluating LLMs in Open-Source Games Strategic Program Analysis*: Affiliation: University of Washington, Email: maxkw@uw.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

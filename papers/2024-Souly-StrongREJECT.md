@@ -8,6 +8,7 @@ type: journalArticle
 short_title: StrongREJECT
 year: 2025
 first_author: "[[Alexandra Souly]]"
+last_author: "[[Sam Toyer]]"
 authors: "Alexandra Souly; Qingyuan Lu; Dillon Bowen; Tu Trinh; Elvis Hsieh; Sana Pandey; Pieter Abbeel; Justin Svegliato; Scott Emmons; Olivia Watkins; Sam Toyer"
 url: "https://arxiv.org/abs/2402.10260"
 external_pdf: "https://arxiv.org/pdf/2402.10260.pdf"

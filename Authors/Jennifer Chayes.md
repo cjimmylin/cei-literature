@@ -1,6 +1,6 @@
 ---
 name: "Jennifer Chayes"
-affiliation: "University/Organization"
+affiliation: "University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2019-De-Arteaga-Bias in Bios|Bias in Bios]]
 
 ## Notes
 
+
+- *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 [Additional context or contact information]

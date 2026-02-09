@@ -21,8 +21,11 @@ Viacheslav Vasilev is pursuing a PhD in Mathematics and Computer Science at Mosc
 
 ## Papers in this Vault
 
-- [[2025-Vasilev-RusCode|RusCode]]
+
+- [[2025-Vasilev-RusCode|RusCode]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Vasilev-RusCode*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu
 [Additional context or contact information]

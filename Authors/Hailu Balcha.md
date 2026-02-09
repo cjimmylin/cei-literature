@@ -20,8 +20,11 @@ Hailu Balcha is a researcher focused on natural language processing for African 
 
 ## Papers in this Vault
 
+
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
 
 ## Notes
 
+
+- *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 Contributed to the AfriSenti shared task at SemEval, which created sentiment analysis datasets for languages including Amharic, Tigrinya, and Oromo (Ethiopian languages). Published at EMNLP 2023.

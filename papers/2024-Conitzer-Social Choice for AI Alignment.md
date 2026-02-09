@@ -8,6 +8,7 @@ type: preprint
 short_title: "Social Choice for AI Alignment"
 year: 2025
 first_author: "[[Vincent Conitzer]]"
+last_author: "[[Freedman, Rachel]]"
 authors: "[[Conitzer, Vincent]]; [[Freedman, Rachel]]"
 doi: 10.48550/arXiv.2404.10000
 url: "https://arxiv.org/abs/2404.10000"
@@ -37,18 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Vincent Conitzer]], [[Rachel Freedman]]
-## Metadata
-
-**Authors:** [[Vincent Conitzer]]; [[Rachel Freedman]]
-
-**Year:** 2024
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2404.10000](https://doi.org/10.48550/arXiv.2404.10000)
-
-**Publisher:** arXiv
+[[Vincent Conitzer|Conitzer, Vincent]], [[Rachel Freedman|Freedman, Rachel]]
 
 ## Links
 

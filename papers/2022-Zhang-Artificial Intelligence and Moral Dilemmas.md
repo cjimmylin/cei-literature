@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "AI and Moral Dilemmas"
 year: 2025
 first_author: "[[Zaixuan Zhang]]"
+last_author: "[[Liying Xu]]"
 authors: "Zaixuan Zhang; Zhansheng Chen; Liying Xu"
 doi: 10.1016/j.jesp.2022.104327
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0022103122000464"

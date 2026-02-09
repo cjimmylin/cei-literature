@@ -1,6 +1,6 @@
 ---
 name: "T. Oh"
-affiliation: "University/Organization"
+affiliation: "School of AI, POSTECH, Korea"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Moon-BEAF|BEAF]]
+
+- [[2025-Chen-AVHBench|AVHBench]] (Last Author)
+- [[2024-Moon-BEAF|BEAF]] (Last Author)
 
 ## Notes
 
+
+- *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea
 [Additional context or contact information]

@@ -47,7 +47,8 @@ Dr. Bryan's work bridges the gap between clinical medicine and existential philo
 
 ## Papers in this Vault
 
-- [[2025-Bryan-Virtue Ethics and Postponing Human Extinction|Virtue Ethics and Postponing Human Extinction]]
+
+- [[2025-Bryan-Virtue Ethics and Postponing Human Extinction|Virtue Ethics and Postponing Human Extinction]] (First Author)
 
 ## External Links & Profiles
 
@@ -55,4 +56,6 @@ Dr. Bryan's work bridges the gap between clinical medicine and existential philo
 - [University of South Carolina Profile](https://sc.edu/study/colleges_schools/medicine/internal_medicine/faculty/charles_bryan.php)
 
 ## Notes
+
+- *From 2025-Bryan-Virtue Ethics and Postponing Human Extinction*: Affiliation: institute to integrate moral philosophy and patient care
 Charles's perspective is a vital "humanist" check on the AI field, reminding researchers that the safety of the species depends on the moral integrity of the builders and users of technology.

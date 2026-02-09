@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Insights into Moral Reasoning of AI"
 year: 2025
 first_author: "[[Ahmed Sameer]]"
+last_author: "[[Rabiya Fatima]]"
 authors: "[[Sameer, Ahmed]], [[Fatima, Rabiya]]"
 doi: 10.1080/23736992.2025.2553146
 tags: "Computer Science - AI Ethics"
@@ -38,19 +39,6 @@ pdf_extract: "PDF Extracts/2025/2025-Sameer-Insights into Moral Reasoning of AI.
 ## Authors
 
 [[Ahmed Sameer]], [[Rabiya Fatima]]
-## Metadata
-
-**Authors:** Sameer, Ahmed; Fatima, Rabiya
-
-**Year:** 2025
-
-**Type:** journalArticle
-
-**DOI:** [10.1080/23736992.2025.2553146](https://doi.org/10.1080/23736992.2025.2553146)
-
-**Publisher:** Taylor & Francis - Journal of Media Ethics
-
-**Affiliation:** Department of Humanities and Social Science, Indian Institute of Technology Dhanbad, India
 
 ## Links
 

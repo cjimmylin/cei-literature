@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: Do LLMs Have Consistent Values?
 year: 2025
 first_author: "[[Naama Rozen]]"
+last_author: "[[Ella Daniel]]"
 authors: Naama Rozen, Liat Bezalel, Gal Elidan, Amir Globerson, Ella Daniel
 url: "https://arxiv.org/abs/2407.12878"
 external_pdf: "https://arxiv.org/pdf/2407.12878.pdf"
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Naama Rozen, Liat Bezalel, Gal Elidan, Amir Globerson, Ella Daniel]]
+[[Naama Rozen]], [[Liat Bezalel]], [[Gal Elidan]], [[Amir Globerson]], [[Ella Daniel]]
 
 ## Metadata
 

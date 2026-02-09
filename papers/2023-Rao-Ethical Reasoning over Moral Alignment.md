@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "Ethical Reasoning over Moral Alignment"
 year: 2025
 first_author: "[[Abhinav Rao]]"
+last_author: "[[Choudhury, Monojit]]"
 authors: "[[Rao, Abhinav]]; [[Khandelwal, Aditi]]; [[Tanmay, Kumar]]; [[Agarwal, Utkarsh]]; [[Choudhury, Monojit]]"
 doi: 10.18653/v1/2023.findings-emnlp.892
 url: "https://aclanthology.org/2023.findings-emnlp.892/"
@@ -40,22 +41,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Abhinav Rao]], [[Aditi Khandelwal]], [[Kumar Tanmay]], [[Utkarsh Agarwal]], [[Monojit Choudhury]]
-## Metadata
-
-**Authors:** Rao, Abhinav; Khandelwal, Aditi; Tanmay, Kumar; Agarwal, Utkarsh; Choudhury, Monojit
-
-**Year:** 2023
-
-**Publication:** Findings of the Association for Computational Linguistics: EMNLP 2023
-
-**Type:** conferencePaper
-
-**DOI:** [10.18653/v1/2023.findings-emnlp.892](https://doi.org/10.18653/v1/2023.findings-emnlp.892)
-
-**Pages:** 13370-13388
-
-**Publisher:** Association for Computational Linguistics
+[[Abhinav Rao|Rao, Abhinav]], [[Aditi Khandelwal|Khandelwal, Aditi]], [[Kumar Tanmay|Tanmay, Kumar]], [[Utkarsh Agarwal|Agarwal, Utkarsh]], [[Monojit Choudhury|Choudhury, Monojit]]
 
 ## Links
 

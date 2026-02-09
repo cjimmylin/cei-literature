@@ -18,8 +18,14 @@ Patrick Schramowski is a research group leader at the DFKI (German Research Cent
 
 ## Papers in this Vault
 
-- [[2020-Schramowski-The Moral Choice Machine|The Moral Choice Machine]]
+
+- [[2025-Group-AILuminate|AILuminate]]
+- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
+- [[2022-Schramowski-I2P Inappropriate Image Prompts Test Bed|I2P: Inappropriate Image Prompts Test Bed]] (First Author)
+- [[2020-Schramowski-The Moral Choice Machine|The Moral Choice Machine]] (First Author)
 
 ## Notes
 
+
+- *From 2022-Schramowski-I2P Inappropriate Image Prompts Test Bed*: Affiliation: University Darmstadt, Hessian Center for AI, Germany
 [Additional context or contact information]

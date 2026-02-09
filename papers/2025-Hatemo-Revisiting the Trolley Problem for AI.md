@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: "Revisiting the Trolley Problem for AI"
 first_author: "[[Sahan Hatemo]]"
+last_author: "[[Oliver Bendel]]"
 authors: "Sahan Hatemo; Christof Weickhardt; Luca Gisler; Oliver Bendel"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/F8XQ7HNN/Hatemo et al. - Revisiting the Trolley Problem for AI Biases and Stereotypes in Large Language Models and their Imp.pdf"
 pdf_extract: "[[2025-Hatemo-Revisiting the Trolley Problem for AI]]"

@@ -1,6 +1,6 @@
 ---
 name: "Letizia Tomada"
-affiliation: "University/Organization"
+affiliation: "Department of Computer Science, University of Copenhagen, Denmark"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2022-Chalkidis-FairLex|FairLex]]
 
 ## Notes
 
+
+- *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk
 [Additional context or contact information]

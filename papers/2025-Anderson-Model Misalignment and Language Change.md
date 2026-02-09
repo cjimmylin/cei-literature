@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Model Misalignment and Language Change"
 year: 2025
 first_author: "[[Bryce Anderson]]"
+last_author: "[[Tom S. Juzek]]"
 authors: "Bryce Anderson; Riley Galpin; Tom S. Juzek"
 doi: 10.48550/arXiv.2508.00238
 url: "http://arxiv.org/abs/2508.00238"

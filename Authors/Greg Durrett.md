@@ -37,6 +37,7 @@ He has created an NLP module as part of IFML at UT Austin, consisting of videos 
 
 ## Papers in this Vault
 
+
 - [[2025-Jiang-SPARTA ALIGNMENT|SPARTA ALIGNMENT]]
 
 ## Links
@@ -47,4 +48,6 @@ He has created an NLP module as part of IFML at UT Austin, consisting of videos 
 
 ## Notes
 
+
+- *From 2025-Jiang-SPARTA ALIGNMENT*: Affiliation: University of Washington, Email: shangbin@cs.washington.edu
 According to Google Scholar, Durrett has been cited over 9,400 times in the field of Natural Language Processing. His work on text reasoning and understanding contributes to improving how AI systems process and reason about natural language.

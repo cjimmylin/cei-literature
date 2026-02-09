@@ -8,6 +8,7 @@ type: document
 short_title: MARB
 year: 2025
 first_author: "[[Tom Södahl Bladsjö]]"
+last_author: "[[Muñoz Sánchez, Ricardo]]"
 authors: "[[Södahl Bladsjö, Tom]]; [[Muñoz Sánchez, Ricardo]]"
 url: "https://aclanthology.org/2025.gebnlp-1.5/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/95P47V4W/2025 - MARB A Dataset for Studying the Social Dimensions of Reporting Bias in Language Models.pdf"
@@ -36,12 +37,7 @@ local_pdf: "[[PDFs/2025/2025-Södahl Bladsjö-MARB.pdf]]"
 
 ## Authors
 
-[[Tom Södahl Bladsjö]], [[Ricardo Muñoz Sánchez]]
-## Metadata
-
-**Year:** 2025
-
-**Type:** document
+[[Tom Södahl Bladsjö|Södahl Bladsjö, Tom]], [[Ricardo Muñoz Sánchez|Muñoz Sánchez, Ricardo]]
 
 ## Links
 

@@ -33,6 +33,7 @@ Desmond Elliott is an associate professor specializing in multimodal natural lan
 - Multiple papers on multimodal machine translation and image captioning
 
 ## Papers in this Vault
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 
 ## Links

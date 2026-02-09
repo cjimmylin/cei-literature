@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Steering Risk Preferences in Large Language"
 year: 2025
 first_author: "[[Jian-Qiao Zhu]]"
+last_author: "[[Thomas L. Griffiths]]"
 authors: "Jian-Qiao Zhu; Haijiang Yan; Thomas L. Griffiths"
 doi: 10.48550/arXiv.2505.11615
 url: "http://arxiv.org/abs/2505.11615"

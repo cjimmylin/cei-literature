@@ -32,8 +32,11 @@ Eric Bigelow is a Research Scientist at Anthropic, where he works on AI safety a
 
 ## Papers in this Vault
 
-- [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and Safety of Large Language Models]]
+
+- [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 
 ## Notes
 
+
+- *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
 Eric Bigelow's contribution to the foundational challenges paper represents a collaborative effort involving over 40 researchers to map out the critical open problems in AI alignment. This work helps organize and guide future research directions in the field.

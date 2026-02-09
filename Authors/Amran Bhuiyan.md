@@ -20,8 +20,11 @@ Amran Bhuiyan is a researcher affiliated with York University in Canada, working
 
 ## Papers in this Vault
 
+
 - [[2024-Laskar-A Systematic Survey and Critical Review on|A Systematic Survey and Critical Review on]]
 
 ## Notes
 
+
+- *From 2024-Laskar-A Systematic Survey and Critical Review on*: Affiliation: University, §Princess Nourah Bint Abdulrahman University, ‡Nanyang Technological University
 Part of a research team including Jimmy Huang's group at York University focusing on LLM evaluation methodology.

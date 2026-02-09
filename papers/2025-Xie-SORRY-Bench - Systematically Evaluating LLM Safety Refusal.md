@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: SORRY-Bench -- Systematically Evaluating LLM Safety Refusal
 year: 2025
 first_author: "[[T. Xie]]"
+last_author: "[[T. Xie]]"
 authors: Xie, T., et al
+authors_incomplete: true
 url: "https://arxiv.org/abs/2406.14598"
 external_pdf: "https://arxiv.org/pdf/2406.14598.pdf"
 local_pdf: "[[PDFs/2025/2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Xie, T., et al]]
+[[T. Xie]]
 
 ## Metadata
 

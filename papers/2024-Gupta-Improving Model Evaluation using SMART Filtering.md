@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Improving Model Evaluation using SMART Filtering"
 year: 2025
 first_author: "[[Vipul Gupta]]"
+last_author: "[[Adina Williams]]"
 authors: "Vipul Gupta; Candace Ross; David Pantoja; Rebecca J. Passonneau; Megan Ung; Adina Williams"
 doi: 10.48550/arXiv.2410.20245
 url: "http://arxiv.org/abs/2410.20245"

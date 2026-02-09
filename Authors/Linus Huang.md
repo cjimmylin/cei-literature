@@ -1,6 +1,6 @@
 ---
 name: "Linus Huang"
-affiliation: "University/Organization"
+affiliation: "University of Science and Technology"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Biedma-Beyond Human Norms|Beyond Human Norms]]
 
 ## Notes
 
+
+- *From 2024-Biedma-Beyond Human Norms*: Affiliation: University of Science and Technology, Email: linus.huang@ust.hk
 [Additional context or contact information]

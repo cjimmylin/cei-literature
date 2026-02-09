@@ -1,6 +1,6 @@
 ---
 name: "Mirco Musolesi"
-affiliation: "University/Organization"
+affiliation: "University College London"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,10 +17,14 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations|Dynamics of Moral Behavior in Heterogeneous Populations]]
-- [[2024-Tennant-Moral Alignment for LLM Agents|Moral Alignment for LLM Agents]]
-- [[2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents|Hybrid Approaches for Moral Value Alignment in AI Agents]]
+
+- [[2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents|Hybrid Approaches for Moral Value Alignment in AI Agents]] (Last Author)
+- [[2025-Tennant-Moral Alignment for LLM Agents|Moral Alignment for LLM Agents]] (Last Author)
+- [[2025-Tennant-Moral Intrinsic Rewards for Alignment|Moral Intrinsic Rewards for Alignment]] (Last Author)
+- [[2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations|Dynamics of Moral Behavior in Heterogeneous Populations]] (Last Author)
 
 ## Notes
 
+
+- *From 2025-Tennant-Moral Alignment for LLM Agents*: Affiliation: University College London, Email: s.hailes@ucl.ac.uk
 [Additional context or contact information]

@@ -20,8 +20,11 @@ Masahiro Kaneko is a Postdoc at Mohamed bin Zayed University of Artificial Intel
 
 ## Papers in this Vault
 
-- [[2024-Kaneko-Eagle|Eagle]]
+
+- [[2024-Kaneko-Eagle|Eagle]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Kaneko-Eagle*: Affiliation: University of Liverpool, Email: danushka@liverpool.ac.uk
 [Additional context or contact information]

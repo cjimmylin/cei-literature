@@ -3,7 +3,7 @@ name: "Hwaran Lee"
 title: "PhD / Researcher"
 affiliation: "Korea Advanced Institute of Science and Technology (KAIST)"
 highest_degree: "PhD, Electrical Engineering, KAIST"
-email: ""
+email: "hbseong97@gmail.com"
 research_interests:
   - "Natural Language Processing"
   - "Social Bias in AI"
@@ -46,8 +46,10 @@ Lee created two groundbreaking datasets for Korean AI safety: KoSBI, a social bi
 
 ## Papers in this Vault
 
-- [[2023-Lee-KoSBI|KoSBI]]
+
+- [[2026-Lee-BiasJailbreak|BiasJailbreak]] (First Author)
 - [[2024-Lee-KorNAT|KorNAT]]
+- [[2023-Lee-KoSBI|KoSBI]] (First Author)
 
 ## External Links & Profiles
 
@@ -58,4 +60,6 @@ Lee created two groundbreaking datasets for Korean AI safety: KoSBI, a social bi
 
 ## Notes
 
+
+- *From 2026-Lee-BiasJailbreak*:, Email: hbseong97@gmail.com
 Hwaran Lee's work represents critical contributions to Korean sociolinguistics and AI safety research, addressing the unique cultural and linguistic aspects of Korean society and ensuring AI systems are equitable across languages and cultures.

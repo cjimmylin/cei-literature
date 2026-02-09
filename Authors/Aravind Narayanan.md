@@ -44,6 +44,7 @@ twitter: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Raza-HumaniBench|HumaniBench]]
 
 ## External Links & Profiles
@@ -65,4 +66,6 @@ twitter: ""
 - [Twitter/X](URL)
 
 ## Notes
+
+- *From 2025-Raza-HumaniBench*: Affiliation: Institute for Artificial Intelligence, Toronto, Canada
 [Internal notes on collaboration, contact history, or specific expertise relevant to CEI research.]

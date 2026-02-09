@@ -8,6 +8,7 @@ type: book
 short_title: "A Companion to Applied Philosophy of AI"
 year: 2025
 first_author: "[[Martin Hähnel]]"
+last_author: "[[Müller, Regina (eds.)]]"
 authors: "[[Hähnel, Martin]]; [[Müller, Regina (eds.)]]"
 doi: 10.1002/9781119809449
 url: "https://www.wiley.com/en-us/A+Companion+to+Applied+Philosophy+of+AI-p-9781119809"
@@ -34,16 +35,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Martin Hähnel]], [[Regina (eds.) Müller]]
-## Metadata
-
-**Authors:** Hähnel, Martin; Müller, Regina (eds.)
-
-**Year:** 2025
-
-**Type:** edited volume
-
-**Publisher:** Wiley-Blackwell
+[[Martin Hähnel|Hähnel, Martin]], [[Regina (eds.) Müller|Müller, Regina (eds.)]]
 
 ## Links
 

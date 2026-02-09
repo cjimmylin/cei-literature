@@ -45,10 +45,9 @@ He is highly recognized for his work on making differentially private image clas
 - [Unlocking High-Accuracy Differentially Private Image Classification through Scale](https://arxiv.org/abs/2204.13650) (2022) - *A major milestone in practical private ML.*
 
 ## Papers in this Vault
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 - [[2021-Weidinger-Ethical and social risks of harm from Language|Ethical and social risks of harm from Language]]
-
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
 
 ## External Links & Profiles
 
@@ -63,4 +62,6 @@ He is highly recognized for his work on making differentially private image clas
 - [GitHub](https://github.com/borjaballe)
 
 ## Notes
+
+- *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
 [Borja is a key researcher bridging the gap between theoretical privacy and large-scale AI applications.]

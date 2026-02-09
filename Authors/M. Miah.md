@@ -27,3 +27,7 @@ Md Saef Ullah Miah is an Associate Professor in the Department of Computer Scien
 - Website:
 - Google Scholar: https://scholar.google.com/citations?user=E5Wby_AAAAAJ
 - Semantic Scholar:
+
+## Papers in this Vault
+
+- [[2023-Miah-Islam QA|Islam QA]] (First Author)

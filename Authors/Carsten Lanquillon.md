@@ -31,7 +31,8 @@ Prof. Dr.-Ing. Carsten Lanquillon is a Research Professor for Natural Language P
 - Also working on AI for quality problem solving, synthetic data generation, and privacy-preserving enterprise AI
 
 ## Papers in this Vault
-- [[2025-Schacht-Mapping Moral Reasoning Circuits|Mapping Moral Reasoning Circuits: A Mechanistic Analysis of Ethical Decision-Making in Large Language Models]]
+
+- [[2025-Schacht-Mapping Moral Reasoning Circuits|Mapping Moral Reasoning Circuits]] (Last Author)
 
 ## External Links & Profiles
 - [Google Scholar](https://scholar.google.com/citations?user=zNB-I9AAAAAJ&hl=en)
@@ -40,4 +41,6 @@ Prof. Dr.-Ing. Carsten Lanquillon is a Research Professor for Natural Language P
 - [AI GRID Mentor Page](https://ai-grid.org/en/mentor/prof-carsten-lanquillon/)
 
 ## Notes
+
+- *From 2025-Schacht-Mapping Moral Reasoning Circuits*: Affiliation: lable at https://
 Highly relevant to AI ethics through his mechanistic analysis of moral reasoning in LLMs. His research provides empirical evidence for discrete sub-circuits that influence moral outputs in language models, advancing our understanding of how AI systems process ethical considerations. Code and data available at: https://github.com/coairesearch/mapping_moral_reasoning.git

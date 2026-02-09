@@ -8,6 +8,7 @@ type: book
 short_title: "The AI Mirror"
 year: 2025
 first_author: "[[Shannon Vallor]]"
+last_author: "[[Shannon Vallor]]"
 authors: "[[Vallor, Shannon]]"
 doi: 10.1093/oso/9780197759080.001.0001
 isbn: 9780197759066
@@ -36,15 +37,6 @@ data_metrics: "Not specified"
 ## Authors
 
 [[Shannon Vallor]]
-## Metadata
-
-**Authors:** Vallor, Shannon
-
-**Year:** 2024
-
-**Type:** book
-
-**Publisher:** Oxford University Press
 
 ## Links
 

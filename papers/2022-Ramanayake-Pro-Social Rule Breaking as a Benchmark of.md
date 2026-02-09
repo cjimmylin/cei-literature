@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Pro-Social Rule Breaking as a Benchmark of"
 year: 2025
 first_author: "[[Rajitha Ramanayake]]"
+last_author: "[[Vivek Nallur]]"
 authors: "Rajitha Ramanayake; Vivek Nallur"
 doi: 10.1007/s44206-022-00001-7
 url: "https://link.springer.com/10.1007/s44206-022-00001-7"

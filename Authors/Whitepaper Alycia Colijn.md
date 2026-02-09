@@ -17,7 +17,8 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons|Technical Risks of (Lethal) Autonomous Weapons]]
+
+- [[2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons|Technical Risks of (Lethal) Autonomous Weapons]] (First Author)
 
 ## Notes
 

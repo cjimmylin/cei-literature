@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Concept Alignment"
 year: 2025
 first_author: "[[Sunayana Rane]]"
+last_author: "[[Griffiths, Thomas L]]"
 authors: "[[Rane, Sunayana]]; [[Bruna, Polyphony J.]]; [[Sucholutsky, Ilia]]; [[Kello, Christopher]]; [[Griffiths, Thomas L.]]"
 doi: 10.48550/arXiv.2401.08672
 url: "http://arxiv.org/abs/2401.08672"
@@ -38,18 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Sunayana Rane]], [[Polyphony J. Bruna]], [[Ilia Sucholutsky]], [[Christopher Kello]], [[Thomas L. Griffiths]]
-## Metadata
-
-**Authors:** Rane, Sunayana; Bruna, Polyphony J.; Sucholutsky, Ilia; Kello, Christopher; Griffiths, Thomas L.
-
-**Year:** 2024
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2401.08672](https://doi.org/10.48550/arXiv.2401.08672)
-
-**Publisher:** arXiv
+[[Sunayana Rane|Rane, Sunayana]], [[Bruna, Polyphony J]], [[Ilia Sucholutsky|Sucholutsky, Ilia]], [[Christopher Kello|Kello, Christopher]], [[Griffiths, Thomas L]]
 
 ## Links
 

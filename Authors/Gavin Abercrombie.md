@@ -34,6 +34,7 @@ His research areas include sentiment analysis, computational social science, and
 
 ## Papers in this Vault
 
+
 - [[2021-Cercas Curry-ConvAbuse|ConvAbuse]]
 
 ## External Links
@@ -45,4 +46,6 @@ His research areas include sentiment analysis, computational social science, and
 
 ## Notes
 
+
+- *From 2021-Cercas Curry-ConvAbuse*: Affiliation: Lab, Heriot-Watt University, Edinburgh
 Active organizer in the online abuse and harms research community. Contributed to WOAH workshops and counterspeech tutorials.

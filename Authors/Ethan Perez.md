@@ -36,7 +36,9 @@ Co-author on the seminal Constitutional AI paper, which introduced a novel appro
 
 ## Papers in this Vault
 
+
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
+- [[2022-Ganguli-Red Teaming Language Models to Reduce Harms|Red Teaming Language Models to Reduce Harms]]
 
 ## External Links & Profiles
 
@@ -46,4 +48,6 @@ Co-author on the seminal Constitutional AI paper, which introduced a novel appro
 
 ## Notes
 
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 Key researcher at Anthropic and co-author of the Constitutional AI paper. His work on red teaming and safety evaluation has been highly influential in the field.

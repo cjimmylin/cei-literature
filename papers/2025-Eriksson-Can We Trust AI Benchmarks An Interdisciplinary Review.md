@@ -9,6 +9,7 @@ type: preprint
 short_title: Can We Trust AI Benchmarks? An Interdisciplinary Review
 year: 2025
 first_author: "[[Maria Eriksson]]"
+last_author: "[[David Fernandez-Llorca]]"
 authors: Maria Eriksson; Erasmo Purificato; Arman Noroozian; Joao Vinagre; Guillaume Chaslot; Emilia Gomez; David Fernandez-Llorca
 doi: 10.1609/aies.v8i1.36595
 url: "https://arxiv.org/abs/2502.06559"

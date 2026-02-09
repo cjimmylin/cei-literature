@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "The Alignment Problem from a Deep Learning"
 year: 2025
 first_author: "[[Richard Ngo]]"
+last_author: "[[Sören Mindermann]]"
 authors: "Richard Ngo; Lawrence Chan; Sören Mindermann"
 doi: 10.48550/arXiv.2209.00626
 url: "http://arxiv.org/abs/2209.00626"

@@ -8,6 +8,7 @@ type: document
 short_title: CoSafe
 year: 2025
 first_author: "[[Erxin Yu]]"
+last_author: "[[Lanqing Hong]]"
 authors: "Erxin Yu; Jing Li; Ming Liao; Siqi Wang; Zuchen Gao; Fei Mi; Lanqing Hong"
 url: "https://arxiv.org/abs/2406.17626"
 external_pdf: "https://arxiv.org/pdf/2406.17626.pdf"

@@ -1,6 +1,6 @@
 ---
 name: "Zeerak Waseem"
-affiliation: "University/Organization"
+affiliation: "University of Oxford"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2021-Röttger-HateCheck|HateCheck]]
 
 ## Notes
 
+
+- *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
 [Additional context or contact information]

@@ -8,6 +8,7 @@ type: document
 short_title: BetterBench
 year: 2025
 first_author: "[[Anka Reuel]]"
+last_author: "[[Mykel J. Kochenderfer]]"
 authors: "Anka Reuel; Amelia Hardy; Chandler Smith; Max Lamparth; Malcolm Hardy; Mykel J. Kochenderfer"
 url: "https://arxiv.org/abs/2411.12990"
 external_pdf: "https://arxiv.org/pdf/2411.12990.pdf"

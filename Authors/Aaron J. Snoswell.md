@@ -3,7 +3,7 @@ name: "Aaron J. Snoswell"
 title: "Senior Research Fellow"
 affiliation: "Queensland University of Technology (QUT)"
 highest_degree: "PhD in Computer Science, University of Queensland (2022)"
-email: ""
+email: "rayane.elmasri@hdr.qut.edu.au"
 research_interests:
   - "AI Ethics"
   - "AI Accountability"
@@ -45,10 +45,10 @@ His doctoral work introduced new algorithms for Inverse Reinforcement Learning t
 - [Sexism and toxicity in large language models](https://arxiv.org/abs/2301.00000) (2023) - *Research on socio-cultural biases in AI.*
 
 ## Papers in this Vault
-- [[2025-Kilov-Discerning What Matters|Discerning What Matters]]
-- [[2025-El Masri-Towards Attuned AI|Towards Attuned AI]]
 
-- [[2025-Laukkonen-Contemplative Artificial Intelligence|Contemplative Artificial Intelligence]]
+- [[2025-El Masri-Towards Attuned AI|Towards Attuned AI]] (Last Author)
+- [[2025-Kilov-Discerning What Matters|Discerning What Matters]]
+- [[2025-Snoswell-Beyond Verdicts LLM Moral Competence|Beyond Verdicts LLM Moral Competence]] (First Author)
 
 ## External Links & Profiles
 
@@ -64,4 +64,6 @@ His doctoral work introduced new algorithms for Inverse Reinforcement Learning t
 - [Twitter/X](https://twitter.com/aaronsnoswell)
 
 ## Notes
+
+- *From 2025-El Masri-Towards Attuned AI*: Affiliation: University of Technology, Email: rayane.elmasri@hdr.qut.edu.au
 [Aaron is a leading researcher in the Australian AI safety and ethics community.]

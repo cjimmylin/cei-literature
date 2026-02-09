@@ -28,7 +28,8 @@ Connie Tao is a researcher at Google DeepMind who served as one of the leads for
 - Helped establish online evaluation infrastructure for the LLM research community
 
 ## Papers in this Vault
-- [[2025-Jacovi-The FACTS Grounding Leaderboard|The FACTS Grounding Leaderboard: Benchmarking LLMs' Ability to Ground Responses to Long-Form Input]]
+
+- [[2025-Jacovi-The FACTS Grounding Leaderboard|The FACTS Grounding Leaderboard]]
 
 ## External Links & Profiles
 - [FACTS Grounding Leaderboard on Kaggle](https://www.kaggle.com/benchmarks/google/facts-grounding)

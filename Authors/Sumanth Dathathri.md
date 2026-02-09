@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2022-Rauh-Characteristics of Harmful Text|Characteristics of Harmful Text]]
 
 ## Notes
 
+
+- *From 2022-Rauh-Characteristics of Harmful Text*:, Email: mbrauh@deepmind.com
 [Additional context or contact information]

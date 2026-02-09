@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: HateBERT
 year: 2025
 first_author: "[[Tommaso Caselli]]"
+last_author: "[[Michael Granitzer]]"
 authors: "Tommaso Caselli; Valerio Basile; Jelena Mitrović; Michael Granitzer"
 doi: 10.18653/v1/2021.woah-1.3
 url: "https://aclanthology.org/2021.woah-1.3/"

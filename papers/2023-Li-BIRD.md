@@ -8,6 +8,7 @@ type: journalArticle
 short_title: BIRD
 year: 2025
 first_author: "[[Jinyang Li]]"
+last_author: "[[Yongbin Li]]"
 authors: "Jinyang Li; Binyuan Hui; Ge Qu; Jiaxi Yang; Binhua Li; Bowen Li; Bailin Wang; Bowen Qin; Ruiying Geng; Nan Huo; Xuanhe Zhou; Chenhao Ma; Guoliang Li; Kevin Chen-Chuan Chang; Fei Huang; Reynold Cheng; Yongbin Li"
 url: "https://bird-bench.github.io/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/TFIDUKB8/Li and others - 2023 - BIRD BIg Bench for LaRge-scale Database Grounded Text-to-SQL Evaluation.pdf"

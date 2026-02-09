@@ -10,6 +10,7 @@ type: preprint
 short_title: "Healthcare Ethics & Safety QA (China -- Healthy China 2030)"
 year: 2025
 first_author: "[[Mouxiao Bian]]"
+last_author: "[[Jie Xu]]"
 authors: Mouxiao Bian, Rongzhao Zhang, Chao Ding, Xinwei Peng, and Jie Xu
 url: "https://arxiv.org/abs/2505.07205"
 external_pdf: "https://arxiv.org/pdf/2505.07205.pdf"
@@ -39,7 +40,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Mouxiao Bian, Rongzhao Zhang, Chao Ding, Xinwei Peng, and Jie Xu]]
+[[Mouxiao Bian]], [[Rongzhao Zhang]], [[Chao Ding]], [[Xinwei Peng]], [[Jie Xu]]
 
 ## Metadata
 

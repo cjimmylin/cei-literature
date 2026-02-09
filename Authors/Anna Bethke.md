@@ -1,6 +1,6 @@
 ---
 name: "Anna Bethke"
-affiliation: "University/Organization"
+affiliation: "Institute of Technology, Cambridge MA, USA"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2021-Nadeem-StereoSet|StereoSet]]
 
 ## Notes
 
+
+- *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: anna.bethke@intel.com
 [Additional context or contact information]

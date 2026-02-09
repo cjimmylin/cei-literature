@@ -1,6 +1,6 @@
 ---
 name: "Kevin Klyman"
-affiliation: "University/Organization"
+affiliation: "Institute of Technology"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
+- [[2024-Kaiyom-HELM Safety|HELM Safety]]
 - [[2024-Zeng-AIR-Bench 2024|AIR-Bench 2024]]
 
 ## Notes
 
+
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 [Additional context or contact information]

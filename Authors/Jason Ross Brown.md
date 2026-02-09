@@ -26,7 +26,8 @@ He also developed KL-regularised Q-Learning (KLQ), a new action-value RL method 
 
 ## Papers in this Vault
 
-- [[2025-Naik-AgentMisalignment|AgentMisalignment: Evaluating the Propensity of AI Agents for Misalignment]]
+
+- [[2025-Naik-AgentMisalignment|AgentMisalignment]]
 
 ## Notable Contributions
 
@@ -37,5 +38,7 @@ He also developed KL-regularised Q-Learning (KLQ), a new action-value RL method 
 
 ## Notes
 
+
+- *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: javcamposz@hotmail.com
 Brown's research has found that persona characteristics can dramatically and unpredictably influence misalignment tendencies, sometimes far more than the choice of model itself.
 

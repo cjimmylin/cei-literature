@@ -8,6 +8,7 @@ type: document
 short_title: "From Stability to Inconsistency"
 year: 2025
 first_author: "[[Monika Jotautaite]]"
+last_author: "[[Maria Angelica Martinez]]"
 authors: "Monika Jotautaite; Mary Phuong; Chatrik Singh Mangat; Maria Angelica Martinez"
 url: "https://arxiv.org/abs/2504.06324"
 external_pdf: "https://arxiv.org/pdf/2504.06324.pdf"

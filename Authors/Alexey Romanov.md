@@ -31,7 +31,10 @@ Alexey is a key contributor to the "Bias in Bios" project, which provides a comp
 
 ## Papers in this Vault
 
+
 - [[2019-De-Arteaga-Bias in Bios|Bias in Bios]]
 
 ## Notes
+
+- *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 [Focused on moving from data collection to active bias mitigation strategies in NLP pipelines.]

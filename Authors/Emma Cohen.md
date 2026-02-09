@@ -34,7 +34,9 @@ Emma Cohen is Professor of Cognitive Anthropology at the University of Oxford an
 
 ## Papers in this Vault
 
+
 - [[2016-Purzycki-Cross-cultural dataset for the evolution of|Cross-cultural dataset for the evolution of]]
+- [[2016-Purzycki-Religious Belief and the Moral Circle|Religious Belief and the Moral Circle]]
 
 ## External Links
 
@@ -43,4 +45,6 @@ Emma Cohen is Professor of Cognitive Anthropology at the University of Oxford an
 
 ## Notes
 
+
+- *From 2016-Purzycki-Cross-cultural dataset for the evolution of*: Affiliation: Department of Human Behavior, Ecology, and Culture, Max Planck Institute for Evolutionary Anthropology
 Emma Cohen's contribution to cross-cultural datasets on religion and morality provides essential empirical foundations for understanding the evolution of moral and religious cognition.

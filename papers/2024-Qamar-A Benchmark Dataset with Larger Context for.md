@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "A Benchmark Dataset with Larger Context for"
 year: 2025
 first_author: "[[Faiza Qamar]]"
+last_author: "[[Rabia Latif]]"
 authors: "Faiza Qamar; Seemab Latif; Rabia Latif"
 url: "https://arxiv.org/abs/2409.09844"
 external_pdf: "https://arxiv.org/pdf/2409.09844.pdf"

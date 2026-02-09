@@ -46,7 +46,8 @@ He co-authored a spotlight paper at ICLR 2025 titled "INCLUDE," which evaluates 
 
 ## Papers in this Vault
 
-- [[2025-Salazar-Kaleidoscope|Kaleidoscope]] (Note: Verify if this is the correct paper for him, as the filename matches a previous author)
+
+- [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 
 ## External Links & Profiles
 
@@ -55,4 +56,6 @@ He co-authored a spotlight paper at ICLR 2025 titled "INCLUDE," which evaluates 
 - [OpenReview](https://openreview.net/profile?id=~Bardia_Soltani_Moakhar1)
 
 ## Notes
+
+- *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 His work on "Adversarially Robust Video Anomaly Detection" is relevant to the physical security and monitoring aspects of AI safety.

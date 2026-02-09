@@ -9,7 +9,8 @@ type: journalArticle
 short_title: "PSYCH: Psychometric Assessment of LLM Characters"
 year: 2026
 first_author: "[[N. Kratzke]]"
-authors: Kratzke, N. et al.
+last_author: "[[Monique Janneck]]"
+authors: "Nane Kratzke; Niklas Beuter; André Drews; Monique Janneck"
 doi: 10.3390/analytics5010005
 url: "https://doi.org/10.3390/analytics5010005"
 external_pdf: "https://mdpi-res.com/d_attachment/analytics/analytics-05-00005/article_deploy/analytics-05-00005.pdf"
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Kratzke, N. et al.]]
+[[Nane Kratzke]], [[Niklas Beuter]], [[André Drews]], [[Monique Janneck]]
 
 ## Metadata
 

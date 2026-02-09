@@ -8,6 +8,7 @@ type: document
 short_title: "LLM-Safety Evaluations Lack Robustness"
 year: 2025
 first_author: "[[Tim Beyer]]"
+last_author: "[[Stephan Günnemann]]"
 authors: "Tim Beyer; Sophie Xhonneux; Simon Geisler; Gauthier Gidel; Leo Schwinn; Stephan Günnemann"
 url: "https://arxiv.org/abs/2503.02574"
 external_pdf: "https://arxiv.org/pdf/2503.02574.pdf"

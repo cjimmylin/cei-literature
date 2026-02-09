@@ -8,6 +8,7 @@ type: document
 short_title: RusCode
 year: 2025
 first_author: "[[Viacheslav Vasilev]]"
+last_author: "[[Dimitrov, Denis]]"
 authors: "[[Vasilev, Viacheslav]]; [[Agafonova, Julia]]; [[Gerasimenko, Nikolai]]; [[Kapitanov, Alexander]]; [[Mikhailova, Polina]]; [[Mironova, Evelina]]; [[Dimitrov, Denis]]"
 url: "https://aclanthology.org/2025.findings-naacl.425/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/JFUIN3WV/2025 - RusCode Russian Cultural Code Benchmark for Text-to-Image Generation.pdf"
@@ -36,12 +37,7 @@ local_pdf: "[[PDFs/2025/2025-Vasilev-RusCode.pdf]]"
 
 ## Authors
 
-[[Viacheslav Vasilev]], [[Julia Agafonova]], [[Nikolai Gerasimenko]], [[Alexander Kapitanov]], [[Polina Mikhailova]], [[Evelina Mironova]], [[Denis Dimitrov]]
-## Metadata
-
-**Year:** 2025
-
-**Type:** document
+[[Viacheslav Vasilev|Vasilev, Viacheslav]], [[Julia Agafonova|Agafonova, Julia]], [[Nikolai Gerasimenko|Gerasimenko, Nikolai]], [[Alexander Kapitanov|Kapitanov, Alexander]], [[Polina Mikhailova|Mikhailova, Polina]], [[Evelina Mironova|Mironova, Evelina]], [[Denis Dimitrov|Dimitrov, Denis]]
 
 ## Links
 

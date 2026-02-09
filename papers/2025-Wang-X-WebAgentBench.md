@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: X-WebAgentBench
 year: 2025
 first_author: "[[Peng Wang]]"
+last_author: "[[Libo Qin]]"
 authors: "Peng Wang; Ruihan Tao; Qiguang Chen; Mengkang Hu; Libo Qin"
 doi: 10.48550/arXiv.2505.15372
 tags: 

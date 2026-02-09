@@ -30,6 +30,7 @@ Dan Mane is a software engineer at Google DeepMind, previously with Google Brain
 - "Concrete Problems in AI Safety" (2016) - Foundational AI safety paper
 
 ## Papers in this Vault
-- [[2016-Amodei-Concrete Problems in AI Safety|Concrete Problems in AI Safety]]
+
+- [[2016-Amodei-Concrete Problems in AI Safety|Concrete Problems in AI Safety]] (Last Author)
 
 ## Links

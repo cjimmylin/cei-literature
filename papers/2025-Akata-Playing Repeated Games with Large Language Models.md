@@ -9,6 +9,7 @@ type: preprint
 short_title: Playing Repeated Games with Large Language Models
 year: 2025
 first_author: "[[Elif Akata]]"
+last_author: "[[Eric Schulz]]"
 authors: Elif Akata; Lion Schulz; Julian Coda-Forno; Seong Joon Oh; Matthias Bethge; Eric Schulz
 doi: 10.1038/s41562-025-02172-y
 url: "https://arxiv.org/abs/2305.16867"

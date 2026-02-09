@@ -45,6 +45,7 @@ Yan is a co-author of the "Holistic Evaluation of Language Models" (HELM) framew
 
 ## Papers in this Vault
 
+
 - [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]
 
 ## External Links & Profiles
@@ -53,4 +54,6 @@ Yan is a co-author of the "Holistic Evaluation of Language Models" (HELM) framew
 - [Stanford CRFM](https://crfm.stanford.edu/helm/)
 
 ## Notes
+
+- *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: tonyhlee@stanford.edu
 His contribution to the HELM project is essential for the "auditability" of foundation models, which is a key requirement for their ethical and safe deployment.

@@ -17,8 +17,9 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Li-Benchmarking Ethics in Text-to-Image Models|Benchmarking Ethics in Text-to-Image Models]]
+
 - [[2025-Li-T2ISafety|T2ISafety]]
+- [[2024-Li-Benchmarking Ethics in Text-to-Image Models|Benchmarking Ethics in Text-to-Image Models]]
 
 ## Notes
 

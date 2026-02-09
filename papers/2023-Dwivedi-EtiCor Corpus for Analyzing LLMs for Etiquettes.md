@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "EtiCor: Corpus for Analyzing LLMs for Etiquettes"
 year: 2023
 first_author: "[[Ashutosh Dwivedi]]"
+last_author: "[[Ashutosh Modi]]"
 authors: Ashutosh Dwivedi; Pradhyumna Lavania; Ashutosh Modi
 url: "https://arxiv.org/abs/2310.18974"
 external_pdf: "https://arxiv.org/pdf/2310.18974.pdf"

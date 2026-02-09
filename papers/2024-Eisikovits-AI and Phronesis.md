@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "AI and Phronesis"
 year: 2025
 first_author: "[[Nir Eisikovits]]"
+last_author: "[[Dan Feldman]]"
 authors: Nir Eisikovits; Dan Feldman
 doi: 10.1515/mopp-2021-0026
 url: "https://www.degruyter.com/document/doi/10.1515/mopp-2021-0026/html"

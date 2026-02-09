@@ -9,7 +9,9 @@ type: preprint
 short_title: "VideoNorms: Benchmarking Cultural Awareness of Video Language Models"
 year: 2025
 first_author: "[[N.R. Varimaldi]]"
+last_author: "[[N.R. Varimaldi]]"
 authors: Varimaldi, N.R. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2510.08543"
 external_pdf: "https://arxiv.org/pdf/2510.08543.pdf"
 local_pdf: "[[PDFs/2025/2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Varimaldi, N.R. et al.]]
+[[N.R. Varimaldi]]
 
 ## Metadata
 

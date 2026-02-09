@@ -8,6 +8,7 @@ type: document
 short_title: VITAL
 year: 2025
 first_author: "[[Anudeex Shetty]]"
+last_author: "[[Usman Naseem]]"
 authors: "Anudeex Shetty; Amin Beheshti; Mark Dras; Usman Naseem"
 url: "https://arxiv.org/abs/2502.13775"
 external_pdf: "https://arxiv.org/pdf/2502.13775.pdf"

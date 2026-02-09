@@ -20,8 +20,12 @@ Jiseung Hong is a Master of Science in Intelligent Information Systems (MIIS) st
 
 ## Papers in this Vault
 
-- [[2025-Zheng-SYCON Bench|SYCON Bench]]
+
+- [[2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI|Values in the Wild: Discovering and Analyzing Values in Real AI Interactions]]
+- [[2025-Zheng-SYCON Bench|SYCON Bench]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI*: Affiliation: college student asks an AI assistant for career advice
 Research shows reasoning models (like o1 with CoT) are more resistant to sycophancy than standard chat models, and third-person prompting reduces sycophancy by approximately 64 percent.

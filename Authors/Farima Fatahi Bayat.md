@@ -46,7 +46,8 @@ Bayat led the development of FactBench, a dynamic benchmark consisting of 1,000 
 
 ## Papers in this Vault
 
-- [[2024-Bayat-FactBench|FactBench]]
+
+- [[2024-Bayat-FactBench|FactBench]] (First Author)
 
 ## External Links & Profiles
 
@@ -58,4 +59,6 @@ Bayat led the development of FactBench, a dynamic benchmark consisting of 1,000 
 
 ## Notes
 
+
+- *From 2024-Bayat-FactBench*: Affiliation: University of Michigan, Ann Arbor
 Farima Fatahi Bayat's work on FactBench provides critical infrastructure for evaluating LLM factuality in realistic scenarios, addressing the challenge of hallucinations that undermines trust in AI systems.

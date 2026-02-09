@@ -18,8 +18,11 @@ John Li is a researcher at Google working on machine learning and bias mitigatio
 
 ## Papers in this Vault
 
-- [[2018-Dixon-Measuring and Mitigating Unintended Bias in Text|Measuring and Mitigating Unintended Bias in Text Classification]]
+
+- [[2018-Dixon-Measuring and Mitigating Unintended Bias in Text|Measuring and Mitigating Unintended Bias in Text]]
 
 ## Notes
 
+
+- *From 2018-Dixon-Measuring and Mitigating Unintended Bias in Text*: Affiliation: lable, so that bias mitigation, Email: lucyvasserman@google.com
 Part of the Google Jigsaw team working on the Perspective API and Conversation AI project, which aims to improve online discourse through ML-powered content moderation.

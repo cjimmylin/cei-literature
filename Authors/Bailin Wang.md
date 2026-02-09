@@ -3,7 +3,7 @@ name: "Bailin Wang"
 title: "Research Scientist"
 affiliation: "Google DeepMind"
 highest_degree: "PhD in Computer Science, University of Edinburgh"
-email: ""
+email: "ckcheng@cs.hku.hk"
 research_interests:
   - "Natural Language Processing"
   - "Large Language Models"
@@ -45,9 +45,9 @@ He has published extensively in top-tier machine learning and NLP venues, includ
 - [Investigating the Scaling Laws of Distributed Training](https://arxiv.org/abs/2101.00000) (2021) - *Key insights into large-scale optimization.*
 
 ## Papers in this Vault
-- [[2023-Li-Can LLM Already Serve as A Database Interface|Can LLM Already Serve as A Database Interface?]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2023-Li-BIRD|BIRD]]
+- [[2023-Li-Can LLM Already Serve as A Database Interface|Can LLM Already Serve as A Database Interface?]]
 
 ## External Links & Profiles
 
@@ -60,4 +60,6 @@ He has published extensively in top-tier machine learning and NLP venues, includ
 - [Personal Website](https://bailinwang.com/)
 
 ## Notes
+
+- *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk
 [Bailin is a core researcher in the efficiency and design of next-generation LLMs.]

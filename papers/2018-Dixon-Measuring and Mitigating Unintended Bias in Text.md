@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Measuring and Mitigating Unintended Bias in Text"
 year: 2025
 first_author: "[[Lucas Dixon]]"
+last_author: "[[Lucy Vasserman]]"
 authors: "Lucas Dixon; John Li; Jeffrey Sorensen; Nithum Thain; Lucy Vasserman"
 doi: 10.1145/3278721.3278729
 url: "https://dl.acm.org/doi/10.1145/3278721.3278729"

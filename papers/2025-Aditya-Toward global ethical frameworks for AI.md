@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Toward global ethical frameworks for AI"
 year: 2025
 first_author: "[[Shivam Aditya]]"
+last_author: "[[Shivam Aditya]]"
 authors: "[[Aditya, Shivam]]"
 doi: 10.5281/zenodo.XXXXX
 url: "https://wjaets.com/content/toward-global-ethical-frameworks-ai-aligning-artificial-intelligence-human-values-and"
@@ -35,15 +36,6 @@ local_pdf: "[[PDFs/2025/2025-Aditya-Toward global ethical frameworks for AI.pdf]
 ## Authors
 
 [[Shivam Aditya]]
-## Metadata
-
-**Authors:** Aditya, Shivam
-
-**Year:** 2025
-
-**Type:** journal article
-
-**Publisher:** World Journal of Advanced Engineering Technology and Sciences (WJAETS)
 
 ## Links
 

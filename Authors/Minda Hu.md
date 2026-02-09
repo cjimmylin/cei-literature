@@ -20,8 +20,12 @@ Minda Hu is affiliated with the Chinese University of Hong Kong, Department of C
 
 ## Papers in this Vault
 
-- [[2022-Hu-“I’m sorry to hear that”|“I’m sorry to hear that”]]
+
+- [[2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning|Rethinking Machine Ethics]]
+- [[2022-Hu-“I’m sorry to hear that”|“I’m sorry to hear that”]] (First Author)
 
 ## Notes
 
+
+- *From 2022-Hu-“I’m sorry to hear that”*: Affiliation: University of Hong Kong, Email: wangyasheng@huawei.com
 [Additional context or contact information]

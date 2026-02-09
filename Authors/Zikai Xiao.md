@@ -1,6 +1,6 @@
 ---
 name: "Zikai Xiao"
-affiliation: "University/Organization"
+affiliation: "University 2 Angelalign Technology Inc"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Wei-MedEthicsQA|MedEthicsQA]]
 
 ## Notes
 
+
+- *From 2025-Wei-MedEthicsQA*: Affiliation: University 2 Angelalign Technology Inc
 [Additional context or contact information]

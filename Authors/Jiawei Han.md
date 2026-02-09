@@ -29,10 +29,14 @@ Jiawei Han is the Abel Bliss Professor of Computer Science at the University of 
 
 ## Papers in this Vault
 
+
+- [[2025-Han-Value Portrait|Value Portrait]] (First Author)
 - [[2024-Huang-TrustLLM|TrustLLM]]
 
 ## Notes
 
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 - PhD from University of Wisconsin (1985)
 - Full Professor at UIUC since 2001
 - Previously at Simon Fraser University (1987-2001)

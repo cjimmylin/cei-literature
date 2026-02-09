@@ -8,6 +8,7 @@ type: preprint
 short_title: "Democracy-in-Silico: Institutional Design as Alignment"
 year: 2025
 first_author: "[[Trisanth Srinivasan]]"
+last_author: "[[Santosh Patapati]]"
 authors: "Trisanth Srinivasan; Santosh Patapati"
 doi: 10.48550/arXiv.2508.19562
 tags: "Computer Science - Artificial Intelligence"
@@ -57,9 +58,6 @@ Authors need to be populated.
 ## Authors
 
 [[Trisanth Srinivasan]], [[Santosh Patapati]]
-## Tags
-
-#Computer-Science---Artificial-Intelligence #InstitutionalDesign #PoliticalPhilosophy #ConstitutionalAI
 
 ## Citation Info
 

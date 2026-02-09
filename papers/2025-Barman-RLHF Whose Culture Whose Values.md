@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "RLHF Whose Culture Whose Values"
 year: 2025
 first_author: "[[Kristian Gonzalez Barman]]"
+last_author: "[[Henk W. De Regt]]"
 authors: "Kristian Gonzalez Barman; Simon Lohse; Henk W. De Regt"
 doi: 10.1007/s13347-025-00861-0
 url: "https://link.springer.com/article/10.1007/s13347-025-00861-0"

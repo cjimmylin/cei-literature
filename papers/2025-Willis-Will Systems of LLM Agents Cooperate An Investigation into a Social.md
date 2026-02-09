@@ -9,6 +9,7 @@ type: preprint
 short_title: "Will Systems of LLM Agents Cooperate: An Investigation into a Social Dilemma"
 year: 2025
 first_author: "[[Richard Willis]]"
+last_author: "[[Michael Luck]]"
 authors: Richard Willis; Yali Du; Joel Z Leibo; Michael Luck
 url: "https://arxiv.org/abs/2501.16173"
 external_pdf: "https://arxiv.org/pdf/2501.16173.pdf"

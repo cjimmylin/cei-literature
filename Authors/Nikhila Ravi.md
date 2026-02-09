@@ -1,6 +1,6 @@
 ---
 name: "Nikhila Ravi"
-affiliation: "University/Organization"
+affiliation: "lable evaluation set"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2023-Gustafson-FACET|FACET]]
 
 ## Notes
 
+
+- *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 [Additional context or contact information]

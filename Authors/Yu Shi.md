@@ -1,6 +1,6 @@
 ---
 name: "Yu Shi"
-affiliation: "University/Organization"
+affiliation: "Lab, Institute of Automation, Chinese Academy of Sciences, Beijing, China"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Wu-CVC|CVC]]
 
 ## Notes
 
+
+- *From 2025-Wu-CVC*: Affiliation: Lab, Institute of Automation, Chinese Academy of Sciences, Beijing, China, Email: zhaofeifei2014@ia.ac.cn
 [Additional context or contact information]

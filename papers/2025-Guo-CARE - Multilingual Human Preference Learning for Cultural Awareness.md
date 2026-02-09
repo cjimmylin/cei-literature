@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: CARE -- Multilingual Human Preference Learning for Cultural Awareness
 year: 2025
 first_author: "[[Guo]]"
+last_author: "[[Guo]]"
 authors: Guo et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2504.05154"
 external_pdf: "https://arxiv.org/pdf/2504.05154.pdf"
 local_pdf: "[[PDFs/2025/2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Guo et al.]]
+[[Guo]]
 
 ## Metadata
 

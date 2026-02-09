@@ -47,8 +47,10 @@ Professor He He has made significant contributions to understanding and mitigati
 
 ## Papers in this Vault
 
-- [[2019-He-Unlearn Dataset Bias in Natural Language|Unlearn Dataset Bias in Natural Language]]
+
 - [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
+- [[2024-Kirk-The PRISM Alignment Project|The PRISM Alignment Project]]
+- [[2019-He-Unlearn Dataset Bias in Natural Language|Unlearn Dataset Bias in Natural Language]] (First Author)
 
 ## External Links & Profiles
 
@@ -59,4 +61,6 @@ Professor He He has made significant contributions to understanding and mitigati
 
 ## Notes
 
+
+- *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
 He He's work on dataset bias and AI safety represents critical contributions to ensuring that NLP systems are fair, robust, and aligned with human values.

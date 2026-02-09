@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "Many LLMs Are More Utilitarian Than One"
 year: 2025
 first_author: "[[Anita Keshmirian]]"
+last_author: "[[Lav R. Varshney]]"
 authors: "Anita Keshmirian; Razan Baltaji; Babak Hemmatian; Hadi Asghari; Lav R. Varshney"
 doi: 10.48550/arXiv.2507.00814
 url: "http://arxiv.org/abs/2507.00814"

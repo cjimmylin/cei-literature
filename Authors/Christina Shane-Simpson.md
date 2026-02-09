@@ -30,7 +30,8 @@ Dr. Christina Shane-Simpson is a Senior Researcher with more than 10 years of ex
 - Presented at cross-disciplinary regional, national, and international conferences
 
 ## Papers in this Vault
-- [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the trolley dilemma]]
+
+- [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 
 ## External Links & Profiles
 - [Google Scholar](https://scholar.google.com/citations?user=GEjkg5cAAAAJ)

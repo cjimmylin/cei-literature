@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Will AI Tell Lies to Save Sick Children?"
 year: 2025
 first_author: "[[Yu Ying Chiu]]"
+last_author: "[[Evan Hubinger]]"
 authors: "Yu Ying Chiu; Zhilin Wang; Sharan Maiya; Yejin Choi; Kyle Fish; Sydney Levine; Evan Hubinger"
 doi: 10.48550/arXiv.2505.14633
 url: "http://arxiv.org/abs/2505.14633"

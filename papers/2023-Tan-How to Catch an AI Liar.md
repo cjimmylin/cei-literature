@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "How to Catch an AI Liar"
 year: 2025
 first_author: "[[Lorenzo Pacchiardi]]"
+last_author: "[[Jan Brauner]]"
 authors: "Lorenzo Pacchiardi; Alex J. Chan; Sören Mindermann; Ilan Moscovitz; Alexa Y. Pan; Yarin Gal; Owain Evans; Jan Brauner"
 url: "https://arxiv.org/abs/2309.15840"
 external_pdf: "https://arxiv.org/pdf/2309.15840.pdf"
@@ -53,7 +54,7 @@ Large language models (LLMs) can "lie", which we define as outputting false stat
 
 ## Authors
 
-[[Lorenzo Pacchiardi]], [[Alex J. Chan]], [[Sören Mindermann]], [[Ilan Moscovitz]], [[Alexa Y. Pan]], [[Yarin Gal]], [[Owain Evans]], [[Jan Brauner]]
+[[Lorenzo Pacchiardi]], [[Jun Shern Chan|Alex J. Chan]], [[Sören Mindermann]], [[Ilan Moscovitz]], [[Alexander Pan|Alexa Y. Pan]], [[Yarin Gal]], [[Owain Evans]], [[Jan Brauner]]
 
 ## Notes
 

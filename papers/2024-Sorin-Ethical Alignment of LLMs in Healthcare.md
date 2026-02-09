@@ -9,6 +9,7 @@ type: preprint
 short_title: "Ethical Alignment of LLMs in Healthcare"
 year: 2025
 first_author: "[[V. Sorin]]"
+last_author: "[[E. Klang]]"
 authors: "V. Sorin; B.S. Glicksberg; P. Korfiatis; G.N. Nadkarni; E. Klang"
 doi: 10.1101/2024.09.18.24313931
 url: "https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1"

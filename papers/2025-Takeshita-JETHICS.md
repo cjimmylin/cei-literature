@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: JETHICS
 year: 2025
 first_author: "[[Masashi Takeshita]]"
+last_author: "[[Rafal Rzepka]]"
 authors: "Masashi Takeshita; Rafal Rzepka"
 doi: 10.48550/arXiv.2506.16187
 url: "http://arxiv.org/abs/2506.16187"

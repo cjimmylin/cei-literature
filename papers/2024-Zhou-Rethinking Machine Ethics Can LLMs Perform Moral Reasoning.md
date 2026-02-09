@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "Rethinking Machine Ethics"
 year: 2025
 first_author: "[[Jingyan Zhou]]"
+last_author: "[[Helen Meng]]"
 authors: "Jingyan Zhou; Minda Hu; Junan Li; Xiaoying Zhang; Xixin Wu; Irwin King; Helen Meng"
 doi: 10.18653/v1/2024.findings-naacl.144
 url: "https://aclanthology.org/2024.findings-naacl.144/"

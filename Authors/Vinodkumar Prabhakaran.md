@@ -20,10 +20,13 @@ Vinodkumar Prabhakaran is a Staff Research Scientist at Google LLC, specializing
 
 ## Papers in this Vault
 
-- [[2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI|A Human Rights-Based Approach to Responsible AI]]
+
 - [[2023-Aroyo-DICES Dataset|DICES Dataset]]
-- [[2023-Davani-Disentangling Perceptions of Offensiveness|Disentangling Perceptions of Offensiveness]]
+- [[2023-Davani-Disentangling Perceptions of Offensiveness|Disentangling Perceptions of Offensiveness]] (Last Author)
+- [[2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI|A Human Rights-Based Approach to Responsible AI]] (First Author)
 
 ## Notes
 
+
+- *From 2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI*: Affiliation: center the conversation around who is harmed, what harms they face, and how those harms may be
 [Additional context or contact information]

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Ethical and social risks of harm from Language"
 year: 2025
 first_author: "[[Laura Weidinger]]"
+last_author: "[[Iason Gabriel]]"
 authors: "Laura Weidinger; John Mellor; Maribeth Rauh; Conor Griffin; Jonathan Uesato; Po-Sen Huang; Myra Cheng; Mia Glaese; Borja Balle; Atoosa Kasirzadeh; Zac Kenton; Sasha Brown; Will Hawkins; Tom Stepleton; Courtney Biles; Abeba Birhane; Julia Haas; Laura Rimell; Lisa Anne Hendricks; William Isaac; Sean Legassick; Geoffrey Irving; Iason Gabriel"
 doi: 10.48550/arXiv.2112.04359
 url: "http://arxiv.org/abs/2112.04359"

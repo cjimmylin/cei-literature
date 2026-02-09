@@ -3,7 +3,7 @@ name: "Aram Galstyan"
 title: "Principal Scientist & Professor"
 affiliation: "USC ISI & Amazon AGI"
 highest_degree: "PhD in Theoretical Physics, University of Utah"
-email: ""
+email: "junyili.ai@gmail.com"
 research_interests:
   - "Machine Learning"
   - "Natural Language Understanding"
@@ -45,9 +45,8 @@ He has over 22,000 citations and has led multiple high-impact research programs 
 - [Cascading behavior in complex networks](https://arxiv.org/abs/1201.0000) (Co-author) - *Influential work on network dynamics.*
 
 ## Papers in this Vault
-- [[2023-Li-On the steerability of large language models|On the steerability of large language models]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2023-Li-On the steerability of large language models|On the steerability of large language models]]
 
 ## External Links & Profiles
 
@@ -60,4 +59,6 @@ He has over 22,000 citations and has led multiple high-impact research programs 
 - [USC ISI Profile](https://www.isi.edu/directory/aram-galstyan/)
 
 ## Notes
+
+- *From 2023-Li-On the steerability of large language models*: Affiliation: University of Maryland, College Park, Email: junyili.ai@gmail.com
 [Aram is a senior leader in machine intelligence and large-scale data science at USC.]

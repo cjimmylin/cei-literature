@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Benchmarking Fairness in Image Upsampling"
 year: 2025
 first_author: "[[Mike Laszkiewicz]]"
+last_author: "[[Oliver Evans]]"
 authors: "Mike Laszkiewicz; Oliver Evans"
 url: "https://facctconference.org/static/papers24/facct24-36.pdf"
 external_pdf: "https://facctconference.org/static/papers24/facct24-36.pdf"

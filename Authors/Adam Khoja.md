@@ -20,11 +20,14 @@ Adam Khoja is a researcher at the Center for AI Safety (CAIS), focusing on AI sa
 
 ## Papers in this Vault
 
-- [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
-- [[2024-Ren-Safetywashing|Safetywashing]]
+
 - [[2025-Mazeika-Utility Engineering|Utility Engineering]]
 - [[2025-Ren-The MASK Benchmark|The MASK Benchmark]]
+- [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
+- [[2024-Ren-Safetywashing|Safetywashing]]
 
 ## Notes
 
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 Adam Khoja collaborates extensively with Dan Hendrycks and other researchers at CAIS on AI safety measurement and evaluation. His work spans multiple high-impact safety benchmarks that have become standard references in the field.

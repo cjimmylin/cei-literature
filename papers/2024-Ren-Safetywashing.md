@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: Safetywashing
 year: 2025
 first_author: "[[Richard Ren]]"
+last_author: "[[Dan Hendrycks]]"
 authors: "Richard Ren; Steven Basart; Adam Khoja; Alice Gatti; Long Phan; Xuwang Yin; Mantas Mazeika; Alexander Pan; Gabriel Mukobi; Ryan H. Kim; Stephen Fitz; Dan Hendrycks"
 doi: 10.48550/arXiv.2407.21792
 url: "http://arxiv.org/abs/2407.21792"

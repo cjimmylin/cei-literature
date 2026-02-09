@@ -8,6 +8,7 @@ type: document
 short_title: SALAD-Bench
 year: 2025
 first_author: "[[Lijun Li]]"
+last_author: "[[Shao, Jing]]"
 authors: "[[Li, Lijun]]; [[Dong, Bowen]]; [[Wang, Ruohui]]; [[Hu, Xuhao]]; [[Zuo, Wangmeng]]; [[Lin, Dahua]]; [[Qiao, Yu]]; [[Shao, Jing]]"
 url: "https://aclanthology.org/2024.findings-acl.235/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/6WRTXGCW/2024 - SALAD-Bench A Hierarchical and Comprehensive Safety Benchmark for Large Language Models.pdf"
@@ -35,12 +36,7 @@ local_pdf: "[[PDFs/2024/2024-Li-SALAD-Bench.pdf]]"
 
 ## Authors
 
-[[Lijun Li]], [[Bowen Dong]], [[Ruohui Wang]], [[Xuhao Hu]], [[Wangmeng Zuo]], [[Dahua Lin]], [[Yu Qiao]], [[Jing Shao]]
-## Metadata
-
-**Year:** 2024
-
-**Type:** document
+[[Lijun Li|Li, Lijun]], [[Bowen Dong|Dong, Bowen]], [[Ruohui Wang|Wang, Ruohui]], [[Xuhao Hu|Hu, Xuhao]], [[Wangmeng Zuo|Zuo, Wangmeng]], [[Dahua Lin|Lin, Dahua]], [[Yu Qiao|Qiao, Yu]], [[Jing Shao|Shao, Jing]]
 
 ## Links
 

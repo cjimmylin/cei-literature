@@ -1,6 +1,6 @@
 ---
 name: "Ryan H. Kim"
-affiliation: "University/Organization"
+affiliation: "Center for AI Safety 2University of Pennsylvania 3UC Berkeley"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Ren-Safetywashing|Safetywashing]]
 
 ## Notes
 
+
+- *From 2024-Ren-Safetywashing*: Affiliation: Center for AI Safety 2University of Pennsylvania 3UC Berkeley
 [Additional context or contact information]

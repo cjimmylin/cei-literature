@@ -45,9 +45,8 @@ His contribution to the CICERO project demonstrated a major milestone in AI: the
 - [Mastering the Game of Stratego with Model-Free Multiagent Reinforcement Learning](https://arxiv.org/abs/2206.15378) (2022) - *Contributions to complex multi-agent systems.*
 
 ## Papers in this Vault
-- [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]]
 
-- [[2021-Bakhtin-Learning to Speak with a Purpose|Learning to Speak with a Purpose]]
+- [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]]
 
 ## External Links & Profiles
 

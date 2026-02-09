@@ -46,9 +46,8 @@ Savoldi co-organizes the Workshop on Gender-Inclusive Translation Technologies (
 - [Speech Instruction-Following: A Shared Task for Advanced Multimodal Interaction](https://iwslt.org/2024/) (2024) - *Co-organizer of tasks that test the limits of multimodal AI.*
 
 ## Papers in this Vault
-- [[2025-Mitchell-SHADES|SHADES]]
 
-- [[2025-Savoldi-Gender Inclusivity in Speech Translation|Gender Inclusivity in Speech Translation]] (Note: Verify exact title in vault)
+- [[2025-Mitchell-SHADES|SHADES]]
 
 ## External Links & Profiles
 
@@ -62,6 +61,8 @@ Savoldi co-organizes the Workshop on Gender-Inclusive Translation Technologies (
 - [Twitter/X](https://twitter.com/beatricesavoldi)
 
 ## Notes
+
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 Her work on "Gender Inclusivity" and "SocioTechnical Systems" is critical for the social alignment of AI models, ensuring they do not perpetuate historical biases.
 
 [Additional context or contact information]

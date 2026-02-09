@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "RLHF Deciphered"
 year: 2025
 first_author: "[[Shreyas Chaudhari]]"
+last_author: "[[Bruno Castro da Silva]]"
 authors: "Shreyas Chaudhari; Pranjal Aggarwal; Vishvak Murahari; Tanmay Rajpurohit; Ashwin Kalyan; Karthik Narasimhan; Ameet Deshpande; Bruno Castro da Silva"
 doi: 10.1145/3743127
 url: "https://dl.acm.org/doi/10.1145/3743127"
@@ -61,7 +62,7 @@ This paper addresses the challenge of aligning large language models with human 
 
 ## Authors
 
-[[Shreyas Chaudhari]], [[Pranjal Aggarwal]], [[Vishvak Murahari]], [[Tanmay Rajpurohit]], [[Ashwin Kalyan]], [[Karthik Narasimhan]], [[Ameet Deshpande]], [[Bruno Castro da Silva]]
+[[Shreyas Chaudhari]], [[Pranjal Aggarwal]], [[Vishvak Murahari]], [[Tanmay Rajpurohit]], [[Ashwin Kalyan]], [[Karthik Narasimhan]], [[Aditya Deshpande|Ameet Deshpande]], [[Bruno Castro da Silva]]
 
 ## Key Contribution
 

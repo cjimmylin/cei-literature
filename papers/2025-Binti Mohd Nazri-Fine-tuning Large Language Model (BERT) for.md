@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Fine-tuning Large Language Model (BERT) for"
 year: 2025
 first_author: "[[Nurul Aiman Binti Mohd Nazri]]"
+last_author: "[[Bin Amir Hussin, Amir 'Aatieff]]"
 authors: "[[Binti Mohd Nazri, Nurul Aiman]]; [[Binti Omar, A'wathif]]; [[Bin Amir Hussin, Amir 'Aatieff]]"
 doi: 10.31436/ijpcc.v11i1.533
 url: "https://journals.iium.edu.my/kict/index.php/IJPCC/article/view/533"
@@ -36,22 +37,7 @@ local_pdf: "[[PDFs/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (
 
 ## Authors
 
-[[Nurul Aiman Binti Mohd Nazri]], [[A'wathif Binti Omar]], [[Amir 'Aatieff Bin Amir Hussin]]
-## Metadata
-
-**Authors:** Binti Mohd Nazri, Nurul Aiman; Binti Omar, A'wathif; Bin Amir Hussin, Amir 'Aatieff
-
-**Year:** 2025
-
-**Publication:** International Journal on Perceptive and Cognitive Computing
-
-**Type:** journalArticle
-
-**DOI:** [10.31436/ijpcc.v11i1.533](https://doi.org/10.31436/ijpcc.v11i1.533)
-
-**Pages:** 88-94
-
-**Volume/Issue:** Vol. 11, Issue 1
+[[Nurul Aiman Binti Mohd Nazri|Binti Mohd Nazri, Nurul Aiman]], [[A'wathif Binti Omar|Binti Omar, A'wathif]], [[Amir 'Aatieff Bin Amir Hussin|Bin Amir Hussin, Amir 'Aatieff]]
 
 ## Links
 

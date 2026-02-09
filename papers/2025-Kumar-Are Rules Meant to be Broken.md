@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Are Rules Meant to be Broken?"
 year: 2025
 first_author: "[[Shivani Kumar]]"
+last_author: "[[David Jurgens]]"
 authors: "Shivani Kumar; David Jurgens"
 doi: 10.48550/arXiv.2502.14083
 tags: 

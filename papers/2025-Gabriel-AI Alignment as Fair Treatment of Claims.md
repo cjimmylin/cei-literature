@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "AI Alignment as Fair Treatment of Claims"
 year: 2025
 first_author: "[[Iason Gabriel]]"
+last_author: "[[Geoff Keeling]]"
 authors: Iason Gabriel; Geoff Keeling
 doi: 10.1007/s11098-025-02300-4
 url: "https://link.springer.com/article/10.1007/s11098-025-02300-4"

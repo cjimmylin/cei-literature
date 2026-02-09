@@ -1,6 +1,6 @@
 ---
 name: "Mark Riedl"
-affiliation: "University/Organization"
+affiliation: "Institute for Biomedical Informatics"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Nahian-The Goofus & Gallant Story Corpus for Practical|The Goofus & Gallant Story Corpus for Practical]]
 
 ## Notes
 
+
+- *From 2024-Nahian-The Goofus & Gallant Story Corpus for Practical*: Affiliation: Institute for Biomedical Informatics, Email: sa.nahian@uky.edu
 [Additional context or contact information]

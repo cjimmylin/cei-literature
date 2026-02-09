@@ -17,8 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Dubey-Addressing Moral Uncertainty using Large Language|Addressing Moral Uncertainty using Large Language]]
+
+- [[2025-Dubey-Addressing Moral Uncertainty using Large Language|Addressing Moral Uncertainty using Large Language]] (Last Author)
+- [[2025-Mahajan-Mapping Moral Reasoning in LLMs|Mapping Moral Reasoning in LLMs]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Dubey-Addressing Moral Uncertainty using Large Language*:, Email: rohit.dubey@gess.ethz.ch
 [Additional context or contact information]

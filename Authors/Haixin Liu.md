@@ -21,6 +21,7 @@ At Meta, he contributed to fbgemm, achieving greater than 2x performance gains t
 
 ## Papers in this Vault
 
+
 - [[2024-Yu-CMoralEval|CMoralEval]]
 
 ## Links
@@ -30,4 +31,6 @@ At Meta, he contributed to fbgemm, achieving greater than 2x performance gains t
 
 ## Notes
 
+
+- *From 2024-Yu-CMoralEval*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: zn@stu.haut.edu.cn
 Research spans ML systems optimization and NLP applications. Work on fbgemm has been deployed at Facebook/Meta for production inference workloads.

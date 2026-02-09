@@ -21,8 +21,11 @@ Teanna Barrett is a researcher at the University of Washington working on AI fai
 
 ## Papers in this Vault
 
-- [[2023-Barrett-Skin Deep|Skin Deep]]
+
+- [[2023-Barrett-Skin Deep|Skin Deep]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Barrett-Skin Deep*: Affiliation: University of Washington, Email: axz@cs.uw.edu.
 First author on "Skin Deep" published at ACM FAccT 2023, investigating subjectivity in skin tone annotations for computer vision benchmark datasets.

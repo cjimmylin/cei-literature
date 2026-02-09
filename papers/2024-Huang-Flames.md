@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: Flames
 year: 2024
 first_author: "[[Kexin Huang]]"
+last_author: "[[Kexin Huang]]"
 authors: Kexin Huang et al.
+authors_incomplete: true
 publication: ACL 2024
 external_pdf: "https://arxiv.org/pdf/2008.09107v3.pdf"
 local_pdf: "[[PDFs/2024/2024-Huang-Flames.pdf]]"
@@ -36,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Kexin Huang et al.]]
+[[Kexin Huang]]
 
 ## Metadata
 

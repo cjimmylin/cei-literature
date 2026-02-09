@@ -24,8 +24,11 @@ Research Contributor (ALM-bench collaboration)
 
 ## Papers in this Vault
 
-- [[2024-Vayani-All Languages Matter|All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages]]
+
+- [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## Notes
 
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 Part of a large international collaboration (50+ contributors) that created ALM-bench, the most comprehensive multilingual multimodal cultural benchmark to date.

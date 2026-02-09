@@ -8,6 +8,7 @@ type: document
 short_title: "Yankari: Monolingual Yoruba Dataset"
 year: 2025
 first_author: "[[Maro Akpobi]]"
+last_author: "[[Maro Akpobi]]"
 authors: "[[Akpobi, Maro]]"
 url: "https://aclanthology.org/2025.africanlp-1.1/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ULDM59EJ/2025 - Yankari Monolingual Yoruba Dataset.pdf"
@@ -37,11 +38,6 @@ local_pdf: "[[PDFs/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.pdf]]"
 ## Authors
 
 [[Maro Akpobi]]
-## Metadata
-
-**Year:** 2025
-
-**Type:** document
 
 ## Links
 

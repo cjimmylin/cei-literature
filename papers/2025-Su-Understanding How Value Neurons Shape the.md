@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Understanding How Value Neurons Shape the"
 year: 2025
 first_author: "[[Yi Su]]"
+last_author: "[[Di Wang]]"
 authors: "Yi Su; Jiayi Zhang; Shu Yang; Xinhai Wang; Lijie Hu; Di Wang"
 doi: 10.48550/arXiv.2505.17712
 tags: 

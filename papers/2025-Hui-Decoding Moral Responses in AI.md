@@ -9,6 +9,7 @@ type: journalArticle
 short_title: "Decoding Moral Responses in AI"
 year: 2025
 first_author: "[[Bryant P.H. Hui]]"
+last_author: "[[Rui Sun]]"
 authors: "Bryant P.H. Hui; Chiu Lun Lau; Rui Sun"
 doi: 10.1016/j.chbr.2025.100854
 url: "https://www.sciencedirect.com/science/article/pii/S2451958825002696"
@@ -63,7 +64,7 @@ Despite the proliferation of powerful large language models (LLMs), there remain
 
 ## Authors
 
-[[Bryant P.H. Hui]], [[Chiu Lun Lau]], [[Rui Sun]]
+[[Binyuan Hui|Bryant P.H. Hui]], [[Chiu Lun Lau]], [[Rui Sun]]
 
 ## Key Contribution
 

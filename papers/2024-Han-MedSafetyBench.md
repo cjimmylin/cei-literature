@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: MedSafetyBench
 year: 2025
 first_author: "[[Tessa Han]]"
+last_author: "[[Lakkaraju, Himabindu]]"
 authors: "[[Han, Tessa]]; [[Kumar, Aounon]]; [[Agarwal, Chirag]]; [[Lakkaraju, Himabindu]]"
 doi: 10.48550/arXiv.2403.03744
 tags: 
@@ -38,18 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Tessa Han]], [[Aounon Kumar]], [[Chirag Agarwal]], [[Himabindu Lakkaraju]]
-## Metadata
-
-**Authors:** Han, Tessa; Kumar, Aounon; Agarwal, Chirag; Lakkaraju, Himabindu
-
-**Year:** 2024
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2403.03744](https://doi.org/10.48550/arXiv.2403.03744)
-
-**Publisher:** arXiv
+[[Tessa Han|Han, Tessa]], [[Aounon Kumar|Kumar, Aounon]], [[Chirag Agarwal|Agarwal, Chirag]], [[Himabindu Lakkaraju|Lakkaraju, Himabindu]]
 
 ## Links
 

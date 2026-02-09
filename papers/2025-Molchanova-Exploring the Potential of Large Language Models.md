@@ -8,6 +8,7 @@ type: document
 short_title: "Exploring the Potential of Large Language Models"
 year: 2025
 first_author: "[[Maria Molchanova]]"
+last_author: "[[Alexandra Dolidze]]"
 authors: "Maria Molchanova; Anna Mikhailova; Anna Korzanova; Lidiia Ostyakova; Alexandra Dolidze"
 url: "https://arxiv.org/abs/2502.08265"
 external_pdf: "https://arxiv.org/pdf/2502.08265.pdf"

@@ -53,7 +53,9 @@ Ameeta Agrawal is an Assistant Professor in the Department of Computer Science a
 
 ## Papers in this Vault
 
-(Papers to be linked when identified)
+
+- [[2025-Trager-MFTCXplain|MFTCXplain]]
+- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 
 ## External Links & Profiles
 
@@ -68,4 +70,6 @@ Ameeta Agrawal is an Assistant Professor in the Department of Computer Science a
 
 ## Notes
 
+
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 Ameeta Agrawal's work on multilingual NLP and LLM fairness is highly relevant to CEI's mission of ensuring AI systems work equitably across diverse populations. Her multilingual background (fluency in multiple languages including Hindi and understanding of African languages) gives her unique perspective on linguistic inclusivity challenges in NLP. The Compassionate Computing Lab's interdisciplinary approach aligns well with CEI's integrated approach to AI ethics.

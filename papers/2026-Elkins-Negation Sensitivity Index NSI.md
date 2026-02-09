@@ -9,6 +9,7 @@ type: preprint
 short_title: Negation Sensitivity Index (NSI)
 year: 2026
 first_author: "[[K. & Chun Elkins]]"
+last_author: "[[J.]]"
 authors: "Elkins, K. & Chun, J."
 url: "https://arxiv.org/abs/2601.21433"
 external_pdf: "https://arxiv.org/pdf/2601.21433.pdf"
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Elkins, K. & Chun, J.]]
+[[Elkins]], [[K. & Chun]], [[J.]]
 
 ## Metadata
 

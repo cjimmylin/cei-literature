@@ -9,6 +9,7 @@ type: preprint
 short_title: Norm Inconsistency in LLM Decision-Making
 year: 2024
 first_author: "[[Shomik Jain]]"
+last_author: "[[Ashia Wilson]]"
 authors: Shomik Jain; D Calacci; Ashia Wilson
 doi: 10.1609/aies.v7i1.31665
 url: "https://arxiv.org/abs/2405.14812"

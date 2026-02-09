@@ -1,6 +1,6 @@
 ---
 name: "Zachary Seals"
-affiliation: "University/Organization"
+affiliation: "College of Divinity)"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Rusnak-EudAImonia|EudAImonia]]
+
+- [[2025-Rusnak-EudAImonia|EudAImonia]] (Last Author)
 
 ## Notes
 
+
+- *From 2025-Rusnak-EudAImonia*: Affiliation: College of Divinity), Email: contact@iscast.org
 [Additional context or contact information]

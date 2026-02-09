@@ -19,8 +19,11 @@ Diego Alves is a researcher working on natural language processing and explainab
 
 ## Papers in this Vault
 
+
 - [[2025-Trager-MFTCXplain|MFTCXplain]]
 
 ## Notes
 
+
+- *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: jptrager@usc.edu
 Research on explainable NLP and moral foundations in text.

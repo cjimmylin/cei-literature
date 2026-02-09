@@ -9,7 +9,8 @@ type: conferencePaper
 short_title: OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety
 year: 2024
 first_author: "[[C. Li]]"
-authors: Li, C. et al
+last_author: "[[Deyi Xiong]]"
+authors: "Chuang Liu; Linhao Yu; Jiaxuan Li; Renren Jin; Yufei Huang; Ling Shi; Junhui Zhang; Xinmeng Ji; Tingting Cui; Tao Liu; Jinwang Song; Hongying Zan; Sun Li; Deyi Xiong"
 url: "https://arxiv.org/abs/2403.12316"
 external_pdf: "https://arxiv.org/pdf/2403.12316.pdf"
 local_pdf: "[[PDFs/2024/2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and.pdf]]"
@@ -37,7 +38,7 @@ data_metrics: "7 datasets; 6 datasets"
 
 ## Authors
 
-[[Li, C. et al]]
+[[Chuang Liu]], [[Linhao Yu]], [[Jiaxuan Li]], [[Renren Jin]], [[Yufei Huang]], [[Ling Shi]], [[Junhui Zhang]], [[Xinmeng Ji]], [[Tingting Cui]], [[Tianming Liu|Tao Liu]], [[Jinwang Song]], [[Hongying Zan]], [[Sun Li]], [[Deyi Xiong]]
 
 ## Metadata
 

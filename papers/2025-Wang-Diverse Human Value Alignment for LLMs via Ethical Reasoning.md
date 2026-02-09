@@ -8,6 +8,7 @@ type: document
 short_title: "Diverse Human Value Alignment for LLMs via Ethical Reasoning"
 year: 2025
 first_author: "[[Jiahao Wang]]"
+last_author: "[[Wang, Xiaozhen]]"
 authors: "[[Wang, Jiahao]]; [[Xue, Songkai]]; [[Li, Jinghui]]; [[Wang, Xiaozhen]]"
 doi: 10.48550/arXiv.2511.00379
 url: "https://arxiv.org/abs/2511.00379"
@@ -37,20 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Jiahao Wang]], [[Songkai Xue]], [[Jinghui Li]], [[Xiaozhen Wang]]
-## Metadata
-
-**Authors:** Wang, Jiahao; Xue, Songkai; Li, Jinghui; Wang, Xiaozhen
-
-**Year:** 2025
-
-**Type:** document
-
-**DOI:** [10.48550/arXiv.2511.00379](https://doi.org/10.48550/arXiv.2511.00379)
-
-**Publisher:** arXiv
-
-**Publication:** AIES 2025
+[[Jiahao Wang|Wang, Jiahao]], [[Songkai Xue|Xue, Songkai]], [[Jinghui Li|Li, Jinghui]], [[Xiaozhen Wang|Wang, Xiaozhen]]
 
 ## Links
 

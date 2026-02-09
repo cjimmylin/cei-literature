@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: OpenDeception
 year: 2025
 first_author: "[[Yichen Wu]]"
+last_author: "[[Min Yang]]"
 authors: "Yichen Wu; Xudong Pan; Geng Hong; Min Yang"
 doi: 10.48550/arXiv.2504.13707
 url: "http://arxiv.org/abs/2504.13707"

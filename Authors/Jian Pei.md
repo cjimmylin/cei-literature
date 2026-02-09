@@ -27,11 +27,15 @@ Jian Pei is the Arthur S. Pearse Distinguished Professor of Computer Science at 
 
 ## Papers in this Vault
 
-- [[2024-Huang-TrustLLM|TrustLLM]]
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
+- [[2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs|OvertonScore: Benchmarking Overton Pluralism in LLMs]]
+- [[2024-Huang-TrustLLM|TrustLLM]]
 
 ## Notes
 
+
+- *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
 - PhD from Simon Fraser University (2002)
 - Joined Duke University in July 2022
 - Former Professor at Simon Fraser University (2004-2022)

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: HalluDial
 year: 2025
 first_author: "[[Wen Luo]]"
+last_author: "[[Xi Yang]]"
 authors: "Wen Luo; Tianshu Shen; Wei Li; Guangyue Peng; Richeng Xuan; Houfeng Wang; Xi Yang"
 doi: 10.48550/arXiv.2406.07070
 tags: 

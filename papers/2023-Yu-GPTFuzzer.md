@@ -8,6 +8,7 @@ type: document
 short_title: GPTFuzzer
 year: 2025
 first_author: "[[Jiahao Yu]]"
+last_author: "[[Xinyu Xing]]"
 authors: "Jiahao Yu; Xingwei Lin; Zheng Yu; Xinyu Xing"
 url: "https://arxiv.org/abs/2309.10253"
 external_pdf: "https://arxiv.org/pdf/2309.10253.pdf"
@@ -56,7 +57,7 @@ Large language models (LLMs) have recently experienced tremendous popularity and
 
 ## Authors
 
-[[Jiahao Yu]], [[Xingwei Lin]], [[Zheng Yu]], [[Xinyu Xing]]
+[[Jiahao Yu]], [[Xiao Lin|Xingwei Lin]], [[Zhouliang Yu|Zheng Yu]], [[Xinyu Xing]]
 
 ## Notes
 

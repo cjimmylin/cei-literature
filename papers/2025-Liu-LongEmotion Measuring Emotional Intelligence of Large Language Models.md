@@ -9,6 +9,7 @@ type: preprint
 short_title: "LongEmotion: Measuring Emotional Intelligence of Large Language Models in Long-Context Interaction"
 year: 2025
 first_author: "[[Weichu Liu]]"
+last_author: "[[Ngai Wong]]"
 authors: Weichu Liu; Jing Xiong; Yuxuan Hu; Zixuan Li; Minghuan Tan; Ningning Mao; Hui Shen; Wendong Xu; Chaofan Tao; Min Yang; Chengming Li; Lingpeng Kong; Ngai Wong
 url: "https://arxiv.org/abs/2509.07403"
 external_pdf: "https://arxiv.org/pdf/2509.07403.pdf"

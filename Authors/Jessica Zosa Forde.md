@@ -25,10 +25,13 @@ Jessica Zosa Forde is a PhD candidate in Computer Science at Brown University, s
 
 ## Papers in this Vault
 
+
 - [[2025-Mitchell-SHADES|SHADES]]
 
 ## Notes
 
+
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - MS degrees from Harvard University, New York University, and Columbia University
 - Former core-maintainer at Project Jupyter
 - PhD since 2019 at Brown University

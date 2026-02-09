@@ -32,7 +32,7 @@ Cheng Zhang is a researcher and engineer on the GenAI team at Meta. He is deeply
 
 ## Papers in this Vault
 
-- [[2023-Zhang-Heterogeneous Value Alignment Evaluation for|Heterogeneous Value Alignment Evaluation for]]
+
 - [[2025-Bang-HalluLens LLM Hallucination Benchmark|HalluLens: LLM Hallucination Benchmark]]
 
 ## External Links & Profiles
@@ -41,4 +41,6 @@ Cheng Zhang is a researcher and engineer on the GenAI team at Meta. He is deeply
 
 ## Notes
 
+
+- *From 2025-Bang-HalluLens LLM Hallucination Benchmark*:, Email: yjbang@connect.ust.hk
 Cheng Zhang plays a critical role at Meta in bridging the gap between raw LLM capabilities and safe, aligned AI systems.

@@ -1,6 +1,6 @@
 ---
 name: "Yun Shen"
-affiliation: "University/Organization"
+affiliation: "Center for Information Security"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2023-Shen-“Do Anything Now”|“Do Anything Now”]]
 
 ## Notes
 
+
+- *From 2023-Shen-“Do Anything Now”*: Affiliation: Center for Information Security
 [Additional context or contact information]

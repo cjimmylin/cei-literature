@@ -8,6 +8,7 @@ type: journalArticle
 short_title: HarmBench
 year: 2025
 first_author: "[[Mantas Mazeika]]"
+last_author: "[[Dan Hendrycks]]"
 authors: "Mantas Mazeika; Long Phan; Xuwang Yin; Andy Zou; Zifan Wang; Norman Mu; Elham Sakhaee; Nathaniel Li; Steven Basart; Bo Li; David Forsyth; Dan Hendrycks"
 url: "https://arxiv.org/abs/2402.04249"
 external_pdf: "https://arxiv.org/pdf/2402.04249.pdf"

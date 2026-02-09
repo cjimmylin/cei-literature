@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Man is to Computer Programmer as Woman is to"
 year: 2025
 first_author: "[[Tolga Bolukbasi]]"
+last_author: "[[Adam Kalai]]"
 authors: "Tolga Bolukbasi; Kai-Wei Chang; James Zou; Venkatesh Saligrama; Adam Kalai"
 doi: 10.48550/arXiv.1607.06520
 url: "http://arxiv.org/abs/1607.06520"

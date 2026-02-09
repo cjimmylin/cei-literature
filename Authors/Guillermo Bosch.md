@@ -29,6 +29,7 @@ Bosch is a co-author on research related to AI agent misalignment, including wor
 
 ## Papers in this Vault
 
+
 - [[2025-Naik-AgentMisalignment|AgentMisalignment]]
 
 ## Links
@@ -37,4 +38,6 @@ Bosch is a co-author on research related to AI agent misalignment, including wor
 
 ## Notes
 
+
+- *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: javcamposz@hotmail.com
 Bosch's work on AI misalignment detection contributes to the broader effort to ensure that AI systems remain aligned with human values and intentions, a critical challenge as AI capabilities continue to advance.

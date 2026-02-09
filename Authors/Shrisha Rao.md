@@ -1,6 +1,6 @@
 ---
 name: "Shrisha Rao"
-affiliation: "University/Organization"
+affiliation: "Institute of Information Technology - Bangalore"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Priya-Deontic Temporal Logic for Formal Verification of AI Ethics|Deontic Temporal Logic for Formal Verification of AI Ethics]]
+
+- [[2025-Priya-Deontic Temporal Logic for AI Ethics|Deontic Temporal Logic for AI Ethics]] (Last Author)
 
 ## Notes
 
+
+- *From 2025-Priya-Deontic Temporal Logic for AI Ethics*: Affiliation: Institute of Information Technology - Bangalore, Email: priya.tv@iiitb.ac.in
 [Additional context or contact information]

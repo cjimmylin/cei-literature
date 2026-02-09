@@ -32,11 +32,14 @@ Alexander's research tackles the problem of "reward hacking" and inner alignment
 - [The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning](https://arxiv.org/abs/2403.00000) (2024) - *Standardizing bio-security evaluations for LLMs.*
 
 ## Papers in this Vault
-- [[2023-Jiang-MACHIAVELLI|Do the Rewards Justify the Means? Measuring]]
 
 - [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 - [[2024-Ren-Safetywashing|Safetywashing]]
+- [[2023-Jiang-MACHIAVELLI|MACHIAVELLI]] (First Author)
+- [[2023-Tan-How to Catch an AI Liar|How to Catch an AI Liar]]
 
 ## Notes
+
+- *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford
 [A leading technical researcher on the cross-section of behavioral alignment and catastrophic risk prevention.]

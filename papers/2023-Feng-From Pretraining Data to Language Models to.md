@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "From Pretraining Data to Language Models to"
 year: 2025
 first_author: "[[Shangbin Feng]]"
+last_author: "[[Yulia Tsvetkov]]"
 authors: "Shangbin Feng; Chan Young Park; Yuhan Liu; Yulia Tsvetkov"
 doi: 10.48550/arXiv.2305.08283
 tags: 

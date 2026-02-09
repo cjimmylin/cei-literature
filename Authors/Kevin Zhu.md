@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity|Fine-Tuning Language Models for Ethical Ambiguity]]
+
+- [[2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity|Fine-Tuning Language Models for Ethical Ambiguity]] (Last Author)
 
 ## Notes
 
+
+- *From 2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity*:, Email: kevin@algoverse.us
 [Additional context or contact information]

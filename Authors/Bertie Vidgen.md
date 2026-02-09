@@ -46,12 +46,15 @@ He has served as a specialist adviser to the UK Parliament for the Online Safety
 - [Analyzing Online Islamophobia: Computational Approaches](https://oxford.pure.elsevier.com/) (2020) - *PhD Dissertation.*
 
 ## Papers in this Vault
-- [[2024-Röttger-XSTest|XSTest]]
-- [[2021-Röttger-HateCheck|HateCheck]]
-- [[2024-Huang-TrustLLM|TrustLLM]]
-- [[2023-Kirk-SemEval-2023 Task 10|SemEval-2023 Task 10]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2025-Group-AILuminate|AILuminate]]
+- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]] (First Author)
+- [[2024-Huang-TrustLLM|TrustLLM]]
+- [[2024-Kirk-The PRISM Alignment Project|The PRISM Alignment Project]]
+- [[2024-Röttger-XSTest|XSTest]]
+- [[2023-Kirk-SemEval-2023 Task 10|SemEval-2023 Task 10]]
+- [[2022-Röttger-Multilingual HateCheck|Multilingual HateCheck]] (Last Author)
+- [[2021-Röttger-HateCheck|HateCheck]]
 
 ## External Links & Profiles
 
@@ -61,4 +64,6 @@ He has served as a specialist adviser to the UK Parliament for the Online Safety
 - [Alan Turing Institute Profile](https://www.turing.ac.uk/people/researchers/bertie-vidgen)
 
 ## Notes
+
+- *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
 [Bertie is a leading authority on the practical application of AI for online safety and social responsibility.]

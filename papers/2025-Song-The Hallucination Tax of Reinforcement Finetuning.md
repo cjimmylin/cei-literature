@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "The Hallucination Tax of Reinforcement Finetuning"
 year: 2025
 first_author: "[[Linxin Song]]"
+last_author: "[[Jieyu Zhao]]"
 authors: "Linxin Song; Taiwei Shi; Jieyu Zhao"
 url: "https://arxiv.org/abs/2505.13988"
 external_pdf: "https://arxiv.org/pdf/2505.13988.pdf"

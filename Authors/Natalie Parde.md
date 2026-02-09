@@ -1,6 +1,6 @@
 ---
 name: "Natalie Parde"
-affiliation: "University/Organization"
+affiliation: "University of Illinois at Chicago"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2020-Hossu-UIC-NLP at SemEval-2020 Task 10|UIC-NLP at SemEval-2020 Task 10]]
+
 - [[2024-Wong-The Humanistic Buddhism Corpus (HBC)|The Humanistic Buddhism Corpus (HBC)]]
+- [[2020-Hossu-UIC-NLP at SemEval-2020 Task 10|UIC-NLP at SemEval-2020 Task 10]] (Last Author)
 
 ## Notes
 
+
+- *From 2020-Hossu-UIC-NLP at SemEval-2020 Task 10*: Affiliation: University of Illinois at Chicago, Email: parde@uic.edu
 [Additional context or contact information]

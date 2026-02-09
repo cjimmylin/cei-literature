@@ -45,7 +45,8 @@ Aleid introduced Hajj-FQA, a benchmark Arabic dataset specifically designed to d
 
 ## Papers in this Vault
 
-- [[2025-Aleid-Hajj-FQA|Hajj-FQA]]
+
+- [[2025-Aleid-Hajj-FQA|Hajj-FQA]] (First Author)
 
 ## External Links & Profiles
 
@@ -54,4 +55,6 @@ Aleid introduced Hajj-FQA, a benchmark Arabic dataset specifically designed to d
 
 ## Notes
 
+
+- *From 2025-Aleid-Hajj-FQA*: Affiliation: University Computer and Information Sciences          (2025) 37:135
 Hayfa A. Aleid's work on Hajj-FQA represents an important contribution to developing culturally and religiously appropriate AI systems for Arabic-speaking Muslim populations, addressing the intersection of technology and religious practice.

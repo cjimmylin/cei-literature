@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Towards an Automated Islamic Fatwa System"
 year: 2025
 first_author: "[[Amr A. Munshi]]"
+last_author: "[[Majid Majid]]"
 authors: "Amr A. Munshi; Wesam H. AlSabban; Abdullah Tarek Farag; Omar Essam Rakha; Ahmad A. Al Sallab; Ibrahim Alotaibi; Majid Majid"
 doi: 10.47760/ijcsmc.2021.v10i04.017
 url: "https://www.ijcsmc.com/docs/papers/April2021/V10I4202119.pdf"

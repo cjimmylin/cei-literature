@@ -30,6 +30,7 @@ Her work examines statistical approaches to capturing human variation in values 
 
 ## Papers in this Vault
 
+
 - [[2025-Sorensen-Value Profiles for Encoding Human Variation|Value Profiles for Encoding Human Variation]]
 
 ## External Links & Profiles
@@ -38,4 +39,6 @@ Her work examines statistical approaches to capturing human variation in values 
 
 ## Notes
 
+
+- *From 2025-Sorensen-Value Profiles for Encoding Human Variation*: Affiliation: Department of Computer Science, University of Washington, Seattle, WA, USA, Email: tsor13@cs.washington.edu
 Researcher contributing statistical perspectives to AI value alignment, particularly on representing diverse human values.

@@ -32,6 +32,7 @@ He is a member of the Expert Group on Artificial Intelligence of the National Co
 
 ## Papers in this Vault
 
+
 - [[2025-Gounaris-Virtue in the Machine|Virtue in the Machine]]
 
 ## External Links
@@ -42,4 +43,6 @@ He is a member of the Expert Group on Artificial Intelligence of the National Co
 
 ## Notes
 
+
+- *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
 Conducts neuroscientific research on cognitive mechanisms underlying moral reasoning. Member of Greek National Commission on Bioethics and Technoethics.

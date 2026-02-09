@@ -9,6 +9,7 @@ type: preprint
 short_title: "Randomness, Not Representation: The Unreliability of Evaluating Cultural Alignment in LLMs"
 year: 2025
 first_author: "[[Ariba Khan]]"
+last_author: "[[Dylan Hadfield-Menell]]"
 authors: Ariba Khan; Stephen Casper; Dylan Hadfield-Menell
 doi: 10.1145/3715275.3732147
 url: "https://arxiv.org/abs/2503.08688"

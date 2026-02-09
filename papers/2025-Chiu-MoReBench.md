@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: MoReBench
 year: 2025
 first_author: "[[Yu Ying Chiu]]"
+last_author: "[[Levine, Sydney]]"
 authors: "[[Chiu, Yu Ying]]; [[Lee, Michael S.]]; [[Calcott, Rachel]]; [[Handoko, Brandon]]; [[Font-Reaulx, Paul de]]; [[Rodriguez, Paula]]; [[Zhang, Chen Bo Calvin]]; [[Han, Ziwen]]; [[Sehwag, Udari Madhushani]]; [[Maurya, Yash]]; [[Knight, Christina Q.]]; [[Lloyd, Harry R.]]; [[Bacus, Florence]]; [[Mazeika, Mantas]]; [[Liu, Bing]]; [[Choi, Yejin]]; [[Gordon, Mitchell L.]]; [[Levine, Sydney]]"
 doi: 10.48550/arXiv.2510.16380
 url: "http://arxiv.org/abs/2510.16380"
@@ -40,18 +41,7 @@ normative_ethics_benchmark: Yes
 
 ## Authors
 
-[[Yu Ying Chiu]], [[Michael S. Lee]], [[Rachel Calcott]], [[Brandon Handoko]], [[Paul de Font-Reaulx]], [[Paula Rodriguez]], [[Chen Bo Calvin Zhang]], [[Ziwen Han]], [[Udari Madhushani Sehwag]], [[Yash Maurya]], [[Christina Q. Knight]], [[Harry R. Lloyd]], [[Florence Bacus]], [[Mantas Mazeika]], [[Bing Liu]], [[Yejin Choi]], [[Mitchell L. Gordon]], [[Sydney Levine]]
-## Metadata
-
-**Authors:** Chiu, Yu Ying; Lee, Michael S.; Calcott, Rachel; Handoko, Brandon; Font-Reaulx, Paul de; Rodriguez, Paula; Zhang, Chen Bo Calvin; Han, Ziwen; Sehwag, Udari Madhushani; Maurya, Yash; Knight, Christina Q.; Lloyd, Harry R.; Bacus, Florence; Mazeika, Mantas; Liu, Bing; Choi, Yejin; Gordon, Mitchell L.; Levine, Sydney
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2510.16380](https://doi.org/10.48550/arXiv.2510.16380)
-
-**Publisher:** arXiv
+[[Yu Ying Chiu|Chiu, Yu Ying]], [[Lee, Michael S]], [[Rachel Calcott|Calcott, Rachel]], [[Brandon Handoko|Handoko, Brandon]], [[Paul de Font-Reaulx|Font-Reaulx, Paul de]], [[Paula Rodriguez|Rodriguez, Paula]], [[Chen Bo Calvin Zhang|Zhang, Chen Bo Calvin]], [[Ziwen Han|Han, Ziwen]], [[Udari Madhushani Sehwag|Sehwag, Udari Madhushani]], [[Yash Maurya|Maurya, Yash]], [[Knight, Christina Q]], [[Lloyd, Harry R]], [[Florence Bacus|Bacus, Florence]], [[Mantas Mazeika|Mazeika, Mantas]], [[Bing Liu|Liu, Bing]], [[Yejin Choi|Choi, Yejin]], [[Gordon, Mitchell L]], [[Sydney Levine|Levine, Sydney]]
 
 ## Links
 

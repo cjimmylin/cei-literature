@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Kantian deontology for AI"
 year: 2025
 first_author: "[[Oluwaseun D. Sanwoolu]]"
+last_author: "[[Oluwaseun D. Sanwoolu]]"
 authors: "[[Sanwoolu, Oluwaseun D.]]"
 doi: 10.1007/s43681-025-00784-8
 url: "https://link.springer.com/article/10.1007/s43681-025-00784-8"
@@ -37,7 +38,7 @@ local_pdf: "[[PDFs/2025/2025-Sanwoolu-Kantian deontology for AI.pdf]]"
 
 ## Authors
 
-[[Oluwaseun D. Sanwoolu]]
+[[Oluwaseun Damilola Sanwoolu|Oluwaseun D. Sanwoolu]]
 
 ## Metadata
 

@@ -3,7 +3,7 @@ name: "Adam Golinski"
 title: "Research Scientist"
 affiliation: "University of Oxford / Qualcomm AI Research"
 highest_degree: "PhD (In Progress)"
-email: ""
+email: "yinongwa@cs.cmu.edu"
 research_interests:
   - "Uncertainty-Aware Fairness"
   - "LLM Evaluation"
@@ -31,6 +31,7 @@ Adam's research introduces the concept of uncertainty-aware fairness (UCerF). He
 
 ## Papers in this Vault
 
+
 - [[2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware|Is Your Model Fairly Certain? Uncertainty-Aware]]
 
 ## External Links & Profiles
@@ -39,4 +40,6 @@ Adam's research introduces the concept of uncertainty-aware fairness (UCerF). He
 - [Google Scholar](https://scholar.google.com/citations?user=Gn_WcUzAAAAJ)
 
 ## Notes
+
+- *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu
 [Leading thinker on the intersection of probabilistic uncertainty and algorithmic fairness.]

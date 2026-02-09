@@ -34,7 +34,8 @@ Eddie L. Ungless is a PhD researcher at the University of Edinburgh's School of 
 
 ## Papers in this Vault
 
-- [[2024-Ungless-ETHICS WHITEPAPER|ETHICS WHITEPAPER]]
+
+- [[2024-Ungless-ETHICS WHITEPAPER|ETHICS WHITEPAPER]] (First Author)
 
 ## Links
 

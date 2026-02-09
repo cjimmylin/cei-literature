@@ -1,6 +1,6 @@
 ---
 name: "Noah Goodman"
-affiliation: "University/Organization"
+affiliation: "Department, 2MIT, Brain and Cognitive Sciences Department"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Levine-Resource Rational Contractualism Should Guide AI|Resource Rational Contractualism Should Guide AI]]
+
+- [[2025-Levine-Resource Rational Contractualism Should Guide AI Alignment|Resource Rational Contractualism Should Guide AI Alignment]]
 - [[2025-Sorensen-Value Profiles for Encoding Human Variation|Value Profiles for Encoding Human Variation]]
 
 ## Notes
 
+
+- *From 2025-Levine-Resource Rational Contractualism Should Guide AI Alignment*: Affiliation: Department, 2MIT, Brain and Cognitive Sciences Department, Email: smlevine@mit.edu
 [Additional context or contact information]

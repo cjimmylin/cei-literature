@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Morality is Non-Binary"
 year: 2025
 first_author: "[[Jeongwoo Park]]"
+last_author: "[[Murukannaiah, Pradeep K]]"
 authors: "[[Park, Jeongwoo]]; [[Liscio, Enrico]]; [[Murukannaiah, Pradeep K.]]"
 doi: 10.48550/arXiv.2401.17228
 url: "http://arxiv.org/abs/2401.17228"
@@ -38,18 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Jeongwoo Park]], [[Enrico Liscio]], [[Pradeep K. Murukannaiah]]
-## Metadata
-
-**Authors:** Park, Jeongwoo; Liscio, Enrico; Murukannaiah, Pradeep K.
-
-**Year:** 2024
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2401.17228](https://doi.org/10.48550/arXiv.2401.17228)
-
-**Publisher:** arXiv
+[[Jeongwoo Park|Park, Jeongwoo]], [[Enrico Liscio|Liscio, Enrico]], [[Murukannaiah, Pradeep K]]
 
 ## Links
 

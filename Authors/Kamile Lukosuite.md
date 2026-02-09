@@ -1,6 +1,6 @@
 ---
 name: "Kamile Lukosuite"
-affiliation: "University/Organization"
+affiliation: "labels identifying harmful outputs"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
 
 ## Notes
 
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 [Additional context or contact information]

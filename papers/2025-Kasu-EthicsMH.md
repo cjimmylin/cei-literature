@@ -11,6 +11,7 @@ type: preprint
 short_title: EthicsMH
 year: 2025
 first_author: "[[S. K. R Kasu]]"
+last_author: "[[S. K. R Kasu]]"
 authors: Kasu, S. K. R
 url: "https://arxiv.org/abs/2509.11648"
 external_pdf: "https://arxiv.org/pdf/2509.11648.pdf"
@@ -39,7 +40,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Kasu, S. K. R]]
+[[S. K. R Kasu]]
 
 ## Metadata
 

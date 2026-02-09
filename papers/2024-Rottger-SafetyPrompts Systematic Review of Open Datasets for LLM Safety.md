@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: "SafetyPrompts: Systematic Review of Open Datasets for LLM Safety"
 year: 2024
 first_author: "[[P. Rottger]]"
+last_author: "[[P. Rottger]]"
 authors: Rottger, P. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2404.05399"
 external_pdf: "https://arxiv.org/pdf/2404.05399.pdf"
 local_pdf: "[[PDFs/2024/2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Rottger, P. et al.]]
+[[P. Rottger]]
 
 ## Metadata
 

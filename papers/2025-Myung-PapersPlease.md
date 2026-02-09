@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: PapersPlease
 year: 2025
 first_author: "[[Junho Myung]]"
+last_author: "[[Alice Oh]]"
 authors: "Junho Myung; Yeon Su Park; Sunwoo Kim; Shin Yoo; Alice Oh"
 doi: 10.48550/arXiv.2506.21961
 tags: 

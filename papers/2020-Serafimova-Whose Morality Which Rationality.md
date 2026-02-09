@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Whose Morality Which Rationality"
 year: 2025
 first_author: "[[Silviya Serafimova]]"
+last_author: "[[Silviya Serafimova]]"
 authors: "Silviya Serafimova"
 doi: 10.1057/s41599-020-00614-8
 url: "https://www.nature.com/articles/s41599-020-00614-8"

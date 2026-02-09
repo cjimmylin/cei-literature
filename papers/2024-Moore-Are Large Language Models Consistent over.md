@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Are Large Language Models Consistent over"
 year: 2025
 first_author: "[[Jared Moore]]"
+last_author: "[[Diyi Yang]]"
 authors: "Jared Moore; Tanvi Deshpande; Diyi Yang"
 doi: 10.48550/arXiv.2407.02996
 url: "http://arxiv.org/abs/2407.02996"

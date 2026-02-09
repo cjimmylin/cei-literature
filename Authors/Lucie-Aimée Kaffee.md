@@ -1,6 +1,6 @@
 ---
 name: "Lucie-Aimée Kaffee"
-affiliation: "University/Organization"
+affiliation: "Institute for Mathematical Sciences"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Mitchell-SHADES|SHADES]]
+- [[2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop|Probing PLMs for Cross-Cultural Values (C3NLP Workshop)]]
 
 ## Notes
 
+
+- *From 2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop*: Affiliation: Institute for Mathematical Sciences, Email: francois.meyer@uct.ac.za
 [Additional context or contact information]

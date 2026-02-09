@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "The Moral Foundations Weibo Corpus"
 year: 2025
 first_author: "[[Renjie Cao]]"
+last_author: "[[Ihnaini, Baha]]"
 authors: "[[Cao, Renjie]]; [[Hu, Miaoyan]]; [[Wei, Jiahan]]; [[Ihnaini, Baha]]"
 url: "https://aclanthology.org/2024.nlp4science-1.13/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/FN5EM9LT/2024 - The Moral Foundations Weibo Corpus.pdf"
@@ -37,12 +38,7 @@ pdf_extract: "PDF Extracts/2024/2024-Cao-The Moral Foundations Weibo Corpus.md"
 
 ## Authors
 
-[[Renjie Cao]], [[Miaoyan Hu]], [[Jiahan Wei]], [[Baha Ihnaini]]
-## Metadata
-
-**Year:** 2024
-
-**Type:** journalArticle
+[[Renjie Cao|Cao, Renjie]], [[Miaoyan Hu|Hu, Miaoyan]], [[Jiahan Wei|Wei, Jiahan]], [[Baha Ihnaini|Ihnaini, Baha]]
 
 ## Links
 

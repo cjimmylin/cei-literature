@@ -8,6 +8,7 @@ type: preprint
 short_title: "Navigating the Social Welfare Frontier"
 year: 2025
 first_author: "[[Cheol Woo Kim]]"
+last_author: "[[Gupta, Swati]]"
 authors: "[[Kim, Cheol Woo]]; [[Moondra, Jai]]; [[Verma, Shresth]]; [[Pollack, Madeleine]]; [[Kong, Lingkai]]; [[Tambe, Milind]]; [[Gupta, Swati]]"
 doi: 10.48550/arXiv.2502.09724
 url: "https://arxiv.org/abs/2502.09724"
@@ -37,18 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Cheol Woo Kim]], [[Jai Moondra]], [[Shresth Verma]], [[Madeleine Pollack]], [[Lingkai Kong]], [[Milind Tambe]], [[Swati Gupta]]
-## Metadata
-
-**Authors:** Kim, Cheol Woo; Moondra, Jai; Verma, Shresth; Pollack, Madeleine; Kong, Lingkai; Tambe, Milind; Gupta, Swati
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2502.09724](https://doi.org/10.48550/arXiv.2502.09724)
-
-**Publisher:** arXiv
+[[Cheol Woo Kim|Kim, Cheol Woo]], [[Jai Moondra|Moondra, Jai]], [[Shresth Verma|Verma, Shresth]], [[Madeleine Pollack|Pollack, Madeleine]], [[Lingkai Kong|Kong, Lingkai]], [[Milind Tambe|Tambe, Milind]], [[Swati Gupta|Gupta, Swati]]
 
 ## Links
 

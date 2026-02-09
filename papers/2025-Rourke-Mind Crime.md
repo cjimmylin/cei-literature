@@ -8,6 +8,7 @@ type: book
 short_title: "Mind Crime"
 year: 2025
 first_author: "[[Nathan Rourke]]"
+last_author: "[[Nathan Rourke]]"
 authors: "[[Rourke, Nathan]]"
 doi: N/A
 url: "https://www.goodreads.com/book/show/226055728-mind-crime"
@@ -34,15 +35,6 @@ local_pdf: N/A
 ## Authors
 
 [[Nathan Rourke]]
-## Metadata
-
-**Authors:** Rourke, Nathan
-
-**Year:** 2025
-
-**Type:** book
-
-**Publisher:** Independent (April 2025)
 
 ## Links
 

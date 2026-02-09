@@ -6,6 +6,7 @@ type: preprint
 short_title: "The Virtuous Machine"
 year: 2025
 first_author: "[[Nicolas Berberich]]"
+last_author: "[[Diepold, Klaus]]"
 authors: "[[Berberich, Nicolas]]; [[Diepold, Klaus]]"
 doi: N/A
 url: "https://arxiv.org/abs/1806.10322"
@@ -34,7 +35,7 @@ publication: arXiv
 
 ## Authors
 
-[[Nicolas Berberich]], [[Klaus Diepold]]
+[[Berberich, Nicolas]], [[Diepold, Klaus]]
 
 ## Metadata
 

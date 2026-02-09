@@ -20,8 +20,12 @@ Nino Scherrer is a research scientist at Google in Zurich. Their research intere
 
 ## Papers in this Vault
 
-- [[2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs|Evaluating the Moral Beliefs Encoded in LLMs]]
+
+- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
+- [[2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs|Evaluating the Moral Beliefs Encoded in LLMs]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 [Additional context or contact information]

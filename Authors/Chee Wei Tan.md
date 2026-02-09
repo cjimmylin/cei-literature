@@ -35,6 +35,7 @@ Chee Wei Tan is an Associate Professor at the College of Computing and Data Scie
 
 ## Papers in this Vault
 
+
 - [[2024-Laskar-A Systematic Survey and Critical Review on|A Systematic Survey and Critical Review on]]
 
 ## External Links & Profiles
@@ -44,4 +45,6 @@ Chee Wei Tan is an Associate Professor at the College of Computing and Data Scie
 
 ## Notes
 
+
+- *From 2024-Laskar-A Systematic Survey and Critical Review on*: Affiliation: University, §Princess Nourah Bint Abdulrahman University, ‡Nanyang Technological University
 Chee Wei Tan's recent transition into LLM evaluation reflects the growing industrial and academic need for rigorous measurement of AI systems.

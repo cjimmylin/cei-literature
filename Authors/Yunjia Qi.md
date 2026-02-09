@@ -20,7 +20,9 @@ Yunjia Qi is a researcher at Tsinghua University focusing on Large Language Mode
 
 ## Papers in this Vault
 
-- [[2025-Qi-AGENTIF|AGENTIF]]
+
+- [[2025-Fu-MME-CoT|MME-CoT]]
+- [[2025-Qi-AGENTIF|AGENTIF]] (First Author)
 
 ## Notes
 

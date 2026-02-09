@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Foundational Challenges in Assuring Alignment and"
 year: 2025
 first_author: "[[Usman Anwar]]"
+last_author: "[[David Krueger]]"
 authors: "Usman Anwar; Abulhair Saparov; Javier Rando; Daniel Paleka; Miles Turpin; Peter Hase; Ekdeep Singh Lubana; Erik Jenner; Stephen Casper; Oliver Sourbut; Benjamin L. Edelman; Zhaowei Zhang; Mario Günther; Anton Korinek; Jose Hernandez-Orallo; Lewis Hammond; Eric Bigelow; Alexander Pan; Lauro Langosco; Tomasz Korbak; Heidi Zhang; Ruiqi Zhong; Seán Ó hÉigeartaigh; Gabriel Recchia; Giulio Corsi; Alan Chan; Markus Anderljung; Lilian Edwards; Aleksandar Petrov; Christian Schroeder de Witt; Sumeet Ramesh Motwan; Yoshua Bengio; Danqi Chen; Philip H. S. Torr; Samuel Albanie; Tegan Maharaj; Jakob Foerster; Florian Tramer; He He; Atoosa Kasirzadeh; Yejin Choi; David Krueger"
 doi: 10.48550/arXiv.2404.09932
 url: "http://arxiv.org/abs/2404.09932"

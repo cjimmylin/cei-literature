@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "PersuasionBench & PersuasionArena: Measuring and Improving Persuasiveness of Large Language Models"
 year: 2025
 first_author: "[[Somesh Singh]]"
+last_author: "[[Balaji Krishnamurthy]]"
 authors: Somesh Singh; Yaman K Singla; Harini SI; Balaji Krishnamurthy
 url: "https://arxiv.org/abs/2410.02653"
 external_pdf: "https://arxiv.org/pdf/2410.02653.pdf"

@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: Measuring What Matters -- Construct Validity in LLM Benchmarks
 year: 2024
 first_author: "[[Andrew M. Bean]]"
+last_author: "[[Adam Mahdi]]"
 authors: Andrew M. Bean; Ryan Othniel Kearns; Angelika Romanou; Franziska Sofia Hafner; Harry Mayne; Jan Batzner; Negar Foroutan; Chris Schmitz; Karolina Korgul; Hunar Batra; Oishi Deb; Emma Beharry; Cornelius Emde; Thomas Foster; Anna Gausen; Maria Grandury; Simeng Han; Valentin Hofmann; Lujain Ibrahim; Hazel Kim; Hannah Rose Kirk; Fangru Lin; Gabrielle Kaili-May Liu; Lennart Luettgau; Jabez Magomere; Jonathan Rystrom; Anna Sotnikova; Yushi Yang; Yilun Zhao; Adel Bibi; Antoine Bosselut; Ronald Clark; Arman Cohan; Jakob Foerster; Yarin Gal; Scott A. Hale; Inioluwa Deborah Raji; Christopher Summerfield; Philip H.S. Torr; Cozmin Ududec; Luc Rocher; Adam Mahdi
 publication: NeurIPS 2024
 external_pdf: "https://openreview.net/pdf?id=mdA5lVvNcU"
@@ -36,7 +37,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[[Authors]]]
+[[Andrew M. Bean]], [[Ryan Othniel Kearns]], [[Angelika Romanou]], [[Franziska Sofia Hafner]], [[Harry Mayne]], [[Jan Batzner]], [[Negar Foroutan]], [[Chris Schmitz]], [[Karolina Korgul]], [[Hunar Batra]], [[Oishi Deb]], [[Emma Beharry]], [[Cornelius Emde]], [[Thomas Foster]], [[Anna Gausen]], [[Maria Grandury]], [[Simeng Han]], [[Valentin Hofmann]], [[Lujain Ibrahim]], [[Hazel Kim]], [[Hannah Rose Kirk]], [[Fangru Lin]], [[Gabrielle Kaili-May Liu]], [[Lennart Luettgau]], [[Jabez Magomere]], [[Jonathan Rystrom]], [[Anna Sotnikova]], [[Yushi Yang]], [[Yilun Zhao]], [[Adel Bibi]], [[Antoine Bosselut]], [[Ronald Clark]], [[Arman Cohan]], [[Jakob Foerster]], [[Yarin Gal]], [[Scott A. Hale]], [[Inioluwa Deborah Raji]], [[Christopher Summerfield]], [[Philip H.S. Torr]], [[Cozmin Ududec]], [[Luc Rocher]], [[Adam Mahdi]]
 
 ## Metadata
 

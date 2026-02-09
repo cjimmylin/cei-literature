@@ -20,6 +20,5 @@ Kim Sung-Bin is a Ph.D. student at POSTECH (Pohang University of Science and Tec
 
 ## Papers in this Vault
 
-## Notes
 
-[Additional context or contact information]
+- [[2025-Chen-AVHBench|AVHBench]] (First Author)

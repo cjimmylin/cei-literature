@@ -19,8 +19,11 @@ Akhila Yerukola is a researcher at the Language Technologies Institute at Carneg
 
 ## Papers in this Vault
 
-- [[2025-Rao-NormAd|NormAd: A Framework for Measuring the Cultural Adaptability of Large Language Models]]
+
+- [[2025-Rao-NormAd|NormAd]]
 
 ## Notes
 
+
+- *From 2025-Rao-NormAd*: Affiliation: Institute, Carnegie Mellon University, Email: reinecke@cs.washington.edu
 Email: ayerukol@cs.cmu.edu. Co-first author on NormAd (NAACL 2025), which introduced NormAd-Eti benchmark with 2.6k norms from 75 countries. Research shows LLMs struggle with cultural adaptability, especially for Global South cultures.

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Analyzing Cognitive Differences Among Large"
 year: 2025
 first_author: "[[Jiatao Li]]"
+last_author: "[[Xiaojun Wan]]"
 authors: "Jiatao Li; Yanheng Li; Xiaojun Wan"
 doi: 10.48550/arXiv.2505.01967
 url: "http://arxiv.org/abs/2505.01967"

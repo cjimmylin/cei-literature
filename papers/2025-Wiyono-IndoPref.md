@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: IndoPref
 year: 2025
 first_author: "[[Vanessa Rebecca Wiyono]]"
+last_author: "[[Genta Indra Winata]]"
 authors: "Vanessa Rebecca Wiyono; David Anugraha; Ayu Purwarianti; Genta Indra Winata"
 doi: 10.48550/arXiv.2507.22159
 url: "http://arxiv.org/abs/2507.22159"

@@ -46,9 +46,8 @@ He has been a member of the United Nations Privacy Task Force and has significan
 - [PySyft: A Library for Easy Federated Learning](https://arxiv.org/abs/1811.04017) (2018) - *Introduced a high-level library for privacy-preserving AI.*
 
 ## Papers in this Vault
-- [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
 ## External Links & Profiles
 
@@ -65,4 +64,6 @@ He has been a member of the United Nations Privacy Task Force and has significan
 - [Twitter/X](https://twitter.com/iamtrask)
 
 ## Notes
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 [Andrew is the leading advocate for technical privacy solutions in AI.]

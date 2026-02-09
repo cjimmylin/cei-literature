@@ -9,7 +9,9 @@ type: preprint
 short_title: Reward Model Perspectives on Demographic Alignment (Elle et al.)
 year: 2025
 first_author: "[[S. Elle]]"
+last_author: "[[S. Elle]]"
 authors: Elle, S. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2510.06391"
 external_pdf: "https://arxiv.org/pdf/2510.06391.pdf"
 local_pdf: "[[PDFs/2025/2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Elle, S. et al.]]
+[[S. Elle]]
 
 ## Metadata
 

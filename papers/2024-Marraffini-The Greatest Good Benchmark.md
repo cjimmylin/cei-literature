@@ -9,6 +9,7 @@ type: journalArticle
 short_title: "The Greatest Good Benchmark"
 year: 2025
 first_author: "[[Giovanni Franco Gabriel Marraffini]]"
+last_author: "[[Luciano Del Corro]]"
 authors: "Giovanni Franco Gabriel Marraffini; Andrés Cotton; Noe Fabian Hsueh; Axel Fridman; Juan Wisznia; Luciano Del Corro"
 doi: 10.18653/v1/2024.emnlp-main.1224
 url: "https://aclanthology.org/2024.emnlp-main.1224/"

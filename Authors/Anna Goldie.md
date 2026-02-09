@@ -46,9 +46,8 @@ Her work on using RL for chip design, published in *Nature*, demonstrated that A
 - [Chip Placement with Deep Reinforcement Learning](https://arxiv.org/abs/2004.10746) (2020) - *Foundational work on AlphaChip.*
 
 ## Papers in this Vault
-- [[2022-Bai-Constitutional AI|Constitutional AI]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2022-Bai-Constitutional AI|Constitutional AI]]
 
 ## External Links & Profiles
 
@@ -62,4 +61,6 @@ Her work on using RL for chip design, published in *Nature*, demonstrated that A
 - [Twitter/X](https://twitter.com/annabgoldie)
 
 ## Notes
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 [Anna is a visionary researcher at the intersection of AI, hardware, and scaled systems.]

@@ -8,6 +8,7 @@ type: document
 short_title: CogniModal-D
 year: 2025
 first_author: "[[V. Pérez-Rosas]]"
+last_author: "[[V. Pérez-Rosas]]"
 authors: "V. Pérez-Rosas"
 url: "https://pubmed.ncbi.nlm.nih.gov/40089524/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/UQBMYCDW/Pérez-Rosas and others - 2024 - CogniModal-D A Multimodal Deception Detection Dataset.pdf"

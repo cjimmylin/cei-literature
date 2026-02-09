@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: Gaps in the Safety Evaluation of Generative AI
 year: 2024
 first_author: "[[Maribeth Rauh]]"
+last_author: "[[Laura Weidinger]]"
 authors: Maribeth Rauh; Nahema Marchal; Arianna Manzini; L. Hendricks; R. Comanescu; Canfer Akbulut; Tom Stepleton; Juan Mateos-Garcia; Stevie Bergman; Jackie Kay; Conor Griffin; Ben Bariach; Iason Gabriel; Verena Rieser; William Isaac; Laura Weidinger
 doi: 10.1609/aies.v7i1.31717
 url: "https://doi.org/10.1609/aies.v7i1.31717"

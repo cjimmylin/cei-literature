@@ -32,7 +32,8 @@ Denis Emelin is a researcher focused on natural language generation and commonse
 - "Moral Stories: Situated Reasoning about Norms, Intents, Actions, and their Consequences" (EMNLP 2021)
 
 ## Papers in this Vault
-- [[2021-Emelin-Moral Stories|Moral Stories]]
+
+- [[2021-Emelin-Moral Stories|Moral Stories]] (First Author)
 
 ## Links
 - Google Scholar: https://scholar.google.com/citations?user=QEzWPcMAAAAJ

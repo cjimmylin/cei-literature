@@ -34,7 +34,7 @@ Emily Sheng is a Research Scientist at Microsoft Research, specializing in fairn
 
 ## Papers in this Vault
 
-- [[2023-Guo-COBBLER|Benchmarking Cognitive Biases in Large Language]]
+
 - [[2023-Fleisig-FairPrism|FairPrism]]
 
 ## External Links
@@ -44,4 +44,6 @@ Emily Sheng is a Research Scientist at Microsoft Research, specializing in fairn
 
 ## Notes
 
+
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 Emily Sheng is a leading researcher in AI fairness, with significant contributions to understanding and addressing biases in language generation systems.

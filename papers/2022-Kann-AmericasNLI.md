@@ -8,6 +8,7 @@ type: journalArticle
 short_title: AmericasNLI
 year: 2025
 first_author: "[[Katharina Kann]]"
+last_author: "[[Ngoc Thang Vu]]"
 authors: "Katharina Kann; Abteen Ebrahimi; Manuel Mager; Arturo Oncevay; John E. Ortega; Annette Rios; Angela Fan; Ximena Gutierrez-Vasques; Luis Chiruzzo; Gustavo A. Giménez-Lugo; Ricardo Ramos; Ivan Vladimir Meza Ruiz; Elisabeth Mager; Vishrav Chaudhary; Graham Neubig; Alexis Palmer; Rolando Coto-Solano; Ngoc Thang Vu"
 doi: 10.3389/frai.2022.995667
 url: "https://www.frontiersin.org/articles/10.3389/frai.2022.995667/full"

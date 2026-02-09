@@ -1,6 +1,6 @@
 ---
 name: "Wei Fan"
-affiliation: "University/Organization"
+affiliation: "University of Science and Technology"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+- [[2025-Jing-MASLegalBench|MASLegalBench]]
 - [[2025-Lin-MORALISE|MORALISE]]
 
 ## Notes
 
+
+- *From 2025-Jing-MASLegalBench*: Affiliation: University of Science and Technology, Email: hjingaa@connect.ust.hk
 [Additional context or contact information]

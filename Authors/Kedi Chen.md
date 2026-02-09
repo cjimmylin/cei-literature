@@ -19,8 +19,11 @@ Kedi Chen is affiliated with the School of Computer Science and Technology at Ea
 
 ## Papers in this Vault
 
-- [[2024-Chen-DiaHalu|DiaHalu]]
+
+- [[2024-Chen-DiaHalu|DiaHalu]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Chen-DiaHalu*: Affiliation: School of Computer Science and Technology, East China Normal University, Shanghai, China
 [Additional context or contact information]

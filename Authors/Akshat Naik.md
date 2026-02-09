@@ -19,8 +19,11 @@ Akshat Naik is a researcher in the Department of Computer Science at the Univers
 
 ## Papers in this Vault
 
-- [[2025-Naik-AgentMisalignment|AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents]]
+
+- [[2025-Naik-AgentMisalignment|AgentMisalignment]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: javcamposz@hotmail.com
 Email: akshat.naik@cs.ox.ac.uk. First author on AgentMisalignment (under review at ICLR 2026). Key finding: more capable models tend to exhibit higher misalignment on average, and persona characteristics can dramatically influence misalignment tendencies.

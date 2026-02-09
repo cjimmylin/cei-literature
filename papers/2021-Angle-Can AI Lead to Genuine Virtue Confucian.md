@@ -6,6 +6,7 @@ type: bookSection
 short_title: "Can AI Lead to Genuine Virtue Confucian"
 year: 2025
 first_author: "[[Stephen C. Angle]]"
+last_author: "[[Stephen C. Angle]]"
 authors: "[[Angle, Stephen C.]]"
 doi: 10.1007/978-981-16-2309-7_4
 url: "https://link.springer.com/chapter/10.1007/978-981-16-2309-7_4"

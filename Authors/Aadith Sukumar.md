@@ -44,9 +44,8 @@ As a research intern at the Symbiosis Center for Applied Artificial Intelligence
 - [Adversarial Debiasing of Machine Learning models in Network Security](https://ieeexplore.ieee.org/document/10101010) (2024) - *Research on fairness and robustness in cybersecurity.*
 
 ## Papers in this Vault
-- [[2025-Joshi-Multimodal machine learning for deception|Multimodal machine learning for deception]]
 
-- [[2025-Sukumar-Multimodal Neurophysiological Framework for|Multimodal Neurophysiological Framework for]]
+- [[2025-Joshi-Multimodal machine learning for deception|Multimodal machine learning for deception]]
 
 ## External Links & Profiles
 
@@ -61,4 +60,6 @@ As a research intern at the Symbiosis Center for Applied Artificial Intelligence
 - [LinkedIn Profile](https://www.linkedin.com/in/aadith-sukumar/)
 
 ## Notes
+
+- *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 [Aadith is an emerging researcher from the Indian AI community with a focus on security and ethics.]

@@ -20,8 +20,11 @@ Keenan Samway is a Research Assistant at the Max Planck Institute for Intelligen
 
 ## Papers in this Vault
 
-- [[2025-Samway-Are Language Models Consequentialist or|Are Language Models Consequentialist or]]
+
+- [[2025-Samway-Are Language Models Consequentialist or Deontological|Are LLMs Consequentialist or Deontological]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Samway-Are Language Models Consequentialist or Deontological*: Affiliation: Institute for Intelligent Systems, Tübingen, 2University of Washington
 [Additional context or contact information]

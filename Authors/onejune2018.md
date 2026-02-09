@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-onejune2018-Awesome-LLM-Eval Repository Meta-Resource|Awesome-LLM-Eval Repository Meta-Resource]]
+- [[2025-onejune2018-Awesome-LLM-Eval Repository Meta-Resource|Awesome-LLM-Eval Repository (Meta-Resource)]] (First Author)
 
 ## External Links & Profiles
 

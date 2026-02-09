@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Stay Focused"
 year: 2025
 first_author: "[[Jonas Becker]]"
+last_author: "[[Bela Gipp]]"
 authors: "Jonas Becker; Lars Benedikt Kaesberg; Andreas Stephan; Jan Philip Wahle; Terry Ruas; Bela Gipp"
 doi: 10.48550/arXiv.2502.19559
 tags: 

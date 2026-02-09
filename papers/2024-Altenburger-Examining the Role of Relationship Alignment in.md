@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Examining the Role of Relationship Alignment in"
 year: 2025
 first_author: "[[Kristen M. Altenburger]]"
+last_author: "[[Jane Dwivedi-Yu]]"
 authors: "Kristen M. Altenburger; Hongda Jiang; Robert E. Kraut; Yi-Chia Wang; Jane Dwivedi-Yu"
 doi: 10.48550/arXiv.2410.01708
 url: "http://arxiv.org/abs/2410.01708"

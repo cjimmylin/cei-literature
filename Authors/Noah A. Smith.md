@@ -1,6 +1,6 @@
 ---
 name: "Noah A. Smith"
-affiliation: "University/Organization"
+affiliation: "School of Computer Science & Engineering, University of Washington"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,10 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2020-Gehman-RealToxicityPrompts|RealToxicityPrompts]]
+
+- [[2021-Clark-All That's 'Human' Is Not Gold|All That's 'Human' Is Not Gold]] (Last Author)
+- [[2020-Gehman-RealToxicityPrompts|RealToxicityPrompts]] (Last Author)
 - [[2020-Sap-Social Bias Frames|Social Bias Frames]]
-- [[2021-Clark-All That's 'Human' Is Not Gold|All That's 'Human' Is Not Gold]]
 
 ## Notes
 
+
+- *From 2020-Sap-Social Bias Frames*: Affiliation: School of Computer Science & Engineering, University of Washington
 [Additional context or contact information]

@@ -9,6 +9,7 @@ type: preprint
 short_title: "CCD-Bench: Probing Cultural Conflict in LLM Decision-Making"
 year: 2025
 first_author: "[[Multiple authors]]"
+last_author: "[[Multiple authors]]"
 authors: Multiple authors
 url: "https://arxiv.org/abs/2510.03553"
 external_pdf: "https://arxiv.org/pdf/2510.03553.pdf"

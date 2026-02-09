@@ -3,7 +3,7 @@ name: "Brenda Odero"
 title: "Research Fellow"
 affiliation: "Strathmore University / University of KwaZulu-Natal"
 highest_degree: "LLB / LLM, (Inferred)"
-email: ""
+email: "AMusiega@kemri-wellcome.org"
 research_interests:
   - "African AI Ethics"
   - "Ubuntu Philosophy"
@@ -46,7 +46,8 @@ She has developed practical guidelines for Kenyan Research Ethics Committees (RE
 
 ## Papers in this Vault
 
-- [[2024-Odero-The Ubuntu Way|The Ubuntu Way]]
+
+- [[2024-Odero-The Ubuntu Way|The Ubuntu Way]] (First Author)
 
 ## External Links & Profiles
 
@@ -55,4 +56,6 @@ She has developed practical guidelines for Kenyan Research Ethics Committees (RE
 - [Wellcome Open Research](https://wellcomeopenresearch.org/authors/Brenda-Odero)
 
 ## Notes
+
+- *From 2024-Odero-The Ubuntu Way*: Affiliation: Institute of Healthcare Management, Strathmore University Business School, Strathmore University, Nairobi, Na, Email: AMusiega@kemri-wellcome.org
 Brenda's work on "Ubuntu-based AI Ethics" is a vital contribution to the "Global South" perspective on AI alignment, emphasizing collective well-being over purely algorithmic metrics.

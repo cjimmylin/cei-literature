@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: TrustAgent
 year: 2025
 first_author: "[[Wenyue Hua]]"
+last_author: "[[Yongfeng Zhang]]"
 authors: "Wenyue Hua; Xianjun Yang; Mingyu Jin; Zelong Li; Wei Cheng; Ruixiang Tang; Yongfeng Zhang"
 doi: 10.48550/arXiv.2402.01586
 url: "http://arxiv.org/abs/2402.01586"

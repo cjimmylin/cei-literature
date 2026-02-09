@@ -1,6 +1,6 @@
 ---
 name: "Michael S. Lee"
-affiliation: "University/Organization"
+affiliation: "University of Washington"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Chiu-MoReBench|MoReBench]]
+- [[2023-Guo-COBBLER|COBBLER]]
 
 ## Notes
 
+
+- *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 [Additional context or contact information]

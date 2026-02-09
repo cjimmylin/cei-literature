@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "Aligning AI with Shared Human Values"
 year: 2025
 first_author: "[[Dan Hendrycks]]"
+last_author: "[[Jacob Steinhardt]]"
 authors: "Dan Hendrycks; Collin Burns; Steven Basart; Andrew Critch; Jerry Li; Dawn Song; Jacob Steinhardt"
 url: "https://arxiv.org/abs/2008.02275"
 local_pdf: "[[PDFs/2021/2021-Hendrycks-Aligning AI with Shared Human Values.pdf]]"

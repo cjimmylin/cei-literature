@@ -21,8 +21,12 @@ Lora Aroyo is a senior research scientist at Google DeepMind, where she leads Re
 
 ## Papers in this Vault
 
-- [[2023-Aroyo-DICES Dataset|DICES Dataset]]
+
+- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
+- [[2023-Aroyo-DICES Dataset|DICES Dataset]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London
 [Additional context or contact information]

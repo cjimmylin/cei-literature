@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Histoires Morales"
 year: 2025
 first_author: "[[Thibaud Leteno]]"
+last_author: "[[Christophe Gravier]]"
 authors: "Thibaud Leteno; Irina Proskurina; Antoine Gourru; Julien Velcin; Charlotte Laclau; Guillaume Metzler; Christophe Gravier"
 doi: 10.48550/arXiv.2501.17117
 url: "http://arxiv.org/abs/2501.17117"

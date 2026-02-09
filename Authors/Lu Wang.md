@@ -1,6 +1,6 @@
 ---
 name: "Lu Wang"
-affiliation: "University/Organization"
+affiliation: "University of Michigan, Ann Arbor"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,10 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Bayat-FactBench|FactBench]]
-- [[2025-Chakraborty-Structured Moral Reasoning in Language Models|Structured Moral Reasoning in Language Models]]
-- [[2025-Nair-Do Language Models Think Consistently|Do Language Models Think Consistently?]]
+
+- [[2025-Chakraborty-Structured Moral Reasoning|Structured Moral Reasoning]]
+- [[2025-Nair-Do Language Models Think Consistently|Do Language Models Think Consistently?]] (Last Author)
+- [[2024-Bayat-FactBench|FactBench]] (Last Author)
 
 ## Notes
 
+
+- *From 2024-Bayat-FactBench*: Affiliation: University of Michigan, Ann Arbor
 [Additional context or contact information]

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Beyond Human Norms"
 year: 2025
 first_author: "[[Pablo Biedma]]"
+last_author: "[[Xie, Xing]]"
 authors: "[[Biedma, Pablo]]; [[Yi, Xiaoyuan]]; [[Huang, Linus]]; [[Sun, Maosong]]; [[Xie, Xing]]"
 doi: 10.48550/arXiv.2404.12744
 url: "http://arxiv.org/abs/2404.12744"
@@ -38,18 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Pablo Biedma]], [[Xiaoyuan Yi]], [[Linus Huang]], [[Maosong Sun]], [[Xing Xie]]
-## Metadata
-
-**Authors:** Biedma, Pablo; Yi, Xiaoyuan; Huang, Linus; Sun, Maosong; Xie, Xing
-
-**Year:** 2024
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2404.12744](https://doi.org/10.48550/arXiv.2404.12744)
-
-**Publisher:** arXiv
+[[Pablo Biedma|Biedma, Pablo]], [[Xiaoyuan Yi|Yi, Xiaoyuan]], [[Linus Huang|Huang, Linus]], [[Maosong Sun|Sun, Maosong]], [[Xing Xie|Xie, Xing]]
 
 ## Links
 

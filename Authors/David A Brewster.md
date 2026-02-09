@@ -34,8 +34,11 @@ David A. Brewster is a researcher working at the intersection of AI ethics and a
 
 ## Papers in this Vault
 
+
 - [[2025-Jotautaitė-Speciesism in AI|Speciesism in AI]]
 
 ## Notes
 
+
+- *From 2025-Jotautaitė-Speciesism in AI*: Affiliation: University of Cambridge
 David A. Brewster's work on speciesism in AI represents an important expansion of AI ethics research beyond human-centric concerns. The SpeciesismBench study reveals that while LLMs may condemn racism and sexism, they often rationalize harm to farmed animals, reflecting entrenched cultural norms around animal exploitation. This research argues for expanding AI alignment frameworks to explicitly include non-human moral patients.

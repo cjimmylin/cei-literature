@@ -45,8 +45,12 @@ Jack Hessel is a machine learning researcher currently at Anthropic. His researc
 
 ## Papers in this Vault
 
-- [[2022-Kim-SODA|SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization]]
+
+- [[2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment|Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)]]
+- [[2022-Kim-SODA|SODA]]
 
 ## Notes
 
+
+- *From 2022-Kim-SODA*: Affiliation: Institute for Artificial Intelligence
 Hessel has been cited over 8,000 times. At AI2, he mentored PhD interns including Sarah Wiegreffe, Yanpeng Zhao, Liunian Harold Li, Amita Kamath, and others.

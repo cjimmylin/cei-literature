@@ -47,7 +47,10 @@ He has published in top scientific journals like *Nature*, *Science*, and *The L
 
 ## Papers in this Vault
 
-- [[2025-Awad-Moral Machine|Moral Machine]] *(Note: Verify correct file link)*
+
+- [[2020-Awad-Crowdsourcing moral machines|Crowdsourcing moral machines]]
+- [[2020-Awad-Universals and variations in moral decisions made|Universals and variations in moral decisions made]]
+- [[2018-Awad-The Moral Machine experiment|The Moral Machine experiment]]
 
 ## External Links & Profiles
 
@@ -59,4 +62,6 @@ He has published in top scientific journals like *Nature*, *Science*, and *The L
 - [UBC Faculty Profile](https://psych.ubc.ca/profile/azim-shariff/)
 
 ## Notes
+
+- *From 2018-Awad-The Moral Machine experiment*: Affiliation: Faculty has made this article openly available, Email: irahwan@mit.edu
 [Azim is a leading figure in empirical machine ethics and moral psychology.]

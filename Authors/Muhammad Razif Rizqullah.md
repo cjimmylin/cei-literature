@@ -20,8 +20,11 @@ Muhammad Razif Rizqullah is affiliated with Bandung Institute of Technology. AI/
 
 ## Papers in this Vault
 
-- [[2023-Rizqullah-QASiNa|QASiNa]]
+
+- [[2023-Rizqullah-QASiNa|QASiNa]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Rizqullah-QASiNa*: Affiliation: School of Electrical Engineering and Informatics, Email: alham.fikri@mbzuai.ac.ae
 [Additional context or contact information]

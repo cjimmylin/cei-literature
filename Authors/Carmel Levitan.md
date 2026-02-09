@@ -46,6 +46,7 @@ Levitan has published influential studies on cross-modal perception (e.g., how c
 
 ## Papers in this Vault
 
+
 - [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 
 ## External Links & Profiles

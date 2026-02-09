@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "A Comparative Analysis of Ethical and Safety Gaps"
 year: 2025
 first_author: "[[Yehor Tereshchenko]]"
+last_author: "[[Mika Hämäläinen]]"
 authors: "Yehor Tereshchenko; Mika Hämäläinen"
 doi: 10.48550/arXiv.2505.04654
 tags: 

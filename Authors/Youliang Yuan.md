@@ -1,6 +1,6 @@
 ---
 name: "Youliang Yuan"
-affiliation: "University/Organization"
+affiliation: "University of Hong Kong"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Wang-All Languages Matter|All Languages Matter]]
 
 ## Notes
 
+
+- *From 2024-Wang-All Languages Matter*: Affiliation: University of Hong Kong
 [Additional context or contact information]

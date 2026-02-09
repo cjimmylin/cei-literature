@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: BBQ (Bias Benchmark for Question Answering)
 year: 2022
 first_author: "[[Alicia Parrish]]"
+last_author: "[[Alicia Parrish]]"
 authors: Alicia Parrish et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2110.08193"
 external_pdf: "https://arxiv.org/pdf/2110.08193.pdf"
 local_pdf: "[[PDFs/2022/2022-Parrish-BBQ Bias Benchmark for Question Answering.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Alicia Parrish et al.]]
+[[Alicia Parrish]]
 
 ## Metadata
 

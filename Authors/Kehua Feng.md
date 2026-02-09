@@ -20,8 +20,11 @@ Kehua Feng is a Ph.D. student at Zhejiang University, working in the areas of Na
 
 ## Papers in this Vault
 
-- [[2025-Feng-ERPO|ERPO]]
+
+- [[2025-Feng-ERPO|ERPO]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Feng-ERPO*: Affiliation: College of Computer Science and Technology, Zhejiang University
 [Additional context or contact information]

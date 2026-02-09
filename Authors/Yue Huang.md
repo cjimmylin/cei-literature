@@ -21,11 +21,15 @@ Yue Huang is a PhD student in the MINE Lab at the University of Notre Dame's Com
 
 ## Papers in this Vault
 
-- [[2023-Liu-AlignBench|AlignBench]]
-- [[2024-Huang-TrustLLM|TrustLLM]]
+
+- [[2025-Gao-MIST Moral Inference through Storytelling with Text and Images|MIST: Moral Inference through Storytelling with Text and Images]]
+- [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]] (First Author)
+- [[2024-Huang-TrustLLM|TrustLLM]] (First Author)
 - [[2024-Li-Quantifying AI Psychology|Quantifying AI Psychology]]
-- [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
+- [[2023-Liu-AlignBench|AlignBench]]
 
 ## Notes
 
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 [Additional context or contact information]

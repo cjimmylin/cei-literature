@@ -3,7 +3,7 @@ name: "Aaron Adcock"
 title: "Research Engineering Manager"
 affiliation: "Meta AI"
 highest_degree: "PhD, Stanford University"
-email: ""
+email: "facet@meta.com"
 research_interests:
   - "AI Bias & Fairness"
   - "Vision-Language Models"
@@ -33,6 +33,7 @@ Aaron's work centers on the intersection of computer vision and natural language
 
 ## Papers in this Vault
 
+
 - [[2023-Gustafson-FACET|FACET]]
 
 ## External Links & Profiles
@@ -46,4 +47,6 @@ Aaron's work centers on the intersection of computer vision and natural language
 - [LinkedIn Profile](https://www.linkedin.com/in/aaronadcock/)
 
 ## Notes
+
+- *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 [Key contributor to fairness benchmarking at Meta.]

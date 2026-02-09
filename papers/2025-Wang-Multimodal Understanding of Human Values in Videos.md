@@ -9,7 +9,8 @@ type: journalArticle
 short_title: Multimodal Understanding of Human Values in Videos
 year: 2025
 first_author: "[[Y. Wang]]"
-authors: Wang, Y. et al.
+last_author: "[[Xiaofang Luo]]"
+authors: "Yuchen Wang; Zhulin Tao; He Chang; Nanxin Huang; Libiao Jin; Xiaofang Luo"
 doi: 10.1016/j.neucom.2025.130170
 url: "https://doi.org/10.1016/j.neucom.2025.130170"
 external_pdf: "https://arxiv.org/pdf/2501.11770.pdf"
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Wang, Y. et al.]]
+[[Yuchen Wang]], [[Zhulin Tao]], [[He Chang]], [[Nanxin Huang]], [[Libiao Jin]], [[Xiaofang Luo]]
 
 ## Metadata
 

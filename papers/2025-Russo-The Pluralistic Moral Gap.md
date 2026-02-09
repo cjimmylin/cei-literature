@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "The Pluralistic Moral Gap"
 year: 2025
 first_author: "[[Giuseppe Russo]]"
+last_author: "[[Dirk Hovy]]"
 authors: "Giuseppe Russo; Debora Nozza; Paul Röttger; Dirk Hovy"
 doi: 10.48550/arXiv.2507.17216
 url: "http://arxiv.org/abs/2507.17216"

@@ -1,6 +1,6 @@
 ---
 name: "Yinzhao Dong"
-affiliation: "University/Organization"
+affiliation: "Department of Computing, Imperial College"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2023-Qiu-Large AI Models in Health Informatics|Large AI Models in Health Informatics]]
 
 ## Notes
 
+
+- *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: lin.3.li@kcl.ac.uk
 [Additional context or contact information]

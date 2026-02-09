@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: SaGE
 year: 2025
 first_author: "[[Vamshi Krishna Bonagiri]]"
+last_author: "[[Manas Gaur]]"
 authors: "Vamshi Krishna Bonagiri; Sreeram Vennam; Priyanshul Govil; Ponnurangam Kumaraguru; Manas Gaur"
 doi: 10.48550/arXiv.2402.13709
 url: "http://arxiv.org/abs/2402.13709"

@@ -34,7 +34,9 @@ Daniel E. Ho is a leading scholar at the intersection of law, AI, and public pol
 - Work on AI governance and legal frameworks for algorithmic decision-making
 
 ## Papers in this Vault
+
 - [[2025-Wang-Measuring Desired Group Discrimination in LLMs|Measuring Desired Group Discrimination in LLMs]]
+- [[2023-Guha-LegalBench|LegalBench]]
 
 ## Links
 - Website: https://dho.stanford.edu/

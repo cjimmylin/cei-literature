@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: FABLE (Fairness and Bias in LLM Evaluation)
 year: 2024
 first_author: "[[KFUPM Research Team]]"
+last_author: "[[KFUPM Research Team]]"
 authors: KFUPM Research Team
 publication: Unknown
 external_pdf: "https://arxiv.org/pdf/2502.05849.pdf"

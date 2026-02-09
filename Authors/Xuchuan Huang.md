@@ -1,6 +1,6 @@
 ---
 name: "Xuchuan Huang"
-affiliation: "University/Organization"
+affiliation: "lable at https://github"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Qiu-ProgressGym|ProgressGym]]
 
 ## Notes
 
+
+- *From 2024-Qiu-ProgressGym*: Affiliation: lable at https://github
 [Additional context or contact information]

@@ -24,8 +24,12 @@ The research, conducted at Pivotal with collaboration from Mary Phuong at DeepMi
 
 ## Papers in this Vault
 
-- [[2025-Jotautaite-From Stability to Inconsistency|From Stability to Inconsistency]]
+
+- [[2025-Jotautaite-From Stability to Inconsistency|From Stability to Inconsistency]] (First Author)
+- [[2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements|SpeciesismBench: Evaluating LLM Recognition of Speciesist Statements]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements*: Affiliation: University of Cambridge
 Research focus on evaluating and improving the moral consistency and safety of large language models through empirical benchmarking and theoretical frameworks grounded in moral psychology.

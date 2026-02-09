@@ -1,6 +1,6 @@
 ---
 name: "Ricardo Muñoz Sánchez"
-affiliation: "University/Organization"
+affiliation: "University, Sweden"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Södahl Bladsjö-MARB|MARB]]
+
+- [[2025-Södahl Bladsjö-MARB|MARB]] (Last Author)
 
 ## Notes
 
+
+- *From 2025-Södahl Bladsjö-MARB*: Affiliation: University, Sweden, Email: ricardo.munoz.sanchez@gu.se
 [Additional context or contact information]

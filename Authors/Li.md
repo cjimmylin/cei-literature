@@ -1,6 +1,6 @@
 ---
 name: "Li"
-affiliation: "University/Organization"
+affiliation: "Department of Electronic Engineering"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Li-THRONE|THRONE]]
+
+- [[2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM|An Evaluation of Cultural Value Alignment in LLM]]
 
 ## Notes
 
+
+- *From 2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM*: Affiliation: Department of Electronic Engineering, Email: sukiennikn10@mails.tsinghua.edu.cn
 [Additional context or contact information]

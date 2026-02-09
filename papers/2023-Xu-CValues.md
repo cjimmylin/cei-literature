@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: CValues
 year: 2025
 first_author: "[[Guohai Xu]]"
+last_author: "[[Jingren Zhou]]"
 authors: "Guohai Xu; Jiayi Liu; Ming Yan; Haotian Xu; Jinghui Si; Zhuoran Zhou; Peng Yi; Xing Gao; Jitao Sang; Rong Zhang; Ji Zhang; Chao Peng; Fei Huang; Jingren Zhou"
 doi: 10.48550/arXiv.2307.09705
 tags: 

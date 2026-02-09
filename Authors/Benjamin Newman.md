@@ -3,7 +3,7 @@ name: "Benjamin Newman"
 title: "PhD Student"
 affiliation: "University of Washington / Allen School"
 highest_degree: "BSc (previous affil: Stanford/Semantic Scholar)"
-email: ""
+email: "tonyhlee@stanford.edu"
 research_interests:
   - "Natural Language Processing"
   - "Language Model Evaluation"
@@ -46,6 +46,7 @@ As a co-author of HELM, Newman led the human evaluation of disinformation scenar
 
 ## Papers in this Vault
 
+
 - [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]
 
 ## External Links & Profiles
@@ -56,4 +57,6 @@ As a co-author of HELM, Newman led the human evaluation of disinformation scenar
 - [OpenReview](https://openreview.net/profile?id=~Benjamin_Newman1)
 
 ## Notes
+
+- *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: tonyhlee@stanford.edu
 His involvement in the HELM project makes him an important figure in the benchmarking of AI safety and ethics metrics in contemporary NLP research.

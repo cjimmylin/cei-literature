@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "TrolleyMod v1.0"
 year: 2025
 first_author: "[[Vahid Behzadan]]"
+last_author: "[[Arslan Munir]]"
 authors: "Vahid Behzadan; James Minton; Arslan Munir"
 doi: 10.48550/arXiv.1811.05594
 url: "http://arxiv.org/abs/1811.05594"

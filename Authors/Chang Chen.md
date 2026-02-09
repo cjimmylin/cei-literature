@@ -29,10 +29,13 @@ Chang Chen is a researcher working on multilingual AI safety and natural languag
 - Co-developed prompting method that reduces unsafe responses by 42% for non-English queries
 
 ## Papers in this Vault
-- [[2024-Wang-All Languages Matter|All Languages Matter: On the Multilingual Safety of Large Language Models]]
+
+- [[2024-Wang-All Languages Matter|All Languages Matter]]
 
 ## External Links & Profiles
 - [ACL Anthology Paper](https://aclanthology.org/2024.findings-acl.349/)
 
 ## Notes
+
+- *From 2024-Wang-All Languages Matter*: Affiliation: University of Hong Kong
 Relevant to AI ethics/safety through his work exposing the "multilingual safety gap" in LLMs. This research is crucial for global AI deployment, highlighting that safety alignment often fails to transfer zero-shot to non-English languages. Limited biographical information available online.

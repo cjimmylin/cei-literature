@@ -1,6 +1,6 @@
 ---
 name: "Tugba Temizel"
-affiliation: "University/Organization"
+affiliation: "School of Informatics"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Uluoglakci-HypoTermQA|HypoTermQA]]
+
+- [[2024-Uluoglakci-HypoTermQA|HypoTermQA]] (Last Author)
 
 ## Notes
 
+
+- *From 2024-Uluoglakci-HypoTermQA*: Affiliation: School of Informatics, Email: ttemizel@metu.edu.tr
 [Additional context or contact information]

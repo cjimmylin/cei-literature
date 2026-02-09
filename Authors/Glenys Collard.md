@@ -37,7 +37,8 @@ In 2018, Collard and Dr. Celeste Rodriguez Louro began an Australian Research Co
 
 ## Papers in this Vault
 
-- [[2024-Rodriguez Louro-The Yarning Corpus|The Yarning Corpus]]
+
+- [[2024-Rodríguez Louro-The Yarning Corpus|The Yarning Corpus]] (Last Author)
 
 ## Links
 
@@ -46,4 +47,6 @@ In 2018, Collard and Dr. Celeste Rodriguez Louro began an Australian Research Co
 
 ## Notes
 
+
+- *From 2024-Rodríguez Louro-The Yarning Corpus*: Affiliation: University of Western Australia and The University of Western Australia & Mallee Mungart Aboriginal
 Collard's pioneering work in documenting and preserving Aboriginal English and Nyungar language contributes to understanding linguistic diversity and cultural preservation in Australia.

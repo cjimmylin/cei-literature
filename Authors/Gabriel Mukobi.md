@@ -34,6 +34,7 @@ He is affiliated with the Stanford Existential Risks Initiative (SERI) and Stanf
 
 ## Papers in this Vault
 
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 - [[2024-Ren-Safetywashing|Safetywashing]]
 
@@ -47,4 +48,6 @@ He is affiliated with the Stanford Existential Risks Initiative (SERI) and Stanf
 
 ## Notes
 
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 Active in the effective altruism community. Writes about ML safety research advice.

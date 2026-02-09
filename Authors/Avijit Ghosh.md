@@ -46,9 +46,8 @@ He notably discovered critical vulnerabilities in AI chatbots during the Generat
 - [Can you fight algorithmic bias with bias?](https://arxiv.org/abs/2101.00000) (2021) - *Explored the paradoxes of fairness interventions.*
 
 ## Papers in this Vault
-- [[2025-Mitchell-SHADES|SHADES]]
 
-- [[2024-Ungless-ETHICS WHITEPAPER|ETHICS WHITEPAPER]]
+- [[2025-Mitchell-SHADES|SHADES]]
 
 ## External Links & Profiles
 
@@ -62,4 +61,6 @@ He notably discovered critical vulnerabilities in AI chatbots during the Generat
 - [Twitter/X](https://twitter.com/avijit_)
 
 ## Notes
+
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 [Avijit is a leading practitioner in "applied" AI ethics and policy auditing.]

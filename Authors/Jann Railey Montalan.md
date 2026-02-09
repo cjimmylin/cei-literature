@@ -20,8 +20,11 @@ Jann Railey Montalan is affiliated with AI Singapore and the National University
 
 ## Papers in this Vault
 
-- [[2025-Catapia-Batayan|Batayan]]
+
+- [[2025-Catapia-Batayan|Batayan]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Catapia-Batayan*: Affiliation: University of Singapore, Email: railey@aisingapore.org
 Previous or concurrent affiliation with Ateneo de Manila University as Lecturer in the Department of Information System and Computer Science. Research addresses unique hurdles in modeling Filipino's rich morphology and construction.

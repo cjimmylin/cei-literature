@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Case Study"
 year: 2025
 first_author: "[[Shrimai Prabhumoye]]"
+last_author: "[[Black, Alan W]]"
 authors: "[[Prabhumoye, Shrimai]]; [[Boldt, Brendon]]; [[Salakhutdinov, Ruslan]]; [[Black, Alan W]]"
 doi: 10.18653/v1/2021.naacl-main.297
 url: "https://aclanthology.org/2021.naacl-main.297/"
@@ -37,22 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Shrimai Prabhumoye]], [[Brendon Boldt]], [[Ruslan Salakhutdinov]], [[Alan W Black]]
-## Metadata
-
-**Authors:** Prabhumoye, Shrimai; Boldt, Brendon; Salakhutdinov, Ruslan; Black, Alan W
-
-**Year:** 2021
-
-**Publication:** Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies
-
-**Type:** conferencePaper
-
-**DOI:** [10.18653/v1/2021.naacl-main.297](https://doi.org/10.18653/v1/2021.naacl-main.297)
-
-**Pages:** 3784-3798
-
-**Publisher:** Association for Computational Linguistics
+[[Shrimai Prabhumoye|Prabhumoye, Shrimai]], [[Brendon Boldt|Boldt, Brendon]], [[Ruslan Salakhutdinov|Salakhutdinov, Ruslan]], [[Alan W Black|Black, Alan W]]
 
 ## Links
 

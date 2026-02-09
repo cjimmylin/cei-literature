@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: AutoHallusion
 year: 2025
 first_author: "[[Xiyang Wu]]"
+last_author: "[[Dinesh Manocha]]"
 authors: "Xiyang Wu; Tianrui Guan; Dianqi Li; Shuaiyi Huang; Xiaoyu Liu; Xijun Wang; Ruiqi Xian; Abhinav Shrivastava; Furong Huang; Jordan Lee Boyd-Graber; Tianyi Zhou; Dinesh Manocha"
 doi: 10.48550/arXiv.2406.10900
 url: "http://arxiv.org/abs/2406.10900"

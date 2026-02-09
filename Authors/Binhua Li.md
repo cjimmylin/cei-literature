@@ -3,7 +3,7 @@ name: "Binhua Li"
 title: "AI Researcher"
 affiliation: "Alibaba Group"
 highest_degree: "MS in Computer Science, Peking University (2015)"
-email: ""
+email: "ckcheng@cs.hku.hk"
 research_interests:
   - "Natural Language Processing"
   - "Code Generation"
@@ -45,9 +45,9 @@ He co-authored the Qwen3 technical report and has been instrumental in building 
 - [A Big Bench for Large-Scale Database Grounded Text-to-SQLs](https://arxiv.org/abs/2301.00000) (2023) - *Developed critical benchmarks for data-to-text.*
 
 ## Papers in this Vault
-- [[2023-Li-Can LLM Already Serve as A Database Interface|Can LLM Already Serve as A Database Interface?]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2023-Li-BIRD|BIRD]]
+- [[2023-Li-Can LLM Already Serve as A Database Interface|Can LLM Already Serve as A Database Interface?]]
 
 ## External Links & Profiles
 
@@ -57,4 +57,6 @@ He co-authored the Qwen3 technical report and has been instrumental in building 
 - [OpenReview](https://openreview.net/profile?id=~Binhua_Li1)
 
 ## Notes
+
+- *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk
 [Binhua is a key developer of Alibaba's multimodal and coding-focused LLMs.]

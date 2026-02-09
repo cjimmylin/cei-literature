@@ -48,7 +48,10 @@ As the Responsible AI Lead for the 2024 and 2025 Stanford AI Index, she has shap
 
 ## Papers in this Vault
 
+
+- [[2026-Kolt-Legal Alignment for Safe and Ethical AI|Legal Alignment for Safe and Ethical AI]]
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
+- [[2024-Reuel-BetterBench|BetterBench]] (First Author)
 
 ## External Links & Profiles
 
@@ -65,4 +68,6 @@ As the Responsible AI Lead for the 2024 and 2025 Stanford AI Index, she has shap
 - [Twitter/X](https://twitter.com/ankareuel)
 
 ## Notes
+
+- *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
 [Anka is a key link between the technical safety labs at Stanford and European AI policy.]

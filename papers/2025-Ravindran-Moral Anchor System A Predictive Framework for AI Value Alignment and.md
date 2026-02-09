@@ -9,6 +9,7 @@ type: preprint
 short_title: "Moral Anchor System: A Predictive Framework for AI Value Alignment and Drift Prevention"
 year: 2025
 first_author: "[[Santhosh Kumar Ravindran]]"
+last_author: "[[Santhosh Kumar Ravindran]]"
 authors: Santhosh Kumar Ravindran
 url: "https://arxiv.org/abs/2510.04073"
 external_pdf: "https://arxiv.org/pdf/2510.04073.pdf"

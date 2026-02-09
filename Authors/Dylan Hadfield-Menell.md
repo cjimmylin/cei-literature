@@ -1,7 +1,7 @@
 ---
 name: "Dylan Hadfield-Menell"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "lability: that alignment with one culture on a narrow set of issues predicts alignment with that cultur"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Khan-Randomness Not Representation The Unreliability of Evaluating|Randomness Not Representation The Unreliability of Evaluating]]
+- [[2025-Khan-Randomness Not Representation The Unreliability of Evaluating|Randomness, Not Representation: The Unreliability of Evaluating Cultural Alignment in LLMs]] (Last Author)
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Khan-Randomness Not Representation The Unreliability of Evaluating*: Affiliation: lability: that alignment with one culture on a narrow set of issues predicts alignment with that cultur
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

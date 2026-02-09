@@ -38,7 +38,8 @@ Her notable publication "Exploring LLM Chatbots as Potential Guides to Virtue Et
 
 ## Papers in this Vault
 
-- [[2025-Gerdes-Exploring LLM Chatbots as Potential Guides to|Exploring LLM Chatbots as Potential Guides to]]
+
+- [[2025-Gerdes-Exploring LLM Chatbots as Potential Guides to|Exploring LLM Chatbots as Potential Guides to]] (First Author)
 
 ## Notes
 

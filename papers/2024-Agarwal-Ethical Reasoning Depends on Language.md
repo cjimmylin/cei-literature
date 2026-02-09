@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "Ethical Reasoning Depends on Language"
 year: 2025
 first_author: "[[Utkarsh Agarwal]]"
+last_author: "[[Choudhury, Monojit]]"
 authors: "[[Agarwal, Utkarsh]]; [[Tanmay, Kumar]]; [[Khandelwal, Aditi]]; [[Choudhury, Monojit]]"
 doi: 10.48550/arXiv.2404.18460
 url: "https://arxiv.org/abs/2404.18460"
@@ -41,7 +42,7 @@ DATE_ADDED: 20260207
 
 ## Authors
 
-[[Utkarsh Agarwal]], [[Kumar Tanmay]], [[Aditi Khandelwal]], [[Monojit Choudhury]]
+[[Utkarsh Agarwal|Agarwal, Utkarsh]], [[Kumar Tanmay|Tanmay, Kumar]], [[Aditi Khandelwal|Khandelwal, Aditi]], [[Monojit Choudhury|Choudhury, Monojit]]
 
 ## Metadata
 

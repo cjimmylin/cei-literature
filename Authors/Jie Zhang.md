@@ -21,9 +21,12 @@ There is also a senior Professor Jie Zhang at NTU Singapore's College of Computi
 
 ## Papers in this Vault
 
+
+- [[2025-Zhang-REVAL|REVAL]] (First Author)
 - [[2024-Yan-M$^3$oralBench|M$^3$oralBench]]
-- [[2025-Zhang-REVAL|REVAL]]
 
 ## Notes
 
+
+- *From 2024-Yan-M$^3$oralBench*: Affiliation: Laboratory of AI Safety of CAS, Institute of Computing Technology, Email: chenzhiyuan21@mails.ucas.ac.cn
 Recent notable work includes a project on AI-assisted animation copyright and governance awarded funding by AI Singapore (AI Research - Governance Joint Grant Call) in January 2026.

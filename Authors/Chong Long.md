@@ -30,6 +30,7 @@ Chong Long is a PhD candidate in the Department of Computer Science and Technolo
 
 ## Papers in this Vault
 
+
 - [[2024-Zhang-SafetyBench|SafetyBench]]
 
 ## External Links & Profiles
@@ -38,4 +39,6 @@ Chong Long is a PhD candidate in the Department of Computer Science and Technolo
 
 ## Notes
 
+
+- *From 2024-Zhang-SafetyBench*: Affiliation: University;2Northwest Minzu University, Email: zx-zhang22@mails.tsinghua.edu.cn
 Chong Long's SafetyBench is a critical resource for understanding the multi-lingual safety landscape of modern foundation models.

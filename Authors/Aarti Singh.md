@@ -3,7 +3,7 @@ name: "Aarti Singh"
 title: "Professor & Director of NSF AI Institute"
 affiliation: "Carnegie Mellon University"
 highest_degree: "PhD in Electrical and Computer Engineering, University of Wisconsin-Madison (2008)"
-email: ""
+email: "wongdein@163.com."
 research_interests:
   - "Machine Learning Theory"
   - "Interactive Learning"
@@ -47,9 +47,8 @@ She has served as the General Chair for ICML 2025 and is an NSF Career Award rec
 - [Adaptivity and Robustness in Machine Learning](https://ieeexplore.ieee.org/document/7547395) (2016) - *Theoretical foundations of robust learning.*
 
 ## Papers in this Vault
-- [[2024-Pardeshi-Learning Social Welfare Functions|Learning Social Welfare Functions]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2024-Pardeshi-Learning Social Welfare Functions|Learning Social Welfare Functions]] (Last Author)
 
 ## External Links & Profiles
 
@@ -64,4 +63,6 @@ She has served as the General Chair for ICML 2025 and is an NSF Career Award rec
 - [CMU Profile](https://www.cs.cmu.edu/~aartisingh/)
 
 ## Notes
+
+- *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.
 [Aarti is a top-tier machine learning theorist with extensive leadership in the community.]

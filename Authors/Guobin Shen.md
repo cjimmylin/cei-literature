@@ -49,6 +49,7 @@ His research focuses on biologically inspired neural networks, machine learning,
 
 ## Papers in this Vault
 
+
 - [[2025-Wu-CVC|CVC]]
 
 ## Links
@@ -58,4 +59,6 @@ His research focuses on biologically inspired neural networks, machine learning,
 
 ## Notes
 
+
+- *From 2025-Wu-CVC*: Affiliation: Lab, Institute of Automation, Chinese Academy of Sciences, Beijing, China, Email: zhaofeifei2014@ia.ac.cn
 Shen's work on brain-inspired computing and spiking neural networks contributes to developing more biologically plausible AI systems that may better capture aspects of human cognition.

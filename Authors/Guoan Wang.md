@@ -45,6 +45,7 @@ GMAI-MMBench is described as the most comprehensive general medical AI benchmark
 
 ## Papers in this Vault
 
+
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
 
 ## Links
@@ -54,4 +55,6 @@ GMAI-MMBench is described as the most comprehensive general medical AI benchmark
 
 ## Notes
 
+
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
 Wang's work on medical AI benchmarks contributes to understanding and improving the capabilities of multimodal AI systems in healthcare applications.

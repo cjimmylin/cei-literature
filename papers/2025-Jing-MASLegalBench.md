@@ -9,6 +9,7 @@ type: preprint
 short_title: MASLegalBench
 year: 2025
 first_author: "[[Huihao Jing]]"
+last_author: "[[Yangqiu Song]]"
 authors: Huihao Jing; Wenbin Hu; Hongyu Luo; Jianhui Yang; Wei Fan; Haoran Li; Yangqiu Song
 url: "https://arxiv.org/abs/2509.24922"
 external_pdf: "https://arxiv.org/pdf/2509.24922.pdf"

@@ -3,7 +3,7 @@ name: "Chad Coleman"
 title: "Adjunct Professor / Director of AI"
 affiliation: "NYU / Columbia University / ZoomInfo"
 highest_degree: "PhD, Cognitive Science & ML, Columbia University"
-email: ""
+email: "ms15037@nyu.edu"
 research_interests:
   - "Cognitive Science"
   - "People Analytics"
@@ -46,9 +46,12 @@ Coleman's work bridges the gap between theoretical cognitive science and real-wo
 
 ## Papers in this Vault
 
+
+- [[2025-Group-AILuminate|AILuminate]]
 - [[2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models|Analyzing the Ethical Logic of Six Large Language Models]]
 - [[2025-Neuman-Auditing the Ethical Logic of Generative AI Models|Auditing the Ethical Logic of Generative AI Models]]
 - [[2025-Neuman-PRIME Framework Convergent Ethics|PRIME Framework Convergent Ethics]]
+- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 
 ## External Links & Profiles
 
@@ -57,4 +60,6 @@ Coleman's work bridges the gap between theoretical cognitive science and real-wo
 - [Personal Research Page](https://consultingunicorn.com/)
 
 ## Notes
+
+- *From 2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models*: Affiliation: University            New York University                New York University, Email: ms15037@nyu.edu
 Chad's background in "People Analytics" gives him a unique perspective on "Organizational Alignment"—how AI ethics must translate into the social fabric of the companies that deploy them.

@@ -1,6 +1,6 @@
 ---
 name: "Ayu Purwarianti"
-affiliation: "University/Organization"
+affiliation: "School of Electrical Engineering and Informatics"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Rizqullah-QASiNa|QASiNa]]
+
 - [[2025-Wiyono-IndoPref|IndoPref]]
+- [[2023-Rizqullah-QASiNa|QASiNa]]
 
 ## Notes
 
+
+- *From 2023-Rizqullah-QASiNa*: Affiliation: School of Electrical Engineering and Informatics, Email: alham.fikri@mbzuai.ac.ae
 [Additional context or contact information]

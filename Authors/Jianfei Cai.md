@@ -27,10 +27,13 @@ Jianfei Cai is a Professor at the Faculty of IT, Monash University, where he pre
 
 ## Papers in this Vault
 
+
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
 
 ## Notes
 
+
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
 - Full Professor at Monash University since 2019
 - Previously at NTU (2002-2019)
 - IEEE Fellow (2021)

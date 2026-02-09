@@ -29,6 +29,7 @@ Research on applying Moral Foundations Theory to analyze online discourse, devel
 
 ## Papers in this Vault
 
+
 - [[2022-Trager-The Moral Foundations Reddit Corpus|The Moral Foundations Reddit Corpus]]
 
 ## External Links & Profiles
@@ -37,4 +38,6 @@ Research on applying Moral Foundations Theory to analyze online discourse, devel
 
 ## Notes
 
+
+- *From 2022-Trager-The Moral Foundations Reddit Corpus*: Affiliation: University of Southern California, Email: jptrager@usc.edu
 Contributor to datasets enabling computational analysis of moral language in social media.

@@ -11,7 +11,9 @@ type: preprint
 short_title: "CLASH: Evaluating Language Models on Judging High-Stakes Dilemmas from Multiple Perspectives"
 year: 2025
 first_author: "[[A. Lee]]"
+last_author: "[[A. Lee]]"
 authors: Lee, A. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2504.10823"
 external_pdf: "https://arxiv.org/pdf/2504.10823.pdf"
 local_pdf: "[[PDFs/2025/2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from.pdf]]"
@@ -39,7 +41,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Lee, A. et al.]]
+[[A. Lee]]
 
 ## Metadata
 

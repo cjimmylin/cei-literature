@@ -8,6 +8,7 @@ type: document
 short_title: FairLex
 year: 2025
 first_author: "[[Ilias Chalkidis]]"
+last_author: "[[Søgaard, Anders]]"
 authors: "[[Chalkidis, Ilias]]; [[Pasini, Tommaso]]; [[Zhang, Sheng]]; [[Tomada, Letizia]]; [[Schwemer, Sebastian Felix]]; [[Søgaard, Anders]]"
 url: "https://aclanthology.org/2022.acl-long.301/"
 external_pdf: "http://arxiv.org/pdf/2203.07228"
@@ -36,12 +37,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Ilias Chalkidis]], [[Tommaso Pasini]], [[Sheng Zhang]], [[Letizia Tomada]], [[Sebastian Felix Schwemer]], [[Anders Søgaard]]
-## Metadata
-
-**Year:** 2022
-
-**Type:** document
+[[Ilias Chalkidis|Chalkidis, Ilias]], [[Tommaso Pasini|Pasini, Tommaso]], [[Sheng Zhang|Zhang, Sheng]], [[Letizia Tomada|Tomada, Letizia]], [[Sebastian Felix Schwemer|Schwemer, Sebastian Felix]], [[Anders Søgaard|Søgaard, Anders]]
 
 ## Links
 

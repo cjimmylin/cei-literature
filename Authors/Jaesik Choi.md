@@ -17,7 +17,8 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Park-Deontological Keyword Bias|Deontological Keyword Bias]]
+
+- [[2025-Park-Deontological Keyword Bias|Deontological Keyword Bias]] (Last Author)
 
 ## Notes
 

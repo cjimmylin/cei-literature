@@ -45,9 +45,8 @@ Aczel is a key figure in the metascience movement, contributing to the developme
 - [Improving the Credibility of Psychological Research](https://journals.sagepub.com/doi/full/10.1177/2515245919869041) (2020) - *Significant contribution to the reproducibility and transparency of research.*
 
 ## Papers in this Vault
-- [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 
-- [[2025-Aczel-Responsible AI in Research|Responsible AI Usage in Research]] (Note: Verify exact title in vault)
+- [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]] (Last Author)
 
 ## External Links & Profiles
 

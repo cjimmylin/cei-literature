@@ -18,10 +18,13 @@ AI safety researcher affiliated with the Center for AI Safety. Fourth-year under
 
 ## Papers in this Vault
 
-- [[2024-Ren-Safetywashing|Safetywashing]]
+
 - [[2025-Mazeika-Utility Engineering|Utility Engineering]]
-- [[2025-Ren-The MASK Benchmark|The MASK Benchmark]]
+- [[2025-Ren-The MASK Benchmark|The MASK Benchmark]] (First Author)
+- [[2024-Ren-Safetywashing|Safetywashing]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Ren-Safetywashing*: Affiliation: Center for AI Safety 2University of Pennsylvania 3UC Berkeley
 [Additional context or contact information]

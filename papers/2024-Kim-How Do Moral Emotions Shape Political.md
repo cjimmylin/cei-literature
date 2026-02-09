@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "How Do Moral Emotions Shape Political"
 year: 2025
 first_author: "[[Jaehong Kim]]"
+last_author: "[[Wonjae Lee]]"
 authors: "Jaehong Kim; Chaeyoon Jeong; Seongchan Park; Meeyoung Cha; Wonjae Lee"
 doi: 10.18653/v1/2024.findings-acl.963
 url: "https://aclanthology.org/2024.findings-acl.963/"

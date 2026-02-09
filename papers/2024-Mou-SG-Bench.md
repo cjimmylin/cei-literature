@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: SG-Bench
 year: 2025
 first_author: "[[Yutao Mou]]"
+last_author: "[[Wei Ye]]"
 authors: "Yutao Mou; Shikun Zhang; Wei Ye"
 url: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/de7b99107c53e60257c727dc73daf1d1-Abstract-Datasets_and_Benchmarks_Track.html"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/UWKHZUCT/2024 - SG-Bench Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types.pdf"
@@ -37,13 +38,6 @@ data_metrics: "Not specified"
 ## Authors
 
 [[Yutao Mou]], [[Shikun Zhang]], [[Wei Ye]]
-## Metadata
-
-**Year:** 2024
-
-**Publication:** NeurIPS 2024 (Datasets & Benchmarks)
-
-**Type:** conferencePaper
 
 ## Links
 

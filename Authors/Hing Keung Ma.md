@@ -20,7 +20,8 @@ Hing Keung Ma is a Professor and Director of the Centre for Child Development at
 
 ## Papers in this Vault
 
-- [[2016-Xu-How Can a Deontological Decision Lead to Moral|How Can a Deontological Decision Lead to Moral]]
+
+- [[2016-Xu-How Can a Deontological Decision Lead to Moral|How Can a Deontological Decision Lead to Moral]] (Last Author)
 
 ## Notes
 

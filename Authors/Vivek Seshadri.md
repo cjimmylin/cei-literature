@@ -1,6 +1,6 @@
 ---
 name: "Vivek Seshadri"
-affiliation: "University/Organization"
+affiliation: "lable on the web and have already been con-"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Watts-PARIKSHA|PARIKSHA]]
 
 ## Notes
 
+
+- *From 2024-Watts-PARIKSHA*: Affiliation: lable on the web and have already been con-, Email: wattsishaan18@gmail.com
 [Additional context or contact information]

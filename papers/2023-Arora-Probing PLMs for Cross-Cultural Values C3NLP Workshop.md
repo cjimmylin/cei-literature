@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: Probing PLMs for Cross-Cultural Values (C3NLP Workshop)
 year: 2023
 first_author: "[[Arnav Arora]]"
+last_author: "[[Isabelle Augenstein]]"
 authors: Arnav Arora, Lucie-Aimee Kaffee, Isabelle Augenstein
 publication: Unknown
 external_pdf: "https://core.ac.uk/download/674011497.pdf"
@@ -36,7 +37,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Arnav Arora, Lucie-Aimee Kaffee, Isabelle Augenstein]]
+[[Arnav Arora]], [[Lucie-Aimée Kaffee|Lucie-Aimee Kaffee]], [[Isabelle Augenstein]]
 
 ## Metadata
 

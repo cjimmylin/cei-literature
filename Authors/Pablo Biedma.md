@@ -34,8 +34,11 @@ Pablo Biedma is a researcher working at the intersection of AI and value systems
 
 ## Papers in this Vault
 
-- [[2024-Biedma-Beyond Human Norms|Beyond Human Norms]]
+
+- [[2024-Biedma-Beyond Human Norms|Beyond Human Norms]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Biedma-Beyond Human Norms*: Affiliation: University of Science and Technology, Email: linus.huang@ust.hk
 Pablo Biedma's work on ValueLex represents an important shift in how we evaluate AI systems. Rather than imposing human psychological frameworks (like the Big Five personality traits) onto LLMs, his research suggests that AI systems may have their own structured value systems that require bespoke evaluation methods. This has significant implications for AI alignment and safety research.

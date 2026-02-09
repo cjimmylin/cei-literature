@@ -22,18 +22,23 @@ Maarten Sap is an Assistant Professor at Carnegie Mellon University's Language T
 
 ## Papers in this Vault
 
-- [[2020-Forbes-Social Chemistry 101|Social Chemistry 101]]
-- [[2020-Gehman-RealToxicityPrompts|RealToxicityPrompts]]
-- [[2020-Sap-Social Bias Frames|Social Bias Frames]]
-- [[2022-Hartvigsen-ToxiGen|ToxiGen]]
-- [[2022-Jiang-Can Machines Learn Morality|Can Machines Learn Morality?]]
-- [[2022-Kim-ProsocialDialog|ProsocialDialog]]
-- [[2022-Kim-SODA|SODA]]
-- [[2024-Jain-PolygloToxicityPrompts|PolygloToxicityPrompts]]
+
+- [[2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment|Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)]]
+- [[2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety|SafetyAnalyst: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior]]
+- [[2025-Rao-NormAd|NormAd]] (Last Author)
+- [[2024-Jain-PolygloToxicityPrompts|PolygloToxicityPrompts]] (Last Author)
 - [[2024-Jiang-WildTeaming at Scale|WildTeaming at Scale]]
 - [[2024-Sorensen-Value Kaleidoscope|Value Kaleidoscope]]
-- [[2025-Rao-NormAd|NormAd]]
+- [[2022-Hartvigsen-ToxiGen|ToxiGen]]
+- [[2022-Jiang-Can Machines Learn Morality|Can Machines Learn Morality?]]
+- [[2022-Kim-ProsocialDialog|ProsocialDialog]] (Last Author)
+- [[2022-Kim-SODA|SODA]]
+- [[2020-Forbes-Social Chemistry 101|Social Chemistry 101]]
+- [[2020-Gehman-RealToxicityPrompts|RealToxicityPrompts]]
+- [[2020-Sap-Social Bias Frames|Social Bias Frames]] (First Author)
 
 ## Notes
 
+
+- *From 2020-Forbes-Social Chemistry 101*: Affiliation: School of Computer Science & Engineering, University of Washington
 [Additional context or contact information]

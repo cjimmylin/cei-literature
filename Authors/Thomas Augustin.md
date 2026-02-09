@@ -1,6 +1,6 @@
 ---
 name: "Thomas Augustin"
-affiliation: "University/Organization"
+affiliation: "Department of Statistics, LMU Munich, Germany"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Rodemann-A Statistical Case Against Empirical Human-AI|A Statistical Case Against Empirical Human-AI]]
+
+- [[2025-Rodemann-A Statistical Case Against Empirical Human-AI|A Statistical Case Against Empirical Human-AI]] (Last Author)
 
 ## Notes
 
+
+- *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
 [Additional context or contact information]

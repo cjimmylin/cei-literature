@@ -8,6 +8,7 @@ type: document
 short_title: "MLCommons AILuminate Benchmark"
 year: 2025
 first_author: [[MLCommons]]
+last_author: "[[MLCommons]]"
 authors: MLCommons
 url: "https://mlcommons.org/benchmarks/ailuminate"
 national_ethnic_cultural: N/A

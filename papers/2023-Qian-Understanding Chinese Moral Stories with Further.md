@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Understanding Chinese Moral Stories with Further"
 year: 2025
 first_author: "[[Jing Qian]]"
+last_author: "[[Jing Qian]]"
 authors: "Jing Qian"
 doi: 10.5121/ijnlc.2023.12201
 url: "https://doi.org/10.5121/ijnlc.2023.12201"

@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: GuardBench
 year: 2024
 first_author: "[[GuardBench Team]]"
+last_author: "[[GuardBench Team]]"
 authors: GuardBench Team
 publication: EMNLP 2024
 external_pdf: "https://aclanthology.org/2024.emnlp-main.1022.pdf"

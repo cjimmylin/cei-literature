@@ -42,6 +42,7 @@ He teaches courses in Statistics, basics in Informatics, and Machine Learning fo
 
 ## Papers in this Vault
 
+
 - [[2025-Leteno-Histoires Morales|Histoires Morales]]
 
 ## Links
@@ -51,4 +52,6 @@ He teaches courses in Statistics, basics in Informatics, and Machine Learning fo
 
 ## Notes
 
+
+- *From 2025-Leteno-Histoires Morales*: Affiliation: Laboratoire Hubert Curien, UMR CNRS 5516, Saint-Etienne, France, Email: irina.proskurina@univ-lyon2.fr
 Metzler's work on fairness in machine learning and moral alignment datasets contributes to understanding bias in AI systems and developing culturally-appropriate evaluation methods.

@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Can an AI-carebot be filial"
 year: 2025
 first_author: "[[Kathryn Muyskens]]"
+last_author: "[[Dunn, Michael]]"
 authors: "[[Muyskens, Kathryn]]; [[Ma, Yonghui]]; [[Dunn, Michael]]"
 doi: 10.1177/09697330241238332
 url: "https://journals.sagepub.com/doi/10.1177/09697330241238332"
@@ -33,16 +34,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Kathryn Muyskens]], [[Yonghui Ma]], [[Michael Dunn]]
-## Metadata
-
-**Authors:** Muyskens, Kathryn; Ma, Yonghui; Dunn, Michael
-
-**Year:** 2024
-
-**Type:** journal article
-
-**Publisher:** Nursing Ethics (September 2024)
+[[Kathryn Muyskens|Muyskens, Kathryn]], [[Yonghui Ma|Ma, Yonghui]], [[Michael Dunn|Dunn, Michael]]
 
 ## Links
 

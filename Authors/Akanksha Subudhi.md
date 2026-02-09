@@ -19,8 +19,11 @@ Akanksha Subudhi is a researcher working on multimodal machine learning applicat
 
 ## Papers in this Vault
 
-- [[2025-Joshi-Multimodal machine learning for deception|Multimodal machine learning for deception detection using behavioral and physiological data]]
+
+- [[2025-Joshi-Multimodal machine learning for deception|Multimodal machine learning for deception]]
 
 ## Notes
 
+
+- *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 Contributed to research on multimodal deception detection published in Nature Scientific Reports (2025). The work integrates multiple data modalities for improved accuracy in detecting deceptive behavior.

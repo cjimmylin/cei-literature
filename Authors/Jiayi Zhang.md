@@ -1,6 +1,6 @@
 ---
 name: "Jiayi Zhang"
-affiliation: "University/Organization"
+affiliation: "University of Science and Technology"
 research_interests:
   - "LLM Interpretability"
   - "Value Neurons"
@@ -18,8 +18,11 @@ Jiayi Zhang is a researcher who has contributed to work on understanding how val
 
 ## Papers in this Vault
 
+
 - [[2025-Su-Understanding How Value Neurons Shape the|Understanding How Value Neurons Shape the]]
 
 ## Notes
 
+
+- *From 2025-Su-Understanding How Value Neurons Shape the*: Affiliation: University of Science and Technology
 This research area explores mechanistic interpretability of LLMs, specifically focusing on how neural components encode and represent human values, contributing to both alignment and explainability research.

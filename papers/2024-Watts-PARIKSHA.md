@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: PARIKSHA
 year: 2025
 first_author: "[[Ishaan Watts]]"
+last_author: "[[Sunayana Sitaram]]"
 authors: "Ishaan Watts; Varun Gumma; Aditya Yadavalli; Vivek Seshadri; Manohar Swaminathan; Sunayana Sitaram"
 doi: 10.48550/arXiv.2406.15053
 tags: 

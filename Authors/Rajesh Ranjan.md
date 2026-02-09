@@ -16,8 +16,11 @@ Multiple researchers named Rajesh Ranjan found: (1) Assistant Professor, Departm
 
 ## Papers in this Vault
 
-- [[2024-Ranjan-A Comprehensive Survey of Bias in LLMs|A Comprehensive Survey of Bias in LLMs]]
+
+- [[2024-Ranjan-A Comprehensive Survey of Bias in LLMs|A Comprehensive Survey of Bias in LLMs]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Ranjan-A Comprehensive Survey of Bias in LLMs*: Affiliation: University, USA)
 [Additional context or contact information]

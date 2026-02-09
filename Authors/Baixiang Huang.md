@@ -45,9 +45,9 @@ She has published research on the "double-edged sword" of model editing, highlig
 - [Can Editing LLMs Inject Harm?](https://arxiv.org/abs/2310.12942) (2023) - *Investigation into the safety risks of model manipulation.*
 
 ## Papers in this Vault
-- [[2025-Huang-Model Editing as a Double-Edged Sword|Model Editing as a Double-Edged Sword]]
 
-- [[2025-Huang-Ethics in Model Editing|Ethics in Model Editing]] (Note: Verify exact title in vault)
+- [[2025-Group-AILuminate|AILuminate]]
+- [[2025-Huang-Model Editing as a Double-Edged Sword|Model Editing as a Double-Edged Sword]] (First Author)
 
 ## External Links & Profiles
 
@@ -60,4 +60,6 @@ She has published research on the "double-edged sword" of model editing, highlig
 - [Personal Website](https://baixianghuang.github.io/)
 
 ## Notes
+
+- *From 2025-Huang-Model Editing as a Double-Edged Sword*:, Email: apayani@cisco.com
 Her research on steering agent behavior via model editing is critical for researchers working on runtime alignment and constitutional AI.

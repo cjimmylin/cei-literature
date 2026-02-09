@@ -34,7 +34,9 @@ Daniel Hershcovich is an Assistant Professor at the University of Copenhagen, sp
 - Work on cross-lingual semantic parsing
 
 ## Papers in this Vault
-- [[2023-Cao-Assessing Cross-Cultural Alignment between|Assessing Cross-Cultural Alignment between]]
+
+- [[2025-Liu-Cross-cultural value alignment frameworks|Cross-cultural value alignment frameworks]]
+- [[2023-Cao-Assessing Cross-Cultural Alignment between|Assessing Cross-Cultural Alignment between]] (Last Author)
 
 ## Links
 - Website: https://danielhers.github.io/

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "On the steerability of large language models"
 year: 2025
 first_author: "[[Junyi Li]]"
+last_author: "[[Rahul Gupta]]"
 authors: "Junyi Li; Ninareh Mehrabi; Charith Peris; Palash Goyal; Kai-Wei Chang; Aram Galstyan; Richard Zemel; Rahul Gupta"
 doi: 10.48550/arXiv.2311.04978
 tags: 

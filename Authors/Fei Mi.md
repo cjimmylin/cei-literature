@@ -1,6 +1,6 @@
 ---
 name: "Fei Mi"
-affiliation: "University/Organization"
+affiliation: "Institute for Artificial Intelligence; 1State Key Lab of Intelligent Technology and Systems"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+- [[2024-Zhao-CoSafe|CoSafe]]
 - [[2022-Sun-MoralDial|MoralDial]]
 
 ## Notes
 
+
+- *From 2022-Sun-MoralDial*: Affiliation: Institute for Artificial Intelligence; 1State Key Lab of Intelligent Technology and Systems, Email: aihuang@tsinghua.edu.cn
 [Additional context or contact information]

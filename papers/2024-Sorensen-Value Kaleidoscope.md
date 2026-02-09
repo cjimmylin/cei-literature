@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Value Kaleidoscope"
 year: 2025
 first_author: "[[Taylor Sorensen]]"
+last_author: "[[Choi, Yejin]]"
 authors: "[[Sorensen, Taylor]]; [[Jiang, Liwei]]; [[Hwang, Jena]]; [[Levine, Sydney]]; [[Pyatkin, Valentina]]; [[West, Peter]]; [[Dziri, Nouha]]; [[Lu, Ximing]]; [[Rao, Kavel]]; [[Bhagavatula, Chandra]]; [[Sap, Maarten]]; [[Tasioulas, John]]; [[Choi, Yejin]]"
 doi: 10.1609/aaai.v38i18.29970
 url: "http://arxiv.org/abs/2309.00779"
@@ -39,22 +40,7 @@ DATE_ADDED: 20260207
 
 ## Authors
 
-[[Taylor Sorensen]], [[Liwei Jiang]], [[Jena Hwang]], [[Sydney Levine]], [[Valentina Pyatkin]], [[Peter West]], [[Nouha Dziri]], [[Ximing Lu]], [[Kavel Rao]], [[Chandra Bhagavatula]], [[Maarten Sap]], [[John Tasioulas]], [[Yejin Choi]]
-## Metadata
-
-**Authors:** Sorensen, Taylor; Jiang, Liwei; Hwang, Jena; Levine, Sydney; Pyatkin, Valentina; West, Peter; Dziri, Nouha; Lu, Ximing; Rao, Kavel; Bhagavatula, Chandra; Sap, Maarten; Tasioulas, John; Choi, Yejin
-
-**Year:** 2024
-
-**Publication:** Proceedings of the AAAI Conference on Artificial Intelligence
-
-**Type:** journalArticle
-
-**DOI:** [10.1609/aaai.v38i18.29970](https://doi.org/10.1609/aaai.v38i18.29970)
-
-**Pages:** 19937-19947
-
-**Volume/Issue:** Vol. 38, Issue 18
+[[Taylor Sorensen|Sorensen, Taylor]], [[Liwei Jiang|Jiang, Liwei]], [[Jena Hwang|Hwang, Jena]], [[Sydney Levine|Levine, Sydney]], [[Valentina Pyatkin|Pyatkin, Valentina]], [[Peter West|West, Peter]], [[Nouha Dziri|Dziri, Nouha]], [[Ximing Lu|Lu, Ximing]], [[Kavel Rao|Rao, Kavel]], [[Chandra Bhagavatula|Bhagavatula, Chandra]], [[Maarten Sap|Sap, Maarten]], [[John Tasioulas|Tasioulas, John]], [[Yejin Choi|Choi, Yejin]]
 
 ## Links
 

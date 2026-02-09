@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: CrowS-Pairs
 year: 2025
 first_author: "[[Nikita Nangia]]"
+last_author: "[[Samuel R. Bowman]]"
 authors: "Nikita Nangia; Clara Vania; Rasika Bhalerao; Samuel R. Bowman"
 doi: 10.18653/v1/2020.emnlp-main.154
 url: "https://www.aclweb.org/anthology/2020.emnlp-main.154"

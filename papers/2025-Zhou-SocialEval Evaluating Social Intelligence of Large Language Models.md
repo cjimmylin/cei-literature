@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "SocialEval: Evaluating Social Intelligence of Large Language Models"
 year: 2025
 first_author: "[[Jinfeng Zhou]]"
+last_author: "[[Minlie Huang]]"
 authors: Jinfeng Zhou; Yuxuan Chen; Yihan Shi; Xuanming Zhang; Leqi Lei; Yi Feng; Zexuan Xiong; Miao Yan; Xunzhi Wang; Yaru Cao; Jianing Yin; Shuai Wang; Quanyu Dai; Zhenhua Dong; Hongning Wang; Minlie Huang
 url: "https://arxiv.org/abs/2506.00900"
 external_pdf: "https://arxiv.org/pdf/2506.00900.pdf"

@@ -3,7 +3,7 @@ name: "Alireza S. Ziabari"
 title: "PhD Candidate"
 affiliation: "University of Southern California (USC)"
 highest_degree: "M.Sc."
-email: ""
+email: "jptrager@usc.edu"
 research_interests:
   - "Natural Language Processing"
   - "Social Computing"
@@ -30,6 +30,7 @@ Alireza is a key contributor to the development of the *Moral Foundations Reddit
 - [The Moral Foundations Reddit Corpus](https://arxiv.org/abs/2208.00000) (2022) - *Large-scale dataset for moral psychology in online communities.*
 
 ## Papers in this Vault
+
 - [[2022-Trager-The Moral Foundations Reddit Corpus|The Moral Foundations Reddit Corpus]]
 
 ## External Links & Profiles
@@ -37,4 +38,6 @@ Alireza is a key contributor to the development of the *Moral Foundations Reddit
 - [Google Scholar](https://scholar.google.com/citations?user=Jt9en84AAAAJ)
 
 ## Notes
+
+- *From 2022-Trager-The Moral Foundations Reddit Corpus*: Affiliation: University of Southern California, Email: jptrager@usc.edu
 [Focused on computational methods for analyzing moral sentiment in natural language.]

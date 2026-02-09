@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Design Patterns for the Common Good"
 year: 2025
 first_author: "[[Louisa Conwill]]"
+last_author: "[[Scheirer, Walter J]]"
 authors: "[[Conwill, Louisa]]; [[Levis, Megan K.]]; [[Badillo-Urquiola, Karla]]; [[Scheirer, Walter J.]]"
 doi: 10.1145/3706598.3713546
 url: "https://arxiv.org/abs/2501.10288"
@@ -37,22 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Louisa Conwill]], [[Megan K. Levis]], [[Karla Badillo-Urquiola]], [[Walter J. Scheirer]]
-## Metadata
-
-**Authors:** Conwill, Louisa; Levis, Megan K.; Badillo-Urquiola, Karla; Scheirer, Walter J.
-
-**Year:** 2025
-
-**Publication:** Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
-
-**Type:** conferencePaper
-
-**DOI:** [10.1145/3706598.3713546](https://doi.org/10.1145/3706598.3713546)
-
-**Pages:** 1-23
-
-**Publisher:** ACM
+[[Louisa Conwill|Conwill, Louisa]], [[Levis, Megan K]], [[Karla Badillo-Urquiola|Badillo-Urquiola, Karla]], [[Scheirer, Walter J]]
 
 ## Links
 

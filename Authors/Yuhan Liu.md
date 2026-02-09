@@ -1,6 +1,6 @@
 ---
 name: "Yuhan Liu"
-affiliation: "University/Organization"
+affiliation: "University of Washington"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2023-Feng-From Pretraining Data to Language Models to|From Pretraining Data to Language Models to]]
 
 ## Notes
 
+
+- *From 2023-Feng-From Pretraining Data to Language Models to*: Affiliation: University of Washington, Email: chanyoun@cs.cmu.edu
 [Additional context or contact information]

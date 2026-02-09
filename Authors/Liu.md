@@ -17,8 +17,8 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Liu-CultureAtlas|CultureAtlas]]
-- [[2025-Liu-InstrumentalEval|InstrumentalEval]]
+
+- [[2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in|Analyzing the Safety of Japanese Large Language Models in Stereotype-Triggering Prompts]]
 
 ## Notes
 

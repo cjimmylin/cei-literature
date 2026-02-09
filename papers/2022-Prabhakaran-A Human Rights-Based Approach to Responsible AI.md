@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "A Human Rights-Based Approach to Responsible AI"
 year: 2025
 first_author: "[[Vinodkumar Prabhakaran]]"
+last_author: "[[Gabriel, Iason]]"
 authors: "[[Prabhakaran, Vinodkumar]]; [[Mitchell, Margaret]]; [[Gebru, Timnit]]; [[Gabriel, Iason]]"
 doi: 10.48550/arXiv.2210.02667
 url: "http://arxiv.org/abs/2210.02667"
@@ -39,18 +40,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Vinodkumar Prabhakaran]], [[Margaret Mitchell]], [[Timnit Gebru]], [[Iason Gabriel]]
-## Metadata
-
-**Authors:** Prabhakaran, Vinodkumar; Mitchell, Margaret; Gebru, Timnit; Gabriel, Iason
-
-**Year:** 2022
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2210.02667](https://doi.org/10.48550/arXiv.2210.02667)
-
-**Publisher:** arXiv
+[[Vinodkumar Prabhakaran|Prabhakaran, Vinodkumar]], [[Margaret Mitchell|Mitchell, Margaret]], [[Timnit Gebru|Gebru, Timnit]], [[Iason Gabriel|Gabriel, Iason]]
 
 ## Links
 

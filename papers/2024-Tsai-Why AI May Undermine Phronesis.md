@@ -6,6 +6,7 @@ type: journalArticle
 short_title: "Why AI May Undermine Phronesis"
 year: 2025
 first_author: "[[Cheng-hung Tsai]]"
+last_author: "[[Ku, Hsiu-lin]]"
 authors: "[[Tsai, Cheng-hung]]; [[Ku, Hsiu-lin]]"
 doi: 10.1007/s43681-024-00617-0
 url: "https://link.springer.com/article/10.1007/s43681-024-00617-0"
@@ -33,7 +34,7 @@ data_metrics: N/A
 
 ## Authors
 
-[[Cheng-hung Tsai]], [[Hsiu-lin Ku]]
+[[Tsai, Cheng-hung]], [[Ku, Hsiu-lin]]
 
 ## Metadata
 

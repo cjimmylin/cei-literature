@@ -9,6 +9,7 @@ type: preprint
 short_title: "EmoBench-M: Benchmarking Emotional Intelligence for Multimodal Large Language Models"
 year: 2025
 first_author: "[[He Hu]]"
+last_author: "[[Laizhong Cui]]"
 authors: He Hu; Yucheng Zhou; Lianzhong You; Hongbo Xu; Qianning Wang; Zheng Lian; Fei Richard Yu; Fei Ma; Laizhong Cui
 url: "https://arxiv.org/abs/2502.04424"
 external_pdf: "https://arxiv.org/pdf/2502.04424.pdf"

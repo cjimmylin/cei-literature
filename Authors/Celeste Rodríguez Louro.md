@@ -46,7 +46,8 @@ Rodríguez Louro's work provides a critical "Sociolinguistic Baseline" for AI sy
 
 ## Papers in this Vault
 
-- [[2024-Rodríguez Louro-The Yarning Corpus|The Yarning Corpus]]
+
+- [[2024-Rodríguez Louro-The Yarning Corpus|The Yarning Corpus]] (First Author)
 
 ## External Links & Profiles
 
@@ -55,4 +56,6 @@ Rodríguez Louro's work provides a critical "Sociolinguistic Baseline" for AI sy
 - [UWA Faculty Page](https://research-repository.uwa.edu.au/en/persons/celeste-rodriguez-louro)
 
 ## Notes
+
+- *From 2024-Rodríguez Louro-The Yarning Corpus*: Affiliation: University of Western Australia and The University of Western Australia & Mallee Mungart Aboriginal
 Celeste's work is vital for the "Linguistic Alignment" of AI, preventing the erasure of marginalized dialects in globalized language models.

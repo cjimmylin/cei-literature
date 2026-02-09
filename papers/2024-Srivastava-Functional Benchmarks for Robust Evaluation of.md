@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Functional Benchmarks for Robust Evaluation of"
 year: 2025
 first_author: "[[Saurabh Srivastava]]"
+last_author: "[[Sooraj Thomas]]"
 authors: "Saurabh Srivastava; Annarose M B; Anto P; Shashank Menon; Ajay Sukumar; Adwaith Samod T; Alan Philipose; Stevin Prince; Sooraj Thomas"
 doi: 10.48550/arXiv.2402.19450
 url: "http://arxiv.org/abs/2402.19450"
@@ -60,7 +61,7 @@ We propose a framework for robust evaluation of reasoning capabilities of langua
 
 ## Authors
 
-[[Saurabh Srivastava]], [[Annarose M B]], [[Anto P]], [[Shashank Menon]], [[Ajay Sukumar]], [[Adwaith Samod T]], [[Alan Philipose]], [[Stevin Prince]], [[Sooraj Thomas]]
+[[Saurabh Srivastava]], [[Annarose M. B|Annarose M B]], [[Anto P]], [[Shashank Menon]], [[Ajay Sukumar]], [[Adwaith Samod T]], [[Alan Philipose]], [[Stevin Prince]], [[Sooraj Thomas]]
 
 ## Notes
 

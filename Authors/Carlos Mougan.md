@@ -3,7 +3,7 @@ name: "Carlos Mougan"
 title: "Technical Specialist (AI Safety)"
 affiliation: "European Commission / University of Southampton"
 highest_degree: "PhD, AI, Southampton (2024)"
-email: ""
+email: "huangac@usc.edu"
 research_interests:
   - "Model Monitoring"
   - "AI Alignment"
@@ -47,7 +47,9 @@ Mougan's work on "Kantian Deontology Meets AI Alignment" provides a rigorous eth
 
 ## Papers in this Vault
 
-- [[2024-Mougan-Kantian Deontology Meets AI Alignment|Kantian Deontology Meets AI Alignment]]
+
+- [[2024-Huang-Moral Persuasion in Large Language Models|Moral Persuasion in Large Language Models]] (Last Author)
+- [[2023-Mougan-Kantian Deontology Meets AI Alignment|Kantian Deontology Meets AI Alignment]] (First Author)
 
 ## External Links & Profiles
 
@@ -56,4 +58,6 @@ Mougan's work on "Kantian Deontology Meets AI Alignment" provides a rigorous eth
 - [Official Website](https://carlosmougan.com/)
 
 ## Notes
+
+- *From 2024-Huang-Moral Persuasion in Large Language Models*: Affiliation: University of Southern California, Email: huangac@usc.edu
 Carlos is a rare example of a researcher who bridges the gap between deep mathematical modeling (distribution shifts) and high-level political philosophy (Kantian ethics).

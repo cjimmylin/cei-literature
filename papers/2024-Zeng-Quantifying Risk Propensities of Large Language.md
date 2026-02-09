@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Quantifying Risk Propensities of Large Language"
 year: 2025
 first_author: "[[Yifan Zeng]]"
+last_author: "[[Peijia Zheng]]"
 authors: "Yifan Zeng; Liang Kairong; Fangzhou Dong; Peijia Zheng"
 doi: 10.48550/arXiv.2411.08884
 url: "http://arxiv.org/abs/2411.08884"

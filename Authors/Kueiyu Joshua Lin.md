@@ -1,6 +1,6 @@
 ---
 name: "Kueiyu Joshua Lin"
-affiliation: "University/Organization"
+affiliation: "Department of"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Gu-Probabilistic medical predictions of large|Probabilistic medical predictions of large]]
 
 ## Notes
 
+
+- *From 2024-Gu-Probabilistic medical predictions of large*: Affiliation: Department of, Email: jyang66@bwh.harvard.edu
 [Additional context or contact information]

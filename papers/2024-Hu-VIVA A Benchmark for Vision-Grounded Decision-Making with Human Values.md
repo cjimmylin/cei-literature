@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: "VIVA: A Benchmark for Vision-Grounded Decision-Making with Human Values"
 year: 2024
 first_author: "[[Z. Hu]]"
+last_author: "[[Z. Hu]]"
 authors: Hu, Z. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2407.03000"
 external_pdf: "https://arxiv.org/pdf/2407.03000.pdf"
 local_pdf: "[[PDFs/2024/2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Hu, Z. et al.]]
+[[Z. Hu]]
 
 ## Metadata
 

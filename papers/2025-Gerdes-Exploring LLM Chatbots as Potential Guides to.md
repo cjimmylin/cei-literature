@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Exploring LLM Chatbots as Potential Guides to"
 year: 2025
 first_author: "[[Anne Gerdes]]"
+last_author: "[[Peter Øhrstrøm]]"
 authors: "Anne Gerdes; Peter Øhrstrøm"
 doi: 10.1080/14746700.2025.2514300
 url: "https://www.tandfonline.com/doi/full/10.1080/14746700.2025.2514300"

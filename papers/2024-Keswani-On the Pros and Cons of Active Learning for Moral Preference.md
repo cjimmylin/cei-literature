@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: On the Pros and Cons of Active Learning for Moral Preference Elicitation
 year: 2024
 first_author: "[[Vijay Keswani]]"
+last_author: "[[Walter Sinnott-Armstrong]]"
 authors: Vijay Keswani; Vincent Conitzer; Hoda Heidari; Jana Schaich Borg; Walter Sinnott-Armstrong
 doi: 10.1609/aies.v7i1.31673
 url: "https://arxiv.org/abs/2407.18889"

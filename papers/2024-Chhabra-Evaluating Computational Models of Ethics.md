@@ -9,6 +9,7 @@ type: journalArticle
 short_title: "Evaluating Computational Models of Ethics"
 year: 2025
 first_author: "[[Jatin Chhabra]]"
+last_author: "[[Jay Deshmukh]]"
 authors: Jatin Chhabra; Kartik Sama; Jay Deshmukh
 doi: 10.1007/s43681-024-00532-4
 url: "https://link.springer.com/article/10.1007/s43681-024-00532-4"

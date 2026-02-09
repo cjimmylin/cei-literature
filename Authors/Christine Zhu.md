@@ -28,6 +28,7 @@ Christine Zhu is a researcher affiliated with the Center for AI Safety (CAIS), w
 - Part of the team that created foundational benchmarks for moral AI agents at NeurIPS 2021
 
 ## Papers in this Vault
+
 - [[2022-Hendrycks-What Would Jiminy Cricket Do|What Would Jiminy Cricket Do?]]
 
 ## External Links & Profiles

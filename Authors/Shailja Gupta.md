@@ -1,6 +1,6 @@
 ---
 name: "Shailja Gupta"
-affiliation: "University/Organization"
+affiliation: "University, USA)"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Ranjan-A Comprehensive Survey of Bias in LLMs|A Comprehensive Survey of Bias in LLMs]]
 
 ## Notes
 
+
+- *From 2024-Ranjan-A Comprehensive Survey of Bias in LLMs*: Affiliation: University, USA)
 [Additional context or contact information]

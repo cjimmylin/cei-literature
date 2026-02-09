@@ -1,6 +1,6 @@
 ---
 name: "Lawrence Chan"
-affiliation: "University/Organization"
+affiliation: "University of Oxford (CS)"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2022-Ngo-The Alignment Problem from a Deep Learning|The Alignment Problem from a Deep Learning]]
 
 ## Notes
 
+
+- *From 2022-Ngo-The Alignment Problem from a Deep Learning*: Affiliation: University of Oxford (CS), Email: richard@openai.com
 [Additional context or contact information]

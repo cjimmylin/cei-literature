@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Large Language Model Psychometrics"
 year: 2025
 first_author: "[[Haoran Ye]]"
+last_author: "[[Guojie Song]]"
 authors: "Haoran Ye; Jing Jin; Yuhang Xie; Xin Zhang; Guojie Song"
 doi: 10.48550/arXiv.2505.08245
 url: "http://arxiv.org/abs/2505.08245"

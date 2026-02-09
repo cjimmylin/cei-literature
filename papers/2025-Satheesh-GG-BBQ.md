@@ -8,6 +8,7 @@ type: document
 short_title: GG-BBQ
 year: 2025
 first_author: "[[Shalaka Satheesh]]"
+last_author: "[[Teena Hassan]]"
 authors: "Shalaka Satheesh; Katrin Klug; Katharina Beckh; Héctor Allende-Cid; Sebastian Houben; Teena Hassan"
 url: "https://arxiv.org/abs/2507.16410"
 external_pdf: "https://arxiv.org/pdf/2507.16410.pdf"
@@ -55,7 +56,7 @@ Within the context of Natural Language Processing (NLP), fairness evaluation is 
 
 ## Authors
 
-[[Shalaka Satheesh]], [[Katrin Klug]], [[Katharina Beckh]], [[Héctor Allende-Cid]], [[Sebastian Houben]], [[Teena Hassan]]
+[[Shalaka Satheesh]], [[Katrin Klug]], [[Katharina Beckh]], [[Hector Allende-Cid|Héctor Allende-Cid]], [[Sebastian Houben]], [[Teena Hassan]]
 
 ## Notes
 

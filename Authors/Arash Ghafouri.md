@@ -3,7 +3,7 @@ name: "Arash Ghafouri"
 title: "PhD Candidate"
 affiliation: "Iran University of Science and Technology"
 highest_degree: "MEng, Computer Engineering"
-email: ""
+email: "naderi@iust.ac.ir"
 research_interests:
   - "Natural Language Processing"
   - "Information Retrieval"
@@ -37,7 +37,8 @@ Ghafouri has published research on supervised deep learning approaches for bilin
 
 ## Papers in this Vault
 
-(Auto-generated list of linked papers)
+
+- [[2023-Ghafouri-IslamicPCQA|IslamicPCQA]] (First Author)
 
 ## External Links & Profiles
 
@@ -48,4 +49,6 @@ Ghafouri has published research on supervised deep learning approaches for bilin
 
 ## Notes
 
+
+- *From 2023-Ghafouri-IslamicPCQA*: Affiliation: University of Science and Technology, Email: naderi@iust.ac.ir
 His work on multilingual NLP for Arabic and Persian contributes to ensuring AI language technologies serve diverse linguistic communities, addressing the dominance of English-centric models in the field.

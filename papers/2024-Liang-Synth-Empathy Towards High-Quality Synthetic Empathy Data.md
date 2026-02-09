@@ -9,6 +9,7 @@ type: preprint
 short_title: "Synth-Empathy: Towards High-Quality Synthetic Empathy Data"
 year: 2024
 first_author: "[[Hao Liang]]"
+last_author: "[[Wentao Zhang]]"
 authors: Hao Liang; Linzhuang Sun; Jingxuan Wei; Xijie Huang; Linkun Sun; Bihui Yu; Conghui He; Wentao Zhang
 url: "https://arxiv.org/abs/2407.21669"
 external_pdf: "https://arxiv.org/pdf/2407.21669.pdf"

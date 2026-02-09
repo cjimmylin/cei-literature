@@ -8,6 +8,7 @@ type: preprint
 short_title: "Estimating the Personality of White-Box Language"
 year: 2025
 first_author: "[[Saketh Reddy Karra]]"
+last_author: "[[Theja Tulabandhula]]"
 authors: "Saketh Reddy Karra; Son The Nguyen; Theja Tulabandhula"
 doi: 10.48550/arXiv.2204.12000
 url: "http://arxiv.org/abs/2204.12000"

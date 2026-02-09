@@ -20,8 +20,11 @@ Ananya Kumar is an Assistant Professor in the Machine Learning Department at Car
 
 ## Papers in this Vault
 
+
 - [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]
 
 ## Notes
 
+
+- *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: tonyhlee@stanford.edu
 Previously at Stanford University during PhD; joined CMU faculty. Key contributor to HELM benchmark which has become a standard for LLM evaluation.

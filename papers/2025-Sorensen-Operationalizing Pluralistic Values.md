@@ -9,6 +9,7 @@ type: preprint
 short_title: "Operationalizing Pluralistic Values"
 year: 2025
 first_author: "[[Taylor Sorensen]]"
+last_author: "[[Taylor Sorensen]]"
 authors: "[[Sorensen, Taylor]]"
 doi: 10.48550/arXiv.2511.14476
 tags: "Computer Science - AI Ethics"
@@ -41,17 +42,6 @@ normative_ethics_benchmark: Borderline
 ## Authors
 
 [[Taylor Sorensen]]
-## Metadata
-
-**Authors:** Sorensen, Taylor
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2511.14476](https://doi.org/10.48550/arXiv.2511.14476)
-
-**Publisher:** arXiv
 
 ## Links
 

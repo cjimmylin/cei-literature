@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Benchmarking question answering systems"
 year: 2025
 first_author: "[[Ricardo Usbeck]]"
+last_author: "[[Christina Unger]]"
 authors: "Ricardo Usbeck; Michael Röder; Michael Hoffmann; Felix Conrads; Jonathan Huthmann; Axel-Cyrille Ngonga-Ngomo; Christian Demmler; Christina Unger"
 doi: 10.3233/SW-180312
 url: "https://journals.sagepub.com/doi/full/10.3233/SW-180312"

@@ -18,8 +18,12 @@ Nihar R. Sahoo is a PhD student at IIT Bombay, India, advised by Prof. Pushpak B
 
 ## Papers in this Vault
 
-- [[2022-Sahoo-Detecting Unintended Social Bias in Toxic|Detecting Unintended Social Bias in Toxic]]
+
+- [[2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context|IndiBias -- Benchmark Dataset for Social Biases in Indian Context]] (First Author)
+- [[2022-Sahoo-Detecting Unintended Social Bias in Toxic|Detecting Unintended Social Bias in Toxic]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context*: Affiliation: lable in En-, Email: garimell@adobe.com
 [Additional context or contact information]

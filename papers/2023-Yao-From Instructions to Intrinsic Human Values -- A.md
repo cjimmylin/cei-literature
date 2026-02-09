@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "From Instructions to Intrinsic Human Values -- A"
 year: 2025
 first_author: "[[Jing Yao]]"
+last_author: "[[Xing Xie]]"
 authors: "Jing Yao; Xiaoyuan Yi; Xiting Wang; Jindong Wang; Xing Xie"
 doi: 10.48550/arXiv.2308.12014
 url: "http://arxiv.org/abs/2308.12014"

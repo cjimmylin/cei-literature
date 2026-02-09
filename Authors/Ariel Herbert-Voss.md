@@ -45,7 +45,8 @@ She has co-authored influential research on red-teaming and the security implica
 
 ## Papers in this Vault
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+
+- [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## External Links & Profiles
 
@@ -57,4 +58,6 @@ She has co-authored influential research on red-teaming and the security implica
 - [Twitter/X](https://twitter.com/ariel_hv)
 
 ## Notes
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 [Ariel is a top expert in red-teaming and the adversarial security of foundation models.]

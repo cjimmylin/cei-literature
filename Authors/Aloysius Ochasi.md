@@ -3,7 +3,7 @@ name: "Aloysius Ochasi"
 title: "Associate Professor of Bioethics"
 affiliation: "East Carolina University (Brody School of Medicine)"
 highest_degree: "STL (Licentiate in Sacred Theology) / PhD"
-email: ""
+email: "jung.ha@khu.ac.kr"
 research_interests:
   - "Bioethics"
   - "Clinical Ethics"
@@ -30,11 +30,14 @@ Aloysius's research focuses on the ethical implications of emerging technologies
 - (Various contributions to clinical bioethics and pastoral care journals.)
 
 ## Papers in this Vault
-- [[2025-Neuman-PRIME Framework Convergent Ethics|PRIME Framework Convergent Ethics]]
+
+- [[2025-Ochasi-Reframing Justice in Healthcare AI|Reframing Justice in Healthcare AI]] (First Author)
 
 ## External Links & Profiles
 - [University Profile](https://bioethics.ecu.edu/aloysius-al-ochasi/)
 - [LinkedIn](https://www.linkedin.com/in/al-ochasi-3843586/)
 
 ## Notes
+
+- *From 2025-Ochasi-Reframing Justice in Healthcare AI*: Affiliation: School of Physical Education, Kyung Hee University, Yongin 17104, Republic of Korea, Email: jung.ha@khu.ac.kr
 [Brings a theological bioethics perspective to the broader discussion of convergent ethics in technology.]

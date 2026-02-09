@@ -9,7 +9,8 @@ type: preprint
 short_title: "OvertonScore: Benchmarking Overton Pluralism in LLMs"
 year: 2025
 first_author: "[[E. Poole-Dayan]]"
-authors: Poole-Dayan, E. et al.
+last_author: "[[Michiel A. Bakker]]"
+authors: "Elinor Poole-Dayan; Jiayi Wu; Taylor Sorensen; Jiaxin Pei; Michiel A. Bakker"
 url: "https://arxiv.org/abs/2512.01351"
 external_pdf: "https://arxiv.org/pdf/2512.01351.pdf"
 local_pdf: "[[PDFs/2025/2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs.pdf]]"
@@ -37,7 +38,7 @@ data_metrics: "60 questions"
 
 ## Authors
 
-[[Poole-Dayan, E. et al.]]
+[[Elinor Poole-Dayan]], [[Jiayi Wu]], [[Taylor Sorensen]], [[Jian Pei|Jiaxin Pei]], [[Michiel Bakker|Michiel A. Bakker]]
 
 ## Metadata
 

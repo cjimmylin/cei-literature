@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: "DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020"
 first_author: "[[Dorine van Norren]]"
+last_author: "[[Dorine van Norren]]"
 authors: "Dorine van Norren"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/XKSEZXMK/van Norren - DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020 (Africa Study Centre).pdf"
 national_ethnic_cultural: African/Ubuntu

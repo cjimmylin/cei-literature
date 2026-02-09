@@ -33,6 +33,7 @@ David Nderitu is a researcher working on African philosophy and its applications
 
 ## Papers in this Vault
 
+
 - [[2024-Odero-The Ubuntu Way|The Ubuntu Way]]
 
 ## Links

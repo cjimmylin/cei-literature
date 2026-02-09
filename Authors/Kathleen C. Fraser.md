@@ -20,7 +20,8 @@ Kathleen Fraser is a Research Officer in the Text Analytics group at the Nationa
 
 ## Papers in this Vault
 
-- [[2022-Fraser-Does Moral Code Have a Moral Code|Does Moral Code Have a Moral Code?]]
+
+- [[2022-Fraser-Does Moral Code Have a Moral Code|Does Moral Code Have a Moral Code?]] (First Author)
 
 ## Notes
 

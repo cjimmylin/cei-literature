@@ -1,6 +1,6 @@
 ---
 name: "Rafael Palacios"
-affiliation: "University/Organization"
+affiliation: "Laboratory, Massachusetts Institute of Technology, 32 Vassar St"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Rashid-Evaluating Prompt Injection Attacks with|Evaluating Prompt Injection Attacks with]]
 
 ## Notes
 
+
+- *From 2025-Rashid-Evaluating Prompt Injection Attacks with*: Affiliation: Laboratory, Massachusetts Institute of Technology, 32 Vassar St, Email: aneeshg@mit.edu
 [Additional context or contact information]

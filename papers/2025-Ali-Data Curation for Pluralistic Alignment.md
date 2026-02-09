@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Data Curation for Pluralistic Alignment"
 year: 2025
 first_author: "[[Dalia Ali]]"
+last_author: "[[Orestis Papakyriakopoulos]]"
 authors: "Dalia Ali; Aysenur Kocak; Michèle Wieland; Dora Zhao; Allison Koenecke; Orestis Papakyriakopoulos"
 url: "https://openreview.net/forum?id=JH9xhvSr4q"
 national_ethnic_cultural: N/A

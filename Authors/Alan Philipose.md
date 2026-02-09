@@ -3,7 +3,7 @@ name: "Alan Philipose"
 title: "AI Researcher"
 affiliation: "Consequent AI"
 highest_degree: "B.Sc. / Research Engineer"
-email: ""
+email: "saurabh@consequent.ai."
 research_interests:
   - "Language Model Reasoning"
   - "Functional Benchmarks"
@@ -31,7 +31,10 @@ Alan co-developed the `fneval` framework, which transforms standard benchmark qu
 
 ## Papers in this Vault
 
+
 - [[2024-Srivastava-Functional Benchmarks for Robust Evaluation of|Functional Benchmarks for Robust Evaluation of]]
 
 ## Notes
+
+- *From 2024-Srivastava-Functional Benchmarks for Robust Evaluation of*: Affiliation: lable at https://github, Email: saurabh@consequent.ai.
 [Specializes in the technical transition from static evaluation to dynamic, functional testing.]

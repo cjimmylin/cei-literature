@@ -36,7 +36,8 @@ Pipitone's recent work, published in Scientific Reports (January 2025), demonstr
 
 ## Papers in this Vault
 
-- [[2025-Pipitone-Unlocking practical wisdom|Unlocking practical wisdom]]
+
+- [[2025-Pipitone-Unlocking practical wisdom|Unlocking practical wisdom]] (First Author)
 
 ## Notes
 

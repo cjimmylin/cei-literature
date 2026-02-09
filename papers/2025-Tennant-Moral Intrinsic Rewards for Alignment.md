@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Moral Intrinsic Rewards for Alignment"
 year: 2025
 first_author: "[[Elizaveta Tennant]]"
+last_author: "[[Mirco Musolesi]]"
 authors: "Elizaveta Tennant; Stephen Hailes; Mirco Musolesi"
 doi: N/A
 url: "https://openreview.net/forum?id=ZFk4eh0WcL"

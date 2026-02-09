@@ -1,6 +1,6 @@
 ---
 name: "Jacob Steinhardt"
-affiliation: "University/Organization"
+affiliation: "lable supervision”), or undesirable behavior during the learning process (“safe exploration”"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,10 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+- [[2022-Hendrycks-What Would Jiminy Cricket Do|What Would Jiminy Cricket Do?]] (Last Author)
+- [[2021-Hendrycks-Aligning AI with Shared Human Values|Aligning AI with Shared Human Values]] (Last Author)
 - [[2016-Amodei-Concrete Problems in AI Safety|Concrete Problems in AI Safety]]
-- [[2021-Hendrycks-Aligning AI with Shared Human Values|Aligning AI with Shared Human Values]]
-- [[2022-Hendrycks-What Would Jiminy Cricket Do|What Would Jiminy Cricket Do?]]
 
 ## Notes
 
+
+- *From 2016-Amodei-Concrete Problems in AI Safety*: Affiliation: lable supervision”), or undesirable behavior during the learning process (“safe exploration”
 [Additional context or contact information]

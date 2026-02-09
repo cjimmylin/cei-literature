@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "GAMEBoT: Transparent Assessment of LLM Reasoning in Games"
 year: 2025
 first_author: "[[Wenye Lin]]"
+last_author: "[[Kai Han]]"
 authors: Wenye Lin; Jonathan Roberts; Yunhan Yang; Samuel Albanie; Zongqing Lu; Kai Han
 url: "https://arxiv.org/abs/2412.13602"
 external_pdf: "https://arxiv.org/pdf/2412.13602.pdf"

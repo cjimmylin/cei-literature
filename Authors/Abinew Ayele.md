@@ -3,7 +3,7 @@ name: "Abinew Ayele"
 title: "Research Scientist"
 affiliation: "University of Hamburg (Natural Language Systems Group)"
 highest_degree: "PhD, (In Progress)"
-email: ""
+email: "shmuhammad.csc@buk.edu.ng"
 research_interests:
   - "Low-resource NLP"
   - "Sentiment Analysis"
@@ -32,6 +32,7 @@ Abinew's research program centers on sentiment analysis and social NLP for Afric
 
 ## Papers in this Vault
 
+
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
 - [[2023-Muhammad-SemEval-2023 Task 12|SemEval-2023 Task 12]]
 
@@ -45,4 +46,6 @@ Abinew's research program centers on sentiment analysis and social NLP for Afric
 - [Personal Website](https://abinew-ali.netlify.app/)
 
 ## Notes
+
+- *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 [A leading expert in the linguistic and social impact of AI on African digital spaces.]

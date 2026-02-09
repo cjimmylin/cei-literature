@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: ProgressGym
 year: 2025
 first_author: "[[Tianyi Qiu]]"
+last_author: "[[Yaodong Yang]]"
 authors: "Tianyi Qiu; Yang Zhang; Xuchuan Huang; Jasmine Xinze Li; Jiaming Ji; Yaodong Yang"
 doi: 10.48550/arXiv.2406.20087
 url: "http://arxiv.org/abs/2406.20087"

@@ -1,6 +1,6 @@
 ---
 name: "Shervin Malmasi"
-affiliation: "University/Organization"
+affiliation: "University, Agra, 2Charles University, Faculty of Mathematics and Physics Institute of"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2020-Kumar-Evaluating Aggression Identification in Social|Evaluating Aggression Identification in Social]]
 
 ## Notes
 
+
+- *From 2020-Kumar-Evaluating Aggression Identification in Social*: Affiliation: University, Agra, 2Charles University, Faculty of Mathematics and Physics Institute of, Email: marcos.zampieri@rit.edu
 [Additional context or contact information]

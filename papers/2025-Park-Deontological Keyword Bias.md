@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Deontological Keyword Bias"
 year: 2025
 first_author: "[[Bumjin Park]]"
+last_author: "[[Jaesik Choi]]"
 authors: "[[Bumjin Park]], [[Jinsil Lee]], [[Jaesik Choi]]"
 doi: 10.48550/arXiv.2506.11068
 tags: "Computer Science - Computation and Language"
@@ -38,18 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[[[Bumjin Park]], [[Jinsil Lee]], [[Jaesik Choi]]]]
-## Metadata
-
-**Authors:** Park, Bumjin; Lee, Jinsil; Choi, Jaesik
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2506.11068](https://doi.org/10.48550/arXiv.2506.11068)
-
-**Publisher:** arXiv
+[[Bumjin Park]], [[Jinsil Lee]], [[Jaesik Choi]]
 
 ## Links
 

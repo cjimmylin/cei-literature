@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: "Characterizing AI Agents for Alignment and"
 first_author: "[[Atoosa Kasirzadeh]]"
+last_author: "[[Iason Gabriel]]"
 authors: "Atoosa Kasirzadeh; Iason Gabriel"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/UUHA3RW9/Kasirzadeh and Gabriel - Characterizing AI Agents for Alignment and Governance.pdf"
 national_ethnic_cultural: N/A

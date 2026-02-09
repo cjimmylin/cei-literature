@@ -2,6 +2,49 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 53 (Feb 8, 2026) - Author-Paper Linking & Last Author Annotation
+
+### Overview
+
+Built comprehensive bidirectional author-paper mapping with first/last author position annotations across all 846 papers and 4,145 author profiles. Five-phase pipeline: (1) parse all papers and resolve "et al." via APIs, (2) disambiguate 4,245 unique author names against 3,354 existing profiles using 6-tier matching, (3) add `last_author` YAML field to all papers, (4) rebuild all author profile paper lists with position annotations, (5) cross-reference verification.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Papers with `last_author` added | 846 |
+| Author profiles updated | 3,195 |
+| New author stubs created | 791 (3,354 → 4,145 total) |
+| "et al." resolved via API | 13 (CrossRef 6, Semantic Scholar 7) |
+| "et al." flagged incomplete | 69 |
+| Profiles enriched w/ affiliations | 2,830 |
+| Disambiguation match rate | 80.9% (3,436/4,245) |
+| Review queue items | 809 |
+| YAML validation | 846/846 pass, 0 errors |
+
+### Key Learnings
+- [API] arXiv `search_query=arXiv:{id}` endpoint was unreliable (0/82 hits) — `id_list` parameter is preferred
+- [YAML] `pdf_extract` field can contain abstract text instead of a file path — must validate length/format before `Path.exists()` to avoid OSError
+- [Author Management] "et al." removal leaves trailing periods on author names ("Shen.") — need `clean_author_for_yaml()` function to strip artifacts
+- [Author Management] 6-tier disambiguation (exact→redirect→normalized→initials→coauthor→new) achieved 80.9% match with zero false positives by being conservative on ambiguous matches
+- [Workflows] Affiliation extraction from PDF extracts picks up abstract fragments as noise (~30% false positive rate) — adequate for bulk enrichment but not reliable for individual accuracy
+
+### Scripts Created
+- `PYTHON/build_author_paper_map.py`: Phase 1 — Parse papers, resolve "et al." via arXiv/CrossRef/Semantic Scholar APIs
+- `PYTHON/disambiguate_authors.py`: Phase 2 — 6-tier author name matching with review queue
+- `PYTHON/update_paper_last_author.py`: Phase 3 — Add `last_author` YAML field, expand resolved author lists
+- `PYTHON/rebuild_author_profiles.py`: Phase 4 — Rebuild "Papers in this Vault" sections with position annotations
+- `PYTHON/verify_author_paper_links.py`: Phase 5 — Cross-reference verification report
+
+### Files Changed
+- `papers/`: 846 modified (all got `last_author` field; 13 got expanded authors; 69 got `authors_incomplete` flag)
+- `Authors/`: 3,986 (3,195 modified + 791 new stubs)
+- `PYTHON/`: 5 new scripts
+- `STATISTICS/`: 1 new verification report
+- `logs/`: 4 new data files (map, disambiguation, review queue, status)
+
+---
+
 ## Session 52 (Feb 8, 2026) - Systematic Deduplication: 923 → 846 Papers
 
 ### Overview

@@ -3,7 +3,7 @@ name: "A B M Ashikur Rahman"
 title: "Assistant Professor"
 affiliation: "Islamic University of Technology (IUT), Dhaka"
 highest_degree: "MS, Computer Science"
-email: ""
+email: "saeed.anwar@kfupm.edu.sa"
 research_interests:
   - "Large Language Models"
   - "Hallucination Detection"
@@ -37,7 +37,8 @@ Rahman has published research across diverse AI applications including COVID-19 
 
 ## Papers in this Vault
 
-(Auto-generated list of linked papers)
+
+- [[2024-Rahman-DefAn|DefAn]] (First Author)
 
 ## External Links & Profiles
 
@@ -50,4 +51,6 @@ Rahman has published research across diverse AI applications including COVID-19 
 
 ## Notes
 
+
+- *From 2024-Rahman-DefAn*: Affiliation: Department, KFUPM, Email: saeed.anwar@kfupm.edu.sa
 His work on hallucination detection is essential for ensuring AI systems provide trustworthy information, particularly in high-stakes domains where factual accuracy is critical for alignment and safety.

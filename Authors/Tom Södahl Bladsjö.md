@@ -20,8 +20,11 @@ Tom Södahl Bladsjö is a researcher at the University of Gothenburg (Göteborgs
 
 ## Papers in this Vault
 
-- [[2025-Södahl Bladsjö-MARB|MARB]]
+
+- [[2025-Södahl Bladsjö-MARB|MARB]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Södahl Bladsjö-MARB*: Affiliation: University, Sweden, Email: ricardo.munoz.sanchez@gu.se
 [Additional context or contact information]

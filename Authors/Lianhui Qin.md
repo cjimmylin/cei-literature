@@ -1,6 +1,6 @@
 ---
 name: "Lianhui Qin"
-affiliation: "University/Organization"
+affiliation: "School of Computer Science & Engineering, University of Washington"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2020-Sap-Social Bias Frames|Social Bias Frames]]
 
 ## Notes
 
+
+- *From 2020-Sap-Social Bias Frames*: Affiliation: School of Computer Science & Engineering, University of Washington
 [Additional context or contact information]

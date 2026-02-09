@@ -32,12 +32,15 @@ Chris Biemann is a Professor of Language Technology at the University of Hamburg
 
 ## Papers in this Vault
 
+
+- [[2023-Ayele-Amharic Hate Speech Dataset|Amharic Hate Speech Dataset]] (Last Author)
 - [[2020-Mathew-HateXplain|HateXplain]]
-- [[2023-Ayele-Amharic Hate Speech Dataset|Amharic Hate Speech Dataset]]
 
 ## External Links & Profiles
 - [University Profile](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html)
 
 ## Notes
 
+
+- *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: animeshm@cse.iitkgp.ac.in
 Chris Biemann's work emphasizes the importance of *explanation* in safety systems, arguing that detection alone is insufficient for robust moderation.

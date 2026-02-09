@@ -1,6 +1,6 @@
 ---
 name: "Michelle Phan"
-affiliation: "University/Organization"
+affiliation: "University, Cornell Tech"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Wang-Measuring Desired Group Discrimination in LLMs|Measuring Desired Group Discrimination in LLMs]]
 
 ## Notes
 
+
+- *From 2025-Wang-Measuring Desired Group Discrimination in LLMs*: Affiliation: University, Cornell Tech
 [Additional context or contact information]

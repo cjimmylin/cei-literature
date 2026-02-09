@@ -1,6 +1,6 @@
 ---
 name: "Lucius Caviola"
-affiliation: "University/Organization"
+affiliation: "University of Cambridge"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Jotautaitė-Speciesism in AI|Speciesism in AI]]
 
 ## Notes
 
+
+- *From 2025-Jotautaitė-Speciesism in AI*: Affiliation: University of Cambridge
 [Additional context or contact information]

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: KorNAT
 year: 2025
 first_author: "[[Jiyoung Lee]]"
+last_author: "[[Edward Choi]]"
 authors: "Jiyoung Lee; Minwoo Kim; Seungho Kim; Junghwan Kim; Seunghyun Won; Hwaran Lee; Edward Choi"
 doi: 10.18653/v1/2024.findings-acl.666
 url: "https://aclanthology.org/2024.findings-acl.666/"

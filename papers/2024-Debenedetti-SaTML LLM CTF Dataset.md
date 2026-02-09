@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: SaTML LLM CTF Dataset
 year: 2024
 first_author: "[[Debenedetti]]"
+last_author: "[[Debenedetti]]"
 authors: Debenedetti et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2406.07954"
 external_pdf: "https://arxiv.org/pdf/2406.07954.pdf"
 local_pdf: "[[PDFs/2024/2024-Debenedetti-SaTML LLM CTF Dataset.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Debenedetti et al.]]
+[[Debenedetti]]
 
 ## Metadata
 

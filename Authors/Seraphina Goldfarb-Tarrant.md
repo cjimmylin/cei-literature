@@ -1,6 +1,6 @@
 ---
 name: "Seraphina Goldfarb-Tarrant"
-affiliation: "University/Organization"
+affiliation: "centers on English harm mitigation, it captures"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,12 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Aakanksha-The Multilingual Alignment Prism|The Multilingual Alignment Prism]]
+- [[2024-Singhal-AyaRedTeaming|AyaRedTeaming]]
 
 ## Notes
 
+
+- *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures
 [Additional context or contact information]

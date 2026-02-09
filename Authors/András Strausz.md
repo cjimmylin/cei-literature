@@ -1,6 +1,6 @@
 ---
 name: "András Strausz"
-affiliation: "University/Organization"
+affiliation: "Institute for Intelligent Systems, Tübingen"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2024-Jin-Language Model Alignment in Multilingual Trolley|Language Model Alignment in Multilingual Trolley]]
 
 ## Notes
 
+
+- *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
 [Additional context or contact information]

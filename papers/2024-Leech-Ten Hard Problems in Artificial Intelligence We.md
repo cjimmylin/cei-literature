@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: "Ten Hard Problems in Artificial Intelligence We"
 first_author: "[[Gavin Leech]]"
+last_author: "[[Aleksandr Zhuravlev]]"
 authors: "Gavin Leech; Simson Garfinkel; Misha Yagudin; Alexander Briand; Aleksandr Zhuravlev"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/TZNF2SVG/Leech et al. - Ten Hard Problems in Artificial Intelligence We Must Get Right.pdf"
 pdf_extract: "[[2024-Leech-Ten Hard Problems in Artificial Intelligence We]]"

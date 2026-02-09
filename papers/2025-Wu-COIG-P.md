@@ -8,6 +8,7 @@ type: document
 short_title: COIG-P
 year: 2025
 first_author: "[[M-A-P Team]]"
+last_author: "[[Chenghua Lin]]"
 authors: "M-A-P Team; Siwei Wu; Jincheng Ren; Xinrun Du; Shuyue Guo; Xingwei Qu; Yiming Liang; Jie Liu; Yunwen Li; Tianyu Zheng; Boyu Feng; Huaqing Yuan; Zenith Wang; Jiaheng Liu; Wenhao Huang; Chenglin Cai; Haoran Que; Jian Yang; Yuelin Bai; Zekun Moore Wang; Zhouliang Yu; Qunshu Lin; Ding Pan; Yuchen Jiang; Tiannan Wang; Wangchunshu Zhou; Shenzhi Wang; Xingyuan Bu; Minghao Liu; Guoyin Wang; Ge Zhang; Chenghua Lin"
 url: "https://arxiv.org/abs/2504.05535"
 external_pdf: "https://arxiv.org/pdf/2504.05535.pdf"

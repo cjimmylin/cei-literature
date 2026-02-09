@@ -9,6 +9,7 @@ type: preprint
 short_title: "Moral Persuasion in Large Language Models"
 year: 2025
 first_author: "[[Allison Huang]]"
+last_author: "[[Carlos Mougan]]"
 authors: Allison Huang; Yulu Niki Pi; Carlos Mougan
 url: "https://arxiv.org/abs/2411.11731"
 external_pdf: "https://arxiv.org/pdf/2411.11731.pdf"

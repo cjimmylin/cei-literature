@@ -8,6 +8,7 @@ type: preprint
 short_title: "Differences in Moral Foundations of LLMs"
 year: 2025
 first_author: "[[Peter Kirgis]]"
+last_author: "[[Peter Kirgis]]"
 authors: Peter Kirgis
 url: "https://arxiv.org/abs/2511.11790"
 external_pdf: "https://arxiv.org/pdf/2511.11790.pdf"

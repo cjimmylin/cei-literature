@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Beyond Preferences in AI Alignment"
 year: 2025
 first_author: "[[Tan Zhi-Xuan]]"
+last_author: "[[Hal Ashton]]"
 authors: "Tan Zhi-Xuan; Micah Carroll; Matija Franklin; Hal Ashton"
 doi: 10.1007/s11098-024-02249-w
 url: "https://link.springer.com/article/10.1007/s11098-024-02249-w"

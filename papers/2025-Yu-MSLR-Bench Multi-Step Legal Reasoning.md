@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: MSLR-Bench (Multi-Step Legal Reasoning)
 year: 2025
 first_author: "[[Wenhan Yu]]"
+last_author: "[[Lei Sha]]"
 authors: Wenhan Yu, Xinbo Lin, Lanxin Ni, Jinhua Cheng, and Lei Sha
 url: "https://arxiv.org/abs/2511.07979"
 external_pdf: "https://arxiv.org/pdf/2511.07979.pdf"
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Wenhan Yu, Xinbo Lin, Lanxin Ni, Jinhua Cheng, and Lei Sha]]
+[[Wenhan Yu]], [[Xiao Lin|Xinbo Lin]], [[Lanxin Ni]], [[Jinhua Cheng]], [[Lei Sha]]
 
 ## Metadata
 

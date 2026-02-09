@@ -29,7 +29,8 @@ Darshan Deshpande is a PhD student researching AI safety and large language mode
 - Reasoning in LLMs
 
 ## Papers in this Vault
-- [[2025-Deshpande-TRAIL|TRAIL]]
+
+- [[2025-Deshpande-TRAIL|TRAIL]] (First Author)
 
 ## Links
 - Semantic Scholar: https://www.semanticscholar.org/author/Darshan-Deshpande/2290925905

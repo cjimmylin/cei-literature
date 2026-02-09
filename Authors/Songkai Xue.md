@@ -1,6 +1,6 @@
 ---
 name: "Songkai Xue"
-affiliation: "University/Organization"
+affiliation: "Laboratory, Huawei Technologies Co"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,9 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning|Diverse Human Value Alignment for LLMs via Ethical Reasoning]]
-- [[2025-Wang-Diverse Human Value Alignment via Ethical Reasoning|Diverse Human Value Alignment via Ethical Reasoning]]
 
 ## Notes
 
+
+- *From 2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning*: Affiliation: Laboratory, Huawei Technologies Co
 [Additional context or contact information]

@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: Value Portrait
 year: 2025
 first_author: "[[Jongwook Han]]"
+last_author: "[[Yohan Jo]]"
 authors: Jongwook Han, Dongmin Choi, Woojung Song, Eun-Ju Lee, Yohan Jo
 url: "https://arxiv.org/abs/2505.01015"
 external_pdf: "https://arxiv.org/pdf/2505.01015.pdf"
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Jongwook Han, Dongmin Choi, Woojung Song, Eun-Ju Lee, Yohan Jo]]
+[[Jiawei Han|Jongwook Han]], [[Dongmin Choi]], [[Woojung Song]], [[Eun-Ju Lee]], [[Yohan Jo]]
 
 ## Metadata
 

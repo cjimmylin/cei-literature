@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: TruthfulQA
 year: 2025
 first_author: "[[Stephanie Lin]]"
+last_author: "[[Owain Evans]]"
 authors: "Stephanie Lin; Jacob Hilton; Owain Evans"
 doi: 10.18653/v1/2022.acl-long.229
 url: "https://aclanthology.org/2022.acl-long.229/"

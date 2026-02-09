@@ -9,6 +9,7 @@ type: preprint
 short_title: "GermanPartiesQA: Benchmarking LLMs for Political Alignment and Sycophancy"
 year: 2025
 first_author: "[[Jan Batzner]]"
+last_author: "[[Gjergji Kasneci Stefan Schmid]]"
 authors: Jan Batzner, Volker Stocker, Stefan Schmid, Gjergji Kasneci
 doi: 10.1609/aies.v8i1.36552
 url: "https://arxiv.org/abs/2407.18008"
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Jan Batzner, Volker Stocker, Stefan Schmid, Gjergji Kasneci]]
+[[Volker Stocker Jan Batzner]], [[Gjergji Kasneci Stefan Schmid]]
 
 ## Metadata
 

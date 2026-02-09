@@ -43,3 +43,7 @@ He has also published on care robots and assistive robotics, examining to what e
 - Alternative Website: https://anibal-monasterio-astobiza.netlify.app/
 - Google Scholar:
 - Semantic Scholar:
+
+## Papers in this Vault
+
+- [[2023-Astobiza-MoralNet|MoralNet]] (First Author)

@@ -3,7 +3,7 @@ name: "Anton Korinek"
 title: "Professor & Faculty Director"
 affiliation: "University of Virginia & Brookings Institution"
 highest_degree: "PhD in Economics, Columbia University"
-email: ""
+email: "usmananwar391@gmail.com"
 research_interests:
   - "Economics of AI"
   - "AI Governance"
@@ -46,9 +46,8 @@ He has been a key advisor to international bodies, including the G7 Panel of Exp
 - [Generative AI for Economic Research](https://www.aeaweb.org/articles?id=10.1257/jel.20231736) (2023) - *Explored the productivity benefits of AI for researchers.*
 
 ## Papers in this Vault
-- [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 
 ## External Links & Profiles
 
@@ -62,4 +61,6 @@ He has been a key advisor to international bodies, including the G7 Panel of Exp
 - [Twitter/X](https://twitter.com/akorinek)
 
 ## Notes
+
+- *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
 [Anton is the preeminent economist working on the long-term governance and labor impact of AI.]

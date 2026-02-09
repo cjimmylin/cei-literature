@@ -29,7 +29,8 @@ Deval Pandya is a research scientist at the Vector Institute working on responsi
 - Humanitarian AI
 
 ## Papers in this Vault
-- [[2025-Raza-HumaniBench|HumaniBench]]
+
+- [[2025-Raza-HumaniBench|HumaniBench]] (Last Author)
 
 ## Links
 - Semantic Scholar: https://www.semanticscholar.org/author/Deval-Pandya/2305497685

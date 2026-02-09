@@ -41,6 +41,7 @@ Changsheng (Mike) Zhao is a Staff Research Scientist at Meta AI, where he focuse
 
 ## Papers in this Vault
 
+
 - [[2024-Zhuge-Agent-as-a-Judge|Agent-as-a-Judge]]
 
 ## External Links & Profiles
@@ -52,4 +53,6 @@ Changsheng (Mike) Zhao is a Staff Research Scientist at Meta AI, where he focuse
 
 ## Notes
 
+
+- *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: mingchen.zhuge@kaust.edu.sa
 Changsheng (Mike) Zhao is a key figure in Meta's research on making LLMs smaller, faster, and safer for real-world applications.

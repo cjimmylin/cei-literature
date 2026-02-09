@@ -3,7 +3,7 @@ name: "Abraham Owodunni"
 title: "PhD Researcher"
 affiliation: "The Ohio State University, Department of Engineering and Computer Science"
 highest_degree: "PhD (In Progress)"
-email: ""
+email: "info@naijavoices.com"
 research_interests:
   - "Speech Processing"
   - "African Languages"
@@ -31,7 +31,10 @@ Abraham's research focuses on the technical and socio-cultural challenges of spe
 
 ## Papers in this Vault
 
+
 - [[2025-Emezue-NaijaVoices|NaijaVoices]]
 
 ## Notes
+
+- *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 [Focuses on the empowerment of African linguistic identities through voice AI.]

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Mapping Moral Reasoning in LLMs"
 year: 2025
 first_author: "[[Sachit Mahajan]]"
+last_author: "[[Sachit Mahajan]]"
 authors: "[[Mahajan, Sachit]]"
 doi: 10.1609/aies.v8i2.36665
 tags: "Computer Science - AI Ethics"
@@ -39,19 +40,6 @@ DATE_ADDED: 20260207
 ## Authors
 
 [[Sachit Mahajan]]
-## Metadata
-
-**Authors:** Mahajan, Sachit
-
-**Year:** 2025
-
-**Type:** conferencePaper
-
-**DOI:** [10.1609/aies.v8i2.36665](https://doi.org/10.1609/aies.v8i2.36665)
-
-**Publisher:** AAAI Press - Proceedings of the Eighth AAAI/ACM Conference on AI, Ethics, and Society (AIES-25), Volume 8(2), Pages 1674-1685
-
-**Affiliation:** Senior Researcher, ETH Zurich (Computational Social Science Group)
 
 ## Links
 

@@ -31,8 +31,12 @@ Alicia's work centers on improving the quality and reliability of NLP evaluation
 - [BBQ: A Real-world Bias Benchmark for Question Answering](https://arxiv.org/abs/2110.08193) (2021) - *Influential benchmark for measuring social biases in QA systems.*
 
 ## Papers in this Vault
-- [[2021-Parrish-BBQ A Real-world Bias Benchmark for Question|BBQ A Real-world Bias Benchmark for Question]]
-- [[2022-Hendrycks-X-Risk Analysis for AI Research|X-Risk Analysis for AI Research]]
+
+- [[2025-Group-AILuminate|AILuminate]]
+- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
+- [[2023-Aroyo-DICES Dataset|DICES Dataset]]
+- [[2022-Parrish-BBQ|BBQ]] (First Author)
+- [[2022-Parrish-BBQ Bias Benchmark for Question Answering|BBQ (Bias Benchmark for Question Answering)]] (First Author)
 
 ## External Links & Profiles
 - [Personal Website](https://aliciaparrish.com/)
@@ -40,4 +44,6 @@ Alicia's work centers on improving the quality and reliability of NLP evaluation
 - [Google Scholar](https://scholar.google.com/citations?user=Y7yH8GAAAAAJ)
 
 ## Notes
+
+- *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science
 [Specializes in identifying 'linguistic artifacts' that skew AI performance results.]

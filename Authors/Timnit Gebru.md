@@ -1,6 +1,6 @@
 ---
 name: "Timnit Gebru"
-affiliation: "University/Organization"
+affiliation: "center the conversation around who is harmed, what harms they face, and how those harms may be"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI|A Human Rights-Based Approach to Responsible AI]]
 
 ## Notes
 
+
+- *From 2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI*: Affiliation: center the conversation around who is harmed, what harms they face, and how those harms may be
 [Additional context or contact information]

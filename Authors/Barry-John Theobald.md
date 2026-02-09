@@ -3,7 +3,7 @@ name: "Barry-John Theobald"
 title: "Manager, Machine Learning Research"
 affiliation: "Apple"
 highest_degree: "PhD, Computer Science, University of East Anglia"
-email: ""
+email: "yinongwa@cs.cmu.edu"
 research_interests:
   - "Large Language Models"
   - "Preference-Based Alignment"
@@ -45,9 +45,8 @@ Dr. Theobald has a strong background in audiovisual speech recognition and lip-r
 - [Semantic Regexes: Auto-Interpreting LLM Features with a Structured Language](https://arxiv.org/abs/2501.00000) (2025) - *Research on improving the transparency of LLM internal representations.*
 
 ## Papers in this Vault
-- [[2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware|Is Your Model Fairly Certain? Uncertainty-Aware]]
 
-- [[2025-Theobald-Semantic Regexes|Semantic Regexes]] (Note: Verify exact title in vault)
+- [[2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware|Is Your Model Fairly Certain? Uncertainty-Aware]]
 
 ## External Links & Profiles
 
@@ -60,4 +59,6 @@ Dr. Theobald has a strong background in audiovisual speech recognition and lip-r
 - [Apple Machine Learning Research](https://machinelearning.apple.com/research/barry-john-theobald)
 
 ## Notes
+
+- *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu
 His work on preference-based alignment and synthetic labeling is central to the debate on scalable oversight in AI safety.

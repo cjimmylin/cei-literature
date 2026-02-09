@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "Cooperation, Competition, and Maliciousness: LLM-Stakeholders Interactive Negotiation"
 year: 2024
 first_author: "[[Sahar Abdelnabi]]"
+last_author: "[[Mario Fritz]]"
 authors: Sahar Abdelnabi; Amr Gomaa; Sarath Sivaprasad; Lea Schönherr; Mario Fritz
 url: "https://arxiv.org/abs/2309.17234"
 external_pdf: "https://arxiv.org/pdf/2309.17234.pdf"

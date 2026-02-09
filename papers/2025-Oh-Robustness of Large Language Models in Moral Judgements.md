@@ -10,6 +10,7 @@ type: conferencePaper
 short_title: Robustness of Large Language Models in Moral Judgements
 year: 2025
 first_author: "[[S. & Demberg Oh]]"
+last_author: "[[V]]"
 authors: "Oh, S. & Demberg, V"
 doi: 10.1098/rsos.241229
 url: "https://doi.org/10.1098/rsos.241229"
@@ -40,7 +41,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Oh, S. & Demberg, V]]
+[[Oh]], [[S. & Demberg]], [[V]]
 
 ## Metadata
 

@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: SHADES
 first_author: "[[Margaret Mitchell]]"
+last_author: "[[Zeerak Talat]]"
 authors: "Margaret Mitchell; Hamdan Al-Ali; Giuseppe Attanasio; Ioana Baldini; Miruna Clinciu; Jordan Clive; Pieter Delobelle; Manan Dey; Kaustubh Dhole; Timm Dill; Amirbek Djanibekov; Tair Djanibekov; Jad Doughman; Ritam Dutt; Jessica Zosa Forde; Jay Gala; Avijit Ghosh; Sil Hamilton; Carolin Holtermann; Jerry Huang; Lucie-Aimée Kaffee; Janavi Kasera; Tanmay Laud; Anne Lauscher; Roberto Luis López; Jonibek Mansurov; Maraim Masoud; Sagnik Mukherjee; Nurdaulet Mukhituly; Nikita Nangia; Shangrui Nie; Anaelia Ovalle; Giada Pistilli; Esther Ploeger; Jeremy Qin; Dragomir Radev; Vipul Raheja; Beatrice Savoldi; Shanya Sharma; Xudong Shen; Kaiser Sun; Eliza Szczechla; Tiago Timponi Torrent; Deepak Tunuguntla; Emilio Villa-Cueva; Marcelo Viridiano; Kayo Yin; Mike Zhang; Sydney Zink; Aurélie Névéol; Zeerak Talat"
 url: "https://aclanthology.org/2025.naacl-long.600/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/8RXAIHQP/Mitchell et al. - SHADES Towards a Multilingual Assessment of Stereotypes in Large Language Models.pdf"

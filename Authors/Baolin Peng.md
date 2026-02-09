@@ -3,7 +3,7 @@ name: "Baolin Peng"
 title: "Principal Researcher"
 affiliation: "Microsoft Research"
 highest_degree: "PhD, University of Southampton"
-email: ""
+email: "liangqiu@ucla.edu"
 research_interests:
   - "Large Language Models"
   - "Instruction Tuning"
@@ -45,9 +45,8 @@ His work on "Instruction Tuning with GPT-4" and the "LLaVA" series has been foun
 - [Instruction Tuning with GPT-4](https://arxiv.org/abs/2304.03277) (2023) - *Investigated the use of GPT-4 for self-instruct.*
 
 ## Papers in this Vault
-- [[2022-Qiu-ValueNet|ValueNet]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2022-Qiu-ValueNet|ValueNet]]
 
 ## External Links & Profiles
 
@@ -61,4 +60,6 @@ His work on "Instruction Tuning with GPT-4" and the "LLaVA" series has been foun
 - [Twitter/X](https://twitter.com/baolinpeng)
 
 ## Notes
+
+- *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
 [Baolin is a world-class expert in the alignment and multimodal capabilities of foundation models.]

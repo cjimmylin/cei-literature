@@ -31,3 +31,8 @@ Oxford Martin AI Governance Initiative, University of Oxford
 - Website:
 - Google Scholar:
 - Semantic Scholar:
+
+## Papers in this Vault
+
+- [[2026-Kolt-Legal Alignment for Safe and Ethical AI|Legal Alignment for Safe and Ethical AI]]
+- [[2024-Caputo-Rules, Cases, and Reasoning|Rules, Cases, and Reasoning]] (First Author)

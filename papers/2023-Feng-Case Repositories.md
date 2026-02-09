@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Case Repositories"
 year: 2025
 first_author: "[[K. J. Kevin Feng]]"
+last_author: "[[Amy X. Zhang]]"
 authors: "K. J. Kevin Feng; Quan Ze Chen; Inyoung Cheong; King Xia; Amy X. Zhang"
 doi: 10.48550/arXiv.2311.10934
 url: "http://arxiv.org/abs/2311.10934"

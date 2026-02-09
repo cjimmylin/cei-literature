@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Towards Attuned AI"
 year: 2025
 first_author: "[[Rayane El Masri]]"
+last_author: "[[Snoswell, Aaron J]]"
 authors: "[[El Masri, Rayane]]; [[Snoswell, Aaron J.]]"
 doi: N/A
 url: "https://openreview.net/"
@@ -35,16 +36,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Rayane El Masri]], [[Aaron J. Snoswell]]
-## Metadata
-
-**Authors:** El Masri, Rayane; Snoswell, Aaron J.
-
-**Year:** 2025
-
-**Type:** conference paper
-
-**Publisher:** OpenReview (2025)
+[[Rayane El Masri|El Masri, Rayane]], [[Snoswell, Aaron J]]
 
 ## Links
 

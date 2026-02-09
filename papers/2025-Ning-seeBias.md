@@ -8,6 +8,7 @@ type: document
 short_title: seeBias
 year: 2025
 first_author: "[[Yilin Ning]]"
+last_author: "[[Nan Liu]]"
 authors: "Yilin Ning; Yian Ma; Mingxuan Liu; Xin Li; Nan Liu"
 url: "https://arxiv.org/abs/2504.08418"
 external_pdf: "https://arxiv.org/pdf/2504.08418.pdf"

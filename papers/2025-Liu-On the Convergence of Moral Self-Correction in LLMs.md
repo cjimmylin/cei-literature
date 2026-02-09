@@ -9,7 +9,9 @@ type: conferencePaper
 short_title: On the Convergence of Moral Self-Correction in LLMs
 year: 2025
 first_author: "[[Guangliang Liu]]"
+last_author: "[[Guangliang Liu]]"
 authors: Guangliang Liu et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2510.07290"
 external_pdf: "https://arxiv.org/pdf/2510.07290.pdf"
 local_pdf: "[[PDFs/2025/2025-Liu-On the Convergence of Moral Self-Correction in LLMs.pdf]]"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Guangliang Liu et al.]]
+[[Guangliang Liu]]
 
 ## Metadata
 

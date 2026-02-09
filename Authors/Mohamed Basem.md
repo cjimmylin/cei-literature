@@ -20,8 +20,11 @@ Mohamed Basem is affiliated with the Faculty of Computer Science at MSA Universi
 
 ## Papers in this Vault
 
-- [[2024-Basem-Optimized Quran Passage Retrieval Using an|Optimized Quran Passage Retrieval]]
+
+- [[2024-Basem-Optimized Quran Passage Retrieval Using an|Optimized Quran Passage Retrieval Using an]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Basem-Optimized Quran Passage Retrieval Using an*: Affiliation: Faculty of Computer Science, MSA University, Egypt
 Research demonstrates significant improvements in handling "no answer" cases, achieving 75% success rate compared to baseline's 25%. Work advances both religious scholarship and Arabic NLP capabilities.

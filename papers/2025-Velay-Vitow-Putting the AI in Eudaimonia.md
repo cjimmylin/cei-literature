@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "Putting the AI in Eudaimonia"
 year: 2025
 first_author: "[[Jesse Velay-Vitow]]"
+last_author: "[[Grant, John]]"
 authors: "[[Velay-Vitow, Jesse]]; [[Grant, John]]"
 doi: N/A
 url: "https://therepublicjournal.com/putting-the-ai-in-eudaimonia/"
@@ -34,16 +35,7 @@ local_pdf: N/A
 
 ## Authors
 
-[[Jesse Velay-Vitow]], [[John Grant]]
-## Metadata
-
-**Authors:** Velay-Vitow, Jesse; Grant, John
-
-**Year:** 2025
-
-**Type:** article
-
-**Publisher:** The Republic (The Palantir Foundation)
+[[Jesse Velay-Vitow|Velay-Vitow, Jesse]], [[John Grant|Grant, John]]
 
 ## Links
 

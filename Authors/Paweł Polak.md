@@ -17,7 +17,8 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Krzanowski-Phronesis for AI Systems|Phronesis for AI Systems]]
+
+- [[2025-Krzanowski-Phronesis for AI Systems|Phronesis for AI Systems]] (Last Author)
 
 ## Notes
 

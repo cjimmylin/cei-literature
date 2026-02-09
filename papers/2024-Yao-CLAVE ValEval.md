@@ -11,6 +11,7 @@ type: preprint
 short_title: CLAVE / ValEval
 year: 2024
 first_author: "[[J. Yao]]"
+last_author: "[[X]]"
 authors: "Yao, J., Yi, X., & Xie, X"
 url: "https://arxiv.org/abs/2407.10725"
 external_pdf: "https://arxiv.org/pdf/2407.10725.pdf"
@@ -40,7 +41,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Yao, J., Yi, X., & Xie, X]]
+[[Yao]], [[J.]], [[Yi]], [[X.]], [[& Xie]], [[X]]
 
 ## Metadata
 

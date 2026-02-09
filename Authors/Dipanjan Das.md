@@ -26,8 +26,12 @@ Dipanjan Das is a Research Scientist at Google DeepMind working on natural langu
 
 ## Papers in this Vault
 
-- [[2025-Jacovi-The FACTS Grounding Leaderboard|The FACTS Grounding Leaderboard]]
+
+- [[2026-Goel-Building Interpretable Models for Moral Decision-Making|Building Interpretable Models for Moral Decision-Making]]
+- [[2025-Jacovi-The FACTS Grounding Leaderboard|The FACTS Grounding Leaderboard]] (Last Author)
 
 ## Notes
 
+
+- *From 2026-Goel-Building Interpretable Models for Moral Decision-Making*:, Email: aritra.das@ashoka.edu
 Senior researcher in NLP at Google DeepMind with expertise in semantic understanding and LLM evaluation.

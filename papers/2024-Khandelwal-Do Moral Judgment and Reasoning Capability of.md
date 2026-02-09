@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Do Moral Judgment and Reasoning Capability of"
 year: 2025
 first_author: "[[Aditi Khandelwal]]"
+last_author: "[[Monojit Choudhury]]"
 authors: "Aditi Khandelwal; Utkarsh Agarwal; Kumar Tanmay; Monojit Choudhury"
 doi: 10.48550/arXiv.2402.02135
 url: "http://arxiv.org/abs/2402.02135"

@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: FFB
 year: 2025
 first_author: "[[Xiaotian Han]]"
+last_author: "[[Xia Hu]]"
 authors: "Xiaotian Han; Jianfeng Chi; Yu Chen; Qifan Wang; Han Zhao; Na Zou; Xia Hu"
 doi: 10.48550/arXiv.2306.09468
 url: "http://arxiv.org/abs/2306.09468"

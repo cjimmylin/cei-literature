@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Generalization Analogies"
 year: 2025
 first_author: "[[Joshua Clymer]]"
+last_author: "[[Sam Wang]]"
 authors: "Joshua Clymer; Garrett Baker; Rohan Subramani; Sam Wang"
 doi: 10.48550/arXiv.2311.07723
 url: "http://arxiv.org/abs/2311.07723"

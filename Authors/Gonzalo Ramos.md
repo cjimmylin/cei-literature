@@ -1,7 +1,7 @@
 ---
 name: "Gonzalo Ramos"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "centered taxonomy"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of|SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of]]
+- [[2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of|SENSE-7: Taxonomy and Dataset for Measuring User Perceptions of Empathy in Sustained Human-AI Conversations]]
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of*: Affiliation: centered taxonomy
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

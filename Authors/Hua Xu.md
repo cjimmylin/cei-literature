@@ -20,8 +20,11 @@ Hua Xu is a tenured Associate Professor at Tsinghua University's State Key Labor
 
 ## Papers in this Vault
 
+
 - [[2023-Ji-AI Alignment|AI Alignment]]
 
 ## Notes
 
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 His THUIAR (Tsinghua University Intelligent and Autonomous Robots) lab focuses on multimodal AI and human-robot interaction.

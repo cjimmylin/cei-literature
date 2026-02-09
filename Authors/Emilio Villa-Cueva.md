@@ -26,8 +26,11 @@ Emilio Villa-Cueva is a researcher at Tecnologico de Monterrey in Mexico, workin
 
 ## Papers in this Vault
 
+
 - [[2025-Mitchell-SHADES|SHADES]]
 
 ## Notes
 
+
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 Contributor to SHADES, a benchmark for evaluating social biases and cultural stereotypes in language models across multiple languages.

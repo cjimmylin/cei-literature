@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: FairJob
 year: 2025
 first_author: "[[Mariia Vladimirova]]"
+last_author: "[[Eustache Diemert]]"
 authors: "Mariia Vladimirova; Federico Pavone; Eustache Diemert"
 doi: 10.48550/arXiv.2407.03059
 url: "http://arxiv.org/abs/2407.03059"

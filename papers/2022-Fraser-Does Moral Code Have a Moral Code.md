@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Does Moral Code Have a Moral Code?"
 year: 2025
 first_author: "[[Kathleen C. Fraser]]"
+last_author: "[[Balkir, Esma]]"
 authors: "[[Fraser, Kathleen C.]]; [[Kiritchenko, Svetlana]]; [[Balkir, Esma]]"
 doi: 10.48550/arXiv.2205.12771
 url: "http://arxiv.org/abs/2205.12771"
@@ -38,18 +39,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Kathleen C. Fraser]], [[Svetlana Kiritchenko]], [[Esma Balkir]]
-## Metadata
-
-**Authors:** Fraser, Kathleen C.; Kiritchenko, Svetlana; Balkir, Esma
-
-**Year:** 2022
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2205.12771](https://doi.org/10.48550/arXiv.2205.12771)
-
-**Publisher:** arXiv
+[[Fraser, Kathleen C]], [[Svetlana Kiritchenko|Kiritchenko, Svetlana]], [[Esma Balkir|Balkir, Esma]]
 
 ## Links
 

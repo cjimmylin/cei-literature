@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: StereoSet
 year: 2025
 first_author: "[[Moin Nadeem]]"
+last_author: "[[Siva Reddy]]"
 authors: "Moin Nadeem; Anna Bethke; Siva Reddy"
 doi: 10.48550/arXiv.2004.09456
 url: "http://arxiv.org/abs/2004.09456"

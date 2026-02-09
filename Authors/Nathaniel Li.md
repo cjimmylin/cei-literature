@@ -19,9 +19,13 @@ Nathaniel Li works on preparedness and security evaluations at Meta Superintelli
 
 ## Papers in this Vault
 
-- [[2023-Jiang-MACHIAVELLI|Do the Rewards Justify the Means? Measuring]]
-- [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
+
+- [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]] (First Author)
+- [[2024-Mazeika-HarmBench|HarmBench]]
+- [[2023-Jiang-MACHIAVELLI|MACHIAVELLI]]
 
 ## Notes
 
+
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 [Additional context or contact information]

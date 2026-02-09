@@ -9,7 +9,9 @@ type: preprint
 short_title: "VAPT: Value-Alignment Perception Toolkit"
 year: 2026
 first_author: "[[S. Yun]]"
+last_author: "[[S. Yun]]"
 authors: Yun, S. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2601.22440"
 external_pdf: "https://arxiv.org/pdf/2601.22440.pdf"
 local_pdf: "[[PDFs/2026/2026-Yun-VAPT Value-Alignment Perception Toolkit.pdf]]"
@@ -36,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Yun, S. et al.]]
+[[S. Yun]]
 
 ## Metadata
 

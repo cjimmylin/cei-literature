@@ -19,7 +19,8 @@ Ian David Stephen is an Associate Professor in the Department of Psychology at M
 
 ## Papers in this Vault
 
-- [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the trolley dilemma]]
+
+- [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 
 ## Notes
 

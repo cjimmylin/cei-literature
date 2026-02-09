@@ -8,6 +8,7 @@ type: document
 short_title: "HalluLens: LLM Hallucination Benchmark"
 year: 2025
 first_author: "[[Yejin Bang]]"
+last_author: "[[Pascale Fung]]"
 authors: "Yejin Bang; Ziwei Ji; Alan Schelten; Anthony Hartshorn; Tara Fowler; Cheng Zhang; Nicola Cancedda; Pascale Fung"
 url: "https://arxiv.org/abs/2504.17550"
 external_pdf: "https://arxiv.org/pdf/2504.17550.pdf"

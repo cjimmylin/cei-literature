@@ -10,6 +10,7 @@ type: preprint
 short_title: "PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice"
 year: 2025
 first_author: "[[C. Hong]]"
+last_author: "[[Y]]"
 authors: "Hong, C., Wu, M., Xiao, Q., Wang, Y., Wan, X., Yu, G., Wang, B., & Hu, Y"
 url: "https://arxiv.org/abs/2508.05132"
 external_pdf: "https://arxiv.org/pdf/2508.05132.pdf"
@@ -38,7 +39,7 @@ normative_ethics_benchmark: Yes
 
 ## Authors
 
-[[Hong, C., Wu, M., Xiao, Q., Wang, Y., Wan, X., Yu, G., Wang, B., & Hu, Y]]
+[[Hong]], [[C.]], [[Wenshan Wu|Wu]], [[M.]], [[Xiao]], [[Q.]], [[Wang]], [[Y.]], [[Wan]], [[X.]], [[Yu]], [[G.]], [[Wang]], [[B.]], [[& Hu]], [[Y]]
 
 ## Metadata
 

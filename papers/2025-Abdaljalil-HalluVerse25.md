@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: HalluVerse25
 year: 2025
 first_author: "[[Samir Abdaljalil]]"
+last_author: "[[Erchin Serpedin]]"
 authors: "Samir Abdaljalil; Hasan Kurban; Erchin Serpedin"
 doi: 10.48550/arXiv.2503.07833
 url: "http://arxiv.org/abs/2503.07833"

@@ -46,9 +46,8 @@ Dr. Lo has published over 300 articles with nearly 20,000 citations. He serves a
 - [A survey of health monitoring using body sensor networks](https://doi.org/10.1109/TITB.2010.2046415) (2010) - *Highly cited review of pervasive healthcare.*
 
 ## Papers in this Vault
-- [[2023-Qiu-Large AI Models in Health Informatics|Large AI Models in Health Informatics]]
 
-- [[2022-Lo-The Future of Pervasive Sensing|The Future of Pervasive Sensing]]
+- [[2023-Qiu-Large AI Models in Health Informatics|Large AI Models in Health Informatics]] (Last Author)
 
 ## External Links & Profiles
 
@@ -57,4 +56,6 @@ Dr. Lo has published over 300 articles with nearly 20,000 citations. He serves a
 - [ResearchGate](https://www.researchgate.net/profile/Benny-Lo)
 
 ## Notes
+
+- *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: lin.3.li@kcl.ac.uk
 His work on BSN is essential for understanding how AI can be integrated into the physical world to improve human health safely and effectively.

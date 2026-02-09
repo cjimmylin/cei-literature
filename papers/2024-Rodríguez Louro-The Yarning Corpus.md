@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "The Yarning Corpus"
 year: 2025
 first_author: "[[Celeste Rodríguez Louro]]"
+last_author: "[[Glenys Collard]]"
 authors: "Celeste Rodríguez Louro; Glenys Collard"
 doi: 10.1080/07268602.2024.2380661
 url: "https://doi.org/10.1080/07268602.2024.2380661"

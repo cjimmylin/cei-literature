@@ -3,7 +3,7 @@ name: "Alexander Panchenko"
 title: "Assistant Professor / NLP Lab Lead"
 affiliation: "Skolkovo Institute of Science and Technology (Skoltech)"
 highest_degree: "PhD"
-email: ""
+email: "alenush93@gmail.com"
 research_interests:
   - "Natural Language Processing (NLP)"
   - "Representation Learning"
@@ -32,7 +32,10 @@ Alexander manages the development of standardized evaluation suites for non-Engl
 
 ## Papers in this Vault
 
+
 - [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]]
 
 ## Notes
+
+- *From 2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian*: Affiliation: University, 3Center for Artificial Intelligence Technology, 4AIRI, Email: alenush93@gmail.com
 [Extensive background in text detoxification and gender bias detection in Russian NLP models.]

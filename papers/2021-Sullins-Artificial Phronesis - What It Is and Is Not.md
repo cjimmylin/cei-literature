@@ -8,6 +8,7 @@ type: bookSection
 short_title: "Artificial Phronesis - What It Is and Is Not"
 year: 2025
 first_author: "[[John P. Sullins]]"
+last_author: "[[John P. Sullins]]"
 authors: John P. Sullins
 doi: 10.1093/oso/9780190081713.003.0015
 url: "https://academic.oup.com/book/41621/chapter-abstract/353452047"

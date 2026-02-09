@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "A Multi-Level Framework for the AI Alignment"
 year: 2025
 first_author: "[[Betty Li Hou]]"
+last_author: "[[Brian Patrick Green]]"
 authors: "Betty Li Hou; Brian Patrick Green"
 doi: 10.48550/arXiv.2301.03740
 url: "http://arxiv.org/abs/2301.03740"

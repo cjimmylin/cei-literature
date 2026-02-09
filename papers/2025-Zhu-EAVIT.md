@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: EAVIT
 year: 2025
 first_author: "[[Wenhao Zhu]]"
+last_author: "[[Xin Zhang]]"
 authors: "Wenhao Zhu; Yuhang Xie; Guojie Song; Xin Zhang"
 doi: 10.48550/arXiv.2505.12792
 tags: "Computer Science - Computation and Language"

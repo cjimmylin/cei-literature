@@ -8,6 +8,7 @@ type: preprint
 short_title: EvalMORAAL
 year: 2025
 first_author: "[[Hadi Mohammadi]]"
+last_author: "[[Ayoub Bagheri]]"
 authors: "[[Mohammadi, Hadi]], [[Giachanou, Anastasia]], [[Bagheri, Ayoub]]"
 doi: 10.48550/arXiv.2510.05942
 tags: "Computer Science - AI Ethics"
@@ -39,19 +40,6 @@ pdf_extract: "PDF Extracts/2025/2025-Mohammadi-EvalMORAAL.md"
 ## Authors
 
 [[Hadi Mohammadi]], [[Anastasia Giachanou]], [[Ayoub Bagheri]]
-## Metadata
-
-**Authors:** Mohammadi, Hadi; Giachanou, Anastasia; Bagheri, Ayoub
-
-**Year:** 2025
-
-**Type:** preprint
-
-**DOI:** [10.48550/arXiv.2510.05942](https://doi.org/10.48550/arXiv.2510.05942)
-
-**Publisher:** arXiv
-
-**Affiliations:** Hadi Mohammadi & Ayoub Bagheri - Utrecht University; Anastasia Giachanou - Università della Svizzera italiana
 
 ## Links
 

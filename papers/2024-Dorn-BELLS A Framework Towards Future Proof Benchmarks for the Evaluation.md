@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "BELLS: A Framework Towards Future Proof Benchmarks for the Evaluation of LLM Safeguards"
 year: 2024
 first_author: "[[Diego Dorn]]"
+last_author: "[[Vincent Corruble]]"
 authors: Diego Dorn; Alexandre Variengien; Charbel-Raphaël Segerie; Vincent Corruble
 url: "https://arxiv.org/abs/2406.01364"
 external_pdf: "https://arxiv.org/pdf/2406.01364.pdf"

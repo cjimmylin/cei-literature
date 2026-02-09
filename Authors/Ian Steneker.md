@@ -25,8 +25,11 @@ Ian Steneker is a researcher affiliated with the Center for AI Safety (CAIS), wo
 
 ## Papers in this Vault
 
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## Notes
 
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 Ian Steneker's work on biosecurity and AI safety is directly relevant to the vault's focus on AI risks and the responsible development of AI systems.

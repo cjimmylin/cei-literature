@@ -19,8 +19,11 @@ PhD from Machine Learning Department at Carnegie Mellon University, advised by A
 
 ## Papers in this Vault
 
-- [[2018-Noothigattu-A Voting-Based System for Ethical Decision Making|A Voting-Based System for Ethical Decision Making]]
+
+- [[2018-Noothigattu-A Voting-Based System for Ethical Decision Making|A Voting-Based System for Ethical Decision Making]] (First Author)
 
 ## Notes
 
+
+- *From 2018-Noothigattu-A Voting-Based System for Ethical Decision Making*: Affiliation: School of Computer Science, Carnegie Mellon University
 [Additional context or contact information]

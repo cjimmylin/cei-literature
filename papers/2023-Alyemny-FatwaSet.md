@@ -8,6 +8,7 @@ type: journalArticle
 short_title: FatwaSet
 year: 2025
 first_author: "[[Ohoud Alyemny]]"
+last_author: "[[Abdulrahman Mirza]]"
 authors: "Ohoud Alyemny; Hend Al-Khalifa; Abdulrahman Mirza"
 url: "https://www.mdpi.com/2306-5729/8/11/156"
 national_ethnic_cultural: N/A

@@ -9,7 +9,8 @@ type: preprint
 short_title: "LLMs on Trial: Evaluating Judicial Fairness for Large Language Models (JudiFair)"
 year: 2025
 first_author: "[[Hu]]"
-authors: Hu et al.
+last_author: "[[Weixing Shen]]"
+authors: "Yiran Hu; Zongyue Xue; Haitao Li; Siyuan Zheng; Qingjing Chen; Shaochun Wang; Xihan Zhang; Ning Zheng; Yun Liu; Qingyao Ai; Yiqun Liu; Charles L.A. Clarke; Weixing Shen"
 url: "https://arxiv.org/abs/2507.10852"
 external_pdf: "https://arxiv.org/pdf/2507.10852.pdf"
 local_pdf: "[[PDFs/2025/2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models.pdf]]"
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Hu et al.]]
+[[Yuxuan Hu|Yiran Hu]], [[Zongyue Xue]], [[Haitao Li]], [[Siyuan Zheng]], [[Qingjing Chen]], [[Shaochun Wang]], [[Xihan Zhang]], [[Ning Zheng]], [[Yun Liu]], [[Qingyao Ai]], [[Yiqun Liu]], [[Charles L.A. Clarke]], [[Weixing Shen]]
 
 ## Metadata
 

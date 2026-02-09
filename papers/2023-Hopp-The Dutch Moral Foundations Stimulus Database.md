@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "The Dutch Moral Foundations Stimulus Database"
 year: 2025
 first_author: "[[Franziska Hopp]]"
+last_author: "[[Franziska Hopp]]"
 authors: "Franziska Hopp"
 doi: 10.31234/osf.io/ywhx2
 url: "https://doi.org/10.31234/osf.io/ywhx2"

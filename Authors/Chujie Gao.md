@@ -29,12 +29,16 @@ Chujie Gao is a researcher who made major contributions to the TrustLLM project,
 - Contributed to establishing principles for different dimensions of AI trustworthiness
 
 ## Papers in this Vault
-- [[2024-Huang-TrustLLM|TrustLLM: Trustworthiness in Large Language Models]]
-- [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation Models]]
+
+- [[2025-Gao-MIST Moral Inference through Storytelling with Text and Images|MIST: Moral Inference through Storytelling with Text and Images]] (First Author)
+- [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
+- [[2024-Huang-TrustLLM|TrustLLM]]
 
 ## External Links & Profiles
 - [TrustLLM GitHub](https://github.com/HowieHwong/TrustLLM)
 - [TrustLLM Paper](https://arxiv.org/abs/2401.05561)
 
 ## Notes
+
+- *From 2025-Gao-MIST Moral Inference through Storytelling with Text and Images*: Affiliation: University of Notre Dame, Notre Dame, IN, United States, Email: nauyisu022@gmail.com
 Highly relevant to AI ethics research. The TrustLLM framework provides one of the most comprehensive approaches to evaluating AI systems across multiple ethical dimensions. The eight trustworthiness aspects identified (truthfulness, safety, fairness, robustness, privacy, machine ethics, transparency, accountability) align closely with core concerns in AI ethics.

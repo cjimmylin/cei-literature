@@ -3,7 +3,7 @@ name: "Abdullah Tarek Farag"
 title: "Senior Data Scientist & Machine Learning Engineer"
 affiliation: "Toptal / Various AI Ventures"
 highest_degree: "B.Sc. Computer Science (Cairo University)"
-email: ""
+email: "abdullahtarek57@gmail.com"
 research_interests:
   - "Natural Language Processing"
   - "Data Engineering"
@@ -28,9 +28,8 @@ Abdullah Tarek Farag is a verified engineering expert at Toptal and a Senior Dat
 Abdullah's technical focus is on the practical application of NLP models. He has significant experience fine-tuning masked language models for specialized domains and building content-based recommendation systems that leverage deep embedding spaces.
 
 ## Papers in this Vault
-- [[2021-Munshi-Towards an Automated Islamic Fatwa System|Towards an Automated Islamic Fatwa System]]
 
-- [[2025-Alwajih-Palm|Palm]]
+- [[2021-Munshi-Towards an Automated Islamic Fatwa System|Towards an Automated Islamic Fatwa System]]
 
 ## External Links & Profiles
 
@@ -39,4 +38,6 @@ Abdullah's technical focus is on the practical application of NLP models. He has
 - [LinkedIn Profile](https://www.linkedin.com/in/abdullahtarek/)
 
 ## Notes
+
+- *From 2021-Munshi-Towards an Automated Islamic Fatwa System*: Affiliation: lable Online at www, Email: abdullahtarek57@gmail.com
 [Bridges the gap between research-grade NLP and production-ready AI products.]

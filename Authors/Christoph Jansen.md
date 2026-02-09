@@ -30,6 +30,7 @@ Christoph Jansen is a tenured Assistant Professor in Data Science at the School 
 - Contributed to research arguing that "alignment should be governed by principles, not just by unreflected mirroring of observations"
 
 ## Papers in this Vault
+
 - [[2025-Rodemann-A Statistical Case Against Empirical Human-AI|A Statistical Case Against Empirical Human-AI]]
 
 ## External Links & Profiles
@@ -39,4 +40,6 @@ Christoph Jansen is a tenured Assistant Professor in Data Science at the School 
 - [LinkedIn](https://de.linkedin.com/in/dr-christoph-jansen-8b5a67174)
 
 ## Notes
+
+- *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
 His work on statistical biases in human-AI alignment is critically relevant to AI ethics. The research warns against uncritical use of empirical alignment methods, arguing that such approaches can introduce anthropocentric constraints and statistical biases that undermine the goal of creating genuinely beneficial AI systems.

@@ -34,8 +34,11 @@ Guillaume Bied is a PhD researcher at Ghent University in Belgium. His research 
 
 ## Papers in this Vault
 
-- [[2024-Buyl-Large Language Models Reflect the Ideology of|Large Language Models Reflect the Ideology of their Creators]]
+
+- [[2024-Buyl-Large Language Models Reflect the Ideology of|Large Language Models Reflect the Ideology of]]
 
 ## Notes
 
+
+- *From 2024-Buyl-Large Language Models Reflect the Ideology of*: Affiliation: University, Belgium; 2Public University of Navarre, Spain, Email: maarten.buyl@ugent.be
 Guillaume Bied's research on ideological reflection in LLMs highlights an important consideration for AI deployment: models are not neutral tools but carry the values and perspectives embedded through their design and training. This work has implications for how we think about transparency and diversity in AI development.

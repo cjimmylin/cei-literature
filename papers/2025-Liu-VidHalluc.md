@@ -8,6 +8,7 @@ type: document
 short_title: VidHalluc
 year: 2025
 first_author: "[[Chaoyu Li]]"
+last_author: "[[Pooyan Fazli]]"
 authors: "Chaoyu Li; Eun Woo Im; Pooyan Fazli"
 url: "https://arxiv.org/abs/2412.03735"
 external_pdf: "https://arxiv.org/pdf/2412.03735.pdf"

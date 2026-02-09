@@ -20,10 +20,13 @@ Yuan Li is a researcher at the University of Cambridge focusing on psychometric 
 
 ## Papers in this Vault
 
-- [[2024-Huang-TrustLLM|TrustLLM]]
-- [[2024-Li-Quantifying AI Psychology|Quantifying AI Psychology]]
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
+- [[2024-Huang-TrustLLM|TrustLLM]]
+- [[2024-Li-Quantifying AI Psychology|Quantifying AI Psychology]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 [Additional context or contact information]

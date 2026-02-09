@@ -8,6 +8,7 @@ type: document
 short_title: "NIST AI Risk Management Framework"
 year: 2025
 first_author: "[[National Institute of Standards and Technology (NIST)]]"
+last_author: "[[National Institute of Standards and Technology (NIST)]]"
 authors: "National Institute of Standards and Technology (NIST)"
 url: "https://www.nist.gov/itl/ai-risk-management-framework"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/S3GSZDAU/Standards and Technology (NIST) - 2023 - NIST AI Risk Management Framework.pdf"

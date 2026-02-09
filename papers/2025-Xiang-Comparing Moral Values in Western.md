@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Comparing Moral Values in Western"
 year: 2025
 first_author: "[[Chaoyi Xiang]]"
+last_author: "[[Lea Frermann]]"
 authors: "Chaoyi Xiang; Chunhua Liu; Simon De Deyne; Lea Frermann"
 doi: 10.48550/arXiv.2505.19674
 tags: "Computer Science - Computation and Language"

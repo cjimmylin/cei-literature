@@ -19,9 +19,12 @@ Xinyue Shen (also known as Vera Shen) is a final-year PhD candidate at CISPA Hel
 
 ## Papers in this Vault
 
-- [[2023-Shen-“Do Anything Now”|“Do Anything Now”]]
-- [[2025-Shen-HateBench|HateBench]]
+
+- [[2025-Shen-HateBench|HateBench]] (First Author)
+- [[2023-Shen-“Do Anything Now”|“Do Anything Now”]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Shen-“Do Anything Now”*: Affiliation: Center for Information Security
 [Additional context or contact information]

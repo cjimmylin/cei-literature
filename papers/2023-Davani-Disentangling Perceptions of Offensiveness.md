@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Disentangling Perceptions of Offensiveness"
 year: 2025
 first_author: "[[Aida Davani]]"
+last_author: "[[Vinodkumar Prabhakaran]]"
 authors: "Aida Davani; Mark Díaz; Dylan Baker; Vinodkumar Prabhakaran"
 doi: 10.48550/arXiv.2312.06861
 url: "http://arxiv.org/abs/2312.06861"

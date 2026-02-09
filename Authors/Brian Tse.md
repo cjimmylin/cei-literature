@@ -45,9 +45,8 @@ He was the first Chinese representative to deliver a keynote at the Asilomar Con
 - [China Is Taking AI Safety Seriously. So Must the U.S.](https://time.com/6263539/china-ai-safety-regulation/) (2023) - *Influential op-ed in Time Magazine.*
 
 ## Papers in this Vault
-- [[2023-Ji-AI Alignment|AI Alignment]]
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+- [[2023-Ji-AI Alignment|AI Alignment]]
 
 ## External Links & Profiles
 
@@ -57,4 +56,6 @@ He was the first Chinese representative to deliver a keynote at the Asilomar Con
 - [Twitter/X](https://twitter.com/brianatse)
 
 ## Notes
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 [Brian is a critical diplomat and researcher at the intersection of AI safety and global governance.]

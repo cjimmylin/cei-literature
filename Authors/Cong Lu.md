@@ -44,7 +44,8 @@ Cong Lu is a Research Scientist at Google DeepMind on the Open-Endedness team. H
 
 ## Papers in this Vault
 
-- [[2024-Lu-The AI Scientist|The AI Scientist: Towards Fully Automated Scientific Discovery]]
+
+- [[2024-Lu-The AI Scientist|The AI Scientist]]
 
 ## External Links & Profiles
 
@@ -59,4 +60,6 @@ Cong Lu is a Research Scientist at Google DeepMind on the Open-Endedness team. H
 
 ## Notes
 
+
+- *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR
 Cong Lu's work on open-ended learning and automated scientific discovery represents the frontier of AI capability research. His focus on safety-critical RL demonstrates awareness of alignment concerns as AI systems become more autonomous. The AI Scientist project raises important questions about AI autonomy and the future of human-AI collaboration in research.

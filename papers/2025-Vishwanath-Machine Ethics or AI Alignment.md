@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Machine Ethics or AI Alignment"
 year: 2025
 first_author: "[[Ajay Vishwanath]]"
+last_author: "[[Marija Slavkovik]]"
 authors: "Ajay Vishwanath; Marija Slavkovik"
 doi: N/A
 url: "https://ceur-ws.org/Vol-3975/paper9.pdf"

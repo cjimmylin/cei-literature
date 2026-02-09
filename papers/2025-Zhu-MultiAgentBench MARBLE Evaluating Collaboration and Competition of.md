@@ -9,6 +9,7 @@ type: conferencePaper
 short_title: "MultiAgentBench (MARBLE): Evaluating Collaboration and Competition of LLM Agents"
 year: 2025
 first_author: "[[Kunlun Zhu]]"
+last_author: "[[Jiaxuan You]]"
 authors: Kunlun Zhu; Hongyi Du; Zhaochen Hong; Xiaocheng Yang; Shuyi Guo; Zhe Wang; Zhenhailong Wang; Cheng Qian; Xiangru Tang; Heng Ji; Jiaxuan You
 url: "https://arxiv.org/abs/2503.01935"
 external_pdf: "https://arxiv.org/pdf/2503.01935.pdf"

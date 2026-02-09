@@ -1,6 +1,6 @@
 ---
 name: "Shu Wang"
-affiliation: "University/Organization"
+affiliation: "University of California, Los Angeles"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Jiang-Raising the Bar|Raising the Bar]]
 
 ## Notes
 
+
+- *From 2025-Jiang-Raising the Bar*: Affiliation: University of California, Los Angeles, Email: hua_wei@tongji.edu.cn
 [Additional context or contact information]

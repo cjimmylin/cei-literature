@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Commonsense Norm Bank"
 year: 2025
 first_author: "[[Xuhui Ji]]"
+last_author: "[[Xuhui Ji]]"
 authors: "Xuhui Ji"
 url: "https://ceur-ws.org/Vol-3547/paper3.pdf"
 external_pdf: "https://ceur-ws.org/Vol-3547/paper3.pdf"

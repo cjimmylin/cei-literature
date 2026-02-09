@@ -20,8 +20,11 @@ Laura Gustafson is affiliated with Facebook AI Research (now Meta AI Research). 
 
 ## Papers in this Vault
 
-- [[2023-Gustafson-FACET|FACET]]
+
+- [[2023-Gustafson-FACET|FACET]] (First Author)
 
 ## Notes
 
+
+- *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 [Additional context or contact information]

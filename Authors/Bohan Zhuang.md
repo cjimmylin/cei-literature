@@ -47,6 +47,7 @@ Dr. Zhuang has made significant contributions to the "GMAI-MMBench" project, a c
 
 ## Papers in this Vault
 
+
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
 
 ## External Links & Profiles
@@ -56,4 +57,6 @@ Dr. Zhuang has made significant contributions to the "GMAI-MMBench" project, a c
 - [Personal Webpage](https://bohanzhuang.github.io/)
 
 ## Notes
+
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
 His expertise in "efficient AI" is crucial for the democratization of ethical AI, as it allows advanced models to be run and verified on standard hardware without excessive resource consumption.

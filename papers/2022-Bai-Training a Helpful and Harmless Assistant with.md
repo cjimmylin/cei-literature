@@ -8,6 +8,7 @@ type: document
 short_title: "Training a Helpful and Harmless Assistant with"
 year: 2025
 first_author: "[[Yuntao Bai]]"
+last_author: "[[Jared Kaplan]]"
 authors: "Yuntao Bai; Andy Jones; Kamal Ndousse; Amanda Askell; Anna Chen; Nova DasSarma; Dawn Drain; Stanislav Fort; Deep Ganguli; Tom Henighan; Nicholas Joseph; Saurav Kadavath; Jackson Kernion; Tom Conerly; Sheer El-Showk; Nelson Elhage; Zac Hatfield-Dodds; Danny Hernandez; Tristan Hume; Scott Johnston; Shauna Kravec; Liane Lovitt; Neel Nanda; Catherine Olsson; Dario Amodei; Tom Brown; Jack Clark; Sam McCandlish; Chris Olah; Ben Mann; Jared Kaplan"
 url: "https://arxiv.org/abs/2204.05862"
 external_pdf: "https://arxiv.org/pdf/2204.05862.pdf"

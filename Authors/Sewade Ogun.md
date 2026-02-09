@@ -1,6 +1,6 @@
 ---
 name: "Sewade Ogun"
-affiliation: "University/Organization"
+affiliation: "Institute, 4MLCollective, 5The Ohio State"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Emezue-NaijaVoices|NaijaVoices]]
 
 ## Notes
 
+
+- *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 [Additional context or contact information]

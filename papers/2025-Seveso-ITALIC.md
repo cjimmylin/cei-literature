@@ -8,6 +8,7 @@ type: document
 short_title: ITALIC
 year: 2025
 first_author: "[[Andrea Seveso]]"
+last_author: "[[Mercorio, Fabio]]"
 authors: "[[Seveso, Andrea]]; [[Potertì, Daniele]]; [[Federici, Edoardo]]; [[Mezzanzanica, Mario]]; [[Mercorio, Fabio]]"
 url: "https://aclanthology.org/2025.naacl-long.68/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/NNGKX8QR/2025 - ITALIC An Italian Culture-Aware Natural Language Benchmark.pdf"
@@ -34,12 +35,7 @@ local_pdf: "[[PDFs/2025/2025-Seveso-ITALIC.pdf]]"
 
 ## Authors
 
-[[Andrea Seveso]], [[Daniele Potertì]], [[Edoardo Federici]], [[Mario Mezzanzanica]], [[Fabio Mercorio]]
-## Metadata
-
-**Year:** 2025
-
-**Type:** document
+[[Andrea Seveso|Seveso, Andrea]], [[Daniele Potertì|Potertì, Daniele]], [[Edoardo Federici|Federici, Edoardo]], [[Mario Mezzanzanica|Mezzanzanica, Mario]], [[Fabio Mercorio|Mercorio, Fabio]]
 
 ## Links
 

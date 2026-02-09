@@ -9,7 +9,9 @@ type: preprint
 short_title: "TF3-RO: Training Compact Romanian Language Models on Synthetic Moral Microfiction"
 year: 2026
 first_author: "[[S. Nadies]]"
+last_author: "[[S. Nadies]]"
 authors: Nadies, S. et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2601.10410"
 external_pdf: "https://arxiv.org/pdf/2601.10410.pdf"
 local_pdf: "[[PDFs/2026/2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral.pdf]]"
@@ -36,7 +38,7 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Nadies, S. et al.]]
+[[S. Nadies]]
 
 ## Metadata
 

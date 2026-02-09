@@ -49,7 +49,8 @@ He has published over 300 articles and five academic books, and is a recipient o
 
 ## Papers in this Vault
 
-- [[2021-Bommasani-On the Opportunities and Risks of Foundation|On the Opportunities and Risks of Foundation]]
+
+- [[2022-Chalkidis-FairLex|FairLex]] (Last Author)
 
 ## External Links & Profiles
 
@@ -63,4 +64,6 @@ He has published over 300 articles and five academic books, and is a recipient o
 - [Twitter/X](https://twitter.com/andsoegaard)
 
 ## Notes
+
+- *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk
 [Anders is a rare researcher bridging the gap between technical NLP and formal philosophy.]

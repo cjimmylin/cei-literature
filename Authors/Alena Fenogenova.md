@@ -3,7 +3,7 @@ name: "Alena Fenogenova"
 title: "Senior Researcher"
 affiliation: "Sber AI"
 highest_degree: "MSc/PhD (Inferred), HSE University"
-email: ""
+email: "alenush93@gmail.com"
 research_interests:
   - "Natural Language Processing"
   - "Russian NLP Benchmarks"
@@ -45,9 +45,8 @@ As a leader in the Sber AI research team, she has driven the state-of-the-art in
 - [ruMTEB: Russian Massive Text Embedding Benchmark](https://arxiv.org/abs/2301.00000) (2023) - *A major evaluation suite for Russian embedding models.*
 
 ## Papers in this Vault
-- [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]]
 
-- [[2024-Ungless-ETHICS WHITEPAPER|ETHICS WHITEPAPER]]
+- [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]] (First Author)
 
 ## External Links & Profiles
 
@@ -61,4 +60,6 @@ As a leader in the Sber AI research team, she has driven the state-of-the-art in
 - [GitHub](https://github.com/alenafenogenova)
 
 ## Notes
+
+- *From 2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian*: Affiliation: University, 3Center for Artificial Intelligence Technology, 4AIRI, Email: alenush93@gmail.com
 [Alena is the primary lead for Russian-language AI evaluation and benchmarking.]

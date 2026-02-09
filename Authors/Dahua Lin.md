@@ -34,8 +34,9 @@ Dahua Lin is a distinguished professor at The Chinese University of Hong Kong an
 - Numerous publications on computer vision (MMDetection, MMSegmentation frameworks)
 
 ## Papers in this Vault
-- [[2023-Huang-Flames|Flames]]
+
 - [[2024-Li-SALAD-Bench|SALAD-Bench]]
+- [[2023-Huang-Flames|Flames]] (Last Author)
 
 ## Links
 - Website: http://dahua.site/

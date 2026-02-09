@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Measuring Human and AI Values Based on Generative"
 year: 2025
 first_author: "[[Haoran Ye]]"
+last_author: "[[Guojie Song]]"
 authors: "Haoran Ye; Yuhang Xie; Yuanyi Ren; Hanjun Fang; Xin Zhang; Guojie Song"
 doi: 10.48550/arXiv.2409.12106
 url: "http://arxiv.org/abs/2409.12106"

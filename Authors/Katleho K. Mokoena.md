@@ -35,3 +35,7 @@ Dr. Katleho K. Mokoena is a Postdoctoral Research Fellow at the Learning Informa
 - Website: https://katleho-mokoena.carrd.co/
 - Google Scholar: https://scholar.google.com/citations?user=snVj5dwAAAAJ
 - Semantic Scholar:
+
+## Papers in this Vault
+
+- [[2024-Mokoena-A holistic ubuntu artificial intelligence ethics|A holistic ubuntu artificial intelligence ethics]] (First Author)

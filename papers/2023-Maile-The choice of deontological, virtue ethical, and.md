@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "The choice of deontological, virtue ethical, and"
 year: 2025
 first_author: "[[Andrew Maile]]"
+last_author: "[[Kristjánsson, Kristján]]"
 authors: "[[Maile, Andrew]]; [[Thompson, Aidan]]; [[McLoughlin, Shane]]; [[Kristjánsson, Kristján]]"
 doi: 10.1080/10508422.2022.2124995
 url: "https://www.tandfonline.com/doi/full/10.1080/10508422.2022.2124995"
@@ -36,22 +37,7 @@ local_pdf: "[[PDFs/2023/2023-Maile-The choice of deontological, virtue ethical, 
 
 ## Authors
 
-[[Andrew Maile]], [[Aidan Thompson]], [[Shane McLoughlin]], [[Kristján Kristjánsson]]
-## Metadata
-
-**Authors:** Maile, Andrew; Thompson, Aidan; McLoughlin, Shane; Kristjánsson, Kristján
-
-**Year:** 2023
-
-**Publication:** Ethics & Behavior
-
-**Type:** journalArticle
-
-**DOI:** [10.1080/10508422.2022.2124995](https://doi.org/10.1080/10508422.2022.2124995)
-
-**Pages:** 637-655
-
-**Volume/Issue:** Vol. 33, Issue 8
+[[Andrew Maile|Maile, Andrew]], [[Aidan Thompson|Thompson, Aidan]], [[Shane McLoughlin|McLoughlin, Shane]], [[Kristján Kristjánsson|Kristjánsson, Kristján]]
 
 ## Links
 

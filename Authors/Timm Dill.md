@@ -1,6 +1,6 @@
 ---
 name: "Timm Dill"
-affiliation: "University/Organization"
+affiliation: "University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Mitchell-SHADES|SHADES]]
 
 ## Notes
 
+
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 [Additional context or contact information]

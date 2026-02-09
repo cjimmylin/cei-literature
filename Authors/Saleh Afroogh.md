@@ -1,6 +1,6 @@
 ---
 name: "Saleh Afroogh"
-affiliation: "University/Organization"
+affiliation: "University of Texas at Austin"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Jiao-LLM Ethics Benchmark|LLM Ethics Benchmark]]
 
 ## Notes
 
+
+- *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: saleh.afroogh@utexas.edu
 [Additional context or contact information]

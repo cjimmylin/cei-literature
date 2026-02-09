@@ -27,10 +27,14 @@ Jesse Dodge is a Senior Research Scientist at the Allen Institute for AI (AI2), 
 
 ## Papers in this Vault
 
+
+- [[2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment|Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)]]
 - [[2022-Jiang-Can Machines Learn Morality|Can Machines Learn Morality?]]
 
 ## Notes
 
+
+- *From 2022-Jiang-Can Machines Learn Morality*: Affiliation: School of Computer Science & Engineering, University of Washington
 - PhD from CMU (2020), advised by Noah Smith
 - Previously visiting student at UW CSE
 - Worked with Luke Zettlemoyer as an undergrad

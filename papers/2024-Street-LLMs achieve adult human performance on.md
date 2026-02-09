@@ -8,6 +8,7 @@ type: journalArticle
 short_title: "LLMs achieve adult human performance on"
 year: 2025
 first_author: "[[Winnie Street]]"
+last_author: "[[Robin I. M. Dunbar]]"
 authors: "Winnie Street; John Oliver Siy; Geoff Keeling; Adrien Baranes; Benjamin Barnett; Michael McKibben; Tatenda Kanyere; Alison Lentz; Blaise Aguera y Arcas; Robin I. M. Dunbar"
 url: "https://arxiv.org/abs/2405.18870"
 external_pdf: "https://arxiv.org/pdf/2405.18870.pdf"
@@ -53,7 +54,7 @@ This paper examines the extent to which large language models (LLMs) have develo
 
 ## Authors
 
-[[Winnie Street]], [[John Oliver Siy]], [[Geoff Keeling]], [[Adrien Baranes]], [[Benjamin Barnett]], [[Michael McKibben]], [[Tatenda Kanyere]], [[Alison Lentz]], [[Blaise Aguera y Arcas]], [[Robin I. M. Dunbar]]
+[[Winnie Street]], [[John Oliver Siy]], [[Geoff Keeling]], [[Adrien Baranes]], [[Benjamin Barnett]], [[Michael McKibben]], [[Tatenda Kanyere]], [[Alison Lentz]], [[Blaise Agüera y Arcas|Blaise Aguera y Arcas]], [[Robin I. M. Dunbar]]
 
 ## Notes
 

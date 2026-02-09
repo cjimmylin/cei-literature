@@ -1,6 +1,6 @@
 ---
 name: "Yi-Chia Wang"
-affiliation: "University/Organization"
+affiliation: "Institute of Technology"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,10 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2022-Ziems-The Moral Integrity Corpus|The Moral Integrity Corpus]]
-- [[2023-Ziems-NormBank|NormBank]]
+
 - [[2024-Altenburger-Examining the Role of Relationship Alignment in|Examining the Role of Relationship Alignment in]]
+- [[2023-Ziems-NormBank|NormBank]]
+- [[2022-Ziems-The Moral Integrity Corpus|The Moral Integrity Corpus]]
 
 ## Notes
 
+
+- *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 [Additional context or contact information]

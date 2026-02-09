@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Contextual Moral Value Alignment Through"
 year: 2025
 first_author: "[[Pierre Dognin]]"
+last_author: "[[Djallel Bouneffouf]]"
 authors: "Pierre Dognin; Jesus Rios; Ronny Luss; Inkit Padhi; Matthew D Riemer; Miao Liu; Prasanna Sattigeri; Manish Nagireddy; Kush R. Varshney; Djallel Bouneffouf"
 doi: 10.48550/arXiv.2403.12805
 url: "http://arxiv.org/abs/2403.12805"
@@ -62,7 +63,7 @@ Developing value-aligned AI agents is a complex undertaking and an ongoing chall
 
 ## Authors
 
-[[Pierre Dognin]], [[Jesus Rios]], [[Ronny Luss]], [[Inkit Padhi]], [[Matthew D Riemer]], [[Miao Liu]], [[Prasanna Sattigeri]], [[Manish Nagireddy]], [[Kush R. Varshney]], [[Djallel Bouneffouf]]
+[[Pierre Dognin]], [[Jesus Rios]], [[Ronny Luss]], [[Inkit Padhi]], [[Matthew D. Riemer|Matthew D Riemer]], [[Miao Liu]], [[Prasanna Sattigeri]], [[Manish Nagireddy]], [[Kush R. Varshney]], [[Djallel Bouneffouf]]
 
 ## Notes
 

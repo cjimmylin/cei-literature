@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: "Apolitical Intelligence?"
 year: 2025
 first_author: "[[Jonathan H. Rystrøm]]"
+last_author: "[[Jonathan H. Rystrøm]]"
 authors: "Jonathan H. Rystrøm"
 doi: 10.48550/arXiv.2306.13000
 url: "http://arxiv.org/abs/2306.13000"

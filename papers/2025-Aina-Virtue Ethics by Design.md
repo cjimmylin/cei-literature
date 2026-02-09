@@ -8,6 +8,7 @@ type: bookSection
 short_title: "Virtue Ethics by Design"
 year: 2025
 first_author: "[[Adeyemi Aina]]"
+last_author: "[[Adeyemi Aina]]"
 authors: "[[Aina, Adeyemi]]"
 doi: 10.1007/978-3-031-99965-9_36
 url: "https://www.researchgate.net/publication/387431326_Virtue_Ethics_by_Design_Embedding_Morality_into_AGI_and_ASI"
@@ -35,17 +36,6 @@ local_pdf: "[[PDFs/2025/2025-Aina-Virtue Ethics by Design.pdf]]"
 ## Authors
 
 [[Adeyemi Aina]]
-## Metadata
-
-**Authors:** Aina, Adeyemi
-
-**Year:** 2025
-
-**Type:** book chapter
-
-**DOI:** [10.1007/978-3-031-99965-9_36](https://doi.org/10.1007/978-3-031-99965-9_36)
-
-**Publisher:** Springer (Intelligent Systems and Applications)
 
 ## Links
 

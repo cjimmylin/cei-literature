@@ -8,6 +8,7 @@ type: journalArticle
 year: 2025
 short_title: "Religious Affiliation and Conceptions of the"
 first_author: "[[Sydney Levine]]"
+last_author: "[[Sydney Levine]]"
 authors: "Sydney Levine"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/QBMPEGEU/Levine - Religious Affiliation and Conceptions of the Moral Domain.pdf"
 pdf_extract: "[[2024-Levine-Religious Affiliation and Conceptions of the]]"

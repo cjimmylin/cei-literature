@@ -1,6 +1,6 @@
 ---
 name: "Katrin Klug"
-affiliation: "University/Organization"
+affiliation: "Institute for Intelligent Analysis and Information Systems IAIS"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
 - [[2025-Satheesh-GG-BBQ|GG-BBQ]]
 
 ## Notes
 
+
+- *From 2025-Satheesh-GG-BBQ*: Affiliation: Institute for Intelligent Analysis and Information Systems IAIS, Email: shalaka.satheesh@iais.fraunhofer.de
 [Additional context or contact information]

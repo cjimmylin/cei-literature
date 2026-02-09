@@ -37,10 +37,14 @@ Haoran Ye is a first-year AI PhD student at Peking University, advised by Prof. 
 
 ## Papers in this Vault
 
+
+- [[2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems|GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems]] (First Author)
+- [[2025-Ye-Large Language Model Psychometrics|Large Language Model Psychometrics]] (First Author)
 - [[2024-Ren-ValueBench|ValueBench]]
-- [[2024-Ye-Measuring Human and AI Values Based on Generative|Measuring Human and AI Values Based on Generative]]
-- [[2025-Ye-Large Language Model Psychometrics|Large Language Model Psychometrics]]
+- [[2024-Ye-Measuring Human and AI Values Based on Generative|Measuring Human and AI Values Based on Generative]] (First Author)
 
 ## Notes
 
+
+- *From 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems*: Affiliation: Laboratory of General Artificial Intelligence
 Maintains "Awesome-LLM-Psychometrics" repository for LLM psychology research. Research highly relevant to CEI focus on AI values and alignment.

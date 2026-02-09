@@ -8,6 +8,7 @@ type: journalArticle
 short_title: AI-Face
 year: 2025
 first_author: "[[Li Lin]]"
+last_author: "[[Shu Hu]]"
 authors: "Li Lin; Santosh; Mingyang Wu; Xin Wang; Shu Hu"
 url: "https://arxiv.org/abs/2406.00783"
 external_pdf: "https://arxiv.org/pdf/2406.00783.pdf"
@@ -53,7 +54,7 @@ AI-generated faces have enriched human life, such as entertainment, education, a
 
 ## Authors
 
-[[Li Lin]], [[Santosh]], [[Mingyang Wu]], [[Xin Wang]], [[Shu Hu]]
+[[Li Lin]], [[Santosh]], [[Mengyue Wu|Mingyang Wu]], [[Xin Wang]], [[Shu Hu]]
 
 ## Notes
 

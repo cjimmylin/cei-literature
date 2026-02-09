@@ -8,6 +8,7 @@ type: conferencePaper
 short_title: DefAn
 year: 2025
 first_author: "[[A B M Ashikur Rahman]]"
+last_author: "[[Ajmal Mian]]"
 authors: "A B M Ashikur Rahman; Saeed Anwar; Muhammad Usman; Ajmal Mian"
 doi: 10.48550/arXiv.2406.09155
 url: "http://arxiv.org/abs/2406.09155"

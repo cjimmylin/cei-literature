@@ -28,6 +28,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
+publication: arXiv
 ---
 # The Virtuous Machine - Old Ethics for New Technology?
 

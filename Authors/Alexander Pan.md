@@ -32,9 +32,8 @@ Alexander's research tackles the problem of "reward hacking" and inner alignment
 - [The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning](https://arxiv.org/abs/2403.00000) (2024) - *Standardizing bio-security evaluations for LLMs.*
 
 ## Papers in this Vault
-- [[2023-Pan-Do the Rewards Justify the Means Measuring|Do the Rewards Justify the Means? Measuring]]
+- [[2023-Jiang-MACHIAVELLI|Do the Rewards Justify the Means? Measuring]]
 
-- [[2023-Pan-Do the Rewards Justify the Means Measuring|Do the Rewards Justify the Means Measuring]]
 - [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 - [[2024-Ren-Safetywashing|Safetywashing]]

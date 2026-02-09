@@ -18,7 +18,7 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 - [[2023-Wang-DecodingTrust|DecodingTrust]]
-- [[2024-Wang-BenchMAW|BenchMAW]]
+- [[2024-Sun-Benchmarking Hallucination in Large Language|BenchMAW]]
 
 ## Notes
 

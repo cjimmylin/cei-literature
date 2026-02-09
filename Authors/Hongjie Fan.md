@@ -19,7 +19,6 @@ Hongjie Fan is an NLP researcher who has contributed to work on toxic language d
 ## Papers in this Vault
 
 - [[2021-Wang-MedAI at SemEval-2021 Task 5|MedAI at SemEval-2021 Task 5]]
-- [[2021-Wang-SemEval-2021 Task 5 Toxic Spans Detection|SemEval-2021 Task 5: Toxic Spans Detection]]
 
 ## Notes
 

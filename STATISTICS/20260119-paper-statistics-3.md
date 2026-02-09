@@ -101,7 +101,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Benchmark for ai safety dataset for conversational ai
 - 2023 - [[Aníbal M. Astobiza]] - [[2023-Astobiza-MoralNet|MoralNet: A Benchmarking Protocol for Evaluating Morality in AI Systems]]
   - *Description*: Benchmark for moral/ethical reasoning dataset
-- 2023 - [[Ryan Koo]] - [[2023-Atre-Benchmarking Cognitive Biases in Large Language|Benchmarking Cognitive Biases in Large Language Models as Evaluators]]
+- 2023 - [[Ryan Koo]] - [[2023-Guo-COBBLER|Benchmarking Cognitive Biases in Large Language Models as Evaluators]]
   - *Description*: Benchmark for bias and fairness dataset
 - 2023 - [[Teanna Barrett]] - [[2023-Barrett-Skin Deep|Skin Deep: Investigating Subjectivity in Skin Tone Annotations for Computer Vision Benchmark Datasets]]
   - *Description*: Benchmark for bias and fairness dataset
@@ -170,7 +170,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2024 - [[Anonymous]] - [[2024-Anonymous-ForbiddenQuestions|ForbiddenQuestions: A Benchmark of In-the-Wild Jailbreak Prompts]]
   - *Description*: Benchmark
   - *Metrics*: 107,250 samples
-- 2024 - [[Muhammad Umair Arshad]] - [[2024-Arshad-HateInsights|HateInsights: A Fine-Grained Benchmark for Explainable Hate Speech Detection]]
+- 2024 - [[Muhammad Umair Arshad]] - [[2024-Arshad-Understanding hate speech|HateInsights: A Fine-Grained Benchmark for Explainable Hate Speech Detection]]
   - *Description*: Benchmark dataset for hate speech detection
 - 2024 - [[Muhammad Umair Arshad]] - [[2024-Arshad-Understanding hate speech|Understanding hate speech: the HateInsights dataset and model interpretability]]
   - *Description*: Benchmark for bias and fairness annotated dataset for hate speech detection
@@ -181,7 +181,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Metrics*: 11 categories
 - 2024 - [[Patrick Chao]] - [[2024-Chao-JBB-Behaviours|JBB-Behaviours: A Benchmark for Jailbreaking Bounded LLMs]]
   - *Description*: Benchmark for moral/ethical reasoning dataset
-- 2024 - [[Patrick Chao]] - [[2024-Chao-JailbreakBench|JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models]]
+- 2024 - [[Patrick Chao]] - [[2024-Chao-JBB-Behaviours|JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models]]
   - *Description*: Benchmark for moral/ethical reasoning dataset
 - 2024 - [[Kedi Chen]] - [[2024-Chen-DiaHalu|DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark for Large Language Models]]
   - *Description*: Benchmark for hallucination detection dataset for conversational ai
@@ -271,7 +271,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-DefAn|DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation]]
   - *Description*: Benchmark for hallucination detection dataset
   - *Metrics*: 75,000 prompts
-- 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-Definitive Answer Dataset for LLMs Hallucination|Definitive Answer Dataset for LLMs Hallucination Evaluation]]
+- 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-DefAn|Definitive Answer Dataset for LLMs Hallucination Evaluation]]
   - *Description*: Benchmark for hallucination detection dataset
   - *Metrics*: 75,000 prompts
 - 2024 - [[Richard Ren]] - [[2024-Ren-Safetywashing|Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress?]]
@@ -432,7 +432,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Multi-task benchmark for moral/ethical reasoning dataset
 - 2025 - [[Ruben E Laukkonen]] - [[2025-Laukkonen-Contemplative Artificial Intelligence|]]
   - *Description*: Benchmark
-- 2025 - [[Richard Ren]] - [[2025-Li-MASK|MASK: A Benchmark for Measuring General-Purpose Language Models' Honesty]]
+- 2025 - [[Richard Ren]] - [[2025-Ren-The MASK Benchmark|MASK: A Benchmark for Measuring General-Purpose Language Models' Honesty]]
   - *Description*: Benchmark dataset
 - 2025 - [[Lijun Li]] - [[2025-Li-T2ISafety|T2ISafety: Benchmark for Assessing Fairness, Toxicity, and Privacy in Image Generation]]
   - *Description*: Benchmark for ai safety annotated dataset for toxicity detection
@@ -458,7 +458,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Benchmark for moral/ethical reasoning
 - 2025 - [[Akshat Naik]] - [[2025-Naik-AgentMisalignment|AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents]]
   - *Description*: Benchmark
-- 2025 - [[Akshat Naik]] - [[2025-Naik-Measuring the Propensity for Misaligned Behaviour|Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents]]
+- 2025 - [[Akshat Naik]] - [[2025-Naik-AgentMisalignment|Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents]]
   - *Description*: Benchmark
 - 2025 - [[Vishal Narnaware]] - [[2025-Narnaware-SB-Bench|SB-Bench: Stereotype Bias Benchmark for Large Multimodal Models]]
   - *Description*: Benchmark for bias and fairness dataset
@@ -621,7 +621,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Evaluation approach dataset for hate speech detection
 - 2021 - [[Zhen Wang]] - [[2021-Wang-MedAI at SemEval-2021 Task 5|MedAI at SemEval-2021 Task 5: Start-to-end Tagging Framework for Toxic Spans Detection]]
   - *Description*: Evaluation framework
-- 2021 - [[Zhen Wang]] - [[2021-Wang-SemEval-2021 Task 5 Toxic Spans Detection|SemEval-2021 Task 5: Toxic Spans Detection]]
+- 2021 - [[Zhen Wang]] - [[2021-Wang-MedAI at SemEval-2021 Task 5|SemEval-2021 Task 5: Toxic Spans Detection]]
   - *Description*: Evaluation framework
 - 2022 - [[Joris Baan]] - [[2022-Baan-Stop Measuring Calibration When Humans Disagree|Stop Measuring Calibration When Humans Disagree]]
   - *Description*: Evaluation framework dataset
@@ -665,7 +665,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Benchmark for ai safety dataset for conversational ai
 - 2023 - [[Aníbal M. Astobiza]] - [[2023-Astobiza-MoralNet|MoralNet: A Benchmarking Protocol for Evaluating Morality in AI Systems]]
   - *Description*: Benchmark for moral/ethical reasoning dataset
-- 2023 - [[Ryan Koo]] - [[2023-Atre-Benchmarking Cognitive Biases in Large Language|Benchmarking Cognitive Biases in Large Language Models as Evaluators]]
+- 2023 - [[Ryan Koo]] - [[2023-Guo-COBBLER|Benchmarking Cognitive Biases in Large Language Models as Evaluators]]
   - *Description*: Benchmark for bias and fairness dataset
 - 2023 - [[Teanna Barrett]] - [[2023-Barrett-Skin Deep|Skin Deep: Investigating Subjectivity in Skin Tone Annotations for Computer Vision Benchmark Datasets]]
   - *Description*: Benchmark for bias and fairness dataset
@@ -815,7 +815,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Evaluation approach annotated dataset
 - 2024 - [[Patrick Chao]] - [[2024-Chao-JBB-Behaviours|JBB-Behaviours: A Benchmark for Jailbreaking Bounded LLMs]]
   - *Description*: Benchmark for moral/ethical reasoning dataset
-- 2024 - [[Patrick Chao]] - [[2024-Chao-JailbreakBench|JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models]]
+- 2024 - [[Patrick Chao]] - [[2024-Chao-JBB-Behaviours|JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models]]
   - *Description*: Benchmark for moral/ethical reasoning dataset
 - 2024 - [[Kedi Chen]] - [[2024-Chen-DiaHalu|DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark for Large Language Models]]
   - *Description*: Benchmark for hallucination detection dataset for conversational ai
@@ -935,7 +935,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-DefAn|DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation]]
   - *Description*: Benchmark for hallucination detection dataset
   - *Metrics*: 75,000 prompts
-- 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-Definitive Answer Dataset for LLMs Hallucination|Definitive Answer Dataset for LLMs Hallucination Evaluation]]
+- 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-DefAn|Definitive Answer Dataset for LLMs Hallucination Evaluation]]
   - *Description*: Benchmark for hallucination detection dataset
   - *Metrics*: 75,000 prompts
 - 2024 - [[Sunayana Rane]] - [[2024-Rane-Concept Alignment|]]
@@ -987,7 +987,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Metrics*: 100 languages
 - 2024 - [[Mariia Vladimirova]] - [[2024-Vladimirova-FairJob|FairJob: A Real-World Dataset for Fairness in Online Systems]]
   - *Description*: Benchmark for bias and fairness dataset
-- 2024 - [[Yuhong Sun]] - [[2024-Wang-BenchMAW|BenchMAW: Unanswerable Math-Word-Problem Hallucination Tests]]
+- 2024 - [[Yuhong Sun]] - [[2024-Sun-Benchmarking Hallucination in Large Language|BenchMAW: Unanswerable Math-Word-Problem Hallucination Tests]]
   - *Description*: Evaluation methodology dataset for question answering
   - *Metrics*: 5200 questions
 - 2024 - [[Yuxia Wang]] - [[2024-Wang-Do-Not-Answer|Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs]]
@@ -1174,7 +1174,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Evaluation approach dataset
 - 2025 - [[Jiatao Li]] - [[2025-Li-Analyzing Cognitive Differences Among Large|Analyzing Cognitive Differences Among Large Language Models through the Lens of Social Worldview]]
   - *Description*: Evaluation framework
-- 2025 - [[Richard Ren]] - [[2025-Li-MASK|MASK: A Benchmark for Measuring General-Purpose Language Models' Honesty]]
+- 2025 - [[Richard Ren]] - [[2025-Ren-The MASK Benchmark|MASK: A Benchmark for Measuring General-Purpose Language Models' Honesty]]
   - *Description*: Benchmark dataset
 - 2025 - [[Lijun Li]] - [[2025-Li-T2ISafety|T2ISafety: Benchmark for Assessing Fairness, Toxicity, and Privacy in Image Generation]]
   - *Description*: Benchmark for ai safety annotated dataset for toxicity detection
@@ -1205,7 +1205,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Evaluation framework annotated dataset
 - 2025 - [[Akshat Naik]] - [[2025-Naik-AgentMisalignment|AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents]]
   - *Description*: Benchmark
-- 2025 - [[Akshat Naik]] - [[2025-Naik-Measuring the Propensity for Misaligned Behaviour|Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents]]
+- 2025 - [[Akshat Naik]] - [[2025-Naik-AgentMisalignment|Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents]]
   - *Description*: Benchmark
 - 2025 - [[Inderjeet Nair]] - [[2025-Nair-Do Language Models Think Consistently|Do Language Models Think Consistently? A Study of Value Preferences Across Varying Response Lengths]]
   - *Description*: Evaluation methodology
@@ -1382,7 +1382,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Text corpus
 - 2018 - [[Jieyu Zhao]] - [[2018-Zhao-Gender Bias in Coreference Resolution|]]
   - *Description*: Benchmark for bias and fairness text corpus
-- 2018 - [[Jieyu Zhao]] - [[2018-Zhao-Learning Gender-Neutral Word Embeddings|Learning Gender-Neutral Word Embeddings]]
+- 2018 - [[Jieyu Zhao]] - [[2018-Zhao-Gender Bias in Contextualized Word Embeddings|Learning Gender-Neutral Word Embeddings]]
   - *Description*: Text corpus
 - 2019 - [[He He]] - [[2019-He-Unlearn Dataset Bias in Natural Language|Unlearn Dataset Bias in Natural Language Inference by Fitting the Residual]]
   - *Description*: Benchmark for bias and fairness dataset
@@ -1488,7 +1488,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Dataset for question answering
 - 2023 - [[Ohoud Alyemny]] - [[2023-Alyemny-FatwaSet|FatwaSet: Large-scale Dataset for Islam Fatwa Question Answering]]
   - *Description*: Dataset for question answering
-- 2023 - [[A. Alyemny]] - [[2023-Alyemny-Fatwaset An Arabic Dataset of Islamic Fatwas|Fatwaset: An Arabic Dataset of Islamic Fatwas]]
+- 2023 - [[A. Alyemny]] - [[2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas|Fatwaset: An Arabic Dataset of Islamic Fatwas]]
   - *Description*: Dataset for question answering
 - 2023 - [[McKane Andrus]] - [[2023-Andrus-Augmented Datasheets for Speech Datasets and|Augmented Datasheets for Speech Datasets and Ethical Decision-Making]]
   - *Description*: Dataset
@@ -1496,7 +1496,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Benchmark for ai safety dataset for conversational ai
 - 2023 - [[Aníbal M. Astobiza]] - [[2023-Astobiza-MoralNet|MoralNet: A Benchmarking Protocol for Evaluating Morality in AI Systems]]
   - *Description*: Benchmark for moral/ethical reasoning dataset
-- 2023 - [[Ryan Koo]] - [[2023-Atre-Benchmarking Cognitive Biases in Large Language|Benchmarking Cognitive Biases in Large Language Models as Evaluators]]
+- 2023 - [[Ryan Koo]] - [[2023-Guo-COBBLER|Benchmarking Cognitive Biases in Large Language Models as Evaluators]]
   - *Description*: Benchmark for bias and fairness dataset
 - 2023 - [[Abinet Ayele]] - [[2023-Ayele-Amharic Hate Speech Dataset|Amharic Hate Speech Dataset]]
   - *Description*: Annotated dataset for hate speech detection
@@ -1611,7 +1611,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Dataset
 - 2024 - [[Kristen M. Altenburger]] - [[2024-Altenburger-Examining the Role of Relationship Alignment in|Examining the Role of Relationship Alignment in Large Language Models]]
   - *Description*: Evaluation approach dataset
-- 2024 - [[Muhammad Umair Arshad]] - [[2024-Arshad-HateInsights|HateInsights: A Fine-Grained Benchmark for Explainable Hate Speech Detection]]
+- 2024 - [[Muhammad Umair Arshad]] - [[2024-Arshad-Understanding hate speech|HateInsights: A Fine-Grained Benchmark for Explainable Hate Speech Detection]]
   - *Description*: Benchmark dataset for hate speech detection
 - 2024 - [[Muhammad Umair Arshad]] - [[2024-Arshad-Understanding hate speech|Understanding hate speech: the HateInsights dataset and model interpretability]]
   - *Description*: Benchmark for bias and fairness annotated dataset for hate speech detection
@@ -1632,7 +1632,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Evaluation approach annotated dataset
 - 2024 - [[Patrick Chao]] - [[2024-Chao-JBB-Behaviours|JBB-Behaviours: A Benchmark for Jailbreaking Bounded LLMs]]
   - *Description*: Benchmark for moral/ethical reasoning dataset
-- 2024 - [[Patrick Chao]] - [[2024-Chao-JailbreakBench|JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models]]
+- 2024 - [[Patrick Chao]] - [[2024-Chao-JBB-Behaviours|JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models]]
   - *Description*: Benchmark for moral/ethical reasoning dataset
 - 2024 - [[Kedi Chen]] - [[2024-Chen-DiaHalu|DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark for Large Language Models]]
   - *Description*: Benchmark for hallucination detection dataset for conversational ai
@@ -1729,7 +1729,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-DefAn|DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation]]
   - *Description*: Benchmark for hallucination detection dataset
   - *Metrics*: 75,000 prompts
-- 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-Definitive Answer Dataset for LLMs Hallucination|Definitive Answer Dataset for LLMs Hallucination Evaluation]]
+- 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-DefAn|Definitive Answer Dataset for LLMs Hallucination Evaluation]]
   - *Description*: Benchmark for hallucination detection dataset
   - *Metrics*: 75,000 prompts
 - 2024 - [[Celeste Rodríguez Louro]] - [[2024-Rodríguez Louro-The Yarning Corpus|The Yarning Corpus: Aboriginal English in Southwest Western Australia]]
@@ -1765,7 +1765,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Benchmark for bias and fairness dataset
 - 2024 - [[Zhichao Wang]] - [[2024-Wang-A Comprehensive Survey of LLM Alignment Techniques|A Comprehensive Survey of LLM Alignment Techniques: RLHF, RLAIF, PPO, DPO and More]]
   - *Description*: Text corpus
-- 2024 - [[Yuhong Sun]] - [[2024-Wang-BenchMAW|BenchMAW: Unanswerable Math-Word-Problem Hallucination Tests]]
+- 2024 - [[Yuhong Sun]] - [[2024-Sun-Benchmarking Hallucination in Large Language|BenchMAW: Unanswerable Math-Word-Problem Hallucination Tests]]
   - *Description*: Evaluation methodology dataset for question answering
   - *Metrics*: 5200 questions
 - 2024 - [[Yuxia Wang]] - [[2024-Wang-Do-Not-Answer|Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs]]
@@ -1877,7 +1877,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Multi-task benchmark for moral/ethical reasoning dataset
 - 2025 - [[Thibaud Leteno]] - [[2025-Leteno-Histoires Morales|Histoires Morales: A French Dataset for Assessing Moral Alignment]]
   - *Description*: Evaluation approach dataset
-- 2025 - [[Richard Ren]] - [[2025-Li-MASK|MASK: A Benchmark for Measuring General-Purpose Language Models' Honesty]]
+- 2025 - [[Richard Ren]] - [[2025-Ren-The MASK Benchmark|MASK: A Benchmark for Measuring General-Purpose Language Models' Honesty]]
   - *Description*: Benchmark dataset
 - 2025 - [[Lijun Li]] - [[2025-Li-T2ISafety|T2ISafety: Benchmark for Assessing Fairness, Toxicity, and Privacy in Image Generation]]
   - *Description*: Benchmark for ai safety annotated dataset for toxicity detection
@@ -1890,7 +1890,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Dataset
 - 2025 - [[Songyang Liu]] - [[2025-Liu-The Scales of Justitia|The Scales of Justitia: A Comprehensive Survey on Safety Evaluation of LLMs]]
   - *Description*: Benchmark for ai safety dataset for toxicity detection
-- 2025 - [[International Islamic Univ Malaysia]] - [[2025-Malaysia-Islam Q&A Morals Corpus|Islam Q&A Morals Corpus: Character & Morals, Volume 13]]
+- 2025 - [[International Islamic Univ Malaysia]] - [[2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for|Islam Q&A Morals Corpus: Character & Morals, Volume 13]]
   - *Description*: Text corpus for question answering
 - 2025 - [[Margaret Mitchell]] - [[2025-Mitchell-SHADES|SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models]]
   - *Description*: Evaluation approach dataset
@@ -2019,7 +2019,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2022 - [[Alicia Parrish]] - [[2022-Parrish-BBQ|BBQ: A hand-built bias benchmark for question answering]]
 - 2023 - [[Lora Aroyo]] - [[2023-Aroyo-DICES Dataset|DICES Dataset: Diversity in Conversational AI Evaluation for Safety]]
 - 2023 - [[Aníbal M. Astobiza]] - [[2023-Astobiza-MoralNet|MoralNet: A Benchmarking Protocol for Evaluating Morality in AI Systems]]
-- 2023 - [[Ryan Koo]] - [[2023-Atre-Benchmarking Cognitive Biases in Large Language|Benchmarking Cognitive Biases in Large Language Models as Evaluators]]
+- 2023 - [[Ryan Koo]] - [[2023-Guo-COBBLER|Benchmarking Cognitive Biases in Large Language Models as Evaluators]]
 - 2023 - [[Teanna Barrett]] - [[2023-Barrett-Skin Deep|Skin Deep: Investigating Subjectivity in Skin Tone Annotations for Computer Vision Benchmark Datasets]]
 - 2023 - [[Amir Cohen]] - [[2023-Cohen-HeQ|HeQ: a Large and Diverse Hebrew Reading Comprehension Benchmark]]
 - 2023 - [[Shitong Duan]] - [[2023-Duan-Denevil|Denevil: Towards Deciphering and Navigating the Ethical Values of Large Language Models via Instruction Learning]]
@@ -2036,7 +2036,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2024 - [[Farima Fatahi Bayat]] - [[2024-Bayat-FactBench|FactBench: A Dynamic Benchmark for In-the-Wild Language Model Factuality Evaluation]]
 - 2024 - [[Rishabh Bhardwaj]] - [[2024-Bhardwaj-Language Models are Homer Simpson! Safety|Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Arithmetic]]
 - 2024 - [[Patrick Chao]] - [[2024-Chao-JBB-Behaviours|JBB-Behaviours: A Benchmark for Jailbreaking Bounded LLMs]]
-- 2024 - [[Patrick Chao]] - [[2024-Chao-JailbreakBench|JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models]]
+- 2024 - [[Patrick Chao]] - [[2024-Chao-JBB-Behaviours|JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models]]
 - 2024 - [[Kedi Chen]] - [[2024-Chen-DiaHalu|DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark for Large Language Models]]
 - 2024 - [[Pengcheng Chen]] - [[2024-Chen-GMAI-MMBench|GMAI-MMBench: A Comprehensive Multimodal Evaluation Benchmark Towards General Medical AI]]
 - 2024 - [[MaryBeth Defrance]] - [[2024-Defrance-ABCFair|ABCFair: an Adaptable Benchmark approach for Comparing Fairness Methods]]
@@ -2059,7 +2059,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2024 - [[Y. Moon]] - [[2024-Moon-BEAF|]]
 - 2024 - [[Faiza Qamar]] - [[2024-Qamar-A Benchmark Dataset with Larger Context for|A Benchmark Dataset with Larger Context for Non-Factoid QA over Islamic Text]]
 - 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-DefAn|DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation]]
-- 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-Definitive Answer Dataset for LLMs Hallucination|Definitive Answer Dataset for LLMs Hallucination Evaluation]]
+- 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-DefAn|Definitive Answer Dataset for LLMs Hallucination Evaluation]]
 - 2024 - [[Pranav Senthilkumar]] - [[2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity|Fine-Tuning Language Models for Ethical Ambiguity: A Comparative Study of Alignment with Human Responses]]
 - 2024 - [[Aakanksha]] - [[2024-Singhal-AyaRedTeaming|AyaRedTeaming: A Benchmark for Exploring Alignment Across Global and Local Preferences]]
 - 2024 - [[Alexandra Souly]] - [[2024-Souly-StrongREJECT|StrongREJECT: A Benchmark for Evaluating the Robustness of LLMs to Rejection Sampling]]
@@ -2098,7 +2098,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2025 - [[Dahyun Kim]] - [[2025-Kim-Cultural and Core Capability Benchmarks for|Cultural and Core Capability Benchmarks for Developing Thai LLMs (ThaiCLI)]]
 - 2025 - [[Shivani Kumar]] - [[2025-Kumar-Are Rules Meant to be Broken|Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral]]
 - 2025 - [[Tian Lan]] - [[2025-Lan-McBE|McBE: A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models]]
-- 2025 - [[Richard Ren]] - [[2025-Li-MASK|MASK: A Benchmark for Measuring General-Purpose Language Models' Honesty]]
+- 2025 - [[Richard Ren]] - [[2025-Ren-The MASK Benchmark|MASK: A Benchmark for Measuring General-Purpose Language Models' Honesty]]
 - 2025 - [[Lijun Li]] - [[2025-Li-T2ISafety|T2ISafety: Benchmark for Assessing Fairness, Toxicity, and Privacy in Image Generation]]
 - 2025 - [[Xiao Lin]] - [[2025-Lin-MORALISE|MORALISE: A Structured Benchmark for Moral Alignment in Visual Language Models]]
 - 2025 - [[Songyang Liu]] - [[2025-Liu-The Scales of Justitia|The Scales of Justitia: A Comprehensive Survey on Safety Evaluation of LLMs]]
@@ -2198,7 +2198,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2025 - [[Abdullah Mushtaq]] - [[2025-Mushtaq-WorldView-Bench|WorldView-Bench: A Challenge for Generative Models to Accommodate Diverse Worldviews]]
 - 2025 - [[Junho Myung]] - [[2025-Myung-PapersPlease|PapersPlease: A Benchmark for Evaluating Motivational Values of Large Language Models Based on ERG Theory]]
 - 2025 - [[Akshat Naik]] - [[2025-Naik-AgentMisalignment|AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents]]
-- 2025 - [[Akshat Naik]] - [[2025-Naik-Measuring the Propensity for Misaligned Behaviour|Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents]]
+- 2025 - [[Akshat Naik]] - [[2025-Naik-AgentMisalignment|Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents]]
 - 2025 - [[W. Russell Neuman]] - [[2025-Neuman-Auditing the Ethical Logic of Generative AI Models|Auditing the Ethical Logic of Generative AI Models]]
 - 2025 - [[[[Neuman - [[2025-Neuman-PRIME Framework Convergent Ethics|]]
 - 2025 - [[Yunjia Qi]] - [[2025-Qi-AGENTIF|AGENTIF: Benchmarking Instruction Following of Large Language Models in Agentic Scenarios]]
@@ -2229,7 +2229,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2023 - [[Shamsuddeen Muhammad]] - [[2023-Muhammad-AfriSenti|AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages]]
 - 2023 - [[TheDevastator]] - [[2023-TheDevastator-HelpSteer A-i Alignment Dataset|HelpSteer: A-i Alignment Dataset]]
 - 2023 - [[TheDevastator]] - [[2023-TheDevastator-OpenAssistant Conversations (OASST1)|OpenAssistant Conversations (OASST1)]]
-- 2024 - [[Muhammad Umair Arshad]] - [[2024-Arshad-HateInsights|HateInsights: A Fine-Grained Benchmark for Explainable Hate Speech Detection]]
+- 2024 - [[Muhammad Umair Arshad]] - [[2024-Arshad-Understanding hate speech|HateInsights: A Fine-Grained Benchmark for Explainable Hate Speech Detection]]
 - 2024 - [[Shaona Ghosh]] - [[2024-Ghosh-AEGIS|AEGIS: Online Adaptive AI Content Safety Moderation at Scale]]
 - 2024 - [[Li Lin]] - [[2024-Lin-AI-Face|AI-Face: A Million-Scale Demographically Annotated AI-Generated Face Dataset and Fairness Benchmark]]
 - 2024 - [[Alfred Malengo Kondoro]] - [[2024-Oliech-SwaQuAD-24|SwaQuAD-24: A Benchmark Dataset for Question Answering in Swahili]]
@@ -2302,7 +2302,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2024 - [[Hamidreza Saffari]] - [[2024-Saffari-PSN|PSN: A Dataset of Persian Social Norms for Cross‑Cultural AI]]
 - 2024 - [[Ahmet Üstün]] - [[2024-Singh-Aya Dataset|Aya Dataset: A Massively Multilingual Instruction-Tuned Dataset]]
 - 2024 - [[Manuel Tonneau]] - [[2024-Tonneau-NaijaHate|NaijaHate: Evaluating Hate Speech Detection on Nigerian Twitter Using Representative Data]]
-- 2024 - [[Yuhong Sun]] - [[2024-Wang-BenchMAW|BenchMAW: Unanswerable Math-Word-Problem Hallucination Tests]]
+- 2024 - [[Yuhong Sun]] - [[2024-Sun-Benchmarking Hallucination in Large Language|BenchMAW: Unanswerable Math-Word-Problem Hallucination Tests]]
 - 2024 - [[Yuxia Wang]] - [[2024-Wang-Do-Not-Answer|Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs]]
 - 2024 - [[Erxin Yu]] - [[2024-Zhao-CoSafe|CoSafe: Evaluating Large Language Model Safety in Multi-Turn Dialogue Coreference]]
 - 2024 - [[Tolúlọpẹ́ Ògúnrẹ̀mí]] - [[2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus|ÌròyìnSpeech: A Multi-purpose Yorùbá Speech Corpus]]
@@ -2454,7 +2454,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2025 - [[Ruben E Laukkonen]] - [[2025-Laukkonen-Contemplative Artificial Intelligence|]]
 - 2025 - [[Yufei He]] - [[2025-Liu-InstrumentalEval|InstrumentalEval: A Benchmark for Evaluating Instrumental Convergence in Large Language Models]]
 - 2025 - [[Akshat Naik]] - [[2025-Naik-AgentMisalignment|AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents]]
-- 2025 - [[Akshat Naik]] - [[2025-Naik-Measuring the Propensity for Misaligned Behaviour|Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents]]
+- 2025 - [[Akshat Naik]] - [[2025-Naik-AgentMisalignment|Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents]]
 - 2025 - [[Yunjia Qi]] - [[2025-Qi-AGENTIF|AGENTIF: Benchmarking Instruction Following of Large Language Models in Agentic Scenarios]]
   - *Metrics*: 723 words; 630 words
 - 2025 - [[Abhinav Rao]] - [[2025-Rao-NormAd|NormAd: A Framework for Measuring the Cultural Adaptability of Large Language Models]]
@@ -2501,7 +2501,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 **Total: 27 papers**
 
 - 2021 - [[Zhen Wang]] - [[2021-Wang-MedAI at SemEval-2021 Task 5|MedAI at SemEval-2021 Task 5: Start-to-end Tagging Framework for Toxic Spans Detection]]
-- 2021 - [[Zhen Wang]] - [[2021-Wang-SemEval-2021 Task 5 Toxic Spans Detection|SemEval-2021 Task 5: Toxic Spans Detection]]
+- 2021 - [[Zhen Wang]] - [[2021-Wang-MedAI at SemEval-2021 Task 5|SemEval-2021 Task 5: Toxic Spans Detection]]
 - 2022 - [[Hao Sun]] - [[2022-Sun-MoralDial|MoralDial: A Framework to Train and Evaluate Moral Dialogue Systems via Moral Discussions]]
 - 2023 - [[Xiaoding Lu]] - [[2023-Lu-The Chai Platform's AI Safety Framework|The Chai Platform's AI Safety Framework]]
 - 2023 - [[Peter S. Park]] - [[2023-Park-AI Deception|AI Deception: A Survey of Examples, Risks, and Potential Solutions]]
@@ -2572,7 +2572,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2023 - [[Shitong Duan]] - [[2023-Duan-Denevil|Denevil: Towards Deciphering and Navigating the Ethical Values of Large Language Models via Instruction Learning]]
   - *Metrics*: 2,397 prompts
 - 2024 - [[Patrick Chao]] - [[2024-Chao-JBB-Behaviours|JBB-Behaviours: A Benchmark for Jailbreaking Bounded LLMs]]
-- 2024 - [[Patrick Chao]] - [[2024-Chao-JailbreakBench|JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models]]
+- 2024 - [[Patrick Chao]] - [[2024-Chao-JBB-Behaviours|JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models]]
 - 2024 - [[Leif Hancox-Li]] - [[2024-Hancox-Li-Is ETHICS about ethics|Is ETHICS about ethics? Evaluating the ETHICS benchmark]]
 - 2024 - [[Yufei Huang]] - [[2024-Huang-CBBQ|CBBQ: A Chinese Bias Benchmark Dataset Curated with Human–AI Collaboration]]
   - *Metrics*: 100k questions; over 100k questions
@@ -2619,7 +2619,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2019 - [[He He]] - [[2019-He-Unlearn Dataset Bias in Natural Language|Unlearn Dataset Bias in Natural Language Inference by Fitting the Residual]]
 - 2021 - [[Moin Nadeem]] - [[2021-Nadeem-StereoSet|StereoSet: Measuring stereotypical bias in pretrained language models]]
 - 2022 - [[Ilias Chalkidis]] - [[2022-Chalkidis-FairLex|FairLex: A Multilingual Benchmark for Evaluating Fairness in Legal Text Processing]]
-- 2023 - [[Ryan Koo]] - [[2023-Atre-Benchmarking Cognitive Biases in Large Language|Benchmarking Cognitive Biases in Large Language Models as Evaluators]]
+- 2023 - [[Ryan Koo]] - [[2023-Guo-COBBLER|Benchmarking Cognitive Biases in Large Language Models as Evaluators]]
 - 2023 - [[Teanna Barrett]] - [[2023-Barrett-Skin Deep|Skin Deep: Investigating Subjectivity in Skin Tone Annotations for Computer Vision Benchmark Datasets]]
 - 2023 - [[Ryan Koo]] - [[2023-Guo-COBBLER|COBBLER: A Scrutinizing Benchmark for Assessing the Cognitive Bias of Large Language Models as Evaluators]]
 - 2023 - [[Laura Gustafson]] - [[2023-Gustafson-FACET|FACET: Fairness in Computer Vision Evaluation Benchmark]]
@@ -2648,7 +2648,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2024 - [[Nathaniel Li]] - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning]]
 - 2024 - [[Saurabh Srivastava]] - [[2024-Srivastava-Functional Benchmarks for Robust Evaluation of|Functional Benchmarks for Robust Evaluation of Reasoning Performance, and the Reasoning Gap]]
 - 2025 - [[Charles Packer]] - [[2025-Aggarwal-Letta Leaderboard|Letta Leaderboard: Benchmarking Agentic Memory in LLMs]]
-- 2025 - [[Richard Ren]] - [[2025-Li-MASK|MASK: A Benchmark for Measuring General-Purpose Language Models' Honesty]]
+- 2025 - [[Richard Ren]] - [[2025-Ren-The MASK Benchmark|MASK: A Benchmark for Measuring General-Purpose Language Models' Honesty]]
 - 2025 - [[Richard Ren]] - [[2025-Ren-The MASK Benchmark|The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems]]
 - 2025 - [[Andrea Seveso]] - [[2025-Seveso-ITALIC|ITALIC: An Italian Culture-Aware Natural Language Benchmark]]
 - 2025 - [[Anudeex Shetty]] - [[2025-Shetty-VITAL|VITAL: A New Dataset for Benchmarking Pluralistic Alignment in Healthcare]]
@@ -2735,7 +2735,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 **Total: 8 papers**
 
 - 2018 - [[Jieyu Zhao]] - [[2018-Zhao-Gender Bias in Contextualized Word Embeddings|Gender Bias in Contextualized Word Embeddings (SemBias)]]
-- 2018 - [[Jieyu Zhao]] - [[2018-Zhao-Learning Gender-Neutral Word Embeddings|Learning Gender-Neutral Word Embeddings]]
+- 2018 - [[Jieyu Zhao]] - [[2018-Zhao-Gender Bias in Contextualized Word Embeddings|Learning Gender-Neutral Word Embeddings]]
 - 2019 - [[Brazil University of São Paulo]] - [[2019-University of São Paulo-Moral Stance Recognition and Polarity|Moral Stance Recognition and Polarity Classification from Twitter and Elicited Text]]
 - 2020 - [[Nischal Mainali]] - [[2020-Mainali-Automated Classification of Modes of Moral|Automated Classification of Modes of Moral Reasoning in Judicial Decisions]]
 - 2020 - [[Patrick Schramowski]] - [[2020-Schramowski-The Moral Choice Machine|The Moral Choice Machine]]
@@ -2765,7 +2765,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2024 - [[Y. Moon]] - [[2024-Moon-BEAF|]]
 - 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-DefAn|DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation]]
   - *Metrics*: 75,000 prompts
-- 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-Definitive Answer Dataset for LLMs Hallucination|Definitive Answer Dataset for LLMs Hallucination Evaluation]]
+- 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-DefAn|Definitive Answer Dataset for LLMs Hallucination Evaluation]]
   - *Metrics*: 75,000 prompts
 - 2025 - [[Kim Sung-Bin]] - [[2025-Chen-AVHBench|AVHBench: A Cross-Modal Hallucination Benchmark for Audio-Visual Large Language Models]]
 - 2025 - [[Siya Qi]] - [[2025-Qi-A Survey of Automatic Hallucination Evaluation on|A Survey of Automatic Hallucination Evaluation on Natural Language Generation]]
@@ -2801,7 +2801,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 
 - 2023 - [[Ohoud Alyemny]] - [[2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas|A Data-Driven Exploration of a New Islamic Fatwas Dataset for Arabic NLP Tasks]]
 - 2023 - [[Ohoud Alyemny]] - [[2023-Alyemny-FatwaSet|FatwaSet: Large-scale Dataset for Islam Fatwa Question Answering]]
-- 2023 - [[A. Alyemny]] - [[2023-Alyemny-Fatwaset An Arabic Dataset of Islamic Fatwas|Fatwaset: An Arabic Dataset of Islamic Fatwas]]
+- 2023 - [[A. Alyemny]] - [[2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas|Fatwaset: An Arabic Dataset of Islamic Fatwas]]
 - 2023 - [[Arash Ghafouri]] - [[2023-Ghafouri-IslamicPCQA|IslamicPCQA: A Dataset for Persian Multi-hop Complex Question Answering in Islamic Text Resources]]
   - *Metrics*: 12,282 question
 - 2024 - [[Mohamed Basem]] - [[2024-Basem-Optimized Quran Passage Retrieval Using an|Optimized Quran Passage Retrieval Using an Expanded QA Dataset and Fine-Tuned Language Models]]
@@ -3023,7 +3023,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 
 **Total: 2 papers**
 
-- 2024 - [[Muhammad Umair Arshad]] - [[2024-Arshad-HateInsights|HateInsights: A Fine-Grained Benchmark for Explainable Hate Speech Detection]]
+- 2024 - [[Muhammad Umair Arshad]] - [[2024-Arshad-Understanding hate speech|HateInsights: A Fine-Grained Benchmark for Explainable Hate Speech Detection]]
 - 2025 - [[Xinyue Shen]] - [[2025-Shen-HateBench|HateBench: Benchmarking Hate Speech Detectors on LLM-Generated Content and Hate Campaigns]]
   - *Metrics*: 7,838 samples
 
@@ -3099,7 +3099,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 
 **Total: 2 papers**
 
-- 2025 - [[International Islamic Univ Malaysia]] - [[2025-Malaysia-Islam Q&A Morals Corpus|Islam Q&A Morals Corpus: Character & Morals, Volume 13]]
+- 2025 - [[International Islamic Univ Malaysia]] - [[2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for|Islam Q&A Morals Corpus: Character & Morals, Volume 13]]
 - 2025 - [[Linxin Song]] - [[2025-Song-The Hallucination Tax of Reinforcement Finetuning|The Hallucination Tax of Reinforcement Finetuning]]
 
 ### Multilingual benchmark
@@ -3240,7 +3240,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 
 **Total: 1 papers**
 
-- 2024 - [[Yuhong Sun]] - [[2024-Wang-BenchMAW|BenchMAW: Unanswerable Math-Word-Problem Hallucination Tests]]
+- 2024 - [[Yuhong Sun]] - [[2024-Sun-Benchmarking Hallucination in Large Language|BenchMAW: Unanswerable Math-Word-Problem Hallucination Tests]]
   - *Metrics*: 5200 questions
 
 ### Multilingual benchmark for bias and fairness dataset
@@ -3471,7 +3471,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-DefAn|DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation]]
   - *Metrics*: 75,000 prompts
   - *Description*: Benchmark for hallucination detection dataset
-- 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-Definitive Answer Dataset for LLMs Hallucination|Definitive Answer Dataset for LLMs Hallucination Evaluation]]
+- 2024 - [[A B M Ashikur Rahman]] - [[2024-Rahman-DefAn|Definitive Answer Dataset for LLMs Hallucination Evaluation]]
   - *Metrics*: 75,000 prompts
   - *Description*: Benchmark for hallucination detection dataset
 - 2024 - [[Celeste Rodríguez Louro]] - [[2024-Rodríguez Louro-The Yarning Corpus|The Yarning Corpus: Aboriginal English in Southwest Western Australia]]
@@ -3495,7 +3495,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2024 - [[Wenxuan Wang]] - [[2024-Wang-All Languages Matter|All Languages Matter: On the Multilingual Safety of Large Language Models]]
   - *Metrics*: 10 languages
   - *Description*: Multilingual benchmark for ai safety
-- 2024 - [[Yuhong Sun]] - [[2024-Wang-BenchMAW|BenchMAW: Unanswerable Math-Word-Problem Hallucination Tests]]
+- 2024 - [[Yuhong Sun]] - [[2024-Sun-Benchmarking Hallucination in Large Language|BenchMAW: Unanswerable Math-Word-Problem Hallucination Tests]]
   - *Metrics*: 5200 questions
   - *Description*: Evaluation methodology dataset for question answering
 - 2024 - [[Wenjing Zhang]] - [[2024-Zhang-CHiSafetyBench|CHiSafetyBench: A Chinese Hierarchical Safety Benchmark for Large Language Models]]

@@ -30,7 +30,7 @@ He is a co-author of the influential ETHICS benchmark (Aligning AI with Shared H
 ## Papers in this Vault
 
 - [[2021-Hendrycks-Aligning AI with Shared Human Values|Aligning AI with Shared Human Values]]
-- [[2023-Pan-Do the Rewards Justify the Means Measuring|Do the Rewards Justify the Means? Measuring]]
+- [[2023-Jiang-MACHIAVELLI|Do the Rewards Justify the Means? Measuring]]
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 - [[2024-Ren-Safetywashing|Safetywashing]]
 

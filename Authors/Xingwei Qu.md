@@ -57,7 +57,7 @@ twitter: ""
 
 [Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Wu-COIG-P - Chinese Preference Dataset for Alignment with Human Values|COIG-P - Chinese Preference Dataset for Alignment with Human Values]]
+- [[2025-Wu-COIG-P|COIG-P - Chinese Preference Dataset for Alignment with Human Values]]
 
 ## External Links & Profiles
 

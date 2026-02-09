@@ -57,7 +57,7 @@ twitter: ""
 
 [Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Liu-Diagnosing Moral Reasoning Acquisition in Language Models Pragmatics|Diagnosing Moral Reasoning Acquisition in Language Models Pragmatics]]
+- [[2025-Liu-Diagnosing Moral Reasoning Acquisition in|Diagnosing Moral Reasoning Acquisition in Language Models Pragmatics]]
 
 ## External Links & Profiles
 

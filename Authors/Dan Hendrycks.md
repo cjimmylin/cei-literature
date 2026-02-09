@@ -51,7 +51,7 @@ Hendrycks has authored influential work on AI alignment and safety, including se
 - [[2021-Hendrycks-Aligning AI with Shared Human Values|Aligning AI with Shared Human Values]]
 - [[2022-Hendrycks-What Would Jiminy Cricket Do|What Would Jiminy Cricket Do?]]
 - [[2022-Hendrycks-X-Risk Analysis for AI Research|X-Risk Analysis for AI Research]]
-- [[2023-Pan-Do the Rewards Justify the Means Measuring|Do the Rewards Justify the Means? Measuring]]
+- [[2023-Jiang-MACHIAVELLI|Do the Rewards Justify the Means? Measuring]]
 - [[2023-Park-AI Deception|AI Deception]]
 - [[2024-Freire-Uncovering Latent Human Wellbeing in Language|Uncovering Latent Human Wellbeing in Language]]
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]

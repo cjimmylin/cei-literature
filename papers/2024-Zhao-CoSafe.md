@@ -32,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for conversational ai"
 data_metrics: "1,400 questions; 14 categories"
+publication: EMNLP 2024
+DATE_ADDED: 20260207
 ---
 # CoSafe: Evaluating Large Language Model Safety in Multi-Turn Dialogue Coreference
 

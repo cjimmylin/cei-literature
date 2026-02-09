@@ -20,7 +20,6 @@ Akshat Naik is a researcher in the Department of Computer Science at the Univers
 ## Papers in this Vault
 
 - [[2025-Naik-AgentMisalignment|AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents]]
-- [[2025-Naik-Measuring the Propensity for Misaligned Behaviour|Measuring the Propensity for Misaligned Behaviour]]
 
 ## Notes
 

@@ -17,7 +17,7 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Li-MASK|MASK]]
+- [[2025-Ren-The MASK Benchmark|MASK]]
 
 ## Notes
 

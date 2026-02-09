@@ -24,7 +24,7 @@ pdf_extract: "PDF Extracts/2024/2024-Kaneko-Eagle.md"
 abstract: "Recent studies have demonstrated that large language models (LLMs) have ethical-related problems such as social biases, lack of moral reasoning, and generation of offensive content. The existing evaluation metrics and methods to address these ethical challenges use datasets intentionally created by instructing humans to create instances including ethical problems. Therefore, the data does not reflect prompts that users actually provide when utilizing LLM services in everyday contexts. This may n"
 paper_summary: "Abstract: Recent studies have demonstrated that large language models (LLMs) have ethical-related problems such as social biases, lack of moral reasoning, and generation of offensive content. The existing evalu | Overview: Eagle : Ethical Dataset Given from Real Interactions Masahiro Kaneko1 Danushka Bollegala2,3* Timothy Baldwin1 1MBZUAI 2University of Liverpool 3Amazon Masahiro.Kaneko@mbzuai.ac.ae danushka@liverpool.a | Key Findings: metrics affect the results. | Conclusions: We created the Eagle dataset, which contains 2,317 instances of social bias, opinion bias, toxic lan- guage, and morality extracted from actual conver"
 local_pdf: [[PDFs/2024/2024-Kaneko-Eagle.pdf]]
-ethics_overall: No
+ethics_overall: Yes
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -34,6 +34,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset for toxicity detection"
 data_metrics: "1 datasets"
+DATE_ADDED: 20260207
 ---
 # Eagle: Ethical Dataset Given from Real Interactions
 

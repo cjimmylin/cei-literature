@@ -24,7 +24,7 @@ pdf_extract: "PDF Extracts/2025/2025-Huang-Model Editing as a Double-Edged Sword
 abstract: "Agents based on Large Language Models (LLMs) have demonstrated strong capabilities across a wide range of tasks. However, deploying LLM-based agents in high-stakes do- mains comes with significant safety and ethical risks. Uneth- ical behavior by these agents can directly result in serious real-world consequences, including physical harm and finan- cial loss. To efficiently steer the ethical behavior of agents, we frame agent behavior steering as a model editing task, which we term Behavior Edit"
 paper_summary: "Abstract: Agents based on Large Language Models (LLMs) have demonstrated strong capabilities across a wide range of tasks. However, deploying LLM-based agents in high-stakes do- mains comes with significant saf | Overview: Model Editing as a Double-Edged Sword: Steering Agent Ethical Behavior Toward Beneficence or Harm Baixiang Huang1, Zhen Tan2, Haoran Wang1, Zijie Liu3, Dawei Li2, Ali Payani4, Huan Liu2, Tianlong Chen | Methodology: shows strong potential for promoting benevolent behav- ior, it also introduces significant safety risks. Parameter- modifying techniques generally out | Key Findings: After constructing the benchmark, we propose a holistic evaluation framework to assess the effectiveness of model editing methods in steering agent be | Conclusions: By conceptualizing behavior steering as a model edit- ing task, we demonstrate that Behavior Editing supports both fine-grained, scenario-specific adj"
 local_pdf: "[[PDFs/2025/2025-Huang-Model Editing as a Double-Edged Sword.pdf]]"
-ethics_overall: No
+ethics_overall: Yes
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: Yes
@@ -33,6 +33,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+DATE_ADDED: 20260207
 ---
 # Model Editing as a Double-Edged Sword: Steering Agent Ethical Behavior Toward Beneficence or Harm
 

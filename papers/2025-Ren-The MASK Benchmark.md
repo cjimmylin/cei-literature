@@ -32,6 +32,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+DATE_ADDED: 20260207
 ---
 # The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems
 

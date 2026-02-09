@@ -26,7 +26,6 @@ Emma Gouné is a researcher at the UK AI Safety Institute (AISI), working on met
 ## Papers in this Vault
 
 - [[2025-Naik-AgentMisalignment|AgentMisalignment]]
-- [[2025-Naik-Measuring the Propensity for Misaligned Behaviour|Measuring the Propensity for Misaligned Behaviour]]
 
 ## Notes
 

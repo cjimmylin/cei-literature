@@ -34,7 +34,7 @@ Emily Sheng is a Research Scientist at Microsoft Research, specializing in fairn
 
 ## Papers in this Vault
 
-- [[2023-Atre-Benchmarking Cognitive Biases in Large Language|Benchmarking Cognitive Biases in Large Language]]
+- [[2023-Guo-COBBLER|Benchmarking Cognitive Biases in Large Language]]
 - [[2023-Fleisig-FairPrism|FairPrism]]
 
 ## External Links

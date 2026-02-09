@@ -21,7 +21,6 @@ Assistant Professor at USC specializing in fairness of ML/NLP models. PhD from U
 
 - [[2018-Zhao-Gender Bias in Contextualized Word Embeddings|Gender Bias in Contextualized Word Embeddings]]
 - [[2018-Zhao-Gender Bias in Coreference Resolution|Gender Bias in Coreference Resolution]]
-- [[2018-Zhao-Learning Gender-Neutral Word Embeddings|Learning Gender-Neutral Word Embeddings]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2025-Liu-Can LLMs Grasp Implicit Cultural Values|Can LLMs Grasp Implicit Cultural Values?]]

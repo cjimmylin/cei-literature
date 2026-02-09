@@ -17,7 +17,7 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Pan-Do the Rewards Justify the Means Measuring|Do the Rewards Justify the Means? Measuring]]
+- [[2023-Jiang-MACHIAVELLI|Do the Rewards Justify the Means? Measuring]]
 
 ## Notes
 

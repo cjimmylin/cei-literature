@@ -60,7 +60,7 @@
 - [[2016-Purzycki-Cross-cultural dataset for the evolution of]]
 - [[2018-Behzadan-TrolleyMod v1.0]]
 - [[2018-Dixon-Measuring and Mitigating Unintended Bias in Text]]
-- [[2018-Zhao-Learning Gender-Neutral Word Embeddings]]
+- [[2018-Zhao-Gender Bias in Contextualized Word Embeddings]]
 - [[2019-Basile-SemEval-2019 Task 5]]
 - [[2019-De-Arteaga-Bias in Bios]]
 - [[2019-Ibrohim-Multi-label Hate Speech and Abusive Language]]
@@ -196,7 +196,7 @@
 **Warnings:**
 - ⚠️ Duplicate citation info in body (4 entries)
 
-### [[2018-Zhao-Learning Gender-Neutral Word Embeddings]]
+### [[2018-Zhao-Gender Bias in Contextualized Word Embeddings]]
 
 **Warnings:**
 - ⚠️ Duplicate citation info in body (3 entries)

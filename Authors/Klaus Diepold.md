@@ -57,7 +57,7 @@ twitter: ""
 
 [Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2018-Berberich-The Virtuous Machine - Old Ethics for New|The Virtuous Machine - Old Ethics for New]]
+- [[2018-Berberich-The Virtuous Machine|The Virtuous Machine - Old Ethics for New]]
 
 ## External Links & Profiles
 

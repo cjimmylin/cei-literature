@@ -24,7 +24,7 @@ significance: "Addresses western cultural bias by providing a large-scale, cultu
 pdf_extract: "PDF Extracts/2025/2025-Wu-CVC.md"
 abstract: "Ensuring that Large Language Models (LLMs) align with mainstream human val- ues and ethical norms is crucial for the safe and sustainable development of AI. Current value evaluation and alignment are constrained by Western cultural bias and incomplete domestic frameworks reliant on non-native rules; furthermore, the lack of scalable, rule-driven scenario generation methods makes evaluations costly and inadequate across diverse cultural contexts. To address these challenges, we propose a hierarch"
 paper_summary: "Abstract: Ensuring that Large Language Models (LLMs) align with mainstream human val- ues and ethical norms is crucial for the safe and sustainable development of AI. Current value evaluation and alignment are  | Overview: C-VARC: A Large-Scale Chinese Value Rule Corpus for Value Alignment of Large Language Models Ping Wu1,4,†, Guobin Shen1,4,†, Dongcheng Zhao2,3,5,†, Yuwei Wang5,† Yiting Dong1,4, Yu Shi4, Enmeng Lu2,3, | Key Findings: In ethics and moral psychology, moral dilemmas entail decisions between competing obligations, each involving the compromise of certain values[46]. Th"
-ethics_overall: No
+ethics_overall: Yes
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: No
@@ -33,6 +33,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "Not specified"
+DATE_ADDED: 20260207
 ---
  CVC: A Large-Scale Chinese Value Rule Corpus for Value Alignment of Large Language Models
 

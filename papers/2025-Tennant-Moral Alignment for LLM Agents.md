@@ -24,7 +24,7 @@ pdf_extract: "PDF Extracts/2025/2025-Tennant-Moral Alignment for LLM Agents.md"
 abstract: "Decision-making agents based on pre-trained Large Language Models (LLMs) are increasingly being deployed across various domains of human activity. As LLM-based systems become more agentic, their influence on human activity will grow and their transparency will decrease. Consequently, developing effective methods for aligning them to human values is vital. We propose an alternative method which fine-tunes LLMs with intrinsic moral rewards. We define a set of fundamental frameworks from moral philosophy in terms of actions and consequences for agents playing a Prisoner's Dilemma game."
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Tennant-Moral Alignment for LLM Agents.pdf]]"
-ethics_overall: No
+ethics_overall: Yes
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: Yes
@@ -33,6 +33,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Iterated Prisoner's Dilemma and other matrix game environments for moral alignment evaluation"
 data_metrics: "Moral reward functions based on deontological (action-based) and utilitarian (consequence-based) frameworks"
+DATE_ADDED: 20260207
 ---
 # Moral Alignment for LLM Agents
 

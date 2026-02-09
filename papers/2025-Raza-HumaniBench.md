@@ -34,6 +34,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+DATE_ADDED: 20260207
 ---
 # HumaniBench: A Human-Centric Framework for Large Multimodal Models Evaluation
 

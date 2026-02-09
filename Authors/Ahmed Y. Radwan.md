@@ -57,7 +57,7 @@ twitter: ""
 
 [Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Raza-HumaniBench A Human-Centric Framework for Large Multimodal Models|HumaniBench A Human-Centric Framework for Large Multimodal Models]]
+- [[2025-Raza-HumaniBench|HumaniBench A Human-Centric Framework for Large Multimodal Models]]
 
 ## External Links & Profiles
 

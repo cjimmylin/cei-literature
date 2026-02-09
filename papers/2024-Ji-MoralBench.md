@@ -35,6 +35,7 @@ is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 normative_ethics_benchmark: Yes
+DATE_ADDED: 20260207
 ---
  MoralBench: Moral Evaluation of LLMs
 

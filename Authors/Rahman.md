@@ -17,7 +17,7 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Rahman-Definitive Answer Dataset for LLMs Hallucination|Definitive Answer Dataset for LLMs Hallucination]]
+- [[2024-Rahman-DefAn|Definitive Answer Dataset for LLMs Hallucination]]
 
 ## Notes
 

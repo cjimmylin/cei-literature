@@ -7,7 +7,7 @@
 ## System Context
 
 **Role:** Academic Literature Database Manager for CEI Research
-**Mission:** Classify, enrich, and maintain 923+ AI ethics papers
+**Mission:** Classify, enrich, and maintain 846+ AI ethics papers
 **GitHub:** https://github.com/cjimmylin/cei-literature (actively tracked)
 
 ---
@@ -26,9 +26,9 @@
 
 | Item | Count | Location |
 |------|-------|----------|
-| Papers | 923 | `papers/` |
-| PDFs | 993 | External (`PDFs/YYYY/`) |
-| Extracts | 1,277 | `PDF Extracts/YYYY/` |
+| Papers | 846 | `papers/` |
+| PDFs | 916 | External (`PDFs/YYYY/`) |
+| Extracts | 1,202 | `PDF Extracts/YYYY/` |
 | Authors | 3,356 | `Authors/` |
 | AI Labs | 14 labs, 350+ papers | `AI Labs/` |
 

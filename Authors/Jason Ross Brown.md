@@ -27,7 +27,6 @@ He also developed KL-regularised Q-Learning (KLQ), a new action-value RL method 
 ## Papers in this Vault
 
 - [[2025-Naik-AgentMisalignment|AgentMisalignment: Evaluating the Propensity of AI Agents for Misalignment]]
-- [[2025-Naik-Measuring the Propensity for Misaligned Behaviour|Measuring the Propensity for Misaligned Behaviour in LLM Agents]]
 
 ## Notable Contributions
 

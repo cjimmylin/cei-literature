@@ -19,7 +19,7 @@ Nathaniel Li works on preparedness and security evaluations at Meta Superintelli
 
 ## Papers in this Vault
 
-- [[2023-Pan-Do the Rewards Justify the Means Measuring|Do the Rewards Justify the Means? Measuring]]
+- [[2023-Jiang-MACHIAVELLI|Do the Rewards Justify the Means? Measuring]]
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## Notes

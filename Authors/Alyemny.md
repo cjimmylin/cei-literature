@@ -17,7 +17,7 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Alyemny-Fatwaset An Arabic Dataset of Islamic Fatwas|Fatwaset: An Arabic Dataset of Islamic Fatwas]]
+- [[2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas|Fatwaset: An Arabic Dataset of Islamic Fatwas]]
 
 ## Notes
 

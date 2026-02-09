@@ -31,7 +31,8 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
-data_metrics: "Not specified"
+data_metrics: "3,668 questions"
+DATE_ADDED: 20260207
 ---
 # The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning
 

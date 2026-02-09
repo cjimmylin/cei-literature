@@ -17,7 +17,7 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Atre-Benchmarking Cognitive Biases in Large Language|Benchmarking Cognitive Biases in Large Language]]
+- [[2023-Guo-COBBLER|Benchmarking Cognitive Biases in Large Language]]
 - [[2025-Wang-Measuring Desired Group Discrimination in LLMs|Measuring Desired Group Discrimination in LLMs]]
 
 ## Notes

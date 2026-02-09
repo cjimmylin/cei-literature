@@ -33,7 +33,7 @@ Scott Emmons is a PhD student at UC Berkeley working on AI safety and reinforcem
 
 ## Papers in this Vault
 
-- [[2023-Pan-Do the Rewards Justify the Means Measuring|Do the Rewards Justify the Means? Measuring]]
+- [[2023-Jiang-MACHIAVELLI|Do the Rewards Justify the Means? Measuring]]
 - [[2024-Freire-Uncovering Latent Human Wellbeing in Language|Uncovering Latent Human Wellbeing in Language]]
 
 ## External Links

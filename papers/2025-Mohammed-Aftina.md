@@ -30,6 +30,7 @@ data_description: "Benchmark for hallucination detection dataset for question an
 data_metrics: "Not specified"
 pdf_extract: "PDF Extracts/2025/2025-Mohammed-Aftina.md"
 local_pdf: [[PDFs/2025/2025-Mohammed-Aftina.pdf]]
+DATE_ADDED: 20260207
 ---
 # Aftina: Arabic Fatwa QA Benchmark for Islamic Jurisprudence
 

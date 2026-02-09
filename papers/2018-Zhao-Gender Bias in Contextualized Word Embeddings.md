@@ -32,6 +32,7 @@ is_eval: No
 is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
+doi: 10.18653/v1/D18-1521
 ---
 # Gender Bias in Contextualized Word Embeddings (SemBias)
 

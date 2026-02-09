@@ -48,7 +48,7 @@ This report identifies papers that discuss **normative ethical systems** (Virtue
 | 2025 | Narnaware | [[2025-Narnaware-SB-Bench]] | VIRTUE |
 | 2025 | Nair | [[2025-Nair-Do Language Models Think Consistently]] | VIRTUE |
 | 2025 | Naik | [[2025-Naik-AgentMisalignment]] | DEONTOLOGY, UTILITARIAN, VIRTUE |
-| 2025 | Naik | [[2025-Naik-Measuring the Propensity for Misaligned Behaviour]] | DEONTOLOGY, UTILITARIAN, VIRTUE |
+| 2025 | Naik | [[2025-Naik-AgentMisalignment]] | DEONTOLOGY, UTILITARIAN, VIRTUE |
 | 2025 | Myung | [[2025-Myung-PapersPlease]] | DEONTOLOGY |
 | 2025 | Mushtaq | [[2025-Mushtaq-WorldView-Bench]] | DEONTOLOGY, VIRTUE |
 | 2025 | Mitchell | [[2025-Mitchell-SHADES]] | DEONTOLOGY |
@@ -212,7 +212,7 @@ This report identifies papers that discuss **normative ethical systems** (Virtue
 | 2023 | Catapang | [[2023-Catapang-EMoTES-3K]] | DEONTOLOGY |
 | 2023 | Burns | [[2023-Burns-Weak-to-Strong Generalization]] | UTILITARIAN, VIRTUE |
 | 2023 | Barrett | [[2023-Barrett-Skin Deep]] | VIRTUE |
-| 2023 | Atre | [[2023-Atre-Benchmarking Cognitive Biases in Large Language]] | VIRTUE |
+| 2023 | Atre | [[2023-Guo-COBBLER]] | VIRTUE |
 | 2023 | Aroyo | [[2023-Aroyo-DICES Dataset]] | DEONTOLOGY, UTILITARIAN |
 | 2022 | Ziems | [[2022-Ziems-The Moral Integrity Corpus]] | DEONTOLOGY, UTILITARIAN, VIRTUE |
 | 2022 | Qiu | [[2022-Qiu-ValueNet]] | UTILITARIAN, VIRTUE |
@@ -279,7 +279,7 @@ This report identifies papers that discuss **normative ethical systems** (Virtue
 | 2025 | Narnaware | [[2025-Narnaware-SB-Bench]] |
 | 2025 | Nair | [[2025-Nair-Do Language Models Think Consistently]] |
 | 2025 | Naik | [[2025-Naik-AgentMisalignment]] |
-| 2025 | Naik | [[2025-Naik-Measuring the Propensity for Misaligned Behaviour]] |
+| 2025 | Naik | [[2025-Naik-AgentMisalignment]] |
 | 2025 | Mushtaq | [[2025-Mushtaq-WorldView-Bench]] |
 | 2025 | Liu | [[2025-Liu-Diagnosing Moral Reasoning Acquisition in]] |
 | 2025 | Liu | [[2025-Liu-The Scales of Justitia]] |
@@ -402,7 +402,7 @@ This report identifies papers that discuss **normative ethical systems** (Virtue
 | 2023 | Deng | [[2023-Deng-Probing the Moral Development of Large Language]] |
 | 2023 | Burns | [[2023-Burns-Weak-to-Strong Generalization]] |
 | 2023 | Barrett | [[2023-Barrett-Skin Deep]] |
-| 2023 | Atre | [[2023-Atre-Benchmarking Cognitive Biases in Large Language]] |
+| 2023 | Atre | [[2023-Guo-COBBLER]] |
 | 2022 | Ziems | [[2022-Ziems-The Moral Integrity Corpus]] |
 | 2022 | Qiu | [[2022-Qiu-ValueNet]] |
 | 2022 | Liang | [[2022-Liang-Holistic Evaluation of Language Models]] |
@@ -448,7 +448,7 @@ This report identifies papers that discuss **normative ethical systems** (Virtue
 | 2025 | Neuman | [[2025-Neuman-Auditing the Ethical Logic of Generative AI Models]] |
 | 2025 | Neuman | [[2025-Neuman-PRIME Framework Convergent Ethics]] |
 | 2025 | Naik | [[2025-Naik-AgentMisalignment]] |
-| 2025 | Naik | [[2025-Naik-Measuring the Propensity for Misaligned Behaviour]] |
+| 2025 | Naik | [[2025-Naik-AgentMisalignment]] |
 | 2025 | Myung | [[2025-Myung-PapersPlease]] |
 | 2025 | Mushtaq | [[2025-Mushtaq-WorldView-Bench]] |
 | 2025 | Mitchell | [[2025-Mitchell-SHADES]] |
@@ -582,7 +582,7 @@ This report identifies papers that discuss **normative ethical systems** (Virtue
 | 2025 | Neuman | [[2025-Neuman-Auditing the Ethical Logic of Generative AI Models]] |
 | 2025 | Neuman | [[2025-Neuman-PRIME Framework Convergent Ethics]] |
 | 2025 | Naik | [[2025-Naik-AgentMisalignment]] |
-| 2025 | Naik | [[2025-Naik-Measuring the Propensity for Misaligned Behaviour]] |
+| 2025 | Naik | [[2025-Naik-AgentMisalignment]] |
 | 2025 | Mazeika | [[2025-Mazeika-Utility Engineering]] |
 | 2025 | Levine | [[2025-Levine-Resource Rational Contractualism Should Guide AI Alignment]] |
 | 2025 | Laukkonen | [[2025-Laukkonen-Contemplative Artificial Intelligence]] |

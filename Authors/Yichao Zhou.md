@@ -18,7 +18,6 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 - [[2018-Zhao-Gender Bias in Contextualized Word Embeddings|Gender Bias in Contextualized Word Embeddings]]
-- [[2018-Zhao-Learning Gender-Neutral Word Embeddings|Learning Gender-Neutral Word Embeddings]]
 
 ## Notes
 

@@ -19,7 +19,7 @@ Andy Zou is a PhD student at Carnegie Mellon University working in the area of M
 ## Papers in this Vault
 
 - [[2022-Hendrycks-What Would Jiminy Cricket Do|What Would Jiminy Cricket Do?]]
-- [[2023-Pan-Do the Rewards Justify the Means Measuring|Do the Rewards Justify the Means? Measuring]]
+- [[2023-Jiang-MACHIAVELLI|Do the Rewards Justify the Means? Measuring]]
 - [[2023-Zou-Universal and Transferable Adversarial Attacks on|Universal and Transferable Adversarial Attacks on]]
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 - [[2025-Andriushchenko-AgentHarm|AgentHarm]]

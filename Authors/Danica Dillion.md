@@ -57,7 +57,7 @@ twitter: ""
 
 [Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Dillion-AI Language Model Rivals Expert Ethicist in Perceived Moral Expertise|AI Language Model Rivals Expert Ethicist in Perceived Moral Expertise]]
+- [[2025-Dillion-AI Language Model Rivals Expert Ethicist|AI Language Model Rivals Expert Ethicist in Perceived Moral Expertise]]
 
 ## External Links & Profiles
 

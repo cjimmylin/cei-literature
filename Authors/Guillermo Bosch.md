@@ -30,7 +30,6 @@ Bosch is a co-author on research related to AI agent misalignment, including wor
 ## Papers in this Vault
 
 - [[2025-Naik-AgentMisalignment|AgentMisalignment]]
-- [[2025-Naik-Measuring the Propensity for Misaligned Behaviour|Measuring the Propensity for Misaligned Behaviour]]
 
 ## Links
 

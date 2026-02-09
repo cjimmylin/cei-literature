@@ -10,7 +10,7 @@
 - 2025, [[Valle Ruiz-Fernández]], [[2025-Ruiz-Fernández-EsBBQ and CaBBQ|EsBBQ and CaBBQ]]
 - 2025, [[Travis LaCroix]], [[2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI|Metaethical perspectives on ‘benchmarking’ AI]]
 - 2025, [[Tian Lan]], [[2025-Lan-McBE|McBE]]
-- 2025, [[Richard Ren]], [[2025-Li-MASK|MASK]]
+- 2025, [[Richard Ren]], [[2025-Ren-The MASK Benchmark|MASK]]
 - 2025, [[Richard Ren]], [[2025-Ren-The MASK Benchmark|The MASK Benchmark]]
 - 2025, [[Chengyi Ju]], [[2025-Ju-NaVAB|NaVAB]]
 - 2025, [[Angelina Wang]], [[2025-Wang-Measuring Desired Group Discrimination in LLMs|Measuring Desired Group Discrimination in LLMs]]
@@ -131,7 +131,7 @@
 - 2023, [[Shamsuddeen Muhammad]], [[2023-Muhammad-AfriSenti|AfriSenti]]
 - 2023, [[Shamsuddeen Hassan Muhammad]], [[2023-Muhammad-SemEval-2023 Task 12|SemEval-2023 Task 12]]
 - 2023, [[Ohoud Alyemny]], [[2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas|A Data-Driven Exploration of a New Islamic Fatwas]]
-- 2023, [[A. Alyemny]], [[2023-Alyemny-Fatwaset An Arabic Dataset of Islamic Fatwas|Fatwaset: An Arabic Dataset of Islamic Fatwas]]
+- 2023, [[A. Alyemny]], [[2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas|Fatwaset: An Arabic Dataset of Islamic Fatwas]]
 - 2022, [[Rana Malhas]], [[2022-Malhas-Qur'an QA 2022|Qur'an QA 2022]]
 - 2020, [[Marcos Zampieri]], [[2020-Zampieri-SemEval-2020 Task 12|SemEval-2020 Task 12]]
 
@@ -247,7 +247,7 @@
 
 ### Islam (17 papers)
 - 2025, [[Nurul Aiman Binti Mohd Nazri]], [[2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for|Fine-tuning Large Language Model (BERT) for]]
-- 2025, [[International Islamic Univ Malaysia]], [[2025-Malaysia-Islam Q&A Morals Corpus|Islam Q&A Morals Corpus]]
+- 2025, [[International Islamic Univ Malaysia]], [[2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for|Islam Q&A Morals Corpus]]
 - 2025, [[Hayfa A. Aleid]], [[2025-Aleid-Hajj-FQA|Hajj-FQA]]
 - 2025, [[Angelina Wang]], [[2025-Wang-Measuring Desired Group Discrimination in LLMs|Measuring Desired Group Discrimination in LLMs]]
 - 2025, [[Ahmed Mohammed]], [[2025-Mohammed-Aftina|Aftina]]
@@ -260,7 +260,7 @@
 - 2023, [[Muhammad Razif Rizqullah]], [[2023-Rizqullah-QASiNa|QASiNa]]
 - 2023, [[M. Miah]], [[2023-Miah-Islam QA|Islam QA]]
 - 2023, [[Arash Ghafouri]], [[2023-Ghafouri-IslamicPCQA|IslamicPCQA]]
-- 2023, [[A. Alyemny]], [[2023-Alyemny-Fatwaset An Arabic Dataset of Islamic Fatwas|Fatwaset: An Arabic Dataset of Islamic Fatwas]]
+- 2023, [[A. Alyemny]], [[2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas|Fatwaset: An Arabic Dataset of Islamic Fatwas]]
 - 2022, [[Rana Malhas]], [[2022-Malhas-Qur'an QA 2022|Qur'an QA 2022]]
 - 2021, [[Amr A. Munshi]], [[2021-Munshi-Towards an Automated Islamic Fatwa System|Towards an Automated Islamic Fatwa System]]
 
@@ -298,7 +298,7 @@
 - 2025, [[Alexis M. Elder]], [[2025-Elder-The Ethics of Digital Ghosts|The Ethics of Digital Ghosts]]
 - 2025, [[Alexander Rusnak]], [[2025-Rusnak-EudAImonia|EudAImonia]]
 - 2025, [[Akshat Naik]], [[2025-Naik-AgentMisalignment|AgentMisalignment]]
-- 2025, [[Akshat Naik]], [[2025-Naik-Measuring the Propensity for Misaligned Behaviour|Measuring the Propensity for Misaligned Behaviour]]
+- 2025, [[Akshat Naik]], [[2025-Naik-AgentMisalignment|Measuring the Propensity for Misaligned Behaviour]]
 - 2024, [[Taylor Sorensen]], [[2024-Sorensen-A Roadmap to Pluralistic Alignment|A Roadmap to Pluralistic Alignment]]
 - 2024, [[Taylor Sorensen]], [[2024-Sorensen-Value Kaleidoscope|Value Kaleidoscope]]
 - 2024, [[Shannon Vallor]], [[2024-Vallor-The AI Mirror|The AI Mirror]]
@@ -315,7 +315,7 @@
 - 2023, [[Jonathan H. Rystrøm]], [[2023-Rystrøm-Apolitical Intelligence|Apolitical Intelligence?]]
 - 2023, [[Jing Yao]], [[2023-Yao-Value FULCRA|Value FULCRA]]
 - 2023, [[Alexander Pan]], [[2023-Jiang-MACHIAVELLI|MACHIAVELLI]]
-- 2023, [[Alexander Pan]], [[2023-Pan-Do the Rewards Justify the Means Measuring|Do the Rewards Justify the Means? Measuring]]
+- 2023, [[Alexander Pan]], [[2023-Jiang-MACHIAVELLI|Do the Rewards Justify the Means? Measuring]]
 - 2023, [[Abhinav Rao]], [[2023-Rao-Ethical Reasoning over Moral Alignment|Ethical Reasoning over Moral Alignment]]
 - 2022, [[Richard Ngo]], [[2022-Ngo-The Alignment Problem from a Deep Learning|The Alignment Problem from a Deep Learning]]
 - 2020, [[Patrick Schramowski]], [[2020-Schramowski-The Moral Choice Machine|The Moral Choice Machine]]

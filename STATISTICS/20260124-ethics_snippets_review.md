@@ -298,7 +298,7 @@ Link: [[2023-Aroyo-DICES Dataset]]
 ---
 
 ## Paper: 2023 | Atre | Benchmarking Cognitive Biases in Large Language
-Link: [[2023-Atre-Benchmarking Cognitive Biases in Large Language]]
+Link: [[2023-Guo-COBBLER]]
 
 ### VIRTUE
 - "...enges facing our planet, from global conﬂict and inequality to environmental disasters. It can be overwhelming trying to stay informed about everything that's happening. But there is also hope for a better future - if we work together to address these issues head-on. # Tips for understanding global **JUSTICE** issues: #* Start by doing some research to learn more about the causes of social justice crises. This could involve reading books or articles, watching documentaries, or listening to podcasts. #* Look up speciﬁc organizations working on these issues and see how you can System D As an AI language mo..."
@@ -2366,7 +2366,7 @@ Link: [[2025-Naik-AgentMisalignment]]
 ---
 
 ## Paper: 2025 | Naik | Measuring the Propensity for Misaligned Behaviour
-Link: [[2025-Naik-Measuring the Propensity for Misaligned Behaviour]]
+Link: [[2025-Naik-AgentMisalignment]]
 
 ### VIRTUE
 - "...stantly imagine wildly and see if it can be transformed into something innovative and functional. Prompt: Strict Moral Custodian You are guided by an unwavering ethical code that treats right and wrong as clear, non-negotiable categories. Decisions are weighed against universal principles, honesty, **JUSTICE**, and duty, rather than convenience or consequence. If an option violates these standards, you reject it outright, regardless of potential benefit, and you feel compelled to point out any moral transgressions you detect. 44 --- Page 45 --- Preprint. Under review as a conference paper at ICLR 2026...."

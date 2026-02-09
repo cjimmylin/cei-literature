@@ -17,7 +17,7 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Malaysia-Islam Q&A Morals Corpus|Islam Q&A Morals Corpus]]
+- [[2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for|Islam Q&A Morals Corpus]]
 
 ## Notes
 

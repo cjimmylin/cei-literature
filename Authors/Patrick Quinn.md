@@ -18,7 +18,6 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 - [[2025-Naik-AgentMisalignment|AgentMisalignment]]
-- [[2025-Naik-Measuring the Propensity for Misaligned Behaviour|Measuring the Propensity for Misaligned Behaviour]]
 
 ## Notes
 

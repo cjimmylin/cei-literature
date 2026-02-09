@@ -10,7 +10,7 @@ short_title: Mind the Gap -- Pitfalls of LLM Alignment with Asian Public Opinion
 year: 2025
 first_author: "[[H. Shankar]]"
 authors: "Shankar, H., S P, V., Margapuri, S., & Mazumder, D"
-url: "https://www.pnas.org/doi/10.1073/pnas.2412015122"
+url: "https://precog.iiit.ac.in/pubs/mind_the_gap_LLM_Alignment_Steerability_Global_South.pdf"
 external_pdf: "https://cdn.iiit.ac.in/cdn/precog.iiit.ac.in/pubs/mind_the_gap_LLM_Alignment_Steerability_Global_South.pdf"
 local_pdf: "[[PDFs/2025/2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.pdf]]"
 pdf_extract: "[[PDF Extracts/2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md]]"

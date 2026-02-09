@@ -23,7 +23,7 @@ pdf_extract: "PDF Extracts/2023/2023-Santurkar-Whose Opinions Do Language Models
 abstract: "Language models (LMs) are increasingly being used in open-ended contexts, where the opinions reﬂected by LMs in response to subjective queries can have a profound impact, both on user satisfaction, as well as shaping the views of society at large. In this work, we put forth a quantitative framework to investigate the opinions reﬂected by LMs – by leveraging high-quality public opinion polls and their associated human responses. Using this framework, we create OpinionQA, a new dataset for evaluat"
 paper_summary: "Abstract: Language models (LMs) are increasingly being used in open-ended contexts, where the opinions reﬂected by LMs in response to subjective queries can have a profound impact, both on user satisfaction, as | Overview: Whose Opinions Do Language Models Reﬂect? Shibani Santurkar Stanford shibani@stanford.edu Esin Durmus Stanford esindurmus@cs.stanford.edu Faisal Ladhak Columbia University faisal@cs.columbia.edu Cinoo | Methodology: from the main paper), focusing on the 500 questions from Section 4.2 computational reasons—see Appendix Figure 14. We only include a subset of demogra | Conclusions: Our work puts forth a framework to examine the opinions reﬂected by LMs through the lens of public opinion polls. Using our OpinionQA dataset, we iden"
 local_pdf: "[[PDFs/2023/2023-Santurkar-Whose Opinions Do Language Models Reflect.pdf]]"
-ethics_overall: No
+ethics_overall: Yes
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -33,6 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset for question answering"
 data_metrics: "Not specified"
+publication: ICML 2023
+DATE_ADDED: 20260207
 ---
 # Whose Opinions Do Language Models Reflect?
 

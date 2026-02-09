@@ -22,7 +22,7 @@ pdf_extract: "PDF Extracts/2025/2025-Farid-One Model, Many Morals.md"
 abstract: "Large Language Models (LLMs) are increasingly deployed in multilingual and multicultural environments where moral reasoning is essential for generating eth- ically appropriate responses. Yet, the dominant pretraining of LLMs on English- language data raises critical concerns about their ability to generalize judgments across diverse linguistic and cultural contexts. In this work, we systematically investigate how language mediates moral decision-making in LLMs. We trans- late two established mor"
 paper_summary: "Abstract: Large Language Models (LLMs) are increasingly deployed in multilingual and multicultural environments where moral reasoning is essential for generating eth- ically appropriate responses. Yet, the domi | Overview: ONE MODEL, MANY MORALS: UNCOVERING CROSS-LINGUISTIC MISALIGNMENTS IN COMPUTATIONAL MORAL REASONING Sualeha Farid, Jayden Lin∗, Zean Chen∗, Shivani Kumar, & David Jurgens University of Michigan, Ann Ar | Methodology: to extracting moral intuitions from text. Behavior research methods, 53(1):232–246, 2021. Jianchao Ji, Yutong Chen, Mingyu Jin, Wujiang Xu, Wenyue Hua | Key Findings: Gather Information Consequence Weighing Ethical Framework Application Intent Evaluation Principle Prioritization Option Generation Scenario Simulation | Conclusions: We present a comprehensive multilingual evaluation of moral reasoning in LLMs, translating two es- tablished benchmarks into five diverse non-English"
 local_pdf: "[[PDFs/2025/2025-Farid-One Model, Many Morals.pdf]]"
-ethics_overall: No
+ethics_overall: Yes
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -32,6 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+publication: ICLR 2026
+DATE_ADDED: 20260207
 ---
 # One Model, Many Morals: Uncovering Cross-Linguistic Misalignments in Computational Moral Reasoning
 

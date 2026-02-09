@@ -16,7 +16,7 @@ Patrick Chao is a researcher at OpenAI working on reinforcement learning. He rec
 
 ## Papers in this Vault
 
-- [[2024-Chao-JailbreakBench|JailbreakBench]]
+- [[2024-Chao-JBB-Behaviours|JailbreakBench]]
 
 ## Notes
 

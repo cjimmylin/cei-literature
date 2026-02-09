@@ -2,6 +2,49 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 52 (Feb 8, 2026) - Systematic Deduplication: 923 → 846 Papers
+
+### Overview
+
+Executed a systematic deduplication of the vault. The EXSR exhaustive search import (266 papers) and AUTO enrichment passes introduced ~77 duplicates that weren't caught by the 80% word-overlap threshold. Built a detection pipeline using Union-Find on DOI, arXiv ID, and canonical URL identifiers, with richness scoring to select the best paper as primary. After manual review of flagged groups (catching 1 false positive — Shankar URL data error), consolidated all 73 duplicate groups: merged valuable YAML fields into primaries, recycled duplicate papers/PDFs/extracts, and updated 89 cross-reference files.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Duplicate groups found | 73 |
+| Papers recycled | 77 (923 → 846) |
+| PDFs recycled | 77 |
+| Extracts recycled | 75 |
+| Extracts transferred to primary | 2 |
+| YAML fields merged | 159 |
+| Cross-reference files updated | 89 |
+| Author profiles deduplicated | 16 |
+| False positives caught | 1 (Shankar URL error) |
+| Data quality fixes | Shankar URL corrected |
+| Validation | 846/846 pass, 0 errors |
+
+### Key Learnings
+- [Data Quality] arXiv ID regex `\d{4}\.\d{4,5}` matches DOI substrings — must validate YYMM prefix and only extract from arxiv.org URLs
+- [Data Quality] Union-Find catches transitive duplicates that pairwise matching misses (triple groups: JailbreakBench, MASK, Agarwal)
+- [Data Quality] EXSR 80% word-overlap dedup threshold was too low for title variations — future imports should use identifier matching
+- [Workflows] Discovery→Review→Apply pipeline caught Shankar false positive before irreversible recycling
+
+### Scripts Created
+- `PYTHON/detect_duplicates.py`: Union-Find duplicate detection with DOI/arXiv/URL matching + richness scoring
+- `PYTHON/consolidate_duplicates.py`: Safe YAML merge, PDF/extract recycling, cross-ref updates, `--dry-run` support
+
+### Files Changed
+- `papers/`: 150 (77 recycled to RECYCLE-BIN + 73 primaries updated with merged fields)
+- `PDF Extracts/`: 77 (75 recycled + 2 transferred)
+- `Authors/`: 74 modified (cross-ref updates + 16 deduped)
+- `STATISTICS/`: 12 modified (cross-ref updates + 1 new report)
+- `PYTHON/`: 2 new scripts
+- `CLAUDE.md`: Updated paper count (923 → 846)
+- `logs/`: 2 new files (duplicate_groups.json + consolidation_log.json)
+
+---
+
 ## Session 51 (Feb 8, 2026) - Missing PDFs Phase 2: YAML Cleanup & INBOX Processing
 
 ### Overview

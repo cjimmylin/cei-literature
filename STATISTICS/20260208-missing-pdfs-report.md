@@ -43,7 +43,7 @@ Old PDF names from before papers were renamed to shorter or corrected titles. Th
 
 | # | Orphan PDF | Matched Paper (has PDF ✓) |
 |---|-----------|--------------------------|
-| 8 | `[[PDFs/2024/2024-Agarwal-Ethical Reasoning and Moral Value Alignment of.pdf]]` | `[[2024-Agarwal-Ethical Reasoning and Moral Value Alignment]]` (trailing "of" trimmed) |
+| 8 | `[[PDFs/2024/2024-Agarwal-Ethical Reasoning and Moral Value Alignment of.pdf]]` | `[[2024-Agarwal-Ethical Reasoning Depends on Language]]` (trailing "of" trimmed) |
 | 9 | `[[PDFs/2024/2024-Ji-MoralBench Moral Evaluation of LLMs.pdf]]` | `[[2024-Ji-MoralBench]]` (long-form → short title) |
 | 10 | `[[PDFs/2025/2025-Baum-Aggregation Problems Machine Ethics.pdf]]` | `[[2025-Baum-Aggregation Problems in Machine Ethics]]` |
 | 11 | `[[PDFs/2025/2025-Chakraborty-Structured Moral Reasoning in Language Models.pdf]]` | `[[2025-Chakraborty-Structured Moral Reasoning]]` |

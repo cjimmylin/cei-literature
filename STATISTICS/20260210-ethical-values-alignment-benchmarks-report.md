@@ -20,15 +20,15 @@ This report catalogues **152 benchmarks and resources** for evaluating ethical v
 
 ### Section Overview
 
-| Section | Topic | Entries |
-|---------|-------|---------|
-| A | Multi-Framework Ethics Benchmarks | 7 |
-| B | Single-Framework / Focused Ethics Benchmarks | 46 |
-| C | Cross-Cultural Values Benchmarks | 52 |
-| D | Moral Psychology & Foundations Benchmarks | 37 |
-| E | Psychometric & Values Survey Benchmarks | 5 |
-| F | Meta-Resources & Survey Papers | 5 |
-| **Total** | | **152** |
+| Section   | Topic                                        | Entries |
+| --------- | -------------------------------------------- | ------- |
+| A         | Multi-Framework Ethics Benchmarks            | 7       |
+| B         | Single-Framework / Focused Ethics Benchmarks | 46      |
+| C         | Cross-Cultural Values Benchmarks             | 52      |
+| D         | Moral Psychology & Foundations Benchmarks    | 37      |
+| E         | Psychometric & Values Survey Benchmarks      | 5       |
+| F         | Meta-Resources & Survey Papers               | 5       |
+| **Total** |                                              | **152** |
 
 **Key expansions since v1:**
 - Section B (Single-Framework) grew significantly with newly identified focused ethics benchmarks

@@ -2,6 +2,54 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 55 (Feb 10, 2026) - Dashboard v3 Restoration (8-Tab Enhanced)
+
+### Overview
+
+Restored and cleaned the enhanced 8-tab interactive dashboard from a browser-saved HTML file. The browser "Save As Complete Web Page" had broken the dashboard by baking ECharts canvas bitmaps, local file references, and pre-rendered dynamic content. Built a Python cleanup script that strips all artifacts and produces a clean self-contained v3.
+
+### Deliverables
+
+| Output | Script | Size |
+|--------|--------|------|
+| Dashboard v3 (8 tabs) | `PYTHON/restore_dashboard_v3.py` | 612KB HTML |
+
+### Dashboard v3 Details
+
+Enhanced from 6 tabs → 8 tabs with deep sub-navigation:
+1. Overview (KPIs, timeline, categories, availability, authors)
+2. Taxonomy (category×year heatmap, co-occurrence matrix)
+3. Models & Methods (model/method bars, model×category heatmap)
+4. **Cultural Values** (5 sub-tabs: Overview, Regions, Languages, Traditions, Gap Analysis — 12 charts)
+5. Resources (filterable table, 306 benchmarks)
+6. **Normative Ethics** (5 sub-tabs: Overview, Virtue Ethics, Deontological, Consequentialism, Cross-Framework — 11 charts)
+7. **Moral Psychology** (5 sub-tabs: Overview, MFT, Schwartz, Developmental, Cross-Theory — 10 charts)
+8. **Religious Values** (6 sub-tabs: Overview, Islamic, Abrahamic, Dharmic, Confucian, Cross-Tradition — 12 charts)
+
+### Cleanup Stats
+
+| Metric | Value |
+|--------|-------|
+| Chart containers cleaned | 56 |
+| KPI rows emptied | 15 |
+| Table bodies emptied | 15 |
+| Narrative divs emptied | 17 |
+| Size reduction | 1,051 KB → 612 KB |
+| Bugs fixed | 2 (JS operator precedence, syntax error) |
+
+### Key Learnings
+- [HTML Restoration] Browser "Save As" bakes ECharts canvas as static bitmaps, adds `_echarts_instance_` attributes, and converts CDN refs to local `_files/` dirs — all must be stripped for the dashboard to re-render
+- [HTML Restoration] Dynamic containers (KPI rows using `appendChild`) must be emptied or JS will double the content; containers using `innerHTML` are safe but cleaned for tidiness
+- [HTML Restoration] Nesting-depth tracker needed to find matching `</div>` for chart containers with deeply nested browser artifacts — simple regex won't work for nested HTML
+- [JS Debugging] `||` has lower precedence than `+` in JavaScript: `x||0 + y||0` evaluates as `x||(0+y)||0`, not `(x||0)+(y||0)` — Religious KPIs showed wrong "Other Traditions" count
+
+### Files Created
+- `PYTHON/restore_dashboard_v3.py` (new — browser-saved HTML cleanup script)
+- `STATISTICS/20260210-vault-dashboard-3.html` (new — 8-tab enhanced dashboard)
+- `STATISTICS/20260210-vault-dashboard-2.html` (backup of previous version)
+
+---
+
 ## Session 54 (Feb 10, 2026) - Report Generation & Interactive Dashboard
 
 ### Overview

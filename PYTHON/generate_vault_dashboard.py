@@ -10,8 +10,9 @@ Data sources:
   - logs/20260208-benchmark_survey_candidates.json (528 entries)
   - logs/20260207-normative_v2_all_classifications.json (266 entries)
   - logs/20260208-author_paper_map.json (846 entries)
+  - papers/*.md YAML frontmatter: LLM_assessed, DATA_URL fields (846 papers)
 
-Output: STATISTICS/20260210-vault-dashboard.html
+Output: STATISTICS/20260212-vault-dashboard.html
 """
 
 import json
@@ -33,7 +34,30 @@ ALL_CLASSIFICATIONS_FILE = LOGS_DIR / "20260208-benchmark_survey_all_classificat
 CANDIDATES_FILE = LOGS_DIR / "20260208-benchmark_survey_candidates.json"
 NORMATIVE_FILE = LOGS_DIR / "20260207-normative_v2_all_classifications.json"
 AUTHOR_MAP_FILE = LOGS_DIR / "20260208-author_paper_map.json"
-OUTPUT_FILE = STATS_DIR / "20260210-vault-dashboard.html"
+OUTPUT_FILE = STATS_DIR / "20260212-vault-dashboard.html"
+
+# ── Paper YAML scanner (for LLM assessment data) ─────────────────────────
+PAPERS_DIR = WS_ROOT / "papers"
+
+
+def scan_paper_yaml_fields():
+    """Scan all papers for LLM_assessed and DATA_URL fields."""
+    results = {}
+    for p in sorted(PAPERS_DIR.glob("*.md")):
+        content = p.read_text(encoding="utf-8")
+        fm_match = re.search(r'^---\n(.*?)\n---', content, re.DOTALL)
+        if not fm_match:
+            continue
+        fm = fm_match.group(1)
+        llm = "NA"
+        url = "NA"
+        for line in fm.split("\n"):
+            if line.startswith("LLM_assessed:"):
+                llm = line.split(":", 1)[1].strip().strip('"')
+            elif line.startswith("DATA_URL:"):
+                url = line.split(":", 1)[1].strip().strip('"')
+        results[p.name] = {"LLM_assessed": llm, "DATA_URL": url}
+    return results
 
 # ── Import from existing scripts ───────────────────────────────────────────
 sys.path.insert(0, str(SCRIPT_DIR))
@@ -219,7 +243,7 @@ NORMATIVE_FRAMEWORK_PATTERNS = {
 # DATA COMPUTATION
 # ═══════════════════════════════════════════════════════════════════════════
 
-def compute_dashboard_data(all_entries, candidates, normative_entries, author_map):
+def compute_dashboard_data(all_entries, candidates, normative_entries, author_map, paper_yaml):
     """Compute all dashboard data structures from raw JSON inputs."""
     data = {}
     cat_order = sorted(CATEGORIES.keys(), key=lambda c: int(c.split(".")[0]))
@@ -492,6 +516,58 @@ def compute_dashboard_data(all_entries, candidates, normative_entries, author_ma
     # ── Category short names for charts ────────────────────────────────
     data["categoryNames"] = cat_short_names
 
+    # ── LLM Assessment data ───────────────────────────────────────────
+    papers_with_models = {fn: d for fn, d in paper_yaml.items() if d["LLM_assessed"] != "NA"}
+    papers_with_urls = {fn: d for fn, d in paper_yaml.items() if d["DATA_URL"] != "NA"}
+
+    # Model frequency counts
+    llm_model_counter = Counter()
+    for fn, d in papers_with_models.items():
+        for m in [m.strip() for m in d["LLM_assessed"].split(",") if m.strip()]:
+            llm_model_counter[m] += 1
+
+    data["llmModels"] = [{"name": n, "count": c} for n, c in llm_model_counter.most_common(20)]
+
+    # Assessment by year
+    assessed_by_year = Counter()
+    not_assessed_by_year = Counter()
+    for fn, d in paper_yaml.items():
+        year = extract_year(fn)
+        if year == 9999:
+            continue
+        if d["LLM_assessed"] != "NA":
+            assessed_by_year[year] += 1
+        else:
+            not_assessed_by_year[year] += 1
+    all_years = sorted(set(list(assessed_by_year.keys()) + list(not_assessed_by_year.keys())))
+    data["llmByYear"] = {str(y): {"assessed": assessed_by_year.get(y, 0),
+                                   "notAssessed": not_assessed_by_year.get(y, 0)}
+                         for y in all_years if y >= 2016}
+
+    # Data repository distribution
+    repo_counter = Counter()
+    for fn, d in papers_with_urls.items():
+        url = d["DATA_URL"].lower()
+        if "github.com" in url:
+            repo_counter["GitHub"] += 1
+        elif "huggingface" in url or "hf.co" in url:
+            repo_counter["HuggingFace"] += 1
+        elif "zenodo" in url:
+            repo_counter["Zenodo"] += 1
+        elif "osf.io" in url:
+            repo_counter["OSF"] += 1
+        elif "kaggle" in url:
+            repo_counter["Kaggle"] += 1
+        else:
+            repo_counter["Other"] += 1
+    data["repoDistribution"] = [{"name": n, "count": c} for n, c in repo_counter.most_common()]
+
+    # KPI for LLM tab
+    data["kpi"]["llmModels"] = len(papers_with_models)
+    data["kpi"]["llmModelsPct"] = round(len(papers_with_models) / len(paper_yaml) * 100) if paper_yaml else 0
+    data["kpi"]["dataUrls"] = len(papers_with_urls)
+    data["kpi"]["totalPapers"] = len(paper_yaml)
+
     return data
 
 
@@ -669,6 +745,7 @@ body {{
 .kpi:nth-child(3)::before {{ background: var(--success); }}
 .kpi:nth-child(4)::before {{ background: var(--cat-3); }}
 .kpi:nth-child(5)::before {{ background: var(--cat-6); }}
+.kpi:nth-child(6)::before {{ background: var(--cat-2); }}
 /* ── Chart containers ──────────────────────────────────────────────── */
 .chart-box {{
   width: 100%;
@@ -816,7 +893,7 @@ select.filter-input {{ cursor: pointer; }}
 <div class="header">
   <div class="header-content">
     <h1>CEI Literature Vault — LLM Ethics & Values Alignment</h1>
-    <div class="subtitle">924 papers screened &bull; 528 benchmark candidates &bull; Generated 2026-02-10</div>
+    <div class="subtitle">924 papers screened &bull; 528 benchmark candidates &bull; Generated 2026-02-12</div>
     <div class="tabs" id="tabs">
       <div class="tab active" data-tab="overview">Overview</div>
       <div class="tab" data-tab="taxonomy">Taxonomy</div>
@@ -824,6 +901,7 @@ select.filter-input {{ cursor: pointer; }}
       <div class="tab" data-tab="cultural">Cultural Coverage</div>
       <div class="tab" data-tab="resources">Resources</div>
       <div class="tab" data-tab="normative">Normative</div>
+      <div class="tab" data-tab="llm">LLM Assessment</div>
     </div>
   </div>
 </div>
@@ -911,10 +989,26 @@ select.filter-input {{ cursor: pointer; }}
   </div>
 </div>
 
+<!-- ═══ Section 7: LLM Assessment ═════════════════════════════════════ -->
+<div class="section" id="sec-llm">
+  <div class="grid grid-5" style="margin-bottom:24px">
+    <div class="kpi"><div class="kpi-value" style="color:#22d3ee" id="llm-kpi-models">0</div><div class="kpi-label">Papers with LLM Models</div></div>
+    <div class="kpi"><div class="kpi-value" style="color:#22c55e" id="llm-kpi-urls">0</div><div class="kpi-label">Papers with Data URLs</div></div>
+    <div class="kpi"><div class="kpi-value" style="color:#f59e0b" id="llm-kpi-pct">0%</div><div class="kpi-label">LLM Coverage Rate</div></div>
+  </div>
+  <div class="grid grid-2" style="margin-bottom:20px">
+    <div class="card"><div class="card-title">LLM Model Frequency (Top 20)</div><div class="chart-box chart-box-lg" id="chart-llm-models"></div></div>
+    <div class="card"><div class="card-title">Assessment Coverage by Year</div><div class="chart-box chart-box-lg" id="chart-llm-year"></div></div>
+  </div>
+  <div class="grid grid-2">
+    <div class="card"><div class="card-title">Data Repository Distribution</div><div class="chart-box" id="chart-llm-repos"></div></div>
+  </div>
+</div>
+
 </div><!-- /main -->
 
 <div class="footer">
-  CEI Literature Vault &bull; Generated 2026-02-10 &bull; 924 papers &bull; Script: generate_vault_dashboard.py
+  CEI Literature Vault &bull; Generated 2026-02-12 &bull; 924 papers &bull; Script: generate_vault_dashboard.py
 </div>
 
 <!-- ═══ DATA & SCRIPTS ══════════════════════════════════════════════ -->
@@ -962,6 +1056,7 @@ function animateValue(el, end, suffix='') {{
     {{ value: DATA.kpi.public, label: 'Public Benchmarks', suffix: '' }},
     {{ value: DATA.kpi.pluralisticPct, label: 'Pluralistic Relevance', suffix: '%' }},
     {{ value: DATA.kpi.normative, label: 'Normative Ethics', suffix: '' }},
+    {{ value: DATA.kpi.llmModels, label: 'Papers with LLM Data', suffix: '' }},
   ];
   const row = document.getElementById('kpi-row');
   kpis.forEach(k => {{
@@ -1459,6 +1554,77 @@ const commonTooltip = {{
       + '</div></div>';
   }}).join('');
 }})();
+
+// ── 18. LLM Assessment KPIs ──────────────────────────────────────────
+(function() {{
+  const el1 = document.getElementById('llm-kpi-models');
+  const el2 = document.getElementById('llm-kpi-urls');
+  const el3 = document.getElementById('llm-kpi-pct');
+  if (el1) el1.textContent = (DATA.kpi.llmModels || 0).toLocaleString();
+  if (el2) el2.textContent = (DATA.kpi.dataUrls || 0).toLocaleString();
+  if (el3) el3.textContent = (DATA.kpi.llmModelsPct || 0) + '%';
+}})();
+
+// ── 19. LLM Model Frequency bar chart ────────────────────────────────
+(function() {{
+  const chart = initChart('chart-llm-models');
+  if (!chart || !DATA.llmModels || DATA.llmModels.length === 0) return;
+  const models = DATA.llmModels.slice().reverse();
+  chart.setOption({{
+    tooltip: {{ ...commonTooltip, trigger: 'axis', axisPointer: {{ type: 'shadow' }} }},
+    grid: {{ left: 140, right: 50, top: 10, bottom: 10 }},
+    xAxis: {{ type: 'value', splitLine: {{ lineStyle: {{ color: '#27272a' }} }}, axisLabel: {{ color: '#71717a' }} }},
+    yAxis: {{ type: 'category', data: models.map(m => m.name), axisLabel: {{ color: '#a1a1aa', fontSize: 11 }}, axisLine: {{ lineStyle: {{ color: '#3f3f46' }} }} }},
+    series: [{{
+      type: 'bar', data: models.map(m => m.count),
+      barWidth: '60%', itemStyle: {{ color: '#22d3ee' }},
+      label: {{ show: true, position: 'right', color: '#a1a1aa', fontSize: 11, fontFamily: 'JetBrains Mono' }},
+    }}],
+  }});
+}})();
+
+// ── 20. Assessment Coverage by Year (stacked bar) ────────────────────
+(function() {{
+  const chart = initChart('chart-llm-year');
+  if (!chart || !DATA.llmByYear) return;
+  const years = Object.keys(DATA.llmByYear).map(Number).sort();
+  const assessed = years.map(y => DATA.llmByYear[y].assessed);
+  const notAssessed = years.map(y => DATA.llmByYear[y].notAssessed);
+  chart.setOption({{
+    tooltip: {{ ...commonTooltip, trigger: 'axis' }},
+    legend: {{ top: 0, textStyle: {{ color: '#a1a1aa', fontSize: 11 }}, itemWidth: 14, itemHeight: 10 }},
+    grid: {{ left: 50, right: 20, top: 40, bottom: 30 }},
+    xAxis: {{ type: 'category', data: years, axisLine: {{ lineStyle: {{ color: '#3f3f46' }} }}, axisLabel: {{ color: '#71717a' }} }},
+    yAxis: {{ type: 'value', splitLine: {{ lineStyle: {{ color: '#27272a' }} }}, axisLabel: {{ color: '#71717a' }} }},
+    series: [
+      {{ name: 'No LLM Models', type: 'bar', stack: 'total', data: notAssessed, itemStyle: {{ color: '#3f3f46' }}, barWidth: '60%' }},
+      {{ name: 'With LLM Models', type: 'bar', stack: 'total', data: assessed, itemStyle: {{ color: '#22d3ee' }}, barWidth: '60%' }},
+    ],
+  }});
+}})();
+
+// ── 21. Data Repository Distribution (donut) ─────────────────────────
+(function() {{
+  const chart = initChart('chart-llm-repos');
+  if (!chart || !DATA.repoDistribution || DATA.repoDistribution.length === 0) return;
+  const REPO_COLORS = {{
+    'GitHub': '#22c55e', 'HuggingFace': '#f59e0b', 'Zenodo': '#6366f1',
+    'OSF': '#ec4899', 'Kaggle': '#22d3ee', 'Other': '#71717a'
+  }};
+  chart.setOption({{
+    tooltip: {{ ...commonTooltip, trigger: 'item', formatter: '{{b}}: {{c}} ({{d}}%)' }},
+    legend: {{ bottom: 0, textStyle: {{ color: '#a1a1aa', fontSize: 11 }}, itemWidth: 12, itemHeight: 10 }},
+    series: [{{
+      type: 'pie', radius: ['45%','72%'], center: ['50%','45%'],
+      data: DATA.repoDistribution.map(r => ({{
+        name: r.name, value: r.count,
+        itemStyle: {{ color: REPO_COLORS[r.name] || '#71717a' }}
+      }})),
+      label: {{ show: true, color: '#a1a1aa', fontSize: 11, formatter: '{{b}}\\n{{c}} ({{d}}%)' }},
+      emphasis: {{ label: {{ fontSize: 13, fontWeight: 600 }} }},
+    }}],
+  }});
+}})();
 </script>
 </body>
 </html>'''
@@ -1486,8 +1652,12 @@ def main():
         author_map = json.load(f)
     print(f"  Author map: {len(author_map)}")
 
+    print("  Scanning paper YAML fields...")
+    paper_yaml = scan_paper_yaml_fields()
+    print(f"  Papers scanned: {len(paper_yaml)}")
+
     print("\nComputing dashboard data...")
-    data = compute_dashboard_data(all_entries, candidates, normative_entries, author_map)
+    data = compute_dashboard_data(all_entries, candidates, normative_entries, author_map, paper_yaml)
 
     data_json = json.dumps(data, separators=(',', ':'), ensure_ascii=False)
     print(f"  JSON data blob: {len(data_json):,} characters")
@@ -1515,6 +1685,10 @@ def main():
     print(f"  Methods:         {len(data['methods'])}")
     print(f"  Resources:       {len(data['resources'])}")
     print(f"  Top authors:     {len(data['topAuthors'])}")
+    print(f"  LLM models:      {data['kpi']['llmModels']} papers ({data['kpi']['llmModelsPct']}%)")
+    print(f"  Data URLs:       {data['kpi']['dataUrls']} papers")
+    print(f"  LLM model types: {len(data['llmModels'])}")
+    print(f"  Repo types:      {len(data['repoDistribution'])}")
 
 
 if __name__ == "__main__":

@@ -2,6 +2,36 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 59 (Feb 12, 2026) - Regenerate Reports & Dashboard with LLM Assessment Data
+
+### Overview
+
+Updated `generate_vault_overview_report.py` and `generate_vault_dashboard.py` to incorporate the new LLM assessment data (LLM_assessed, DATA_URL fields) from the enrichment pipeline completed in Session 58. Added a 5th data source (paper YAML scanning), new analysis section, and new dashboard tab. Generated dated `20260212-` output files; `20260210-` originals preserved.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Papers Scanned | 846 / 846 |
+| Papers with LLM Models | 566 (66%) |
+| Papers with Data URLs | 452 (53%) |
+| Unique LLM Model Names | 47 |
+| Repository Types | 6 (GitHub, HuggingFace, Zenodo, OSF, Kaggle, Other) |
+| Report Size | 107KB, 1,311 lines (was 105KB, 1,250 lines) |
+| Dashboard Size | 146KB (was 140KB) |
+| YAML Validation | 846/846 pass, 0 errors |
+
+### Key Learnings
+- [Report Generation] Adding a 5th data source (paper YAML scan) to complement 4 existing JSON sources; lightweight regex scanning for 2 fields is safe/fast (~846 files in <1s)
+- [Report Generation] Section insertion requires renumbering all downstream: TOC items, section headers, section comments, and footer references
+- [Research] LLM model coverage: GPT-4 most common across vault (consistent with batch 4 findings), GitHub dominates data repository distribution
+
+### Files Changed
+- PYTHON/: 2 scripts modified (generate_vault_overview_report.py, generate_vault_dashboard.py)
+- STATISTICS/: 2 new outputs (20260212-vault-overview-report.md, 20260212-vault-dashboard.html)
+
+---
+
 ## Session 58 (Feb 12, 2026) - LLM Assessment Pipeline Scale-Up to 846/846
 
 ### Overview

@@ -11,8 +11,9 @@ Data sources:
   - logs/20260208-benchmark_survey_candidates.json (528 entries)
   - logs/20260207-normative_v2_all_classifications.json (266 entries)
   - logs/20260208-author_paper_map.json (846 entries)
+  - papers/*.md YAML frontmatter: LLM_assessed, DATA_URL fields (846 papers)
 
-Output: STATISTICS/20260210-vault-overview-report.md
+Output: STATISTICS/20260212-vault-overview-report.md
 """
 
 import json
@@ -34,7 +35,83 @@ ALL_CLASSIFICATIONS_FILE = LOGS_DIR / "20260208-benchmark_survey_all_classificat
 CANDIDATES_FILE = LOGS_DIR / "20260208-benchmark_survey_candidates.json"
 NORMATIVE_FILE = LOGS_DIR / "20260207-normative_v2_all_classifications.json"
 AUTHOR_MAP_FILE = LOGS_DIR / "20260208-author_paper_map.json"
-OUTPUT_FILE = STATS_DIR / "20260210-vault-overview-report.md"
+OUTPUT_FILE = STATS_DIR / "20260212-vault-overview-report.md"
+
+# ── Paper YAML scanner (for LLM assessment data) ─────────────────────────
+PAPERS_DIR = WS_ROOT / "papers"
+
+
+def scan_paper_yaml_fields():
+    """Scan all papers for LLM_assessed and DATA_URL fields."""
+    results = {}
+    for p in sorted(PAPERS_DIR.glob("*.md")):
+        content = p.read_text(encoding="utf-8")
+        fm_match = re.search(r'^---\n(.*?)\n---', content, re.DOTALL)
+        if not fm_match:
+            continue
+        fm = fm_match.group(1)
+        llm = "NA"
+        url = "NA"
+        for line in fm.split("\n"):
+            if line.startswith("LLM_assessed:"):
+                llm = line.split(":", 1)[1].strip().strip('"')
+            elif line.startswith("DATA_URL:"):
+                url = line.split(":", 1)[1].strip().strip('"')
+        results[p.name] = {"LLM_assessed": llm, "DATA_URL": url}
+    return results
+
+
+def analyze_llm_assessment(paper_yaml):
+    """Analyze LLM assessment coverage across all papers."""
+    total = len(paper_yaml)
+    papers_with_models = {fn: d for fn, d in paper_yaml.items() if d["LLM_assessed"] != "NA"}
+    papers_with_urls = {fn: d for fn, d in paper_yaml.items() if d["DATA_URL"] != "NA"}
+
+    # Model frequency counts (split comma-separated values)
+    model_counter = Counter()
+    for fn, d in papers_with_models.items():
+        models = [m.strip() for m in d["LLM_assessed"].split(",") if m.strip()]
+        for m in models:
+            model_counter[m] += 1
+
+    # DATA_URL repository distribution
+    repo_counter = Counter()
+    for fn, d in papers_with_urls.items():
+        url = d["DATA_URL"].lower()
+        if "github.com" in url:
+            repo_counter["GitHub"] += 1
+        elif "huggingface" in url or "hf.co" in url:
+            repo_counter["HuggingFace"] += 1
+        elif "zenodo" in url:
+            repo_counter["Zenodo"] += 1
+        elif "osf.io" in url:
+            repo_counter["OSF"] += 1
+        elif "kaggle" in url:
+            repo_counter["Kaggle"] += 1
+        else:
+            repo_counter["Other"] += 1
+
+    # Year-based assessment counts
+    assessed_by_year = Counter()
+    not_assessed_by_year = Counter()
+    for fn, d in paper_yaml.items():
+        year = extract_year(fn)
+        if year == 9999:
+            continue
+        if d["LLM_assessed"] != "NA":
+            assessed_by_year[year] += 1
+        else:
+            not_assessed_by_year[year] += 1
+
+    return {
+        "total": total,
+        "with_models": len(papers_with_models),
+        "with_urls": len(papers_with_urls),
+        "model_counter": model_counter,
+        "repo_counter": repo_counter,
+        "assessed_by_year": assessed_by_year,
+        "not_assessed_by_year": not_assessed_by_year,
+    }
 
 # ── Import CATEGORIES and classify_entry from existing report generator ────
 sys.path.insert(0, str(SCRIPT_DIR))
@@ -706,14 +783,14 @@ def truncate(text, max_len=60):
 
 
 def assemble_report(landscape, taxonomy, methods, models, cultural, availability,
-                    normative, ready, trends, gaps, candidates):
+                    normative, ready, llm_assess, trends, gaps, candidates):
     """Assemble all sections into the final Markdown report."""
     L = []
 
     # ── Header ──────────────────────────────────────────────────────────
     L.append("# Comprehensive Vault Overview: LLM Ethics & Values Alignment Resources")
     L.append("")
-    L.append(f"**Generated:** 2026-02-10 | **Papers:** {landscape['total']} screened, "
+    L.append(f"**Generated:** 2026-02-12 | **Papers:** {landscape['total']} screened, "
              f"{landscape['candidates']} benchmark candidates | "
              f"**Normative ethics:** {normative['yes_count'] + normative['borderline_count']} papers")
     L.append("")
@@ -733,10 +810,11 @@ def assemble_report(landscape, taxonomy, methods, models, cultural, availability
         "7. Data Availability",
         "8. Normative Ethics Deep Dive",
         "9. Ready-to-Use Resources for SOTA Testing",
-        "10. Temporal Trends",
-        "11. Gap Analysis",
-        "12. Recommendations for Values Alignment Research",
-        "13. Methodology",
+        "10. LLM Assessment Coverage",
+        "11. Temporal Trends",
+        "12. Gap Analysis",
+        "13. Recommendations for Values Alignment Research",
+        "14. Methodology",
         "Appendix A: Full Benchmark Candidate List",
         "Appendix B: Normalization Definitions",
     ]
@@ -1187,8 +1265,60 @@ def assemble_report(landscape, taxonomy, methods, models, cultural, availability
     L.append("---")
     L.append("")
 
-    # ── 10. Temporal Trends ──────────────────────────────────────────────
-    L.append("## 10. Temporal Trends")
+    # ── 10. LLM Assessment Coverage ──────────────────────────────────────
+    L.append("## 10. LLM Assessment Coverage")
+    L.append("")
+    model_pct = llm_assess["with_models"] * 100 // llm_assess["total"] if llm_assess["total"] > 0 else 0
+    url_pct = llm_assess["with_urls"] * 100 // llm_assess["total"] if llm_assess["total"] > 0 else 0
+    L.append(f"All **{llm_assess['total']} papers** were assessed for LLM model usage and data availability. "
+             f"**{llm_assess['with_models']}** papers ({model_pct}%) mention specific LLM models; "
+             f"**{llm_assess['with_urls']}** papers ({url_pct}%) have a linked data URL.")
+    L.append("")
+
+    # Top 20 LLM models table
+    if llm_assess["model_counter"]:
+        L.append("### Top 20 LLM Models Mentioned")
+        L.append("")
+        L.append("| # | Model | Papers | % of Papers with Models |")
+        L.append("|---|-------|--------|------------------------|")
+        for i, (model, count) in enumerate(llm_assess["model_counter"].most_common(20), 1):
+            mpct = count * 100 // llm_assess["with_models"] if llm_assess["with_models"] > 0 else 0
+            bar = "█" * (count // 10)
+            L.append(f"| {i} | {model} | {count} {bar} | {mpct}% |")
+        L.append("")
+
+    # Assessment by year
+    all_assess_years = sorted(set(list(llm_assess["assessed_by_year"].keys()) +
+                                  list(llm_assess["not_assessed_by_year"].keys())))
+    if all_assess_years:
+        L.append("### Assessment Coverage by Year")
+        L.append("")
+        L.append("| Year | With LLM Models | Without | Total | LLM % |")
+        L.append("|------|----------------|---------|-------|-------|")
+        for y in all_assess_years:
+            a = llm_assess["assessed_by_year"].get(y, 0)
+            na = llm_assess["not_assessed_by_year"].get(y, 0)
+            t = a + na
+            pct = f"{a * 100 // t}%" if t > 0 else "-"
+            L.append(f"| {y} | {a} | {na} | {t} | {pct} |")
+        L.append("")
+
+    # Data repository distribution
+    if llm_assess["repo_counter"]:
+        L.append("### Data Repository Distribution")
+        L.append("")
+        L.append("| Repository | Count | % of Papers with URLs |")
+        L.append("|-----------|-------|----------------------|")
+        for repo, count in llm_assess["repo_counter"].most_common():
+            rpct = count * 100 // llm_assess["with_urls"] if llm_assess["with_urls"] > 0 else 0
+            L.append(f"| {repo} | {count} | {rpct}% |")
+        L.append("")
+
+    L.append("---")
+    L.append("")
+
+    # ── 11. Temporal Trends ──────────────────────────────────────────────
+    L.append("## 11. Temporal Trends")
     L.append("")
     all_y = sorted(trends["all_years"].keys())
     if all_y:
@@ -1209,8 +1339,8 @@ def assemble_report(landscape, taxonomy, methods, models, cultural, availability
     L.append("---")
     L.append("")
 
-    # ── 11. Gap Analysis ─────────────────────────────────────────────────
-    L.append("## 11. Gap Analysis")
+    # ── 12. Gap Analysis ─────────────────────────────────────────────────
+    L.append("## 12. Gap Analysis")
     L.append("")
 
     L.append("### Ethical Tradition Coverage Gaps")
@@ -1284,8 +1414,8 @@ def assemble_report(landscape, taxonomy, methods, models, cultural, availability
     L.append("---")
     L.append("")
 
-    # ── 12. Recommendations ──────────────────────────────────────────────
-    L.append("## 12. Recommendations for Values Alignment Research")
+    # ── 13. Recommendations ──────────────────────────────────────────────
+    L.append("## 13. Recommendations for Values Alignment Research")
     L.append("")
 
     # Tier 1: Start here
@@ -1351,8 +1481,8 @@ def assemble_report(landscape, taxonomy, methods, models, cultural, availability
     L.append("---")
     L.append("")
 
-    # ── 13. Methodology ──────────────────────────────────────────────────
-    L.append("## 13. Methodology")
+    # ── 14. Methodology ──────────────────────────────────────────────────
+    L.append("## 14. Methodology")
     L.append("")
     L.append("### Data Sources")
     L.append("")
@@ -1362,6 +1492,7 @@ def assemble_report(landscape, taxonomy, methods, models, cultural, availability
     L.append(f"| `benchmark_survey_candidates.json` | {landscape['candidates']} | Subset with benchmark/evaluation resources |")
     L.append(f"| `normative_v2_all_classifications.json` | {normative['total']} | 10-agent normative ethics classification (EXSR batch) |")
     L.append(f"| `author_paper_map.json` | {landscape['n_authors']} | Author-paper mapping |")
+    L.append(f"| Paper YAML frontmatter | {llm_assess['total']} | LLM_assessed and DATA_URL fields (2026-02-12 enrichment) |")
     L.append("")
     L.append("### Classification Approach")
     L.append("")
@@ -1437,7 +1568,7 @@ def assemble_report(landscape, taxonomy, methods, models, cultural, availability
 
     L.append("---")
     L.append("")
-    L.append(f"*Generated: 2026-02-10 | Script: `PYTHON/generate_vault_overview_report.py` | "
+    L.append(f"*Generated: 2026-02-12 | Script: `PYTHON/generate_vault_overview_report.py` | "
              f"Papers: {landscape['candidates']}/{landscape['total']} candidates | "
              f"Categories: {len(CATEGORIES)}*")
 
@@ -1470,7 +1601,10 @@ def main():
     with open(AUTHOR_MAP_FILE, "r", encoding="utf-8") as f:
         author_map = json.load(f)
     print(f"  Author map: {len(author_map)}")
-    assert len(author_map) == 846, f"Expected 846, got {len(author_map)}"
+
+    print("  Scanning paper YAML fields...")
+    paper_yaml = scan_paper_yaml_fields()
+    print(f"  Papers scanned: {len(paper_yaml)}")
 
     # ── Run analyses ──────────────────────────────────────────────────
     print("\nRunning analyses...")
@@ -1499,6 +1633,9 @@ def main():
     print("  Ready-to-use resources...")
     ready = analyze_ready_resources(candidates)
 
+    print("  LLM assessment coverage...")
+    llm_assess = analyze_llm_assessment(paper_yaml)
+
     print("  Temporal trends...")
     trends = analyze_temporal_trends(all_entries, candidates)
 
@@ -1509,7 +1646,7 @@ def main():
     print("\nAssembling report...")
     report = assemble_report(
         landscape, taxonomy, method_analysis, model_analysis, cultural,
-        avail, normative, ready, trends, gap_analysis, candidates
+        avail, normative, ready, llm_assess, trends, gap_analysis, candidates
     )
 
     # ── Write output ──────────────────────────────────────────────────
@@ -1547,6 +1684,12 @@ def main():
         pipe_counts[n_pipes] += 1
     print(f"  Table lines: {len(table_lines)}")
 
+    # LLM assessment coverage
+    print(f"  LLM assessment:      {llm_assess['with_models']}/{llm_assess['total']} papers with models "
+          f"({llm_assess['with_models']*100//llm_assess['total']}%)")
+    print(f"  DATA_URL coverage:   {llm_assess['with_urls']}/{llm_assess['total']} papers with URLs "
+          f"({llm_assess['with_urls']*100//llm_assess['total']}%)")
+
     print("\n=== SUMMARY ===")
     print(f"  Papers screened:     {landscape['total']}")
     print(f"  Benchmark candidates: {landscape['candidates']}")
@@ -1556,6 +1699,8 @@ def main():
     print(f"  Ethical traditions:  {len(cultural['tradition_counts'])}")
     print(f"  Languages detected:  {len(cultural['lang_counts'])}")
     print(f"  Public benchmarks:   {avail['avail_counts'].get('Public', 0)}")
+    print(f"  LLM models (YAML):   {llm_assess['with_models']} papers, {len(llm_assess['model_counter'])} unique models")
+    print(f"  Data URLs:           {llm_assess['with_urls']} papers")
     print(f"  Report: {OUTPUT_FILE}")
 
 

@@ -9,10 +9,10 @@ key: EXSR0031
 type: conferencePaper
 short_title: CARE -- Multilingual Human Preference Learning for Cultural Awareness
 year: 2025
-first_author: "[[Guo]]"
-last_author: "[[Guo]]"
-authors: Guo et al.
-authors_incomplete: true
+first_author: "[[Guo, Geyang]]"
+last_author: "[[Xu, Wei]]"
+authors: "[[Guo, Geyang]]; [[Naous, Tarek]]; [[Wakaki, Hiromi]]; [[Nishimura, Yukiko]]; [[Mitsufuji, Yuki]]; [[Ritter, Alan]]; [[Xu, Wei]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2504.05154"
 external_pdf: "https://arxiv.org/pdf/2504.05154.pdf"
 local_pdf: "[[PDFs/2025/2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/Guochry/CARE"
 
 ## Authors
 
-[[Guo]]
+[[Guo, Geyang]], [[Naous, Tarek]], [[Wakaki, Hiromi]], [[Nishimura, Yukiko]], [[Mitsufuji, Yuki]], [[Ritter, Alan]], [[Xu, Wei]]
 
 ## Metadata
 
-**Authors:** Guo et al.
+**Authors:** Guo, Geyang; Naous, Tarek; Wakaki, Hiromi; Nishimura, Yukiko; Mitsufuji, Yuki; Ritter, Alan; Xu, Wei
 
 **Year:** 2025
 

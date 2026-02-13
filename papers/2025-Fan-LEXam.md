@@ -9,10 +9,10 @@ key: EXSR0068
 type: preprint
 short_title: LEXam
 year: 2025
-first_author: "[[Yu Fan]]"
-last_author: "[[Yu Fan]]"
-authors: Yu Fan et al.
-authors_incomplete: true
+first_author: "[[Fan, Yu]]"
+last_author: "[[Niklaus, Joel]]"
+authors: "[[Fan, Yu]]; [[Ni, Jingwei]]; [[Merane, Jakob]]; [[Tian, Yang]]; [[Hermstrüwer, Yoan]]; [[Huang, Yinya]]; [[Akhtar, Mubashara]]; [[Salimbeni, Etienne]]; [[Geering, Florian]]; [[Dreyer, Oliver]]; [[Brunner, Daniel]]; [[Leippold, Markus]]; [[Sachan, Mrinmaya]]; [[Stremitzer, Alexander]]; [[Engel, Christoph]]; [[Ash, Elliott]]; [[Niklaus, Joel]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2505.12864"
 external_pdf: "https://arxiv.org/pdf/2505.12864.pdf"
 local_pdf: "[[PDFs/2025/2025-Fan-LEXam.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://lexam-benchmark.github.io/"
 
 ## Authors
 
-[[Yu Fan]]
+[[Fan, Yu]], [[Ni, Jingwei]], [[Merane, Jakob]], [[Tian, Yang]], [[Hermstrüwer, Yoan]], [[Huang, Yinya]], [[Akhtar, Mubashara]], [[Salimbeni, Etienne]], [[Geering, Florian]], [[Dreyer, Oliver]], [[Brunner, Daniel]], [[Leippold, Markus]], [[Sachan, Mrinmaya]], [[Stremitzer, Alexander]], [[Engel, Christoph]], [[Ash, Elliott]], [[Niklaus, Joel]]
 
 ## Metadata
 
-**Authors:** Yu Fan et al.
+**Authors:** Fan, Yu; Ni, Jingwei; Merane, Jakob; Tian, Yang; Hermstrüwer, Yoan; Huang, Yinya; Akhtar, Mubashara; Salimbeni, Etienne; Geering, Florian; Dreyer, Oliver; Brunner, Daniel; Leippold, Markus; Sachan, Mrinmaya; Stremitzer, Alexander; Engel, Christoph; Ash, Elliott; Niklaus, Joel
 
 **Year:** 2025
 

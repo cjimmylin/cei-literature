@@ -9,10 +9,10 @@ key: EXSR0257
 type: conferencePaper
 short_title: "MORABLES: A Benchmark for Assessing Abstract Moral Reasoning in LLMs with Fables"
 year: 2025
-first_author: "[[M. Marcuzzo]]"
-last_author: "[[M. Marcuzzo]]"
-authors: Marcuzzo, M. et al.
-authors_incomplete: true
+first_author: "[[Marcuzzo, Matteo]]"
+last_author: "[[Pilehvar, Mohammad Taher]]"
+authors: "[[Marcuzzo, Matteo]]; [[Zangari, Alessandro]]; [[Albarelli, Andrea]]; [[Camacho-Collados, Jose]]; [[Pilehvar, Mohammad Taher]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2509.12371"
 external_pdf: "https://arxiv.org/pdf/2509.12371.pdf"
 local_pdf: "[[PDFs/2025/2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://huggingface.co/datasets/cardiffnlp/Morables"
 
 ## Authors
 
-[[M. Marcuzzo]]
+[[Marcuzzo, Matteo]], [[Zangari, Alessandro]], [[Albarelli, Andrea]], [[Camacho-Collados, Jose]], [[Pilehvar, Mohammad Taher]]
 
 ## Metadata
 
-**Authors:** Marcuzzo, M. et al.
+**Authors:** Marcuzzo, Matteo; Zangari, Alessandro; Albarelli, Andrea; Camacho-Collados, Jose; Pilehvar, Mohammad Taher
 
 **Year:** 2025
 

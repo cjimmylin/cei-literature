@@ -9,10 +9,10 @@ key: EXSR0224
 type: conferencePaper
 short_title: Towards Understanding Sycophancy in Language Models
 year: 2024
-first_author: "[[Mrinank Sharma]]"
-last_author: "[[Mrinank Sharma]]"
-authors: Mrinank Sharma et al.
-authors_incomplete: true
+first_author: "[[Sharma, Mrinank]]"
+last_author: "[[Perez, Ethan]]"
+authors: "[[Sharma, Mrinank]]; [[Tong, Meg]]; [[Korbak, Tomasz]]; [[Duvenaud, David]]; [[Askell, Amanda]]; [[Bowman, Samuel R.]]; [[Cheng, Newton]]; [[Durmus, Esin]]; [[Hatfield-Dodds, Zac]]; [[Johnston, Scott R.]]; [[Kravec, Shauna]]; [[Maxwell, Timothy]]; [[McCandlish, Sam]]; [[Ndousse, Kamal]]; [[Rausch, Oliver]]; [[Schiefer, Nicholas]]; [[Yan, Da]]; [[Zhang, Miranda]]; [[Perez, Ethan]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2310.13548"
 external_pdf: "https://arxiv.org/pdf/2310.13548.pdf"
 local_pdf: "[[PDFs/2024/2024-Sharma-Towards Understanding Sycophancy in Language Models.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/meg-tong/sycophancy-eval"
 
 ## Authors
 
-[[Mrinank Sharma]]
+[[Sharma, Mrinank]], [[Tong, Meg]], [[Korbak, Tomasz]], [[Duvenaud, David]], [[Askell, Amanda]], [[Bowman, Samuel R.]], [[Cheng, Newton]], [[Durmus, Esin]], [[Hatfield-Dodds, Zac]], [[Johnston, Scott R.]], [[Kravec, Shauna]], [[Maxwell, Timothy]], [[McCandlish, Sam]], [[Ndousse, Kamal]], [[Rausch, Oliver]], [[Schiefer, Nicholas]], [[Yan, Da]], [[Zhang, Miranda]], [[Perez, Ethan]]
 
 ## Metadata
 
-**Authors:** Mrinank Sharma et al.
+**Authors:** Sharma, Mrinank; Tong, Meg; Korbak, Tomasz; Duvenaud, David; Askell, Amanda; Bowman, Samuel R.; Cheng, Newton; Durmus, Esin; Hatfield-Dodds, Zac; Johnston, Scott R.; Kravec, Shauna; Maxwell, Timothy; McCandlish, Sam; Ndousse, Kamal; Rausch, Oliver; Schiefer, Nicholas; Yan, Da; Zhang, Miranda; Perez, Ethan
 
 **Year:** 2024
 

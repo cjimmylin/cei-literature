@@ -9,10 +9,10 @@ key: EXSR0101
 type: conferencePaper
 short_title: PKU-SafeRLHF
 year: 2025
-first_author: "[[Jiaming Ji]]"
-last_author: "[[Jiaming Ji]]"
-authors: Jiaming Ji et al.
-authors_incomplete: true
+first_author: "[[Ji, Jiaming]]"
+last_author: "[[Yang, Yaodong]]"
+authors: "[[Ji, Jiaming]]; [[Hong, Donghai]]; [[Zhang, Borong]]; [[Chen, Boyuan]]; [[Dai, Juntao]]; [[Zheng, Boren]]; [[Qiu, Tianyi]]; [[Zhou, Jiayi]]; [[Wang, Kaile]]; [[Li, Boxuan]]; [[Han, Sirui]]; [[Guo, Yike]]; [[Yang, Yaodong]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2406.15513"
 external_pdf: "https://arxiv.org/pdf/2406.15513.pdf"
 local_pdf: "[[PDFs/2025/2025-Ji-PKU-SafeRLHF.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF"
 
 ## Authors
 
-[[Jiaming Ji]]
+[[Ji, Jiaming]], [[Hong, Donghai]], [[Zhang, Borong]], [[Chen, Boyuan]], [[Dai, Juntao]], [[Zheng, Boren]], [[Qiu, Tianyi]], [[Zhou, Jiayi]], [[Wang, Kaile]], [[Li, Boxuan]], [[Han, Sirui]], [[Guo, Yike]], [[Yang, Yaodong]]
 
 ## Metadata
 
-**Authors:** Jiaming Ji et al.
+**Authors:** Ji, Jiaming; Hong, Donghai; Zhang, Borong; Chen, Boyuan; Dai, Juntao; Zheng, Boren; Qiu, Tianyi; Zhou, Jiayi; Wang, Kaile; Li, Boxuan; Han, Sirui; Guo, Yike; Yang, Yaodong
 
 **Year:** 2025
 

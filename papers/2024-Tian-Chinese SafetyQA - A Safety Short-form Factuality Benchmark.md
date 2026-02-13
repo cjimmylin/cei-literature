@@ -9,10 +9,10 @@ key: EXSR0150
 type: conferencePaper
 short_title: Chinese SafetyQA -- A Safety Short-form Factuality Benchmark
 year: 2024
-first_author: "[[Y. Tian]]"
-last_author: "[[Y. Tian]]"
-authors: Tian, Y. et al
-authors_incomplete: true
+first_author: "[[Tan, Yingshui]]"
+last_author: "[[Zhang, Kaifu]]"
+authors: "[[Tan, Yingshui]]; [[Zheng, Boren]]; [[Zheng, Baihui]]; [[Cao, Kerui]]; [[Jing, Huiyun]]; [[Wei, Jincheng]]; [[Liu, Jiaheng]]; [[He, Yancheng]]; [[Su, Wenbo]]; [[Zhu, Xiangyong]]; [[Zheng, Bo]]; [[Zhang, Kaifu]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2412.15265"
 external_pdf: "https://arxiv.org/pdf/2412.15265.pdf"
 local_pdf: "[[PDFs/2024/2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://openstellarteam.github.io/ChineseSimpleQA/"
 
 ## Authors
 
-[[Yuandong Tian|Y. Tian]]
+[[Tan, Yingshui]], [[Zheng, Boren]], [[Zheng, Baihui]], [[Cao, Kerui]], [[Jing, Huiyun]], [[Wei, Jincheng]], [[Liu, Jiaheng]], [[He, Yancheng]], [[Su, Wenbo]], [[Zhu, Xiangyong]], [[Zheng, Bo]], [[Zhang, Kaifu]]
 
 ## Metadata
 
-**Authors:** Tian, Y. et al
+**Authors:** Tan, Yingshui; Zheng, Boren; Zheng, Baihui; Cao, Kerui; Jing, Huiyun; Wei, Jincheng; Liu, Jiaheng; He, Yancheng; Su, Wenbo; Zhu, Xiangyong; Zheng, Bo; Zhang, Kaifu
 
 **Year:** 2024
 

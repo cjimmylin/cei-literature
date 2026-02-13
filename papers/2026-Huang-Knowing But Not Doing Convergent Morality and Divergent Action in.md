@@ -9,10 +9,10 @@ key: EXSR0007
 type: preprint
 short_title: "Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs (ValAct-15k)"
 year: 2026
-first_author: "[[Jen-tse Huang]]"
-last_author: "[[Jen-tse Huang]]"
-authors: Jen-tse Huang et al.
-authors_incomplete: true
+first_author: "[[Huang, Jen-tse]]"
+last_author: "[[Dredze, Mark]]"
+authors: "[[Huang, Jen-tse]]; [[Qin, Jiantong]]; [[Qiu, Xueli]]; [[Levy, Sharon]]; [[Kaufman, Michelle R.]]; [[Dredze, Mark]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2601.07972"
 external_pdf: "https://arxiv.org/pdf/2601.07972.pdf"
 local_pdf: "[[PDFs/2026/2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "NA"
 
 ## Authors
 
-[[Jen-tse Huang]]
+[[Huang, Jen-tse]], [[Qin, Jiantong]], [[Qiu, Xueli]], [[Levy, Sharon]], [[Kaufman, Michelle R.]], [[Dredze, Mark]]
 
 ## Metadata
 
-**Authors:** Jen-tse Huang et al.
+**Authors:** Huang, Jen-tse; Qin, Jiantong; Qiu, Xueli; Levy, Sharon; Kaufman, Michelle R.; Dredze, Mark
 
 **Year:** 2026
 

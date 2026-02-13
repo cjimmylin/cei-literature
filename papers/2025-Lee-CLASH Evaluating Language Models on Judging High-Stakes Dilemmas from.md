@@ -11,10 +11,10 @@ key: EXSR0254
 type: preprint
 short_title: "CLASH: Evaluating Language Models on Judging High-Stakes Dilemmas from Multiple Perspectives"
 year: 2025
-first_author: "[[A. Lee]]"
-last_author: "[[A. Lee]]"
-authors: Lee, A. et al.
-authors_incomplete: true
+first_author: "[[Lee, Ayoung]]"
+last_author: "[[Wang, Lu]]"
+authors: "[[Lee, Ayoung]]; [[Kwon, Ryan Sungmo]]; [[Railton, Peter]]; [[Wang, Lu]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2504.10823"
 external_pdf: "https://arxiv.org/pdf/2504.10823.pdf"
 local_pdf: "[[PDFs/2025/2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from.pdf]]"
@@ -44,11 +44,11 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[A. Lee]]
+[[Lee, Ayoung]], [[Kwon, Ryan Sungmo]], [[Railton, Peter]], [[Wang, Lu]]
 
 ## Metadata
 
-**Authors:** Lee, A. et al.
+**Authors:** Lee, Ayoung; Kwon, Ryan Sungmo; Railton, Peter; Wang, Lu
 
 **Year:** 2025
 

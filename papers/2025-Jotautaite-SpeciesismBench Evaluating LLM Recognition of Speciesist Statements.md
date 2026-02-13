@@ -11,10 +11,10 @@ key: EXSR0289
 type: preprint
 short_title: "SpeciesismBench: Evaluating LLM Recognition of Speciesist Statements"
 year: 2025
-first_author: "[[M. Jotautaite]]"
-last_author: "[[M. Jotautaite]]"
-authors: Jotautaite, M. et al.
-authors_incomplete: true
+first_author: "[[Jotautaitė, Monika]]"
+last_author: "[[Hagendorff, Thilo]]"
+authors: "[[Jotautaitė, Monika]]; [[Caviola, Lucius]]; [[Brewster, David A.]]; [[Hagendorff, Thilo]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2508.11534"
 external_pdf: "https://arxiv.org/pdf/2508.11534.pdf"
 local_pdf: "[[PDFs/2025/2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.pdf]]"
@@ -45,11 +45,11 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[M. Jotautaite]]
+[[Jotautaitė, Monika]], [[Caviola, Lucius]], [[Brewster, David A.]], [[Hagendorff, Thilo]]
 
 ## Metadata
 
-**Authors:** Jotautaite, M. et al.
+**Authors:** Jotautaitė, Monika; Caviola, Lucius; Brewster, David A.; Hagendorff, Thilo
 
 **Year:** 2025
 

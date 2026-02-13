@@ -9,10 +9,10 @@ key: EXSR0256
 type: conferencePaper
 short_title: "MoVa: Towards Generalizable Classification of Human Morals and Values"
 year: 2025
-first_author: "[[Z. Chen]]"
-last_author: "[[Z. Chen]]"
-authors: Chen, Z. et al.
-authors_incomplete: true
+first_author: "[[Chen, Ziyu]]"
+last_author: "[[Xie, Lexing]]"
+authors: "[[Chen, Ziyu]]; [[Sun, Junfei]]; [[Li, Chenxi]]; [[Nguyen, Tuan Dung]]; [[Yao, Jing]]; [[Yi, Xiaoyuan]]; [[Xie, Xing]]; [[Tan, Chenhao]]; [[Xie, Lexing]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2509.24216"
 external_pdf: "https://arxiv.org/pdf/2509.24216.pdf"
 local_pdf: "[[PDFs/2025/2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/ZiyuChen0410/MoVa2025"
 
 ## Authors
 
-[[Z. Chen]]
+[[Chen, Ziyu]], [[Sun, Junfei]], [[Li, Chenxi]], [[Nguyen, Tuan Dung]], [[Yao, Jing]], [[Yi, Xiaoyuan]], [[Xie, Xing]], [[Tan, Chenhao]], [[Xie, Lexing]]
 
 ## Metadata
 
-**Authors:** Chen, Z. et al.
+**Authors:** Chen, Ziyu; Sun, Junfei; Li, Chenxi; Nguyen, Tuan Dung; Yao, Jing; Yi, Xiaoyuan; Xie, Xing; Tan, Chenhao; Xie, Lexing
 
 **Year:** 2025
 

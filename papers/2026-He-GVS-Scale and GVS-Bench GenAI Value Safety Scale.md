@@ -9,10 +9,10 @@ key: EXSR0259
 type: preprint
 short_title: "GVS-Scale and GVS-Bench: GenAI Value Safety Scale"
 year: 2026
-first_author: "[[Z. He]]"
-last_author: "[[Z. He]]"
-authors: He, Z. et al.
-authors_incomplete: true
+first_author: "[[He, Ying]]"
+last_author: "[[Ren, Shangsheng]]"
+authors: "[[He, Ying]]; [[Li, Baiyang]]; [[Cao, Yule]]; [[Xu, Huirun]]; [[Chen, Qiuxian]]; [[Chen, Shu]]; [[Ren, Shangsheng]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2601.09112"
 external_pdf: "https://arxiv.org/pdf/2601.09112.pdf"
 local_pdf: "[[PDFs/2026/2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/acl2026/GVS-Bench"
 
 ## Authors
 
-[[Z. He]]
+[[He, Ying]], [[Li, Baiyang]], [[Cao, Yule]], [[Xu, Huirun]], [[Chen, Qiuxian]], [[Chen, Shu]], [[Ren, Shangsheng]]
 
 ## Metadata
 
-**Authors:** He, Z. et al.
+**Authors:** He, Ying; Li, Baiyang; Cao, Yule; Xu, Huirun; Chen, Qiuxian; Chen, Shu; Ren, Shangsheng
 
 **Year:** 2026
 

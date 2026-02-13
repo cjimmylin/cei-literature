@@ -9,10 +9,10 @@ key: EXSR0277
 type: conferencePaper
 short_title: "VIVA: A Benchmark for Vision-Grounded Decision-Making with Human Values"
 year: 2024
-first_author: "[[Z. Hu]]"
-last_author: "[[Z. Hu]]"
-authors: Hu, Z. et al.
-authors_incomplete: true
+first_author: "[[Hu, Zhe]]"
+last_author: "[[Yin, Yu]]"
+authors: "[[Hu, Zhe]]; [[Ren, Yixiao]]; [[Li, Jing]]; [[Yin, Yu]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2407.03000"
 external_pdf: "https://arxiv.org/pdf/2407.03000.pdf"
 local_pdf: "[[PDFs/2024/2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/Derekkk/VIVA_EMNLP24"
 
 ## Authors
 
-[[Z. Hu]]
+[[Hu, Zhe]], [[Ren, Yixiao]], [[Li, Jing]], [[Yin, Yu]]
 
 ## Metadata
 
-**Authors:** Hu, Z. et al.
+**Authors:** Hu, Zhe; Ren, Yixiao; Li, Jing; Yin, Yu
 
 **Year:** 2024
 

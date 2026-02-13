@@ -9,10 +9,10 @@ key: EXSR0151
 type: preprint
 short_title: ChineseSafe -- A Chinese Benchmark for Evaluating Safety in LLMs
 year: 2024
-first_author: "[[Y. Zhang]]"
-last_author: "[[Y. Gao]]"
-authors: Zhang, Y., Gao, Y., et al
-authors_incomplete: true
+first_author: "[[Zhang, Hengxiang]]"
+last_author: "[[Yang, Lei]]"
+authors: "[[Zhang, Hengxiang]]; [[Gao, Hongfu]]; [[Hu, Qiang]]; [[Chen, Guanhua]]; [[Yang, Lili]]; [[Jing, Bingyi]]; [[Wei, Hongxin]]; [[Wang, Bing]]; [[Bai, Haifeng]]; [[Yang, Lei]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2410.18491"
 external_pdf: "https://arxiv.org/pdf/2410.18491.pdf"
 local_pdf: "[[PDFs/2024/2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://huggingface.co/datasets/SUSTech/ChineseSafe"
 
 ## Authors
 
-[[Y. Zhang]], [[Y. Gao]]
+[[Zhang, Hengxiang]], [[Gao, Hongfu]], [[Hu, Qiang]], [[Chen, Guanhua]], [[Yang, Lili]], [[Jing, Bingyi]], [[Wei, Hongxin]], [[Wang, Bing]], [[Bai, Haifeng]], [[Yang, Lei]]
 
 ## Metadata
 
-**Authors:** Zhang, Y., Gao, Y., et al
+**Authors:** Zhang, Hengxiang; Gao, Hongfu; Hu, Qiang; Chen, Guanhua; Yang, Lili; Jing, Bingyi; Wei, Hongxin; Wang, Bing; Bai, Haifeng; Yang, Lei
 
 **Year:** 2024
 

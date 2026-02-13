@@ -9,10 +9,10 @@ key: EXSR0077
 type: preprint
 short_title: LiveSecBench -- A Dynamic Event-Driven Safety Benchmark for Chinese LLMs
 year: 2025
-first_author: "[[X. Li]]"
-last_author: "[[X. Li]]"
-authors: Li, X. et al
-authors_incomplete: true
+first_author: "[[Li, Yudong]]"
+last_author: "[[Huang, Yongfeng]]"
+authors: "[[Li, Yudong]]; [[Yang, Peiru]]; [[Huang, Feng]]; [[Yang, Zhongliang]]; [[Wang, Kecheng]]; [[Li, Haitian]]; [[Chen, Baocheng]]; [[An, Xingyu]]; [[Liu, Ziyu]]; [[Yang, Youdan]]; [[Chen, Kejiang]]; [[Wan, Sifang]]; [[Wang, Xu]]; [[Sun, Yufei]]; [[Wu, Liyan]]; [[Zhou, Ruiqi]]; [[Wen, Wenya]]; [[Gu, Xingchi]]; [[Zhang, Tianxin]]; [[Gao, Yue]]; [[Huang, Yongfeng]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2511.02366"
 external_pdf: "https://arxiv.org/pdf/2511.02366.pdf"
 local_pdf: "[[PDFs/2025/2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://livesecbench.intokentech.cn/"
 
 ## Authors
 
-[[X. Li]]
+[[Li, Yudong]], [[Yang, Peiru]], [[Huang, Feng]], [[Yang, Zhongliang]], [[Wang, Kecheng]], [[Li, Haitian]], [[Chen, Baocheng]], [[An, Xingyu]], [[Liu, Ziyu]], [[Yang, Youdan]], [[Chen, Kejiang]], [[Wan, Sifang]], [[Wang, Xu]], [[Sun, Yufei]], [[Wu, Liyan]], [[Zhou, Ruiqi]], [[Wen, Wenya]], [[Gu, Xingchi]], [[Zhang, Tianxin]], [[Gao, Yue]], [[Huang, Yongfeng]]
 
 ## Metadata
 
-**Authors:** Li, X. et al
+**Authors:** Li, Yudong; Yang, Peiru; Huang, Feng; Yang, Zhongliang; Wang, Kecheng; Li, Haitian; Chen, Baocheng; An, Xingyu; Liu, Ziyu; Yang, Youdan; Chen, Kejiang; Wan, Sifang; Wang, Xu; Sun, Yufei; Wu, Liyan; Zhou, Ruiqi; Wen, Wenya; Gu, Xingchi; Zhang, Tianxin; Gao, Yue; Huang, Yongfeng
 
 **Year:** 2025
 

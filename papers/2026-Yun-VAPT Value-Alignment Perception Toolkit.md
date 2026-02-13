@@ -9,10 +9,10 @@ key: EXSR0260
 type: preprint
 short_title: "VAPT: Value-Alignment Perception Toolkit"
 year: 2026
-first_author: "[[S. Yun]]"
-last_author: "[[S. Yun]]"
-authors: Yun, S. et al.
-authors_incomplete: true
+first_author: "[[Yun, Bhada]]"
+last_author: "[[Wang, April Yi]]"
+authors: "[[Yun, Bhada]]; [[Su, Renn]]; [[Wang, April Yi]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2601.22440"
 external_pdf: "https://arxiv.org/pdf/2601.22440.pdf"
 local_pdf: "[[PDFs/2026/2026-Yun-VAPT Value-Alignment Perception Toolkit.pdf]]"
@@ -41,11 +41,11 @@ DATA_URL: "https://github.com/KaluJo/chatbot-study"
 
 ## Authors
 
-[[S. Yun]]
+[[Yun, Bhada]], [[Su, Renn]], [[Wang, April Yi]]
 
 ## Metadata
 
-**Authors:** Yun, S. et al.
+**Authors:** Yun, Bhada; Su, Renn; Wang, April Yi
 
 **Year:** 2026
 

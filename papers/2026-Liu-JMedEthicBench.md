@@ -10,10 +10,10 @@ key: EXSR0006
 type: preprint
 short_title: JMedEthicBench
 year: 2026
-first_author: "[[Junyu Liu]]"
-last_author: "[[Junyu Liu]]"
-authors: Junyu Liu et al
-authors_incomplete: true
+first_author: "[[Liu, Junyu]]"
+last_author: "[[Hatakeyama-Sato, Kan]]"
+authors: "[[Liu, Junyu]]; [[Li, Zirui]]; [[Niu, Qian]]; [[Zhang, Zequn]]; [[Xun, Yue]]; [[Hou, Wenlong]]; [[Wang, Shujun]]; [[Iwasawa, Yusuke]]; [[Matsuo, Yutaka]]; [[Hatakeyama-Sato, Kan]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2601.01627"
 external_pdf: "https://arxiv.org/pdf/2601.01627.pdf"
 local_pdf: "[[PDFs/2026/2026-Liu-JMedEthicBench.pdf]]"
@@ -44,11 +44,11 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Junyu Liu]]
+[[Liu, Junyu]], [[Li, Zirui]], [[Niu, Qian]], [[Zhang, Zequn]], [[Xun, Yue]], [[Hou, Wenlong]], [[Wang, Shujun]], [[Iwasawa, Yusuke]], [[Matsuo, Yutaka]], [[Hatakeyama-Sato, Kan]]
 
 ## Metadata
 
-**Authors:** Junyu Liu et al
+**Authors:** Liu, Junyu; Li, Zirui; Niu, Qian; Zhang, Zequn; Xun, Yue; Hou, Wenlong; Wang, Shujun; Iwasawa, Yusuke; Matsuo, Yutaka; Hatakeyama-Sato, Kan
 
 **Year:** 2026
 

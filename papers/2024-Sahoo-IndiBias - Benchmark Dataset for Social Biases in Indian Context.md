@@ -9,10 +9,10 @@ key: EXSR0183
 type: conferencePaper
 short_title: IndiBias -- Benchmark Dataset for Social Biases in Indian Context
 year: 2024
-first_author: "[[N. Sahoo]]"
-last_author: "[[N. Sahoo]]"
-authors: Sahoo, N. et al
-authors_incomplete: true
+first_author: "[[Sahoo, Nihar Ranjan]]"
+last_author: "[[Bhattacharyya, Pushpak]]"
+authors: "[[Sahoo, Nihar Ranjan]]; [[Kulkarni, Pranamya Prashant]]; [[Asad, Narjis]]; [[Ahmad, Arif]]; [[Goyal, Tanu]]; [[Garimella, Aparna]]; [[Bhattacharyya, Pushpak]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2403.20147"
 external_pdf: "https://arxiv.org/pdf/2403.20147.pdf"
 local_pdf: "[[PDFs/2024/2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/sahoonihar/IndiBias"
 
 ## Authors
 
-[[Nihar Sahoo|N. Sahoo]]
+[[Sahoo, Nihar Ranjan]], [[Kulkarni, Pranamya Prashant]], [[Asad, Narjis]], [[Ahmad, Arif]], [[Goyal, Tanu]], [[Garimella, Aparna]], [[Bhattacharyya, Pushpak]]
 
 ## Metadata
 
-**Authors:** Sahoo, N. et al
+**Authors:** Sahoo, Nihar Ranjan; Kulkarni, Pranamya Prashant; Asad, Narjis; Ahmad, Arif; Goyal, Tanu; Garimella, Aparna; Bhattacharyya, Pushpak
 
 **Year:** 2024
 

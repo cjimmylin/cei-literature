@@ -9,10 +9,10 @@ key: EXSR0293
 type: preprint
 short_title: "TF3-RO: Training Compact Romanian Language Models on Synthetic Moral Microfiction"
 year: 2026
-first_author: "[[S. Nadies]]"
-last_author: "[[S. Nadies]]"
-authors: Nadies, S. et al.
-authors_incomplete: true
+first_author: "[[Nadas, Mihai Dan]]"
+last_author: "[[Piscoran, Andrei]]"
+authors: "[[Nadas, Mihai Dan]]; [[Diosan, Laura]]; [[Tomescu, Andreea]]; [[Piscoran, Andrei]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2601.10410"
 external_pdf: "https://arxiv.org/pdf/2601.10410.pdf"
 local_pdf: "[[PDFs/2026/2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral.pdf]]"
@@ -41,11 +41,11 @@ DATA_URL: "NA"
 
 ## Authors
 
-[[S. Nadies]]
+[[Nadas, Mihai Dan]], [[Diosan, Laura]], [[Tomescu, Andreea]], [[Piscoran, Andrei]]
 
 ## Metadata
 
-**Authors:** Nadies, S. et al.
+**Authors:** Nadas, Mihai Dan; Diosan, Laura; Tomescu, Andreea; Piscoran, Andrei
 
 **Year:** 2026
 

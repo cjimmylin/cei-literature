@@ -9,10 +9,10 @@ key: EXSR0113
 type: preprint
 short_title: S-Eval
 year: 2025
-first_author: "[[Xiaohan Yuan]]"
-last_author: "[[Xiaohan Yuan]]"
-authors: Xiaohan Yuan et al.
-authors_incomplete: true
+first_author: "[[Yuan, Xiaohan]]"
+last_author: "[[Wang, Jingyi]]"
+authors: "[[Yuan, Xiaohan]]; [[Li, Jinfeng]]; [[Wang, Dongxia]]; [[Chen, Yuefeng]]; [[Mao, Xiaofeng]]; [[Huang, Longtao]]; [[Chen, Jialuo]]; [[Xue, Hui]]; [[Liu, Xiaoxia]]; [[Wang, Wenhai]]; [[Ren, Kui]]; [[Wang, Jingyi]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2405.14191"
 external_pdf: "https://arxiv.org/pdf/2405.14191.pdf"
 local_pdf: "[[PDFs/2025/2025-Yuan-S-Eval.pdf]]"
@@ -41,11 +41,11 @@ DATA_URL: "https://github.com/IS2Lab/S-Eval"
 
 ## Authors
 
-[[Xiaohan Yuan]]
+[[Yuan, Xiaohan]], [[Li, Jinfeng]], [[Wang, Dongxia]], [[Chen, Yuefeng]], [[Mao, Xiaofeng]], [[Huang, Longtao]], [[Chen, Jialuo]], [[Xue, Hui]], [[Liu, Xiaoxia]], [[Wang, Wenhai]], [[Ren, Kui]], [[Wang, Jingyi]]
 
 ## Metadata
 
-**Authors:** Xiaohan Yuan et al.
+**Authors:** Yuan, Xiaohan; Li, Jinfeng; Wang, Dongxia; Chen, Yuefeng; Mao, Xiaofeng; Huang, Longtao; Chen, Jialuo; Xue, Hui; Liu, Xiaoxia; Wang, Wenhai; Ren, Kui; Wang, Jingyi
 
 **Year:** 2025
 

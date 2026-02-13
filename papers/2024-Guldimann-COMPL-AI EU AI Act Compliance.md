@@ -9,10 +9,10 @@ key: EXSR0149
 type: preprint
 short_title: COMPL-AI (EU AI Act Compliance)
 year: 2024
-first_author: "[[Philipp Guldimann]]"
-last_author: "[[Philipp Guldimann]]"
-authors: Philipp Guldimann et al.
-authors_incomplete: true
+first_author: "[[Guldimann, Philipp]]"
+last_author: "[[Vechev, Martin]]"
+authors: "[[Guldimann, Philipp]]; [[Spiridonov, Alexander]]; [[Staab, Robin]]; [[Jovanović, Nikola]]; [[Vero, Mark]]; [[Vechev, Velko]]; [[Gueorguieva, Anna-Maria]]; [[Balunović, Mislav]]; [[Konstantinov, Nikola]]; [[Bielik, Pavol]]; [[Tsankov, Petar]]; [[Vechev, Martin]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2410.07959"
 external_pdf: "https://arxiv.org/pdf/2410.07959.pdf"
 local_pdf: "[[PDFs/2024/2024-Guldimann-COMPL-AI EU AI Act Compliance.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/compl-ai/compl-ai"
 
 ## Authors
 
-[[Philipp Guldimann]]
+[[Guldimann, Philipp]], [[Spiridonov, Alexander]], [[Staab, Robin]], [[Jovanović, Nikola]], [[Vero, Mark]], [[Vechev, Velko]], [[Gueorguieva, Anna-Maria]], [[Balunović, Mislav]], [[Konstantinov, Nikola]], [[Bielik, Pavol]], [[Tsankov, Petar]], [[Vechev, Martin]]
 
 ## Metadata
 
-**Authors:** Philipp Guldimann et al.
+**Authors:** Guldimann, Philipp; Spiridonov, Alexander; Staab, Robin; Jovanović, Nikola; Vero, Mark; Vechev, Velko; Gueorguieva, Anna-Maria; Balunović, Mislav; Konstantinov, Nikola; Bielik, Pavol; Tsankov, Petar; Vechev, Martin
 
 **Year:** 2024
 

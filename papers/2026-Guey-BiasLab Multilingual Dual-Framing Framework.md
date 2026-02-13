@@ -9,10 +9,10 @@ key: EXSR0004
 type: preprint
 short_title: BiasLab (Multilingual Dual-Framing Framework)
 year: 2026
-first_author: "[[William Guey]]"
-last_author: "[[William Guey]]"
-authors: William Guey et al.
-authors_incomplete: true
+first_author: "[[Guey, William]]"
+last_author: "[[Gomes, Jose O.]]"
+authors: "[[Guey, William]]; [[Zhang, Wei]]; [[Rau, Pei-Luen Patrick]]; [[Bougault, Pierrick]]; [[Moura, Vitor D. de]]; [[Ucar, Bertan]]; [[Gomes, Jose O.]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2601.06861"
 external_pdf: "https://arxiv.org/pdf/2601.06861.pdf"
 local_pdf: "[[PDFs/2026/2026-Guey-BiasLab Multilingual Dual-Framing Framework.pdf]]"
@@ -41,11 +41,11 @@ DATA_URL: "https://github.com/williamguey/LLMbiaslab"
 
 ## Authors
 
-[[William Guey]]
+[[Guey, William]], [[Zhang, Wei]], [[Rau, Pei-Luen Patrick]], [[Bougault, Pierrick]], [[Moura, Vitor D. de]], [[Ucar, Bertan]], [[Gomes, Jose O.]]
 
 ## Metadata
 
-**Authors:** William Guey et al.
+**Authors:** Guey, William; Zhang, Wei; Rau, Pei-Luen Patrick; Bougault, Pierrick; Moura, Vitor D. de; Ucar, Bertan; Gomes, Jose O.
 
 **Year:** 2026
 

@@ -9,10 +9,10 @@ key: EXSR0230
 type: conferencePaper
 short_title: WalledEval
 year: 2024
-first_author: "[[Prannaya Gupta]]"
-last_author: "[[Prannaya Gupta]]"
-authors: Prannaya Gupta et al.
-authors_incomplete: true
+first_author: "[[Gupta, Prannaya]]"
+last_author: "[[Poria, Soujanya]]"
+authors: "[[Gupta, Prannaya]]; [[Yau, Le Qi]]; [[Low, Hao Han]]; [[Lee, I-Shiang]]; [[Lim, Hugo Maximus]]; [[Teoh, Yu Xin]]; [[Koh, Jia Hng]]; [[Liew, Dar Win]]; [[Bhardwaj, Rishabh]]; [[Bhardwaj, Rajat]]; [[Poria, Soujanya]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2408.03837"
 external_pdf: "https://arxiv.org/pdf/2408.03837.pdf"
 local_pdf: "[[PDFs/2024/2024-Gupta-WalledEval.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/walledai/walledeval"
 
 ## Authors
 
-[[Prannaya Gupta]]
+[[Gupta, Prannaya]], [[Yau, Le Qi]], [[Low, Hao Han]], [[Lee, I-Shiang]], [[Lim, Hugo Maximus]], [[Teoh, Yu Xin]], [[Koh, Jia Hng]], [[Liew, Dar Win]], [[Bhardwaj, Rishabh]], [[Bhardwaj, Rajat]], [[Poria, Soujanya]]
 
 ## Metadata
 
-**Authors:** Prannaya Gupta et al.
+**Authors:** Gupta, Prannaya; Yau, Le Qi; Low, Hao Han; Lee, I-Shiang; Lim, Hugo Maximus; Teoh, Yu Xin; Koh, Jia Hng; Liew, Dar Win; Bhardwaj, Rishabh; Bhardwaj, Rajat; Poria, Soujanya
 
 **Year:** 2024
 

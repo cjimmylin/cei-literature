@@ -9,10 +9,10 @@ key: EXSR0071
 type: conferencePaper
 short_title: "LLMEval-Med (Medical Safety & Ethics Component)"
 year: 2025
-first_author: "[[Ming Zhang]]"
-last_author: "[[Ming Zhang]]"
-authors: Ming Zhang et al.
-authors_incomplete: true
+first_author: "[[Zhang, Ming]]"
+last_author: "[[Huang, Xuanjing]]"
+authors: "[[Zhang, Ming]]; [[Shen, Yujiong]]; [[Li, Zelin]]; [[Sha, Huayu]]; [[Hu, Binze]]; [[Wang, Yuhui]]; [[Huang, Chenhao]]; [[Liu, Shichun]]; [[Tong, Jingqi]]; [[Jiang, Changhao]]; [[Chai, Mingxu]]; [[Xi, Zhiheng]]; [[Dou, Shihan]]; [[Gui, Tao]]; [[Zhang, Qi]]; [[Huang, Xuanjing]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2506.04078"
 external_pdf: "https://arxiv.org/pdf/2506.04078.pdf"
 local_pdf: "[[PDFs/2025/2025-Zhang-LLMEval-Med Medical Safety & Ethics Component.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/llmeval/LLMEval-Med"
 
 ## Authors
 
-[[Mike Zhang|Ming Zhang]]
+[[Zhang, Ming]], [[Shen, Yujiong]], [[Li, Zelin]], [[Sha, Huayu]], [[Hu, Binze]], [[Wang, Yuhui]], [[Huang, Chenhao]], [[Liu, Shichun]], [[Tong, Jingqi]], [[Jiang, Changhao]], [[Chai, Mingxu]], [[Xi, Zhiheng]], [[Dou, Shihan]], [[Gui, Tao]], [[Zhang, Qi]], [[Huang, Xuanjing]]
 
 ## Metadata
 
-**Authors:** Ming Zhang et al.
+**Authors:** Zhang, Ming; Shen, Yujiong; Li, Zelin; Sha, Huayu; Hu, Binze; Wang, Yuhui; Huang, Chenhao; Liu, Shichun; Tong, Jingqi; Jiang, Changhao; Chai, Mingxu; Xi, Zhiheng; Dou, Shihan; Gui, Tao; Zhang, Qi; Huang, Xuanjing
 
 **Year:** 2025
 

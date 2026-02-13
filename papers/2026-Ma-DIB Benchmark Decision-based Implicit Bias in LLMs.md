@@ -9,10 +9,10 @@ key: EXSR0276
 type: preprint
 short_title: "DIB Benchmark: Decision-based Implicit Bias in LLMs"
 year: 2026
-first_author: "[[Y. Ma]]"
-last_author: "[[Y. Ma]]"
-authors: Ma, Y. et al.
-authors_incomplete: true
+first_author: "[[Ma, Yiming]]"
+last_author: "[[Dong, Wei]]"
+authors: "[[Ma, Yiming]]; [[Wang, Lixu]]; [[Wang, Lionel Z.]]; [[Yang, Hongkun]]; [[Sun, Haoming]]; [[Xu, Xin]]; [[Wu, Jiaqi]]; [[Chen, Bin]]; [[Dong, Wei]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2602.01558"
 external_pdf: "https://arxiv.org/pdf/2602.01558.pdf"
 local_pdf: "[[PDFs/2026/2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "NA"
 
 ## Authors
 
-[[Y. Ma]]
+[[Ma, Yiming]], [[Wang, Lixu]], [[Wang, Lionel Z.]], [[Yang, Hongkun]], [[Sun, Haoming]], [[Xu, Xin]], [[Wu, Jiaqi]], [[Chen, Bin]], [[Dong, Wei]]
 
 ## Metadata
 
-**Authors:** Ma, Y. et al.
+**Authors:** Ma, Yiming; Wang, Lixu; Wang, Lionel Z.; Yang, Hongkun; Sun, Haoming; Xu, Xin; Wu, Jiaqi; Chen, Bin; Dong, Wei
 
 **Year:** 2026
 

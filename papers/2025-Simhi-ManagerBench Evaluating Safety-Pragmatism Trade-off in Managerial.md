@@ -9,10 +9,10 @@ key: EXSR0290
 type: preprint
 short_title: "ManagerBench: Evaluating Safety-Pragmatism Trade-off in Managerial Contexts"
 year: 2025
-first_author: "[[A. Simhi]]"
-last_author: "[[A. Simhi]]"
-authors: Simhi, A. et al.
-authors_incomplete: true
+first_author: "[[Simhi, Adi]]"
+last_author: "[[Belinkov, Yonatan]]"
+authors: "[[Simhi, Adi]]; [[Herzig, Jonathan]]; [[Tutek, Martin]]; [[Itzhak, Itay]]; [[Szpektor, Idan]]; [[Belinkov, Yonatan]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2510.00857"
 external_pdf: "https://arxiv.org/pdf/2510.00857.pdf"
 local_pdf: "[[PDFs/2025/2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/technion-cs-nlp/ManagerBench"
 
 ## Authors
 
-[[A. Simhi]]
+[[Simhi, Adi]], [[Herzig, Jonathan]], [[Tutek, Martin]], [[Itzhak, Itay]], [[Szpektor, Idan]], [[Belinkov, Yonatan]]
 
 ## Metadata
 
-**Authors:** Simhi, A. et al.
+**Authors:** Simhi, Adi; Herzig, Jonathan; Tutek, Martin; Itzhak, Itay; Szpektor, Idan; Belinkov, Yonatan
 
 **Year:** 2025
 

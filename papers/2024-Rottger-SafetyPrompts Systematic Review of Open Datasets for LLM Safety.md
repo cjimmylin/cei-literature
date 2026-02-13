@@ -9,10 +9,10 @@ key: EXSR0284
 type: conferencePaper
 short_title: "SafetyPrompts: Systematic Review of Open Datasets for LLM Safety"
 year: 2024
-first_author: "[[P. Rottger]]"
-last_author: "[[P. Rottger]]"
-authors: Rottger, P. et al.
-authors_incomplete: true
+first_author: "[[Röttger, Paul]]"
+last_author: "[[Hovy, Dirk]]"
+authors: "[[Röttger, Paul]]; [[Pernisi, Fabio]]; [[Vidgen, Bertie]]; [[Hovy, Dirk]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2404.05399"
 external_pdf: "https://arxiv.org/pdf/2404.05399.pdf"
 local_pdf: "[[PDFs/2024/2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/paul-rottger/safetyprompts-paper"
 
 ## Authors
 
-[[P. Rottger]]
+[[Röttger, Paul]], [[Pernisi, Fabio]], [[Vidgen, Bertie]], [[Hovy, Dirk]]
 
 ## Metadata
 
-**Authors:** Rottger, P. et al.
+**Authors:** Röttger, Paul; Pernisi, Fabio; Vidgen, Bertie; Hovy, Dirk
 
 **Year:** 2024
 

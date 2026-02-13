@@ -9,10 +9,10 @@ key: EXSR0261
 type: preprint
 short_title: The Moralization Corpus
 year: 2025
-first_author: "[[S. Becker]]"
-last_author: "[[S. Becker]]"
-authors: Becker, S. et al.
-authors_incomplete: true
+first_author: "[[Becker, Maria]]"
+last_author: "[[Brocai, Bruno]]"
+authors: "[[Becker, Maria]]; [[Sommer, Mirko]]; [[Tapken, Lars]]; [[Teh, Yi Wan]]; [[Brocai, Bruno]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2512.15248"
 external_pdf: "https://arxiv.org/pdf/2512.15248.pdf"
 local_pdf: "[[PDFs/2025/2025-Becker-The Moralization Corpus.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://anonymous.4open.science/r/Moralisierungsdetektion"
 
 ## Authors
 
-[[S. Becker]]
+[[Becker, Maria]], [[Sommer, Mirko]], [[Tapken, Lars]], [[Teh, Yi Wan]], [[Brocai, Bruno]]
 
 ## Metadata
 
-**Authors:** Becker, S. et al.
+**Authors:** Becker, Maria; Sommer, Mirko; Tapken, Lars; Teh, Yi Wan; Brocai, Bruno
 
 **Year:** 2025
 

@@ -9,10 +9,10 @@ key: EXSR0100
 type: conferencePaper
 short_title: PERSONA (Pluralistic Alignment Testbed)
 year: 2025
-first_author: "[[Louis Castricato]]"
-last_author: "[[Louis Castricato]]"
-authors: Louis Castricato et al.
-authors_incomplete: true
+first_author: "[[Castricato, Louis]]"
+last_author: "[[Finn, Chelsea]]"
+authors: "[[Castricato, Louis]]; [[Lile, Nathan]]; [[Rafailov, Rafael]]; [[Fränken, Jan-Philipp]]; [[Finn, Chelsea]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2407.17387"
 external_pdf: "https://arxiv.org/pdf/2407.17387.pdf"
 local_pdf: "[[PDFs/2025/2025-Castricato-PERSONA Pluralistic Alignment Testbed.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://www.synthlabs.ai/research/persona"
 
 ## Authors
 
-[[Louis Castricato]]
+[[Castricato, Louis]], [[Lile, Nathan]], [[Rafailov, Rafael]], [[Fränken, Jan-Philipp]], [[Finn, Chelsea]]
 
 ## Metadata
 
-**Authors:** Louis Castricato et al.
+**Authors:** Castricato, Louis; Lile, Nathan; Rafailov, Rafael; Fränken, Jan-Philipp; Finn, Chelsea
 
 **Year:** 2025
 

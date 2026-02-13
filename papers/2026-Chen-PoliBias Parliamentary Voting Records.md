@@ -9,10 +9,10 @@ key: EXSR0011
 type: preprint
 short_title: PoliBias (Parliamentary Voting Records)
 year: 2026
-first_author: "[[Jieying Chen]]"
-last_author: "[[Jieying Chen]]"
-authors: Jieying Chen et al.
-authors_incomplete: true
+first_author: "[[Chen, Jieying]]"
+last_author: "[[Wang, Chendi]]"
+authors: "[[Chen, Jieying]]; [[Jong, Karen de]]; [[Poole, Andreas]]; [[Burakowski, Jan]]; [[Nosti, Elena Elderson]]; [[Windt, Joep]]; [[Wang, Chendi]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2601.08785"
 external_pdf: "https://arxiv.org/pdf/2601.08785.pdf"
 local_pdf: "[[PDFs/2026/2026-Chen-PoliBias Parliamentary Voting Records.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "NA"
 
 ## Authors
 
-[[Jieying Chen]]
+[[Chen, Jieying]], [[Jong, Karen de]], [[Poole, Andreas]], [[Burakowski, Jan]], [[Nosti, Elena Elderson]], [[Windt, Joep]], [[Wang, Chendi]]
 
 ## Metadata
 
-**Authors:** Jieying Chen et al.
+**Authors:** Chen, Jieying; Jong, Karen de; Poole, Andreas; Burakowski, Jan; Nosti, Elena Elderson; Windt, Joep; Wang, Chendi
 
 **Year:** 2026
 

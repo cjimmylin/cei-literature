@@ -9,12 +9,12 @@ key: EXSR0175
 type: conferencePaper
 short_title: Flames
 year: 2024
-first_author: "[[Kexin Huang]]"
-last_author: "[[Kexin Huang]]"
-authors: Kexin Huang et al.
-authors_incomplete: true
+first_author: "[[Huang, Kexin]]"
+last_author: "[[Lin, Dahua]]"
+authors: "[[Huang, Kexin]]; [[Liu, Xiangyang]]; [[Guo, Qianyu]]; [[Sun, Tianxiang]]; [[Sun, Jiawei]]; [[Wang, Yaru]]; [[Zhou, Zeyang]]; [[Wang, Yixu]]; [[Teng, Yan]]; [[Qiu, Xipeng]]; [[Wang, Yingchun]]; [[Lin, Dahua]]"
+authors_incomplete: false
 publication: ACL 2024
-external_pdf: "https://arxiv.org/pdf/2008.09107v3.pdf"
+external_pdf: "https://arxiv.org/pdf/2311.06899.pdf"
 local_pdf: "[[PDFs/2024/2024-Huang-Flames.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Huang-Flames.md"
 DATE_ADDED: 20260207

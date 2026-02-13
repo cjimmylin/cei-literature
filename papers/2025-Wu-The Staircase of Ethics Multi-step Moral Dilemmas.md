@@ -9,10 +9,10 @@ key: EXSR0131
 type: conferencePaper
 short_title: The Staircase of Ethics (Multi-step Moral Dilemmas)
 year: 2025
-first_author: "[[Ya Wu]]"
-last_author: "[[Ya Wu]]"
-authors: Ya Wu et al.
-authors_incomplete: true
+first_author: "[[Wu, Ya]]"
+last_author: "[[Cao, Juan]]"
+authors: "[[Wu, Ya]]; [[Sheng, Qiang]]; [[Wang, Danding]]; [[Yang, Guang]]; [[Sun, Yifan]]; [[Wang, Zhengjia]]; [[Bu, Yuyan]]; [[Cao, Juan]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2505.18154"
 external_pdf: "https://arxiv.org/pdf/2505.18154.pdf"
 local_pdf: "[[PDFs/2025/2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://isir-wuya.github.io/Multi-step-Moral-Dilemmas/"
 
 ## Authors
 
-[[Ya Wu]]
+[[Wu, Ya]], [[Sheng, Qiang]], [[Wang, Danding]], [[Yang, Guang]], [[Sun, Yifan]], [[Wang, Zhengjia]], [[Bu, Yuyan]], [[Cao, Juan]]
 
 ## Metadata
 
-**Authors:** Ya Wu et al.
+**Authors:** Wu, Ya; Sheng, Qiang; Wang, Danding; Yang, Guang; Sun, Yifan; Wang, Zhengjia; Bu, Yuyan; Cao, Juan
 
 **Year:** 2025
 

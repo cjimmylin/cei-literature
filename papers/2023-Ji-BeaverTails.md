@@ -9,10 +9,10 @@ key: EXSR0234
 type: conferencePaper
 short_title: BeaverTails
 year: 2023
-first_author: "[[Ji]]"
-last_author: "[[Ji]]"
-authors: Ji et al.
-authors_incomplete: true
+first_author: "[[Ji, Jiaming]]"
+last_author: "[[Yang, Yaodong]]"
+authors: "[[Ji, Jiaming]]; [[Liu, Mickel]]; [[Dai, Juntao]]; [[Pan, Xuehai]]; [[Zhang, Chi]]; [[Bian, Ce]]; [[Zhang, Chi]]; [[Sun, Ruiyang]]; [[Wang, Yizhou]]; [[Yang, Yaodong]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2307.04657"
 external_pdf: "https://arxiv.org/pdf/2307.04657.pdf"
 local_pdf: "[[PDFs/2023/2023-Ji-BeaverTails.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://sites.google.com/view/pku-beavertails"
 
 ## Authors
 
-[[Ji]]
+[[Ji, Jiaming]], [[Liu, Mickel]], [[Dai, Juntao]], [[Pan, Xuehai]], [[Zhang, Chi]], [[Bian, Ce]], [[Zhang, Chi]], [[Sun, Ruiyang]], [[Wang, Yizhou]], [[Yang, Yaodong]]
 
 ## Metadata
 
-**Authors:** Ji et al.
+**Authors:** Ji, Jiaming; Liu, Mickel; Dai, Juntao; Pan, Xuehai; Zhang, Chi; Bian, Ce; Zhang, Chi; Sun, Ruiyang; Wang, Yizhou; Yang, Yaodong
 
 **Year:** 2023
 

@@ -9,10 +9,10 @@ key: EXSR0025
 type: conferencePaper
 short_title: AraTrust -- An Evaluation of Trustworthiness for LLMs in Arabic
 year: 2025
-first_author: "[[R. Alghamdi]]"
-last_author: "[[Z. Alyafeai]]"
-authors: Alghamdi, R., Alyafeai, Z., et al
-authors_incomplete: true
+first_author: "[[Alghamdi, Emad A.]]"
+last_author: "[[Zaytoon, Mohamed]]"
+authors: "[[Alghamdi, Emad A.]]; [[Masoud, Reem I.]]; [[Alnuhait, Deema]]; [[Alomairi, Afnan Y.]]; [[Ashraf, Ahmed]]; [[Zaytoon, Mohamed]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2403.09017"
 external_pdf: "https://arxiv.org/pdf/2403.09017.pdf"
 local_pdf: "[[PDFs/2025/2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "NA"
 
 ## Authors
 
-[[R. Alghamdi]], [[Z. Alyafeai]]
+[[Alghamdi, Emad A.]], [[Masoud, Reem I.]], [[Alnuhait, Deema]], [[Alomairi, Afnan Y.]], [[Ashraf, Ahmed]], [[Zaytoon, Mohamed]]
 
 ## Metadata
 
-**Authors:** Alghamdi, R., Alyafeai, Z., et al
+**Authors:** Alghamdi, Emad A.; Masoud, Reem I.; Alnuhait, Deema; Alomairi, Afnan Y.; Ashraf, Ahmed; Zaytoon, Mohamed
 
 **Year:** 2025
 

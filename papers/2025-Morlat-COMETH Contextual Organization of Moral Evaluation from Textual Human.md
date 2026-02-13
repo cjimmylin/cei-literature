@@ -10,10 +10,10 @@ key: EXSR0252
 type: preprint
 short_title: "COMETH: Contextual Organization of Moral Evaluation from Textual Human Inputs"
 year: 2025
-first_author: "[[G. Morlat]]"
-last_author: "[[G. Morlat]]"
-authors: Morlat, G. et al.
-authors_incomplete: true
+first_author: "[[Morlat, Geoffroy]]"
+last_author: "[[Khamassi, Mehdi]]"
+authors: "[[Morlat, Geoffroy]]; [[Nahon, Marceau]]; [[Chartouny, Augustin]]; [[Chatila, Raja]]; [[Freire, Ismael T.]]; [[Khamassi, Mehdi]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2512.21439"
 external_pdf: "https://arxiv.org/pdf/2512.21439.pdf"
 local_pdf: "[[PDFs/2025/2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human.pdf]]"
@@ -44,11 +44,11 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[G. Morlat]]
+[[Morlat, Geoffroy]], [[Nahon, Marceau]], [[Chartouny, Augustin]], [[Chatila, Raja]], [[Freire, Ismael T.]], [[Khamassi, Mehdi]]
 
 ## Metadata
 
-**Authors:** Morlat, G. et al.
+**Authors:** Morlat, Geoffroy; Nahon, Marceau; Chartouny, Augustin; Chatila, Raja; Freire, Ismael T.; Khamassi, Mehdi
 
 **Year:** 2025
 

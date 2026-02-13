@@ -9,10 +9,10 @@ key: EXSR0215
 type: preprint
 short_title: SafeAgentBench
 year: 2024
-first_author: "[[Sheng Yin]]"
-last_author: "[[Sheng Yin]]"
-authors: Sheng Yin et al.
-authors_incomplete: true
+first_author: "[[Yin, Sheng]]"
+last_author: "[[Chen, Siheng]]"
+authors: "[[Yin, Sheng]]; [[Pang, Xianghe]]; [[Ding, Yuanzhuo]]; [[Chen, Menglan]]; [[Bi, Yutong]]; [[Xiong, Yichen]]; [[Huang, Wenhao]]; [[Xiang, Zhen]]; [[Shao, Jing]]; [[Chen, Siheng]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2412.13178"
 external_pdf: "https://arxiv.org/pdf/2412.13178.pdf"
 local_pdf: "[[PDFs/2024/2024-Yin-SafeAgentBench.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/shengyin1224/SafeAgentBench"
 
 ## Authors
 
-[[Sheng Yin]]
+[[Yin, Sheng]], [[Pang, Xianghe]], [[Ding, Yuanzhuo]], [[Chen, Menglan]], [[Bi, Yutong]], [[Xiong, Yichen]], [[Huang, Wenhao]], [[Xiang, Zhen]], [[Shao, Jing]], [[Chen, Siheng]]
 
 ## Metadata
 
-**Authors:** Sheng Yin et al.
+**Authors:** Yin, Sheng; Pang, Xianghe; Ding, Yuanzhuo; Chen, Menglan; Bi, Yutong; Xiong, Yichen; Huang, Wenhao; Xiang, Zhen; Shao, Jing; Chen, Siheng
 
 **Year:** 2024
 

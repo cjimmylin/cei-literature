@@ -9,10 +9,10 @@ key: EXSR0266
 type: preprint
 short_title: "VideoNorms: Benchmarking Cultural Awareness of Video Language Models"
 year: 2025
-first_author: "[[N.R. Varimaldi]]"
-last_author: "[[N.R. Varimaldi]]"
-authors: Varimaldi, N.R. et al.
-authors_incomplete: true
+first_author: "[[Varimalla, Nikhil Reddy]]"
+last_author: "[[Muresan, Smaranda]]"
+authors: "[[Varimalla, Nikhil Reddy]]; [[Xu, Yunfei]]; [[Saakyan, Arkadiy]]; [[Wang, Meng Fan]]; [[Muresan, Smaranda]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2510.08543"
 external_pdf: "https://arxiv.org/pdf/2510.08543.pdf"
 local_pdf: "[[PDFs/2025/2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/nikhilreddy3/VideoNorms"
 
 ## Authors
 
-[[N.R. Varimaldi]]
+[[Varimalla, Nikhil Reddy]], [[Xu, Yunfei]], [[Saakyan, Arkadiy]], [[Wang, Meng Fan]], [[Muresan, Smaranda]]
 
 ## Metadata
 
-**Authors:** Varimaldi, N.R. et al.
+**Authors:** Varimalla, Nikhil Reddy; Xu, Yunfei; Saakyan, Arkadiy; Wang, Meng Fan; Muresan, Smaranda
 
 **Year:** 2025
 

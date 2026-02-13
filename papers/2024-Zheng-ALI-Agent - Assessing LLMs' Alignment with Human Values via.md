@@ -10,10 +10,10 @@ key: EXSR0143
 type: conferencePaper
 short_title: "ALI-Agent -- Assessing LLMs' Alignment with Human Values via Agent-based Evaluation"
 year: 2024
-first_author: "[[S. Zheng]]"
-last_author: "[[Z. Wang]]"
-authors: Zheng, S., Wang, Z., et al
-authors_incomplete: true
+first_author: "[[Zheng, Jingnan]]"
+last_author: "[[Chua, Tat-Seng]]"
+authors: "[[Zheng, Jingnan]]; [[Wang, Han]]; [[Zhang, An]]; [[Nguyen, Tai D.]]; [[Sun, Jun]]; [[Chua, Tat-Seng]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2405.14125"
 external_pdf: "https://arxiv.org/pdf/2405.14125.pdf"
 local_pdf: "[[PDFs/2024/2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via.pdf]]"
@@ -44,11 +44,11 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[S. Zheng]], [[Z. Wang]]
+[[Zheng, Jingnan]], [[Wang, Han]], [[Zhang, An]], [[Nguyen, Tai D.]], [[Sun, Jun]], [[Chua, Tat-Seng]]
 
 ## Metadata
 
-**Authors:** Zheng, S., Wang, Z., et al
+**Authors:** Zheng, Jingnan; Wang, Han; Zhang, An; Nguyen, Tai D.; Sun, Jun; Chua, Tat-Seng
 
 **Year:** 2024
 

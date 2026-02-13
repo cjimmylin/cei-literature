@@ -9,10 +9,10 @@ key: EXSR0255
 type: preprint
 short_title: "BRAND: Bilingual Religious Accountable Norm Dataset"
 year: 2025
-first_author: "[[K.A. Hossain]]"
-last_author: "[[K.A. Hossain]]"
-authors: Hossain, K.A. et al.
-authors_incomplete: true
+first_author: "[[Hossain, Kazi Abrab]]"
+last_author: "[[Sadeque, Farig Y.]]"
+authors: "[[Hossain, Kazi Abrab]]; [[Mahmud, Jannatul Somiya]]; [[Tuli, Maria Hossain]]; [[Mitra, Anik]]; [[Haque, S. M. Taiabul]]; [[Sadeque, Farig Y.]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2512.03943"
 external_pdf: "https://arxiv.org/pdf/2512.03943.pdf"
 local_pdf: "[[PDFs/2025/2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://anonymous.4open.science/r/BRAND/README.md"
 
 ## Authors
 
-[[K.A. Hossain]]
+[[Hossain, Kazi Abrab]], [[Mahmud, Jannatul Somiya]], [[Tuli, Maria Hossain]], [[Mitra, Anik]], [[Haque, S. M. Taiabul]], [[Sadeque, Farig Y.]]
 
 ## Metadata
 
-**Authors:** Hossain, K.A. et al.
+**Authors:** Hossain, Kazi Abrab; Mahmud, Jannatul Somiya; Tuli, Maria Hossain; Mitra, Anik; Haque, S. M. Taiabul; Sadeque, Farig Y.
 
 **Year:** 2025
 

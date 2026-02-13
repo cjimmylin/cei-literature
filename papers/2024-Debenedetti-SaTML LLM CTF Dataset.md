@@ -9,10 +9,10 @@ key: EXSR0214
 type: conferencePaper
 short_title: SaTML LLM CTF Dataset
 year: 2024
-first_author: "[[Debenedetti]]"
-last_author: "[[Debenedetti]]"
-authors: Debenedetti et al.
-authors_incomplete: true
+first_author: "[[Debenedetti, Edoardo]]"
+last_author: "[[Schönherr, Lea]]"
+authors: "[[Debenedetti, Edoardo]]; [[Rando, Javier]]; [[Paleka, Daniel]]; [[Florin, Silaghi Fineas]]; [[Albastroiu, Dragos]]; [[Cohen, Niv]]; [[Lemberg, Yuval]]; [[Ghosh, Reshmi]]; [[Wen, Rui]]; [[Salem, Ahmed]]; [[Cherubin, Giovanni]]; [[Zanella-Beguelin, Santiago]]; [[Schmid, Robin]]; [[Klemm, Victor]]; [[Miki, Takahiro]]; [[Li, Chenhao]]; [[Kraft, Stefan]]; [[Fritz, Mario]]; [[Tramèr, Florian]]; [[Abdelnabi, Sahar]]; [[Schönherr, Lea]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2406.07954"
 external_pdf: "https://arxiv.org/pdf/2406.07954.pdf"
 local_pdf: "[[PDFs/2024/2024-Debenedetti-SaTML LLM CTF Dataset.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://huggingface.co/datasets/ethz-spylab/ctf-satml24, https://gith
 
 ## Authors
 
-[[Debenedetti]]
+[[Debenedetti, Edoardo]], [[Rando, Javier]], [[Paleka, Daniel]], [[Florin, Silaghi Fineas]], [[Albastroiu, Dragos]], [[Cohen, Niv]], [[Lemberg, Yuval]], [[Ghosh, Reshmi]], [[Wen, Rui]], [[Salem, Ahmed]], [[Cherubin, Giovanni]], [[Zanella-Beguelin, Santiago]], [[Schmid, Robin]], [[Klemm, Victor]], [[Miki, Takahiro]], [[Li, Chenhao]], [[Kraft, Stefan]], [[Fritz, Mario]], [[Tramèr, Florian]], [[Abdelnabi, Sahar]], [[Schönherr, Lea]]
 
 ## Metadata
 
-**Authors:** Debenedetti et al.
+**Authors:** Debenedetti, Edoardo; Rando, Javier; Paleka, Daniel; Florin, Silaghi Fineas; Albastroiu, Dragos; Cohen, Niv; Lemberg, Yuval; Ghosh, Reshmi; Wen, Rui; Salem, Ahmed; Cherubin, Giovanni; Zanella-Beguelin, Santiago; Schmid, Robin; Klemm, Victor; Miki, Takahiro; Li, Chenhao; Kraft, Stefan; Fritz, Mario; Tramèr, Florian; Abdelnabi, Sahar; Schönherr, Lea
 
 **Year:** 2024
 

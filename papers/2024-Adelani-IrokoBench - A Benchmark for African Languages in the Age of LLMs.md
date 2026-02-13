@@ -9,10 +9,10 @@ key: EXSR0187
 type: conferencePaper
 short_title: IrokoBench -- A Benchmark for African Languages in the Age of LLMs
 year: 2024
-first_author: "[[D. Adelani]]"
-last_author: "[[D. Adelani]]"
-authors: Adelani, D. et al
-authors_incomplete: true
+first_author: "[[Adelani, David Ifeoluwa]]"
+last_author: "[[Stenetorp, Pontus]]"
+authors: "[[Adelani, David Ifeoluwa]]; [[Ojo, Jessica]]; [[Azime, Israel Abebe]]; [[Zhuang, Jian Yun]]; [[Alabi, Jesujoba O.]]; [[He, Xuanli]]; [[Ochieng, Millicent]]; [[Hooker, Sara]]; [[Bukula, Andiswa]]; [[Lee, En-Shiun Annie]]; [[Chukwuneke, Chiamaka]]; [[Buzaaba, Happy]]; [[Sibanda, Blessing]]; [[Kalipe, Godson]]; [[Mukiibi, Jonathan]]; [[Kabongo, Salomon]]; [[Yuehgoh, Foutse]]; [[Setaka, Mmasibidi]]; [[Ndolela, Lolwethu]]; [[Odu, Nkiruka]]; [[Mabuya, Rooweither]]; [[Muhammad, Shamsuddeen Hassan]]; [[Osei, Salomey]]; [[Samb, Sokhar]]; [[Guge, Tadesse Kebede]]; [[Sherman, Tombekai Vangoni]]; [[Stenetorp, Pontus]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2406.03368"
 external_pdf: "https://arxiv.org/pdf/2406.03368.pdf"
 local_pdf: "[[PDFs/2024/2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "NA"
 
 ## Authors
 
-[[D. Adelani]]
+[[Adelani, David Ifeoluwa]], [[Ojo, Jessica]], [[Azime, Israel Abebe]], [[Zhuang, Jian Yun]], [[Alabi, Jesujoba O.]], [[He, Xuanli]], [[Ochieng, Millicent]], [[Hooker, Sara]], [[Bukula, Andiswa]], [[Lee, En-Shiun Annie]], [[Chukwuneke, Chiamaka]], [[Buzaaba, Happy]], [[Sibanda, Blessing]], [[Kalipe, Godson]], [[Mukiibi, Jonathan]], [[Kabongo, Salomon]], [[Yuehgoh, Foutse]], [[Setaka, Mmasibidi]], [[Ndolela, Lolwethu]], [[Odu, Nkiruka]], [[Mabuya, Rooweither]], [[Muhammad, Shamsuddeen Hassan]], [[Osei, Salomey]], [[Samb, Sokhar]], [[Guge, Tadesse Kebede]], [[Sherman, Tombekai Vangoni]], [[Stenetorp, Pontus]]
 
 ## Metadata
 
-**Authors:** Adelani, D. et al
+**Authors:** Adelani, David Ifeoluwa; Ojo, Jessica; Azime, Israel Abebe; Zhuang, Jian Yun; Alabi, Jesujoba O.; He, Xuanli; Ochieng, Millicent; Hooker, Sara; Bukula, Andiswa; Lee, En-Shiun Annie; Chukwuneke, Chiamaka; Buzaaba, Happy; Sibanda, Blessing; Kalipe, Godson; Mukiibi, Jonathan; Kabongo, Salomon; Yuehgoh, Foutse; Setaka, Mmasibidi; Ndolela, Lolwethu; Odu, Nkiruka; Mabuya, Rooweither; Muhammad, Shamsuddeen Hassan; Osei, Salomey; Samb, Sokhar; Guge, Tadesse Kebede; Sherman, Tombekai Vangoni; Stenetorp, Pontus
 
 **Year:** 2024
 

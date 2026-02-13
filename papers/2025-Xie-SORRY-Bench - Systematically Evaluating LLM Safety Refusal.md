@@ -9,10 +9,10 @@ key: EXSR0116
 type: conferencePaper
 short_title: SORRY-Bench -- Systematically Evaluating LLM Safety Refusal
 year: 2025
-first_author: "[[T. Xie]]"
-last_author: "[[T. Xie]]"
-authors: Xie, T., et al
-authors_incomplete: true
+first_author: "[[Xie, Tinghao]]"
+last_author: "[[Mittal, Prateek]]"
+authors: "[[Xie, Tinghao]]; [[Qi, Xiangyu]]; [[Zeng, Yi]]; [[Huang, Yangsibo]]; [[Sehwag, Udari Madhushani]]; [[Huang, Kaixuan]]; [[He, Luxi]]; [[Wei, Boyi]]; [[Li, Dacheng]]; [[Sheng, Ying]]; [[Jia, Ruoxi]]; [[Li, Bo]]; [[Li, Kai]]; [[Chen, Danqi]]; [[Henderson, Peter]]; [[Mittal, Prateek]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2406.14598"
 external_pdf: "https://arxiv.org/pdf/2406.14598.pdf"
 local_pdf: "[[PDFs/2025/2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://sorry-bench.github.io"
 
 ## Authors
 
-[[T. Xie]]
+[[Xie, Tinghao]], [[Qi, Xiangyu]], [[Zeng, Yi]], [[Huang, Yangsibo]], [[Sehwag, Udari Madhushani]], [[Huang, Kaixuan]], [[He, Luxi]], [[Wei, Boyi]], [[Li, Dacheng]], [[Sheng, Ying]], [[Jia, Ruoxi]], [[Li, Bo]], [[Li, Kai]], [[Chen, Danqi]], [[Henderson, Peter]], [[Mittal, Prateek]]
 
 ## Metadata
 
-**Authors:** Xie, T., et al
+**Authors:** Xie, Tinghao; Qi, Xiangyu; Zeng, Yi; Huang, Yangsibo; Sehwag, Udari Madhushani; Huang, Kaixuan; He, Luxi; Wei, Boyi; Li, Dacheng; Sheng, Ying; Jia, Ruoxi; Li, Bo; Li, Kai; Chen, Danqi; Henderson, Peter; Mittal, Prateek
 
 **Year:** 2025
 

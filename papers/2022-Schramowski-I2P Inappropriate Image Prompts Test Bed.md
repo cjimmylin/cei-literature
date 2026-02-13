@@ -9,10 +9,10 @@ key: EXSR0282
 type: conferencePaper
 short_title: "I2P: Inappropriate Image Prompts Test Bed"
 year: 2022
-first_author: "[[P. Schramowski]]"
-last_author: "[[P. Schramowski]]"
-authors: Schramowski, P. et al.
-authors_incomplete: true
+first_author: "[[Schramowski, Patrick]]"
+last_author: "[[Kersting, Kristian]]"
+authors: "[[Schramowski, Patrick]]; [[Tauchmann, Christopher]]; [[Kersting, Kristian]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2202.06675"
 external_pdf: "https://arxiv.org/pdf/2202.06675.pdf"
 local_pdf: "[[PDFs/2022/2022-Schramowski-I2P Inappropriate Image Prompts Test Bed.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/ml-research/Q16"
 
 ## Authors
 
-[[P. Schramowski]]
+[[Schramowski, Patrick]], [[Tauchmann, Christopher]], [[Kersting, Kristian]]
 
 ## Metadata
 
-**Authors:** Schramowski, P. et al.
+**Authors:** Schramowski, Patrick; Tauchmann, Christopher; Kersting, Kristian
 
 **Year:** 2022
 

@@ -9,10 +9,10 @@ key: EXSR0174
 type: conferencePaper
 short_title: Fake Alignment (FINE Framework)
 year: 2024
-first_author: "[[Yixu Wang]]"
-last_author: "[[Yixu Wang]]"
-authors: Yixu Wang et al.
-authors_incomplete: true
+first_author: "[[Du, Yihan]]"
+last_author: "[[Srikant, R.]]"
+authors: "[[Du, Yihan]]; [[Kong, Seo Taek]]; [[Srikant, R.]]"
+authors_incomplete: false
 publication: ACL 2024
 external_pdf: "https://arxiv.org/pdf/2510.05703.pdf"
 local_pdf: "[[PDFs/2024/2024-Wang-Fake Alignment FINE Framework.pdf]]"
@@ -41,11 +41,11 @@ DATA_URL: "NA"
 
 ## Authors
 
-[[Yixu Wang]]
+[[Du, Yihan]], [[Kong, Seo Taek]], [[Srikant, R.]]
 
 ## Metadata
 
-**Authors:** Yixu Wang et al.
+**Authors:** Du, Yihan; Kong, Seo Taek; Srikant, R.
 
 **Year:** 2024
 

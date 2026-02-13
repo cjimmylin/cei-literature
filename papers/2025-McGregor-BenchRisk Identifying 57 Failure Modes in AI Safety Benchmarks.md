@@ -9,10 +9,10 @@ key: EXSR0297
 type: preprint
 short_title: "BenchRisk: Identifying 57 Failure Modes in AI Safety Benchmarks (McGregor et al.)"
 year: 2025
-first_author: "[[S. McGregor]]"
-last_author: "[[S. McGregor]]"
-authors: McGregor, S. et al.
-authors_incomplete: true
+first_author: "[[McGregor, Sean]]"
+last_author: "[[Frase, Heather]]"
+authors: "[[McGregor, Sean]]; [[Lu, Victor]]; [[Tashev, Vassil]]; [[Foundjem, Armstrong]]; [[Ramasethu, Aishwarya]]; [[Zarkouei, Sadegh AlMahdi Kazemi]]; [[Knotz, Chris]]; [[Chen, Kongtao]]; [[Parrish, Alicia]]; [[Reuel, Anka]]; [[Frase, Heather]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2510.21460"
 external_pdf: "https://arxiv.org/pdf/2510.21460.pdf"
 local_pdf: "[[PDFs/2025/2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/BenchRisk"
 
 ## Authors
 
-[[S. McGregor]]
+[[McGregor, Sean]], [[Lu, Victor]], [[Tashev, Vassil]], [[Foundjem, Armstrong]], [[Ramasethu, Aishwarya]], [[Zarkouei, Sadegh AlMahdi Kazemi]], [[Knotz, Chris]], [[Chen, Kongtao]], [[Parrish, Alicia]], [[Reuel, Anka]], [[Frase, Heather]]
 
 ## Metadata
 
-**Authors:** McGregor, S. et al.
+**Authors:** McGregor, Sean; Lu, Victor; Tashev, Vassil; Foundjem, Armstrong; Ramasethu, Aishwarya; Zarkouei, Sadegh AlMahdi Kazemi; Knotz, Chris; Chen, Kongtao; Parrish, Alicia; Reuel, Anka; Frase, Heather
 
 **Year:** 2025
 

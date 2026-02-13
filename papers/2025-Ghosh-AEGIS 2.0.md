@@ -9,10 +9,10 @@ key: EXSR0016
 type: conferencePaper
 short_title: AEGIS 2.0
 year: 2025
-first_author: "[[Shaona Ghosh]]"
-last_author: "[[Shaona Ghosh]]"
-authors: Shaona Ghosh et al.
-authors_incomplete: true
+first_author: "[[Ghosh, Shaona]]"
+last_author: "[[Parisien, Christopher]]"
+authors: "[[Ghosh, Shaona]]; [[Varshney, Prasoon]]; [[Sreedhar, Makesh Narsimhan]]; [[Padmakumar, Aishwarya]]; [[Rebedea, Traian]]; [[Varghese, Jibin Rajan]]; [[Parisien, Christopher]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2501.09004"
 external_pdf: "https://arxiv.org/pdf/2501.09004.pdf"
 local_pdf: "[[PDFs/2025/2025-Ghosh-AEGIS 2.0.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "NA"
 
 ## Authors
 
-[[Shaona Ghosh]]
+[[Ghosh, Shaona]], [[Varshney, Prasoon]], [[Sreedhar, Makesh Narsimhan]], [[Padmakumar, Aishwarya]], [[Rebedea, Traian]], [[Varghese, Jibin Rajan]], [[Parisien, Christopher]]
 
 ## Metadata
 
-**Authors:** Shaona Ghosh et al.
+**Authors:** Ghosh, Shaona; Varshney, Prasoon; Sreedhar, Makesh Narsimhan; Padmakumar, Aishwarya; Rebedea, Traian; Varghese, Jibin Rajan; Parisien, Christopher
 
 **Year:** 2025
 

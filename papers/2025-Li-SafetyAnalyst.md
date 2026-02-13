@@ -9,10 +9,10 @@ key: EXSR0121
 type: conferencePaper
 short_title: SafetyAnalyst
 year: 2025
-first_author: "[[Jing-Jing Li]]"
-last_author: "[[Jing-Jing Li]]"
-authors: Jing-Jing Li et al.
-authors_incomplete: true
+first_author: "[[Li, Jing-Jing]]"
+last_author: "[[Levine, Sydney]]"
+authors: "[[Li, Jing-Jing]]; [[Pyatkin, Valentina]]; [[Kleiman-Weiner, Max]]; [[Jiang, Liwei]]; [[Dziri, Nouha]]; [[Collins, Anne G. E.]]; [[Borg, Jana Schaich]]; [[Sap, Maarten]]; [[Choi, Yejin]]; [[Levine, Sydney]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2410.16665"
 external_pdf: "https://arxiv.org/pdf/2410.16665.pdf"
 local_pdf: "[[PDFs/2025/2025-Li-SafetyAnalyst.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://jl3676.github.io/SafetyAnalyst/"
 
 ## Authors
 
-[[Jing-Jing Li]]
+[[Li, Jing-Jing]], [[Pyatkin, Valentina]], [[Kleiman-Weiner, Max]], [[Jiang, Liwei]], [[Dziri, Nouha]], [[Collins, Anne G. E.]], [[Borg, Jana Schaich]], [[Sap, Maarten]], [[Choi, Yejin]], [[Levine, Sydney]]
 
 ## Metadata
 
-**Authors:** Jing-Jing Li et al.
+**Authors:** Li, Jing-Jing; Pyatkin, Valentina; Kleiman-Weiner, Max; Jiang, Liwei; Dziri, Nouha; Collins, Anne G. E.; Borg, Jana Schaich; Sap, Maarten; Choi, Yejin; Levine, Sydney
 
 **Year:** 2025
 

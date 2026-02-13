@@ -9,10 +9,10 @@ key: EXSR0300
 type: conferencePaper
 short_title: "Chain-of-Ethics: Defense Framework (Wu et al.)"
 year: 2025
-first_author: "[[Y. Wu]]"
-last_author: "[[Y. Wu]]"
-authors: Wu, Y. et al.
-authors_incomplete: true
+first_author: "[[Huang, Chutian]]"
+last_author: "[[Xu, Hanhui]]"
+authors: "[[Huang, Chutian]]; [[Cao, Dake]]; [[Ji, Jiacheng]]; [[Fan, Yunlou]]; [[Yan, Chengze]]; [[Xu, Hanhui]]"
+authors_incomplete: false
 publication: Not specified
 external_pdf: "https://arxiv.org/pdf/2601.12652.pdf"
 local_pdf: "[[PDFs/2025/2025-Wu-Chain-of-Ethics Defense Framework Wu et al..pdf]]"
@@ -41,11 +41,11 @@ DATA_URL: "NA"
 
 ## Authors
 
-[[Y. Wu]]
+[[Huang, Chutian]], [[Cao, Dake]], [[Ji, Jiacheng]], [[Fan, Yunlou]], [[Yan, Chengze]], [[Xu, Hanhui]]
 
 ## Metadata
 
-**Authors:** Wu, Y. et al.
+**Authors:** Huang, Chutian; Cao, Dake; Ji, Jiacheng; Fan, Yunlou; Yan, Chengze; Xu, Hanhui
 
 **Year:** 2025
 

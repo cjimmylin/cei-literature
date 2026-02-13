@@ -9,10 +9,10 @@ key: EXSR0161
 type: conferencePaper
 short_title: EAI -- Emotional Decision-Making of LLMs in Strategic Games and Ethical Dilemmas
 year: 2024
-first_author: "[[M. Mozikov]]"
-last_author: "[[M. Mozikov]]"
-authors: Mozikov, M., et al
-authors_incomplete: true
+first_author: "[[Mozikov, Mikhail]]"
+last_author: "[[Makarov, Ilya]]"
+authors: "[[Mozikov, Mikhail]]; [[Severin, Nikita]]; [[Bodishtianu, Valeria]]; [[Glushanina, Maria]]; [[Baklashkin, Mikhail]]; [[Savchenko, Andrey V.]]; [[Makarov, Ilya]]"
+authors_incomplete: false
 publication: NeurIPS 2024
 external_pdf: "https://openreview.net/pdf?id=Vov1mypRjw"
 local_pdf: "[[PDFs/2024/2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.pdf]]"

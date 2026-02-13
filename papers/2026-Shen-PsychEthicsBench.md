@@ -10,10 +10,10 @@ key: EXSR0012
 type: preprint
 short_title: PsychEthicsBench
 year: 2026
-first_author: "[[Shen]]"
-last_author: "[[Shen]]"
-authors: Shen et al.
-authors_incomplete: true
+first_author: "[[Shen, Yaling]]"
+last_author: "[[Ge, Zongyuan]]"
+authors: "[[Shen, Yaling]]; [[Fong, Stephanie]]; [[Jiang, Yiwen]]; [[Wang, Zimu]]; [[Tang, Feilong]]; [[Xu, Qingyang]]; [[Zhao, Xiangyu]]; [[Xu, Zhongxing]]; [[Liu, Jiahe]]; [[Hu, Jinpeng]]; [[Dwyer, Dominic]]; [[Ge, Zongyuan]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2601.03578"
 external_pdf: "https://arxiv.org/pdf/2601.03578.pdf"
 local_pdf: "[[PDFs/2026/2026-Shen-PsychEthicsBench.pdf]]"
@@ -44,11 +44,11 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Shen]]
+[[Shen, Yaling]], [[Fong, Stephanie]], [[Jiang, Yiwen]], [[Wang, Zimu]], [[Tang, Feilong]], [[Xu, Qingyang]], [[Zhao, Xiangyu]], [[Xu, Zhongxing]], [[Liu, Jiahe]], [[Hu, Jinpeng]], [[Dwyer, Dominic]], [[Ge, Zongyuan]]
 
 ## Metadata
 
-**Authors:** Shen et al.
+**Authors:** Shen, Yaling; Fong, Stephanie; Jiang, Yiwen; Wang, Zimu; Tang, Feilong; Xu, Qingyang; Zhao, Xiangyu; Xu, Zhongxing; Liu, Jiahe; Hu, Jinpeng; Dwyer, Dominic; Ge, Zongyuan
 
 **Year:** 2026
 

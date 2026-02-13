@@ -9,10 +9,10 @@ key: EXSR0144
 type: preprint
 short_title: "Agent-SafetyBench: Evaluating the Safety of LLM Agents"
 year: 2024
-first_author: "[[Zhexin Zhang]]"
-last_author: "[[Zhexin Zhang]]"
-authors: Zhexin Zhang et al.
-authors_incomplete: true
+first_author: "[[Zhang, Zhexin]]"
+last_author: "[[Huang, Minlie]]"
+authors: "[[Zhang, Zhexin]]; [[Cui, Shiyao]]; [[Lu, Yida]]; [[Zhou, Jingzhuo]]; [[Yang, Junxiao]]; [[Wang, Hongning]]; [[Huang, Minlie]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2412.14470"
 external_pdf: "https://arxiv.org/pdf/2412.14470.pdf"
 local_pdf: "[[PDFs/2024/2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/thu-coai/Agent-SafetyBench/"
 
 ## Authors
 
-[[Zhexin Zhang]]
+[[Zhang, Zhexin]], [[Cui, Shiyao]], [[Lu, Yida]], [[Zhou, Jingzhuo]], [[Yang, Junxiao]], [[Wang, Hongning]], [[Huang, Minlie]]
 
 ## Metadata
 
-**Authors:** Zhexin Zhang et al.
+**Authors:** Zhang, Zhexin; Cui, Shiyao; Lu, Yida; Zhou, Jingzhuo; Yang, Junxiao; Wang, Hongning; Huang, Minlie
 
 **Year:** 2024
 

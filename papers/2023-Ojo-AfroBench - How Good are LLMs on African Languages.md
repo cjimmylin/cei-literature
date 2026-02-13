@@ -9,10 +9,10 @@ key: EXSR0233
 type: preprint
 short_title: AfroBench -- How Good are LLMs on African Languages?
 year: 2023
-first_author: "[[J. Ojo]]"
-last_author: "[[J. Ojo]]"
-authors: Ojo, J. et al
-authors_incomplete: true
+first_author: "[[Ojo, Jessica]]"
+last_author: "[[Adelani, David Ifeoluwa]]"
+authors: "[[Ojo, Jessica]]; [[Ogundepo, Odunayo]]; [[Oladipo, Akintunde]]; [[Ogueji, Kelechi]]; [[Lin, Jimmy]]; [[Stenetorp, Pontus]]; [[Adelani, David Ifeoluwa]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2311.07978"
 external_pdf: "https://arxiv.org/pdf/2311.07978.pdf"
 local_pdf: "[[PDFs/2023/2023-Ojo-AfroBench - How Good are LLMs on African Languages.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://mcgill-nlp.github.io/AfroBench/"
 
 ## Authors
 
-[[J. Ojo]]
+[[Ojo, Jessica]], [[Ogundepo, Odunayo]], [[Oladipo, Akintunde]], [[Ogueji, Kelechi]], [[Lin, Jimmy]], [[Stenetorp, Pontus]], [[Adelani, David Ifeoluwa]]
 
 ## Metadata
 
-**Authors:** Ojo, J. et al
+**Authors:** Ojo, Jessica; Ogundepo, Odunayo; Oladipo, Akintunde; Ogueji, Kelechi; Lin, Jimmy; Stenetorp, Pontus; Adelani, David Ifeoluwa
 
 **Year:** 2023
 

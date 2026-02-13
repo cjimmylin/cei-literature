@@ -9,10 +9,10 @@ key: EXSR0059
 type: preprint
 short_title: GuardEval
 year: 2025
-first_author: "[[Naseem Machlovi]]"
-last_author: "[[Naseem Machlovi]]"
-authors: Naseem Machlovi et al.
-authors_incomplete: true
+first_author: "[[Machlovi, Naseem]]"
+last_author: "[[Al-Fuqaha, Ala]]"
+authors: "[[Machlovi, Naseem]]; [[Saleki, Maryam]]; [[Amin, Ruhul]]; [[Rahouti, Mohamed]]; [[Al-Maliki, Shawqi]]; [[Qadir, Junaid]]; [[Abdallah, Mohamed M.]]; [[Al-Fuqaha, Ala]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2601.03273"
 external_pdf: "https://arxiv.org/pdf/2601.03273.pdf"
 local_pdf: "[[PDFs/2025/2025-Machlovi-GuardEval.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "NA"
 
 ## Authors
 
-[[Naseem Machlovi]]
+[[Machlovi, Naseem]], [[Saleki, Maryam]], [[Amin, Ruhul]], [[Rahouti, Mohamed]], [[Al-Maliki, Shawqi]], [[Qadir, Junaid]], [[Abdallah, Mohamed M.]], [[Al-Fuqaha, Ala]]
 
 ## Metadata
 
-**Authors:** Naseem Machlovi et al.
+**Authors:** Machlovi, Naseem; Saleki, Maryam; Amin, Ruhul; Rahouti, Mohamed; Al-Maliki, Shawqi; Qadir, Junaid; Abdallah, Mohamed M.; Al-Fuqaha, Ala
 
 **Year:** 2025
 

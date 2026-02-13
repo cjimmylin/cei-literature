@@ -9,10 +9,10 @@ key: EXSR0243
 type: conferencePaper
 short_title: BBQ (Bias Benchmark for Question Answering)
 year: 2022
-first_author: "[[Alicia Parrish]]"
-last_author: "[[Alicia Parrish]]"
-authors: Alicia Parrish et al.
-authors_incomplete: true
+first_author: "[[Parrish, Alicia]]"
+last_author: "[[Bowman, Samuel R.]]"
+authors: "[[Parrish, Alicia]]; [[Chen, Angelica]]; [[Nangia, Nikita]]; [[Padmakumar, Vishakh]]; [[Phang, Jason]]; [[Thompson, Jana]]; [[Htut, Phu Mon]]; [[Bowman, Samuel R.]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2110.08193"
 external_pdf: "https://arxiv.org/pdf/2110.08193.pdf"
 local_pdf: "[[PDFs/2022/2022-Parrish-BBQ Bias Benchmark for Question Answering.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/nyu-mll/BBQ"
 
 ## Authors
 
-[[Alicia Parrish]]
+[[Parrish, Alicia]], [[Chen, Angelica]], [[Nangia, Nikita]], [[Padmakumar, Vishakh]], [[Phang, Jason]], [[Thompson, Jana]], [[Htut, Phu Mon]], [[Bowman, Samuel R.]]
 
 ## Metadata
 
-**Authors:** Alicia Parrish et al.
+**Authors:** Parrish, Alicia; Chen, Angelica; Nangia, Nikita; Padmakumar, Vishakh; Phang, Jason; Thompson, Jana; Htut, Phu Mon; Bowman, Samuel R.
 
 **Year:** 2022
 

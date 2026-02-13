@@ -9,10 +9,10 @@ key: EXSR0286
 type: conferencePaper
 short_title: "GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems"
 year: 2025
-first_author: "[[H. Ye]]"
-last_author: "[[H. Ye]]"
-authors: Ye, H. et al.
-authors_incomplete: true
+first_author: "[[Ye, Haoran]]"
+last_author: "[[Song, Guojie]]"
+authors: "[[Ye, Haoran]]; [[Zhang, Tianze]]; [[Xie, Yuhang]]; [[Zhang, Liyuan]]; [[Ren, Yuanyi]]; [[Zhang, Xin]]; [[Song, Guojie]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2502.02444"
 external_pdf: "https://arxiv.org/pdf/2502.02444.pdf"
 local_pdf: "[[PDFs/2025/2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "NA"
 
 ## Authors
 
-[[H. Ye]]
+[[Ye, Haoran]], [[Zhang, Tianze]], [[Xie, Yuhang]], [[Zhang, Liyuan]], [[Ren, Yuanyi]], [[Zhang, Xin]], [[Song, Guojie]]
 
 ## Metadata
 
-**Authors:** Ye, H. et al.
+**Authors:** Ye, Haoran; Zhang, Tianze; Xie, Yuhang; Zhang, Liyuan; Ren, Yuanyi; Zhang, Xin; Song, Guojie
 
 **Year:** 2025
 

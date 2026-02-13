@@ -9,10 +9,10 @@ key: EXSR0267
 type: conferencePaper
 short_title: "NormGenesis: Multicultural Dialogue Generation Dataset"
 year: 2025
-first_author: "[[M. Hong]]"
-last_author: "[[M. Hong]]"
-authors: Hong, M. et al.
-authors_incomplete: true
+first_author: "[[Hong, Minki]]"
+last_author: "[[Kim, Jihie]]"
+authors: "[[Hong, Minki]]; [[Choi, Jangho]]; [[Kim, Jihie]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2509.18395"
 external_pdf: "https://arxiv.org/pdf/2509.18395.pdf"
 local_pdf: "[[PDFs/2025/2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "NA"
 
 ## Authors
 
-[[M. Hong]]
+[[Hong, Minki]], [[Choi, Jangho]], [[Kim, Jihie]]
 
 ## Metadata
 
-**Authors:** Hong, M. et al.
+**Authors:** Hong, Minki; Choi, Jangho; Kim, Jihie
 
 **Year:** 2025
 

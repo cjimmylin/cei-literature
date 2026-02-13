@@ -9,10 +9,10 @@ key: EXSR0076
 type: conferencePaper
 short_title: LegalAgentBench
 year: 2025
-first_author: "[[Haitao Li]]"
-last_author: "[[Haitao Li]]"
-authors: Haitao Li et al.
-authors_incomplete: true
+first_author: "[[Li, Haitao]]"
+last_author: "[[Huang, Minlie]]"
+authors: "[[Li, Haitao]]; [[Chen, Junjie]]; [[Yang, Jingli]]; [[Ai, Qingyao]]; [[Jia, Wei]]; [[Liu, Youfeng]]; [[Lin, Kai]]; [[Wu, Yueyue]]; [[Yuan, Guozhi]]; [[Hu, Yiran]]; [[Wang, Wuyue]]; [[Liu, Yiqun]]; [[Huang, Minlie]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2412.17259"
 external_pdf: "https://arxiv.org/pdf/2412.17259.pdf"
 local_pdf: "[[PDFs/2025/2025-Li-LegalAgentBench.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/CSHaitao/LegalAgentBench"
 
 ## Authors
 
-[[Haitao Li]]
+[[Li, Haitao]], [[Chen, Junjie]], [[Yang, Jingli]], [[Ai, Qingyao]], [[Jia, Wei]], [[Liu, Youfeng]], [[Lin, Kai]], [[Wu, Yueyue]], [[Yuan, Guozhi]], [[Hu, Yiran]], [[Wang, Wuyue]], [[Liu, Yiqun]], [[Huang, Minlie]]
 
 ## Metadata
 
-**Authors:** Haitao Li et al.
+**Authors:** Li, Haitao; Chen, Junjie; Yang, Jingli; Ai, Qingyao; Jia, Wei; Liu, Youfeng; Lin, Kai; Wu, Yueyue; Yuan, Guozhi; Hu, Yiran; Wang, Wuyue; Liu, Yiqun; Huang, Minlie
 
 **Year:** 2025
 

@@ -9,10 +9,10 @@ key: EXSR0010
 type: preprint
 short_title: PluriHarms
 year: 2026
-first_author: "[[Jing-Jing Li]]"
-last_author: "[[Jing-Jing Li]]"
-authors: Jing-Jing Li et al.
-authors_incomplete: true
+first_author: "[[Li, Jing-Jing]]"
+last_author: "[[Levine, Sydney]]"
+authors: "[[Li, Jing-Jing]]; [[Mire, Joel]]; [[Fleisig, Eve]]; [[Pyatkin, Valentina]]; [[Collins, Anne]]; [[Sap, Maarten]]; [[Levine, Sydney]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2601.08951"
 external_pdf: "https://arxiv.org/pdf/2601.08951.pdf"
 local_pdf: "[[PDFs/2026/2026-Li-PluriHarms.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://jl3676.github.io/PluriHarms"
 
 ## Authors
 
-[[Jing-Jing Li]]
+[[Li, Jing-Jing]], [[Mire, Joel]], [[Fleisig, Eve]], [[Pyatkin, Valentina]], [[Collins, Anne]], [[Sap, Maarten]], [[Levine, Sydney]]
 
 ## Metadata
 
-**Authors:** Jing-Jing Li et al.
+**Authors:** Li, Jing-Jing; Mire, Joel; Fleisig, Eve; Pyatkin, Valentina; Collins, Anne; Sap, Maarten; Levine, Sydney
 
 **Year:** 2026
 

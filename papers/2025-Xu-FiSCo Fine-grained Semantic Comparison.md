@@ -9,10 +9,10 @@ key: EXSR0054
 type: preprint
 short_title: FiSCo (Fine-grained Semantic Comparison)
 year: 2025
-first_author: "[[Weijie Xu]]"
-last_author: "[[Weijie Xu]]"
-authors: Weijie Xu et al.
-authors_incomplete: true
+first_author: "[[Xu, Weijie]]"
+last_author: "[[Reddy, Chandan K.]]"
+authors: "[[Xu, Weijie]]; [[Wang, Yiwen]]; [[Xue, Chi]]; [[Hu, Xiangkun]]; [[Fang, Xi]]; [[Dong, Guimin]]; [[Reddy, Chandan K.]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2506.19028"
 external_pdf: "https://arxiv.org/pdf/2506.19028.pdf"
 local_pdf: "[[PDFs/2025/2025-Xu-FiSCo Fine-grained Semantic Comparison.pdf]]"
@@ -42,11 +42,11 @@ DATA_URL: "https://github.com/HuXiangkun/FiSCo"
 
 ## Authors
 
-[[Weijie Xu]]
+[[Xu, Weijie]], [[Wang, Yiwen]], [[Xue, Chi]], [[Hu, Xiangkun]], [[Fang, Xi]], [[Dong, Guimin]], [[Reddy, Chandan K.]]
 
 ## Metadata
 
-**Authors:** Weijie Xu et al.
+**Authors:** Xu, Weijie; Wang, Yiwen; Xue, Chi; Hu, Xiangkun; Fang, Xi; Dong, Guimin; Reddy, Chandan K.
 
 **Year:** 2025
 

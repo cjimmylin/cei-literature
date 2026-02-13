@@ -16,9 +16,9 @@ last_author: "[[authors), (Multiple]]"
 authors: "[[(Multiple authors)]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://link.springer.com/content/pdf/10.1007/s40747-024-01641-7.pdf"
+local_pdf: "[[PDFs/2024/2024-authors-T-LLaMA A Tibetan Large Language Model.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-authors-T-LLaMA A Tibetan Large Language Model.md"
 publication: Complex & Intelligent Systems (Springer)
 DATE_ADDED: 20260213
 ethics_overall: "No"

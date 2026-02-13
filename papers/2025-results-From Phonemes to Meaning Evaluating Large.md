@@ -17,10 +17,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2511.12387"
 external_pdf: "https://arxiv.org/pdf/2511.12387.pdf"
-local_pdf: "[[PDFs/2025-results-From Phonemes to Meaning Evaluating Large.pdf]]"
-pdf_extract: "PDF Extracts/2025-results-From Phonemes to Meaning Evaluating Large.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-results-From Phonemes to Meaning Evaluating Large.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-results-From Phonemes to Meaning Evaluating Large.md"
 publication: WebSearch: Tamil LLM evaluation
 DATE_ADDED: 20260213
 ethics_overall: "No"

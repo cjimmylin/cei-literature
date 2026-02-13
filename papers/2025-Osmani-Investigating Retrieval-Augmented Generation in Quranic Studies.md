@@ -17,10 +17,8 @@ authors: "[[Zahra Khalila, Arbi Haza Nasution, Winda Monika, Aytug Onan, Yohei M
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.16581"
 external_pdf: "https://arxiv.org/pdf/2503.16581.pdf"
-local_pdf: "[[PDFs/2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies.pdf]]"
-pdf_extract: "PDF Extracts/2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies.md"
 publication: IJACSA / arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"

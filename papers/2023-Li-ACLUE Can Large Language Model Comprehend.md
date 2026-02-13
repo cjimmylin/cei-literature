@@ -17,10 +17,8 @@ authors: "[[Yixuan Zhang, Haonan Li]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2310.09550"
 external_pdf: "https://arxiv.org/pdf/2310.09550.pdf"
-local_pdf: "[[PDFs/2023-Li-ACLUE Can Large Language Model Comprehend.pdf]]"
-pdf_extract: "PDF Extracts/2023-Li-ACLUE Can Large Language Model Comprehend.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2023/2023-Li-ACLUE Can Large Language Model Comprehend.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Li-ACLUE Can Large Language Model Comprehend.md"
 publication: RANLP 2023 (ALP Workshop)
 DATE_ADDED: 20260213
 ethics_overall: "No"

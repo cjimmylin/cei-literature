@@ -17,10 +17,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.10868"
 external_pdf: "https://arxiv.org/pdf/2502.10868.pdf"
-local_pdf: "[[PDFs/2025-results-NitiBench A Comprehensive Study of LLM.pdf]]"
-pdf_extract: "PDF Extracts/2025-results-NitiBench A Comprehensive Study of LLM.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-results-NitiBench A Comprehensive Study of LLM.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-results-NitiBench A Comprehensive Study of LLM.md"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"

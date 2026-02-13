@@ -17,10 +17,8 @@ authors: "[[Amazon Science team]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.emnlp-main.862.pdf"
 external_pdf: "https://aclanthology.org/2025.emnlp-main.862.pdf"
-local_pdf: "[[PDFs/2025-team-Incorporating Diverse Perspectives in Cultural Alignment.pdf]]"
-pdf_extract: "PDF Extracts/2025-team-Incorporating Diverse Perspectives in Cultural Alignment.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-team-Incorporating Diverse Perspectives in Cultural Alignment.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-team-Incorporating Diverse Perspectives in Cultural Alignment.md"
 publication: EMNLP 2025
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

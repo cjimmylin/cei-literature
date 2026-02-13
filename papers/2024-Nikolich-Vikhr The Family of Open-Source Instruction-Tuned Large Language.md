@@ -1,0 +1,77 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0312
+type: preprint
+short_title: "Vikhr: The Family of Open-Source Instruction-Tuned Large Language Models for Russian"
+year: 2024
+first_author: "[[Aleksandr Nikolich]]"
+last_author: "[[Georgy Okulov]]"
+authors: Aleksandr Nikolich, Konstantin Korolev, Georgy Okulov, et al.
+doi: 10.18653/v1/2024.mrl-1.15
+url: "https://arxiv.org/abs/2405.13929"
+external_pdf: "https://arxiv.org/pdf/2405.13929.pdf"
+local_pdf: "[[PDFs/2024/2024-Nikolich-Vikhr The Family of Open-Source Instruction-Tuned Large Language.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Nikolich-Vikhr The Family of Open-Source Instruction-Tuned Large Language.md"
+publication: arXiv / ACL Anthology (MRL 2024)
+DATE_ADDED: 20260213
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Russian"
+languages_list: "English, Russian"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Text corpus"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract: "There has been a surge in the development of various Large Language Models (LLMs). However, text generation for languages other than English often faces significant challenges, including poor generation quality and reduced computational performance due to the disproportionate representation of tokens in the model’s vocabulary. In this work, we address these issues by developing a pipeline for the adaptation of English-oriented pre-trained models to other languages and constructing efficient..."
+research_topic: "NLP & Representation Learning"
+---
+# Vikhr: The Family of Open-Source Instruction-Tuned Large Language Models for Russian
+
+## Authors
+
+[[Aleksandr Nikolich, Konstantin Korolev, Georgy Okulov, et al.]]
+
+## Metadata
+
+**Authors:** Aleksandr Nikolich, Konstantin Korolev, Georgy Okulov, et al.
+
+**Year:** 2024
+
+**Type:** preprint
+
+**Venue:** arXiv / ACL Anthology (MRL 2024)
+
+**DOI:** [10.18653/v1/2024.mrl-1.15](https://doi.org/10.18653/v1/2024.mrl-1.15)
+
+**Languages:** English, Russian
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2405.13929
+- **DOI:** https://doi.org/10.18653/v1/2024.mrl-1.15
+
+## Abstract
+
+Family of bilingual open-source instruction-tuned LLMs for Russian. Evaluated on MMLU, Ru-MMLU, MERA benchmarks. Vikhr-Nemo achieves 85.6% on safety benchmarks. Discusses bias and fairness concerns.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent B3
+**Relevance:** Open-source Russian LLM with safety evaluation; top-performing open model for Russian safety
+
+## Tags
+

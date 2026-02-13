@@ -16,9 +16,9 @@ last_author: "[[Nikita Neveditsin, Ambuja Salgaonkar, Pawan Lingras, Vijay Mago]
 authors: "[[Nikita Neveditsin, Ambuja Salgaonkar, Pawan Lingras, Vijay Mago]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://aclanthology.org/2024.nlp4dh-1.37.pdf"
+local_pdf: "[[PDFs/2024/2024-Mago-Classification of Buddhist Verses The Efficacy.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Mago-Classification of Buddhist Verses The Efficacy.md"
 publication: NLP4DH 2024 (4th International Conference on Natural Language Processing for Digital Humanities), pages 377-385, Miami, USA
 DATE_ADDED: 20260213
 ethics_overall: "No"

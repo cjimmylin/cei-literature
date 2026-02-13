@@ -17,10 +17,8 @@ authors: "[[Prashanth Vijayaraghavan, Soroush Vosoughi, Lamogha Chiazor, Raya Ho
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.14971"
 external_pdf: "https://arxiv.org/pdf/2505.14971.pdf"
-local_pdf: "[[PDFs/2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large.pdf]]"
-pdf_extract: "PDF Extracts/2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large.md"
 publication: IJCAI 2025 (AI and Social Good Track)
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

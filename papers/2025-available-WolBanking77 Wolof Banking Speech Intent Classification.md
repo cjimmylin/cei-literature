@@ -17,10 +17,8 @@ authors: "[[Authors not fully available]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.19271"
 external_pdf: "https://arxiv.org/pdf/2509.19271.pdf"
-local_pdf: "[[PDFs/2025-available-WolBanking77 Wolof Banking Speech Intent Classification.pdf]]"
-pdf_extract: "PDF Extracts/2025-available-WolBanking77 Wolof Banking Speech Intent Classification.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-available-WolBanking77 Wolof Banking Speech Intent Classification.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-available-WolBanking77 Wolof Banking Speech Intent Classification.md"
 publication: WebSearch: Twi OR Wolof NLP benchmark dataset values cultural evaluation
 DATE_ADDED: 20260213
 ethics_overall: "No"

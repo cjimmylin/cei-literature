@@ -16,9 +16,9 @@ last_author: "[[authors, Multiple]]"
 authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/11206867/"
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://czasopisma.uni.lodz.pl/research/article/download/28493/27970"
+local_pdf: "[[PDFs/2025/2025-authors-Hate Speech Detection in the Kazakh.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-authors-Hate Speech Detection in the Kazakh.md"
 publication: IEEE
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

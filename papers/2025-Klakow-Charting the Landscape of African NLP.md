@@ -17,10 +17,8 @@ authors: "[[Jesujoba O. Alabi, Michael A. Hedderich, David Ifeoluwa Adelani, Die
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.21315"
 external_pdf: "https://arxiv.org/pdf/2505.21315.pdf"
-local_pdf: "[[PDFs/2025-Klakow-Charting the Landscape of African NLP.pdf]]"
-pdf_extract: "PDF Extracts/2025-Klakow-Charting the Landscape of African NLP.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Klakow-Charting the Landscape of African NLP.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Klakow-Charting the Landscape of African NLP.md"
 publication: WebSearch: Charting the Landscape African NLP mapping progress
 DATE_ADDED: 20260213
 ethics_overall: "No"

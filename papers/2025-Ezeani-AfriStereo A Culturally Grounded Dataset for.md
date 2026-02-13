@@ -17,10 +17,8 @@ authors: "[[Yann Le Beux, Oluchi Audu, Oche D. Ankeli, Dhananjay Balakrishnan, M
 authors_incomplete: false
 url: "https://arxiv.org/abs/2511.22016"
 external_pdf: "https://arxiv.org/pdf/2511.22016.pdf"
-local_pdf: "[[PDFs/2025-Ezeani-AfriStereo A Culturally Grounded Dataset for.pdf]]"
-pdf_extract: "PDF Extracts/2025-Ezeani-AfriStereo A Culturally Grounded Dataset for.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Ezeani-AfriStereo A Culturally Grounded Dataset for.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Ezeani-AfriStereo A Culturally Grounded Dataset for.md"
 publication: arXiv (NeurIPS 2025)
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

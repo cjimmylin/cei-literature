@@ -17,10 +17,8 @@ authors: "[[DAMO Academy / Alibaba team]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2312.00738"
 external_pdf: "https://arxiv.org/pdf/2312.00738.pdf"
-local_pdf: "[[PDFs/2023-team-SeaLLMs Large Language Models for Southeast.pdf]]"
-pdf_extract: "PDF Extracts/2023-team-SeaLLMs Large Language Models for Southeast.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2023/2023-team-SeaLLMs Large Language Models for Southeast.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-team-SeaLLMs Large Language Models for Southeast.md"
 publication: ACL 2024 Demo
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

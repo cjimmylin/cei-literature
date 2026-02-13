@@ -1,0 +1,75 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0182
+type: preprint
+short_title: "BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP"
+year: 2024
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: Unknown
+url: "https://arxiv.org/abs/2309.13173"
+external_pdf: "https://arxiv.org/pdf/2309.13173.pdf"
+local_pdf: "[[PDFs/2024/2024-Unknown-BenLLM-Eval A Comprehensive Evaluation into the Potentials and.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Unknown-BenLLM-Eval A Comprehensive Evaluation into the Potentials and.md"
+publication: arXiv / LREC-COLING 2024
+DATE_ADDED: 20260213
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+languages_list: "Bengali"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract: "Large Language Models (LLMs) have emerged as one of the most important breakthroughs in NLP for their impressive skills in language generation and other language-specific tasks. Though LLMs have been evaluated in various tasks, mostly in English, they have not yet undergone thorough evaluation in under-resourced languages such as Bengali (Bangla). To this end, this paper introduces BenLLM-Eval, which consists of a comprehensive evaluation of LLMs to benchmark their performance in the Bengali..."
+research_topic: "NLP & Representation Learning"
+---
+# BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP
+
+## Authors
+
+[[Unknown]]
+
+## Metadata
+
+**Authors:** Unknown
+
+**Year:** 2024
+
+**Type:** preprint
+
+**Venue:** arXiv / LREC-COLING 2024
+
+**Languages:** Bengali
+
+**Benchmark:** BenLLM-Eval
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2309.13173
+
+## Abstract
+
+Comprehensive zero-shot evaluation of GPT-3.5, LLaMA-2-13b-chat, Claude-2 on Bengali NLP tasks including summarization, QA, paraphrasing, NLI, transliteration, text classification, sentiment analysis. Open-source LLMs perform significantly worse than SOTA fine-tuned models.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent A8
+**Relevance:** Comprehensive Bengali LLM evaluation benchmark identifying gaps in low-resource language capabilities
+
+## Tags
+

@@ -17,10 +17,8 @@ authors: "[[Shaily Bhatt,]]; [[others (Google Research)]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2209.12226"
 external_pdf: "https://arxiv.org/pdf/2209.12226.pdf"
-local_pdf: "[[PDFs/2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case.pdf]]"
-pdf_extract: "PDF Extracts/2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2022/2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case.md"
 publication: AACL-IJCNLP 2022
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

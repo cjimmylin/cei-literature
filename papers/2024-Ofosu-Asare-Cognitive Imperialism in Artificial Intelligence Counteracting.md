@@ -16,9 +16,9 @@ last_author: "[[Ofosu-Asare, Yaw]]"
 authors: "[[Yaw Ofosu-Asare]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://link.springer.com/content/pdf/10.1007/s00146-024-02065-0.pdf"
+local_pdf: "[[PDFs/2024/2024-Ofosu-Asare-Cognitive Imperialism in Artificial Intelligence Counteracting.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Ofosu-Asare-Cognitive Imperialism in Artificial Intelligence Counteracting.md"
 publication: AI & Society (Springer), Volume 40, pp. 3045-3061
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

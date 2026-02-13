@@ -17,10 +17,8 @@ authors: "[[Ola Krutrim team]]"
 authors_incomplete: false
 url: "https://ai-labs.olakrutrim.com/static/Bharatbench-report-4thfeb.pdf"
 external_pdf: "https://ai-labs.olakrutrim.com/static/Bharatbench-report-4thfeb.pdf"
-local_pdf: "[[PDFs/2025-team-BharatBench Comprehensive Multilingual Multimodal Evaluations of.pdf]]"
-pdf_extract: "PDF Extracts/2025-team-BharatBench Comprehensive Multilingual Multimodal Evaluations of.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-team-BharatBench Comprehensive Multilingual Multimodal Evaluations of.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-team-BharatBench Comprehensive Multilingual Multimodal Evaluations of.md"
 publication: Ola Krutrim AI Labs
 DATE_ADDED: 20260213
 ethics_overall: "No"

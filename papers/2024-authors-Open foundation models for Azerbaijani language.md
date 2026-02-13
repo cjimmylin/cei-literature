@@ -17,10 +17,8 @@ authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.02337"
 external_pdf: "https://arxiv.org/pdf/2407.02337.pdf"
-local_pdf: "[[PDFs/2024-authors-Open foundation models for Azerbaijani language.pdf]]"
-pdf_extract: "PDF Extracts/2024-authors-Open foundation models for Azerbaijani language.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-authors-Open foundation models for Azerbaijani language.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-authors-Open foundation models for Azerbaijani language.md"
 publication: SIGTURK 2024
 DATE_ADDED: 20260213
 ethics_overall: "No"

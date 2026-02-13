@@ -17,10 +17,8 @@ authors: "[[L3Cube Pune team]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2022.trac-1.1/"
 external_pdf: "https://arxiv.org/pdf/2203.13778.pdf"
-local_pdf: "[[PDFs/2022-team-L3Cube-MahaHate A Tweet-based Marathi Hate Speech.pdf]]"
-pdf_extract: "PDF Extracts/2022-team-L3Cube-MahaHate A Tweet-based Marathi Hate Speech.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2022/2022-team-L3Cube-MahaHate A Tweet-based Marathi Hate Speech.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-team-L3Cube-MahaHate A Tweet-based Marathi Hate Speech.md"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

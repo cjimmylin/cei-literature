@@ -17,10 +17,8 @@ authors: "[[Orhun Caglidil, Malte Ostendorff, Georg Rehm]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.11726"
 external_pdf: "https://arxiv.org/pdf/2404.11726.pdf"
-local_pdf: "[[PDFs/2024-Rehm-Investigating Gender Bias in Turkish Language.pdf]]"
-pdf_extract: "PDF Extracts/2024-Rehm-Investigating Gender Bias in Turkish Language.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-Rehm-Investigating Gender Bias in Turkish Language.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Rehm-Investigating Gender Bias in Turkish Language.md"
 publication: arxiv.org
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

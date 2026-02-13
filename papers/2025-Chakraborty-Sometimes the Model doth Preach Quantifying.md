@@ -17,10 +17,8 @@ authors: "[[Hari Shankar, Vedanta S P, Tejas Cavale, Ponnurangam Kumaraguru, Abh
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.07510"
 external_pdf: "https://arxiv.org/pdf/2503.07510.pdf"
-local_pdf: "[[PDFs/2025-Chakraborty-Sometimes the Model doth Preach Quantifying.pdf]]"
-pdf_extract: "PDF Extracts/2025-Chakraborty-Sometimes the Model doth Preach Quantifying.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Chakraborty-Sometimes the Model doth Preach Quantifying.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Chakraborty-Sometimes the Model doth Preach Quantifying.md"
 publication: arXiv (preprint)
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

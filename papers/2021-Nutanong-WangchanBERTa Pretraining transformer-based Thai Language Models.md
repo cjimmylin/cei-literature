@@ -17,10 +17,8 @@ authors: "[[Lalita Lowphansirikul, Charin Polpanumas, Nawat Jantrakulchai, Saran
 authors_incomplete: false
 url: "https://arxiv.org/abs/2101.09635"
 external_pdf: "https://arxiv.org/pdf/2101.09635.pdf"
-local_pdf: "[[PDFs/2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models.pdf]]"
-pdf_extract: "PDF Extracts/2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2021/2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models.pdf]]"
+pdf_extract: "PDF Extracts/2021/2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models.md"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"

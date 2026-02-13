@@ -16,9 +16,9 @@ last_author: "[[Saha]]"
 authors: "[[Saha]]; [[and others]]"
 authors_incomplete: false
 url: "https://hate-alert.github.io/publication/saha2021hate/"
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://arxiv.org/pdf/2102.10084.pdf"
+local_pdf: "[[PDFs/2021/2021-Saha-Hate-AlertDravidianLangTech-EACL2021 Ensembling Strategies for Transformer-based Offensive.pdf]]"
+pdf_extract: "PDF Extracts/2021/2021-Saha-Hate-AlertDravidianLangTech-EACL2021 Ensembling Strategies for Transformer-based Offensive.md"
 publication: WebSearch: DravidianLangTech shared task
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

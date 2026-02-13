@@ -17,10 +17,8 @@ authors: "[[Maji]]; [[Kumar]]; [[and others]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.19274"
 external_pdf: "https://arxiv.org/pdf/2509.19274.pdf"
-local_pdf: "[[PDFs/2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for.pdf]]"
-pdf_extract: "PDF Extracts/2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for.md"
 publication: EMNLP 2025
 DATE_ADDED: 20260213
 ethics_overall: "No"

@@ -16,9 +16,9 @@ last_author: "[[authors, Multiple]]"
 authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://link.springer.com/content/pdf/10.1007/s43681-024-00613-4.pdf"
+local_pdf: "[[PDFs/2024/2024-authors-Parity Benchmark for Measuring Bias in.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-authors-Parity Benchmark for Measuring Bias in.md"
 publication: AI and Ethics (Springer)
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

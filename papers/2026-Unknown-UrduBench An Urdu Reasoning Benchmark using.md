@@ -17,10 +17,8 @@ authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2601.21000"
 external_pdf: "https://arxiv.org/pdf/2601.21000.pdf"
-local_pdf: "[[PDFs/2026-Unknown-UrduBench An Urdu Reasoning Benchmark using.pdf]]"
-pdf_extract: "PDF Extracts/2026-Unknown-UrduBench An Urdu Reasoning Benchmark using.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2026/2026-Unknown-UrduBench An Urdu Reasoning Benchmark using.pdf]]"
+pdf_extract: "PDF Extracts/2026/2026-Unknown-UrduBench An Urdu Reasoning Benchmark using.md"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

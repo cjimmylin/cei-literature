@@ -17,10 +17,8 @@ authors: "[[Chakravarthi]]; [[and others]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2106.09460"
 external_pdf: "https://arxiv.org/pdf/2106.09460.pdf"
-local_pdf: "[[PDFs/2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language.pdf]]"
-pdf_extract: "PDF Extracts/2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2022/2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language.md"
 publication: WebSearch: DravidianCodeMix dataset
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

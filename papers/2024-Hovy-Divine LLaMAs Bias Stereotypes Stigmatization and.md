@@ -17,10 +17,8 @@ authors: "[[Flor Miriam Plaza-del-Arco, Simone Tedeschi, Fer-Jan de Vries, Dirk 
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.06908"
 external_pdf: "https://arxiv.org/pdf/2407.06908.pdf"
-local_pdf: "[[PDFs/2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and.pdf]]"
-pdf_extract: "PDF Extracts/2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and.md"
 publication: Findings of EMNLP 2024
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

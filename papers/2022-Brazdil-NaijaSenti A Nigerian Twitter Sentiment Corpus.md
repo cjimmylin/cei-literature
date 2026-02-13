@@ -17,10 +17,8 @@ authors: "[[Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Sebastian Ruder
 authors_incomplete: false
 url: "https://aclanthology.org/2022.lrec-1.63/"
 external_pdf: "https://arxiv.org/pdf/2201.08277.pdf"
-local_pdf: "[[PDFs/2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus.pdf]]"
-pdf_extract: "PDF Extracts/2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2022/2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus.md"
 publication: WebSearch: NaijaSenti Nigerian sentiment Hausa Yoruba Igbo dataset
 DATE_ADDED: 20260213
 ethics_overall: "No"

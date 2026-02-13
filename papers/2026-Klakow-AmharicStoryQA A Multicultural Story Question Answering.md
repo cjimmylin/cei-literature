@@ -17,10 +17,8 @@ authors: "[[Israel Abebe Azime, Abenezer Kebede Angamo, Hana Mekonen Tamiru, Dag
 authors_incomplete: false
 url: "https://arxiv.org/abs/2602.02774"
 external_pdf: "https://arxiv.org/pdf/2602.02774.pdf"
-local_pdf: "[[PDFs/2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering.pdf]]"
-pdf_extract: "PDF Extracts/2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2026/2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering.pdf]]"
+pdf_extract: "PDF Extracts/2026/2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering.md"
 publication: WebSearch: AmharicStoryQA multicultural story question answering
 DATE_ADDED: 20260213
 ethics_overall: "No"

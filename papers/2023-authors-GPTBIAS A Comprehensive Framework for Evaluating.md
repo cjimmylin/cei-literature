@@ -17,10 +17,8 @@ authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2312.06315"
 external_pdf: "https://arxiv.org/pdf/2312.06315.pdf"
-local_pdf: "[[PDFs/2023-authors-GPTBIAS A Comprehensive Framework for Evaluating.pdf]]"
-pdf_extract: "PDF Extracts/2023-authors-GPTBIAS A Comprehensive Framework for Evaluating.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2023/2023-authors-GPTBIAS A Comprehensive Framework for Evaluating.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-authors-GPTBIAS A Comprehensive Framework for Evaluating.md"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

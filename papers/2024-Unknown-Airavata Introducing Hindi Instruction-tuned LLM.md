@@ -17,10 +17,8 @@ authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2401.15006"
 external_pdf: "https://arxiv.org/pdf/2401.15006.pdf"
-local_pdf: "[[PDFs/2024-Unknown-Airavata Introducing Hindi Instruction-tuned LLM.pdf]]"
-pdf_extract: "PDF Extracts/2024-Unknown-Airavata Introducing Hindi Instruction-tuned LLM.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-Unknown-Airavata Introducing Hindi Instruction-tuned LLM.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Unknown-Airavata Introducing Hindi Instruction-tuned LLM.md"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"

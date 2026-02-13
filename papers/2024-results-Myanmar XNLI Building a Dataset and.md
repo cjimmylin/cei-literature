@@ -17,10 +17,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.09645"
 external_pdf: "https://arxiv.org/pdf/2504.09645.pdf"
-local_pdf: "[[PDFs/2024-results-Myanmar XNLI Building a Dataset and.pdf]]"
-pdf_extract: "PDF Extracts/2024-results-Myanmar XNLI Building a Dataset and.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-results-Myanmar XNLI Building a Dataset and.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-results-Myanmar XNLI Building a Dataset and.md"
 publication: Springer (Language Resources and Evaluation)
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

@@ -17,10 +17,8 @@ authors: "[[Sharif Kazemi, Gloria Gerhardt, Jonty Katz, Caroline Ida Kuria, Este
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.10489"
 external_pdf: "https://arxiv.org/pdf/2410.10489.pdf"
-local_pdf: "[[PDFs/2024-Prabhakar-Cultural Fidelity in Large-Language Models An.pdf]]"
-pdf_extract: "PDF Extracts/2024-Prabhakar-Cultural Fidelity in Large-Language Models An.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-Prabhakar-Cultural Fidelity in Large-Language Models An.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Prabhakar-Cultural Fidelity in Large-Language Models An.md"
 publication: WebSearch: Cultural Fidelity LLM African languages values
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

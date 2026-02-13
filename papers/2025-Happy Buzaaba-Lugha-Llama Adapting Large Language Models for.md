@@ -17,10 +17,8 @@ authors: "[[Happy Buzaaba, et al]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.06536"
 external_pdf: "https://arxiv.org/pdf/2504.06536.pdf"
-local_pdf: "[[PDFs/2025-Happy Buzaaba-Lugha-Llama Adapting Large Language Models for.pdf]]"
-pdf_extract: "PDF Extracts/2025-Happy Buzaaba-Lugha-Llama Adapting Large Language Models for.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Happy Buzaaba-Lugha-Llama Adapting Large Language Models for.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Happy Buzaaba-Lugha-Llama Adapting Large Language Models for.md"
 publication: WebSearch: Lugha-Llama adapting LLM African languages
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

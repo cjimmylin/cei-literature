@@ -16,9 +16,9 @@ last_author: "[[So Miyagawa, Yuki Kyogoku, Yuzuki Tsukagoshi, Kyoko Amano]]"
 authors: "[[So Miyagawa, Yuki Kyogoku, Yuzuki Tsukagoshi, Kyoko Amano]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://aclanthology.org/2024.nlp4dh-1.12.pdf"
+local_pdf: "[[PDFs/2024/2024-Amano-Exploring Similarity Measures and Intertextuality in.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Amano-Exploring Similarity Measures and Intertextuality in.md"
 publication: NLP4DH 2024 (4th International Conference on NLP for Digital Humanities), Miami, USA
 DATE_ADDED: 20260213
 ethics_overall: "No"

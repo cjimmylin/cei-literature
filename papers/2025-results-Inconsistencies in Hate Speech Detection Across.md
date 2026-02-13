@@ -17,10 +17,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-acl.1144.pdf"
 external_pdf: "https://aclanthology.org/2025.findings-acl.1144.pdf"
-local_pdf: "[[PDFs/2025-results-Inconsistencies in Hate Speech Detection Across.pdf]]"
-pdf_extract: "PDF Extracts/2025-results-Inconsistencies in Hate Speech Detection Across.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-results-Inconsistencies in Hate Speech Detection Across.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-results-Inconsistencies in Hate Speech Detection Across.md"
 publication: WebSearch: inconsistencies hate speech LLM Dravidian
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

@@ -17,10 +17,8 @@ authors: "[[Multiple authors (American University)]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2403.05548"
 external_pdf: "https://arxiv.org/pdf/2403.05548.pdf"
-local_pdf: "[[PDFs/2024-University-Monitoring the Evolution of Antisemitic Discourse.pdf]]"
-pdf_extract: "PDF Extracts/2024-University-Monitoring the Evolution of Antisemitic Discourse.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-University-Monitoring the Evolution of Antisemitic Discourse.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-University-Monitoring the Evolution of Antisemitic Discourse.md"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

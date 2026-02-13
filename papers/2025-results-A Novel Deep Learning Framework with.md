@@ -16,9 +16,9 @@ last_author: "[[results, Not fully listed in search]]"
 authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://www.nature.com/articles/s41599-025-06268-8"
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://arxiv.org/pdf/2011.03525v2.pdf"
+local_pdf: "[[PDFs/2025/2025-results-A Novel Deep Learning Framework with.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-results-A Novel Deep Learning Framework with.md"
 publication: WebSearch: Malayalam hate speech detection
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

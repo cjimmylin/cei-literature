@@ -1,0 +1,75 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0056
+type: conferencePaper
+short_title: "MEGAVERSE: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks"
+year: 2024
+first_author: "[[Not fully listed in search results (Microsoft)]]"
+last_author: "[[Not fully listed in search results (Microsoft)]]"
+authors: Not fully listed in search results (Microsoft)
+url: "https://arxiv.org/abs/2311.07463"
+external_pdf: "https://arxiv.org/pdf/2311.07463.pdf"
+local_pdf: "[[PDFs/2024/2024-(Microsoft)-MEGAVERSE Benchmarking Large Language Models Across Languages.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-(Microsoft)-MEGAVERSE Benchmarking Large Language Models Across Languages.md"
+publication: "WebSearch: Megaverse benchmarking LLM"
+DATE_ADDED: 20260213
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "African/Ubuntu"
+languages_list: "83 languages including Tamil, Telugu, Malayalam, Kannada"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark dataset"
+data_metrics: "22 datasets; 83 languages"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract: "There has been a surge in LLM evaluation research to understand LLM capabilities and limitations. However, much of this research has been confined to English, leaving LLM building and evaluation for non-English languages relatively unexplored. Several new LLMs have been introduced recently, necessitating their evaluation on non-English languages. This study aims to perform a thorough evaluation of the non-English capabilities of SoTA LLMs (GPT-3."
+research_topic: "Machine Translation"
+---
+# MEGAVERSE: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks
+
+## Authors
+
+[[Not fully listed in search results (Microsoft)]]
+
+## Metadata
+
+**Authors:** Not fully listed in search results (Microsoft)
+
+**Year:** 2024
+
+**Type:** conferencePaper
+
+**Venue:** WebSearch: Megaverse benchmarking LLM
+
+**Languages:** 83 languages including Tamil, Telugu, Malayalam, Kannada
+
+**Benchmark:** MEGAVERSE
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2311.07463
+
+## Abstract
+
+Evaluation of non-English capabilities of LLMs including GPT-4, PaLM2, Gemini-Pro across 22 datasets covering 83 languages. Telugu, Malay, and Malayalam show high tokenizer fertility. Also includes multimodal evaluation.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent A2
+**Relevance:** Covers all four Dravidian languages in massive multilingual evaluation. Identifies tokenizer issues affecting morphologically complex Dravidian languages.
+
+## Tags
+

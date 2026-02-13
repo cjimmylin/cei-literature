@@ -17,10 +17,8 @@ authors: "[[Cheng Li, Mengzhou Chen, Jindong Wang, Sunayana Sitaram, Xing Xie]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2402.10946"
 external_pdf: "https://arxiv.org/pdf/2402.10946.pdf"
-local_pdf: "[[PDFs/2024-Xie-CultureLLM Incorporating Cultural Differences into Large.pdf]]"
-pdf_extract: "PDF Extracts/2024-Xie-CultureLLM Incorporating Cultural Differences into Large.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-Xie-CultureLLM Incorporating Cultural Differences into Large.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Xie-CultureLLM Incorporating Cultural Differences into Large.md"
 publication: arxiv.org / NeurIPS 2024
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

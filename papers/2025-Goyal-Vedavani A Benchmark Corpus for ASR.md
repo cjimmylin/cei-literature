@@ -17,10 +17,8 @@ authors: "[[Sujeet Kumar, Pretam Ray, Abhinay Beerukuri, Shrey Kamoji, Manoj Bal
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.00145"
 external_pdf: "https://arxiv.org/pdf/2506.00145.pdf"
-local_pdf: "[[PDFs/2025-Goyal-Vedavani A Benchmark Corpus for ASR.pdf]]"
-pdf_extract: "PDF Extracts/2025-Goyal-Vedavani A Benchmark Corpus for ASR.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Goyal-Vedavani A Benchmark Corpus for ASR.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Goyal-Vedavani A Benchmark Corpus for ASR.md"
 publication: World Sanskrit Conference 2025 / arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"

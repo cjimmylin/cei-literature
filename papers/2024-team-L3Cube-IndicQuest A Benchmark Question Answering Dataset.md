@@ -17,10 +17,8 @@ authors: "[[L3Cube Pune team]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2409.08706"
 external_pdf: "https://arxiv.org/pdf/2409.08706.pdf"
-local_pdf: "[[PDFs/2024-team-L3Cube-IndicQuest A Benchmark Question Answering Dataset.pdf]]"
-pdf_extract: "PDF Extracts/2024-team-L3Cube-IndicQuest A Benchmark Question Answering Dataset.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-team-L3Cube-IndicQuest A Benchmark Question Answering Dataset.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-team-L3Cube-IndicQuest A Benchmark Question Answering Dataset.md"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"

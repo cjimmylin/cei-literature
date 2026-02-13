@@ -16,9 +16,9 @@ last_author: "[[SOCIETY), Not fully identified in search (lead researcher publis
 authors: "[[Not fully identified in search (lead researcher published in AI & SOCIETY)]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://link.springer.com/content/pdf/10.1007/s00146-025-02450-3.pdf"
+local_pdf: "[[PDFs/2025/2025-SOCIETY-How Much of a Pluralist is.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-SOCIETY-How Much of a Pluralist is.md"
 publication: AI & SOCIETY (Springer)
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

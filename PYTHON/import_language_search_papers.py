@@ -170,6 +170,11 @@ def yaml_quote(value):
 def create_paper_file(paper, num, papers_dir, dry_run=False):
     """Create a paper .md file for a single paper from the language search."""
     authors = paper.get('authors', 'Unknown')
+    # Handle list-type authors from agent JSON reports
+    if isinstance(authors, list):
+        authors = '; '.join(a for a in authors if a and a.strip().lower() not in ('not fully extracted', 'and others'))
+    if not authors or (isinstance(authors, str) and authors.strip().lower() in ('unknown', 'n/a', 'none', '')):
+        authors = 'Unknown'
     title = paper.get('title', 'Untitled')
     year = str(paper.get('year', '2025'))
 
@@ -178,6 +183,7 @@ def create_paper_file(paper, num, papers_dir, dry_run=False):
     last_author_full = get_last_author_full(authors)
 
     short_title = sanitize_filename(title)
+    surname = re.sub(r'[<>:"/\\|?*\[\]\(\),;]', '', surname).strip()
     filename = f"{year}-{surname}-{short_title}.md"
     filepath = papers_dir / filename
 

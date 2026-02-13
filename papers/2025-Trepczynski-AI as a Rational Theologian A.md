@@ -16,9 +16,9 @@ last_author: "[[Trepczynski, Marcin]]"
 authors: "[[Marcin Trepczynski]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://doi.org/10.31338/uw.9788323569183"
+local_pdf: "[[PDFs/2025/2025-Trepczynski-AI as a Rational Theologian A.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Trepczynski-AI as a Rational Theologian A.md"
 publication: Wydawnictwa Uniwersytetu Warszawskiego (Warsaw University Press), monograph
 DATE_ADDED: 20260213
 ethics_overall: "No"

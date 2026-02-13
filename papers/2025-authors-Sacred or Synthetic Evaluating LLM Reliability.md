@@ -17,10 +17,8 @@ authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.08287"
 external_pdf: "https://arxiv.org/pdf/2508.08287.pdf"
-local_pdf: "[[PDFs/2025-authors-Sacred or Synthetic Evaluating LLM Reliability.pdf]]"
-pdf_extract: "PDF Extracts/2025-authors-Sacred or Synthetic Evaluating LLM Reliability.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-authors-Sacred or Synthetic Evaluating LLM Reliability.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-authors-Sacred or Synthetic Evaluating LLM Reliability.md"
 publication: AIES 2025 / arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"

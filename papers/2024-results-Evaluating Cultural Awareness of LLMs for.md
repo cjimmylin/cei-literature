@@ -17,10 +17,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.01811"
 external_pdf: "https://arxiv.org/pdf/2410.01811.pdf"
-local_pdf: "[[PDFs/2024-results-Evaluating Cultural Awareness of LLMs for.pdf]]"
-pdf_extract: "PDF Extracts/2024-results-Evaluating Cultural Awareness of LLMs for.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-results-Evaluating Cultural Awareness of LLMs for.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-results-Evaluating Cultural Awareness of LLMs for.md"
 publication: WebSearch: Malayalam cultural awareness LLM
 DATE_ADDED: 20260213
 ethics_overall: "No"

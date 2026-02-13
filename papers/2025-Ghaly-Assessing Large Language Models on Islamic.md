@@ -17,10 +17,8 @@ authors: "[[Abdessalam Bouchekif, Samer Rashwani, Heba Sbahi, Shahd Gaben, Mutaz
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.01081"
 external_pdf: "https://arxiv.org/pdf/2509.01081.pdf"
-local_pdf: "[[PDFs/2025-Ghaly-Assessing Large Language Models on Islamic.pdf]]"
-pdf_extract: "PDF Extracts/2025-Ghaly-Assessing Large Language Models on Islamic.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Ghaly-Assessing Large Language Models on Islamic.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Ghaly-Assessing Large Language Models on Islamic.md"
 publication: ArabicNLP 2025 (3rd Arabic NLP Conference) / arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"

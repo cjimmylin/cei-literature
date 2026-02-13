@@ -17,10 +17,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2507.18918"
 external_pdf: "https://arxiv.org/pdf/2507.18918.pdf"
-local_pdf: "[[PDFs/2025-results-Uncovering Cross-Linguistic Disparities in LLMs using.pdf]]"
-pdf_extract: "PDF Extracts/2025-results-Uncovering Cross-Linguistic Disparities in LLMs using.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-results-Uncovering Cross-Linguistic Disparities in LLMs using.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-results-Uncovering Cross-Linguistic Disparities in LLMs using.md"
 publication: WebSearch: cross-linguistic disparities LLM Malayalam
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

@@ -17,10 +17,8 @@ authors: "[[Mohamed Basem et al]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.06971"
 external_pdf: "https://arxiv.org/pdf/2508.06971.pdf"
-local_pdf: "[[PDFs/2025-Basem-Two-Stage Quranic QA via Ensemble Retrieval.pdf]]"
-pdf_extract: "PDF Extracts/2025-Basem-Two-Stage Quranic QA via Ensemble Retrieval.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Basem-Two-Stage Quranic QA via Ensemble Retrieval.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Basem-Two-Stage Quranic QA via Ensemble Retrieval.md"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"

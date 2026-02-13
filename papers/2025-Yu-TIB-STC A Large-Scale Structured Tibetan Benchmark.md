@@ -17,10 +17,8 @@ authors: "[[Cheng Huang, Fan Gao, Yutong Liu, Nyima Tashi, Xiangxiang Wang, Thup
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.18288"
 external_pdf: "https://arxiv.org/pdf/2503.18288.pdf"
-local_pdf: "[[PDFs/2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.pdf]]"
-pdf_extract: "PDF Extracts/2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.md"
 publication: arXiv preprint
 DATE_ADDED: 20260213
 ethics_overall: "No"

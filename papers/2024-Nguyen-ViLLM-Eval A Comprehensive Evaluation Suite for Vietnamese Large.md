@@ -1,0 +1,76 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0366
+type: preprint
+short_title: "ViLLM-Eval: A Comprehensive Evaluation Suite for Vietnamese Large Language Models"
+year: 2024
+first_author: "[[Trong-Hieu Nguyen]]"
+last_author: "[[Le-Minh Nguyen]]"
+authors: Trong-Hieu Nguyen, Quang-Bao Ta, Cuc Thi Bui, Phong Nguyen-Thuan Do, Le-Minh Nguyen
+url: "https://arxiv.org/abs/2404.11086"
+external_pdf: "https://arxiv.org/pdf/2404.11086.pdf"
+local_pdf: "[[PDFs/2024/2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large.md"
+publication: arXiv
+DATE_ADDED: 20260213
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Vietnamese"
+languages_list: "Vietnamese"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract: "The rapid advancement of large language models (LLMs) necessitates the development of new benchmarks to accurately assess their capabilities. To address this need for Vietnamese, this work aims to introduce ViLLM-Eval, the comprehensive evaluation suite designed to measure the advanced knowledge and reasoning abilities of foundation models within a Vietnamese context. ViLLM-Eval consists of multiple-choice questions and predict next word tasks spanning various difficulty levels and diverse..."
+research_topic: "NLP & Representation Learning"
+---
+# ViLLM-Eval: A Comprehensive Evaluation Suite for Vietnamese Large Language Models
+
+## Authors
+
+[[Trong-Hieu Nguyen, Quang-Bao Ta, Cuc Thi Bui, Phong Nguyen-Thuan Do, Le-Minh Nguyen]]
+
+## Metadata
+
+**Authors:** Trong-Hieu Nguyen, Quang-Bao Ta, Cuc Thi Bui, Phong Nguyen-Thuan Do, Le-Minh Nguyen
+
+**Year:** 2024
+
+**Type:** preprint
+
+**Venue:** arXiv
+
+**Languages:** Vietnamese
+
+**Benchmark:** ViLLM-Eval
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2404.11086
+- **Code/Data:** https://huggingface.co/datasets/vlsp-2023-vllm/ViLLM-Eval
+
+## Abstract
+
+Comprehensive evaluation suite for Vietnamese LLMs from VLSP 2023 shared task. Includes LAMBADA Vietnamese (contextual reasoning) and Exam Vietnamese (grades 6-12 multiple-choice across Math, Physics, Chemistry, Biology, History, Geography, Literature).
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent B5
+**Relevance:** Vietnamese LLM evaluation covering cultural knowledge subjects (History, Geography, Literature) from Vietnamese education system.
+
+## Tags
+

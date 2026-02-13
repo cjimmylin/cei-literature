@@ -17,10 +17,8 @@ authors: "[[Odunayo Ogundepo, Tajuddeen R. Gwadabe, Clara E. Rivera, Jonathan H.
 authors_incomplete: false
 url: "https://arxiv.org/abs/2305.06897"
 external_pdf: "https://arxiv.org/pdf/2305.06897.pdf"
-local_pdf: "[[PDFs/2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.pdf]]"
-pdf_extract: "PDF Extracts/2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2023/2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.md"
 publication: WebSearch: AfriQA cross-lingual question answering African languages
 DATE_ADDED: 20260213
 ethics_overall: "No"

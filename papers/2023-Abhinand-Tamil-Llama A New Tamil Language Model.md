@@ -17,10 +17,8 @@ authors: "[[Abhinand]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2311.05845"
 external_pdf: "https://arxiv.org/pdf/2311.05845.pdf"
-local_pdf: "[[PDFs/2023-Abhinand-Tamil-Llama A New Tamil Language Model.pdf]]"
-pdf_extract: "PDF Extracts/2023-Abhinand-Tamil-Llama A New Tamil Language Model.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2023/2023-Abhinand-Tamil-Llama A New Tamil Language Model.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Abhinand-Tamil-Llama A New Tamil Language Model.md"
 publication: WebSearch: Tamil LLM evaluation
 DATE_ADDED: 20260213
 ethics_overall: "No"

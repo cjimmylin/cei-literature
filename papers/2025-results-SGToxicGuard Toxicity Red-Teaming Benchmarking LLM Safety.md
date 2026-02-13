@@ -17,10 +17,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.15260"
 external_pdf: "https://arxiv.org/pdf/2509.15260.pdf"
-local_pdf: "[[PDFs/2025-results-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.pdf]]"
-pdf_extract: "PDF Extracts/2025-results-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-results-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-results-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.md"
 publication: WebSearch: SGToxicGuard Tamil safety
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

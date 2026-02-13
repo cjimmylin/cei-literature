@@ -17,10 +17,8 @@ authors: "[[Mohammad Aghajani Asl, Behrooz Minaei Bidgoli]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.25621"
 external_pdf: "https://arxiv.org/pdf/2510.25621.pdf"
-local_pdf: "[[PDFs/2025-Bidgoli-FARSIQA Faithful and Advanced RAG System.pdf]]"
-pdf_extract: "PDF Extracts/2025-Bidgoli-FARSIQA Faithful and Advanced RAG System.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Bidgoli-FARSIQA Faithful and Advanced RAG System.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Bidgoli-FARSIQA Faithful and Advanced RAG System.md"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

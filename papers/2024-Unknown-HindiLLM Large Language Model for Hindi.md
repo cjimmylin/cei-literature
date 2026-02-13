@@ -17,10 +17,8 @@ authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2412.20357"
 external_pdf: "https://arxiv.org/pdf/2412.20357.pdf"
-local_pdf: "[[PDFs/2024-Unknown-HindiLLM Large Language Model for Hindi.pdf]]"
-pdf_extract: "PDF Extracts/2024-Unknown-HindiLLM Large Language Model for Hindi.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-Unknown-HindiLLM Large Language Model for Hindi.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Unknown-HindiLLM Large Language Model for Hindi.md"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"

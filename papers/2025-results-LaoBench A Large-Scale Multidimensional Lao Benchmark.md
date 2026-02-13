@@ -17,10 +17,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2511.11334"
 external_pdf: "https://arxiv.org/pdf/2511.11334.pdf"
-local_pdf: "[[PDFs/2025-results-LaoBench A Large-Scale Multidimensional Lao Benchmark.pdf]]"
-pdf_extract: "PDF Extracts/2025-results-LaoBench A Large-Scale Multidimensional Lao Benchmark.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-results-LaoBench A Large-Scale Multidimensional Lao Benchmark.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-results-LaoBench A Large-Scale Multidimensional Lao Benchmark.md"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

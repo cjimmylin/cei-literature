@@ -17,10 +17,8 @@ authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2407.04459"
 external_pdf: "https://arxiv.org/pdf/2407.04459.pdf"
-local_pdf: "[[PDFs/2024-Unknown-Generalists vs Specialists Evaluating Large Language.pdf]]"
-pdf_extract: "PDF Extracts/2024-Unknown-Generalists vs Specialists Evaluating Large Language.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-Unknown-Generalists vs Specialists Evaluating Large Language.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Unknown-Generalists vs Specialists Evaluating Large Language.md"
 publication: EMNLP 2024
 DATE_ADDED: 20260213
 ethics_overall: "No"

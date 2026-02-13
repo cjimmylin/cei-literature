@@ -17,10 +17,8 @@ authors: "[[Abdullah Mushtaq, Rafay Naeem, Ezieddin Elmahjub, Ibrahim Ghaznavi, 
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.24438"
 external_pdf: "https://arxiv.org/pdf/2510.24438.pdf"
-local_pdf: "[[PDFs/2025-Qadir-Can LLMs Write Faithfully An Agent-Based.pdf]]"
-pdf_extract: "PDF Extracts/2025-Qadir-Can LLMs Write Faithfully An Agent-Based.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Qadir-Can LLMs Write Faithfully An Agent-Based.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Qadir-Can LLMs Write Faithfully An Agent-Based.md"
 publication: NeurIPS 2025 Workshop on Muslims in Machine Learning / arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"

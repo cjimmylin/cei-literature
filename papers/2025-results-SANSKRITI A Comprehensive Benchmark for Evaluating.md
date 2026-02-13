@@ -17,10 +17,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-acl.228/"
 external_pdf: "https://arxiv.org/pdf/2506.15355.pdf"
-local_pdf: "[[PDFs/2025-results-SANSKRITI A Comprehensive Benchmark for Evaluating.pdf]]"
-pdf_extract: "PDF Extracts/2025-results-SANSKRITI A Comprehensive Benchmark for Evaluating.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-results-SANSKRITI A Comprehensive Benchmark for Evaluating.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-results-SANSKRITI A Comprehensive Benchmark for Evaluating.md"
 publication: WebSearch: SANSKRITI benchmark
 DATE_ADDED: 20260213
 ethics_overall: "No"

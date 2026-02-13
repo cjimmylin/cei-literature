@@ -17,10 +17,8 @@ authors: "[[Sampoorna Poria]]; [[Xiaolei Huang]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.11570"
 external_pdf: "https://arxiv.org/pdf/2509.11570.pdf"
-local_pdf: "[[PDFs/2025-Poria-Bhaasha Bhasa Zaban A Survey for.pdf]]"
-pdf_extract: "PDF Extracts/2025-Poria-Bhaasha Bhasa Zaban A Survey for.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Poria-Bhaasha Bhasa Zaban A Survey for.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Poria-Bhaasha Bhasa Zaban A Survey for.md"
 publication: EMNLP 2025
 DATE_ADDED: 20260213
 ethics_overall: "No"

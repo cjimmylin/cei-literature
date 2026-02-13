@@ -16,9 +16,9 @@ last_author: "[[Rajiakodi]]"
 authors: "[[Chakravarthi]]; [[Rajiakodi]]; [[and others]]"
 authors_incomplete: false
 url: "https://link.springer.com/article/10.1007/s10579-025-09848-x"
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://link.springer.com/content/pdf/10.1007/s10579-025-09848-x.pdf"
+local_pdf: "[[PDFs/2025/2025-Chakravarthi-Detecting Caste and Migration Hate Speech.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Chakravarthi-Detecting Caste and Migration Hate Speech.md"
 publication: WebSearch: Tamil caste migration hate speech
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

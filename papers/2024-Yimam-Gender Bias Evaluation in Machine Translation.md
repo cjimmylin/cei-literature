@@ -17,10 +17,8 @@ authors: "[[Walelign Sewunetie, Atnafu Tonja, Tadesse Belay, Hellina Hailu Nigat
 authors_incomplete: false
 url: "https://aclanthology.org/2024.gitt-1.1/"
 external_pdf: "https://aclanthology.org/2024.gitt-1.1.pdf"
-local_pdf: "[[PDFs/2024-Yimam-Gender Bias Evaluation in Machine Translation.pdf]]"
-pdf_extract: "PDF Extracts/2024-Yimam-Gender Bias Evaluation in Machine Translation.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-Yimam-Gender Bias Evaluation in Machine Translation.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Yimam-Gender Bias Evaluation in Machine Translation.md"
 publication: WebSearch: gender bias machine translation Amharic Oromo Tigrinya benchmark
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

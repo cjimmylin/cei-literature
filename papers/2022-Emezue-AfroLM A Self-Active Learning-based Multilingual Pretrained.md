@@ -17,10 +17,8 @@ authors: "[[Bonaventure F. P. Dossou, Atnafu Lambebo Tonja, Oreen Yousuf, Salome
 authors_incomplete: false
 url: "https://arxiv.org/abs/2211.03263"
 external_pdf: "https://arxiv.org/pdf/2211.03263.pdf"
-local_pdf: "[[PDFs/2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained.pdf]]"
-pdf_extract: "PDF Extracts/2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2022/2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained.md"
 publication: WebSearch: AfroLM OR AfricanNLP benchmark values evaluation
 DATE_ADDED: 20260213
 ethics_overall: "No"

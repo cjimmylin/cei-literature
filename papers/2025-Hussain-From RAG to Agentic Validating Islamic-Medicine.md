@@ -17,10 +17,8 @@ authors: "[[Mohammad Amaan Sayeed, Mohammed Talha Alam, Raza Imam, Shahab Saquib
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.15911"
 external_pdf: "https://arxiv.org/pdf/2506.15911.pdf"
-local_pdf: "[[PDFs/2025-Hussain-From RAG to Agentic Validating Islamic-Medicine.pdf]]"
-pdf_extract: "PDF Extracts/2025-Hussain-From RAG to Agentic Validating Islamic-Medicine.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Hussain-From RAG to Agentic Validating Islamic-Medicine.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Hussain-From RAG to Agentic Validating Islamic-Medicine.md"
 publication: Muslims in Machine Learning Workshop at ICML 2025 / arXiv
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

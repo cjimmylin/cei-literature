@@ -110,7 +110,7 @@ def load_existing_papers() -> list:
     for p in sorted(PAPERS_DIR.glob("*.md")):
         try:
             content = p.read_text(encoding='utf-8')
-            fm_text = extract_frontmatter(content)
+            fm_text, _ = extract_frontmatter(content)
             if not fm_text:
                 continue
             fields = parse_frontmatter(fm_text)

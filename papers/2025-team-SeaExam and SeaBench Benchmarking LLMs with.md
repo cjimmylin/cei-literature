@@ -17,10 +17,8 @@ authors: "[[DAMO NLP SG team]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.06298"
 external_pdf: "https://arxiv.org/pdf/2502.06298.pdf"
-local_pdf: "[[PDFs/2025-team-SeaExam and SeaBench Benchmarking LLMs with.pdf]]"
-pdf_extract: "PDF Extracts/2025-team-SeaExam and SeaBench Benchmarking LLMs with.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-team-SeaExam and SeaBench Benchmarking LLMs with.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-team-SeaExam and SeaBench Benchmarking LLMs with.md"
 publication: NAACL 2025 Findings
 DATE_ADDED: 20260213
 ethics_overall: "No"

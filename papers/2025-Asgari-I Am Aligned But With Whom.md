@@ -17,10 +17,8 @@ authors: "[[Pardis Sadat Zahraei, Ehsaneddin Asgari]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.13154"
 external_pdf: "https://arxiv.org/pdf/2510.13154.pdf"
-local_pdf: "[[PDFs/2025-Asgari-I Am Aligned But With Whom.pdf]]"
-pdf_extract: "PDF Extracts/2025-Asgari-I Am Aligned But With Whom.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Asgari-I Am Aligned But With Whom.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Asgari-I Am Aligned But With Whom.md"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

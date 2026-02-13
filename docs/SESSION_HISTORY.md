@@ -2,6 +2,55 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 64 (Feb 13, 2026) - Language Search Waves 2-3 (A6-B5) Import
+
+### Overview
+
+Processed the 10 unprocessed language search agent reports (A6-A10 from Wave 2, B1-B5 from Wave 3) that were left on disk after Session 63 only imported A1-A5. Re-ran consolidation for all 15 agents, imported 345 new LSRC papers, ran the full download-extract-classify pipeline, found additional PDFs with comprehensive finder, fixed several bugs in the import pipeline, and migrated all flat PDFs to year-based directories.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Agents processed | 15 (A1-A10 + B1-B5), 10 newly processed |
+| Raw candidates | 718 |
+| After internal dedup | 557 (72 merge groups) |
+| Already in vault | 173 |
+| Papers imported (LSRC) | 345 (42 skipped as filename collisions) |
+| PDFs: batch download | 143/145 (98.6%) |
+| PDFs: comprehensive finder | 89 additional |
+| Total PDFs acquired | 261/345 (75.7%) |
+| PDFs extracted | 261/261 (100%) |
+| Papers classified (7-stage) | 345/345, 161 ethics=Yes (47%) |
+| Duplicate YAML lines fixed | 408 local_pdf + 53 pdf_extract |
+| PDFs migrated to year dirs | 497 PDFs + 497 extracts |
+| Vault total | 1513 papers, 1412 PDFs, 1699 extracts |
+| Validation | 1513/1513 pass, 0 errors |
+
+### Bugs Fixed
+
+1. **`consolidate_language_search.py` — tuple unpacking:** `extract_frontmatter()` returns `(fm, body)` tuple but script assigned to single var → `parse_frontmatter()` crashed on tuple → 0 existing papers loaded → cross-reference failed silently (0 "already in vault"). Fixed: `fm_text, _ = extract_frontmatter(content)`
+2. **`import_language_search_papers.py` — list authors:** Agent JSON `authors` field is a Python list, not string → `authors_str.lower()` crashed. Fixed: added `'; '.join()` conversion + filter for "Not fully extracted" / "and others"
+3. **`import_language_search_papers.py` — null authors:** Some papers have `authors: null` in JSON → `.get('authors', 'Unknown')` returns `None` (key exists) → `None.replace()` crashed. Fixed: added explicit None guard
+4. **Duplicate YAML lines:** `batch_download_pdfs.py` and `batch_extract_pdfs.py` INSERT new `local_pdf:`/`pdf_extract:` lines after `external_pdf:` without removing the original blank lines from import → `parse_frontmatter()` reads the second (blank) line, hiding the actual value. Fixed with batch dedup cleanup
+
+### Key Learnings
+
+- **Silent failures are dangerous:** The consolidation script loading 0 vault papers produced 0 "already in vault" matches — which looked plausible (could mean all papers are new). Always sanity-check cross-reference counts against expected ranges
+- **JSON `.get()` default not used when key exists with null value:** `dict.get('key', 'default')` returns `None` when `{'key': None}` — the default only triggers on missing keys
+- **Batch scripts INSERT instead of REPLACE:** The batch download/extract scripts insert YAML fields in new positions rather than updating the existing blank placeholders from import. This creates duplicate fields that silently break `parse_frontmatter()` reads
+- **System Python vs venv Python:** Background bash `&` processes use system Python (`/Library/Developer/...Python3.9`) not `../.venv/bin/python` — logs stay empty due to missing packages or different stdout buffering
+
+### Files Changed
+
+- papers/: 345 new LSRC papers + 497 modified (PDF path migration)
+- PYTHON/: 2 scripts bugfixed (`consolidate_language_search.py`, `import_language_search_papers.py`)
+- PDFs/: 261 new + 497 migrated to year subdirs
+- PDF Extracts/: 261 new + 497 migrated to year subdirs
+- logs/: 15+ new files (download/extract/classify/finder batch logs, updated master list)
+
+---
+
 ## Session 63 (Feb 13, 2026) - Religious & Language Search Consolidation + Import
 
 ### Overview

@@ -16,9 +16,9 @@ last_author: "[[Jiahuan Cao, Yang Liu, Yongxin Shi, Kai Ding, Lianwen Jin]]"
 authors: "[[Jiahuan Cao, Yang Liu, Yongxin Shi, Kai Ding, Lianwen Jin]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://openreview.net/pdf?id=ZWxM9OG7m5"
+local_pdf: "[[PDFs/2024/2024-Jin-WenMind A Comprehensive Benchmark for Evaluating.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Jin-WenMind A Comprehensive Benchmark for Evaluating.md"
 publication: NeurIPS 2024 (Datasets and Benchmarks Track)
 DATE_ADDED: 20260213
 ethics_overall: "No"

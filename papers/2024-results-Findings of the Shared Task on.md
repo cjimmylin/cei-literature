@@ -17,10 +17,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2024.dravidianlangtech-1.8/"
 external_pdf: "https://aclanthology.org/2024.dravidianlangtech-1.8.pdf"
-local_pdf: "[[PDFs/2024-results-Findings of the Shared Task on.pdf]]"
-pdf_extract: "PDF Extracts/2024-results-Findings of the Shared Task on.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-results-Findings of the Shared Task on.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-results-Findings of the Shared Task on.md"
 publication: WebSearch: DravidianLangTech shared task
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

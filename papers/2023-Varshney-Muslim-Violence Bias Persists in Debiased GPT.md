@@ -17,10 +17,8 @@ authors: "[[Babak Hemmatian, Lav R. Varshney]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2310.18368"
 external_pdf: "https://arxiv.org/pdf/2310.18368.pdf"
-local_pdf: "[[PDFs/2023-Varshney-Muslim-Violence Bias Persists in Debiased GPT.pdf]]"
-pdf_extract: "PDF Extracts/2023-Varshney-Muslim-Violence Bias Persists in Debiased GPT.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2023/2023-Varshney-Muslim-Violence Bias Persists in Debiased GPT.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Varshney-Muslim-Violence Bias Persists in Debiased GPT.md"
 publication: NeurIPS 2023 Workshop / arXiv
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

@@ -17,10 +17,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.07346"
 external_pdf: "https://arxiv.org/pdf/2502.07346.pdf"
-local_pdf: "[[PDFs/2025-results-BenchMAX A Comprehensive Multilingual Evaluation Suite.pdf]]"
-pdf_extract: "PDF Extracts/2025-results-BenchMAX A Comprehensive Multilingual Evaluation Suite.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-results-BenchMAX A Comprehensive Multilingual Evaluation Suite.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-results-BenchMAX A Comprehensive Multilingual Evaluation Suite.md"
 publication: WebSearch: BenchMAX multilingual evaluation
 DATE_ADDED: 20260213
 ethics_overall: "No"

@@ -16,9 +16,9 @@ last_author: "[[Munn, Luke]]"
 authors: "[[Luke Munn]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://link.springer.com/content/pdf/10.1007/s00146-023-01636-x.pdf"
+local_pdf: "[[PDFs/2023/2023-Munn-The Five Tests Designing and Evaluating.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Munn-The Five Tests Designing and Evaluating.md"
 publication: AI & Society (Springer)
 DATE_ADDED: 20260213
 ethics_overall: "No"

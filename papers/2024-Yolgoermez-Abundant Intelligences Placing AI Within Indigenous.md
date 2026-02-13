@@ -16,9 +16,9 @@ last_author: "[[Jason Edward Lewis, Hemi Whaanga, Ceyda Yolgoermez]]"
 authors: "[[Jason Edward Lewis, Hemi Whaanga, Ceyda Yolgoermez]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://link.springer.com/content/pdf/10.1007/s00146-024-02099-4.pdf"
+local_pdf: "[[PDFs/2024/2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous.md"
 publication: AI & Society (Springer)
 DATE_ADDED: 20260213
 ethics_overall: "No"

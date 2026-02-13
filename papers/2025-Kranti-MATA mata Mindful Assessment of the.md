@@ -17,10 +17,8 @@ authors: "[[Chalamalasetti Kranti]]; [[and others]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.13526"
 external_pdf: "https://arxiv.org/pdf/2508.13526.pdf"
-local_pdf: "[[PDFs/2025-Kranti-MATA mata Mindful Assessment of the.pdf]]"
-pdf_extract: "PDF Extracts/2025-Kranti-MATA mata Mindful Assessment of the.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Kranti-MATA mata Mindful Assessment of the.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Kranti-MATA mata Mindful Assessment of the.md"
 publication: WebSearch: MATA Telugu benchmark
 DATE_ADDED: 20260213
 ethics_overall: "No"

@@ -17,10 +17,8 @@ authors: "[[Guilin Lin, Jie Fu, Weiwei Sun]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2110.05896"
 external_pdf: "https://arxiv.org/pdf/2110.05896.pdf"
-local_pdf: "[[PDFs/2021-Sun-LaoPLM Pre-trained Language Models for Lao.pdf]]"
-pdf_extract: "PDF Extracts/2021-Sun-LaoPLM Pre-trained Language Models for Lao.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2021/2021-Sun-LaoPLM Pre-trained Language Models for Lao.pdf]]"
+pdf_extract: "PDF Extracts/2021/2021-Sun-LaoPLM Pre-trained Language Models for Lao.md"
 publication: ACL Anthology (LREC 2022)
 DATE_ADDED: 20260213
 ethics_overall: "No"

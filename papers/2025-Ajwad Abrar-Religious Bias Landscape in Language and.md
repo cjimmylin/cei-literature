@@ -17,10 +17,8 @@ authors: "[[Ajwad Abrar,]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.08441"
 external_pdf: "https://arxiv.org/pdf/2501.08441.pdf"
-local_pdf: "[[PDFs/2025-Ajwad Abrar-Religious Bias Landscape in Language and.pdf]]"
-pdf_extract: "PDF Extracts/2025-Ajwad Abrar-Religious Bias Landscape in Language and.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Ajwad Abrar-Religious Bias Landscape in Language and.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Ajwad Abrar-Religious Bias Landscape in Language and.md"
 publication: AI & Society (Springer) / arXiv
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

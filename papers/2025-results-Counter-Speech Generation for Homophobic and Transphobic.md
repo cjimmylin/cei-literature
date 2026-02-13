@@ -16,9 +16,9 @@ last_author: "[[results, Not fully listed in search]]"
 authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://link.springer.com/article/10.1007/s13278-025-01507-x"
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://link.springer.com/content/pdf/10.1007/s13278-025-01507-x.pdf"
+local_pdf: "[[PDFs/2025/2025-results-Counter-Speech Generation for Homophobic and Transphobic.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-results-Counter-Speech Generation for Homophobic and Transphobic.md"
 publication: WebSearch: Malayalam hate speech counter-speech
 DATE_ADDED: 20260213
 ethics_overall: "No"

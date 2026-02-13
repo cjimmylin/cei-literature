@@ -17,10 +17,8 @@ authors: "[[Singh]]; [[Gupta]]; [[and others (Google)]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.16816"
 external_pdf: "https://arxiv.org/pdf/2404.16816.pdf"
-local_pdf: "[[PDFs/2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate.pdf]]"
-pdf_extract: "PDF Extracts/2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate.md"
 publication: WebSearch: IndicGenBench
 DATE_ADDED: 20260213
 ethics_overall: "No"

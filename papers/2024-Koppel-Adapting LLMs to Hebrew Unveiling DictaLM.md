@@ -17,10 +17,8 @@ authors: "[[Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.07080"
 external_pdf: "https://arxiv.org/pdf/2407.07080.pdf"
-local_pdf: "[[PDFs/2024-Koppel-Adapting LLMs to Hebrew Unveiling DictaLM.pdf]]"
-pdf_extract: "PDF Extracts/2024-Koppel-Adapting LLMs to Hebrew Unveiling DictaLM.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-Koppel-Adapting LLMs to Hebrew Unveiling DictaLM.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Koppel-Adapting LLMs to Hebrew Unveiling DictaLM.md"
 publication: arXiv preprint
 DATE_ADDED: 20260213
 ethics_overall: "No"

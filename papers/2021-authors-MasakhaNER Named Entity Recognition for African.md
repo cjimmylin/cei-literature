@@ -17,10 +17,8 @@ authors: "[[David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D'souza, 
 authors_incomplete: false
 url: "https://arxiv.org/abs/2103.11811"
 external_pdf: "https://arxiv.org/pdf/2103.11811.pdf"
-local_pdf: "[[PDFs/2021-authors-MasakhaNER Named Entity Recognition for African.pdf]]"
-pdf_extract: "PDF Extracts/2021-authors-MasakhaNER Named Entity Recognition for African.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2021/2021-authors-MasakhaNER Named Entity Recognition for African.pdf]]"
+pdf_extract: "PDF Extracts/2021/2021-authors-MasakhaNER Named Entity Recognition for African.md"
 publication: WebSearch: MasakhaNER African languages named entity recognition
 DATE_ADDED: 20260213
 ethics_overall: "No"

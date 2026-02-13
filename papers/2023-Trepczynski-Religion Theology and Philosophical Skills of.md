@@ -16,9 +16,9 @@ last_author: "[[Trepczynski, Marcin]]"
 authors: "[[Marcin Trepczynski]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://hrcak.srce.hr/file/453637"
+local_pdf: "[[PDFs/2023/2023-Trepczynski-Religion Theology and Philosophical Skills of.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Trepczynski-Religion Theology and Philosophical Skills of.md"
 publication: Disputatio philosophica: International Journal on Philosophy and Religion, 25(1), 19--36
 DATE_ADDED: 20260213
 ethics_overall: "No"

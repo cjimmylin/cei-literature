@@ -17,10 +17,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2507.08898"
 external_pdf: "https://arxiv.org/pdf/2507.08898.pdf"
-local_pdf: "[[PDFs/2025-results-SEALGuard Safeguarding the Multilingual Conversations in.pdf]]"
-pdf_extract: "PDF Extracts/2025-results-SEALGuard Safeguarding the Multilingual Conversations in.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-results-SEALGuard Safeguarding the Multilingual Conversations in.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-results-SEALGuard Safeguarding the Multilingual Conversations in.md"
 publication: AIware 2025
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

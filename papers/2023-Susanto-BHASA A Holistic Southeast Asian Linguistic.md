@@ -17,10 +17,8 @@ authors: "[[Yosephine Susanto et al]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2309.06085"
 external_pdf: "https://arxiv.org/pdf/2309.06085.pdf"
-local_pdf: "[[PDFs/2023-Susanto-BHASA A Holistic Southeast Asian Linguistic.pdf]]"
-pdf_extract: "PDF Extracts/2023-Susanto-BHASA A Holistic Southeast Asian Linguistic.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2023/2023-Susanto-BHASA A Holistic Southeast Asian Linguistic.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Susanto-BHASA A Holistic Southeast Asian Linguistic.md"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"

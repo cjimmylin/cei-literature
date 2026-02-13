@@ -17,10 +17,8 @@ authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2505.17332"
 external_pdf: "https://arxiv.org/pdf/2505.17332.pdf"
-local_pdf: "[[PDFs/2025-Unknown-SweEval Do LLMs Really Swear A.pdf]]"
-pdf_extract: "PDF Extracts/2025-Unknown-SweEval Do LLMs Really Swear A.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Unknown-SweEval Do LLMs Really Swear A.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Unknown-SweEval Do LLMs Really Swear A.md"
 publication: NAACL 2025
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

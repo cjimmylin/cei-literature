@@ -17,10 +17,8 @@ authors: "[[Yuhang Wang, Yanxu Zhu, Chao Kong, Shuyu Wei, Xiaoyuan Yi, Xing Xie,
 authors_incomplete: false
 url: "https://arxiv.org/abs/2311.16421"
 external_pdf: "https://arxiv.org/pdf/2311.16421.pdf"
-local_pdf: "[[PDFs/2024-Sang-CDEval A Benchmark for Measuring the.pdf]]"
-pdf_extract: "PDF Extracts/2024-Sang-CDEval A Benchmark for Measuring the.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-Sang-CDEval A Benchmark for Measuring the.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Sang-CDEval A Benchmark for Measuring the.md"
 publication: Proceedings of the 2nd Workshop on Cross-Cultural Considerations in NLP (C3NLP @ LREC-COLING 2024)
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

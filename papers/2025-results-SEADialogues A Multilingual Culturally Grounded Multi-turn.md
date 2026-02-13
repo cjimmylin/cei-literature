@@ -17,10 +17,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.07069"
 external_pdf: "https://arxiv.org/pdf/2508.07069.pdf"
-local_pdf: "[[PDFs/2025-results-SEADialogues A Multilingual Culturally Grounded Multi-turn.pdf]]"
-pdf_extract: "PDF Extracts/2025-results-SEADialogues A Multilingual Culturally Grounded Multi-turn.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-results-SEADialogues A Multilingual Culturally Grounded Multi-turn.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-results-SEADialogues A Multilingual Culturally Grounded Multi-turn.md"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"

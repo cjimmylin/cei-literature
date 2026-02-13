@@ -17,10 +17,8 @@ authors: "[[Cagri Toraman, Furkan Sahinuc, Eyup Halit Yilmaz]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2203.01111"
 external_pdf: "https://arxiv.org/pdf/2203.01111.pdf"
-local_pdf: "[[PDFs/2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.pdf]]"
-pdf_extract: "PDF Extracts/2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2022/2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.md"
 publication: LREC 2022 / arxiv
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

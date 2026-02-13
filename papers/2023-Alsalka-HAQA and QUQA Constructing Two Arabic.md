@@ -16,9 +16,9 @@ last_author: "[[Sarah Alnefaie, Eric Atwell, Mohammad Ammar Alsalka]]"
 authors: "[[Sarah Alnefaie, Eric Atwell, Mohammad Ammar Alsalka]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://doi.org/10.26615/978-954-452-092-2_010"
+local_pdf: "[[PDFs/2023/2023-Alsalka-HAQA and QUQA Constructing Two Arabic.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Alsalka-HAQA and QUQA Constructing Two Arabic.md"
 publication: RANLP 2023 / ACL Anthology
 DATE_ADDED: 20260213
 ethics_overall: "No"

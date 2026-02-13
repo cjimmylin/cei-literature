@@ -16,9 +16,9 @@ last_author: "[[Sahoo]]"
 authors: "[[Sahoo]]; [[and others]]"
 authors_incomplete: false
 url: "https://ojs.aaai.org/index.php/AAAI/article/view/30237"
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://ojs.aaai.org/index.php/AAAI/article/download/30237/32202"
+local_pdf: "[[PDFs/2024/2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating.md"
 publication: WebSearch: IndicCONAN hate speech
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

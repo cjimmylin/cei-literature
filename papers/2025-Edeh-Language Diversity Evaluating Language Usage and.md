@@ -17,10 +17,8 @@ authors: "[[Edward Ajayi, Eudoxie Umwari, Mawuli Deku, Prosper Singadi, Jules Ud
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.01557"
 external_pdf: "https://arxiv.org/pdf/2512.01557.pdf"
-local_pdf: "[[PDFs/2025-Edeh-Language Diversity Evaluating Language Usage and.pdf]]"
-pdf_extract: "PDF Extracts/2025-Edeh-Language Diversity Evaluating Language Usage and.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Edeh-Language Diversity Evaluating Language Usage and.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Edeh-Language Diversity Evaluating Language Usage and.md"
 publication: WebSearch: language diversity evaluating AI performance African languages
 DATE_ADDED: 20260213
 ethics_overall: "No"

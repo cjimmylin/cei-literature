@@ -17,10 +17,8 @@ authors: "[[Hao Yu, Jesujoba O. Alabi, Andiswa Bukula, Jian Yun Zhuang, En-Shiun
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.09814"
 external_pdf: "https://arxiv.org/pdf/2502.09814.pdf"
-local_pdf: "[[PDFs/2025-Adelani-INJONGO A Multicultural Intent Detection and.pdf]]"
-pdf_extract: "PDF Extracts/2025-Adelani-INJONGO A Multicultural Intent Detection and.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Adelani-INJONGO A Multicultural Intent Detection and.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Adelani-INJONGO A Multicultural Intent Detection and.md"
 publication: WebSearch: INJONGO multicultural intent detection African languages
 DATE_ADDED: 20260213
 ethics_overall: "No"

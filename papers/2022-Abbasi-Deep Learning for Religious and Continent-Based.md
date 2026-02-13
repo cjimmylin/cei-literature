@@ -16,9 +16,9 @@ last_author: "[[Abbasi, A., Javed, A.R., Iqbal, F.,]]"
 authors: "[[Abbasi, A., Javed, A.R., Iqbal, F.,]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://www.nature.com/articles/s41598-022-22523-3.pdf"
+local_pdf: "[[PDFs/2022/2022-Abbasi-Deep Learning for Religious and Continent-Based.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Abbasi-Deep Learning for Religious and Continent-Based.md"
 publication: Scientific Reports (Nature)
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

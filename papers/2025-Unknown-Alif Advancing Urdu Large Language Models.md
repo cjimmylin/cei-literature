@@ -17,10 +17,8 @@ authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2510.09051"
 external_pdf: "https://arxiv.org/pdf/2510.09051.pdf"
-local_pdf: "[[PDFs/2025-Unknown-Alif Advancing Urdu Large Language Models.pdf]]"
-pdf_extract: "PDF Extracts/2025-Unknown-Alif Advancing Urdu Large Language Models.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Unknown-Alif Advancing Urdu Large Language Models.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Unknown-Alif Advancing Urdu Large Language Models.md"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

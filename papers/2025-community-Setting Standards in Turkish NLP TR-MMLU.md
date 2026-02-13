@@ -17,10 +17,8 @@ authors: "[[Multiple authors (Turkish NLP community)]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.00593"
 external_pdf: "https://arxiv.org/pdf/2501.00593.pdf"
-local_pdf: "[[PDFs/2025-community-Setting Standards in Turkish NLP TR-MMLU.pdf]]"
-pdf_extract: "PDF Extracts/2025-community-Setting Standards in Turkish NLP TR-MMLU.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-community-Setting Standards in Turkish NLP TR-MMLU.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-community-Setting Standards in Turkish NLP TR-MMLU.md"
 publication: arxiv.org
 DATE_ADDED: 20260213
 ethics_overall: "No"

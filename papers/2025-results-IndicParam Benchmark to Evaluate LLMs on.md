@@ -17,10 +17,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.00333"
 external_pdf: "https://arxiv.org/pdf/2512.00333.pdf"
-local_pdf: "[[PDFs/2025-results-IndicParam Benchmark to Evaluate LLMs on.pdf]]"
-pdf_extract: "PDF Extracts/2025-results-IndicParam Benchmark to Evaluate LLMs on.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-results-IndicParam Benchmark to Evaluate LLMs on.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-results-IndicParam Benchmark to Evaluate LLMs on.md"
 publication: WebSearch: IndicParam benchmark
 DATE_ADDED: 20260213
 ethics_overall: "No"

@@ -16,9 +16,9 @@ last_author: "[[Zhang, Song, Liu]]"
 authors: "[[Zhang, Song, Liu]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://www.nature.com/articles/s41598-025-99121-6.pdf"
+local_pdf: "[[PDFs/2025/2025-Zhang-Cognitive Bias in Generative AI Influences.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Zhang-Cognitive Bias in Generative AI Influences.md"
 publication: Scientific Reports (Nature)
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

@@ -17,10 +17,8 @@ authors: "[[Shivalika Singh, Angelika Romanou, Clementine Fourrier, David I. Ade
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.03304"
 external_pdf: "https://arxiv.org/pdf/2412.03304.pdf"
-local_pdf: "[[PDFs/2024-Hooker-Global MMLU Understanding and Addressing Cultural.pdf]]"
-pdf_extract: "PDF Extracts/2024-Hooker-Global MMLU Understanding and Addressing Cultural.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-Hooker-Global MMLU Understanding and Addressing Cultural.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Hooker-Global MMLU Understanding and Addressing Cultural.md"
 publication: WebSearch: Global MMLU cultural bias African languages evaluation
 DATE_ADDED: 20260213
 ethics_overall: "No"

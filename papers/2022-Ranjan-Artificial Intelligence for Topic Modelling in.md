@@ -17,10 +17,8 @@ authors: "[[Rohitash Chandra, Mukul Ranjan]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2205.11020"
 external_pdf: "https://arxiv.org/pdf/2205.11020.pdf"
-local_pdf: "[[PDFs/2022-Ranjan-Artificial Intelligence for Topic Modelling in.pdf]]"
-pdf_extract: "PDF Extracts/2022-Ranjan-Artificial Intelligence for Topic Modelling in.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2022/2022-Ranjan-Artificial Intelligence for Topic Modelling in.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Ranjan-Artificial Intelligence for Topic Modelling in.md"
 publication: PLOS ONE
 DATE_ADDED: 20260213
 ethics_overall: "No"

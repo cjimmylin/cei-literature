@@ -17,10 +17,8 @@ authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://cse.iitkgp.ac.in/~abhijnan/papers/singh_hate_speech.pdf"
 external_pdf: "https://cse.iitkgp.ac.in/~abhijnan/papers/singh_hate_speech.pdf"
-local_pdf: "[[PDFs/2025-Unknown-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate.pdf]]"
-pdf_extract: "PDF Extracts/2025-Unknown-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Unknown-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Unknown-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate.md"
 publication: IIT Kharagpur
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

@@ -17,10 +17,8 @@ authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2406.14805"
 external_pdf: "https://arxiv.org/pdf/2406.14805.pdf"
-local_pdf: "[[PDFs/2024-authors-How Well Do LLMs Represent Values.pdf]]"
-pdf_extract: "PDF Extracts/2024-authors-How Well Do LLMs Represent Values.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2024/2024-authors-How Well Do LLMs Represent Values.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-authors-How Well Do LLMs Represent Values.md"
 publication: arxiv.org
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

@@ -16,9 +16,9 @@ last_author: "[[results, Not fully listed in search]]"
 authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/9836312/"
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://core.ac.uk/download/213021265.pdf"
+local_pdf: "[[PDFs/2022/2022-results-Hate Speech Detection in Thai Social.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-results-Hate Speech Detection in Thai Social.md"
 publication: IEEE
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

@@ -17,10 +17,8 @@ authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2504.21026"
 external_pdf: "https://arxiv.org/pdf/2504.21026.pdf"
-local_pdf: "[[PDFs/2025-Unknown-Creating and Evaluating Code-Mixed Nepali-English and.pdf]]"
-pdf_extract: "PDF Extracts/2025-Unknown-Creating and Evaluating Code-Mixed Nepali-English and.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Unknown-Creating and Evaluating Code-Mixed Nepali-English and.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Unknown-Creating and Evaluating Code-Mixed Nepali-English and.md"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

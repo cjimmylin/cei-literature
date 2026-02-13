@@ -1,0 +1,76 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0337
+type: preprint
+short_title: "KLEJ: Comprehensive Benchmark for Polish Language Understanding"
+year: 2020
+first_author: "[[Piotr Rybak]]"
+last_author: "[[Ireneusz Gawlik]]"
+authors: Piotr Rybak, Robert Mroczkowski, Janusz Tracz, Ireneusz Gawlik
+url: "https://arxiv.org/abs/2005.00630"
+external_pdf: "https://arxiv.org/pdf/2005.00630.pdf"
+local_pdf: "[[PDFs/2020/2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding.pdf]]"
+pdf_extract: "PDF Extracts/2020/2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding.md"
+publication: arXiv / ACL 2020
+DATE_ADDED: 20260213
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+languages_list: "Polish"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark dataset"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract: "In recent years, a series of Transformer-based models unlocked major improvements in general natural language understanding (NLU) tasks. Such a fast pace of research would not be possible without general NLU benchmarks, which allow for a fair comparison of the proposed methods. However, such benchmarks are available only for a handful of languages. To alleviate this issue, we introduce a comprehensive multi-task benchmark for the Polish language understanding, accompanied by an online..."
+research_topic: "NLP & Representation Learning"
+---
+# KLEJ: Comprehensive Benchmark for Polish Language Understanding
+
+## Authors
+
+[[Piotr Rybak, Robert Mroczkowski, Janusz Tracz, Ireneusz Gawlik]]
+
+## Metadata
+
+**Authors:** Piotr Rybak, Robert Mroczkowski, Janusz Tracz, Ireneusz Gawlik
+
+**Year:** 2020
+
+**Type:** preprint
+
+**Venue:** arXiv / ACL 2020
+
+**Languages:** Polish
+
+**Benchmark:** KLEJ
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2005.00630
+- **Code/Data:** https://klejbenchmark.com/
+
+## Abstract
+
+Comprehensive benchmark for Polish NLU with 9 tasks including NER, QA, textual entailment, and sentiment analysis. Introduces HerBERT model. Includes cyberbullying detection from PolEval as a task.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent B4
+**Relevance:** Foundational Polish NLU benchmark including hate speech/cyberbullying detection tasks; baseline for subsequent Polish evaluation work.
+
+## Tags
+

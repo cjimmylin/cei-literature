@@ -17,10 +17,8 @@ authors: "[[Jamshid Ibrohimov, Jamoliddin Mirzakhalov, Sardor Abdullayev, Ceferi
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.11020"
 external_pdf: "https://arxiv.org/pdf/2502.11020.pdf"
-local_pdf: "[[PDFs/2025-Barov-TUMLU A Unified and Native Language.pdf]]"
-pdf_extract: "PDF Extracts/2025-Barov-TUMLU A Unified and Native Language.md"
-local_pdf: "N/A"
-pdf_extract: ""
+local_pdf: "[[PDFs/2025/2025-Barov-TUMLU A Unified and Native Language.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Barov-TUMLU A Unified and Native Language.md"
 publication: arxiv.org / ACL 2025
 DATE_ADDED: 20260213
 ethics_overall: "No"

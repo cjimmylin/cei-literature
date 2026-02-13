@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large Language Models (LLMs) have exhibited great performance in auto
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4o, Llama-3, Qwen"
+DATA_URL: "https://github.com/BITHLP/SafeToolBench"
 ---
 # SafeToolBench
 
@@ -61,6 +64,10 @@ Large Language Models (LLMs) have exhibited great performance in autonomously ca
 ## Dataset Information
 
 16 everyday domains
+
+## Data Description
+
+SafeToolBench is a benchmark of 1,200 adversarial user instructions spanning 16 real-world domains and four risk categories (Privacy Leak, Property Damage, Physical Injury, Bias & Offensiveness) for prospectively evaluating tool utilization safety in LLMs. The dataset includes both single-application and multi-application scenarios with corresponding tool planning calls. Four LLMs were evaluated: Qwen2.5-7B-Instruct, Qwen2.5-32B-Instruct, Llama3.1-8B-Instruct, and GPT-4o.
 
 ## Notes
 

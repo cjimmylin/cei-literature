@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, GPT-4"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Rashid-Evaluating Prompt Injection Attacks with.md"
 ---
 # Evaluating Prompt Injection Attacks with LSTM-Based Generative Adversarial Networks: A Lightweight Alternative to Large Language Models
@@ -62,6 +65,11 @@ Generative Adversarial Networks (GANs) using Long Short-Term Memory (LSTM) provi
 ## Authors
 
 [[Sharaf Rashid]], [[Edson Bollis]], [[Lucas Pellicer]], [[Darian Rabbani]], [[Rafael Palacios]], [[Aneesh Gupta]], [[Amar Gupta]]
+
+## Data Description
+
+The study uses Lakera's Mosscap dataset of 278,945 adversarial prompt injection messages, pre-processed to 52,316 training and 15,732 test messages. LSTM-based GANs (SeqGAN, RelGAN) and a Llama 3.2 1B model are trained on these prompts to generate new attack messages, which are tested against Gandalf, GPT-4o, and Meta's PromptGuard defense systems.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: N/A
 data_metrics: "Formal verification metrics"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Priya-Deontic Temporal Logic for AI Ethics.md"
 ---
 # Deontic Temporal Logic for Formal Verification of AI Ethics
@@ -64,6 +67,11 @@ pdf_extract: "PDF Extracts/2025/2025-Priya-Deontic Temporal Logic for AI Ethics.
 ## Abstract
 
 The paper proposes a formal methods approach using deontic logic to specify and evaluate ethical behavior in AI systems. It introduces axioms and theorems to capture ethical requirements related to fairness and explainability with temporal operators for reasoning about AI ethics over time. The authors tested their framework on real-world systems—COMPAS and loan prediction AI—encoding ethical properties as logical formulas. Their verification process reveals that both systems fail to fulfill certain key ethical properties related to fairness and non-discrimination, demonstrating the method's effectiveness in identifying ethical issues in deployed AI applications.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It proposes a deontic temporal logic framework for formal verification of AI ethics and applies it to the COMPAS recidivism prediction system and a loan prediction system, using automated theorem provers to verify ethical properties related to fairness and non-discrimination.
+
 
 ## Notes
 

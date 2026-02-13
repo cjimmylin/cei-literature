@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ abstract: "Moral actions are judged not only by their outcomes but by the contex
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework dataset"
 data_metrics: "300 scenarios"
+LLM_assessed: "GPT-4, Mistral, Llama-3, Qwen"
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
 # COMETH: Contextual Organization of Moral Evaluation from Textual Human Inputs
@@ -64,6 +67,10 @@ Moral actions are judged not only by their outcomes but by the context in which 
 ## Dataset Information
 
 300 scenarios with ternary moral judgments (Blame/Neutral/Support) from 101 participants across six core moral actions
+
+## Data Description
+
+COMETH presents a framework integrating probabilistic context learning with LLM-based semantic abstraction and human moral evaluations. The dataset consists of 300 high-ambiguity moral scenarios across six core actions (violations of Do not kill, Do not deceive, Do not break the law) with ternary judgments (Blame/Neutral/Support) collected from 101 participants. Pre-processing uses Mistral-7B, Llama-3.1-8B, and Qwen3-Next-80B for action extraction, with GPT-4 used for scenario generation.
 
 ## Notes
 

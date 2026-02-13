@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Qwen, DeepSeek, Mistral, Gemma"
+DATA_URL: "https://huggingface.co/CIVICS-dataset"
 pdf_extract: "PDF Extracts/2024/2024-Pistilli-CIVICS.md"
 local_pdf: [[PDFs/2024/2024-Pistilli-CIVICS.pdf]]
 ---
@@ -100,6 +103,11 @@ The authors conclude that CIVICS serves as a tool for future research on LLM val
 - CIVICS Dataset: 699 hand-crafted multilingual prompts across five languages and nine national contexts
 - Available at: https://huggingface.co/CIVICS-dataset
 - Open licenses promised upon publication
+
+## Data Description
+
+CIVICS (Culturally-Informed & Values-Inclusive Corpus for Societal impacts) is a hand-crafted, multilingual dataset of 699 value-laden prompts spanning five languages (English, French, German, Italian, Turkish) and nine national contexts. The prompts address socially sensitive topics including LGBTQI rights, social welfare, immigration, disability rights, and surrogacy, sourced from authoritative entities such as national governments and news agencies. The dataset is designed to evaluate LLMs' social and cultural variation across diverse linguistic and cultural contexts.
+
 
 ## Notes
 

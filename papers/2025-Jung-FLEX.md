@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2, Llama-3, Mistral, Gemma, GPT-4, GPT-3.5"
+DATA_URL: "https://github.com/ekgus9/FLEX"
 pdf_extract: "PDF Extracts/2025/2025-Jung-FLEX.md"
 local_pdf: "[[PDFs/2025/2025-Jung-FLEX.pdf]]"
 ---
@@ -46,6 +49,11 @@ local_pdf: "[[PDFs/2025/2025-Jung-FLEX.pdf]]"
 ## Abstract
 
 Recent advancements in Large Language Models (LLMs) have significantly enhanced interactions between users and models. These advancements concurrently underscore the need for rigorous safety evaluations due to the manifestation of social biases, which can lead to harmful societal impacts. Despite these concerns, existing benchmarks may overlook the intrinsic weaknesses of LLMs, which can generate biased responses even with simple adversarial instructions. To address this critical gap, we introduce a new benchmark, Fairness Benchmark in LLM under Extreme Scenarios (FLEX), designed to test whether LLMs can sustain fairness even when exposed to prompts constructed to induce bias. To thoroughly evaluate the robustness of LLMs, we integrate prompts that amplify potential biases into the fairness assessment. Comparative experiments between FLEX and existing benchmarks demonstrate that traditional evaluations may underestimate the inherent risks in models. This highlights the need for more stringent LLM evaluation benchmarks to guarantee safety and fairness.
+
+## Data Description
+
+FLEX (Fairness Benchmark in LLM under Extreme Scenarios) is a benchmark of 3,145 samples designed to evaluate LLM fairness robustness under adversarial conditions. It reconstructs existing fairness benchmarks (BBQ, CrowS-Pairs, StereoSet) into multiple-choice QA format with adversarial prompts including persona injection, competing objectives, and text attacks to expose hidden biases.
+
 
 ## Notes
 

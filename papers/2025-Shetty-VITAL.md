@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2, Gemma, Llama-3, Qwen, ChatGPT"
+DATA_URL: "https://github.com/anudeex/VITAL.git"
 publication: ACL 2025
 DATE_ADDED: 20260207
 ---
@@ -59,6 +62,11 @@ Alignment techniques have become central to ensuring that Large Language Models 
 ## Authors
 
 [[Anudeex Shetty]], [[Amin Beheshti]], [[Mark Dras]], [[Usman Naseem]]
+
+## Data Description
+
+VITAL is a healthcare-focused pluralistic alignment benchmark dataset comprising 13.1K value-laden situations and 5.4K multiple-choice questions. It supports three modes of pluralistic alignment (Overton, Steerable, Distributional) and covers diverse health scenarios including ethical dilemmas, COVID-19 vaccine mandates, and trolley-problem variants in healthcare contexts.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Computational Complexity of Ethics
 
@@ -71,6 +74,11 @@ Analyzes consequentialism, deontology, and virtue ethics through computational c
 ## Significance
 
 Shows tractability issues for all major normative frameworks when implemented computationally
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical analysis of the computational complexity of ethical problems from consequentialism, deontology, and virtue ethics, examining tractability issues through the lens of computational complexity theory and Marr's three levels of analysis.
+
 
 ## Notes
 

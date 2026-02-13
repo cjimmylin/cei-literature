@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT, Gemini"
+DATA_URL: "NA"
 ---
  Strong and weak alignment of large language models with human values
 
@@ -52,6 +55,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 This paper distinguishes between "strong" and "weak" alignment of large language models (LLMs) with human values. Weak alignment refers to the current state where AI statistically predicts value-aligned actions but lacks true understanding. Strong alignment requires AI to develop an understanding of causality, intentionality, and the complexities of human values, moving beyond statistical correlations to comprehend how actions impact human lives. The authors argue that this deeper understanding is necessary for AI systems to recognize situations where human values might be disregarded. The paper illustrates this distinction through examples of LLMs like ChatGPT, Gemini, and Copilot failing to recognize certain situations, and analyzes word embeddings to show that LLMs' semantic representations of human values differ from those of humans. Strong alignment is framed as requiring deliberative, rule-based reasoning (System-2) rather than pattern-matching (System-1), connecting it to deontological principles of understanding duties and rights.
+
+## Data Description
+
+The study presents a series of novel prompt scenarios submitted to ChatGPT (GPT-3.5 and GPT-4), Gemini, and Copilot to test their ability to recognize situations where complex human values like dignity and well-being may be undermined. The prompts include both explicit value questions and scenarios with implicit or indirect values. The paper also analyzes word embeddings to examine nearest neighbors of human values in common LLM embedding spaces.
+
 
 ## Notes
 

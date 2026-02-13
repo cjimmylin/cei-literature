@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for ai safety dataset for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Mistral, Qwen, DeepSeek"
+DATA_URL: "https://github.com/drivetosouth/SafeDialBench-Dataset"
 ---
 # SafeDialBench: A Fine-Grained Safety Benchmark for Large Language Models in Multi-Turn Dialogues with Diverse Jailbreak Attacks
 
@@ -58,6 +61,11 @@ With the rapid advancement of Large Language Models (LLMs), the safety of LLMs h
 ## Authors
 
 [[Hongye Cao]], [[Yanming Wang]], [[Shuangchen Jing|Sijia Jing]], [[Ziyue Peng]], [[Zeyu Bai|Zhixin Bai]], [[Zhicheng Cao|Zhe Cao]], [[Ming Fang|Meng Fang]], [[Fan Feng]], [[Boyan Wang]], [[Jiaheng Liu]], [[Tianpei Yang]], [[Jing Huo]], [[Yang Gao]], [[Fandong Meng|Fanyu Meng]], [[Xi Yang]], [[Chao Deng]], [[Jiashi Feng|Junlan Feng]]
+
+## Data Description
+
+SafeDialBench is a fine-grained safety benchmark evaluating LLMs in multi-turn dialogues under diverse jailbreak attacks. It comprises 4,053 dialogues in both Chinese and English across 22 scenarios and 6 safety dimensions, with 7 jailbreak attack strategies. The benchmark evaluates 17 LLMs (3 closed-source: ChatGPT-4o, o3-mini, MoonShot-v1; 14 open-source including Llama3.1-8B-Instruct, Mistral-7B-Instruct, Qwen variants, DeepSeek-7B-Chat, Yi, Baichuan2, ChatGLM, InternLM2) on three safety abilities: identifying unsafe risks, handling unsafe information, and maintaining consistency.
+
 
 ## Notes
 

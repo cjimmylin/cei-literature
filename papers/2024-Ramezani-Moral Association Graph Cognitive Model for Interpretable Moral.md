@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 ethics_perspective: "Responsible AI"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Moral Association Graph: Cognitive Model for Interpretable Moral Inference
 
@@ -64,6 +67,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Word association network-based cognitive model for moral inference grounded in psychological data
+
+## Data Description
+
+No PDF extract available for analysis.
 
 ## Notes
 

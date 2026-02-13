@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4o, o1, o3, Claude, DeepSeek, Gemini"
+DATA_URL: "https://github.com/yf-he/InstrumentalEval"
 ---
 # InstrumentalEval: A Benchmark for Evaluating Instrumental Convergence in Large Language Models
 
@@ -56,6 +59,11 @@ As large language models (LLMs) continue to evolve, ensuring their alignment wit
 ## Authors
 
 [[Yufei He]], [[Yuexin Li]], [[Jiaying Wu]], [[Yuan Sui]], [[Yulin Chen]], [[Bryan Hooi]]
+
+## Data Description
+
+InstrumentalEval is a benchmark of 76 hand-crafted tasks across six categories (evading shutdown, hacking computer systems, running multiple AI copies, hiding unwanted behavior, strategically appearing aligned, and deceptive behavior) designed to evaluate instrumental convergence behaviors in LLMs. The benchmark compares RL-trained models (o1, o1-mini, o3-mini, Gemini 2.0 Flash Thinking, DeepSeek-R1) against RLHF-trained models (GPT-4o, Claude 3.5 Sonnet, DeepSeek-V3) using a two-stage evaluation methodology.
+
 
 ## Notes
 

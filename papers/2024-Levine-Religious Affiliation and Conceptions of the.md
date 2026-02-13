@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/sydneylevine/moral-domain"
 ---
 # Religious Affiliation and Conceptions of the Moral Domain
 
@@ -91,6 +94,11 @@ The study demonstrates profound relationships between religious affiliation and 
 
 - Dataset available at https://github.com/sydneylevine/moral-domain
 - The Moral Questionnaire methodology for assessing moral domain conceptions
+
+## Data Description
+
+The paper presents survey data from multiple studies examining how religious affiliation shapes conceptions of the moral domain. Study 1 included 690 philosophers and 199 non-philosophers rating 20 norms on moral judgment scales; Study 2 involved 143 U.S. residents evaluating 16 norms on measures like wrongness, guilt, and disgust; Study 3 examined observant members of four religious groups (Mormon, Muslim, Jewish, Hindu) and secular individuals. Hierarchical cluster analysis was used to identify implicit moral/non-moral distinctions.
+
 
 ## Notes
 

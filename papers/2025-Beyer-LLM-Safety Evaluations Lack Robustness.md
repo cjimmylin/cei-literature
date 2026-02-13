@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2"
+DATA_URL: "NA"
 ---
 # LLM-Safety Evaluations Lack Robustness
 
@@ -57,6 +60,11 @@ In this paper, we argue that current safety alignment research efforts for large
 ## Authors
 
 [[Tim Beyer]], [[Sophie Xhonneux]], [[Simon Geisler]], [[Gauthier Gidel]], [[Leo Schwinn]], [[Stephan Günnemann]]
+
+## Data Description
+
+This position paper systematically analyzes the LLM safety evaluation pipeline, covering dataset curation, optimization strategies for automated red-teaming, response generation, and response evaluation using LLM judges. The authors demonstrate empirical findings using GCG attacks against Llama-2-7B-chat-hf to illustrate issues such as incorrect whitespace token handling reducing attack success rates by 28%. No new benchmark dataset is introduced.
+
 
 ## Notes
 

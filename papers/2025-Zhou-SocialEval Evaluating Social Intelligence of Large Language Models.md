@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "LLMs exhibit promising Social Intelligence (SI) in modeling human beh
 research_topic: "Social & Cultural Analysis"
 data_description: "Benchmark"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, o1, Claude, Llama-3, Qwen, Mistral, Mixtral, DeepSeek"
+DATA_URL: "https://github.com/thu-coai/SocialEval"
 ---
 # SocialEval: Evaluating Social Intelligence of Large Language Models
 
@@ -62,6 +65,10 @@ LLMs exhibit promising Social Intelligence (SI) in modeling human behavior, rais
 ## Dataset Information
 
 Script-based bilingual benchmark; narrative scripts structured as world trees with plot lines; manually crafted scenarios
+
+## Data Description
+
+SOCIALEVAL is a script-based bilingual social intelligence benchmark consisting of 153 manually crafted world trees that produce 2,493 test samples covering 5 interpersonal ability aspects and 32 specific abilities. The benchmark integrates outcome-oriented goal achievement evaluation and process-oriented interpersonal ability evaluation through narrative scripts structured as world trees with interconnected episode sequences. It spans 7 social world orientations (cooperation, negotiation, assistance, altruism, competition, induction, conflict) across prosocial, proself, and antisocial categories.
 
 ## Notes
 

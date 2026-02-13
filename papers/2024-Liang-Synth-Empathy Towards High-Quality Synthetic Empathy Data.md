@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "In recent years, with the rapid advancements in large language models
 research_topic: "AI Safety & Alignment"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Mixtral, Qwen"
+DATA_URL: "https://github.com/Aurora-slz/Synth-Empathy"
 ---
 # Synth-Empathy: Towards High-Quality Synthetic Empathy Data
 
@@ -61,6 +64,10 @@ In recent years, with the rapid advancements in large language models (LLMs), ac
 ## Dataset Information
 
 250K+ empathetic data points generated from EmpatheticDialogues (25K base conversations, 32 emotion labels); three-step pipeline: generation, quality selection, diversity selection
+
+## Data Description
+
+Synth-Empathy introduces an LLM-based data generation and quality/diversity selection pipeline for creating high-quality empathetic dialogue data. The pipeline generates over 250K empathetic data points from the EmpatheticDialogues (ED) dataset (25,000 daily conversations with 32 emotion labels), applies quality selection using a fine-tuned discriminator and gte-qwen2-7b-instruct embeddings, and diversity selection via KCenterGreedy algorithm. Multiple LLMs including LLaMA3-8B-Instruct, Mixtral-8x7B-Instruct, and Qwen1.5-72B-Chat were evaluated as baselines for empathetic response generation.
 
 ## Notes
 

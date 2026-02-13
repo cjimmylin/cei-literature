@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ abstract:
 research_topic: "Other"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2, Llama-3, Mistral, T5, BERT"
+DATA_URL: "https://github.com/AmenRa/guardbench"
 ---
 # GuardBench
 
@@ -60,6 +63,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 40 safety evaluation datasets aggregated
+
+## Data Description
+
+The paper introduces GuardBench, a large-scale benchmark for guardrail models comprising 40 safety evaluation datasets with over 150,000 samples for prompt and conversation safety classification. It includes multilingual prompt moderation datasets in German, French, Italian, and Spanish, and a novel 22,000 question-answer pair dataset (UnsafeQA). Thirteen guardrail and content moderation models are evaluated on binary safe/unsafe classification tasks.
 
 ## Notes
 

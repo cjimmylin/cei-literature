@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Values are core drivers of individual and collective perception, cogn
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, GPT-4o, Llama-2, Llama-3, Mistral, Qwen, Gemma"
+DATA_URL: "NA"
 ---
 # GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems
 
@@ -62,6 +65,10 @@ Values are core drivers of individual and collective perception, cognition, and 
 ## Dataset Information
 
 Psychologically-grounded method for constructing LLM value systems with three benchmarking tasks
+
+## Data Description
+
+The study applies the Generative Psycho-Lexical Approach (GPLA) to 33 instruction-tuned LLMs, each paired with 21 value-anchoring profiling prompts, resulting in 693 LLM subjects. Value-laden corpora are drawn from ValueBench, GPV, BeaverTails, and ValueLex. Three benchmarking tasks are proposed: Confirmatory Factor Analysis, LLM Safety Prediction using SALAD-Bench prompts and safety scores, and LLM Value Alignment using human preference data.
 
 ## Notes
 

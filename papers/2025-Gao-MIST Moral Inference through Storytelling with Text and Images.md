@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract:
 ethics_perspective: "General Ethics"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-3, Claude, Qwen, Gemini"
+DATA_URL: "NA"
 ---
 # MIST: Moral Inference through Storytelling with Text and Images
 
@@ -63,6 +66,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Multi-image dataset evaluating moral reasoning in complex dynamic scenarios across seven VLMs
+
+## Data Description
+
+MIST (Moral Inference through Storytelling with Text and Images) is a multi-image-based dataset pipeline for evaluating moral reasoning in Vision-Language Models. The dataset contains 669 instances (235 fairness, 434 ethics) and evaluates seven VLMs including GPT-4o, GPT-4o-mini, Claude-3.5-Sonnet, Llama-3.2-90B-V, Qwen2-VL-72B, Gemini-1.5-pro, and GLM-4V-Plus on stereotype detection and ethical action classification tasks.
 
 ## Notes
 

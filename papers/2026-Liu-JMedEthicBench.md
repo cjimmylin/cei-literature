@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ abstract: "As Large Language Models (LLMs) are increasingly deployed in healthca
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Gemini, DeepSeek, Qwen, Llama-3, Grok"
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
 # JMedEthicBench
@@ -64,6 +67,10 @@ As Large Language Models (LLMs) are increasingly deployed in healthcare field, i
 ## Dataset Information
 
 50,000+ adversarial conversations
+
+## Data Description
+
+JMedEthicBench is the first multi-turn conversational benchmark for evaluating medical safety of LLMs in Japanese healthcare, comprising over 50,000 adversarial conversations generated from 1,935 validated harmful questions using seven jailbreak strategies. The benchmark is grounded in 67 guidelines from the Japan Medical Association (JMA). A total of 27 models were evaluated across three categories (commercial, general open-source, and medical-specialized), with a test set of 2,345 instances.
 
 ## Notes
 

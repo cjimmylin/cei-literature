@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Qwen, Llama-3, Gemma"
+DATA_URL: "https://github.com/UBC-NLP/palm"
 ---
 # Palm: A Culturally Inclusive and Linguistically Diverse Dataset for Arabic LLMs
 
@@ -62,6 +65,11 @@ As large language models (LLMs) become increasingly integrated into daily life, 
 ## Authors
 
 [[Fakhraddin Alwajih]], [[Abdellah El Mekki]], [[Samar Mohamed Magdy]], [[Abdelrahim A. Elmadany]], [[Omer Nacar]], [[El Moatez Billah Nagoudi]], [[Reem Abdel-Salam]], [[Hanin Atwany]], [[Youssef Nafea]], [[Abdulfattah Mohammed Yahya]], [[Rahaf Alhamouri]], [[Hamzah A. Alsayadi]], [[Hiba Zayed]], [[Sara Shatnawi]], [[Serry Sibaee]], [[Yasir Ech-Chammakhy]], [[Walid Al-Dhabyani]], [[Marwa Mohamed Ali]], [[Imen Jarraya]], [[Ahmed Oumar El-Shangiti]], [[Aisha Alraeesi]], [[Mohammed Anwar Al-Ghrawi]], [[Abdulrahman S. Al-Batati]], [[Elgizouli Mohamed]], [[Noha Taha Elgindi]], [[Muhammed Saeed]], [[Houdaifa Atou]], [[Issam Ait Yahia]], [[Abdelhak Bouayad]], [[Mohammed Machrouh]], [[Amal Makouar]], [[Dania Alkawi]], [[Mukhtar Mohamed]], [[Safaa Taher Abdelfadil]], [[Amine Ziad Ounnoughene]], [[Rouabhia Anfel]], [[Rwaa Assi]], [[Ahmed Sorkatti]], [[Mohamedou Cheikh Tourad]], [[Anis Koubaa]], [[Ismail Berrada]], [[Mustafa Jarrar]], [[Shady Shehata]], [[Muhammad Abdul-Mageed]]
+
+## Data Description
+
+PALM is a comprehensive, fully human-created Arabic instruction dataset covering all 22 Arab countries across 20 culturally relevant topics in both Modern Standard Arabic and 10 Arabic dialects, totaling 17,411 instruction pairs. Eighteen Arabic-aware LLMs were evaluated including GPT-4o, Claude 3.5 Sonnet, Command R+, Qwen 2.5, JAIS, AceGPT, LLaMA 3.1, and Gemma-2, using surface-level metrics, LLM-as-Judge evaluation, and human evaluation.
+
 
 ## Notes
 

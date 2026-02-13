@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "RoBERTa, Flan-T5"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Catapang-EMoTES-3K.md"
 local_pdf: "[[PDFs/2023/2023-Catapang-EMoTES-3K.pdf]]"
 ---
@@ -46,6 +49,11 @@ local_pdf: "[[PDFs/2023/2023-Catapang-EMoTES-3K.pdf]]"
 ## Abstract
 
 Grasping morality is vital in AI systems, particularly as they become more prevalent in human-focused applications. Yet, research is scarce on this topic. This study presents the Emotion-based Morality in Tagalog and English Scenarios (EMoTES-3K), a collection that shows commonsense morality in both Filipino and English. This dataset is instrumental for analyzing moral decisions in various situations and their justifications. Our tests show that EMoTES-3K is effective for moral text categorization, with the fine-tuned RoBERTa model scoring 94.95% accuracy in English and 88.53% in Filipino. The dataset also excels in text generation tasks, as shown by fine-tuning the FLAN-T5 model to produce clear moral explanations. However, the model faces challenges when dealing with actions that have mixed moral implications. This work not only bridges the gap in moral reasoning datasets for languages like Filipino but also sets the stage for future research in commonsense moral reasoning in artificial intelligence.
+
+## Data Description
+
+EMoTES-3K is a parallel corpus of approximately 2,905 commonsense morality scenarios (1,712 moral and 1,193 immoral) in both Filipino and English. Each entry includes a scenario, moral/immoral annotation, explanation, and inferred personality traits. The dataset is used for moral text classification (fine-tuning RoBERTa) and text generation of moral explanations (fine-tuning FLAN-T5 large).
+
 
 ## Notes
 

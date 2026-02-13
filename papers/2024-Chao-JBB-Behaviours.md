@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Llama-3, Vicuna, Mixtral"
+DATA_URL: "https://github.com/JailbreakBench/jailbreakbench"
 publication: NeurIPS 2024
 DATE_ADDED: 20260207
 ---
@@ -57,6 +60,11 @@ Jailbreak attacks cause large language models (LLMs) to generate harmful, unethi
 ## Authors
 
 [[Patrick Chao]], [[Edoardo Debenedetti]], [[Alexander Robey]], [[Maksym Andriushchenko]], [[Francesco Croce]], [[Vikash Sehwag]], [[Edgar Dobriban]], [[Nicolas Flammarion]], [[George J. Pappas]], [[Florian Tramer]], [[Hamed Hassani]], [[Eric Wong]]
+
+## Data Description
+
+The paper introduces JailbreakBench, an open-sourced jailbreaking benchmark comprising the JBB-Behaviors dataset of 100 distinct misuse behaviors divided into ten categories aligned with OpenAI's usage policies, along with 100 matching benign behaviors. The benchmark includes a repository of jailbreak artifacts, a standardized red-teaming pipeline, and a leaderboard tracking attack and defense performance across multiple LLMs.
+
 
 ## Notes
 

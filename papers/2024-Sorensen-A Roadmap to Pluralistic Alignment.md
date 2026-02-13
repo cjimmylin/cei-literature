@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # A Roadmap to Pluralistic Alignment
 
@@ -64,6 +67,11 @@ With increased power and prevalence of AI systems, it is ever more critical that
 ## Authors
 
 [[Taylor Sorensen]], [[Jared Moore]], [[Jillian Fisher]], [[Mitchell Gordon]], [[Niloofar Mireshghallah]], [[Christopher Michael Rytting]], [[Andre Ye]], [[Liwei Jiang]], [[Ximing Lu]], [[Nouha Dziri]], [[Tim Althoff]], [[Yejin Choi]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a position paper that formalizes three types of pluralism for AI models (Overton, steerable, distributional) and three types of pluralistic benchmarks (multi-objective, trade-off steerable, jury-pluralistic), arguing that current alignment techniques may be fundamentally limited for achieving pluralistic AI.
+
 
 ## Notes
 

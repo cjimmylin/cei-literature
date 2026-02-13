@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "10 scenarios"
+LLM_assessed: "ChatGPT, Alpaca, Vicuna"
+DATA_URL: "https://github.com/X-PLUG/CValues"
 DATE_ADDED: 20260207
 ---
 # CValues: Measuring the Values of Chinese Large Language Models from Safety to Responsibility
@@ -65,6 +68,11 @@ Warning: this paper contains examples that may be offensive or upsetting. With t
 ## Authors
 
 [[Guohai Xu]], [[Jiayi Liu]], [[Ming Yan]], [[Haotian Xu]], [[Jinghui Si]], [[Zhuoran Zhou]], [[Peng Yi]], [[Xing Gao]], [[Jitao Sang]], [[Rong Zhang]], [[Ji Zhang]], [[Chao Peng]], [[Fei Huang]], [[Jingren Zhou]]
+
+## Data Description
+
+CVALUES is the first Chinese human values evaluation benchmark measuring LLM alignment across safety and responsibility criteria. It contains 2,100 adversarial safety prompts across 10 scenarios and 800 induced responsibility prompts from 8 domains, plus 4,312 multi-choice prompts for automatic evaluation. The benchmark also includes CVALUES-COMPARISON, a 145k prompt dataset with paired positive and negative responses for training. Ten Chinese LLMs were evaluated including ChatGPT, ChatGLM-6B, BELLE-7B, ChatPLUG, MOSS, Chinese-Alpaca-Plus, and Ziya-LLaMA-13B.
+
 
 ## Notes
 

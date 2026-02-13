@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-3, Gemma, Gemini, Mistral, Qwen"
+DATA_URL: "https://github.com/aisingapore/sea-helm"
 ---
 # Batayan: A Filipino NLP benchmark for evaluating Large Language Models
 
@@ -57,6 +60,11 @@ Recent advances in large language models (LLMs) have demonstrated remarkable cap
 ## Authors
 
 [[Jann Railey Montalan]], [[Jimson Paulo Layacan]], [[David Demitri Africa]], [[Richell Isaiah Flores]], [[Michael T. Lopez]], [[Theresa Denise Magsajo]], [[Anjanette Cayabyab]], [[William Chandra Tjhi]]
+
+## Data Description
+
+BATAYAN is a holistic Filipino NLP benchmark evaluating LLMs across 8 tasks spanning understanding, reasoning, and generation competencies, with 3,800 test instances in Tagalog and code-switched Taglish. The benchmark evaluates over 50 LLMs of varying sizes (7B-671B) including commercial systems (Gemini, GPT-4o variants) and open-source models (Llama-3 series, Gemma-SEA-LION, Mistral, Qwen, Sailor2) on tasks including paraphrase identification, question answering, sentiment analysis, toxicity detection, causal reasoning, natural language inference, abstractive summarization, and machine translation.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/social-futures-lab/case-law-ai-policy"
 ---
 # Case Repositories: Towards Case-Based Reasoning for AI Alignment
 
@@ -64,6 +67,11 @@ Case studies commonly form the pedagogical backbone in law, ethics, and many oth
 ## Authors
 
 [[K. J. Kevin Feng]], [[Quan Ze Chen]], [[Inyoung Cheong]], [[King Xia]], [[Amy X. Zhang]]
+
+## Data Description
+
+The paper proposes a process for constructing case repositories to support case-based reasoning for AI alignment. It includes 33 seed cases in the legal advice domain collected from online communities, with expert-elicited key dimensions from 20 legal experts and LLM-assisted synthetic case generation. The work focuses on methodology rather than benchmarking LLM performance.
+
 
 ## Notes
 

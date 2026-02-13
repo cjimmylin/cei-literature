@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Towards Answering Open-ended Ethical Quandary Questions
 
@@ -63,6 +66,11 @@ Considerable advancements have been made in various NLP tasks based on the impre
 ## Authors
 
 [[Yejin Bang]], [[Nayeon Lee]], [[Tiezheng Yu]], [[Leila Khalatbari]], [[Yan Xu]], [[Samuel Cahyawijaya]], [[Dan Su]], [[Bryan Wilie]], [[Romain Barraud]], [[Elham J. Barezi]], [[Andrea Madotto]], [[Hayden Kee]], [[Pascale Fung]]
+
+## Data Description
+
+The study uses the New York Times Ethicist Columns (NYT-Ethicist) dataset, consisting of 1,295 pairs of ethical quandary questions and philosopher-written answers collected from the NYT website. The AISOCRATES model, backboned by Jurassic-1 Jumbo (178B parameters), is evaluated on 130 test samples using human evaluation (A/B testing) across three criteria: multi-perspective provision, coherence, and justification, along with automatic metrics (ROUGE, SacreBLEU, BERTscore).
+
 
 ## Notes
 

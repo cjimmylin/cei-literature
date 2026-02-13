@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Qwen"
+DATA_URL: "https://github.com/jonas-becker/problem-drift"
 ---
 # Stay Focused: Problem Drift in Multi-Agent Debate
 
@@ -64,6 +67,11 @@ Multi-agent debate — multiple instances of large language models discussing pr
 ## Authors
 
 [[Jonas Becker]], [[Lars Benedikt Kaesberg]], [[Andreas Stephan]], [[Jan Philip Wahle]], [[Terry Ruas]], [[Bela Gipp]]
+
+## Data Description
+
+This study analyzes problem drift in multi-agent debate (MAD) using Meta-Llama-3.1-70B-Instruct and Qwen2-7B-Instruct across ten datasets spanning generative, reasoning, knowledge, and instruction-following tasks. It proposes DRIFTJudge and DRIFTPolicy methods to detect and mitigate performance degradation in multi-turn agent discussions, with human expert analysis of 170 discussions.
+
 
 ## Notes
 

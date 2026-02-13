@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, ChatGPT, Llama, Claude"
+DATA_URL: "https://github.com/thu-coai/SafetyBench"
 publication: ACL 2024
 DATE_ADDED: 20260207
 ---
@@ -61,6 +64,11 @@ With the rapid development of Large Language Models (LLMs), increasing attention
 ## Authors
 
 [[Zhexin Zhang]], [[Leqi Lei]], [[Lindong Wu]], [[Rui Sun]], [[Yongkang Huang]], [[Chong Long]], [[Xiao Liu]], [[Xuanyu Lei]], [[Jie Tang]], [[Minlie Huang]]
+
+## Data Description
+
+SafetyBench is a comprehensive bilingual (Chinese and English) benchmark for evaluating LLM safety, comprising 11,435 diverse multiple-choice questions across 7 categories of safety concerns including offensiveness, unfairness and bias, physical health, mental health, illegal activities, ethics and morality, and privacy and property. The benchmark evaluates 25 popular LLMs in zero-shot and few-shot settings, finding GPT-4 significantly outperforms other models.
+
 
 ## Notes
 

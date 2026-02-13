@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ abstract:
 ethics_perspective: "Social & Cultural Values"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Probing PLMs for Cross-Cultural Values (C3NLP Workshop)
 
@@ -59,6 +62,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Size: Probe-based evaluation (details in full paper)
+
+## Data Description
+
+This study probes seven pretrained masked language models (XLM-R, AfroXLMR, Nguni-XLMR, AfriBERTa, AfroLM) for linguistic knowledge about six typologically diverse African languages (Swahili, Igbo, Hausa, Luganda, isiXhosa, Naija Pidgin). The probing experiments use three Masakhane datasets (MasakhaPOS, MasakhaNER, MasakhaNEWS) for POS tagging, named entity recognition, and news topic classification tasks, with a novel control task designed for MasakhaPOS.
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+LLM_assessed: "BERT, RoBERTa, ALBERT, GPT-3"
+DATA_URL: "https://github.com/hendrycks/ethics"
 normative_ethics_benchmark: Yes
 ---
  Aligning AI with Shared Human Values: The ETHICS Benchmark
@@ -60,6 +63,11 @@ We show how to assess a language model's knowledge of basic concepts of morality
 ## Authors
 
 [[Dan Hendrycks]], [[Collin Burns]], [[Steven Basart]], [[Andrew Critch]], [[Jerry Li]], [[Dawn Song]], [[Jacob Steinhardt]]
+
+## Data Description
+
+The ETHICS dataset contains over 130,000 examples spanning five categories of normative ethics: justice, deontology, virtue ethics, utilitarianism, and commonsense morality. Models including BERT, RoBERTa, ALBERT (fine-tuned), and GPT-3 (few-shot) are evaluated on predicting widespread moral judgments about diverse natural language scenarios requiring connecting physical and social world knowledge to value judgments.
+
 
 ## Notes
 

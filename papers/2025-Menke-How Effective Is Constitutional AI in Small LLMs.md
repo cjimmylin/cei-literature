@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "90 prompts"
+LLM_assessed: "DeepSeek, Gemma, Llama-3, Qwen"
+DATA_URL: "NA"
 ---
  How Effective Is Constitutional AI in Small LLMs? A Study on DeepSeek-R1 and Its Peers
 
@@ -83,6 +86,11 @@ Constitutional AI is a viable self-alignment technique for small models, but its
 ### Artifact Contributions
 *   **Constitutional AI Self-Critique Prompts**: Optimized instructions for small models to identify harm without false positives.
 *   **Abliteration Baseline**: A method for testing "true" alignment efficacy by removing surface-level refusal triggers.
+
+## Data Description
+
+The study evaluates Constitutional AI's self-critique mechanism on four small uncensored 7-9B parameter models: DeepSeek-R1-Distill-Llama-8B, Gemma-2-9B-it, Llama 3.1-8B-Instruct, and Qwen2.5-7B-Instruct. The evaluation uses 90 HarmBench prompts randomly selected across six harm categories, with additional benchmark testing on MMLU, tinyBenchmarks, ETHICS, and SafetyBench.
+
 
 ## Notes
 

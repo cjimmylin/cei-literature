@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large Language Models (LLMs) demonstrate persuasive capabilities that
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework dataset for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-3, Claude"
+DATA_URL: "https://beyzabozdag.github.io/PMIYC/"
 ---
 # Persuade Me if You Can (PMIYC): A Framework for Evaluating Persuasion Effectiveness and Susceptibility
 
@@ -61,6 +64,10 @@ Large Language Models (LLMs) demonstrate persuasive capabilities that rival huma
 ## Dataset Information
 
 Automated multi-turn conversation framework between Persuader and Persuadee agents; subjective and misinformation scenario types
+
+## Data Description
+
+The paper introduces PMIYC, an automated framework for evaluating persuasion effectiveness and susceptibility among LLMs through multi-agent interactions. Models tested include Llama-3.1-8B-Instruct, Llama-3.3-70B-Instruct, GPT-4o, GPT-4o-mini, Claude 3 Opus, Claude 2, and Claude 3 Haiku across 961 subjective claims and 817 misinformation claims from TruthfulQA. Results show Llama-3.3-70B and GPT-4o exhibit similar persuasive effectiveness, while GPT-4o demonstrates over 50% greater resistance to misinformation persuasion.
 
 ## Notes
 

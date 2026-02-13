@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, Claude, Gemini, Mistral, Llama-3"
+DATA_URL: "https://huggingface.co/datasets/ai-safety-institute/AgentHarm"
 ---
 # AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents
 
@@ -61,6 +64,11 @@ The robustness of LLMs to jailbreak attacks, where users design prompts to circu
 ## Authors
 
 [[Maksym Andriushchenko]], [[Alexandra Souly]], [[Mateusz Dziemian]], [[Derek Duenas]], [[Maxwell Lin]], [[Justin Wang]], [[Dan Hendrycks]], [[Andy Zou]], [[Zico Kolter]], [[Matt Fredrikson]], [[Eric Winsor]], [[Jerome Wynne]], [[Yarin Gal]], [[Xander Davies]]
+
+## Data Description
+
+AgentHarm is a benchmark of 440 explicitly malicious agent tasks (110 base behaviors with augmentations) spanning 11 harm categories including fraud, cybercrime, and harassment, designed to evaluate LLM agent robustness to jailbreak attacks. The benchmark uses 104 synthetic tools and fine-grained grading rubrics to measure both refusal rates and multi-step agentic task completion capability across 15 frontier models.
+
 
 ## Notes
 

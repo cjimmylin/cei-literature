@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Four experimental studies with 804 participants on AI moral perception"
 data_metrics: "Warmth and competence perception measures, utilitarian vs deontological choice predictions"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Artificial Intelligence and Moral Dilemmas: Perception of Ethical Decision-Making in AI
 
@@ -103,6 +106,11 @@ The authors conclude that people have systematic expectations about how AI will 
 ## Artifact Contributions
 
 None mentioned - no datasets, code, or models were released.
+
+## Data Description
+
+No PDF extract available for analysis. The extracted content is an error page from ScienceDirect indicating the PDF could not be accessed due to anti-bot protections.
+
 
 ## Notes
 

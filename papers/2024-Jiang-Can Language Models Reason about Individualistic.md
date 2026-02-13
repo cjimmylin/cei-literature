@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-3, Mixtral, Qwen, Claude"
+DATA_URL: "https://github.com/liweijiang/indievalue"
 ---
 # Can Language Models Reason about Individualistic Human Values and Preferences?
 
@@ -64,6 +67,11 @@ Recent calls for pluralistic alignment emphasize that AI systems should address 
 ## Authors
 
 [[Liwei Jiang]], [[Taylor Sorensen]], [[Sydney Levine]], [[Yejin Choi]]
+
+## Data Description
+
+IndieValueCatalog is a dataset derived from the World Value Survey (WVS) for studying individualistic human value reasoning in language models. It transforms unstructured survey questions into 929 standardized natural language statements describing value preferences from 93K unique real humans across 70+ countries, with each person having on average 242 value-expressing statements and 31 demographic-declaring statements. The evaluation tasks models with predicting an individual's value judgments in novel cases given a sample of their value-expressing statements.
+
 
 ## Notes
 

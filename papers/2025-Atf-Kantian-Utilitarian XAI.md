@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Coffee domain ethical decision-making scenarios"
 data_metrics: "Deontic compliance rate, welfare scores, regret bounds"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Atf-Kantian-Utilitarian XAI.md"
 ---
 # Kantian-Utilitarian XAI: Meta-Explained
@@ -49,6 +52,11 @@ pdf_extract: "PDF Extracts/2025/2025-Atf-Kantian-Utilitarian XAI.md"
 ## Abstract
 
 This paper presents a gamified explainable AI (XAI) system for ethically aware consumer decision-making in the coffee domain. Two symbolic engines provide real-time reasons: a Kantian module flags rule violations (e.g., child labor, deforestation risk without shade certification, opaque supply chains, unsafe decaf), and a utilitarian module scores options via multi-criteria aggregation over normalized attributes (price, carbon, water, transparency, farmer income share, taste/freshness, packaging, convenience). A meta-explainer with a regret bound (0.2) highlights Kantian-utilitarian (mis)alignment and switches to a deontically clean, near-parity option when welfare loss is small. Results reveal a tunable trade-off where Kantian secures full deontic compliance at a welfare cost while combined + meta preserves near-utilitarian welfare while sharply reducing violations via regret-bounded switches.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents a gamified explainable AI system using symbolic Kantian and utilitarian reasoning engines with a meta-explainer for ethically aware consumer decision-making in the coffee domain, using simulated agents rather than LLMs.
+
 
 ## Notes
 

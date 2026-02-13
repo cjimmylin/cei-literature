@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "The behavior of Large Language Models (LLMs) as artificial social age
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2, Llama-3, GPT-3.5"
+DATA_URL: "NA"
 ---
 # Nicer Than Humans: How Do Large Language Models Behave in the Prisoner's Dilemma?
 
@@ -61,6 +64,10 @@ The behavior of Large Language Models (LLMs) as artificial social agents is larg
 ## Dataset Information
 
 Iterated Prisoner's Dilemma simulations with 100 rounds per game; systematic prompting with fixed/variable parts; adversaries at varying hostility levels
+
+## Data Description
+
+This study evaluates three LLMs (Llama-2-70b, Llama-3-70B, GPT-3.5-Turbo) in the Iterated Prisoner's Dilemma game over 100 rounds against adversaries with varying hostility levels. The study introduces a meta-prompting technique to verify LLM comprehension of game rules and analyzes behavioral dimensions (niceness, forgiveness, retaliation, troublemaking, emulation) defined in behavioral economics literature.
 
 ## Notes
 

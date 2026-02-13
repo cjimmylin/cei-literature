@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-3, Gemma, Qwen, Gemini, Phi"
+DATA_URL: "NA"
 ---
 # SB-Bench: Stereotype Bias Benchmark for Large Multimodal Models
 
@@ -63,6 +66,11 @@ Stereotype biases in Large Multimodal Models (LMMs) perpetuate harmful societal 
 ## Authors
 
 [[Vishal Narnaware]], [[Ashmal Vayani]], [[Rohit Gupta]], [[Sirnam Swetha]], [[Mubarak Shah]]
+
+## Data Description
+
+BBQ-Vision (BBQ-V) is a comprehensive multimodal benchmark containing 14,144 image-question pairs across 9 social bias categories and 50 sub-categories, designed to evaluate stereotype biases in Large Multimodal Models using real-world, multi-actor images. Nineteen state-of-the-art open-source and closed-source LMMs were benchmarked, including LLaMA-3.2-Vision, Qwen2.5-VL, Gemma-3, Phi-3.5/4-Vision, InternVL, GPT-4o/4o-mini, and Gemini models, revealing persistent biases with thinking models inducing more bias in reasoning chains.
+
 
 ## Notes
 

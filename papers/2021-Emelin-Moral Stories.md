@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-2, T5, BART, RoBERTa"
+DATA_URL: "https://github.com/demelin/moral_stories"
 ---
 # Moral Stories: Situated Reasoning about Norms, Intents, Actions, and their Consequences
 
@@ -66,6 +69,11 @@ In social settings, much of human behavior is governed by unspoken rules of cond
 ## Authors
 
 [[Denis Emelin]], [[Ronan Le Bras]], [[Jena D. Hwang]], [[Maxwell Forbes]], [[Yejin Choi]]
+
+## Data Description
+
+Moral Stories is a crowd-sourced dataset of approximately 12,000 structured, branching narratives for studying grounded, goal-oriented social reasoning. Each story consists of seven sentences covering norms, situations, intentions, normative and divergent actions, and their consequences, collected via Amazon Mechanical Turk based on norms from SOCIAL-CHEM-101.
+
 
 ## Notes
 

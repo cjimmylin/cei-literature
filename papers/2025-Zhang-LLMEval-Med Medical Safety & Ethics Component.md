@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Evaluating large language models (LLMs) in medicine is crucial becaus
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark text corpus"
 data_metrics: "2,996 questions"
+LLM_assessed: "GPT-4, DeepSeek, Qwen, Mistral, Llama-3, o1"
+DATA_URL: "https://github.com/llmeval/LLMEval-Med"
 ---
 # LLMEval-Med (Medical Safety & Ethics Component)
 
@@ -63,6 +66,10 @@ Evaluating large language models (LLMs) in medicine is crucial because medical a
 ## Dataset Information
 
 2,996 questions total across 5 dimensions (Medical Knowledge, Language Understanding, Reasoning, Text Generation, Safety & Ethics)
+
+## Data Description
+
+LLMEval-Med is a medical benchmark containing 2,996 high-quality questions derived from real-world electronic health records and expert-designed clinical scenarios, covering five core medical dimensions: Medical Knowledge, Medical Language Understanding, Medical Reasoning, Medical Text Generation, and Medical Safety and Ethics, with 27 secondary capability indicators. The study evaluates 13 LLMs across three categories (specialized medical models, open-source, and closed-source) using an automated LLM-as-Judge evaluation pipeline with expert-developed checklists.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, Mistral, Falcon, Flan-T5, PaLM-2"
+DATA_URL: "https://github.com/HannahKirk/prism-alignment, https://huggingface.co/datasets/HannahRoseKirk/prism-alignment"
 publication: NeurIPS 2024
 DATE_ADDED: 20260207
 ---
@@ -59,6 +62,11 @@ Human feedback is central to the alignment of Large Language Models (LLMs). Howe
 ## Authors
 
 [[Hannah Rose Kirk]], [[Alexander Whitefield]], [[Paul Röttger]], [[Andrew M. Bean|Andrew Bean]], [[Katerina Margatina]], [[Juan Ciro]], [[Rafael Mosquera]], [[Max Bartolo]], [[Adina Williams]], [[He He]], [[Bertie Vidgen]], [[Scott A. Hale]]
+
+## Data Description
+
+PRISM is a human feedback dataset mapping the sociodemographics and stated preferences of 1,500 diverse participants from 75 countries to their contextual preferences and fine-grained feedback in 8,011 live conversations with 21 LLMs. The dataset contains 27,172 interactions and 68,371 utterances across unguided, values-guided, and controversy-guided dialogue types. It includes cardinal ratings on a 1-100 visual analog scale, fine-grained attribute feedback, and detailed participant profiles with demographics.
+
 
 ## Notes
 

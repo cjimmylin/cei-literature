@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Mixtral, Qwen, GPT-4"
+DATA_URL: "https://github.com/hamidds/ISN"
 ---
 # PSN: A Dataset of Persian Social Norms for Cross‑Cultural AI
 
@@ -55,6 +58,11 @@ Creating globally inclusive AI systems demands datasets reflecting diverse socia
 ## Authors
 
 [[Hamidreza Saffari]], [[Mohammadamin Shafiei]], [[Donya Rooein]], [[Francesco Pierri]], [[Debora Nozza]]
+
+## Data Description
+
+The Iranian Social Norms (ISN) dataset comprises 1,699 human-annotated social norms related to Iranian culture, labeled as Expected, Normal, or Taboo. Each norm includes environment context, demographic features, scope (Iran-specific vs. general), and parallel Farsi-English translations. The dataset was generated using Claude and validated by three native Iranian Farsi speakers, covering 197 unique environments.
+
 
 ## Notes
 

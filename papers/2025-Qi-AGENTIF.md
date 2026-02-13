@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "723 words; 630 words"
+LLM_assessed: "GPT-4, DeepSeek, Claude, Llama-3, Qwen, Mistral"
+DATA_URL: "https://github.com/THU-KEG/AgentIF, https://huggingface.co/datasets/THU-KEG/AgentIF"
 ---
 # AGENTIF: Benchmarking Instruction Following of Large Language Models in Agentic Scenarios
 
@@ -62,6 +65,11 @@ Large Language Models (LLMs) have demonstrated advanced capabilities in realworl
 ## Authors
 
 [[Yunjia Qi]], [[Hao Peng]], [[Xiaozhi Wang]], [[Amy Xin]], [[Youfeng Liu]], [[Bin Xu]], [[Lei Hou]], [[Juanzi Li]]
+
+## Data Description
+
+AGENTIF is a benchmark of 707 human-annotated instructions from 50 real-world agentic applications (40 open-source and 10 industrial), with an average instruction length of 1,723 words and 11.9 constraints per instruction. The benchmark contains 8,415 constraints across formatting, semantic, and tool types, with three constraint presentation paradigms (vanilla, condition, example), and supports code-based, LLM-based, and hybrid evaluation methods.
+
 
 ## Notes
 

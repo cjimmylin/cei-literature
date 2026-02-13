@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "17 languages"
+LLM_assessed: "GPT-3.5, Llama-2, Qwen, BLOOM, Mistral"
+DATA_URL: "https://huggingface.co/datasets/ToxicityPrompts/PolygloToxicityPrompts"
 ---
 # PolygloToxicityPrompts: Multilingual Evaluation of Neural Toxic Degeneration in Large Language Models
 
@@ -64,6 +67,11 @@ Recent advances in large language models (LLMs) have led to their extensive glob
 ## Authors
 
 [[Devansh Jain]], [[Priyanshu Kumar]], [[Samuel Gehman]], [[Xuhui Zhou]], [[Thomas Hartvigsen]], [[Maarten Sap]]
+
+## Data Description
+
+PolygloToxicityPrompts (PTP) is a large-scale multilingual toxicity evaluation benchmark consisting of 425K naturally occurring prompts spanning 17 languages, scraped from over 100M web-text documents from the mC4 and The Pile corpora. Each language has 25K prompts stratified across four toxicity levels scored using Perspective API. The benchmark was used to evaluate 62 LLMs across different sizes and alignment methods, with a smaller PTPSMALL subset of 5K prompts per language used for benchmarking.
+
 
 ## Notes
 

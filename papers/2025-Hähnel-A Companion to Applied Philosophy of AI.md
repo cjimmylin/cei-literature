@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Amazing book on applied AI"
@@ -30,6 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # A Companion to Applied Philosophy of AI
 
@@ -45,6 +48,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 This edited volume provides an applied philosophy perspective on artificial intelligence, featuring contributions from leading philosophers and interdisciplinary experts. Topics include ethics, epistemology, politics, and law as they relate to AI. The editors, particularly Martin Hähnel, advocate for a **neo-Aristotelian** approach to AI ethics, applying **virtue ethics** principles to address the complexities of AI's practical implications. The volume provides a critical philosophical framework for understanding AI governance, **moral character** in AI development, and the cultivation of **virtuous** design practices.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is an edited academic companion volume (Blackwell Companions to Philosophy series) covering 30 chapters on applied philosophy of AI, including topics such as ethical theories for AI, deontology, consequentialism, virtue ethics, trust in AI, and AI personhood.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/Niger-Volta-LTI/yoruba-voice"
 ---
 # ÌròyìnSpeech: A Multi-purpose Yorùbá Speech Corpus
 
@@ -46,6 +49,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 We introduce ÌròyìnSpeech corpus—a new dataset influenced by a desire to increase the amount of high quality, freely available, contemporary Yorùbá speech data that can be used for both Text-to-Speech (TTS) and Automatic Speech Recognition (ASR) tasks. We curated about 23,000 text sentences from the news and creative writing domains with an open license i.e., CC-BY-4.0 and asked multiple speakers to record each sentence. To encourage more participatory approach to data creation, we provide 5 000 utterances from the curated sentences to the Mozilla Common Voice platform to crowd-source the recording and validation of Yorùbá speech data. In total, we created about 42 hours of speech data recorded by 80 volunteers in-house, and 6 hours validated recordings on Mozilla Common Voice platform. Our evaluation on TTS shows that we can create a good quality general domain single-speaker TTS model for Yorùbá with as little 5 hours of speech by leveraging an end-to-end VITS architecture. Similarly, for ASR, we obtained a WER of 21.5.
+
+## Data Description
+
+This paper introduces IroyinSpeech, a 42-hour multi-purpose Yoruba speech corpus recorded by 80 volunteers, curated from news and creative writing domains for Text-to-Speech and Automatic Speech Recognition tasks. Baseline experiments include VITS speech synthesis models and Conformer ASR models, but no large language models are tested.
+
 
 ## Notes
 

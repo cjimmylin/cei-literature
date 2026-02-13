@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/paul-rottger/hatecheck-data"
 ---
 # HateCheck: Functional Tests for Hate Speech Detection Models
 
@@ -65,6 +68,11 @@ Detecting online hate is a difficult task that even state-of-the-art models stru
 ## Authors
 
 [[Paul Röttger]], [[Bertie Vidgen]], [[Dong Nguyen]], [[Zeerak Waseem]], [[Helen Margetts]], [[Janet Pierrehumbert]]
+
+## Data Description
+
+HateCheck is a suite of 3,728 functional test cases for hate speech detection models, covering 29 model functionalities grouped into 11 classes. The test cases include distinct expressions of hate and contrastive non-hateful content across seven protected groups (women, trans people, gay people, black people, disabled people, Muslims, immigrants). Two fine-tuned BERT-base models (trained on Davidson et al. and Founta et al. datasets) and two commercial models (Google Jigsaw's Perspective and Two Hat's SiftNinja) were evaluated on the test suite.
+
 
 ## Notes
 

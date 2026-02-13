@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Learning Social Welfare Functions
 
@@ -51,6 +54,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 This paper directly addresses the topic of learning social welfare functions, specifically focusing on weighted power mean functions. The authors formalize the problem as learning social welfare functions belonging to the family of power mean functions. They concentrate on two main learning tasks: one where the input includes utility vectors and their associated social welfare values as judged by a policymaker, and another that uses only pairwise comparisons of social welfare values. The weighted power mean functions are highlighted as a natural choice for social welfare functions due to their alignment with accepted social choice axioms like monotonicity, symmetry, and scale invariance. This class includes well-known social welfare functions such as utilitarian and egalitarian welfare, as well as Nash welfare. The paper delves into the statistical learnability of these functions, deriving sample complexity bounds for both cardinal and ordinal observations, even when the social welfare information is noisy.
+
+## Data Description
+
+The PDF extract does not correspond to the expected paper on learning social welfare functions. The extracted content is a pure mathematics paper on graph theory characterizing graphs based on eigenvalue multiplicity of adjacency matrices, containing no LLM-related data or benchmarks.
+
 
 ## Notes
 

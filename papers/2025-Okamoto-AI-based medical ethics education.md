@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 local_pdf: "[[PDFs/2025/2025-Okamoto-AI-based medical ethics education.pdf]]"
 pdf_extract: "[[2025-Okamoto-AI-based medical ethics education]]"
 ---
@@ -89,6 +92,11 @@ The authors conclude that LLMs hold promise for virtue cultivation in medical et
 ## Artifact Contributions
 
 None mentioned. The paper proposes a conceptual framework rather than releasing software or datasets.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical exploration of using LLMs as exemplars and advisors for virtue cultivation in medical ethics education, combining principlist and non-principlist methodologies. While ChatGPT is referenced illustratively, no systematic testing or benchmarking of LLMs was conducted.
+
 
 ## Notes
 

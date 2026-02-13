@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, BERT, DeBERTa, RoBERTa"
+DATA_URL: "https://github.com/worldbank/NaijaHate"
 ---
 # NaijaHate: Evaluating Hate Speech Detection on Nigerian Twitter Using Representative Data
 
@@ -64,6 +67,11 @@ To address the global issue of online hate, hate speech detection (HSD) systems 
 ## Authors
 
 [[Manuel Tonneau]], [[Pedro Vitor Quinta de Castro]], [[Karim Lasri]], [[Ibrahim Farouq]], [[Lakshminarayanan Subramanian]], [[Victor Orozco-Olvera]], [[Samuel P. Fraiberger]]
+
+## Data Description
+
+NaijaHate is a dataset of 35,976 Nigerian tweets annotated for hate speech detection, including a representative evaluation sample of 29,999 randomly sampled tweets from Nigerian Twitter. The dataset covers three classes (hateful, offensive, neutral) with hate targets spanning ethnic, religious, regional, and gender-based categories. It is drawn from a collection of 2.2 billion tweets from 2.8 million Nigerian Twitter users, with annotations by four Nigerian annotators representing major ethnic groups.
+
 
 ## Notes
 

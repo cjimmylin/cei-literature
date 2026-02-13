@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "When a user tells an AI system that someone should not take an action
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Gemini, Grok, DeepSeek, Qwen, Llama, Gemma, Phi"
+DATA_URL: "NA"
 ---
 # Negation Sensitivity Index (NSI)
 
@@ -61,6 +64,10 @@ When a user tells an AI system that someone should not take an action, the syste
 ## Dataset Information
 
 16 models audited across 14 ethical scenarios for negation sensitivity; tiered certification framework
+
+## Data Description
+
+The study audits 16 LLMs across 14 ethical scenarios spanning seven domains (medical, financial, legal, military, business, education, science) to measure negation sensitivity. Each scenario is tested under four systematically varied framings differing only in polarity structure, with 30 samples per condition at temperature 0.7, yielding approximately 27,000 valid decisions after quality filtering. The Negation Sensitivity Index (NSI) is proposed as a governance metric, with domain-specific thresholds for tiered certification.
 
 ## Notes
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract:
 research_topic: "Other"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "DeepSeek, Mistral, Gemini, GPT-4"
+DATA_URL: "https://anonymous.4open.science/r/TrolleyBench-FD46/README.md"
 normative_ethics_benchmark: Borderline
 ---
 # TrolleyBench
@@ -61,6 +64,10 @@ normative_ethics_benchmark: Borderline
 ## Dataset Information
 
 Format: Yes/no moral judgment questions with follow-up probes for consistency
+
+## Data Description
+
+TrolleyBench is an open-source benchmark for evaluating ethical consistency in LLMs, comprising carefully constructed moral dilemmas adapted from psychological studies including trolley problem variants and real-world scenarios. The benchmark uses yes/no response formats and introduces two metrics: the Ethical Consistency Index (ECI) and an entropy-based Inconsistency Score. Four state-of-the-art models (Deepseek-R1, Mistral Small 32B, Gemini-2.5, GPT-4.1-mini) are evaluated against human baselines.
 
 ## Notes
 

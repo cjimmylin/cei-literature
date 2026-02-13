@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics in robot"
@@ -30,6 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Automated Ethical Practical Reasoning: The Problem of Artificial Phronesis
 
@@ -46,6 +49,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 This chapter explores the application of **Aristotelian virtue** (**arete**) and **phronesis** (practical wisdom) to AI systems, particularly in the context of the EU Artificial Intelligence Act. Sullins argues that while current regulatory approaches often rely on "ethical data" and rule-based paradigms, **virtue ethics** offers a more robust framework for the design and training of AI agents. The paper investigates the concept of "artificial phronesis" or "quasi-phronesis"—the capacity for machines to perform **virtuous** behaviors through context-sensitive practical reasoning. It concludes by proposing a virtue-based "AI Seal of Excellence" certification process.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical analysis exploring the concept of artificial phronesis (practical ethical reasoning) in AI and robotics, drawing on Aristotelian virtue ethics, John Dewey's pragmatism, and case studies of AlphaGo and Microsoft Tay.
+
 
 ## Notes
 

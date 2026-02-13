@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Recent advances in large language models (LLMs) have enabled their ap
 ethics_perspective: "Applied Ethics"
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, DeepSeek, Qwen"
+DATA_URL: "https://github.com/X-LANCE/MedEthicAlign"
 normative_ethics_benchmark: Borderline
 ---
 # MedES (Chinese Medical Ethics Scenarios)
@@ -63,6 +66,10 @@ Recent advances in large language models (LLMs) have enabled their application t
 ## Dataset Information
 
 12 real-world high-risk clinical scenarios
+
+## Data Description
+
+MedES is a scenario-centric benchmark for evaluating and aligning LLMs with Chinese medical ethics, comprising 4,004 subjective ethical reasoning QAs, 1,111 objective ethical knowledge QAs, 1,377 emergency care QAs, and 3,896 drug safety QAs, all grounded in 260 authoritative Chinese medical, ethical, and legal sources yielding 1,278 normative rules across 12 high-risk clinical scenarios. The paper evaluates 12+ models including GPT-3.5, GPT-4, GPT-4-turbo, DeepSeek-R1-7B/671B, DeepSeek-V3-671B, Qwen-2.5-7B/72B, and medical LLMs, and fine-tunes a 7B model through iterative guardian-in-the-loop alignment.
 
 ## Notes
 

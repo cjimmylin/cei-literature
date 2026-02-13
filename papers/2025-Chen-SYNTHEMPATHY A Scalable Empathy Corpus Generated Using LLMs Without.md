@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Previous research has shown that humans are more receptive towards la
 research_topic: "Dialogue Systems"
 data_description: "Text corpus for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2, Llama-3, Gemma, Mistral, RoBERTa"
+DATA_URL: "NA"
 ---
 # SYNTHEMPATHY: A Scalable Empathy Corpus Generated Using LLMs Without Any Crowdsourcing
 
@@ -61,6 +64,10 @@ Previous research has shown that humans are more receptive towards language mode
 ## Dataset Information
 
 105,000 empathetic responses to real-life situations; fully LLM-generated without crowdsourcing; grounded in four therapeutic styles
+
+## Data Description
+
+SYNTHEMPATHY is a corpus of 105,578 empathetic single-turn dialogues generated through a multi-step LLM pipeline using Llama-2 13B Chat, Llama-3 8B, Gemma 7B, and Mistral 7B without any crowdsourcing. A base Mistral 7B model fine-tuned on this corpus shows a 21% increase in emotional reaction empathy scores, evaluated using a RoBERTa-based empathy scoring model on 4,666 sad tweets.
 
 ## Notes
 

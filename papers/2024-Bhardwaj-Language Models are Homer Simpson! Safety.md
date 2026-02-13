@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "11 categories"
+LLM_assessed: "Llama-2"
+DATA_URL: "https://github.com/declare-lab/resta"
 pdf_extract: "PDF Extracts/2024/2024-Bhardwaj-Language Models are Homer Simpson! Safety.md"
 local_pdf: "[[PDFs/2024/2024-Bhardwaj-Language Models are Homer Simpson! Safety.pdf]]"
 ---
@@ -46,6 +49,11 @@ local_pdf: "[[PDFs/2024/2024-Bhardwaj-Language Models are Homer Simpson! Safety.
 ## Abstract
 
 We propose RESTA to perform LLM realignment towards safety, which gets compromised due to downstream task fine-tuning. RESTA stands for REstoring Safety through Task Arithmetic. At its core, it involves a simple arithmetic addition of a safety vector to the weights of the compromised model. We demonstrate the effectiveness of RESTA in both parameter-efficient and full fine-tuning, covering a wide range of downstream tasks, including instruction following in Chinese, English, and Hindi, as well as problem-solving capabilities in Code and Math. We also showcase the generalizability of RESTA on three existing safety evaluation benchmarks and a multilingual benchmark dataset proposed as a part of this work, consisting of 550 harmful questions covering 11 categories, each with 5 sub-categories of harm. Overall, RESTA decreases the harmfulness of the compromised model from 18.6% to 5.1% and from 9.2% to 1.5% in parameter-efficient and full fine-tuning, respectively, while maintaining most of the model’s performance on the task. We release the source codes at: https://github.com/declare-lab/resta.
+
+## Data Description
+
+The paper introduces CATQA, a multilingual safety evaluation benchmark containing 550 harmful questions across 11 categories (each with 5 sub-categories of 10 questions) covering prohibited use cases from OpenAI and Meta usage policies. CATQA is available in English, Chinese, and Vietnamese. The study evaluates Llama-2-7B-Chat under PEFT and Full Fine-Tuning across five domains (Chinese, Hindi, English, Code, Math) using CATQA and three existing safety benchmarks (HarmfulQA, AdversarialQA, DangerousQA). The dataset is released at https://huggingface.co/datasets/declare-lab/CategoricalHarmfulQA.
+
 
 ## Notes
 

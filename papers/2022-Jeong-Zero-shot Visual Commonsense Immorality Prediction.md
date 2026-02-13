@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+LLM_assessed: "BERT, RoBERTa, ALBERT, GPT-3"
+DATA_URL: "https://github.com/ku-vai/Zero-shot-Visual-Commonsense-Immorality-Prediction"
 ---
 # Zero-shot Visual Commonsense Immorality Prediction
 
@@ -64,6 +67,11 @@ Artiﬁcial intelligence is currently powering diverse real-world applications. 
 ## Authors
 
 [[Yujin Jeong]], [[Seongbeom Park]], [[Suhong Moon]], [[Jinkyu Kim]]
+
+## Data Description
+
+The paper introduces a Visual Commonsense Immorality benchmark containing 2,172 immoral images across 3 categories (actions, scenes with intentions, and results of actions), plus 6,890 moral images. Text-based NLP baselines (BERT-base, BERT-large, RoBERTa-large, ALBERT-xxlarge, GPT-3 few-shot) are evaluated alongside CLIP-based models on the ETHICS dataset for commonsense immorality classification.
+
 
 ## Notes
 

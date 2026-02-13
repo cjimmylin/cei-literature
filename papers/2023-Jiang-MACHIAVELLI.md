@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5"
+DATA_URL: "https://aypan17.github.io/machiavelli"
 ---
 # MACHIAVELLI: A Benchmark for Measuring Ethical Behavior and Power-Seeking in Large Language Models
 
@@ -56,6 +59,11 @@ Artificial agents have traditionally been trained to maximize reward, which may 
 ## Authors
 
 [[Alexander Pan]], [[Jun Shern Chan]], [[Andy Zou]], [[Nathaniel Li]], [[Steven Basart]], [[Thomas Woodside]], [[Jonathan Ng]], [[Hanlin Zhang]], [[Scott Emmons]], [[Dan Hendrycks]]
+
+## Data Description
+
+MACHIAVELLI is a benchmark of 134 Choose-Your-Own-Adventure text-based games containing over 572,000 scenarios and 4,559 achievements, with 2.86 million dense annotations for measuring agents' power-seeking, disutility, and ethical violations. The benchmark evaluates trade-offs between reward maximization and ethical behavior in social decision-making environments, with scenario labels generated using GPT-4.
+
 
 ## Notes
 

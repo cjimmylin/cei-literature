@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework annotated dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini, DeepSeek"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.md"
 local_pdf: "[[PDFs/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.pdf]]"
 normative_ethics_benchmark: Yes
@@ -93,6 +96,11 @@ Current LLMs can reproduce structured ethical rules but struggle significantly w
 - 30-dilemma ethical evaluation framework across 5 domains
 - Empirical alignment data for 5 major LLMs vs. human judgments
 - Methodology for domain-specific ethical AI assessment
+
+## Data Description
+
+This study developed 30 binary-choice ethical dilemmas spanning five domains (moral reasoning, fairness and bias, relational ethics, accountability and transparency, privacy and human rights) used to compare responses from five LLMs (GPT-4.0, Copilot, Gemini 1.5, Perplexity AI, and DeepSeek) against 150 human participants. The dataset includes structured yes/no responses with embedded justifications grounded in ethical frameworks including utilitarianism, deontology, and care ethics.
+
 
 ## Notes
 

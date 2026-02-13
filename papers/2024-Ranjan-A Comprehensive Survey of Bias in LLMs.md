@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # A Comprehensive Survey of Bias in LLMs: Current Landscape and Future Directions
 
@@ -57,6 +60,11 @@ Large Language Models(LLMs) have revolutionized various applications in natural 
 ## Authors
 
 [[Rajesh Ranjan]], [[Shailja Gupta]], [[Surya Narayan Singh]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a comprehensive survey reviewing the types, sources, impacts, and mitigation strategies related to biases in large language models, synthesizing existing research findings across demographic, contextual, algorithmic, and systemic bias categories.
+
 
 ## Notes
 

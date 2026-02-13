@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/coairesearch/mapping_moral_reasoning.git"
 pdf_extract: "PDF Extracts/2025/2025-Schacht-Mapping Moral Reasoning Circuits.md"
 local_pdf: "[[PDFs/2025/2025-Schacht-Mapping Moral Reasoning Circuits.pdf]]"
 ---
@@ -97,6 +100,11 @@ The findings advance theoretical understanding of moral reasoning in LLMs by dem
 - Dataset: 240 validated moral and immoral statement pairs across six moral dimensions
 - Code and experimental results: https://github.com/coairesearch/mapping_moral_reasoning.git
 - Interpretability pipeline for moral neuron identification
+
+## Data Description
+
+The paper presents a curated dataset of 240 validated moral and immoral statement pairs across six moral dimensions (care, fairness, loyalty, authority, sanctity, and liberty) based on Moral Foundations Theory. The dataset is used for differential activation analysis, automated neuron description, and ablation experiments to identify specialized neurons in LLMs aligned with each moral dimension. The specific LLM model tested is not identifiable from the extract due to paywall-limited content.
+
 
 ## Notes
 

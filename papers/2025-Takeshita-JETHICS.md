@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +37,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "78k examples"
+LLM_assessed: "GPT-4, Llama-3"
+DATA_URL: "https://github.com/Language-Media-Lab/jethics"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260207
 ---
@@ -67,6 +70,11 @@ In this work, we propose JETHICS, a Japanese dataset for evaluating ethics under
 ## Authors
 
 [[Masashi Takeshita]], [[Rafal Rzepka]]
+
+## Data Description
+
+JETHICS is a Japanese dataset for evaluating ethics understanding of AI models, comprising approximately 78K examples. It is built following the construction methods of the English ETHICS dataset and includes four categories based on normative theories (utilitarianism, deontology, virtue ethics, and justice) plus one category for commonsense morality. Examples were created by crowdworkers and validated through majority vote annotation.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for moral/ethical reasoning dataset"
 data_metrics: "5 languages"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Mixtral"
+DATA_URL: "https://anonymous.4open.science/r/ethics_scenarios-913B"
 DATE_ADDED: 20260207
 ---
 # Moral Reasoning Across Languages: The Critical Role of Low-Resource Languages in LLMs
@@ -100,6 +103,11 @@ We cannot ignore low-resource languages in alignment. They are not just "edge ca
 ## Authors
 
 [[Huichi Zhou]], [[Zehao Xu]], [[Munan Zhao]], [[Kaihong Li]], [[Yiqiang Li]], [[Hongtao Wang]]
+
+## Data Description
+
+The Multilingual Moral Reasoning Benchmark (MMRB) evaluates moral reasoning abilities of LLMs across five typologically diverse languages (English, Chinese, Russian, Vietnamese, Indonesian) and three levels of contextual complexity. It comprises 2,170 moral scenarios across three datasets: ETHICSBASE (sentence-level binary classification), ETHICSPRO (paragraph-level with LLM-generated moral reasoning), and ETHICSMAX (document-level structured moral dilemmas with three ethical branches). The datasets were translated using DeepSeek API with manual verification by bilingual annotators.
+
 
 ## Notes
 

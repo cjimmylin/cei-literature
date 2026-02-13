@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "5 words"
+LLM_assessed: "RoBERTa"
+DATA_URL: "NA"
 ---
 # Some Issues in Predictive Ethics Modeling: An Annotated Contrast Set of "Moral Stories"
 
@@ -57,6 +60,11 @@ Models like Delphi have been able to label ethical dilemmas as moral or immoral 
 ## Authors
 
 [[Ben Fitzgerald]]
+
+## Data Description
+
+The paper creates four contrast sets (norm swaps, textual bias, descriptive shifts, and demographic shifts) on the Moral Stories dataset to evaluate a fine-tuned RoBERTa classifier for predictive ethics modeling. The contrast sets comprise 851 annotated data points across 333 rows of the original dataset, testing how data misrepresentation (e.g., label-changing descriptive tweaks of 3-5 words) reduces classifier accuracy from 99.8% to as low as 51%.
+
 
 ## Notes
 

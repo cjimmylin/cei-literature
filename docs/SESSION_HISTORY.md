@@ -2,6 +2,38 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 58 (Feb 12, 2026) - LLM Assessment Pipeline Scale-Up to 846/846
+
+### Overview
+
+Completed the LLM assessment enrichment pipeline for all remaining 396 papers (batch2=100, batch3=300, batch4=396), bringing coverage from 50/846 (pilot) to 846/846 (100%). Launched 40 agents across 5 waves to deep-read PDF extracts and extract LLM model names, data URLs, and data descriptions. Consolidated results and validated all papers.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Papers Updated (Total) | 846 / 846 |
+| Batch 4 Papers | 396 (395 automated + 1 manual curly-quote fix) |
+| Papers with LLM Models (Batch 4) | 309 (78%) |
+| Papers with Data URL (Batch 4) | 218 (55%) |
+| Papers with Description (Batch 4) | 396 (100%) |
+| YAML Validation Errors | 0 |
+| Agent Swarm Size (Batch 4) | 40 agents, 5 waves of 5 |
+| Top Model (Batch 4) | GPT-4 (197 papers) |
+
+### Key Learnings
+- [Data Quality] Unicode curly quotes in filenames (LaCroix paper with `'benchmarking'`) cause consolidation script filename lookup to fail when agent JSON uses straight quotes — requires manual fix
+- [Data Quality] Additional mismatched PDF extracts discovered: Ochasi (Pilates content instead of healthcare AI), U-SafeBench (phylogenetics content instead of safety benchmark)
+- [Workflows] 40-agent swarm across 5 waves completes in ~15 minutes wall time; output files appear reliably within 90 seconds of wave launch
+- [Research] 2025-2026 papers show dramatic shift toward multi-model evaluation (GPT-4, Llama-3, Qwen top trio) vs earlier BERT/GPT-2 dominance in pilot batch
+
+### Files Changed
+- papers/: 796 modified (YAML + body enrichment across batches 2-4)
+- logs/: 40 agent output JSON files (batch 4)
+- memory/: Updated llm-assessment-pipeline.md and MEMORY.md to reflect 846/846 complete
+
+---
+
 ## Session 57 (Feb 12, 2026) - LLM Assessment & Data Description Pipeline
 
 ### Overview

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Long-form legal reasoning remains a key challenge for large language 
 research_topic: "Machine Learning"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, DeepSeek, Gemini, Claude, Qwen, Llama-3, Gemma, Phi, Mistral"
+DATA_URL: "https://lexam-benchmark.github.io/"
 ---
 # LEXam
 
@@ -63,6 +66,10 @@ Long-form legal reasoning remains a key challenge for large language models (LLM
 ## Dataset Information
 
 4,886 law exam questions (English + German)
+
+## Data Description
+
+LEXAM is a multilingual legal reasoning benchmark derived from 340 law exams spanning 116 courses at the University of Zurich, comprising 4,886 questions (2,841 open-ended and 2,045 multiple-choice) in English and German. The authors evaluate 36 LLMs across reasoning, large, and small model categories, including GPT-4o/4.1, DeepSeek-R1/V3, Gemini-2.5-Pro, Claude-3.7/4.5-Sonnet, Qwen3, Llama-3/4, Gemma-2/3, Phi-4, and Ministral-8B, using an ensemble LLM-as-a-Judge evaluation framework validated against human expert assessments.
 
 ## Notes
 

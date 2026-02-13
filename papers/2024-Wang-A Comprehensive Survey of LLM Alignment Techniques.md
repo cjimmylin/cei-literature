@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # A Comprehensive Survey of LLM Alignment Techniques: RLHF, RLAIF, PPO, DPO and More
 
@@ -64,6 +67,11 @@ With advancements in self-supervised learning, the availability of trillions tok
 ## Authors
 
 [[Zhichao Wang]], [[Bin Bi]], [[Shiva Kumar Pentyala]], [[Kiran Ramnath]], [[Sougata Chaudhuri]], [[Shubham Mehrotra]], [[Zhu|Zixu Zhu]], [[Xiang-Bo Mao]], [[Sitaram Asur]], [[Na Cheng]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a comprehensive survey paper that categorizes and reviews LLM alignment techniques across four main topics: reward models, feedback mechanisms, reinforcement learning policies, and optimization approaches, covering methods such as RLHF, RLAIF, PPO, DPO, and their variants.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
+LLM_assessed: "BERT, GPT-2"
+DATA_URL: "https://github.com/sahoonihar/ToxicBias_CoNLL_2022"
 pdf_extract: "PDF Extracts/2022/2022-Sahoo-Detecting Unintended Social Bias in Toxic.md"
 local_pdf: "[[PDFs/2022/2022-Sahoo-Detecting Unintended Social Bias in Toxic.pdf]]"
 ---
@@ -64,6 +67,11 @@ With the rise of online hate speech, automatic detection of Hate Speech, Offensi
 ## Authors
 
 [[Nihar Sahoo]], [[Himanshu Gupta]], [[Pushpak Bhattacharyya]]
+
+## Data Description
+
+ToxicBias is a manually annotated dataset of 5,409 instances curated from the Jigsaw Unintended Bias in Toxicity Classification dataset, annotated for social bias detection across five categories: gender, race/ethnicity, religion, political, and LGBTQ. Each instance includes bias labels, target group annotations, and free-text bias implications. BERT and GPT-2 transformer models were trained and evaluated for bias identification, category detection, and target generation tasks.
+
 
 ## Notes
 

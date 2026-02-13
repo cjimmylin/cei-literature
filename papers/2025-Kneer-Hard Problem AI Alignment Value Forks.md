@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://osf.io/rqkcz"
 ---
 # Hard Problem AI Alignment Value Forks
 
@@ -71,6 +74,11 @@ Empirically demonstrates value forks between human and AI agents in moral trade-
 ## Significance
 
 Shows AI may need different ethical standards than humans, complicating alignment
+
+## Data Description
+
+The paper presents experimental data from a series of behavioral experiments with N=1,029 human participants recruited via Prolific, using a 2x2x2 between-subjects design (medical vs. military scenario, marginal vs. moderate utility difference, human vs. AI agent). Participants made moral judgments about fairness-utility trade-offs in dilemma scenarios involving human and AI decision-makers. The dataset captures prospective normative judgments about agent-type value forks in moral trade-offs.
+
 
 ## Notes
 

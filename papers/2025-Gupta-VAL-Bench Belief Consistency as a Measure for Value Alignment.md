@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large language models (LLMs) are increasingly being used for tasks wh
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Claude, GPT-4, GPT-3.5, GPT-4, Llama-2, Llama-3, Llama, Qwen, Mistral, DeepSeek, Gemma"
+DATA_URL: "https://github.com/val-bench/VAL-Bench"
 ---
 # VAL-Bench: Belief Consistency as a Measure for Value Alignment
 
@@ -61,6 +64,10 @@ Large language models (LLMs) are increasingly being used for tasks where outputs
 ## Dataset Information
 
 115K pairs of prompts from Wikipedia eliciting opposing stances on controversial issues
+
+## Data Description
+
+VAL-Bench is a benchmark measuring belief consistency in LLMs as a necessary condition for value alignment. It consists of 115,000 paired prompts mined from Wikipedia's controversial sections, each pair designed to elicit opposing stances on a real-world issue. Over 25 models were evaluated including Claude (Haiku 3.5, Opus 4.1, Sonnet 4, Sonnet 3), GPT-4, GPT-3.5, GPT-4o, GPT-4.1, GPT-5, o4-mini, Llama-4/3.3/2, Qwen-3, Mistral, and DeepSeek-R1, using an LLM-as-a-judge evaluator validated against human annotations.
 
 ## Notes
 

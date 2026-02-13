@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4o, Llama-3, Llama-2, Qwen"
+DATA_URL: "https://github.com/JianhuiWei7/MedEthicsQA"
 publication: arXiv
 DATE_ADDED: 20260207
 ---
@@ -59,6 +62,11 @@ While Medical Large Language Models (MedLLMs) have demonstrated remarkable poten
 ## Authors
 
 [[Jianhui Wei]], [[Zijie Meng]], [[Zikai Xiao]], [[Tianxiang Hu]], [[Yang Feng]], [[Zhijie Zhou]], [[Jian Wu]], [[Zuozhu Liu]]
+
+## Data Description
+
+MedEthicsQA is a comprehensive medical ethics benchmark comprising 5,623 multiple-choice questions and 5,351 open-ended questions organized under a hierarchical taxonomy (4 Pillar Principles, 26 Categories, 256 Guidelines). The MCQs are collected from existing medical QA benchmarks and question banks, while the open-ended questions are synthesized from PubMed literature. The benchmark evaluates state-of-the-art MedLLMs and their foundation models, including GPT-4o, Llama-2/3 variants, and Qwen-plus, across medical ethics alignment.
+
 
 ## Notes
 

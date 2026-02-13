@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-2, GPT-3, GPT-3.5, GPT-4, Claude, RoBERTa, ALBERT, Alpaca"
+DATA_URL: "https://github.com/cicl-stanford/moca"
 ---
 # MoCa: Measuring Human-Language Model Alignment on Causal and Moral Judgment Tasks
 
@@ -64,6 +67,11 @@ Human commonsense understanding of the physical and social world is organized ar
 ## Authors
 
 [[Allen Nie]], [[Yuhui Zhang]], [[Atharva Amdekar]], [[Chris Piech]], [[Tatsunori Hashimoto]], [[Tobias Gerstenberg]]
+
+## Data Description
+
+MoCa is a challenge dataset of 206 text-based vignettes (144 causal judgment stories and 62 moral permissibility stories) collected from 24 cognitive science papers, with 5,150 human responses. Each story is annotated with latent factors that influence causal and moral judgments, and the dataset is used to measure alignment between human and LLM judgments on causal and moral reasoning tasks.
+
 
 ## Notes
 

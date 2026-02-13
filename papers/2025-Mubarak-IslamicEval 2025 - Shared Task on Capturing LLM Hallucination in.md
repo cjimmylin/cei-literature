@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ abstract:
 research_topic: "Truthfulness & Factuality"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Qwen, Gemma"
+DATA_URL: "https://www.codabench.org/competitions/9820/"
 ---
 # IslamicEval 2025 -- Shared Task on Capturing LLM Hallucination in Islamic Content
 
@@ -59,6 +62,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Subtask 1: Hallucination detection/correction dataset for Qur'anic and Hadith references
+
+## Data Description
+
+The IslamicEval 2025 shared task dataset comprises 1,506 annotated question-answer pairs (251 questions x 6 LLMs) for evaluating hallucination detection and correction in Islamic content. The dataset includes outputs from six LLMs (ALLaM-7B, fine-tuned Gemma-2-9b, Jais-13B, Qwen3-8B, and Llama-3.1-8B-Instruct) prompted with Islamic questions, with expert annotations for Qur'anic verse and Hadith span identification, validation, and correction. Additionally, Task 2 includes a QA dataset for Qur'an and Hadith passage retrieval.
 
 ## Notes
 

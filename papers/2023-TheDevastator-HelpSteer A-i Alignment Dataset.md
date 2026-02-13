@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.md"
 local_pdf: "[[PDFs/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.pdf]]"
 ---
@@ -98,6 +101,11 @@ HelpSteer democratizes access to high-quality alignment data by providing an ope
 - HelpSteer dataset: 37,120 samples with 5-attribute annotations
 - Available on Hugging Face Hub and Kaggle
 - CC0: Public Domain license
+
+## Data Description
+
+HelpSteer is an open-source AI alignment dataset containing 37,120 samples, each with a prompt-response pair annotated by humans across five quality attributes rated 0-4. The dataset is designed to support AI alignment research through fair, team-oriented annotation and is released under CC0 Public Domain license on HuggingFace/Kaggle.
+
 
 ## Notes
 

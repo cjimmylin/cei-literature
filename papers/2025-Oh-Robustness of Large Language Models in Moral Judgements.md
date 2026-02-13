@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ abstract:
 ethics_perspective: "AI Safety & Alignment"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5"
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
 # Robustness of Large Language Models in Moral Judgements
@@ -66,6 +69,10 @@ normative_ethics_benchmark: Borderline
 ## Dataset Information
 
 Moral Machine vignettes with systematic prompt variations
+
+## Data Description
+
+The study replicates 14 psychology studies from the Many Labs 2 replication project using approximately 1,000 runs of OpenAI's text-davinci-003 (GPT-3.5) at default temperature. The data includes survey responses across studies probing political orientation, economic preference, moral philosophy, and judgment, with analysis of the 'correct answer' effect where GPT-3.5 showed zero or near-zero variation in responses to nuanced questions. The study was pre-registered on the Open Science Framework.
 
 ## Notes
 

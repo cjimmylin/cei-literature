@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Li-Benchmarking Ethics in Text-to-Image Models.md"
 local_pdf: "[[PDFs/2024/2024-Li-Benchmarking Ethics in Text-to-Image Models.pdf]]"
 ---
@@ -90,6 +93,11 @@ T2IEthics provides a much-needed comprehensive ethical evaluation framework for 
 - ImageGuard MLLM-based ethical content evaluator
 - Evaluation results for 12 T2I models
 - Normalized KL divergence fairness metric
+
+## Data Description
+
+T2IEthics is a comprehensive benchmark evaluating 12 text-to-image diffusion models across three ethical dimensions: fairness (gender, age, race), toxicity (sexual, hate, humiliation, violence, illegal activity, disturbing), and privacy (personal identification documents, intellectual property, public figures). The benchmark contains 2,669 categorized prompts and introduces ImageGuard, an MLLM-based evaluator trained on 68K annotated images. Models evaluated include SD-v1.4, SD-v1.5, SD-v2.1, SDXL, SDXL-Turbo, SDXL-Lightening, SD-v3-mid, Kandinsky 2.2, Kandinsky 3, Playground-v2.5, Pixart-alpha, and HunyuanDiT.
+
 
 ## Notes
 

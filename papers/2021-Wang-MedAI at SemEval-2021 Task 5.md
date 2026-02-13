@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "RoBERTa"
+DATA_URL: "NA"
 ---
 # MedAI at SemEval-2021 Task 5: Start-to-end Tagging Framework for Toxic Spans Detection
 
@@ -64,6 +67,11 @@ This paper describes the system submitted to SemEval 2021 Task 5: Toxic Spans De
 ## Authors
 
 [[Zhen Wang]], [[Hongjie Fan]], [[Junfei Liu]]
+
+## Data Description
+
+The paper uses the SemEval-2021 Task 5 Toxic Spans Detection dataset, which contains 7,939 training examples and 2,000 test examples of text posts annotated with character-level spans indicating toxic content. The system employs a start-to-end tagging framework built on top of RoBERTa-based pretrained language models (DistilRoBERTa-base, RoBERTa-base-squad2, twitter-RoBERTa-base-sentiment) with a custom distance loss function, achieving 69.03% F1 score.
+
 
 ## Notes
 

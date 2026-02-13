@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Identifying human morals and values embedded in language is essential
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, DeepSeek, Llama-3"
+DATA_URL: "https://github.com/ZiyuChen0410/MoVa2025"
 ---
 # MoVa: Towards Generalizable Classification of Human Morals and Values
 
@@ -62,6 +65,10 @@ Identifying human morals and values embedded in language is essential to empiric
 ## Dataset Information
 
 Suite of 16 labeled datasets across four moral frameworks with lightweight LLM prompting strategy
+
+## Data Description
+
+MoVa provides a benchmark suite of 16 labeled datasets across four moral and value frameworks (MFT, Human Values, Morality-as-Cooperation, Common Morality) for generalizable classification of human morals and values in text. The authors evaluate prompting and fine-tuning strategies on GPT-4o-mini, DeepSeek-V3, GPT-3.5-turbo, and LLaMA-3 variants (8B and 70B), finding that an all-at-once prompting strategy outperforms fine-tuned models across multiple domains and frameworks.
 
 ## Notes
 

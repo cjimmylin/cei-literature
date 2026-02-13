@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/siyaqi/Awesome-Hallu-Eval"
 ---
 # A Survey of Automatic Hallucination Evaluation on Natural Language Generation
 
@@ -61,6 +64,11 @@ The proliferation of Large Language Models (LLMs) has introduced a critical chal
 ## Authors
 
 [[Siya Qi]], [[Lin Gui]], [[Yulan He]], [[Zheng Yuan]]
+
+## Data Description
+
+This is a survey paper that systematically analyzes 105 automatic hallucination evaluation methods for natural language generation, covering the period from January 2020 to July 2025. The survey organizes methods across datasets, benchmarks, and evaluation methodologies (reference-based, reference-free, and LLM-based evaluation), distinguishing between source faithfulness and world factuality perspectives. The accompanying GitHub repository provides a curated and updated list of hallucination evaluation methods.
+
 
 ## Notes
 

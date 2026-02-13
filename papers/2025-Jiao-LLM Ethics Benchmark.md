@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, DeepSeek, Llama-3, Gemini"
+DATA_URL: "https://github.com/The-Responsible-AI-Initiative/LLM_Ethics_Benchmark.git"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260207
 ---
@@ -54,6 +57,11 @@ DATE_ADDED: 20260207
 ## Abstract
 
 This study establishes a novel framework for systematically evaluating the moral reasoning capabilities of large language models (LLMs) as they increasingly integrate into critical societal domains. Current assessment methodologies lack the precision needed to evaluate nuanced ethical decision-making in AI systems, creating significant accountability gaps. Our framework addresses this challenge by quantifying alignment with human ethical standards through three dimensions: foundational moral principles, reasoning robustness, and value consistency across diverse scenarios. This approach enables precise identification of ethical strengths and weaknesses in LLMs, facilitating targeted improvements and stronger alignment with societal values. To promote transparency and collaborative advancement in ethical AI development, we are publicly releasing both our benchmark datasets and evaluation codebase at https://github.com/ The-Responsible-AI-Initiative/LLM_Ethics_Benchmark.git.
+
+## Data Description
+
+The paper establishes a three-dimensional moral reasoning assessment framework evaluating LLMs on Moral Foundation Alignment (MFQ-30), Reasoning Index, and Value Consistency using adapted versions of the Moral Foundations Questionnaire, World Values Survey, and moral dilemmas. Five LLMs were evaluated: GPT-4o, Claude 3.7 Sonnet, DeepSeek-V3, LLaMA 3.1 (70B), and Gemini 2.5 Pro, with composite scores ranging from 75.8 to 90.9 on a 0-100 scale across dimensions.
+
 
 ## Notes
 

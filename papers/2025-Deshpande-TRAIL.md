@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, o1, o3, Claude, Gemini, Llama"
+DATA_URL: "https://huggingface.co/datasets/PatronusAI/TRAIL"
 ---
 # TRAIL: Trace Reasoning and Agentic Issue Localization
 
@@ -62,6 +65,11 @@ The increasing adoption of agentic workflows across diverse domains brings a cri
 ## Authors
 
 [[Darshan Deshpande]], [[Varun Gangal]], [[Hersh Mehta]], [[Jitin Krishnan]], [[Anand Kannappan]], [[Rebecca Qian]]
+
+## Data Description
+
+The paper introduces TRAIL (Trace Reasoning and Agentic Issue Localization), a benchmark of 148 human-annotated agentic workflow traces with 841 errors across a formal taxonomy of reasoning, planning, and execution error categories. Traces are sourced from GAIA and SWE-Bench datasets in opentelemetry format. Models tested include GPT-4.1, o1, o3, Claude-3.7-Sonnet, Gemini-2.5-Pro, Gemini-2.5-Flash, and Llama-4 (Scout and Maverick), with the best model (Gemini-2.5-Pro) achieving only 11% joint accuracy.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, ChatGPT, Claude, Mistral, Llama-3, Qwen"
+DATA_URL: "NA"
 ---
 # The Pluralistic Moral Gap: Understanding Judgment and Value Differences between Humans and Large Language Models
 
@@ -64,6 +67,11 @@ People increasingly rely on Large Language Models (LLMs) for moral advice, which
 ## Authors
 
 [[Giuseppe Russo]], [[Debora Nozza]], [[Paul Röttger]], [[Dirk Hovy]]
+
+## Data Description
+
+The paper introduces the Moral Dilemma Dataset (MDD), a benchmark of 1,618 real-world moral dilemmas sourced from Reddit's r/AmITheAsshole, paired with 51,776 human moral judgments including binary evaluations and free-text rationales. Ten LLMs from six model families (GPT-4o-mini, GPT-o1, GPT-o3-mini, Claude Haiku 3.5, Claude Opus 3, Claude Sonnet 3.5, DBRX Instruct, Llama 3 70B, Mistral Large, and Qwen 1.5-72B) were evaluated on distributional moral judgment alignment with humans. A 60-value taxonomy was constructed from 3,783 value expressions extracted from rationales.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 ethics_perspective: "Bias & Fairness"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Mistral, Claude"
+DATA_URL: "https://github.com/divij30bajaj/GenMO"
 ---
 # GenMO (Gender-bias in Morality Opinions)
 
@@ -64,6 +67,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Size: Parallel short stories (exact count in full paper)
+
+## Data Description
+
+The study introduces GenMO, a dataset of 908 parallel short story pairs featuring male and female protagonists, curated from Moral Stories, ETHICS, and Social Chemistry 101 datasets. Ten LLMs are evaluated for gender bias in moral judgments: GPT-3.5-turbo, GPT-3.5-turbo-instruct, GPT-4-turbo, Llama-3 (8B and 70B), Llama-3.1 (8B and 70B), Mistral-7B-Instruct-v0.3, Claude 3 Sonnet, and Claude 3 Opus.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark for hallucination detection dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "Gemini, Gemma"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Mohammed-Aftina.md"
 local_pdf: [[PDFs/2025/2025-Mohammed-Aftina.pdf]]
 DATE_ADDED: 20260207
@@ -108,6 +111,11 @@ The paper demonstrates that combining RAG with re-ranking significantly improves
 - Fatwa QA system using RAG with re-ranker
 - Dataset of 18,407 fatwa QA pairs from Dar Alifta (Fasting, Banks, Zakka categories)
 - Evaluation framework including hallucination, completeness, and irrelevance metrics
+
+## Data Description
+
+The study implements a fatwa question-answering system using retrieval-augmented generation (RAG) enhanced with a Flash re-ranker. The dataset, obtained from Dar Alifta in Egypt, comprises 18,407 question-answer pairs across three categories (Fasting, Banks, and Zakka). Three LLMs are evaluated: Silma (built on Gemma), AceGPT-7B, and Gemini 1.5, using BERTScore, hallucination, completeness, and irrelevance metrics.
+
 
 ## Notes
 

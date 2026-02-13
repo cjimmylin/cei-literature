@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "BERT"
+DATA_URL: "https://gitlab.com/bigirqu/quranqa"
 ---
 # Qur'an QA 2022: Overview of The First Shared Task on Question Answering over the Holy Qur'an
 
@@ -58,6 +61,11 @@ Motivated by the resurgence of the machine reading comprehension (MRC) research,
 ## Authors
 
 [[Rana Malhas]], [[Watheq Mansour]], [[Tamer Elsayed]]
+
+## Data Description
+
+The Qur'anic Reading Comprehension Dataset (QRCD) consists of 1,093 question-passage pairs yielding 1,337 question-passage-answer triplets, split into training (65%), development (10%), and test (25%) sets. The dataset targets extractive question answering over the Holy Qur'an in Arabic, with questions posed in Modern Standard Arabic and answers extracted as spans from Classical Arabic Qur'anic passages. Thirteen teams participated in the shared task using transformer-based models including AraBERT and AraElectra variants.
+
 
 ## Notes
 

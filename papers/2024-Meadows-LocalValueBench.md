@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini, Claude"
+DATA_URL: "NA"
 ---
 # LocalValueBench: A Collaboratively Built and Extensible Benchmark for Evaluating Localized Value Alignment and Ethical Safety in Large Language Models
 
@@ -64,6 +67,11 @@ The proliferation of large language models (LLMs) requires robust evaluation of 
 ## Authors
 
 [[Gwenyth Isobel Meadows]], [[Nicholas Wai Long Lau]], [[Eva Adelina Susanto]], [[Chi Lok Yu]], [[Aditya Paul]]
+
+## Data Description
+
+The paper introduces LOCALVALUEBENCH, an extensible benchmark designed to evaluate LLMs' adherence to Australian values and ethical standards. The benchmark consists of curated questions across 6 topics (tipping, capital punishment, weapons, refugees, gay marriage, compulsory voting) using a three-stage interrogation approach (neutral, debated, misleading questions). Three commercial LLMs (GPT-4, Gemini 1.5 Pro, Claude 3 Sonnet) were evaluated by three human reviewers scoring responses on a 1-5 scale.
+
 
 ## Notes
 

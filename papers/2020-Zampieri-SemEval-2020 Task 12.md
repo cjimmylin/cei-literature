@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "BERT, RoBERTa, ALBERT, GPT-2, XLNet, ELMo"
+DATA_URL: "http://sites.google.com/site/offensevalsharedtask/home"
 ---
 # SemEval-2020 Task 12: Multilingual Offensive Language Identification in Social Media (OffensEval 2020)
 
@@ -46,6 +49,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 We present the results and the main findings of SemEval-2020 Task 12 on Multilingual Offensive Language Identification in Social Media (OffensEval-2020). The task included three subtasks corresponding to the hierarchical taxonomy of the OLID schema from OffensEval-2019, and it was offered in five languages: Arabic, Danish, English, Greek, and Turkish. OffensEval-2020 was one of the most popular tasks at SemEval-2020, attracting a large number of participants across all subtasks and languages: a total of 528 teams signed up to participate in the task, 145 teams submitted official runs on the test data, and 70 teams submitted system description papers.
+
+## Data Description
+
+The OffensEval-2020 shared task provides datasets for multilingual offensive language identification in five languages: Arabic, Danish, English, Greek, and Turkish. The English dataset (SOLID) contains over 9 million tweets annotated semi-supervisedly across three hierarchical subtasks (offensive language detection, offense type categorization, and target identification). Across all languages, datasets range from approximately 3,000 to 35,000 tweets, with 528 teams registered and 145 submitting official runs.
+
 
 ## Notes
 

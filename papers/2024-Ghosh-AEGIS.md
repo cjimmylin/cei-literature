@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2, GPT-4, Mistral"
+DATA_URL: "NA"
 ---
 # AEGIS: Online Adaptive AI Content Safety Moderation at Scale
 
@@ -55,6 +58,11 @@ As Large Language Models (LLMs) and generative AI become more widespread, the co
 ## Authors
 
 [[Shaona Ghosh]], [[Prasoon Varshney]], [[Erick Galinkin]], [[Christopher Parisien]]
+
+## Data Description
+
+AEGISSAFETYDATASET is a content safety dataset of approximately 26,000 human-LLM interaction instances with human annotations across 13 critical risk and 9 sparse risk categories. The dataset was generated using Mistral to produce responses to prompts from the Anthropic hh-rlhf dataset, annotated by 12 annotators with 86,736 total annotations and approximately 74% inter-annotator agreement. AEGISSAFETYEXPERTS models were instruction-tuned on Llama Guard (Llama-2-7B based) and NEMO43B, and evaluated against GPT-4 and other baselines across multiple safety benchmarks.
+
 
 ## Notes
 

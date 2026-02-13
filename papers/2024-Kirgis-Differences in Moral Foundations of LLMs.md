@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: 
 data_metrics:
+LLM_assessed: "Claude, DeepSeek, Gemini, Llama-3, GPT-3.5, GPT-4, o3, Grok"
+DATA_URL: "https://github.com/peterkirgis/llm-moral-foundations"
 ---
 # Differences in Moral Foundations of LLMs
 
@@ -56,6 +59,11 @@ This paper focuses on characterizing variations in the value judgments of LLMs w
 ## Authors
 
 [[Peter Kirgis]]
+
+## Data Description
+
+The study administers 116 Moral Foundations Vignettes (MFV) from Clifford et al. (2015) to 20 large language models from six providers (Anthropic, DeepSeek, Google, Meta, OpenAI, xAI) to measure moral judgment variation using Moral Foundations Theory. Models rate moral violation severity on a 0-4 Likert scale, with results analyzed using PCA decomposition and FrameAxis textual analysis of justification language. The dataset is compared against a nationally representative human baseline from the original MFV study.
+
 
 ## Notes
 

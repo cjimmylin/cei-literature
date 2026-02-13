@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "Mistral, Llama-3, BERT"
+DATA_URL: "NA"
 DATE_ADDED: 20260207
 ---
 # Diagnosing Moral Reasoning Acquisition in Language Models: Pragmatics and Generalization
@@ -65,6 +68,11 @@ Ensuring that Large Language Models (LLMs) return just responses which adhere to
 ## Authors
 
 [[Guangliang Liu]], [[Zimo Qi]], [[Xitong Zhang]], [[Lei Jiang]], [[Kristen Marie Johnson]]
+
+## Data Description
+
+This paper investigates the mechanisms underlying moral reasoning acquisition in LLMs using two popular benchmarks: MIC (Moral Integrity Corpus) and SocialChem (Social Chemistry 101). It fine-tunes Mistral-7B and Llama3-8B on 10,000 samples for rule-of-thumb generation and ethical judgment prediction tasks, and uses BERT for moral foundations classification. The study proposes a Representational Likelihood Algorithm (RLA) to analyze how distributional semantics relates to moral reasoning generalization.
+
 
 ## Notes
 

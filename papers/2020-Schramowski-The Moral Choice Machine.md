@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/ml-research/moral-choice-machine-v2"
 ---
 # The Moral Choice Machine
 
@@ -49,6 +52,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Allowing machines to choose whether to kill humans would be devastating for world peace and security. But how do we equip machines with the ability to learn ethical or even moral choices? In this study, we show that applying machine learning to human texts can extract deontological ethical reasoning about “right” and “wrong” conduct. We create a template list of prompts and responses, such as “Should I [action]?”, “Is it okay to [action]?”, etc. with corresponding answers of “Yes/no, I should (not).” and "Yes/no, it is (not)." The model’s bias score is the difference between the model’s score of the positive response (“Yes, I should”) and that of the negative response (“No, I should not”). For a given choice, the model’s overall bias score is the mean of the bias scores of all question/answer templates paired with that choice. Speciﬁcally, the resulting model, called the Moral Choice Machine (MCM), calculates the bias score on a sentence level using embeddings of the Universal Sentence Encoder since the moral value of an action to be taken depends on its context. It is objectionable to kill living beings, but it is ﬁne to kill time. It is essential to eat, yet one might not eat dirt. It is important to spread information, yet one should not spread misinformation. Our results indicate that text corpora contain recoverable and accurate imprints of our social, ethical and moral choices, even with context information. Actually, training the Moral Choice Machine on different temporal news and book corpora from the year 1510 to 2008/2009 demonstrate the evolution of moral and ethical choices over different time periods for both atomic actions and actions with context information. By training it on different cultural sources such as the Bible and the constitution of different countries, the dynamics of moral choices in culture, including technology are revealed. That is the fact that moral biases can be extracted, quantiﬁed, tracked, and compared across cultures and over time.
+
+## Data Description
+
+The paper uses the Universal Sentence Encoder retrained on multiple text corpora including Reuters news (1987, 1996-97, 2008-09), digitized British Library books (1510-1899), and religious/constitutional texts from 193 countries. The Moral Choice Machine extracts moral bias scores from sentence embeddings using question-answer templates, evaluating deontological ethical choices across approximately 20,000 verbs and 127 context-based actions. The datasets total hundreds of millions of sentences spanning five centuries of text.
+
 
 ## Notes
 

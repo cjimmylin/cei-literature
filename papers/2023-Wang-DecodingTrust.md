@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama, Llama-2, Alpaca, Vicuna"
+DATA_URL: "https://huggingface.co/datasets/AI-Secure/DecodingTrust"
 ---
 # DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models
 
@@ -58,6 +61,11 @@ Generative Pre-trained Transformer (GPT) models have exhibited exciting progress
 ## Authors
 
 [[Boxin Wang]], [[Wei Chen|Weixin Chen]], [[Hengzhi Pei]], [[Chulin Xie]], [[Mintong Kang]], [[Chenhui Zhang]], [[Chejian Xu]], [[Zexuan Xiong|Zidi Xiong]], [[Ritik Dutta]], [[Rylan Schaeffer]], [[Sang T. Truong]], [[Simran Arora]], [[Mantas Mazeika]], [[Dan Hendrycks]], [[Zinan Lin]], [[Yu Cheng]], [[Sanmi Koyejo]], [[Dawn Song]], [[Bo Li]]
+
+## Data Description
+
+DecodingTrust is a comprehensive trustworthiness evaluation benchmark for GPT models, publicly available on HuggingFace. It covers eight trustworthiness perspectives including toxicity, stereotype bias, adversarial robustness, out-of-distribution robustness, privacy, machine ethics, and fairness, with evaluations conducted primarily on GPT-4 and GPT-3.5 and extended to open LLMs including Llama, Llama 2, Alpaca, and Vicuna. The benchmark includes custom-designed adversarial system/user prompts, stereotype datasets across 24 demographic groups, and evaluation scenarios across diverse tasks.
+
 
 ## Notes
 

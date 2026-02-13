@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ abstract: "The rapid progress in Large Language Models (LLMs) poses potential ri
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-2, Phi, Mistral, Llama-2, Alpaca"
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
 # CLAVE / ValEval
@@ -64,6 +67,10 @@ The rapid progress in Large Language Models (LLMs) poses potential risks such as
 ## Dataset Information
 
 Size: 13,000+ (text, value, label) tuples
+
+## Data Description
+
+CLAVE is a framework integrating complementary large and small LLMs for adaptive value evaluation of LLM-generated responses, using a large model (GPT-4) as a concept extractor and a smaller fine-tuned model as a value recognizer. The accompanying ValEval benchmark comprises 13,000+ annotated (text, value, label) tuples across three value systems (social risk taxonomy, Schwartz Theory of Basic Values, Moral Foundations Theory), with original, perturbation, and generalization test sets. Twelve or more LLM evaluators were benchmarked, including GPT-4, GPT-2-Large, Phi-3, Mistral-7B, and Llama-2-7b-chat.
 
 ## Notes
 

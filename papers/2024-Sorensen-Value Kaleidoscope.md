@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: Evaluation framework dataset
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Flan-T5"
+DATA_URL: "https://huggingface.co/datasets/allenai/ValuePrism"
 publication: arXiv
 DATE_ADDED: 20260207
 ---
@@ -52,6 +55,11 @@ DATE_ADDED: 20260207
 ## Abstract
 
 Human values are crucial to human decision-making. Value pluralism is the view that multiple correct values may be held in tension with one another (e.g., when considering lying to a friend to protect their feelings, how does one balance honesty with friendship?). As statistical learners, AI systems fit to averages by default, washing out these potentially irreducible value conflicts. To improve AI systems to better reflect value pluralism, the first-order challenge is to explore the extent to which AI systems can model pluralistic human values, rights, and duties as well as their interaction.
+
+## Data Description
+
+The paper introduces ValuePrism, a large-scale dataset of 218k contextualized values, rights, and duties connected to 31k human-written situations, distilled from GPT-4. The dataset supports four tasks: generation, relevance classification, valence classification, and explanation. The Value Kaleidoscope (Kaleido) model, built on Flan-T5 in multiple sizes, is trained on this multi-task dataset of approximately 1.1M examples and compared against GPT-4 in human evaluation studies.
+
 
 ## Notes
 

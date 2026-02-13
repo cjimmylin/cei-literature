@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Llama-3, Mistral, Mixtral"
+DATA_URL: "https://osf.io/kw6rc/?view_only=73c3d8e2f7c9483ea012347d70d27b6f"
 pdf_extract: "PDF Extracts/2025/2025-Bulla-Large Language Models meet moral values.md"
 local_pdf: "[[PDFs/2025/2025-Bulla-Large Language Models meet moral values.pdf]]"
 ---
@@ -129,6 +132,11 @@ The research demonstrates that general-purpose LLMs can serve as effective unsup
 - Comprehensive benchmark results across six LLMs and NLI baseline
 - Analysis of model performance across MFT moral dimensions
 - Experiment code and results available at: https://osf.io/kw6rc/?view_only=73c3d8e2f7c9483ea012347d70d27b6f
+
+## Data Description
+
+The paper evaluates six LLMs (GPT-4, GPT-3.5, Llama3-70B, Mixtral-8x7B, Mistral-7B, and Llama2-7B) as unsupervised zero-shot and few-shot moral value classifiers using the Moral Foundation Reddit Corpus (MFRC) comprising 16,123 Reddit comments. GPT-4 achieves superior performance followed by GPT-3.5 and Llama-70B, with significant variations observed across everyday morality and political contexts.
+
 
 ## Notes
 

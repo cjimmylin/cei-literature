@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # AI Safety in Generative AI Large Language Models: A Survey
 
@@ -64,6 +67,11 @@ Large Language Model (LLMs) such as ChatGPT that exhibit generative AI capabilit
 ## Authors
 
 [[Jaymari Chua]], [[Yun Li]], [[Shiyi Yang]], [[Chen Wang]], [[Lina Yao]]
+
+## Data Description
+
+This is a survey paper reviewing AI safety concerns in generative AI large language models. It provides a comprehensive taxonomy of safety challenges across data safety, model safety, prompt safety, alignment, and safety at scale, but does not introduce or evaluate specific datasets or benchmarks through experiments.
+
 
 ## Notes
 

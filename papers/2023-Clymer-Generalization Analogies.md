@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "8 categories"
+LLM_assessed: "Llama"
+DATA_URL: "https://github.com/Joshuaclymer/GENIES"
 ---
 # Generalization Analogies: A Testbed for Generalizing AI Oversight to Hard-To-Measure Domains
 
@@ -62,6 +65,11 @@ As AI systems become more intelligent and their behavior becomes more challengin
 ## Authors
 
 [[Joshua Clymer]], [[Garrett Baker]], [[Rohan Subramani]], [[Sam Wang]]
+
+## Data Description
+
+GENIES (GENeralization analogIES) is a benchmark consisting of 69 distribution shifts spanning 8 categories, consolidated into 15 curated challenging distribution shifts for evaluating reward model generalization. The datasets include a mix of fully generated data (24 using ChatGPT, filtered with GPT-4), repurposed existing datasets (11), and hybrid datasets (33). LLaMA-30B reward models are the primary models evaluated for instruction-following generalization.
+
 
 ## Notes
 

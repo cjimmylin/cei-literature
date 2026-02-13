@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset for hate speech detection"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3, BERT, RoBERTa"
+DATA_URL: "https://github.com/microsoft/ToxiGen"
 ---
 # ToxiGen: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection
 
@@ -64,6 +67,11 @@ Toxic language detection systems often falsely flag text that contains minority 
 ## Authors
 
 [[Thomas Hartvigsen]], [[Saadia Gabriel]], [[Hamid Palangi]], [[Maarten Sap]], [[Dipankar Ray]], [[Ece Kamar]]
+
+## Data Description
+
+ToxiGen is a large-scale machine-generated dataset of 274,186 toxic and benign statements about 13 minority groups, created using GPT-3 with demonstration-based prompting and an adversarial classifier-in-the-loop decoding method (ALICE). The dataset is 98.2% implicit (devoid of explicit profanity or slurs) and balanced between toxic and benign statements. Human evaluation on 792 sentences confirmed 90% could be mistaken for human-written text and 94.5% of toxic examples were labeled as hate speech by annotators.
+
 
 ## Notes
 

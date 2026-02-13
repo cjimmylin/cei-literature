@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, Llama-3, Mistral, Qwen"
+DATA_URL: "https://github.com/ntunlp/Critical-Review-of-LLM-Eval"
 ---
 # A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations
 
@@ -62,6 +65,11 @@ Large Language Models (LLMs) have recently gained significant attention due to t
 ## Authors
 
 [[Md Tahmid Rahman Laskar]], [[Sawsan Alqahtani]], [[M Saiful Bari]], [[Mizanur Rahman]], [[Mohammad Abdullah Matin Khan]], [[Haidar Khan]], [[Israt Jahan]], [[Amran Bhuiyan]], [[Chee Wei Tan]], [[Md Rizwan Parvez]], [[Enamul Hoque]], [[Shafiq Joty]], [[Jimmy Huang]]
+
+## Data Description
+
+This is a systematic survey paper that critically reviews challenges and limitations in evaluating LLMs. The authors conduct small-scale experiments comparing models like GPT-4o, GPT-3.5-Turbo, Claude-3-Opus, LLaMA-2, LLaMA-3, Mistral, and Qwen2 on benchmarks including MMLU, MMLU-Pro, MixEval, and SAMSum to illustrate issues with reproducibility, reliability, and robustness in LLM evaluation.
+
 
 ## Notes
 

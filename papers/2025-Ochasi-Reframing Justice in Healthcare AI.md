@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "African healthcare, ubuntu, relational"
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
  Reframing Justice in Healthcare AI: An Ubuntu-Based Approach for Africa
 
@@ -49,6 +52,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 This paper introduces **Ubuntu** as a guiding framework for AI in African healthcare, offering a culturally grounded lens for interpreting justice-related principles. Ubuntu's emphasis on communalism, interconnectedness, and collective well-being provides a **virtue-based** alternative to Western individualistic approaches. The authors argue that **Ubuntu ethics** can inform AI alignment by prioritizing **human flourishing**, relational responsibility, and community-oriented decision-making. This framework addresses the limitations of existing AI ethics approaches that fail to account for diverse cultural contexts and values.
+
+## Data Description
+
+The PDF extract for this paper is mismatched and contains content about Pilates Reformer spring resistance effects on core muscle activity rather than the expected healthcare AI justice content. No LLM assessment or dataset information can be determined from the available extract.
+
 
 ## Notes
 

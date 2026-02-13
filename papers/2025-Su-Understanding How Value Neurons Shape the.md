@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Qwen, Gemma"
+DATA_URL: "NA"
 ---
 # Understanding How Value Neurons Shape the Generation of Specified Values in LLMs
 
@@ -64,6 +67,11 @@ Rapid integration of large language models (LLMs) into societal applications has
 ## Authors
 
 [[Yi Su]], [[Jiayi Zhang]], [[Shu Yang]], [[Xinhai Wang]], [[Lijie Hu]], [[Di Wang]]
+
+## Data Description
+
+The paper introduces ValueInsight, a dataset comprising 640 second-person value descriptions and 15,000 scenario-based open-ended questions grounded in the Schwartz Values Survey across four value dimensions (Openness to Change, Self-Transcendence, Conservation, Self-Enhancement). The dataset was constructed using GPT-4o and is used alongside PVQ40 and ValueBench for neuron identification and value manipulation experiments on LLama-3.1-8B, LLama-3.2-1B, Qwen2-0.5B, and Gemma-2-9B.
+
 
 ## Notes
 

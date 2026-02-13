@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Empathy is increasingly recognized as a key factor in human–AI comm
 research_topic: "Machine Learning"
 data_description: "Evaluation approach dataset for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-2"
+DATA_URL: "NA"
 ---
 # SENSE-7: Taxonomy and Dataset for Measuring User Perceptions of Empathy in Sustained Human-AI Conversations
 
@@ -61,6 +64,10 @@ Empathy is increasingly recognized as a key factor in human–AI communication, 
 ## Dataset Information
 
 695 conversations from 109 participants; 672 fully anonymized conversations with per-turn empathy annotations; 5-level empathy scale; LLM-based classifier achieves Spearman rho=0.369
+
+## Data Description
+
+The paper introduces SENSE-7, a dataset of 695 real-world multi-turn conversations between 109 information workers and LLM-based AI agents (GPT-4, GPT-4 with empathy prompt, GPT-3.5-turbo, and Llama2-Chat-70B). The dataset includes per-turn empathy annotations from the actual users across 7 empathy dimensions, along with user characteristics, psychometrics, contextual details, and pre/post mood assessments. A subset of 672 anonymized conversations is provided for research.
 
 ## Notes
 

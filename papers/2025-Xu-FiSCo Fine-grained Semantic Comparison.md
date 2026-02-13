@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Large Language Models (LLMs) often generate responses with inherent b
 ethics_perspective: "Bias & Fairness"
 data_description: "Evaluation framework annotated dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Mixtral, DeepSeek, GPT-4o, Claude, Qwen"
+DATA_URL: "https://github.com/HuXiangkun/FiSCo"
 ---
 # FiSCo (Fine-grained Semantic Comparison)
 
@@ -63,6 +66,10 @@ Large Language Models (LLMs) often generate responses with inherent biases, unde
 ## Dataset Information
 
 Pipeline-based evaluation framework; decomposes LLM outputs into semantic claims; applies statistical hypothesis testing (Welch's t-test); validated on synthetic and human-annotated datasets
+
+## Data Description
+
+FiSCo provides a benchmark dataset of 150,000 evaluated pairs designed for long-form fairness evaluation of LLMs, spanning major demographic dimensions (gender, race, and age). The dataset includes human-annotated response comparisons across realistic prompt templates with advice and insight generation formats covering 70 real-world scenarios. Multiple state-of-the-art LLMs were evaluated including Llama 3 70B Instruct, Mixtral 8x7B Instruct, DeepSeek V3.1, GPT OSS 120B, Claude4 Sonnet, and Qwen3 235B.
 
 ## Notes
 

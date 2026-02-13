@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Mistral, Qwen"
+DATA_URL: "https://shorturl.at/u2h3K"
 ---
 # Revisiting the Trolley Problem for AI: Biases and Stereotypes in Large Language Models and their Impact on Ethical Decision-Making
 
@@ -96,6 +99,11 @@ The authors conclude that current LLMs encode biases that affect their moral rea
 ## Artifact Contributions
 
 None mentioned.
+
+## Data Description
+
+This study investigates ethical reasoning in three open-source LLMs through trolley problem variants with demographic prompts. LLaMA-3.1-8B, Ministral-8B, and Qwen-2.5-7B were tested across 852 unique demographic combinations (age, nationality, gender) in three scenarios (switch, loop, footbridge) in six languages, with responses compared against human survey data from the Moral Machine experiment using an LLM-as-a-Judge evaluation framework.
+
 
 ## Notes
 

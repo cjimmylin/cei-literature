@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "10,000+ Reddit AITA moral dilemmas with LLM judgments"
 data_metrics: "Blame assignment, self-consistency, inter-model agreement"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, PaLM-2, Llama-2, Mistral, Gemma"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md"
 local_pdf: "[[PDFs/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.pdf]]"
 ---
@@ -100,6 +103,11 @@ The study demonstrates that LLMs exhibit distinct patterns of moral judgment tha
 - Dataset of 10,826 AITA submissions with LLM verdicts and explanations
 - Code for moral theme classification
 - GitHub repository: https://github.com/dlab-projects/normative_evaluation_llms_everyday_dilemmas
+
+## Data Description
+
+The study uses 10,826 moral dilemmas from Reddit's r/AmITheAsshole subreddit (October 2022 to March 2023), each paired with community verdicts and comments totaling 476,183 comments. Seven LLMs (GPT-3.5, GPT-4, Claude Haiku, PaLM 2 Bison, Llama 2 7B, Mistral 7B, and Gemma 7B) were prompted to assign blame verdicts and provide explanations, with each model evaluated three times per submission. Moral themes were classified using six RoBERTa models fine-tuned on the Yudkin et al. moral dilemma catalog.
+
 
 ## Notes
 

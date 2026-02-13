@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Towards an Automated Islamic Fatwa System: Survey, Dataset and Benchmarks
 
@@ -65,6 +68,11 @@ Islam is the second largest and the fastest growing religion. The Islamic Law, S
 ## Authors
 
 [[Amr A. Munshi]], [[Wesam H. AlSabban]], [[Abdullah Tarek Farag]], [[Omar Essam Rakha]], [[Ahmad A. Al Sallab]], [[Ibrahim Alotaibi]], [[Majid Majid]]
+
+## Data Description
+
+The paper introduces the largest dataset of Islamic Fatwas, comprising approximately 850,000 question-answer pairs crawled from popular Fatwa websites (Al-Ifta-SA, Dar-al-ifta-EG, IslamWeb, Islamway, AskFM, and others). The dataset includes questions, answers, topics, and dates spanning different countries and geographical locations, and is used for topic classification, topic modeling, and retrieval-based question answering benchmarks. Traditional ML models (BoW, LSTM, GRU) and AraBERT were tested but no canonical LLMs from the standard list were evaluated.
+
 
 ## Notes
 

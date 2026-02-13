@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Values, Ethics, Morals? On the Use of Moral Concepts in NLP Research
 
@@ -64,6 +67,11 @@ With language technology increasingly affecting individuals’ lives, many recen
 ## Authors
 
 [[Karina Vida]], [[Judith Simon]], [[Anne Lauscher]]
+
+## Data Description
+
+This paper is a systematic survey of 92 publications on the use of moral concepts in NLP research. It provides an overview of ethical concepts from philosophy, analyzes the philosophical foundations and terminology used in moral NLP works, and examines their data basis. The paper does not introduce or utilize a specific dataset or benchmark for LLM assessment.
+
 
 ## Notes
 

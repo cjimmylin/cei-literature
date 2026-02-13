@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2"
+DATA_URL: "NA"
 ---
 # Contextual Moral Value Alignment Through Context-Based Aggregation
 
@@ -64,6 +67,11 @@ Developing value-aligned AI agents is a complex undertaking and an ongoing chall
 ## Authors
 
 [[Pierre Dognin]], [[Jesus Rios]], [[Ronny Luss]], [[Inkit Padhi]], [[Matthew D. Riemer|Matthew D Riemer]], [[Miao Liu]], [[Prasanna Sattigeri]], [[Manish Nagireddy]], [[Kush R. Varshney]], [[Djallel Bouneffouf]]
+
+## Data Description
+
+This paper proposes a Contextual Moral Value Alignment Generative System (CMVA-GS) that aggregates responses from multiple moral agents to achieve contextual value alignment. The system uses the Moral Integrity Corpus (MIC) dataset with 91K/11.4K/11.4K train/val/test samples containing moral annotations on prompt-reply pairs across five moral foundations (care, fairness, loyalty, authority, sanctity). Llama-2 chat models (7b and 13b) are evaluated as baselines alongside the Open Assistant 12B-based moral agents.
+
 
 ## Notes
 

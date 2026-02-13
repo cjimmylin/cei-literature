@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://huggingface.co/datasets/criteo/FairJob"
 ---
 # FairJob: A Real-World Dataset for Fairness in Online Systems
 
@@ -63,6 +66,11 @@ We introduce a fairness-aware dataset for job recommendation in advertising, des
 ## Authors
 
 [[Mariia Vladimirova]], [[Federico Pavone]], [[Eustache Diemert]]
+
+## Data Description
+
+FairJob is a large-scale fairness-aware dataset for job recommendation in advertising, containing 1,072,226 rows collected during 5 months of a targeted job campaign. Each row represents a job ad with user features (20 categorical and 39 numerical features), a binary click label, a binary gender proxy for the protected attribute, and a senior position indicator. The dataset is designed to study algorithmic fairness in real-world online advertising systems where access to protected attributes is limited.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "The proliferation of artificial intelligence (AI) systems as super-ca
 ethics_perspective: "AI Safety & Alignment"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Moral Anchor System: A Predictive Framework for AI Value Alignment and Drift Prevention
 
@@ -61,6 +64,10 @@ The proliferation of artificial intelligence (AI) systems as super-capable assis
 ## Dataset Information
 
 See report
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents a theoretical framework (MAS) for detecting value drift in AI systems, validated through simulated maze environments using Q-learning agents with over 4 million simulation steps, measuring drift detection accuracy, latency, and false positive rates.
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ abstract:
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Llama-2"
+DATA_URL: "NA"
 ---
 # Saudi-Alignment Benchmark -- Assessing LLMs Alignment with Saudi Cultural and Ethical Norms
 
@@ -59,6 +62,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Questions across Saudi cultural, ethical, and domain knowledge categories
+
+## Data Description
+
+The Saudi-Alignment Benchmark consists of 874 manually curated Arabic questions across two dimensions: Saudi Cultural and Ethical Norms (493 items) and Saudi Domain Knowledge (381 items), using fill-in-the-blank, multiple-choice, and acceptable/unacceptable formats. Six LLMs were evaluated in zero-shot settings: GPT-4 (83.3% accuracy), ALLaM-7B (81.8%), Llama-3.3-70B (81.6%), GPT-3.5-turbo, AceGPT-13B (Llama-2 based), and Jais-30B (21.9%).
 
 ## Notes
 

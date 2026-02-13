@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, GPT-4"
+DATA_URL: "https://github.com/PKU-Alignment/ProgressGym"
 ---
 # ProgressGym: Alignment with a Millennium of Moral Progress
 
@@ -64,6 +67,11 @@ Frontier AI systems, including large language models (LLMs), hold increasing inf
 ## Authors
 
 [[Tianyi Qiu]], [[Yang Zhang]], [[Xuchuan Huang]], [[Jasmine Xinze Li]], [[Jiaming Ji]], [[Yaodong Yang]]
+
+## Data Description
+
+ProgressGym provides a large-scale experimental framework comprising 38GB of historical text data spanning 9 centuries (1221-2022 AD) from sources including Internet Archive, Project Gutenberg, EEBO, and Pile of Law (1.83 million documents). The framework includes 18 historical LLMs (Llama3-8B and Llama3-70B fine-tuned for each century) and a morality evaluation framework with 5,104 questions across 19 value dimensions. It benchmarks three progress alignment challenges: PG-Follow, PG-Predict, and PG-Coevolve.
+
 
 ## Notes
 

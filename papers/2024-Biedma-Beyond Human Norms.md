@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Elicit Human View from scratch: ValueLex"
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Mistral, Vicuna"
+DATA_URL: "NA"
 ---
  Beyond Human Norms: Unveiling Unique Values of Large Language Models through Interdisciplinary Approaches
 
@@ -93,6 +96,11 @@ LLMs possess structured value systems that do not translate seamlessly from huma
 *   **ValueLex Framework**: The methodology for intrinsic value discovery.
 *   **LLM Value Taxonomy**: The Competence-Character-Integrity model.
 *   **Projective Test Suite**: A set of scenarios for evaluating these dimensions.
+
+## Data Description
+
+The study proposes ValueLex, a framework to reconstruct LLMs' unique value systems using psychological methodologies. Over 525 LLM respondents from 30+ models (including GPT, LLaMA, Mistral, Vicuna, Baichuan, ChatGLM families) across various configurations were queried with 15 value-elicitation prompts, yielding 43,884 words and 197 unique value descriptors. Factor analysis and semantic clustering identified three core value dimensions (Competence, Character, Integrity), and projective sentence completion tests evaluated value orientations across different model sizes and training methods.
+
 
 ## Notes
 

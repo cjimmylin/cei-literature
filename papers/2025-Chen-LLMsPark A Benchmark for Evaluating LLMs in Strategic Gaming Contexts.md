@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "As large language models (LLMs) advance across diverse tasks, the nee
 research_topic: "Machine Learning"
 data_description: "Benchmark"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Qwen"
+DATA_URL: "https://llmsparks.github.io/"
 ---
 # LLMsPark: A Benchmark for Evaluating LLMs in Strategic Gaming Contexts
 
@@ -61,6 +64,10 @@ As large language models (LLMs) advance across diverse tasks, the need for compr
 ## Dataset Information
 
 5 games (Prisoner's Dilemma, Trust Game, Nim, Dictator Game, Who Is Spy); online multiplayer platform; 15 LLMs cross-evaluated via leaderboard scoring
+
+## Data Description
+
+LLMsPark is a game theory-based evaluation platform that assesses LLMs' decision-making strategies and social behaviors across five classic games: Prisoner's Dilemma, Trust Game, Nim Game, Dictator Game, and Who Is Spy. The benchmark cross-evaluates 15 LLMs including GPT-4, GPT-3.5-Turbo, Qwen-14B-Chat, Baichuan-7B, ChatGLM variants, Phoenix-Inst-Chat-7B, Dolly-v2-12B, RWKV-4-World-7B, MiniMax-abab5-Chat, and others using Elo rating systems and game-specific scoring mechanisms.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "DeBERTa, RoBERTa, BERT"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Chang-niceNLP at SemEval-2023 Task 10.md"
 ---
 # niceNLP at SemEval-2023 Task 10: Dual Model Alternate Pseudo-labeling Improves Your Predictions
@@ -63,6 +66,11 @@ Sexism is a growing online problem. It harms women who are targeted and makes on
 ## Authors
 
 [[Yu Chang]], [[Yuxi Chen]], [[Yanru Zhang]]
+
+## Data Description
+
+The study uses the SemEval-2023 Task 10 (EDOS) dataset for binary sexism detection, containing 16,000 training samples (12,116 not sexist, 3,884 sexist) and 4,000 test samples from Gab and Reddit. An additional unlabeled corpus of one million Gab texts and one million Reddit texts is used for masked language model pre-training. The models evaluated include DeBERTa-v3-large, XLM-RoBERTa-large, and covid-twitter-BERT-v2.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4o, Claude, Gemini, Llama-3, DeepSeek, Qwen"
+DATA_URL: "https://huggingface.co/datasets/Beijing-AISI/C-VARC"
 DATE_ADDED: 20260207
 ---
  CVC: A Large-Scale Chinese Value Rule Corpus for Value Alignment of Large Language Models
@@ -88,6 +91,11 @@ Alignment is not a universally identical task; it requires culturally grounded d
 ## Abstract
 
 Ensuring that Large Language Models (LLMs) align with mainstream human values and ethical norms is crucial for the safe and sustainable development of AI. Current value evaluation and alignment are constrained by Western cultural bias and incomplete domestic frameworks reliant on non-native rules; furthermore, the lack of scalable, rule-driven scenario generation methods makes evaluations costly and inadequate across diverse cultural contexts. To address these challenges, we propose a hierarchical value framework grounded in core Chinese values, encompassing three main dimensions, 12 core values, and 50 derived values. Based on this framework, we construct a large-scale Chinese Value Rule Corpus (C-VARC) containing over 250,000 value rules enhanced and expanded through human annotation. Experimental results demonstrate that scenarios guided by C-VARC exhibit clearer value boundaries and greater content diversity compared to those produced through direct generation. In the evaluation across six sensitive themes (e.g., surrogacy, suicide), seven mainstream LLMs preferred C-VARC generated options in over 70.5% of cases, while five Chinese human annotators showed an 87.5% alignment with C-VARC, confirming its universality, cultural relevance, and strong alignment with Chinese values. Additionally, we construct 400,000 rule-based moral dilemma scenarios that objectively capture nuanced distinctions in conflicting value prioritization across 17 LLMs. Our work establishes a culturally-adaptive benchmarking framework for comprehensive value evaluation and alignment, representing Chinese characteristics.
+
+## Data Description
+
+C-VARC (Chinese Value Rule Corpus) is a large-scale dataset containing over 250,000 value rules organized under a hierarchical Chinese value framework (3 dimensions, 12 core values, 50 derived values). Built from curated international rule corpora (SC101, MIC) and Chinese cultural sources with human annotation by 40 trained annotators, the corpus enables automated generation of 404,505 moral dilemma scenarios. The dataset was evaluated across 17 LLMs to measure value alignment in the Chinese cultural context.
+
 
 ## Notes
 

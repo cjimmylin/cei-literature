@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://dpmd.ai/EvalsRepo"
 ---
 # Gaps in the Safety Evaluation of Generative AI
 
@@ -64,6 +67,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Comprehensive review and taxonomy of all available safety evaluations; maps gaps across evaluation layers
+
+## Data Description
+
+This paper provides a repository of over 200 safety evaluations applied to generative AI systems, categorized by methodology, risk area, modality, and context. The repository covers evaluations published between January 2018 and December 2023 and is released as an open resource for researchers and AI safety practitioners.
 
 ## Notes
 

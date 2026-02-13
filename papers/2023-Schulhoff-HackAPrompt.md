@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3, ChatGPT, Flan-T5"
+DATA_URL: "NA"
 ---
 # HackAPrompt: Automated Prompt Engineering for Attacking and Defending LLMs
 
@@ -46,6 +49,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Large Language Models (LLMs) are increasingly being deployed in interactive contexts that involve direct user engagement, such as chatbots and writing assistants. These deployments are increasingly plagued by prompt injection and jailbreaking (collectively, prompt hacking), in which models are manipulated to ignore their original instructions and instead follow potentially malicious ones. Although widely acknowledged as a significant security threat, there is a dearth of a large-scale resource and quantitative study on prompt hacking. To address this lacuna, we launch a global prompt hacking competition, which allows for free-form human input attacks. We elicit 600K+ adversarial prompts against three state-of-the-art LLMs. We describe the dataset, which empirically verifies that current LLMs can indeed be manipulated via prompt hacking. We also present a comprehensive ontology of the types of adversarial prompts.
+
+## Data Description
+
+The paper introduces HackAPrompt, a global prompt hacking competition dataset containing over 600,000 adversarial prompts from 2,800+ participants across 50+ countries. The dataset is divided into Submissions and Playground datasets, testing prompt injection and jailbreaking attacks against GPT-3 (text-davinci-003), ChatGPT (GPT-3.5-turbo), and FlanT5-XXL across ten challenges of varying difficulty. The dataset is available on HuggingFace.
+
 
 ## Notes
 

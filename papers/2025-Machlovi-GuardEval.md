@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 research_topic: "Other"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "Gemma, Llama-3"
+DATA_URL: "NA"
 ---
 # GuardEval
 
@@ -62,6 +65,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 106 fine-grained categories
+
+## Data Description
+
+GuardEval is a unified multi-perspective benchmark dataset containing 106 fine-grained categories spanning human emotions, offensive language, gender and racial bias, and broader safety concerns, integrating 13 prominent benchmark datasets. The paper introduces GGuard (GemmaGuard), a QLoRA fine-tuned version of Gemma3-12B trained on GuardEval, and evaluates it against OpenAI Moderator, Llama Guard3, NemoGuard, and ShieldGemma for content moderation tasks.
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large Language Models (LLMs) are increasingly deployed in human-centr
 research_topic: "Machine Learning"
 data_description: "Benchmark text corpus for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4o, Qwen"
+DATA_URL: "https://github.com/ZhengWwwq/PERM"
 ---
 # PERM: Psychology-grounded Empathetic Reward Modeling for Large Language Models
 
@@ -62,6 +65,10 @@ Large Language Models (LLMs) are increasingly deployed in human-centric applicat
 ## Dataset Information
 
 Training data built on EmpatheticDialogues, augmented with GPT-4o scenario expansions and user personas; evaluated on EQ-Bench3
+
+## Data Description
+
+This paper uses the EmpatheticDialogues dataset augmented with GPT-4o-generated scenario descriptions and user personas for training, comprising 3,000 samples. Evaluation is conducted on EQ-Bench3, a comprehensive emotional intelligence benchmark, as well as a daily conversation benchmark and a user study. The PERM reward modeling framework is applied to fine-tune Qwen2.5-7B-Instruct via GRPO reinforcement learning, using GPT-4o-mini as the judge LLM for multi-perspective empathy scoring.
 
 ## Notes
 

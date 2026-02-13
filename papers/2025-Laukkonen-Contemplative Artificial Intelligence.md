@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4"
+DATA_URL: "NA"
 ---
  Contemplative Artificial Intelligence
 
@@ -81,6 +84,11 @@ Contemplative techniques offer a path toward more "humble" and self-consistent A
 *   **Contemplative AI Framework**: A coherent framework of 4 axioms for safe alignment.
 *   **Experimental Results**: Data showing the efficacy of specific "Wisdom-based" prompts in game theory and benchmarks.
 *   **Wise System Prompts**: Open-source prompts for implementing contemplative constraints.
+
+## Data Description
+
+The paper proposes a contemplative AI alignment framework inspired by Buddhist wisdom traditions, built on four principles: mindfulness, emptiness, non-duality, and boundless care. Pilot experiments tested six contemplative prompting techniques on GPT-4o and GPT-4.1 nano using two tasks: the AILuminate Benchmark of harmful prompts (100 iterations across 10 hazard categories) and an Iterated Prisoner's Dilemma setup (50 simulations of 10-round games against opponents with varying cooperation probabilities). Results showed improvements in safety scores (d=0.96) and cooperation rates.
+
 
 ## Notes
 

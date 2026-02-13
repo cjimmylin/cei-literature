@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "While recent developments in large language models have improved bias
 ethics_perspective: "Social & Cultural Values"
 data_description: "Dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Mistral, Llama-3, Gemini, Gemma, Qwen"
+DATA_URL: "https://anonymous.4open.science/r/BRAND/README.md"
 ---
 # BRAND: Bilingual Religious Accountable Norm Dataset
 
@@ -62,6 +65,10 @@ While recent developments in large language models have improved bias detection 
 ## Dataset Information
 
 2,400+ entries across Buddhism, Christianity, Hinduism, and Islam in English and Bengali
+
+## Data Description
+
+BRAND (Bilingual Religious Accountable Norm Dataset) contains over 2,400 entries focusing on four major South Asian religions (Buddhism, Christianity, Hinduism, Islam) in both English and Bengali, with three types of prompts used to evaluate religious bias. Five LLMs were tested: Mistral Saba 24B, Llama 3 70B, Gemini 2.0 Flash, Gemma3 4B-IT, and Qwen3 32B, revealing that models perform better in English than Bengali and consistently display bias toward Islam.
 
 ## Notes
 

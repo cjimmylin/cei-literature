@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract:
 ethics_perspective: "AI Safety & Alignment"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Fake Alignment (FINE Framework)
 
@@ -61,6 +64,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Size: Comparative benchmark with MC and open-ended questions
+
+## Data Description
+
+This paper proposes a primal-dual DPO approach for constrained LLM alignment that maximizes reward while restricting costs from unsafe content. The experiments use the PKU-SafeRLHF preference dataset as the evaluation benchmark, which contains reward and cost preference data for LLM safety alignment. No new dataset is introduced; the focus is on the theoretical framework and optimization methodology for constrained alignment.
 
 ## Notes
 

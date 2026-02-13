@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2, Vicuna, ChatGPT"
+DATA_URL: "https://github.com/yrf1/LLM-MassiveMulticultureNormsKnowledge-NCLB"
 ---
 # CultureAtlas: A Benchmark for Testing Cross-Cultural Knowledge in Large Language Models
 
@@ -57,6 +60,11 @@ Pretrained large language models have revolutionized many applications but still
 ## Authors
 
 [[Yi Fung]], [[Ruining Zhao]], [[Jae Doo]], [[Chenkai Sun]], [[Heng Ji]]
+
+## Data Description
+
+CultureAtlas is a massively multicultural knowledge benchmark dataset constructed from Wikipedia documents covering 193 countries, 1,089 state/province-level regions, 10,436 city-level regions, and 2,557 ethnolinguistic groups. The dataset was built by collecting 41K document pages, parsing 907K sentences, filtering to 127K generalizable sociocultural knowledge assertions, and extracting 21K norm-violation-relevant frames with fine-grained cultural profile information. The benchmark includes both positive cultural knowledge assertions and adversarial negative samples, with a 10,000-sample test set evaluated on Llama-2, Vicuna, and ChatGPT models.
+
 
 ## Notes
 

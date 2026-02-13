@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "This research provides a unique assessment of how AI systems interpre
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Gemini, Llama-3"
+DATA_URL: "https://github.com/SystemTwoAI/GenAlphaSlang"
 ---
 # Understanding Gen Alpha's Digital Language: Evaluation of LLM Safety Systems for Content Moderation
 
@@ -65,6 +68,10 @@ This research provides a unique assessment of how AI systems interpret Generatio
 ## Dataset Information
 
 100 recent Gen Alpha expressions from gaming platforms, social media, and video content; first-of-its-kind dataset
+
+## Data Description
+
+The study evaluates four leading AI systems (GPT-4, Claude, Gemini, and Llama 3) on their ability to understand and moderate Generation Alpha digital communication. The dataset comprises 100 contemporary Gen Alpha expressions collected from gaming platforms, social media, and video content, spanning context awareness (34.8%), safety awareness (21.8%), and evolution awareness (43.4%) dimensions.
 
 ## Notes
 

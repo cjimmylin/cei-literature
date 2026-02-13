@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
  Black Box Deployed -- Functional Criteria for Artificial Moral Agents in the LLM Era
 
@@ -51,6 +54,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 This paper proposes a revised set of ten functional criteria for evaluating Artificial Moral Agents (AMAs) in the context of Large Language Models (LLMs), drawing on themes of **moral character** and **virtue ethics**. It argues that traditional ethical criteria are becoming obsolete for LLMs due to their opaque internal states and stochastic outputs, which contrast with previous frameworks that often assumed transparent architectures. The ten proposed functional criteria for evaluating LLM-based AMAs are: Moral Concordance, Context Sensitivity, Normative Integrity, Metaethical Awareness, System Resilience, Trustworthiness, Corrigibility, Partial Transparency, Functional Autonomy, and Moral Imagination. These criteria are designed to assess the moral performance of AMAs by focusing on observable behavior and their alignment with evolving social norms, rather than internal moral understanding, making them applicable to "black-box" systems that exhibit **character-based** alignment.
+
+## Data Description
+
+The PDF extract for this paper contains mismatched content (a paper on higher-order pattern unification modulo similarity relations) and does not correspond to the expected paper. No LLM assessment or dataset information could be determined from the available extract.
+
 
 ## Notes
 

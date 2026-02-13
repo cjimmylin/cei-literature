@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/RobustBench/robustbench"
 ---
 # RobustBench: a standardized adversarial robustness benchmark
 
@@ -63,6 +66,11 @@ As a research community, we are still lacking a systematic understanding of the 
 ## Authors
 
 [[Francesco Croce]], [[Maksym Andriushchenko]], [[Vikash Sehwag]], [[Edoardo Debenedetti]], [[Nicolas Flammarion]], [[Mung Chiang]], [[Prateek Mittal]], [[Matthias Hein]]
+
+## Data Description
+
+RobustBench is a standardized adversarial robustness benchmark for image classification containing evaluations of 120+ models across CIFAR-10, CIFAR-100, and ImageNet datasets under L-infinity, L2, and common corruption threat models. The Model Zoo provides unified access to 80+ robust models (ResNet, WideResNet variants) implemented in PyTorch for downstream applications.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Qwen, Gemini"
+DATA_URL: "https://github.com/yurujiang2003/sparta"
 ---
 # SPARTA ALIGNMENT: Collectively Aligning Multiple Language Models through Combat
 
@@ -64,6 +67,11 @@ We propose SPARTA ALIGNMENT, an algorithm to collectively align multiple LLMs th
 ## Authors
 
 [[Yuru Jiang]], [[Wenxuan Ding]], [[Shangbin Feng]], [[Greg Durrett]], [[Yulia Tsvetkov]]
+
+## Data Description
+
+The paper proposes SPARTA ALIGNMENT, a collective alignment algorithm where multiple LLMs compete and judge each other. The model pool consists of 10 Qwen2.5-7B-Instruct models fine-tuned on different data domains from Tulu-v2 with 1,000 prompts per iteration over 8 iterations. Evaluation spans 12 datasets across domain-specific QA (MedQA, Normad), reasoning (GSM8K, MATH, KCross, COM2), and instruction following/safety (Alpaca, TruthfulQA), with Gemini-1.5-Flash serving as the LLM-as-a-Judge evaluator.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Revealed preference consistency, utility function clustering"
+LLM_assessed: "GPT-4, Claude, Llama-3, Gemini, Qwen, Mixtral, Mistral"
+DATA_URL: "NA"
 ---
  The Moral Mind(s) of Large Language Models
 
@@ -87,6 +90,11 @@ The authors conclude that *moral logic* is indeed embedded in LLM outputs. Even 
 ## Abstract
 
 As large language models (LLMs) increasingly participate in tasks with ethical and societal stakes, a critical question arises: do they exhibit an emergent "moral mind" - a consistent structure of moral preferences guiding their decisions - and to what extent is this structure shared across models? To investigate this, we applied tools from revealed preference theory to nearly 40 leading LLMs, presenting each with many structured moral dilemmas spanning five foundational dimensions of ethical reasoning. Using a probabilistic rationality test, we found that at least one model from each major provider exhibited behavior consistent with approximately stable moral preferences, acting as if guided by an underlying utility function. We then estimated these utility functions and found that most models cluster around neutral moral stances. To further characterize heterogeneity, we employed a non-parametric permutation approach, constructing a probabilistic similarity network based on revealed preference patterns. The results reveal a shared core in LLMs' moral reasoning, but also meaningful variation: some models show flexible reasoning across perspectives, while others adhere to more rigid ethical profiles. These findings provide a new empirical lens for evaluating moral consistency in LLMs and offer a framework for benchmarking ethical alignment across AI systems.
+
+## Data Description
+
+The study uses a custom experimental dataset generated via the Priced Survey Methodology (PSM), consisting of 161 rounds of five moral dilemma questions presented to 39 LLMs from five providers (OpenAI, Llama, Google, Anthropic, Mistral). Each round constrains models to choose from 100 randomly drawn alternatives under linear budget-like constraints, enabling revealed preference analysis of moral reasoning consistency across approximately 6,279 total observations.
+
 
 ## Notes
 

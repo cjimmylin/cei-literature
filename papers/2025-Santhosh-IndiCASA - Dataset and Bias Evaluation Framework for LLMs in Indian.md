@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large Language Models (LLMs) have gained significant traction across 
 ethics_perspective: "Bias & Fairness"
 data_description: "Evaluation framework dataset for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "Gemma, Llama-3, Phi, Mistral, DeepSeek"
+DATA_URL: "https://github.com/cerai-iitm/IndiCASA"
 ---
 # IndiCASA -- Dataset and Bias Evaluation Framework for LLMs in Indian Context
 
@@ -61,6 +64,10 @@ Large Language Models (LLMs) have gained significant traction across critical do
 ## Dataset Information
 
 2,575 human-validated sentences
+
+## Data Description
+
+The paper introduces IndiCASA (IndiBias-based Contextually Aligned Stereotypes and Anti-stereotypes), a dataset of 2,575 human-validated sentences spanning five demographic axes (caste, gender, religion, disability, and socioeconomic status) in the Indian context. A contrastive learning-based bias evaluation framework was developed using the dataset to train encoders that capture fine-grained stereotypical associations. Seven open-weight LLMs (Gemma-2-9B, Gemma-3-1B, Llama-3.1-8B, Llama-3.2-1B, Phi-3.5-mini, Mistral-8B, DeepSeek-R1-Distill-Llama-8B) were evaluated for bias.
 
 ## Notes
 

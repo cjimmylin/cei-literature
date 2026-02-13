@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: 
 data_metrics:
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Socratic Dialogue for Virtue Ethics in AI
 
@@ -55,6 +58,11 @@ This paper presents the Socratic Dialogue as a method for implementing virtue et
 ## Authors
 
 [[Maarten Wilders]], [[Inigo Martinez de Rituerto de Troya]], [[Roel Dobbe]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents a qualitative case study examining how the Socratic Dialogue method can cultivate moral virtues among AI practitioners at a financial bank's transaction monitoring department.
+
 
 ## Notes
 

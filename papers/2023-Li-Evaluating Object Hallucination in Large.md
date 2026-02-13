@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Evaluating Object Hallucination in Large Vision-Language Models (POPE)
 
@@ -55,6 +58,11 @@ Inspired by the superior language abilities of large language models (LLM), larg
 ## Authors
 
 [[Yifan Li]], [[Yifan Du]], [[Kun Zhou]], [[Jinpeng Wang]], [[Wayne Xin Zhao]], [[Ji-Rong Wen]]
+
+## Data Description
+
+The paper introduces POPE (Polling-based Object Probing Evaluation), a benchmark method for evaluating object hallucination in large vision-language models. It uses the MSCOCO dataset with 500 randomly sampled images to evaluate five LVLMs (mPLUG-Owl, LLaVA, MultiModal-GPT, MiniGPT-4, InstructBLIP) on their tendency to hallucinate objects not present in images. No standard LLMs from the canonical list were directly tested.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark annotated dataset for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-TheDevastator-OpenAssistant Conversations (OASST1).md"
 local_pdf: "[[PDFs/2023/2023-TheDevastator-OpenAssistant Conversations (OASST1).pdf]]"
 ---
@@ -108,6 +111,11 @@ OASST1 represents a significant contribution to the open-source AI community by 
 - Over 10,000 fully annotated conversation trees
 - Dataset available via HuggingFace: https://huggingface.co/datasets/OpenAssistant/oasst1
 - Open-source under Apache-2.0 license
+
+## Data Description
+
+OpenAssistant Conversations (OASST1) is a human-generated, human-annotated assistant-style conversation corpus consisting of 161,443 messages in 35 different languages, annotated with 461,292 quality ratings resulting in over 10,000 fully annotated conversation trees. The corpus was produced through a worldwide crowd-sourcing effort involving over 13,500 volunteers and is released under Apache-2.0 license.
+
 
 ## Notes
 

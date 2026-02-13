@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # U-SafeBench: A Unified Benchmark for Evaluating the Safety of Language Models
 
@@ -57,6 +60,11 @@ Tree balance plays an important role in various research areas in phylogenetics 
 ## Authors
 
 [[Sean Cleary]], [[Mareike Fischer]], [[Katherine St. John]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. The PDF extract contains content about tree balance indices in phylogenetics (GFB trees and tree imbalance indices), which is unrelated to the expected U-SafeBench paper on AI safety. The extract appears to be mismatched with the paper metadata.
+
 
 ## Notes
 

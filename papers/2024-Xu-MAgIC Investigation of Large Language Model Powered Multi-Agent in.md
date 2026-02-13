@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large Language Models (LLMs) have significantly advanced natural lang
 research_topic: "Truthfulness & Factuality"
 data_description: "Benchmark"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, o1, Claude, PaLM-2, Llama-2"
+DATA_URL: "https://github.com/cathyxl/MAgIC"
 ---
 # MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration
 
@@ -61,6 +64,10 @@ Large Language Models (LLMs) have significantly advanced natural language proces
 ## Dataset Information
 
 Social deduction games (Chameleon, Undercover) + game theory scenarios (Cost Sharing, Multi-player Prisoner's Dilemma, Public Good); probabilistic graphical modeling enhancement
+
+## Data Description
+
+MAgIC is a competition-based benchmark framework for evaluating LLMs in multi-agent settings using two social deduction games and three game-theory scenarios. It provides seven quantitative metrics measuring judgment, reasoning, deception, self-awareness, cooperation, coordination, and rationality, revealing a threefold capability gap between the strongest (GPT o1) and weakest (Llama-2-70B) models.
 
 ## Notes
 

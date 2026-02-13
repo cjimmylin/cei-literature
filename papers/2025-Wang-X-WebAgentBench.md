@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "7,000 languages"
+LLM_assessed: "GPT-4o, GPT-3.5, Mistral, Llama-3, Qwen"
+DATA_URL: "https://github.com/WPENGxs/X-WebAgentBench"
 ---
 # X-WebAgentBench: A Multilingual Interactive Web Benchmark for Evaluating Global Agentic System
 
@@ -64,6 +67,11 @@ Recently, large language model (LLM)-based agents have achieved significant succ
 ## Authors
 
 [[Peng Wang]], [[Ruihan Tao]], [[Qiguang Chen]], [[Mengkang Hu]], [[Libo Qin]]
+
+## Data Description
+
+X-WebAgentBench is a multilingual interactive web agent benchmark comprising 14 languages, 2,800 instructions, and 589,946 products. Built upon the WebShop dataset, it evaluates the planning and interaction performance of language agents across multiple languages in a simulated e-commerce environment with both multilingual instructions and multilingual web environments.
+
 
 ## Notes
 

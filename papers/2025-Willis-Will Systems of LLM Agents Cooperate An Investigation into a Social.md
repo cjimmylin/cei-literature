@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "As autonomous agents become more prevalent, understanding their colle
 research_topic: "NLP & Representation Learning"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT, Claude"
+DATA_URL: "https://github.com/willis-richard/evollm"
 ---
 # Will Systems of LLM Agents Cooperate: An Investigation into a Social Dilemma
 
@@ -62,6 +65,10 @@ As autonomous agents become more prevalent, understanding their collective behav
 ## Dataset Information
 
 LLM-generated IPD strategies; evolutionary simulation of agent populations with aggressive/cooperative/neutral dispositions
+
+## Data Description
+
+This paper uses the iterated Prisoner's Dilemma (IPD) framework to evaluate the cooperative and aggressive strategic behaviors of LLM agents. ChatGPT-4o and Claude 3.5 Sonnet are prompted to generate 75 natural language strategies each (25 per attitude: aggressive, cooperative, neutral), which are converted to Python algorithms and evaluated in all-play-all IPD tournaments with 1,000 rounds per match, using evolutionary game theory (Moran process) to observe population dynamics.
 
 ## Notes
 

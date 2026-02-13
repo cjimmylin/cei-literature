@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama, Claude, Gemini, Mistral, DeepSeek"
+DATA_URL: "NA"
 ---
 # Auditing the Ethical Logic of Generative AI Models
 
@@ -57,6 +60,11 @@ As generative AI models become increasingly integrated into high-stakes domains,
 ## Authors
 
 [[W. Russell Neuman]], [[Chad Coleman]], [[Ali Dasdan]], [[Safinah Ali]], [[Manan Shah]]
+
+## Data Description
+
+The study develops a five-dimensional audit model (Analytic Quality, Breadth of Ethical Considerations, Depth of Explanation, Consistency, Decisiveness) applied across three prompt batteries: Battery I (14 prompts including self-descriptive and classic dilemmas), Battery II (9 Defining Issues Test scenarios), and Battery III (6 novel dilemmas). These are administered to seven LLMs (GPT-4o, LLaMA 3.1, Perplexity, Claude 3.5, Gemini 2, Mistral 7B, DeepSeek R1) with both human judges and LLM self-evaluation.
+
 
 ## Notes
 

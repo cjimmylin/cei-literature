@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "73,000 question; over 73,000 question"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Miah-Islam QA.md"
 local_pdf: "[[PDFs/2023/2023-Miah-Islam QA.pdf]]"
 ---
@@ -87,6 +90,11 @@ The Islam QA Dataset provides a resource for researchers developing question-ans
 - Islam QA Dataset: Web-scraped Islamic question-answer corpus (~4.79 MB)
 - Available on Kaggle: https://www.kaggle.com/datasets/mamun18/islam-qa-dataset
 - Licensed under Open Database License
+
+## Data Description
+
+The Islam QA Dataset is an encyclopaedia about Islam created by web scraping from the IslamQA website. It contains JSON files organized by topic categories including basic tenets of faith, etiquette and morals, fiqh of the family, hadith sciences, Islamic history and biography, Islamic politics, and knowledge propagation. The dataset is 4.79 MB in size and hosted on Kaggle.
+
 
 ## Notes
 

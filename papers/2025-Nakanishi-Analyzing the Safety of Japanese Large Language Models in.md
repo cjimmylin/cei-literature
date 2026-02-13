@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "In recent years, Large Language Models (LLMs) have attracted growing 
 ethics_perspective: "Bias & Fairness"
 data_description: "Evaluation methodology"
 data_metrics: "3,612 prompts"
+LLM_assessed: "Gemma, Qwen"
+DATA_URL: "https://github.com/momijiro/stereotype_japanese_llm"
 ---
 # Analyzing the Safety of Japanese Large Language Models in Stereotype-Triggering Prompts
 
@@ -61,6 +64,10 @@ In recent years, Large Language Models (LLMs) have attracted growing interest fo
 ## Dataset Information
 
 Size: 3,612 prompts (301 social group terms x 12 stereotype-inducing templates)
+
+## Data Description
+
+This study constructs 3,612 stereotype-triggering prompts by combining 301 Japanese social group terms across 9 categories (age, gender, nationality, religion, etc.) with 12 templates (statements, questions, and opinion formats). Three foundation models (Gemma-2-27b-it, Qwen2.5-14B-Instruct, and LLM-jp-3-13b-instruct) representing English, Chinese, and Japanese training bases were evaluated for refusal rate, toxicity, and sentiment in their open-ended responses.
 
 ## Notes
 

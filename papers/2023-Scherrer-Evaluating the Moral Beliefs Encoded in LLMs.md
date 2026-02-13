@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, text-davinci, Claude, PaLM-2, Flan-T5, BLOOM, OPT"
+DATA_URL: "https://huggingface.co/datasets/ninoscherrer/moralchoice"
 ---
 # Evaluating the Moral Beliefs Encoded in LLMs
 
@@ -64,6 +67,11 @@ This paper presents a case study on the design, administration, post-processing,
 ## Authors
 
 [[Nino Scherrer]], [[Claudia Shi]], [[Amir Feder]], [[David M. Blei]]
+
+## Data Description
+
+The paper presents MoralChoice, a survey dataset containing 1,367 moral scenarios (680 high-ambiguity and 687 low-ambiguity) with responses from 28 open- and closed-source LLMs. The scenarios are grounded in Gert's common morality framework of ten rules and include descriptions, action pairs, and auxiliary labels indicating violated rules. The 28 models surveyed span seven providers (OpenAI, Anthropic, Google, Meta, BigScience, AI21 Labs, Cohere) ranging from 80M to unknown parameter counts.
+
 
 ## Notes
 

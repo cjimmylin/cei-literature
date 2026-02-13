@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, ChatGPT, Llama-2"
+DATA_URL: "NA"
 ---
 # Do Moral Judgment and Reasoning Capability of LLMs Change with Language? A Study using the Multilingual Defining Issues Test
 
@@ -64,6 +67,11 @@ This paper explores the moral judgment and moral reasoning abilities exhibited b
 ## Authors
 
 [[Aditi Khandelwal]], [[Utkarsh Agarwal]], [[Kumar Tanmay]], [[Monojit Choudhury]]
+
+## Data Description
+
+The study extends the Defining Issues Test (DIT) to a multilingual setting, translating moral dilemmas into six languages (Hindi, Spanish, Swahili, Russian, Chinese, and Arabic). Nine dilemmas (five from DIT-1 and four new ones) are administered to three LLMs with 48 permutations per dilemma per language. Moral development scores including post-conventional P-scores are computed from model responses to assess moral reasoning capability across languages.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT, Gemini"
+DATA_URL: "https://github.com/MuMu-Lily/Moral-Beliefs"
 normative_ethics_benchmark: Yes
 ---
  Evaluating Moral Beliefs across LLMs through a Pluralistic Framework
@@ -53,6 +56,11 @@ normative_ethics_benchmark: Yes
 ## Abstract
 
 Proper moral beliefs are fundamental for language models, yet assessing these beliefs poses a significant challenge. This study introduces a novel three-module framework to evaluate the moral beliefs of four prominent large language models. Initially, we constructed a dataset containing 472 moral choice scenarios in Chinese, derived from moral words. The decision-making process of the models in these scenarios reveals their moral principle preferences. By ranking these moral choices, we discern the varying moral beliefs held by different language models. Additionally, through moral debates, we investigate the firmness of these models to their moral choices. Our findings indicate that English language models, namely ChatGPT and Gemini, closely mirror moral decisions of the sample of Chinese university students, demonstrating strong adherence to their choices and a preference for individualistic moral beliefs. In contrast, Chinese models such as Ernie and ChatGLM lean towards collectivist moral beliefs, exhibiting ambiguity in their moral choices and debates. This study also uncovers gender bias embedded within the moral beliefs of all examined language models. Our methodology offers an innovative means to assess moral beliefs in both artificial and human intelligence, facilitating a comparison of moral values across different cultures.
+
+## Data Description
+
+The paper introduces a dataset of 472 Chinese moral choice scenarios derived from 514 negative moral words sourced from the Chinese Moral Dictionary. Each scenario includes a moral question, two mutually exclusive moral choices, and associated moral principles. The dataset is used to evaluate the moral beliefs of four LLMs (ChatGPT/GPT-3.5-turbo-16K, Gemini Pro, ChatGLM2-6B-32K, and Ernie-Bot-turbo) through moral choice, moral ranking, and moral debate modules.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://github.com/allenai/scruples"
 ---
 # Scruples: A Corpus of Community Ethical Judgments on 32,000 Real-Life Anecdotes
 
@@ -64,6 +67,11 @@ As AI systems become an increasing part of people’s everyday lives, it becomes
 ## Authors
 
 [[Nicholas Lourie]], [[Ronan Le Bras]], [[Yejin Choi]]
+
+## Data Description
+
+SCRUPLES consists of two parts: the ANECDOTES containing 32,766 real-life ethical anecdotes with 626,714 ethical judgments sourced from Reddit, and the DILEMMAS containing 10,000 pairs of actions with crowdsourced normative judgments from Mechanical Turk. The dataset tests models' ability to predict distributions of community ethical judgments about complex real-life situations involving moral ambiguity.
+
 
 ## Notes
 

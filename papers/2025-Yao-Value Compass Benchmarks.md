@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4o, GPT-3.5, o3, DeepSeek, Gemini, Claude, Llama-2, Llama-3"
+DATA_URL: "https://valuecompass.github.io/#/leaderboard"
 ---
 # Value Compass Benchmarks: A Platform for Fundamental and Validated Evaluation of LLMs Values
 
@@ -95,6 +98,11 @@ Static benchmarks are dead. Value Compass offers a "Live" evaluation ecosystem t
 ## Authors
 
 [[Jing Yao]], [[Xiaoyuan Yi]], [[Shitong Duan]], [[Jindong Wang]], [[Yuzhuo Bai]], [[Muhua Huang]], [[Peng Zhang]], [[Tun Lu]], [[Zhicheng Dou]], [[Maosong Sun]], [[Xing Xie]]
+
+## Data Description
+
+Value Compass Benchmarks is a dynamic, online, and interactive platform for comprehensive value evaluation of LLMs, grounded in four value systems: Schwartz Theory of Basic Values, Moral Foundation Theory, LLMs' Unique Value System, and a Safety Taxonomy, spanning 27 fine-grained value dimensions. The platform uses a generative self-evolving evaluation paradigm that automatically creates test items co-evolving with LLM capabilities. It currently covers 33 leading LLMs including o3-mini, DeepSeek-R1, GPT-3.5-Turbo, Llama-2-70B-Chat, Llama-3.3-70B-instruct, Gemini-2.0-Pro/Flash, and Claude-3.5-Sonnet.
+
 
 ## Notes
 

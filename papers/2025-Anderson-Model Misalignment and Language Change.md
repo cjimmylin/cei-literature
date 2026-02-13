@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/fsu-nlp/ai-traces-ssl"
 ---
 # Model Misalignment and Language Change: Traces of AI-Associated Language in Unscripted Spoken English
 
@@ -64,6 +67,11 @@ In recent years, written language, particularly in science and education, has un
 ## Authors
 
 [[Bryce Anderson]], [[Riley Galpin]], [[Tom S. Juzek]]
+
+## Data Description
+
+The paper constructs a dataset of 22.1 million words from unscripted spoken language drawn from conversational science and technology podcasts to analyze lexical trends before and after ChatGPT's release in 2022. No LLMs are directly tested or assessed; the study examines whether human lexical choices in unscripted spoken language are converging towards patterns characteristic of LLMs.
+
 
 ## Notes
 

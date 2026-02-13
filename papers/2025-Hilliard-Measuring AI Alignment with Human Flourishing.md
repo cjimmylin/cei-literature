@@ -1,5 +1,6 @@
 ---
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Flourishing AI Benchmark, virtue"
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-4, ChatGPT, o1, o3, Claude, Gemini, Grok"
+DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 ---
  Measuring AI Alignment with Human Flourishing
@@ -91,6 +94,11 @@ Current LLMs are optimized for pragmatic utility and "emotional supportiveness" 
 ## Abstract
 
 This paper introduces the Flourishing AI Benchmark (FAI Benchmark), a novel evaluation framework that assesses AI alignment with human flourishing across seven dimensions: Character and Virtue, Close Social Relationships, Happiness and Life Satisfaction, Meaning and Purpose, Mental and Physical Health, Financial and Material Stability, and Faith and Spirituality. Unlike traditional benchmarks that focus on technical capabilities or harm prevention, the FAI Benchmark measures AI performance on how effectively models contribute to the flourishing of a person across these dimensions. The benchmark evaluates how effectively LLM AI systems align with current research models of holistic human well-being through a comprehensive methodology that incorporates 1,229 objective and subjective questions. Using specialized judge Large Language Models (LLMs) and cross-dimensional evaluation, the FAI Benchmark employs geometric mean scoring to ensure balanced performance across all flourishing dimensions. Initial testing of 28 leading language models reveals that while some models approach holistic alignment (with the highest-scoring models achieving 72/100), none are acceptably aligned across all dimensions, particularly in Faith and Spirituality, Character and Virtue, and Meaning and Purpose. This research establishes a framework for developing AI systems that actively support human flourishing rather than merely avoiding harm, offering significant implications for AI development, ethics, and evaluation.
+
+## Data Description
+
+The Flourishing AI (FAI) Benchmark evaluates 28 leading LLMs across seven dimensions of human flourishing (Character and Virtue, Close Social Relationships, Happiness and Life Satisfaction, Meaning and Purpose, Mental and Physical Health, Financial and Material Stability, and Faith and Spirituality) using 1,229 objective and subjective questions. Models tested include o3, Gemini 2.5 Flash, Grok 3, o4-mini, GPT-4.5 Preview, o1, GPT-4.1, Claude 3.7 Sonnet, Claude 3.5 Sonnet, Gemini 2.0 Flash, Grok 2, and GPT-4o, with GPT-4o mini used as a judge LLM.
+
 
 ## Notes
 

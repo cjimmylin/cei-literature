@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Challenges and Applications of Large Language Models
 
@@ -62,6 +65,11 @@ Large Language Models (LLMs) went from non-existent to ubiquitous in the machine
 ## Authors
 
 [[Jean Kaddour]], [[Joshua Harris]], [[Maximilian Mozes]], [[Herbie Bradley]], [[Roberta Raileanu]], [[Robert McHardy]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a comprehensive survey cataloging open challenges and application areas of large language models across 16 challenges and 11 application domains, synthesizing findings from existing literature rather than conducting original experiments.
+
 
 ## Notes
 

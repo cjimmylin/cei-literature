@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Aggregation Problems in Machine Ethics and AI Alignment
 
@@ -49,6 +52,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Artificial agents increasingly make decisions with far-reaching consequences, making it imperative to ensure their actions are not only functionally effective but also normatively appropriate. Two major paradigms address this challenge: machine ethics and value alignment. Machine ethics typically engages in moral aggregation, especially through value and descriptive uncertainty aggregation. Value alignment approaches tend to rely on social aggregation to manage value pluralism and moral uncertainty, often implicitly or indirectly. While aggregation procedures are proposed to synthesize diverse moral preferences or judgments into actionable system behavior, the authors argue that such strategies may shift rather than resolve foundational ethical challenges.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical analysis of aggregation problems in machine ethics and AI alignment, distinguishing between value aggregation, uncertainty aggregation, and social aggregation across three stages of machine moral reasoning.
+
 
 ## Notes
 

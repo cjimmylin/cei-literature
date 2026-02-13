@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models"
 ---
 # Large AI Models in Health Informatics: Applications, Challenges, and the Future
 
@@ -65,6 +68,11 @@ Large AI models, or foundation models, are models recently emerging with massive
 ## Authors
 
 [[Jianing Qiu]], [[Lin Li]], [[Jiankai Sun]], [[Jiachuan Peng]], [[Peilun Shi]], [[Ruiyang Zhang]], [[Yinzhao Dong]], [[Kyle Lam]], [[Frank P.-W. Lo|Frank P. -W. Lo]], [[Bo Xiao]], [[Wu Yuan]], [[Ningli Wang]], [[Dong Xu]], [[Benny Lo]]
+
+## Data Description
+
+This paper is a comprehensive review of large AI models (foundation models) and their applications in health informatics. It surveys seven key sectors including bioinformatics, medical diagnosis, medical imaging, medical informatics, medical education, public health, and medical robotics. No LLM models were directly tested or benchmarked; the paper discusses models such as ChatGPT, GPT-4, PaLM, LLaMA 2, and various protein language models in a review capacity only.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://huggingface.co/datasets/lmsys/toxic-chat"
 pdf_extract: "PDF Extracts/2023/2023-Lin-ToxicChat.md"
 local_pdf: "[[PDFs/2023/2023-Lin-ToxicChat.pdf]]"
 ---
@@ -46,6 +49,11 @@ local_pdf: "[[PDFs/2023/2023-Lin-ToxicChat.pdf]]"
 ## Abstract
 
 Despite remarkable advances that large language models have achieved in chatbots nowadays, maintaining a non-toxic user-AI interactive environment has become increasingly critical nowadays. However, previous efforts in toxicity detection have been mostly based on benchmarks derived from social media contents, leaving the unique challenges inherent to real-world user-AI interactions insufficiently explored. In this work, we introduce ToxicChat, a novel benchmark constructed based on real user queries from an open-source chatbot. This benchmark contains the rich, nuanced phenomena that can be tricky for current toxicity detection models to identify, revealing a significant domain difference when compared to social media contents. Our systematic evaluation of models trained on existing toxicity datasets has shown their shortcomings when applied to this unique domain of ToxicChat. Our work illuminates the potentially overlooked challenges of toxicity detection in real-world user-AI conversations. In the future, ToxicChat can be a valuable resource to drive further advancements toward building a safe and healthy environment for user-AI interactions.
+
+## Data Description
+
+ToxicChat is a toxicity detection benchmark based on 10,166 real user queries from the Vicuna open-source chatbot demo, annotated for toxicity (7.10% toxic rate) and jailbreaking (1.75% rate). The dataset includes binary toxicity labels determined by majority vote among four annotators, with an additional jailbreaking label for implicit toxic inputs designed to trick chatbots into generating harmful content.
+
 
 ## Notes
 

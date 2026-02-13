@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large Language Models’ (LLMs) programming capabilities enable their
 research_topic: "Interpretability & Explainability"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Mistral, Qwen, DeepSeek"
+DATA_URL: "https://github.com/swadeshs/llm-osgt"
 ---
 # SPARC: Evaluating LLMs in Open-Source Games (Strategic Program Analysis for Reciprocal Cooperation)
 
@@ -62,6 +65,10 @@ Large Language Models’ (LLMs) programming capabilities enable their participat
 ## Dataset Information
 
 239 IPD strategies from the Axelrod Python library; classification task (cooperative vs non-cooperative); includes masked and obfuscated variants
+
+## Data Description
+
+The SPARC benchmark consists of 239 Iterated Prisoner's Dilemma strategies sourced from the Axelrod Python library, used to evaluate LLMs' ability to understand and classify strategic code. The benchmark includes original, masked (class names removed), and obfuscated (all identifiers replaced) versions of the strategy programs. Additionally, the paper evaluates LLM agents in open-source games including the Iterated Prisoner's Dilemma and a spatial Coin Game across dyadic and evolutionary settings.
 
 ## Notes
 

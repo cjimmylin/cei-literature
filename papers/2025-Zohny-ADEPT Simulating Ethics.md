@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "o3, Gemini"
+DATA_URL: "https://github.com/hazemzohny/ADEPT/"
 ---
  Simulating Ethics: Using LLM Debate Panels to Model Deliberation on Medical Dilemmas
 
@@ -86,6 +89,11 @@ The author concludes that AI debate panels are valuable for exploration, educati
 ## Abstract
 
 This paper introduces ADEPT, a system using Large Language Model (LLM) personas to simulate multi-perspective ethical debates. ADEPT assembles panels of 'AI personas', each embodying a distinct ethical framework or stakeholder perspective (like a deontologist, consequentialist, or disability rights advocate), to deliberate on complex moral issues. Its application is demonstrated through a scenario about prioritizing patients for a limited number of ventilators inspired by real-world challenges in allocating scarce medical resources. Two debates, each with six LLM personas, were conducted; they only differed in the moral viewpoints represented: one included a Catholic bioethicist and a care theorist, the other substituted a rule-based Kantian philosopher and a legal adviser. Both panels ultimately favoured the same policy -- a lottery system weighted for clinical need and fairness, crucially avoiding the withdrawal of ventilators for reallocation. However, each panel reached that conclusion through different lines of argument, and their voting coalitions shifted once duty- and rights-based voices were present. Examination of the debate transcripts shows that the altered membership redirected attention toward moral injury, legal risk and public trust, which in turn changed four continuing personas' final positions. The work offers three contributions: (i) a transparent, replicable workflow for running and analysing multi-agent AI debates in bioethics; (ii) evidence that the moral perspectives included in such panels can materially change the outcome even when the factual inputs remain constant; and (iii) an analysis of the implications and future directions for such AI-mediated approaches to ethical deliberation and policy.
+
+## Data Description
+
+ADEPT (AI Deliberative Ethics Protocol Toolkit) is a multi-agent framework for structured ethical deliberation using LLM personas. The system uses OpenAI o3 (May 2025 weights, temperature 0.7) to power debate agents embodying distinct ethical frameworks (e.g., Consequentialist, Deontologist, Care Ethicist) that deliberate on a ventilator triage scenario modeled on NHS crisis-standards guidance. Gemini 2.5 Pro was used for initial analysis of debate transcripts. Outputs include JSON traces and plain-text reports of two six-member panel debates.
+
 
 ## Notes
 

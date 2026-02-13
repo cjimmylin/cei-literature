@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Zhou-A Survey of Large Language Models in Medicine.md"
 local_pdf: "[[PDFs/2023/2023-Zhou-A Survey of Large Language Models in Medicine.pdf]]"
 ---
@@ -86,6 +89,11 @@ The authors conclude that while medical LLMs show promise, significant challenge
 ## Artifact Contributions
 
 - GitHub repository: https://github.com/AI-in-Health/MedLLMsPracticalGuide (maintained list of practical resources)
+
+## Data Description
+
+This paper proposes a controllable training framework using 'security vectors' to prevent LLMs from learning harmful behaviors during fine-tuning. Experiments are conducted primarily on Llama2-7B-Chat, fine-tuned on harmful data from the Anthropic red team dataset (100 samples for security vector generation, up to 1,000 for evaluation). The paper evaluates unlearning capability, learning ability for benign tasks, and general capability using MMLU, GSM, LIMA, and a custom ProfileQA dataset of 100 synthesized character profiles.
+
 
 ## Notes
 

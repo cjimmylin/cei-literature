@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Past work seeks to align large language model (LLM)-based assistants 
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4o, Claude, Llama-3, Qwen, Gemma"
+DATA_URL: "https://github.com/andyjliu/conflictscope"
 normative_ethics_benchmark: Borderline
 ---
 # ConflictScope: Generative Value Conflicts Reveal LLM Priorities
@@ -63,6 +66,10 @@ Past work seeks to align large language model (LLM)-based assistants with a targ
 ## Dataset Information
 
 Automated pipeline generating value-conflict dilemmas from user-defined value sets; systematic pairwise comparison of values; MCQ and open-ended formats
+
+## Data Description
+
+CONFLICTSCOPE is an automated pipeline for generating value conflict scenarios that evaluate how LLMs prioritize different values. The dataset contains approximately 2,900 filtered scenarios across three value sets (HHH, Personal-Protective, and ModelSpec), each presenting a conflict between two sampled values. The pipeline evaluates 14 target models through both multiple-choice and open-ended evaluation settings, using Bradley-Terry preference models to elicit value rankings.
 
 ## Notes
 

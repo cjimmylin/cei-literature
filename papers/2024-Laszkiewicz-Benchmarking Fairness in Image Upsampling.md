@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/MikeLasz/Benchmarking-Fairness-ImageUpsampling"
 ---
 # Benchmarking Fairness in Image Upsampling
 
@@ -59,6 +62,11 @@ Recent years have witnessed a rapid development of deep gen- erative models for 
 ## Authors
 
 [[Mike Laszkiewicz]], [[Oliver Evans]]
+
+## Data Description
+
+The paper introduces UnfairFace, a subset of the FairFace dataset that replicates the racial distribution of common large-scale face datasets (approximately 20K samples, over 80% labeled as White). The benchmark evaluates five image upsampling methods (PULSE, pSp, fair-pSp, Posterior Sampling, DDRM) on performance and fairness metrics including representation demographic parity and proportional representation, using race labels across 7 categories with a test set of 1,400 images.
+
 
 ## Notes
 

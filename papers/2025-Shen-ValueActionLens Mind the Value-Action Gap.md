@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Existing research assesses LLMs’ values by analyzing their stated i
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Gemma, DeepSeek, Claude"
+DATA_URL: "https://github.com/huashen218/value_action_gap"
 ---
 # ValueActionLens (Mind the Value-Action Gap)
 
@@ -62,6 +65,10 @@ Existing research assesses LLMs’ values by analyzing their stated inclinations
 ## Dataset Information
 
 VIA (Value-Informed Dataset) containing 14,800 value-informed actions spanning 12 cultures and 11 social topics; 132 scenarios
+
+## Data Description
+
+The paper introduces the Value-Informed Actions (VIA) dataset containing 14,784 value-informed actions across 132 scenarios (12 countries and 11 social topics), grounded in Schwartz's Theory of Basic Values with 56 values. Seven LLMs are evaluated: GPT-4o-mini, GPT-4o, GPT-3.5-turbo, Gemma-2-9B, Llama-3.3-70B, Deepseek-r1-distill-llama-70b, and Claude-sonnet-4. The framework includes two tasks measuring stated value inclinations and value-informed action selections, with three alignment metrics to quantify value-action gaps.
 
 ## Notes
 

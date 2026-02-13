@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "Claude"
+DATA_URL: "https://huggingface.co/datasets/Anthropic/llm_global_opinions"
 ---
 # Towards Measuring the Representation of Subjective Global Opinions in Language Models
 
@@ -62,6 +65,11 @@ Large language models (LLMs) may not equitably represent diverse global perspect
 ## Authors
 
 [[Esin Durmus]], [[Karina Nguyen]], [[Thomas I. Liao]], [[Nicholas Schiefer]], [[Amanda Askell]], [[Anton Bakhtin]], [[Carol Chen]], [[Zac Hatfield-Dodds]], [[Danny Hernandez]], [[Nicholas Joseph]], [[Liane Lovitt]], [[Sam McCandlish]], [[Orowa Sikder]], [[Alex Tamkin]], [[Janel Thamkul]], [[Jared Kaplan]], [[Jack Clark]], [[Deep Ganguli]]
+
+## Data Description
+
+The paper introduces GlobalOpinionQA, a dataset of 2,556 multiple-choice questions compiled from the Pew Global Attitudes Survey (2,203 questions) and World Values Survey Wave 7 (353 questions). The dataset captures diverse global opinions on societal issues across many countries and is used to measure the similarity between LLM-generated survey responses and human responses conditioned on country.
+
 
 ## Notes
 

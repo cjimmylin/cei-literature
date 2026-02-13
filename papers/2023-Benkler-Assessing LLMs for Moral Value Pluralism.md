@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+LLM_assessed: "text-davinci, RoBERTa"
+DATA_URL: "NA"
 DATE_ADDED: 20260207
 ---
 # Assessing LLMs for Moral Value Pluralism
@@ -65,6 +68,11 @@ Moral values are important indicators of socio-cultural norms and behavior and g
 ## Authors
 
 [[Noam Benkler]], [[Drisana Mosaphir]], [[Scott Friedman]], [[Andrew Smart]], [[Sonja Schmer-Galunder]]
+
+## Data Description
+
+The study generates 56,400 LLM responses from OpenAI's text-davinci-003 across 188 demographic categories (combinations of 8 nationalities, 6 age groups, and 2 sexes) using 6 moral value questions derived from the World Values Survey traditional-secular module. A RoBERTa-based Recognizing Value Resonance (RVR) model analyzes the implicit moral values in these generated texts, enabling quantitative comparison of LLM moral value distributions against real-world WVS Wave 7 survey data across diverse demographics.
+
 
 ## Notes
 

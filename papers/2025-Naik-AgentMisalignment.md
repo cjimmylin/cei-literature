@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Gemini"
+DATA_URL: "NA"
 ---
 # AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents
 
@@ -64,6 +67,11 @@ As Large Language Model (LLM) agents become more widespread, associated misalign
 ## Authors
 
 [[Akshat Naik]], [[Patrick Quinn]], [[Guillermo Bosch]], [[Emma Gouné]], [[Francisco Javier Campos Zabala]], [[Jason Ross Brown]], [[Edward James Young]]
+
+## Data Description
+
+AGENTMISALIGNMENT is a benchmark suite of 9 evaluation tasks designed to measure the propensity of LLM-based agents to exhibit misaligned behaviors in realistic deployment scenarios, covering behaviors such as avoiding oversight, resisting shutdown, sandbagging, power-seeking, deception, and departing from ethical baselines. Frontier models from OpenAI (GPT-4.1, o4-mini), Anthropic (Claude 3 Opus, Claude 3.7 Sonnet), and Google (Gemini 2.0 Flash, Gemini 2.5 Pro) were tested across multiple personality prompts using the InspectAI framework.
+
 
 ## Notes
 

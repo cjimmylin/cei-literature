@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Culturally-Attuned Moral Machines: Implicit Learning of Human Value Systems by AI through Inverse Reinforcement Learning
 
@@ -64,6 +67,11 @@ Constructing a universal moral code for artificial intelligence (AI) is difficul
 ## Authors
 
 [[Nigini Oliveira]], [[Jasmine Li]], [[Koosha Khalvati]], [[Rodolfo Cortes Barragan]], [[Katharina Reinecke]], [[Andrew N. Meltzoff]], [[Rajesh P. N. Rao]]
+
+## Data Description
+
+The dataset consists of behavioral data from 300 adult participants (190 White Americans and 110 Latino Americans) playing an online game based on the 'Overcooked' cooperative cooking game. Participants made altruistic decisions across three rounds, and the sequential game-state data was used to train inverse reinforcement learning (IRL) agents that learn culturally-attuned value systems from observing human behavior.
+
 
 ## Notes
 

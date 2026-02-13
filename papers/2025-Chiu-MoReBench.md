@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "150 examples"
+LLM_assessed: "GPT-4, Claude, Gemini, DeepSeek, Qwen, Llama"
+DATA_URL: "https://hf.co/datasets/morebench/morebench"
 normative_ethics_benchmark: Yes
 ---
  MoReBench: Evaluating Procedural and Pluralistic Moral Reasoning in Language Models, More than Outcomes
@@ -53,6 +56,11 @@ normative_ethics_benchmark: Yes
 ## Abstract
 
 As AI systems progress, we rely more on them to make decisions with us and for us. To ensure that such decisions are aligned with human values, it is imperative for us to understand not only what decisions they make but also how they come to those decisions. Reasoning language models, which provide both final responses and (partially transparent) intermediate thinking traces, present a timely opportunity to study AI procedural reasoning. Unlike math and code problems which often have objectively correct answers, moral dilemmas are an excellent testbed for process-focused evaluation because they allow for multiple defensible conclusions. Instead of evaluating final outcomes, we propose to evaluate structural elements of model reasoning process. To do so, we present MOREBENCH: 1,000 moral scenarios, each paired with a set of rubric criteria that experts consider essential to include (or avoid) when reasoning about the scenarios. MOREBENCH contains over 23 thousand criteria including identifying moral considerations, weighing trade-offs, and giving actionable recommendations to cover cases on AI advising humans moral decisions as well as making moral decisions autonomously. Separately, we curate MOREBENCH-THEORY: 150 examples to test whether AI can reason under five major frameworks in normative ethics. Our results show that scaling laws and existing benchmarks on math, code, and scientific reasoning tasks fail to predict models’ abilities to perform moral reasoning. Models also show partiality towards specific moral frameworks (e.g., Benthamite Act Utilitarianism and Kantian Deontology), which might be side effects of popular training paradigms. Together, these benchmarks advance process-focused reasoning evaluation towards safer and more transparent AI.
+
+## Data Description
+
+MoReBench is a benchmark of 1,000 moral dilemma scenarios with 23,018 expert-written rubric criteria for evaluating procedural moral reasoning in LLMs, covering both moral advisor and moral agent roles. The benchmark also includes MoReBench-Theory with 150 scenarios annotated under five normative ethics frameworks, testing frontier models including GPT-5, Claude Opus 4.1, Gemini 2.5 Pro, DeepSeek R1, Qwen3, and Llama 4 Maverick, finding that scaling laws fail to predict moral reasoning capabilities.
+
 
 ## Notes
 

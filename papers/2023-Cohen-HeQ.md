@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/NNLP-IL/Hebrew-Question-Answering-Dataset"
 ---
 # HeQ: a Large and Diverse Hebrew Reading Comprehension Benchmark
 
@@ -64,6 +67,11 @@ Current benchmarks for Hebrew Natural Language Processing (NLP) focus mainly on 
 ## Authors
 
 [[Amir Cohen]], [[Hilla Merhav-Fine]], [[Yoav Goldberg]], [[Reut Tsarfaty]]
+
+## Data Description
+
+HeQ (Hebrew QA) is a Hebrew machine reading comprehension benchmark containing 30,147 question-answer pairs derived from Hebrew Wikipedia articles and Israeli tech news (GeekTime). The dataset is split into train (90%), development (5%), and test (5%) sets, with annotations produced by native Hebrew speakers through a controlled crowdsourcing protocol with quality-tiered evaluation (rejected, verified, good, gold).
+
 
 ## Notes
 

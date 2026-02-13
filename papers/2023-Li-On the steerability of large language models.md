@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "Falcon"
+DATA_URL: "NA"
 ---
 # On the steerability of large language models toward data-driven personas
 
@@ -62,6 +65,11 @@ Large language models (LLMs) are known to generate biased responses where the op
 ## Authors
 
 [[Junyi Li]], [[Ninareh Mehrabi]], [[Charith Peris]], [[Palash Goyal]], [[Kai-Wei Chang]], [[Aram Galstyan]], [[Richard Zemel]], [[Rahul Gupta]]
+
+## Data Description
+
+The paper uses the OpinionQA dataset, which is curated from 15 American Trends Panel polls encompassing responses from 18,339 participants to 1,476 multiple-choice questions across 23 topics. The study evaluates the steerability of four LLMs (GPT-Neo-1.3B, GPT-Neo-2.7B, GPT-J-6B, Falcon-7B-Instruct) toward data-driven personas using collaborative filtering-based embeddings.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large language models (LLMs) make significant progress in Emotional I
 research_topic: "Machine Learning"
 data_description: "Benchmark"
 data_metrics: "15,341 tokens"
+LLM_assessed: "GPT-4o, DeepSeek, Llama-3, Qwen"
+DATA_URL: "https://longemotion.github.io/"
 ---
 # LongEmotion: Measuring Emotional Intelligence of Large Language Models in Long-Context Interaction
 
@@ -62,6 +65,10 @@ Large language models (LLMs) make significant progress in Emotional Intelligence
 ## Dataset Information
 
 6 tasks (Emotion Classification, Detection, QA, Conversation, Summary, Expression); average context length of 15,341 tokens; simulates realistic long emotional dialogues
+
+## Data Description
+
+LONGEMOTION is a benchmark for evaluating the emotional intelligence of LLMs in long-context interaction, with an average context length of 15,341 tokens. It encompasses six tasks across three dimensions: Emotion Recognition (classification and detection), Knowledge Application (QA and summary), and Empathetic Generation (conversation and expression), totaling 1,334 samples from diverse sources including psychological literature and counseling dialogues. The paper also proposes a Collaborative Emotional Modeling (CoEM) framework integrating RAG and multi-agent collaboration.
 
 ## Notes
 

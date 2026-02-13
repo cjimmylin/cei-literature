@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Current AI safety frameworks, which often treat harmfulness as binary
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "150 prompts"
+LLM_assessed: "GPT-4, Claude, Qwen, DeepSeek"
+DATA_URL: "https://jl3676.github.io/PluriHarms"
 ---
 # PluriHarms
 
@@ -62,6 +65,10 @@ Current AI safety frameworks, which often treat harmfulness as binary, lack the 
 ## Dataset Information
 
 150 prompts calibrated across full harmfulness spectrum
+
+## Data Description
+
+PLURIHARMS is a benchmark of 150 prompts calibrated across a harm spectrum, each annotated with 100 human ratings (15,000 total ratings from 100 annotators). The dataset includes comprehensive demographic and psychological traits of annotators, prompt-level features of harmful actions/effects/values, and was curated from 62,612 synthesized prompts using a genetic algorithm. AI safety models including GPT-4.1, Claude, Qwen3, WildGuard, and SafetyAnalyst were evaluated on the benchmark.
 
 ## Notes
 

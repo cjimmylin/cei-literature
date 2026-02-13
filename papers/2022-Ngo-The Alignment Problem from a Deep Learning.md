@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # The Alignment Problem from a Deep Learning Perspective
 
@@ -64,6 +67,11 @@ In coming years or decades, artiﬁcial general intelligence (AGI) may surpass h
 ## Authors
 
 [[Richard Ngo]], [[Lawrence Chan]], [[Sören Mindermann]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical analysis of the AI alignment problem from a deep learning perspective, discussing risks of situationally-aware reward hacking, misaligned internally-represented goals, and power-seeking strategies in AGI systems trained with RLHF.
+
 
 ## Notes
 

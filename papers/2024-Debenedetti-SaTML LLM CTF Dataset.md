@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Large language model systems face important security risks from malic
 research_topic: "Machine Learning"
 data_description: "Dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, Llama-2"
+DATA_URL: "https://huggingface.co/datasets/ethz-spylab/ctf-satml24, https://github.com/ethz-spylab/satml-llm-ctf"
 ---
 # SaTML LLM CTF Dataset
 
@@ -63,6 +66,10 @@ Large language model systems face important security risks from maliciously craf
 ## Dataset Information
 
 137,063 multi-turn attack chats
+
+## Data Description
+
+This paper presents a dataset from the IEEE SaTML 2024 capture-the-flag competition on LLM prompt injection attacks and defenses. The dataset contains over 137,000 multi-turn attack conversations targeting GPT-3.5 and Llama-2 (70B) models, with 44 accepted defenses including system prompts, Python filters, and LLM filters. The dataset includes labeled successful and unsuccessful secret extraction attempts from 65 attacking teams.
 
 ## Notes
 

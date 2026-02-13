@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT"
+DATA_URL: "https://osf.io/w46nq/"
 ---
 # What does ChatGPT return about human values? Exploring value bias in ChatGPT using a descriptive value theory
 
@@ -57,6 +60,11 @@ There has been concern about ideological basis and possible discrimination in te
 ## Authors
 
 [[Ronald Fischer]], [[Markus Luczak-Roesch]], [[Johannes A. Karl|Johannes A Karl]]
+
+## Data Description
+
+The study generates text from ChatGPT (gpt-3.5-turbo model) using prompts derived from Schwartz's basic value theory, including 57 items from the revised Portrait Value Questionnaire, 19 value type definitions, and 19 value names. The generated corpus comprises 475 ChatGPT responses (285 from PVQ items, 95 from definitions, 95 from value names, each run 5 times) of 300 tokens each, analyzed using a theory-driven value dictionary of 1,068 terms to detect value bias.
+
 
 ## Notes
 

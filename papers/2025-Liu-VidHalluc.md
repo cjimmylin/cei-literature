@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for hallucination detection"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini"
+DATA_URL: "https://people-robots.github.io/vidhalluc"
 ---
 # VidHalluc: Evaluating Temporal Hallucinations in Multimodal Large Language Models for Video Understanding
 
@@ -55,6 +58,11 @@ Multimodal large language models (MLLMs) have recently shown significant advance
 ## Authors
 
 [[Chaoyu Li]], [[Eun Woo Im]], [[Pooyan Fazli]]
+
+## Data Description
+
+VIDHALLUC is the largest benchmark for evaluating temporal hallucinations in multimodal LLMs for video understanding, consisting of 5,002 videos and 9,295 QA pairs across three dimensions: action, temporal sequence, and scene transition hallucination. Ten models are evaluated including Video-ChatGPT (7B), Video-LLaVA (7B), ShareGPT4Video (8B), Chat-UniVi (13B), LLaVA-NeXT-Video (34B), PLLaVA (13B), VideoLLaMA2 (7B), VILA1.5 (13B), Gemini-1.5-Pro, and GPT-4o.
+
 
 ## Notes
 

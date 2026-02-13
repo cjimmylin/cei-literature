@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2, Llama-3, Mistral, Qwen, Claude, GPT-4, o1, o3, Gemini, DeepSeek, Grok"
+DATA_URL: "https://github.com/baixianghuang/behavior-edit"
 DATE_ADDED: 20260207
 ---
 # Model Editing as a Double-Edged Sword: Steering Agent Ethical Behavior Toward Beneficence or Harm
@@ -64,6 +67,11 @@ Agents based on Large Language Models (LLMs) have demonstrated strong capabiliti
 ## Authors
 
 [[Baixiang Huang]], [[Zhen Tan]], [[Haoran Wang]], [[Zijie Liu]], [[Dawei Li]], [[Ali Payani]], [[Huan Liu]], [[Tianlong Chen]], [[Kai Shu]]
+
+## Data Description
+
+BEHAVIORBENCH is a multi-tier benchmark grounded in psychological moral theories (Moral Foundations Theory, Kohlberg's Stages, Rest's Four Component Model) for evaluating and editing ethical behavior of LLM-based agents. The benchmark comprises 1,001 moral scenarios from 10 datasets and was tested on 9 open-weight LLMs (including Llama-2-7B, Llama-3-8B, Mistral-7B, Qwen3-8B) and 20 proprietary models (including Claude 3.5/3.7 Sonnet, GPT-4o/4.1, o1/o3/o4-mini, Gemini 2.5 Pro/Flash, DeepSeek-R1-671B, Grok-3-beta) using three editing methods (ROME, FT-M, ICE).
+
 
 ## Notes
 

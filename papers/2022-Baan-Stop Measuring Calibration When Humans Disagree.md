@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
+LLM_assessed: "RoBERTa"
+DATA_URL: "https://github.com/jsbaan/calibration-on-disagreement-data"
 ---
 # Stop Measuring Calibration When Humans Disagree
 
@@ -62,6 +65,11 @@ Calibration is a popular framework to evaluate whether a classifier knows when i
 ## Authors
 
 [[Joris Baan]], [[Wilker Aziz]], [[Barbara Plank]], [[Raquel Fernández]]
+
+## Data Description
+
+The paper uses the ChaosNLI dataset, which contains approximately 4,645 natural language inference instances from SNLI and MNLI with 100 human annotations each, capturing inherent disagreement in human judgements. The authors fine-tune RoBERTa on these datasets to study calibration metrics and propose instance-level measures of calibration that capture key statistical properties of human judgement distributions including class frequency, ranking, and entropy.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_TSAI2024
@@ -29,6 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Why AI May Undermine Phronesis and What to Do about It
 
@@ -57,6 +60,11 @@ data_metrics: N/A
 ## Abstract
 
 Phronesis, or practical wisdom, is a capacity the possession of which enables one to make good practical judgments and thus fulfill the distinctive function of human beings. Nir Eisikovits and Dan Feldman convincingly argue that this capacity may be undermined by statistical machine-learning-based AI. The critic questions: why should we worry that AI undermines phronesis? Why can't we epistemically defer to AI, especially when it is superintelligent? Eisikovits and Feldman acknowledge such objection but do not consider it seriously. In this paper, the authors argue that there is a way to reconcile Eisikovits and Feldman with their critic by adopting the principle of epistemic heed, according to which we should exercise our rational capacity as much as possible while heeding a superintelligence's output whenever possible.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical analysis examining how AI may undermine phronesis (practical wisdom) and proposes the principle of epistemic heed to reconcile the tensions between epistemic fulfillment and epistemic deference to superintelligent AI.
+
 
 ## Notes
 

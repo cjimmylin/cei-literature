@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4"
+DATA_URL: "NA"
 DATE_ADDED: 20260207
 ---
 # AI Language Model Rivals Expert Ethicist
@@ -72,6 +75,11 @@ Empirical evidence that GPT-4o's ethical advice is rated more favorably than exp
 ## Significance
 
 Advances the Moral Turing Test research showing AI can match or exceed human moral expertise perception
+
+## Data Description
+
+The paper tests GPT-3.5-turbo (Study 1, n=501) and GPT-4o (Study 2, n=900) on perceived moral expertise by comparing their moral justifications and advice against those of representative Americans and The New York Times' expert ethicist column. The study uses 79 moral scenarios from published papers and 50 questions from The Ethicist, finding that GPT-4o's advice was rated as more moral, trustworthy, thoughtful, and correct than the expert ethicist's.
+
 
 ## Notes
 

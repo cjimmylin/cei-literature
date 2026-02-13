@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Large Language Models (LLMs) are poised to transform healthcare under
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Qwen, DeepSeek"
+DATA_URL: "https://medbench.opencompass.org.cn/community/data-station"
 normative_ethics_benchmark: Borderline
 ---
 # Healthcare Ethics & Safety QA (China -- Healthy China 2030)
@@ -63,6 +66,10 @@ Large Language Models (LLMs) are poised to transform healthcare under China’s 
 ## Dataset Information
 
 12,000 question-answer items
+
+## Data Description
+
+The paper introduces a 12,000-item Q&A benchmark covering 11 ethics and 9 safety dimensions in medical contexts, designed to evaluate healthcare LLMs in China. State-of-the-art Chinese medical LLMs including Qwen 2.5-32B and DeepSeek are assessed on this benchmark, with Qwen 2.5-32B achieving 42.7% baseline accuracy improving to 50.8% after fine-tuning. The dataset is publicly available at MedBench.
 
 ## Notes
 

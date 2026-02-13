@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-2, RoBERTa"
+DATA_URL: "https://github.com/hendrycks/jiminy-cricket"
 ---
 # What Would Jiminy Cricket Do? Towards Agents That Behave Morally
 
@@ -63,6 +66,11 @@ When making everyday decisions, people are guided by their conscience, an intern
 ## Authors
 
 [[Dan Hendrycks]], [[Mantas Mazeika]], [[Andy Zou]], [[Sahil Patel]], [[Christine Zhu]], [[Jesus Navarro]], [[Dawn Song]], [[Bo Li]], [[Jacob Steinhardt]]
+
+## Data Description
+
+The Jiminy Cricket environment suite consists of 25 text-based adventure games with over 400,000 lines of annotated source code containing morality annotations at multiple levels of granularity. GPT-2 is used as the CALM agent for action generation, while RoBERTa-large (fine-tuned on the ETHICS benchmark) serves as the morality scoring model (CMPS method). The benchmark evaluates moral behavior of language model agents in interactive text game environments.
+
 
 ## Notes
 

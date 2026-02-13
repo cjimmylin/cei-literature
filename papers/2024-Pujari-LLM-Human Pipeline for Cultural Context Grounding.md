@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-3, RoBERTa"
+DATA_URL: "https://github.com/pujari-rajkumar/cultural-schema-naacl2025"
 ---
 # LLM-Human Pipeline for Cultural Context Grounding of Conversations
 
@@ -62,6 +65,11 @@ Conversations often adhere to well-understood social norms that vary across cult
 ## Authors
 
 [[Rajkumar Pujari]], [[Dan Goldwasser]]
+
+## Data Description
+
+The paper creates a large-scale cultural context dataset comprising approximately 110,000 social norm and violation descriptions for roughly 23,000 Chinese conversations drawn from three existing datasets (MPDD, CPED, LDC CCU ZH Text). The dataset includes 35 discovered norm concepts with symbolic structures, organized via a human-in-the-loop framework with automated verification. It supports downstream conversational tasks including emotion detection, sentiment detection, and dialogue act detection.
+
 
 ## Notes
 

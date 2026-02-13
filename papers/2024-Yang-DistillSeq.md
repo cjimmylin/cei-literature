@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, Vicuna, Llama"
+DATA_URL: "NA"
 ---
 # DistillSeq: A Framework for Safety Alignment Testing in Large Language Models using Knowledge Distillation
 
@@ -65,6 +68,11 @@ Large Language Models (LLMs) have showcased their remarkable capabilities in div
 ## Authors
 
 [[Mingke Yang]], [[Yuqi Chen]], [[Yi Liu]], [[Ling Shi]]
+
+## Data Description
+
+DistillSeq is a framework for safety alignment testing of LLMs that uses knowledge distillation to transfer moderation knowledge from target LLMs to smaller distilled models, then applies sequential filter-test processes with syntax tree-based and LLM-based malicious query generation methods. The framework was evaluated on four LLMs (GPT-3.5, GPT-4, Vicuna-13B, and Llama-13B), demonstrating a 93% average increase in attack success rate while significantly reducing testing costs.
+
 
 ## Notes
 

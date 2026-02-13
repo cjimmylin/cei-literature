@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ abstract:
 ethics_perspective: "General Ethics"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3, GPT-3.5, GPT-4, T5"
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
 # Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)
@@ -67,6 +70,10 @@ normative_ethics_benchmark: Borderline
 ## Dataset Information
 
 DelphiHYBRID system: operationalizes Gert's 10 moral principles as symbolic constraints
+
+## Data Description
+
+The paper presents the Commonsense Norm Bank, a compilation of 1.7 million crowdsourced moral judgements of everyday situations drawn from Social Chemistry (1.5M), Moral Stories (144k), Social Bias Frames (28k), and ETHICS (21k) datasets. These judgements were primarily annotated by educated, white US-based crowdworkers and converted into a unified query-answer format. The Delphi system, built on T5-11B via the UNICORN commonsense reasoning model, was benchmarked against GPT-3, GPT-3.5, and GPT-4 on held-out moral judgement prediction tasks.
 
 ## Notes
 

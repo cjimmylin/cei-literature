@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "101 languages; 99 languages"
+LLM_assessed: "BLOOM"
+DATA_URL: "https://hf.co/CohereForAI/aya-101"
 ---
 # Aya Dataset: A Massively Multilingual Instruction-Tuned Dataset
 
@@ -57,6 +60,11 @@ Recent breakthroughs in large language models (LLMs) have centered around a hand
 ## Authors
 
 [[Ahmet Üstün]], [[Viraat Aryabumi]], [[Zheng-Xin Yong]], [[Wei-Yin Ko]], [[Daniel D'souza]], [[Gbemileke Onilude]], [[Neel Bhandari]], [[Shivalika Singh]], [[Hui-Lee Ooi]], [[Amr Kayid]], [[Freddie Vargus]], [[Phil Blunsom]], [[Shayne Longpre]], [[Niklas Muennighoff]], [[Marzieh Fadaee]], [[Julia Kreutzer]], [[Sara Hooker]]
+
+## Data Description
+
+The paper introduces the Aya model and associated multilingual instruction finetuning datasets covering 101 languages. The training mixture includes xP3x (168M examples), Aya Collection (templated, translated, and human-annotated data totaling 513M instances), Data Provenance Collection (1.65M examples), and ShareGPT-Command (6.8M synthetic examples). The Aya Dataset specifically contains 204K human-curated prompt-response pairs across 65 languages, and evaluation spans discriminative tasks, generative tasks, human evaluation, and safety assessments across 99 languages.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Assessing Large Language Models (LLMs)’ underlying value difference
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "12,310 questions"
+LLM_assessed: "GPT-4, GPT-3.5, o3, Claude, Gemini, Llama-3, Mistral, Qwen, DeepSeek"
+DATA_URL: "NA"
 ---
 # AdAEM: Adaptively and Automated Extensible Measurement for Value Alignment
 
@@ -62,6 +65,10 @@ Assessing Large Language Models (LLMs)’ underlying value differences enables c
 ## Dataset Information
 
 12,310 self-generated questions grounded in Schwartz Value Theory, auto-adapting to reveal value differences
+
+## Data Description
+
+The paper introduces AdAEM, a self-extensible value evaluation framework that generates 12,310 test questions grounded in Schwartz Value Theory to measure LLM value differences. It benchmarks 16 LLMs including GPT-4-Turbo, GPT-3.5-Turbo, o3-mini, Claude-3.5-Sonnet, Gemini-1.5, Gemini-2.0, Llama-3.1 (8B/70B/405B), Mistral-7B, Mistral-Large, Qwen2.5-7B, Qwen-Max, DeepSeek-V2.5, DeepSeek-V3, DeepSeek-R1, and GLM-4, using Jensen-Shannon divergence optimization to expose underlying value orientations.
 
 ## Notes
 

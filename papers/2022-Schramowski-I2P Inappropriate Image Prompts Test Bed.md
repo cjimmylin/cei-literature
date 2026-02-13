@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 research_topic: "Computer Vision & Multimodal"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/ml-research/Q16"
 ---
 # I2P: Inappropriate Image Prompts Test Bed
 
@@ -62,6 +65,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Real-world prompts for evaluating inappropriate content in image generation models
+
+## Data Description
+
+The paper proposes Q16, a semi-automatic pipeline for documenting inappropriate image content in large-scale computer vision datasets. It uses CLIP steered via prompt-tuning on the Socio-Moral Image Database (SMID, 2,941 images) to detect potentially inappropriate content, achieving 96.3% accuracy with ViT-B/16. The pipeline is applied to ImageNet-ILSVRC-2012 and OpenImagesV6 datasets for documentation purposes, but does not test or evaluate any LLMs from the canonical list.
 
 ## Notes
 

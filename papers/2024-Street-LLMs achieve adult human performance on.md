@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, LaMDA, PaLM, Flan-PaLM"
+DATA_URL: "NA"
 ---
 # LLMs achieve adult human performance on higher-order theory of mind tasks
 
@@ -55,6 +58,11 @@ This paper examines the extent to which large language models (LLMs) have develo
 ## Authors
 
 [[Winnie Street]], [[John Oliver Siy]], [[Geoff Keeling]], [[Adrien Baranes]], [[Benjamin Barnett]], [[Michael McKibben]], [[Tatenda Kanyere]], [[Alison Lentz]], [[Blaise Agüera y Arcas|Blaise Aguera y Arcas]], [[Robin I. M. Dunbar]]
+
+## Data Description
+
+The paper introduces MoToMQA (Multi-Order Theory of Mind Question & Answer), a handwritten benchmark comprising 7 short stories with 20 true/false statements each, assessing Theory of Mind at orders 2-6. The benchmark is compared against 29,259 human adult responses. The dataset is available upon request but not at a public repository URL.
+
 
 ## Notes
 

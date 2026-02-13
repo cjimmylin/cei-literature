@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large Language Models (LLMs) are increasingly being used in workflows
 research_topic: "Truthfulness & Factuality"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Vicuna, Llama-3"
+DATA_URL: "https://behavior-in-the-wild.github.io/measure-persuasion"
 ---
 # PersuasionBench & PersuasionArena: Measuring and Improving Persuasiveness of Large Language Models
 
@@ -61,6 +64,10 @@ Large Language Models (LLMs) are increasingly being used in workflows involving 
 ## Dataset Information
 
 ~1.57 million transsuasion pairs from 180 million tweets; 2,187 blog posts for engagement evaluation; multiple task types (simulation, generation, transsuasion)
+
+## Data Description
+
+PersuasionBench and PersuasionArena comprise a large-scale benchmark for evaluating LLM persuasiveness, built from 1.57 million transsuasion pairs extracted from 180 million enterprise tweets (2007-2023). The dataset covers 8 types of transsuasion varying in degree and type of autonomy (text refinement, paraphrasing, image addition, etc.), with evaluation across simulative and generative persuasion capabilities using NLP metrics, Oracle-as-judge, and human evaluations.
 
 ## Notes
 

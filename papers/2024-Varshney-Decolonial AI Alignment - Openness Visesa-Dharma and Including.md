@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ abstract:
 ethics_perspective: "AI Safety & Alignment"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
 # Decolonial AI Alignment -- Openness, Visesa-Dharma, and Including Excluded Knowledges
@@ -67,6 +70,10 @@ normative_ethics_benchmark: Borderline
 ## Dataset Information
 
 Conceptual framework paper rather than benchmark; proposes methodology for creating culturally-grounded alignment datasets
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical and theoretical paper that argues current LLM alignment practices recapitulate coloniality through moral absolutism, and proposes a decolonial AI alignment framework drawing on Hindu moral philosophy (visesa-dharma) and three forms of openness.
 
 ## Notes
 

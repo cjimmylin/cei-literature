@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ tags:
 abstract: "Generative large language models (LLMs) have revolutionized natural language processing with their transformative and emergent capabilities. However, recent evidence indicates that LLMs can produce harmful content that violates social norms, raising significant concerns regarding the safety and ethical ramifications of deploying these advanced models. Thus, it is both critical and imperative to perform a rigorous and comprehensive safety evaluation of LLMs before deployment."
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "220,000 test cases"
+LLM_assessed: "GPT-4, Qwen, Llama, Gemini, Gemma, Mistral, Vicuna"
+DATA_URL: "https://github.com/IS2Lab/S-Eval"
 ---
 # S-Eval
 
@@ -62,6 +65,10 @@ Generative large language models (LLMs) have revolutionized natural language pro
 ## Dataset Information
 
 220,000 evaluation prompts total
+
+## Data Description
+
+S-Eval is a comprehensive LLM safety evaluation benchmark consisting of 220,000 test cases across 102 subdivided risks organized into 8 risk dimensions with a four-level hierarchy. The benchmark includes 20,000 base risk prompts (10,000 Chinese, 10,000 English) and 200,000 corresponding attack prompts covering 10 jailbreak attacks. Safety evaluation was conducted on 21 representative LLMs with over 500,000 queries.
 
 ## Notes
 

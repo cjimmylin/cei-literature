@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "As Large Language Models (LLMs) are integrated into critical real-wor
 research_topic: "Other"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Llama-2, CodeLlama, Mistral, DeepSeek"
+DATA_URL: "https://github.com/jinhaoduan/GTBench"
 ---
 # GTBench: Uncovering the Strategic Reasoning Limitations of LLMs via Game-Theoretic Evaluations
 
@@ -62,6 +65,10 @@ As Large Language Models (LLMs) are integrated into critical real-world applicat
 ## Dataset Information
 
 10 game environments (Tic-Tac-Toe, Connect-4, Breakthrough, Nim, Hex, Liar's Dice, Negotiation, Pig, Iterated Prisoner's Dilemma, Blind Auction) built on OpenSpiel; text-based interaction format
+
+## Data Description
+
+GTBENCH is a language-driven environment composing 10 widely-recognized game-theoretic tasks spanning complete vs. incomplete information, dynamic vs. static, and probabilistic vs. deterministic scenarios (including Tic-Tac-Toe, Connect-4, Kuhn Poker, Breakthrough, Liar's Dice, Blind Auction, Negotiation, Nim, Pig, and Iterated Prisoner's Dilemma). The benchmark evaluates strategic reasoning of LLMs through LLM-vs-conventional solver and LLM-vs-LLM competitions, using Normalized Relative Advantage and Elo rating metrics across 50 matches per competition.
 
 ## Notes
 

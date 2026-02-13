@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # FairLex: A Multilingual Benchmark for Evaluating Fairness in Legal Text Processing
 
@@ -48,6 +51,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 We present a benchmark suite of four datasets for evaluating the fairness of pre-trained language models and the techniques used to fine-tune them for downstream tasks. Our benchmarks cover four jurisdictions (European Council, USA, Switzerland, and China), five languages (English, German, French, Italian and Chinese) and fairness across five attributes (gender, age, region, language, and legal area). In our experiments, we evaluate pre-trained language models using several group-robust fine-tuning techniques and show that performance group disparities are vibrant in many cases, while none of these techniques guarantee fairness, nor consistently mitigate group disparities. Furthermore, we provide a quantitative and qualitative analysis of our results, highlighting open challenges in the development of robustness methods in legal NLP.
+
+## Data Description
+
+FairLex is a multilingual fairness benchmark suite comprising four legal text classification datasets covering four jurisdictions (European Council, USA, Switzerland, China), five languages (English, German, French, Italian, Chinese), and fairness across five attributes (gender, age, region, language, legal area). The datasets include ECtHR (11K cases), SCOTUS (9,262 cases), FSCS (85K+ decisions), and CAIL (100K+ criminal cases), all with chronological train/dev/test splits and annotated sensitive attributes for fairness evaluation.
+
 
 ## Notes
 

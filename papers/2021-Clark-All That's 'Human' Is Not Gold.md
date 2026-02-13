@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-2, GPT-3"
+DATA_URL: "NA"
 ---
 # All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text
 
@@ -62,6 +65,11 @@ Human evaluations are typically considered the gold standard in natural language
 ## Authors
 
 [[Elizabeth Clark]], [[Tal August]], [[Sofia Serrano]], [[Nikita Haduong]], [[Suchin Gururangan]], [[Noah A. Smith]]
+
+## Data Description
+
+The study uses 50 human-authored and 50 machine-generated texts in each of three domains (stories, news articles, and recipes) from GPT-2-XL and GPT-3 (175B Davinci), totaling 3,900 text evaluations from 780 Amazon Mechanical Turk evaluators. The dataset assesses non-experts' ability to distinguish between human- and machine-authored text across multiple domains.
+
 
 ## Notes
 

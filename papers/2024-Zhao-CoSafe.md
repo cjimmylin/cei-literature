@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for conversational ai"
 data_metrics: "1,400 questions; 14 categories"
+LLM_assessed: "Alpaca, Llama-2, Llama-3, Mistral"
+DATA_URL: "https://github.com/ErxinYu/CoSafe-Dataset"
 publication: EMNLP 2024
 DATE_ADDED: 20260207
 ---
@@ -59,6 +62,11 @@ As large language models (LLMs) constantly evolve, ensuring their safety remains
 ## Authors
 
 [[Erxin Yu]], [[Jing Li]], [[Ming Liao]], [[Siqi Wang]], [[Zuchen Gao]], [[Fei Mi]], [[Lanqing Hong]]
+
+## Data Description
+
+CoSafe is a dataset of 1,400 multi-turn dialogue coreference safety attack questions across 14 categories, designed to evaluate LLM vulnerability to coreference-based attacks where harmful intent is disguised through pronoun references in multi-turn conversations. Five open-source LLMs (Alpaca-7b, LLaMA2-Chat-7b, LLaMA3-Instruct-8b, ChatGLM3-6b, and Mistral-7B-Instruct) are tested, with LLaMA2 showing the highest attack success rate of 56%.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "With the integration of large language models (LLMs), embodied agents
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini, Llama-3, Qwen, DeepSeek"
+DATA_URL: "https://github.com/shengyin1224/SafeAgentBench"
 ---
 # SafeAgentBench
 
@@ -63,6 +66,10 @@ With the integration of large language models (LLMs), embodied agents have stron
 ## Dataset Information
 
 750 tasks
+
+## Data Description
+
+SafeAgentBench is the first comprehensive benchmark for safety-aware task planning of embodied LLM agents, featuring 750 executable tasks (450 hazardous, 300 safe) covering 10 potential hazards and 3 task types (detailed, abstract, long-horizon) in interactive simulation environments based on AI2-THOR. Nine representative embodied LLM agent baselines were evaluated, each driven by GPT-4, Gemini-2.5-Pro, Llama3-8B, Qwen2-7B, and DeepSeek-V2.5, with results showing that even the best baseline achieved only a 10% rejection rate for detailed hazardous tasks.
 
 ## Notes
 

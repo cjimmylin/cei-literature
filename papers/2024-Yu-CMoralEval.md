@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning text corpus for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT, Llama-2, Qwen, Alpaca"
+DATA_URL: "https://github.com/tjunlp-lab/CMoralEval"
 normative_ethics_benchmark: Yes
 ---
  CMoralEval: A Moral Evaluation Benchmark for Chinese Large Language Models
@@ -82,6 +85,11 @@ CMoralEval bridges the gap in culturally-specific moral evaluation for Chinese L
 - **CMoralEval Dataset**: Publicly available on GitHub (tjunlp-lab/CMoralEval).
 - **Chinese Morality Taxonomy**: A structured framework covering familial, social, professional, internet, and personal ethics.
 - **Fundamental Principles**: A set of five criteria (Goodness, Filial Piety, Ritual, Diligence, Innovation) for evaluating ethical alignment in a Chinese context.
+
+## Data Description
+
+CMoralEval is a moral evaluation benchmark for Chinese LLMs comprising 30,388 instances across explicit moral scenarios (14,964) and moral dilemma scenarios (15,424), curated from a Chinese TV program on morality and collected Chinese moral anomies. The benchmark features a five-category morality taxonomy (familial, social, professional, Internet, personal morality) grounded in Confucian moral principles. Twenty-six Chinese LLMs were evaluated, including Llama2-Chinese, Qwen, Chinese-Alpaca-2, Yi, Baichuan2, ChatGLM3, and InternLM2 variants, using ChatGPT-3.5 for annotation assistance.
+
 
 ## Notes
 

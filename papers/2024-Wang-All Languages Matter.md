@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "10 languages"
+LLM_assessed: "ChatGPT, GPT-3.5, PaLM-2, Llama-2, Vicuna"
+DATA_URL: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"
 pdf_extract: "PDF Extracts/2024/2024-Wang-All Languages Matter.md"
 local_pdf: "[[PDFs/2024/2024-Wang-All Languages Matter.pdf]]"
 ---
@@ -46,6 +49,11 @@ local_pdf: "[[PDFs/2024/2024-Wang-All Languages Matter.pdf]]"
 ## Abstract
 
 Safety lies at the core of developing and deploying large language models (LLMs). However, previous safety benchmarks only concern the safety in one language, e.g. the majority language in the pretraining data such as English. In this work, we build the first multilingual safety benchmark for LLMs, XSafety, in response to the global deployment of LLMs in practice. XSafety covers 14 kinds of commonly used safety issues across 10 languages that span several language families. We utilize XSafety to empirically study the multilingual safety for 4 widely-used LLMs, including both close-API and open-source models. Experimental results show that all LLMs produce significantly more unsafe responses for non-English queries than English ones, indicating the necessity of developing safety alignment for non-English languages. In addition, we propose a simple and effective prompting method to improve the multilingual safety of ChatGPT by enhancing cross-lingual generalization of safety alignment. Our prompting method can significantly reduce the ratio of unsafe responses by 42% for non-English queries. We will release all the data and results to facilitate future research on LLMs’ safety.
+
+## Data Description
+
+XSAFETY is the first multilingual safety benchmark for LLMs, covering 14 commonly used safety issues across 10 languages (English, Chinese, Spanish, French, Bengali, Arabic, Hindi, Russian, Japanese, German). It comprises 2,800 instances per language (28,000 total annotated instances), derived from monolingual safety benchmarks and translated by professional translators with two rounds of proofreading. The benchmark includes seven typical safety scenarios and six instruction attack types.
+
 
 ## Notes
 

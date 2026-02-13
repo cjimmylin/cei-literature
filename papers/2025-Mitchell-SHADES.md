@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "16 languages"
+LLM_assessed: "BLOOM, Llama-3, Mistral, Qwen"
+DATA_URL: "https://huggingface.co/datasets/LanguageShades/BiasShades"
 pdf_extract: "PDF Extracts/2025/2025-Mitchell-SHADES.md"
 local_pdf: "[[PDFs/2025/2025-Mitchell-SHADES.pdf]]"
 ---
@@ -52,6 +55,11 @@ Large Language Models (LLMs) reproduce and exacerbate the social biases present 
 ## Authors
 
 [[Margaret Mitchell]], [[Hamdan Al-Ali]], [[Giuseppe Attanasio]], [[Ioana Baldini]], [[Miruna Clinciu]], [[Jordan Clive]], [[Pieter Delobelle]], [[Manan Dey]], [[Kaustubh Dhole]], [[Timm Dill]], [[Amirbek Djanibekov]], [[Tair Djanibekov]], [[Jad Doughman]], [[Ritam Dutt]], [[Jessica Zosa Forde]], [[Jay Gala]], [[Avijit Ghosh]], [[Sil Hamilton]], [[Carolin Holtermann]], [[Jerry Huang]], [[Lucie-Aimée Kaffee]], [[Janavi Kasera]], [[Tanmay Laud]], [[Anne Lauscher]], [[Roberto Luis López]], [[Jonibek Mansurov]], [[Maraim Masoud]], [[Sagnik Mukherjee]], [[Nurdaulet Mukhituly]], [[Nikita Nangia]], [[Shangrui Nie]], [[Anaelia Ovalle]], [[Giada Pistilli]], [[Esther Ploeger]], [[Jeremy Qin]], [[Dragomir Radev]], [[Vipul Raheja]], [[Beatrice Savoldi]], [[Shanya Sharma]], [[Xudong Shen]], [[Kaiser Sun]], [[Eliza Szczechla]], [[Tiago Timponi Torrent]], [[Deepak Tunuguntla]], [[Emilio Villa-Cueva]], [[Marcelo Viridiano]], [[Kayo Yin]], [[Mike Zhang]], [[Sydney Zink]], [[Aurélie Névéol]], [[Zeerak Talat]]
+
+## Data Description
+
+SHADES is a multilingual dataset of stereotypes containing over 300 stereotypes from 37 regions, translated across 16 languages and annotated with multiple features including bias type, statement type, valid regions, and stereotyped entity. The dataset includes 304 stereotypes and 443 minimally contrastive statements, with templates for synthetic data generation. Evaluated on 13 multilingual LLMs from the BLOOM, Llama, Mistral, and Qwen model families.
+
 
 ## Notes
 

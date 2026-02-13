@@ -31,6 +31,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI.md"
 local_pdf: "[[PDFs/2025/2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI.pdf]]"
 ---
@@ -96,6 +98,10 @@ Benchmarking ethics for AI is impossible due to metaethical and practical consid
 ## Artifact Contributions
 
 None mentioned - this is a philosophical analysis paper with no datasets or code released.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a meta-ethical philosophical critique arguing against the feasibility of universal ethics benchmarks for AI.
 
 ## Notes
 

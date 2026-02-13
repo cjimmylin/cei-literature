@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "100,000 tokens"
+LLM_assessed: "Claude, GPT-4"
+DATA_URL: "NA"
 ---
 # A Framework for Analyzing and Measuring Goal Drift in Language Model Agents
 
@@ -55,6 +58,11 @@ As language models (LMs) are increasingly deployed as autonomous agents, their r
 ## Authors
 
 [[Rauno Arike]], [[Eric Donoway|Elizabeth Donoway]], [[Henning Bartsch]], [[Martin Hobbhahn|Marius Hobbhahn]]
+
+## Data Description
+
+The paper introduces a novel framework for evaluating goal drift in LM agents using a controlled stock trading simulation environment where agents face competing objectives over extended context lengths exceeding 100,000 tokens. Four models (Claude 3.5 Sonnet, Claude 3.5 Haiku, GPT-4o, GPT-4o mini) are evaluated across baseline, adversarial pressure, and goal switching settings, revealing that all models exhibit some degree of goal drift correlating with increased susceptibility to pattern-matching behaviors.
+
 
 ## Notes
 

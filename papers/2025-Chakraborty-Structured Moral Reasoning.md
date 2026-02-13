@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Four moral datasets with value-grounded prompts"
 data_metrics: "Accuracy, coherence across ethical frameworks"
+LLM_assessed: "Llama-3, Llama-2, Mistral, Qwen, Phi"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Chakraborty-Structured Moral Reasoning.md"
 local_pdf: "[[PDFs/2025/2025-Chakraborty-Structured Moral Reasoning.pdf]]"
 normative_ethics_benchmark: Yes
@@ -116,6 +119,11 @@ The paper concludes that structured moral prompts grounded in value systems and 
 - Supervised distillation methodology for moral competence transfer
 - Detailed prompt templates for each value system and ethical theory combination
 - Analysis of prompt quality vs. model scale trade-offs
+
+## Data Description
+
+This paper presents a value-grounded evaluation framework for moral reasoning in LLMs, benchmarking 12 open-source models across four moral datasets (Value Kaleidoscope, UniMoral, ETHICS Deontology, MoralCoT). The evaluated models span three size tiers: small (LLaMA-3.2 3B, LLaMA-3.1 8B, Mistral-7B, Qwen 2.5 7B, Olmo-7B), medium (LLaMA-2 13B, Mistral-Nemo 12.2B, Qwen 2.5 14B, Phi-4 14.7B), and large (LLaMA-3.3 70B, Mistral Large 123B, Olmo-32B), using a taxonomy of prompts grounded in value systems, ethical theories, and cognitive reasoning strategies.
+
 
 ## Notes
 

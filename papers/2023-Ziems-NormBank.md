@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3"
+DATA_URL: "https://github.com/SALT-NLP/normbank"
 ---
 # NormBank: A Knowledge Bank of Situational Social Norms
 
@@ -63,6 +66,11 @@ We present NormBank, a knowledge bank of 155k situational norms. This resource i
 ## Authors
 
 [[Caleb Ziems]], [[Jane Dwivedi-Yu]], [[Yi-Chia Wang]], [[Alon Halevy]], [[Diyi Yang]]
+
+## Data Description
+
+NormBank is a knowledge bank of 155k situational social norms grounded within a multivalent sociocultural frame called SCENE, containing 63k unique constraints including settings, roles, attributes, and behaviors. The dataset was built through scalable human annotation on Amazon Mechanical Turk, bootstrapped with GPT-3 (text-davinci-002) for generating roles and behaviors. Neural models were trained and evaluated on knowledge completion and transfer learning tasks using the NormBank data.
+
 
 ## Notes
 

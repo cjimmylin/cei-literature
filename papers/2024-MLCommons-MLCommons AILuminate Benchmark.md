@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/mlcommons/ailuminate"
 pdf_extract: "PDF Extracts/2024/2024-MLCommons-MLCommons AILuminate Benchmark.md"
 local_pdf: "[[PDFs/2024/2024-MLCommons-MLCommons AILuminate Benchmark.pdf]]"
 ---
@@ -116,6 +119,11 @@ The paper concludes that AILUMINATE represents a crucial step toward establishin
 - Assessment standard documentation
 - Failure mode mitigation questionnaire (Appendix)
 - Technical infrastructure for benchmark operation (via MLCommons)
+
+## Data Description
+
+AILUMINATE v1.0 is the first comprehensive industry-standard benchmark for assessing AI-product risk and reliability, developed by MLCommons. It evaluates AI systems' resistance to prompts designed to elicit dangerous behavior across 12 hazard categories using practice and hidden prompt datasets with human-annotated ground truth. The benchmark employs an ensemble of fine-tuned LLM evaluators and a five-tier grading scale (Poor to Excellent), but the paper does not report evaluation results for specific named LLM models in the first 500 lines of the extract.
+
 
 ## Notes
 

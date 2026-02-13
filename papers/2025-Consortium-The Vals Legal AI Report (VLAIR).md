@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "[[2025-Consortium-The Vals Legal AI Report (VLAIR)]]"
 no_pdf_applicable: "true"
 ---
@@ -86,6 +89,11 @@ The study demonstrates that legal AI tools can match or exceed human lawyer perf
 ## Artifact Contributions
 
 The VLAIR report and benchmark methodology serve as industry resources for evaluating legal AI tools. The benchmark dataset of 500+ authentic legal samples was created for evaluation purposes.
+
+## Data Description
+
+This report benchmarks commercial legal AI tools (Harvey Assistant, CoCounsel, Vincent AI, Oliver) on over 500 samples from Am Law 100 firms across seven legal tasks. However, it evaluates proprietary legal AI products rather than testing specific LLMs from canonical model families, using an LLM-as-judge methodology for assessment.
+
 
 ## Notes
 

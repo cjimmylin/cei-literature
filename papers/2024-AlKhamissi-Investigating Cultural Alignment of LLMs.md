@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ abstract:
 ethics_perspective: "AI Safety & Alignment"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, Llama-2"
+DATA_URL: "https://github.com/bkhmsi/cultural-trends.git"
 ---
 # Investigating Cultural Alignment of LLMs
 
@@ -59,6 +62,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Size: Replicated sociological surveys across regions
+
+## Data Description
+
+The study simulates the World Values Survey (WVS-7) by prompting LLMs with 30 culturally diverse questions using personas derived from 303 matched participants each from Egypt and the United States. Four LLMs are evaluated: GPT-3.5 (gpt-3.5-turbo-1106), mT0-XXL, LLaMA-2-13B-Chat, and AceGPT-13B-Chat, measuring cultural alignment against actual survey responses using soft and hard similarity metrics.
 
 ## Notes
 

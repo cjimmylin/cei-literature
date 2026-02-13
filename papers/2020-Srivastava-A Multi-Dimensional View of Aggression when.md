@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/arjitsrivastava/MultidimensionalViewOpinionMining"
 ---
 # A Multi-Dimensional View of Aggression when voicing Opinion
 
@@ -53,6 +56,11 @@ The advent of social media has immensely proliferated the amount of opinions and
 ## Authors
 
 [[Arjit Srivastava]], [[Avijit Vajpayee]], [[Syed Sarfaraz Akhtar]], [[Naman Jain]], [[Vinay Singh]], [[Manish Shrivastava]]
+
+## Data Description
+
+The dataset consists of 1,001 Hindi-English code-mixed tweets on the topic of 2016 Indian banknote demonetisation, annotated across multiple dimensions including stance (favourable/against/neutral), aggression (overt/covert/non-aggressive), hate speech, figurative language usage (sarcasm, puns, metaphors), and emotion arousal on a 5-point scale. Three domain expert annotators labeled each dimension, with inter-annotator agreement measured via Fleiss's kappa ranging from 0.47 to 0.84.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3, Flan-T5"
+DATA_URL: "https://huggingface.co/datasets/kavelrao/d-Rules-of-Thumb"
 pdf_extract: "PDF Extracts/2023/2023-Rao-What Makes it Ok to Set a Fire Iterative.md"
 local_pdf: "[[PDFs/2023/2023-Rao-What Makes it Ok to Set a Fire Iterative.pdf]]"
 ---
@@ -46,6 +49,11 @@ local_pdf: "[[PDFs/2023/2023-Rao-What Makes it Ok to Set a Fire Iterative.pdf]]"
 ## Abstract
 
 Moral or ethical judgments rely heavily on the specific contexts in which they occur. Understanding varying shades of defeasible contextualizations (i.e., additional information that strengthens or attenuates the moral acceptability of an action) is critical to accurately represent the subtlety and intricacy of grounded human moral judgment in real-life scenarios. We introduce defeasible moral reasoning: a task to provide grounded contexts that make an action more or less morally acceptable, along with commonsense rationales that justify the reasoning. To elicit high-quality task data, we take an iterative self-distillation approach that starts from a small amount of unstructured seed knowledge from GPT-3 and then alternates between (1) self-distillation from student models; (2) targeted filtering with a critic model trained by human judgment (to boost validity) and NLI (to boost diversity); (3) self-imitation learning (to amplify the desired data quality). This process yields a student model that produces defeasible contexts with improved validity, diversity, and defeasibility. From this model we distill a high-quality dataset, <tex-math>\delta</tex-math>-Rules-of-Thumb, of 1.2M entries of contextualizations and rationales for 115K defeasible moral actions rated highly by human annotators 85.9% to 99.8% of the time. Using <tex-math>\delta</tex-math>-RoT we obtain a final student model that wins over all intermediate student models by a notable margin.
+
+## Data Description
+
+The paper introduces delta-RULES-OF-THUMB (delta-ROT), a dataset of 1.2 million entries of contextualizations and rationales for 115K defeasible moral actions. The dataset was created through iterative self-distillation starting from GPT-3 seed knowledge, with Flan-T5 (3B) as the student model. Human annotators rated the data as highly valid (85.9% for contexts, 98.5% for rationales) and linguistically correct (99.8%).
+
 
 ## Notes
 

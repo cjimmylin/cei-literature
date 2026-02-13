@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "As AI advances, aligning it with diverse human and societal values gr
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini, Llama-3, Gemma, DeepSeek, o3"
+DATA_URL: "https://github.com/huashen218/value_action_gap"
 ---
 # ValueCompass: A Framework for Measuring Contextual Value Alignment Between Humans and LLMs
 
@@ -62,6 +65,10 @@ As AI advances, aligning it with diverse human and societal values grows critica
 ## Dataset Information
 
 Evaluations across 4 real-world scenarios (collaborative writing, education, public sectors, healthcare); 28 contexts from 4 topics and 7 countries (US, UK, India, Germany, France, Canada, Australia);
+
+## Data Description
+
+The ValueCompass dataset consists of contextual value alignment instruments applied to five LLMs and 112 human participants from seven countries across four real-world scenarios (collaborative writing, education, public sectors, healthcare). The dataset contains 7,840 LLM value scores and 6,272 human value scores based on Schwartz's 56 universal values, with eight prompt variants per question.
 
 ## Notes
 

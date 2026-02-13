@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, DeepSeek"
+DATA_URL: "NA"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ---
@@ -54,6 +57,11 @@ DATE_ADDED: 20260207
 ## Abstract
 
 The rapid advancement and adaptability of Large Language Models (LLMs) highlight the need for moral consistency, the capacity to maintain ethically coherent reasoning across varied contexts. Existing alignment frameworks, structured approaches designed to align model behavior with human ethical and social norms, often rely on static datasets and post-hoc evaluations, offering limited insight into how ethical reasoning may evolve across different contexts or temporal scales. This study presents the Moral Consistency Pipeline (MoCoP), a dataset-free, closed-loop framework for continuously evaluating and interpreting the moral stability of LLMs. MoCoP combines three supporting layers: (i) lexical integrity analysis, (ii) semantic risk estimation, and (iii) reasoning-based judgment modeling within a self-sustaining architecture that autonomously generates, evaluates, and refines ethical scenarios without external supervision. Our empirical results on GPT-4-Turbo and DeepSeek suggest that MoCoP effectively captures longitudinal ethical behavior, revealing a strong inverse relationship between ethical and toxicity dimensions (correlation rET = -0.81, p value less than 0.001) and a near-zero association with response latency (correlation rEL approximately equal to 0). These findings demonstrate that moral coherence and linguistic safety tend to emerge as stable and interpretable characteristics of model behavior rather than short-term fluctuations. Furthermore, by reframing ethical evaluation as a dynamic, model-agnostic form of moral introspection, MoCoP offers a reproducible foundation for scalable, continuous auditing and advances the study of computational morality in autonomous AI systems.
+
+## Data Description
+
+The Moral Consistency Pipeline (MoCoP) is a dataset-free, closed-loop framework that autonomously generates 500 ethical scenarios across five moral domains (fairness, privacy, transparency, coercion, alignment) and continuously evaluates LLM moral stability. Empirical experiments were conducted on GPT-4-Turbo and DeepSeek, measuring lexical integrity, semantic risk, and reasoning-based judgment across approximately 1,000 model responses.
+
 
 ## Notes
 

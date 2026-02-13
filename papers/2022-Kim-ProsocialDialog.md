@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3, InstructGPT, GPT-2, T5"
+DATA_URL: "https://hyunw.kim/prosocial-dialog"
 DATE_ADDED: 20260207
 ---
 # ProsocialDialog: A Prosocial Backbone for Conversational Agents
@@ -65,6 +68,11 @@ Most existing dialogue systems fail to respond properly to potentially unsafe us
 ## Authors
 
 [[Hyunwoo Kim]], [[Youngjae Yu]], [[Liwei Jiang]], [[Ximing Lu]], [[Daniel Khashabi]], [[Gunhee Kim]], [[Yejin Choi]], [[Maarten Sap]]
+
+## Data Description
+
+PROSOCIALDIALOG is a large-scale dataset of 58K dialogues where a speaker responds prosocially to potentially unsafe conversational situations, grounded in rules-of-thumb (RoTs) from Social Chemistry. GPT-3 generates problematic utterances in the data collection pipeline. GPT-3, Instruct GPT-3, GPT-2, DialoGPT, and T5 are evaluated as baselines in safety classification and response generation tasks (Tables 2-4), with head-to-head human evaluations against the trained Prost model.
+
 
 ## Notes
 

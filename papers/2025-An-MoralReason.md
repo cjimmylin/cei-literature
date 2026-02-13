@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework annotated dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "Qwen"
+DATA_URL: "https://huggingface.co/datasets/zankjhk/Moral-Reason-QA"
 normative_ethics_benchmark: Yes
 ---
  MoralReason: Generalizable Moral Decision Alignment For LLM Agents Using Reasoning-Level Reinforcement Learning
@@ -92,6 +95,11 @@ Training just the *answer* is brittle for moral agents as it leads to surface-le
 
 *   **Moral-Reason-QA Dataset**: 680 Scenarios with 3x reasoning traces (U, D, V) each.
 *   **Training Pipeline**: GRPO implementation for moral steering.
+
+## Data Description
+
+The paper introduces Moral-Reason-QA, a dataset of 2,040 entries extending 680 human-annotated high-ambiguity moral scenarios from MoralChoice with framework-specific reasoning traces across utilitarian, deontological, and virtue ethics. Qwen-3-4B is trained and evaluated using Group Relative Policy Optimization (GRPO) to test out-of-distribution moral decision alignment, with softmax-normalized alignment scores measuring generalization to unseen moral scenarios.
+
 
 ## Notes
 

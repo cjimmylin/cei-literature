@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 ethics_perspective: "AI Safety & Alignment"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2, Mistral"
+DATA_URL: "https://github.com/SALT-NLP/unintended-impacts-of-alignment"
 ---
 # Unintended Impacts of LLM Alignment on Global Representation
 
@@ -64,6 +67,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Size: Multi-axis evaluation across dialects, languages, global opinions
+
+## Data Description
+
+This paper evaluates 9 distinct LLMs from two model families (Llama 2 7B and Mistral v0.1 7B) across different alignment stages on three axes of global representation: English dialects, multilingualism, and global opinions. The study includes a new dataset of 554 opinionated questions about countries from r/AskReddit and uses existing benchmarks including MD3 for dialect evaluation and TyDiQA for multilingual question answering.
 
 ## Notes
 

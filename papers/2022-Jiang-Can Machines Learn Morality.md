@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3, T5"
+DATA_URL: "https://delphi.allenai.org"
 ---
 # Can Machines Learn Morality? The Delphi Experiment
 
@@ -63,6 +66,11 @@ As AI systems become increasingly powerful and pervasive, there are growing conc
 ## Authors
 
 [[Liwei Jiang]], [[Jena D. Hwang]], [[Chandra Bhagavatula]], [[Ronan Le Bras]], [[Jenny Liang]], [[Jesse Dodge]], [[Keisuke Sakaguchi]], [[Maxwell Forbes]], [[Jon Borchardt]], [[Saadia Gabriel]], [[Yulia Tsvetkov]], [[Oren Etzioni]], [[Maarten Sap]], [[Regina Rini]], [[Yejin Choi]]
+
+## Data Description
+
+The paper introduces the COMMONSENSE NORM BANK, a unified collection of 1.7 million examples of ethical judgments compiled from five source datasets covering free-form ethical situations, agreement/disagreement, and moral acceptability. Delphi, based on UNICORN (a T5-11B model), is trained on this data. GPT-3 is evaluated as a zero-shot, 3-shot, and 30-shot baseline for comparison.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "Claude, GPT-4, DeepSeek"
+DATA_URL: "https://github.com/ArjunPanickssery/math_problems_debate"
 ---
 # A Scalable Oversight Benchmark
 
@@ -57,6 +60,11 @@ As AI agents surpass human capabilities, scalable oversight -- the problem of ef
 ## Authors
 
 [[Abhimanyu Pallavi Sudhir]], [[Jackson Kaunismaa]], [[Arjun Panickssery]]
+
+## Data Description
+
+The paper introduces a scalable oversight benchmark using the GSM8K dataset of grade-school math word problems. Experiments were conducted with one judge model (gpt-4o-mini) and five agent models (claude-3-5-sonnet-20241022, claude-3-5-haiku-20241022 with and without tools, and deepseek-v3) across 100 questions. The benchmark evaluates scalable oversight protocols (Debate, Consultancy, Propaganda) using the agent score difference (ASD) metric to measure how effectively a mechanism advantages truth-telling over deception.
+
 
 ## Notes
 

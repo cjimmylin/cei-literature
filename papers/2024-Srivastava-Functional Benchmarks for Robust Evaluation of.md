@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Mixtral, Llama-2, Qwen"
+DATA_URL: "https://github.com/consequentai/fneval/"
 ---
 # Functional Benchmarks for Robust Evaluation of Reasoning Performance, and the Reasoning Gap
 
@@ -62,6 +65,11 @@ We propose a framework for robust evaluation of reasoning capabilities of langua
 ## Authors
 
 [[Saurabh Srivastava]], [[Annarose M. B|Annarose M B]], [[Anto P]], [[Shashank Menon]], [[Ajay Sukumar]], [[Adwaith Samod T]], [[Alan Philipose]], [[Stevin Prince]], [[Sooraj Thomas]]
+
+## Data Description
+
+The paper introduces functional benchmarks for reasoning evaluation, converting static question-answer pairs into parameterized code that generates infinite novel snapshots preserving the same reasoning pattern. The authors functionalized 41.2% (2,060 of 5,000 problems) of the MATH benchmark into MATH(), releasing three quarterly snapshots. Evaluation covers 13 state-of-the-art models (4 closed-weight and 9 open-weight) and reveals reasoning gaps of 58-80% between static and functional accuracy, quantifying the gap between memorization and genuine reasoning.
+
 
 ## Notes
 

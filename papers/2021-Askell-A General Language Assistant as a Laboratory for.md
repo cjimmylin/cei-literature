@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # A General Language Assistant as a Laboratory for Alignment
 
@@ -64,6 +67,11 @@ Given the broad capabilities of large language models, it should be possible to 
 ## Authors
 
 [[Amanda Askell]], [[Yuntao Bai]], [[Anna Chen]], [[Dawn Drain]], [[Deep Ganguli]], [[Tom Henighan]], [[Andy Jones]], [[Nicholas Joseph]], [[Ben Mann]], [[Nova DasSarma]], [[Nelson Elhage]], [[Zac Hatfield-Dodds]], [[Danny Hernandez]], [[Jackson Kernion]], [[Kamal Ndousse]], [[Catherine Olsson]], [[Dario Amodei]], [[Tom Brown]], [[Jack Clark]], [[Sam McCandlish]], [[Chris Olah]], [[Jared Kaplan]]
+
+## Data Description
+
+The paper studies alignment techniques using a suite of decoder-only Transformer language models ranging from 13M to 52B parameters trained by Anthropic on filtered Common Crawl and internet books data. It evaluates prompting, context distillation, imitation learning, and preference modeling across multiple alignment-relevant evaluations including HHH (helpful, honest, harmless), TruthfulQA, HellaSwag, code synthesis, and ethics benchmarks, using datasets from Stack Exchange, Reddit, and Wikipedia for preference model pre-training.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,8 @@ abstract:
 research_topic: "Other"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 no_pdf_applicable: "true"
 ---
 # Awesome-LLM-Eval Repository (Meta-Resource)
@@ -58,6 +61,10 @@ no_pdf_applicable: "true"
 ## Dataset Information
 
 See report
+
+## Data Description
+
+No PDF extract available for analysis.
 
 ## Notes
 

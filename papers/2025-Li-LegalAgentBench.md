@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "With the increasing intelligence and autonomy of LLM agents, their po
 research_topic: "Machine Learning"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4o, GPT-4o mini, GPT-3.5, Claude, Llama-3, Qwen"
+DATA_URL: "https://github.com/CSHaitao/LegalAgentBench"
 ---
 # LegalAgentBench
 
@@ -63,6 +66,10 @@ With the increasing intelligence and autonomy of LLM agents, their potential app
 ## Dataset Information
 
 300 carefully annotated tasks
+
+## Data Description
+
+LegalAgentBench is a benchmark for evaluating LLM agents in the Chinese legal domain, comprising 17 real-world corpora (14 tabular databases and 3 document collections) and 37 specialized tools. It includes 300 carefully annotated tasks spanning multi-hop reasoning and legal writing at varying difficulty levels (1-hop to 5-hop). Eight LLMs were evaluated using three agent methods (Plan-and-Solve, Plan-and-Execute, ReAct), with both success rate and fine-grained progress rate metrics.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "MCT and MFQ responses from humans and LLMs"
 data_metrics: "Moral competence scores, MFQ foundation scores"
+LLM_assessed: "ChatGPT, GPT-4"
+DATA_URL: "NA"
 local_pdf: "[[PDFs/2025/2025-Sameer-Insights into Moral Reasoning of AI.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Sameer-Insights into Moral Reasoning of AI.md"
 ---
@@ -48,6 +51,11 @@ pdf_extract: "PDF Extracts/2025/2025-Sameer-Insights into Moral Reasoning of AI.
 ## Abstract
 
 This study investigates the moral reasoning capabilities of large language models (LLMs), focusing on biases and the extent to which outputs reflect training data patterns rather than genuine reasoning. Using the Moral Competence Test (MCT) and the Moral Foundations Questionnaire (MFQ), the researchers compared responses from human participants and LLM-based chatbots like ChatGPT. MCT results show that humans consistently outperform LLMs, indicating higher moral competence. MFQ responses from LLMs emphasize harm/care and fairness/reciprocity, but under-represent loyalty, authority, and purity foundations.
+
+## Data Description
+
+The study uses the Moral Competence Test (MCT) and Moral Foundation Questionnaire (MFQ-20) to compare moral reasoning between 53 human participants and three LLM-based chatbots: ChatGPT (GPT-3.5), Google Bard, and Bing Chat (GPT-4). Each chatbot was tested across 55 runs with zero-shot prompting, and human participants provided 2,438 responses. Results were analyzed using one-way ANOVA across C-scores and five moral foundations.
+
 
 ## Notes
 

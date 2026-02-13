@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "We present a new challenge to examine whether large language models u
 research_topic: "Machine Learning"
 data_description: "Benchmark dataset"
 data_metrics: "383 questions"
+LLM_assessed: "GPT-3.5, Llama-2, T5"
+DATA_URL: "https://huggingface.co/datasets/socialnormdataset/social"
 ---
 # Social (Measuring Social Norms of LLMs)
 
@@ -62,6 +65,10 @@ We present a new challenge to examine whether large language models understand s
 ## Dataset Information
 
 12,383 questions covering 402 social norm skills; multiple-choice format aligned with K-12 educational standards
+
+## Data Description
+
+The Social benchmark is a large-scale dataset for examining LLMs' understanding of fundamental social norms, consisting of 12,383 multi-choice questions across 402 skills spanning social studies and language arts, designed following the K-12 curriculum. Models tested include GPT3.5-Turbo, LLaMA2-Chat (70B, 13B, 7B variants), and UnifiedQA (T5-based), with a proposed multi-agent framework called SocialAgent that improves LLM performance to be on par with elementary student benchmarks.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_SNOSWELL2025
@@ -29,6 +30,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Survey of 69 LLM ethics evaluation papers"
 data_metrics: N/A
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Beyond Verdicts: Evaluating Language Model Moral Competence
 
@@ -76,6 +79,11 @@ Poor moral reasoning in deployed systems could lead to:
 - Harmful advice
 - Erosion of trust in AI assistance
 - Unethical autonomous agent behavior
+
+## Data Description
+
+This paper is a survey and meta-analysis of 69 papers (2020-2025) evaluating LLM ethical competence. It does not introduce or utilize a specific dataset or benchmark for LLM assessment, but rather develops a taxonomy categorizing evaluations across datasets, behaviors, and metrics to map the methodological landscape of LLM moral competence evaluation.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large Language Models (LLMs) have shown remarkable capabilities as au
 research_topic: "Machine Learning"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-3"
+DATA_URL: "https://github.com/MultiagentBench/MARBLE"
 ---
 # MultiAgentBench (MARBLE): Evaluating Collaboration and Competition of LLM Agents
 
@@ -62,6 +65,10 @@ Large Language Models (LLMs) have shown remarkable capabilities as autonomous ag
 ## Dataset Information
 
 Diverse multi-agent interactive scenarios spanning collaborative coding to gaming; milestone-based KPIs for measuring collaboration quality
+
+## Data Description
+
+MultiAgentBench is a comprehensive benchmark for evaluating LLM-based multi-agent systems across six diverse interactive scenarios: research collaboration, Minecraft building, database error analysis, coding challenges, bargaining, and Werewolf. The benchmark includes 100 test cases per task with variations in topics, structures, and objectives, measuring both task completion performance and coordination quality using milestone-based key performance indicators. It supports four coordination protocols (star, chain, tree, graph) and multiple reasoning strategies.
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Language Models (LMs) are typically tuned with human preferences to p
 ethics_perspective: "Social & Cultural Values"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-3, Qwen, Gemma, Mistral"
+DATA_URL: "https://github.com/Guochry/CARE"
 ---
 # CARE -- Multilingual Human Preference Learning for Cultural Awareness
 
@@ -62,6 +65,10 @@ Language Models (LMs) are typically tuned with human preferences to produce help
 ## Dataset Information
 
 Size: 3,490 culturally specific questions + 31,700 LLM/human-written responses with human preference judgments
+
+## Data Description
+
+CARE is a multilingual human preference dataset containing 3,490 culturally specific questions and 31,700 responses with human judgments across Chinese, Arabic, and Japanese cultures. Nine LLMs were tested including Llama-3.3-70B, Llama-3.1-8B, Qwen-2.5-72B, Qwen-2.5-7B, Gemma-2-27B, Gemma-2-9B, Mistral-Large, Mistral-7B, and GPT-4o, evaluated on five cultural dimensions (entities, opinion, social norms, commonsense, literacy) using preference optimization methods like DPO, KTO, and SimPO.
 
 ## Notes
 

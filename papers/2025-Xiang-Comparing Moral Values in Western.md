@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3"
+DATA_URL: "https://github.com/ChunhuaLiu596/Word_Association_Generation"
 ---
 # Comparing Moral Values in Western English-speaking societies and LLMs with Word Associations
 
@@ -94,6 +97,11 @@ Directly asking an LLM "Are you moral?" yields rehearsed answers. probing its fr
 ## Authors
 
 [[Chaoyi Xiang]], [[Chunhua Liu]], [[Simon De Deyne]], [[Lea Frermann]]
+
+## Data Description
+
+This study creates a large dataset of LLM-generated word associations using Llama-3.1-8B-Instruct, resembling an existing human word association dataset (Small World of Words) with over 12,000 cue words. Each cue was presented 100 times to the LLM generating up to three responses per cue. The dataset is used to construct Global Moral Networks by propagating moral values from Moral Foundation Theory seed words through the association graphs, enabling comparison of moral conceptualizations between English-speaking humans and the LLM.
+
 
 ## Notes
 

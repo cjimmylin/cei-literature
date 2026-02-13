@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "33.4 gb"
+LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, T5"
+DATA_URL: "https://bird-bench.github.io/"
 ---
 # Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs
 
@@ -64,6 +67,11 @@ Text-to-SQL parsing, which aims at converting natural language questions into ex
 ## Authors
 
 [[Jinyang Li]], [[Binyuan Hui]], [[Ge Qu]], [[Jiaxi Yang]], [[Binhua Li]], [[Bowen Li]], [[Bailin Wang]], [[Bowen Qin]], [[Rongyu Cao]], [[Ruiying Geng]], [[Nan Huo]], [[Xuanhe Zhou]], [[Chenhao Ma]], [[Guoliang Li]], [[Kevin C. C. Chang]], [[Fei Huang]], [[Reynold Cheng]], [[Yongbin Li]]
+
+## Data Description
+
+BIRD is a large-scale text-to-SQL benchmark containing 12,751 text-to-SQL pairs across 95 databases with a total size of 33.4 GB spanning 37 professional domains. The benchmark emphasizes challenges of dirty and noisy database values, external knowledge grounding, and SQL execution efficiency. It includes a novel Valid Efficiency Score (VES) metric and databases sourced from Kaggle, CTU Prague Relational Learning Repository, and open tables.
+
 
 ## Notes
 

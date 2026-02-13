@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3, text-davinci, InstructGPT"
+DATA_URL: "https://github.com/tatsu-lab/opinions_qa"
 publication: ICML 2023
 DATE_ADDED: 20260207
 ---
@@ -62,6 +65,11 @@ Language models (LMs) are increasingly being used in open-ended contexts, where 
 ## Authors
 
 [[Shibani Santurkar]], [[Esin Durmus]], [[Faisal Ladhak]], [[Cinoo Lee]], [[Percy Liang]], [[Tatsunori Hashimoto]]
+
+## Data Description
+
+The paper introduces OpinionQA, a dataset of 1,498 multiple-choice questions from Pew Research's American Trends Panels spanning 23 topics (abortion, automation, climate change, guns, etc.) with human opinion distributions from 60 US demographic groups. Nine LMs were evaluated (350M to 178B parameters from OpenAI and AI21 Labs), including base models (ada, davinci, j1-grande, j1-jumbo) and human feedback-tuned models (text-davinci-001/002/003, j1-grande-v2-beta), measuring representativeness, steerability, and consistency of LM opinions against human survey responses.
+
 
 ## Notes
 

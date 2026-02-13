@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/Liza-Tennant/moral_MARL"
 ---
  Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents
 
@@ -88,6 +91,11 @@ The authors conclude that AI safety should not aim for a single "perfectly align
 
 *   **Moral Interaction Simulator**: An open-source ABM framework for studying multi-agent ethical dynamics.
 *   **Scenario Library**: A collection of game-theoretic dilemmas for testing agent morality.
+
+## Data Description
+
+This paper uses simulated environments for reinforcement learning agents in an Iterated Prisoner's Dilemma setting with partner selection. The study involves populations of 16 DQN-based agents with diverse moral reward functions (utilitarian, deontological, virtue-based, and anti-social counterparts) interacting over 30,000 episodes. No LLM-specific dataset or benchmark is introduced.
+
 
 ## Notes
 

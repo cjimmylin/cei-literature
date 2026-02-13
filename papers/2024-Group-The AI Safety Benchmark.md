@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/mlcommons/modelbench"
 ---
 # The AI Safety Benchmark
 
@@ -57,6 +60,11 @@ This paper introduces v0.5 of the AI Safety Benchmark, which has been created by
 ## Authors
 
 [[Bertie Vidgen]], [[Ameeta Agrawal|Adarsh Agrawal]], [[Ahmed M. Ahmed]], [[Victor Akinwande]], [[Namir Al-Nuaimi]], [[Najla Alfaraj]], [[Elie Alhajjar]], [[Lora Aroyo]], [[Trupti Bavalatti]], [[Max Bartolo]], [[Borhane Blili-Hamelin]], [[Kurt Bollacker]], [[Rishi Bomassani]], [[Marisa Ferrara Boston]], [[Siméon Campos]], [[Kal Chakra]], [[Canyu Chen]], [[Chad Coleman|Cody Coleman]], [[Zacharie Delpierre Coudert]], [[Leon Derczynski]], [[Debojyoti Dutta]], [[Ian Eisenberg]], [[James Ezick]], [[Heather Frase]], [[Brian Fuller]], [[Ram Gandikota]], [[Agasthya Gangavarapu]], [[Ananya Gangavarapu]], [[James Gealy]], [[Reshmi Ghosh|Rajat Ghosh]], [[James Goel]], [[Usman Gohar]], [[Sujata Goswami]], [[Scott A. Hale]], [[Wiebke Hutiri]], [[Joseph Marvin Imperial]], [[Surgan Jandial]], [[Nick Judd]], [[Felix Juefei-Xu]], [[Foutse Khomh]], [[Bhavya Kailkhura]], [[Hannah Rose Kirk]], [[Kevin Klyman]], [[Chris Knotz]], [[Michael Kuchnik]], [[Shachi H. Kumar]], [[Srijan Kumar]], [[Chris Lengerich]], [[Bo Li]], [[Zeyi Liao]], [[Eileen Peters Long]], [[Victor Lu]], [[Sarah Luger]], [[Yifan Mai]], [[Priyanka Mary Mammen]], [[Kelvin Manyeki]], [[Sean McGregor]], [[Virendra Mehta]], [[Shafee Mohammed]], [[Emanuel Moss]], [[Lama Nachman]], [[Dinesh Jinenhally Naganna]], [[Amin Nikanjam]], [[Besmira Nushi]], [[Luis Oala]], [[Iftach Orr]], [[Alicia Parrish]], [[Cigdem Patlak]], [[William Pietri]], [[Forough Poursabzi-Sangdeh]], [[Eleonora Presani]], [[Fabrizio Puletti]], [[Paul Röttger]], [[Saurav Sahay]], [[Tim Santos]], [[Nino Scherrer]], [[Alice Schoenauer Sebag]], [[Patrick Schramowski]], [[Abolfazl Shahbazi]], [[Vin Sharma]], [[Xudong Shen]], [[Vamsi Sistla]], [[Leonard Tang]], [[Davide Testuggine]], [[Vithursan Thangarasa]], [[Elizabeth Anne Watkins]], [[Rebecca Weiss]], [[Chris Welty]], [[Tyler Wilbers]], [[Adina Williams]], [[Carole-Jean Wu]], [[Poonam Yadav]], [[Xianjun Yang]], [[Yi Zeng]], [[Wenhui Zhang]], [[Fedor Zhdanov]], [[Jian-Qiao Zhu|Jiacheng Zhu]], [[Percy Liang]], [[Peter Mattson]], [[Joaquin Vanschoren]]
+
+## Data Description
+
+The AI Safety Benchmark v0.5 from MLCommons is a safety evaluation framework comprising 43,090 template-generated test items covering seven of 13 defined hazard categories for chat-tuned language models. The benchmark covers a single use case (adult chatting with a general-purpose assistant in English) with three persona types (typical, malicious, and vulnerable users). Over a dozen openly available chat-tuned models were tested but all results are anonymized, and the benchmark includes an open-source evaluation tool (ModelBench) with a grading system.
+
 
 ## Notes
 

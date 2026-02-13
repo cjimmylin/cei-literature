@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://betterbench.stanford.edu"
 ---
 # BetterBench: Assessing AI Benchmarks, Uncovering Issues and Opportunities
 
@@ -56,6 +59,11 @@ AI models are increasingly prevalent in high-stakes environments, necessitating 
 ## Authors
 
 [[Anka Reuel]], [[Amelia Hardy]], [[Chandler Smith]], [[Max Lamparth]], [[Malcolm Hardy]], [[Mykel J. Kochenderfer]]
+
+## Data Description
+
+This paper presents an assessment framework with 46 best practices across the AI benchmark lifecycle and evaluates 24 AI benchmarks (16 foundation model and 8 non-foundation model benchmarks) against it. The assessment covers benchmark design, implementation, documentation, and maintenance stages, providing scores and a checklist for minimum quality assurance.
+
 
 ## Notes
 

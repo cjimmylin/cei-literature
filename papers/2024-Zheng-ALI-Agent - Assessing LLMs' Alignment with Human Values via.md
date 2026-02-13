@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ abstract: "Large Language Models (LLMs) can elicit unintended and even harmful c
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Gemini, Vicuna, Llama-2"
+DATA_URL: "https://github.com/SophieZheng998/ALI-Agent"
 normative_ethics_benchmark: Borderline
 ---
 # ALI-Agent -- Assessing LLMs' Alignment with Human Values via Agent-based Evaluation
@@ -65,6 +68,10 @@ Large Language Models (LLMs) can elicit unintended and even harmful content when
 ## Dataset Information
 
 Tests across three aspects of human values: stereotypes (DecodingTrust, CrowS-Pairs), morality (ETHICS, Social Chemistry 101), and legality (Singapore RTSR, AdvBench)
+
+## Data Description
+
+ALI-Agent is an agent-based evaluation framework that uses LLM-powered autonomous agents to conduct adaptive alignment assessments of LLMs across stereotypes, morality, and legality. The framework operates through Emulation and Refinement stages, testing 10 mainstream LLMs including GPT-4, GPT-3.5, Gemini-Pro, ChatGLM3, Vicuna (7B/13B/33B), and Llama-2 (7B/13B/70B) on six datasets, using a fine-tuned Llama-2 evaluator and GPT-4 as the core controller.
 
 ## Notes
 

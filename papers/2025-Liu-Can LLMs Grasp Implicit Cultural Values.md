@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning text corpus for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4o, o1, o3, Qwen, Llama-3, DeepSeek"
+DATA_URL: "https://github.com/uscnlp-lime/CQ-Bench"
 publication: arXiv
 DATE_ADDED: 20260207
 ---
@@ -91,6 +94,11 @@ Implicit CQ is a distinct capability frontier that is not automatically captured
 *   **CQ-Bench Dataset**: A benchmark for implicit cultural reasoning with 500+ scenarios.
 *   **Evaluation Scripts**: Code for the 3 tasks (Attitude, Selection, Extraction).
 *   **Fine-tuned Models**: Weights for CQ-aligned LLaMA models.
+
+## Data Description
+
+CQ-Bench is a benchmark for assessing LLMs' cultural intelligence through their ability to infer implicit cultural values from conversational contexts. It consists of 1,000 multi-character conversation-based stories embedding values from the World Values Survey and GlobalOpinions across political, religious, social, and ethical topics. The benchmark includes three tasks of increasing complexity: attitude detection, value selection, and value extraction, evaluated on both open-source and closed-source models.
+
 
 ## Notes
 

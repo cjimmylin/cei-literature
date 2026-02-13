@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/valuebyte-ai/Awesome-LLM-Psychometrics"
 ---
 # Large Language Model Psychometrics: A Systematic Review of Evaluation, Validation, and Enhancement
 
@@ -93,6 +96,11 @@ LLM Psychometrics is a necessary evolution of AI evaluation. We need to move bey
 ## Authors
 
 [[Haoran Ye]], [[Jing Jin]], [[Yuhang Xie]], [[Xin Zhang]], [[Guojie Song]]
+
+## Data Description
+
+This is a systematic review paper that surveys the interdisciplinary field of LLM Psychometrics, covering evaluation, validation, and enhancement of LLMs through psychometric instruments, theories, and principles. The paper does not introduce or utilize a specific dataset or benchmark for LLM assessment but provides a curated repository of LLM psychometric resources.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Characteristics of Harmful Text: Towards Rigorous Benchmarking of Language Models
 
@@ -64,6 +67,11 @@ Large language models produce human-like text that drives a growing number of ap
 ## Authors
 
 [[Maribeth Rauh]], [[John Mellor]], [[Jonathan Uesato]], [[Po-Sen Huang]], [[Johannes Welbl]], [[Laura Weidinger]], [[Sumanth Dathathri]], [[Amelia Glaese]], [[Geoffrey Irving]], [[Iason Gabriel]], [[William Isaac]], [[Lisa Anne Hendricks]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a framework paper that outlines six characteristics of harmful text (harm definition, representational/allocational/capability fairness, instance vs. distributional harm, context, harm recipient, and demographics) for designing rigorous language model benchmarks, with a case study analysis of the Perspective API toxicity classifier.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4o, GPT-3.5, Llama-3, Qwen"
+DATA_URL: "https://anonymous.4open.science/r/OpenDeception-C187/"
 DATE_ADDED: 20260207
 ---
 # OpenDeception: Benchmarking and Investigating AI Deceptive Behaviors via Open-ended Interaction Simulation
@@ -65,6 +68,11 @@ As the general capabilities of large language models (LLMs) improve and agent ap
 ## Authors
 
 [[Yichen Wu]], [[Xudong Pan]], [[Geng Hong]], [[Min Yang]]
+
+## Data Description
+
+OpenDeception is an AI deception evaluation benchmark comprising 50 real-world-inspired open-ended scenarios across five deception types (telecommunications fraud, product promotion, personal safety, emotional deception, privacy stealing). Each type contains 10 concrete scenarios with defined AI deceiver and user roles. The benchmark evaluates 11 LLMs including GPT-4o, GPT-3.5-turbo, Llama-3.1-8B/70B-Instruct, Qwen2-7B/72B-Instruct, and Qwen2.5-3B/7B/14B/32B/72B-Instruct through agent-based multi-turn dialogue simulations.
+
 
 ## Notes
 

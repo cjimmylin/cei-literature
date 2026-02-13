@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Technical Risks of (Lethal) Autonomous Weapons Systems
 
@@ -86,6 +89,11 @@ The authors conclude that the core issue with (L)AWS is that technical risks fun
 ## Artifact Contributions
 
 None mentioned - this is a policy whitepaper with no datasets or code released.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a whitepaper analyzing technical risks of lethal autonomous weapons systems, discussing machine learning algorithms conceptually (supervised, unsupervised, reinforcement learning) without testing any specific LLM.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Alpaca, Vicuna, Qwen, Falcon"
+DATA_URL: "https://www.CLUEbenchmarks.com"
 ---
 # SC-Safety: A Multi-round Open-ended Question Adversarial Safety Benchmark for Large Language Models in Chinese
 
@@ -64,6 +67,11 @@ Large language models (LLMs), like ChatGPT and GPT-4, have demonstrated remarkab
 ## Authors
 
 [[Liang Xu]], [[Kangkang Zhao]], [[Lei Zhu]], [[Hang Xue]]
+
+## Data Description
+
+SC-Safety (SuperCLUE-Safety) is a multi-round adversarial safety benchmark for Chinese LLMs containing 4,912 open-ended question pairs covering 20+ safety sub-dimensions. The benchmark encompasses three capabilities: Traditional Safety, Responsible AI, and Robustness Against Instruction Attacks. Thirteen major LLMs supporting Chinese were evaluated, including GPT-4, GPT-3.5-turbo, Llama-2-13B-Chat, Chinese-Alpaca-2-13B, Qwen-7B-Chat, Baichuan2-13B-Chat, ChatGLM2, and OpenBuddy-Llama2-70B.
+
 
 ## Notes
 

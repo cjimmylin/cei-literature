@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 ethics_perspective: "General Ethics"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4o, DeepSeek, Llama-3, Gemini, Claude, Mistral, Qwen"
+DATA_URL: "https://isir-wuya.github.io/Multi-step-Moral-Dilemmas/"
 ---
 # The Staircase of Ethics (Multi-step Moral Dilemmas)
 
@@ -62,6 +65,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 3,302 five-stage moral dilemmas (Multi-step Moral Dilemmas / MMDs dataset); each dilemma contains 5 progressive stages with pairwise value comparisons
+
+## Data Description
+
+Multi-step Moral Dilemmas (MMDs) is a benchmark dataset of 3,302 five-stage moral dilemmas designed to evaluate the evolving moral judgments of LLMs across escalating ethical conflicts. Each scenario comprises five sequential steps with increasing moral complexity, and each step includes context, dilemma, and two mutually exclusive actions mapped to value dimensions from Moral Foundation Theory and Schwartz's Theory of Basic Values. Nine LLMs were evaluated including DeepSeek-V3, GPT-4o, LLaMA-3-70B, GLM-4 variants, Qwen-Plus, Mistral-Small-24B, Gemini-2.0-Flash, and Claude-3-5-Haiku.
 
 ## Notes
 

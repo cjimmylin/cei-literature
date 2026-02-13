@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini, Claude, DeepSeek, Qwen"
+DATA_URL: "https://github.com/Jeremyyny/Value-Spectrum"
 ---
 # Value-Spectrum: Quantifying Preferences of Vision-Language Models via Value Decomposition in Social Media Contexts
 
@@ -64,6 +67,11 @@ The recent progress in Vision-Language Models (VLMs) has broadened the scope of 
 ## Authors
 
 [[Jingxuan Li]], [[Yuning Yang]], [[Shengqi Yang]], [[Linfan Zhang]], [[Ying Nian Wu]]
+
+## Data Description
+
+Value-Spectrum is a Visual Question Answering (VQA) benchmark for assessing vision-language model preferences based on Schwartz's ten value dimensions. The dataset comprises 50,191 unique short video screenshots collected from Instagram (32%), YouTube (29%), and TikTok (39%), spanning July to October 2024 across diverse topics including lifestyle, technology, and health. Eight VLMs were evaluated including GPT-4o, Gemini 2.0 Flash, Claude 3.5 Sonnet, DeepSeek-VL2, Qwen2.5-VL-Plus, InternVL2, CogVLM2, and Blip-2 for their intrinsic value preferences and role-playing adaptability.
+
 
 ## Notes
 

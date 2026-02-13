@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Can simulate historical characters"
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+LLM_assessed: "Llama, ChatGPT, Alpaca, Vicuna"
+DATA_URL: "https://github.com/choosewhatulike/trainable-agents"
 ---
  Character-LLM: A Trainable Agent for Role-Playing
 
@@ -85,6 +88,11 @@ The authors conclude that *training* on character-specific memories is more effe
 
 *   **Character-LLM Framework**: Code for generating character data and fine-tuning.
 *   **Models**: Released weights for several historical character agents (Beethoven, Cleopatra, Caesar).
+
+## Data Description
+
+The paper presents Character-LLM, a framework for training LLM-based agents for role-playing specific characters such as Beethoven, Cleopatra, and Julius Caesar. The experience dataset consists of approximately 1K-2K reconstructed scenes per character across nine historical and fictional figures, generated using GPT-3.5-turbo. LLaMA 7B is fine-tuned on these scenes and evaluated via single-turn and multi-turn interviews (1,307 total questions).
+
 
 ## Notes
 

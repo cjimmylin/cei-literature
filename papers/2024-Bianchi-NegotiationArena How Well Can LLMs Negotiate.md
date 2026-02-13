@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Negotiation is the basis of social interactions; humans negotiate eve
 research_topic: "Other"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Claude"
+DATA_URL: "https://github.com/vinid/NegotiationArena"
 ---
 # NegotiationArena: How Well Can LLMs Negotiate?
 
@@ -62,6 +65,10 @@ Negotiation is the basis of social interactions; humans negotiate everything fro
 ## Dataset Information
 
 3 scenario types (resource allocation/ultimatum, resource aggregation/trading, buying/selling); 60 negotiations per ordered agent pair; win rate and average payoff metrics
+
+## Data Description
+
+NEGOTIATIONARENA is an open-source framework for evaluating LLM negotiation abilities through three game-theoretic scenarios: resource exchange, multi-turn ultimatum, and seller-buyer negotiations. The study benchmarks GPT-4, GPT-3.5, Claude-2, and Claude-2.1 across 60 negotiations per ordered pair of agents in each scenario. The framework captures structured multi-turn dialogues with XML-like communication formats for tracking offers, reasoning, and behavioral strategies.
 
 ## Notes
 

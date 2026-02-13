@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, PaLM-2, Gemini"
+DATA_URL: "https://huggingface.co/datasets/datumo/KorNAT"
 pdf_extract: "PDF Extracts/2024/2024-Lee-KorNAT.md"
 local_pdf: "[[PDFs/2024/2024-Lee-KorNAT.pdf]]"
 ---
@@ -64,6 +67,11 @@ To reliably deploy Large Language Models (LLMs) in a specific country, they must
 ## Authors
 
 [[Jiyoung Lee]], [[Minwoo Kim]], [[Seungho Kim]], [[Junghwan Kim]], [[Seunghyun Won]], [[Hwaran Lee]], [[Edward Choi]]
+
+## Data Description
+
+KorNAT is a benchmark measuring national alignment of LLMs with South Korea, containing 10K multiple-choice questions: 4K on social values (with ground truth distributions from a large-scale survey of 6,174 unique Korean participants, averaging 219 responses per question) and 6K on common knowledge (based on Korean textbooks and GED reference materials across seven subjects). Seven LLMs were tested in zero-shot settings using five distinct prompts.
+
 
 ## Notes
 

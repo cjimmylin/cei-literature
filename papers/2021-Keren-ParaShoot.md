@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Annotated dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/omrikeren/ParaShoot"
 ---
 # ParaShoot: A Hebrew Question Answering Dataset
 
@@ -64,6 +67,11 @@ NLP research in Hebrew has largely focused on morphology and syntax, where rich 
 ## Authors
 
 [[Omri Keren]], [[Omer Levy]]
+
+## Data Description
+
+ParaShoot is the first question answering dataset in modern Hebrew, containing 3,038 annotated paragraph-question-answer triplets following the SQuAD format. Paragraphs are sampled from Hebrew Wikipedia articles covering diverse domains, with questions and answers crowd-sourced from native Hebrew speakers via the Prolific platform.
+
 
 ## Notes
 

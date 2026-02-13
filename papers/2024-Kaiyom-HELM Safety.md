@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Mistral, Mixtral, Qwen, DeepSeek, Gemini"
+DATA_URL: "NA"
 ---
 # HELM Safety: Towards Standardized Safety Evaluations of Language Models
 
@@ -91,6 +94,11 @@ The authors conclude that HELM Safety provides essential infrastructure for rigo
 - Integrated benchmark suite: BBQ, SimpleSafetyTest, HarmBench, XSTest, AnthropicRedTeam
 - Public leaderboard: https://crfm.stanford.edu/helm/safety/latest/
 - Open-source code: https://github.com/stanford-crfm/helm
+
+## Data Description
+
+HELM Safety v1.0 is a standardized safety evaluation framework comprising five safety benchmarks (BBQ, SimpleSafetyTest, HarmBench, AnthropicRedTeam, XSTest) spanning six risk categories: violence, fraud, discrimination, sexual content, harassment, and deception. The evaluation covers 24 prominent language models using exact-match accuracy for BBQ and model-judge harmfulness scores (assessed by GPT-4o and Llama 3.1 405B) for all other benchmarks, with results normalized to a 0-1 scale where higher scores indicate less safety risk.
+
 
 ## Notes
 

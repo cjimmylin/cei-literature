@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Ethical dilemma scenarios for LLM evaluation"
 data_metrics: "PCA clustering, Adjusted Rand Index"
+LLM_assessed: "Qwen, DeepSeek, Gemma"
+DATA_URL: "https://github.com/sachit27/Moral-Reasoning-in-LLMs"
 DATE_ADDED: 20260207
 ---
 # Mapping Moral Reasoning in LLMs: A Multi-Dimensional Analysis of Safety Principle Conflicts
@@ -50,6 +53,11 @@ DATE_ADDED: 20260207
 ## Abstract
 
 This paper presents a structured analysis of how open-weight LLMs resolve conflicts between competing safety principles—including public welfare, institutional transparency, and individual rights—using carefully designed ethical dilemmas. Statistically significant differences emerge in reasoning style and moral salience (p < 0.01), while PCA and clustering reveal three recurring behavioral patterns: rule-based, balanced, and pragmatic integration. An ablation study confirms that these clusters persist without dictionary features (Adjusted Rand Index = 0.475), supporting the robustness of semantic alignment. This work contributes a replicable methodology for the moral profiling of LLMs, offering empirical tools for diagnosing value conflicts and informing future efforts in AI transparency, contestability, and pluralistic alignment.
+
+## Data Description
+
+This paper analyzes how three open-weight LLMs (qwq:latest, deepseek-r1:32b, and gemma3:27b) resolve conflicts between competing safety principles using ethical dilemmas across three domains: public safety vs. confidentiality, corporate responsibility vs. whistleblowing, and system transparency vs. protection. Each model was queried 10 times per scenario, yielding 90 total responses analyzed via an eleven-dimensional normative profiling pipeline.
+
 
 ## Notes
 

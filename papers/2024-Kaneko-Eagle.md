@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset for toxicity detection"
 data_metrics: "1 datasets"
+LLM_assessed: "Llama-2, Falcon, Mistral, Mixtral"
+DATA_URL: "https://huggingface.co/datasets/MasahiroKaneko/eagle"
 DATE_ADDED: 20260207
 ---
 # Eagle: Ethical Dataset Given from Real Interactions
@@ -65,6 +68,11 @@ Recent studies have demonstrated that large language models (LLMs) have ethical-
 ## Authors
 
 [[Masahiro Kaneko]], [[Danushka Bollegala]], [[Timothy Baldwin]]
+
+## Data Description
+
+Eagle is an ethical dataset extracted from real interactions between ChatGPT and users from the ShareGPT dataset, containing 2,317 instances across four categories: 618 social bias, 516 opinion bias, 778 toxic language, and 1,142 morality instances. The dataset was created using a two-step pipeline where GPT-3.5 first classified 731K utterances as ethical/unethical, then GPT-4 sub-classified the flagged instances into the four fine-grained categories. Ten LLMs were evaluated on the dataset using a likelihood-based unethical score measure.
+
 
 ## Notes
 

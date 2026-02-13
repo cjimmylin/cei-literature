@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT, GPT-4, Mistral, Mixtral, Llama-3, Qwen"
+DATA_URL: "NA"
 ---
 # Quantifying AI Psychology: A Psychometrics Benchmark for Large Language Models
 
@@ -63,6 +66,11 @@ Large Language Models (LLMs) have demonstrated exceptional task-solving capabili
 ## Authors
 
 [[Yuan Li]], [[Yue Huang]], [[Hongyi Wang]], [[Ying Cheng]], [[Xiangliang Zhang]], [[James Zou]], [[Lichao Sun]]
+
+## Data Description
+
+This paper presents a comprehensive psychometric benchmark comprising 13 datasets across five psychological dimensions: personality, values, emotion, theory of mind, and motivation. The datasets include standardized psychometric tests (Big Five Inventory, Short Dark Triad, Cultural Orientation), established datasets (MoralChoice with 1,767 items, Emotion Understanding/Application with 200 items each, False Belief Task, Strange Stories Task), and self-designed scenarios (Human-Centered Values with 228 items, LLM Self-Efficacy). Nine popular LLMs were evaluated using diverse item types including rating-scale, alternative-choice, multiple-choice, and open-ended formats.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "1250 prompts; 19 categories"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/ai-forever/RusCode"
 pdf_extract: "PDF Extracts/2025/2025-Vasilev-RusCode.md"
 local_pdf: "[[PDFs/2025/2025-Vasilev-RusCode.pdf]]"
 ---
@@ -74,6 +77,11 @@ RusCode highlights that "high quality" image generation is not universal. A mode
 ### Artifact Contributions
 *   **RusCode Benchmark**: 1250 culturally specific text-to-image prompts.
 *   **Evaluation Protocol**: A framework for assessing cultural fidelity in generative vision models.
+
+## Data Description
+
+RusCode is a benchmark dataset for evaluating cultural awareness of text-to-image generation models with respect to Russian visual culture. It consists of 1,250 text prompts in Russian and English across 19 cultural categories and 125 subcategories, each paired with reference images. The benchmark was used for human evaluation of four T2I models (Stable Diffusion 3, DALL-E 3, Kandinsky 3.1, YandexART 2), which are image generation models rather than LLMs.
+
 
 ## Notes
 

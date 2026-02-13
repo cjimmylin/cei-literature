@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Ethical and social risks of harm from Language Models
 
@@ -64,6 +67,11 @@ This paper aims to help structure the risk landscape associated with large-scale
 ## Authors
 
 [[Laura Weidinger]], [[John Mellor]], [[Maribeth Rauh]], [[Conor Griffin]], [[Jonathan Uesato]], [[Po-Sen Huang]], [[Myra Cheng]], [[Mia Glaese]], [[Borja Balle]], [[Atoosa Kasirzadeh]], [[Zac Kenton]], [[Sasha Brown]], [[Will Hawkins]], [[Tom Stepleton]], [[Courtney Biles]], [[Abeba Birhane]], [[Julia Haas]], [[Laura Rimell]], [[Lisa Anne Hendricks]], [[William Isaac]], [[Sean Legassick]], [[Geoffrey Irving]], [[Iason Gabriel]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a comprehensive risk taxonomy paper from DeepMind that structures the risk landscape associated with large-scale language models across six areas: discrimination/exclusion/toxicity, information hazards, misinformation harms, malicious uses, human-computer interaction harms, and automation/access/environmental harms. While it references findings from studies involving GPT-2, GPT-3, BERT, and other models, it does not directly test or evaluate any models.
+
 
 ## Notes
 

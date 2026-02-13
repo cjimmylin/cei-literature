@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # A Multi-Level Framework for the AI Alignment Problem
 
@@ -64,6 +67,11 @@ AI alignment considers how we can encode AI systems in a way that is compatible 
 ## Authors
 
 [[Betty Li Hou]], [[Brian Patrick Green]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment.
+
 
 ## Notes
 

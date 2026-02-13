@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "We introduce EQ-Bench, a novel benchmark designed to evaluate aspects
 research_topic: "Machine Learning"
 data_description: "Benchmark"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, text-davinci, Claude, Llama-2, Mistral, Vicuna, Qwen"
+DATA_URL: "https://github.com/EQ-bench/EQ-Bench"
 ---
 # EQ-Bench: An Emotional Intelligence Benchmark for Large Language Models
 
@@ -62,6 +65,10 @@ We introduce EQ-Bench, a novel benchmark designed to evaluate aspects of emotion
 ## Dataset Information
 
 60 English-language questions; dialogue-based emotion intensity prediction tasks; models predict intensity of 4 emotional states per question on a 0-1 scale
+
+## Data Description
+
+The paper introduces EQ-Bench, a benchmark for assessing emotional understanding in LLMs using 60 English-language questions. Each question presents a GPT-4-generated dialogue depicting conflict or tension, asking models to rate the intensity of four emotions on a 0-10 scale. The benchmark was tested on 25 models including GPT-4, GPT-3.5 variants, text-davinci models, Claude 2, Llama-2 (7B/13B/70B), Mistral-7B, Vicuna, Qwen, and others, with scores correlating strongly with MMLU (r=0.97).
 
 ## Notes
 

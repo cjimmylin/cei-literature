@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Arzberger-Nothing Comes Without Its World.md"
 ---
 # Nothing Comes Without Its World – Practical Challenges of Aligning LLMs to Situated Human Values through RLHF
@@ -66,6 +69,11 @@ pdf_extract: "PDF Extracts/2024/2024-Arzberger-Nothing Comes Without Its World.m
 ## Abstract
 
 This perspective paper unpacks the limitations of predominant alignment practices of reinforcement learning from human feedback (RLHF) for LLMs through the lens of situated values and proposes three research directions to address these shortcomings. The authors build on feminist epistemology to argue that at the design-time, RLHF has problems with representation in the subjects providing feedback and implicitness in the conceptualization of values and situations of real-world users while lacking system adaptation to real user situations at the use-time. To address these shortcomings, they propose three research directions: 1) situated annotation, 2) expressive instruction, and 3) reflexive adaptation.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a perspective paper that critically examines the limitations of RLHF alignment practices for LLMs through the lens of situated values drawn from feminist epistemology, proposing three research directions: situated annotation, expressive instruction, and reflexive adaptation.
+
 
 ## Notes
 

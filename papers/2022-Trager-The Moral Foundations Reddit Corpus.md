@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "8 categories"
+LLM_assessed: "Llama-3, BERT"
+DATA_URL: "NA"
 ---
 # The Moral Foundations Reddit Corpus
 
@@ -64,6 +67,11 @@ Moral framing and sentiment can affect a variety of online and ofﬂine behavior
 ## Authors
 
 [[Jackson Trager]], [[Alireza S. Ziabari]], [[Elnaz Rahmati]], [[Aida Mostafazadeh Davani]], [[Preni Golazizian]], [[Farzan Karimi-Malekabadi]], [[Ali Omrani]], [[Zhihe Li]], [[Brendan Kennedy]], [[Nils Karl Reimer]], [[Melissa Reyes]], [[Kelsey Cheng]], [[Mellow Wei]], [[Christina Merrifield]], [[Arta Khosravi]], [[Evans Alvarez]], [[Morteza Dehghani]]
+
+## Data Description
+
+The Moral Foundations Reddit Corpus (MFRC) consists of 16,123 English Reddit comments curated from 12 subreddits, hand-annotated by at least three trained annotators for 8 categories of moral sentiment based on the revised Moral Foundations Theory framework. Baseline evaluations include Llama-3-8B and Ministral-8B in zero-shot, few-shot, and PEFT settings, compared against fine-tuned BERT models, with BERT outperforming LLMs on this subjective classification task. The corpus will be available as a HuggingFace dataset but no specific URL is provided in the paper.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ tags:
 abstract: "In recent years, researchers have started analyzing the cultural sensitivity of LLMs. In this respect, Etiquettes have been an active area of research. Etiquettes are region-specific and are an essential part of the culture of a region; hence, it is imperative to make LLMs sensitive to etiquettes. However, there needs to be more resources in evaluating LLMs for their understanding and bias with regard to etiquettes. In this resource paper, we introduce EtiCor++, a corpus of etiquettes worldwide."
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Phi, Gemma, Gemini, GPT-4"
+DATA_URL: "https://github.com/Exploration-Lab/Eticor-Plus-Plus"
 ---
 # EtiCor++: Towards Understanding Etiquettical Bias in LLMs
 
@@ -60,6 +63,10 @@ In recent years, researchers have started analyzing the cultural sensitivity of 
 ## Dataset Information
 
 Expanded from EtiCor with additional cultures and regions; cleaned noisy samples; new tasks and metrics; covers Asia, Latin America, Middle East/Africa, North America/Europe, and more
+
+## Data Description
+
+EtiCor++ is a corpus of 47,720 region-specific etiquette texts in English, covering five global regions (East Asia, Middle East and Africa, Indian Subcontinent, Latin America, North America and Europe) across four social activity categories (Dining, Travel, Business, Visits). The authors evaluate five LLMs (Llama3.1, Phi-3.5-mini, Gemma2, Gemini, GPT-4o) on three tasks: Etiquette Sensitivity, Region Identification, and Etiquette Generation, using seven novel bias metrics to measure etiquettical bias across cultures.
 
 ## Notes
 

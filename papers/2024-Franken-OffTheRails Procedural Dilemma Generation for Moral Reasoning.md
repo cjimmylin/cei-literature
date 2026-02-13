@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +37,8 @@ abstract: "As AI systems like language models are increasingly integrated into d
 ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "50 scenarios"
+LLM_assessed: "GPT-4, Claude"
+DATA_URL: "https://github.com/cicl-stanford/moral-evals"
 normative_ethics_benchmark: Borderline
 ---
 # OffTheRails: Procedural Dilemma Generation for Moral Reasoning
@@ -65,6 +68,10 @@ As AI systems like language models are increasingly integrated into decision-mak
 ## Dataset Information
 
 50 procedurally generated scenarios with 400 test items from causal graphs for harm-related permissibility
+
+## Data Description
+
+OffTheRails is a procedurally generated benchmark of moral reasoning dilemmas consisting of 50 scenarios and 400 unique test items. The benchmark uses causal graphs to systematically manipulate three factors (causal structure, evitability, and action/omission) across eight conditions. Human participants and two language models (GPT-4 and Claude-2) were evaluated on moral permissibility and intention judgments.
 
 ## Notes
 

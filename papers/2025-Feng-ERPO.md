@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Qwen, DeepSeek, GPT-4"
+DATA_URL: "NA"
 ---
 # ERPO: Advancing Safety Alignment via Ex-Ante Reasoning Preference Optimization
 
@@ -63,6 +66,11 @@ Recent advancements in large language models (LLMs) have accelerated progress to
 ## Authors
 
 [[Kehua Feng]], [[Keyan Ding]], [[Yuhao Wang]], [[Menghan Li]], [[Furu Wei|Fanjunduo Wei]], [[Xinda Wang]], [[Qiang Zhang]], [[Huajun Chen]]
+
+## Data Description
+
+The paper proposes SAFER, a safety alignment framework using structured Ex-Ante Reasoning Preference Optimization (ERPO). It is applied to Llama3-8B-IT and Qwen2-7B-IT as base models, with evaluations on AdvBench, HarmBench, and StrongReject safety benchmarks. DeepSeek-R1 distilled variants and QwQ-32B are also evaluated, with GPT-4o used as a risk classifier and Grok-3 as a trace generator.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "o1, GPT-4o, GPT-4"
+DATA_URL: "https://anonymous.4open.science/r/RRC_experiments-F83F"
 ---
  Resource Rational Contractualism Should Guide AI Alignment
 
@@ -52,6 +55,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 This paper proposes "Resource-Rational Contractualism" (RRC) as a framework for AI alignment, addressing the need for AI systems to navigate complex human environments where goals and values diverge. RRC suggests that AI should approximate agreements that various stakeholders would endorse under ideal conditions (a "virtual contract"). The authors argue that while existing methods like Constitutional AI represent a "System 1" approach (cognitively cheap but fallible), RRC provides the missing "System 2" component needed for robust moral reasoning. The framework integrates rule-based reasoning with an understanding of flexible exceptions, inspired by both contractualist moral theory (Scanlon, Rawls) and human cognitive constraints. This approach aims to achieve substantial normative depth and sensitivity to dynamic social contexts while remaining computationally feasible through normatively-grounded heuristics.
+
+## Data Description
+
+This paper introduces Resource Rational Contractualism (RRC) as an AI alignment framework and tests it with challenge case sets. The first set contains 130 cases and the second set contains 240 cases (120 easy, 120 hard), all involving moral dilemmas where rule-following conflicts with mutual benefit. Four prompting approaches (minimal, rule-based, virtual bargaining, and RRC mechanism selection) were tested on multiple models including o4-mini. The cases were annotated with gold labels by the authors.
+
 
 ## Notes
 

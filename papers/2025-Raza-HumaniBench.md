@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini, Phi, Qwen, Llama-3, Gemma, DeepSeek"
+DATA_URL: "https://huggingface.co/vector-institute/HumaniBench, https://github.com/VectorInstitute/HumaniBench"
 DATE_ADDED: 20260207
 ---
 # HumaniBench: A Human-Centric Framework for Large Multimodal Models Evaluation
@@ -65,6 +68,11 @@ Large multimodal models (LMMs) have been widely tested on tasks like visual ques
 ## Authors
 
 [[Shaina Raza]], [[Aravind Narayanan]], [[Vahid Reza Khazaie]], [[Ashmal Vayani]], [[Ahmed Y. Radwan]], [[Mukund S. Chettiar]], [[Amandeep Singh]], [[Mubarak Shah]], [[Deval Pandya]]
+
+## Data Description
+
+HumaniBench is a human-centric evaluation benchmark comprising approximately 32,000 expert-verified image-question pairs derived from real-world news imagery, spanning seven evaluation tasks: scene understanding, instance identity, multiple-choice VQA, multilinguality (11 languages), visual grounding, empathetic captioning, and image resilience testing. The dataset covers five social attributes (age, gender, race/ethnicity, occupation, sport) and maps to seven human-centric principles including fairness, ethics, empathy, and robustness.
+
 
 ## Notes
 

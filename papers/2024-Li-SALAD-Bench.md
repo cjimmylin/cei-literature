@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Llama-2, Llama-3, Mistral, Mixtral, Qwen, Gemma, Vicuna"
+DATA_URL: "https://github.com/OpenSafetyLab/SALAD-BENCH"
 pdf_extract: "PDF Extracts/2024/2024-Li-SALAD-Bench.md"
 local_pdf: "[[PDFs/2024/2024-Li-SALAD-Bench.pdf]]"
 ---
@@ -45,6 +48,11 @@ local_pdf: "[[PDFs/2024/2024-Li-SALAD-Bench.pdf]]"
 ## Abstract
 
 In the rapidly evolving landscape of Large Language Models (LLMs), ensuring robust safety measures is paramount. To meet this crucial need, we propose SALAD-Bench, a safety benchmark specifically designed for evaluating LLMs, attack, and defense methods. Distinguished by its breadth, SALAD-Bench transcends conventional benchmarks through its large scale, rich diversity, intricate taxonomy spanning three levels, and versatile functionalities.SALAD-Bench is crafted with a meticulous array of questions, from standard queries to complex ones enriched with attack, defense modifications and multiple-choice. To effectively manage the inherent complexity, we introduce an innovative evaluators: the LLM-based MD-Judge for QA pairs with a particular focus on attack-enhanced queries, ensuring a seamless, and reliable evaluation. Above components extend SALAD-Bench from standard LLM safety evaluation to both LLM attack and defense methods evaluation, ensuring the joint-purpose utility. Our extensive experiments shed light on the resilience of LLMs against emerging threats and the efficacy of contemporary defense tactics. Data and evaluator are released under https://github.com/OpenSafetyLab/SALAD-BENCH
+
+## Data Description
+
+SALAD-Bench is a hierarchical safety benchmark for LLMs comprising approximately 30,000 questions organized into a three-level taxonomy of 6 domains, 16 tasks, and 66 categories. The benchmark includes a base set of 21K questions, 5K attack-enhanced questions, 200 defense-enhanced questions, and 4K multiple-choice questions. Data sources include public safety datasets and self-instructed data generated via fine-tuned GPT-3.5-turbo, with automated labeling achieving 94.3% consistency with human annotations.
+
 
 ## Notes
 

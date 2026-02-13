@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Qwen, Llama-2"
+DATA_URL: "https://github.com/THUDM/AlignBench"
 ---
 # AlignBench: Benchmarking Chinese Alignment of Large Language Models
 
@@ -64,6 +67,11 @@ Alignment has become a critical step for instruction-tuned Large Language Models
 ## Authors
 
 [[Xiao Liu]], [[Xuanyu Lei]], [[Shengyuan Wang]], [[Yue Huang]], [[Zhuoer Feng]], [[Bosi Wen]], [[Jiale Cheng]], [[Pei Ke]], [[Yifan Xu]], [[Weng Lam Tam]], [[Xiaohan Zhang]], [[Lichao Sun]], [[Xiaotao Gu]], [[Hongning Wang]], [[Jing Zhang]], [[Minlie Huang]], [[Yuxiao Dong]], [[Jie Tang]]
+
+## Data Description
+
+AlignBench is a comprehensive benchmark for evaluating Chinese alignment of LLMs, containing 683 real-scenario rooted queries across 8 categories (Fundamental Language Ability, Advanced Chinese Understanding, Open-ended Questions, Writing Ability, Logical Reasoning, Mathematics, Task-oriented Role Play, Professional Knowledge). It uses human-verified references with web-sourced evidence and employs a rule-calibrated multi-dimensional LLM-as-Judge evaluation method with GPT-4 across 17 LLMs.
+
 
 ## Notes
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ abstract: "The increasing integration of large language models (LLMs) into menta
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Qwen, Llama-3, Llama-2"
+DATA_URL: "https://github.com/ElsieSHEN/PsychEthicsBench"
 normative_ethics_benchmark: Borderline
 ---
 # PsychEthicsBench
@@ -65,6 +68,10 @@ The increasing integration of large language models (LLMs) into mental health ap
 ## Dataset Information
 
 Size: 392 ethical principles; 1,377 multiple-choice questions; 2,612 open-ended questions
+
+## Data Description
+
+PsychEthicsBench is a principle-grounded benchmark for evaluating ethical knowledge and behavioral responses of LLMs in mental health, based on 392 ethical principles from Australian psychology and psychiatry guidelines. The benchmark comprises 1,377 multiple-choice questions and 2,612 open-ended questions. A total of 14 models were evaluated across three groups (mental health LLMs, base models, and medical variants), including Qwen2.5-7B/14B, Llama3-8B, Llama2-13B, and their domain-specific fine-tuned derivatives.
 
 ## Notes
 

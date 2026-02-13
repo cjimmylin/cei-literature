@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_OBER2024
@@ -29,6 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # The Lyceum Project: AI Ethics with Aristotle
 
@@ -77,6 +80,11 @@ Many today take the view that the AI technological revolution is creating a radi
 - Demokritos (Greece)
 - Oxford Institute for Ethics in AI
 - Stanford HAI
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is the same Aristotelian AI ethics white paper by Ober and Tasioulas, presenting a philosophical framework for human-centered AI ethics grounded in Aristotle's conceptions of human nature, flourishing, and political community.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: "Survey paper"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Shen-Alignment and Safety in LLMs Survey.md"
 ---
 # Alignment and Safety in Large Language Models: Safety Mechanisms, Training Paradigms, and Emerging Challenges
@@ -49,6 +52,11 @@ pdf_extract: "PDF Extracts/2025/2025-Shen-Alignment and Safety in LLMs Survey.md
 ## Abstract
 
 Due to the remarkable capabilities and growing impact of LLMs, ensuring their alignment with human values and intentions has emerged as a critical challenge. This survey provides a comprehensive overview of practical alignment techniques, training protocols, and empirical findings. Domain-specific safety benchmarks are designed to probe whether models behave reliably and ethically when performing specialized scientific tasks, addressing key dimensions including refusal behavior, robustness to adversarial prompts, and adherence to regulatory and ethical constraints. The survey covers Reinforcement Learning from Human Feedback (RLHF), Constitutional AI, and emerging techniques for maintaining ethical behavior in LLMs across diverse deployment contexts.
+
+## Data Description
+
+This paper is a comprehensive survey of alignment and safety techniques for large language models, covering training paradigms (SFT, RLHF, DPO), evaluation frameworks, benchmarking datasets, and alignment strategies across leading AI models. It does not introduce or utilize a specific dataset or benchmark for LLM assessment, but rather reviews and synthesizes existing methods and findings across the field of LLM alignment research.
+
 
 ## Notes
 

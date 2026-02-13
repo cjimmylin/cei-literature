@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for ai safety annotated dataset for toxicity detection"
 data_metrics: "44 categories"
+LLM_assessed: "GPT-4o, Claude, Gemini"
+DATA_URL: "https://github.com/adwardlee/t2i_safety"
 ---
 # T2ISafety: Benchmark for Assessing Fairness, Toxicity, and Privacy in Image Generation
 
@@ -97,6 +100,11 @@ The authors conclude that current T2I safety measures are insufficient, with all
 - **Annotated Dataset**: 68K images with manual safety annotations
 - **ImageGuard Evaluator**: Trained model for detecting T2I safety violations
 - **Code and Data**: Available at https://github.com/adwardlee/t2i_safety
+
+## Data Description
+
+T2ISafety is a safety benchmark for text-to-image (T2I) models evaluating fairness, toxicity, and privacy. It comprises 70K prompts and 68K manually annotated images across a hierarchical taxonomy of 12 tasks and 44 categories. GPT-4o, Claude 3.5 Sonnet, and Gemini 1.5 Pro were evaluated as image safety evaluators alongside 15 diffusion models. The benchmark includes an MLLM-based evaluator called ImageGuard trained on the dataset.
+
 
 ## Notes
 

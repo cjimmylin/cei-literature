@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, Alpaca, Vicuna, Mixtral"
+DATA_URL: "https://github.com/Demon702/WorldValuesBench"
 ---
 # WorldValuesBench: A Large-Scale Benchmark Dataset for Multi-Cultural Value Awareness of Language Models
 
@@ -57,6 +60,11 @@ The awareness of multi-cultural human values is critical to the ability of langu
 ## Authors
 
 [[Wenlong Zhao]], [[Debanjan Mondal]], [[Niket Tandon]], [[Danica Dillion]], [[Kurt Gray]], [[Yuling Gu]]
+
+## Data Description
+
+WorldValuesBench is a globally diverse, large-scale benchmark dataset for multi-cultural value prediction, derived from the World Values Survey Wave 7 with over 20 million examples from 94,728 participants worldwide. The benchmark evaluates whether language models can generate culturally appropriate rating answers to value questions conditioned on demographic attributes across 64 countries.
+
 
 ## Notes
 

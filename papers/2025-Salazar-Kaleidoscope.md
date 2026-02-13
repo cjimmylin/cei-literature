@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "18 languages"
+LLM_assessed: "GPT-4, Claude, Gemini, Gemma, Qwen"
+DATA_URL: "https://hf.co/datasets/CohereForAI/kaleidoscope"
 ---
 # Kaleidoscope: In-language Exams for Massively Multilingual Vision Evaluation
 
@@ -62,6 +65,11 @@ The evaluation of vision-language models (VLMs) has mainly relied on English-lan
 ## Authors
 
 [[Israfel Salazar]], [[Manuel Fernández Burda]], [[Shayekh Bin Islam]], [[Arshia Soltani Moakhar]], [[Shivalika Singh]], [[Fabian Farestam]], [[Angelika Romanou]], [[Danylo Boiko]], [[Dipika Khullar]], [[Mike Zhang]], [[Dominik Krzemiński]], [[Jekaterina Novikova]], [[Luísa Shimabucoro]], [[Joseph Marvin Imperial]], [[Rishabh Maheshwary]], [[Sharad Duwal]], [[Alfonso Amayuelas]], [[Swati Rajwal]], [[Jebish Purbey]], [[Ahmed Ruby]], [[Nicholas Popovič]], [[Marek Suppa]], [[Azmine Toushik Wasi]], [[Ram Mohan Rao Kadiyala]], [[Olga Tsymboi]], [[Maksim Kostritsya]], [[Bardia Soltani Moakhar]], [[Gabriel da Costa Merlin]], [[Otávio Ferracioli Coletti]], [[Maral Jabbari Shiviari]], [[MohammadAmin farahani fard]], [[Silvia Fernandez]], [[María Grandury]], [[Dmitry Abulkhanov]], [[Drishti Sharma]], [[Andre Guarnier De Mitri]], [[Leticia Bossatto Marchezi]], [[Setayesh Heydari]], [[Johan Obando-Ceron]], [[Nazar Kohut]], [[Beyza Ermis]], [[Desmond Elliott]], [[Enzo Ferrante]], [[Sara Hooker]], [[Marzieh Fadaee]]
+
+## Data Description
+
+Kaleidoscope is a large-scale multilingual multimodal benchmark containing 20,911 multiple-choice exam questions across 18 languages and 14 subjects, with 55% requiring image understanding. The dataset was created through open-science collaboration with native speakers from 20 nations. Models evaluated include GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, Aya-Vision (8B and 32B), Molmo-7B-D, Pangea-7B, and Qwen2.5-VL (3B, 7B, 32B, 72B).
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "combine ethics - deon, virtue, conseq"
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
  Hybrid Approaches for Moral Value Alignment in AI Agents: a Manifesto
 
@@ -86,6 +89,11 @@ Robust moral agents require the integration of explicit rules with implicit valu
 
 *   **Taxonomy of Moral Alignment**: A conceptual framework for classifying alignment agents.
 *   **Hybrid Alignment Policy framework**: Architectural guidelines for neuro-symbolic ethical agents.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical manifesto that systematizes existing approaches to embedding morality in AI agents along a continuum from fully top-down rule-based to fully bottom-up learned methods, discussing case studies from the literature on intrinsic rewards, moral constraints, and textual instructions for moral alignment.
+
 
 ## Notes
 

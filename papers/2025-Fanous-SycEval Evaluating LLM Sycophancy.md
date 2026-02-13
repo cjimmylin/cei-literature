@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Large language models (LLMs) are increasingly applied in educational,
 research_topic: "Other"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT, Claude, Gemini, Llama-3"
+DATA_URL: "NA"
 ---
 # SycEval: Evaluating LLM Sycophancy
 
@@ -65,6 +68,10 @@ Large language models (LLMs) are increasingly applied in educational, clinical, 
 ## Dataset Information
 
 Evaluation framework using AMPS (mathematics) and MedQuad (medical advice) datasets; multi-domain sycophancy probing
+
+## Data Description
+
+SycEval is a framework for evaluating sycophantic behavior in LLMs, testing ChatGPT-4o, Claude-Sonnet, and Gemini-1.5-Pro across AMPS (mathematics) and MedQuad (medical advice) datasets with 500 question-answer pairs each. The study introduces progressive and regressive sycophancy categories and evaluates model responses to in-context and preemptive rebuttals of varying strength, using Llama-3-8b for rebuttal generation and finding sycophantic behavior in 58.19% of cases overall.
 
 ## Notes
 

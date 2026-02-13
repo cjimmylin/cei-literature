@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Four pre-registered studies with 2604 participants on AI moral advisor perception"
 data_metrics: "Trust ratings, expectation of utilitarian decisions, agreement measures"
+LLM_assessed: "NA"
+DATA_URL: "https://osf.io/m3v48/"
 ---
 # People Expect Artificial Moral Advisors to be More Utilitarian and Distrust Utilitarian Moral Advisors
 
@@ -117,6 +120,11 @@ The research identifies a fundamental psychological barrier to AI deployment in 
 ## Artifact Contributions
 
 None mentioned - PDF extraction was unsuccessful due to access restrictions; summary based on abstract and metadata.
+
+## Data Description
+
+The paper presents four pre-registered behavioral studies (total N=2604) investigating how people perceive and trust artificial moral advisors compared to human advisors. Participants from the UK were recruited through Prolific.ac and presented with classic sacrificial moral dilemmas where advisors gave utilitarian or non-utilitarian advice. The study measures trust, willingness to adopt advice, blame attribution, and expected future agreement.
+
 
 ## Notes
 

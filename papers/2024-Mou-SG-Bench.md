@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT, GPT-4, Claude, Mistral, Llama-3, Llama-2, Qwen"
+DATA_URL: "https://github.com/MurrayTom/SG-Bench"
 ---
 # SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types
 
@@ -82,6 +85,11 @@ The study reveals that current safety alignment methods have significant general
 - SG-Bench benchmark dataset with 1,442 malicious queries and extended evaluation sets
 - Open-source code at https://github.com/MurrayTom/SG-Bench
 - Evaluation framework for testing LLM safety generalization
+
+## Data Description
+
+The paper introduces SG-Bench, a multi-dimensional safety evaluation benchmark assessing LLM safety generalization across diverse tasks and prompt types. It contains 1,442 malicious queries covering 6 safety issue types, with 4 evaluation subsets (original query generation, jailbreak attacks, multiple-choice questions, safety judgments) and 7 extended test sets for prompt engineering techniques (system prompts, few-shot demonstrations, chain-of-thought prompting). 3 proprietary and 10 open-source LLMs were evaluated.
+
 
 ## Notes
 

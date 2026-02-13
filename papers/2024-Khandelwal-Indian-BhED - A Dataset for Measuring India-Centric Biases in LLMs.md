@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 research_topic: "Machine Learning"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "BERT, RoBERTa, GPT-2, GPT-3.5, Falcon, Mistral, Llama-2"
+DATA_URL: "https://github.com/khyatikhandelwal/Indian-LLMs-Bias"
 ---
 # Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs
 
@@ -65,6 +68,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Stereotypical and anti-stereotypical sentence pairs
+
+## Data Description
+
+The paper introduces Indian-BhED, a novel dataset of 229 English-language sentence pairs containing stereotypical and anti-stereotypical examples covering caste-based discrimination and religious biases in the Indian context. It is paired with a filtered subset of CrowS-Pairs (386 racial bias and 159 gender bias sentences) for cross-cultural comparison. Ten LLMs (both encoder and decoder-based) are evaluated for stereotypical bias using All Unmasked Likelihood and Conditional Log-Likelihood metrics.
 
 ## Notes
 

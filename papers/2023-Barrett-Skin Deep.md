@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/Social-Futures-Lab/skin-deep"
 ---
 # Skin Deep: Investigating Subjectivity in Skin Tone Annotations for Computer Vision Benchmark Datasets
 
@@ -65,6 +68,11 @@ To investigate the well-observed racial disparities in computer vision systems t
 ## Authors
 
 [[Teanna Barrett]], [[Quanze Chen]], [[Amy Zhang]]
+
+## Data Description
+
+This study investigates skin tone annotation procedures for computer vision benchmark datasets through a systematic literature review of 50 papers (2017-2022) and annotation experiments with 165 participants. The experiments varied annotation configurations including scale type (Fitzpatrick Skin Type, Monk Skin Tone), ordering of scale levels, and image type (face vs. skin patch), collecting range-based skin tone annotations to measure inter-annotator agreement and individual uncertainty.
+
 
 ## Notes
 

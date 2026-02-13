@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Large Language Model Alignment: A Survey
 
@@ -64,6 +67,11 @@ Recent years have witnessed remarkable progress made in large language models (L
 ## Authors
 
 [[Tianhao Shen]], [[Renren Jin]], [[Yufei Huang]], [[Chuang Liu]], [[Weilong Dong]], [[Zishan Guo]], [[Xinwei Wu]], [[Yan Liu]], [[Deyi Xiong]]
+
+## Data Description
+
+This paper is a comprehensive survey of LLM alignment methodologies. It reviews outer alignment, inner alignment, mechanistic interpretability, adversarial attacks, and alignment evaluation benchmarks. The paper does not introduce or utilize a specific dataset or benchmark for LLM assessment.
+
 
 ## Notes
 

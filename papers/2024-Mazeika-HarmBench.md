@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Llama-2, Vicuna, Mistral, Mixtral"
+DATA_URL: "https://github.com/centerforaisafety/HarmBench"
 ---
 # HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal
 
@@ -55,6 +58,11 @@ Automated red teaming holds substantial promise for uncovering and mitigating th
 ## Authors
 
 [[Mantas Mazeika]], [[Long Phan]], [[Xuwang Yin]], [[Andy Zou]], [[Zifan Wang]], [[Norman Mu]], [[Elham Sakhaee]], [[Nathaniel Li]], [[Steven Basart]], [[Bo Li]], [[David Forsyth]], [[Dan Hendrycks]]
+
+## Data Description
+
+HarmBench is a standardized evaluation framework for automated red teaming and robust refusal, containing 510 unique harmful behaviors across four functional categories (standard, copyright, contextual, and multimodal) and seven semantic categories. The benchmark includes a large-scale comparison of 18 red teaming attack methods against 33 target LLMs and defenses, including Llama 2 (7B, 13B, 70B), Vicuna (7B, 13B), Mistral 7B, Mixtral 8x7B, GPT-3.5 Turbo, GPT-4, Claude (1, 2, 2.1), and Gemini Pro.
+
 
 ## Notes
 

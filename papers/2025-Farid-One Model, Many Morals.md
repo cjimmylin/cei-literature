@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "Qwen, Llama-3, Llama-3, Mistral, DeepSeek, Phi"
+DATA_URL: "https://github.com/sualehafarid/moral-project"
 publication: ICLR 2026
 DATE_ADDED: 20260207
 ---
@@ -53,6 +56,11 @@ DATE_ADDED: 20260207
 ## Abstract
 
 Large Language Models (LLMs) are increasingly deployed in multilingual and multicultural environments where moral reasoning is essential for generating ethically appropriate responses. Yet, the dominant pretraining of LLMs on English-language data raises critical concerns about their ability to generalize judgments across diverse linguistic and cultural contexts. In this work, we systematically investigate how language mediates moral decision-making in LLMs. We translate two established moral reasoning benchmarks into five culturally and typologically diverse languages, enabling multilingual zero-shot evaluation. Our analysis reveals significant inconsistencies in LLMs' moral judgments across languages, often reflecting cultural misalignment. Through a combination of carefully constructed research questions, we uncover the underlying drivers of these disparities, ranging from disagreements to reasoning strategies employed by LLMs. Finally, through a case study, we link the role of pretraining data in shaping an LLM's moral compass. Through this work, we distill our insights into a structured typology of moral reasoning errors that calls for more culturally-aware AI.
+
+## Data Description
+
+This study constructs a multilingual moral reasoning benchmark by translating MoralExceptQA (148 scenarios) and ETHICS (130k+ scenarios across five moral dimensions) into five languages (Chinese, German, Hindi, Spanish, Urdu). Seven LLMs of various sizes are evaluated in zero-shot settings across these languages to analyze cross-linguistic moral reasoning inconsistencies. The dataset and code are available on GitHub.
+
 
 ## Notes
 

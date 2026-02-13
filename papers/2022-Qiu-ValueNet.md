@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Text corpus for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "BERT, RoBERTa, BART"
+DATA_URL: "https://liang-qiu.github.io/ValueNet/"
 ---
 # ValueNet: A New Dataset for Human Value Driven Dialogue System
 
@@ -66,6 +69,11 @@ Building a socially intelligent agent involves many challenges, one of which is 
 ## Authors
 
 [[Liang Qiu]], [[Yizhou Zhao]], [[Jinchao Li]], [[Pan Lu]], [[Baolin Peng]], [[Jianfeng Gao]], [[Song-Chun Zhu]]
+
+## Data Description
+
+VALUENET is a large-scale dataset containing human attitudes on 21,374 text scenarios organized across ten Schwartz basic human value dimensions (e.g., security, power, achievement, benevolence). Scenarios were curated from SOCIAL-CHEM-101 using value-related keywords and annotated by 443 qualified Amazon Mechanical Turk workers for positive, negative, or neutral attitudes. The dataset was used to train Transformer-based value regression models (BERT, RoBERTa, DistilBERT, BART) and applied to personalized dialogue generation and empathetic response generation tasks.
+
 
 ## Notes
 

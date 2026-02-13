@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "The rapid development of Chinese large language models (LLMs) poses b
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "7 datasets; 6 datasets"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety
 
@@ -61,6 +64,10 @@ The rapid development of Chinese large language models (LLMs) poses big challeng
 ## Dataset Information
 
 35 benchmark datasets total
+
+## Data Description
+
+OpenEval is a comprehensive evaluation platform for Chinese LLMs encompassing 25 benchmark datasets organized into 53 tasks across capability, alignment, and safety dimensions. The benchmark contains approximately 300K questions covering NLP tasks, disciplinary knowledge, commonsense reasoning, mathematical reasoning, bias, offensiveness, illegality, and advanced AI safety risks. The platform evaluated 14 Chinese LLMs (9 open-source ranging from 6B to 72B parameters, plus 5 proprietary models) under zero-shot settings.
 
 ## Notes
 

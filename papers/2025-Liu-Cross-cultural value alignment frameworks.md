@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Ethical Dilemma Corpus, cross-cultural evaluation datasets"
 data_metrics: "Truth vs loyalty rates, temporal stability, cultural fidelity scores"
+LLM_assessed: "GPT-4o, GPT-3.5, Claude, Llama-3, Llama-2, Mistral, Mixtral, Qwen, DeepSeek"
+DATA_URL: "NA"
 ---
 # Cross-cultural value alignment frameworks for responsible AI governance: Evidence from China-West comparative analysis
 
@@ -49,6 +52,11 @@ data_metrics: "Truth vs loyalty rates, temporal stability, cultural fidelity sco
 ## Abstract
 
 As Large Language Models (LLMs) increasingly influence high-stakes decision-making across global contexts, ensuring their alignment with diverse cultural values has become a critical governance challenge. This study presents a Multi-Layered Auditing Platform for Responsible AI that systematically evaluates cross-cultural value alignment in China-origin and Western-origin LLMs through four integrated methodologies: Ethical Dilemma Corpus for assessing temporal stability, Diversity-Enhanced Framework (DEF) for quantifying cultural fidelity, First-Token Probability Alignment for distributional accuracy, and Multi-stAge Reasoning frameworK (MARK) for interpretable decision-making. The comparative analysis covers 20+ leading models including Qwen, GPT-4o, Claude, LLaMA, and DeepSeek. Key findings include that LLMs prioritize truth over loyalty in 93.48% of cases and long-term over short-term considerations in 83.69% of cases, with larger LLMs tending to support a deontological perspective.
+
+## Data Description
+
+This study presents a Multi-Layered Auditing Platform for Responsible AI that evaluates cross-cultural value alignment in 20+ China-origin and Western-origin LLMs through four integrated methodologies. The platform utilizes ethical dilemma corpora with 1,730 scenarios across value pairs, Diversity-Enhanced Framework for cultural fidelity quantification, First-Token Probability Alignment, and Multi-stAge Reasoning frameworK (MARK). Models are evaluated against World Values Survey data from U.S. and Chinese populations.
+
 
 ## Notes
 

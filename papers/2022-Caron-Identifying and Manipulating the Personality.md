@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "BERT, GPT-2"
+DATA_URL: "NA"
 ---
 # Identifying and Manipulating the Personality Traits of Language Models
 
@@ -62,6 +65,11 @@ Psychology research has long explored aspects of human personality such as extro
 ## Authors
 
 [[Graham Caron]], [[Shashank Srivastava]]
+
+## Data Description
+
+The paper uses a standard 50-item Big Five personality assessment questionnaire adapted for language models, evaluating BERT-base and GPT2 on personality trait measurement and manipulation. The authors contribute two datasets: a crowd-sourced dataset of personality descriptions from human subjects paired with their Big Five assessment scores, and a dataset of personality descriptions collated from Reddit. Human population baseline data comes from a large-scale survey of approximately 1,015,000 individuals.
+
 
 ## Notes
 

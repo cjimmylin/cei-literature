@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, Llama, Llama-2, Vicuna, Falcon"
+DATA_URL: "https://github.com/chujiezheng/LLM-MCQ-Bias"
 ---
 # Large Language Models Are Not Robust Multiple Choice Selectors
 
@@ -64,6 +67,11 @@ Multiple choice questions (MCQs) serve as a common yet important task format in 
 ## Authors
 
 [[Chujie Zheng]], [[Hao Zhou]], [[Fandong Meng]], [[Jie Zhou]], [[Minlie Huang]]
+
+## Data Description
+
+This paper investigates selection bias in LLMs when answering multiple choice questions, showing that models prefer specific option IDs as answers. The evaluation covers 20 LLMs across popular families including Llama (7/13/30/65B), Llama-2 and Llama-2-chat (7/13/70B), Vicuna v1.3 and v1.5 variants, Falcon (7/40B) and Falcon-instruct, and gpt-3.5-turbo, tested on MMLU, ARC-Challenge, and CommonsenseQA benchmarks. The paper proposes PriDe, a label-free inference-time debiasing method.
+
 
 ## Notes
 

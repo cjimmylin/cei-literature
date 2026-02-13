@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "BERT, RoBERTa, ALBERT, Mistral, Llama, Gemma"
+DATA_URL: "https://github.com/TomBladsjo/MARB"
 pdf_extract: "PDF Extracts/2025/2025-Södahl Bladsjö-MARB.md"
 local_pdf: "[[PDFs/2025/2025-Södahl Bladsjö-MARB.pdf]]"
 ---
@@ -46,6 +49,11 @@ local_pdf: "[[PDFs/2025/2025-Södahl Bladsjö-MARB.pdf]]"
 ## Abstract
 
 Reporting bias is the tendency for speakers to omit unnecessary or obvious information while mentioning things they consider relevant or surprising. In descriptions of people, reporting bias can manifest as a tendency to over report on attributes that deviate from the norm. While social bias in language models has garnered a lot of attention in recent years, a majority of the existing work equates “bias” with “stereotypes”. We suggest reporting bias as an alternative lens through which to study how social attitudes manifest in language models. We present the MARB dataset, a diagnostic dataset for studying the interaction between social bias and reporting bias in language models. We use MARB to evaluate the off-the-shelf behavior of both masked and autoregressive language models and find signs of reporting bias with regards to marginalized identities, mirroring that which can be found in human text. This effect is particularly pronounced when taking gender into account, demonstrating the importance of considering intersectionality when studying social phenomena like biases.
+
+## Data Description
+
+The MARB (Marked Attribute and Reporting Bias) dataset is a diagnostic dataset for studying the interaction between social bias and reporting bias in language models. It consists of 28.5K sequence templates based on naturally occurring English text, populated with attribute descriptors across three categories: Race, Queerness, and Disability. Each template is paired with marked and unmarked versions to measure how language models handle socially marked attributes related to marginalized identities.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4o, o3, Claude, DeepSeek, Gemini, Llama, Qwen"
+DATA_URL: "https://infodeepseek.github.io/"
 ---
 # InfoDeepSeek: Benchmarking Agentic Information Seeking for Retrieval-Augmented Generation
 
@@ -94,6 +97,11 @@ Agentic RAG is the future of knowledge systems, but we lack the tools to measure
 ## Authors
 
 [[Yunjia Xi]], [[Jianghao Lin]], [[Menghui Zhu]], [[Yongzhao Xiao]], [[Zhuoying Ou]], [[Jiaqi Liu]], [[Tong Wan]], [[Bo Chen]], [[Weiwen Liu]], [[Yasheng Wang]], [[Ruiming Tang]], [[Weinan Zhang]], [[Yong Yu]]
+
+## Data Description
+
+InfoDeepSeek is a benchmark with 245 manually curated challenging questions designed for evaluating agentic information seeking in real-world dynamic web environments. The questions satisfy criteria of determinacy, difficulty, and diversity across 14 domains and 19 predominant languages, covering attributes like multi-hop reasoning, long-tail knowledge, time-sensitivity, freshness, distracting information, and false premises. The benchmark evaluates multiple LLMs including GPT-4o, o3-mini, Claude-3.7-Sonnet, DeepSeek-V3, DeepSeek-R1, Gemini-2.5-Flash/Pro, Llama-4-Maverick, and Qwen3-32B under an agentic RAG framework.
+
 
 ## Notes
 

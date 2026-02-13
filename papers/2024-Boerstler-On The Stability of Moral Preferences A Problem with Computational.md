@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Preference elicitation frameworks feature heavily in the research on 
 ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # On The Stability of Moral Preferences: A Problem with Computational Elicitation Methods
 
@@ -65,6 +68,10 @@ Preference elicitation frameworks feature heavily in the research on participato
 ## Dataset Information
 
 Repeated moral preference surveys across 10 sessions in 2 studies; kidney allocation decisions
+
+## Data Description
+
+The study conducted two human subject experiments on moral preference stability using kidney allocation scenarios. Study One involved 30 participants and Study Two involved 82 participants recruited via Prolific, each presented with 60 pairwise kidney allocation decisions per session over 10 sessions across two weeks. Six repeated scenarios (3 uncontroversial, 3 controversial) measured within-participant response stability, with features including years of life gained, dependents, waiting time, and obesity level.
 
 ## Notes
 

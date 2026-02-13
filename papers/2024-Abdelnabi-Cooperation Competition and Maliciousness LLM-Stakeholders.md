@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "There is an growing interest in using Large Language Models (LLMs) in
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Gemini, Llama-2, Llama-3, Mixtral"
+DATA_URL: "NA"
 ---
 # Cooperation, Competition, and Maliciousness: LLM-Stakeholders Interactive Negotiation
 
@@ -62,6 +65,10 @@ There is an growing interest in using Large Language Models (LLMs) in multiagent
 ## Dataset Information
 
 Multi-agent, multi-issue, semantically rich negotiation games; tunable difficulty; cooperative/greedy/malicious agent variants; game transcripts released
+
+## Data Description
+
+The paper presents a testbed of complex multi-agent, multi-issue negotiation games to evaluate LLMs' communication and decision-making abilities. Six parties negotiate over five issues with secret scores and minimum thresholds in compromising, greedy, and adversarial game variants. The benchmark evaluates GPT-4, GPT-3.5, Gemini Pro, Llama-2 (13b, 70b), Llama-3 70b, and Mixtral 8x7B across 20 runs per experiment with metrics including deal success rate, score calculations, and score leakage.
 
 ## Notes
 

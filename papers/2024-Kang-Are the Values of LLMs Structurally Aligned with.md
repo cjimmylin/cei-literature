@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "Gemma, Llama-3"
+DATA_URL: "NA"
 ---
 # Are the Values of LLMs Structurally Aligned with Humans? A Causal Perspective
 
@@ -64,6 +67,11 @@ As large language models (LLMs) become increasingly integrated into critical app
 ## Authors
 
 [[Yipeng Kang]], [[Junqi Wang]], [[Yexin Li]], [[Mengmeng Wang]], [[Wenming Tu]], [[Quansen Wang]], [[Hengli Li]], [[Tingjun Wu]], [[Xue Feng]], [[Fangwei Zhong]], [[Zilong Zheng]]
+
+## Data Description
+
+The study uses the ValueBench questionnaire to assess LLM value orientations across 17 representative value dimensions. Experiments are conducted on Gemma-2B-IT and Llama3-8B-IT using 125 virtual roles with diverse background settings, partitioned into training (100) and test (25) sets. Causal value graphs are mined from 2,525 data entries combining role-playing prompts and SAE feature steering to guide lightweight value-steering methods.
+
 
 ## Notes
 

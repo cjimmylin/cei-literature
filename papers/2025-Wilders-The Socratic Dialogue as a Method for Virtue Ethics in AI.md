@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics socratic dialogue"
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # The Socratic Dialogue as a Method for Virtue Ethics in AI: A Case Study
 
@@ -47,6 +50,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 This paper investigates how the Socratic Dialogue can cultivate moral virtues among AI practitioners. The research focuses on core virtues deemed essential for ethical AI practice, including justice, care, honesty, responsibility, practical wisdom (phronesis), and fortitude. The study utilized a case study conducted within a financial bank's transaction monitoring department. Seven participants, comprising data scientists, legal specialists, and ethics experts, engaged in a facilitated Socratic Dialogue to address an ethical dilemma concerning AI-driven detection of financial fraud and terrorist activity. Through abductive analysis, the researchers observed that tensions arose within key virtues, highlighting the complexities of ethical decision-making in AI systems. The collective nature of the dialogue fostered a more refined and context-sensitive understanding of these virtues among participants. The process was found to cultivate practical wisdom as a relational capacity developed through shared reflection and moral reasoning, and to strengthen fortitude, encouraging AI practitioners to voice ethical concerns despite situational pressures. The study suggests that the Socratic Dialogue offers a promising foundation for a virtue-oriented approach to AI ethics, moving beyond mere compliance frameworks towards a deeper moral engagement.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents a qualitative case study of a Socratic Dialogue conducted at a financial bank's transaction monitoring department, examining how structured ethical deliberation cultivates moral virtues among seven AI practitioners through abductive analysis of dialogue minutes.
+
 
 ## Notes
 

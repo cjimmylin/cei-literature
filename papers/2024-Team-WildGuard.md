@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multi-task benchmark for ai safety annotated dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama, Mistral, Gemma, Vicuna"
+DATA_URL: "https://huggingface.co/datasets/allenai/wildguardmix, https://github.com/allenai/wildguard"
 publication: NeurIPS 2024
 DATE_ADDED: 20260207
 ---
@@ -59,6 +62,11 @@ We introduce WildGuard -- an open, light-weight moderation tool for LLM safety t
 ## Authors
 
 [[Seungju Han]], [[Kavel Rao]], [[Allyson Ettinger]], [[Liwei Jiang]], [[Bill Yuchen Lin]], [[Nathan Lambert]], [[Yejin Choi]], [[Nouha Dziri]]
+
+## Data Description
+
+WildGuardMix is a large-scale, balanced multi-task safety moderation dataset comprising 92K labeled examples covering 13 risk categories. It includes WildGuardTrain (87K training examples) and WildGuardTest (5,299 human-annotated items) for prompt harmfulness detection, response harmfulness detection, and refusal detection. The dataset covers vanilla and adversarial prompts paired with compliance and refusal responses, drawn from synthetic generation, in-the-wild user-LLM interactions, and existing annotator-written safety data.
+
 
 ## Notes
 

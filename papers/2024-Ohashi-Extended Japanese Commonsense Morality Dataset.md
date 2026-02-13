@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "BERT, RoBERTa, ChatGPT, GPT-4"
+DATA_URL: "https://github.com/IyatomiLab/extended-jcm"
 ---
 # Extended Japanese Commonsense Morality Dataset with Masked Token and Label Enhancement
 
@@ -65,6 +68,11 @@ Rapid advancements in artificial intelligence (AI) have made it crucial to integ
 ## Authors
 
 [[Takumi Ohashi]], [[Tsubasa Nakagawa]], [[Hitoshi Iyatomi]]
+
+## Data Description
+
+The paper introduces the Extended JCommonsenseMorality (eJCM) dataset, expanding the original JCM dataset from 13,975 to 31,184 Japanese moral judgment sentences using the Masked Token and Label Enhancement (MTLE) method. Each sentence is labeled as morally acceptable or unacceptable. BERT, RoBERTa, ChatGPT (GPT-3.5 Turbo), and GPT-4 Turbo are evaluated on moral acceptability classification, with special focus on Japan-specific cultural sentences (244 items).
+
 
 ## Notes
 

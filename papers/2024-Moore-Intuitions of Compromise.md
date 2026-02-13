@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, text-davinci"
+DATA_URL: "NA"
 DATE_ADDED: 20260207
 ---
 # Intuitions of Compromise: Utilitarianism vs. Contractualism
@@ -64,6 +67,11 @@ What is the best compromise in a situation where different people value differen
 ## Authors
 
 [[Jared Moore]], [[Yejin Choi]], [[Sydney Levine]]
+
+## Data Description
+
+The paper presents a series of empirical studies comparing human and LLM intuitions about value aggregation using randomly generated scenarios involving three groups choosing between three proposals. The study tests whether participants prefer the Utilitarian Sum or the Nash Product as a compromise mechanism, using both focused (outcomes in {1, 51, 101}) and random (outcomes in [1, 101]) scenario sets with novel visual aids (area and volume charts).
+
 
 ## Notes
 

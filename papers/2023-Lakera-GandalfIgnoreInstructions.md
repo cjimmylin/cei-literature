@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: [[2023-Lakera-GandalfIgnoreInstructions]]
 no_pdf_applicable: "true"
 ---
@@ -85,6 +88,11 @@ The Gandalf challenge provides empirical evidence that simple instruction-based 
 - Interactive challenge platform: Gandalf (publicly accessible via Lakera)
 - Implicit dataset: User interaction logs from 9 million prompts demonstrating attack patterns
 - Educational framework: Seven-level progression demonstrating defense mechanisms
+
+## Data Description
+
+This blog post describes Gandalf, an interactive prompt injection challenge by Lakera that tests users' ability to manipulate language models into revealing hidden passwords across seven difficulty levels. It generated nearly 9 million interactions from over 200,000 unique users, demonstrating real-world vulnerabilities in LLMs handling sensitive information, but does not introduce a formal dataset or benchmark.
+
 
 ## Notes
 

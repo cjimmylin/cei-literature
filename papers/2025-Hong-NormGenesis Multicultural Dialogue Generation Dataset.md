@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Social norms govern culturally appropriate behavior in communication,
 ethics_perspective: "Social & Cultural Values"
 data_description: "Benchmark for moral/ethical reasoning annotated dataset for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-3, Qwen"
+DATA_URL: "NA"
 ---
 # NormGenesis: Multicultural Dialogue Generation Dataset
 
@@ -62,6 +65,10 @@ Social norms govern culturally appropriate behavior in communication, enabling d
 ## Dataset Information
 
 10,800 multi-turn dialogues across English, Chinese, Korean annotated for norm adherence
+
+## Data Description
+
+NormGenesis is a multicultural framework that generates and annotates socially grounded dialogues across English, Chinese, and Korean, constructing a dataset of 10,800 multi-turn dialogues annotated at the turn level for norm adherence, speaker intent, and emotional response. GPT-4.1 was used for scenario-situation refinement and dialogue generation, GPT-4o for automatic evaluation, and GPT-4o-mini, LLaMA-3-8B, Qwen-2.5-14B, and Qwen-2.5-32B were fine-tuned for downstream generalization experiments.
 
 ## Notes
 

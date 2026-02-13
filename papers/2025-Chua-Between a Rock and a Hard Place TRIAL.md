@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ tags:
 abstract: "Warning: This paper contains potentially offensive and harmful text. Large Language Model safety alignment predominantly operates on a binary assumption that requests are either safe or unsafe. This classification proves insufficient when models encounter ethical dilemmas, where the capacity to reason through moral trade-offs creates a distinct attack surface. We formalize this vulnerability through TRIAL, a multi-turn red-teaming methodology that embeds harmful requests within ethical framings."
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Mistral"
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
 # Between a Rock and a Hard Place (TRIAL)
@@ -62,6 +65,10 @@ Warning: This paper contains potentially offensive and harmful text. Large Langu
 ## Dataset Information
 
 Multi-turn red-teaming methodology
+
+## Data Description
+
+This paper introduces TRIAL (Trolley-problem Reasoning for Interactive Attack Logic), a multi-turn red-teaming methodology that exploits LLMs' ethical reasoning capabilities by embedding harmful requests within trolley-problem ethical framings. The mechanistic analysis focuses on LLaMA-3.1-8B-Instruct and Mistral-7B-Instruct-v0.2, demonstrating a safety dissociation gap where early-layer harm detection is overridden by ethical reasoning circuits, and proposes ERR (Ethical Reasoning Robustness), a Layer-Stratified Harm-Gated LoRA defense framework.
 
 ## Notes
 

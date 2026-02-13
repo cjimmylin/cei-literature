@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4"
+DATA_URL: "https://huggingface.co/devai-benchmark"
 ---
 # Agent-as-a-Judge: Evaluate Agents with Agents
 
@@ -62,6 +65,11 @@ Contemporary evaluation techniques are inadequate for agentic systems. These app
 ## Authors
 
 [[Mingchen Zhuge]], [[Changsheng Zhao]], [[Dylan Ashley]], [[Wenyi Wang]], [[Dmitrii Khizbullin]], [[Yunyang Xiong]], [[Zechun Liu]], [[Ernie Chang]], [[Raghuraman Krishnamoorthi]], [[Yuandong Tian]], [[Yangyang Shi]], [[Vikas Chandra]], [[Jürgen Schmidhuber]]
+
+## Data Description
+
+The paper introduces the DevAI benchmark of 55 realistic automated AI development tasks with 365 hierarchical requirements, evaluated using the Agent-as-a-Judge framework. Three code-generating agentic systems (MetaGPT, GPT-Pilot, OpenHands) are benchmarked with gpt-4o-2024-05-13 as the backend engine, comparing Agent-as-a-Judge evaluation against LLM-as-a-Judge and human evaluation baselines.
+
 
 ## Notes
 

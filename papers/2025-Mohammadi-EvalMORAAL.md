@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "World Values Survey, PEW Global Attitudes Survey"
 data_metrics: "Pearson correlation, regional alignment scores"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, PaLM-2, Llama-3, Qwen, Mistral, DeepSeek, Phi, o1"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Mohammadi-EvalMORAAL.md"
 ---
 # EvalMORAAL: Interpretable Chain-of-Thought and LLM-as-Judge Evaluation for Moral Alignment in Large Language Models
@@ -49,6 +52,11 @@ pdf_extract: "PDF Extracts/2025/2025-Mohammadi-EvalMORAAL.md"
 ## Abstract
 
 EvalMORAAL is a transparent chain-of-thought (CoT) framework that uses two scoring methods (log-probabilities and direct ratings) plus a model-as-judge peer review to evaluate moral alignment in 20 large language models. The researchers assess models on the World Values Survey (55 countries, 19 topics) and the PEW Global Attitudes Survey (39 countries, 8 topics). The framework adds three parts: (1) two scoring methods for all models to enable fair comparison, (2) a structured chain-of-thought protocol with self-consistency checks, and (3) a model-as-judge peer review that flags 348 conflicts using a data-driven threshold. Key findings include top models aligning closely with survey responses (Pearson's r approximately 0.90 on WVS), but a clear regional difference: Western regions average r=0.82 while non-Western regions average r=0.61 (a 0.21 absolute gap).
+
+## Data Description
+
+EvalMORAAL evaluates 20 large language models on moral alignment using the World Values Survey (55 countries, 19 topics) and the PEW Global Attitudes Survey (39 countries, 8 topics). The framework collects 135,700 chain-of-thought traces and 54,280 dual scores (log-probability and direct rating) across 1,357 country-topic pairs, employing two scoring methods and an LLM-as-judge peer review with 348 detected conflicts.
+
 
 ## Notes
 

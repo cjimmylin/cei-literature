@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for ai safety annotated dataset"
 data_metrics: "6 languages"
+LLM_assessed: "NA"
+DATA_URL: "https://huggingface.co/datasets/CohereForAI/aya_redteaming"
 ---
 # AyaRedTeaming: A Benchmark for Exploring Alignment Across Global and Local Preferences
 
@@ -57,6 +60,11 @@ A key concern with the concept of "alignment" is the implicit question of "align
 ## Authors
 
 [[Aakanksha]], [[Arash Ahmadian]], [[Beyza Ermis]], [[Seraphina Goldfarb-Tarrant]], [[Julia Kreutzer]], [[Marzieh Fadaee]], [[Sara Hooker]]
+
+## Data Description
+
+The paper introduces the Aya Red-teaming dataset, a multilingual red-teaming dataset of 7,419 human-annotated harmful prompts across 8 languages (English, Hindi, French, Spanish, Russian, Arabic, Serbian, Filipino), distinguishing between global and local harms. The dataset includes synthetically expanded preference pairs for safety alignment training, along with a general-purpose multilingual preference dataset based on UltraFeedback Binarized translated into 6 target languages. Experiments evaluate SFT and DPO alignment techniques on an Aya 23 8B base model.
+
 
 ## Notes
 

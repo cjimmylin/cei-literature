@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama, Llama-2, Mistral"
+DATA_URL: "https://github.com/Akhila-Yerukola/NormAd"
 ---
 # NormAd: A Framework for Measuring the Cultural Adaptability of Large Language Models
 
@@ -65,6 +68,11 @@ To be effectively and safely deployed to global user populations, large language
 ## Authors
 
 [[Abhinav Rao]], [[Akhila Yerukola]], [[Vishwa Shah]], [[Katharina Reinecke]], [[Maarten Sap]]
+
+## Data Description
+
+NormAd-ETI is a benchmark of 2,633 situational descriptions representing social etiquette-related cultural norms from 75 countries, sourced from the Cultural Atlas resource. Each situation includes a question-answer pair for evaluating social acceptability under three levels of cultural context specificity: Rule-of-Thumb, Country+Value, and Country alone. The dataset spans four subcategories (Basic Etiquette, Eating, Visiting, Gift-Giving) with three label types (Yes, No, Neutral).
+
 
 ## Notes
 

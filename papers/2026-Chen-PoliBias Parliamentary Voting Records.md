@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "As large language models (LLMs) become deeply embedded in digital pla
 ethics_perspective: "Bias & Fairness"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
+LLM_assessed: "Mistral, Falcon, Gemma, DeepSeek, GPT-3.5, GPT-4, Llama-2, Llama-3"
+DATA_URL: "NA"
 ---
 # PoliBias (Parliamentary Voting Records)
 
@@ -62,6 +65,10 @@ As large language models (LLMs) become deeply embedded in digital platforms and 
 ## Dataset Information
 
 Three national benchmarks:
+
+## Data Description
+
+The study introduces three cross-national political bias benchmarks: PoliBiasNL (2,701 Dutch parliamentary motions from 15 parties), PoliBiasNO (10,584 Norwegian motions from 9 parties), and PoliBiasES (2,480 Spanish motions from 10 parties). These datasets are derived from real legislative voting records collected via automated web scraping and are used to assess ideological tendencies and political entity bias in 8 LLMs by aligning model-generated voting predictions with verified party votes in a shared CHES ideological space.
 
 ## Notes
 

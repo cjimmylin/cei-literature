@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Kim-KOME.md"
 ---
 # KOME: A Korean Dataset of Fine-Grained Moral Emotions
@@ -57,6 +60,11 @@ KOME (Korean Online Moral Emotion) is a Korean dataset of fine-grained moral emo
 ## Authors
 
 [[Jaehong Kim]], [[Chaeyoon Jeong]], [[Seongchan Park]], [[Meeyoung Cha]], [[Wonjae Lee]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a parasitology study reporting malaria prevalence among 244 primary schoolchildren on Kome Island, Lake Victoria, Tanzania, using blood smear examinations to detect Plasmodium falciparum and Plasmodium vivax infections.
+
 
 ## Notes
 

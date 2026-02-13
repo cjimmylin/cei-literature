@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large Language Models (LLMs) are increasingly used in high-stakes fie
 ethics_perspective: "Bias & Fairness"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Gemini, Mistral, Llama-3, Qwen, DeepSeek, Phi"
+DATA_URL: "https://github.com/THUYRan/LLM-Fairness"
 ---
 # LLMs on Trial: Evaluating Judicial Fairness for Large Language Models (JudiFair)
 
@@ -61,6 +64,10 @@ Large Language Models (LLMs) are increasingly used in high-stakes fields where t
 ## Dataset Information
 
 JudiFair dataset: 177,100 unique case facts
+
+## Data Description
+
+JudiFair is a comprehensive judicial fairness evaluation dataset comprising 177,100 unique case facts across 65 labels and 161 label values, derived from 1,100 Chinese judicial documents. Sixteen LLMs were evaluated including Glm 4, Gemini Flash 1.5, Mistral Nemo, Llama 3.1 8B, Qwen2.5 72B/7B, DeepSeek V3, DeepSeek R1-32B, Phi 4, and Mistral Small 3, assessing inconsistency, bias, and imbalanced inaccuracy across three evaluation metrics.
 
 ## Notes
 

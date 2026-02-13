@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "As large language models (LLMs) become integral to safety-critical ap
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "29,362 samples"
+LLM_assessed: "Llama-3, Gemma, Qwen, Mistral, GPT-4"
+DATA_URL: "https://github.com/knoveleng/redeval"
 ---
 # RedBench
 
@@ -62,6 +65,10 @@ As large language models (LLMs) become integral to safety-critical applications,
 ## Dataset Information
 
 29,362 samples (attack and refusal prompts)
+
+## Data Description
+
+RedBench is a universal red teaming dataset aggregating 37 benchmark datasets from leading conferences and repositories, comprising 29,362 samples across attack and refusal prompts. It employs a standardized taxonomy with 22 risk categories and 19 domains, enabling consistent evaluation of LLM vulnerabilities. Six safety-aligned LLMs (Llama-3.1-8B-Instruct, Gemma-2-9B-It, Qwen2.5-7B-Instruct, Ministral-8B-Instruct-2410, GPT-4o Mini, GPT-4.1-Nano) are evaluated using attack success rate and rejection rate metrics.
 
 ## Notes
 

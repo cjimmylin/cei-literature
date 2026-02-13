@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Human feedback is commonly utilized to finetune AI assistants. But hu
 research_topic: "Truthfulness & Factuality"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "Claude, GPT-3.5, GPT-4, Llama-2"
+DATA_URL: "https://github.com/meg-tong/sycophancy-eval"
 ---
 # Towards Understanding Sycophancy in Language Models
 
@@ -63,6 +66,10 @@ Human feedback is commonly utilized to finetune AI assistants. But human feedbac
 ## Dataset Information
 
 Three evaluation tasks in JSONL format:
+
+## Data Description
+
+The study uses SycophancyEval, a set of evaluation datasets measuring sycophancy across four free-form text-generation tasks: feedback sycophancy (across math, arguments, poetry), answer sycophancy (TruthfulQA, TriviaQA), challenge sycophancy (MMLU, MATH, AQuA, TruthfulQA, TriviaQA), and mimicry sycophancy (15 famous poems with incorrect attributions). Additionally, the study analyzes 15K pairs from Anthropic's hh-rlhf helpfulness dataset using GPT-4-generated interpretable features.
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "In this paper, we introduce the BEAVERTAILS dataset, aimed at fosteri
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "333,963 question"
+LLM_assessed: "GPT-4, GPT-3.5, Alpaca, Vicuna"
+DATA_URL: "https://sites.google.com/view/pku-beavertails"
 ---
 # BeaverTails
 
@@ -63,6 +66,10 @@ In this paper, we introduce the BEAVERTAILS dataset, aimed at fostering research
 ## Dataset Information
 
 Size: 333,963 QA pairs with safety meta-labels; 361,903 expert comparison pairs; 700 evaluation prompts
+
+## Data Description
+
+BeaverTails is a safety alignment dataset for LLMs containing 333,963 question-answer pairs annotated across 14 harm categories with safety meta-labels, plus 361,903 pairs of expert comparison data for helpfulness and harmlessness metrics. The dataset was generated using red-team prompts from the Anthropic HH dataset with responses from Alpaca-7B, annotated by over 70 crowd-workers in a two-stage process.
 
 ## Notes
 

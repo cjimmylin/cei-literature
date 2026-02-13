@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_WALDNER2025
@@ -29,6 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Open Opportunities in AI Safety, Alignment, and Ethics (AI SAE)
 
@@ -69,6 +72,11 @@ The paper treats metaethical theories as sources of testable hypotheses: "realis
 2. Neural network encoding of cooperative norms
 3. Game theory for human-AI cooperation modeling
 4. Virtue ethics as character formation paradigm
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical paper proposing a governance-embedding-representation pipeline for AI safety, formalizing a moral problem space (M) as a learnable subspace in neural representations where cooperative norms can be encoded, using evolutionary game theory and replicator dynamics to model population-level alignment dynamics.
+
 
 ## Notes
 

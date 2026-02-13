@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2, Llama-3, Vicuna, Mistral, Mixtral, GPT-3.5, GPT-4"
+DATA_URL: "https://github.com/AI4LIFE-GROUP/med-safety-bench"
 ---
  MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models
 
@@ -51,6 +54,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 As large language models (LLMs) develop increasingly sophisticated capabilities and find applications in medical settings, it becomes important to assess their medical safety due to their far-reaching implications for personal and public health, patient safety, and human rights. However, there is little to no understanding of the notion of medical safety in the context of LLMs, let alone how to evaluate and improve it. To address this gap, we first define the notion of medical safety in LLMs based on the Principles of Medical Ethics set forth by the American Medical Association. We then leverage this understanding to introduce MedSafetyBench, the first benchmark dataset designed to measure the medical safety of LLMs. We demonstrate the utility of MedSafetyBench by using it to evaluate and improve the medical safety of LLMs. Our results show that publicly-available medical LLMs do not meet standards of medical safety and that fine-tuning them using MedSafetyBench improves their medical safety while preserving their medical performance. By introducing this new benchmark dataset, our work enables a systematic study of the state of medical safety in LLMs and motivates future work in this area, paving the way to mitigate the safety risks of LLMs in medicine. The benchmark dataset and code are available at https://github.com/AI4LIFE-GROUP/med-safety-bench.
+
+## Data Description
+
+MedSafetyBench is the first medical safety benchmark for LLMs, comprising 1,800 harmful medical requests and corresponding safe responses based on the AMA's nine Principles of Medical Ethics. The dataset was generated using GPT-4 and Llama-2-7b-chat (with jailbreaking via Greedy Coordinate Gradient), validated by 25 domain expert doctors, and split into MedSafety-Eval (900 demonstrations) and MedSafety-Improve (900 demonstrations) for evaluation and fine-tuning respectively.
+
 
 ## Notes
 

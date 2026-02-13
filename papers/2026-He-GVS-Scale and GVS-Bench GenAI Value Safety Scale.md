@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "The rapid development of generative AI has brought value- and ethics-
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Gemini, Grok, Qwen, DeepSeek"
+DATA_URL: "https://github.com/acl2026/GVS-Bench"
 ---
 # GVS-Scale and GVS-Bench: GenAI Value Safety Scale
 
@@ -62,6 +65,10 @@ The rapid development of generative AI has brought value- and ethics-related ris
 ## Dataset Information
 
 Unified value safety framework with lifecycle-oriented taxonomy for GenAI systems
+
+## Data Description
+
+The paper constructs the GenAI Value Safety Incident Repository (GVSIR) with 1,126 real-world incidents and derives a 3-layer, 12-category GenAI Value Safety Scale (GVS-Scale). The GVS-Bench operationalizes the scale with 266 test cases (90 text-based) across modalities, evaluating six mainstream text generation models (GPT-5.1, Claude Opus 4, Gemini 3 Pro, Grok 4.1, Qwen3, DeepSeek-v3) on value safety alignment using a human-AI collaborative evaluation protocol.
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "There is growing consensus that language model (LM) developers should
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+LLM_assessed: "Claude"
+DATA_URL: "NA"
 ---
 # Collective Constitutional AI: Aligning a Language Model with Public Input
 
@@ -65,6 +68,10 @@ There is growing consensus that language model (LM) developers should not be the
 ## Dataset Information
 
 275 public statements sourced via Polis platform (after moderation); constitutions derived from public deliberation; evaluated on BBQ (bias), OpinionQA (political ideology), MMLU, GSM8K
+
+## Data Description
+
+This paper presents Collective Constitutional AI (CCAI), a multi-stage process for sourcing and integrating public input into language models. A representative sample of 1,002 U.S. adults contributed 1,127 statements and cast 38,252 votes via the Polis deliberation platform, producing a Public constitution used to fine-tune a Claude-family language model. The resulting model was evaluated against a Standard constitution model on benchmarks including BBQ bias, MMLU, and GSM8K.
 
 ## Notes
 

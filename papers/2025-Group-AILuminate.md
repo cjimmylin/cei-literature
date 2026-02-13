@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for ai safety text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Mistral, Gemma"
+DATA_URL: "https://github.com/mlcommons/ailuminate"
 ---
 # AILuminate: Introducing v1.0 of the AI Risk and Reliability Benchmark from MLCommons
 
@@ -57,6 +60,11 @@ The rapid advancement and deployment of AI systems have created an urgent need f
 ## Authors
 
 [[Shaona Ghosh]], [[Heather Frase]], [[Adina Williams]], [[Sarah Luger]], [[Paul Röttger]], [[Fazl Barez]], [[Sean McGregor]], [[Kenneth Fricklas]], [[Mala Kumar]], [[Quentin Feuillade--Montixi]], [[Kurt Bollacker]], [[Felix Friedrich]], [[Ryan Tsang]], [[Bertie Vidgen]], [[Alicia Parrish]], [[Chris Knotz]], [[Eleonora Presani]], [[Jonathan Bennion]], [[Marisa Ferrara Boston]], [[Mike Kuniavsky]], [[Wiebke Hutiri]], [[James Ezick]], [[Malek Ben Salem]], [[Rajat Sahay]], [[Sujata Goswami]], [[Usman Gohar]], [[Baixiang Huang|Ben Huang]], [[Supheakmungkol Sarin]], [[Elie Alhajjar]], [[Canyu Chen]], [[Roman Eng]], [[Kashyap Ramanandula Manjusha]], [[Virendra Mehta]], [[Eileen Long]], [[Murali Emani]], [[Natan Vidra]], [[Benjamin Rukundo]], [[Abolfazl Shahbazi]], [[Kongtao Chen]], [[Reshmi Ghosh|Rajat Ghosh]], [[Vithursan Thangarasa]], [[Pierre Peigné]], [[Abhinav Singh]], [[Max Bartolo]], [[Satyapriya Krishna]], [[Mubashara Akhtar]], [[Rafael Gold]], [[Chad Coleman|Cody Coleman]], [[Luis Oala]], [[Vassil Tashev]], [[Joseph Marvin Imperial]], [[Amy Russ]], [[Sasidhar Kunapuli]], [[Nicolas Miailhe]], [[Julien Delaunay]], [[Bhaktipriya Radharapu]], [[Rajat Shinde]], [[Tuesday]], [[Debojyoti Dutta]], [[Declan Grabb]], [[Ananya Gangavarapu]], [[Saurav Sahay]], [[Agasthya Gangavarapu]], [[Patrick Schramowski]], [[Stephen Singam]], [[Tom David]], [[Xudong Han]], [[Priyanka Mary Mammen]], [[Tarunima Prabhakar]], [[Venelin Kovatchev]], [[Rebecca Weiss]], [[Ahmed Ahmed]], [[Kelvin N. Manyeki]], [[Sandeep Madireddy]], [[Foutse Khomh]], [[Fedor Zhdanov]], [[Joachim Baumann]], [[Nina Vasan]], [[Xianjun Yang]], [[Carlos Mougn]], [[Jibin Rajan Varghese]], [[Hussain Chinoy]], [[Seshakrishna Jitendar]], [[Manil Maskey]], [[Claire V. Hardgrove]], [[Tianbin Li|Tianhao Li]], [[Aakash Gupta]], [[Emil Joswin]], [[Yifan Mai]], [[Shachi H Kumar]], [[Cigdem Patlak]], [[Kevin Lu]], [[Vincent Alessi]], [[Sree Bhargavi Balija]], [[Chenhe Gu]], [[Robert Sullivan]], [[James Gealy]], [[Matt Lavrisa]], [[James Goel]], [[Peter Mattson]], [[Percy Liang]], [[Joaquin Vanschoren]]
+
+## Data Description
+
+AILuminate v1.0 is the first comprehensive industry-standard benchmark for AI-product risk and reliability, developed by the MLCommons Risk and Reliability Working Group. It evaluates AI systems' resistance to prompts across 12 hazard categories using 24,000 prompts (practice and official sets of 12,000 each), an ensemble-based LLM evaluator fine-tuned from models including Llama, Mistral, and guard models like LlamaGuard and ShieldGemma, and a five-tier grading scale from Poor to Excellent.
+
 
 ## Notes
 

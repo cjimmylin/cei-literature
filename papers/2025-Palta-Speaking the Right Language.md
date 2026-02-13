@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4"
+DATA_URL: "NA"
 ---
 # Speaking the Right Language: The Impact of Expertise Alignment in User-AI Interactions
 
@@ -64,6 +67,11 @@ Using a sample of 25, 000 Bing Copilot conversations, we study how the agent res
 ## Authors
 
 [[Shramay Palta]], [[Nirupama Chandrasekaran]], [[Rachel Rudinger]], [[Scott Counts]]
+
+## Data Description
+
+The study uses a corpus of 25,033 multi-turn Bing Copilot conversations sampled from June 2024 across 10 topical domains (e.g., programming, business, entertainment). GPT-4-Turbo is used to classify user, agent, and gauged user expertise on a 5-point ordinal scale. The dataset includes expertise labels, user satisfaction scores (SAT), task complexity classifications, and conversation length metrics.
+
 
 ## Notes
 

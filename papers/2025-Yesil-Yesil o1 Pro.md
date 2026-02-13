@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, DeepSeek, Llama-3, Gemini"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Yesil-Yesil o1 Pro.md"
 local_pdf: "[[PDFs/2025/2025-Yesil-Yesil o1 Pro.pdf]]"
 ---
@@ -100,6 +103,11 @@ Yesil o1 Pro represents an advancement in AI-driven healthcare support through i
 - Yesil o1 Pro model (availability not specified)
 - Medical knowledge base with 40+ specialty-specific knowledge graphs
 - Benchmark evaluation framework for medical AI models
+
+## Data Description
+
+The study benchmarks Yesil o1 Pro, a specialized medical LLM built on GPT-4o, against leading models across over 50 medical specialties. The benchmarking dataset covers diverse medical domains including cardiology, mental health, epidemiology, and dentistry. The model's training dataset comprises 1.5 million question-answer pairs from scientific literature, clinical guidelines, and medical textbooks, totaling over 600 million words.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ abstract:
 ethics_perspective: "Bias & Fairness"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-3, Qwen"
+DATA_URL: "https://github.com/uclanlp/Fact-or-Fair"
 ---
 # FABLE (Fairness and Bias in LLM Evaluation)
 
@@ -60,6 +63,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 156 curated prompts across 4 categories; automated evaluation via toxicity/hate speech classifiers
+
+## Data Description
+
+The paper introduces FACT-OR-FAIR, a benchmark for evaluating the boundary between factual correctness and normative fairness in AI models. It collects 19 U.S. societal statistics across economic, social, and health dimensions, generating objective fact-based queries and subjective fairness-based queries grounded in three cognitive biases (representativeness bias, attribution error, ingroup/outgroup bias). Six LLMs and four text-to-image models are evaluated.
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Moralizations – arguments that invoke moral values to justify deman
 ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "Llama, Mistral, Claude"
+DATA_URL: "https://anonymous.4open.science/r/Moralisierungsdetektion"
 ---
 # The Moralization Corpus
 
@@ -62,6 +65,10 @@ Moralizations – arguments that invoke moral values to justify demands or posit
 ## Dataset Information
 
 Multi-genre German dataset analyzing moral values in argumentative discourse with frame-based annotation
+
+## Data Description
+
+The Moralization Corpus contains 11,503 German text instances across seven genres (parliamentary debates, news articles, online discussions, etc.) annotated for moralizing speech acts using a frame-based scheme capturing moral values, demands, and discourse protagonists. Five LLMs (LLaMA-4-Scout-109B, Mistral-Small-24B, Claude-3.5-Haiku, and others) are tested across seven prompting configurations for moralization detection and component extraction.
 
 ## Notes
 

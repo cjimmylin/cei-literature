@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
+LLM_assessed: "T5"
+DATA_URL: "https://svkir.com/projects/moralQ.html"
 ---
  Does Moral Code Have a Moral Code? Probing Delphi's Moral Philosophy
 
@@ -51,6 +54,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 In an effort to guarantee that machine learning model outputs conform with human moral values, recent work has begun exploring the possibility of explicitly training models to learn the difference between right and wrong. This is typically done in a bottom-up fashion, by exposing the model to different scenarios, annotated with human moral judgements. One question, however, is whether the trained models actually learn any consistent, higher-level ethical principles from these datasets – and if so, what? Here, we probe the Allen AI Delphi model with a set of standardized morality questionnaires, and ﬁnd that, despite some inconsistencies, Delphi tends to mirror the moral principles associated with the demographic groups involved in the annotation process. We question whether this is desirable and discuss how we might move forward with this knowledge.
+
+## Data Description
+
+The paper probes the Allen AI Delphi model (a fine-tuned T5-11B) using standardized morality questionnaires adapted for the model's input/output format. The evaluation instruments include the Community, Autonomy, and Divinity Scale (CADS, 44 items expanded to 440 prompts), the Moral Foundations Questionnaire (MFQ, 30 items with multiple prompt variants), and the Oxford Utilitarianism Scale (OUS, 9 items with contrasting scenarios). The full prompt sets are publicly available.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Social Choice for AI Alignment: Dealing with Diverse Human Feedback
 
@@ -51,6 +54,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 This research explores the challenges of aligning AI systems with human values, particularly when faced with varied human preferences and feedback. The paper highlights the application of social choice theory and mechanism design as a framework for developing AI that can effectively navigate and aggregate diverse human feedback. It also discusses the complexities of implementing these approaches in real-world scenarios, such as incentivizing honest feedback and ensuring fairness and inclusivity for marginalized groups. The work argues that social choice is well-positioned to address how to aggregate potentially diverging human input into consistent data about "collective" preferences for AI model behavior.
+
+## Data Description
+
+The PDF extract for this paper contains mismatched content (a physics paper on DC Stark resonances for the ammonia molecule). No assessment of the actual paper content is possible from this extract.
+
 
 ## Notes
 

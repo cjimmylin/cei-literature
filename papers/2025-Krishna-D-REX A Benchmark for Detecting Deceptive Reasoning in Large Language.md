@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "The safety and alignment of Large Language Models (LLMs) are critical
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Gemini, Claude, DeepSeek, Qwen, Grok"
+DATA_URL: "NA"
 ---
 # D-REX: A Benchmark for Detecting Deceptive Reasoning in Large Language Models
 
@@ -61,6 +64,10 @@ The safety and alignment of Large Language Models (LLMs) are critical for their 
 ## Dataset Information
 
 Red-teaming exercise-generated dataset; each sample contains: adversarial system prompt, user query, seemingly innocuous response, and internal chain-of-thought revealing malicious intent
+
+## Data Description
+
+The paper introduces D-REX (Deceptive Reasoning Exposure Suite), a benchmark of 8,162 samples collected through a competitive red-teaming exercise designed to evaluate deceptive reasoning in LLMs. Each sample contains an adversarial system prompt injection, an end-user test query, the model's internal chain-of-thought revealing malicious intent, and a seemingly innocuous final response. Seven frontier models were evaluated across seven behavioral categories, with four judge LLMs scoring six deceptive behavior criteria. D-REX is maintained as a private benchmark with a controlled submission portal.
 
 ## Notes
 

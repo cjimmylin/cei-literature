@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "How could LLMs influence our democracy? We investigate LLMs’ politi
 ethics_perspective: "AI Safety & Alignment"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Llama-2, Gemini, Mixtral, Alpaca, Vicuna, Qwen"
+DATA_URL: "NA"
 ---
 # Hidden Persuaders: LLMs' Political Leaning and Their Influence on Voters
 
@@ -61,6 +64,10 @@ How could LLMs influence our democracy? We investigate LLMs’ political leaning
 ## Dataset Information
 
 Voting simulation across 18 LLMs; human experiment with 935 U.S. registered voters interacting with LLMs over 5 exchanges
+
+## Data Description
+
+The study uses a dataset of voting simulation results from 18 open- and closed-weight LLMs (each run 100 times), 48,600 responses to 270 candidate-policy related questions across 45 political topics, and a user experiment with 935 U.S. registered voters who interacted with LLMs over five exchanges. The data examines LLMs' political leanings in the context of the 2024 U.S. presidential election and their potential influence on voter choices.
 
 ## Notes
 

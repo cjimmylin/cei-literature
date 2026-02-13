@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3, GPT-3.5, ChatGPT, PaLM"
+DATA_URL: "https://github.com/abdulhaim/moral_foundations_llms"
 pdf_extract: "PDF Extracts/2024/2024-Abdulhai-Moral Foundations of Large Language Models.md"
 local_pdf: "[[PDFs/2024/2024-Abdulhai-Moral Foundations of Large Language Models.pdf]]"
 ---
@@ -64,6 +67,11 @@ Moral foundations theory (MFT) is a psychological assessment tool that decompose
 ## Authors
 
 [[Marwa Abdulhai]], [[Gregory Serapio-García]], [[Clement Crepy]], [[Daria Valter]], [[John Canny]], [[Natasha Jaques]]
+
+## Data Description
+
+The study applies the Moral Foundations Questionnaire (MFQ), a 30-item inventory measuring five moral dimensions, to evaluate moral foundations in GPT-3 (Babbage, Curie, DaVinci2, DaVinci3 engines) and PaLM (62B). Each question was administered 50 times with varied prompt configurations to assess consistency, political bias, susceptibility to adversarial moral prompting, and downstream behavioral effects on a charitable donation task.
+
 
 ## Notes
 

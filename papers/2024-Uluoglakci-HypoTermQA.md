@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for hallucination detection dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, Llama-2"
+DATA_URL: "https://github.com/cemuluoglakci/HypoTermQA"
 pdf_extract: "PDF Extracts/2024/2024-Uluoglakci-HypoTermQA.md"
 local_pdf: "[[PDFs/2024/2024-Uluoglakci-HypoTermQA.pdf]]"
 ---
@@ -46,6 +49,11 @@ local_pdf: "[[PDFs/2024/2024-Uluoglakci-HypoTermQA.pdf]]"
 ## Abstract
 
 Hallucinations pose a significant challenge to the reliability and alignment of Large Language Models (LLMs), limiting their widespread acceptance beyond chatbot applications. Despite ongoing efforts, hallucinations remain a prevalent challenge in LLMs. The detection of hallucinations itself is also a formidable task, frequently requiring manual labeling or constrained evaluations. This paper introduces an automated scalable framework that combines benchmarking LLMs’ hallucination tendencies with efficient hallucination detection. We leverage LLMs to generate challenging tasks related to hypothetical phenomena, subsequently employing them as agents for efficient hallucination detection. The framework is domain-agnostic, allowing the use of any language model for benchmark creation or evaluation in any domain. We introduce the publicly available HypoTermQA Benchmarking Dataset, on which state-of-the-art models’ performance ranged between 3% and 11%, and evaluator agents demonstrated a 6% error rate in hallucination prediction. The proposed framework provides opportunities to test and improve LLMs. Additionally, it has the potential to generate benchmarking datasets tailored to specific domains, such as law, health, and finance.
+
+## Data Description
+
+HypoTermQA is a benchmarking dataset of 19,508 questions designed to evaluate LLMs' hallucination tendencies using hypothetical terms. The dataset combines hypothetical phenomena paired with valid terms across 20 popular internet topics, with questions generated using three methods (LLM suggestion, title similarity, and text similarity). Each adversarial question is accompanied by control questions, and the framework includes LLM-based evaluator agents for automated hallucination detection with a 6% error rate.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Gemma"
+DATA_URL: "https://github.com/dayeonki/cultural_debate"
 DATE_ADDED: 20260207
 ---
 # Multiple LLM Agents Debate for Equitable Cultural Alignment
@@ -65,6 +68,11 @@ Large Language Models (LLMs) need to adapt their predictions to diverse cultural
 ## Authors
 
 [[Dayeon Ki]], [[Rachel Rudinger]], [[Tianyi Zhou]], [[Marine Carpuat]]
+
+## Data Description
+
+This paper uses the NORMAD-ETI benchmark containing 2,600 stories reflecting social and cultural norms from 75 countries to evaluate multi-agent debate frameworks for cultural alignment. Seven open-weight LLMs (7-9B parameters) including Llama-3, Gemma-2, Exaone-3, Yi-1.5, InternLM-2.5, Aya-23, and SeaLLM-3 are tested in single-model, self-reflection, debate-only, and self-reflect+debate configurations across 21 LLM combinations.
+
 
 ## Notes
 

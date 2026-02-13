@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ abstract:
 ethics_perspective: "Machine Ethics"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Measuring What Matters: Connecting AI Ethics Evaluations to System Attributes, Hazards, and Harms (RAI Measures Dataset)
 
@@ -59,6 +62,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 RAI Measures Dataset — 791 ethical evaluation measures mapped to system attributes, hazards, and ethical principles
+
+## Data Description
+
+This paper conducts a scoping review of computing literature, extracting 791 measures from 257 academic articles that assess adherence to 11 AI ethics principles. The resulting dataset catalogs each measure by its system component, attribute, hazard, and harm type, providing a systematic mapping of how existing AI ethics evaluation measures relate to sociotechnical harms.
 
 ## Notes
 

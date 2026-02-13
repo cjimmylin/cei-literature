@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for hallucination detection dataset for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Gemini, Llama, Vicuna"
+DATA_URL: "https://github.com/ECNU-ICALK/DiaHalu"
 ---
 # DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark for Large Language Models
 
@@ -64,6 +67,11 @@ Though large language models (LLMs) achieve significant success in recent years,
 ## Authors
 
 [[Kedi Chen]], [[Qin Chen]], [[Jie Zhou]], [[Yishen He]], [[Liang He]]
+
+## Data Description
+
+The paper introduces DiaHalu, the first dialogue-level hallucination evaluation benchmark for LLMs, containing 1,103 multi-turn dialogue samples across four domains (knowledge-grounded, task-oriented, chit-chat, and reasoning). The benchmark covers five hallucination subtypes (non-factual, incoherence, irrelevance, overreliance, and reasoning error) with professional annotations including labels, hallucination locations, and explanations.
+
 
 ## Notes
 

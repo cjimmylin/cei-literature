@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Synthetic datasets from economic games"
 data_metrics: "Kantian moral concern parameter κ, cooperation rates"
+LLM_assessed: "GPT-4, o3"
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
 # Aligning Large Language Model Agents with Rational and Moral Preferences: A Supervised Fine-Tuning Approach
@@ -53,6 +56,11 @@ normative_ethics_benchmark: Borderline
 ## Abstract
 
 Understanding how large language model (LLM) agents behave in strategic interactions is essential as these systems increasingly participate autonomously in economically and morally consequential decisions. The authors evaluate LLM preferences using canonical economic games, finding substantial deviations from human behavior. Models like GPT-4o show excessive cooperation and limited incentive sensitivity, while reasoning models, such as o3-mini, align more consistently with payoff-maximizing strategies. They propose a supervised fine-tuning pipeline that uses synthetic datasets derived from economic reasoning to align LLM agents with economic preferences, focusing on two stylized preference structures: utility depending only on individual payoffs (homo economicus) and including Kantian universalizability (homo moralis). The fine-tuned agents are assessed in moral dilemmas involving autonomous vehicles and algorithmic pricing in competitive markets.
+
+## Data Description
+
+This paper evaluates LLM agent behavior using canonical economic games (Sequential Prisoner's Dilemma, Trust Game, Ultimatum Game) and proposes a supervised fine-tuning pipeline to align GPT-4o agents with homo economicus and homo moralis preference structures. The study uses 50 independent sessions with 18 scenarios each, generating synthetic payoff-based training data. Fine-tuned agents are further evaluated on Moral Machine dilemmas and repeated-pricing duopoly scenarios, with o3-mini referenced for baseline comparison.
+
 
 ## Notes
 

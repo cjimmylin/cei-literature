@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "600+ trolley problem scenarios with moral reasoning analysis"
 data_metrics: "Moral reasoning classification"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Llama-3, Llama, Gemma, Qwen, Mistral, DeepSeek, Phi"
+DATA_URL: "https://github.com/keenansamway/moral-lens"
 pdf_extract: "PDF Extracts/2025/2025-Samway-Are Language Models Consequentialist or Deontological.md"
 local_pdf: "[[PDFs/2025/2025-Samway-Are Language Models Consequentialist or Deontological.pdf]]"
 normative_ethics_benchmark: Yes
@@ -102,6 +105,11 @@ The authors conclude that LLMs do not adopt a single moral perspective but dynam
 - MORALLENS framework: Taxonomy of 16 moral rationales for classifying LLM reasoning
 - Dataset: 640 moral vignettes with demographic variations
 - Code: Available at https://github.com/keenansamway/moral-lens
+
+## Data Description
+
+The study introduces MORALLENS, a framework with a taxonomy of 16 moral rationales grounded in consequentialism and deontology, applied to 640 trolley problem vignettes varying across gender, age, social status, fitness, and group size dimensions. Over 50 LLMs from families including GPT, Claude, Gemini, Llama, Gemma, Qwen, Mistral, DeepSeek, and Phi were evaluated in Reason-then-Decide and Decide-then-Reason scenarios, with Gemini 2.5 Flash serving as a judge model for rationale classification.
+
 
 ## Notes
 

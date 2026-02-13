@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning annotated dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Phi, Llama-3, DeepSeek"
+DATA_URL: "https://huggingface.co/datasets/shivaniku/UniMoral"
 ---
 # Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral
 
@@ -63,6 +66,11 @@ Moral reasoning is a complex cognitive process shaped by individual experiences 
 ## Authors
 
 [[Shivani Kumar]], [[David Jurgens]]
+
+## Data Description
+
+The paper introduces UNIMORAL, a multilingual moral reasoning dataset spanning six languages (Arabic, Chinese, English, Hindi, Russian, Spanish) with 5,256 total instances of moral dilemmas annotated with action choices, ethical principles, contributing factors, and consequences. The dataset combines 144 psychologically grounded scenarios generated from seed dilemmas and 200 Reddit-based dilemmas, with crowd-sourced annotations including annotators' moral and cultural profiles via MFQ2 and Hofstede's Value Survey Module. Three LLMs (Phi-3.5-mini, Llama-3.1-8B, DeepSeek-R1-Distill Llama-8B) were benchmarked on four tasks.
+
 
 ## Notes
 

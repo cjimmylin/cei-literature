@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Qwen, Gemma, GPT-4"
+DATA_URL: "https://github.com/baltaci-r/MoralAgents"
 normative_ethics_benchmark: Borderline
 ---
 # Many LLMs Are More Utilitarian Than One
@@ -65,6 +68,11 @@ Moral judgment is integral to large language model (LLM) alignment and social re
 ## Authors
 
 [[Anita Keshmirian]], [[Razan Baltaji]], [[Babak Hemmatian]], [[Hadi Asghari]], [[Lav R. Varshney]]
+
+## Data Description
+
+This study tests six LLMs (Llama3.3:70B, QwQ, Qwen3:32B, Gemma3:27B, Qwen2.5:32B, and GPT4.1) on established moral dilemma sets in solo and group deliberation conditions. The experiments use validated psychological instruments including classical sacrificial dilemmas, the Oxford Utilitarianism Scale, and the CNI Model to measure utilitarian shifts in multi-agent moral reasoning across pairs and triads.
+
 
 ## Notes
 

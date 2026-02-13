@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Alyemny-FatwaSet.md"
 local_pdf: [[PDFs/2023/2023-Alyemny-FatwaSet.pdf]]
 ---
@@ -115,6 +118,11 @@ FatwaSet represents a significant contribution to Arabic NLP resources, being th
 - Exploratory Data Analysis with word clouds and frequency statistics
 - Preprocessing pipeline for Arabic Islamic text
 - Dataset publicly available for research use
+
+## Data Description
+
+FatwaSet is the first public Arabic dataset of Islamic fatwas, containing 130,182 records collected from 13 trusted Islamic fatwa websites across multiple Arab countries. Each record includes a fatwa question, answer, and associated metadata (title, subtitle, fatwa number, publication date, mufti name). The dataset is designed for Arabic NLP tasks including language modeling, question answering, author attribution, topic identification, and text summarization.
+
 
 ## Notes
 

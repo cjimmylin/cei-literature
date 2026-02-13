@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "BERT, RoBERTa, DeBERTa, T5, BART"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Aleid-Hajj-FQA.md"
 local_pdf: [[PDFs/2025/2025-Aleid-Hajj-FQA.pdf]]
 DATE_ADDED: 20260207
@@ -102,6 +105,11 @@ The authors conclude that Hajj-FQA provides both a critical resource for develop
 - Hajj-FQA dataset: Benchmark Arabic dataset for Hajj fatwa question answering
 - HajjBot: Prototype specialized chatbot for pilgrims (implied, development target)
 - Evaluation framework: Standardized tasks and metrics for Arabic religious QA
+
+## Data Description
+
+The Hajj-FQA benchmark is a manually annotated Arabic QA dataset of 800 Hajj-related fatwas designed for developing chatbot applications. It comprises four specialized datasets supporting extractive MRC, generative MRC, duplicate question detection, and duplicate answer detection tasks. Multiple Arabic and multilingual BERT variants (AraBERT, CAMeLBERT, MARBERTv2, mBERT, DeBERTaV3, XLM-RoBERTa) and generative models (AraBART, AraT5, mT5) were fine-tuned and evaluated with 10-fold cross-validation.
+
 
 ## Notes
 

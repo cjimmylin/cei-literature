@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "The EU’s Artificial Intelligence Act (AI Act) is a significant step
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2, Llama-3, Mistral, Mixtral, Qwen, GPT-3.5, GPT-4, Claude"
+DATA_URL: "https://github.com/compl-ai/compl-ai"
 ---
 # COMPL-AI (EU AI Act Compliance)
 
@@ -63,6 +66,10 @@ The EU’s Artificial Intelligence Act (AI Act) is a significant step towards re
 ## Dataset Information
 
 Comprehensive benchmarking suite aggregating state-of-the-art LLM benchmarks
+
+## Data Description
+
+COMPL-AI is a comprehensive EU AI Act compliance benchmarking suite that evaluates 12 prominent LLMs across up to 23 benchmarks organized under six ethical principles. The suite includes robustness benchmarks (MMLU Robustness, BoolQ/IMDB Contrast Sets), safety benchmarks (TensorTrust, LLM RuLES, AdvBench), fairness benchmarks (DecodingTrust, FaiRLLM, BBQ, BOLD, RedditBias), transparency benchmarks (MMLU, TruthfulQA, HumanEval), and toxicity benchmarks (RealToxicityPrompts). The framework and code are open-source.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, BERT"
+DATA_URL: "NA"
 ---
 # The Goofus & Gallant Story Corpus for Practical Value Alignment
 
@@ -65,6 +68,11 @@ Values or principles are key elements of human society that influence people to 
 ## Authors
 
 [[Md Sultan Al Nahian]], [[Tasmia Tasrin]], [[Spencer Frazier]], [[Mark Riedl]], [[Brent Harrison]]
+
+## Data Description
+
+The paper introduces the Goofus and Gallant story corpus, a multi-modal dataset for practical value alignment containing 1,387 texts and 819 images from Goofus and Gallant comic strips (1995-2017). The dataset includes two sub-datasets: the GnG Normative dataset (classifying actions as normative/non-normative) and the GnG Principles dataset (annotated with 27 social values from the Kiesel taxonomy). GPT-4o was used for principle annotation and BERT-based models served as classification baselines.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 research_topic: "Machine Translation"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, ChatGPT, Llama-2"
+DATA_URL: "NA"
 ---
 # Multilingual Defining Issues Test
 
@@ -64,6 +67,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Size: Defining Issues Test scenarios translated into 6 languages
+
+## Data Description
+
+This is the published EACL version of the multilingual Defining Issues Test study. It evaluates three LLMs on moral reasoning using the DIT across six languages (Hindi, Spanish, Swahili, Russian, Chinese, and Arabic) with nine moral dilemmas and 48 prompt permutations per dilemma per language. Moral development scores (Personal Interest, Maintaining Norms, and Post-conventional P-score) are computed to assess cross-linguistic moral reasoning capability.
 
 ## Notes
 

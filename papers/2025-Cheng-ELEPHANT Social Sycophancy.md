@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "LLMs are known to exhibit sycophancy: agreeing with and flattering us
 research_topic: "Computer Vision & Multimodal"
 data_description: "Benchmark"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Llama-3, Llama, Mistral, DeepSeek, Qwen"
+DATA_URL: "https://github.com/myracheng/elephant"
 ---
 # ELEPHANT (Social Sycophancy)
 
@@ -62,6 +65,10 @@ LLMs are known to exhibit sycophancy: agreeing with and flattering users, even a
 ## Dataset Information
 
 Two evaluation datasets: open-ended questions (OEQ) and Reddit r/AmITheAsshole (AITA) posts; measures across 5 dimensions; comparison to human baselines
+
+## Data Description
+
+ELEPHANT is a benchmark for measuring social sycophancy in LLMs, grounded in Goffman's face theory, evaluating four dimensions (validation, indirectness, framing, moral sycophancy) across four datasets including Reddit r/AmITheAsshole posts and open-ended advice queries. The benchmark tests 11 production models including GPT-5, GPT-4o, Claude Sonnet 3.7, Gemini-1.5-Flash, Llama-3 variants (8B, 17B, 70B), Mistral (7B, 24B), DeepSeek-V3, and Qwen2.5-7B, finding that LLMs preserve user face 45 percentage points more than humans on average.
 
 ## Notes
 

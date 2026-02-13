@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for moral/ethical reasoning annotated dataset for hate speech detection"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-3"
+DATA_URL: "https://github.com/franciellevargas/MFTCXplain"
 DATE_ADDED: 20260207
 ---
 # MFTCXplain: A Multilingual Benchmark Dataset for Evaluating the Moral Reasoning of LLMs through Hate Speech Multi-hop Explanations
@@ -65,6 +68,11 @@ Ensuring the moral reasoning capabilities of Large Language Models (LLMs) is a g
 ## Authors
 
 [[Jackson Trager]], [[Francielle Vargas]], [[Diego Alves]], [[Matteo Guida]], [[Mikel K. Ngueajio]], [[Ameeta Agrawal]], [[Yalda Daryani]], [[Farzan Karimi-Malekabadi]], [[Flor Plaza-del-Arco|Flor Miriam Plaza-del-Arco]]
+
+## Data Description
+
+MFTCXplain is a multilingual benchmark dataset for evaluating the moral reasoning of LLMs through multi-hop hate speech explanation using Moral Foundations Theory. It comprises 3,000 tweets across four languages (Portuguese, Italian, Persian, and English) annotated with binary hate speech labels, 10 moral sentiment categories (virtue-vice pairs from MFT), and text span-level rationales. The dataset was annotated by experts with diverse cultural backgrounds and evaluated using LLaMA-3.3-70B-Instruct and GPT-4o Mini under zero-shot, few-shot, and Chain-of-Thought prompting.
+
 
 ## Notes
 

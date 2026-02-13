@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # AI Deception: A Survey of Examples, Risks, and Potential Solutions
 
@@ -62,6 +65,11 @@ This paper argues that a range of current AI systems have learned how to deceive
 ## Authors
 
 [[Peter S. Park]], [[Simon Goldstein]], [[Aidan O'Gara]], [[Michael Chen]], [[Dan Hendrycks]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a survey paper that documents empirical examples of AI deception across special-use systems (CICERO, AlphaStar, Pluribus) and general-purpose LLMs, analyzes risks from AI deception including fraud and election tampering, and proposes regulatory and technical solutions.
+
 
 ## Notes
 

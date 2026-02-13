@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "Gemma, Llama-3"
+DATA_URL: "NA"
 ---
 # Backtracking for Safety
 
@@ -64,6 +67,11 @@ Large language models (LLMs) have demonstrated remarkable capabilities across va
 ## Authors
 
 [[Bilgehan Sel]], [[Dingcheng Li]], [[Phillip Wallis]], [[Vaishakh Keshava]], [[Ming Jin]], [[Siddhartha Reddy Jonnalagadda]]
+
+## Data Description
+
+The paper constructs a dataset of 128,000 question-answer pairs generated using the Gemma2 27B model, designed to simulate scenarios where LLM-generated text transitions from safe to unsafe content. The BSAFE method is evaluated on a 100-example test dataset for prefilling attacks and on the HEx-PHI benchmark (300 examples), testing Gemma 2 (2B, 9B) and LLaMA 3 (1B, 3B) models. Utility is evaluated using GSM8K and MATH benchmarks on Gemma2 9B and LLaMA3 8B.
+
 
 ## Notes
 

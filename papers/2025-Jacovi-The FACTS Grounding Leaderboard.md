@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "32k tokens"
+LLM_assessed: "Gemini, GPT-4o, Claude"
+DATA_URL: "https://www.kaggle.com/facts-leaderboard"
 ---
 # The FACTS Grounding Leaderboard: Benchmarking LLMs’ Ability to Ground Responses to Long-Form Input
 
@@ -86,6 +89,11 @@ The authors conclude that FACTS Grounding fills an important gap in evaluating L
 - Benchmark dataset: 860 public examples ("Open" split) + 859 private examples ("Blind" split)
 - Comprehensive judge prompt templates for factuality and eligibility evaluation (7 templates evaluated)
 - Detailed evaluation methodology and metrics for grounded factuality assessment
+
+## Data Description
+
+FACTS Grounding is a benchmark and online leaderboard evaluating LLMs' ability to generate factually accurate, grounded long-form responses to user requests given context documents of up to 32k tokens. The benchmark contains 860 public and 859 private examples spanning medical, legal, technology, financial, and retail domains, evaluated by automated judge models (Gemini 1.5 Pro, GPT-4o, Claude 3.5 Sonnet) across multiple prompt templates.
+
 
 ## Notes
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract:
 ethics_perspective: "Social & Cultural Values"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/famous-blue-raincoat/AI_Ethics_Discourse"
 normative_ethics_benchmark: Borderline
 ---
 # How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas
@@ -61,6 +64,10 @@ normative_ethics_benchmark: Borderline
 ## Dataset Information
 
 Type: Theoretical/proposal paper with practical application demonstration (psychology AI chatbots)
+
+## Data Description
+
+The paper presents a mixed-methods case study of OpenAI's public ethics discourse, analyzing a corpus of 454 documents (424 web articles and 30 publications) spanning December 2015 to July 2025. The analysis employs computational text analysis (keyword frequency tracking, n-gram vectorization with SentenceTransformer, HDBSCAN clustering) combined with qualitative content analysis to trace how OpenAI deploys ethics, safety, alignment, and related terminology over time.
 
 ## Notes
 

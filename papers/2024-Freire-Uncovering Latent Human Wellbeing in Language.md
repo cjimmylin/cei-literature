@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3, DeBERTa, BERT"
+DATA_URL: "NA"
 ---
 # Uncovering Latent Human Wellbeing in Language Model Embeddings
 
@@ -63,6 +66,11 @@ Do language models implicitly learn a concept of human wellbeing? We explore thi
 ## Authors
 
 [[Pedro Freire]], [[ChengCheng Tan]], [[Adam Gleave]], [[Dan Hendrycks]], [[Scott Emmons]]
+
+## Data Description
+
+The study uses the ETHICS Utilitarianism subset (approximately 23,000 pairs of scenarios about pleasure and pain) to investigate whether LLM embeddings implicitly encode concepts of human wellbeing. Four language model families were evaluated: GPT-3 (including text-embedding-ada-002), DeBERTa, Cohere, and SentenceTransformers, with PCA-based dimensionality reduction and logistic regression applied to embedding spaces. The key finding is that the leading principal component of text-embedding-ada-002 achieves 73.9% accuracy, comparable to BERT-large fine-tuned on the entire dataset.
+
 
 ## Notes
 

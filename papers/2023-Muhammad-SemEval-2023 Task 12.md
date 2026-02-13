@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/afrisenti-semeval/afrisent-semeval-2023"
 ---
 # SemEval-2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval)
 
@@ -61,6 +64,11 @@ We present the ﬁrst Africentric SemEval Shared task, Sentiment Analysis for Af
 ## Authors
 
 [[Shamsuddeen Hassan Muhammad]], [[Idris Abdulmumin]], [[Seid Muhie Yimam]], [[David Ifeoluwa Adelani]], [[Ibrahim Sa'id Ahmad]], [[Nedjma Ousidhoum]], [[Abinew Ayele]], [[Saif M. Mohammad]], [[Meriem Beloucif]], [[Sebastian Ruder]]
+
+## Data Description
+
+This paper describes the AfriSenti-SemEval 2023 shared task for sentiment analysis in 14 African languages, providing 110K sentiment-labeled tweets across three subtasks: monolingual, multilingual, and zero-shot classification. The baseline systems use fine-tuned AfroXLMR-large, and 44 teams submitted systems using various pretrained language models, but no generative LLMs from the canonical list were directly tested by the paper authors.
+
 
 ## Notes
 

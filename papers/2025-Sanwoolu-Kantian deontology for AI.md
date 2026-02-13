@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Sanwoolu-Kantian deontology for AI.md"
 local_pdf: "[[PDFs/2025/2025-Sanwoolu-Kantian deontology for AI.pdf]]"
 ---
@@ -95,6 +98,11 @@ AI alignment is possible within a Kantian framework, even though AI systems cann
 ## Artifact Contributions
 
 None mentioned - this research does not generate or analyze datasets.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical analysis exploring the application of Kant's moral philosophy to AI alignment, arguing that Kantian deontological principles, particularly the Categorical Imperative and Formula of Universal Law, can guide AI behavior without requiring moral agency.
+
 
 ## Notes
 

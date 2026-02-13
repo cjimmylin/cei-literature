@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "With the integration of multimodal large language models (MLLMs) into
 research_topic: "Computer Vision & Multimodal"
 data_description: "Benchmark dataset for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini, Qwen"
+DATA_URL: "https://emo-gml.github.io/"
 ---
 # EmoBench-M: Benchmarking Emotional Intelligence for Multimodal Large Language Models
 
@@ -61,6 +64,10 @@ With the integration of multimodal large language models (MLLMs) into robotic sy
 ## Dataset Information
 
 13 evaluation scenarios across 3 dimensions; multimodal inputs (text + visual)
+
+## Data Description
+
+EmoBench-M is a multimodal emotional intelligence benchmark for MLLMs comprising 13 evaluation scenarios across three dimensions (Foundational Emotion Recognition, Conversational Emotion Understanding, Socially Complex Emotion Analysis) with video, audio, and text inputs. Both open-source models (InternVL2.5, Video-LLaMA2, Qwen2-Audio, Qwen2.5-VL) and closed-source models (GLM-4V series, Gemini series including Gemini-3.0-Pro, and GPT series including GPT-5.2) were evaluated in a zero-shot setting.
 
 ## Notes
 

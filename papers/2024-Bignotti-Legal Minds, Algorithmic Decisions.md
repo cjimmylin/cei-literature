@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4"
+DATA_URL: "NA"
 ---
 # Legal Minds, Algorithmic Decisions: How LLMs Apply Constitutional Principles in Complex Scenarios
 
@@ -64,6 +67,11 @@ In this paper, we conduct an empirical analysis of how large language models (LL
 ## Authors
 
 [[Camilla Bignotti]], [[Carolina Camassa]]
+
+## Data Description
+
+The study uses a dataset of 17 rulings from the Italian Constitutional Court (1975-2023) on bioethics issues including assisted procreation, homosexual parenthood, child's best interest, and end-of-life care. GPT-4 (GPT-4-TURBO-2024-04-09) is evaluated for its ability to extract legal arguments and its alignment with progressive vs. conservative constitutional interpretations, using contrastive-learning-finetuned embedding models to measure cosine distance between GPT-4's arguments and those of the Applicant, Court, and State.
+
 
 ## Notes
 

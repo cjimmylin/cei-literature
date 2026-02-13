@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/SLAB-NLP/BUG"
 ---
 # Collecting a Large-Scale Gender Bias Dataset for Coreference Resolution and Machine Translation
 
@@ -48,6 +51,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Recent works have found evidence of gender bias in models of machine translation and coreference resolution using mostly synthetic diagnostic datasets. While these quantify bias in a controlled experiment, they often do so on a small scale and consist mostly of artificial, out-of-distribution sentences. In this work, we find grammatical patterns indicating stereotypical and non-stereotypical gender-role assignments (e.g., female nurses versus male dancers) in corpora from three domains, resulting in a first large-scale gender bias dataset of 108K diverse real-world English sentences. We manually verify the quality of our corpus and use it to evaluate gender bias in various coreference resolution and machine translation models. We find that all tested models tend to over-rely on gender stereotypes when presented with natural inputs, which may be especially harmful when deployed in commercial systems. Finally, we show that our dataset lends itself to finetuning a coreference resolution model, finding it mitigates bias on a held out set. Our dataset and models are publicly available at github.com/SLAB-NLP/BUG. We hope they will spur future research into gender bias evaluation mitigation techniques in realistic settings.
+
+## Data Description
+
+BUG is a large-scale gender bias dataset containing 108,419 diverse real-world English sentences semi-automatically collected from Wikipedia, PubMed, and COVID-19 research corpora using 14 lexical-syntactic patterns. Each sentence contains a human entity identified by profession and a gendered pronoun, marked as stereotypical, anti-stereotypical, or neutral with respect to gender-role assignments for evaluating bias in coreference resolution and machine translation.
+
 
 ## Notes
 

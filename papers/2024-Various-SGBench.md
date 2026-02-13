@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT, GPT-4, GPT-3.5, Claude, Mistral, Llama-3, Llama-2, Qwen"
+DATA_URL: "https://github.com/MurrayTom/SG-Bench"
 publication: NeurIPS 2024
 DATE_ADDED: 20260207
 ---
@@ -59,6 +62,11 @@ Ensuring the safety of large language model (LLM) applications is essential for 
 ## Authors
 
 [[Yutao Mou]], [[Shikun Zhang]], [[Wei Ye]]
+
+## Data Description
+
+SG-Bench is a multi-dimensional safety evaluation benchmark for assessing LLM safety generalization across diverse tasks and prompt types. It contains 1,442 malicious queries covering 6 types of safety issues, organized into 4 evaluation subsets (original queries, jailbreak attacks, multiple-choice questions, safety judgments) and 7 extended test sets for prompt engineering techniques. The benchmark was constructed from AdvBench, HarmfulQA, Beaver-eval, and SaladBench, with quality filtering via Llama-Guard-7B.
+
 
 ## Notes
 

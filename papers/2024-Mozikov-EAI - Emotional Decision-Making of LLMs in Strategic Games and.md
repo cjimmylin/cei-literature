@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract:
 ethics_perspective: "General Ethics"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, Claude, Llama-2, Mixtral"
+DATA_URL: "NA"
 ---
 # EAI -- Emotional Decision-Making of LLMs in Strategic Games and Ethical Dilemmas
 
@@ -61,6 +64,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Strategic game scenarios (bargaining, repeated games)
+
+## Data Description
+
+The paper introduces the EAI framework for integrating emotion modeling into LLMs to examine emotional impact on ethical decision-making and strategic game play. The framework evaluates LLMs across three settings: implicit ethics (ETHICS dataset), explicit ethics (MoralChoice dataset), stereotype recognition (StereoSet), and game-theoretic scenarios (Dictator and Ultimatum games, Prisoner's Dilemma, Battle of the Sexes) using five basic emotions (anger, sadness, happiness, disgust, fear) in multiple languages.
 
 ## Notes
 

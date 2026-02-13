@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/faridlazuarda/cultural-llm-papers"
 ---
 # Towards Measuring and Modeling "Culture" in LLMs: A Survey
 
@@ -64,6 +67,11 @@ We present a survey of more than 90 recent papers that aim to study cultural rep
 ## Authors
 
 [[Muhammad Farid Adilazuarda]], [[Sagnik Mukherjee]], [[Pradhyumna Lavania]], [[Siddhant Singh]], [[Alham Fikri Aji]], [[Jacki O'Neill]], [[Ashutosh Modi]], [[Monojit Choudhury]]
+
+## Data Description
+
+This is a survey paper reviewing more than 90 recent papers studying cultural representation and inclusion in large language models. The authors categorize studies along two dimensions of demographic and semantic proxies for culture, and classify probing methods used. No LLMs were directly tested or evaluated; the paper provides a taxonomy and analysis of existing research on culture in LLMs.
+
 
 ## Notes
 

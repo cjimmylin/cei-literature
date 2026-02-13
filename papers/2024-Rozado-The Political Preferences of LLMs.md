@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 research_topic: "Social & Cultural Analysis"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, GPT-3, Gemini, Claude, Llama-2, Mistral, Qwen, Grok"
+DATA_URL: "https://doi.org/10.5281/zenodo.10553530"
 ---
 # The Political Preferences of LLMs
 
@@ -64,6 +67,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 11 political orientation tests x 10 trials x 24 LLMs = 2,640 total test administrations; automated test administration and parsing scripts
+
+## Data Description
+
+This study administers 11 political orientation tests to 24 conversational LLMs and 5 base models, totaling 2,640 test administrations. The dataset includes model responses to political test questions/statements, automated stance detection results, and political orientation scores across multiple political axes. Three additional fine-tuned models (LeftWingGPT, RightWingGPT, DepolarizingGPT) were created using politically aligned training data.
 
 ## Notes
 

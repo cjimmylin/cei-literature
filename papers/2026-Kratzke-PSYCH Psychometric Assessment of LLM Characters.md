@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 research_topic: "Other"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Grok, Llama, Llama-3, Qwen, DeepSeek, Mistral"
+DATA_URL: "https://doi.org/10.5281/zenodo.18002092"
 ---
 # PSYCH: Psychometric Assessment of LLM Characters
 
@@ -64,6 +67,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 330,000+ Big Five Inventory-2 responses from 32 LLMs testing moral personality dimensions
+
+## Data Description
+
+The PSYCH study generates over 330,000 responses from 32 LLMs completing the German Big Five Inventory-2 (BFI-2) 60 times each under male and female impersonation conditions, with and without justification requirements. Models from 8 providers (Alibaba, Anthropic, DeepSeek, Google, OpenAI, xAI, Meta, Mistral) including GPT-4o/4.1/5-series, Claude-3.5/3.7/4-series, Gemini-2.0/2.5, Grok-3, Llama-3.3/4, Qwen-2.5/3, DeepSeek-R1/V3, and Mistral variants are evaluated against human reference data (N=770) using Welch's t-tests.
 
 ## Notes
 

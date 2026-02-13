@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://www.fgstranslation.org/hbc"
 pdf_extract: "PDF Extracts/2024/2024-Wong-The Humanistic Buddhism Corpus (HBC).md"
 local_pdf: "[[PDFs/2024/2024-Wong-The Humanistic Buddhism Corpus (HBC).pdf]]"
 ---
@@ -44,6 +47,11 @@ local_pdf: "[[PDFs/2024/2024-Wong-The Humanistic Buddhism Corpus (HBC).pdf]]"
 ## Abstract
 
 We introduce the Humanistic Buddhism Corpus (HBC), a dataset containing over 80,000 Chinese-English parallel phrases extracted and translated from publications in the domain of Buddhism. HBC is one of the largest free domain-specific datasets that is publicly available for research, containing text from both classical and modern Chinese. Moreover, since HBC originates from religious texts, many phrases in the dataset contain metaphors and symbolism, and are subject to multiple interpretations. Compared to existing machine translation datasets, HBC presents difficult unique challenges. In this paper, we describe HBC in detail. We evaluate HBC within a machine translation setting, validating its use by establishing performance benchmarks using a Transformer model with different transfer learning setups.
+
+## Data Description
+
+The Humanistic Buddhism Corpus (HBC) is a domain-specific dataset containing over 80,000 Chinese-English parallel phrases extracted from Buddhist publications, including classical and modern Chinese. The corpus is evaluated using a base Transformer model for neural machine translation benchmarking, but does not test any named large language models.
+
 
 ## Notes
 

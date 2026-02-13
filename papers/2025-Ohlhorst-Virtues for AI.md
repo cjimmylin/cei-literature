@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_OHLHORST2025
@@ -29,6 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Virtues for AI
 
@@ -72,6 +75,11 @@ Expands the artificial virtue research program beyond:
 - Narrow moral virtues focus
 - Aristotelian-only framework
 - Limited virtue taxonomy
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical philosophy paper proposing a three-dimensional classification system for artificial virtues (domain, norm, mode) drawing on virtue theory traditions, without empirical testing of any AI models.
+
 
 ## Notes
 

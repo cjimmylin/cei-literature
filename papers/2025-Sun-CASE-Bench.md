@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Llama-3, Qwen, Mixtral"
+DATA_URL: "https://github.com/BriansIDP/CASEBench"
 publication: ICML 2025
 DATE_ADDED: 20260207
 ---
@@ -65,6 +68,11 @@ Aligning large language models (LLMs) with human values is essential for their s
 ## Authors
 
 [[Guangzhi Sun]], [[Xiao Zhan]], [[Shutong Feng]], [[Philip C. Woodland]], [[Jose Such]]
+
+## Data Description
+
+The paper introduces CASE-Bench, a Context-Aware Safety Benchmark containing 900 query-context pairs (450 queries with 2 contexts each) across 45 safety categories, with over 47,000 human annotations from 2,000+ annotators. Contexts are formalized using Contextual Integrity theory with parameters for sender, recipient, and transmission principle. Seven LLMs are evaluated as safety judges: GPT-4o, GPT-4o-mini, Claude-3.5-sonnet, Llama-3-70B-Instruct, Qwen2-72B, Mixtral 8x7B, and Dolphin-2.9-Llama3-70B.
+
 
 ## Notes
 

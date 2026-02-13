@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ abstract:
 ethics_perspective: "AI Safety & Alignment"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/Social-Futures-Lab/SPICA-code"
 ---
 # SPICA (Scenarios for Pluralistic In-Context Alignment)
 
@@ -59,6 +62,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Size: Evaluation with n=544 participants (4 demographic groups) + n=120 end-to-end
+
+## Data Description
+
+SPICA introduces a framework for pluralistic in-context alignment that uses scenario banks, group-informed retrieval metrics, and ICL prompt setups to steer LLM outputs toward different demographic groups' values and norms. The evaluation involves an alignment task with four demographic groups (n=544 for retrieval evaluation, n=120 for end-to-end), but the extract does not specify which base LLM models were tested.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Iterated Prisoner's Dilemma and other matrix game environments for moral alignment evaluation"
 data_metrics: "Moral reward functions based on deontological (action-based) and utilitarian (consequence-based) frameworks"
+LLM_assessed: "Gemma"
+DATA_URL: "https://github.com/liza-tennant/LLM_morality"
 DATE_ADDED: 20260207
 ---
 # Moral Alignment for LLM Agents
@@ -71,6 +74,11 @@ Decision-making agents based on pre-trained Large Language Models (LLMs) are inc
 ## Authors
 
 [[Elizaveta Tennant]], [[Stephen Hailes]], [[Mirco Musolesi]]
+
+## Data Description
+
+This paper uses Gemma2-2b-it as the core agent model fine-tuned with PPO-based reinforcement learning on the Iterated Prisoner's Dilemma (IPD) environment. The data consists of repeated social dilemma game episodes where the LLM agent plays against fixed-strategy opponents (Tit-for-Tat, Random, Always Defect, Always Cooperate) and other LLM agents, with moral fine-tuning based on Deontological and Utilitarian intrinsic reward functions. The study evaluates generalization to four additional matrix games: Iterated Stag Hunt, Chicken, Bach-or-Stravinsky, and Defective Coordination.
+
 
 ## Notes
 

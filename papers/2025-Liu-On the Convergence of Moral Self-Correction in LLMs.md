@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Large Language Models (LLMs) are able to improve their responses when
 ethics_perspective: "Toxicity & Hate Speech"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "Mistral, GPT-4"
+DATA_URL: "NA"
 ---
 # On the Convergence of Moral Self-Correction in LLMs
 
@@ -62,6 +65,10 @@ Large Language Models (LLMs) are able to improve their responses when instructed
 ## Dataset Information
 
 Multi-choice QA and language generation tasks; uses semantic uncertainty as uncertainty estimator
+
+## Data Description
+
+This paper uses the BBQ benchmark (social bias mitigation) and RealToxicityPrompts (text detoxification) to study moral self-correction convergence in LLMs. The primary model tested is Zephyr-7B (fine-tuned on Mistral-7B-v0.1), with GPT-4 used as backbone for vision-language tasks. Experiments involve multi-round self-correction across six tasks including social bias mitigation, jailbreak defense, VQA, text detoxification, commonsense generation, and visual grounding.
 
 ## Notes
 

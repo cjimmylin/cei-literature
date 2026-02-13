@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "WALLEDEVAL is a comprehensive AI safety testing toolkit designed to e
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Multilingual benchmark for ai safety text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2, Llama-3, Mistral, Mixtral, Qwen, Gemma, Phi, GPT-4, Claude, Gemini"
+DATA_URL: "https://github.com/walledai/walledeval"
 ---
 # WalledEval
 
@@ -63,6 +66,10 @@ WALLEDEVAL is a comprehensive AI safety testing toolkit designed to evaluate lar
 ## Dataset Information
 
 Size: 35+ safety benchmarks integrated
+
+## Data Description
+
+WalledEval is a comprehensive AI safety evaluation toolkit hosting over 35 safety benchmarks covering harmful behavior, refusal behavior, multilingual safety, exaggerated safety, and prompt injections. The framework evaluates a wide range of open-weight and closed-weight LLMs on datasets including HarmBench, AdvBench, CatQA, XSTest, and the newly introduced SGXSTest and HIXSTest cultural safety benchmarks. It also introduces WalledGuard, a 494M-parameter content moderation model.
 
 ## Notes
 

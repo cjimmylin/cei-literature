@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark annotated dataset"
 data_metrics: "2,000 languages; 75 languages"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/afrisenti-semeval/afrisent-semeval-2023"
 pdf_extract: "PDF Extracts/2023/2023-Muhammad-AfriSenti.md"
 ---
 # AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages
@@ -63,6 +66,11 @@ Africa is home to over 2,000 languages from over six language families and has t
 ## Authors
 
 [[Shamsuddeen Muhammad]], [[Idris Abdulmumin]], [[Abinew Ayele]], [[Nedjma Ousidhoum]], [[David Adelani]], [[Seid Yimam]], [[Ibrahim Ahmad]], [[Meriem Beloucif]], [[Saif Mohammad]], [[Sebastian Ruder]], [[Oumaima Hourrane]], [[Alipio Jorge]], [[Pavel Brazdil]], [[Felermino Ali]], [[Davis David]], [[Salomey Osei]], [[Bello Shehu-Bello]], [[Falalu Lawan]], [[Tajuddeen Gwadabe]], [[Samuel Rutunda]], [[Tadesse Belay]], [[Wendimu Messelle]], [[Hailu Balcha]], [[Sisay Chala]], [[Hagos Gebremichael]], [[Bernard Opoku]], [[Stephen Arthur]]
+
+## Data Description
+
+AfriSenti is a Twitter sentiment analysis benchmark containing over 110,000 tweets in 14 African languages (Amharic, Algerian Arabic, Hausa, Igbo, Kinyarwanda, Moroccan Arabic, Mozambican Portuguese, Nigerian Pidgin, Oromo, Swahili, Tigrinya, Twi, Xitsonga, and Yoruba) from four language families. Tweets are annotated as positive, negative, or neutral by native speakers, and baseline experiments use pretrained language models such as XLM-R, mDeBERTaV3, AfriBERTa, and AfroXLMR.
+
 
 ## Notes
 

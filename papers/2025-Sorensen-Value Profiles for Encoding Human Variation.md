@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+LLM_assessed: "Gemma, Gemini"
+DATA_URL: "NA"
 ---
 # Value Profiles for Encoding Human Variation
 
@@ -64,6 +67,11 @@ Modelling human variation in rating tasks is crucial for personalization, plural
 ## Authors
 
 [[Taylor Sorensen]], [[Pushkar Mishra]], [[Roma Patel]], [[Michael Henry Tessler]], [[Michiel Bakker]], [[Georgina Evans]], [[Iason Gabriel]], [[Noah Goodman]], [[Verena Rieser]]
+
+## Data Description
+
+The paper uses six existing annotator disagreement datasets (OpinionQA, Hatespeech-Kumar, DICES, ValuePrism, Habermas-Likert, and Prism) spanning tasks in model alignment, content moderation, and computational social science. These datasets contain forced-choice selection tasks with annotator IDs and demographic information, totaling over 1 million ratings from thousands of raters. The models evaluated include Gemma-2-9b, Gemma-2-27b (as encoders/decoders), and Gemini-1.5 Pro (as encoder), fine-tuned to predict individual rater variation.
+
 
 ## Notes
 

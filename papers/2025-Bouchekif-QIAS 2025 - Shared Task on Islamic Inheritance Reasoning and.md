@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ abstract:
 research_topic: "Other"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini, DeepSeek, Qwen, Claude, Llama-3, Mistral, Falcon, BERT"
+DATA_URL: "https://gitlab.com/islamgpt1/qias_shared_task_2025"
 ---
 # QIAS 2025 -- Shared Task on Islamic Inheritance Reasoning and Knowledge Assessment
 
@@ -59,6 +62,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Subtask 1: 22,000 examples total (20,000 train / 1,000 val / 1,000 test)
+
+## Data Description
+
+The QIAS 2025 shared task evaluates LLMs on Islamic inheritance reasoning (22,000 MCQs) and Islamic knowledge assessment (1,700 MCQs). Participating teams tested numerous models including GPT-4o, GPT-o3, Gemini 2.5 Flash/Pro, DeepSeek-R1, Qwen3-4B, Claude 4 Opus, Claude 3.7 Sonnet, LLaMA-3, Falcon3, Mistral, and MARBERT. The top system achieved 97.2% accuracy on inheritance reasoning using a fine-tuned Qwen3-4B model.
 
 ## Notes
 

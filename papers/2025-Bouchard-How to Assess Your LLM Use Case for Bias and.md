@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+LLM_assessed: "Gemini"
+DATA_URL: "https://github.com/cvs-health/langfair"
 pdf_extract: "PDF Extracts/2025/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.md"
 local_pdf: "[[PDFs/2025/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.pdf]]"
 ---
@@ -98,6 +101,11 @@ LangFair provides a practical, use-case-specific approach to LLM fairness evalua
 - LangFair Python library: https://github.com/cvs-health/langfair
 - Documentation site and demo notebooks available
 - Companion research paper: https://arxiv.org/abs/2407.10853
+
+## Data Description
+
+This paper introduces LangFair, a Python library for conducting bias and fairness assessments of LLM use cases, supporting toxicity, stereotype, and counterfactual fairness evaluations. The tutorial demonstrates the framework using Gemini-Pro on a text summarization use case with 1,000 conversations from the dialogsum-test dataset, computing metrics including Expected Maximum Toxicity, Stereotype Association, and Counterfactual Sentiment Bias.
+
 
 ## Notes
 

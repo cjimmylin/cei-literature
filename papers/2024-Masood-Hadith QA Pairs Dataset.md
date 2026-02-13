@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Masood-Hadith QA Pairs Dataset.md"
 local_pdf: "[[PDFs/2024/2024-Masood-Hadith QA Pairs Dataset.pdf]]"
 ---
@@ -89,6 +92,11 @@ The Hadith QA Pairs Dataset represents an important contribution to Islamic NLP 
 
 - Dataset available at: https://www.kaggle.com/datasets/rwmasood/hadith-qa-pairs
 - License: CC BY-SA 4.0
+
+## Data Description
+
+This dataset contains Hadith-based question-answer pairs extracted from four renowned Hadith collections: Musnad Ahmad, Sahih Muslim, Sahih Bukhari, and Jami at-Tirmidhi. The dataset is structured as question-answer pairs where each question is answered using a relevant Hadith along with its reference, and is designed to train LLMs for text generation and question-answering tasks in Islamic studies. The extract is only 1 page from a Kaggle dataset page and does not report any LLM experiments.
+
 
 ## Notes
 

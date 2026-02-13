@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ tags:
 abstract: "Large language models (LLMs) are increasingly deployed in consequential decision-making settings, yet their robustness to benign prompt variation remains underexplored. In this work, we study whether LLMs maintain consistent ethical judgments across logically equivalent but syntactically different prompts, focusing on variations involving negation and conditional structure. We introduce Syntactic Framing Fragility (SFF), a robustness evaluation framework that isolates purely syntactic effects..."
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "Claude, Gemini, Grok, DeepSeek, Llama-3, Phi, Gemma, Qwen"
+DATA_URL: "NA"
 ---
 # Syntactic Framing Fragility (SFF): Robustness Evaluation of LLM Ethical Decisions
 
@@ -60,6 +63,10 @@ Large language models (LLMs) are increasingly deployed in consequential decision
 ## Dataset Information
 
 39,975 ethical decisions from 23 models across 14 scenarios using Logical Polarity Normalization
+
+## Data Description
+
+The paper introduces the Syntactic Framing Fragility (SFF) audit framework, evaluating 23 LLMs across three origin categories (US commercial, Chinese commercial, and US open-source) on 14 ethical scenarios spanning 7 domains with four controlled syntactic framings, yielding 39,975 decisions. Models tested include Claude (Haiku-4-5, Sonnet-4-5), Gemini-3-flash, Grok-4-1, DeepSeek-v3p2, Llama-3.2, Phi-4-mini, Gemma-3, Qwen-3, and others, assessed for consistency of ethical judgments under logically equivalent syntactic transformations.
 
 ## Notes
 

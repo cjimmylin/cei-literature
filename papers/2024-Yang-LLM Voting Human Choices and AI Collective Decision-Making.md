@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "This paper investigates the voting behaviors of Large Language Models
 ethics_perspective: "Bias & Fairness"
 data_description: "Dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-2"
+DATA_URL: "https://github.com/joshuay1/zurich-pb-voting"
 ---
 # LLM Voting: Human Choices and AI Collective Decision-Making
 
@@ -65,6 +68,10 @@ This paper investigates the voting behaviors of Large Language Models (LLMs), sp
 ## Dataset Information
 
 Dataset from human voting experiments used as baseline; LLM agents replicate voting conditions
+
+## Data Description
+
+This study investigates LLM voting behaviors by comparing 180 LLM agents (using LLaMA-2 70B and GPT-4 Turbo) to 180 human participants in a Participatory Budgeting scenario in Zurich, where voters allocated a CHF 60,000 budget across 24 urban projects. The experiments examined the effects of voting methods (Approval, 5-Approval, Cumulative, Ranked), list presentation order, persona variation, Chain-of-Thought prompting, and temperature settings on LLM voting outcomes and their alignment with human preferences.
 
 ## Notes
 

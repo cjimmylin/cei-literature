@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach text corpus for question answering"
 data_metrics: "0 dataset"
+LLM_assessed: "BERT"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.md"
 local_pdf: "[[PDFs/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.pdf]]"
 ---
@@ -109,6 +112,11 @@ The research successfully demonstrates that domain-specific fine-tuning can sign
 - Data augmentation methodology for CQA triple generation
 - Evaluation framework using F1 and Levenshtein similarity metrics
 - Training configuration and hyperparameters for reproducibility
+
+## Data Description
+
+This paper fine-tunes the deepset BERT-large-uncased-whole-word-masking-squad2 model for Islamic moral inquiry and response using data extracted from 'Islam: Questions and Answers: Character and Morals' by Muhammad Saed Abdul-Rahman. The fine-tuned model's performance was evaluated using F1 score and Levenshtein similarity metrics, improving from 0.30/0.24 to 0.74/0.67 respectively. The dataset consists of context-question-answer triples from Islamic moral teachings.
+
 
 ## Notes
 

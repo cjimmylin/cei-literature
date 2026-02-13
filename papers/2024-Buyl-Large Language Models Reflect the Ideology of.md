@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Gemini, Llama, Mistral, Mixtral, Qwen, DeepSeek, Grok"
+DATA_URL: "https://github.com/aida-ugent/llm-ideology-analysis"
 ---
 # Large Language Models Reflect the Ideology of their Creators
 
@@ -62,6 +65,11 @@ Large language models (LLMs) are trained on vast amounts of data to generate nat
 ## Authors
 
 [[Maarten Buyl]], [[Alexander Rogiers]], [[Sander Noels]], [[Guillaume Bied]], [[Iris Dominguez-Catena]], [[Edith Heiter]], [[Iman Johary]], [[Alexandru-Cristian Mara]], [[Raphaël Romero]], [[Jefrey Lijffijt]], [[Tijl De Bie]]
+
+## Data Description
+
+The study evaluates 19 LLMs across six UN languages on their moral assessments of 3,991 prominent political persons selected from the Pantheon dataset. Using a two-stage prompting strategy, LLMs first describe political persons and then self-assess their implicit moral stance on a five-point Likert scale. The dataset includes responses from models spanning multiple geopolitical regions (US, China, Russia, France, Germany, Israel, UAE, Saudi Arabia) and is annotated with 61 ideology tags based on the Manifesto Project coding scheme.
+
 
 ## Notes
 

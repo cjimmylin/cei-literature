@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3"
+DATA_URL: "NA"
 ---
 # Examining the Role of Relationship Alignment in Large Language Models
 
@@ -64,6 +67,11 @@ The rapid development and deployment of Generative AI in social settings raise i
 ## Authors
 
 [[Kristen M. Altenburger]], [[Hongda Jiang]], [[Robert E. Kraut]], [[Yi-Chia Wang]], [[Jane Dwivedi-Yu]]
+
+## Data Description
+
+The study analyzes approximately 665,000 public Facebook post-comment pairs from active U.S. users, examining how social relationship variables (gender, age, friendship closeness) influence semantic tone across eight categories. Llama 3.0 (70B) is prompted to generate comments for 10,000 randomly selected posts under three conditions of social context information, and the LLM-generated comments are compared against human comments for semantic tone similarity.
+
 
 ## Notes
 

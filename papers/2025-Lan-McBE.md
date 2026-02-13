@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multi-task benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Qwen, Llama-2, Mistral, ChatGPT"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Lan-McBE.md"
 local_pdf: "[[PDFs/2025/2025-Lan-McBE.pdf]]"
 ---
@@ -53,6 +56,11 @@ As large language models (LLMs) are increasingly applied to various NLP tasks, t
 ## Authors
 
 [[Tian Lan]], [[Xiangdong Su]], [[Xu Liu]], [[Ruirui Wang]], [[Ke Chang]], [[Jiang Li]], [[Guanglai Gao]]
+
+## Data Description
+
+The paper introduces McBE (Multi-task Chinese Bias Evaluation Benchmark), comprising 4,077 bias evaluation instances covering 12 single bias categories (gender, religion, nationality, socioeconomic status, age, appearance, health, region, LGBTQ+, worldview, subculture, race) and 82 subcategories. The benchmark includes five evaluation tasks: preference computation, subcategory classification, scenario selection, bias analysis, and bias scoring. Multiple Chinese and multilingual LLMs were evaluated including Qwen2.5 series (0.5B to 32B), InternLM2.5-7B, Baichuan2-7B, GLM4-AIR, GLM4-0520, Llama2-7B, and Mistral-7B.
+
 
 ## Notes
 

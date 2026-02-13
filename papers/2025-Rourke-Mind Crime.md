@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 local_pdf: N/A
 ---
 # Mind Crime: The Moral Frontier of Artificial Intelligence
@@ -45,6 +48,11 @@ local_pdf: N/A
 ## Abstract
 
 This book explores the moral implications of advanced artificial intelligence, particularly the potential for conscious digital minds. Rourke introduces the concept of "mind crime," defined as the potential abuse, exploitation, and suffering of "digital minds." Drawing on themes of **moral character** and **virtue ethics**, the author examines whether digital minds can be conscious and if humanity has an obligation to grant them moral consideration. The book argues that poor choices regarding digital minds could lead to a catastrophic moral failure—potentially humanity's greatest. It raises questions about **wisdom**, **courage**, and ethical responsibility in the development of artificial superintelligence (ASI), particularly concerning the potential suffering and moral status of future AI entities.
+
+## Data Description
+
+No PDF extract available for analysis.
+
 
 ## Notes
 

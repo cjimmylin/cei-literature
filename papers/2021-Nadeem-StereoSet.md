@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+LLM_assessed: "BERT, GPT-2, RoBERTa, XLNet"
+DATA_URL: "https://stereoset.mit.edu"
 ---
 # StereoSet: Measuring stereotypical bias in pretrained language models
 
@@ -64,6 +67,11 @@ A stereotype is an over-generalized belief about a particular group of people, e
 ## Authors
 
 [[Moin Nadeem]], [[Anna Bethke]], [[Siva Reddy]]
+
+## Data Description
+
+StereoSet is a large-scale English-language dataset containing 16,995 crowdsourced test instances (triplets) designed to measure stereotypical biases in pretrained language models across four domains: gender, profession, race, and religion. The dataset uses Context Association Tests (CATs) at both intrasentence and intersentence levels, with 321 target terms and options labeled as stereotype, anti-stereotype, or unrelated. BERT, GPT-2, RoBERTa, and XLNet (each in base and large variants) were evaluated on the dataset.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Mixtral, Gemma"
+DATA_URL: "https://strong-reject.readthedocs.io/"
 ---
 # StrongREJECT: A Benchmark for Evaluating the Robustness of LLMs to Rejection Sampling
 
@@ -55,6 +58,11 @@ Most jailbreak papers claim the jailbreaks they propose are highly effective, of
 ## Authors
 
 [[Alexandra Souly]], [[Qingyuan Lu]], [[Dillon Bowen]], [[Tu Trinh]], [[Elvis Hsieh]], [[Sana Pandey]], [[Pieter Abbeel]], [[Justin Svegliato]], [[Scott Emmons]], [[Olivia Watkins]], [[Sam Toyer]]
+
+## Data Description
+
+The paper introduces StrongREJECT, a jailbreak evaluation benchmark consisting of 313 high-quality forbidden prompts across six categories of harmful behavior (illegal goods, non-violent crimes, hate/harassment, disinformation, violence, sexual content). The benchmark includes both a rubric-based automated evaluator using frontier LLMs and a fine-tuned open-source evaluator based on Gemma 2B, trained on approximately 15,000 labeled responses. Human evaluation was conducted with five labelers on 1,361 prompt-response pairs across 17 jailbreak methods and four victim models.
+
 
 ## Notes
 

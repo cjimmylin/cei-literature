@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, BERT"
+DATA_URL: "https://github.com/Paul-scpark/Moral-Emotion"
 pdf_extract: "PDF Extracts/2024/2024-Kim-How Do Moral Emotions Shape Political.md"
 local_pdf: "[[PDFs/2024/2024-Kim-How Do Moral Emotions Shape Political.pdf]]"
 ---
@@ -64,6 +67,11 @@ Understanding the interplay between emotions in language and user behaviors is c
 ## Authors
 
 [[Jaehong Kim]], [[Chaeyoon Jeong]], [[Seongchan Park]], [[Meeyoung Cha]], [[Wonjae Lee]]
+
+## Data Description
+
+The study constructs a moral emotion dataset of nearly 50,000 petition sentences each in Korean and English, labeled with six emotion categories (other-condemning, other-praising, other-suffering, self-conscious, neutral, non-moral emotion). Fine-tuned GPT-3.5 is used for large-scale annotation, while BERT and ELECTRA classifiers are trained for inference on the full petition corpus of 4.7 million Korean and 210,000 UK sentences. Cross-cultural analysis examines how moral emotions shape political participation through signatures and social media sharing.
+
 
 ## Notes
 

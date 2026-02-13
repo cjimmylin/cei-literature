@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-3, Mistral"
+DATA_URL: "NA"
 ---
 # Fine-Tuning Language Models for Ethical Ambiguity: A Comparative Study of Alignment with Human Responses
 
@@ -64,6 +67,11 @@ Language models often misinterpret human intentions due to their handling of amb
 ## Authors
 
 [[Pranav Senthilkumar]], [[Visshwa Balasubramanian]], [[Prisha Jain]], [[Aneesa Maity]], [[Jonathan Lu]], [[Kevin Zhu]]
+
+## Data Description
+
+This study uses two existing datasets from the Scruples project: the DILEMMAS dataset containing 10,000 ethical dilemmas annotated via Mechanical Turk, and the ANECDOTES dataset comprising 32,000 real-life scenarios from the r/AmItheAsshole subreddit. The models are evaluated on calibration to human moral judgments using cross-entropy and Dirichlet multinomial loss, with QLoRA fine-tuning applied to improve alignment.
+
 
 ## Notes
 

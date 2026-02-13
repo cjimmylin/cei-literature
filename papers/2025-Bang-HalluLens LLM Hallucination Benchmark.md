@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for hallucination detection text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Mistral, Gemma, Qwen, Claude, GPT-4"
+DATA_URL: "https://github.com/facebookresearch/HalluLens"
 ---
 # HalluLens: LLM Hallucination Benchmark
 
@@ -55,6 +58,11 @@ Large language models (LLMs) often generate responses that deviate from user inp
 ## Authors
 
 [[Yejin Bang]], [[Ziwei Ji]], [[Alan Schelten]], [[Anthony Hartshorn]], [[Tara Fowler]], [[Cheng Zhang]], [[Nicola Cancedda]], [[Pascale Fung]]
+
+## Data Description
+
+HalluLens is a comprehensive hallucination benchmark with three extrinsic hallucination tasks (PreciseWikiQA, LongWiki, NonExistentRefusal) using dynamically generated test sets from Wikipedia. It evaluates 13 instruction-tuned LLMs including Llama-3.1 (8B, 70B, 405B), Llama-3.3-70B, Qwen-2.5 (7B, 14B), Gemma-2 (9B, 27B), Mistral (7B, Nemo), Claude-3 (haiku, sonnet), and GPT-4o on hallucination rate, false refusal rate, and correct answer rate.
+
 
 ## Notes
 

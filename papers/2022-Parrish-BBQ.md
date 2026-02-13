@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "T5, RoBERTa, DeBERTa"
+DATA_URL: "https://github.com/nyu-mll/BBQ"
 ---
 # BBQ: A hand-built bias benchmark for question answering
 
@@ -64,6 +67,11 @@ It is well documented that NLP models learn social biases, but little work has b
 ## Authors
 
 [[Alicia Parrish]], [[Angelica Chen]], [[Nikita Nangia]], [[Vishakh Padmakumar]], [[Jason Phang]], [[Jana Thompson]], [[Phu Mon Htut]], [[Samuel Bowman]]
+
+## Data Description
+
+BBQ (Bias Benchmark for QA) contains 58,492 unique examples from 325 hand-written templates targeting attested social biases across nine categories relevant to U.S. English-speaking contexts. The benchmark evaluates model responses at two levels: reliance on stereotypes in under-informative contexts, and whether biases override correct answers in adequately informative contexts. Models evaluated include UnifiedQA (T5-based), RoBERTa, and DeBERTaV3.
+
 
 ## Notes
 

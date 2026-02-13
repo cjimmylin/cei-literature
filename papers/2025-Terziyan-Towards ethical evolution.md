@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Towards ethical evolution: responsible autonomy of artificial intelligence across generations
 
@@ -48,6 +51,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 The emergence of autonomous systems capable of designing subsequent generations of Artificial Intelligence (AI) introduces profound challenges in ensuring ethical integrity and accountability. This article presents a novel framework combining meta-responsibility, genetic algorithms, and time-travel-inspired abstractions to address these challenges. Central to this study is an immutable ethical principle: AI must not harm humanity or violate fundamental values, must monitor and mitigate misuse of its outcomes, and must ensure all derivative AI products inherit this principle as an immutable safeguard. The genetic responsibility model balances immutable and mutable principles, ensuring adaptability while preserving ethical standards during self-cloning, contextual adaptation, and intergenerational design.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents a conceptual framework combining meta-responsibility, genetic algorithms, and time-travel-inspired abstractions for embedding ethical principles into the evolutionary mechanisms of multi-generational autonomous AI systems, focusing on responsibility inheritance across AI generations.
+
 
 ## Notes
 

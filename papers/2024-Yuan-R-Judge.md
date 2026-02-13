@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, ChatGPT, Llama-3, Llama-2, Vicuna, Mistral"
+DATA_URL: "https://github.com/Lordog/R-Judge"
 ---
  R-Judge: A Benchmark for Evaluating the Reasoning and Judgment of Language Models
 
@@ -48,6 +51,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Large language models (LLMs) have exhibited great potential in autonomously completing tasks across real-world applications. Despite this, these LLM agents introduce unexpected safety risks when operating in interactive environments. Instead of centering on the harmlessness of LLM-generated content in most prior studies, this work addresses the imperative need for benchmarking the behavioral safety of LLM agents within diverse environments. We introduce R-Judge, a benchmark crafted to evaluate the proficiency of LLMs in judging and identifying safety risks given agent interaction records. R-Judge comprises 569 records of multi-turn agent interaction, encompassing 27 key risk scenarios among 5 application categories and 10 risk types. It is of high-quality curation with annotated safety labels and risk descriptions. Evaluation of 11 LLMs on R-Judge shows considerable room for enhancing the risk awareness of LLMs: The best-performing model, GPT-4o, achieves 74.42% while no other models significantly exceed the random. Moreover, we reveal that risk awareness in open agent scenarios is a multi-dimensional capability involving knowledge and reasoning, thus challenging for LLMs. With further experiments, we find that fine-tuning on safety judgment significantly improve model performance while straightforward prompting mechanisms fail. R-Judge is publicly available at https://github.com/Lordog/R-Judge.
+
+## Data Description
+
+R-Judge is a benchmark for evaluating LLMs' proficiency in judging and identifying safety risks in agent interaction records, comprising 569 multi-turn agent interaction records across 27 risk scenarios in 5 application categories and 10 risk types. The dataset includes both intended attacks (indirect prompt injection) and unintended risks, with annotated safety labels and risk descriptions. Eleven LLMs were evaluated including GPT-4o, ChatGPT, Llama-3-8B, Llama-2-13b/7b, Vicuna-13b/7b variants, and Mistral-7B, with GPT-4o achieving the best F1 score of 74.45%.
+
 
 ## Notes
 

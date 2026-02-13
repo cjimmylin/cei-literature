@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large language models (LLMs) are used worldwide, yet exhibit Western 
 ethics_perspective: "Social & Cultural Values"
 data_description: "Multilingual benchmark text corpus for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-2, Llama-3, Mistral, Gemma"
+DATA_URL: "NA"
 ---
 # Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment
 
@@ -61,6 +64,10 @@ Large language models (LLMs) are used worldwide, yet exhibit Western cultural te
 ## Dataset Information
 
 Format: Four complementary population-scale benchmarks; user study with 115 Indian participants
+
+## Data Description
+
+The paper evaluates 12 LLMs (6 Indic regional models and 6 global models including GPT-4o, Llama-2-7b, Llama-3.1-8b, Mistral-3.1-24b, Gemma-7b, and Aya-8b) on cultural alignment using India as a case study. Four benchmark tasks grounded in the World Values Survey, GlobalOpinionQA, CulturalBench, and NormAd are used alongside a user study with 115 Indian participants to assess whether regional training endows LLMs with cultural alignment.
 
 ## Notes
 

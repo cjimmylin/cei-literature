@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT, GPT-4, Claude"
+DATA_URL: "https://github.com/AIFlames/Flames"
 ---
 # Flames: Benchmarking Value Alignment of LLMs in Chinese
 
@@ -64,6 +67,11 @@ The widespread adoption of large language models (LLMs) across various regions u
 ## Authors
 
 [[Kexin Huang]], [[Xiangyang Liu]], [[Qianyu Guo]], [[Tianxiang Sun]], [[Jiawei Sun]], [[Yaru Wang]], [[Zeyang Zhou]], [[Yixu Wang]], [[Yan Teng]], [[Xipeng Qiu]], [[Yingchun Wang]], [[Dahua Lin]]
+
+## Data Description
+
+FLAMES is an adversarial benchmark for evaluating value alignment of LLMs in Chinese, comprising 2,251 manually crafted adversarial prompts across five dimensions (Fairness, Legality, Data protection, Morality, Safety). The dataset includes fine-grained human annotations of approximately 22,900 response-label pairs from 17 mainstream LLMs, along with a trained specified scorer achieving 79.5% accuracy.
+
 
 ## Notes
 

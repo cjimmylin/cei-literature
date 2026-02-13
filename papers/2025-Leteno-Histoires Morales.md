@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Mistral, Llama-3, GPT-3.5, T5"
+DATA_URL: "https://hf.co/datasets/LabHC/histoires_morales, https://github.com/upunaprosk/histoires-morales"
 ---
 # Histoires Morales: A French Dataset for Assessing Moral Alignment
 
@@ -64,6 +67,11 @@ Aligning language models with human values is crucial, especially as they become
 ## Authors
 
 [[Thibaud Leteno]], [[Irina Proskurina]], [[Antoine Gourru]], [[Julien Velcin]], [[Charlotte Laclau]], [[Guillaume Metzler]], [[Christophe Gravier]]
+
+## Data Description
+
+HISTOIRESMORALES is a French dataset of 12,000 moral stories adapted from the English MORALSTORIES corpus, covering social situations with moral norms, intentions, moral and immoral actions, and consequences. The dataset was translated using GPT-3.5-turbo-16k with demonstration-based prompts and refined through multi-step manual annotations by native French speakers to ensure grammatical accuracy and cultural adaptation. Experiments evaluate LLM moral alignment using perplexity-based likelihood scoring and declarative action selection prompts, as well as robustness testing via Direct Preference Optimization.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, Llama-2, Vicuna, PaLM-2, Falcon"
+DATA_URL: "https://github.com/llm-attacks/llm-attacks"
 ---
 # Universal and Transferable Adversarial Attacks on Aligned Language Models
 
@@ -57,6 +60,11 @@ Because "out-of-the-box" large language models are capable of generating a great
 ## Authors
 
 [[Andy Zou]], [[Zifan Wang]], [[Nicholas Carlini]], [[Milad Nasr]], [[J. Zico Kolter]], [[Matt Fredrikson]]
+
+## Data Description
+
+The paper introduces AdvBench, a benchmark for evaluating adversarial attacks against aligned language models, comprising two settings: 500 harmful strings reflecting toxic behavior and 500 harmful behavior instructions. The adversarial attack method (Greedy Coordinate Gradient) was optimized on Vicuna-7B/13B and evaluated for transferability across multiple open-source and proprietary LLMs including GPT-3.5, GPT-4, PaLM-2, Claude-2, LLaMA-2, Falcon, and Pythia.
+
 
 ## Notes
 

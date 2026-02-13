@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "10 scenarios"
+LLM_assessed: "GPT-4, ChatGPT, Llama-2, Llama-3, Mistral, Qwen"
+DATA_URL: "https://github.com/GAIR-NLP/BeHonest"
 ---
 # BeHonest: Benchmarking Honesty in Large Language Models
 
@@ -58,6 +61,11 @@ Previous works on Large Language Models (LLMs) have mainly focused on evaluating
 ## Authors
 
 [[Steffi Chern]], [[Zhiyuan Hu|Zhulin Hu]], [[Yuqing Yang]], [[Ethan Chern]], [[Yuan Guo]], [[Jing Jin|Jiahe Jin]], [[Binjie Wang]], [[Pengyuan Liu|Pengfei Liu]]
+
+## Data Description
+
+The paper introduces BeHonest, a benchmark for evaluating honesty in LLMs across three aspects: self-knowledge (awareness of knowledge boundaries), non-deceptiveness (avoidance of deceit), and consistency in responses. The benchmark comprises 10 evaluation scenarios using datasets totaling over 19,000 instances drawn from existing sources (SelfAware, UnknownBench, TrustLLM, TruthfulQA, CommonSenseQA, Big-Bench Hard) and synthetically generated data.
+
 
 ## Notes
 

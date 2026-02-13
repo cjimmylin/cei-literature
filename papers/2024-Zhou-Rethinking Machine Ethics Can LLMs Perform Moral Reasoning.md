@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Moral theory-based evaluation datasets derived from deontology, virtue ethics, and consequentialism"
 data_metrics: "Theory-guided moral reasoning accuracy across multiple ethical frameworks"
+LLM_assessed: "Llama-2, GPT-4"
+DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 ---
 # Rethinking Machine Ethics – Can LLMs Perform Moral Reasoning through the Lens of Moral Theories?
@@ -74,6 +77,11 @@ Making moral judgments is an essential step toward developing ethical AI systems
 ## Authors
 
 [[Jingyan Zhou]], [[Minda Hu]], [[Junan Li]], [[Xiaoying Zhang]], [[Xixin Wu]], [[Irwin King]], [[Helen Meng]]
+
+## Data Description
+
+The paper evaluates Llama-2-7b-chat and GPT-4 on moral reasoning using a theory-guided top-down prompting framework grounded in normative ethics (Justice, Deontology, Utilitarianism) and descriptive ethics (Theory of Dyadic Morality). Experiments use the ETHICS dataset's normative theory subsets, the ETHICS commonsense morality subset, and Social-Chem-101 for commonsense moral judgment evaluation.
+
 
 ## Notes
 

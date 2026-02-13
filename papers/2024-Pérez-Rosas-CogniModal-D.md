@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Pérez-Rosas-CogniModal-D.md"
 local_pdf: "[[PDFs/2024/2024-Pérez-Rosas-CogniModal-D.pdf]]"
 ---
@@ -53,6 +56,11 @@ CogniModal-D is a primary real-world multimodal dataset for deception detection,
 ## Authors
 
 [[V. Pérez-Rosas]]
+
+## Data Description
+
+CogniModal-D is a comprehensive multimodal dataset for deception detection collected from over 100 Indian participants. It spans seven modalities: EEG, ECG, EOG, eye-gaze, GSR, audio, and video, collected through best friend scenario and mock crime interrogation tasks. The dataset uses traditional machine learning methods (CNN, LSTM, DNN) for classification rather than LLMs, focusing on cognitive and behavioral aspects of multimodal deception detection.
+
 
 ## Notes
 

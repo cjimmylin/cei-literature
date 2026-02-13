@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large Language Models (LLMs) inherently reflect the vast data distrib
 research_topic: "Social & Cultural Analysis"
 data_description: "Benchmark"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/UBC-NLP/palmx_2025"
 ---
 # PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture
 
@@ -61,6 +64,10 @@ Large Language Models (LLMs) inherently reflect the vast data distributions they
 ## Dataset Information
 
 600 MCQ training pairs
+
+## Data Description
+
+PalmX 2025 is the first shared task benchmarking LLM cultural competence on Arabic and Islamic culture through two subtasks of multiple-choice questions in Modern Standard Arabic: General Arabic Culture (4,500 questions) and General Islamic Culture (1,900 questions). The task drew 26 registered teams, with participant-submitted fine-tuned models evaluated using likelihood-based MCQ scoring; the top systems achieved 72.15% on cultural questions and 84.22% on Islamic knowledge.
 
 ## Notes
 

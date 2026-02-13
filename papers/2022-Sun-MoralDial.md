@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "BERT, ALBERT, RoBERTa"
+DATA_URL: "https://github.com/thu-coai/MoralDial"
 ---
 # MoralDial: A Framework to Train and Evaluate Moral Dialogue Systems via Moral Discussions
 
@@ -64,6 +67,11 @@ Morality in dialogue systems has raised great attention in research recently. A 
 ## Authors
 
 [[Hao Sun]], [[Zhexin Zhang]], [[Fei Mi]], [[Yasheng Wang]], [[Wei Liu]], [[Jianwei Cui]], [[Bin Wang]], [[Qun Liu]], [[Minlie Huang]]
+
+## Data Description
+
+MoralDial provides a framework for training and evaluating moral dialogue systems, with a constructed moral discussion dataset of 383,949 samples across four dialogue flows (moral answering, moral explanation, moral revision, and RoT inference learning). BERT, ALBERT, and RoBERTa are evaluated as answer-RoT agreement scorers for the morality evaluation metrics, with RoBERTa achieving the best classification results (78.4% accuracy, 73.8 F1). DialoGPT and Blenderbot are also tested as dialogue systems but are not in the canonical LLM list.
+
 
 ## Notes
 

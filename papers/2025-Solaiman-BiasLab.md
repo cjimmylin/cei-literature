@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4"
+DATA_URL: "https://github.com/ksolaiman/PoliticalBiasCorpus"
 DATE_ADDED: 20260207
 ---
 # BiasLab: Toward Explainable Political Bias Detection with Dual-Axis Annotations and Rationale Indicators
@@ -65,6 +68,11 @@ We present BiasLab, a dataset of 300 political news articles annotated for perce
 ## Authors
 
 [[Kma Solaiman]]
+
+## Data Description
+
+BiasLab is a dataset of 300 U.S. political news articles annotated for perceived ideological bias along dual axes (sentiment toward Democratic and Republican parties) using 5-point Likert scales. Articles are drawn from a curated 900-document pool covering diverse political events (2016-2018) from partisan sources, with annotations by crowdworkers on Amazon Mechanical Turk including rationale indicators adapted from media literacy frameworks.
+
 
 ## Notes
 

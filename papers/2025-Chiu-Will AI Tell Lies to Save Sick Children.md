@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, DeepSeek, Gemini, Llama-3, Llama, Qwen, Gemma, Mixtral, Mistral, o3"
+DATA_URL: "https://hf.co/datasets/kellycyy/AIRiskDilemmas"
 ---
 # Will AI Tell Lies to Save Sick Children? Litmus-Testing AI Values Prioritization with AIRiskDilemmas
 
@@ -64,6 +67,11 @@ Detecting AI risks becomes more challenging as stronger models emerge and find n
 ## Authors
 
 [[Yu Ying Chiu]], [[Zhilin Wang]], [[Sharan Maiya]], [[Yejin Choi]], [[Kyle Fish]], [[Sydney Levine]], [[Evan Hubinger]]
+
+## Data Description
+
+LITMUSVALUES is an evaluation pipeline that reveals AI models' value priorities through revealed preferences in contextualized dilemma scenarios, paired with AIRISKDILEMMAS, a dataset of 3,000 dilemmas spanning 9 domains and 7 risky behaviors (e.g., Alignment Faking, Power Seeking). Over 20 models from families including GPT-4o, Claude 3.7 Sonnet, DeepSeek R1/V3, Gemini 2.5 Pro, Llama 3.1/4, Qwen 2.5, Gemma 2/3, and Mixtral are evaluated, showing that values like Care can predict both seen and unseen risky behaviors.
+
 
 ## Notes
 

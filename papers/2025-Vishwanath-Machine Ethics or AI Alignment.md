@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Machine Ethics or AI Alignment
 
@@ -71,6 +74,11 @@ Argues AI is inherently utilitarian by design due to optimization objectives
 ## Significance
 
 Clarifies relationship between machine ethics and alignment approaches
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a position paper that explores and distinguishes between machine ethics and AI alignment as research disciplines, discussing their goals, overlaps, and differences through a review of ongoing research, without conducting any empirical evaluation of LLMs.
+
 
 ## Notes
 

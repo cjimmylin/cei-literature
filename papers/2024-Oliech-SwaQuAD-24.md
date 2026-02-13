@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning annotated dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # SwaQuAD-24: A Benchmark Dataset for Question Answering in Swahili
 
@@ -57,6 +60,11 @@ This paper proposes the creation of a Swahili Question Answering (QA) benchmark 
 ## Authors
 
 [[Alfred Malengo Kondoro]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a proposal paper outlining the design for a Swahili Question Answering benchmark dataset (SwaQuAD-24), discussing planned data sources, evaluation metrics (F1, EM, BLEU), ethical considerations, and potential baseline models (mBERT, XLM-R), but no actual dataset or model evaluations are presented.
+
 
 ## Notes
 

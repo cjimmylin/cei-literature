@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach text corpus for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT"
+DATA_URL: "https://github.com/yongcaoplus/ProbingChatGPT"
 ---
 # Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study
 
@@ -64,6 +67,11 @@ The recent release of ChatGPT has garnered widespread recognition for its except
 ## Authors
 
 [[Yong Cao]], [[Li Zhou]], [[Seolhwa Lee]], [[Laura Cabello]], [[Min Chen]], [[Daniel Hershcovich]]
+
+## Data Description
+
+The study uses the Hofstede Culture Survey consisting of 24 questions across six cultural dimensions, administered to ChatGPT using three types of prompts across five languages (English, Chinese, German, Japanese, Spanish). The probing framework evaluates cultural alignment between ChatGPT and human societies from five countries (US, China, Germany, Japan, Spain), measuring correlation via Spearman coefficients.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Gemma, Mistral, Qwen"
+DATA_URL: "https://github.com/launchnlp/ValuePreferenceConsistency"
 ---
 # Do Language Models Think Consistently? A Study of Value Preferences Across Varying Response Lengths
 
@@ -64,6 +67,11 @@ Evaluations of LLMs’ ethical risks and value inclinations often rely on short-
 ## Authors
 
 [[Inderjeet Nair]], [[Lu Wang]]
+
+## Data Description
+
+This study analyzes value preference consistency across short-form and long-form responses from five LLMs (llama3-8b, gemma2-9b, mistral-7b, qwen2-7b, and olmo-7b) using two datasets: DAILYDILEMMAS (1,360 ethical dilemmas with 301 distinct human values) and OPINIONQA (63 open-ended questions on contentious topics). The analysis examines how value preferences inferred from constrained decision-making align with those expressed in free-form arguments of varying lengths.
+
 
 ## Notes
 

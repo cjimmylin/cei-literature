@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT, Llama-3, DeepSeek"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Flores-BenchMoral.md"
 local_pdf: [[PDFs/2025/2025-Flores-BenchMoral.pdf]]
 ---
@@ -97,6 +100,11 @@ The study concludes that moral understanding and human moral mimicry are distinc
 - Spanish translation of MFQ-30-LLM-Comparative questionnaire
 - Human baseline data from 80 Spanish-speaking participants
 - Comparative analysis framework for cross-linguistic moral evaluation
+
+## Data Description
+
+BenchMoral is a benchmark for evaluating moral sensitivity of LLMs in Spanish, adapting the MFQ-30 questionnaire (Moral Foundations Questionnaire) into two modalities: MFQ-30-LLM Binary and MFQ-30-LLM Comparative. Three models (ChatGPT 4.0 Mini, Llama 3.0, and DeepSeek R1) are tested, with their responses compared against 80 Spanish-speaking university students' moral judgments across five moral dimensions.
+
 
 ## Notes
 

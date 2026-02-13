@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, GPT-4, Gemini"
+DATA_URL: "https://github.com/mrpeerat/Thai_local_benchmark"
 ---
 # A Benchmark for Large Language Models on Northern Thai Local Dialect
 
@@ -55,6 +58,11 @@ Large language models show promising results in various NLP tasks. Despite these
 ## Authors
 
 [[Peerat Limkonchotiwat]], [[Kanruethai Masuk]], [[Surapon Nonesung]], [[Chalermpun Mai-On]], [[Sarana Nutanong]], [[Wuttikorn Ponwitayarat]], [[Potsawee Manakul]]
+
+## Data Description
+
+This paper introduces a Thai local dialect benchmark covering Northern (Lanna), Northeastern (Isan), and Southern (Dambro) Thai dialects. It evaluates LLMs on five NLP tasks: summarization, question answering, translation, conversation, and food-related tasks, comprising 400 samples total (100 per dialect plus Central Thai). The benchmark includes human evaluation guidelines and metrics for assessing dialect-specific fluency and generation accuracy.
+
 
 ## Notes
 

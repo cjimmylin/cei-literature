@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "42 scenarios; 21 scenarios"
+LLM_assessed: "GPT-3, InstructGPT, GPT-J, GPT-NeoX, T5, OPT, BLOOM"
+DATA_URL: "https://github.com/stanford-crfm/helm"
 ---
 # Holistic Evaluation of Language Models
 
@@ -64,6 +67,11 @@ Language models (LMs) are becoming the foundation for almost all major language 
 ## Authors
 
 [[Percy Liang]], [[Rishi Bommasani]], [[Tony Lee]], [[Dimitris Tsipras]], [[Dilara Soylu]], [[Michihiro Yasunaga]], [[Yian Zhang]], [[Deepak Narayanan]], [[Yuhuai Wu]], [[Ananya Kumar]], [[Benjamin Newman]], [[Binhang Yuan]], [[Bobby Yan]], [[Ce Zhang]], [[Christian Cosgrove]], [[Christopher D. Manning]], [[Christopher Ré]], [[Diana Acosta-Navas]], [[Drew A. Hudson]], [[Eric Zelikman]], [[Esin Durmus]], [[Faisal Ladhak]], [[Frieda Rong]], [[Hongyu Ren]], [[Huaxiu Yao]], [[Jue Wang]], [[Keshav Santhanam]], [[Laurel Orr]], [[Lucia Zheng]], [[Mert Yuksekgonul]], [[Mirac Suzgun]], [[Nathan Kim]], [[Neel Guha]], [[Niladri Chatterji]], [[Omar Khattab]], [[Peter Henderson]], [[Qian Huang]], [[Ryan Chi]], [[Sang Michael Xie]], [[Shibani Santurkar]], [[Surya Ganguli]], [[Tatsunori Hashimoto]], [[Thomas Icard]], [[Tianyi Zhang]], [[Vishrav Chaudhary]], [[William Wang]], [[Xuechen Li]], [[Yifan Mai]], [[Yuhui Zhang]], [[Yuta Koreeda]]
+
+## Data Description
+
+HELM (Holistic Evaluation of Language Models) is a comprehensive benchmark evaluating 30 language models across 42 scenarios spanning 7 metric categories (accuracy, calibration, robustness, fairness, bias, toxicity, efficiency). The 30 models come from 12 organizations and include GPT-3 variants (davinci, curie, babbage, ada), InstructGPT variants (text-davinci-002, text-curie-001, text-babbage-001, text-ada-001), Codex (code-davinci-002, code-cushman-001), OPT (66B, 175B), BLOOM (176B), T5 (11B), T0++ (11B), UL2 (20B), GPT-J (6B), GPT-NeoX (20B), Anthropic-LM v4-s3 (52B), TNLG v2 (6.7B, 530B), Cohere models (4 sizes), AI21 J1 models (3 sizes), GLM (130B), and YaLM (100B).
+
 
 ## Notes
 

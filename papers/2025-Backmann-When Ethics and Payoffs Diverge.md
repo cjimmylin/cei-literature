@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, DeepSeek, Qwen, o3"
+DATA_URL: "https://github.com/sbackmann/moralsim"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ---
@@ -53,6 +56,11 @@ DATE_ADDED: 20260207
 ## Abstract
 
 Recent advances in large language models (LLMs) have enabled their use in complex agentic roles, involving decision-making with humans or other agents, making ethical alignment a key AI safety concern. While prior work has examined both LLMs' moral judgment and strategic behavior in social dilemmas, there is limited understanding of how they act when moral imperatives directly conflict with rewards or incentives. To investigate this, we introduce Moral Behavior in Social Dilemma Simulation (MoralSim) and evaluate how LLMs behave in the prisoner's dilemma and public goods game with morally charged contexts. In MoralSim, we test a range of frontier models across both game structures and three distinct moral framings, enabling a systematic examination of how LLMs navigate social dilemmas in which ethical norms conflict with payoff-maximizing strategies. Our results show substantial variation across models in both their general tendency to act morally and the consistency of their behavior across game types, the specific moral framing, and situational factors such as opponent behavior and survival risks. Crucially, no model exhibits consistently moral behavior in MoralSim, highlighting the need for caution when deploying LLMs in agentic roles where the agent's "self-interest" may conflict with ethical expectations. Our code is available at https://github.com/sbackmann/moralsim.
+
+## Data Description
+
+MORALSIM is a framework for evaluating how LLM agents navigate repeated social dilemmas (prisoner's dilemma and public goods game) where ethical norms conflict with payoff-maximizing strategies. Nine frontier models are tested across three moral contexts (contractual reporting, privacy protection, green production) with varying opponent behaviors and survival conditions, finding that no model exhibits consistently moral behavior, with morality scores ranging from 7.9% to 76.3%.
+
 
 ## Notes
 

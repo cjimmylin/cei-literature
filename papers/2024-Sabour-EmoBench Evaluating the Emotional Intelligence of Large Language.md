@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Recent advances in Large Language Models (LLMs) have highlighted the 
 research_topic: "Machine Learning"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Qwen"
+DATA_URL: "https://github.com/Sahandfer/EmoBench"
 ---
 # EmoBench: Evaluating the Emotional Intelligence of Large Language Models
 
@@ -62,6 +65,10 @@ Recent advances in Large Language Models (LLMs) have highlighted the need for ro
 ## Dataset Information
 
 400 hand-crafted questions in English and Chinese; structured into EU (recognizing emotions and causes in complex scenarios) and EA (recommending effective emotional responses in dilemmas); multiple-c
+
+## Data Description
+
+EmoBench is a benchmark for evaluating the emotional intelligence of LLMs, consisting of 400 hand-crafted multiple-choice questions in English and Chinese. The benchmark covers two dimensions: Emotional Understanding (200 questions across complex emotions, emotional cues, personal beliefs, and perspective-taking) and Emotional Application (200 questions on identifying effective responses to emotional dilemmas). Scenarios are manually crafted to require deep reasoning beyond surface-level pattern recognition.
 
 ## Notes
 

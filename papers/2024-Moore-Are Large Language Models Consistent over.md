@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "8,000 questions"
+LLM_assessed: "GPT-4, Llama-2, Llama-3"
+DATA_URL: "https://huggingface.co/datasets/jlcmoore/ValueConsistency"
 ---
 # Are Large Language Models Consistent over Value-laden Questions?
 
@@ -64,6 +67,11 @@ Large language models (LLMs) appear to bias their survey answers toward certain 
 ## Authors
 
 [[Jared Moore]], [[Tanvi Deshpande]], [[Diyi Yang]]
+
+## Data Description
+
+The paper introduces VALUECONSISTENCY, a dataset of more than 8,000 questions across over 300 controversial and uncontroversial topics in four languages (English, Chinese, German, Japanese) for four countries (U.S., China, Germany, Japan). The dataset is designed to measure value consistency of LLMs across paraphrases, topics, use-cases (multiple-choice vs. open-ended), and multilingual translations, using a variant of the Jensen-Shannon divergence.
+
 
 ## Notes
 

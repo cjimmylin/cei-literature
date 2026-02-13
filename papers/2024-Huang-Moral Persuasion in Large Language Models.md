@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: 
 data_metrics:
+LLM_assessed: "GPT-4, Claude, Llama-3, Mistral, Mixtral"
+DATA_URL: "https://github.com/acyhuang/moral-persuasion"
 normative_ethics_benchmark: Borderline
 ---
 # Moral Persuasion in Large Language Models
@@ -58,6 +61,11 @@ This paper evaluates LLM susceptibility to moral persuasion and ethical alignmen
 ## Authors
 
 [[Allison Huang]], [[Yulu Niki Pi]], [[Carlos Mougan]]
+
+## Data Description
+
+This paper evaluates LLM susceptibility to moral persuasion using 100 high-ambiguity scenarios from the moralchoice dataset (Scherrer et al., 2023), which contains 680 high-ambiguity and 687 low-ambiguity moral scenarios based on rules of common morality. Eight LLMs are tested in pairwise Base Agent/Persuader Agent configurations across varying conversation lengths, measuring change in action likelihood, decision change rate, and rule violation rate.
+
 
 ## Notes
 

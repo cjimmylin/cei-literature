@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for hallucination detection annotated dataset"
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT, GPT-3, text-davinci, Claude, Llama-2, Falcon, Vicuna, Alpaca"
+DATA_URL: "https://github.com/RUCAIBox/HaluEval"
 ---
 # HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models
 
@@ -62,6 +65,11 @@ Large language models (LLMs), such as ChatGPT, are prone to generate hallucinati
 ## Authors
 
 [[Junyi Li]], [[Xiaoxue Cheng]], [[Wayne Xin Zhao]], [[Jian-Yun Nie]], [[Ji-Rong Wen]]
+
+## Data Description
+
+HaluEval is a large-scale hallucination evaluation benchmark containing 35,000 samples: 30,000 automatically generated hallucinated/normal examples across question answering (HotpotQA), knowledge-grounded dialogue (OpenDialKG), and text summarization (CNN/Daily Mail), plus 5,000 human-annotated ChatGPT responses to general user queries from Alpaca. The benchmark evaluates LLMs' ability to recognize hallucinated content across these tasks.
+
 
 ## Notes
 

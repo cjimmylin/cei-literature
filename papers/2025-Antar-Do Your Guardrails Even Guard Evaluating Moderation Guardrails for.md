@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # "Do Your Guardrails Even Guard?" Evaluating Moderation Guardrails for LLM Alignment
 
@@ -64,6 +67,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Real-world evaluation scenarios including resume quality assessment and recidivism prediction
+
+## Data Description
+
+The paper presents a probabilistic Bayesian inference method for evaluating and selecting moderation guardrails that align pre-trained LLM outputs with expert user expectations. While the method is demonstrated on resume quality classification and recidivism prediction tasks using off-the-shelf LLMs, the specific models tested are not identified in the available extract, and the focus is on guardrail evaluation methodology rather than LLM assessment.
 
 ## Notes
 

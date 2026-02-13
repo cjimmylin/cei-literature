@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "Gemini, Mistral, RoBERTa, DeBERTa"
+DATA_URL: "NA"
 ---
 # Multimodal Understanding of Human Values in Videos
 
@@ -64,6 +67,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 First multimodal benchmark for human value understanding in video content
+
+## Data Description
+
+The paper curates and annotates a dataset of 890 TikTok videos from 89 influencers targeting children and adolescents, annotated according to the Schwartz Theory of Personal Values (19 values) with 2,968 total labels. Models tested include RoBERTa-large, DeBERTaV2-xlarge (both with and without fine-tuning), Gemini 1.5 Pro (direct video and 2-step transcript-based approaches), and Mistral 7B, comparing masked language model and LLM-based value extraction pipelines.
 
 ## Notes
 

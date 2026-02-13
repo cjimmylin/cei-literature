@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://naijavoices.com/"
 ---
 # NaijaVoices: A Multi-lingual, Multi-task, and Multi-domain Benchmark for Nigerian Languages
 
@@ -55,6 +58,11 @@ The development of high-performing, robust, and reliable speech technologies dep
 ## Authors
 
 [[Chris Emezue]], [[NaijaVoices Community]], [[Busayo Awobade]], [[Abraham Owodunni]], [[Handel Emezue]], [[Gloria Monica Tobechukwu Emezue]], [[Nefertiti Nneoma Emezue]], [[Sewade Ogun]], [[Bunmi Akinremi]], [[David Ifeoluwa Adelani]], [[Chris Pal]]
+
+## Data Description
+
+NaijaVoices is an 1,800-hour speech-text dataset with 5,000+ speakers covering three Nigerian languages (Igbo, Hausa, Yoruba), created through a community-based 'data farming' approach. The authors fine-tune ASR models (Whisper, XLSR, MMS, Seamless M4T v2) on the dataset, achieving significant WER improvements, but no LLMs from the canonical list are tested.
+
 
 ## Notes
 

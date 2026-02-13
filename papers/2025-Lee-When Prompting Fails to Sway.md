@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "Claude, GPT-4, GPT-3.5, Llama-3"
+DATA_URL: "NA"
 ---
 # When Prompting Fails to Sway: Inertia in Moral and Value Judgments of Large Language Models
 
@@ -63,6 +66,11 @@ Large Language Models (LLMs) exhibit nondeterministic behavior, and prompting ha
 ## Authors
 
 [[Bruce W. Lee]], [[Yeongheon Lee]], [[Hyunsoo Cho]]
+
+## Data Description
+
+This study uses role-play-at-scale methodology to probe LLM value orientations using the Moral Foundations Questionnaire (MFQ-30) and the Portrait Values Questionnaire (PVQ-RR). Seven models were tested with 200 diverse persona prompts each, generated from World Values Survey demographic distributions. The data consists of ordinal-scale responses (1-6) from each model under varied persona conditions, revealing persistent moral inertia despite persona injection.
+
 
 ## Notes
 

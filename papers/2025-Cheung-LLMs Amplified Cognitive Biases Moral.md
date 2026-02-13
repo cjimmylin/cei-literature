@@ -1,5 +1,6 @@
 ---
 
+
 Human View: false
 Not AI: 
 key: AUTO_CHEUNG2025
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "22 moral dilemmas tested on LLMs vs human sample (N=285)"
 data_metrics: "Omission bias, no-bias, altruism measures"
+LLM_assessed: "GPT-4, Claude, Llama-3"
+DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 publication: PNAS
 DATE_ADDED: 20260207
@@ -72,6 +75,11 @@ The experiments demonstrate that the decisions and advice of LLMs are systematic
 2. **No-Bias**: Novel finding - LLMs tend to answer "no" regardless of question framing
 3. **Source**: Biases likely arise from RLHF/fine-tuning for chatbot applications
 4. **Collective Action**: LLMs more altruistic than humans in these scenarios
+
+## Data Description
+
+This study compares moral decision-making in LLMs (GPT-4-turbo, GPT-4o, Llama 3.1-Instruct, and Claude 3.5 Sonnet) versus human participants across four studies using realistic moral dilemmas and collective action problems. The authors find that LLMs exhibit amplified omission bias and a novel yes-no bias compared to humans, and that fine-tuning for chatbot applications likely induces these biases.
+
 
 ## Notes
 

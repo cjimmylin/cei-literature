@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/SonyResearch/project_ethics_augmented_datasheets_for_speech_datasets"
 pdf_extract: "PDF Extracts/2023/2023-Andrus-Augmented Datasheets for Speech Datasets and.md"
 local_pdf: "[[PDFs/2023/2023-Andrus-Augmented Datasheets for Speech Datasets and.pdf]]"
 ---
@@ -99,6 +102,11 @@ The authors conclude that speech datasets require specialized documentation beyo
 - Augmented datasheet template: Specialized documentation framework for speech datasets
 - Case study applications: Examples applying the framework to existing datasets
 - Recommendations: Guidelines for speech dataset documentation
+
+## Data Description
+
+This paper introduces augmented datasheets for speech datasets, providing standardized documentation templates for speech data in .tex and .docx formats. The work is based on an in-depth literature review of 178 speech studies related to fairness and diversity, along with 220 speech datasets. The templates and worked examples are released on GitHub for use by dataset creators and researchers working with speech language technologies.
+
 
 ## Notes
 

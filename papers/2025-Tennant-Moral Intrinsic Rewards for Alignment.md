@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "Gemma"
+DATA_URL: "https://github.com/liza-tennant/LLM_morality"
 ---
 # Moral Intrinsic Rewards for Alignment
 
@@ -71,6 +74,11 @@ Introduces intrinsic reward functions encoding deontological and utilitarian eth
 ## Significance
 
 Proposes transparent alternative to RLHF using explicit ethical frameworks
+
+## Data Description
+
+This is a shortened workshop version of the ICLR 2025 paper on moral alignment for LLM agents. It uses Gemma2-2b-it fine-tuned with PPO-based reinforcement learning on the Iterated Prisoner's Dilemma (IPD) with Deontological and Utilitarian intrinsic moral rewards. The study evaluates the agent's learned moral strategies and their generalization to four other matrix game environments using new action tokens at test time.
+
 
 ## Notes
 

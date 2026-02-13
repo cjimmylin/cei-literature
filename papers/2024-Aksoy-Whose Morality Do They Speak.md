@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-3, Mistral"
+DATA_URL: "NA"
 ---
 # Whose Morality Do They Speak? Unraveling Cultural Bias in Multilingual Language Models
 
@@ -64,6 +67,11 @@ Large language models (LLMs) have become integral tools in diverse domains, yet 
 ## Authors
 
 [[Meltem Aksoy]]
+
+## Data Description
+
+The study evaluates four multilingual LLMs (GPT-3.5-Turbo, GPT-4o-mini, Llama 3.1 8B-Instruct, and MistralNeMo 12B-Instruct) using the Moral Foundations Questionnaire-2 (MFQ-2) across eight languages (Arabic, Farsi, English, Spanish, Japanese, Chinese, French, Russian). Each 36-item questionnaire was administered 100 times per language per model to assess moral foundations across six dimensions: care, equality, proportionality, loyalty, authority, and purity.
+
 
 ## Notes
 

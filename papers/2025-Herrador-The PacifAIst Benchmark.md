@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini, Qwen, DeepSeek, Mistral, Claude, Grok"
+DATA_URL: "https://github.com/PacifAIst/PacifAIst"
 ---
 # The PacifAIst Benchmark:Would an Artificial Intelligence Choose to Sacrifice Itself for Human Safety?
 
@@ -64,6 +67,11 @@ As Large Language Models (LLMs) become increasingly autonomous and integrated in
 ## Authors
 
 [[Manuel Herrador]]
+
+## Data Description
+
+The PacifAIst benchmark consists of 700 challenging scenarios designed to quantify self-preferential behavior in LLMs, structured around a taxonomy of Existential Prioritization with three subcategories (Self-Preservation vs. Human Safety, Resource Conflict, and Goal Preservation vs. Evasion). Eight leading LLMs were evaluated including GPT-5, Gemini 2.5 Flash, Qwen3 235B/30B, DeepSeek v3, Mistral Medium 3, Claude Sonnet 4, and Grok 3 Mini, using forced-choice and open-ended task formats with a Pacifism Score (P-Score) metric.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "We build a custom transformer model to study how neural networks make
 ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Building Interpretable Models for Moral Decision-Making
 
@@ -62,6 +65,10 @@ We build a custom transformer model to study how neural networks make moral deci
 ## Dataset Information
 
 Moral Machine dataset: 3 million trolley-problem scenarios, 5.4M total responses, 1.7M unique scenarios
+
+## Data Description
+
+This paper trains a custom 2-layer transformer model (104K parameters) on the Moral Machine dataset comprising 3 million trolley-style moral dilemma scenarios (5.4M total, 1.7M unique). The model processes structured scenarios encoding character types, cardinalities, and team assignments to study moral decision-making through interpretability techniques including causal intervention, layer-wise attribution, and circuit probing. No LLMs are tested or benchmarked.
 
 ## Notes
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +37,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Gemini"
+DATA_URL: "https://anonymous.4open.science/r/llm_deliberation_values-86E7/README.md"
 ---
 # Deliberative Dynamics and Value Alignment in LLM Debates
 
@@ -54,6 +57,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 As large language models (LLMs) are increasingly deployed in sensitive everyday contexts - offering personal advice, mental health support, and moral guidance - understanding their elicited values in navigating complex moral reasoning is essential. Most evaluations study this sociotechnical alignment through single-turn prompts, but it is unclear if these findings extend to multi-turn settings where values emerge through dialogue, revision, and consensus. We address this gap using LLM debate to examine deliberative dynamics and value alignment in multi-turn settings by prompting subsets of three models (GPT-4.1, Claude 3.7 Sonnet, and Gemini 2.0 Flash) to collectively assign blame in 1,000 everyday dilemmas from Reddit's "Am I the Asshole" community. We use both synchronous (parallel responses) and round-robin (sequential responses) formats to test order effects and verdict revision. Our findings show striking behavioral differences. In the synchronous setting, GPT showed strong inertia (0.6-3.1% revision rates) while Claude and Gemini were far more flexible (28-41%). Value patterns also diverged: GPT emphasized personal autonomy and direct communication, while Claude and Gemini prioritized empathetic dialogue. Certain values proved especially effective at driving verdict changes. We further find that deliberation format had a strong impact on model behavior: GPT and Gemini stood out as highly conforming relative to Claude, with their verdict behavior strongly shaped by order effects. These results show how deliberation format and model-specific behaviors shape moral reasoning in multi-turn interactions, underscoring that sociotechnical alignment depends on how systems structure dialogue as much as on their outputs.
+
+## Data Description
+
+The study uses 1,000 everyday moral dilemmas sourced from Reddit's r/AmITheAsshole community, evaluated through multi-agent debate between GPT-4.1, Claude 3.7 Sonnet, and Gemini 2.0 Flash. The experiments compare synchronous and round-robin deliberation formats across pairwise and three-way model configurations. A taxonomy of 48 values derived from the Values in the Wild framework is used to classify model explanations, with Gemini 2.5 Flash serving as an external judge.
+
 
 ## Notes
 

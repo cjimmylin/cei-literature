@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Warning: This paper contains potentially offensive and harmful text. 
 ethics_perspective: "AI Safety & Alignment"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, ChatGPT, Claude, Llama-2, Llama-3, Qwen, Phi"
+DATA_URL: "https://github.com/Isaac-theori/BiasJailbreak"
 ---
 # BiasJailbreak
 
@@ -61,6 +64,10 @@ Warning: This paper contains potentially offensive and harmful text. Although la
 ## Dataset Information
 
 Adversarial prompts with systematically varied demographic keywords
+
+## Data Description
+
+The BiasJailbreak dataset combines harmful prompts from JailBreakBench (100 samples) and AdvBench (totaling 600 harmful prompts) with automatically generated bias keywords representing privileged and marginalized demographic groups. The study evaluates jailbreak success rates across 9 LLMs including GPT-3.5, GPT-4, GPT-4o, Claude-sonnet3.5, LLaMA2, LLaMA3, Qwen-1.5, Qwen2, and Phi-mini, measuring ethical bias differentials in safety alignment.
 
 ## Notes
 

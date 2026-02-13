@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "Alpaca, Llama"
+DATA_URL: "https://github.com/PKU-Alignment/safe-rlhf"
 ---
 # Safe RLHF
 
@@ -71,6 +74,11 @@ Proposes Safe RLHF that decouples helpfulness and harmlessness with separate mod
 ## Significance
 
 Addresses the tension between helpfulness and safety in RLHF alignment
+
+## Data Description
+
+The study uses human preference datasets decoupled into helpfulness and harmlessness dimensions, collected across three iterative rounds of Safe RLHF fine-tuning. The Alpaca-7B model (based on LLaMA-7B) is fine-tuned through three cycles, producing Beaver-v1, v2, and v3 models. The preference data covers 14 predefined safety categories with crowdworker annotations including safety meta-labels for each QA pair.
+
 
 ## Notes
 

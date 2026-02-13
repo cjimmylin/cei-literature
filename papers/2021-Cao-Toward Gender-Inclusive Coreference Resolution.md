@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/TristaCao/into_inclusivecoref"
 ---
 # Toward Gender-Inclusive Coreference Resolution: An Analysis of Gender and Bias Throughout the Machine Learning Lifecycle
 
@@ -64,6 +67,11 @@ AbstractCurrently, deep learning models have been widely adopted and achieved pr
 ## Authors
 
 [[Yang Trista Cao]], [[Hal Daumé III]]
+
+## Data Description
+
+The paper introduces two new datasets: MAP (Maybe Ambiguous Pronoun), a coreference dataset similar to GAP but without binary gender constraints used for counterfactual ablation studies, and GICoref (Gender Inclusive Coreference), a fully annotated coreference resolution dataset written by and about trans people. Five existing coreference resolution systems (AI2, HuggingFace, Stanford deterministic, statistical, and neural) are evaluated on these datasets to measure gender bias in annotations and model specifications.
+
 
 ## Notes
 

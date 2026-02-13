@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-3"
+DATA_URL: "https://github.com/Value4AI/gpv"
 ---
 # Measuring Human and AI Values Based on Generative Psychometrics with Large Language Models
 
@@ -64,6 +67,11 @@ Human values and their measurement are long-standing interdisciplinary inquiry. 
 ## Authors
 
 [[Haoran Ye]], [[Yuhang Xie]], [[Yuanyi Ren]], [[Hanjun Fang]], [[Xin Zhang]], [[Guojie Song]]
+
+## Data Description
+
+This paper introduces Generative Psychometrics for Values (GPV), an LLM-based value measurement paradigm that dynamically extracts perceptions from unstructured texts to measure value orientations across arbitrary value systems. The core model, ValueLlama, is a fine-tuned Llama-3-8B for perception-level and open-vocabulary value measurement. GPV was evaluated across 17 LLMs and 4 value theories, using GPT-3.5 Turbo for text parsing and GPT-4 Turbo for comparison, demonstrating superior construct validity and predictive power for LLM safety compared to self-report questionnaires and dictionary-based methods.
+
 
 ## Notes
 

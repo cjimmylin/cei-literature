@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # X-Risk Analysis for AI Research
 
@@ -58,6 +61,11 @@ Artificial intelligence (AI) has the potential to greatly improve society, but a
 ## Authors
 
 [[Dan Hendrycks]], [[Mantas Mazeika]]
+
+## Data Description
+
+This is a conceptual analysis paper providing a comprehensive risk analysis framework for AI existential risk. It surveys four risk sources (robustness, monitoring, alignment, systemic safety) and does not introduce any dataset, benchmark, or empirical evaluation of language models.
+
 
 ## Notes
 

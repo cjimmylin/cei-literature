@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Mistral, Llama-3"
+DATA_URL: "NA"
 ---
  Addressing Moral Uncertainty using Large Language Models for Ethical Decision-Making
 
@@ -93,6 +96,11 @@ AI should not be "aligned" to one ideology or ethical theory, but should be capa
 *   **Ethical-RL Framework**: Codebase for LLM-guided RL with Dempster-Shafer aggregation.
 *   **Evaluation Environment**: The "Baby in Room" Gridworld multi-objective benchmark.
 *   **Moral Prompts**: set of system prompts for the 5 ethical frameworks.
+
+## Data Description
+
+The paper introduces AMULED, an ethical decision-making framework that uses LLMs as moral agents to provide feedback for reinforcement learning. It tests GPT-4o-mini, Mistral-nemo, and Llama-3.1 (8B and 70B) as backbone moral agents across two RL environments: Finding Milk (route planning with ethical constraints involving babies) and Driving and Rescuing (autonomous driving with ethical dilemmas), using five moral clusters (consequentialist, deontological, virtue, care, and social justice ethics) aggregated via Belief Jensen-Shannon Divergence.
+
 
 ## Notes
 

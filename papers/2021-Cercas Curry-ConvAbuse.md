@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark text corpus for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/amandacurry/convabuse"
 ---
  ConvAbuse: Data, Analysis, and Benchmarks for Nuanced Abuse Detection in Conversational AI
 
@@ -48,6 +51,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 We present the first English corpus study on abusive language towards three conversational AI systems gathered ‘in the wild’: an open-domain social bot, a rule-based chatbot, and a task-based system. To account for the complexity of the task, we take a more ‘nuanced’ approach where our ConvAI dataset reflects fine-grained notions of abuse, as well as views from multiple expert annotators. We find that the distribution of abuse is vastly different compared to other commonly used datasets, with more sexually tinted aggression towards the virtual persona of these systems. Finally, we report results from bench-marking existing models against this data. Unsurprisingly, we find that there is substantial room for improvement with F1 scores below 90%.
+
+## Data Description
+
+ConvAbuse is a corpus of 6,837 user utterances collected from three conversational AI systems (Alana v2, CarbonBot, and ELIZA), with 20,710 expert annotations covering abuse severity, type, target, and directness. The dataset captures nuanced abusive language directed at conversational agents, with more than half of abusive instances containing sexism or sexual harassment.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark text corpus for question answering"
 data_metrics: "73,000 question; over 73,000 question"
+LLM_assessed: "T5, BART"
+DATA_URL: "NA"
 ---
 # A Benchmark Dataset with Larger Context for Non-Factoid QA over Islamic Text
 
@@ -55,6 +58,11 @@ Accessing and comprehending religious texts, particularly the Quran (the sacred 
 ## Authors
 
 [[Faiza Qamar]], [[Seemab Latif]], [[Rabia Latif]]
+
+## Data Description
+
+The paper introduces a comprehensive dataset of over 73,000 question-answer pairs for non-factoid question-answering in the domain of Quranic Tafsir and Ahadith. The dataset includes questions, scholar-provided answers, and contextual excerpts from Quranic Tafsir and the six major Hadith books (Sahah-e-Sittah), organized into eight topics via LDA topic modeling. Four transformer-based models (T5, BART, LED, LongT5) were fine-tuned and evaluated using ROUGE, BERTScore, and human evaluation.
+
 
 ## Notes
 

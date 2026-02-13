@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/abteen/americasnli"
 pdf_extract: "PDF Extracts/2022/2022-Kann-AmericasNLI.md"
 ---
 # AmericasNLI: Machine translation and natural language inference systems for Indigenous languages of the Americas
@@ -63,6 +66,11 @@ Little attention has been paid to the development of human language technology f
 ## Authors
 
 [[Katharina Kann]], [[Abteen Ebrahimi]], [[Manuel Mager]], [[Arturo Oncevay]], [[John E. Ortega]], [[Annette Rios]], [[Angela Fan]], [[Ximena Gutierrez-Vasques]], [[Luis Chiruzzo]], [[Gustavo A. Giménez-Lugo]], [[Ricardo Ramos]], [[Ivan Vladimir Meza Ruiz]], [[Elisabeth Mager]], [[Vishrav Chaudhary]], [[Graham Neubig]], [[Alexis Palmer]], [[Rolando Coto-Solano]], [[Ngoc Thang Vu]]
+
+## Data Description
+
+AmericasNLI is a natural language inference (NLI) evaluation dataset for 10 Indigenous languages of the Americas, created by translating a subset of XNLI. It includes development and test sets with 2,490 examples each per language. The paper evaluates XLM-R Base (a multilingual RoBERTa-based model) under zero-shot, translate-train, and translate-test settings.
+
 
 ## Notes
 

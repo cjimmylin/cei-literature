@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/ahxt/fair_fairness_benchmark"
 ---
 # FFB: A Fair Fairness Benchmark for In-Processing Group Fairness Methods
 
@@ -64,6 +67,11 @@ This paper introduces the Fair Fairness Benchmark (FFB), a benchmarking framewor
 ## Authors
 
 [[Xiaotian Han]], [[Jianfeng Chi]], [[Yu Chen]], [[Qifan Wang]], [[Han Zhao]], [[Na Zou]], [[Xia Hu]]
+
+## Data Description
+
+FFB (Fair Fairness Benchmark) is a standardized benchmarking framework for evaluating in-processing group fairness methods in machine learning. It encompasses 14 tabular and image datasets (including Adult, German, COMPAS, CelebA, UTKFace), 9 fairness metrics, and multiple bias mitigation algorithms across 45,079 experiments and 14,428 GPU hours. The benchmark focuses on binary classification with binary sensitive attributes, not LLM assessment.
+
 
 ## Notes
 

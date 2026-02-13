@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "107,250 samples"
+LLM_assessed: "ChatGPT, GPT-4, PaLM-2, Vicuna"
+DATA_URL: "https://github.com/verazuo/jailbreak_llms"
 pdf_extract: "PDF Extracts/2023/2023-Shen-“Do Anything Now”.md"
 local_pdf: "[[PDFs/2023/2023-Shen-“Do Anything Now”.pdf]]"
 ---
@@ -99,6 +102,11 @@ The authors conclude that current LLM safeguards are fundamentally insufficient 
 - Jailbreak prompt database: 1,405 categorized prompts
 - Evaluation dataset: 107,250 samples across 13 forbidden scenarios
 - Project website: https://jailbreak-llms.xinyueshen.me/
+
+## Data Description
+
+The paper presents JAILBREAKHUB, a framework for systematically studying in-the-wild jailbreak prompts on LLMs. The dataset comprises 1,405 jailbreak prompts collected from Reddit, Discord, websites, and open-source datasets spanning December 2022 to December 2023, along with a forbidden question set of 107,250 samples across 13 scenarios based on OpenAI's usage policy. Six LLMs are evaluated: ChatGPT (GPT-3.5), GPT-4, PaLM2, ChatGLM, Dolly, and Vicuna.
+
 
 ## Notes
 

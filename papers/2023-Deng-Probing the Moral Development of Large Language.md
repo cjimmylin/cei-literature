@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3, GPT-3.5, GPT-4, ChatGPT, PaLM-2, Llama-2, text-davinci"
+DATA_URL: "NA"
 DATE_ADDED: 20260207
 ---
 # Probing the Moral Development of Large Language Models through Defining Issues Test
@@ -59,6 +62,11 @@ In this study, we measure the moral reasoning ability of LLMs using the Defining
 ## Authors
 
 [[Kumar Tanmay]], [[Aditi Khandelwal]], [[Utkarsh Agarwal]], [[Monojit Choudhury]]
+
+## Data Description
+
+The study uses the Defining Issues Test (DIT), a psychometric instrument measuring moral development based on Kohlberg's Cognitive Moral Development Model. It includes 5 standard DIT-1 moral dilemmas and 4 newly designed dilemmas, each with 12 ethical consideration statements. Seven LLMs are evaluated across 48 prompt permutations per dilemma (8 statement orderings x 6 option orderings), measuring post-conventional morality scores (P-scores).
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness annotated dataset for hate speech detection"
 data_metrics: "Not specified"
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Arshad-Understanding hate speech.md"
 local_pdf: "[[PDFs/2024/2024-Arshad-Understanding hate speech.pdf]]"
 ---
@@ -126,6 +129,11 @@ The research demonstrates that high classification accuracy does not guarantee i
 - Detailed corpus statistics: 265,116 total words, 23,934 unique words
 - Open-source codebase for model training and evaluation
 - Comparative benchmark results for multiple models and explainability methods
+
+## Data Description
+
+The study introduces HateInsights, a benchmark dataset of 11,782 Urdu-language social media posts from Twitter and Facebook, annotated for three-class classification (hate speech, offensive language, normal discourse) with word-level rationales. Three transformer-based models are fine-tuned and evaluated: XLM-RoBERTa Base, FinBERT, and BERT-Hinglish, with explainability analysis using SHAP, LIME, and Integrated Gradients feature attribution methods.
+
 
 ## Notes
 

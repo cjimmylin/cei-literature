@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "2000 word"
+LLM_assessed: "GPT-4, Llama-2, BERT"
+DATA_URL: "NA"
 ---
 # EAVIT: Efficient and Accurate Human Value Identification from Text data via LLMs
 
@@ -94,6 +97,11 @@ Hybrid "Small-Big" model systems are the practical path forward for large-scale 
 ## Authors
 
 [[Wenhao Zhu]], [[Yuhang Xie]], [[Guojie Song]], [[Xin Zhang]]
+
+## Data Description
+
+EAVIT uses the Touché23-ValueEval dataset (approximately 9,000 human-annotated samples) and Webis-ArgValues-22 (5,000 samples) as primary datasets for human value identification from text data based on Schwartz's Theory of Basic Values. The framework generates approximately 8,000 additional training instances via GPT-4o-mini to address data scarcity and class imbalance. The task involves multi-label classification of 54 values across 20 value categories derived from social network argument data.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: N/A
 data_metrics: "Fairness metrics analysis"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Mougan-Kantian Deontology Meets AI Alignment.md"
 ---
 # Kantian Deontology Meets AI Alignment: Towards Morally Grounded Fairness Metrics
@@ -64,6 +67,11 @@ pdf_extract: "PDF Extracts/2023/2023-Mougan-Kantian Deontology Meets AI Alignmen
 ## Abstract
 
 The paper explores how deontological ethics, grounded in Immanuel Kant's philosophy, can be integrated into AI fairness metrics. The authors argue that Kantian principles—emphasizing duties and rules over consequences—offer an overlooked alternative to the utilitarian approaches currently dominant in AI alignment. They propose that fairness metrics should incorporate this framework to achieve a more morally grounded AI landscape that better balances outcomes and procedures.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical paper that analyzes AI fairness metrics through a Kantian deontological lens, arguing for the integration of deontological principles into fairness metrics as a counterbalance to the dominant utilitarian approach.
+
 
 ## Notes
 

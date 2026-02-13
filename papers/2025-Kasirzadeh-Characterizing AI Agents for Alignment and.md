@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Kasirzadeh-Characterizing AI Agents for Alignment and.md"
 local_pdf: "[[PDFs/2025/2025-Kasirzadeh-Characterizing AI Agents for Alignment and.pdf]]"
 ---
@@ -87,6 +90,11 @@ The paper demonstrates that peer-reviewed AI safety research encompasses a broad
 - Systematic review database of 383 annotated AI safety papers (to be released publicly)
 - Analysis code for bibliometric analysis
 - Categorization framework for AI safety risks and mitigation strategies
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a systematic literature review of 383 peer-reviewed AI safety research papers, examining types of safety risks at different stages of AI system lifecycles and concrete mitigation strategies proposed in the research.
+
 
 ## Notes
 

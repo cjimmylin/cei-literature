@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_HAGENDORFF2022
@@ -29,6 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # A Virtue-Based Framework to Support Putting AI Ethics into Practice
 
@@ -69,6 +72,11 @@ Many ethics initiatives have stipulated sets of principles and standards for goo
 ### Second-Order AI Virtues
 1. **Prudence** - Practical wisdom in decision-making
 2. **Fortitude** - Courage to resist unethical pressures
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical framework paper proposing four basic AI virtues (justice, honesty, responsibility, care) and two second-order virtues (prudence, fortitude) as a complement to principle-based AI ethics, drawing on moral psychology and bounded ethicality research.
+
 
 ## Notes
 

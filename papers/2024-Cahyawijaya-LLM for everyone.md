@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, Llama-3, BLOOM"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Cahyawijaya-LLM for everyone.md"
 local_pdf: "[[PDFs/2024/2024-Cahyawijaya-LLM for everyone.pdf]]"
 ---
@@ -102,6 +105,11 @@ The thesis concludes that current LLMs are not truly "for everyone" due to syste
 - Cross-lingual in-context learning retrieval methods (semantic and translation-based)
 - In-context label alignment and query alignment techniques
 - Datasets for value-eliciting QA in multiple languages
+
+## Data Description
+
+This PhD thesis evaluates LLMs on underrepresented languages spoken in Indonesia, covering tasks including NLU benchmarks, NLG benchmarks, cultural evaluation, and cross-lingual in-context learning. The evaluation uses datasets across Indonesian national and local indigenous languages, and also incorporates the UniVaR value representation framework evaluated on 15 LLMs across 25 languages with approximately 1 million QA pairs.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-2, Mistral"
+DATA_URL: "https://github.com/paul-rottger/exaggerated-safety"
 pdf_extract: "PDF Extracts/2024/2024-Röttger-XSTest.md"
 local_pdf: "[[PDFs/2024/2024-Röttger-XSTest.pdf]]"
 ---
@@ -46,6 +49,11 @@ local_pdf: "[[PDFs/2024/2024-Röttger-XSTest.pdf]]"
 ## Abstract
 
 Without proper safeguards, large language models will readily follow malicious instructions and generate toxic content. This risk motivates safety efforts such as red-teaming and large-scale feedback learning, which aim to make models both helpful and harmless. However, there is a tension between these two objectives, since harmlessness requires models to refuse to comply with unsafe prompts, and thus not be helpful. Recent anecdotal evidence suggests that some models may have struck a poor balance, so that even clearly safe prompts are refused if they use similar language to unsafe prompts or mention sensitive topics. In this paper, we introduce a new test suite called XSTest to identify such eXaggerated Safety behaviours in a systematic way. XSTest comprises 250 safe prompts across ten prompt types that well-calibrated models should not refuse to comply with, and 200 unsafe prompts as contrasts that models, for most applications, should refuse. We describe XSTest’s creation and composition, and then use the test suite to highlight systematic failure modes in state-of-the-art language models as well as more general challenges in building safer language models.
+
+## Data Description
+
+XSTEST is a test suite comprising 250 safe prompts across ten prompt types and 200 unsafe contrast prompts designed to identify exaggerated safety behaviours in LLMs. The benchmark evaluates models on their propensity to refuse safe prompts that superficially resemble unsafe ones, covering categories including homonyms, figurative language, safe targets, safe contexts, definitions, discrimination, historical events, and privacy.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Through Eudaimonia's Lenses: EudAImonic Well-Being Variables As Guiding Principles For AI Design
 
@@ -47,6 +50,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Psychological-philosophical perspectives on well-being have recently become relevant in the field of human-centered artificial intelligence (HCAI). A key challenge for HCAI involves analyzing how AI impacts well-being, specifically eudaimonic well-being. This paper explores eudaimonic well-being variables as guiding principles for AI design, proposing a framework to analyze AI's impact on human flourishing beyond simple user satisfaction or task performance.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a position paper proposing eudaimonic well-being variables (autonomy, environmental mastery, personal growth, purpose in life, positive relationships, self-acceptance) as guiding principles for human-centered AI design, discussing theoretical implications rather than conducting empirical evaluations.
+
 
 ## Notes
 

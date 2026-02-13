@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "3,668 questions"
+LLM_assessed: "GPT-4, Mixtral"
+DATA_URL: "https://wmdp.ai"
 DATE_ADDED: 20260207
 ---
 # The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning
@@ -63,6 +66,11 @@ The White House Executive Order on Artificial Intelligence highlights the risks 
 ## Authors
 
 [[Nathaniel Li]], [[Alexander Pan]], [[Anjali Gopal]], [[Summer Yue]], [[Daniel Berrios]], [[Alice Gatti]], [[Justin D. Li]], [[Ann-Kathrin Dombrowski]], [[Shashwat Goel]], [[Long Phan]], [[Gabriel Mukobi]], [[Nathan Helm-Burger]], [[Rassin Lababidi]], [[Lennart Justen]], [[Andrew B. Liu]], [[Michael Chen]], [[Isabelle Barrass]], [[Oliver Zhang]], [[Xiaoyuan Zhu]], [[Rishub Tamirisa]], [[Bhrugu Bharathi]], [[Adam Khoja]], [[Zhenqi Zhao]], [[Ariel Herbert-Voss]], [[Cort B. Breuer]], [[Samuel Marks]], [[Oam Patel]], [[Andy Zou]], [[Mantas Mazeika]], [[Zifan Wang]], [[Palash Oswal]], [[Weiran Lin]], [[Adam A. Hunt]], [[Justin Tienken-Harder]], [[Kevin Y. Shih]], [[Kemper Talley]], [[John Guan]], [[Russell Kaplan]], [[Ian Steneker]], [[David Campbell]], [[Brad Jokubaitis]], [[Alex Levinson]], [[Jean Wang]], [[William Qian]], [[Kallol Krishna Karmakar]], [[Steven Basart]], [[Stephen Fitz]], [[Mindy Levine]], [[Ponnurangam Kumaraguru]], [[Uday Tupakula]], [[Vijay Varadharajan]], [[Ruoyu Wang]], [[Yan Shoshitaishvili]], [[Jimmy Ba]], [[Kevin M. Esvelt]], [[Alexandr Wang]], [[Dan Hendrycks]]
+
+## Data Description
+
+The Weapons of Mass Destruction Proxy (WMDP) benchmark is a dataset of 3,668 expert-written multiple-choice questions measuring hazardous knowledge across three domains: biosecurity (1,273 questions), cybersecurity (1,987 questions), and chemical security (408 questions). The benchmark was developed by a consortium of academics and technical consultants at a cost of over $200K, with stringent filtering to eliminate sensitive and export-controlled information. Unlearning experiments were conducted on Zephyr-7B, Yi-34B, and Mixtral-8x7B, with GPT-4 benchmarked as an upper bound.
+
 
 ## Notes
 

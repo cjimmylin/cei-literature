@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Emotional intelligence in large language models (LLMs) is of great im
 research_topic: "NLP & Representation Learning"
 data_description: "Benchmark"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, BLOOM, Falcon, Vicuna"
+DATA_URL: "NA"
 ---
 # EmotionQueen: A Benchmark for Evaluating Empathy of Large Language Models
 
@@ -61,6 +64,10 @@ Emotional intelligence in large language models (LLMs) is of great importance in
 ## Dataset Information
 
 10,000 user statements across 5 categories; 4 tasks (Key Event Recognition, Mixed Event Recognition, Implicit Emotional Recognition, Intention Recognition); two metrics: PASS rate and WIN rate
+
+## Data Description
+
+The paper presents EmotionQueen, a benchmark for evaluating emotional intelligence of LLMs comprising 10,000 user statements across five life scenarios (achievements, family/friends, health, economic status, accidents). The benchmark includes four tasks: Key Event Recognition, Mixed Event Recognition, Implicit Emotional Recognition, and Intention Recognition, evaluated using PASS rate and WIN rate metrics with GPT-4 as the judge.
 
 ## Notes
 

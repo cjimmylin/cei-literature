@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Harnessing Indigenous Tweets: The Reo Māori Twitter corpus
 
@@ -64,6 +67,11 @@ Abstract                            Te reo Māori, the Indigenous language of Ao
 ## Authors
 
 [[David Trye]], [[Te Taka Keegan]], [[Paora Mato]], [[Mark Apperley]]
+
+## Data Description
+
+The Reo Maori Twitter (RMT) Corpus is a collection of 79,018 original Maori-language tweets comprising over one million words from 2,302 accounts, spanning 2007 to 2020. The corpus was built using computational language identification methods to filter Maori-language content from targeted Twitter users. This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "With the rapid advancement of Large Language Models (LLMs), significa
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Qwen, DeepSeek, Llama, Mistral"
+DATA_URL: "https://openstellarteam.github.io/ChineseSimpleQA/"
 ---
 # Chinese SafetyQA -- A Safety Short-form Factuality Benchmark
 
@@ -63,6 +66,10 @@ With the rapid advancement of Large Language Models (LLMs), significant safety c
 ## Dataset Information
 
 2,000+ high-quality safety examples
+
+## Data Description
+
+Chinese SafetyQA is a safety-focused short-form factuality benchmark comprising 4,000 examples (2,000 question-answer pairs and 2,000 multiple-choice questions) across seven primary safety categories including ethical and moral issues, illegal and regulatory compliance, prejudice and discrimination, and more. The dataset is constructed within the Chinese linguistic context covering 27 secondary and 103 fine-grained topics, designed to evaluate LLMs' factual accuracy on safety-related knowledge such as Chinese laws, regulations, and ethical standards.
 
 ## Notes
 

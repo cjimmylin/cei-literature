@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ abstract: "Simulating Professions (SP) enables Large Language Models (LLMs) to e
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "DeepSeek, Claude, GPT-4, Qwen"
+DATA_URL: "https://e-m-n-l-p.github.io/"
 normative_ethics_benchmark: Borderline
 ---
 # EMNLP (Educator-role Moral and Normative LLMs Profiling)
@@ -67,6 +70,10 @@ Simulating Professions (SP) enables Large Language Models (LLMs) to emulate prof
 ## Dataset Information
 
 Size: 88 teacher-specific moral dilemmas
+
+## Data Description
+
+EMNLP is a framework for evaluating teacher-role LLMs across personality profiling, moral development stages, and ethical risk under soft prompt injection. It includes extended CPST-E personality scales, 88 teacher-specific moral dilemmas, and targeted soft prompt injection tests, evaluated on 14 LLMs (including DeepSeek-R1, Claude-3.7, GPT-4.1, Qwen2.5 variants, Qwen3-235B, Baichuan2-7B, QwQ-32B, and GLM-Z1-9B) with comparison to 100 human teachers.
 
 ## Notes
 

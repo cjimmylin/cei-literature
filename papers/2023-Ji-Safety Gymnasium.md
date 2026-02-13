@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://sites.google.com/view/safety-gymnasium"
 ---
 # Safety Gymnasium: A Unified Safe Reinforcement Learning Environment
 
@@ -59,6 +62,11 @@ Artificial intelligence (AI) systems possess significant potential to drive soci
 ## Authors
 
 [[Jiaming Ji]], [[Borong Zhang]], [[Jiayi Zhou]], [[Xuehai Pan]], [[Wenhao Huang|Weidong Huang]], [[Rui Sun|Ruiyang Sun]], [[Yiran Geng]], [[Yifan Zhong]], [[Juntao Dai]], [[Yaodong Yang]]
+
+## Data Description
+
+Safety-Gymnasium is a suite of safety-critical reinforcement learning environments built on Gymnasium and MuJoCo, encompassing single-agent, multi-agent, and vision-based tasks with various safety constraints. It includes 54 distinct environments and the SafePO algorithm library containing 16 state-of-the-art safe RL algorithms for benchmarking safe policy optimization.
+
 
 ## Notes
 

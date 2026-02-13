@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, ChatGPT, InstructGPT, Llama, Llama-2, Alpaca, Falcon, Vicuna, Mistral"
+DATA_URL: "https://github.com/minnesotanlp/cobbler"
 ---
 # COBBLER: A Scrutinizing Benchmark for Assessing the Cognitive Bias of Large Language Models as Evaluators
 
@@ -57,6 +60,11 @@ Large Language Models are cognitively biased judges. Large Language Models (LLMs
 ## Authors
 
 [[Ryan Koo]], [[Michael S. Lee|Minhwa Lee]], [[Vipul Raheja]], [[Jong Inn Park]], [[Zae Myung Kim]], [[Dongyeop Kang]]
+
+## Data Description
+
+COBBLER (COgnitive Bias Benchmark for LLMs as EvaluatoRs) benchmarks 16 LLMs for six cognitive biases when used as automatic text quality evaluators. The benchmark uses 50 question-answering instructions from BigBench and ELI5 datasets, generating over 630,000 pairwise comparisons across all models. The six biases measured include order bias, compassion fade, egocentric bias, salience bias, bandwagon effect, and attentional bias, categorized into implicit and induced types.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-3, Llama, Alpaca, Vicuna"
+DATA_URL: "https://github.com/LoryPack/LLM-LieDetector"
 ---
 # How to Catch an AI Liar: Lie-Detection in Large Language Models
 
@@ -55,6 +58,11 @@ Large language models (LLMs) can "lie", which we define as outputting false stat
 ## Authors
 
 [[Lorenzo Pacchiardi]], [[Jun Shern Chan|Alex J. Chan]], [[Sören Mindermann]], [[Ilan Moscovitz]], [[Alexander Pan|Alexa Y. Pan]], [[Yarin Gal]], [[Owain Evans]], [[Jan Brauner]]
+
+## Data Description
+
+The paper develops a black-box lie detector for LLMs using a question-answering dataset of over 20,000 questions spanning general knowledge, mathematics, common sense reasoning, translations, and self-knowledge. The detector is trained on 2,560 lie/truth samples from prompted GPT-3.5 (text-davinci-003) and tested for generalization across GPT-3 (davinci), LLaMA-30B, LLaMA-7B, Alpaca-7B, and Vicuna-7B using various lie generation methods including prompting, chain-of-thought, and fine-tuning.
+
 
 ## Notes
 

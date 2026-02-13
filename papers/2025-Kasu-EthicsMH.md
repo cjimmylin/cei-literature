@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ tags:
 abstract: "The deployment of large language models (LLMs) in mental health and other sensitive domains raises urgent questions about ethical reasoning, fairness, and responsible alignment. Yet, existing benchmarks for moral and clinical decision-making do not adequately capture the unique ethical dilemmas encountered in mental health practice, where confidentiality, autonomy, beneficence, and bias frequently intersect."
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "125 scenarios"
+LLM_assessed: "ChatGPT"
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
 # EthicsMH
@@ -64,6 +67,10 @@ The deployment of large language models (LLMs) in mental health and other sensit
 ## Dataset Information
 
 Size: 125 therapy-relevant scenarios
+
+## Data Description
+
+EthicsMH is a pilot dataset of 125 ethically challenging scenarios designed to evaluate AI systems in mental health contexts. Each scenario is structured with multiple decision options, expert-aligned reasoning, expected model behavior, real-world impact, and multi-stakeholder viewpoints across five ethical subcategories (confidentiality, racial bias, gender bias, adult autonomy, and minor autonomy). The dataset was constructed through a human-in-the-loop process using ChatGPT for draft generation with expert review.
 
 ## Notes
 

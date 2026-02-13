@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
  Concept Alignment
 
@@ -76,6 +79,11 @@ The authors conclude that attempting value alignment without concept alignment i
 
 ### Artifact Contributions
 The paper provides a conceptual taxonomy distinguishing between "concept alignment" and "value alignment." It also proposes a roadmap for integrating cognitive science experimental paradigms into the AI development pipeline to ensure that machine representations align with human cognitive structures.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical position paper arguing that concept alignment between humans and AI systems is a necessary prerequisite for value alignment, drawing on philosophy, cognitive science, and deep learning to outline challenges and opportunities for achieving shared conceptual understanding.
+
 
 ## Notes
 

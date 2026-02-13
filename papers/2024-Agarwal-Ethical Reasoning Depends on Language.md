@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual ethical dilemmas across 6 languages"
 data_metrics: "Ethical consistency across languages"
+LLM_assessed: "GPT-4, ChatGPT, Llama-2"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Agarwal-Ethical Reasoning Depends on Language.md"
 local_pdf: "[[PDFs/2024/2024-Agarwal-Ethical Reasoning Depends on Language.pdf]]"
 normative_ethics_benchmark: Yes
@@ -111,6 +114,11 @@ The study demonstrates that LLM moral reasoning is substantially influenced by p
 - Multilingual ethical dilemma test set across 6 languages
 - Framework for evaluating LLM ethical consistency across languages
 - First systematic study of LLM ethics in multilingual settings
+
+## Data Description
+
+The study extends Rao et al.'s ethical reasoning framework to a multilingual setup across six languages (English, Spanish, Russian, Chinese, Hindi, Swahili), probing GPT-4, ChatGPT (GPT-3.5-turbo), and Llama2-70B-Chat with ethical dilemmas and policies from three branches of normative ethics (deontology, virtue, consequentialism) at three levels of abstraction. The evaluation measures ethical consistency of model responses across languages and policy types.
+
 
 ## Notes
 

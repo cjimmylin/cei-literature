@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Input-output safeguards are used to detect anomalies in the traces pr
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4"
+DATA_URL: "NA"
 ---
 # BELLS: A Framework Towards Future Proof Benchmarks for the Evaluation of LLM Safeguards
 
@@ -62,6 +65,10 @@ Input-output safeguards are used to detect anomalies in the traces produced by L
 ## Dataset Information
 
 See report
+
+## Data Description
+
+BELLS (Benchmarks for the Evaluation of LLM Safeguards) is a framework comprising three categories of tests for input-output safeguards: established failure tests, emerging failure tests, and next-gen architecture tests. The paper implements a next-gen architecture test using the MACHIAVELLI benchmark environment, generating 200 agent traces (33.6K API calls, 18.5M words) with ethical and unethical steering prompts. GPT-4 is used as a baseline content moderator for detecting unethical agent behavior.
 
 ## Notes
 

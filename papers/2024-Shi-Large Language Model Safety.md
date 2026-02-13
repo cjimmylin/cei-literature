@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/tjunlp-lab/Awesome-LLM-Safety-Papers"
 ---
 # Large Language Model Safety: A Holistic Survey
 
@@ -64,6 +67,11 @@ The rapid development and deployment of large language models (LLMs) have introd
 ## Authors
 
 [[Dan Shi]], [[Tianhao Shen]], [[Yufei Huang]], [[Zhigen Li]], [[Yongqi Leng]], [[Renren Jin]], [[Chuang Liu]], [[Xinwei Wu]], [[Zishan Guo]], [[Linhao Yu]], [[Ling Shi]], [[Bojian Jiang]], [[Deyi Xiong]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a comprehensive survey covering the landscape of LLM safety across four categories (value misalignment, robustness to adversarial attacks, misuse, and autonomous AI risks), along with related topics including agent safety, interpretability, technology roadmaps, and AI governance.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_KYRIACOU2024
@@ -29,6 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Artificial moral intelligence and computability: an Aristotelian perspective
 
@@ -72,6 +75,11 @@ The paper argues that AI systems solve problems based on mechanically computatio
 - This contrasts fundamentally with Aristotelian ethics
 - Computational moral reasoning cannot replicate human moral intelligence
 - Phronesis is irreducibly non-computational
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical analysis arguing from an Aristotelian perspective that AI systems lack the cognitive prerequisites for virtuous moral agency, including categorical rationality, autonomous reasons-responsiveness, affective experience, and virtue-based moral intuition.
+
 
 ## Notes
 

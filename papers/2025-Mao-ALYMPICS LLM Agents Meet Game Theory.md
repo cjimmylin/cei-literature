@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "This paper introduces Alympics (Olympics for Agents), a systematic si
 research_topic: "NLP & Representation Learning"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4"
+DATA_URL: "NA"
 ---
 # ALYMPICS: LLM Agents Meet Game Theory
 
@@ -62,6 +65,10 @@ This paper introduces Alympics (Olympics for Agents), a systematic simulation fr
 ## Dataset Information
 
 Sandbox-based game environments (pilot: Water Allocation Challenge -- 20-day multi-round sealed-bid auction); text-based agent interaction
+
+## Data Description
+
+ALYMPICS is a systematic simulation framework utilizing LLM agents for game theory research, demonstrated through the 'Water Allocation Challenge' -- a multi-round sealed-bid auction game over scarce survival resources. GPT-4 (GPT-4-32k) is used both for the Sandbox Playground implementation and as the backbone for all five agent players across six experimental settings with varying resource abundance and persona assignments, each repeated 10 times.
 
 ## Notes
 

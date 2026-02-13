@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "75,000 prompts"
+LLM_assessed: "GPT-3.5, Llama-2, Llama-3, Gemini, Mixtral"
+DATA_URL: "https://github.com/ashikiut/DefAn"
 ---
 # DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation
 
@@ -62,6 +65,11 @@ Large Language Models (LLMs) have demonstrated remarkable capabilities, revoluti
 ## Authors
 
 [[A B M Ashikur Rahman]], [[Saeed Anwar]], [[Muhammad Usman]], [[Ajmal Mian]]
+
+## Data Description
+
+DefAn is a comprehensive benchmark dataset comprising over 75,000 prompts across eight knowledge domains (Sports, Census Australia, Nobel Prize, Entertainment, World Organizations, QS Ranking, Conference Venue, and Math). The dataset is split into a public segment (68,093 samples) and a hidden segment (7,485 samples), with each question paraphrased 15 times to assess consistency. It evaluates LLM hallucination across three dimensions: factual accuracy, prompt faithfulness, and response consistency.
+
 
 ## Notes
 

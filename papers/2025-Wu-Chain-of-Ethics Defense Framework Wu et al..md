@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract:
 ethics_perspective: "General Ethics"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-4o, Claude, Gemini, DeepSeek, Qwen"
+DATA_URL: "NA"
 ---
 # Chain-of-Ethics: Defense Framework (Wu et al.)
 
@@ -60,6 +63,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Defense framework using chain-of-ethics reasoning
+
+## Data Description
+
+This paper presents a jailbreak evaluation framework for Chinese medical ethics, testing seven LLMs (GPT-5, GPT-4.1, Claude-Sonnet-4-Reasoning, Gemini-2.5-Pro, DeepSeek-R1, Qwen-3-235B, Doubao) across eight high-risk medical ethics themes (e.g., commercial surrogacy, organ trafficking). The evaluation uses 168 test samples (3 role-play scenarios per theme times 8 themes) with a hierarchical scoring matrix measuring Attack Success Rate under a DeepInception-based jailbreak strategy.
 
 ## Notes
 

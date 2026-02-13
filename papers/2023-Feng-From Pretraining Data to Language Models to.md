@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology text corpus for hate speech detection"
 data_metrics: "Not specified"
+LLM_assessed: "BERT, RoBERTa, ALBERT, BART, GPT-2, GPT-3, GPT-4, ChatGPT, Alpaca, Llama"
+DATA_URL: "https://github.com/BunsenFeng/PoliLean"
 ---
 # From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models
 
@@ -64,6 +67,11 @@ Language models (LMs) are pretrained on diverse data sources, including news, di
 ## Authors
 
 [[Shangbin Feng]], [[Chan Young Park]], [[Yuhan Liu]], [[Yulia Tsvetkov]]
+
+## Data Description
+
+The study uses the PoliLean framework to measure political biases in 14 language models along social and economic axes using a political compass test with 62 political statements. Downstream evaluation uses three datasets: HATE-IDENTITY (159,872 datapoints), HATE-DEMOGRAPHIC (276,872 datapoints) for hate speech detection with identity group annotations, and a MISINFORMATION dataset (29,556 datapoints) from PolitiFact. The partisan pretraining corpora span six categories combining domain (Reddit, News) and political leaning (Left, Center, Right).
+
 
 ## Notes
 

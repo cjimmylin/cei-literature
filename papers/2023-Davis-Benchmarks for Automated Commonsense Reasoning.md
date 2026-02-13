@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Benchmarks for Automated Commonsense Reasoning: A Survey
 
@@ -62,6 +65,11 @@ More than one hundred benchmarks have been developed to test the commonsense kno
 ## Authors
 
 [[Ernest Davis]]
+
+## Data Description
+
+This paper is a comprehensive survey of 139 commonsense reasoning benchmarks (102 text-based, 18 image-based, 12 video-based, and 7 simulated physical environments). It reviews benchmark design, construction methods, common flaws, and gaps in existing benchmarks for testing AI commonsense knowledge and reasoning. The paper does not introduce a new dataset or benchmark.
+
 
 ## Notes
 

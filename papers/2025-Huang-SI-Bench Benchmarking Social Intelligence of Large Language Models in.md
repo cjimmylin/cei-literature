@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "As large language models (LLMs) develop anthropomorphic abilities, th
 research_topic: "Dialogue Systems"
 data_description: "Benchmark dataset for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "Claude, GPT-4o, Gemini, Qwen"
+DATA_URL: "https://github.com/SI-Bench/SI-Bench.git"
 ---
 # SI-Bench: Benchmarking Social Intelligence of Large Language Models in Human-to-Human Conversations
 
@@ -62,6 +65,10 @@ As large language models (LLMs) develop anthropomorphic abilities, they are incr
 ## Dataset Information
 
 2,221 authentic multi-turn dialogues from social networking platform; 312 manually annotated dialogues across 8 models; Chinese language; anonymized
+
+## Data Description
+
+SI-Bench is a social intelligence benchmark containing 2,221 authentic multi-turn dialogues collected from a Chinese social networking application, covering 12 types of complex social situations. A subset of 312 dialogues was manually annotated across 8 leading LLMs (Claude-4-Opus, Claude-4-Sonnet, GPT-4o, Gemini-2.5-Pro, Gemini-2.5-Flash, Doubao-1.6-Thinking, Doubao-1.5-Pro-Character, and Qwen-2.5-Max), evaluating both reasoning process quality and reply quality in social dialogue tasks.
 
 ## Notes
 

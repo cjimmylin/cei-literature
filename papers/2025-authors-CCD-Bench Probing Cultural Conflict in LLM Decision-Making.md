@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large language models (LLMs) increasingly shape interpersonal and soc
 ethics_perspective: "Social & Cultural Values"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
+LLM_assessed: "Claude, DeepSeek, Gemini, Llama, Llama-3, Phi, Mistral, ChatGPT, GPT-4, Qwen, Grok"
+DATA_URL: "https://github.com/smartlab-nyu/CCD-Bench"
 ---
 # CCD-Bench: Probing Cultural Conflict in LLM Decision-Making
 
@@ -61,6 +64,10 @@ Large language models (LLMs) increasingly shape interpersonal and societal decis
 ## Dataset Information
 
 2,182 open-ended dilemmas spanning seven domains with ten response options from ten GLOBE cultural clusters
+
+## Data Description
+
+CCD-Bench (Culture-Conflict Decision Benchmark) contains 2,182 open-ended dilemmas across seven domains (Arts, Education, Family, Wellness, Work, Science, Lifestyle), each with ten anonymized response options aligned with the ten GLOBE cultural clusters spanning 62 societies. The benchmark evaluates 17 leading LLMs using a Stratified Latin Square design to assess how models navigate cross-cultural value conflicts. Responses were generated via multi-cluster prompting with OpenAI o3 and verified by human annotators.
 
 ## Notes
 

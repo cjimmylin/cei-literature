@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "In AI alignment, extensive latitude must be granted to annotators, ei
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-3, Mistral, DeepSeek, Claude"
+DATA_URL: "NA"
 ---
 # AI Alignment at Your Discretion
 
@@ -65,6 +68,10 @@ In AI alignment, extensive latitude must be granted to annotators, either human 
 ## Dataset Information
 
 Metrics for analyzing discretion in preference datasets used for RLHF; audits across multiple alignment datasets
+
+## Data Description
+
+This paper analyzes alignment discretion using two existing preference datasets: Anthropic's HH-RLHF (harmlessness partition) and PKU's Safe-RLHF. The authors evaluate multiple algorithmic annotators including reward models (Llama-3 8B, Mistral-7B fine-tuned variants), LLMs (Llama-3 8B base and fine-tuned, Mistral-7B base and fine-tuned), and off-the-shelf models (GPT-4o, DeepSeek-V3, Claude 3.5 Sonnet) to measure discretion arbitrariness, principle supremacy, and discretion discrepancy against human annotator baselines.
 
 ## Notes
 

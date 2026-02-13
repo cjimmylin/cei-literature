@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Holistic Safety and Responsibility Evaluations of Advanced AI Models
 
@@ -64,6 +67,11 @@ Safety and responsibility evaluations of advanced AI models are a critical but d
 ## Authors
 
 [[Laura Weidinger]], [[Joslyn Barnhart]], [[Jenny Brennan]], [[Christina Butterfield]], [[Susie Young]], [[Will Hawkins]], [[Lisa Anne Hendricks]], [[Ramona Comanescu]], [[Oscar Chang]], [[Mikel Rodriguez]], [[Jennifer Beroshi]], [[Dawn Bloxwich]], [[Lev Proleev]], [[Jilin Chen]], [[Sebastian Farquhar]], [[Lewis Ho]], [[Iason Gabriel]], [[Allan Dafoe]], [[William Isaac]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a report from Google DeepMind describing their holistic approach to safety evaluation of advanced AI models, sharing lessons learned from evaluating Gemini across risk domains including established and emerging harms.
+
 
 ## Notes
 

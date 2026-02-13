@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "OPT, ALBERT, RoBERTa, BART"
+DATA_URL: "NA"
 ---
 # Enabling Classifiers to Make Judgements Explicitly Aligned with Human Values
 
@@ -64,6 +67,11 @@ Many NLP classiﬁcation tasks, such as sexism/racism detection or toxicity dete
 ## Authors
 
 [[Yejin Bang]], [[Tiezheng Yu]], [[Andrea Madotto]], [[Zhaojiang Lin]], [[Mona Diab]], [[Pascale Fung]]
+
+## Data Description
+
+The paper constructs a value-aligned sexism classification dataset using prompt-based data generation from OPT-175B. The training set contains 10,722 synthetic samples in triplet form (content, value, label) covering 19 sexism categories with 38 human values. The test set comprises 17,720 samples derived from existing multi-label sexism data, with value-aligned labels assigned based on explicit human values provided as instructions.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "As large language models (LLMs) have demonstrated strong reasoning ab
 research_topic: "Other"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, o1, Claude, Gemini"
+DATA_URL: "NA"
 ---
 # The Emergence of Strategic Reasoning of Large Language Models
 
@@ -61,6 +64,10 @@ As large language models (LLMs) have demonstrated strong reasoning abilities in 
 ## Dataset Information
 
 3 classical behavioral economics games; evaluations against human performance benchmarks using hierarchical models of bounded rationality
+
+## Data Description
+
+This study evaluates strategic reasoning capabilities of six LLMs using three classical behavioral economics games: the p-Beauty Contest Game, the Guessing Game, and the 11-20 Money Request Game. Each LLM was instructed to play 100 rounds per game under various treatment conditions, with responses analyzed using level-k and cognitive hierarchy models of bounded rationality. The evaluation compares standard LLMs (ChatGPT-4, Claude-3.5-Sonnet, Gemini 1.5) against reasoning LLMs (OpenAI-o1, Claude-4-Sonnet-Thinking, Gemini Flash Thinking 2.0) and human subject data from the experimental economics literature.
 
 ## Notes
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 research_topic: "Other"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini, Qwen, Llama-3, DeepSeek"
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
 # PoliCon
@@ -63,6 +66,10 @@ normative_ethics_benchmark: Borderline
 ## Dataset Information
 
 2,225 high-quality deliberation records from European Parliament over 13 years (2009-2022); tasks vary by political issues, goals, parties, and power structures
+
+## Data Description
+
+PoliCon is a political consensus benchmark constructed from 2,225 high-quality deliberation records of the European Parliament spanning 13 years (2009-2022). The dataset incorporates four adjustable factors (political issues, political goals, participating parties, and power structures) to construct 28,620 distinct political scenarios across 5 coarse-grained and 19 fine-grained topic categories. Each data entry contains a sextuple of issue, topic, background, stances, resolution, and votes, cleaned and processed using DeepSeek-R1 and rule-based methods.
 
 ## Notes
 

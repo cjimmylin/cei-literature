@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Although significant research efforts have been dedicated to enhancin
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Multilingual benchmark for ai safety annotated dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama, Qwen, Mistral, Vicuna"
+DATA_URL: "https://huggingface.co/datasets/usail-hkust/JailJudge"
 ---
 # JAILJUDGE
 
@@ -64,6 +67,10 @@ Preprint JAILJUDGE Guard model is available at https://huggingface.co/ usail-hku
 ## Dataset Information
 
 35K+ instruction-tuning data with reasoning explainability
+
+## Data Description
+
+JAILJUDGE is a comprehensive jailbreak judge benchmark comprising JAILJUDGETRAIN (35k+ instruction-tuning data with reasoning explainability) and JAILJUDGETEST (4.5k+ labeled complex scenarios and 6k+ multilingual scenarios in ten languages). The dataset covers 14 safety categories with six types of harmful prompts (vanilla, synthetic vanilla, synthetic adversarial, multilingual, in-the-wild, and deceptive) and responses from closed-source LLMs (GPT-4, GPT-3.5), open-source LLMs (Llama, Qwen, Mistral, Vicuna families), and defense-enhanced LLMs.
 
 ## Notes
 

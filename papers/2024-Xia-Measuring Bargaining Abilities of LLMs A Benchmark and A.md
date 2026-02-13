@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Bargaining is an important and unique part of negotiation between hum
 research_topic: "AI Safety & Alignment"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, ChatGPT, Llama-2, Mistral, Mixtral, Qwen"
+DATA_URL: "https://github.com/TianXiaSJTU/AmazonPriceHistory"
 ---
 # Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method
 
@@ -62,6 +65,10 @@ Bargaining is an important and unique part of negotiation between humans. As LLM
 ## Dataset Information
 
 AmazonHistoryPrice dataset -- 930 popular products across 18 categories with real price data (lowest/highest/current/list price, descriptions, features); multi-round bargaining format
+
+## Data Description
+
+AmazonHistoryPrice is a dataset of 930 real products across 18 categories collected from Amazon's price history, used to benchmark LLM agents' bargaining abilities. The paper formally defines the bargaining task as an asymmetric incomplete information game and evaluates multiple LLMs as both buyers and sellers, finding that playing a buyer is significantly harder than a seller.
 
 ## Notes
 

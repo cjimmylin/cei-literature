@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large language models (LLMs) increasingly find their way into the mos
 ethics_perspective: "Bias & Fairness"
 data_description: "N/A"
 data_metrics: "6500 scenarios"
+LLM_assessed: "Falcon, Gemini, Llama-2, Llama-3, GPT-3.5"
+DATA_URL: "https://github.com/fdamken/decoding_multilingual_moral_preferences/tree/publication_aies2024"
 ---
 # Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment
 
@@ -61,6 +64,10 @@ Large language models (LLMs) increasingly find their way into the most diverse a
 ## Dataset Information
 
 Size: 6,500 moral dilemma scenarios
+
+## Data Description
+
+The dataset consists of 6,500 moral dilemma scenarios generated using the Moral Machine Experiment (MME) framework, prompted in 10 languages (Arabic, German, English, Spanish, French, Japanese, Korean, Portuguese, Russian, Chinese). Each scenario presents two possible outcomes involving nine moral factors (species, age, gender, fitness, lawfulness, social status, count, passenger/pedestrian relation, intervention) to evaluate moral preferences of LLMs in a multilingual setting.
 
 ## Notes
 

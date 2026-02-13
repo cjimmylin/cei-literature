@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "16k questions"
+LLM_assessed: "GPT-4, Claude, Llama-3, Mistral, Gemma"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Wang-Measuring Desired Group Discrimination in LLMs.md"
 local_pdf: "[[PDFs/2025/2025-Wang-Measuring Desired Group Discrimination in LLMs.pdf]]"
 ---
@@ -46,6 +49,11 @@ local_pdf: "[[PDFs/2025/2025-Wang-Measuring Desired Group Discrimination in LLMs
 ## Abstract
 
 Algorithmic fairness has conventionally adopted the mathematically convenient perspective of racial color-blindness (i.e., difference unaware treatment). However, we contend that in a range of important settings, group difference awareness matters. For example, differentiating between groups may be necessary in legal contexts (e.g., the U.S. compulsory draft applies to men but not women) and harm assessments (e.g., referring to girls as “terrorists” may be less harmful than referring to Muslim people as such). Thus, in contrast to most fairness work, we study fairness through the perspective of treating people differently — when it is contextually appropriate to. We first introduce an important distinction between descriptive (fact-based), normative (value-based), and correlation (association-based) benchmarks. This distinction is significant because each category requires separate interpretation and mitigation tailored to its specific characteristics. Then, we present a benchmark suite composed of eight different scenarios for a total of 16k questions that enables us to assess difference awareness. Finally, we show results across ten models that demonstrate difference awareness is a distinct dimension to fairness where existing bias mitigation strategies may backfire.
+
+## Data Description
+
+The paper introduces a benchmark suite of eight benchmarks (four descriptive, four normative) with 16,000 total questions designed to evaluate difference awareness in LLMs across legal, religious, occupational, asylum, and cultural contexts. Ten instruction-tuned LLMs spanning five model families (Llama-3.1, Mistral, Gemma-2, GPT-4, and Claude-3.5) were evaluated using the proposed DiffAware and CtxtAware metrics, along with existing fairness benchmarks BBQ and DiscrimEval.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Quantitative Artificial Intelligence (AI) Benchmarks have emerged as 
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Can We Trust AI Benchmarks? An Interdisciplinary Review
 
@@ -67,6 +70,10 @@ Can We Trust AI Benchmarks? A PREPRINT By providing an overview of risks associa
 ## Dataset Information
 
 Meta-review of ~110 studies discussing benchmark shortcomings over last 10 years
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is an interdisciplinary meta-review of approximately 100 studies discussing shortcomings in quantitative AI benchmarking practices, identifying nine categories of issues including data contamination, construct validity problems, sociocultural gaps, and benchmark gaming.
 
 ## Notes
 

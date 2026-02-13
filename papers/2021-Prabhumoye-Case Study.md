@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
  Case Study: Deontological Ethics in NLP
 
@@ -50,6 +53,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Recent work in natural language processing (NLP) has focused on ethical challenges such as understanding and mitigating bias in data and algorithms; identifying objectionable content like hate speech, stereotypes and offensive language; and building frameworks for better system design and data handling practices. However, there has been little discussion about the ethical foundations that underlie these efforts. In this work, we study one ethical theory, namely deontological ethics, from the perspective of NLP. In particular, we focus on the generalization principle and the respect for autonomy through informed consent. We provide four case studies to demonstrate how these principles can be used with NLP systems. We also recommend directions to avoid the ethical issues in these systems.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical and applied ethics paper that presents four case studies illustrating how deontological ethical principles (the generalization principle and respect for autonomy through informed consent) can be applied to evaluate NLP systems such as question-answering, hate speech detection, machine translation, and dialogue systems.
+
 
 ## Notes
 

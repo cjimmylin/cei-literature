@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4"
+DATA_URL: "NA"
 ---
 # The Cultural Gene of Large Language Models: A Study on the Impact of Cross-Corpus Training on Model Values and Biases
 
@@ -64,6 +67,11 @@ Large Language Models (LLMs) are being deployed globally, yet their underlying c
 ## Authors
 
 [[Emanuel Z. Fenech-Borg]], [[Tilen P. Meznaric-Kos]], [[Milica D. Lekovic-Bojovic]], [[Arni J. Hentze-Djurhuus]]
+
+## Data Description
+
+The paper introduces a Cultural Probe Dataset (CPD) comprising 200 unique probes equally divided between Individualism-Collectivism and Power Distance dimensions, with three probe types (Value-Dilemma, Scenario-Judgment, Stereotype-Association). GPT-4 (Western-centric) and ERNIE Bot (Eastern-centric) are tested via zero-shot prompting to measure cultural alignment indices across Hofstede's cultural dimensions.
+
 
 ## Notes
 

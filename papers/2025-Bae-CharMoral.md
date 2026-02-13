@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, BERT"
+DATA_URL: "https://github.com/BaeSuyoung/CharMoral"
 ---
  CharMoral: A Character Morality Dataset for Morally Dynamic Character Analysis in Long-Form Narratives
 
@@ -88,6 +91,11 @@ Morality is a trajectory, not a label. CharMoral provides a tool for developing 
 
 *   **CharMoral Dataset**: Annotated actions and moral labels for characters in 1.3k movies.
 *   **Moral Trajectory Code**: Tools to visualize a character's moral path over time.
+
+## Data Description
+
+The CharMoral dataset contains 1,337 movie synopses with 103,836 morality-annotated character actions, including context information (situation, intention, consequence). GPT-3.5 and GPT-4o are tested in zero-shot and few-shot moral action classification, and a BERT-large model is fine-tuned as the Moral Action Detector (MAD). The dataset is evaluated on in-domain and cross-domain moral reasoning tasks.
+
 
 ## Notes
 

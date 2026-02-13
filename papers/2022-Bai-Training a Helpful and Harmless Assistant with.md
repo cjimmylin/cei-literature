@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/anthropics/hh-rlhf"
 publication: arXiv preprint
 DATE_ADDED: 20260207
 ---
@@ -60,6 +63,11 @@ We apply preference modeling and reinforcement learning from human feedback (RLH
 ## Authors
 
 [[Yuntao Bai]], [[Andy Jones]], [[Kamal Ndousse]], [[Amanda Askell]], [[Anna Chen]], [[Nova DasSarma]], [[Dawn Drain]], [[Stanislav Fort]], [[Deep Ganguli]], [[Tom Henighan]], [[Nicholas Joseph]], [[Saurav Kadavath]], [[Jackson Kernion]], [[Tom Conerly]], [[Sheer El-Showk]], [[Nelson Elhage]], [[Zac Hatfield-Dodds]], [[Danny Hernandez]], [[Tristan Hume]], [[Scott Johnston]], [[Shauna Kravec]], [[Liane Lovitt]], [[Neel Nanda]], [[Catherine Olsson]], [[Dario Amodei]], [[Tom Brown]], [[Jack Clark]], [[Sam McCandlish]], [[Chris Olah]], [[Ben Mann]], [[Jared Kaplan]]
+
+## Data Description
+
+The paper introduces the HH-RLHF dataset comprising human preference data for helpfulness and harmlessness, collected through open-ended conversations between crowdworkers and Anthropic's language models at various sizes (2.7B to 52B parameters). The dataset includes separate helpfulness and red-teaming (harmlessness) dialogue preference datasets, where annotators choose between paired model responses. The data supports reinforcement learning from human feedback (RLHF) for training AI assistants to be helpful, honest, and harmless.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "DeBERTa, BERT, RoBERTa, ALBERT, T5"
+DATA_URL: "NA"
 ---
 # Commonsense Norm Bank: 1.7M Moral Judgments for Generative Moral Reasoning
 
@@ -59,6 +62,11 @@ Moral AI has been studied in the fields of philosophy and artificial intelligenc
 ## Authors
 
 [[Xuhui Ji]]
+
+## Data Description
+
+The study uses the ETHICS dataset comprising three sub-datasets (utilitarianism, deontology, virtue ethics) and a commonsense morality dataset to fine-tune DeBERTa-v3-large models for moral judgment under the Maximizing Expected Choiceworthiness (MEC) framework. Evaluation involved automated benchmarking on ETHICS test sets and qualitative assessment by three Ph.D. students in philosophy comparing MEC outputs with the Delphi model.
+
 
 ## Notes
 

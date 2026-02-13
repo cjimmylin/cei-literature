@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Large language model (LLM) benchmarks inform LLM use decisions (e.g.,
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/BenchRisk"
 ---
 # BenchRisk: Identifying 57 Failure Modes in AI Safety Benchmarks (McGregor et al.)
 
@@ -62,6 +65,10 @@ Large language model (LLM) benchmarks inform LLM use decisions (e.g., “is this
 ## Dataset Information
 
 Meta-evaluation identifying 57 failure modes across AI safety benchmarks
+
+## Data Description
+
+This paper presents BenchRisk, a metaevaluation framework that scores the reliability of 26 AI safety benchmarks across five dimensions (comprehensiveness, intelligibility, consistency, correctness, and longevity). The framework identifies 57 potential failure modes and 196 corresponding mitigation strategies. All materials are published at benchrisk.ai with an open-source GitHub repository for community-driven scoring.
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "AI assistants can impart value judgments that shape people’s decisi
 ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+LLM_assessed: "Claude"
+DATA_URL: "https://huggingface.co/datasets/Anthropic/values-in-the-wild/"
 ---
 # Values in the Wild: Discovering and Analyzing Values in Real AI Interactions
 
@@ -61,6 +64,10 @@ AI assistants can impart value judgments that shape people’s decisions and wor
 ## Dataset Information
 
 3,307 AI values extracted from hundreds of thousands of real interactions with high ecological validity
+
+## Data Description
+
+This study analyzes AI values in real-world deployment by examining approximately 308,210 subjective conversations from a sample of 700K Claude.ai interactions (primarily Claude 3.5 Sonnet). Using privacy-preserving feature extraction, the researchers discovered and taxonomized 3,307 unique AI values and 2,483 human values into a hierarchical taxonomy with five top-level categories (Practical, Epistemic, Social, Protective, Personal).
 
 ## Notes
 

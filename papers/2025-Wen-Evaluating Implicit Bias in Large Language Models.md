@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "2.7k instances; 12.7k instances"
+LLM_assessed: "GPT-3.5, GPT-4, Mistral, Llama-3, Qwen"
+DATA_URL: "https://github.com/yuchenwen1/BUMBLE"
 pdf_extract: "PDF Extracts/2025/2025-Wen-Evaluating Implicit Bias in Large Language Models.md"
 local_pdf: "[[PDFs/2025/2025-Wen-Evaluating Implicit Bias in Large Language Models.pdf]]"
 ---
@@ -46,6 +49,11 @@ local_pdf: "[[PDFs/2025/2025-Wen-Evaluating Implicit Bias in Large Language Mode
 ## Abstract
 
 As large language models (LLMs) become an important way of information access, there have been increasing concerns that LLMs may intensify the spread of unethical content, including implicit bias that hurts certain populations without explicit harmful words. In this paper, we conduct a rigorous evaluation of LLMs’ implicit bias towards certain demographics by attacking them from a psychometric perspective to elicit agreements to biased viewpoints. Inspired by psychometric principles in cognitive and social psychology, we propose three attack approaches, i.e., Disguise, Deception, and Teaching. Incorporating the corresponding attack instructions, we built two benchmarks: (1) a bilingual dataset with biased statements covering four bias types (2.7K instances) for extensive comparative analysis, and (2) BUMBLE, a larger benchmark spanning nine common bias types (12.7K instances) for comprehensive evaluation. Extensive evaluation of popular commercial and open-source LLMs shows that our methods can elicit LLMs’ inner bias more effectively than competitive baselines. Our attack methodology and benchmarks offer an effective means of assessing the ethical risks of LLMs, driving progress toward greater accountability in their development.
+
+## Data Description
+
+The paper introduces two benchmarks for evaluating implicit bias in LLMs: a bilingual dataset with 2.7K biased statement instances covering four bias types (age, gender, race, sexual orientation), and BUMBLE, a larger benchmark spanning nine common bias types with 12.7K data entries. The data is sourced from the CBBQ dataset and uses psychometric-inspired attack methods (Disguise, Deception, Teaching) to elicit bias agreement responses from LLMs in both English and Chinese.
+
 
 ## Notes
 

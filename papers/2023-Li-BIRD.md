@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "33.4 gb"
+LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, T5"
+DATA_URL: "https://bird-bench.github.io/"
 pdf_extract: "PDF Extracts/2023/2023-Li-BIRD.md"
 local_pdf: [[PDFs/2023/2023-Li-BIRD.pdf]]
 ---
@@ -122,6 +125,11 @@ BIRD demonstrates that current state-of-the-art text-to-SQL models, including GP
 - Valid Efficiency Score (VES) metric for SQL efficiency evaluation
 - Leaderboard and source code: https://bird-bench.github.io/
 - Hidden test set with 15 databases to prevent data leakage
+
+## Data Description
+
+BIRD is a large-scale text-to-SQL benchmark containing 12,751 text-to-SQL pairs across 95 databases with a total size of 33.4 GB spanning 37 professional domains. The benchmark emphasizes challenges of dirty and noisy database values, external knowledge grounding, and SQL execution efficiency. It includes a novel Valid Efficiency Score (VES) metric and databases sourced from Kaggle, CTU Prague Relational Learning Repository, and open tables.
+
 
 ## Notes
 

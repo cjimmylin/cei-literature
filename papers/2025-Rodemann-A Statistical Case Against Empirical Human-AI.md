@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # A Statistical Case Against Empirical Human-AI Alignment
 
@@ -64,6 +67,11 @@ Empirical human–AI alignment aims to make AI systems act in line with observed
 ## Authors
 
 [[Julian Rodemann]], [[Esteban Garces Arias]], [[Christoph Luther]], [[Christoph Jansen]], [[Thomas Augustin]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a position paper that argues against forward empirical human-AI alignment on statistical grounds, drawing on philosophical and statistical perspectives to advocate for prescriptive alignment and a posteriori empirical alignment as alternatives.
+
 
 ## Notes
 

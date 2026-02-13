@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "LLMs as intelligent agents are being increasingly applied in scenario
 ethics_perspective: "Social & Cultural Values"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-3, DeepSeek, Qwen"
+DATA_URL: "NA"
 ---
 # An Evaluation of Cultural Value Alignment in LLM
 
@@ -61,6 +64,10 @@ LLMs as intelligent agents are being increasingly applied in scenarios where hum
 ## Dataset Information
 
 Format: Validated cultural values questionnaire with human ground truth
+
+## Data Description
+
+The paper evaluates cultural value alignment across 10 LLMs (GPT-3.5-Turbo, GPT-4, GPT-4o, Gemini-1.5, LLaMA-3-70B, DeepSeek-v2.5, GLM-4, and three Qwen-2.5 variants) using Hofstede's Values Survey Module (VSM), a 24-item questionnaire covering six cultural dimensions. The evaluation spans 20 countries with their respective languages, with each country-language prompt called three times per model, resulting in 400 prompts per model and totaling approximately 12,000 survey completions.
 
 ## Notes
 

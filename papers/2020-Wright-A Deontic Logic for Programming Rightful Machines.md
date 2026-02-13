@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2020/2020-Wright-A Deontic Logic for Programming Rightful Machines.md"
 ---
 # A Deontic Logic for Programming Rightful Machines
@@ -64,6 +67,11 @@ pdf_extract: "PDF Extracts/2020/2020-Wright-A Deontic Logic for Programming Righ
 ## Abstract
 
 A "rightful machine" is an explicitly moral, autonomous machine agent whose behavior conforms to principles of justice and the positive public law of a legitimate state. Deontic logic is appropriate for capturing conflicting legal obligations for purposes of programming rightful machines. Justice demands that the prescriptive system of enforceable public laws be consistent, yet statutes or case holdings may often describe legal obligations that contradict. A deontic logic of the law should not try to work around such conflicts but, instead, identify and expose them so that the rights and duties that generate inconsistencies in public law can be explicitly qualified and the conflicts resolved. A credulous, non-monotonic deontic logic can describe inconsistent legal obligations while meeting the normative demand for consistency.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents a theoretical deontic logic framework based on Kant's philosophy of law, proposing a modified answer set programming approach for handling conflicting legal obligations in autonomous machine agents.
+
 
 ## Notes
 

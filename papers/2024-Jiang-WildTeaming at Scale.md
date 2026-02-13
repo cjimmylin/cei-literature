@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Vicuna, Mistral, Mixtral, Llama-2, Llama-3"
+DATA_URL: "https://huggingface.co/datasets/allenai/wildjailbreak"
 ---
 # WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models
 
@@ -63,6 +66,11 @@ We introduce WildTeaming, an automatic LLM safety red-teaming framework that min
 ## Authors
 
 [[Liwei Jiang]], [[Kavel Rao]], [[Seungju Han]], [[Allyson Ettinger]], [[Faeze Brahman]], [[Sachin Kumar]], [[Niloofar Mireshghallah]], [[Ximing Lu]], [[Maarten Sap]], [[Yejin Choi]], [[Nouha Dziri]]
+
+## Data Description
+
+WildJailbreak is a large-scale open-source synthetic safety dataset containing 262K prompt-response pairs organized into four contrastive components: vanilla harmful queries, vanilla benign queries, adversarial harmful queries, and adversarial benign queries. The dataset was created using the WildTeaming framework, which mines 5.7K unique clusters of jailbreak tactics from real-world user-chatbot interactions in LMSYS-Chat-1M and WildChat, then composes these tactics to generate diverse adversarial attacks for safety training.
+
 
 ## Notes
 

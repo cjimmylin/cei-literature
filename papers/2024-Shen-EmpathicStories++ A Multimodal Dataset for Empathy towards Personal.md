@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Modeling empathy is a complex endeavor that is rooted in interpersona
 research_topic: "Computer Vision & Multimodal"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://mitmedialab.github.io/empathic-stories-multimodal/"
 ---
 # EmpathicStories++: A Multimodal Dataset for Empathy towards Personal Experiences
 
@@ -61,6 +64,10 @@ Modeling empathy is a complex endeavor that is rooted in interpersonal and exper
 ## Dataset Information
 
 53 hours of video, audio, and text data; 41 participants; 269 sessions across month-long deployment; self-reported empathy ratings; multimodal (video/audio/text)
+
+## Data Description
+
+EmpathicStories++ is a multimodal dataset containing 53 hours of video, audio, and text data from 41 participants across 269 sessions over a month-long in-home deployment with social robots. Participants shared personal stories, read empathically similar stories, and self-rated their empathy on a 1-5 scale. The dataset includes 5,380 utterances, psychometric surveys (Big 5 personality, trait empathy, absorption), and extracted features from OpenFace, ResNet50, openSMILE, GloVe, and Sentence-BERT.
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "With the rapid development of Large language models (LLMs), understan
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "205,034 examples; 20,000 examples"
+LLM_assessed: "GPT-4, GPT-3.5, DeepSeek, Llama-3, Qwen, OPT, Gemma, Mistral"
+DATA_URL: "https://huggingface.co/datasets/SUSTech/ChineseSafe"
 ---
 # ChineseSafe -- A Chinese Benchmark for Evaluating Safety in LLMs
 
@@ -63,6 +66,10 @@ With the rapid development of Large language models (LLMs), understanding the ca
 ## Dataset Information
 
 205,034 examples (very large-scale)
+
+## Data Description
+
+ChineseSafe is a comprehensive Chinese safety benchmark containing 205,034 examples across 4 classes and 10 sub-classes of safety issues, including special categories for political sensitivity, pornography, and variant/homophonic words unique to Chinese internet contexts. The benchmark evaluates numerous LLMs including GPT-4o, GPT-3.5, DeepSeek-67B, Llama-3, Qwen, OPT series, Gemma, and Mistral using both generation-based and perplexity-based methods.
 
 ## Notes
 

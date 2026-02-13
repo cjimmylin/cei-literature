@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "The importance of benchmarks for assessing the values of language mod
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-3, Qwen, Gemma, Mistral, Claude"
+DATA_URL: "https://github.com/holi-lab/ValuePortrait"
 ---
 # Value Portrait
 
@@ -61,6 +64,10 @@ The importance of benchmarks for assessing the values of language models has bee
 ## Dataset Information
 
 Psychometrically validated items with human-subject correlation data; evaluates 10 Schwartz value dimensions
+
+## Data Description
+
+Value Portrait is a psychometrically validated benchmark for evaluating LLM value orientations using 520 query-response pairs annotated with correlations to Schwartz's 10 basic values and Big Five personality traits. The benchmark was constructed using GPT-4o for response generation and validated via a Prolific survey with 681 participants. Forty-four LLMs were evaluated, revealing consistent prioritization of Benevolence, Security, and Self-Direction values, with analyses of demographic biases and value steering effectiveness.
 
 ## Notes
 

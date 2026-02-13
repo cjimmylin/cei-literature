@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # The Ethics of Advanced AI Assistants
 
@@ -63,6 +66,11 @@ This paper focuses on the opportunities and the ethical and societal risks posed
 ## Authors
 
 [[Iason Gabriel]], [[Arianna Manzini]], [[Geoff Keeling]], [[Lisa Anne Hendricks]], [[Verena Rieser]], [[Hasan Iqbal]], [[Nenad Tomašev]], [[Ira Ktena]], [[Zachary Kenton]], [[Mikel Rodriguez]], [[Seliem El-Sayed]], [[Sasha Brown]], [[Canfer Akbulut]], [[Andrew Trask]], [[Edward Hughes]], [[Abigail Stevie Bergman]], [[Renee Shelby]], [[Nahema Marchal]], [[Conor Griffin]], [[Juan Mateos-Garcia]], [[Laura Weidinger]], [[Winnie Street]], [[Benjamin Lange]], [[Alex Ingerman]], [[Alison Lentz]], [[Reed Enger]], [[Andrew Barakat]], [[Victoria Krakovna]], [[John Oliver Siy]], [[Zeb Kurth-Nelson]], [[Amanda McCroskery]], [[Vijay Bolina]], [[Harry Law]], [[Murray Shanahan]], [[Lize Alberts]], [[Borja Balle]], [[Sarah de Haas]], [[Yetunde Ibitoye]], [[Allan Dafoe]], [[Beth Goldberg]], [[Sébastien Krier]], [[Alexander Reese]], [[Sims Witherspoon]], [[Will Hawkins]], [[Maribeth Rauh]], [[Don Wallace]], [[Matija Franklin]], [[Josh A. Goldstein]], [[Joel Lehman]], [[Michael Klenk]], [[Shannon Vallor]], [[Courtney Biles]], [[Meredith Ringel Morris]], [[Helen King]], [[Blaise Agüera y Arcas]], [[William Isaac]], [[James Manyika]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a comprehensive 273-page ethical analysis from Google DeepMind examining the opportunities and risks of advanced AI assistants, covering value alignment, well-being, safety, manipulation, trust, privacy, and societal-scale deployment considerations.
+
 
 ## Notes
 

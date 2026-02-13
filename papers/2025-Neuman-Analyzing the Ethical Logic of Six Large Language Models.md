@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama, Claude, Gemini, Mistral"
+DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 ---
  Analyzing the Ethical Logic of Six Large Language Models
@@ -84,6 +87,11 @@ LLMs have developed a "Rationalist" ethical persona that mimics liberal, post-en
 ### Artifact Contributions
 *   **LLM Ethical Logic Characteristics**: A taxonomy of 7 traits (Convergent, Erudite, Cautious, Solicitous, Consistent, Inquisitive, Self-Aware).
 *   **Haidt/Kohlberg Ranking Table**: Comparative importance weights for Moral Foundations across 6 top LLMs.
+
+## Data Description
+
+The study uses a battery of ethical dilemma prompts including the Trolley Problem, Heinz Dilemma, Lifeboat Dilemma, Dictator's Game, and Prisoner's Dilemma, along with seven self-descriptive ethical reasoning prompts. These prompts were administered to six LLMs (GPT-4o, LLaMA 3.1, Perplexity, Claude 3.5 Sonnet, Gemini, Mistral 7B) and analyzed through three ethical frameworks: consequentialist-deontological reasoning, Moral Foundations Theory, and Kohlberg's Stages of Moral Development.
+
 
 ## Notes
 

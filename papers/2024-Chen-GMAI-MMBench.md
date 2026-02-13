@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "284 datasets"
+LLM_assessed: "GPT-4, Gemini, Claude, DeepSeek, Qwen"
+DATA_URL: "https://huggingface.co/datasets/OpenGVLab/GMAI-MMBench"
 ---
 # GMAI-MMBench: A Comprehensive Multimodal Evaluation Benchmark Towards General Medical AI
 
@@ -62,6 +65,11 @@ Large Vision-Language Models (LVLMs) are capable of handling diverse data types 
 ## Authors
 
 [[Pengcheng Chen]], [[Jin Ye]], [[Guoan Wang]], [[Yanjun Li]], [[Zhongying Deng]], [[Wei Li]], [[Tianbin Li]], [[Haodong Duan]], [[Ziyan Huang]], [[Yanzhou Su]], [[Benyou Wang]], [[Shaoting Zhang]], [[Bin Fu]], [[Jianfei Cai]], [[Bohan Zhuang]], [[Eric J. Seibel|Eric J Seibel]], [[Junjun He]], [[Yu Qiao]]
+
+## Data Description
+
+The paper introduces GMAI-MMBench, a comprehensive multimodal evaluation benchmark for general medical AI, constructed from 284 datasets across 38 medical image modalities, 18 clinical VQA tasks, and 18 departments. The benchmark contains approximately 26,000 QA pairs with four perceptual granularities (image, box, mask, contour) and was used to evaluate 50 large vision-language models.
+
 
 ## Notes
 

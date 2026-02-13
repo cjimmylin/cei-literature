@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "We propose to measure political bias in LLMs by analyzing both the co
 ethics_perspective: "Bias & Fairness"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2, Vicuna, Falcon, Mistral"
+DATA_URL: "NA"
 ---
 # Measuring Political Bias in LLMs: What Is Said and How It Is Said
 
@@ -61,6 +64,10 @@ We propose to measure political bias in LLMs by analyzing both the content and s
 ## Dataset Information
 
 Framework-based evaluation across multiple political topics; evaluates both content and style dimensions
+
+## Data Description
+
+The study evaluates political bias in eleven open-source LLMs across 14 politically divisive topics using a two-tiered framework assessing political stance and framing bias. Models evaluated include LLAMA-2-Chat (7B, 13B), Vicuna (13B, 33B), Yi-chat (6B, 34B), Falcon-instruct (7B, 40B), Solar-instruct (10B), Mistral-instruct (7B), and Jais-chat (13B). The dataset comprises 14,000 generated news headlines (1,000 per topic per model) analyzed for content bias using Boydstun's frame dimensions and style bias using target sentiment analysis.
 
 ## Notes
 

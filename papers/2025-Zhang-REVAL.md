@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
 data_metrics: "144k samples"
+LLM_assessed: "GPT-4, Gemini, OPT, Vicuna, Llama-2, Flan-T5, Qwen, Phi"
+DATA_URL: "NA"
 ---
 # REVAL: A Comprehension Evaluation on Reliability and Values of Large Vision-Language Models
 
@@ -100,6 +103,11 @@ Current LVLMs are powerful but fragile. REVAL provides the standard for "Red Tea
 ## Authors
 
 [[Jie Zhang]], [[Zheng Yuan]], [[Zhongqi Wang]], [[Bei Yan]], [[Sibo Wang]], [[Xiangkui Cao]], [[Zonghui Guo]], [[Shiguang Shan]], [[Xilin Chen]]
+
+## Data Description
+
+REVAL is a comprehensive benchmark for evaluating the reliability and values of large vision-language models, encompassing over 144,000 image-text Visual Question Answering (VQA) samples. The benchmark is structured into two primary sections: Reliability (truthfulness and robustness) and Values (ethics, safety, and privacy), covering 11 evaluation aspects including perception, hallucination, adversarial attacks, typographic attacks, image corruption, bias, morality, toxicity, jailbreak, privacy awareness, and privacy leakage. A total of 26 models were evaluated across true-or-false, multiple-choice, and free-form question types.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Joshi-Multimodal machine learning for deception.md"
 local_pdf: "[[PDFs/2025/2025-Joshi-Multimodal machine learning for deception.pdf]]"
 ---
@@ -103,6 +106,11 @@ The study establishes CogniModal-D as a valuable resource for deception detectio
 
 - CogniModal-D dataset: 7-modality dataset from 100+ Indian subjects for deception detection
 - Experimental paradigms: Mock crime and best friend scenarios for inducing truth/lie conditions
+
+## Data Description
+
+The paper presents CogniModal-D, a primary multimodal dataset for deception detection targeting the Indian population, spanning seven modalities (EEG, ECG, EOG, eye-gaze, GSR, audio, and video) collected from over 100 subjects. Data was gathered through mock crime and best friend scenario tasks. The study uses traditional machine learning models (CNN, LSTM, DNN, SVM) for unimodal and multimodal fusion-based deception detection, not large language models.
+
 
 ## Notes
 

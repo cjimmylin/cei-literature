@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, text-davinci, Claude, Llama-2, CodeLlama, Vicuna"
+DATA_URL: "https://github.com/THUDM/AgentBench"
 ---
 # AgentBench: Evaluating LLMs as Agents
 
@@ -64,6 +67,11 @@ Large Language Models (LLMs) are becoming increasingly smart and autonomous, tar
 ## Authors
 
 [[Xiao Liu]], [[Hao Yu]], [[Hanchen Zhang]], [[Yifan Xu]], [[Xuanyu Lei]], [[Hanyu Lai]], [[Yu Gu]], [[Hangliang Ding]], [[Kaiwen Men]], [[Kejuan Yang]], [[Shudan Zhang]], [[Xiang Deng]], [[Aohan Zeng]], [[Zhengxiao Du]], [[Chenhui Zhang]], [[Sheng Shen]], [[Tianjun Zhang]], [[Yu Su]], [[Huan Sun]], [[Minlie Huang]], [[Yuxiao Dong]], [[Jie Tang]]
+
+## Data Description
+
+AgentBench is a multi-dimensional benchmark evaluating LLM-as-Agent capabilities across 8 distinct interactive environments: Operating System, Database, Knowledge Graph, Digital Card Game, Lateral Thinking Puzzles, House-Holding, Web Shopping, and Web Browsing. The benchmark tests 29 LLMs (both API-based commercial and open-source models up to 70B parameters) on reasoning, decision-making, and instruction-following abilities in real-world scenarios.
+
 
 ## Notes
 

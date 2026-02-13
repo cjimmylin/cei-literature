@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-3, Llama, Mistral, Mixtral, Claude, Gemini, Gemma, Qwen, DeepSeek"
+DATA_URL: "https://github.com/TrustGen/TrustEval-toolkit"
 ---
 # On the Trustworthiness of Generative Foundation Models: Guideline, Assessment, and Perspective
 
@@ -63,6 +66,11 @@ Generative Foundation Models (GenFMs) have emerged as transformative tools, driv
 ## Authors
 
 [[Yue Huang]], [[Chujie Gao]], [[Siyuan Wu]], [[Haoran Wang]], [[Xiangqi Wang]], [[Yujun Zhou]], [[Yanbo Wang]], [[Jiayi Ye]], [[Jiawen Shi]], [[Qihui Zhang]], [[Yuan Li]], [[Han Bao]], [[Zhaoyi Liu]], [[Tianrui Guan]], [[Dongping Chen]], [[Ruoxi Chen]], [[Kehan Guo]], [[Andy Zou]], [[Bryan Hooi Kuen-Yew]], [[Caiming Xiong]], [[Elias Stengel-Eskin]], [[Hongyang Zhang]], [[Hongzhi Yin]], [[Huan Zhang]], [[Huaxiu Yao]], [[Jaehong Yoon]], [[Jieyu Zhang]], [[Kai Shu]], [[Kaijie Zhu]], [[Ranjay Krishna]], [[Swabha Swayamdipta]], [[Taiwei Shi]], [[Weijia Shi]], [[Xiang Li]], [[Yiwei Li]], [[Yuexing Hao]], [[Zhihao Jia]], [[Zhize Li]], [[Xiuying Chen]], [[Zhengzhong Tu]], [[Xiyang Hu]], [[Tianyi Zhou]], [[Jieyu Zhao]], [[Lichao Sun]], [[Furong Huang]], [[Or Cohen Sasson]], [[Prasanna Sattigeri]], [[Anka Reuel]], [[Max Lamparth]], [[Yue Zhao]], [[Nouha Dziri]], [[Yu Su]], [[Huan Sun]], [[Heng Ji]], [[Chaowei Xiao]], [[Mohit Bansal]], [[Nitesh V. Chawla]], [[Jian Pei]], [[Jianfeng Gao]], [[Michael Backes]], [[Philip S. Yu]], [[Neil Zhenqiang Gong]], [[Pin-Yu Chen]], [[Bo Li]], [[Dawn Song]], [[Xiangliang Zhang]]
+
+## Data Description
+
+This paper presents TrustGen, a dynamic benchmarking platform for evaluating trustworthiness of Generative Foundation Models across multiple dimensions (truthfulness, safety, fairness, robustness, privacy, machine ethics, and advanced AI risks) for text-to-image, large language, and vision-language models. The comprehensive evaluation covers numerous state-of-the-art models including GPT-4o, Llama-3.2-70B, Claude 3.5 Sonnet, Gemini, Gemma 2, DALL-E-3, Stable Diffusion, and many others, revealing that while overall trustworthiness has improved, persistent challenges remain in areas like exaggerated safety and open-source system vulnerabilities.
+
 
 ## Notes
 

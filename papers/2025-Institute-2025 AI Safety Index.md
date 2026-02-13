@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Institute-2025 AI Safety Index.md"
 local_pdf: "[[PDFs/2025/2025-Institute-2025 AI Safety Index.pdf]]"
 ---
@@ -89,6 +92,11 @@ The AI Safety Index concludes that the industry is struggling to keep pace with 
 
 - AI Safety Index evaluation framework with 34 indicators across six domains
 - Company assessments (full report available at futureoflife.org/index-s25)
+
+## Data Description
+
+This is the Future of Life Institute's Summer 2025 AI Safety Index, a policy evaluation report assessing safety practices of seven leading AI companies (Anthropic, OpenAI, Google DeepMind, x.AI, Meta, Zhipu AI, and DeepSeek) across six critical domains and 34 indicators. It is an organizational safety review rather than an LLM benchmark study.
+
 
 ## Notes
 

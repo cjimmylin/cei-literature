@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/MxEddie/Ethics-Whitepaper"
 pdf_extract: "PDF Extracts/2024/2024-Ungless-ETHICS WHITEPAPER.md"
 local_pdf: "[[PDFs/2024/2024-Ungless-ETHICS WHITEPAPER.pdf]]"
 ---
@@ -90,6 +93,11 @@ The authors emphasize that ethical considerations cannot be outsourced to post-h
 
 - **LLM Ethics Whitepaper**: A comprehensive living document hosted on GitHub (https://github.com/MxEddie/Ethics-Whitepaper)
 - **Do's and Don'ts Checklists**: Actionable recommendations for each project lifecycle stage
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a practical ethics guide for NLP practitioners working with LLMs, structured around a project lifecycle and distilling an extensive literature review into actionable Do's and Don'ts recommendations covering data preparation, model development, evaluation, and deployment.
+
 
 ## Notes
 

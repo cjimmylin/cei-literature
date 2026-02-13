@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "BERT, RoBERTa, DeBERTa"
+DATA_URL: "https://github.com/ajmeek/Inducing-human-like-biases-in-moral-reasoning-LLMs"
 ---
 # Inducing Human-like Biases in Moral Reasoning Language Models
 
@@ -64,6 +67,11 @@ In this work, we study the alignment (BrainScore) of large language models (LLMs
 ## Authors
 
 [[Artem Karpov]], [[Seong Hah Cho]], [[Austin Meek]], [[Raymond Koopmanschap]], [[Lucy Farnik]], [[Bogdan-Ionut Cirstea]]
+
+## Data Description
+
+The study uses the common sense category of the ETHICS benchmark for moral reasoning evaluation and fMRI data from Koster-Hale et al. (2013) on moral judgments of intentional and accidental moral violations. Four encoder models (BERT-base-cased, BERT-large-cased, RoBERTa-large, DeBERTa-v2-xlarge) were fine-tuned across 450 runs totaling 292 hours of training, producing 1,082 different models. Brain-model alignment (BrainScore) was measured using Pearson's correlation between predicted and actual brain activity across 1,024 regions of interest.
+
 
 ## Notes
 

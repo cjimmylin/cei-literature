@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Suliman-The interconnectedness between Ubuntu principles.md"
 local_pdf: "[[PDFs/2024/2024-Suliman-The interconnectedness between Ubuntu principles.pdf]]"
 ---
@@ -97,6 +100,11 @@ The authors conclude that the integration of Ubuntu principles with GenAI in dis
 ## Artifact Contributions
 
 None mentioned - this is a conceptual/theoretical paper that does not release datasets, code, or models.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a conceptual article exploring the interconnectedness between Ubuntu philosophical principles and generative AI perspectives in the context of distance higher education institutions in South Africa.
+
 
 ## Notes
 

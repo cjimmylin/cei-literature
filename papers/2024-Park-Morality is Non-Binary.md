@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/jeongwoopark0514/morality-is-non-binary"
 ---
  Morality is Non-Binary: Building a Pluralist Moral Sentence Embedding Space using Contrastive Learning
 
@@ -92,6 +95,11 @@ Self-supervision alone is not enough to capture the richness and complexity of h
 ## Tags
 
 #Computer-Science---Artificial-Intelligence #Computer-Science---Computation-and-Language
+
+## Data Description
+
+The paper builds a pluralist moral sentence embedding space using contrastive learning (SimCSE) on BERT sentence embeddings, trained and evaluated on the Moral Foundations Twitter Corpus (MFTC) containing 35,108 tweets annotated with Moral Foundations Theory elements. The dataset is split 90/10 for training/testing, with intrinsic evaluation via UMAP visualization and moral similarity tables, and extrinsic evaluation against the Moral Foundation Dictionary 2.0.
+
 
 ## Citation Info
 

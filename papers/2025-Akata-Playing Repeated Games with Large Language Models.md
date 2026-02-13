@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "LLMs are increasingly used in applications where they interact with h
 research_topic: "AI Safety & Alignment"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, text-davinci, Claude, Llama-2"
+DATA_URL: "NA"
 ---
 # Playing Repeated Games with Large Language Models
 
@@ -65,6 +68,10 @@ LLMs are increasingly used in applications where they interact with humans and o
 ## Dataset Information
 
 Finitely repeated 2x2 games; LLM vs LLM, LLM vs human-like strategies, LLM vs actual human players; multiple game types
+
+## Data Description
+
+The study uses behavioral game theory to evaluate LLM cooperation and coordination behavior through finitely repeated 2x2 games, including the Prisoner's Dilemma and Battle of the Sexes. GPT-4, text-davinci-002, text-davinci-003, Claude 2, and Llama 2 70B were tested playing against each other, against human-like strategies, and against actual human players across 1,224 games.
 
 ## Notes
 

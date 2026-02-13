@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 ethics_perspective: "AI Safety & Alignment"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Mistral, Qwen"
+DATA_URL: "https://www.synthlabs.ai/research/persona"
 ---
 # PERSONA (Pluralistic Alignment Testbed)
 
@@ -63,6 +66,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Size: 1,586 synthetic personas; 3,868 prompts; 317,200 feedback pairs
+
+## Data Description
+
+PERSONA is a reproducible testbed for evaluating pluralistic alignment of language models, comprising 1,586 synthetic personas generated from US census data, 3,868 prompts, and 317,200 feedback pairs. The authors evaluate multiple frontier LLMs including GPT-4, GPT-3.5, Llama-3 70B, Qwen 2 72B, and Mistral Large on their ability to role-play diverse personas and express persona-specific preferences, validated through human judges. The benchmark assesses personalization capabilities via Pass@K evaluation and LLM-as-a-judge frameworks.
 
 ## Notes
 

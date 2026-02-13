@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "LLMs increasingly serve as general-purpose AI assistants in daily lif
 ethics_perspective: "General Ethics"
 data_description: "EthicsSuite: 20K contextualized moral situations derived from ETHICS benchmark via LLM-assisted augmentation"
 data_metrics: "20K test cases, 81.22% avg inconsistency rate across 7 LLMs, F1=0.81 avg for SCR oracle"
+LLM_assessed: "ChatGPT, GPT-4, Llama, Vicuna"
+DATA_URL: "https://github.com/LLM-Ethics/EthicsSuite"
 normative_ethics_benchmark: Borderline
 ---
 # EthicsSuite: Detecting Behavioral Inconsistency in LLM Ethics Suggestions
@@ -68,6 +71,10 @@ LLMs increasingly serve as general-purpose AI assistants in daily life, and thei
 ## Dataset Information
 
 20K moral situations designed to detect behavioral inconsistency using reflective equilibrium principles
+
+## Data Description
+
+ETHICSSUITE is a test suite of approximately 20,000 contextualized and realistic moral situations generated through LLM-assisted augmentation of the ETHICS benchmark. Seven LLMs are tested as suggesters: GPT-Neo (2.7B), Llama-7B, Llama-13B, ChatGLM (6B), Vicuna (7B), ChatGPT, and GPT-4. The paper introduces the Suggest-Critique-Reflect (SCR) process to detect unethical suggestions, uncovering 109,824 unethical suggestions across all models.
 
 ## Detailed Summary
 

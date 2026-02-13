@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Llama-3, Mistral, Gemini, DeepSeek"
+DATA_URL: "NA"
 ---
 # WorldView-Bench: A Challenge for Generative Models to Accommodate Diverse Worldviews
 
@@ -57,6 +60,11 @@ Large Language Models (LLMs) are predominantly trained and aligned in ways that 
 ## Authors
 
 [[Abdullah Mushtaq]], [[Imran Taj]], [[Rafay Naeem]], [[Ibrahim Ghaznavi]], [[Junaid Qadir]]
+
+## Data Description
+
+WorldView-Bench is a benchmark consisting of 175 culturally significant questions across seven knowledge domains (ethical/moral, religious, lifestyle, cultural norms, traditions, history, technology) designed to evaluate global cultural inclusivity in LLMs through free-form generative assessment. Eight frontier LLMs (GPT-4o, Claude Sonnet 3.5, Llama 3.1, Mistral 7B, Gemini 2.0 Flash, Command-R, DeepSeek R1, and Fanar) were evaluated using Perspectives Distribution Score entropy and cultural sentiment analysis.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, BERT, DeBERTa, BART, OPT, Llama-2, Vicuna"
+DATA_URL: "https://ValueCompass.github.io"
 DATE_ADDED: 20260207
 ---
 # Value FULCRA: Mapping Large Language Models to the Multidimensional Spectrum of Basic Human Values
@@ -65,6 +68,11 @@ The rapid advancement of Large Language Models (LLMs) has attracted much attenti
 ## Authors
 
 [[Jing Yao]], [[Xiaoyuan Yi]], [[Xiting Wang]], [[Yifan Gong]], [[Xing Xie]]
+
+## Data Description
+
+FULCRA is a dataset of 5,000 (LLM output, value vector) pairs mapping LLM behaviors to Schwartz's Theory of Basic Values across 10 dimensions. It was constructed using a Human-GPT-4 collaborative annotation process on adversarial prompts from red teaming datasets. The paper trains basic value evaluators using BERT-large, DeBERTa-large, BART-large, OPT-1.3B, and Llama2-7B, and evaluates real-time LLM responses from GPT-3.5-Turbo, GPT-4, Llama2-7B, Llama2-13B, and Vicuna-13B.
+
 
 ## Notes
 

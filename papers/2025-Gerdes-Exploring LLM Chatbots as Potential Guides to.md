@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Socratic guide, euthanasia"
@@ -30,6 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT, DeepSeek"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.md"
 local_pdf: "[[PDFs/2025/2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.pdf]]"
 ---
@@ -97,6 +100,11 @@ The authors conclude that while LLM chatbots can provide useful information and 
 ## Artifact Contributions
 
 None mentioned - no datasets, code, or models were released.
+
+## Data Description
+
+This paper explores LLM chatbots as potential guides to virtue ethics through the lens of Kierkegaard's thought experiment about word-generating machines. Three chatbots (ChatOn, ChatGPT, and DeepSeek) are tested with the same prompt on the ethical issue of euthanasia, comparing their responses to evaluate their capacity for ethical guidance and the limitations highlighted by Kierkegaard's philosophical framework.
+
 
 ## Notes
 

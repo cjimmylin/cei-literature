@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: 
 data_metrics:
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # AI Alignment as Fair Treatment of Claims
 
@@ -59,6 +62,11 @@ The normative challenge of AI alignment centres upon what goals or values ought 
 ## Authors
 
 [[Iason Gabriel]], [[Geoff Keeling]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical paper proposing a contractualist approach to AI alignment based on fair treatment of competing claims, drawing on Scanlonian contractualism and Rawlsian public reason to generate principles for governing AI systems.
+
 
 ## Notes
 

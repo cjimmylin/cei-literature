@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Deontology and Utilitarianism in Real Life: A Set of Moral Dilemmas Based on Historic Events
 
@@ -86,6 +89,11 @@ The authors conclude that factual dilemmas represent methodologically superior s
 
 - 38 factual moral dilemmas based on historic events, with full texts provided in the appendix
 - Systematic coding of dilemma characteristics (Tables 1 and 2) for research use
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents a set of new moral dilemmas based on real-life historic events for moral psychology research, tested across two human participant studies (European student sample and North American MTurk sample, total N=789) to compare factual dilemmas with trolley-type dilemmas on perceived realism and participant engagement.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # AI Ethics by Design: Implementing Customizable Guardrails for Responsible AI Development
 
@@ -121,6 +124,11 @@ The paper argues that effective AI ethics requires moving beyond one-size-fits-a
 ## Artifact Contributions
 
 None mentioned - this is a conceptual framework paper proposing an architecture for customizable AI guardrails.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It proposes a customizable ethical guardrail framework for AI systems, describing policy-based, rule-based, and classifier-based mechanisms for filtering LLM inputs and outputs, with emphasis on ethical pluralism and user configurability.
+
 
 ## Notes
 

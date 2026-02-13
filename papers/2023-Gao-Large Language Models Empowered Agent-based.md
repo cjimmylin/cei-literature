@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives
 
@@ -64,6 +67,11 @@ Agent-based modeling and simulation has evolved as a powerful tool for modeling 
 ## Authors
 
 [[Chen Gao]], [[Xiaochong Lan]], [[Nian Li]], [[Yuan Yuan]], [[Jingtao Ding]], [[Zhilun Zhou]], [[Fengli Xu]], [[Yong Li]]
+
+## Data Description
+
+This paper is a survey of large language model-empowered agent-based modeling and simulation. It does not introduce or utilize a specific dataset or benchmark for LLM assessment, but rather reviews existing works across physical, cyber, social, and hybrid simulation domains.
+
 
 ## Notes
 

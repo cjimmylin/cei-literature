@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Multi-agent systems (MAS), leveraging the remarkable capabilities of 
 research_topic: "Machine Learning"
 data_description: "Benchmark"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, DeepSeek, Llama-3, Qwen"
+DATA_URL: "https://github.com/HKUST-KnowComp/MASLegalBench"
 ---
 # MASLegalBench
 
@@ -62,6 +65,10 @@ Multi-agent systems (MAS), leveraging the remarkable capabilities of Large Langu
 ## Dataset Information
 
 950 multiple-choice questions
+
+## Data Description
+
+The paper proposes MASLegalBench, a legal benchmark for multi-agent systems based on GDPR court cases, containing 950 multiple-choice questions (647 yes/no and 303 single-choice) derived from real UK enforcement reports. The benchmark follows an extended IRAC reasoning framework with four role-based agents (Facts, Rules, Application, Common Sense). Five Meta-LLMs were tested: Llama3.1-8B-Instruct, Qwen2.5-7B-Instruct, Qwen3-8B, DeepSeek-v3.1, and GPT-4o-mini, with DeepSeek-v3.1 as the sub-task agent.
 
 ## Notes
 

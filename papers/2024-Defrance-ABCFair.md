@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/aida-ugent/abcfair"
 ---
 # ABCFair: an Adaptable Benchmark approach for Comparing Fairness Methods
 
@@ -59,6 +62,11 @@ Numerous methods have been implemented that pursue fairness with respect to sens
 ## Authors
 
 [[MaryBeth Defrance]], [[Maarten Buyl]], [[Tijl De Bie]]
+
+## Data Description
+
+ABCFair is an adaptable benchmark approach for comparing fairness methods in binary classification. It evaluates 10 pre-, in-, and postprocessing fairness methods across 7 fairness notions, 3 formats of sensitive features, and 2 output distributions, using the SchoolPerformance dual-label dataset (856 samples) and five large-scale American Census Survey datasets from folktables (up to 3.2M samples). The benchmark focuses on traditional ML classifiers, not LLMs.
+
 
 ## Notes
 

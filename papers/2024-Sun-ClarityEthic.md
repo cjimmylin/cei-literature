@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Sun-ClarityEthic.md"
 local_pdf: "[[PDFs/2024/2024-Sun-ClarityEthic.pdf]]"
 ---
@@ -60,6 +63,11 @@ With the rise and widespread use of Large Language Models (LLMs), ensuring their
 ## Authors
 
 [[Yuxi Sun]], [[Wei Gao]], [[Jing Ma]], [[Hongzhan Lin]], [[Ziyang Luo]], [[Wenxuan Zhang]]
+
+## Data Description
+
+No meaningful PDF extract content is available for analysis. The paper (arXiv:2412.12848) has been withdrawn from arXiv and the extracted PDF only contains the withdrawal notice page.
+
 
 ## Notes
 

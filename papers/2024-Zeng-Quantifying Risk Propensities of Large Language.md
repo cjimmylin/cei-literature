@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Gemma, Qwen, Mistral, Vicuna"
+DATA_URL: "NA"
 ---
 # Quantifying Risk Propensities of Large Language Models: Ethical Focus and Bias Detection through Role-Play
 
@@ -64,6 +67,11 @@ As Large Language Models (LLMs) become more prevalent, concerns about their safe
 ## Authors
 
 [[Yifan Zeng]], [[Liang Kairong]], [[Fangzhou Dong]], [[Peijia Zheng]]
+
+## Data Description
+
+This study applies the Domain-Specific Risk-Taking (DOSPERT) scale and a novel Ethical Decision-Making Risk Attitude Scale (EDRAS) to evaluate risk propensities of LLMs. Twelve mainstream LLMs including GPT-4o mini, GPT-3.5 Turbo, Claude 3.5 Sonnet, LLaMA 3.2-3b, Gemma 2-9b, Qwen2.5-7b, Mistral-7b, and Vicuna-7b are tested across five domains (ethical, recreational, social, health/safety, financial) using 50-item Likert-scale assessments, with role-play experiments to detect systematic biases.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Llama-2, Llama-3, Qwen, DeepSeek, Gemini, Grok"
+DATA_URL: "https://github.com/centerforaisafety/mask"
 DATE_ADDED: 20260207
 ---
 # The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems
@@ -63,6 +66,11 @@ As large language models (LLMs) become more capable and agentic, the requirement
 ## Authors
 
 [[Richard Ren]], [[Arunim Agarwal]], [[Mantas Mazeika]], [[Cristina Menghini]], [[Robert Vacareanu]], [[Brad Kenstler]], [[Mick Yang]], [[Isabelle Barrass]], [[Alice Gatti]], [[Xuwang Yin]], [[Eduardo Trevino]], [[Matias Geralnik]], [[Adam Khoja]], [[Dean Lee]], [[Summer Yue]], [[Dan Hendrycks]]
+
+## Data Description
+
+MASK (Model Alignment between Statements and Knowledge) is a large-scale human-collected benchmark of 1,500 examples (1,000 public, 500 held-out) designed to measure lying in LLMs by disentangling honesty from accuracy. Each example contains a proposition, ground truth, a human-crafted pressure prompt designed to incentivize lying, and belief elicitation prompts, across six distinct archetypes covering scenarios like fabricated statistics, disinformation generation, and known facts.
+
 
 ## Notes
 

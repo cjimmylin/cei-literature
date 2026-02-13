@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Five medical versions of trolley dilemma tested on 14 LLMs with 50 responses per model"
 data_metrics: "Binary yes/no ethical decisions across utilitarian vs deontological frameworks"
+LLM_assessed: "o1, GPT-4, GPT-3.5, Llama-3, Gemini, Gemma, Phi, Qwen"
+DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 ---
 # Ethical Alignment of LLMs in Healthcare: Does GPT-o1 Adopt a Deontological or Utilitarian Approach?
@@ -72,6 +75,11 @@ In moral philosophy, two foundational approaches shape ethical decisions: deonto
 ## Authors
 
 [[V. Sorin]], [[B.S. Glicksberg]], [[P. Korfiatis]], [[G.N. Nadkarni]], [[E. Klang]]
+
+## Data Description
+
+The paper evaluates 13 LLMs on five medical versions of the Trolley dilemma, contrasting deontological versus utilitarian ethical reasoning. The dataset consists of five classic medical ethics dilemmas adapted as structured prompts requiring yes/no JSON-formatted responses. Each model was tested 10 times per dilemma (50 total runs), with models including GPT-o1 preview, GPT-4 variants, GPT-3.5, Llama 3.1, Gemini, Gemma, Phi-3.5, and Qwen-2 variants.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Gemini, Mistral, Llama-2, Llama-3"
+DATA_URL: "https://github.com/Salomeeeee/GETA"
 ---
 # Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing
 
@@ -63,6 +66,11 @@ Warning: Contains harmful model outputs. Despite significant advancements, the p
 ## Authors
 
 [[Han Jiang]], [[Xiaoyuan Yi]], [[Zhihua Wei]], [[Ziang Xiao]], [[Shu Wang]], [[Xing Xie]]
+
+## Data Description
+
+The paper introduces GETA (Generative Evolving Testing of vAlues), a dynamic evaluation framework that uses adaptive testing methods from psychometrics. The evaluation dataset comprises 15,000 test items (5,000 each for social bias, ethics, and toxicity) drawn from 12 static datasets including BBQ, ETHICS, RealToxicityPrompts, and HarmfulQA. Eight examinee LLMs were tested including GPT-4, GPT-3.5-Turbo, Gemini-1.0-Pro, Mistral-Medium/7B, LLaMA-2-70B/7B, and Orca2-13B, with a LLaMA-3-8B model fine-tuned as the item generator.
+
 
 ## Notes
 

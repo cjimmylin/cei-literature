@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "240 instances"
+LLM_assessed: "GPT-4, Llama, Claude, Gemini"
+DATA_URL: "https://osf.io/uvy9x/?view_only=95db33761f92421393ed9d58c46131cb"
 ---
  Evidence of conceptual mastery in the application of rules by Large Language Models
 
@@ -79,6 +82,11 @@ The authors argue that LLMs have attained a level of **conceptual mastery** over
 ### Artifact Contributions
 *   **Temperature Calibration Procedure**: A formal method for matching LLM response variance to human populations.
 *   **Novel Rule Vignettes**: A set of matched vignettes (New vs. Old) for testing generalization in legal reasoning.
+
+## Data Description
+
+The study conducts two experiments comparing rule-based decision-making in humans (115 participants from Prolific) and LLMs (GPT-4o, Llama 3.2 90B, Claude 3 Opus, Gemini 1.5 Pro with 240 instances each). Study 1 uses a 2x2x4 within-subjects design with rule violation vignettes (old vs new), while Study 2 tests sensitivity to time pressure vs forced delay conditions. Data includes Likert-scale rule violation judgments across 32 unique experimental cells with temperature calibration.
+
 
 ## Notes
 

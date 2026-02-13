@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, Llama, Alpaca, Vicuna"
+DATA_URL: "NA"
 ---
 # Heterogeneous Value Alignment Evaluation for Large Language Models
 
@@ -57,6 +60,11 @@ The emergent capabilities of Large Language Models (LLMs) have made it crucial t
 ## Authors
 
 [[Zhaowei Zhang]], [[Ceyao Zhang]], [[Nian Liu]], [[Siya Qi|Siyuan Qi]], [[Ziqi Rong]], [[Song-Chun Zhu]], [[Shuguang Cui]], [[Yaodong Yang]]
+
+## Data Description
+
+This paper introduces the Heterogeneous Value Alignment Evaluation (HVAE) system using the Social Value Orientation (SVO) framework from social psychology. The evaluation uses SVO slider measure tasks with four value categories (altruistic, individualistic, prosocial, competitive) to assess eight mainstream LLMs: GPT-4, GPT-3.5 (text-davinci-003), ChatGPT (gpt-3.5-turbo), Claude, LLaMA-13B, Alpaca-13B, Vicuna-13B, and Koala-13B. Each experiment consisted of 10 trials per model with temperature set to 0.1.
+
 
 ## Notes
 

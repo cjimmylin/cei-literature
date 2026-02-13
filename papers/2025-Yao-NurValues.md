@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark annotated dataset for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4o, o1, Claude, Gemini, DeepSeek, Llama-3, Llama, Qwen"
+DATA_URL: "https://huggingface.co/datasets/Ben012345/NurValues"
 ---
 # NurValues: Real-World Nursing Values Evaluation for Large Language Models in Clinical Context
 
@@ -64,6 +67,11 @@ This work introduces the first benchmark for nursing value alignment, consisting
 ## Authors
 
 [[Ben Yao]], [[Qiuchi Li]], [[Yazhou Zhang]], [[Siyu Yang]], [[Bohan Zhang]], [[Prayag Tiwari]], [[Jing Qin]]
+
+## Data Description
+
+NurValues is the first real-world nursing value alignment benchmark consisting of 4,400 instances across five core nursing value dimensions (Altruism, Human Dignity, Integrity, Justice, Professionalism). It includes 2,200 Easy-Level instances from a five-month longitudinal field study across three hospitals, paired with counterfactual augmented samples, and 2,200 Hard-Level dialogue-based instances with adversarial complexity. Twenty-three state-of-the-art LLMs were evaluated including 18 general LLMs (Claude 3.5/3.7 Sonnet, GPT-4o, o1, DeepSeek-V3/R1, Gemini-2.5-Pro, Llama-3/3.1/3.3/4 variants, Qwen 2.5 variants) and 5 medical LLMs.
+
 
 ## Notes
 

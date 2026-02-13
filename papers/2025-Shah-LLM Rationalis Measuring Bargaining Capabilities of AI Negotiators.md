@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Bilateral negotiation is a complex, context-sensitive task in which h
 research_topic: "Other"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, ChatGPT"
+DATA_URL: "NA"
 ---
 # LLM Rationalis? Measuring Bargaining Capabilities of AI Negotiators
 
@@ -61,6 +64,10 @@ Bilateral negotiation is a complex, context-sensitive task in which human negoti
 ## Dataset Information
 
 Large-scale empirical comparison across natural-language and numeric-offers settings; 6 controlled power-asymmetry scenarios; novel metrics (burstiness tau, Concession-Rigidity Index)
+
+## Data Description
+
+The paper evaluates LLM negotiation capabilities using a bilateral bargaining scenario with a house price negotiation setting. Four GPT-family models (GPT-o4-mini, GPT-4.1-mini, GPT-4o-mini, GPT-4.1-nano) are tested in self-play negotiations (100 per model) under natural language and alternating-offers-only conditions, with and without market context and power asymmetry scenarios. Human negotiation data is sourced from a prior dataset by Heddaya et al. (2023) for comparison.
 
 ## Notes
 

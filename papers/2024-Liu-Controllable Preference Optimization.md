@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "Mistral"
+DATA_URL: "https://huggingface.co/datasets/openbmb/UltraSafety"
 ---
 # Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment
 
@@ -60,6 +63,11 @@ Alignment in artificial intelligence pursues the consistency between model respo
 ## Authors
 
 [[Yiju Guo]], [[Ganqu Cui]], [[Lifan Yuan]], [[Ning Ding]], [[Zexu Sun]], [[Bowen Sun]], [[Huimin Chen]], [[Ruobing Xie]], [[Jie Zhou]], [[Ying Lin|Yankai Lin]], [[Zhiyuan Liu]], [[Maosong Sun]]
+
+## Data Description
+
+This paper introduces Controllable Preference Optimization (CPO) for multi-objective alignment of LLMs along helpfulness, honesty, and harmlessness dimensions. The experiments use three datasets: UltraFeedback (large-scale multi-aspect preference data scored by GPT-4), UltraSafety (3,000 harmful instructions with jailbreak prompts and four model completions), and HH-RLHF (chosen/rejected response pairs). The CPO algorithm was applied to Mistral-7B with 114K CPSFT training instances and 120K preference pairs for CDPO training.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large Language Models (LLMs) have shown strong performance across man
 ethics_perspective: "Social & Cultural Values"
 data_description: "Dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, GPT-2, OPT, BLOOM, Qwen, Gemma, Llama-2, Llama-3, Falcon"
+DATA_URL: "NA"
 ---
 # Exploring Cultural Variations in Moral Judgments with Large Language Models
 
@@ -62,6 +65,10 @@ Large Language Models (LLMs) have shown strong performance across many tasks, bu
 ## Dataset Information
 
 Format: Structured probing prompts with contrasting moral statements; log-probability scoring
+
+## Data Description
+
+This study evaluates 20 models across 9 families on their ability to capture culturally diverse moral values using the World Values Survey (55 countries, 19 topics) and PEW Global Attitudes Survey (39 countries, 8 topics). Models range from smaller monolingual (GPT-2, OPT) and multilingual (BLOOMZ, Qwen) to instruction-tuned systems (GPT-4o, Gemma-2-9B-IT, Llama-3.3-70B, Falcon-40B-Instruct), using log-probability-based moral justifiability scores correlated with survey data.
 
 ## Notes
 

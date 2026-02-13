@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Levels of AGI: Operationalizing Progress on the Path to AGI
 
@@ -57,6 +60,11 @@ We propose a framework for classifying the capabilities and behavior of Artifici
 ## Authors
 
 [[Meredith Ringel Morris]], [[Jascha Sohl-Dickstein]], [[Noah Fiedel]], [[Tris Warkentin]], [[Allan Dafoe]], [[Aleksandra Faust]], [[Clement Farabet]], [[Shane Legg]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a position paper proposing a framework for classifying AGI capabilities along dimensions of performance and generality, using levels analogous to driving automation levels, and discusses existing AI systems like ChatGPT, Bard, and Llama 2 as illustrative examples without conducting empirical evaluations.
+
 
 ## Notes
 

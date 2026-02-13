@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Gemini, Gemma, Llama-3, DeepSeek"
+DATA_URL: "NA"
 ---
 # Who Gets the Kidney? Human-AI Alignment, Indecision, and Moral Values
 
@@ -64,6 +67,11 @@ The rapid integration of Large Language Models (LLMs) in high-stakes decisionmak
 ## Authors
 
 [[John P. Dickerson]], [[Hadi Hosseini]], [[Samarth Khanna]], [[Leona Pierce]]
+
+## Data Description
+
+The paper evaluates LLM alignment with human moral values in kidney allocation scenarios using datasets from prior human studies. Eight LLMs are tested: GPT-4o, Claude-3.5-Haiku, Gemini-1.5-Pro, Gemini-2.0-Flash, DeepSeek-V3, DeepSeek-R1, Gemma3-27B, and Llama-3.3-70B. The study examines distributional alignment, attribute prioritization, and indecision modeling, finding that LLMs deviate from human values and rarely express indecision.
+
 
 ## Notes
 

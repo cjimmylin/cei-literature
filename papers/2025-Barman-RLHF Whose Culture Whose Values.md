@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # RLHF Whose Culture Whose Values
 
@@ -71,6 +74,11 @@ Argues for epistemic and ethical pluralism in RLHF to address value diversity
 ## Significance
 
 Addresses whose values are encoded in RLHF and proposes pluralist solutions
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical analysis arguing for epistemic and ethical advantages of pluralism in Reinforcement Learning from Human Feedback (RLHF), drawing on social epistemology and pluralist philosophy of science to propose ways to make RLHF more responsive to diverse human needs.
+
 
 ## Notes
 

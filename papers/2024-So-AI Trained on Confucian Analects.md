@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_SO2024
@@ -29,6 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas
 
@@ -75,6 +78,11 @@ Through this discussion, the strong substantivist stance that we will lose contr
 - Virtue ethics not as thoroughly developed in Western realms compared to deontology
 - Mounting concerns over Eurocentric biases in AI data
 - Confucianism most well-known Chinese philosophy with widespread historical influence
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical proposal for integrating passages from the Confucian Analects into AI systems to promote ethical behavior, using psychology as a practical application domain and drawing on postphenomenological philosophy.
+
 
 ## Notes
 

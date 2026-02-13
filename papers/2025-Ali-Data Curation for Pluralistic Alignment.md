@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Ali-Data Curation for Pluralistic Alignment.md"
 local_pdf: "[[PDFs/2025/2025-Ali-Data Curation for Pluralistic Alignment.pdf]]"
 ---
@@ -56,6 +59,11 @@ Human feedback datasets are central to AI alignment, yet the current data collec
 ## Authors
 
 [[Dalia Ali]], [[Aysenur Kocak]], [[Michèle Wieland]], [[Dora Zhao]], [[Allison Koenecke]], [[Orestis Papakyriakopoulos]]
+
+## Data Description
+
+This paper introduces a pluralistic alignment dataset integrating dimensions of Toxicity, Emotional Awareness, Sensitivity and Openness, Helpfulness, and Stereotypical Bias. It focuses on curating human feedback data to capture diverse human values and examines how demographics and political ideologies shape preferences in alignment datasets.
+
 
 ## Notes
 

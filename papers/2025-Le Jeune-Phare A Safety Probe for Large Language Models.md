@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4o, GPT-4o mini, Gemini, Gemma, Claude, Mistral, Llama, Llama-3, Grok, Qwen, DeepSeek"
+DATA_URL: "https://huggingface.co/datasets/giskardai/phare, https://github.com/giskard-ai/phare"
 ---
 # Phare: A Safety Probe for Large Language Models
 
@@ -57,6 +60,11 @@ Ensuring the safety of large language models (LLMs) is critical for responsible 
 ## Authors
 
 [[Pierre Le Jeune]], [[Benoît Malézieux]], [[Weixuan Xiao]], [[Matteo Dora]]
+
+## Data Description
+
+Phare is a multilingual diagnostic safety benchmark for LLMs covering three dimensions: hallucination and reliability, social biases and stereotypes, and harmful content generation. The dataset spans English, French, and Spanish, with tasks including factuality questions, debunking challenges, tool reliability tests, bias measurement via story generation, and misguidance detection. Seventeen state-of-the-art LLMs were evaluated across these dimensions. The public dataset and evaluation code are openly available.
+
 
 ## Notes
 

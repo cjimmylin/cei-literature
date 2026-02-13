@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "BERT, RoBERTa, T5"
+DATA_URL: "NA"
 ---
 # Understanding Chinese Moral Stories with Further Pre-training (STORAL-ZH)
 
@@ -61,6 +64,11 @@ The goal of moral understanding is to grasp the theoretical concepts embedded in
 ## Authors
 
 [[Jing Qian]]
+
+## Data Description
+
+The study uses STORAL-ZH, a dataset of 4,209 Chinese human-written story-moral pairs, for two moral understanding tasks: concept understanding (CPT) and preference alignment (PREF). Additional corpora include the Four Books and Five Classics (Confucian moral culture texts in vernacular Chinese) and ATOMIC-ZH (a Chinese commonsense knowledge graph) for domain-adaptive pre-training of a T5-architecture model (LongLM-base, 223M parameters).
+
 
 ## Notes
 

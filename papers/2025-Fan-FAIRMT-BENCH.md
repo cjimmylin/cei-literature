@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness text corpus for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT, GPT-4, Llama-3, Llama-2, Mistral, Gemma"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Fan-FAIRMT-BENCH.md"
 local_pdf: [[PDFs/2025/2025-Fan-FAIRMT-BENCH.pdf]]
 ---
@@ -93,6 +96,11 @@ The authors conclude that current LLM fairness evaluations based on single-turn 
 - FairMT-1K dataset: Curated challenging subset for SOTA evaluation
 - Code repository: https://github.com/FanZT6/FairMT-bench
 - Benchmark leaderboard and evaluation scripts
+
+## Data Description
+
+FairMT-Bench is a comprehensive benchmark for evaluating LLM fairness in multi-turn dialogue scenarios, consisting of FairMT-10K (10,195 multi-turn dialogue data points) and a more challenging FairMT-1K subset. The benchmark covers two bias types (stereotype and toxicity) across six bias attributes (gender, race, religion, disabled, age, appearance) with six evaluation tasks across three stages. Six LLMs including ChatGPT, Llama-3.1-8b, Mistral-7b, Llama-2-7b/13b, and Gemma-7b are tested, with GPT-4 and Llama-Guard-3 serving as evaluators.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Qwen, Mixtral, DeepSeek, GPT-4, Claude"
+DATA_URL: "https://huggingface.co/datasets/JadenGGGeee/NaVAB"
 pdf_extract: "PDF Extracts/2025/2025-Ju-NaVAB.md"
 local_pdf: "[[PDFs/2025/2025-Ju-NaVAB.pdf]]"
 ---
@@ -46,6 +49,11 @@ local_pdf: "[[PDFs/2025/2025-Ju-NaVAB.pdf]]"
 ## Abstract
 
 Do Large Language Models (LLMs) hold positions that conflict with your country’s values? Occasionally they do! However, existing works primarily focus on ethical reviews, failing to capture the diversity of national values, which encompass broader policy, legal, and moral considerations. Furthermore, current benchmarks that rely on spectrum tests using manually designed questionnaires are not easily scalable. To address these limitations, we introduce NaVAB, a comprehensive benchmark to evaluate the alignment of LLMs with the values of five major nations: China, the United States, the United Kingdom, France, and Germany. NaVAB implements a national value extraction pipeline to efficiently construct value assessment datasets. Specifically, we propose a modeling procedure with instruction tagging to process raw data sources, a screening process to filter value-related topics and a generation process with a Conflict Reduction mechanism to filter non-conflicting values. We conduct extensive experiments on various LLMs across countries, and the results provide insights into assisting in the identification of misaligned scenarios. Moreover, we demonstrate that NaVAB can be combined with alignment techniques to effectively reduce value concerns by aligning LLMs’ values with the target country.
+
+## Data Description
+
+NaVAB (National Values Alignment Benchmark) is a comprehensive benchmark for evaluating LLM value alignment across five nations (China, US, UK, France, Germany). It extracts value assessment data from official media sources across nations using a pipeline involving topic modeling, value screening, and conflict reduction, producing triple structures of questions, statements, and reverse statements for evaluation.
+
 
 ## Notes
 

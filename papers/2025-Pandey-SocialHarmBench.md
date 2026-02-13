@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large language models (LLMs) are increasingly deployed in contexts wh
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "585 prompts"
+LLM_assessed: "GPT-4, Claude, Gemini, Gemma, Llama-3, Mistral, Qwen, DeepSeek"
+DATA_URL: "https://huggingface.co/datasets/psyonp/SocialHarmBench, https://github.com/psyonp/SocialHarmBench"
 ---
 # SocialHarmBench
 
@@ -62,6 +65,10 @@ Large language models (LLMs) are increasingly deployed in contexts where their f
 ## Dataset Information
 
 585 prompts across 7 sociopolitical categories, covering 34 countries
+
+## Data Description
+
+SocialHarmBench is a benchmark dataset of 585 prompts spanning 7 sociopolitical harm categories (censorship, historical revisionism, human rights violations, political manipulation, propaganda, surveillance, war crimes) across 34 countries and multiple centuries. The dataset includes three functional prompt types (standard, opinion elicitation, historical reference) and is evaluated using HarmBench and StrongREJECT classifiers to measure attack success rates.
 
 ## Notes
 

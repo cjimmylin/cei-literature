@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "Vicuna"
+DATA_URL: "https://github.com/thu-coai/AISafetyLab"
 ---
 # AISafetyLab: A Comprehensive Framework for Evaluating and Mitigating AI Safety Risks
 
@@ -57,6 +60,11 @@ As AI models are increasingly deployed across diverse real-world scenarios, ensu
 ## Authors
 
 [[Zhexin Zhang]], [[Leqi Lei]], [[Junxiao Yang]], [[Xijie Huang]], [[Yida Lu]], [[Shiyao Cui]], [[Renmiao Chen]], [[Qinglin Zhang]], [[Xinyuan Wang]], [[Hao Wang]], [[Hao Li]], [[Xuanyu Lei|Xianqi Lei]], [[Chengwei Pan]], [[Lei Sha]], [[Hongning Wang]], [[Minlie Huang]]
+
+## Data Description
+
+AISafetyLab is a comprehensive framework and toolkit for AI safety evaluation and improvement, integrating 13 attack methods, 16 defense mechanisms, and 7 evaluation scorers. Empirical experiments were conducted on Vicuna-7B-v1.5 using a subset of 50 harmful instructions from HarmBench and overrefusal evaluation on XSTest, with Llama-Guard-3-8B as the scoring model. Safety-related datasets are also available on HuggingFace.
+
 
 ## Notes
 

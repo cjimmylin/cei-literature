@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://facet.metademolab.com"
 pdf_extract: "PDF Extracts/2023/2023-Gustafson-FACET.md"
 local_pdf: [[PDFs/2023/2023-Gustafson-FACET.pdf]]
 ---
@@ -132,6 +135,11 @@ FACET reveals that state-of-the-art computer vision models exhibit systematic pe
 - Additional attributes: hair color/type, facial hair, accessories, tattoos, lighting conditions
 - Publicly available at: https://facet.metademolab.com
 - Note: FACET is evaluation-only; using annotations for training is prohibited
+
+## Data Description
+
+FACET (FAirness in Computer Vision EvaluaTion) is a large-scale evaluation benchmark of 32,000 images from Segment Anything 1 Billion (SA-1B) with exhaustive annotations for 50,000 people across 13 person attributes (including perceived skin tone, gender presentation, and age group) and 52 person-related classes. The benchmark is designed for evaluating fairness in computer vision tasks including image classification, object detection, and segmentation, not LLM assessment.
+
 
 ## Notes
 

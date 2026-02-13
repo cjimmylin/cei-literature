@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "Claude, GPT-4, DeepSeek, Llama-3"
+DATA_URL: "https://github.com/SakanaAI/AI-Scientist"
 ---
 # The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery
 
@@ -62,6 +65,11 @@ One of the grand challenges of artificial general intelligence is developing age
 ## Authors
 
 [[Chris Lu]], [[Cong Lu]], [[Robert Tjarko Lange]], [[Jakob Foerster]], [[Jeff Clune]], [[David Ha]]
+
+## Data Description
+
+The paper presents The AI Scientist, a framework for fully automated scientific discovery using LLMs. It evaluates four LLMs (Claude Sonnet 3.5, GPT-4o, DeepSeek Coder, and Llama-3.1 405B) as the backbone for end-to-end paper generation across three ML subfields: diffusion modeling, transformer-based language modeling, and learning dynamics. The automated reviewer component is validated on 500 ICLR 2022 papers from the OpenReview dataset, comparing GPT-4o, Claude Sonnet 3.5, GPT-4o-mini, and Llama 3.1 405B reviewer performance.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, Gemini, Llama-2, Llama-3, Gemma, PaLM, PaLM-2, Vicuna, Mistral, Phi, o1"
+DATA_URL: "https://github.com/kztakemoto/mmllm"
 pdf_extract: "PDF Extracts/2025/2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md"
 local_pdf: "[[PDFs/2025/2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.pdf]]"
 normative_ethics_benchmark: Borderline
@@ -99,6 +102,11 @@ As LLMs become "moral agents" in systems like self-driving cars, size is a proxy
 ## Authors
 
 [[Muhammad Shahrul Zaim Bin Ahmad]], [[Kazuhiro Takemoto]]
+
+## Data Description
+
+This study evaluates moral judgments across 52 different LLMs using the Moral Machine experimental framework with autonomous driving scenarios involving unavoidable accidents. The dataset consists of up to 50,000 scenarios per model exploring nine ethical dimensions including species, social value, gender, age, fitness, utilitarianism, interventionism, relationship to the autonomous vehicle, and legal considerations, analyzed using conjoint analysis to compute Average Marginal Component Effects.
+
 
 ## Notes
 

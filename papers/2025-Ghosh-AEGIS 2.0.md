@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "As Large Language Models (LLMs) and generative AI become increasingly
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Annotated dataset"
 data_metrics: "248 samples"
+LLM_assessed: "Llama-3, Mistral, Gemma, Mixtral"
+DATA_URL: "NA"
 ---
 # AEGIS 2.0
 
@@ -63,6 +66,10 @@ As Large Language Models (LLMs) and generative AI become increasingly widespread
 ## Dataset Information
 
 33,416 annotated human-LLM interactions (34,248 total samples)
+
+## Data Description
+
+AEGIS 2.0 is a curated AI safety dataset of 34,248 human-LLM interaction samples annotated according to a 12-category content safety risk taxonomy with 9 fine-grained subcategories. The dataset uses Mistral-7B-v0.1 for response generation and Gemma-2-27B for synthetic refusals. Safety guard models were fine-tuned on Llama-3.1-8B-Instruct using parameter-efficient techniques, with an LLM jury of Mixtral-8x22B, Mistral-NeMo, and Gemma-2-27B for response-level annotation.
 
 ## Notes
 

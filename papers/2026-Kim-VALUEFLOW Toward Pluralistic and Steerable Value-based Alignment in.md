@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Aligning Large Language Models (LLMs) with the diverse spectrum of hu
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Gemini, Grok, Qwen, Mistral, Phi, Gemma"
+DATA_URL: "NA"
 ---
 # VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models
 
@@ -61,6 +64,10 @@ Aligning Large Language Models (LLMs) with the diverse spectrum of human values 
 ## Dataset Information
 
 See report
+
+## Data Description
+
+VALUEFLOW introduces a unified framework for value-based alignment in LLMs comprising HIVES (a hierarchical value embedding space), VIDB (a large-scale Value Intensity Database with 10K texts per value scored via Plackett-Luce aggregation), and a ranking-based evaluator. The study evaluates steerability across ten models (Qwen3-32B, Mistral-3.1-Small-24B, Phi-4, GLM-4-32B, gpt-oss-20b, Gemma-3-27B-it, GPT-4.1, Claude-4-Sonnet, Grok-4, Gemini-2.5-Flash) on 500 prompts spanning four value theories (SVT, MFT, Rights, Duties) with 32 values.
 
 ## Notes
 

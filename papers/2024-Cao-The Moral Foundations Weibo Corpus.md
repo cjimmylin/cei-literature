@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-3, Qwen"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Cao-The Moral Foundations Weibo Corpus.md"
 ---
 # The Moral Foundations Weibo Corpus
@@ -47,6 +50,11 @@ pdf_extract: "PDF Extracts/2024/2024-Cao-The Moral Foundations Weibo Corpus.md"
 ## Abstract
 
 Moral sentiments expressed in natural language significantly influence both online and offline environments, shaping behavioral styles and interaction patterns, including social media self-presentation, cyberbullying, adherence to social norms, and ethical decision-making. To effectively measure moral sentiments in natural language processing texts, it is crucial to utilize large, annotated datasets that provide nuanced understanding for accurate analysis and model training. However, existing corpora, while valuable, often face linguistic limitations. To address this gap in the Chinese language domain, we introduce the Moral Foundation Weibo Corpus. This corpus consists of 25,671 Chinese comments on Weibo, encompassing six diverse topic areas. Each comment is manually annotated by at least three systematically trained annotators based on ten moral categories derived from a grounded theory of morality. To assess annotator reliability, we present the kappa test results, a gold standard for measuring consistency. Additionally, we apply several the latest large language models to supplement the manual annotations, conducting analytical experiments to compare their performance and report baseline results for moral sentiment classification.
+
+## Data Description
+
+The paper introduces the Moral Foundations Weibo Corpus (MFWC), consisting of 25,671 Chinese Weibo comments spanning six diverse topic areas (animal protection, real estate, people's livelihoods, volunteers, volunteer army, and China-U.S. heads of state meeting). Each comment is manually annotated by at least three trained annotators based on ten moral sentiment categories derived from Moral Foundations Theory.
+
 
 ## Notes
 

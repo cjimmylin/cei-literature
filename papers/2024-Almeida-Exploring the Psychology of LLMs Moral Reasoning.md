@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: N/A
 data_metrics: "Human-LLM alignment correlation"
+LLM_assessed: "GPT-4, Claude, Llama-2, Gemini"
+DATA_URL: "https://osf.io/zunm4/?view_only=217abaddc7f6498483fda045157f5dd6"
 pdf_extract: "PDF Extracts/2024/2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning.md"
 ---
 # Exploring the Psychology of LLMs' Moral and Legal Reasoning
@@ -62,6 +65,11 @@ pdf_extract: "PDF Extracts/2024/2024-Almeida-Exploring the Psychology of LLMs Mo
 ## Abstract
 
 Large language models (LLMs) exhibit expert-level performance in tasks across a wide range of different domains. Ethical issues raised by LLMs and the need to align future versions makes it important to know how state of the art models reason about moral and legal issues. In this paper, the authors employ the methods of experimental psychology to probe into this question. They replicated eight studies from the experimental literature with instances of Google's Gemini Pro, Anthropic's Claude 2.1, OpenAI's GPT-4, and Meta's Llama 2 Chat 70b. They found that alignment with human responses shifts from one experiment to another, and that models differ amongst themselves as to their overall alignment, with GPT-4 taking a clear lead over all other models tested. Nonetheless, even when LLM-generated responses are highly correlated to human responses, there are still systematic differences, with a tendency for models to exaggerate effects that are present among humans, in part by reducing variance.
+
+## Data Description
+
+The study replicates eight vignette-based experiments from experimental psychology with four LLMs: GPT-4 (gpt-4-0314), Claude 2.1, Gemini Pro 1.0, and Llama 2 Chat 70b. Each model generated 100 responses per study condition, probing moral and legal reasoning across topics including intentional action, causation, deception, Moral Foundations Theory, consent, hindsight bias, and rule interpretation. The dataset comprises LLM-generated responses compared against published human experimental results.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4"
+DATA_URL: "NA"
 ---
 # Case Law Grounding: Using Precedents to Align Decision-Making for Humans and AI
 
@@ -62,6 +65,11 @@ From moderating content within an online community to producing socially-appropr
 ## Authors
 
 [[Quan Ze Chen]], [[Amy X. Zhang]]
+
+## Data Description
+
+The study evaluates case law grounding (CLG) using two decision-making task datasets: a Reddit comment moderation dataset (NormVio) with binary keep/remove decisions across three subreddit communities, and a toxicity rating dataset with 5-point scale ratings across two demographic groups. Human annotations were collected from 95 participants, and GPT-4-turbo-preview was used for the LLM-prompting version of the approach.
+
 
 ## Notes
 

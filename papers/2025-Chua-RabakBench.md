@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety dataset for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Gemini, DeepSeek, Llama-3, Mistral, o3"
+DATA_URL: "https://huggingface.co/datasets/govtech/RabakBench"
 ---
 # RabakBench: Scaling Human Annotations to Construct Localized Multilingual Safety Benchmarks for Low-Resource Languages
 
@@ -64,6 +67,11 @@ Large language models (LLMs) and their safety classifiers often perform poorly o
 ## Authors
 
 [[Gabriel Chua]], [[Leanne Tan]], [[Ziyu Ge]], [[Roy Ka-Wei Lee]]
+
+## Data Description
+
+RabakBench is a multilingual safety benchmark localized to Singapore's linguistic context, covering Singlish, Chinese, Malay, and Tamil with over 5,000 safety-labeled examples across six fine-grained harm categories. The benchmark is constructed through a three-stage pipeline using GPT-4o, DeepSeek-R1, Gemini 2.0 Flash, Claude 3.5 Haiku, o3-mini, Llama 3.3 70B, and Mistral Small 3 for generation and annotation, and evaluates 11 guardrail classifiers revealing significant performance degradation on localized multilingual content.
+
 
 ## Notes
 

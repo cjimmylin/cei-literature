@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama, Claude, Gemini, Mistral"
+DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 publication: arXiv preprint
 DATE_ADDED: 20260207
@@ -95,6 +98,11 @@ Current LLM training (RLHF/SFT) leads to a "Convergent Ethics" that prioritizes 
 ## Abstract
 
 As large language models (LLMs) are increasingly deployed in consequential decision-making contexts, systematically assessing their ethical reasoning capabilities becomes a critical imperative. This paper introduces the Priorities in Reasoning and Intrinsic Moral Evaluation (PRIME) framework--a comprehensive methodology for analyzing moral priorities across foundational ethical dimensions including consequentialist-deontological reasoning, moral foundations theory, and Kohlberg's developmental stages. We apply this framework to six leading LLMs through a dual-protocol approach combining direct questioning and response analysis to established ethical dilemmas. Our analysis reveals striking patterns of convergence: all evaluated models demonstrate strong prioritization of care/harm and fairness/cheating foundations while consistently underweighting authority, loyalty, and sanctity dimensions. Through detailed examination of confidence metrics, response reluctance patterns, and reasoning consistency, we establish that contemporary LLMs (1) produce decisive ethical judgments, (2) demonstrate notable cross-model alignment in moral decision-making, and (3) generally correspond with empirically established human moral preferences. This research contributes a scalable, extensible methodology for ethical benchmarking while highlighting both the promising capabilities and systematic limitations in current AI moral reasoning architectures--insights critical for responsible development as these systems assume increasingly significant societal roles.
+
+## Data Description
+
+The paper introduces the PRIME (Priorities in Reasoning and Intrinsic Moral Evaluation) framework, applying a dual-protocol approach of direct questioning and ethical dilemma responses to six LLMs (GPT-4o, LLaMA 3.1, Perplexity, Claude 3.5 Sonnet, Gemini, Mistral 7B). Data includes confidence scores (0-100), moral foundation scores on a 1-5 scale across six dimensions, Kohlberg moral reasoning scores, and response reluctance metrics collected across multiple testing sessions.
+
 
 ## Notes
 

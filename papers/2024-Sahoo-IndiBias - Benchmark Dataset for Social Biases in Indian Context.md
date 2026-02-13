@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Warning: This paper contains examples and case studies that may be of
 ethics_perspective: "Bias & Fairness"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2, Mistral, BLOOM, T5"
+DATA_URL: "https://github.com/sahoonihar/IndiBias"
 ---
 # IndiBias -- Benchmark Dataset for Social Biases in Indian Context
 
@@ -63,6 +66,10 @@ Warning: This paper contains examples and case studies that may be offensive. Th
 ## Dataset Information
 
 800 sentence pairs + 300 tuples for intersectional bias
+
+## Data Description
+
+IndiBias is a benchmark dataset for measuring social biases in language models in the Indian context. It contains 800 sentence pairs in English and Hindi (adapted from CrowS-Pairs and augmented via LLMs), 300 stereotypical attribute tuples across seven bias dimensions (gender, religion, caste, age, region, physical appearance, occupation), and approximately 1,000 bleached sentences for evaluating intersectional biases along gender-religion, gender-caste, and gender-age axes.
 
 ## Notes
 

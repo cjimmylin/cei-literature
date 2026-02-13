@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/ValueCompass/Alignment-Goal-Survey"
 ---
 # From Instructions to Intrinsic Human Values -- A Survey of Alignment Goals for Big Models
 
@@ -64,6 +67,11 @@ Big models, exemplified by Large Language Models (LLMs), are typically models pr
 ## Authors
 
 [[Jing Yao]], [[Xiaoyuan Yi]], [[Xiting Wang]], [[Jindong Wang]], [[Xing Xie]]
+
+## Data Description
+
+This paper is a comprehensive survey of alignment goals for large language models, tracing the evolution from human instructions to human preferences to intrinsic human values. It does not introduce or utilize a specific dataset or benchmark for LLM assessment, but rather provides a taxonomy and collection of resources cataloging existing alignment work across three levels of goals. The GitHub repository contains the collected resources for future research on alignment.
+
 
 ## Notes
 

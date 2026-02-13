@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/MLGroupJLU/LLM-eval-survey"
 ---
 # A Survey on Evaluation of Large Language Models
 
@@ -64,6 +67,11 @@ Large language models (LLMs) are gaining increasing popularity in both academia 
 ## Authors
 
 [[Yupeng Chang]], [[Xu Wang]], [[Jindong Wang]], [[Yuan Wu]], [[Linyi Yang]], [[Kaijie Zhu]], [[Hao Chen]], [[Xiaoyuan Yi]], [[Cunxiang Wang]], [[Yidong Wang]], [[Wei Ye]], [[Yue Zhang]], [[Yi Chang]], [[Philip S. Yu]], [[Qiang Yang]], [[Xing Xie]]
+
+## Data Description
+
+This is a comprehensive survey paper reviewing evaluation methods for large language models across three dimensions: what to evaluate, where to evaluate, and how to evaluate. It catalogs existing benchmarks, datasets, and evaluation protocols but does not introduce its own dataset or conduct original LLM evaluations. The GitHub repository contains curated survey materials and references.
+
 
 ## Notes
 

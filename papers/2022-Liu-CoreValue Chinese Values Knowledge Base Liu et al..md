@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract:
 ethics_perspective: "General Ethics"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "BERT"
+DATA_URL: "NA"
 ---
 # CoreValue: Chinese Values Knowledge Base (Liu et al.)
 
@@ -60,6 +63,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Chinese values knowledge base
+
+## Data Description
+
+The PDF extract describes a semi-automated knowledge base construction system for cancer genetics, using 597 full-text penetrance papers reporting gene-cancer associations. The dataset includes distantly supervised labels for ascertainment mechanism extraction and joint entity-relation extraction of germline mutation and risk-estimate pairs, with SciBERT (a BERT variant) used as the underlying transformer model for both tasks.
 
 ## Notes
 

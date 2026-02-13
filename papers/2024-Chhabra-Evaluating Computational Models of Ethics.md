@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: 
 data_metrics:
+LLM_assessed: "NA"
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
 # Evaluating Computational Models of Ethics
@@ -96,6 +99,11 @@ SPECTRA provides a valuable testbed for comparing computational ethics implement
 - SPECTRA Framework: General-purpose multi-agent testbed for computational ethics evaluation
 - Algorithm implementations: Four ethical paradigm algorithms (deontology, utilitarianism, virtue ethics, computational transcendence)
 - Experimental methodology: Approach for comparing ethical paradigms in controlled settings
+
+## Data Description
+
+This paper presents SPECTRA, a general-purpose multi-agent message-passing framework for implementing and comparing computational ethics paradigms (deontology, utilitarianism, virtue ethics, computational transcendence). The extract is a paywall-limited preview and does not contain experimental details with LLM models. The work focuses on autonomous agent simulations rather than LLM evaluation.
+
 
 ## Notes
 

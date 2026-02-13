@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/koenecke/crosscultural_labelconsistency/"
 pdf_extract: "PDF Extracts/2023/2023-Moss-Bias on Demand.md"
 local_pdf: "[[PDFs/2023/2023-Moss-Bias on Demand.pdf]]"
 ---
@@ -108,6 +111,11 @@ The paper concludes that practitioners should consider global inclusivity from t
 - Dataset of 280 game-label pairs with cross-cultural annotation patterns
 - Identification of 55 inconsistently conceptualized game-label pairs
 - Code repository for reproducing methods (GitHub)
+
+## Data Description
+
+The dataset consists of a survey of 5,174 Xbox gamers across 16 countries and 9 languages who annotated 11 popular video games using 28 labels. The study uses multilevel regression and post-stratification (MRP) to evaluate cross-cultural consistency of human-annotated labels for recommendation systems, focusing on 280 game-label pairs.
+
 
 ## Notes
 

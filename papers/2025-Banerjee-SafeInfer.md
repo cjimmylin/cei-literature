@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2, Mistral, Vicuna, Falcon"
+DATA_URL: "https://github.com/NeuralSentinel/SafeInfer"
 ---
 # SafeInfer: Context Adaptive Decoding Time Safety Alignment for Large Language Models
 
@@ -107,6 +110,11 @@ The paper concludes that SafeInfer provides a versatile and effective approach t
 - HarmEval benchmark: ~550 harmful queries across 11 policy-violating categories
 - Code available at: https://github.com/NeuralSentinel/SafeInfer
 - Evaluation results across multiple models and datasets
+
+## Data Description
+
+SafeInfer is evaluated on six safety datasets (DangerousQA, AdvBench, HEx-PHI, TechHazardQA, NicheHazardQA, and the newly proposed HarmEval with ~550 harmful queries). The method is tested on Llama-2-7b-chat, Mistral-7B-Instruct, Vicuna-7b, and Falcon-7b-instruct, assessing decoding-time safety alignment for reducing harmful responses while preserving model utility.
+
 
 ## Notes
 

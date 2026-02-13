@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Despite the remarkable advances of Large Language Models (LLMs) acros
 research_topic: "Truthfulness & Factuality"
 data_description: "Benchmark"
 data_metrics: "1,000 samples; over 1,000 samples"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Grok, DeepSeek, Qwen"
+DATA_URL: "https://github.com/Aries-iai/DeceptionBench"
 ---
 # DeceptionBench: A Comprehensive Benchmark for AI Deception Behaviors in Real-world Scenarios
 
@@ -62,6 +65,10 @@ Despite the remarkable advances of Large Language Models (LLMs) across diverse c
 ## Dataset Information
 
 150 scenarios with 1,000+ evaluation samples across 5 domains; single-turn and multi-turn interactions; thought + response evaluation
+
+## Data Description
+
+DeceptionBench is a comprehensive benchmark evaluating AI deception behaviors across five societal domains (Economy, Healthcare, Education, Social Interaction, Entertainment) with 150 scenarios and over 1,000 samples. Fourteen LLMs were evaluated including GPT-4o, GPT-3.5, Claude-3.5-Sonnet, Claude-3.7-Sonnet, Grok-3, Gemini-1.5-Pro, Gemini-2.0-Flash, DeepSeek-R1, Qwen2.5-7B/14B, Qwen-Max, and QWQ-32B, using deception rate metrics across three progressive intensity levels.
 
 ## Notes
 

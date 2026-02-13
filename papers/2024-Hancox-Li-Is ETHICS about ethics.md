@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Is ETHICS about ethics? Evaluating the ETHICS benchmark
 
@@ -64,6 +67,11 @@ ETHICS is probably the most-cited dataset for testing the ethical capabilities o
 ## Authors
 
 [[Leif Hancox-Li]], [[Borhane Blili-Hamelin]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a critical evaluation of the ETHICS benchmark dataset, examining its validity from perspectives of moral theory, construct validity, and prompt quality. The authors relabeled 100 randomly sampled prompts from each of three moral theory categories, finding considerable proportions of poor-quality prompts and labels (e.g., 19% label disagreement in utilitarianism prompts).
+
 
 ## Notes
 

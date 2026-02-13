@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 local_pdf: "[[PDFs/2025/2025-Steen-Ethical aspects of ChatGPT.pdf]]"
 pdf_extract: "[[2025-Steen-Ethical aspects of ChatGPT]]"
 ---
@@ -90,6 +93,11 @@ The authors conclude that multi-perspective ethical analysis provides richer ins
 ## Artifact Contributions
 
 None mentioned - this is a theoretical/framework paper that does not release datasets, code, or benchmarks.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents a qualitative ethical analysis of ChatGPT as a case study, using the European Commission's HLEG seven key requirements framework combined with four ethical perspectives (consequentialism, duty ethics, relational ethics, and virtue ethics).
+
 
 ## Notes
 

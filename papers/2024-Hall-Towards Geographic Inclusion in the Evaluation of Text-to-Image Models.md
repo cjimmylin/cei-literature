@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 research_topic: "Computer Vision & Multimodal"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Towards Geographic Inclusion in the Evaluation of Text-to-Image Models
 
@@ -66,6 +69,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 65,000 annotations from people in Africa, Europe, and Southeast Asia; evaluated on GeoDE (40 object classes across 6 regions) and DollarStreet (~200 concept classes across 4 regions)
+
+## Data Description
+
+The paper presents a large cross-cultural human annotation study collecting over 65,000 image annotations and 20 survey responses from annotators in Africa, Europe, and Southeast Asia. It evaluates geographic representation, visual appeal, and object consistency in real images from the GeoDE dataset and generated images from two text-to-image models (DM w/ CLIP and LDM 2.1) across six common objects. No LLMs from the canonical list were tested.
 
 ## Notes
 

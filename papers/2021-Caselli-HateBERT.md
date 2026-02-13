@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "Not specified"
+LLM_assessed: "BERT"
+DATA_URL: "https://osf.io/tbd58/"
 ---
 # HateBERT: Retraining BERT for Abusive Language Detection in English
 
@@ -64,6 +67,11 @@ We introduce HateBERT, a re-trained BERT model for abusive language detection in
 ## Authors
 
 [[Tommaso Caselli]], [[Valerio Basile]], [[Jelena Mitrović]], [[Michael Granitzer]]
+
+## Data Description
+
+The paper introduces the RAL-E dataset comprising 1,492,740 Reddit comments from banned communities in English, spanning January 2012 to June 2015, totaling 43,820,621 tokens. HateBERT, a retrained BERT base-uncased model, is evaluated against generic BERT on three abusive language detection datasets (OffensEval 2019, AbusEval, HatEval) covering offensive language, abusive language, and hate speech detection tasks.
+
 
 ## Notes
 

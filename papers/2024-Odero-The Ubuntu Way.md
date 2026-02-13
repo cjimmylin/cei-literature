@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
  The Ubuntu Way: Ensuring Ethical AI Integration in Health Research
 
@@ -47,6 +50,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 This paper proposes a new ethics framework that integrates the **Ubuntu** philosophy into AI health research. Ubuntu, meaning "I am because we are," emphasizes communalism, interconnectedness, and collective well-being—key **virtues** in African ethical traditions. The framework promotes mutual respect, community involvement, equity, compassion, and socially valuable outcomes. The authors argue that this **virtue-based** approach enhances existing research ethics frameworks by grounding AI development in **relational virtue ethics** principles that prioritize **human flourishing** and shared responsibility over individualistic Western frameworks.
+
+## Data Description
+
+The PDF extract does not correspond to the expected paper on Ubuntu philosophy. The extracted content is a scoping review on Public Financial Management and health system efficiency, containing no LLM-related data or benchmarks.
+
 
 ## Notes
 

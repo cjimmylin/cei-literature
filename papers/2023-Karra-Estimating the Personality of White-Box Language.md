@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology text corpus for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-2, GPT-3, GPT-3.5, Llama, XLNet"
+DATA_URL: "NA"
 ---
 # Estimating the Personality of White-Box Language Models
 
@@ -63,6 +66,11 @@ Technology for open-ended language generation, a key application of artiﬁcial 
 ## Authors
 
 [[Saketh Reddy Karra]], [[Son The Nguyen]], [[Theja Tulabandhula]]
+
+## Data Description
+
+The study uses the Big Five personality questionnaire (50 statements) to trigger language models and classify their text responses using a Zero-shot classifier. Training datasets analyzed include BookCorpus, English Wikipedia, WebText Test Set, and Wikitext103. A personality-annotated text dataset from the SIOP 2019 machine learning competition was used for fine-tuning experiments to alter model personality traits.
+
 
 ## Notes
 

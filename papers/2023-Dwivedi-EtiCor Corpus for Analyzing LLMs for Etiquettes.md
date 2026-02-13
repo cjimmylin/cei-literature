@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Etiquettes are an essential ingredient of dayto-day interactions amon
 research_topic: "Other"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, Falcon, BERT"
+DATA_URL: "https://github.com/Exploration-Lab/EtiCor"
 ---
 # EtiCor: Corpus for Analyzing LLMs for Etiquettes
 
@@ -61,6 +64,10 @@ Etiquettes are an essential ingredient of dayto-day interactions among people. M
 ## Dataset Information
 
 Texts about social norms from 5 regions; Etiquette Sensitivity evaluation task
+
+## Data Description
+
+The paper introduces EtiCor (Etiquettes Corpus), containing 36,347 labeled English sentences about social norms from five global regions: East Asia, India, Middle East and Africa, North America-Europe, and Latin America. The corpus covers four etiquette types (dining, visits, travel, business) and is used to evaluate LLMs on the task of Etiquette Sensitivity, classifying whether a social norm is appropriate for a given region.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3"
+DATA_URL: "NA"
 ---
 # Towards Coding Social Science Datasets with Language Models
 
@@ -62,6 +65,11 @@ Researchers often rely on humans to code (label, annotate, etc.) large sets of t
 ## Authors
 
 [[Christopher Michael Rytting]], [[Taylor Sorensen]], [[Lisa Argyle]], [[Ethan Busby]], [[Nancy Fulda]], [[Joshua Gubler]], [[David Wingate]]
+
+## Data Description
+
+The paper evaluates GPT-3 (175 billion parameters) as a synthetic coder for social science text classification tasks, comparing its performance to human coders across four datasets: Pigeonholing Partisans (7,675 descriptions of political partisans), New York Times Headlines (CAP-coded), Congressional Hearing Summaries (326 texts coded into 21 CAP categories), and The Guardian Populism dataset. GPT-3 is used with few-shot learning (2-3 examples) and no fine-tuning, achieving performance on par with human coders.
+
 
 ## Notes
 

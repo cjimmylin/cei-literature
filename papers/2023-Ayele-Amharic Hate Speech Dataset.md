@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "15.1k tweets"
+LLM_assessed: "RoBERTa"
+DATA_URL: "https://github.com/uhh-lt/AmharicHateSpeech"
 pdf_extract: "PDF Extracts/2023/2023-Ayele-Amharic Hate Speech Dataset.md"
 local_pdf: "[[PDFs/2023/2023-Ayele-Amharic Hate Speech Dataset.pdf]]"
 ---
@@ -56,6 +59,11 @@ In this paper, we present a study of efficient data selection and annotation str
 ## Authors
 
 [[Abinet Ayele]], [[Seid Muhie Yimam]], [[Yaregal Assabie Belay]], [[Moges Asfaw]], [[Chris Biemann]]
+
+## Data Description
+
+The dataset consists of 15,100 Amharic tweets annotated for hate speech classification with four labels (hate, offensive, normal, unsure) by two independent native speakers plus a curator adjudicator, achieving a Cohen's kappa of 0.48. The tweets were sampled from a corpus of over 18 million Amharic tweets collected since 2014 via the Twitter API, with 3.8 million tweets from October 2020 to November 2021 filtered using hate and offensive lexicon entries and near-duplicate removal via Jaccard similarity.
+
 
 ## Notes
 

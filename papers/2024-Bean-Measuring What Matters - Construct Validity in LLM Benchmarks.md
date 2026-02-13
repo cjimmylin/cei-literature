@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ abstract:
 research_topic: "Other"
 data_description: "Benchmark"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Measuring What Matters -- Construct Validity in LLM Benchmarks
 
@@ -59,6 +62,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Meta-analysis of existing LLM benchmarks
+
+## Data Description
+
+This paper presents a systematic review of 445 LLM benchmark articles from leading ML and NLP conferences (ICML, ICLR, NeurIPS, ACL, NAACL, EMNLP) between 2018 and 2024. The dataset consists of expert annotations on 21 question items covering phenomena, tasks, metrics, and claims for each benchmark article, coded by 29 expert reviewers. The study is a meta-analysis of benchmarking practices rather than an evaluation of specific LLM models.
 
 ## Notes
 

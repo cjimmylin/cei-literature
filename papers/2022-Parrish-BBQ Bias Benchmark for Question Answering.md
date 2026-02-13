@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "It is well documented that NLP models learn social biases, but little
 ethics_perspective: "Bias & Fairness"
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "T5, RoBERTa, DeBERTa"
+DATA_URL: "https://github.com/nyu-mll/BBQ"
 ---
 # BBQ (Bias Benchmark for Question Answering)
 
@@ -63,6 +66,10 @@ It is well documented that NLP models learn social biases, but little work has b
 ## Dataset Information
 
 ~58,000 multiple-choice questions; ambiguous and disambiguated contexts; 11 JSONL files (one per bias category)
+
+## Data Description
+
+BBQ (Bias Benchmark for QA) is a hand-built dataset of 58,492 unique examples constructed from 325 templates across nine social bias categories (age, disability, gender, nationality, physical appearance, race/ethnicity, religion, socioeconomic status, and sexual orientation). Each example pairs an ambiguous or disambiguated context with negative or non-negative questions and three answer choices, designed to test whether QA models rely on social stereotypes. Models tested include UnifiedQA (T5-based), RoBERTa, and DeBERTaV3.
 
 ## Notes
 

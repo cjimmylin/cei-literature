@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "The last two years have seen a rapid growth in concerns around the sa
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/paul-rottger/safetyprompts-paper"
 ---
 # SafetyPrompts: Systematic Review of Open Datasets for LLM Safety
 
@@ -63,6 +66,10 @@ The last two years have seen a rapid growth in concerns around the safety of lar
 ## Dataset Information
 
 Systematic review of 144 datasets for LLM safety evaluation; living catalogue at SafetyPrompts.com
+
+## Data Description
+
+This paper systematically reviews 144 open datasets for evaluating and improving LLM safety, published between June 2018 and December 2024. The review catalogs datasets along 23 dimensions including purpose, format, size, creation method, language, and licensing, and examines their use in model release publications and popular LLM benchmarks. The living catalogue is maintained at SafetyPrompts.com.
 
 ## Notes
 

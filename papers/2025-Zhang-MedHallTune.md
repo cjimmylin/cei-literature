@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for hallucination detection dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Qwen, Vicuna, Llama-2, Flan-T5"
+DATA_URL: "NA"
 ---
 # MedHallTune: An Instruction-Tuning Benchmark for Mitigating Medical Hallucination in Vision-Language Models
 
@@ -85,6 +88,11 @@ Specific domain hallucination requires specific domain tuning. MedHallTune provi
 ## Authors
 
 [[Qiao Yan]], [[Yuchen Yuan]], [[Xiaowei Hu]], [[Yihan Wang]], [[Jiajie Xu|Jiaqi Xu]], [[Jinpeng Li]], [[Cheng-Yang Fu|Chi-Wing Fu]], [[Pheng-Ann Heng]]
+
+## Data Description
+
+MedHallTune is a large-scale medical hallucination benchmark comprising over 100,000 images and 1,000,000 instruction pairs, including both hallucination and non-hallucination samples with ground-truth annotations. The dataset is sourced from PubMed medical image-text pairs and covers diverse medical domains such as brain, chest, eyes, and cellular structures. The testing split contains 200 images with 1,143 hallucination and 1,127 non-hallucination instructions, designed to evaluate and mitigate hallucinations in vision-language models for healthcare applications.
+
 
 ## Notes
 

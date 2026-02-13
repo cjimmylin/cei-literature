@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4o, Qwen, Llama-3, Gemma, Gemini, DeepSeek, Phi"
+DATA_URL: "NA"
 ---
 # Analyzing Cognitive Differences Among Large Language Models through the Lens of Social Worldview
 
@@ -64,6 +67,11 @@ Large Language Models (LLMs) have become integral to daily life, widely adopted 
 ## Authors
 
 [[Jiatao Li]], [[Yanheng Li]], [[Xiaojun Wan]]
+
+## Data Description
+
+This study introduces the Social Worldview Taxonomy (SWT) and Social Worldview Questionnaire (SWQ), a dataset of 640 Likert-scale items distributed across four socio-cognitive worldview dimensions (Hierarchy, Egalitarianism, Individualism, Fatalism) with 160 items per dimension. Twenty-eight LLMs were assessed under three experimental conditions: Basic, Self-Awareness, and Feedback Loop, to measure cognitive profiles and social referencing effects. The SWQ was generated via an Automated Multi-Agent Prompting Framework using GPT-4o and validated by domain experts.
+
 
 ## Notes
 

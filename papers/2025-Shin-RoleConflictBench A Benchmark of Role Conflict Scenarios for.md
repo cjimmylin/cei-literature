@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Humans often encounter role conflicts—social dilemmas where the exp
 ethics_perspective: "Bias & Fairness"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini, Qwen"
+DATA_URL: "https://github.com/ddindidu/RoleConflictBench"
 ---
 # RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity
 
@@ -61,6 +64,10 @@ Humans often encounter role conflicts—social dilemmas where the expectations o
 ## Dataset Information
 
 13K+ realistic role conflict scenarios across 65 roles; three-stage generation pipeline; systematically varying social expectations and urgency levels
+
+## Data Description
+
+RoleConflictBench is a story-based benchmark of over 13,914 role conflict scenarios spanning 65 social roles across five domains (Family, Occupation, Society, Interpersonal Relationship, Religion). Scenarios are generated through a three-stage pipeline that systematically varies role expectations and situational urgency levels (3x3 grid), producing first-person vignettes depicting social dilemmas with binary choice outcomes.
 
 ## Notes
 

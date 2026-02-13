@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Fuse moral reasoning"
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, Claude, Llama-2, Llama-3"
+DATA_URL: "https://github.com/yuanchencn/Collective-Moral-Reasoning"
 ---
 # Probabilistic Aggregation and Targeted Embedding Optimization for Collective Moral Reasoning in Large Language Models
 
@@ -92,6 +95,11 @@ Moral alignment shouldn't rely on a single "oracle" model. A collective approach
 ## Authors
 
 [[Chenchen Yuan]], [[Zheyu Zhang]], [[Shuo Yang]], [[Bardh Prenkaj]], [[Gjergji Kasneci]]
+
+## Data Description
+
+The study uses 42,501 moral dilemmas from the AITA (Am I The Asshole) Reddit dataset, neutralized into 150-token summaries using GPT-4o-Mini. Each dilemma is annotated by multiple LLMs with continuous moral acceptability scores across five moral philosophical theories (justice, virtue, deontology, utilitarianism, and commonsense morality), enabling probabilistic aggregation of collective moral judgments.
+
 
 ## Notes
 

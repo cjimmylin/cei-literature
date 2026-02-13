@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for ai safety dataset for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 DATE_ADDED: 20260207
 ---
 # The Scales of Justitia: A Comprehensive Survey on Safety Evaluation of LLMs
@@ -65,6 +68,11 @@ With the rapid advancement of artificial intelligence technology, Large Language
 ## Authors
 
 [[Songyang Liu]], [[Chaozhuo Li]], [[Jiameng Qiu]], [[Xi Zhang]], [[Feiran Huang]], [[Litian Zhang]], [[Yiming Hei]], [[Philip S. Yu]]
+
+## Data Description
+
+This paper is a comprehensive survey on safety evaluation of LLMs, covering a four-dimensional taxonomy: why, what, where, and how to evaluate. It reviews existing evaluation tasks (toxicity, robustness, ethics, bias, fairness, truthfulness), metrics, datasets, benchmarks, and evaluation methods but does not introduce a new dataset or directly test specific LLMs.
+
 
 ## Notes
 

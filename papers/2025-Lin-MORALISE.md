@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning annotated dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4o, Gemma, Qwen, Phi, Llama"
+DATA_URL: "https://huggingface.co/datasets/Ze1025/MORALISE"
 ---
 # MORALISE: A Structured Benchmark for Moral Alignment in Visual Language Models
 
@@ -64,6 +67,11 @@ Warning: This paper contains examples of harmful language and images. Reader dis
 ## Authors
 
 [[Xiao Lin]], [[Zhining Liu]], [[Ze Yang]], [[Gaotang Li]], [[Ruizhong Qiu]], [[Shuke Wang]], [[Hui Liu]], [[Haotian Li]], [[Sumit Keswani]], [[Vishwa Pardeshi]], [[Huijun Zhao]], [[Wei Fan]], [[Hanghang Tong]]
+
+## Data Description
+
+MORALISE is a structured benchmark for evaluating the moral alignment of vision-language models (VLMs), comprising 2,481 expert-verified real-world image-text pairs across 13 moral topics grounded in Turiel's Domain Theory. The dataset includes modality-centric annotations distinguishing text-based and image-based moral violations. It evaluates 19 open- and closed-source VLMs on two tasks: moral judgment and moral norm attribution, covering personal, interpersonal, and societal moral domains.
+
 
 ## Notes
 

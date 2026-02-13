@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "10 categories"
+LLM_assessed: "Mistral, Llama-3, Gemma, Qwen"
+DATA_URL: "https://huggingface.co/datasets/BSC-LT/EsBBQ, https://huggingface.co/datasets/BSC-LT/CaBBQ, https://github.com/langtech-bsc/EsBBQ-CaBBQ"
 ---
 # EsBBQ and CaBBQ: The Spanish and Catalan Bias Benchmarks for Question Answering
 
@@ -64,6 +67,11 @@ Previous literature has largely shown that Large Language Models (LLMs) perpetua
 ## Authors
 
 [[Valle Ruiz-Fernández]], [[Mario Mina]], [[Júlia Falcão]], [[Luis Vasquez-Reina]], [[Anna Sallés]], [[Aitor Gonzalez-Agirre]], [[Olatz Perez-de-Viñaspre]]
+
+## Data Description
+
+EsBBQ and CaBBQ are parallel Spanish and Catalan bias benchmarks for question answering, culturally adapted from the original BBQ dataset. They contain 27,320 instances generated from 323 templates across 10 social categories (including Age, Gender, LGBTQIA, Nationality, Race/Ethnicity, and a new Spanish Region category), designed to evaluate social bias in LLMs through multiple-choice QA in ambiguous and disambiguated contexts.
+
 
 ## Notes
 

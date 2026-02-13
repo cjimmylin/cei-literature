@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Gemma"
+DATA_URL: "https://github.com/agiresearch/MoralBench"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260207
 ---
@@ -54,6 +57,11 @@ DATE_ADDED: 20260207
 ## Abstract
 
 In the rapidly evolving field of artificial intelligence, large language models (LLMs) have emerged as powerful tools for a myriad of applications, from natural language processing to decision-making support systems. However, as these models become increasingly integrated into societal frameworks, the imperative to ensure they operate within ethical and moral boundaries has never been more critical. This paper introduces a novel benchmark designed to measure and compare the moral reasoning capabilities of LLMs. We present the first comprehensive dataset specifically curated to probe the moral dimensions of LLM outputs, addressing a wide range of ethical dilemmas and scenarios reflective of real-world complexities. The main contribution of this work lies in the development of benchmark datasets and metrics for assessing the moral identity of LLMs, which accounts for nuance, contextual sensitivity, and alignment with human ethical standards. We publicly release the benchmark datasets1 and also open-source the code of the project2.
+
+## Data Description
+
+MoralBench is a benchmark for evaluating the moral identity of LLMs, built on two datasets: MFQ-30-LLM (adapted from the 30-item Moral Foundations Questionnaire) and MFV-LLM (adapted from 132 Moral Foundations Vignettes). The benchmark assesses moral reasoning across six dimensions (Care, Fairness, Loyalty, Authority, Sanctity, Liberty) using both binary agree/disagree assessments and comparative moral assessments where models choose between paired moral statements.
+
 
 ## Notes
 

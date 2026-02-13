@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Vicuna, Claude"
+DATA_URL: "https://safe-and-ethical.ai/stream/en"
 ---
 # STREAM: Social data and knowledge collective intelligence platform for TRaining Ethical AI Models
 
@@ -97,6 +100,11 @@ Top-down ethical rules are insufficient for general-purpose AI. We need "living"
 ## Authors
 
 [[Yuwei Wang]], [[Enmeng Lu]], [[Zizhe Ruan]], [[Yao Liang]], [[Yi Zeng]]
+
+## Data Description
+
+STREAM is a social data and knowledge collective intelligence platform for training ethical AI models. It contains 120 situation-action moral judgment scenarios annotated by 51 human subjects with 12,498 moral judgments, covering dimensions of judgment type, degree, and confidence. The platform was used to test moral judgment performance of multiple LLMs including GPT-4, GPT-3.5-turbo, Llama-2 (7b, 13b, 70b), Vicuna (7b, 13b, 33b), Claude2, WizardLM-13b, MPT-30b, and ChatGLM2-6b.
+
 
 ## Notes
 

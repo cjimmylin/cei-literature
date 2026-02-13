@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Machine Psychology
 
@@ -61,6 +64,11 @@ Large language models (LLMs) show increasingly advanced emergent capabilities an
 ## Authors
 
 [[Thilo Hagendorff]], [[Ishita Dasgupta]], [[Marcel Binz]], [[Stephanie C. Y. Chan]], [[Andrew Lampinen]], [[Jane X. Wang]], [[Zeynep Akata]], [[Eric Schulz]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a review and position paper that surveys the emerging field of 'machine psychology,' discussing how experimental paradigms from psychology can be applied to study LLM behavior across domains including heuristics and biases, social interactions, psychology of language, and learning.
+
 
 ## Notes
 

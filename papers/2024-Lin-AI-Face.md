@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness annotated dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/Purdue-M2/AI-Face-FairnessBench"
 ---
 # AI-Face: A Million-Scale Demographically Annotated AI-Generated Face Dataset and Fairness Benchmark
 
@@ -55,6 +58,11 @@ AI-generated faces have enriched human life, such as entertainment, education, a
 ## Authors
 
 [[Li Lin]], [[Santosh]], [[Mengyue Wu|Mingyang Wu]], [[Xin Wang]], [[Shu Hu]]
+
+## Data Description
+
+AI-Face is a million-scale demographically annotated AI-generated face image dataset comprising 400,885 real face images and 1,245,660 fake face images from 37 generation methods across three categories: deepfake videos, GAN-generated faces, and diffusion model-generated faces. Each face is annotated with skin tone (using the 10-shade Monk Skin Tone Scale), gender, and age attributes. The dataset is built from multiple public sources including FFHQ, IMDB-WIKI, FF++, DFDC, DFD, Celeb-DF-v2, 10 GAN models, and 8 diffusion models, with a comprehensive fairness benchmark evaluating 12 representative AI face detectors.
+
 
 ## Notes
 

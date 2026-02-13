@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "With LLM usage becoming widespread across countries, languages, and h
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Gemini, Claude, Llama, Qwen"
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
 # Measuring Moral LLM Responses in Multilingual Capacities
@@ -63,6 +66,10 @@ With LLM usage becoming widespread across countries, languages, and humanity mor
 ## Dataset Information
 
 See report
+
+## Data Description
+
+This study creates a dataset of 500 questions across five ethical categories (Biases & Stereotypes, Consent & Autonomy, Harm Prevention & Safety, Legality, Moral Judgment) translated into six languages. It evaluates Gemini 2.5 Pro, Claude Sonnet 4, Llama 4 Scout, and Qwen3 235B using a five-point grading rubric with Gemini 2.5 Pro as judge LLM, measuring consistency and accuracy of moral responses across multilingual contexts.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Chinese Role Playing Personas"
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset for conversational ai"
 data_metrics: "23,020 examples"
+LLM_assessed: "GPT-4, GPT-3.5"
+DATA_URL: "https://github.com/morecry/CharacterEval"
 ---
  CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation
 
@@ -95,6 +98,11 @@ RPCAs require culturally and linguistically grounded evaluation. CharacterEval p
 *   **CharacterEval Dataset**: 11,376 dialogue examples across 77 characters.
 *   **CharacterRM**: A role-playing reward model for automated evaluation.
 *   **Evaluation Pipeline**: A standardized suite for testing Chinese generative agents.
+
+## Data Description
+
+CharacterEval is a Chinese benchmark for evaluating Role-Playing Conversational Agents (RPCAs), comprising 1,785 multi-turn role-playing dialogues with 11,376 examples featuring 77 characters derived from Chinese novels and scripts. The benchmark employs thirteen targeted metrics across four dimensions (conversational ability, character consistency, role-playing attractiveness, and personality back-testing). The dataset includes detailed character profiles sourced from Baidu Baike and was constructed through GPT-4-based dialogue extraction followed by human quality control.
+
 
 ## Notes
 

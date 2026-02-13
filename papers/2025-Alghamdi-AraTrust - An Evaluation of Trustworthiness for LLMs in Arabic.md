@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "The swift progress and widespread acceptance of artificial intelligen
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-2"
+DATA_URL: "NA"
 ---
 # AraTrust -- An Evaluation of Trustworthiness for LLMs in Arabic
 
@@ -63,6 +66,10 @@ The swift progress and widespread acceptance of artificial intelligence (AI) sys
 ## Dataset Information
 
 522 human-written multiple-choice questions
+
+## Data Description
+
+AraTrust is the first comprehensive trustworthiness benchmark for LLMs in Arabic, comprising 522 human-written multiple-choice questions across eight categories: truthfulness, ethics, safety, physical health, mental health, unfairness, illegal activities, privacy, and offensive language. GPT-4, GPT-3.5 Turbo, AceGPT (7B and 13B, based on Llama-2), and Jais 13B were evaluated in zero-shot, one-shot, five-shot, and zero-shot chain-of-thought settings.
 
 ## Notes
 

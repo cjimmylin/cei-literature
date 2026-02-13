@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/jiyounglee-0523/VisAlign"
 ---
 # VisAlign: Dataset for Measuring the Alignment between AI and Humans in Visual Perception
 
@@ -88,6 +91,11 @@ The authors conclude that VisAlign is the first dataset to comprehensively measu
 - Code and data: https://github.com/jiyounglee-0523/VisAlign
 - Training set: Subset of ImageNet-21K for Category 1 samples
 - Open and closed test splits for external evaluation
+
+## Data Description
+
+VisAlign is a dataset for measuring AI-human visual perception alignment in image classification, consisting of 2,900 images across 10 mammal classes divided into three groups: Must-Act (clearly identifiable), Must-Abstain (should not classify), and Uncertain (corrupted or cropped). The Uncertain group includes gold human perception labels from 134 MTurk annotators per image, with 8 categories covering diverse real-world scenarios including adversarial perturbations, spurious correlations, and varying corruption intensities.
+
 
 ## Notes
 

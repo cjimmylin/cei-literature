@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Computational preference elicitation methods are tools used to learn 
 ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # On the Pros and Cons of Active Learning for Moral Preference Elicitation
 
@@ -65,6 +68,10 @@ Computational preference elicitation methods are tools used to learn people’s 
 ## Dataset Information
 
 Synthetic simulation of moral preferences with varying assumption violations (instability, noise, hypothesis class mismatch)
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents synthetic simulations of moral preference elicitation using active learning algorithms (version-space-based and Bayesian) compared to random query baselines, testing scenarios of preference instability, model misspecification, and noisy responses with simulated linear utility agents.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for ai safety text corpus"
 data_metrics: "31 categories"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/UnicomAI/UnicomBenchmark/tree/main/CHiSafetyBench"
 publication: arXiv
 DATE_ADDED: 20260207
 ---
@@ -57,6 +60,11 @@ With the profound development of large language models(LLMs), their safety conce
 ## Authors
 
 [[Wenjing Zhang]], [[Xuanyu Lei|Xuejiao Lei]], [[Zhaoxiang Liu]], [[Meijuan An]], [[Bikun Yang]], [[Kangkang Zhao|KaiKai Zhao]], [[Kaile Wang|Kai Wang]], [[Shiguo Lian]]
+
+## Data Description
+
+CHiSafetyBench is a Chinese hierarchical safety benchmark for evaluating LLMs, featuring a dataset covering 5 risk areas and 31 categories based on Chinese government safety standards. It comprises 1,567 multiple-choice questions and 563 risky questions in question-answering format, with an LLM-based automatic evaluation method used to assess 10 mainstream Chinese LLMs on risk content identification and refusal-to-answer capabilities.
+
 
 ## Notes
 

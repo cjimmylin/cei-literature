@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ abstract:
 ethics_perspective: "Social & Cultural Values"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-2"
+DATA_URL: "https://huggingface.co/datasets/cyberagent/chatbot-arena-ja-calm2-7b-chat-experimental"
 ---
 # Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?
 
@@ -59,6 +62,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Datasets used: JCommonsenseMorality (Japanese), ETHICS (English)
+
+## Data Description
+
+This study uses two commonsense morality datasets: the JCommonsenseMorality (JCM) dataset, which contains short sentences about moral judgments collected from Japanese-speaking crowd workers, and the commonsense morality subset of the ETHICS dataset collected from English speakers in the US, Canada, and Great Britain. Both datasets were cross-translated (JCM to English and ETHICS to Japanese) to isolate cultural versus linguistic effects when fine-tuning three Japanese LLMs (CALM2-7B, llm-jp-13B, Swallow-7B) using DPO alignment.
 
 ## Notes
 

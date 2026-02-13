@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://osf.io/9gnza"
 ---
 # The Dutch Moral Foundations Stimulus Database: A Validation of Standardized Vignettes and Socio-Moral Images in a Dutch Sample
 
@@ -59,6 +62,11 @@ Moral judgments are shaped by socialization and cultural heritage. Understanding
 ## Authors
 
 [[Franziska Hopp]]
+
+## Data Description
+
+The dataset comprises Dutch translations of 120 Moral Foundations Vignettes and 120 selected images from the Socio-Moral Image Database (SMID), validated using over 38,460 individual moral and affective judgments from 586 Dutch crowd-workers. Stimuli cover seven moral foundation categories plus social norm transgressions, with ratings on moral wrongness, comprehensibility, imaginability, frequency, and emotional response.
+
 
 ## Notes
 

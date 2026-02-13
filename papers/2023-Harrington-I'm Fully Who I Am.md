@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-2, OPT, ChatGPT"
+DATA_URL: "https://github.com/anaeliaovalle/TANGO-Centering-Transgender-Nonbinary-Voices-for-OLG-BiasEval"
 pdf_extract: "PDF Extracts/2023/2023-Harrington-I'm Fully Who I Am.md"
 ---
 # I'm Fully Who I Am: Towards Centering Transgender and Non-Binary Voices to Measure Biases in Open Language Generation
@@ -60,6 +63,11 @@ Although much literature has established the presence of demographic bias in\nna
 ## Authors
 
 [[Christina Harrington]]
+
+## Data Description
+
+TANGO is a dataset for evaluating gender non-affirmation in open language generation, consisting of two prompt sets grounded in real-world text from the Nonbinary Wiki community. The misgendering evaluation set contains 2,880 prompts testing pronoun consistency across six pronoun families (she, he, they, xe, ey, fae) with four antecedent types. The gender identity disclosure set comprises 1,422,720 prompts combining 52 gender identities, 18 disclosure forms, and 1,520 nonbinary names. Four LLMs (GPT-2, GPT-Neo, OPT, ChatGPT) were evaluated at multiple model sizes.
+
 
 ## Notes
 

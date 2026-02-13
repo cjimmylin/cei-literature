@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, OPT, Flan-T5, Llama-2, Falcon, BLOOM"
+DATA_URL: "https://github.com/HazyResearch/legalbench/"
 ---
 # LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models
 
@@ -56,6 +59,11 @@ The advent of large language models (LLMs) and their adoption by the legal commu
 ## Authors
 
 [[Neel Guha]], [[Julian Nyarko]], [[Daniel E. Ho]], [[Christopher Ré]], [[Adam Chilton]], [[Aditya Narayana]], [[Alex Chohlas-Wood]], [[Austin Peters]], [[Brandon Waldon]], [[Daniel N. Rockmore]], [[Diego Zambrano]], [[Dmitry Talisman]], [[Enamul Hoque|Enam Hoque]], [[Faiz Surani]], [[Frank Fagan]], [[Galit Sarfaty]], [[Gregory M. Dickinson]], [[Haggai Porat]], [[Jason Hegland]], [[Jessica Wu]], [[Joe Nudell]], [[Joel Niklaus]], [[John Nay]], [[Jonathan H. Choi]], [[Kevin Tobia]], [[Margaret Hagan]], [[Megan Ma]], [[Michael Livermore]], [[Nikon Rasumov-Rahe]], [[Nils Holzenberger]], [[Noam Kolt]], [[Peter Henderson]], [[Sean Rehaag]], [[Shashwat Goel|Sharad Goel]], [[Shang Gao]], [[Spencer Williams]], [[Sunny Gandhi]], [[Tom Zur]], [[Varun Iyer]], [[Zehua Li]]
+
+## Data Description
+
+LegalBench is a collaboratively constructed legal reasoning benchmark consisting of 162 tasks covering six types of legal reasoning: issue-spotting, rule-recall, rule-application, rule-conclusion, interpretation, and rhetorical-understanding. Tasks are drawn from 36 distinct corpora and include binary classification, multi-class classification, multiple-choice, and open-generation formats. Twenty LLMs from 11 families were evaluated, including commercial models (GPT-4, GPT-3.5, Claude-1) and 17 open-source models at 3B, 7B, and 13B parameter sizes.
+
 
 ## Notes
 

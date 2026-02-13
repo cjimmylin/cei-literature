@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ abstract: "The current project focuses on models of 'artificial moral learning' 
 ethics_perspective: "Meta-Ethics"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Moral Coherentism in the Age of Artificial Intelligence: A Project in Machine Moral Learning
 
@@ -65,6 +68,10 @@ The current project focuses on models of "artificial moral learning" (as a type 
 ## Dataset Information
 
 Theoretical framework for moral coherentism in AI systems. No dataset — this is a theoretical/philosophical paper.
+
+## Data Description
+
+No PDF extract available for analysis.
 
 ## Notes
 

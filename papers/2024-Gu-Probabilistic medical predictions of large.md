@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "Qwen, Llama-3, Gemma, Mistral, Phi"
+DATA_URL: "https://github.com/gubowen2/Probabilistic-Medical-Predictions-of-Large-Language-Models"
 pdf_extract: "PDF Extracts/2024/2024-Gu-Probabilistic medical predictions of large.md"
 local_pdf: "[[PDFs/2024/2024-Gu-Probabilistic medical predictions of large.pdf]]"
 ---
@@ -95,6 +98,11 @@ The study demonstrates that explicit probabilities from LLMs are less reliable t
 
 - Code repository: https://github.com/gubowen2/Probabilistic-Medical-Predictions-of-Large-Language-Models
 - Framework for evaluating probabilistic reliability of LLMs in medical contexts
+
+## Data Description
+
+The study evaluates probabilistic predictions of LLMs on five medical datasets: MMLU-Clinical Knowledge (299 questions), MMLU-College Medicine (200 questions), USMLE (1,000-question subset), MCMLE (1,000-question subset), and a private MGB-SDoH dataset (200 patients, 9 SDoH aspects). Six large open-source LLMs (Qwen2-72B, Llama-3.1-70B, Gemma-2-27b, Mistral-Large, Yi-1.5-34B, Phi-3-medium) and six smaller counterparts were tested on binary classification tasks comparing explicit vs. implicit probability outputs.
+
 
 ## Notes
 

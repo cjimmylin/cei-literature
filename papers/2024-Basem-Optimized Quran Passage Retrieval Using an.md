@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for question answering"
 data_metrics: "251 questions; 629 questions"
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "NA"
 ---
 # Optimized Quran Passage Retrieval Using an Expanded QA Dataset and Fine-Tuned Language Models
 
@@ -55,6 +58,11 @@ Understanding the deep meanings of the Qur'an and bridging the language gap betw
 ## Authors
 
 [[Mohamed Basem]], [[Islam Oshallah]], [[Baraa Hikal]], [[Ali Hamdi]], [[Abubakr Mohamed|Ammar Mohamed]]
+
+## Data Description
+
+The study uses an expanded Quran Question Answering dataset containing 1,895 questions (up from 251 original questions) categorized into single-answer, multi-answer, and zero-answer types. The dataset was compiled from the Quran QA 2022 dataset, Kaggle, Tafseer books, and Hugging Face datasets, and was used to fine-tune Arabic transformer models including AraBERT, CAMeLBERT, AraELECTRA, RoBERTa, and BERT for Quranic passage retrieval.
+
 
 ## Notes
 

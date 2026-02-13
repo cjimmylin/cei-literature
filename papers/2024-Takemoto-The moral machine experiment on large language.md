@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, PaLM-2, Llama-2"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Takemoto-The moral machine experiment on large language.md"
 local_pdf: "[[PDFs/2024/2024-Takemoto-The moral machine experiment on large language.pdf]]"
 normative_ethics_benchmark: Borderline
@@ -99,6 +102,11 @@ The study concludes that while LLMs share qualitative moral preferences with hum
 
 - **Code**: Scenario generation code available in supplementary materials
 - **Data**: 50,000 generated Moral Machine scenarios with LLM responses
+
+## Data Description
+
+The study applies the Moral Machine framework to evaluate LLM ethical decision-making, generating 50,000 autonomous driving moral dilemma scenarios across nine preference dimensions (species, social value, gender, age, fitness, utilitarianism, interventionism, relationship to AV, and concern for law). Responses from four LLMs are compared with human preferences using conjoint analysis and AMCE values.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-3, Mixtral, Qwen, Claude"
+DATA_URL: "https://github.com/hamidds/ISN"
 pdf_extract: "PDF Extracts/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.md"
 local_pdf: "[[PDFs/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.pdf]]"
 ---
@@ -53,6 +56,11 @@ Creating globally inclusive AI systems demands datasets reflecting diverse socia
 ## Authors
 
 [[Hamidreza Saffari]], [[Mohammadamin Shafiei]], [[Donya Rooein]], [[Francesco Pierri]], [[Debora Nozza]]
+
+## Data Description
+
+The paper introduces the Iranian Social Norms (ISN) dataset, comprising 1,699 human-annotated social norms specific to Iranian culture, categorized as Expected, Normal, or Taboo, with environment, demographic features, and scope annotations in both Farsi and English. Six LLMs (Llama-3-8B, Llama-3.1-8B, Mixtral-8x7B, Qwen2-7B, Aya-23-8B, and GPT-4o) were evaluated on social norm classification in zero-shot settings across default and Iran-specific prompting strategies.
+
 
 ## Notes
 

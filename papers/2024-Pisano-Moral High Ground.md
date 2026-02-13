@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "Flan-T5, Falcon, Llama-2"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Pisano-Moral High Ground.md"
 local_pdf: "[[PDFs/2024/2024-Pisano-Moral High Ground.pdf]]"
 ---
@@ -54,6 +57,11 @@ This paper introduces a benchmark for the evaluation of large language models on
 ## Authors
 
 [[Matthew Pisano]], [[Keerthiram Murugesan]], [[Lamogha Chiazor]], [[Lan Hoang]], [[Karthikeyan Natesan Ramamurthy]], [[Kush R. Varshney]]
+
+## Data Description
+
+The paper introduces Moral High Ground, a text-based games benchmark for evaluating moral and ethical reasoning in LLMs, built using Microsoft's TextWorld engine. The benchmark contains 30 conversational games covering business ethics (BCG principles) and social values (Moral Foundations Theory axes), generating approximately 60,000 prompt-response-score triplets. Models including Flan-UL2, Flan-T5, Falcon, Open Assistant, and Llama-2 are evaluated before and after fine-tuning or instruction-tuning on game trajectories.
+
 
 ## Notes
 

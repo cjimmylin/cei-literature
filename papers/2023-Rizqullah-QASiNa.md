@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, BERT"
+DATA_URL: "https://github.com/rizquuula/QASiNa"
 ---
 # QASiNa: Religious Domain Question Answering using Sirah Nabawiyah
 
@@ -62,6 +65,11 @@ Nowadays, Question Answering (QA) tasks receive significant research focus, part
 ## Authors
 
 [[Muhammad Razif Rizqullah]], [[Ayu Purwarianti]], [[Alham Fikri Aji]]
+
+## Data Description
+
+The paper introduces QASiNa (Question Answering Sirah Nabawiyah), a novel dataset of 500 question-answer pairs from 66 contexts about Islamic prophetic biography in Indonesian language. The dataset was compiled from 9 Sirah Nabawiyah literature sources and validated by domain experts. Models evaluated include mBERT, XLM-R, IndoBERT (fine-tuned with SQuAD-ID), and ChatGPT (GPT-3.5-turbo and GPT-4).
+
 
 ## Notes
 

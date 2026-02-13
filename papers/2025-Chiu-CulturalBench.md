@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, o1, Llama-3, Mistral, DeepSeek, Qwen, Gemma"
+DATA_URL: "https://hf.co/spaces/kellycyy/CulturalBench"
 ---
 # CulturalBench: A Robust, Diverse, and Challenging Cultural Benchmark by Human-AI CulturalTeaming
 
@@ -61,6 +64,11 @@ Robust, diverse, and challenging cultural knowledge benchmarks are essential for
 ## Authors
 
 [[Yu Ying Chiu]], [[Liwei Jiang]], [[Bill Yuchen Lin]], [[Chan Young Park]], [[Shuyue Stella Li]], [[Sahithya Ravi]], [[Mehar Bhatia]], [[Maria Antoniak]], [[Yulia Tsvetkov]], [[Vered Shwartz]], [[Yejin Choi]]
+
+## Data Description
+
+CulturalBench is a benchmark of 1,696 human-written and human-verified cultural knowledge questions covering 45 global regions and 17 topics, constructed through a human-AI red-teaming pipeline. The benchmark includes Easy (multiple-choice) and Hard (True/False) formats, testing 29 models from families including GPT, Llama, DeepSeek, Mistral, and Qwen, with best-performing model OpenAI o1 achieving only 61.4% on the Hard version compared to 92.4% human accuracy.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Comparative analysis of two AI chatbot responses to utilitarian ethics questions"
 data_metrics: "Qualitative philosophical analysis"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # How Ethical Is Utilitarian Ethics? A Study in Artificial Intelligence
 
@@ -66,6 +69,11 @@ This study serves two purposes. One purpose is to identify and explore the struc
 ## Authors
 
 [[Robert W. McGee]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical working paper that uses Microsoft Copilot and Gab AI as qualitative research tools to explore structural weaknesses of utilitarian ethics through prompted conversations, applying deontological and virtue ethics perspectives with references to Dostoevsky, Coelho, and Bastiat.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness text corpus for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT, Gemini, Llama-2, Mistral, Mixtral"
+DATA_URL: "NA"
 ---
 # Realistic Evaluation of Toxicity in Large Language Models
 
@@ -57,6 +60,11 @@ Large language models (LLMs) have become integral to our professional workflows 
 ## Authors
 
 [[Tinh Son Luong]], [[Thanh-Thien Le]], [[Linh Ngo Van]], [[Thao Nguyen|Thien Huu Nguyen]]
+
+## Data Description
+
+The paper introduces the Thoroughly Engineered Toxicity (TET) dataset, comprising 2,546 prompts filtered from over 1 million real-world interactions in the chat-lmsys-1M dataset. The dataset is designed to evaluate LLM toxicity using realistic and jailbreak scenarios. Models evaluated include ChatGPT 3.5, Gemini Pro, Llama2 (7B, 13B, 70B), Orca2 (7B, 13B), Mistral-7B-v0.1, Mixtral-8x7B-v0.1, OpenChat 3.5, and Zephyr-7B across six toxicity dimensions measured by the Perspective API.
+
 
 ## Notes
 

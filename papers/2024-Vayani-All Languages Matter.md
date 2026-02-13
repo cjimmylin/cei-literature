@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "100 languages"
+LLM_assessed: "GPT-4, Gemini, Qwen, Phi"
+DATA_URL: "https://mbzuai-oryx.github.io/ALM-Bench/"
 ---
 # All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages
 
@@ -62,6 +65,11 @@ Existing Large Multimodal Models (LMMs) generally focus on only a few regions an
 ## Authors
 
 [[Ashmal Vayani]], [[Dinura Dissanayake]], [[Hasindri Watawana]], [[Noor Ahsan]], [[Nevasini Sasikumar]], [[Omkar Thawakar]], [[Henok Biadglign Ademtew]], [[Yahya Hmaiti]], [[Amandeep Kumar]], [[Kartik Kuckreja]], [[Mykola Maslych]], [[Wafa Al Ghallabi]], [[Mihail Mihaylov]], [[Chao Qin]], [[Abdelrahman M. Shaker|Abdelrahman M Shaker]], [[Mike Zhang]], [[Mahardika Krisna Ihsani]], [[Amiel Esplana]], [[Monil Gokani]], [[Shachar Mirkin]], [[Harsh Singh]], [[Ashay Srivastava]], [[Endre Hamerlik]], [[Fathinah Asma Izzati]], [[Fadillah Adamsyah Maani]], [[Sebastian Cavada]], [[Jenny Chim]], [[Rohit Gupta]], [[Sanjay Manjunath]], [[Kamila Zhumakhanova]], [[Feno Heriniaina Rabevohitra]], [[Azril Amirudin]], [[Muhammad Ridzuan]], [[Daniya Kareem]], [[Ketan More]], [[Kunyang Li]], [[Pramesh Shakya]], [[Muhammad Saad]], [[Amirpouya Ghasemaghaei]], [[Amirbek Djanibekov]], [[Dilshod Azizov]], [[Branislava Jankovic]], [[Naman Bhatia]], [[Alvaro Cabrera]], [[Johan Obando-Ceron]], [[Olympiah Otieno]], [[Fabian Farestam]], [[Muztoba Rabbani]], [[Sanoojan Baliah]], [[Santosh Sanjeev]], [[Abduragim Shtanchaev]], [[Maheen Fatima]], [[Thao Nguyen]], [[Amrin Kareem]], [[Toluwani Aremu]], [[Nathan Xavier]], [[Amit Bhatkal]], [[Hawau Toyin]], [[Aman Chadha]], [[Hisham Cholakkal]], [[Rao Muhammad Anwer]], [[Michael Felsberg]], [[Jorma Laaksonen]], [[Thamar Solorio]], [[Monojit Choudhury]], [[Ivan Laptev]], [[Mubarak Shah]], [[Salman Khan]], [[Fahad Khan]]
+
+## Data Description
+
+ALM-bench is a culturally diverse multilingual and multimodal VQA benchmark covering 100 languages with 22,763 question-answer pairs. It spans 73 countries across five continents with 24 distinct scripts, and evaluates 19 generic and culture-specific domains including architecture, customs, heritage, literature, music, and sports. The benchmark includes multiple question formats: multiple choice, true/false, short and long visual question answers, curated with over 800 hours of native-language expert annotation.
+
 
 ## Notes
 

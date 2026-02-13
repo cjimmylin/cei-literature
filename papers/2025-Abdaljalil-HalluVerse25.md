@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Phi, Mistral, Qwen, Gemini, Gemma, Llama-3, PaLM-2"
+DATA_URL: "NA"
 ---
 # HalluVerse25: Fine-grained Multilingual Benchmark Dataset for LLM Hallucinations
 
@@ -62,6 +65,11 @@ Large Language Models (LLMs) are increasingly used in various contexts, yet rema
 ## Authors
 
 [[Samir Abdaljalil]], [[Hasan Kurban]], [[Erchin Serpedin]]
+
+## Data Description
+
+The paper introduces HalluVerse25, a fine-grained multilingual hallucination dataset spanning English (1,310 samples), Arabic (828), and Turkish (978), with entity, relation, and sentence-level hallucination annotations. Ten LLMs are evaluated on hallucination detection including GPT-4o, GPT-4o-mini, phi-4, Mistral-7b-instruct, Qwen-2.5 (7b and 72b), Gemini-flash-1.5-8b, Gemma-2-27b, Llama-3.3-70b, and PaLM 2.
+
 
 ## Notes
 

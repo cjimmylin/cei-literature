@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Mistral, Mixtral, Claude"
+DATA_URL: "https://github.com/NLie2/Triage"
 ---
 # TRIAGE: Ethical Benchmarking of AI Models Through Mass Casualty Simulations
 
@@ -57,6 +60,11 @@ We present the TRIAGE Benchmark, a novel machine ethics (ME) benchmark that test
 ## Authors
 
 [[Nathalie Maria Kirch]], [[Konstantin Hebenstreit]], [[Matthias Samwald]]
+
+## Data Description
+
+The TRIAGE benchmark consists of 87 patient descriptions taken from START and jumpSTART medical triage training materials, where models must assign patients to one of four triage categories (Minor, Delayed, Immediate, Expectant/Deceased). Six LLMs are tested under a 3x3 study design varying prompt types (baseline, ethics, jailbreaking) and triage category descriptions (neutral, action-oriented, outcome-oriented), yielding 9 conditions per model. Mixed logistic regression analysis evaluates performance differences across models and conditions.
+
 
 ## Notes
 

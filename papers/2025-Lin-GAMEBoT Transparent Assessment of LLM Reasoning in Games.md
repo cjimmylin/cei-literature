@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large Language Models (LLMs) are increasingly deployed in real-world 
 research_topic: "Interpretability & Explainability"
 data_description: "Benchmark"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4o, GPT-4, Claude, Gemini, Llama-3, Mistral"
+DATA_URL: "https://visual-ai.github.io/gamebot"
 ---
 # GAMEBoT: Transparent Assessment of LLM Reasoning in Games
 
@@ -62,6 +65,10 @@ Large Language Models (LLMs) are increasingly deployed in real-world application
 ## Dataset Information
 
 8 games (including Pong, TicTacToe, Texas Hold'em, etc.); dynamic game-based evaluation with CoT prompts and rule-based ground truth generation
+
+## Data Description
+
+GAMEBoT is a gaming arena benchmark for evaluating LLM reasoning capabilities across eight competitive games (Othello, Pong, Surround, Checkers, TicTacToe, Connect4, Texas Hold'em, Negotiation v2). The benchmark evaluates 17 prominent LLMs through 20-match head-to-head competitions, assessing both final game outcomes and intermediate reasoning steps using rule-based ground truth verification. Each game decomposes complex decisions into modular subproblems with chain-of-thought prompts.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: 
 data_metrics:
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # AI Ethics with Aristotle
 
@@ -56,6 +59,11 @@ This white paper argues that AI systems should be understood, developed, and dep
 ## Authors
 
 [[Josiah Ober]], [[John Tasioulas]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical white paper arguing that Aristotelian ethics provides the most compelling framework for addressing the challenges and opportunities of artificial intelligence, covering human nature, ethics, political community, AI as intelligent tools, and regulatory guidance.
+
 
 ## Notes
 

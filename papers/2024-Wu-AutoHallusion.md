@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini, Claude"
+DATA_URL: "https://github.com/wuxiyang1996/AutoHallusion"
 ---
 # AutoHallusion: Automatic Generation of Hallucination Benchmarks for Vision-Language Models
 
@@ -64,6 +67,11 @@ Large vision-language models (LVLMs) are prone to hallucinations, where certain 
 ## Authors
 
 [[Xiyang Wu]], [[Tianrui Guan]], [[Dianqi Li]], [[Shuaiyi Huang]], [[Xiaoyu Liu]], [[Xijun Wang]], [[Ruiqi Xian]], [[Abhinav Shrivastava]], [[Furong Huang]], [[Jordan Lee Boyd-Graber]], [[Tianyi Zhou]], [[Dinesh Manocha]]
+
+## Data Description
+
+AutoHallusion is the first automated benchmark generation approach for evaluating hallucinations in large vision-language models. It uses three image manipulation strategies (abnormal object insertion, paired object insertion, and correlated object removal) to create visual-question pairs that trigger hallucinations, achieving 97.7% and 98.7% success rates on synthetic and real-world datasets respectively.
+
 
 ## Notes
 

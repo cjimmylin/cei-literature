@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "We investigate the phenomenon of norm inconsistency: where LLMs apply
 ethics_perspective: "Bias & Fairness"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini, Claude"
+DATA_URL: "NA"
 ---
 # Norm Inconsistency in LLM Decision-Making
 
@@ -65,6 +68,10 @@ We investigate the phenomenon of norm inconsistency: where LLMs apply different 
 ## Dataset Information
 
 Thousands of Amazon Ring home surveillance video descriptions; annotated for criminal activity, subject skin-tone, gender, and neighborhood demographics
+
+## Data Description
+
+This paper evaluates norm inconsistency in LLM decision-making using 928 Amazon Ring home surveillance videos from the Calacci, Shen, and Pentland (2022) dataset. Videos are annotated for activity type (6 categories including theft, break-in, entryway interactions), subject skin-tone, gender, and setting, with neighborhood demographic data from Census tract ACS 5-year estimates. Each video is evaluated with crime and police prompts across three iterations per model.
 
 ## Notes
 

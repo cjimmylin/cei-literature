@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-2, Llama-3, Mistral, Gemma"
+DATA_URL: "https://aka.ms/pariksha"
 ---
 # PARIKSHA: A Large-Scale Investigation of Human-LLM Evaluator Agreement on Multilingual and Multi-Cultural Data
 
@@ -64,6 +67,11 @@ Evaluation of multilingual Large Language Models (LLMs) is challenging due to a 
 ## Authors
 
 [[Ishaan Watts]], [[Varun Gumma]], [[Aditya Yadavalli]], [[Vivek Seshadri]], [[Manohar Swaminathan]], [[Sunayana Sitaram]]
+
+## Data Description
+
+PARIKSHA is a large-scale multilingual evaluation benchmark covering 10 Indic languages with 90K human evaluations and 30K LLM-based evaluations across 30 models. The benchmark uses culturally-nuanced prompts created by native speakers and evaluates models in pairwise comparison and direct assessment settings, also analyzing human-LLM evaluator agreement.
+
 
 ## Notes
 

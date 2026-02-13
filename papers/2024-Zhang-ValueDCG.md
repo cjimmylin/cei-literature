@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-2, Llama-3"
+DATA_URL: "https://github.com/zowiezhang/ValueDCG"
 ---
 # ValueDCG: Measuring Comprehensive Human Value Understanding Ability of Language Models
 
@@ -63,6 +66,11 @@ Personal values are a crucial factor behind human decision-making. Considering t
 ## Authors
 
 [[Zhaowei Zhang]], [[Fengshuo Bai]], [[Jun Gao]], [[Yaodong Yang]]
+
+## Data Description
+
+ValueDCG proposes a comprehensive evaluation metric measuring the discrepancy between LLMs' 'know what' (discriminator) and 'know why' (critique) capabilities regarding human values understanding. Four open-source LLMs (Llama-2 7B/13B/70B and Llama-3 8B) are evaluated across 13 human value types from the ETHICS and ValueNet datasets, using attribution analysis, counterfactual analysis, and rebuttal argument dimensions, with GPT-4o serving as the automated evaluator.
+
 
 ## Notes
 

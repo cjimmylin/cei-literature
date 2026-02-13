@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "As LLMs excel on standard reading comprehension benchmarks, attention
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, Mistral, Mixtral, Qwen, DeepSeek, o3"
+DATA_URL: "https://huggingface.co/datasets/cardiffnlp/Morables"
 ---
 # MORABLES: A Benchmark for Assessing Abstract Moral Reasoning in LLMs with Fables
 
@@ -62,6 +65,10 @@ As LLMs excel on standard reading comprehension benchmarks, attention is shiftin
 ## Dataset Information
 
 Literature-based benchmark using fables for abstract moral reasoning, includes adversarial variants
+
+## Data Description
+
+MORABLES is a human-verified benchmark of 709 fables and short stories from historical literature, structured as multiple-choice questions targeting moral inference with carefully crafted distractors. Eleven LLMs are evaluated including Mistral 7B, Llama 3.1 8B, Qwen 2.5 7B, Mixtral 8x22B, Llama 3.3 70B, DeepSeek V3, GPT-4o, Gemini 2.0 Flash, Claude 3.5 Sonnet, GPT-o3-mini, and DeepSeek R1, with adversarial variants (character swaps, trait injection, tautology injection) and alternative evaluation procedures (NOTO, True/False).
 
 ## Notes
 

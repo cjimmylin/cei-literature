@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Mixtral, Claude"
+DATA_URL: "NA"
 ---
 # Exploring the Potential of Large Language Models to Simulate Personality
 
@@ -58,6 +61,11 @@ With the advancement of large language models (LLMs), the focus in Conversationa
 ## Authors
 
 [[Maria Molchanova]], [[Anna Mikhailova]], [[Anna Korzanova]], [[Lidiia Ostyakova]], [[Alexandra Dolidze]]
+
+## Data Description
+
+The study evaluates four proprietary LLMs (GPT-3.5 Turbo, GPT-4 Omni, Mixtral 8x22B, and Claude 3 Haiku) on their ability to simulate Big Five personality traits. The evaluation involves BFI-44 questionnaire answering and personality-related text generation, with approximately 288 text samples annotated by 8 human evaluators and an LLM-based personality classifier for automatic evaluation.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-3, DeepSeek, Qwen"
+DATA_URL: "NA"
 ---
 # Diverse Human Value Alignment for Large Language Models via Ethical Reasoning
 
@@ -51,6 +54,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Ensuring that Large Language Models (LLMs) align with the diverse and evolving human values across different regions and cultures remains a critical challenge in AI ethics. Current alignment approaches often yield superficial conformity rather than genuine ethical understanding, failing to address the complex, context-dependent nature of human values. In this paper, we propose a novel ethical reasoning paradigm for LLMs inspired by well-established ethical decision-making models, aiming at enhancing diverse human value alignment through deliberative ethical reasoning. Our framework consists of a structured five-step process, including contextual fact gathering, hierarchical social norm identification, option generation, multiple-lens ethical impact analysis, and reflection. This theory-grounded approach guides LLMs through an interpretable reasoning process that enhances their ability to understand regional specificities and perform nuanced ethical analysis, which can be implemented with either prompt engineering or supervised fine-tuning methods. We perform evaluations on the SafeWorld benchmark that specially designed for regional value alignment. Experimental results demonstrate our framework significantly improves LLM alignment with diverse human values compared to baseline methods, enabling more accurate social norm identification and more culturally appropriate reasoning. Our work provides a concrete pathway toward developing LLMs that align more effectively with the multifaceted values of global societies through interdisciplinary research.
+
+## Data Description
+
+The paper evaluates its ethical reasoning paradigm on the SafeWorld benchmark, a geo-diverse value alignment dataset containing 2,775 queries across 50 countries and 493 regions. Four LLMs were tested: GPT-4o, Qwen2.5-72B, Llama3.3-70B, and DeepSeek-R1, using norm identification and value alignment scores as evaluation metrics. The framework proposes a five-step ethical reasoning process inspired by established ethical decision-making models.
+
 
 ## Notes
 

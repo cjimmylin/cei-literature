@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/anthropics/hh-rlhf"
 ---
 # Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned
 
@@ -57,6 +60,11 @@ We describe our early efforts to red team language models in order to simultaneo
 ## Authors
 
 [[Deep Ganguli]], [[Liane Lovitt]], [[Jackson Kernion]], [[Amanda Askell]], [[Yuntao Bai]], [[Saurav Kadavath]], [[Ben Mann]], [[Ethan Perez]], [[Nicholas Schiefer]], [[Kamal Ndousse]], [[Andy Jones]], [[Sam Bowman]], [[Anna Chen]], [[Tom Conerly]], [[Nova DasSarma]], [[Dawn Drain]], [[Nelson Elhage]], [[Sheer El-Showk]], [[Stanislav Fort]], [[Zac Hatfield-Dodds]], [[Tom Henighan]], [[Danny Hernandez]], [[Tristan Hume]], [[Josh Jacobson]], [[Scott Johnston]], [[Shauna Kravec]], [[Catherine Olsson]], [[Sam Ringer]], [[Eli Tran-Johnson]], [[Dario Amodei]], [[Tom Brown]], [[Nicholas Joseph]], [[Sam McCandlish]], [[Chris Olah]], [[Jared Kaplan]], [[Jack Clark]]
+
+## Data Description
+
+The paper releases a dataset of 38,961 red team attacks on Anthropic's language models across three model sizes (2.7B, 13B, 52B parameters) and four model types (plain LM, prompted LM, rejection sampling, RLHF). Each attack consists of a multi-turn adversarial conversation with self-reported success ratings on a 5-point Likert scale, plus harmlessness preference comparisons. The dataset includes demographic information from 324 US-based crowdworkers and covers diverse harm categories including offensive language, discrimination, violence, and misinformation.
+
 
 ## Notes
 

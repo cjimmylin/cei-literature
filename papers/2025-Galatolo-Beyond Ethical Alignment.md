@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Moral reasoning capabilities, abductive reasoning"
+LLM_assessed: "Gemma, Llama-3, Phi, Qwen"
+DATA_URL: "https://github.com/alessioGalatolo/AMAeval"
 ---
 # Beyond Ethical Alignment: Evaluating LLMs as Artificial Moral Assistants
 
@@ -52,6 +55,11 @@ data_metrics: "Moral reasoning capabilities, abductive reasoning"
 ## Abstract
 
 The recent rise in popularity of large language models (LLMs) has prompted considerable concerns about their moral capabilities. Although considerable effort has been dedicated to aligning LLMs with human moral values, existing benchmarks and evaluations remain largely superficial, typically measuring alignment based on final ethical verdicts rather than explicit moral reasoning. In response, this paper aims to advance the investigation of LLMs' moral capabilities by examining their capacity to function as Artificial Moral Assistants (AMAs), systems envisioned in the philosophical literature to support human moral deliberation. We assert that qualifying as an AMA requires more than what state-of-the-art alignment techniques aim to achieve: not only must AMAs be able to discern ethically problematic situations, they should also be able to actively reason about them, navigating between conflicting values outside of those embedded in the alignment phase. Building on existing philosophical literature, we begin by designing a new formal framework of the specific kind of behaviour an AMA should exhibit, individuating key qualities such as deductive and abductive moral reasoning. Drawing on this theoretical framework, we develop a benchmark to test these qualities and evaluate popular open LLMs against it. Our results reveal considerable variability across models and highlight persistent shortcomings, particularly regarding abductive moral reasoning. Our work connects theoretical philosophy with practical AI evaluation while also emphasising the need for dedicated strategies to explicitly enhance moral reasoning capabilities in LLMs.
+
+## Data Description
+
+The paper introduces AMAeval, a benchmark for evaluating LLMs as Artificial Moral Assistants (AMAs), testing both deductive and abductive moral reasoning capabilities. Multiple open-source LLM families are evaluated including Gemma 3 (12B, 27B), Llama 3.1-3.3, Phi 3 and 4, and Qwen 2.5 in both static (evaluating reasoning chains) and dynamic (generating reasoning chains) settings.
+
 
 ## Notes
 

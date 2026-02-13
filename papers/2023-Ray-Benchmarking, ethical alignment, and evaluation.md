@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.md"
 local_pdf: "[[PDFs/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.pdf]]"
 ---
@@ -103,6 +106,11 @@ The author concludes that comprehensive evaluation frameworks must integrate tec
 - Evaluation framework: Multidimensional framework for ChatGPT assessment
 - Benchmark analysis: Systematic comparison of existing NLP benchmarks
 - Adaptive standards proposal: Guidelines integrating ethics, context, and community
+
+## Data Description
+
+This paper proposes a comprehensive evaluation framework for ChatGPT encompassing benchmarks, adaptive standards, and intelligent evaluation methods. It analyzes existing benchmarks (GLUE, SuperGLUE, SQuAD, CoQA, Persona-Chat, DSTC, BIG-Bench, HELM, MMLU) and ethical standards (OpenAI, IEEE, Montreal Declaration), but does not conduct any empirical experiments or direct testing of language models. The work is primarily a conceptual framework and literature analysis.
+
 
 ## Notes
 

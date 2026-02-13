@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Large vision language models (VLMs) have demonstrated significant pot
 ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude"
+DATA_URL: "https://github.com/Derekkk/VIVA_EMNLP24"
 ---
 # VIVA: A Benchmark for Vision-Grounded Decision-Making with Human Values
 
@@ -62,6 +65,10 @@ Large vision language models (VLMs) have demonstrated significant potential for 
 ## Dataset Information
 
 1,062 images assessing vision-language models' capacity to leverage human values for decision-making
+
+## Data Description
+
+VIVA is a benchmark for vision-grounded decision-making driven by human values, containing 1,240 images depicting diverse real-world situations with manually annotated decisions. The benchmark includes two-level tasks: Level-1 action selection (multiple-choice) and Level-2 value inference and reason generation. It covers 10 situation categories including dangerous behavior, child safety, emergent situations, and assistance scenarios, with 8,610 unique annotated human values.
 
 ## Notes
 

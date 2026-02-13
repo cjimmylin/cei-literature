@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Qwen, DeepSeek"
+DATA_URL: "https://mmecot.github.io/"
 ---
 # MME-CoT: Benchmarking Chain-of-Thought in Large Multimodal Models
 
@@ -55,6 +58,11 @@ Answering questions with Chain-of-Thought (CoT) has significantly enhanced the r
 ## Authors
 
 [[Dongzhi Jiang]], [[Renrui Zhang]], [[Ziyu Guo]], [[Yanwei Li]], [[Yunjia Qi|Yu Qi]], [[Xinyan Chen]], [[Liuhui Wang]], [[Jing Jin|Jianhan Jin]], [[Claire Guo]], [[Songzhou Yan|Shen Yan]], [[Bo Zhang]], [[Cheng-Yang Fu|Chaoyou Fu]], [[Peng Gao]], [[Hongsheng Li]]
+
+## Data Description
+
+MME-CoT is a benchmark containing 1,130 questions across six domains (math, science, OCR, logic, space-time, general scenes) with 3,865 key step annotations for evaluating Chain-of-Thought reasoning in Large Multimodal Models. The benchmark evaluates reasoning quality (precision, recall), robustness (stability, efficacy), and efficiency (relevance rate, reflection quality) across numerous open-source and closed-source LMMs including GPT-4o, Kimi k1.5, QVQ-72B, Qwen2-VL series, and InternVL2.5 variants.
+
 
 ## Notes
 

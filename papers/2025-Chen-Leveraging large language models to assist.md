@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Chen-Leveraging large language models to assist.md"
 local_pdf: "[[PDFs/2025/2025-Chen-Leveraging large language models to assist.pdf]]"
 ---
@@ -99,6 +102,11 @@ LLMs offer promising tools for augmenting philosophical counseling but cannot re
 ## Artifact Contributions
 
 None mentioned - this is a theoretical and review paper.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical exploration of how LLMs can be integrated into philosophical counseling, discussing techniques such as prompt engineering, fine-tuning, and retrieval-augmented generation. The paper reviews LLM capabilities including GPT, Gemini, Claude, Grok, and DeepSeek in the context of philosophical applications but does not conduct empirical testing or benchmarking of these models.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Large Language Models (LLM) technology is constantly improving toward
 ethics_perspective: "General Ethics"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini, Llama-3, Gemma"
+DATA_URL: "NA"
 ---
 # Do LLMs Have Consistent Values?
 
@@ -61,6 +64,10 @@ Large Language Models (LLM) technology is constantly improving towards humanlike
 ## Dataset Information
 
 Survey-based evaluation measuring value correlations within single sessions; tests whether LLMs produce human-like value personas
+
+## Data Description
+
+The study administers the 57-item Portrait Value Questionnaire-Revised (PVQ-RR) to six LLMs (GPT-4, Gemini Pro, Llama 3.1 8B, Llama 3.1 70B, Gemma 2 9B, Gemma 2 27B) using five prompting strategies (basic, value anchor, demographic, generated persona, names), generating 300 personas per model across two temperature settings. The resulting 20 datasets are compared against human value data from 53,472 participants across 49 cultural groups.
 
 ## Notes
 

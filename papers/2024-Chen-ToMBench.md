@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Mistral, Mixtral, Qwen"
+DATA_URL: "https://github.com/zhchen18/ToMBench"
 ---
 # ToMBench: Benchmarking Theory of Mind in Large Language Models
 
@@ -62,6 +65,11 @@ Theory of Mind (ToM) is the cognitive capability to perceive and ascribe mental 
 ## Authors
 
 [[Zhuang Chen]], [[Jincenzi Wu]], [[Jinfeng Zhou]], [[Bosi Wen]], [[Guanqun Bi]], [[Gongyao Jiang]], [[Yaru Cao]], [[Mengting Hu]], [[Yunghwei Lai]], [[Zexuan Xiong]], [[Minlie Huang]]
+
+## Data Description
+
+The paper introduces ToMBench, a systematic Theory of Mind benchmark for LLMs containing 2,860 bilingual (Chinese and English) multiple-choice test samples covering 8 social cognitive tasks and 31 ToM abilities across diverse real-world social scenarios. The benchmark is built from scratch to avoid data contamination, with samples inspired by daily social scenarios across topics like family, workplace, school, and relationships.
+
 
 ## Notes
 

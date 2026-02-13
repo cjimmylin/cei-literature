@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Llama-3, Mixtral, Claude"
+DATA_URL: "https://hf.co/datasets/kellycyy/daily_dilemmas, https://github.com/kellycyy/daily_dilemmas"
 ---
 # DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life
 
@@ -64,6 +67,11 @@ As users increasingly seek guidance from LLMs for decision-making in daily life,
 ## Authors
 
 [[Yu Ying Chiu]], [[Liwei Jiang]], [[Yejin Choi]]
+
+## Data Description
+
+DAILYDILEMMAS is a dataset of 1,360 moral dilemmas encountered in everyday life, generated with GPT-4 and covering 17 topics from interpersonal relationships to environmental issues. Each dilemma presents two possible actions with associated stakeholders and 301 human values mapped to five theoretical frameworks (World Values Survey, Moral Foundations Theory, Maslow's Hierarchy of Needs, Aristotle's Virtues, Plutchik's Wheel of Emotions). Six LLMs are evaluated on their value preferences through binary-choice action selections.
+
 
 ## Notes
 

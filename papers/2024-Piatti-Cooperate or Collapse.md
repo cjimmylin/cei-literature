@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, Claude, Llama-2, Llama-3, Mistral, Mixtral, Qwen"
+DATA_URL: "https://github.com/giorgiopiatti/GovSim"
 ---
 # Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents
 
@@ -64,6 +67,11 @@ As AI systems pervade human life, ensuring that large language models (LLMs) mak
 ## Authors
 
 [[Giorgio Piatti]], [[Zhijing Jin]], [[Max Kleiman-Weiner]], [[Bernhard Schölkopf]], [[Mrinmaya Sachan]], [[Rada Mihalcea]]
+
+## Data Description
+
+The paper introduces GOVSIM, a generative simulation platform for studying cooperative decision-making in LLM agents across three common pool resource dilemmas (fishery, pasture, pollution). Fifteen LLMs including GPT-3.5, GPT-4, GPT-4-turbo, GPT-4o, Claude-3 (Haiku, Sonnet, Opus), Llama-2 (7B, 13B, 70B), Llama-3 (8B, 70B), Mistral-7B, Mixtral-8x7B, and Qwen (72B, 110B) are benchmarked on sustainability metrics including survival rate, efficiency, equality, and over-usage across five random seeds per simulation.
+
 
 ## Notes
 

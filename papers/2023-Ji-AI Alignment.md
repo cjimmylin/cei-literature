@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # AI Alignment: A Comprehensive Survey
 
@@ -64,6 +67,11 @@ AI alignment aims to make AI systems behave in line with human intentions and va
 ## Authors
 
 [[Jiaming Ji]], [[Tianyi Qiu]], [[Boyuan Chen]], [[Borong Zhang]], [[Hantao Lou]], [[Kaile Wang]], [[Yawen Duan]], [[Zhonghao He]], [[Lukas Vierling]], [[Donghai Hong]], [[Jiayi Zhou]], [[Zhaowei Zhang]], [[Fanzhi Zeng]], [[Juntao Dai]], [[Xuehai Pan]], [[Kwan Yee Ng]], [[Aidan O'Gara]], [[Hua Xu]], [[Brian Tse]], [[Jie Fu]], [[Stephen McAleer]], [[Yaodong Yang]], [[Yizhou Wang]], [[Song-Chun Zhu]], [[Yike Guo]], [[Wen Gao]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment.
+
 
 ## Notes
 

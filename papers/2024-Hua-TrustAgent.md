@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Mixtral"
+DATA_URL: "https://github.com/agiresearch/TrustAgent"
 ---
 # TrustAgent: Towards Safe and Trustworthy LLM-based Agents
 
@@ -64,6 +67,11 @@ The rise of LLM-based agents shows great potential to revolutionize task plannin
 ## Authors
 
 [[Wenyue Hua]], [[Xianjun Yang]], [[Mingyu Jin]], [[Zelong Li]], [[Wei Cheng]], [[Ruixiang Tang]], [[Yongfeng Zhang]]
+
+## Data Description
+
+TrustAgent provides an Agent Constitution-based framework for ensuring safety in LLM-based agents, evaluated across five domains: housekeeping, finance, medicine, chemistry experiments, and food. The framework uses GPT-4 for tool execution emulation in a virtual sandbox and evaluates safety and helpfulness metrics including quantifiable step-correctness measures and GPT-4-based safety/helpfulness scoring.
+
 
 ## Notes
 

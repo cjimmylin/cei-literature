@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Axiology AI Ethics MCDA
 
@@ -71,6 +74,11 @@ Proposes axiological framework using MCDA to integrate multiple ethical theories
 ## Significance
 
 Enables structured trade-offs between utilitarian and non-utilitarian values
+
+## Data Description
+
+The PDF extract contains only an access denied error and no usable content could be extracted from this paper.
+
 
 ## Notes
 

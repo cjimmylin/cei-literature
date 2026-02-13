@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Llama, Mistral"
+DATA_URL: "https://github.com/shalakasatheesh/GG-BBQ/"
 ---
 # GG-BBQ: German Gender Bias Benchmark for Question Answering
 
@@ -57,6 +60,11 @@ Within the context of Natural Language Processing (NLP), fairness evaluation is 
 ## Authors
 
 [[Shalaka Satheesh]], [[Katrin Klug]], [[Katharina Beckh]], [[Hector Allende-Cid|Héctor Allende-Cid]], [[Sebastian Houben]], [[Teena Hassan]]
+
+## Data Description
+
+The paper presents GG-BBQ (German Gender Bias Benchmark for Question Answering), a German translation of the gender identity subset of the BBQ dataset containing two subsets: Subset-I with 968 samples using group terms and Subset-II with 4,968 samples using proper names, each split between ambiguous and disambiguated contexts. Ten model variants were evaluated including Llama-3.2-3B, DiscoLeo-8B, Mistral-7B-v0.3, leo-hessianai-13b, and Llama-3.1-70B in both base and instruction-tuned versions.
+
 
 ## Notes
 

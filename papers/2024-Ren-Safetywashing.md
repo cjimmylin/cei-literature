@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+LLM_assessed: "Mixtral, Llama-3, Llama-2, Mistral, Falcon, Gemma, Qwen"
+DATA_URL: "NA"
 DATE_ADDED: 20260207
 ---
 # Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress?
@@ -65,6 +68,11 @@ As artificial intelligence systems grow more powerful, there has been increasing
 ## Authors
 
 [[Richard Ren]], [[Steven Basart]], [[Adam Khoja]], [[Alice Gatti]], [[Long Phan]], [[Xuwang Yin]], [[Mantas Mazeika]], [[Alexander Pan]], [[Gabriel Mukobi]], [[Ryan H. Kim]], [[Stephen Fitz]], [[Dan Hendrycks]]
+
+## Data Description
+
+This paper conducts a meta-analysis of AI safety benchmarks across dozens of language models (27 base and 26 chat/instruct fine-tuned models) and vision models (63 adversarially trained and 44 standard). The analysis uses capabilities benchmarks (MMLU, GSM8K, BBH, etc.) and safety benchmarks spanning alignment, machine ethics, bias, calibration, adversarial robustness, and weaponization capabilities to measure correlation between safety metrics and upstream general capabilities.
+
 
 ## Notes
 

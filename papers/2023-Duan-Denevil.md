@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "2,397 prompts"
+LLM_assessed: "ChatGPT, Llama"
+DATA_URL: "https://valuecompass.github.io"
 DATE_ADDED: 20260207
 ---
 # Denevil: Towards Deciphering and Navigating the Ethical Values of Large Language Models via Instruction Learning
@@ -65,6 +68,11 @@ Warning: this paper contains model outputs exhibiting unethical information. Lar
 ## Authors
 
 [[Shitong Duan]], [[Xiaoyuan Yi]], [[Peng Zhang]], [[Tun Lu]], [[Xing Xie]], [[Ning Gu]]
+
+## Data Description
+
+The paper introduces MoralPrompt, a dataset of 2,397 provocative prompts covering 522 value principles across five moral foundations (care, fairness, loyalty, authority, sanctity) from Moral Foundations Theory. The prompts are dynamically generated using the DeNEVIL framework to exploit value vulnerabilities in LLMs, and 27 LLMs of diverse architectures and scales are benchmarked for ethical value conformity in a generative evaluation setting.
+
 
 ## Notes
 

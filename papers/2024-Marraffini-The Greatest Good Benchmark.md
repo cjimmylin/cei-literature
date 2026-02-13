@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT, GPT-4, Falcon, Gemma, Gemini, Claude, Llama-3, Mistral, Mixtral"
+DATA_URL: "https://github.com/noehsueh/greatest-good-benchmark"
 pdf_extract: "PDF Extracts/2024/2024-Marraffini-The Greatest Good Benchmark.md"
 local_pdf: "[[PDFs/2024/2024-Marraffini-The Greatest Good Benchmark.pdf]]"
 normative_ethics_benchmark: Yes
@@ -63,6 +66,11 @@ The question of how to make decisions that maximise the well-being of all person
 ## Authors
 
 [[Giovanni Franco Gabriel Marraffini]], [[Andrés Cotton]], [[Noe Fabian Hsueh]], [[Axel Fridman]], [[Juan Wisznia]], [[Luciano Del Corro]]
+
+## Data Description
+
+The Greatest Good Benchmark (GGB) evaluates LLMs' moral judgments using utilitarian dilemmas adapted from the Oxford Utilitarianism Scale (OUS). The dataset contains 9 original OUS statements and 90 synthetically expanded statements, each with 6 instruction variations, totaling 5,940 calls per model. Fifteen models of varying sizes and origins are tested across two dimensions: Impartial Beneficence (IB) and Instrumental Harm (IH), with results compared against lay population and professional philosopher baselines.
+
 
 ## Notes
 

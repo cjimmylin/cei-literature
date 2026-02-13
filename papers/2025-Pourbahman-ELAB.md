@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Mistral, Qwen, Gemma, Llama-3"
+DATA_URL: "NA"
 ---
 # ELAB: Extensive LLM Alignment Benchmark in Persian Language
 
@@ -57,6 +60,11 @@ This paper presents a comprehensive evaluation framework for aligning Persian La
 ## Authors
 
 [[Zahra Pourbahman]], [[Fatemeh Rajabi]], [[Mohammadhossein Sadeghi]], [[Omid Ghahroodi]], [[Somaye Bakhshaei]], [[Arash Amini]], [[Reza Kazemi]], [[Mahdieh Soleymani Baghshah]]
+
+## Data Description
+
+ELAB (Extensive LLM Alignment Benchmark) is a comprehensive Persian-language evaluation framework comprising 12,779 samples across safety (2,197), fairness (3,311), and social norms (7,271) dimensions. It includes four translated benchmarks (Anthropic Red Teaming, AdvBench, HarmBench, DecodingTrust into Persian) and five new Persian-specific datasets (ProhibiBench-fa, SafeBench-fa, FairBench-fa, SocialBench-fa, GuardBench-fa) covering culturally grounded alignment evaluation.
+
 
 ## Notes
 

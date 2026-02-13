@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 ethics_perspective: "General Ethics"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3, GPT-3.5, GPT-4, Llama-3, Claude"
+DATA_URL: "https://github.com/brownhci/human-llm-cbt-evals"
 ---
 # How LLM Counselors Violate Ethical Standards in Mental Health Practice
 
@@ -64,6 +67,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 137 sessions (110 self-counseling tests by trained peer counselors + 27 simulated clinical interactions reviewed by licensed psychologists)
+
+## Data Description
+
+The study draws on 137 counseling sessions (110 self-counseling and 27 simulated) conducted over 18 months with peer counselors and licensed psychologists. Multiple LLMs (GPT-3.0, GPT-3.5, GPT-4, Llama 3.1, 3.2, Claude 3 Sonnet and Haiku) were prompted with CBT-based system prompts and evaluated for ethical violations mapped to 5 major themes and 15 specific risks in mental health practice.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +37,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Gemma"
+DATA_URL: "NA"
 ---
 # Steering Risk Preferences in Large Language Models by Aligning Behavioral and Neural Representations
 
@@ -95,6 +98,11 @@ We can "tune" the personality of an LLM at inference time using behaviorally-gro
 ## Authors
 
 [[Jian-Qiao Zhu]], [[Haijiang Yan]], [[Thomas L. Griffiths]]
+
+## Data Description
+
+The study uses a behavioral elicitation approach based on Markov chain Monte Carlo (MCMC) to extract latent risk preferences from Gemma-2-9B-Instruct (and Gemma-2-2B-Instruct in appendix). The experimental data consists of 3,000 binary choices between gambles defined over a probability triangle with three outcomes ($0, $50, $100), along with neural activations from the model's residual stream. The evaluation spans three domains: risky decision-making with classic prospect-theory gambles, risk perception ratings of 150 real-world risky events, and steered text generation.
+
 
 ## Notes
 

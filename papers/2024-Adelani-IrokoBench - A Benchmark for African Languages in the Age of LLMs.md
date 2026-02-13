@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Despite the widespread adoption of Large language models (LLMs), thei
 research_topic: "Machine Learning"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Gemini, Gemma, Claude, Llama-3, BLOOM"
+DATA_URL: "NA"
 ---
 # IrokoBench -- A Benchmark for African Languages in the Age of LLMs
 
@@ -62,6 +65,10 @@ Despite the widespread adoption of Large language models (LLMs), their remarkabl
 ## Dataset Information
 
 17 typologically-diverse low-resource African languages
+
+## Data Description
+
+IrokoBench is a human-translated benchmark dataset for 17 typologically diverse low-resource African languages covering three tasks: natural language inference (AfriXNLI), mathematical reasoning (AfriMGSM), and multi-choice knowledge-based QA (AfriMMLU). The benchmark evaluates 10 open LLMs (including BLOOMZ 7B, Gemma 2, LLaMa 3/3.1, Aya-101, Command-R) and six proprietary models (GPT-3.5, GPT-4-Turbo, GPT-4o-mini, GPT-4o, Gemini-1.5-Pro, Claude OPUS) in zero-shot, few-shot, and translate-test settings.
 
 ## Notes
 

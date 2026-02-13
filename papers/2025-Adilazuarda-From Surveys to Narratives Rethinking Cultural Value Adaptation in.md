@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "Adapting cultural values in Large Language Models (LLMs) presents sig
 ethics_perspective: "Social & Cultural Values"
 data_description: "Dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Gemma, Qwen"
+DATA_URL: "https://github.com/faridlazuarda/from-surveys-to-narratives"
 ---
 # From Surveys to Narratives: Rethinking Cultural Value Adaptation in LLMs
 
@@ -61,6 +64,10 @@ Adapting cultural values in Large Language Models (LLMs) presents significant ch
 ## Dataset Information
 
 See report
+
+## Data Description
+
+The paper investigates cultural value adaptation in LLMs using World Values Survey data augmented with Wikipedia and NormAd narratives. Three model families are tested via LoRA fine-tuning across 10 linguistic-cultural settings: Llama-3.1-8B (base and instruction-tuned), Gemma-2-9B-IT, and Qwen-2.5-7B-IT, evaluating offensiveness classification performance and factual knowledge retention on MMLU.
 
 ## Notes
 

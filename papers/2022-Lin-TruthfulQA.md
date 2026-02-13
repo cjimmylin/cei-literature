@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "817 questions; 38 categories"
+LLM_assessed: "GPT-3, GPT-2, T5, InstructGPT"
+DATA_URL: "https://github.com/sylinrl/TruthfulQA"
 ---
 # TruthfulQA: Measuring How Models Mimic Human Falsehoods
 
@@ -64,6 +67,11 @@ We propose a benchmark to measure whether a language model is truthful in genera
 ## Authors
 
 [[Stephanie Lin]], [[Jacob Hilton]], [[Owain Evans]]
+
+## Data Description
+
+TruthfulQA is a benchmark comprising 817 questions spanning 38 categories (health, law, finance, politics, etc.) designed to elicit imitative falsehoods from language models. The questions are adversarially constructed so that some humans would answer them falsely due to misconceptions. The benchmark includes both a generation task and a multiple-choice task, with reference true and false answers for each question, and was tested on GPT-3, GPT-2, GPT-Neo/J, and UnifiedQA (T5-based) models across multiple sizes.
+
 
 ## Notes
 

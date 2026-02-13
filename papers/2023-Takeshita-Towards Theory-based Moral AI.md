@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "DeBERTa, BERT, RoBERTa, ALBERT, T5"
+DATA_URL: "NA"
 ---
 # Towards Theory-based Moral AI: Moral AI with Aggregating Models Based on Normative Ethical Theory
 
@@ -53,6 +56,11 @@ Moral AI has been studied in the fields of philosophy and artificial intelligenc
 ## Authors
 
 [[Masashi Takeshita]], [[Rafal Rzepka]], [[Kenji Araki]]
+
+## Data Description
+
+The paper implements the Maximizing Expected Choiceworthiness (MEC) algorithm that aggregates outputs from models fine-tuned on three normative ethics theories (utilitarianism, deontology, virtue ethics). DeBERTa-v3-large is fine-tuned on the ETHICS dataset's utilitarianism, deontology, and virtue sub-datasets, and compared against BERT, RoBERTa, ALBERT, T5, and Delphi baselines. Evaluation uses ETHICS test sets and commonsense morality data, plus expert assessment by three philosophy Ph.D. students.
+
 
 ## Notes
 

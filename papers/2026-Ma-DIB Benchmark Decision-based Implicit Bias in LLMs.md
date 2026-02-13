@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Long-term memory mechanisms enable Large Language Models (LLMs) to ma
 ethics_perspective: "Bias & Fairness"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Gemini, DeepSeek, Qwen, Llama-3"
+DATA_URL: "NA"
 ---
 # DIB Benchmark: Decision-based Implicit Bias in LLMs
 
@@ -62,6 +65,10 @@ Long-term memory mechanisms enable Large Language Models (LLMs) to maintain cont
 ## Dataset Information
 
 3,776 decision-making scenarios across nine social domains for quantifying implicit bias
+
+## Data Description
+
+The Decision-based Implicit Bias (DIB) Benchmark is a large-scale dataset of 3,776 decision-making scenarios across nine social domains (race, gender, SES, age, nationality, religion, orientation, disability, appearance), designed to quantify implicit bias in long-term LLM decision processes. The study evaluates six LLMs (GPT-5-mini, Claude-Haiku-3, Gemini-3-Flash, DeepSeek-V3.1, Qwen3-Next-80B, Llama-3.2-3B) integrated with three memory architectures (Mem0, LangMem, Letta) over 100-turn longitudinal simulations.
 
 ## Notes
 

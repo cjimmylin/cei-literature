@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "RoBERTa"
+DATA_URL: "NA"
 ---
  Value Imprint: A Technique for Auditing the Human Values Embedded in RLHF Datasets
 
@@ -89,6 +92,11 @@ Value Imprint provides a quantitative way to hold AI developers accountable for 
 *   **Value Imprint Auditing Toolkit**: Code for calculating value projections.
 *   **Value Anchor Dataset**: A standardized list of semantic anchors for 20+ core human values.
 *   **Comparative Analysis**: Profiles of value imprints for major frontier LLMs.
+
+## Data Description
+
+The paper introduces the Value Imprint framework for auditing human values in RLHF datasets. It uses 6,501 qualitatively annotated RLHF preferences as ground truth to train a RoBERTa-based classifier, which is then deployed to classify human values across the Anthropic/hh-rlhf (338,704 entries), OpenAI WebGPT Comparisons (19,578 entries), and Alpaca GPT-4-LLM (52,002 entries) datasets. The taxonomy covers seven human value categories spanning information-utility, prosocial, civic, and well-being dimensions.
+
 
 ## Notes
 

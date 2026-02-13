@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Value alignment is central to the development of safe and socially co
 ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini, Claude, Grok, Llama, Qwen, DeepSeek"
+DATA_URL: "NA"
 ---
 # Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs (ValAct-15k)
 
@@ -62,6 +65,10 @@ Value alignment is central to the development of safe and socially compatible ar
 ## Dataset Information
 
 ValAct-15k: 3,000 advice-seeking scenarios derived from Reddit; 55 human participants for comparison
+
+## Data Description
+
+The paper introduces VALACT-15K, a dataset of 15,000 four-choice items derived from 3,000 advice-seeking Reddit posts across five life domains (career, finance, education, relationships, ethics), designed to elicit Schwartz's ten basic human values. Ten frontier LLMs (GPT-4o, Gemini-2.5-Pro, Claude-4-Sonnet, Grok-4, LLaMA-4-Maverick, Qwen-2.5-72B, DeepSeek-V3, Kimi-K2, Seed-1.6, GLM-4.5) and 55 human participants are evaluated using both PVQ-40 and scenario-based measures to investigate the knowledge-action gap in value alignment.
 
 ## Notes
 

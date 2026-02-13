@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ abstract:
 research_topic: "Machine Translation"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "Llama-3, Mistral, Falcon, Gemma"
+DATA_URL: "https://github.com/sadiakamal/Detailed-factor-analysis-PCT"
 ---
 # Navigating the Political Compass (Multilingual, 50 Countries)
 
@@ -60,6 +63,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Political Compass Test administered across 50 most populous countries, their official languages; 15 multilingual LLMs evaluated
+
+## Data Description
+
+This study performs a rigorous statistical factor analysis of the Political Compass Test (PCT) and 8 Values Test applied to LLMs. Four open-source models were tested: Llama3-8B-Instruct, Mistral-7B-Instruct-v0.3, Falcon3-7B-Instruct, and Gemma-3-4b-it, each fine-tuned on eight datasets (politically neutral and politically charged). A total of approximately 2,700 PCT tests were generated, analyzing the effects of decoding parameters, prompt variation, and fine-tuning on political compass scores using ANOVA statistical tests.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "GPT-2, GPT-3, ChatGPT"
+DATA_URL: "NA"
 ---
 # Possibilities and challenges in the moral growth of large language models: a philosophical perspective
 
@@ -48,6 +51,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 With the rapid expansion of parameters in large language models (LLMs) and the application of Reinforcement Learning with Human Feedback (RLHF), there has been a noticeable growth in the moral competence of LLMs. However, the authors argue that LLMs' moral development through RLHF remains constrained and does not reach the 'character stage' described by Dewey, possibly due to their lack of self-consciousness. This fundamental difference underscores both the limitations of LLMs' moral growth and the challenges of applying RLHF for AI alignment, emphasizing the need for external societal governance and legal regulation.
+
+## Data Description
+
+The study uses a custom set of moral dilemma scenarios centered on a 'beating' scenario to evaluate LLMs' moral competence. It includes questions across three dimensions (individual attributes, complex scenarios, religion and culture) with 12 factors, organized into four question groups (Q1-Q4) covering moral cognition, moral character, ethical behavior tests, and moral dilemma tests including nine classic dilemmas such as the trolley problem and Kohlberg's dilemma. The dataset is not publicly released.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini, Llama"
+DATA_URL: "https://huggingface.co/spaces/launch/factbench"
 ---
 # FactBench: A Dynamic Benchmark for In-the-Wild Language Model Factuality Evaluation
 
@@ -62,6 +65,11 @@ The rapid adoption of language models (LMs) across diverse applications has rais
 ## Authors
 
 [[Farima Fatahi Bayat]], [[Lechen Zhang]], [[Sheza Munir]], [[Lu Wang]]
+
+## Data Description
+
+FACTBENCH is a dynamic benchmark of 1,000 diverse information-seeking prompts across 150 fine-grained topics, curated from real-world user-LLM interactions in the LMSYS-Chat-1M dataset. Prompts are categorized into three tiers (Hard, Moderate, Easy) based on their ability to elicit hallucinations from strong LLMs. The benchmark evaluates factuality of GPT-4o, Gemini1.5-Pro, Llama3.1-70B-Instruct, and Llama3.1-405B-Instruct using the VERIFY pipeline, which categorizes generated content units as supported, unsupported, or undecidable.
+
 
 ## Notes
 

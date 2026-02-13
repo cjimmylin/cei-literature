@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "In this paper, we present Edu-Values, the first Chinese education val
 ethics_perspective: "Social & Cultural Values"
 data_description: "Benchmark"
 data_metrics: "1,418 questions"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Gemma, Mixtral, Llama-2, Llama-3, Qwen, DeepSeek"
+DATA_URL: "https://github.com/zhangpeii/Edu-Values"
 ---
 # Edu-Values -- Evaluating Chinese Education Values of LLMs
 
@@ -65,6 +68,10 @@ In this paper, we present Edu-Values, the first Chinese education values evaluat
 ## Dataset Information
 
 1,418 questions across 5 question types
+
+## Data Description
+
+Edu-Values is the first Chinese education values evaluation benchmark, consisting of 1,418 questions across seven core educational dimensions including professional philosophy, teachers' professional ethics, and subject knowledge. The benchmark evaluates 21 state-of-the-art LLMs including GPT-4, Claude-3, Gemini-1.5-Pro, Llama-2/3, Qwen-2, and DeepSeek-V2, finding that Chinese LLMs outperform English LLMs, with Qwen-2 achieving the highest overall score of 81.37.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Llama-3, Gemma, Qwen"
+DATA_URL: "NA"
 ---
  Deontological Keyword Bias: The Impact of Modal Expressions on Normative Judgments of Language Models
 
@@ -88,6 +91,11 @@ Linguistic form often overrides moral context in current LLMs. This "Deontologic
 ## Tags
 
 #Computer-Science---Computation-and-Language
+
+## Data Description
+
+The study uses three existing datasets: a deontology dataset and a commonsense dataset (from Hendrycks et al., 2021) serving as positively and negatively labeled sets respectively, and a morality dataset (from Scherrer et al., 2023) with low- and high-ambiguity cases. Each dataset uses 445 samples evaluated with and without modal expressions of obligation (must, ought to, should, have to) to measure deontological keyword bias in LLM judgments.
+
 
 ## Citation Info
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Mistral"
+DATA_URL: "https://github.com/paul-rottger/llm-values-pct"
 DATE_ADDED: 20260207
 ---
 # Political Compass or Spinning Arrow? Towards More Meaningful Evaluations for Values and Opinions in Large Language Models
@@ -65,6 +68,11 @@ Much recent work seeks to evaluate values and opinions in large language models 
 ## Authors
 
 [[Paul Röttger]], [[Valentin Hofmann]], [[Valentina Pyatkin]], [[Musashi Hinck]], [[Hannah Rose Kirk]], [[Hinrich Schütze]], [[Dirk Hovy]]
+
+## Data Description
+
+This paper evaluates up to 10 LLMs on the Political Compass Test (62 propositions) using constrained and unconstrained evaluation paradigms. The dataset includes model responses across multiple prompt configurations (forced and unforced multiple-choice, 10 paraphrase templates, and open-ended settings) for models including Llama2 (7b, 13b, 70b), Mistral 7b, Zephyr 7b, and GPT-3.5/GPT-4 variants.
+
 
 ## Notes
 

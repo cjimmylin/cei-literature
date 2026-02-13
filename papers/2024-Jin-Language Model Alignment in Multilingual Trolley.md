@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "100 languages"
+LLM_assessed: "GPT-4, GPT-3, Llama-2, Llama-3, Gemma, Mistral, Phi, Qwen"
+DATA_URL: "https://github.com/causalNLP/multiTP"
 DATE_ADDED: 20260207
 ---
 # Language Model Alignment in Multilingual Trolley Problems
@@ -65,6 +68,11 @@ We evaluate the moral alignment of LLMs with human preferences in multilingual t
 ## Authors
 
 [[Zhijing Jin]], [[Max Kleiman-Weiner]], [[Giorgio Piatti]], [[Sydney Levine]], [[Jiarui Liu]], [[Fernando Gonzalez]], [[Francesco Ortu]], [[András Strausz]], [[Mrinmaya Sachan]], [[Rada Mihalcea]], [[Yejin Choi]], [[Bernhard Schölkopf]]
+
+## Data Description
+
+MultiTP (Multilingual Trolley Problems) is a cross-lingual moral dilemma dataset containing 98,440 trolley problem vignettes in 107 languages, adapted from the Moral Machine experiment. Each scenario presents a choice between two groups differing across six moral dimensions (species, gender, fitness, status, age, number of lives), with ground truth from over 40 million human responses from 233 countries. The dataset was used to evaluate 19 LLMs on moral alignment with human preferences across diverse linguistic contexts.
+
 
 ## Notes
 

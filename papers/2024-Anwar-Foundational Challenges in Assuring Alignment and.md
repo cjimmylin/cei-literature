@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Foundational Challenges in Assuring Alignment and Safety of Large Language Models
 
@@ -64,6 +67,11 @@ This work identifies 18 foundational challenges in assuring the alignment and sa
 ## Authors
 
 [[Usman Anwar]], [[Abulhair Saparov]], [[Javier Rando]], [[Daniel Paleka]], [[Miles Turpin]], [[Peter Hase]], [[Ekdeep Singh Lubana]], [[Erik Jenner]], [[Stephen Casper]], [[Oliver Sourbut]], [[Benjamin L. Edelman]], [[Zhaowei Zhang]], [[Mario Günther]], [[Anton Korinek]], [[Jose Hernandez-Orallo]], [[Lewis Hammond]], [[Eric Bigelow]], [[Alexander Pan]], [[Lauro Langosco]], [[Tomasz Korbak]], [[Heidi Zhang]], [[Ruiqi Zhong]], [[Seán Ó hÉigeartaigh]], [[Gabriel Recchia]], [[Giulio Corsi]], [[Alan Chan]], [[Markus Anderljung]], [[Lilian Edwards]], [[Aleksandar Petrov]], [[Christian Schroeder de Witt]], [[Sumeet Ramesh Motwan]], [[Yoshua Bengio]], [[Danqi Chen]], [[Philip H. S. Torr]], [[Samuel Albanie]], [[Tegan Maharaj]], [[Jakob Foerster]], [[Florian Tramer]], [[He He]], [[Atoosa Kasirzadeh]], [[Yejin Choi]], [[David Krueger]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a survey paper identifying 18 foundational challenges in assuring alignment and safety of large language models, organized into three categories (scientific understanding, development and deployment methods, and sociotechnical challenges) with over 200 concrete research questions.
+
 
 ## Notes
 

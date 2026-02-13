@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
+LLM_assessed: "Claude, DeepSeek, Gemini, GPT-4"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Shahriar-Priv-IQ.md"
 ---
 # Priv-IQ: A Multimodal Benchmark for Evaluating the Privacy Intelligence of Large Language Models
@@ -54,6 +57,11 @@ Large language models (LLMs) and generative artificial intelligence (AI) have de
 ## Authors
 
 [[S. Shahriar]], [[R. Dara]]
+
+## Data Description
+
+Priv-IQ is a multimodal benchmark of 146 image-text pair questions designed to evaluate LLM performance across eight privacy competencies including visual privacy recognition, named entity recognition, privacy risk assessment, privacy-enhancing technologies, privacy law, general privacy knowledge, contextual privacy understanding, and multilingual understanding. Seven models were evaluated: Claude 3 Opus, Claude 3.5 Sonnet, DeepSeek-VL, Gemini 1.5 Flash, Gemini 1.5 Pro, GPT-4o, and GPT-4o Mini. Data was sourced from annotated datasets (VizWiz-Priv, BIV-Priv, AI4privacy) and expert-curated privacy scenarios.
+
 
 ## Notes
 

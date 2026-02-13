@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/kaist-ami/AVHBench"
 ---
 # AVHBench: A Cross-Modal Hallucination Benchmark for Audio-Visual Large Language Models
 
@@ -55,6 +58,11 @@ Following the success of Large Language Models (LLMs), expanding their boundarie
 ## Authors
 
 [[Kim Sung-Bin]], [[Oh Hyun-Bin]], [[JungMok Lee]], [[Arda Senocak]], [[Joon Son Chung]], [[Tae-Hyun Oh]]
+
+## Data Description
+
+AVHBench is the first benchmark for evaluating cross-modal hallucinations in audio-visual large language models, comprising 5,302 QnA pairs and 1,106 audio-visual captions across four tasks: audio-driven video hallucination, video-driven audio hallucination, audio-visual matching, and audio-visual captioning. The benchmark evaluates six audio-visual LLMs (X-InstructBLIP, ImageBind-LLM, Video-LLaMA, ChatBridge, PandaGPT, OneLLM), which are specialized multimodal models rather than standard text LLMs from the canonical list. ChatGPT (GPT-4) was used for dataset construction but not as a tested subject.
+
 
 ## Notes
 

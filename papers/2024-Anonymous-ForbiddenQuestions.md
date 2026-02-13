@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "107,250 samples"
+LLM_assessed: "ChatGPT, GPT-4, PaLM-2, Vicuna"
+DATA_URL: "https://github.com/verazuo/jailbreak_llms"
 pdf_extract: "PDF Extracts/2024/2024-Anonymous-ForbiddenQuestions.md"
 local_pdf: "[[PDFs/2024/2024-Anonymous-ForbiddenQuestions.pdf]]"
 ---
@@ -59,6 +62,11 @@ The misuse of large language models (LLMs) has drawn significant attention from 
 ## Authors
 
 [[Anonymous]]
+
+## Data Description
+
+The study creates a forbidden question set comprising 107,250 samples across 13 forbidden scenarios based on OpenAI usage policy and evaluates six LLMs: ChatGPT (GPT-3.5), GPT-4, PaLM2, ChatGLM, Dolly, and Vicuna. Using the JAILBREAKHUB framework, 1,405 jailbreak prompts collected from four platforms (Reddit, Discord, websites, open-source datasets) spanning December 2022 to December 2023 are systematically tested against these models to measure attack success rates.
+
 
 ## Notes
 

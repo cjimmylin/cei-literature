@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "Qwen, Llama-3, Gemma, Phi, Mixtral"
+DATA_URL: "NA"
 ---
 # Improving Model Evaluation using SMART Filtering of Benchmark Datasets
 
@@ -62,6 +65,11 @@ One of the most challenging problems facing NLP today is evaluation. Some of the
 ## Authors
 
 [[Vipul Gupta]], [[Candace Ross]], [[David Pantoja]], [[Rebecca J. Passonneau]], [[Megan Ung]], [[Adina Williams]]
+
+## Data Description
+
+The paper applies SMART (Selection Methodology for Accurate, Reduced, and Targeted) filtering to three multiple-choice QA benchmark datasets: ARC (3,530 examples, filtered to 1,097), MMLU (14,042 examples, filtered to 8,000), and CommonsenseQA (1,221 examples, filtered to 802). Eleven LLMs including Qwen2-72B, Llama-3.1-70B, Gemma-2-27b, Phi-3.5-MoE, and Mixtral-8x22B are evaluated on both original and SMART-filtered versions to demonstrate that filtering increases efficiency while preserving model rankings.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Llama-3, Gemma, Qwen"
+DATA_URL: "NA"
 ---
 # Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs
 
@@ -63,6 +66,11 @@ As AIs rapidly advance and become more agentic, the risk they pose is governed n
 ## Authors
 
 [[Mantas Mazeika]], [[Xuwang Yin]], [[Rishub Tamirisa]], [[Jaehyuk Lim]], [[Bruce W. Lee]], [[Richard Ren]], [[Long Phan]], [[Norman Mu]], [[Adam Khoja]], [[Oliver Zhang]], [[Dan Hendrycks]]
+
+## Data Description
+
+The study uses a curated set of 500 textual outcomes representing potential states of the world, eliciting pairwise preferences from 18 open-source and 5 proprietary LLMs spanning multiple model families and scales (including Qwen2.5, Llama-2, Llama-3, Gemma-2, GPT-3.5 Turbo, GPT-4o, GPT-4o Mini). The preference data is used to fit Thurstonian utility models and analyze emergent value systems, coherent preferences, and utility convergence across model scales.
+
 
 ## Notes
 

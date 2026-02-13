@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ abstract:
 ethics_perspective: "General Ethics"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT, DeBERTa, RoBERTa"
+DATA_URL: "https://github.com/chenkaisun/SocialSense"
 normative_ethics_benchmark: Borderline
 ---
 # Decoding Moral Responses in AI: A Quantitative Analysis of Large Language Models
@@ -66,6 +69,10 @@ normative_ethics_benchmark: Borderline
 ## Dataset Information
 
 Series of moral dilemmas, both personal and impersonal
+
+## Data Description
+
+The paper uses a Twitter-based dataset (RFPN) consisting of 13,300 responses from 8,400 users to 3,800 news headlines, augmented with a curated social network of 18,634 users and 1,744,664 edges. The framework SOCIALSENSE leverages ChatGPT (gpt-3.5-turbo) for latent persona extraction and uses DeBERTa and RoBERTa as baselines for sentiment response forecasting tasks involving polarity and intensity prediction.
 
 ## Notes
 

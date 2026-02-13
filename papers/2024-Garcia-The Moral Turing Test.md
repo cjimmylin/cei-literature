@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Detection accuracy, agreement rates, anti-AI bias measures"
+LLM_assessed: "GPT-3.5, text-davinci"
+DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 ---
 # The Moral Turing Test: Evaluating Human-LLM Alignment in Moral Decision-Making
@@ -65,6 +68,11 @@ As large language models (LLMs) become increasingly integrated into society, the
 ## Authors
 
 [[Basile Garcia]], [[Crystal Qian]], [[Stefano Palminteri]]
+
+## Data Description
+
+The study creates corpora of human and LLM-generated moral judgments using 60 ethical scenarios from Greene et al., evaluated by 230 human participants. Three corpora were generated using GPT-3.5 davinci-text-002 and davinci-text-003, each containing approximately 3,500 responses with yes/no judgments and free-text justifications. The data captures detection accuracy, agreement with judgments, and agreement with justifications across non-moral, impersonal moral, and personal moral scenario types.
+
 
 ## Notes
 

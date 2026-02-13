@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ tags:
 abstract: "Recent advances in synthetic data generation have shown that compact language models can be trained effectively when the underlying corpus is structurally controlled and linguistically coherent. However, for morphologically rich and computationally under-resourced languages such as Romanian, there is still no openly documented, end-to-end pipeline that unifies tokenizer design, preprocessing, pretraining, compression, evaluation, and large-scale synthetic data generation in a reproducible..."
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # TF3-RO: Training Compact Romanian Language Models on Synthetic Moral Microfiction
 
@@ -61,6 +64,10 @@ Recent advances in synthetic data generation have shown that compact language mo
 ## Dataset Information
 
 3M Romanian synthetic fables + 3M English fables with six-slot scaffold for narrative-based moral training
+
+## Data Description
+
+TF3-RO presents an end-to-end pipeline for training compact Romanian language models on synthetic moral microfiction. The dataset consists of three million Romanian synthetic fables generated via a combinatorial prompting framework, built upon the TF2 bilingual corpus. A 51.65M-parameter LLaMA-style Transformer is trained from scratch on approximately one billion Romanian tokens and compressed via knowledge distillation into a 26.45M-parameter student model. The pipeline includes custom Romanian BPE and Unigram tokenizers optimized for Romanian morphology.
 
 ## Notes
 

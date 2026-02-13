@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/GaryYufei/AlignLLMHumanSurvey"
 ---
 # RLHF Deciphered
 
@@ -71,6 +74,11 @@ Comprehensive critical analysis of RLHF revealing limitations and reward model i
 ## Significance
 
 Systematic review exposing RLHF challenges including reward hacking and misspecification
+
+## Data Description
+
+This is a comprehensive survey paper reviewing alignment technologies for large language models, covering data collection methods, training methodologies (SFT, RLHF, DPO, parameter-efficient training), and evaluation approaches. The paper catalogues and organizes existing research on aligning LLMs with human expectations but does not itself test or benchmark any specific LLM. The associated GitHub repository collects references to the latest papers in the field.
+
 
 ## Notes
 

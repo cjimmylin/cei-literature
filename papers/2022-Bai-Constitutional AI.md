@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/anthropics/ConstitutionalHarmlessnessPaper"
 ---
 # Constitutional AI: Harmlessness from AI Feedback
 
@@ -62,6 +65,11 @@ As AI systems become more capable, we would like to enlist their help to supervi
 ## Authors
 
 [[Yuntao Bai]], [[Saurav Kadavath]], [[Sandipan Kundu]], [[Amanda Askell]], [[Jackson Kernion]], [[Andy Jones]], [[Anna Chen]], [[Anna Goldie]], [[Azalia Mirhoseini]], [[Cameron McKinnon]], [[Carol Chen]], [[Catherine Olsson]], [[Christopher Olah]], [[Danny Hernandez]], [[Dawn Drain]], [[Deep Ganguli]], [[Dustin Li]], [[Eli Tran-Johnson]], [[Ethan Perez]], [[Jamie Kerr]], [[Jared Mueller]], [[Jeffrey Ladish]], [[Joshua Landau]], [[Kamal Ndousse]], [[Kamile Lukosuite]], [[Liane Lovitt]], [[Michael Sellitto]], [[Nelson Elhage]], [[Nicholas Schiefer]], [[Noemi Mercado]], [[Nova DasSarma]], [[Robert Lasenby]], [[Robin Larson]], [[Sam Ringer]], [[Scott Johnston]], [[Shauna Kravec]], [[Sheer El Showk]], [[Stanislav Fort]], [[Tamera Lanham]], [[Timothy Telleen-Lawton]], [[Tom Conerly]], [[Tom Henighan]], [[Tristan Hume]], [[Samuel R. Bowman]], [[Zac Hatfield-Dodds]], [[Ben Mann]], [[Dario Amodei]], [[Nicholas Joseph]], [[Sam McCandlish]], [[Tom Brown]], [[Jared Kaplan]]
+
+## Data Description
+
+The paper introduces the Constitutional AI (CAI) method for training harmless AI assistants using AI feedback rather than human labels for harmfulness. It uses red-teaming conversation datasets and human feedback helpfulness datasets to train and evaluate various sizes (810M to 52B parameters) of Anthropic's own language models through supervised learning and reinforcement learning phases. The preference datasets and code are available at the listed GitHub repository, with additional RLHF data at https://github.com/anthropics/hh-rlhf.
+
 
 ## Notes
 

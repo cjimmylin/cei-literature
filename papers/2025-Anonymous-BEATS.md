@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude, Gemini, Mistral, Llama-3"
+DATA_URL: "NA"
 ---
 # BEATS: Bias Evaluation and Assessment Test Suite for Large Language Models
 
@@ -57,6 +60,11 @@ In this research, we introduce BEATS, a novel framework for evaluating Bias, Eth
 ## Authors
 
 [[Alok Abhishek]], [[Lisa Erickson]], [[Tushar Bandopadhyay]]
+
+## Data Description
+
+BEATS (Bias Evaluation and Assessment Test Suite) is a framework for evaluating bias, ethics, fairness, and factuality in LLMs using 901 curated evaluation questions spanning 12 primary bias categories. Five leading LLMs are evaluated using a consortium of three LLM-as-a-Judge models across 29 distinct metrics, finding that 37.65% of outputs contained some form of bias.
+
 
 ## Notes
 

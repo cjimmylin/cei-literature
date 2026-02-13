@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, GPT-3.5, GPT-3, text-davinci"
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
  Ethical Reasoning over Moral Alignment: A Case and Framework for In-Context Ethical Policies in LLMs
@@ -53,6 +56,11 @@ normative_ethics_benchmark: Borderline
 ## Abstract
 
 In this position paper, we argue that instead of morally aligning LLMs to specific set of ethical principles, we should infuse generic ethical reasoning capabilities into them so that they can handle value pluralism at a global scale. When provided with an ethical policy, an LLM should be capable of making decisions that are ethically consistent to the policy. We develop a framework that integrates moral dilemmas with moral principles pertaining to different foramlisms of normative ethics, and at different levels of abstractions. Initial experiments with GPT-x models shows that while GPT-4 is a nearly perfect ethical reasoner, the models still have bias towards the moral values of Western and English speaking societies.
+
+## Data Description
+
+The paper presents a framework for specifying in-context ethical policies in LLM prompts and evaluates 5 GPT-x series models on 4 moral dilemmas with 18 ethical policies each. The dataset consists of hand-crafted moral dilemmas reflecting conflicts between interpersonal, professional, social, and cultural values, paired with ethical policies at three levels of abstraction across three branches of normative ethics (virtue, deontology, consequentialism). The dataset is shared in the paper's appendix.
+
 
 ## Notes
 

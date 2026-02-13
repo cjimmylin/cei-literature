@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: 
 data_metrics:
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Towards Artificial Virtuous Agents - Games and ML
 
@@ -59,6 +62,11 @@ This paper proposes using role-playing games riddled with moral dilemmas to brid
 ## Authors
 
 [[Ajay Vishwanath]], [[E. Bøhn]], [[Ole-Christoffer Granmo]], [[Charl Maree]], [[C. Omlin]]
+
+## Data Description
+
+No PDF extract available for analysis. The extracted content corresponds to a different paper (a mathematics paper on non-linear heat equations) due to a mismatched PDF extract.
+
 
 ## Notes
 

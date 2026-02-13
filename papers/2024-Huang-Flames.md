@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract:
 research_topic: "Other"
 data_description: "N/A"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Flames
 
@@ -61,6 +64,10 @@ data_metrics: "Not specified"
 ## Dataset Information
 
 Size: Adversarial prompts and annotated responses (details in full paper)
+
+## Data Description
+
+This paper is a pure mathematics paper on graph theory proving that edge sets of r-flame subgraphs of a rooted digraph form a greedoid. It does not introduce or utilize a specific dataset or benchmark for LLM assessment.
 
 ## Notes
 

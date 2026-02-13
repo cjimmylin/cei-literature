@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Socio-cognitive benchmarks for large language models (LLMs) often fai
 research_topic: "Machine Learning"
 data_description: "Benchmark"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Theory Trace Card (TTC): Documentation for Socio-Cognitive Benchmarks
 
@@ -62,6 +65,10 @@ Socio-cognitive benchmarks for large language models (LLMs) often fail to predic
 ## Dataset Information
 
 Documentation artifact making explicit the theoretical basis of moral reasoning evaluations
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It proposes the Theory Trace Card (TTC), a lightweight documentation artifact for making explicit the theoretical assumptions underlying socio-cognitive evaluations of LLMs, with worked examples for empathy and moral reasoning benchmarks.
 
 ## Notes
 

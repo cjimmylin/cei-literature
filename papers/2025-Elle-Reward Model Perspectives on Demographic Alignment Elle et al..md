@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Reward models (RMs) are central to the alignment of language models (
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "DeBERTa"
+DATA_URL: "https://github.com/socialnlp/rmp"
 ---
 # Reward Model Perspectives on Demographic Alignment (Elle et al.)
 
@@ -62,6 +65,10 @@ Reward models (RMs) are central to the alignment of language models (LMs). An RM
 ## Dataset Information
 
 Framework for demographic alignment of reward models
+
+## Data Description
+
+The study evaluates seven open-source reward models (Beaver RM, LLM-Blender RM, Starling RM, Ultra RM, and OpenAssistant's DeBERTa RM, Pythia1B RM, Pythia7B RM) for sociodemographic biases using four datasets with demographic labels: BBQ, OpinionQA, PRISM, and StereoSet. The authors formalize a framework for measuring alignment of reward model opinions across demographic groups, finding that reward models can systematically reward harmful stereotypes and are poorly aligned with several demographic groups.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Mistral, Mixtral"
+DATA_URL: "https://github.com/Value4AI/ValueBench"
 ---
 # ValueBench: Towards Comprehensively Evaluating Value Orientations and Understanding of Large Language Models
 
@@ -64,6 +67,11 @@ Large Language Models (LLMs) are transforming diverse fields and gaining increas
 ## Authors
 
 [[Yuanyi Ren]], [[Haoran Ye]], [[Hanjun Fang]], [[Xin Zhang]], [[Guojie Song]]
+
+## Data Description
+
+ValueBench is a comprehensive psychometric benchmark for evaluating value orientations and understanding in LLMs, collecting data from 44 established psychometric inventories encompassing 453 multifaceted value dimensions. The benchmark evaluates six LLMs (GPT-3.5 Turbo, GPT-4 Turbo, Llama-2 7B, Llama-2 70B, Mistral 7B, Mixtral 8x7B) on value orientation probing through realistic human-AI interactions and novel value understanding tasks.
+
 
 ## Notes
 

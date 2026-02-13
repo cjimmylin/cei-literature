@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, ChatGPT, Llama, T5"
+DATA_URL: "https://hyunw.kim/sodaverse"
 ---
 # SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization
 
@@ -62,6 +65,11 @@ Data scarcity has been a long standing issue in the field of open-domain social 
 ## Authors
 
 [[Hyunwoo Kim]], [[Jack Hessel]], [[Liwei Jiang]], [[Peter West]], [[Ximing Lu]], [[Youngjae Yu]], [[Pei Zhou]], [[Ronan Le Bras]], [[Malihe Alikhani]], [[Gunhee Kim]], [[Maarten Sap]], [[Yejin Choi]]
+
+## Data Description
+
+SODA (Social Dialogues) is a million-scale dialogue dataset containing 1.5 million social conversations distilled from GPT-3.5 (text-davinci-002), covering 385K unique social contexts grounded in common narratives. The COSMO model (T5-based) is trained on SODA and compared head-to-head with GPT-3.5, ChatGPT, Vicuna (LLaMA-based), Koala (LLaMA-based), BlenderBot, and GODEL in human evaluations.
+
 
 ## Notes
 

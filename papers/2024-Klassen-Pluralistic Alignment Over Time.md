@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "If an AI system makes decisions over time, how should we evaluate how
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Pluralistic Alignment Over Time
 
@@ -63,6 +66,10 @@ If an AI system makes decisions over time, how should we evaluate how aligned it
 ## Dataset Information
 
 Conceptual framework paper with benchmark proposals
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a position paper proposing a theoretical framework for evaluating pluralistic alignment over time in sequential decision-making settings, adapting temporally extended fairness concepts to alignment with multiple stakeholders.
 
 ## Notes
 

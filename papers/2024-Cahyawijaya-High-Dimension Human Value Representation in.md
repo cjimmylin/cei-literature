@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "25 languages"
+LLM_assessed: "ChatGPT, Llama-2, Llama-3, Mistral, Mixtral, BLOOM"
+DATA_URL: "NA"
 ---
 # High-Dimension Human Value Representation in Large Language Models
 
@@ -64,6 +67,11 @@ The widespread application of LLMs across various tasks and fields has necessita
 ## Authors
 
 [[Samuel Cahyawijaya]], [[Delong Chen]], [[Yejin Bang]], [[Leila Khalatbari]], [[Bryan Wilie]], [[Ziwei Ji]], [[Etsuko Ishii]], [[Pascale Fung]]
+
+## Data Description
+
+The paper introduces UniVaR, a high-dimensional value representation trained on approximately 1 million value-eliciting QA pairs generated from 15 LLMs across 25 languages. The evaluation dataset consists of QA pairs derived from four value questionnaire sources (PVQ-RR, WVS, GLOBE, ValuePrism) covering 87 core human values, with 21,480 value-eliciting questions used for training.
+
 
 ## Notes
 

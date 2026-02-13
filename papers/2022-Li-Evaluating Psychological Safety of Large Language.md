@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3, InstructGPT, GPT-3.5, GPT-4, Llama-2"
+DATA_URL: "NA"
 ---
 # Evaluating Psychological Safety of Large Language Models
 
@@ -63,6 +66,11 @@ In this work, we designed unbiased prompts to systematically evaluate the psycho
 ## Authors
 
 [[Xingxuan Li]], [[Yutong Li]], [[Lin Qiu]], [[Shafiq Joty]], [[Lidong Bing]]
+
+## Data Description
+
+The paper evaluates psychological safety of five LLMs using standardized personality tests (Short Dark Triad SD-3, Big Five Inventory BFI) and well-being scales (Flourishing Scale FS, Satisfaction With Life Scale SWLS). Models tested include GPT-3 (davinci), InstructGPT (text-davinci-003), GPT-3.5 (gpt-3.5-turbo-0613), GPT-4 (gpt-4-0613), and Llama-2 (Llama-2-chat-7B), with a fine-tuned P-Llama-2-chat-7B using DPO for safety alignment.
+
 
 ## Notes
 

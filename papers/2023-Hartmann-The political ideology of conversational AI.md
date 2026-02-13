@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "ChatGPT"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Hartmann-The political ideology of conversational AI.md"
 ---
 # The political ideology of conversational AI: Converging evidence on ChatGPT’s pro-environmental, left-libertarian orientation
@@ -59,6 +62,11 @@ Conversational artificial intelligence (AI) disrupts how humans interact with te
 ## Authors
 
 [[Jochen Hartmann]], [[Jasper Schwenzow]], [[Maximilian Witte]]
+
+## Data Description
+
+The study uses 630 political statements from two voting advice applications (Wahl-O-Mat and StemWijzer) and the Political Compass Test to probe ChatGPT's political ideology across three pre-registered experiments. Data includes ChatGPT's response distributions, party alignment scores, and textual analysis results across multiple languages (English, German, Dutch, Spanish), with robustness checks via prompt manipulations.
+
 
 ## Notes
 

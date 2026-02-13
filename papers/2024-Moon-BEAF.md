@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Hallucination in VLM"
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://beafbench.github.io/"
 ---
  BEAF: Observing BEfore-AFter Changes to Evaluate Hallucination in Vision-language Models
 
@@ -86,6 +89,11 @@ Hallucination in VLMs is not just a failure of vision, but a failure to *update*
 
 *   **BEAF Hallucination Dataset**: A benchmark suite of Before/After image pairs.
 *   **Evaluation Metrics (TU, IG, SB, ID)**: A new framework for measuring VLM consistency.
+
+## Data Description
+
+The paper introduces BEAF (BEfore-AFter), a hallucination evaluation benchmark for vision-language models. The dataset contains 2,227 images (500 original from MS-COCO and 1,727 manipulated via object removal/inpainting) with 26,118 image-question pairs. Four novel metrics (True Understanding, Ignorance, Stubbornness, InDecision) are proposed to assess VLM hallucination by tracking answer changes before and after visual scene manipulation.
+
 
 ## Notes
 

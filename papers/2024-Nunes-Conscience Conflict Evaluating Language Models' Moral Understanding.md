@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract:
 ethics_perspective: "General Ethics"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Claude"
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
 # Conscience Conflict: Evaluating Language Models' Moral Understanding
@@ -61,6 +64,10 @@ normative_ethics_benchmark: Borderline
 ## Dataset Information
 
 6 human-authored, high-stakes moral dilemmas; each with 3 mutually exclusive decisions requiring both choice and free-text justification
+
+## Data Description
+
+The paper investigates whether LLMs exhibit moral hypocrisy by comparing their abstract moral endorsements (via the Moral Foundations Questionnaire) with their concrete moral judgments (via the Moral Foundations Vignettes, 68 scenarios). GPT-4 (version 0613) and Claude 2.1 were tested with 30 repetitions each, in both English and Portuguese, and results were compared against human respondent data from prior validation studies.
 
 ## Notes
 

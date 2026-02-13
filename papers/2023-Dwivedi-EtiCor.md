@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-3.5, Falcon, BERT"
+DATA_URL: "https://github.com/Exploration-Lab/EtiCor"
 pdf_extract: "PDF Extracts/2023/2023-Dwivedi-EtiCor.md"
 local_pdf: "[[PDFs/2023/2023-Dwivedi-EtiCor.pdf]]"
 ---
@@ -62,6 +65,11 @@ Etiquettes are an essential ingredient of day-to-day interactions among people. 
 ## Authors
 
 [[Ashutosh Dwivedi]], [[Pradhyumna Lavania]], [[Ashutosh Modi]]
+
+## Data Description
+
+The EMNLP 2023 proceedings version of EtiCor introduces a corpus of 36,347 labeled English sentences about region-specific social norms from five global regions. Three LLMs (Delphi, Falcon-40B, GPT-3.5) are evaluated in zero-shot settings on the Etiquette Sensitivity task, and a fine-tuned BERT model is tested in a supervised setting.
+
 
 ## Notes
 

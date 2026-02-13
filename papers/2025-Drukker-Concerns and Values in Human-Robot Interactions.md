@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Concerns and Values in Human-Robot Interactions: A Focus on Social Robotics
 
@@ -57,6 +60,11 @@ Robots, as AI with physical instantiation, inhabit our social and physical world
 ## Authors
 
 [[Giulio Antonio Abbo]], [[Tony Belpaeme]], [[Micol Spitale]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents a scoping review of values in human-robot interaction literature, followed by expert focus groups and the development of the HRI Value Compass web tool to help researchers identify values in robot design scenarios.
+
 
 ## Notes
 

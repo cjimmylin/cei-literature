@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_YU2026
@@ -29,6 +30,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Moral Foundations Theory analysis on instruction-tuned models"
 data_metrics: "Layer-specific representations, sparse autoencoder features, causal interventions"
+LLM_assessed: "Llama-3, Qwen"
+DATA_URL: "https://github.com/AiChiMoCha/MFT_LLMs"
 ---
 # Tracing Moral Foundations in Large Language Models
 
@@ -69,6 +72,11 @@ The researchers investigated whether LLMs genuinely encode moral reasoning or me
 - Sparse features show semantic connections to specific moral domains
 - Moral understanding emerges from statistical regularities (not mimicry)
 - Representations align with human moral judgments
+
+## Data Description
+
+This study investigates how Moral Foundations Theory (MFT) concepts are encoded, organized, and expressed within two instruction-tuned LLMs: Llama-3.1-8B-Instruct and Qwen2.5-7B-Instruct. The researchers use an expanded MFV-130 vignette set (~200 scenarios per foundation), the Reddit Moral Foundations Corpus for ecological validation, and 50,000 FineWeb documents for SAE feature analysis. The methodology combines layer-wise concept vector analysis, sparse autoencoder decomposition, and causal steering interventions.
+
 
 ## Notes
 

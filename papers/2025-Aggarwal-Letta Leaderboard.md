@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Claude, GPT-4, Gemini"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Aggarwal-Letta Leaderboard.md"
 local_pdf: "[[PDFs/2025/2025-Aggarwal-Letta Leaderboard.pdf]]"
 ---
@@ -91,6 +94,11 @@ The authors conclude that agentic memory remains an underdeveloped capability re
 - Fictional QA datasets: Evaluation data minimizing pre-training contamination
 - Evaluation framework: Protocols for testing memory read/write/update operations
 - Public leaderboard: https://www.letta.com/blog/letta-leaderboard
+
+## Data Description
+
+The Letta Leaderboard benchmarks LLMs on agentic memory management across three capabilities: reading, writing, and updating memory. It uses synthetic facts and questions for evaluation, with a prompted GPT-4.1 grading agent responses following the SimpleQA methodology. Top models tested include Claude 4 Sonnet, GPT-4.1, GPT-4o, GPT-4o-mini, and Gemini 2.5 Flash.
+
 
 ## Notes
 

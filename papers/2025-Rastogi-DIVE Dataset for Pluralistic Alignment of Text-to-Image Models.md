@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "Current text-to-image (T2I) models often fail to account for diverse 
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach dataset"
 data_metrics: "1000 prompts"
+LLM_assessed: "Gemma"
+DATA_URL: "https://huggingface.co/datasets/neurips-dataset-1211/DIVE"
 ---
 # DIVE: Dataset for Pluralistic Alignment of Text-to-Image Models
 
@@ -62,6 +65,10 @@ Current text-to-image (T2I) models often fail to account for diverse human exper
 ## Dataset Information
 
 1,000 prompts with safety perspectives from demographically intersectional raters for text-to-image alignment
+
+## Data Description
+
+DIVE is a multimodal dataset for pluralistic alignment in text-to-image safety evaluation, containing 1,000 adversarial prompt-image pairs with 35,164 harm evaluations from 637 demographically diverse raters across 30 intersectional groups (gender, age, ethnicity). Raters provide 5-point Likert scale harmfulness ratings, harm-to-self vs. harm-to-others assessments, violation type labels, and 5,372 free-form text comments.
 
 ## Notes
 

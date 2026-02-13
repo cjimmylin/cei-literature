@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract: "As Video Large Language Models (VideoLLMs) are deployed globally, the
 research_topic: "Computer Vision & Multimodal"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
+LLM_assessed: "Gemini, Qwen"
+DATA_URL: "https://github.com/nikhilreddy3/VideoNorms"
 ---
 # VideoNorms: Benchmarking Cultural Awareness of Video Language Models
 
@@ -62,6 +65,10 @@ As Video Large Language Models (VideoLLMs) are deployed globally, they require u
 ## Dataset Information
 
 1,000+ video-norm pairs from US and Chinese cultures annotated with socio-cultural norms
+
+## Data Description
+
+VIDEONORMS is a benchmark of over 1,000 (video clip, norm) pairs from US and Chinese cultures for evaluating cultural awareness of Video Language Models. The dataset contains 15-second clips from 8 TV shows (4 US, 4 Chinese) annotated with socio-cultural norms grounded in speech act theory, norm adherence/violation labels, and verbal/non-verbal evidence. The teacher model Gemini-2.0-Pro was used for initial annotation, with subsequent validation by 3 trained human annotators per instance. Seven open-weight VideoLLMs were benchmarked including LLaVA-Next-Video, LLaVA-OneVision, InternVL-3, InternVL-3.5, Qwen2-VL, Qwen2.5-VL, and VideoChatR1.
 
 ## Notes
 

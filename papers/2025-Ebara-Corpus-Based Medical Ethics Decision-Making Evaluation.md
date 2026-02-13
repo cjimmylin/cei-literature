@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ abstract:
 ethics_perspective: "Applied Ethics"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-4, Gemini"
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
 # Corpus-Based Medical Ethics Decision-Making Evaluation
@@ -65,6 +68,10 @@ normative_ethics_benchmark: Borderline
 ## Dataset Information
 
 50 clinical case scenarios
+
+## Data Description
+
+The authors introduce a scenario-based text corpus of 50 clinical cases structured as decision trees, each presenting ethical dilemmas scored on four biomedical ethics principles (Respect for Autonomy, Beneficence and Non-maleficence, Justice, Common Morality). GPT-4 (gpt-4o-2024-08-06) and Gemini (gemini-1.5-pro) are evaluated across baseline and ethics-focused instruction conditions, with ethical scores computed from moral rule violation rates in decision trajectories.
 
 ## Notes
 

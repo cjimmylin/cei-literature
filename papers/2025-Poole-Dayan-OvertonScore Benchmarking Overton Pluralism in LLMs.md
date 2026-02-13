@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "We introduce a novel framework for measuring Overton pluralism in LLM
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark"
 data_metrics: "60 questions"
+LLM_assessed: "GPT-4, Gemma, DeepSeek, Llama-3, Claude, Gemini"
+DATA_URL: "NA"
 ---
 # OvertonScore: Benchmarking Overton Pluralism in LLMs
 
@@ -61,6 +64,10 @@ We introduce a novel framework for measuring Overton pluralism in LLMs—the ext
 ## Dataset Information
 
 OvertonScore metric validated against 1,209 human respondents across 60 questions and 8 models
+
+## Data Description
+
+The benchmark comprises 60 subjective questions (15 from Model Slant and 45 from PRISM) evaluated by 1,209 U.S.-representative participants who rated outputs from 8 LLMs on a 1-5 Likert scale for perceived representation. The resulting dataset contains 29,016 data points (1,209 participants x 3 questions x 8 LLMs) with free-form written responses, representation ratings, and agree/disagree votes used to cluster participants into distinct viewpoints for computing the OvertonScore metric.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Ten Hard Problems in Artificial Intelligence We Must Get Right
 
@@ -83,6 +86,11 @@ The authors conclude that while these problems are genuinely hard, they are not 
 ## Artifact Contributions
 
 None mentioned. The paper is a literature review and strategic analysis without associated datasets, benchmarks, or code releases.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a comprehensive review of the AI2050 ten hard problems that must be addressed for AI to benefit society by 2050, covering capabilities, safety, alignment, applications, economic disruptions, participation, responsible deployment, geopolitical impacts, governance, and philosophical implications.
+
 
 ## Notes
 

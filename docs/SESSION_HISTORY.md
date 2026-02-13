@@ -2,6 +2,42 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 61 (Feb 12, 2026) - Data Quality Fixes & GitHub Pages Deployment
+
+### Overview
+
+Resolved incomplete author lists for 68 of 69 papers, fixed mismatched PDF extracts and corrupted YAML metadata, deployed a second dashboard to GitHub Pages, and addressed first_author format issues across 13 papers.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Authors Incomplete Resolved | 68/69 (was 69, now 1 — Liu-CoreValue) |
+| Mismatched Extracts Fixed | 1 (U-SafeBench — wrong PDF replaced + re-extracted) |
+| Mismatched Extracts Flagged | 1 (Ochasi — awaiting manual Wiley download) |
+| First Author Format Fixes | 13 (11 unquoted + 2 Neuman double-bracket) |
+| Wrong arXiv IDs Corrected | 2 (U-SafeBench 2502.12854→2502.15086, Flames 2008.09107→2311.06899) |
+| Dashboard Deployments | 1 new (cei-dashboard-llm on GitHub Pages) |
+| YAML Validation | 846/846 pass, 0 errors |
+
+### Key Learnings
+- [Data Quality] EXSR import corrupted arXiv IDs for ≥3 papers — PDF acquisition trusted title-search results without author verification
+- [Author Management] First-author validation guard is essential for batch author resolution to prevent applying wrong authors from wrong arXiv IDs
+- [Workflows] Agent swarms bypass API rate limits — 5 papers that failed via sequential Semantic Scholar calls were instantly resolved by parallel web search agents
+
+### Files Changed
+- papers/: 68 papers updated (author lists), 13 first_author fixes
+- PDF Extracts/: 2 files updated (U-SafeBench re-extracted, Ochasi placeholder)
+- PYTHON/: 1 new script (resolve_incomplete_authors.py)
+- Git: 2 commits (Session 59 + Session 60), pushed to remote
+- GitHub: New repo `cjimmylin/cei-dashboard-llm` created + Pages enabled
+
+### Remaining Issues
+- Liu-CoreValue: wrong arXiv ID `2005.08146`, needs manual author resolution
+- Ochasi: needs manual browser download from Wiley (OA but bot-blocked)
+
+---
+
 ## Session 60 (Feb 12, 2026) - LLM Assessment & Data Availability Report
 
 ### Overview

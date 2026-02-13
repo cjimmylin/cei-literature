@@ -12,9 +12,10 @@ first_author: "[[Andrea Seveso]]"
 last_author: "[[Fabio Mercorio]]"
 authors: Andrea Seveso, Daniele Potertì, Edoardo Federici, Mario Mezzanzanica, Fabio Mercorio
 url: "https://aclanthology.org/2025.naacl-long.68/"
+external_pdf: "https://aclanthology.org/2025.naacl-long.68.pdf"
 publication: ACL Anthology (NAACL 2025)
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2025/2025-Seveso-ITALIC An Italian Culture-Aware Natural Language Benchmark.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Seveso-ITALIC An Italian Culture-Aware Natural Language Benchmark.md"
 DATE_ADDED: 20260213
 ethics_overall: "No"
 virtue_ethics: "No"

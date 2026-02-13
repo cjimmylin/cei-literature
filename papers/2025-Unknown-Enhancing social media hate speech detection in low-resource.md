@@ -13,9 +13,10 @@ last_author: "[[Unknown]]"
 authors: Unknown (published in Social Network Analysis and Mining)
 doi: 10.1007/s13278-025-01497-w
 url: "https://link.springer.com/article/10.1007/s13278-025-01497-w"
+external_pdf: "https://link.springer.com/content/pdf/10.1007/s13278-025-01497-w.pdf"
 publication: Springer Social Network Analysis and Mining
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2025/2025-Unknown-Enhancing social media hate speech detection in low-resource.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Unknown-Enhancing social media hate speech detection in low-resource.md"
 DATE_ADDED: 20260213
 ethics_overall: "Yes"
 virtue_ethics: "No"

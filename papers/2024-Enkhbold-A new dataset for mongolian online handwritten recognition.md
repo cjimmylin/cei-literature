@@ -1,0 +1,73 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0641
+type: journalArticle
+short_title: A new dataset for mongolian online handwritten recognition
+year: 2024
+first_author: "[[Enkhbold]]"
+last_author: "[[Enkhbold]]"
+authors: Enkhbold
+url: "https://www.nature.com/articles/s41598-022-27267-8"
+external_pdf: "https://www.nature.com/articles/s41598-022-27267-8.pdf"
+publication: Nature
+local_pdf: "[[PDFs/2024/2024-Enkhbold-A new dataset for mongolian online handwritten recognition.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Enkhbold-A new dataset for mongolian online handwritten recognition.md"
+DATE_ADDED: 20260213
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+languages_list: "Mongolian, Multilingual"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract:
+research_topic: "Machine Learning"
+---
+# A new dataset for mongolian online handwritten recognition
+
+## Authors
+
+[[Enkhbold]]
+
+## Metadata
+
+**Authors:** Enkhbold
+
+**Year:** 2024
+
+**Type:** journalArticle
+
+**Venue:** Nature
+
+**Languages:** Mongolian, Multilingual
+
+## Links
+
+- **URL:** https://www.nature.com/articles/s41598-022-27267-8
+
+## Abstract
+
+I found the research paper you were looking for. The paper "Recognizing Textual Inference in Mongolian Bar Exam Questions" was authored by Khaltarkhuu, Garmaabazar; Batjargal, Biligsaikhan; and Maeda, Akira.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent B10
+**Relevance:** Relevant to Mongolian, Multilingual
+
+## Tags
+

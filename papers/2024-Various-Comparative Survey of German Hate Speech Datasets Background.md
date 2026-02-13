@@ -12,9 +12,10 @@ first_author: "[[Various]]"
 last_author: "[[Various]]"
 authors: Various
 url: "https://www.researchgate.net/publication/378070468_Comparative_Survey_of_German_Hate_Speech_Datasets_Background_Characteristics_and_Biases"
+external_pdf: "https://ceur-ws.org/Vol-3630/LWDA2023-paper19.pdf"
 publication: ResearchGate
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2024/2024-Various-Comparative Survey of German Hate Speech Datasets Background.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Various-Comparative Survey of German Hate Speech Datasets Background.md"
 DATE_ADDED: 20260213
 ethics_overall: "Yes"
 virtue_ethics: "No"

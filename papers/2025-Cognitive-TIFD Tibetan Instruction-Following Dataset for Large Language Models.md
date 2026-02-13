@@ -1,0 +1,79 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0650
+type: conferencePaper
+short_title: "TIFD: Tibetan Instruction-Following Dataset for Large Language Models Supervised Fine-Tuning"
+year: 2025
+first_author: "[[Integrating Cognitive]]"
+last_author: "[[Integrating Cognitive]]"
+authors: Integrating Cognitive
+doi: 10.3724/2096-7004.di.2024.0010
+url: "https://www.sciengine.com/DI/doi/10.3724/2096-7004.di.2024.0010"
+external_pdf: "https://www.sciengine.com/doi/pdfView/B770E370D32D49CDA44D77D17C2EBC9A"
+publication: Web
+local_pdf: "[[PDFs/2025/2025-Cognitive-TIFD Tibetan Instruction-Following Dataset for Large Language Models.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Cognitive-TIFD Tibetan Instruction-Following Dataset for Large Language Models.md"
+DATE_ADDED: 20260213
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+languages_list: "Tibetan"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract:
+research_topic: "Machine Learning"
+---
+# TIFD: Tibetan Instruction-Following Dataset for Large Language Models Supervised Fine-Tuning
+
+## Authors
+
+[[Integrating Cognitive]]
+
+## Metadata
+
+**Authors:** Integrating Cognitive
+
+**Year:** 2025
+
+**Type:** conferencePaper
+
+**Venue:** Web
+
+**DOI:** [10.3724/2096-7004.di.2024.0010](https://doi.org/10.3724/2096-7004.di.2024.0010)
+
+**Languages:** Tibetan
+
+**Benchmark:** TIFD
+
+## Links
+
+- **DOI:** https://doi.org/10.3724/2096-7004.di.2024.0010
+- **URL:** https://www.sciengine.com/DI/doi/10.3724/2096-7004.di.2024.0010
+
+## Abstract
+
+Based on the search results, I found the research paper you're looking for: T-LLaMA: a Tibetan large language model based on LLaMA2 is a model trained based on efficient pre-training technology for three downstream tasks: text classification, news text generation and automatic text summarization. To address the lack of corpus, the researchers constructed a Tibetan dataset comprising 2.2 billion characters and augmented the vocabulary of LLaMA2 from META AI by expanding the Tibetan vocabular
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent B10
+**Relevance:** TIFD benchmark for Tibetan
+
+## Tags
+

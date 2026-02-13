@@ -2,6 +2,46 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 67 (Feb 13, 2026) - Language Search Wave 5 (B10, C1-C2, D1-D3) Import
+
+### Overview
+Completed Language Search Waves 4-5 by recovering data from 6 rate-limited agents (B10, C1-C2, D1-D3) via raw log parsing, consolidating all 25 agents, importing 253 new papers, and running the full download-extract-classify pipeline with parallel batch processing.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Agents recovered from logs | 6 (B10, C1, C2, D1, D2, D3) |
+| Papers extracted from logs | 325 |
+| Consolidation (all 25 agents) | 1221 raw → 960 deduped → 297 truly new |
+| Papers imported | 253 (44 skipped as similar) |
+| PDFs downloaded (batch) | 60/87 |
+| PDFs found (comprehensive) | 70/388 |
+| Text extracts created | 139 (69 batch + 70 comprehensive) |
+| Papers classified | 253/253 (0 errors) |
+| Ethics=Yes (wave 5) | 83/253 (33%) |
+| PDFs migrated to year dirs | 136 |
+| Duplicate YAML lines | 0 (INSERT→REPLACE fix working) |
+| Vault total (end) | 1,889 papers, 1,640 PDFs, 1,927 extracts |
+| Validation | 1889/1889 pass, 0 errors |
+
+### Key Decisions
+- **Agent log recovery:** Rather than re-launching 6 agents that hit WebSearch rate limits, wrote `PYTHON/extract_agent_papers.py` to parse raw JSONL conversation logs and extract paper metadata. Recovered 325 papers with 107 arXiv IDs and 41 DOIs.
+- **Parallel swarm processing:** Ran 4 download + 5 classify batches simultaneously (Phase 1), then mop-up + extract + comprehensive finder (Phase 2), then migrate + validate (Phase 3).
+
+### Bug Lessons
+- **Classify race condition:** Parallel classify batches 4-5 processed 0 papers because batches 1-3 finished so fast that the "needing processing" list shrank before 4-5 read it. Fix: always run sequential mop-up pass.
+- **INSERT→REPLACE fix confirmed:** The batch script fix from Session 65 prevented all duplicate YAML lines (0 found in cleanup check).
+
+### Agent Coverage Summary (All 25 Language Search Agents)
+| Wave | Agents | Languages/Topics |
+|------|--------|-----------------|
+| 1 (Religious) | R1-R10 | Hindu, Buddhist, Islamic, Christian, Jewish, Sikh, Shinto, Indigenous, Confucian, Interfaith |
+| 2-3 (A1-B5) | A1-A10, B1-B5 | Hindi, Bengali, Tamil, Telugu, Urdu, Thai, Vietnamese, Indonesian, Malay, Korean, Turkish, Swahili, Amharic, Yoruba, Zulu, Hausa, Persian, Hebrew, Kazakh, Uzbek, Kurdish, Azerbaijani, Russian, Ukrainian, Polish, Czech, Hungarian, Croatian, Serbian |
+| 4 (B6-B9) | B6-B9 | French, German, Dutch, Danish, Swedish, Norwegian, Finnish, Icelandic, Italian, Romanian, Catalan, Basque, Greek, Georgian, Armenian, Albanian, Maltese |
+| 5 (B10-D3) | B10, C1-C2, D1-D3 | Mongolian, Tibetan, Uyghur, Kyrgyz, Chinese, Japanese, Arabic, Multilingual (5+), Indigenous/Low-resource, Code-switching/Dialectal |
+
+---
+
 ## Session 66 (Feb 13, 2026) - Missing PDF Download for 20260213 Import
 
 ### Overview

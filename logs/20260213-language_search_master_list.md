@@ -2,10 +2,10 @@
 
 ## Summary
 
-- **Agents:** 19
-- **Total papers found:** 688
-- **Truly new (not in vault):** 167
-- **Already in vault:** 521
+- **Agents:** 25
+- **Total papers found:** 960
+- **Truly new (not in vault):** 297
+- **Already in vault:** 663
 
 ## Agent Summary
 
@@ -22,6 +22,7 @@
 | A8 | Bengali, Sinhala, Assamese, Odia | 56 |
 | A9 | Portuguese, Galician | 49 |
 | B1 | Korean | 40 |
+| B10 | Mongolian, Tibetan, Uyghur, Kyrgyz | 71 |
 | B2 | Spanish | 50 |
 | B3 | Russian, Ukrainian, Belarusian, Bulgarian | 42 |
 | B4 | Polish, Czech, Slovak, Serbian, Croatian, Slovenian | 40 |
@@ -30,6 +31,11 @@
 | B7 | German, Dutch, Danish, Swedish, Norwegian, Finnish, Icelandic | 52 |
 | B8 | Italian, Romanian, Catalan, Basque | 40 |
 | B9 | Greek, Georgian, Armenian, Albanian, Maltese | 32 |
+| C1 | Chinese, Mandarin, Cantonese, Classical Chinese, Min, Hakka | 54 |
+| C2 | Japanese, Arabic | 64 |
+| D1 | Multilingual | 63 |
+| D2 | Quechua, Guarani, Maori, Welsh, Irish, Hawaiian, Navajo, Inuktitut | 38 |
+| D3 | Hinglish, Spanglish, Arabizi, Romanized | 35 |
 
 ## New Papers to Import
 
@@ -429,1213 +435,2199 @@
 - **Abstract:** 10,000 Sinhala-English code-mixed comments annotated for 5 tasks: sentiment analysis, humor detection, hate speech detection, language identification, aspect identification. First Sinhala-English CMCS dataset.
 - **Source Agent(s):** A8
 
-### 44. compar:IA: The French Government's LLM arena to collect French-language human prompts and preference data
-- **Authors:** French Ministry of Culture team
+### 44. A Language model-based approach to sentiment classification of languages in central Asia
+- **Authors:** 
 - **Year:** 2025
-- **arXiv:** [2602.06669](https://arxiv.org/abs/2602.06669)
-- **URL:** https://arxiv.org/abs/2602.06669
-- **Languages:** French
-- **Benchmark:** compar:IA
-- **Code/Data:** https://huggingface.co/datasets/ministere-culture/comparia-conversations
-- **Abstract:** Open-source digital public service developed by the French government to collect large-scale human preference data from a predominantly French-speaking audience. Over 600K prompts and 250K preference votes collected since October 2024. Releases conversations, votes, and reactions datasets under open licenses, with a French-language model leaderboard.
-- **Source Agent(s):** B6
+- **URL:** https://www.nature.com/articles/s41598-025-22198-6
+- **Languages:** Kyrgyz, Turkish
+- **Abstract:** Based on the web search results, here's what I found about Central Asian languages NLP benchmark evaluation: Overview of Central Asian Languages NLP Research in the NLP sphere of the Turkic counterparts of Central Asian languages, namely Kazakh, Uzbek, Kyrgyz, and Turkmen, comes with the typical challenges of low-resource languages, like data scarcity and a general lack of linguistic resources. Current State of Technology and Benchmarks Kazakh language takes the first place in terms of
+- **Source Agent(s):** B10
 
-### 45. ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection
-- **Authors:** Axel Delaville, et al.
+### 45. IndicNLPSuite: Monolingual Corpora, Evaluation ...
+- **Authors:** 
 - **Year:** 2025
-- **arXiv:** [2508.11281](https://arxiv.org/abs/2508.11281)
-- **URL:** https://arxiv.org/abs/2508.11281
-- **Languages:** French
-- **Benchmark:** ToxiFrench
-- **Code/Data:** https://huggingface.co/datasets/AxelDlv00/ToxiFrench
-- **Abstract:** Dataset of 53,622 native French online comments with a balanced benchmark split for systematic evaluation of toxicity detection. Constructed via semi-automated annotation pipeline reducing manual labeling to 10%. Largest high-quality public French toxicity dataset with Chain-of-Thought explanations for every label.
-- **Source Agent(s):** B6
+- **URL:** https://aclanthology.org/2020.findings-emnlp.445.pdf
+- **Languages:** Kyrgyz, Turkish
+- **Benchmark:** IndicNLPSuite
+- **Abstract:** Based on the web search results, here's what I found about Central Asian languages NLP benchmark evaluation: Overview of Central Asian Languages NLP Research in the NLP sphere of the Turkic counterparts of Central Asian languages, namely Kazakh, Uzbek, Kyrgyz, and Turkmen, comes with the typical challenges of low-resource languages, like data scarcity and a general lack of linguistic resources. Current State of Technology and Benchmarks Kazakh language takes the first place in terms of
+- **Source Agent(s):** B10
 
-### 46. FrenchToxicityPrompts: a Large Benchmark for Evaluating and Mitigating Toxicity in French Texts
-- **Authors:** Caroline Brun, Vassilina Nikoulina, Nadi Tomeh
-- **Year:** 2024
-- **arXiv:** [2406.17566](https://arxiv.org/abs/2406.17566)
-- **URL:** https://arxiv.org/abs/2406.17566
-- **Languages:** French
-- **Benchmark:** FrenchToxicityPrompts
-- **Abstract:** Dataset of 50K naturally occurring French prompts and their continuations, annotated with toxicity scores from Perspective API. Evaluated 14 different LLMs from four open-source families (XGLM, BLOOM, LLaMa, LLaMa2). Found toxicity metrics grow with model size and are higher for toxic prompts. Published at TRAC Workshop @ LREC-COLING 2024.
-- **Source Agent(s):** B6
-
-### 47. French CrowS-Pairs: Extending a challenge dataset for measuring social bias in masked language models to a language other than English
-- **Authors:** Aurélie Névéol, Yoann Dupont, Julien Bezançon, Karën Fort
-- **Year:** 2022
-- **URL:** https://aclanthology.org/2022.acl-long.583/
-- **Languages:** French
-- **Benchmark:** French CrowS-Pairs
-- **Code/Data:** https://huggingface.co/datasets/BigScienceBiasEval/crows_pairs_multilingual
-- **Abstract:** Extends the US-centered CrowS-Pairs dataset to French with 1,679 sentence pairs covering stereotypes in ten bias categories. Includes 1,467 translated pairs and 212 newly crowdsourced pairs. Shows four widely used French/multilingual language models favor stereotypical sentences in most bias categories. CamemBERT is more biased than FlauBERT.
-- **Source Agent(s):** B6
-
-### 48. CroissantLLM: A Truly Bilingual French-English Language Model
-- **Authors:** Manuel Faysse, et al.
-- **Year:** 2024
-- **arXiv:** [2402.00786](https://arxiv.org/abs/2402.00786)
-- **URL:** https://arxiv.org/abs/2402.00786
-- **Languages:** English, French
-- **Benchmark:** FrenchBench
-- **Code/Data:** https://huggingface.co/collections/manu/frenchbench-evaluation-datasets
-- **Abstract:** 1.3B bilingual model pretrained on 3T English and French tokens with 1:1 ratio to mitigate English-centric cultural bias. Introduces FrenchBench, a novel benchmark for French LLM evaluation covering classification and generation tasks, including French cultural knowledge trivia. Evaluates bias and cultural knowledge dimensions.
-- **Source Agent(s):** B6
-
-### 49. M-ALERT: LLMs Lost in Translation: M-ALERT uncovers Cross-Linguistic Safety Inconsistencies
-- **Authors:** Felix Friedrich, Simone Teber, Patrick Schramowski, Manuel Brack, Kristian Kersting
-- **Year:** 2024
-- **arXiv:** [2412.15035](https://arxiv.org/abs/2412.15035)
-- **URL:** https://arxiv.org/abs/2412.15035
-- **Languages:** English, French, German, Italian, Spanish
-- **Benchmark:** M-ALERT
-- **Abstract:** Multilingual benchmark evaluating LLM safety in five European languages with 15K high-quality prompts per language (75K total). Extensive experiments on 39 state-of-the-art LLMs show significant inconsistencies in safety across languages and categories, with French often showing disproportionately high toxicity rates.
-- **Source Agent(s):** B6
-
-### 50. AILuminate LLM v1.1: Adding French Language Capabilities to Industry-Leading AI Safety Benchmark
-- **Authors:** MLCommons AI Risk and Reliability Working Group
+### 46. No Language Data Left Behind: A Comparative Study of CJK Language Datasets in the Hugging Face Ecosystem
+- **Authors:** 
 - **Year:** 2025
-- **URL:** https://mlcommons.org/ailuminate/safety/
-- **Languages:** English, French
-- **Benchmark:** AILuminate
-- **Code/Data:** https://github.com/mlcommons/ailuminate
-- **Abstract:** Industry-standard AI safety benchmark from MLCommons, released v1.1 with French language capabilities. Assesses LLM responses to over 24,000 French language test prompts across twelve hazard categories including violent crime, hate, and privacy. Developed by Stanford, Columbia, TU Eindhoven, and industry partners.
-- **Source Agent(s):** B6
+- **arXiv:** [2507.04329](https://arxiv.org/abs/2507.04329)
+- **URL:** https://arxiv.org/html/2507.04329v1
+- **Languages:** Kyrgyz, Turkish
+- **Abstract:** Based on the web search results, here's what I found about Central Asian languages NLP benchmark evaluation: Overview of Central Asian Languages NLP Research in the NLP sphere of the Turkic counterparts of Central Asian languages, namely Kazakh, Uzbek, Kyrgyz, and Turkmen, comes with the typical challenges of low-resource languages, like data scarcity and a general lack of linguistic resources. Current State of Technology and Benchmarks Kazakh language takes the first place in terms of
+- **Source Agent(s):** B10
 
-### 51. HateDay: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter
-- **Authors:** Manuel Tonneau, et al.
-- **Year:** 2024
-- **arXiv:** [2411.15462](https://arxiv.org/abs/2411.15462)
-- **URL:** https://arxiv.org/abs/2411.15462
-- **Languages:** Arabic, English, French, German, Indonesian, Portuguese, Spanish, Turkish
-- **Benchmark:** HateDay
-- **Code/Data:** https://huggingface.co/datasets/manueltonneau/hateday
-- **Abstract:** Global Twitter dataset of 540K tweets sampled from September 21, 2022 and annotated for hate speech detection in 8 languages including French. Each language has 20K tweets with annotations by 3 human annotators per language (hateful, offensive, or neutral). Published at ACL 2025.
-- **Source Agent(s):** B6
-
-### 52. LinguaSafe: A Comprehensive Multilingual Safety Benchmark for Large Language Models
-- **Authors:** Ning, Gu, et al.
+### 47. Advancing NLP Equity: A Secondary Benchmark Evaluation of Multilingual Language Models for Underrepresented Languages
+- **Authors:** 
 - **Year:** 2025
-- **arXiv:** [2508.12733](https://arxiv.org/abs/2508.12733)
-- **URL:** https://arxiv.org/abs/2508.12733
-- **Languages:** 12 languages including French
-- **Benchmark:** LinguaSafe
-- **Abstract:** Comprehensive multilingual safety benchmark with 45K entries in 12 languages curated using translated, transcreated, and natively-sourced data. Introduces TATER (Task-Aware Translate, Estimate, and Refine) framework. Finds safety performance varies dramatically across languages with English typically surpassing others.
-- **Source Agent(s):** B6
+- **URL:** https://openreview.net/forum?id=YlTVWukmJe
+- **Languages:** Guarani, Kyrgyz, Multilingual, Quechua, Turkish
+- **Abstract:** Based on the web search results, here's what I found about Central Asian languages NLP benchmark evaluation: Overview of Central Asian Languages NLP Research in the NLP sphere of the Turkic counterparts of Central Asian languages, namely Kazakh, Uzbek, Kyrgyz, and Turkmen, comes with the typical challenges of low-resource languages, like data scarcity and a general lack of linguistic resources. Current State of Technology and Benchmarks Kazakh language takes the first place in terms of
+- **Source Agent(s):** B10, D2
 
-### 53. COLE: a Comprehensive Benchmark for French Language Understanding Evaluation
-- **Authors:** Unknown (arXiv preprint)
+### 48. A survey of multilingual large language models - PMC
+- **Authors:** Adnan Masood, Ph
 - **Year:** 2025
-- **arXiv:** [2510.05046](https://arxiv.org/abs/2510.05046)
-- **URL:** https://arxiv.org/abs/2510.05046
-- **Languages:** French
-- **Benchmark:** COLE
-- **Abstract:** Comprehensive French NLU benchmark of 23 diverse tasks covering sentiment analysis, paraphrase detection, grammatical judgment, and reasoning. Evaluated 94 LLMs, highlighting a significant performance gap between closed- and open-weights models. Includes focus on understanding of regional language variations.
-- **Source Agent(s):** B6
+- **URL:** https://pmc.ncbi.nlm.nih.gov/articles/PMC11783891/
+- **Languages:** Chinese, English, Kyrgyz, Maori, Multilingual, Turkish
+- **Abstract:** Based on the web search results, here's what I found about Central Asian languages NLP benchmark evaluation: Overview of Central Asian Languages NLP Research in the NLP sphere of the Turkic counterparts of Central Asian languages, namely Kazakh, Uzbek, Kyrgyz, and Turkmen, comes with the typical challenges of low-resource languages, like data scarcity and a general lack of linguistic resources. Current State of Technology and Benchmarks Kazakh language takes the first place in terms of
+- **Source Agent(s):** B10, D1, D2
 
-### 54. Low-Resource Dialect Adaptation of Large Language Models: A French Dialect Case-Study
-- **Authors:** Unknown
-- **Year:** 2025
-- **arXiv:** [2510.22747](https://arxiv.org/abs/2510.22747)
-- **URL:** https://arxiv.org/abs/2510.22747
-- **Languages:** French, Quebecois French
-- **Abstract:** Adapts three LLMs to Quebecois French dialect using a small dataset and benchmarks them on the COLE suite. Shows continued pre-training with LoRA achieves dialectal gains with minimal regression on prestige French. Highlights that systems defaulting to prestige French can normalize away regional features and reinforce linguistic hierarchies.
-- **Source Agent(s):** B6
-
-### 55. QFrCoLA: a Quebec-French Corpus of Linguistic Acceptability Judgments
-- **Authors:** David Beauchemin, Richard Khoury
-- **Year:** 2025
-- **arXiv:** [2508.16867](https://arxiv.org/abs/2508.16867)
-- **URL:** https://arxiv.org/abs/2508.16867
-- **Languages:** Quebecois French
-- **Benchmark:** QFrCoLA
-- **Abstract:** First normative binary acceptability judgments corpus in French (25,153 in-domain and 2,675 out-of-domain sentences). Sources from Banque de dépannage linguistique and Académie française. Shows pre-trained cross-lingual LLMs have not acquired linguistic judgment capabilities for Quebec French. Published at EMNLP 2025.
-- **Source Agent(s):** B6
-
-### 56. XSafety: Multilingual Safety Benchmark
-- **Authors:** Wang, et al.
+### 49. MM-Eval: A Hierarchical Benchmark for Modern Mongolian Evaluation in LLMs
+- **Authors:** 
 - **Year:** 2024
-- **URL:** https://github.com/Jarviswang94/Multilingual_safety_benchmark
-- **Languages:** Arabic, Bengali, Chinese, English, French, German, Hindi, Japanese, Russian, Spanish
-- **Benchmark:** XSafety
-- **Code/Data:** https://github.com/Jarviswang94/Multilingual_safety_benchmark
-- **Abstract:** Multilingual safety benchmark covering 14 commonly used safety issues across 10 languages including French. Evaluates LLM safety behaviors across diverse linguistic contexts. Highlights that safety performance does not generalize well across languages.
-- **Source Agent(s):** B6
-
-### 57. Cross-Language Bias Examination in Large Language Models
-- **Authors:** Yuxuan Liang, et al.
-- **Year:** 2024
-- **arXiv:** [2512.16029](https://arxiv.org/abs/2512.16029)
-- **URL:** https://arxiv.org/abs/2512.16029
-- **Languages:** Arabic, Chinese, English, French, Spanish
-- **Abstract:** Multilingual bias evaluation framework combining explicit bias assessment (BBQ benchmark translated to 5 languages) with implicit bias measurement using prompt-based IAT. Finds significant bias differences across languages, with Arabic and Spanish showing high stereotyping consistently. Uses DeepL API for BBQ French translation.
-- **Source Agent(s):** B6
-
-### 58. PAGnol: An Extra-Large French Generative Model
-- **Authors:** Julien Launay, et al. (LightOn)
-- **Year:** 2022
-- **arXiv:** [2110.08554](https://arxiv.org/abs/2110.08554)
-- **URL:** https://aclanthology.org/2022.lrec-1.455/
-- **Languages:** French
-- **Abstract:** Collection of French GPT models with PAGnol-XL (1.5B parameters) being the largest model trained from scratch for French. Found that OSCAR pre-training dataset led to low-quality offensive text generation, highlighting importance of dataset selection for ethically sound models. Published at LREC 2022.
-- **Source Agent(s):** B6
-
-### 59. Preference Tuning For Toxicity Mitigation Generalizes Across Languages
-- **Authors:** Xiaochen Li, Zheng Xin Yong, Stephen Bach
-- **Year:** 2024
-- **arXiv:** [2406.16235](https://arxiv.org/abs/2406.16235)
-- **URL:** https://arxiv.org/abs/2406.16235
-- **Languages:** 17 languages including French
-- **Code/Data:** https://github.com/BatsResearch/cross-lingual-detox
-- **Abstract:** Shows DPO training with only English data can significantly reduce toxicity in multilingual open-ended generations across 17 languages including French. Toxic generation probability drops from 46.8% to 3.9%. Uses mechanistic interpretability to identify dual multilinguality property of MLP layers. Published at EMNLP 2024 Findings.
-- **Source Agent(s):** B6
-
-### 60. MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models
-- **Authors:** Guijin Son, et al.
-- **Year:** 2024
-- **arXiv:** [2410.17578](https://arxiv.org/abs/2410.17578)
-- **URL:** https://arxiv.org/abs/2410.17578
-- **Languages:** 122 languages for consistency, 18 languages including French
+- **arXiv:** [2411.09492](https://arxiv.org/abs/2411.09492)
+- **URL:** https://arxiv.org/html/2411.09492v1
+- **Languages:** Mongolian, Multilingual
 - **Benchmark:** MM-Eval
-- **Code/Data:** https://github.com/guijinSON/MM-Eval
-- **Abstract:** Multilingual meta-evaluation benchmark with five core subsets (Chat, Reasoning, Safety, Language Hallucination, Linguistics) spanning 18 languages. Models achieve only 68.9% average accuracy (50% = random). Safety subset performance in low-resource languages is 18.4% lower than English.
-- **Source Agent(s):** B6
+- **Abstract:** Based on the search results, here are the key findings related to MongolianBERT and Mongolian language model evaluations: MongolianBERT and Related Models Pre-trained Mongolian BERT models exist, and these have been evaluated in various NLP tasks. In one study on recognizing textual inference, the fine-tuned bert-base-multilingual-cased obtained the best accuracy of 0.7619 among eight different models tested on Mongolian Bar exam questions.
+- **Source Agent(s):** B10
 
-### 61. Improving Methodologies for LLM Evaluations Across Global Languages
-- **Authors:** INESIA (Singapore AISI-led international collaboration)
+### 50. Evaluating Large Language Models in Mongolian
+- **Authors:** 
 - **Year:** 2025
-- **arXiv:** [2601.15706](https://arxiv.org/abs/2601.15706)
-- **URL:** https://arxiv.org/abs/2601.15706
-- **Languages:** Cantonese, English, Farsi, French, Japanese, Kiswahili, Korean, Malay, Mandarin Chinese, Telugu
-- **Abstract:** Joint multilingual evaluation exercise by international AI safety institutes (Singapore, Japan, Australia, Canada, EU, France, Kenya, South Korea, UK). Tested 2 open-weight models across 10 languages with over 6,000 prompts across 5 harm categories. French INESIA (ANSSI, Inria, LNE, PEReN) participated. Finds jailbreaking is a common weakness for non-English languages.
-- **Source Agent(s):** B6
+- **URL:** https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q1-12.pdf
+- **Languages:** Mongolian, Multilingual
+- **Abstract:** Based on the search results, here are the key findings related to MongolianBERT and Mongolian language model evaluations: MongolianBERT and Related Models Pre-trained Mongolian BERT models exist, and these have been evaluated in various NLP tasks. In one study on recognizing textual inference, the fine-tuned bert-base-multilingual-cased obtained the best accuracy of 0.7619 among eight different models tested on Mongolian Bar exam questions.
+- **Source Agent(s):** B10
 
-### 62. MultiNRC: A Challenging and Native Multilingual Reasoning Evaluation Benchmark for LLMs
-- **Authors:** Scale AI research team
-- **Year:** 2025
-- **arXiv:** [2507.17476](https://arxiv.org/abs/2507.17476)
-- **URL:** https://arxiv.org/abs/2507.17476
-- **Languages:** Chinese, French, Spanish
-- **Benchmark:** MultiNRC
-- **Code/Data:** https://scale.com/leaderboard/multinrc
-- **Abstract:** Native multilingual reasoning benchmark with 1,000+ questions authored by native speakers in French, Spanish, and Chinese. Covers linguistic reasoning, wordplay, cultural/tradition reasoning, and math with cultural relevance. Best LLM (o3-pro) achieves only 49% accuracy. Published July 2025.
-- **Source Agent(s):** B6
-
-### 63. INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge
-- **Authors:** Angelika Romanou et al. (59 authors)
+### 51. KyrgyzNLP: Challenges, Progress, and Future
+- **Authors:** Yana Veitsman
 - **Year:** 2024
-- **arXiv:** [2411.19799](https://arxiv.org/abs/2411.19799)
-- **URL:** https://arxiv.org/abs/2411.19799
-- **Languages:** 44 languages including French, Albanian, Armenian, Georgian, Greek, Maltese, and 39 other languages
-- **Benchmark:** INCLUDE
-- **Code/Data:** https://huggingface.co/papers/2411.19799
-- **Abstract:** Comprehensive multilingual benchmark across 44 written languages with 197,243 QA pairs from local exam sources. Evaluates regional and cultural knowledge rather than translated English content. Models struggle in Armenian, Greek, and Urdu especially on culturally grounded topics. GPT-4o best overall at ~77% average accuracy.
-- **Source Agent(s):** B6, B9
+- **DOI:** [10.1007/978-3-031-88036-0_1](https://doi.org/10.1007/978-3-031-88036-0_1)
+- **URL:** https://link.springer.com/chapter/10.1007/978-3-031-88036-0_1
+- **Languages:** Kyrgyz, Multilingual, Turkish, Uyghur
+- **Benchmark:** KyrgyzNLP
+- **Abstract:** Based on the search results, here are the key findings about Turkic languages, Kyrgyz, and NLP evaluation benchmarks from 2024-2025: TUMLU Benchmark (2025) TUMLU is a comprehensive, multilingual, and natively developed language understanding benchmark specifically designed for Turkic languages. It consists of middle- and high-school level questions spanning 11 academic subjects in Azerbaijani, Crimean Tatar, Karakalpak, Kazakh, Kyrgyz, Tatar, Turkish, Uyghur, and Uzbek.
+- **Source Agent(s):** B10
 
-### 64. Evaluating Gender Bias in Machine Translation (WinoMT)
-- **Authors:** Gabriel Stanovsky, Noah A. Smith, Luke Zettlemoyer
-- **Year:** 2019
-- **URL:** https://aclanthology.org/P19-1164/
-- **Languages:** Arabic, Czech, English, French, Hebrew, Italian, Polish, Russian, Spanish, Ukrainian
-- **Benchmark:** WinoMT
-- **Abstract:** Challenge set of 3,888 English segments for evaluating gender bias in machine translation to 8+ languages including French. Balanced with respect to gender and stereotype. Proposes accuracy, gender gap (Delta-G), and stereotype gap (Delta-S) metrics. Foundational work cited in 47+ en-fr studies.
-- **Source Agent(s):** B6
+### 52. The Development and Experimental Evaluation of a Multilingual Speech Corpus for Low-Resource Turkic Languages
+- **Authors:** Yana Veitsman
+- **Year:** 2024
+- **URL:** https://www.mdpi.com/2076-3417/15/24/12880
+- **Languages:** Kyrgyz, Multilingual, Turkish, Uyghur
+- **Abstract:** Based on the search results, here are the key findings about Turkic languages, Kyrgyz, and NLP evaluation benchmarks from 2024-2025: TUMLU Benchmark (2025) TUMLU is a comprehensive, multilingual, and natively developed language understanding benchmark specifically designed for Turkic languages. It consists of middle- and high-school level questions spanning 11 academic subjects in Azerbaijani, Crimean Tatar, Karakalpak, Kazakh, Kyrgyz, Tatar, Turkish, Uyghur, and Uzbek.
+- **Source Agent(s):** B10
 
-### 65. Cultural Differences in Bias? Origin and Gender Bias in Pre-Trained German and French Word Embeddings
-- **Authors:** Mascha Kurpicz-Briki
+### 53. KyrgyzBERT: A Compact, Efficient Language Model for Kyrgyz NLP
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2511.20182](https://arxiv.org/abs/2511.20182)
+- **URL:** https://arxiv.org/html/2511.20182
+- **Languages:** Kyrgyz, Multilingual, Turkish, Uyghur
+- **Benchmark:** KyrgyzBERT
+- **Abstract:** Based on the search results, here are the key findings about Turkic languages, Kyrgyz, and NLP evaluation benchmarks from 2024-2025: TUMLU Benchmark (2025) TUMLU is a comprehensive, multilingual, and natively developed language understanding benchmark specifically designed for Turkic languages. It consists of middle- and high-school level questions spanning 11 academic subjects in Azerbaijani, Crimean Tatar, Karakalpak, Kazakh, Kyrgyz, Tatar, Turkish, Uyghur, and Uzbek.
+- **Source Agent(s):** B10
+
+### 54. Benchmarking Multilabel Topic Classification in the Kyrgyz Language
+- **Authors:** 
+- **Year:** 2024
+- **DOI:** [10.1007/978-3-031-54534-4_2](https://doi.org/10.1007/978-3-031-54534-4_2)
+- **URL:** https://link.springer.com/chapter/10.1007/978-3-031-54534-4_2
+- **Languages:** Kyrgyz, Multilingual, Turkish, Uyghur
+- **Abstract:** Based on the search results, here are the key findings about Turkic languages, Kyrgyz, and NLP evaluation benchmarks from 2024-2025: TUMLU Benchmark (2025) TUMLU is a comprehensive, multilingual, and natively developed language understanding benchmark specifically designed for Turkic languages. It consists of middle- and high-school level questions spanning 11 academic subjects in Azerbaijani, Crimean Tatar, Karakalpak, Kazakh, Kyrgyz, Tatar, Turkish, Uyghur, and Uzbek.
+- **Source Agent(s):** B10
+
+### 55. Evaluating Modern Large Language Models on Low-Resource and
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2511.10664](https://arxiv.org/abs/2511.10664)
+- **URL:** https://arxiv.org/pdf/2511.10664
+- **Languages:** Multilingual
+- **Abstract:** Based on the search results, here's an overview of research related to Central Asian NLP, low-resource benchmarks, and fairness: Central Asian Languages and Low-Resource NLP Central-Asian languages such as Kazakh, Uzbek and Urdu remain under-served in sentiment analysis. However, efforts to address this gap are underway.
+- **Source Agent(s):** B10, D1
+
+### 56. Exploring NLP Benchmarks in an Extremely Low-Resource Setting
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2509.03962](https://arxiv.org/abs/2509.03962)
+- **URL:** https://arxiv.org/html/2509.03962v1
+- **Languages:** Multilingual
+- **Abstract:** Based on the search results, here's an overview of research related to Central Asian NLP, low-resource benchmarks, and fairness: Central Asian Languages and Low-Resource NLP Central-Asian languages such as Kazakh, Uzbek and Urdu remain under-served in sentiment analysis. However, efforts to address this gap are underway.
+- **Source Agent(s):** B10
+
+### 57. F2Bench: An Open-ended Fairness Evaluation Benchmark ...
+- **Authors:** Dave Davies
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2025.emnlp-main.105.pdf
+- **Languages:** Chinese, English, Japanese, Multilingual
+- **Benchmark:** F2Bench
+- **Abstract:** I've performed a web search and found several relevant results about Chinese NLP dataset bias and fairness evaluation. Here are the key findings: Recent Chinese NLP Bias and Fairness Research (2025-2026) Gender Bias in Chinese Text (2025) As natural language processing for gender bias becomes significant, pre-trained language models suffer from biased corpus, particularly for languages like Chinese with less fairness-related computational linguistic resources.
+- **Source Agent(s):** B10, C1, C2
+
+### 58. Towards fair and comprehensive multilingual LLM benchmarking | SEA-LION
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://sea-lion.ai/blog/multilingual-llm-benchmarking/
+- **Languages:** English, Multilingual
+- **Abstract:** Based on the search results, here's an overview of research related to Central Asian NLP, low-resource benchmarks, and fairness: Central Asian Languages and Low-Resource NLP Central-Asian languages such as Kazakh, Uzbek and Urdu remain under-served in sentiment analysis. However, efforts to address this gap are underway.
+- **Source Agent(s):** B10, D1
+
+### 59. Benchmarking Large Language Models for fairness across diverse downstream tasks
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://community.sap.com/t5/artificial-intelligence-blogs-posts/benchmarking-large-language-models-for-fairness-across-diverse-downstream/ba-p/14287254
+- **Languages:** English, Multilingual
+- **Abstract:** Based on the search results, here's an overview of research related to Central Asian NLP, low-resource benchmarks, and fairness: Central Asian Languages and Low-Resource NLP Central-Asian languages such as Kazakh, Uzbek and Urdu remain under-served in sentiment analysis. However, efforts to address this gap are underway.
+- **Source Agent(s):** B10, D1
+
+### 60. Low-Resource NLP: Challenges, Breakthroughs, and the Science Behind Language AI - KUAIC
+- **Authors:** Sulbha Jain
+- **Year:** 2025
+- **URL:** https://aiclub.ku.edu.np/low-resource-nlp-challenges-breakthroughs-and-the-science-behind-language-ai/
+- **Languages:** Maori, Multilingual
+- **Benchmark:** Low-Resource
+- **Abstract:** Based on the search results, here's an overview of research related to Central Asian NLP, low-resource benchmarks, and fairness: Central Asian Languages and Low-Resource NLP Central-Asian languages such as Kazakh, Uzbek and Urdu remain under-served in sentiment analysis. However, efforts to address this gap are underway.
+- **Source Agent(s):** B10, D2
+
+### 61. MUDT: A Dependency Annotation Framework for Low-Resource Uyghur
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2507.21536](https://arxiv.org/abs/2507.21536)
+- **URL:** https://arxiv.org/pdf/2507.21536
+- **Languages:** Uyghur
+- **Benchmark:** MUDT
+- **Abstract:** Based on the web search results, here's what I found regarding Uyghur language technology, NLP resources, and evaluation: Overview of Uyghur NLP Resources There is a critical resource gap in Uyghur Natural Language Processing (NLP), with researchers introducing dependency annotation frameworks to overcome the limitations of existing treebanks for the low-resource, agglutinative language. Key NLP Resources and Tools Linguistic resources for low-resource language programs include Represen
+- **Source Agent(s):** B10
+
+### 62. Research on the Training and Application Methods of a Lightweight Agricultural Domain-Specific Large Language Model Supporting Mandarin Chinese and Uyghur
+- **Authors:** Combining Pretrained
+- **Year:** 2025
+- **URL:** https://www.mdpi.com/2076-3417/14/13/5764
+- **Languages:** Chinese, Uyghur
+- **Abstract:** Based on the web search results, here's what I found regarding Uyghur language technology, NLP resources, and evaluation: Overview of Uyghur NLP Resources There is a critical resource gap in Uyghur Natural Language Processing (NLP), with researchers introducing dependency annotation frameworks to overcome the limitations of existing treebanks for the low-resource, agglutinative language. Key NLP Resources and Tools Linguistic resources for low-resource language programs include Represen
+- **Source Agent(s):** B10
+
+### 63. A multilingual language processing tool for Uyghur, Kazak and Kirghiz | IEEE Conference Publication | IEEE Xplore
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://ieeexplore.ieee.org/document/8282131
+- **Languages:** Multilingual, Uyghur
+- **Abstract:** Based on the web search results, here's what I found regarding Uyghur language technology, NLP resources, and evaluation: Overview of Uyghur NLP Resources There is a critical resource gap in Uyghur Natural Language Processing (NLP), with researchers introducing dependency annotation frameworks to overcome the limitations of existing treebanks for the low-resource, agglutinative language. Key NLP Resources and Tools Linguistic resources for low-resource language programs include Represen
+- **Source Agent(s):** B10
+
+### 64. How Large Language Models Enhance Low-Resource Mongolian-Chinese Machine Translation?
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.3724/2096-7004.di.2025.0116](https://doi.org/10.3724/2096-7004.di.2025.0116)
+- **URL:** https://www.sciengine.com/DI/doi/10.3724/2096-7004.di.2025.0116
+- **Languages:** Chinese, Mongolian
+- **Abstract:** Based on the search results, I found information about a paper titled "Evaluating Large Language Models in Mongolian" presented at ANLP 2025. According to the PDF document from the proceedings: The paper was presented at the 31st Annual Meeting of the Association for NLP (言語処理学会 第31回年次大会) in 2025.
+- **Source Agent(s):** B10
+
+### 65. Large and Small models for collaborative cross-lingual data augmentation in entity relationship extraction for low-resource languages | Journal of King Saud University Computer and Information Sciences | Springer Nature Link
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.1007/s44443-025-00055-w](https://doi.org/10.1007/s44443-025-00055-w)
+- **URL:** https://link.springer.com/article/10.1007/s44443-025-00055-w
+- **Languages:** Mongolian, Multilingual
+- **Abstract:** Based on the search results, I found information about a paper titled "Evaluating Large Language Models in Mongolian" presented at ANLP 2025. According to the PDF document from the proceedings: The paper was presented at the 31st Annual Meeting of the Association for NLP (言語処理学会 第31回年次大会) in 2025.
+- **Source Agent(s):** B10
+
+### 66. Frontiers | Evaluating large language models: a systematic review of efficiency, applications, and future directions
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.3389/fcomp.2025.1523699/full](https://doi.org/10.3389/fcomp.2025.1523699/full)
+- **URL:** https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1523699/full
+- **Languages:** Mongolian
+- **Abstract:** Based on the search results, I found information about a paper titled "Evaluating Large Language Models in Mongolian" presented at ANLP 2025. According to the PDF document from the proceedings: The paper was presented at the 31st Annual Meeting of the Association for NLP (言語処理学会 第31回年次大会) in 2025.
+- **Source Agent(s):** B10
+
+### 67. Construction and Evaluation of Sentiment Datasets for Low-Resource Languages: The Case of Uzbek | Springer Nature Link
+- **Authors:** 
+- **Year:** 2024
+- **DOI:** [10.1007/978-3-031-05328-3_15](https://doi.org/10.1007/978-3-031-05328-3_15)
+- **URL:** https://link.springer.com/chapter/10.1007/978-3-031-05328-3_15
+- **Languages:** Arabic, Mongolian, Multilingual, Tibetan, Uyghur
+- **Abstract:** Based on the web search results, here are the findings related to Uyghur sentiment analysis dataset evaluation: Recent Research on Uyghur Sentiment Analysis (2024-2025) Recent research conducted experiments on the Uyghur sentiment analysis dataset with experimental evaluation using multiple evaluation indicators including Accuracy, Precision, Recall, and F1-score. Specifically, a study on Uyghur Sentiment Classification Based on Temporal Attention Capsule Networks showed that their model ca
+- **Source Agent(s):** B10
+
+### 68. Towards Better Sentiment Analysis in the Turkish Language: Dataset Improvements and Model Innovations
+- **Authors:** 
+- **Year:** 2024
+- **URL:** https://www.mdpi.com/2076-3417/15/4/2062
+- **Languages:** Arabic, Mongolian, Multilingual, Tibetan, Turkish, Uyghur
+- **Abstract:** Based on the web search results, here are the findings related to Uyghur sentiment analysis dataset evaluation: Recent Research on Uyghur Sentiment Analysis (2024-2025) Recent research conducted experiments on the Uyghur sentiment analysis dataset with experimental evaluation using multiple evaluation indicators including Accuracy, Precision, Recall, and F1-score. Specifically, a study on Uyghur Sentiment Classification Based on Temporal Attention Capsule Networks showed that their model ca
+- **Source Agent(s):** B10
+
+### 69. A cross-validation study of Turkish sentiment analysis datasets and tools | Language Resources and Evaluation | Springer Nature Link
+- **Authors:** 
+- **Year:** 2024
+- **DOI:** [10.1007/s10579-025-09869-6](https://doi.org/10.1007/s10579-025-09869-6)
+- **URL:** https://link.springer.com/article/10.1007/s10579-025-09869-6
+- **Languages:** Arabic, Mongolian, Multilingual, Tibetan, Turkish, Uyghur
+- **Abstract:** Based on the web search results, here are the findings related to Uyghur sentiment analysis dataset evaluation: Recent Research on Uyghur Sentiment Analysis (2024-2025) Recent research conducted experiments on the Uyghur sentiment analysis dataset with experimental evaluation using multiple evaluation indicators including Accuracy, Precision, Recall, and F1-score. Specifically, a study on Uyghur Sentiment Classification Based on Temporal Attention Capsule Networks showed that their model ca
+- **Source Agent(s):** B10
+
+### 70. A structured sentiment analysis dataset based on public comments from various domains - ScienceDirect
+- **Authors:** 
+- **Year:** 2024
+- **URL:** https://www.sciencedirect.com/science/article/pii/S2352340924002038
+- **Languages:** Arabic, Mongolian, Multilingual, Tibetan, Uyghur
+- **Abstract:** Based on the web search results, here are the findings related to Uyghur sentiment analysis dataset evaluation: Recent Research on Uyghur Sentiment Analysis (2024-2025) Recent research conducted experiments on the Uyghur sentiment analysis dataset with experimental evaluation using multiple evaluation indicators including Accuracy, Precision, Recall, and F1-score. Specifically, a study on Uyghur Sentiment Classification Based on Temporal Attention Capsule Networks showed that their model ca
+- **Source Agent(s):** B10
+
+### 71. Graphic Language Model for Agglutinative Languages: Uyghur as Study Case
+- **Authors:** Combining Pretrained
+- **Year:** 2025
+- **DOI:** [10.1007/978-3-642-41491-6_25](https://doi.org/10.1007/978-3-642-41491-6_25)
+- **URL:** https://link.springer.com/chapter/10.1007/978-3-642-41491-6_25
+- **Languages:** Chinese, Uyghur
+- **Abstract:** Based on the search results, I found relevant information about TarimGPT and Uyghur language model evaluation: TarimGPT Overview TarimGPT is a generative pre-trained model based on the Transformer architecture designed to explore the potential of autoregressive language modeling for mixed Chinese and Uyghur training tasks as well as lightweight models. Model Development and Purpose The model addresses the lack of support for minority languages like Uyghur, the scarcity of Uyghur languag
+- **Source Agent(s):** B10
+
+### 72. Evaluating Uighur literary translation: A comparative study of ChatGPT, Google Translate, and Bing Translator - PMC
+- **Authors:** Combining Pretrained
+- **Year:** 2025
+- **URL:** https://pmc.ncbi.nlm.nih.gov/articles/PMC12548925/
+- **Languages:** Chinese, Uyghur
+- **Abstract:** Based on the search results, I found relevant information about TarimGPT and Uyghur language model evaluation: TarimGPT Overview TarimGPT is a generative pre-trained model based on the Transformer architecture designed to explore the potential of autoregressive language modeling for mixed Chinese and Uyghur training tasks as well as lightweight models. Model Development and Purpose The model addresses the lack of support for minority languages like Uyghur, the scarcity of Uyghur languag
+- **Source Agent(s):** B10
+
+### 73. Research on Uyghur‐Chinese Neural Machine Translation Based on the Transformer at Multistrategy Segmentation Granularity - Xu - 2021 - Mobile Information Systems - Wiley Online Library
+- **Authors:** Combining Pretrained
+- **Year:** 2021
+- **DOI:** [10.1155/2021/5744248](https://doi.org/10.1155/2021/5744248)
+- **URL:** https://onlinelibrary.wiley.com/doi/10.1155/2021/5744248
+- **Languages:** Chinese, Uyghur
+- **Abstract:** Based on the search results, I found relevant information about TarimGPT and Uyghur language model evaluation: TarimGPT Overview TarimGPT is a generative pre-trained model based on the Transformer architecture designed to explore the potential of autoregressive language modeling for mixed Chinese and Uyghur training tasks as well as lightweight models. Model Development and Purpose The model addresses the lack of support for minority languages like Uyghur, the scarcity of Uyghur languag
+- **Source Agent(s):** B10
+
+### 74. MiLiC-Eval: Benchmarking Multilingual LLMs for China’s Minority Languages
+- **Authors:** Combining Pretrained
+- **Year:** 2025
+- **arXiv:** [2503.01150](https://arxiv.org/abs/2503.01150)
+- **URL:** https://arxiv.org/html/2503.01150v1
+- **Languages:** Chinese, Multilingual, Uyghur
+- **Benchmark:** MiLiC-Eval
+- **Abstract:** Based on the search results, I found relevant information about TarimGPT and Uyghur language model evaluation: TarimGPT Overview TarimGPT is a generative pre-trained model based on the Transformer architecture designed to explore the potential of autoregressive language modeling for mixed Chinese and Uyghur training tasks as well as lightweight models. Model Development and Purpose The model addresses the lack of support for minority languages like Uyghur, the scarcity of Uyghur languag
+- **Source Agent(s):** B10
+
+### 75. Optimizing Uyghur Speech Synthesis by Combining Pretrained Cross-Lingual Model | ACM Transactions on Asian and Low-Resource Language Information Processing
+- **Authors:** Combining Pretrained
+- **Year:** 2025
+- **DOI:** [10.1145/3675397](https://doi.org/10.1145/3675397)
+- **URL:** https://dl.acm.org/doi/10.1145/3675397
+- **Languages:** Chinese, Multilingual, Uyghur
+- **Abstract:** Based on the search results, I found relevant information about TarimGPT and Uyghur language model evaluation: TarimGPT Overview TarimGPT is a generative pre-trained model based on the Transformer architecture designed to explore the potential of autoregressive language modeling for mixed Chinese and Uyghur training tasks as well as lightweight models. Model Development and Purpose The model addresses the lack of support for minority languages like Uyghur, the scarcity of Uyghur languag
+- **Source Agent(s):** B10
+
+### 76. CC100-Mongolian dataset - NLP Database
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://autonlp.ai/datasets/cc100-mongolian
+- **Languages:** Mongolian
+- **Benchmark:** CC100-Mongolian
+- **Abstract:** I found several relevant resources related to Mongolian NLP and sentiment analysis evaluation. Here's what the search revealed: Mongolian NLP Evaluation MM-Eval is a specialized dataset for evaluating the capabilities of large language models (LLMs) in modern Mongolian, which is a low-resource language.
+- **Source Agent(s):** B10
+
+### 77. Recent advancements and challenges of NLP-based sentiment analysis: A state-of-the-art review - ScienceDirect
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.sciencedirect.com/science/article/pii/S2949719124000074
+- **Languages:** Mongolian
+- **Abstract:** I found several relevant resources related to Mongolian NLP and sentiment analysis evaluation. Here's what the search revealed: Mongolian NLP Evaluation MM-Eval is a specialized dataset for evaluating the capabilities of large language models (LLMs) in modern Mongolian, which is a low-resource language.
+- **Source Agent(s):** B10
+
+### 78. Optimizing Sentiment Analysis in Multilingual Balanced Datasets: A New Comparative Approach to Enhancing Feature Extraction Performance with ML and DL Classifiers
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.mdpi.com/2571-5577/8/4/104
+- **Languages:** Mongolian, Multilingual
+- **Abstract:** I found several relevant resources related to Mongolian NLP and sentiment analysis evaluation. Here's what the search revealed: Mongolian NLP Evaluation MM-Eval is a specialized dataset for evaluating the capabilities of large language models (LLMs) in modern Mongolian, which is a low-resource language.
+- **Source Agent(s):** B10
+
+### 79. Sentiment Analysis Across Languages: Evaluation Before and After Machine Translation to English
+- **Authors:** 
+- **Year:** 2024
+- **arXiv:** [2405.02887](https://arxiv.org/abs/2405.02887)
+- **URL:** https://arxiv.org/html/2405.02887v2
+- **Languages:** English, Mongolian
+- **Abstract:** I found several relevant resources related to Mongolian NLP and sentiment analysis evaluation. Here's what the search revealed: Mongolian NLP Evaluation MM-Eval is a specialized dataset for evaluating the capabilities of large language models (LLMs) in modern Mongolian, which is a low-resource language.
+- **Source Agent(s):** B10
+
+### 80. Multilingual Sentiment Analysis with Data Augmentation: A Cross-Language Evaluation in French, German, and Japanese
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.mdpi.com/2078-2489/16/9/806
+- **Languages:** Japanese, Mongolian, Multilingual
+- **Abstract:** I found several relevant resources related to Mongolian NLP and sentiment analysis evaluation. Here's what the search revealed: Mongolian NLP Evaluation MM-Eval is a specialized dataset for evaluating the capabilities of large language models (LLMs) in modern Mongolian, which is a low-resource language.
+- **Source Agent(s):** B10
+
+### 81. Sentiment analysis in multilingual context: Comparative analysis of machine learning and hybrid deep learning models - PMC
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://pmc.ncbi.nlm.nih.gov/articles/PMC10560063/
+- **Languages:** Mongolian, Multilingual
+- **Abstract:** I found several relevant resources related to Mongolian NLP and sentiment analysis evaluation. Here's what the search revealed: Mongolian NLP Evaluation MM-Eval is a specialized dataset for evaluating the capabilities of large language models (LLMs) in modern Mongolian, which is a low-resource language.
+- **Source Agent(s):** B10
+
+### 82. Evaluating the Translation Accuracy of ChatGPT and DeepL Through the Lens of Implied Subjects by Rui Sun :: SSRN
+- **Authors:** Rui Sun
+- **Year:** 2025
+- **URL:** https://papers.ssrn.com/sol3/Delivery.cfm/5029393.pdf?abstractid=5029393&mirid=1
+- **Languages:** English, Uyghur
+- **Abstract:** Based on the search results, I found information about a comprehensive evaluation benchmark for Uyghur literary translation involving ChatGPT and other translation tools. Uyghur Literary Translation Evaluation Study A comparative study employed two neural machine translation (NMT) systems—Google Translate and Bing Translator—and one generative AI large language model (LLM), ChatGPT to evaluate Uyghur to English literary translation.
+- **Source Agent(s):** B10
+
+### 83. Document-Level Machine Translation with Large Language Models Longyue Wang1∗
+- **Authors:** Rui Sun
+- **Year:** 2025
+- **URL:** https://openreview.net/pdf?id=sXErPfdA7Q
+- **Languages:** English, Uyghur
+- **Benchmark:** Document-Level
+- **Abstract:** Based on the search results, I found information about a comprehensive evaluation benchmark for Uyghur literary translation involving ChatGPT and other translation tools. Uyghur Literary Translation Evaluation Study A comparative study employed two neural machine translation (NMT) systems—Google Translate and Bing Translator—and one generative AI large language model (LLM), ChatGPT to evaluate Uyghur to English literary translation.
+- **Source Agent(s):** B10
+
+### 84. 1 Benchmarking GPT-4 against Human Translators: A
+- **Authors:** Rui Sun
+- **Year:** 2024
+- **arXiv:** [2411.13775](https://arxiv.org/abs/2411.13775)
+- **URL:** https://arxiv.org/pdf/2411.13775
+- **Languages:** English, Uyghur
+- **Abstract:** Based on the search results, I found information about a comprehensive evaluation benchmark for Uyghur literary translation involving ChatGPT and other translation tools. Uyghur Literary Translation Evaluation Study A comparative study employed two neural machine translation (NMT) systems—Google Translate and Bing Translator—and one generative AI large language model (LLM), ChatGPT to evaluate Uyghur to English literary translation.
+- **Source Agent(s):** B10
+
+### 85. Evaluating ChatGPT's Performance in Creative Text ...
+- **Authors:** Rui Sun
+- **Year:** 2025
+- **URL:** https://www.micjournal.org/article_206500_a5b4e89e67fae3aef1d4eeb3301d6723.pdf
+- **Languages:** English, Uyghur
+- **Abstract:** Based on the search results, I found information about a comprehensive evaluation benchmark for Uyghur literary translation involving ChatGPT and other translation tools. Uyghur Literary Translation Evaluation Study A comparative study employed two neural machine translation (NMT) systems—Google Translate and Bing Translator—and one generative AI large language model (LLM), ChatGPT to evaluate Uyghur to English literary translation.
+- **Source Agent(s):** B10
+
+### 86. Neural Machine Translation for Low-Resource Languages from a Chinese-centric Perspective: A Survey | ACM Transactions on Asian and Low-Resource Language Information Processing
+- **Authors:** Adnan Masood, Ph
+- **Year:** 2025
+- **DOI:** [10.1145/3665244](https://doi.org/10.1145/3665244)
+- **URL:** https://dl.acm.org/doi/10.1145/3665244
+- **Languages:** Chinese, English, Uyghur
+- **Abstract:** Based on the search results, I found information about a comprehensive evaluation benchmark for Uyghur literary translation involving ChatGPT and other translation tools. Uyghur Literary Translation Evaluation Study A comparative study employed two neural machine translation (NMT) systems—Google Translate and Bing Translator—and one generative AI large language model (LLM), ChatGPT to evaluate Uyghur to English literary translation.
+- **Source Agent(s):** B10
+
+### 87. Full article: ChatGPT translation vs. human translation: an examination of a literary text
+- **Authors:** Rui Sun
+- **Year:** 2025
+- **DOI:** [10.1080/23311886.2025.2472916](https://doi.org/10.1080/23311886.2025.2472916)
+- **URL:** https://www.tandfonline.com/doi/full/10.1080/23311886.2025.2472916
+- **Languages:** English, Uyghur
+- **Abstract:** Based on the search results, I found information about a comprehensive evaluation benchmark for Uyghur literary translation involving ChatGPT and other translation tools. Uyghur Literary Translation Evaluation Study A comparative study employed two neural machine translation (NMT) systems—Google Translate and Bing Translator—and one generative AI large language model (LLM), ChatGPT to evaluate Uyghur to English literary translation.
+- **Source Agent(s):** B10
+
+### 88. Large Language Models Meet Text-Centric Multimodal Sentiment Analysis: A Survey
+- **Authors:** 
+- **Year:** 2024
+- **arXiv:** [2406.08068](https://arxiv.org/abs/2406.08068)
+- **URL:** https://arxiv.org/html/2406.08068v2
+- **Languages:** Chinese, Uyghur
+- **Abstract:** Based on the web search results, I found the paper you're looking for: The paper proposes a Uyghur sentiment classification model (TA-Cap) based on Temporal attention capsule networks to improve the performance of Uyghur sentiment classification with limited resources. Publication Details: - Journal: Journal of Chinese Information Processing, Volume 39, Issue 9, pages 62-70 - Published in 2025 The study conducted experiments on the Uyghur sentiment analysis dataset with multiple evaluation
+- **Source Agent(s):** B10
+
+### 89. Text and Value | Mongolian Journal of Humanities and Social Sciences
+- **Authors:** Enkhbold
+- **Year:** 2024
+- **URL:** https://mongoliajol.info/index.php/MJHSS/article/view/4920
+- **Languages:** Mongolian, Multilingual
+- **Abstract:** I found the research paper you were looking for. The paper "Recognizing Textual Inference in Mongolian Bar Exam Questions" was authored by Khaltarkhuu, Garmaabazar; Batjargal, Biligsaikhan; and Maeda, Akira.
+- **Source Agent(s):** B10
+
+### 90. A new dataset for mongolian online handwritten recognition
+- **Authors:** Enkhbold
+- **Year:** 2024
+- **URL:** https://www.nature.com/articles/s41598-022-27267-8
+- **Languages:** Mongolian, Multilingual
+- **Abstract:** I found the research paper you were looking for. The paper "Recognizing Textual Inference in Mongolian Bar Exam Questions" was authored by Khaltarkhuu, Garmaabazar; Batjargal, Biligsaikhan; and Maeda, Akira.
+- **Source Agent(s):** B10
+
+### 91. Is ChatGPT A Good Translator? A Preliminary Study
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.researchgate.net/publication/367359399_Is_ChatGPT_A_Good_Translator_A_Preliminary_Study
+- **Languages:** English, Uyghur
+- **Abstract:** I found the article you're looking for! The study compares ChatGPT, Google Translate, and Bing Translator for Uyghur-English literary translation.
+- **Source Agent(s):** B10
+
+### 92. Machine translation of Chinese classical poetry: a comparison among ChatGPT, Google Translate, and DeepL Translator | Humanities and Social Sciences Communications
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.nature.com/articles/s41599-024-03363-0
+- **Languages:** Chinese, English, Uyghur
+- **Abstract:** I found the article you're looking for! The study compares ChatGPT, Google Translate, and Bing Translator for Uyghur-English literary translation.
+- **Source Agent(s):** B10
+
+### 93. Linguistically informed ChatGPT prompts to enhance Japanese-Chinese machine translation: A case study on attributive clauses | PLOS One
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.1371/journal.pone.0313264](https://doi.org/10.1371/journal.pone.0313264)
+- **URL:** https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0313264
+- **Languages:** Chinese, English, Japanese, Uyghur
+- **Abstract:** I found the article you're looking for! The study compares ChatGPT, Google Translate, and Bing Translator for Uyghur-English literary translation.
+- **Source Agent(s):** B10
+
+### 94. Full article: Artificial intelligence tools and literary translation: a comparative investigation of ChatGPT and Google Translate from novice and advanced EFL student translators’ perspectives
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.1080/23311983.2025.2508031](https://doi.org/10.1080/23311983.2025.2508031)
+- **URL:** https://www.tandfonline.com/doi/full/10.1080/23311983.2025.2508031
+- **Languages:** English, Uyghur
+- **Abstract:** I found the article you're looking for! The study compares ChatGPT, Google Translate, and Bing Translator for Uyghur-English literary translation.
+- **Source Agent(s):** B10
+
+### 95. Uyghur Poetry in Translation: Perhat Tursun’s “Elegy” – Fairbank Center for Chinese Studies
+- **Authors:** Reyila Dilnigar
+- **Year:** 2025
+- **URL:** https://fairbank.fas.harvard.edu/research/blog/uyghur-poetry-in-translation-perhat-tursuns-elegy/
+- **Languages:** Chinese, English, Uyghur
+- **Abstract:** Based on the search results, I found a PLOS ONE article on Uyghur literary translation. The study compares generative artificial intelligence (GenAI) and neural machine translation (NMT) systems in translating Uighur literary text into English.
+- **Source Agent(s):** B10
+
+### 96. T-LLaMA: a Tibetan large language model based on LLaMA2 | Complex & Intelligent Systems
+- **Authors:** Integrating Cognitive
+- **Year:** 2025
+- **DOI:** [10.1007/s40747-024-01641-7](https://doi.org/10.1007/s40747-024-01641-7)
+- **URL:** https://link.springer.com/article/10.1007/s40747-024-01641-7
+- **Languages:** Tibetan
+- **Benchmark:** T-LLaMA
+- **Abstract:** Based on the search results, I found the research paper you're looking for: T-LLaMA: a Tibetan large language model based on LLaMA2 is a model trained based on efficient pre-training technology for three downstream tasks: text classification, news text generation and automatic text summarization. To address the lack of corpus, the researchers constructed a Tibetan dataset comprising 2.2 billion characters and augmented the vocabulary of LLaMA2 from META AI by expanding the Tibetan vocabular
+- **Source Agent(s):** B10
+
+### 97. Evolution of Meta’s LLaMA Models and Parameter-Efficient Fine-Tuning of Large Language Models: A Survey
+- **Authors:** Integrating Cognitive
+- **Year:** 2025
+- **arXiv:** [2510.12178](https://arxiv.org/abs/2510.12178)
+- **URL:** https://arxiv.org/html/2510.12178v1
+- **Languages:** Tibetan
+- **Abstract:** Based on the search results, I found the research paper you're looking for: T-LLaMA: a Tibetan large language model based on LLaMA2 is a model trained based on efficient pre-training technology for three downstream tasks: text classification, news text generation and automatic text summarization. To address the lack of corpus, the researchers constructed a Tibetan dataset comprising 2.2 billion characters and augmented the vocabulary of LLaMA2 from META AI by expanding the Tibetan vocabular
+- **Source Agent(s):** B10
+
+### 98. Improved Tibetan Word Vectors Models Based on Position Information Fusion | ACM Transactions on Asian and Low-Resource Language Information Processing
+- **Authors:** Integrating Cognitive
+- **Year:** 2025
+- **DOI:** [10.1145/3681787](https://doi.org/10.1145/3681787)
+- **URL:** https://dl.acm.org/doi/10.1145/3681787
+- **Languages:** Tibetan
+- **Abstract:** Based on the search results, I found the research paper you're looking for: T-LLaMA: a Tibetan large language model based on LLaMA2 is a model trained based on efficient pre-training technology for three downstream tasks: text classification, news text generation and automatic text summarization. To address the lack of corpus, the researchers constructed a Tibetan dataset comprising 2.2 billion characters and augmented the vocabulary of LLaMA2 from META AI by expanding the Tibetan vocabular
+- **Source Agent(s):** B10
+
+### 99. TIFD: Tibetan Instruction-Following Dataset for Large Language Models Supervised Fine-Tuning
+- **Authors:** Integrating Cognitive
+- **Year:** 2025
+- **DOI:** [10.3724/2096-7004.di.2024.0010](https://doi.org/10.3724/2096-7004.di.2024.0010)
+- **URL:** https://www.sciengine.com/DI/doi/10.3724/2096-7004.di.2024.0010
+- **Languages:** Tibetan
+- **Benchmark:** TIFD
+- **Abstract:** Based on the search results, I found the research paper you're looking for: T-LLaMA: a Tibetan large language model based on LLaMA2 is a model trained based on efficient pre-training technology for three downstream tasks: text classification, news text generation and automatic text summarization. To address the lack of corpus, the researchers constructed a Tibetan dataset comprising 2.2 billion characters and augmented the vocabulary of LLaMA2 from META AI by expanding the Tibetan vocabular
+- **Source Agent(s):** B10
+
+### 100. Multi-Agent Collaboration Mechanisms: A Survey of LLMs
+- **Authors:** Integrating Cognitive
+- **Year:** 2025
+- **arXiv:** [2501.06322](https://arxiv.org/abs/2501.06322)
+- **URL:** https://arxiv.org/html/2501.06322v1
+- **Languages:** Tibetan
+- **Benchmark:** Multi-Agent
+- **Abstract:** Based on the search results, I found the research paper you're looking for: T-LLaMA: a Tibetan large language model based on LLaMA2 is a model trained based on efficient pre-training technology for three downstream tasks: text classification, news text generation and automatic text summarization. To address the lack of corpus, the researchers constructed a Tibetan dataset comprising 2.2 billion characters and augmented the vocabulary of LLaMA2 from META AI by expanding the Tibetan vocabular
+- **Source Agent(s):** B10
+
+### 101. Tibetan Text Classification based on Prompt Learning and Ensemble Learning | ACM Transactions on Asian and Low-Resource Language Information Processing
+- **Authors:** Integrating Cognitive
+- **Year:** 2025
+- **DOI:** [10.1145/3711827](https://doi.org/10.1145/3711827)
+- **URL:** https://dl.acm.org/doi/10.1145/3711827
+- **Languages:** Tibetan
+- **Abstract:** Based on the search results, I found the research paper you're looking for: T-LLaMA: a Tibetan large language model based on LLaMA2 is a model trained based on efficient pre-training technology for three downstream tasks: text classification, news text generation and automatic text summarization. To address the lack of corpus, the researchers constructed a Tibetan dataset comprising 2.2 billion characters and augmented the vocabulary of LLaMA2 from META AI by expanding the Tibetan vocabular
+- **Source Agent(s):** B10
+
+### 102. Cognitive LLMs: Toward Human-Like Artificial Intelligence by Integrating Cognitive Architectures and Large Language Models for Manufacturing Decision-Making - Siyu Wu, Alessandro Oltramari, Jonathan Francis, C Lee Giles, Frank E Ritter, 2025
+- **Authors:** Integrating Cognitive
+- **Year:** 2025
+- **DOI:** [10.1177/29498732251377341](https://doi.org/10.1177/29498732251377341)
+- **URL:** https://journals.sagepub.com/doi/10.1177/29498732251377341
+- **Languages:** Tibetan
+- **Abstract:** Based on the search results, I found the research paper you're looking for: T-LLaMA: a Tibetan large language model based on LLaMA2 is a model trained based on efficient pre-training technology for three downstream tasks: text classification, news text generation and automatic text summarization. To address the lack of corpus, the researchers constructed a Tibetan dataset comprising 2.2 billion characters and augmented the vocabulary of LLaMA2 from META AI by expanding the Tibetan vocabular
+- **Source Agent(s):** B10
+
+### 103. On Culture Transmission in Chinese-English Literary Translation—Based on Weicheng’s English Version
+- **Authors:** Wushouer Silamu
+- **Year:** 2025
+- **URL:** https://www.scirp.org/journal/paperinformation?paperid=94402
+- **Languages:** Chinese, English, Uyghur
+- **Abstract:** Based on the search results, I found the article you're looking for: Title: "Evaluating Uighur literary translation: A comparative study of ChatGPT, Google Translate, and Bing Translator" Published in: PLoS One, October 23, 2025 Study Focus: The study compares generative artificial intelligence (GenAI) and neural machine translation (NMT) systems in translating Uighur literary text into English, evaluating Google Translate and Bing Translator alongside ChatGPT under two prompt str
+- **Source Agent(s):** B10
+
+### 104. Wang, L. and Wang, X. (2020). How to evaluate literary
+- **Authors:** Wushouer Silamu
 - **Year:** 2020
-- **URL:** https://ceur-ws.org/Vol-2624/paper6.pdf
-- **Languages:** French, German
-- **Abstract:** Investigates gender and origin bias in French and German word embeddings. Finds real-world bias and stereotypes from the 18th century are still present in today's embeddings. Shows cultural differences in bias forms across languages. Extended by subsequent work on Italian and Swedish embeddings.
-- **Source Agent(s):** B6
+- **URL:** http://www.cttl.org/uploads/5/2/4/3/5243866/cttl_e_2020_9_lyu_wang_and_xiangling_wang.pdf
+- **Languages:** English, Uyghur
+- **Abstract:** Based on the search results, I found the article you're looking for: Title: "Evaluating Uighur literary translation: A comparative study of ChatGPT, Google Translate, and Bing Translator" Published in: PLoS One, October 23, 2025 Study Focus: The study compares generative artificial intelligence (GenAI) and neural machine translation (NMT) systems in translating Uighur literary text into English, evaluating Google Translate and Bing Translator alongside ChatGPT under two prompt str
+- **Source Agent(s):** B10
 
-### 66. A World Full of Stereotypes? Further Investigation on Origin and Gender Bias in Multi-Lingual Word Embeddings
-- **Authors:** Mascha Kurpicz-Briki
-- **Year:** 2021
-- **DOI:** [10.3389/fdata.2021.625290](https://doi.org/10.3389/fdata.2021.625290)
-- **URL:** https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2021.625290/full
-- **Languages:** French, German, Italian, Swedish
-- **Abstract:** Extends origin and gender bias analysis to multilingual word embeddings in four European languages including French. Demonstrates origin bias concerning local migration groups. Published in Frontiers in Big Data.
-- **Source Agent(s):** B6
-
-### 67. FrenchMedMCQA: A French Multiple-Choice Question Answering Dataset for Medical domain
-- **Authors:** Yanis Labrak, et al.
-- **Year:** 2022
-- **arXiv:** [2304.04280](https://arxiv.org/abs/2304.04280)
-- **URL:** https://aclanthology.org/2022.louhi-1.5/
-- **Languages:** French
-- **Benchmark:** FrenchMedMCQA
-- **Code/Data:** https://huggingface.co/datasets/qanastek/frenchmedmcqa
-- **Abstract:** First publicly available MCQA dataset in French for medical domain. Contains 3,105 questions from real French medical specialization exams (pharmacy). Finds English specialized models yield better results than generic French ones despite the dataset being in French. Available on HuggingFace.
-- **Source Agent(s):** B6
-
-### 68. Vigogne: French instruction-following and chat models
-- **Authors:** Bofeng Huang
-- **Year:** 2023
-- **URL:** https://github.com/bofenghuang/vigogne
-- **Languages:** French
-- **Code/Data:** https://github.com/bofenghuang/vigogne
-- **Abstract:** Collection of French LLMs fine-tuned for instruction-following and chat. Includes instruction-following and multi-turn chat models based on LLaMA. Training data includes 460K GPT-3.5-Turbo examples and 60K GPT-4 examples. Provides French LLM evaluation methodology.
-- **Source Agent(s):** B6
-
-### 69. AI-driven detection of hate speech on social media: a case study in the French language
-- **Authors:** Unknown
+### 105. A dataset of Mongolian, Tibetan and Uyghur speech fragments based on voice activity detection
+- **Authors:** 
 - **Year:** 2025
-- **DOI:** [10.1007/s10586-025-05553-0](https://doi.org/10.1007/s10586-025-05553-0)
-- **URL:** https://link.springer.com/article/10.1007/s10586-025-05553-0
-- **Languages:** French
-- **Abstract:** Compiles and preprocesses a custom French hate speech dataset by merging and cleaning existing corpora. Develops binary-class ML (SVM, RF, NB, LR), DL (LSTM, Bi-LSTM, GRU), and Transformer models (CamemBERT, DistilCamemBERT, DeHateBert). Published in Cluster Computing 2025.
-- **Source Agent(s):** B6
+- **URL:** https://www.scidb.cn/en/detail?dataSetId=743522838262054912
+- **Languages:** Kyrgyz, Mongolian, Multilingual, Tibetan, Uyghur
+- **Abstract:** Based on my search results, here's what I found regarding datasets for Uyghur, Mongolian, Tibetan, and Kyrgyz languages in NLP: Speech Recognition and Language Resources The Multilingual Minorlingual Automatic Speech Recognition (M2ASR) project aimed to construct a full set of speech and text resources for five minor languages (Tibetan, Mongolian, Uyghur, Kazakh, and Kirghiz) in the northwest of China. The resources included speech databases (277 h in Uyghur, 250 h in Kazakh, and 166 h in K
+- **Source Agent(s):** B10
 
-### 70. MEXA: Multilingual Evaluation of English-Centric LLMs via Cross-Lingual Alignment
-- **Authors:** Unknown (CIS NLP group)
+### 106. Hate Speech Dataset Catalogue | hatespeechdata
+- **Authors:** Kajiwara
+- **Year:** 2024
+- **URL:** https://hatespeechdata.com/
+- **Languages:** English, Japanese, Kyrgyz, Mongolian, Multilingual, Tibetan, Uyghur
+- **Abstract:** I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled "Validating Pseudo-label Dataset for Japanese Hate Speech Detection" was published in 2024.
+- **Source Agent(s):** B10, C2, D1
+
+### 107. Enhancing Cross-Lingual Transfer through Reversible Transliteration: A Huffman-Based Approach for Low-Resource Languages
+- **Authors:** 
 - **Year:** 2025
-- **arXiv:** [2410.05873](https://arxiv.org/abs/2410.05873)
-- **URL:** https://arxiv.org/abs/2410.05873
-- **Languages:** Multiple including French
-- **Benchmark:** MEXA
-- **Code/Data:** https://github.com/cisnlp/Mexa
-- **Abstract:** Method for assessing multilingual capabilities of English-centric LLMs using parallel sentences. Achieves 0.90 Pearson correlation between predicted scores and actual task performance. Uses FLORES-200 and Bible parallel datasets. Published at ACL 2025 Findings.
-- **Source Agent(s):** B6
+- **arXiv:** [2509.17493](https://arxiv.org/abs/2509.17493)
+- **URL:** https://arxiv.org/html/2509.17493
+- **Languages:** Kyrgyz, Mongolian, Multilingual, Tibetan, Uyghur
+- **Abstract:** Based on my search results, here's what I found regarding datasets for Uyghur, Mongolian, Tibetan, and Kyrgyz languages in NLP: Speech Recognition and Language Resources The Multilingual Minorlingual Automatic Speech Recognition (M2ASR) project aimed to construct a full set of speech and text resources for five minor languages (Tibetan, Mongolian, Uyghur, Kazakh, and Kirghiz) in the northwest of China. The resources included speech databases (277 h in Uyghur, 250 h in Kazakh, and 166 h in K
+- **Source Agent(s):** B10
 
-### 71. Bias Considerations in Bilingual Natural Language Processing
-- **Authors:** Statistics Canada
-- **Year:** 2023
-- **URL:** https://www.statcan.gc.ca/en/data-science/network/language-processing
-- **Languages:** English, French (Canadian)
-- **Abstract:** Canadian Statistics agency research on bias in bilingual NLP systems. Finds multilingual models perform 0.13 SD better on English than French. Using multilingual models leads to greater performance decline on French than English portions of data. Addresses Canadian bilingual context.
-- **Source Agent(s):** B6
-
-### 72. Multilingual and Multi-Aspect Hate Speech Analysis
-- **Authors:** Unknown
-- **Year:** 2019
-- **arXiv:** [1908.11049](https://arxiv.org/abs/1908.11049)
-- **URL:** https://arxiv.org/abs/1908.11049
-- **Languages:** Arabic, English, French
-- **Abstract:** Trilingual hate speech dataset comprising English, French, and Arabic tweets encompassing various targets and hostility types. Early work on multilingual hate speech analysis including French.
-- **Source Agent(s):** B6
-
-### 73. help_dicrah: A ML-based hate speech detection tool on Twitter (in French)
-- **Authors:** Mik3M4n (DILCRAH collaboration)
-- **Year:** 2019
-- **URL:** https://github.com/Mik3M4n/help_dicrah
-- **Languages:** French
-- **Code/Data:** https://github.com/Mik3M4n/help_dicrah
-- **Abstract:** ML-based hate speech detection tool for French Twitter developed in collaboration with DILCRAH (French government interministerial delegation against racism and anti-LGBTQ+ hatred). Uses translated Hatebase.org lexicon filtered for French context. Complete pipeline from data collection to online detection tool.
-- **Source Agent(s):** B6
-
-### 74. AfroBench: Multi-task Benchmark for Evaluating LLMs in African Languages
-- **Authors:** McGill NLP Lab
+### 108. The Unseen Targets of Hate – A Systematic Review of Hateful Communication Datasets
+- **Authors:** 
 - **Year:** 2024
-- **URL:** https://mcgill-nlp.github.io/AfroBench/
-- **Languages:** 64 African languages, French
-- **Benchmark:** AfroBench
-- **Code/Data:** https://mcgill-nlp.github.io/AfroBench/
-- **Abstract:** Multi-task benchmark evaluating LLM performance across 64 African languages including Francophone African languages, with 15 tasks and 22 datasets. Includes NLU, text generation, knowledge/QA, and mathematical reasoning tasks.
-- **Source Agent(s):** B6
+- **arXiv:** [2405.08562](https://arxiv.org/abs/2405.08562)
+- **URL:** https://arxiv.org/html/2405.08562v1
+- **Languages:** Kyrgyz, Mongolian, Multilingual, Tibetan, Uyghur
+- **Abstract:** Based on my search results, here's what I found regarding datasets for Uyghur, Mongolian, Tibetan, and Kyrgyz languages in NLP: Speech Recognition and Language Resources The Multilingual Minorlingual Automatic Speech Recognition (M2ASR) project aimed to construct a full set of speech and text resources for five minor languages (Tibetan, Mongolian, Uyghur, Kazakh, and Kirghiz) in the northwest of China. The resources included speech databases (277 h in Uyghur, 250 h in Kazakh, and 166 h in K
+- **Source Agent(s):** B10
 
-### 75. Bias and Fairness in Large Language Models: A Survey
-- **Authors:** Isabel O. Gallegos, et al.
-- **Year:** 2024
-- **arXiv:** [2309.00770](https://arxiv.org/abs/2309.00770)
-- **URL:** https://aclanthology.org/2024.cl-3.8/
-- **Languages:** Multiple including French
-- **Abstract:** Comprehensive survey organizing LLM bias and fairness work into three categories: metrics, datasets, and techniques. Covers embedding-based, probability-based, and generated text-based bias evaluation approaches. Published in Computational Linguistics 2024.
-- **Source Agent(s):** B6
-
-### 76. Toxic Bias: Perspective API Misreads German as More Toxic
-- **Authors:** Gianluca Nogara, Francesco Pierri, Stefano Cresci, Luca Luceri, Petter Tornberg, Silvia Giordano
-- **Year:** 2024
-- **arXiv:** [2312.12651](https://arxiv.org/abs/2312.12651)
-- **URL:** https://arxiv.org/abs/2312.12651
-- **Languages:** English, German
-- **Abstract:** Exposes intrinsic language biases in Perspective API's toxicity assessment, showing German content receives significantly higher toxicity scores than equivalent English content. Four times more tweets and users would be moderated when using the German language compared to English translations.
-- **Source Agent(s):** B7
-
-### 77. Dutch CrowS-Pairs: Adapting a Challenge Dataset for Measuring Social Biases in Language Models for Dutch
-- **Authors:** Shalaka Satheesh, Katrin Klug, Katharina Beckh, Hector Allende-Cid, Sebastian Houben, Teena Hassan
+### 109. Evaluation Criteria for Literary Translation
+- **Authors:** 
 - **Year:** 2025
-- **arXiv:** [2507.16442](https://arxiv.org/abs/2507.16442)
-- **URL:** https://arxiv.org/abs/2507.16442
-- **Languages:** Dutch, English, French
-- **Benchmark:** Dutch CrowS-Pairs
-- **Abstract:** First full adaptation of CrowS-Pairs for Dutch with 1,463 sentence pairs covering 9 bias categories including sexual orientation, gender, and disability. GEITje (Dutch fine-tuned model) exhibited significantly more bias than base Mistral-7B. Accepted at RANLP 2025.
-- **Source Agent(s):** B7
+- **URL:** https://www.researchgate.net/publication/348918378_Evaluation_Criteria_for_Literary_Translation
+- **Languages:** English, Uyghur
+- **Abstract:** I found a highly relevant result! The study "Evaluating Uighur literary translation" compares generative artificial intelligence (GenAI) and neural machine translation (NMT) systems in translating Uighur literary text into English.
+- **Source Agent(s):** B10
 
-### 78. DeTox: A Comprehensive Dataset for German Offensive Language and Conversation Analysis
-- **Authors:** Christoph Demus, Jonas Pitz, Mina Schussler, Dirk Labudde, Udo Kruschwitz
-- **Year:** 2022
-- **URL:** https://aclanthology.org/2022.woah-1.14/
-- **Languages:** German
-- **Benchmark:** DeTox
-- **Code/Data:** https://github.com/hdaSprachtechnologie/detox
-- **Abstract:** A publicly available dataset of 10,278 German social media comments with 12 annotation categories covering toxicity, criminal relevance, and discrimination types. About half the comments come from coherent conversations, enabling conversation-level analysis of offensive language contagion.
-- **Source Agent(s):** B7
-
-### 79. AustroTox: A Dataset for Target-Based Austrian German Offensive Language Detection
-- **Authors:** Janis Goldzycher, Anna Maria Planitzer, Claudia Pichler, Sebastian Pado, Hanna Mahler
-- **Year:** 2024
-- **arXiv:** [2406.08080](https://arxiv.org/abs/2406.08080)
-- **URL:** https://arxiv.org/abs/2406.08080
-- **Languages:** German (Austrian)
-- **Benchmark:** AustroTox
-- **Abstract:** Dataset of 4,562 Austrian German user comments annotated for offensive language detection with token-level spans for vulgarities and offensive targets. LLMs outperform fine-tuned models in detecting offensiveness while fine-tuned models excel at detecting dialect-specific vulgarities.
-- **Source Agent(s):** B7
-
-### 80. SuperGLEBer: German Language Understanding Evaluation Benchmark
-- **Authors:** Jan Pfister, Andreas Hotho
-- **Year:** 2024
-- **URL:** https://aclanthology.org/2024.naacl-long.438/
-- **Languages:** German
-- **Benchmark:** SuperGLEBer
-- **Code/Data:** https://github.com/LSX-UniWue/SuperGLEBer
-- **Abstract:** Comprehensive German NLU benchmark with 29 tasks spanning document classification, sequence tagging, sentence similarity, and question answering. Evaluates 10 German-pretrained models. First comprehensive German-language benchmark for LLMs.
-- **Source Agent(s):** B7
-
-### 81. GermEval 2018 Shared Task on the Identification of Offensive Language
-- **Authors:** Michael Wiegand, Melanie Siegel, Josef Ruppenhofer
-- **Year:** 2018
-- **URL:** https://www.lsv.uni-saarland.de/wp-content/publications/2018/germeval2018_wiegand.pdf
-- **Languages:** German
-- **Benchmark:** GermEval 2018
-- **Abstract:** Shared task for identification of offensive language in German tweets with 8,000+ tweets. Includes coarse-grained binary classification and fine-grained multi-class (Insult, Profanity, Abuse) subtypes.
-- **Source Agent(s):** B7
-
-### 82. GermEval 2021 Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments
-- **Authors:** Julian Risch, Anke Stoll, Lena Wilms, Michael Wiegand
-- **Year:** 2021
-- **URL:** https://aclanthology.org/2021.germeval-1.1/
-- **Languages:** German
-- **Benchmark:** GermEval 2021
-- **Abstract:** Extended GermEval shared task to include toxic, engaging, and fact-claiming comment identification in German. Expands beyond offensive language detection to include respectful communication and fact-checking dimensions.
-- **Source Agent(s):** B7
-
-### 83. GAHD: Improving Adversarial Data Collection by Supporting Annotators - Lessons from a German Hate Speech Dataset
-- **Authors:** Janis Goldzycher, Paul Rottger, Gerold Schneider
-- **Year:** 2024
-- **arXiv:** [2403.19559](https://arxiv.org/abs/2403.19559)
-- **URL:** https://arxiv.org/abs/2403.19559
-- **Languages:** German
-- **Benchmark:** GAHD
-- **Code/Data:** https://github.com/jagol/gahd
-- **Abstract:** German Adversarial Hate speech Dataset with ~11,000 examples (42.4% hate speech). Uses adversarial data collection with annotator support strategies. Training on GAHD clearly improves model robustness.
-- **Source Agent(s):** B7
-
-### 84. HOCON34k: A Corpus of Hate Speech in Online Comments from German Newspapers
-- **Authors:** Various
-- **Year:** 2024
-- **DOI:** [10.1007/978-3-031-78090-5_18](https://doi.org/10.1007/978-3-031-78090-5_18)
-- **URL:** https://link.springer.com/chapter/10.1007/978-3-031-78090-5_18
-- **Languages:** German
-- **Benchmark:** HOCON34k
-- **Abstract:** 34,223 German comments from online newspaper platforms annotated for hate speech by 29 volunteers. BERT baseline achieves MCC 0.32, F2-score 0.64. Publicly available for German hate speech research.
-- **Source Agent(s):** B7
-
-### 85. Digital Guardians: Can GPT-4, Perspective API, and Moderation API reliably detect hate speech in reader comments of German online newspapers?
-- **Authors:** Manuel Weber et al.
+### 110. New Guidelines for Evaluating Literary Translation in Hiring and Promotion Decisions | ALTA Blog
+- **Authors:** 
 - **Year:** 2025
-- **arXiv:** [2501.01256](https://arxiv.org/abs/2501.01256)
-- **URL:** https://arxiv.org/abs/2501.01256
-- **Languages:** German
-- **Abstract:** Compares GPT-4o, Perspective API, and Moderation API for detecting hate speech in German newspaper comments using HOCON34k dataset. GPT-4o outperforms both other tools across zero-shot, one-shot, and few-shot prompting.
-- **Source Agent(s):** B7
+- **URL:** https://literarytranslators.wordpress.com/2023/09/18/new-guidelines-for-evaluating-literary-translation-in-hiring-and-promotion-decisions/
+- **Languages:** English, Uyghur
+- **Abstract:** I found a highly relevant result! The study "Evaluating Uighur literary translation" compares generative artificial intelligence (GenAI) and neural machine translation (NMT) systems in translating Uighur literary text into English.
+- **Source Agent(s):** B10
 
-### 86. Mapping Toxic Comments Across Demographics: A Dataset from German Public Broadcasting
-- **Authors:** Various
+### 111. A Survey on Large Language Model Benchmarks
+- **Authors:** 
 - **Year:** 2025
-- **arXiv:** [2508.21084](https://arxiv.org/abs/2508.21084)
-- **URL:** https://arxiv.org/abs/2508.21084
-- **Languages:** German
-- **Abstract:** First large-scale German dataset annotated for toxicity enriched with age demographics from German public broadcasting (funk). 3,024 human-annotated and 30,024 LLM-annotated comments from Instagram, TikTok, and YouTube. Reveals age-based differences in toxic speech patterns.
-- **Source Agent(s):** B7
+- **arXiv:** [2508.15361](https://arxiv.org/abs/2508.15361)
+- **URL:** https://arxiv.org/html/2508.15361v1
+- **Languages:** Chinese, Multilingual
+- **Abstract:** Based on the search results, here are the key findings regarding Chinese LLM benchmarks and cultural values evaluation: LLM-GLOBE Benchmark The LLM-GLOBE benchmark was developed to evaluate the cultural value systems of LLMs by drawing upon cultural psychology theory and the empirically-validated GLOBE framework, and is being used to compare the values of Chinese and US LLMs. The study investigates the implicit cultural values held by four top-performing Chinese LLMs (Ernie 3.5 and 4.0, GLM
+- **Source Agent(s):** C1
 
-### 87. taz2024full: Analysing German Newspapers for Gender Bias and Discrimination across Decades
-- **Authors:** Stefanie Urchs, Sigurd Thurner et al.
+### 112. AI Development and Innovation: A Comparison of Large Language Models from the U.S. and China | ACM Transactions on Management Information Systems
+- **Authors:** 
 - **Year:** 2025
-- **arXiv:** [2506.05388](https://arxiv.org/abs/2506.05388)
-- **URL:** https://arxiv.org/abs/2506.05388
-- **Languages:** German
-- **Benchmark:** taz2024full
-- **Abstract:** Largest publicly available German newspaper corpus (1.8M+ texts from taz, 1980-2024). Analyzes gender representation finding consistent overrepresentation of men but gradual shift toward balanced coverage. Provides resource for studying gender bias in German texts.
-- **Source Agent(s):** B7
+- **DOI:** [10.1145/3769086](https://doi.org/10.1145/3769086)
+- **URL:** https://dl.acm.org/doi/10.1145/3769086
+- **Languages:** Chinese, Multilingual
+- **Abstract:** Based on the search results, here are the key findings regarding Chinese LLM benchmarks and cultural values evaluation: LLM-GLOBE Benchmark The LLM-GLOBE benchmark was developed to evaluate the cultural value systems of LLMs by drawing upon cultural psychology theory and the empirically-validated GLOBE framework, and is being used to compare the values of Chinese and US LLMs. The study investigates the implicit cultural values held by four top-performing Chinese LLMs (Ernie 3.5 and 4.0, GLM
+- **Source Agent(s):** C1
 
-### 88. A novel German TikTok hate speech dataset: far-right comments against politicians, women, and others
-- **Authors:** Various
+### 113. Overview of the NLPCC 2025 Shared Task: Gender Bias Mitigation Challenge
+- **Authors:** Dave Davies
 - **Year:** 2025
-- **DOI:** [10.1007/s44248-025-00020-y](https://doi.org/10.1007/s44248-025-00020-y)
-- **URL:** https://link.springer.com/article/10.1007/s44248-025-00020-y
-- **Languages:** German
-- **Abstract:** First German TikTok dataset with 10,586 comments annotated for far-right extremism and hate speech using a 32-aspect fine-grained annotation schema. 13.76% annotated as hateful. Addresses gap in TikTok hate speech research for German.
-- **Source Agent(s):** B7
+- **arXiv:** [2506.12574](https://arxiv.org/abs/2506.12574)
+- **URL:** https://arxiv.org/html/2506.12574
+- **Languages:** Chinese
+- **Abstract:** I've performed a web search and found several relevant results about Chinese NLP dataset bias and fairness evaluation. Here are the key findings: Recent Chinese NLP Bias and Fairness Research (2025-2026) Gender Bias in Chinese Text (2025) As natural language processing for gender bias becomes significant, pre-trained language models suffer from biased corpus, particularly for languages like Chinese with less fairness-related computational linguistic resources.
+- **Source Agent(s):** C1
 
-### 89. Large Language Models Discriminate Against Speakers of German Dialects
-- **Authors:** Minh Duc Bui, Carolin Holtermann, Valentin Hofmann, Anne Lauscher, Katharina von der Wense
-- **Year:** 2025
-- **arXiv:** [2509.13835](https://arxiv.org/abs/2509.13835)
-- **URL:** https://arxiv.org/abs/2509.13835
-- **Languages:** German
-- **Abstract:** Examines whether LLMs exhibit stereotypes against German dialect speakers. Evaluates 7 German dialects and finds all LLMs show significant dialect naming and usage bias against dialect speakers, reflected in negative adjective associations and biased decision-making.
-- **Source Agent(s):** B7
-
-### 90. Comparative Survey of German Hate Speech Datasets: Background, Characteristics and Biases
-- **Authors:** Various
-- **Year:** 2024
-- **URL:** https://www.researchgate.net/publication/378070468_Comparative_Survey_of_German_Hate_Speech_Datasets_Background_Characteristics_and_Biases
-- **Languages:** German
-- **Abstract:** Overview of nine German hate speech datasets applying a bias analysis framework. Identifies topical biases across datasets and notes that German datasets predominantly focus on Twitter with limited exploration of other platforms.
-- **Source Agent(s):** B7
-
-### 91. Hate Speech Detection Using Cross-Platform Social Media Data In English and German Language
-- **Authors:** Gautam Kishore Shahi, Tim A. Majchrzak
-- **Year:** 2024
-- **arXiv:** [2410.05287](https://arxiv.org/abs/2410.05287)
-- **URL:** https://arxiv.org/abs/2410.05287
-- **Languages:** English, German
-- **Abstract:** Detects bilingual hate speech in YouTube comments in English and German covering politics, LGBT rights, and immigration. Examines cross-platform data augmentation for improving classification model performance.
-- **Source Agent(s):** B7
-
-### 92. German HateSpeech Corpus
-- **Authors:** Cophi-Wue (University of Wuerzburg)
-- **Year:** 2021
-- **URL:** https://github.com/cophi-wue/German_HateSpeech_Corpus
-- **Languages:** German
-- **Benchmark:** German_HateSpeech_Corpus
-- **Code/Data:** https://github.com/cophi-wue/German_HateSpeech_Corpus
-- **Abstract:** Annotated corpus combining GermEval 2018 tweets (2,871 instances), POLLY corpus of politically charged German tweets around 2017 election (~4,500 annotated), and Facebook comments from Pegida pages (3,500). Annotated as hate speech, offensive language, or non-hate.
-- **Source Agent(s):** B7
-
-### 93. LLaMmlein: Transparent, Compact and Competitive German-Only Language Models from Scratch
-- **Authors:** Jan Pfister, Julia Wunderle, Andreas Hotho
-- **Year:** 2024
-- **arXiv:** [2411.11171](https://arxiv.org/abs/2411.11171)
-- **URL:** https://arxiv.org/abs/2411.11171
-- **Languages:** German
-- **Code/Data:** https://professor-x.de/lm/LLaMmlein
-- **Abstract:** German-only decoder models (120M and 1B params) trained from scratch with custom tokenizer. Evaluated on SuperGLEBer benchmark; 120M model outperforms bert-base-german-cased by 14% on NLI. Fully transparent training pipeline.
-- **Source Agent(s):** B7
-
-### 94. ScandEval: A Benchmark for Scandinavian Natural Language Processing
-- **Authors:** Dan Nielsen et al.
-- **Year:** 2023
-- **arXiv:** [2304.00906](https://arxiv.org/abs/2304.00906)
-- **URL:** https://arxiv.org/abs/2304.00906
-- **Languages:** Danish, Faroese, Icelandic, Norwegian, Swedish
-- **Benchmark:** ScandEval
-- **Code/Data:** https://github.com/EuroEval/EuroEval
-- **Abstract:** Benchmarking platform for Scandinavian languages across 4 NLP tasks with new linguistic acceptability and QA datasets. Evaluates 100+ models. Shows substantial cross-lingual transfer among Mainland Scandinavian but limited transfer with Icelandic/Faroese. Evolved into EuroEval.
-- **Source Agent(s):** B7
-
-### 95. NorBench: A Benchmark for Norwegian Language Models
-- **Authors:** Various (LTG Oslo)
-- **Year:** 2023
-- **arXiv:** [2305.03880](https://arxiv.org/abs/2305.03880)
-- **URL:** https://arxiv.org/abs/2305.03880
-- **Languages:** Norwegian
-- **Benchmark:** NorBench
-- **Code/Data:** https://github.com/ltgoslo/norbench
-- **Abstract:** Streamlined NLP benchmark suite for Norwegian LMs with standardized data splits and evaluation metrics. Includes diagnostic tasks probing gender-bias and toxic language affinity in language models.
-- **Source Agent(s):** B7
-
-### 96. NLEBench+NorGLM: A Comprehensive Empirical Analysis and Benchmark Dataset for Generative Language Models in Norwegian
-- **Authors:** Peng Liu, Terje Rodahl, Lovise Bortne Drange, Marita Kolby Dahl et al.
-- **Year:** 2024
-- **arXiv:** [2312.01314](https://arxiv.org/abs/2312.01314)
-- **URL:** https://arxiv.org/abs/2312.01314
-- **Languages:** Norwegian
-- **Benchmark:** NLEBench
-- **Code/Data:** https://github.com/Smartmedia-AI/NorGLM
-- **Abstract:** Comprehensive Norwegian generative LM benchmark including toxicity and bias evaluation, instruction fine-tuning, and Chain-of-Thought investigation. Includes human-annotated datasets covering Norwegian culture, idioms, and expressions. Published at EMNLP 2024.
-- **Source Agent(s):** B7
-
-### 97. NorEval: A Norwegian Language Understanding and Generation Evaluation Benchmark
-- **Authors:** Various
-- **Year:** 2025
-- **arXiv:** [2504.07749](https://arxiv.org/abs/2504.07749)
-- **URL:** https://arxiv.org/abs/2504.07749
-- **Languages:** Norwegian
-- **Benchmark:** NorEval
-- **Abstract:** Comprehensive evaluation suite with 24 high-quality human-created datasets for Norwegian generative LMs, of which 5 are new. Designed for large-scale standardized benchmarking of Norwegian LLMs.
-- **Source Agent(s):** B7
-
-### 98. DUMB: A Benchmark for Smart Evaluation of Dutch Models
-- **Authors:** Wietse de Vries et al.
-- **Year:** 2023
-- **arXiv:** [2305.13026](https://arxiv.org/abs/2305.13026)
-- **URL:** https://arxiv.org/abs/2305.13026
-- **Languages:** Dutch
-- **Benchmark:** DUMB
-- **Code/Data:** https://github.com/wietsedv/dumb
-- **Abstract:** Dutch Model Benchmark with 9 tasks including 4 new for Dutch. Evaluates 14 pre-trained LMs using Relative Error Reduction metric. Finds Dutch monolingual models under-perform compared to large multilingual models like DeBERTaV3. Published at EMNLP 2023.
-- **Source Agent(s):** B7
-
-### 99. Towards Fairness Assessment of Dutch Hate Speech Detection
-- **Authors:** Various
-- **Year:** 2025
-- **arXiv:** [2506.12502](https://arxiv.org/abs/2506.12502)
-- **URL:** https://arxiv.org/abs/2506.12502
-- **Languages:** Dutch
-- **Abstract:** Evaluates counterfactual fairness of hate speech detection models in Dutch. Creates Dutch Social Group Terms list, generates counterfactual data using LLMs, and evaluates transformer models on fairness metrics (Counterfactual Token Fairness, equality of odds, demographic parity).
-- **Source Agent(s):** B7
-
-### 100. Evaluating Dutch Social Bias in Large Language Models
-- **Authors:** Renate Burema
-- **Year:** 2024
-- **URL:** https://studenttheses.uu.nl/handle/20.500.12932/48930
-- **Languages:** Dutch
-- **Abstract:** Master's thesis evaluating social bias (gender and country of origin) in Dutch LLM outputs. Tests gpt-4o-mini, claude-3.5-haiku, Geitje-7B-Ultra and EuroLLM-9B-Instruct, finding all models exhibit social bias in their Dutch outputs.
-- **Source Agent(s):** B7
-
-### 101. MTEB-NL and E5-NL: Embedding Benchmark and Models for Dutch
-- **Authors:** Various
-- **Year:** 2025
-- **arXiv:** [2509.12340](https://arxiv.org/abs/2509.12340)
-- **URL:** https://arxiv.org/abs/2509.12340
-- **Languages:** Dutch
-- **Benchmark:** MTEB-NL
-- **Abstract:** Massive Text Embedding Benchmark for Dutch with both existing and newly created datasets. Includes E5-NL embedding models demonstrating strong performance across multiple tasks for Dutch.
-- **Source Agent(s):** B7
-
-### 102. DaKultur: Evaluating the Cultural Awareness of Language Models for Danish with Native Speakers
-- **Authors:** Max Mueller-Eberstein et al.
-- **Year:** 2025
-- **arXiv:** [2504.02403](https://arxiv.org/abs/2504.02403)
-- **URL:** https://arxiv.org/abs/2504.02403
-- **Languages:** Danish
-- **Benchmark:** DaKultur
-- **Abstract:** First cultural evaluation study for Danish with 1,038 interactions from 63 native speakers. Training on native-speaker data doubles response acceptance rates. Maximum acceptance of 42% highlights need for further research in aligning LLMs to Danish culture.
-- **Source Agent(s):** B7
-
-### 103. SDU's DAISY: A Benchmark for Danish Culture
-- **Authors:** Various (SDU/Schneiderkamp Lab)
+### 114. When LLMs Imagine People: A Human-Centered Persona Brainstorm Audit for Bias and Fairness in Creative Applications
+- **Authors:** Dave Davies
 - **Year:** 2026
-- **arXiv:** [2601.19930](https://arxiv.org/abs/2601.19930)
-- **URL:** https://arxiv.org/abs/2601.19930
-- **Languages:** Danish
-- **Benchmark:** DAISY
-- **Code/Data:** https://github.com/schneiderkamplab/SDU-Daisy
-- **Abstract:** Benchmark of 741 close-ended QA pairs based on Danish Culture Canon 2006, covering artifacts from 1300 BC to contemporary culture. Each question humanly approved/corrected. Evaluates LLMs' Danish cultural heritage knowledge.
-- **Source Agent(s):** B7
+- **arXiv:** [2602.00044](https://arxiv.org/abs/2602.00044)
+- **URL:** https://arxiv.org/html/2602.00044v1
+- **Languages:** Chinese
+- **Abstract:** I've performed a web search and found several relevant results about Chinese NLP dataset bias and fairness evaluation. Here are the key findings: Recent Chinese NLP Bias and Fairness Research (2025-2026) Gender Bias in Chinese Text (2025) As natural language processing for gender bias becomes significant, pre-trained language models suffer from biased corpus, particularly for languages like Chinese with less fairness-related computational linguistic resources.
+- **Source Agent(s):** C1
 
-### 104. Danoliteracy of Generative Large Language Models
-- **Authors:** Various
+### 115. Fairness identification of large language models in recommendation
+- **Authors:** Dave Davies
+- **Year:** 2025
+- **URL:** https://www.nature.com/articles/s41598-025-89965-3
+- **Languages:** Chinese
+- **Abstract:** I've performed a web search and found several relevant results about Chinese NLP dataset bias and fairness evaluation. Here are the key findings: Recent Chinese NLP Bias and Fairness Research (2025-2026) Gender Bias in Chinese Text (2025) As natural language processing for gender bias becomes significant, pre-trained language models suffer from biased corpus, particularly for languages like Chinese with less fairness-related computational linguistic resources.
+- **Source Agent(s):** C1
+
+### 116. Exploring the occupational biases and stereotypes of Chinese large language models
+- **Authors:** Dave Davies
+- **Year:** 2025
+- **URL:** https://www.nature.com/articles/s41598-025-03893-w
+- **Languages:** Chinese
+- **Abstract:** I've performed a web search and found several relevant results about Chinese NLP dataset bias and fairness evaluation. Here are the key findings: Recent Chinese NLP Bias and Fairness Research (2025-2026) Gender Bias in Chinese Text (2025) As natural language processing for gender bias becomes significant, pre-trained language models suffer from biased corpus, particularly for languages like Chinese with less fairness-related computational linguistic resources.
+- **Source Agent(s):** C1
+
+### 117. LexEval: A Comprehensive Chinese Legal Benchmark
+- **Authors:** Dave Davies
+- **Year:** 2025
+- **URL:** https://proceedings.neurips.cc/paper_files/paper/2024/file/2cb40fc022ca7bdc1a9a78b793661284-Paper-Datasets_and_Benchmarks_Track.pdf
+- **Languages:** Chinese
+- **Benchmark:** LexEval
+- **Abstract:** I've performed a web search and found several relevant results about Chinese NLP dataset bias and fairness evaluation. Here are the key findings: Recent Chinese NLP Bias and Fairness Research (2025-2026) Gender Bias in Chinese Text (2025) As natural language processing for gender bias becomes significant, pre-trained language models suffer from biased corpus, particularly for languages like Chinese with less fairness-related computational linguistic resources.
+- **Source Agent(s):** C1
+
+### 118. C3Bench: A Comprehensive Classical Chinese Understanding Benchmark for Large Language Models
+- **Authors:** 
 - **Year:** 2024
-- **arXiv:** [2410.22839](https://arxiv.org/abs/2410.22839)
-- **URL:** https://arxiv.org/abs/2410.22839
-- **Languages:** Danish
-- **Benchmark:** Danoliteracy
-- **Abstract:** GLLM benchmark evaluating Danish language and cultural competency across 8 scenarios including citizenship tests and social media QA. Produces robust ranking correlating to human feedback at rho ~0.8. GPT-4 and Claude Opus achieve highest rankings.
-- **Source Agent(s):** B7
+- **arXiv:** [2405.17732](https://arxiv.org/abs/2405.17732)
+- **URL:** https://arxiv.org/html/2405.17732v1
+- **Languages:** Chinese, Classical Chinese, English
+- **Benchmark:** C3Bench
+- **Abstract:** Based on the search results, here are the key findings about Classical Chinese LLM benchmark evaluation: Major Benchmarks C3Bench is the first comprehensive Classical Chinese Understanding (CCU) benchmark for Large Language Models, which spans a multitude of tasks and various domains. The benchmark comprehensively evaluates 15 representative LLMs, quantifying their capabilities in CCU and establishing a public leaderboard.
+- **Source Agent(s):** C1
 
-### 105. SnakModel: Lessons Learned from Training an Open Danish Large Language Model
-- **Authors:** Various
+### 119. Benchmarking LLMs for Translating Classical Chinese Poetry: Evaluating Adequacy, Fluency, and Elegance
+- **Authors:** 
 - **Year:** 2024
-- **arXiv:** [2412.12956](https://arxiv.org/abs/2412.12956)
-- **URL:** https://arxiv.org/abs/2412.12956
-- **Languages:** Danish
-- **Abstract:** Danish LLM based on Llama2-7B continuously pre-trained on 13.6B Danish words, tuned on 3.7M Danish instructions. Evaluated on 8 language and culturally-specific tasks. Achieves highest overall performance among Llama2-7B-based models.
-- **Source Agent(s):** B7
+- **arXiv:** [2408.09945](https://arxiv.org/abs/2408.09945)
+- **URL:** https://arxiv.org/html/2408.09945v1
+- **Languages:** Chinese, Classical Chinese, English
+- **Abstract:** Based on the search results, here are the key findings about Classical Chinese LLM benchmark evaluation: Major Benchmarks C3Bench is the first comprehensive Classical Chinese Understanding (CCU) benchmark for Large Language Models, which spans a multitude of tasks and various domains. The benchmark comprehensively evaluates 15 representative LLMs, quantifying their capabilities in CCU and establishing a public leaderboard.
+- **Source Agent(s):** C1
 
-### 106. Offensive Language and Hate Speech Detection for Danish (DKHate)
-- **Authors:** Gudbjartur Ingi Sigurbergsson, Leon Derczynski
-- **Year:** 2020
-- **arXiv:** [1908.04531](https://arxiv.org/abs/1908.04531)
-- **URL:** https://aclanthology.org/2020.lrec-1.430/
-- **Languages:** Danish
-- **Benchmark:** DKHate
-- **Code/Data:** https://huggingface.co/datasets/DDSC/dkhate
-- **Abstract:** First Danish hate speech/offensive language dataset with 3,600 annotated comments from various social media platforms following the OLID annotation scheme. Provides train/test splits for benchmarking.
-- **Source Agent(s):** B7
-
-### 107. DaCy: A Unified Framework for Danish NLP
-- **Authors:** Kenneth C. Enevoldsen, Lasse Hansen, Kristoffer Nielbo
-- **Year:** 2021
-- **arXiv:** [2107.05295](https://arxiv.org/abs/2107.05295)
-- **URL:** https://arxiv.org/abs/2107.05295
-- **Languages:** Danish
-- **Benchmark:** DaCy
-- **Code/Data:** https://github.com/alexandrainst/danlp
-- **Abstract:** Unified Danish NLP framework with bias and robustness testing. Found all models except DaCy large display significant ethnicity biases; only Polyglot shows significant gender bias. Uses data augmentation for more realistic performance estimates.
-- **Source Agent(s):** B7
-
-### 108. The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding
-- **Authors:** Kenneth Enevoldsen, Marton Kardos, Niklas Muennighoff, Kristoffer Laigaard Nielbo
-- **Year:** 2024
-- **arXiv:** [2406.02396](https://arxiv.org/abs/2406.02396)
-- **URL:** https://arxiv.org/abs/2406.02396
-- **Languages:** Danish, Norwegian, Swedish
-- **Benchmark:** SEB (Scandinavian Embedding Benchmark)
-- **Abstract:** Comprehensive text embedding evaluation framework for Scandinavian languages across 24 tasks, 10 subtasks, and 4 task categories. Evaluates 26+ models, uncovering significant performance disparities between public and commercial solutions.
-- **Source Agent(s):** B7
-
-### 109. Harmful Communication: Detection of Toxic Language and Threats on Swedish
-- **Authors:** Various (Uppsala University)
-- **Year:** 2023
-- **DOI:** [10.1145/3625007.3627597](https://doi.org/10.1145/3625007.3627597)
-- **URL:** https://dl.acm.org/doi/10.1145/3625007.3627597
-- **Languages:** Swedish
-- **Abstract:** Uses transfer learning and BERT to train models for toxic language (F1>0.94) and threats (F1=0.86) in Swedish. Models' performance decreases significantly on unseen social media data. Finds 20% of social media threats are not toxic.
-- **Source Agent(s):** B7
-
-### 110. The Swedish Winogender Dataset (SweWinogender)
-- **Authors:** Saga Hansson, Konstantinos Mavromatakis, Yvonne Adesam, Gerlof Bouma, Dana Dannells
-- **Year:** 2021
-- **URL:** https://aclanthology.org/2021.nodalida-main.52/
-- **Languages:** Swedish
-- **Benchmark:** SweWinogender
-- **Code/Data:** https://spraakbanken.gu.se/en/resources/swewinogender
-- **Abstract:** Swedish adaptation of WinoGender benchmark for measuring gender bias in coreference resolution. Released with reference statistics on gender distribution between occupations in Swedish corpus material. Version 2.0 reformulated as NLI task.
-- **Source Agent(s):** B7
-
-### 111. WikiQA-IS: Assisted Benchmark Generation and Automated Evaluation of Icelandic Cultural Knowledge in LLMs
-- **Authors:** Thorunn Arnardottir, Elias Bjartur Einarsson, Gardar Ingvarsson Juto, Thorvaldur Pall Helgason, Hafsteinn Einarsson
+### 120. Benchmarking four large language models’ performance of addressing Chinese patients' inquiries about dry eye disease: A two-phase study - ScienceDirect
+- **Authors:** 
 - **Year:** 2025
-- **URL:** https://aclanthology.org/2025.resourceful-1.13/
-- **Languages:** Icelandic
-- **Benchmark:** WikiQA-IS
-- **Abstract:** 2,000 QA pairs on Icelandic culture and history generated from Wikipedia/news using GPT-4. Automated evaluation via GPT-4o as judge shows strong agreement with human evaluation. Closed-source models outperform open-weights for Icelandic cultural knowledge.
-- **Source Agent(s):** B7
+- **URL:** https://www.sciencedirect.com/science/article/pii/S2405844024104227
+- **Languages:** Chinese, Classical Chinese, English
+- **Abstract:** Based on the search results, here are the key findings about Classical Chinese LLM benchmark evaluation: Major Benchmarks C3Bench is the first comprehensive Classical Chinese Understanding (CCU) benchmark for Large Language Models, which spans a multitude of tasks and various domains. The benchmark comprehensively evaluates 15 representative LLMs, quantifying their capabilities in CCU and establishing a public leaderboard.
+- **Source Agent(s):** C1
 
-### 112. IcelandicEval: Utilities to generate Icelandic evaluation data sets for LLMs
-- **Authors:** Miðeind
-- **Year:** 2024
-- **URL:** https://github.com/mideind/IcelandicEval
-- **Languages:** Icelandic
-- **Benchmark:** IcelandicEval
-- **Code/Data:** https://github.com/mideind/IcelandicEval
-- **Abstract:** Utilities for generating Icelandic LLM evaluation datasets focused on word inflection and grammatical correctness. Includes noun phrase inflection tasks across all four cases in singular and plural.
-- **Source Agent(s):** B7
-
-### 113. Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT
-- **Authors:** Md Saroar Jahan, Mourad Oussalah, Nabil Arhab
-- **Year:** 2022
-- **URL:** https://aclanthology.org/2022.lrec-1.92/
-- **Languages:** Finnish
-- **Abstract:** Constructs Finnish hate speech dataset from Suomi24 forum with 10.7k sentences (16.7% hate speech). FinBERT achieves 91.7% accuracy and 90.8% F1, outperforming multilingual-BERT and CNN approaches.
-- **Source Agent(s):** B7
-
-### 114. Toxicity Detection in Finnish Using Machine Translation
-- **Authors:** Anni Eskelinen, Laura Silvala, Filip Ginter, Sampo Pyysalo, Veronika Laippala
-- **Year:** 2023
-- **URL:** https://aclanthology.org/2023.nodalida-1.68/
-- **Languages:** English, Finnish
-- **Code/Data:** https://github.com/TurkuNLP/toxicity-classifier
-- **Abstract:** Presents novel Finnish toxicity detection resources: machine-translated Jigsaw dataset for Finnish and manually annotated Suomi24 test set. Machine-translated training data outperforms zero-shot cross-lingual transfer with XLM-R.
-- **Source Agent(s):** B7
-
-### 115. Got Compute, but No Data: Lessons From Post-training a Finnish LLM
-- **Authors:** Elaine Zosa, Ville Komulainen, Sampo Pyysalo
-- **Year:** 2025
-- **arXiv:** [2503.09407](https://arxiv.org/abs/2503.09407)
-- **URL:** https://arxiv.org/abs/2503.09407
-- **Languages:** English, Finnish
-- **Code/Data:** https://huggingface.co/LumiOpen/Poro-34B-chat-OpenAssistant
-- **Abstract:** Post-training a Finnish LLM (Poro) for instruction-following. Translates IFEval benchmark to Finnish. Using all available English+Finnish data for SFT gives best performance. Releases datasets, recipes, and model openly.
-- **Source Agent(s):** B7
-
-### 116. GermanBenchmark: German translations of popular LLM benchmarks
-- **Authors:** Bjorn Pluster (LAION/Hessian.AI)
-- **Year:** 2023
-- **URL:** https://github.com/bjoernpl/GermanBenchmark
-- **Languages:** German
-- **Benchmark:** GermanBenchmark (MMLU-DE, hellaswag_de, arc_challenge_de, truthful_qa_de)
-- **Code/Data:** https://github.com/bjoernpl/GermanBenchmark
-- **Abstract:** Collection of popular English LLM benchmarks translated to German including MMLU-DE, hellaswag_de, arc_challenge_de, and truthful_qa_de. Developed as part of the LeoLM project by LAION and Hessian.AI.
-- **Source Agent(s):** B7
-
-### 117. Towards Multilingual LLM Evaluation for Baltic and Nordic Languages
-- **Authors:** Various
-- **Year:** 2025
-- **arXiv:** [2501.09154](https://arxiv.org/abs/2501.09154)
-- **URL:** https://arxiv.org/abs/2501.09154
-- **Languages:** Lithuanian, Nordic languages
-- **Abstract:** Evaluates multilingual LLMs on Lithuanian and general history, exploring how LLMs perform when prompted in different languages within the Nordic and Baltic language group.
-- **Source Agent(s):** B7
-
-### 118. ITALIC: An Italian Culture-Aware Natural Language Benchmark
-- **Authors:** Andrea Seveso, Daniele Potertì, Edoardo Federici, Mario Mezzanzanica, Fabio Mercorio
-- **Year:** 2025
-- **URL:** https://aclanthology.org/2025.naacl-long.68/
-- **Languages:** Italian
-- **Benchmark:** ITALIC
-- **Code/Data:** https://italicbench.it/
-- **Abstract:** A large-scale benchmark dataset of 10,000 multiple-choice questions designed to evaluate NLU of Italian language and culture across 12 domains. Baseline performances established using 17 state-of-the-art LLMs reveal current limitations in Italian language understanding and highlight significant cultural specificity challenges.
-- **Source Agent(s):** B8
-
-### 119. Evalita-LLM: Benchmarking Large Language Models on Italian
-- **Authors:** Marco Resta et al.
-- **Year:** 2025
-- **arXiv:** [2502.02289](https://arxiv.org/abs/2502.02289)
-- **URL:** https://arxiv.org/abs/2502.02289
-- **Languages:** Italian
-- **Benchmark:** Evalita-LLM
-- **Code/Data:** https://huggingface.co/spaces/evalita-llm
-- **Abstract:** Comprehensive benchmark and leaderboard designed to evaluate LLMs on Italian tasks, covering ten native Italian tasks including both multiple-choice and generative formats, with multiple prompts per task to mitigate sensitivity. All tasks are native Italian, avoiding translation biases.
-- **Source Agent(s):** B8
-
-### 120. CALAMITA: Challenging the Abilities of LAnguage Models in ITAlian
-- **Authors:** Over 80 contributors (community initiative)
-- **Year:** 2024
-- **arXiv:** [2512.04759](https://arxiv.org/abs/2512.04759)
-- **URL:** https://arxiv.org/abs/2512.04759
-- **Languages:** Italian
-- **Benchmark:** CALAMITA
-- **Abstract:** Large-scale collaborative benchmarking initiative for Italian that federates 80+ contributors. Assembles 20+ tasks and ~100 subtasks covering linguistic competence, commonsense reasoning, factual consistency, fairness, summarization, translation, and code generation.
-- **Source Agent(s):** B8
-
-### 121. GFG -- Gender-Fair Generation: A CALAMITA Challenge
-- **Authors:** Simona Frenda, Andrea Piergentili, Beatrice Savoldi, Marco Madeddu, Martina Rosola, Silvia Casola, Chiara Ferrando, Viviana Patti, Matteo Negri, Luisa Bentivogli
-- **Year:** 2024
-- **arXiv:** [2412.19168](https://arxiv.org/abs/2412.19168)
-- **URL:** https://arxiv.org/abs/2412.19168
-- **Languages:** English, Italian
-- **Benchmark:** GFG (Gender-Fair Generation)
-- **Abstract:** Challenge to assess and monitor recognition and generation of gender-fair language in Italian. Includes three tasks: detection of gendered expressions, reformulation into gender-fair alternatives, and generation of gender-fair language in English-to-Italian translation. Uses GFL-it corpus, GeNTE, and Neo-GATE datasets.
-- **Source Agent(s):** B8
-
-### 122. ITA-Bench: Towards a More Comprehensive Evaluation for Italian LLMs
-- **Authors:** SapienzaNLP group
-- **Year:** 2024
-- **URL:** https://github.com/SapienzaNLP/ita-bench
-- **Languages:** Italian
-- **Benchmark:** ITA-Bench
-- **Code/Data:** https://github.com/SapienzaNLP/ita-bench
-- **Abstract:** A benchmark suite for evaluating LLMs on Italian, including 10 benchmarks (ARC, BoolQ, GSM8K, HellaSwag, MMLU, PIQA, SciQ, TruthfulQA, Winogrande). Addresses the problem that English-centric benchmark translations may contain culturally inappropriate instances.
-- **Source Agent(s):** B8
-
-### 123. HATE-ITA: Hate Speech Detection in Italian Social Media Text
-- **Authors:** MilaNLProc group
-- **Year:** 2022
-- **URL:** https://aclanthology.org/2022.woah-1.24/
-- **Languages:** English, Italian
-- **Benchmark:** HATE-ITA
-- **Code/Data:** https://github.com/MilaNLProc/hate-ita
-- **Abstract:** Multi-language model trained on English data and Italian datasets for hate speech detection. HATE-ITA outperforms mono-lingual models and adapts well to language-specific Italian slurs. Released as a benchmark tool for the Italian community.
-- **Source Agent(s):** B8
-
-### 124. HaSpeeDe 2 @ EVALITA2020: Overview of the EVALITA 2020 Hate Speech Detection Task
-- **Authors:** Cristina Bosco et al.
-- **Year:** 2020
-- **URL:** https://www.researchgate.net/publication/346997652_HaSpeeDe_2_EVALITA2020_Overview_of_the_EVALITA_2020_Hate_Speech_Detection_Task
-- **Languages:** Italian
-- **Benchmark:** HaSpeeDe 2
-- **Code/Data:** https://github.com/msang/haspeede/tree/master/2020
-- **Abstract:** Second edition shared task on detection of hateful content in Italian Twitter messages. Composed of main task (hate speech detection) and pilot tasks (stereotype detection, nominal utterance detection). 14 teams participated; best macro F1 of 0.8088.
-- **Source Agent(s):** B8
-
-### 125. AMI @ EVALITA2020: Automatic Misogyny Identification
-- **Authors:** Debora Nozza et al.
-- **Year:** 2020
-- **URL:** https://amievalita2020.github.io/
-- **Languages:** Italian
-- **Benchmark:** AMI (Automatic Misogyny Identification)
-- **Code/Data:** https://github.com/dnozza/ami2020
-- **Abstract:** Shared task for automatically identifying misogynous content in Italian tweets. Two subtasks: (A) misogyny and aggressiveness identification, (B) fairness of the model. Annotated for misogyny categories: Discredit, Derailing, Dominance, Sexual Harassment, Stereotype & Objectification.
-- **Source Agent(s):** B8
-
-### 126. An Empirical Investigation of Gender Stereotype Representation in Large Language Models: The Italian Case
-- **Authors:** Gioele Giachino et al.
-- **Year:** 2025
-- **arXiv:** [2507.19156](https://arxiv.org/abs/2507.19156)
-- **URL:** https://arxiv.org/abs/2507.19156
-- **Languages:** Italian
-- **Abstract:** Examines how LLMs shape responses to ungendered Italian prompts, contributing to biased outputs. Focuses on gender and professional bias. Results show Gemini associated 100% of 'she' pronouns with 'assistant' rather than 'manager'. Highlights how Italian grammatical gender amplifies stereotypes.
-- **Source Agent(s):** B8
-
-### 127. Identifying Gender Stereotypes and Biases in Automated Translation from English to Italian using Similarity Networks
-- **Authors:** Multiple authors
-- **Year:** 2025
-- **arXiv:** [2502.11611](https://arxiv.org/abs/2502.11611)
-- **URL:** https://arxiv.org/abs/2502.11611
-- **Languages:** English, Italian
-- **Abstract:** Evaluates stereotypes and biases in automated English-to-Italian translation systems using similarity networks. Identifies gender-specific terms (she/lei, he/lui) as key elements and uses cosine similarity to reveal model bias. Advocates gender-neutral translation for gender inclusion.
-- **Source Agent(s):** B8
-
-### 128. Detecting Racial Stereotypes: An Italian Social Media Corpus where Psychology Meets NLP
-- **Authors:** Cristina Bosco, Viviana Patti, Simona Frenda, Alessandra T. Cignarella, Marina Paciello, Francesca D'Errico
-- **Year:** 2023
-- **DOI:** [10.1016/j.ipm.2022.103118](https://doi.org/10.1016/j.ipm.2022.103118)
-- **URL:** https://www.sciencedirect.com/science/article/abs/pii/S0306457322002199
-- **Languages:** Italian
-- **Abstract:** An Italian social media corpus from Facebook for detecting racial stereotypes, built within a social psychology study. Annotation scheme makes stereotypes and discredit explicit. Focuses on racial hoaxes and hateful content against immigrants in Italian.
-- **Source Agent(s):** B8
-
-### 129. Italian Linguistic Features for Toxic Language Detection in Social Media
-- **Authors:** Multiple authors
-- **Year:** 2023
-- **URL:** https://journals.openedition.org/ijcol/1367
-- **Languages:** Italian
-- **Abstract:** Framework for analyzing toxic language on Italian Facebook pages. Assesses toxic vs. non-toxic comments via length, vocabulary diversity, and linguistic standardness. Fine-tunes PoliBERT, UmBERTo, and bert-base-italian-xxl-uncased models.
-- **Source Agent(s):** B8
-
-### 130. Mapping the Italian Telegram Ecosystem: Communities, Toxicity, and Hate Speech
-- **Authors:** Multiple authors
-- **Year:** 2025
-- **arXiv:** [2504.19594](https://arxiv.org/abs/2504.19594)
-- **URL:** https://arxiv.org/abs/2504.19594
-- **Languages:** Italian
-- **Abstract:** Large-scale analysis of Italian Telegram using 186 million messages from 13,151 chats collected in 2023. Examines toxicity and hate speech distribution using Perspective API and LLMs. Primary hate targets: Black people, Jews, gay individuals. Finds toxicity widely normalized across communities.
-- **Source Agent(s):** B8
-
-### 131. MuLTa-Telegram: A Fine-Grained Italian and Polish Dataset for Hate Speech Detection
-- **Authors:** Multiple authors
-- **Year:** 2025
-- **URL:** https://aclanthology.org/2025.clicit-1.56.pdf
-- **Languages:** Italian, Polish
-- **Benchmark:** MuLTa-Telegram
-- **Abstract:** Multi-lingual, multi-target dataset of ~4,000 Telegram messages in Italian and Polish annotated for hate speech and targets including People with Disabilities, LGBTQ+, Religion (Jews, Muslims, Christians), Ethnicity/Origin (People of Color, Romani, Migrants), and Women.
-- **Source Agent(s):** B8
-
-### 132. Cross-Platform Evaluation for Italian Hate Speech Detection
-- **Authors:** Multiple authors
-- **Year:** 2019
-- **URL:** https://hal.science/hal-02381152
-- **Languages:** Italian
-- **Abstract:** Comparative evaluation on datasets for hate speech detection in Italian across four social media platforms: Facebook, Twitter, Instagram, and WhatsApp. Shows combining platform-dependent datasets for training is beneficial, though impact varies by social network.
-- **Source Agent(s):** B8
-
-### 133. BasqBBQ: A QA Benchmark for Assessing Social Biases in LLMs for Basque, a Low-Resource Language
-- **Authors:** Muitze Zulaika, Xabier Saralegi et al.
-- **Year:** 2025
-- **URL:** https://aclanthology.org/2025.coling-main.318/
-- **Languages:** Basque
-- **Benchmark:** BasqBBQ
-- **Abstract:** First benchmark to assess social biases in Basque across eight domains using multiple-choice QA. Evaluates autoregressive LLMs including multilingual and Basque-adapted models. Finds high negative bias in Disability Status, Age, Physical Appearance categories. Larger models exhibit lower negative bias.
-- **Source Agent(s):** B8
-
-### 134. BasqueGLUE: A Natural Language Understanding Benchmark for Basque
-- **Authors:** Gorka Urbizu, Iñaki San Vicente, Xabier Saralegi, Rodrigo Agerri, Aitor Soroa
-- **Year:** 2022
-- **URL:** https://aclanthology.org/2022.lrec-1.172/
-- **Languages:** Basque
-- **Benchmark:** BasqueGLUE
-- **Code/Data:** https://huggingface.co/datasets/orai-nlp/basqueGLUE
-- **Abstract:** First NLU benchmark for Basque, following GLUE/SuperGLUE criteria. Includes 9 tasks and baselines from state-of-the-art Basque language models. Freely available under open license.
-- **Source Agent(s):** B8
-
-### 135. Latxa: An Open Language Model and Evaluation Suite for Basque
-- **Authors:** Julen Etxaniz, Oscar Sainz et al.
-- **Year:** 2024
-- **arXiv:** [2403.20266](https://arxiv.org/abs/2403.20266)
-- **URL:** https://arxiv.org/abs/2403.20266
-- **Languages:** Basque
-- **Benchmark:** Latxa / EusProficiency / EusReading / EusTrivia / EusExams
-- **Abstract:** Family of LLMs for Basque (7B-70B parameters) with 4 evaluation datasets: EusProficiency (5,169 questions), EusReading (352 questions), EusTrivia (1,715 questions), EusExams (16,774 questions). Latxa outperforms all previous open models and is competitive with GPT-4 Turbo.
-- **Source Agent(s):** B8
-
-### 136. The Catalan Language CLUB (Catalan Language Understanding Benchmark)
-- **Authors:** Carlos Rodriguez-Penagos et al. (Barcelona Supercomputing Center)
-- **Year:** 2021
-- **arXiv:** [2112.01894](https://arxiv.org/abs/2112.01894)
-- **URL:** https://arxiv.org/abs/2112.01894
-- **Languages:** Catalan
-- **Benchmark:** CLUB
-- **Code/Data:** https://github.com/projecte-aina/club
-- **Abstract:** Catalan Language Understanding Benchmark encompassing datasets for POS tagging, NER, text classification, textual entailment, and extracted QA. Part of AINA and PlanTL public funding initiatives to empower the Catalan language in AI.
-- **Source Agent(s):** B8
-
-### 137. A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a Millionaire?' Videos
-- **Authors:** Multiple authors
-- **Year:** 2025
-- **arXiv:** [2506.05991](https://arxiv.org/abs/2506.05991)
-- **URL:** https://arxiv.org/abs/2506.05991
-- **Languages:** Romanian
-- **Benchmark:** WWTBM-RO
-- **Code/Data:** https://huggingface.co/datasets
-- **Abstract:** Novel culturally-rich dataset from Romanian 'Who Wants to Be a Millionaire?' videos for LLM evaluation. Reveals significant performance gap: models achieve 80-95% on international questions vs. 50-75% on Romanian-specific cultural questions. Romanian fine-tuning shows mixed effects on cultural knowledge.
-- **Source Agent(s):** B8
-
-### 138. A Cross-Lingual Analysis of Bias in Large Language Models Using Romanian History
-- **Authors:** Multiple authors
-- **Year:** 2025
-- **arXiv:** [2510.02362](https://arxiv.org/abs/2510.02362)
-- **URL:** https://arxiv.org/abs/2510.02362
-- **Languages:** English, Romanian, and others
-- **Abstract:** Selects controversial Romanian historical questions and tests multiple LLMs across languages. Results show binary response stability varies by language, with models flipping stance across languages or between formats. Romanian used as native baseline to ground the cultural context.
-- **Source Agent(s):** B8
-
-### 139. Enhancing Romanian Offensive Language Detection through Knowledge Distillation, Multi-Task Learning, and Data Augmentation
-- **Authors:** Vlad-Cristian Matei, Iulian-Marius Tăiatu, Răzvan-Alexandru Smădu, Dumitru-Clementin Cercel
-- **Year:** 2024
-- **arXiv:** [2409.20498](https://arxiv.org/abs/2409.20498)
-- **URL:** https://arxiv.org/abs/2409.20498
-- **Languages:** Romanian
-- **Benchmark:** RO-Offense
-- **Code/Data:** https://huggingface.co/datasets/readerbench/ro-offense
-- **Abstract:** Develops automatic offensive language detection for Romanian using Transformer-based models with knowledge distillation, data augmentation, and multi-task learning. Uses RO-Offense dataset (12,447 annotated records: Profanity 13%, Insult 23%, Abuse 28%, Other 36%).
-- **Source Agent(s):** B8
-
-### 140. Offensive Text Span Detection in Romanian Comments Using Large Language Models
-- **Authors:** Multiple authors
-- **Year:** 2024
-- **DOI:** [10.3390/info15010008](https://doi.org/10.3390/info15010008)
-- **URL:** https://www.mdpi.com/2078-2489/15/1/8
-- **Languages:** Romanian
-- **Abstract:** Comprehensive investigation into detecting offensive text spans in Romanian using Transformer encoders and LLMs. Introduces 4,800 Romanian comments annotated with offensive text spans. BERT models show superior performance; few-shot LLM strategies also evaluated.
-- **Source Agent(s):** B8
-
-### 141. GSI:detect — Gender Stereotype Detection Shared Task at EVALITA 2026
-- **Authors:** Gloria Comandini, Manuela Speranza, Sofia Brenna, Davide Testa, Stefania Cavagnoli, Bernardo Magnini
+### 121. Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects
+- **Authors:** 
 - **Year:** 2026
-- **URL:** https://www.evalita.it/campaigns/evalita-2026/tasks/
-- **Languages:** Italian
-- **Benchmark:** GSI:detect
-- **Abstract:** EVALITA 2026 shared task evaluating systems' ability to detect and classify gender stereotypes in Italian short texts. Main task assigns a numerical GS value quantifying the degree of gender stereotype content. Final workshop in Bari, Italy, February 2026.
-- **Source Agent(s):** B8
+- **arXiv:** [2601.07274](https://arxiv.org/abs/2601.07274)
+- **URL:** https://arxiv.org/html/2601.07274
+- **Languages:** Cantonese, Chinese, Hakka, Min
+- **Abstract:** Based on the search results, here's what I found regarding Chinese dialect NLP benchmarks with focus on Min and Hakka evaluation: Key Findings A recent research effort spans seven major subgroups including Min (Southern Min/Minnan), Hakka, and others, with evaluation across 78 sites in China. The YuBao benchmark evaluates cross-dialect semantic alignment using a zero-shot speech-to-speech retrieval task with recall measurements computed between all pairs of cities within source and target s
+- **Source Agent(s):** C1
 
-### 142. MedBench-IT: A Comprehensive Benchmark for Evaluating LLMs on Italian Medical Entrance Examinations
-- **Authors:** Multiple authors
+### 122. Chinese dialect speech recognition: a comprehensive survey | Artificial Intelligence Review
+- **Authors:** 
 - **Year:** 2025
-- **arXiv:** [2509.07135](https://arxiv.org/abs/2509.07135)
-- **URL:** https://arxiv.org/abs/2509.07135
-- **Languages:** Italian
-- **Benchmark:** MedBench-IT
-- **Abstract:** First comprehensive benchmark for evaluating LLMs on Italian medical university entrance exams, comprising 17,410 expert-written multiple-choice questions across six subjects and three difficulty levels.
-- **Source Agent(s):** B8
+- **DOI:** [10.1007/s10462-023-10668-0](https://doi.org/10.1007/s10462-023-10668-0)
+- **URL:** https://link.springer.com/article/10.1007/s10462-023-10668-0
+- **Languages:** Cantonese, Chinese, Hakka, Min
+- **Abstract:** Based on the search results, here's what I found regarding Chinese dialect NLP benchmarks with focus on Min and Hakka evaluation: Key Findings A recent research effort spans seven major subgroups including Min (Southern Min/Minnan), Hakka, and others, with evaluation across 78 sites in China. The YuBao benchmark evaluates cross-dialect semantic alignment using a zero-shot speech-to-speech retrieval task with recall measurements computed between all pairs of cities within source and target s
+- **Source Agent(s):** C1
 
-### 143. GreekMMLU: A Native-Sourced Multitask Benchmark for Evaluating Language Models in Greek
-- **Authors:** Yang Zhang, Mersin Konomi, Christos Xypolopoulos, Konstantinos Divriotis, Konstantinos Skianis, Giannis Nikolentzos, Giorgos Stamou, Guokan Shang, Michalis Vazirgiannis
+### 123. CUGE: A Chinese Language Understanding and Generation Evaluation Benchmark
+- **Authors:** 
+- **Year:** 2025
+- **URL:** http://cuge.baai.ac.cn/pdf/CUGE.pdf
+- **Languages:** Cantonese, Chinese, Hakka, Min
+- **Benchmark:** CUGE
+- **Abstract:** Based on the search results, here's what I found regarding Chinese dialect NLP benchmarks with focus on Min and Hakka evaluation: Key Findings A recent research effort spans seven major subgroups including Min (Southern Min/Minnan), Hakka, and others, with evaluation across 78 sites in China. The YuBao benchmark evaluates cross-dialect semantic alignment using a zero-shot speech-to-speech retrieval task with recall measurements computed between all pairs of cities within source and target s
+- **Source Agent(s):** C1
+
+### 124. WYWEB: A NLP Evaluation Benchmark For Classical Chinese
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2023.findings-acl.204/
+- **Languages:** Cantonese, Chinese, Classical Chinese, Hakka, Min
+- **Benchmark:** WYWEB
+- **Abstract:** Based on the search results, here's what I found regarding Chinese dialect NLP benchmarks with focus on Min and Hakka evaluation: Key Findings A recent research effort spans seven major subgroups including Min (Southern Min/Minnan), Hakka, and others, with evaluation across 78 sites in China. The YuBao benchmark evaluates cross-dialect semantic alignment using a zero-shot speech-to-speech retrieval task with recall measurements computed between all pairs of cities within source and target s
+- **Source Agent(s):** C1
+
+### 125. Leveraging LLM and Self-Supervised Training Models for Speech Recognition in Chinese Dialects: A Comparative Analysis
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2505.21138](https://arxiv.org/abs/2505.21138)
+- **URL:** https://arxiv.org/html/2505.21138v1
+- **Languages:** Cantonese, Chinese, Hakka, Min
+- **Abstract:** Based on the search results, here's what I found regarding Chinese dialect NLP benchmarks with focus on Min and Hakka evaluation: Key Findings A recent research effort spans seven major subgroups including Min (Southern Min/Minnan), Hakka, and others, with evaluation across 78 sites in China. The YuBao benchmark evaluates cross-dialect semantic alignment using a zero-shot speech-to-speech retrieval task with recall measurements computed between all pairs of cities within source and target s
+- **Source Agent(s):** C1
+
+### 126. Mirroring Cultural Dominance: Disclosing Large Language Models Social Values, Attitudes and Stereotypes
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.mdpi.com/2075-4698/15/5/142
+- **Languages:** Chinese
+- **Abstract:** Based on the search results, here's what recent 2025 research reveals about Chinese social bias and stereotypes in LLM evaluation: Key Research Areas Occupational and Gender Biases in Chinese LLMs A systematic study examined biases in five representative Chinese LLMs by collecting 90 Chinese surnames and 12 occupations as input prompts, generating 16,200 personal profiles that were evaluated for biases regarding gender, region, age, and educational background. Pre-training corpora for
+- **Source Agent(s):** C1
+
+### 127. Comparing diversity, negativity, and stereotypes in Chinese-language AI technologies: an investigation of Baidu, Ernie and Qwen - PMC
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://pmc.ncbi.nlm.nih.gov/articles/PMC11935762/
+- **Languages:** Chinese
+- **Abstract:** Based on the search results, here's what recent 2025 research reveals about Chinese social bias and stereotypes in LLM evaluation: Key Research Areas Occupational and Gender Biases in Chinese LLMs A systematic study examined biases in five representative Chinese LLMs by collecting 90 Chinese surnames and 12 occupations as input prompts, generating 16,200 personal profiles that were evaluated for biases regarding gender, region, age, and educational background. Pre-training corpora for
+- **Source Agent(s):** C1
+
+### 128. McBE: A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2507.02088](https://arxiv.org/abs/2507.02088)
+- **URL:** https://arxiv.org/html/2507.02088
+- **Languages:** Chinese
+- **Benchmark:** McBE
+- **Abstract:** Based on the search results, here's what recent 2025 research reveals about Chinese social bias and stereotypes in LLM evaluation: Key Research Areas Occupational and Gender Biases in Chinese LLMs A systematic study examined biases in five representative Chinese LLMs by collecting 90 Chinese surnames and 12 occupations as input prompts, generating 16,200 personal profiles that were evaluated for biases regarding gender, region, age, and educational background. Pre-training corpora for
+- **Source Agent(s):** C1
+
+### 129. Towards a Multilingual Assessment of Stereotypes in Large ...
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2025.naacl-long.600.pdf
+- **Languages:** Chinese, Multilingual
+- **Abstract:** Based on the search results, here's what recent 2025 research reveals about Chinese social bias and stereotypes in LLM evaluation: Key Research Areas Occupational and Gender Biases in Chinese LLMs A systematic study examined biases in five representative Chinese LLMs by collecting 90 Chinese surnames and 12 occupations as input prompts, generating 16,200 personal profiles that were evaluated for biases regarding gender, region, age, and educational background. Pre-training corpora for
+- **Source Agent(s):** C1
+
+### 130. Explicitly unbiased large language models still form biased associations | PNAS
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.1073/pnas.2416228122](https://doi.org/10.1073/pnas.2416228122)
+- **URL:** https://www.pnas.org/doi/10.1073/pnas.2416228122
+- **Languages:** Chinese
+- **Abstract:** Based on the search results, here's what recent 2025 research reveals about Chinese social bias and stereotypes in LLM evaluation: Key Research Areas Occupational and Gender Biases in Chinese LLMs A systematic study examined biases in five representative Chinese LLMs by collecting 90 Chinese surnames and 12 occupations as input prompts, generating 16,200 personal profiles that were evaluated for biases regarding gender, region, age, and educational background. Pre-training corpora for
+- **Source Agent(s):** C1
+
+### 131. Source framing triggers systematic bias in large language models | Science Advances
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.1126/sciadv.adz2924](https://doi.org/10.1126/sciadv.adz2924)
+- **URL:** https://www.science.org/doi/10.1126/sciadv.adz2924
+- **Languages:** Chinese
+- **Abstract:** Based on the search results, here's what recent 2025 research reveals about Chinese social bias and stereotypes in LLM evaluation: Key Research Areas Occupational and Gender Biases in Chinese LLMs A systematic study examined biases in five representative Chinese LLMs by collecting 90 Chinese surnames and 12 occupations as input prompts, generating 16,200 personal profiles that were evaluated for biases regarding gender, region, age, and educational background. Pre-training corpora for
+- **Source Agent(s):** C1
+
+### 132. Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns and Social Groups
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2510.06974](https://arxiv.org/abs/2510.06974)
+- **URL:** https://arxiv.org/html/2510.06974
+- **Languages:** Chinese
+- **Abstract:** Based on the search results, here's what recent 2025 research reveals about Chinese social bias and stereotypes in LLM evaluation: Key Research Areas Occupational and Gender Biases in Chinese LLMs A systematic study examined biases in five representative Chinese LLMs by collecting 90 Chinese surnames and 12 occupations as input prompts, generating 16,200 personal profiles that were evaluated for biases regarding gender, region, age, and educational background. Pre-training corpora for
+- **Source Agent(s):** C1
+
+### 133. Sentiment analysis of classical Chinese literature: An unsupervised deep learning model with BERT and graph attention networks | PLOS One
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.1371/journal.pone.0330919](https://doi.org/10.1371/journal.pone.0330919)
+- **URL:** https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0330919
+- **Languages:** Chinese, Classical Chinese
+- **Abstract:** Based on the search results, I found information about Chinese sentiment analysis corpora and research, but I did not find specific results for a corpus specifically named "CHisIEC" (Chinese Implicit Sentiment Ethics Corpus). However, the search results do provide information about related Chinese sentiment analysis resources and implicit sentiment work: Researchers have constructed a fact-implied implicit sentiment corpus in Chinese, which was collected and manually labeled to create a gold st
+- **Source Agent(s):** C1
+
+### 134. Chinese Textual Sentiment Analysis: Datasets, Resources and Tools
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://aclanthology.org/C16-3002/
+- **Languages:** Chinese
+- **Abstract:** Based on the search results, I found information about Chinese sentiment analysis corpora and research, but I did not find specific results for a corpus specifically named "CHisIEC" (Chinese Implicit Sentiment Ethics Corpus). However, the search results do provide information about related Chinese sentiment analysis resources and implicit sentiment work: Researchers have constructed a fact-implied implicit sentiment corpus in Chinese, which was collected and manually labeled to create a gold st
+- **Source Agent(s):** C1
+
+### 135. 1 工业和信息化领域人工智能安全治理标准体系 建设指南（2025） （征求意见稿） 为深入贯彻落实党中央、国务院关于加快发展人工智能
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://caict-llm-portal-storage.oss-cn-beijing.aliyuncs.com/6153dd34-d7fc-4d24-97b5-d40fc48105c5
+- **Languages:** Chinese
+- **Abstract:** 根据搜索结果，我为您提供关于"中文大模型安全评估基准 2025"的信息： 主要发展 2025年4月30日，全国网络安全标准化技术委员会发布了三项大模型安全国家标准，其中包括GB/T 45654-2025《网络安全技术 生成式人工智能服务安全基本要求》，该标准将于2025年11月1日正式实施。这是我国首项生成式AI安全国标，为行业划定了数据、模型、伦理等安全基线。 评估框架 该标准通过数据安全、模型安全、运营规范三大维度，为服务提供者、监管及评估机构提供技术规范与参考。 同时发布的另外两项标准分别为《网络安全技术 生成式人工智能预训练和优化训练数据安全规范》及《网络安全技术 生成式人工智能数据标注安全规范》。 评测基准 除国家标准外，还有多个安全评测基准在运行： - DSPSafeBench（中文大模型内容安全测评基准）设计参考了国家标准征求意见稿，涵盖5个一级安全维度和30个二级安全任务，共包含2133条测评题。 - 中国联通研究院对27个主流开源大模型展开全面评测，基于自主构建的意识形态安全题库，聚焦五大风险维度：A1至A5，涵盖价值观合规、歧视性
+- **Source Agent(s):** C1
+
+### 136. Large Language Model Generate Prompt 生成式大模型 安全评估白皮书
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://hulianhutongshequ.cn/upload/tank/report/2025/202502/1/06d030a5fdeb4a309f68e78e170cbd1b.pdf
+- **Languages:** Chinese
+- **Abstract:** 根据搜索结果，我为您提供关于"中文大模型安全评估基准 2025"的信息： 主要发展 2025年4月30日，全国网络安全标准化技术委员会发布了三项大模型安全国家标准，其中包括GB/T 45654-2025《网络安全技术 生成式人工智能服务安全基本要求》，该标准将于2025年11月1日正式实施。这是我国首项生成式AI安全国标，为行业划定了数据、模型、伦理等安全基线。 评估框架 该标准通过数据安全、模型安全、运营规范三大维度，为服务提供者、监管及评估机构提供技术规范与参考。 同时发布的另外两项标准分别为《网络安全技术 生成式人工智能预训练和优化训练数据安全规范》及《网络安全技术 生成式人工智能数据标注安全规范》。 评测基准 除国家标准外，还有多个安全评测基准在运行： - DSPSafeBench（中文大模型内容安全测评基准）设计参考了国家标准征求意见稿，涵盖5个一级安全维度和30个二级安全任务，共包含2133条测评题。 - 中国联通研究院对27个主流开源大模型展开全面评测，基于自主构建的意识形态安全题库，聚焦五大风险维度：A1至A5，涵盖价值观合规、歧视性
+- **Source Agent(s):** C1
+
+### 137. 中文大模型内容安全测评基准(DSPSafeBench)上线，首批模型测评结果揭晓！_中文大模型内容安全测评基准dspsafebench-CSDN博客
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://blog.csdn.net/sinat_37574187/article/details/144504312
+- **Languages:** Chinese
+- **Abstract:** 根据搜索结果，我为您提供关于"中文大模型安全评估基准 2025"的信息： 主要发展 2025年4月30日，全国网络安全标准化技术委员会发布了三项大模型安全国家标准，其中包括GB/T 45654-2025《网络安全技术 生成式人工智能服务安全基本要求》，该标准将于2025年11月1日正式实施。这是我国首项生成式AI安全国标，为行业划定了数据、模型、伦理等安全基线。 评估框架 该标准通过数据安全、模型安全、运营规范三大维度，为服务提供者、监管及评估机构提供技术规范与参考。 同时发布的另外两项标准分别为《网络安全技术 生成式人工智能预训练和优化训练数据安全规范》及《网络安全技术 生成式人工智能数据标注安全规范》。 评测基准 除国家标准外，还有多个安全评测基准在运行： - DSPSafeBench（中文大模型内容安全测评基准）设计参考了国家标准征求意见稿，涵盖5个一级安全维度和30个二级安全任务，共包含2133条测评题。 - 中国联通研究院对27个主流开源大模型展开全面评测，基于自主构建的意识形态安全题库，聚焦五大风险维度：A1至A5，涵盖价值观合规、歧视性
+- **Source Agent(s):** C1
+
+### 138. Ce‐LLMs: Status and trends of education‐specific large language models developed in China - Xie - 2025 - Future in Educational Research - Wiley Online Library
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.1002/fer3.70008](https://doi.org/10.1002/fer3.70008)
+- **URL:** https://onlinelibrary.wiley.com/doi/10.1002/fer3.70008
+- **Languages:** Chinese, English
+- **Abstract:** Here are the search results for "Chinese cultural knowledge LLM evaluation 2025 2026": Key Findings Recent LLM Evaluations with Chinese Cultural Focus: A 2025 study evaluated the performance of four LLMs (Sider Fusion, GPT-4o, Gemini 2.0 Pro, and DeepSeek V3) on the Chinese National Nurse Licensure Examination (CNNLE), testing their capabilities in specialized, culturally specific examinations. Comparative evaluations show that GPT-4 Turbo leads in English contexts, whereas the Chinese
+- **Source Agent(s):** C1
+
+### 139. A Structured Framework for Evaluating and Enhancing Interpretive Capabilities of Multimodal LLMs in Culturally Situated Tasks
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2509.23208](https://arxiv.org/abs/2509.23208)
+- **URL:** https://arxiv.org/html/2509.23208v2
+- **Languages:** Chinese, English
+- **Abstract:** Here are the search results for "Chinese cultural knowledge LLM evaluation 2025 2026": Key Findings Recent LLM Evaluations with Chinese Cultural Focus: A 2025 study evaluated the performance of four LLMs (Sider Fusion, GPT-4o, Gemini 2.0 Pro, and DeepSeek V3) on the Chinese National Nurse Licensure Examination (CNNLE), testing their capabilities in specialized, culturally specific examinations. Comparative evaluations show that GPT-4 Turbo leads in English contexts, whereas the Chinese
+- **Source Agent(s):** C1
+
+### 140. OmniEduBench: A Comprehensive Chinese Benchmark for Evaluating Large Language Models in Education
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2510.26422](https://arxiv.org/abs/2510.26422)
+- **URL:** https://arxiv.org/html/2510.26422v1
+- **Languages:** Chinese, English
+- **Benchmark:** OmniEduBench
+- **Abstract:** Here are the search results for "Chinese cultural knowledge LLM evaluation 2025 2026": Key Findings Recent LLM Evaluations with Chinese Cultural Focus: A 2025 study evaluated the performance of four LLMs (Sider Fusion, GPT-4o, Gemini 2.0 Pro, and DeepSeek V3) on the Chinese National Nurse Licensure Examination (CNNLE), testing their capabilities in specialized, culturally specific examinations. Comparative evaluations show that GPT-4 Turbo leads in English contexts, whereas the Chinese
+- **Source Agent(s):** C1
+
+### 141. An Overview of Chinese Open-Source LLMs (Sept 2025) | IntuitionLabs
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://intuitionlabs.ai/articles/chinese-open-source-llms-2025
+- **Languages:** Chinese, English
+- **Abstract:** Here are the search results for "Chinese cultural knowledge LLM evaluation 2025 2026": Key Findings Recent LLM Evaluations with Chinese Cultural Focus: A 2025 study evaluated the performance of four LLMs (Sider Fusion, GPT-4o, Gemini 2.0 Pro, and DeepSeek V3) on the Chinese National Nurse Licensure Examination (CNNLE), testing their capabilities in specialized, culturally specific examinations. Comparative evaluations show that GPT-4 Turbo leads in English contexts, whereas the Chinese
+- **Source Agent(s):** C1
+
+### 142. Beyond Verdicts: Evaluating Language Model Moral Competence Aaron J. Snoswell1,
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://philarchive.org/archive/SNOBVE
+- **Languages:** Chinese, English, Japanese, Multilingual
+- **Abstract:** Based on the search results, here's what I found about Chinese moral dilemma LLM alignment evaluation in 2025: Key Research Findings Recent research introduced the Multi-step Moral Dilemmas (MMDs) framework, a path-dependent evaluation approach that captures temporal dynamics of moral judgment. This research across 3,302 five-stage dilemmas revealed that LLMs maintain value orientations while flexibly adjusting preference strengths across sequential dilemmas, with value preferences shifting
+- **Source Agent(s):** C1, C2, D1
+
+### 143. CMoralEval: A Moral Evaluation Benchmark for Chinese ...
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2024.findings-acl.703.pdf
+- **Languages:** Chinese
+- **Benchmark:** CMoralEval
+- **Abstract:** Based on the search results, here's what I found about Chinese moral dilemma LLM alignment evaluation in 2025: Key Research Findings Recent research introduced the Multi-step Moral Dilemmas (MMDs) framework, a path-dependent evaluation approach that captures temporal dynamics of moral judgment. This research across 3,302 five-stage dilemmas revealed that LLMs maintain value orientations while flexibly adjusting preference strengths across sequential dilemmas, with value preferences shifting
+- **Source Agent(s):** C1
+
+### 144. Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM AGENTS
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.mircomusolesi.org/papers/iclr25_moral_alignment_llm_agents.pdf
+- **Languages:** Chinese
+- **Abstract:** Based on the search results, here's what I found about Chinese moral dilemma LLM alignment evaluation in 2025: Key Research Findings Recent research introduced the Multi-step Moral Dilemmas (MMDs) framework, a path-dependent evaluation approach that captures temporal dynamics of moral judgment. This research across 3,302 five-stage dilemmas revealed that LLMs maintain value orientations while flexibly adjusting preference strengths across sequential dilemmas, with value preferences shifting
+- **Source Agent(s):** C1
+
+### 145. The Straight and Narrow: Do LLMs Possess an Internal Moral Path?
+- **Authors:** 
 - **Year:** 2026
-- **arXiv:** [2602.05150](https://arxiv.org/abs/2602.05150)
-- **URL:** https://arxiv.org/abs/2602.05150
-- **Languages:** Greek
-- **Benchmark:** GreekMMLU
-- **Code/Data:** https://huggingface.co/papers/2602.05150
-- **Abstract:** A native-sourced benchmark for massive multitask language understanding in Greek, comprising 21,805 multiple-choice questions across 45 subject areas. All questions sourced or authored in Greek from academic, professional, and governmental exams. Evaluations of over 80 open- and closed-source LLMs reveal substantial performance gaps.
-- **Source Agent(s):** B9
+- **arXiv:** [2601.10307](https://arxiv.org/abs/2601.10307)
+- **URL:** https://arxiv.org/html/2601.10307
+- **Languages:** Chinese
+- **Abstract:** Based on the search results, here's what I found about Chinese moral dilemma LLM alignment evaluation in 2025: Key Research Findings Recent research introduced the Multi-step Moral Dilemmas (MMDs) framework, a path-dependent evaluation approach that captures temporal dynamics of moral judgment. This research across 3,302 five-stage dilemmas revealed that LLMs maintain value orientations while flexibly adjusting preference strengths across sequential dilemmas, with value preferences shifting
+- **Source Agent(s):** C1
 
-### 144. Meltemi: The first open Large Language Model for Greek
-- **Authors:** Leon Voukoutis, Dimitris Roussis, Georgios Paraskevopoulos, Sokratis Sofianopoulos, Prokopis Prokopidis, Vassilis Papavasileiou, Athanasios Katsamanis, Stelios Piperidis, Vassilis Katsouros
+### 146. Safety and Security Analysis of Large Language Models: Risk Profile and Harm Potential
+- **Authors:** Ant Open
+- **Year:** 2025
+- **arXiv:** [2509.10655](https://arxiv.org/abs/2509.10655)
+- **URL:** https://arxiv.org/html/2509.10655v1
+- **Languages:** Chinese
+- **Abstract:** Based on my web search results, I was unable to find any specific information about "ShadowRisk" as a Chinese LLM safety benchmark related to black market TikTok or 2025. The search returned results about various LLM safety benchmarks from 2025, but no matches for ShadowRisk specifically.
+- **Source Agent(s):** C1
+
+### 147. LLM Evaluation Benchmarks and Safety Datasets for 2025 | Knowledge Hub
+- **Authors:** Dave Davies
+- **Year:** 2025
+- **URL:** https://responsibleailabs.ai/knowledge-hub/articles/llm-evaluation-benchmarks-2025
+- **Languages:** Chinese, English, Japanese
+- **Benchmark:** LLM
+- **Abstract:** Based on my web search results, I was unable to find any specific information about "ShadowRisk" as a Chinese LLM safety benchmark related to black market TikTok or 2025. The search returned results about various LLM safety benchmarks from 2025, but no matches for ShadowRisk specifically.
+- **Source Agent(s):** C1, C2
+
+### 148. A Comprehensive Dataset for Enhancing Safety in LLM- ...
+- **Authors:** Ant Open
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2025.emnlp-main.714.pdf
+- **Languages:** Chinese
+- **Abstract:** Based on my web search results, I was unable to find any specific information about "ShadowRisk" as a Chinese LLM safety benchmark related to black market TikTok or 2025. The search returned results about various LLM safety benchmarks from 2025, but no matches for ShadowRisk specifically.
+- **Source Agent(s):** C1
+
+### 149. Uncensored AI in the Wild: Tracking Publicly Available and Locally Deployable LLMs
+- **Authors:** Ant Open
+- **Year:** 2025
+- **URL:** https://www.mdpi.com/1999-5903/17/10/477
+- **Languages:** Chinese
+- **Abstract:** Based on my web search results, I was unable to find any specific information about "ShadowRisk" as a Chinese LLM safety benchmark related to black market TikTok or 2025. The search returned results about various LLM safety benchmarks from 2025, but no matches for ShadowRisk specifically.
+- **Source Agent(s):** C1
+
+### 150. Diagnosing the bias iceberg in large language models: A three-level framework of explicit, evaluative, and implicit gender bias - ScienceDirect
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.sciencedirect.com/science/article/pii/S0306457325004959
+- **Languages:** Chinese
+- **Abstract:** I found the research article you're looking for. Here are the key findings: Study Overview The article "Exploring the occupational biases and stereotypes of Chinese large language models" was published in Scientific Reports in 2025.
+- **Source Agent(s):** C1
+
+### 151. Understanding Asian Stereotyping and Bias in LLMs Flora Huang
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://cs191.stanford.edu/projects/Huang,%20Flora_CS191.pdf
+- **Languages:** Chinese
+- **Abstract:** I found the research article you're looking for. Here are the key findings: Study Overview The article "Exploring the occupational biases and stereotypes of Chinese large language models" was published in Scientific Reports in 2025.
+- **Source Agent(s):** C1
+
+### 152. How Do Users Identify and Perceive Stereotypes? Understanding User Perspectives on Stereotypical Biases in Large Language Models | Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.1145/3715275.3732207](https://doi.org/10.1145/3715275.3732207)
+- **URL:** https://dl.acm.org/doi/10.1145/3715275.3732207
+- **Languages:** Chinese
+- **Abstract:** I found the research article you're looking for. Here are the key findings: Study Overview The article "Exploring the occupational biases and stereotypes of Chinese large language models" was published in Scientific Reports in 2025.
+- **Source Agent(s):** C1
+
+### 153. Cultural Bias in Large Language Models: A Comprehensive Analysis and Mitigation Strategies
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.1515/jtc-2023-0019/html?lang=en](https://doi.org/10.1515/jtc-2023-0019/html?lang=en)
+- **URL:** https://www.degruyterbrill.com/document/doi/10.1515/jtc-2023-0019/html?lang=en
+- **Languages:** Chinese
+- **Abstract:** I found the research article you're looking for. Here are the key findings: Study Overview The article "Exploring the occupational biases and stereotypes of Chinese large language models" was published in Scientific Reports in 2025.
+- **Source Agent(s):** C1
+
+### 154. An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://petsymposium.org/popets/2025/popets-2025-0122.pdf
+- **Languages:** Chinese
+- **Abstract:** I've found research on this topic. Here's a summary of what the search revealed: Key Findings from the PETS 2025 Analysis A peer-reviewed study published in the Proceedings on Privacy Enhancing Technologies (PETS) in 2025 defines "censorship bias" as occurring when a large language model is trained on sanitized content—content that remains after state censorship including alterations, deletions, and self-imposed censorship.
+- **Source Agent(s):** C1
+
+### 155. PoPETs Proceedings — An Analysis of Chinese Censorship Bias in LLMs
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://petsymposium.org/popets/2025/popets-2025-0122.php
+- **Languages:** Chinese
+- **Benchmark:** PoPETs
+- **Abstract:** I've found research on this topic. Here's a summary of what the search revealed: Key Findings from the PETS 2025 Analysis A peer-reviewed study published in the Proceedings on Privacy Enhancing Technologies (PETS) in 2025 defines "censorship bias" as occurring when a large language model is trained on sanitized content—content that remains after state censorship including alterations, deletions, and self-imposed censorship.
+- **Source Agent(s):** C1
+
+### 156. Analysis of LLM Bias (Chinese Propaganda & Anti-US Sentiment) in DeepSeek-R1 vs. ChatGPT o3-mini-high
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2506.01814](https://arxiv.org/abs/2506.01814)
+- **URL:** https://arxiv.org/html/2506.01814v1
+- **Languages:** Chinese
+- **Abstract:** I've found research on this topic. Here's a summary of what the search revealed: Key Findings from the PETS 2025 Analysis A peer-reviewed study published in the Proceedings on Privacy Enhancing Technologies (PETS) in 2025 defines "censorship bias" as occurring when a large language model is trained on sanitized content—content that remains after state censorship including alterations, deletions, and self-imposed censorship.
+- **Source Agent(s):** C1
+
+### 157. Evaluating Arabic Large Language Models: A Survey of Benchmarks, Methods, and Gaps
+- **Authors:** Sakhadib
+- **Year:** 2025
+- **arXiv:** [2510.13430](https://arxiv.org/abs/2510.13430)
+- **URL:** https://arxiv.org/html/2510.13430v1
+- **Languages:** Arabic
+- **Abstract:** Based on my search results, here are the key findings on Arabic language model ethics and moral reasoning benchmarks in 2025: Arabic Language Model Benchmarks Modern benchmarks like LAraBench, BALSAM, ORCA, and Dolphin provide unified evaluation benchmarks capturing understanding, generation, reasoning, and instruction-following while incorporating dialectal and domain diversity. Specific Ethics and Trustworthiness Benchmarks AraTrust: An AraTrust benchmark was introduced to evalua
+- **Source Agent(s):** C2, D3
+
+### 158. LLM ethics benchmark: a three-dimensional assessment system for evaluating moral reasoning in large language models
+- **Authors:** Version
+- **Year:** 2025
+- **URL:** https://www.nature.com/articles/s41598-025-18489-7
+- **Languages:** Arabic, Chinese, English, Multilingual
+- **Benchmark:** LLM
+- **Abstract:** Based on my search results, here are the key findings on Arabic language model ethics and moral reasoning benchmarks in 2025: Arabic Language Model Benchmarks Modern benchmarks like LAraBench, BALSAM, ORCA, and Dolphin provide unified evaluation benchmarks capturing understanding, generation, reasoning, and instruction-following while incorporating dialectal and domain diversity. Specific Ethics and Trustworthiness Benchmarks AraTrust: An AraTrust benchmark was introduced to evalua
+- **Source Agent(s):** C2, D1
+
+### 159. Towards Inclusive Arabic LLMs: A Culturally Aligned Benchmark in Arabic Large Language Model Evaluation
+- **Authors:** Sakhadib
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2025.loreslm-1.29/
+- **Languages:** Arabic
+- **Abstract:** Based on my search results, here are the key findings on Arabic language model ethics and moral reasoning benchmarks in 2025: Arabic Language Model Benchmarks Modern benchmarks like LAraBench, BALSAM, ORCA, and Dolphin provide unified evaluation benchmarks capturing understanding, generation, reasoning, and instruction-following while incorporating dialectal and domain diversity. Specific Ethics and Trustworthiness Benchmarks AraTrust: An AraTrust benchmark was introduced to evalua
+- **Source Agent(s):** C2
+
+### 160. MoralBench: Moral Evaluation of LLMs
+- **Authors:** Sakhadib
+- **Year:** 2025
+- **URL:** https://kdd.org/exploration_files/p62-LLM_Moral_Benchmark.pdf
+- **Languages:** Arabic
+- **Benchmark:** MoralBench
+- **Abstract:** Based on my search results, here are the key findings on Arabic language model ethics and moral reasoning benchmarks in 2025: Arabic Language Model Benchmarks Modern benchmarks like LAraBench, BALSAM, ORCA, and Dolphin provide unified evaluation benchmarks capturing understanding, generation, reasoning, and instruction-following while incorporating dialectal and domain diversity. Specific Ethics and Trustworthiness Benchmarks AraTrust: An AraTrust benchmark was introduced to evalua
+- **Source Agent(s):** C2
+
+### 161. Structured Moral Reasoning in Language Models: A Value- ...
+- **Authors:** Sakhadib
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2025.emnlp-main.1541.pdf
+- **Languages:** Arabic
+- **Abstract:** Based on my search results, here are the key findings on Arabic language model ethics and moral reasoning benchmarks in 2025: Arabic Language Model Benchmarks Modern benchmarks like LAraBench, BALSAM, ORCA, and Dolphin provide unified evaluation benchmarks capturing understanding, generation, reasoning, and instruction-following while incorporating dialectal and domain diversity. Specific Ethics and Trustworthiness Benchmarks AraTrust: An AraTrust benchmark was introduced to evalua
+- **Source Agent(s):** C2
+
+### 162. Applying Data Feminism Principles to Assess Bias in English and Arabic NLP Research | Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+- **Authors:** Ranwa Aly, Yara Allam, Rana Gaber
+- **Year:** 2025
+- **DOI:** [10.1145/3715275.3732119](https://doi.org/10.1145/3715275.3732119)
+- **URL:** https://dl.acm.org/doi/10.1145/3715275.3732119
+- **Languages:** Arabic, English
+- **Abstract:** Based on the web search results, here's what I found regarding Arabic NLP dataset bias and fairness evaluation in 2025: Key Research Areas Data Feminism and Bias Assessment: Most papers do not sufficiently address social bias, scoring near a 1 on average in five-point scales, according to recent research applying data feminism principles to English and Arabic NLP. Researchers created a prototype interactive form to address common issues in reporting bias in NLP datasets, which suggests
+- **Source Agent(s):** C2
+
+### 163. IslamTrust: A Benchmark for LLMs Alignment with Islamic Values
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://openreview.net/pdf?id=PBcv90iKFB
+- **Languages:** Arabic, English
+- **Benchmark:** IslamTrust
+- **Abstract:** Based on the web search results, here's what I found regarding Arabic NLP dataset bias and fairness evaluation in 2025: Key Research Areas Data Feminism and Bias Assessment: Most papers do not sufficiently address social bias, scoring near a 1 on average in five-point scales, according to recent research applying data feminism principles to English and Arabic NLP. Researchers created a prototype interactive form to address common issues in reporting bias in NLP datasets, which suggests
+- **Source Agent(s):** C2
+
+### 164. ArGAN: Arabic Gender, Ability, and Nationality Dataset for ...
+- **Authors:** Ranwa Aly, Yara Allam, Rana Gaber
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2025.gebnlp-1.23.pdf
+- **Languages:** Arabic, English
+- **Benchmark:** ArGAN
+- **Abstract:** Based on the web search results, here's what I found regarding Arabic NLP dataset bias and fairness evaluation in 2025: Key Research Areas Data Feminism and Bias Assessment: Most papers do not sufficiently address social bias, scoring near a 1 on average in five-point scales, according to recent research applying data feminism principles to English and Arabic NLP. Researchers created a prototype interactive form to address common issues in reporting bias in NLP datasets, which suggests
+- **Source Agent(s):** C2
+
+### 165. A Multilingual Benchmark to Evaluate Large Language
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2025.naacl-long.570.pdf
+- **Languages:** Arabic, Chinese, English, Japanese, Multilingual
+- **Abstract:** Based on the search results, I found several relevant research initiatives related to multilingual benchmark evaluation with focus on values and ethics in Japanese and Arabic: Key Findings: Cultural Awareness Reward Modeling Benchmark (CARB) CARB proposes a benchmark covering 10 distinct cultures with typologically diverse languages across 4 domains: cultural commonsense knowledge, values, safety, and linguistics. The evaluation includes Arabic, Chinese, and Japanese subsets.
+- **Source Agent(s):** C2
+
+### 166. BenchMAX: A Comprehensive Multilingual Evaluation ...
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2025.findings-emnlp.909.pdf
+- **Languages:** Arabic, Chinese, English, Japanese, Multilingual, Turkish
+- **Benchmark:** BenchMAX
+- **Abstract:** Based on the search results, I found several relevant research initiatives related to multilingual benchmark evaluation with focus on values and ethics in Japanese and Arabic: Key Findings: Cultural Awareness Reward Modeling Benchmark (CARB) CARB proposes a benchmark covering 10 distinct cultures with typologically diverse languages across 4 domains: cultural commonsense knowledge, values, safety, and linguistics. The evaluation includes Arabic, Chinese, and Japanese subsets.
+- **Source Agent(s):** C2, D1
+
+### 167. Validating Pseudo-label Dataset for Japanese Hate Speech Detection | IEEE Conference Publication | IEEE Xplore
+- **Authors:** Kajiwara
 - **Year:** 2024
-- **arXiv:** [2407.20743](https://arxiv.org/abs/2407.20743)
-- **URL:** https://arxiv.org/abs/2407.20743
-- **Languages:** Greek
-- **Benchmark:** Meltemi Greek Benchmark Suite
-- **Code/Data:** https://huggingface.co/ilsp/Meltemi-7B-v1
-- **Abstract:** The first open LLM for Greek, built on Mistral-7B with continual pretraining on 40B Greek tokens. Includes a comprehensive evaluation suite with Greek versions of ARC, TruthfulQA, HellaSwag, MMLU, Belebele, and a novel Medical MCQA benchmark. Meltemi-7B shows +20.2% average improvement across all Greek test sets.
-- **Source Agent(s):** B9
+- **URL:** https://ieeexplore.ieee.org/iel8/10902665/10902666/10902753.pdf
+- **Languages:** Japanese
+- **Abstract:** I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled "Validating Pseudo-label Dataset for Japanese Hate Speech Detection" was published in 2024.
+- **Source Agent(s):** C2
 
-### 145. Krikri: Advancing Open Large Language Models for Greek
-- **Authors:** Dimitris Roussis, Leon Voukoutis, Georgios Paraskevopoulos, Sokratis Sofianopoulos, Prokopis Prokopidis, Vassilis Papavasileiou, Athanasios Katsamanis, Stelios Piperidis, Vassilis Katsouros
-- **Year:** 2025
-- **arXiv:** [2505.13772](https://arxiv.org/abs/2505.13772)
-- **URL:** https://arxiv.org/abs/2505.13772
-- **Languages:** English, Greek
-- **Code/Data:** https://huggingface.co/ilsp/Llama-Krikri-8B-Base
-- **Abstract:** Llama-Krikri-8B is a next-generation Greek LLM based on Llama 3.1-8B, trained on 56.7B Greek tokens. Proposes three novel public benchmarks for Greek evaluation. Supports Modern Greek, English, polytonic text, and Ancient Greek. Shows notable improvements over comparable Greek and multilingual LLMs.
-- **Source Agent(s):** B9
-
-### 146. Plutus: Benchmarking Large Language Models in Low-Resource Greek Finance
-- **Authors:** Xueqing Peng, Triantafillos Papadopoulos, Efstathia Soufleri, Polydoros Giannouris, Ruoyu Xiang, Yan Wang, Lingfei Qian, Jimin Huang, Qianqian Xie, Sophia Ananiadou
-- **Year:** 2025
-- **arXiv:** [2502.18772](https://arxiv.org/abs/2502.18772)
-- **URL:** https://arxiv.org/abs/2502.18772
-- **Languages:** Greek
-- **Benchmark:** Plutus-ben
-- **Code/Data:** https://huggingface.co/collections/TheFinAI/plutus-benchmarking-greek-financial-llms-67bc718fb8d897c65f1e87db
-- **Abstract:** The first Greek Financial Evaluation Benchmark addressing five core financial NLP tasks: numeric and textual NER, QA, abstractive summarization, and topic classification. Comprehensive evaluation of 22 LLMs reveals that Greek financial NLP remains challenging. Includes Plutus-8B, the first Greek financial LLM.
-- **Source Agent(s):** B9
-
-### 147. GreekBarBench: A Challenging Benchmark for Free-Text Legal Reasoning and Citations
-- **Authors:** Odysseas S. Chlapanis, Dimitrios Galanis, Nikolaos Aletras, Ion Androutsopoulos
-- **Year:** 2025
-- **arXiv:** [2505.17267](https://arxiv.org/abs/2505.17267)
-- **URL:** https://arxiv.org/abs/2505.17267
-- **Languages:** Greek
-- **Benchmark:** GreekBarBench
-- **Code/Data:** https://huggingface.co/datasets/AUEB-NLP/greek-bar-bench
-- **Abstract:** A benchmark evaluating LLMs on legal questions from Greek Bar exams (2015-2024) across five legal areas, requiring citations to statutory articles and case facts. Uses a three-dimensional scoring system with LLM-as-a-judge approach. Evaluation of 13 proprietary and open-weight LLMs shows best models outperform average expert scores but fall short of 95th percentile.
-- **Source Agent(s):** B9
-
-### 148. The Large Language Model GreekLegalRoBERTa
-- **Authors:** Vasileios Saketos et al.
+### 168. A curated dataset for hate speech detection on social media text - PMC
+- **Authors:** Kajiwara
 - **Year:** 2024
-- **arXiv:** [2410.12852](https://arxiv.org/abs/2410.12852)
-- **URL:** https://arxiv.org/abs/2410.12852
-- **Languages:** Greek
-- **Abstract:** Four versions of RoBERTa-based language models trained on Greek legal and non-legal text. Surpasses performance of GreekLegalBERT and GreekBERT in NER and multi-class legal topic classification. Contribution to domain-specific NLP tasks in low-resource languages using modern NLP techniques.
-- **Source Agent(s):** B9
+- **URL:** https://pmc.ncbi.nlm.nih.gov/articles/PMC9807815/
+- **Languages:** Japanese
+- **Abstract:** I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled "Validating Pseudo-label Dataset for Japanese Hate Speech Detection" was published in 2024.
+- **Source Agent(s):** C2
 
-### 149. Open or Closed LLM for Lesser-Resourced Languages? Lessons from Greek
-- **Authors:** John Pavlopoulos, Juli Bakagianni, Kanella Pouli, Maria Gavriilidou
+### 169. INHS Newsletter May 2025 - The International Network for Hate ...
+- **Authors:** Kajiwara
 - **Year:** 2025
-- **arXiv:** [2501.12826](https://arxiv.org/abs/2501.12826)
-- **URL:** https://arxiv.org/abs/2501.12826
-- **Languages:** Greek
-- **Abstract:** Evaluates open-source (Llama-70b) and closed-source (GPT-4o mini) LLMs on seven core Greek NLP tasks. Reframes Authorship Attribution as a tool to assess potential data usage by LLMs in pre-training, with high 0-shot accuracy suggesting ethical implications for data provenance. Includes a legal NLP case study.
-- **Source Agent(s):** B9
+- **URL:** https://internationalhatestudies.com/wp-content/uploads/2025/05/104-INHS-Newsletter-May-2025.pdf
+- **Languages:** Japanese
+- **Benchmark:** INHS
+- **Abstract:** I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled "Validating Pseudo-label Dataset for Japanese Hate Speech Detection" was published in 2024.
+- **Source Agent(s):** C2
 
-### 150. Offensive Language Identification in Greek
-- **Authors:** Zeses Pitenis, Marcos Zampieri, Tharindu Ranasinghe
-- **Year:** 2020
-- **arXiv:** [2003.07459](https://arxiv.org/abs/2003.07459)
-- **URL:** https://aclanthology.org/2020.lrec-1.629/
-- **Languages:** Greek
-- **Benchmark:** OGTD
-- **Code/Data:** https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset
-- **Abstract:** Presents the first Greek annotated dataset for offensive language identification: the Offensive Greek Tweet Dataset (OGTD), containing 4,779 manually annotated Twitter posts. Evaluates several computational models from traditional ML to BERT and DistilBERT transformers.
-- **Source Agent(s):** B9
+### 170. Multiclass hate speech detection with an aggregated dataset | Natural Language Processing | Cambridge Core
+- **Authors:** Kajiwara
+- **Year:** 2024
+- **URL:** https://www.cambridge.org/core/journals/natural-language-processing/article/multiclass-hate-speech-detection-with-an-aggregated-dataset/2390980624C97F92CD264A67CFA6ACE2
+- **Languages:** Japanese
+- **Abstract:** I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled "Validating Pseudo-label Dataset for Japanese Hate Speech Detection" was published in 2024.
+- **Source Agent(s):** C2
 
-### 151. Multimodal Hate Speech Detection in Greek Social Media
-- **Authors:** Konstantinos Perifanos, Dionysis Goutsos
-- **Year:** 2021
-- **DOI:** [10.3390/mti5070034](https://doi.org/10.3390/mti5070034)
-- **URL:** https://www.mdpi.com/2414-4088/5/7/34
-- **Languages:** Greek
-- **Abstract:** Presents a multimodal approach to hate speech detection combining BERT and ResNet for hateful, xenophobic, and racist speech in Greek aimed at refugees and migrants. Includes a new dataset of 4,004 memes for detecting hate speech in Greek and a tweet classification dataset.
-- **Source Agent(s):** B9
+### 171. A comprehensive framework for multi-modal hate speech detection in social media using deep learning
+- **Authors:** Kajiwara
+- **Year:** 2024
+- **URL:** https://www.nature.com/articles/s41598-025-94069-z
+- **Languages:** Japanese
+- **Abstract:** I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled "Validating Pseudo-label Dataset for Japanese Hate Speech Detection" was published in 2024.
+- **Source Agent(s):** C2
 
-### 152. ETHOS: an Online Hate Speech Detection Dataset
-- **Authors:** Ioannis Mollas, Zoe Chrysopoulou, Stamatis Karlos, Grigorios Tsoumakas
-- **Year:** 2020
-- **arXiv:** [2006.08328](https://arxiv.org/abs/2006.08328)
-- **DOI:** [10.1007/s40747-021-00608-2](https://doi.org/10.1007/s40747-021-00608-2)
-- **URL:** https://arxiv.org/abs/2006.08328
+### 172. Advancing Hate Speech Detection with Transformers: Insights from the MetaHate
+- **Authors:** Kajiwara
+- **Year:** 2025
+- **arXiv:** [2508.04913](https://arxiv.org/abs/2508.04913)
+- **URL:** https://www.arxiv.org/pdf/2508.04913
+- **Languages:** Japanese
+- **Abstract:** I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled "Validating Pseudo-label Dataset for Japanese Hate Speech Detection" was published in 2024.
+- **Source Agent(s):** C2
+
+### 173. Hate Speech and Offensive Language Dataset
+- **Authors:** Kajiwara
+- **Year:** 2024
+- **URL:** https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset
+- **Languages:** Japanese
+- **Abstract:** I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled "Validating Pseudo-label Dataset for Japanese Hate Speech Detection" was published in 2024.
+- **Source Agent(s):** C2
+
+### 174. Beyond Traditional Classifiers: Evaluating Large Language Models for Robust Hate Speech Detection
+- **Authors:** Kajiwara
+- **Year:** 2024
+- **URL:** https://www.mdpi.com/2079-3197/13/8/196
+- **Languages:** Japanese
+- **Abstract:** I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled "Validating Pseudo-label Dataset for Japanese Hate Speech Detection" was published in 2024.
+- **Source Agent(s):** C2
+
+### 175. EnDive: A Cross-Dialect Benchmark for Fairness and Performance in Large Language Models
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2504.07100](https://arxiv.org/abs/2504.07100)
+- **URL:** https://arxiv.org/html/2504.07100
+- **Languages:** Arabic, English
+- **Benchmark:** EnDive
+- **Abstract:** Based on the search results, here's what I found regarding Dialectal Arabic NLP evaluation benchmarks and fairness in 2025: Key Developments Culture & Dialects is showing growing emphasis with 7 benchmarks in 2025 alone, reflecting recognition of cultural alignment importance. Important 2025 Benchmarks DialectalArabicMMLU: A detailed analysis of model behavior across dialects reveals substantial performance disparities and highlights the need for dialect-aware evaluation and traini
+- **Source Agent(s):** C2
+
+### 176. Dialectal substitution as an adversarial approach for evaluating Arabic NLP robustness
+- **Authors:** Adnan Masood, Ph
+- **Year:** 2025
+- **URL:** https://www.nature.com/articles/s41598-026-36252-4
+- **Languages:** Arabic, English
+- **Abstract:** Based on the search results, here's what recent research reveals about dialectal Arabic NLP evaluation benchmarks and bias: Key Findings on Benchmarking Dialectal Arabic A comprehensive survey analyzing 40+ evaluation benchmarks across NLP tasks, knowledge domains, cultural understanding, and specialized capabilities has revealed important insights about the field. Identified Critical Gaps The analysis reveals significant progress in benchmark diversity while identifying critical gaps:
+- **Source Agent(s):** C2, D3
+
+### 177. The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on Arabic Text
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2025.icnlsp-1.20.pdf
+- **Languages:** Arabic, English
+- **Abstract:** Based on the search results, here's what I found regarding Dialectal Arabic NLP evaluation benchmarks and fairness in 2025: Key Developments Culture & Dialects is showing growing emphasis with 7 benchmarks in 2025 alone, reflecting recognition of cultural alignment importance. Important 2025 Benchmarks DialectalArabicMMLU: A detailed analysis of model behavior across dialects reveals substantial performance disparities and highlights the need for dialect-aware evaluation and traini
+- **Source Agent(s):** C2
+
+### 178. Mind the Dialect: NLP Advancements Uncover Fairness ...
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2025.findings-emnlp.860.pdf
+- **Languages:** Arabic, English
+- **Abstract:** Based on the search results, here's what I found regarding Dialectal Arabic NLP evaluation benchmarks and fairness in 2025: Key Developments Culture & Dialects is showing growing emphasis with 7 benchmarks in 2025 alone, reflecting recognition of cultural alignment importance. Important 2025 Benchmarks DialectalArabicMMLU: A detailed analysis of model behavior across dialects reveals substantial performance disparities and highlights the need for dialect-aware evaluation and traini
+- **Source Agent(s):** C2
+
+### 179. Frontiers | Cross-dialectal Arabic translation: comparative analysis on large language models
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.3389/frai.2025.1661789/full](https://doi.org/10.3389/frai.2025.1661789/full)
+- **URL:** https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1661789/full
+- **Languages:** Arabic, English
+- **Abstract:** Based on the search results, here's what I found regarding Dialectal Arabic NLP evaluation benchmarks and fairness in 2025: Key Developments Culture & Dialects is showing growing emphasis with 7 benchmarks in 2025 alone, reflecting recognition of cultural alignment importance. Important 2025 Benchmarks DialectalArabicMMLU: A detailed analysis of model behavior across dialects reveals substantial performance disparities and highlights the need for dialect-aware evaluation and traini
+- **Source Agent(s):** C2
+
+### 180. DialectalArabicMMLU: Benchmarking Dialectal Capabilities in Arabic and Multilingual Language Models
+- **Authors:** Hunzalah Hassan
+- **Year:** 2025
+- **arXiv:** [2510.27543](https://arxiv.org/abs/2510.27543)
+- **URL:** https://arxiv.org/html/2510.27543
+- **Languages:** Arabic, English, Multilingual
+- **Benchmark:** DialectalArabicMMLU
+- **Abstract:** Based on the search results, here's what I found regarding Dialectal Arabic NLP evaluation benchmarks and fairness in 2025: Key Developments Culture & Dialects is showing growing emphasis with 7 benchmarks in 2025 alone, reflecting recognition of cultural alignment importance. Important 2025 Benchmarks DialectalArabicMMLU: A detailed analysis of model behavior across dialects reveals substantial performance disparities and highlights the need for dialect-aware evaluation and traini
+- **Source Agent(s):** C2
+
+### 181. A Survey of Code-switched Arabic NLP
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2025.coling-main.307.pdf
+- **Languages:** Arabic, Code-switching, English
+- **Abstract:** Based on the search results, here's what I found regarding Dialectal Arabic NLP evaluation benchmarks and fairness in 2025: Key Developments Culture & Dialects is showing growing emphasis with 7 benchmarks in 2025 alone, reflecting recognition of cultural alignment importance. Important 2025 Benchmarks DialectalArabicMMLU: A detailed analysis of model behavior across dialects reveals substantial performance disparities and highlights the need for dialect-aware evaluation and traini
+- **Source Agent(s):** C2
+
+### 182. Gender Bias in Natural Language Processing and Computer Vision: A Comparative Survey | ACM Computing Surveys
+- **Authors:** Yanaka et al.
+- **Year:** 2025
+- **DOI:** [10.1145/3700438](https://doi.org/10.1145/3700438)
+- **URL:** https://dl.acm.org/doi/10.1145/3700438
+- **Languages:** Arabic
+- **Abstract:** Based on the search results, I found relevant information about the ArGAN dataset. Here's what I found: ArGAN: Arabic Gender, Ability, and Nationality Dataset ArGAN is a dataset for evaluating biases in large language models, authored by Ranwa Aly, Yara Allam, Rana Gaber, and Christine Basta, and presented at the 6th Workshop on Gender Bias in Natural Language Processing (GeBNLP) in 2025.
+- **Source Agent(s):** C2
+
+### 183. On Evaluating and Mitigating Gender Biases in Multilingual ...
+- **Authors:** Ranwa Aly, Yara Allam, Rana Gaber
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2023.findings-acl.21.pdf
+- **Languages:** Arabic, Multilingual
+- **Abstract:** Based on the search results, I found relevant information about the ArGAN dataset. Here's what I found: ArGAN: Arabic Gender, Ability, and Nationality Dataset ArGAN is a dataset for evaluating biases in large language models, authored by Ranwa Aly, Yara Allam, Rana Gaber, and Christine Basta, and presented at the 6th Workshop on Gender Bias in Natural Language Processing (GeBNLP) in 2025.
+- **Source Agent(s):** C2
+
+### 184. Detecting gender bias in Arabic text through word embeddings | PLOS One
+- **Authors:** Ranwa Aly, Yara Allam, Rana Gaber
+- **Year:** 2025
+- **DOI:** [10.1371/journal.pone.0319301](https://doi.org/10.1371/journal.pone.0319301)
+- **URL:** https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0319301
+- **Languages:** Arabic
+- **Abstract:** Based on the search results, I found relevant information about the ArGAN dataset. Here's what I found: ArGAN: Arabic Gender, Ability, and Nationality Dataset ArGAN is a dataset for evaluating biases in large language models, authored by Ranwa Aly, Yara Allam, Rana Gaber, and Christine Basta, and presented at the 6th Workshop on Gender Bias in Natural Language Processing (GeBNLP) in 2025.
+- **Source Agent(s):** C2
+
+### 185. Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious
+- **Authors:** Islamic
+- **Year:** 2025
+- **URL:** https://ojs.aaai.org/index.php/AIES/article/download/36543/38681/40618
+- **Languages:** Arabic, English
+- **Abstract:** Based on the search results, I found several recent 2025 studies on religious bias in LLMs with focus on Arabic and Islamic topics: Key Benchmarks and Studies IslamTrust Benchmark: LLMs struggle significantly with Islamic values, exhibiting biases and misconceptions, with the best-performing model achieving only 66.5% overall alignment, with better performance in Arabic (71.43%) than English (61.58%). PalmX 2025 Shared Task: A benchmarking effort focused on the cultural competence o
+- **Source Agent(s):** C2
+
+### 186. Beyond Neutrality: A Comprehensive Approach of Religious Bias
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://dspace.bracu.ac.bd/xmlui/bitstream/handle/10361/27421/21201496,%2022101698,%2022101788,%2022101426_CSE.pdf?sequence=1&isAllowed=y
+- **Languages:** Arabic, English
+- **Abstract:** Based on the search results, I found several recent 2025 studies on religious bias in LLMs with focus on Arabic and Islamic topics: Key Benchmarks and Studies IslamTrust Benchmark: LLMs struggle significantly with Islamic values, exhibiting biases and misconceptions, with the best-performing model achieving only 66.5% overall alignment, with better performance in Arabic (71.43%) than English (61.58%). PalmX 2025 Shared Task: A benchmarking effort focused on the cultural competence o
+- **Source Agent(s):** C2
+
+### 187. John vs. Ahmed: Debate-Induced Bias in Multilingual LLMs
+- **Authors:** Anastasiia Demidova, Hanin Atwany, Nour Rabih, Sanad Sha
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2024.arabicnlp-1.18.pdf
+- **Languages:** Arabic, English, Multilingual
+- **Abstract:** Based on the search results, I found several recent 2025 studies on religious bias in LLMs with focus on Arabic and Islamic topics: Key Benchmarks and Studies IslamTrust Benchmark: LLMs struggle significantly with Islamic values, exhibiting biases and misconceptions, with the best-performing model achieving only 66.5% overall alignment, with better performance in Arabic (71.43%) than English (61.58%). PalmX 2025 Shared Task: A benchmarking effort focused on the cultural competence o
+- **Source Agent(s):** C2
+
+### 188. Hate speech detection with ADHAR: a multi-dialectal hate speech corpus in Arabic - PMC
+- **Authors:** Ranwa Aly, Yara Allam, Rana Gaber
+- **Year:** 2024
+- **URL:** https://pmc.ncbi.nlm.nih.gov/articles/PMC11170444/
+- **Languages:** Arabic, Egyptian Arabic, Gulf Arabic, Levantine, Maghrebi
+- **Abstract:** Based on the search results, here's what I found about the ADHAR multi-dialectal Arabic hate speech corpus: Overview ADHAR is a comprehensive multi-dialect, multi-category hate speech corpus for Arabic. The paper was published in Frontiers in Artificial Intelligence in May 2024.
+- **Source Agent(s):** C2
+
+### 189. A Web-Based Hate Speech Detection System for Dialectal Arabic
+- **Authors:** 
+- **Year:** 2024
+- **URL:** https://www.scitepress.org/Papers/2024/128120/128120.pdf
+- **Languages:** Arabic, Egyptian Arabic, Gulf Arabic, Levantine, Maghrebi
+- **Abstract:** Based on the search results, here's what I found about the ADHAR multi-dialectal Arabic hate speech corpus: Overview ADHAR is a comprehensive multi-dialect, multi-category hate speech corpus for Arabic. The paper was published in Frontiers in Artificial Intelligence in May 2024.
+- **Source Agent(s):** C2
+
+### 190. A Deep Learning Framework for Automatic Detection of Hate Speech Embedded in Arabic Tweets | Request PDF
+- **Authors:** 
+- **Year:** 2024
+- **URL:** https://www.researchgate.net/publication/349093400_A_Deep_Learning_Framework_for_Automatic_Detection_of_Hate_Speech_Embedded_in_Arabic_Tweets
+- **Languages:** Arabic, Egyptian Arabic, Gulf Arabic, Levantine, Maghrebi
+- **Abstract:** Based on the search results, here's what I found about the ADHAR multi-dialectal Arabic hate speech corpus: Overview ADHAR is a comprehensive multi-dialect, multi-category hate speech corpus for Arabic. The paper was published in Frontiers in Artificial Intelligence in May 2024.
+- **Source Agent(s):** C2
+
+### 191. Available hate speech datasets for Arabic. | Download Scientific Diagram
+- **Authors:** 
+- **Year:** 2024
+- **URL:** https://www.researchgate.net/figure/Available-hate-speech-datasets-for-Arabic_tbl1_381031629
+- **Languages:** Arabic, Egyptian Arabic, Gulf Arabic, Levantine, Maghrebi
+- **Abstract:** Based on the search results, here's what I found about the ADHAR multi-dialectal Arabic hate speech corpus: Overview ADHAR is a comprehensive multi-dialect, multi-category hate speech corpus for Arabic. The paper was published in Frontiers in Artificial Intelligence in May 2024.
+- **Source Agent(s):** C2
+
+### 192. A survey on moral foundation theory and pre-trained language models: current advances and challenges | AI & SOCIETY
+- **Authors:** 
+- **Year:** 2024
+- **DOI:** [10.1007/s00146-025-02225-w](https://doi.org/10.1007/s00146-025-02225-w)
+- **URL:** https://link.springer.com/article/10.1007/s00146-025-02225-w
+- **Languages:** Japanese
+- **Abstract:** Based on the web search results, I found several relevant studies on Japanese moral judgment, cultural norms, and LLM benchmarking from 2024-2025: Key Research Findings Cultural Moral Norms and LLM Benchmarking: Research examines cultural variations using well-known cross-cultural datasets including the World Values Survey (WVS) and the Pew Research Center survey, which includes a module on moral issues across many countries. These surveys offer a detailed view of global moral and cult
+- **Source Agent(s):** C2
+
+### 193. Benchmarking LLM Fairness: Multi- Agent Evaluators for ...
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.preprints.org/manuscript/202512.1084/v1/download
+- **Languages:** English, Japanese, Multilingual
+- **Abstract:** Based on the web search results, I found some relevant information about Japanese LLM evaluation: The Open Japanese LLM Leaderboard evaluates Japanese LLMs using a specialized evaluation suite (llm-jp-eval) covering 16 tasks, and was built by the LLM-jp project, a cross-organizational initiative for the research and development of Japanese large language models in partnership with Hugging Face. However, the search results don't show a specific benchmark dedicated to fairness evaluation focusing
+- **Source Agent(s):** C2, D1
+
+### 194. A Survey on LLM-as-a-Judge
+- **Authors:** 
+- **Year:** 2024
+- **arXiv:** [2411.15594](https://arxiv.org/abs/2411.15594)
+- **URL:** https://arxiv.org/html/2411.15594v6
+- **Languages:** English, Japanese
+- **Abstract:** Based on the web search results, I found some relevant information about Japanese LLM evaluation: The Open Japanese LLM Leaderboard evaluates Japanese LLMs using a specialized evaluation suite (llm-jp-eval) covering 16 tasks, and was built by the LLM-jp project, a cross-organizational initiative for the research and development of Japanese large language models in partnership with Hugging Face. However, the search results don't show a specific benchmark dedicated to fairness evaluation focusing
+- **Source Agent(s):** C2
+
+### 195. A Systematic Study of Position Bias in LLM-as-a-Judge
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2025.ijcnlp-long.18.pdf
+- **Languages:** English, Japanese
+- **Abstract:** Based on the web search results, I found some relevant information about Japanese LLM evaluation: The Open Japanese LLM Leaderboard evaluates Japanese LLMs using a specialized evaluation suite (llm-jp-eval) covering 16 tasks, and was built by the LLM-jp project, a cross-organizational initiative for the research and development of Japanese large language models in partnership with Hugging Face. However, the search results don't show a specific benchmark dedicated to fairness evaluation focusing
+- **Source Agent(s):** C2
+
+### 196. dblp: ArabicNLP 2024
+- **Authors:** Anastasiia Demidova, Hanin Atwany, Nour Rabih, Sanad Sha
+- **Year:** 2024
+- **URL:** https://dblp.org/db/conf/wanlp/arabicnlp2024.html
+- **Languages:** Arabic, English, Multilingual
+- **Benchmark:** dblp
+- **Abstract:** I found relevant information about the "John vs. Ahmed: Debate-Induced Bias in Multilingual LLMs" paper.
+- **Source Agent(s):** C2
+
+### 197. AraLingBench A Human-Annotated Benchmark for Evaluating Arabic Linguistic Capabilities of Large Language Models
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2511.14295](https://arxiv.org/abs/2511.14295)
+- **URL:** https://arxiv.org/html/2511.14295
+- **Languages:** Arabic
+- **Benchmark:** AraLingBench
+- **Abstract:** Based on the search results, I found relevant information about the benchmark you're asking about: GPT-4o and ALLaM were benchmarked on Maliki Fiqh using 550 curated questions across three domains, highlighting gaps in adherence to established Fiqhi rules. The study revealed several key findings: 1.
+- **Source Agent(s):** C2
+
+### 198. Arabic LLMs for Banking, Telecom and Government in GCC - 2026
+- **Authors:** 
+- **Year:** 2026
+- **URL:** https://makitsol.com/arabic-llms-for-banking-telecom-and-government-in-gcc/
+- **Languages:** Arabic
+- **Abstract:** Based on the search results, I found relevant information about the benchmark you're asking about: GPT-4o and ALLaM were benchmarked on Maliki Fiqh using 550 curated questions across three domains, highlighting gaps in adherence to established Fiqhi rules. The study revealed several key findings: 1.
+- **Source Agent(s):** C2
+
+### 199. ALLaM: A Series of Large Language Models for Arabic and English
+- **Authors:** Islamic
+- **Year:** 2025
+- **URL:** https://openreview.net/pdf?id=q9kPg2ndg2
+- **Languages:** Arabic, English
+- **Benchmark:** ALLaM
+- **Abstract:** Based on the search results, I found relevant information about the benchmark you're asking about: GPT-4o and ALLaM were benchmarked on Maliki Fiqh using 550 curated questions across three domains, highlighting gaps in adherence to established Fiqhi rules. The study revealed several key findings: 1.
+- **Source Agent(s):** C2
+
+### 200. Multilingual NLP: Code-Switching, Variants & Dialects | Appen
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.appen.com/blog/emnlp-2025-multilingual-nlp
+- **Languages:** Arabic, Code-switching, Maghrebi, Multilingual
+- **Abstract:** Based on the search results, I found information about the "Mind the Dialect" paper presented at EMNLP 2025: Paper Overview The paper "Mind the Dialect: NLP Advancements Uncover Fairness Disparities" was published in the Findings of the Association for Computational Linguistics: EMNLP 2025, November 4-9, 2025. Key Findings The research focuses on fairness disparities in NLP systems when processing Arabic language variants.
+- **Source Agent(s):** C2
+
+### 201. ArabicNLP 2025
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://arabicnlp2025.sigarab.org/
+- **Languages:** Arabic, Maghrebi
+- **Abstract:** Based on the search results, I found information about the "Mind the Dialect" paper presented at EMNLP 2025: Paper Overview The paper "Mind the Dialect: NLP Advancements Uncover Fairness Disparities" was published in the Findings of the Association for Computational Linguistics: EMNLP 2025, November 4-9, 2025. Key Findings The research focuses on fairness disparities in NLP systems when processing Arabic language variants.
+- **Source Agent(s):** C2
+
+### 202. SIGARAB - Arabic NLP Archives
+- **Authors:** Anastasiia Demidova, Hanin Atwany, Nour Rabih, Sanad Sha
+- **Year:** 2025
+- **URL:** https://www.sigarab.org/arabic-nlp-archives
+- **Languages:** Arabic, Maghrebi
+- **Benchmark:** SIGARAB
+- **Abstract:** Based on the search results, I found information about the "Mind the Dialect" paper presented at EMNLP 2025: Paper Overview The paper "Mind the Dialect: NLP Advancements Uncover Fairness Disparities" was published in the Findings of the Association for Computational Linguistics: EMNLP 2025, November 4-9, 2025. Key Findings The research focuses on fairness disparities in NLP systems when processing Arabic language variants.
+- **Source Agent(s):** C2
+
+### 203. XIFBench: Evaluating Large Language Models on
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://openreview.net/pdf/da14c5ecc0ecf18bfb2f9ccbd84f45422a3077fb.pdf
+- **Languages:** Multilingual
+- **Benchmark:** XIFBench
+- **Abstract:** Here are the key findings from the search on cross-cultural LLM evaluation benchmarks and multilingual assessment: Major Benchmarks MMLU-ProX is a comprehensive benchmark covering 29 languages, with each language version consisting of 11,829 identical questions, enabling direct cross-linguistic comparisons. XIFBench is a constraint-based benchmark for evaluating multilingual instruction-following abilities of LLMs, comprising 558 instructions with 0-5 additional constraints across f
+- **Source Agent(s):** D1
+
+### 204. Multilingual Multicultural Evaluation Workshop
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://multilingual-multicultural-evaluation.github.io/
+- **Languages:** Arabic, English, Multilingual, Turkish
+- **Abstract:** Based on the search results, I found several significant multilingual LLM benchmarks that evaluate cultural values across 5+ languages: Key Multilingual Cultural Values Benchmarks MENAValues Benchmark MENAValues is a novel benchmark designed to evaluate the cultural alignment and multilingual biases of large language models (LLMs) with respect to the beliefs and values of the Middle East and North Africa (MENA) region. The benchmark evaluates diverse models across multiple conditions f
+- **Source Agent(s):** D1
+
+### 205. FairEval: Evaluating Fairness in LLM-Based ...
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://hal.science/hal-05031750v1/file/FairEval_Evaluating%20Fairness%20in%20LLM-Based%20Recommendations%20with%20Personality%20Awareness.pdf
+- **Languages:** English, Multilingual
+- **Benchmark:** FairEval
+- **Abstract:** I've completed the web search for "multilingual bias fairness evaluation LLM benchmark". Here's a summary of the key findings: Key Research Areas The literature includes a comprehensive survey of bias evaluation and mitigation techniques for LLMs, with multiple components: Bias Evaluation Frameworks: The research proposes taxonomies for bias evaluation covering metrics and datasets, and mitigation techniques.
+- **Source Agent(s):** D1
+
+### 206. On the Challenges of Bias Evaluation Under Multilingual ...
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2022.bigscience-1.3.pdf
+- **Languages:** English, Multilingual
+- **Abstract:** I've completed the web search for "multilingual bias fairness evaluation LLM benchmark". Here's a summary of the key findings: Key Research Areas The literature includes a comprehensive survey of bias evaluation and mitigation techniques for LLMs, with multiple components: Bias Evaluation Frameworks: The research proposes taxonomies for bias evaluation covering metrics and datasets, and mitigation techniques.
+- **Source Agent(s):** D1
+
+### 207. A Leaderboard to Benchmark Ethical Biases in LLMs
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://ceur-ws.org/Vol-3744/paper1.pdf
+- **Languages:** English, Multilingual
+- **Abstract:** I've completed the web search for "multilingual bias fairness evaluation LLM benchmark". Here's a summary of the key findings: Key Research Areas The literature includes a comprehensive survey of bias evaluation and mitigation techniques for LLMs, with multiple components: Bias Evaluation Frameworks: The research proposes taxonomies for bias evaluation covering metrics and datasets, and mitigation techniques.
+- **Source Agent(s):** D1
+
+### 208. Rethinking Hate Speech Detection on Social Media: Can LLMs Replace Traditional Models?
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2506.12744](https://arxiv.org/abs/2506.12744)
+- **URL:** https://arxiv.org/html/2506.12744v1
+- **Languages:** Multilingual
+- **Abstract:** Based on the search results, here are the key multilingual AI safety benchmarks for toxicity and hate speech: Multilingual Toxicity and Hate Speech Benchmarks PolygloToxicityPrompts: A dataset of 425K naturally-occurring prompts across 17 languages with varying degrees of toxicity. This research studies how large language models generate toxicity in multiple languages, how toxicity varies across differently-resourced languages, and how design decisions like model size and alignment meth
+- **Source Agent(s):** D1
+
+### 209. MUST: An Explainable AI-Based Framework for Multilingual Hate Speech Detection | IEEE Journals & Magazine | IEEE Xplore
+- **Authors:** Dan Hendrycks
+- **Year:** 2025
+- **URL:** https://ieeexplore.ieee.org/document/11230346/
+- **Languages:** Multilingual
+- **Benchmark:** MUST
+- **Abstract:** Based on the search results, here are the key multilingual AI safety benchmarks for toxicity and hate speech: Multilingual Toxicity and Hate Speech Benchmarks PolygloToxicityPrompts: A dataset of 425K naturally-occurring prompts across 17 languages with varying degrees of toxicity. This research studies how large language models generate toxicity in multiple languages, how toxicity varies across differently-resourced languages, and how design decisions like model size and alignment meth
+- **Source Agent(s):** D1
+
+### 210. Analyzing Bias in False Refusal Behavior of Large Language Models for Hate Speech Detoxification
+- **Authors:** 
+- **Year:** 2026
+- **arXiv:** [2601.08668](https://arxiv.org/abs/2601.08668)
+- **URL:** https://arxiv.org/html/2601.08668
+- **Languages:** Multilingual
+- **Abstract:** Based on the search results, here are the key multilingual AI safety benchmarks for toxicity and hate speech: Multilingual Toxicity and Hate Speech Benchmarks PolygloToxicityPrompts: A dataset of 425K naturally-occurring prompts across 17 languages with varying degrees of toxicity. This research studies how large language models generate toxicity in multiple languages, how toxicity varies across differently-resourced languages, and how design decisions like model size and alignment meth
+- **Source Agent(s):** D1
+
+### 211. A Large Language Model-Based Approach for Multilingual Hate Speech Detection on Social Media
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.mdpi.com/2073-431X/14/7/279
+- **Languages:** Multilingual
+- **Abstract:** Based on the search results, here are the key multilingual AI safety benchmarks for toxicity and hate speech: Multilingual Toxicity and Hate Speech Benchmarks PolygloToxicityPrompts: A dataset of 425K naturally-occurring prompts across 17 languages with varying degrees of toxicity. This research studies how large language models generate toxicity in multiple languages, how toxicity varies across differently-resourced languages, and how design decisions like model size and alignment meth
+- **Source Agent(s):** D1
+
+### 212. Towards Safer AI Moderation: Evaluating LLM Moderators Through a Unified Benchmark Dataset and Advocating a Human-First Approach
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2508.07063](https://arxiv.org/abs/2508.07063)
+- **URL:** https://arxiv.org/html/2508.07063v1
+- **Languages:** Multilingual
+- **Abstract:** Based on the search results, here are the key multilingual AI safety benchmarks for toxicity and hate speech: Multilingual Toxicity and Hate Speech Benchmarks PolygloToxicityPrompts: A dataset of 425K naturally-occurring prompts across 17 languages with varying degrees of toxicity. This research studies how large language models generate toxicity in multiple languages, how toxicity varies across differently-resourced languages, and how design decisions like model size and alignment meth
+- **Source Agent(s):** D1
+
+### 213. Improving hate speech detection using Cross-Lingual Learning - ScienceDirect
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.sciencedirect.com/science/article/abs/pii/S0957417423016172
+- **Languages:** English, Multilingual
+- **Abstract:** Based on the web search results, here's what I found about multilingual hate speech detection datasets and cross-lingual benchmarks: Key Research Areas Recent research proposes novel methods for detecting hate speech in texts using Cross-Lingual Learning, which uses transfer learning from Pre-Trained Language Models with large corpora available to solve problems in languages with fewer resources for the specific task. Notable Datasets and Benchmarks The Hate Speech Dataset Catalogue inc
+- **Source Agent(s):** D1
+
+### 214. Cross-lingual hate speech detection using domain-specific word embeddings | PLOS One
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.1371/journal.pone.0306521](https://doi.org/10.1371/journal.pone.0306521)
+- **URL:** https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306521
+- **Languages:** English, Multilingual
+- **Abstract:** Based on the web search results, here's what I found about multilingual hate speech detection datasets and cross-lingual benchmarks: Key Research Areas Recent research proposes novel methods for detecting hate speech in texts using Cross-Lingual Learning, which uses transfer learning from Pre-Trained Language Models with large corpora available to solve problems in languages with fewer resources for the specific task. Notable Datasets and Benchmarks The Hate Speech Dataset Catalogue inc
+- **Source Agent(s):** D1
+
+### 215. HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://cdn.aaai.org/ojs/17745/17745-13-21239-1-2-20210518.pdf
+- **Languages:** English, Multilingual
+- **Benchmark:** HateXplain
+- **Abstract:** Based on the web search results, here's what I found about multilingual hate speech detection datasets and cross-lingual benchmarks: Key Research Areas Recent research proposes novel methods for detecting hate speech in texts using Cross-Lingual Learning, which uses transfer learning from Pre-Trained Language Models with large corpora available to solve problems in languages with fewer resources for the specific task. Notable Datasets and Benchmarks The Hate Speech Dataset Catalogue inc
+- **Source Agent(s):** D1
+
+### 216. A comprehensive review on detection of hate speech for multi-lingual data | Social Network Analysis and Mining
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.1007/s13278-024-01401-y](https://doi.org/10.1007/s13278-024-01401-y)
+- **URL:** https://link.springer.com/article/10.1007/s13278-024-01401-y
+- **Languages:** English, Multilingual
+- **Abstract:** Based on the web search results, here's what I found about multilingual hate speech detection datasets and cross-lingual benchmarks: Key Research Areas Recent research proposes novel methods for detecting hate speech in texts using Cross-Lingual Learning, which uses transfer learning from Pre-Trained Language Models with large corpora available to solve problems in languages with fewer resources for the specific task. Notable Datasets and Benchmarks The Hate Speech Dataset Catalogue inc
+- **Source Agent(s):** D1
+
+### 217. Enhancing Multilingual Hate Speech Detection: From Language-Specific Insights to Cross-Linguistic Integration
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.researchgate.net/publication/383673931_Enhancing_Multilingual_Hate_Speech_Detection_From_Language-Specific_Insights_to_Cross-Linguistic_Integration
+- **Languages:** English, Multilingual
+- **Abstract:** Based on the web search results, here's what I found about multilingual hate speech detection datasets and cross-lingual benchmarks: Key Research Areas Recent research proposes novel methods for detecting hate speech in texts using Cross-Lingual Learning, which uses transfer learning from Pre-Trained Language Models with large corpora available to solve problems in languages with fewer resources for the specific task. Notable Datasets and Benchmarks The Hate Speech Dataset Catalogue inc
+- **Source Agent(s):** D1
+
+### 218. A survey on multi-lingual offensive language detection - PMC
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://pmc.ncbi.nlm.nih.gov/articles/PMC11042037/
+- **Languages:** English, Multilingual
+- **Abstract:** Based on the web search results, here's what I found about multilingual hate speech detection datasets and cross-lingual benchmarks: Key Research Areas Recent research proposes novel methods for detecting hate speech in texts using Cross-Lingual Learning, which uses transfer learning from Pre-Trained Language Models with large corpora available to solve problems in languages with fewer resources for the specific task. Notable Datasets and Benchmarks The Hate Speech Dataset Catalogue inc
+- **Source Agent(s):** D1
+
+### 219. Data-Efficient Hate Speech Detection via Cross-Lingual ...
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2505.14272](https://arxiv.org/abs/2505.14272)
+- **URL:** https://arxiv.org/pdf/2505.14272
+- **Languages:** English, Multilingual
+- **Benchmark:** Data-Efficient
+- **Abstract:** Based on the web search results, here's what I found about multilingual hate speech detection datasets and cross-lingual benchmarks: Key Research Areas Recent research proposes novel methods for detecting hate speech in texts using Cross-Lingual Learning, which uses transfer learning from Pre-Trained Language Models with large corpora available to solve problems in languages with fewer resources for the specific task. Notable Datasets and Benchmarks The Hate Speech Dataset Catalogue inc
+- **Source Agent(s):** D1
+
+### 220. Cross-lingual Capsule Network for Hate Speech Detection in Social Media | Proceedings of the 32nd ACM Conference on Hypertext and Social Media
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.1145/3465336.3475102](https://doi.org/10.1145/3465336.3475102)
+- **URL:** https://dl.acm.org/doi/10.1145/3465336.3475102
+- **Languages:** English, Multilingual
+- **Abstract:** Based on the web search results, here's what I found about multilingual hate speech detection datasets and cross-lingual benchmarks: Key Research Areas Recent research proposes novel methods for detecting hate speech in texts using Cross-Lingual Learning, which uses transfer learning from Pre-Trained Language Models with large corpora available to solve problems in languages with fewer resources for the specific task. Notable Datasets and Benchmarks The Hate Speech Dataset Catalogue inc
+- **Source Agent(s):** D1
+
+### 221. Multi-lingual HateSpeech Dataset
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.kaggle.com/datasets/wajidhassanmoosa/multilingual-hatespeech-dataset
+- **Languages:** English, Multilingual
+- **Abstract:** Based on the web search results, here's what I found about multilingual hate speech detection datasets and cross-lingual benchmarks: Key Research Areas Recent research proposes novel methods for detecting hate speech in texts using Cross-Lingual Learning, which uses transfer learning from Pre-Trained Language Models with large corpora available to solve problems in languages with fewer resources for the specific task. Notable Datasets and Benchmarks The Hate Speech Dataset Catalogue inc
+- **Source Agent(s):** D1
+
+### 222. Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and Governance | Philosophy & Technology | Springer Nature Link
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.1007/s13347-020-00402-x](https://doi.org/10.1007/s13347-020-00402-x)
+- **URL:** https://link.springer.com/article/10.1007/s13347-020-00402-x
+- **Languages:** Arabic, English, Multilingual, Turkish
+- **Abstract:** Based on the search results, here's what I found about cross-cultural AI ethics benchmarks and multilingual assessment: Recent Benchmarks and Research MENAValues is a novel benchmark designed to evaluate the cultural alignment and multilingual biases of large language models (LLMs) with respect to the beliefs and values of the Middle East and North Africa (MENA) region. It draws from large-scale, authoritative human surveys to curate a structured dataset that captures the sociocultural land
+- **Source Agent(s):** D1
+
+### 223. SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models | Montreal AI Ethics Institute
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://montrealethics.ai/towards-a-multilingual-assessment-of-stereotypes-in-large-language-models/
+- **Languages:** Arabic, English, Multilingual, Turkish
+- **Benchmark:** SHADES
+- **Abstract:** Based on the search results, here's what I found about cross-cultural AI ethics benchmarks and multilingual assessment: Recent Benchmarks and Research MENAValues is a novel benchmark designed to evaluate the cultural alignment and multilingual biases of large language models (LLMs) with respect to the beliefs and values of the Middle East and North Africa (MENA) region. It draws from large-scale, authoritative human surveys to curate a structured dataset that captures the sociocultural land
+- **Source Agent(s):** D1
+
+### 224. Cross-Cultural Challenges to Artificial Intelligence Ethics
+- **Authors:** Hadi Mohammadi, Yasmeen
+- **Year:** 2025
+- **URL:** https://www.mdpi.com/2813-0324/8/1/21
+- **Languages:** Arabic, English, Multilingual, Turkish
+- **Benchmark:** Cross-Cultural
+- **Abstract:** Based on the search results, here's what I found about cross-cultural AI ethics benchmarks and multilingual assessment: Recent Benchmarks and Research MENAValues is a novel benchmark designed to evaluate the cultural alignment and multilingual biases of large language models (LLMs) with respect to the beliefs and values of the Middle East and North Africa (MENA) region. It draws from large-scale, authoritative human surveys to curate a structured dataset that captures the sociocultural land
+- **Source Agent(s):** D1
+
+### 225. Exploring cultural commonsense in multilingual large language models: A survey - Beijing Institute of Technology
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://pure.bit.edu.cn/en/publications/exploring-cultural-commonsense-in-multilingual-large-language-mod/
+- **Languages:** Arabic, English, Multilingual, Turkish
+- **Abstract:** Based on the search results, here's what I found about cross-cultural AI ethics benchmarks and multilingual assessment: Recent Benchmarks and Research MENAValues is a novel benchmark designed to evaluate the cultural alignment and multilingual biases of large language models (LLMs) with respect to the beliefs and values of the Middle East and North Africa (MENA) region. It draws from large-scale, authoritative human surveys to curate a structured dataset that captures the sociocultural land
+- **Source Agent(s):** D1
+
+### 226. How Well Do LLMs Represent Values Across Cultures?
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://kdd-eval-workshop.github.io/genai-evaluation-kdd2025/assets/papers/Submission%2018.pdf
+- **Languages:** Multilingual
+- **Abstract:** Based on the search results, I found several relevant research papers and projects on World Values Survey LLM evaluation in multilingual contexts: Key Research Areas Multilingual and Multicultural LLM Evaluation: Increased multilingual capabilities do not guarantee improved cultural alignment in Large Language Models, with the relationship between improvements in multilingual capability and cultural alignment being complex. One evaluation framework enables principled statistical compar
+- **Source Agent(s):** D1
+
+### 227. Subjective Values
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://llmglobalvalues.anthropic.com/
+- **Languages:** Multilingual
+- **Abstract:** Based on the search results, I found several relevant research papers and projects on World Values Survey LLM evaluation in multilingual contexts: Key Research Areas Multilingual and Multicultural LLM Evaluation: Increased multilingual capabilities do not guarantee improved cultural alignment in Large Language Models, with the relationship between improvements in multilingual capability and cultural alignment being complex. One evaluation framework enables principled statistical compar
+- **Source Agent(s):** D1
+
+### 228. Jigsaw Multilingual Toxic Comment Classification
+- **Authors:** Jigsaw
+- **Year:** 2025
+- **URL:** https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification
+- **Languages:** English, Multilingual
+- **Abstract:** Based on the search results, here's what I found about the multilingual toxicity benchmark from Jigsaw: Overview The Conversation AI team, a research initiative founded by Jigsaw and Google, builds technology to protect voices in conversation, with a main area of focus on machine learning models that can identify toxicity in online conversations, where toxicity is defined as anything rude, disrespectful or otherwise likely to make someone leave a discussion. The Multilingual Challenge T
+- **Source Agent(s):** D1
+
+### 229. Leveraging Machine Translation for Cross-Lingual Toxicity ...
+- **Authors:** Jigsaw
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2025.wmt-1.15.pdf
+- **Languages:** English, Multilingual
+- **Abstract:** Based on the search results, here's what I found about the multilingual toxicity benchmark from Jigsaw: Overview The Conversation AI team, a research initiative founded by Jigsaw and Google, builds technology to protect voices in conversation, with a main area of focus on machine learning models that can identify toxicity in online conversations, where toxicity is defined as anything rude, disrespectful or otherwise likely to make someone leave a discussion. The Multilingual Challenge T
+- **Source Agent(s):** D1
+
+### 230. A New Generation of Perspective API: Efficient Multilingual ...
+- **Authors:** Jigsaw
+- **Year:** 2025
+- **DOI:** [10.1145/3534678.3539147](https://doi.org/10.1145/3534678.3539147)
+- **URL:** https://dl.acm.org/doi/pdf/10.1145/3534678.3539147
+- **Languages:** English, Multilingual
+- **Abstract:** Based on the search results, here's what I found about the multilingual toxicity benchmark from Jigsaw: Overview The Conversation AI team, a research initiative founded by Jigsaw and Google, builds technology to protect voices in conversation, with a main area of focus on machine learning models that can identify toxicity in online conversations, where toxicity is defined as anything rude, disrespectful or otherwise likely to make someone leave a discussion. The Multilingual Challenge T
+- **Source Agent(s):** D1
+
+### 231. Scaling the Multilingual Capability of LLMs with Cross- ...
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2024.findings-acl.488.pdf
+- **Languages:** Chinese, English, Multilingual
+- **Abstract:** Based on the search results, here's what I found about cross-lingual transfer moral reasoning LLM benchmarks: Key Research and Benchmarks A recent study tested 13 LLMs on Western (AITA) and Chinese (CMoral) datasets, revealing behavioral differences invisible to standard evaluation. Current safety evaluations assume that if a model handles a moral scenario correctly in English, it will handle the translation correctly too, but this assumption is dangerous.
+- **Source Agent(s):** D1
+
+### 232. Cross-Lingual Fact Verification: Analyzing LLM Performance ...
+- **Authors:** Language Models
+- **Year:** 2025
+- **URL:** https://acl-bg.org/proceedings/2025/RANLP%202025/pdf/2025.ranlp-1.131.pdf
+- **Languages:** Chinese, English, Multilingual
+- **Benchmark:** Cross-Lingual
+- **Abstract:** Based on the search results, here's what I found about cross-lingual transfer moral reasoning LLM benchmarks: Key Research and Benchmarks A recent study tested 13 LLMs on Western (AITA) and Chinese (CMoral) datasets, revealing behavioral differences invisible to standard evaluation. Current safety evaluations assume that if a model handles a moral scenario correctly in English, it will handle the translation correctly too, but this assumption is dangerous.
+- **Source Agent(s):** D1
+
+### 233. SHADES: A New Multilingual Benchmark for Stereotypes Bias in Large Language Models (2025) – AI Advisory Boards
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://aiadvisoryboards.wordpress.com/2025/05/02/shades-a-new-multilingual-benchmark-for-stereotypes-bias-in-large-language-models-2025/
+- **Languages:** English, Multilingual
+- **Benchmark:** SHADES
+- **Abstract:** Here's what I found about SHADES multilingual stereotypes LLM benchmark assessment: Overview SHADES is a multilingual parallel dataset designed for examining culturally-specific stereotypes that may be learned by LLMs. While LLMs reproduce and exacerbate social biases present in their training data, most bias research efforts have been concentrated around English.
+- **Source Agent(s):** D1
+
+### 234. Towards Measuring the Representation of Subjective Global Opinions in Language Models \ Anthropic
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models
 - **Languages:** English
-- **Benchmark:** ETHOS
-- **Code/Data:** https://huggingface.co/datasets/iamollas/ethos
-- **Abstract:** A textual dataset with binary and multi-label variants for hate speech detection, based on YouTube and Reddit comments. Contains 998 comments with labels about hate speech presence or absence. By Greek researchers at Aristotle University of Thessaloniki.
-- **Source Agent(s):** B9
+- **Abstract:** Based on the search results, here's what I found about the Anthropic LLM global opinions dataset related to the World Values Survey: Overview Anthropic uses the LLM Global Opinions dataset to analyze the opinions that large language models reflect on complex global issues, with the goal of gaining insights into potential biases in AI systems by evaluating their performance on subjective topics. Research Framework Large language models may not equitably represent diverse global perspecti
+- **Source Agent(s):** D1
 
-### 153. GREEK-BERT: The Greeks visiting Sesame Street
-- **Authors:** John Koutsikakis, Ilias Chalkidis, Prodromos Malakasiotis, Ion Androutsopoulos
-- **Year:** 2020
-- **DOI:** [10.1145/3411408.3411440](https://doi.org/10.1145/3411408.3411440)
-- **URL:** https://dl.acm.org/doi/10.1145/3411408.3411440
-- **Languages:** Greek
-- **Code/Data:** https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1
-- **Abstract:** A monolingual BERT-based language model for modern Greek, evaluated on three NLP tasks including POS tagging, NER, and NLI. Foundation model for downstream Greek NLP tasks including bias evaluation.
-- **Source Agent(s):** B9
-
-### 154. GeoLogicQA: A Benchmark for Evaluating Logical Reasoning in Georgian for Large Language Models
-- **Authors:** Irakli Koberidze, Archil Elizbarashvili, Magda Tsintsadze
+### 235. On the Alignment of Large Language Models with Global Human Opinion
+- **Authors:** 
 - **Year:** 2025
-- **URL:** https://aclanthology.org/2025.lowresnlp-1.13.pdf
-- **Languages:** Georgian
-- **Benchmark:** GeoLogicQA
-- **Abstract:** A curated benchmark of 100 questions for evaluating logical reasoning capabilities of LLMs in Georgian, a Kartvelian language. Addresses the gap in evaluation benchmarks for Georgian as a low-resource language. Published at the 1st Workshop on Advancing NLP for Low-Resource Languages (RANLP 2025).
-- **Source Agent(s):** B9
+- **arXiv:** [2509.01418](https://arxiv.org/abs/2509.01418)
+- **URL:** https://arxiv.org/html/2509.01418
+- **Languages:** English
+- **Abstract:** Based on the search results, here's what I found about the Anthropic LLM global opinions dataset related to the World Values Survey: Overview Anthropic uses the LLM Global Opinions dataset to analyze the opinions that large language models reflect on complex global issues, with the goal of gaining insights into potential biases in AI systems by evaluating their performance on subjective topics. Research Framework Large language models may not equitably represent diverse global perspecti
+- **Source Agent(s):** D1
 
-### 155. ArmBench-LLM: A Benchmark for Evaluating Large Language Models on Armenian Language Tasks
-- **Authors:** Metric AI Research Lab
+### 236. Tokenising culture: causes and consequences of cultural misalignment in large language models | Ada Lovelace Institute
+- **Authors:** 
 - **Year:** 2025
-- **URL:** https://metric.am/blog/introducing-armbench-llm/
-- **Languages:** Armenian
-- **Benchmark:** ArmBench-LLM
-- **Code/Data:** https://huggingface.co/spaces/metric-am/ArmBench-LLM
-- **Abstract:** The first benchmark specifically designed to evaluate LLMs on Armenian language tasks. Features Armenian university entrance exams in Literature, Language, History, and Mathematics, plus 1,000 MMLU questions translated and post-processed into Armenian. Claude 3.7 Sonnet leads overall, Gemini 2.0 Flash leads MMLU-Pro-Hy.
-- **Source Agent(s):** B9
+- **URL:** https://www.adalovelaceinstitute.org/blog/cultural-misalignment-llms/
+- **Languages:** English
+- **Abstract:** Based on the search results, here's what I found about the Anthropic LLM global opinions dataset related to the World Values Survey: Overview Anthropic uses the LLM Global Opinions dataset to analyze the opinions that large language models reflect on complex global issues, with the goal of gaining insights into potential biases in AI systems by evaluating their performance on subjective topics. Research Framework Large language models may not equitably represent diverse global perspecti
+- **Source Agent(s):** D1
 
-### 156. Large Language Models and Low-Resource Languages: An Examination of Armenian NLP
-- **Authors:** Hayastan Avetisyan, David Broneske
-- **Year:** 2023
-- **URL:** https://aclanthology.org/2023.findings-ijcnlp.18/
-- **Languages:** Armenian
-- **Abstract:** Examines how effectively LLMs process Armenian by evaluating performance across extractive QA, reasoning, and knowledge access tasks. Finds that while GPT handles basic tasks well, performance sharply declines for deep linguistic understanding and context-based problems in Armenian.
-- **Source Agent(s):** B9
-
-### 157. Ethical considerations in AI-powered language technologies: insights from East and West Armenian
-- **Authors:** Artur Ishkhanyan
+### 237. Language Models for Code-switch Detection of te reo Māori and English in a Low-resource Setting
+- **Authors:** Teemu Maatta
 - **Year:** 2025
-- **DOI:** [10.1007/s43681-025-00716-6](https://doi.org/10.1007/s43681-025-00716-6)
-- **URL:** https://link.springer.com/article/10.1007/s43681-025-00716-6
-- **Languages:** Armenian (East), Armenian (West)
-- **Abstract:** Examines ethical challenges of AI-powered language technologies for East and West Armenian, including data sovereignty in diaspora communities, algorithmic bias in low-resource language processing, and preservation of cultural authenticity. Proposes a structured ethical framework emphasizing participatory governance, fairness-aware AI training, and transparency.
-- **Source Agent(s):** B9
+- **URL:** https://www.researchgate.net/publication/362261601_Language_Models_for_Code-switch_Detection_of_te_reo_Maori_and_English_in_a_Low-resource_Setting
+- **Languages:** Code-switching, English, Maori
+- **Abstract:** Based on the web search results, I found relevant information about Māori NLP resources and benchmarking challenges: Māori NLP Resources The Reo Māori Twitter (RMT) Corpus was created by targeting Māori-language users identified by the Indigenous Tweets website, pre-processing their data and filtering out non-Māori tweets. The RMT Corpus is the largest publicly-available collection of social media data containing (almost) exclusively Māori text, making it a useful resource for language expe
+- **Source Agent(s):** D2
 
-### 158. Detecting Abusive Albanian
-- **Authors:** Erida Nurce, Jorgel Keci, Leon Derczynski
-- **Year:** 2021
-- **arXiv:** [2107.13592](https://arxiv.org/abs/2107.13592)
-- **URL:** https://arxiv.org/abs/2107.13592
-- **Languages:** Albanian
-- **Benchmark:** SHAJ
-- **Code/Data:** https://doi.org/10.6084/m9.figshare.19333298.v1
-- **Abstract:** Presents SHAJ, an annotated Albanian dataset for hate speech and offensive speech constructed from user-generated content on Instagram and YouTube. Contains 11,874 instances with 13.2% abusive content, annotated hierarchically (offensive/not; untargeted/targeted; person/group/other).
-- **Source Agent(s):** B9
+### 238. Preserving the Past: AI in Indigenous Language Preservation - Viterbi Conversations in Ethics
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://vce.usc.edu/weekly-news-profile/preserving-the-past-ai-in-indigenous-language-preservation/
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** I've completed the web search for "indigenous languages AI ethics cultural values." Here are the key findings: Overview The search results reveal a complex landscape where AI presents both opportunities and challenges for Indigenous language preservation and cultural values. Key Themes Language Preservation and Opportunities When developed inclusively and ethically, AI can support language revitalization and enhance cultural preservation.
+- **Source Agent(s):** D2
 
-### 159. AI-Based Hate Speech Detection in Albanian Social Media: New Dataset and Mobile Web Application Integration
-- **Authors:** Etrit Fetahi, Majlinda Hamiti, Arianit Susuri, Jaumin Ajdari, Xhemal Zenuni
+### 239. Indigenous Futures in Artificial Intelligence: From Language Sovereignty to Ecological Stewardship – Intercontinental Cry
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://icmagazine.org/indigenous-futures-in-artificial-intelligence-from-language-sovereignty-to-ecological-stewardship/
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** I've completed the web search for "indigenous languages AI ethics cultural values." Here are the key findings: Overview The search results reveal a complex landscape where AI presents both opportunities and challenges for Indigenous language preservation and cultural values. Key Themes Language Preservation and Opportunities When developed inclusively and ethically, AI can support language revitalization and enhance cultural preservation.
+- **Source Agent(s):** D2
+
+### 240. Incorporating indigenous knowledge systems into AI governance: enhancing ethical frameworks with Maori and Navajo perspectives | AI and Ethics | Springer Nature Link
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.1007/s43681-025-00970-8](https://doi.org/10.1007/s43681-025-00970-8)
+- **URL:** https://link.springer.com/article/10.1007/s43681-025-00970-8
+- **Languages:** Maori, Navajo
+- **Abstract:** I've completed the web search for "indigenous languages AI ethics cultural values." Here are the key findings: Overview The search results reveal a complex landscape where AI presents both opportunities and challenges for Indigenous language preservation and cultural values. Key Themes Language Preservation and Opportunities When developed inclusively and ethically, AI can support language revitalization and enhance cultural preservation.
+- **Source Agent(s):** D2
+
+### 241. Cognitive imperialism in artificial intelligence: counteracting bias with indigenous epistemologies | AI & SOCIETY | Springer Nature Link
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.1007/s00146-024-02065-0](https://doi.org/10.1007/s00146-024-02065-0)
+- **URL:** https://link.springer.com/article/10.1007/s00146-024-02065-0
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** I've completed the web search for "indigenous languages AI ethics cultural values." Here are the key findings: Overview The search results reveal a complex landscape where AI presents both opportunities and challenges for Indigenous language preservation and cultural values. Key Themes Language Preservation and Opportunities When developed inclusively and ethically, AI can support language revitalization and enhance cultural preservation.
+- **Source Agent(s):** D2
+
+### 242. Artificial Intelligence and Indigenous Peoples’ Realities | Cultural Survival
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.culturalsurvival.org/publications/cultural-survival-quarterly/artificial-intelligence-and-indigenous-peoples-realities
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** I've completed the web search for "indigenous languages AI ethics cultural values." Here are the key findings: Overview The search results reveal a complex landscape where AI presents both opportunities and challenges for Indigenous language preservation and cultural values. Key Themes Language Preservation and Opportunities When developed inclusively and ethically, AI can support language revitalization and enhance cultural preservation.
+- **Source Agent(s):** D2
+
+### 243. AI and Indigenous Languages
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://blog.westerndigital.com/indigenous-languages/
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** I've completed the web search for "indigenous languages AI ethics cultural values." Here are the key findings: Overview The search results reveal a complex landscape where AI presents both opportunities and challenges for Indigenous language preservation and cultural values. Key Themes Language Preservation and Opportunities When developed inclusively and ethically, AI can support language revitalization and enhance cultural preservation.
+- **Source Agent(s):** D2
+
+### 244. New report and guidelines for indigenous data sovereignty in artificial intelligence developments | Global AI Ethics and Governance Observatory
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.unesco.org/ethics-ai/en/articles/new-report-and-guidelines-indigenous-data-sovereignty-artificial-intelligence-developments
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** I've completed the web search for "indigenous languages AI ethics cultural values." Here are the key findings: Overview The search results reveal a complex landscape where AI presents both opportunities and challenges for Indigenous language preservation and cultural values. Key Themes Language Preservation and Opportunities When developed inclusively and ethically, AI can support language revitalization and enhance cultural preservation.
+- **Source Agent(s):** D2
+
+### 245. Ensuring Indigenous Peoples’ rights in the age of AI | United Nations
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.un.org/en/desa/ensuring-indigenous-peoples%E2%80%99-rights-age-ai
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** I've completed the web search for "indigenous languages AI ethics cultural values." Here are the key findings: Overview The search results reveal a complex landscape where AI presents both opportunities and challenges for Indigenous language preservation and cultural values. Key Themes Language Preservation and Opportunities When developed inclusively and ethically, AI can support language revitalization and enhance cultural preservation.
+- **Source Agent(s):** D2
+
+### 246. Indigenous Peoples and AI: Defending Rights, Shaping the Future of Technology | Cultural Survival
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.culturalsurvival.org/news/indigenous-peoples-and-ai-defending-rights-shaping-future-technology
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** I've completed the web search for "indigenous languages AI ethics cultural values." Here are the key findings: Overview The search results reveal a complex landscape where AI presents both opportunities and challenges for Indigenous language preservation and cultural values. Key Themes Language Preservation and Opportunities When developed inclusively and ethically, AI can support language revitalization and enhance cultural preservation.
+- **Source Agent(s):** D2
+
+### 247. Evaluating Metalinguistic Knowledge in Large Language Models across the World’s Languages
+- **Authors:** Ejiro Onose
+- **Year:** 2026
+- **arXiv:** [2602.02182](https://arxiv.org/abs/2602.02182)
+- **URL:** https://arxiv.org/html/2602.02182
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** Based on the search results, here's what I found regarding endangered languages and LLM evaluation benchmarks: Recent Benchmarks and Research LLMs are increasingly employed in language documentation tasks such as annotation, grammatical analysis, and cross-linguistic comparison, as well as in language preservation where they are used to accelerate transcription, translation, morphological analysis, glossing, and grammatical description, crucial for the preservation of endangered languages.
+- **Source Agent(s):** D2
+
+### 248. Can LLMs Help Create Grammar?: Automating Grammar Creation for Endangered Languages with In-Context Learning
+- **Authors:** Ejiro Onose
 - **Year:** 2024
-- **DOI:** [10.3991/ijim.v18i24.50851](https://doi.org/10.3991/ijim.v18i24.50851)
-- **URL:** https://online-journals.org/index.php/i-jim/article/view/50851
-- **Languages:** Albanian
-- **Abstract:** Develops human-annotated dataset of over 11,000 comments from Albanian social media platforms with a two-layer taxonomy for hate speech. Three expert annotators with Fleiss kappa of 0.62. Naive Bayes with TF-IDF achieves F1=0.80 binary, XGBoost F1=0.77 multiclass.
-- **Source Agent(s):** B9
+- **arXiv:** [2412.10960](https://arxiv.org/abs/2412.10960)
+- **URL:** https://arxiv.org/html/2412.10960v1
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** Based on the search results, here's what I found regarding endangered languages and LLM evaluation benchmarks: Recent Benchmarks and Research LLMs are increasingly employed in language documentation tasks such as annotation, grammatical analysis, and cross-linguistic comparison, as well as in language preservation where they are used to accelerate transcription, translation, morphological analysis, glossing, and grammatical description, crucial for the preservation of endangered languages.
+- **Source Agent(s):** D2
 
-### 160. Enhancing social media hate speech detection in low-resource languages using transformers and explainable AI
-- **Authors:** Unknown (published in Social Network Analysis and Mining)
+### 249. Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks - Microsoft Research
+- **Authors:** Ejiro Onose
 - **Year:** 2025
-- **DOI:** [10.1007/s13278-025-01497-w](https://doi.org/10.1007/s13278-025-01497-w)
-- **URL:** https://link.springer.com/article/10.1007/s13278-025-01497-w
-- **Languages:** Albanian
-- **Abstract:** Enhances hate speech detection in Albanian social media using transformers and explainable AI. Dataset of 20,860 Facebook comments with multi-annotator process. Fine-tuned XLM-RoBERTa achieves F1=86%, establishing new state-of-the-art for Albanian hate speech detection. Uses SHAP and LIME for explainability.
-- **Source Agent(s):** B9
+- **URL:** https://www.microsoft.com/en-us/research/publication/benchmarking-large-language-models-across-languages-modalities-models-and-tasks/
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** Based on the search results, here's what I found regarding endangered languages and LLM evaluation benchmarks: Recent Benchmarks and Research LLMs are increasingly employed in language documentation tasks such as annotation, grammatical analysis, and cross-linguistic comparison, as well as in language preservation where they are used to accelerate transcription, translation, morphological analysis, glossing, and grammatical description, crucial for the preservation of endangered languages.
+- **Source Agent(s):** D2
 
-### 161. Large Language Models (LLMs) Output Quality: Comparison Between English and Albanian
-- **Authors:** Admirim Aliti et al.
+### 250. LLMs for Extremely Low-Resource Finno-Ugric Languages
+- **Authors:** Ejiro Onose
 - **Year:** 2024
-- **URL:** https://www.researchgate.net/publication/384927770_Large_Language_Models_LLMs_Output_Quality_Comparison_Between_English_and_Albanian
-- **Languages:** Albanian, English
-- **Abstract:** Evaluates LLM output quality comparing English and Albanian across math problems, code tasks, and sensitive questions. Finds Claude.ai demonstrates more language-agnostic capabilities with similar accuracy between English and Albanian. Albanian serves as a morphologically complex, lower-resource contrast to English.
-- **Source Agent(s):** B9
+- **arXiv:** [2410.18902](https://arxiv.org/abs/2410.18902)
+- **URL:** https://arxiv.org/html/2410.18902
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Benchmark:** LLMs
+- **Abstract:** Based on the search results, here's what I found regarding endangered languages and LLM evaluation benchmarks: Recent Benchmarks and Research LLMs are increasingly employed in language documentation tasks such as annotation, grammatical analysis, and cross-linguistic comparison, as well as in language preservation where they are used to accelerate transcription, translation, morphological analysis, glossing, and grammatical description, crucial for the preservation of endangered languages.
+- **Source Agent(s):** D2
 
-### 162. MELABenchv1: Benchmarking Large Language Models against Smaller Fine-Tuned Models for Low-Resource Maltese NLP
-- **Authors:** Kurt Micallef, Claudia Borg
-- **Year:** 2025
-- **arXiv:** [2506.04385](https://arxiv.org/abs/2506.04385)
-- **URL:** https://arxiv.org/abs/2506.04385
-- **Languages:** Maltese
-- **Benchmark:** MELABenchv1
-- **Code/Data:** https://huggingface.co/MLRS
-- **Abstract:** Evaluates 55 LLMs on Maltese using 11 discriminative and generative tasks including sentiment, SIB-200, Taxi1500, Belebele, news categories, and MultiEURLEX. Finds many models perform poorly, especially on generative tasks. Smaller fine-tuned models often outperform larger LLMs across all tasks.
-- **Source Agent(s):** B9
-
-### 163. From Measurement to Mitigation: Exploring the Transferability of Debiasing Approaches to Gender Bias in Maltese Language Models
-- **Authors:** Melanie Galea, Claudia Borg
-- **Year:** 2025
-- **arXiv:** [2507.03142](https://arxiv.org/abs/2507.03142)
-- **URL:** https://arxiv.org/abs/2507.03142
-- **Languages:** Maltese
-- **Abstract:** Measures gender bias in Maltese language models (BERTu and mBERTu) and evaluates transferability of debiasing methods from English. Adapts CrowS-Pairs and SEAT benchmarks to Maltese. Tests Counterfactual Data Augmentation, Dropout Regularization, Auto-Debias, and GuiDebias. Finds mBERTu shows less biased representation than BERTu.
-- **Source Agent(s):** B9
-
-### 164. Pre-training Data Quality and Quantity for a Low-Resource Language: New Corpus and BERT Models for Maltese
-- **Authors:** Kurt Micallef, Albert Gatt et al.
+### 251. LREC 2022 Workshop Language Resources and Evaluation Conference 20-25 June 2022
+- **Authors:** Kiplangat Korir
 - **Year:** 2022
-- **arXiv:** [2205.10517](https://arxiv.org/abs/2205.10517)
-- **URL:** https://aclanthology.org/2022.deeplo-1.10/
-- **Languages:** Maltese
-- **Code/Data:** https://huggingface.co/MLRS/BERTu
-- **Abstract:** Develops BERTu, a monolingual BERT model for Maltese, and mBERTu. Trained on Korpus Malti v4.0. Achieves state-of-the-art despite smaller corpus. Foundation for downstream bias evaluation in Maltese.
-- **Source Agent(s):** B9
+- **URL:** https://aclanthology.org/2022.cltw-1.pdf
+- **Languages:** Irish, Multilingual, Welsh
+- **Benchmark:** LREC
+- **Abstract:** Based on the search results, I found substantial information about Celtic language NLP benchmarks and evaluation efforts: Overview of Celtic Language NLP Research Celtic languages have historically lagged behind in the area of natural language processing (NLP) and machine translation (MT), but this has been changing in recent years. Key Benchmarking and Evaluation Efforts Multilingual AMR Parsing: Researchers have created a multilingual text-to-AMR model for three Celtic languages—W
+- **Source Agent(s):** D2
 
-### 165. Multilingual European Language Models: Benchmarking Approaches and Challenges
-- **Authors:** Fabio Barth, Georg Rehm
+### 252. Irish-BLiMP: A Linguistic Benchmark for Evaluating Human and Language Model Performance in a Low-Resource Setting
+- **Authors:** Josh Mc
 - **Year:** 2025
-- **arXiv:** [2502.12895](https://arxiv.org/abs/2502.12895)
-- **URL:** https://arxiv.org/abs/2502.12895
-- **Languages:** Multiple European languages
-- **Abstract:** Analyzes benefits and limitations of current multilingual European evaluation datasets, focusing on seven multilingual benchmarks. Identifies four major challenges including cultural biases in translated benchmarks. Discusses solutions for translation quality and cultural bias mitigation including human-in-the-loop verification.
-- **Source Agent(s):** B9
+- **arXiv:** [2510.20957](https://arxiv.org/abs/2510.20957)
+- **URL:** https://arxiv.org/html/2510.20957
+- **Languages:** Irish, Multilingual, Welsh
+- **Benchmark:** Irish-BLiMP
+- **Abstract:** Based on the search results, I found substantial information about Celtic language NLP benchmarks and evaluation efforts: Overview of Celtic Language NLP Research Celtic languages have historically lagged behind in the area of natural language processing (NLP) and machine translation (MT), but this has been changing in recent years. Key Benchmarking and Evaluation Efforts Multilingual AMR Parsing: Researchers have created a multilingual text-to-AMR model for three Celtic languages—W
+- **Source Agent(s):** D2
 
-### 166. The AI Language Proficiency Monitor -- Tracking the Progress of LLMs on Multilingual Benchmarks
-- **Authors:** David Pomerenke, Jonas Nothnagel, Simon Ostermann
-- **Year:** 2025
-- **arXiv:** [2507.08538](https://arxiv.org/abs/2507.08538)
-- **URL:** https://arxiv.org/abs/2507.08538
-- **Languages:** Up to 200 languages including Greek, Georgian, Armenian, Albanian, Maltese
-- **Benchmark:** AI Language Proficiency Monitor
-- **Abstract:** Comprehensive multilingual benchmark systematically assessing LLM performance across up to 200 languages with focus on low-resource languages. Aggregates tasks including translation, QA, math, and reasoning using FLORES+, MMLU, GSM8K, TruthfulQA, and ARC. Provides auto-updating leaderboard and dashboard.
-- **Source Agent(s):** B9
-
-### 167. A Comparative Sentiment Analysis of Greek Clinical Conversations Using BERT, RoBERTa, GPT-2, and XLNet
-- **Authors:** Georgios Paraskevopoulos et al.
+### 253. Harnessing the Power of Artificial Intelligence to Vitalize Endangered Indigenous Languages: Technologies and Experiences
+- **Authors:** Megasis Network
 - **Year:** 2024
-- **DOI:** [10.3390/bioengineering11060521](https://doi.org/10.3390/bioengineering11060521)
-- **URL:** https://www.mdpi.com/2306-5354/11/6/521
-- **Languages:** Greek
-- **Abstract:** Compares BERT, RoBERTa, GPT-2, and XLNet on sentiment analysis of 185 hours of Greek clinical conversations. Addresses class imbalance and bias through weighted evaluation. BERT outperforms across all sentiment categories. Maintains dataset authenticity to avoid introducing artificial biases.
-- **Source Agent(s):** B9
+- **arXiv:** [2407.12620](https://arxiv.org/abs/2407.12620)
+- **URL:** https://arxiv.org/html/2407.12620v1
+- **Languages:** Maori
+- **Abstract:** Based on the search results, here's what I found about language revitalization, NLP, and AI ethics: Key Areas of Intersection Since 2022, researchers have been exploring application areas and technologies in which Artificial Intelligence and Natural Language Processing, such as Large Language Models, can be employed to foster the usage and facilitate the documentation of Indigenous languages which are in danger of disappearing. Main Opportunities AI technologies such as natural language
+- **Source Agent(s):** D2
+
+### 254. How can NLP Help Revitalize Endangered Languages?
+- **Authors:** Megasis Network
+- **Year:** 2022
+- **arXiv:** [2204.11909](https://arxiv.org/abs/2204.11909)
+- **URL:** https://arxiv.org/pdf/2204.11909
+- **Languages:** Maori
+- **Abstract:** Based on the search results, here's what I found about language revitalization, NLP, and AI ethics: Key Areas of Intersection Since 2022, researchers have been exploring application areas and technologies in which Artificial Intelligence and Natural Language Processing, such as Large Language Models, can be employed to foster the usage and facilitate the documentation of Indigenous languages which are in danger of disappearing. Main Opportunities AI technologies such as natural language
+- **Source Agent(s):** D2
+
+### 255. Thrid Workshop on NLP for Indigenous Languages of the Americas (AmericasNLP)
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://turing.iimas.unam.mx/americasnlp/
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** Based on the web search results, here's what I found about decolonizing NLP for indigenous languages evaluation: Key Issues and Challenges The discourse surrounding decolonization resonates deeply within the realm of NLP, where dominant Western perspectives, datasets, and methodologies often eclipse indigenous knowledge systems and local voices. Indigenous languages are endangered due not to any inherent linguistic inferiority, but rather due to the global economic, ideological, military, a
+- **Source Agent(s):** D2
+
+### 256. Decolonizing LLMs: An Ethnographic Framework for AI in African Contexts - EPIC
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.epicpeople.org/decolonizing-llms-ethnographic-framework-for-ai-in-african-contexts/
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** Based on the web search results, here's what I found about decolonizing NLP for indigenous languages evaluation: Key Issues and Challenges The discourse surrounding decolonization resonates deeply within the realm of NLP, where dominant Western perspectives, datasets, and methodologies often eclipse indigenous knowledge systems and local voices. Indigenous languages are endangered due not to any inherent linguistic inferiority, but rather due to the global economic, ideological, military, a
+- **Source Agent(s):** D2
+
+### 257. AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP: A SURVEY ON POWER
+- **Authors:** 
+- **Year:** 2024
+- **URL:** https://openreview.net/pdf?id=D698BEfwgv
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** Based on the web search results, here's what I found about decolonizing NLP for indigenous languages evaluation: Key Issues and Challenges The discourse surrounding decolonization resonates deeply within the realm of NLP, where dominant Western perspectives, datasets, and methodologies often eclipse indigenous knowledge systems and local voices. Indigenous languages are endangered due not to any inherent linguistic inferiority, but rather due to the global economic, ideological, military, a
+- **Source Agent(s):** D2
+
+### 258. Decolonizing African NLP: A Survey on Power Dynamics and Data Colonialism in Tech Development
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.researchgate.net/publication/379815378_Decolonizing_African_NLP_A_Survey_on_Power_Dynamics_and_Data_Colonialism_in_Tech_Development
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** Based on the web search results, here's what I found about decolonizing NLP for indigenous languages evaluation: Key Issues and Challenges The discourse surrounding decolonization resonates deeply within the realm of NLP, where dominant Western perspectives, datasets, and methodologies often eclipse indigenous knowledge systems and local voices. Indigenous languages are endangered due not to any inherent linguistic inferiority, but rather due to the global economic, ideological, military, a
+- **Source Agent(s):** D2
+
+### 259. Decolonizing Minority Language Technology - State of the Internet's Languages Report
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://internetlanguages.org/en/stories/decolonizing-minority-language/
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** Based on the web search results, here's what I found about decolonizing NLP for indigenous languages evaluation: Key Issues and Challenges The discourse surrounding decolonization resonates deeply within the realm of NLP, where dominant Western perspectives, datasets, and methodologies often eclipse indigenous knowledge systems and local voices. Indigenous languages are endangered due not to any inherent linguistic inferiority, but rather due to the global economic, ideological, military, a
+- **Source Agent(s):** D2
+
+### 260. 1 Decolonizing NLP for “Low-resource Languages”
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://ojs.stanford.edu/ojs/index.php/grace/article/download/2584/1546/9011
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** Based on the web search results, here's what I found about decolonizing NLP for indigenous languages evaluation: Key Issues and Challenges The discourse surrounding decolonization resonates deeply within the realm of NLP, where dominant Western perspectives, datasets, and methodologies often eclipse indigenous knowledge systems and local voices. Indigenous languages are endangered due not to any inherent linguistic inferiority, but rather due to the global economic, ideological, military, a
+- **Source Agent(s):** D2
+
+### 261. “It’s how you do things that matters”: Attending to Process to Better Serve Indigenous Communities with Language Technologies
+- **Authors:** Felix Grezes
+- **Year:** 2024
+- **arXiv:** [2402.02639](https://arxiv.org/abs/2402.02639)
+- **URL:** https://arxiv.org/html/2402.02639v2
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** Based on the web search results, here's what I found about decolonizing NLP for indigenous languages evaluation: Key Issues and Challenges The discourse surrounding decolonization resonates deeply within the realm of NLP, where dominant Western perspectives, datasets, and methodologies often eclipse indigenous knowledge systems and local voices. Indigenous languages are endangered due not to any inherent linguistic inferiority, but rather due to the global economic, ideological, military, a
+- **Source Agent(s):** D2
+
+### 262. API Multilingual & Multicultural Resources - Asian Pacific Islander Speech-Language-Hearing Caucus
+- **Authors:** Kiplangat Korir
+- **Year:** 2025
+- **URL:** https://apislhc.org/api-multilingual-multicultural-resources/
+- **Languages:** English, Hawaiian, Maori, Multilingual
+- **Benchmark:** API
+- **Abstract:** I've completed the web search for "Pacific Islander languages NLP Samoan Tongan evaluation". Here's a summary of the results: Overview of Pacific Islander Languages The most prominent Polynesian languages, by number of speakers, are Samoan, Tongan, Tahitian, Māori and Hawaiian.
+- **Source Agent(s):** D2
+
+### 263. Bias in Large Language Models: Origin, Evaluation, and Mitigation
+- **Authors:** Adnan Masood, Ph
+- **Year:** 2024
+- **arXiv:** [2411.10915](https://arxiv.org/abs/2411.10915)
+- **URL:** https://arxiv.org/html/2411.10915v1
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** Based on the web search results, here's what I found about endangered language representation, LLM bias, and evaluation: Key Findings Endangered Languages and Low-Resource Language Representation: Low-resource languages (LRLs) — those with limited data, tools, and support — have moved from the periphery of NLP to a central challenge in the era of large language models. Data deserts, tokenizer inequities, bias/toxicity, and evaluation blind spots remain as persistent challenges.
+- **Source Agent(s):** D2
+
+### 264. Explicitly unbiased large language models still form biased associations - PMC
+- **Authors:** Adnan Masood, Ph
+- **Year:** 2025
+- **URL:** https://pmc.ncbi.nlm.nih.gov/articles/PMC11874501/
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** Based on the web search results, here's what I found about endangered language representation, LLM bias, and evaluation: Key Findings Endangered Languages and Low-Resource Language Representation: Low-resource languages (LRLs) — those with limited data, tools, and support — have moved from the periphery of NLP to a central challenge in the era of large language models. Data deserts, tokenizer inequities, bias/toxicity, and evaluation blind spots remain as persistent challenges.
+- **Source Agent(s):** D2
+
+### 265. Large language models are biased — local initiatives are fighting for change
+- **Authors:** Adnan Masood, Ph
+- **Year:** 2025
+- **URL:** https://www.nature.com/articles/d41586-025-03891-y
+- **Languages:** Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh
+- **Abstract:** Based on the web search results, here's what I found about endangered language representation, LLM bias, and evaluation: Key Findings Endangered Languages and Low-Resource Language Representation: Low-resource languages (LRLs) — those with limited data, tools, and support — have moved from the periphery of NLP to a central challenge in the era of large language models. Data deserts, tokenizer inequities, bias/toxicity, and evaluation blind spots remain as persistent challenges.
+- **Source Agent(s):** D2
+
+### 266. AmericasNLI: Machine translation and natural language inference systems for Indigenous languages of the Americas - PMC
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://pmc.ncbi.nlm.nih.gov/articles/PMC9755662/
+- **Languages:** Guarani, Quechua
+- **Benchmark:** AmericasNLI
+- **Abstract:** Based on the search results, here's what I found about the AmericasNLI benchmark for indigenous languages NLI evaluation: Overview AmericasNLI is a natural language inference (NLI) dataset in 10 Indigenous languages of the Americas: Asháninka, Aymara, Bribri, Guarani, Nahuatl, Otomí, Quechua, Rarámuri, Shipibo-Konibo, and Wixarika. Dataset Purpose and Design The dataset is multiway parallel, which enables evaluation of both machine translation (MT) systems and NLI systems for these 10 t
+- **Source Agent(s):** D2
+
+### 267. Neural Machine Translation for the Indigenous Languages of the Americas: An Introduction.
+- **Authors:** 
+- **Year:** 2023
+- **arXiv:** [2306.06804](https://arxiv.org/abs/2306.06804)
+- **URL:** https://arxiv.org/html/2306.06804
+- **Languages:** Guarani, Quechua
+- **Abstract:** Based on the search results, here's what I found about the AmericasNLI benchmark for indigenous languages NLI evaluation: Overview AmericasNLI is a natural language inference (NLI) dataset in 10 Indigenous languages of the Americas: Asháninka, Aymara, Bribri, Guarani, Nahuatl, Otomí, Quechua, Rarámuri, Shipibo-Konibo, and Wixarika. Dataset Purpose and Design The dataset is multiway parallel, which enables evaluation of both machine translation (MT) systems and NLI systems for these 10 t
+- **Source Agent(s):** D2
+
+### 268. AmericasNLI: Evaluating Zero-shot Natural Language Understanding of Pretrained Multilingual Models in Truly Low-resource Languages
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2022.acl-long.435/
+- **Languages:** Guarani, Multilingual, Quechua
+- **Benchmark:** AmericasNLI
+- **Abstract:** Based on the search results, here's what I found about the AmericasNLI benchmark for indigenous languages NLI evaluation: Overview AmericasNLI is a natural language inference (NLI) dataset in 10 Indigenous languages of the Americas: Asháninka, Aymara, Bribri, Guarani, Nahuatl, Otomí, Quechua, Rarámuri, Shipibo-Konibo, and Wixarika. Dataset Purpose and Design The dataset is multiway parallel, which enables evaluation of both machine translation (MT) systems and NLI systems for these 10 t
+- **Source Agent(s):** D2
+
+### 269. LinCE Benchmark
+- **Authors:** Teemu Maatta
+- **Year:** 2025
+- **URL:** https://ritual.uh.edu/lince/datasets
+- **Languages:** English, Spanglish
+- **Abstract:** Based on the search results, I found relevant information about Spanglish NLP benchmark evaluation datasets: LinCE Benchmark The LinCE Benchmark includes a machine translation task for English - Spanglish. The data in LinCE has been stratified differently from the original datasets and can be downloaded after logging in.
+- **Source Agent(s):** D3
+
+### 270. Evaluating LLMs’ Language Confusion in Code-switching Context Juhyun Oh KAIST
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://openreview.net/pdf/2c888725c8f08727a2b712c2740bfa5e0b9b205a.pdf
+- **Languages:** Code-switching
+- **Abstract:** I've retrieved comprehensive search results on code-switching LLM benchmark evaluation. Here's a summary of the key findings: Recent Research and Benchmarks Current benchmarks for evaluating code-switching capabilities of language models primarily focus on surface-level tasks but largely overlook deeper reasoning and semantic understanding in mixed-language settings.
+- **Source Agent(s):** D3
+
+### 271. Lost in the Mix: Evaluating LLM Understanding of Code-Switched Text
+- **Authors:** Amr Mohamed, Yang Zhang, Michalis Vazirgiannis
+- **Year:** 2025
+- **arXiv:** [2506.14012](https://arxiv.org/abs/2506.14012)
+- **URL:** https://arxiv.org/html/2506.14012v1
+- **Languages:** Code-switching
+- **Abstract:** I've retrieved comprehensive search results on code-switching LLM benchmark evaluation. Here's a summary of the key findings: Recent Research and Benchmarks Current benchmarks for evaluating code-switching capabilities of language models primarily focus on surface-level tasks but largely overlook deeper reasoning and semantic understanding in mixed-language settings.
+- **Source Agent(s):** D3
+
+### 272. Evaluating Code-Switching Translation with Large ...
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2024.lrec-main.565.pdf
+- **Languages:** Code-switching
+- **Abstract:** I've retrieved comprehensive search results on code-switching LLM benchmark evaluation. Here's a summary of the key findings: Recent Research and Benchmarks Current benchmarks for evaluating code-switching capabilities of language models primarily focus on surface-level tasks but largely overlook deeper reasoning and semantic understanding in mixed-language settings.
+- **Source Agent(s):** D3
+
+### 273. Code-Switching Red-Teaming: LLM Evaluation for Safety ...
+- **Authors:** Haneul Yoo
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2025.acl-long.657.pdf
+- **Languages:** Code-switching
+- **Benchmark:** Code-Switching
+- **Abstract:** I've retrieved comprehensive search results on code-switching LLM benchmark evaluation. Here's a summary of the key findings: Recent Research and Benchmarks Current benchmarks for evaluating code-switching capabilities of language models primarily focus on surface-level tasks but largely overlook deeper reasoning and semantic understanding in mixed-language settings.
+- **Source Agent(s):** D3
+
+### 274. CodeMixBench: Evaluating Code-Mixing Capabilities of LLMs Across 18 Languages
+- **Authors:** Yilun Yang
+- **Year:** 2025
+- **arXiv:** [2507.18791](https://arxiv.org/abs/2507.18791)
+- **URL:** https://arxiv.org/html/2507.18791v2
+- **Languages:** Code-switching
+- **Benchmark:** CodeMixBench
+- **Abstract:** I've retrieved comprehensive search results on code-switching LLM benchmark evaluation. Here's a summary of the key findings: Recent Research and Benchmarks Current benchmarks for evaluating code-switching capabilities of language models primarily focus on surface-level tasks but largely overlook deeper reasoning and semantic understanding in mixed-language settings.
+- **Source Agent(s):** D3
+
+### 275. Code-Switching Curriculum Learning for Multilingual ...
+- **Authors:** Haneul Yoo
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2025.findings-acl.407.pdf
+- **Languages:** Code-switching, Multilingual
+- **Benchmark:** Code-Switching
+- **Abstract:** I've retrieved comprehensive search results on code-switching LLM benchmark evaluation. Here's a summary of the key findings: Recent Research and Benchmarks Current benchmarks for evaluating code-switching capabilities of language models primarily focus on surface-level tasks but largely overlook deeper reasoning and semantic understanding in mixed-language settings.
+- **Source Agent(s):** D3
+
+### 276. Enhancing Multilingual Language Models for Code-Switched Input Data
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2503.07990](https://arxiv.org/abs/2503.07990)
+- **URL:** https://arxiv.org/html/2503.07990v1
+- **Languages:** Code-switching, English, Korean, Multilingual
+- **Abstract:** The search results reveal significant research on code-switching bias, fairness, and NLP evaluation. Here are the key findings: Language Bias in Code-Switching Models consistently default to Korean when faced with mixed-language inputs, and their accuracy drops sharply when the expected response is English, according to recent LLM evaluations.
+- **Source Agent(s):** D3
+
+### 277. Beyond Monolingual Assumptions: A Survey of Code-Switched NLP in the Era of Large Language Models
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2510.07037](https://arxiv.org/abs/2510.07037)
+- **URL:** https://arxiv.org/html/2510.07037v1
+- **Languages:** Code-switching, English, Korean, Multilingual
+- **Abstract:** The search results reveal significant research on code-switching bias, fairness, and NLP evaluation. Here are the key findings: Language Bias in Code-Switching Models consistently default to Korean when faced with mixed-language inputs, and their accuracy drops sharply when the expected response is English, according to recent LLM evaluations.
+- **Source Agent(s):** D3
+
+### 278. The Decades Progress on Code-Switching Research in NLP
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2023.findings-acl.185.pdf
+- **Languages:** Code-switching, English, Korean, Multilingual
+- **Abstract:** The search results reveal significant research on code-switching bias, fairness, and NLP evaluation. Here are the key findings: Language Bias in Code-Switching Models consistently default to Korean when faced with mixed-language inputs, and their accuracy drops sharply when the expected response is English, according to recent LLM evaluations.
+- **Source Agent(s):** D3
+
+### 279. GLUECoS: An Evaluation Benchmark for Code-Switched NLP | Request PDF
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.researchgate.net/publication/343300735_GLUECoS_An_Evaluation_Benchmark_for_Code-Switched_NLP
+- **Languages:** Code-switching, English, Korean, Multilingual
+- **Benchmark:** GLUECoS
+- **Abstract:** The search results reveal significant research on code-switching bias, fairness, and NLP evaluation. Here are the key findings: Language Bias in Code-Switching Models consistently default to Korean when faced with mixed-language inputs, and their accuracy drops sharply when the expected response is English, according to recent LLM evaluations.
+- **Source Agent(s):** D3
+
+### 280. Bilingual Code-Switching Using XLM-RoBERTa
+- **Authors:** 
+- **Year:** 2025
+- **DOI:** [10.36227/techrxiv.175756344.42614762](https://doi.org/10.36227/techrxiv.175756344.42614762)
+- **URL:** https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762
+- **Languages:** Code-switching, English, Korean, Multilingual
+- **Abstract:** The search results reveal significant research on code-switching bias, fairness, and NLP evaluation. Here are the key findings: Language Bias in Code-Switching Models consistently default to Korean when faced with mixed-language inputs, and their accuracy drops sharply when the expected response is English, according to recent LLM evaluations.
+- **Source Agent(s):** D3
+
+### 281. Multilingual Large Language Models Are Not (Yet) Code- ...
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2023.emnlp-main.774.pdf
+- **Languages:** Code-switching, English, Korean, Multilingual
+- **Abstract:** The search results reveal significant research on code-switching bias, fairness, and NLP evaluation. Here are the key findings: Language Bias in Code-Switching Models consistently default to Korean when faced with mixed-language inputs, and their accuracy drops sharply when the expected response is English, according to recent LLM evaluations.
+- **Source Agent(s):** D3
+
+### 282. Nlp Fairness | ConceptNet blog
+- **Authors:** 
+- **Year:** 2025
+- **URL:** http://blog.conceptnet.io/nlp-fairness/
+- **Languages:** Code-switching, English, Korean, Multilingual
+- **Abstract:** The search results reveal significant research on code-switching bias, fairness, and NLP evaluation. Here are the key findings: Language Bias in Code-Switching Models consistently default to Korean when faced with mixed-language inputs, and their accuracy drops sharply when the expected response is English, according to recent LLM evaluations.
+- **Source Agent(s):** D3
+
+### 283. From Words to Proverbs: Evaluating LLMs’ Linguistic and Cultural Competence in Saudi Dialects with Absher
+- **Authors:** Adnan Masood, Ph
+- **Year:** 2025
+- **arXiv:** [2507.10216](https://arxiv.org/abs/2507.10216)
+- **URL:** https://arxiv.org/html/2507.10216
+- **Languages:** Arabic, Saudi
+- **Abstract:** Based on the search results, here's what recent research reveals about dialectal Arabic NLP evaluation benchmarks and bias: Key Findings on Benchmarking Dialectal Arabic A comprehensive survey analyzing 40+ evaluation benchmarks across NLP tasks, knowledge domains, cultural understanding, and specialized capabilities has revealed important insights about the field. Identified Critical Gaps The analysis reveals significant progress in benchmark diversity while identifying critical gaps:
+- **Source Agent(s):** D3
+
+### 284. 1 Natural Language Processing for Dialects of a Language: A Survey
+- **Authors:** Adnan Masood, Ph
+- **Year:** 2024
+- **arXiv:** [2401.05632](https://arxiv.org/abs/2401.05632)
+- **URL:** https://arxiv.org/pdf/2401.05632
+- **Languages:** Arabic
+- **Abstract:** Based on the search results, here's what recent research reveals about dialectal Arabic NLP evaluation benchmarks and bias: Key Findings on Benchmarking Dialectal Arabic A comprehensive survey analyzing 40+ evaluation benchmarks across NLP tasks, knowledge domains, cultural understanding, and specialized capabilities has revealed important insights about the field. Identified Critical Gaps The analysis reveals significant progress in benchmark diversity while identifying critical gaps:
+- **Source Agent(s):** D3
+
+### 285. AL-QASIDA: Analyzing LLM Quality and Accuracy Systematically in Dialectal Arabic
+- **Authors:** Adnan Masood, Ph
+- **Year:** 2024
+- **arXiv:** [2412.04193](https://arxiv.org/abs/2412.04193)
+- **URL:** https://arxiv.org/html/2412.04193v2
+- **Languages:** Arabic
+- **Benchmark:** AL-QASIDA
+- **Abstract:** Based on the search results, here's what recent research reveals about dialectal Arabic NLP evaluation benchmarks and bias: Key Findings on Benchmarking Dialectal Arabic A comprehensive survey analyzing 40+ evaluation benchmarks across NLP tasks, knowledge domains, cultural understanding, and specialized capabilities has revealed important insights about the field. Identified Critical Gaps The analysis reveals significant progress in benchmark diversity while identifying critical gaps:
+- **Source Agent(s):** D3
+
+### 286. Beyond MCQ: An Open-Ended Arabic Cultural QA Benchmark with Dialect Variants
+- **Authors:** Adnan Masood, Ph
+- **Year:** 2025
+- **arXiv:** [2510.24328](https://arxiv.org/abs/2510.24328)
+- **URL:** https://arxiv.org/html/2510.24328
+- **Languages:** Arabic
+- **Abstract:** Based on the search results, here's what recent research reveals about dialectal Arabic NLP evaluation benchmarks and bias: Key Findings on Benchmarking Dialectal Arabic A comprehensive survey analyzing 40+ evaluation benchmarks across NLP tasks, knowledge domains, cultural understanding, and specialized capabilities has revealed important insights about the field. Identified Critical Gaps The analysis reveals significant progress in benchmark diversity while identifying critical gaps:
+- **Source Agent(s):** D3
+
+### 287. A Dataset for Investigating Tagalog-English Code-Switching
+- **Authors:** Herrera, Megan
+- **Year:** 2025
+- **URL:** https://aclanthology.org/2022.lrec-1.225.pdf
+- **Languages:** Code-switching, English
+- **Abstract:** Search Results Summary I found comprehensive information about Taglish, Filipino-English code-switching, and NLP research on this topic. Here are the key findings: Definition and Overview Taglish or Englog is code-switching and/or code-mixing in the use of Tagalog and English, the most common languages of the Philippines.
+- **Source Agent(s):** D3
+
+### 288. DialectBench: A NLP Benchmark for Dialects, Varieties, and Closely-Related Languages
+- **Authors:** Fahim Faisal, Orevaoghene Ahia, Aarohi Srivastava, Kabir Ahuja, David Chiang, Yulia Tsvetkov
+- **Year:** 2024
+- **arXiv:** [2403.11009](https://arxiv.org/abs/2403.11009)
+- **URL:** https://arxiv.org/html/2403.11009v1
+- **Languages:** Chinese, English
+- **Benchmark:** DialectBench
+- **Abstract:** Based on the search results, here are the key findings on Singlish and Singapore English NLP evaluation benchmarks: Overview Singlish is an understudied language within the Natural Language Processing (NLP) field. Given the relatively small population of Singlish speakers, estimated at just a few million, resources for Singlish speech corpora are significantly more limited compared to major languages like English, Chinese, French, and Spanish.
+- **Source Agent(s):** D3
+
+### 289. The Green Report | Three Red Flags That Your LLM Testing Strategy Is Too Shallow
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://www.thegreenreport.blog/articles/three-red-flags-that-your-llm-testing-strategy-is-too-shallow/three-red-flags-that-your-llm-testing-strategy-is-too-shallow.html
+- **Languages:** Arabic, English, Multilingual
+- **Abstract:** Here are the web search results for "transliterated text LLM evaluation safety bypass": The search revealed several relevant research areas related to how LLMs handle transliterated text and safety mechanisms: Key Findings: Arabic Transliteration as a Safety Bypass Vector Research demonstrates that the use of Arabic chatspeak and transliteration could reveal LLM vulnerabilities that could be further exploited by adversaries. In one example, after mixing transliterated words with Arabi
+- **Source Agent(s):** D3
+
+### 290. The Hidden Flaw in LLM Safety: Translation as a Jailbreak - Welo Data
+- **Authors:** Embedding Jailbreak
+- **Year:** 2025
+- **URL:** https://welodata.ai/2025/12/10/the-hidden-flaw-in-llm-safety-translation-as-a-jailbreak/
+- **Languages:** Arabic, English, Multilingual
+- **Abstract:** Here are the web search results for "transliterated text LLM evaluation safety bypass": The search revealed several relevant research areas related to how LLMs handle transliterated text and safety mechanisms: Key Findings: Arabic Transliteration as a Safety Bypass Vector Research demonstrates that the use of Arabic chatspeak and transliteration could reveal LLM vulnerabilities that could be further exploited by adversaries. In one example, after mixing transliterated words with Arabi
+- **Source Agent(s):** D3
+
+### 291. Divide-and-Conquer Attack: Harnessing the Power of LLM to Bypass Safety Filters of Text-to-Image Models
+- **Authors:** 
+- **Year:** 2023
+- **arXiv:** [2312.07130](https://arxiv.org/abs/2312.07130)
+- **URL:** https://arxiv.org/html/2312.07130v3
+- **Languages:** Arabic, English, Multilingual
+- **Benchmark:** Divide-and-Conquer
+- **Abstract:** Here are the web search results for "transliterated text LLM evaluation safety bypass": The search revealed several relevant research areas related to how LLMs handle transliterated text and safety mechanisms: Key Findings: Arabic Transliteration as a Safety Bypass Vector Research demonstrates that the use of Arabic chatspeak and transliteration could reveal LLM vulnerabilities that could be further exploited by adversaries. In one example, after mixing transliterated words with Arabi
+- **Source Agent(s):** D3
+
+### 292. Output Constraints as Attack Surface: Exploiting Structured Generation to Bypass LLM Safety Mechanisms
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2503.24191](https://arxiv.org/abs/2503.24191)
+- **URL:** https://arxiv.org/html/2503.24191v1
+- **Languages:** Arabic, English, Multilingual
+- **Abstract:** Here are the web search results for "transliterated text LLM evaluation safety bypass": The search revealed several relevant research areas related to how LLMs handle transliterated text and safety mechanisms: Key Findings: Arabic Transliteration as a Safety Bypass Vector Research demonstrates that the use of Arabic chatspeak and transliteration could reveal LLM vulnerabilities that could be further exploited by adversaries. In one example, after mixing transliterated words with Arabi
+- **Source Agent(s):** D3
+
+### 293. Bypassing LLM guardrails: character and AML attacks in practice - Mindgard
+- **Authors:** 
+- **Year:** 2025
+- **URL:** https://mindgard.ai/resources/bypassing-llm-guardrails-character-and-aml-attacks-in-practice
+- **Languages:** Arabic, English, Multilingual
+- **Abstract:** Here are the web search results for "transliterated text LLM evaluation safety bypass": The search revealed several relevant research areas related to how LLMs handle transliterated text and safety mechanisms: Key Findings: Arabic Transliteration as a Safety Bypass Vector Research demonstrates that the use of Arabic chatspeak and transliteration could reveal LLM vulnerabilities that could be further exploited by adversaries. In one example, after mixing transliterated words with Arabi
+- **Source Agent(s):** D3
+
+### 294. TeleAI-Safety: A comprehensive LLM jailbreaking benchmark towards attacks,
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2512.05485](https://arxiv.org/abs/2512.05485)
+- **URL:** https://www.arxiv.org/pdf/2512.05485
+- **Languages:** Arabic, English, Multilingual
+- **Benchmark:** TeleAI-Safety
+- **Abstract:** Here are the web search results for "transliterated text LLM evaluation safety bypass": The search revealed several relevant research areas related to how LLMs handle transliterated text and safety mechanisms: Key Findings: Arabic Transliteration as a Safety Bypass Vector Research demonstrates that the use of Arabic chatspeak and transliteration could reveal LLM vulnerabilities that could be further exploited by adversaries. In one example, after mixing transliterated words with Arabi
+- **Source Agent(s):** D3
+
+### 295. Conditioning LLMs to Generate Code-Switched Text
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2502.12924](https://arxiv.org/abs/2502.12924)
+- **URL:** https://arxiv.org/html/2502.12924
+- **Languages:** Code-switching, English, Hindi
+- **Abstract:** I found several highly relevant research papers on code-switching, sentiment analysis, Hindi-English language mixing, and LLM benchmarks from recent arXiv submissions. Here are the key findings: Recent Benchmarks and Datasets Two benchmarks exist to evaluate model performance on code-switched text: LINCE, which covers tasks such as Part Of Speech tagging or Sentiment Analysis; and GLUECoS, which focuses on NLU tasks for Hindi-English.
+- **Source Agent(s):** D3
+
+### 296. SwitchLingua : The First Large-Scale Multilingual and Multi-Ethnic Code-Switching Dataset
+- **Authors:** 
+- **Year:** 2025
+- **arXiv:** [2506.00087](https://arxiv.org/abs/2506.00087)
+- **URL:** https://arxiv.org/html/2506.00087v1
+- **Languages:** Code-switching, English, Hindi, Multilingual
+- **Benchmark:** SwitchLingua
+- **Abstract:** I found several highly relevant research papers on code-switching, sentiment analysis, Hindi-English language mixing, and LLM benchmarks from recent arXiv submissions. Here are the key findings: Recent Benchmarks and Datasets Two benchmarks exist to evaluate model performance on code-switched text: LINCE, which covers tasks such as Part Of Speech tagging or Sentiment Analysis; and GLUECoS, which focuses on NLU tasks for Hindi-English.
+- **Source Agent(s):** D3
+
+### 297. CodeMixBench: Evaluating Large Language Models on Code Generation with Code-Mixed Prompts
+- **Authors:** Yilun Yang
+- **Year:** 2025
+- **arXiv:** [2505.05063](https://arxiv.org/abs/2505.05063)
+- **URL:** https://arxiv.org/html/2505.05063v1
+- **Languages:** Code-switching, English, Hindi
+- **Benchmark:** CodeMixBench
+- **Abstract:** I found several highly relevant research papers on code-switching, sentiment analysis, Hindi-English language mixing, and LLM benchmarks from recent arXiv submissions. Here are the key findings: Recent Benchmarks and Datasets Two benchmarks exist to evaluate model performance on code-switched text: LINCE, which covers tasks such as Part Of Speech tagging or Sentiment Analysis; and GLUECoS, which focuses on NLU tasks for Hindi-English.
+- **Source Agent(s):** D3
 
 ## Already in Vault (skipped)
 
@@ -1645,8 +2637,8 @@
 | Ethical Reasoning and Moral Value Alignment of LLMs Depend o | 2024-Agarwal-Ethical Reasoning Depends on Language.md | Chinese, English, Hindi, Russian, Spanish, Swahili |
 | One Model, Many Morals: Uncovering Cross-Linguistic Misalign | 2025-Farid-One Model, Many Morals.md | Chinese, English, German, Hindi, Russian, Spanish, Urdu |
 | Are Rules Meant to be Broken? Understanding Multilingual Mor | 2025-Kumar-Are Rules Meant to be Broken.md | Arabic, Chinese, English, Hindi, Russian, Spanish |
-| Moral Reasoning Across Languages: The Critical Role of Low-R | 2025-Zhou-Moral Reasoning Across Languages.md | Arabic, Chinese, English, Hindi, Indonesian, Multiple including Hindi, Arabic and low-resource languages, Russian, Spanish, Vietnamese |
-| Measuring Moral LLM Responses in Multilingual Capacities | 2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.md | Multiple high and low-resource languages, multiple low and high-resource languages |
+| Moral Reasoning Across Languages: The Critical Role of Low-R | 2025-Zhou-Moral Reasoning Across Languages.md | Arabic, Chinese, English, Hindi, Indonesian, Multilingual, Multiple including Hindi, Arabic and low-resource languages, Russian, Spanish, Vietnamese |
+| Measuring Moral LLM Responses in Multilingual Capacities | 2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.md | Chinese, English, Multilingual, Multiple high and low-resource languages, multiple low and high-resource languages |
 | Indian-BhED: A Dataset for Measuring India-Centric Biases in | 2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md | English, Hindi |
 | IndiBias: A Benchmark Dataset to Measure Social Biases in La | 2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context.md | English, Hindi |
 | BharatBBQ: A Multilingual Bias Benchmark for Question Answer | 2025-results-BharatBBQ A Multilingual Bias Benchmark for.md | Assamese, Bengali, English, Hindi, Marathi, Odia, Tamil, Telugu |
@@ -1663,9 +2655,9 @@
 | An Evaluation of Cultural Value Alignment in LLM | 2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM.md | 20 countries' languages including Hindi, Arabic, Bengali, Chinese, Dutch, English, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Multiple, Multiple including Russian, Polish, Portuguese, Russian, Spanish, Swedish, Thai, Turkish, Vietnamese, and 19 other country-language pairs, multiple (20 countries) |
 | Common to Whom? Regional Cultural Commonsense and LLM Bias i | 2026-results-Common to Whom Regional Cultural Commonsense.md | English, English (India-focused), English (with regional Indian cultural content from North, South, East, West, Central India), Hindi |
 | CDEval: A Benchmark for Measuring the Cultural Dimensions of | 2024-Sang-CDEval A Benchmark for Measuring the.md | Arabic, Chinese, English, English (primarily), French, Multiple (Hofstede cultural dimensions), Multiple (Hofstede dimensions for many cultures including German), Multiple (cultural dimensions framework), Portuguese, Spanish, and others |
-| LLM-GLOBE: A Benchmark Evaluating the Cultural Values Embedd | 2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural.md | Arabic, Chinese, English, French, German, Japanese, Multiple (62 societies), Multiple (GLOBE framework countries), Multiple (GLOBE framework covers many cultures), Portuguese, Spanish, multilingual |
+| LLM-GLOBE: A Benchmark Evaluating the Cultural Values Embedd | 2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural.md | Arabic, Chinese, English, French, German, Japanese, Multilingual, Multiple (62 societies), Multiple (GLOBE framework countries), Multiple (GLOBE framework covers many cultures), Portuguese, Spanish, multilingual |
 | BLEnD: A Benchmark for LLMs on Everyday Knowledge in Diverse | 2024-Bang-BLEnD A Benchmark for LLMs on.md | 13 languages across 16 countries (may include Thai), 13 languages from 16 countries/regions, 13 languages including Assamese and other low-resource languages, Amharic, Arabic, Assamese, Azerbaijani, Basque, Bengali, Chinese, English, Greek, Hausa, Hindi, Indonesian, Japanese, Javanese, Korean, Portuguese, Sinhala, Spanish, Sundanese, Tamil, Turkish, and 5 others |
-| Multilingual != Multicultural: Evaluating Gaps Between Multi | 2025-Rystrøm-Multilingual Multicultural Evaluating Gaps Between Multilingual.md | Danish, Dutch, English, Portuguese |
+| Multilingual != Multicultural: Evaluating Gaps Between Multi | 2025-Rystrøm-Multilingual Multicultural Evaluating Gaps Between Multilingual.md | Arabic, Danish, Dutch, English, Multilingual, Portuguese, Turkish |
 | Culturally-Aware Conversations: A Framework & Benchmark for  | 2025-Unknown-Culturally-Aware Conversations A Framework Benchmark for.md | Multiple (cross-cultural) |
 | UrduBench: An Urdu Reasoning Benchmark using Contextually En | 2026-Unknown-UrduBench An Urdu Reasoning Benchmark using.md | Urdu |
 | Generalists vs. Specialists: Evaluating Large Language Model | 2024-Unknown-Generalists vs Specialists Evaluating Large Language.md | Urdu |
@@ -1687,16 +2679,16 @@
 | ViMUL: A Culturally-diverse Multilingual Multimodal Video Be | 2025-team-ViMUL A Culturally-diverse Multilingual Multimodal Video.md | Arabic, Bengali, Chinese, English, French, German, Hindi, Japanese, Russian, Sinhala, Spanish, Swedish, Tamil, Urdu |
 | IndicLLMSuite: A Blueprint for Creating Pre-training and Fin | 2024-team-IndicLLMSuite A Blueprint for Creating Pre-training.md | Hindi, Marathi, Nepali, Urdu, and 18 more Indic languages |
 | BharatBench: Comprehensive Multilingual Multimodal Evaluatio | 2025-team-BharatBench Comprehensive Multilingual Multimodal Evaluations of.md | Hindi, Marathi, Nepali, Urdu, and more Indic languages |
-| Benchmarking Hindi LLMs: A New Suite of Datasets and a Compa | 2025-Unknown-Benchmarking Hindi LLMs A New Suite.md | Hindi |
+| Benchmarking Hindi LLMs: A New Suite of Datasets and a Compa | 2025-Unknown-Benchmarking Hindi LLMs A New Suite.md | Code-switching, English, Hindi |
 | HindiLLM: Large Language Model for Hindi | 2024-Unknown-HindiLLM Large Language Model for Hindi.md | Hindi |
 | Airavata: Introducing Hindi Instruction-tuned LLM | 2024-Unknown-Airavata Introducing Hindi Instruction-tuned LLM.md | Hindi |
 | ParamBench: A Graduate-Level Benchmark for Evaluating LLMs i | 2025-Unknown-ParamBench A Graduate-Level Benchmark for Evaluating.md | Hindi |
 | Analysis of Indic Language Capabilities in LLMs | 2025-funded-Analysis of Indic Language Capabilities in.md | Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu, and other Indic languages |
-| Bhaasha, Bhasa, Zaban: A Survey for Low-Resourced Languages  | 2025-Poria-Bhaasha Bhasa Zaban A Survey for.md | Balochi, Bengali, Hindi, Marathi, Nepali, Pashto, Persian, Tamil, Telugu, Urdu, and many more South Asian languages, others |
+| Bhaasha, Bhasa, Zaban: A Survey for Low-Resourced Languages  | 2025-Poria-Bhaasha Bhasa Zaban A Survey for.md | Balochi, Bengali, Hindi, Kyrgyz, Marathi, Nepali, Pashto, Persian, Tamil, Telugu, Turkish, Urdu, and many more South Asian languages, others |
 | Re-contextualizing Fairness in NLP: The Case of India | 2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case.md | English, Hindi, Multiple Indian languages, multiple Indian languages |
 | Benchmarking Pre-trained Large Language Models' Potential Ac | 2024-Unknown-Benchmarking Pre-trained Large Language Models Potential.md | Urdu |
 | MahaMarathi-7B: Marathi Large Language Model | 2024-team-MahaMarathi-7B Marathi Large Language Model.md | Marathi |
-| CultureLLM: Incorporating Cultural Differences into Large La | 2024-Xie-CultureLLM Incorporating Cultural Differences into Large.md | 9 cultures including rich and low-resource languages, Arabic, Bengali, Chinese, English, German, Japanese, Korean, Multiple cultures, Multiple cultures/languages, Multiple cultures/languages (World Value Survey based), Multiple languages, Portuguese, Spanish, Turkish, Yoruba |
+| CultureLLM: Incorporating Cultural Differences into Large La | 2024-Xie-CultureLLM Incorporating Cultural Differences into Large.md | 9 cultures including rich and low-resource languages, Arabic, Bengali, Chinese, English, German, Japanese, Korean, Multilingual, Multiple cultures, Multiple cultures/languages, Multiple cultures/languages (World Value Survey based), Multiple languages, Portuguese, Spanish, Turkish, Yoruba |
 | UrduLM: A Resource-Efficient Monolingual Urdu Language Model | 2026-Unknown-UrduLM A Resource-Efficient Monolingual Urdu Language.md | Urdu |
 | On Limitations of LLM as Annotator for Low Resource Language | 2024-Unknown-On Limitations of LLM as Annotator for Low Resource Languages Marathi.md | Marathi |
 | Breaking Language Barriers: A Question-Answering Dataset for | 2023-Unknown-Breaking Language Barriers A Question-Answering Dataset.md | Hindi, Marathi |
@@ -1709,7 +2701,7 @@
 | Overview of the Multilingual Text Detoxification Task at PAN | 2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025.md | Amharic, Arabic, Chinese, English, French, German, Hebrew, Hindi, Hinglish, Italian, Japanese, Russian, Spanish, Tatar, Ukrainian |
 | TextDetox Multilingual Toxicity Dataset | 2025-Dementieva-TextDetox Multilingual Toxicity Dataset.md | Amharic, Arabic, Chinese, English, French, German, Hebrew, Hindi, Hinglish, Italian, Japanese, Russian, Spanish, Tatar, Ukrainian |
 | CulturalBench: A Robust, Diverse, and Challenging Cultural B | 2025-Chiu-CulturalBench.md | 45 global regions including Eastern European, 45 global regions including Middle East, 45 global regions including SEA countries, Chinese, English, Hebrew, Hindi, Multiple (45 global regions), Multiple (45 regions including Middle East), Portuguese, Swahili |
-| Global MMLU: Understanding and Addressing Cultural and Lingu | 2024-Hooker-Global MMLU Understanding and Addressing Cultural.md | 42 languages including Russian, Ukrainian, 42 languages including Somali, Swahili, Yoruba, 42 languages including multiple Indic languages, Amharic, Arabic, Bengali, Chinese, Czech, Dutch, English, Filipino, Filipino/Tagalog, French, German, Greek, Hausa, Hebrew, Hindi, Igbo, Indonesian, Italian, Japanese, Korean, Kyrgyz, Lithuanian, Malagasy, Malay, Nepali, Nyanja, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Shona, Sinhala, Somali, Spanish, Swahili, Swedish, Telugu, Turkish, Ukrainian, Vietnamese, Yoruba, and 39 other languages |
+| Global MMLU: Understanding and Addressing Cultural and Lingu | 2024-Hooker-Global MMLU Understanding and Addressing Cultural.md | 42 languages including Russian, Ukrainian, 42 languages including Somali, Swahili, Yoruba, 42 languages including multiple Indic languages, Amharic, Arabic, Bengali, Chinese, Czech, Dutch, English, Filipino, Filipino/Tagalog, French, German, Greek, Hausa, Hebrew, Hindi, Igbo, Indonesian, Italian, Japanese, Korean, Kyrgyz, Lithuanian, Malagasy, Malay, Multilingual, Nepali, Nyanja, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Shona, Sinhala, Somali, Spanish, Swahili, Swedish, Telugu, Turkish, Ukrainian, Vietnamese, Yoruba, and 39 other languages |
 | Adapting LLMs to Hebrew: Unveiling DictaLM 2.0 with Enhanced | 2024-Koppel-Adapting LLMs to Hebrew Unveiling DictaLM.md | English, Hebrew |
 | Dicta-LM 3.0: Advancing The Frontier of Hebrew Sovereign LLM | 2025-Shmidman-Dicta-LM 3.0 Advancing The Frontier of Hebrew Sovereign LLMs.md | English, Hebrew |
 | Introducing DictaLM -- A Large Generative Language Model for | 2023-Shmidman-Introducing DictaLM - A Large Generative Language Model for Modern.md | Hebrew |
@@ -1723,14 +2715,14 @@
 | HalleluBERT: Let every token that has meaning bear its weigh | 2025-Unknown-HalleluBERT Let every token that has meaning bear its weight.md | Hebrew |
 | HeRo: RoBERTa and Longformer Hebrew Language Models | 2023-Shalumov-HeRo RoBERTa and Longformer Hebrew Language Models.md | Hebrew |
 | Self-Alignment: Improving Alignment of Cultural Values in LL | 2024-Yao-Self-Alignment Improving Alignment of Cultural Values in LLMs via.md | English, multiple via WVS |
-| Break the Checkbox: Challenging Closed-Style Evaluations of  | 2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md | Arabic, Chinese, English, French, German, Hindi, Japanese, Korean, Russian, Spanish, multiple native languages |
-| MAPS: A Multilingual Benchmark for Global Agent Performance  | 2025-Unknown-MAPS A Multilingual Benchmark for Global Agent Performance and.md | Arabic, German, Hebrew, Hindi, Italian, Japanese, Korean, Portuguese, Russian, Spanish |
+| Break the Checkbox: Challenging Closed-Style Evaluations of  | 2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md | Arabic, Chinese, English, French, German, Hindi, Japanese, Korean, Multilingual, Russian, Spanish, multiple native languages |
+| MAPS: A Multilingual Benchmark for Agent Performance and Sec | 2025-Unknown-MAPS A Multilingual Benchmark for Global Agent Performance and.md | Arabic, German, Hebrew, Hindi, Italian, Japanese, Korean, Multilingual, Portuguese, Russian, Spanish, Uyghur |
 | Neural Modeling for Named Entities and Morphology (NEMO2) | 2021-Bareket-Neural Modeling for Named Entities and Morphology NEMO2.md | Hebrew |
 | MTQE.en-he: Machine Translation Quality Estimation for Engli | 2025-Unknown-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew.md | English, Hebrew |
 | Using LLMs to discover emerging coded antisemitic hate-speec | 2024-University-Using LLMs to Discover Emerging Coded.md | English |
 | Jochre 3 and the Yiddish OCR corpus | 2025-Urieli-Jochre 3 and the Yiddish OCR corpus.md | Yiddish |
 | A Multi-Orthography Parallel Corpus of Yiddish Nouns | 2020-Unknown-A Multi-Orthography Parallel Corpus of Yiddish Nouns.md | Yiddish |
-| XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Re | 2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in.md | Bengali, English, Multiple languages, multiple |
+| XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Re | 2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in.md | Bengali, English, Multilingual, Multiple languages, multiple |
 | MMLU-ProX: A Multilingual Benchmark for Advanced Large Langu | 2025-authors-MMLU-ProX A Multilingual Benchmark for Advanced.md | 29 languages, 29 languages (likely includes Turkish), 29 languages (may include Greek), 29 languages including Russian, Ukrainian, Arabic, Chinese, Czech, English, French, German, Hindi, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, and 27 other languages |
 | Open Leaderboard for Hebrew LLMs | 2024-community-Open Leaderboard for Hebrew LLMs.md | Hebrew |
 | Monitoring the evolution of antisemitic discourse on extremi | 2024-University-Monitoring the Evolution of Antisemitic Discourse.md | English |
@@ -1741,7 +2733,7 @@
 | TeSent: A Benchmark Dataset for Fairness-aware Explainable S | 2025-results-TeSent A Benchmark Dataset for Fairness-aware.md | Telugu |
 | MATA (mata): Mindful Assessment of the Telugu Abilities of L | 2025-Kranti-MATA mata Mindful Assessment of the.md | Telugu |
 | From Phonemes to Meaning: Evaluating Large Language Models o | 2025-results-From Phonemes to Meaning Evaluating Large.md | Tamil |
-| Toxicity Red-Teaming: Benchmarking LLM Safety in Singapore's | 2025-results-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.md | Chinese, Malay, Singlish, Tamil |
+| Toxicity Red-Teaming: Benchmarking LLM Safety in Singapore's | 2025-results-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.md | Chinese, Malay, Multilingual, Singlish, Tamil |
 | RabakBench: Scaling Human Annotations to Construct Localized | 2025-Chua-RabakBench.md | Chinese, Malay, Singlish, Tamil |
 | DECASTE: Unveiling Caste Stereotypes in Large Language Model | 2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large.md | English (India caste context) |
 | SEA-HELM: Southeast Asian Holistic Evaluation of Language Mo | 2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models.md | Filipino, Filipino/Tagalog, Indonesian, Javanese, Malay, Sundanese, Tamil, Thai, Vietnamese |
@@ -1754,18 +2746,18 @@
 | MFTCXplain: A Multilingual Benchmark Dataset for Evaluating  | 2025-Trager-MFTCXplain.md | English, Italian, Persian, Portuguese |
 | Hate Speech Detection Research in South Asian Languages: A S | 2025-Deepawali-Hate Speech Detection Research in South Asian Languages A Survey of.md | Bengali, Hindi, Kannada, Malayalam, Sinhala, Tamil, Urdu, and other South Asian languages |
 | Kannada Code-Mixed Abusive Speech Detection (MuRIL-based) | 2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.md | Kannada-English code-mixed |
-| Leveraging Large Language Models for Code-Mixed Data Augment | 2024-results-Leveraging Large Language Models for Code-Mixed.md | Malayalam-English, and others |
+| Leveraging Large Language Models for Code-Mixed Data Augment | 2024-results-Leveraging Large Language Models for Code-Mixed.md | Code-switching, English, Hindi, Malayalam-English, and others |
 | Tamil-Llama: A New Tamil Language Model Based on Llama 2 | 2023-Abhinand-Tamil-Llama A New Tamil Language Model.md | Tamil |
 | Evaluating Telugu Proficiency in Large Language Models: A Co | 2024-results-Evaluating Telugu Proficiency in Large Language.md | Telugu |
 | Indic-QA Benchmark: A Multilingual Benchmark to Evaluate Que | 2024-results-Indic-QA Benchmark A Multilingual Benchmark to.md | 10 Indian languages including Tamil, Telugu, Kannada, Malayalam |
-| Social Bias in Multilingual Language Models: A Survey | 2025-results-Social Bias in Multilingual Language Models.md | Multiple including French, Multiple languages, Survey covering multiple languages including African languages |
+| Social Bias in Multilingual Language Models: A Survey | 2025-results-Social Bias in Multilingual Language Models.md | Arabic, English, Multilingual, Multiple including French, Multiple languages, Survey covering multiple languages including African languages, Welsh |
 | TurkBench: A Benchmark for Evaluating Turkish Large Language | 2026-Darici-TurkBench A Benchmark for Evaluating Turkish.md | Turkish |
 | Cetvel: A Unified Benchmark for Evaluating Language Understa | 2025-Erdem-Cetvel A Unified Benchmark for Evaluating.md | Turkish |
 | TurkishMMLU: Measuring Massive Multitask Language Understand | 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding.md | Turkish |
 | Setting Standards in Turkish NLP: TR-MMLU for Large Language | 2025-community-Setting Standards in Turkish NLP TR-MMLU.md | Turkish |
 | Investigating Gender Bias in Turkish Language Models | 2024-Rehm-Investigating Gender Bias in Turkish Language.md | Turkish |
-| I Am Aligned, But With Whom? MENA Values Benchmark for Evalu | 2025-Asgari-I Am Aligned But With Whom.md | Arabic, English, Persian, Turkish |
-| TUMLU: A Unified and Native Language Understanding Benchmark | 2025-Barov-TUMLU A Unified and Native Language.md | Azerbaijani, Crimean Tatar, Karakalpak, Kazakh, Tatar, Turkish, Uyghur, Uzbek |
+| I Am Aligned, But With Whom? MENA Values Benchmark for Evalu | 2025-Asgari-I Am Aligned But With Whom.md | Arabic, English, Multilingual, Persian, Turkish |
+| TUMLU: A Unified and Native Language Understanding Benchmark | 2025-Barov-TUMLU A Unified and Native Language.md | Azerbaijani, Crimean Tatar, Karakalpak, Kazakh, Kyrgyz, Multilingual, Tatar, Turkish, Uyghur, Uzbek |
 | Qorgau: Evaluating LLM Safety in Kazakh-Russian Bilingual Co | 2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian.md | Kazakh, Russian |
 | KazMMLU: Evaluating Language Models on Kazakh, Russian, and  | 2025-authors-KazMMLU Evaluating Language Models on Kazakh.md | Kazakh, Russian |
 | KazBench-KK: A Cultural-Knowledge Benchmark for Kazakh | 2025-Zubitski-KazBench-KK A Cultural-Knowledge Benchmark for Kazakh.md | Kazakh |
@@ -1788,7 +2780,7 @@
 | Gender Bias in Turkish Word Embeddings | 2024-authors-Gender Bias in Turkish Word Embeddings.md | Turkish |
 | Representing the Under-Represented: Cultural and Core Capabi | 2024-Porkaew-Representing the Under-Represented Cultural and Core.md | Thai |
 | Typhoon 2: A Family of Open Text and Multimodal Thai Large L | 2024-Tharnpipitchai-Typhoon 2 A Family of Open.md | Thai |
-| Assessing Thai Dialect Performance in LLMs with Automatic Be | 2025-Kaewkasi-A Benchmark for Large Language Models on Northern.md | Thai (Isan, Lanna, Southern dialects) |
+| Assessing Thai Dialect Performance in LLMs with Automatic Be | 2025-Kaewkasi-A Benchmark for Large Language Models on Northern.md | Kyrgyz, Thai (Isan, Lanna, Southern dialects), Turkish |
 | WangchanThaiInstruct: An Instruction-Following Dataset for C | 2025-team-WangchanThaiInstruct An Instruction-Following Dataset for Culture-Aware.md | Thai |
 | WangchanBERTa: Pretraining transformer-based Thai Language M | 2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models.md | Thai |
 | Debiasing Large Language Models in Thai Political Stance Det | 2025-results-Debiasing Large Language Models in Thai.md | Thai |
@@ -1822,7 +2814,7 @@
 | IrokoBench: A New Benchmark for African Languages in the Age | 2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs.md | 16 African languages, Amharic, English, Ewe, French, Hausa, Igbo, Kinyarwanda, Lingala, Luganda, Oromo, Sesotho, Swahili, Twi, Wolof, Yoruba, chiShona, isiXhosa, isiZulu |
 | AfriHate: A Multilingual Collection of Hate Speech and Abusi | 2025-Ousidhoum-AfriHate A Multilingual Collection of Hate.md | Algerian Arabic, Amharic, Hausa, Igbo, Kinyarwanda, Moroccan Arabic, Nigerian Pidgin, Oromo, Somali, Swahili, Tigrinya, Twi, Yoruba, isiXhosa, isiZulu |
 | AfriSenti: A Twitter Sentiment Analysis Benchmark for Africa | 2023-Muhammad-AfriSenti.md | Algerian Arabic, Amharic, Hausa, Igbo, Kinyarwanda, Moroccan Arabic, Mozambican Portuguese, Nigerian Pidgin, Oromo, Swahili, Tigrinya, Twi, Xitsonga, Yoruba |
-| Cultural Fidelity in Large-Language Models: An Evaluation of | 2024-Prabhakar-Cultural Fidelity in Large-Language Models An.md | Multiple languages including low-resource African languages |
+| Cultural Fidelity in Large-Language Models: An Evaluation of | 2024-Prabhakar-Cultural Fidelity in Large-Language Models An.md | English, Multiple languages including low-resource African languages |
 | Bridging the Gap: Enhancing LLM Performance for Low-Resource | 2024-Chabot-Couture-Bridging the Gap Enhancing LLM Performance.md | Afrikaans, Amharic, Bambara, Igbo, Sepedi, Sesotho, Setswana, Shona, Tsonga, Xhosa, Zulu |
 | AfroBench: How Good are Large Language Models on African Lan | 2023-Ojo-AfroBench - How Good are LLMs on African Languages.md | 64 African languages including Swahili, Yoruba, Hausa, Igbo, Amharic, Zulu, Twi, Wolof, Somali |
 | Where Are We? Evaluating LLM Performance on African Language | 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance.md | 517 African languages and varieties |
@@ -1870,7 +2862,7 @@
 | A Deep Learning Framework for the Detection of Malay Hate Sp | 2023-Unknown-A Deep Learning Framework for the Detection of Malay Hate Speech.md | Malay |
 | A Bilingual Malay-English Social Media Dataset for Binary Ha | 2025-Unknown-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech.md | English, Malay |
 | Kalahi: A handcrafted, grassroots cultural LLM evaluation su | 2024-Unknown-Kalahi A handcrafted grassroots cultural LLM evaluation suite for.md | Filipino/Tagalog |
-| Batayan: A Filipino NLP benchmark for evaluating Large Langu | 2025-Catapia-Batayan.md | Filipino/Tagalog |
+| Batayan: A Filipino NLP benchmark for evaluating Large Langu | 2025-Catapia-Batayan.md | Code-switching, English, Filipino/Tagalog |
 | FilBench: Can LLMs Understand and Generate Filipino? | 2025-Unknown-FilBench Can LLMs Understand and Generate Filipino.md | Cebuano, Filipino/Tagalog |
 | Filipino Benchmarks for Measuring Sexist and Homophobic Bias | 2025-Unknown-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in.md | Filipino/Tagalog |
 | SeaEval for Multilingual Foundation Models: From Cross-Lingu | 2023-Unknown-SeaEval for Multilingual Foundation Models From Cross-Lingual.md | Filipino/Tagalog, Indonesian, Malay |
@@ -1880,7 +2872,7 @@
 | IndoNLG: Benchmark and Resources for Evaluating Indonesian N | 2021-Unknown-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.md | Indonesian, Javanese, Sundanese |
 | IndoNLU: Benchmark and Resources for Evaluating Indonesian N | 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural.md | Indonesian |
 | IndoLEM and IndoBERT: A Benchmark Dataset and Pre-trained La | 2020-Unknown-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.md | Indonesian |
-| PolygloToxicityPrompts: Multilingual Evaluation of Neural To | 2024-Jain-PolygloToxicityPrompts.md | 17 languages including French, Arabic, Chinese, Dutch, English, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Portuguese, Russian, Spanish, Thai, Turkish, Vietnamese |
+| PolygloToxicityPrompts: Multilingual Evaluation of Neural To | 2024-Jain-PolygloToxicityPrompts.md | 17 languages including French, Arabic, Chinese, Dutch, English, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Multilingual, Portuguese, Russian, Spanish, Thai, Turkish, Vietnamese |
 | Komodo: A Linguistic Expedition into Indonesia's Regional La | 2024-Unknown-Komodo A Linguistic Expedition into Indonesia's Regional Languages.md | Indonesian, Javanese, Sundanese |
 | LoraxBench: A Multitask, Multilingual Benchmark Suite for 20 | 2025-Unknown-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.md | Indonesian, Javanese, Sundanese |
 | Bias Beyond English: Evaluating Social Bias and Debiasing Me | 2025-Unknown-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.md | Indonesian |
@@ -1938,7 +2930,7 @@
 | The 'Colonial Impulse' of Natural Language Processing: An Au | 2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of.md | Bengali |
 | Social Bias in Large Language Models For Bangla: An Empirica | 2024-Sadhu-Social Bias in Large Language Models.md | Bengali |
 | Exploring Bengali Religious Dialect Biases in Large Language | 2024-Unknown-Exploring Bengali Religious Dialect Biases in Large Language Models.md | Bengali |
-| Is Lying Only Sinful in Islam? Exploring Religious Bias in M | 2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.md | Bengali, English |
+| Is Lying Only Sinful in Islam? Exploring Religious Bias in M | 2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.md | Arabic, Bengali, English |
 | Cross-Lingual Probing and Community-Grounded Analysis of Gen | 2026-Unknown-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias.md | Bengali |
 | ChatGPT Perpetuates Gender Bias in Machine Translation and I | 2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores.md | Bengali, Farsi, Malay, Tagalog, Thai, Turkish |
 | Gender Bias Mitigation for Bangla Classification Tasks | 2024-Joy-Gender Bias Mitigation for Bangla Classification Tasks.md | Bengali |
@@ -1975,7 +2967,7 @@
 | Toxic Language Detection in Social Media for Brazilian Portu | 2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New.md | Portuguese |
 | OLID-BR: Offensive Language Identification Dataset for Brazi | 2024-Trajano-OLID-BR Offensive Language Identification Dataset for Brazilian.md | Portuguese |
 | Exploring Multilingual Concepts of Human Value in Large Lang | 2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language.md | Arabic, Chinese, English, French, German, Hindi, Indonesian, Japanese, Korean, Portuguese, Russian, Spanish, Swahili, Thai, Turkish, Vietnamese |
-| Whose Morality Do They Speak? Unraveling Cultural Bias in Mu | 2024-Aksoy-Whose Morality Do They Speak.md | Arabic, Chinese, English, Farsi, French, Japanese, Russian, Spanish |
+| Whose Morality Do They Speak? Unraveling Cultural Bias in Mu | 2024-Aksoy-Whose Morality Do They Speak.md | Arabic, Chinese, English, Farsi, French, Japanese, Multilingual, Russian, Spanish |
 | Decoding Multilingual Moral Preferences: Unveiling LLM's Bia | 2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.md | Arabic, Chinese, English, French, German, Hindi, Italian, Japanese, Korean, Portuguese, Russian, Spanish, multiple including 10 languages |
 | IberBench: LLM Evaluation on Iberian Languages | 2025-González-Borrego-IberBench LLM Evaluation on Iberian Languages.md | Basque, Catalan, English, Galician, Portuguese, Spanish |
 | La Leaderboard: A Large Language Model Leaderboard for Spani | 2025-retrieved-La Leaderboard A Large Language Model Leaderboard for Spanish.md | Basque, Catalan, Galician, Spanish |
@@ -2038,7 +3030,7 @@
 | Understanding LLM Development Through Longitudinal Study: In | 2024-Park-Understanding LLM Development Through Longitudinal Study Insights.md | Korean |
 | Ko-MuSR: A Multistep Soft Reasoning Benchmark for LLMs Capab | 2025-Park-Ko-MuSR A Multistep Soft Reasoning Benchmark for LLMs Capable of.md | Korean |
 | Evaluation of Social Bias Classification Performance of LLMs | 2025-Unknown-Evaluation of Social Bias Classification Performance of LLMs Using.md | Korean |
-| Towards Realistic Evaluation of Cultural Value Alignment in  | 2025-Unknown-Towards Realistic Evaluation of Cultural Value Alignment in Large.md | Arabic, Chinese, English, French, German, Hindi, Japanese, Korean, Russian, Spanish |
+| Towards Realistic Evaluation of Cultural Value Alignment in  | 2025-Unknown-Towards Realistic Evaluation of Cultural Value Alignment in Large.md | Arabic, Chinese, English, French, German, Hindi, Japanese, Korean, Multilingual, Russian, Spanish |
 | Adaptive Ensemble Techniques Leveraging BERT-based Models fo | 2025-Unknown-Adaptive Ensemble Techniques Leveraging BERT-based Models for.md | English, Korean |
 | IberoBench: A Benchmark for LLM Evaluation in Iberian Langua | 2025-Simões-IberoBench A Benchmark for LLM Evaluation in Iberian Languages.md | Basque, Catalan, Galician, Portuguese, Spanish |
 | SESGO: Spanish Evaluation of Stereotypical Generative Output | 2025-Simões-SESGO Spanish Evaluation of Stereotypical Generative Outputs.md | Spanish |
@@ -2068,7 +3060,7 @@
 | TELEIA: A Spanish Language Dataset for Evaluating Artificial | 2025-Unknown-TELEIA A Spanish Language Dataset for Evaluating Artificial.md | Spanish |
 | Overview of the Multilingual Text Detoxification Task at PAN | 2024-Unknown-Overview of the Multilingual Text Detoxification Task at PAN 2024.md | Amharic, Arabic, Chinese, English, German, Hindi, Russian, Spanish, Ukrainian |
 | Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks | 2025-Carballo-Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on.md | Basque, Catalan, English, Galician, Portuguese, Spanish |
-| The Bitter Lesson Learned from 2,000+ Multilingual Benchmark | 2025-Unknown-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks.md | Arabic, Chinese, English, French, German, Japanese, Korean, Portuguese, Russian, Spanish |
+| The Bitter Lesson Learned from 2,000+ Multilingual Benchmark | 2025-Unknown-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks.md | Arabic, Chinese, English, French, German, Japanese, Korean, Multilingual, Portuguese, Russian, Spanish |
 | The State of Multilingual LLM Safety Research: From Measurin | 2025-Unknown-The State of Multilingual LLM Safety Research From Measuring the.md | Arabic, Chinese, English, French, German, Hindi, Russian, Spanish |
 | Evaluation of Hate Speech Detection Using Large Language Mod | 2025-Unknown-Evaluation of Hate Speech Detection Using Large Language Models and.md | Arabic, English, French, German, Spanish |
 | MERA: A Comprehensive LLM Evaluation in Russian | 2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.md | Russian |
@@ -2145,7 +3137,7 @@
 | SMTCE: A Social Media Text Classification Evaluation Benchma | 2022-Nguyen-SMTCE A Social Media Text Classification Evaluation Benchmark and.md | Vietnamese |
 | ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answ | 2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering.md | Vietnamese |
 | VLegal-Bench: Cognitively Grounded Benchmark for Vietnamese  | 2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.md | Vietnamese |
-| Untangling Input Language from Reasoning Language: A Diagnos | 2025-Unknown-Untangling Input Language from Reasoning Language A Diagnostic.md | Chinese, English |
+| Untangling Input Language from Reasoning Language: A Diagnos | 2025-Unknown-Untangling Input Language from Reasoning Language A Diagnostic.md | Chinese, English, Multilingual |
 | Abusive Span Detection for Vietnamese Narrative Texts | 2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts.md | Vietnamese |
 | Emotion Recognition for Vietnamese Social Media Text | 2019-Phuong-Emotion Recognition for Vietnamese Social Media Text.md | Vietnamese |
 | UIT-VSFC: Vietnamese Students' Feedback Corpus for Sentiment | 2018-Nguyen-UIT-VSFC Vietnamese Students' Feedback Corpus for Sentiment Analysis.md | Vietnamese |
@@ -2156,9 +3148,151 @@
 | A New Benchmark Dataset and Mixture-of-Experts Language Mode | 2024-Unknown-A New Benchmark Dataset and Mixture-of-Experts Language Models for.md | Vietnamese |
 | VM14K: First Vietnamese Medical Benchmark | 2025-Unknown-VM14K First Vietnamese Medical Benchmark.md | Vietnamese |
 | Histoires Morales: A French Dataset for Assessing Moral Alig | 2025-Leteno-Histoires Morales.md | French |
+| compar:IA: The French Government's LLM arena to collect Fren | 2025-team-comparIA The French Government's LLM arena to collect French-language.md | French |
+| ToxiFrench: Benchmarking and Enhancing Language Models via C | 2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT.md | French |
+| FrenchToxicityPrompts: a Large Benchmark for Evaluating and  | 2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating.md | French |
+| French CrowS-Pairs: Extending a challenge dataset for measur | 2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social.md | French |
+| CroissantLLM: A Truly Bilingual French-English Language Mode | 2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model.md | English, French |
+| M-ALERT: LLMs Lost in Translation: M-ALERT uncovers Cross-Li | 2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.md | English, French, German, Italian, Spanish |
+| AILuminate LLM v1.1: Adding French Language Capabilities to  | 2025-Group-AILuminate LLM v1.1 Adding French Language Capabilities to.md | English, French |
 | FairLex: A Multilingual Benchmark for Evaluating Fairness in | 2022-Chalkidis-FairLex.md | Chinese, English, French, German, Italian |
+| HateDay: Insights from a Global Hate Speech Dataset Represen | 2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of.md | Arabic, English, French, German, Indonesian, Portuguese, Spanish, Turkish |
+| LinguaSafe: A Comprehensive Multilingual Safety Benchmark fo | 2025-Ning-LinguaSafe A Comprehensive Multilingual Safety Benchmark for Large.md | 12 languages including French |
+| COLE: a Comprehensive Benchmark for French Language Understa | 2025-Unknown-COLE a Comprehensive Benchmark for French Language Understanding.md | French |
+| Low-Resource Dialect Adaptation of Large Language Models: A  | 2025-Unknown-Low-Resource Dialect Adaptation of Large Language Models A French.md | French, Quebecois French |
+| QFrCoLA: a Quebec-French Corpus of Linguistic Acceptability  | 2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.md | Quebecois French |
 | FairTranslate: An English-French Dataset for Gender Bias Eva | 2025-Jourdan-FairTranslate.md | English, French |
+| XSafety: Multilingual Safety Benchmark | 2024-Wang-XSafety Multilingual Safety Benchmark.md | Arabic, Bengali, Chinese, English, French, German, Hindi, Japanese, Russian, Spanish |
+| Cross-Language Bias Examination in Large Language Models | 2024-Liang-Cross-Language Bias Examination in Large Language Models.md | Arabic, Chinese, English, French, Spanish |
+| PAGnol: An Extra-Large French Generative Model | 2022-Launay-PAGnol An Extra-Large French Generative Model.md | French |
+| Preference Tuning For Toxicity Mitigation Generalizes Across | 2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages.md | 17 languages including French |
+| MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as | 2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge.md | 122 languages for consistency, 18 languages including French |
+| Improving Methodologies for LLM Evaluations Across Global La | 2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages.md | Cantonese, English, Farsi, French, Japanese, Kiswahili, Korean, Malay, Mandarin Chinese, Telugu |
 | CQ-Bench: Benchmarking LLMs' Cultural Intelligence | 2025-Liu-Can LLMs Grasp Implicit Cultural Values.md | Multiple (cross-cultural) |
+| MultiNRC: A Challenging and Native Multilingual Reasoning Ev | 2025-team-MultiNRC A Challenging and Native Multilingual Reasoning Evaluation.md | Chinese, French, Spanish |
+| INCLUDE: Evaluating Multilingual Language Understanding with | 2024-authors-INCLUDE Evaluating Multilingual Language Understanding with Regional.md | 44 languages including French, Albanian, Armenian, Georgian, Greek, Maltese, and 39 other languages |
+| Evaluating Gender Bias in Machine Translation (WinoMT) | 2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT.md | Arabic, Czech, English, French, Hebrew, Italian, Polish, Russian, Spanish, Ukrainian |
+| Cultural Differences in Bias? Origin and Gender Bias in Pre- | 2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained.md | French, German |
+| A World Full of Stereotypes? Further Investigation on Origin | 2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and.md | French, German, Italian, Swedish |
+| FrenchMedMCQA: A French Multiple-Choice Question Answering D | 2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.md | French |
+| Vigogne: French instruction-following and chat models | 2023-Huang-Vigogne French instruction-following and chat models.md | French |
+| AI-driven detection of hate speech on social media: a case s | 2025-Unknown-AI-driven detection of hate speech on social media a case study in.md | French |
+| MEXA: Multilingual Evaluation of English-Centric LLMs via Cr | 2025-Unknown-MEXA Multilingual Evaluation of English-Centric LLMs via.md | Multiple including French |
+| Bias Considerations in Bilingual Natural Language Processing | 2023-Canada-Bias Considerations in Bilingual Natural Language Processing.md | English, French (Canadian) |
+| Multilingual and Multi-Aspect Hate Speech Analysis | 2019-Unknown-Multilingual and Multi-Aspect Hate Speech Analysis.md | Arabic, English, French |
+| help_dicrah: A ML-based hate speech detection tool on Twitte | 2019-collaboration-help_dicrah A ML-based hate speech detection tool on Twitter in French.md | French |
+| AfroBench: Multi-task Benchmark for Evaluating LLMs in Afric | 2024-Lab-AfroBench Multi-task Benchmark for Evaluating LLMs in African.md | 64 African languages, French |
+| Bias and Fairness in Large Language Models: A Survey | 2024-Gallegos-Bias and Fairness in Large Language Models A Survey.md | Chinese, English, Guarani, Hawaiian, Inuktitut, Irish, Maori, Multilingual, Multiple including French, Navajo, Quechua, Welsh |
 | GG-BBQ: German Gender Bias Benchmark for Question Answering | 2025-Satheesh-GG-BBQ.md | German |
+| Toxic Bias: Perspective API Misreads German as More Toxic | 2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic.md | English, German |
+| Dutch CrowS-Pairs: Adapting a Challenge Dataset for Measurin | 2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social.md | Dutch, English, French |
+| DeTox: A Comprehensive Dataset for German Offensive Language | 2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and.md | German |
+| AustroTox: A Dataset for Target-Based Austrian German Offens | 2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive.md | German (Austrian) |
+| SuperGLEBer: German Language Understanding Evaluation Benchm | 2024-Pfister-SuperGLEBer German Language Understanding Evaluation Benchmark.md | German |
+| GermEval 2018 Shared Task on the Identification of Offensive | 2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.md | German |
+| GermEval 2021 Shared Task on the Identification of Toxic, En | 2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.md | German |
+| GAHD: Improving Adversarial Data Collection by Supporting An | 2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -.md | German |
+| HOCON34k: A Corpus of Hate Speech in Online Comments from Ge | 2024-Various-HOCON34k A Corpus of Hate Speech in Online Comments from German.md | German |
+| Digital Guardians: Can GPT-4, Perspective API, and Moderatio | 2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API.md | German |
+| Mapping Toxic Comments Across Demographics: A Dataset from G | 2025-Various-Mapping Toxic Comments Across Demographics A Dataset from German.md | German |
+| taz2024full: Analysing German Newspapers for Gender Bias and | 2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and.md | German |
+| A novel German TikTok hate speech dataset: far-right comment | 2025-Various-A novel German TikTok hate speech dataset far-right comments against.md | German |
+| Large Language Models Discriminate Against Speakers of Germa | 2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects.md | German |
+| Comparative Survey of German Hate Speech Datasets: Backgroun | 2024-Various-Comparative Survey of German Hate Speech Datasets Background.md | German |
+| Hate Speech Detection Using Cross-Platform Social Media Data | 2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In.md | English, German |
+| German HateSpeech Corpus | 2021-Wuerzburg-German HateSpeech Corpus.md | German |
+| LLaMmlein: Transparent, Compact and Competitive German-Only  | 2024-Pfister-LLaMmlein Transparent Compact and Competitive German-Only Language.md | German |
 | Randomness, Not Representation: The Unreliability of Evaluat | 2025-Khan-Randomness Not Representation The Unreliability of Evaluating.md | Multiple |
+| ScandEval: A Benchmark for Scandinavian Natural Language Pro | 2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing.md | Danish, Faroese, Icelandic, Norwegian, Swedish |
+| NorBench: A Benchmark for Norwegian Language Models | 2023-Oslo-NorBench A Benchmark for Norwegian Language Models.md | Norwegian |
+| NLEBench+NorGLM: A Comprehensive Empirical Analysis and Benc | 2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark.md | Norwegian |
+| NorEval: A Norwegian Language Understanding and Generation E | 2025-Various-NorEval A Norwegian Language Understanding and Generation Evaluation.md | Norwegian |
+| DUMB: A Benchmark for Smart Evaluation of Dutch Models | 2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models.md | Dutch |
+| Towards Fairness Assessment of Dutch Hate Speech Detection | 2025-Various-Towards Fairness Assessment of Dutch Hate Speech Detection.md | Dutch |
+| Evaluating Dutch Social Bias in Large Language Models | 2024-Burema-Evaluating Dutch Social Bias in Large Language Models.md | Dutch |
+| MTEB-NL and E5-NL: Embedding Benchmark and Models for Dutch | 2025-Various-MTEB-NL and E5-NL Embedding Benchmark and Models for Dutch.md | Dutch |
+| DaKultur: Evaluating the Cultural Awareness of Language Mode | 2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for.md | Danish |
+| SDU's DAISY: A Benchmark for Danish Culture | 2026-Lab-SDU's DAISY A Benchmark for Danish Culture.md | Danish |
+| Danoliteracy of Generative Large Language Models | 2024-Various-Danoliteracy of Generative Large Language Models.md | Danish |
+| SnakModel: Lessons Learned from Training an Open Danish Larg | 2024-Various-SnakModel Lessons Learned from Training an Open Danish Large Language.md | Danish |
+| Offensive Language and Hate Speech Detection for Danish (DKH | 2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.md | Danish |
+| DaCy: A Unified Framework for Danish NLP | 2021-Enevoldsen-DaCy A Unified Framework for Danish NLP.md | Danish |
+| The Scandinavian Embedding Benchmarks: Comprehensive Assessm | 2024-Enevoldsen-The Scandinavian Embedding Benchmarks Comprehensive Assessment of.md | Danish, Norwegian, Swedish |
+| Harmful Communication: Detection of Toxic Language and Threa | 2023-University-Harmful Communication Detection of Toxic Language and Threats on.md | Swedish |
+| The Swedish Winogender Dataset (SweWinogender) | 2021-Hansson-The Swedish Winogender Dataset SweWinogender.md | Swedish |
+| WikiQA-IS: Assisted Benchmark Generation and Automated Evalu | 2025-Arnardottir-WikiQA-IS Assisted Benchmark Generation and Automated Evaluation of.md | Icelandic |
+| IcelandicEval: Utilities to generate Icelandic evaluation da | 2024-Miðeind-IcelandicEval Utilities to generate Icelandic evaluation data sets.md | Icelandic |
+| Finnish Hate-Speech Detection on Social Media Using CNN and  | 2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.md | Finnish |
+| Toxicity Detection in Finnish Using Machine Translation | 2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation.md | English, Finnish |
+| Got Compute, but No Data: Lessons From Post-training a Finni | 2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM.md | English, Finnish |
+| GermanBenchmark: German translations of popular LLM benchmar | 2023-LAIONHessian.AI-GermanBenchmark German translations of popular LLM benchmarks.md | German |
+| Towards Multilingual LLM Evaluation for Baltic and Nordic La | 2025-Various-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.md | Lithuanian, Nordic languages |
+| ITALIC: An Italian Culture-Aware Natural Language Benchmark | 2025-Seveso-ITALIC An Italian Culture-Aware Natural Language Benchmark.md | Italian |
+| Evalita-LLM: Benchmarking Large Language Models on Italian | 2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian.md | Italian |
+| CALAMITA: Challenging the Abilities of LAnguage Models in IT | 2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian.md | Italian |
+| GFG -- Gender-Fair Generation: A CALAMITA Challenge | 2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.md | English, Italian |
+| ITA-Bench: Towards a More Comprehensive Evaluation for Itali | 2024-group-ITA-Bench Towards a More Comprehensive Evaluation for Italian LLMs.md | Italian |
+| HATE-ITA: Hate Speech Detection in Italian Social Media Text | 2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text.md | English, Italian |
+| HaSpeeDe 2 @ EVALITA2020: Overview of the EVALITA 2020 Hate  | 2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech.md | Italian |
+| AMI @ EVALITA2020: Automatic Misogyny Identification | 2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification.md | Italian |
+| An Empirical Investigation of Gender Stereotype Representati | 2025-Giachino-An Empirical Investigation of Gender Stereotype Representation in.md | Italian |
+| Identifying Gender Stereotypes and Biases in Automated Trans | 2025-authors-Identifying Gender Stereotypes and Biases in Automated Translation.md | English, Italian |
+| Detecting Racial Stereotypes: An Italian Social Media Corpus | 2023-Bosco-Detecting Racial Stereotypes An Italian Social Media Corpus where.md | Italian |
+| Italian Linguistic Features for Toxic Language Detection in  | 2023-authors-Italian Linguistic Features for Toxic Language Detection in Social.md | Italian |
+| Mapping the Italian Telegram Ecosystem: Communities, Toxicit | 2025-authors-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.md | Italian |
+| MuLTa-Telegram: A Fine-Grained Italian and Polish Dataset fo | 2025-authors-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.md | Italian, Polish |
+| Cross-Platform Evaluation for Italian Hate Speech Detection | 2019-authors-Cross-Platform Evaluation for Italian Hate Speech Detection.md | Italian |
+| BasqBBQ: A QA Benchmark for Assessing Social Biases in LLMs  | 2025-Zulaika-BasqBBQ A QA Benchmark for Assessing Social Biases in LLMs for Basque.md | Basque |
 | EsBBQ and CaBBQ: The Spanish and Catalan Bias Benchmarks for | 2025-Ruiz-Fernández-EsBBQ and CaBBQ.md | Catalan, Spanish |
+| BasqueGLUE: A Natural Language Understanding Benchmark for B | 2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque.md | Basque |
+| Latxa: An Open Language Model and Evaluation Suite for Basqu | 2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque.md | Basque |
+| The Catalan Language CLUB (Catalan Language Understanding Be | 2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark.md | Catalan |
+| A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be | 2025-authors-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a.md | Romanian |
+| A Cross-Lingual Analysis of Bias in Large Language Models Us | 2025-authors-A Cross-Lingual Analysis of Bias in Large Language Models Using.md | English, Romanian, and others |
+| Enhancing Romanian Offensive Language Detection through Know | 2024-Matei-Enhancing Romanian Offensive Language Detection through Knowledge.md | Romanian |
+| Offensive Text Span Detection in Romanian Comments Using Lar | 2024-authors-Offensive Text Span Detection in Romanian Comments Using Large.md | Romanian |
+| GSI:detect — Gender Stereotype Detection Shared Task at EVAL | 2026-Comandini-GSIdetect - Gender Stereotype Detection Shared Task at EVALITA 2026.md | Italian |
+| MedBench-IT: A Comprehensive Benchmark for Evaluating LLMs o | 2025-authors-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian.md | Italian |
+| GreekMMLU: A Native-Sourced Multitask Benchmark for Evaluati | 2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating.md | Greek |
+| Meltemi: The first open Large Language Model for Greek | 2024-Voukoutis-Meltemi The first open Large Language Model for Greek.md | Greek |
+| Krikri: Advancing Open Large Language Models for Greek | 2025-Roussis-Krikri Advancing Open Large Language Models for Greek.md | English, Greek |
+| Plutus: Benchmarking Large Language Models in Low-Resource G | 2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek.md | Greek |
+| GreekBarBench: A Challenging Benchmark for Free-Text Legal R | 2025-Chlapanis-GreekBarBench A Challenging Benchmark for Free-Text Legal Reasoning.md | Greek |
+| The Large Language Model GreekLegalRoBERTa | 2024-Saketos-The Large Language Model GreekLegalRoBERTa.md | Greek |
+| Open or Closed LLM for Lesser-Resourced Languages? Lessons f | 2025-Pavlopoulos-Open or Closed LLM for Lesser-Resourced Languages Lessons from Greek.md | Greek |
+| Offensive Language Identification in Greek | 2020-Pitenis-Offensive Language Identification in Greek.md | Greek |
+| Multimodal Hate Speech Detection in Greek Social Media | 2021-Perifanos-Multimodal Hate Speech Detection in Greek Social Media.md | Greek |
+| ETHOS: an Online Hate Speech Detection Dataset | 2020-Mollas-ETHOS an Online Hate Speech Detection Dataset.md | English |
+| GREEK-BERT: The Greeks visiting Sesame Street | 2020-Koutsikakis-GREEK-BERT The Greeks visiting Sesame Street.md | Greek |
+| GeoLogicQA: A Benchmark for Evaluating Logical Reasoning in  | 2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian.md | Georgian |
+| ArmBench-LLM: A Benchmark for Evaluating Large Language Mode | 2025-Lab-ArmBench-LLM A Benchmark for Evaluating Large Language Models on.md | Armenian |
+| Large Language Models and Low-Resource Languages: An Examina | 2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of.md | Armenian |
+| Ethical considerations in AI-powered language technologies:  | 2025-Ishkhanyan-Ethical considerations in AI-powered language technologies insights.md | Armenian (East), Armenian (West) |
+| Detecting Abusive Albanian | 2021-Nurce-Detecting Abusive Albanian.md | Albanian |
+| AI-Based Hate Speech Detection in Albanian Social Media: New | 2024-Fetahi-AI-Based Hate Speech Detection in Albanian Social Media New Dataset.md | Albanian |
+| Enhancing social media hate speech detection in low-resource | 2025-Unknown-Enhancing social media hate speech detection in low-resource.md | Albanian |
+| Large Language Models (LLMs) Output Quality: Comparison Betw | 2024-Aliti-Large Language Models LLMs Output Quality Comparison Between English.md | Albanian, English |
+| MELABenchv1: Benchmarking Large Language Models against Smal | 2025-Micallef-MELABenchv1 Benchmarking Large Language Models against Smaller.md | Maltese |
+| From Measurement to Mitigation: Exploring the Transferabilit | 2025-Galea-From Measurement to Mitigation Exploring the Transferability of.md | Maltese |
+| Pre-training Data Quality and Quantity for a Low-Resource La | 2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language.md | Maltese |
+| Multilingual European Language Models: Benchmarking Approach | 2025-Barth-Multilingual European Language Models Benchmarking Approaches and.md | Multiple European languages |
+| The AI Language Proficiency Monitor -- Tracking the Progress | 2025-Pomerenke-The AI Language Proficiency Monitor - Tracking the Progress of LLMs.md | Up to 200 languages including Greek, Georgian, Armenian, Albanian, Maltese |
+| A Comparative Sentiment Analysis of Greek Clinical Conversat | 2024-Paraskevopoulos-A Comparative Sentiment Analysis of Greek Clinical Conversations.md | Greek |
+| OpenEval: Benchmarking Chinese LLMs across Capability, Align | 2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and.md | Chinese, Classical Chinese, English |
+| Cross-cultural value alignment frameworks for responsible AI | 2025-Liu-Cross-cultural value alignment frameworks.md | Arabic, Chinese, English, Multilingual, Turkish |
+| EvalMORAAL: Interpretable Chain-of-Thought and LLM-as-Judge | 2025-Mohammadi-EvalMORAAL.md | Chinese |
+| SocialHarmBench: Revealing LLM Vulnerabilities to Socially H | 2025-Pandey-SocialHarmBench.md | Chinese |
+| AraTrust: An Evaluation of Trustworthiness for LLMs in Arabi | 2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.md | Arabic |
+| Conscience conflict? Evaluating language models’ moral under | 2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.md | Arabic |
+| PalmX 2025: The First Shared Task on Benchmarking LLMs on Ar | 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md | Arabic, English |
+| Evidence from Inheritance Law Evaluation | 2025-Ghaly-Assessing Large Language Models on Islamic.md | Arabic, English |
+| LLMs and Islamic Fiqh: A Reliability Study | 2025-paper-LLMs and Islamic Fiqh A Reliability.md | Arabic, English |
+| Exploring Cultural Variations in Moral Judgments with Large  | 2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.md | Arabic, English, Japanese, Multilingual, Turkish |
+| Analyzing Social Biases in Japanese Large Language Models | 2024-Yanaka-JBBQ.md | Japanese |
+| Benchmarking the Legal Reasoning of LLMs in Arabic Islamic I | 2025-Zaki-Benchmarking the Legal Reasoning of LLMs.md | Arabic |
+| MMLU-ProX: A Multilingual Benchmark for Advanced ... | 2025-authors-MMLU-ProX A Multilingual Benchmark for Advanced.md | Multilingual |
+| Evaluating and Improving Cultural Awareness of Reward Models | 2025-Zhang-Evaluating and Improving Cultural Awareness of.md | Arabic, English, Multilingual, Turkish |
+| Uncovering Political Bias in Large Language Models using Par | 2026-Chen-PoliBias Parliamentary Voting Records.md | English, Multilingual |
+| WorldValuesBench: A Large-Scale Benchmark Dataset for Multi- | 2024-Wu-WorldValuesBench.md | Multilingual |
+| Values in the Wild: Discovering and Analyzing Values in Real | 2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI.md | English |
+| Jailbreaking LLMs with Arabic Transliteration and Arabizi | 2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.md | Arabic, Arabizi, English, Multilingual |

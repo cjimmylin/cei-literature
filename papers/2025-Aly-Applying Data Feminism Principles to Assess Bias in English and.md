@@ -1,0 +1,76 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0713
+type: conferencePaper
+short_title: "Applying Data Feminism Principles to Assess Bias in English and Arabic NLP Research | Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency"
+year: 2025
+first_author: "[[Ranwa Aly]]"
+last_author: "[[Rana Gaber]]"
+authors: Ranwa Aly, Yara Allam, Rana Gaber
+doi: 10.1145/3715275.3732119
+url: "https://dl.acm.org/doi/10.1145/3715275.3732119"
+publication: ACM
+local_pdf: 
+pdf_extract: 
+DATE_ADDED: 20260213
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Arabic"
+languages_list: "Arabic, English"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract:
+ethics_perspective: "Bias & Fairness"
+---
+# Applying Data Feminism Principles to Assess Bias in English and Arabic NLP Research | Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+
+## Authors
+
+[[Ranwa Aly, Yara Allam, Rana Gaber]]
+
+## Metadata
+
+**Authors:** Ranwa Aly, Yara Allam, Rana Gaber
+
+**Year:** 2025
+
+**Type:** conferencePaper
+
+**Venue:** ACM
+
+**DOI:** [10.1145/3715275.3732119](https://doi.org/10.1145/3715275.3732119)
+
+**Languages:** Arabic, English
+
+## Links
+
+- **DOI:** https://doi.org/10.1145/3715275.3732119
+- **URL:** https://dl.acm.org/doi/10.1145/3715275.3732119
+
+## Abstract
+
+Based on the web search results, here's what I found regarding Arabic NLP dataset bias and fairness evaluation in 2025: Key Research Areas Data Feminism and Bias Assessment: Most papers do not sufficiently address social bias, scoring near a 1 on average in five-point scales, according to recent research applying data feminism principles to English and Arabic NLP. Researchers created a prototype interactive form to address common issues in reporting bias in NLP datasets, which suggests
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent C2
+**Relevance:** Relevant to Arabic, English; bias/fairness focus
+
+## Tags
+

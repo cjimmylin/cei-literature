@@ -14,8 +14,8 @@ authors: Multiple authors
 url: "https://journals.openedition.org/ijcol/1367"
 external_pdf: "http://journals.openedition.org/ijcol/pdf/1367"
 publication: Italian Journal of Computational Linguistics
-local_pdf: "[[PDFs/2023-authors-Italian Linguistic Features for Toxic Language Detection in Social.pdf]]"
-pdf_extract: 
+local_pdf: "[[PDFs/2023/2023-authors-Italian Linguistic Features for Toxic Language Detection in Social.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-authors-Italian Linguistic Features for Toxic Language Detection in Social.md"
 DATE_ADDED: 20260213
 ethics_overall: "Yes"
 virtue_ethics: "No"

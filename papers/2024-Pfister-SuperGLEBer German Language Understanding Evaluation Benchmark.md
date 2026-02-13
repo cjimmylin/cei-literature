@@ -12,9 +12,10 @@ first_author: "[[Jan Pfister]]"
 last_author: "[[Andreas Hotho]]"
 authors: Jan Pfister, Andreas Hotho
 url: "https://aclanthology.org/2024.naacl-long.438/"
+external_pdf: "https://aclanthology.org/2024.naacl-long.438.pdf"
 publication: ACL Anthology
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2024/2024-Pfister-SuperGLEBer German Language Understanding Evaluation Benchmark.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Pfister-SuperGLEBer German Language Understanding Evaluation Benchmark.md"
 DATE_ADDED: 20260213
 ethics_overall: "No"
 virtue_ethics: "No"

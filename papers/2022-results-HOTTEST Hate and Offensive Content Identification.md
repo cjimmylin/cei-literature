@@ -18,7 +18,7 @@ authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0885230822000870"
 external_pdf: "https://core.ac.uk/download/143686156.pdf"
 local_pdf: "[[PDFs/2022/2022-results-HOTTEST Hate and Offensive Content Identification.pdf]]"
-pdf_extract: ""
+pdf_extract: "PDF Extracts/2022/2022-results-HOTTEST Hate and Offensive Content Identification.md"
 publication: WebSearch: Tamil AI safety hate speech
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

@@ -12,9 +12,10 @@ first_author: "[[Cristina Bosco]]"
 last_author: "[[Cristina Bosco]]"
 authors: Cristina Bosco et al.
 url: "https://www.researchgate.net/publication/346997652_HaSpeeDe_2_EVALITA2020_Overview_of_the_EVALITA_2020_Hate_Speech_Detection_Task"
+external_pdf: "https://books.openedition.org/aaccademia/pdf/6732"
 publication: EVALITA 2020
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2020/2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech.pdf]]"
+pdf_extract: "PDF Extracts/2020/2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech.md"
 DATE_ADDED: 20260213
 ethics_overall: "Yes"
 virtue_ethics: "No"

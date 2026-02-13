@@ -1,0 +1,73 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0712
+type: conferencePaper
+short_title: "Structured Moral Reasoning in Language Models: A Value- ..."
+year: 2025
+first_author: "[[Sakhadib]]"
+last_author: "[[Sakhadib]]"
+authors: Sakhadib
+url: "https://aclanthology.org/2025.emnlp-main.1541.pdf"
+external_pdf: "https://arxiv.org/pdf/2506.14948v1.pdf"
+publication: ACL Anthology
+local_pdf: "[[PDFs/2025/2025-Sakhadib-Structured Moral Reasoning in Language Models A Value- ....pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Sakhadib-Structured Moral Reasoning in Language Models A Value- ....md"
+DATE_ADDED: 20260213
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+languages_list: "Arabic"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract:
+ethics_perspective: "Moral Reasoning & Psychology"
+---
+# Structured Moral Reasoning in Language Models: A Value- ...
+
+## Authors
+
+[[Sakhadib]]
+
+## Metadata
+
+**Authors:** Sakhadib
+
+**Year:** 2025
+
+**Type:** conferencePaper
+
+**Venue:** ACL Anthology
+
+**Languages:** Arabic
+
+## Links
+
+- **URL:** https://aclanthology.org/2025.emnlp-main.1541.pdf
+
+## Abstract
+
+Based on my search results, here are the key findings on Arabic language model ethics and moral reasoning benchmarks in 2025: Arabic Language Model Benchmarks Modern benchmarks like LAraBench, BALSAM, ORCA, and Dolphin provide unified evaluation benchmarks capturing understanding, generation, reasoning, and instruction-following while incorporating dialectal and domain diversity. Specific Ethics and Trustworthiness Benchmarks AraTrust: An AraTrust benchmark was introduced to evalua
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent C2
+**Relevance:** Relevant to Arabic; ethics/values focus
+
+## Tags
+

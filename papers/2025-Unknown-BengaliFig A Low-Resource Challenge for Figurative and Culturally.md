@@ -12,9 +12,10 @@ first_author: "[[Unknown]]"
 last_author: "[[Unknown]]"
 authors: Unknown
 url: "https://aclanthology.org/2025.mmloso-1.6/"
+external_pdf: "https://arxiv.org/pdf/2511.20399v2.pdf"
 publication: ACL Anthology
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2025/2025-Unknown-BengaliFig A Low-Resource Challenge for Figurative and Culturally.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Unknown-BengaliFig A Low-Resource Challenge for Figurative and Culturally.md"
 DATE_ADDED: 20260213
 ethics_overall: "No"
 virtue_ethics: "No"

@@ -13,9 +13,10 @@ last_author: "[[Various]]"
 authors: Various
 doi: 10.1007/s44248-025-00020-y
 url: "https://link.springer.com/article/10.1007/s44248-025-00020-y"
+external_pdf: "https://link.springer.com/content/pdf/10.1007/s44248-025-00020-y.pdf"
 publication: Springer (Discover Data)
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2025/2025-Various-A novel German TikTok hate speech dataset far-right comments against.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Various-A novel German TikTok hate speech dataset far-right comments against.md"
 DATE_ADDED: 20260213
 ethics_overall: "Yes"
 virtue_ethics: "No"

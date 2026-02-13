@@ -15,7 +15,7 @@ url: "https://aclanthology.org/2023.findings-ijcnlp.18/"
 external_pdf: "https://aclanthology.org/2023.findings-ijcnlp.18.pdf"
 publication: ACL Anthology / IJCNLP-AACL 2023 Findings
 local_pdf: "[[PDFs/2023/2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of.pdf]]"
-pdf_extract: 
+pdf_extract: "PDF Extracts/2023/2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of.md"
 DATE_ADDED: 20260213
 ethics_overall: "No"
 virtue_ethics: "No"

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2020/2020-Awad-Crowdsourcing moral machines.md"
 local_pdf: "[[PDFs/2020/2020-Awad-Crowdsourcing moral machines.pdf]]"
 ---
@@ -64,6 +67,11 @@ A platform for creating a crowdsourced picture of human opinions on how machines
 ## Authors
 
 [[Edmond Awad]], [[Sohan Dsouza]], [[Jean-François Bonnefon]], [[Azim Shariff]], [[Iyad Rahwan]]
+
+## Data Description
+
+The paper describes the Moral Machine platform, which collected approximately 40 million moral decisions from millions of participants across 233 countries and territories. The data captures human preferences on how autonomous vehicles should resolve ethical dilemmas involving trade-offs across nine dimensions including age, gender, fitness, social status, number of people, and species. No LLMs were assessed.
+
 
 ## Notes
 

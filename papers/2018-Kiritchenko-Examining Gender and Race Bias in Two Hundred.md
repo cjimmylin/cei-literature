@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "http://saifmohammad.com/WebPages/Biases-SA.html"
 ---
 # Examining Gender and Race Bias in Two Hundred Sentiment Analysis Systems
 
@@ -60,6 +63,11 @@ Automatic machine learning systems can inadvertently accentuate and perpetuate i
 ## Authors
 
 [[Svetlana Kiritchenko]], [[Saif M. Mohammad]]
+
+## Data Description
+
+The paper introduces the Equity Evaluation Corpus (EEC), consisting of 8,640 English sentences generated from 11 templates using gender- and race-associated names and noun phrases, designed to detect biases in sentiment analysis systems. The corpus was used to evaluate 219 sentiment analysis systems from the SemEval-2018 Task 1 shared task on five affective dimensions (anger, fear, joy, sadness, and valence intensity).
+
 
 ## Notes
 

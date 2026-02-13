@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
+LLM_assessed: "Word2Vec, GloVe"
+DATA_URL: "NA"
 ---
 # Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings
 
@@ -64,6 +67,11 @@ The blind application of machine learning runs the risk of amplifying biases pre
 ## Authors
 
 [[Tolga Bolukbasi]], [[Kai-Wei Chang]], [[James Zou]], [[Venkatesh Saligrama]], [[Adam Kalai]]
+
+## Data Description
+
+This paper evaluates gender bias in word embeddings, primarily the Word2Vec embedding trained on Google News (w2vNEWS, 3 million words, 300 dimensions) and the GloVe web-crawl embedding. The authors quantify direct and indirect gender bias using geometric metrics, generate and evaluate analogies via Amazon Mechanical Turk crowd-workers (150 analogies rated by 10 workers each), and propose hard and soft debiasing algorithms. The evaluation uses standard embedding benchmarks (RG, WS, MSR-analogy) to confirm debiasing preserves embedding utility while reducing stereotypical associations.
+
 
 ## Notes
 

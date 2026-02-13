@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: 
 data_metrics:
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Machine Ethics - Creation of a Virtuous Machine
 
@@ -96,6 +99,11 @@ The authors conclude that the field of machine ethics has prematurely dismissed 
 ## Artifact Contributions
 
 - GAMA (Genetic-inspired Autonomous Moral Agent) framework/project
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a conceptual paper proposing a virtue ethics framework for AI moral agents, extending Doran et al.'s explainability framework with an additional contextual training step.
+
 
 ## Notes
 

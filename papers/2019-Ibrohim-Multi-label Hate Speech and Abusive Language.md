@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/okkyibrohim/id-multi-label-hate-speech-and-abusive-language-detection"
 pdf_extract: "PDF Extracts/2019/2019-Ibrohim-Multi-label Hate Speech and Abusive Language.md"
 local_pdf: "[[PDFs/2019/2019-Ibrohim-Multi-label Hate Speech and Abusive Language.pdf]]"
 ---
@@ -64,6 +67,11 @@ Hate speech and abusive language spreading on social media need to be detected a
 ## Authors
 
 [[Muhammad Okky Ibrohim]], [[Indra Budi]]
+
+## Data Description
+
+The dataset comprises 13,169 Indonesian Twitter posts annotated for multi-label hate speech and abusive language detection, including hate speech target (individual/group), category (religion, race, physical/disability, gender/sexual orientation, other), and level (weak, moderate, strong). Annotation was performed by 30 crowdsourced annotators through a two-phase process with inter-annotator agreement validation.
+
 
 ## Notes
 

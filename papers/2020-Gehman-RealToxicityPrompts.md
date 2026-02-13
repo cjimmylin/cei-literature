@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology text corpus for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "GPT-2, GPT-3"
+DATA_URL: "https://toxicdegeneration.allenai.org/"
 ---
 # RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models
 
@@ -46,6 +49,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Pretrained neural language models (LMs) are prone to generating racist, sexist, or otherwise toxic language which hinders their safe deployment. We investigate the extent to which pretrained LMs can be prompted to generate toxic language, and the effectiveness of controllable text generation algorithms at preventing such toxic degeneration. We create and release RealToxicityPrompts, a dataset of 100K naturally occurring, sentence-level prompts derived from a large corpus of English web text, paired with toxicity scores from a widely-used toxicity classifier. Using RealToxicityPrompts, we find that pretrained LMs can degenerate into toxic text even from seemingly innocuous prompts. We empirically assess several controllable generation methods, and find that while data- or compute-intensive methods (e.g., adaptive pretraining on non-toxic data) are more effective at steering away from toxicity than simpler solutions (e.g., banning “bad” words), no current method is failsafe against neural toxic degeneration. To pinpoint the potential cause of such persistent toxic degeneration, we analyze two web text corpora used to pretrain several LMs (including GPT-2; Radford et. al, 2019), and find a significant amount of offensive, factually unreliable, and otherwise toxic content. Our work provides a test bed for evaluating toxic generations by LMs and stresses the need for better data selection processes for pretraining.
+
+## Data Description
+
+RealToxicityPrompts is a dataset of 100K naturally occurring sentence-level prompts extracted from the OpenWebText Corpus, each paired with toxicity scores from Perspective API. The prompts are stratified across four toxicity ranges and used to evaluate neural language models' propensity for toxic text generation, with 25 generations sampled per prompt per model.
+
 
 ## Notes
 

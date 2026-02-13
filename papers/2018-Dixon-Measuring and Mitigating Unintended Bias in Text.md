@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology annotated dataset for toxicity detection"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/conversationai/unintended-ml-bias-analysis"
 pdf_extract: "PDF Extracts/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.md"
 local_pdf: "[[PDFs/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.pdf]]"
 ---
@@ -108,6 +111,11 @@ The paper establishes that unintended bias in text classification stems from dat
 - Identity phrase template test set with 77,000 synthetic examples for bias evaluation
 - Pinned AUC metric for measuring unintended bias in text classifiers
 - Publicly released toxicity dataset on Wikipedia Talk pages
+
+## Data Description
+
+The paper uses a dataset of 127,820 Wikipedia Talk Page comments labeled for toxicity to train CNN-based text classifiers, along with a synthetic identity phrase templates test set of 77,000 examples using 51 common demographic identity terms. The bias mitigation approach adds 4,620 assumed non-toxic training samples from Wikipedia articles to balance the distribution of specific identity terms.
+
 
 ## Notes
 

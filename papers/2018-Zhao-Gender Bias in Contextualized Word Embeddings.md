@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "GloVe"
+DATA_URL: "https://github.com/uclanlp/gn_glove"
 doi: 10.18653/v1/D18-1521
 ---
 # Gender Bias in Contextualized Word Embeddings (SemBias)
@@ -60,6 +63,11 @@ Word embedding models have become a fundamental component in a wide range of Nat
 ## Authors
 
 [[Jieyu Zhao]], [[Yichao Zhou]], [[Zeyu Li]], [[Wei Wang]], [[Kai-Wei Chang]]
+
+## Data Description
+
+The paper proposes GN-GloVe, a gender-neutral word embedding training method, and evaluates it against standard GloVe and Hard-GloVe on multiple benchmark datasets including SemBias (a newly created 440-instance gender relational analogy dataset), word similarity tasks (WS353-ALL, RG-65, MTurk-287, MTurk-771, RW, MEN-TR-3k), word analogy tasks (Google, MSR), and coreference resolution on OntoNotes 5.0 and WinoBias. All embeddings are trained on 2017 English Wikipedia.
+
 
 ## Notes
 

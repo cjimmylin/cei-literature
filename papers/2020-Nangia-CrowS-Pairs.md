@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: 1508 examples
+LLM_assessed: "BERT, RoBERTa, ALBERT"
+DATA_URL: "https://github.com/nyu-mll/crows-pairs/"
 publication: EMNLP 2020
 DATE_ADDED: 20260207
 ---
@@ -66,6 +69,11 @@ Warning: This paper contains explicit statements of offensive stereotypes and ma
 ## Authors
 
 [[Nikita Nangia]], [[Clara Vania]], [[Rasika Bhalerao]], [[Samuel R. Bowman]]
+
+## Data Description
+
+CrowS-Pairs (Crowdsourced Stereotype Pairs) is a challenge dataset of 1,508 crowdsourced sentence pairs covering nine types of social bias (race, gender, sexual orientation, religion, age, nationality, disability, physical appearance, and socioeconomic status). Each pair consists of a more stereotyping and a less stereotyping sentence about historically disadvantaged groups in the United States, with minimal lexical distance between the two sentences.
+
 
 ## Notes
 

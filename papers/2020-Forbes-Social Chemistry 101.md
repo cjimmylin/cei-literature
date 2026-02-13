@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Text corpus
 data_metrics: "Not specified"
+LLM_assessed: "GPT-2, T5, BART"
+DATA_URL: "NA"
 publication: EMNLP 2020
 DATE_ADDED: 20260207
 ---
@@ -66,6 +69,11 @@ Social norms -- the unspoken commonsense rules about acceptable social behavior 
 ## Authors
 
 [[Maxwell Forbes]], [[Jena D. Hwang]], [[Vered Shwartz]], [[Maarten Sap]], [[Yejin Choi]]
+
+## Data Description
+
+SOCIAL-CHEM-101 is a large-scale corpus of 292k crowdsourced rules-of-thumb (RoTs) describing social and moral norms across 104k real-life situations drawn from Reddit (r/AITA, r/confessions), ROCStories, and Dear Abby. Each RoT includes 12 structured dimensions of social judgment (moral foundations, cultural pressure, legality, anticipated agreement, etc.), totaling over 4.5 million categorical and free-text annotations.
+
 
 ## Notes
 

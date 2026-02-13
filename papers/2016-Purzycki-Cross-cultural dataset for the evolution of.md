@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://doi.org/10.7910/DVN/ERKCLS"
 pdf_extract: "PDF Extracts/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.md"
 local_pdf: "[[PDFs/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.pdf]]"
 ---
@@ -100,6 +103,11 @@ The authors present this as a data descriptor rather than drawing theoretical co
 - Available through: Scientific Data (Nature) data repository
 - Includes: Dictator game allocations, religious belief surveys, demographic measures
 - Covers: Non-WEIRD populations rarely represented in psychological research
+
+## Data Description
+
+This paper describes the cross-cultural dataset from the Evolution of Religion and Morality Project, containing behavioral economic experiment data and survey responses from 591 participants across eight field sites in seven countries. The dataset includes variables on demographics, religious beliefs and practices, supernatural agents' characteristics, intergroup relations, and coin allocation outcomes from a modified Random Allocation Game. Data are hosted on Harvard Dataverse in CSV format with accompanying R scripts and codebooks.
+
 
 ## Notes
 

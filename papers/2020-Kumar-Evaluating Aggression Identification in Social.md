@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "5,000 instances; 1,000 instances"
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://sites.google.com/view/trac2/shared-task"
 ---
 # Evaluating Aggression Identification in Social Media (TRAC-2 Shared Task Report)
 
@@ -44,6 +47,11 @@ data_metrics: "5,000 instances; 1,000 instances"
 ## Abstract
 
 In this paper, we present the report and findings of the Shared Task on Aggression and Gendered Aggression Identification organised as part of the Second Workshop on Trolling, Aggression and Cyberbullying (TRAC - 2) at LREC 2020. The task consisted of two sub-tasks - aggression identification (sub-task A) and gendered identification (sub-task B) - in three languages - Bangla, Hindi and English. For this task, the participants were provided with a dataset of approximately 5,000 instances from YouTube comments in each language. For testing, approximately 1,000 instances were provided in each language for each sub-task. A total of 70 teams registered to participate in the task and 19 teams submitted their test runs. The best system obtained a weighted F-score of approximately 0.80 in sub-task A for all the three languages. While approximately 0.87 in sub-task B for all the three languages.
+
+## Data Description
+
+The TRAC-2 dataset consists of approximately 5,000 YouTube comments in each of three languages (Bengali, Hindi, and English) for training, with approximately 1,000 test instances per language per sub-task. Comments are annotated at three levels of aggression (Overtly Aggressive, Covertly Aggressive, Non-Aggressive) for sub-task A, and as gendered or non-gendered for sub-task B.
+
 
 ## Notes
 

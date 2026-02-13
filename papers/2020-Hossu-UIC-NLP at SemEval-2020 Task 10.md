@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # UIC-NLP at SemEval-2020 Task 10: Exploring an Alternate Perspective on Evaluation
 
@@ -62,6 +65,11 @@ In this work we describe and analyze a supervised learning system for word empha
 ## Authors
 
 [[Philip Hossu]], [[Natalie Parde]]
+
+## Data Description
+
+The paper uses the SemEval-2020 Task 10 dataset for word emphasis selection in visual media, consisting of 2,742 training phrases and 392 validation phrases from Adobe Spark. Each word was annotated by nine individuals for emphasis, with labels provided as aggregated ratios ranging from 0.0 to 1.0.
+
 
 ## Notes
 

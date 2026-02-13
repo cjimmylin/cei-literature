@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2018/2018-Kim-Toward Non-Intuition-Based Machine Ethics.md"
 ---
 # Toward Non-Intuition-Based Machine and Artificial Intelligence Ethics: A Deontological Approach Based on Modal Logic
@@ -67,6 +70,11 @@ pdf_extract: "PDF Extracts/2018/2018-Kim-Toward Non-Intuition-Based Machine Ethi
 ## Abstract
 
 The authors propose a deontological approach to machine ethics that avoids some weaknesses of an intuition-based system, such as that of Anderson and Anderson. In particular, it has no need to deal with conflicting intuitions, and it yields a more satisfactory account of when autonomy should be respected. They begin with a "dual standpoint" theory of action that regards actions as grounded in reasons and therefore as having a conditional form that is suited to machine instructions. They then derive ethical principles based on formal properties that the reasons must exhibit to be coherent, and formulate the principles using quantified modal logic. The authors conclude that deontology not only provides a more satisfactory basis for machine ethics but endows the machine with an ability to explain its actions, thus contributing to transparency in AI.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical philosophy paper proposing a deontological approach to machine ethics based on quantified modal logic, using formal properties of action plans to derive ethical principles such as generalizability and joint autonomy.
+
 
 ## Notes
 

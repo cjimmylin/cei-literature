@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Use and Abuse Normative Ethics Moral Machines
 
@@ -71,6 +74,11 @@ Critiques applying normative frameworks directly to machines
 ## Significance
 
 Argues machines lack resources to justify normative theory use
+
+## Data Description
+
+No PDF extract available for analysis.
+
 
 ## Notes
 

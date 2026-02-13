@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: 
 data_metrics:
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Artificial Phronesis - What It Is and Is Not
 
@@ -56,6 +59,11 @@ This chapter looks at the need to develop machines with ethical and moral practi
 ## Authors
 
 [[John P. Sullins]]
+
+## Data Description
+
+No PDF extract available for analysis.
+
 
 ## Notes
 

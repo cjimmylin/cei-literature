@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Concrete Problems in AI Safety
 
@@ -57,6 +60,11 @@ Rapid progress in machine learning and artificial intelligence (AI) has brought 
 ## Authors
 
 [[Dario Amodei]], [[Chris Olah]], [[Jacob Steinhardt]], [[Paul Christiano]], [[John Schulman]], [[Dan Mane|Dan Mané]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical survey that identifies five concrete research problems in AI safety (avoiding negative side effects, avoiding reward hacking, scalable oversight, safe exploration, and robustness to distributional shift) and proposes potential experiments for each, but does not conduct empirical evaluations on any models.
+
 
 ## Notes
 

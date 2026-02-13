@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology annotated dataset"
 data_metrics: "10 categories"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2020/2020-Hoover-Moral Foundations Twitter Corpus.md"
 local_pdf: "[[PDFs/2020/2020-Hoover-Moral Foundations Twitter Corpus.pdf]]"
 ---
@@ -99,6 +102,11 @@ The authors conclude that the MFTC fills a critical need in computational moral 
 - **Dataset**: Moral Foundations Twitter Corpus (MFTC) - 35,108 tweets annotated for 10 moral sentiment categories
 - **Annotator Metadata**: Psychological and demographic data for 13 annotators
 - **Baselines**: Classification results for multiple ML methodologies
+
+## Data Description
+
+The Moral Foundations Twitter Corpus (MFTC) consists of 35,108 tweets drawn from seven discourse domains (All Lives Matter, Black Lives Matter, Baltimore Protests, 2016 US Presidential Election, Hate Speech, Hurricane Sandy, #MeToo), each annotated by at least three trained annotators for 10 categories of moral sentiment based on Moral Foundations Theory. Annotator psychological and demographic metadata are also provided.
+
 
 ## Notes
 

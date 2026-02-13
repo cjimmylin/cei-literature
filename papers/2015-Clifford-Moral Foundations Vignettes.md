@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Moral Foundations Vignettes: A Standardized Stimulus Database of Scenarios Based on Moral Foundations Theory
 
@@ -61,6 +64,11 @@ Research on the emotional, cognitive, and social determinants of moral judgment 
 ## Authors
 
 [[Scott Clifford]], [[Vijeth Iyengar]], [[Raúl Cabeza]], [[Walter Sinnott-Armstrong]]
+
+## Data Description
+
+This paper introduces and validates the Moral Foundations Vignettes (MFVs), a standardized stimulus database of 132 short scenarios, each depicting a behavior that violates a particular moral foundation (Care, Fairness, Loyalty, Authority, Sanctity, Liberty) plus social norm violations. The vignettes are controlled for syntactic structure and complexity (14-17 words each) and were validated across three waves of respondents (n=330, 192, 94) using classification accuracy, factor analysis, and correspondence with existing moral foundations measures. The dataset is designed for behavioral and neuroimaging research on moral judgment, not for LLM assessment.
+
 
 ## Notes
 

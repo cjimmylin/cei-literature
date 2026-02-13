@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
+LLM_assessed: "BERT, GPT-2"
+DATA_URL: "https://github.com/sahoonihar/ToxicBias_CoNLL_2022"
 ---
 # Jigsaw Unintended Bias in Toxicity Classification
 
@@ -56,6 +59,11 @@ Warning: This paper has contents which may be offensive, or upsetting however th
 ## Authors
 
 [[Jigsaw]], [[Kaggle -|Kaggle]]
+
+## Data Description
+
+The ToxicBias dataset contains 5,409 instances curated from the Jigsaw Unintended Bias in Toxicity Classification Kaggle dataset (Wikipedia comments), annotated for five social bias categories (gender, race/ethnicity, religion, political, LGBTQ) with target groups and bias implications. The dataset includes 4,325 biased and 1,084 neutral instances with 120 distinct target terms.
+
 
 ## Notes
 

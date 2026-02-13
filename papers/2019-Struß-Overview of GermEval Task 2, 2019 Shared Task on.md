@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "BERT"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.md"
 local_pdf: "[[PDFs/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.pdf]]"
 ---
@@ -86,6 +89,11 @@ The GermEval 2019 shared task advanced research on German offensive language det
 - GermEval 2019 dataset: German tweets annotated for offensive language (coarse and fine-grained)
 - Implicit vs. explicit offense annotations
 - Evaluation tool publicly available via shared task website: https://projects.fzai.h-da.de/iggsa/
+
+## Data Description
+
+The GermEval 2019 Shared Task dataset contains approximately 12,000 German tweets annotated for offensive language identification across three subtasks: coarse-grained binary classification (OFFENSE vs OTHER), fine-grained 4-way classification (ABUSE, INSULT, PROFANITY, OTHER), and implicit vs explicit offensive language classification. The 2019 data includes 7,025 newly collected tweets with 3,994 for training and 3,031 for testing, sampled from user timelines across different political orientations to reduce topic bias.
+
 
 ## Notes
 

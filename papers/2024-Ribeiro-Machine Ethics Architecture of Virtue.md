@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_RIBEIRO2024
@@ -29,6 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Machine Ethics and the Architecture of Virtue
 
@@ -66,6 +69,11 @@ This paper presents Virtue Ethics as a better option for implementing moral beha
 1. Virtue Ethics suited for cognitive robotics
 2. Neural networks enable virtue-like learning
 3. Machine learning aligns with experiential virtue development
+
+## Data Description
+
+No PDF extract available for analysis.
+
 
 ## Notes
 

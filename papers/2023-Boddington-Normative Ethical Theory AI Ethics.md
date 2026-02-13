@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Normative Ethical Theory AI Ethics
 
@@ -71,6 +74,11 @@ Comprehensive overview of consequentialism, deontology, and virtue ethics for AI
 ## Significance
 
 Foundational chapter on applying normative ethics to AI systems
+
+## Data Description
+
+No PDF extract available for analysis.
+
 
 ## Notes
 

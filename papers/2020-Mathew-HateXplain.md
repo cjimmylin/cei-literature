@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness annotated dataset for hate speech detection"
 data_metrics: "Not specified"
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/punyajoy/HateXplain"
 ---
 # HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection
 
@@ -64,6 +67,11 @@ Hate speech is a challenging issue plaguing the online social media. While bette
 ## Authors
 
 [[Binny Mathew]], [[Punyajoy Saha]], [[Seid Muhie Yimam]], [[Chris Biemann]], [[Pawan Goyal]], [[Animesh Mukherjee]]
+
+## Data Description
+
+HateXplain is a benchmark dataset of 20,148 posts from Twitter and Gab, annotated for three-class hate speech classification (hate, offensive, normal), target community identification across 10 communities, and word-level rationale annotations justifying labeling decisions. Each post was annotated by three Amazon Mechanical Turk workers, with a Krippendorff's alpha of 0.46.
+
 
 ## Notes
 

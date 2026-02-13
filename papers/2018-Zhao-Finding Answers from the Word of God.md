@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/helen-jiahe-zhao/BibleQA"
 ---
 # Finding Answers from the Word of God: Domain Adaptation for Neural Networks in Biblical Question Answering
 
@@ -63,6 +66,11 @@ Question answering (QA) has signiﬁcantly beneﬁtted from deep learning techni
 ## Authors
 
 [[Helen Jiahe Zhao]], [[Jiamou Liu]]
+
+## Data Description
+
+The paper introduces BibleQA, a sentence-level question answering dataset for the Bible domain containing 886 questions derived from Bible trivia, expanded to 3,544 question-answer pairs using four English Bible translations (KJV, ASV, YLT, WEB). Custom RNN (LSTM), CNN, and modified BiDAF neural network models are trained and evaluated using GloVe and Word2Vec embeddings, with transfer learning from the SQuAD dataset.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ abstract: "One challenge for dialogue agents is recognizing feelings in the conv
 research_topic: "Dialogue Systems"
 data_description: "Benchmark dataset for conversational ai"
 data_metrics: "Not specified"
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/facebookresearch/EmpatheticDialogues"
 ---
 # EmpatheticDialogues: Towards Empathetic Open-domain Conversation Models
 
@@ -62,6 +65,10 @@ One challenge for dialogue agents is recognizing feelings in the conversation pa
 ## Dataset Information
 
 25,000 conversations; 32 emotion labels; grounded in emotional situations; human-to-human dialogues
+
+## Data Description
+
+The EmpatheticDialogues dataset comprises 24,850 crowdsourced one-on-one conversations grounded in emotional situations across 32 emotion labels, gathered from 810 participants via Amazon Mechanical Turk. The dataset is split into 19,533 train, 2,770 validation, and 2,547 test conversations, with an average of 4.31 utterances per conversation and 15.2 words per utterance. It serves as a benchmark for evaluating empathetic dialogue generation in open-domain conversation models.
 
 ## Notes
 

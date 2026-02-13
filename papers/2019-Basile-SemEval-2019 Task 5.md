@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter
 
@@ -64,6 +67,11 @@ The paper describes the organization of the SemEval 2019 Task 5 about the detect
 ## Authors
 
 [[Valerio Basile]], [[Cristina Bosco]], [[Elisabetta Fersini]], [[Debora Nozza]], [[Viviana Patti]], [[Francisco Manuel Rangel Pardo]], [[Paolo Rosso]], [[Manuela Sanguinetti]]
+
+## Data Description
+
+The HatEval dataset comprises 19,600 tweets (13,000 English, 6,600 Spanish) annotated for multilingual hate speech detection against immigrants and women. Each tweet is labeled for hate speech presence (binary), target range (individual vs. group), and aggressiveness, collected from Twitter using keyword-driven approaches and annotated via crowdsourcing with expert adjudication.
+
 
 ## Notes
 

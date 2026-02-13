@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "http://aka.ms/biasbios"
 ---
 # Bias in Bios: A Case Study of Semantic Representation Bias in a High-Stakes Setting
 
@@ -65,6 +68,11 @@ We present a large-scale study of gender bias in occupation classification, a ta
 ## Authors
 
 [[Maria De-Arteaga]], [[Alexey Romanov]], [[Hanna Wallach]], [[Jennifer Chayes]], [[Christian Borgs]], [[Alexandra Chouldechova]], [[Sahin Geyik]], [[Krishnaram Kenthapadi]], [[Adam Tauman Kalai]]
+
+## Data Description
+
+The Bias in Bios dataset consists of 397,340 online biographies extracted from the Common Crawl corpus, spanning 28 occupations with binary gender labels inferred from pronouns. The dataset uses stratified splits (65% training, 10% validation, 25% testing) and is used for studying gender bias in occupation classification across bag-of-words, word embedding, and deep recurrent neural network representations.
+
 
 ## Notes
 

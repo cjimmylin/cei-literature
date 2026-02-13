@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+LLM_assessed: "GPT-2"
+DATA_URL: "http://tinyurl.com/social-bias-frames"
 ---
 # Social Bias Frames: Reasoning about Social and Power Implications of Language
 
@@ -64,6 +67,11 @@ Warning: this paper contains content that may be offensive or upsetting.
 ## Authors
 
 [[Maarten Sap]], [[Saadia Gabriel]], [[Lianhui Qin]], [[Dan Jurafsky]], [[Noah A. Smith]], [[Yejin Choi]]
+
+## Data Description
+
+The Social Bias Inference Corpus (SBIC) contains over 150,000 structured annotations of 44,671 social media posts drawn from Reddit, Twitter, and known hate sites (Gab, Stormfront, banned subreddits). Each annotation captures offensiveness, intent to offend, lewdness, targeted demographic group, implied stereotypical statement, and in-group language status, covering over 34,000 group-implication pairs across approximately 1,400 demographic groups.
+
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: 
 data_metrics:
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Artificial Intelligence Values and Alignment
 
@@ -59,6 +62,11 @@ This paper looks at philosophical questions that arise in the context of AI alig
 ## Authors
 
 [[Iason Gabriel]]
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment.
+
 
 ## Notes
 

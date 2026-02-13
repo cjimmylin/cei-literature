@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/rudinger/winogender-schemas"
 ---
  Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods
 
@@ -50,6 +53,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 We introduce a new benchmark, WinoBias, for coreference resolution focused on gender bias. Our corpus contains Winograd-schema style sentences with entities corresponding to people referred by their occupation (e.g. the nurse, the doctor, the carpenter). We demonstrate that a rule-based, a feature-rich, and a neural coreference system all link gendered pronouns to pro-stereotypical entities with higher accuracy than anti-stereotypical entities, by an average difference of 21.1 in F1 score. Finally, we demonstrate a data-augmentation approach that, in combination with existing word-embedding debiasing techniques, removes the bias demonstrated by these systems in WinoBias without signiﬁcantly affecting their performance on existing coreference benchmark datasets. Our dataset and code are available at http://winobias.org.
+
+## Data Description
+
+The paper introduces Winogender schemas, a Winograd schema-style evaluation set of 720 sentences (120 hand-written templates across 60 occupations, with 3 pronoun genders and 2 participant types) designed to test gender bias in coreference resolution systems. Three off-the-shelf coreference systems (rule-based Stanford sieve, statistical Durrett-Klein, and neural Clark-Manning) are evaluated against real-world U.S. Bureau of Labor Statistics gender data and Bergsma-Lin textual gender statistics.
+
 
 ## Notes
 > [!INFO]

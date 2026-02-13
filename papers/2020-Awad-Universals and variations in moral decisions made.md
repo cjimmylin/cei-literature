@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "10 languages"
+LLM_assessed: "NA"
+DATA_URL: "https://bit.ly/2Y7Brr9"
 pdf_extract: "PDF Extracts/2020/2020-Awad-Universals and variations in moral decisions made.md"
 local_pdf: "[[PDFs/2020/2020-Awad-Universals and variations in moral decisions made.pdf]]"
 ---
@@ -101,6 +104,11 @@ The authors conclude that the qualitative Switch-Loop-Footbridge pattern reflect
 - Data and code deposited at Open Science Framework: https://bit.ly/2Y7Brr9
 - Moral Machine Classic mode interface with multilingual support (10 languages)
 - Country-level moral preference data linked to relational mobility, individualism, GDP, and religiosity variables
+
+## Data Description
+
+The paper presents a cross-cultural dataset of moral decisions collected from approximately 70,000 participants in 10 languages and 42 countries via the Moral Machine website's Classic mode. Participants responded to three variants of the trolley problem (Switch, Loop, and Footbridge), with a minimum of 200 responses per scenario and country. All data and code are deposited on the Open Science Framework.
+
 
 ## Notes
 

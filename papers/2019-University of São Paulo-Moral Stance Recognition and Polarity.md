@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
+LLM_assessed: "Word2Vec"
+DATA_URL: "NA"
 ---
 # Moral Stance Recognition and Polarity Classification from Twitter and Elicited Text
 
@@ -64,6 +67,11 @@ We introduce a labelled corpus of stances about moral issues for the Brazilian P
 ## Authors
 
 [[Brazil University of São Paulo]], [[Wesley Ramos Dos Santos]], [[Ivandré Paraboni]]
+
+## Data Description
+
+The paper introduces a 180k-word labelled corpus of moral stances in Brazilian Portuguese comprising 5,242 messages from two sources: 2,792 Twitter messages and 2,450 crowd-sourced elicited texts. The corpus covers five moral topics (abortion, death penalty, drug legalization, criminal age, and racial quotas) with stance labels (for, against, other/neutral). Models using character n-grams, Word2Vec skip-gram embeddings, and psycholinguistic (LIWC) features are evaluated for stance recognition and polarity classification.
+
 
 ## Notes
 

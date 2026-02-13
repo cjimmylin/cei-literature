@@ -47,7 +47,7 @@ print = functools.partial(print, flush=True)
 PAPERS_DIR = Path("papers")
 VAULT_CONFIG = Path(".vault-config.json")
 LOG_DIR = Path("logs")
-LOG_FILE = LOG_DIR / "20260207-comprehensive_pdf_finder_log.json"
+LOG_FILE = None  # Set dynamically in main() based on --date arg
 CURL_TIMEOUT = 60
 MAX_RETRIES = 2
 UNPAYWALL_EMAIL = "research@cei-literature.org"
@@ -1094,10 +1094,11 @@ def run_report():
 
 
 def main():
-    global _DATE_ADDED
+    global _DATE_ADDED, LOG_FILE
     # Parse args
     args = sys.argv[1:]
     _DATE_ADDED = parse_date_arg(sys.argv)
+    LOG_FILE = LOG_DIR / f"{_DATE_ADDED}-comprehensive_pdf_finder_log.json"
     print(f"Filtering by DATE_ADDED: {_DATE_ADDED}")
 
     if "--report" in args:

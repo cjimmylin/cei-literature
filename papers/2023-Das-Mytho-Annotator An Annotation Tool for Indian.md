@@ -16,7 +16,7 @@ last_author: "[[Apurba Paul, Anupam Mondal, Sainik Kumar Mahata, Srijan Seal, Pr
 authors: "[[Apurba Paul, Anupam Mondal, Sainik Kumar Mahata, Srijan Seal, Prasun Sarkar, Dipankar Das]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
+external_pdf: "https://doi.org/10.7717/peerj-cs.1617"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: ICON 2023 (20th International Conference on Natural Language Processing)

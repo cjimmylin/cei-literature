@@ -1,0 +1,76 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0541
+type: conferencePaper
+short_title: "Ethical considerations in AI-powered language technologies: insights from East and West Armenian"
+year: 2025
+first_author: "[[Artur Ishkhanyan]]"
+last_author: "[[Artur Ishkhanyan]]"
+authors: Artur Ishkhanyan
+doi: 10.1007/s43681-025-00716-6
+url: "https://link.springer.com/article/10.1007/s43681-025-00716-6"
+publication: Springer AI and Ethics
+local_pdf: 
+pdf_extract: 
+DATE_ADDED: 20260213
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+languages_list: "Armenian (East), Armenian (West)"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract:
+ethics_perspective: "General Ethics"
+---
+# Ethical considerations in AI-powered language technologies: insights from East and West Armenian
+
+## Authors
+
+[[Artur Ishkhanyan]]
+
+## Metadata
+
+**Authors:** Artur Ishkhanyan
+
+**Year:** 2025
+
+**Type:** conferencePaper
+
+**Venue:** Springer AI and Ethics
+
+**DOI:** [10.1007/s43681-025-00716-6](https://doi.org/10.1007/s43681-025-00716-6)
+
+**Languages:** Armenian (East), Armenian (West)
+
+## Links
+
+- **DOI:** https://doi.org/10.1007/s43681-025-00716-6
+- **URL:** https://link.springer.com/article/10.1007/s43681-025-00716-6
+
+## Abstract
+
+Examines ethical challenges of AI-powered language technologies for East and West Armenian, including data sovereignty in diaspora communities, algorithmic bias in low-resource language processing, and preservation of cultural authenticity. Proposes a structured ethical framework emphasizing participatory governance, fairness-aware AI training, and transparency.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent B9
+**Relevance:** Directly addresses ethics, bias, fairness, and cultural values in Armenian AI/NLP. Covers data sovereignty, algorithmic bias, and cultural authenticity -- core themes for values-aligned AI evaluation in minority languages.
+
+## Tags
+

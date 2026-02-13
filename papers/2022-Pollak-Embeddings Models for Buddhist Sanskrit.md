@@ -16,7 +16,7 @@ last_author: "[[Ligeia Lugli, Matej Martinc, Andraz Pelicon, Senja Pollak]]"
 authors: "[[Ligeia Lugli, Matej Martinc, Andraz Pelicon, Senja Pollak]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
+external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10280248/pdf/peerj-cs-08-1128.pdf"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: LREC 2022 (Thirteenth Language Resources and Evaluation Conference), pages 3861-3871, Marseille, France

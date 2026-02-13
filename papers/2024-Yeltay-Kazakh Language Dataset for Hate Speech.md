@@ -16,7 +16,7 @@ last_author: "[[Milana Bolatbek, Moldir Sagynay, Shynar Mussiraliyeva, Zhastay Y
 authors: "[[Milana Bolatbek, Moldir Sagynay, Shynar Mussiraliyeva, Zhastay Yeltay]]"
 authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/10719327/"
-external_pdf: ""
+external_pdf: "https://link.springer.com/content/pdf/10.1007/s43681-024-00505-7.pdf"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: IEEE ICCIA 2024

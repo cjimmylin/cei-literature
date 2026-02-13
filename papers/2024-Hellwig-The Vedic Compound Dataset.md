@@ -16,7 +16,7 @@ last_author: "[[Sven Sellmer, Oliver Hellwig]]"
 authors: "[[Sven Sellmer, Oliver Hellwig]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
+external_pdf: "http://dx.doi.org/10.2139/ssrn.5031721"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: MWE-UD Workshop @ LREC-COLING 2024

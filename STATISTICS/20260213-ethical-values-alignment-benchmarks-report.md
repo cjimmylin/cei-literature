@@ -1043,12 +1043,12 @@ This report catalogues **152 benchmarks and resources** for evaluating ethical v
 - **Readiness:** ★★☆ MEDIUM
 - **Vault status:** Not in vault
 
-### C45. CoreValue (Y. Liu, 2022)
-- **Citation:** Liu, Y. et al. (2022). CoreValue: Chinese Values Knowledge Base (Liu et al.). *Not specified*.
+### C45. CoreValue (Liu, 2022)
+- **Citation:** Liu (2022). CoreValue Chinese Values Knowledge Base Liu et al..
 - **What it measures:** Chinese cultural values - a knowledge base encoding Chinese social and moral values
 - **Key finding:** Creates a Chinese values knowledge base specifically for cultural/moral values.
 - **Readiness:** ★☆☆ LOW
-- **Vault:** [[2022-Liu-CoreValue Chinese Values Knowledge Base Liu et al.]]
+- **Vault status:** Not in vault
 
 ### C46. SOCIAL-CHEM-101 (Forbes, 2020)
 - **Citation:** Forbes (2020). Social Chemistry 101 SOCIAL-CHEM-101.
@@ -1681,8 +1681,8 @@ This report catalogues **152 benchmarks and resources** for evaluating ethical v
 ## Vault Status
 
 - **Vault size:** 846 papers (post-deduplication)
-- **Entries in this report from vault:** 130
-- **Entries not in vault** (external/not-yet-imported): 22 (includes 13 hand-curated entries)
+- **Entries in this report from vault:** 129
+- **Entries not in vault** (external/not-yet-imported): 23 (includes 13 hand-curated entries)
 - **Source data:** `logs/20260208-benchmark_survey_candidates.json` (528 candidates from 20-agent survey)
 
 ---

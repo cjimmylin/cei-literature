@@ -16,7 +16,7 @@ last_author: "[[authors, Multiple]]"
 authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/10559617/"
-external_pdf: ""
+external_pdf: "https://doi.org/10.1109/access.2024.3415350"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: IEEE Access

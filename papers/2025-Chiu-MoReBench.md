@@ -15,7 +15,7 @@ last_author: "[[Levine, Sydney]]"
 authors: "[[Chiu, Yu Ying]]; [[Lee, Michael S.]]; [[Calcott, Rachel]]; [[Handoko, Brandon]]; [[Font-Reaulx, Paul de]]; [[Rodriguez, Paula]]; [[Zhang, Chen Bo Calvin]]; [[Han, Ziwen]]; [[Sehwag, Udari Madhushani]]; [[Maurya, Yash]]; [[Knight, Christina Q.]]; [[Lloyd, Harry R.]]; [[Bacus, Florence]]; [[Mazeika, Mantas]]; [[Liu, Bing]]; [[Choi, Yejin]]; [[Gordon, Mitchell L.]]; [[Levine, Sydney]]"
 doi: 10.48550/arXiv.2510.16380
 url: "http://arxiv.org/abs/2510.16380"
-local_pdf: [[PDFs/2025/2025-Chiu-MoReBench.pdf]]
+local_pdf: "[[PDFs/2025/2025-Chiu-MoReBench.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2510.16380.pdf"
 publication: arXiv.org
 national_ethnic_cultural: American

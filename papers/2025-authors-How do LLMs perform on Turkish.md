@@ -16,7 +16,7 @@ last_author: "[[authors, Multiple]]"
 authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0957417425010437"
-external_pdf: ""
+external_pdf: "https://doi.org/10.1080/23311983.2025.2600519"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: ScienceDirect / Expert Systems with Applications

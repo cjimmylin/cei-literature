@@ -16,7 +16,7 @@ last_author: "[[Moe, Lwin]]"
 authors: "[[Lwin Moe et al]]"
 authors_incomplete: false
 url: "https://www.yorku.ca/research/ycar/events/fact-checking-dataset-transformer-model-burmese-language-lwin-moe-13112024/"
-external_pdf: ""
+external_pdf: "https://arxiv.org/pdf/2406.02169.pdf"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: York Centre for Asian Research / University of Michigan

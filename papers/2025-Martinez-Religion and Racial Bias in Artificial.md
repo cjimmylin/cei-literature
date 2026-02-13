@@ -16,7 +16,7 @@ last_author: "[[Joshua C. Tom, Todd W. Ferguson, Brandon C. Martinez]]"
 authors: "[[Joshua C. Tom, Todd W. Ferguson, Brandon C. Martinez]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
+external_pdf: "https://doi.org/10.20944/preprints202410.2112.v3"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: Socius (SAGE)

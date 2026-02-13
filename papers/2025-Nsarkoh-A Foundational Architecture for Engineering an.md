@@ -16,9 +16,9 @@ last_author: "[[Nsarkoh, F., Banful, A.B., Arthur, J.,]]"
 authors: "[[Nsarkoh, F., Banful, A.B., Arthur, J., et al]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://core.ac.uk/download/55728193.pdf"
+local_pdf: "[[PDFs/2025/2025-Nsarkoh-A Foundational Architecture for Engineering an.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Nsarkoh-A Foundational Architecture for Engineering an.md"
 publication: Discover Artificial Intelligence (Springer)
 DATE_ADDED: 20260213
 ethics_overall: "No"

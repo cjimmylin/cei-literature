@@ -24,7 +24,7 @@ newtags: "Toxicity & Hate Speech"
 key_contribution: "Released HateXplain, a benchmark dataset for *explainable* hate speech detection where posts are annotated with labels, target communities, and rationale spans."
 significance: "Demonstrates that high-performing classifiers often relying on spurious cues faulty, and provides a resource to train models that can justify their decisions by highlighting relevant text spans."
 tags: 
-local_pdf: [[PDFs/2020/2020-Mathew-HateXplain.pdf]]
+local_pdf: "[[PDFs/2020/2020-Mathew-HateXplain.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Mathew-HateXplain.md"
 abstract: "Hate speech is a challenging issue plaguing the online so- cial media. While better models for hate speech detection are continuously being developed, there is little research on the bias and interpretability aspects of hate speech. In this paper, we introduce HateXplain, the ﬁrst benchmark hate speech dataset covering multiple aspects of the issue. Each post in our dataset is annotated from three different perspectives: the basic, commonly used 3-class classiﬁcation (i.e., hate, offen- sive or"
 paper_summary: "Abstract: Hate speech is a challenging issue plaguing the online so- cial media. While better models for hate speech detection are continuously being developed, there is little research on the bias and interpre | Overview: HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection* Binny Mathew1†, Punyajoy Saha1†, Seid Muhie Yimam2 Chris Biemann2, Pawan Goyal1, Animesh Mukherjee1 1 Indian Institute of Technol | Key Findings: To build the HateXplain benchmark dataset, we consider multiple types of metrics to cover several aspects of hate speech. Taking inspiration from the"

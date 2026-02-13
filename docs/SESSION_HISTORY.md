@@ -2,6 +2,38 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 66 (Feb 13, 2026) - Missing PDF Download for 20260213 Import
+
+### Overview
+Downloaded missing PDFs for the 20260213 import batch using `comprehensive_pdf_finder.py`. Fixed a LOG_FILE bug in the script, ran 3 parallel download batches across 170 papers, extracted text from all new PDFs, and migrated flat PDFs to year-based directories.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Papers needing PDFs (start) | 170 |
+| PDFs downloaded | 6 (3.5% yield) |
+| URLs found but download failed | 54 (bot blocks, paywalls) |
+| No URL found | 110 |
+| Papers needing PDFs (end) | 164 |
+| Text extracts created | 306 (303 batch + 3 manual) |
+| Flat PDFs migrated to year dirs | 6 |
+| YAML paths updated | 6 (local_pdf) + 24 (external_pdf) |
+| Validation | 1512/1512 pass, 0 errors |
+| Vault total (end) | 1,636 papers, 1,417 PDFs, 2,004 extracts |
+
+### Bug Fixes
+1. **`comprehensive_pdf_finder.py` LOG_FILE bug:** Hardcoded `20260207` date in log filename. Fixed to use `--date` arg dynamically.
+
+### Key Learnings
+- [PDF Processing] Comprehensive finder yield drops to ~3-5% on the "long tail" of papers (regional, paywalled, datasets)
+- [PDF Processing] Script writes flat PDF paths — need post-run migration to `PDFs/YYYY/`
+- [Workflows] Dry-run mode is redundant for API-heavy scripts (same API calls, just skips download)
+
+### Outstanding Tasks Documented
+Created `memory/outstanding-tasks.md` with 14 prioritized tasks across 4 tiers for future sessions.
+
+---
+
 ## Session 64 (Feb 13, 2026) - Language Search Waves 2-3 (A6-B5) Import
 
 ### Overview

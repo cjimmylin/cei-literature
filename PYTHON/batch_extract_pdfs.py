@@ -60,10 +60,15 @@ def get_papers_needing_extraction(date_added="20260207"):
 
         pdf_filename = local_match.group(1)
 
-        # Check if extract already exists
+        # Check if extract already exists (root or year-based subdir)
         extract_path = EXTRACTS_DIR / (f.stem + ".md")
         if extract_path.exists():
             continue
+        year_m = re.match(r'^(\d{4})-', f.stem)
+        if year_m:
+            year_extract = EXTRACTS_DIR / year_m.group(1) / (f.stem + ".md")
+            if year_extract.exists():
+                continue
 
         papers.append({
             'paper_path': f,
@@ -120,19 +125,45 @@ extracted_at: "{now}"
 
 
 def update_pdf_extract_field(paper_path, extract_filename):
-    """Add pdf_extract field to paper's YAML frontmatter.
+    """Set pdf_extract field in paper's YAML frontmatter.
 
-    Uses safe string insertion (NOT parse/rebuild round-trip).
+    Uses REPLACE-first approach: if a blank pdf_extract: line exists (from import
+    template), replace it in-place. Only falls back to insertion if no existing
+    pdf_extract: line is found. This prevents duplicate YAML fields.
     """
     content = paper_path.read_text(encoding='utf-8')
 
-    # Skip if already has pdf_extract
+    # Skip if already has a populated pdf_extract
     if 'pdf_extract:' in content and 'PDF Extracts/' in content:
         return
 
     extract_line = f'pdf_extract: "PDF Extracts/{extract_filename}"'
 
-    # Insert after local_pdf line
+    # Strategy 1: Replace existing blank pdf_extract: line
+    new_content, n = re.subn(
+        r'^pdf_extract:\s*$',
+        extract_line,
+        content,
+        count=1,
+        flags=re.MULTILINE
+    )
+    if n > 0:
+        paper_path.write_text(new_content, encoding='utf-8')
+        return
+
+    # Strategy 2: Replace existing pdf_extract: with any value
+    new_content, n = re.subn(
+        r'^pdf_extract:.*$',
+        extract_line,
+        content,
+        count=1,
+        flags=re.MULTILINE
+    )
+    if n > 0:
+        paper_path.write_text(new_content, encoding='utf-8')
+        return
+
+    # Strategy 3: No pdf_extract: line exists — insert after local_pdf
     if 'local_pdf:' in content:
         content = re.sub(
             r'(local_pdf:\s*"?\[\[[^\]]*\]\]"?\n)',
@@ -148,7 +179,6 @@ def update_pdf_extract_field(paper_path, extract_filename):
             count=1
         )
     else:
-        # Insert before DATE_ADDED
         content = content.replace(
             'DATE_ADDED:',
             extract_line + '\nDATE_ADDED:'
@@ -194,7 +224,14 @@ def main():
 
     for i, paper in enumerate(batch):
         pdf_path = pdfs_dir / paper['pdf_filename']
-        extract_path = EXTRACTS_DIR / (paper['paper_stem'] + ".md")
+        # Write directly to year-based subdir if possible
+        year_m = re.match(r'^(\d{4})-', paper['paper_stem'])
+        if year_m:
+            year_dir = EXTRACTS_DIR / year_m.group(1)
+            year_dir.mkdir(exist_ok=True)
+            extract_path = year_dir / (paper['paper_stem'] + ".md")
+        else:
+            extract_path = EXTRACTS_DIR / (paper['paper_stem'] + ".md")
 
         # Verify PDF exists
         if not pdf_path.exists():
@@ -214,9 +251,10 @@ def main():
             print(f"  [{start + i:3d}] OK ({num_pages}pp, {extract_size_kb:.0f}KB): {paper['paper_stem'][:70]}")
             extracted += 1
 
-            # Update paper's pdf_extract field
+            # Update paper's pdf_extract field (use year-prefixed path)
+            extract_rel = extract_path.relative_to(EXTRACTS_DIR)
             try:
-                update_pdf_extract_field(paper['paper_path'], paper['paper_stem'] + ".md")
+                update_pdf_extract_field(paper['paper_path'], str(extract_rel))
             except Exception as e:
                 print(f"         WARNING: YAML update failed: {e}")
 

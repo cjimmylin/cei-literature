@@ -27,7 +27,7 @@ significance: "Addresses the English-centric bias in current agent research, pro
 pdf_extract: "PDF Extracts/2025/2025-Wang-X-WebAgentBench.md"
 abstract: "Recently, large language model (LLM)-based agents have achieved significant success in in- teractive environments, attracting significant academic and industrial attention. Despite these advancements, current research predomi- nantly focuses on English scenarios. In reality, there are over 7,000 languages worldwide, all of which demand access to comparable agentic services. Nevertheless, the development of lan- guage agents remains inadequate for meeting the diverse requirements of multilingual"
 paper_summary: "Abstract: Recently, large language model (LLM)-based agents have achieved significant success in in- teractive environments, attracting significant academic and industrial attention. Despite these advancements, | Overview: arXiv:2505.15372v1 [cs.CL] 21 May 2025 X-WebAgentBench: A Multilingual Interactive Web Benchmark for Evaluating Global Agentic System Peng Wang1, 2, ∗Ruihan Tao1,* Qiguang Chen1 Mengkang Hu3 Libo Qin1 | Methodology: zh fr es de el bg ru tr ar vi th hi sw ur AVG Mistral-7B-Instruct (Jiang et al., 2023) BaseAgent 10.80 | Conclusions: To address the multilingual evaluation of lan- guage agents, we introduce X-WebAgentBench, a benchmark comprising 14 languages, 2,800 text instruction"
-local_pdf: [[PDFs/2025/2025-Wang-X-WebAgentBench.pdf]]
+local_pdf: "[[PDFs/2025/2025-Wang-X-WebAgentBench.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

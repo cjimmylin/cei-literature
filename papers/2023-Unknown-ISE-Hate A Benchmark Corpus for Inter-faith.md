@@ -16,7 +16,7 @@ last_author: "[[Unknown]]"
 authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0306457323000079"
-external_pdf: ""
+external_pdf: "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.24106617.v2"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: Information Processing and Management

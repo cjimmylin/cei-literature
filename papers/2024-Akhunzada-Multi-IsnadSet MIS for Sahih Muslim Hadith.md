@@ -16,7 +16,7 @@ last_author: "[[Aziz Mehmood Farooqi, Rauf Ahmed Shams Malick, Muhammad Shahzad 
 authors: "[[Aziz Mehmood Farooqi, Rauf Ahmed Shams Malick, Muhammad Shahzad Shaikh, Adnan Akhunzada]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
+external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11096860/pdf/main.pdf"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: Data in Brief (ScienceDirect)

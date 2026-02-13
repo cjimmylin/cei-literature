@@ -27,7 +27,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Wu-AutoHallusion.md"
 abstract: "Large vision-language models (LVLMs) are prone to hallucinations, where certain contextual cues in an image can trigger the language module to produce overconfident and incorrect reasoning about abnormal or hypothetical objects. While some benchmarks have been developed to investigate LVLM hallucinations, they often rely on hand-crafted corner cases whose failure patterns may not generalize well. Additionally, fine-tuning on these examples could undermine their validity. To address this, we aim"
 paper_summary: "Abstract: Large vision-language models (LVLMs) are prone to hallucinations, where certain contextual cues in an image can trigger the language module to produce overconfident and incorrect reasoning about abnor | Overview: AUTOHALLUSION: Automatic Generation of Hallucination Benchmarks for Vision-Language Models Xiyang Wu* Tianrui Guan* Dianqi Li Shuaiyi Huang Xiaoyu Liu Xijun Wang Ruiqi Xian Abhinav Shrivastava Furong  | Methodology: that employs several key strategies to create a diverse range of hallucination examples. Our generated visual-question pairs pose significant challeng | Key Findings: results for all metrics. For diversity, we sam- pled 200 hallucination examples from the synthetic dataset and 126 from the real-world dataset. The im | Conclusions: In this paper, we introduce AUTOHALLUSION, the first automatic benchmark generation approach to create diverse hallucination examples. Inspired by sch"
-local_pdf: [[PDFs/2024/2024-Wu-AutoHallusion.pdf]]
+local_pdf: "[[PDFs/2024/2024-Wu-AutoHallusion.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

@@ -16,7 +16,7 @@ last_author: "[[Nuha Albadi, Maram Kurdi, Shivakant Mishra]]"
 authors: "[[Nuha Albadi, Maram Kurdi, Shivakant Mishra]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
+external_pdf: "https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00404/1962472/tacl_a_"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: IEEE/ACM ASONAM 2018

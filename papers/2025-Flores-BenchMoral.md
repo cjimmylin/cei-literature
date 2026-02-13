@@ -36,7 +36,7 @@ data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Llama-3, DeepSeek"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Flores-BenchMoral.md"
-local_pdf: [[PDFs/2025/2025-Flores-BenchMoral.pdf]]
+local_pdf: "[[PDFs/2025/2025-Flores-BenchMoral.pdf]]"
 ---
 # BenchMoral: A benchmarking to assess the moral sensitivity of large language models (LLMs) in Spanish
 

@@ -27,7 +27,7 @@ significance: "Bridges the gap between Cognitive Science and AI Eval, showing th
 pdf_extract: "PDF Extracts/2023/2023-Nie-MoCa.md"
 abstract: "Human commonsense understanding of the physical and social world is organized around intuitive theories. These theories support making causal and moral judg- ments. When something bad happens, we naturally ask: who did what, and why? A rich literature in cognitive science has studied people’s causal and moral intuitions. This work has revealed a number of factors that systematically influence people’s judgments, such as the violation of norms and whether the harm is avoidable or inevitable. We c"
 paper_summary: "Abstract: Human commonsense understanding of the physical and social world is organized around intuitive theories. These theories support making causal and moral judg- ments. When something bad happens, we natu | Overview: MoCa: Measuring Human-Language Model Alignment on Causal and Moral Judgment Tasks Allen Nie1∗ Yuhui Zhang1 Atharva Amdekar2 Chris Piech1 Tatsunori Hashimoto1 Tobias Gerstenberg3∗ 1Computer Science 2IC | Methodology: to automatically identify a prompt that is maximally aligned with collected human responses. Zhou et al. (2022) proposed Automatic Prompt Engineer (AP | Key Findings: 4.1 Do LLMs make the same judgments as people on these stories? Setup. We first directly compare the responses of a set of LLMs to those of human part | Conclusions: We summarized the main findings of 24 cognitive science papers around human intuitions on causal and moral judgments. We collected a dataset of causal"
-local_pdf: [[PDFs/2023/2023-Nie-MoCa.pdf]]
+local_pdf: "[[PDFs/2023/2023-Nie-MoCa.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

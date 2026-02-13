@@ -15,7 +15,7 @@ last_author: "[[Zhang, Yongfeng]]"
 authors: "[[Ji, Jianchao]]; [[Chen, Yutong]]; [[Jin, Mingyu]]; [[Xu, Wujiang]]; [[Hua, Wenyue]]; [[Zhang, Yongfeng]]"
 doi: 10.48550/arXiv.2406.04428
 url: "http://arxiv.org/abs/2406.04428"
-local_pdf: [[PDFs/2024/2024-Ji-MoralBench.pdf]]
+local_pdf: "[[PDFs/2024/2024-Ji-MoralBench.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2406.04428.pdf"
 publication: "SIGKDD Explorations"
 national_ethnic_cultural: N/A

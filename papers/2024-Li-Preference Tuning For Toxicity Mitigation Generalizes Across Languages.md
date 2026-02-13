@@ -1,0 +1,74 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0443
+type: preprint
+short_title: Preference Tuning For Toxicity Mitigation Generalizes Across Languages
+year: 2024
+first_author: "[[Xiaochen Li]]"
+last_author: "[[Stephen Bach]]"
+authors: Xiaochen Li, Zheng Xin Yong, Stephen Bach
+url: "https://arxiv.org/abs/2406.16235"
+external_pdf: "https://arxiv.org/pdf/2406.16235.pdf"
+publication: arXiv / ACL Anthology
+local_pdf: "[[PDFs/2024/2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages.md"
+DATE_ADDED: 20260213
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+languages_list: "17 languages including French"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract: "Detoxifying multilingual Large Language Models (LLMs) has become crucial due to their increasing global use. In this work, we explore zero-shot cross-lingual generalization of preference tuning in detoxifying LLMs. In contrast to prior work that suggests limited crosslingual generalization for other safety tasks, we show that Direct Preference Optimization (DPO) training with only English data can significantly reduce toxicity in multilingual openended generations."
+ethics_perspective: "Toxicity & Hate Speech"
+---
+# Preference Tuning For Toxicity Mitigation Generalizes Across Languages
+
+## Authors
+
+[[Xiaochen Li, Zheng Xin Yong, Stephen Bach]]
+
+## Metadata
+
+**Authors:** Xiaochen Li, Zheng Xin Yong, Stephen Bach
+
+**Year:** 2024
+
+**Type:** preprint
+
+**Venue:** arXiv / ACL Anthology
+
+**Languages:** 17 languages including French
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2406.16235
+- **Code/Data:** https://github.com/BatsResearch/cross-lingual-detox
+
+## Abstract
+
+Shows DPO training with only English data can significantly reduce toxicity in multilingual open-ended generations across 17 languages including French. Toxic generation probability drops from 46.8% to 3.9%. Uses mechanistic interpretability to identify dual multilinguality property of MLP layers. Published at EMNLP 2024 Findings.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent B6
+**Relevance:** Demonstrates cross-lingual toxicity mitigation for French. Mechanistic interpretability reveals multilingual toxic concept encoding in MLP layers.
+
+## Tags
+

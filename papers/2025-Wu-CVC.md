@@ -15,7 +15,7 @@ authors: "[[Wu, Ping]]; [[Shen, Guobin]]; [[Zhao, Dongcheng]]; [[Wang, Yuwei]]; 
 doi: 10.48550/arXiv.2506.01495
 tags: 
 url: "http://arxiv.org/abs/2506.01495"
-local_pdf: [[PDFs/2025/2025-Wu-CVC.pdf]]
+local_pdf: "[[PDFs/2025/2025-Wu-CVC.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2506.01495.pdf"
 publication: arXiv.org
 national_ethnic_cultural: Chinese

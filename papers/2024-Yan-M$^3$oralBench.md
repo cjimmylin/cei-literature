@@ -26,7 +26,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Yan-M$^3$oralBench.md"
 abstract: "Recently, large foundation models, including large lan- guage models (LLMs) and large vision-language models (LVLMs), have become essential tools in critical fields such as law, finance, and healthcare. As these models increas- ingly integrate into our daily life, it is necessary to conduct moral evaluation to ensure that their outputs align with hu- man values and remain within moral boundaries. Previous works primarily focus on LLMs, proposing moral datasets and benchmarks limited to text moda"
 paper_summary: "Abstract: Recently, large foundation models, including large lan- guage models (LLMs) and large vision-language models (LVLMs), have become essential tools in critical fields such as law, finance, and healthcar | Overview: M³oralBench: A MultiModal Moral Benchmark for LVLMs Bei Yan1,2, Jie Zhang1,2, Zhiyuan Chen1,2, Shiguang Shan1,2, Xilin Chen1,2 1Key Laboratory of AI Safety of CAS, Institute of Computing Technology, C | Conclusions: Ethical and Social Concerns. Our research performs a multimodal moral evaluation of LVLMs, probing potential moral issues within these models. All ima"
-local_pdf: [[PDFs/2024/2024-Yan-M$^3$oralBench.pdf]]
+local_pdf: "[[PDFs/2024/2024-Yan-M$^3$oralBench.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

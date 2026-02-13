@@ -35,7 +35,7 @@ data_metrics: "33.4 gb"
 LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, T5"
 DATA_URL: "https://bird-bench.github.io/"
 pdf_extract: "PDF Extracts/2023/2023-Li-BIRD.md"
-local_pdf: [[PDFs/2023/2023-Li-BIRD.pdf]]
+local_pdf: "[[PDFs/2023/2023-Li-BIRD.pdf]]"
 ---
 # BIRD: BIg Bench for LaRge-scale Database Grounded Text-to-SQL Evaluation
 

@@ -25,7 +25,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Qi-AGENTIF.md"
 abstract: "Large Language Models (LLMs) have demonstrated advanced capabilities in real- world agentic applications. Growing research efforts aim to develop LLM-based agents to address practical demands, introducing a new challenge: agentic scenarios often involve lengthy instructions with complex constraints, such as extended sys- tem prompts and detailed tool specifications. While adherence to such instructions is crucial for agentic applications, whether LLMs can reliably follow them remains underexplor"
 paper_summary: "Abstract: Large Language Models (LLMs) have demonstrated advanced capabilities in real- world agentic applications. Growing research efforts aim to develop LLM-based agents to address practical demands, introdu | Overview: arXiv:2505.16944v1 [cs.AI] 22 May 2025 AGENTIF: Benchmarking Instruction Following of Large Language Models in Agentic Scenarios Yunjia Qi1∗, Hao Peng1∗, Xiaozhi Wang1, Amy Xin1, Youfeng Liu2, Bin Xu1 | Methodology: Evaluation Generation Evaluation Method Figure 3: The data construction process and evaluation workflow of AGENTIF. The detailed descrip- tions of dif | Key Findings: protocol (§ 3.4). Figure 3 illustrates the dataset construction and evaluation workflow of AGENTIF. 3 --- Page 4 --- STEP1: Instruction Collection STE | Conclusions: topics, prioritize maintaining the time-boxed structure."
-local_pdf: [[PDFs/2025/2025-Qi-AGENTIF.pdf]]
+local_pdf: "[[PDFs/2025/2025-Qi-AGENTIF.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

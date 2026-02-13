@@ -33,7 +33,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Alyemny-FatwaSet.md"
-local_pdf: [[PDFs/2023/2023-Alyemny-FatwaSet.pdf]]
+local_pdf: "[[PDFs/2023/2023-Alyemny-FatwaSet.pdf]]"
 ---
 # FatwaSet: A Data-Driven Exploration of a New Islamic Fatwas Dataset for Arabic NLP Tasks
 

@@ -16,7 +16,7 @@ last_author: "[[Toygar]]"
 authors: "[[Toygar]]"
 authors_incomplete: false
 url: "https://huggingface.co/datasets/Toygar/turkish-offensive-language-detection"
-external_pdf: ""
+external_pdf: "https://www.mdpi.com/2079-9292/14/24/4919/pdf"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: HuggingFace

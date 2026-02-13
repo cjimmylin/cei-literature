@@ -15,7 +15,7 @@ authors: "[[Huang, Yue]]; [[Sun, Lichao]]; [[Wang, Haoran]]; [[Wu, Siyuan]]; [[Z
 doi: 10.48550/arXiv.2401.05561
 tags: 
 url: "http://arxiv.org/abs/2401.05561"
-local_pdf: [[PDFs/2024/2024-Huang-TrustLLM.pdf]]
+local_pdf: "[[PDFs/2024/2024-Huang-TrustLLM.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2401.05561.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A

@@ -23,7 +23,7 @@ key_contribution: "Proposes the 'EudAImonia' framework to integrate virtue ethic
 significance: "Addresses the limitations of rule-based ethics by focusing on character development and the cultivation of practical wisdom in AI"
 abstract: "As the broad scale adoption of Artificial Intelligence (AI) and deep learning systems continues to advance, it is more crucial than ever to understand and implement robust ethical frameworks to guide the usage, development, and societal conceptualisation of these technologies. In this paper, we examine the comparative benefits of the Christian virtue ethics tradition towards the proper deployment of AI and its interaction with related brain-computer interface technology. Furthermore, we propose"
 external_pdf: "https://journal.iscast.org/wp-content/uploads/2025/07/CPOSAT-Vol3-SpecialEdition.pdf"
-local_pdf: [[PDFs/2025/2025-Rusnak-EudAImonia.pdf]]
+local_pdf: "[[PDFs/2025/2025-Rusnak-EudAImonia.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Rusnak-EudAImonia.md"
 ethics_overall: No
 virtue_ethics: Yes

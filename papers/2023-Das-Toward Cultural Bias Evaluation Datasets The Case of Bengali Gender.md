@@ -12,8 +12,9 @@ first_author: "[[D. Das]]"
 last_author: "[[D.]]"
 authors: Das, D. et al.
 url: "https://aclanthology.org/2023.c3nlp-1.8/"
+external_pdf: "https://aclanthology.org/2023.c3nlp-1.8.pdf"
 publication: ACL Anthology (C3NLP @ EACL 2023)
-local_pdf: 
+local_pdf: "[[PDFs/2023/2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender.pdf]]"
 pdf_extract: 
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

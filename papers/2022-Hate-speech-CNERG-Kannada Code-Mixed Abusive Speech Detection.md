@@ -16,9 +16,9 @@ last_author: "[[Hate-speech-CNERG]]"
 authors: "[[Hate-speech-CNERG]]"
 authors_incomplete: false
 url: "https://huggingface.co/Hate-speech-CNERG/kannada-codemixed-abusive-MuRIL"
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://arxiv.org/pdf/2502.10632.pdf"
+local_pdf: "[[PDFs/2022/2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection.md"
 publication: WebSearch: Kannada hate speech HuggingFace
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

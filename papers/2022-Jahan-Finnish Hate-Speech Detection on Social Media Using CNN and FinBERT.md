@@ -1,0 +1,72 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0497
+type: conferencePaper
+short_title: Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT
+year: 2022
+first_author: "[[Md Saroar Jahan]]"
+last_author: "[[Nabil Arhab]]"
+authors: Md Saroar Jahan, Mourad Oussalah, Nabil Arhab
+url: "https://aclanthology.org/2022.lrec-1.92/"
+publication: ACL Anthology / LREC 2022
+local_pdf: 
+pdf_extract: 
+DATE_ADDED: 20260213
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+languages_list: "Finnish"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract:
+research_topic: "Other"
+---
+# Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT
+
+## Authors
+
+[[Md Saroar Jahan, Mourad Oussalah, Nabil Arhab]]
+
+## Metadata
+
+**Authors:** Md Saroar Jahan, Mourad Oussalah, Nabil Arhab
+
+**Year:** 2022
+
+**Type:** conferencePaper
+
+**Venue:** ACL Anthology / LREC 2022
+
+**Languages:** Finnish
+
+## Links
+
+- **URL:** https://aclanthology.org/2022.lrec-1.92/
+
+## Abstract
+
+Constructs Finnish hate speech dataset from Suomi24 forum with 10.7k sentences (16.7% hate speech). FinBERT achieves 91.7% accuracy and 90.8% F1, outperforming multilingual-BERT and CNN approaches.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent B7
+**Relevance:** Primary Finnish hate speech detection dataset and benchmark from Suomi24 forum.
+
+## Tags
+

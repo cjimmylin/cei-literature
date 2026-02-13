@@ -13,7 +13,7 @@ first_author: "[[Tongxin Yuan]]"
 last_author: "[[Gongshen Liu]]"
 authors: "Tongxin Yuan; Zhiwei He; Lingzhong Dong; Yiming Wang; Ruijie Zhao; Tian Xia; Lizhen Xu; Binglin Zhou; Fangqi Li; Zhuosheng Zhang; Rui Wang; Gongshen Liu"
 url: "https://arxiv.org/abs/2401.10019"
-local_pdf: [[PDFs/2024/2024-Yuan-R-Judge.pdf]]
+local_pdf: "[[PDFs/2024/2024-Yuan-R-Judge.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2401.10019.pdf"
 national_ethnic_cultural: N/A
 religious_values: "N/A"

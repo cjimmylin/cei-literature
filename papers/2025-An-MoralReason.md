@@ -15,7 +15,7 @@ last_author: "[[Du, Wan]]"
 authors: "[[An, Zhiyu]]; [[Du, Wan]]"
 doi: 10.48550/arXiv.2511.12271
 url: "https://arxiv.org/abs/2511.12271"
-local_pdf: [[PDFs/2025/2025-An-MoralReason.pdf]]
+local_pdf: "[[PDFs/2025/2025-An-MoralReason.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2511.12271.pdf"
 national_ethnic_cultural: N/A
 religious_values: "N/A"

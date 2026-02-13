@@ -13,7 +13,7 @@ first_author: "[[Y. Moon]]"
 last_author: "[[Oh, T]]"
 authors: "[[Moon, Y.]]; [[Nam, H.]]; [[Choi, W.]]; [[Oh, T.]]"
 url: "https://arxiv.org/abs/2407.13442"
-local_pdf: [[PDFs/2024/2024-Moon-BEAF.pdf]]
+local_pdf: "[[PDFs/2024/2024-Moon-BEAF.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2407.13442.pdf"
 national_ethnic_cultural: American
 religious_values: "N/A"

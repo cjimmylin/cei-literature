@@ -16,7 +16,7 @@ last_author: "[[Religions), (Authors from MDPI]]"
 authors: "[[(Authors from MDPI Religions)]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
+external_pdf: "http://dx.doi.org/10.2139/ssrn.4871732"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: Religions (MDPI), Vol. 15, Issue 12, Article 1559

@@ -484,32 +484,32 @@ From 266 papers evaluated for normative ethics content (EXSR batch), **7** were 
 
 ## 10. LLM Assessment Coverage
 
-All **1168 papers** were assessed for LLM model usage and data availability. **566** papers (48%) mention specific LLM models; **774** papers (66%) have a linked data URL.
+All **1636 papers** were assessed for LLM model usage and data availability. **1034** papers (63%) mention specific LLM models; **1243** papers (75%) have a linked data URL.
 
 ### Top 20 LLM Models Mentioned
 
 | # | Model | Papers | % of Papers with Models |
 |---|-------|--------|------------------------|
-| 1 | GPT-4 | 319 ███████████████████████████████ | 56% |
-| 2 | Llama-3 | 236 ███████████████████████ | 41% |
-| 3 | Claude | 183 ██████████████████ | 32% |
-| 4 | Qwen | 183 ██████████████████ | 32% |
-| 5 | GPT-3.5 | 158 ███████████████ | 27% |
-| 6 | Mistral | 157 ███████████████ | 27% |
-| 7 | Gemini | 153 ███████████████ | 27% |
-| 8 | Llama-2 | 138 █████████████ | 24% |
-| 9 | DeepSeek | 109 ██████████ | 19% |
-| 10 | Gemma | 100 ██████████ | 17% |
-| 11 | ChatGPT | 65 ██████ | 11% |
-| 12 | BERT | 63 ██████ | 11% |
-| 13 | Mixtral | 54 █████ | 9% |
-| 14 | Vicuna | 51 █████ | 9% |
-| 15 | Llama | 48 ████ | 8% |
-| 16 | RoBERTa | 46 ████ | 8% |
-| 17 | GPT-4o | 35 ███ | 6% |
-| 18 | Phi | 33 ███ | 5% |
-| 19 | GPT-3 | 32 ███ | 5% |
-| 20 | Falcon | 26 ██ | 4% |
+| 1 | GPT-4 | 319 ███████████████████████████████ | 30% |
+| 2 | Llama-3 | 236 ███████████████████████ | 22% |
+| 3 | Claude | 183 ██████████████████ | 17% |
+| 4 | Qwen | 183 ██████████████████ | 17% |
+| 5 | GPT-3.5 | 158 ███████████████ | 15% |
+| 6 | Mistral | 157 ███████████████ | 15% |
+| 7 | Gemini | 153 ███████████████ | 14% |
+| 8 | Llama-2 | 138 █████████████ | 13% |
+| 9 | DeepSeek | 109 ██████████ | 10% |
+| 10 | Gemma | 100 ██████████ | 9% |
+| 11 | ChatGPT | 65 ██████ | 6% |
+| 12 | BERT | 62 ██████ | 5% |
+| 13 | Mixtral | 54 █████ | 5% |
+| 14 | Vicuna | 51 █████ | 4% |
+| 15 | Llama | 48 ████ | 4% |
+| 16 | RoBERTa | 46 ████ | 4% |
+| 17 | GPT-4o | 35 ███ | 3% |
+| 18 | Phi | 33 ███ | 3% |
+| 19 | GPT-3 | 32 ███ | 3% |
+| 20 | Falcon | 26 ██ | 2% |
 
 ### Assessment Coverage by Year
 
@@ -518,25 +518,25 @@ All **1168 papers** were assessed for LLM model usage and data availability. **5
 | 0 | 0 | 3 | 3 | 0% |
 | 2010 | 0 | 1 | 1 | 0% |
 | 2015 | 0 | 1 | 1 | 0% |
-| 2016 | 1 | 5 | 6 | 16% |
-| 2018 | 1 | 12 | 13 | 7% |
-| 2019 | 6 | 7 | 13 | 46% |
-| 2020 | 7 | 16 | 23 | 30% |
-| 2021 | 13 | 22 | 35 | 37% |
-| 2022 | 23 | 42 | 65 | 35% |
-| 2023 | 63 | 79 | 142 | 44% |
-| 2024 | 171 | 179 | 350 | 48% |
-| 2025 | 265 | 214 | 479 | 55% |
-| 2026 | 16 | 21 | 37 | 43% |
+| 2016 | 2 | 5 | 7 | 28% |
+| 2018 | 7 | 12 | 19 | 36% |
+| 2019 | 16 | 7 | 23 | 69% |
+| 2020 | 27 | 16 | 43 | 62% |
+| 2021 | 36 | 22 | 58 | 62% |
+| 2022 | 53 | 42 | 95 | 55% |
+| 2023 | 119 | 79 | 198 | 60% |
+| 2024 | 311 | 179 | 490 | 63% |
+| 2025 | 437 | 214 | 651 | 67% |
+| 2026 | 26 | 21 | 47 | 55% |
 
 ### Data Repository Distribution
 
 | Repository | Count | % of Papers with URLs |
 |-----------|-------|----------------------|
-| GitHub | 378 | 48% |
-| Other | 288 | 37% |
-| HuggingFace | 91 | 11% |
-| OSF | 11 | 1% |
+| Other | 757 | 60% |
+| GitHub | 378 | 30% |
+| HuggingFace | 91 | 7% |
+| OSF | 11 | 0% |
 | Zenodo | 5 | 0% |
 | Kaggle | 1 | 0% |
 
@@ -669,7 +669,7 @@ All **1168 papers** were assessed for LLM model usage and data availability. **5
 | `benchmark_survey_candidates.json` | 528 | Subset with benchmark/evaluation resources |
 | `normative_v2_all_classifications.json` | 266 | 10-agent normative ethics classification (EXSR batch) |
 | `author_paper_map.json` | 846 | Author-paper mapping |
-| Paper YAML frontmatter | 1168 | LLM_assessed and DATA_URL fields (2026-02-12 enrichment) |
+| Paper YAML frontmatter | 1636 | LLM_assessed and DATA_URL fields (2026-02-12 enrichment) |
 
 ### Classification Approach
 

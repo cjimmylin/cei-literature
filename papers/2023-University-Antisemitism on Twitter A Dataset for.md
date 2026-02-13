@@ -16,7 +16,7 @@ last_author: "[[ISCA (Institute for the Study of Contemporary Antisemitism, Indi
 authors: "[[ISCA (Institute for the Study of Contemporary Antisemitism, Indiana University)]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
+external_pdf: "http://www.cell.com/article/S2405844023058553/pdf"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: Zenodo

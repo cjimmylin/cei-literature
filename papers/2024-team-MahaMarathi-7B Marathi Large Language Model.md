@@ -16,7 +16,7 @@ last_author: "[[team, Marathi-LLM]]"
 authors: "[[Marathi-LLM team]]"
 authors_incomplete: false
 url: "https://huggingface.co/marathi-llm/MahaMarathi-7B-v24.01-Base"
-external_pdf: ""
+external_pdf: "https://www.mdpi.com/2079-9292/14/17/3484/pdf?version=1756625048"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: HuggingFace

@@ -39,6 +39,26 @@ MASTER_LIST = LOGS_DIR / f"{DATE_PREFIX}-language_search_master_list.json"
 KEY_PREFIX = "LSRC"  # Language Search
 
 
+def get_next_key_number(papers_dir, key_prefix="LSRC"):
+    """Scan existing papers to find the highest LSRC key and return next number.
+
+    This prevents key collisions when running multiple import waves.
+    """
+    max_key = 0
+    pattern = re.compile(rf'^key:\s*{re.escape(key_prefix)}(\d+)', re.MULTILINE)
+    for p in papers_dir.glob("*.md"):
+        try:
+            content = p.read_text(encoding='utf-8')
+            m = pattern.search(content)
+            if m:
+                num = int(m.group(1))
+                if num > max_key:
+                    max_key = num
+        except Exception:
+            continue
+    return max_key + 1
+
+
 def sanitize_filename(s):
     """Sanitize a string for use in a filename."""
     s = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', s)
@@ -393,6 +413,10 @@ def main():
         new_papers = new_papers[start - 1:end]
         print(f"Processing papers {start}-{end} ({len(new_papers)} papers)")
 
+    # Auto-detect next key number to avoid collisions with previous import waves
+    key_start = get_next_key_number(PAPERS_DIR, KEY_PREFIX)
+    print(f"Auto-detected next key: {KEY_PREFIX}{key_start:04d}")
+
     if dry_run:
         print("*** DRY RUN MODE ***")
     print()
@@ -401,17 +425,19 @@ def main():
     skipped = 0
     errors = 0
 
-    for i, paper in enumerate(new_papers, start or 1):
+    for i, paper in enumerate(new_papers):
+        key_num = key_start + i
+        display_num = i + 1
         try:
-            filepath, msg = create_paper_file(paper, i, PAPERS_DIR, dry_run)
-            print(f"  [{i:3d}] {msg}")
+            filepath, msg = create_paper_file(paper, key_num, PAPERS_DIR, dry_run)
+            print(f"  [{display_num:3d}] {msg}")
             if filepath:
                 created += 1
             else:
                 skipped += 1
         except Exception as e:
             title = paper.get('title', 'Unknown')[:50]
-            print(f"  [{i:3d}] ERROR: {title}... \u2014 {e}")
+            print(f"  [{display_num:3d}] ERROR: {title}... \u2014 {e}")
             errors += 1
 
     print(f"\n{'='*50}")

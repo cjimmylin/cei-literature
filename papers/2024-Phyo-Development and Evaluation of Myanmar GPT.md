@@ -16,7 +16,7 @@ last_author: "[[Min Si Thu, Pyae Sone Phyo]]"
 authors: "[[Min Si Thu, Pyae Sone Phyo]]"
 authors_incomplete: false
 url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4871732"
-external_pdf: ""
+external_pdf: "https://www.mdpi.com/2306-5729/9/1/1/pdf?version=1703042457"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: SSRN

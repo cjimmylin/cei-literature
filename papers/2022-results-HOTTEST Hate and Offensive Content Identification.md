@@ -16,8 +16,8 @@ last_author: "[[results, Not fully listed in search]]"
 authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0885230822000870"
-external_pdf: ""
-local_pdf: "N/A"
+external_pdf: "https://core.ac.uk/download/143686156.pdf"
+local_pdf: "[[PDFs/2022/2022-results-HOTTEST Hate and Offensive Content Identification.pdf]]"
 pdf_extract: ""
 publication: WebSearch: Tamil AI safety hate speech
 DATE_ADDED: 20260213

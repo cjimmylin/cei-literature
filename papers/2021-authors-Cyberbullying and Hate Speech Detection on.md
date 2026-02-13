@@ -16,7 +16,7 @@ last_author: "[[authors, Multiple]]"
 authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: "https://www.researchgate.net/publication/352848223"
-external_pdf: ""
+external_pdf: "https://doi.org/10.1016/j.dib.2022.108540"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: ResearchGate

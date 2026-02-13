@@ -15,7 +15,7 @@ authors: "[[Mohammadi, Hadi]], [[Giachanou, Anastasia]], [[Bagheri, Ayoub]]"
 doi: 10.48550/arXiv.2510.05942
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2510.05942"
-local_pdf: [[PDFs/2025/2025-Mohammadi-EvalMORAAL.pdf]]
+local_pdf: "[[PDFs/2025/2025-Mohammadi-EvalMORAAL.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2510.05942.pdf"
 publication: arXiv
 ethics_perspective: "Cross-Cultural Ethics"

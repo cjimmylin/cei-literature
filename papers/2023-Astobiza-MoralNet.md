@@ -37,7 +37,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Astobiza-MoralNet.md"
-local_pdf: [[PDFs/2023/2023-Astobiza-MoralNet.pdf]]
+local_pdf: "[[PDFs/2023/2023-Astobiza-MoralNet.pdf]]"
 ---
 # MoralNet: A Benchmarking Protocol for Evaluating Morality in AI Systems
 

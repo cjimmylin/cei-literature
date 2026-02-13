@@ -16,9 +16,9 @@ last_author: "[[Unknown]]"
 authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://link.springer.com/chapter/10.1007/978-3-031-58495-4_3"
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "https://arxiv.org/pdf/2203.13778"
+local_pdf: "[[PDFs/2024/2024-Unknown-SamPar A Marathi Hate Speech Dataset.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Unknown-SamPar A Marathi Hate Speech Dataset.md"
 publication: Springer (SPELLL 2023)
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

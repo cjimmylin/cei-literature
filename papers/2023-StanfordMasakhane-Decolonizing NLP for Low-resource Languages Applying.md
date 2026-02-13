@@ -16,8 +16,8 @@ last_author: "[[Stanford/Masakhane, Authors from]]"
 authors: "[[Authors from Stanford/Masakhane]]"
 authors_incomplete: false
 url: "https://ojs.stanford.edu/ojs/index.php/grace/article/view/2584"
-external_pdf: ""
-local_pdf: "N/A"
+external_pdf: "https://core.ac.uk/download/667717551.pdf"
+local_pdf: "[[PDFs/2023-StanfordMasakhane-Decolonizing NLP for Low-resource Languages Applying.pdf]]"
 pdf_extract: ""
 publication: WebSearch: Decolonizing NLP low-resource languages relational ethics Birhane
 DATE_ADDED: 20260213

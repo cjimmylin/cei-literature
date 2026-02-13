@@ -16,7 +16,7 @@ last_author: "[[Unknown]]"
 authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://www.mdpi.com/2673-2688/6/8/194"
-external_pdf: ""
+external_pdf: "https://www.mdpi.com/2673-2688/6/8/194/pdf?version=1755769417"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: MDPI

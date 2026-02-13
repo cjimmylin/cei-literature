@@ -16,7 +16,7 @@ last_author: "[[Ammar Younas, Yi Zeng]]"
 authors: "[[Ammar Younas, Yi Zeng]]"
 authors_incomplete: false
 url: "https://link.springer.com/article/10.1007/s43681-024-00505-7"
-external_pdf: ""
+external_pdf: "https://doi.org/10.2139/ssrn.4689770"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: AI and Ethics (Springer)

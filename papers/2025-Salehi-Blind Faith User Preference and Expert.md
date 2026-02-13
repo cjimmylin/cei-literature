@@ -16,7 +16,7 @@ last_author: "[[Sabriya Alam, Marwa Abdulhai, Niloufar Salehi]]"
 authors: "[[Sabriya Alam, Marwa Abdulhai, Niloufar Salehi]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
+external_pdf: "https://dl.acm.org/doi/pdf/10.1145/3715275.3732162"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: ACM FAccT 2025

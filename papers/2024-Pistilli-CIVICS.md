@@ -37,7 +37,7 @@ data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Qwen, DeepSeek, Mistral, Gemma"
 DATA_URL: "https://huggingface.co/CIVICS-dataset"
 pdf_extract: "PDF Extracts/2024/2024-Pistilli-CIVICS.md"
-local_pdf: [[PDFs/2024/2024-Pistilli-CIVICS.pdf]]
+local_pdf: "[[PDFs/2024/2024-Pistilli-CIVICS.pdf]]"
 ---
 # CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models
 

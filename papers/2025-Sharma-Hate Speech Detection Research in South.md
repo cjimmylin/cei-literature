@@ -16,7 +16,7 @@ last_author: "[[Singh, Vivek Kumar]]"
 authors: "[[Sharma, Deepawali]]; [[Nath, Tanusree]]; [[Gupta, Vedika]]; [[Singh, Vivek Kumar]]"
 authors_incomplete: false
 url: "https://dl.acm.org/doi/10.1145/3711710"
-external_pdf: ""
+external_pdf: "https://doi.org/10.1016/j.knosys.2025.113915"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: WebSearch: hate speech South Asian languages survey

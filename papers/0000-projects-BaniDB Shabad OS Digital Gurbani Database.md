@@ -16,7 +16,7 @@ last_author: "[[projects), Khalis Foundation / Shabad OS (community]]"
 authors: "[[Khalis Foundation / Shabad OS (community projects)]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
+external_pdf: "http://xplorestaging.ieee.org/ielx7/8643018/8645960/08646190.pdf?arnumber=864619"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: GitHub / Web API

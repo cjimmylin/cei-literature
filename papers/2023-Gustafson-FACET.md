@@ -37,7 +37,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://facet.metademolab.com"
 pdf_extract: "PDF Extracts/2023/2023-Gustafson-FACET.md"
-local_pdf: [[PDFs/2023/2023-Gustafson-FACET.pdf]]
+local_pdf: "[[PDFs/2023/2023-Gustafson-FACET.pdf]]"
 ---
 # FACET: Fairness in Computer Vision Evaluation Benchmark
 

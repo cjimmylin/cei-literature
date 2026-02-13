@@ -1,0 +1,77 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0450
+type: journalArticle
+short_title: A World Full of Stereotypes? Further Investigation on Origin and Gender Bias in Multi-Lingual Word Embeddings
+year: 2021
+first_author: "[[Mascha Kurpicz-Briki]]"
+last_author: "[[Mascha Kurpicz-Briki]]"
+authors: Mascha Kurpicz-Briki
+doi: 10.3389/fdata.2021.625290
+url: "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2021.625290/full"
+external_pdf: "https://europepmc.org/articles/PMC8209512?pdf=render"
+publication: Frontiers in Big Data
+local_pdf: "[[PDFs/2021/2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and.pdf]]"
+pdf_extract: "PDF Extracts/2021/2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and.md"
+DATE_ADDED: 20260213
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+languages_list: "French, German, Italian, Swedish"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract:
+ethics_perspective: "Bias & Fairness"
+---
+# A World Full of Stereotypes? Further Investigation on Origin and Gender Bias in Multi-Lingual Word Embeddings
+
+## Authors
+
+[[Mascha Kurpicz-Briki]]
+
+## Metadata
+
+**Authors:** Mascha Kurpicz-Briki
+
+**Year:** 2021
+
+**Type:** journalArticle
+
+**Venue:** Frontiers in Big Data
+
+**DOI:** [10.3389/fdata.2021.625290](https://doi.org/10.3389/fdata.2021.625290)
+
+**Languages:** French, German, Italian, Swedish
+
+## Links
+
+- **DOI:** https://doi.org/10.3389/fdata.2021.625290
+- **URL:** https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2021.625290/full
+
+## Abstract
+
+Extends origin and gender bias analysis to multilingual word embeddings in four European languages including French. Demonstrates origin bias concerning local migration groups. Published in Frontiers in Big Data.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent B6
+**Relevance:** Extended bias analysis for French embeddings covering both gender and origin/migration-related bias in Swiss/European context.
+
+## Tags
+

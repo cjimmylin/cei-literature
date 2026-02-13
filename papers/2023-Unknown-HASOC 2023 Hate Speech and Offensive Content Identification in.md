@@ -13,9 +13,10 @@ last_author: "[[Unknown]]"
 authors: Unknown
 doi: 10.1145/3632754.3633278
 url: "https://dl.acm.org/doi/10.1145/3632754.3633278"
+external_pdf: "https://arxiv.org/pdf/2312.05671.pdf"
 publication: ACM (FIRE 2023)
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2023/2023-Unknown-HASOC 2023 Hate Speech and Offensive Content Identification in.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Unknown-HASOC 2023 Hate Speech and Offensive Content Identification in.md"
 DATE_ADDED: 20260213
 ethics_overall: "Yes"
 virtue_ethics: "No"

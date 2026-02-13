@@ -137,17 +137,42 @@ def download_pdf(url, output_path, retries=MAX_RETRIES):
 
 
 def update_local_pdf_field(paper_path, pdf_filename):
-    """Add local_pdf field to paper's YAML frontmatter.
+    """Set local_pdf field in paper's YAML frontmatter.
 
-    Uses safe string insertion (NOT parse/rebuild round-trip).
+    Uses REPLACE-first approach: if a blank local_pdf: line exists (from import
+    template), replace it in-place. Only falls back to insertion if no existing
+    local_pdf: line is found. This prevents duplicate YAML fields.
     """
     content = paper_path.read_text(encoding='utf-8')
 
-    # Insert local_pdf line after external_pdf line
     local_pdf_line = f'local_pdf: "[[PDFs/{pdf_filename}]]"'
 
+    # Strategy 1: Replace existing blank local_pdf: line
+    new_content, n = re.subn(
+        r'^local_pdf:\s*$',
+        local_pdf_line,
+        content,
+        count=1,
+        flags=re.MULTILINE
+    )
+    if n > 0:
+        paper_path.write_text(new_content, encoding='utf-8')
+        return
+
+    # Strategy 2: Replace existing local_pdf: with any value (e.g. "N/A")
+    new_content, n = re.subn(
+        r'^local_pdf:.*$',
+        local_pdf_line,
+        content,
+        count=1,
+        flags=re.MULTILINE
+    )
+    if n > 0:
+        paper_path.write_text(new_content, encoding='utf-8')
+        return
+
+    # Strategy 3: No local_pdf: line exists — insert after external_pdf
     if 'external_pdf:' in content:
-        # Insert after external_pdf line
         content = re.sub(
             r'(external_pdf:\s*"[^"]*"\n)',
             r'\1' + local_pdf_line + '\n',
@@ -155,7 +180,6 @@ def update_local_pdf_field(paper_path, pdf_filename):
             count=1
         )
     elif 'url:' in content:
-        # Insert after url line
         content = re.sub(
             r'(url:\s*"[^"]*"\n)',
             r'\1' + local_pdf_line + '\n',
@@ -163,7 +187,6 @@ def update_local_pdf_field(paper_path, pdf_filename):
             count=1
         )
     else:
-        # Insert before DATE_ADDED
         content = content.replace(
             'DATE_ADDED:',
             local_pdf_line + '\nDATE_ADDED:'

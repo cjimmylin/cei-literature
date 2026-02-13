@@ -16,7 +16,7 @@ last_author: "[[Jiang]]"
 authors: "[[Jiang et al]]"
 authors_incomplete: false
 url: "https://link.springer.com/chapter/10.1007/978-3-030-92310-5_52"
-external_pdf: ""
+external_pdf: "http://hdl.handle.net/10045/117492"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: Springer

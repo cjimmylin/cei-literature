@@ -27,7 +27,7 @@ significance: "Moves beyond simple toxicity suppression (blocking/ignoring) to a
 pdf_extract: "PDF Extracts/2022/2022-Kim-ProsocialDialog.md"
 abstract: "Most existing dialogue systems fail to re- spond properly to potentially unsafe user ut- terances by either ignoring or passively agree- ing with them. To address this issue, we intro- duce PROSOCIALDIALOG, the ﬁrst large-scale multi-turn dialogue dataset to teach conversa- tional agents to respond to problematic con- tent following social norms. Covering diverse unethical, problematic, biased, and toxic situa- tions, PROSOCIALDIALOG contains responses that encourage prosocial behavior, grounded"
 paper_summary: "Abstract: Most existing dialogue systems fail to re- spond properly to potentially unsafe user ut- terances by either ignoring or passively agree- ing with them. To address this issue, we intro- duce PROSOCIALD | Overview: PROSOCIALDIALOG: A Prosocial Backbone for Conversational Agents Hyunwoo Kim♥♠∗ Youngjae Yu♥∗Liwei Jiang♥♣ Ximing Lu♥♣ Daniel Khashabi♦ Gunhee Kim♠ Yejin Choi♥♣ Maarten Sap♥♦ ♥Allen Institute for Artiﬁ | Key Findings: between dialogue agents on response generation for PROSOCIALDIALOG (in percentages; §5.2). Evaluation metrics. We conduct both auto- matic and human e | Conclusions: We introduced PROSOCIALDIALOG, a large-scale English dialogue dataset providing constructive feedback for prosocial behaviors aligned with com- monsen"
-local_pdf: [[PDFs/2022/2022-Kim-ProsocialDialog.pdf]]
+local_pdf: "[[PDFs/2022/2022-Kim-ProsocialDialog.pdf]]"
 ethics_overall: Yes
 virtue_ethics: No
 deontological_ethics: No

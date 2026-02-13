@@ -16,7 +16,7 @@ last_author: "[[results, Not fully listed in search]]"
 authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/pii/S2772941924000413"
-external_pdf: ""
+external_pdf: "https://doi.org/10.1016/j.sasc.2024.200112"
 local_pdf: "N/A"
 pdf_extract: ""
 publication: WebSearch: Telugu hate speech detection

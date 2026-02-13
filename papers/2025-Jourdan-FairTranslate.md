@@ -13,7 +13,7 @@ first_author: "[[Fanny Jourdan]]"
 last_author: "[[Favre, Cécile]]"
 authors: "[[Jourdan, Fanny]]; [[Chevalier, Yannick]]; [[Favre, Cécile]]"
 url: "https://arxiv.org/abs/2504.15941"
-local_pdf: [[PDFs/2025/2025-Jourdan-FairTranslate.pdf]]
+local_pdf: "[[PDFs/2025/2025-Jourdan-FairTranslate.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2504.15941.pdf"
 national_ethnic_cultural: French
 religious_values: "N/A"

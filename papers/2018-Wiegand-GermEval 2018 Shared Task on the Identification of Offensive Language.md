@@ -1,0 +1,74 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0465
+type: conferencePaper
+short_title: GermEval 2018 Shared Task on the Identification of Offensive Language
+year: 2018
+first_author: "[[Michael Wiegand]]"
+last_author: "[[Josef Ruppenhofer]]"
+authors: Michael Wiegand, Melanie Siegel, Josef Ruppenhofer
+url: "https://www.lsv.uni-saarland.de/wp-content/publications/2018/germeval2018_wiegand.pdf"
+publication: GermEval Workshop
+local_pdf: 
+pdf_extract: 
+DATE_ADDED: 20260213
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "German"
+languages_list: "German"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract:
+ethics_perspective: "Toxicity & Hate Speech"
+---
+# GermEval 2018 Shared Task on the Identification of Offensive Language
+
+## Authors
+
+[[Michael Wiegand, Melanie Siegel, Josef Ruppenhofer]]
+
+## Metadata
+
+**Authors:** Michael Wiegand, Melanie Siegel, Josef Ruppenhofer
+
+**Year:** 2018
+
+**Type:** conferencePaper
+
+**Venue:** GermEval Workshop
+
+**Languages:** German
+
+**Benchmark:** GermEval 2018
+
+## Links
+
+- **URL:** https://www.lsv.uni-saarland.de/wp-content/publications/2018/germeval2018_wiegand.pdf
+
+## Abstract
+
+Shared task for identification of offensive language in German tweets with 8,000+ tweets. Includes coarse-grained binary classification and fine-grained multi-class (Insult, Profanity, Abuse) subtypes.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent B7
+**Relevance:** Foundational German hate speech detection shared task and benchmark dataset, widely used in subsequent research.
+
+## Tags
+

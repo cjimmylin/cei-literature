@@ -2,6 +2,36 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 60 (Feb 12, 2026) - LLM Assessment & Data Availability Report
+
+### Overview
+
+Created a standalone report generator that analyzes the `LLM_assessed` and `DATA_URL` YAML fields across all 846 papers. Produces a comprehensive Markdown report covering model frequency rankings, family grouping, proprietary vs open-source breakdown, co-occurrence matrix, data availability by platform, and gap analysis.
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Papers Scanned | 846 / 846 |
+| Papers with LLM Models | 566 (66.9%) |
+| Papers with Data URLs | 452 (53.4%) |
+| Papers with Both | 377 (44.6%) |
+| Unique Model Names | 47 |
+| Model Families | 13 |
+| Report Lines | 544 |
+| YAML Validation | 846/846 pass, 0 errors |
+
+### Key Learnings
+- [Research] GPT-4 is the most evaluated model (319 papers), followed by Llama-3 (236) and Claude/Qwen tied at 183. Open-source model mentions (57%) exceed proprietary (43%).
+- [Research] GitHub dominates data hosting at 70.8% of all data URLs; HuggingFace is a distant second at 12.8%.
+- [Workflows] Co-occurrence matrix reveals GPT-4 + Llama-3 as the most common testing pair (155 papers), forming a de facto standard comparison.
+
+### Files Changed
+- PYTHON/: 1 new script (generate_llm_assessment_report.py)
+- STATISTICS/: 1 new report (20260212-llm-assessment-data-availability-report.md)
+
+---
+
 ## Session 59 (Feb 12, 2026) - Regenerate Reports & Dashboard with LLM Assessment Data
 
 ### Overview

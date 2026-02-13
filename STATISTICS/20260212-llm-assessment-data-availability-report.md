@@ -1,0 +1,544 @@
+# LLM Assessment & Data Availability Report
+
+> **Generated:** 2026-02-12 | **Papers scanned:** 846
+
+---
+
+## Table of Contents
+
+1. [Executive Summary](#1-executive-summary)
+2. [LLM Model Landscape](#2-llm-model-landscape)
+   - 2.1 Model Frequency Table
+   - 2.2 Model Family Grouping
+   - 2.3 Proprietary vs Open-Source Breakdown
+   - 2.4 Models Per Paper Distribution
+   - 2.5 Model Co-Occurrence Matrix
+3. [Data Availability Analysis](#3-data-availability-analysis)
+   - 3.1 URL Presence Statistics
+   - 3.2 Hosting Platform Breakdown
+   - 3.3 Overlap: LLM Models AND Data URLs
+4. [Gap Analysis](#4-gap-analysis)
+   - 4.1 Papers with LLM Models but No Public Data URL
+   - 4.2 Papers with Data URLs but No LLM Models Identified
+   - 4.3 Underrepresented Model Families
+- [Appendix A: Model Family Normalization Table](#appendix-a-model-family-normalization-table)
+- [Appendix B: Methodology Notes](#appendix-b-methodology-notes)
+
+---
+
+## 1. Executive Summary
+
+This report analyzes **846 papers** in the CEI Literature Vault for LLM model assessment
+coverage and public data/benchmark availability.
+
+| Metric | Count | % of Total |
+|--------|------:|:----------:|
+| Papers with LLM models identified | 566 | 66.9% |
+| Papers with no LLM models (NA) | 280 | 33.1% |
+| Papers with public data URL | 452 | 53.4% |
+| Papers with no data URL (NA) | 394 | 46.6% |
+| Papers with **both** models + URL | 377 | 44.6% |
+| Papers with **neither** | 205 | 24.2% |
+
+- **47 unique model names** across **13 model families** detected
+- Average models per paper (among assessed papers): **4.3** (max: 14)
+
+---
+
+## 2. LLM Model Landscape
+
+### 2.1 Model Frequency Table
+
+All unique models ranked by number of papers mentioning them:
+
+| Rank | Model | Papers | Family |
+|-----:|-------|-------:|--------|
+| 1 | GPT-4 | 319 | OpenAI |
+| 2 | Llama-3 | 236 | Meta |
+| 3 | Claude | 183 | Anthropic |
+| 4 | Qwen | 183 | Alibaba |
+| 5 | GPT-3.5 | 158 | OpenAI |
+| 6 | Mistral | 157 | Mistral AI |
+| 7 | Gemini | 153 | Google |
+| 8 | Llama-2 | 138 | Meta |
+| 9 | DeepSeek | 109 | DeepSeek |
+| 10 | Gemma | 100 | Google |
+| 11 | ChatGPT | 65 | OpenAI |
+| 12 | BERT | 63 | Pre-LLM / Encoder |
+| 13 | Mixtral | 54 | Mistral AI |
+| 14 | Vicuna | 51 | Open-source (misc) |
+| 15 | Llama | 48 | Meta |
+| 16 | RoBERTa | 46 | Pre-LLM / Encoder |
+| 17 | GPT-4o | 35 | OpenAI |
+| 18 | Phi | 33 | Microsoft |
+| 19 | GPT-3 | 32 | OpenAI |
+| 20 | Falcon | 26 | Open-source (misc) |
+| 21 | GPT-2 | 25 | OpenAI |
+| 22 | T5 | 24 | Google |
+| 23 | Grok | 22 | xAI |
+| 24 | o3 | 22 | OpenAI |
+| 25 | o1 | 20 | OpenAI |
+| 26 | Alpaca | 18 | Open-source (misc) |
+| 27 | PaLM-2 | 15 | Google |
+| 28 | DeBERTa | 14 | Pre-LLM / Encoder |
+| 29 | ALBERT | 13 | Pre-LLM / Encoder |
+| 30 | BLOOM | 13 | Open-source (misc) |
+| 31 | text-davinci | 13 | OpenAI |
+| 32 | OPT | 11 | Meta |
+| 33 | Flan-T5 | 11 | Google |
+| 34 | BART | 9 | Pre-LLM / Encoder |
+| 35 | InstructGPT | 8 | OpenAI |
+| 36 | XLNet | 4 | Pre-LLM / Encoder |
+| 37 | PaLM | 3 | Google |
+| 38 | GPT-4o mini | 3 | OpenAI |
+| 39 | Word2Vec | 2 | Embeddings |
+| 40 | GloVe | 2 | Embeddings |
+| 41 | CodeLlama | 2 | Meta |
+| 42 | GPT-5 | 2 | OpenAI |
+| 43 | ELMo | 1 | Pre-LLM / Encoder |
+| 44 | GPT-J | 1 | Other/Unknown |
+| 45 | GPT-NeoX | 1 | Other/Unknown |
+| 46 | LaMDA | 1 | Google |
+| 47 | Flan-PaLM | 1 | Other/Unknown |
+
+### 2.2 Model Family Grouping
+
+Papers per model family (a paper is counted once per family even if it uses multiple models from that family):
+
+| Rank | Family | Papers | % of Assessed |
+|-----:|--------|-------:|--------------:|
+| 1 | OpenAI | 427 | 75.4% |
+| 2 | Meta | 352 | 62.2% |
+| 3 | Google | 257 | 45.4% |
+| 4 | Anthropic | 183 | 32.3% |
+| 5 | Alibaba | 183 | 32.3% |
+| 6 | Mistral AI | 180 | 31.8% |
+| 7 | DeepSeek | 109 | 19.3% |
+| 8 | Pre-LLM / Encoder | 88 | 15.5% |
+| 9 | Open-source (misc) | 86 | 15.2% |
+| 10 | Microsoft | 33 | 5.8% |
+| 11 | xAI | 22 | 3.9% |
+| 12 | Embeddings | 3 | 0.5% |
+| 13 | Other/Unknown | 2 | 0.4% |
+
+### 2.3 Proprietary vs Open-Source Breakdown
+
+**By model mention count** (each model×paper counts once):
+
+| Category | Mentions | % |
+|----------|--------:|---------:|
+| Proprietary (closed-source) | 1054 | 43.0% |
+| Open-source / open-weight | 1396 | 57.0% |
+| **Total** | **2450** | **100%** |
+
+**By paper count** (papers using at least one model of that type):
+
+| Category | Papers |
+|----------|-------:|
+| Uses at least one proprietary model | 431 |
+| Uses at least one open-source model | 506 |
+
+### 2.4 Models Per Paper Distribution
+
+Among the 566 papers with LLM models identified:
+
+| Models per paper | Papers | % |
+|:----------------:|-------:|------:|
+| 1 | 69 | 12.2% |
+| 2-3 | 163 | 28.8% |
+| 4-6 | 236 | 41.7% |
+| 7+ | 98 | 17.3% |
+
+### 2.5 Model Co-Occurrence Matrix (Top 12)
+
+How often the top 12 models appear together in the same paper:
+
+| | GPT-4 | Llama-3 | Claude | Qwen | GPT-3.5 | Mistral | Gemini | Llama-2 | DeepSeek | Gemma | ChatGPT | BERT |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **GPT-4** | — | 155 | 152 | 122 | 126 | 108 | 117 | 95 | 80 | 58 | 37 | 10 |
+| **Llama-3** | 155 | — | 98 | 131 | 69 | 109 | 87 | 58 | 76 | 81 | 18 | 5 |
+| **Claude** | 152 | 98 | — | 87 | 64 | 63 | 101 | 41 | 69 | 32 | 22 | 3 |
+| **Qwen** | 122 | 131 | 87 | — | 48 | 77 | 78 | 39 | 78 | 57 | 13 | 2 |
+| **GPT-3.5** | 126 | 69 | 64 | 48 | — | 52 | 37 | 79 | 25 | 22 | 15 | 9 |
+| **Mistral** | 108 | 109 | 63 | 77 | 52 | — | 52 | 61 | 42 | 51 | 16 | 6 |
+| **Gemini** | 117 | 87 | 101 | 78 | 37 | 52 | — | 23 | 66 | 40 | 11 | 2 |
+| **Llama-2** | 95 | 58 | 41 | 39 | 79 | 61 | 23 | — | 8 | 24 | 25 | 6 |
+| **DeepSeek** | 80 | 76 | 69 | 78 | 25 | 42 | 66 | 8 | — | 26 | 5 | 1 |
+| **Gemma** | 58 | 81 | 32 | 57 | 22 | 51 | 40 | 24 | 26 | — | 4 | 2 |
+| **ChatGPT** | 37 | 18 | 22 | 13 | 15 | 16 | 11 | 25 | 5 | 4 | — | 3 |
+| **BERT** | 10 | 5 | 3 | 2 | 9 | 6 | 2 | 6 | 1 | 2 | 3 | — |
+
+---
+
+## 3. Data Availability Analysis
+
+### 3.1 URL Presence Statistics
+
+| Status | Papers | % |
+|--------|-------:|------:|
+| Has public data URL | 452 | 53.4% |
+| No data URL (NA) | 394 | 46.6% |
+
+### 3.2 Hosting Platform Breakdown
+
+Among papers with data URLs, classified by hosting platform:
+
+| Platform | Papers | % of URLs |
+|----------|-------:|----------:|
+| GitHub | 320 | 70.8% |
+| Other | 59 | 13.1% |
+| HuggingFace | 58 | 12.8% |
+| OSF | 11 | 2.4% |
+| Anonymous (review) | 8 | 1.8% |
+| Zenodo | 3 | 0.7% |
+| GitLab | 2 | 0.4% |
+| DOI/Repository | 1 | 0.2% |
+| Kaggle | 1 | 0.2% |
+
+### 3.3 Overlap: LLM Models AND Data URLs
+
+| Combination | Papers | % |
+|-------------|-------:|------:|
+| LLM models + data URL | 377 | 44.6% |
+| LLM models only (no URL) | 189 | 22.3% |
+| Data URL only (no models) | 75 | 8.9% |
+| Neither | 205 | 24.2% |
+
+---
+
+## 4. Gap Analysis
+
+### 4.1 Papers with LLM Models but No Public Data URL
+
+**189 papers** assess LLM models but have no publicly available data URL.
+
+<details>
+<summary>Click to expand (189 papers)</summary>
+
+| # | Paper | Models |
+|--:|-------|--------|
+| 1 | [[2016-Bolukbasi-Man is to Computer Programmer as Woman is to]] | Word2Vec, GloVe |
+| 2 | [[2019-He-Unlearn Dataset Bias in Natural Language]] | BERT |
+| 3 | [[2019-Kreutz-GermEval 2019 Task 2]] | BERT |
+| 4 | [[2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on]] | BERT |
+| 5 | [[2019-University of São Paulo-Moral Stance Recognition and Polarity]] | Word2Vec |
+| 6 | [[2020-Forbes-Social Chemistry 101]] | GPT-2, T5, BART |
+| 7 | [[2021-Clark-All That's 'Human' Is Not Gold]] | GPT-2, GPT-3 |
+| 8 | [[2021-Wang-MedAI at SemEval-2021 Task 5]] | RoBERTa |
+| 9 | [[2022-Bang-Enabling Classifiers to Make Judgements]] | OPT, ALBERT, RoBERTa, BART |
+| 10 | [[2022-Caron-Identifying and Manipulating the Personality]] | BERT, GPT-2 |
+| 11 | [[2022-Hu-“I’m sorry to hear that”]] | BERT |
+| 12 | [[2022-Li-Evaluating Psychological Safety of Large Language]] | GPT-3, InstructGPT, GPT-3.5, GPT-4, Llama-2 |
+| 13 | [[2022-Liu-CoreValue Chinese Values Knowledge Base Liu et al.]] | BERT |
+| 14 | [[2022-Trager-The Moral Foundations Reddit Corpus]] | Llama-3, BERT |
+| 15 | [[2023-Benkler-Assessing LLMs for Moral Value Pluralism]] | text-davinci, RoBERTa |
+| 16 | [[2023-Catapang-EMoTES-3K]] | RoBERTa, Flan-T5 |
+| 17 | [[2023-Chang-niceNLP at SemEval-2023 Task 10]] | DeBERTa, RoBERTa, BERT |
+| 18 | [[2023-Chen-Case Law Grounding]] | GPT-4 |
+| 19 | [[2023-Deng-Probing the Moral Development of Large Language]] | GPT-3, GPT-3.5, GPT-4, ChatGPT, PaLM-2, Llama-2, text-dav... |
+| 20 | [[2023-Ghafouri-IslamicPCQA]] | BERT, RoBERTa, T5 |
+| 21 | [[2023-Hartmann-The political ideology of conversational AI]] | ChatGPT |
+| 22 | [[2023-Ji-Commonsense Norm Bank]] | DeBERTa, BERT, RoBERTa, ALBERT, T5 |
+| 23 | [[2023-Karra-Estimating the Personality of White-Box Language]] | GPT-2, GPT-3, GPT-3.5, Llama, XLNet |
+| 24 | [[2023-Li-On the steerability of large language models]] | Falcon |
+| 25 | [[2023-Qian-Understanding Chinese Moral Stories with Further]] | BERT, RoBERTa, T5 |
+| 26 | [[2023-Rao-Ethical Reasoning over Moral Alignment]] | GPT-4, GPT-3.5, GPT-3, text-davinci |
+| 27 | [[2023-Roger-Towards ethical multimodal systems]] | RoBERTa |
+| 28 | [[2023-Rytting-Towards Coding Social Science Datasets with]] | GPT-3 |
+| 29 | [[2023-Schulhoff-HackAPrompt]] | GPT-3, ChatGPT, Flan-T5 |
+| 30 | [[2023-Takeshita-Towards Theory-based Moral AI]] | DeBERTa, BERT, RoBERTa, ALBERT, T5 |
+| 31 | [[2023-Zhang-Heterogeneous Value Alignment Evaluation for]] | GPT-4, GPT-3.5, ChatGPT, Claude, Llama, Alpaca, Vicuna |
+| 32 | [[2023-Zhou-A Survey of Large Language Models in Medicine]] | Llama-2 |
+| 33 | [[2024-Abdelnabi-Cooperation Competition and Maliciousness LLM-Stakeholders]] | GPT-4, GPT-3.5, Gemini, Llama-2, Llama-3, Mixtral |
+| 34 | [[2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs]] | GPT-4, GPT-3.5, Gemini, Gemma, Claude, Llama-3, BLOOM |
+| 35 | [[2024-Agarwal-Ethical Reasoning Depends on Language]] | GPT-4, ChatGPT, Llama-2 |
+| 36 | [[2024-Aksoy-Whose Morality Do They Speak]] | GPT-3.5, GPT-4, Llama-3, Mistral |
+| 37 | [[2024-Altenburger-Examining the Role of Relationship Alignment in]] | Llama-3 |
+| 38 | [[2024-Arshad-Understanding hate speech]] | BERT, RoBERTa |
+| 39 | [[2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said]] | Llama-2, Vicuna, Falcon, Mistral |
+| 40 | [[2024-Basem-Optimized Quran Passage Retrieval Using an]] | BERT, RoBERTa |
+| 41 | [[2024-Biedma-Beyond Human Norms]] | GPT-4, GPT-3.5, Llama-2, Mistral, Vicuna |
+| 42 | [[2024-Bignotti-Legal Minds, Algorithmic Decisions]] | GPT-4 |
+| 43 | [[2024-Cahyawijaya-High-Dimension Human Value Representation in]] | ChatGPT, Llama-2, Llama-3, Mistral, Mixtral, BLOOM |
+| 44 | [[2024-Cahyawijaya-LLM for everyone]] | GPT-3.5, Llama-3, BLOOM |
+| 45 | [[2024-Cao-The Moral Foundations Weibo Corpus]] | GPT-4, Llama-3, Qwen |
+| 46 | [[2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language]] | GPT-4, GPT-3.5, Claude, Llama-2, BLOOM, Falcon, Vicuna |
+| 47 | [[2024-Dognin-Contextual Moral Value Alignment Through]] | Llama-2 |
+| 48 | [[2024-Dorn-BELLS A Framework Towards Future Proof Benchmarks for the Evaluation]] | GPT-4 |
+| 49 | [[2024-Fitzgerald-Some Issues in Predictive Ethics Modeling]] | RoBERTa |
+| 50 | [[2024-Freire-Uncovering Latent Human Wellbeing in Language]] | GPT-3, DeBERTa, BERT |
+| 51 | [[2024-Garcia-The Moral Turing Test]] | GPT-3.5, text-davinci |
+| 52 | [[2024-Ghosh-AEGIS]] | Llama-2, GPT-4, Mistral |
+| 53 | [[2024-Gupta-Improving Model Evaluation using SMART Filtering]] | Qwen, Llama-3, Gemma, Phi, Mixtral |
+| 54 | [[2024-Huang-Collective Constitutional AI Aligning a Language Model with Public]] | Claude |
+| 55 | [[2024-Jain-Norm Inconsistency in LLM Decision-Making]] | GPT-4, Gemini, Claude |
+| 56 | [[2024-Kader-The Emergence of Strategic Reasoning of Large Language Models]] | GPT-4, o1, Claude, Gemini |
+| 57 | [[2024-Kaiyom-HELM Safety]] | GPT-4, GPT-3.5, Claude, Llama-3, Mistral, Mixtral, Qwen, ... |
+| 58 | [[2024-Kang-Are the Values of LLMs Structurally Aligned with]] | Gemma, Llama-3 |
+| 59 | [[2024-Khamassi-Strong and weak alignment of large language models]] | ChatGPT, Gemini |
+| 60 | [[2024-Khandelwal-Do Moral Judgment and Reasoning Capability of]] | GPT-4, ChatGPT, Llama-2 |
+| 61 | [[2024-Khandelwal-Multilingual Defining Issues Test]] | GPT-4, ChatGPT, Llama-2 |
+| 62 | [[2024-Li-Quantifying AI Psychology]] | ChatGPT, GPT-4, Mistral, Mixtral, Llama-3, Qwen |
+| 63 | [[2024-Luong-Realistic Evaluation of Toxicity in Large]] | ChatGPT, Gemini, Llama-2, Mistral, Mixtral |
+| 64 | [[2024-Meadows-LocalValueBench]] | GPT-4, Gemini, Claude |
+| 65 | [[2024-Moore-Intuitions of Compromise]] | GPT-4, GPT-3.5, Claude, text-davinci |
+| 66 | [[2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and]] | GPT-3.5, GPT-4, Claude, Llama-2, Mixtral |
+| 67 | [[2024-Nahian-The Goofus & Gallant Story Corpus for Practical]] | GPT-4, BERT |
+| 68 | [[2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding]] | GPT-4, Claude |
+| 69 | [[2024-Obi-Value Imprint]] | RoBERTa |
+| 70 | [[2024-Pisano-Moral High Ground]] | Flan-T5, Falcon, Llama-2 |
+| 71 | [[2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on]] | GPT-4, GPT-3.5, Claude, Llama-3, Llama-2, Gemini, Mixtral... |
+| 72 | [[2024-Qamar-A Benchmark Dataset with Larger Context for]] | T5, BART |
+| 73 | [[2024-Ren-Safetywashing]] | Mixtral, Llama-3, Llama-2, Mistral, Falcon, Gemma, Qwen |
+| 74 | [[2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity]] | GPT-4, Llama-3, Mistral |
+| 75 | [[2024-Seror-The Moral Mind(s) of Large Language Models]] | GPT-4, Claude, Llama-3, Gemini, Qwen, Mixtral, Mistral |
+| 76 | [[2024-Sorin-Ethical Alignment of LLMs in Healthcare]] | o1, GPT-4, GPT-3.5, Llama-3, Gemini, Gemma, Phi, Qwen |
+| 77 | [[2024-Street-LLMs achieve adult human performance on]] | GPT-3.5, GPT-4, LaMDA, PaLM, Flan-PaLM |
+| 78 | [[2024-Takemoto-The moral machine experiment on large language]] | GPT-3.5, GPT-4, PaLM-2, Llama-2 |
+| 79 | [[2024-Tlaie-Exploring and steering the moral compass of Large]] | Claude, GPT-3.5, GPT-4, Gemini, Gemma, Llama-2 |
+| 80 | [[2024-Wang-Possibilities and challenges in the moral growth of LLMs]] | GPT-2, GPT-3, ChatGPT |
+| 81 | [[2024-Yang-DistillSeq]] | GPT-3.5, GPT-4, Vicuna, Llama |
+| 82 | [[2024-Yao-CLAVE ValEval]] | GPT-4, GPT-2, Phi, Mistral, Llama-2, Alpaca |
+| 83 | [[2024-Zeng-Quantifying Risk Propensities of Large Language]] | GPT-4, GPT-3.5, Claude, Llama-3, Gemma, Qwen, Mistral, Vi... |
+| 84 | [[2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning]] | Llama-2, GPT-4 |
+| 85 | [[2024-Zhou-tSMC]] | GPT-3.5, Gemini, Llama-2, Llama-3, Mistral, Mixtral, Gemm... |
+| 86 | [[2025-Abdaljalil-HalluVerse25]] | GPT-4, Phi, Mistral, Qwen, Gemini, Gemma, Llama-3, PaLM-2 |
+| 87 | [[2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment]] | GPT-4, Llama-2, Llama-3, Mistral, Gemma |
+| 88 | [[2025-Aggarwal-Letta Leaderboard]] | Claude, GPT-4, Gemini |
+| 89 | [[2025-Akata-Playing Repeated Games with Large Language Models]] | GPT-4, text-davinci, Claude, Llama-2 |
+| 90 | [[2025-Aleid-Hajj-FQA]] | BERT, RoBERTa, DeBERTa, T5, BART |
+| 91 | [[2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic]] | GPT-4, GPT-3.5, Llama-2 |
+| 92 | [[2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi]] | GPT-4, GPT-3.5, Llama-3, Llama-2 |
+| 93 | [[2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework]] | GPT-4, Gemini, Gemma, Claude, Llama-3, Mistral, Grok, Phi |
+| 94 | [[2025-Anonymous-BEATS]] | GPT-4, Claude, Gemini, Mistral, Llama-3 |
+| 95 | [[2025-Arike-A Framework for Analyzing and Measuring Goal]] | Claude, GPT-4 |
+| 96 | [[2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities]] | Gemini, Claude, Llama, Qwen |
+| 97 | [[2025-Beyer-LLM-Safety Evaluations Lack Robustness]] | Llama-2 |
+| 98 | [[2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for]] | BERT |
+| 99 | [[2025-Buyl-AI Alignment at Your Discretion]] | GPT-4, Llama-3, Mistral, DeepSeek, Claude |
+| 100 | [[2025-Chakraborty-Structured Moral Reasoning]] | Llama-3, Llama-2, Mistral, Qwen, Phi |
+| 101 | [[2025-Chen-SYNTHEMPATHY A Scalable Empathy Corpus Generated Using LLMs Without]] | Llama-2, Llama-3, Gemma, Mistral, RoBERTa |
+| 102 | [[2025-Cheung-LLMs Amplified Cognitive Biases Moral]] | GPT-4, Claude, Llama-3 |
+| 103 | [[2025-Chua-Between a Rock and a Hard Place TRIAL]] | Llama-3, Mistral |
+| 104 | [[2025-Dickerson-Who Gets the Kidney]] | GPT-4, Claude, Gemini, Gemma, Llama-3, DeepSeek |
+| 105 | [[2025-Dillion-AI Language Model Rivals Expert Ethicist]] | GPT-3.5, GPT-4 |
+| 106 | [[2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value]] | GPT-4, GPT-3.5, o3, Claude, Gemini, Llama-3, Mistral, Qwe... |
+| 107 | [[2025-Dubey-Addressing Moral Uncertainty using Large Language]] | GPT-4, Mistral, Llama-3 |
+| 108 | [[2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation]] | GPT-4, Gemini |
+| 109 | [[2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical]] | Claude, Gemini, Grok, DeepSeek, Llama-3, Phi, Gemma, Qwen |
+| 110 | [[2025-Fan-FAIRMT-BENCH]] | ChatGPT, GPT-4, Llama-3, Llama-2, Mistral, Gemma |
+| 111 | [[2025-Fanous-SycEval Evaluating LLM Sycophancy]] | ChatGPT, Claude, Gemini, Llama-3 |
+| 112 | [[2025-Fenech-Borg-The Cultural Gene of Large Language Models]] | GPT-4 |
+| 113 | [[2025-Feng-ERPO]] | Llama-3, Qwen, DeepSeek, GPT-4 |
+| 114 | [[2025-Flores-BenchMoral]] | ChatGPT, Llama-3, DeepSeek |
+| 115 | [[2025-Fontana-Nicer Than Humans How Do Large Language Models Behave in the]] | Llama-2, Llama-3, GPT-3.5 |
+| 116 | [[2025-Gao-MIST Moral Inference through Storytelling with Text and Images]] | GPT-4, Llama-3, Claude, Qwen, Gemini |
+| 117 | [[2025-Gerdes-Exploring LLM Chatbots as Potential Guides to]] | ChatGPT, DeepSeek |
+| 118 | [[2025-Ghosh-AEGIS 2.0]] | Llama-3, Mistral, Gemma, Mixtral |
+| 119 | [[2025-Hilliard-Measuring AI Alignment with Human Flourishing]] | GPT-4, GPT-4, ChatGPT, o1, o3, Claude, Gemini, Grok |
+| 120 | [[2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset]] | GPT-4, Llama-3, Qwen |
+| 121 | [[2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to]] | GPT-4, o1, o3, Claude, Gemini, Gemma, Llama-3, Qwen, Deep... |
+| 122 | [[2025-Jamshidi-MoCoP]] | GPT-4, DeepSeek |
+| 123 | [[2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment]] | GPT-3, GPT-3.5, GPT-4, T5 |
+| 124 | [[2025-Kasu-EthicsMH]] | ChatGPT |
+| 125 | [[2025-Khan-Randomness Not Representation The Unreliability of Evaluating]] | GPT-4, Claude, Gemini, Llama-3, Mistral |
+| 126 | [[2025-Kilov-Discerning What Matters]] | Llama-3, GPT-4, DeepSeek, Gemini, Claude |
+| 127 | [[2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language]] | Gemini, Claude, DeepSeek, Qwen, Grok |
+| 128 | [[2025-Lan-McBE]] | Qwen, Llama-2, Mistral, ChatGPT |
+| 129 | [[2025-Laukkonen-Contemplative Artificial Intelligence]] | GPT-4 |
+| 130 | [[2025-Lee-When Prompting Fails to Sway]] | Claude, GPT-4, GPT-3.5, Llama-3 |
+| 131 | [[2025-Li-Analyzing Cognitive Differences Among Large]] | GPT-4o, Qwen, Llama-3, Gemma, Gemini, DeepSeek, Phi |
+| 132 | [[2025-Liu-Cross-cultural value alignment frameworks]] | GPT-4o, GPT-3.5, Claude, Llama-3, Llama-2, Mistral, Mixtr... |
+| 133 | [[2025-Liu-Diagnosing Moral Reasoning Acquisition in]] | Mistral, Llama-3, BERT |
+| 134 | [[2025-Liu-On the Convergence of Moral Self-Correction in LLMs]] | Mistral, GPT-4 |
+| 135 | [[2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences]] | GPT-4, o3 |
+| 136 | [[2025-Machlovi-GuardEval]] | Gemma, Llama-3 |
+| 137 | [[2025-Mao-ALYMPICS LLM Agents Meet Game Theory]] | GPT-4 |
+| 138 | [[2025-Mazeika-Utility Engineering]] | GPT-4, GPT-3.5, Llama-2, Llama-3, Gemma, Qwen |
+| 139 | [[2025-Menke-How Effective Is Constitutional AI in Small LLMs]] | DeepSeek, Gemma, Llama-3, Qwen |
+| 140 | [[2025-Mohammadi-EvalMORAAL]] | GPT-4, GPT-3.5, Claude, Gemini, PaLM-2, Llama-3, Qwen, Mi... |
+| 141 | [[2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language]] | GPT-4, GPT-3.5, GPT-2, OPT, BLOOM, Qwen, Gemma, Llama-2, ... |
+| 142 | [[2025-Mohammed-Aftina]] | Gemini, Gemma |
+| 143 | [[2025-Molchanova-Exploring the Potential of Large Language Models]] | GPT-4, GPT-3.5, Mixtral, Claude |
+| 144 | [[2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human]] | GPT-4, Mistral, Llama-3, Qwen |
+| 145 | [[2025-Mushtaq-WorldView-Bench]] | GPT-4, Claude, Llama-3, Mistral, Gemini, DeepSeek |
+| 146 | [[2025-Nadeem-Ethical Decision-Making in Humans and Large]] | GPT-4, Gemini, DeepSeek |
+| 147 | [[2025-Naik-AgentMisalignment]] | GPT-4, Claude, Gemini |
+| 148 | [[2025-Narnaware-SB-Bench]] | GPT-4, Llama-3, Gemma, Qwen, Gemini, Phi |
+| 149 | [[2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models]] | GPT-4, Llama, Claude, Gemini, Mistral |
+| 150 | [[2025-Neuman-Auditing the Ethical Logic of Generative AI Models]] | GPT-4, Llama, Claude, Gemini, Mistral, DeepSeek |
+| 151 | [[2025-Neuman-PRIME Framework Convergent Ethics]] | GPT-4, Llama, Claude, Gemini, Mistral |
+| 152 | [[2025-Oh-Robustness of Large Language Models in Moral Judgements]] | GPT-3.5 |
+| 153 | [[2025-Palta-Speaking the Right Language]] | GPT-4 |
+| 154 | [[2025-Park-Deontological Keyword Bias]] | GPT-4, Llama-3, Gemma, Qwen |
+| 155 | [[2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs]] | GPT-4, Gemma, DeepSeek, Llama-3, Claude, Gemini |
+| 156 | [[2025-Pourbahman-ELAB]] | Mistral, Qwen, Gemma, Llama-3 |
+| 157 | [[2025-Rashid-Evaluating Prompt Injection Attacks with]] | Llama-3, GPT-4 |
+| 158 | [[2025-Rozen-Do LLMs Have Consistent Values]] | GPT-4, Gemini, Llama-3, Gemma |
+| 159 | [[2025-Russo-The Pluralistic Moral Gap]] | GPT-4, ChatGPT, Claude, Mistral, Llama-3, Qwen |
+| 160 | [[2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas]] | GPT-4, GPT-3.5, Claude, PaLM-2, Llama-2, Mistral, Gemma |
+| 161 | [[2025-Sameer-Insights into Moral Reasoning of AI]] | ChatGPT, GPT-4 |
+| 162 | [[2025-Sel-Backtracking for Safety]] | Gemma, Llama-3 |
+| 163 | [[2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators]] | GPT-4, ChatGPT |
+| 164 | [[2025-Shahriar-Priv-IQ]] | Claude, DeepSeek, Gemini, GPT-4 |
+| 165 | [[2025-Sorensen-Value Profiles for Encoding Human Variation]] | Gemma, Gemini |
+| 166 | [[2025-Su-Understanding How Value Neurons Shape the]] | Llama-3, Qwen, Gemma |
+| 167 | [[2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of]] | GPT-4, GPT-3.5, Llama-2 |
+| 168 | [[2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM]] | GPT-3.5, GPT-4, Gemini, Llama-3, DeepSeek, Qwen |
+| 169 | [[2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps]] | GPT-4, GPT-3.5, o1, o3, Gemini, DeepSeek |
+| 170 | [[2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment]] | GPT-4, DeepSeek |
+| 171 | [[2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning]] | GPT-4, Llama-3, DeepSeek, Qwen |
+| 172 | [[2025-Wang-Measuring Desired Group Discrimination in LLMs]] | GPT-4, Claude, Llama-3, Mistral, Gemma |
+| 173 | [[2025-Wang-Multimodal Understanding of Human Values in Videos]] | Gemini, Mistral, RoBERTa, DeBERTa |
+| 174 | [[2025-Wu-Chain-of-Ethics Defense Framework Wu et al.]] | GPT-4, GPT-4o, Claude, Gemini, DeepSeek, Qwen |
+| 175 | [[2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems]] | GPT-4, GPT-3.5, GPT-4o, Llama-2, Llama-3, Mistral, Qwen, ... |
+| 176 | [[2025-Yesil-Yesil o1 Pro]] | GPT-4, Claude, DeepSeek, Llama-3, Gemini |
+| 177 | [[2025-Zhang-MedHallTune]] | GPT-4, Qwen, Vicuna, Llama-2, Flan-T5 |
+| 178 | [[2025-Zhang-PoliCon]] | GPT-4, Gemini, Qwen, Llama-3, DeepSeek |
+| 179 | [[2025-Zhang-REVAL]] | GPT-4, Gemini, OPT, Vicuna, Llama-2, Flan-T5, Qwen, Phi |
+| 180 | [[2025-Zhu-EAVIT]] | GPT-4, Llama-2, BERT |
+| 181 | [[2025-Zhu-Steering Risk Preferences in Large Language]] | Gemma |
+| 182 | [[2025-Zulaika-BasqBBQ Basque BBQ]] | BERT, RoBERTa, ALBERT |
+| 183 | [[2026-Chen-PoliBias Parliamentary Voting Records]] | Mistral, Falcon, Gemma, DeepSeek, GPT-3.5, GPT-4, Llama-2... |
+| 184 | [[2026-Elkins-Negation Sensitivity Index NSI]] | GPT-4, Claude, Gemini, Grok, DeepSeek, Qwen, Llama, Gemma... |
+| 185 | [[2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in]] | GPT-4, Gemini, Claude, Grok, Llama, Qwen, DeepSeek |
+| 186 | [[2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in]] | GPT-4, Claude, Gemini, Grok, Qwen, Mistral, Phi, Gemma |
+| 187 | [[2026-Liu-JMedEthicBench]] | GPT-4, Claude, Gemini, DeepSeek, Qwen, Llama-3, Grok |
+| 188 | [[2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs]] | GPT-4, Claude, Gemini, DeepSeek, Qwen, Llama-3 |
+| 189 | [[2026-Nadeem-Bias Beyond Borders]] | Mistral, DeepSeek |
+
+</details>
+
+### 4.2 Papers with Data URLs but No LLM Models Identified
+
+**75 papers** have public data URLs but no LLM model assessment.
+
+<details>
+<summary>Click to expand (75 papers)</summary>
+
+| # | Paper | Data URL |
+|--:|-------|----------|
+| 1 | [[2010-Project-GurbaniDB]] | https://github.com/sikher/gurbanidb |
+| 2 | [[2016-Purzycki-Cross-cultural dataset for the evolution of]] | https://doi.org/10.7910/DVN/ERKCLS |
+| 3 | [[2018-Awad-The Moral Machine experiment]] | https://goo.gl/JXRrBP |
+| 4 | [[2018-Behzadan-TrolleyMod v1.0]] | https://github.com/zminton/TrolleyMod/wiki |
+| 5 | [[2018-Crone-The Socio-Moral Image Database (SMID)]] | https://osf.io/2rqad/ |
+| 6 | [[2018-Dixon-Measuring and Mitigating Unintended Bias in Text]] | https://github.com/conversationai/unintended-ml-bias-analysis |
+| 7 | [[2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred]] | http://saifmohammad.com/WebPages/Biases-SA.html |
+| 8 | [[2018-Zhao-Finding Answers from the Word of God]] | https://github.com/helen-jiahe-zhao/BibleQA |
+| 9 | [[2018-Zhao-Gender Bias in Coreference Resolution]] | https://github.com/rudinger/winogender-schemas |
+| 10 | [[2019-De-Arteaga-Bias in Bios]] | http://aka.ms/biasbios |
+| 11 | [[2019-Ibrohim-Multi-label Hate Speech and Abusive Language]] | https://github.com/okkyibrohim/id-multi-label-hate-speech-and-abusi... |
+| 12 | [[2020-Awad-Universals and variations in moral decisions made]] | https://bit.ly/2Y7Brr9 |
+| 13 | [[2020-Schramowski-The Moral Choice Machine]] | https://github.com/ml-research/moral-choice-machine-v2 |
+| 14 | [[2020-Srivastava-A Multi-Dimensional View of Aggression when]] | https://github.com/arjitsrivastava/MultidimensionalViewOpinionMining |
+| 15 | [[2021-Cao-Toward Gender-Inclusive Coreference Resolution]] | https://github.com/TristaCao/into_inclusivecoref |
+| 16 | [[2021-Croce-RobustBench]] | https://github.com/RobustBench/robustbench |
+| 17 | [[2022-Bago-Situational factors shape moral judgments in the]] | https://github.com/marton-balazs-kovacs/trolleyMultilabReplication |
+| 18 | [[2022-Bai-Constitutional AI]] | https://github.com/anthropics/ConstitutionalHarmlessnessPaper |
+| 19 | [[2022-Bai-Training a Helpful and Harmless Assistant with]] | https://github.com/anthropics/hh-rlhf |
+| 20 | [[2022-Ganguli-Red Teaming Language Models to Reduce Harms]] | https://github.com/anthropics/hh-rlhf |
+| 21 | [[2022-Kann-AmericasNLI]] | https://github.com/abteen/americasnli |
+| 22 | [[2022-Schramowski-I2P Inappropriate Image Prompts Test Bed]] | https://github.com/ml-research/Q16 |
+| 23 | [[2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas]] | https://github.com/ohoud/Fatwaset.git |
+| 24 | [[2023-Andrus-Augmented Datasheets for Speech Datasets and]] | https://github.com/SonyResearch/project_ethics_augmented_datasheets... |
+| 25 | [[2023-Aroyo-DICES Dataset]] | https://github.com/google-research-datasets/dices-dataset/ |
+| 26 | [[2023-Barrett-Skin Deep]] | https://github.com/Social-Futures-Lab/skin-deep |
+| 27 | [[2023-Chang-A Survey on Evaluation of Large Language Models]] | https://github.com/MLGroupJLU/LLM-eval-survey |
+| 28 | [[2023-Feng-Case Repositories]] | https://github.com/social-futures-lab/case-law-ai-policy |
+| 29 | [[2023-Gustafson-FACET]] | https://facet.metademolab.com |
+| 30 | [[2023-Han-FFB]] | https://github.com/ahxt/fair_fairness_benchmark |
+| 31 | [[2023-Hopp-The Dutch Moral Foundations Stimulus Database]] | https://osf.io/9gnza |
+| 32 | [[2023-Ji-Safety Gymnasium]] | https://sites.google.com/view/safety-gymnasium |
+| 33 | [[2023-Lee-VisAlign]] | https://github.com/jiyounglee-0523/VisAlign |
+| 34 | [[2023-Moss-Bias on Demand]] | https://github.com/koenecke/crosscultural_labelconsistency/ |
+| 35 | [[2023-Muhammad-AfriSenti]] | https://github.com/afrisenti-semeval/afrisent-semeval-2023 |
+| 36 | [[2023-Muhammad-SemEval-2023 Task 12]] | https://github.com/afrisenti-semeval/afrisent-semeval-2023 |
+| 37 | [[2023-Qiu-Large AI Models in Health Informatics]] | https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models |
+| 38 | [[2023-Yao-From Instructions to Intrinsic Human Values -- A]] | https://github.com/ValueCompass/Alignment-Goal-Survey |
+| 39 | [[2024-Adilazuarda-Towards Measuring and Modeling ]] | https://github.com/faridlazuarda/cultural-llm-papers |
+| 40 | [[2024-Defrance-ABCFair]] | https://github.com/aida-ugent/abcfair |
+| 41 | [[2024-Group-The AI Safety Benchmark]] | https://github.com/mlcommons/modelbench |
+| 42 | [[2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling]] | https://github.com/MikeLasz/Benchmarking-Fairness-ImageUpsampling |
+| 43 | [[2024-Levine-Religious Affiliation and Conceptions of the]] | https://github.com/sydneylevine/moral-domain |
+| 44 | [[2024-Lin-AI-Face]] | https://github.com/Purdue-M2/AI-Face-FairnessBench |
+| 45 | [[2024-MLCommons-MLCommons AILuminate Benchmark]] | https://github.com/mlcommons/ailuminate |
+| 46 | [[2024-Moon-BEAF]] | https://beafbench.github.io/ |
+| 47 | [[2024-Myers-People Expect Artificial Moral Advisors]] | https://osf.io/m3v48/ |
+| 48 | [[2024-Rauh-Gaps in the Safety Evaluation of Generative AI]] | https://dpmd.ai/EvalsRepo |
+| 49 | [[2024-Reuel-BetterBench]] | https://betterbench.stanford.edu |
+| 50 | [[2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety]] | https://github.com/paul-rottger/safetyprompts-paper |
+| 51 | [[2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal]] | https://mitmedialab.github.io/empathic-stories-multimodal/ |
+| 52 | [[2024-Shi-Large Language Model Safety]] | https://github.com/tjunlp-lab/Awesome-LLM-Safety-Papers |
+| 53 | [[2024-Singhal-AyaRedTeaming]] | https://huggingface.co/datasets/CohereForAI/aya_redteaming |
+| 54 | [[2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas]] | https://github.com/famous-blue-raincoat/AI_Ethics_Discourse |
+| 55 | [[2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations]] | https://github.com/Liza-Tennant/moral_MARL |
+| 56 | [[2024-Ungless-ETHICS WHITEPAPER]] | https://github.com/MxEddie/Ethics-Whitepaper |
+| 57 | [[2024-Vladimirova-FairJob]] | https://huggingface.co/datasets/criteo/FairJob |
+| 58 | [[2024-Wong-The Humanistic Buddhism Corpus (HBC)]] | https://www.fgstranslation.org/hbc |
+| 59 | [[2024-Zhang-CHiSafetyBench]] | https://github.com/UnicomAI/UnicomBenchmark/tree/main/CHiSafetyBench |
+| 60 | [[2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus]] | https://github.com/Niger-Volta-LTI/yoruba-voice |
+| 61 | [[2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and]] | https://github.com/UBC-NLP/palmx_2025 |
+| 62 | [[2025-Anderson-Model Misalignment and Language Change]] | https://github.com/fsu-nlp/ai-traces-ssl |
+| 63 | [[2025-Center-Personal Consultations Case Study Database]] | https://www.ncbcenter.org/case-study-database |
+| 64 | [[2025-Chaudhari-RLHF Deciphered]] | https://github.com/GaryYufei/AlignLLMHumanSurvey |
+| 65 | [[2025-Chen-AVHBench]] | https://github.com/kaist-ami/AVHBench |
+| 66 | [[2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment]] | https://github.com/Social-Futures-Lab/SPICA-code |
+| 67 | [[2025-Emezue-NaijaVoices]] | https://naijavoices.com/ |
+| 68 | [[2025-Kneer-Hard Problem AI Alignment Value Forks]] | https://osf.io/rqkcz |
+| 69 | [[2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks]] | https://github.com/BenchRisk |
+| 70 | [[2025-Ning-seeBias]] | https://github.com/nliulab/seeBias |
+| 71 | [[2025-Qi-A Survey of Automatic Hallucination Evaluation on]] | https://github.com/siyaqi/Awesome-Hallu-Eval |
+| 72 | [[2025-Schacht-Mapping Moral Reasoning Circuits]] | https://github.com/coairesearch/mapping_moral_reasoning.git |
+| 73 | [[2025-Vasilev-RusCode]] | https://github.com/ai-forever/RusCode |
+| 74 | [[2025-Ye-Large Language Model Psychometrics]] | https://github.com/valuebyte-ai/Awesome-LLM-Psychometrics |
+| 75 | [[2026-Guey-BiasLab Multilingual Dual-Framing Framework]] | https://github.com/williamguey/LLMbiaslab |
+
+</details>
+
+### 4.3 Underrepresented Model Families (< 5 papers)
+
+**2 model families** appear in fewer than 5 papers:
+
+| Family | Papers |
+|--------|-------:|
+| Embeddings | 3 |
+| Other/Unknown | 2 |
+
+---
+
+## Appendix A: Model Family Normalization Table
+
+Canonical mapping used to group model names into families:
+
+| Family | Models |
+|--------|--------|
+| OpenAI | GPT-4, GPT-4o, GPT-4o mini, GPT-4 Turbo, GPT-3.5, GPT-3, GPT-2, ChatGPT, o1, o1-mini, o1-preview, o3, o3-mini, text-davinci, text-davinci-002, text-davinci-003, InstructGPT, CODEX, GPT-5 |
+| Anthropic | Claude, Claude-2, Claude-3, Claude-3 Opus, Claude-3 Sonnet, Claude-3 Haiku, Claude Instant |
+| Meta | Llama-3, Llama-2, Llama, LLaMA, CodeLlama, OPT, OPT-175B |
+| Google | Gemini, Gemini Pro, Gemini Ultra, Gemini Flash, Gemma, Gemma-2, PaLM-2, PaLM, Flan-T5, Flan-UL2, LaMDA, T5, BARD |
+| Mistral AI | Mistral, Mixtral |
+| Alibaba | Qwen, Qwen-2, Qwen-1.5 |
+| DeepSeek | DeepSeek, DeepSeek-V2, DeepSeek-Coder |
+| Microsoft | Phi, Phi-2, Phi-3 |
+| xAI | Grok |
+| Cohere | Cohere, Command-R, Command R+, Aya |
+| AI21 | Jurassic, Jurassic-2, J2 |
+| Open-source (misc) | Vicuna, Alpaca, Falcon, BLOOM, Yi, Dolly, Zephyr, WizardLM, InternLM, Baichuan, ChatGLM, GLM, StableLM, MPT, DialoGPT, Delphi, ERNIE |
+| Pre-LLM / Encoder | BERT, RoBERTa, ALBERT, DeBERTa, DistilBERT, XLNet, ELECTRA, ELMo, BART |
+| Embeddings | Word2Vec, GloVe, FastText |
+
+## Appendix B: Methodology Notes
+
+1. **Data source:** YAML frontmatter fields `LLM_assessed` and `DATA_URL` from all 846 papers in `papers/`
+2. **Model extraction:** The `LLM_assessed` field contains comma-separated canonical model names assigned during
+   the 40-agent deep-read enrichment pipeline (2026-02-12). Values are pre-canonicalized — this report
+   performs no additional NLP extraction.
+3. **Family grouping:** Models are mapped to families via a static lookup table (Appendix A). Models not
+   found in the table are assigned to "Other/Unknown".
+4. **Proprietary vs open-source:** Classification is based on model licensing at time of release.
+   Some models (e.g., Llama) have evolving licenses; we classify based on the predominant usage pattern.
+5. **URL classification:** DATA_URL values may contain multiple comma-separated URLs. Each paper is counted
+   once per platform (even if multiple URLs point to the same platform).
+6. **Co-occurrence matrix:** Counts how many papers test both Model A and Model B. Only the top 12 models
+   by frequency are included to keep the matrix readable.

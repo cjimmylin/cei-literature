@@ -8,22 +8,22 @@ key: KIDSCDAH
 type: document
 short_title: U-SafeBench
 year: 2025
-first_author: "[[Sean Cleary]]"
-last_author: "[[Katherine St. John]]"
-authors: "Sean Cleary; Mareike Fischer; Katherine St. John"
-url: "https://arxiv.org/abs/2502.12854"
-external_pdf: "https://arxiv.org/pdf/2502.12854.pdf"
+first_author: "[[Yeonjun In]]"
+last_author: "[[Chanyoung Park]]"
+authors: "[[In, Yeonjun]]; [[Kim, Wonjoong]]; [[Yoon, Kanghoon]]; [[Kim, Sungchul]]; [[Tanjim, Md Mehrab]]; [[Park, Sangwu]]; [[Kim, Kibum]]; [[Park, Chanyoung]]"
+url: "https://arxiv.org/abs/2502.15086"
+external_pdf: "https://arxiv.org/pdf/2502.15086"
 national_ethnic_cultural: N/A
 religious_values: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
-key_contribution: "Comparison of various tree balance indices (likely metadata mismatch in source abstract; title suggests LLM Safety Benchmark)."
-significance: "Unable to determine specific significance due to mismatched abstract (phylogenetics vs AI safety) in source file."
+key_contribution: "Introduces U-SafeBench, a benchmark for evaluating user-specific safety of LLMs, revealing that current models fail to respect individualized safety standards."
+significance: "Identifies a novel vulnerability in LLM safety — models apply uniform safety standards instead of adapting to user-specific requirements. Published at EMNLP 2025 Findings."
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Various-U-SafeBench.md"
-paper_summary: "Overview: THE GFB TREE AND TREE IMBALANCE INDICES SEAN CLEARY∗, MAREIKE FISCHER†, AND KATHERINE ST. JOHN‡ Abstract. Tree balance plays an important role in various research areas in phylogenetics and computer s"
-local_pdf: [[PDFs/2025/2025-Various-U-SafeBench.pdf]]
-abstract: "Tree balance plays an important role in various research areas in phylogenetics and computer science. Typically, it is measured with the help of a balance index or imbalance index. There are more than 25 such indices available, recently surveyed in a book by Fischer et al. They are used to rank rooted binary trees on a scale from the most balanced to the least balanced. We show that a wide range of subtree-size based measures satisfying concavity and monotonicity conditions are minimized by the complete or greedy-from-the-bottom (GFB) tree and maximized by the caterpillar tree, yielding an infinitely large family of distinct new imbalance indices. Answering an open question from the literature, we show that one such established measure, the $\widehat{s}$-shape statistic, has the GFB tree as its unique minimizer. We also provide an alternative characterization of GFB trees, showing that they are equivalent to complete trees, which arise in different contexts. We give asymptotic bounds on the expected $\widehat{s}$-shape statistic under the uniform and Yule-Harding distributions of trees, and answer questions for the related $Q$-shape statistic as well."
+paper_summary: "Introduces U-SafeBench, a comprehensive benchmark for evaluating user-specific safety of LLMs. Tests reveal current models fail to act safely when considering individualized safety standards, and proposes a chain-of-thought remedy to improve performance."
+local_pdf: "[[PDFs/2025/2025-Various-U-SafeBench.pdf]]"
+abstract: "There is an ongoing debate about what safety means for large language models (LLMs). While most safety benchmarks evaluate LLMs against universal safety standards, in practice, safety requirements vary across users and contexts. We introduce U-SafeBench, a comprehensive benchmark for evaluating user-specific safety of LLMs. Our evaluation reveals that current LLMs fail to act safely when considering user-specific safety standards, representing a newly identified vulnerability. We propose a chain-of-thought based remedy that improves user-specific safety performance."
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -41,7 +41,7 @@ DATA_URL: "NA"
 
 ## Metadata
 
-**Authors:** Various
+**Authors:** Yeonjun In, Wonjoong Kim, Kanghoon Yoon, Sungchul Kim, Md Mehrab Tanjim, Sangwu Park, Kibum Kim, Chanyoung Park
 
 **Year:** 2025
 
@@ -51,19 +51,19 @@ DATA_URL: "NA"
 
 - **Local PDF:** [[PDFs/2025/2025-Various-U-SafeBench.pdf|Open PDF]]
 
-- **arXiv:** https://arxiv.org/abs/2502.12854
+- **arXiv:** https://arxiv.org/abs/2502.15086
 
 ## Abstract
 
-Tree balance plays an important role in various research areas in phylogenetics and computer science. Typically, it is measured with the help of a balance index or imbalance index. There are more than 25 such indices available, recently surveyed in a book by Fischer et al. They are used to rank rooted binary trees on a scale from the most balanced to the least balanced. We show that a wide range of subtree-size based measures satisfying concavity and monotonicity conditions are minimized by the complete or greedy-from-the-bottom (GFB) tree and maximized by the caterpillar tree, yielding an infinitely large family of distinct new imbalance indices. Answering an open question from the literature, we show that one such established measure, the $\widehat{s}$-shape statistic, has the GFB tree as its unique minimizer. We also provide an alternative characterization of GFB trees, showing that they are equivalent to complete trees, which arise in different contexts. We give asymptotic bounds on the expected $\widehat{s}$-shape statistic under the uniform and Yule-Harding distributions of trees, and answer questions for the related $Q$-shape statistic as well.
+There is an ongoing debate about what safety means for large language models (LLMs). While most safety benchmarks evaluate LLMs against universal safety standards, in practice, safety requirements vary across users and contexts. We introduce U-SafeBench, a comprehensive benchmark for evaluating user-specific safety of LLMs. Our evaluation reveals that current LLMs fail to act safely when considering user-specific safety standards, representing a newly identified vulnerability. We propose a chain-of-thought based remedy that improves user-specific safety performance.
 
 ## Authors
 
-[[Sean Cleary]], [[Mareike Fischer]], [[Katherine St. John]]
+[[Yeonjun In]], [[Wonjoong Kim]], [[Kanghoon Yoon]], [[Sungchul Kim]], [[Md Mehrab Tanjim]], [[Sangwu Park]], [[Kibum Kim]], [[Chanyoung Park]]
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. The PDF extract contains content about tree balance indices in phylogenetics (GFB trees and tree imbalance indices), which is unrelated to the expected U-SafeBench paper on AI safety. The extract appears to be mismatched with the paper metadata.
+U-SafeBench benchmark dataset for evaluating user-specific safety of large language models. Tests LLMs against individualized safety standards rather than universal ones.
 
 
 ## Notes

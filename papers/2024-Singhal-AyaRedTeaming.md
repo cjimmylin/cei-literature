@@ -8,7 +8,7 @@ key: BKBB8NFZ
 type: journalArticle
 short_title: AyaRedTeaming
 year: 2025
-first_author: [[Aakanksha]]
+first_author: "[[Aakanksha]]"
 last_author: "[[Sara Hooker]]"
 authors: "Aakanksha; Arash Ahmadian; Beyza Ermis; Seraphina Goldfarb-Tarrant; Julia Kreutzer; Marzieh Fadaee; Sara Hooker"
 url: "https://arxiv.org/abs/2406.18682"

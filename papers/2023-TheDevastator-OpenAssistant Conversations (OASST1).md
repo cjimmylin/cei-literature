@@ -8,7 +8,7 @@ key: AKVVEZBF
 type: document
 short_title: "OpenAssistant Conversations (OASST1)"
 year: 2025
-first_author: [[TheDevastator]]
+first_author: "[[TheDevastator]]"
 last_author: "[[TheDevastator]]"
 authors: TheDevastator
 url: "https://www.kaggle.com/datasets/thedevastator/multilingual-conversation-dataset"

@@ -8,7 +8,7 @@ key: 9PE6HG5I
 type: document
 year: 2025
 short_title: GurbaniDB
-first_author: [[Project]]
+first_author: "[[Project]]"
 last_author: "[[The Sikher]]"
 authors: "Project; The Sikher"
 url: "https://sikher.com/projects/gurbanidb/"

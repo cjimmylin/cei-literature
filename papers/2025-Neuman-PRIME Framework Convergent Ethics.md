@@ -9,9 +9,9 @@ key: AUTO_NEUMAN2025B
 type: preprint
 short_title: "PRIME Framework Convergent Ethics"
 year: 2025
-first_author: "[[[[Neuman, W. Russell]]"
-last_author: "[[Shah, Manan]]"
-authors: "[[[[Neuman, W. Russell]]]]; [[[[Coleman, Chad]]]]; [[[[Shah, Manan]]]]"
+first_author: "[[W. Russell Neuman]]"
+last_author: "[[Manan Shah]]"
+authors: "[[Neuman, W. Russell]]; [[Coleman, Chad]]; [[Shah, Manan]]"
 doi: 10.48550/arXiv.2504.19255
 url: "https://arxiv.org/abs/2504.19255"
 local_pdf: "[[PDFs/2025/2025-Neuman-PRIME Framework Convergent Ethics.pdf]]"

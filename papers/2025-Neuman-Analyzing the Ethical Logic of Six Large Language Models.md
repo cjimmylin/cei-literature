@@ -9,9 +9,9 @@ key: ARXIV2501_08951
 type: preprint
 short_title: "Analyzing the Ethical Logic of Six Large Language Models"
 year: 2025
-first_author: "[[[[[[W. Russell Neuman]]"
+first_author: "[[W. Russell Neuman]]"
 last_author: "[[Manan Shah]]"
-authors: "[[[[[[W. Russell Neuman]], [[Chad Coleman]], [[Manan Shah]]]]]]"
+authors: "[[W. Russell Neuman]]; [[Chad Coleman]]; [[Manan Shah]]"
 doi: 10.48550/arXiv.2501.08951
 tags: "Computer Science - Computation and Language"
 url: "https://arxiv.org/abs/2501.08951"

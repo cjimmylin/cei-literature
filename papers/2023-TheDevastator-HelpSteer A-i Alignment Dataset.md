@@ -8,7 +8,7 @@ key: ZBZC7GIZ
 type: document
 short_title: "HelpSteer: A-i Alignment Dataset"
 year: 2025
-first_author: [[TheDevastator]]
+first_author: "[[TheDevastator]]"
 last_author: "[[TheDevastator]]"
 authors: TheDevastator
 url: "https://www.kaggle.com/datasets/thedevastator/helpsteer-ai-alignment-dataset"

@@ -1,5 +1,5 @@
 # Learnings Log
-*Last updated: 2026-02-10*
+*Last updated: 2026-02-12*
 
 ---
 
@@ -31,6 +31,16 @@
 - Include context (what triggered the learning)
 - Note edge cases and exceptions
 - Link to relevant Standards/ files if applicable
+
+---
+
+## 2026-02-12
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-12 | Git | **GitHub Pages Public Repo Pattern for Private Vaults:** To publicly host a dashboard from a private repo, create a separate small public repo (e.g., `cjimmylin/cei-dashboard`) containing only the HTML file as `index.html`. This avoids exposing the full vault while making the visualization accessible. Update workflow: copy new HTML → commit → push (Pages auto-redeploys). |
+| 2026-02-12 | Git | **Programmatic GitHub Pages Setup via `gh api`:** Enable Pages without visiting GitHub UI: `gh api repos/{owner}/{repo}/pages --method POST -f "source[branch]=main" -f "source[path]=/" -f "build_type=legacy"`. The `legacy` build type uses classic Jekyll pipeline (which serves plain HTML as-is). Check status with `gh api repos/{owner}/{repo}/pages --jq '.status'` — returns `"built"` when deployment completes (~30s). |
+| 2026-02-12 | Git | **Git Identity for Fresh Repos on macOS:** When no `--global` git config exists, `git commit` fails with "Author identity unknown". For GitHub repos, use the noreply email pattern: `git config user.email "username@users.noreply.github.com"`. This links commits to the GitHub profile without exposing a real email. Set per-repo (not global) to avoid affecting other repos. |
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,7 +19,8 @@ local_pdf: [[PDFs/2025/2025-Chiu-MoReBench.pdf]]
 external_pdf: "http://arxiv.org/pdf/2510.16380.pdf"
 publication: arXiv.org
 national_ethnic_cultural: American
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "American, Deontology, Utilitarianism"
 key_contribution: "Introduces MOREBENCH to evaluate the procedural and pluralistic moral reasoning process of LLMs, not just outcomes"

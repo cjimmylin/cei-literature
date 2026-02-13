@@ -1,5 +1,6 @@
 ---
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Ethics up front, not post hoc"
@@ -15,7 +16,8 @@ doi: N/A
 url: "https://arxiv.org/abs/2511.20689"
 local_pdf: "[[PDFs/2025/2025-De Montis-Morality in AI.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Proposes 'morality by design' by integrating ethical principles directly into the architectural mechanisms of transformer-based LLMs"

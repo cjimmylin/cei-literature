@@ -141,6 +141,30 @@ RELIGIOUS_PATTERNS = {
     "Sikhism": [
         r"\bSikh\b", r"\bSikhism\b", r"\bGurbani\b", r"\bGuru Granth\b"
     ],
+    "Confucianism": [
+        r"\bConfucian\b", r"\bConfucianism\b", r"\bConfucius\b", r"\bAnalects\b",
+        r"\bMencius\b", r"\bjunzi\b", r"\bfilial piety\b", r"\bren\b.*\byi\b"
+    ],
+    "Taoism": [
+        r"\bTaois[mt]\b", r"\bDaois[mt]\b", r"\bTao Te Ching\b", r"\bDaodejing\b",
+        r"\bLaozi\b", r"\bwu wei\b", r"\bZhuangzi\b"
+    ],
+    "Shinto": [
+        r"\bShinto\b", r"\bShintoism\b"
+    ],
+    "Jainism": [
+        r"\bJain\b", r"\bJainism\b"
+    ],
+    "Baha'i": [
+        r"\bBaha'i\b", r"\bBahai\b"
+    ],
+    "Zoroastrianism": [
+        r"\bZoroastrian\b", r"\bAvesta\b", r"\bZarathustra\b"
+    ],
+    "Indigenous Spirituality": [
+        r"\bIndigenous spiritual\b", r"\bAboriginal dreaming\b",
+        r"\bNative American spiritual\b"
+    ],
     "Multiple Religions": [
         r"\breligious pluralism\b", r"\binter[-\s]?religious\b",
         r"\bmultiple religions\b", r"\breligious diversity\b"
@@ -195,17 +219,16 @@ def classify_cultural(title: str, abstract: str) -> str:
 
 
 def classify_religious(title: str, abstract: str) -> str:
-    """Classify paper by religious values."""
-    text = f"{title} {abstract}".lower()
+    """Classify paper by religious values (single-label or comma-separated)."""
     original_text = f"{title} {abstract}"
-    
+
     matches = []
     for religion, patterns in RELIGIOUS_PATTERNS.items():
         for pattern in patterns:
             if re.search(pattern, original_text, re.IGNORECASE):
                 matches.append(religion)
                 break
-    
+
     if matches:
         # Remove duplicates while preserving order
         seen = set()
@@ -215,36 +238,88 @@ def classify_religious(title: str, abstract: str) -> str:
                 seen.add(m)
                 unique_matches.append(m)
         return ", ".join(unique_matches)
-    
+
     return "N/A"
 
 
-def update_frontmatter(frontmatter: str, cultural: str, religious: str) -> str:
-    """Add or update cultural and religious classification in frontmatter."""
+def classify_religious_list(title: str, abstract: str) -> str:
+    """Classify paper by ALL specific religions covered (for religious_values_list field).
+
+    Unlike classify_religious(), this:
+    - Excludes the catch-all 'Multiple Religions' from the result (keeps specific names only)
+    - Returns specific religion names even when 'Multiple Religions' pattern also matches
+    - Falls back to 'Multiple Religions' only if no specific religions were identified
+    """
+    original_text = f"{title} {abstract}"
+
+    specific_matches = []
+    has_multiple_generic = False
+
+    for religion, patterns in RELIGIOUS_PATTERNS.items():
+        for pattern in patterns:
+            if re.search(pattern, original_text, re.IGNORECASE):
+                if religion == "Multiple Religions":
+                    has_multiple_generic = True
+                else:
+                    specific_matches.append(religion)
+                break
+
+    if specific_matches:
+        # Deduplicate while preserving order
+        seen = set()
+        unique = []
+        for m in specific_matches:
+            if m not in seen:
+                seen.add(m)
+                unique.append(m)
+        return ", ".join(unique)
+
+    if has_multiple_generic:
+        return "Multiple Religions"
+
+    return "N/A"
+
+
+def update_frontmatter(frontmatter: str, cultural: str, religious: str,
+                       religious_list: str = None) -> str:
+    """Add or update cultural and religious classification in frontmatter.
+
+    Args:
+        frontmatter: Raw YAML frontmatter string
+        cultural: national_ethnic_cultural value
+        religious: religious_values value (single-label or comma-separated)
+        religious_list: religious_values_list value (all specific religions); if None, uses religious
+    """
+    if religious_list is None:
+        religious_list = religious
+
     lines = frontmatter.split('\n')
     new_lines = []
-    
+
     # Remove existing properties if present, including stray dashes
     skip_next = False
     for line in lines:
         if skip_next and line.startswith('  '):
             continue
         skip_next = False
-        
-        if line.startswith('national_ethnic_cultural:') or line.startswith('religious_values:'):
+
+        if (line.startswith('national_ethnic_cultural:') or
+                line.startswith('religious_values:') or
+                line.startswith('religious_values_list:')):
             continue
         # Skip standalone dashes that might have been added erroneously
         if line.strip() == '-':
             continue
         new_lines.append(line)
-    
+
     # Add new properties at the end (before any trailing empty lines)
     while new_lines and new_lines[-1].strip() == '':
         new_lines.pop()
-    
+
     new_lines.append(f'national_ethnic_cultural: "{cultural}"')
     new_lines.append(f'religious_values: "{religious}"')
-    
+    new_lines.append(f'religious_values_list: "{religious_list}"')
+
     return '\n'.join(new_lines)
 
 
@@ -258,9 +333,11 @@ def process_paper(filepath: Path) -> Tuple[str, str, str]:
 
     cultural = classify_cultural(title, abstract)
     religious = classify_religious(title, abstract)
+    religious_list = classify_religious_list(title, abstract)
 
     # Update the file
-    new_frontmatter = update_frontmatter(frontmatter, cultural, religious)
+    new_frontmatter = update_frontmatter(frontmatter, cultural, religious,
+                                         religious_list=religious_list)
 
     # Validate and write back using safe utility
     is_valid, issues = validate_frontmatter(new_frontmatter)

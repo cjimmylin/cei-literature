@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2407.18369"
 external_pdf: "http://arxiv.org/pdf/2407.18369.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Provides a broad survey of AI safety in Generative LLMs, covering technical alignment methods, harmful outputs (toxicity/hallucination), and safety-performance trade-offs."

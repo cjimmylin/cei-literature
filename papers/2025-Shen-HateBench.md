@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2501.16750"
 external_pdf: "http://arxiv.org/pdf/2501.16750.pdf"
 publication: "USENIX Security Symposium"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Toxicity & Hate Speech"
 key_contribution: "Constructed HateBench (7k LLM-generated hate samples) to test hate speech *detectors*, finding they struggle with newer LLM-generated toxicity."

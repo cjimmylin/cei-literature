@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2212.10720"
 external_pdf: "http://arxiv.org/pdf/2212.10720.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced MoralDial, a framework for training and evaluating moral dialogue systems through multi-turn discussions that require LLMs to express and explain moral viewpoints."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Elicit Human View from scratch: ValueLex"
@@ -17,7 +18,8 @@ local_pdf: "[[PDFs/2024/2024-Biedma-Beyond Human Norms.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2404.12744.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Introduces 'ValueLex', a framework that reconstructs LLMs' unique value systems from scratch, identifying three core non-human dimensions: Competence, Character, and Integrity"

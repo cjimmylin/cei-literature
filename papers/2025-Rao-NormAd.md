@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ tags:
 url: "http://arxiv.org/abs/2404.12464"
 external_pdf: "http://arxiv.org/pdf/2404.12464.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Social & Cultural Values"
 key_contribution: "Introduced 'NormAd' and the 'NormAd-Eti' benchmark (2.6k norms from 75 countries) to test LLMs' *cultural adaptability* – can the model switch etiquette based on the country?"

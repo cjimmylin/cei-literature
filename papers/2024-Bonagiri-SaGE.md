@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2402.13709"
 external_pdf: "http://arxiv.org/pdf/2402.13709.pdf"
 publication: "International Conference on Language Resources and Evaluation"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed Semantic Graph Entropy (SaGE), a metric based on abstract 'Rules-of-Thumb' (RoTs), to evaluate the moral consistency of LLM generations."

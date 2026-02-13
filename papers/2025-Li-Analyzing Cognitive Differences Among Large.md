@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2505.01967"
 external_pdf: "http://arxiv.org/pdf/2505.01967.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Responsible AI"
 key_contribution: "Introduced the Social Worldview Taxonomy (SWT) based on Cultural Theory to measure cognitive differences (Hierarchy, Egalitarianism, etc.) across 28 LLMs."

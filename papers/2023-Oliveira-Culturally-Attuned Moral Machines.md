@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2312.17479"
 external_pdf: "http://arxiv.org/pdf/2312.17479.pdf"
 publication: "PLoS ONE"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Social & Cultural Values"
 key_contribution: "Proposed using Inverse Reinforcement Learning (IRL) for AI to implicitly learn the moral values of a specific culture by observing human behavior in a virtual environment."

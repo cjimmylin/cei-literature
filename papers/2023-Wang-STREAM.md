@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2310.05563"
 external_pdf: "http://arxiv.org/pdf/2310.05563.pdf"
 publication: "Ai & Society"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Proposed STREAM, a platform for 'collective intelligence' training of ethical AI, using the '6Es' framework (Establishment to Evolvement)."

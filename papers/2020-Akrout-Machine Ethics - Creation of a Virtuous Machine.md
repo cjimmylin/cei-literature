@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: "arXiv:2002.00213"
 url: "https://arxiv.org/abs/2002.00213"
 publication: arXiv
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Confucianism"
+religious_values_list: "Confucianism"
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 

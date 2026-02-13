@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2406.15053"
 external_pdf: "http://arxiv.org/pdf/2406.15053.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: Indian
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Indian, Social & Cultural Values"
 key_contribution: "Conducted a large-scale evaluation (Pariksha) of human vs. LLM-based evaluation across 10 Indic languages, building leaderboards for Indian NLP."

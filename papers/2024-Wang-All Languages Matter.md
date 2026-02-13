@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Wang, Wenxuan]]; [[Tu, Zhaopeng]]; [[Chen, Chang]]; [[Yuan, Youliang
 url: "https://aclanthology.org/2024.findings-acl.349/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/SFH74GNU/2024 - All Languages Matter On the Multilingual Safety of Large Language Models.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Built XSafety, a multilingual safety benchmark (10 languages, 14 issues), finding LLMs are much less safe in non-English languages."

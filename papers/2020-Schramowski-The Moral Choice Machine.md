@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://www.frontiersin.org/article/10.3389/frai.2020.00036/full"
 local_pdf: "[[PDFs/2020/2020-Schramowski-The Moral Choice Machine.pdf]]"
 external_pdf: "https://www.frontiersin.org/articles/10.3389/frai.2020.00036/pdf"
 national_ethnic_cultural: N/A
-religious_values: Christianity
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Christianity, Value Pluralism / Schwartz, Deontology"
 key_contribution: "Extracts deontological ethical reasoning from text corpora using the 'Moral Choice Machine' (MCM) by calculating embedding bias scores"

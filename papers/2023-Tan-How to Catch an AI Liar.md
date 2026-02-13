@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Lorenzo Pacchiardi; Alex J. Chan; Sören Mindermann; Ilan Moscovitz; A
 url: "https://arxiv.org/abs/2309.15840"
 external_pdf: "https://arxiv.org/pdf/2309.15840.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 tags: 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,7 +19,8 @@ local_pdf: "[[PDFs/2025/2025-Kilov-Discerning What Matters.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2506.13082.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Jainism"
+religious_values_list: "Jainism"
 moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Introduces a methodology to assess 'moral competence' focusing on discerning morally relevant features rather than just verdict prediction"

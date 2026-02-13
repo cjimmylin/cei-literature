@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,7 +20,8 @@ external_pdf: "https://arxiv.org/pdf/2507.19672.pdf"
 publication: arXiv
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Deontology, AI Safety & Alignment, LLM Survey, Ethical Constraints"
 key_contribution: "Comprehensive survey of alignment techniques, training protocols, and empirical findings for LLM safety"

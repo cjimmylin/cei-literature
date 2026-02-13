@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.18653/v1/2020.emnlp-main.48
 url: "https://www.aclweb.org/anthology/2020.emnlp-main.48"
 external_pdf: "https://arxiv.org/pdf/2011.00620v3.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: Moral Foundations Theory
 newtags: "General Ethics"
 key_contribution: "Introduced 'Social Chemistry', a framework and dataset (Social-Chem-101) containing 292k 'rules-of-thumb' annotated with 12 dimensions of social and moral judgment."

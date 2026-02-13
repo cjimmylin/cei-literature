@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Aakanksha; Arash Ahmadian; Beyza Ermis; Seraphina Goldfarb-Tarrant; Ju
 url: "https://arxiv.org/abs/2406.18682"
 external_pdf: "https://arxiv.org/pdf/2406.18682.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Released AyaRedTeaming, the first multilingual red-teaming dataset distinguishing between global harms (universal) and local harms (culture-specific) across 6 languages."

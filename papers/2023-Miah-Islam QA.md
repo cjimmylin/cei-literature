@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "M. Miah"
 url: "https://www.kaggle.com/datasets/mamun18/islam-qa-dataset"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/JJPDXDYI/Miah - 2023 - Islam QA Web-scraped Islamic Question-Answer Corpus.pdf"
 national_ethnic_cultural: N/A
-religious_values: Islam
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: N/A
 newtags: Islam
 tags: 

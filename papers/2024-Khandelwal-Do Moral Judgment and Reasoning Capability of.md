@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2402.02135"
 external_pdf: "http://arxiv.org/pdf/2402.02135.pdf"
 publication: "Conference of the European Chapter of the Association for Computational Linguistics"
 national_ethnic_cultural: "Chinese, Indian, African/Ubuntu, Spanish, Russian"
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Cognitive Developmental"
 newtags: "Chinese, Indian, African/Ubuntu, Spanish, Russian, Cognitive Developmental, Moral Reasoning & Psychology"
 key_contribution: "Evaluated LLM moral reasoning using the Defining Issues Test (DIT) across 6 languages, finding significantly lower post-conventional reasoning scores in Hindi and Swahili compared to English/Chinese."

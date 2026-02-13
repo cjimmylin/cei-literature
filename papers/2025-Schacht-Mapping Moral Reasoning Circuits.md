@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1007/978-3-031-93415-5_6
 url: "https://link.springer.com/chapter/10.1007/978-3-031-93415-5_6"
 publication: "HCII 2025 - Artificial Intelligence in HCI"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Used mechanistic interpretability to identify specific 'moral neurons' and sub-circuits in LLMs responsible for processing dimensions like Care, Fairness, and Sanctity."

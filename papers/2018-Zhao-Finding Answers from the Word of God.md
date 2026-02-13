@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1109/IJCNN.2018.8489756
 url: "http://arxiv.org/abs/1810.12118"
 external_pdf: "http://arxiv.org/pdf/1810.12118.pdf"
 national_ethnic_cultural: N/A
-religious_values: Christianity
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: N/A
 newtags: Christianity
 tags: 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2206.08325"
 external_pdf: "http://arxiv.org/pdf/2206.08325.pdf"
 publication: "Neural Information Processing Systems"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Outlined six characteristics of harmful text to guide rigorous benchmarking and critiqued existing benchmarks (like Perspective API) through this lens."

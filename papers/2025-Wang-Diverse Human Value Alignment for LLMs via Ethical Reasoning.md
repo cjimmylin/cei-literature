@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.48550/arXiv.2511.00379
 url: "https://arxiv.org/abs/2511.00379"
 external_pdf: "https://arxiv.org/pdf/2511.00379.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, Moral Reasoning & Psychology"
 key_contribution: "Proposed an 'ethical reasoning paradigm' for LLMs involving a 5-step process (fact gathering to reflection) to align with diverse regional values (tested on SafeWorld benchmark)."

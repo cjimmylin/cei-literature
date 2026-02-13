@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1609/aies.v7i1.31710
 url: "https://ojs.aaai.org/index.php/AIES/article/view/31710"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/4LU2FNH5/Pistilli et al. - 2024 - CIVICS Building a Dataset for Examining Culturally-Informed Values in Large Language Models.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Introduced CIVICS, a multilingual dataset of value-laden prompts on sensitive topics (LGBTQI+, welfare, etc.) to examine culturally-informed values in LLMs."

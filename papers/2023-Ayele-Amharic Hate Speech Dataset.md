@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Abinet Ayele; Seid Muhie Yimam; Yaregal Assabie Belay; Moges Asfaw; Ch
 url: "https://aclanthology.org/2023.ranlp-1.6/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/UZ25W9FY/Ayele et al. - 2023 - Amharic Hate Speech Dataset.pdf"
 national_ethnic_cultural: African/Ubuntu
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "African/Ubuntu, Toxicity & Hate Speech"
 key_contribution: "Created the first large-scale annotated hate speech dataset (15k tweets) for Amharic and benchmarked baseline models (AmFLAIR)."

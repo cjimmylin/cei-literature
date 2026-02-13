@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: N/A
 url: "https://www.researchgate.net/publication/381504958_Phronesis_for_AI_Systems_Conceptual_Foundations_Current_Research_and_Prospects"
 local_pdf: "[[PDFs/2025/2025-Krzanowski-Phronesis for AI Systems.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Explores the conceptual foundations and feasibility of implementing synthetic phronesis (practical wisdom) in AI systems"

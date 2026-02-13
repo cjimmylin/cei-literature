@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Wong, Youheng W.]]; [[Parde, Natalie]]; [[Koyuncu, Erdem]]"
 url: "https://aclanthology.org/2024.lrec-main.737/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/6ATYMD6Y/2024 - The Humanistic Buddhism Corpus (HBC).pdf"
 national_ethnic_cultural: Chinese
-religious_values: Buddhism
+religious_values: "Christianity, Buddhism"
+religious_values_list: "Christianity, Buddhism"
 moral_psychology: N/A
 newtags: "Chinese, Buddhism"
 tags: 

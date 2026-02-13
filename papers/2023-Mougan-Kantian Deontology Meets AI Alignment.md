@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ external_pdf: "https://arxiv.org/pdf/2311.05227.pdf"
 local_pdf: "[[PDFs/2023/2023-Mougan-Kantian Deontology Meets AI Alignment.pdf]]"
 publication: arXiv
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Deontology, Kantian-Ethics, AI-Fairness, Fairness-Metrics, Values-Alignment"
 key_contribution: "Shows 12/14 existing fairness metrics are utilitarian; proposes Kantian deontological alternatives that treat individuals as ends in themselves"

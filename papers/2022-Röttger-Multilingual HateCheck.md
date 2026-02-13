@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Paul Röttger; Haitham Seelawi; Debora Nozza; Zeerak Talat; Bertie Vid
 url: "https://arxiv.org/abs/2206.09917"
 external_pdf: "https://arxiv.org/pdf/2206.09917.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Expanded HateCheck to 10 languages, providing functional tests for multilingual hate speech detection"

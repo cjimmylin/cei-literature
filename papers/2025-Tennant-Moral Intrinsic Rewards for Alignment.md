@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://openreview.net/forum?id=ZFk4eh0WcL"
 external_pdf: "https://openreview.net/pdf?id=ZFk4eh0WcL"
 publication: "ICLR Workshop"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: N/A
 newtags: "Utilitarianism, Deontology, Intrinsic Rewards, RL"
 key_contribution: "Introduces intrinsic reward functions encoding deontological and utilitarian ethics for RL"

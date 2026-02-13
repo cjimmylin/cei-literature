@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2411.08884"
 external_pdf: "http://arxiv.org/pdf/2411.08884.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Applied the Domain-Specific Risk-Taking (DOSPERT) scale to LLMs to quantify their 'risk personalities' and ethical risk attitudes."

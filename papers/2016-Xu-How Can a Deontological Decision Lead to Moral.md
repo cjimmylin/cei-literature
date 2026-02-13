@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1007/s10551-015-2576-6
 url: "http://link.springer.com/10.1007/s10551-015-2576-6"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/DPB87N7D/Xu and Ma - 2016 - How Can a Deontological Decision Lead to Moral Behavior The Moderating Role of Moral Identity.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Identity, Value Pluralism / Schwartz"
 newtags: "Moral Identity, Value Pluralism / Schwartz, Deontology, Utilitarianism"
 key_contribution: "Investigated the link between moral identity, deontological vs utilitarian preferences, and moral behavior"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Jianhui Wei; Zijie Meng; Zikai Xiao; Tianxiang Hu; Yang Feng; Zhijie Z
 url: "https://arxiv.org/abs/2506.22808"
 external_pdf: "https://arxiv.org/pdf/2506.22808.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Applied Ethics"
 key_contribution: "Created MedEthicsQA, a benchmark of ~11,000 questions (multiple-choice and open-ended) for evaluating medical ethics in LLMs, derived from global standards and literature."

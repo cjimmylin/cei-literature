@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Seungju Han; Kavel Rao; Allyson Ettinger; Liwei Jiang; Bill Yuchen Lin
 url: "https://arxiv.org/abs/2406.18495"
 external_pdf: "https://arxiv.org/pdf/2406.18495.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced WildGuard, a lightweight and open moderation tool for LLM safety, along with WildGuardMix (a balanced 92k labeled multi-task safety dataset)."

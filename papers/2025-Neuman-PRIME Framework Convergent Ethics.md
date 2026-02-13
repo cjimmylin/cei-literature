@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,7 +19,8 @@ local_pdf: "[[PDFs/2025/2025-Neuman-PRIME Framework Convergent Ethics.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2504.19255.pdf"
 ethics_perspective: "Moral Foundations Analysis"
 national_ethnic_cultural: American
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory, Cognitive Developmental"
 newtags: "Moral Foundations Theory, Cognitive Developmental, Deontology, Utilitarianism, Moral Foundations Analysis"
 key_contribution: "Introduces the PRIME framework to analyze moral foundation priorities in LLMs"

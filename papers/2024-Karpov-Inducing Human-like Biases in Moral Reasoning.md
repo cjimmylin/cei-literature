@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2411.15386"
 external_pdf: "http://arxiv.org/pdf/2411.15386.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: N/A
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Fine-tuned LLMs on human behavioral (ETHICS) and fMRI brain data to see if models become more 'human-like' in moral reasoning. Result: Accuracy improved, but 'BrainScore' (alignment with fMRI signals) did not."

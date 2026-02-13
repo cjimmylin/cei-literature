@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://acl-bg.org/proceedings/2019/RANLP 2019/pdf/RANLP123.pdf"
 local_pdf: "[[PDFs/2019/2019-University of São Paulo-Moral Stance Recognition and Polarity.pdf]]"
 external_pdf: "https://acl-bg.org/proceedings/2019/RANLP 2019/pdf/RANLP123.pdf"
 national_ethnic_cultural: Brazilian
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Brazilian, General Ethics"
 key_contribution: "Created a labelled corpus of moral stances from Twitter and crowdsourcing specifically for Brazilian Portuguese."

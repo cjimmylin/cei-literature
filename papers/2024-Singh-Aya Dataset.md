@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Ahmet Üstün; Viraat Aryabumi; Zheng-Xin Yong; Wei-Yin Ko; Daniel D's
 url: "https://arxiv.org/abs/2402.07827"
 external_pdf: "https://arxiv.org/pdf/2402.07827.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Released Aya, a massively multilingual generative model and dataset covering 101 languages (50% lower-resourced), significantly expanding access to instruction-tuned AI."

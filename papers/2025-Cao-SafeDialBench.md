@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Hongye Cao; Yanming Wang; Sijia Jing; Ziyue Peng; Zhixin Bai; Zhe Cao;
 url: "https://arxiv.org/abs/2502.11090"
 external_pdf: "https://arxiv.org/pdf/2502.11090.pdf"
 national_ethnic_cultural: Chinese
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Chinese, AI Safety & Alignment"
 key_contribution: "Proposed SafeDialBench, a fine-grained benchmark for evaluating LLM safety in multi-turn dialogues against 7 distinct jailbreak attack strategies."

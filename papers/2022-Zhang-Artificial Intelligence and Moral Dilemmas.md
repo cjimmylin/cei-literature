@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://www.sciencedirect.com/science/article/abs/pii/S0022103122000464"
 external_pdf: ""
 publication: "Journal of Experimental Social Psychology"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: Yes
 newtags: "Utilitarianism, Deontology, AI Perception, Warmth-Competence, Moral Dilemmas"
 key_contribution: "Demonstrates that people perceive AI as more likely to make utilitarian choices than humans, with perceived warmth accounting for differences"

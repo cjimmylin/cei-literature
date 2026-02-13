@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ external_pdf: "http://arxiv.org/pdf/2507.22159.pdf"
 publication: arXiv.org
 research_topic: "Machine Learning"
 national_ethnic_cultural: Indonesian
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Indonesian
 tags: 

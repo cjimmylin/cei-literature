@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2505.24671"
 external_pdf: "http://arxiv.org/pdf/2505.24671.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Social & Cultural Values"
 key_contribution: "Proposed a 'Multi-Agent Debate' framework where LLM agents debate cultural scenarios to reach a more equitable final decision, tested on NormAd-ETI."

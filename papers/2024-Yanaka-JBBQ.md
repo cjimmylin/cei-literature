@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Hitomi Yanaka; Namgi Han; Ryoma Kumon; Jie Lu; Masashi Takeshita; Ryo 
 url: "https://arxiv.org/abs/2406.02050"
 external_pdf: "https://arxiv.org/pdf/2406.02050.pdf"
 national_ethnic_cultural: Japanese
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Japanese, Bias & Fairness"
 key_contribution: "Constructed JBBQ, a Japanese bias benchmark for QA based on the English BBQ dataset, to evaluate social biases in Japanese LLMs."

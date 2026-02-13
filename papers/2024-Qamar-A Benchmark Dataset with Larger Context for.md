@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Faiza Qamar; Seemab Latif; Rabia Latif"
 url: "https://arxiv.org/abs/2409.09844"
 external_pdf: "https://arxiv.org/pdf/2409.09844.pdf"
 national_ethnic_cultural: N/A
-religious_values: Islam
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: N/A
 newtags: Islam
 tags: 

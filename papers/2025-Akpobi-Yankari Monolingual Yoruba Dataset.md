@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Akpobi, Maro]]"
 url: "https://aclanthology.org/2025.africanlp-1.1/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ULDM59EJ/2025 - Yankari Monolingual Yoruba Dataset.pdf"
 national_ethnic_cultural: African/Ubuntu
-religious_values: N/A
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: N/A
 newtags: "African/Ubuntu, General Ethics"
 key_contribution: "Released Yankari, a large-scale (51k docs) monolingual Yoruba dataset collected from diverse sources to support NLP in West African languages."

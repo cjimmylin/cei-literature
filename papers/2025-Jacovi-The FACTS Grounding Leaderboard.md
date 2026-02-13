@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/ELGTPL3J/Jacovi et al. - Th
 pdf_extract: "[[2025-Jacovi-The FACTS Grounding Leaderboard]]"
 local_pdf: "[[PDFs/2025/2025-Jacovi-The FACTS Grounding Leaderboard.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Hallucination & Truthfulness"
 key_contribution: "Introduced the FACTS Grounding Leaderboard to evaluate LLMs' ability to generate long-form responses that are fully grounded in a provided 32k token context."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1145/3593013.3594098
 url: "https://dl.acm.org/doi/10.1145/3593013.3594098"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/LVYMDI7H/Moss and others - 2023 - Bias on Demand A Modelling Framework That Generates Synthetic Data With Bias.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "A framework to generate synthetic data with *controlled bias* ('Bias on Demand')."

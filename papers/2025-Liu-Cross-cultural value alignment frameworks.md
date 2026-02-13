@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,7 +21,8 @@ external_pdf: "https://arxiv.org/pdf/2511.17256.pdf"
 publication: arXiv
 ethics_perspective: "Cross-Cultural Ethics"
 national_ethnic_cultural: "Chinese vs Western"
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Deontology, Cross-Cultural Ethics, Value Alignment, LLM Evaluation"
 key_contribution: "Develops Multi-Layered Auditing Platform comparing value alignment in China-origin and Western-origin LLMs"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Cao, Renjie]]; [[Hu, Miaoyan]]; [[Wei, Jiahan]]; [[Ihnaini, Baha]]"
 url: "https://aclanthology.org/2024.nlp4science-1.13/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/FN5EM9LT/2024 - The Moral Foundations Weibo Corpus.pdf"
 national_ethnic_cultural: Chinese
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: "Chinese, Moral Foundations Theory, AI Safety & Alignment"
 key_contribution: "Created the Moral Foundations Weibo Corpus (MFWC), a Chinese dataset of ~26k social media comments annotated with 10 categories from Moral Foundations Theory."

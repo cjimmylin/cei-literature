@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,7 +19,8 @@ local_pdf: "[[PDFs/2025/2025-Tsvetkov-Democracy-in-Silico Institutional Design a
 external_pdf: "https://arxiv.org/pdf/2508.19562.pdf"
 ethics_perspective: "Institutional Design / Political Philosophy"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Institutional Design, Democracy, Constitutional AI, Deontology"
 key_contribution: "Simulates AI societies governing themselves, finding that Constitutional AI (deontological constraints) combined with deliberation reduces corruption"

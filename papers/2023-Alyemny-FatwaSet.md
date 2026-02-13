@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,8 @@ last_author: "[[Abdulrahman Mirza]]"
 authors: "Ohoud Alyemny; Hend Al-Khalifa; Abdulrahman Mirza"
 url: "https://www.mdpi.com/2306-5729/8/11/156"
 national_ethnic_cultural: N/A
-religious_values: Islam
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: N/A
 newtags: Islam
 tags: 

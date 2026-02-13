@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,7 +20,8 @@ local_pdf: "[[PDFs/2025/2025-Jiao-LLM Ethics Benchmark.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2505.00853.pdf"
 publication: "Scientific Reports"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Establishes a 3D assessment framework (foundational principles, reasoning robustness, value consistency) to evaluate LLM moral reasoning"

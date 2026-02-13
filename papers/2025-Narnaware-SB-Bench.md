@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ tags:
 url: "http://arxiv.org/abs/2502.08779"
 external_pdf: "http://arxiv.org/pdf/2502.08779.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Created SB-Bench (Stereotype Bias Benchmark) for LMMs using *real-world* (non-synthetic) images across 9 categories to test visual stereotype reasoning."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Fenogenova, Alena]]; [[Chervyakov, Artem]]; [[Martynov, Nikita]]; [[
 url: "https://aclanthology.org/2024.acl-long.534/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/6ESQLWPZ/2024 - MERA A Comprehensive LLM Evaluation in Russian.pdf"
 national_ethnic_cultural: Russian
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Russian, General Ethics"
 key_contribution: "Introduced MERA, a comprehensive instruction-tuning benchmark for *Russian* LLMs, covering 21 tasks including ethics and safety."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://www.nature.com/articles/s41598-025-86510-0"
 external_pdf: "https://www.nature.com/articles/s41598-025-86510-0.pdf"
 publication: "Scientific Reports"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Utilitarianism, Moral Turing Test, AI Ethics"
 key_contribution: "Empirical evidence that GPT-4o's ethical advice is rated more favorably than expert human ethicists"

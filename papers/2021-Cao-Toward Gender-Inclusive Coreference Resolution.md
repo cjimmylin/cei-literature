@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1162/coli_a_00415
 url: "https://direct.mit.edu/coli/article/47/3/615/102824/Toward-Gender-Inclusive-Coreference-Resolution-An"
 external_pdf: "https://arxiv.org/pdf/1910.13913v4.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Analyzed the entire ML lifecycle for gender bias in coreference resolution, proposing metrics for 'inclusive' resolution (handling neo-pronouns)."

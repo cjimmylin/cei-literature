@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2502.14296"
 external_pdf: "http://arxiv.org/pdf/2502.14296.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Proposes TrustGen, a dynamic benchmarking platform for evaluating GenFM trustworthiness (safety, fairness, robustness) across text, image, and VLMs"

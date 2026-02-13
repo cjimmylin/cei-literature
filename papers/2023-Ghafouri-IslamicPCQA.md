@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Arash Ghafouri; Hasan Naderi; Mohammad Aghajani asl; Mahdi Firouzmandi
 url: "https://arxiv.org/abs/2304.11664"
 external_pdf: "https://arxiv.org/pdf/2304.11664.pdf"
 national_ethnic_cultural: Iranian
-religious_values: Islam
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: N/A
 newtags: "Iranian, Islam"
 tags: 

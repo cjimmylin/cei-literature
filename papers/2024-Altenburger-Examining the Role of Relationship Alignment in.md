@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2410.01708"
 external_pdf: "http://arxiv.org/pdf/2410.01708.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Evaluated Llama 3's ability to predict and replicate semantic tone differences based on social relationship factors (gender, age, friendship closeness) using Facebook data."

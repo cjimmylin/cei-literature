@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/G3WM3XWB/Rodríguez Louro a
 pdf_extract: "PDF Extracts/2024/2024-Rodríguez Louro-The Yarning Corpus.md"
 local_pdf: "[[PDFs/2024/2024-Rodríguez Louro-The Yarning Corpus.pdf]]"
 national_ethnic_cultural: Australian/Aboriginal
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Australian/Aboriginal
 tags: 

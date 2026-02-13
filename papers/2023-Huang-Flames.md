@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2311.06899"
 external_pdf: "http://arxiv.org/pdf/2311.06899.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
 national_ethnic_cultural: Chinese
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Chinese, AI Safety & Alignment"
 key_contribution: "Benchmarked LLM value alignment in Chinese (FLAMES), focusing on 'harmony' and other specific Chinese values, finding most models perform poorly on safety/fairness."

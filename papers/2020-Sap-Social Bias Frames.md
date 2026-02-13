@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.18653/v1/2020.acl-main.486
 url: "https://www.aclweb.org/anthology/2020.acl-main.486"
 external_pdf: "https://aclanthology.org/2020.acl-main.486.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, Bias & Fairness"
 key_contribution: "Introduced 'Social Bias Frames' (SBIC), a structured formalism to explain *why* something is biased (e.g., 'This implies [group] is [negative trait]'), moving beyond binary 'toxic/not toxic' labels."

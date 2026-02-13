@@ -35,15 +35,23 @@ def get_pdfs_dir():
     return Path(config["pdf_path"])
 
 
-def get_papers_needing_download():
+def parse_date_arg(argv, default="20260207"):
+    """Extract --date YYYYMMDD from argv, or return default."""
+    for i, arg in enumerate(argv):
+        if arg == '--date' and i + 1 < len(argv):
+            return argv[i + 1]
+    return default
+
+
+def get_papers_needing_download(date_added="20260207"):
     """Find all new papers with external_pdf but no local_pdf."""
     papers = []
 
     for f in sorted(PAPERS_DIR.glob("*.md")):
         content = f.read_text(encoding='utf-8')
 
-        # Only process new papers from the exhaustive search import
-        if 'DATE_ADDED: 20260207' not in content:
+        # Only process papers matching the target DATE_ADDED
+        if f'DATE_ADDED: {date_added}' not in content:
             continue
 
         # Check for external_pdf URL
@@ -166,10 +174,13 @@ def update_local_pdf_field(paper_path, pdf_filename):
 
 def main():
     if len(sys.argv) < 3:
-        print("Usage: python3 PYTHON/batch_download_pdfs.py START END [--dry-run]")
+        print("Usage: python3 PYTHON/batch_download_pdfs.py START END [--dry-run] [--date YYYYMMDD]")
         print("  START/END: positions in download queue (1-indexed, inclusive)")
+        print("  --date: filter by DATE_ADDED (default: 20260207)")
         sys.exit(1)
 
+    date_added = parse_date_arg(sys.argv)
+    num_args = [a for a in sys.argv[1:] if not a.startswith("--") and not (sys.argv[sys.argv.index(a)-1] == '--date' if a != sys.argv[1] else False)]
     start = int(sys.argv[1])
     end = int(sys.argv[2])
     dry_run = '--dry-run' in sys.argv
@@ -180,7 +191,8 @@ def main():
         sys.exit(1)
 
     # Get all papers needing downloads
-    all_papers = get_papers_needing_download()
+    print(f"Filtering by DATE_ADDED: {date_added}")
+    all_papers = get_papers_needing_download(date_added)
     print(f"Total papers needing PDF download: {len(all_papers)}")
 
     # Select batch

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2302.04752"
 external_pdf: "http://arxiv.org/pdf/2302.04752.pdf"
 publication: "ACM Computing Surveys"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 pdf_extract: "PDF Extracts/2023/2023-Davis-Benchmarks for Automated Commonsense Reasoning.md"

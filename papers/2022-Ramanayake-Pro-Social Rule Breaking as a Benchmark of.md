@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1007/s44206-022-00001-7
 url: "https://link.springer.com/10.1007/s44206-022-00001-7"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ITG56NXR/Ramanayake and Nallur - 2022 - Pro-Social Rule Breaking as a Benchmark of Ethical Intelligence in Socio-Technical Systems.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Argues for 'pro-social rule breaking' as a benchmark for ethical intelligence in AI systems, moving beyond simple rule-following."

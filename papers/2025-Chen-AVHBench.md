@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Kim Sung-Bin; Oh Hyun-Bin; JungMok Lee; Arda Senocak; Joon Son Chung; 
 url: "https://arxiv.org/abs/2410.18325"
 external_pdf: "https://arxiv.org/pdf/2410.18325.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 tags: 

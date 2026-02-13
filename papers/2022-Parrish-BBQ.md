@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.18653/v1/2022.findings-acl.165
 url: "https://aclanthology.org/2022.findings-acl.165/"
 external_pdf: "https://aclanthology.org/2022.findings-acl.165.pdf"
 national_ethnic_cultural: American
-religious_values: N/A
+religious_values: "Islam, Christianity"
+religious_values_list: "Islam, Christianity"
 moral_psychology: N/A
 newtags: "American, Bias & Fairness"
 key_contribution: "Introduced BBQ (Bias Benchmark for QA), a hand-built dataset highlighting social biases against protected classes in US English contexts, testing responses in under-informative vs. informative settings."

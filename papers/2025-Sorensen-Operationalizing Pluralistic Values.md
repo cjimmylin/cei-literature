@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,7 +21,8 @@ external_pdf: "https://arxiv.org/pdf/2511.14476.pdf"
 publication: arXiv
 ethics_perspective: "Value Pluralism"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Deontology, Value Pluralism, AI Alignment, Safety Trade-offs"
 key_contribution: "Reveals trade-offs between safety, inclusivity, and model behavior when aligning LLMs with pluralistic values"

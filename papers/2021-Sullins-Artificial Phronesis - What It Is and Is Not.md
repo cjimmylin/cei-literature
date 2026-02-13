@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1093/oso/9780190081713.003.0015
 url: "https://academic.oup.com/book/41621/chapter-abstract/353452047"
 publication: "Science, Technology, and Virtues: Contemporary Perspectives (Oxford University Press)"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 

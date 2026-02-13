@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.48550/arXiv.2404.10000
 url: "https://arxiv.org/abs/2404.10000"
 external_pdf: "https://arxiv.org/pdf/2404.10000.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Utilitarianism, Social Choice Theory, Value Alignment"
 key_contribution: "Applies social choice theory and mechanism design to aggregate diverse human feedback for AI alignment, offering a framework for collective preference aggregation"

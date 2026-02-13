@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Abhimanyu Pallavi Sudhir; Jackson Kaunismaa; Arjun Panickssery"
 url: "https://arxiv.org/abs/2504.03731"
 external_pdf: "https://arxiv.org/pdf/2504.03731.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed a benchmark for 'scalable oversight' protocols (like Debate), introducing 'Agent Score Difference' (ASD) to measure if a protocol helps truth-telling over deception."

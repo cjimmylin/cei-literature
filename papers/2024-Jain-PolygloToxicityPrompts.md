@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2405.09373"
 external_pdf: "http://arxiv.org/pdf/2405.09373.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Jainism"
+religious_values_list: "Jainism"
 moral_psychology: N/A
 newtags: "Toxicity & Hate Speech"
 key_contribution: "Released PTP, a dataset of 425k naturally occurring toxic prompts across 17 languages, derived from a 100M document crawl."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://www.nature.com/articles/s41599-020-00614-8"
 external_pdf: "https://www.nature.com/articles/s41599-020-00614-8.pdf"
 publication: "Humanities and Social Sciences Communications"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: Yes
 newtags: "Machine Ethics, Utilitarianism, Deontology, Virtue Ethics, Moral Enhancement"
 key_contribution: "Systematically compares Kantian, utilitarian, and virtue ethical approaches to machine ethics, demonstrating fundamental limitations of each for creating truly moral AI"

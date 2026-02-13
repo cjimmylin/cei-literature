@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Lee, Hwaran]]; [[Hong, Seokhee]]; [[Park, Joonsuk]]; [[Kim, Takyoung
 url: "https://aclanthology.org/2023.acl-industry.21/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/QM5QX7X7/2023 - KoSBI A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Applications.pdf"
 national_ethnic_cultural: Korean
-religious_values: N/A
+religious_values: "Judaism"
+religious_values_list: "Judaism"
 moral_psychology: N/A
 newtags: "Korean, Bias & Fairness"
 key_contribution: "Created KoSBI, a Korean social bias dataset (34k samples, 72 groups), finding that localized data reduces bias by ~16% in Korean LLMs."

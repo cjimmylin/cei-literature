@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Dongzhi Jiang; Renrui Zhang; Ziyu Guo; Yanwei Li; Yu Qi; Xinyan Chen; 
 url: "https://arxiv.org/abs/2502.09621"
 external_pdf: "https://arxiv.org/pdf/2502.09621.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 tags: 

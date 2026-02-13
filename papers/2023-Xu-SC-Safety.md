@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2310.05818"
 external_pdf: "http://arxiv.org/pdf/2310.05818.pdf"
 publication: arXiv.org
 national_ethnic_cultural: Chinese
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Chinese, AI Safety & Alignment"
 key_contribution: "Benchmark (SuperCLUE-Safety) for Chinese LLMs, testing open-ended questions across 20 safety dimensions with adversarial interactions."

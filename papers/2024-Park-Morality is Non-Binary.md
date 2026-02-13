@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ local_pdf: "[[PDFs/2024/2024-Park-Morality is Non-Binary.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2401.17228.pdf"
 publication: Findings
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Builds a 'pluralist moral sentence embedding space' using contrastive learning to capture multiple moral elements rather than binary right/wrong"

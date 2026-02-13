@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/KV9GGDEF/Jain and others - 
 pdf_extract: [[2025-Banerjee-SafeInfer]]
 local_pdf: "[[PDFs/2025/2025-Banerjee-SafeInfer.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed 'SafeInfer' for inference-time safety alignment (decoding adaptation)."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Xuhui Ji"
 url: "https://ceur-ws.org/Vol-3547/paper3.pdf"
 external_pdf: "https://ceur-ws.org/Vol-3547/paper3.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Released Commonsense Norm Bank, a dataset of 1.7 million moral judgments aimed at supporting generative moral reasoning."

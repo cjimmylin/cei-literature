@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.2196/preprints.72646
 url: "https://preprints.jmir.org/preprint/72646"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/7B3HX5KJ/Yesil - 2025 - Yesil o1 Pro Evidence-Based AI Model for Health and Benchmarking in Clinical Decision Support.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 key_contribution: "Describes a specialized medical model 'Yesil o1 Pro' for clinical decision support."

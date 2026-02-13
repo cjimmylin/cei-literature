@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2503.15484"
 external_pdf: "http://arxiv.org/pdf/2503.15484.pdf"
 publication: "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed using 'value profiles' (compressed natural language descriptions of underlying values) to model human variation in rating tasks, rather than just demographics."

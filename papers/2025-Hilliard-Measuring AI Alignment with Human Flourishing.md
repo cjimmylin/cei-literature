@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Flourishing AI Benchmark, virtue"
@@ -17,7 +18,8 @@ url: "https://arxiv.org/abs/2507.07787"
 local_pdf: "[[PDFs/2025/2025-Hilliard-Measuring AI Alignment with Human Flourishing.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2507.07787.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Virtue Ethics, Utilitarianism"
 key_contribution: "Introduces the Flourishing AI Benchmark (FAI) to evaluate AI against 7 dimensions of eudaimonic well-being rather than just harm prevention"

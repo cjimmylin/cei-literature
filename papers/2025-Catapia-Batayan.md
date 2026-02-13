@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Jann Railey Montalan; Jimson Paulo Layacan; David Demitri Africa; Rich
 url: "https://arxiv.org/abs/2502.14911"
 external_pdf: "https://arxiv.org/pdf/2502.14911.pdf"
 national_ethnic_cultural: Filipino
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Filipino, Bias & Fairness"
 key_contribution: "Created Batayan, a holistic Filipino NLP benchmark covering understanding, reasoning, and generation, designed to alleviate 'translationese' bias in existing corpora."

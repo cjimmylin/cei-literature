@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Tinh Son Luong; Thanh-Thien Le; Linh Ngo Van; Thien Huu Nguyen"
 url: "https://arxiv.org/abs/2405.10659"
 external_pdf: "https://arxiv.org/pdf/2405.10659.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Toxicity & Hate Speech"
 key_contribution: "Introduced the Thoroughly Engineered Toxicity (TET) dataset, comprising prompts manually designed to bypass safety filters and elicit toxic responses from LLMs."

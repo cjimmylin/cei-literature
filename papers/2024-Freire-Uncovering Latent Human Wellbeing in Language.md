@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2402.11777"
 external_pdf: "http://arxiv.org/pdf/2402.11777.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Explores if LLMs implicitly learn human wellbeing concepts, finding that PCA on embeddings (without fine-tuning) predicts ETHICS Utilitarianism tasks with high accuracy"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1007/s44443-025-00128-w
 url: "https://link.springer.com/10.1007/s44443-025-00128-w"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/4NPM5GIF/Aleid and Azmi - 2025 - Hajj-FQA A benchmark Arabic dataset for developing question-answering systems on Hajj fatwas.pdf"
 national_ethnic_cultural: Arabic
-religious_values: Islam
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: N/A
 newtags: "Arabic, Islam, Utilitarianism"
 key_contribution: "Introduces Hajj-FQA, a benchmark Arabic dataset for question answering on Hajj fatwas to develop specialized religious chatbots"

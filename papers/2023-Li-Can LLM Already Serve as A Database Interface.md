@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2305.03111"
 external_pdf: "http://arxiv.org/pdf/2305.03111.pdf"
 publication: "Neural Information Processing Systems"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Hallucination & Truthfulness"
 key_contribution: "Presented BIRD, a large-scale Text-to-SQL benchmark emphasizing 'dirty' database values and external knowledge grounding, pushing models beyond clean schema matching."

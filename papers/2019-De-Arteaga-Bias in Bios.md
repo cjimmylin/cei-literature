@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1145/3287560.3287572
 url: "http://arxiv.org/abs/1901.09451"
 external_pdf: "http://arxiv.org/pdf/1901.09451.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Analyzed gender bias in occupation classification of online biographies, quantifying the harms of 'semantic representation bias' (e.g., names/pronouns)."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1145/3339904
 url: "https://dl.acm.org/doi/10.1145/3339904"
 external_pdf: "https://dl.acm.org/doi/pdf/10.1145/3339904"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Introduced the Moral Machine platform, a global crowdsourcing experiment to gather human perspectives on how autonomous machines should handle moral dilemmas."

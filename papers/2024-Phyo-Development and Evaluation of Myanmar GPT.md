@@ -1,0 +1,78 @@
+---
+
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0474
+type: preprint
+short_title: "Development and Evaluation of Myanmar GPT"
+year: 2024
+first_author: "[[Min Si Thu, Pyae Sone Phyo]]"
+last_author: "[[Min Si Thu, Pyae Sone Phyo]]"
+authors: "[[Min Si Thu, Pyae Sone Phyo]]"
+authors_incomplete: false
+url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4871732"
+external_pdf: ""
+local_pdf: "N/A"
+pdf_extract: ""
+publication: SSRN
+DATE_ADDED: 20260213
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+tags: 
+abstract: "Transformer-based language model specifically designed for Myanmar NLP. Trained on a private Myanmar language dataset, demonstrating improvements in text classification, translation, and generation tasks compared to existing models. First Myanmar-specific GPT model with evaluation. Foundation model for future Myanmar values/ethics evaluation."
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://huggingface.co/jojo-ai-mst/MyanmarGPT"
+research_topic: "NLP & Representation Learning"
+---
+# Development and Evaluation of Myanmar GPT: A Language Model for Myanmar Natural Language Processing
+
+## Authors
+
+[[Min Si Thu, Pyae Sone Phyo]]
+
+## Metadata
+
+**Authors:** Min Si Thu, Pyae Sone Phyo
+
+**Year:** 2024
+
+**Type:** preprint
+
+**Venue:** SSRN
+
+## Links
+
+- **URL:** https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4871732
+- **Code/Data:** https://huggingface.co/jojo-ai-mst/MyanmarGPT
+
+## Abstract
+
+Transformer-based language model specifically designed for Myanmar NLP. Trained on a private Myanmar language dataset, demonstrating improvements in text classification, translation, and generation tasks compared to existing models. First Myanmar-specific GPT model with evaluation. Foundation model for future Myanmar values/ethics evaluation.
+
+## Benchmark
+
+**Name:** MyanmarGPT
+
+## Notes
+
+**Source:** Religious & Language Search (2026-02-13), A4
+**Implementation Readiness:** MEDIUM
+
+## Tags

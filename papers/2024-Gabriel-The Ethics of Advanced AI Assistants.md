@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2404.16244"
 external_pdf: "http://arxiv.org/pdf/2404.16244.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Provides a comprehensive ethical analysis of 'advanced AI assistants' (agentic LLMs), covering value alignment, user manipulation, and societal-scale impacts"

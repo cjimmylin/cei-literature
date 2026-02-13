@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2410.05496"
 external_pdf: "http://arxiv.org/pdf/2410.05496.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Compares 'Utilitarian Sum' vs. 'Contractualist Nash Product' for preference aggregation, finding that humans strongly prefer the contractualist approach despite AI/decision theory favoring utilitarianism"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1038/s41746-024-01366-4
 url: "https://www.nature.com/articles/s41746-024-01366-4"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/MQMSE9SR/Gu et al. - 2024 - Probabilistic medical predictions of large language models.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 tags: 

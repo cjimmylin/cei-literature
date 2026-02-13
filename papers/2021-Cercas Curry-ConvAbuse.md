@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ url: "https://aclanthology.org/2021.emnlp-main.587/"
 local_pdf: "[[PDFs/2021/2021-Cercas Curry-ConvAbuse.pdf]]"
 external_pdf: "https://aclanthology.org/2021.emnlp-main.587.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Creates a dataset of abusive language towards conversational AI, reflecting fine-grained notions of abuse and expert views"

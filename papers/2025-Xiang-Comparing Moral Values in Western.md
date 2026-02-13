@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2505.19674"
 external_pdf: "http://arxiv.org/pdf/2505.19674.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Used 'Word Associations' (projective testing) to probe implicit moral values in LLMs, finding they lack the 'visceral' associations of humans and are biased towards WEIRD values (Care/Fairness)."

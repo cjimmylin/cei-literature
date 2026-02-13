@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Gehman, Samuel]]; [[Gururangan, Suchin]]; [[Sap, Maarten]]; [[Choi, 
 url: "https://aclanthology.org/2020.findings-emnlp.301/"
 external_pdf: "https://arxiv.org/pdf/2009.11462v2.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Toxicity & Hate Speech"
 key_contribution: "Released RealToxicityPrompts, a dataset of 100k naturally occurring sentence prompts to evaluate the extent of neural toxic degeneration in pretrained LMs."

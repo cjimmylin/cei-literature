@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1007/s10676-025-09837-2
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12137480/"
 publication: "Ethics and Information Technology"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "RLHF, RLAIF, HHH-Principle, AI-Safety, Sociotechnical, Values-Alignment"
 key_contribution: "Critical analysis showing tensions between HHH goals; RLHF insufficient alone for AI safety"

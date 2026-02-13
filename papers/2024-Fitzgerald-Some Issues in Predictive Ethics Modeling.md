@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Ben Fitzgerald"
 url: "https://arxiv.org/abs/2407.05244"
 external_pdf: "https://arxiv.org/pdf/2407.05244.pdf"
 national_ethnic_cultural: American
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "American, Bias & Fairness"
 key_contribution: "Showed that 'Predictive Ethics' models (like Delphi) are easily broken by adversarial 'contrast sets' – changing 3-5 words can flip the label, and they over-rely on textual bias rather than reasoning."

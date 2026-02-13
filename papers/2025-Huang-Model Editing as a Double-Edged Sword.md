@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2506.20606"
 external_pdf: "http://arxiv.org/pdf/2506.20606.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Frames agent behavior steering as a 'model editing' task (Behavior Editing) and introduces BEHAVIORBENCH to evaluate edits for beneficence or harm"

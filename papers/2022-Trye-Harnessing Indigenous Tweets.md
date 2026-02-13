@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1007/s10579-022-09580-w
 url: "https://link.springer.com/10.1007/s10579-022-09580-w"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10579-022-09580-w.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 tags: 

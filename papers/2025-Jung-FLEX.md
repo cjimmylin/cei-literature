@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Jung, Dahyun]]; [[Lee, Seungyoon]]; [[Moon, Hyeonseok]]; [[Park, Cha
 url: "https://aclanthology.org/2025.findings-naacl.199/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/M5J3WHBS/2025 - FLEX A Benchmark for Evaluating Robustness of Fairness in Large Language Models.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Introduced FLEX, a fairness benchmark designed to test LLM robustness under 'extreme scenarios' (adversarial prompts that attempt to induce bias)."

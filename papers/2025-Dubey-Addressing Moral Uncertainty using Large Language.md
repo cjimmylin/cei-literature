@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ local_pdf: "[[PDFs/2025/2025-Dubey-Addressing Moral Uncertainty using Large Lang
 external_pdf: "http://arxiv.org/pdf/2503.05724.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Presents Ethical-RL, a framework using LLMs to provide feedback based on consequentialist, deontological, and virtue ethics, aggregated via Belief Jensen-Shannon Divergence"

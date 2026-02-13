@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,8 @@ last_author: "[[Kenji Araki]]"
 authors: "Masashi Takeshita; Rafal Rzepka; Kenji Araki"
 external_pdf: "http://arxiv.org/pdf/2306.11432"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Implemented 'Maximizing Expected Choiceworthiness' (MEC), an algorithm that aggregates value judgments from multiple normative theories (Utilitarianism, Deontology, etc.) to handle moral uncertainty."

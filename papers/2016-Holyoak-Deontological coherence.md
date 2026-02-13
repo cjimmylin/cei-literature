@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://doi.apa.org/doi/10.1037/bul0000075"
 local_pdf: "[[PDFs/2016/2016-Holyoak-Deontological coherence.pdf]]"
 external_pdf: "https://reasoninglab.psych.ucla.edu/wp-content/uploads/sites/273/2021/04/Holyoak_Powell.2016.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Proposes 'Deontological Coherence' framework where moral judgments emerge from coherence maximization between duties, consequences, and causal structure"

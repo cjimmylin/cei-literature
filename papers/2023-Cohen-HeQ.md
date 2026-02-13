@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.18653/v1/2023.findings-emnlp.915
 url: "https://aclanthology.org/2023.findings-emnlp.915/"
 external_pdf: "https://aclanthology.org/2023.findings-emnlp.915.pdf"
 national_ethnic_cultural: Hebrew/Israeli
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Hebrew/Israeli
 tags: 

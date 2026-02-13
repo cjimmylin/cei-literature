@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Zhexin Zhang; Leqi Lei; Lindong Wu; Rui Sun; Yongkang Huang; Chong Lon
 url: "https://arxiv.org/abs/2309.07045"
 external_pdf: "https://arxiv.org/pdf/2309.07045.pdf"
 national_ethnic_cultural: Chinese
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Chinese, AI Safety & Alignment"
 key_contribution: "Released SafetyBench, a comprehensive benchmark of 11k questions covering 7 safety categories (e.g., offense, ethics, physical harm) in both Chinese and English."

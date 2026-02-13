@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Prannay Kaul; Zhizhong Li; Hao Yang; Yonatan Dukler; Ashwin Swaminatha
 url: "https://arxiv.org/abs/2405.05256"
 external_pdf: "https://arxiv.org/pdf/2405.05256.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 tags: 

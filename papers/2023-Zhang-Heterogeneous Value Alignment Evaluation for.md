@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Zhaowei Zhang; Ceyao Zhang; Nian Liu; Siyuan Qi; Ziqi Rong; Song-Chun 
 url: "https://arxiv.org/abs/2305.17147"
 external_pdf: "https://arxiv.org/pdf/2305.17147.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Proposes HVAE (Heterogeneous Value Alignment Evaluation) system using Social Value Orientation (SVO) from psychology to assess if LLMs can align with assigned value profiles"

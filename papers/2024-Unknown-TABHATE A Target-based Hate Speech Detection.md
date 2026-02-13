@@ -1,0 +1,78 @@
+---
+
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0531
+type: preprint
+short_title: "TABHATE A Target-based Hate Speech Detection"
+year: 2024
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
+url: "https://link.springer.com/article/10.1007/s13278-024-01355-1"
+external_pdf: ""
+local_pdf: "N/A"
+pdf_extract: ""
+publication: Springer (Social Network Analysis and Mining)
+DATE_ADDED: 20260213
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indian"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+tags: 
+abstract: "Target-based hate speech detection dataset in Hindi using deep learning and transformer models for hate speech detection. Target-based hate speech detection for Hindi with cultural targeting annotations."
+data_description: "Dataset"
+data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: ""
+ethics_perspective: "Toxicity & Hate Speech"
+---
+# TABHATE: A Target-based Hate Speech Detection Dataset in Hindi
+
+## Authors
+
+Unknown
+
+## Metadata
+
+**Authors:** Unknown
+
+**Year:** 2024
+
+**Type:** preprint
+
+**Venue:** Springer (Social Network Analysis and Mining)
+
+## Links
+
+- **DOI:** https://doi.org/10.1007/s13278-024-01355-1
+- **URL:** https://link.springer.com/article/10.1007/s13278-024-01355-1
+
+## Abstract
+
+Target-based hate speech detection dataset in Hindi using deep learning and transformer models for hate speech detection. Target-based hate speech detection for Hindi with cultural targeting annotations.
+
+## Benchmark
+
+**Name:** TABHATE
+
+## Notes
+
+**Source:** Religious & Language Search (2026-02-13), A1
+**Implementation Readiness:** MEDIUM
+
+## Tags

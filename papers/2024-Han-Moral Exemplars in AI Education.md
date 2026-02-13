@@ -1,5 +1,6 @@
 ---
 
+
 Human View: false
 Not AI: 
 key: AUTO_HAN2024
@@ -13,7 +14,8 @@ doi: N/A
 url: "https://www.researchgate.net/publication/380001142"
 local_pdf: "[[PDFs/2024/2024-Han-Moral Exemplars in AI Education.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: Yes
 newtags: "Moral Exemplars, Virtue Ethics, AI Education, ChatGPT, Neural Networks"
 key_contribution: "Demonstrates moral exemplar-based learning is necessary (not just useful) for moral education, drawing insights from AI/LLM training showing exemplar-based learning outperforms rule-based"

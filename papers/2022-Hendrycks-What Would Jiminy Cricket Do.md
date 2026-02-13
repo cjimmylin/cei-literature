@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.48550/arXiv.2110.13136
 url: "http://arxiv.org/abs/2110.13136"
 external_pdf: "http://arxiv.org/pdf/2110.13136.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Created 'Jiminy Cricket', a suite of 25 text-based adventure games with thousands of annotated moral scenarios to evaluate whether agents can act morally while maximizing rewards."

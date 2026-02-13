@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.18653/v1/2021.acl-long.4
 url: "https://aclanthology.org/2021.acl-long.4/"
 external_pdf: "https://aclanthology.org/2021.acl-long.4.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Introduces HateCheck, a suite of functional tests for hate speech detection models, moving beyond simple F1/accuracy metrics"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ url: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/48726631f873220
 external_pdf: "file:///Users/jimmylin/Zotero/storage/MWSLHSCV/2024 - tSMC A Toolbox for Safety-Aware Multi-Agent Reinforcement Learning.pdf"
 local_pdf: "[[PDFs/2024/2024-Zhou-tSMC.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Developed the tSMC framework to evaluate and mitigate position and selection biases in LLM moral consistency evaluations, allowing for a more accurate assessment of 'Intrinsic Symmetric Moral Consistency'."

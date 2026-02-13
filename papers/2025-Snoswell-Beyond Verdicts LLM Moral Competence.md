@@ -1,5 +1,6 @@
 ---
 
+
 Human View: false
 Not AI: 
 key: AUTO_SNOSWELL2025
@@ -13,7 +14,8 @@ doi: N/A
 url: "https://philarchive.org/rec/SNOBVE"
 local_pdf: "[[PDFs/2025/2025-Snoswell-Beyond Verdicts LLM Moral Competence.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: Yes
 newtags: "Moral Competence, LLM Evaluation, Moral Sensitivity, Virtue Ethics, AI Ethics Survey"
 key_contribution: "Comprehensive survey of 69 LLM ethical evaluation papers (2020-2025), identifies systematic limitations in moral reasoning assessment"

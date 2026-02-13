@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2308.14752"
 external_pdf: "http://arxiv.org/pdf/2308.14752.pdf"
 publication: Patterns
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: N/A
 newtags: 
 tags: 

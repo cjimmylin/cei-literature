@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Maria Molchanova; Anna Mikhailova; Anna Korzanova; Lidiia Ostyakova; A
 url: "https://arxiv.org/abs/2502.08265"
 external_pdf: "https://arxiv.org/pdf/2502.08265.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Evaluated LLMs on their ability to simulate Big Five personality traits, providing a dataset of generated texts aligned with specific traits."

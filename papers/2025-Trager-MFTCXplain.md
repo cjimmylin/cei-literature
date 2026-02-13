@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2506.19073"
 external_pdf: "http://arxiv.org/pdf/2506.19073.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: "Iranian, Italian, Brazilian"
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: "Iranian, Italian, Brazilian, Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Created MFTCXplain, a multilingual benchmark for evaluating moral reasoning in LLMs via hate speech multi-hop explanations based on Moral Foundation Theory."

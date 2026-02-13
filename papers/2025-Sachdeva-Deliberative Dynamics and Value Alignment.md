@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,7 +19,8 @@ doi: 10.48550/arXiv.2510.10002
 url: "https://arxiv.org/abs/2510.10002"
 external_pdf: "https://arxiv.org/pdf/2510.10002.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Analyzes multi-turn LLM debates on 1,000 Reddit dilemmas to study deliberative dynamics"

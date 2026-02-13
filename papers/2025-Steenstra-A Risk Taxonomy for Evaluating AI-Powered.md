@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Ian Steenstra; Timothy W. Bickmore"
 url: "https://arxiv.org/abs/2505.15108"
 external_pdf: "https://arxiv.org/pdf/2505.15108.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Applied Ethics"
 key_contribution: "Developed a comprehensive risk ontology/taxonomy for evaluating AI-driven psychotherapy agents, aligned with clinical and legal standards."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://link.springer.com/article/10.1007/s13347-025-00861-0"
 external_pdf: "https://arxiv.org/pdf/2407.17482.pdf"
 publication: "Philosophy & Technology"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "RLHF, Value Pluralism, Social Epistemology"
 key_contribution: "Argues for epistemic and ethical pluralism in RLHF to address value diversity"

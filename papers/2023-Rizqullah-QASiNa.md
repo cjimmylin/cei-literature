@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2310.08102"
 external_pdf: "http://arxiv.org/pdf/2310.08102.pdf"
 publication: "2023 10th International Conference on Advanced Informatics: Concept, Theory and Application (ICAICTA)"
 national_ethnic_cultural: Indonesian
-religious_values: Islam
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: N/A
 newtags: "Indonesian, Islam"
 pdf_extract: "PDF Extracts/2023/2023-Rizqullah-QASiNa.md"

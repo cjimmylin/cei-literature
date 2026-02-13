@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2411.11479"
 external_pdf: "http://arxiv.org/pdf/2411.11479.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "'Value-Spectrum' – a Video QA benchmark using Schwartz values to test VLM preferences on social media videos (TikTok, etc.)."

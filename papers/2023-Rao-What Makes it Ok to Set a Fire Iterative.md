@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Rao, Kavel]]; [[Jiang, Liwei]]; [[Pyatkin, Valentina]]; [[Gu, Yuling
 url: "https://aclanthology.org/2023.findings-emnlp.812/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/V233P2RS/2023 - What Makes it Ok to Set a Fire Iterative Self-Distillation of Contexts and Rationales for Disambigu.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Introduced 'defeasible moral reasoning' – a task and dataset (delta-RoT) where the moral acceptability of an action depends on context (e.g., setting a fire is bad, unless it's a backfire to stop a wildfire)."

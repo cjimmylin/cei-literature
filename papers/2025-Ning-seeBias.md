@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Yilin Ning; Yian Ma; Mingxuan Liu; Xin Li; Nan Liu"
 url: "https://arxiv.org/abs/2504.08418"
 external_pdf: "https://arxiv.org/pdf/2504.08418.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Introduced seeBias, an R package for integrated visualization and assessment of fairness, calibration, and predictive performance."

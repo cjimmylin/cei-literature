@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Shalaka Satheesh; Katrin Klug; Katharina Beckh; Héctor Allende-Cid; S
 url: "https://arxiv.org/abs/2507.16410"
 external_pdf: "https://arxiv.org/pdf/2507.16410.pdf"
 national_ethnic_cultural: German
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "German, Bias & Fairness"
 key_contribution: "Translated the BBQ benchmark into German (GG-BBQ), addressing the linguistic challenges of grammatical gender in bias evaluation."

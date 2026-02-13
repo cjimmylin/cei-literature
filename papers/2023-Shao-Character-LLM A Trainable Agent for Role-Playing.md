@@ -1,5 +1,6 @@
 ---
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Can simulate historical characters"
@@ -15,7 +16,8 @@ url: "https://aclanthology.org/2023.emnlp-main.814/"
 local_pdf: "[[PDFs/2023/2023-Shao-Character-LLM A Trainable Agent for Role-Playing.pdf]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/J3VV4C8K/2023 - Character-LLM A Trainable Agent for Role-Playing.pdf"
 national_ethnic_cultural: American
-religious_values: N/A
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: N/A
 newtags: "American, Virtue Ethics"
 key_contribution: "Introduces 'Character-LLM', a trainable agent framework that edits profiles as experiences to simulate specific human characters (simulacra)"

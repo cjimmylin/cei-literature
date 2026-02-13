@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: Maarten Wilders; Inigo Martinez de Rituerto de Troya; Roel Dobbe
 url: "https://ojs.aaai.org/index.php/AIES/article/view/36748"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/1607.06520"
 external_pdf: "http://arxiv.org/pdf/1607.06520.pdf"
 publication: "Proceedings of the 30th Conference on Neural Information Processing Systems (NIPS 2016)"
 national_ethnic_cultural: American
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "American, Bias & Fairness"
 key_contribution: "The seminal paper identifying gender bias in word embeddings (e.g., 'Man is to Computer Programmer as Woman is to Homemaker') and proposing debiasing algorithms."

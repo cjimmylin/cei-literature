@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1007/s00521-025-11229-y
 url: "https://neuralcomputingjournals.com/aftina-fatwaqa"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/VQU5HCPT/Mohammed and others - 2025 - Aftina Arabic Fatwa QA Benchmark for Islamic Jurisprudence.pdf"
 national_ethnic_cultural: Arabic
-religious_values: Islam
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: N/A
 newtags: "Arabic, Islam"
 tags: 

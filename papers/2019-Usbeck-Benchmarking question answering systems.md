@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.3233/SW-180312
 url: "https://journals.sagepub.com/doi/full/10.3233/SW-180312"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/76ZVQIXB/Usbeck et al. - 2019 - Benchmarking question answering systems.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: N/A
 newtags: 
 tags: 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ doi: 10.1098/rsos.231393
 url: "https://royalsocietypublishing.org/doi/10.1098/rsos.231393"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/XC5F78B6/Takemoto - 2024 - The moral machine experiment on large language models.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Trolley / Dilemmas (Psych), Machine Ethics"
 key_contribution: "Replicated the Moral Machine Experiment (trolley problems) on LLMs (GPT-4, PaLM, Llama), comparing their choices to human preferences."

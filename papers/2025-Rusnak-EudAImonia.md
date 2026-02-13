@@ -1,5 +1,6 @@
 ---
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics in AI, Christian"
@@ -14,7 +15,8 @@ authors: "[[Rusnak, Alexander]]; [[Seals, Zachary]]"
 doi: N/A
 url: "https://iscast.org/journal/cposat/"
 national_ethnic_cultural: N/A
-religious_values: Christianity
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Christianity, Value Pluralism / Schwartz, Virtue Ethics"
 key_contribution: "Proposes the 'EudAImonia' framework to integrate virtue ethics into AI systems for moral wisdom and flourishing"

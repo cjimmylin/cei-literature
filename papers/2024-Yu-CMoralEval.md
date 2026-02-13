@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "https://aclanthology.org/2024.findings-acl.703/"
 local_pdf: [[PDFs/2024/2024-Yu-CMoralEval.pdf]]
 external_pdf: "file:///Users/jimmylin/Zotero/storage/B24568AJ/Yu et al. - 2024 - CMoralEval A Moral Evaluation Benchmark for Chinese Large Language Models.pdf"
 national_ethnic_cultural: "Chinese, American"
-religious_values: N/A
+religious_values: "Confucianism"
+religious_values_list: "Confucianism"
 moral_psychology: N/A
 newtags: "Chinese, American, Deontology"
 key_contribution: "Creates a moral evaluation benchmark (CMoralEval) for Chinese LLMs based on explicit moral norms and anomies"

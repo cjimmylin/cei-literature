@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2107.00061"
 external_pdf: "http://arxiv.org/pdf/2107.00061.pdf"
 publication: "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL 2021)"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 local_pdf: "[[PDFs/2021/2021-Clark-All That's 'Human' Is Not Gold.pdf]]"

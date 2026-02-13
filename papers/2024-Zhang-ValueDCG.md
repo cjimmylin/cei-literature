@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.48550/arXiv.2310.00378
 url: "http://arxiv.org/abs/2310.00378"
 external_pdf: "http://arxiv.org/pdf/2310.00378.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Developed ValueDCG, a metric to distinguish between an LLM's 'know what' (superficial knowledge) and 'know why' (deep understanding) of human values."

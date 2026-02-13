@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Hu, Minda]]; [[Li, Muzhi]]; [[Wang, Yasheng]]; [[King, Irwin]]"
 url: "https://aclanthology.org/2022.emnlp-main.291/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/FG497RSQ/2022 - “I’m sorry to hear that” Finding New Biases in Language Models with a Holistic Descriptor Dataset.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 tags: 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ external_pdf: "https://arxiv.org/pdf/2501.05765.pdf"
 local_pdf: "[[PDFs/2025/2025-Priya-Deontic Temporal Logic for AI Ethics.pdf]]"
 publication: arXiv
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Deontic-Logic, Formal-Methods, AI-Ethics, Temporal-Logic, Fairness"
 key_contribution: "Proposes formal methods using deontic + temporal logic for specifying and verifying AI ethical behavior over time"

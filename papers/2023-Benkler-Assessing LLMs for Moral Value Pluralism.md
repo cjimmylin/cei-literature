@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2312.10075"
 external_pdf: "http://arxiv.org/pdf/2312.10075.pdf"
 publication: arXiv.org
 national_ethnic_cultural: American
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "American, Value Pluralism / Schwartz, Social & Cultural Values"
 key_contribution: "Used the 'Recognizing Value Resonance' (RVR) model to identify implicit values in LLM text, quantifying 'moral distance' from World Values Survey (WVS) demographics."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Giulio Antonio Abbo; Tony Belpaeme; Micol Spitale"
 url: "https://arxiv.org/abs/2501.05628"
 external_pdf: "https://arxiv.org/pdf/2501.05628.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Validated key ethical values in Human-Robot Interaction (healthcare/education/home) via expert focus groups and developed the 'HRI Value Compass' web tool for designers."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2408.01460"
 external_pdf: "http://arxiv.org/pdf/2408.01460.pdf"
 publication: arXiv.org
 national_ethnic_cultural: Australian/Aboriginal
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Australian/Aboriginal, AI Safety & Alignment"
 key_contribution: "Introduced LocalValueBench to evaluate LLM alignment with Australian and Aboriginal values, using a novel typology for testing 'localized' ethical reasoning."

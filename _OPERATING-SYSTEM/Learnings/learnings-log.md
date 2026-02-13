@@ -1,5 +1,5 @@
 # Learnings Log
-*Last updated: 2026-02-12*
+*Last updated: 2026-02-13*
 
 ---
 
@@ -31,6 +31,18 @@
 - Include context (what triggered the learning)
 - Note edge cases and exceptions
 - Link to relevant Standards/ files if applicable
+
+---
+
+## 2026-02-13
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-13 | Workflows | **Multi-Format Agent Consolidation Pipeline:** When consolidating search results from agents using different output formats (markdown R-agents vs JSON A-agents), build format-specific parsers that normalize to a unified schema, then apply a single dedup/QC pipeline. R-agent markdown: regex `### \d+\. Title` + `- \*\*Key:\*\* Value` is robust across 10 reports. A-agent JSON: `papers_found` array with direct field access. The 3-tier dedup engine (DOI → arXiv ID → title word overlap ≥85%) with Union-Find grouping handles cross-format dedup well. Script: `PYTHON/consolidate_religious_language_search.py`. |
+| 2026-02-13 | Workflows | **--date CLI Arg Pattern for Batch Scripts:** Four batch scripts had hardcoded `DATE_ADDED: 20260207` filters. Adding `parse_date_arg(argv, default="20260207")` with module-level or parameter-based date passing makes them reusable for future imports. For `comprehensive_pdf_finder.py`, the date must be a module-level global (`_DATE_ADDED`) since `get_papers_needing_pdfs()` is called from multiple places (retry path, normal path). For the other 3 scripts, the date parameter approach is cleaner. |
+| 2026-02-13 | Classification | **Heuristic Classifier Sets Tradition Names, Not Binary Yes/No:** The Stage 5 religious values classifier (`classify_cultural_religious.py`) sets `religious_values` to the specific tradition name (e.g., "Islam", "Buddhism", "Christianity") rather than "Yes"/"No". This is different from other classification fields like `ethics_overall` which use binary values. The `religious_values_list` field (semicolon-delimited) may contain different values than `religious_values` if the import populated it from search metadata while the classifier found different keywords. |
+| 2026-02-13 | Data Quality | **Cross-Agent Overlap Rate as Search Quality Metric:** The 19.4% internal dedup rate (91/468) between R-agents and A-agents validates complementary search strategies. Too low (<5%) means agents are searching in non-overlapping silos. Too high (>40%) means redundant search effort. The 19.4% sweet spot shows agents covered religion-specific papers (R) and language/cultural papers (A) with natural overlap on cross-cutting papers (e.g., Hindi moral reasoning benchmarks are both language-specific AND potentially religion-relevant). |
+| 2026-02-13 | PDF Processing | **batch_download_pdfs.py Stdout Buffering:** The script doesn't use `print = functools.partial(print, flush=True)`, so log files appear empty during parallel execution. The downloads proceed correctly (verified by PDF count on disk), but monitoring requires checking `find ../PDFs -name "*.pdf" | wc -l` rather than log files. Consider adding forced flush to this script. |
 
 ---
 

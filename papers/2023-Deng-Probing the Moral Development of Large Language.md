@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ url: "https://arxiv.org/abs/2309.13356"
 external_pdf: "https://arxiv.org/pdf/2309.13356.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Cognitive Developmental"
 newtags: "Cognitive Developmental, Moral Reasoning & Psychology"
 key_contribution: "Applied the 'Defining Issues Test' (DIT) from Kohlberg's moral psychology to LLMs, finding that GPT-4 scores at a 'post-conventional' level (graduate student equivalent), while GPT-3 is random."

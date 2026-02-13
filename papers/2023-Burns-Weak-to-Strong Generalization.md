@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2312.09390"
 external_pdf: "http://arxiv.org/pdf/2312.09390.pdf"
 publication: "International Conference on Machine Learning"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "A fundamental paper from OpenAI showing that strong models (GPT-4) can be aligned by weak supervisors (GPT-2) and often generalize *beyond* the supervisor's capability ('Weak-to-Strong Generalization')."

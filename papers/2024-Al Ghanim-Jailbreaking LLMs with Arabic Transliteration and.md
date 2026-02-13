@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Al Ghanim, Mansour]]; [[Almohaimeed, Saleh]]; [[Zheng, Mengxin]]; [[
 url: "https://aclanthology.org/2024.emnlp-main.1034/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/KHCWIX2B/2024 - Jailbreaking LLMs with Arabic Transliteration and Arabizi.pdf"
 national_ethnic_cultural: Arabic
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Arabic, AI Safety & Alignment"
 key_contribution: "Showed that LLMs are vulnerable to jailbreaking via Arabic transliteration ('Arabizi'), bypassing safety filters optimized for English or standard Arabic."

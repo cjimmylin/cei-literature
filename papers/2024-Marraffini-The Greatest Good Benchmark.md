@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ doi: 10.18653/v1/2024.emnlp-main.1224
 url: "https://aclanthology.org/2024.emnlp-main.1224/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/93ZH8FHU/Marraffini et al. - 2024 - The Greatest Good Benchmark Measuring LLMs’ Alignment with Utilitarian Moral Dilemmas.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Introduces 'The Greatest Good Benchmark' to evaluate LLM alignment specifically with utilitarian moral dilemmas (instrumental harm, impartial beneficence)"

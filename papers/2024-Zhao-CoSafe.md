@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Erxin Yu; Jing Li; Ming Liao; Siqi Wang; Zuchen Gao; Fei Mi; Lanqing H
 url: "https://arxiv.org/abs/2406.17626"
 external_pdf: "https://arxiv.org/pdf/2406.17626.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Studied LLM safety in multi-turn dialogue coreference, creating a dataset of 1,400 questions where safety attacks rely on resolving ambiguous context across turns."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,7 +19,8 @@ external_pdf: "http://arxiv.org/pdf/2503.16566.pdf"
 publication: arXiv.org
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced REVAL, a large-scale benchmark (144k samples) for evaluating Large Vision-Language Models (LVLMs) on reliability (hallucination) and values (safety, ethics, privacy)."

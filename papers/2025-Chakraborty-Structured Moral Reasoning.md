@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "https://arxiv.org/abs/2506.14948"
 external_pdf: "https://arxiv.org/pdf/2506.14948.pdf"
 publication: arXiv
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: Yes
 newtags: "Moral-Reasoning, Value-Systems, LLM-Evaluation, Prompting, Knowledge-Transfer"
 key_contribution: "Shows structured prompting with explicit moral frameworks improves LLM accuracy; smaller models learn moral reasoning via knowledge transfer"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.48550/arXiv.2408.09049
 url: "http://arxiv.org/abs/2408.09049"
 external_pdf: "http://arxiv.org/pdf/2408.09049.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Found 'inertia' in LLM value judgments; despite 'persona' prompting (e.g., 'act as a conservative'), models often revert to their default training values (e.g., harm avoidance)."

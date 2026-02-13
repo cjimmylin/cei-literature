@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://arxiv.org/abs/1804.06876"
 local_pdf: "[[PDFs/2018/2018-Zhao-Gender Bias in Coreference Resolution.pdf]]"
 external_pdf: "https://arxiv.org/pdf/1804.06876.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Creates WinoBias, a coreference resolution benchmark specifically designed to detect gender bias (stereotypical vs anti-stereotypical occupations)"

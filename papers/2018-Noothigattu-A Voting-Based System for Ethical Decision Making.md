@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/1709.06692"
 external_pdf: "http://arxiv.org/pdf/1709.06692.pdf"
 publication: "Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence (AAAI-18)"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Trolley / Dilemmas (Psych), Machine Ethics"
 key_contribution: "Proposed a general approach to automated ethical decision-making by aggregating societal preferences learned from the Moral Machine dataset (1.3M people)."

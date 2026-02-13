@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.48550/arXiv.2501.14940
 url: "http://arxiv.org/abs/2501.14940"
 external_pdf: "http://arxiv.org/pdf/2501.14940.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Introduced CASE-Bench, a benchmark for evaluating LLM safety that explicitly incorporates context into safety assessments using Contextual Integrity theory."

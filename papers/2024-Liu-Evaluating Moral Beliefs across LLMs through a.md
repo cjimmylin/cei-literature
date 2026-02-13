@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,7 +19,8 @@ local_pdf: "[[PDFs/2024/2024-Liu-Evaluating Moral Beliefs across LLMs through a.
 external_pdf: "http://arxiv.org/pdf/2411.03665.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: Chinese
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Chinese, Deontology"
 key_contribution: "Evaluates moral beliefs of LLMs using Chinese moral choice scenarios, revealing a divide between English (Individualistic) and Chinese (Collectivist) models"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2407.16637"
 external_pdf: "http://arxiv.org/pdf/2407.16637.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed the C2-EVAL benchmark to assess 'course-correction' (capability to steer away from harmful content) and C2-SYN, a synthetic preference dataset for fine-tuning this capability."

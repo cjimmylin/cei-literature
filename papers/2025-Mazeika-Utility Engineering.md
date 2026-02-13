@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2502.08640"
 external_pdf: "http://arxiv.org/pdf/2502.08640.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Proposes 'Utility Engineering' to analyze emergent value systems in LLMs, finding that coherent preference structures emerge with scale and often favor self-preservation over human welfare"

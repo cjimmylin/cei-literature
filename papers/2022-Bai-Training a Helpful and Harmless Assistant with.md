@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Yuntao Bai; Andy Jones; Kamal Ndousse; Amanda Askell; Anna Chen; Nova 
 url: "https://arxiv.org/abs/2204.05862"
 external_pdf: "https://arxiv.org/pdf/2204.05862.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "The seminal Anthropic paper introducing 'Constitutional AI' precursor concepts (RLHF for H&H), showing that alignment improves performance on almost all NLP tasks (compatibility) and exploring the 'alignment tax'."

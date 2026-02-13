@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Anudeex Shetty; Amin Beheshti; Mark Dras; Usman Naseem"
 url: "https://arxiv.org/abs/2502.13775"
 external_pdf: "https://arxiv.org/pdf/2502.13775.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Created VITAL, a benchmark of 13.1K healthcare situations to test 'pluralistic alignment' in medical AI, accounting for diverse cultural and religious beliefs."

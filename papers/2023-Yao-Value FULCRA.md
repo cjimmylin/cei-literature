@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2311.10766"
 external_pdf: "http://arxiv.org/pdf/2311.10766.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Mapped LLM behaviors to Schwartz's Theory of Basic Values and released FULCRA, a dataset of 5k value-vector pairs for continuous value alignment."

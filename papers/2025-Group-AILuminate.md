@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Shaona Ghosh; Heather Frase; Adina Williams; Sarah Luger; Paul Röttge
 url: "https://arxiv.org/abs/2503.05731"
 external_pdf: "https://arxiv.org/pdf/2503.05731.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Launched AILuminate v1.0, an industry-standard benchmark from MLCommons for assessing AI product risk across 12 hazard categories (e.g., hate, violent crimes, suicide)."

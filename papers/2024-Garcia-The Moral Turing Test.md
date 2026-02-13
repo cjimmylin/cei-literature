@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2410.07304"
 external_pdf: "http://arxiv.org/pdf/2410.07304.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: Yes
 newtags: Utilitarianism
 key_contribution: "Created a corpus of human vs. LLM responses to moral scenarios and conducted a user study (N=230) to evaluate detection and agreement"

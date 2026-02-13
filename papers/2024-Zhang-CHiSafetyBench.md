@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Wenjing Zhang; Xuejiao Lei; Zhaoxiang Liu; Meijuan An; Bikun Yang; Kai
 url: "https://arxiv.org/abs/2406.10311"
 external_pdf: "https://arxiv.org/pdf/2406.10311.pdf"
 national_ethnic_cultural: Chinese
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Chinese, AI Safety & Alignment"
 key_contribution: "Introduced CHiSafetyBench, a hierarchical Chinese safety benchmark with 31 categories (5 risk areas) for evaluating risky content identification and refusal capabilities."

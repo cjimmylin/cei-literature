@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/F8XQ7HNN/Hatemo et al. - Re
 pdf_extract: "[[2025-Hatemo-Revisiting the Trolley Problem for AI]]"
 local_pdf: "[[PDFs/2025/2025-Hatemo-Revisiting the Trolley Problem for AI.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Trolley / Dilemmas (Psych), Moral Reasoning & Psychology"
 key_contribution: "Investigated ethical reasoning in LLaMA, Mistral, and Qwen using trolley problems with demographic variations (age, nationality, gender)."

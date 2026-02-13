@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Steffi Chern; Zhulin Hu; Yuqing Yang; Ethan Chern; Yuan Guo; Jiahe Jin
 url: "https://arxiv.org/abs/2406.13261"
 external_pdf: "https://arxiv.org/pdf/2406.13261.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced BeHonest, a benchmark for honesty covering 3 aspects: knowledge boundaries (refusal), deceit avoidance, and consistency."

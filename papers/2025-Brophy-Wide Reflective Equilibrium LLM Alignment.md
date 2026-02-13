@@ -1,5 +1,6 @@
 ---
 
+
 Human View: false
 Not AI: 
 key: AUTO_BROPHY2025
@@ -13,7 +14,8 @@ doi: N/A
 url: "https://arxiv.org/abs/2506.00415"
 local_pdf: "[[PDFs/2025/2025-Brophy-Wide Reflective Equilibrium LLM Alignment.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Moral Epistemology, AI Safety, Constitutional AI, Reflective Equilibrium"
 key_contribution: "Proposes Method of Wide Reflective Equilibrium (MWRE) from moral philosophy as framework for improving LLM alignment through dynamic bi-directional principle revision"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Rauno Arike; Elizabeth Donoway; Henning Bartsch; Marius Hobbhahn"
 url: "https://arxiv.org/abs/2505.02709"
 external_pdf: "https://arxiv.org/pdf/2505.02709.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 tags: 

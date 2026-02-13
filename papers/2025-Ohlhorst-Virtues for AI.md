@@ -1,5 +1,6 @@
 ---
 
+
 Human View: false
 Not AI: 
 key: AUTO_OHLHORST2025
@@ -13,7 +14,8 @@ doi: 10.1007/s00146-025-02264-3
 url: "https://link.springer.com/article/10.1007/s00146-025-02264-3"
 local_pdf: "[[PDFs/2025/2025-Ohlhorst-Virtues for AI.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Virtue Ethics, Artificial Virtues, Virtue Classification, AI Design"
 key_contribution: "Proposes three-dimensional classification of artificial virtues: domain of excellence, norm making it excellence, and mode of delivering excellence"

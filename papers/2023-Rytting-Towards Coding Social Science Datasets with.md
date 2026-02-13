@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2306.02177"
 external_pdf: "http://arxiv.org/pdf/2306.02177.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 pdf_extract: "PDF Extracts/2023/2023-Rytting-Towards Coding Social Science Datasets with.md"

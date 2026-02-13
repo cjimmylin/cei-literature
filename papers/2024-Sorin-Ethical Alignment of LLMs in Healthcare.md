@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1"
 external_pdf: "https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1.full.pdf"
 publication: medRxiv
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: Yes
 newtags: "Healthcare Ethics, Utilitarianism, Deontology, Medical AI, Trolley Problem"
 key_contribution: "Evaluates 14 LLMs including GPT-o1 on medical versions of trolley dilemma, finding inconsistent utilitarian vs deontological alignment"

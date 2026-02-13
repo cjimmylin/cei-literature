@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Shimpei Okamoto; Masanori Kataoka; Makoto Itano; Tsutomu Sawai"
 doi: 10.1186/s12909-025-06801-y
 url: "https://bmcmededuc.biomedcentral.com/articles/10.1186/s12909-025-06801-y"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Proposes using 'v-rules' (virtue-based instructions) to guide LLMs in modeling virtuous behaviors for medical ethics education"

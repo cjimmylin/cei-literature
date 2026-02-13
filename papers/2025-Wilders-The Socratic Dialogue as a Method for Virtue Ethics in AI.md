@@ -1,5 +1,6 @@
 ---
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics socratic dialogue"
@@ -17,7 +18,8 @@ external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/36748/38886/
 local_pdf: "[[PDFs/2025/2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI.pdf]]"
 pdf_extract: "[[PDF Extracts/2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Demonstrates how using Socratic dialogue with LLMs can foster the cultivation of intellectual virtues like critical thinking and intellectual humility in users"

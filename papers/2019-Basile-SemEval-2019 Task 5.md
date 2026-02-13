@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.18653/v1/S19-2007
 url: "https://www.aclweb.org/anthology/S19-2007"
 external_pdf: "https://aclanthology.org/S19-2007.pdf"
 national_ethnic_cultural: Spanish
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Spanish, Toxicity & Hate Speech"
 key_contribution: "Organized SemEval-2019 Task 5 (HatEval), creating a standard dataset for detecting hate speech against immigrants and women in English and Spanish."

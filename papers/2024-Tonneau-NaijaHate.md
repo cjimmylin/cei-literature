@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2403.19260"
 external_pdf: "http://arxiv.org/pdf/2403.19260.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: "African/Ubuntu, American"
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "African/Ubuntu, American, Toxicity & Hate Speech"
 key_contribution: "Created NaijaHate, the first representative dataset for hate speech detection on Nigerian Twitter, and trained a domain-adapted model (NaijaXLM-T)."

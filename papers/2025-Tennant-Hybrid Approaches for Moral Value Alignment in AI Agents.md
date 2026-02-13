@@ -1,5 +1,6 @@
 ---
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "combine ethics - deon, virtue, conseq"
@@ -16,7 +17,8 @@ url: "https://arxiv.org/abs/2312.01818"
 local_pdf: "[[PDFs/2025/2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2312.01818.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: N/A
 newtags: "Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Systematizes moral alignment approaches into a continuum and advocates for hybrid solutions that combine rule-based (deontological) and learning-based (virtue/consequentialist) methods"

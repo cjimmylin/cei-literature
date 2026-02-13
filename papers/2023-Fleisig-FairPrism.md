@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Fleisig, Eve]]; [[Amstutz, Aubrie]]; [[Atalla, Chad]]; [[Blodgett, S
 url: "https://aclanthology.org/2023.acl-long.343/"
 external_pdf: "https://aclanthology.org/2023.acl-long.343.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Introduced FairPrism, a dataset of 5k AI-generated texts with detailed annotations for gender/sexuality harms (stereotyping, demeaning)."

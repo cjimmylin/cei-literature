@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ url: "https://arxiv.org/abs/2401.10019"
 local_pdf: [[PDFs/2024/2024-Yuan-R-Judge.pdf]]
 external_pdf: "https://arxiv.org/pdf/2401.10019.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Benchmark (R-Judge) for evaluating behavioral safety and risk awareness of LLM agents in interactive environments"

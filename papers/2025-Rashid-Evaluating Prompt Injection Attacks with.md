@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://www.mdpi.com/2504-4990/7/3/77"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/L5X24WSS/Rashid et al. - 2025 - Evaluating Prompt Injection Attacks with LSTM-Based Generative Adversarial Networks A Lightweight A.pdf"
 local_pdf: "[[PDFs/2025/2025-Rashid-Evaluating Prompt Injection Attacks with.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 tags: 

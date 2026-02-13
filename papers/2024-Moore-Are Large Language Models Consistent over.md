@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2407.02996"
 external_pdf: "http://arxiv.org/pdf/2407.02996.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: "Chinese, Japanese, German, American"
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Chinese, Japanese, German, American, Bias & Fairness"
 key_contribution: "Investigated LLM value consistency across paraphrases, languages, and use-cases (open vs multiple choice), finding models are generally consistent but falter on controversial topics."

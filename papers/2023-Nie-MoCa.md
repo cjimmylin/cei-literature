@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2310.19677"
 external_pdf: "http://arxiv.org/pdf/2310.19677.pdf"
 publication: "Neural Information Processing Systems"
 national_ethnic_cultural: American
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "American, AI Safety & Alignment"
 key_contribution: "Introduced MoCa, a dataset of stories from cognitive science papers to test if LLMs verify human *causal* and *moral* judgments."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ tags:
 url: "http://arxiv.org/abs/2504.02725"
 external_pdf: "http://arxiv.org/pdf/2504.02725.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed ERPO (Ex-Ante Reasoning Preference Optimization), a safety alignment framework that equips LLMs with explicit reasoning modules (Chain-of-Thought) before safety training."

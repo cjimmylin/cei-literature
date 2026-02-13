@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://dl.acm.org/doi/10.1145/3715275.3732044"
 external_pdf: "https://arxiv.org/pdf/2501.18081.pdf"
 publication: "ACM FAccT 2025"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: Yes
 newtags: "LLM-Evaluation, Moral-Judgment, AITA-Dataset, Normative-Ethics, Everyday-Dilemmas"
 key_contribution: "Evaluates LLMs on 10,000+ Reddit AITA moral dilemmas; reveals distinct moral judgment patterns with low inter-model agreement"

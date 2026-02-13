@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Zhexin Zhang; Leqi Lei; Junxiao Yang; Xijie Huang; Yida Lu; Shiyao Cui
 url: "https://arxiv.org/abs/2502.16776"
 external_pdf: "https://arxiv.org/pdf/2502.16776.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced AISafetyLab, a unified toolkit for AI safety covering attacks, defenses, and evaluations, and benchmarked Vicuna."

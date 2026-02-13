@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2506.21961"
 external_pdf: "http://arxiv.org/pdf/2506.21961.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Islam, Hinduism"
+religious_values_list: "Islam, Hinduism"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Created 'PapersPlease', a benchmark of 3,700 immigration officer scenarios where models must prioritize human needs (based on ERG theory: Existence, Relatedness, Growth) vs bureaucratic rules."

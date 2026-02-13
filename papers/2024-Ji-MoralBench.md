@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,7 +19,8 @@ local_pdf: [[PDFs/2024/2024-Ji-MoralBench.pdf]]
 external_pdf: "http://arxiv.org/pdf/2406.04428.pdf"
 publication: "SIGKDD Explorations"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Identity"
 newtags: "Moral Identity, Deontology"
 key_contribution: "Curates a comprehensive dataset to probe 'moral identity' of LLMs across diverse ethical dilemmas and real-world scenarios"

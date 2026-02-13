@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2112.00861"
 external_pdf: "http://arxiv.org/pdf/2112.00861.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "A foundational paper from Anthropic proposing 'HHH' (Helpful, Honest, Harmless) alignment, studying the scaling of preference modeling vs imitation learning."

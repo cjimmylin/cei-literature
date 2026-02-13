@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Ryan Koo; Minhwa Lee; Vipul Raheja; Jong Inn Park; Zae Myung Kim; Dong
 url: "https://arxiv.org/abs/2309.17012"
 external_pdf: "https://arxiv.org/pdf/2309.17012.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Introduced COBBLER to benchmark cognitive biases in LLM-as-a-judge (e.g., egocentric bias, order bias), finding machine preferences misaligned with humans (49% RBO)."

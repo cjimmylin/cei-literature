@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Neel Guha; Julian Nyarko; Daniel E. Ho; Christopher Ré; Adam Chilton;
 url: "https://arxiv.org/abs/2308.11462"
 external_pdf: "https://arxiv.org/pdf/2308.11462.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 tags: 

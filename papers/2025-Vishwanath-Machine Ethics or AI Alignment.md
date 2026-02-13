@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://ceur-ws.org/Vol-3975/paper9.pdf"
 external_pdf: "https://ceur-ws.org/Vol-3975/paper9.pdf"
 publication: "CEUR Workshop Proceedings"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Utilitarianism, Machine Ethics, AI Alignment"
 key_contribution: "Argues AI is inherently utilitarian by design due to optimization objectives"

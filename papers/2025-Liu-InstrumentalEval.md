@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Yufei He; Yuexin Li; Jiaying Wu; Yuan Sui; Yulin Chen; Bryan Hooi"
 url: "https://arxiv.org/abs/2502.12206"
 external_pdf: "https://arxiv.org/pdf/2502.12206.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Introduces InstrumentalEval to assess 'instrumental convergence' (e.g., self-replication, resource acquisition) in RL-trained vs RLHF-trained LLMs"

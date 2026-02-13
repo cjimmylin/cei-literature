@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2307.09705"
 external_pdf: "http://arxiv.org/pdf/2307.09705.pdf"
 publication: arXiv.org
 national_ethnic_cultural: Chinese
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Chinese, AI Safety & Alignment"
 key_contribution: "Presents CVALUES, the first specialized benchmark for Chinese human values alignment, evaluating LLMs on both safety and responsibility criteria across 10 scenarios."

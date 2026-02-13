@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://link.springer.com/chapter/10.1007/978-981-19-9382-4_6"
 external_pdf: N/A
 publication: "AI Ethics (Springer)"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Utilitarianism, Deontology, Virtue Ethics, Normative Ethics"
 key_contribution: "Comprehensive overview of consequentialism, deontology, and virtue ethics for AI"

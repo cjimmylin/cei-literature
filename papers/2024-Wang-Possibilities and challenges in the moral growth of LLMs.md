@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,7 +20,8 @@ pdf_extract: "[[PDF Extracts/2024-Wang-Possibilities and challenges in the moral
 publication: "Ethics and Information Technology"
 ethics_perspective: "Moral Development Theory"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Dewey Moral Development"
 newtags: "Moral Development, RLHF, Deontology, AI Alignment"
 key_contribution: "Analyzes LLM moral development through RLHF using Dewey's moral philosophy framework"

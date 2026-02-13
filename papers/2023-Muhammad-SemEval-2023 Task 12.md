@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ tags:
 url: "http://arxiv.org/abs/2304.06845"
 external_pdf: "http://arxiv.org/pdf/2304.06845.pdf"
 national_ethnic_cultural: "Arabic, African/Ubuntu, Brazilian"
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Arabic, African/Ubuntu, Brazilian"
 pdf_extract: "PDF Extracts/2023/2023-Muhammad-SemEval-2023 Task 12.md"

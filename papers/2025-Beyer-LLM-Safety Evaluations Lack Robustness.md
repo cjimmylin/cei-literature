@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Tim Beyer; Sophie Xhonneux; Simon Geisler; Gauthier Gidel; Leo Schwinn
 url: "https://arxiv.org/abs/2503.02574"
 external_pdf: "https://arxiv.org/pdf/2503.02574.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Systematically analyzed LLM safety evaluations, arguing that 'intertwined sources of noise' (small datasets, inconsistent methods) render current comparisons of attacks/defenses unreliable."

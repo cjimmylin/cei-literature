@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2410.10934"
 external_pdf: "http://arxiv.org/pdf/2410.10934.pdf"
 publication: "International Conference on Machine Learning"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 pdf_extract: "PDF Extracts/2024/2024-Zhuge-Agent-as-a-Judge.md"

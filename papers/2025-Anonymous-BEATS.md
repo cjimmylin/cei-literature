@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Alok Abhishek; Lisa Erickson; Tushar Bandopadhyay"
 url: "https://arxiv.org/abs/2503.24310"
 external_pdf: "https://arxiv.org/pdf/2503.24310.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Introduced BEATS, a bias benchmark suite evaluating LLMs across 29 metrics including demographic, cognitive, and social biases, plus fairness and factuality."

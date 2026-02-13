@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2407.03059"
 external_pdf: "http://arxiv.org/pdf/2407.03059.pdf"
 publication: "Neural Information Processing Systems"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, Utilitarianism"
 key_contribution: "Releases FairJob, a real-world fairness dataset for job recommendation, including proxy estimates for sensitive attributes like gender"

@@ -1,0 +1,77 @@
+---
+
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0340
+type: conference_paper
+short_title: "BuddhismEval Bilingual Evaluation Benchmark for Buddhist"
+year: 2025
+first_author: "[[Nethmi Muthugala, Deyi Xiong]]"
+last_author: "[[Nethmi Muthugala, Deyi Xiong]]"
+authors: "[[Nethmi Muthugala, Deyi Xiong]]"
+authors_incomplete: false
+url: ""
+external_pdf: ""
+local_pdf: "N/A"
+pdf_extract: ""
+publication: Submitted to NeurIPS 2025 (under review)
+DATE_ADDED: 20260213
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "Buddhism"
+religious_values_list: "Buddhism"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+tags: 
+abstract: ""
+data_description: "Benchmark"
+data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://huggingface.co/datasets/Nethmi14/BuddhismEval"
+ethics_perspective: "General Ethics"
+---
+# BuddhismEval: Bilingual Evaluation Benchmark for Buddhist Ethics and Reasoning
+
+## Authors
+
+[[Nethmi Muthugala, Deyi Xiong]]
+
+## Metadata
+
+**Authors:** Nethmi Muthugala, Deyi Xiong
+
+**Year:** 2025
+
+**Type:** conference_paper
+
+**Venue:** Submitted to NeurIPS 2025 (under review)
+
+## Links
+
+- **Code/Data:** https://huggingface.co/datasets/Nethmi14/BuddhismEval
+
+## Abstract
+
+(Abstract not available)
+
+## Dataset Information
+
+Sinhala MCQ dataset + English MCQ dataset + Dhammapada Parallel Corpus (multi-component)
+
+## Notes
+
+**Source:** Religious & Language Search (2026-02-13), R4
+**Implementation Readiness:** HIGH
+
+## Tags

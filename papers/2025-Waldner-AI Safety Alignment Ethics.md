@@ -1,5 +1,6 @@
 ---
 
+
 Human View: false
 Not AI: 
 key: AUTO_WALDNER2025
@@ -13,7 +14,8 @@ doi: N/A
 url: "https://arxiv.org/abs/2509.24065"
 local_pdf: "[[PDFs/2025/2025-Waldner-AI Safety Alignment Ethics.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Safety, Moral Representation Learning, Cooperative AI"
 key_contribution: "Proposes framework connecting moral representation learning with system design using evolutionary lens; treats virtue ethics as character formation vs outcome optimization"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.48550/arXiv.2412.04476
 url: "https://arxiv.org/abs/2412.04476"
 external_pdf: "https://arxiv.org/pdf/2412.04476.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: Yes
 newtags: Utilitarianism
 key_contribution: "Applies revealed preference theory to 40 LLMs to detect stable utility functions"

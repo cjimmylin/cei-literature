@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Alfred Malengo Kondoro"
 url: "https://arxiv.org/abs/2410.14289"
 external_pdf: "https://arxiv.org/pdf/2410.14289.pdf"
 national_ethnic_cultural: African/Ubuntu
-religious_values: N/A
+religious_values: "Islam, Christianity"
+religious_values_list: "Islam, Christianity"
 moral_psychology: N/A
 newtags: "African/Ubuntu, Bias & Fairness"
 key_contribution: "Created a Swahili Question Answering benchmark (SwaQuAD) focused on high-quality, culturally grounded QA, addressing the lack of African language resources."

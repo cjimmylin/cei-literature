@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,7 +20,8 @@ pdf_extract: PDF Extracts/2025/2025-Mahajan-Mapping Moral Reasoning in LLMs A Mu
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
 ethics_perspective: "Value Pluralism"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Deontology, Value Pluralism, LLM Evaluation, Moral Reasoning"
 key_contribution: "Analyzes how open-weight LLMs resolve conflicts between competing safety principles using ethical dilemmas"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ tags:
 url: "http://arxiv.org/abs/2406.17675"
 external_pdf: "http://arxiv.org/pdf/2406.17675.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed a comprehensive psychometrics benchmark for LLMs covering six psychological dimensions including personality, values, emotion, and theory of mind."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2403.00896"
 external_pdf: "http://arxiv.org/pdf/2403.00896.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Hallucination & Truthfulness"
 key_contribution: "Proposed DiaHalu, a benchmark for evaluating dialogue-level hallucinations (factuality and faithfulness) in multi-turn interactions."

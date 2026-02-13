@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Félix B. A. Flores"
 url: "https://forum.effectivealtruism.org/posts/eTEtMc2d38GDZZ8ke/benchmoral-a-benchmarking-to-assess-the-moral-sensitivity-of"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/PC7NWK8G/BenchMoral_ A benchmarking to assess the moral sensitivity of large language models (LLMs) in Spanish. — EA Forum.pdf"
 national_ethnic_cultural: Spanish
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Spanish, General Ethics"
 key_contribution: "A benchmark for assessing moral sensitivity of LLMs in *Spanish*."

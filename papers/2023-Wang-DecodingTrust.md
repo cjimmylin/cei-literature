@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Boxin Wang; Weixin Chen; Hengzhi Pei; Chulin Xie; Mintong Kang; Chenhu
 url: "https://arxiv.org/abs/2306.11698"
 external_pdf: "https://arxiv.org/pdf/2306.11698.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Released DecodingTrust, a comprehensive benchmark suite for GPT models covering 8 trustworthiness perspectives including toxicity, bias, robustness, and privacy."

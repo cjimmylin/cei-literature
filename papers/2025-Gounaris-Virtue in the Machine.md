@@ -1,5 +1,6 @@
 ---
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Virtue ethics certification"
@@ -15,7 +16,8 @@ doi: N/A
 url: "https://ejournals.epublishing.ekt.gr/index.php/Conatus/article/view/36423"
 local_pdf: "[[PDFs/2025/2025-Gounaris-Virtue in the Machine.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Proposes a virtue-based 'AI Seal of Excellence' certification process grounded in Aristotelian ethics (arete) for low-risk AI systems"

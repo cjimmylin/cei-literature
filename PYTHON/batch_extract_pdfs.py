@@ -34,15 +34,23 @@ def get_pdfs_dir():
     return Path(config["pdf_path"])
 
 
-def get_papers_needing_extraction():
+def parse_date_arg(argv, default="20260207"):
+    """Extract --date YYYYMMDD from argv, or return default."""
+    for i, arg in enumerate(argv):
+        if arg == '--date' and i + 1 < len(argv):
+            return argv[i + 1]
+    return default
+
+
+def get_papers_needing_extraction(date_added="20260207"):
     """Find papers with local_pdf but no pdf_extract."""
     papers = []
 
     for f in sorted(PAPERS_DIR.glob("*.md")):
         content = f.read_text(encoding='utf-8')
 
-        # Only process new papers
-        if 'DATE_ADDED: 20260207' not in content:
+        # Only process papers matching the target DATE_ADDED
+        if f'DATE_ADDED: {date_added}' not in content:
             continue
 
         # Must have local_pdf
@@ -151,12 +159,14 @@ def update_pdf_extract_field(paper_path, extract_filename):
 
 def main():
     if len(sys.argv) < 3:
-        print("Usage: python3 PYTHON/batch_extract_pdfs.py START END [--dry-run]")
+        print("Usage: python3 PYTHON/batch_extract_pdfs.py START END [--dry-run] [--date YYYYMMDD]")
         sys.exit(1)
 
+    date_added = parse_date_arg(sys.argv)
     start = int(sys.argv[1])
     end = int(sys.argv[2])
     dry_run = '--dry-run' in sys.argv
+    print(f"Filtering by DATE_ADDED: {date_added}")
 
     pdfs_dir = get_pdfs_dir()
     if not pdfs_dir.exists():
@@ -168,7 +178,7 @@ def main():
         sys.exit(1)
 
     # Get papers needing extraction
-    all_papers = get_papers_needing_extraction()
+    all_papers = get_papers_needing_extraction(date_added)
     print(f"Total papers needing extraction: {len(all_papers)}")
 
     # Select batch

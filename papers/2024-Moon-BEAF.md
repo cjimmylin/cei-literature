@@ -1,5 +1,6 @@
 ---
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Hallucination in VLM"
@@ -15,7 +16,8 @@ url: "https://arxiv.org/abs/2407.13442"
 local_pdf: [[PDFs/2024/2024-Moon-BEAF.pdf]]
 external_pdf: "https://arxiv.org/pdf/2407.13442.pdf"
 national_ethnic_cultural: American
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: American
 pdf_extract: "PDF Extracts/2024/2024-Moon-BEAF.md"

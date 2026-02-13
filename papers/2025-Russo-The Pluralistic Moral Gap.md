@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2507.17216"
 external_pdf: "http://arxiv.org/pdf/2507.17216.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Created the Moral Dilemma Dataset and Dynamic Moral Profiling (DMP) method to evaluate and improve the alignment of LLM moral judgments with diverse human perspectives."

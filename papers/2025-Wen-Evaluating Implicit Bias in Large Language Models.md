@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Wen, Yuchen]]; [[Bi, Keping]]; [[Chen, Wei]]; [[Guo, Jiafeng]]; [[Ch
 url: "https://aclanthology.org/2025.findings-acl.263/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/FKYPKPUS/2025 - Evaluating Implicit Bias in Large Language Models by Attacking From a Psychometric Perspective.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Proposed psychometric-inspired attack methods (Disguise, Deception, Teaching) to elicit implicit bias in LLMs, and released two benchmarks (2.7k and 12.7k instances)."

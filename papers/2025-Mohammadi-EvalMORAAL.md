@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,7 +20,8 @@ external_pdf: "https://arxiv.org/pdf/2510.05942.pdf"
 publication: arXiv
 ethics_perspective: "Cross-Cultural Ethics"
 national_ethnic_cultural: "Western vs Non-Western"
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "World Values Survey"
 newtags: "Deontology, Cross-Cultural Ethics, LLM Evaluation, Moral Alignment"
 key_contribution: "Transparent CoT framework evaluating moral alignment in 20 LLMs using World Values Survey and PEW data"

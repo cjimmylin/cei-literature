@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2504.07072"
 external_pdf: "http://arxiv.org/pdf/2504.07072.pdf"
 publication: arXiv.org
 national_ethnic_cultural: Multicultural/Cross-cultural
-religious_values: N/A
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: N/A
 newtags: Multicultural/Cross-cultural
 tags: 

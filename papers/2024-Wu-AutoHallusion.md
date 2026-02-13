@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2406.10900"
 external_pdf: "http://arxiv.org/pdf/2406.10900.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: American
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "American, Hallucination & Truthfulness"
 key_contribution: "Introduced AutoHallusion, an automated pipeline to generate diverse and challenging visual-question benchmarks for testing hallucinations in Large Vision-Language Models (LVLMs)."

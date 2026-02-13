@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.18653/v1/2023.emnlp-main.428
 url: "https://aclanthology.org/2023.emnlp-main.428/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/33PLAZMC/Dwivedi et al. - 2023 - EtiCor Corpus for Analyzing LLMs for Etiquettes.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 tags: 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2307.03109"
 external_pdf: "http://arxiv.org/pdf/2307.03109.pdf"
 publication: "ACM Transactions on Intelligent Systems and Technology"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Provides a comprehensive survey of LLM evaluation methods, categorizing benchmarks by domain (reasoning, ethics, medical, agentic) and methodology."

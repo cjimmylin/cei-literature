@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Alexandra Souly; Qingyuan Lu; Dillon Bowen; Tu Trinh; Elvis Hsieh; San
 url: "https://arxiv.org/abs/2402.10260"
 external_pdf: "https://arxiv.org/pdf/2402.10260.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced StrongREJECT, a jailbreak benchmark that uses 'strong rejection' (refusal) as the baseline and measures valid jailbreaks more rigorously than previous metrics."

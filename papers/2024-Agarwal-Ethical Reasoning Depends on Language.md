@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "https://arxiv.org/abs/2404.18460"
 external_pdf: "https://arxiv.org/pdf/2404.18460.pdf"
 publication: "LREC-COLING 2024"
 national_ethnic_cultural: Yes
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: Yes
 newtags: "Multilingual, Cross-Cultural, Deontology, Virtue-Ethics, Consequentialism, LLM-Evaluation"
 key_contribution: "Shows LLM ethical reasoning varies by prompt language; GPT-4 most consistent across 6 languages"

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_CHEUNG2025
@@ -14,7 +15,8 @@ doi: 10.1073/pnas.2412015122
 url: "https://www.pnas.org/doi/10.1073/pnas.2412015122"
 local_pdf: "[[PDFs/2025/2025-Cheung-LLMs Amplified Cognitive Biases Moral.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: Yes
 newtags: "Moral Reasoning, LLM Bias, Cognitive Bias, Deontology, Utilitarianism"
 key_contribution: "Demonstrates LLMs show stronger omission bias than humans and a novel 'no-bias' in moral decision-making, likely arising from fine-tuning"

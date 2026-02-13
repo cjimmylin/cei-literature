@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/ZNGV87C6/Project - GurbaniD
 pdf_extract: [[2010-Project-GurbaniDB]]
 local_pdf: "[[PDFs/2010/2010-Project-GurbaniDB.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Sikhism"
+religious_values_list: "Sikhism"
 moral_psychology: N/A
 newtags: 
 tags: 

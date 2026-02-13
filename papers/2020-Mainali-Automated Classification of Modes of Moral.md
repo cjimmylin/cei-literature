@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,8 @@ last_author: "[[Chen, Daniel L]]"
 authors: "[[Mainali, Nischal]]; [[Meier, Liam]]; [[Ash, Elliott]]; [[Chen, Daniel L]]"
 external_pdf: "https://hal.science/hal-04163443/file/Automated_Classification_of_Modes_of_Moral_Reasoning_in_Judicial_Decisions_ComputationalLegalStudies.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Deontology, Utilitarianism"
 key_contribution: "Automates the classification of judicial reasoning into consequentialist vs. deontological modes using NLP"

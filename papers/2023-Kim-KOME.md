@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Jaehong Kim; Chaeyoon Jeong; Seongchan Park; Meeyoung Cha; Wonjae Lee"
 url: "https://sociology.kaist.ac.kr/works/kome-korean-online-moral-emotion-a-korean-dataset-of-fine-grained-moral-emotions-korea-computer-congress-2023-june"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/98WEUINE/Kim and others - 2023 - KOME A Korean Dataset of Fine-Grained Moral Emotions.pdf"
 national_ethnic_cultural: Korean
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Korean, General Ethics"
 key_contribution: "Created KOME, a *Korean* dataset of fine-grained moral emotions."

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2507.00814"
 external_pdf: "http://arxiv.org/pdf/2507.00814.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Investigates 'utilitarian boost' in multi-agent LLM systems, finding that LLM groups largely endorse utilitarian violations more than individuals"

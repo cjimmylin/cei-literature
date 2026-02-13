@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Uluoglakci, Cem]]; [[Temizel, Tugba]]"
 url: "https://aclanthology.org/2024.eacl-srw.9/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/N3YAM6Q3/2024 - HypoTermQA Hypothetical Terms Dataset for Benchmarking Hallucination Tendency of LLMs.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Hallucination & Truthfulness"
 key_contribution: "Introduced 'HypoTermQA', a dataset of *hypothetical* terms (fake concepts) to test hallucination tendency – since the terms don't exist, any detailed explanation is a hallucination."

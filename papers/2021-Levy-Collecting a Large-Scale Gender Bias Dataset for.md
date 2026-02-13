@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Levy, Shahar]]; [[Lazar, Koren]]; [[Stanovsky, Gabriel]]"
 url: "https://aclanthology.org/2021.findings-emnlp.211/"
 external_pdf: "https://aclanthology.org/2021.findings-emnlp.211.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Collected a large-scale (108k) dataset of *real-world* (not synthetic) gender bias examples for Coreference Resolution and Machine Translation."

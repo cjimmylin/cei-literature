@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2507.05980"
 external_pdf: "http://arxiv.org/pdf/2507.05980.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "Chinese, Singaporean"
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Chinese, Singaporean, AI Safety & Alignment"
 key_contribution: "Developed RabakBench, a localized multilingual safety benchmark for Singapore (Singlish, Chinese, Malay, Tamil), and a scalable pipeline for building safety datasets in low-resource environments."

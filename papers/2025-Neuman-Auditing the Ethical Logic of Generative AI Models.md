@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "W. Russell Neuman; Chad Coleman; Ali Dasdan; Safinah Ali; Manan Shah"
 url: "https://arxiv.org/abs/2504.17544"
 external_pdf: "https://arxiv.org/pdf/2504.17544.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced a 5-dimensional audit model (Analytic Quality, Breadth, Depth, Consistency, Decisiveness) to evaluate the *reasoning process* of LLMs on ethical dilemmas."

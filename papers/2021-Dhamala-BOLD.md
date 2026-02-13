@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1145/3442188.3445924
 url: "http://arxiv.org/abs/2101.11718"
 external_pdf: "http://arxiv.org/pdf/2101.11718.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Proposed BOLD, a large-scale dataset (23k prompts) for benchmarking bias in open-ended generation across profession, gender, race, religion, and politics."

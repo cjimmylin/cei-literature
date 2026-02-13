@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2309.00779"
 local_pdf: "[[PDFs/2024/2024-Sorensen-Value Kaleidoscope.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2309.00779.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, Deontology"
 key_contribution: "Explores value pluralism in AI, challenging the default 'average' value fitting of statistical learners which washes out conflicts"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Kumar, Ritesh]]; [[Ojha, Atul Kr.]]; [[Malmasi, Shervin]]; [[Zampier
 url: "https://aclanthology.org/2020.trac-1.1/"
 external_pdf: "https://aclanthology.org/2020.trac-1.1.pdf"
 national_ethnic_cultural: Indian
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Indian
 tags: 

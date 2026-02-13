@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "https://arxiv.org/abs/2505.21479"
 external_pdf: "https://arxiv.org/pdf/2505.21479.pdf"
 publication: "EMNLP 2025"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: Yes
 newtags: "Deontology, Consequentialism, Moral-Reasoning, LLM-Evaluation, Trolley-Problem"
 key_contribution: "Introduces taxonomy of moral rationales; finds LLM chains-of-thought favor deontological principles while post-hoc explanations shift to consequentialism"

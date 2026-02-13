@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2505.08245"
 external_pdf: "http://arxiv.org/pdf/2505.08245.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "A systematic review establishing the field of 'LLM Psychometrics', categorizing methods for measuring Personality, Values, and Intelligence in AI."

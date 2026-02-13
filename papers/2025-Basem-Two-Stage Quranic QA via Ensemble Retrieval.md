@@ -1,0 +1,79 @@
+---
+
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0445
+type: preprint
+short_title: "Two-Stage Quranic QA via Ensemble Retrieval"
+year: 2025
+first_author: "[[Basem, Mohamed]]"
+last_author: "[[Basem, Mohamed]]"
+authors: "[[Mohamed Basem et al]]"
+authors_incomplete: false
+url: "https://arxiv.org/abs/2508.06971"
+external_pdf: "https://arxiv.org/pdf/2508.06971.pdf"
+local_pdf: "[[PDFs/2025-Basem-Two-Stage Quranic QA via Ensemble Retrieval.pdf]]"
+pdf_extract: "PDF Extracts/2025-Basem-Two-Stage Quranic QA via Ensemble Retrieval.md"
+local_pdf: "N/A"
+pdf_extract: ""
+publication: arXiv
+DATE_ADDED: 20260213
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Arabic"
+religious_values: "Islam"
+religious_values_list: "Islam"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+tags: 
+abstract: "Quranic Question Answering presents unique challenges due to the linguistic complexity of Classical Arabic and the semantic richness of religious texts. In this paper, we propose a novel two-stage framework that addresses both passage retrieval and answer extraction. For passage retrieval, we ensemble finetuned Arabic language models to achieve superior ranking performance. For answer extraction, we employ instruction-tuned large language models with few-shot prompting to overcome the..."
+data_description: "Dataset for question answering"
+data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: ""
+research_topic: "Question Answering"
+---
+# Two-Stage Quranic QA via Ensemble Retrieval and Instruction-Tuned Answer Extraction
+
+## Authors
+
+[[Mohamed Basem et al]]
+
+## Metadata
+
+**Authors:** Mohamed Basem et al.
+
+**Year:** 2025
+
+**Type:** preprint
+
+**Venue:** arXiv
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2508.06971
+
+## Abstract
+
+Achieves state-of-the-art on Qur'an QA 2023 Shared Task with MAP@10 of 0.3128 and pAP@10 of 0.669. Two-stage approach: (1) ensemble fine-tuned Arabic models for passage retrieval, (2) instruction-tuned LLMs with few-shot prompting for answer extraction.
+
+## Dataset Information
+
+Qur'an QA 2023 Shared Task dataset
+
+## Notes
+
+**Source:** Religious & Language Search (2026-02-13), R1
+**Implementation Readiness:** MEDIUM
+
+## Tags

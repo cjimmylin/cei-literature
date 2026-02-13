@@ -1,0 +1,79 @@
+---
+
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0509
+type: preprint
+short_title: "Measuring Spiritual Values and Bias of"
+year: 2024
+first_author: "[[Songyuan Liu, and 5 others]]"
+last_author: "[[Songyuan Liu, and 5 others]]"
+authors: "[[Songyuan Liu,]]; [[5 others]]"
+authors_incomplete: false
+url: "https://arxiv.org/abs/2410.11647"
+external_pdf: "https://arxiv.org/pdf/2410.11647.pdf"
+local_pdf: "[[PDFs/2024-Songyuan Liu-Measuring Spiritual Values and Bias of.pdf]]"
+pdf_extract: "PDF Extracts/2024-Songyuan Liu-Measuring Spiritual Values and Bias of.md"
+local_pdf: "N/A"
+pdf_extract: ""
+publication: arXiv
+DATE_ADDED: 20260213
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+tags: 
+abstract: "Large language models (LLMs) have become integral tool for users from various backgrounds. Pre-trained on vast corpora, LLMs reflect the linguistic and cultural nuances embedded in their training data. However, the values and perspectives inherent in this data can influence the behavior of LLMs, leading to potential biases. As a result, the use of LLMs in contexts involving spiritual or moral values necessitates careful consideration of these underlying biases."
+data_description: "Evaluation approach text corpus for hate speech detection"
+data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: ""
+ethics_perspective: "Bias & Fairness"
+---
+# Measuring Spiritual Values and Bias of Large Language Models
+
+## Authors
+
+[[Songyuan Liu, and 5 others]]
+
+## Metadata
+
+**Authors:** Songyuan Liu, and 5 others
+
+**Year:** 2024
+
+**Type:** preprint
+
+**Venue:** arXiv
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2410.11647
+
+## Abstract
+
+Develops psychometric assessment tools (SP-Typology and SP-10Axes) to measure spiritual values and biases of LLMs. Finds that LLMs' spiritual values are surprisingly diverse, contrary to stereotypes of atheism/secularism. Discovers that different spiritual values lead to different sensitivity to hate target groups. Proposes continuing pre-training on spiritual texts as a mitigation strategy.
+
+## Dataset Information
+
+SP-Typology and SP-10Axes questionnaire instruments (133 statements)
+
+## Notes
+
+**Source:** Religious & Language Search (2026-02-13), R10, R3, R9
+**Implementation Readiness:** HIGH
+
+## Tags

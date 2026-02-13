@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1145/3593013.3594114
 url: "https://doi.org/10.1145/3593013.3594114"
 external_pdf: "https://arxiv.org/pdf/2305.09072"
 national_ethnic_cultural: American
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "American, Bias & Fairness"
 key_contribution: "Investigated subjectivity in skin tone annotations for computer vision benchmarks, finding significant disagreement among annotators and a lack of uncertainty reporting."

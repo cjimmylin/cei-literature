@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,7 +19,8 @@ local_pdf: "[[PDFs/2024/2024-Khamassi-Strong and weak alignment of large languag
 external_pdf: "https://arxiv.org/pdf/2408.04655.pdf"
 ethics_perspective: "Value Alignment Theory"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Deontology, Value Alignment Theory"
 key_contribution: "Distinguishes between 'strong' (understanding causality/intent/duties) and 'weak' (statistical) alignment, advocating for System-2 reasoning"

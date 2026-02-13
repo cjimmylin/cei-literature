@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2506.16187"
 external_pdf: "http://arxiv.org/pdf/2506.16187.pdf"
 publication: arXiv.org
 national_ethnic_cultural: Japanese
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Japanese, General Ethics"
 key_contribution: "Proposed JETHICS, a Japanese ethics understanding benchmark constructed by mirroring the English ETHICS dataset, covering normative theories and commonsense morality."

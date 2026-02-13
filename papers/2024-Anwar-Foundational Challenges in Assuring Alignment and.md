@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2404.09932"
 external_pdf: "http://arxiv.org/pdf/2404.09932.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Identified 18 foundational challenges and ~200 concrete research questions for assuring LLM alignment and safety, spanning scientific, methodological, and sociotechnical domains."

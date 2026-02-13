@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.18653/v1/2020.emnlp-main.154
 url: "https://www.aclweb.org/anthology/2020.emnlp-main.154"
 external_pdf: "https://arxiv.org/pdf/2010.00133v1.pdf"
 national_ethnic_cultural: American
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Released CrowS-Pairs, a challenge dataset for measuring social biases in Masked Language Models (MLMs) using crowd-sourced sentence pairs (stereotype vs. anti-stereotype)."

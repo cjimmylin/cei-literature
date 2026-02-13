@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2410.02683"
 external_pdf: "http://arxiv.org/pdf/2410.02683.pdf"
 publication: "International Conference on Learning Representations"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Presented DailyDilemmas, a dataset of 1,360 everyday moral dilemmas, using it to analyze LLM value preferences through five frameworks (e.g., Moral Foundations, Maslow)."

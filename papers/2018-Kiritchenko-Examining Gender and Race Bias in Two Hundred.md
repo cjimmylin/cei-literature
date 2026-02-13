@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ tags:
 url: "https://aclanthology.org/S18-2005/"
 external_pdf: "https://arxiv.org/pdf/1805.04508v1.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Created the Equity Evaluation Corpus (EEC) and audited 219 sentiment analysis systems, finding widespread and statistically significant bias against certain races and genders."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Lijun Li; Zhelun Shi; Xuhao Hu; Bowen Dong; Yiran Qin; Xihui Liu; Lu S
 url: "https://openreview.net/forum?id=kIboeK0Wzs"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/BU3GIQZ6/1558_Benchmarking_Ethics_in_Te.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Benchmarks ethics in T2I models (fairness, toxicity, privacy)."

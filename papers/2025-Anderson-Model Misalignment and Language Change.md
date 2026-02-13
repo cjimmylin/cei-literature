@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2508.00238"
 external_pdf: "http://arxiv.org/pdf/2508.00238.pdf"
 publication: "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Analyzed 22 million words from podcasts, finding a significant post-2022 shift in human spoken language that correlates with LLM lexical patterns."

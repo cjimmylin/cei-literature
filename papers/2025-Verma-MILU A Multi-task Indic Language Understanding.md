@@ -1,0 +1,81 @@
+---
+
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0405
+type: preprint
+short_title: "MILU A Multi-task Indic Language Understanding"
+year: 2025
+first_author: "[[Verma, Sshubam]]"
+last_author: "[[and others (AI4Bharat, IBM Research India)]]"
+authors: "[[Sshubam Verma]]; [[and others (AI4Bharat, IBM Research India)]]"
+authors_incomplete: false
+url: "https://aclanthology.org/2025.naacl-long.507/"
+external_pdf: "https://arxiv.org/pdf/2411.02538.pdf"
+local_pdf: "[[PDFs/2025-Verma-MILU A Multi-task Indic Language Understanding.pdf]]"
+pdf_extract: "PDF Extracts/2025-Verma-MILU A Multi-task Indic Language Understanding.md"
+local_pdf: "N/A"
+pdf_extract: ""
+publication: WebSearch: MILU benchmark
+DATE_ADDED: 20260213
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indian"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+tags: 
+abstract: "Evaluating Large Language Models (LLMs) in low-resource and linguistically diverse languages remains a significant challenge in NLP, particularly for languages using non-Latin scripts like those spoken in India. Existing benchmarks predominantly focus on English, leaving substantial gaps in assessing LLM capabilities in these languages. We introduce MILU—Multi-task Indic Language Understanding Benchmark—a comprehensive evaluation benchmark designed to address this gap."
+data_description: "Multilingual benchmark"
+data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://huggingface.co/datasets/ai4bharat/MILU"
+research_topic: "Machine Learning"
+---
+# MILU: A Multi-task Indic Language Understanding Benchmark
+
+## Authors
+
+[[Sshubam Verma]], [[and others (AI4Bharat, IBM Research India)]]
+
+## Metadata
+
+**Authors:** Sshubam Verma; and others (AI4Bharat, IBM Research India)
+
+**Year:** 2025
+
+**Type:** preprint
+
+**Venue:** WebSearch: MILU benchmark
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2411.02538
+- **URL:** https://aclanthology.org/2025.naacl-long.507/
+- **Code/Data:** https://huggingface.co/datasets/ai4bharat/MILU
+
+## Abstract
+
+Comprehensive evaluation benchmark spanning 8 domains and 41 subjects across 11 Indic languages with ~85,000 MCQs. India-centric design incorporates regional exams covering local history, arts, festivals, and laws. Models perform poorly in culturally relevant areas. Major cultural values benchmark covering all four Dravidian languages. Specifically tests cultural knowledge (arts, humanities, festivals, laws) vs STEM, revealing cultural knowledge gaps in LLMs.
+
+## Benchmark
+
+**Name:** MILU
+
+## Notes
+
+**Source:** Religious & Language Search (2026-02-13), A1, A2
+**Implementation Readiness:** MEDIUM
+
+## Tags

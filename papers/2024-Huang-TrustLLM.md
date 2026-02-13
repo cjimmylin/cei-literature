@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,7 +19,8 @@ local_pdf: [[PDFs/2024/2024-Huang-TrustLLM.pdf]]
 external_pdf: "http://arxiv.org/pdf/2401.05561.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Deontology, Utilitarianism"
 key_contribution: "Establishes a comprehensive benchmark (TRUSTLLM) across 8 dimensions including machine ethics, evaluating 16 mainstream LLMs"

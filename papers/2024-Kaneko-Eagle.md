@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2402.14258"
 external_pdf: "http://arxiv.org/pdf/2402.14258.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Created the Eagle dataset by extracting real-world interactions between users and ChatGPT that exhibit ethical issues (bias, toxicity, immorality), rather than using human-instructed 'adversarial' prompts."

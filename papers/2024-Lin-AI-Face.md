@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Li Lin; Santosh; Mingyang Wu; Xin Wang; Shu Hu"
 url: "https://arxiv.org/abs/2406.00783"
 external_pdf: "https://arxiv.org/pdf/2406.00783.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Released AI-Face, a million-scale demographically annotated dataset of AI-generated faces (GANs/Diffusion) to benchmark fairness in AI face detectors."

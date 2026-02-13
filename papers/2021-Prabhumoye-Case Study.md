@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://aclanthology.org/2021.naacl-main.297/"
 local_pdf: "[[PDFs/2021/2021-Prabhumoye-Case Study.pdf]]"
 external_pdf: "https://aclanthology.org/2021.naacl-main.297.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Applies deontological ethics (generalization principle and respect for autonomy) to NLP case studies"

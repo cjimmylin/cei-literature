@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ url: "https://arxiv.org/abs/2511.11790"
 external_pdf: "https://arxiv.org/pdf/2511.11790.pdf"
 publication: arXiv
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: "Virtue Ethics, AI Alignment"
 tags: 

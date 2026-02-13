@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2210.07652"
 external_pdf: "http://arxiv.org/pdf/2210.07652.pdf"
 publication: TRUSTNLP
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed a framework for value-aligned classification that uses explicitly written human values in prompts to guide model predictions, rather than relying on implicit training data."

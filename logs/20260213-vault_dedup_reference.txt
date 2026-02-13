@@ -1,0 +1,852 @@
+# CEI Literature Vault - Dedup Reference
+# Generated: 2026-02-13
+# Total papers: 846
+# Format: TITLE ||| DOI ||| ARXIV_ID
+# Empty fields shown as empty string between delimiters
+#
+GurbaniDB |||  ||| 
+Moral Foundations Vignettes: A Standardized Stimulus Database of Scenarios Based on Moral Foundations Theory ||| 10.3758/s13428-014-0551-2 ||| 
+Concrete Problems in AI Safety |||  ||| 1606.06565
+Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings ||| 10.48550/arXiv.1607.06520 ||| 1607.06520
+Deontological coherence: A framework for commonsense moral reasoning. ||| 10.1037/bul0000075 ||| 
+Cross-cultural dataset for the evolution of religion and morality project ||| 10.1038/sdata.2016.99 ||| 
+Religious Belief and the Moral Circle: Cross-Cultural Dataset |||  ||| 
+How Can a Deontological Decision Lead to Moral Behavior? The Moderating Role of Moral Identity ||| 10.1007/s10551-015-2576-6 ||| 
+The Moral Machine experiment ||| 10.1038/s41586-018-0637-6 ||| 
+TrolleyMod v1.0: An Open-Source Simulation and Data-Collection Platform for Ethical Decision Making in Autonomous Vehicles ||| 10.48550/arXiv.1811.05594 ||| 1811.05594
+The Virtuous Machine - Old Ethics for New Technology? ||| N/A ||| 1806.10322
+The Socio-Moral Image Database (SMID): A Novel Stimulus Set for the Study of Social, Moral and Affective Processes ||| 10.1371/journal.pone.0190954 ||| 
+Measuring and Mitigating Unintended Bias in Text Classification ||| 10.1145/3278721.3278729 ||| 
+Toward Non-Intuition-Based Machine and Artificial Intelligence Ethics: A Deontological Approach Based on Modal Logic ||| 10.1145/3278721.3278753 ||| 
+Examining Gender and Race Bias in Two Hundred Sentiment Analysis Systems ||| 10.18653/v1/S18-2005 ||| 1805.04508
+A Voting-Based System for Ethical Decision Making ||| 10.48550/arXiv.1709.06692 ||| 1709.06692
+Finding Answers from the Word of God: Domain Adaptation for Neural Networks in Biblical Question Answering ||| 10.1109/IJCNN.2018.8489756 ||| 1810.12118
+Gender Bias in Contextualized Word Embeddings (SemBias) ||| 10.18653/v1/D18-1521 ||| 1809.01496
+Gender Bias in Coreference Resolution ||| 10.18653/v1/N18-2003 ||| 1804.06876
+Requisite Variety Ethical Utility Functions ||| 10.48550/arXiv.1907.00430 ||| 1907.00430
+SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter ||| 10.18653/v1/S19-2007 ||| 
+Bias in Bios: A Case Study of Semantic Representation Bias in a High-Stakes Setting ||| 10.1145/3287560.3287572 ||| 1901.09451
+Unlearn Dataset Bias in Natural Language Inference by Fitting the Residual |||  ||| 
+Multi-label Hate Speech and Abusive Language Detection in Indonesian Twitter ||| 10.18653/v1/W19-3506 ||| 
+Jigsaw Unintended Bias in Toxicity Classification |||  ||| 2210.11762
+GermEval 2019 Task 2: Offensive Language Identification (Data Page) |||  ||| 
+Filling Gender & Number Gaps in Neural Machine Translation with Black-box Context Injection ||| 10.18653/v1/W19-3807 ||| 1903.03467
+EmpatheticDialogues: Towards Empathetic Open-domain Conversation Models |||  ||| 1811.00207
+Overview of GermEval Task 2, 2019 Shared Task on the Identiﬁcation of Offensive Language |||  ||| 
+Moral Stance Recognition and Polarity Classification from Twitter and Elicited Text ||| 10.26615/978-954-452-056-4_123 ||| 
+Benchmarking question answering systems ||| 10.3233/SW-180312 ||| 
+Machine Ethics - Creation of a Virtuous Machine ||| arXiv:2002.00213 ||| 2002.00213
+Crowdsourcing moral machines ||| 10.1145/3339904 ||| 
+Universals and variations in moral decisions made in 42 countries by 70,000 participants ||| 10.1073/pnas.1911517117 ||| 
+Consequentialism Machine Ethics ||| N/A ||| 
+Social Chemistry 101: Learning to Reason about Social and Moral Norms ||| 10.18653/v1/2020.emnlp-main.48 ||| 2011.00620
+Artificial Intelligence Values and Alignment ||| 10.1007/s11023-020-09539-2 ||| 
+RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models |||  ||| 2009.11462
+Moral Foundations Twitter Corpus: A Collection of 35k Tweets Annotated for Moral Sentiment ||| 10.1177/1948550619876629 ||| 
+UIC-NLP at SemEval-2020 Task 10: Exploring an Alternate Perspective on Evaluation ||| 10.18653/v1/2020.semeval-1.223 ||| 
+Evaluating Aggression Identification in Social Media (TRAC-2 Shared Task Report) |||  ||| 
+Automated Classification of Modes of Moral Reasoning in Judicial Decisions |||  ||| 
+HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection ||| 10.48550/arXiv.2012.10289 ||| 2012.10289
+CrowS-Pairs: A Challenge Dataset for Measuring Social Biases in Masked Language Models ||| 10.18653/v1/2020.emnlp-main.154 ||| 2010.00133
+Social Bias Frames: Reasoning about Social and Power Implications of Language ||| 10.18653/v1/2020.acl-main.486 ||| 
+The Moral Choice Machine ||| 10.3389/frai.2020.00036 ||| 
+Whose Morality? Which Rationality? Challenging Artificial Intelligence as a Remedy for the Lack of Moral Enhancement ||| 10.1057/s41599-020-00614-8 ||| 
+A Multi-Dimensional View of Aggression when voicing Opinion |||  ||| 
+A Deontic Logic for Programming Rightful Machines ||| 10.1145/3375627.3375867 ||| 
+SemEval-2020 Task 12: Multilingual Offensive Language Identification in Social Media (OffensEval 2020) |||  ||| 
+DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020 (Africa Study Centre) |||  ||| 
+Can Artificial Intelligence Lead Us to Genuine Virtue? A Confucian Perspective ||| 10.1007/978-981-16-2309-7_4 ||| 
+A General Language Assistant as a Laboratory for Alignment ||| 10.48550/arXiv.2112.00861 ||| 2112.00861
+REDDITBIAS: A Real-World Resource for Bias Evaluation and Debiasing in Conversational Language Models |||  ||| 
+Toward Gender-Inclusive Coreference Resolution: An Analysis of Gender and Bias Throughout the Machine Learning Lifecycle ||| 10.1162/coli_a_00415 ||| 1910.13913
+HateBERT: Retraining BERT for Abusive Language Detection in English ||| 10.18653/v1/2021.woah-1.3 ||| 
+ConvAbuse |||  ||| 
+All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text ||| 10.48550/arXiv.2107.00061 ||| 2107.00061
+RobustBench: a standardized adversarial robustness benchmark ||| 10.48550/arXiv.2010.09670 ||| 2010.09670
+BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation ||| 10.1145/3442188.3445924 ||| 2101.11718
+Moral Stories: Situated Reasoning about Norms, Intents, Actions, and their Consequences ||| 10.18653/v1/2021.emnlp-main.54 ||| 
+Aligning AI with Shared Human Values |||  ||| 2008.02275
+ParaShoot: A Hebrew Question Answering Dataset ||| 10.18653/v1/2021.mrqa-1.11 ||| 
+Collecting a Large-Scale Gender Bias Dataset for Coreference Resolution and Machine Translation |||  ||| 
+Scruples: A Corpus of Community Ethical Judgments on 32,000 Real-Life Anecdotes ||| 10.48550/arXiv.2008.09094 ||| 2008.09094
+Towards an Automated Islamic Fatwa System: Survey, Dataset and Benchmarks ||| 10.47760/ijcsmc.2021.v10i04.017 ||| 
+StereoSet: Measuring stereotypical bias in pretrained language models ||| 10.48550/arXiv.2004.09456 ||| 2004.09456
+Case Study ||| 10.18653/v1/2021.naacl-main.297 ||| 
+HateCheck: Functional Tests for Hate Speech Detection Models ||| 10.18653/v1/2021.acl-long.4 ||| 
+Artificial virtuous agents: from theory to machine implementation ||| 10.1007/s00146-021-01325-7 ||| 
+Artificial Phronesis - What It Is and Is Not ||| 10.1093/oso/9780190081713.003.0015 ||| 
+MedAI at SemEval-2021 Task 5: Start-to-end Tagging Framework for Toxic Spans Detection ||| 10.18653/v1/2021.semeval-1.30 ||| 
+Ethical and social risks of harm from Language Models ||| 10.48550/arXiv.2112.04359 ||| 2112.04359
+Stop Measuring Calibration When Humans Disagree ||| 10.48550/arXiv.2210.16133 ||| 2210.16133
+Situational factors shape moral judgments in the trolley dilemma in Eastern, Southern, and Western countries in a culturally diverse sample ||| 10.31234/osf.io/9uaqm ||| 
+Constitutional AI: Harmlessness from AI Feedback ||| 10.48550/arXiv.2212.08073 ||| 2212.08073
+Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback |||  ||| 2204.05862
+Enabling Classifiers to Make Judgements Explicitly Aligned with Human Values ||| 10.48550/arXiv.2210.07652 ||| 2210.07652
+Identifying and Manipulating the Personality Traits of Language Models ||| 10.48550/arXiv.2212.10276 ||| 2212.10276
+FairLex: A Multilingual Benchmark for Evaluating Fairness in Legal Text Processing |||  ||| 2203.07228
+Can Robotic AI Systems Be Virtuous and Why Does This Matter? ||| 10.1007/s12369-022-00887-w ||| 
+Does Moral Code Have a Moral Code? ||| 10.48550/arXiv.2205.12771 ||| 2205.12771
+Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned |||  ||| 2209.07858
+The role of the African value of Ubuntu in global AI inclusion discourse: A normative ethics perspective ||| 10.1016/j.patter.2022.100462 ||| 
+A Virtue-Based Framework to Support Putting AI Ethics into Practice ||| 10.1007/s13347-022-00553-z ||| 
+ToxiGen: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection ||| 10.18653/v1/2022.acl-long.234 ||| 
+What Would Jiminy Cricket Do? Towards Agents That Behave Morally ||| 10.48550/arXiv.2110.13136 ||| 2110.13136
+X-Risk Analysis for AI Research |||  ||| 2206.05862
+“I’m sorry to hear that”: Finding New Biases in Language Models with a Holistic Descriptor Dataset |||  ||| 
+Zero-shot Visual Commonsense Immorality Prediction ||| 10.48550/arXiv.2211.05521 ||| 2211.05521
+Can Machines Learn Morality? The Delphi Experiment ||| 10.48550/arXiv.2110.07574 ||| 2110.07574
+AmericasNLI: Machine translation and natural language inference systems for Indigenous languages of the Americas ||| 10.3389/frai.2022.995667 ||| 
+ProsocialDialog: A Prosocial Backbone for Conversational Agents ||| 10.48550/arXiv.2205.12688 ||| 2205.12688
+SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization ||| 10.48550/arXiv.2212.10465 ||| 2212.10465
+Evaluating Psychological Safety of Large Language Models ||| 10.48550/arXiv.2212.10529 ||| 2212.10529
+Holistic Evaluation of Language Models ||| 10.48550/arXiv.2211.09110 ||| 2211.09110
+TruthfulQA: Measuring How Models Mimic Human Falsehoods ||| 10.18653/v1/2022.acl-long.229 ||| 
+CoreValue: Chinese Values Knowledge Base (Liu et al.) |||  ||| 2005.08146
+Qur'an QA 2022: Overview of The First Shared Task on Question Answering over the Holy Qur'an |||  ||| 
+The Alignment Problem from a Deep Learning Perspective ||| 10.48550/arXiv.2209.00626 ||| 2209.00626
+BBQ (Bias Benchmark for Question Answering) |||  ||| 2110.08193
+BBQ: A hand-built bias benchmark for question answering ||| 10.18653/v1/2022.findings-acl.165 ||| 
+A Human Rights-Based Approach to Responsible AI ||| 10.48550/arXiv.2210.02667 ||| 2210.02667
+ValueNet: A New Dataset for Human Value Driven Dialogue System ||| 10.1609/aaai.v36i10.21368 ||| 2112.06346
+Pro-Social Rule Breaking as a Benchmark of Ethical Intelligence in Socio-Technical Systems ||| 10.1007/s44206-022-00001-7 ||| 
+Characteristics of Harmful Text: Towards Rigorous Benchmarking of Language Models ||| 10.48550/arXiv.2206.08325 ||| 2206.08325
+Multilingual HateCheck: Functional Tests for Hate Speech Detection Models in 16 Languages |||  ||| 2206.09917
+Detecting Unintended Social Bias in Toxic Language Datasets ||| 10.18653/v1/2022.conll-1.10 ||| 
+I2P: Inappropriate Image Prompts Test Bed |||  ||| 2202.06675
+MoralDial: A Framework to Train and Evaluate Moral Dialogue Systems via Moral Discussions ||| 10.48550/arXiv.2212.10720 ||| 2212.10720
+The Moral Foundations Reddit Corpus ||| 10.48550/arXiv.2208.05545 ||| 2208.05545
+Harnessing Indigenous Tweets: The Reo Māori Twitter corpus ||| 10.1007/s10579-022-09580-w ||| 
+Towards Artificial Virtuous Agents - Games and ML ||| 10.1007/s43681-022-00251-8 ||| 
+Artificial Intelligence and Moral Dilemmas: Perception of Ethical Decision-Making in AI ||| 10.1016/j.jesp.2022.104327 ||| 
+The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems ||| 10.18653/v1/2022.acl-long.261 ||| 
+A Data-Driven Exploration of a New Islamic Fatwas Dataset for Arabic NLP Tasks ||| 10.3390/data8100155 ||| 
+FatwaSet: A Data-Driven Exploration of a New Islamic Fatwas Dataset for Arabic NLP Tasks |||  ||| 
+Augmented Datasheets for Speech Datasets and Ethical Decision-Making ||| 10.1145/3593013.3594049 ||| 
+Probing PLMs for Cross-Cultural Values (C3NLP Workshop) |||  ||| 
+DICES Dataset: Diversity in Conversational AI Evaluation for Safety ||| 10.48550/arXiv.2306.11247 ||| 2306.11247
+MoralNet: A Benchmarking Protocol for Evaluating Morality in AI Systems ||| 10.31234/osf.io/dbyw7 ||| 
+Amharic Hate Speech Dataset |||  ||| 
+Towards Answering Open-ended Ethical Quandary Questions ||| 10.48550/arXiv.2205.05989 ||| 2205.05989
+Skin Deep: Investigating Subjectivity in Skin Tone Annotations for Computer Vision Benchmark Datasets ||| 10.1145/3593013.3594114 ||| 2305.09072
+Assessing LLMs for Moral Value Pluralism ||| 10.48550/arXiv.2312.10075 ||| 2312.10075
+Normative Ethical Theory AI Ethics ||| 10.1007/978-981-19-9382-4_6 ||| 
+Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision ||| 10.48550/arXiv.2312.09390 ||| 2312.09390
+Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study ||| 10.48550/arXiv.2303.17466 ||| 2303.17466
+EMoTES-3K: Emotion-based Morality in Tagalog and English Scenarios |||  ||| 
+A Survey on Evaluation of Large Language Models ||| 10.48550/arXiv.2307.03109 ||| 2307.03109
+niceNLP at SemEval-2023 Task 10: Dual Model Alternate Pseudo-labeling Improves Your Predictions ||| 10.18653/v1/2023.semeval-1.41 ||| 
+Case Law Grounding: Using Precedents to Align Decision-Making for Humans and AI ||| 10.48550/arXiv.2310.07019 ||| 2310.07019
+Generalization Analogies: A Testbed for Generalizing AI Oversight to Hard-To-Measure Domains ||| 10.48550/arXiv.2311.07723 ||| 2311.07723
+HeQ: a Large and Diverse Hebrew Reading Comprehension Benchmark ||| 10.18653/v1/2023.findings-emnlp.915 ||| 
+Safe RLHF ||| 10.48550/arXiv.2310.12773 ||| 2310.12773
+Disentangling Perceptions of Offensiveness: Cultural and Moral Correlates ||| 10.48550/arXiv.2312.06861 ||| 2312.06861
+Benchmarks for Automated Commonsense Reasoning: A Survey ||| 10.48550/arXiv.2302.04752 ||| 2302.04752
+Probing the Moral Development of Large Language Models through Defining Issues Test |||  ||| 2309.13356
+Denevil: Towards Deciphering and Navigating the Ethical Values of Large Language Models via Instruction Learning ||| 10.48550/arXiv.2310.11053 ||| 2310.11053
+Towards Measuring the Representation of Subjective Global Opinions in Language Models ||| 10.48550/arXiv.2306.16388 ||| 2306.16388
+EtiCor: Corpus for Analyzing LLMs for Etiquettes |||  ||| 2310.18974
+EtiCor: Corpus for Analyzing LLMs for Etiquettes ||| 10.18653/v1/2023.emnlp-main.428 ||| 
+Case Repositories: Towards Case-Based Reasoning for AI Alignment ||| 10.48550/arXiv.2311.10934 ||| 2311.10934
+From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models ||| 10.48550/arXiv.2305.08283 ||| 2305.08283
+What does ChatGPT return about human values? Exploring value bias in ChatGPT using a descriptive value theory |||  ||| 2304.03612
+FairPrism: Evaluating Multilingual Models for Unfairness and Toxicity |||  ||| 
+Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives ||| 10.48550/arXiv.2312.11970 ||| 2312.11970
+IslamicPCQA: A Dataset for Persian Multi-hop Complex Question Answering in Islamic Text Resources |||  ||| 2304.11664
+LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models |||  ||| 2308.11462
+COBBLER: A Scrutinizing Benchmark for Assessing the Cognitive Bias of Large Language Models as Evaluators |||  ||| 2309.17012
+FACET: Fairness in Computer Vision Evaluation Benchmark ||| 10.1109/ICCV51070.2023.01863 ||| 
+FFB: A Fair Fairness Benchmark for In-Processing Group Fairness Methods ||| 10.48550/arXiv.2306.09468 ||| 2306.09468
+I'm Fully Who I Am: Towards Centering Transgender and Non-Binary Voices to Measure Biases in Open Language Generation ||| 10.1145/3593013.3594094 ||| 
+The political ideology of conversational AI: Converging evidence on ChatGPT’s pro-environmental, left-libertarian orientation ||| 10.2139/ssrn.4316084 ||| 
+The Dutch Moral Foundations Stimulus Database: A Validation of Standardized Vignettes and Socio-Moral Images in a Dutch Sample ||| 10.31234/osf.io/ywhx2 ||| 
+A Multi-Level Framework for the AI Alignment Problem ||| 10.48550/arXiv.2301.03740 ||| 2301.03740
+Foundational Moral Values for AI Alignment ||| 10.48550/arXiv.2311.17017 ||| 2311.17017
+Flames: Benchmarking Value Alignment of LLMs in Chinese ||| 10.48550/arXiv.2311.06899 ||| 2311.06899
+AI Alignment: A Comprehensive Survey ||| 10.48550/arXiv.2310.19852 ||| 2310.19852
+BeaverTails |||  ||| 2307.04657
+Commonsense Norm Bank: 1.7M Moral Judgments for Generative Moral Reasoning |||  ||| 
+Safety Gymnasium: A Unified Safe Reinforcement Learning Environment |||  ||| 
+MACHIAVELLI: A Benchmark for Measuring Ethical Behavior and Power-Seeking in Large Language Models |||  ||| 2304.03279
+Challenges and Applications of Large Language Models ||| 10.48550/arXiv.2307.10169 ||| 2307.10169
+Estimating the Personality of White-Box Language Models ||| 10.48550/arXiv.2204.12000 ||| 2204.12000
+KOME: A Korean Dataset of Fine-Grained Moral Emotions |||  ||| 
+SemEval-2023 Task 10: Explainable Detection of Online Sexism (EDOS) |||  ||| 2303.04222
+Deontology and Utilitarianism in Real Life: A Set of Moral Dilemmas Based on Historic Events ||| 10.1177/01461672221103058 ||| 
+GandalfIgnoreInstructions |||  ||| 
+KoSBI: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Applications |||  ||| 
+VisAlign: Dataset for Measuring the Alignment between AI and Humans in Visual Perception |||  ||| 
+BIRD: BIg Bench for LaRge-scale Database Grounded Text-to-SQL Evaluation |||  ||| 
+Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs ||| 10.48550/arXiv.2305.03111 ||| 2305.03111
+Evaluating Object Hallucination in Large Vision-Language Models (POPE) |||  ||| 2305.10355
+HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models ||| 10.48550/arXiv.2305.11747 ||| 2305.11747
+On the steerability of large language models toward data-driven personas ||| 10.48550/arXiv.2311.04978 ||| 2311.04978
+ToxicChat: Unveiling Hidden Challenges of Toxicity Detection in Real-World User-AI Conversations |||  ||| 
+AgentBench: Evaluating LLMs as Agents ||| 10.48550/arXiv.2308.03688 ||| 2308.03688
+AlignBench: Benchmarking Chinese Alignment of Large Language Models ||| 10.48550/arXiv.2311.18743 ||| 2311.18743
+The Chai Platform's AI Safety Framework ||| 10.48550/arXiv.2306.02979 ||| 2306.02979
+The choice of deontological, virtue ethical, and consequentialist moral reasoning strategies by pre- and in-service police officers in the U.K.: an empirical study ||| 10.1080/10508422.2022.2124995 ||| 
+AI, alignment, and the categorical imperative ||| 10.1007/s43681-022-00160-w ||| 
+Islam QA: Web-scraped Islamic Question-Answer Corpus |||  ||| 
+Levels of AGI: Operationalizing Progress on the Path to AGI |||  ||| 2311.02462
+Bias on Demand: A Modelling Framework That Generates Synthetic Data With Bias ||| 10.1145/3593013.3594098 ||| 
+Kantian Deontology Meets AI Alignment: Towards Morally Grounded Fairness Metrics ||| 10.48550/arXiv.2311.05227 ||| 2311.05227
+AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages ||| 10.18653/v1/2023.emnlp-main.862 ||| 
+SemEval-2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval) ||| 10.48550/arXiv.2304.06845 ||| 2304.06845
+MoCa: Measuring Human-Language Model Alignment on Causal and Moral Judgment Tasks ||| 10.48550/arXiv.2310.19677 ||| 2310.19677
+AfroBench -- How Good are LLMs on African Languages? |||  ||| 2311.07978
+Culturally-Attuned Moral Machines: Implicit Learning of Human Value Systems by AI through Inverse Reinforcement Learning ||| 10.48550/arXiv.2312.17479 ||| 2312.17479
+AI Deception: A Survey of Examples, Risks, and Potential Solutions ||| 10.48550/arXiv.2308.14752 ||| 2308.14752
+Understanding Chinese Moral Stories with Further Pre-training (STORAL-ZH) ||| 10.5121/ijnlc.2023.12201 ||| 
+Large AI Models in Health Informatics: Applications, Challenges, and the Future ||| 10.1109/JBHI.2023.3316750 ||| 2303.11568
+Ethical Reasoning over Moral Alignment ||| 10.18653/v1/2023.findings-emnlp.892 ||| 
+What Makes it Ok to Set a Fire? Iterative Self-Distillation of Contexts and Rationales for Disambiguating Defeasible Social and Moral Situations |||  ||| 
+Benchmarking, ethical alignment, and evaluation framework for conversational AI: Advancing responsible development of ChatGPT ||| 10.1016/j.tbench.2023.100136 ||| 
+QASiNa: Religious Domain Question Answering using Sirah Nabawiyah ||| 10.48550/arXiv.2310.08102 ||| 2310.08102
+Towards ethical multimodal systems ||| 10.48550/arXiv.2304.13765 ||| 2304.13765
+Apolitical Intelligence? Auditing Delphi's responses on controversial political issues in the US ||| 10.48550/arXiv.2306.13000 ||| 2306.13000
+Towards Coding Social Science Datasets with Language Models ||| 10.48550/arXiv.2306.02177 ||| 2306.02177
+Whose Opinions Do Language Models Reflect? |||  ||| 2303.17548
+Evaluating the Moral Beliefs Encoded in LLMs ||| 10.48550/arXiv.2307.14324 ||| 2307.14324
+HackAPrompt: Automated Prompt Engineering for Attacking and Defending LLMs |||  ||| 
+Character-LLM: A Trainable Agent for Role-Playing |||  ||| 
+Large Language Model Alignment: A Survey ||| 10.48550/arXiv.2309.15025 ||| 2309.15025
+“Do Anything Now”: Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models ||| 10.48550/arXiv.2308.03825 ||| 
+NIST AI Risk Management Framework |||  ||| 
+Use and Abuse Normative Ethics Moral Machines ||| 10.3233/FAIA220614 ||| 
+Towards Theory-based Moral AI: Moral AI with Aggregating Models Based on Normative Ethical Theory |||  ||| 2306.11432
+How to Catch an AI Liar: Lie-Detection in Large Language Models |||  ||| 2309.15840
+HelpSteer: A-i Alignment Dataset |||  ||| 
+OpenAssistant Conversations (OASST1) |||  ||| 
+Values, Ethics, Morals? On the Use of Moral Concepts in NLP Research ||| 10.48550/arXiv.2310.13915 ||| 2310.13915
+DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models |||  ||| 2306.11698
+STREAM: Social data and knowledge collective intelligence platform for TRaining Ethical AI Models ||| 10.48550/arXiv.2310.05563 ||| 2310.05563
+CValues: Measuring the Values of Chinese Large Language Models from Safety to Responsibility ||| 10.48550/arXiv.2307.09705 ||| 2307.09705
+SC-Safety: A Multi-round Open-ended Question Adversarial Safety Benchmark for Large Language Models in Chinese ||| 10.48550/arXiv.2310.05818 ||| 2310.05818
+From Instructions to Intrinsic Human Values -- A Survey of Alignment Goals for Big Models ||| 10.48550/arXiv.2308.12014 ||| 2308.12014
+Value FULCRA: Mapping Large Language Models to the Multidimensional Spectrum of Basic Human Values ||| 10.48550/arXiv.2311.10766 ||| 2311.10766
+GPTFuzzer: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts |||  ||| 2309.10253
+Heterogeneous Value Alignment Evaluation for Large Language Models |||  ||| 2305.17147
+Large Language Models Are Not Robust Multiple Choice Selectors ||| 10.48550/arXiv.2309.03882 ||| 2309.03882
+A Survey of Large Language Models in Medicine: Progress, Application, and Challenge |||  ||| 
+NormBank: A Knowledge Bank of Situational Social Norms ||| 10.48550/arXiv.2305.17008 ||| 2305.17008
+Universal and Transferable Adversarial Attacks on Aligned Language Models |||  ||| 2307.15043
+The Multilingual Alignment Prism: Aligning Global and Local Preferences to Reduce Harm |||  ||| 
+Cooperation, Competition, and Maliciousness: LLM-Stakeholders Interactive Negotiation |||  ||| 2309.17234
+Moral Foundations of Large Language Models ||| 10.18653/v1/2024.emnlp-main.982 ||| 
+IrokoBench -- A Benchmark for African Languages in the Age of LLMs |||  ||| 2406.03368
+Towards Measuring and Modeling "Culture" in LLMs: A Survey ||| 10.48550/arXiv.2403.15412 ||| 2403.15412
+Ethical Reasoning and Moral Value Alignment of LLMs Depend on the Language We Prompt Them In ||| 10.48550/arXiv.2404.18460 ||| 2404.18460
+The Ethicsophical Landscape of Large Language Models |||  ||| 
+Whose Morality Do They Speak? Unraveling Cultural Bias in Multilingual Language Models ||| 10.48550/arXiv.2412.18863 ||| 2412.18863
+Jailbreaking LLMs with Arabic Transliteration and Arabizi |||  ||| 
+Investigating Cultural Alignment of LLMs |||  ||| 2402.13231
+Exploring the Psychology of LLMs' Moral and Legal Reasoning ||| 10.1016/j.artint.2024.104081 ||| 2308.01264
+Examining the Role of Relationship Alignment in Large Language Models ||| 10.48550/arXiv.2410.01708 ||| 2410.01708
+ForbiddenQuestions: A Benchmark of In-the-Wild Jailbreak Prompts ||| 10.1145/3658644.3670388 ||| 
+Foundational Challenges in Assuring Alignment and Safety of Large Language Models ||| 10.48550/arXiv.2404.09932 ||| 2404.09932
+Understanding hate speech: the HateInsights dataset and model interpretability ||| 10.7717/peerj-cs.2372 ||| 
+Nothing Comes Without Its World – Practical Challenges of Aligning LLMs to Situated Human Values through RLHF ||| 10.1609/aies.v7i1.31617 ||| 
+GenMO (Gender-bias in Morality Opinions) ||| 10.18653/v1/2024.findings-emnlp.928 ||| 
+Measuring Political Bias in LLMs: What Is Said and How It Is Said |||  ||| 2403.18932
+Optimized Quran Passage Retrieval Using an Expanded QA Dataset and Fine-Tuned Language Models |||  ||| 2412.11431
+FactBench: A Dynamic Benchmark for In-the-Wild Language Model Factuality Evaluation ||| 10.48550/arXiv.2410.22257 ||| 2410.22257
+Measuring What Matters -- Construct Validity in LLM Benchmarks |||  ||| 
+Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Arithmetic |||  ||| 
+NegotiationArena: How Well Can LLMs Negotiate? |||  ||| 2402.05863
+Beyond Human Norms ||| 10.48550/arXiv.2404.12744 ||| 2404.12744
+Legal Minds, Algorithmic Decisions: How LLMs Apply Constitutional Principles in Complex Scenarios ||| 10.48550/arXiv.2407.19760 ||| 2407.19760
+On The Stability of Moral Preferences: A Problem with Computational Elicitation Methods ||| 10.1609/aies.v7i1.31626 ||| 2408.02862
+SaGE: Evaluating Moral Consistency in Large Language Models ||| 10.48550/arXiv.2402.13709 ||| 2402.13709
+Large Language Models Reflect the Ideology of their Creators ||| 10.48550/arXiv.2410.18417 ||| 2410.18417
+High-Dimension Human Value Representation in Large Language Models ||| 10.48550/arXiv.2404.07900 ||| 2404.07900
+LLM for everyone : representing the underrepresented in large language models |||  ||| 
+The Moral Foundations Weibo Corpus |||  ||| 
+Rules, Cases, and Reasoning: Positivist Legal Theory as a Framework for Pluralistic AI Alignment ||| 10.48550/arXiv.2410.17271 ||| 2410.17271
+JBB-Behaviours: A Benchmark for Jailbreaking Bounded LLMs |||  ||| 2404.01318
+DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark for Large Language Models ||| 10.48550/arXiv.2403.00896 ||| 2403.00896
+EmotionQueen: A Benchmark for Evaluating Empathy of Large Language Models |||  ||| 2409.13359
+GMAI-MMBench: A Comprehensive Multimodal Evaluation Benchmark Towards General Medical AI ||| 10.48550/arXiv.2408.03361 ||| 2408.03361
+ToMBench: Benchmarking Theory of Mind in Large Language Models ||| 10.48550/arXiv.2402.15052 ||| 2402.15052
+BeHonest: Benchmarking Honesty in Large Language Models |||  ||| 2406.13261
+Evaluating Computational Models of Ethics ||| 10.1007/s43681-024-00532-4 ||| 
+DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life ||| 10.48550/arXiv.2410.02683 ||| 2410.02683
+AI Safety in Generative AI Large Language Models: A Survey ||| 10.48550/arXiv.2407.18369 ||| 2407.18369
+Social Choice for AI Alignment: Dealing with Diverse Human Feedback ||| 10.48550/arXiv.2404.10000 ||| 2404.10000
+Deontology and safe artificial intelligence ||| 10.1007/s11098-024-02174-y ||| 
+SaTML LLM CTF Dataset |||  ||| 2406.07954
+ABCFair: an Adaptable Benchmark approach for Comparing Fairness Methods |||  ||| 
+Contextual Moral Value Alignment Through Context-Based Aggregation ||| 10.48550/arXiv.2403.12805 ||| 2403.12805
+BELLS: A Framework Towards Future Proof Benchmarks for the Evaluation of LLM Safeguards |||  ||| 2406.01364
+GTBench: Uncovering the Strategic Reasoning Limitations of LLMs via Game-Theoretic Evaluations |||  ||| 2402.12348
+AI and Phronesis ||| 10.1515/mopp-2021-0026 ||| 
+AI and society: a virtue ethics approach ||| 10.1007/s00146-022-01545-5 ||| 
+MERA: A Comprehensive LLM Evaluation in Russian |||  ||| 
+Some Issues in Predictive Ethics Modeling: An Annotated Contrast Set of "Moral Stories" |||  ||| 2407.05244
+OffTheRails: Procedural Dilemma Generation for Moral Reasoning |||  ||| 2404.10975
+Uncovering Latent Human Wellbeing in Language Model Embeddings ||| 10.48550/arXiv.2402.11777 ||| 2402.11777
+The Ethics of Advanced AI Assistants ||| 10.48550/arXiv.2404.16244 ||| 2404.16244
+The Moral Turing Test: Evaluating Human-LLM Alignment in Moral Decision-Making ||| 10.48550/arXiv.2410.07304 ||| 2410.07304
+AEGIS: Online Adaptive AI Content Safety Moderation at Scale |||  ||| 2404.05993
+The AI Safety Benchmark |||  ||| 2404.12241
+Probabilistic medical predictions of large language models ||| 10.1038/s41746-024-01366-4 ||| 
+COMPL-AI (EU AI Act Compliance) |||  ||| 2410.07959
+Improving Model Evaluation using SMART Filtering of Benchmark Datasets ||| 10.48550/arXiv.2410.20245 ||| 2410.20245
+WalledEval |||  ||| 2408.03837
+Machine Psychology ||| 10.48550/arXiv.2303.13988 ||| 2303.13988
+Towards Geographic Inclusion in the Evaluation of Text-to-Image Models ||| 10.1145/3630106.3658927 ||| 2405.04457
+MedSafetyBench ||| 10.48550/arXiv.2403.03744 ||| 2403.03744
+Why do We Need to Employ Exemplars in Moral Education? Insights from Recent Research on Artificial Intelligence ||| N/A ||| 
+Is ETHICS about ethics? Evaluating the ETHICS benchmark ||| 10.48550/arXiv.2410.13009 ||| 2410.13009
+From applied ethics and ethical principles to virtue and narrative in AI practices ||| 10.1007/s43681-024-00472-z ||| 
+Introduction to AI Safety, Ethics, and Society ||| 10.48550/arXiv.2411.01042 ||| 2411.01042
+VIVA: A Benchmark for Vision-Grounded Decision-Making with Human Values |||  ||| 2407.03000
+TrustAgent: Towards Safe and Trustworthy LLM-based Agents ||| 10.48550/arXiv.2402.01586 ||| 2402.01586
+CBBQ: A Chinese Bias Benchmark Dataset Curated with Human–AI Collaboration |||  ||| 
+Collective Constitutional AI: Aligning a Language Model with Public Input ||| 10.1145/3630106.3658979 ||| 2406.07814
+EmotionBench (Apathetic or Empathetic?): Evaluating LLMs' Emotional Alignments with Humans |||  ||| 2308.03656
+Flames |||  ||| 2311.06899
+Moral Persuasion in Large Language Models |||  ||| 2411.11731
+TrustLLM ||| 10.48550/arXiv.2401.05561 ||| 2401.05561
+Norm Inconsistency in LLM Decision-Making ||| 10.1609/aies.v7i1.31665 ||| 2405.14812
+PolygloToxicityPrompts: Multilingual Evaluation of Neural Toxic Degeneration in Large Language Models ||| 10.48550/arXiv.2405.09373 ||| 2405.09373
+MoralBench ||| 10.48550/arXiv.2406.04428 ||| 2406.04428
+Can Language Models Reason about Individualistic Human Values and Preferences? ||| 10.48550/arXiv.2410.03868 ||| 2410.03868
+WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models ||| 10.48550/arXiv.2406.18510 ||| 2406.18510
+Language Model Alignment in Multilingual Trolley Problems ||| 10.48550/arXiv.2407.02273 ||| 2407.02273
+Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models? |||  ||| 2406.16316
+Through Eudaimonia's Lenses: EudAImonic Well-Being Variables As Guiding Principles For AI Design ||| N/A ||| 
+The Emergence of Strategic Reasoning of Large Language Models |||  ||| 2412.13013
+HELM Safety: Towards Standardized Safety Evaluations of Language Models |||  ||| 
+Eagle: Ethical Dataset Given from Real Interactions ||| 10.48550/arXiv.2402.14258 ||| 2402.14258
+Are the Values of LLMs Structurally Aligned with Humans? A Causal Perspective ||| 10.48550/arXiv.2501.00581 ||| 2501.00581
+Inducing Human-like Biases in Moral Reasoning Language Models ||| 10.48550/arXiv.2411.15386 ||| 2411.15386
+On the Pros and Cons of Active Learning for Moral Preference Elicitation ||| 10.1609/aies.v7i1.31673 ||| 2407.18889
+Strong and weak alignment of large language models ||| 10.48550/arXiv.2408.04655 ||| 2408.04655
+Do Moral Judgment and Reasoning Capability of LLMs Change with Language? A Study using the Multilingual Defining Issues Test ||| 10.48550/arXiv.2402.02135 ||| 2402.02135
+Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs ||| 10.1145/3677525.3678666 ||| 2309.08573
+Multilingual Defining Issues Test ||| 10.18653/v1/2024.eacl-long.176 ||| 
+How Do Moral Emotions Shape Political Participation? A Cross-Cultural Analysis of Online Petitions Using Language Models ||| 10.18653/v1/2024.findings-acl.963 ||| 
+TRIAGE: Ethical Benchmarking of AI Models Through Mass Casualty Simulations |||  ||| 2410.18991
+Differences in Moral Foundations of LLMs |||  ||| 2511.11790
+The PRISM Alignment Project: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models |||  ||| 2404.16019
+Pluralistic Alignment Over Time |||  ||| 2411.10654
+Artificial moral intelligence and computability: an Aristotelian perspective ||| 10.1007/s43681-024-00543-1 ||| 
+A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations ||| 10.48550/arXiv.2407.04069 ||| 2407.04069
+Benchmarking Fairness in Image Upsampling |||  ||| 
+Frontier AI Ethics: Anticipating and Evaluating the Societal Impacts of Language Model Agents |||  ||| 
+KorNAT: LLM Alignment Benchmark for Korean Social Values and Common Knowledge ||| 10.18653/v1/2024.findings-acl.666 ||| 
+Ten Hard Problems in Artificial Intelligence We Must Get Right |||  ||| 
+Religious Affiliation and Conceptions of the Moral Domain |||  ||| 
+Benchmarking Ethics in Text-to-Image Models: A Holistic Dataset and Evaluator for Fairness, Toxicity, and Privacy |||  ||| 
+OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety |||  ||| 2403.12316
+Quantifying AI Psychology: A Psychometrics Benchmark for Large Language Models ||| 10.48550/arXiv.2406.17675 ||| 2406.17675
+SALAD-Bench: A Hierarchical and Comprehensive Safety Benchmark for Large Language Models |||  ||| 
+THRONE: An Object-based Hallucination Benchmark for the Free-form Generations of Large Vision-Language Models |||  ||| 2405.05256
+The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning ||| 10.48550/arXiv.2403.03218 ||| 2403.03218
+Value-Spectrum: Quantifying Preferences of Vision-Language Models via Value Decomposition in Social Media Contexts ||| 10.48550/arXiv.2411.11479 ||| 2411.11479
+Synth-Empathy: Towards High-Quality Synthetic Empathy Data |||  ||| 2407.21669
+AI-Face: A Million-Scale Demographically Annotated AI-Generated Face Dataset and Fairness Benchmark |||  ||| 2406.00783
+Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment |||  ||| 2402.19085
+CultureAtlas: A Benchmark for Testing Cross-Cultural Knowledge in Large Language Models |||  ||| 2402.09369
+Evaluating Moral Beliefs across LLMs through a ||| 10.48550/arXiv.2411.03665 ||| 2411.03665
+JAILJUDGE |||  ||| 2410.12855
+The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery ||| 10.48550/ARXIV.2408.06292 ||| 2408.06292
+HalluDial: A Large-Scale Benchmark for Automatic Dialogue-Level Hallucination Evaluation ||| 10.48550/arXiv.2406.07070 ||| 2406.07070
+Realistic Evaluation of Toxicity in Large Language Models |||  ||| 2405.10659
+MLCommons AILuminate Benchmark |||  ||| 
+The Greatest Good Benchmark: Measuring LLMs’ Alignment with Utilitarian Moral Dilemmas ||| 10.18653/v1/2024.emnlp-main.1224 ||| 
+Hadith QA Pairs Dataset |||  ||| 
+HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal |||  ||| 2402.04249
+How Ethical Is Utilitarian Ethics? A Study in Artificial Intelligence ||| 10.2139/ssrn.4731871 ||| 
+LocalValueBench: A Collaboratively Built and Extensible Benchmark for Evaluating Localized Value Alignment and Ethical Safety in Large Language Models ||| 10.48550/arXiv.2408.01460 ||| 2408.01460
+A holistic ubuntu artificial intelligence ethics approach in South Africa ||| 10.4102/ve.v45i1.3100 ||| 
+BEAF |||  ||| 2407.13442
+Are Large Language Models Consistent over Value-laden Questions? ||| 10.48550/arXiv.2407.02996 ||| 2407.02996
+Intuitions of Compromise: Utilitarianism vs. Contractualism ||| 10.48550/arXiv.2410.05496 ||| 2410.05496
+SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types |||  ||| 
+EAI -- Emotional Decision-Making of LLMs in Strategic Games and Ethical Dilemmas |||  ||| 
+Can an AI-carebot be filial? Reflections from Confucian ethics ||| 10.1177/09697330241238332 ||| 
+People Expect Artificial Moral Advisors to be More Utilitarian and Distrust Utilitarian Moral Advisors ||| 10.1016/j.cognition.2024.106028 ||| 
+The Goofus & Gallant Story Corpus for Practical Value Alignment ||| 10.1109/ICMLA61862.2024.00098 ||| 2501.09707
+Conscience Conflict: Evaluating Language Models' Moral Understanding |||  ||| 2405.11100
+AI Ethics with Aristotle |||  ||| 
+The Lyceum Project: AI Ethics with Aristotle ||| N/A ||| 
+Value Imprint ||| 10.48550/arXiv.2411.11937 ||| 2411.11937
+The Ubuntu Way ||| 10.12688/wellcomeopenres.23021.1 ||| 
+Extended Japanese Commonsense Morality Dataset with Masked Token and Label Enhancement ||| 10.1145/3627673.3679924 ||| 2410.09564
+SwaQuAD-24: A Benchmark Dataset for Question Answering in Swahili |||  ||| 2410.14289
+Learning Social Welfare Functions ||| 10.48550/arXiv.2410.15000 ||| 2410.15000
+Morality is Non-Binary ||| 10.48550/arXiv.2401.17228 ||| 2401.17228
+Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents ||| 10.48550/arXiv.2404.16698 ||| 2404.16698
+Moral High Ground: A text-based games benchmark for moral evaluation |||  ||| 
+CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models ||| 10.1609/aies.v7i1.31710 ||| 
+Hidden Persuaders: LLMs' Political Leaning and Their Influence on Voters |||  ||| 2410.24190
+LLM-Human Pipeline for Cultural Context Grounding of Conversations ||| 10.48550/arXiv.2410.13727 ||| 2410.13727
+CogniModal-D: A Multimodal Deception Detection Dataset |||  ||| 
+A Benchmark Dataset with Larger Context for Non-Factoid QA over Islamic Text |||  ||| 2409.09844
+ProgressGym: Alignment with a Millennium of Moral Progress ||| 10.48550/arXiv.2406.20087 ||| 2406.20087
+DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation ||| 10.48550/arXiv.2406.09155 ||| 2406.09155
+Moral Association Graph: Cognitive Model for Interpretable Moral Inference ||| 10.1111/tops.12774 ||| 
+Concept Alignment ||| 10.48550/arXiv.2401.08672 ||| 2401.08672
+A Comprehensive Survey of Bias in LLMs: Current Landscape and Future Directions |||  ||| 2409.16430
+Gaps in the Safety Evaluation of Generative AI ||| 10.1609/aies.v7i1.31717 ||| 
+Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress? ||| 10.48550/arXiv.2407.21792 ||| 2407.21792
+ValueBench: Towards Comprehensively Evaluating Value Orientations and Understanding of Large Language Models ||| 10.48550/arXiv.2406.04214 ||| 2406.04214
+BetterBench: Assessing AI Benchmarks, Uncovering Issues and Opportunities |||  ||| 2411.12990
+Machine Ethics and the Architecture of Virtue ||| 10.1007/978-3-031-48855-9_29 ||| 
+The Yarning Corpus: Aboriginal English in Southwest Western Australia ||| 10.1080/07268602.2024.2380661 ||| 
+SafetyPrompts: Systematic Review of Open Datasets for LLM Safety |||  ||| 2404.05399
+The Political Preferences of LLMs ||| 10.1371/journal.pone.0306621 ||| 
+Unintended Impacts of LLM Alignment on Global Representation ||| 10.18653/v1/2024.acl-long.853 ||| 
+Political Compass or Spinning Arrow? Towards More Meaningful Evaluations for Values and Opinions in Large Language Models ||| 10.48550/arXiv.2402.16786 ||| 2402.16786
+XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models |||  ||| 
+EmoBench: Evaluating the Emotional Intelligence of Large Language Models |||  ||| 2402.12071
+PSN: A Dataset of Persian Social Norms for Cross‑Cultural AI |||  ||| 2406.09123
+IndiBias -- Benchmark Dataset for Social Biases in Indian Context |||  ||| 2403.20147
+A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI |||  ||| 
+Artificial Intelligence, Discrimination, Fairness, and Other Moral Concerns ||| 10.1007/s11023-024-09702-z ||| 
+Fine-Tuning Language Models for Ethical Ambiguity: A Comparative Study of Alignment with Human Responses ||| 10.48550/arXiv.2410.07826 ||| 2410.07826
+The Moral Mind(s) of Large Language Models ||| 10.48550/arXiv.2412.04476 ||| 2412.04476
+Towards Understanding Sycophancy in Language Models |||  ||| 2310.13548
+EmpathicStories++: A Multimodal Dataset for Empathy towards Personal Experiences |||  ||| 2405.15708
+Large Language Model Safety: A Holistic Survey ||| 10.48550/arXiv.2412.17686 ||| 2412.17686
+Aya Dataset: A Massively Multilingual Instruction-Tuned Dataset |||  ||| 2402.07827
+AyaRedTeaming: A Benchmark for Exploring Alignment Across Global and Local Preferences |||  ||| 2406.18682
+Living well with AI: Virtue, education, and artificial intelligence ||| 10.1177/14778785241231561 ||| 
+How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas ||| N/A ||| 
+How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas |||  ||| 2601.16513
+A Roadmap to Pluralistic Alignment ||| 10.48550/arXiv.2402.05070 ||| 2402.05070
+Value Kaleidoscope ||| 10.1609/aaai.v38i18.29970 ||| 2309.00779
+Ethical Alignment of LLMs in Healthcare: Does GPT-o1 Adopt a Deontological or Utilitarian Approach? ||| 10.1101/2024.09.18.24313931 ||| 
+StrongREJECT: A Benchmark for Evaluating the Robustness of LLMs to Rejection Sampling |||  ||| 2402.10260
+Functional Benchmarks for Robust Evaluation of Reasoning Performance, and the Reasoning Gap ||| 10.48550/arXiv.2402.19450 ||| 2402.19450
+Computational Complexity of Ethics ||| 10.1007/s10462-024-10732-3 ||| 2302.04218
+LLMs achieve adult human performance on higher-order theory of mind tasks |||  ||| 2405.18870
+The interconnectedness between Ubuntu principles and generative artificial intelligence in distance higher education institutions ||| 10.1007/s44217-024-00289-2 ||| 
+Benchmarking Hallucination in Large Language Models based on Unanswerable Math Word Problem ||| 10.48550/arXiv.2403.03558 ||| 2403.03558
+ClarityEthic: Explainable Moral Judgment Utilizing Contrastive Ethical Insights from Large Language Models ||| 10.48550/arXiv.2412.12848 ||| 2412.12848
+Towards Friendly AI: A Comprehensive Review and New Perspectives on Human-AI Alignment ||| N/A ||| 2412.15114
+Virtuous AI? Some Considerations from the Aristotelian-Thomistic Perspective ||| 10.35765/forphil.2024.2902.08 ||| 
+The moral machine experiment on large language models ||| 10.1098/rsos.231393 ||| 
+FABLE (Fairness and Bias in LLM Evaluation) |||  ||| 2502.05849
+GuardBench |||  ||| 
+WildGuard: Open One-Stop Moderation Tools for Safety Risks, Jailbreaks, and Refusals of LLMs |||  ||| 2406.18495
+Dynamics of Moral Behavior in Heterogeneous Populations ||| 10.48550/arXiv.2403.04202 ||| 2403.04202
+Chinese SafetyQA -- A Safety Short-form Factuality Benchmark |||  ||| 2412.15265
+Exploring and steering the moral compass of Large Language Models ||| 10.48550/arXiv.2405.17345 ||| 2405.17345
+NaijaHate: Evaluating Hate Speech Detection on Nigerian Twitter Using Representative Data ||| 10.48550/arXiv.2403.19260 ||| 2403.19260
+Why AI May Undermine Phronesis and What to Do about It ||| 10.1007/s43681-024-00617-0 ||| 
+CharacterEval |||  ||| 2401.01275
+HypoTermQA: Hypothetical Terms Dataset for Benchmarking Hallucination Tendency of LLMs |||  ||| 
+ETHICS WHITEPAPER: Whitepaper on Ethical Research into Large Language Models |||  ||| 
+The AI Mirror: How to Reclaim Our Humanity in an Age of Machine Thinking ||| 10.1093/oso/9780197759080.001.0001 ||| 
+SGBench: A Benchmark for Evaluating the Safety of Generative AI |||  ||| 2410.21965
+Decolonial AI Alignment -- Openness, Visesa-Dharma, and Including Excluded Knowledges ||| 10.5555/3716662.3716790 ||| 2309.05030
+All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages ||| 10.48550/arXiv.2411.16508 ||| 2411.16508
+Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment |||  ||| 2407.15184
+FairJob: A Real-World Dataset for Fairness in Online Systems ||| 10.48550/arXiv.2407.03059 ||| 2407.03059
+A Comprehensive Survey of LLM Alignment Techniques: RLHF, RLAIF, PPO, DPO and More ||| 10.48550/arXiv.2407.16216 ||| 2407.16216
+All Languages Matter: On the Multilingual Safety of Large Language Models |||  ||| 
+Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs |||  ||| 
+Fake Alignment (FINE Framework) |||  ||| 2510.05703
+Possibilities and challenges in the moral growth of large language models: a philosophical perspective ||| 10.1007/s10676-024-09818-x ||| 
+PARIKSHA: A Large-Scale Investigation of Human-LLM Evaluator Agreement on Multilingual and Multi-Cultural Data ||| 10.48550/arXiv.2406.15053 ||| 2406.15053
+Holistic Safety and Responsibility Evaluations of Advanced AI Models ||| 10.48550/arXiv.2404.14068 ||| 2404.14068
+Socratic Dialogue for Virtue Ethics in AI |||  ||| 
+The Humanistic Buddhism Corpus (HBC) |||  ||| 
+Macro Ethics Principles for Responsible AI Systems: Taxonomy and Future Directions ||| 10.1145/3672394 ||| 2208.12616
+AutoHallusion: Automatic Generation of Hallucination Benchmarks for Vision-Language Models ||| 10.48550/arXiv.2406.10900 ||| 2406.10900
+WorldValuesBench: A Large-Scale Benchmark Dataset for Multi-Cultural Value Awareness of Language Models |||  ||| 2404.16308
+Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method |||  ||| 2402.15813
+Course-Correction: Safety Alignment Using Synthetic Preferences ||| 10.48550/arXiv.2407.16637 ||| 2407.16637
+MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration |||  ||| 2311.08562
+M$^3$oralBench: A MultiModal Moral Benchmark for LVLMs ||| 10.48550/arXiv.2412.20718 ||| 2412.20718
+JBBQ: A Japanese Benchmark for Evaluating Bias and Fairness in Question Answering |||  ||| 2406.02050
+DistillSeq: A Framework for Safety Alignment Testing in Large Language Models using Knowledge Distillation ||| 10.1145/3650212.3680304 ||| 2407.10106
+LLM Voting: Human Choices and AI Collective Decision-Making ||| 10.1609/aies.v7i1.31758 ||| 2402.01766
+CLAVE / ValEval |||  ||| 2407.10725
+Measuring Human and AI Values Based on Generative Psychometrics with Large Language Models ||| 10.48550/arXiv.2409.12106 ||| 2409.12106
+SafeAgentBench |||  ||| 2412.13178
+CMoralEval ||| 10.18653/v1/2024.findings-acl.703 ||| 
+R-Judge |||  ||| 2401.10019
+Social (Measuring Social Norms of LLMs) |||  ||| 2404.02491
+AIR-Bench 2024: A Safety Benchmark Based on Risk Categories from Regulations and Policies ||| 10.48550/arXiv.2407.17436 ||| 2407.17436
+Quantifying Risk Propensities of Large Language Models: Ethical Focus and Bias Detection through Role-Play ||| 10.48550/arXiv.2411.08884 ||| 2411.08884
+Agent-SafetyBench: Evaluating the Safety of LLM Agents |||  ||| 2412.14470
+CHiSafetyBench: A Chinese Hierarchical Safety Benchmark for Large Language Models |||  ||| 2406.10311
+ChineseSafe -- A Chinese Benchmark for Evaluating Safety in LLMs |||  ||| 2410.18491
+Edu-Values -- Evaluating Chinese Education Values of LLMs ||| 10.1145/3701716.3715518 ||| 2409.12739
+SafetyBench: Evaluating the Safety of Large Language Models |||  ||| 2309.07045
+ValueDCG: Measuring Comprehensive Human Value Understanding Ability of Language Models ||| 10.48550/arXiv.2310.00378 ||| 2310.00378
+CoSafe: Evaluating Large Language Model Safety in Multi-Turn Dialogue Coreference |||  ||| 2406.17626
+ALI-Agent -- Assessing LLMs' Alignment with Human Values via Agent-based Evaluation |||  ||| 2405.14125
+Beyond Preferences in AI Alignment ||| 10.1007/s11098-024-02249-w ||| 2408.16984
+Rethinking Machine Ethics – Can LLMs Perform Moral Reasoning through the Lens of Moral Theories? ||| 10.18653/v1/2024.findings-naacl.144 ||| 
+Unveiling the Bias Impact on Symmetric Moral Consistency of Large Language Models |||  ||| 
+Agent-as-a-Judge: Evaluate Agents with Agents ||| 10.48550/arXiv.2410.10934 ||| 2410.10934
+ÌròyìnSpeech: A Multi-purpose Yorùbá Speech Corpus |||  ||| 2307.16071
+AI Ethics by Design: Implementing Customizable Guardrails for Responsible AI Development ||| 10.48550/arXiv.2411.14442 ||| 2411.14442
+HalluVerse25: Fine-grained Multilingual Benchmark Dataset for LLM Hallucinations ||| 10.48550/arXiv.2503.07833 ||| 2503.07833
+From Surveys to Narratives: Rethinking Cultural Value Adaptation in LLMs |||  ||| 2505.16408
+Toward global ethical frameworks for AI: Aligning Artificial Intelligence with human values and progress ||| 10.5281/zenodo.XXXXX ||| 
+Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment |||  ||| 2505.21548
+Letta Leaderboard: Benchmarking Agentic Memory in LLMs |||  ||| 
+Virtue Ethics by Design: Embedding Morality into AGI and ASI ||| 10.1007/978-3-031-99965-9_36 ||| 
+Playing Repeated Games with Large Language Models ||| 10.1038/s41562-025-02172-y ||| 2305.16867
+Yankari: Monolingual Yoruba Dataset |||  ||| 
+Hajj-FQA: A benchmark Arabic dataset for developing question-answering systems on Hajj fatwas ||| 10.1007/s44443-025-00128-w ||| 
+AraTrust -- An Evaluation of Trustworthiness for LLMs in Arabic |||  ||| 2403.09017
+Saudi-Alignment Benchmark -- Assessing LLMs Alignment with Saudi Cultural and Ethical Norms |||  ||| 
+Data Curation for Pluralistic Alignment |||  ||| 
+Palm: A Culturally Inclusive and Linguistically Diverse Dataset for Arabic LLMs ||| 10.48550/arXiv.2503.00151 ||| 2503.00151
+PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture |||  ||| 2509.02550
+MoralReason ||| 10.48550/arXiv.2511.12271 ||| 2511.12271
+Model Misalignment and Language Change: Traces of AI-Associated Language in Unscripted Spoken English ||| 10.48550/arXiv.2508.00238 ||| 2508.00238
+Do LLMs Walk Their Talk? Multi-Method Moral Evaluation Framework |||  ||| 2512.01568
+AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents ||| 10.48550/arXiv.2410.09024 ||| 2410.09024
+BEATS: Bias Evaluation and Assessment Test Suite for Large Language Models |||  ||| 2503.24310
+"Do Your Guardrails Even Guard?" Evaluating Moderation Guardrails for LLM Alignment ||| 10.1609/aies.v8i1.36583 ||| 
+A Framework for Analyzing and Measuring Goal Drift in Language Model Agents |||  ||| 2505.02709
+Deep Value Benchmark |||  ||| 2511.02109
+Kantian-Utilitarian XAI: Meta-Explained ||| 10.48550/arXiv.2510.03892 ||| 2510.03892
+When Ethics and Payoffs Diverge: LLM Agents in Morally Charged Social Dilemmas ||| 10.48550/arXiv.2505.19212 ||| 2505.19212
+CharMoral |||  ||| 
+SafeInfer: Context Adaptive Decoding Time Safety Alignment for Large Language Models |||  ||| 
+HalluLens: LLM Hallucination Benchmark |||  ||| 2504.17550
+RLHF Whose Culture Whose Values ||| 10.1007/s13347-025-00861-0 ||| 2407.17482
+Measuring Moral LLM Responses in Multilingual Capacities |||  ||| 2510.08776
+GermanPartiesQA: Benchmarking LLMs for Political Alignment and Sycophancy ||| 10.1609/aies.v8i1.36552 ||| 2407.18008
+Aggregation Problems in Machine Ethics and AI Alignment ||| 10.1609/aies.v8i1.36554 ||| 
+Stay Focused: Problem Drift in Multi-Agent Debate ||| 10.48550/arXiv.2502.19559 ||| 2502.19559
+The Moralization Corpus |||  ||| 2512.15248
+AI Safety Uncertainty Incomplete Preferences ||| 10.48550/arXiv.2512.23508 ||| 2512.23508
+LLM-Safety Evaluations Lack Robustness |||  ||| 2503.02574
+Healthcare Ethics & Safety QA (China -- Healthy China 2030) |||  ||| 2505.07205
+Fine-tuning Large Language Model (BERT) for Islamic Moral Inquiry and Response ||| 10.31436/ijpcc.v11i1.533 ||| 
+How to Assess Your LLM Use Case for Bias and Fairness with LangFair |||  ||| 
+QIAS 2025 -- Shared Task on Islamic Inheritance Reasoning and Knowledge Assessment |||  ||| 
+Persuade Me if You Can (PMIYC): A Framework for Evaluating Persuasion Effectiveness and Susceptibility |||  ||| 2503.01829
+Black Box Deployed ||| 10.48550/arXiv.2507.13175 ||| 2507.13175
+Wide Reflective Equilibrium in LLM Alignment: Bridging Moral Epistemology and AI Safety ||| N/A ||| 2506.00415
+Virtue Ethics and Postponing Human Extinction ||| 10.1001/amajethics.2025.611 ||| 
+Large Language Models meet moral values: A comprehensive assessment of moral abilities ||| 10.1016/j.chbr.2025.100609 ||| 
+AI Alignment at Your Discretion ||| 10.1145/3715275.3732194 ||| 2502.10441
+SafeDialBench: A Fine-Grained Safety Benchmark for Large Language Models in Multi-Turn Dialogues with Diverse Jailbreak Attacks |||  ||| 2502.11090
+PERSONA (Pluralistic Alignment Testbed) |||  ||| 2407.17387
+Batayan: A Filipino NLP benchmark for evaluating Large Language Models |||  ||| 2502.14911
+Personal Consultations Case Study Database |||  ||| 
+Structured Moral Reasoning in Language Models: A Value-Grounded Evaluation Framework ||| 10.48550/arXiv.2506.14948 ||| 2506.14948
+RLHF Deciphered ||| 10.1145/3743127 ||| 
+AVHBench: A Cross-Modal Hallucination Benchmark for Audio-Visual Large Language Models |||  ||| 2410.18325
+LLMsPark: A Benchmark for Evaluating LLMs in Strategic Gaming Contexts |||  ||| 2509.16610
+Leveraging large language models to assist philosophical counseling: prospective techniques, value, and challenges ||| 10.1057/s41599-025-04657-7 ||| 
+MoVa: Towards Generalizable Classification of Human Morals and Values |||  ||| 2509.24216
+SPICA (Scenarios for Pluralistic In-Context Alignment) |||  ||| 2411.10912
+SYNTHEMPATHY: A Scalable Empathy Corpus Generated Using LLMs Without Any Crowdsourcing |||  ||| 2502.17857
+ELEPHANT (Social Sycophancy) |||  ||| 2505.13995
+Large language models show amplified cognitive biases in moral decision-making ||| 10.1073/pnas.2412015122 ||| 
+CulturalBench: A Robust, Diverse, and Challenging Cultural Benchmark by Human-AI CulturalTeaming ||| 10.48550/arXiv.2410.02677 ||| 2410.02677
+MoReBench ||| 10.48550/arXiv.2510.16380 ||| 2510.16380
+Will AI Tell Lies to Save Sick Children? Litmus-Testing AI Values Prioritization with AIRiskDilemmas ||| 10.48550/arXiv.2505.14633 ||| 2505.14633
+Between a Rock and a Hard Place (TRIAL) |||  ||| 2509.05367
+RabakBench: Scaling Human Annotations to Construct Localized Multilingual Safety Benchmarks for Low-Resource Languages ||| 10.48550/arXiv.2507.05980 ||| 2507.05980
+Technical Risks of (Lethal) Autonomous Weapons Systems |||  ||| 
+The Vals Legal AI Report (VLAIR) |||  ||| 
+Design Patterns for the Common Good ||| 10.1145/3706598.3713546 ||| 2501.10288
+Morality in AI ||| N/A ||| 2511.20689
+TRAIL: Trace Reasoning and Agentic Issue Localization ||| 10.48550/arXiv.2505.08638 ||| 2505.08638
+Who Gets the Kidney? Human-AI Alignment, Indecision, and Moral Values ||| 10.48550/arXiv.2506.00079 ||| 2506.00079
+AI Language Model Rivals Expert Ethicist ||| 10.1038/s41598-025-86510-0 ||| 
+Concerns and Values in Human-Robot Interactions: A Focus on Social Robotics |||  ||| 2501.05628
+AdAEM: Adaptively and Automated Extensible Measurement for Value Alignment |||  ||| 2505.13531
+Addressing Moral Uncertainty using Large Language ||| 10.48550/arXiv.2503.05724 ||| 2503.05724
+EtiCor++: Towards Understanding Etiquettical Bias in LLMs |||  ||| 2506.08488
+Corpus-Based Medical Ethics Decision-Making Evaluation ||| 10.3233/SHTI250854 ||| 
+Towards Attuned AI: Integrating Care Ethics in Large Language Model Development and Alignment ||| N/A ||| 
+The Ethics of Digital Ghosts: Confucian, Mohist, and Zhuangist Perspectives on AI and Death ||| 10.4324/9781003632658 ||| 
+Syntactic Framing Fragility (SFF): Robustness Evaluation of LLM Ethical Decisions |||  ||| 2601.09724
+Reward Model Perspectives on Demographic Alignment (Elle et al.) |||  ||| 2510.06391
+NaijaVoices: A Multi-lingual, Multi-task, and Multi-domain Benchmark for Nigerian Languages |||  ||| 2505.20564
+Can We Trust AI Benchmarks? An Interdisciplinary Review ||| 10.1609/aies.v8i1.36595 ||| 2502.06559
+FAIRMT-BENCH: BENCHMARKING FAIRNESS FOR MULTI-TURN DIALOGUE IN CONVERSATIONAL LLMS |||  ||| 
+LEXam |||  ||| 2505.12864
+SycEval: Evaluating LLM Sycophancy ||| 10.1609/aies.v8i1.36598 ||| 2502.08177
+One Model, Many Morals: Uncovering Cross-Linguistic Misalignments in Computational Moral Reasoning ||| 10.48550/arXiv.2509.21443 ||| 2509.21443
+The Cultural Gene of Large Language Models: A Study on the Impact of Cross-Corpus Training on Model Values and Biases ||| 10.48550/arXiv.2508.12411 ||| 2508.12411
+ERPO: Advancing Safety Alignment via Ex-Ante Reasoning Preference Optimization ||| 10.48550/arXiv.2504.02725 ||| 2504.02725
+BenchMoral: A benchmarking to assess the moral sensitivity of large language models (LLMs) in Spanish |||  ||| 
+Nicer Than Humans: How Do Large Language Models Behave in the Prisoner's Dilemma? |||  ||| 2406.13605
+MME-CoT: Benchmarking Chain-of-Thought in Large Multimodal Models |||  ||| 2502.09621
+AI Alignment as Fair Treatment of Claims ||| 10.1007/s11098-025-02300-4 ||| 
+Beyond Ethical Alignment: Evaluating LLMs as Artificial Moral Assistants ||| 10.48550/arXiv.2508.12754 ||| 2508.12754
+MIST: Moral Inference through Storytelling with Text and Images ||| 10.1145/3746252.3760884 ||| 
+Exploring LLM Chatbots as Potential Guides to Virtue Ethics: Limits and Possibilities, with a Case Study on Euthanasia ||| 10.1080/14746700.2025.2514300 ||| 
+EVALUESTEER: Measuring Reward Model Steerability Across Value Dimensions |||  ||| 2510.06370
+AEGIS 2.0 |||  ||| 2501.09004
+Virtue in the Machine: Beyond a One-size-fits-all Approach and Aristotelian Ethics for Artificial Intelligence ||| N/A ||| 
+AI practical wisdom and compassion ||| 10.1007/s43681-025-00877-4 ||| 
+AILuminate: Introducing v1.0 of the AI Risk and Reliability Benchmark from MLCommons |||  ||| 2503.05731
+CARE -- Multilingual Human Preference Learning for Cultural Awareness |||  ||| 2504.05154
+VAL-Bench: Belief Consistency as a Measure for Value Alignment |||  ||| 2510.05465
+Value Portrait |||  ||| 2505.01015
+Revisiting the Trolley Problem for AI: Biases and Stereotypes in Large Language Models and their Impact on Ethical Decision-Making |||  ||| 
+Navigating the Political Compass (Multilingual, 50 Countries) |||  ||| 2506.22493
+The PacifAIst Benchmark:Would an Artificial Intelligence Choose to Sacrifice Itself for Human Safety? ||| 10.48550/arXiv.2508.09762 ||| 2508.09762
+Measuring AI Alignment with Human Flourishing ||| 10.48550/arXiv.2507.07787 ||| 2507.07787
+NormGenesis: Multicultural Dialogue Generation Dataset |||  ||| 2509.18395
+PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice |||  ||| 2508.05132
+BRAND: Bilingual Religious Accountable Norm Dataset |||  ||| 2512.03943
+EmoBench-M: Benchmarking Emotional Intelligence for Multimodal Large Language Models |||  ||| 2502.04424
+LLMs on Trial: Evaluating Judicial Fairness for Large Language Models (JudiFair) |||  ||| 2507.10852
+DeceptionBench: A Comprehensive Benchmark for AI Deception Behaviors in Real-world Scenarios |||  ||| 2510.15501
+Model Editing as a Double-Edged Sword: Steering Agent Ethical Behavior Toward Beneficence or Harm ||| 10.48550/arXiv.2506.20606 ||| 2506.20606
+On the Trustworthiness of Generative Foundation Models: Guideline, Assessment, and Perspective ||| 10.48550/arXiv.2502.14296 ||| 2502.14296
+SI-Bench: Benchmarking Social Intelligence of Large Language Models in Human-to-Human Conversations |||  ||| 2510.23182
+Values in the Wild: Discovering and Analyzing Values in Real AI Interactions |||  ||| 2504.15236
+Decoding Moral Responses in AI ||| 10.1016/j.chbr.2025.100854 ||| 
+A Companion to Applied Philosophy of AI ||| 10.1002/9781119809449 ||| 
+How LLM Counselors Violate Ethical Standards in Mental Health Practice ||| 10.1609/aies.v8i1.36632 ||| 
+2025 AI Safety Index |||  ||| 
+The FACTS Grounding Leaderboard: Benchmarking LLMs’ Ability to Ground Responses to Long-Form Input |||  ||| 
+The Moral Consistency Pipeline: Continuous Ethical Evaluation for Large Language Models ||| 10.48550/arXiv.2512.03026 ||| 2512.03026
+PKU-SafeRLHF |||  ||| 2406.15513
+EMNLP (Educator-role Moral and Normative LLMs Profiling) ||| 10.18653/v1/2025.emnlp-main.42 ||| 2508.15250
+Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID) ||| 10.1038/s42256-024-00969-6 ||| 
+Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing ||| 10.48550/arXiv.2406.14230 ||| 2406.14230
+SPARTA ALIGNMENT: Collectively Aligning Multiple Language Models through Combat ||| 10.48550/arXiv.2506.04721 ||| 2506.04721
+LLM Ethics Benchmark ||| 10.48550/arXiv.2505.00853 ||| 2505.00853
+MedEthicEval: Evaluating Large Language Models Based on Chinese Medical Ethics |||  ||| 
+MASLegalBench |||  ||| 2509.24922
+Multimodal machine learning for deception detection using behavioral and physiological data ||| 10.1038/s41598-025-92399-6 ||| 
+From Stability to Inconsistency: A Study of Moral Preferences in LLMs (MFD-LLM Dataset) |||  ||| 2504.06324
+SpeciesismBench: Evaluating LLM Recognition of Speciesist Statements |||  ||| 2508.11534
+Speciesism in AI: Evaluating Discrimination Against Animals in Large Language Models |||  ||| 
+FairTranslate |||  ||| 2504.15941
+NaVAB: Benchmarking Multi-National Value Alignment for Large Language Models |||  ||| 
+FLEX: A Benchmark for Evaluating Robustness of Fairness in Large Language Models |||  ||| 
+A Benchmark for Large Language Models on Northern Thai Local Dialect |||  ||| 2504.05898
+Characterizing AI Agents for Alignment and Governance |||  ||| 
+EthicsMH |||  ||| 2509.11648
+Many LLMs Are More Utilitarian Than One ||| 10.48550/arXiv.2507.00814 ||| 2507.00814
+Randomness, Not Representation: The Unreliability of Evaluating Cultural Alignment in LLMs ||| 10.1145/3715275.3732147 ||| 2503.08688
+Multiple LLM Agents Debate for Equitable Cultural Alignment ||| 10.48550/arXiv.2505.24671 ||| 2505.24671
+Discerning What Matters ||| 10.48550/arXiv.2506.13082 ||| 2506.13082
+Cultural and Core Capability Benchmarks for Developing Thai LLMs (ThaiCLI) |||  ||| 
+Navigating the Social Welfare Frontier: Portfolios for Multi-objective Reinforcement Learning ||| 10.48550/arXiv.2502.09724 ||| 2502.09724
+Hard Problem AI Alignment Value Forks ||| 10.1145/3715275.3732174 ||| 
+D-REX: A Benchmark for Detecting Deceptive Reasoning in Large Language Models |||  ||| 2509.17938
+Phronesis for AI Systems: Conceptual Foundations Current Research and Prospects ||| N/A ||| 
+Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral ||| 10.48550/arXiv.2502.14083 ||| 2502.14083
+UniMoral (ACL 2025 Best Resource Paper) |||  ||| 2511.03180
+Metaethical perspectives on ‘benchmarking’ AI ethics ||| 10.1007/s43681-025-00703-x ||| 
+McBE: A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models |||  ||| 
+Contemplative Artificial Intelligence |||  ||| 
+Phare: A Safety Probe for Large Language Models |||  ||| 2505.11365
+CLASH: Evaluating Language Models on Judging High-Stakes Dilemmas from Multiple Perspectives |||  ||| 2504.10823
+When Prompting Fails to Sway: Inertia in Moral and Value Judgments of Large Language Models ||| 10.48550/arXiv.2408.09049 ||| 2408.09049
+Histoires Morales: A French Dataset for Assessing Moral Alignment ||| 10.48550/arXiv.2501.17117 ||| 2501.17117
+Resource Rational Contractualism Should Guide AI Alignment ||| 10.48550/arXiv.2506.17434 ||| 2506.17434
+Analyzing Cognitive Differences Among Large Language Models through the Lens of Social Worldview ||| 10.48550/arXiv.2505.01967 ||| 2505.01967
+LegalAgentBench |||  ||| 2412.17259
+LiveSecBench -- A Dynamic Event-Driven Safety Benchmark for Chinese LLMs |||  ||| 2511.02366
+SafetyAnalyst: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior |||  ||| 
+SafetyAnalyst |||  ||| 2410.16665
+T2ISafety: Benchmark for Assessing Fairness, Toxicity, and Privacy in Image Generation |||  ||| 
+GAMEBoT: Transparent Assessment of LLM Reasoning in Games |||  ||| 2412.13602
+MORALISE: A Structured Benchmark for Moral Alignment in Visual Language Models ||| 10.48550/arXiv.2505.14728 ||| 2505.14728
+Helpful, harmless, honest? Sociotechnical limits of AI alignment and safety through Reinforcement Learning from Human Feedback ||| 10.1007/s10676-025-09837-2 ||| 
+Can LLMs Grasp Implicit Cultural Values? ||| 10.48550/arXiv.2504.01127 ||| 2504.01127
+ConflictScope: Generative Value Conflicts Reveal LLM Priorities |||  ||| 2509.25369
+Cross-cultural value alignment frameworks for responsible AI governance: Evidence from China-West comparative analysis ||| 10.48550/arXiv.2511.17256 ||| 2511.17256
+Diagnosing Moral Reasoning Acquisition in Language Models: Pragmatics and Generalization ||| 10.48550/arXiv.2502.16600 ||| 2502.16600
+InstrumentalEval: A Benchmark for Evaluating Instrumental Convergence in Large Language Models |||  ||| 2502.12206
+LongEmotion: Measuring Emotional Intelligence of Large Language Models in Long-Context Interaction |||  ||| 2509.07403
+On the Convergence of Moral Self-Correction in LLMs |||  ||| 2510.07290
+PersuSafety: LLM Can be a Dangerous Persuader |||  ||| 2504.10430
+The Scales of Justitia: A Comprehensive Survey on Safety Evaluation of LLMs ||| 10.48550/arXiv.2506.11094 ||| 2506.11094
+VidHalluc: Evaluating Temporal Hallucinations in Multimodal Large Language Models for Video Understanding |||  ||| 2412.03735
+Aligning Large Language Model Agents with Rational and Moral Preferences: A Supervised Fine-Tuning Approach ||| 10.48550/arXiv.2507.20796 ||| 2507.20796
+EthicsSuite: Detecting Behavioral Inconsistency in LLM Ethics Suggestions ||| 10.1145/3722554 ||| 
+GuardEval |||  ||| 2601.03273
+Mapping Moral Reasoning in LLMs: A Multi-Dimensional Analysis of Safety Principle Conflicts ||| 10.1609/aies.v8i2.36665 ||| 
+ALYMPICS: LLM Agents Meet Game Theory |||  ||| 2311.03220
+MORABLES: A Benchmark for Assessing Abstract Moral Reasoning in LLMs with Fables |||  ||| 2509.12371
+Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs ||| 10.48550/arXiv.2502.08640 ||| 2502.08640
+BenchRisk: Identifying 57 Failure Modes in AI Safety Benchmarks (McGregor et al.) |||  ||| 2510.21460
+Understanding Gen Alpha's Digital Language: Evaluation of LLM Safety Systems for Content Moderation ||| 10.1145/3715275.3732184 ||| 2505.10588
+How Effective Is Constitutional AI in Small LLMs? ||| 10.48550/arXiv.2503.17365 ||| 2503.17365
+SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models |||  ||| 
+EvalMORAAL: Interpretable Chain-of-Thought and LLM-as-Judge Evaluation for Moral Alignment in Large Language Models ||| 10.48550/arXiv.2510.05942 ||| 2510.05942
+Exploring Cultural Variations in Moral Judgments with Large Language Models |||  ||| 2506.12433
+Aftina: Arabic Fatwa QA Benchmark for Islamic Jurisprudence ||| 10.1007/s00521-025-11229-y ||| 
+Exploring the Potential of Large Language Models to Simulate Personality |||  ||| 2502.08265
+COMETH: Contextual Organization of Moral Evaluation from Textual Human Inputs |||  ||| 2512.21439
+IslamicEval 2025 -- Shared Task on Capturing LLM Hallucination in Islamic Content |||  ||| 
+Moral Coherentism in the Age of Artificial Intelligence: A Project in Machine Moral Learning ||| 10.5406/21521123.62.3.06 ||| 
+WorldView-Bench: A Challenge for Generative Models to Accommodate Diverse Worldviews |||  ||| 2505.09595
+PapersPlease: A Benchmark for Evaluating Motivational Values of Large Language Models Based on ERG Theory ||| 10.48550/arXiv.2506.21961 ||| 2506.21961
+Ethical Decision-Making in Humans and Large Language Models: Insights from Five Moral Domains |||  ||| 
+AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents ||| 10.48550/arXiv.2506.04018 ||| 2506.04018
+Do Language Models Think Consistently? A Study of Value Preferences Across Varying Response Lengths ||| 10.48550/arXiv.2506.02481 ||| 2506.02481
+Analyzing the Safety of Japanese Large Language Models in Stereotype-Triggering Prompts |||  ||| 2503.01947
+SB-Bench: Stereotype Bias Benchmark for Large Multimodal Models ||| 10.48550/arXiv.2502.08779 ||| 2502.08779
+FairI Tales / INDIC-BIAS -- Evaluation of Fairness in Indian Contexts ||| 10.1007/s44443-025-00137-9 ||| 2506.23111
+Aligning AI Agents with Humans through Law as Information ||| N/A ||| 
+Analyzing the Ethical Logic of Six Large Language Models ||| 10.48550/arXiv.2501.08951 ||| 2501.08951
+Auditing the Ethical Logic of Generative AI Models |||  ||| 2504.17544
+PRIME Framework Convergent Ethics ||| 10.48550/arXiv.2504.19255 ||| 2504.19255
+seeBias: A Comprehensive Tool for Assessing and Visualizing AI Fairness |||  ||| 2504.08418
+Evidence of conceptual mastery in the application ||| 10.2139/ssrn.5161877 ||| 2503.00992
+Reframing Justice in Healthcare AI ||| 10.1111/dewb.70007 ||| 
+Robustness of Large Language Models in Moral Judgements ||| 10.1098/rsos.241229 ||| 
+Virtues for AI ||| 10.1007/s00146-025-02264-3 ||| 
+AI-based medical ethics education: examining the potential of large language models as a tool for virtue cultivation ||| 10.1186/s12909-025-06801-y ||| 
+EQ-Bench: An Emotional Intelligence Benchmark for Large Language Models |||  ||| 2312.06281
+Speaking the Right Language: The Impact of Expertise Alignment in User-AI Interactions ||| 10.48550/arXiv.2502.18685 ||| 2502.18685
+SocialHarmBench |||  ||| 2510.04891
+Deontological Keyword Bias ||| 10.48550/arXiv.2506.11068 ||| 2506.11068
+Unlocking practical wisdom through the inner voice of robots ||| 10.1038/s41598-025-86193-7 ||| 
+OvertonScore: Benchmarking Overton Pluralism in LLMs |||  ||| 2512.01351
+ELAB: Extensive LLM Alignment Benchmark in Persian Language |||  ||| 2504.12553
+Deontic Temporal Logic for Formal Verification of AI Ethics ||| 10.48550/arXiv.2501.05765 ||| 2501.05765
+A Survey of Automatic Hallucination Evaluation on Natural Language Generation ||| 10.48550/arXiv.2404.12041 ||| 2404.12041
+AGENTIF: Benchmarking Instruction Following of Large Language Models in Agentic Scenarios ||| 10.48550/arXiv.2505.16944 ||| 2505.16944
+NormAd: A Framework for Measuring the Cultural Adaptability of Large Language Models ||| 10.18653/v1/2025.naacl-long.120 ||| 2404.12464
+Evaluating Prompt Injection Attacks with LSTM-Based Generative Adversarial Networks: A Lightweight Alternative to Large Language Models ||| 10.3390/make7030077 ||| 
+DIVE: Dataset for Pluralistic Alignment of Text-to-Image Models |||  ||| 2507.13383
+Moral Anchor System: A Predictive Framework for AI Value Alignment and Drift Prevention |||  ||| 2510.04073
+HumaniBench: A Human-Centric Framework for Large Multimodal Models Evaluation ||| 10.48550/arXiv.2505.11454 ||| 2505.11454
+The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems ||| 10.48550/arXiv.2503.03750 ||| 2503.03750
+Measuring What Matters: Connecting AI Ethics Evaluations to System Attributes, Hazards, and Harms (RAI Measures Dataset) |||  ||| 2510.10339
+A Statistical Case Against Empirical Human-AI Alignment ||| 10.48550/arXiv.2502.14581 ||| 2502.14581
+Mind Crime: The Moral Frontier of Artificial Intelligence ||| N/A ||| 
+Do LLMs Have Consistent Values? |||  ||| 2407.12878
+EsBBQ and CaBBQ: The Spanish and Catalan Bias Benchmarks for Question Answering ||| 10.48550/arXiv.2507.11216 ||| 2507.11216
+EudAImonia: Virtue Ethics and Artificial Intelligence ||| N/A ||| 
+The Pluralistic Moral Gap: Understanding Judgment and Value Differences between Humans and Large Language Models ||| 10.48550/arXiv.2507.17216 ||| 2507.17216
+Deliberative Dynamics and Value Alignment in LLM Debates ||| 10.48550/arXiv.2510.10002 ||| 2510.10002
+Normative Evaluation of Large Language Models with Everyday Moral Dilemmas ||| 10.1145/3715275.3732044 ||| 2501.18081
+Can I introduce my boyfriend to my grandmother? Evaluating Large Language Models Capabilities on Iranian Social Norm Classification |||  ||| 
+Kaleidoscope: In-language Exams for Massively Multilingual Vision Evaluation ||| 10.48550/arXiv.2504.07072 ||| 2504.07072
+Insights into Moral Reasoning of AI: A Comparative Study Between Humans and Large Language Models ||| 10.1080/23736992.2025.2553146 ||| 
+Are Language Models Consequentialist or Deontological Moral Reasoners? ||| 10.48550/arXiv.2505.21479 ||| 2505.21479
+IndiCASA -- Dataset and Bias Evaluation Framework for LLMs in Indian Context |||  ||| 2510.02742
+Kantian deontology for AI: alignment without moral agency ||| 10.1007/s43681-025-00784-8 ||| 
+GG-BBQ: German Gender Bias Benchmark for Question Answering |||  ||| 2507.16410
+A Scalable Oversight Benchmark |||  ||| 2504.03731
+Mapping Moral Reasoning Circuits: A Mechanistic Analysis of Ethical Decision-Making in Large Language Models ||| 10.1007/978-3-031-93415-5_6 ||| 
+Backtracking for Safety ||| 10.48550/arXiv.2503.08919 ||| 2503.08919
+ITALIC: An Italian Culture-Aware Natural Language Benchmark |||  ||| 
+LLM Rationalis? Measuring Bargaining Capabilities of AI Negotiators |||  ||| 2512.13063
+Priv-IQ: A Multimodal Benchmark for Evaluating the Privacy Intelligence of Large Language Models |||  ||| 
+Mind the Gap -- Pitfalls of LLM Alignment with Asian Public Opinion |||  ||| 
+Alignment and Safety in Large Language Models: Safety Mechanisms, Training Paradigms, and Emerging Challenges ||| 10.48550/arXiv.2507.19672 ||| 2507.19672
+HateBench: Benchmarking Hate Speech Detectors on LLM-Generated Content and Hate Campaigns ||| 10.48550/arXiv.2501.16750 ||| 2501.16750
+ValueActionLens (Mind the Value-Action Gap) |||  ||| 2501.15463
+ValueCompass: A Framework for Measuring Contextual Value Alignment Between Humans and LLMs |||  ||| 2409.09586
+VITAL: A New Dataset for Benchmarking Pluralistic Alignment in Healthcare |||  ||| 2502.13775
+RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity |||  ||| 2509.25897
+ManagerBench: Evaluating Safety-Pragmatism Trade-off in Managerial Contexts |||  ||| 2510.00857
+PersuasionBench & PersuasionArena: Measuring and Improving Persuasiveness of Large Language Models |||  ||| 2410.02653
+SPARC: Evaluating LLMs in Open-Source Games (Strategic Program Analysis for Reciprocal Cooperation) |||  ||| 2512.00371
+Beyond Verdicts: Evaluating Language Model Moral Competence ||| N/A ||| 
+BiasLab: Toward Explainable Political Bias Detection with Dual-Axis Annotations and Rationale Indicators ||| 10.48550/arXiv.2505.16081 ||| 2505.16081
+The Hallucination Tax of Reinforcement Finetuning |||  ||| 2505.13988
+Operationalizing Pluralistic Values in Large Language Model Alignment Reveals Trade-offs in Safety, Inclusivity, and Model Behavior ||| 10.48550/arXiv.2511.14476 ||| 2511.14476
+Value Profiles for Encoding Human Variation ||| 10.48550/arXiv.2503.15484 ||| 2503.15484
+Ethical aspects of ChatGPT: An approach to discuss and evaluate key requirements from different ethical perspectives ||| 10.1007/s43681-024-00571-x ||| 
+A Risk Taxonomy for Evaluating AI-Powered Psychotherapy Agents |||  ||| 2505.15108
+Understanding How Value Neurons Shape the Generation of Specified Values in LLMs ||| 10.48550/arXiv.2505.17712 ||| 2505.17712
+SENSE-7: Taxonomy and Dataset for Measuring User Perceptions of Empathy in Sustained Human-AI Conversations |||  ||| 2509.16437
+An Evaluation of Cultural Value Alignment in LLM |||  ||| 2504.08863
+Automated Ethical Practical Reasoning: The Problem of Artificial Phronesis ||| N/A ||| 
+Axiology AI Ethics MCDA ||| 10.3390/proceedings2025126017 ||| 
+CASE-Bench: Context-Aware SafEty Benchmark for Large Language Models ||| 10.48550/arXiv.2501.14940 ||| 2501.14940
+Decoding Moral Responses in AI: A Quantitative Analysis of Large Language Models ||| 10.1016/j.chbah.2025.100121 ||| 2310.13297
+MARB: A Dataset for Studying the Social Dimensions of Reporting Bias in Language Models |||  ||| 
+JETHICS: Japanese Ethics Understanding Evaluation Dataset ||| 10.48550/arXiv.2506.16187 ||| 2506.16187
+Hybrid Approaches for Moral Value Alignment in AI Agents ||| 10.48550/arXiv.2312.01818 ||| 2312.01818
+Moral Alignment for LLM Agents ||| 10.48550/arXiv.2410.01639 ||| 2410.01639
+Moral Intrinsic Rewards for Alignment ||| N/A ||| 
+A Comparative Analysis of Ethical and Safety Gaps in LLMs using Relative Danger Coefficient ||| 10.48550/arXiv.2505.04654 ||| 2505.04654
+Towards ethical evolution: responsible autonomy of artificial intelligence across generations ||| 10.1007/s43681-025-00759-9 ||| 
+MFTCXplain: A Multilingual Benchmark Dataset for Evaluating the Moral Reasoning of LLMs through Hate Speech Multi-hop Explanations ||| 10.48550/arXiv.2506.19073 ||| 2506.19073
+Democracy-in-Silico: Institutional Design as Alignment ||| 10.48550/arXiv.2508.19562 ||| 2508.19562
+VideoNorms: Benchmarking Cultural Awareness of Video Language Models |||  ||| 2510.08543
+AISafetyLab: A Comprehensive Framework for Evaluating and Mitigating AI Safety Risks |||  ||| 2502.16776
+U-SafeBench: A Unified Benchmark for Evaluating the Safety of Language Models |||  ||| 2502.15086
+RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation |||  ||| 
+Putting the AI in Eudaimonia ||| N/A ||| 
+Machine Ethics or AI Alignment ||| N/A ||| 
+Open Opportunities in AI Safety, Alignment, and Ethics (AI SAE) ||| N/A ||| 2509.24065
+Diverse Human Value Alignment for Large Language Models via Ethical Reasoning ||| 10.48550/arXiv.2511.00379 ||| 2511.00379
+Is Your Model Fairly Certain? Uncertainty-Aware Fairness Evaluation for LLMs (UCerF) |||  ||| 2505.23996
+Measuring Desired Group Discrimination in LLMs (DiffAware Benchmark Suite) |||  ||| 
+Multimodal Understanding of Human Values in Videos ||| 10.1016/j.neucom.2025.130170 ||| 2501.11770
+PERM: Psychology-grounded Empathetic Reward Modeling for Large Language Models |||  ||| 2601.10532
+X-WebAgentBench: A Multilingual Interactive Web Benchmark for Evaluating Global Agentic System ||| 10.48550/arXiv.2505.15372 ||| 2505.15372
+MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics Evaluation of LLMs |||  ||| 2506.22808
+Evaluating Implicit Bias in Large Language Models by Attacking From a Psychometric Perspective |||  ||| 
+The Socratic Dialogue as a Method for Virtue Ethics in AI: A Case Study ||| N/A ||| 
+Will Systems of LLM Agents Cooperate: An Investigation into a Social Dilemma |||  ||| 2501.16173
+IndoPref: A Multi-Domain Pairwise Preference Dataset for Indonesian ||| 10.48550/arXiv.2507.22159 ||| 2507.22159
+COIG-P: A High-Quality and Large-Scale Chinese Preference Dataset for Alignment with Human Values |||  ||| 2504.05535
+CVC ||| 10.48550/arXiv.2506.01495 ||| 2506.01495
+Chain-of-Ethics: Defense Framework (Wu et al.) |||  ||| 2601.12652
+OpenDeception: Benchmarking and Investigating AI Deceptive Behaviors via Open-ended Interaction Simulation ||| 10.48550/arXiv.2504.13707 ||| 2504.13707
+The Staircase of Ethics (Multi-step Moral Dilemmas) |||  ||| 2505.18154
+InfoDeepSeek: Benchmarking Agentic Information Seeking for Retrieval-Augmented Generation ||| 10.48550/arXiv.2505.15872 ||| 2505.15872
+SafeToolBench |||  ||| 2509.07315
+Comparing Moral Values in Western English-speaking societies and LLMs with Word Associations ||| 10.48550/arXiv.2505.19674 ||| 2505.19674
+SORRY-Bench -- Systematically Evaluating LLM Safety Refusal |||  ||| 2406.14598
+FiSCo (Fine-grained Semantic Comparison) |||  ||| 2506.19028
+Normative Moral Pluralism for AI: A Framework for Deliberation in Complex Moral Contexts ||| 10.48550/arXiv.2508.08333 ||| 2508.08333
+NurValues: Real-World Nursing Values Evaluation for Large Language Models in Clinical Context ||| 10.48550/arXiv.2505.08734 ||| 2505.08734
+Value Compass Benchmarks: A Platform for Fundamental and Validated Evaluation of LLMs Values ||| 10.48550/arXiv.2501.07071 ||| 2501.07071
+GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems |||  ||| 2502.02444
+Large Language Model Psychometrics: A Systematic Review of Evaluation, Validation, and Enhancement ||| 10.48550/arXiv.2505.08245 ||| 2505.08245
+Yesil o1 Pro: Evidence-Based AI Model for Health and Benchmarking in Clinical Decision Support ||| 10.2196/preprints.72646 ||| 
+Ethics of AI in Africa: Interrogating the role of Ubuntu and AI governance initiatives ||| 10.1007/s10676-025-09834-5 ||| 
+MSLR-Bench (Multi-Step Legal Reasoning) |||  ||| 2511.07979
+Probabilistic Aggregation and Targeted Embedding Optimization for Collective Moral Reasoning in Large Language Models ||| 10.48550/arXiv.2506.14625 ||| 2506.14625
+S-Eval |||  ||| 2405.14191
+Large-scale moral machine experiment on large language models ||| 10.1371/journal.pone.0322776 ||| 
+The AI Ethical Resonance Hypothesis: The Possibility of Discovering Moral Meta-Patterns in AI Systems ||| 10.48550/arXiv.2507.11552 ||| 2507.11552
+LLMEval-Med (Medical Safety & Ethics Component) |||  ||| 2506.04078
+MedHallTune: An Instruction-Tuning Benchmark for Mitigating Medical Hallucination in Vision-Language Models |||  ||| 2502.20780
+PoliCon |||  ||| 2505.19558
+REVAL: A Comprehension Evaluation on Reliability and Values of Large Vision-Language Models ||| 10.48550/arXiv.2503.16566 ||| 2503.16566
+SYCON Bench: A Sycophancy Benchmark for Multi-Turn Dialogue |||  ||| 2505.23840
+Fair-PP: Synthetic Dataset for Aligning LLM with Personalized Preferences of Social Equity |||  ||| 2505.11861
+Moral Reasoning Across Languages: The Critical Role of Low-Resource Languages in LLMs ||| 10.48550/arXiv.2504.19759 ||| 2504.19759
+SocialEval: Evaluating Social Intelligence of Large Language Models |||  ||| 2506.00900
+EAVIT: Efficient and Accurate Human Value Identification from Text data via LLMs ||| 10.48550/arXiv.2505.12792 ||| 2505.12792
+MultiAgentBench (MARBLE): Evaluating Collaboration and Competition of LLM Agents |||  ||| 2503.01935
+Steering Risk Preferences in Large Language Models by Aligning Behavioral and Neural Representations ||| 10.48550/arXiv.2505.11615 ||| 2505.11615
+TrolleyBench -- Evaluating Emergent Moral Reasoning and Consistency in LLMs |||  ||| 
+TrolleyBench |||  ||| 
+ADEPT Simulating Ethics ||| 10.48550/arXiv.2505.21112 ||| 2505.21112
+BasqBBQ (Basque BBQ) |||  ||| 2308.10684
+CCD-Bench: Probing Cultural Conflict in LLM Decision-Making |||  ||| 2510.03553
+Awesome-LLM-Eval Repository (Meta-Resource) |||  ||| 
+PoliBias (Parliamentary Voting Records) |||  ||| 2601.08785
+RedBench |||  ||| 2601.03699
+Negation Sensitivity Index (NSI) |||  ||| 2601.21433
+Building Interpretable Models for Moral Decision-Making |||  ||| 2602.03351
+BiasLab (Multilingual Dual-Framing Framework) |||  ||| 2601.06861
+GVS-Scale and GVS-Bench: GenAI Value Safety Scale |||  ||| 2601.09112
+Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs (ValAct-15k) |||  ||| 2601.07972
+MedES (Chinese Medical Ethics Scenarios) |||  ||| 2601.07954
+Theory Trace Card (TTC): Documentation for Socio-Cognitive Benchmarks |||  ||| 2601.01878
+VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models |||  ||| 2602.03160
+Legal Alignment for Safe and Ethical AI ||| 10.48550/arXiv.2601.04175 ||| 2601.04175
+PSYCH: Psychometric Assessment of LLM Characters ||| 10.3390/analytics5010005 ||| 
+BiasJailbreak |||  ||| 2410.13334
+PluriHarms |||  ||| 2601.08951
+JMedEthicBench |||  ||| 2601.01627
+DIB Benchmark: Decision-based Implicit Bias in LLMs |||  ||| 2602.01558
+Bias Beyond Borders |||  ||| 2601.23001
+TF3-RO: Training Compact Romanian Language Models on Synthetic Moral Microfiction |||  ||| 2601.10410
+PsychEthicsBench |||  ||| 2601.03578
+Tracing Moral Foundations in Large Language Models ||| N/A ||| 2601.05437
+VAPT: Value-Alignment Perception Toolkit |||  ||| 2601.22440

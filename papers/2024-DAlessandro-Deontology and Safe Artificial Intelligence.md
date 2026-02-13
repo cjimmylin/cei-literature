@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ external_pdf: "https://philarchive.org/archive/DALDAS"
 local_pdf: "[[PDFs/2024/2024-DAlessandro-Deontology and Safe Artificial Intelligence.pdf]]"
 publication: "Philosophical Studies"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Deontology, AI-Safety, AI-Alignment, Moral-Philosophy"
 key_contribution: "Argues that while deontology is attractive alignment target, deontological AI systems may pose distinctive safety risks"

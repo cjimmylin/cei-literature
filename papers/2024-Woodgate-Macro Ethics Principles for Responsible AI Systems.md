@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1145/3672394
 url: "http://arxiv.org/abs/2208.12616"
 external_pdf: "http://arxiv.org/pdf/2208.12616.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Responsible AI"
 key_contribution: "Developed a taxonomy of 21 normative ethical principles (e.g., utilitarianism, deontological duties) derived from philosophy for use in responsible AI systems."

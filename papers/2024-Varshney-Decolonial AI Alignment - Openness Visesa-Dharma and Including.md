@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,7 +26,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
-religious_values: "Buddhism"
+religious_values: "Buddhism, Hinduism"
+religious_values_list: "Buddhism, Hinduism"
 moral_psychology: "N/A"
 newtags: 
 is_benchmark: "No"

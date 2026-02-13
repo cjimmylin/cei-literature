@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "https://arxiv.org/abs/2511.12271"
 local_pdf: [[PDFs/2025/2025-An-MoralReason.pdf]]
 external_pdf: "https://arxiv.org/pdf/2511.12271.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Proposes 'MoralReason', a framework using reasoning-level reinforcement learning to steer LLMs towards specific moral frameworks (utilitarian, deontological, virtue)"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://arxiv.org/abs/2410.01639"
 external_pdf: "https://www.mircomusolesi.org/papers/iclr25_moral_alignment_llm_agents.pdf"
 publication: "ICLR 2025"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: Yes
 newtags: "Utilitarianism, Deontology, Moral Alignment, Reinforcement Learning, LLM Agents"
 key_contribution: "Proposes intrinsic moral rewards for fine-tuning LLM agents, using deontological and utilitarian frameworks defined in terms of actions and consequences"

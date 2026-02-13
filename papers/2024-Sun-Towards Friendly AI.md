@@ -1,5 +1,6 @@
 ---
 
+
 Human View: false
 Not AI: 
 key: AUTO_SUN2024
@@ -13,7 +14,8 @@ doi: N/A
 url: "https://arxiv.org/abs/2412.15114"
 local_pdf: "[[PDFs/2024/2024-Sun-Towards Friendly AI.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Friendly AI, Human-AI Alignment, Virtue Ethics, AI Ethics Review"
 key_contribution: "Comprehensive review of Friendly AI proposing 'as-if friendship' framework where AI emulates virtues like empathy and helpfulness"

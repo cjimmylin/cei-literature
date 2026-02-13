@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://ebooks.iospress.nl/doi/10.3233/FAIA220614"
 external_pdf: N/A
 publication: "Social Robots in Social Institutions (IOS Press)"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Utilitarianism, Deontology, Machine Ethics, Normative Ethics"
 key_contribution: "Critiques applying normative frameworks directly to machines"

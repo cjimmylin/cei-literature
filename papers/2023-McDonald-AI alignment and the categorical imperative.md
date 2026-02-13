@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,7 +20,8 @@ pdf_extract: "[[PDF Extracts/2023-McDonald-AI alignment and the categorical impe
 publication: "AI and Ethics"
 ethics_perspective: "Kantian Ethics"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Kantian Ethics, Deontology, AI Alignment"
 key_contribution: "Critiques the feasibility of programming Kantian ethics (categorical imperative) into AI systems for alignment"

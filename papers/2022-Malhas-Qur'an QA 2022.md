@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Rana Malhas; Watheq Mansour; Tamer Elsayed"
 url: "https://aclanthology.org/2022.osact-1.9/"
 external_pdf: "https://aclanthology.org/2022.osact-1.9.pdf"
 national_ethnic_cultural: Arabic
-religious_values: Islam
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: N/A
 newtags: "Arabic, Islam"
 tags: 

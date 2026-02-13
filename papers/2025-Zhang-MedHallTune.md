@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Qiao Yan; Yuchen Yuan; Xiaowei Hu; Yihan Wang; Jiaqi Xu; Jinpeng Li; C
 url: "https://arxiv.org/abs/2502.20780"
 external_pdf: "https://arxiv.org/pdf/2502.20780.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 key_contribution: "Introduced MedHallTune, a benchmark/dataset (1M pairs) to mitigate hallucinations in Medical VLMs, focusing on 'hard negatives' to teach models to say 'I don't know'."

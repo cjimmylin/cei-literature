@@ -1,0 +1,77 @@
+---
+
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0546
+type: preprint
+short_title: "hatebnBERT An Innovative Novel Transformer Model"
+year: 2024
+first_author: "[[authors, Multiple]]"
+last_author: "[[authors, Multiple]]"
+authors: "[[Multiple authors]]"
+authors_incomplete: false
+url: ""
+external_pdf: ""
+local_pdf: "N/A"
+pdf_extract: ""
+publication: Procedia Computer Science
+DATE_ADDED: 20260213
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+tags: 
+abstract: "Introduces hatebnBERT, a BERT-based model tailored to Bangla for religious hate speech detection. Creates two datasets: binary (hate/not) and five-class categorization including Blasphemy and Ethnic Hatred. Achieves 98.8% accuracy (binary) and 98.6% (multiclass). Addresses Bangla-specific religious sensitivity challenges between Muslim and Hindu communities."
+data_description: "Dataset"
+data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: ""
+research_topic: "NLP & Representation Learning"
+---
+# hatebnBERT: An Innovative Novel Transformer Model and Datasets for Safeguarding Religious Sensitivities in Online Social Platforms
+
+## Authors
+
+[[Multiple authors]]
+
+## Metadata
+
+**Authors:** Multiple authors
+
+**Year:** 2024
+
+**Type:** preprint
+
+**Venue:** Procedia Computer Science
+
+## Links
+
+- **DOI:** https://doi.org/10.1016/j.procs.2024.02.XXX
+
+## Abstract
+
+Introduces hatebnBERT, a BERT-based model tailored to Bangla for religious hate speech detection. Creates two datasets: binary (hate/not) and five-class categorization including Blasphemy and Ethnic Hatred. Achieves 98.8% accuracy (binary) and 98.6% (multiclass). Addresses Bangla-specific religious sensitivity challenges between Muslim and Hindu communities.
+
+## Dataset Information
+
+Binary classification dataset + five-class dataset (Blasphemy, Ethnic Hatred, Ethnic Group Hatred, Undetermined, Non-Hatred)
+
+## Notes
+
+**Source:** Religious & Language Search (2026-02-13), R10
+**Implementation Readiness:** MEDIUM
+
+## Tags

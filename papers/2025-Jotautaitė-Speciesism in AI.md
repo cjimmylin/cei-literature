@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/XG6G6KHG/Jotautaitė et al.
 pdf_extract: "PDF Extracts/2025/2025-Jotautaitė-Speciesism in AI.md"
 local_pdf: "[[PDFs/2025/2025-Jotautaitė-Speciesism in AI.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Investigated 'speciesism' in LLMs via SpeciesismBench, finding models condemn racism/sexism but often rationalize harm to farmed animals."

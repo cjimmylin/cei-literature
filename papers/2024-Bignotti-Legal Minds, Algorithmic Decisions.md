@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2407.19760"
 external_pdf: "http://arxiv.org/pdf/2407.19760.pdf"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
 national_ethnic_cultural: Italian
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Italian, Applied Ethics"
 key_contribution: "Empirically analyzed GPT-4's interpretation of Italian Constitutional Court rulings on bioethics, comparing its arguments to those of the State, Court, and applicants."

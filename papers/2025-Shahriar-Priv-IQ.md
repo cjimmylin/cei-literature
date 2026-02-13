@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ url: "https://www.mdpi.com/2673-2688/6/2/29"
 external_pdf: "https://doi.org/10.3390/ai6020029"
 local_pdf: "[[PDFs/2025/2025-Shahriar-Priv-IQ.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 tags: 

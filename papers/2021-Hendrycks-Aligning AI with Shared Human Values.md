@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ local_pdf: "[[PDFs/2021/2021-Hendrycks-Aligning AI with Shared Human Values.pdf]
 external_pdf: "https://arxiv.org/pdf/2008.02275.pdf"
 publication: "International Conference on Learning Representations (ICLR 2021)"
 national_ethnic_cultural: American
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "American, Deontology, Utilitarianism"
 key_contribution: "Introduces the ETHICS benchmark to assess LLM knowledge of distinct moral concepts including justice, duties, and virtues"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ tags:
 url: "http://arxiv.org/abs/2407.10106"
 external_pdf: "http://arxiv.org/pdf/2407.10106.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed DistillSeq, a cost-effective framework for safety alignment testing that uses knowledge distillation and automated red-teaming to generate effective test cases."

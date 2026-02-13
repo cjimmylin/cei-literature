@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ tags:
 url: "http://arxiv.org/abs/2110.07574"
 external_pdf: "http://arxiv.org/pdf/2110.07574.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "The 'Delphi' paper – introduced a prototype moral reasoning model trained on the Commonsense Norm Bank, capable of judging diverse social situations."

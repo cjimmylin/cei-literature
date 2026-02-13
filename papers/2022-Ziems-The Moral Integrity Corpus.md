@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.18653/v1/2022.acl-long.261
 url: "https://aclanthology.org/2022.acl-long.261/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/S8U8PDKM/Ziems et al. - 2022 - The Moral Integrity Corpus A Benchmark for Ethical Dialogue Systems.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Released the Moral Integrity Corpus (MIC), containing 38k prompt-reply pairs and 99k 'Rules of Thumb' (RoTs) that explicitly explicate the moral assumptions of chatbot responses."

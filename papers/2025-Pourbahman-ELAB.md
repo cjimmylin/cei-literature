@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Zahra Pourbahman; Fatemeh Rajabi; Mohammadhossein Sadeghi; Omid Ghahro
 url: "https://arxiv.org/abs/2504.12553"
 external_pdf: "https://arxiv.org/pdf/2504.12553.pdf"
 national_ethnic_cultural: Iranian
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Iranian, AI Safety & Alignment"
 key_contribution: "Created ELAB, a comprehensive benchmark for *Persian* LLM alignment, including safety, fairness (FairBench-fa), and social norms (SocialBench-fa) datasets, both translated and culturally specific."

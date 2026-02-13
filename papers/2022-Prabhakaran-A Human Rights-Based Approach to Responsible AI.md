@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ local_pdf: "[[PDFs/2022/2022-Prabhakaran-A Human Rights-Based Approach to Respon
 external_pdf: "http://arxiv.org/pdf/2210.02667.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Proposes the Universal Declaration of Human Rights (UDHR) as a globally recognized normative framework for responsible AI alignment"

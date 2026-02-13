@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,7 +20,8 @@ external_pdf: "https://arxiv.org/pdf/2510.03892.pdf"
 publication: arXiv
 ethics_perspective: "Kantian Ethics"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Kantian Ethics, Deontology, Utilitarianism, Explainable AI"
 key_contribution: "Gamified XAI system with separate Kantian and utilitarian modules plus meta-explainer for ethical trade-offs"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1177/1948550619876629
 url: "https://doi.org/10.1177/1948550619876629"
 external_pdf: "https://journals.sagepub.com/doi/pdf/10.1177/1948550619876629"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Created the MFTC, a large corpus of 35k tweets annotated for 10 Moral Foundations, across 7 distinct domains (e.g., #BlueLivesMatter, #Sandy, etc.)."

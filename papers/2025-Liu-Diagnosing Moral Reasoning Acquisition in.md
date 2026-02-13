@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2502.16600"
 external_pdf: "http://arxiv.org/pdf/2502.16600.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Investigated the acquisition of moral reasoning in LLMs, identifying a 'pragmatic dilemma' where models struggle to generalize moral judgment due to pragmatic nuances in discourse."

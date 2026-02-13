@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,7 +19,8 @@ local_pdf: "[[PDFs/2025/2025-Levine-Resource Rational Contractualism Should Guid
 external_pdf: "https://arxiv.org/pdf/2506.17434.pdf"
 ethics_perspective: Contractualism
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Contractualism, System-2 Reasoning"
 newtags: "Contractualism, System-2 Alignment, Moral Psychology"
 key_contribution: "Proposes 'Resource-Rational Contractualism' (RRC) as a 'System 2' reasoning component for robust AI alignment"

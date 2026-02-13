@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1038/s41586-018-0637-6
 url: "https://www.nature.com/articles/s41586-018-0637-6"
 external_pdf: "https://ore.exeter.ac.uk/repository/bitstream/10871/39187/4/Moral%20Machine.pdf"
 national_ethnic_cultural: "American, Multicultural/Cross-cultural"
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "American, Multicultural/Cross-cultural, Trolley / Dilemmas (Psych), Machine Ethics"
 key_contribution: "Deployed the Moral Machine experiment (40M decisions) to map global moral preferences for autonomous vehicles, identifying universal trends and cultural variations."

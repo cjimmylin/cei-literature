@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,7 +19,8 @@ local_pdf: "[[PDFs/2025/2025-Park-Deontological Keyword Bias.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2506.11068.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Identifies 'Deontological Keyword Bias' (DKB) where modal verbs like 'must' cause LLMs to misclassify non-obligatory acts as obligations"

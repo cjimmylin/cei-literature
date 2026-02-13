@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2412.18863"
 external_pdf: "http://arxiv.org/pdf/2412.18863.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "Chinese, Japanese, Arabic, Iranian, French, Spanish, Russian, Multicultural/Cross-cultural"
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: "Chinese, Japanese, Arabic, Iranian, French, Spanish, Russian, Multicultural/Cross-cultural, Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Analyzed multilingual LLMs using the Moral Foundations Questionnaire across 8 languages, finding that models mirror the moral norms of their training data languages (e.g., English = Western values)."

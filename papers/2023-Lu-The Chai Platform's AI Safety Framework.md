@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2306.02979"
 external_pdf: "http://arxiv.org/pdf/2306.02979.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Presented the AI safety framework for the Chai platform, integrating Content Safeguarding, Stability, and Operational Transparency in a consumer-facing chatbot app."

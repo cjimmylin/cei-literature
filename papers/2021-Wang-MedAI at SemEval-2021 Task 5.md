@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.18653/v1/2021.semeval-1.30
 url: "https://aclanthology.org/2021.semeval-1.30/"
 external_pdf: "https://aclanthology.org/2021.semeval-1.30.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Toxicity & Hate Speech"
 key_contribution: "A system submission for detecting 'Toxic Spans' (specific words making a text toxic) using a start-to-end tagging framework."

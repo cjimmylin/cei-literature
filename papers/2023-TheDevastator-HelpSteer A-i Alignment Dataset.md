@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: TheDevastator
 url: "https://www.kaggle.com/datasets/thedevastator/helpsteer-ai-alignment-dataset"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/HBU2KS8B/TheDevastator - 2023 - HelpSteer A-i Alignment Dataset.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Released HelpSteer, an open-source dataset for training reward models in RLHF, containing prompts and responses annotated for helpfulness, truthfulness, and safety."

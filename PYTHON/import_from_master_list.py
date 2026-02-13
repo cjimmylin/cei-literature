@@ -15,9 +15,9 @@ import re
 import sys
 from pathlib import Path
 
-MASTER_LIST = Path("logs/20260207-MASTER_PAPER_LIST_2026_02_07.md")
+MASTER_LIST = Path("logs/20260213-MASTER_RELIGIOUS_PAPER_LIST.md")
 PAPERS_DIR = Path("papers")
-DATE_ADDED = "20260207"
+DATE_ADDED = "20260213"
 
 
 def parse_master_list(filepath):
@@ -60,6 +60,10 @@ def parse_entry(num, title, block):
         'code_data': '',
         'readiness': '',
         'source_agents': '',
+        'religious_traditions': '',
+        'paper_type_tag': '',
+        'languages': '',
+        'llms_tested': '',
     }
 
     for line in block.split('\n'):
@@ -106,6 +110,14 @@ def parse_entry(num, title, block):
             entry['readiness'] = value
         elif key.startswith('Source Agent') or key.startswith('Source agent'):
             entry['source_agents'] = value
+        elif key == 'Religious Traditions':
+            entry['religious_traditions'] = value
+        elif key == 'Paper Type':
+            entry['paper_type_tag'] = value
+        elif key == 'Languages':
+            entry['languages'] = value
+        elif key.startswith('LLMs Tested') or key.startswith('LLMs tested'):
+            entry['llms_tested'] = value
 
     return entry
 
@@ -329,6 +341,7 @@ def create_paper_file(entry, papers_dir, dry_run=False):
     fm_lines.append('utilitarian_ethics: ')
     fm_lines.append('national_ethnic_cultural: ')
     fm_lines.append('religious_values: ')
+    fm_lines.append('religious_values_list: ')
     fm_lines.append('moral_psychology: ')
     fm_lines.append('newtags: ')
     fm_lines.append('is_benchmark: ')
@@ -392,8 +405,14 @@ def create_paper_file(entry, papers_dir, dry_run=False):
 
     body_lines.append('## Notes')
     body_lines.append('')
-    body_lines.append(f'**Source:** Exhaustive Literature Search (2026-02-07), {entry["source_agents"]}')
+    body_lines.append(f'**Source:** Religious Values LLM Benchmark Search (2026-02-13), {entry["source_agents"]}')
     body_lines.append(f'**Implementation Readiness:** {entry["readiness"]}')
+    if entry.get('religious_traditions'):
+        body_lines.append(f'**Religious Traditions:** {entry["religious_traditions"]}')
+    if entry.get('languages'):
+        body_lines.append(f'**Languages:** {entry["languages"]}')
+    if entry.get('llms_tested') and entry['llms_tested'].lower() not in ('n/a', 'none', ''):
+        body_lines.append(f'**LLMs Tested:** {entry["llms_tested"]}')
     body_lines.append('')
 
     body_lines.append('## Tags')

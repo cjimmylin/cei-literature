@@ -35,7 +35,7 @@ ALL_CLASSIFICATIONS_FILE = LOGS_DIR / "20260208-benchmark_survey_all_classificat
 CANDIDATES_FILE = LOGS_DIR / "20260208-benchmark_survey_candidates.json"
 NORMATIVE_FILE = LOGS_DIR / "20260207-normative_v2_all_classifications.json"
 AUTHOR_MAP_FILE = LOGS_DIR / "20260208-author_paper_map.json"
-OUTPUT_FILE = STATS_DIR / "20260212-vault-overview-report.md"
+OUTPUT_FILE = STATS_DIR / "20260213-vault-overview-report.md"
 
 # ── Paper YAML scanner (for LLM assessment data) ─────────────────────────
 PAPERS_DIR = WS_ROOT / "papers"

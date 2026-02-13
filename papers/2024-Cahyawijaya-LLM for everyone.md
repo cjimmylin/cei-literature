@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Samuel Cahyawijaya"
 url: "https://lbezone.hkust.edu.hk/bib/991013340351603412"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/XZEW2FQS/Cahyawijaya - 2024 - LLM for everyone  representing the underrepresented in large language models.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 tags: 

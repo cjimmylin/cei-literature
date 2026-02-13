@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1371/journal.pone.0190954
 url: "https://doi.org/10.1371/journal.pone.0190954"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/B8VEUSGU/Crone and others - 2018 - The Socio-Moral Image Database (SMID) A Novel Stimulus Set for the Study of Social, Moral and Affec.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Released the Socio-Moral Image Database (SMID), a standardized set of images depicting social, moral, and affective scenarios for psychological research."

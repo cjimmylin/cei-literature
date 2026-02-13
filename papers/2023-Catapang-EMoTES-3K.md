@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Catapang, Jasper Kyle]]; [[Visperas, Moses]]"
 url: "https://aclanthology.org/2023.nlp4dh-1.1/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5GQQWIXN/2023 - EMoTES-3K Emotion-based Morality in Tagalog and English Scenarios.pdf"
 national_ethnic_cultural: Filipino
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Filipino, Moral Reasoning & Psychology"
 key_contribution: "Created EMoTES-3K, the first dataset for emotion-based morality in Tagalog (Filipino) and English, testing 'commonsense morality' in a low-resource language."

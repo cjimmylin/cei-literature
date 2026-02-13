@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.48550/arXiv.2406.18510
 url: "https://arxiv.org/abs/2406.18510"
 external_pdf: "https://arxiv.org/pdf/2406.18510.pdf"
 national_ethnic_cultural: American
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "American, AI Safety & Alignment"
 key_contribution: "Introduced WildTeaming, an automated red-teaming framework that mines 'in-the-wild' user jailbreak tactics (5.7k clusters) to discover novel vulnerabilities."

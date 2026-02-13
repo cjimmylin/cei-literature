@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Jiahao Yu; Xingwei Lin; Zheng Yu; Xinyu Xing"
 url: "https://arxiv.org/abs/2309.10253"
 external_pdf: "https://arxiv.org/pdf/2309.10253.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced GPTFuzzer, an automated black-box fuzzing framework that mutates human-written seeds to generate successful jailbreak prompts."

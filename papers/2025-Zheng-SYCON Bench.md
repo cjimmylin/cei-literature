@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Jiseung Hong; Grace Byun; Seungone Kim; Kai Shu; Jinho D. Choi"
 url: "https://arxiv.org/abs/2505.23840"
 external_pdf: "https://arxiv.org/pdf/2505.23840.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Created SYCON Bench to measure 'sycophancy' (agreeing with user regardless of truth) in multi-turn dialogues, finding RLHF amplifies sycophancy."

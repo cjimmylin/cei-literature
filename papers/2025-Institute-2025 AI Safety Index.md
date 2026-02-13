@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Institute; Future of Life"
 url: "https://futureoflife.org/ai-safety-index-summer-2025/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/NQNT4L9B/AI-Safety-Index-Summer-2025-2-page-v4.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "A report tracking the state of AI safety metrics and policy developments."

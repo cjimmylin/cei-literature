@@ -225,12 +225,24 @@ def classify_paper(meta: dict) -> str:
     return "C"
 
 
+def parse_date_arg(argv, default="20260207"):
+    """Extract --date YYYYMMDD from argv, or return default."""
+    for i, arg in enumerate(argv):
+        if arg == '--date' and i + 1 < len(argv):
+            return argv[i + 1]
+    return default
+
+
+# Module-level date filter, set in main()
+_DATE_ADDED = "20260207"
+
+
 def get_papers_needing_pdfs() -> List[dict]:
     """Find all EXSR papers without local PDFs."""
     papers = []
     for f in sorted(PAPERS_DIR.glob("*.md")):
         content = f.read_text(encoding="utf-8")
-        if "DATE_ADDED: 20260207" not in content:
+        if f"DATE_ADDED: {_DATE_ADDED}" not in content:
             continue
         # Skip if already has local_pdf wikilink
         if re.search(r'local_pdf:\s*"\[\[', content):
@@ -1082,8 +1094,11 @@ def run_report():
 
 
 def main():
+    global _DATE_ADDED
     # Parse args
     args = sys.argv[1:]
+    _DATE_ADDED = parse_date_arg(sys.argv)
+    print(f"Filtering by DATE_ADDED: {_DATE_ADDED}")
 
     if "--report" in args:
         run_report()
@@ -1106,11 +1121,21 @@ def main():
         start = 1
         end = len(all_papers)
     else:
-        # Positional START END
-        num_args = [a for a in args if not a.startswith("--")]
+        # Positional START END (skip --date and its value)
+        skip_next = False
+        num_args = []
+        for a in args:
+            if skip_next:
+                skip_next = False
+                continue
+            if a == '--date':
+                skip_next = True
+                continue
+            if not a.startswith("--"):
+                num_args.append(a)
         if len(num_args) < 2:
-            print("Usage: python3 PYTHON/comprehensive_pdf_finder.py START END [--dry-run]")
-            print("       python3 PYTHON/comprehensive_pdf_finder.py --retry-failed")
+            print("Usage: python3 PYTHON/comprehensive_pdf_finder.py START END [--dry-run] [--date YYYYMMDD]")
+            print("       python3 PYTHON/comprehensive_pdf_finder.py --retry-failed [--date YYYYMMDD]")
             print("       python3 PYTHON/comprehensive_pdf_finder.py --report")
             sys.exit(1)
 

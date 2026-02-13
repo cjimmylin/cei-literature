@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Wang, Angelina]]; [[Phan, Michelle]]; [[Ho, Daniel E.]]; [[Koyejo, S
 url: "https://aclanthology.org/2025.acl-long.341/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/42WJ28G6/2025 - Measuring Desired Group Discrimination in LLMs (DiffAware Benchmark Suite).pdf"
 national_ethnic_cultural: American
-religious_values: Islam
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: N/A
 newtags: "American, Islam, Bias & Fairness"
 key_contribution: "Presented a benchmark suite (DiffAware) to measure 'desired group discrimination'—contexts where treating groups differently is appropriate (e.g., medical or legal distinctions)."

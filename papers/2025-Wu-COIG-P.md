@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "M-A-P Team; Siwei Wu; Jincheng Ren; Xinrun Du; Shuyue Guo; Xingwei Qu;
 url: "https://arxiv.org/abs/2504.05535"
 external_pdf: "https://arxiv.org/pdf/2504.05535.pdf"
 national_ethnic_cultural: Chinese
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Chinese, AI Safety & Alignment"
 key_contribution: "Introduced COIG-P, a large-scale Chinese preference dataset (1M+ pairs) across 6 domains, and CRBench, a reward model benchmark, created via a scalable LLM-only pipeline."

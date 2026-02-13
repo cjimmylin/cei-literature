@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2306.09468"
 external_pdf: "http://arxiv.org/pdf/2306.09468.pdf"
 publication: "International Conference on Learning Representations"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Introduced the 'Fair Fairness Benchmark' (FFB), a standardized framework for evaluating *in-processing* fairness methods (algorithms that fix bias *during* training), conducting 45k experiments."

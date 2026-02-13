@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Hannah Rose Kirk; Alexander Whitefield; Paul Röttger; Andrew Bean; Ka
 url: "https://arxiv.org/abs/2404.16019"
 external_pdf: "https://arxiv.org/pdf/2404.16019.pdf"
 national_ethnic_cultural: "American, Multicultural/Cross-cultural"
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "American, Multicultural/Cross-cultural, AI Safety & Alignment"
 key_contribution: "Introduced PRISM, a dataset mapping sociodemographics and preferences of 1,500 diverse participants from 75 countries to their feedback on 8,000+ interactions with 21 LLMs."

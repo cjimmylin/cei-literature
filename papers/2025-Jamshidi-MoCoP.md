@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.48550/arXiv.2512.03026
 url: "https://arxiv.org/abs/2512.03026"
 external_pdf: "https://arxiv.org/pdf/2512.03026.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduces a dataset-free, closed-loop framework for continuous moral stability evaluation"

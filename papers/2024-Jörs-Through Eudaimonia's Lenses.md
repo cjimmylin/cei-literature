@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://www.researchgate.net/publication/380938771_Through_Eudaimonia's_Le
 local_pdf: "[[PDFs/2024/2024-Jörs-Through Eudaimonia's Lenses.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Jörs-Through Eudaimonia's Lenses.md"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Virtue Ethics, Utilitarianism"
 key_contribution: "Integrates eudaimonic well-being principles into Human-Centered AI (HCAI) design to foster user flourishing"

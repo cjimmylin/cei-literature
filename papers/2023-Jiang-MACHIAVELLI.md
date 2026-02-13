@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Alexander Pan; Jun Shern Chan; Andy Zou; Nathaniel Li; Steven Basart; 
 url: "https://arxiv.org/abs/2304.03279"
 external_pdf: "https://arxiv.org/pdf/2304.03279.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, Utilitarianism"
 key_contribution: "Introduced MACHIAVELLI benchmark (134 CYOA games) to measure power-seeking, deception, and utility maximization trade-offs"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Zampieri, Marcos]]; [[Nakov, Preslav]]; [[Rosenthal, Sara]]; [[Atana
 url: "https://aclanthology.org/2020.semeval-1.188/"
 external_pdf: "https://aclanthology.org/2020.semeval-1.188.pdf"
 national_ethnic_cultural: Arabic
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Arabic, Toxicity & Hate Speech"
 key_contribution: "Summarizes SemEval-2020 Task 12 (OffensEval), a multilingual offensive language identification shared task with 500+ participants covering 5 languages."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.18653/v1/2024.emnlp-main.982
 url: "https://aclanthology.org/2024.emnlp-main.982/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/TV58P8JC/Abdulhai et al. - 2024 - Moral Foundations of Large Language Models.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Analyzed LLMs using Moral Foundations Theory (MFT), finding they exhibit specific political/moral biases that can be adversarially steered."

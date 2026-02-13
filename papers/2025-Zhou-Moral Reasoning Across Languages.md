@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2504.19759"
 external_pdf: "http://arxiv.org/pdf/2504.19759.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "Vietnamese, Multicultural/Cross-cultural"
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Vietnamese, Multicultural/Cross-cultural, Moral Reasoning & Psychology"
 key_contribution: "Introduced the Multilingual Moral Reasoning Benchmark (MMRB) across 5 languages (including Vietnamese) and 3 complexity levels, revealing a 'Complexity Gap' where performance degrades as context length increases."

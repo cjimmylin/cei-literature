@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2407.21792"
 external_pdf: "http://arxiv.org/pdf/2407.21792.pdf"
 publication: "Neural Information Processing Systems"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Meta-analysis of safety benchmarks showing they highly correlate with general capabilities/compute, allowing 'safetywashing' (framing capability gains as safety wins)."

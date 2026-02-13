@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.18653/v1/2021.woah-1.3
 url: "https://aclanthology.org/2021.woah-1.3/"
 external_pdf: "https://aclanthology.org/2021.woah-1.3.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Toxicity & Hate Speech"
 key_contribution: "Introduced HateBERT, a BERT model retrained on RAL-E, a large-scale dataset of Reddit comments from banned communities (offensive/abusive/hateful)."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Anka Reuel; Amelia Hardy; Chandler Smith; Max Lamparth; Malcolm Hardy;
 url: "https://arxiv.org/abs/2411.12990"
 external_pdf: "https://arxiv.org/pdf/2411.12990.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 tags: 

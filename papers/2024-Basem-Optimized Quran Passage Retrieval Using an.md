@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Mohamed Basem; Islam Oshallah; Baraa Hikal; Ali Hamdi; Ammar Mohamed"
 url: "https://arxiv.org/abs/2412.11431"
 external_pdf: "https://arxiv.org/pdf/2412.11431.pdf"
 national_ethnic_cultural: Arabic
-religious_values: Islam
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: N/A
 newtags: "Arabic, Islam"
 tags: 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2306.13000"
 external_pdf: "http://arxiv.org/pdf/2306.13000.pdf"
 publication: arXiv.org
 national_ethnic_cultural: American
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "American, Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Audited Delphi's responses to controversial US political issues, finding it 'poorly calibrated' and exhibiting significant political skew (often left-leaning)."

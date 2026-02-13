@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.4102/ve.v45i1.3100
 url: "http://www.ve.org.za/index.php/VE/article/view/3100"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/KM62LRJY/Mokoena - 2024 - A holistic ubuntu artificial intelligence ethics approach in South Africa.pdf"
 national_ethnic_cultural: African/Ubuntu
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "African/Ubuntu, Social & Cultural Values"
 key_contribution: "Proposes a holistic 'Ubuntu' ethics framework for AI in South Africa, emphasizing relationality and community interconnectedness over Western individualism."

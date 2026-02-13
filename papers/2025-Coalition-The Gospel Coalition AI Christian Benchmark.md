@@ -1,0 +1,77 @@
+---
+
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: EXSR0443
+type: preprint
+short_title: "The Gospel Coalition AI Christian Benchmark"
+year: 2025
+first_author: "[[Casey Sapp, Kyle Horne, Ken Churchill, Andrew Clark, Andrew Noble, Peter Williams, Mary Hannah, Gavin Ortlund, Hans Madueme, Uche Anizor, Nadya Williams, Michael Kruger, Dan Doriani (The Gospel Coalition)]]"
+last_author: "[[Casey Sapp, Kyle Horne, Ken Churchill, Andrew Clark, Andrew Noble, Peter Williams, Mary Hannah, Gavin Ortlund, Hans Madueme, Uche Anizor, Nadya Williams, Michael Kruger, Dan Doriani (The Gospel Coalition)]]"
+authors: "[[Casey Sapp, Kyle Horne, Ken Churchill, Andrew Clark, Andrew Noble, Peter Williams, Mary Hannah, Gavin Ortlund, Hans Madueme, Uche Anizor, Nadya Williams, Michael Kruger, Dan Doriani (The Gospel Coalition)]]"
+authors_incomplete: false
+url: ""
+external_pdf: ""
+local_pdf: "N/A"
+pdf_extract: ""
+publication: The Gospel Coalition (industry report)
+DATE_ADDED: 20260213
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "Christianity"
+religious_values_list: "Christianity"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+tags: 
+abstract: "Summary: Seven orthodox theologians graded seven LLMs on responses to the most-Googled religious questions. DeepSeek R1 ranked highest for theological reliability; Llama 3.7 performed worst. Evaluates alignment with Nicene Creed doctrines."
+data_description: "Benchmark"
+data_metrics: "Not specified"
+LLM_assessed: "NA"
+DATA_URL: "https://www.thegospelcoalition.org/ai-christian-benchmark/"
+research_topic: "Machine Learning"
+---
+# The Gospel Coalition AI Christian Benchmark: Evaluating 7 Top LLMs for Theological Reliability
+
+## Authors
+
+[[Casey Sapp, Kyle Horne, Ken Churchill, Andrew Clark, Andrew Noble, Peter Williams, Mary Hannah, Gavin Ortlund, Hans Madueme, Uche Anizor, Nadya Williams, Michael Kruger, Dan Doriani (The Gospel Coalition)]]
+
+## Metadata
+
+**Authors:** Casey Sapp, Kyle Horne, Ken Churchill, Andrew Clark, Andrew Noble, Peter Williams, Mary Hannah, Gavin Ortlund, Hans Madueme, Uche Anizor, Nadya Williams, Michael Kruger, Dan Doriani (The Gospel Coalition)
+
+**Year:** 2025
+
+**Type:** preprint
+
+**Venue:** The Gospel Coalition (industry report)
+
+## Links
+
+- **Code/Data:** https://www.thegospelcoalition.org/ai-christian-benchmark/
+
+## Abstract
+
+Summary: Seven orthodox theologians graded seven LLMs on responses to the most-Googled religious questions. DeepSeek R1 ranked highest for theological reliability; Llama 3.7 performed worst. Evaluates alignment with Nicene Creed doctrines.
+
+## Dataset Information
+
+7 theological questions x 7 LLMs, graded by 7 theologians
+
+## Notes
+
+**Source:** Religious & Language Search (2026-02-13), R2
+**Implementation Readiness:** MEDIUM
+
+## Tags

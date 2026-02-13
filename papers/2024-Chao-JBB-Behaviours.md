@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Patrick Chao; Edoardo Debenedetti; Alexander Robey; Maksym Andriushche
 url: "https://arxiv.org/abs/2404.01318"
 external_pdf: "https://arxiv.org/pdf/2404.01318.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Jainism"
+religious_values_list: "Jainism"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Released JailbreakBench, an open-source benchmark and leaderboard comprising 100 distinct harmful behaviors and a standardized evaluation framework for jailbreak attacks."

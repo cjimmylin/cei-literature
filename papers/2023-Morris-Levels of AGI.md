@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Meredith Ringel Morris; Jascha Sohl-Dickstein; Noah Fiedel; Tris Warke
 url: "https://arxiv.org/abs/2311.02462"
 external_pdf: "https://arxiv.org/pdf/2311.02462.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Human Rights"
 key_contribution: "Proposed a framework for classifying AGI progress based on levels of performance (depth) and generality (breadth), defining milestones from 'Emerging' to 'Superhuman'."

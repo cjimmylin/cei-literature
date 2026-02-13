@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ doi: 10.1007/s43681-024-00532-4
 url: "https://link.springer.com/article/10.1007/s43681-024-00532-4"
 publication: "AI and Ethics"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 

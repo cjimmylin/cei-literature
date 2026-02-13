@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ external_pdf: "https://philpapers.org/archive/WRIADL-2.pdf"
 local_pdf: "[[PDFs/2020/2020-Wright-A Deontic Logic for Programming Rightful Machines.pdf]]"
 publication: "AIES '20: AAAI/ACM Conference on AI, Ethics, and Society"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Deontic-Logic, Machine-Ethics, Legal-Reasoning, Autonomous-Agents, Kantian-Ethics"
 key_contribution: "Defines 'rightful machine' concept and develops non-monotonic deontic logic for handling conflicting legal obligations"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2012.10289"
 external_pdf: "http://arxiv.org/pdf/2012.10289.pdf"
 publication: "AAAI Conference on Artificial Intelligence"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: N/A
 newtags: "Toxicity & Hate Speech"
 key_contribution: "Released HateXplain, a benchmark dataset for *explainable* hate speech detection where posts are annotated with labels, target communities, and rationale spans."

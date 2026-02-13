@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.18653/v1/2021.emnlp-main.54
 url: "https://aclanthology.org/2021.emnlp-main.54/"
 external_pdf: "https://aclanthology.org/2021.emnlp-main.54.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Introduced Moral Stories, a dataset of branching narratives for evaluating grounded, gaol-oriented social reasoning and norm adherence in models."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2309.03882"
 external_pdf: "http://arxiv.org/pdf/2309.03882.pdf"
 publication: "International Conference on Learning Representations"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Showed LLMs have 'selection bias' (preferring Option A over B arbitrarily) in multiple-choice questions due to token priors, proposing 'PriDe' debiasing."

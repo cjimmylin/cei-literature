@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1609/aaai.v36i10.21368
 url: "http://arxiv.org/abs/2112.06346"
 external_pdf: "http://arxiv.org/pdf/2112.06346.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Presented ValueNet, a dataset of 21k text scenarios annotated with Schwartz values, and a value regression model"

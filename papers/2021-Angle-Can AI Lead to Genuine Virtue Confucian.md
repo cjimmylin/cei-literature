@@ -1,5 +1,6 @@
 ---
 
+
 Human View: false
 Not AI: 
 key: AUTO_ANGLE2021
@@ -13,7 +14,8 @@ doi: 10.1007/978-981-16-2309-7_4
 url: "https://link.springer.com/chapter/10.1007/978-981-16-2309-7_4"
 local_pdf: N/A
 national_ethnic_cultural: Chinese/Confucian
-religious_values: Confucian
+religious_values: "Confucianism"
+religious_values_list: "Confucianism"
 moral_psychology: Yes
 newtags: "Virtue Ethics, Confucian Ethics, AI Philosophy, Technomoral Virtue"
 key_contribution: "Examines from Confucian perspective whether AI can lead humans to genuine virtue, expanding beyond Western ethical frameworks"

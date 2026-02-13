@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Deep Ganguli; Liane Lovitt; Jackson Kernion; Amanda Askell; Yuntao Bai
 url: "https://arxiv.org/abs/2209.07858"
 external_pdf: "https://arxiv.org/pdf/2209.07858.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Released a dataset of 38,961 red team attacks and analyzed scaling behaviors for red teaming across model sizes and types (including RLHF models)."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ local_pdf: "[[PDFs/2025/2025-Brophy-Black Box Deployed.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2507.13175.pdf"
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Safety & Alignment"
 key_contribution: "Establishes 'Moral Imagination' and 'Normative Integrity' as functional criteria for evaluating 'black-box' LLMs without internal transparency"

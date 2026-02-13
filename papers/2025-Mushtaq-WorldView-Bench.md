@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Abdullah Mushtaq; Imran Taj; Rafay Naeem; Ibrahim Ghaznavi; Junaid Qad
 url: "https://arxiv.org/abs/2505.09595"
 external_pdf: "https://arxiv.org/pdf/2505.09595.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Social & Cultural Values"
 key_contribution: "Introduced WorldView-Bench to evaluate 'Global Cultural Inclusivity' in LLMs and proposed a Multi-Agent System (MAS) approach to increase worldview diversity."

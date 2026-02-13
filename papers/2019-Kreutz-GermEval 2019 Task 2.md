@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ url: "https://germevalmp2023.github.io/data/"
 local_pdf: "[[PDFs/2019/2019-Kreutz-GermEval 2019 Task 2.pdf]]"
 pdf_extract: "PDF Extracts/2019/2019-Kreutz-GermEval 2019 Task 2.md"
 national_ethnic_cultural: German
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "German, Toxicity & Hate Speech"
 key_contribution: "A shared task dataset for identifying offensive language in *German*."

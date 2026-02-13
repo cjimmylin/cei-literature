@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Shaona Ghosh; Prasoon Varshney; Erick Galinkin; Christopher Parisien"
 url: "https://arxiv.org/abs/2404.05993"
 external_pdf: "https://arxiv.org/pdf/2404.05993.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced the AEGIS taxonomy (13 critical/9 sparse risks) and the AEGISSAFETYDATASET (26k annotated human-LLM interactions), along with an online adaptive framework for content moderation."

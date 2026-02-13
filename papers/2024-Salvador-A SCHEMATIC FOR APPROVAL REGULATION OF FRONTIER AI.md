@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/C6JW9ET2/Salvador - A SCHEM
 pdf_extract: "[[2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI]]"
 local_pdf: "[[PDFs/2024/2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposes an 'approval regulation' schematic for frontier AI, similar to the FDA/FAA, featuring major approval gates before large-scale training and before deployment."

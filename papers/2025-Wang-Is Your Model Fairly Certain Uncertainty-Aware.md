@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Yinong Oliver Wang; Nivedha Sivakumar; Falaah Arif Khan; Rin Metcalf S
 url: "https://arxiv.org/abs/2505.23996"
 external_pdf: "https://arxiv.org/pdf/2505.23996.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Introduced 'UCerF' (Uncertainty-Aware Fairness), a metric that penalizes models not just for being wrong, but for being *overconfidently* wrong about specific demographic groups."

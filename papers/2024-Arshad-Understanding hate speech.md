@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.7717/peerj-cs.2372
 url: "https://peerj.com/articles/cs-2372"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/P2VZGTF3/Arshad and Shahzad - 2024 - Understanding hate speech the HateInsights dataset and model interpretability.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Toxicity & Hate Speech"
 key_contribution: "Introduced HateInsights, a hate speech dataset with dual evaluations (class labels + rationales) to assess model interpretability alongside classification performance."

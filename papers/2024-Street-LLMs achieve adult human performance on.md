@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Winnie Street; John Oliver Siy; Geoff Keeling; Adrien Baranes; Benjami
 url: "https://arxiv.org/abs/2405.18870"
 external_pdf: "https://arxiv.org/pdf/2405.18870.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 tags: 

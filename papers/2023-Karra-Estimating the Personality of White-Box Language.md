@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.48550/arXiv.2204.12000
 url: "http://arxiv.org/abs/2204.12000"
 external_pdf: "http://arxiv.org/pdf/2204.12000.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Developed methods to estimate 'personality traits' (Big Five) of LLMs using Zero-shot classification on standard personality questionnaires."

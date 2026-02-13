@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: TheDevastator
 url: "https://www.kaggle.com/datasets/thedevastator/multilingual-conversation-dataset"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/HGR2QABJ/TheDevastator - 2023 - OpenAssistant Conversations (OASST1).pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: 
 tags: 

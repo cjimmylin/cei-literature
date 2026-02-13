@@ -1,5 +1,6 @@
 ---
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Human flourishing in AI"
@@ -14,7 +15,8 @@ authors: "[[Velay-Vitow, Jesse]]; [[Grant, John]]"
 doi: N/A
 url: "https://therepublicjournal.com/putting-the-ai-in-eudaimonia/"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Argues that the development of AI (civil and military) should be unified by the teleological goal of protecting the space and time necessary for human eudaimonia"

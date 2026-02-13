@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Yutao Mou; Shikun Zhang; Wei Ye"
 url: "https://arxiv.org/abs/2410.21965"
 external_pdf: "https://arxiv.org/pdf/2410.21965.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Developed SGBench to evaluate LLM safety integration across both discriminative (identifying harm) and generative (refusing harm) tasks."

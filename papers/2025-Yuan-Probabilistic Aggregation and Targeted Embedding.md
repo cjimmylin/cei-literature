@@ -1,5 +1,6 @@
 ---
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Fuse moral reasoning"
@@ -17,7 +18,8 @@ external_pdf: "http://arxiv.org/pdf/2506.14625.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 ethics_perspective: "Moral Reasoning & Psychology"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Proposed a 'Probabilistic Aggregation' mechanism to fuse moral scores from multiple LLMs into a robust consensus, and 'Targeted Embedding Optimization' (TEO) to align deviants."

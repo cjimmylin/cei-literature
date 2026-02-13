@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2008.09094"
 external_pdf: "http://arxiv.org/pdf/2008.09094.pdf"
 publication: "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI-21)"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Machine Ethics"
 key_contribution: "Created 'Scruples', a dataset of 32,000 'Am I the Asshole?' (AITA) posts from Reddit, annotated with community ethical judgments."

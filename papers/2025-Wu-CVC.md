@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,7 +19,8 @@ local_pdf: [[PDFs/2025/2025-Wu-CVC.pdf]]
 external_pdf: "http://arxiv.org/pdf/2506.01495.pdf"
 publication: arXiv.org
 national_ethnic_cultural: Chinese
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Chinese, Deontology"
 key_contribution: "Constructs the 'Chinese Values Corpus' (CVC) with 250k value rules based on a hierarchical framework of core Chinese values"

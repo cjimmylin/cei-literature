@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2112.04359"
 external_pdf: "http://arxiv.org/pdf/2112.04359.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Responsible AI"
 key_contribution: "Established a comprehensive taxonomy of ethical and social risks from Large Language Models (DeepMind), categorizing harms into discrimination, information hazards, misinformation, etc."

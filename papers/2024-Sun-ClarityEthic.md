@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2412.12848"
 external_pdf: "http://arxiv.org/pdf/2412.12848.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Introduces ClarityEthic, a method that uses contrastive learning to help LLMs identify and select appropriate social norms for moral judgment"

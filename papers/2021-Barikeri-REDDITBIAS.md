@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Barikeri, Soumya]]; [[Lauscher, Anne]]; [[Vulić, Ivan]]; [[Glavaš,
 url: "https://aclanthology.org/2021.acl-long.151/"
 external_pdf: "https://aclanthology.org/2021.acl-long.151.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Created REDDITBIAS, the first conversational dataset from Reddit to measure bias (gender, race, religion, queerness) and tested debiasing methods on DialoGPT."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.1038/sdata.2016.99
 url: "https://www.nature.com/articles/sdata201699"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/VQRCW8LB/Purzycki et al. - 2016 - Cross-cultural dataset for the evolution of religion and morality project.pdf"
 national_ethnic_cultural: Multicultural/Cross-cultural
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Multicultural/Cross-cultural, Value Pluralism / Schwartz, Social & Cultural Values"
 key_contribution: "Produced a cross-cultural dataset examining the evolution of religion and morality, sampling from diverse populations beyond standard WEIRD (Western, Educated, Industrialized, Rich, Democratic) societies."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: false
 Not AI: 
 key: AUTO_SO2024
@@ -13,7 +14,8 @@ doi: N/A
 url: "https://philarchive.org/archive/SOHATI"
 local_pdf: "[[PDFs/2024/2024-So-AI Trained on Confucian Analects.pdf]]"
 national_ethnic_cultural: Chinese/Confucian
-religious_values: Confucian
+religious_values: "Confucianism"
+religious_values_list: "Confucianism"
 moral_psychology: N/A
 newtags: "Virtue Ethics, Confucian Ethics, AI Training, The Analects, Ethical Dilemmas"
 key_contribution: "Proposes Confucian-imbued AI trained on The Analects could reduce prevalent AI ethical issues and resolve ethical dilemmas"

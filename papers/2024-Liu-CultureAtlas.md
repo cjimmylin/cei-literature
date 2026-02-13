@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Yi Fung; Ruining Zhao; Jae Doo; Chenkai Sun; Heng Ji"
 url: "https://arxiv.org/abs/2402.09369"
 external_pdf: "https://arxiv.org/pdf/2402.09369.pdf"
 national_ethnic_cultural: Multicultural/Cross-cultural
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Introduced CultureAtlas, a massive dataset for testing cross-cultural knowledge in LLMs, covering sub-country regions and ethnolinguistic groups using Wikipedia data."

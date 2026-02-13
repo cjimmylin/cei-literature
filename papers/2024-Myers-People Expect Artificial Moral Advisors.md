@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "https://www.sciencedirect.com/science/article/pii/S0010027724003147"
 external_pdf: ""
 publication: Cognition
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: Yes
 newtags: "Utilitarianism, AI Trust, Moral Advisors, Human-AI Interaction"
 key_contribution: "Demonstrates that humans expect AI to make utilitarian decisions and distrust AI giving utilitarian moral advice, revealing a fundamental tension in AI moral advisory roles"

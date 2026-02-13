@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2407.02273"
 external_pdf: "http://arxiv.org/pdf/2407.02273.pdf"
 publication: "International Conference on Learning Representations"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Trolley / Dilemmas (Psych), AI Safety & Alignment"
 key_contribution: "Developed MultiTP, a dataset of moral dilemma vignettes in 100+ languages, and evaluated 19 LLMs against 40 million human judgments from the Moral Machine experiment."

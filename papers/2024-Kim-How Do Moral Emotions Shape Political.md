@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.18653/v1/2024.findings-acl.963
 url: "https://aclanthology.org/2024.findings-acl.963/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ZEHT2BKU/Kim et al. - 2024 - How Do Moral Emotions Shape Political Participation A Cross-Cultural Analysis of Online Petitions U.pdf"
 national_ethnic_cultural: "Korean, Multicultural/Cross-cultural"
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Korean, Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Analyzed cross-cultural online petitions to see how 'moral emotions' (other-suffering, other-condemning) drive political participation in Korea vs the West."

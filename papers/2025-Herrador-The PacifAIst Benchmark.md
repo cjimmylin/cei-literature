@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,8 @@ url: "http://arxiv.org/abs/2508.09762"
 external_pdf: "http://arxiv.org/pdf/2508.09762.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced PacifAIst, a benchmark of 700 scenarios where the model's self-interest (e.g., existence) conflicts with human safety ('Existential Prioritization')."

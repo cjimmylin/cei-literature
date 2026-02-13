@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Hamidreza Saffari; Mohammadamin Shafiei; Donya Rooein; Francesco Pierr
 url: "https://aclanthology.org/2025.findings-naacl.337/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/MJ364QQ4/Saffari et al. - Can I introduce my boyfriend to my grandmother Evaluating Large Language Models Capabilities on Ira.pdf"
 national_ethnic_cultural: "Iranian, Multicultural/Cross-cultural"
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Iranian, Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Created the 'Iranian Social Norms' (ISN) dataset (1,699 norms) to test LLMs on Iranian cultural etiquette (e.g., introducing a boyfriend to a grandmother is often taboo)."

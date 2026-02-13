@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ local_pdf: "[[PDFs/2025/2025-Zohny-ADEPT Simulating Ethics.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2505.21112.pdf"
 ethics_perspective: "Multi-perspective Ethical Deliberation"
 national_ethnic_cultural: N/A
-religious_values: Christianity
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: N/A
 newtags: "Christianity, Deontology, Utilitarianism, Multi-perspective Ethical Deliberation"
 key_contribution: "Develops a system of multi-agent debate panels with distinct ethical personas (deontologist, consequentialist)"

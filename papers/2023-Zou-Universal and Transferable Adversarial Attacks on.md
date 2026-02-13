@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Andy Zou; Zifan Wang; Nicholas Carlini; Milad Nasr; J. Zico Kolter; Ma
 url: "https://arxiv.org/abs/2307.15043"
 external_pdf: "https://arxiv.org/pdf/2307.15043.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Develops an automated method to generate 'adversarial suffixes' that universally bypass alignment protections in LLMs (ChatGPT, Claude, LLaMA) with high transferability"

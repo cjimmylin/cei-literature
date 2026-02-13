@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "Wenlong Zhao; Debanjan Mondal; Niket Tandon; Danica Dillion; Kurt Gray
 url: "https://arxiv.org/abs/2404.16308"
 external_pdf: "https://arxiv.org/pdf/2404.16308.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Social & Cultural Values"
 key_contribution: "Constructed WorldValuesBench (20M examples) from the World Values Survey to test LLMs' 'value awareness' across diverse global demographics."

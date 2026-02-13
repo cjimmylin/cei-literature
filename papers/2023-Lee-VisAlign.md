@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/T6VNUFSA/Lee et al. - VisAl
 pdf_extract: [[2023-Lee-VisAlign]]
 local_pdf: "[[PDFs/2023/2023-Lee-VisAlign.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Released VisAlign, a dataset for measuring 'AI-human visual alignment' by testing if models can correctly 'abstain' or express uncertainty on ambiguous images just like humans."

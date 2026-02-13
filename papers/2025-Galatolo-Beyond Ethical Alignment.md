@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,8 @@ doi: 10.48550/arXiv.2508.12754
 url: "https://arxiv.org/abs/2508.12754"
 external_pdf: "https://arxiv.org/pdf/2508.12754.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: Yes
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Proposed a formal framework and benchmark for evaluating LLMs as 'Artificial Moral Assistants' (AMAs), specifically testing deductive and abductive moral reasoning beyond simple verdict alignment."

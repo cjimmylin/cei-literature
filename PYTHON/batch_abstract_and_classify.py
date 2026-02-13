@@ -226,15 +226,23 @@ def update_field(frontmatter, key, value):
 # PAPER DISCOVERY
 # =============================================================================
 
-def get_papers_needing_processing():
-    """Find all papers with DATE_ADDED: 20260207 and empty classification fields."""
+def parse_date_arg(argv, default="20260207"):
+    """Extract --date YYYYMMDD from argv, or return default."""
+    for i, arg in enumerate(argv):
+        if arg == '--date' and i + 1 < len(argv):
+            return argv[i + 1]
+    return default
+
+
+def get_papers_needing_processing(date_added="20260207"):
+    """Find all papers with matching DATE_ADDED and empty classification fields."""
     papers = []
     for f in sorted(PAPERS_DIR.glob('*.md')):
         try:
             content = f.read_text(encoding='utf-8')
-            if 'DATE_ADDED: 20260207' in content:
+            if f'DATE_ADDED: {date_added}' in content:
                 # Check if classification fields are still empty
-                if re.search(r'^ethics_overall:\s*$', content, re.MULTILINE):
+                if re.search(r'^ethics_overall:\s*(""\s*)?$', content, re.MULTILINE):
                     papers.append(f)
         except Exception:
             pass
@@ -295,8 +303,10 @@ def process_paper(paper_path, dry_run=False):
     # --- Step 5: Stage 5 - Cultural/Religious ---
     cultural = ccr.classify_cultural(title, abstract or '')
     religious = ccr.classify_religious(title, abstract or '')
+    religious_list = ccr.classify_religious_list(title, abstract or '')
     frontmatter = update_field(frontmatter, 'national_ethnic_cultural', cultural)
     frontmatter = update_field(frontmatter, 'religious_values', religious)
+    frontmatter = update_field(frontmatter, 'religious_values_list', religious_list)
 
     # --- Step 6: Stage 6 - Moral psychology ---
     moral_psych = cmp.classify_moral_psych(title, abstract or '')
@@ -328,16 +338,19 @@ def process_paper(paper_path, dry_run=False):
 
 def main():
     if len(sys.argv) < 3:
-        print(f"Usage: {sys.argv[0]} START END [--dry-run]")
+        print(f"Usage: {sys.argv[0]} START END [--dry-run] [--date YYYYMMDD]")
         print("  START, END: 1-indexed positions in paper list")
+        print("  --date: filter by DATE_ADDED (default: 20260207)")
         sys.exit(1)
 
+    date_added = parse_date_arg(sys.argv)
     start = int(sys.argv[1])
     end = int(sys.argv[2])
     dry_run = '--dry-run' in sys.argv
 
     # Get all papers needing processing
-    all_papers = get_papers_needing_processing()
+    print(f"Filtering by DATE_ADDED: {date_added}")
+    all_papers = get_papers_needing_processing(date_added)
     total = len(all_papers)
     print(f"Total papers needing processing: {total}")
 

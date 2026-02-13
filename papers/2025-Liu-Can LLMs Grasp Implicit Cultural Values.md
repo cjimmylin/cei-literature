@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,8 @@ url: "http://arxiv.org/abs/2504.01127"
 local_pdf: "[[PDFs/2025/2025-Liu-Can LLMs Grasp Implicit Cultural Values.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2504.01127.pdf"
 national_ethnic_cultural: Multicultural/Cross-cultural
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Multicultural/Cross-cultural, Virtue Ethics"
 key_contribution: "Introduces CQ-Bench, a benchmark for evaluating LLMs' metacognitive cultural intelligence and ability to infer implicit values"

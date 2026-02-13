@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +15,8 @@ authors: "[[Chalkidis, Ilias]]; [[Pasini, Tommaso]]; [[Zhang, Sheng]]; [[Tomada,
 url: "https://aclanthology.org/2022.acl-long.301/"
 external_pdf: "http://arxiv.org/pdf/2203.07228"
 national_ethnic_cultural: "Chinese, French, German, Italian"
-religious_values: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: N/A
 newtags: "Chinese, French, German, Italian, Bias & Fairness"
 key_contribution: "Created FairLex, a multilingual benchmark (EN, DE, FR, IT, ZH) for fairness in legal text processing, covering 4 jurisdictions."

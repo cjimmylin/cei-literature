@@ -64,6 +64,10 @@ research_topic: "Other"
 
 Constructs Finnish hate speech dataset from Suomi24 forum with 10.7k sentences (16.7% hate speech). FinBERT achieves 91.7% accuracy and 90.8% F1, outperforming multilingual-BERT and CNN approaches.
 
+## Summary
+
+This paper presents a Finnish hate speech detection study using a dataset of 10,700 sentences collected from the Suomi24 forum, with 16.7% labeled as hate speech. The authors compare convolutional neural network approaches with FinBERT (a Finnish BERT model) and multilingual-BERT, finding that FinBERT achieves the best performance with 91.7% accuracy and 90.8% F1 score. The work addresses the gap in hate speech detection resources for Finnish and demonstrates that language-specific models significantly outperform both CNNs and multilingual models for this task.
+
 ## Data Description
 
 Finnish hate speech dataset from Suomi24 forum with 10.7k sentences (16.7% hate speech). FinBERT achieves 91.7% accuracy and 90.8% F1, outperforming multilingual BERT and CNN approaches on Finnish hate speech detection.

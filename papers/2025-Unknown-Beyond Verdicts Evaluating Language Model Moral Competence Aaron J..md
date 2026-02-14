@@ -11,9 +11,10 @@ first_author: [[Unknown]]
 last_author: [[Unknown]]
 authors: Unknown
 url: "https://philarchive.org/archive/SNOBVE"
+external_pdf: "https://philarchive.org/archive/SNOBVE"
 publication: PhilArchive
-local_pdf: 
-pdf_extract: 
+pdf_extract: "PDF Extracts/2025/2025-Unknown-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..md"
+local_pdf: "[[PDFs/2025/2025-Unknown-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

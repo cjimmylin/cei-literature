@@ -177,7 +177,7 @@ This report identifies papers that discuss **normative ethical systems** (Virtue
 | 2023 | Wang | [[2023-Wang-DecodingTrust]] | UTILITARIAN, VIRTUE |
 | 2023 | Wang | [[2023-Wang-STREAM]] | DEONTOLOGY, VIRTUE |
 | 2023 | Vida | [[2023-Vida-Values, Ethics, Morals]] | DEONTOLOGY, UTILITARIAN, VIRTUE |
-| 2023 | Takeshita | [[2023-Takeshita-Towards Theory-based Moral AI]] | DEONTOLOGY, UTILITARIAN, VIRTUE |
+| 2023 | Takeshita | [[2023-Boddington-Normative Ethical Theory AI Ethics]] | DEONTOLOGY, UTILITARIAN, VIRTUE |
 | 2023 | Shen | [[2023-Shen-Large Language Model Alignment]] | UTILITARIAN, VIRTUE |
 | 2023 | Shao | [[2023-Shao-Character-LLM A Trainable Agent for Role-Playing]] | DEONTOLOGY, VIRTUE |
 | 2023 | Schulhoff | [[2023-Schulhoff-HackAPrompt]] | VIRTUE |
@@ -378,7 +378,7 @@ This report identifies papers that discuss **normative ethical systems** (Virtue
 | 2023 | Wang | [[2023-Wang-DecodingTrust]] |
 | 2023 | Wang | [[2023-Wang-STREAM]] |
 | 2023 | Vida | [[2023-Vida-Values, Ethics, Morals]] |
-| 2023 | Takeshita | [[2023-Takeshita-Towards Theory-based Moral AI]] |
+| 2023 | Takeshita | [[2023-Boddington-Normative Ethical Theory AI Ethics]] |
 | 2023 | Shen | [[2023-Shen-Large Language Model Alignment]] |
 | 2023 | Shao | [[2023-Shao-Character-LLM A Trainable Agent for Role-Playing]] |
 | 2023 | Schulhoff | [[2023-Schulhoff-HackAPrompt]] |
@@ -527,7 +527,7 @@ This report identifies papers that discuss **normative ethical systems** (Virtue
 | 2023 | Xu | [[2023-Xu-SC-Safety]] |
 | 2023 | Wang | [[2023-Wang-STREAM]] |
 | 2023 | Vida | [[2023-Vida-Values, Ethics, Morals]] |
-| 2023 | Takeshita | [[2023-Takeshita-Towards Theory-based Moral AI]] |
+| 2023 | Takeshita | [[2023-Boddington-Normative Ethical Theory AI Ethics]] |
 | 2023 | Shao | [[2023-Shao-Character-LLM A Trainable Agent for Role-Playing]] |
 | 2023 | Scherrer | [[2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs]] |
 | 2023 | Rao | [[2023-Rao-Ethical Reasoning over Moral Alignment]] |
@@ -643,7 +643,7 @@ This report identifies papers that discuss **normative ethical systems** (Virtue
 | 2023 | Yao | [[2023-Yao-Value FULCRA]] |
 | 2023 | Wang | [[2023-Wang-DecodingTrust]] |
 | 2023 | Vida | [[2023-Vida-Values, Ethics, Morals]] |
-| 2023 | Takeshita | [[2023-Takeshita-Towards Theory-based Moral AI]] |
+| 2023 | Takeshita | [[2023-Boddington-Normative Ethical Theory AI Ethics]] |
 | 2023 | Shen | [[2023-Shen-Large Language Model Alignment]] |
 | 2023 | Roger | [[2023-Roger-Towards ethical multimodal systems]] |
 | 2023 | Rao | [[2023-Rao-Ethical Reasoning over Moral Alignment]] |

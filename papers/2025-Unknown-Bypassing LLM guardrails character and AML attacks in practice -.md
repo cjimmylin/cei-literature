@@ -11,9 +11,10 @@ first_author: [[Unknown]]
 last_author: [[Unknown]]
 authors: Unknown
 url: "https://mindgard.ai/resources/bypassing-llm-guardrails-character-and-aml-attacks-in-practice"
+external_pdf: "https://arxiv.org/pdf/2504.11168"
 publication: Web
-local_pdf: 
-pdf_extract: 
+pdf_extract: "PDF Extracts/2025/2025-Unknown-Bypassing LLM guardrails character and AML attacks in practice -.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-Bypassing LLM guardrails character and AML attacks in practice -.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: Yes

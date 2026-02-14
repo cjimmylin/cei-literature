@@ -257,7 +257,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Benchmark for moral/ethical reasoning
 - 2024 - [[Y. Moon]] - [[2024-Moon-BEAF|]]
   - *Description*: Benchmark for hallucination detection dataset
-- 2024 - [[Xiangyu Mou]] - [[2024-Mou-SG-Bench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
+- 2024 - [[Xiangyu Mou]] - [[2024-Various-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
   - *Description*: Benchmark for ai safety
 - 2024 - [[Alfred Malengo Kondoro]] - [[2024-Oliech-SwaQuAD-24|SwaQuAD-24: A Benchmark Dataset for Question Answering in Swahili]]
   - *Description*: Benchmark for moral/ethical reasoning annotated dataset for question answering
@@ -923,7 +923,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Metrics*: 8,000 questions
 - 2024 - [[Jared Moore]] - [[2024-Moore-Intuitions of Compromise|Intuitions of Compromise: Utilitarianism vs. Contractualism]]
   - *Description*: Evaluation methodology
-- 2024 - [[Xiangyu Mou]] - [[2024-Mou-SG-Bench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
+- 2024 - [[Xiangyu Mou]] - [[2024-Various-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
   - *Description*: Benchmark for ai safety
 - 2024 - [[Carlos Mougan]] - [[2024-Mougan-Kantian Deontology Meets AI Alignment|]]
   - *Description*: Evaluation framework
@@ -2161,7 +2161,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2024 - [[MLCommons]] - [[2024-MLCommons-MLCommons AILuminate Benchmark|MLCommons AILuminate Benchmark]]
 - 2024 - [[Giovanni Franco Gabriel Marraffini]] - [[2024-Marraffini-The Greatest Good Benchmark|The Greatest Good Benchmark: Measuring LLMs’ Alignment with Utilitarian Moral Dilemmas]]
 - 2024 - [[Gwenyth Isobel Meadows]] - [[2024-Meadows-LocalValueBench|LocalValueBench: A Collaboratively Built and Extensible Benchmark for Evaluating Localized Value Alignment and Ethical Safety in Large Language Models]]
-- 2024 - [[Xiangyu Mou]] - [[2024-Mou-SG-Bench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
+- 2024 - [[Xiangyu Mou]] - [[2024-Various-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
 - 2024 - [[Matthew Pisano]] - [[2024-Pisano-Moral High Ground|Moral High Ground: A text-based games benchmark for moral evaluation]]
 - 2024 - [[Richard Ren]] - [[2024-Ren-Safetywashing|Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress?]]
 - 2024 - [[Yuanyi Ren]] - [[2024-Ren-ValueBench|ValueBench: Towards Comprehensively Evaluating Value Orientations and Understanding of Large Language Models]]
@@ -2599,7 +2599,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2024 - [[Bertie Vidgen]] - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 - 2024 - [[Lijun Li]] - [[2024-Li-SALAD-Bench|SALAD-Bench: A Hierarchical and Comprehensive Safety Benchmark for Large Language Models]]
 - 2024 - [[MLCommons]] - [[2024-MLCommons-MLCommons AILuminate Benchmark|MLCommons AILuminate Benchmark]]
-- 2024 - [[Xiangyu Mou]] - [[2024-Mou-SG-Bench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
+- 2024 - [[Xiangyu Mou]] - [[2024-Various-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
 - 2024 - [[Richard Ren]] - [[2024-Ren-Safetywashing|Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress?]]
 - 2024 - [[Paul Röttger]] - [[2024-Röttger-XSTest|XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models]]
 - 2024 - [[Yutao Mou]] - [[2024-Various-SGBench|SGBench: A Benchmark for Evaluating the Safety of Generative AI]]
@@ -3620,7 +3620,7 @@ These papers are not classified as benchmarks, evaluations, or datasets.
 - 2023 - [[Abhinav Rao]] - [[2023-Rao-Ethical Reasoning over Moral Alignment|]]
 - 2023 - [[Jonathan H. Rystrøm]] - [[2023-Rystrøm-Apolitical Intelligence|Apolitical Intelligence? Auditing Delphi's responses on controversial political issues in the US]]
 - 2023 - [[Tianhao Shen]] - [[2023-Shen-Large Language Model Alignment|Large Language Model Alignment: A Survey]]
-- 2023 - [[Masashi Takeshita]] - [[2023-Takeshita-Towards Theory-based Moral AI|Towards Theory-based Moral AI: Moral AI with Aggregating Models Based on Normative Ethical Theory]]
+- 2023 - [[Masashi Takeshita]] - [[2023-Boddington-Normative Ethical Theory AI Ethics|Towards Theory-based Moral AI: Moral AI with Aggregating Models Based on Normative Ethical Theory]]
 - 2023 - [[Lorenzo Pacchiardi]] - [[2023-Tan-How to Catch an AI Liar|How to Catch an AI Liar: Lie-Detection in Large Language Models]]
 - 2023 - [[Karina Vida]] - [[2023-Vida-Values, Ethics, Morals|Values, Ethics, Morals? On the Use of Moral Concepts in NLP Research]]
 - 2023 - [[Caleb Ziems]] - [[2023-Ziems-NormBank|NormBank: A Knowledge Bank of Situational Social Norms]]

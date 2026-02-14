@@ -11,9 +11,10 @@ first_author: [[Unknown]]
 last_author: [[Unknown]]
 authors: Unknown
 url: "https://ojs.stanford.edu/ojs/index.php/grace/article/download/2584/1546/9011"
+external_pdf: "https://ojs.stanford.edu/ojs/index.php/grace/article/download/2584/1546/9011"
 publication: Web
-local_pdf: 
-pdf_extract: 
+pdf_extract: "PDF Extracts/2025/2025-Unknown-1 Decolonizing NLP for “Low-resource Languages”.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-1 Decolonizing NLP for “Low-resource Languages”.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

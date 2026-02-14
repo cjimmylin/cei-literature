@@ -11,9 +11,10 @@ first_author: [[Enkhbold]]
 last_author: [[Enkhbold]]
 authors: Enkhbold
 url: "https://mongoliajol.info/index.php/MJHSS/article/view/4920"
+external_pdf: "https://mongoliajol.info/index.php/MJHSS/article/download/4920/4361"
 publication: Web
-local_pdf: 
-pdf_extract: 
+pdf_extract: "PDF Extracts/2024/2024-Enkhbold-Text and Value Mongolian Journal of Humanities and Social Sciences.md"
+local_pdf: "[[PDFs/2024/2024-Enkhbold-Text and Value Mongolian Journal of Humanities and Social Sciences.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

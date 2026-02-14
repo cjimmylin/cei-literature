@@ -14,8 +14,8 @@ authors: Unknown
 url: "https://ojs.aaai.org/index.php/AAAI/article/view/30237"
 external_pdf: "https://ojs.aaai.org/index.php/AAAI/article/download/30237/32202"
 publication: AAAI
-local_pdf: "[[PDFs/2024/2024-Unknown-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Unknown-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian.md"
+local_pdf: "[[PDFs/2024/2024-Unknown-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No
@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract: "Framework for generating counter-narratives to hate speech in Indian context. Contains 2,509 counter-narratives per language with mean toxicity of 0.04 (English) and 0.06 (Hindi)."
+abstract: "Multilingual dataset of counter-narratives against hate speech in Indian context with 2,500+ examples in Hindi and English. Scalable human-in-the-loop approach for generating counter-narratives via auto-regressive language models. Counter-narrative generation for Indian hate speech. Framework designed to extend to Dravidian languages. Published at AAAI 2024."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # IndicCONAN: A Multilingual Dataset for Combating Hate Speech in Indian Context

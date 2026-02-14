@@ -14,8 +14,8 @@ authors: "Walelign Sewunetie, Atnafu Tonja, Tadesse Belay, Hellina Hailu Nigatu,
 url: "https://aclanthology.org/2024.gitt-1.1/"
 external_pdf: "https://aclanthology.org/2024.gitt-1.1.pdf"
 publication: "WebSearch: gender bias machine translation Amharic Oromo Tigrinya benchmark"
-local_pdf: "[[PDFs/2024/2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.md"
+local_pdf: "[[PDFs/2024/2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No
@@ -27,15 +27,15 @@ religious_values: N/A
 religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
-is_benchmark: No
+is_benchmark: Yes
 is_eval: Yes
-is_dataset: No
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract: "Benchmark datasets evaluating gender bias in MT for three low-resource languages. 2,400 gender-balanced sentences. Found 72% of Amharic and 93% of Afaan Oromoo sentences exhibited gender bias."
+abstract: "While Machine Translation (MT) research has progressed over the years, translation systems still suffer from biases, including gender bias. While an active line of research studies the existence and mitigation strategies of gender bias in machine translation systems, there is limited research exploring this phenomenon for lowresource languages. The limited availability of linguistic and computational resources confounded with the lack of benchmark datasets makes studying bias for low-resourced..."
 ethics_perspective: "Bias & Fairness"
 ---
 # Gender Bias Evaluation in Machine Translation for Amharic, Tigrigna, and Afaan Oromoo

@@ -11,9 +11,10 @@ first_author: [[Kajiwara]]
 last_author: [[Kajiwara]]
 authors: Kajiwara
 url: "https://hatespeechdata.com/"
+external_pdf: "http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.760.pdf"
 publication: Web
-local_pdf: 
 pdf_extract: 
+local_pdf: "[[PDFs/2024/2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

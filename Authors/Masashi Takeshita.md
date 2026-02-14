@@ -24,7 +24,7 @@ Masashi Takeshita is a post-doctoral fellow at Nagoya University, Graduate Schoo
 
 - [[2025-Takeshita-JETHICS|JETHICS]] (First Author)
 - [[2024-Yanaka-JBBQ|JBBQ]]
-- [[2023-Takeshita-Towards Theory-based Moral AI|Towards Theory-based Moral AI]] (First Author)
+- [[2023-Boddington-Normative Ethical Theory AI Ethics|Towards Theory-based Moral AI]] (First Author)
 
 ## Notes
 

@@ -14,8 +14,8 @@ authors: "Multiple authors"
 doi: 10.1080/10508422.2025.2581274
 url: "https://www.tandfonline.com/doi/full/10.1080/10508422.2025.2581274"
 publication: "Ethics & Behavior (Taylor & Francis)"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No
@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract: "Compares LLM and human teacher ethical decision-making in Turkish school dilemmas. LLMs produce uniform utilitarian/deontological/Rawlsian outcomes while teachers show ethical pluralism and context sensitivity."
+abstract: Compares LLM and human teacher ethical decision-making in Turkish school dilemmas. LLMs produce uniform utilitarian/deontological/Rawlsian outcomes while teachers show ethical pluralism and context sensitivity. Directly compares moral reasoning of LLMs with Turkish cultural context. Reveals that LLMs lack the ethical pluralism and context sensitivity that Turkish educators demonstrate.
 ethics_perspective: "Machine Ethics"
 ---
 # Teachers vs. large language models: ethical decision-making across educational dilemmas in Turkish schools

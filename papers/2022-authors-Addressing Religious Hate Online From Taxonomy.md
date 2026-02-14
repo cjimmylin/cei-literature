@@ -12,9 +12,9 @@ last_author: "[[authors, Multiple]]"
 authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: 
-external_pdf: 
-local_pdf: N/A
-pdf_extract: 
+external_pdf: "https://cris.fbk.eu/bitstream/11582/335767/1/peerj-cs-1128.pdf"
+pdf_extract: "PDF Extracts/2022/2022-authors-Addressing Religious Hate Online From Taxonomy.md"
+local_pdf: "[[PDFs/2022/2022-authors-Addressing Religious Hate Online From Taxonomy.pdf]]"
 publication: "PeerJ Computer Science"
 DATE_ADDED: 20260213
 ethics_overall: No

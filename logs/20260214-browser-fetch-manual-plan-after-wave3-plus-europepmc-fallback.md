@@ -1,0 +1,90 @@
+# Browser Fetch Manual Plan (Post Wave3 + EuropePMC Fallback)
+
+- Total unresolved papers: 196
+- Manual candidate rows: 125
+- P2 candidate rows: 21
+
+## P2 Queue
+- 0000-projects-BaniDB Shabad OS Digital Gurbani Database.md | fallback_latest | conf=0 | unknown | https://xplorestaging.ieee.org/ielx7/8643018/8645960/08646190.pdf?arnumber=864619
+- 2021-authors-Cyberbullying and Hate Speech Detection on.md | fallback_latest | conf=0 | unknown | https://namespace.openaire.eu/oaf
+- 2023-University-Antisemitism on Twitter A Dataset for.md | host_transform | conf=66 | landing_page | https://doi.org/10.5281/zenodo.7932888
+- 2023-[[Unknown]]-ISE-Hate A Benchmark Corpus for Inter-faith.md | fallback_latest | conf=0 | unknown | https://www.sciencedirect.com/science/article/abs/pii/S0306457323000079
+- 2024-Moe-Fact Checking in Low-Resource Languages A.md | fallback_latest | conf=0 | unknown | https://www.yorku.ca/research/ycar/events/fact-checking-dataset-transformer-model-burmese-language-lwin-moe-13112024/
+- 2024-Phyo-Development and Evaluation of Myanmar GPT.md | unpaywall | conf=78 | blocked | http://dx.doi.org/10.2139/ssrn.4871732
+- 2024-Phyo-Development and Evaluation of Myanmar GPT.md | crossref | conf=70 | blocked | https://doi.org/10.2139/ssrn.4871732
+- 2024-Toygar-Turkish Offensive Language Detection Dataset.md | fallback_latest | conf=0 | unknown | https://huggingface.co/datasets/Toygar/turkish-offensive-language-detection
+- 2024-Yeltay-Kazakh Language Dataset for Hate Speech.md | crossref | conf=80 | landing_page | https://doi.org/10.1109/iccia62557.2024.10719327
+- 2024-Yeltay-Kazakh Language Dataset for Hate Speech.md | crossref | conf=72 | landing_page | http://xplorestaging.ieee.org/ielx8/10719028/10718863/10719327.pdf?arnumber=10719327
+- 2024-Zeng-Proposing Central Asian AI Ethics Principles.md | crossref | conf=80 | landing_page | https://link.springer.com/content/pdf/10.1007/s43681-024-00505-7.pdf
+- 2024-Zeng-Proposing Central Asian AI Ethics Principles.md | crossref | conf=80 | landing_page | https://link.springer.com/article/10.1007/s43681-024-00505-7/fulltext.html
+- 2024-[[Unknown]]-Urdu Toxicity Detection A Multi-Stage and.md | fallback_latest | conf=0 | unknown | https://www.mdpi.com/2673-2688/6/8/194
+- 2024-team-MahaMarathi-7B Marathi Large Language Model.md | fallback_latest | conf=0 | unknown | https://huggingface.co/marathi-llm/MahaMarathi-7B-v24.01-Base
+- 2025-Martinez-Religion and Racial Bias in Artificial.md | unpaywall | conf=80 | landing_page | https://doaj.org/article/b7706dcd2a334756a56cb8bcc7c6c354
+- 2025-Martinez-Religion and Racial Bias in Artificial.md | unpaywall | conf=78 | blocked | https://doi.org/10.1177/23780231251377210
+- 2025-Ochasi-Reframing Justice in Healthcare AI.md | unpaywall | conf=78 | blocked | https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/dewb.70007
+- 2025-Ochasi-Reframing Justice in Healthcare AI.md | crossref | conf=70 | blocked | https://onlinelibrary.wiley.com/doi/pdf/10.1111/dewb.70007
+- 2025-Unknown-Bilingual Code-Switching Using XLM-RoBERTa.md | unpaywall | conf=88 | blocked | https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762/v1
+- 2025-Unknown-Bilingual Code-Switching Using XLM-RoBERTa.md | crossref | conf=80 | blocked | https://doi.org/10.36227/techrxiv.175756344.42614762/v1
+- 2025-authors-How do LLMs perform on Turkish.md | fallback_latest | conf=0 | unknown | https://www.semanticscholar.org/paper/97df3935f7098dbf1a4e13d343469cd01fa6888e
+
+## Next P3 (Top 60)
+- 2018-Liebeskind-Identifying Abusive Comments in Hebrew Facebook.md | crossref | conf=90 | landing_page | https://doi.org/10.1109/icsee.2018.8646190
+- 2018-Liebeskind-Identifying Abusive Comments in Hebrew Facebook.md | crossref | conf=82 | landing_page | http://xplorestaging.ieee.org/ielx7/8643018/8645960/08646190.pdf?arnumber=8646190
+- 2021-Perifanos-Multimodal Hate Speech Detection in Greek Social Media.md | unpaywall | conf=90 | landing_page | https://doaj.org/article/05daae56eb58463caf4838d544585112
+- 2021-Perifanos-Multimodal Hate Speech Detection in Greek Social Media.md | crossref | conf=80 | blocked | https://doi.org/10.3390/mti5070034
+- 2021-Pretrained-Research on Uyghur‐Chinese Neural Machine Translation Based on the.md | crossref | conf=72 | blocked | https://doi.org/10.1155/2021/5744248
+- 2021-Pretrained-Research on Uyghur‐Chinese Neural Machine Translation Based on the.md | semantic_scholar_doi | conf=72 | blocked | https://downloads.hindawi.com/journals/misy/2021/5744248.pdf
+- 2021-Sullins-Artificial Phronesis - What It Is and Is Not.md | crossref | conf=62 | blocked | https://doi.org/10.1093/oso/9780190081713.003.0015
+- 2021-collaborators-Optimisation of the Largest Annotated Tibetan.md | fallback_latest | conf=0 | unknown | https://www.tara.tcd.ie/bitstreams/a792d942-04f8-4021-8b03-16e6088dd6d7/download
+- 2022-Ataei-Pars-OFF A Benchmark for Offensive Language Detection on Farsi Social.md | crossref | conf=90 | landing_page | https://doi.org/10.1109/taffc.2022.3219229
+- 2022-Ataei-Pars-OFF A Benchmark for Offensive Language Detection on Farsi Social.md | crossref | conf=82 | landing_page | http://xplorestaging.ieee.org/ielx7/5165369/10330166/09936700.pdf?arnumber=9936700
+- 2022-Multiple Data in Brief-Sanadset 650K Data on Hadith Narrators.md | semantic_scholar_title | conf=67 | landing_page | https://doi.org/10.1016/j.dib.2022.108540
+- 2022-Pollak-Embeddings Models for Buddhist Sanskrit.md | host_transform | conf=76 | direct_pdf | https://pmc.ncbi.nlm.nih.gov/articles/PMC10280248/pdf/peerj-cs-08-1128.pdf
+- 2022-Saeed-Hate Speech Detection in Social Media for the Kurdish Language.md | crossref | conf=90 | landing_page | https://link.springer.com/content/pdf/10.1007/978-3-031-14054-9_24
+- 2022-Saeed-Hate Speech Detection in Social Media for the Kurdish Language.md | crossref | conf=90 | landing_page | https://doi.org/10.1007/978-3-031-14054-9_24
+- 2023-2023-Hadiths Classification Using a Novel Author-Based.md | fallback_latest | conf=0 | unknown | https://www.mdpi.com/2504-2289/7/3/141/pdf
+- 2023-Badawi-KurdiSent A Corpus for Kurdish Sentiment Analysis.md | crossref | conf=90 | landing_page | https://link.springer.com/content/pdf/10.1007/s10579-023-09716-6.pdf
+- 2023-Badawi-KurdiSent A Corpus for Kurdish Sentiment Analysis.md | crossref | conf=90 | landing_page | https://link.springer.com/article/10.1007/s10579-023-09716-6/fulltext.html
+- 2023-Stenseke-Use and Abuse Normative Ethics Moral Machines.md | crossref | conf=86 | landing_page | https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA220614
+- 2023-Stenseke-Use and Abuse Normative Ethics Moral Machines.md | crossref | conf=86 | landing_page | https://doi.org/10.3233/faia220614
+- 2023-University-Harmful Communication Detection of Toxic Language and Threats on.md | semantic_scholar_doi | conf=88 | blocked | https://dl.acm.org/doi/pdf/10.1145/3625007.3627597
+- 2023-University-Harmful Communication Detection of Toxic Language and Threats on.md | crossref | conf=80 | blocked | https://dl.acm.org/doi/10.1145/3625007.3627597
+- 2023-Unknown-Hate speech and abusive language detection in Indonesian social media.md | fallback_latest | conf=0 | unknown | https://www.semanticscholar.org/paper/f21e111e0836662aeb75cb39ac3dec241d199855
+- 2023-Unknown-Pars-HaO Hate and Offensive Language Detection on Persian Tweets.md | fallback_latest | conf=0 | unknown | https://www.authorea.com/users/581546/articles/683116-pars-hao-hate-and-offensive-language-detection-on-persian-tweets-using-machine-learning-and-deep-learning
+- 2024-CiTIUS-A Galician-Portuguese Generative Model.md | crossref | conf=90 | landing_page | https://link.springer.com/content/pdf/10.1007/978-3-031-73503-5_24
+- 2024-CiTIUS-A Galician-Portuguese Generative Model.md | crossref | conf=90 | landing_page | https://doi.org/10.1007/978-3-031-73503-5_24
+- 2024-Felipe-Ruiz-Lexical Sentiment and Correlation Analysis of.md | fallback_latest | conf=0 | unknown | https://www.semanticscholar.org/paper/3c74734c8c6bc4775172978d5b48784ffa93329e
+- 2024-Jang-Cross-Linguistic Moral Preferences in Large Language Models Evidence.md | crossref | conf=80 | blocked | https://doi.org/10.3390/electronics14244919
+- 2024-Jang-Cross-Linguistic Moral Preferences in Large Language Models Evidence.md | unpaywall | conf=80 | blocked | https://www.mdpi.com/2079-9292/14/24/4919/pdf
+- 2024-Kajiwara-Beyond Traditional Classifiers Evaluating Large Language Models for.md | fallback_latest | conf=0 | unknown | https://www.mdpi.com/2079-3197/13/8/196
+- 2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.md | html_pdf_link | conf=74 | direct_pdf | https://arxiv.org/pdf/2012.09686.pdf
+- 2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.md | html_pdf_link | conf=74 | direct_pdf | https://aclanthology.org/2021.woah-1.6.pdf
+- 2024-Khan-From Tradition to Technology A Systematic Survey on Navigating Pashto.md | fallback_latest | conf=0 | unknown | https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5031721
+- 2024-Kuriyozov-Construction and Evaluation of Sentiment Datasets for Low-Resource.md | crossref | conf=86 | landing_page | https://link.springer.com/content/pdf/10.1007/978-3-031-05328-3_15
+- 2024-Kuriyozov-Construction and Evaluation of Sentiment Datasets for Low-Resource.md | crossref | conf=86 | landing_page | https://doi.org/10.1007/978-3-031-05328-3_15
+- 2024-Miranda-Desiderata for Filipino NLP in the Age of LLMs.md | html_pdf_link | conf=74 | direct_pdf | https://arxiv.org/pdf/2410.20817
+- 2024-Muyskens-Can an AI-carebot be filial.md | crossref | conf=70 | blocked | https://journals.sagepub.com/doi/pdf/10.1177/09697330241238332
+- 2024-Muyskens-Can an AI-carebot be filial.md | crossref | conf=70 | blocked | https://journals.sagepub.com/doi/full-xml/10.1177/09697330241238332
+- 2024-Ribeiro-Machine Ethics Architecture of Virtue.md | crossref | conf=90 | landing_page | https://link.springer.com/content/pdf/10.1007/978-3-031-48855-9_29
+- 2024-Ribeiro-Machine Ethics Architecture of Virtue.md | crossref | conf=90 | landing_page | https://doi.org/10.1007/978-3-031-48855-9_29
+- 2024-Thu-Development and Evaluation of Myanmar GPT A Language Model for.md | fallback_latest | conf=0 | unknown | https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4871732
+- 2024-Trajano-OLID-BR Offensive Language Identification Dataset for Brazilian.md | crossref | conf=90 | landing_page | https://link.springer.com/content/pdf/10.1007/s10579-023-09657-0.pdf
+- 2024-Trajano-OLID-BR Offensive Language Identification Dataset for Brazilian.md | crossref | conf=90 | landing_page | https://link.springer.com/article/10.1007/s10579-023-09657-0/fulltext.html
+- 2024-Unknown-A structured sentiment analysis dataset based on public comments from.md | semantic_scholar_title | conf=67 | landing_page | https://doi.org/10.1016/j.dib.2024.110232
+- 2024-Unknown-Towards Better Sentiment Analysis in the Turkish Language Dataset.md | fallback_latest | conf=0 | unknown | https://www.semanticscholar.org/paper/dd6418de683b5a4054a8b8c9ed261c288093fa13
+- 2024-Various-HOCON34k A Corpus of Hate Speech in Online Comments from German.md | crossref | conf=90 | landing_page | https://link.springer.com/content/pdf/10.1007/978-3-031-78090-5_18
+- 2024-Various-HOCON34k A Corpus of Hate Speech in Online Comments from German.md | crossref | conf=90 | landing_page | https://doi.org/10.1007/978-3-031-78090-5_18
+- 2024-Veitsman-The Development and Experimental Evaluation of a Multilingual Speech.md | fallback_latest | conf=0 | unknown | https://www.mdpi.com/2076-3417/15/24/12880
+- 2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach.md | crossref | conf=90 | landing_page | https://link.springer.com/content/pdf/10.1007/s43681-024-00505-7.pdf
+- 2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach.md | crossref | conf=90 | landing_page | https://link.springer.com/article/10.1007/s43681-024-00505-7/fulltext.html
+- 2025-2025-Pretrained Models Against Traditional Machine Learning.md | fallback_latest | conf=0 | unknown | https://www.mdpi.com/2079-9292/14/17/3484/pdf
+- 2025-Abdelhalim-Full article Artificial intelligence tools and literary translation a.md | unpaywall | conf=90 | landing_page | https://doaj.org/article/0b7596092b654cc18314add11274f3ad
+- 2025-Abdelhalim-Full article Artificial intelligence tools and literary translation a.md | unpaywall | conf=88 | blocked | https://doi.org/10.1080/23311983.2025.2508031
+- 2025-Aly-Applying Data Feminism Principles to Assess Bias in English and.md | unpaywall | conf=78 | blocked | https://doi.org/10.1145/3715275.3732119
+- 2025-Aly-Applying Data Feminism Principles to Assess Bias in English and.md | crossref | conf=70 | blocked | https://dl.acm.org/doi/pdf/10.1145/3715275.3732119
+- 2025-Center-Personal Consultations Case Study Database.md | html_pdf_link | conf=74 | direct_pdf | https://www.ncbcenter.org/s/NCBC-Case-Studies.pdf
+- 2025-Cognitive-Cognitive LLMs Toward Human-Like Artificial Intelligence by.md | unpaywall | conf=80 | blocked | https://doi.org/10.1177/29498732251377341
+- 2025-Cognitive-Cognitive LLMs Toward Human-Like Artificial Intelligence by.md | crossref | conf=72 | blocked | https://journals.sagepub.com/doi/pdf/10.1177/29498732251377341
+- 2025-Cognitive-Improved Tibetan Word Vectors Models Based on Position Information.md | semantic_scholar_doi | conf=78 | blocked | https://dl.acm.org/doi/pdf/10.1145/3681787
+- 2025-Cognitive-Improved Tibetan Word Vectors Models Based on Position Information.md | crossref | conf=70 | blocked | https://dl.acm.org/doi/10.1145/3681787
+- 2025-Cognitive-Tibetan Text Classification based on Prompt Learning and Ensemble.md | crossref | conf=70 | blocked | https://dl.acm.org/doi/10.1145/3711827

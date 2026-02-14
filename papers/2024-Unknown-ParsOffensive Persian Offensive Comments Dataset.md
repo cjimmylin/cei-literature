@@ -14,8 +14,8 @@ authors: Unknown
 url: "https://ieeexplore.ieee.org/document/11006224"
 external_pdf: "https://arxiv.org/pdf/2404.05540"
 publication: IEEE
-local_pdf: "[[PDFs/2024/2024-Unknown-ParsOffensive Persian Offensive Comments Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Unknown-ParsOffensive Persian Offensive Comments Dataset.md"
+local_pdf: "[[PDFs/2024/2024-Unknown-ParsOffensive Persian Offensive Comments Dataset.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No
@@ -28,14 +28,14 @@ religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 is_benchmark: No
-is_eval: No
+is_eval: Yes
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract: "8,433 Persian comments labeled as Offensive or Neutral sourced from Instagram and labeled by two linguists."
+abstract: "Warning This paper includes a sample of comments extracted from the dataset, some of which may contain offensive or obscene content. The proliferation of hate speech and offensive comments on social media has become increasingly prevalent due to user activities. Such comments can have detrimental effects on individuals’ psychological well-being and social behavior. While numerous datasets in the English language exist in this domain, few equivalent resources are available for Persian language."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # ParsOffensive: Persian Offensive Comments Dataset

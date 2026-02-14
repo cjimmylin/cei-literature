@@ -13,14 +13,14 @@ authors: "[[Aziz Mehmood Farooqi, Rauf Ahmed Shams Malick, Muhammad Shahzad Shai
 authors_incomplete: false
 doi: 10.1016/j.dib.2024.110439
 url: "https://doi.org/10.1016/j.dib.2024.110439"
-external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11096860/pdf/main.pdf"
-local_pdf: N/A
+external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11096860&blobtype=pdf"
+pdf_extract: 
+local_pdf: "[[PDFs/2024/2024-Akhunzada-Multi-IsnadSet MIS for Sahih Muslim Hadith.pdf]]"
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11096860/pdf/main.pdf"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
-pdf_extract: 
 publication: "Data in Brief (ScienceDirect)"
 DATE_ADDED: 20260213
 ethics_overall: No

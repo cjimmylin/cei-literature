@@ -14,8 +14,8 @@ authors: Saha
 url: "https://hate-alert.github.io/publication/saha2021hate/"
 external_pdf: "https://arxiv.org/pdf/2102.10084v1.pdf"
 publication: "WebSearch: DravidianLangTech shared task"
-local_pdf: "[[PDFs/2021/2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.md"
+local_pdf: "[[PDFs/2021/2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No
@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract: "Winning submission to the DravidianLangTech EACL 2021 shared task on offensive language identification in code-mixed Tamil-English, Malayalam-English, and Kannada-English datasets from social media."
+abstract: "Winning submission to the DravidianLangTech EACL 2021 shared task on offensive language identification in code-mixed Tamil-English, Malayalam-English, and Kannada-English datasets from social media. Foundation shared task for offensive language detection in three Dravidian languages. Establishes baselines and evaluation protocol for the community."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Hate-Alert@DravidianLangTech-EACL2021: Ensembling Strategies for Transformer-based Offensive Language Detection

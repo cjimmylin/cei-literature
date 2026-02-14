@@ -23,7 +23,7 @@ key_contribution: "Comprehensive overview of consequentialism, deontology, and v
 significance: "Foundational chapter on applying normative ethics to AI systems"
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Boddington-Normative Ethical Theory AI Ethics.md"
-abstract: "Normative ethical theories propose frameworks for determining value and for guiding judgment and action. The chapter examines three dominant varieties: consequentialism, focusing on outcomes of actions; deontology, focusing on the nature of actions themselves; and virtue ethics, focusing on the moral character of the agent. The application of ethical theories to situations of rapidly changing technology presents many challenges...."
+abstract: "Moral AI has been studied in the fields of phi- losophy and artificial intelligence. Although most existing studies are only theoretical, recent devel- opments in AI have made it increasingly neces- sary to implement AI with morality. On the other hand, humans are under the moral uncertainty of not knowing what is morally right. In this paper, we implement the Maximizing Expected Choicewor- thiness (MEC) algorithm, which aggregates out- puts of models based on three normative theories of normati"
 paper_summary: 
 local_pdf: "[[PDFs/2023/2023-Boddington-Normative Ethical Theory AI Ethics.pdf]]"
 ethics_overall: No

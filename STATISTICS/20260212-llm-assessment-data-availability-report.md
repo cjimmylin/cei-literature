@@ -246,7 +246,7 @@ Among papers with data URLs, classified by hosting platform:
 | 27 | [[2023-Roger-Towards ethical multimodal systems]] | RoBERTa |
 | 28 | [[2023-Rytting-Towards Coding Social Science Datasets with]] | GPT-3 |
 | 29 | [[2023-Schulhoff-HackAPrompt]] | GPT-3, ChatGPT, Flan-T5 |
-| 30 | [[2023-Takeshita-Towards Theory-based Moral AI]] | DeBERTa, BERT, RoBERTa, ALBERT, T5 |
+| 30 | [[2023-Boddington-Normative Ethical Theory AI Ethics]] | DeBERTa, BERT, RoBERTa, ALBERT, T5 |
 | 31 | [[2023-Zhang-Heterogeneous Value Alignment Evaluation for]] | GPT-4, GPT-3.5, ChatGPT, Claude, Llama, Alpaca, Vicuna |
 | 32 | [[2023-Zhou-A Survey of Large Language Models in Medicine]] | Llama-2 |
 | 33 | [[2024-Abdelnabi-Cooperation Competition and Maliciousness LLM-Stakeholders]] | GPT-4, GPT-3.5, Gemini, Llama-2, Llama-3, Mixtral |

@@ -14,8 +14,8 @@ authors: "Ammar Younas, Yi Zeng"
 doi: 10.1007/s43681-024-00505-7
 url: "https://link.springer.com/article/10.1007/s43681-024-00505-7"
 publication: "AI and Ethics (Springer)"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No
@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract: "Proposes layered AI ethics principles for Central Asian countries. Introduces 'Nomadic AI Principles' rooted in traditional beliefs, values, customs of the region. Covers national, regional, and sector-specific ethical frameworks."
+abstract: "Proposes layered AI ethics principles for Central Asian countries. Introduces 'Nomadic AI Principles' rooted in traditional beliefs, values, customs of the region. Covers national, regional, and sector-specific ethical frameworks. Directly addresses AI ethics for Central Asian context including Kazakhstan and Uzbekistan. Proposes culturally grounded ethical principles based on nomadic traditions. Unique non-Western framework for AI value alignment."
 ethics_perspective: "Responsible AI"
 ---
 # Proposing Central Asian AI Ethics Principles: A Multilevel Approach for Responsible AI

@@ -14,8 +14,8 @@ authors: Hate-speech-CNERG
 url: "https://huggingface.co/Hate-speech-CNERG/kannada-codemixed-abusive-MuRIL"
 external_pdf: "https://arxiv.org/pdf/2204.12543"
 publication: "WebSearch: Kannada hate speech HuggingFace"
-local_pdf: "[[PDFs/2022/2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.md"
+local_pdf: "[[PDFs/2022/2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No
@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract: "MuRIL model fine-tuned on code-mixed Kannada abusive speech dataset for detecting abusive speech in Kannada-English code-mixed text."
+abstract: MuRIL model fine-tuned on code-mixed Kannada abusive speech dataset for detecting abusive speech in Kannada-English code-mixed text. Kannada-specific abusive speech detection model on HuggingFace. Practical resource for Kannada hate speech evaluation.
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Kannada Code-Mixed Abusive Speech Detection (MuRIL-based)

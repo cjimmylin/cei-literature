@@ -12,9 +12,9 @@ last_author: [[Bosco]]
 authors: "[[Basile]]; [[Bosco]]; [[and others]]"
 authors_incomplete: false
 url: "https://openreview.net/forum?id=PChNLEcv3V"
-external_pdf: 
-local_pdf: N/A
-pdf_extract: 
+external_pdf: "https://openreview.net/pdf?id=PChNLEcv3V"
+pdf_extract: "PDF Extracts/2025/2025-Basile-NepX-Hate A Nepali Hate Speech Corpus.md"
+local_pdf: "[[PDFs/2025/2025-Basile-NepX-Hate A Nepali Hate Speech Corpus.pdf]]"
 publication: OpenReview
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -234,7 +234,7 @@ Total papers analyzed: **576**
   - *Description*: Benchmark for moral/ethical reasoning
 - 2024 - [[Y. Moon]] - [[2024-Moon-BEAF|]]
   - *Description*: Benchmark for hallucination detection dataset
-- 2024 - [[Xiangyu Mou]] - [[2024-Mou-SG-Bench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
+- 2024 - [[Xiangyu Mou]] - [[2024-Various-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
   - *Description*: Benchmark for ai safety
 - 2024 - [[Alfred Malengo Kondoro]] - [[2024-Oliech-SwaQuAD-24|SwaQuAD-24: A Benchmark Dataset for Question Answering in Swahili]]
   - *Description*: Benchmark for moral/ethical reasoning annotated dataset for question answering
@@ -733,7 +733,7 @@ Total papers analyzed: **576**
 - 2024 - [[Jared Moore]] - [[2024-Moore-Are Large Language Models Consistent over|Are Large Language Models Consistent over Value-laden Questions?]]
   - *Metrics*: 8,000 questions
 - 2024 - [[Jared Moore]] - [[2024-Moore-Intuitions of Compromise|Intuitions of Compromise: Utilitarianism vs. Contractualism]]
-- 2024 - [[Xiangyu Mou]] - [[2024-Mou-SG-Bench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
+- 2024 - [[Xiangyu Mou]] - [[2024-Various-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
 - 2024 - [[Carlos Mougan]] - [[2024-Mougan-Kantian Deontology Meets AI Alignment|]]
 - 2024 - [[Matthew Pisano]] - [[2024-Pisano-Moral High Ground|Moral High Ground: A text-based games benchmark for moral evaluation]]
 - 2024 - [[Faiza Qamar]] - [[2024-Qamar-A Benchmark Dataset with Larger Context for|A Benchmark Dataset with Larger Context for Non-Factoid QA over Islamic Text]]

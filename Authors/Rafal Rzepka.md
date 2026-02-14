@@ -19,7 +19,7 @@ semantic_scholar: ""
 
 
 - [[2025-Takeshita-JETHICS|JETHICS]] (Last Author)
-- [[2023-Takeshita-Towards Theory-based Moral AI|Towards Theory-based Moral AI]]
+- [[2023-Boddington-Normative Ethical Theory AI Ethics|Towards Theory-based Moral AI]]
 
 ## Notes
 

@@ -13,8 +13,8 @@ authors: "Xu Huang; Wenhao Zhu; Hanxu Hu; Conghui He; Lei Li; Shujian Huang; Fei
 url: "https://aclanthology.org/2025.findings-emnlp.909.pdf"
 external_pdf: "https://arxiv.org/pdf/2502.07346v2.pdf"
 publication: "ACL Anthology"
-local_pdf: "[[PDFs/2025/2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ....pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ....md"
+local_pdf: "[[PDFs/2025/2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ....pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No
@@ -26,9 +26,9 @@ religious_values: N/A
 religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
-is_benchmark: No
+is_benchmark: Yes
 is_eval: Yes
-is_dataset: No
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: 

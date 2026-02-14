@@ -11,9 +11,10 @@ first_author: [[Unknown]]
 last_author: [[Unknown]]
 authors: Unknown
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11042037/"
+external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11042037&blobtype=pdf"
 publication: PubMed
-local_pdf: 
 pdf_extract: 
+local_pdf: "[[PDFs/2025/2025-Unknown-A survey on multi-lingual offensive language detection - PMC.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

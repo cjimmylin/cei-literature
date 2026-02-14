@@ -58,7 +58,6 @@ twitter: ""
 [Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
 - [[2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in|HASOC 2023 Hate Speech and Offensive Content Identification in]]
-- [[2023-Narayan-Hate Speech and Offensive Content Detection in Indo-Aryan Languages A|Hate Speech and Offensive Content Detection in Indo-Aryan Languages A]]
 
 ## External Links & Profiles
 

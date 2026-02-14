@@ -74,7 +74,7 @@ twitter: ""
 - [[2024-results]]-Telugu Language Hate Speech Detection Using|Telugu Language Hate Speech Detection Using]]
 - [[2025-results]]-A Multimodal Approach for Hate and|A Multimodal Approach for Hate and]]
 - [[2025-results]]-A Novel Deep Learning Framework with|A Novel Deep Learning Framework with]]
-- [[2025-results]]-BenchMAX A Comprehensive Multilingual Evaluation Suite|BenchMAX A Comprehensive Multilingual Evaluation Suite]]
+- [[2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ...|BenchMAX A Comprehensive Multilingual Evaluation Suite]]
 - [[2025-results]]-BharatBBQ A Multilingual Bias Benchmark for|BharatBBQ A Multilingual Bias Benchmark for]]
 - [[2025-results]]-Counter-Speech Generation for Homophobic and Transphobic|Counter-Speech Generation for Homophobic and Transphobic]]
 - [[2025-results]]-Cross-Lingual Stability and Bias in Instruction-Tuned|Cross-Lingual Stability and Bias in Instruction-Tuned]]

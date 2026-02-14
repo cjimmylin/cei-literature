@@ -57,7 +57,6 @@ twitter: ""
 
 - [[2023-Boddington-Normative Ethical Theory AI Ethics|Normative Ethical Theory AI Ethics]] (First Author)]]
 
-- [[2023-Boddington-Normative Ethical Theory AI Ethics|Normative Ethical Theory AI Ethics]] (First Author)
 
 ## External Links & Profiles
 

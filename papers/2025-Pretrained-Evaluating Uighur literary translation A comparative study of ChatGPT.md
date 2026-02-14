@@ -11,9 +11,10 @@ first_author: "[[Combining Pretrained]]"
 last_author: "[[Combining Pretrained]]"
 authors: "Combining Pretrained"
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12548925/"
+external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC12548925&blobtype=pdf"
 publication: PubMed
-local_pdf: 
 pdf_extract: 
+local_pdf: "[[PDFs/2025/2025-Pretrained-Evaluating Uighur literary translation A comparative study of ChatGPT.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -34,6 +34,8 @@ LLM_assessed: "BLOOM, Llama-3, Mistral, Qwen"
 DATA_URL: "https://huggingface.co/datasets/LanguageShades/BiasShades"
 pdf_extract: "PDF Extracts/2025/2025-Mitchell-SHADES.md"
 local_pdf: [[PDFs/2025/2025-Mitchell-SHADES.pdf]]
+publication: ACL Anthology (NAACL 2025)
+DATE_ADDED: 20260213
 ---
 # SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models
 

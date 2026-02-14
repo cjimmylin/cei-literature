@@ -12,9 +12,10 @@ last_author: "[[Combining Pretrained]]"
 authors: "Combining Pretrained"
 doi: 10.1007/978-3-642-41491-6_25
 url: "https://link.springer.com/chapter/10.1007/978-3-642-41491-6_25"
+external_pdf: "https://page-one.springer.com/pdf/preview/10.1007/978-3-642-41491-6_25"
 publication: Springer
-local_pdf: 
-pdf_extract: 
+pdf_extract: "PDF Extracts/2025/2025-Pretrained-Graphic Language Model for Agglutinative Languages Uyghur as Study.md"
+local_pdf: "[[PDFs/2025/2025-Pretrained-Graphic Language Model for Agglutinative Languages Uyghur as Study.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

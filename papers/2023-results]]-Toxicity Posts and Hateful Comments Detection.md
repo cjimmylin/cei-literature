@@ -12,9 +12,9 @@ last_author: "[[results, Not fully listed in search]]"
 authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://ph01.tci-thaijo.org/index.php/RMUTLEngJ/article/view/256026"
-external_pdf: 
-local_pdf: N/A
-pdf_extract: 
+external_pdf: "https://ph01.tci-thaijo.org/index.php/RMUTLEngJ/article/download/256026/174267"
+pdf_extract: "PDF Extracts/2023/2023-results]]-Toxicity Posts and Hateful Comments Detection.md"
+local_pdf: "PDFs/2023/2023-results]]-Toxicity Posts and Hateful Comments Detection.pdf"
 publication: "RMUTL Engineering Journal"
 DATE_ADDED: 20260213
 ethics_overall: No

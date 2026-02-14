@@ -693,7 +693,7 @@ Link: [[2023-Shen-Large Language Model Alignment]]
 ---
 
 ## Paper: 2023 | Takeshita | Towards Theory-based Moral AI
-Link: [[2023-Takeshita-Towards Theory-based Moral AI]]
+Link: [[2023-Boddington-Normative Ethical Theory AI Ethics]]
 
 ### VIRTUE
 - "...ches must be mu- tually influential. Because we train AI models based on each moral theory, our study belongs to the top-down approach. Therefore, our research is meant to complement the existing bottom-up approach. Input: context sentence and options (actions) Utilitarianism Model Deontology Model **VIRTUE ETHICS** Model Aggregation by Maximizing Expected Choiceworthiness Algorithm Output: ranking of options Figure 1: This figure shows the overall picture of the aggregation model in this paper. In this paper, we use a theory-based model based on utilitarianism, deontology, and virtue ethics. 2.2 Moral Uncerta..."

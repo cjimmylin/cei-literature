@@ -13,15 +13,15 @@ authors: [[Unknown]]
 authors_incomplete: true
 url: "https://link.springer.com/chapter/10.1007/978-3-031-58495-4_3"
 external_pdf: "https://arxiv.org/pdf/2203.13778"
-local_pdf: "[[PDFs/2024/2024-[[Unknown]]-SamPar A Marathi Hate Speech Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-[[Unknown]]-SamPar A Marathi Hate Speech Dataset.md"
+local_pdf: "[[PDFs/2022/2022-team-L3Cube-MahaHate A Tweet-based Marathi Hate Speech.pdf]]"
 publication: "Springer (SPELLL 2023)"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
-national_ethnic_cultural: N/A
+national_ethnic_cultural: Indian
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: N/A
@@ -30,7 +30,7 @@ is_benchmark: No
 is_eval: No
 is_dataset: Yes
 tags: 
-abstract: "Marathi hate speech dataset specifically targeting homophobia and transphobia, aimed at curtailing LGBTQ+ discrimination in the Marathi digital diaspora. Addresses specific cultural values dimension of LGBTQ+ discrimination in Marathi language."
+abstract: "Social media platforms are used by a large number of people prominently to express their thoughts and opinions. However, these platforms have contributed to a substantial amount of hateful and abusive content as well. Therefore, it is important to curb the spread of hate speech on these platforms. In India, Marathi is one of the most popular languages used by a wide audience. In this work, we present L3CubeMahaHate, the ﬁrst major Hate Speech Dataset in Marathi."
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: NA

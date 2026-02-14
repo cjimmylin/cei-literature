@@ -17,7 +17,7 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Mou-SG-Bench|SG-Bench]]
+- [[2024-Various-SGBench|SG-Bench]]
 
 ## Notes
 

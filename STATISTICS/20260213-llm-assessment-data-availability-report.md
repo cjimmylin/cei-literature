@@ -246,7 +246,7 @@ Among papers with data URLs, classified by hosting platform:
 | 26 | [[2023-Roger-Towards ethical multimodal systems]] | RoBERTa |
 | 27 | [[2023-Rytting-Towards Coding Social Science Datasets with]] | GPT-3 |
 | 28 | [[2023-Schulhoff-HackAPrompt]] | GPT-3, ChatGPT, Flan-T5 |
-| 29 | [[2023-Takeshita-Towards Theory-based Moral AI]] | DeBERTa, BERT, RoBERTa, ALBERT, T5 |
+| 29 | [[2023-Boddington-Normative Ethical Theory AI Ethics]] | DeBERTa, BERT, RoBERTa, ALBERT, T5 |
 | 30 | [[2023-Zhang-Heterogeneous Value Alignment Evaluation for]] | GPT-4, GPT-3.5, ChatGPT, Claude, Llama, Alpaca, Vicuna |
 | 31 | [[2023-Zhou-A Survey of Large Language Models in Medicine]] | Llama-2 |
 | 32 | [[2024-Abdelnabi-Cooperation Competition and Maliciousness LLM-Stakeholders]] | GPT-4, GPT-3.5, Gemini, Llama-2, Llama-3, Mixtral |
@@ -444,7 +444,7 @@ Among papers with data URLs, classified by hosting platform:
 | 24 | [[2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection]] | https://github.com/mohit3011/Online-Antisemitism-Detection-Using-Mu... |
 | 25 | [[2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models]] | https://huggingface.co/airesearch/wangchanberta-base-att-spm-uncased |
 | 26 | [[2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification]] | https://github.com/manikandan-ravikiran/dosa |
-| 27 | [[2021-Saha-Hate-AlertDravidianLangTech-EACL2021 Ensembling Strategies for Transformer-based Offensive]] | https://github.com/hate-alert/Hate-Alert-DravidianLangTech |
+| 27 | [[2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for]] | https://github.com/hate-alert/Hate-Alert-DravidianLangTech |
 | 28 | [[2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit]] | https://github.com/rahular/itihasa |
 | 29 | [[2021-authors-MasakhaNER Named Entity Recognition for African]] | https://github.com/masakhane-io/masakhane-ner |
 | 30 | [[2021-collaborators-Optimisation of the Largest Annotated Tibetan]] | https://zenodo.org/records/3951503 ; https://github.com/lothelanor/... |
@@ -457,7 +457,7 @@ Among papers with data URLs, classified by hosting platform:
 | 37 | [[2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language]] | https://github.com/bharathichezhiyan/DravidianCodeMix-Dataset |
 | 38 | [[2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained]] | https://huggingface.co/bonadossou/afrolm_active_learning |
 | 39 | [[2022-Ganguli-Red Teaming Language Models to Reduce Harms]] | https://github.com/anthropics/hh-rlhf |
-| 40 | [[2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection]] | https://huggingface.co/Hate-speech-CNERG/kannada-codemixed-abusive-... |
+| 40 | [[2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based]] | https://huggingface.co/Hate-speech-CNERG/kannada-codemixed-abusive-... |
 | 41 | [[2022-Joshi-L3Cube-MahaNLP Marathi Natural Language Processing Datasets]] | https://github.com/l3cube-pune/MarathiNLP |
 | 42 | [[2022-Kann-AmericasNLI]] | https://github.com/abteen/americasnli |
 | 43 | [[2022-Kulkarni-Semantic and Sentiment Analysis of Selected]] | https://github.com/sydney-machine-learning/sentimentanalysis_bhagav... |
@@ -466,7 +466,7 @@ Among papers with data URLs, classified by hosting platform:
 | 46 | [[2022-Schramowski-I2P Inappropriate Image Prompts Test Bed]] | https://github.com/ml-research/Q16 |
 | 47 | [[2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case]] | https://github.com/google-research-datasets/nlp-fairness-for-india |
 | 48 | [[2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain]] | https://huggingface.co/datasets/ctoraman/large-scale-hate-speech-tu... |
-| 49 | [[2022-team-L3Cube-MahaHate A Tweet-based Marathi Hate Speech]] | https://github.com/l3cube-pune/MarathiNLP |
+| 49 | [[2024-[[Unknown]]-SamPar A Marathi Hate Speech Dataset]] | https://github.com/l3cube-pune/MarathiNLP |
 | 50 | [[2023-2023-Hadiths Classification Using a Novel Author-Based]] | Papers with Code listing |
 | 51 | [[2023-Abhinand-Tamil-Llama A New Tamil Language Model]] | https://huggingface.co/abhinand/tamil-llama-7b-instruct-v0.2 |
 | 52 | [[2023-Alsalka-HAQA and QUQA Constructing Two Arabic]] | https://aclanthology.org/2023.ranlp-1.10/ |
@@ -501,7 +501,7 @@ Among papers with data URLs, classified by hosting platform:
 | 81 | [[2023-University-Antisemitism on Twitter A Dataset for]] | https://zenodo.org/records/7932888 |
 | 82 | [[2023-[[Unknown]]-NEHATE Large-Scale Annotated Data Shedding Light]] | https://github.com/shucoll/NEHate |
 | 83 | [[2023-Yao-From Instructions to Intrinsic Human Values -- A]] | https://github.com/ValueCompass/Alignment-Goal-Survey |
-| 84 | [[2023-Zhang-WYWEB A NLP Evaluation Benchmark for]] | https://github.com/baudzhou/WYWEB |
+| 84 | [[2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese]] | https://github.com/baudzhou/WYWEB |
 | 85 | [[2023-team-SeaLLMs Large Language Models for Southeast]] | https://huggingface.co/SeaLLMs |
 | 86 | [[2024-Adilazuarda-Towards Measuring and Modeling ]] | https://github.com/faridlazuarda/cultural-llm-papers |
 | 87 | [[2024-Akhunzada-Multi-IsnadSet MIS for Sahih Muslim Hadith]] | https://data.mendeley.com/datasets/gzprcr93zn/2 |
@@ -619,7 +619,7 @@ Among papers with data URLs, classified by hosting platform:
 | 199 | [[2025-initiative-Faith Respect and Moral Compass in]] | In development (collaborating with BYU, Notre Dame, Baylor, Yeshiva) |
 | 200 | [[2025-initiative-FaithBench AI Benchmark for Christian Theology]] | https://faithbench.com/ |
 | 201 | [[2025-project-Kaku-Ora Zen Wisdom Diffused -- An]] | GitHub (code available); HuggingFace Spaces (model hosted) |
-| 202 | [[2025-results]]-BenchMAX A Comprehensive Multilingual Evaluation Suite]] | https://github.com/CONE-MT/BenchMAX |
+| 202 | [[2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ...]] | https://github.com/CONE-MT/BenchMAX |
 | 203 | [[2025-team-SEA-LION Southeast Asian Languages in One]] | https://github.com/aisingapore/sealion |
 | 204 | [[2025-team-SeaExam and SeaBench Benchmarking LLMs with]] | https://github.com/DAMO-NLP-SG/SeaExam |
 | 205 | [[2025-team-WangchanThaiInstruct An Instruction-Following Dataset for Culture-Aware]] | https://huggingface.co/datasets/airesearch/WangchanThaiInstruct |

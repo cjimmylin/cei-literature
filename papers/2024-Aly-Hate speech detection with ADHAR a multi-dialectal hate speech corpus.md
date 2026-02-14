@@ -11,9 +11,10 @@ first_author: "[[Ranwa Aly]]"
 last_author: "[[Rana Gaber]]"
 authors: "Ranwa Aly, Yara Allam, Rana Gaber"
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11170444/"
+external_pdf: "https://public-pages-files-2025.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1391472/pdf"
 publication: PubMed
-local_pdf: 
-pdf_extract: 
+pdf_extract: "PDF Extracts/2024/2024-Aly-Hate speech detection with ADHAR a multi-dialectal hate speech corpus.md"
+local_pdf: "[[PDFs/2024/2024-Aly-Hate speech detection with ADHAR a multi-dialectal hate speech corpus.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

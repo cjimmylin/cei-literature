@@ -13,20 +13,20 @@ authors: Islamic
 url: "https://ojs.aaai.org/index.php/AIES/article/download/36543/38681/40618"
 external_pdf: "https://arxiv.org/pdf/2508.08287v1.pdf"
 publication: Web
-local_pdf: "[[PDFs/2025/2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.md"
+local_pdf: "[[PDFs/2025/2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
-national_ethnic_cultural: N/A
+national_ethnic_cultural: Arabic
 languages_list: "Arabic, English"
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
-is_benchmark: No
+is_benchmark: Yes
 is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"

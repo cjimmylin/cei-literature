@@ -14,8 +14,8 @@ authors: "Ruan Chaves"
 url: "https://github.com/ruanchaves/napolab"
 external_pdf: "https://arxiv.org/pdf/2401.16640"
 publication: "GitHub / HuggingFace"
-local_pdf: "[[PDFs/2024/2024-Chaves-Napolab The Natural Portuguese Language Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Chaves-Napolab The Natural Portuguese Language Benchmark.md"
+local_pdf: "[[PDFs/2024/2024-Chaves-Napolab The Natural Portuguese Language Benchmark.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No
@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract: "Collection of Portuguese datasets for LLM evaluation with guidelines ensuring natural Portuguese text and expert annotations. All datasets have translations in Catalan, English, Galician, and Spanish."
+abstract: "Large language models (LLMs) have significantly advanced natural language processing, but their progress has yet to be equal across languages. While most LLMs are trained in high-resource languages like English, multilingual models generally underperform monolingual ones. Additionally, aspects of their multilingual foundation sometimes restrict the byproducts they produce, like computational demands and licensing regimes."
 research_topic: "Machine Learning"
 ---
 # Napolab: The Natural Portuguese Language Benchmark

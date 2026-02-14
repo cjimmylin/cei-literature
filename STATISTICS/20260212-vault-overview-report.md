@@ -1041,7 +1041,7 @@ All **846 papers** were assessed for LLM model usage and data availability. **56
 | 340 | 2024 | [[2024-MLCommons-MLCommons AILuminate Benchmark]] | AILuminate v1.0 | Partial | Public |
 | 341 | 2024 | [[2024-Moore-Are Large Language Models Consistent over]] | Unnamed (Value Consistency Evaluation) | Yes | Not stated |
 | 342 | 2024 | [[2024-Moore-Intuitions of Compromise - Utilitarianism vs. Contractualism]] | Unnamed (Utilitarian Sum vs Nash Product evalua... | Yes | Not stated |
-| 343 | 2024 | [[2024-Mou-SG-Bench]] | SG-Bench | No | Public |
+| 343 | 2024 | [[2024-Various-SGBench]] | SG-Bench | No | Public |
 | 344 | 2024 | [[2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and]] | EAI (Emotional AI Framework) | No | Public |
 | 345 | 2024 | [[2024-Nahian-The Goofus & Gallant Story Corpus for Practical]] | Goofus & Gallant Story Corpus | No | Not stated |
 | 346 | 2024 | [[2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding]] | Unnamed (Moral Hypocrisy Evaluation using MFQ +... | Yes | Not stated |
@@ -1155,7 +1155,7 @@ All **846 papers** were assessed for LLM model usage and data availability. **56
 | 454 | 2023 | [[2023-Santurkar-Whose Opinions Do Language Models Reflect]] | OpinionQA | Yes | Public |
 | 455 | 2023 | [[2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs]] | MoralChoice | Partial | Public |
 | 456 | 2023 | [[2023-Shen-“Do Anything Now”]] | JailbreakHub | No | Public |
-| 457 | 2023 | [[2023-Takeshita-Towards Theory-based Moral AI]] | Unnamed (MEC Framework) | Yes | Not stated |
+| 457 | 2023 | [[2023-Boddington-Normative Ethical Theory AI Ethics]] | Unnamed (MEC Framework) | Yes | Not stated |
 | 458 | 2023 | [[2023-Tanmay-Probing Moral Development through Defining Issues Test DIT]] | DIT (Defining Issues Test) for LLMs | Partial | Public |
 | 459 | 2023 | [[2023-Wang-DecodingTrust]] | DecodingTrust | Partial | Public |
 | 460 | 2023 | [[2023-Wang-STREAM]] | STREAM | Yes | Public |

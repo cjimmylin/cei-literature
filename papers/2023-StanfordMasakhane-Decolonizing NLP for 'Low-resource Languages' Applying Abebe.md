@@ -14,8 +14,8 @@ authors: "Authors from Stanford/Masakhane"
 url: "https://ojs.stanford.edu/ojs/index.php/grace/article/view/2584"
 external_pdf: "https://ojs.stanford.edu/ojs/index.php/grace/article/download/2584/1546"
 publication: "WebSearch: Decolonizing NLP low-resource languages relational ethics Birhane"
-local_pdf: "[[PDFs/2023/2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.md"
+local_pdf: "[[PDFs/2023/2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No
@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract: "Applies Birhane's relational ethics framework to argue for decolonizing NLP for African languages. Advocates for language speakers to determine how their languages are used in AI, with communities retaining data ownership."
+abstract: "Applies Birhane's relational ethics framework to argue for decolonizing NLP for African languages. Advocates for language speakers to determine how their languages are used in AI, with communities retaining data ownership. Foundational framework paper for ethical African language NLP. Applies relational ethics (African tradition) to data sovereignty and community ownership. Essential context for values-aligned AI development."
 ethics_perspective: "General Ethics"
 ---
 # Decolonizing NLP for 'Low-resource Languages': Applying Abebe Birhane's Relational Ethics

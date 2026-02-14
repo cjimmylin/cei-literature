@@ -38,6 +38,7 @@ data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4, Claude"
 DATA_URL: "https://github.com/AIFlames/Flames"
+DATE_ADDED: 20260207
 ---
 # Flames: Benchmarking Value Alignment of LLMs in Chinese
 

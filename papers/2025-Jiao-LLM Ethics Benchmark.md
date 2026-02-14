@@ -13,6 +13,7 @@ authors: "[[Jiao, Junfeng]]; [[Afroogh, Saleh]]; [[Murali, Abhejay]]; [[Chen, Ke
 doi: 10.48550/arXiv.2505.00853
 tags: 
 url: "http://arxiv.org/abs/2505.00853"
+pdf_extract: "PDF Extracts/2025/2025-Jiao-LLM Ethics Benchmark.md"
 local_pdf: "[[PDFs/2025/2025-Jiao-LLM Ethics Benchmark.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2505.00853.pdf"
 publication: "Scientific Reports"
@@ -23,8 +24,7 @@ moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Establishes a 3D assessment framework (foundational principles, reasoning robustness, value consistency) to evaluate LLM moral reasoning"
 significance: "Provides precise metric quantification for ethical strengths and weaknesses, prioritizing consistency over simple accuracy"
-pdf_extract: "PDF Extracts/2025/2025-Jiao-LLM Ethics Benchmark.md"
-abstract: "This study establishes a novel framework for systematically evaluating the moral reasoning capabilities of large language models (LLMs) as they increasingly in- tegrate into critical societal domains. Current assessment methodologies lack the precision needed to evaluate nuanced ethical decision-making in AI systems, cre- ating significant accountability gaps. Our framework addresses this challenge by quantifying alignment with human ethical standards through three dimen- sions: foundational mor"
+abstract: "This study establishes a novel framework for systematically evaluating the moral reasoning capabilities of large language models (LLMs) as they increasingly integrate into critical societal domains. Current assessment methodologies lack the precision needed to evaluate nuanced ethical decision-making in AI systems, creating significant accountability gaps. Our framework addresses this challenge by quantifying alignment with human ethical standards through three dimensions: foundational moral principles, reasoning robustness, and value consistency across diverse scenarios. This approach enables precise identification of ethical strengths and weaknesses in LLMs, facilitating targeted improvements and stronger alignment with societal values. To promote transparency and collaborative advancement in ethical AI development, we are publicly releasing both our benchmark datasets and evaluation codebase at https://github.com/ The-Responsible-AI-Initiative/LLM_Ethics_Benchmark.git."
 paper_summary: "Abstract: This study establishes a novel framework for systematically evaluating the moral reasoning capabilities of large language models (LLMs) as they increasingly in- tegrate into critical societal domains. | Overview: LLM Ethics Benchmark A Three-Dimensional Assessment System for Evaluating Moral Reasoning in Large Language Models Junfeng Jiao Urban Information Lab The University of Texas at Austin jjiao@austin.ute | Key Findings: parameters. Third, we have established a standardized methodology for processing responses that extracts both numerical scores and reasoning text from"
 ethics_overall: No
 virtue_ethics: No

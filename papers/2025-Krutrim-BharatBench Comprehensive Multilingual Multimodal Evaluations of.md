@@ -13,29 +13,29 @@ last_author: "[[Not fully listed in search results (Ola Krutrim)]]"
 authors: "Not fully listed in search results (Ola Krutrim)"
 url: "https://ai-labs.olakrutrim.com/static/Bharatbench-report-4thfeb.pdf"
 external_pdf: "https://ai-labs.olakrutrim.com/static/Bharatbench-report-4thfeb.pdf"
-publication: "WebSearch: BharatBench Indian languages"
-local_pdf: "[[PDFs/2025/2025-Krutrim-BharatBench Comprehensive Multilingual Multimodal Evaluations of.pdf]]"
+publication: "Krutrim AI Labs"
 pdf_extract: "PDF Extracts/2025/2025-Krutrim-BharatBench Comprehensive Multilingual Multimodal Evaluations of.md"
+local_pdf: "[[PDFs/2025/2025-Krutrim-BharatBench Comprehensive Multilingual Multimodal Evaluations of.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
 national_ethnic_cultural: Indian
-languages_list: "Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Tamil, Telugu, and others"
+languages_list: "Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Tamil, Telugu"
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
-is_benchmark: No
+is_benchmark: Yes
 is_eval: Yes
-is_dataset: No
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: 
-DATA_URL: 
+DATA_URL: "https://github.com/ola-krutrim/BharatBench"
 tags: 
-abstract: "Comprehensive multimodal multilingual Indian benchmark testing language understanding, visual understanding, and speech understanding. Includes Indian Cultural Context (ICC) evaluation with multi-turn comprehension and translation."
+abstract: "This paper presents a comprehensive evaluation of Foundation AI models in multilingual and multimodal contexts, addressing their performance, adaptability, and limitations. With the increasing globalization of digital content and the rise of multi-modal data, understanding how Large Language Models (LLMs) operate across diverse languages and modes of information is critical. We introduce BharatBench as an evaluation framework benchmarking the performance of multilingual LLMs."
 research_topic: "Machine Translation"
 ---
 # BharatBench: Comprehensive Multilingual Multimodal Evaluations of Indian Languages
@@ -52,15 +52,16 @@ research_topic: "Machine Translation"
 
 **Type:** conferencePaper
 
-**Venue:** WebSearch: BharatBench Indian languages
+**Venue:** Krutrim AI Labs
 
-**Languages:** Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Tamil, Telugu, and others
+**Languages:** Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Tamil, Telugu
 
 **Benchmark:** BharatBench
 
 ## Links
 
 - **URL:** https://ai-labs.olakrutrim.com/static/Bharatbench-report-4thfeb.pdf
+- **Code/Data:** https://github.com/ola-krutrim/BharatBench
 
 ## Abstract
 
@@ -72,4 +73,3 @@ Comprehensive multimodal multilingual Indian benchmark testing language understa
 **Relevance:** Covers all four Dravidian languages with cultural context evaluation. Industry benchmark (Ola Krutrim) testing real-world Indian use cases.
 
 ## Tags
-

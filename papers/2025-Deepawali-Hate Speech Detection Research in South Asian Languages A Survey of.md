@@ -14,8 +14,8 @@ authors: "Sharma, Deepawali; Nath, Tanusree; Gupta, Vedika; Singh, Vivek Kumar"
 doi: 10.1145/3711710
 url: "https://dl.acm.org/doi/10.1145/3711710"
 publication: "WebSearch: hate speech South Asian languages survey"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No
@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract: "Comprehensive survey of hate speech detection tasks, available datasets, and computational approaches for South Asian languages. Covers Tamil, Malayalam, Kannada and other Dravidian languages. Published in ACM TALLIP."
+abstract: "Comprehensive survey of hate speech detection tasks, available datasets, and computational approaches for South Asian languages. Covers Tamil, Malayalam, Kannada and other Dravidian languages. Published in ACM TALLIP. Meta-survey covering hate speech datasets for Dravidian languages. Key reference for understanding the landscape of values-relevant datasets in these languages."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Hate Speech Detection Research in South Asian Languages: A Survey of Tasks, Datasets and Methods

@@ -13,8 +13,8 @@ authors: "Bo Zhou; Qianglong Chen; Tianyu Wang; Xiaomi Zhong; Yin Zhang"
 url: "https://aclanthology.org/2023.findings-acl.204/"
 external_pdf: "https://arxiv.org/pdf/2305.14150v1.pdf"
 publication: "ACL Anthology"
-local_pdf: "[[PDFs/2025/2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.md"
+local_pdf: "[[PDFs/2025/2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No
@@ -28,7 +28,7 @@ moral_psychology: N/A
 newtags: 
 is_benchmark: Yes
 is_eval: Yes
-is_dataset: No
+is_dataset: Yes
 data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 

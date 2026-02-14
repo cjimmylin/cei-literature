@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, GPT-4, Qwen, Qwen 0.60"
+DATA_URL: "https://github.com/jaaack-wang/Chinese-Synonyms"
 tags: 
 abstract: "Large Language Models (LLMs) and search engines have the potential to perpetuate biases and stereotypes by amplifying existing prejudices in their training data and algorithmic processes, thereby influencing public perception and decision-making. While most work has focused on Western-centric AI technologies, we examine social biases embedded in prominent Chinese-based commercial tools, the main search engine Baidu and two leading LLMs, Ernie and Qwen. Leveraging a dataset of 240 social groups across 13 categories describing Chinese society, we collect over 30k views encoded in the aforementioned tools by prompting them to generate candidate words describing these groups. We find that language models exhibit a broader range of embedded views compared to the search engine, although Baidu and Qwen generate negative content more often than Ernie. We also observe a moderate prevalence of stereotypes embedded in the language models, many of which potentially promote offensive or derogatory views. Our work highlights the importance of prioritizing fairness and inclusivity in AI technologies from a global perspective."
 research_topic: Other
@@ -64,6 +66,10 @@ research_topic: Other
 
 
 Large Language Models (LLMs) and search engines have the potential to perpetuate biases and stereotypes by amplifying existing prejudices in their training data and algorithmic processes, thereby influencing public perception and decision-making. While most work has focused on Western-centric AI technologies, we examine social biases embedded in prominent Chinese-based commercial tools, the main search engine Baidu and two leading LLMs, Ernie and Qwen. Leveraging a dataset of 240 social groups across 13 categories describing Chinese society, we collect over 30k views encoded in the aforementioned tools by prompting them to generate candidate words describing these groups. We find that language models exhibit a broader range of embedded views compared to the search engine, although Baidu and Qwen generate negative content more often than Ernie. We also observe a moderate prevalence of stereotypes embedded in the language models, many of which potentially promote offensive or derogatory views. Our work highlights the importance of prioritizing fairness and inclusivity in AI technologies from a global perspective.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-4, Qwen, Qwen 0.60. Verified dataset/resource link: https://github.com/jaaack-wang/Chinese-Synonyms.
 
 ## Notes
 

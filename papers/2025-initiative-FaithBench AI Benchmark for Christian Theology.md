@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,6 +66,11 @@ Summary: First rigorous peer-review-quality benchmark for AI on Christian theolo
 ## Dataset Information
 
 300+ test cases across 6 dimensions, 4 difficulty tiers
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://faithbench.com/.
 
 ## Notes
 

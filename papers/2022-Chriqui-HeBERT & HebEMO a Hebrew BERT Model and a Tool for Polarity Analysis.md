@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: NA
 tags: 
 abstract: "Sentiment analysis of user-generated content (UGC) can provide valuable information across numerous domains, including marketing, psychology, and public health. Currently, there are very few Hebrew models for natural language processing in general, and for sentiment analysis in particular; indeed, it is not straightforward to develop such models because Hebrew is a Morphologically Rich Language (MRL) with challenging characteristics."
 research_topic: "NLP & Representation Learning"
@@ -69,6 +70,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Hebrew BERT model with sentiment and emotion recognition tools. Dataset of ~2000 annotated COVID-related user comments from Israeli news sites for polarity (positive/negative/neutral) and 8 emotions. F1-score 0.96 for polarity.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

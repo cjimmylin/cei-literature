@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ tags:
 abstract: "In recent years, multilingual pre-trained language models have gained prominence due to their remarkable performance on numerous downstream Natural Language Processing tasks (NLP). However, pre-training these large multilingual language models requires a lot of training data, which is not available for African Languages. Active learning is a semi-supervised learning algorithm, in which a model consistently and dynamically learns to identify the most beneﬁcial samples to train itself on, in..."
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://huggingface.co/bonadossou/afrolm_active_learning"
 research_topic: "NLP & Representation Learning"
 ---
@@ -65,6 +66,10 @@ Multilingual PLM for 23 African languages using novel self-active learning. Outp
 ## Benchmark
 
 **Name:** AfroLM
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa. Verified dataset/resource link: https://huggingface.co/bonadossou/afrolm_active_learning.
 
 ## Notes
 

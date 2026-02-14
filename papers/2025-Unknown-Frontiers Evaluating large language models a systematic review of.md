@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: 
 research_topic: Other
@@ -66,6 +67,10 @@ research_topic: Other
 ## Abstract
 
 Based on the search results, I found information about a paper titled "Evaluating Large Language Models in Mongolian" presented at ANLP 2025. According to the PDF document from the proceedings: The paper was presented at the 31st Annual Meeting of the Association for NLP (言語処理学会 第31回年次大会) in 2025.
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

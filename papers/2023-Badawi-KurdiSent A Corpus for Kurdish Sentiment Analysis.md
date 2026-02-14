@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Kurdish sentiment analysis corpus evaluated with machine learning and deep learning classifiers. XLM-R achieves best accuracy of 85%."
 research_topic: "NLP & Representation Learning"
@@ -69,6 +70,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Kurdish sentiment analysis corpus evaluated with machine learning and deep learning classifiers. XLM-R achieves best accuracy of 85%.
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

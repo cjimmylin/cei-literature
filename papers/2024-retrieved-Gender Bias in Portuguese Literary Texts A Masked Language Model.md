@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, Bartl"
+DATA_URL: "https://huggingface.co/neuralmind/bert-base-portuguese-cased"
 tags: 
 abstract: "Fine-tunes BERT-based models on 592 Portuguese literary works and analyzes gender associations in adjective and verb predictions to measure gender bias."
 ethics_perspective: "Bias & Fairness"
@@ -64,6 +65,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Fine-tunes BERT-based models on 592 Portuguese literary works and analyzes gender associations in adjective and verb predictions to measure gender bias.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Bartl. Verified dataset/resource link: https://huggingface.co/neuralmind/bert-base-portuguese-cased.
 
 ## Notes
 

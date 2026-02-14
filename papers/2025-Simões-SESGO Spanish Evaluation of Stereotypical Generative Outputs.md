@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework text corpus for toxicity detection"
 data_metrics: "4,000 prompts"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude 3, Claude 3., Claude 3.5 Haiku, DeepSeek R1, GPT-4, GPT-4o, GPT-4o mini, Llama, Llama 3.1, Llama 3, Llama-3.1, Qwen, Claude"
+DATA_URL: "https://github.com/mvrobles/SESGO"
 tags: 
 abstract: "This paper addresses the critical gap in evaluating bias in multilingual Large Language Models (LLMs), with a specific focus on Spanish language within culturally-aware Latin American contexts. Despite widespread global deployment, current evaluations remain predominantly US-Englishcentric, leaving potential harms in other linguistic and cultural contexts largely underexamined. We introduce a novel, culturally-grounded framework for detecting social biases in instruction-tuned LLMs."
 ethics_perspective: "Bias & Fairness"
@@ -65,6 +67,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Culturally situated evaluation methodology for Spanish-language models in Latin American contexts. 4,156 prompts addressing gender, race, socioeconomic class, and national origin stereotypes. Finds amplified bias in Spanish vs English across comparable prompts.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude 3, Claude 3., Claude 3.5 Haiku, DeepSeek R1, GPT-4, GPT-4o, GPT-4o mini, Llama, Llama 3.1, Llama 3, Llama-3.1, Qwen, Claude. Verified dataset/resource link: https://github.com/mvrobles/SESGO.
 
 ## Notes
 

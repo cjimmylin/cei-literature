@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: "https://github.com/ptaszynski/cyberbullying-Polish"
 tags: 
 abstract: "First shared task for automatic cyberbullying detection in Polish Twitter, distinguishing harmful tweets as cyberbullying (targeting private persons) or hate-speech (targeting public entities). 14 submissions."
 research_topic: "Machine Learning"
@@ -65,6 +66,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 First shared task for automatic cyberbullying detection in Polish Twitter, distinguishing harmful tweets as cyberbullying (targeting private persons) or hate-speech (targeting public entities). 14 submissions.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/ptaszynski/cyberbullying-Polish.
 
 ## Notes
 

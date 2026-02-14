@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "First benchmark hate speech corpus in Thai with four annotations: hat
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Ex-ThaiHate: A Generative Multi-task Framework for Sentiment and Emotion Aware Hate Speech Detection with Explanation in Thai
@@ -65,6 +66,10 @@ First benchmark hate speech corpus in Thai with four annotations: hate, sentimen
 ## Benchmark
 
 **Name:** Ex-ThaiHate
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

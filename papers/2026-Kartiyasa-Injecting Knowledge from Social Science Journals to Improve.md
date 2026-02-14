@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Qwen-SEA, Qwen-SEA_LION"
+DATA_URL: "https://github.com/pymupdf/PyMuPDF"
 tags: 
 abstract: "Recently there have been intensifying efforts to improve the understanding of Indonesian cultures by large language models (LLMs). An attractive source of cultural knowledge that has been largely overlooked is local journals of social science, which likely contain substantial cultural studies from a native perspective. We present a novel text dataset of journal article passages, created from 151 open-source Indonesian social science journals, called IndoSoSci."
 research_topic: "Social & Cultural Analysis"
@@ -65,6 +66,10 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Novel dataset of journal article passages from 151 open-source Indonesian social science journals. Demonstrates recipe for injecting Indonesian cultural knowledge into LLMs via RAG, achieving 81.4% on IndoCulture benchmark.
+
+## Data Description
+
+Backfill summary: Models assessed include Qwen-SEA, Qwen-SEA_LION. Verified dataset/resource link: https://github.com/pymupdf/PyMuPDF.
 
 ## Notes
 

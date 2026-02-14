@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +38,7 @@ is_eval: No
 is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Alpaca, BERT, ChatGPT, Claude, Claude-3, GPT-2, GPT-3, GPT-4, GPT-4-Turbo, InstructGPT, Llama, LlaMA3, Llama 2, Llama-2, Llama-3, Mistral, Mistral 7b, Mistral Large, Mistral-7B, PaLM 2, Phi-2, T5-Large, T5-XXL"
 DATA_URL: NA
 ---
 # A Comprehensive Survey of LLM Alignment Techniques: RLHF, RLAIF, PPO, DPO and More

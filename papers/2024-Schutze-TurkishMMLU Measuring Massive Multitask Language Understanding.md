@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Multiple choice question answering tasks evaluate the reasoning, comprehension, and mathematical abilities of Large Language Models (LLMs). While existing benchmarks employ automatic translation for multilingual evaluation, this approach is error-prone and potentially introduces culturally biased questions, especially in social sciences. We introduce the first multitask, multiple-choice Turkish QA benchmark, TurkishMMLU, to evaluate LLMs’ understanding of the Turkish language."
 data_description: "Multilingual benchmark for bias and fairness dataset for question answering"
 data_metrics: "10,000 questions; over 10,000 questions"
-LLM_assessed: NA
+LLM_assessed: "ALBERT, Claude, Claude-3, Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, Command-R, GPT 3, GPT 3.5, GPT 4, GPT 4-Turbo, GPT 4o, Gemma, Llama, Llama 2, Llama-2, Llama-3, Mistral 7B, MistralAI, Mixtral 8x22B, Mixtral 8x7B, BERT"
 DATA_URL: "https://github.com/ArdaYuksel/TurkishMMLU"
 research_topic: "Machine Translation"
 ---
@@ -65,6 +67,10 @@ First multitask multiple-choice Turkish QA benchmark with 10,032 questions acros
 ## Benchmark
 
 **Name:** TurkishMMLU
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, Claude, Claude-3, Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, Command-R, GPT 3, GPT 3.5, GPT 4, GPT 4-Turbo, GPT 4o, Gemma, Llama, Llama 2, Llama-2, Llama-3, Mistral 7B, MistralAI, Mixtral 8x22B, Mixtral 8x7B, BERT. Verified dataset/resource link: https://github.com/ArdaYuksel/TurkishMMLU.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, RoBERTa, XLNet"
+DATA_URL: "https://github.com/Sinhala-NLP/SOLD"
 tags: 
 abstract: "The widespread of offensive content online, such as hate speech and cyber-bullying, is a global phenomenon. This has sparked interest in the artificial intelligence (AI) and natural language processing (NLP) communities, motivating the development of various systems trained to detect potentially harmful content automatically. These systems require annotated datasets to train the machine learning (ML) models."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -71,6 +72,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Largest Sinhala offensive language dataset: 10,000 Twitter posts annotated at sentence-level and token-level for offensive/not-offensive. Addresses hate speech and cyberbullying detection in low-resource Sinhala.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa, XLNet. Verified dataset/resource link: https://github.com/Sinhala-NLP/SOLD.
 
 ## Notes
 

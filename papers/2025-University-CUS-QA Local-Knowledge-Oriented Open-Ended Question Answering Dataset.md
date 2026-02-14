@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, Claude 3.5 Sonnet, Claude 3.5, GPT-4o, Gemma, Gemma 3, LLaMA 3, LLaMA 3.1, LLaMA 3.2, LLaMA 3.2., LLaMA 3.3, LLaMA 4, Llama-3.1, Llama-3.2, Llama-3.3, Llama-4, Mistral, Mistral 7B, Mistral v0, Mistral-7B, gemma3"
+DATA_URL: "https://huggingface.co/datasets/ufal"
 tags: 
 abstract: "We introduce CUS-QA, a benchmark for evaluation of open-ended regional question answering that encompasses both textual and visual modalities. We also provide strong baselines using state-of-the-art large language models (LLMs). Our dataset consists of manually curated questions and answers grounded in Wikipedia, created by native speakers from Czechia, Slovakia, and Ukraine, with accompanying English translations."
 research_topic: "Question Answering"
@@ -65,6 +67,10 @@ research_topic: "Question Answering"
 ## Abstract
 
 Regional QA benchmark with 1,536 Czech, 1,210 Slovak, and 1,158 Ukrainian question-answer pairs. Tests LLM regional knowledge across textual and visual modalities with human evaluation annotations.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, Claude 3.5 Sonnet, Claude 3.5, GPT-4o, Gemma, Gemma 3, LLaMA 3, LLaMA 3.1, LLaMA 3.2, LLaMA 3.2., LLaMA 3.3, LLaMA 4, Llama-3.1, Llama-3.2, Llama-3.3, Llama-4, Mistral, Mistral 7B, Mistral v0, Mistral-7B, gemma3. Verified dataset/resource link: https://huggingface.co/datasets/ufal.
 
 ## Notes
 

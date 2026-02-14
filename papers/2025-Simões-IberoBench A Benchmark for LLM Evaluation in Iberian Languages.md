@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, BLOOM, BLOOM-1, BLOOM-7, Falcon-7B, Gemma, Llama, Llama 3, Llama-3, Mistral, Mistral-7B"
+DATA_URL: NA
 tags: 
 abstract: "Multi-task benchmark for Iberian languages built on LM Evaluation Harness. 62 tasks divided into 179 subtasks. Evaluated 33 LLMs in 0- and 5-shot settings on European Spanish, Portuguese, Catalan, Basque, and Galician."
 research_topic: "Machine Learning"
@@ -66,6 +68,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Multi-task benchmark for Iberian languages built on LM Evaluation Harness. 62 tasks divided into 179 subtasks. Evaluated 33 LLMs in 0- and 5-shot settings on European Spanish, Portuguese, Catalan, Basque, and Galician.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, BLOOM, BLOOM-1, BLOOM-7, Falcon-7B, Gemma, Llama, Llama 3, Llama-3, Mistral, Mistral-7B. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

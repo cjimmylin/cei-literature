@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, Baichuan2, ChatGPT, Llama, LLaMA 8, LLaMA., LLaMA2, LLaMA2."
+DATA_URL: NA
 tags: 
 abstract: "The advent of ChatGPT and GPT-4 has generated substantial interest in large language model (LLM) research, showcasing remarkable performance in various applications such as conversation systems, machine translation, and research paper summarization. However, their efficacy diminishes when applied to low-resource languages, particularly in academic research contexts like Tibetan. In this study, we trained Tibetan LLaMA (T-LLaMA), a model based on efficient pre-training technology for three downstream tasks: text classification, news text generation and automatic text summarization. To address the lack of corpus, we constructed a Tibetan dataset comprising 2.2 billion characters. Furthermore, we augmented the vocabulary of LLaMA2 from META AI by expanding the Tibetan vocabulary using SentencePiece. Notably, the text classification task attains a state-of-the-art (SOTA) accuracy of 79.8% on a publicly available dataset Tibetan News Classification Corpus. In addition, manual review of 500 generated samples indicates satisfactory results in both news text generation and text summarization tasks. To our knowledge, T-LLaMA stands as the first large-scale language model in Tibetan natural language processing (NLP) with parameters in the billion range. We openly provide our trained models, anticipating that this contribution not only fills gaps in the Tibetan large-scale language model domain but also serves as foundational models for researchers with limited computational resources in the Tibetan NLP community. The T-LLaMA model is available at https://​huggi​ngface.​co/​Pagew​ood/T-​LLaMA. Keywords Large language model · Tibetan · Low-resource languages · Text classification"
 research_topic: "NLP & Representation Learning"
@@ -69,6 +70,10 @@ research_topic: "NLP & Representation Learning"
 
 
 The advent of ChatGPT and GPT-4 has generated substantial interest in large language model (LLM) research, showcasing remarkable performance in various applications such as conversation systems, machine translation, and research paper summarization. However, their efficacy diminishes when applied to low-resource languages, particularly in academic research contexts like Tibetan. In this study, we trained Tibetan LLaMA (T-LLaMA), a model based on efficient pre-training technology for three downstream tasks: text classification, news text generation and automatic text summarization. To address the lack of corpus, we constructed a Tibetan dataset comprising 2.2 billion characters. Furthermore, we augmented the vocabulary of LLaMA2 from META AI by expanding the Tibetan vocabulary using SentencePiece. Notably, the text classification task attains a state-of-the-art (SOTA) accuracy of 79.8% on a publicly available dataset Tibetan News Classification Corpus. In addition, manual review of 500 generated samples indicates satisfactory results in both news text generation and text summarization tasks. To our knowledge, T-LLaMA stands as the first large-scale language model in Tibetan natural language processing (NLP) with parameters in the billion range. We openly provide our trained models, anticipating that this contribution not only fills gaps in the Tibetan large-scale language model domain but also serves as foundational models for researchers with limited computational resources in the Tibetan NLP community. The T-LLaMA model is available at https://​huggi​ngface.​co/​Pagew​ood/T-​LLaMA. Keywords Large language model · Tibetan · Low-resource languages · Text classification
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, Baichuan2, ChatGPT, Llama, LLaMA 8, LLaMA., LLaMA2, LLaMA2.. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

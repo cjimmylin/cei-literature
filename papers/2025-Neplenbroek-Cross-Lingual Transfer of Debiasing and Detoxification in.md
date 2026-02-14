@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, Gemma, Gemma 2, Llama, Llama 3, Llama 3.1, Mistral, Mistral 0.3 Instruct, Mistral 0.3 57, Mistral 0.3 68, Mistral 7B"
+DATA_URL: NA
 tags: 
 abstract: "Recent generative large language models (LLMs) show remarkable performance in nonEnglish languages, but when prompted in those languages they tend to express higher harmful social biases and toxicity levels. Prior work has shown that finetuning on specialized datasets can mitigate this behavior, and doing so in English can transfer to other languages. In this work, we investigate the impact of different finetuning methods on the model’s bias and toxicity, but also on its ability to produce..."
 ethics_perspective: "Bias & Fairness"
@@ -64,6 +66,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Experiments with 7 LLMs in 20 languages on cross-lingual transfer of debiasing and detoxification. Finds transfer worse for lower-resource languages. Indonesian fine-tuning yields strongest cross-lingual improvements.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Gemma, Gemma 2, Llama, Llama 3, Llama 3.1, Mistral, Mistral 0.3 Instruct, Mistral 0.3 57, Mistral 0.3 68, Mistral 7B. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

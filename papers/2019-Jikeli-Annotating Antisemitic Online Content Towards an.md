@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract: "Online antisemitism is hard to quantify. How can it be measured in ra
 data_description: "Evaluation methodology annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: "http://github.com/zeerakw/hatespeech"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Annotating Antisemitic Online Content: Towards an Applicable Definition of Antisemitism
@@ -64,6 +66,11 @@ Demonstrates that the IHRA working definition of antisemitism can be successfull
 ## Dataset Information
 
 Randomly sampled Twitter conversations about Jews and Israel
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: http://github.com/zeerakw/hatespeech.
 
 ## Notes
 

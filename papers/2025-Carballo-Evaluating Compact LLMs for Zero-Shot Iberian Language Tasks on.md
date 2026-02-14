@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "DeepSeek-R1, GPT-4, Gemma, Gemma 2, Gemma-2, Llama, Llama-3.1, Mistral Small, Mistral-3-24B, Mistral-7B, Qwen-7B, Qwen2, Qwen2.5"
+DATA_URL: NA
 tags: 
 abstract: "Large Language Models have significantly advanced natural language processing, achieving remarkable performance in tasks such as language generation, translation, and reasoning. However, their substantial computational requirements restrict deployment to high-end systems, limiting accessibility on consumer-grade devices. This challenge is especially pronounced for under-resourced languages like those spoken in the Iberian Peninsula, where relatively limited linguistic resources and benchmarks..."
 research_topic: "Machine Translation"
@@ -63,6 +65,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Evaluates compact state-of-the-art LLMs across NLP tasks for Iberian languages in zero-shot settings. Uses IberoBench. Reveals significant performance gaps for Basque compared to Spanish and Portuguese.
+
+## Data Description
+
+Backfill summary: Models assessed include DeepSeek-R1, GPT-4, Gemma, Gemma 2, Gemma-2, Llama, Llama-3.1, Mistral Small, Mistral-3-24B, Mistral-7B, Qwen-7B, Qwen2, Qwen2.5. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

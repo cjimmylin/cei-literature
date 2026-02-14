@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Recent advancements in large language models (LLMs) have revolutionized natural language processing (NLP) and expanded their applications across diverse domains. However, despite their impressive capabilities, LLMs have been shown to reflect and perpetuate harmful societal biases, including those based on ethnicity, gender, and religion. A critical and underexplored issue is the reinforcement of caste-based biases, particularly towards India’s marginalized caste groups such as Dalits and Shudras."
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4o, Llama, Llama-2, Llama-3, Mixtral, Mixtral-8x7b, Word2Vec"
+DATA_URL: NA
 ethics_perspective: "Bias & Fairness"
 ---
 # DECASTE: Unveiling Caste Stereotypes in Large Language Models through Multi-Dimensional Bias Analysis
@@ -68,6 +70,11 @@ ethics_perspective: "Bias & Fairness"
 ## Dataset Information
 
 Custom caste-stereotypical dataset across 4 dimensions (social, economic, educational, political)
+
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4o, Llama, Llama-2, Llama-3, Mixtral, Mixtral-8x7b, Word2Vec. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

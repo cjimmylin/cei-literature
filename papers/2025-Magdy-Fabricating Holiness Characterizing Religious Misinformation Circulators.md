@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract: "Misinformation is a growing concern in a decade involving critical gl
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: "Truthfulness & Factuality"
 ---
 # Fabricating Holiness: Characterizing Religious Misinformation Circulators on Arabic Social Media
@@ -64,6 +66,11 @@ Studies fabricated Hadith circulation on Arabic social media as a case of religi
 ## Dataset Information
 
 Fabricated Hadith dataset from Arabic social media (size in paper)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

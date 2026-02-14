@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude, Claude Opus, Claude Sonnet, Claude- Sonnet, Claude-4-Sonnet, Claude-4.1-Opus, Claude-Opus, Claude-Sonnet, DeepSeek, DeepSeek-Chat, DeepSeek-V3, GPT-4, LLaMA-4, Qwen, Qwen3"
+DATA_URL: NA
 tags: 
 abstract: "Diagnostic probe evaluating LLM robustness in figurative and culturally grounded reasoning for low-resource Bengali contexts."
 research_topic: Other
@@ -66,6 +68,10 @@ research_topic: Other
 ## Abstract
 
 Diagnostic probe evaluating LLM robustness in figurative and culturally grounded reasoning for low-resource Bengali contexts.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude, Claude Opus, Claude Sonnet, Claude- Sonnet, Claude-4-Sonnet, Claude-4.1-Opus, Claude-Opus, Claude-Sonnet, DeepSeek, DeepSeek-Chat, DeepSeek-V3, GPT-4, LLaMA-4, Qwen, Qwen3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

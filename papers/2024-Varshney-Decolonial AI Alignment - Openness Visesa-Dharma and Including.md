@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ ethics_perspective: "AI Safety & Alignment"
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/Jacaranda/UlizaLlama"
 normative_ethics_benchmark: Borderline
 ---
 # Decolonial AI Alignment -- Openness, Visesa-Dharma, and Including Excluded Knowledges

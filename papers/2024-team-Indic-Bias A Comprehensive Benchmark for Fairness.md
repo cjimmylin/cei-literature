@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,6 +66,10 @@ Comprehensive benchmark evaluating fairness of LLMs across 85 Indian identity gr
 ## Benchmark
 
 **Name:** Indic-Bias
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/ai4bharat/Indic-Bias.
 
 ## Notes
 

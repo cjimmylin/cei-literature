@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "Social media platforms are used by a large number of people prominently to express their thoughts and opinions. However, these platforms have contributed to a substantial amount of hateful and abusive content as well. Therefore, it is important to curb the spread of hate speech on these platforms. In India, Marathi is one of the most popular languages used by a wide audience. In this work, we present L3CubeMahaHate, the ﬁrst major Hate Speech Dataset in Marathi."
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, RoBERTa"
+DATA_URL: "https://github.com/l3cube-pune/MarathiNLP"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # SamPar: A Marathi Hate Speech Dataset for Homophobia, Transphobia
@@ -65,6 +66,10 @@ Marathi hate speech dataset specifically targeting homophobia and transphobia, a
 ## Benchmark
 
 **Name:** SamPar
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, RoBERTa. Verified dataset/resource link: https://github.com/l3cube-pune/MarathiNLP.
 
 ## Notes
 

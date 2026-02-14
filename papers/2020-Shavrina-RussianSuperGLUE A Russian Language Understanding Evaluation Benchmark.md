@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, T5"
+DATA_URL: NA
 tags: 
 abstract: "In this paper, we introduce an advanced Russian general language understanding evaluation benchmark – RussianGLUE. Recent advances in the ﬁeld of universal language models and transformers require the development of a methodology for their broad diagnostics and testing for general intellectual skills - detection of natural language inference, commonsense reasoning, ability to perform simple logical operations regardless of text subject or lexicon."
 research_topic: "Machine Learning"
@@ -69,6 +70,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Benchmark of nine tasks developed from scratch for Russian language understanding, organized analogically to SuperGLUE methodology. Foundation for subsequent Russian ethical evaluation benchmarks.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, T5. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

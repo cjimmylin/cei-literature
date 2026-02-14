@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: "https://huggingface.co/datasets/textdetox/multilingual_toxicity_dataset"
 tags: 
 abstract: "Binary toxicity classification dataset with 5,000 samples per language (2,500 toxic, 2,500 non-toxic). Hebrew added in 2025 extension. Includes multilingual toxic lexicon (176,347 entries across 15 languages) and ParaDetox parallel detoxification pairs."
 research_topic: "Machine Translation"
@@ -66,6 +67,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Binary toxicity classification dataset with 5,000 samples per language (2,500 toxic, 2,500 non-toxic). Hebrew added in 2025 extension. Includes multilingual toxic lexicon (176,347 entries across 15 languages) and ParaDetox parallel detoxification pairs.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/textdetox/multilingual_toxicity_dataset.
 
 ## Notes
 

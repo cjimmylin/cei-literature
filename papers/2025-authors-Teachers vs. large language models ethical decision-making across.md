@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: Compares LLM and human teacher ethical decision-making in Turkish school dilemmas. LLMs produce uniform utilitarian/deontological/Rawlsian outcomes while teachers show ethical pluralism and context sensitivity. Directly compares moral reasoning of LLMs with Turkish cultural context. Reveals that LLMs lack the ethical pluralism and context sensitivity that Turkish educators demonstrate.
 ethics_perspective: "Machine Ethics"
@@ -66,6 +67,10 @@ ethics_perspective: "Machine Ethics"
 ## Abstract
 
 Compares LLM and human teacher ethical decision-making in Turkish school dilemmas. LLMs produce uniform utilitarian/deontological/Rawlsian outcomes while teachers show ethical pluralism and context sensitivity.
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

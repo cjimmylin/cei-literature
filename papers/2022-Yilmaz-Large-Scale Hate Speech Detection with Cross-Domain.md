@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ tags:
 abstract: "The performance of hate speech detection models relies on the datasets on which the models are trained. Existing datasets are mostly prepared with a limited number of instances or hate domains that deﬁne hate topics. This hinders large-scale analysis and transfer learning with respect to hate domains. In this study, we construct large-scale tweet datasets for hate speech detection in English and a low-resource language, Turkish, consisting of human-labeled 100k tweets per each."
 data_description: "Dataset for hate speech detection"
 data_metrics: "100k tweets"
-LLM_assessed: NA
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://huggingface.co/datasets/ctoraman/large-scale-hate-speech-turkish-v2"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
@@ -61,6 +62,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 100K tweets each in Turkish and English for hate speech detection across 5 domains: Religion, Gender, Race, Politics, Sports. Transformer models outperform others by 10% in Turkish. Large-scale bilingual hate speech dataset with Turkish as a key language. Cross-domain analysis reveals domain-specific bias patterns in Turkish hate speech.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa. Verified dataset/resource link: https://huggingface.co/datasets/ctoraman/large-scale-hate-speech-turkish-v2.
 
 ## Notes
 

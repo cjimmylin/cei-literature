@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "2 token"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, ChatGPT, GPT-4, GPT-4o, Llama, Llama 3.2, Llama-3, Llama-3.2, t5 4"
+DATA_URL: "https://github.com/hishab-nlp/titulm"
 tags: 
 abstract: "In this paper, we present TituLLMs, the first large pretrained Bangla LLMs, available in 1b and 3b parameter sizes. Due to computational constraints during both training and inference, we focused on smaller models. To train TituLLMs, we collected a pretraining dataset of approximately ∼37 billion tokens. We extended the Llama-3.2 tokenizer to incorporate language- and culture-specific knowledge, which also enables faster training and inference."
 research_topic: "Machine Translation"
@@ -65,6 +67,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 First large pretrained Bangla LLMs (1B/3B params) trained on ~37B tokens. Introduces 5 Bangla benchmarking datasets including Bangla MMLU (from Bangladeshi exams) and CommonsenseQA Bangla. Published at ACL 2025 Findings.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT, GPT-4, GPT-4o, Llama, Llama 3.2, Llama-3, Llama-3.2, t5 4. Verified dataset/resource link: https://github.com/hishab-nlp/titulm.
 
 ## Notes
 

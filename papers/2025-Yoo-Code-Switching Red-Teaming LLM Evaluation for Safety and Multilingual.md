@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "10 languages"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude 3, Claude 3 Haiku, Claude 3 Opus, Claude 3 Sonnet, Claude 3., Claude-3-Sonnet, Claude., GPT-4, GPT-4o, Llama, Llama 3, Llama Guard, Llama-3, Mistral, Mistral-7B, Mixtral 7B, Mixtral-8x7B, Qwen 1.5, Qwen-1.5, BERT, GPT-3, gpt-3.5-turbo"
+DATA_URL: "https://huggingface.co/datasets/openai/MMMLU"
 tags: 
 abstract: "As large language models (LLMs) have advanced rapidly, concerns regarding their safety have become prominent. In this paper, we discover that code-switching in red-teaming queries can effectively elicit undesirable behaviors of LLMs, which are common practices in natural language. We introduce a simple yet effective framework, CSRT, to synthesize codeswitching red-teaming queries and investigate the safety and multilingual understanding of LLMs comprehensively."
 ethics_perspective: "AI Safety & Alignment"
@@ -65,6 +66,10 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Code-switching red-teaming technique testing multilingual LLM safety. Vietnamese included as high-resource language. CSRT achieves 46.7% more attacks than standard English-only attacks. Finds correlation between language resource availability and safety alignment.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude 3, Claude 3 Haiku, Claude 3 Opus, Claude 3 Sonnet, Claude 3., Claude-3-Sonnet, Claude., GPT-4, GPT-4o, Llama, Llama 3, Llama Guard, Llama-3, Mistral, Mistral-7B, Mixtral 7B, Mixtral-8x7B, Qwen 1.5, Qwen-1.5, BERT, GPT-3, gpt-3.5-turbo. Verified dataset/resource link: https://huggingface.co/datasets/openai/MMMLU.
 
 ## Notes
 

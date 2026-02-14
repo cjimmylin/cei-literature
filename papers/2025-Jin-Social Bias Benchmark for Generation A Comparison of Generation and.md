@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude, Claude-3-haiku, Claude-3.5-sonnet, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4-turbo, GPT-4o, Llama, Llama-3.3, Qwen, Qwen2.5, ChatGPT, claude-3, llama 3"
+DATA_URL: NA
 tags: 
 abstract: "Warning: This paper contains examples of stereotypes and biases. Measuring social bias in large language models (LLMs) is crucial, but existing bias evaluation methods struggle to assess bias in longform generation. We propose a Bias Benchmark for Generation (BBG), an adaptation of the Bias Benchmark for QA (BBQ), designed to evaluate social bias in long-form generation by having LLMs generate continuations of story prompts."
 ethics_perspective: "Bias & Fairness"
@@ -69,6 +71,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Bias Benchmark for Generation adapted from BBQ/KoBBQ for long-form story generation. LLMs show 49-61% neutrality in Korean vs 54-69% in English. Korean bias scores 0.12-0.25, consistently bias-aligned over bias-countering.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude, Claude-3-haiku, Claude-3.5-sonnet, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4-turbo, GPT-4o, Llama, Llama-3.3, Qwen, Qwen2.5, ChatGPT, claude-3, llama 3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

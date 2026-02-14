@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, Claude 3.5, Claude 3.5 Sonnet, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4o, Gemma 2, Llama 3.1, Qwen2.5"
+DATA_URL: NA
 tags: 
 abstract: "Introduces structured framework with 8 Cultural Types (e.g., Spiritual Practitioner, Soviet Intellectual) and 5 catchphrase groups. 400-question evaluation dataset probing 10 multilingual LLMs on Russian cultural knowledge and linguacultural understanding."
 research_topic: "Social & Cultural Analysis"
@@ -66,6 +68,10 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Introduces structured framework with 8 Cultural Types (e.g., Spiritual Practitioner, Soviet Intellectual) and 5 catchphrase groups. 400-question evaluation dataset probing 10 multilingual LLMs on Russian cultural knowledge and linguacultural understanding.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, Claude 3.5, Claude 3.5 Sonnet, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4o, Gemma 2, Llama 3.1, Qwen2.5. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

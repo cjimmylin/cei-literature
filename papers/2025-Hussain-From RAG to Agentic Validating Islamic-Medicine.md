@@ -1,4 +1,7 @@
 ---
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +36,8 @@ tags:
 abstract: "Centuries-old Islamic medical texts like Avicenna’s Canon of Medicine and the Prophetic Tibb-e-Nabawi, encode a wealth of preventive care, nutrition, and holistic therapies, yet remain inaccessible to many and underutilized in modern AI systems. Existing language-model benchmarks focus narrowly on factual recall or user preference, leaving a gap in validating culturally grounded medical guidance at scale."
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "Claude, Claude-4, GPT4, Llama-3, Mistral 7b, Mistral- 7B, Mistral-7B, Qwen-7B, Qwen2, llama 3"
+DATA_URL: NA
 ethics_perspective: "Social & Cultural Values"
 ---
 # From RAG to Agentic: Validating Islamic-Medicine Responses with LLM Agents (Tibbe-AG)
@@ -68,6 +71,11 @@ Proposes Tibbe-AG, an evaluation pipeline for Islamic prophetic medicine (Tibb-e
 ## Dataset Information
 
 30 curated Prophetic-medicine questions aligned with human-verified remedies
+
+
+## Data Description
+
+Backfill summary: Models assessed include Claude, Claude-4, GPT4, Llama-3, Mistral 7b, Mistral- 7B, Mistral-7B, Qwen-7B, Qwen2, llama 3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

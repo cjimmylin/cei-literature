@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: NA
 tags: 
 abstract: "Event-based Persian offensive language dataset of 13,716 tweets labeled via crowdsourcing platform. 34% labeled as offensive. ParsBERT achieves best F1 of 85.4%."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -65,6 +66,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Event-based Persian offensive language dataset of 13,716 tweets labeled via crowdsourcing platform. 34% labeled as offensive. ParsBERT achieves best F1 of 85.4%.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

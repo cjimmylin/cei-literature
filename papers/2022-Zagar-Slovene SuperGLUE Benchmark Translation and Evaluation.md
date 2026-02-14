@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: NA
 tags: 
 abstract: "We present a Slovene combined machine-human translated SuperGLUE benchmark. We describe the translation process and problems arising due to differences in morphology and grammar. We evaluate the translated datasets in several modes: monolingual, cross-lingual, and multilingual, taking into account differences between machine and human translated training sets. The results show that the monolingual Slovene SloBERTa model is superior to massively multilingual and trilingual BERT models, but these..."
 research_topic: "Machine Translation"
@@ -65,6 +66,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Machine-human translated SuperGLUE benchmark for Slovenian with cultural adaptations. Evaluates monolingual, cross-lingual, and multilingual modes. SloBERTa outperforms multilingual BERT.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

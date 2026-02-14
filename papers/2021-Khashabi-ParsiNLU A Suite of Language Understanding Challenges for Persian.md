@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, T5"
+DATA_URL: "https://github.com/MarioVilas/googlesearch"
 tags: 
 abstract: "First comprehensive Persian NLU benchmark with 6 tasks: reading comprehension, multiple-choice QA, textual entailment, sentiment analysis, query paraphrasing, and machine translation. Expert-annotated by native Persian speakers."
 research_topic: Other
@@ -67,6 +68,10 @@ research_topic: Other
 ## Abstract
 
 First comprehensive Persian NLU benchmark with 6 tasks: reading comprehension, multiple-choice QA, textual entailment, sentiment analysis, query paraphrasing, and machine translation. Expert-annotated by native Persian speakers.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, T5. Verified dataset/resource link: https://github.com/MarioVilas/googlesearch.
 
 ## Notes
 

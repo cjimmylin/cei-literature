@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Analysis of counter-speech generation for homophobic and transphobic content in Malayalam, covering both Malayalam script and Latin-script transliteration. Chatbot system achieved 0.99 stance accuracy and 0.03 toxicity score. Malayalam-specific values-relevant research on LGBTQIA+ hate speech. Addresses cultural-linguistic challenges in counter-speech for underrepresented Malayalam community."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT-2, GPT-3, GPT-4, GPT-4o"
+DATA_URL: NA
 research_topic: Other
 ---
 # Counter-Speech Generation for Homophobic and Transphobic Social Media Content in Malayalam
@@ -61,6 +63,10 @@ research_topic: Other
 ## Abstract
 
 Analysis of counter-speech generation for homophobic and transphobic content in Malayalam, covering both Malayalam script and Latin-script transliteration. Chatbot system achieved 0.99 stance accuracy and 0.03 toxicity score. Malayalam-specific values-relevant research on LGBTQIA+ hate speech. Addresses cultural-linguistic challenges in counter-speech for underrepresented Malayalam community.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-2, GPT-3, GPT-4, GPT-4o. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

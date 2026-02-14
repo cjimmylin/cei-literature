@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Cultural Survival Quarterly Sujet : For 40 years Cultural Survival has partnered with Indigenous communities around the world to defend their lands, languages, and cultures. We publicize Indigenous Peoples' issues through our award-winning publications; we mount letter-writing campaigns and other advocacy efforts to stop environmental destruction and abuses of Native Peoples' rights; and we work on the ground in Indigenous communities, always at their invitation. Our work is predicated on..."
 research_topic: "Social & Cultural Analysis"
@@ -63,6 +64,10 @@ research_topic: "Social & Cultural Analysis"
 
 
 Cultural Survival Quarterly Sujet : For 40 years Cultural Survival has partnered with Indigenous communities around the world to defend their lands, languages, and cultures. We publicize Indigenous Peoples' issues through our award-winning publications; we mount letter-writing campaigns and other advocacy efforts to stop environmental destruction and abuses of Native Peoples' rights; and we work on the ground in Indigenous communities, always at their invitation. Our work is predicated on...
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

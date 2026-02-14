@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Evaluates generative AI and Afrocentric transformer models for sentiment analysis in five Southern African languages. Afro-XLMR achieves over 75% F1 score, significantly outperforming GPT-4's 52-55% zero-shot accuracy. Demonstrates that Afrocentric models trained on African data substantially outperform Western-centric LLMs for culturally relevant NLP tasks."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, XLNet"
+DATA_URL: "https://github.com/dteodore/EmotionArcs"
 research_topic: "NLP & Representation Learning"
 ---
 # Sentiment Analysis in African Languages: Evaluating Generative AI and Afrocentric Language Models
@@ -64,6 +66,11 @@ Evaluates generative AI and Afrocentric transformer models for sentiment analysi
 ## Dataset Information
 
 5 Southern African languages evaluated
+
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, XLNet. Verified dataset/resource link: https://github.com/dteodore/EmotionArcs.
 
 ## Notes
 

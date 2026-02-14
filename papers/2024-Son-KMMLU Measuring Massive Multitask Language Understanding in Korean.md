@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-3.5 TURBO, GPT-3.5-TURBO, GPT-4, GPT-4-TURBO, Llama-2, Llama, Qwen, QWEN-14B, QWEN-72B, QWEN-7B"
+DATA_URL: "https://github.com/EleutherAI/lm-evaluation-harness"
 tags: 
 abstract: "We propose KMMLU, a new Korean benchmark with 35,030 expert-level multiple-choice questions across 45 subjects ranging from humanities to STEM. While prior Korean benchmarks are translated from existing English benchmarks, KMMLU is collected from original Korean exams, capturing linguistic and cultural aspects of the Korean language. We test 27 public and proprietary LLMs and observe the best public model to score 50.5%, leaving significant room for improvement."
 research_topic: "Machine Learning"
@@ -69,6 +71,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 35,030 expert-level multiple-choice questions across 45 subjects. Collected from original Korean exams, not translations. 20.4% requires understanding Korean cultural practices, societal norms, and legal frameworks. Human performance 62.6% vs best LLM ~60%.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-3, GPT-3.5, GPT-3.5 TURBO, GPT-3.5-TURBO, GPT-4, GPT-4-TURBO, Llama-2, Llama, Qwen, QWEN-14B, QWEN-72B, QWEN-7B. Verified dataset/resource link: https://github.com/EleutherAI/lm-evaluation-harness.
 
 ## Notes
 

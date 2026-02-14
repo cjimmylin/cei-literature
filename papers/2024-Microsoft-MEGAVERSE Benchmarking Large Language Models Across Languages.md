@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "22 datasets; 83 languages"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, GPT-4-Vision, GPT4-Vision, Gemma, Gpt4, Llama, Llama 2, Llama-2, Llama2, Llama2 chat, Mistral, Mistral 7B, Mistral-7B, Mistral-v1, PaLM, PaLM 2, PaLM-2, PaLM2, gpt-35-turbo"
+DATA_URL: "https://github.com/AI4Bharat/IndicTrans2"
 tags: 
 abstract: "There has been a surge in LLM evaluation research to understand LLM capabilities and limitations. However, much of this research has been confined to English, leaving LLM building and evaluation for non-English languages relatively unexplored. Several new LLMs have been introduced recently, necessitating their evaluation on non-English languages. This study aims to perform a thorough evaluation of the non-English capabilities of SoTA LLMs (GPT-3."
 research_topic: "Machine Translation"
@@ -65,6 +67,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Evaluation of non-English capabilities of LLMs including GPT-4, PaLM2, Gemini-Pro across 22 datasets covering 83 languages. Telugu, Malay, and Malayalam show high tokenizer fertility. Also includes multimodal evaluation.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, GPT-4-Vision, GPT4-Vision, Gemma, Gpt4, Llama, Llama 2, Llama-2, Llama2, Llama2 chat, Mistral, Mistral 7B, Mistral-7B, Mistral-v1, PaLM, PaLM 2, PaLM-2, PaLM2, gpt-35-turbo. Verified dataset/resource link: https://github.com/AI4Bharat/IndicTrans2.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, BERT"
+DATA_URL: NA
 tags: 
 abstract: "In this multicultural age, language translation is one of the most performed tasks, and it is becoming increasingly AI-moderated and automated. As a novel AI system, ChatGPT claims to be proficient in such translation tasks and in this paper, we put that claim to the test. Specifically, we examine ChatGPT’s accuracy in translating between English and languages that exclusively use gender-neutral pronouns."
 ethics_perspective: "Bias & Fairness"
@@ -67,6 +68,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 ChatGPT perpetuates gender defaults/stereotypes in machine translation from Bengali and 5 other languages. Fails to translate gender-neutral pronouns. Confers higher respect to men than women in same occupation. Centered on Bengali as 7th most spoken language.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, BERT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

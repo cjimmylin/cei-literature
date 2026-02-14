@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark for ai safety annotated dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, DistilBERT"
+DATA_URL: NA
 tags: 
 abstract: "Toxic speech on online platforms is a growing concern, impacting user experience and online safety. While text-based toxicity detection is well-studied, audio-based approaches remain underexplored, especially for low-resource languages like Vietnamese. This paper introduces VITOSA (Vietnamese Toxic Spans Audio), the first dataset for toxic spans detection in Vietnamese speech, comprising 11,000 audio samples (25 hours) with accurate human-annotated transcripts."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -64,6 +65,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 First benchmark for toxic spans detection in Vietnamese speech. 11,000 audio samples (25 hours) with human-annotated transcripts. Addresses gap in audio-based toxicity detection for low-resource Vietnamese.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, DistilBERT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_dataset: Yes
 data_description: "Benchmark text corpus for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude Opus, Gemini Pro, Command R+, Llama3, Mistral, and other Danish LLMs"
-DATA_URL: NA
+DATA_URL: "https://github.com/chakki-works/seqeval"
 tags: 
 abstract: "The language technology moonshot moment of Generative Large Language Models (GLLMs) was not limited to English: These models brought a surge of technological applications, investments, and hype to low-resource languages as well. However, the capabilities of these models in languages such as Danish were, until recently, difficult to verify beyond qualitative demonstrations due to a lack of applicable evaluation corpora."
 research_topic: "Machine Learning"

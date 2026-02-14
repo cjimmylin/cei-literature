@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "World Values Survey, PEW Global Attitudes Survey"
 data_metrics: "Pearson correlation, regional alignment scores"
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, PaLM-2, Llama-3, Qwen, Mistral, DeepSeek, Phi, o1"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, PaLM-2, Llama-3, Qwen, Mistral, DeepSeek, Phi"
 DATA_URL: NA
 ---
 # EvalMORAAL: Interpretable Chain-of-Thought and LLM-as-Judge Evaluation for Moral Alignment in Large Language Models

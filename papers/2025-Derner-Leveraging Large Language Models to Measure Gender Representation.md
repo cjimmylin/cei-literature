@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4, Llama 3, Llama 3.1, Llama 3.2, Qwen 2.5, gpt-4-turbo, GPT-4o, llama-3.3, llama3.1, llama3.2, Qwen, qwen-2.5, qwen2.5"
+DATA_URL: "https://github.com/ellisalicante/grb-corpora"
 tags: 
 abstract: "Large language models (LLMs) often inherit and amplify social biases embedded in their training data. A prominent social bias is gender bias. In this regard, prior work has mainly focused on gender stereotyping bias – the association of specific roles or traits with a particular gender – in English and on evaluating gender bias in model embeddings or generated outputs. In contrast, gender representation bias – the unequal frequency of references to individuals of different genders – in the..."
 ethics_perspective: "Bias & Fairness"
@@ -63,6 +64,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Novel methodology using LLMs to analyze gender representation in Spanish and French corpora. Identifies and classifies gendered nouns/pronouns referencing human entities. Reveals significant gender imbalance in commonly used NLP benchmark datasets.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4, Llama 3, Llama 3.1, Llama 3.2, Qwen 2.5, gpt-4-turbo, GPT-4o, llama-3.3, llama3.1, llama3.2, Qwen, qwen-2.5, qwen2.5. Verified dataset/resource link: https://github.com/ellisalicante/grb-corpora.
 
 ## Notes
 

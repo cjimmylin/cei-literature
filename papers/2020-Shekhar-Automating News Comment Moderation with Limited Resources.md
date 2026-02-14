@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/facebookresearch/LASER"
 tags: 
 abstract: 
 research_topic: Other
@@ -62,6 +63,10 @@ research_topic: Other
 ## Abstract
 
 Benchmarks automatic classification of user comments for news moderation in Croatian and Estonian using real-world data. Tests multiple classifier architectures for offensive content detection.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/facebookresearch/LASER.
 
 ## Notes
 

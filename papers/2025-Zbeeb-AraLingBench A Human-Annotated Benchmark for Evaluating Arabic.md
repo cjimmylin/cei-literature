@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, Palm, Phi-4, Qwen2, Qwen2.5, Qwen3"
+DATA_URL: "https://huggingface.co/Navid-AI/Yehia-7B-preview"
 tags: 
 abstract: "We present AraLingBench, a fully human annotated benchmark for evaluating the Arabic linguistic competence of large language models (LLMs). The benchmark spans five core"
 research_topic: "Machine Learning"
@@ -66,6 +67,10 @@ research_topic: "Machine Learning"
 
 
 We present AraLingBench, a fully human annotated benchmark for evaluating the Arabic linguistic competence of large language models (LLMs). The benchmark spans five core
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, Palm, Phi-4, Qwen2, Qwen2.5, Qwen3. Verified dataset/resource link: https://huggingface.co/Navid-AI/Yehia-7B-preview.
 
 ## Notes
 

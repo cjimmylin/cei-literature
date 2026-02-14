@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, GPT-4, GPT-4o, LLaMA 4, Mistral-AI, PaLM, QWEN 3, QWEN3"
+DATA_URL: "https://github.com/EleutherAI/hae-rae"
 tags: 
 abstract: "We present Ko-MuSR, the first benchmark to comprehensively evaluate multistep soft reasoning in long Korean narratives while minimizing data contamination. Built following MuSR (Sprague et al., 2024), Ko-MuSR features fully Korean narratives, reasoning chains, and multiple-choice questions verified by human annotators for logical consistency and answerability. Evaluations of four large language models—two multilingual and two Koreanspecialized—show that multilingual models outperform..."
 research_topic: "Machine Translation"
@@ -64,6 +66,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 First benchmark for multistep soft reasoning in long Korean narratives. Fully Korean narratives and reasoning chains verified by human annotators. Multilingual models outperform Korean-specialized ones even on Korean reasoning.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-4, GPT-4o, LLaMA 4, Mistral-AI, PaLM, QWEN 3, QWEN3. Verified dataset/resource link: https://github.com/EleutherAI/hae-rae.
 
 ## Notes
 

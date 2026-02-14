@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach annotated dataset for toxicity detection"
 data_metrics: "28 languages"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT-4, GPT-4 Turbo, Gemma, Llama, Llama Guard, Llama 2, Llama 3, Llama-2, Llama-3, LlamaGuard, Mistral, Mistral-7B, Mistral-v2, Mistral-v3, MistralAI, gpt-4-turbo"
+DATA_URL: "https://github.com/microsoft/RTP-LX"
 tags: 
 abstract: "Warning: This paper contains and discusses content that may be offensive or upsetting. Large language models (LLMs) and small language models (SLMs) are being adopted at remarkable speed, although their safety still remains a serious concern. With the advent of multilingual S/LLMs, the question now becomes a matter of scale: can we expand multilingual safety evaluations of these models with the same velocity at which they are deployed?"
 ethics_perspective: "Toxicity & Hate Speech"
@@ -65,6 +67,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Multilingual toxicity evaluation corpus in 28 languages including Hebrew, with ~1,100 toxic prompts and outputs per language. Professionally translated by native speakers with culturally-specific toxic language detection. Evaluated 10 S/LLMs.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-4, GPT-4 Turbo, Gemma, Llama, Llama Guard, Llama 2, Llama 3, Llama-2, Llama-3, LlamaGuard, Mistral, Mistral-7B, Mistral-v2, Mistral-v3, MistralAI, gpt-4-turbo. Verified dataset/resource link: https://github.com/microsoft/RTP-LX.
 
 ## Notes
 

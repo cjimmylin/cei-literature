@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Large Language Models (LLMs) are becoming increasingly capable across global languages. However, the ability to communicate across languages does not necessarily translate to appropriate cultural representations. A key concern is US-centric bias, where LLMs reflect US rather than local cultural values. We propose a novel methodology that compares LLM-generated response distributions against population-level opinion data from the World Value Survey across four languages (Danish, Dutch, English,..."
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "GPT-3, GPT-4, Gemma, Llama, gpt-3.5-turbo"
+DATA_URL: NA
 ethics_perspective: "Social & Cultural Values"
 ---
 # Multilingual != Multicultural: Evaluating Gaps Between Multilingual Capabilities and Cultural Alignment in LLMs
@@ -60,6 +62,10 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Proposes methodology comparing LLM response distributions against World Value Survey population-level data. Finds no consistent relationship between language capabilities and cultural alignment. Demonstrates that multilingual capability does not imply cultural alignment; methodology applicable to South Asian languages.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-3, GPT-4, Gemma, Llama, gpt-3.5-turbo. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

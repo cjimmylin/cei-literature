@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +37,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "GPT-4, Llama, Llama Guard"
 DATA_URL: NA
 ---
 # Legal Alignment for Safe and Ethical AI

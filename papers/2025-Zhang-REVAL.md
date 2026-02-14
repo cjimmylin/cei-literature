@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
 data_metrics: "144k samples"
 LLM_assessed: "GPT-4, Gemini, OPT, Vicuna, Llama-2, Flan-T5, Qwen, Phi"
-DATA_URL: NA
+DATA_URL: "https://github.com/InternLM/InternLM-techreport"
 ---
 # REVAL: A Comprehension Evaluation on Reliability and Values of Large Vision-Language Models
 

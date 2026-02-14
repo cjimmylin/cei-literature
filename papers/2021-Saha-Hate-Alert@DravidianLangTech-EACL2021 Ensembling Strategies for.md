@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, DistilBERT, RoBERTa"
+DATA_URL: "https://github.com/Debjoy10/Hate-Alert-"
 tags: 
 abstract: "Winning submission to the DravidianLangTech EACL 2021 shared task on offensive language identification in code-mixed Tamil-English, Malayalam-English, and Kannada-English datasets from social media. Foundation shared task for offensive language detection in three Dravidian languages. Establishes baselines and evaluation protocol for the community."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -66,6 +67,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Winning submission to the DravidianLangTech EACL 2021 shared task on offensive language identification in code-mixed Tamil-English, Malayalam-English, and Kannada-English datasets from social media.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, DistilBERT, RoBERTa. Verified dataset/resource link: https://github.com/Debjoy10/Hate-Alert-.
 
 ## Notes
 

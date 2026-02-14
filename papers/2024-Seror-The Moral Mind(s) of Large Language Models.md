@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Revealed preference consistency, utility function clustering"
-LLM_assessed: "GPT-4, Claude, Llama-3, Gemini, Qwen, Mixtral, Mistral"
+LLM_assessed: "GPT-4, Claude, Llama-3, Qwen, Mixtral, Mistral"
 DATA_URL: NA
 ---
  The Moral Mind(s) of Large Language Models

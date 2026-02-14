@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "With the recent surge in the development of large language models, the need for comprehensive and language-specific evaluation benchmarks has become critical. While significant progress has been made in evaluating Englishlanguage models, benchmarks for other languages, particularly those with unique linguistic characteristics such as Turkish, remain less developed. Our study introduces TurkBench, a comprehensive benchmark designed to assess the capabilities of generative large language models..."
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "DeepSeek-R1, DeepSeek-V3, GPT-4o, Gemma, Gemma-2, Gemma-3, Qwen, Qwen-3, Qwen-32B, Qwen3, deepseek-ai"
+DATA_URL: "https://github.com/argilla-io/argilla"
 research_topic: "Machine Learning"
 ---
 # TurkBench: A Benchmark for Evaluating Turkish Large Language Models
@@ -64,6 +66,10 @@ Comprehensive benchmark for evaluating Turkish LLMs with 8,151 data samples acro
 ## Benchmark
 
 **Name:** TurkBench
+
+## Data Description
+
+Backfill summary: Models assessed include DeepSeek-R1, DeepSeek-V3, GPT-4o, Gemma, Gemma-2, Gemma-3, Qwen, Qwen-3, Qwen-32B, Qwen3, deepseek-ai. Verified dataset/resource link: https://github.com/argilla-io/argilla.
 
 ## Notes
 

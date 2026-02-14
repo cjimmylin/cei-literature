@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Multilingual large language models (LLMs) are advancing rapidly, with new models frequently claiming support for an increasing number of languages. However, existing evaluation datasets are limited and lack cross-lingual alignment, leaving assessments of multilingual capabilities fragmented in both language and skill coverage. To address this, we introduce MUBENCH, a benchmark covering 61 languages and evaluating a broad range of capabilities."
 data_description: "Multilingual benchmark dataset"
 data_metrics: "61 languages"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "GPT-4o, Gemma, Gemma 2, Gemma 3, Gemma-3, Gemma2, Gemma3, Llama-2, Qwen, Qwen2.5, Qwen3, gemma-2"
+DATA_URL: "https://github.com/vllm-project/vllm"
 ethics_perspective: "AI Safety & Alignment"
 ---
 # MuBench: Assessment of Multilingual Capabilities of Large Language Models Across 61 Languages
@@ -64,6 +66,10 @@ Multilingual benchmark covering 61 languages with NLU, commonsense reasoning, fa
 ## Benchmark
 
 **Name:** MuBench
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4o, Gemma, Gemma 2, Gemma 3, Gemma-3, Gemma2, Gemma3, Llama-2, Qwen, Qwen2.5, Qwen3, gemma-2. Verified dataset/resource link: https://github.com/vllm-project/vllm.
 
 ## Notes
 

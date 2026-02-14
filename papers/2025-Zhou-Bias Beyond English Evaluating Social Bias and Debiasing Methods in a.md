@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, Gemma, Gemma 3, Llama, LLaMA 3, LLaMA 3., Qwen, Qwen 2.5, Qwen2.5, RoBERTa, T5, gemma-3"
+DATA_URL: NA
 tags: 
 abstract: "This paper addresses the identification of social harms—including stereotypes and bias—which may be upsetting to some readers. Social bias in language models can potentially exacerbate social inequalities. Despite it having garnered wide attention, most research focuses on English data. In a low-resource scenario, the models often perform worse due to insufficient training data. This study aims to leverage high-resource language corpora to evaluate bias and experiment with debiasing methods in..."
 ethics_perspective: "Bias & Fairness"
@@ -63,6 +65,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Multilingual bias evaluation dataset with Indonesian as a low-resource language. Four bias types: gender, race-color, nationality, religion. Demonstrates cross-lingual debiasing transfer from high-resource languages.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Gemma, Gemma 3, Llama, LLaMA 3, LLaMA 3., Qwen, Qwen 2.5, Qwen2.5, RoBERTa, T5, gemma-3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

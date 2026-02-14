@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "11k comments"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://github.com/phusroyal/ViHOS"
 tags: 
 abstract: "The rise in hateful and offensive language directed at other users is one of the adverse side effects of the increased use of social networking platforms. This could make it difficult for human moderators to review tagged comments filtered by classification systems. To help address this issue, we present the ViHOS (Vietnamese Hate and Offensive Spans) dataset, the first human-annotated corpus containing 26k spans on 11k comments."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -70,6 +71,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 First human-annotated Vietnamese corpus of 26k hate/offensive spans on 11k online comments. Provides annotation guidelines for nine Vietnamese foul linguistic phenomena (teencodes, metaphors, metonymies, hyponyms, puns). XLM-R_Large and PhoBERT_Large achieve best F1 scores.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa. Verified dataset/resource link: https://github.com/phusroyal/ViHOS.
 
 ## Notes
 

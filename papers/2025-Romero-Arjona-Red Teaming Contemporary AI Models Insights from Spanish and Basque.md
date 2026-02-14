@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, DeepSeek, DeepSeek R1, GPT-4, GPT-4o, Llama 3"
+DATA_URL: "https://github.com/ollama/ollama"
 tags: 
 abstract: "The battle for AI leadership is on, with OpenAI in the United States and DeepSeek in China as key contenders. In response to these global trends, the Spanish government has proposed ALIA, a public and transparent AI infrastructure incorporating small language models designed to support Spanish and co-official languages such as Basque. This paper presents the results of Red Teaming sessions, where ten participants applied their expertise and creativity to manually test three of the latest models..."
 ethics_perspective: "AI Safety & Alignment"
@@ -63,6 +65,10 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Red teaming of OpenAI o3-mini, DeepSeek R1, and Salamandra. 670 conversations (590 Spanish, 80 Basque), 254 showing inappropriate behaviors (37.9%). Salamandra worst at 50.6% harmful responses. Safety failure rate 83.3% for Salamandra in Basque.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, DeepSeek, DeepSeek R1, GPT-4, GPT-4o, Llama 3. Verified dataset/resource link: https://github.com/ollama/ollama.
 
 ## Notes
 

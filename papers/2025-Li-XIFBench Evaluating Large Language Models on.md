@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude-3.5-Sonnet, DeepSeek-R1, GPT-4, GPT-4o, Gemma-3, InstructGPT, Llama, Llama-3.1, Qwen, Qwen-2.5, WizardLM, WizardLM 0, bloomz, claude-3"
+DATA_URL: "https://github.com/tatsu-lab/alpaca_eval"
 tags: 
 abstract: "Large Language Models (LLMs) have demonstrated remarkable instructionfollowing capabilities across various applications. However, their performance in multilingual settings lacks systematic investigation, with existing evaluations lacking fine-grained constraint analysis across diverse linguistic contexts. We introduce XIFBench, a comprehensive constraint-based benchmark for evaluating multilingual instruction-following abilities of LLMs, comprising 558 instructions with 0-5 additional constraints across five categories (Content, Style, Situation, Format, and Numerical) in six languages spanning different resource levels. To support reliable and consistent cross-lingual evaluation, we implement three methodological innovations: cultural accessibility annotation, constraint-level translation validation, and requirement-based evaluation using English requirements as semantic anchors across languages. Extensive experiments with various LLMs not only quantify performance disparities across resource levels but also provide detailed insights into how language resources, constraint categories, instruction complexity, and cultural specificity influence multilingual instruction-following. Our code and data are available at https://github.com/zhenyuli801/XIFBench."
 research_topic: Other
@@ -66,6 +68,10 @@ research_topic: Other
 
 
 Large Language Models (LLMs) have demonstrated remarkable instructionfollowing capabilities across various applications. However, their performance in multilingual settings lacks systematic investigation, with existing evaluations lacking fine-grained constraint analysis across diverse linguistic contexts. We introduce XIFBench, a comprehensive constraint-based benchmark for evaluating multilingual instruction-following abilities of LLMs, comprising 558 instructions with 0-5 additional constraints across five categories (Content, Style, Situation, Format, and Numerical) in six languages spanning different resource levels. To support reliable and consistent cross-lingual evaluation, we implement three methodological innovations: cultural accessibility annotation, constraint-level translation validation, and requirement-based evaluation using English requirements as semantic anchors across languages. Extensive experiments with various LLMs not only quantify performance disparities across resource levels but also provide detailed insights into how language resources, constraint categories, instruction complexity, and cultural specificity influence multilingual instruction-following. Our code and data are available at https://github.com/zhenyuli801/XIFBench.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude-3.5-Sonnet, DeepSeek-R1, GPT-4, GPT-4o, Gemma-3, InstructGPT, Llama, Llama-3.1, Qwen, Qwen-2.5, WizardLM, WizardLM 0, bloomz, claude-3. Verified dataset/resource link: https://github.com/tatsu-lab/alpaca_eval.
 
 ## Notes
 

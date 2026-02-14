@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/ChineseGLUE/ChineseGLUE"
 tags: 
 abstract: "Although the Indonesian language is spoken by almost 200 million people and the 10th mostspoken language in the world,1 it is under-represented in NLP research. Previous work on Indonesian has been hampered by a lack of annotated datasets, a sparsity of language resources, and a lack of resource standardization. In this work, we release the INDOLEM dataset comprising seven tasks for the Indonesian language, spanning morpho-syntax, semantics, and discourse."
 research_topic: "NLP & Representation Learning"
@@ -66,6 +67,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Comprehensive Indonesian NLP dataset with seven tasks spanning morpho-syntax, semantics, and discourse. Includes IndoBERT pre-trained language model achieving state-of-the-art performance.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/ChineseGLUE/ChineseGLUE.
 
 ## Notes
 

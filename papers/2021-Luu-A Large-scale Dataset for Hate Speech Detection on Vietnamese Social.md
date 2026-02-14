@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, DistilBERT, RoBERTa"
+DATA_URL: "https://github.com/google-research/bert"
 tags: 
 abstract: "In recent years, Vietnam witnesses the mass development of social network users on different social platforms such as Facebook, Youtube, Instagram, and Tiktok. On social media, hate speech has become a critical problem for social network users. To solve this problem, we introduce the ViHSD - a human-annotated dataset for automatically detecting hate speech on the social network. This dataset contains over 30,000 comments, each comment in the dataset has one of three labels: CLEAN, OFFENSIVE, or..."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -69,6 +70,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Large-scale human-annotated dataset of 33K+ comments from Facebook and YouTube for Vietnamese hate speech detection. Three labels: CLEAN, OFFENSIVE, HATE. Widely used benchmark for Vietnamese HSD research.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, DistilBERT, RoBERTa. Verified dataset/resource link: https://github.com/google-research/bert.
 
 ## Notes
 

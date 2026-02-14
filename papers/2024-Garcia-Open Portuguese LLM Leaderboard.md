@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: "https://huggingface.co/spaces/eduagarcia/open_pt_llm_leaderboard"
 tags: 
 abstract: "Community benchmark for evaluation of LLMs in Portuguese across a variety of tasks and datasets. Public leaderboard tracking model performance."
 research_topic: Other
@@ -65,6 +66,10 @@ research_topic: Other
 ## Abstract
 
 Community benchmark for evaluation of LLMs in Portuguese across a variety of tasks and datasets. Public leaderboard tracking model performance.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/spaces/eduagarcia/open_pt_llm_leaderboard.
 
 ## Notes
 

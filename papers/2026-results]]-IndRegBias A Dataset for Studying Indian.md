@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Warning: This paper consists of examples representing regional biases in Indian regions that might be offensive towards a particular region. While social biases corresponding to gender, race, socio-economic conditions, etc., have been extensively studied in the major applications of Natural Language Processing (NLP), biases corresponding to regions have garnered less attention. This is mainly because of (i) difficulty in the extraction of regional bias datasets, (ii) disagreements in annotation..."
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, DeepSeek, DeepSeek-R1, GPT-4o, Gemma, Gemma-1.1, GPT-4, Llama, LLama 4, Llama-2, Llama-3.2, Llama-4, Mistral-7B, Mistral-NeMo, Mistral-Small, Phi-4-Mini, Qwen, Qwen3"
+DATA_URL: NA
 ethics_perspective: "Bias & Fairness"
 ---
 # IndRegBias: A Dataset for Studying Indian Regional Biases in English and Code-Mixed Social Media Comments
@@ -64,6 +66,10 @@ Novel dataset of 25,000 user comments from Reddit and YouTube on Indian regional
 ## Benchmark
 
 **Name:** IndRegBias
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, DeepSeek, DeepSeek-R1, GPT-4o, Gemma, Gemma-1.1, GPT-4, Llama, LLama 4, Llama-2, Llama-3.2, Llama-4, Mistral-7B, Mistral-NeMo, Mistral-Small, Phi-4-Mini, Qwen, Qwen3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

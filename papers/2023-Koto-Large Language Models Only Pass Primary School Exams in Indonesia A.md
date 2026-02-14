@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama"
+DATA_URL: NA
 tags: 
 abstract: "First multi-task language understanding benchmark for Indonesian culture and languages. 14,981 questions across 64 tasks from primary school to university entrance exams, including nine regional languages and cultures."
 research_topic: Other
@@ -66,6 +68,10 @@ research_topic: Other
 ## Abstract
 
 First multi-task language understanding benchmark for Indonesian culture and languages. 14,981 questions across 64 tasks from primary school to university entrance exams, including nine regional languages and cultures.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

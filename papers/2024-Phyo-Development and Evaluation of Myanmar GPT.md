@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -71,6 +72,10 @@ Transformer-based language model specifically designed for Myanmar NLP. Trained 
 ## Benchmark
 
 **Name:** MyanmarGPT
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/jojo-ai-mst/MyanmarGPT.
 
 ## Notes
 

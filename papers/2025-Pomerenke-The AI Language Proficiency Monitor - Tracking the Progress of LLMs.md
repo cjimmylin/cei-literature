@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "200 languages"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "BERT, Barth, Gemma, Gemma 3, LLama 3"
+DATA_URL: "https://huggingface.co/spaces/Eurolingua"
 tags: 
 abstract: "To ensure equitable access to the benefits of large language models (LLMs), it is essential to evaluate their capabilities across the world’s languages. We introduce the AI Language Proficiency Monitor, a comprehensive multilingual benchmark that systematically assesses LLM performance across up to 200 languages, with a particular focus on low-resource languages. Our benchmark aggregates diverse tasks including translation, question answering, math, and reasoning, using datasets such as..."
 research_topic: "Machine Translation"

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4, GPT-4o, Gemma, Phi-3, Qwen2, claude-3"
+DATA_URL: "https://github.com/naver-ai/KoNET"
 tags: 
 abstract: "This paper presents the Korean National Educational Test Benchmark (KoNET), a new benchmark designed to evaluate Multimodal Generative AI Systems using Korean national educational tests. KoNET comprises four exams: the Korean Elementary General Educational Development Test (KoEGED), Middle (KoMGED), High (KoHGED), and College Scholastic Ability Test (KoCSAT). These exams are renowned for their rigorous standards and diverse questions, facilitating a comprehensive analysis of AI performance..."
 research_topic: "Machine Learning"
@@ -69,6 +71,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Evaluates multimodal AI using Korean national education tests: KoEGED, KoMGED, KoHGED, KoCSAT. KoCSAT has 897 items across 41 subjects. Tests cultural knowledge embedded in Korean educational standards.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4, GPT-4o, Gemma, Phi-3, Qwen2, claude-3. Verified dataset/resource link: https://github.com/naver-ai/KoNET.
 
 ## Notes
 

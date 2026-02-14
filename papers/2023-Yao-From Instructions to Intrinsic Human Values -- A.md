@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Alpaca, Claude, GPT-3, GPT-4, InstructGPT, Llama, Llama2, Vicuna"
 DATA_URL: "https://github.com/ValueCompass/Alignment-Goal-Survey"
 ---
 # From Instructions to Intrinsic Human Values -- A Survey of Alignment Goals for Big Models

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Gemma, Gemma2, Llama 3.2, Llama-3, Llama-3., Llama-3.2, Qwen, Qwen2, Qwen2.5, Qwen3, GPT-4o, Llama"
+DATA_URL: "https://huggingface.co/meta-llama/Llama-3"
 tags: 
 abstract: "Recent advancements in Korean large language models (LLMs) have driven numerous benchmarks and evaluation methods, yet inconsistent protocols cause up to 10 pp performance gaps across institutions. Overcoming these reproducibility gaps does not mean enforcing a one-size-fits-all evaluation. Rather, effective benchmarking requires diverse experimental approaches and a framework robust enough to support them."
 research_topic: Other
@@ -65,6 +67,10 @@ research_topic: Other
 ## Abstract
 
 Open-source evaluation framework unifying Korean LLM assessment. Integrates HAE-RAE Bench, KMMLU, KUDGE, HRM8K. Language-penalty mechanism discourages non-Korean outputs. Korean-specific diagnostics including morphology-aware TTR.
+
+## Data Description
+
+Backfill summary: Models assessed include Gemma, Gemma2, Llama 3.2, Llama-3, Llama-3., Llama-3.2, Qwen, Qwen2, Qwen2.5, Qwen3, GPT-4o, Llama. Verified dataset/resource link: https://huggingface.co/meta-llama/Llama-3.
 
 ## Notes
 

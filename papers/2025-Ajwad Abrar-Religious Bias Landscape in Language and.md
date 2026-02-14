@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Note: This paper includes examples of potentially offensive content related to religious bias, presented solely for academic purposes. The widespread adoption of language models highlights the need for critical examinations of their inherent biases, particularly concerning religion. This study systematically investigates religious bias in both language models and text-to-image generation models, analyzing both opensource and closed-source systems."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "ALBERT, BERT, Claude-2.1, DistilBERT, GPT-2, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, Llama, Llama 3, Llama 2, Llama-3, Mixtral, Mixtral 7B, Mixtral 8x7B, Mixtral-8x7B, RoBERTa, T5, Vicuna"
 DATA_URL: "https://github.com/ajwad-abrar/Religious-Bias (prompts and images publicly available)"
 ethics_perspective: "Bias & Fairness"
 ---
@@ -66,6 +68,11 @@ Systematically investigates religious bias in both language models and text-to-i
 ## Dataset Information
 
 ~400 unique prompts; 5,000 generated images
+
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, Claude-2.1, DistilBERT, GPT-2, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, Llama, Llama 3, Llama 2, Llama-3, Mixtral, Mixtral 7B, Mixtral 8x7B, Mixtral-8x7B, RoBERTa, T5, Vicuna. Verified dataset/resource link: https://github.com/ajwad-abrar/Religious-Bias (prompts and images publicly available).
 
 ## Notes
 

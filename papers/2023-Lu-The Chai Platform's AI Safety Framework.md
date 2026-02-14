@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/hakurei/lit-6B"
 ---
 # The Chai Platform's AI Safety Framework
 

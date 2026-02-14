@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: "https://github.com/strohne/Facepager"
 tags: 
 abstract: "Social media platforms and online streaming services have spawned a new breed of Hate Speech (HS). Due to the massive amount of user-generated content on these sites, modern machine learning techniques are found to be feasible and cost-effective to tackle this problem. However, linguistically diverse datasets covering different social contexts in which offensive language is typically used are required to train generalizable models."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -67,6 +68,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 50,200+ offensive comments with hierarchical annotation for Bangla hate speech across different social contexts. At least 60% larger than prior Bangla HS datasets. Best model F1-score of 91.0%. Includes 1.47M comment word embedding.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/strohne/Facepager.
 
 ## Notes
 

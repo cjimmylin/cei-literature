@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Llama, Claude, Gemini, Mistral"
+LLM_assessed: "GPT-4, Llama, Claude, Mistral"
 DATA_URL: NA
 normative_ethics_benchmark: Yes
 publication: "arXiv preprint"

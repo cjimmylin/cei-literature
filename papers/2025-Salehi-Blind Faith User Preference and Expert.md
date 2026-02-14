@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +41,7 @@ abstract: "Mixed-methods study finding Muslim users overwhelmingly preferred AI-
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: Other
 ---
 # Blind Faith? User Preference and Expert Assessment of AI-Generated Religious Content
@@ -69,6 +71,11 @@ Mixed-methods study finding Muslim users overwhelmingly preferred AI-generated r
 ## Dataset Information
 
 16 semi-structured interviews + 60 survey participants + expert evaluation
+
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

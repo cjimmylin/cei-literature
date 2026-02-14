@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-4"
+DATA_URL: NA
 tags: 
 abstract: 
 research_topic: Other
@@ -62,6 +63,10 @@ research_topic: Other
 ## Abstract
 
 Based on the search results, I found information about a comprehensive evaluation benchmark for Uyghur literary translation involving ChatGPT and other translation tools. Uyghur Literary Translation Evaluation Study A comparative study employed two neural machine translation (NMT) systems—Google Translate and Bing Translator—and one generative AI large language model (LLM), ChatGPT to evaluate Uyghur to English literary translation.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-3, GPT-3.5, GPT-4. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

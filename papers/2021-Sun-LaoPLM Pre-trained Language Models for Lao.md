@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "Trained on the large corpus, pre-trained language models (PLMs) can capture different levels of concepts in context and hence generate universal language representations. They can benefit multiple downstream natural language processing (NLP) tasks. Although PTMs have been widely used in most NLP applications, especially for high-resource languages such as English, it is under-represented in Lao NLP research."
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, ELECTRA, RoBERTa"
+DATA_URL: "https://github.com/GKLMIP/Yunshan-Cup-2020"
 research_topic: "NLP & Representation Learning"
 ---
 # LaoPLM: Pre-trained Language Models for Lao
@@ -64,6 +65,10 @@ First transformer-based pre-trained language models for Lao (BERT-Small, BERT-Ba
 ## Benchmark
 
 **Name:** LaoPLM
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ELECTRA, RoBERTa. Verified dataset/resource link: https://github.com/GKLMIP/Yunshan-Cup-2020.
 
 ## Notes
 

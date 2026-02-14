@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Large Language Models (LLMs) have demonstrated remarkable performance across numerous natural language understanding use cases. However, this impressive performance comes with inherent limitations, such as the tendency to perpetuate stereotypical biases or fabricate non-existent facts. In the context of Islam and its representation, accurate and factual representation of its beliefs and teachings rooted in the Quran and Sunnah is key."
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-3.5 turbo, GPT-4, Llama"
 DATA_URL: "https://github.com/shabazpatel/domain-specific-llm"
 research_topic: "Machine Learning"
 ---
@@ -65,6 +67,11 @@ Proposes a comprehensive framework for developing domain-specific LLMs aligned w
 ## Dataset Information
 
 N/A (framework paper)
+
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-3, GPT-3.5, GPT-3.5 turbo, GPT-4, Llama. Verified dataset/resource link: https://github.com/shabazpatel/domain-specific-llm.
 
 ## Notes
 

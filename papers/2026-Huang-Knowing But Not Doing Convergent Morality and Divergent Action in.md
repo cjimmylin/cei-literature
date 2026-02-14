@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "Value alignment is central to the development of safe and socially co
 ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Gemini, Claude, Grok, Llama, Qwen, DeepSeek"
+LLM_assessed: "GPT-4, Claude, Grok, Llama, Qwen, DeepSeek"
 DATA_URL: NA
 ---
 # Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs (ValAct-15k)

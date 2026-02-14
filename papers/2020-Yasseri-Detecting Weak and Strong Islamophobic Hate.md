@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -66,6 +68,11 @@ Builds a multi-class classifier distinguishing non-Islamophobic, weak Islamophob
 ## Dataset Information
 
 1,341 manually annotated tweets (training); applied to 109,488 tweets
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/bvidgen/Weak_strong_Islamophobia.
 
 ## Notes
 

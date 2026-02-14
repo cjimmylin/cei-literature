@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: NA
 tags: 
 abstract: "Te reo M¯aori, New Zealand’s only indigenous language, is code-switched with English. M¯aori speakers are atleast bilingual, and the use of M¯aori is increasing in New Zealand English. Unfortunately, due to the minimal availability of resources, including digital data, M¯aori is under-represented in technological advances. Cloud-based multilingual systems such as Google and Microsoft Azure support M¯aori language detection. However, we provide experimental evidence to show that the accuracy of such systems is low when detecting M¯aori. Hence, with the support of M¯aori community, we collect M¯aori and bilingual data to use natural language processing (NLP) to improve M¯aori language detection. We train bilingual sub-word embeddings and provide evidence to show that our bilingual embeddings improve overall accuracy compared to the publiclyavailable monolingual embeddings. This improvement has been verified for various NLP tasks using three bilingual databases containing formal transcripts and informal social media data. We also show that BiLSTM with pretrained M¯aori-English sub-word embeddings outperforms large-scale contextual language models such as BERT on down streaming tasks of detecting M¯aori language. However, this research uses large models ‘as is’ for transfer learning, where no further training was done on M¯aori-English data. The best accuracy of 87% was obtained using BiLSTM with bilingual embeddings to detect M¯aori-English codeswitching points."
 research_topic: Other
@@ -63,6 +64,10 @@ research_topic: Other
 
 
 Te reo M¯aori, New Zealand’s only indigenous language, is code-switched with English. M¯aori speakers are atleast bilingual, and the use of M¯aori is increasing in New Zealand English. Unfortunately, due to the minimal availability of resources, including digital data, M¯aori is under-represented in technological advances. Cloud-based multilingual systems such as Google and Microsoft Azure support M¯aori language detection. However, we provide experimental evidence to show that the accuracy of such systems is low when detecting M¯aori. Hence, with the support of M¯aori community, we collect M¯aori and bilingual data to use natural language processing (NLP) to improve M¯aori language detection. We train bilingual sub-word embeddings and provide evidence to show that our bilingual embeddings improve overall accuracy compared to the publiclyavailable monolingual embeddings. This improvement has been verified for various NLP tasks using three bilingual databases containing formal transcripts and informal social media data. We also show that BiLSTM with pretrained M¯aori-English sub-word embeddings outperforms large-scale contextual language models such as BERT on down streaming tasks of detecting M¯aori language. However, this research uses large models ‘as is’ for transfer learning, where no further training was done on M¯aori-English data. The best accuracy of 87% was obtained using BiLSTM with bilingual embeddings to detect M¯aori-English codeswitching points.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

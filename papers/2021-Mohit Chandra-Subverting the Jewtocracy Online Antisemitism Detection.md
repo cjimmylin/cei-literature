@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "The exponential rise of online social media has enabled the creation, distribution, and consumption of information at an unprecedented rate. However, it has also led to the burgeoning of various forms of online abuse. Increasing cases of online antisemitism have become one of the major concerns because of its socio-political consequences. Unlike other major forms of online abuse like racism, sexism, etc., online antisemitism has not been studied much from a machine learning perspective."
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, GloVe, RoBERTa"
 DATA_URL: "https://github.com/mohit3011/Online-Antisemitism-Detection-Using-MultimodalDeep-Learning"
 research_topic: "Machine Learning"
 ---
@@ -66,6 +68,11 @@ First work on automated multimodal detection of online antisemitism. Collects an
 ## Dataset Information
 
 3,102 Twitter posts + 3,509 Gab posts (multimodal: text + images)
+
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GloVe, RoBERTa. Verified dataset/resource link: https://github.com/mohit3011/Online-Antisemitism-Detection-Using-MultimodalDeep-Learning.
 
 ## Notes
 

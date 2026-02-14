@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract: "> Introduces PouranicTopic dataset of 200K+ annotated verses from 7 m
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: "NLP & Representation Learning"
 ---
 # Transformer-based Pouranic Topic Classification in Indian Mythology (PouranicTopic Dataset)
@@ -64,6 +66,11 @@ research_topic: "NLP & Representation Learning"
 ## Dataset Information
 
 200,000+ verses from 7 major Hindu Puranic texts with canto, topic, and sentence labels
+
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

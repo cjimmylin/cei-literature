@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://huggingface.co/datasets/hungnm"
 tags: 
 abstract: "People communicate in more than 7,000 languages around the world, with around 780 languages spoken in India alone. Despite this linguistic diversity, research on Sentiment Analysis has predominantly focused on English text data, resulting in a disproportionate availability of sentiment resources for English. This paper examines the performance of transformer models in Sentiment Analysis tasks across multilingual datasets and text that has undergone machine translation. By comparing the effectiveness of these models in different linguistic contexts, we gain insights into their performance variations and potential implications for sentiment analysis across diverse languages. We also discuss the shortcomings and potential for future work towards the end."
 research_topic: "Machine Translation"
@@ -64,6 +65,10 @@ research_topic: "Machine Translation"
 
 
 People communicate in more than 7,000 languages around the world, with around 780 languages spoken in India alone. Despite this linguistic diversity, research on Sentiment Analysis has predominantly focused on English text data, resulting in a disproportionate availability of sentiment resources for English. This paper examines the performance of transformer models in Sentiment Analysis tasks across multilingual datasets and text that has undergone machine translation. By comparing the effectiveness of these models in different linguistic contexts, we gain insights into their performance variations and potential implications for sentiment analysis across diverse languages. We also discuss the shortcomings and potential for future work towards the end.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa. Verified dataset/resource link: https://huggingface.co/datasets/hungnm.
 
 ## Notes
 

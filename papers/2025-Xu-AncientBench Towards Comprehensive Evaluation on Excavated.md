@@ -1,4 +1,7 @@
 ---
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +36,8 @@ tags:
 abstract: "Comprehension of ancient texts plays an important role in archaeology and understanding of Chinese history and civilization. The rapid development of large language models needs benchmarks that can evaluate their comprehension of ancient characters. Existing Chinese benchmarks are mostly targeted at modern Chinese and transmitted documents in ancient Chinese, but the part of excavated documents in ancient Chinese is not covered."
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "Baichuan2, Llama-3, Llama3, Qwen, Qwen-14B, Qwen-7B, Qwen-Chat"
+DATA_URL: NA
 research_topic: "Machine Translation"
 ---
 # AncientBench: Towards Comprehensive Evaluation on Excavated and Transmitted Chinese Corpora
@@ -64,6 +67,11 @@ AncientBench is novel in introducing excavated documents (e.g., oracle bone insc
 ## Dataset Information
 
 10 tasks across 4 dimensions (glyph, pronunciation, meaning, contextual comprehension)
+
+
+## Data Description
+
+Backfill summary: Models assessed include Baichuan2, Llama-3, Llama3, Qwen, Qwen-14B, Qwen-7B, Qwen-Chat. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

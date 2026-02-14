@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework annotated dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, Word2Vec"
+DATA_URL: NA
 tags: 
 abstract: "The rise of social media has led to the increasing of comments on online forums. However, there still exists invalid comments which are not informative for users. Moreover, those comments are also quite toxic and harmful to people. In this paper, we create a dataset for constructive and toxic speech detection, named UIT-ViCTSD (Vietnamese Constructive and Toxic Speech Detection dataset) with 10,000 humanannotated comments."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -69,6 +70,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 10,000 human-annotated Vietnamese social media comments for constructive and toxic speech detection across 10 domains. PhoBERT achieves 78.59% F1 for constructive and 59.40% for toxic classification.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Word2Vec. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

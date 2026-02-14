@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: "Survey paper"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "BERT, Barto, ChatGPT, Claude, DeepSeek, DeepSeek-AI, DeepSeek-R1, DeepSeekMath, GPT-4, GPT-4o, Gemini, Gemini 2.0 flash, Grok, InstructGPT, Llama, LlaMA 2, Llama 2-Chat, Qwen, Qwen et, Qwen2.5, qwenlm"
+DATA_URL: "https://github.com/ethz-spylab/rlhf_trojan_competition"
 ---
 # Alignment and Safety in Large Language Models: Safety Mechanisms, Training Paradigms, and Emerging Challenges
 

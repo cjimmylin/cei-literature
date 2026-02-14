@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +42,7 @@ abstract: "Examines whether LLMs hold implicit assumptions about religious ident
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 ethics_perspective: "Bias & Fairness"
 ---
 # Religion and Racial Bias in Artificial Intelligence Large Language Models
@@ -70,6 +72,11 @@ Examines whether LLMs hold implicit assumptions about religious identities by ge
 ## Dataset Information
 
 175 AI-generated sermons
+
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multi-task benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude 4., GPT-4, Gemma, Gemma-3, Llama-4, Mistral Small, Mistral-Medium, Mistral-Small, MistralAI, Qwen, Qwen-2.5, claude-4."
+DATA_URL: NA
 tags: 
 abstract: "We introduce VMMU, a Vietnamese Multitask Multimodal Understanding and Reasoning Benchmark designed to evaluate how vision language models (VLMs) interpret and reason over visual and textual information beyond English. VMMU consists of 2.5k multimodal questions across 7 tasks, covering a diverse range of problem contexts, including STEM problem solving, data interpretation, rule-governed visual reasoning, and abstract visual reasoning."
 research_topic: "Computer Vision & Multimodal"
@@ -65,6 +67,10 @@ research_topic: "Computer Vision & Multimodal"
 ## Abstract
 
 Vietnamese multimodal benchmark with 2,548 questions across 7 tasks. Tests visual understanding and reasoning in Vietnamese contexts including driving test scenarios (traffic safety) and cultural knowledge. Proprietary models achieve only 66% accuracy.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude 4., GPT-4, Gemma, Gemma-3, Llama-4, Mistral Small, Mistral-Medium, Mistral-Small, MistralAI, Qwen, Qwen-2.5, claude-4.. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

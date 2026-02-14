@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "Large Language Models (LLMs) increasingly serve diverse global audiences, making it critical for responsible AI deployment across cultures. While recent works have proposed various approaches to enhance cultural alignment in LLMs, a systematic analysis of their evaluation benchmarks remains needed. We propose a novel framework that conceptualizes alignment along three dimensions: Cultural Group (who to align with), Cultural Elements (what to align), and Awareness Scope (how to align:..."
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ChatGPT, Mistral-7B"
+DATA_URL: NA
 ethics_perspective: "Social & Cultural Values"
 ---
 # Incorporating Diverse Perspectives in Cultural Alignment: Survey of Evaluation Benchmarks Through A Three-Dimensional Framework
@@ -60,6 +61,10 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Comprehensive survey examining 105 cultural alignment datasets through a three-dimensional framework. Highlights Western-centric bias and need for more representative evaluation strategies. Meta-survey of cultural alignment benchmarks; identifies systematic gaps in representation of South Asian perspectives.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, Mistral-7B. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

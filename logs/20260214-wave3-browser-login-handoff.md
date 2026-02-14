@@ -402,7 +402,7 @@
   Scholar: https://scholar.google.com/scholar?q=The+Dark+Side+of+Instagram%3A+A+Large+Dataset+for+Identifying+Persian+Harmful+Comments+%28PHICAD%29
   Success criteria: Save valid PDF (starts with %PDF) and confirm title match, then update `external_pdf`, `local_pdf`, and `pdf_extract`.
 
-- [ ] `LSRC0144` `2024-Unknown-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.md`
+- [ ] `LSRC0144` `2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.md`
   Priority: `P4` | Category: `RESOURCE_PAGE_NO_PDF` | Host: `github.com`
   Status note: blocked (not_pdf_header)
   Primary URL: https://github.com/ParsBench/ParsBench

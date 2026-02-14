@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,8 +31,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "ChatGPT"
+DATA_URL: "https://github.com/google/BIG-bench"
 pdf_extract: "PDF Extracts/2025/2025-Steen-Ethical aspects of ChatGPT.md"
 local_pdf: "[[PDFs/2025/2025-Steen-Ethical aspects of ChatGPT.pdf]]"
 ---

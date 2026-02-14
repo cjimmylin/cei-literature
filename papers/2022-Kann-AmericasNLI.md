@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/abteen/americasnli"
 ---
 # AmericasNLI: Machine translation and natural language inference systems for Indigenous languages of the Americas

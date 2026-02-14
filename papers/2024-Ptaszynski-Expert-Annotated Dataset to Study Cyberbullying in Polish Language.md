@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +36,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, distilbert"
+DATA_URL: "https://github.com/bear/python-twitter"
 tags: 
 abstract: "Expert-annotated dataset for cyberbullying and hate-speech detection in Polish with two quality-controlled annotation versions. Binary (harmful/non-harmful) and multi-class (cyberbullying/hate-speech/non-harmful) tasks."
 research_topic: "Machine Learning"
@@ -68,6 +70,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Expert-annotated dataset for cyberbullying and hate-speech detection in Polish with two quality-controlled annotation versions. Binary (harmful/non-harmful) and multi-class (cyberbullying/hate-speech/non-harmful) tasks.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, distilbert. Verified dataset/resource link: https://github.com/bear/python-twitter.
 
 ## Notes
 

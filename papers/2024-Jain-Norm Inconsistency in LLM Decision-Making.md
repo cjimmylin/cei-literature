@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "We investigate the phenomenon of norm inconsistency: where LLMs apply
 ethics_perspective: "Bias & Fairness"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Gemini, Claude"
+LLM_assessed: "GPT-4, Claude"
 DATA_URL: NA
 ---
 # Norm Inconsistency in LLM Decision-Making

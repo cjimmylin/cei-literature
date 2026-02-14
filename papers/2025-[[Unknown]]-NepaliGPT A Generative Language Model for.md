@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "After the release of ChatGPT, Large Language Models (LLMs) have gained huge popularity in recent days and thousands of variants of LLMs have been released. However, there isn’t any generative language model for the Nepali language, due to which other downstream tasks, including fine-tuning, have not been explored yet. To fill this research gap in the Nepali NLP space, this research proposes NepaliGPT, a generative large language model tailored specifically for the Nepali language."
 data_description: "Benchmark text corpus"
 data_metrics: "4296 question"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "GPT-2"
+DATA_URL: NA
 research_topic: "NLP & Representation Learning"
 ---
 # NepaliGPT: A Generative Language Model for the Nepali Language
@@ -64,6 +65,10 @@ First NepaliGPT benchmark dataset with 4,296 QA pairs in Nepali. Achieves perple
 ## Benchmark
 
 **Name:** NepaliGPT
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-2. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

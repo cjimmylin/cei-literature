@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Alpaca, ChatGPT, GPT-3, GPT-3.5, Llama, Llama2, Vicuna, gpt-3.5-turbo, GPT-4"
+DATA_URL: "https://huggingface.co/VietAI/gpt-neo-1"
 tags: 
 abstract: 
 research_topic: "Question Answering"
@@ -69,6 +70,10 @@ research_topic: "Question Answering"
 ## Abstract
 
 Instruction-tuned LLM for Vietnamese with new benchmark datasets encompassing AI and human-generated data. Provides comprehensive evaluation framework for Vietnamese LLMs. Open-sourced ViGPT model achieving SOTA approaching multilingual LLMs.
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, ChatGPT, GPT-3, GPT-3.5, Llama, Llama2, Vicuna, gpt-3.5-turbo, GPT-4. Verified dataset/resource link: https://huggingface.co/VietAI/gpt-neo-1.
 
 ## Notes
 

@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude, Claude-3.5, Claude-3.5-Sonnet, DeepSeek-v3, GPT-4, GPT-4o, Llama, Llama-3.1, Mistral-7B, Phi-2 33, Qwen1.5"
+DATA_URL: "https://github.com/kraritt/b-reaso"
 tags: 
 abstract: "Multi-level multi-faceted Bengali evaluation suite for NLP benchmarks. Provides comprehensive assessment of Bengali language understanding across multiple dimensions."
 research_topic: Other
@@ -66,6 +68,10 @@ research_topic: Other
 ## Abstract
 
 Multi-level multi-faceted Bengali evaluation suite for NLP benchmarks. Provides comprehensive assessment of Bengali language understanding across multiple dimensions.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude, Claude-3.5, Claude-3.5-Sonnet, DeepSeek-v3, GPT-4, GPT-4o, Llama, Llama-3.1, Mistral-7B, Phi-2 33, Qwen1.5. Verified dataset/resource link: https://github.com/kraritt/b-reaso.
 
 ## Notes
 

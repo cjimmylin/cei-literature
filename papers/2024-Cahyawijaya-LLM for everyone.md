@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,7 +32,7 @@ is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, Llama-3, BLOOM"
-DATA_URL: NA
+DATA_URL: "https://github.com/IndoNLP/nusax"
 pdf_extract: "PDF Extracts/2024/2024-Cahyawijaya-LLM for everyone.md"
 local_pdf: "[[PDFs/2024/2024-Cahyawijaya-LLM for everyone.pdf]]"
 ---

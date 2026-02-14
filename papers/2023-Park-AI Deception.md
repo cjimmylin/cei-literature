@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-4"
 DATA_URL: NA
 ---
 # AI Deception: A Survey of Examples, Risks, and Potential Solutions

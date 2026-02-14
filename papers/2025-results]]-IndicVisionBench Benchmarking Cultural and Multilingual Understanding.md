@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Vision-language models (VLMs) have demonstrated impressive generalization across multimodal tasks, yet most evaluation benchmarks remain Western-centric, leaving open questions about their performance in culturally diverse and multilingual settings. To address this gap, we introduce IndicVisionBench, the first large-scale benchmark centered on the Indian subcontinent. Covering English and 10 Indian languages, our benchmark spans 3 multimodal tasks, including Optical Character Recognition (OCR),..."
 data_description: "Multilingual benchmark for bias and fairness text corpus for question answering"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "GPT-4o, GPT-4o-mini, Gemma, Gemma-3, LLaMA-4, LLaMA-4., Llama"
+DATA_URL: "https://github.com/Yuliang-Liu/MultimodalOCR"
 research_topic: "Computer Vision & Multimodal"
 ---
 # IndicVisionBench: Benchmarking Cultural and Multilingual Understanding in VLMs
@@ -64,6 +66,10 @@ First large-scale Indian-centric benchmark for VLMs on culture-specific understa
 ## Benchmark
 
 **Name:** IndicVisionBench
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4o, GPT-4o-mini, Gemma, Gemma-3, LLaMA-4, LLaMA-4., Llama. Verified dataset/resource link: https://github.com/Yuliang-Liu/MultimodalOCR.
 
 ## Notes
 

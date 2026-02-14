@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: "Gemma, Gemini"
+LLM_assessed: "Gemma"
 DATA_URL: NA
 ---
 # Value Profiles for Encoding Human Variation

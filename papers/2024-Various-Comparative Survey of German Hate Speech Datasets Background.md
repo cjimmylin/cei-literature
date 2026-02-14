@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/MarkusBertram/Cross-Dataset-Generalization-of-German-Hate-Speech-Datasets"
 tags: 
 abstract: 
 ethics_perspective: "Bias & Fairness"

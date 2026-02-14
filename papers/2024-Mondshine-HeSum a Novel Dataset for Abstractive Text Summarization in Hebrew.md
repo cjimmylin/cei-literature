@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Lamda"
+DATA_URL: "https://github.com/OnlpLab/HeSum"
 tags: 
 abstract: "While large language models (LLMs) excel in various natural language tasks in English, their performance in lower-resourced languages like Hebrew, especially for generative tasks such as abstractive summarization, remains unclear. The high morphological richness in Hebrew adds further challenges due to the ambiguity in sentence comprehension and the complexities in meaning construction. In this paper, we address this resource and evaluation gap by introducing HeSum, a novel benchmark..."
 research_topic: "NLP & Representation Learning"
@@ -65,6 +66,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 10,000 article-summary pairs from Hebrew news websites for abstractive summarization. High abstractness and unique morphological challenges. Evaluates LLM generation capabilities for Hebrew.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Lamda. Verified dataset/resource link: https://github.com/OnlpLab/HeSum.
 
 ## Notes
 

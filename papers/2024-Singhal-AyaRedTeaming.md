@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for ai safety annotated dataset"
 data_metrics: "6 languages"
-LLM_assessed: NA
+LLM_assessed: "Bartolo, Command R, Command R+, Dolly, Dolly-200, GPT-4, GPT4, Gemma, Mistral, ChatGPT"
 DATA_URL: "https://huggingface.co/datasets/CohereForAI/aya_redteaming"
 ---
 # AyaRedTeaming: A Benchmark for Exploring Alignment Across Global and Local Preferences

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Alpaca, BLOOM, BLOOMZ, Baichuan, Baichuan-2, ChatGPT, FLAN-T5-XXL, Flan-T5, Flan-T5-Base, Flan-T5-Large, Flan-T5-Small, Flan-T5-XL, GPT-4, GPT3, GPT3.5, GPT4, Llama, Llama-2, Llama 2, T5, T5-Base, T5-Large, T5-Small, T5-XL, T5-XXL"
+DATA_URL: "https://github.com/SeaEval/SeaEval"
 tags: 
 abstract: "We present SeaEval, a benchmark for multilingual foundation models. In addition to characterizing how these models understand and reason with natural language, we also investigate how well they comprehend cultural practices, nuances, and values. Alongside standard accuracy metrics, we investigate the brittleness of foundation models in the dimensions of semantics and multilinguality. Our analyses span both open-sourced and closed models, leading to empirical results across classic NLP tasks,..."
 ethics_perspective: "Social & Cultural Values"
@@ -66,6 +68,10 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Benchmark with 29 datasets including 7 new ones for cultural understanding and cross-lingual consistency. Evaluates cultural practices, nuances, and values across 7 languages including Indonesian, Malay, and Filipino.
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, BLOOM, BLOOMZ, Baichuan, Baichuan-2, ChatGPT, FLAN-T5-XXL, Flan-T5, Flan-T5-Base, Flan-T5-Large, Flan-T5-Small, Flan-T5-XL, GPT-4, GPT3, GPT3.5, GPT4, Llama, Llama-2, Llama 2, T5, T5-Base, T5-Large, T5-Small, T5-XL, T5-XXL. Verified dataset/resource link: https://github.com/SeaEval/SeaEval.
 
 ## Notes
 

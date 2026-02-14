@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Advancement of large language models (LLMs) has brought transformative capabilities to NLP, but such progress remains unevenly distributed, especially for low-resource and culturally rich languages like Tibetan. In this paper, we present TIB-STC, the first large-scale, expert-curated, and multidomain dataset specifically designed to support the development and evaluation of LLMs for the Tibetan language."
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, ChatGLM, ChatGPT, DeepSeek, DeepSeek-R1, GPT-3, GPT-3.5-Turbo, GPT-4, GPT-4o, GPT-4o-mini, Llama, LLaMA 3, LLaMA 3.1, Llama-3, LLaMA-3., Qwen-2.5"
 DATA_URL: "https://github.com/Vicentvankor/sun-shine"
 research_topic: "Machine Learning"
 ---
@@ -69,6 +71,11 @@ research_topic: "Machine Learning"
 ## Dataset Information
 
 11 billion+ tokens across literature, religion, medicine, law, and daily communication
+
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGLM, ChatGPT, DeepSeek, DeepSeek-R1, GPT-3, GPT-3.5-Turbo, GPT-4, GPT-4o, GPT-4o-mini, Llama, LLaMA 3, LLaMA 3.1, Llama-3, LLaMA-3., Qwen-2.5. Verified dataset/resource link: https://github.com/Vicentvankor/sun-shine.
 
 ## Notes
 

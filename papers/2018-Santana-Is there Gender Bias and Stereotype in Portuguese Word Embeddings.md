@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Word2Vec"
+DATA_URL: NA
 tags: 
 abstract: "Analysis of gender bias in Portuguese word embeddings, studying gender implications related to stereotyped professions for women and men in the Portuguese language context."
 ethics_perspective: "Bias & Fairness"
@@ -63,6 +64,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Analysis of gender bias in Portuguese word embeddings, studying gender implications related to stereotyped professions for women and men in the Portuguese language context.
+
+## Data Description
+
+Backfill summary: Models assessed include Word2Vec. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

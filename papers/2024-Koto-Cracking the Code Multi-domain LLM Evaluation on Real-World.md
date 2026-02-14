@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BLOOMZ, GPT-4o, Gemma, Gemma-2, LLaMA-3., LLaMA-3.1, LLaMA3.1, LLaMA3.1-chat, Llama-2, Llama, BERT, llama2, llama3"
+DATA_URL: "https://github.com/meta-llama/llama3"
 tags: 
 abstract: "While knowledge evaluation in large language models has predominantly focused on academic subjects like math and physics, these assessments often fail to capture the practical demands of real-world professions. In this paper, we introduce IndoCareer, a dataset comprising 8,834 multiple-choice questions designed to evaluate performance in vocational and professional certification exams across various fields."
 research_topic: "Machine Learning"
@@ -66,6 +67,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 8,834 multiple-choice questions from Indonesian competency exams across 22 professions in 6 sectors. 34% of questions require knowledge of Indonesian specificities in insurance, finance, education, and law.
+
+## Data Description
+
+Backfill summary: Models assessed include BLOOMZ, GPT-4o, Gemma, Gemma-2, LLaMA-3., LLaMA-3.1, LLaMA3.1, LLaMA3.1-chat, Llama-2, Llama, BERT, llama2, llama3. Verified dataset/resource link: https://github.com/meta-llama/llama3.
 
 ## Notes
 

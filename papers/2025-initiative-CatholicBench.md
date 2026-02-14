@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,6 +66,11 @@ Summary: Tests AI models on Catholic theological competence at the intersection 
 ## Dataset Information
 
 N/A (scored out of 5 per evaluation)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://www.catholicbench.com/.
 
 ## Notes
 

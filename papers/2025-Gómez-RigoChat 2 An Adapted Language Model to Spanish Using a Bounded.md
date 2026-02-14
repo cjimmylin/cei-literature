@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-3, GPT-3.5-turbo, GPT-4o, GPT-4o-mini, Gemma, GPT-4, Llama, Llama 3.1, Llama-3.1, Qwen-2.5, Qwen2, Qwen2.5, gemma-2, llama 3, llama."
+DATA_URL: "https://github.com/huggingface/peft"
 tags: 
 abstract: "Large Language Models (LLMs) have become a key element of modern artificial intelligence, demonstrating the ability to address a wide range of language processing tasks at unprecedented levels of accuracy without the need of collecting problem-specific data. However, these versatile models face a significant challenge: both their training and inference processes require substantial computational resources, time, and memory."
 research_topic: "NLP & Representation Learning"
@@ -64,6 +65,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Spanish instruction-tuned model fine-tuned from Qwen2.5-7B-Instruct with improved safety and reduced hallucinations in RAG. Surpasses GPT-4o on Spanish-specific evaluations. Top performer on IberBench.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-3, GPT-3.5-turbo, GPT-4o, GPT-4o-mini, Gemma, GPT-4, Llama, Llama 3.1, Llama-3.1, Qwen-2.5, Qwen2, Qwen2.5, gemma-2, llama 3, llama.. Verified dataset/resource link: https://github.com/huggingface/peft.
 
 ## Notes
 

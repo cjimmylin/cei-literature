@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Llama-3, Gemma, Qwen, Gemini, Phi"
+LLM_assessed: "GPT-4, Llama-3, Gemma, Qwen, Phi"
 DATA_URL: NA
 ---
 # SB-Bench: Stereotype Bias Benchmark for Large Multimodal Models

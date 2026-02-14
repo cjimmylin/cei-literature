@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,8 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: 
 ethics_perspective: "Social & Cultural Values"
@@ -63,6 +64,10 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Based on the search results, here's what I found about cross-cultural AI ethics benchmarks and multilingual assessment: Recent Benchmarks and Research MENAValues is a novel benchmark designed to evaluate the cultural alignment and multilingual biases of large language models (LLMs) with respect to the beliefs and values of the Middle East and North Africa (MENA) region. It draws from large-scale, authoritative human surveys to curate a structured dataset that captures the sociocultural land
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +40,7 @@ abstract: "Comprehensive evaluation of 10 open-source LLMs across 11 tasks using
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: Other
 ---
 # How do LLMs perform on Turkish? A multi-faceted multi-prompt evaluation
@@ -66,6 +67,10 @@ research_topic: Other
 ## Abstract
 
 Comprehensive evaluation of 10 open-source LLMs across 11 tasks using 17 datasets. Covers fairness, truthfulness, ethics, and NLP proficiency dimensions. Found gemma2-9b-it outperforms other chat LLMs in understanding and trustworthiness. Directly evaluates ethics, fairness, and trustworthiness of LLMs in Turkish. Multi-faceted evaluation including prompt robustness and comparison of fine-tuned vs chat models.
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

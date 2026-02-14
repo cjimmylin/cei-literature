@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_CHEUNG2025
@@ -31,7 +32,7 @@ is_dataset: No
 data_description: "22 moral dilemmas tested on LLMs vs human sample (N=285)"
 data_metrics: "Omission bias, no-bias, altruism measures"
 LLM_assessed: "GPT-4, Claude, Llama-3"
-DATA_URL: NA
+DATA_URL: "https://osf.io/3ahrb"
 normative_ethics_benchmark: Yes
 publication: PNAS
 DATE_ADDED: 20260207

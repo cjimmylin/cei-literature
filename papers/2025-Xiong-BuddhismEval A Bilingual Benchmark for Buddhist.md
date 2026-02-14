@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,6 +66,11 @@ BuddhismEval is the first bilingual evaluation benchmark specifically designed t
 ## Dataset Information
 
 1,242 English MCQs + 1,023 Sinhala MCQs + 423 parallel Dhammapada verses = ~2,688 items total
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/Nethmi14/BuddhismEval.
 
 ## Notes
 

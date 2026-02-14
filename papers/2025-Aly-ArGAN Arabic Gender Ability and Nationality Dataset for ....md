@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "DeepSeek v3, Deepseek 0, Deepseek 79, GPT-4o, LLama 3.3, Llama, Llama 0.072, Llama 64.5, Llama., llama 3"
+DATA_URL: NA
 tags: 
 abstract: 
 research_topic: "Bias & Fairness"
@@ -64,6 +66,10 @@ research_topic: "Bias & Fairness"
 ## Abstract
 
 Based on the web search results, here's what I found regarding Arabic NLP dataset bias and fairness evaluation in 2025: Key Research Areas Data Feminism and Bias Assessment: Most papers do not sufficiently address social bias, scoring near a 1 on average in five-point scales, according to recent research applying data feminism principles to English and Arabic NLP. Researchers created a prototype interactive form to address common issues in reporting bias in NLP datasets, which suggests
+
+## Data Description
+
+Backfill summary: Models assessed include DeepSeek v3, Deepseek 0, Deepseek 79, GPT-4o, LLama 3.3, Llama, Llama 0.072, Llama 64.5, Llama., llama 3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract: "Quantitative Artificial Intelligence (AI) Benchmarks have emerged as 
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Bartz, Claude 3 Opus, GPT-4, GPT4"
 DATA_URL: NA
 ---
 # Can We Trust AI Benchmarks? An Interdisciplinary Review

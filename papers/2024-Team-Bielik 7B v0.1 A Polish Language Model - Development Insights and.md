@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark text corpus for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4, Llama-2, Llama-3.1, Llama2, Mistral 7B, Mistral v0, Mistral-7B, Mistral-Nemo, Mixtral-8x7b, gemma 6.51, internlm, internlm2, Llama, Llama-3, llama., mistralai"
+DATA_URL: "https://github.com/chrisociepa/allamo"
 tags: 
 abstract: "We introduce Bielik 7B v0.1, a 7-billion-parameter generative text model for Polish language processing. Trained on curated Polish corpora, this model addresses key challenges in language model development through innovative techniques. These include Weighted Instruction Cross-Entropy Loss, which balances the learning of different instruction types, and Adaptive Learning Rate, which dynamically adjusts the learning rate based on training progress."
 research_topic: "NLP & Representation Learning"
@@ -65,6 +66,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Introduces Bielik 7B Polish LLM with novel evaluation frameworks: Open PL LLM Leaderboard and Polish MT-Bench assessing reasoning, role-playing, and conversational abilities in Polish.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4, Llama-2, Llama-3.1, Llama2, Mistral 7B, Mistral v0, Mistral-7B, Mistral-Nemo, Mixtral-8x7b, gemma 6.51, internlm, internlm2, Llama, Llama-3, llama., mistralai. Verified dataset/resource link: https://github.com/chrisociepa/allamo.
 
 ## Notes
 

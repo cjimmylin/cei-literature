@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, GloVe"
+DATA_URL: "https://github.com/dccuchile/beto"
 tags: 
 abstract: "First task focused on detecting different levels of toxicity in Spanish news comments related to immigration. Two subtasks: binary toxicity detection and toxicity level detection. Uses NewsCom-TOX dataset with 4,359 Spanish comments."
 research_topic: Other
@@ -66,6 +67,10 @@ research_topic: Other
 ## Abstract
 
 First task focused on detecting different levels of toxicity in Spanish news comments related to immigration. Two subtasks: binary toxicity detection and toxicity level detection. Uses NewsCom-TOX dataset with 4,359 Spanish comments.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GloVe. Verified dataset/resource link: https://github.com/dccuchile/beto.
 
 ## Notes
 

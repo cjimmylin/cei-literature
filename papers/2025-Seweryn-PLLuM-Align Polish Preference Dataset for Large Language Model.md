@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, GPT-4, GPT-4o, Llama, Llama 3, Llama 3.1, Llama-3, Llama-3., Llama-Guard, Llama3.1, Mistral12b, Mixtral, Mixtral 8x7B, gpt-4o-mini"
+DATA_URL: "https://huggingface.co/datasets/argilla"
 tags: 
 abstract: "First Polish preference dataset for LLM alignment, created entirely through human annotation to reflect Polish language and cultural nuances. Includes response rating, ranking, and multi-turn dialog data."
 ethics_perspective: "AI Safety & Alignment"
@@ -66,6 +68,10 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 First Polish preference dataset for LLM alignment, created entirely through human annotation to reflect Polish language and cultural nuances. Includes response rating, ranking, and multi-turn dialog data.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, GPT-4, GPT-4o, Llama, Llama 3, Llama 3.1, Llama-3, Llama-3., Llama-Guard, Llama3.1, Mistral12b, Mixtral, Mixtral 8x7B, gpt-4o-mini. Verified dataset/resource link: https://huggingface.co/datasets/argilla.
 
 ## Notes
 

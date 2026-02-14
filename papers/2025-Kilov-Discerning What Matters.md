@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-3, GPT-4, DeepSeek, Gemini, Claude"
+LLM_assessed: "Llama-3, GPT-4, DeepSeek, Claude"
 DATA_URL: NA
 DATE_ADDED: 20260207
 ---

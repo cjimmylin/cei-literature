@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "GPT4, GPT-4, LLaMA2"
 DATA_URL: "https://github.com/Purdue-M2/AI-Face-FairnessBench"
 ---
 # AI-Face: A Million-Scale Demographically Annotated AI-Generated Face Dataset and Fairness Benchmark

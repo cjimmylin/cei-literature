@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Barth, Bloom"
+DATA_URL: "https://huggingface.co/spaces/sdadas"
 tags: 
 abstract: "While new benchmarks for large language models (LLMs) are being developed continuously to catch up with the growing capabilities of new models and AI in general, using and evaluating LLMs in non-English languages remains a little-charted landscape. We give a concise overview of recent developments in LLM benchmarking, and then propose a new taxonomy for the categorization of benchmarks that is tailored to multilingual or non-English use scenarios."
 research_topic: "Machine Translation"
@@ -62,6 +63,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Proposes taxonomy for multilingual/non-English LLM benchmarks and best practices for European language evaluation. Advocates for higher language and culture sensitivity in evaluation methods.
+
+## Data Description
+
+Backfill summary: Models assessed include Barth, Bloom. Verified dataset/resource link: https://huggingface.co/spaces/sdadas.
 
 ## Notes
 

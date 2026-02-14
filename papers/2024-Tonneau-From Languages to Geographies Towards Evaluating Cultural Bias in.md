@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, Gemma"
+DATA_URL: NA
 tags: 
 abstract: "Perceptions of hate can vary greatly across cultural contexts. Hate speech (HS) datasets, however, have traditionally been developed by language. This hides potential cultural biases, as one language may be spoken in different countries home to different cultures. In this work, we evaluate cultural bias in HS datasets by leveraging two interrelated cultural proxies: language and geography. We conduct a systematic survey of HS datasets in eight languages and confirm past findings on their..."
 ethics_perspective: "Social & Cultural Values"
@@ -66,6 +67,10 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Systematic survey of hate speech datasets showing geo-cultural bias. Compiles 29,855-post Spanish hate speech superset merging all available Spanish datasets. Shows hate speech datasets overrepresent more developed countries.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Gemma. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

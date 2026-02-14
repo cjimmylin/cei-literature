@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, Claude, Claude 3 Opus, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, claude-3-opus"
+DATA_URL: "https://github.com/Ammce/llm-"
 tags: 
 abstract: "Online toxic language causes real harm, especially in regions with limited moderation tools. In this study, we evaluate how large language models handle toxic comments in Serbian, Croatian, and Bosnian, languages with limited labeled data. We built and manually labeled a dataset of 4,500 YouTube and TikTok comments drawn from videos across diverse categories, including music, politics, sports, modeling, influencer content, discussions of sexism, and general topics."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -62,6 +64,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Evaluates GPT-3.5, GPT-4.1, Gemini 1.5 Pro, and Claude 3 Opus on 4,500 manually labeled YouTube/TikTok comments for toxic language detection in Serbian, Croatian, Bosnian. Best F1=0.82.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, Claude, Claude 3 Opus, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, claude-3-opus. Verified dataset/resource link: https://github.com/Ammce/llm-.
 
 ## Notes
 

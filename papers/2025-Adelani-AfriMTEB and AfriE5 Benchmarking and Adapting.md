@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Text embeddings are an essential building component of several NLP tasks such as retrievalaugmented generation which is crucial for preventing hallucinations in LLMs. Despite the recent release of massively multilingual MTEB (MMTEB), African languages remain underrepresented, with existing tasks often repurposed from translation benchmarks such as FLORES clustering or SIB-200. In this paper, we introduce AfriMTEB—a regional expansion of MMTEB covering 59 languages, 14 tasks, and 38 datasets,..."
 data_description: "Multilingual benchmark for hallucination detection dataset for hate speech detection"
 data_metrics: "59 languages; 38 datasets"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, Gemma, Mistral, Mistral-7B, Qwen2, Qwen3, RoBERTa"
+DATA_URL: NA
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # AfriMTEB and AfriE5: Benchmarking and Adapting Text Embedding Models for African Languages
@@ -64,6 +66,10 @@ Regional MTEB extension for African languages covering 59 languages, 14 tasks, 3
 ## Benchmark
 
 **Name:** AfriMTEB
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Gemma, Mistral, Mistral-7B, Qwen2, Qwen3, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

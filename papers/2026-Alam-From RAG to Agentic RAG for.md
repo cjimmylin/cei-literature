@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "LLMs are increasingly used for Islamic question answering, where ungrounded responses may carry serious religious consequences. Yet standard MCQ/MRC-style evaluations1 do not capture key real-world failure modes, notably free-form hallucinations and whether models appropriately abstain when evidence is lacking. To shed a light on this aspect we introduce ISLAMICFAITHQA, a 3,810-item bilingual (Arabic/English) generative benchmark with atomic single-gold answers, which enables direct measurement..."
 data_description: "Multilingual benchmark for hallucination detection text corpus for question answering"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "ALBERT, DeepSeek-R1, GPT-4, Llama-2, Llama-3.1, Mistral 7b, Mistral-7B, Qwen-1.5B, Qwen-7B, Qwen2.5, Qwen3, BERT"
 DATA_URL: "Planned public release"
 ethics_perspective: "Social & Cultural Values"
 ---
@@ -69,6 +71,11 @@ Introduces IslamicFaithQA, a 3,810-item bilingual generative benchmark with atom
 ## Dataset Information
 
 3,810 bilingual QA items (IslamicFaithQA) + 25K SFT pairs + 5K preference samples + ~6K verse-level Quran corpus
+
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, DeepSeek-R1, GPT-4, Llama-2, Llama-3.1, Mistral 7b, Mistral-7B, Qwen-1.5B, Qwen-7B, Qwen2.5, Qwen3, BERT. Verified dataset/resource link: Planned public release.
 
 ## Notes
 

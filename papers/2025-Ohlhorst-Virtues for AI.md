@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_OHLHORST2025
@@ -30,7 +31,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: NA
+LLM_assessed: "ChatGPT"
 DATA_URL: NA
 ---
 # Virtues for AI

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "350 datasets; 27 languages; 6 language"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, GloVe, Word2Vec, RoBERTa"
+DATA_URL: "https://github.com/wongnai/wongnai-corpus"
 tags: 
 abstract: "Despite impressive advancements in multilingual corpora collection and model training, developing large-scale deployments of multilingual models still presents a significant challenge. This is particularly true for language tasks that are culturedependent. One such example is the area of multilingual sentiment analysis, where affective markers can be subtle and deeply ensconced in culture. This work presents the most extensive open massively multilingual corpus of datasets for training..."
 research_topic: "Machine Translation"
@@ -65,6 +67,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 79 sentiment datasets across 27 languages including all 6 target languages. Strict quality criteria. Multi-faceted benchmark testing base models, training objectives, and fine-tuning strategies.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GloVe, Word2Vec, RoBERTa. Verified dataset/resource link: https://github.com/wongnai/wongnai-corpus.
 
 ## Notes
 

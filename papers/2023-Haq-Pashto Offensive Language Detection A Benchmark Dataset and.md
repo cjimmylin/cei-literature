@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, GloVe, RoBERTa, Word2Vec"
+DATA_URL: "https://zenodo.org/record/8195797"
 tags: 
 abstract: "34,400 Pashto tweets for offensive language detection with monolingual Pashto BERT (Ps-BERT) achieving F1 94.34%. First comprehensive benchmark for Pashto offensive language detection."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -66,6 +67,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 34,400 Pashto tweets for offensive language detection with monolingual Pashto BERT (Ps-BERT) achieving F1 94.34%. First comprehensive benchmark for Pashto offensive language detection.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GloVe, RoBERTa, Word2Vec. Verified dataset/resource link: https://zenodo.org/record/8195797.
 
 ## Notes
 

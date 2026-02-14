@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-Mini, GPT4o, LlamA-3.2, Llama, Llama-3, Llama-3.1, Llama-3.3, Llama3, Llama3.3, Qwen, Qwen 2.5, Qwen2.5"
+DATA_URL: NA
 tags: 
 abstract: 
 research_topic: "Machine Learning"
@@ -65,6 +67,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 First Vietnamese Multitask Language Understanding Benchmarks with 10,880 multiple-choice questions across 58 subjects in STEM, Humanities, Social Sciences. Comprises Vi-MQA, Vi-SQuAD, Vi-DROP, Vi-Dialog datasets assessing general knowledge, reading comprehension, logical reasoning, conversational ability.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-Mini, GPT4o, LlamA-3.2, Llama, Llama-3, Llama-3.1, Llama-3.3, Llama3, Llama3.3, Qwen, Qwen 2.5, Qwen2.5. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

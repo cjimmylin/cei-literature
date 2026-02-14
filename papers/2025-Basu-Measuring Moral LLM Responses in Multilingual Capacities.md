@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract: "With LLM usage becoming widespread across countries, languages, and h
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Gemini, Claude, Llama, Qwen"
+LLM_assessed: "Claude, Llama, Qwen"
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
 ---

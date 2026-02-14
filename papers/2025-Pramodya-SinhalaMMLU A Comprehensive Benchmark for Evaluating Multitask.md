@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "7,000 questions; over 7,000 questions"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "CLAUDE 3.5 SONNET, CLAUDE-3, CLAUDE-3 HAIKU, CLAUDE-3-HAIKU, Claude, Claude 3 Haiku, Claude 3.5, Claude 3.5-sonnet, Claude 3.7 Sonnet, Claude Haiku, Claude-sonnet, Claude., GPT-4, GPT-4o, GPT4O, Llama-3, LLAMA-3.1, LLAMA-3.2, LLAMA-3.3, LLaMA3.1, Llama, MISTRAL-7B, Mistral, Mistral 7B, QWEN-32B, QWEN-72B, QWEN2.5, Qwen"
+DATA_URL: NA
 tags: 
 abstract: "Large Language Models (LLMs) demonstrate impressive general knowledge and reasoning abilities, yet their evaluation has predominantly focused on global or anglocentric subjects, often neglecting low-resource languages and culturally specific content. While recent multilingual benchmarks attempt to bridge this gap, many rely on automatic translation, which can introduce errors and misrepresent the original cultural context."
 research_topic: "Machine Learning"
@@ -65,6 +66,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 First MCQA benchmark for Sinhala with 7,000+ questions spanning secondary to collegiate levels aligned with Sri Lankan curriculum. Six domains, 30 subjects including culturally grounded knowledge (Sri Lankan history, arts, drama, indigenous dancing, oriental music). Claude 3.5 Sonnet (67%) and GPT-4o (62%) best performers. Models struggle in culturally rich domains like Humanities.
+
+## Data Description
+
+Backfill summary: Models assessed include CLAUDE 3.5 SONNET, CLAUDE-3, CLAUDE-3 HAIKU, CLAUDE-3-HAIKU, Claude, Claude 3 Haiku, Claude 3.5, Claude 3.5-sonnet, Claude 3.7 Sonnet, Claude Haiku, Claude-sonnet, Claude., GPT-4, GPT-4o, GPT4O, Llama-3, LLAMA-3.1, LLAMA-3.2, LLAMA-3.3, LLaMA3.1, Llama, MISTRAL-7B, Mistral, Mistral 7B, QWEN-32B, QWEN-72B, QWEN2.5, Qwen. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

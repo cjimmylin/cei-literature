@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "ALBERT, BERT, DeBERTa re, DeBERTa-v3, DeBERTa-v3large, ELECTRA, RoBERTa, T5, T5 and, T511B"
+DATA_URL: "https://huggingface.co/microsoft/deberta-v3-large"
 ---
 # Normative Ethical Theory AI Ethics
 

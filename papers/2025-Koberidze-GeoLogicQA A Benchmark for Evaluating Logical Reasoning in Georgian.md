@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "ChatGPT, DeepSeek, DeepSeek-V3, GPT-4, GPT-4o, Gemini, Gemini 2.5 Flash, Grok, Grok-3, Llama 3"
+DATA_URL: "https://github.com/irakli97/GeoLogicQA"
 tags: 
 abstract: 
 research_topic: "Machine Learning"

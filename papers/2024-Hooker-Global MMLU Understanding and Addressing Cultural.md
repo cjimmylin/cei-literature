@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Cultural biases in multilingual datasets pose significant challenges for their effectiveness as global benchmarks. These biases stem not only from differences in language but also from the cultural knowledge required to interpret questions, reducing the practical utility of translated datasets like MMLU. Furthermore, translation often introduces artifacts that can distort the meaning or clarity of questions in the target language."
 data_description: "Multilingual benchmark for bias and fairness annotated dataset"
 data_metrics: "42 languages"
-LLM_assessed: NA
+LLM_assessed: "ChatGPT, Claude 3.5 Sonnet, Claude 3.5, Claude Sonnet, Claude-Sonnet, Command-R, CommandR, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, GPT-4o, GPT4o, Gemma, Gemma2, Llama, Llama 3.1, Llama-3.1, Mistral Nemo25, Mistral-Nemo, Qwen, Qwen 2.5, Qwen 2.526, Qwen2.5, BERT, gemma-2, llama 3, mistralai"
 DATA_URL: "https://huggingface.co/papers/2412.03304"
 research_topic: "Machine Translation"
 ---
@@ -65,6 +67,10 @@ Multilingual MMLU extension across 42 languages with culturally sensitive and ag
 ## Benchmark
 
 **Name:** Global MMLU
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, Claude 3.5 Sonnet, Claude 3.5, Claude Sonnet, Claude-Sonnet, Command-R, CommandR, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, GPT-4o, GPT4o, Gemma, Gemma2, Llama, Llama 3.1, Llama-3.1, Mistral Nemo25, Mistral-Nemo, Qwen, Qwen 2.5, Qwen 2.526, Qwen2.5, BERT, gemma-2, llama 3, mistralai. Verified dataset/resource link: https://huggingface.co/papers/2412.03304.
 
 ## Notes
 

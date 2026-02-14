@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "Alpaca, BERT, ChatGPT, Claude, Claude 2, Claude-2., GPT-4, Gemma, Llama2, Vicuna, Llama, Llama-2, llama."
+DATA_URL: "https://github.com/MadryLab/robustness"
 ---
 # AI Alignment: A Comprehensive Survey
 

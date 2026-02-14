@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Intent classification models have made a significant progress in recent years. However, previous studies primarily focus on high-resource language datasets, which results in a gap for low-resource languages and for regions with high rates of illiteracy, where languages are more spoken than read or written. This is the case in Senegal, for example, where Wolof is spoken by around 90% of the population, while the national illiteracy rate remains at of 42%."
 data_description: "Evaluation approach dataset"
 data_metrics: "77 dataset"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, Deberta, GPT-4o, Llama-3.2, Phi-4-multimodal, Qwen2, RoBERTa, Llama"
+DATA_URL: "https://github.com/UniversalDependencies/UD_Wolof-WTB"
 research_topic: "Machine Learning"
 ---
 # WolBanking77: Wolof Banking Speech Intent Classification Dataset
@@ -64,6 +66,10 @@ Wolof banking speech intent classification dataset with 9,791 text sentences in 
 ## Benchmark
 
 **Name:** WolBanking77
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Deberta, GPT-4o, Llama-3.2, Phi-4-multimodal, Qwen2, RoBERTa, Llama. Verified dataset/resource link: https://github.com/UniversalDependencies/UD_Wolof-WTB.
 
 ## Notes
 

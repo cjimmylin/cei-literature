@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Alpaca, Baichuan-13B, Baichuan-7B, ChatGLM-6B, ChatGLM2, ChatGLM3, ChatGPT, GPT-4, GPT-3, InternLM, InternLM-7B, Llama-2, LLAMA-2-Chat, Llama, Qwen, Qwen-14B, Qwen-7B"
+DATA_URL: "https://github.com/AndrewZhe/lawyer-llama"
 tags: 
 abstract: "Large language models (LLMs) have made significant progress in natural language processing tasks and demonstrate considerable potential in the legal domain. However, legal applications demand high standards of accuracy, reliability, and fairness. Applying existing LLMs to legal systems without careful evaluation of their potential and limitations could pose significant risks in legal practice. To this end, we introduce a standardized comprehensive Chinese legal benchmark LexEval. This benchmark is notable in the following three aspects: (1) Ability Modeling: We propose a new taxonomy of legal cognitive abilities to organize different tasks. (2) Scale: To our knowledge, LexEval is currently the largest Chinese legal evaluation dataset, comprising 23 tasks and 14,150 questions. (3) Data: we utilize formatted existing datasets, exam datasets and newly annotated datasets by legal experts to comprehensively evaluate the various capabilities of LLMs. LexEval not only focuses on the ability of LLMs to apply fundamental legal knowledge but also dedicates efforts to examining the ethical issues involved in their application. We evaluated 38 open-source and commercial LLMs and obtained some interesting findings. The experiments and findings offer valuable insights into the challenges and potential solutions for developing Chinese legal systems and LLM evaluation pipelines. The LexEval dataset and leaderboard are publicly available at https://github.com/CSHaitao/LexEval and will be continuously updated. ∗Corresponding author. 38th Conference on Neural Information Processing Systems (NeurIPS 2024) Track on Datasets and Benchmarks. arXiv:2409.20288v4 [cs.CL] 26 Nov 2024"
 research_topic: "Machine Learning"
@@ -65,6 +66,10 @@ research_topic: "Machine Learning"
 
 
 Large language models (LLMs) have made significant progress in natural language processing tasks and demonstrate considerable potential in the legal domain. However, legal applications demand high standards of accuracy, reliability, and fairness. Applying existing LLMs to legal systems without careful evaluation of their potential and limitations could pose significant risks in legal practice. To this end, we introduce a standardized comprehensive Chinese legal benchmark LexEval. This benchmark is notable in the following three aspects: (1) Ability Modeling: We propose a new taxonomy of legal cognitive abilities to organize different tasks. (2) Scale: To our knowledge, LexEval is currently the largest Chinese legal evaluation dataset, comprising 23 tasks and 14,150 questions. (3) Data: we utilize formatted existing datasets, exam datasets and newly annotated datasets by legal experts to comprehensively evaluate the various capabilities of LLMs. LexEval not only focuses on the ability of LLMs to apply fundamental legal knowledge but also dedicates efforts to examining the ethical issues involved in their application. We evaluated 38 open-source and commercial LLMs and obtained some interesting findings. The experiments and findings offer valuable insights into the challenges and potential solutions for developing Chinese legal systems and LLM evaluation pipelines. The LexEval dataset and leaderboard are publicly available at https://github.com/CSHaitao/LexEval and will be continuously updated. ∗Corresponding author. 38th Conference on Neural Information Processing Systems (NeurIPS 2024) Track on Datasets and Benchmarks. arXiv:2409.20288v4 [cs.CL] 26 Nov 2024
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, Baichuan-13B, Baichuan-7B, ChatGLM-6B, ChatGLM2, ChatGLM3, ChatGPT, GPT-4, GPT-3, InternLM, InternLM-7B, Llama-2, LLAMA-2-Chat, Llama, Qwen, Qwen-14B, Qwen-7B. Verified dataset/resource link: https://github.com/AndrewZhe/lawyer-llama.
 
 ## Notes
 

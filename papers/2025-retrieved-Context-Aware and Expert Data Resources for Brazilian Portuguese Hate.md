@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, Glove"
+DATA_URL: "https://github.com/franciellevargas/HateBR"
 tags: 
 abstract: "Expert data resources for Brazilian Portuguese hate speech detection. HateBR 2.0 corpus with mBERT achieving 85% F1-score."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -66,6 +67,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Expert data resources for Brazilian Portuguese hate speech detection. HateBR 2.0 corpus with mBERT achieving 85% F1-score.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Glove. Verified dataset/resource link: https://github.com/franciellevargas/HateBR.
 
 ## Notes
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "This paper adapts the five Tests developed by Maori scholar Sir Hirini Moko Mead -- a framework informed by Maori knowledge and concepts for assessing contentious issues -- to evaluate data-driven AI systems. The five tests (including Tapu, Mauri, and Take-utu-ea) provide concrete rubrics for designing and evaluating AI according to an Indigenous knowledge system. The framework offers an actionable alternative to Western AI ethics evaluation paradigms."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "Falconer"
+DATA_URL: NA
 research_topic: Other
 ---
 # The Five Tests: Designing and Evaluating AI According to Indigenous Maori Principles
@@ -64,6 +66,11 @@ This paper adapts the five Tests developed by Maori scholar Sir Hirini Moko Mead
 ## Dataset Information
 
 N/A (qualitative evaluation framework)
+
+
+## Data Description
+
+Backfill summary: Models assessed include Falconer. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract: "The safety and alignment of Large Language Models (LLMs) are critical
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Gemini, Claude, DeepSeek, Qwen, Grok"
+LLM_assessed: "Claude, DeepSeek, Qwen, Grok"
 DATA_URL: NA
 ---
 # D-REX: A Benchmark for Detecting Deceptive Reasoning in Large Language Models

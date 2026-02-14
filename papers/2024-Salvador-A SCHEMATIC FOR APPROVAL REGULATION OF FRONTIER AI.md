@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "GPT-2, Gemini, Gemini Ultra, Mistral-7B"
+DATA_URL: "https://paperswithcode.com/sota/multi-task-language-under-"
 ---
 # A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI
 

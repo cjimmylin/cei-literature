@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa, GPT-2, XLNet"
-DATA_URL: NA
+DATA_URL: "https://github.com/codelucas/newspaper"
 tags: 
 abstract: 
 research_topic: "NLP & Representation Learning"

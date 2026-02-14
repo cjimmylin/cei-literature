@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, BLOOM, ChatGPT, CommandR, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-3.5-Turbo, GPT-4, GPT-4o, GPT-4o-mini, GPT4, Gemma, Gemma-2, Gemma2, Llama, Llama-3, LLaMA-3.1, LLaMA-3.2, LLaMA-3.3, LLama3, Mistral-7B, PaLM 2, Palm, Phi-3, Qwen-2.5, Qwen2.5, WizardLM-2, phi-4"
+DATA_URL: NA
 tags: 
 abstract: 
 research_topic: Other
@@ -63,6 +65,10 @@ research_topic: Other
 ## Abstract
 
 Based on the search results, here's what I found regarding Dialectal Arabic NLP evaluation benchmarks and fairness in 2025: Key Developments Culture & Dialects is showing growing emphasis with 7 benchmarks in 2025 alone, reflecting recognition of cultural alignment importance. Important 2025 Benchmarks DialectalArabicMMLU: A detailed analysis of model behavior across dialects reveals substantial performance disparities and highlights the need for dialect-aware evaluation and traini
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, BLOOM, ChatGPT, CommandR, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-3.5-Turbo, GPT-4, GPT-4o, GPT-4o-mini, GPT4, Gemma, Gemma-2, Gemma2, Llama, Llama-3, LLaMA-3.1, LLaMA-3.2, LLaMA-3.3, LLama3, Mistral-7B, PaLM 2, Palm, Phi-3, Qwen-2.5, Qwen2.5, WizardLM-2, phi-4. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

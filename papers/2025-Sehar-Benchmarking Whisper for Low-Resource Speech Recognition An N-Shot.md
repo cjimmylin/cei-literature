@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Benchmarks Whisper ASR model on Pashto, Punjabi, and Urdu. Few-shot fine-tuning significantly reduces WER for Pashto's complex phonetic structures."
 research_topic: Other
@@ -63,6 +64,10 @@ research_topic: Other
 ## Abstract
 
 Benchmarks Whisper ASR model on Pashto, Punjabi, and Urdu. Few-shot fine-tuning significantly reduces WER for Pashto's complex phonetic structures.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

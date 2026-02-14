@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,6 +67,11 @@ research_topic: Other
 ## Dataset Information
 
 13 classification and detection tasks (6 Sanskrit, 7 Tibetan, 4 shared)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: Publicly released under CC-BY-4 License (code under Apache-2.0).
 
 ## Notes
 

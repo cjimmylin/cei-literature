@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ tags:
 abstract: "Transformer-based language models, more speciﬁcally BERT-based architectures have achieved state-of-the-art performance in many downstream tasks. However, for a relatively low-resource language such as Thai, the choices of models are limited to training a BERT-based model based on a much smaller dataset or ﬁnetuning multi-lingual models, both of which yield suboptimal downstream performance. Moreover, large-scale multi-lingual pretraining does not take into account language-speciﬁc features for..."
 data_description: "Annotated dataset"
 data_metrics: "78gb; 78.5gb"
-LLM_assessed: NA
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://huggingface.co/airesearch/wangchanberta-base-att-spm-uncased"
 research_topic: "NLP & Representation Learning"
 ---
@@ -65,6 +66,10 @@ Pre-trained Thai language model (RoBERTa-based) on 78.5GB Thai text corpus. Eval
 ## Benchmark
 
 **Name:** WangchanBERTa
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa. Verified dataset/resource link: https://huggingface.co/airesearch/wangchanberta-base-att-spm-uncased.
 
 ## Notes
 

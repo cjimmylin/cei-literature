@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, Falcon-7B, Gemma, Mistral-7B, ChatGPT"
+DATA_URL: NA
 tags: 
 abstract: "Extension of HOMO-MEX to 19 Spanish-speaking Latin American countries. Polarity detection for LGBTQ+ community messages. Track 2 tests cross-country generalization with training/test data from different countries."
 research_topic: Other
@@ -66,6 +67,10 @@ research_topic: Other
 ## Abstract
 
 Extension of HOMO-MEX to 19 Spanish-speaking Latin American countries. Polarity detection for LGBTQ+ community messages. Track 2 tests cross-country generalization with training/test data from different countries.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Falcon-7B, Gemma, Mistral-7B, ChatGPT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

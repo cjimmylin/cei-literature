@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT-4o, Qwen, Qwen 2.5"
+DATA_URL: "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0.1-32B"
 tags: 
 abstract: 
 research_topic: Other
@@ -63,6 +65,10 @@ research_topic: Other
 ## Abstract
 
 I've retrieved comprehensive search results on code-switching LLM benchmark evaluation. Here's a summary of the key findings: Recent Research and Benchmarks Current benchmarks for evaluating code-switching capabilities of language models primarily focus on surface-level tasks but largely overlook deeper reasoning and semantic understanding in mixed-language settings.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-4o, Qwen, Qwen 2.5. Verified dataset/resource link: https://huggingface.co/LGAI-EXAONE/EXAONE-4.0.1-32B.
 
 ## Notes
 

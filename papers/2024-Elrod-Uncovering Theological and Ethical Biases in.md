@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Summary: Uses creative text generation tasks based on the Ten Commandments (Exodus 20) and the Book of Jonah to probe theological and ethical biases. Finds a prevalent progressive bias across all models, aligning with contemporary socio-political and environmental concerns. Combines qualitative hermeneutical analysis with quantitative textual analysis."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "Claude, Claude 2, Claude-2., GPT-2, GPT-4, GPT-4 Turbo, Llama, Llama 2, PaLM, PaLM 2, Zephyr, Zephyr 7B"
+DATA_URL: "https://github.com/cjhutto/vaderSentiment"
 ethics_perspective: "Bias & Fairness"
 ---
 # Uncovering Theological and Ethical Biases in LLMs: An Integrated Hermeneutical Approach Employing Texts from the Hebrew Bible
@@ -64,6 +66,11 @@ Summary: Uses creative text generation tasks based on the Ten Commandments (Exod
 ## Dataset Information
 
 Structured prompts across 5 LLMs (10 Commandments generation + Book of Jonah continuation tasks)
+
+
+## Data Description
+
+Backfill summary: Models assessed include Claude, Claude 2, Claude-2., GPT-2, GPT-4, GPT-4 Turbo, Llama, Llama 2, PaLM, PaLM 2, Zephyr, Zephyr 7B. Verified dataset/resource link: https://github.com/cjhutto/vaderSentiment.
 
 ## Notes
 

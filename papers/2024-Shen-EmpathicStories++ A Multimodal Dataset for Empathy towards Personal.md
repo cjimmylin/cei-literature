@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract: "Modeling empathy is a complex endeavor that is rooted in interpersona
 research_topic: "Computer Vision & Multimodal"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "GPT-3, GPT-4"
 DATA_URL: "https://mitmedialab.github.io/empathic-stories-multimodal/"
 ---
 # EmpathicStories++: A Multimodal Dataset for Empathy towards Personal Experiences

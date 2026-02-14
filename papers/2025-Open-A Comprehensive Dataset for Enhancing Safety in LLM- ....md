@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude 3 Haiku, Claude 3 Opus, Claude 3 Sonnet, GPT-3, GPT-3.5 Turbo, GPT-4, GPT-4o, GPT-4o mini, Llama, Llama-3, LLaMA-3.1, LLaMA3, LLaMA3.1, LLaMA3.1., Qwen-2.5, Qwen2.5, Claude"
+DATA_URL: NA
 tags: 
 abstract: 
 ethics_perspective: "AI Safety & Alignment"
@@ -62,6 +64,10 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Based on my web search results, I was unable to find any specific information about "ShadowRisk" as a Chinese LLM safety benchmark related to black market TikTok or 2025. The search returned results about various LLM safety benchmarks from 2025, but no matches for ShadowRisk specifically.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude 3 Haiku, Claude 3 Opus, Claude 3 Sonnet, GPT-3, GPT-3.5 Turbo, GPT-4, GPT-4o, GPT-4o mini, Llama, Llama-3, LLaMA-3.1, LLaMA3, LLaMA3.1, LLaMA3.1., Qwen-2.5, Qwen2.5, Claude. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

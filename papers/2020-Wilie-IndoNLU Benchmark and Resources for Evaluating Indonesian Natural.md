@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, RoBERTa"
+DATA_URL: "https://github.com/ajinkyakulkarni14/TED-Multilingual-Parallel-Corpus"
 tags: 
 abstract: "Although Indonesian is known to be the fourth most frequently used language over the internet, the research progress on this language in natural language processing (NLP) is slowmoving due to a lack of available resources. In response, we introduce the ﬁrst-ever vast resource for training, evaluation, and benchmarking on Indonesian natural language understanding (IndoNLU) tasks. IndoNLU includes twelve tasks, ranging from single sentence classiﬁcation to pair-sentences sequence labeling with..."
 research_topic: "Machine Learning"
@@ -66,6 +67,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 First vast NLU benchmark for Indonesian with 12 tasks including sentiment analysis (SmSA), emotion classification (EmoT), and aspect-based sentiment analysis. Includes IndoBERT and Indo4B dataset.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, RoBERTa. Verified dataset/resource link: https://github.com/ajinkyakulkarni14/TED-Multilingual-Parallel-Corpus.
 
 ## Notes
 

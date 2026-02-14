@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, Bartl, ChatGPT, GPT-2, GPT-3, GPT-3.5, RoBERTa, T5"
+DATA_URL: "https://huggingface.co/rmihaylov/bert-base-bg"
 tags: 
 abstract: "Evaluation of transformer-based language models for Bulgarian NLP tasks. Foundation for subsequent BgGPT model development (2.6B, 9B, 27B based on Gemma-2). Includes benchmark evaluation across multiple Bulgarian NLU tasks."
 research_topic: "NLP & Representation Learning"
@@ -65,6 +66,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Evaluation of transformer-based language models for Bulgarian NLP tasks. Foundation for subsequent BgGPT model development (2.6B, 9B, 27B based on Gemma-2). Includes benchmark evaluation across multiple Bulgarian NLU tasks.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Bartl, ChatGPT, GPT-2, GPT-3, GPT-3.5, RoBERTa, T5. Verified dataset/resource link: https://huggingface.co/rmihaylov/bert-base-bg.
 
 ## Notes
 

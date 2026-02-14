@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_KYRIACOU2024
@@ -30,7 +31,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: NA
+LLM_assessed: "Bloom, ChatGPT, GPT-4"
 DATA_URL: NA
 ---
 # Artificial moral intelligence and computability: an Aristotelian perspective

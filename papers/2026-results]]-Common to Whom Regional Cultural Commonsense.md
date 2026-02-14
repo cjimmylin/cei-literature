@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Existing cultural commonsense benchmarks treat nations as monolithic, assuming uniform practices within national boundaries. But does cultural commonsense hold uniformly within a nation, or does it vary at the sub-national level? We introduce INDICA, the first benchmark designed to test LLMs’ ability to address this question, focusing on India—a nation of 28 states, 8 union territories, and 22 official languages."
 data_description: "Benchmark for bias and fairness annotated dataset"
 data_metrics: "515 questions"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "Claude, Claude Sonnet, DeepSeek, DeepSeek V3, DeepSeek-AI, DeepSeek-V3, Grok, Grok-4, Llama, Llama 3.3, Mistral, Mistral Large, Qwen, Qwen3"
+DATA_URL: NA
 ethics_perspective: "Social & Cultural Values"
 ---
 # Common to Whom? Regional Cultural Commonsense and LLM Bias in India
@@ -64,6 +66,10 @@ Introduces Indica benchmark testing LLMs' ability to handle regional vs national
 ## Benchmark
 
 **Name:** Indica
+
+## Data Description
+
+Backfill summary: Models assessed include Claude, Claude Sonnet, DeepSeek, DeepSeek V3, DeepSeek-AI, DeepSeek-V3, Grok, Grok-4, Llama, Llama 3.3, Mistral, Mistral Large, Qwen, Qwen3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

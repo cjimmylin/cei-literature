@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, ChatGPT, GPT 3, GPT 3.5, GPT-3, Llama, GPT-3.5, gpt-3.5-turbo"
+DATA_URL: "https://github.com/maritaca-ai/maritalk-api"
 tags: 
 abstract: "Comparative study of LLMs for toxic speech detection in Portuguese, presented at PROPOR 2024 in Santiago de Compostela."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -63,6 +64,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Comparative study of LLMs for toxic speech detection in Portuguese, presented at PROPOR 2024 in Santiago de Compostela.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT, GPT 3, GPT 3.5, GPT-3, Llama, GPT-3.5, gpt-3.5-turbo. Verified dataset/resource link: https://github.com/maritaca-ai/maritalk-api.
 
 ## Notes
 

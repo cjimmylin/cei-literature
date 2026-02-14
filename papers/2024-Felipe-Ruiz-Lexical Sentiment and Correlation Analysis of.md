@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract: "Analyzes sacred texts from 14 different belief systems using lexical,
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: "Social & Cultural Analysis"
 ---
 # Lexical, Sentiment and Correlation Analysis of Sacred Writings: A Tale of Cultural Influxes and Different Ways to Interpret Reality
@@ -64,6 +66,11 @@ Analyzes sacred texts from 14 different belief systems using lexical, sentiment,
 ## Dataset Information
 
 14 sacred texts analyzed
+
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

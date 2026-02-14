@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: 
 research_topic: "Machine Translation"
@@ -62,6 +63,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Based on the web search results, here's what I found regarding Uyghur language technology, NLP resources, and evaluation: Overview of Uyghur NLP Resources There is a critical resource gap in Uyghur Natural Language Processing (NLP), with researchers introducing dependency annotation frameworks to overcome the limitations of existing treebanks for the low-resource, agglutinative language. Key NLP Resources and Tools Linguistic resources for low-resource language programs include Represen
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

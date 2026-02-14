@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Accurate and contextually faithful responses are critical when applying large language models (LLMs) to sensitive and domain-specific tasks, such as answering queries related to quranic studies. General-purpose LLMs often struggle with hallucinations, where generated responses deviate from authoritative sources, raising concerns about their reliability in religious contexts. This challenge highlights the need for systems that can integrate domain-specific knowledge while maintaining response..."
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "GPT-4, Gemma, Gemma 2, Gemma2, Llama, Llama 3, Llama 3.1, Llama 3.2, Llama 3.3, Llama3, Llama3.1, Llama3.2, Llama3.3, Phi3"
+DATA_URL: NA
 research_topic: "Question Answering"
 ---
 # Investigating Retrieval-Augmented Generation in Quranic Studies: A Study of 13 Open-Source Large Language Models
@@ -64,6 +66,11 @@ Systematic evaluation of 13 open-source LLMs (categorized by size: large, medium
 ## Dataset Information
 
 Quranic QA evaluation set (specific size not stated)
+
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4, Gemma, Gemma 2, Gemma2, Llama, Llama 3, Llama 3.1, Llama 3.2, Llama 3.3, Llama3, Llama3.1, Llama3.2, Llama3.3, Phi3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

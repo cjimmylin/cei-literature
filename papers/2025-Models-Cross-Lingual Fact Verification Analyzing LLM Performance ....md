@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT-4, Llama-2, Llama, Llama 3.1, Qwen 2.5, BERT, llama 3"
+DATA_URL: "https://github.com/Aniezka/cross-lingual-fact-"
 tags: 
 abstract: "Fact verification has emerged as a critical task in combating misinformation, yet most research remains focused on English-language applications. This paper presents a comprehensive analysis of multilingual fact verification capabilities across three state-of-the-art large language models: Llama 3.1, Qwen 2.5, and Mistral Nemo. We evaluate these models on the X-Fact dataset that includes 25 typologically diverse languages, examining both seen and unseen languages through various evaluation scenarios. Our analysis employs few-shot prompting and LoRA fine-tuning approaches, revealing significant performance disparities based on script systems, with Latin script languages consistently outperforming others. We identify systematic cross-lingual instruction following failures, particularly affecting languages with non-Latin scripts. Surprisingly, some officially supported languages, such as Indonesian and Polish, which are not high-resource languages, achieve better performance than high-resource languages like German and Spanish, challenging conventional assumptions about resource availability and model performance. The results highlight critical limitations in current multilingual LLMs for the fact verification task and provide insights for developing more inclusive multilingual systems."
 research_topic: "Machine Translation"
@@ -65,6 +67,10 @@ research_topic: "Machine Translation"
 
 
 Fact verification has emerged as a critical task in combating misinformation, yet most research remains focused on English-language applications. This paper presents a comprehensive analysis of multilingual fact verification capabilities across three state-of-the-art large language models: Llama 3.1, Qwen 2.5, and Mistral Nemo. We evaluate these models on the X-Fact dataset that includes 25 typologically diverse languages, examining both seen and unseen languages through various evaluation scenarios. Our analysis employs few-shot prompting and LoRA fine-tuning approaches, revealing significant performance disparities based on script systems, with Latin script languages consistently outperforming others. We identify systematic cross-lingual instruction following failures, particularly affecting languages with non-Latin scripts. Surprisingly, some officially supported languages, such as Indonesian and Polish, which are not high-resource languages, achieve better performance than high-resource languages like German and Spanish, challenging conventional assumptions about resource availability and model performance. The results highlight critical limitations in current multilingual LLMs for the fact verification task and provide insights for developing more inclusive multilingual systems.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-4, Llama-2, Llama, Llama 3.1, Qwen 2.5, BERT, llama 3. Verified dataset/resource link: https://github.com/Aniezka/cross-lingual-fact-.
 
 ## Notes
 

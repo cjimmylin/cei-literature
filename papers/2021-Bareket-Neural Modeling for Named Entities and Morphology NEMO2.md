@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GloVe"
+DATA_URL: "https://github.com/OnlpLab/NEMO"
 tags: 
 abstract: "NER annotations of Hebrew Treebank (Haaretz newspaper) at morpheme and token levels. Novel hybrid architecture for NER in morphologically rich Hebrew. Corpus includes nested mentions and BIOSE format."
 research_topic: Other
@@ -70,6 +71,10 @@ research_topic: Other
 ## Abstract
 
 NER annotations of Hebrew Treebank (Haaretz newspaper) at morpheme and token levels. Novel hybrid architecture for NER in morphologically rich Hebrew. Corpus includes nested mentions and BIOSE format.
+
+## Data Description
+
+Backfill summary: Models assessed include GloVe. Verified dataset/resource link: https://github.com/OnlpLab/NEMO.
 
 ## Notes
 

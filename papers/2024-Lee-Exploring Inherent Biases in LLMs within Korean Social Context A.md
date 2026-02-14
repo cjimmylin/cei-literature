@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT-4"
+DATA_URL: NA
 tags: 
 abstract: "Explores inherent biases and toxicity of LLMs within Korean social context. Devises prompts reflecting major Korean societal issues. Assigns varied personas to ChatGPT and GPT-4. Finds GPT-4 can produce 2x more toxic content than ChatGPT under certain conditions."
 research_topic: Other
@@ -67,6 +68,10 @@ research_topic: Other
 ## Abstract
 
 Explores inherent biases and toxicity of LLMs within Korean social context. Devises prompts reflecting major Korean societal issues. Assigns varied personas to ChatGPT and GPT-4. Finds GPT-4 can produce 2x more toxic content than ChatGPT under certain conditions.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-4. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

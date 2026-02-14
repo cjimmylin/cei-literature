@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ tags:
 abstract: "Despite the remarkable achievements of large language models (LLMs) in various tasks, there remains a linguistic bias that favors highresource languages, such as English, often at the expense of low-resource and regional languages. To address this imbalance, we introduce SeaLLMs, an innovative series of language models that specifically focuses on Southeast Asian (SEA) languages. SeaLLMs are built upon popular English-centric models through continued pre-training with an extended vocabulary,..."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-4, Gemma, Llama, Llama-2, Mistral-7B, Qwen1.5"
 DATA_URL: "https://huggingface.co/SeaLLMs"
 ethics_perspective: "AI Safety & Alignment"
 ---
@@ -65,6 +66,10 @@ Family of LLMs tailored for SEA languages. Includes SeaRefuse benchmark assessin
 ## Benchmark
 
 **Name:** SeaLLMs, SeaRefuse
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-3, GPT-3.5, GPT-4, Gemma, Llama, Llama-2, Mistral-7B, Qwen1.5. Verified dataset/resource link: https://huggingface.co/SeaLLMs.
 
 ## Notes
 

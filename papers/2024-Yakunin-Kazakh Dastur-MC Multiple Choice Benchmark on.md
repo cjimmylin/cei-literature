@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,6 +66,10 @@ Multiple-choice benchmark dataset evaluating knowledge of Kazakh traditions ('da
 ## Benchmark
 
 **Name:** Dastur-MC
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/kz-transformers/kazakh-dastur-mc.
 
 ## Notes
 

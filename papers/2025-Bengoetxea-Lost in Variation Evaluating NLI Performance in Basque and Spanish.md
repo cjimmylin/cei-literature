@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, Gemma, Gemma 2, Gemma-2, Llama 3.1, Llama-3.1, Llama-3.1., RoBERTa, llama 3"
+DATA_URL: "https://huggingface.co/datasets/HiTZ/XNLIvar"
 tags: 
 abstract: "In this paper, we evaluate the capacity of current language technologies to understand Basque and Spanish language varieties. We use Natural Language Inference (NLI) as a pivot task and introduce a novel, manually-curated parallel dataset in Basque and Spanish, along with their respective variants. Our empirical analysis of crosslingual and in-context learning experiments using encoder-only and decoderbased Large Language Models (LLMs) shows a performance drop when handling linguistic..."
 research_topic: "Machine Learning"
@@ -63,6 +64,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Novel manually-curated parallel NLI dataset for Basque and Spanish geographic variants. First variation-inclusive corpus for these languages. Shows performance drop with linguistic variation, especially in Basque. Published at CoNLL 2025.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Gemma, Gemma 2, Gemma-2, Llama 3.1, Llama-3.1, Llama-3.1., RoBERTa, llama 3. Verified dataset/resource link: https://huggingface.co/datasets/HiTZ/XNLIvar.
 
 ## Notes
 

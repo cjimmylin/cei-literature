@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, DistilBERT, RoBERTa"
+DATA_URL: "https://github.com/Farhan-jafri/Russia-Ukraine"
 tags: 
 abstract: "Comprehensive multimodal dataset of 20,675 posts from Russia-Ukraine crisis, annotated for hate speech with target categorization (Individual, Organization, Community)."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -71,6 +72,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Comprehensive multimodal dataset of 20,675 posts from Russia-Ukraine crisis, annotated for hate speech with target categorization (Individual, Organization, Community).
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, DistilBERT, RoBERTa. Verified dataset/resource link: https://github.com/Farhan-jafri/Russia-Ukraine.
 
 ## Notes
 

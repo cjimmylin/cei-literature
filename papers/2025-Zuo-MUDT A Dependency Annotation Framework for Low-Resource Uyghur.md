@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: "https://github.com/wyqmath/MUDT"
 tags: 
 abstract: "Developing effective educational technologies for low-resource agglutinative languages like Uyghur is often hindered by the mismatch between existing annotation frameworks and specific grammatical structures. To address this challenge, this study introduces the Modern Uyghur Dependency Treebank (MUDT), a linguistically grounded annotation framework specifically designed to capture the agglutinative complexity of Uyghur, including zero copula constructions and fine-grained case marking. Utilizing a hybrid pipeline that combines Large Language Model pre-annotation with rigorous human correction, a high-quality treebank consisting of 3,456 sentences was constructed. Intrinsic structural evaluation reveals that MUDT significantly improves dependency projectivity by reducing the crossing-arc rate from 7.35% in the Universal Dependencies standard to 0.06%. Extrinsic parsing experiments using UDPipe and Stanza further demonstrate that models trained on MUDT achieve superior in-domain accuracy and cross-domain generalization compared to UD-based baselines. To validate the practical utility of this computational resource, an AI-assisted grammar tutoring system was developed to translate MUDT-based syntactic analyses into interpretable pedagogical feedback. A controlled experiment involving 35 second-language learners indicated that students receiving syntax-aware feedback achieved significantly higher learning gains compared to those in a control group. These findings establish MUDT as a robust foundation for syntactic analysis and underscore the critical role of linguistically informed natural language processing resources in bridging the gap between computational models and the cognitive needs of second-language learners."
 research_topic: Other
@@ -66,6 +67,10 @@ research_topic: Other
 
 
 Developing effective educational technologies for low-resource agglutinative languages like Uyghur is often hindered by the mismatch between existing annotation frameworks and specific grammatical structures. To address this challenge, this study introduces the Modern Uyghur Dependency Treebank (MUDT), a linguistically grounded annotation framework specifically designed to capture the agglutinative complexity of Uyghur, including zero copula constructions and fine-grained case marking. Utilizing a hybrid pipeline that combines Large Language Model pre-annotation with rigorous human correction, a high-quality treebank consisting of 3,456 sentences was constructed. Intrinsic structural evaluation reveals that MUDT significantly improves dependency projectivity by reducing the crossing-arc rate from 7.35% in the Universal Dependencies standard to 0.06%. Extrinsic parsing experiments using UDPipe and Stanza further demonstrate that models trained on MUDT achieve superior in-domain accuracy and cross-domain generalization compared to UD-based baselines. To validate the practical utility of this computational resource, an AI-assisted grammar tutoring system was developed to translate MUDT-based syntactic analyses into interpretable pedagogical feedback. A controlled experiment involving 35 second-language learners indicated that students receiving syntax-aware feedback achieved significantly higher learning gains compared to those in a control group. These findings establish MUDT as a robust foundation for syntactic analysis and underscore the critical role of linguistically informed natural language processing resources in bridging the gap between computational models and the cognitive needs of second-language learners.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/wyqmath/MUDT.
 
 ## Notes
 

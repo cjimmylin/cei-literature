@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT-3, GPT-4, electra"
+DATA_URL: NA
 tags: 
 abstract: "Caution: this paper may include material that could be offensive or distressing. The advent of Large Language Models (LLMs) necessitates the development of training approaches that mitigate the generation of unethical language and aptly manage toxic user queries. Given the challenges related to human labor and the scarcity of data, we present KoTox, comprising 39K unethical instruction-output pairs."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -65,6 +66,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 39K unethical instruction-output pairs for Korean LLM ethical tuning. Covers political bias, crime, and hate categories. Generated using predefined lexicons and templates for diverse toxic inputs.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-3, GPT-4, electra. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

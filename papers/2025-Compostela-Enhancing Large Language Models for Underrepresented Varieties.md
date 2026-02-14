@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BLOOM, LLama-3.1, Llama, Llama 3.1"
+DATA_URL: "https://github.com/proxectonos/instruction_datasets"
 tags: 
 abstract: "Systematic exploration of pretraining strategies for generative LLMs in the Galician-Portuguese diasystem. Investigates combining vs separating varieties and quality vs scale tradeoffs."
 research_topic: Other
@@ -63,6 +65,10 @@ research_topic: Other
 ## Abstract
 
 Systematic exploration of pretraining strategies for generative LLMs in the Galician-Portuguese diasystem. Investigates combining vs separating varieties and quality vs scale tradeoffs.
+
+## Data Description
+
+Backfill summary: Models assessed include BLOOM, LLama-3.1, Llama, Llama 3.1. Verified dataset/resource link: https://github.com/proxectonos/instruction_datasets.
 
 ## Notes
 

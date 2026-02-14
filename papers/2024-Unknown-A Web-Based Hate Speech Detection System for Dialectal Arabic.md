@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: NA
 tags: 
 abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
@@ -63,6 +64,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Based on the search results, here's what I found about the ADHAR multi-dialectal Arabic hate speech corpus: Overview ADHAR is a comprehensive multi-dialect, multi-category hate speech corpus for Arabic. The paper was published in Frontiers in Artificial Intelligence in May 2024.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,7 @@
 ---
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +36,8 @@ tags:
 abstract: "Introduces pluralism as a benchmark metric for AI chatbots using the 'Magic Wand Survey' measuring cognitive pluralism (recognizing multiple perspectives) and behavioral pluralism (willingness to preserve difference). Chatbots show higher cognitive than behavioral pluralism; cognitive pluralism exceeds human levels but behavioral pluralism is lower on morally charged issues. Gemini 1.5 Pro most pluralistic; ChatGPT 4o the least. Directly relevant to multi-faith AI evaluation."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ChatGPT, Claude, Claude 3.5, Claude 3.5 Sonnet, DeepSeek"
+DATA_URL: NA
 ethics_perspective: "General Ethics"
 ---
 # How Much of a Pluralist is ChatGPT? A Comparative Study of Value Pluralism in Generative AI Chatbots
@@ -64,6 +67,11 @@ Introduces pluralism as a benchmark metric for AI chatbots using the "Magic Wand
 ## Dataset Information
 
 Magic Wand Survey instrument measuring 2 pluralism dimensions
+
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, Claude, Claude 3.5, Claude 3.5 Sonnet, DeepSeek. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

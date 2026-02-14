@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract: "How could LLMs influence our democracy? We investigate LLMs’ politi
 ethics_perspective: "AI Safety & Alignment"
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Llama-2, Gemini, Mixtral, Alpaca, Vicuna, Qwen"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Llama-2, Mixtral, Alpaca, Vicuna, Qwen"
 DATA_URL: NA
 ---
 # Hidden Persuaders: LLMs' Political Leaning and Their Influence on Voters

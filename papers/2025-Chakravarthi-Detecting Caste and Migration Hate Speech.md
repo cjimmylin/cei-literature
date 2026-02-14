@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Novel dataset of 7,875 annotated comments for detecting caste and migration hate speech in Tamil. Publicly available. Baseline macro-F1 of 0.73. Used in LT-EDI 2025 shared task with multiple participating teams. Directly addresses caste-based hate speech in Tamil - a critical cultural values issue. Publicly available dataset with shared task facilitating reproducible research."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, BLOOM, BLOOM-560, RoBERTa, Word2Vec"
+DATA_URL: NA
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Detecting Caste and Migration Hate Speech in Low-Resource Tamil Language
@@ -61,6 +63,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Novel dataset of 7,875 annotated comments for detecting caste and migration hate speech in Tamil. Publicly available. Baseline macro-F1 of 0.73. Used in LT-EDI 2025 shared task with multiple participating teams. Directly addresses caste-based hate speech in Tamil - a critical cultural values issue. Publicly available dataset with shared task facilitating reproducible research.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, BLOOM, BLOOM-560, RoBERTa, Word2Vec. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

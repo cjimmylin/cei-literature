@@ -1,4 +1,7 @@
 ---
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +36,8 @@ tags:
 abstract: "Large language models (LLMs) have become integral tool for users from various backgrounds. Pre-trained on vast corpora, LLMs reflect the linguistic and cultural nuances embedded in their training data. However, the values and perspectives inherent in this data can influence the behavior of LLMs, leading to potential biases. As a result, the use of LLMs in contexts involving spiritual or moral values necessitates careful consideration of these underlying biases."
 data_description: "Evaluation approach text corpus for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ChatGLM, ChatGLM 2, Chatglm2, CodeLlama, GPT-2, GPT-4, GPT-4-turbo, GPT2, Llama-2, Llama-3, Llama, Llama 3, Llama2, Llama3, Mistral, Phi-3, Qwen 1.5, Qwen-1.5, Vicuna, Vicuna 1.5"
+DATA_URL: NA
 ethics_perspective: "Bias & Fairness"
 ---
 # Measuring Spiritual Values and Bias of Large Language Models
@@ -64,6 +67,11 @@ Develops psychometric assessment tools (SP-Typology and SP-10Axes) to measure sp
 ## Dataset Information
 
 SP-Typology and SP-10Axes questionnaire instruments (133 statements)
+
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGLM, ChatGLM 2, Chatglm2, CodeLlama, GPT-2, GPT-4, GPT-4-turbo, GPT2, Llama-2, Llama-3, Llama, Llama 3, Llama2, Llama3, Mistral, Phi-3, Qwen 1.5, Qwen-1.5, Vicuna, Vicuna 1.5. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

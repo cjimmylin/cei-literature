@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Multi-task benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, DistilBERT, RoBERTa, T5, T5-base, T5-based"
+DATA_URL: "https://github.com/tarudesu/ViHateT5"
 tags: 
 abstract: "Recent advancements in hate speech detection (HSD) in Vietnamese have made significant progress, primarily attributed to the emergence of transformer-based pre-trained language models, particularly those built on the BERT architecture. However, the necessity for specialized fine-tuned models has resulted in the complexity and fragmentation of developing a multitasking HSD system. Moreover, most current methodologies focus on fine-tuning general pre-trained models, primarily trained on formal..."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -70,6 +72,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 T5-based model pre-trained on large-scale Vietnamese hate speech domain data (VOZ-HSD). Achieves SOTA on all standard Vietnamese HSD benchmarks. Unified model handles multiple tasks: hate speech detection, offensive language identification, hate spans detection.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, DistilBERT, RoBERTa, T5, T5-base, T5-based. Verified dataset/resource link: https://github.com/tarudesu/ViHateT5.
 
 ## Notes
 

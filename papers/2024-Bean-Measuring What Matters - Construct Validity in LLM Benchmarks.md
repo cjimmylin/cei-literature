@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ abstract:
 research_topic: Other
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "GPT-4, GPT-4o mini"
 DATA_URL: NA
 ---
 # Measuring What Matters -- Construct Validity in LLM Benchmarks

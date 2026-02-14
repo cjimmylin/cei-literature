@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude-4-sonnet, DeepSeek, DeepSeek 29, DeepSeek-V3, GPT-4, GPT-4o, Llama, Qwen, Qwen2.5, Qwen3, claude-4"
+DATA_URL: "https://huggingface.co/ERC-ITEA/MuduoLLM"
 tags: 
 abstract: "With the rapid development of large language models (LLMs), various LLMbased works have been widely applied in educational fields. However, most existing LLMs and their benchmarks focus primarily on the knowledge dimension, largely neglecting the evaluation of cultivation capabilities that are essential for real-world educational scenarios. Additionally, current benchmarks are often limited to a single subject or question type, lacking sufficient diversity. This issue is particularly prominent within the Chinese context. To address this gap, we introduce OmniEduBench, a comprehensive Chinese educational benchmark. OmniEduBench consists of 24.602K high-quality question-answer pairs. The data is meticulously divided into two core dimensions: the knowledge dimension and the cultivation dimension, which contain 18.121K and 6.481K entries, respectively. Each dimension is further subdivided into 6 fine-grained categories, covering a total of 61 different subjects (41 in the knowledge and 20 in the cultivation). Furthermore, the dataset features a rich variety of question formats, including 11 common exam question types, providing a solid foundation for comprehensively evaluating LLMs’ capabilities in education. Extensive experiments on 11 mainstream open-source and closed-source LLMs reveal a clear performance gap. In the knowledge dimension, only Gemini-2.5 Pro surpassed 60% accuracy, while in the cultivation dimension, the best-performing model, QWQ, still trailed human intelligence by nearly 30%. These results highlight the substantial room for improvement and underscore the challenges of applying LLMs in education."
 research_topic: "Machine Learning"
@@ -66,6 +68,10 @@ research_topic: "Machine Learning"
 
 
 With the rapid development of large language models (LLMs), various LLMbased works have been widely applied in educational fields. However, most existing LLMs and their benchmarks focus primarily on the knowledge dimension, largely neglecting the evaluation of cultivation capabilities that are essential for real-world educational scenarios. Additionally, current benchmarks are often limited to a single subject or question type, lacking sufficient diversity. This issue is particularly prominent within the Chinese context. To address this gap, we introduce OmniEduBench, a comprehensive Chinese educational benchmark. OmniEduBench consists of 24.602K high-quality question-answer pairs. The data is meticulously divided into two core dimensions: the knowledge dimension and the cultivation dimension, which contain 18.121K and 6.481K entries, respectively. Each dimension is further subdivided into 6 fine-grained categories, covering a total of 61 different subjects (41 in the knowledge and 20 in the cultivation). Furthermore, the dataset features a rich variety of question formats, including 11 common exam question types, providing a solid foundation for comprehensively evaluating LLMs’ capabilities in education. Extensive experiments on 11 mainstream open-source and closed-source LLMs reveal a clear performance gap. In the knowledge dimension, only Gemini-2.5 Pro surpassed 60% accuracy, while in the cultivation dimension, the best-performing model, QWQ, still trailed human intelligence by nearly 30%. These results highlight the substantial room for improvement and underscore the challenges of applying LLMs in education.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude-4-sonnet, DeepSeek, DeepSeek 29, DeepSeek-V3, GPT-4, GPT-4o, Llama, Qwen, Qwen2.5, Qwen3, claude-4. Verified dataset/resource link: https://huggingface.co/ERC-ITEA/MuduoLLM.
 
 ## Notes
 

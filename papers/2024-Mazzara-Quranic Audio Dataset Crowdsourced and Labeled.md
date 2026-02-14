@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,6 +67,11 @@ Crowdsourced Quranic recitation dataset focused on non-Arabic speakers learning 
 ## Dataset Information
 
 ~7,000 recitations from 1,287 participants across 11+ non-Arabic countries; 1,166 annotated in 6 categories
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/RetaSy/quranic_audio_dataset.
 
 ## Notes
 

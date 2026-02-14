@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,6 +66,11 @@ Summary: Seven orthodox theologians graded seven LLMs on responses to the most-G
 ## Dataset Information
 
 7 theological questions x 7 LLMs, graded by 7 theologians
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://www.thegospelcoalition.org/ai-christian-benchmark/.
 
 ## Notes
 

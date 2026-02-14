@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, Claude"
+DATA_URL: NA
 tags: 
 abstract: "We release MTQE.en-he: to our knowledge, the first publicly available English-Hebrew benchmark for Machine Translation Quality Estimation. MTQE.en-he contains 959 English segments from WMT24++, each paired with a machine translation into Hebrew, and Direct Assessment scores of the translation quality annotated by three human experts. We benchmark ChatGPT prompting, TransQuest, and CometKiwi and show that ensembling the three models outperforms the best single model (CometKiwi) by 6."
 research_topic: "Machine Translation"
@@ -65,6 +66,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 First publicly available dataset for English-Hebrew machine translation quality estimation. 959 segments annotated by 3 human experts across literary, news, social, and speech domains. Benchmarks ChatGPT, TransQuest, and CometKiwi.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, Claude. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

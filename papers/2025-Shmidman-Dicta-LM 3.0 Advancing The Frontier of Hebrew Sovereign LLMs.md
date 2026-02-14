@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT4o, Gemma, Gemma 3, Llama, Llama 3, Mistral Small, Mistral-Small, Qwen, Qwen3, gemma-3"
+DATA_URL: "https://github.com/NVIDIA-NeMo/RL"
 tags: 
 abstract: "State-of-the-art sovereign Hebrew LLMs (24B, 12B, 1.7B params) with new chat-style benchmark suite including Translation, Summarization, Winograd, Israeli Trivia, and Diacritization. Evaluated on Hebrew LLM Leaderboard."
 research_topic: Other
@@ -66,6 +68,10 @@ research_topic: Other
 ## Abstract
 
 State-of-the-art sovereign Hebrew LLMs (24B, 12B, 1.7B params) with new chat-style benchmark suite including Translation, Summarization, Winograd, Israeli Trivia, and Diacritization. Evaluated on Hebrew LLM Leaderboard.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT4o, Gemma, Gemma 3, Llama, Llama 3, Mistral Small, Mistral-Small, Qwen, Qwen3, gemma-3. Verified dataset/resource link: https://github.com/NVIDIA-NeMo/RL.
 
 ## Notes
 

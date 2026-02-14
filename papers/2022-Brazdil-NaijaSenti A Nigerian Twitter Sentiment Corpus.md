@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ tags:
 abstract: "Sentiment analysis is one of the most widely studied applications in NLP, but most work focuses on languages with large amounts of data. We introduce the ﬁrst large-scale human-annotated Twitter sentiment dataset for the four most widely spoken languages in Nigeria—Hausa, Igbo, Nigerian-Pidgin, and Yorùbá—consisting of around 30,000 annotated tweets per language, including a signiﬁcant fraction of code-mixed tweets."
 data_description: "Evaluation methodology annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, Debertav3"
 DATA_URL: "https://huggingface.co/datasets/HausaNLP/NaijaSenti-Twitter"
 research_topic: "NLP & Representation Learning"
 ---
@@ -66,6 +67,10 @@ First large-scale human-annotated Twitter sentiment dataset for four Nigerian la
 ## Benchmark
 
 **Name:** NaijaSenti
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Debertav3. Verified dataset/resource link: https://huggingface.co/datasets/HausaNLP/NaijaSenti-Twitter.
 
 ## Notes
 

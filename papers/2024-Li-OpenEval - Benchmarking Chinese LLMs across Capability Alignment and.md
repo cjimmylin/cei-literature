@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ abstract: "The rapid development of Chinese large language models (LLMs) poses b
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "7 datasets; 6 datasets"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "Baichuan2, ChatGPT, GPT-3, GPT-3.5, GPT-4, InternLM, InternLM Team, InternLM-Chat, Qwen, Qwen Qwen, Qwen Table, Qwen technical, Qwen-72B, Qwen-7B, Yi 16, Yi-34B, alpaca, Llama"
+DATA_URL: "https://github.com/01-ai/Yi"
 ---
 # OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety
 

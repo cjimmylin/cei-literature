@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://github.com/ZILiAT-NASK/BAN-PL"
 tags: 
 abstract: "Since the Internet is flooded with hate, it is one of the main tasks for NLP experts to master automated online content moderation. However, advancements in this field require improved access to publicly available accurate and non-synthetic datasets of social media content. For the Polish language, such resources are very limited. In this paper, we address this gap by presenting a new open dataset of offensive social media content for the Polish language. The dataset comprises content from Wykop."
 ethics_perspective: "AI Safety & Alignment"
@@ -65,6 +67,10 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 First open Polish dataset of 691,662 posts from Wykop.pl (Polish Reddit) banned by moderators, with 24,000 publicly released samples annotated as harmful/neutral. Addresses offensive language detection in Polish.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa. Verified dataset/resource link: https://github.com/ZILiAT-NASK/BAN-PL.
 
 ## Notes
 

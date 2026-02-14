@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: "text-davinci, RoBERTa"
+LLM_assessed: "RoBERTa"
 DATA_URL: NA
 DATE_ADDED: 20260207
 ---

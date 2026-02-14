@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_dataset: Yes
 data_description: "Dataset for question answering"
 data_metrics: "12,282 question"
 LLM_assessed: "BERT, RoBERTa, T5"
-DATA_URL: NA
+DATA_URL: "https://github.com/sajjjadayobi/PersianQA"
 ---
 # IslamicPCQA: A Dataset for Persian Multi-hop Complex Question Answering in Islamic Text Resources
 

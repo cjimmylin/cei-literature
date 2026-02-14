@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "QA benchmark across 12 languages and 10 domains including law, health
 data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: "Question Answering"
 ---
 # IndQA: An Indic QA Benchmark for LLMs
@@ -64,6 +65,10 @@ QA benchmark across 12 languages and 10 domains including law, health, history, 
 ## Benchmark
 
 **Name:** IndQA
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

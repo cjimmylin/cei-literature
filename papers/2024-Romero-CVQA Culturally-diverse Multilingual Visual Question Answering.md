@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Visual Question Answering (VQA) is an important task in multimodal AI, and it is often used to test the ability of vision-language models to understand and reason on knowledge present in both visual and textual data. However, most of the current VQA models use datasets that are primarily focused on English and a few major world languages, with images that are typically Western-centric. While recent efforts have tried to increase the number of languages covered on VQA ∗Equal Contribution 38th..."
 data_description: "Multilingual benchmark for bias and fairness dataset for question answering"
 data_metrics: "10k questions; 2024 datasets; 31 languages"
-LLM_assessed: NA
+LLM_assessed: "BLOOMZ, GPT-4, GPT-4o, Llama-2, RoBERTa, ChatGPT, Llama"
 DATA_URL: "https://cvqa-benchmark.org/"
 ethics_perspective: "Social & Cultural Values"
 ---
@@ -65,6 +67,10 @@ Culturally-diverse multilingual VQA benchmark with 10k questions across 31 langu
 ## Benchmark
 
 **Name:** CVQA
+
+## Data Description
+
+Backfill summary: Models assessed include BLOOMZ, GPT-4, GPT-4o, Llama-2, RoBERTa, ChatGPT, Llama. Verified dataset/resource link: https://cvqa-benchmark.org/.
 
 ## Notes
 

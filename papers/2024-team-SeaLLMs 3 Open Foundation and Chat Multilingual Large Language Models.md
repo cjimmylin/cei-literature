@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4, GPT-4o, Gemma, Gemma-1.1, Llama, Llama-3, Qwen, Qwen2"
+DATA_URL: "https://github.com/DAMO-NLP-SG/SeaExam"
 tags: 
 abstract: "Large Language Models (LLMs) have shown remarkable abilities across various tasks, yet their development has predominantly centered on high-resource languages like English and Chinese, leaving low-resource languages underserved. To address this disparity, we present SeaLLMs 3, the latest iteration of the SeaLLMs model family, tailored for Southeast Asian languages. This region, characterized by its rich linguistic diversity, has lacked adequate language technology support."
 ethics_perspective: "AI Safety & Alignment"
@@ -65,6 +67,10 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 SeaLLMs-v3-7B-Chat achieves 79.7% average safe rate across languages. Excels particularly in Javanese, Khmer, Lao, Burmese, Thai, and Chinese. Reduced hallucination and improved safety with coherent responses.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4, GPT-4o, Gemma, Gemma-1.1, Llama, Llama-3, Qwen, Qwen2. Verified dataset/resource link: https://github.com/DAMO-NLP-SG/SeaExam.
 
 ## Notes
 

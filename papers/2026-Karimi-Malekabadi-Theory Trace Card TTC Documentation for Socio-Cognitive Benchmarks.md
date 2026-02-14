@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "Socio-cognitive benchmarks for large language models (LLMs) often fai
 research_topic: "Machine Learning"
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "GPT-4"
 DATA_URL: NA
 ---
 # Theory Trace Card (TTC): Documentation for Socio-Cognitive Benchmarks

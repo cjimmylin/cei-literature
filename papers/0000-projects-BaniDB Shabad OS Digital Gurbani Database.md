@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -69,6 +71,11 @@ research_topic: Other
 ## Dataset Information
 
 43,000+ corrections/changes to digitized Guru Granth Sahib; full Sikh canonical texts
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/KhalisFoundation/banidb-api / https://github.com/shabados/database / https://www.banidb.com/.
 
 ## Notes
 

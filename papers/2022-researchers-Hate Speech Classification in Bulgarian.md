@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, Word2Vec"
+DATA_URL: "https://github.com/vpodpecan/lemmagen3"
 tags: 
 abstract: "Dataset of 108,142 annotated sentences from Bulgarian online forums. Categories: racism, sexism, rudeness, profanity. ~1.74% hate speech. SVM with character-level TF-IDF performs best."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -63,6 +64,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Dataset of 108,142 annotated sentences from Bulgarian online forums. Categories: racism, sexism, rudeness, profanity. ~1.74% hate speech. SVM with character-level TF-IDF performs best.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, Word2Vec. Verified dataset/resource link: https://github.com/vpodpecan/lemmagen3.
 
 ## Notes
 

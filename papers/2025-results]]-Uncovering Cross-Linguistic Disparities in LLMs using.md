@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "Multilingual Large Language Models (LLMs) exhibit strong cross-linguistic generalization, yet medium-to-low resource languages underperform in common benchmarks (ARC-C, MMLU, HellaSwag). We analyze activation patterns in Gemma-2-2B across all 26 residual layers and 10 languages: Chinese (zh), Russian (ru), Spanish (es), Italian (it); medium-tolow resource languages: Indonesian (id), Catalan (ca), Marathi (mr), Malayalam (ml), Hindi (hi), with English (en) as the reference—using Sparse..."
 data_description: "Multilingual benchmark"
 data_metrics: "10 languages"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "GPT-4, Gemma, Gemma-2"
+DATA_URL: NA
 ethics_perspective: "AI Safety & Alignment"
 ---
 # Uncovering Cross-Linguistic Disparities in LLMs using Sparse Autoencoders
@@ -60,6 +61,10 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Examines how medium-to-low resource languages underperform on common benchmarks using Sparse Autoencoders. Malayalam and Marathi exhibit the largest activation gaps, confirming underrepresentation in feature space. Malayalam specifically identified as having largest activation gaps in LLMs. Provides mechanistic explanation for why Dravidian language performance lags.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4, Gemma, Gemma-2. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

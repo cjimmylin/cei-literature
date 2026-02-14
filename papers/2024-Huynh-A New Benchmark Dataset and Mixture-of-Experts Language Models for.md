@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, GPT-4, T5"
+DATA_URL: "https://huggingface.co/datasets/uitnlp/ViANLI"
 tags: 
 abstract: "Existing Vietnamese Natural Language Inference (NLI) datasets lack adversarial complexity, limiting their ability to evaluate model robustness against challenging linguistic phenomena. In this article, we address the gap in robust Vietnamese NLI resources by introducing ViANLI, the first adversarial NLI dataset for Vietnamese, and propose NLIMoE, a Mixture-of-Experts model to tackle its complexity. We construct ViANLI using an adversarial human-and-machine-in-the-loop approach with rigorous..."
 research_topic: "AI Safety & Alignment"
@@ -65,6 +66,10 @@ research_topic: "AI Safety & Alignment"
 ## Abstract
 
 First adversarial NLI dataset for Vietnamese. Addresses limitations of ViNLI and VLSP2021-NLI which lack adversarial design for assessing model robustness. Uses Mixture-of-Experts architecture.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-4, T5. Verified dataset/resource link: https://huggingface.co/datasets/uitnlp/ViANLI.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract: "We build a custom transformer model to study how neural networks make
 ethics_perspective: "Moral Reasoning & Psychology"
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Claude, Llama"
 DATA_URL: NA
 ---
 # Building Interpretable Models for Moral Decision-Making

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT-3, GPT-4, GPT-4-turbo, GPT4, gpt-4vision"
+DATA_URL: "https://github.com/ElliottYan/GPT_versus_"
 tags: 
 abstract: "This study presents a comprehensive evaluation of GPT-4’s translation capabilities compared to human translators of varying expertise levels. Through systematic human evaluation using the MQM schema, we assess translations across three language pairs (Chinese←→English, Russian←→English, and Chinese←→Hindi) and three domains (News, Technology, and Biomedical). Our findings reveal that GPT-4 achieves performance comparable to junior-level translators in terms of total errors, while still lagging behind senior translators. Unlike traditional Neural Machine Translation systems, which show significant performance degradation in resource-poor language directions, GPT-4 maintains consistent translation quality across all evaluated language pairs. Through qualitative analysis, we identify distinctive patterns in translation approaches: GPT4 tends toward overly literal translations and exhibits lexical inconsistency, while human translators sometimes over-interpret context and introduce hallucinations. This study represents the first systematic comparison between LLM and human translators across different proficiency levels, providing valuable insights into the current capabilities and limitations of LLM-based translation systems."
 research_topic: Other
@@ -63,6 +64,10 @@ research_topic: Other
 
 
 This study presents a comprehensive evaluation of GPT-4’s translation capabilities compared to human translators of varying expertise levels. Through systematic human evaluation using the MQM schema, we assess translations across three language pairs (Chinese←→English, Russian←→English, and Chinese←→Hindi) and three domains (News, Technology, and Biomedical). Our findings reveal that GPT-4 achieves performance comparable to junior-level translators in terms of total errors, while still lagging behind senior translators. Unlike traditional Neural Machine Translation systems, which show significant performance degradation in resource-poor language directions, GPT-4 maintains consistent translation quality across all evaluated language pairs. Through qualitative analysis, we identify distinctive patterns in translation approaches: GPT4 tends toward overly literal translations and exhibits lexical inconsistency, while human translators sometimes over-interpret context and introduce hallucinations. This study represents the first systematic comparison between LLM and human translators across different proficiency levels, providing valuable insights into the current capabilities and limitations of LLM-based translation systems.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-3, GPT-4, GPT-4-turbo, GPT4, gpt-4vision. Verified dataset/resource link: https://github.com/ElliottYan/GPT_versus_.
 
 ## Notes
 

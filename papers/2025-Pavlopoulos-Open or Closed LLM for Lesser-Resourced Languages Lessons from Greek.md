@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-70B, GPT-4o-mini"
-DATA_URL: NA
+DATA_URL: "https://github.com/eellak/gsoc2018-spacy"
 tags: 
 abstract: "Natural Language Processing (NLP) for lesserresourced languages faces persistent challenges, including limited datasets, inherited biases from high-resource languages, and the need for domain-specific solutions. This study addresses these gaps for Modern Greek through three key contributions. First, we evaluate the performance of open-source (Llama-70b) and closed-source (GPT-4o mini) large language models (LLMs) on seven core NLP tasks with dataset availability, revealing task-specific..."
 ethics_perspective: "Bias & Fairness"

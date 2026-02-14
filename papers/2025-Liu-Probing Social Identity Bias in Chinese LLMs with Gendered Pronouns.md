@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, Baichuan2, ChatGPT, DeepSeek-V3, GPT-3, GPT-3.5, Qwen-7B, Qwen-7B5, Qwen-Plus, Qwen3, Qwen"
+DATA_URL: "https://github.com/fxsjy/jieba"
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed in user-facing applications, raising concerns about their potential to reflect and amplify social biases. We investigate social identity framing in Chinese LLMs using Mandarin-specific prompts across ten representative Chinese LLMs, evaluating responses to ingroup (“We”) and outgroup (“They”) framings, and extending the setting to 240 social groups salient in the Chinese context. To complement controlled experiments, we further analyze Chinese-language conversations from a corpus of real interactions between users and chatbots. Across models, we observe systematic ingroup-positive and outgroup-negative tendencies, which are not confined to synthetic prompts but also appear in naturalistic dialogue, indicating that bias dynamics might strengthen in real interactions. Our study provides a language-aware evaluation framework for Chinese LLMs, demonstrating that social identity biases documented in English generalize crosslinguistically and intensify in user-facing contexts."
 ethics_perspective: "Bias & Fairness"
@@ -64,6 +66,10 @@ ethics_perspective: "Bias & Fairness"
 
 
 Large language models (LLMs) are increasingly deployed in user-facing applications, raising concerns about their potential to reflect and amplify social biases. We investigate social identity framing in Chinese LLMs using Mandarin-specific prompts across ten representative Chinese LLMs, evaluating responses to ingroup (“We”) and outgroup (“They”) framings, and extending the setting to 240 social groups salient in the Chinese context. To complement controlled experiments, we further analyze Chinese-language conversations from a corpus of real interactions between users and chatbots. Across models, we observe systematic ingroup-positive and outgroup-negative tendencies, which are not confined to synthetic prompts but also appear in naturalistic dialogue, indicating that bias dynamics might strengthen in real interactions. Our study provides a language-aware evaluation framework for Chinese LLMs, demonstrating that social identity biases documented in English generalize crosslinguistically and intensify in user-facing contexts.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Baichuan2, ChatGPT, DeepSeek-V3, GPT-3, GPT-3.5, Qwen-7B, Qwen-7B5, Qwen-Plus, Qwen3, Qwen. Verified dataset/resource link: https://github.com/fxsjy/jieba.
 
 ## Notes
 

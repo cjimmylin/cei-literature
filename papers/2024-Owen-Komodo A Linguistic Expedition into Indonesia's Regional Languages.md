@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Alpaca, ChatGPT, Dolly, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-3.5-turbo, GPT-4, GPT4, Gemma, Llama, Llama-2, Llama-2-Chat, Llama-2., Llama2, Mixtral, Mixtral-8X7B, Phi-1"
+DATA_URL: "https://github.com/aisingapore/sealion"
 tags: 
 abstract: "The recent breakthroughs in Large Language Models (LLMs) have mostly focused on languages with easily available and sufficient resources, such as English. However, there remains a significant gap for languages that lack sufficient linguistic resources in the public domain. Our work introduces Komodo-7B, 7-billion-parameter Large Language Models designed to address this gap by seamlessly operating across Indonesian, English, and 11 regional languages in Indonesia."
 research_topic: "Machine Translation"
@@ -64,6 +65,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 7B-parameter LLM supporting Indonesian, English, and 11 regional languages including Javanese and Sundanese. Achieves SOTA on NusaX-Senti. Trained on 8.5B tokens with vocabulary expansion on Llama-2.
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, ChatGPT, Dolly, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-3.5-turbo, GPT-4, GPT4, Gemma, Llama, Llama-2, Llama-2-Chat, Llama-2., Llama2, Mixtral, Mixtral-8X7B, Phi-1. Verified dataset/resource link: https://github.com/aisingapore/sealion.
 
 ## Notes
 

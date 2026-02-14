@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Large multimodal models (LMMs) have recently gained attention due to their effectiveness to understand and generate descriptions of visual content. Most existing LMMs are in English language. While few recent works explore multilingual image LMMs, to the best of our knowledge, moving beyond the En- *Equal contribution glish language for cultural and linguistic inclusivity is yet to be investigated in the context of video LMMs."
 data_description: "Multilingual benchmark"
 data_metrics: "8k samples; 14 languages; 15 categories"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ALBERT, ChatGPT, DeepSeek-R1, GPT-4, GPT-4o, GPT-4o-mini, GPT4o, LLaMA 3, LLaMA-3.1, Llama, Mistral, Mistral-7B, Phi-4, Phi-4-14B, Qwen, Qwen 3, Qwen-3, llama., llama3, llama3."
+DATA_URL: NA
 research_topic: "Computer Vision & Multimodal"
 ---
 # ViMUL: A Culturally-diverse Multilingual Multimodal Video Benchmark & Model
@@ -64,6 +66,10 @@ Multilingual video LMM benchmark across 14 languages including Hindi and Urdu. 8
 ## Benchmark
 
 **Name:** ViMUL-Bench
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, ChatGPT, DeepSeek-R1, GPT-4, GPT-4o, GPT-4o-mini, GPT4o, LLaMA 3, LLaMA-3.1, Llama, Mistral, Mistral-7B, Phi-4, Phi-4-14B, Qwen, Qwen 3, Qwen-3, llama., llama3, llama3.. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

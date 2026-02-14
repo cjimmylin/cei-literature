@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "ALBERT, BERT, Barth, GPT-2, GPT-4o, Llama, LLAMA3.1, Llama-3, LLaMA-3.1, LLaMA2, Llama 3.1, RoBERTa, llama 3"
+DATA_URL: "https://github.com/CALAMITA-AILC/calamita-eval"
 tags: 
 abstract: 
 research_topic: Other

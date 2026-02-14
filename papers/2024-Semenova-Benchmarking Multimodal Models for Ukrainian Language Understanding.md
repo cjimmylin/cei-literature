@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, Claude 3.5, Claude 3.5 Sonnet, Claude Sonnet, GPT-4o, Gemma, LLaMA 3.2, LLama-3.2, Llama3.2, Qwen, Qwen2, Claude, llama 3, mistral-7b"
+DATA_URL: NA
 tags: 
 abstract: "While the evaluation of multimodal Englishcentric models is an active area of research with numerous benchmarks, there is a profound lack of benchmarks or evaluation suites for low- and mid-resource languages. We introduce ZNO-Vision, a comprehensive multimodal Ukrainian-centric benchmark derived from standardized university entrance examination (ZNO). The benchmark consists of over 4,300 expert-crafted questions spanning 12 academic disciplines, including mathematics, physics, chemistry, and..."
 research_topic: "Computer Vision & Multimodal"
@@ -65,6 +67,10 @@ research_topic: "Computer Vision & Multimodal"
 ## Abstract
 
 Multimodal benchmark based on 20 popular Ukrainian dishes for culture testing. Identifies cultural misattribution issue where Ukrainian Borsch (UNESCO heritage) was mislabeled as 'Russian Red Borscht'.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Claude 3.5, Claude 3.5 Sonnet, Claude Sonnet, GPT-4o, Gemma, LLaMA 3.2, LLama-3.2, Llama3.2, Qwen, Qwen2, Claude, llama 3, mistral-7b. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

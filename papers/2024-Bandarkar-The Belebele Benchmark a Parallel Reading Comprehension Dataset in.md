@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "122 language; 200 dataset"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, BLOOM, BLOOMZ, FALCON 40B, GPT3, GPT3.5, GPT3.5-TURBO, Llama, LLAMA 1, LLAMA 1., LLAMA 2, Llama-2, LLAMA-2-CHAT, RoBERTa"
+DATA_URL: "https://github.com/openai/tiktoken"
 tags: 
 abstract: "We present BELEBELE, a multiple-choice machine reading comprehension (MRC) dataset spanning 122 language variants. Significantly expanding the language coverage of natural language understanding (NLU) benchmarks, this dataset enables the evaluation of text models in high-, medium-, and low-resource languages. Each question is based on a short passage from the FLORES-200 dataset and has four multiplechoice answers."
 research_topic: "Machine Learning"
@@ -65,6 +67,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Parallel MRC dataset in 122 languages including Bengali, Sinhala, and Assamese. Created without machine translation. Includes romanized variants for Hindi, Urdu, Bengali, Nepali, Sinhala. Evaluates cross-lingual transfer of LLMs.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, BLOOM, BLOOMZ, FALCON 40B, GPT3, GPT3.5, GPT3.5-TURBO, Llama, LLAMA 1, LLAMA 1., LLAMA 2, Llama-2, LLAMA-2-CHAT, RoBERTa. Verified dataset/resource link: https://github.com/openai/tiktoken.
 
 ## Notes
 

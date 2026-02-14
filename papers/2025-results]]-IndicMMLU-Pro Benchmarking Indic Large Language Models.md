@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "Known by more than 1.5 billion people in the Indian subcontinent, Indic languages present unique challenges and opportunities for natural language processing (NLP) research due to their rich cultural heritage, linguistic diversity, and complex structures. IndicMMLU-Pro is a comprehensive benchmark designed to evaluate Large Language Models (LLMs) across Indic languages, building upon the MMLU Pro (Massive Multitask Language Understanding) framework."
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, GPT-3, GPT-3.5 Turbo, GPT-4 Turbo, GPT-4o, GPT-4o mini, GPT-4o-mini, Llama, Llama 3.1, Llama-3.1, RoBERTa"
+DATA_URL: "https://huggingface.co/datasets/LinguaLift/IndicMMLU-"
 research_topic: "NLP & Representation Learning"
 ---
 # IndicMMLU-Pro: Benchmarking Indic Large Language Models on Multi-Task Language Understanding
@@ -64,6 +65,10 @@ Provides MMLU-Pro in nine Indic languages including Tamil, Telugu, and Kannada. 
 ## Benchmark
 
 **Name:** IndicMMLU-Pro
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-3, GPT-3.5 Turbo, GPT-4 Turbo, GPT-4o, GPT-4o mini, GPT-4o-mini, Llama, Llama 3.1, Llama-3.1, RoBERTa. Verified dataset/resource link: https://huggingface.co/datasets/LinguaLift/IndicMMLU-.
 
 ## Notes
 

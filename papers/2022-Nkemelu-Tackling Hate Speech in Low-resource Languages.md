@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "Curated dataset of 226 Burmese hate speech posts from Facebook collec
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: "https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Tackling Hate Speech in Low-resource Languages with Context Experts
@@ -65,6 +66,10 @@ Curated dataset of 226 Burmese hate speech posts from Facebook collected during 
 ## Benchmark
 
 **Name:** Burmese Hate Speech Facebook Dataset
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/MyanmarOnlineAdvertising/myanmar_language_tools.
 
 ## Notes
 

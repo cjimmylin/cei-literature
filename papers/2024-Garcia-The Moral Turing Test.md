@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Detection accuracy, agreement rates, anti-AI bias measures"
-LLM_assessed: "GPT-3.5, text-davinci"
+LLM_assessed: "GPT-3.5"
 DATA_URL: NA
 normative_ethics_benchmark: Yes
 ---

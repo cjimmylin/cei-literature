@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Alpaca, BERT, Baichuan, Baichuan2, Bloom, Bloom-7B, ChatGLM, ChatGLM2, ChatGLM_Turbo, Llama, LLaMA2, Qwen, Qwen-14B, Qwen-7B, baichuan-inc"
+DATA_URL: "https://github.com/NiuTrans/Classical-Modern"
 tags: 
 abstract: "Classical Chinese Understanding (CCU) holds significant value in preserving and exploration of the outstanding traditional Chinese culture. Recently, researchers have attempted to leverage the potential of Large Language Models (LLMs) for CCU by capitalizing on their remarkable comprehension and semantic capabilities. However, no comprehensive benchmark is available to assess the CCU capabilities of LLMs. To fill this gap, this paper introduces C3bench, a Comprehensive Classical Chinese understanding benchmark, which comprises 50,000 text pairs for five primary CCU tasks, including classification, retrieval, named entity recognition, punctuation, and translation. Furthermore, the data in C3bench originates from ten different domains, covering most of the categories in classical Chinese. Leveraging the proposed C3bench, we extensively evaluate the quantitative performance of 15 representative LLMs on all five CCU tasks. Our results not only establish a public leaderboard of LLMs’ CCU capabilities but also gain some findings. Specifically, existing LLMs are struggle with CCU tasks and still inferior to supervised models. Additionally, the results indicate that CCU is a task that requires special attention. We believe this study could provide a standard benchmark, comprehensive baselines, and valuable insights for the future advancement of LLMbased CCU research. The evaluation pipeline and dataset are available at https://github.com/ SCUT-DLVCLab/C3bench."
 research_topic: "Machine Learning"
@@ -66,6 +67,10 @@ research_topic: "Machine Learning"
 
 
 Classical Chinese Understanding (CCU) holds significant value in preserving and exploration of the outstanding traditional Chinese culture. Recently, researchers have attempted to leverage the potential of Large Language Models (LLMs) for CCU by capitalizing on their remarkable comprehension and semantic capabilities. However, no comprehensive benchmark is available to assess the CCU capabilities of LLMs. To fill this gap, this paper introduces C3bench, a Comprehensive Classical Chinese understanding benchmark, which comprises 50,000 text pairs for five primary CCU tasks, including classification, retrieval, named entity recognition, punctuation, and translation. Furthermore, the data in C3bench originates from ten different domains, covering most of the categories in classical Chinese. Leveraging the proposed C3bench, we extensively evaluate the quantitative performance of 15 representative LLMs on all five CCU tasks. Our results not only establish a public leaderboard of LLMs’ CCU capabilities but also gain some findings. Specifically, existing LLMs are struggle with CCU tasks and still inferior to supervised models. Additionally, the results indicate that CCU is a task that requires special attention. We believe this study could provide a standard benchmark, comprehensive baselines, and valuable insights for the future advancement of LLMbased CCU research. The evaluation pipeline and dataset are available at https://github.com/ SCUT-DLVCLab/C3bench.
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, BERT, Baichuan, Baichuan2, Bloom, Bloom-7B, ChatGLM, ChatGLM2, ChatGLM_Turbo, Llama, LLaMA2, Qwen, Qwen-14B, Qwen-7B, baichuan-inc. Verified dataset/resource link: https://github.com/NiuTrans/Classical-Modern.
 
 ## Notes
 

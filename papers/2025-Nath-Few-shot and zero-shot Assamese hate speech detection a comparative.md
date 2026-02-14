@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Mistral- 7B, Mistral-7B"
+DATA_URL: NA
 tags: 
 abstract: "Benchmarks GPT-4, GPT-3.5, Mistral-7B alongside IndicBERT and mBERT for Assamese hate speech detection. GPT-4 achieves macro-F1 0.870 in few-shot (k=5), significantly outperforming fine-tuned mBERT (0.72). Uses extended Assamese dataset with code-mixed examples."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -68,6 +70,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Benchmarks GPT-4, GPT-3.5, Mistral-7B alongside IndicBERT and mBERT for Assamese hate speech detection. GPT-4 achieves macro-F1 0.870 in few-shot (k=5), significantly outperforming fine-tuned mBERT (0.72). Uses extended Assamese dataset with code-mixed examples.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Mistral- 7B, Mistral-7B. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

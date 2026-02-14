@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, Gemini, Llama-2, Llama-3, Mistral, Mixtral, Gemma, Phi"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/google/gemma-2b-it"
 ---
 # Unveiling the Bias Impact on Symmetric Moral Consistency of Large Language Models
 

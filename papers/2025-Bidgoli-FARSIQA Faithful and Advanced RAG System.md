@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "The advent of Large Language Models (LLMs) has revolutionized Natural Language Processing, yet their application in high-stakes, specialized domains like religious question answering is hindered by significant challenges such as hallucination and a lack of faithfulness to authoritative sources. This issue is particularly critical for the Persian-speaking Muslim community, where accuracy and trustworthiness are paramount."
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "Llama 3, Llama 4, Llama-4"
+DATA_URL: NA
 ethics_perspective: "Social & Cultural Values"
 ---
 # FARSIQA: Faithful and Advanced RAG System for Islamic Question Answering
@@ -64,6 +66,11 @@ Introduces FARSIQA for Persian Islamic QA using a self-correcting FAIR-RAG archi
 ## Dataset Information
 
 Knowledge base of 1M+ authoritative Islamic documents; evaluated on IslamicPCQA benchmark
+
+
+## Data Description
+
+Backfill summary: Models assessed include Llama 3, Llama 4, Llama-4. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

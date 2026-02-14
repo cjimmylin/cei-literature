@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, GPT-3, GPT-3.5, GloVE, Llama, RoBERTa"
+DATA_URL: NA
 tags: 
 abstract: "Moral values have deep roots in early civilizations, codified within norms and laws that regulated societal order and the common good. They play a crucial role in understanding the psychological basis of human behavior and cultural orientation. The moral foundation theory (MFT) is a well-established framework that identifies the core moral foundations underlying the manner in which different cultures shape individual and social lives. Recent advancements in natural language processing, particularly pre-trained language models (PLMs), have enabled the extraction and analysis of moral dimensions from textual data. This survey presents a comprehensive review of MFT-informed PLMs, providing an analysis of moral tendencies in PLMs and their application in the context of MFT. We also review relevant datasets and lexicons and discuss trends, limitations, and future directions. By providing a structured overview of the intersection between PLMs and MFT, this work bridges moral psychology insights within the realm of PLMs, paving the way for further research and development in creating morally aware AI systems. Keywords Pre-trained language models · Moral foundation theory · Moral values survey · Natural language processing"
 ethics_perspective: "General Ethics"
@@ -68,6 +69,10 @@ ethics_perspective: "General Ethics"
 
 
 Moral values have deep roots in early civilizations, codified within norms and laws that regulated societal order and the common good. They play a crucial role in understanding the psychological basis of human behavior and cultural orientation. The moral foundation theory (MFT) is a well-established framework that identifies the core moral foundations underlying the manner in which different cultures shape individual and social lives. Recent advancements in natural language processing, particularly pre-trained language models (PLMs), have enabled the extraction and analysis of moral dimensions from textual data. This survey presents a comprehensive review of MFT-informed PLMs, providing an analysis of moral tendencies in PLMs and their application in the context of MFT. We also review relevant datasets and lexicons and discuss trends, limitations, and future directions. By providing a structured overview of the intersection between PLMs and MFT, this work bridges moral psychology insights within the realm of PLMs, paving the way for further research and development in creating morally aware AI systems. Keywords Pre-trained language models · Moral foundation theory · Moral values survey · Natural language processing
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-3, GPT-3.5, GloVE, Llama, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach text corpus for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://huggingface.co/jhgan/ko-sbert-multitask"
 tags: 
 abstract: "Numerous datasets have been proposed to combat the spread of online hate. Despite these efforts, a majority of these resources are Englishcentric, primarily focusing on overt forms of hate. This research gap calls for developing high-quality corpora in diverse languages that also encapsulate more subtle hate expressions. This study introduces K-HATERS, a new corpus for hate speech detection in Korean, comprising approximately 192K news comments with target-specific offensiveness ratings."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -69,6 +70,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Largest Korean offensive language corpus with ~192K news comments and target-specific offensiveness ratings on 3-point Likert scale. Multi-label target categories: gender, age, race, religion, politics, job, disability, individuals.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://huggingface.co/jhgan/ko-sbert-multitask.
 
 ## Notes
 

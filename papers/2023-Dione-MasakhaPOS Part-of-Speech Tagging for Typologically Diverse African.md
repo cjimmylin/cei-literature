@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: NA
 tags: 
 abstract: "In this paper, we present MasakhaPOS, the largest part-of-speech (POS) dataset for 20 typologically diverse African languages. We discuss the challenges in annotating POS for these languages using the UD (universal dependencies) guidelines. We conducted extensive POS baseline experiments using conditional random field and several multilingual pretrained language models. We applied various cross-lingual transfer models trained with data available in UD."
 research_topic: "Machine Translation"
@@ -66,6 +67,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Largest POS dataset for 20 typologically diverse African languages with 1,200-1,500 sentences per language. Uses Universal Dependencies guidelines with native speaker annotation.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

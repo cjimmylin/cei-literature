@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "http://github.com/boychaboy/KOLD"
 tags: 
 abstract: "Warning: this paper contains content that may be offensive or upsetting. Recent directions for offensive language detection are hierarchical modeling, identifying the type and the target of offensive language, and interpretability with offensive span annotation and prediction. These improvements are focused on English and do not transfer well to other languages because of cultural and linguistic differences."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -69,6 +70,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 40,429 comments with hierarchical annotation of offensive language type and target. 21 target group labels tailored to Korean culture. Collected from NAVER news and YouTube. Most targeted groups: Feminist, LGBTQ+, Women.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa. Verified dataset/resource link: http://github.com/boychaboy/KOLD.
 
 ## Notes
 

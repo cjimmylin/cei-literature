@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "Long-term memory mechanisms enable Large Language Models (LLMs) to ma
 ethics_perspective: "Bias & Fairness"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude, Gemini, DeepSeek, Qwen, Llama-3"
+LLM_assessed: "GPT-4, Claude, DeepSeek, Qwen, Llama-3"
 DATA_URL: NA
 ---
 # DIB Benchmark: Decision-based Implicit Bias in LLMs

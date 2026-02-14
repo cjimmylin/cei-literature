@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/valuebyte-ai/Awesome-LLM-Psychometrics"
 ---
 # Large Language Model Psychometrics: A Systematic Review of Evaluation, Validation, and Enhancement

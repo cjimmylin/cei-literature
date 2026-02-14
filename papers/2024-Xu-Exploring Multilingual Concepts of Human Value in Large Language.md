@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "16 languages"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BLOOM, BLOOMZ, ChatGPT, Llama, LLaMA2, LLaMA2-chat, Qwen, Qwen-chat"
+DATA_URL: "https://github.com/antonisa/lang2vec"
 tags: 
 abstract: "Prior research has revealed that certain abstract concepts are linearly represented as directions in the representation space of LLMs, predominantly centered around English. In this paper, we extend this investigation to a multilingual context, with a specific focus on human valuesrelated concepts (i.e., value concepts) due to their significance for AI safety. Through our comprehensive exploration covering 7 types of human values, 16 languages and 3 LLM series with distinct multilinguality (e.g."
 ethics_perspective: "AI Safety & Alignment"
@@ -64,6 +65,10 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Empirical study of 7 types of human values across 16 languages and 3 LLM series. Reveals cross-lingual inconsistency, distorted linguistic relationships, and unidirectional cross-lingual transfer between high- and low-resource languages.
+
+## Data Description
+
+Backfill summary: Models assessed include BLOOM, BLOOMZ, ChatGPT, Llama, LLaMA2, LLaMA2-chat, Qwen, Qwen-chat. Verified dataset/resource link: https://github.com/antonisa/lang2vec.
 
 ## Notes
 

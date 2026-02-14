@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract: "First systematic comparison of pretrained language models vs. traditi
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: "Machine Learning"
 ---
 # Pretrained Models Against Traditional Machine Learning for Detecting Fake Hadith
@@ -63,6 +65,11 @@ First systematic comparison of pretrained language models vs. traditional ML for
 ## Dataset Information
 
 8,544 Hadiths (7,008 authentic + 1,536 fake)
+
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT"
 DATA_URL: "https://github.com/ahxt/fair_fairness_benchmark"
 ---
 # FFB: A Fair Fairness Benchmark for In-Processing Group Fairness Methods

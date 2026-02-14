@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://huggingface.co/christinacdl/XLM_"
 tags: 
 abstract: "Introduces a streamlined taxonomy for categorizing offensive language in Hebrew with seven levels (six explicit and one implicit), adapted to reflect unique linguistic and cultural nuances of Hebrew. Dataset constructed to validate the taxonomy."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -65,6 +66,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Introduces a streamlined taxonomy for categorizing offensive language in Hebrew with seven levels (six explicit and one implicit), adapted to reflect unique linguistic and cultural nuances of Hebrew. Dataset constructed to validate the taxonomy.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://huggingface.co/christinacdl/XLM_.
 
 ## Notes
 

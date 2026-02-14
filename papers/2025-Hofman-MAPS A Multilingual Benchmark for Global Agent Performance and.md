@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "12 languages"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4, GPT-4o, Qwen 2, Qwen 7B, Qwen-2, Qwen2, ChatGPT"
+DATA_URL: NA
 tags: 
 abstract: "Agentic AI systems, which build on Large Language Models (LLMs) and interact with tools and memory, have rapidly advanced in capability and scope. Yet, since LLMs have been shown to struggle in multilingual settings, typically resulting in lower performance and reduced safety, agentic systems risk inheriting these limitations. This raises concerns about the accessibility of such systems, as users interacting in languages other than English may encounter unreliable or security-critical agent..."
 ethics_perspective: "AI Safety & Alignment"
@@ -65,6 +67,10 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Multilingual agentic AI benchmark covering 10 languages including Hebrew with 9,660 task instances. Based on GAIA, SWE-bench, MATH, and Agent Security Benchmark. Evaluates LLM agent safety and performance.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4, GPT-4o, Qwen 2, Qwen 7B, Qwen-2, Qwen2, ChatGPT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

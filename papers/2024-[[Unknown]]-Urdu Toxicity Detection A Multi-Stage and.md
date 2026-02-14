@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +40,7 @@ abstract: "Comprehensive multilabel Urdu toxicity detection corpus with over 72,
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: Other
 ---
 # Urdu Toxicity Detection: A Multi-Stage and Multi-Label Classification Approach
@@ -69,6 +70,10 @@ Comprehensive multilabel Urdu toxicity detection corpus with over 72,000 Roman U
 ## Benchmark
 
 **Name:** UTC (Urdu Toxicity Corpus)
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

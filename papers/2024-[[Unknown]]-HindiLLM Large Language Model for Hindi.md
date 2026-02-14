@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "The advancements in the Large Language Model (LLM) have helped in solving several problems related to language processing. Most of the researches have focused on the English language only, because of its popularity and abundance on the internet. However, a high-performance language model for Hindi and other Indic languages is lacking in the literature. In this work, we have pre-trained two autoregressive LLM models for the Hindi language, namely HindiLLM-Small and HindiLLMMedium."
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ALBERT, GPT-2, GPT-3, GPT-3.5 Turbo, GPT2, Mistral 7b, BERT"
+DATA_URL: "https://github.com/NirantK/hindi2vec"
 research_topic: "NLP & Representation Learning"
 ---
 # HindiLLM: Large Language Model for Hindi
@@ -64,6 +65,10 @@ Pre-trained autoregressive LLM models (HindiLLM-Small and HindiLLM-Medium) for H
 ## Benchmark
 
 **Name:** HindiLLM
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, GPT-2, GPT-3, GPT-3.5 Turbo, GPT2, Mistral 7b, BERT. Verified dataset/resource link: https://github.com/NirantK/hindi2vec.
 
 ## Notes
 

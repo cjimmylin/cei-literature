@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Explores how the Sub-Saharan African value of Ubuntu could improve terms on which African populations are included in global AI ethics discourses. Argues Ubuntu has immense value for applied normative ethics in AI."
 ethics_perspective: "Social & Cultural Values"
@@ -61,6 +62,10 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Explores how the Sub-Saharan African value of Ubuntu could improve terms on which African populations are included in global AI ethics discourses. Argues Ubuntu has immense value for applied normative ethics in AI.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

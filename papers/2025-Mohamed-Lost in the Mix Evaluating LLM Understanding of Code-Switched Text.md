@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, Claude, Claude 3.5 Sonnet, Claude., GPT-4o, Llama, LLaMA 3.1, LLaMA 3.2, Mistral, Mistral 7B, Mistral-7B, Qwen 2.5, Qwen 3B, Qwen 72B, Qwen 7B, Qwen-7B, llama 3"
+DATA_URL: "https://github.com/amr-mohamedd/Lost-in-the-Mix.git"
 tags: 
 abstract: "Code-switching (CSW) is the act of alternating between two or more languages within a single discourse. This phenomenon is widespread in multilingual communities, and increasingly prevalent in online content, where users naturally mix languages in everyday communication. As a result, Large Language Models (LLMs), now central to content processing and generation, are frequently exposed to code-switched inputs. Given their widespread use, it is crucial to understand how LLMs process and reason about such mixed-language text. This paper presents a systematic evaluation of LLM comprehension under codeswitching by generating CSW variants of established reasoning and comprehension benchmarks. While degradation is evident when foreign tokens disrupt English text—even under linguistic constraints—embedding English into other languages often improves comprehension. Though prompting yields mixed results, finetuning offers a more stable path to degradation mitigation."
 research_topic: Other
@@ -63,6 +65,10 @@ research_topic: Other
 
 
 Code-switching (CSW) is the act of alternating between two or more languages within a single discourse. This phenomenon is widespread in multilingual communities, and increasingly prevalent in online content, where users naturally mix languages in everyday communication. As a result, Large Language Models (LLMs), now central to content processing and generation, are frequently exposed to code-switched inputs. Given their widespread use, it is crucial to understand how LLMs process and reason about such mixed-language text. This paper presents a systematic evaluation of LLM comprehension under codeswitching by generating CSW variants of established reasoning and comprehension benchmarks. While degradation is evident when foreign tokens disrupt English text—even under linguistic constraints—embedding English into other languages often improves comprehension. Though prompting yields mixed results, finetuning offers a more stable path to degradation mitigation.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, Claude, Claude 3.5 Sonnet, Claude., GPT-4o, Llama, LLaMA 3.1, LLaMA 3.2, Mistral, Mistral 7B, Mistral-7B, Qwen 2.5, Qwen 3B, Qwen 72B, Qwen 7B, Qwen-7B, llama 3. Verified dataset/resource link: https://github.com/amr-mohamedd/Lost-in-the-Mix.git.
 
 ## Notes
 

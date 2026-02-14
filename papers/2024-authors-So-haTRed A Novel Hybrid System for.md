@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +40,7 @@ abstract: "Hybrid system for Turkish hate speech detection using ensemble deep l
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # So-haTRed: A Novel Hybrid System for Turkish Hate Speech Detection in Social Media
@@ -70,6 +71,10 @@ Hybrid system for Turkish hate speech detection using ensemble deep learning wit
 ## Benchmark
 
 **Name:** So-haTRed
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

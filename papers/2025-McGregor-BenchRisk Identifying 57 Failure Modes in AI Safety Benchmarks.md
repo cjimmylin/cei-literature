@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "Large language model (LLM) benchmarks inform LLM use decisions (e.g.,
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "o3"
 DATA_URL: "https://github.com/BenchRisk"
 ---
 # BenchRisk: Identifying 57 Failure Modes in AI Safety Benchmarks (McGregor et al.)

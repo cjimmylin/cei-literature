@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "BERT, elmo"
+DATA_URL: "https://github.com/coastalcph/fairlex"
 ---
 # FairLex: A Multilingual Benchmark for Evaluating Fairness in Legal Text Processing
 

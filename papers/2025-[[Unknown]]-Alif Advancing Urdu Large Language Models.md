@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "Developing a high-performing large language models (LLMs) for low-resource languages such as Urdu, present several challenges. These challenges include the scarcity of high-quality datasets, multilingual inconsistencies, and safety concerns. Existing multilingual LLMs often address these issues by translating large volumes of available data. However, such translations often lack quality and cultural nuance while also incurring significant costs for data curation and training."
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "Alpaca, ChatGPT, Cohere-Aya, Dolly, GPT-4o, Gemma, GPT-4, Llama, Llama-3.1, Mistral- 7B, Mistral-7B, Qwen-2.5, Qwen2.5, BERT, llama."
+DATA_URL: "https://github.com/tatsu-lab/alpaca_eval"
 ethics_perspective: "AI Safety & Alignment"
 ---
 # Alif: Advancing Urdu Large Language Models via Multilingual Synthetic Data Distillation
@@ -64,6 +65,10 @@ Alif-1.0-8B-Instruct incorporates Urdu-native chain-of-thought reasoning, cultur
 ## Benchmark
 
 **Name:** Alif
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, ChatGPT, Cohere-Aya, Dolly, GPT-4o, Gemma, GPT-4, Llama, Llama-3.1, Mistral- 7B, Mistral-7B, Qwen-2.5, Qwen2.5, BERT, llama.. Verified dataset/resource link: https://github.com/tatsu-lab/alpaca_eval.
 
 ## Notes
 

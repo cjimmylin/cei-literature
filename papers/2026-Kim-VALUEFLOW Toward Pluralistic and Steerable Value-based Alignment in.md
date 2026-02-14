@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract: "Aligning Large Language Models (LLMs) with the diverse spectrum of hu
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude, Gemini, Grok, Qwen, Mistral, Phi, Gemma"
+LLM_assessed: "GPT-4, Claude, Grok, Qwen, Mistral, Phi, Gemma"
 DATA_URL: NA
 ---
 # VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models

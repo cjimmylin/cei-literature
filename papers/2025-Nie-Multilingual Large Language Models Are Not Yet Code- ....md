@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, Falcon 7B, Falcon-7b, GPT3, GPT3.5-TURBO, LLama1, LLama2, Llama-2, Llama-2-CHAT, Mistral, Mistral 7B, Mistral-7B, Llama, mistral 30 35"
+DATA_URL: "https://github.com/oscar-project/ungoliant"
 tags: 
 abstract: "While preliminary findings indicate that multilingual LLMs exhibit reduced bias compared to monolingual ones, a comprehensive understanding of the effect of multilingual training on bias mitigation, is lacking. This study addresses this gap by systematically training six LLMs of identical size (2.6B parameters) and architecture: five monolingual models (English, German, French, Italian, and Spanish) and one multilingual model trained on an equal distribution of data across these languages, all using publicly available data. To ensure robust evaluation, standard bias benchmarks were automatically translated into the five target languages and verified for both translation quality and bias preservation by human annotators. Our results consistently demonstrate that multilingual training effectively mitigates bias. Moreover, we observe that multilingual models achieve not only lower bias but also superior prediction accuracy when compared to monolingual models with the same amount of training data, model architecture, and size."
 research_topic: "Machine Translation"
@@ -64,6 +66,10 @@ research_topic: "Machine Translation"
 
 
 While preliminary findings indicate that multilingual LLMs exhibit reduced bias compared to monolingual ones, a comprehensive understanding of the effect of multilingual training on bias mitigation, is lacking. This study addresses this gap by systematically training six LLMs of identical size (2.6B parameters) and architecture: five monolingual models (English, German, French, Italian, and Spanish) and one multilingual model trained on an equal distribution of data across these languages, all using publicly available data. To ensure robust evaluation, standard bias benchmarks were automatically translated into the five target languages and verified for both translation quality and bias preservation by human annotators. Our results consistently demonstrate that multilingual training effectively mitigates bias. Moreover, we observe that multilingual models achieve not only lower bias but also superior prediction accuracy when compared to monolingual models with the same amount of training data, model architecture, and size.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Falcon 7B, Falcon-7b, GPT3, GPT3.5-TURBO, LLama1, LLama2, Llama-2, Llama-2-CHAT, Mistral, Mistral 7B, Mistral-7B, Llama, mistral 30 35. Verified dataset/resource link: https://github.com/oscar-project/ungoliant.
 
 ## Notes
 

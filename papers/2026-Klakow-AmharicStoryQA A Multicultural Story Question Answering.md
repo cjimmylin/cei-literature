@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "With the growing emphasis on multilingual and cultural evaluation benchmarks for large language models, language and culture are often treated as synonymous, and performance is commonly used as a proxy for a model’s understanding of a given language. In this work, we argue that such evaluations overlook meaningful cultural variation that exists within a single language. We address this gap by focusing on narratives from different regions of Ethiopia and demonstrate that, despite shared..."
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "Gemma, Gemma 3, Gemma-3, GPT-4, Llama, Llama 3.1, Llama 3.2, Llama-3, gemma-2"
+DATA_URL: NA
 research_topic: "Machine Learning"
 ---
 # AmharicStoryQA: A Multicultural Story Question Answering Benchmark in Amharic
@@ -64,6 +66,10 @@ Long-sequence story QA benchmark grounded in culturally diverse narratives from 
 ## Benchmark
 
 **Name:** AmharicStoryQA
+
+## Data Description
+
+Backfill summary: Models assessed include Gemma, Gemma 3, Gemma-3, GPT-4, Llama, Llama 3.1, Llama 3.2, Llama-3, gemma-2. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

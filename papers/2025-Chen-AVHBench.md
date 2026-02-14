@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "ChatGPT, Gemini, GEMINI-Flash, GPT4, Llama, LLaMA 50.0, LLaMA 50.1, LLaMA 67.2, LLaMA2, Llama 2, Qwen2, Vicuna"
 DATA_URL: "https://github.com/kaist-ami/AVHBench"
 ---
 # AVHBench: A Cross-Modal Hallucination Benchmark for Audio-Visual Large Language Models

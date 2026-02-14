@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: No
 is_dataset: No
 data_description: 
 data_metrics: 
-LLM_assessed: NA
+LLM_assessed: "Claude, GPT-4"
 DATA_URL: NA
 ---
 # AI Alignment as Fair Treatment of Claims

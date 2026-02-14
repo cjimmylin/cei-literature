@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "One of the major challenges in automatic hate speech detection is the lack of datasets that cover a wide range of biased and unbiased messages and that are consistently labeled. We propose a labeling procedure that addresses some of the common weaknesses of labeled datasets. We focus on antisemitic speech on Twitter and create a labeled dataset of 6,941 tweets that cover a wide range of topics common in conversations about Jews, Israel, and antisemitism between January 2019 and December 2021 by..."
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, ChatGPT, ELECTRA"
 DATA_URL: "https://zenodo.org/records/7932888"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
@@ -65,6 +67,11 @@ Summary: First large-scale, consistently labeled dataset for antisemitism detect
 ## Dataset Information
 
 6,941 tweets (Version 1); expanded to 11,311 tweets (Version 3, 1,953 antisemitic)
+
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT, ELECTRA. Verified dataset/resource link: https://zenodo.org/records/7932888.
 
 ## Notes
 

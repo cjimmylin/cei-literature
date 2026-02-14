@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "As the scaling of Large Language Models (LLMs) has dramatically enhanced their capabilities, there has been a growing focus on the alignment problem to ensure their responsible and ethical use. While existing alignment efforts predominantly concentrate on universal values such as the HHH (helpfulness, honesty, and harmlessness), the aspect of culture, which is inherently pluralistic and diverse, has not received adequate attention."
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Alpaca, Alpaca2, Baichuan-13B, Baichuan2, ChatGLM, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama2, Llama2-Chat"
 DATA_URL: "https://huggingface.co/datasets/Rykeryuhang/CDEval | https://github.com/astrodrew/CDEval"
 ethics_perspective: "Social & Cultural Values"
 ---
@@ -69,6 +71,11 @@ CDEval measures cultural dimensions of LLMs using Hofstede's framework across si
 ## Dataset Information
 
 2,953 questions across 6 cultural dimensions and 7 domains
+
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, Alpaca2, Baichuan-13B, Baichuan2, ChatGLM, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama2, Llama2-Chat. Verified dataset/resource link: https://huggingface.co/datasets/Rykeryuhang/CDEval | https://github.com/astrodrew/CDEval.
 
 ## Notes
 

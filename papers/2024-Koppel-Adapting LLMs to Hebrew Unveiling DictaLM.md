@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Training large language models (LLMs) in low-resource languages such as Hebrew poses unique challenges. In this paper, we introduce DictaLM2.0 and DictaLM2.0-Instruct, two LLMs derived from the Mistral model, trained on a substantial corpus of approximately 200 billion tokens in both Hebrew and English. Adapting a pre-trained model to a new language involves specialized techniques that differ significantly from training a model from scratch or further training existing models on well-resourced..."
 data_description: "Multilingual benchmark text corpus for question answering"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Claude 3 Haiku, GPT 4, GPT-4, Gemma, Llama, LLaMA 2, Llama-3, Mistral-7B, claude 3"
 DATA_URL: "https://huggingface.co/dicta-il/dictalm2.0"
 research_topic: "NLP & Representation Learning"
 ---
@@ -65,6 +67,11 @@ Summary: Introduces Hebrew LLM benchmark suite covering QA, Sentiment Analysis, 
 ## Dataset Information
 
 ~200 billion tokens in Hebrew and English; new Hebrew NLP benchmark suite
+
+
+## Data Description
+
+Backfill summary: Models assessed include Claude 3 Haiku, GPT 4, GPT-4, Gemma, Llama, LLaMA 2, Llama-3, Mistral-7B, claude 3. Verified dataset/resource link: https://huggingface.co/dicta-il/dictalm2.0.
 
 ## Notes
 

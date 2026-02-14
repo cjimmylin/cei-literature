@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Creates MAHADDAT, the first dataset dedicated to fabricated (Mawdu) Hadith detection. Uses Matn (textual content) analysis rather than solely Sanad (narrator chain). BERT-based system achieves 92.47% F1 score. Foundational resource for Hadith authenticity verification using NLP."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, GPT-3, RoBERTa, XLNet"
 DATA_URL: "MAHADDAT dataset (released with paper)"
 research_topic: "NLP & Representation Learning"
 ---
@@ -69,6 +71,11 @@ Creates MAHADDAT, the first dataset dedicated to fabricated (Mawdu) Hadith detec
 ## Dataset Information
 
 MAHADDAT dataset (first dedicated Mawdu Hadith dataset; exact size in paper)
+
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-3, RoBERTa, XLNet. Verified dataset/resource link: MAHADDAT dataset (released with paper).
 
 ## Notes
 

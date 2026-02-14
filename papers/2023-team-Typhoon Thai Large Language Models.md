@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Alpaca, ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Llama, Llama2, Mistral, Mistral-7B"
+DATA_URL: "https://github.com/aisingapore/sealion"
 tags: 
 abstract: "Typhoon is a series of Thai large language models (LLMs) developed specifically for the Thai language. This technical report presents challenges and insights in developing Thai LLMs, including data preparation, pretraining, instructiontuning, and evaluation. As one of the challenges of low-resource languages is the amount of pretraining data, we apply continual training to transfer existing world knowledge from a strong LLM."
 research_topic: "Machine Translation"
@@ -64,6 +66,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 First Typhoon model family. Introduces ThaiExam benchmark based on Thai high-school and investment professional examinations to assess Thai knowledge in LLMs.
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Llama, Llama2, Mistral, Mistral-7B. Verified dataset/resource link: https://github.com/aisingapore/sealion.
 
 ## Notes
 

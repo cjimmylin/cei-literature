@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Develops a Hebrew corpus of user comments annotated for abusive language from Facebook. Investigates sparse n-grams and dense character n-grams representations for comment abuse classification."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -68,6 +69,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Develops a Hebrew corpus of user comments annotated for abusive language from Facebook. Investigates sparse n-grams and dense character n-grams representations for comment abuse classification.
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

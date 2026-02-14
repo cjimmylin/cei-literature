@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: NA
 tags: 
 abstract: "Turkish hate speech dataset from two domains: Istanbul Convention withdrawal tweets and Refugees tweets. BERTurk-based detection system achieving 77% and 71% accuracy respectively."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -62,6 +63,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Turkish hate speech dataset from two domains: Istanbul Convention withdrawal tweets and Refugees tweets. BERTurk-based detection system achieving 77% and 71% accuracy respectively.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

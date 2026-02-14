@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/KurdishBLARK/HawramiClassification"
 tags: 
 abstract: "Dataset of 6,854 Hawrami articles labeled into 15 categories. Linear SVM achieves 96% accuracy. First text classification resource for endangered Hawrami dialect of Kurdish."
 research_topic: "Machine Learning"
@@ -65,6 +66,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Dataset of 6,854 Hawrami articles labeled into 15 categories. Linear SVM achieves 96% accuracy. First text classification resource for endangered Hawrami dialect of Kurdish.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/KurdishBLARK/HawramiClassification.
 
 ## Notes
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Evaluating Large Language Models (LLMs) in low-resource and linguistically diverse languages remains a significant challenge in NLP, particularly for languages using non-Latin scripts like those spoken in India. Existing benchmarks predominantly focus on English, leaving substantial gaps in assessing LLM capabilities in these languages. We introduce MILU—Multi-task Indic Language Understanding Benchmark—a comprehensive evaluation benchmark designed to address this gap."
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Claude-3, GEMMA, GEMMA-2, GPT-4o, GPT-4O-MINI, GPT-4, Llama, Llama-2, LLAMA-3.1, LLAMA-3.2, LLAMA2, LLAMA3, Llama-3"
 DATA_URL: "https://huggingface.co/datasets/ai4bharat/MILU"
 research_topic: "Machine Learning"
 ---
@@ -66,6 +68,10 @@ Comprehensive evaluation benchmark spanning 8 domains and 41 subjects across 11 
 ## Benchmark
 
 **Name:** MILU
+
+## Data Description
+
+Backfill summary: Models assessed include Claude-3, GEMMA, GEMMA-2, GPT-4o, GPT-4O-MINI, GPT-4, Llama, Llama-2, LLAMA-3.1, LLAMA-3.2, LLAMA2, LLAMA3, Llama-3. Verified dataset/resource link: https://huggingface.co/datasets/ai4bharat/MILU.
 
 ## Notes
 

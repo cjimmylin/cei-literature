@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "NLP research has increasingly focused on subjective tasks such as emotion analysis. However, existing emotion benchmarks suffer from two major shortcomings: (1) they largely rely on keyword-based emotion recognition, overlooking crucial cultural dimensions required for deeper emotion understanding, and (2) many are created by translating English-annotated data into other languages, leading to potentially unreliable evaluation."
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "ChatGPT, Claude, Claude-3, Claude-3-opus, Claude-3.5, Claude-3.5-sonnet, GPT-3, GPT-3.5, GPT-4, Gemma, Gemma-2, Llama-3, Llama-3.2, Llama"
 DATA_URL: "https://github.com/llm-for-emotion/culemo"
 research_topic: "Social & Cultural Analysis"
 ---
@@ -65,6 +67,10 @@ First benchmark for culture-aware emotion prediction across six languages. 400 c
 ## Benchmark
 
 **Name:** CuLEmo
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, Claude, Claude-3, Claude-3-opus, Claude-3.5, Claude-3.5-sonnet, GPT-3, GPT-3.5, GPT-4, Gemma, Gemma-2, Llama-3, Llama-3.2, Llama. Verified dataset/resource link: https://github.com/llm-for-emotion/culemo.
 
 ## Notes
 

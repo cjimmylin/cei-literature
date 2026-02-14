@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark text corpus for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4, BERT"
+DATA_URL: NA
 tags: 
 abstract: "The development of robust hate speech detection systems remains limited by the lack of large-scale, fine-grained training data, especially for languages beyond English. Existing corpora typically rely on coarse toxic/non-toxic labels, and the few that capture hate directed at specific minority groups critically lack the non-toxic counterexamples (i.e., benign text about minorities) required to distinguish genuine hate from mere discussion."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -66,6 +67,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 First Portuguese publicly available corpus for hate-speech classification across multiple minority targets, comprising 53,274 LLM-generated samples annotated for toxicity, discourse type, and target group covering nine protected communities.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4, BERT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

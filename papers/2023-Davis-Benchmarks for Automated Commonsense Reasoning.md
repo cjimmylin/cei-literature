@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, ChatGPT, GPT-3"
 DATA_URL: NA
 ---
 # Benchmarks for Automated Commonsense Reasoning: A Survey

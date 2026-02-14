@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract:
 research_topic: Other
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Gemini, Qwen, Llama-3, DeepSeek"
+LLM_assessed: "GPT-4, Qwen, Llama-3, DeepSeek"
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
 ---

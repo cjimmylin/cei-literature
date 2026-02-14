@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for ai safety annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-mini, Llama, LLaMA Guard, LLamaGuard, Llama- Guard, Llama-Guard, Qwen"
+DATA_URL: "https://huggingface.co/OPI-PG/Qra-1b"
 tags: 
 abstract: "Despite increasing efforts to ensure the safety of large language models (LLMs), most existing safety assessments and moderation tools remain heavily biased toward English and other high-resource languages, leaving majority of global languages underexamined. To address this gap, we introduce a manually annotated benchmark dataset for language model safety classification in Polish. We also create adversarially perturbed variants of these samples designed to challenge model robustness."
 ethics_perspective: "AI Safety & Alignment"
@@ -65,6 +67,10 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 First manually verified Polish-language safety benchmark for LLM content classification, with adversarial extension PL-Guard-adv. Fine-tunes HerBERT, Llama-Guard-3, and PLLuM for Polish safety classification.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-mini, Llama, LLaMA Guard, LLamaGuard, Llama- Guard, Llama-Guard, Qwen. Verified dataset/resource link: https://huggingface.co/OPI-PG/Qra-1b.
 
 ## Notes
 

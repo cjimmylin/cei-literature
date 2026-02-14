@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4, Mistral, Mixtral, Llama-3, Qwen"
-DATA_URL: NA
+DATA_URL: "https://github.com/CHATS-lab/persuasive_jailbreaker"
 ---
 # Quantifying AI Psychology: A Psychometrics Benchmark for Large Language Models
 

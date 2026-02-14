@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, RoBERTa"
+DATA_URL: "https://github.com/ICTRC/Parsivar"
 tags: 
 abstract: "Persian corpus of 520,000 samples from Twitter, 6,000 annotated by native speakers. Uses random and lexicon-based sampling. Addresses offensive language detection in Persian as a low-resource language."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -68,6 +69,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Persian corpus of 520,000 samples from Twitter, 6,000 annotated by native speakers. Uses random and lexicon-based sampling. Addresses offensive language detection in Persian as a low-resource language.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, RoBERTa. Verified dataset/resource link: https://github.com/ICTRC/Parsivar.
 
 ## Notes
 

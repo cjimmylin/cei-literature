@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, DeBERTa"
+DATA_URL: "https://huggingface.co/PORTULAN/albertina-ptbr"
 tags: 
 abstract: "To advance the neural encoding of Portuguese (PT), and a fortiori the technological preparation of this language for the digital age, we developed a Transformer-based foundation model that sets a new state of the art in this respect for two of its variants, namely European Portuguese from Portugal (PT-PT) and American Portuguese from Brazil (PT-BR). To develop this encoder, which we named Albertina PT-*, a strong model was used as a starting point, DeBERTa, and its pre-training was done over..."
 research_topic: "NLP & Representation Learning"
@@ -65,6 +67,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 DeBERTa-based foundation model for Portuguese with separate PT-PT and PT-BR variants. Evaluated on ASSIN-2 and GLUE translations for both Portuguese varieties.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, DeBERTa. Verified dataset/resource link: https://huggingface.co/PORTULAN/albertina-ptbr.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for moral/ethical reasoning text corpus for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, DeBERTa, ELECTRA, ELMo, GPT-2, GPT-3, RoBERTa, XLNet"
+DATA_URL: "https://github.com/KLUE-benchmark/KLUE"
 tags: 
 abstract: "We introduce Korean Language Understanding Evaluation (KLUE) benchmark. KLUE is a collection of 8 Korean natural language understanding (NLU) tasks, including Topic Classiﬁcation, Semantic Textual Similarity, Natural Language Inference, Named Entity Recognition, Relation Extraction, Dependency Parsing, Machine Reading Comprehension, and Dialogue State Tracking. We build all of the tasks from scratch from diverse source corpora while respecting copyrights, to ensure accessibility for anyone..."
 ethics_perspective: "Privacy & Data Ethics"
@@ -65,6 +66,10 @@ ethics_perspective: "Privacy & Data Ethics"
 ## Abstract
 
 Korean NLU benchmark with 8 tasks: Topic Classification, Semantic Textual Similarity, NLI, NER, Relation Extraction, Dependency Parsing, MRC, Dialogue State Tracking. Built from scratch with ethical considerations — proactively removed social biases, toxic content, and PII.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, DeBERTa, ELECTRA, ELMo, GPT-2, GPT-3, RoBERTa, XLNet. Verified dataset/resource link: https://github.com/KLUE-benchmark/KLUE.
 
 ## Notes
 

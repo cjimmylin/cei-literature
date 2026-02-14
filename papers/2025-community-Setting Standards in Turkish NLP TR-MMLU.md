@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Language models have made remarkable advancements in understanding and generating human language, achieving notable success across a wide array of applications. However, evaluating these models remains a signiﬁcant challenge, particularly for resource-limited languages such as Turkish. To address this gap, we introduce the Turkish MMLU (TR-MMLU) benchmark, a comprehensive evaluation framework designed to assess the linguistic and conceptual capabilities of large language models (LLMs) in Turkish."
 data_description: "Benchmark dataset"
 data_metrics: "280,000 questions"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, Claude, ELECTRA, GPT-4, Gemma, Llama, claude-3.5, claude-3.5 Sonnet, gemma2, GPT-4o, llama 70., llama3.1, llama3.3"
+DATA_URL: NA
 research_topic: "NLP & Representation Learning"
 ---
 # Setting Standards in Turkish NLP: TR-MMLU for Large Language Model Evaluation
@@ -64,6 +66,10 @@ research_topic: "NLP & Representation Learning"
 ## Benchmark
 
 **Name:** TR-MMLU
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Claude, ELECTRA, GPT-4, Gemma, Llama, claude-3.5, claude-3.5 Sonnet, gemma2, GPT-4o, llama 70., llama3.1, llama3.3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

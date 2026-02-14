@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,7 +30,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Lazar-Frontier AI Ethics.md"
 local_pdf: "[[PDFs/2024/2024-Lazar-Frontier AI Ethics.pdf]]"

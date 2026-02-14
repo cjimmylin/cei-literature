@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,6 +67,11 @@ First paper to address religious hate speech detection in Arabic Twitter. Create
 ## Dataset Information
 
 5,569 training + 567 testing examples; first Arabic religious hate speech lexicon
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/nuhaalbadi/Arabic_hatespeech.
 
 ## Notes
 

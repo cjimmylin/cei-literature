@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "BERT, Llama, LLaMA 3.1, LLaMA Guard, LLama-Guard, llama 3"
+DATA_URL: "https://github.com/LonamiWebs/Telethon"
 tags: 
 abstract: 
 ethics_perspective: "Toxicity & Hate Speech"

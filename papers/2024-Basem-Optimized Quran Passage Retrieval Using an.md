@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_dataset: Yes
 data_description: "Dataset for question answering"
 data_metrics: "251 questions; 629 questions"
 LLM_assessed: "BERT, RoBERTa"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/datasets/ImruQays"
 ---
 # Optimized Quran Passage Retrieval Using an Expanded QA Dataset and Fine-Tuned Language Models
 

@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude 3.7, GPT-4, GPT-4o, Gemma 2, Llama, Llama 3.2, Llama-3.2, Qwen 2.5, Qwen2.5, dolly"
+DATA_URL: "https://github.com/andrian-kr/alignment"
 tags: 
 abstract: "LLM alignment benchmark for Ukrainian with 3,682 moral judgment scenarios and 1,700 ethical situations. Cross-lingual evaluation of six LLMs confirms performance gap between Ukrainian and English alignment. Released under MIT license."
 ethics_perspective: "AI Safety & Alignment"
@@ -65,6 +67,10 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 LLM alignment benchmark for Ukrainian with 3,682 moral judgment scenarios and 1,700 ethical situations. Cross-lingual evaluation of six LLMs confirms performance gap between Ukrainian and English alignment. Released under MIT license.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude 3.7, GPT-4, GPT-4o, Gemma 2, Llama, Llama 3.2, Llama-3.2, Qwen 2.5, Qwen2.5, dolly. Verified dataset/resource link: https://github.com/andrian-kr/alignment.
 
 ## Notes
 

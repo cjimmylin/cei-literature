@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ ethics_perspective: "General Ethics"
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, T5"
-DATA_URL: NA
+DATA_URL: "https://github.com/liweijiang/delphi.git"
 normative_ethics_benchmark: Borderline
 ---
 # Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)

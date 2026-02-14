@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "The rapid development of Large Language Models (LLMs) and the emergence of novel abilities with scale have necessitated the construction of holistic, diverse and challenging benchmarks such as HELM and BIG-bench. However, at the moment, most of these benchmarks focus only on performance in English and evaluations that include Southeast Asian (SEA) languages are few in number. We therefore propose BHASA, a holistic linguistic and cultural evaluation suite for LLMs in SEA languages."
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, InstructGPT, PaLM, PaLM-2, Vicuna"
 DATA_URL: "https://github.com/aisingapore/BHASA"
 research_topic: "Social & Cultural Analysis"
 ---
@@ -65,6 +67,10 @@ Original version of SEA-HELM. Three components: NLP benchmark (8 tasks across NL
 ## Benchmark
 
 **Name:** BHASA
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, InstructGPT, PaLM, PaLM-2, Vicuna. Verified dataset/resource link: https://github.com/aisingapore/BHASA.
 
 ## Notes
 

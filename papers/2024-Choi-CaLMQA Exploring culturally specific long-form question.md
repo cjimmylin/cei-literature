@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Despite rising global usage of large language models (LLMs), their ability to generate longform answers to culturally specific questions remains unexplored in many languages. To fill this gap, we perform the first study of textual multilingual long-form QA by creating CALMQA, a dataset of 51.7K culturally specific questions across 23 different languages. We define culturally specific questions as those that refer to concepts unique to one or a few cultures, or have different answers depending..."
 data_description: "Evaluation methodology dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Claude, CLAUDE-3, CLAUDE-3-OPUS, GPT-4, GPT-4-TURBO, GPT-4o, Llama, Llama-3, Mixtral, MIXTRAL-8X22B, BERT"
 DATA_URL: "https://huggingface.co/datasets/shanearora/CaLMQA"
 research_topic: "Truthfulness & Factuality"
 ---
@@ -65,6 +67,10 @@ research_topic: "Truthfulness & Factuality"
 ## Benchmark
 
 **Name:** CaLMQA
+
+## Data Description
+
+Backfill summary: Models assessed include Claude, CLAUDE-3, CLAUDE-3-OPUS, GPT-4, GPT-4-TURBO, GPT-4o, Llama, Llama-3, Mixtral, MIXTRAL-8X22B, BERT. Verified dataset/resource link: https://huggingface.co/datasets/shanearora/CaLMQA.
 
 ## Notes
 

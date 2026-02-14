@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BLOOMz, CommandR, Llama-3, Llama3, Mistral, Mistral. 6, command-r"
+DATA_URL: NA
 tags: 
 abstract: "Improving the alignment of Large Language Models (LLMs) with respect to the cultural values that they encode has become an increasingly important topic. In this work, we study whether we can exploit existing knowledge about cultural values at inference time to adjust model responses to cultural value probes. We present a simple and inexpensive method that uses a combination of in-context learning (ICL) and human survey data, and show that we can improve the alignment to cultural values across"
 ethics_perspective: "Social & Cultural Values"
@@ -62,6 +64,10 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Method using in-context learning and human survey data (WVS) to improve cultural value alignment across LLMs. Shows improvement in test languages beyond English for culturally diverse countries.
+
+## Data Description
+
+Backfill summary: Models assessed include BLOOMz, CommandR, Llama-3, Llama3, Mistral, Mistral. 6, command-r. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

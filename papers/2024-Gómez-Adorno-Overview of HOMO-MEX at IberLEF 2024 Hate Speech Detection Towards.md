@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, GPT2, GloVE, RoBERTa"
+DATA_URL: NA
 tags: 
 abstract: "Shared task detecting and classifying LGBT+phobic content in Mexican Spanish digital posts and song lyrics. ~12,000 tweets (2012-2022). Three tracks: multi-class LGBT+phobia, specific phobia types (Gayphobia, Lesbophobia, Transphobia, Biphobia, Aphobia), and song lyrics."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -67,6 +68,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Shared task detecting and classifying LGBT+phobic content in Mexican Spanish digital posts and song lyrics. ~12,000 tweets (2012-2022). Three tracks: multi-class LGBT+phobia, specific phobia types (Gayphobia, Lesbophobia, Transphobia, Biphobia, Aphobia), and song lyrics.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT2, GloVE, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

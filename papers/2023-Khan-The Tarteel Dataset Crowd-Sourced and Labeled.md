@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,6 +66,11 @@ First large-scale crowd-sourced Quranic recitation dataset. "In-the-wild" datase
 ## Dataset Information
 
 25,000 audio clips (67.39 hours), 1,200+ unique individuals
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: Tarteel.ai / Quranic Universal Library.
 
 ## Notes
 

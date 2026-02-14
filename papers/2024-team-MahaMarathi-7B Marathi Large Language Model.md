@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -70,6 +71,10 @@ Marathi-specific 7B parameter language model with associated evaluation benchmar
 ## Benchmark
 
 **Name:** MahaMarathi
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/marathi-llm/MahaMarathi-7B-v24.01-Base.
 
 ## Notes
 

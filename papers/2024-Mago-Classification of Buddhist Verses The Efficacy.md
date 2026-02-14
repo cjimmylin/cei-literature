@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: 
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Electra, RoBERTa, T5, T5-base, BERT"
 DATA_URL: "Dataset provided for further study (per paper)"
 research_topic: "NLP & Representation Learning"
 ---
@@ -65,6 +67,11 @@ research_topic: "NLP & Representation Learning"
 ## Dataset Information
 
 Verses from Therigatha and Theragatha (Buddhist canonical poetry attributed to female and male authors)
+
+
+## Data Description
+
+Backfill summary: Models assessed include Electra, RoBERTa, T5, T5-base, BERT. Verified dataset/resource link: Dataset provided for further study (per paper).
 
 ## Notes
 

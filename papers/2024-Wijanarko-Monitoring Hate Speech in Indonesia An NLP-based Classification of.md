@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, ChatGPT, GPT-4o mini, GPT-4, RoBERTa, GPT-3, GPT-3.5, gpt-3.5-turbo"
+DATA_URL: NA
 tags: 
 abstract: "NLP-based hate speech classifier for texts targeting vulnerable groups in Indonesia (Shia, Ahmadiyyah, Christians, LGBTQ+, Chinese Indonesians, people with disabilities). Deployed as monitoring dashboard for Indonesian elections."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -64,6 +65,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 NLP-based hate speech classifier for texts targeting vulnerable groups in Indonesia (Shia, Ahmadiyyah, Christians, LGBTQ+, Chinese Indonesians, people with disabilities). Deployed as monitoring dashboard for Indonesian elections.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT, GPT-4o mini, GPT-4, RoBERTa, GPT-3, GPT-3.5, gpt-3.5-turbo. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

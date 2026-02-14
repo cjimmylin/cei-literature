@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: 
 research_topic: "Machine Learning"
@@ -62,6 +63,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Based on my search results, here's what I found regarding datasets for Uyghur, Mongolian, Tibetan, and Kyrgyz languages in NLP: Speech Recognition and Language Resources The Multilingual Minorlingual Automatic Speech Recognition (M2ASR) project aimed to construct a full set of speech and text resources for five minor languages (Tibetan, Mongolian, Uyghur, Kazakh, and Kirghiz) in the northwest of China. The resources included speech databases (277 h in Uyghur, 250 h in Kazakh, and 166 h in K
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

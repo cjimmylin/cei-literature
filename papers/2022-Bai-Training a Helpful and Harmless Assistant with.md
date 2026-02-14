@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "GPT-2, GPT-3, InstructGPT, LaMDA, Palm, BERT, codex, grok"
 DATA_URL: "https://github.com/anthropics/hh-rlhf"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Applies Birhane's relational ethics framework to argue for decolonizing NLP for African languages. Advocates for language speakers to determine how their languages are used in AI, with communities retaining data ownership. Foundational framework paper for ethical African language NLP. Applies relational ethics (African tradition) to data sovereignty and community ownership. Essential context for values-aligned AI development."
 ethics_perspective: "General Ethics"
@@ -61,6 +62,10 @@ ethics_perspective: "General Ethics"
 ## Abstract
 
 Applies Birhane's relational ethics framework to argue for decolonizing NLP for African languages. Advocates for language speakers to determine how their languages are used in AI, with communities retaining data ownership.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

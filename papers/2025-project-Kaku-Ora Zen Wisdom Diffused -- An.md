@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,6 +66,11 @@ research_topic: Other
 ## Dataset Information
 
 ~20,000 examples in JSONL format (~5,000 from koan literature, ~15,000 from non-koan Zen exchanges)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: GitHub (code available); HuggingFace Spaces (model hosted).
 
 ## Notes
 

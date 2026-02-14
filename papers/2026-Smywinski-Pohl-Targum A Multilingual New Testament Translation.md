@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Many European languages possess rich biblical translation histories, yet existing corpora—in prioritizing linguistic breadth—often fail to capture this depth. To address this gap, we introduce a multilingual corpus of 657 New Testament translations, of which 352 are unique, with unprecedented depth in five languages: English (208 unique versions from 396 total), French (41 from 78), Italian (18 from 33), Polish (30 from 48), and Spanish (55 from 102)."
 data_description: "Multilingual benchmark annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Qwen, Qwen3"
 DATA_URL: "Code and public-domain subset to be released; copyrighted texts available upon request"
 research_topic: "Machine Translation"
 ---
@@ -65,6 +67,11 @@ Summary: Focuses on depth of translation within each language (multiple translat
 ## Dataset Information
 
 657 New Testament translations (352 unique) across 5 languages with deep coverage
+
+
+## Data Description
+
+Backfill summary: Models assessed include Qwen, Qwen3. Verified dataset/resource link: Code and public-domain subset to be released; copyrighted texts available upon request.
 
 ## Notes
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Comprehensive analysis of text-based LLM capabilities for Indic languages, reviewing 28 LLMs. Tamil and Telugu among the five best-represented languages. Funded by MLCommons for AI Safety Benchmarks. Provides prioritization framework for future benchmarks. Meta-analysis covering all four Dravidian languages. MLCommons-funded work directly informing AI safety benchmark development for Indic languages."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, BLOOM, BLOOMZ, ChatGPT, Claude, Claude 3.5 Sonnet, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, GPT-4-Vision, GPT-4o, Gemma, Llama, LLaMA., Llama 2, Llama 3, Llama 3.1, Llama-2, Llama-3, Llama2, Mistral, Mistral-7B, PaLM-2, PaLM2, T5, llama 2."
+DATA_URL: NA
 research_topic: Other
 ---
 # Analysis of Indic Language Capabilities in LLMs
@@ -60,6 +62,10 @@ research_topic: Other
 ## Abstract
 
 Comprehensive analysis of text-based LLM capabilities for Indic languages, reviewing 28 LLMs. Tamil and Telugu among the five best-represented languages. Funded by MLCommons for AI Safety Benchmarks. Provides prioritization framework for future benchmarks. Meta-analysis covering all four Dravidian languages. MLCommons-funded work directly informing AI safety benchmark development for Indic languages.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, BLOOM, BLOOMZ, ChatGPT, Claude, Claude 3.5 Sonnet, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, GPT-4-Vision, GPT-4o, Gemma, Llama, LLaMA., Llama 2, Llama 3, Llama 3.1, Llama-2, Llama-3, Llama2, Mistral, Mistral-7B, PaLM-2, PaLM2, T5, llama 2.. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

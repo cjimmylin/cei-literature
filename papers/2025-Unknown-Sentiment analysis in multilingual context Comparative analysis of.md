@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,9 +8,9 @@ key: LSRC0632
 type: conferencePaper
 short_title: "Sentiment analysis in multilingual context: Comparative analysis of machine learning and hybrid deep learning models - PMC"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
+first_author: "[[Das, Rajesh Kumar]]"
+last_author: "[[Khushbu, Sharun Akter]]"
+authors: "[[Das, Rajesh Kumar]]; [[Islam, Mirajul]]; [[Hasan, Md Mahmudul]]; [[Razia, Sultana]]; [[Hassan, Mocksidul]]; [[Khushbu, Sharun Akter]]"
 authors_incomplete: true
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10560063/"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC10560063&blobtype=pdf"
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, word2vec"
+DATA_URL: NA
 tags: 
 abstract: 
 research_topic: "Machine Learning"
@@ -41,11 +42,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Unknown]]
+[[Das, Rajesh Kumar]], [[Islam, Mirajul]], [[Hasan, Md Mahmudul]], [[Razia, Sultana]], [[Hassan, Mocksidul]], [[Khushbu, Sharun Akter]]
 
 ## Metadata
 
-**Authors:** Unknown
+**Authors:** Rajesh Kumar Das; Mirajul Islam; Md Mahmudul Hasan; Sultana Razia; Mocksidul Hassan; Sharun Akter Khushbu
 
 **Year:** 2025
 
@@ -63,10 +64,13 @@ research_topic: "Machine Learning"
 
 I found several relevant resources related to Mongolian NLP and sentiment analysis evaluation. Here's what the search revealed: Mongolian NLP Evaluation MM-Eval is a specialized dataset for evaluating the capabilities of large language models (LLMs) in modern Mongolian, which is a low-resource language.
 
+## Data Description
+
+Backfill summary: Models assessed include BERT, word2vec. No high-confidence repository-style data URL was identified.
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B10
 **Relevance:** Relevant to Mongolian, Multilingual
 
 ## Tags
-

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract: "Summary: Investigates GPT's capabilities in biblical studies across t
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: Other
 ---
 # Nothing New Under the Sun? The Study of Biblical Hebrew in the Era of Generative Pre-trained AI
@@ -64,6 +66,11 @@ Summary: Investigates GPT's capabilities in biblical studies across three catego
 ## Dataset Information
 
 N/A (experiments using ETCBC BHSA dataset and Text-Fabric Python libraries)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

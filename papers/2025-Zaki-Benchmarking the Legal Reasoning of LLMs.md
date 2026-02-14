@@ -1,4 +1,7 @@
 ---
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +36,8 @@ tags:
 abstract: "Islamic inheritance domain holds significant importance for Muslims to ensure fair distribution of shares between heirs. Manual calculation of shares under numerous scenarios is complex, time-consuming, and error-prone. Recent advancements in Large Language Models (LLMs) have sparked interest in their potential to assist with complex legal reasoning tasks. This study evaluates the reasoning capabilities of state-of-the-art LLMs to interpret and apply Islamic inheritance laws."
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "Falcon3, GPT-4o, Llama 4, Llama4, Llama"
+DATA_URL: NA
 ethics_perspective: "Social & Cultural Values"
 ---
 # Benchmarking the Legal Reasoning of LLMs in Arabic Islamic Inheritance Cases
@@ -64,6 +67,11 @@ Evaluates LLMs on identifying heirs, computing inheritance shares, and justifyin
 ## Dataset Information
 
 QIAS 2025 challenge dataset (Arabic inheritance scenarios)
+
+
+## Data Description
+
+Backfill summary: Models assessed include Falcon3, GPT-4o, Llama 4, Llama4, Llama. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

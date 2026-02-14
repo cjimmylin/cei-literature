@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Glove, Word2Vec"
+DATA_URL: NA
 tags: 
 abstract: "First English-Odia code-mixed hate speech dataset from Facebook. Three classes: hate, offensive, neither. SVM with word2vec achieves best performance. Addresses hate speech based on political views, ethnic origin, and religious affiliation in Odisha."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -67,6 +68,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 First English-Odia code-mixed hate speech dataset from Facebook. Three classes: hate, offensive, neither. SVM with word2vec achieves best performance. Addresses hate speech based on political views, ethnic origin, and religious affiliation in Odisha.
+
+## Data Description
+
+Backfill summary: Models assessed include Glove, Word2Vec. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "First transformer-based pretrained models for Khmer language. Evaluated on POS tagging and news categorization tasks. Self-constructed news categorization dataset of 7,166 Khmer news articles from khmer.voanews.com. Foundation Khmer language models and evaluation data. First pretrained models for Khmer, relevant as infrastructure for future cultural/values evaluation."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, ELECTRA, word2vec"
+DATA_URL: "https://github.com/SunYanCN/seqeval"
 research_topic: Other
 ---
 # Pretrained Models and Evaluation Data for the Khmer Language
@@ -65,6 +66,10 @@ First transformer-based pretrained models for Khmer language. Evaluated on POS t
 ## Benchmark
 
 **Name:** Khmer BERT/ELECTRA models, Khmer news categorization dataset
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ELECTRA, word2vec. Verified dataset/resource link: https://github.com/SunYanCN/seqeval.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "ELMo, GloVe, Word2Vec"
 DATA_URL: NA
 ---
 # UIC-NLP at SemEval-2020 Task 10: Exploring an Alternate Perspective on Evaluation

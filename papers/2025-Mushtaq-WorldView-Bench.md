@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude, Llama-3, Mistral, Gemini, DeepSeek"
+LLM_assessed: "GPT-4, Claude, Llama-3, Mistral, DeepSeek"
 DATA_URL: NA
 ---
 # WorldView-Bench: A Challenge for Generative Models to Accommodate Diverse Worldviews

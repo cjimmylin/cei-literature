@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Existing large language model (LLM) evaluation benchmarks primarily focus on English, while current multilingual tasks lack parallel questions that specifically assess crosslinguistic reasoning abilities. This dual limitation makes it challenging to comprehensively assess LLMs’ performance in the multilingual setting. To fill this gap, we introduce MMLUProX, a comprehensive benchmark covering 29 languages, built on an English benchmark."
 data_description: "Multilingual benchmark"
 data_metrics: "658 questions; 29 languages"
-LLM_assessed: NA
+LLM_assessed: "Claude, Claude Sonnet, DeepSeek, DeepSeek R1, DeepSeek V3, DeepSeek-R1, DeepSeek-V3, GPT-4, GPT-4o, GPT4, GPT4o, Gemma, Gemma 3, Llama, Llama 4, Phi4, Phi4 0, Phi4-14B, Qwen, Qwen3, ChatGPT"
 DATA_URL: "https://github.com/weihao1115/MMLU-ProX"
 research_topic: "Machine Translation"
 ---
@@ -65,6 +67,10 @@ Covers 29 typologically diverse languages with 11,829 identical questions each. 
 ## Benchmark
 
 **Name:** MMLU-ProX
+
+## Data Description
+
+Backfill summary: Models assessed include Claude, Claude Sonnet, DeepSeek, DeepSeek R1, DeepSeek V3, DeepSeek-R1, DeepSeek-V3, GPT-4, GPT-4o, GPT4, GPT4o, Gemma, Gemma 3, Llama, Llama 4, Phi4, Phi4 0, Phi4-14B, Qwen, Qwen3, ChatGPT. Verified dataset/resource link: https://github.com/weihao1115/MMLU-ProX.
 
 ## Notes
 

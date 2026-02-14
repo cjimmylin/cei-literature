@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, ChatGPT, Claude, Claude 3.5, Claude 3.5 Haiku, Claude 3.5 Sonnet, DeepSeek, DistilBERT, GPT 4o, GPT 4o Mini, GPT-4, Llama, Llama 3.2, Llama 3.2., Llama-3.2, RoBERTa, claude-3, GPT-4o, gpt-4o-mini"
+DATA_URL: "https://github.com/citizenlab/chat-censorship"
 tags: 
 abstract: 
 ethics_perspective: "Bias & Fairness"
@@ -65,6 +67,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 I've found research on this topic. Here's a summary of what the search revealed: Key Findings from the PETS 2025 Analysis A peer-reviewed study published in the Proceedings on Privacy Enhancing Technologies (PETS) in 2025 defines "censorship bias" as occurring when a large language model is trained on sanitized content—content that remains after state censorship including alterations, deletions, and self-imposed censorship.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT, Claude, Claude 3.5, Claude 3.5 Haiku, Claude 3.5 Sonnet, DeepSeek, DistilBERT, GPT 4o, GPT 4o Mini, GPT-4, Llama, Llama 3.2, Llama 3.2., Llama-3.2, RoBERTa, claude-3, GPT-4o, gpt-4o-mini. Verified dataset/resource link: https://github.com/citizenlab/chat-censorship.
 
 ## Notes
 

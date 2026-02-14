@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Phi, Mistral, Qwen, Gemini, Gemma, Llama-3, PaLM-2"
+LLM_assessed: "GPT-4, Phi, Mistral, Qwen, Gemma, Llama-3, PaLM-2"
 DATA_URL: NA
 ---
 # HalluVerse25: Fine-grained Multilingual Benchmark Dataset for LLM Hallucinations

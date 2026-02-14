@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "Hate speech detection in social media texts is an important Natural l
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL:
+DATA_URL: "https://github.com/deepanshu1995/HateSpeech-Hindi-"
 ---
 # Hindi-English Code-Mixed Social Media Text for Hate Speech Detection
 
@@ -59,6 +60,10 @@ DATA_URL:
 ## Abstract
 
 First attempt at detecting hate speech in Hindi-English code-mixed text with ~4,575 annotated tweets validated with Cohen's Kappa coefficient. Pioneering Hindi-English code-mixed hate speech dataset.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/deepanshu1995/HateSpeech-Hindi-.
 
 ## Notes
 

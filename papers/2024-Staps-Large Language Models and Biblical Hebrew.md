@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Summary: Critically evaluates whether LLMs can be useful for Biblical Hebrew scholarship. Exposes fundamental issues with GPT-based methods for this domain while identifying potential forward paths with machine learning methods for specific linguistic tasks."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT-4"
+DATA_URL: "https://huggingface.co/gngpostalsrvc/COHeN"
 research_topic: Other
 ---
 # Large Language Models and Biblical Hebrew: Limitations, Pitfalls, Opportunities
@@ -64,6 +66,11 @@ Summary: Critically evaluates whether LLMs can be useful for Biblical Hebrew sch
 ## Dataset Information
 
 N/A (evaluation study using BHSA dataset and Text-Fabric)
+
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-4. Verified dataset/resource link: https://huggingface.co/gngpostalsrvc/COHeN.
 
 ## Notes
 

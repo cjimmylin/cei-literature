@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude, Claude Sonnet, Command-R, DeepSeek-V3, GPT-4, GPT-4o, Llama 3, Llama 3.1, Llama-3, Mistral, Mistral-7b, Mistral-Large, Qwen-2.5, Qwen2"
+DATA_URL: "https://huggingface.co/spaces/sdadas"
 tags: 
 abstract: "Large language models (LLMs) are becoming increasingly proficient in processing and generating multilingual texts, which allows them to address real-world problems more effectively. However, language understanding is a far more complex issue that goes beyond simple text analysis. It requires familiarity with cultural context, including references to everyday life, historical events, traditions, folklore, literature, and pop culture."
 research_topic: "Social & Cultural Analysis"
@@ -65,6 +67,10 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Introduces a 600-question benchmark for Polish linguistic and cultural competency across 6 categories (history, geography, culture & tradition, art & entertainment, grammar, vocabulary), evaluated on 30+ LLMs.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude, Claude Sonnet, Command-R, DeepSeek-V3, GPT-4, GPT-4o, Llama 3, Llama 3.1, Llama-3, Mistral, Mistral-7b, Mistral-Large, Qwen-2.5, Qwen2. Verified dataset/resource link: https://huggingface.co/spaces/sdadas.
 
 ## Notes
 

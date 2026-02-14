@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
@@ -62,6 +63,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Based on the web search results, here's what I found about multilingual hate speech detection datasets and cross-lingual benchmarks: Key Research Areas Recent research proposes novel methods for detecting hate speech in texts using Cross-Lingual Learning, which uses transfer learning from Pre-Trained Language Models with large corpora available to solve problems in languages with fewer resources for the specific task. Notable Datasets and Benchmarks The Hate Speech Dataset Catalogue inc
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

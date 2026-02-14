@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4o, Qwen, Llama-3, Gemma, Gemini, DeepSeek, Phi"
+LLM_assessed: "GPT-4o, Qwen, Llama-3, Gemma, DeepSeek, Phi"
 DATA_URL: NA
 ---
 # Analyzing Cognitive Differences Among Large Language Models through the Lens of Social Worldview

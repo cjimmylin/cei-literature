@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "In this paper, we introduce SailCompass, a reproducible and robust evaluation benchmark for assessing Large Language Models (LLMs) on Southeast Asian Languages (SEA). SailCompass encompasses three main SEA languages, eight primary tasks including 14 datasets covering three task types (generation, multiplechoice questions, and classiﬁcation). To improve the robustness of the evaluation approach, we explore different prompt conﬁgurations for multiple-choice questions and leverage calibrations to..."
 data_description: "Benchmark dataset"
 data_metrics: "14 datasets"
-LLM_assessed: NA
+LLM_assessed: "BLOOM, BLOOM-7B1, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT3, GPT3.5-turbo, Gemma, Llama, Llama-2, Llama-3, Mistral, Mistral 7b, Mistral-7B, QWEN1.5, Qwen, Qwen-1.5, Qwen.5"
 DATA_URL: "https://huggingface.co/datasets/sail/Sailcompass_data"
 research_topic: "AI Safety & Alignment"
 ---
@@ -65,6 +67,10 @@ Comprehensive evaluation scripts for robust and reproducible multilingual LLM ev
 ## Benchmark
 
 **Name:** SailCompass
+
+## Data Description
+
+Backfill summary: Models assessed include BLOOM, BLOOM-7B1, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT3, GPT3.5-turbo, Gemma, Llama, Llama-2, Llama-3, Mistral, Mistral 7b, Mistral-7B, QWEN1.5, Qwen, Qwen-1.5, Qwen.5. Verified dataset/resource link: https://huggingface.co/datasets/sail/Sailcompass_data.
 
 ## Notes
 

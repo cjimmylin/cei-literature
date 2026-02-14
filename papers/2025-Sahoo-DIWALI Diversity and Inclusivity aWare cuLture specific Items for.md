@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Gemma, Gemma 2, Gemma-2, Llama, Llama 2, Llama 3.1, Llama 3.2, Llama-2, Llama-3.1, Llama-3.2, Mistral, Mistral 7B, Mistral 7BInstruct, Mistral-7B, llama 3"
+DATA_URL: "https://github.com/pramitsahoo/culture-"
 tags: 
 abstract: "Large language models (LLMs) are widely used in various tasks and applications. However, despite their wide capabilities, they are shown to lack cultural alignment (Ryan et al., 2024; AlKhamissi et al., 2024) and produce biased generations (Naous et al., 2024) due to a lack of cultural knowledge and competence. Evaluation of LLMs for cultural awareness and alignment is particularly challenging due to the lack of proper evaluation metrics and unavailability of culturally grounded datasets..."
 ethics_perspective: "Social & Cultural Values"
@@ -66,6 +68,10 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 ~8k Culture Specific Items (CSIs) from 36 Indian sub-regions across 17 cultural facets (food, dance, festivals, clothing, rituals, etc.). Evaluates LLM cultural competence for text adaptation. Finds LLMs exhibit significant sub-regional bias. EMNLP 2025 Oral.
+
+## Data Description
+
+Backfill summary: Models assessed include Gemma, Gemma 2, Gemma-2, Llama, Llama 2, Llama 3.1, Llama 3.2, Llama-2, Llama-3.1, Llama-3.2, Mistral, Mistral 7B, Mistral 7BInstruct, Mistral-7B, llama 3. Verified dataset/resource link: https://github.com/pramitsahoo/culture-.
 
 ## Notes
 

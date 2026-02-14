@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Comprehensive analysis of the state of Filipino NLP and what is needed for LLM evaluation, discussing gaps in benchmarks for cultural understanding, safety, and alignment specific to Filipino."
 research_topic: "NLP & Representation Learning"
@@ -62,6 +63,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Comprehensive analysis of the state of Filipino NLP and what is needed for LLM evaluation, discussing gaps in benchmarks for cultural understanding, safety, and alignment specific to Filipino.
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

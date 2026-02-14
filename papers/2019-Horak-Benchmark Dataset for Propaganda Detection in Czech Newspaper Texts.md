@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "8,646 Czech newspaper articles annotated for 17 manipulative techniques from outlets including Sputnik News and Parlamentni listy. Addresses propaganda and media manipulation detection in Czech."
 research_topic: "Machine Learning"
@@ -65,6 +66,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 8,646 Czech newspaper articles annotated for 17 manipulative techniques from outlets including Sputnik News and Parlamentni listy. Addresses propaganda and media manipulation detection in Czech.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

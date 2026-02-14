@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "Safety alignment is critical for LLM-powered systems. While recent LLM-powered guardrail approaches such as LlamaGuard achieve high detection accuracy of unsafe inputs written in English (e.g., “How to create a bomb?”), they struggle with multilingual unsafe inputs. This limitation leaves LLM systems vulnerable to unsafe and jailbreak prompts written in low-resource languages such as those in Southeast Asia."
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "260,000 prompts"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "Alpaca, ChatGPT, GPT-4, Llama, Llama- Guard, Llama-Guard, LlamaGuard"
+DATA_URL: "https://github.com/awsm-research/SEALGuard"
 ethics_perspective: "AI Safety & Alignment"
 ---
 # SEALGuard: Safeguarding the Multilingual Conversations in Southeast Asian Languages for LLM Software Systems
@@ -64,6 +65,10 @@ Multilingual guardrail for LLM safety in SEA languages. Constructs SEALSBench wi
 ## Benchmark
 
 **Name:** SEALSBench, SEALGuard
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, ChatGPT, GPT-4, Llama, Llama- Guard, Llama-Guard, LlamaGuard. Verified dataset/resource link: https://github.com/awsm-research/SEALGuard.
 
 ## Notes
 

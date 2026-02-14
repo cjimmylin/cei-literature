@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, ChatGPT, GPT-4, GPT-4o, Gemma, Gemma 2, Llama, LLaMa 3, Llama 3.1, Llama 4, Llama-4, Mixtral 8x22B, Qwen, Qwen2.5, gpt-4o-mini, mistral.ai"
+DATA_URL: "https://huggingface.co/spaces/OALL"
 tags: 
 abstract: "Despite the impressive performance of LLMs on English-based tasks, little is known about their capabilities in specific languages such as Filipino. In this work, we address this gap by introducing FILBENCH, a Filipino-centric benchmark designed to evaluate LLMs across a diverse set of tasks and capabilities in Filipino, Tagalog, and Cebuano. We carefully curate the tasks in FILBENCH to reflect the priorities and trends of NLP research in the Philippines such as Cultural Knowledge, Classical..."
 ethics_perspective: "Social & Cultural Values"
@@ -66,6 +68,10 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Comprehensive evaluation suite for LLMs on Tagalog, Filipino, and Cebuano covering fluency, linguistic abilities, translation, and cultural knowledge across 12 tasks in four major categories.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, ChatGPT, GPT-4, GPT-4o, Gemma, Gemma 2, Llama, LLaMa 3, Llama 3.1, Llama 4, Llama-4, Mixtral 8x22B, Qwen, Qwen2.5, gpt-4o-mini, mistral.ai. Verified dataset/resource link: https://huggingface.co/spaces/OALL.
 
 ## Notes
 

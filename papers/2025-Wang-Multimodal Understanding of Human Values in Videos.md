@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract:
 ethics_perspective: "Moral Reasoning & Psychology"
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "Gemini, Mistral, RoBERTa, DeBERTa"
+LLM_assessed: "Mistral, RoBERTa, DeBERTa"
 DATA_URL: NA
 ---
 # Multimodal Understanding of Human Values in Videos

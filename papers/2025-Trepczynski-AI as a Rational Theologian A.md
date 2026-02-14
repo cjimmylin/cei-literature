@@ -1,4 +1,7 @@
 ---
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +36,8 @@ tags:
 abstract: "Summary: Extended study (2023--2024) showing that leading chatbots possess core skills of a rational theologian. Finds surprisingly high performance on theological skills, with caveats about hallucination risks especially for specific quotations."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "Bloom, ChatGPT, Codex, GPT-3, GPT-3.5, GPT-4, GPT-4o, Llama-3, Llama2, PaLM, T5"
+DATA_URL: NA
 research_topic: Other
 ---
 # AI as a Rational Theologian: A Comprehensive Skills Assessment
@@ -63,6 +66,11 @@ Summary: Extended study (2023--2024) showing that leading chatbots possess core 
 ## Dataset Information
 
 Comprehensive structured theological skills assessment
+
+
+## Data Description
+
+Backfill summary: Models assessed include Bloom, ChatGPT, Codex, GPT-3, GPT-3.5, GPT-4, GPT-4o, Llama-3, Llama2, PaLM, T5. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

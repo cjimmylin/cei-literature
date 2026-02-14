@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: "https://github.com/jaredks/tweetokenize"
 tags: 
 abstract: "International shared task on hate speech detection in English and Spanish tweets targeting immigrants and women. 19,600 tweets total (6,600 Spanish). Binary hate speech detection plus fine-grained aggressive/target classification. 74 teams, 108 submitted runs."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -67,6 +68,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 International shared task on hate speech detection in English and Spanish tweets targeting immigrants and women. 19,600 tweets total (6,600 Spanish). Binary hate speech detection plus fine-grained aggressive/target classification. 74 teams, 108 submitted runs.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/jaredks/tweetokenize.
 
 ## Notes
 

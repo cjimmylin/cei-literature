@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ tags:
 abstract: "Aggregated superset of Turkish hate speech datasets available on HuggingFace, combining multiple existing Turkish hate speech resources. Consolidated Turkish hate speech dataset combining multiple sources. Useful for comprehensive toxicity and hate speech evaluation in Turkish LLMs."
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT"
 DATA_URL: "https://huggingface.co/datasets/manueltonneau/turkish-hate-speech-superset"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
@@ -61,6 +62,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Aggregated superset of Turkish hate speech datasets available on HuggingFace, combining multiple existing Turkish hate speech resources. Consolidated Turkish hate speech dataset combining multiple sources. Useful for comprehensive toxicity and hate speech evaluation in Turkish LLMs.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://huggingface.co/datasets/manueltonneau/turkish-hate-speech-superset.
 
 ## Notes
 

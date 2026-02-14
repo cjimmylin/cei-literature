@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract: "Large Language Models (LLM) technology is constantly improving toward
 ethics_perspective: "General Ethics"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Gemini, Llama-3, Gemma"
+LLM_assessed: "GPT-4, Llama-3, Gemma"
 DATA_URL: NA
 ---
 # Do LLMs Have Consistent Values?

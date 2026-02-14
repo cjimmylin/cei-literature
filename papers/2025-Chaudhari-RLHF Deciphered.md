@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Alpaca, Bloom-7B, ChatGPT, Codex, Dolly, GPT-3, GPT-3.5, GPT-4, GPT4, Llama, Text-Davinci-003, Vicuna, Vicuna-80, WizardLM, BERT"
 DATA_URL: "https://github.com/GaryYufei/AlignLLMHumanSurvey"
 ---
 # RLHF Deciphered

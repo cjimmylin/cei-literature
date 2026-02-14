@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BART, BERT, Flan-T5-based, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-mini, GPT2, GPT4o, GPT4o-mini, Gemma, Gemma-2, Llama, Llama 3, Llama-2, Llama-3, Qwen, Qwen-2.5, Qwen1.5, T5, T5-based, opt125M_portuguese"
+DATA_URL: "https://github.com/MeLLL-UFF/brfauna-gen-eval"
 tags: 
 abstract: "Comprehensive evaluation of Brazilian Portuguese LLMs (Sabiá-3, Tucano, Bode, Cabra, Periquito, Boto) across summarization, simplification, and generative QA tasks vs GPT-4o."
 research_topic: Other
@@ -64,6 +66,10 @@ research_topic: Other
 ## Abstract
 
 Comprehensive evaluation of Brazilian Portuguese LLMs (Sabiá-3, Tucano, Bode, Cabra, Periquito, Boto) across summarization, simplification, and generative QA tasks vs GPT-4o.
+
+## Data Description
+
+Backfill summary: Models assessed include BART, BERT, Flan-T5-based, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-mini, GPT2, GPT4o, GPT4o-mini, Gemma, Gemma-2, Llama, Llama 3, Llama-2, Llama-3, Qwen, Qwen-2.5, Qwen1.5, T5, T5-based, opt125M_portuguese. Verified dataset/resource link: https://github.com/MeLLL-UFF/brfauna-gen-eval.
 
 ## Notes
 

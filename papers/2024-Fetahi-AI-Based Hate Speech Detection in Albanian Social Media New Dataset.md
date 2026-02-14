@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "AlBERT-Albanian (if exists), mBERT, XLM-RoBERTa"
+LLM_assessed: "mBERT, XLM-RoBERTa"
 DATA_URL: NA
 tags: 
 abstract: 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "GPT-3, GPT-3.5, GPT-4"
+DATA_URL: "https://github.com/antony0596/auto-gpt"
 ---
 # The Alignment Problem from a Deep Learning Perspective
 

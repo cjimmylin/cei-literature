@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Bloom P"
 DATA_URL: "https://osf.io/2rqad/"
 pdf_extract: "PDF Extracts/2018/2018-Crone-The Socio-Moral Image Database (SMID).md"
 local_pdf: "[[PDFs/2018/2018-Crone-The Socio-Moral Image Database (SMID).pdf]]"

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,6 +66,11 @@ Evaluates GPT-4 on Quranic question answering using the newly created QUQA datas
 ## Dataset Information
 
 2,189 questions (QUQA dataset)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: QUQA dataset (available via thesis/ACL).
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: "https://github.com/davardoust/PHICAD"
 tags: 
 abstract: "Over 300,000 Farsi Instagram comments categorized into hate speech/offensive language, obscenity, and spam. Multi-stage labeling with high inter-annotator agreement."
 research_topic: "Machine Learning"
@@ -65,6 +66,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Over 300,000 Farsi Instagram comments categorized into hate speech/offensive language, obscenity, and spam. Multi-stage labeling with high inter-annotator agreement.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/davardoust/PHICAD.
 
 ## Notes
 

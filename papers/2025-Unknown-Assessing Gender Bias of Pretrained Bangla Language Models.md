@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, ELECTRA, GPT-2, GPT2, Gemma, Llama, T5, T5TokenizerFast"
+DATA_URL: "https://github.com/csebuetnlp/normalizer"
 tags: 
 abstract: "Assessment of gender bias in pretrained Bangla language models. Evaluates how pre-existing gender stereotypes are encoded in Bangla PLMs."
 ethics_perspective: "Bias & Fairness"
@@ -64,6 +65,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Assessment of gender bias in pretrained Bangla language models. Evaluates how pre-existing gender stereotypes are encoded in Bangla PLMs.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, ELECTRA, GPT-2, GPT2, Gemma, Llama, T5, T5TokenizerFast. Verified dataset/resource link: https://github.com/csebuetnlp/normalizer.
 
 ## Notes
 

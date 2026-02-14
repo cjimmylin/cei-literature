@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Cross-linguistic analysis of hate speech patterns finding Kurdish commentators primarily use dehumanization and demonization patterns distinct from English hate speech."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -64,6 +65,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Cross-linguistic analysis of hate speech patterns finding Kurdish commentators primarily use dehumanization and demonization patterns distinct from English hate speech.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

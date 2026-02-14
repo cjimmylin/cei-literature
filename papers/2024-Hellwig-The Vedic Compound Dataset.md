@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract: "> First annotated compound dataset from Vedic Sanskrit, covering five
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: "Machine Learning"
 ---
 # The Vedic Compound Dataset (VCD)
@@ -67,6 +69,11 @@ research_topic: "Machine Learning"
 ## Dataset Information
 
 Annotated compounds from Vedic Sanskrit (1500-500 BCE texts)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

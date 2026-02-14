@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,7 +30,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "GPT-4, Llama, LlamaGuard, Mistral, Mistral Nemo, Mistral-7B, mistralai"
 DATA_URL: "https://github.com/mlcommons/ailuminate"
 pdf_extract: "PDF Extracts/2024/2024-MLCommons-MLCommons AILuminate Benchmark.md"
 local_pdf: "[[PDFs/2024/2024-MLCommons-MLCommons AILuminate Benchmark.pdf]]"

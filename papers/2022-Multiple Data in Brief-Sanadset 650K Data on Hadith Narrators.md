@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,6 +67,11 @@ Large-scale Hadith narrator chain (Sanad) dataset extracted from 926 historical 
 ## Dataset Information
 
 650,986 records from 926 historical Arabic Hadith books
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://data.mendeley.com/datasets/5xth87zwb5/4.
 
 ## Notes
 

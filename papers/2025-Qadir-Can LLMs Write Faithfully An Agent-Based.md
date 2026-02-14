@@ -1,4 +1,7 @@
 ---
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +36,8 @@ tags:
 abstract: "Large language models are increasingly used for Islamic guidance, but risk misquoting texts, misapplying jurisprudence, or producing culturally inconsistent responses. We pilot an evaluation of GPT-4o, Ansari AI, and Fanar on prompts from authentic Islamic blogs. Our dual-agent framework uses a quantitative agent for citation verification and six-dimensional scoring (e.g., Structure, Islamic Consistency, Citations) and a qualitative agent for five-dimensional side-by-side comparison (e.g."
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, ChatGPT, Claude, GPT-4, GPT-4o"
+DATA_URL: NA
 research_topic: Other
 ---
 # Can LLMs Write Faithfully? An Agent-Based Evaluation of LLM-generated Islamic Content
@@ -64,6 +67,11 @@ Dual-agent evaluation framework with quantitative scoring (6 dimensions: Structu
 ## Dataset Information
 
 200 prompts from authentic Islamic blogs
+
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT, Claude, GPT-4, GPT-4o. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

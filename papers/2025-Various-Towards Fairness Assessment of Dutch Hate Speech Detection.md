@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa, transformer-based models"
-DATA_URL: NA
+DATA_URL: "https://github.com/Juulba/Dutch-counterfactual-fairness"
 tags: 
 abstract: "Numerous studies have proposed computational methods to detect hate speech online, yet most focus on the English language and emphasize model development. In this study, we evaluate the counterfactual fairness of hate speech detection models in the Dutch language, specifically examining the performance and fairness of transformer-based models. We make the following key contributions. First, we curate a list of Dutch Social Group Terms that reflect social context."
 ethics_perspective: "Bias & Fairness"

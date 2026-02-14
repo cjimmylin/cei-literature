@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: NA
 tags: 
 abstract: "Realizing general-purpose language intelligence has been a longstanding goal for natural language processing, where standard evaluation benchmarks play a fundamental and guiding role. We argue that for generalpurpose language intelligence evaluation, the benchmark itself needs to be comprehensive and systematic. To this end, we propose CUGE, a Chinese Language Understanding and Generation Evaluation benchmark with the following features: (1) Hierarchical benchmark framework, where datasets are principally selected and organized with a language capability-task-dataset hierarchy. (2) Multilevel scoring strategy, where different levels of model performance are provided based on the hierarchical framework. To facilitate CUGE, we provide a public leaderboard that can be customized to support ﬂexible model judging criteria. Evaluation results on representative pre-trained language models indicate ample room for improvement towards generalpurpose language intelligence. CUGE is publicly available at cuge.baai.ac.cn. ∗Corresponding Authors: Z. Liu (liuzy@tsinghua. edu.cn), X. Han (xianpei@iscas.ac.cn), E. Yang (yerhong@blcu.edu.cn), Z. Sui (szf@pku.edu.cn), M. Sun (sms@tsinghua.edu.cn)"
 research_topic: "Machine Learning"
@@ -66,6 +67,10 @@ research_topic: "Machine Learning"
 
 
 Realizing general-purpose language intelligence has been a longstanding goal for natural language processing, where standard evaluation benchmarks play a fundamental and guiding role. We argue that for generalpurpose language intelligence evaluation, the benchmark itself needs to be comprehensive and systematic. To this end, we propose CUGE, a Chinese Language Understanding and Generation Evaluation benchmark with the following features: (1) Hierarchical benchmark framework, where datasets are principally selected and organized with a language capability-task-dataset hierarchy. (2) Multilevel scoring strategy, where different levels of model performance are provided based on the hierarchical framework. To facilitate CUGE, we provide a public leaderboard that can be customized to support ﬂexible model judging criteria. Evaluation results on representative pre-trained language models indicate ample room for improvement towards generalpurpose language intelligence. CUGE is publicly available at cuge.baai.ac.cn. ∗Corresponding Authors: Z. Liu (liuzy@tsinghua. edu.cn), X. Han (xianpei@iscas.ac.cn), E. Yang (yerhong@blcu.edu.cn), Z. Sui (szf@pku.edu.cn), M. Sun (sms@tsinghua.edu.cn)
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

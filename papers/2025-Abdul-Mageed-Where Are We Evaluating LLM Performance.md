@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Africa’s rich linguistic heritage remains underrepresented in NLP, largely due to historical policies that favor foreign languages and create significant data inequities. In this paper, we integrate theoretical insights on Africa’s language landscape with an empirical evaluation using SAHARA— a comprehensive benchmark we curate from large-scale, publicly accessible datasets capturing the continent’s linguistic diversity."
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, Claude, Claude-4, Claude-4-Sonnet, CommandR, GPT-4, Gemma, Gemma-2, Gemma-3, Gemma2, Gemma3, Llama, Llama-3.1, Llama3, Llama3.1, Llama3.2, Phi-3, Phi-4"
 DATA_URL: "https://africa.dlnlp.ai/sahara/ (public leaderboard)"
 research_topic: "Machine Learning"
 ---
@@ -69,6 +71,11 @@ The most extensive African language NLP benchmark, covering 517 languages across
 ## Dataset Information
 
 517 languages and varieties, 16 tasks, 30 datasets
+
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Claude, Claude-4, Claude-4-Sonnet, CommandR, GPT-4, Gemma, Gemma-2, Gemma-3, Gemma2, Gemma3, Llama, Llama-3.1, Llama3, Llama3.1, Llama3.2, Phi-3, Phi-4. Verified dataset/resource link: https://africa.dlnlp.ai/sahara/ (public leaderboard).
 
 ## Notes
 

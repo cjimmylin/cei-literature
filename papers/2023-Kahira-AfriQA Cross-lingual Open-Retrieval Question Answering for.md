@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "African languages have far less in-language content available digitally, making it challenging for question answering systems to satisfy the information needs of users. Cross-lingual open-retrieval question answering (XOR QA) systems—those that retrieve answer content from other languages while serving people in their native language—offer a means of ﬁlling this gap. To this end, we create AFRIQA, the ﬁrst cross-lingual QA dataset with a focus on African languages."
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT"
 DATA_URL: "https://huggingface.co/datasets/masakhane/afriqa"
 research_topic: "Question Answering"
 ---
@@ -65,6 +67,10 @@ First cross-lingual QA dataset focused on African languages with 12,000+ XOR QA 
 ## Benchmark
 
 **Name:** AfriQA
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://huggingface.co/datasets/masakhane/afriqa.
 
 ## Notes
 

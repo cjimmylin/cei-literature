@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4-turbo, GPT-4o"
+DATA_URL: "https://osf.io/preprints"
 tags: 
 abstract: "Culture fundamentally shapes people’s reasoning, behavior, and communication. As people increasingly use generative artificial intelligence (AI) to expedite and automate personal and professional tasks, cultural values embedded in AI models may bias people’s authentic expression and contribute to the dominance of certain cultures. We conduct a disaggregated evaluation of cultural bias for five widely used large language models (OpenAI’s GPT-4o/4-turbo/4/3."
 ethics_perspective: "Social & Cultural Values"
@@ -66,6 +68,10 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Evaluates cultural bias in GPT models using World Values Survey and European Values Study. Shows LLMs favor Western values when prompted in English. Tests cultural prompting to reduce bias across 14 countries/languages including Korean.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4-turbo, GPT-4o. Verified dataset/resource link: https://osf.io/preprints.
 
 ## Notes
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Given the importance of ancient Chinese in capturing the essence of rich historical and cultural heritage, the rapid advancements in Large Language Models (LLMs) necessitate benchmarks that can effectively evaluate their understanding of ancient contexts. To meet this need, we present AC-EVAL, an innovative benchmark designed to assess the advanced knowledge and reasoning capabilities of LLMs within the context of ancient Chinese."
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Baichuan, Baichuan2, ChatGLM, ChatGLM3, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, Llama, LLaMA2, Qwen, Qwen-72B, Qwen-7B, Qwen-Chat, Qwen-Chat9, Qwen-max, gpt-3.5-turbo"
 DATA_URL: "https://github.com/yuting-wei/AC-EVAL"
 research_topic: "Machine Learning"
 ---
@@ -65,6 +67,11 @@ AC-EVAL explicitly includes philosophy (encompassing Confucian and Taoist philos
 ## Dataset Information
 
 13 tasks across 3 difficulty levels covering historical facts, geography, social customs, art, philosophy, classical poetry and prose
+
+
+## Data Description
+
+Backfill summary: Models assessed include Baichuan, Baichuan2, ChatGLM, ChatGLM3, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, Llama, LLaMA2, Qwen, Qwen-72B, Qwen-7B, Qwen-Chat, Qwen-Chat9, Qwen-max, gpt-3.5-turbo. Verified dataset/resource link: https://github.com/yuting-wei/AC-EVAL.
 
 ## Notes
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "10 language"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Mistral-NEMO, Phi-3, Phi-3 49, Phi-3 Mini, Phi-3-mini"
+DATA_URL: NA
 tags: 
 abstract: "There has been little systematic study on how dialectal differences affect toxicity detection by modern LLMs. Furthermore, although using LLMs as evaluators ('LLM-as-a-judge') is a growing research area, their sensitivity to dialectal nuances is still underexplored and requires more focused attention. In this paper, we address these gaps through a comprehensive toxicity evaluation of LLMs across diverse dialects."
 research_topic: "Machine Translation"
@@ -63,6 +65,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Evaluates LLM-as-a-Judge for dialectal toxicity detection. Kurdish among the lower-resource languages where all models struggled, highlighting the performance gap in underrepresented languages.
+
+## Data Description
+
+Backfill summary: Models assessed include Mistral-NEMO, Phi-3, Phi-3 49, Phi-3 Mini, Phi-3-mini. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

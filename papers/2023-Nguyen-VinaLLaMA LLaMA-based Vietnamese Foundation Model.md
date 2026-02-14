@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BLOOM, BLOOM-7B, BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama-2, LLaMA-2-chat, Qwen, Vicuna"
+DATA_URL: NA
 tags: 
 abstract: "In this technical report, we present VinaLLaMA, an open-weight, state-of-the-art (SOTA) Large Language Model for the Vietnamese language, built upon LLaMA-2 with an additional 800 billion trained tokens. VinaLLaMA not only demonstrates fluency in Vietnamese but also exhibits a profound understanding of Vietnamese culture, making it a truly indigenous model. VinaLLaMA-7B-chat, trained on 1 million high-quality synthetic samples, achieves SOTA results on key benchmarks, including VLSP, VMLU, and..."
 research_topic: "NLP & Representation Learning"
@@ -64,6 +66,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Vietnamese foundation model achieving SOTA on VLSP, VMLU, and Vietnamese Vicuna Benchmark. 98% improvement in cultural and linguistic context assessments. VLSP-LLM 2023 includes Vietnamese adaptations of ARC Challenge, HellaSwag, MMLU, TruthfulQA.
+
+## Data Description
+
+Backfill summary: Models assessed include BLOOM, BLOOM-7B, BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama-2, LLaMA-2-chat, Qwen, Vicuna. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: "https://github.com/joshua-decoder/indian-parallel-"
 tags: 
 abstract: "Machine translation–the automatic transformation of one natural language (source language) into another (target language) through computational means–occupies a central role in computational linguistics and stands as a cornerstone of research within the field of Natural Language Processing (NLP). In recent years, the prominence of Neural Machine Translation (NMT) has grown exponentially, offering an advanced framework for machine translation research. It is noted for its superior translation performance, especially when tackling the challenges posed by low-resource language pairs that suffer from a limited corpus of data resources. This article offers an exhaustive exploration of the historical trajectory and advancements in NMT, accompanied by an analysis of the underlying foundational concepts. It subsequently provides a concise demarcation of the unique characteristics associated with low-resource languages and presents a succinct review of pertinent translation models and their applications, specifically within the context of languages with low-resources. Moreover, this article delves deeply into machine translation techniques, highlighting approaches tailored for Chinese-centric low-resource languages. Ultimately, it anticipates upcoming research directions in the realm of low-resource language translation."
 research_topic: "Machine Translation"
@@ -67,6 +68,10 @@ research_topic: "Machine Translation"
 
 
 Machine translation–the automatic transformation of one natural language (source language) into another (target language) through computational means–occupies a central role in computational linguistics and stands as a cornerstone of research within the field of Natural Language Processing (NLP). In recent years, the prominence of Neural Machine Translation (NMT) has grown exponentially, offering an advanced framework for machine translation research. It is noted for its superior translation performance, especially when tackling the challenges posed by low-resource language pairs that suffer from a limited corpus of data resources. This article offers an exhaustive exploration of the historical trajectory and advancements in NMT, accompanied by an analysis of the underlying foundational concepts. It subsequently provides a concise demarcation of the unique characteristics associated with low-resource languages and presents a succinct review of pertinent translation models and their applications, specifically within the context of languages with low-resources. Moreover, this article delves deeply into machine translation techniques, highlighting approaches tailored for Chinese-centric low-resource languages. Ultimately, it anticipates upcoming research directions in the realm of low-resource language translation.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/joshua-decoder/indian-parallel-.
 
 ## Notes
 

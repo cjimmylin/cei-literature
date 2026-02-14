@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4, GPT-4o"
+DATA_URL: "https://github.com/KORPUS-DB/KOGENT"
 tags: 
 abstract: "1,222 Korean National Assembly transcripts with 6,024 utterances annotated for gender sensitivity. Spans legislative sessions 1948-2024. GPT-4.1 achieves 87.5-91.2% F1. Reveals LLM limitations in culturally specific terminology."
 research_topic: "Bias & Fairness"
@@ -69,6 +70,10 @@ research_topic: "Bias & Fairness"
 ## Abstract
 
 1,222 Korean National Assembly transcripts with 6,024 utterances annotated for gender sensitivity. Spans legislative sessions 1948-2024. GPT-4.1 achieves 87.5-91.2% F1. Reveals LLM limitations in culturally specific terminology.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4, GPT-4o. Verified dataset/resource link: https://github.com/KORPUS-DB/KOGENT.
 
 ## Notes
 

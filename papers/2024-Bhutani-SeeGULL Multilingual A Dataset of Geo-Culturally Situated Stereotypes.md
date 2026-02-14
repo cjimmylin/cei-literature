@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "20 languages"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4 Turbo, GPT-4, Mistral, Mixtral 8X7B, PaLM 2, Palm"
+DATA_URL: NA
 tags: 
 abstract: "While generative multilingual models are rapidly being deployed, their safety and fairness evaluations are largely limited to resources collected in English. This is especially problematic for evaluations targeting inherently socio-cultural phenomena such as stereotyping, where it is important to build multi-lingual resources that reflect the stereotypes prevalent in respective language communities."
 ---
@@ -65,6 +67,10 @@ abstract: "While generative multilingual models are rapidly being deployed, thei
 ## Abstract
 
 25K+ stereotypes in 20 languages with human annotations in 23 languages. Separate annotations for Spanish in Spain and Spanish in Mexico. Maximum overlap seen in Spain Spanish (13.2%). Published at COLM 2024.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4 Turbo, GPT-4, Mistral, Mixtral 8X7B, PaLM 2, Palm. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

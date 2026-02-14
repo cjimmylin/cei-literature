@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, GPT-2"
+DATA_URL: "https://github.com/sberbank-ai/ru-gpts"
 tags: 
 abstract: "We introduce the ﬁrst study of automatic detoxiﬁcation of Russian texts to combat offensive language. Such a kind of textual style transfer can be used, for instance, for processing toxic content in social media. While much work has been done for the English language in this ﬁeld, it has never been solved for the Russian language yet. We test two types of models – unsupervised approach based on BERT architecture that performs local corrections and supervised approach based on pretrained..."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -70,6 +71,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 First study of automatic detoxification of Russian texts. Introduces RuToxic dataset of 163,187 texts (31,407 toxic) from Russian social media. RuBERT fine-tuned on RuToxic achieves F1=0.83.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-2. Verified dataset/resource link: https://github.com/sberbank-ai/ru-gpts.
 
 ## Notes
 

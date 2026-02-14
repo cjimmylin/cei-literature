@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, Gemma, Gemma2, LLaMA-3.1, LLaMA3.1, Llama, Qwen2, Qwen2.5, T5-large"
+DATA_URL: NA
 tags: 
 abstract: "The rapid development of Inner Mongolia has led to a growing demand for Mongolian-Chinese translation. However, Mongolian presents significant challenges for machine translation, such as data scarcity and its complex syntactic structures. Consequently, traditional Mongolian-Chinese machine translation methods often produce outputs with poor fluency and suffer from the loss of critical semantic information. In this paper, we propose a Mongolian-Chinese machine translation method based on large language models (LLM-CPT-SymFT). Specifically, LLM-CPTSymFT involves continual pre-training (CPT) of the base model using Mongolian and Chinese corpora, followed by symmetrical fine-tuning (SymFT), which leverages a mix of original Mongolian-Chinese parallel data and its synthetically reversed counterpart, primarily to enhance Mongolian-to-Chinese translation performance. We evaluated our method on two datasets, achieving an average BLEU score improvement of 28.89 compared to baseline models. Results confirm our method’s strong potential for improving Mongolian-Chinese machine translation."
 research_topic: "Machine Translation"
@@ -68,6 +69,10 @@ research_topic: "Machine Translation"
 
 
 The rapid development of Inner Mongolia has led to a growing demand for Mongolian-Chinese translation. However, Mongolian presents significant challenges for machine translation, such as data scarcity and its complex syntactic structures. Consequently, traditional Mongolian-Chinese machine translation methods often produce outputs with poor fluency and suffer from the loss of critical semantic information. In this paper, we propose a Mongolian-Chinese machine translation method based on large language models (LLM-CPT-SymFT). Specifically, LLM-CPTSymFT involves continual pre-training (CPT) of the base model using Mongolian and Chinese corpora, followed by symmetrical fine-tuning (SymFT), which leverages a mix of original Mongolian-Chinese parallel data and its synthetically reversed counterpart, primarily to enhance Mongolian-to-Chinese translation performance. We evaluated our method on two datasets, achieving an average BLEU score improvement of 28.89 compared to baseline models. Results confirm our method’s strong potential for improving Mongolian-Chinese machine translation.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Gemma, Gemma2, LLaMA-3.1, LLaMA3.1, Llama, Qwen2, Qwen2.5, T5-large. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

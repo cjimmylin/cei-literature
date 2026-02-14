@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Comprehensive evaluation of ChatGPT for religious bias using 112 morality and ethics questions tailored to five belief systems. Identifies six types of bias: explicit, anthropomorphic, statement, framing, coverage, and information bias. Finds biases often favor Buddhism or secular humanism and/or disfavor Abrahamic religions. GPT-4 mitigates three bias types but amplifies two others. No prompt engineering approach eliminates all biases."
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, gpt-3.5-turbo"
+DATA_URL: "https://osf.io/b2ug9/download"
 ethics_perspective: "Bias & Fairness"
 ---
 # Religious Bias Benchmarks for ChatGPT
@@ -63,6 +65,11 @@ Comprehensive evaluation of ChatGPT for religious bias using 112 morality and et
 ## Dataset Information
 
 45,920 query responses (112 questions x 5 beliefs x 10 iterations x multiple models) containing 11.4 million words
+
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, gpt-3.5-turbo. Verified dataset/resource link: https://osf.io/b2ug9/download.
 
 ## Notes
 

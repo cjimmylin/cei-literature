@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "LLMs are increasingly used in applications where they interact with h
 research_topic: "AI Safety & Alignment"
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, text-davinci, Claude, Llama-2"
+LLM_assessed: "GPT-4, Claude, Llama-2"
 DATA_URL: NA
 ---
 # Playing Repeated Games with Large Language Models

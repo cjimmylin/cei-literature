@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Efﬁciently and accurately translating a corpus into a low-resource language remains a challenge, regardless of the strategies employed, whether manual, automated, or a combination of the two. Many Christian organizations are dedicated to the task of translating the Holy Bible into languages that lack a modern translation. Bible translation (BT) work is currently underway for over 3000 extremely low resource languages."
 data_description: "Benchmark text corpus"
 data_metrics: "75 language"
-LLM_assessed: NA
+LLM_assessed: "BERT"
 DATA_URL: "https://huggingface.co/datasets/bible-nlp/biblenlp-corpus / https://github.com/BibleNLP/ebible"
 research_topic: "Machine Translation"
 ---
@@ -65,6 +67,11 @@ Summary: Largest standardized Bible corpus for NLP, with 1,009 translations alig
 ## Dataset Information
 
 1,009 Bible translations in 833 languages across 75 language families
+
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://huggingface.co/datasets/bible-nlp/biblenlp-corpus / https://github.com/BibleNLP/ebible.
 
 ## Notes
 

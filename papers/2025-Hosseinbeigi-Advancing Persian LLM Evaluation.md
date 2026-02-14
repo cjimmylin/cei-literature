@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, ChatGPT, Claude, Command-r, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, GPT-4o-mini, Llama, Llama 3, Llama 3.1, Llama-3, Llama-3.1, Llama3, Llama3.1, Mistral, Qwen, Qwen 2, Qwen 2.5, Qwen-2.5, Qwen2, Qwen2.5"
+DATA_URL: "https://github.com/SajjjadAyobi/PersianQA"
 tags: 
 abstract: "Two new benchmarks (PeKA and PK-BETS) on history, literature, cultural knowledge. Designed to reduce data contamination while providing accurate assessment of Persian LLMs."
 research_topic: Other
@@ -66,6 +68,10 @@ research_topic: Other
 ## Abstract
 
 Two new benchmarks (PeKA and PK-BETS) on history, literature, cultural knowledge. Designed to reduce data contamination while providing accurate assessment of Persian LLMs.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT, Claude, Command-r, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, GPT-4o-mini, Llama, Llama 3, Llama 3.1, Llama-3, Llama-3.1, Llama3, Llama3.1, Mistral, Qwen, Qwen 2, Qwen 2.5, Qwen-2.5, Qwen2, Qwen2.5. Verified dataset/resource link: https://github.com/SajjjadAyobi/PersianQA.
 
 ## Notes
 

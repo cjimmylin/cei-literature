@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Alpaca, BERT, BLOOM, Bloom-1b7, Falcon 7B, GPT-4, GPT-4 Turbo, GPT-4o, GPT4, Llama, Llama 2, Llama 3, Llama-2, Llama-3.2, RoBERTa, T5"
+DATA_URL: "https://github.com/huggingface/tokenizers"
 tags: 
 abstract: "Significant advances have been made in natural language processing in recent years. However, our current deep learning approach to language modeling requires substantial resources in terms of data and computation. One of the side effects of this data-hungry paradigm is the current schism between languages, separating those considered high-resource, where most of the development happens and resources are available, and the low-resource ones, which struggle to attain the same level of performance..."
 research_topic: "NLP & Representation Learning"
@@ -66,6 +68,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Family of Portuguese LLMs up to 2.4B parameters trained from scratch on 500B Portuguese tokens from GigaVerbo. Acknowledges models inherit social stereotypes and can produce toxic content.
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, BERT, BLOOM, Bloom-1b7, Falcon 7B, GPT-4, GPT-4 Turbo, GPT-4o, GPT4, Llama, Llama 2, Llama 3, Llama-2, Llama-3.2, RoBERTa, T5. Verified dataset/resource link: https://github.com/huggingface/tokenizers.
 
 ## Notes
 

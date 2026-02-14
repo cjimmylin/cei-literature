@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, GPT-4, Qwen2.5, RoBERTa"
+DATA_URL: NA
 tags: 
 abstract: "Online communication increasingly amplifies toxic language, and recent research actively explores methods for detecting and rewriting such content. Existing studies primarily focus on non-obfuscated text, which limits robustness in the situation where users intentionally disguise toxic expressions. In particular, Korean allows toxic expressions to be easily disguised through its agglutinative characteristic."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -65,6 +67,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 First dataset supporting both deobfuscation and detoxification for Korean. 6.9K neutral-toxic pairs with obfuscated counterparts. 17 transformation rules across 5 linguistic approaches. Three difficulty levels for obfuscated toxic text.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-4, Qwen2.5, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

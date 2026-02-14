@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "ALBERT, Alpaca, BLOOM, BLOOM model, ChatGPT, GPT-3, GPT-4, PaLM"
+DATA_URL: "https://github.com/Significant-Gravitas/Auto-GPT"
 ---
 # The Ethics of Advanced AI Assistants
 

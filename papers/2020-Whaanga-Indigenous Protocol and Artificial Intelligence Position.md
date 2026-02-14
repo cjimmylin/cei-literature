@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -70,6 +72,11 @@ This foundational position paper, written by a large consortium of Indigenous sc
 ## Dataset Information
 
 N/A (position paper with prototype descriptions including Hua Ki'i)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://www.indigenous-ai.net/position-paper/.
 
 ## Notes
 

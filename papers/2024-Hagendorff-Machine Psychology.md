@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "GPT-3, GPT-4, LaMDA"
+DATA_URL: "https://kaggle.com/competitions/abstraction-and-reasoning-challenge"
 ---
 # Machine Psychology
 

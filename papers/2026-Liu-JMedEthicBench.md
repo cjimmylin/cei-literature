@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "As Large Language Models (LLMs) are increasingly deployed in healthca
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude, Gemini, DeepSeek, Qwen, Llama-3, Grok"
+LLM_assessed: "GPT-4, Claude, DeepSeek, Qwen, Llama-3, Grok"
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
 ---

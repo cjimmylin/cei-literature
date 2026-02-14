@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract: "Introduces hatebnBERT, a BERT-based model tailored to Bangla for reli
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: "NLP & Representation Learning"
 ---
 # hatebnBERT: An Innovative Novel Transformer Model and Datasets for Safeguarding Religious Sensitivities in Online Social Platforms
@@ -64,6 +66,11 @@ Introduces hatebnBERT, a BERT-based model tailored to Bangla for religious hate 
 ## Dataset Information
 
 Binary classification dataset + five-class dataset (Blasphemy, Ethnic Hatred, Ethnic Group Hatred, Undetermined, Non-Hatred)
+
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

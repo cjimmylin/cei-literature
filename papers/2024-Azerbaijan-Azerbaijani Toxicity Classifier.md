@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -61,6 +62,10 @@ research_topic: Other
 ## Abstract
 
 Multi-label toxicity classifier for Azerbaijani text based on mDeBERTa-v3. Detects 7 categories: toxicity, severe toxicity, obscene, threat, insult, identity attack, sexually explicit. 279M parameters. First dedicated Azerbaijani toxicity classifier. Enables nuanced content moderation distinguishing between different types of harmful content in Azerbaijani language.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/LocalDoc/azerbaijani_toxicity_classifier.
 
 ## Notes
 

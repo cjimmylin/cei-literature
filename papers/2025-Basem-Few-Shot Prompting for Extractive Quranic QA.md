@@ -1,4 +1,7 @@
 ---
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +36,8 @@ tags:
 abstract: "This paper presents two effective approaches for Extractive Question Answering (QA) on the Qur’an. It addresses challenges related to complex language, unique terminology, and deep meaning in the text. The second uses few-shot prompting with instruction-tuned large language models such as Gemini and DeepSeek. A specialized Arabic prompt framework is developed for span extraction. A strong post-processing system integrates subword alignment, overlap suppression, and semantic filtering."
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, DeepSeek, GPT-3, GPT-3.5, GPT-4"
+DATA_URL: NA
 ethics_perspective: "AI Safety & Alignment"
 ---
 # Few-Shot Prompting for Extractive Quranic QA with Instruction-Tuned LLMs
@@ -64,6 +67,11 @@ Develops a specialized Arabic prompt framework for span extraction from Quranic 
 ## Dataset Information
 
 Qur'an QA shared task dataset
+
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, DeepSeek, GPT-3, GPT-3.5, GPT-4. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

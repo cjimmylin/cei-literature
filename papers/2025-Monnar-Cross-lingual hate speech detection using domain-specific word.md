@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/facebookresearch/XLM"
 tags: 
 abstract: "THIS ARTICLE USES WORDS OR LANGUAGE THAT IS CONSIDERED PROFANE, VULGAR, OR OFFENSIVE BY SOME READERS. Hate speech detection in online social networks is a multidimensional problem, dependent on language and cultural factors. Most supervised learning resources for this task, such as labeled datasets and Natural Language Processing (NLP) tools, have been specifically tailored for English. However, a large portion of web users around the world speak different languages, creating an important need for efficient multilingual hate speech detection approaches. In particular, such approaches should be able to leverage the limited cross-lingual resources currently existing in their learning process. The cross-lingual transfer in this task has been difficult to achieve successfully. Therefore, we propose a simple yet effective method to approach this problem. To our knowledge, ours is the first attempt to create a multilingual embedding model specific to this problem. We validate the effectiveness of our approach by performing an extensive comparative evaluation against several well-known general-purpose language models that, unlike ours, have been trained on massive amounts of data. We focus on a zero-shot crosslingual evaluation scenario in which we classify hate speech in one language without having access to any labeled data. Despite its simplicity, our embeddings outperform more complex models for most experimental settings we tested. In addition, we provide further evidence of the effectiveness of our approach through an ad hoc qualitative exploratory analysis, which captures how hate speech is displayed in different languages. This analysis allows us to find new cross-lingual relations between words in the hate-speech domain. Overall, our findings indicate common patterns in how hate speech is expressed across languages and that our proposed model can capture such relationships significantly."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -68,6 +69,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 
 THIS ARTICLE USES WORDS OR LANGUAGE THAT IS CONSIDERED PROFANE, VULGAR, OR OFFENSIVE BY SOME READERS. Hate speech detection in online social networks is a multidimensional problem, dependent on language and cultural factors. Most supervised learning resources for this task, such as labeled datasets and Natural Language Processing (NLP) tools, have been specifically tailored for English. However, a large portion of web users around the world speak different languages, creating an important need for efficient multilingual hate speech detection approaches. In particular, such approaches should be able to leverage the limited cross-lingual resources currently existing in their learning process. The cross-lingual transfer in this task has been difficult to achieve successfully. Therefore, we propose a simple yet effective method to approach this problem. To our knowledge, ours is the first attempt to create a multilingual embedding model specific to this problem. We validate the effectiveness of our approach by performing an extensive comparative evaluation against several well-known general-purpose language models that, unlike ours, have been trained on massive amounts of data. We focus on a zero-shot crosslingual evaluation scenario in which we classify hate speech in one language without having access to any labeled data. Despite its simplicity, our embeddings outperform more complex models for most experimental settings we tested. In addition, we provide further evidence of the effectiveness of our approach through an ad hoc qualitative exploratory analysis, which captures how hate speech is displayed in different languages. This analysis allows us to find new cross-lingual relations between words in the hate-speech domain. Overall, our findings indicate common patterns in how hate speech is expressed across languages and that our proposed model can capture such relationships significantly.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/facebookresearch/XLM.
 
 ## Notes
 

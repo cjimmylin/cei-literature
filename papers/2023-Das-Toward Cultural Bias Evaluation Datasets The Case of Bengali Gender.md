@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: "https://zenodo.org/record/7775521"
 tags: 
 abstract: "Bengali Identity Bias Evaluation Dataset with 25,396 gender-based sentence pairs (female/male), 11,724 religion-based pairs (Hindu/Muslim), 13,528 nationality-based pairs (Bangladeshi/Indian). Addresses cultural factors like religion and nationality in bias evaluation."
 ethics_perspective: "Social & Cultural Values"
@@ -67,6 +68,10 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Bengali Identity Bias Evaluation Dataset with 25,396 gender-based sentence pairs (female/male), 11,724 religion-based pairs (Hindu/Muslim), 13,528 nationality-based pairs (Bangladeshi/Indian). Addresses cultural factors like religion and nationality in bias evaluation.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://zenodo.org/record/7775521.
 
 ## Notes
 

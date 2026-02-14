@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "Large Language Models (LLMs) have made significant progress in incorporating Indic languages within multilingual models. However, it is crucial to quantitatively assess whether these languages perform comparably to globally dominant ones, such as English. Currently, there is a lack of benchmark datasets specifically designed to evaluate the regional knowledge of LLMs in various Indic languages. In this paper, we present the L3CubeIndicQuest, a gold-standard factual questionanswering benchmark..."
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "200 question"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "GPT-4o, Gemma, Gemma-2, Llama, Llama-3.1"
+DATA_URL: "https://github.com/facebookresearch/MLQA"
 research_topic: "Machine Learning"
 ---
 # L3Cube-IndicQuest: A Benchmark Question Answering Dataset for Evaluating Knowledge of LLMs in Indic Context
@@ -64,6 +65,10 @@ Gold-standard QA dataset with 4,000 pairs across 20 languages (200 per language)
 ## Benchmark
 
 **Name:** IndicQuest
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4o, Gemma, Gemma-2, Llama, Llama-3.1. Verified dataset/resource link: https://github.com/facebookresearch/MLQA.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, text-davinci"
-DATA_URL: NA
+DATA_URL: "https://osf.io/2hxgu"
 DATE_ADDED: 20260207
 ---
 # Intuitions of Compromise: Utilitarianism vs. Contractualism

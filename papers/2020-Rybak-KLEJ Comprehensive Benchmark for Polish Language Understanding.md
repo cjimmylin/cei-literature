@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, ELMo"
+DATA_URL: NA
 tags: 
 abstract: "In recent years, a series of Transformer-based models unlocked major improvements in general natural language understanding (NLU) tasks. Such a fast pace of research would not be possible without general NLU benchmarks, which allow for a fair comparison of the proposed methods. However, such benchmarks are available only for a handful of languages. To alleviate this issue, we introduce a comprehensive multi-task benchmark for the Polish language understanding, accompanied by an online..."
 research_topic: "NLP & Representation Learning"
@@ -65,6 +66,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Comprehensive benchmark for Polish NLU with 9 tasks including NER, QA, textual entailment, and sentiment analysis. Introduces HerBERT model. Includes cyberbullying detection from PolEval as a task.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ELMo. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: 
 research_topic: "NLP & Representation Learning"
@@ -63,6 +64,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Based on the search results, I found information about Chinese sentiment analysis corpora and research, but I did not find specific results for a corpus specifically named "CHisIEC" (Chinese Implicit Sentiment Ethics Corpus). However, the search results do provide information about related Chinese sentiment analysis resources and implicit sentiment work: Researchers have constructed a fact-implied implicit sentiment corpus in Chinese, which was collected and manually labeled to create a gold st
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

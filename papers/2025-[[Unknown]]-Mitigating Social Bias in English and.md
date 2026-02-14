@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "Large language models (LLMs) increasingly mediate human communication, decision support, content creation, and information retrieval. Despite impressive fluency, these systems frequently produce biased or stereotypical content, especially when prompted with socially sensitive language. A growing body of research has demonstrated that such biases disproportionately affect low-resource languages, where training data is limited and culturally unrepresentative."
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL:
+LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4o-mini, Llama, PaLM"
+DATA_URL: NA
 ---
 # Mitigating Social Bias in English and Urdu Language Models Using PRM-Guided Candidate Selection and Sequential Refinement
 
@@ -59,6 +60,10 @@ Unknown
 ## Abstract
 
 Evaluates inference-time bias mitigation across English and Urdu. Urdu shows significantly lower bias and utility scores (0.755 vs 0.9525 baseline bias), highlighting structural inequities in multilingual LLMs. Directly addresses social bias in Urdu LLMs with quantitative bias measurements and mitigation strategies.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4o-mini, Llama, PaLM. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

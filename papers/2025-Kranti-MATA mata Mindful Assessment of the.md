@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "In this paper, we introduce MATA, a novel evaluation dataset to assess the ability of Large Language Models (LLMs) in Telugu language, comprising 729 carefully curated multiple-choice and open-ended questions that span diverse linguistic dimensions. We evaluate 11 openweight and closed-source LLMs on our dataset and present a fine-grained analysis of their performance. Further, we empirically show how LLMs rely on superficial heuristics such as answer position and distractor patterns for..."
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "Claude, Claude Sonnet, Claude-Sonnet, GPT-4, GPT-4o, Gemma, Gemma3, Grok3, Llama, LLaMA3, LLaMA3.3, Qwen3"
+DATA_URL: NA
 research_topic: "Machine Learning"
 ---
 # MATA (mata): Mindful Assessment of the Telugu Abilities of Large Language Models
@@ -64,6 +66,10 @@ Novel evaluation dataset with 729 curated MCQ and open-ended questions spanning 
 ## Benchmark
 
 **Name:** MATA
+
+## Data Description
+
+Backfill summary: Models assessed include Claude, Claude Sonnet, Claude-Sonnet, GPT-4, GPT-4o, Gemma, Gemma3, Grok3, Llama, LLaMA3, LLaMA3.3, Qwen3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

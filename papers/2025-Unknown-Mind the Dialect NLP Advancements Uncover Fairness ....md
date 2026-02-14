@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Recommendation systems play a critical role in shaping user experiences and access to digital content. However, these systems can exhibit unfair behavior when their performance varies across user groups, especially in linguistically diverse populations. Recent advances in NLP have enabled the identification of user dialects, allowing for more granular analysis of such disparities. In this work, we investigate fairness disparities in recommendation quality among Arabic-speaking users, a population whose dialectal diversity is underrepresented in recommendation system research. By uncovering performance gaps across dialectal variation, we highlight the intersection of NLP and recommendation system and underscore the broader social impact of NLP. Our findings emphasize the importance of interdisciplinary approaches in building fair recommendation systems, particularly for global and local platforms serving diverse Arabic-speaking communities. The source code is available at https: //github.com/alshabae/FairArRecSys."
 ethics_perspective: "Bias & Fairness"
@@ -64,6 +65,10 @@ ethics_perspective: "Bias & Fairness"
 
 
 Recommendation systems play a critical role in shaping user experiences and access to digital content. However, these systems can exhibit unfair behavior when their performance varies across user groups, especially in linguistically diverse populations. Recent advances in NLP have enabled the identification of user dialects, allowing for more granular analysis of such disparities. In this work, we investigate fairness disparities in recommendation quality among Arabic-speaking users, a population whose dialectal diversity is underrepresented in recommendation system research. By uncovering performance gaps across dialectal variation, we highlight the intersection of NLP and recommendation system and underscore the broader social impact of NLP. Our findings emphasize the importance of interdisciplinary approaches in building fair recommendation systems, particularly for global and local platforms serving diverse Arabic-speaking communities. The source code is available at https: //github.com/alshabae/FairArRecSys.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

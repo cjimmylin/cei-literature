@@ -601,7 +601,7 @@ Among papers with data URLs, classified by hosting platform:
 | 181 | [[2025-Qi-A Survey of Automatic Hallucination Evaluation on]] | https://github.com/siyaqi/Awesome-Hallu-Eval |
 | 182 | [[2025-Schacht-Mapping Moral Reasoning Circuits]] | https://github.com/coairesearch/mapping_moral_reasoning.git |
 | 183 | [[2025-Sekine-AnswerCarefully A Dataset for Improving the]] | https://huggingface.co/datasets/llm-jp/AnswerCarefully |
-| 184 | [[2025-[[Unknown]]-SweEval Do LLMs Really Swear A]] | https://huggingface.co/datasets/ariondas/SweEval-Bench |
+| 184 | [[2025-Kumar-SweEval Do LLMs Really Swear A]] | https://huggingface.co/datasets/ariondas/SweEval-Bench |
 | 185 | [[2025-Vasilev-RusCode]] | https://github.com/ai-forever/RusCode |
 | 186 | [[2025-Verma-MILU A Multi-task Indic Language Understanding]] | https://huggingface.co/datasets/ai4bharat/MILU |
 | 187 | [[2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist]] | https://huggingface.co/datasets/Nethmi14/BuddhismEval |

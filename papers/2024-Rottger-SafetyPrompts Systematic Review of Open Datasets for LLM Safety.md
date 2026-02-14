@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "The last two years have seen a rapid growth in concerns around the sa
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, ChatGPT, Claude, Claude 3.5, Command R, GPT-4, GPT-4o, Gemini, Gemma 2, Llama, Llama 3, Mixtral, Phi 3, Qwen 2"
 DATA_URL: "https://github.com/paul-rottger/safetyprompts-paper"
 ---
 # SafetyPrompts: Systematic Review of Open Datasets for LLM Safety

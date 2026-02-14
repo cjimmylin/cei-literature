@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "The rapid advancement of large language models (LLMs) has highlighted the need for robust evaluation frameworks that assess their core capabilities, such as reasoning, knowledge, and commonsense, leading to the inception of certain widely-used benchmark suites such as the H6 benchmark. However, these benchmark suites are primarily built for the English language, and there exists a lack thereof for under-represented languages, in terms of LLM development, such as Thai."
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Claude Sonnet, Claude-3, GPT-3, GPT-3.5 Turbo, GPT-4 Turbo, GPT-4o, GPT-4o Mini, GPT-4, Llama, Llama-3, Llama-3.1, Qwen2"
 DATA_URL: "https://github.com/UpstageAI/ThaiCLI_H6"
 research_topic: "Machine Learning"
 ---
@@ -65,6 +67,10 @@ Proposes ThaiCLI (Thai Cultural and Linguistic Intelligence) benchmark to assess
 ## Benchmark
 
 **Name:** ThaiCLI, Thai-H6
+
+## Data Description
+
+Backfill summary: Models assessed include Claude Sonnet, Claude-3, GPT-3, GPT-3.5 Turbo, GPT-4 Turbo, GPT-4o, GPT-4o Mini, GPT-4, Llama, Llama-3, Llama-3.1, Qwen2. Verified dataset/resource link: https://github.com/UpstageAI/ThaiCLI_H6.
 
 ## Notes
 

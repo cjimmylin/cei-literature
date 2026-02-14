@@ -1,4 +1,7 @@
 ---
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +36,8 @@ tags:
 abstract: "Benchmarks bias in 14 leading LLMs across categories including Ageism, Colonial bias, Colorism, Disability, Homophobia, Racism, Sexism, and Supremacism (religion intersects multiple categories). All LLMs achieve 74%+ accuracy on knowledge questions but performance drops for interpretation and reasoning. GPT-4 performs best on content knowledge. First benchmark introduced between 2021-2023 focusing specifically on bias/equity."
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, Claude, Claude 3.5, Claude 3.5 Sonnet, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma, Gemma-1.1, Llama, Llama 3, RoBERTa"
+DATA_URL: NA
 ethics_perspective: "Bias & Fairness"
 ---
 # Parity Benchmark for Measuring Bias in LLMs
@@ -64,6 +67,11 @@ Benchmarks bias in 14 leading LLMs across categories including Ageism, Colonial 
 ## Dataset Information
 
 66 bias evaluation questions across multiple categories
+
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, Claude, Claude 3.5, Claude 3.5 Sonnet, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma, Gemma-1.1, Llama, Llama 3, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

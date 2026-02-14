@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, Falcon3, Gemma 2, Gemma2, LLaMA3.1, LLaMA3.2, Llama 2, Mistral, Qwen2, Qwen2.5"
+DATA_URL: "https://paperswithcode.com/task/"
 tags: 
 abstract: "Large Language Models (LLMs) have demonstrated remarkable capabilities across numerous languages; however, their effectiveness in low-resource languages like Persian requires thorough investigation. This paper presents a comprehensive benchmark of several open-source LLMs for Persian Natural Language Processing (NLP) tasks, utilizing both zero-shot and few-shot learning paradigms. We evaluate models across a range of tasks including sentiment analysis, named entity recognition, reading..."
 research_topic: "NLP & Representation Learning"
@@ -63,6 +65,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Comprehensive benchmark of open-source LLMs on Persian NLP tasks using zero-shot and few-shot learning. Gemma 2 consistently outperforms other models. Models struggle with token-level tasks like NER.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, Falcon3, Gemma 2, Gemma2, LLaMA3.1, LLaMA3.2, Llama 2, Mistral, Qwen2, Qwen2.5. Verified dataset/resource link: https://paperswithcode.com/task/.
 
 ## Notes
 

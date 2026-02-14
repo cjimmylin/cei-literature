@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for ai safety dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "BERT, ChatGPT, DeBERTa, GPT-3, GPT-3.5, GPT-4, Gemma2, Llama, Llama Guard, Llama-2, Llama2, Llama3, Mistral 7b, Mistral among, Mistral- 7b, Mistral-7B, Qwen technical, Qwen-14B, RoBERTa, Vicuna, gemma"
+DATA_URL: "https://github.com/meta-llama/PurpleLlama"
 DATE_ADDED: 20260207
 ---
 # The Scales of Justitia: A Comprehensive Survey on Safety Evaluation of LLMs

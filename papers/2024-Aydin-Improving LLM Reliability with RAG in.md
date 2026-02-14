@@ -1,4 +1,7 @@
 ---
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +36,8 @@ tags:
 abstract: "Question Answering Systems Chatbots Generative Artificial Intelligence Large Language Model Retrieval Augmented Generation Religious teachings can sometimes be complex and challenging to grasp, but chatbots can serve as effective assistants in this domain. Large Language Model (LLM) based chatbots, powered by Natural Language Processing (NLP), can connect related topics and provide wellsupported responses to intricate questions, making them valuable tools for religious education."
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ChatGPT, DeepSeek, Gemma, Llama, Mistral, Qwen"
+DATA_URL: NA
 ethics_perspective: "AI Safety & Alignment"
 ---
 # Improving LLM Reliability with RAG in Religious Question-Answering: MufassirQAS
@@ -64,6 +67,11 @@ Develops a RAG-based system to enhance LLM accuracy for Islamic religious questi
 ## Dataset Information
 
 Vector database of fundamental Islamic texts (Turkish translations and interpretations)
+
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, DeepSeek, Gemma, Llama, Mistral, Qwen. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

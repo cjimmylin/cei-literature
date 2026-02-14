@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, DeepSeek, DeepSeek 1, DeepSeek-V3, GPT-4, Gemma, Gemma2, LLaMA2, Llama, Qwen 2.5, Qwen2, Qwen2.5, BERT"
+DATA_URL: NA
 tags: 
 abstract: 
 ethics_perspective: "Bias & Fairness"
@@ -64,6 +65,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 I've performed a web search and found several relevant results about Chinese NLP dataset bias and fairness evaluation. Here are the key findings: Recent Chinese NLP Bias and Fairness Research (2025-2026) Gender Bias in Chinese Text (2025) As natural language processing for gender bias becomes significant, pre-trained language models suffer from biased corpus, particularly for languages like Chinese with less fairness-related computational linguistic resources.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, DeepSeek, DeepSeek 1, DeepSeek-V3, GPT-4, Gemma, Gemma2, LLaMA2, Llama, Qwen 2.5, Qwen2, Qwen2.5, BERT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

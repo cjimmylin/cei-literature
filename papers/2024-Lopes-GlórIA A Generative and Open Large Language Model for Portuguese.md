@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, GPT-3, GPT-3.5"
+DATA_URL: "https://github.com/rvlopes/GlorIA"
 tags: 
 abstract: "Significant strides have been made in natural language tasks, largely attributed to the emergence of powerful large language models (LLMs). These models, pre-trained on extensive and diverse corpora, have become increasingly capable of comprehending the intricacies of language. Despite the abundance of LLMs for many high-resource languages, the availability of such models remains limited for European Portuguese. We introduce GlórIA, a robust European Portuguese decoder LLM."
 research_topic: "NLP & Representation Learning"
@@ -65,6 +66,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 European Portuguese decoder LLM pre-trained on 35B tokens. Introduces CALAME-PT, the first Portuguese zero-shot language-modeling benchmark inspired by LAMBADA.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, GPT-3, GPT-3.5. Verified dataset/resource link: https://github.com/rvlopes/GlorIA.
 
 ## Notes
 

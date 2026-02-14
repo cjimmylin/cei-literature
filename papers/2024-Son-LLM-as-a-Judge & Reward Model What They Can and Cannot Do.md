@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude, Claude-3.5-Sonnet, Command-R, GPT-4, GPT-4o, Llama-3, Llama-3.1, Mistral, Mistral-7B, Mistral-Large, Mistral-Nemo, Mixtral, Mixtral-8x22B, Mixtral-8x7B, Qwen-1.5, Qwen1.5, Qwen2, claude-3, llama-3."
+DATA_URL: "https://github.com/guijinSON/kudge"
 tags: 
 abstract: "LLM-as-a-Judge and reward models are widely used alternatives of multiplechoice questions or human annotators for large language model (LLM) evaluation. Their efficacy shines in evaluating long-form responses, serving a critical role as evaluators of leaderboards and as proxies to align LLMs via reinforcement learning. However, despite their popularity, their effectiveness in diverse contexts, such as non-English prompts, factual verification, or challenging questions, remains unexplored."
 research_topic: "Machine Learning"
@@ -64,6 +66,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 First non-English meta-evaluation dataset with 5,012 Korean human annotations. Evaluates LLM-as-a-Judge capabilities in Korean. Finds models struggle to detect factual inaccuracies, cultural misrepresentations, and unwanted language in Korean.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude, Claude-3.5-Sonnet, Command-R, GPT-4, GPT-4o, Llama-3, Llama-3.1, Mistral, Mistral-7B, Mistral-Large, Mistral-Nemo, Mixtral, Mixtral-8x22B, Mixtral-8x7B, Qwen-1.5, Qwen1.5, Qwen2, claude-3, llama-3.. Verified dataset/resource link: https://github.com/guijinSON/kudge.
 
 ## Notes
 

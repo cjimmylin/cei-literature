@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "4k questions; 10k questions; 2k questions"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude 3.5, Claude 3.5 Sonnet, Deepseek 4o, Deepseek R1, GPT-4o, Llama 4, Llama-3, Llama-3.1, Qwen 3, Qwen3, ChatGPT, GPT-4"
+DATA_URL: "https://github.com/ShayHill/docx2python"
 tags: 
 abstract: "Medical benchmarks are indispensable for evaluating the capabilities of language models in healthcare for non-English-speaking communities,therefore help ensuring the quality of real-life applications. However, not every community has sufficient resources and standardized methods to effectively build and design such benchmark, and available non-English medical data is normally fragmented and difficult to verify."
 research_topic: "Machine Learning"
@@ -65,6 +67,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 First Vietnamese medical benchmark with 14,000 questions across 34 medical specialties at four difficulty levels. Expert-annotated by medical students for evaluating LLM medical knowledge in Vietnamese.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude 3.5, Claude 3.5 Sonnet, Deepseek 4o, Deepseek R1, GPT-4o, Llama 4, Llama-3, Llama-3.1, Qwen 3, Qwen3, ChatGPT, GPT-4. Verified dataset/resource link: https://github.com/ShayHill/docx2python.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "ALBERT, BERT, ChatGPT, Claude, Claude-2., GPT-4, Gemini, Llama, PALM-2, PaLM"
+DATA_URL: "https://github.com/AntonOsika/gpt-engineer"
 ---
 # Foundational Challenges in Assuring Alignment and Safety of Large Language Models
 

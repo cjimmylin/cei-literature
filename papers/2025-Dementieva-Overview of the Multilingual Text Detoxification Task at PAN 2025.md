@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, DeepSeek, DeepSeek-AI, DeepSeek-R1, DeepSeek-V3, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma, Gemma-2, Llama 3.1, Llama-3.1, Llama-3.3, Qwen, Qwen-3, Qwen-32B, Qwen2, Qwen2.5, Qwen3, T5-like, bart-base, Llama"
+DATA_URL: "https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words"
 tags: 
 abstract: "Multilingual text detoxification shared task at PAN 2025 covering 15 languages including Hebrew. Hebrew was one of six new languages added in 2025 with synthetic data. Evaluation on style transfer accuracy, content preservation, and fluency."
 research_topic: "Machine Translation"
@@ -66,6 +68,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Multilingual text detoxification shared task at PAN 2025 covering 15 languages including Hebrew. Hebrew was one of six new languages added in 2025 with synthetic data. Evaluation on style transfer accuracy, content preservation, and fluency.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, DeepSeek, DeepSeek-AI, DeepSeek-R1, DeepSeek-V3, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma, Gemma-2, Llama 3.1, Llama-3.1, Llama-3.3, Qwen, Qwen-3, Qwen-32B, Qwen2, Qwen2.5, Qwen3, T5-like, bart-base, Llama. Verified dataset/resource link: https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words.
 
 ## Notes
 

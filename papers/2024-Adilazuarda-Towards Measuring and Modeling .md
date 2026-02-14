@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Bartolo"
 DATA_URL: "https://github.com/faridlazuarda/cultural-llm-papers"
 ---
 # Towards Measuring and Modeling "Culture" in LLMs: A Survey

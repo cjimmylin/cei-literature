@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: NA
 tags: 
 abstract: "The advancement of Natural Language Processing (NLP) has been largely driven by large-scale transformer models, yet these breakthroughs have predominantly benefited highresource languages. Low-resource languages like Kyrgyz lack the foundational models necessary for robust NLP application development. To address this gap, we introduce KyrgyzBert, the first publicly available, monolingual BERT-based language model pre-trained for the Kyrgyz language. KyrgyzBERT is a compact and efficient 35.9M parameter model developed with a custom tokenizer to optimally handle the language’s unique morphological characteristics. To demonstrate its effectiveness, we construct a new, high-quality sentiment analysis benchmark, kyrgyz-sst2, by translating the Stanford Sentiment Treebank and manually annotating the entire test set. Our experiments show that our finetuned model, kyrgyzbert_sst2, achieves an F1-score of 0.8280, a result highly competitive with a finetuned mBERT model five times its size. We publicly release all artifacts from this study, providing a comprehensive suite of tools to accelerate NLP research for the Kyrgyz language."
 research_topic: "NLP & Representation Learning"
@@ -66,6 +67,10 @@ research_topic: "NLP & Representation Learning"
 
 
 The advancement of Natural Language Processing (NLP) has been largely driven by large-scale transformer models, yet these breakthroughs have predominantly benefited highresource languages. Low-resource languages like Kyrgyz lack the foundational models necessary for robust NLP application development. To address this gap, we introduce KyrgyzBert, the first publicly available, monolingual BERT-based language model pre-trained for the Kyrgyz language. KyrgyzBERT is a compact and efficient 35.9M parameter model developed with a custom tokenizer to optimally handle the language’s unique morphological characteristics. To demonstrate its effectiveness, we construct a new, high-quality sentiment analysis benchmark, kyrgyz-sst2, by translating the Stanford Sentiment Treebank and manually annotating the entire test set. Our experiments show that our finetuned model, kyrgyzbert_sst2, achieves an F1-score of 0.8280, a result highly competitive with a finetuned mBERT model five times its size. We publicly release all artifacts from this study, providing a comprehensive suite of tools to accelerate NLP research for the Kyrgyz language.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "Large language models (LLMs) have achieved impressive results in a wide range of natural language applications. However, they often struggle to recognize low-resource languages, in particular African languages, which are not well represented in large training corpora. In this paper, we consider how to adapt LLMs to low-resource African languages. We find that combining curated data from African languages with high-quality English educational texts results in a training mix that substantially..."
 data_description: "Benchmark text corpus for question answering"
 data_metrics: "200m tokens"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, GPT-4, GPT-4o, Llama, Llama-3, Llama 2, Llama-3.1, Llama-3.2"
+DATA_URL: "https://huggingface.co/Jacaranda/AfroLlama_V1"
 ethics_perspective: "Responsible AI"
 ---
 # Lugha-Llama: Adapting Large Language Models for African Languages
@@ -60,6 +61,10 @@ ethics_perspective: "Responsible AI"
 ## Abstract
 
 Adapts LLMs for African languages using curated African language data plus English educational texts. Achieves best performance on IrokoBench and AfriQA among similarly sized models, especially on knowledge-intensive AfriMMLU. African-adapted LLM that improves cultural knowledge performance. Evaluated on IrokoBench covering target languages. Demonstrates approach for improving cultural alignment in low-resource African languages.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-4, GPT-4o, Llama, Llama-3, Llama 2, Llama-3.1, Llama-3.2. Verified dataset/resource link: https://huggingface.co/Jacaranda/AfroLlama_V1.
 
 ## Notes
 

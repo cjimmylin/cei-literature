@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "ChatGPT"
 DATA_URL: "https://github.com/fsu-nlp/ai-traces-ssl"
 ---
 # Model Misalignment and Language Change: Traces of AI-Associated Language in Unscripted Spoken English

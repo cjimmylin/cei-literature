@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, GPT 4o, GPT 3, GPT 3.5, GPT-3, GPT-3.5, GPT-4, GPT-4o, RoBERTa"
+DATA_URL: NA
 tags: 
 abstract: "The proliferation of transliterated texts in digital spaces has emphasized the need for detecting and classifying hate speech in languages beyond English, particularly in low-resource languages. As online discourse can perpetuate discrimination based on target groups, e.g. gender, religion, and origin, multi-label classification of hateful content can help in understanding hate motivation and enhance content moderation."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -66,6 +67,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 First multi-label transliterated Bangla hate speech dataset with 37.3k YouTube comment samples. Multi-label target group classification. Novel translation-based LLM prompting strategy for transliterated text. Published at NAACL 2025 Findings.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT 4o, GPT 3, GPT 3.5, GPT-3, GPT-3.5, GPT-4, GPT-4o, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

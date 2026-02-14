@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4o, Gemma-3, Llama, Llama-3, Llama3.3, Phi-3, Phi-3-medium, Qwen-3, Qwen1.5, Qwen2, Qwen2.5, phi-3 47, phi-4 18"
+DATA_URL: "https://github.com/EleutherAI/lm-evaluation-harness"
 tags: 
 abstract: "This technical report introduces JAI-1, a Thai-centric language model with 75B parameters. Recent Thai models have primarily relied on existing open-source models, applying additional training without structural modifications to specialize in Thai. However, this approach risks eroding pre-existing knowledge in the model’s parameter space during the injection of Thai-specific information, as optimized parameters for general tasks may conflict with new linguistic requirements."
 ethics_perspective: "AI Safety & Alignment"
@@ -65,6 +66,10 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 75B parameter Thai-centric LLM using depth-up-scaling and MoE. Introduces JAI-Hall-Bench to evaluate cultural knowledge and Thai language fluency with 298 project-specific samples and 1,000 QA items from Thai Wikipedia.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4o, Gemma-3, Llama, Llama-3, Llama3.3, Phi-3, Phi-3-medium, Qwen-3, Qwen1.5, Qwen2, Qwen2.5, phi-3 47, phi-4 18. Verified dataset/resource link: https://github.com/EleutherAI/lm-evaluation-harness.
 
 ## Notes
 

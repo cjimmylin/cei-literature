@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: 
 ethics_perspective: "Bias & Fairness"
@@ -62,6 +63,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 I found the research article you're looking for. Here are the key findings: Study Overview The article "Exploring the occupational biases and stereotypes of Chinese large language models" was published in Scientific Reports in 2025.
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

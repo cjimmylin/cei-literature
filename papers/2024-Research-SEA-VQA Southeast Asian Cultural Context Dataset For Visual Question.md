@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4, GPT-4-TURBO"
+DATA_URL: NA
 tags: 
 abstract: "VQA dataset with images from eight Southeast Asian countries curated from UNESCO Cultural Heritage collection. GPT-4 and Gemini show substantial performance drops on culture-centric questions vs general VQA."
 research_topic: "Computer Vision & Multimodal"
@@ -67,6 +69,10 @@ research_topic: "Computer Vision & Multimodal"
 ## Abstract
 
 VQA dataset with images from eight Southeast Asian countries curated from UNESCO Cultural Heritage collection. GPT-4 and Gemini show substantial performance drops on culture-centric questions vs general VQA.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4, GPT-4-TURBO. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

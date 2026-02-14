@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -70,6 +71,10 @@ Unknown
 ## Benchmark
 
 **Name:** NEHATE
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/shucoll/NEHate.
 
 ## Notes
 

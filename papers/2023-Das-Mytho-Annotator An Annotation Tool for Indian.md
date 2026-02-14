@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +41,7 @@ abstract: "> Web-based NLP annotation tool for Hindu mythology texts, labelling 
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: Other
 ---
 # Mytho-Annotator: An Annotation Tool for Indian Hindu Mythology
@@ -68,6 +70,11 @@ research_topic: Other
 ## Dataset Information
 
 NLP annotation tool for named entities, relationships, and events in Hindu mythology
+
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

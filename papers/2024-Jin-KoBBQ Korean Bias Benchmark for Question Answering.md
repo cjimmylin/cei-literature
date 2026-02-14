@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for bias and fairness dataset for question answering"
 data_metrics: "76,048 samples; 12 categories"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude, GPT-3, GPT-3.5, GPT-4, claude-2.0, claude-instant, gpt-3.5-turbo"
+DATA_URL: "https://github.com/Beomi/KoAlpaca"
 tags: 
 abstract: "Warning: This paper contains examples of stereotypes and biases. The Bias Benchmark for Question Answering (BBQ) is designed to evaluate social biases of language models (LMs), but it is not simple to adapt this benchmark to cultural contexts other than the US because social biases depend heavily on the cultural context. In this paper, we present KoBBQ, a Korean bias benchmark dataset, and we propose a general framework that addresses considerations for cultural adaptation of a dataset."
 ---
@@ -68,6 +69,10 @@ abstract: "Warning: This paper contains examples of stereotypes and biases. The 
 ## Abstract
 
 Korean bias benchmark adapted from BBQ with cultural considerations. 268 templates, 76,048 samples across 12 categories of social bias. Includes 4 new Korean-specific bias categories. Large-scale survey validated Korean stereotypes.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude, GPT-3, GPT-3.5, GPT-4, claude-2.0, claude-instant, gpt-3.5-turbo. Verified dataset/resource link: https://github.com/Beomi/KoAlpaca.
 
 ## Notes
 

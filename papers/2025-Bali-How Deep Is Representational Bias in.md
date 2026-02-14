@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Representational bias in large language models (LLMs) has predominantly been measured through single-response interactions and has focused on Global North-centric identities like race and gender. We expand on that research by conducting a systematic audit of GPT-4 Turbo to reveal how deeply encoded representational biases are and how they extend to less-explored dimensions of identity. We prompt GPT4 Turbo to generate over 7,200 stories about significant life events (such as weddings) in India,..."
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT-4, GPT-4 Turbo, GPT4-Turbo"
+DATA_URL: NA
 ethics_perspective: "Bias & Fairness"
 ---
 # How Deep Is Representational Bias in LLMs? The Cases of Caste and Religion
@@ -64,6 +66,11 @@ Systematic audit of GPT-4 Turbo revealing deeply encoded representational biases
 ## Dataset Information
 
 7,200+ generated stories about life rituals in India
+
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-4, GPT-4 Turbo, GPT4-Turbo. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

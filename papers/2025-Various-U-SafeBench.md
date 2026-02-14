@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "ChatGPT, Claude, Claude-3.5, Claude-3.5-haiku, Claude-3.5-sonnet, GPT-4, Gemma, Gemma-2, Llama, Llama Guard, Llama-3.1, Llama-4, Llama-Guard, Mistral, Mistral-7B, Mistral-Small, Mixtral-8x22B, Mixtral-8x7B, claude-3"
+DATA_URL: "https://github.com/yeonjun-in/U-SafeBench"
 ---
 # U-SafeBench: A Unified Benchmark for Evaluating the Safety of Language Models
 

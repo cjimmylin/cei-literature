@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ tags:
 abstract: "Text classification is an important task in Natural Language Processing (NLP), where the goal is to categorize text data into predefined classes. In this study, we analyze the dataset creation steps and evaluation techniques of multi-label news categorisation task as part of text classification. We first present a newly obtained dataset for Uzbek text classification, which was collected from 10 different news and press websites and covers 15 categories of news, press and law texts."
 data_description: "Evaluation approach text corpus"
 data_metrics: "15 categories"
-LLM_assessed: NA
+LLM_assessed: "BERT"
 DATA_URL: "https://github.com/elmurod1202/textclassification"
 research_topic: "Machine Learning"
 ---
@@ -61,6 +62,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 512,750 articles with 120M+ words across 15 categories from Uzbek news and press websites. BERTbek model achieves 85.2% F1-score. First comprehensive text classification benchmark for Uzbek. Foundational Uzbek NLP dataset providing text classification baseline. While not directly values-focused, establishes essential infrastructure for future ethical content evaluation in Uzbek.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/elmurod1202/textclassification.
 
 ## Notes
 

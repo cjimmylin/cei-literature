@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: "https://github.com/tatsu-lab/alpaca_eval"
 tags: 
 abstract: "This paper conducts a longitudinal study over eleven months to address the limitations of prior research on the Open Ko-LLM Leaderboard, which have relied on empirical studies with restricted observation periods of only five months. By extending the analysis duration, we aim to provide a more comprehensive understanding of the progression in developing Korean large language models (LLMs). Our study is guided by three primary research questions: (1) What are the specific challenges in improving..."
 research_topic: Other
@@ -62,6 +63,10 @@ research_topic: Other
 ## Abstract
 
 Longitudinal analysis of 1,769 Korean LLMs over 11 months on Open Ko-LLM Leaderboard. Examines task performance correlations including Korean-specific cultural and values benchmarks.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/tatsu-lab/alpaca_eval.
 
 ## Notes
 

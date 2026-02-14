@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: 
 research_topic: Other
@@ -62,6 +63,10 @@ research_topic: Other
 ## Abstract
 
 Here are the search results for "Chinese cultural knowledge LLM evaluation 2025 2026": Key Findings Recent LLM Evaluations with Chinese Cultural Focus: A 2025 study evaluated the performance of four LLMs (Sider Fusion, GPT-4o, Gemini 2.0 Pro, and DeepSeek V3) on the Chinese National Nurse Licensure Examination (CNNLE), testing their capabilities in specialized, culturally specific examinations. Comparative evaluations show that GPT-4 Turbo leads in English contexts, whereas the Chinese
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

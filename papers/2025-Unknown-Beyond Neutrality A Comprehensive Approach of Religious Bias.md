@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-4, GPT-4-Turbo, GPT-4o, Gemma, Gemma 2, Gemma2, InstructGPT, Llama-2, Llama, LLaMA 3, Llama-3, Llama2, Llama3, Mistral, Mistral 7B, Mistral-7B, Mixtral, Qwen, Qwen 3, Qwen3, Vicuna"
+DATA_URL: NA
 tags: 
 abstract: 
 ethics_perspective: "Bias & Fairness"
@@ -63,6 +65,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Based on the search results, I found several recent 2025 studies on religious bias in LLMs with focus on Arabic and Islamic topics: Key Benchmarks and Studies IslamTrust Benchmark: LLMs struggle significantly with Islamic values, exhibiting biases and misconceptions, with the best-performing model achieving only 66.5% overall alignment, with better performance in Arabic (71.43%) than English (61.58%). PalmX 2025 Shared Task: A benchmarking effort focused on the cultural competence o
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-4, GPT-4-Turbo, GPT-4o, Gemma, Gemma 2, Gemma2, InstructGPT, Llama-2, Llama, LLaMA 3, Llama-3, Llama2, Llama3, Mistral, Mistral 7B, Mistral-7B, Mixtral, Qwen, Qwen 3, Qwen3, Vicuna. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

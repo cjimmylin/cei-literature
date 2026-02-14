@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_BROPHY2025
@@ -30,7 +31,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: NA
+LLM_assessed: "ChatGPT, Claude, Claude Opus, DeepSeek"
 DATA_URL: NA
 ---
 # Wide Reflective Equilibrium in LLM Alignment: Bridging Moral Epistemology and AI Safety

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "InstructGPT, LaMDA"
 DATA_URL: "https://github.com/anthropics/ConstitutionalHarmlessnessPaper"
 ---
 # Constitutional AI: Harmlessness from AI Feedback

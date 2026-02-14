@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, RoBERTa, XLNet, BERT"
+DATA_URL: "https://github.com/CLARIN-PL/LEPISZCZE"
 tags: 
 abstract: "The availability of compute and data to train larger and larger language models increases the demand for robust methods of benchmarking the true progress of LM training. Recent years witnessed signiﬁcant progress in standardized benchmarking for English. Benchmarks such as GLUE, SuperGLUE, or KILT have become a de facto standard tools to compare large language models. Following the trend to replicate GLUE for other languages, the KLEJ benchmark1 has been released for Polish."
 research_topic: "Machine Learning"
@@ -66,6 +68,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Comprehensive open-source Polish NLP benchmark with continuous-submission leaderboard, extending KLEJ with 8 novel datasets and 13 experiments across 5 recent Polish language models.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, RoBERTa, XLNet, BERT. Verified dataset/resource link: https://github.com/CLARIN-PL/LEPISZCZE.
 
 ## Notes
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,6 +66,11 @@ research_topic: Other
 ## Dataset Information
 
 Ramcharitmanas, Bhagavad Gita, Mahabharata (~1 lakh shlokas), Valmiki Ramayana, Rigveda, Yajurveda, Atharvaveda in JSON format
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/bhavykhatri/DharmicData (ODbL license).
 
 ## Notes
 

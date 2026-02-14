@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Large Language Models (LLMs) have shown remarkable performance across various tasks, yet significant disparities remain for non-English languages, and especially native African languages. This paper addresses these disparities by creating approximately 1 million human-translated words of new benchmark data in 8 low-resource African languages, covering a population of over 160 million speakers of: Amharic, Bambara, Igbo, Sepedi (Northern Sotho), Shona, Sesotho (Southern Sotho), Setswana, and..."
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BLOOMZ, GPT 3, GPT 3.5, GPT-3, GPT-3.5, GPT-4, GPT-4o, Llama 3, Llama 3.1, gpt-3.5-turbo, gpt-4-turbo"
 DATA_URL: "https://github.com/InstituteforDiseaseModeling/Bridging-the-Gap-Low-Resource-African-Languages (CC BY 4.0)"
 research_topic: "Machine Translation"
 ---
@@ -69,6 +71,11 @@ Creates approximately 1 million human-translated words of new benchmark data in 
 ## Dataset Information
 
 ~1 million human-translated words across 8 languages
+
+
+## Data Description
+
+Backfill summary: Models assessed include BLOOMZ, GPT 3, GPT 3.5, GPT-3, GPT-3.5, GPT-4, GPT-4o, Llama 3, Llama 3.1, gpt-3.5-turbo, gpt-4-turbo. Verified dataset/resource link: https://github.com/InstituteforDiseaseModeling/Bridging-the-Gap-Low-Resource-African-Languages (CC BY 4.0).
 
 ## Notes
 

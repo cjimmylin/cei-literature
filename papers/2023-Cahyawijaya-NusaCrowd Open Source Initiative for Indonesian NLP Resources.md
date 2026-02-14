@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "137 datasets"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, BLOOMZ, Bloom, GPT-2"
+DATA_URL: "https://github.com/google-research-datasets/conceptual-12m"
 tags: 
 abstract: "We present NusaCrowd, a collaborative initiative to collect and unify existing resources for Indonesian languages, including opening access to previously non-public resources. Through this initiative, we have brought together 137 datasets and 118 standardized data loaders. The quality of the datasets has been assessed manually and automatically, and their value is demonstrated through multiple experiments."
 ethics_perspective: "General Ethics"
@@ -66,6 +68,10 @@ ethics_perspective: "General Ethics"
 ## Abstract
 
 Collaborative initiative unifying 137 datasets and 118 standardized data loaders for Indonesian languages. Enables first zero-shot benchmarks for NLU and NLG in Indonesian and local languages.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, BLOOMZ, Bloom, GPT-2. Verified dataset/resource link: https://github.com/google-research-datasets/conceptual-12m.
 
 ## Notes
 

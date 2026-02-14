@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT"
+DATA_URL: "https://github.com/manandey/bias_"
 tags: 
 abstract: "While Machine Translation (MT) research has progressed over the years, translation systems still suffer from biases, including gender bias. While an active line of research studies the existence and mitigation strategies of gender bias in machine translation systems, there is limited research exploring this phenomenon for lowresource languages. The limited availability of linguistic and computational resources confounded with the lack of benchmark datasets makes studying bias for low-resourced..."
 ethics_perspective: "Bias & Fairness"
@@ -63,6 +64,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Benchmark datasets evaluating gender bias in MT for three low-resource languages. 2,400 gender-balanced sentences. Found 72% of Amharic and 93% of Afaan Oromoo sentences exhibited gender bias.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT. Verified dataset/resource link: https://github.com/manandey/bias_.
 
 ## Notes
 

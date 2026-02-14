@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset for toxicity detection"
 data_metrics: "101 datasets"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT2, Gemma, Llama, Llama-3.1, Llama-3.2, Mistral-7B, Qwen, Qwen-2.5, Qwen2.5, gemma-2, phi-4"
+DATA_URL: "https://github.com/IberBench/dataset-preparation"
 tags: 
 abstract: "Despite their remarkable success, Large Language Models (LLMs) remain difficult to evaluate comprehensively, particularly for languages other than English, where high-quality data is often limited. Existing benchmarks and leaderboards are predominantly English-centric, with only a few addressing other languages. These benchmarks fall short in several key areas: they overlook the diversity of language varieties, prioritize fundamental Natural Language Processing (NLP) capabilities over tasks of..."
 research_topic: "NLP & Representation Learning"
@@ -66,6 +68,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Comprehensive benchmark assessing LLM performance on fundamental and industry-relevant NLP tasks in Iberian languages including Spanish varieties (Mexican, Uruguayan, Peruvian, Costa Rican, Cuban). Integrates 101 datasets covering 22 task categories including toxicity detection.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT2, Gemma, Llama, Llama-3.1, Llama-3.2, Mistral-7B, Qwen, Qwen-2.5, Qwen2.5, gemma-2, phi-4. Verified dataset/resource link: https://github.com/IberBench/dataset-preparation.
 
 ## Notes
 

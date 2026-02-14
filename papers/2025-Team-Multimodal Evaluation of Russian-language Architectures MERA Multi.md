@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "18 datasets"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT 4, GPT-4o, Gemma, Llama, Llama-3, Mistral, Phi-3, Qwen, Qwen-Audio, Qwen2, Qwen2.5, Qwen3, BERT, deepseek-vl2, gemma-3, llama3, mistral-7b, mistral-nemo, qwen-3"
+DATA_URL: "https://github.com/MERA-Evaluation/MERA_"
 tags: 
 abstract: "Multimodal large language models (MLLMs) are currently at the center of research attention, showing rapid progress in scale and capabilities, yet their intelligence, limitations, and risks remain insufficiently understood. To address these issues, particularly in the context of the Russian language, where no multimodal benchmarks currently exist, we introduce MERA Multi, an open multimodal evaluation framework for Russian-spoken architectures."
 research_topic: "Computer Vision & Multimodal"
@@ -65,6 +67,10 @@ research_topic: "Computer Vision & Multimodal"
 ## Abstract
 
 Open multimodal evaluation framework for Russian-spoken architectures with 18 tasks across text, image, audio, and video modalities. Includes ruHHH-Image (Honest, Helpful, Harmless + Empathy, Etiquette) and ruHHH-Video ethical evaluation datasets.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT 4, GPT-4o, Gemma, Llama, Llama-3, Mistral, Phi-3, Qwen, Qwen-Audio, Qwen2, Qwen2.5, Qwen3, BERT, deepseek-vl2, gemma-3, llama3, mistral-7b, mistral-nemo, qwen-3. Verified dataset/resource link: https://github.com/MERA-Evaluation/MERA_.
 
 ## Notes
 

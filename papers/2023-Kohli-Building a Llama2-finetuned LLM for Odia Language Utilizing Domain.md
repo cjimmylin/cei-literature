@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Alpaca, BERT, ChatGPT, Dolly, LlaMA2, Llama-2, Llama"
+DATA_URL: "https://github.com/AI4Bharat/indicTrans"
 tags: 
 abstract: "Llama2-finetuned LLM for Odia language using domain knowledge instruction set. First dedicated Odia LLM enabling downstream cultural and safety evaluation."
 research_topic: Other
@@ -64,6 +65,10 @@ research_topic: Other
 ## Abstract
 
 Llama2-finetuned LLM for Odia language using domain knowledge instruction set. First dedicated Odia LLM enabling downstream cultural and safety evaluation.
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, BERT, ChatGPT, Dolly, LlaMA2, Llama-2, Llama. Verified dataset/resource link: https://github.com/AI4Bharat/indicTrans.
 
 ## Notes
 

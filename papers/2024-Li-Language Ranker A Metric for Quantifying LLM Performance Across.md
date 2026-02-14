@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Bloom 3B, Bloom 7B, Claude-3, GPT-4, Gemma, Llama, LlaMa2, LlaMa3, Mistral, Mistral 7B, Mistral-v0, Qwen, Qwen 1, Qwen Llama2, Qwen 13B, Qwen 7B"
+DATA_URL: "https://github.com/Helsinki-NLP/Tatoeba-"
 tags: 
 abstract: "The development of Large Language Models (LLMs) relies on extensive text corpora, which are often unevenly distributed across languages. This imbalance results in LLMs performing significantly better on high-resource languages like English, German, and French, while their capabilities in low-resource languages remain inadequate. Currently, there is a lack of quantitative methods to evaluate the performance of LLMs in these low-resource languages."
 research_topic: "Machine Translation"
@@ -65,6 +67,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Novel metric for systematically evaluating LLM performance across diverse languages with focus on low-resource languages. Kurdish score 0.308, Pashto score 0.284.
+
+## Data Description
+
+Backfill summary: Models assessed include Bloom 3B, Bloom 7B, Claude-3, GPT-4, Gemma, Llama, LlaMa2, LlaMa3, Mistral, Mistral 7B, Mistral-v0, Qwen, Qwen 1, Qwen Llama2, Qwen 13B, Qwen 7B. Verified dataset/resource link: https://github.com/Helsinki-NLP/Tatoeba-.
 
 ## Notes
 

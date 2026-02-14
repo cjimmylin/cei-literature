@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Alpaca, BERT, BLOOM, Barth, GPT-3, GPT-4, Gemma, Gemma 2, Gemma-2, Llama, Llama Guard, Llama 3, Llama-2, Llama-3, Llama-3.1, Llama-Guard, Mistral, Mistral 7B, Mistral-7B, Mistral-Nemo, Mixtral 8x7B, Qwen, Qwen 2"
+DATA_URL: "https://github.com/NVIDIA/NeMo"
 tags: 
 abstract: "This work introduces Salamandra, a suite of open-source decoder-only large language models available in three different sizes: 2, 7, and 40 billion parameters. The models were trained from scratch on highly multilingual data that comprises text in 35 European languages and code. Our carefully curated corpus is made exclusively from open-access data compiled from a wide variety of sources. Along with the base models, supplementary checkpoints that were fine-tuned on public-domain instruction..."
 ethics_perspective: "AI Safety & Alignment"
@@ -63,6 +65,10 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Technical report for Salamandra (2B, 7B, 40B parameters) multilingual model from Barcelona Supercomputing Center, trained on MareNostrum 5. Section 6 assesses safety and biases. Part of Spain's ALIA project for language technology infrastructure.
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, BERT, BLOOM, Barth, GPT-3, GPT-4, Gemma, Gemma 2, Gemma-2, Llama, Llama Guard, Llama 3, Llama-2, Llama-3, Llama-3.1, Llama-Guard, Mistral, Mistral 7B, Mistral-7B, Mistral-Nemo, Mixtral 8x7B, Qwen, Qwen 2. Verified dataset/resource link: https://github.com/NVIDIA/NeMo.
 
 ## Notes
 

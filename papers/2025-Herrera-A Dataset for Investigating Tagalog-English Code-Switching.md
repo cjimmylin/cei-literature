@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Word2Vec"
+DATA_URL: "https://github.com/palaganaskurl/tag"
 tags: 
 abstract: 
 research_topic: "Machine Learning"
@@ -62,6 +63,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Search Results Summary I found comprehensive information about Taglish, Filipino-English code-switching, and NLP research on this topic. Here are the key findings: Definition and Overview Taglish or Englog is code-switching and/or code-mixing in the use of Tagalog and English, the most common languages of the Philippines.
+
+## Data Description
+
+Backfill summary: Models assessed include Word2Vec. Verified dataset/resource link: https://github.com/palaganaskurl/tag.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "We introduce the first taxonomy-guided evaluation of Swahili NLP, addressing gaps in sociolinguistic diversity. Drawing on health-related psychometric tasks, we collect a dataset of 2,170 free-text responses from Kenyan speakers. The data exhibits tribal influences, urban vernacular, code-mixing, and loanwords. We develop a structured taxonomy and use it as a lens for examining model prediction errors across pre-trained and instruction-tuned language models."
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, Llama, Llama 3.1, Llama-3.1, Llama3.1, Qwen2, Qwen2.5, RoBERTa, llama 3"
+DATA_URL: "https://github.com/nd-hal/swahili_psych_taxonomy"
 research_topic: "NLP & Representation Learning"
 ---
 # Benchmarking Sociolinguistic Diversity in Swahili NLP: A Taxonomy-Guided Approach
@@ -60,6 +61,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 First taxonomy-guided evaluation of Swahili NLP with 2,170 responses from Kenyan speakers. Examines tribal influences, urban vernacular, code-mixing. Reveals strong tribal disparities in model fairness metrics. Directly evaluates fairness and bias in Swahili NLP. Intersectional fairness analysis across tribe, gender, and education. Shows sociolinguistic diversity causes systematic prediction errors — key for equitable AI deployment.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Llama, Llama 3.1, Llama-3.1, Llama3.1, Qwen2, Qwen2.5, RoBERTa, llama 3. Verified dataset/resource link: https://github.com/nd-hal/swahili_psych_taxonomy.
 
 ## Notes
 

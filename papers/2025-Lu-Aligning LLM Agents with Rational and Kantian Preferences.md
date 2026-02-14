@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Synthetic datasets from economic games"
 data_metrics: "Kantian moral concern parameter κ, cooperation rates"
-LLM_assessed: "GPT-4, o3"
+LLM_assessed: "GPT-4"
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
 ---

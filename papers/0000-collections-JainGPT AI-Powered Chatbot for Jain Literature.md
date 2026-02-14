@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -92,6 +94,11 @@ research_topic: "Dialogue Systems"
 ## Dataset Information
 
 Extensive digitized Jain literature and sacred texts (Jain Agamas and commentary)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://jainknowledge.com / https://jaingpt.org/.
 
 ## Notes
 

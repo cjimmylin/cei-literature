@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract:
 ethics_perspective: "General Ethics"
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Llama-3, Claude, Qwen, Gemini"
+LLM_assessed: "GPT-4, Llama-3, Claude, Qwen"
 DATA_URL: NA
 ---
 # MIST: Moral Inference through Storytelling with Text and Images

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "Claude, Claude 3.5 Haiku, Claude 3.5, Claude 3.5 Sonnet, DeepSeek Chat, DeepSeek Reasoner, DeepSeek-R1, DeepSeek, GPT-3, GPT-3.5 Turbo, GPT-4, GPT-4 Turbo, GPT-4o, GPT-4o mini, Gemma, Gemma 2, Llama 3, Llama 3.1, Mistral 7B, Phi-4, Phi-4 and, Qwen 2.5, gemma-2, o1-preview"
+DATA_URL: "https://huggingface.co/anakin87/gemma-2-9b-neogenesis-ita"
 tags: 
 abstract: "Large language models (LLMs) show increasing potential in education, yet benchmarks for non-English languages in specialized domains remain scarce. We introduce MedBench-IT, the first comprehensive benchmark for evaluating LLMs on Italian medical university entrance examinations. Sourced from Edizioni Simone, a leading preparatory materials publisher, MedBench-IT comprises 17,410 expert-written multiple-choice questions across six subjects (Biology, Chemistry, Logic, General Culture,..."
 ethics_perspective: "Bias & Fairness"

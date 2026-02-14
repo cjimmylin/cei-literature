@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -70,6 +72,11 @@ Graph-structured dataset of multiple Isnad chains for Sahih Muslim Hadith. Repre
 ## Dataset Information
 
 2,092 narrator nodes, 77,797 edges (Sanad-Hadith connections)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://data.mendeley.com/datasets/gzprcr93zn/2.
 
 ## Notes
 

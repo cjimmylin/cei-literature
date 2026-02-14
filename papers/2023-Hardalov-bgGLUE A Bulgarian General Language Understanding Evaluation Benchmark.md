@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, BLOOM, CodeX, DistilBERT"
+DATA_URL: "https://github.com/bgGLUE/bgglue"
 tags: 
 abstract: "We present bgGLUE (Bulgarian General Language Understanding Evaluation), a benchmark for evaluating language models on Natural Language Understanding (NLU) tasks in Bulgarian. Our benchmark includes NLU tasks targeting a variety of NLP problems (e.g., natural language inference, fact-checking, named entity recognition, sentiment analysis, question answering, etc.) and machine learning tasks (sequence labeling, document-level classification, and regression)."
 research_topic: "Machine Learning"
@@ -65,6 +67,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Bulgarian NLU benchmark with nine tasks covering NLI, fact-checking, NER, sentiment analysis, QA. First systematic evaluation of pre-trained language models for Bulgarian. Public leaderboard available.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, BLOOM, CodeX, DistilBERT. Verified dataset/resource link: https://github.com/bgGLUE/bgglue.
 
 ## Notes
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Experimental study showing generative AI not only reflects but amplifies cognitive biases in religious education. Christianity and Judaism perceptions became more positive after AI interaction, while Islam perception became more negative. Finds AI acts as 'double-edged sword': enhancing personalized learning while risking reinforcement of prejudice. Calls for ethical guidelines in deploying AI in religious contexts."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT-4"
+DATA_URL: NA
 ethics_perspective: "Bias & Fairness"
 ---
 # Cognitive Bias in Generative AI Influences Religious Education
@@ -64,6 +66,11 @@ Experimental study showing generative AI not only reflects but amplifies cogniti
 ## Dataset Information
 
 Experimental framework with pre/post-interaction evaluations
+
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-4. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

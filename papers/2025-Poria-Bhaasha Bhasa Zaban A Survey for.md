@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ tags:
 abstract: "Rapid developments of large language models have revolutionized many NLP tasks for English data. Unfortunately, the models and their evaluations for low-resource languages are being overlooked, especially for languages in South Asia. Although there are more than 650 languages in South Asia, many of them either have very limited computational resources or are missing from existing language models. Thus, a concrete question to be answered is: Can we assess the current stage and challenges to..."
 data_description: Benchmark
 data_metrics: "650 languages"
-LLM_assessed: NA
+LLM_assessed: "BERT, GPT-4o"
 DATA_URL: "https://github.com/trust-nlp/LM4SouthAsia-Survey"
 research_topic: "NLP & Representation Learning"
 ---
@@ -61,6 +62,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Comprehensive survey of NLP for South Asian languages covering data, models, and tasks. Highlights missing data in critical domains, code-mixing challenges, and lack of standardized evaluation benchmarks. Survey covering all four target languages with analysis of gaps in NLP resources and benchmarks.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-4o. Verified dataset/resource link: https://github.com/trust-nlp/LM4SouthAsia-Survey.
 
 ## Notes
 

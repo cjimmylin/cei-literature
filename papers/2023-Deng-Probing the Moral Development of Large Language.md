@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3, GPT-3.5, GPT-4, ChatGPT, PaLM-2, Llama-2, text-davinci"
+LLM_assessed: "GPT-3, GPT-3.5, GPT-4, ChatGPT, PaLM-2, Llama-2"
 DATA_URL: NA
 DATE_ADDED: 20260207
 ---

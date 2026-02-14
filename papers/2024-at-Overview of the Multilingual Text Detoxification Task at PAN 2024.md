@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BART, BERT, ChatGPT, GPT-3, GPT-3.5, Llama-3, LLaMa3, T5, bart-base, Llama"
+DATA_URL: "https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words"
 tags: 
 abstract: "Shared task on transforming toxic text to non-toxic while preserving content across 9 languages including Spanish. Evaluation on style transfer accuracy, content preservation, and fluency. Extended to 15 languages in PAN 2025."
 research_topic: "Machine Translation"
@@ -67,6 +68,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Shared task on transforming toxic text to non-toxic while preserving content across 9 languages including Spanish. Evaluation on style transfer accuracy, content preservation, and fluency. Extended to 15 languages in PAN 2025.
+
+## Data Description
+
+Backfill summary: Models assessed include BART, BERT, ChatGPT, GPT-3, GPT-3.5, Llama-3, LLaMa3, T5, bart-base, Llama. Verified dataset/resource link: https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words.
 
 ## Notes
 

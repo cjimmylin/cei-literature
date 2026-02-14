@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, ChatGLM-turbo, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Qwen-14B, Qwen-Max"
+DATA_URL: "https://github.com/openai/CLIP"
 tags: 
 abstract: "To prevent Text-to-Image (T2I) models from generating unethical images, people deploy safety filters to block inappropriate drawing prompts. Previous works have employed token replacement to search adversarial prompts that attempt to bypass these filters, but they has become ineffective as nonsensical tokens fail semantic logic checks. In this paper, we approach adversarial prompts from a different perspective. We demonstrate that rephrasing a drawing intent into multiple benign descriptions of individual visual components can obtain an effective adversarial prompt. We propose a LLM-piloted multi-agent method named DACA to automatically complete intended rephrasing. Our method successfully bypasses the safety filters of DALL·E 3 and Midjourney to generate the intended images, achieving success rates of up to 76.7% and 64% in the one-time attack, and 98% and 84% in the re-use attack, respectively. We open-source our code and dataset on GitHub1. 1https://github.com/researchcode003/DACA"
 ethics_perspective: "AI Safety & Alignment"
@@ -66,6 +68,10 @@ ethics_perspective: "AI Safety & Alignment"
 
 
 To prevent Text-to-Image (T2I) models from generating unethical images, people deploy safety filters to block inappropriate drawing prompts. Previous works have employed token replacement to search adversarial prompts that attempt to bypass these filters, but they has become ineffective as nonsensical tokens fail semantic logic checks. In this paper, we approach adversarial prompts from a different perspective. We demonstrate that rephrasing a drawing intent into multiple benign descriptions of individual visual components can obtain an effective adversarial prompt. We propose a LLM-piloted multi-agent method named DACA to automatically complete intended rephrasing. Our method successfully bypasses the safety filters of DALL·E 3 and Midjourney to generate the intended images, achieving success rates of up to 76.7% and 64% in the one-time attack, and 98% and 84% in the re-use attack, respectively. We open-source our code and dataset on GitHub1. 1https://github.com/researchcode003/DACA
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGLM-turbo, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Qwen-14B, Qwen-Max. Verified dataset/resource link: https://github.com/openai/CLIP.
 
 ## Notes
 

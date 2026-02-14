@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Spanish language knowledge evaluation dataset for LLMs using expert-prepared multiple-choice questions matching the format and level of Spanish evaluation tests for humans (Instituto Cervantes format). 100 questions. Included in La Leaderboard."
 research_topic: "Machine Learning"
@@ -65,6 +66,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Spanish language knowledge evaluation dataset for LLMs using expert-prepared multiple-choice questions matching the format and level of Spanish evaluation tests for humans (Instituto Cervantes format). 100 questions. Included in La Leaderboard.
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

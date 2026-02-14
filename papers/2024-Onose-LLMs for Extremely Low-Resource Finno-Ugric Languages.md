@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Alpaca, ChatGPT, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4-turbo, Llama-2, Llama, GPT-4o, gpt-4o-mini"
+DATA_URL: "https://github.com/TartuNLP/smugri-llm"
 tags: 
 abstract: "The advancement of large language models (LLMs) has predominantly focused on highresource languages, leaving low-resource languages, such as those in the Finno-Ugric family, significantly underrepresented. This paper addresses this gap by focusing on Võro, Livonian, and Komi. We cover almost the entire cycle of LLM creation, from data collection to instruction tuning and evaluation. Our contributions include developing multilingual base and instruction-tuned models; creating evaluation benchmarks, including the SMUGRI-MTBENCH multi-turn conversational benchmark; and conducting human evaluation. We intend for this work to promote linguistic diversity, ensuring that lesser-resourced languages can benefit from advancements in NLP."
 research_topic: Other
@@ -65,6 +66,10 @@ research_topic: Other
 
 
 The advancement of large language models (LLMs) has predominantly focused on highresource languages, leaving low-resource languages, such as those in the Finno-Ugric family, significantly underrepresented. This paper addresses this gap by focusing on Võro, Livonian, and Komi. We cover almost the entire cycle of LLM creation, from data collection to instruction tuning and evaluation. Our contributions include developing multilingual base and instruction-tuned models; creating evaluation benchmarks, including the SMUGRI-MTBENCH multi-turn conversational benchmark; and conducting human evaluation. We intend for this work to promote linguistic diversity, ensuring that lesser-resourced languages can benefit from advancements in NLP.
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, ChatGPT, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4-turbo, Llama-2, Llama, GPT-4o, gpt-4o-mini. Verified dataset/resource link: https://github.com/TartuNLP/smugri-llm.
 
 ## Notes
 

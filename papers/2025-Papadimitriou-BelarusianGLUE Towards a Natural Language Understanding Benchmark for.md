@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, BLOOM, BLOOMZ, Barth, Claude, Claude 3.5 Sonnet, DeBERTa, GPT-4o, Gemma, Gemma 2, Mistral, Qwen, Qwen 2, Qwen2, bloom-1b1, claude-3"
+DATA_URL: "https://github.com/huggingface/peft"
 tags: 
 abstract: "First NLU benchmark for Belarusian with ~15K instances across 5 tasks: sentiment analysis, linguistic acceptability, word in context, Winograd schema challenge, and textual entailment. Evaluates BERT models and LLMs."
 research_topic: "Machine Learning"
@@ -67,6 +69,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 First NLU benchmark for Belarusian with ~15K instances across 5 tasks: sentiment analysis, linguistic acceptability, word in context, Winograd schema challenge, and textual entailment. Evaluates BERT models and LLMs.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, BLOOM, BLOOMZ, Barth, Claude, Claude 3.5 Sonnet, DeBERTa, GPT-4o, Gemma, Gemma 2, Mistral, Qwen, Qwen 2, Qwen2, bloom-1b1, claude-3. Verified dataset/resource link: https://github.com/huggingface/peft.
 
 ## Notes
 

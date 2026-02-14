@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Alpaca, ChatGPT, Claude-3, Claude., Codex, GPT-4, Gemini, Llama"
 DATA_URL: "https://betterbench.stanford.edu"
 ---
 # BetterBench: Assessing AI Benchmarks, Uncovering Issues and Opportunities

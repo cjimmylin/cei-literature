@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "Uses a dataset of 2,160 posts from the Thai toxicity Twitter corpus for training and verifying Thai language toxic and hateful classification using supervised ensemble methods. Thai toxicity detection dataset from Twitter. Relevant to toxicity and hate speech evaluation in Thai."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: NA
 research_topic: "Machine Learning"
 ---
 # Toxicity Posts and Hateful Comments Detection in Thai Language Using Supervised Ensemble Classification
@@ -64,6 +65,10 @@ Uses a dataset of 2,160 posts from the Thai toxicity Twitter corpus for training
 ## Benchmark
 
 **Name:** Thai Toxicity Twitter Corpus
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

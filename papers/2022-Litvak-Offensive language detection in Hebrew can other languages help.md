@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: NA
 tags: 
 abstract: "Introduces a new dataset of annotated Facebook comments in Hebrew and conducts cross-lingual offensive language detection across Semitic languages (Hebrew and Arabic). Evaluates multiple supervised models and transfer learning approaches."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -65,6 +66,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Introduces a new dataset of annotated Facebook comments in Hebrew and conducts cross-lingual offensive language detection across Semitic languages (Hebrew and Arabic). Evaluates multiple supervised models and transfer learning approaches.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

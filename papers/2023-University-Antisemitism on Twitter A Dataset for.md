@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -66,6 +68,11 @@ Large-scale dataset of 6,941 tweets covering conversations about Jews, Israel, a
 ## Dataset Information
 
 6,941 tweets (1,250 antisemitic = 18%)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://zenodo.org/records/7932888.
 
 ## Notes
 

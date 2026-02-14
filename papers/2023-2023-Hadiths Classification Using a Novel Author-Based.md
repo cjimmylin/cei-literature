@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -69,6 +71,11 @@ Creates ABCD (Author-Based Classification Dataset) from classical Hadith books. 
 ## Dataset Information
 
 29K Hadiths, 18K unique narrators
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: Papers with Code listing.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,8 +31,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: 
 research_topic: Other
@@ -64,6 +65,10 @@ research_topic: Other
 ## Abstract
 
 COPA causal commonsense reasoning adapted for South Slavic dialects: Slovenian Cerkno, Croatian Chakavian, Serbian Torlak. Training data for standard Slovenian, Croatian, Serbian, Macedonian.
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

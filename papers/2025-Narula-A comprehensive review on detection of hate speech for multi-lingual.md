@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, GPT-3, GloVe, RoBERTa, Word2Vec, XLNet, distilBERT"
+DATA_URL: NA
 tags: 
 abstract: "The paper addresses the critical challenge of detecting and mitigating hate speech in Hindi across social media platforms, utilizing natural language processing (NLP) techniques. It underscores the complexities associated with the Hindi language, including the prevalence of code-switching, the existence of various dialects, and the inconsistent use of Romanized Hindi. These linguistic factors present significant challenges for developing automated systems capable of reliably identifying hate speech. The paper emphasizes the urgent need to confront hate speech in Hindi due to its potential to incite social unrest, propagate misinformation, and foster a culture of intolerance within India's diverse socio-political landscape. The research aims to address existing gaps in the detection of Hindi hate speech through employing advanced machine learning and deep learning methodologies. The overarching objective is to devise solutions that are not only technologically robust but also deeply attuned to the unique linguistic and cultural nuances of the Hindi language. Keywords Hate speech detection · Natural language processing (NLP) · Social media · Code-mixing · Machine learning · Deep learning · Linguistic diversity"
 ethics_perspective: "Toxicity & Hate Speech"
@@ -68,6 +69,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 
 The paper addresses the critical challenge of detecting and mitigating hate speech in Hindi across social media platforms, utilizing natural language processing (NLP) techniques. It underscores the complexities associated with the Hindi language, including the prevalence of code-switching, the existence of various dialects, and the inconsistent use of Romanized Hindi. These linguistic factors present significant challenges for developing automated systems capable of reliably identifying hate speech. The paper emphasizes the urgent need to confront hate speech in Hindi due to its potential to incite social unrest, propagate misinformation, and foster a culture of intolerance within India's diverse socio-political landscape. The research aims to address existing gaps in the detection of Hindi hate speech through employing advanced machine learning and deep learning methodologies. The overarching objective is to devise solutions that are not only technologically robust but also deeply attuned to the unique linguistic and cultural nuances of the Hindi language. Keywords Hate speech detection · Natural language processing (NLP) · Social media · Code-mixing · Machine learning · Deep learning · Linguistic diversity
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-3, GloVe, RoBERTa, Word2Vec, XLNet, distilBERT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

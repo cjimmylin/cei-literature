@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract: "Large Language Models (LLMs) inherently reflect the vast data distrib
 research_topic: "Social & Cultural Analysis"
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "GPT-3, GPT-3.5 Turbo, GPT-4o, Gemini, Palm, Qwen2.5, Qwen3"
 DATA_URL: "https://github.com/UBC-NLP/palmx_2025"
 ---
 # PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture

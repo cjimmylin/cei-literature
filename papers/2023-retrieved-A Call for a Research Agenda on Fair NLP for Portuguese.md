@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "word2vec"
+DATA_URL: NA
 tags: 
 abstract: "Position paper challenging the scientific community to stimulate research in fair NLP for Portuguese, addressing representation biases that mainly focus on Anglo-Saxon languages."
 research_topic: "NLP & Representation Learning"
@@ -64,6 +65,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Position paper challenging the scientific community to stimulate research in fair NLP for Portuguese, addressing representation biases that mainly focus on Anglo-Saxon languages.
+
+## Data Description
+
+Backfill summary: Models assessed include word2vec. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

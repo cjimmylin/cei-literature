@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,6 +67,11 @@ research_topic: "Machine Translation"
 ## Dataset Information
 
 209,454 bitext pairs (training); 2,300 manually curated bitext pairs (evaluation)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: Open-source (Dharmamitra project).
 
 ## Notes
 

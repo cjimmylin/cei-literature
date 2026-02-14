@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +40,7 @@ abstract: "21,759 Urdu tweets classified for hateful vs neutral content, with ha
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: "Machine Learning"
 ---
 # ISE-Hate: A Benchmark Corpus for Inter-faith, Sectarian, and Ethnic Hatred Detection on Social Media in Urdu
@@ -70,6 +71,10 @@ Unknown
 ## Benchmark
 
 **Name:** ISE-Hate
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

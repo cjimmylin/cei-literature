@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract: "As large language models (LLMs) have demonstrated strong reasoning ab
 research_topic: Other
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, o1, Claude, Gemini"
+LLM_assessed: "GPT-4, Claude"
 DATA_URL: NA
 ---
 # The Emergence of Strategic Reasoning of Large Language Models

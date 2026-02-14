@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,6 +67,11 @@ Te Hiku Media created the first culturally appropriate benchmark for te reo Maor
 ## Dataset Information
 
 Custom benchmark based on community-curated speech data; builds on 300+ hours of labeled speech data from Te Hiku Media's Papa Reo platform
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://papareo.nz/.
 
 ## Notes
 

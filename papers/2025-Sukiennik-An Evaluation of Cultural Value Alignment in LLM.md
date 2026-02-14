@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract: "LLMs as intelligent agents are being increasingly applied in scenario
 ethics_perspective: "Social & Cultural Values"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-3, DeepSeek, Qwen"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-3, DeepSeek, Qwen"
 DATA_URL: NA
 ---
 # An Evaluation of Cultural Value Alignment in LLM

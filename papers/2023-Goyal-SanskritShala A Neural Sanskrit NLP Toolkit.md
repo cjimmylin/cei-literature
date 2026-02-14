@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,6 +67,11 @@ research_topic: "NLP & Representation Learning"
 ## Dataset Information
 
 7 word embedding models + multiple annotated datasets (word similarity, relatedness, categorization, analogy)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://cnerg.iitkgp.ac.in/sanskritshala / https://github.com/Jivnesh/SanskritShala.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Alpaca, GPT-3, GPT-3.5-Turbo, GPT-4-Turbo, GPT-4o, GPT-4o-mini, Gemma-2, Llama, Llama-3, Llama-3., Llama-3.1, Llama3.1, Mistral-7B, Qwen, Qwen-2.5, Qwen2, Qwen2.5, Vicuna, llama2, mistralai"
+DATA_URL: "https://huggingface.co/Qwen/Qwen2"
 tags: 
 abstract: 
 research_topic: Other
@@ -63,6 +64,10 @@ research_topic: Other
 ## Abstract
 
 Based on the search results, here are the key findings related to MongolianBERT and Mongolian language model evaluations: MongolianBERT and Related Models Pre-trained Mongolian BERT models exist, and these have been evaluated in various NLP tasks. In one study on recognizing textual inference, the fine-tuned bert-base-multilingual-cased obtained the best accuracy of 0.7619 among eight different models tested on Mongolian Bar exam questions.
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, GPT-3, GPT-3.5-Turbo, GPT-4-Turbo, GPT-4o, GPT-4o-mini, Gemma-2, Llama, Llama-3, Llama-3., Llama-3.1, Llama3.1, Mistral-7B, Qwen, Qwen-2.5, Qwen2, Qwen2.5, Vicuna, llama2, mistralai. Verified dataset/resource link: https://huggingface.co/Qwen/Qwen2.
 
 ## Notes
 

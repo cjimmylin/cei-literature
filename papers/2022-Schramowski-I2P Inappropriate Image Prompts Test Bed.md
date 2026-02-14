@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract:
 research_topic: "Computer Vision & Multimodal"
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT"
 DATA_URL: "https://github.com/ml-research/Q16"
 ---
 # I2P: Inappropriate Image Prompts Test Bed

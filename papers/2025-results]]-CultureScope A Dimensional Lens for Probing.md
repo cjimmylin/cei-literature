@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "As large language models (LLMs) are increasingly deployed in diverse cultural environments, evaluating their cultural understanding capability has become essential for ensuring trustworthy and culturally aligned applications. However, most existing benchmarks lack comprehensiveness and are challenging to scale and adapt across different cultural contexts, because their frameworks often lack guidance from well-established cultural theories and tend to rely on expert-driven manual annotations."
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ChatGPT, DeepSeek-V3, Deepseek-R1, GPT-4o, Qwen-3, Qwen2.5, Qwen3, qwen-13b, qwen-7b"
+DATA_URL: "https://github.com/HoganZinger/Culture"
 research_topic: "Social & Cultural Analysis"
 ---
 # CultureScope: A Dimensional Lens for Probing Cultural Understanding in LLMs
@@ -64,6 +66,10 @@ Most comprehensive evaluation framework for cultural understanding in LLMs. Nove
 ## Benchmark
 
 **Name:** CultureScope
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, DeepSeek-V3, Deepseek-R1, GPT-4o, Qwen-3, Qwen2.5, Qwen3, qwen-13b, qwen-7b. Verified dataset/resource link: https://github.com/HoganZinger/Culture.
 
 ## Notes
 

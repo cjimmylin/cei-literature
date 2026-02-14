@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "Hate and offensive content identification in Tamil using transformer 
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # HOTTEST: Hate and Offensive Content Identification in Tamil using Transformers and Enhanced Stemming
@@ -65,6 +66,10 @@ Hate and offensive content identification in Tamil using transformer models (BER
 ## Benchmark
 
 **Name:** HOTTEST / HASOC 2021
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

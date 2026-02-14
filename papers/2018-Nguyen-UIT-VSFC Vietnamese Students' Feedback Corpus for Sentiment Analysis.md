@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,8 +38,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: 
 research_topic: "NLP & Representation Learning"
@@ -74,6 +75,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 16,000+ human-annotated Vietnamese sentences for sentiment-based and topic-based classification. 91.20% inter-annotator agreement for sentiment task. Used in SEA-HELM as Vietnamese sentiment benchmark.
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

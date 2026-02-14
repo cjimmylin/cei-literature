@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "Large language models (LLMs) are increasingly applied in educational,
 research_topic: Other
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, Claude, Gemini, Llama-3"
+LLM_assessed: "ChatGPT, Claude, Llama-3"
 DATA_URL: NA
 ---
 # SycEval: Evaluating LLM Sycophancy

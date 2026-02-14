@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "Research in NLP for Central Asian Turkic languages - Kazakh, Uzbek, Kyrgyz, and Turkmen - faces typical low-resource language challenges like data scarcity, limited linguistic resources and technology development. However, recent advancements have included the collection of language-specific datasets and the development of models for downstream tasks. Thus, this paper aims to summarize recent progress and identify future research directions."
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, GPT-4, Llama-2, RoBERTa"
+DATA_URL: NA
 research_topic: "NLP & Representation Learning"
 ---
 # Recent Advancements and Challenges of Turkic Central Asian Language Processing
@@ -60,6 +61,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Comprehensive survey of NLP for Central Asian Turkic languages. Reviews available data, tools, and challenges. Notes data scarcity and limited linguistic resources as key barriers. Uzbek has better model variety (UzBERT, UzRoberta). Surveys entire NLP landscape for Kazakh, Uzbek, Kyrgyz, Turkmen. Identifies gaps in evaluation tools. Notes 200M+ speakers of Turkic languages face shared challenges. Relevant for understanding resource availability for values evaluation.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-4, Llama-2, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

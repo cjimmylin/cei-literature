@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, Llama-3"
+DATA_URL: NA
 tags: 
 abstract: "Language in the Arab world presents a complex diglossic and multilingual setting, involving the use of Modern Standard Arabic, various dialects and sub-dialects, as well as multiple European languages. This diverse linguistic landscape has given rise to code-switching, both within Arabic varieties and between Arabic and foreign languages. The widespread occurrence of code-switching across the region makes it vital to address these linguistic needs when developing language technologies. In this paper, we provide a review of the current literature in the field of code-switched Arabic NLP, offering a broad perspective on ongoing efforts, challenges, research gaps, and recommendations for future research directions."
 research_topic: "NLP & Representation Learning"
@@ -64,6 +65,10 @@ research_topic: "NLP & Representation Learning"
 
 
 Language in the Arab world presents a complex diglossic and multilingual setting, involving the use of Modern Standard Arabic, various dialects and sub-dialects, as well as multiple European languages. This diverse linguistic landscape has given rise to code-switching, both within Arabic varieties and between Arabic and foreign languages. The widespread occurrence of code-switching across the region makes it vital to address these linguistic needs when developing language technologies. In this paper, we provide a review of the current literature in the field of code-switched Arabic NLP, offering a broad perspective on ongoing efforts, challenges, research gaps, and recommendations for future research directions.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, Llama-3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, DeepSeek, DeepSeek-AI, DeepSeek-R1, DeepSeek-V3, GPT-4, GPT-4o, GPT-4o-mini, Gemma, Gemma2, InternLM, InternLM2, Llama, Llama-3.3, Llama3, Llama3.1, Qwen, Qwen-32B, Qwen2.5, ChatGPT"
+DATA_URL: "https://github.com/CONE-MT/BenchMAX.git"
 tags: 
 abstract: "Previous multilingual benchmarks focus primarily on simple understanding tasks, but for large language models (LLMs), we emphasize proficiency in instruction following, reasoning, long context understanding, code generation, and so on. However, measuring these advanced capabilities across languages is underexplored. To address the disparity, we introduce BenchMAX, a multi-way multilingual evaluation benchmark that allows for fair comparisons of these important abilities across languages. To maintain high quality, three distinct native-speaking annotators independently annotate each sample within all tasks after the data was machine-translated from English into 16 other languages. Additionally, we present a novel translation challenge stemming from dataset construction. Extensive experiments on BenchMAX reveal varying effectiveness of core capabilities across languages, highlighting performance gaps that cannot be bridged by simply scaling up model size. BenchMAX serves as a comprehensive multilingual evaluation platform, providing a promising test bed to promote the development of multilingual language models. The dataset1 and code2 are publicly accessible."
 research_topic: "Machine Translation"
@@ -66,6 +68,10 @@ research_topic: "Machine Translation"
 
 
 Previous multilingual benchmarks focus primarily on simple understanding tasks, but for large language models (LLMs), we emphasize proficiency in instruction following, reasoning, long context understanding, code generation, and so on. However, measuring these advanced capabilities across languages is underexplored. To address the disparity, we introduce BenchMAX, a multi-way multilingual evaluation benchmark that allows for fair comparisons of these important abilities across languages. To maintain high quality, three distinct native-speaking annotators independently annotate each sample within all tasks after the data was machine-translated from English into 16 other languages. Additionally, we present a novel translation challenge stemming from dataset construction. Extensive experiments on BenchMAX reveal varying effectiveness of core capabilities across languages, highlighting performance gaps that cannot be bridged by simply scaling up model size. BenchMAX serves as a comprehensive multilingual evaluation platform, providing a promising test bed to promote the development of multilingual language models. The dataset1 and code2 are publicly accessible.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, DeepSeek, DeepSeek-AI, DeepSeek-R1, DeepSeek-V3, GPT-4, GPT-4o, GPT-4o-mini, Gemma, Gemma2, InternLM, InternLM2, Llama, Llama-3.3, Llama3, Llama3.1, Qwen, Qwen-32B, Qwen2.5, ChatGPT. Verified dataset/resource link: https://github.com/CONE-MT/BenchMAX.git.
 
 ## Notes
 

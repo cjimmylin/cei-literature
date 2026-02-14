@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract: "First systematic study of school-specific Islamic legal reasoning foc
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: Other
 ---
 # LLMs and Islamic Fiqh: A Reliability Study
@@ -63,6 +65,11 @@ First systematic study of school-specific Islamic legal reasoning focusing on Ma
 ## Dataset Information
 
 550 questions across 3 Fiqh domains (Tahara, Fiqh Al-Nikah, Buyu)
+
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

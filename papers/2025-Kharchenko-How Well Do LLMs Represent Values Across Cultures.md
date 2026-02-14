@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, Command-R, GPT-4, GPT-4o, GPT4, GPT4o, Gemma, LLAMA 3, Llama, Llama-3, Llama 3."
+DATA_URL: NA
 tags: 
 abstract: "Large Language Models (LLMs) attempt to imitate human behavior by responding to humans in a way that pleases them, including by adhering to their values. However, humans come from diverse cultures with different values. We prompt different LLMs with advice requests based on Hofstede Cultural Dimensions, incorporating personas representing 36 countries and languages. Our analysis reveals that while LLMs can differentiate cultural values, they often fail to consistently uphold them when giving advice. We present recommendations for training culturally sensitive LLMs and introduce a framework for understanding cultural alignment issues."
 ethics_perspective: "General Ethics"
@@ -64,6 +66,10 @@ ethics_perspective: "General Ethics"
 
 
 Large Language Models (LLMs) attempt to imitate human behavior by responding to humans in a way that pleases them, including by adhering to their values. However, humans come from diverse cultures with different values. We prompt different LLMs with advice requests based on Hofstede Cultural Dimensions, incorporating personas representing 36 countries and languages. Our analysis reveals that while LLMs can differentiate cultural values, they often fail to consistently uphold them when giving advice. We present recommendations for training culturally sensitive LLMs and introduce a framework for understanding cultural alignment issues.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, Command-R, GPT-4, GPT-4o, GPT4, GPT4o, Gemma, LLAMA 3, Llama, Llama-3, Llama 3.. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

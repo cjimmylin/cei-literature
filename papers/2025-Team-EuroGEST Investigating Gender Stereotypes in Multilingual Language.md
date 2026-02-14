@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-3, Llama, Llama 3, Llama 3.1, Llama., Qwen 2.5, Qwen2.5"
+DATA_URL: NA
 tags: 
 abstract: "Large language models increasingly support multiple languages, yet most benchmarks for gender bias remain English-centric. We introduce EuroGEST, a dataset designed to measure gender-stereotypical reasoning in LLMs across English and 29 European languages. EuroGEST builds on an existing expert-informed benchmark covering 16 gender stereotypes, expanded in this work using translation tools, quality estimation metrics, and morphological heuristics."
 ethics_perspective: "Bias & Fairness"
@@ -65,6 +67,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Dataset measuring gender-stereotypical reasoning in LLMs across 30 European languages including all target Slavic languages. Covers 16 gender stereotypes. Larger models encode stereotypes more strongly; instruction finetuning does not consistently reduce them.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-3, Llama, Llama 3, Llama 3.1, Llama., Qwen 2.5, Qwen2.5. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Tibetan, one of the major low-resource languages in Asia, presents unique linguistic and sociocultural characteristics that pose both challenges and opportunities for AI research. Despite increasing interest in developing AI systems for underrepresented languages, Tibetan has received limited attention due to a lack of accessible data resources, standardized benchmarks, and dedicated tools. This paper provides a comprehensive survey of the current state of Tibetan AI in the AI domain, covering..."
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ALBERT, BLOOM72, Bart, BERT, Bloom, Claude, Claude 3, Claude 3.5, Claude 3.5 sonnet, DeepSeek-R126, DeepSeek-V327, DeepSeek-based, Deepseek-r1, Deepseek-v3, Llama, LLaMA 3.1, LLaMA-224, LLaMA23, Qwen 2.5, Qwen Family28, Qwen2, Qwen2.5, Qwen2.530, RoBERTa"
+DATA_URL: "https://github.com/Esukhia/pybo"
 research_topic: "Machine Translation"
 ---
 # Tibetan Language and AI: A Comprehensive Survey of Resources, Methods and Challenges
@@ -64,6 +66,11 @@ research_topic: "Machine Translation"
 ## Dataset Information
 
 N/A (comprehensive survey cataloging datasets, tools, and benchmarks)
+
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BLOOM72, Bart, BERT, Bloom, Claude, Claude 3, Claude 3.5, Claude 3.5 sonnet, DeepSeek-R126, DeepSeek-V327, DeepSeek-based, Deepseek-r1, Deepseek-v3, Llama, LLaMA 3.1, LLaMA-224, LLaMA23, Qwen 2.5, Qwen Family28, Qwen2, Qwen2.5, Qwen2.530, RoBERTa. Verified dataset/resource link: https://github.com/Esukhia/pybo.
 
 ## Notes
 

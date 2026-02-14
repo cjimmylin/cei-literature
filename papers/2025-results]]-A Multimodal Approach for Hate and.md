@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "Multimodal dataset comprising videos with audio and textual transcrip
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # A Multimodal Approach for Hate and Offensive Content Detection in Tamil: From Corpus Creation to Model Development
@@ -65,6 +66,10 @@ Multimodal dataset comprising videos with audio and textual transcripts annotate
 ## Benchmark
 
 **Name:** MultimodAl Tamil Hate Dataset
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

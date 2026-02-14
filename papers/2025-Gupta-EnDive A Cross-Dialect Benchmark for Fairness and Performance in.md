@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude, Claude 3.5 Sonnet, DeepSeek-v3, GPT-4o, GPT-4o mini, GPT-4o-mini, GPT-4, Llama, Llama-3"
+DATA_URL: NA
 tags: 
 abstract: "The diversity of human language, shaped by social, cultural, and regional influences, presents significant challenges for natural language processing (NLP) systems. Existing benchmarks often overlook intra-language variations, leaving speakers of non-standard dialects underserved. To address this gap, we introduce ENDIVE (English Diversity), a benchmark that evaluates five widely-used large language models (LLMs) across tasks in language understanding, algorithmic reasoning, mathematics, and logic. Our framework translates Standard American English datasets into five underrepresented dialects using few-shot prompting with verified examples from native speakers, and compare these translations against rule-based methods via fluency assessments, preference tests, and semantic similarity metrics. Human evaluations confirm high translation quality, with average scores of at least 6.02/7 for faithfulness, fluency, and formality. By filtering out near-identical translations, we create a challenging dataset that reveals significant performance disparities—models consistently underperform on dialectal inputs compared to Standard American English. ENDIVE thus advances dialect-aware NLP by uncovering model biases and promoting more equitable language technologies."
 ethics_perspective: "Bias & Fairness"
@@ -66,6 +68,10 @@ ethics_perspective: "Bias & Fairness"
 
 
 The diversity of human language, shaped by social, cultural, and regional influences, presents significant challenges for natural language processing (NLP) systems. Existing benchmarks often overlook intra-language variations, leaving speakers of non-standard dialects underserved. To address this gap, we introduce ENDIVE (English Diversity), a benchmark that evaluates five widely-used large language models (LLMs) across tasks in language understanding, algorithmic reasoning, mathematics, and logic. Our framework translates Standard American English datasets into five underrepresented dialects using few-shot prompting with verified examples from native speakers, and compare these translations against rule-based methods via fluency assessments, preference tests, and semantic similarity metrics. Human evaluations confirm high translation quality, with average scores of at least 6.02/7 for faithfulness, fluency, and formality. By filtering out near-identical translations, we create a challenging dataset that reveals significant performance disparities—models consistently underperform on dialectal inputs compared to Standard American English. ENDIVE thus advances dialect-aware NLP by uncovering model biases and promoting more equitable language technologies.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude, Claude 3.5 Sonnet, DeepSeek-v3, GPT-4o, GPT-4o mini, GPT-4o-mini, GPT-4, Llama, Llama-3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

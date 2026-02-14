@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BLOOM, ChatGPT, Claude, Claude-3, Claude-3., GPT-3, GPT-3.5-turbo, GPT-4, Llama, Llama-2, LLaMA-2-Chat, PaLM, PaLM-2, PaLM-22, PaLM2, Vicuna, Vicuna4, claude."
+DATA_URL: "https://github.com/facebookresearch/llama"
 tags: 
 abstract: "Ensuring safety is fundamental when developing and deploying large language models (LLMs). However, previous safety benchmarks only concern the safety in one language, e.g., the majority language in the pretraining data, such as English. In this work, we build the first multilingual safety benchmark for LLMs, XSAFETY, in response to the global deployment of LLMs in practice. XSAFETY covers 14 commonly used safety issues across ten languages spanning several language families."
 ethics_perspective: "AI Safety & Alignment"
@@ -70,6 +72,10 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 First multilingual safety benchmark covering 14 safety issue types in 10 languages (28K instances). Russian included. All LLMs show significantly lower safety in non-English languages. Proposes prompting method reducing unsafe ratio by 42%.
+
+## Data Description
+
+Backfill summary: Models assessed include BLOOM, ChatGPT, Claude, Claude-3, Claude-3., GPT-3, GPT-3.5-turbo, GPT-4, Llama, Llama-2, LLaMA-2-Chat, PaLM, PaLM-2, PaLM-22, PaLM2, Vicuna, Vicuna4, claude.. Verified dataset/resource link: https://github.com/facebookresearch/llama.
 
 ## Notes
 

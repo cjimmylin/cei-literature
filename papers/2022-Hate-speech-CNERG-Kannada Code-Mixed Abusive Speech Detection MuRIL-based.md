@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/hate-alert/IndicAbusive"
 tags: 
 abstract: MuRIL model fine-tuned on code-mixed Kannada abusive speech dataset for detecting abusive speech in Kannada-English code-mixed text. Kannada-specific abusive speech detection model on HuggingFace. Practical resource for Kannada hate speech evaluation.
 ethics_perspective: "Toxicity & Hate Speech"
@@ -64,6 +65,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 MuRIL model fine-tuned on code-mixed Kannada abusive speech dataset for detecting abusive speech in Kannada-English code-mixed text.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/hate-alert/IndicAbusive.
 
 ## Notes
 

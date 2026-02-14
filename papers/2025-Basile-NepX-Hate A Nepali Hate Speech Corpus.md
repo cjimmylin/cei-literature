@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "10,000 annotated tweets labeled for hate speech presence, fine-grained category (casteism, xenophobia), offensiveness, target type, and sentiment. First publicly available Nepali hate speech dataset with multi-aspect sociocultural annotations. First comprehensive Nepali hate speech dataset with sociocultural annotations including casteism and xenophobia categories."
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, GPT-4o-mini, GPT-4, RoBERTa"
+DATA_URL: NA
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # NepX-Hate: A Nepali Hate Speech Corpus with Fine-Grained Sociocultural Annotations
@@ -64,6 +66,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Benchmark
 
 **Name:** NepX-Hate
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-4o-mini, GPT-4, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

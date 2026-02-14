@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Three new annotated Slovak datasets for toxicity detection, hate speech detection, and sentiment analysis. Addresses gap in Slovak NLP resources for automated moderation."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -70,6 +71,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Three new annotated Slovak datasets for toxicity detection, hate speech detection, and sentiment analysis. Addresses gap in Slovak NLP resources for automated moderation.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ ethics_perspective: "General Ethics"
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, Claude, Llama-2, Mixtral"
-DATA_URL: NA
+DATA_URL: "https://github.com/AIRI-Institute/EAI-Framework"
 ---
 # EAI -- Emotional Decision-Making of LLMs in Strategic Games and Ethical Dilemmas
 

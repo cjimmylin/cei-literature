@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "Socio-pragmatic framework for sentiment analysis in Dravidian code-sw
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: "NLP & Representation Learning"
 ---
 # A Novel Socio-pragmatic Framework for Sentiment Analysis in Dravidian-English Code-switched Texts
@@ -64,6 +65,10 @@ Socio-pragmatic framework for sentiment analysis in Dravidian code-switched text
 ## Benchmark
 
 **Name:** MultiSwitchNet
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

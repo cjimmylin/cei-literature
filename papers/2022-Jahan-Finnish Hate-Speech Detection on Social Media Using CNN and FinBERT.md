@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: FinBERT
-DATA_URL: NA
+DATA_URL: "https://github.com/saroarjahan/FinBERT"
 tags: 
 abstract: 
 research_topic: Other

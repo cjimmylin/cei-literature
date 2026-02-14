@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, ELMo, GloVe, Llama, RoBERTa, Word2Vec"
+DATA_URL: "https://github.com/AsoSoft/AsoSoft-Library-py"
 tags: 
 abstract: "This paper enhances the study of sentiment analysis for the Central Kurdish language by integrating the Bidirectional Encoder Representations from Transformers (BERT) into Natural Language Processing techniques. Kurdish is a low-resourced language, having a high level of linguistic diversity with minimal computational resources, making sentiment analysis somewhat challenging. Earlier, this was done using a traditional word embedding model, such as Word2Vec, but with the emergence of new..."
 research_topic: "NLP & Representation Learning"
@@ -65,6 +66,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Pre-trained BERT model for Central Kurdish language with sentiment analysis benchmark evaluation. First dedicated BERT for Central Kurdish.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ELMo, GloVe, Llama, RoBERTa, Word2Vec. Verified dataset/resource link: https://github.com/AsoSoft/AsoSoft-Library-py.
 
 ## Notes
 

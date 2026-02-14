@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract: "Proposes a foundational architectural blueprint for developing AI mod
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: Other
 ---
 # A Foundational Architecture for Engineering an Afrocentric AI Training and Renewal Platform
@@ -64,6 +66,11 @@ Proposes a foundational architectural blueprint for developing AI models (especi
 ## Dataset Information
 
 N/A (architectural blueprint)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

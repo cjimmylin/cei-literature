@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,6 +66,11 @@ Ambitious pluralistic initiative to benchmark AI accuracy and respect across div
 ## Dataset Information
 
 In development (protocols and benchmarks being established)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: In development (collaborating with BYU, Notre Dame, Baylor, Yeshiva).
 
 ## Notes
 

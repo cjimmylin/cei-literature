@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract:
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BLOOM, ChatGPT, Claude, GPT-3, GPT-4, Vicuna"
 DATA_URL: "https://dpmd.ai/EvalsRepo"
 ---
 # Gaps in the Safety Evaluation of Generative AI

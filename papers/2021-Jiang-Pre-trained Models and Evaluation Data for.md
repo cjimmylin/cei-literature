@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "First monolingual pre-trained models for Burmese based on BERT and ELECTRA architectures. Foundation models for Myanmar NLP research. Foundation Burmese language models. Infrastructure for future Myanmar values/ethics evaluation tasks."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, RoBERTa"
+DATA_URL: "https://github.com/dccuchile/beto"
 research_topic: Other
 ---
 # Pre-trained Models and Evaluation Data for the Myanmar Language
@@ -65,6 +66,10 @@ First monolingual pre-trained models for Burmese based on BERT and ELECTRA archi
 ## Benchmark
 
 **Name:** Myanmar BERT/ELECTRA
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, RoBERTa. Verified dataset/resource link: https://github.com/dccuchile/beto.
 
 ## Notes
 

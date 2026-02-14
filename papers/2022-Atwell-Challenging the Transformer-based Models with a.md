@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,6 +66,11 @@ Evaluates transformer models on detecting relatedness between Quran verses and H
 ## Dataset Information
 
 310 Quran-Hadith pairs + 4,072 Quran-verse pairs (balanced related/non-related)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/ShathaTm/Quran_Hadith_Datasets.
 
 ## Notes
 

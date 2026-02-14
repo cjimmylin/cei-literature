@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Proposes layered AI ethics principles for Central Asian countries. Introduces 'Nomadic AI Principles' rooted in traditional beliefs, values, customs of the region. Covers national, regional, and sector-specific ethical frameworks. Directly addresses AI ethics for Central Asian context including Kazakhstan and Uzbekistan. Proposes culturally grounded ethical principles based on nomadic traditions. Unique non-Western framework for AI value alignment."
 ethics_perspective: "Responsible AI"
@@ -66,6 +67,10 @@ ethics_perspective: "Responsible AI"
 ## Abstract
 
 Proposes layered AI ethics principles for Central Asian countries. Introduces 'Nomadic AI Principles' rooted in traditional beliefs, values, customs of the region. Covers national, regional, and sector-specific ethical frameworks.
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

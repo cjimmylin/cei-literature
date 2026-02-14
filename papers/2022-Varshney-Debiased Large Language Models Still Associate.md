@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Recent work demonstrates a bias in the GPT-3 model towards generating violent text completions when prompted about Muslims, compared with Christians and Hindus. Two pre-registered replication attempts, one exact and one approximate, found only the weakest bias in the more recent Instruct Series version of GPT-3, fine-tuned to eliminate biased and toxic outputs. Few violent completions were observed."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "GPT-3"
+DATA_URL: "https://osf.io/u8xtv"
 ethics_perspective: "Bias & Fairness"
 ---
 # Debiased Large Language Models Still Associate Muslims with Uniquely Violent Acts
@@ -64,6 +66,11 @@ Follow-up to Abid et al. (2021) examining whether fine-tuned InstructGPT elimina
 ## Dataset Information
 
 Pre-registered replication experiments
+
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-3. Verified dataset/resource link: https://osf.io/u8xtv.
 
 ## Notes
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Alpaca, BLOOMZ, ChatGPT, Dolly, GPT-3, GPT-3.5-turbo, Llama, LLaMA 2, LLaMA 3, Llama-3.1, MISTRAL-X, Mistral 7B"
+DATA_URL: "https://github.com/huggingface/peft"
 tags: 
 abstract: "Multilingual Large Language Models (LLMs) often provide suboptimal performance on lowresource languages like Urdu. This paper introduces UrduLLaMA 1.0, a model derived from the open-source Llama-3.1-8B-Instruct architecture and continually pre-trained on 128 million Urdu tokens, capturing the rich diversity of the language. To enhance instructionfollowing and translation capabilities, we leverage Low-Rank Adaptation (LoRA) to fine tune the model on 41,000 Urdu instructions and approximately..."
 research_topic: "Machine Translation"
@@ -65,6 +67,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Demonstrates significant performance improvements in Urdu machine translation compared to SOTA models, establishing new benchmark for Urdu LLMs.
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, BLOOMZ, ChatGPT, Dolly, GPT-3, GPT-3.5-turbo, Llama, LLaMA 2, LLaMA 3, Llama-3.1, MISTRAL-X, Mistral 7B. Verified dataset/resource link: https://github.com/huggingface/peft.
 
 ## Notes
 

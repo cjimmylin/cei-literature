@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,6 +66,10 @@ HuggingFace Space for browsing and filtering Azerbaijani LLM benchmark results, 
 ## Benchmark
 
 **Name:** Azerbaijani LLM Leaderboard
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/spaces/LLM-Beetle/azerbaijani-llm-leaderboard.
 
 ## Notes
 

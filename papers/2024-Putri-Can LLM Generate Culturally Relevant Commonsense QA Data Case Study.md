@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology text corpus for question answering"
 data_metrics: "4.5k questions"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT-4 Turbo, Llama-2, Mistral-7B, MistralOrca"
+DATA_URL: "https://github.com/commonsense/conceptnet5"
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly being used to generate synthetic data for training and evaluating models. However, it is unclear whether they can generate a good quality of question answering (QA) dataset that incorporates knowledge and cultural nuance embedded in a language, especially for low-resource languages. In this study, we investigate the effectiveness of using LLMs in generating culturally relevant commonsense QA datasets for Indonesian and Sundanese languages."
 research_topic: "Question Answering"
@@ -66,6 +68,10 @@ research_topic: "Question Answering"
 ## Abstract
 
 Investigates LLM effectiveness in generating culturally relevant commonsense QA for Indonesian and Sundanese. ~4.5K questions per language (~9K total), largest dataset of its kind. GPT-4 can generate adequate general knowledge but not as culturally deep as humans.
+
+## Data Description
+
+Backfill summary: Models assessed include BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT-4 Turbo, Llama-2, Mistral-7B, MistralOrca. Verified dataset/resource link: https://github.com/commonsense/conceptnet5.
 
 ## Notes
 

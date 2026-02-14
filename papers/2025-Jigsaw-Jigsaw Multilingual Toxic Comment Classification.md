@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,8 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: "https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification"
 tags: 
 abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
@@ -61,6 +62,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Based on the search results, here's what I found about the multilingual toxicity benchmark from Jigsaw: Overview The Conversation AI team, a research initiative founded by Jigsaw and Google, builds technology to protect voices in conversation, with a main area of focus on machine learning models that can identify toxicity in online conversations, where toxicity is defined as anything rude, disrespectful or otherwise likely to make someone leave a discussion. The Multilingual Challenge T
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification.
 
 ## Notes
 

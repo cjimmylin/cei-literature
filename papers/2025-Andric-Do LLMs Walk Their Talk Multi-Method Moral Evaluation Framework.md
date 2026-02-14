@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "We investigate whether Large Language Models (LLMs) exhibit altruisti
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Gemini, Gemma, Claude, Llama-3, Mistral, Grok, Phi"
-DATA_URL: NA
+DATA_URL: "https://github.com/sandroandric/LLMs_Altruism_"
 ---
 # Do LLMs Walk Their Talk? Multi-Method Moral Evaluation Framework
 

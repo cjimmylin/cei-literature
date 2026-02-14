@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "Despite the widespread adoption of Large language models (LLMs), thei
 research_topic: "Machine Learning"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Gemini, Gemma, Claude, Llama-3, BLOOM"
+LLM_assessed: "GPT-4, GPT-3.5, Gemma, Claude, Llama-3, BLOOM"
 DATA_URL: NA
 ---
 # IrokoBench -- A Benchmark for African Languages in the Age of LLMs

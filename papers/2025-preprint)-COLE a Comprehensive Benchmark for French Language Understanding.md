@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,9 +8,9 @@ key: LSRC0437
 type: preprint
 short_title: "COLE: a Comprehensive Benchmark for French Language Understanding Evaluation"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
+first_author: "[[Khoury, Richard]]"
+last_author: "[[Youssef, Mohamed Amine]]"
+authors: "[[Khoury, Richard]]; [[Tremblay, Yan]]; [[Youssef, Mohamed Amine]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2510.05046"
 external_pdf: "https://arxiv.org/pdf/2510.05046.pdf"
@@ -33,7 +34,7 @@ is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude, Gemini, Llama, Mistral, Qwen, Bloom, CroissantLLM"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/datasets/graalul/COLE-public"
 tags: 
 abstract: "To address the need for a more comprehensive evaluation of French Natural Language Understanding (NLU), we introduce COLE, a new benchmark composed of 23 diverse task covering a broad range of NLU capabilities, including sentiment analysis, paraphrase detection, grammatical judgment, and reasoning, with a particular focus on linguistic phenomena relevant to the French language. We benchmark 95 large language models (LLM), providing an extensive analysis of the current state of French NLU."
 research_topic: "Machine Learning"
@@ -42,11 +43,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Unknown (arXiv preprint)]]
+[[Khoury, Richard]], [[Tremblay, Yan]], [[Youssef, Mohamed Amine]]
 
 ## Metadata
 
-**Authors:** Unknown (arXiv preprint) (arXiv preprint)
+**Authors:** Richard Khoury; Yan Tremblay; Mohamed Amine Youssef
 
 **Year:** 2025
 
@@ -112,4 +113,3 @@ COLE establishes a new standard for French NLU evaluation by providing comprehen
 **Relevance:** Most comprehensive French-specific LLM evaluation benchmark with 94 models tested. Relevant for understanding regional French variation and model limitations.
 
 ## Tags
-

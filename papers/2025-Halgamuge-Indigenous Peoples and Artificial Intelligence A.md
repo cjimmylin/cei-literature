@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract: "This systematic literature review examines 53 articles (2012-2023) on
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: "https://osf.io/6hrqj/download"
 research_topic: Other
 ---
 # Indigenous Peoples and Artificial Intelligence: A Systematic Review and Future Directions
@@ -64,6 +66,11 @@ This systematic literature review examines 53 articles (2012-2023) on Indigenous
 ## Dataset Information
 
 53 articles reviewed
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://osf.io/6hrqj/download.
 
 ## Notes
 

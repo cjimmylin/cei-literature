@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, BLOOM, Bloom-560m, GPT-2, GPT-3, GPT-3.5-turbo, Gpt2, Llama, LLama 2, OPT-125m"
+DATA_URL: "https://github.com/huggingface/accelerate"
 tags: 
 abstract: "Large language models (LLMs) have significantly advanced natural language processing, but their progress has yet to be equal across languages. While most LLMs are trained in high-resource languages like English, multilingual models generally underperform monolingual ones. Additionally, aspects of their multilingual foundation sometimes restrict the byproducts they produce, like computational demands and licensing regimes."
 research_topic: "Machine Learning"
@@ -66,6 +68,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Collection of Portuguese datasets for LLM evaluation with guidelines ensuring natural Portuguese text and expert annotations. All datasets have translations in Catalan, English, Galician, and Spanish.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, BLOOM, Bloom-560m, GPT-2, GPT-3, GPT-3.5-turbo, Gpt2, Llama, LLama 2, OPT-125m. Verified dataset/resource link: https://github.com/huggingface/accelerate.
 
 ## Notes
 

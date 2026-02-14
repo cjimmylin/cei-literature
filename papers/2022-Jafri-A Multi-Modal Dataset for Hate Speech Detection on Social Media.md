@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, Glove, RoBERTa, Word2Vec"
+DATA_URL: "https://github.com/therealthapa/emnlp-case2022"
 tags: 
 abstract: "Multi-modal dataset of 5,680 text-image pairs from Twitter for hate speech detection during Russia-Ukraine conflict. Analyzes directed and undirected hate speech in text-embedded images used for propaganda."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -70,6 +71,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Multi-modal dataset of 5,680 text-image pairs from Twitter for hate speech detection during Russia-Ukraine conflict. Analyzes directed and undirected hate speech in text-embedded images used for propaganda.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Glove, RoBERTa, Word2Vec. Verified dataset/resource link: https://github.com/therealthapa/emnlp-case2022.
 
 ## Notes
 

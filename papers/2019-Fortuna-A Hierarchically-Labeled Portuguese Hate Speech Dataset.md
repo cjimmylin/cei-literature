@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: "https://github.com/ZeerakW/hatespeech"
 tags: 
 abstract: "5,668 Portuguese tweets annotated with hierarchical hate speech scheme containing 81 categories. Expert-annotated with fine-grained intersection of hate speech types."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -66,6 +67,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 5,668 Portuguese tweets annotated with hierarchical hate speech scheme containing 81 categories. Expert-annotated with fine-grained intersection of hate speech types.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/ZeerakW/hatespeech.
 
 ## Notes
 

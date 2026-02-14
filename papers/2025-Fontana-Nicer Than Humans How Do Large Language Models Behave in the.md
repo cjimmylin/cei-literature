@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-2, Llama-3, GPT-3.5"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/inference-api/serverless"
 ---
 # Nicer Than Humans: How Do Large Language Models Behave in the Prisoner's Dilemma?
 

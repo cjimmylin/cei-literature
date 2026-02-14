@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "Assessing Large Language Models (LLMs)’ underlying value difference
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "12,310 questions"
-LLM_assessed: "GPT-4, GPT-3.5, o3, Claude, Gemini, Llama-3, Mistral, Qwen, DeepSeek"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Mistral, Qwen, DeepSeek"
 DATA_URL: NA
 ---
 # AdAEM: Adaptively and Automated Extensible Measurement for Value Alignment

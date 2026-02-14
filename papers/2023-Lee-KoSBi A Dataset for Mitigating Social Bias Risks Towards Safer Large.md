@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "15 categories"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, GPT-3"
+DATA_URL: "https://github.com/Beomi/KcELECTRA"
 tags: 
 abstract: "Large language models (LLMs) learn not only natural text generation abilities but also social biases against different demographic groups from real-world data. This poses a critical risk when deploying LLM-based applications. Existing research and resources are not readily applicable in South Korea due to the differences in language and culture, both of which significantly affect the biases and targeted demographic groups."
 ethics_perspective: "Bias & Fairness"
@@ -69,6 +71,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 34K pairs of contexts and sentences covering 72 demographic groups in 15 categories for Korean social bias. Built through human-LLM collaboration with HyperCLOVA. Labels as safe/unsafe with cognitive, emotional, and behavioral bias annotations.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-3. Verified dataset/resource link: https://github.com/Beomi/KcELECTRA.
 
 ## Notes
 

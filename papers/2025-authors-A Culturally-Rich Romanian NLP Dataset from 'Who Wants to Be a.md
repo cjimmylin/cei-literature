@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,7 +32,7 @@ is_eval: No
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "ALBERT, BERT, GPT-4, Gemini, Gemma, Gemma-2, Gemma2, Llama, LLaMA 3.3, LLaMA3, LLaMA3., Llama-3, Llama-3.1, Llama-3.3, Mistral 7b, Mistral-7B, PaLM, Phi-4, Phi-4 56, Qwen, Qwen2.5, RoBERTa, gemini-1.5-flash"
 DATA_URL: "https://huggingface.co/datasets"
 tags: 
 abstract: "Large Language Models (LLMs) demonstrate varying performance across languages and cultural contexts. This study introduces a novel, culturally-rich, multilingual dataset derived from video recordings of the Romanian game show 'Who Wants to Be a Millionaire?' (Vrei să fii Milionar?). We employed an innovative process combining optical character recognition (OCR), automated text extraction, and manual verification to collect question-answer pairs, enriching them with metadata including question..."

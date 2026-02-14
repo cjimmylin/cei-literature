@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/LDNOOBW/List-of-Dirty-Naughty-"
 tags: 
 abstract: "Toxic comments in online platforms are an unavoidable social issue under the cloak of anonymity. Hate speech detection has been actively done for languages such as English, German, or Italian, where manually labeled corpus has been released. In this work, we ﬁrst present 9.4K manually labeled entertainment news comments for identifying Korean toxic speech, collected from a widely used online news platform in Korea."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -69,6 +70,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 9.4K manually labeled Korean entertainment news comments for toxic speech detection. Annotated for social bias and hate speech. Includes 2M unlabeled comments. Benchmarked with CharCNN, BiLSTM, and BERT.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/LDNOOBW/List-of-Dirty-Naughty-.
 
 ## Notes
 

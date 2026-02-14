@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark annotated dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude-3, Claude-3-Opus, GPT-4, GPT-4-Turbo, GPT-4o, InternLM-XC2, InternLM-XComposer2, Llama-3.2, gpt-4o-mini"
+DATA_URL: NA
 tags: 
 abstract: "To create culturally inclusive vision-language models (VLMs), developing a benchmark that tests their ability to address culturally relevant questions is essential. Existing approaches typically rely on human annotators, making the process labor-intensive and creating a cognitive burden in generating diverse questions. To address this, we propose a semi-automated framework for constructing cultural VLM benchmarks, specifically targeting multiple-choice QA."
 research_topic: "Machine Learning"
@@ -69,6 +71,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Multi-choice VQA benchmark for evaluating VLMs on Korean culture. Two evaluation types: visual recognition and visual reasoning. Built through human-VLM collaboration. Open-source models lag behind proprietary ones in Korean cultural understanding.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude-3, Claude-3-Opus, GPT-4, GPT-4-Turbo, GPT-4o, InternLM-XC2, InternLM-XComposer2, Llama-3.2, gpt-4o-mini. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

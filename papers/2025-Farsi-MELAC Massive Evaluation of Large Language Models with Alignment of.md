@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, ChatGPT, GPT-4, Gemma, GPT-4o, Llama, Llama 3.2, Llama-3, Llama-3.1, Llama-3.2, Llama3, Qwen, Qwen2, Qwen2.5, Qwen3, gemma-3, llama 3"
+DATA_URL: NA
 tags: 
 abstract: "As large language models (LLMs) become increasingly embedded in our daily lives, evaluating their quality and reliability across diverse contexts has become essential. While comprehensive benchmarks exist for assessing LLM performance in English, there remains a significant gap in evaluation resources for other languages. Moreover, because most LLMs are trained primarily on data rooted in European and American cultures, they often lack familiarity with non-Western cultural contexts."
 ethics_perspective: "Social & Cultural Values"
@@ -64,6 +66,10 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Introduces 19 new evaluation datasets designed to assess LLMs on Iranian law, Persian grammar, Persian idioms, university entrance exams. Benchmarked 41 prominent LLMs; only one model achieved over 50% accuracy, indicating limited cultural understanding.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT, GPT-4, Gemma, GPT-4o, Llama, Llama 3.2, Llama-3, Llama-3.1, Llama-3.2, Llama3, Qwen, Qwen2, Qwen2.5, Qwen3, gemma-3, llama 3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

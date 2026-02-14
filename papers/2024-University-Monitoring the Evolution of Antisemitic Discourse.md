@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract: "Racism and intolerance on social media contribute to a toxic online e
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Monitoring the Evolution of Antisemitic Discourse on Extremist Social Media Using BERT
@@ -64,6 +66,11 @@ Develops custom BERT-based classifiers to identify antisemitic discourse with hi
 ## Dataset Information
 
 150,000+ posts (August 2024 - January 2025)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Bartolo, Bartolo59, GPT-4, Gemma, Llama, Llama 2, LlamaGuard, Palm 2, palm"
 DATA_URL: "https://github.com/mlcommons/modelbench"
 ---
 # The AI Safety Benchmark

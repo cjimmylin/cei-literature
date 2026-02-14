@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Existing AI bias evaluation benchmarks largely reflect Western perspectives, leaving African contexts underrepresented and enabling harmful stereotypes in applications across various domains. To address this gap, we introduce AfriStereo, the first open-source African stereotype dataset and evaluation framework grounded in local socio-cultural contexts. Through community engaged efforts across Senegal, Kenya, and Nigeria, we collected 1,163 stereotypes spanning gender, ethnicity, religion, age,..."
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, Claude, Flan-T5, Flan-T5-Large, GPT-2, Gemma, Gemma 2, Llama, Llama 3.2, Mistral, Mistral 7B, Phi-3, Phi-3 Mini, Qwen, Qwen 2.5, Qwen2.5, T5, T5-Large"
 DATA_URL: "Open-source (CC BY 4.0)"
 ethics_perspective: "Bias & Fairness"
 ---
@@ -66,6 +68,11 @@ The first open-source African stereotype dataset grounded in local socio-cultura
 ## Dataset Information
 
 5,000+ stereotype-antistereotype pairs (augmented from 1,163 community-collected stereotypes)
+
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Claude, Flan-T5, Flan-T5-Large, GPT-2, Gemma, Gemma 2, Llama, Llama 3.2, Mistral, Mistral 7B, Phi-3, Phi-3 Mini, Qwen, Qwen 2.5, Qwen2.5, T5, T5-Large. Verified dataset/resource link: Open-source (CC BY 4.0).
 
 ## Notes
 

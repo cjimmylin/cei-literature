@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "word2Vec"
+DATA_URL: "https://github.com/vncorenlp/VnCoreNLP"
 tags: 
 abstract: "Emotion recognition or emotion prediction is a higher approach or a special case of sentiment analysis. In this task, the result is not produced in terms of either polarity: positive or negative or in the form of rating (from 1 to 5) but of a more detailed level of analysis in which the results are depicted in more expressions like sadness, enjoyment, anger, disgust, fear and surprise. Emotion recognition plays a critical role in measuring brand value of a product by recognizing specific..."
 ethics_perspective: "General Ethics"
@@ -65,6 +66,10 @@ ethics_perspective: "General Ethics"
 ## Abstract
 
 Vietnamese Social Media Emotion Corpus with 6,927 annotated sentences across 7 emotion labels (enjoyment, sadness, anger, surprise, fear, disgust, other). 82%+ inter-annotator agreement. Benchmark for Vietnamese emotion recognition.
+
+## Data Description
+
+Backfill summary: Models assessed include word2Vec. Verified dataset/resource link: https://github.com/vncorenlp/VnCoreNLP.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,7 +32,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "1250 prompts; 19 categories"
-LLM_assessed: NA
+LLM_assessed: "Ernie"
 DATA_URL: "https://github.com/ai-forever/RusCode"
 pdf_extract: "PDF Extracts/2025/2025-Vasilev-RusCode.md"
 local_pdf: [[PDFs/2025/2025-Vasilev-RusCode.pdf]]

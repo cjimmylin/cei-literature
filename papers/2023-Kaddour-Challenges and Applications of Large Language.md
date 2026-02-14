@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "BART, BERT, BLOOM, BLOOM perform, Bartolo, Bloomberg, BloombergGPT, ChatGPT, Claude, Codex, GPT-2, GPT-3, GPT-3.5, GPT-4, InstructGPT, Llama, LaMDA, PaLM, PaLM 2, T5, T5 LLM, WizardLM, phi-1, phi-1 using"
+DATA_URL: "https://github.com/NVIDIA/FasterTransformer"
 ---
 # Challenges and Applications of Large Language Models
 

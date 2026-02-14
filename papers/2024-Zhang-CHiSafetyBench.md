@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for ai safety text corpus"
 data_metrics: "31 categories"
-LLM_assessed: NA
+LLM_assessed: "Baichuan, Baichuan2, ChatGLM, ChatGLM series, ChatGLM3, Qwen, Qwen and, Qwen se, Qwen series, Qwen-110B, Qwen-72B, Qwen1.5, Yi-34B, Yi-6B"
 DATA_URL: "https://github.com/UnicomAI/UnicomBenchmark/tree/main/CHiSafetyBench"
 publication: arXiv
 DATE_ADDED: 20260207

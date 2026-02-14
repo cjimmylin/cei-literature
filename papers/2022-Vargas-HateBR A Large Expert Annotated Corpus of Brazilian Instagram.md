@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Glove"
+DATA_URL: NA
 tags: 
 abstract: "Due to the severity of the social media offensive and hateful comments in Brazil, and the lack of research in Portuguese, this paper provides the ﬁrst large-scale expert annotated corpus of Brazilian Instagram comments for hate speech and offensive language detection. The HateBR corpus was collected from the comment section of Brazilian politicians’ accounts on Instagram and manually annotated by specialists, reaching a high inter-annotator agreement."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -66,6 +67,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Large-scale expert-annotated corpus of 7,000 Brazilian Instagram comments from politicians' accounts, annotated across three layers: binary classification, offensiveness level, and hate speech targets.
+
+## Data Description
+
+Backfill summary: Models assessed include Glove. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

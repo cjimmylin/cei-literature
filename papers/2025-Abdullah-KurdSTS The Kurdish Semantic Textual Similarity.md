@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: NA
 tags: 
 abstract: "Semantic Textual Similarity measures the degree of equivalence between the two texts and is important in many Natural Language Processing tasks. While extensive resources have been developed for high-resource languages, unfortunately, low-resource languages, for example, Kurdish, have been neglected. In this paper, the first STS dataset for Kurdish has been introduced, which aims to alleviate this gap. This dataset contains 10,000 formal and informal sentence pairs annotated for similarity."
 research_topic: "NLP & Representation Learning"
@@ -65,6 +66,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Kurdish Semantic Textual Similarity benchmark dataset with meticulous data collection, annotation, and quality checking.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

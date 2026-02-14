@@ -1,4 +1,6 @@
 ---
+
+
 Human View: false
 Not AI: 
 key: AUTO_SNOSWELL2025
@@ -30,7 +32,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Survey of 69 LLM ethics evaluation papers"
 data_metrics: N/A
-LLM_assessed: NA
+LLM_assessed: "ChatGPT, DeepSeek, GPT-4"
 DATA_URL: NA
 ---
 # Beyond Verdicts: Evaluating Language Model Moral Competence

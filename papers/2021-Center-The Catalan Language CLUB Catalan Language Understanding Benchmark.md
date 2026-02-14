@@ -7,9 +7,9 @@ key: LSRC0520
 type: preprint
 short_title: "The Catalan Language CLUB (Catalan Language Understanding Benchmark)"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
+first_author: "[[Rodriguez-Penagos, Carlos]]"
+last_author: "[[Armentano, Carme]]"
+authors: "[[Rodriguez-Penagos, Carlos]]; [[Carrino, Casimiro]]; [[Armentano, Carme]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2112.01894"
 external_pdf: "https://arxiv.org/pdf/2112.01894.pdf"
@@ -42,11 +42,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Carlos Rodriguez-Penagos et al. (Barcelona Supercomputing Center)]]
+[[Rodriguez-Penagos, Carlos]], [[Carrino, Casimiro]], [[Armentano, Carme]]
 
 ## Metadata
 
-**Authors:** Carlos Rodriguez-Penagos et al. (Barcelona Supercomputing Center)
+**Authors:** Carlos Rodriguez-Penagos; Casimiro Carrino; Carme Armentano
 
 **Year:** 2021
 
@@ -115,4 +115,3 @@ CLUB establishes a foundational evaluation infrastructure for Catalan NLP that e
 **Relevance:** Foundational Catalan NLU benchmark. Establishes evaluation infrastructure for Catalan that supports subsequent bias and cultural studies.
 
 ## Tags
-

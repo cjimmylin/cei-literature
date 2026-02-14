@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: "https://github.com/strohne/Facepager"
 tags: 
 abstract: "First publicly available aspect-based sentiment analysis dataset for Sorani Kurdish with 4,000+ quadruplet ABSA entries in restaurant review domain. Perso-Arabic script."
 research_topic: "NLP & Representation Learning"
@@ -66,6 +67,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 First publicly available aspect-based sentiment analysis dataset for Sorani Kurdish with 4,000+ quadruplet ABSA entries in restaurant review domain. Perso-Arabic script.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/strohne/Facepager.
 
 ## Notes
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,6 +67,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Dataset Information
 
 1.5 million parallel Sanskrit-Hindi sentence pairs
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: Public domain release.
 
 ## Notes
 

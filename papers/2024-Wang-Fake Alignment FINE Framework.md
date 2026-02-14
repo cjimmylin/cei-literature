@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract:
 ethics_perspective: "AI Safety & Alignment"
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Alpaca, GPT-4, Llama, Llama-2"
 DATA_URL: NA
 ---
 # Fake Alignment (FINE Framework)

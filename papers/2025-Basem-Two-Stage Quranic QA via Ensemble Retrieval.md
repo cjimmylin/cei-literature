@@ -1,4 +1,7 @@
 ---
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +36,8 @@ tags:
 abstract: "Quranic Question Answering presents unique challenges due to the linguistic complexity of Classical Arabic and the semantic richness of religious texts. In this paper, we propose a novel two-stage framework that addresses both passage retrieval and answer extraction. For passage retrieval, we ensemble finetuned Arabic language models to achieve superior ranking performance. For answer extraction, we employ instruction-tuned large language models with few-shot prompting to overcome the..."
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, DeepSeek, ELECTRA"
+DATA_URL: NA
 research_topic: "Question Answering"
 ---
 # Two-Stage Quranic QA via Ensemble Retrieval and Instruction-Tuned Answer Extraction
@@ -64,6 +67,11 @@ Achieves state-of-the-art on Qur'an QA 2023 Shared Task with MAP@10 of 0.3128 an
 ## Dataset Information
 
 Qur'an QA 2023 Shared Task dataset
+
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, DeepSeek, ELECTRA. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Although LLMs have been extremely effective in a large number of complex tasks, their understanding and functionality for regional languages and cultures are not well studied. In this paper, we explore the ability of various LLMs to comprehend the cultural aspects of two regional languages: Malayalam (state of Kerala, India) and Yoruba (West Africa). Using Hofstede’s six cultural dimensions: Power Distance (PDI), Individualism (IDV), Motivation towards Achievement and Success (MAS), Uncertainty..."
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "GPT-4o, GPT-4o mini, GPT-4o-mini, Gemma"
+DATA_URL: NA
 research_topic: "Social & Cultural Analysis"
 ---
 # Evaluating Cultural Awareness of LLMs for Yoruba, Malayalam, and English
@@ -60,6 +62,10 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Uses Hofstede's six cultural dimensions (PDI, IDV, MAS, UAV, LTO, IVR) to evaluate LLM cultural awareness for Malayalam and Yoruba. Although LLMs show high cultural similarity for English, they fail to capture cultural nuances for Malayalam and Yoruba. Directly evaluates cultural values alignment for Malayalam using Hofstede's framework. Demonstrates LLMs fail to capture Kerala/Malayalam cultural nuances across 7 domains (arts, education, wellness, lifestyle, work, science, family).
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4o, GPT-4o mini, GPT-4o-mini, Gemma. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

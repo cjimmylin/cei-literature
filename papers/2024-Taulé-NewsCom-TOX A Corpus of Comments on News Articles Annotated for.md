@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "4,359 comments in European Spanish from online newspapers annotated for toxicity, stance, target, stereotype, sarcasm, mockery, insult, improper language, aggressiveness, and intolerance. Multi-level annotation considering discourse context."
 research_topic: Other
@@ -70,6 +71,10 @@ research_topic: Other
 ## Abstract
 
 4,359 comments in European Spanish from online newspapers annotated for toxicity, stance, target, stereotype, sarcasm, mockery, insult, improper language, aggressiveness, and intolerance. Multi-level annotation considering discourse context.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

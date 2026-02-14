@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, ELECTRA, RoBERTa"
+DATA_URL: "https://github.com/binhvq/news-corpus"
 tags: 
 abstract: "Text classification is a typical natural language processing or computational linguistics task with various interesting applications. As the number of users on social media platforms increases, data acceleration promotes emerging studies on Social Media Text Classification (SMTC) or social media text mining on these valuable resources. In contrast to English, Vietnamese, one of the low-resource languages, is still not concentrated on and exploited thoroughly."
 research_topic: "Machine Learning"
@@ -65,6 +66,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Social Media Text Classification Evaluation benchmark for Vietnamese inspired by GLUE. Includes four tasks: constructive speech detection, complaint comment detection, emotion recognition, and hate speech detection. Monolingual PhoBERT outperforms multilingual models.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ELECTRA, RoBERTa. Verified dataset/resource link: https://github.com/binhvq/news-corpus.
 
 ## Notes
 

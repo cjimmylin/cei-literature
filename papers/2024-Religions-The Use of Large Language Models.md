@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: 
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT3"
+DATA_URL: NA
 research_topic: Other
 ---
 # The Use of Large Language Models for Translating Buddhist Texts from Classical Chinese to Modern English: An Analysis and Evaluation with ChatGPT 4, ERNIE Bot 4, and Gemini Advanced
@@ -64,6 +66,11 @@ research_topic: Other
 ## Dataset Information
 
 Excerpts from 3 Buddhist texts (1 Indian-Chinese origin, 2 Chinese-origin by Buddhist monks)
+
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

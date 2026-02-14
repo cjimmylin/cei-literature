@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Large language models (LLMs) have been observed to exhibit bias towards certain cultures due to the predominance of training data obtained from English corpora. Considering that multilingual cultural data is often expensive to procure, existing methodologies address this challenge through prompt engineering or culture-specific pre-training. However, these strategies may neglect the knowledge deficiency of low-resource cultures and necessitate substantial computing resources."
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Llama, Llama 0.4852, Llama-2, Llama-2., Llama2"
 DATA_URL: "https://github.com/Scarelette/CultureLLM"
 ethics_perspective: "Social & Cultural Values"
 ---
@@ -65,6 +67,10 @@ Creates culture-specific LLMs including CultureLLM-Tr for Turkish culture. Uses 
 ## Benchmark
 
 **Name:** CultureLLM
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Llama, Llama 0.4852, Llama-2, Llama-2., Llama2. Verified dataset/resource link: https://github.com/Scarelette/CultureLLM.
 
 ## Notes
 

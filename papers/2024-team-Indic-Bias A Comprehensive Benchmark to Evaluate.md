@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,6 +66,10 @@ Comprehensive benchmark by AI4Bharat to evaluate LLM fairness in Indian contexts
 ## Benchmark
 
 **Name:** Indic-Bias
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/AI4Bharat/indic-bias.
 
 ## Notes
 

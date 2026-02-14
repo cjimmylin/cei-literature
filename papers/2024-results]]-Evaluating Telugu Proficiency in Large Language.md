@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Comparative analysis of ChatGPT and Gemini on Telugu language proficiency across various NLP tasks. Telugu-specific LLM evaluation comparing major models. Assesses Telugu language capabilities of commercial LLMs."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ChatGPT"
+DATA_URL: NA
 research_topic: Other
 ---
 # Evaluating Telugu Proficiency in Large Language Models: A Comparative Analysis of ChatGPT and Gemini
@@ -60,6 +62,10 @@ research_topic: Other
 ## Abstract
 
 Comparative analysis of ChatGPT and Gemini on Telugu language proficiency across various NLP tasks. Telugu-specific LLM evaluation comparing major models. Assesses Telugu language capabilities of commercial LLMs.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

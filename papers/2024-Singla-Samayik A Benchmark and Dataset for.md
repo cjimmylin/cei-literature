@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "We release Sāmayik, a dataset of around 53,000 parallel English-Sanskrit sentences, written in contemporary prose. Sanskrit is a classical language still in sustenance and has a rich documented heritage. However, due to the limited availability of digitized content, it still remains a low-resource language. Existing Sanskrit corpora, whether monolingual or bilingual, have predominantly focused on poetry and offer limited coverage of contemporary written materials."
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BART"
 DATA_URL: "https://github.com/ayushbits/saamayik"
 research_topic: "Machine Learning"
 ---
@@ -65,6 +67,11 @@ research_topic: "Machine Learning"
 ## Dataset Information
 
 ~53,000 parallel English-Sanskrit sentences (contemporary prose)
+
+
+## Data Description
+
+Backfill summary: Models assessed include BART. Verified dataset/resource link: https://github.com/ayushbits/saamayik.
 
 ## Notes
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract: "> Comparative NLP analysis of three major religious texts including t
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: "NLP & Representation Learning"
 ---
 # Comparative Analysis of Religious Texts: NLP Approaches to the Bible, Quran, and Bhagavad Gita
@@ -63,6 +65,11 @@ research_topic: "NLP & Representation Learning"
 ## Dataset Information
 
 Full texts of Bible, Quran, and Bhagavad Gita
+
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

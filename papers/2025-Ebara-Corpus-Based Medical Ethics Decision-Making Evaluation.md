@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract:
 ethics_perspective: "Applied Ethics"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Gemini"
+LLM_assessed: "GPT-4"
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
 ---

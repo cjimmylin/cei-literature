@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, Baichuan, Bartlett, Bloomberg, Claude, Claude 3, DeepSeek-AI, GPT-2, GPT-3, GPT-4, Gemini, Llama, Llama 3, Llama Guard, Mistral AI, Qwen, Qwen2, grok"
 DATA_URL: "https://github.com/tjunlp-lab/Awesome-LLM-Safety-Papers"
 ---
 # Large Language Model Safety: A Holistic Survey

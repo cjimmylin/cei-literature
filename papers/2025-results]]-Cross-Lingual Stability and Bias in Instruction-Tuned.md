@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Humanitarian organizations face a critical choice: invest in costly commercial APIs or rely on free open-weight models for multilingual human rights monitoring. While commercial systems offer reliability, open-weight alternatives lack empirical validation—especially for low-resource languages common in conflict zones. This paper presents the first systematic comparison of commercial and open-weight large language models (LLMs) for human-rights-violation detection across seven languages,..."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ALBERT, Claude, Claude Sonnet, Claude-Sonnet, DeepSeek, DeepSeek-V3, GPT-4, Llama, Llama-3, Mistral- 7B, Mistral-7B"
+DATA_URL: NA
 ethics_perspective: "AI Safety & Alignment"
 ---
 # Cross-Lingual Stability and Bias in Instruction-Tuned Language Models for Humanitarian NLP
@@ -64,6 +66,10 @@ First systematic comparison of commercial and open-weight LLMs for human-rights-
 ## Benchmark
 
 **Name:** Humanitarian NLP Cross-Lingual Bias Benchmark
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, Claude, Claude Sonnet, Claude-Sonnet, DeepSeek, DeepSeek-V3, GPT-4, Llama, Llama-3, Mistral- 7B, Mistral-7B. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

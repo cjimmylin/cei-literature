@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract:
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "ChatGPT, Claude, GPT-4, GPT-4o, Llama, Llama Guard, PaLM, T5"
 DATA_URL: NA
 ---
 # "Do Your Guardrails Even Guard?" Evaluating Moderation Guardrails for LLM Alignment

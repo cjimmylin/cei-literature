@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "GloVe"
 DATA_URL: "https://github.com/helen-jiahe-zhao/BibleQA"
 ---
 # Finding Answers from the Word of God: Domain Adaptation for Neural Networks in Biblical Question Answering

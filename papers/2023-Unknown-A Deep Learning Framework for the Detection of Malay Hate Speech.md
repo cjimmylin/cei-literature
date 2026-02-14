@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, GloVe, RoBERTa, Word2Vec, XLNet"
+DATA_URL: "https://github.com/MaityKrishanu/Hate_Malay"
 tags: 
 abstract: "First benchmark dataset for detecting hate speech in Malay with 4,892 annotated tweets. Proposes XLCaps two-channel deep learning model combining XLNet/capsule network with FastText/Bi-GRU for noisy Malay language posts."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -71,6 +72,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 First benchmark dataset for detecting hate speech in Malay with 4,892 annotated tweets. Proposes XLCaps two-channel deep learning model combining XLNet/capsule network with FastText/Bi-GRU for noisy Malay language posts.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GloVe, RoBERTa, Word2Vec, XLNet. Verified dataset/resource link: https://github.com/MaityKrishanu/Hate_Malay.
 
 ## Notes
 

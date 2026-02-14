@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,6 +67,11 @@ Comprehensive morphological and syntactic annotation of the entire Quran using v
 ## Dataset Information
 
 131K+ morphological entries, 123K+ syntactic function instances, 72 syntactic roles
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://data.mendeley.com/datasets/9yvrzxktmr.
 
 ## Notes
 

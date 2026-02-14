@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "The training data for LLMs embeds societal values, increasing their familiarity with the language’s culture. Our analysis found that 44% of the variance in the ability of GPT-4o to reflect the societal values of a country, as measured by the World Values Survey, correlates with the availability of digital resources in that language. Notably, the error rate was more than five times higher for the languages of the lowest resource compared to the languages of the highest resource."
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-4, GPT-4 Turbo, GPT-4-turbo, GPT-4o, PaLM"
+DATA_URL: NA
 ethics_perspective: "Social & Cultural Values"
 ---
 # Cultural Fidelity in Large-Language Models: An Evaluation of Online Language Resources as a Driver of Model Performance in Value Representation
@@ -60,6 +61,10 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Finds 44% of variance in GPT-4o's ability to reflect societal values (measured by World Values Survey) correlates with digital resource availability. Error rate 5x higher for lowest-resource vs highest-resource languages. Demonstrates how digital resource scarcity in African languages directly impacts LLM cultural value representation. Relevant to understanding why African language values are poorly represented in LLMs.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-3, GPT-3.5, GPT-4, GPT-4 Turbo, GPT-4-turbo, GPT-4o, PaLM. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

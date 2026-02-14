@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: NA
 tags: 
 abstract: "First Bangla Language Understanding Benchmark (BLUB) with four NLU tasks (text classification, sequence labeling, span prediction). Introduces BanglaBERT pretrained model. Establishes baseline for Bangla NLU evaluation."
 research_topic: "NLP & Representation Learning"
@@ -67,6 +68,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 First Bangla Language Understanding Benchmark (BLUB) with four NLU tasks (text classification, sequence labeling, span prediction). Introduces BanglaBERT pretrained model. Establishes baseline for Bangla NLU evaluation.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Validated methodology to quantify gender bias in Spanish LLM-generated text. Creates gendered seed-word lists and a Spanish-specific corpus using curated prompts. Finds male:female gender disparity ranging 4:1 to 6:1 in benchmark datasets."
 ethics_perspective: "Bias & Fairness"
@@ -65,6 +66,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Validated methodology to quantify gender bias in Spanish LLM-generated text. Creates gendered seed-word lists and a Spanish-specific corpus using curated prompts. Finds male:female gender disparity ranging 4:1 to 6:1 in benchmark datasets.
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

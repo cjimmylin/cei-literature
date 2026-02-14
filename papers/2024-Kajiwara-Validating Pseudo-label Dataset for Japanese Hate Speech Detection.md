@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,8 +31,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "In this letter an approach for fitting saturation characteristic and hysteresis using arctangent functions is presented. It has direct application to modeling transformers and electric machines. The approach is based on measurements of the magnetizing curve of the ferromagnetic material. The analytical form of the characteristic can be completely described by only three parameters. These three parameters are enough to take into account: the slope of the linear region, the position of the knee, and the saturating slope. The appropriate selection of these parameters allows the fitting of a wide class of magnetizing characteristics in simulation programs."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -62,6 +63,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 
 In this letter an approach for fitting saturation characteristic and hysteresis using arctangent functions is presented. It has direct application to modeling transformers and electric machines. The approach is based on measurements of the magnetizing curve of the ferromagnetic material. The analytical form of the characteristic can be completely described by only three parameters. These three parameters are enough to take into account: the slope of the linear region, the position of the knee, and the saturating slope. The appropriate selection of these parameters allows the fitting of a wide class of magnetizing characteristics in simulation programs.
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

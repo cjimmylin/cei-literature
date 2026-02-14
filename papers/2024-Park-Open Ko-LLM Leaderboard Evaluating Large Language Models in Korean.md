@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4"
+DATA_URL: NA
 tags: 
 abstract: "This paper introduces the Open Ko-LLM Leaderboard1 and the Ko-H5 Benchmark as vital tools for evaluating Large Language Models (LLMs) in Korean. Incorporating private test sets while mirroring the English Open LLM Leaderboard, we establish a robust evaluation framework that has been well integrated in the Korean LLM community. We perform data leakage analysis that shows the benefit of private test sets along with a correlation study within the Ko-H5 benchmark and temporal analyses of the Ko-H5..."
 research_topic: "Machine Learning"
@@ -69,6 +70,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Comprehensive Korean LLM evaluation ecosystem with Ko-H5 benchmark. Includes Ko-MMLU, Ko-HellaSwag, Ko-ARC, Ko-TruthfulQA, Ko-CommonSenseQA. Built from native Korean corpora for cultural and contextual evaluation.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Proposes a fine-grained labeling scheme for religious hate speech detection covering the three main monotheistic religions. Creates a bilingual Twitter dataset (English and Italian) annotated with the proposed scheme. Experiments with classifiers from traditional ML to transformers on two tasks: abusive language detection and religious hate speech detection. Addresses the gap of scattered efforts in religious hate data and methods."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://github.com/dhfbk/religious-hate-speech"
 research_topic: Other
 ---
 # Addressing Religious Hate Online: From Taxonomy Creation to Automated Detection
@@ -64,6 +66,11 @@ Proposes a fine-grained labeling scheme for religious hate speech detection cove
 ## Dataset Information
 
 Bilingual Twitter dataset (English + Italian)
+
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa. Verified dataset/resource link: https://github.com/dhfbk/religious-hate-speech.
 
 ## Notes
 

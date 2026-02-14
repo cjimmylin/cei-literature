@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Despite dramatic recent progress in NLP, it is still a major challenge to apply Large Language Models (LLM) to low-resource languages. This is made visible in benchmarks such as Cross-Lingual Natural Language Inference (XNLI), a key task that demonstrates cross-lingual capabilities of NLP systems across a set of 15 languages. In this paper, we extend the XNLI task for one additional low-resource language, Myanmar, as a proxy challenge for broader low-resource languages, and make three core..."
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "15 languages"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, DeBERTa, DeBERTaV3, ELECTRA, GPT-3, RoBERTa"
+DATA_URL: "https://github.com/cdpierse/transformers-interpret"
 ethics_perspective: "General Ethics"
 ---
 # Myanmar XNLI: Building a Dataset and Exploring Low-resource Approaches to Natural Language Inference with Myanmar
@@ -65,6 +67,10 @@ Extends XNLI for Myanmar language using community crowd-sourced methods. Two-sta
 ## Benchmark
 
 **Name:** myXNLI (Myanmar XNLI)
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, DeBERTa, DeBERTaV3, ELECTRA, GPT-3, RoBERTa. Verified dataset/resource link: https://github.com/cdpierse/transformers-interpret.
 
 ## Notes
 

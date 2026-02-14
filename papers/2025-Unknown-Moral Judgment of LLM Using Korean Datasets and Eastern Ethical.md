@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Analyzes LLM moral biases using Korean datasets and Eastern ethical principles. Examines how moral judgment varies in low-resource vs high-resource language environments. Compares Eastern and Western ethical policies on LLM moral output."
 ethics_perspective: "Moral Reasoning & Psychology"
@@ -64,6 +65,10 @@ ethics_perspective: "Moral Reasoning & Psychology"
 ## Abstract
 
 Analyzes LLM moral biases using Korean datasets and Eastern ethical principles. Examines how moral judgment varies in low-resource vs high-resource language environments. Compares Eastern and Western ethical policies on LLM moral output.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

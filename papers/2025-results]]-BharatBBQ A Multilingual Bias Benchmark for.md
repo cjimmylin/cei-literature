@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "Evaluating social biases in language models (LMs) is crucial for ensuring fairness and minimizing the reinforcement of harmful stereotypes in AI systems. Existing benchmarks, such as the Bias Benchmark for Question Answering (BBQ), primarily focus on Western contexts, limiting their applicability to the Indian context. To address this gap, we introduce BharatBBQ 1, a culturally adapted benchmark designed to assess biases in Hindi, English, Marathi, Bengali, Tamil, Telugu, Odia, and Assamese."
 data_description: "Multilingual benchmark for bias and fairness dataset for question answering"
 data_metrics: "49,108 examples; 392,864 examples"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, Bloomz, GPT-2, Gemma, Gemma-2, Llama, Llama-3.1, Phi-3"
+DATA_URL: NA
 ethics_perspective: "Bias & Fairness"
 ---
 # BharatBBQ: A Multilingual Bias Benchmark for Question Answering in the Indian Context
@@ -65,6 +66,10 @@ Culturally adapted bias benchmark for India covering 13 social categories includ
 ## Benchmark
 
 **Name:** BharatBBQ
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Bloomz, GPT-2, Gemma, Gemma-2, Llama, Llama-3.1, Phi-3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

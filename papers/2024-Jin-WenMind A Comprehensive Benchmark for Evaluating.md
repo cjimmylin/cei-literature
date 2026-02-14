@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "WenMind is a comprehensive benchmark dedicated to evaluating LLMs in Chinese Classical Literature and Language Arts (CCLLA), covering Ancient Prose, Ancient Poetry, and Ancient Literary Culture. The benchmark's 'Ancient Literary Culture' domain specifically tests knowledge of Confucian and Taoist philosophical traditions, literary commentary traditions, and cultural concepts embedded in classical texts. Even the best-performing model (ERNIE-4.0) achieved only 64.3 points, indicating significant room for improvement. This is a high-quality NeurIPS-accepted benchmark with publicly available code and data."
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Baichuan, Baichuan2, Bloom, Bloom-7B, ChatGLM, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Llama, LLaMA2, LLaMA3, Qwen, Qwen-1.5, Qwen1.5, T5, T5 ROUGE, T5 T6, baichuan-inc"
 DATA_URL: "https://github.com/SCUT-DLVCLab/WenMind ; https://huggingface.co/datasets/SCUT-DLVCLab/WenMind"
 research_topic: "Machine Learning"
 ---
@@ -64,6 +66,11 @@ WenMind is a comprehensive benchmark dedicated to evaluating LLMs in Chinese Cla
 ## Dataset Information
 
 4,875 question-answer pairs spanning 42 fine-grained tasks, 3 question formats, 2 evaluation scenarios (domain-oriented and capability-oriented)
+
+
+## Data Description
+
+Backfill summary: Models assessed include Baichuan, Baichuan2, Bloom, Bloom-7B, ChatGLM, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Llama, LLaMA2, LLaMA3, Qwen, Qwen-1.5, Qwen1.5, T5, T5 ROUGE, T5 T6, baichuan-inc. Verified dataset/resource link: https://github.com/SCUT-DLVCLab/WenMind ; https://huggingface.co/datasets/SCUT-DLVCLab/WenMind.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/explosion/spaCy"
 tags: 
 abstract: "Natural language processing (NLP) has signiﬁcant impact on society via technologies such as machine translation and search engines. Despite its success, NLP technology is only widely available for high-resource languages such as English and Mandarin Chinese, and remains inaccessible to many languages due to the unavailability of data resources and benchmarks. In this work, we focus on developing resources for languages of Indonesia."
 research_topic: "Machine Translation"
@@ -66,6 +67,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 First parallel resource for 10 Indonesian local languages including Javanese and Sundanese. Covers sentiment analysis and machine translation benchmarks across 12 languages total.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/explosion/spaCy.
 
 ## Notes
 

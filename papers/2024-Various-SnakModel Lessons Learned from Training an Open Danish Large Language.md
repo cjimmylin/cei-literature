@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "SnakModel (Llama2-7B-based), other Llama2-7B-based Danish models"
-DATA_URL: NA
+DATA_URL: "https://github.com/NVIDIA/Megatron-LM"
 tags: 
 abstract: "We present SNAKMODEL, a Danish large language model (LLM) based on LLAMA2-7B, which we continuously pre-train on 13.6B Danish words, and further tune on 3.7M Danish instructions. As best practices for creating LLMs for smaller language communities have yet to be established, we examine the effects of early modeling and training decisions on downstream performance throughout the entire training pipeline, including (1) the creation of a strictly curated corpus of Danish text from diverse sources;..."
 research_topic: "NLP & Representation Learning"

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,6 +66,11 @@ Summary: Most comprehensive evaluation to date of anti-Jewish and anti-Israel bi
 ## Dataset Information
 
 8,600 queries per model, 34,400 total responses across 6 antisemitism categories
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://www.adl.org/resources/report/generating-hate-anti-jewish-and-anti-israel-bias-leading-large-language-models.
 
 ## Notes
 

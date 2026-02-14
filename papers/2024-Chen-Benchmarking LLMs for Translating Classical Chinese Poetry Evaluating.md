@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT-4, GPT4, Llama-3, Llama3, Qwen-72B, Vicuna, GPT-3, gpt-3.5-turbo, Llama, llama 3"
+DATA_URL: "https://github.com/lucadiliello/bleurt-pytorch"
 tags: 
 abstract: "Different from the traditional translation tasks, classical Chinese poetry translation requires both adequacy and fluency in translating culturally and historically significant content and linguistic poetic elegance. Large language models (LLMs) with impressive multilingual capabilities may bring a ray of hope to achieve this extreme translation demand. This paper first introduces a suitable benchmark (PoetMT) where each Chinese poetry has a recognized elegant translation. Meanwhile, we propose a new metric based on GPT4 to evaluate the extent to which current LLMs can meet these demands. Our empirical evaluation reveals that the existing LLMs fall short in the challenging task. Hence, we propose a Retrieval-Augmented machine Translation (RAT) method which incorporates knowledge related to classical poetry for advancing the translation of Chinese Poetry in LLMs. Experimental results show that RAT consistently outperforms all comparison methods regarding wildly used BLEU, COMET, BLEURT, our proposed metric, and human evaluation."
 research_topic: Other
@@ -64,6 +65,10 @@ research_topic: Other
 
 
 Different from the traditional translation tasks, classical Chinese poetry translation requires both adequacy and fluency in translating culturally and historically significant content and linguistic poetic elegance. Large language models (LLMs) with impressive multilingual capabilities may bring a ray of hope to achieve this extreme translation demand. This paper first introduces a suitable benchmark (PoetMT) where each Chinese poetry has a recognized elegant translation. Meanwhile, we propose a new metric based on GPT4 to evaluate the extent to which current LLMs can meet these demands. Our empirical evaluation reveals that the existing LLMs fall short in the challenging task. Hence, we propose a Retrieval-Augmented machine Translation (RAT) method which incorporates knowledge related to classical poetry for advancing the translation of Chinese Poetry in LLMs. Experimental results show that RAT consistently outperforms all comparison methods regarding wildly used BLEU, COMET, BLEURT, our proposed metric, and human evaluation.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-4, GPT4, Llama-3, Llama3, Qwen-72B, Vicuna, GPT-3, gpt-3.5-turbo, Llama, llama 3. Verified dataset/resource link: https://github.com/lucadiliello/bleurt-pytorch.
 
 ## Notes
 

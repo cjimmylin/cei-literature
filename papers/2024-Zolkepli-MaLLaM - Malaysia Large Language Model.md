@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: 349gb
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Llama, Llama2, Mistral"
+DATA_URL: "https://github.com/ChenghaoMou/text-dedup"
 tags: 
 abstract: "Addressing the gap in Large Language Model pretrained from scratch with Malaysian context, We trained models with 1.1 billion, 3 billion, and 5 billion parameters on a substantial 349GB dataset, equivalent to 90 billion tokens based on our pretrained Byte Pair Encoding (BPE) tokenizer for a single epoch. MaLLaM contributes to enhanced natural language understanding and generation tasks in the Malay language."
 research_topic: "Machine Learning"
@@ -63,6 +65,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Large language model pre-trained from scratch on 90 billion tokens from Malaysian contexts, free from English-centric biases. Models at 1.1B, 3B, and 5B parameters evaluated on Malaysian language tasks.
+
+## Data Description
+
+Backfill summary: Models assessed include Llama, Llama2, Mistral. Verified dataset/resource link: https://github.com/ChenghaoMou/text-dedup.
 
 ## Notes
 

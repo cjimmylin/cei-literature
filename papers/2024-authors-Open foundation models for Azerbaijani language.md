@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "The emergence of multilingual large language models has enabled the development of language understanding and generation systems in Azerbaijani. However, most of the productiongrade systems rely on cloud solutions, such as GPT-4. While there have been several attempts to develop open foundation models for Azerbaijani, these works have not found their way into common use due to a lack of systemic benchmarking."
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, DeBERTa-Base, RoBERTa"
+DATA_URL: NA
 research_topic: "Machine Translation"
 ---
 # Open foundation models for Azerbaijani language
@@ -64,6 +65,10 @@ Introduces large text corpus (651.1M words), encoder-only language models, and l
 ## Benchmark
 
 **Name:** DOLLMA, AZE-SCI, AZE-NSP, CB-MCQ
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, DeBERTa-Base, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

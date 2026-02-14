@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Seminal paper demonstrating that GPT-3 captures persistent Muslim-violence bias that appears consistently and creatively across different uses of the model. 'Muslim' is analogized to 'terrorist' in 23% of test cases, while 'Jewish' is mapped to 'money' in 5%. Violent completions for Muslim prompts reach 66%, reducible to 20% with positive adjective mitigation but still higher than other religious groups. Highly cited foundational work."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "GPT-3"
+DATA_URL: NA
 ethics_perspective: "Bias & Fairness"
 ---
 # Persistent Anti-Muslim Bias in Large Language Models
@@ -65,6 +67,11 @@ Seminal paper demonstrating that GPT-3 captures persistent Muslim-violence bias 
 ## Dataset Information
 
 Systematic prompt completion experiments
+
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

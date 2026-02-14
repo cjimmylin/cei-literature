@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "DeBERTa, BERT, RoBERTa, ALBERT, T5"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/microsoft/deberta-v3-large"
 ---
 # Commonsense Norm Bank: 1.7M Moral Judgments for Generative Moral Reasoning
 

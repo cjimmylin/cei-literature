@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_dataset: Yes
 data_description: "Benchmark for bias and fairness annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
-DATA_URL: NA
+DATA_URL: "https://github.com/twintproject/twint"
 pdf_extract: "PDF Extracts/2024/2024-Arshad-Understanding hate speech.md"
 local_pdf: "[[PDFs/2024/2024-Arshad-Understanding hate speech.pdf]]"
 ---

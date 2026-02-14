@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,6 +66,11 @@ Creates two Arabic QA corpora: QUQA for the Quran (covering ~47% of Quran verses
 ## Dataset Information
 
 QUQA: 3,369 records (2,189 unique questions, 301K+ tokens); HAQA: Hadith QA corpus (size in thesis)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://aclanthology.org/2023.ranlp-1.10/.
 
 ## Notes
 

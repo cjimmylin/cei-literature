@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, ELMo, GPT3, GloVe, RoBERTa, Word2Vec"
+DATA_URL: NA
 tags: 
 abstract: "Database of 33k Persian abusive language tweets tested using 648 abusive Persian words. Deep neural network based on BERT implementation achieves good performance."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -68,6 +69,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Database of 33k Persian abusive language tweets tested using 648 abusive Persian words. Deep neural network based on BERT implementation achieves good performance.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ELMo, GPT3, GloVe, RoBERTa, Word2Vec. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

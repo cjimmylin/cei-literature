@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Alpaca, GPT-4, GPT-4o, GPT-4o-mini, Gemma, Gemma 3, Gemma-2, Gemma-3, Llama-3.1, Qwen, Qwen-2.5, Qwen-3, Llama-3, llama2"
+DATA_URL: "https://github.com/microsoft/DeepSpeed"
 tags: 
 abstract: "Large language models (LLMs) excel in highresource languages but struggle with lowresource languages (LRLs), particularly those spoken by minority communities in China, such as Tibetan, Uyghur, Kazakh, and Mongolian. To systematically track the progress in these languages, we introduce MiLiC-Eval, a benchmark designed for minority languages in China, featuring 24K instances across 9 tasks. MiLiCEval focuses on underrepresented writing systems. Its parallelism between tasks and languages can provide a faithful and fine-grained assessment of linguistic and problem-solving skills. Our evaluation reveals that open-source LLMs perform poorly on syntax-intensive tasks and multi-script languages. We further demonstrate how MiLiC-Eval can help advance LRL research in handling diverse writing systems and understanding the process of language adaptation 1."
 research_topic: "Machine Translation"
@@ -65,6 +67,10 @@ research_topic: "Machine Translation"
 
 
 Large language models (LLMs) excel in highresource languages but struggle with lowresource languages (LRLs), particularly those spoken by minority communities in China, such as Tibetan, Uyghur, Kazakh, and Mongolian. To systematically track the progress in these languages, we introduce MiLiC-Eval, a benchmark designed for minority languages in China, featuring 24K instances across 9 tasks. MiLiCEval focuses on underrepresented writing systems. Its parallelism between tasks and languages can provide a faithful and fine-grained assessment of linguistic and problem-solving skills. Our evaluation reveals that open-source LLMs perform poorly on syntax-intensive tasks and multi-script languages. We further demonstrate how MiLiC-Eval can help advance LRL research in handling diverse writing systems and understanding the process of language adaptation 1.
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, GPT-4, GPT-4o, GPT-4o-mini, Gemma, Gemma 3, Gemma-2, Gemma-3, Llama-3.1, Qwen, Qwen-2.5, Qwen-3, Llama-3, llama2. Verified dataset/resource link: https://github.com/microsoft/DeepSpeed.
 
 ## Notes
 

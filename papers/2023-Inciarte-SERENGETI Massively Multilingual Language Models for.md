@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ tags:
 abstract: "Multilingual pretrained language models (mPLMs) acquire valuable, generalizable linguistic information during pretraining and have advanced the state of the art on task-specific finetuning. To date, only ∼31 out of ∼2, 000 African languages are covered in existing language models. We ameliorate this limitation by developing SERENGETI, a massively multilingual language model that covers 517 African languages and language varieties."
 data_description: "Evaluation approach dataset"
 data_metrics: "20 datasets"
-LLM_assessed: NA
+LLM_assessed: "BERT, BLOOM, ELECTRA"
 DATA_URL: "https://huggingface.co/UBC-NLP/serengeti-E250"
 research_topic: "Machine Translation"
 ---
@@ -65,6 +66,10 @@ Massively multilingual language model covering 517 African languages. Evaluated 
 ## Benchmark
 
 **Name:** SERENGETI / AfroNLU
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, BLOOM, ELECTRA. Verified dataset/resource link: https://huggingface.co/UBC-NLP/serengeti-E250.
 
 ## Notes
 

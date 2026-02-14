@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Question answering systems face critical limitations in languages with limited resources and scarce data, making the development of robust models especially challenging. The Quranic QA system holds significant importance as it facilitates a deeper understanding of the Quran, a Holy text for over a billion people worldwide. However, these systems face unique challenges, including the linguistic disparity between questions written in Modern Standard Arabic and answers found in Quranic verses..."
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, Bloom, DeBERTa-v3, Deberta, ELECTRA, Flan-T5, RoBERTa, T5"
+DATA_URL: "https://huggingface.co/datasets/rajpurkar/squad_v2"
 research_topic: "Question Answering"
 ---
 # Cross-Language Approach for Quranic QA
@@ -64,6 +66,11 @@ Addresses the linguistic gap between Modern Standard Arabic (questions) and Clas
 ## Dataset Information
 
 Expanded from Qur'an QA shared task dataset (augmented via translation and paraphrasing)
+
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Bloom, DeBERTa-v3, Deberta, ELECTRA, Flan-T5, RoBERTa, T5. Verified dataset/resource link: https://huggingface.co/datasets/rajpurkar/squad_v2.
 
 ## Notes
 

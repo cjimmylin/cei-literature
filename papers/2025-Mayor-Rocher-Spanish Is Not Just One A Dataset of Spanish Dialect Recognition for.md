@@ -1,0 +1,77 @@
+---
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0295
+type: journalArticle
+short_title: "Spanish Is Not Just One: A Dataset of Spanish Dialect Recognition for LLMs"
+year: 2025
+first_author: "[[Mayor-Rocher, Marina]]"
+last_author: "[[Reviriego, Pedro]]"
+authors: "[[Mayor-Rocher, Marina]]; [[Huertas, Cris Pozo]]; [[Melero, Nina]]; [[Reviriego, Pedro]]"
+authors_incomplete: true
+url: "https://www.sciencedirect.com/science/article/pii/S2352340925008108"
+external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12504998/pdf/main.pdf"
+publication: "ScienceDirect / Data in Brief"
+pdf_extract: "PDF Extracts/2025/2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for.md"
+local_pdf: "[[PDFs/2025/2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for.pdf]]"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Spanish
+languages_list: Spanish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
+newtags: 
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
+data_metrics: "Not specified"
+LLM_assessed: NA
+DATA_URL: "https://zenodo.org/records/15101403"
+tags: 
+abstract: "Dataset of 30 expert-crafted multiple-choice questions assessing LLMs' ability to identify Spanish varieties and measuring potential dialect preference bias. Each question reviewed by linguistic experts through multiple refinement cycles."
+research_topic: "Machine Learning"
+---
+# Spanish Is Not Just One: A Dataset of Spanish Dialect Recognition for LLMs
+
+## Authors
+
+[[Mayor-Rocher, Marina]], [[Huertas, Cris Pozo]], [[Melero, Nina]], [[Reviriego, Pedro]]
+
+## Metadata
+
+**Authors:** Marina Mayor-Rocher; Cris Pozo Huertas; Nina Melero; Pedro Reviriego
+
+**Year:** 2025
+
+**Type:** journalArticle
+
+**Venue:** ScienceDirect / Data in Brief
+
+**Languages:** Spanish
+
+## Links
+
+- **URL:** https://www.sciencedirect.com/science/article/pii/S2352340925008108
+
+## Abstract
+
+Dataset of 30 expert-crafted multiple-choice questions assessing LLMs' ability to identify Spanish varieties and measuring potential dialect preference bias. Each question reviewed by linguistic experts through multiple refinement cycles.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://zenodo.org/records/15101403.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent B2
+**Relevance:** Focused specifically on Spanish dialectal bias in LLMs. Measures whether models prefer certain regional varieties over others.
+
+## Tags

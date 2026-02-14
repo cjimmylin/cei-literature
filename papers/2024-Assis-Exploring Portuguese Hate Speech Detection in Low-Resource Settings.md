@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, ChatGPT"
+DATA_URL: "https://github.com/MeLLL-UFF/hate_speech_"
 tags: 
 abstract: "Compares lightly-tuned encoder models with in-context learning of large models for Portuguese hate speech detection in low-resource settings."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -63,6 +64,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Compares lightly-tuned encoder models with in-context learning of large models for Portuguese hate speech detection in low-resource settings.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT. Verified dataset/resource link: https://github.com/MeLLL-UFF/hate_speech_.
 
 ## Notes
 

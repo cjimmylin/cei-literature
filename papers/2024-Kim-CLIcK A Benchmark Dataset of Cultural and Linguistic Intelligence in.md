@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset for hate speech detection"
 data_metrics: "13 language"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude, Claude-2, Claude2, Falcon40B, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Llama, LLaMA2, LLaMA2-chat, Llama-2, llama-2 chat"
+DATA_URL: "https://github.com/Beomi/KoAlpaca"
 tags: 
 abstract: "Despite the rapid development of large language models (LLMs) for the Korean language, there remains an obvious lack of benchmark datasets that test the requisite Korean cultural and linguistic knowledge. Because many existing Korean benchmark datasets are derived from the English counterparts through translation, they often overlook the different cultural contexts. For the few benchmark datasets that are sourced from Korean data capturing cultural knowledge, only narrow tasks such as bias and..."
 ethics_perspective: "Social & Cultural Values"
@@ -69,6 +70,10 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 1,995 QA pairs from official Korean exams and textbooks. 11 categories under Culture (history, geography, law, politics, society, tradition, economy, pop culture) and Language. First large-scale comprehensive Korean-centric cultural analysis of LLMs.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude, Claude-2, Claude2, Falcon40B, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Llama, LLaMA2, LLaMA2-chat, Llama-2, llama-2 chat. Verified dataset/resource link: https://github.com/Beomi/KoAlpaca.
 
 ## Notes
 

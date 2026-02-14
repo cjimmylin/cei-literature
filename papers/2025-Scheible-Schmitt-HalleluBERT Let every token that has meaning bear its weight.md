@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "49.1 gb"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://github.com/microsoft/nni"
 tags: 
 abstract: "Transformer-based models have advanced NLP, yet Hebrew still lacks a large-scale RoBERTa encoder which is extensively trained. Existing models such as HeBERT, AlephBERT, and HeRo are limited by corpus size, vocabulary, or training depth. We present HalleluBERT, a RoBERTa-based encoder family (base and large) trained from scratch on 49.1 GB of deduplicated Hebrew web text and Wikipedia with a Hebrew-specific byte-level BPE vocabulary."
 research_topic: "NLP & Representation Learning"
@@ -65,6 +66,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 RoBERTa-style encoders for Hebrew (126M and 357M params) evaluated on HeRo benchmark suite: NER (BMC and NeMO) and sentiment classification (SMCD). Sets new state of the art for Hebrew.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa. Verified dataset/resource link: https://github.com/microsoft/nni.
 
 ## Notes
 

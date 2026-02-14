@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Model compression techniques are receiving increasing attention; however, the effect of compression on model fairness is still under explored. This is the first paper to examine the effect of distillation and pruning on the toxicity and bias of generative language models. We test Knowledge Distillation and Pruning methods on the GPT2 model and found a consistent pattern of toxicity and bias reduction after model distillation; this result can be potentially interpreted by existing line of research which describes model compression as a regularization technique; our work not only serves as a reference for safe deployment of compressed models, but also extends the discussion of 'compression as regularization' into the setting of neural LMs, and hints at the possibility of using compression to develop fairer models."
 ethics_perspective: "Bias & Fairness"
@@ -63,6 +64,10 @@ ethics_perspective: "Bias & Fairness"
 
 
 Model compression techniques are receiving increasing attention; however, the effect of compression on model fairness is still under explored. This is the first paper to examine the effect of distillation and pruning on the toxicity and bias of generative language models. We test Knowledge Distillation and Pruning methods on the GPT2 model and found a consistent pattern of toxicity and bias reduction after model distillation; this result can be potentially interpreted by existing line of research which describes model compression as a regularization technique; our work not only serves as a reference for safe deployment of compressed models, but also extends the discussion of "compression as regularization" into the setting of neural LMs, and hints at the possibility of using compression to develop fairer models.
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

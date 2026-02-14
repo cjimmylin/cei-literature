@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5-turbo, Llama, LLaMa 2, Llama-2, Mistral 7B"
+DATA_URL: "https://github.com/ZaloAI-Jaist/VMLU"
 tags: 
 abstract: "The rapid advancement of large language models (LLMs) necessitates the development of new benchmarks to accurately assess their capabilities. To address this need for Vietnamese, this work aims to introduce ViLLM-Eval, the comprehensive evaluation suite designed to measure the advanced knowledge and reasoning abilities of foundation models within a Vietnamese context. ViLLM-Eval consists of multiple-choice questions and predict next word tasks spanning various difficulty levels and diverse..."
 research_topic: "NLP & Representation Learning"
@@ -65,6 +66,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Comprehensive evaluation suite for Vietnamese LLMs from VLSP 2023 shared task. Includes LAMBADA Vietnamese (contextual reasoning) and Exam Vietnamese (grades 6-12 multiple-choice across Math, Physics, Chemistry, Biology, History, Geography, Literature).
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT, GPT-3, GPT-3.5-turbo, Llama, LLaMa 2, Llama-2, Mistral 7B. Verified dataset/resource link: https://github.com/ZaloAI-Jaist/VMLU.
 
 ## Notes
 

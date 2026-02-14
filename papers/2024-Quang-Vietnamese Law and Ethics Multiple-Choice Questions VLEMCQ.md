@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,8 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: "https://huggingface.co/datasets/nqdhocai/vietnamese-legal-qa"
 tags: 
 abstract: 
 ethics_perspective: "General Ethics"
@@ -64,6 +65,10 @@ ethics_perspective: "General Ethics"
 ## Abstract
 
 Multiple-choice questions testing knowledge of Vietnamese law, ethics, and social responsibility. Suitable for training and evaluating LLMs on Vietnamese ethical and legal reasoning with four-option format (A, B, C, D).
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/nqdhocai/vietnamese-legal-qa.
 
 ## Notes
 

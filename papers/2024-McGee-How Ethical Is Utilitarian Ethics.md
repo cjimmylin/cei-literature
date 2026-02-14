@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Comparative analysis of two AI chatbot responses to utilitarian ethics questions"
 data_metrics: "Qualitative philosophical analysis"
-LLM_assessed: NA
+LLM_assessed: "ChatGPT"
 DATA_URL: NA
 ---
 # How Ethical Is Utilitarian Ethics? A Study in Artificial Intelligence

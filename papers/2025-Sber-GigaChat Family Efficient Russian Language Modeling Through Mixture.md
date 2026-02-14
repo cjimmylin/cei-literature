@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, Claude 3.7 Sonnet, DeepSeek, GPT-4, GPT-4o, LLaMA 3, LLaMA 3., Llama 3.1, Llama-3, Llama-3., Mistral, Mistral-7B, Phi-4, Qwen, Qwen 2.5, Qwen1.5, Qwen2, Qwen2.5, RoBERTa, T5, deepseek-coder, deepseek-v2, Llama, mistral-large"
+DATA_URL: "https://github.com/salute-developers/GigaAM"
 tags: 
 abstract: "Generative large language models (LLMs) have become crucial for modern NLP research and applications across various languages. However, the development of foundational models specifically tailored to the Russian language has been limited, primarily due to the significant computational resources required. This paper introduces the GigaChat family of Russian LLMs, available in various sizes, including base models and instruction-tuned versions."
 research_topic: "NLP & Representation Learning"
@@ -67,6 +69,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 GigaChat 20B MoE model (3.3B active params). Evaluated on MERA and ruHHH benchmarks. Shows competitive/near-highest scores on ruHHH for Honest, Helpful, and Harmless behavior, especially Harmlessness.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Claude 3.7 Sonnet, DeepSeek, GPT-4, GPT-4o, LLaMA 3, LLaMA 3., Llama 3.1, Llama-3, Llama-3., Mistral, Mistral-7B, Phi-4, Qwen, Qwen 2.5, Qwen1.5, Qwen2, Qwen2.5, RoBERTa, T5, deepseek-coder, deepseek-v2, Llama, mistral-large. Verified dataset/resource link: https://github.com/salute-developers/GigaAM.
 
 ## Notes
 

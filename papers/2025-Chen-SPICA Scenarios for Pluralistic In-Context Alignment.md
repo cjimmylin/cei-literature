@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ abstract:
 ethics_perspective: "AI Safety & Alignment"
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "GPT-4o, Llama3"
 DATA_URL: "https://github.com/Social-Futures-Lab/SPICA-code"
 ---
 # SPICA (Scenarios for Pluralistic In-Context Alignment)

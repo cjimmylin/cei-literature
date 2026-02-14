@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "18 languages"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-3.5-Turbo, GPT-4, GPT-4 Turbo, GPT-4-Turbo, GPT-4o, Llama, LLaMA2, LLaMA2-Chat, LLaMA2., LLaMA3, LLaMA3., Llama-2, Llama-3, Mistral, Mistral 7B, Mixtral 8x22B, Mixtral 8x7B, mistral-7b, mixtral-8x22b, mixtral-8x7b"
+DATA_URL: "https://github.com/fxsjy/jieba"
 tags: 
 abstract: "Code-mixing, the practice of switching between languages within a conversation, poses unique challenges for traditional NLP. Existing benchmarks are limited by their narrow language pairs and tasks, failing to adequately assess large language models’ (LLMs) codemixing abilities. Despite the recognized importance of code-mixing for multilingual users, research on LLMs in this context remains sparse. Additionally, current techniques for synthesizing code-mixed data are underdeveloped to generate code-mixing. In response, we introduce CodeMixBench, a comprehensive benchmark covering eight tasks, including three specific to LLMs and five traditional NLP tasks, and 18 languages across seven language families. We also propose a new method for generating largescale synthetic code-mixed texts by combining word substitution with GPT-4 prompting. Our evaluation reveals consistent underperformance of LLMs on code-mixed datasets involving different language families. Enhancements in training data size, model scale, and fewshot learning could improve their performance. The code and dataset are available at https:// github.com/Jeromeyluck/CodeMixBench."
 research_topic: Other
@@ -65,6 +67,10 @@ research_topic: Other
 
 
 Code-mixing, the practice of switching between languages within a conversation, poses unique challenges for traditional NLP. Existing benchmarks are limited by their narrow language pairs and tasks, failing to adequately assess large language models’ (LLMs) codemixing abilities. Despite the recognized importance of code-mixing for multilingual users, research on LLMs in this context remains sparse. Additionally, current techniques for synthesizing code-mixed data are underdeveloped to generate code-mixing. In response, we introduce CodeMixBench, a comprehensive benchmark covering eight tasks, including three specific to LLMs and five traditional NLP tasks, and 18 languages across seven language families. We also propose a new method for generating largescale synthetic code-mixed texts by combining word substitution with GPT-4 prompting. Our evaluation reveals consistent underperformance of LLMs on code-mixed datasets involving different language families. Enhancements in training data size, model scale, and fewshot learning could improve their performance. The code and dataset are available at https:// github.com/Jeromeyluck/CodeMixBench.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-3.5-Turbo, GPT-4, GPT-4 Turbo, GPT-4-Turbo, GPT-4o, Llama, LLaMA2, LLaMA2-Chat, LLaMA2., LLaMA3, LLaMA3., Llama-2, Llama-3, Mistral, Mistral 7B, Mixtral 8x22B, Mixtral 8x7B, mistral-7b, mixtral-8x22b, mixtral-8x7b. Verified dataset/resource link: https://github.com/fxsjy/jieba.
 
 ## Notes
 

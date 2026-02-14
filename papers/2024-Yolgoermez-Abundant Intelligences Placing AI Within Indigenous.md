@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,6 +67,11 @@ This paper describes the Abundant Intelligences Project, an Indigenous-led, Indi
 ## Dataset Information
 
 N/A (research program description)
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://www.indigenous-ai.net/ ; https://abundant-intelligences.net/.
 
 ## Notes
 

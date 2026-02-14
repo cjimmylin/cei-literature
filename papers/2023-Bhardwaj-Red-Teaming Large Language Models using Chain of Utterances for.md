@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multi-task benchmark for moral/ethical reasoning dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, ChatGPT, GPT-4, LLAMA2, Llama, Llama-2, VICUNA"
+DATA_URL: "https://github.com/declare-lab/red-instruct"
 tags: 
 abstract: "Larger language models (LLMs) have taken the world by storm with their massive multi-tasking capabilities simply by optimizing over a next-word prediction objective. With the emergence of their properties and encoded knowledge, the risk of LLMs producing harmful outputs increases, making them unfit for scalable deployment for the public. In this work, we propose a new safety evaluation benchmark RED-EVAL that carries out red-teaming."
 ---
@@ -64,6 +66,10 @@ abstract: "Larger language models (LLMs) have taken the world by storm with thei
 ## Abstract
 
 Red-teaming framework using Chain of Utterances (CoU) prompting. CategoricalQA dataset with 11 harm categories and 5 sub-categories available in English, Chinese, and Vietnamese. Jailbreaks GPT-4 on 65%+ and ChatGPT on 73%+ of harmful queries.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT, GPT-4, LLAMA2, Llama, Llama-2, VICUNA. Verified dataset/resource link: https://github.com/declare-lab/red-instruct.
 
 ## Notes
 

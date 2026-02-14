@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract:
 ethics_perspective: "General Ethics"
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-4o, Claude, Gemini, DeepSeek, Qwen"
+LLM_assessed: "GPT-4, GPT-4o, Claude, DeepSeek, Qwen"
 DATA_URL: NA
 ---
 # Chain-of-Ethics: Defense Framework (Wu et al.)

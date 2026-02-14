@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4"
-DATA_URL: NA
+DATA_URL: "https://osf.io/9684s"
 DATE_ADDED: 20260207
 ---
 # AI Language Model Rivals Expert Ethicist

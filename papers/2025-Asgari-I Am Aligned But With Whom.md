@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "We introduce MENAValues, a novel benchmark designed to evaluate the cultural alignment and multilingual biases of large language models (LLMs) with respect to the beliefs and values of the Middle East and North Africa (MENA) region, an underrepresented area in current AI evaluation efforts. Drawing from large-scale, authoritative human surveys, we curate a structured dataset that captures the sociocultural landscape of MENA with population-level response distributions from 16 countries."
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "GPT-4, GPT-4o-mini, Llama, Llama-3.1, Mistral, Mistral-7B"
 DATA_URL: "https://github.com/llm-lab-org/MENA-Values-Benchmark-Evaluating-Cultural-Alignment-and-Multilingual-Bias-in-Large-Language-Models"
 ethics_perspective: "Social & Cultural Values"
 ---
@@ -69,6 +71,11 @@ MENAValues benchmark evaluates cultural alignment with MENA region values using 
 ## Dataset Information
 
 Population-level survey response distributions from 16 MENA countries
+
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4, GPT-4o-mini, Llama, Llama-3.1, Mistral, Mistral-7B. Verified dataset/resource link: https://github.com/llm-lab-org/MENA-Values-Benchmark-Evaluating-Cultural-Alignment-and-Multilingual-Bias-in-Large-Language-Models.
 
 ## Notes
 

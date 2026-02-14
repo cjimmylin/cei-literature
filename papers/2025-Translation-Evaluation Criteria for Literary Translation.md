@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: 
 research_topic: "Machine Translation"
@@ -63,6 +64,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 I found a highly relevant result! The study "Evaluating Uighur literary translation" compares generative artificial intelligence (GenAI) and neural machine translation (NMT) systems in translating Uighur literary text into English.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

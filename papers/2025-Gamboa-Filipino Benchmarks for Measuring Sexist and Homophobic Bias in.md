@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, BLOOM, GPT-4, Mistral, RoBERTa, llama3"
+DATA_URL: NA
 tags: 
 abstract: "Bias studies on multilingual models confirm the presence of gender-related stereotypes in masked models processing languages with high NLP resources. We expand on this line of research by introducing Filipino CrowS-Pairs and Filipino WinoQueer: benchmarks that assess both sexist and anti-queer biases in pretrained language models (PLMs) handling texts in Filipino, a low-resource language from the Philippines."
 ethics_perspective: "Bias & Fairness"
@@ -65,6 +66,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 7,074 challenge pairs adapted from CrowS-Pairs and WinoQueer for Filipino. Assesses sexist and anti-queer biases in PLMs. Found considerable bias in multilingual models including SEA-pretrained ones.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, BLOOM, GPT-4, Mistral, RoBERTa, llama3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

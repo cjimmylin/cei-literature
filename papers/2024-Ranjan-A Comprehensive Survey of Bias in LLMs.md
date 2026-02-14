@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, GPT-2, GPT-3, GPT-4, LLaMA 2"
 DATA_URL: NA
 ---
 # A Comprehensive Survey of Bias in LLMs: Current Landscape and Future Directions

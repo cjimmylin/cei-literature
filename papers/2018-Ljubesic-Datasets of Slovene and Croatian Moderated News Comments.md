@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: "https://github.com/UCSM-DUE/IWG_"
 tags: 
 abstract: 
 research_topic: Other
@@ -63,6 +64,10 @@ research_topic: Other
 ## Abstract
 
 Two large datasets of moderated news comments from Slovene RTV MCC and Croatian 24sata portals, with content flagged by real newspaper moderators for offensive language detection.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/UCSM-DUE/IWG_.
 
 ## Notes
 

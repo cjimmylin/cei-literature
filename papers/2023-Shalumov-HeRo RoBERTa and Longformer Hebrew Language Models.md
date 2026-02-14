@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: NA
 tags: 
 abstract: "In this paper, we fill in an existing gap in resources available to the Hebrew NLP community by providing it with the largest so far pre-train dataset HeDC4, a state-ofthe-art pre-trained language model HeRo for standard length inputs and an eﬀicient transformer LongHeRo for long input sequences. The HeRo model was evaluated on the sentiment analysis, the named entity recognition, and the question answering tasks while the LongHeRo model was evaluated on the document classification task with a..."
 research_topic: "NLP & Representation Learning"
@@ -64,6 +65,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Hebrew RoBERTa model with benchmark suite establishing NER (BMC and NeMO), sentiment classification (SMCD with 8,465 deduplicated samples), and QA as primary evaluation tasks for Modern Hebrew.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "PoliBERT, UmBERTo, bert-base-italian-xxl-uncased"
-DATA_URL: NA
+DATA_URL: "https://github.com/musixmatchresearch/umberto"
 tags: 
 abstract: 
 ethics_perspective: "Toxicity & Hate Speech"

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "90 prompts"
 LLM_assessed: "DeepSeek, Gemma, Llama-3, Qwen"
-DATA_URL: NA
+DATA_URL: "https://zenodo.org/records/12608602"
 ---
  How Effective Is Constitutional AI in Small LLMs? A Study on DeepSeek-R1 and Its Peers
 

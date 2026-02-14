@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Flourishing AI Benchmark, virtue"
@@ -33,7 +34,7 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-4, ChatGPT, o1, o3, Claude, Gemini, Grok"
+LLM_assessed: "GPT-4, ChatGPT, Claude, Grok"
 DATA_URL: NA
 normative_ethics_benchmark: Yes
 ---

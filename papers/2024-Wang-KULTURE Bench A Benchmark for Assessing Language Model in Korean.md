@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT3, GPT3.5, GPT3.5-Turbo"
+DATA_URL: NA
 tags: 
 abstract: "Large language models (LLMs) have exhibited significant enhancements in performance across various tasks. However, the complexity of their evaluation increases as these models generate more fluent and coherent content. Current multilingual benchmarks often use translated English versions, which may incorporate Western cultural biases that do not accurately assess other languages and cultures. To address this research gap, we introduce KULTURE Bench, an evaluation framework specifically designed..."
 research_topic: "Social & Cultural Analysis"
@@ -65,6 +66,10 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Korean cultural evaluation framework featuring datasets of cultural news, idioms, and poetry. Assesses cultural comprehension and reasoning at word, sentence, and paragraph levels. Addresses Western bias in translated benchmarks.
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT3, GPT3.5, GPT3.5-Turbo. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

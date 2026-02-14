@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Recent advances in large language models (LLMs) have led to strong reasoning capabilities; however, evaluating such models in low-resource languages remains challenging due to the lack of standardized benchmarks. In particular, Urdu reasoning evaluation has been limited by the sensitivity of machine translation and an emphasis on general language tasks rather than reasoning benchmarks. In this paper, we propose a contextually ensembled translation framework with humanin-the-loop validation that..."
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "Barth, ChatGPT, DeepSeek, DeepSeek-AI, DeepSeek-R1, Falcon-h1, Gemma, Gemma-3, Gemma2, LLaMA-3.1, LLaMA-3.2, Llama, Mistral-7B, Mistral-NeMo, Phi-4, Phi-4-Mini, Qwen, Qwen R1, Qwen 3, Qwen-1.5B, Qwen-14B, Qwen-3, Qwen-7B, Qwen2.5"
+DATA_URL: NA
 ethics_perspective: "AI Safety & Alignment"
 ---
 # UrduBench: An Urdu Reasoning Benchmark using Contextually Ensembled Translations with Human-in-the-Loop
@@ -64,6 +66,10 @@ Contextually ensembled translation framework with human-in-the-loop validation f
 ## Benchmark
 
 **Name:** UrduBench
+
+## Data Description
+
+Backfill summary: Models assessed include Barth, ChatGPT, DeepSeek, DeepSeek-AI, DeepSeek-R1, Falcon-h1, Gemma, Gemma-3, Gemma2, LLaMA-3.1, LLaMA-3.2, Llama, Mistral-7B, Mistral-NeMo, Phi-4, Phi-4-Mini, Qwen, Qwen R1, Qwen 3, Qwen-1.5B, Qwen-14B, Qwen-3, Qwen-7B, Qwen2.5. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

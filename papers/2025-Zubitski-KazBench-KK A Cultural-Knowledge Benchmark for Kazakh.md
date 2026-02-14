@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "We introduce KazBench-KK, a comprehensive 7,111-question multiple-choice benchmark designed to assess large language models’ understanding of culturally grounded Kazakh knowledge. By combining expertcurated topics with LLM-assisted web mining, we create a diverse dataset spanning 17 culturally salient domains, including pastoral traditions, social hierarchies, and contemporary politics. Beyond evaluation, KazBenchKK serves as a practical tool for field linguists, enabling rapid lexical..."
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "DeepSeek, Gemma-3, LLama-3.1, Llama, Llama-3, Llama-3.3, Mistral, Qwen, Qwen 2.5, Qwen-32B"
+DATA_URL: NA
 research_topic: "Machine Learning"
 ---
 # KazBench-KK: A Cultural-Knowledge Benchmark for Kazakh
@@ -64,6 +66,10 @@ research_topic: "Machine Learning"
 ## Benchmark
 
 **Name:** KazBench-KK
+
+## Data Description
+
+Backfill summary: Models assessed include DeepSeek, Gemma-3, LLama-3.1, Llama, Llama-3, Llama-3.3, Mistral, Qwen, Qwen 2.5, Qwen-32B. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

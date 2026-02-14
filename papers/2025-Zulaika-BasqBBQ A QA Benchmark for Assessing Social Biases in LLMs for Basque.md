@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: "multilingual and Basque-adapted LLMs"
-DATA_URL: NA
+DATA_URL: "https://github.com/orai-nlp/BasqBBQ"
 tags: 
 abstract: 
 research_topic: "Question Answering"

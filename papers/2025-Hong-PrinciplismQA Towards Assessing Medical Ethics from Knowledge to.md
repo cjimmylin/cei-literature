@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ tags:
 abstract: "The integration of large language models into healthcare necessitates a rigorous evaluation of their ethical reasoning, an area current benchmarks often overlook. We introduce PrinciplismQA, a comprehensive benchmark with 3,648 questions designed to systematically assess LLMs’ alignment with core medical ethics. Grounded in Principlism, our benchmark features a high-quality dataset. This includes multiple-choice questions curated from authoritative textbooks and openended questions sourced from..."
 data_description: "Benchmark for moral/ethical reasoning dataset for question answering"
 data_metrics: "3,648 questions"
-LLM_assessed: "GPT-4, o1, o3, Claude, Gemini, Gemma, Llama-3, Qwen, DeepSeek"
+LLM_assessed: "GPT-4, Claude, Gemma, Llama-3, Qwen, DeepSeek"
 DATA_URL: NA
 normative_ethics_benchmark: Yes
 ---

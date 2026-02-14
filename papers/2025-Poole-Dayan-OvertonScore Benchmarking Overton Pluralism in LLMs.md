@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract: "We introduce a novel framework for measuring Overton pluralism in LLM
 ethics_perspective: "AI Safety & Alignment"
 data_description: Benchmark
 data_metrics: "60 questions"
-LLM_assessed: "GPT-4, Gemma, DeepSeek, Llama-3, Claude, Gemini"
+LLM_assessed: "GPT-4, Gemma, DeepSeek, Llama-3, Claude"
 DATA_URL: NA
 ---
 # OvertonScore: Benchmarking Overton Pluralism in LLMs

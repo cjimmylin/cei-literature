@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "Benchmark dataset labeling each post with both hate speech and sentim
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # HateThaiSent: Sentiment-Aided Hate Speech Detection in Thai Language
@@ -65,6 +66,10 @@ Benchmark dataset labeling each post with both hate speech and sentiment informa
 ## Benchmark
 
 **Name:** HateThaiSent
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

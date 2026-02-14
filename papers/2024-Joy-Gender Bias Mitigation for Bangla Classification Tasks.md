@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Alpaca, BERT, ChatGPT, ELECTRA, GPT-4, GloVe, Word2Vec"
+DATA_URL: "https://huggingface.co/datasets/FredZhang7"
 tags: 
 abstract: "In this study, we investigate gender bias in Bangla pretrained language models, a largely under explored area in low-resource languages. To assess this bias, we applied gender-name swapping techniques to existing datasets, creating four manually annotated, task-specific datasets for sentiment analysis, toxicity detection, hate speech detection, and sarcasm detection. By altering names and gender-specific terms, we ensured these datasets were suitable for detecting and mitigating gender bias."
 ethics_perspective: "Bias & Fairness"
@@ -63,6 +64,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Investigates gender bias in Bangla PLMs using gender-name swapping. Creates four manually annotated task-specific datasets for sentiment analysis, toxicity detection, hate speech detection, and sarcasm detection. Proposes joint loss optimization for bias mitigation.
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, BERT, ChatGPT, ELECTRA, GPT-4, GloVe, Word2Vec. Verified dataset/resource link: https://huggingface.co/datasets/FredZhang7.
 
 ## Notes
 

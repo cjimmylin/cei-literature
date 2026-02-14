@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract: "There is an growing interest in using Large Language Models (LLMs) in
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Gemini, Llama-2, Llama-3, Mixtral"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Llama-3, Mixtral"
 DATA_URL: NA
 ---
 # Cooperation, Competition, and Maliciousness: LLM-Stakeholders Interactive Negotiation

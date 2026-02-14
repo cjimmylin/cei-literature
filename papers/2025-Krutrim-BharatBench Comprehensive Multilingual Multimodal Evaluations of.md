@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "BERT, Barth, GPT-4, GPT-4o, GPT-4o-mini, GPT4o, Gemma, Gemma-2, LLaMA 3.1, LLaMA 3., LLaMA 3.2, LLaMA3, LLama3.1, Llama, Llama 2, Llama-3, Llama-3.1, Llama-3.2, Llama3.2, Mistral-Nemo, gpt4, llama 3"
 DATA_URL: "https://github.com/ola-krutrim/BharatBench"
 tags: 
 abstract: "This paper presents a comprehensive evaluation of Foundation AI models in multilingual and multimodal contexts, addressing their performance, adaptability, and limitations. With the increasing globalization of digital content and the rise of multi-modal data, understanding how Large Language Models (LLMs) operate across diverse languages and modes of information is critical. We introduce BharatBench as an evaluation framework benchmarking the performance of multilingual LLMs."
@@ -67,6 +69,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Comprehensive multimodal multilingual Indian benchmark testing language understanding, visual understanding, and speech understanding. Includes Indian Cultural Context (ICC) evaluation with multi-turn comprehension and translation.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Barth, GPT-4, GPT-4o, GPT-4o-mini, GPT4o, Gemma, Gemma-2, LLaMA 3.1, LLaMA 3., LLaMA 3.2, LLaMA3, LLama3.1, Llama, Llama 2, Llama-3, Llama-3.1, Llama-3.2, Llama3.2, Mistral-Nemo, gpt4, llama 3. Verified dataset/resource link: https://github.com/ola-krutrim/BharatBench.
 
 ## Notes
 

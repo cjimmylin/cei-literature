@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Major initiative providing Galician NLP resources: TTS, ASR, text generation, machine translation, information extraction, opinion mining, fact checking. Includes Corpusnós for training LLMs."
 research_topic: Other
@@ -66,6 +67,10 @@ research_topic: Other
 ## Abstract
 
 Major initiative providing Galician NLP resources: TTS, ASR, text generation, machine translation, information extraction, opinion mining, fact checking. Includes Corpusnós for training LLMs.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

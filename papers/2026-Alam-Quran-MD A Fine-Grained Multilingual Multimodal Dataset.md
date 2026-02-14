@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,6 +67,11 @@ First holistic multimodal Quranic dataset integrating textual, linguistic, and a
 ## Dataset Information
 
 114 surahs, 6,236 ayahs (~77.8K words), audio from 32 reciters
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets (CC0 license).
 
 ## Notes
 

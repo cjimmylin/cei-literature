@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: "https://huggingface.co/datasets/gender-bias-bengali/wonbias-complete-dataset"
 tags: 
 abstract: "Manually annotated corpus of Bengali designed to identify gender-based biases, stereotypes, and harmful language against women. Supports research in ethical NLP, content moderation, and computational social science."
 ethics_perspective: "Bias & Fairness"
@@ -66,6 +67,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Manually annotated corpus of Bengali designed to identify gender-based biases, stereotypes, and harmful language against women. Supports research in ethical NLP, content moderation, and computational social science.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/gender-bias-bengali/wonbias-complete-dataset.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, ChatGPT, Falcon 7B, GPT-4, Gemma, Gemma 2, Llama, Llama 3, Llama 3.1, Qwen 2, Qwen2"
+DATA_URL: "https://github.com/aisingapore/kalahi"
 tags: 
 abstract: "Multilingual large language models (LLMs) today may not necessarily provide culturally appropriate and relevant responses to its Filipino users. We introduce KALAHI, a cultural LLM evaluation suite that is part of SEA-HELM. It was collaboratively created by native Filipino speakers, and is composed of 150 high-quality, handcrafted and nuanced prompts that test LLMs for generations that are relevant to shared Filipino cultural knowledge and values."
 ethics_perspective: "Social & Cultural Values"
@@ -66,6 +67,10 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Cultural LLM evaluation suite with 150 handcrafted prompts testing Filipino cultural knowledge and values. Created collaboratively by native Filipino speakers. Best model achieves only 46.0% vs native Filipino performance of 89.10%.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT, Falcon 7B, GPT-4, Gemma, Gemma 2, Llama, Llama 3, Llama 3.1, Qwen 2, Qwen2. Verified dataset/resource link: https://github.com/aisingapore/kalahi.
 
 ## Notes
 

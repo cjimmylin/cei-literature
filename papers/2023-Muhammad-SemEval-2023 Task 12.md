@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, Debertav3, RoBERTa, deberta using, electra"
 DATA_URL: "https://github.com/afrisenti-semeval/afrisent-semeval-2023"
 ---
 # SemEval-2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval)

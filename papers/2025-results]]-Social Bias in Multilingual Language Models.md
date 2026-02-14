@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "Pretrained multilingual models exhibit the same social bias as models processing English texts. This systematic review analyzes emerging research that extends bias evaluation and mitigation approaches into multilingual and non-English contexts. We examine these studies with respect to linguistic diversity, cultural awareness, and their choice of evaluation metrics and mitigation techniques. Our survey illuminates gaps in the field’s dominant methodological design choices (e.g."
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, ChatGPT, GPT-4, Llama, Llama 3, Qwen 2, word2vec"
+DATA_URL: "https://github.com/gamboalance/multilingual_"
 ethics_perspective: "Bias & Fairness"
 ---
 # Social Bias in Multilingual Language Models: A Survey
@@ -60,6 +61,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Comprehensive survey of social bias in multilingual language models, covering bias measurement, evaluation frameworks, and mitigation strategies across languages. Survey covering multilingual bias evaluation applicable to Dravidian languages. Provides framework for understanding bias in low-resource multilingual contexts.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT, GPT-4, Llama, Llama 3, Qwen 2, word2vec. Verified dataset/resource link: https://github.com/gamboalance/multilingual_.
 
 ## Notes
 

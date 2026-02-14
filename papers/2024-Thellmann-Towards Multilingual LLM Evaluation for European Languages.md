@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Barth, Barth4, Bloom, Bloom-7b1, Bloomz, ChatGPT, Gemma, Gemma-1.1, Gemma-2, Llama-2, LLama-3.1, Llama, Llama-3, Mistral-7B, Mistral-NeMo, Mixtral, Mixtral-8x7B, Phi-3-medium, Phi-3-mini, Qwen, Qwen2, Vicuna, Vicuna-13, BERT, command-r, GPT-4, mistralai"
+DATA_URL: "https://github.com/vllm-project/vllm"
 tags: 
 abstract: "The rise of Large Language Models (LLMs) has revolutionized natural language processing across numerous languages and tasks. However, evaluating LLM performance in a consistent and meaningful way across multiple European languages remains challenging, especially due to the scarcity of language-parallel multilingual benchmarks. We introduce a multilingual evaluation approach tailored for European languages."
 research_topic: "Machine Translation"
@@ -65,6 +66,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Assesses 40 LLMs across 21 European languages using translated MMLU, HellaSwag, ARC, TruthfulQA, GSM8K. Examines translation service impact and offers multilingual evaluation framework.
+
+## Data Description
+
+Backfill summary: Models assessed include Barth, Barth4, Bloom, Bloom-7b1, Bloomz, ChatGPT, Gemma, Gemma-1.1, Gemma-2, Llama-2, LLama-3.1, Llama, Llama-3, Mistral-7B, Mistral-NeMo, Mixtral, Mixtral-8x7B, Phi-3-medium, Phi-3-mini, Qwen, Qwen2, Vicuna, Vicuna-13, BERT, command-r, GPT-4, mistralai. Verified dataset/resource link: https://github.com/vllm-project/vllm.
 
 ## Notes
 

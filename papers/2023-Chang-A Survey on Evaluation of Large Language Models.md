@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "ALBERT, BERT, BLOOM, Bart, Bartolo, ChatGPT, Claude, Claude 1, Claude 2, GPT-3, GPT-3.5, GPT-4, InstructGPT, Llama, Llama2, Llama2., RoBERTa, Vicuna, text-davinci-002"
 DATA_URL: "https://github.com/MLGroupJLU/LLM-eval-survey"
 ---
 # A Survey on Evaluation of Large Language Models

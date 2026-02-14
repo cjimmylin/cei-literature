@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "With the growing presence of multilingual users on social media, detecting abusive language in code-mixed text has become increasingly challenging. Codemixed communication, where users seamlessly switch between English and their native languages, poses difficulties for traditional abuse detection models, as offensive content may be context-dependent or obscured by linguistic blending. While abusive language detection has been extensively explored for high-resource languages like English and..."
 data_description: "Multilingual benchmark annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/Ranveer098/Code-Mix-and-Code-Switch"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Creating and Evaluating Code-Mixed Nepali-English and Telugu-English Datasets for Abusive Language Detection
@@ -60,6 +61,10 @@ Unknown
 ## Abstract
 
 5,000 Nepali-English code-mixed comments (2,632 abusive, 2,368 non-abusive) for abusive language detection. Addresses lack of labeled datasets for code-mixed low-resource languages. Code-mixed Nepali-English abusive language dataset; relevant to cultural context of online harm.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/Ranveer098/Code-Mix-and-Code-Switch.
 
 ## Notes
 

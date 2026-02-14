@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Amazing book on applied AI"
@@ -31,7 +32,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "ChatGPT, Claude, LaMDA"
 DATA_URL: NA
 ---
 # A Companion to Applied Philosophy of AI

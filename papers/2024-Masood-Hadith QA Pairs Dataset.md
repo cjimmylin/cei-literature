@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,7 +31,7 @@ is_dataset: Yes
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: NA
+DATA_URL: "https://www.kaggle.com/datasets/rwmasood/hadith-qa-pairs"
 pdf_extract: "PDF Extracts/2024/2024-Masood-Hadith QA Pairs Dataset.md"
 local_pdf: "[[PDFs/2024/2024-Masood-Hadith QA Pairs Dataset.pdf]]"
 ---

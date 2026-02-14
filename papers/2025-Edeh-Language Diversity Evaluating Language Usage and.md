@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "This study examines the digital representation of African languages and the challenges this presents for current language detection tools. We evaluate their performance on Yoruba, Kinyarwanda, and Amharic. While these languages are spoken by millions, their online usage on conversational platforms is often sparse, heavily influenced by English, and not representative of the authentic, monolingual conversations prevalent among native speakers."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "Llama 3.3"
+DATA_URL: NA
 research_topic: "Dialogue Systems"
 ---
 # Language Diversity: Evaluating Language Usage and AI Performance on African Languages in Digital Spaces
@@ -60,6 +61,10 @@ research_topic: "Dialogue Systems"
 ## Abstract
 
 Examines digital representation of African languages and evaluates AI performance on Yoruba, Kinyarwanda, and Amharic. Local news media provides clean monolingual data; Reddit characterized by code-switching and scarcity. Evaluates Yoruba and Amharic digital presence. Addresses data quality and availability which drives cultural value representation in LLMs. Shows code-switching challenges for African language AI.
+
+## Data Description
+
+Backfill summary: Models assessed include Llama 3.3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

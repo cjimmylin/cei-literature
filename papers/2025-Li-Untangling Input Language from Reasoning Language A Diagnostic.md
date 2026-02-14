@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, Claude, Claude 1.00, Claude 11.5, Claude 42.7, Claude-Sonnet, DeepSeek, DeepSeek 0, DeepSeek-R1, Grok, Grok 0, Grok-4, Llama, Llama-4, Qwen, Qwen 28.6, Qwen 37.1, Qwen3"
+DATA_URL: NA
 tags: 
 abstract: "When LLMs judge moral dilemmas, do they reach different conclusions in different languages, and if so, why? Two factors could drive such differences: the language of the dilemma itself, or the language in which the model reasons. Standard evaluation conflates these by testing only matched conditions (e.g., English dilemma with English reasoning). We introduce a methodology that separately manipulates each factor, covering also mismatched conditions (e.g."
 ethics_perspective: "Moral Reasoning & Psychology"
@@ -63,6 +65,10 @@ ethics_perspective: "Moral Reasoning & Psychology"
 ## Abstract
 
 Diagnostic framework isolating effects of input language vs reasoning language on moral alignment in LLMs. Tests 13 LLMs; reasoning-language changes produce ~2x larger shifts than input-language changes. 44% of models have hidden context-dependency standard evaluation misses.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, Claude, Claude 1.00, Claude 11.5, Claude 42.7, Claude-Sonnet, DeepSeek, DeepSeek 0, DeepSeek-R1, Grok, Grok 0, Grok-4, Llama, Llama-4, Qwen, Qwen 28.6, Qwen 37.1, Qwen3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/OnlpLab/AlephBERT"
 tags: 
 abstract: "Large Pre-trained Language Models (PLMs) have become ubiquitous in the development of language understanding technology and lie at the heart of many artiﬁcial intelligence advances. While advances reported for English using PLMs are unprecedented, reported advances using PLMs in Hebrew are few and far between. The problem is twofold. First, Hebrew resources available for training NLP models are not at the same order of magnitude as their English counterparts."
 research_topic: "NLP & Representation Learning"
@@ -64,6 +65,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Hebrew pre-trained language model with evaluation suite covering Segmentation, POS Tagging, Morphological Tagging, NER, and Sentiment Analysis. Establishes benchmarks for Hebrew NLP pipeline evaluation.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/OnlpLab/AlephBERT.
 
 ## Notes
 

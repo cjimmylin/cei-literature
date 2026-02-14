@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -70,6 +72,11 @@ research_topic: Other
 ## Dataset Information
 
 Novel Buddhist Sanskrit corpus + general Sanskrit corpus + word similarity and word analogy evaluation datasets
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://figshare.com/articles/code/Gitlab_repository_of_Embeddings_models_for_Buddhist_Sanskrit/24056319 ; https://huggingface.co/Matej/bert-base-buddhist-sanskrit.
 
 ## Notes
 

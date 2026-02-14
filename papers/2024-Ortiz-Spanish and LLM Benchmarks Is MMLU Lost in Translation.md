@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Multi-task benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT4, GPT-4"
+DATA_URL: "https://huggingface.co/spaces/HuggingFaceH4"
 tags: 
 abstract: "The evaluation of Large Language Models (LLMs) is a key element in their continuous improvement process and many benchmarks have been developed to assess the performance of LLMs in different tasks and topics. As LLMs become adopted worldwide, evaluating them in languages other than English is increasingly important. However, most LLM benchmarks are simply translated using an automated tool and then run in the target language."
 research_topic: "Machine Translation"
@@ -65,6 +66,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Examines MMLU benchmark translated to Spanish via Azure Translator and ChatGPT4. Finds significant fraction of failing items attributable to translation mistakes. Makes case for expert-adapted benchmarks rather than automated translation.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT4, GPT-4. Verified dataset/resource link: https://huggingface.co/spaces/HuggingFaceH4.
 
 ## Notes
 

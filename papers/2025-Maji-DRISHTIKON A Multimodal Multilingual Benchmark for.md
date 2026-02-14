@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "We introduce DRISHTIKON, a first-of-its-kind multimodal and multilingual benchmark centered exclusively on Indian culture, designed to evaluate the cultural understanding of generative AI systems. Unlike existing benchmarks with a generic or global scope, DRISHTIKON offers deep, fine-grained coverage across India’s diverse regions, spanning 15 languages, covering all states and union territories, and incorporating over 64,000 aligned text-image pairs."
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "15 languages"
-LLM_assessed: NA
+LLM_assessed: "GPT-4o, GPT-4o mini, GPT-4o-mini, Gemma, Gemma-3, GPT-4, Mistral-7B, Qwen2, Qwen2.5"
 DATA_URL: "https://huggingface.co/datasets/13ari/DRISHTIKON"
 research_topic: "Computer Vision & Multimodal"
 ---
@@ -65,6 +67,10 @@ First multimodal/multilingual benchmark for Indian culture with 64,000+ text-ima
 ## Benchmark
 
 **Name:** DRISHTIKON
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-4o, GPT-4o mini, GPT-4o-mini, Gemma, Gemma-3, GPT-4, Mistral-7B, Qwen2, Qwen2.5. Verified dataset/resource link: https://huggingface.co/datasets/13ari/DRISHTIKON.
 
 ## Notes
 

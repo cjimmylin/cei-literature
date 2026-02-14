@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Summary: Uses theology and religion as evaluation domains for LLM philosophical skills. Tests chatbots on: (1) the four senses of Scripture (medieval hermeneutics), (2) abstract theological statements, (3) logical formulas derived from religious texts. Provides a benchmark framework for rating and comparing interpretive, deductive reasoning, and ontological skills."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ChatGPT, Codex, Llama2, Llama2."
+DATA_URL: NA
 research_topic: "Social & Cultural Analysis"
 ---
 # Religion, Theology, and Philosophical Skills of LLM-Powered Chatbots
@@ -64,6 +66,11 @@ Summary: Uses theology and religion as evaluation domains for LLM philosophical 
 ## Dataset Information
 
 Structured theological evaluation tasks based on 3 source types
+
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, Codex, Llama2, Llama2.. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

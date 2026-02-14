@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, DeepSeek, DEEPSEEK-V3, GPT-3, GROK 4, Gemma, Llama, LLAMA-3., LLAMA-3.2, LLAMA-3.3, QWEN-PLUS, QWEN3, gemma3, grok-4"
+DATA_URL: "https://github.com/JaidedAI/EasyOCR"
 tags: 
 abstract: "Large-scale multitask benchmarks have driven rapid progress in language modeling, yet most emphasize high-resource languages such as English, leaving Bengali underrepresented. We present BnMMLU, a comprehensive benchmark for measuring massive multitask language understanding in Bengali. BnMMLU spans 41 domains across STEM, humanities, social sciences, and general knowledge, and contains 134,375 multiple-choice question–option pairs-the most extensive Bengali evaluation suite to date."
 research_topic: "Machine Learning"
@@ -65,6 +67,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 138,949 question-option pairs across 23 domains including humanities and general knowledge, from academic textbooks and competitive exams. Annotated with three cognitive categories. Reveals significant performance gaps for Bengali.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, DeepSeek, DEEPSEEK-V3, GPT-3, GROK 4, Gemma, Llama, LLAMA-3., LLAMA-3.2, LLAMA-3.3, QWEN-PLUS, QWEN3, gemma3, grok-4. Verified dataset/resource link: https://github.com/JaidedAI/EasyOCR.
 
 ## Notes
 

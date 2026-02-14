@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, Gemini"
+LLM_assessed: "ChatGPT"
 DATA_URL: NA
 ---
  Strong and weak alignment of large language models with human values

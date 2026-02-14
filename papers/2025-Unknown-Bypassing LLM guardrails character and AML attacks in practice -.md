@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, DeBERTa, GPT-4o-mini"
+DATA_URL: "https://github.com/NoDataFound/hackGPT"
 tags: 
 abstract: 
 research_topic: Other
@@ -63,6 +64,10 @@ research_topic: Other
 ## Abstract
 
 Here are the web search results for "transliterated text LLM evaluation safety bypass": The search revealed several relevant research areas related to how LLMs handle transliterated text and safety mechanisms: Key Findings: Arabic Transliteration as a Safety Bypass Vector Research demonstrates that the use of Arabic chatspeak and transliteration could reveal LLM vulnerabilities that could be further exploited by adversaries. In one example, after mixing transliterated words with Arabi
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, DeBERTa, GPT-4o-mini. Verified dataset/resource link: https://github.com/NoDataFound/hackGPT.
 
 ## Notes
 

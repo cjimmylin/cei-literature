@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "With over 2,000 languages and potentially millions of speakers, Africa represents one of the richest linguistic regions in the world. Yet, this diversity is scarcely reflected in state-of-the-art natural language processing (NLP) systems and large language models (LLMs), which predominantly support a narrow set of high-resource languages. This exclusion not only limits the reach and utility of modern NLP technologies but also risks widening the digital divide across linguistic communities."
 data_description: N/A
 data_metrics: "2,000 languages"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, BLOOM, Claude, GPT-4o, Qwen3"
+DATA_URL: "https://github.com/glottolog/glottolog-cldf"
 research_topic: "NLP & Representation Learning"
 ---
 # Charting the Landscape of African NLP: Mapping Progress and Shaping the Road Ahead
@@ -60,6 +62,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Comprehensive survey analyzing 884 research papers on NLP for African languages over five years. Identifies key trends in multilingual resources, community-led initiatives, and research directions for inclusive NLP. Meta-survey of entire African NLP field. Identifies gaps and trends in benchmarking. Essential reference for understanding state of African language evaluation.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, BLOOM, Claude, GPT-4o, Qwen3. Verified dataset/resource link: https://github.com/glottolog/glottolog-cldf.
 
 ## Notes
 

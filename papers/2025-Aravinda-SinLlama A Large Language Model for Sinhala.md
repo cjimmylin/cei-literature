@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BLOOMZ, GPT-4, Gemma, Llama, Llama-3, Mistral, Mistral 7B, Phi3, RoBERTa, BERT"
+DATA_URL: "https://github.com/openai/tiktoken"
 tags: 
 abstract: "Low-resource languages such as Sinhala are often overlooked by open-source Large Language Models (LLMs). Therefore, it is imperative that the existing LLMs are further trained to cover such languages. In this research, we extend an existing multilingual LLM (Llama-3-8B) to get a better coverage for Sinhala. We enhanced the LLM tokenizer with Sinhala specific vocabulary and performed continual pre-training on a 10 million sentence Sinhala corpus, resulting in the SinLlama model."
 research_topic: "Machine Translation"
@@ -63,6 +64,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Extension of Llama-3-8B with enhanced Sinhala-specific tokenizer and continual pre-training on 10M sentence Sinhala corpus. First dedicated Sinhala LLM enabling downstream evaluation.
+
+## Data Description
+
+Backfill summary: Models assessed include BLOOMZ, GPT-4, Gemma, Llama, Llama-3, Mistral, Mistral 7B, Phi3, RoBERTa, BERT. Verified dataset/resource link: https://github.com/openai/tiktoken.
 
 ## Notes
 

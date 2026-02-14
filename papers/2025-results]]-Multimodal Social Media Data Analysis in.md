@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "Fifth Workshop on Speech, Vision, and Language Technologies for Dravi
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: "Computer Vision & Multimodal"
 ---
 # Multimodal Social Media Data Analysis in Dravidian Languages (MSMDA-DL) at DravidianLangTech-2025
@@ -64,6 +65,10 @@ Fifth Workshop on Speech, Vision, and Language Technologies for Dravidian Langua
 ## Benchmark
 
 **Name:** MSMDA-DL / DravidianLangTech-2025
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

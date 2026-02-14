@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-3, GPT-3.5 Turbo, Qwen, Qwen2.5, BERT, command-r, gemma-2"
+DATA_URL: "https://huggingface.co/datasets/openai/MMMLU"
 tags: 
 abstract: 
 research_topic: "NLP & Representation Learning"
@@ -62,6 +64,10 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Based on my search results, here are the key findings on Arabic language model ethics and moral reasoning benchmarks in 2025: Arabic Language Model Benchmarks Modern benchmarks like LAraBench, BALSAM, ORCA, and Dolphin provide unified evaluation benchmarks capturing understanding, generation, reasoning, and instruction-following while incorporating dialectal and domain diversity. Specific Ethics and Trustworthiness Benchmarks AraTrust: An AraTrust benchmark was introduced to evalua
+
+## Data Description
+
+Backfill summary: Models assessed include GPT-3, GPT-3.5 Turbo, Qwen, Qwen2.5, BERT, command-r, gemma-2. Verified dataset/resource link: https://huggingface.co/datasets/openai/MMMLU.
 
 ## Notes
 

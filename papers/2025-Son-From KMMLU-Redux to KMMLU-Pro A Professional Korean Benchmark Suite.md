@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude, Claude 3.7, Claude 3.7 Sonnet, DeepSeek, DeepSeek R1, DeepSeek-AI, DeepSeek-R1, GPT-4, GPT-4o, Grok 3, Grok-3, Llama, Llama-4, Qwen, Qwen 2.5, Qwen3, BERT"
+DATA_URL: "https://huggingface.co/datasets/LGAI-EXAONE"
 tags: 
 abstract: "The development of Large Language Models (LLMs) requires robust benchmarks that encompass not only academic domains but also industrial fields to effectively evaluate their applicability in real-world scenarios. In this paper, we introduce two Korean expert-level benchmarks. KMMLU-REDUX, reconstructed from the existing KMMLU (Son et al., 2024a), consists of questions from the Korean National Technical Qualification exams, with critical errors removed to enhance reliability."
 research_topic: "Machine Learning"
@@ -64,6 +66,10 @@ research_topic: "Machine Learning"
 ## Abstract
 
 KMMLU-Redux: reconstructed from Korean National Technical Qualification exams with errors removed (2,587 problems). KMMLU-Pro: professional licensure exams for advanced evaluation. Addresses data quality and contamination issues.
+
+## Data Description
+
+Backfill summary: Models assessed include Claude, Claude 3.7, Claude 3.7 Sonnet, DeepSeek, DeepSeek R1, DeepSeek-AI, DeepSeek-R1, GPT-4, GPT-4o, Grok 3, Grok-3, Llama, Llama-4, Qwen, Qwen 2.5, Qwen3, BERT. Verified dataset/resource link: https://huggingface.co/datasets/LGAI-EXAONE.
 
 ## Notes
 

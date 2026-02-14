@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ abstract:
 ethics_perspective: "Social & Cultural Values"
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT"
 DATA_URL: NA
 ---
 # Probing PLMs for Cross-Cultural Values (C3NLP Workshop)

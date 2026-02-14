@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, ChatGPT, GPT-3, GPT-4, GPT-4 Turbo, GPT-4o, Gemma, Gemma 2, Gemma-2, Llama, Llama 3.1, Llama-3.1, RoBERTa, Vicuna"
+DATA_URL: NA
 tags: 
 abstract: "Low-resource languages face significant challenges due to the lack of sufficient linguistic data, resources, and tools for tasks such as supervised learning, annotation, and classification. This shortage hinders the development of accurate models and datasets, making it difficult to perform critical NLP tasks like sentiment analysis or hate speech detection. To bridge this gap, Large Language Models (LLMs) present an opportunity for potential annotators, capable of generating datasets and..."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -63,6 +65,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Comparative study between fine-tuned BERT models and LLMs evaluating their potential as annotators for low-resource Marathi across sentiment, hate speech, and other tasks.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, ChatGPT, GPT-3, GPT-4, GPT-4 Turbo, GPT-4o, Gemma, Gemma 2, Gemma-2, Llama, Llama 3.1, Llama-3.1, RoBERTa, Vicuna. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

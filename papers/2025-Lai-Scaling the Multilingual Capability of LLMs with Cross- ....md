@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Alpaca, BLOOM, BLOOM 251, BLOOM 35, BLOOM 48, BLOOM 83, ChatGPT, Llama, LLaMA 23.26, LLaMA 32, LLaMA 38.10, LLaMA 45.65, LLaMA 5.38, LLaMA 50.00, LLaMA 6.26, LLaMA 7.09, LLaMA 76.6, Llama-2, T5-LM, bloom-7b1"
+DATA_URL: "https://github.com/boschresearch/ACL24-MLLM"
 tags: 
 abstract: "To democratize large language models (LLMs) to most natural languages, it is imperative to make these models capable of understanding and generating texts in many languages, in particular low-resource ones. While recent multilingual LLMs demonstrate remarkable performance in such capabilities, these LLMs still support a limited number of human languages due to the lack of training data for low-resource languages. Moreover, these LLMs are not yet aligned with human preference for downstream tasks, which is crucial for the success of LLMs in English. In this paper, we introduce xLLaMA-100 and xBLOOM-100 (collectively xLLMs-100), which scale the multilingual capabilities of LLaMA and BLOOM to 100 languages. To do so, we construct two datasets: a multilingual instruction dataset including 100 languages, which represents the largest language coverage to date, and a crosslingual human feedback dataset encompassing 30 languages. We perform multilingual instruction tuning on the constructed instruction data and further align the LLMs with human feedback using the DPO algorithm on our crosslingual human feedback dataset. We evaluate the multilingual understanding and generating capabilities of xLLMs-100 on five multilingual benchmarks. Experimental results show that xLLMs-100 consistently outperforms its peers across the benchmarks by considerable margins, defining a new state-of-the-art multilingual LLM that supports 100 languages1."
 research_topic: "Machine Translation"
@@ -64,6 +66,10 @@ research_topic: "Machine Translation"
 
 
 To democratize large language models (LLMs) to most natural languages, it is imperative to make these models capable of understanding and generating texts in many languages, in particular low-resource ones. While recent multilingual LLMs demonstrate remarkable performance in such capabilities, these LLMs still support a limited number of human languages due to the lack of training data for low-resource languages. Moreover, these LLMs are not yet aligned with human preference for downstream tasks, which is crucial for the success of LLMs in English. In this paper, we introduce xLLaMA-100 and xBLOOM-100 (collectively xLLMs-100), which scale the multilingual capabilities of LLaMA and BLOOM to 100 languages. To do so, we construct two datasets: a multilingual instruction dataset including 100 languages, which represents the largest language coverage to date, and a crosslingual human feedback dataset encompassing 30 languages. We perform multilingual instruction tuning on the constructed instruction data and further align the LLMs with human feedback using the DPO algorithm on our crosslingual human feedback dataset. We evaluate the multilingual understanding and generating capabilities of xLLMs-100 on five multilingual benchmarks. Experimental results show that xLLMs-100 consistently outperforms its peers across the benchmarks by considerable margins, defining a new state-of-the-art multilingual LLM that supports 100 languages1.
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, BLOOM, BLOOM 251, BLOOM 35, BLOOM 48, BLOOM 83, ChatGPT, Llama, LLaMA 23.26, LLaMA 32, LLaMA 38.10, LLaMA 45.65, LLaMA 5.38, LLaMA 50.00, LLaMA 6.26, LLaMA 7.09, LLaMA 76.6, Llama-2, T5-LM, bloom-7b1. Verified dataset/resource link: https://github.com/boschresearch/ACL24-MLLM.
 
 ## Notes
 

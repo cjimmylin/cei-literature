@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ tags:
 abstract: "Language modeling has witnessed remarkable advancements in recent years, with Large Language Models (LLMs) like ChatGPT setting unparalleled benchmarks in human-like text generation. However, a prevailing limitation is the underrepresentation of languages like Tamil in these cutting-edge models, leading to suboptimal performance in diverse linguistic contexts. This paper addresses this lacuna, enhancing the open-source LLaMA model with an addition of 16,000 Tamil tokens, aiming to achieve..."
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Alpaca, ChatGPT, GPT-3, GPT-4, Llama, LLAMA 2, LLaMA 1, LLaMA 3.1, LLaMA 1., LLaMA., Mistral, Mistral 7b, gpt-3.5-turbo"
 DATA_URL: "https://huggingface.co/abhinand/tamil-llama-7b-instruct-v0.2"
 research_topic: "AI Safety & Alignment"
 ---
@@ -61,6 +62,10 @@ research_topic: "AI Safety & Alignment"
 ## Abstract
 
 New Tamil language model based on Llama 2. Includes Tamil-specific evaluation benchmarks and model training for Tamil text generation and understanding. Tamil-specific LLM with evaluation benchmarks. Foundation model for Tamil language AI evaluation.
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, ChatGPT, GPT-3, GPT-4, Llama, LLAMA 2, LLaMA 1, LLaMA 3.1, LLaMA 1., LLaMA., Mistral, Mistral 7b, gpt-3.5-turbo. Verified dataset/resource link: https://huggingface.co/abhinand/tamil-llama-7b-instruct-v0.2.
 
 ## Notes
 

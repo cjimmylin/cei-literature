@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Electra"
+DATA_URL: "https://github.com/fxsjy/jieba"
 tags: 
 abstract: "As natural language processing for gender bias becomes a significant interdisciplinary topic, the prevalent data-driven techniques, such as pre-trained language models, suffer from biased corpus. This case becomes more obvious regarding those languages with less fairness-related computational linguistic resources, such as Chinese. To this end, we propose a Chinese cOrpus foR Gender bIas Probing and Mitigation (CORGI-PM), which contains 32.9k sentences with high-quality labels derived by following an annotation scheme specifically developed for gender bias in the Chinese context. It is worth noting that CORGI-PM contains 5.2k gender-biased sentences along with the corresponding bias-eliminated versions rewritten by human annotators. We pose three challenges as a shared task to automate the mitigation of textual gender bias, which requires the models to detect, classify, and mitigate textual gender bias. In the literature, we present the results and analysis for the teams participating this shared task in NLPCC 2025."
 ethics_perspective: "Bias & Fairness"
@@ -63,6 +65,10 @@ ethics_perspective: "Bias & Fairness"
 
 
 As natural language processing for gender bias becomes a significant interdisciplinary topic, the prevalent data-driven techniques, such as pre-trained language models, suffer from biased corpus. This case becomes more obvious regarding those languages with less fairness-related computational linguistic resources, such as Chinese. To this end, we propose a Chinese cOrpus foR Gender bIas Probing and Mitigation (CORGI-PM), which contains 32.9k sentences with high-quality labels derived by following an annotation scheme specifically developed for gender bias in the Chinese context. It is worth noting that CORGI-PM contains 5.2k gender-biased sentences along with the corresponding bias-eliminated versions rewritten by human annotators. We pose three challenges as a shared task to automate the mitigation of textual gender bias, which requires the models to detect, classify, and mitigate textual gender bias. In the literature, we present the results and analysis for the teams participating this shared task in NLPCC 2025.
+
+## Data Description
+
+Backfill summary: Models assessed include Electra. Verified dataset/resource link: https://github.com/fxsjy/jieba.
 
 ## Notes
 

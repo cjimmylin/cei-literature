@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract: "This position paper concerns the use of religious texts in Natural La
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 ethics_perspective: "Social & Cultural Values"
 ---
 # Modeling the Sacred: Considerations when Using Religious Texts in Natural Language Processing
@@ -64,6 +66,11 @@ Position paper presenting an empirical study of how NLP papers use sacred texts.
 ## Dataset Information
 
 Empirical survey of NLP papers using religious texts
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

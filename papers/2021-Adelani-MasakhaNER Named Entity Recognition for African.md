@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ tags:
 abstract: "We take a step towards addressing the under­ representation of the African continent in NLP research by bringing together different stakeholders to create the first large, publicly available, high­quality dataset for named en­ tity recognition (NER) in ten African lan­ guages. We detail the characteristics of these languages to help researchers and practition­ ers better understand the challenges they pose for NER tasks."
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/masakhane-io/masakhane-ner"
 research_topic: "NLP & Representation Learning"
 ---
@@ -66,6 +67,10 @@ First large publicly available high-quality NER dataset for 10 African languages
 ## Benchmark
 
 **Name:** MasakhaNER
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa. Verified dataset/resource link: https://github.com/masakhane-io/masakhane-ner.
 
 ## Notes
 

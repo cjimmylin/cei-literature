@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract: "Presents DweshVaani, a fine-tuned Gemma-2 model for detecting religio
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # DweshVaani: An LLM for Detecting Religious Hate Speech in Code-Mixed Hindi-English
@@ -64,6 +66,11 @@ Presents DweshVaani, a fine-tuned Gemma-2 model for detecting religious hate spe
 ## Dataset Information
 
 Religious hate speech corpus in code-mixed Hindi-English
+
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

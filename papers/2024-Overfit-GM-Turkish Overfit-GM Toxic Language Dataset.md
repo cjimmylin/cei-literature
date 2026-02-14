@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -61,6 +62,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Turkish toxic language dataset available on HuggingFace for toxicity detection and content moderation in Turkish language. Publicly available Turkish toxicity dataset on HuggingFace. Useful for evaluating LLM safety and toxicity detection capabilities in Turkish.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/Overfit-GM/turkish-toxic-language.
 
 ## Notes
 

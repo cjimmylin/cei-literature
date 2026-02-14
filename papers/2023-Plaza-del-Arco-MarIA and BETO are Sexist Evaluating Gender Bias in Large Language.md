@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, BERT, Bartl, ELECTRA, RoBERTa"
+DATA_URL: NA
 tags: 
 abstract: "Evaluates gender bias in 20 Spanish language models including BETO, MarIA, ELECTRICIDAD, and BERT-multilingual using masked language modeling. Finds strong body-related bias toward women and behavior-related bias toward men."
 ethics_perspective: "Bias & Fairness"
@@ -68,6 +69,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Evaluates gender bias in 20 Spanish language models including BETO, MarIA, ELECTRICIDAD, and BERT-multilingual using masked language modeling. Finds strong body-related bias toward women and behavior-related bias toward men.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, BERT, Bartl, ELECTRA, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, ChatGPT"
+DATA_URL: "https://github.com/EthicalML/xai"
 tags: 
 abstract: "In Artificial Intelligence (AI), language models have gained significant importance due to the widespread adoption of systems capable of simulating realistic conversations with humans through text generation. Because of their impact on society, developing and deploying these language models must be done responsibly, with attention to their negative impacts and possible harms. In this scenario, the number of AI Ethics Tools (AIETs) publications has recently increased."
 ethics_perspective: "Machine Ethics"
@@ -63,6 +64,10 @@ ethics_perspective: "Machine Ethics"
 ## Abstract
 
 Evaluated 4 AI Ethics Tools (Model Cards, ALTAI, FactSheets, Harms Modeling) on Portuguese language models via 35 hours of developer interviews. Found AIETs fail to address cultural and social representation risks specific to Portuguese.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, ChatGPT. Verified dataset/resource link: https://github.com/EthicalML/xai.
 
 ## Notes
 

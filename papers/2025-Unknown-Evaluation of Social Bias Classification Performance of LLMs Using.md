@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT-4o"
+DATA_URL: NA
 tags: 
 abstract: "Comparative analysis of GPT-3.5 Turbo and GPT-4o on Korean social bias classification using KoSBI dataset. Evaluates LLM performance on Korean-specific bias detection and mitigation."
 ethics_perspective: "Bias & Fairness"
@@ -64,6 +65,10 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Comparative analysis of GPT-3.5 Turbo and GPT-4o on Korean social bias classification using KoSBI dataset. Evaluates LLM performance on Korean-specific bias detection and mitigation.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT-4o. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

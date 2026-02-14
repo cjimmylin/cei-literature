@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ abstract: "When a user tells an AI system that someone should not take an action
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude, Gemini, Grok, DeepSeek, Qwen, Llama, Gemma, Phi"
+LLM_assessed: "GPT-4, Claude, Grok, DeepSeek, Qwen, Llama, Gemma, Phi"
 DATA_URL: NA
 ---
 # Negation Sensitivity Index (NSI)

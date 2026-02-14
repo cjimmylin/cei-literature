@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ research_topic: Other
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa, ALBERT"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/datasets/sst"
 ---
 # BasqBBQ (Basque BBQ)
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_dataset: Yes
 data_description: "Evaluation methodology annotated dataset"
 data_metrics: "10 categories"
 LLM_assessed: NA
-DATA_URL: NA
+DATA_URL: "https://github.com/limteng-rpi/moral_annotation_tool"
 pdf_extract: "PDF Extracts/2020/2020-Hoover-Moral Foundations Twitter Corpus.md"
 local_pdf: "[[PDFs/2020/2020-Hoover-Moral Foundations Twitter Corpus.pdf]]"
 ---

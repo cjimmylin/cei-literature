@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, GPT-2, GPT-3, GPT2, RoBERTa, T5, T5-11B, XLNet"
 DATA_URL: NA
 ---
 # Ethical and social risks of harm from Language Models

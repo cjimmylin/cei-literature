@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Detection and classification of explicit and implicit racial stereotypes in Spanish social media and news comments. 12,111 sentences from tweets and comments related to immigration and racial hoaxes. Incorporates learning with disagreement techniques."
 research_topic: Other
@@ -67,6 +68,10 @@ research_topic: Other
 ## Abstract
 
 Detection and classification of explicit and implicit racial stereotypes in Spanish social media and news comments. 12,111 sentences from tweets and comments related to immigration and racial hoaxes. Incorporates learning with disagreement techniques.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

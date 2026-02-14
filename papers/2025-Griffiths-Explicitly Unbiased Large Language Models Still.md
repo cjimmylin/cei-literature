@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Introduces two psychological measures (LLM Word Association Test and LLM Relative Decision Test) adapted from the Implicit Association Test to reveal implicit bias in explicitly unbiased LLMs. Finds pervasive stereotype biases across race, gender, religion, and health in 8 value-aligned models. For religion, all three tested religions show small negativity bias, with small pro-Christian bias over Islamic and Jewish groups. Sizable effects on discriminatory decisions."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Alpaca, Claude-3-Opus, Claude-3-Sonnet, Claude3-Opus, Claude3-Sonnet, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Llama, LLaMA2Chat, Llama2"
 DATA_URL: "LLM Word Association Test, LLM Relative Decision Test (methodological tools)"
 research_topic: Other
 ---
@@ -65,6 +67,11 @@ Introduces two psychological measures (LLM Word Association Test and LLM Relativ
 ## Dataset Information
 
 8 value-aligned models, 4 social categories, 21 stereotypes
+
+
+## Data Description
+
+Backfill summary: Models assessed include Alpaca, Claude-3-Opus, Claude-3-Sonnet, Claude3-Opus, Claude3-Sonnet, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Llama, LLaMA2Chat, Llama2. Verified dataset/resource link: LLM Word Association Test, LLM Relative Decision Test (methodological tools).
 
 ## Notes
 

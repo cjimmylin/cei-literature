@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Recently, Large Language Models (LLMs) have dominated much of the artificial intelligence scene with their ability to process and generate natural languages. However, the majority of LLM research and development remains English-centric, leaving low-resource languages such as those in the Southeast Asian (SEA) region underrepresented. To address this representation gap, we introduce LlamaSEA-LION-8B-IT and Gemma-SEA-LION9B-IT, two cutting-edge multilingual LLMs designed for SEA languages."
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BLOOM, Gemma, Gemma 2, Gemma 35.15, Gemma 35.31, Gemma 69.37, Gemma-2, Gemma2, Llama, Llama 3.1, Llama-3.1, Llama., Qwen, Qwen 2.5, Qwen2, Qwen2.5, llama 3"
 DATA_URL: "https://github.com/aisingapore/sealion"
 ethics_perspective: "AI Safety & Alignment"
 ---
@@ -65,6 +67,10 @@ Family of LLMs for SEA languages achieving state-of-the-art performances on SEA-
 ## Benchmark
 
 **Name:** SEA-LION
+
+## Data Description
+
+Backfill summary: Models assessed include BLOOM, Gemma, Gemma 2, Gemma 35.15, Gemma 35.31, Gemma 69.37, Gemma-2, Gemma2, Llama, Llama 3.1, Llama-3.1, Llama., Qwen, Qwen 2.5, Qwen2, Qwen2.5, llama 3. Verified dataset/resource link: https://github.com/aisingapore/sealion.
 
 ## Notes
 

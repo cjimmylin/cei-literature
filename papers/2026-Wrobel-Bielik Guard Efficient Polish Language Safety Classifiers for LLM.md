@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for ai safety annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, Gemma, Llama, Llama Guard, Qwen3Guard, RoBERTa"
+DATA_URL: NA
 tags: 
 abstract: "As Large Language Models (LLMs) become increasingly deployed in Polish language applications, the need for efficient and accurate content safety classifiers has become paramount. We present Bielik Guard, a family of compact Polish language safety classifiers comprising two model variants: a 0.1B parameter model based on MMLW-RoBERTa-base and a 0.5B parameter model based on PKOBP/polish-roberta-8k. Fine-tuned on a community-annotated dataset of 6,885 Polish texts, these models classify content..."
 ethics_perspective: "AI Safety & Alignment"
@@ -65,6 +66,10 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Family of compact Polish safety classifiers (0.1B and 0.5B parameters) classifying content across 5 categories: Hate/Aggression, Vulgarities, Sexual Content, Crime, Self-Harm. Community-annotated dataset of 6,885 texts.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Gemma, Llama, Llama Guard, Qwen3Guard, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

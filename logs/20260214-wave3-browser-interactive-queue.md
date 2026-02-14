@@ -94,7 +94,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Tactic: Open source URL, inspect for PDF link targets, then use DOI/OpenAlex/Scholar fallback searches.
   Recent failed attempts: http://nilc.icmc.usp.br/assin/ [HTTP 301] | http://nilc.icmc.usp.br/assin/ [HTTP 301]
 
-- [x] `LSRC0156` `2021-Unknown-Fake News Detection in Low-Resourced Languages Kurdish Language Using.md`
+- [x] `LSRC0156` `2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using.md`
   Status: resolved - verified (manual-auth strict-verify)
   Title: Fake News Detection in Low-Resourced Languages: Kurdish Language Using Machine Learning Algorithms
   Host: `turcomat.org`
@@ -105,7 +105,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Scholar: https://scholar.google.com/scholar?q=Fake+News+Detection+in+Low-Resourced+Languages%3A+Kurdish+Language+Using+Machine+Learning+Algorithms
   Tactic: Open source URL, inspect for PDF link targets, then use DOI/OpenAlex/Scholar fallback searches.
   Resolved source: https://turcomat.org/index.php/turkbilmat/article/download/8393/6569
-  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2021/2021-Unknown-Fake News Detection in Low-Resourced Languages Kurdish Language Using.pdf
+  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2021/2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using.pdf
   Recent failed attempts: https://turcomat.org/index.php/turkbilmat/article/view/8393 [not_pdf_header] | https://turcomat.org/index.php/turkbilmat/article/download/8393 [HTTP 404] | https://turcomat.org/index.php/turkbilmat/article/download/8393/0 [HTTP 404] | https://turcomat.org/index.php/turkbilmat/article/download/8393/6569 [ok_manual_auth]
 
 - [ ] `LSRC0139` `2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram.md`
@@ -118,7 +118,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Tactic: Open source URL, inspect for PDF link targets, then use DOI/OpenAlex/Scholar fallback searches.
   Recent failed attempts: https://tjee.tabrizu.ac.ir/article_15794.html [HTTP 000] | https://tjee.tabrizu.ac.ir/article_15794.html [HTTP 000]
 
-- [x] `LSRC0158` `2023-Unknown-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.md`
+- [x] `LSRC0158` `2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.md`
   Status: resolved - verified (manual-auth strict-verify)
   Title: Towards a Complete Kurdish NLP Pipeline: Challenges and Opportunities
   Host: `journal.uad.ac.id`
@@ -129,7 +129,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Scholar: https://scholar.google.com/scholar?q=Towards+a+Complete+Kurdish+NLP+Pipeline%3A+Challenges+and+Opportunities
   Tactic: Open source URL, inspect for PDF link targets, then use DOI/OpenAlex/Scholar fallback searches.
   Resolved source: https://journal.uad.ac.id/index.php/JIFO/article/download/26053/pdf_66
-  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2023/2023-Unknown-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.pdf
+  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2023/2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.pdf
   Recent failed attempts: https://journal.uad.ac.id/index.php/JIFO/article/view/26053 [not_pdf_header] | https://journal.uad.ac.id/index.php/JIFO/article/download/26053 [HTTP 404] | https://journal.uad.ac.id/index.php/JIFO/article/download/26053/0 [HTTP 404] | https://journal.uad.ac.id/index.php/JIFO/article/download/26053/pdf_66 [ok_manual_auth]
 
 - [ ] `LSRC0127` `2024-Miranda-Desiderata for Filipino NLP in the Age of LLMs.md`
@@ -214,7 +214,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Tactic: Open IEEE page in full browser session; try stamp.jsp arnumber URL and institutional access.
   Recent failed attempts: https://ieeexplore.ieee.org/document/9936700 [not_pdf_header] | https://doi.org/10.1109/taffc.2022.3219229 [not_pdf_header] | https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9936700 [not_pdf_header] | semantic_scholar [api_error:HTTPError] | https://doi.org/10.1109/taffc.2022.3219229 [not_pdf_header] | http://xplorestaging.ieee.org/ielx7/5165369/10330166/09936700.pdf?arnumber=9936700 [not_pdf_header] | https://ieeexplore.ieee.org/document/9936700 [not_pdf_header] | https://doi.org/10.1109/taffc.2022.3219229 [not_pdf_header] | https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9936700 [not_pdf_header]
 
-- [x] `LSRC0141` `2024-Unknown-ParsOffensive Persian Offensive Comments Dataset.md`
+- [x] `LSRC0141` `2024-Hossein-ParsOffensive Persian Offensive Comments Dataset.md`
   Status: resolved - verified (title_tokens:3/4)
   Title: ParsOffensive: Persian Offensive Comments Dataset
   Host: `ieeexplore.ieee.org`
@@ -226,7 +226,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Scholar: https://scholar.google.com/scholar?q=ParsOffensive%3A+Persian+Offensive+Comments+Dataset
   Tactic: Open IEEE page in full browser session; try stamp.jsp arnumber URL and institutional access.
   Resolved source: https://arxiv.org/pdf/2404.05540
-  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2024/2024-Unknown-ParsOffensive Persian Offensive Comments Dataset.pdf
+  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2024/2024-Hossein-ParsOffensive Persian Offensive Comments Dataset.pdf
   Recent failed attempts: https://ieeexplore.ieee.org/document/11006224 [not_pdf_header] | https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11006224 [not_pdf_header]
 
 ## P2 · PAYWALL_SPRINGER (5)
@@ -543,7 +543,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Tactic: This is usually a resource/benchmark page. Look for cited paper DOI and fetch that PDF instead.
   Recent failed attempts: https://github.com/davardoust/PHICAD [not_pdf_header] | https://github.com/davardoust/PHICAD [not_pdf_header]
 
-- [x] `LSRC0144` `2024-Unknown-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.md`
+- [x] `LSRC0144` `2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.md`
   Status: resolved - verified (handoff host-pass; title_tokens:5/7)
   Title: ParsBench: Toolkits for Benchmarking LLMs Based on the Persian Language Tasks
   Host: `github.com`
@@ -554,7 +554,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Scholar: https://scholar.google.com/scholar?q=ParsBench%3A+Toolkits+for+Benchmarking+LLMs+Based+on+the+Persian+Language+Tasks
   Tactic: This is usually a resource/benchmark page. Look for cited paper DOI and fetch that PDF instead.
   Resolved source: https://arxiv.org/pdf/2404.02403
-  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2024/2024-Unknown-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.pdf
+  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2024/2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.pdf
   Recent failed attempts: https://github.com/ParsBench/ParsBench [not_pdf_header] | https://github.com/ParsBench/ParsBench [not_pdf_header] | https://arxiv.org/abs/2404.02403 [not_pdf_header] | https://arxiv.org/pdf/2404.02403.pdf [ok_handoff]
 
 - [ ] `LSRC0200` `2024-Unknown-WoNBias A Complete Bengali Gender Bias Dataset.md`

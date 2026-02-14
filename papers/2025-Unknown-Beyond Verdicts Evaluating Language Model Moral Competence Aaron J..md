@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, DeepSeek, GPT-4"
+DATA_URL: NA
 tags: 
 abstract: 
 ethics_perspective: "General Ethics"
@@ -63,6 +65,10 @@ ethics_perspective: "General Ethics"
 ## Abstract
 
 Based on the search results, here's what I found about Chinese moral dilemma LLM alignment evaluation in 2025: Key Research Findings Recent research introduced the Multi-step Moral Dilemmas (MMDs) framework, a path-dependent evaluation approach that captures temporal dynamics of moral judgment. This research across 3,302 five-stage dilemmas revealed that LLMs maintain value orientations while flexibly adjusting preference strengths across sequential dilemmas, with value preferences shifting
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, DeepSeek, GPT-4. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ research_topic: Other
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "Gemma, Llama-3"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/meta-llama/Llama-Guard-3-8B"
 ---
 # GuardEval
 

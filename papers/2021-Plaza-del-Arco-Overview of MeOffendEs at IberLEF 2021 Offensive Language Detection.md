@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, RoBERTa, gloVe, word2vec"
+DATA_URL: NA
 tags: 
 abstract: "Shared task on offensive language detection in Spanish variants at IberLEF 2021. Four subtasks including generic Spanish and Mexican Spanish-specific identification. 30,416 published posts. 12 teams submitted official runs."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -66,6 +67,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Shared task on offensive language detection in Spanish variants at IberLEF 2021. Four subtasks including generic Spanish and Mexican Spanish-specific identification. 30,416 published posts. 12 teams submitted official runs.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa, gloVe, word2vec. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

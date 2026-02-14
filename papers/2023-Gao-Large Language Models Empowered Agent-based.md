@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5, GPT-4, PaLM, text-davinci"
+DATA_URL: "https://github.com/tatsu-lab/stanford_alpaca"
 ---
 # Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ tags:
 abstract: "This paper presents the Dravidian Offensive Span Identiﬁcation Dataset (DOSA) for under-resourced Tamil-English and KannadaEnglish code-mixed text. The dataset addresses the lack of code-mixed datasets with annotated offensive spans by extending annotations of existing code-mixed offensive language identiﬁcation datasets. It provides span annotations for Tamil-English and KannadaEnglish code-mixed comments posted by users on YouTube social media."
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, DistilBERT, RoBERTa"
 DATA_URL: "https://github.com/manikandan-ravikiran/dosa"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
@@ -65,6 +66,10 @@ Offensive span identification dataset for Tamil-English (4786 comments, 6202 spa
 ## Benchmark
 
 **Name:** DOSA
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, DistilBERT, RoBERTa. Verified dataset/resource link: https://github.com/manikandan-ravikiran/dosa.
 
 ## Notes
 

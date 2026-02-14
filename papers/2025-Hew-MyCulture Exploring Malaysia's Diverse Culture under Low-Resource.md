@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "DeepSeek, DeepSeek-V3, GPT-4o, GPT-4o mini, GPT-4, Llama, Llama 3.2, Llama 4, Qwen3, llama 3"
+DATA_URL: NA
 tags: 
 abstract: "Large Language Models (LLMs) often exhibit cultural biases due to training data dominated by high-resource languages like English and Chinese. This poses challenges for accurately representing and evaluating diverse cultural contexts, particularly in low-resource language settings. To address this, we introduce MyCulture, a benchmark designed to comprehensively evaluate LLMs on Malaysian culture across six pillars: arts, attire, customs, entertainment, food, and religion presented in Bahasa..."
 ethics_perspective: "Social & Cultural Values"
@@ -65,6 +67,10 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 2,600 questions in Bahasa Malaysia evaluating LLMs on Malaysian culture across six pillars: arts, attire, customs, entertainment, food, and religion. Novel open-ended MCQ format reduces guessing bias. LLMs' performance drops at least 17% with open-ended format.
+
+## Data Description
+
+Backfill summary: Models assessed include DeepSeek, DeepSeek-V3, GPT-4o, GPT-4o mini, GPT-4, Llama, Llama 3.2, Llama 4, Qwen3, llama 3. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

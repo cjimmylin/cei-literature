@@ -1,4 +1,7 @@
 ---
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +36,8 @@ tags:
 abstract: "Emotions play important epistemological and cognitive roles in our lives, revealing our values and guiding our actions. Previous work has shown that LLMs display biases in emotion attribution along gender lines. However, unlike gender, which says little about our values, religion, as a socio-cultural system, prescribes a set of beliefs and values for its followers. Religions, therefore, cultivate certain emotions. Moreover, these rules are explicitly laid out and interpreted by religious leaders."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ALBERT, GPT-4, GPT-4o, Llama, Llama3, Mistral-7b, BERT"
+DATA_URL: NA
 ethics_perspective: "Social & Cultural Values"
 ---
 # Divine LLaMAs: Bias, Stereotypes, Stigmatization, and Emotion Representation of Religion in Large Language Models
@@ -64,6 +67,11 @@ Systematically examines how LLMs represent different religions through emotion a
 ## Dataset Information
 
 7,586 events from ISEAR dataset x 19 personas
+
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, GPT-4, GPT-4o, Llama, Llama3, Mistral-7b, BERT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

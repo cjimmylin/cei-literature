@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "The Nepali language has distinct linguistic features, especially its complex script (Devanagari script), morphology, and various dialects, which pose a unique challenge for Natural Language Understanding (NLU) tasks. While the Nepali Language Understanding Evaluation (Nep-gLUE) benchmark provides a foundation for evaluating models, it remains limited in scope, covering four tasks. This restricts their utility for comprehensive assessments of Natural Language Processing (NLP) models."
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, DeBERTa, DeBERTa-v3, Distilbert, GPT-4o-mini, RoBERTa"
+DATA_URL: NA
 research_topic: "Machine Learning"
 ---
 # Consolidating and Developing Benchmarking Datasets for the Nepali Natural Language Understanding Tasks (NLUE)
@@ -64,6 +66,10 @@ Unknown
 ## Benchmark
 
 **Name:** NLUE (Nepali Language Understanding Evaluation)
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, DeBERTa, DeBERTa-v3, Distilbert, GPT-4o-mini, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BART, BERT, T5, word2vec"
+DATA_URL: "https://github.com/CorCenCC/CyTag"
 tags: 
 abstract: 
 research_topic: Other
@@ -64,6 +66,10 @@ research_topic: Other
 ## Abstract
 
 Based on the search results, I found substantial information about Celtic language NLP benchmarks and evaluation efforts: Overview of Celtic Language NLP Research Celtic languages have historically lagged behind in the area of natural language processing (NLP) and machine translation (MT), but this has been changing in recent years. Key Benchmarking and Evaluation Efforts Multilingual AMR Parsing: Researchers have created a multilingual text-to-AMR model for three Celtic languages—W
+
+## Data Description
+
+Backfill summary: Models assessed include BART, BERT, T5, word2vec. Verified dataset/resource link: https://github.com/CorCenCC/CyTag.
 
 ## Notes
 

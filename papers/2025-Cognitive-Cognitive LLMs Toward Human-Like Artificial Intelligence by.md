@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Resolving the dichotomy between the human-like yet constrained reasoning processes of cognitive architectures (CAs) and the broad but often noisy inference behavior of large language models (LLMs) remains a challenging yet exciting pursuit, aimed at enabling reliable machine reasoning capabilities in LLMs. Previous approaches that employ off-the-shelf LLMs in manufacturing decision-making face challenges in complex reasoning tasks, often exhibiting human-level yet unhuman-like behaviors due to insufficient grounding. This present article start to address this gap by asking whether LLMs can replicate cognition from CAs to make human-like decisions. We introduce             cognitive LLMs             , which are hybrid decision-making architectures comprised of a CA and an LLM through a knowledge transfer mechanism                            LLM-ACTR                          .             Cognitive LLMs             extract and embed knowledge of CA’s internal decision-making process as latent neural representations, inject this information into trainable LLM adapter layers, and fine-tune the LLMs for downstream prediction tasks. We find that, after knowledge transfer through                            LLM-ACTR                          , the             cognitive LLMs             offers better representations of human decision-making behaviors on a novel design for manufacturing problem, compared to an LLM-only model that employs chain-of-thought. Taken together, the results open up new research directions for equipping LLMs with the necessary knowledge to computationally model and replicate the internal mechanisms of human cognitive decision-making. We release the code and data samples at             https://github.com/SiyuWu528/LLM-ACTR             ."
 research_topic: Other
@@ -82,6 +83,10 @@ Resolving the dichotomy between the human-like yet constrained reasoning process
             offers better representations of human decision-making behaviors on a novel design for manufacturing problem, compared to an LLM-only model that employs chain-of-thought. Taken together, the results open up new research directions for equipping LLMs with the necessary knowledge to computationally model and replicate the internal mechanisms of human cognitive decision-making. We release the code and data samples at
             https://github.com/SiyuWu528/LLM-ACTR
             .
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

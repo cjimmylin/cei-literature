@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "We present Sailor, a family of open language models ranging from 0.5B to 7B parameters, tailored for South-East Asian (SEA) languages. These models are continually pre-trained from Qwen1.5, a great language model for multilingual use cases. From Qwen1.5, Sailor models accept 200B to 400B tokens, primarily covering the languages of English, Chinese, Vietnamese, Thai, Indonesian, Malay, and Lao. The training leverages several techniques, including BPE dropout for improving the model robustness,..."
 data_description: "Multilingual benchmark text corpus for question answering"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Llama, Llama 2, Llama-2, Mistral, Qwen1.5"
 DATA_URL: "https://github.com/sail-sg/sailor-llm"
 research_topic: "AI Safety & Alignment"
 ---
@@ -65,6 +67,10 @@ Suite of open language models for SEA focusing on Indonesian, Thai, Vietnamese, 
 ## Benchmark
 
 **Name:** Sailor
+
+## Data Description
+
+Backfill summary: Models assessed include Llama, Llama 2, Llama-2, Mistral, Qwen1.5. Verified dataset/resource link: https://github.com/sail-sg/sailor-llm.
 
 ## Notes
 

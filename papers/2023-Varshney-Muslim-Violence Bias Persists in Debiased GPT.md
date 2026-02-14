@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "Abid et al. (2021) showed a tendency in GPT-3 to generate mostly violent completions when prompted about Muslims, compared with other religions. Two pre-registered replication attempts found few violent completions and only a weak anti-Muslim bias in the more recent InstructGPT, fine-tuned to eliminate biased and toxic outputs. However, more pre-registered experiments showed that using common names associated with the religions in prompts increases several-fold the rate of violent completions,..."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "ChatGPT, GPT-3, InstructGPT"
+DATA_URL: NA
 ethics_perspective: "Bias & Fairness"
 ---
 # Muslim-Violence Bias Persists in Debiased GPT Models
@@ -64,6 +66,11 @@ Tests whether debiasing efforts in newer GPT models eliminate anti-Muslim violen
 ## Dataset Information
 
 Pre-registered experiments across multiple prompt formats
+
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, GPT-3, InstructGPT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

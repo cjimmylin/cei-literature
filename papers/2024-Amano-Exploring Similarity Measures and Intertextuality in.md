@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +35,8 @@ tags:
 abstract: "> Applies computational linguistics (Word2Vec, stylometry, TRACER) to analyze semantic similarity and intertextuality in Vedic Sanskrit Samhita texts. Demonstrates smaller chunk sizes are more effective for detecting intertextual parallels in ancient Hindu scriptures."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, Word2Vec"
+DATA_URL: NA
 research_topic: Other
 ---
 # Exploring Similarity Measures and Intertextuality in Vedic Sanskrit Literature
@@ -63,6 +65,11 @@ research_topic: Other
 ## Dataset Information
 
 Vedic Samhita texts (Maitrayanin Samhita and Kathaka Samhita)
+
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, Word2Vec. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

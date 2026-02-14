@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ tags:
 abstract: "Hate speech on social media in Turkey remains a critical issue, frequently targeting minority groups. Effective moderation requires not only detecting hateful posts but also identifying the specific hateful expressions within them. To address this, we introduce HATECAT-TR, a span-annotated dataset of Turkish tweets, containing 4465 hateful spans across 2981 posts, each directed at one of eight minority groups."
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BERT, GPT-4o, Gemma, Gemma 2, GPT-4, Llama, LLaMa-3.1, LLaMa-3.3"
+DATA_URL: "https://github.com/HumanSignal/label-studio"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # HATECAT-TR: A Hate Speech Span Detection and Categorization Dataset for Turkish
@@ -64,6 +65,10 @@ Span-annotated dataset of Turkish tweets containing 4,465 hateful spans across 2
 ## Benchmark
 
 **Name:** HATECAT-TR
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, GPT-4o, Gemma, Gemma 2, GPT-4, Llama, LLaMa-3.1, LLaMa-3.3. Verified dataset/resource link: https://github.com/HumanSignal/label-studio.
 
 ## Notes
 

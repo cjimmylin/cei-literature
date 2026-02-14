@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, Llama, Llama-2, Llama-3, Llama-3.1, Mistral, Mistral Large, Mistral- Large, Mistral-7B, Mistral-Large, Mixtral, Qwen, Qwen2, WizardLM, gemma, GPT-2, gpt2, mistralai, phi-1, phi-1 1, phi-1_5"
+DATA_URL: "https://huggingface.co/OPI-PG/Qra-1b"
 tags: 
 abstract: "This article introduces the first comprehensive benchmark for the Polish language at this scale: LLMzSzŁ (LLMs Behind the School Desk). It is based on a coherent collection of Polish national exams, including both academic and professional tests extracted from the archives of the Polish Central Examination Board. It covers 4 types of exams, coming from 154 domains. Altogether, it consists of almost 19k closed-ended questions."
 research_topic: "Machine Translation"
@@ -65,6 +67,10 @@ research_topic: "Machine Translation"
 ## Abstract
 
 First comprehensive Polish benchmark based on national exams from Polish Central Examination Board, covering 4 exam types across 154 domains with ~19k closed-ended questions.
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, Llama, Llama-2, Llama-3, Llama-3.1, Mistral, Mistral Large, Mistral- Large, Mistral-7B, Mistral-Large, Mixtral, Qwen, Qwen2, WizardLM, gemma, GPT-2, gpt2, mistralai, phi-1, phi-1 1, phi-1_5. Verified dataset/resource link: https://huggingface.co/OPI-PG/Qra-1b.
 
 ## Notes
 

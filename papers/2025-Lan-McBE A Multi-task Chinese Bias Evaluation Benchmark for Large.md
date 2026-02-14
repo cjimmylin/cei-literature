@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ALBERT, Baichuan 2, Baichuan2, ChatGLM, DeepSeek, DeepSeek 1, DeepSeek-V3, GPT-2, InternLM2, LLAMA2, Mistral 7b, Mistral-7B, Qwen2, Qwen2.5, BERT, ChatGPT"
+DATA_URL: NA
 tags: 
 abstract: ". Warning: This paper contains content that may be offensive or harmful As large language models (LLMs) are increasingly applied to various NLP tasks, their inherent biases are gradually disclosed. Therefore, measuring biases in LLMs is crucial to mitigate its ethical risks. However, most existing bias evaluation datasets are focus on English and North American culture, and their bias categories are not fully applicable to other cultures. The datasets grounded in the Chinese language and culture are scarce. More importantly, these datasets usually only support single evaluation task and cannot evaluate the bias from multiple aspects in LLMs. To address these issues, we present a Multi-task Chinese Bias Evaluation Benchmark (McBE) that includes 4,077 bias evaluation instances, covering 12 single bias"
 ethics_perspective: "Bias & Fairness"
@@ -66,6 +68,10 @@ ethics_perspective: "Bias & Fairness"
 
 
 . Warning: This paper contains content that may be offensive or harmful As large language models (LLMs) are increasingly applied to various NLP tasks, their inherent biases are gradually disclosed. Therefore, measuring biases in LLMs is crucial to mitigate its ethical risks. However, most existing bias evaluation datasets are focus on English and North American culture, and their bias categories are not fully applicable to other cultures. The datasets grounded in the Chinese language and culture are scarce. More importantly, these datasets usually only support single evaluation task and cannot evaluate the bias from multiple aspects in LLMs. To address these issues, we present a Multi-task Chinese Bias Evaluation Benchmark (McBE) that includes 4,077 bias evaluation instances, covering 12 single bias
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, Baichuan 2, Baichuan2, ChatGLM, DeepSeek, DeepSeek 1, DeepSeek-V3, GPT-2, InternLM2, LLAMA2, Mistral 7b, Mistral-7B, Qwen2, Qwen2.5, BERT, ChatGPT. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

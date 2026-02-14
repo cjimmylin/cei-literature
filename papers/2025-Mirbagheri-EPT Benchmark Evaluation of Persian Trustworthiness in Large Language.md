@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT, Claude, Claude 3.7 Sonnet, DeepSeek, DeepSeek v3, GPT-3, GPT-3.5, GPT-4, GPT-4o, Grok, Grok 3, Llama, Llama 3.3, Mistral, Mistral 3, Qwen, Qwen 3"
+DATA_URL: "https://github.com/Rezamirbagheri110/EPT-Benchmark"
 tags: 
 abstract: "Large Language Models (LLMs), trained on extensive datasets using advanced deep learning architectures, have demonstrated remarkable performance across a wide range of language tasks, becoming a cornerstone of modern AI technologies. However, ensuring their trustworthiness remains a critical challenge, as reliability is essential not only for accurate performance but also for upholding ethical, cultural, and social values."
 ethics_perspective: "AI Safety & Alignment"
@@ -66,6 +68,10 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Culturally informed benchmark assessing LLM trustworthiness across truthfulness, safety, fairness, robustness, privacy, and ethical alignment in Persian-Islamic cultural context. 1,200 curated prompts evaluating 8 LLMs.
+
+## Data Description
+
+Backfill summary: Models assessed include ChatGPT, Claude, Claude 3.7 Sonnet, DeepSeek, DeepSeek v3, GPT-3, GPT-3.5, GPT-4, GPT-4o, Grok, Grok 3, Llama, Llama 3.3, Mistral, Mistral 3, Qwen, Qwen 3. Verified dataset/resource link: https://github.com/Rezamirbagheri110/EPT-Benchmark.
 
 ## Notes
 

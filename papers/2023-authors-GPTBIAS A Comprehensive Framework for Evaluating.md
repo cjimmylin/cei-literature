@@ -1,4 +1,7 @@
 ---
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +36,8 @@ tags:
 abstract: "Warning: This paper contains content that may be offensive or upsetting. There has been a significant increase in the usage of large language models (LLMs) in various applications, both in their original form and through fine-tuned adaptations. As a result, LLMs have gained popularity and are being widely adopted by a large user community. However, one of the concerns with LLMs is the potential generation of socially biased content."
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: 
+LLM_assessed: "BLOOM, BLOOM 0, BLOOM 3, BLOOMZ, ChatGPT, GPT-3, GPT-4, Llama, LLaMA., OPT 3, OPT-66B, gpt-3.5-turbo"
+DATA_URL: NA
 ethics_perspective: "Bias & Fairness"
 ---
 # GPTBIAS: A Comprehensive Framework for Evaluating Bias in Large Language Models
@@ -64,6 +67,11 @@ Introduces a comprehensive bias evaluation framework using GPT-4 to assess bias 
 ## Dataset Information
 
 Bias attack instruction set across 9 categories
+
+
+## Data Description
+
+Backfill summary: Models assessed include BLOOM, BLOOM 0, BLOOM 3, BLOOMZ, ChatGPT, GPT-3, GPT-4, Llama, LLaMA., OPT 3, OPT-66B, gpt-3.5-turbo. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

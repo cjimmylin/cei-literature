@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness text corpus for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, Gemini, Llama-2, Mistral, Mixtral"
+LLM_assessed: "ChatGPT, Llama-2, Mistral, Mixtral"
 DATA_URL: NA
 ---
 # Realistic Evaluation of Toxicity in Large Language Models

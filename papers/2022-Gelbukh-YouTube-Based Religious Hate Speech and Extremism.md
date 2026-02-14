@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ abstract: "Creates a novel dataset for religious hate speech detection from YouT
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # YouTube-Based Religious Hate Speech and Extremism Detection Dataset with Machine Learning Baselines
@@ -64,6 +66,11 @@ Creates a novel dataset for religious hate speech detection from YouTube comment
 ## Dataset Information
 
 YouTube comments dataset from religious videos
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
 
 ## Notes
 

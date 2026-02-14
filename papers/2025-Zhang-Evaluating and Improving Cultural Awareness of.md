@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +35,7 @@ tags:
 abstract: "Reward models (RMs) are crucial for aligning large language models (LLMs) with diverse cultures. Consequently, evaluating their cultural awareness is essential for further advancing global alignment of LLMs. However, existing RM evaluations fall short in assessing cultural awareness due to the scarcity of culturally relevant evaluation datasets. To fill this gap, we propose Cultural Awareness Reward modeling Benchmark (CARB), covering 10 distinct cultures across 4 cultural domains."
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "ALBERT, DeepSeek-GRM, DeepSeek-V3, GPT-4, GPT-4o, GPT4, Gemma, Gemma-2, Llama, LLaMA3, LLaMa-3.1, Llama 3.3, Llama-3, Llama3.1, Mistral, Mistral-7B, Qwen, Qwen-Instruct, Qwen2.5, Qwen3, llama 3"
 DATA_URL: "Not confirmed from search results"
 ethics_perspective: "Social & Cultural Values"
 ---
@@ -69,6 +71,11 @@ CARB (Cultural Awareness Reward modeling Benchmark) is the first benchmark speci
 ## Dataset Information
 
 Not specified (covers 10 cultures x 4 domains)
+
+
+## Data Description
+
+Backfill summary: Models assessed include ALBERT, DeepSeek-GRM, DeepSeek-V3, GPT-4, GPT-4o, GPT4, Gemma, Gemma-2, Llama, LLaMA3, LLaMa-3.1, Llama 3.3, Llama-3, Llama3.1, Mistral, Mistral-7B, Qwen, Qwen-Instruct, Qwen2.5, Qwen3, llama 3. Verified dataset/resource link: Not confirmed from search results.
 
 ## Notes
 

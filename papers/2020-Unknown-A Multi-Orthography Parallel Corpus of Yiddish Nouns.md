@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: NA
+DATA_URL: "https://github.com/sequitur-g2p/sequitur-g2p"
 tags: 
 abstract: "First multi-orthography parallel corpus of Yiddish nouns built from Wiktionary. Foundational resource for Yiddish NLP."
 research_topic: Other
@@ -66,6 +67,10 @@ research_topic: Other
 ## Abstract
 
 First multi-orthography parallel corpus of Yiddish nouns built from Wiktionary. Foundational resource for Yiddish NLP.
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/sequitur-g2p/sequitur-g2p.
 
 ## Notes
 

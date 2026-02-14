@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,6 +66,11 @@ research_topic: Other
 ## Dataset Information
 
 Datasets from various Vedantic texts
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/atmabodha/Vedanta_Datasets.
 
 ## Notes
 

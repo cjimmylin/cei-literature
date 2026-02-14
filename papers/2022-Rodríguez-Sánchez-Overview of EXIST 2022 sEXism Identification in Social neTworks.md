@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: NA
 tags: 
 abstract: "Shared task series (2021-2025) on sexism identification in social networks. Bilingual (Spanish/English) classification of tweets and gabs. EXIST 2025 expanded to include memes and videos. 45 runs from 19 teams in 2022 edition."
 research_topic: Other
@@ -66,6 +67,10 @@ research_topic: Other
 ## Abstract
 
 Shared task series (2021-2025) on sexism identification in social networks. Bilingual (Spanish/English) classification of tweets and gabs. EXIST 2025 expanded to include memes and videos. 45 runs from 19 teams in 2022 edition.
+
+## Data Description
+
+Backfill summary: Models assessed include BERT, RoBERTa. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

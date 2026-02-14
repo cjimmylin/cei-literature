@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics in AI, Christian"
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "Barton, ChatGPT, Gemini"
+DATA_URL: "https://huggingface.co/blog/rlhf"
 ---
 # EudAImonia: Virtue Ethics and Artificial Intelligence
 

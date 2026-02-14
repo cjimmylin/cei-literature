@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama-3, Mistral, DeepSeek, Claude"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2"
 ---
 # AI Alignment at Your Discretion
 

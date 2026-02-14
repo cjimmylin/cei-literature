@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ abstract: "Cambodia's first large language model (7B-13B parameters) trained on 
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: 
+DATA_URL: NA
 research_topic: "NLP & Representation Learning"
 ---
 # Khmer LLM: Cambodia's First Native Language Model
@@ -64,6 +65,10 @@ Cambodia's first large language model (7B-13B parameters) trained on 50M+ tokens
 ## Benchmark
 
 **Name:** Khmer LLM (Pusok)
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
 
 ## Notes
 

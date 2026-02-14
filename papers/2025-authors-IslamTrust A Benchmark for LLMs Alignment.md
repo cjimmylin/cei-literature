@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,6 +66,11 @@ First multi-choice benchmark evaluating LLM alignment with Islamic values across
 ## Dataset Information
 
 406 questions across 6 domains
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/aii-lab-dot-org/IslamTrust and https://huggingface.co/datasets/Abderraouf000/IslamTrust-benchmark.
 
 ## Notes
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-4, InstructGPT, Llama, PaLM, PaLM 2"
 DATA_URL: "https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models"
 ---
 # Large AI Models in Health Informatics: Applications, Challenges, and the Future

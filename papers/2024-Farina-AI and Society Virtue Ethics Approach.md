@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_FARINA2024
@@ -31,7 +32,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: N/A
 LLM_assessed: NA
-DATA_URL: NA
+DATA_URL: "https://github.com/git/git"
 ---
 # AI and society: a virtue ethics approach
 

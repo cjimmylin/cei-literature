@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Five medical versions of trolley dilemma tested on 14 LLMs with 50 responses per model"
 data_metrics: "Binary yes/no ethical decisions across utilitarian vs deontological frameworks"
-LLM_assessed: "o1, GPT-4, GPT-3.5, Llama-3, Gemini, Gemma, Phi, Qwen"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Gemma, Phi, Qwen"
 DATA_URL: NA
 normative_ethics_benchmark: Yes
 ---

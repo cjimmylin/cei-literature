@@ -1,4 +1,6 @@
 ---
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,6 +67,11 @@ research_topic: "Machine Learning"
 ## Dataset Information
 
 93,030 parallel Sanskrit-English sentence pairs
+
+
+## Data Description
+
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/rahular/itihasa.
 
 ## Notes
 

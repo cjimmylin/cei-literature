@@ -68,6 +68,10 @@ research_topic: "Machine Translation"
 
 Benchmarking platform for Scandinavian languages across 4 NLP tasks with new linguistic acceptability and QA datasets. Evaluates 100+ models. Shows substantial cross-lingual transfer among Mainland Scandinavian but limited transfer with Icelandic/Faroese. Evolved into EuroEval.
 
+## Summary
+
+This paper introduces ScandEval, a comprehensive benchmarking platform for Scandinavian Natural Language Processing covering Danish, Swedish, Norwegian, Icelandic, and Faroese. The platform evaluates pretrained models on four tasks including text classification, named entity recognition, linguistic acceptability, and question answering, with two new datasets (ScandiQA for question answering and ScaLA for linguistic acceptability). The authors benchmark over 100 Scandinavian and multilingual models using a Python package and CLI tool, presenting results on an interactive online leaderboard. Analysis reveals substantial cross-lingual transfer among Mainland Scandinavian languages (Danish, Swedish, Norwegian) but limited transfer with Insular Scandinavian languages (Icelandic, Faroese), and shows that dedicated Nordic language models outperform massively multilingual models like XLM-RoBERTa and mDeBERTaV3.
+
 ## Data Description
 
 ScandEval benchmark for evaluating NLP models across 4 Scandinavian languages (Danish, Swedish, Norwegian Bokmål, Norwegian Nynorsk) plus Icelandic and Faroese. Covers 4 task types: text classification, named entity recognition, question answering, and linguistic acceptability.

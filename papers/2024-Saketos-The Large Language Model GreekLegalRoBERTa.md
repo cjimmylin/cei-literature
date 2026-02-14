@@ -65,6 +65,10 @@ research_topic: "NLP & Representation Learning"
 
 Four versions of RoBERTa-based language models trained on Greek legal and non-legal text. Surpasses performance of GreekLegalBERT and GreekBERT in NER and multi-class legal topic classification. Contribution to domain-specific NLP tasks in low-resource languages using modern NLP techniques.
 
+## Summary
+
+This paper presents four versions of GreekLegalRoBERTa, domain-specific large language models trained on Greek legal and non-legal text for improving NLP performance in the low-resource Greek legal domain. The models are trained on diverse Greek legal sources including the Nomothesia platform, Greek Parliament Proceedings, European Parliament Proceedings, EU legislation, and general corpora (OSCAR). Evaluation on two key tasks (named entity recognition using GreekLegalNER dataset and multi-class legal topic classification using GreekLegalCode dataset) shows that the GreekLegalRoBERTa models surpass state-of-the-art GreekLegalBERT-v2, GreekLegalBERT, and GreekBERT, achieving improvements of 1.2 percentage points in NER micro average and 0.67-0.89 points across legal topic classification tasks.
+
 ## Data Description
 
 Four versions of RoBERTa-based language models trained on Greek legal and non-legal text. Surpasses performance of GreekLegalBERT and GreekBERT in named entity recognition and multi-class legal topic classification. Contribution to domain-specific NLP tasks in low-resource languages.

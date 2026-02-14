@@ -65,6 +65,10 @@ ethics_perspective: "Bias & Fairness"
 
 Selects controversial Romanian historical questions and tests multiple LLMs across languages. Results show binary response stability varies by language, with models flipping stance across languages or between formats. Romanian used as native baseline to ground the cultural context.
 
+## Summary
+
+This paper examines cultural and political biases in LLMs by testing their responses to controversial Romanian historical questions across multiple languages and contexts. Using Romanian as the native baseline, the study demonstrates that binary response stability varies significantly by language, with models frequently flipping their stance on the same question when prompted in different languages or formats. The case study approach reveals how history is often presented through culturally altered perspectives influenced by state ideals, and how these biases manifest in LLM responses.
+
 ## Data Description
 
 Examines how multiple LLMs respond to controversial Romanian historical questions across languages and contexts to assess cultural and political biases. Finds binary response stability varies by language, with models flipping stance across languages. Does not introduce a dataset or evaluate specific models systematically.

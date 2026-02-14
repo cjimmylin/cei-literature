@@ -65,6 +65,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 Detects bilingual hate speech in YouTube comments in English and German covering politics, LGBT rights, and immigration. Examines cross-platform data augmentation for improving classification model performance.
 
+## Summary
+
+This study addresses the challenge of obtaining high-quality training data for bilingual hate speech detection by investigating cross-platform data augmentation strategies. The authors collect and annotate 1,892 English and 6,060 German YouTube comments from 190 videos covering topics including politics, LGBT rights, and immigration, then systematically evaluate how adding external datasets from other platforms (Twitter, Reddit, Gab) improves classifier performance. They measure dataset similarity based on content, hate words, and definitional overlap, finding that combining YouTube comments with Twitter and Gab data achieves the best performance with F1-scores of 0.74 for English and 0.68 for German. The findings demonstrate that strategically selecting similar cross-platform datasets based on content and definitional alignment can significantly enhance hate speech detection models.
+
 ## Data Description
 
 Detects bilingual hate speech in YouTube comments in English and German covering politics, LGBT rights, and immigration topics. Examines cross-platform data augmentation (YouTube, Twitter, Reddit) for improving classification model performance. Does not introduce a new benchmark but evaluates cross-platform transfer learning.

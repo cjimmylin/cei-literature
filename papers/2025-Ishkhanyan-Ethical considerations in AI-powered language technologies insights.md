@@ -68,6 +68,10 @@ ethics_perspective: "General Ethics"
 
 Examines ethical challenges of AI-powered language technologies for East and West Armenian, including data sovereignty in diaspora communities, algorithmic bias in low-resource language processing, and preservation of cultural authenticity. Proposes a structured ethical framework emphasizing participatory governance, fairness-aware AI training, and transparency.
 
+## Summary
+
+This conceptual paper examines ethical challenges in developing AI-powered language technologies for East and West Armenian, focusing on three key issues: data sovereignty in diaspora communities where linguistic data crosses geopolitical boundaries, algorithmic bias in low-resource language processing, and preservation of cultural authenticity. The author proposes a structured ethical framework emphasizing participatory governance involving Armenian-speaking communities, fairness-aware AI training methodologies, and transparency in model development. The paper addresses core concerns about equitable AI development for minority languages and culturally grounded technology design.
+
 ## Data Description
 
 This is a conceptual/ethics paper that examines ethical challenges of AI-powered language technologies for East and West Armenian, including data sovereignty in diaspora communities, algorithmic bias in low-resource language processing, and preservation of cultural authenticity. It proposes a structured ethical framework emphasizing participatory governance, fairness-aware AI training, and transparency. It does not introduce a specific dataset or benchmark.

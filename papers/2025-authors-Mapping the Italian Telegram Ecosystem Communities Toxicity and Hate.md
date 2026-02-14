@@ -65,6 +65,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 Large-scale analysis of Italian Telegram using 186 million messages from 13,151 chats collected in 2023. Examines toxicity and hate speech distribution using Perspective API and LLMs. Primary hate targets: Black people, Jews, gay individuals. Finds toxicity widely normalized across communities.
 
+## Summary
+
+This paper presents a comprehensive large-scale analysis of the Italian Telegram ecosystem using 186 million messages from 13,151 chats collected in 2023, examining communities, toxicity, and hate speech patterns. Employing Perspective API and LLMs for content annotation, the study identifies Black people, Jews, and gay individuals as primary hate targets and reveals that toxicity is widely normalized across different communities rather than confined to extremist groups. The analysis fills a research gap by examining misinformation, extremism, and toxicity holistically rather than as separate phenomena within Telegram's largely unmoderated environment.
+
 ## Data Description
 
 Large-scale analysis of Italian Telegram using 186 million messages from 13,151 chats collected in 2023, examining toxicity and hate speech distribution using Perspective API and LLMs. Finds primary hate targets are Black people, Jews, and gay individuals, with toxicity widely normalized. Uses LLMs for analysis but does not evaluate specific models.

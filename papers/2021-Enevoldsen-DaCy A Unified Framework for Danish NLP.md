@@ -68,6 +68,10 @@ ethics_perspective: "Bias & Fairness"
 
 Unified Danish NLP framework with bias and robustness testing. Found all models except DaCy large display significant ethnicity biases; only Polyglot shows significant gender bias. Uses data augmentation for more realistic performance estimates.
 
+## Summary
+
+This paper presents DaCy, a unified SpaCy-based framework for Danish NLP providing three multitask models (DaCy small based on Danish ELECTRA, DaCy medium based on Danish BERT, and DaCy large based on XLM-RoBERTa) achieving state-of-the-art performance on POS tagging, named entity recognition, and dependency parsing. The authors conduct comprehensive bias and robustness testing using data augmentation on the DaNE dataset, revealing that all models except DaCy large display significant ethnicity biases, while only Polyglot shows significant gender bias. The framework emphasizes that data augmentation can provide more realistic performance estimates for low-resource languages and includes tools for easy integration of existing models for sentiment, emotion, and subjectivity detection.
+
 ## Data Description
 
 DaCy framework providing three Danish NLP models: DaCy small (Danish ELECTRA, 14M parameters), DaCy medium (Danish BERT, 110M parameters), and DaCy large (XLM-RoBERTa, 550M parameters). Evaluated on POS tagging, NER, and dependency parsing with data augmentation tests for robustness.

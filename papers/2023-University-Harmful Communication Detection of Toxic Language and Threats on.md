@@ -68,6 +68,10 @@ ethics_perspective: "AI Safety & Alignment"
 
 Uses transfer learning and BERT to train models for toxic language (F1>0.94) and threats (F1=0.86) in Swedish. Models' performance decreases significantly on unseen social media data. Finds 20% of social media threats are not toxic.
 
+## Summary
+
+This paper applies transfer learning and BERT-based models to detect toxic language and threats in Swedish social media text. The authors train models that achieve high performance on toxicity detection (F1 > 0.94) and threat detection (F1 = 0.86), evaluating Croatian BERT variants (BERTić, CroSloEngual BERT) adapted for Swedish. However, model performance decreases significantly when tested on unseen social media data, revealing generalization challenges. The study finds that 20 percent of social media threats are not classified as toxic, indicating distinct patterns between these two harmful communication categories.
+
 ## Data Description
 
 Study on harmful communication detection in Croatian online platforms, focusing on toxic language and threats. Evaluates Croatian BERT models on toxicity classification. No public dataset URL provided.

@@ -68,6 +68,10 @@ research_topic: "Machine Learning"
 
 Dutch Model Benchmark with 9 tasks including 4 new for Dutch. Evaluates 14 pre-trained LMs using Relative Error Reduction metric. Finds Dutch monolingual models under-perform compared to large multilingual models like DeBERTaV3. Published at EMNLP 2023.
 
+## Summary
+
+This paper introduces DUMB (Dutch Model Benchmark), a comprehensive evaluation suite comprising nine diverse tasks for Dutch language models, including four tasks previously unavailable in Dutch covering low-, medium-, and high-resource scenarios. Rather than using simple mean scores, the authors propose Relative Error Reduction (RER) as a more robust metric that compares model performance against a strong baseline. Evaluating 14 pre-trained models (both monolingual and multilingual of varying sizes), they find that current Dutch monolingual models (BERTje, RobBERT) underperform compared to large multilingual models, with DeBERTaV3-large, XLM-R-large, and mDeBERTaV3-base achieving the highest performance. The work suggests training larger Dutch models with alternative architectures and pre-training objectives, and provides a public leaderboard at dumbench.nl.
+
 ## Data Description
 
 DUMB (Dutch Model Benchmark) suite containing 6 datasets for evaluating Dutch language models across sentiment analysis, topic classification, hate speech detection, and natural language inference tasks. Designed to provide comprehensive evaluation of Dutch NLP models.

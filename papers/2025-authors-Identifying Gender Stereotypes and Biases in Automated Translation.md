@@ -65,6 +65,10 @@ ethics_perspective: "Bias & Fairness"
 
 Evaluates stereotypes and biases in automated English-to-Italian translation systems using similarity networks. Identifies gender-specific terms (she/lei, he/lui) as key elements and uses cosine similarity to reveal model bias. Advocates gender-neutral translation for gender inclusion.
 
+## Summary
+
+This interdisciplinary paper combines Linguistics, Law, and Computer Science perspectives to evaluate gender stereotypes and biases in English-to-Italian automated translation systems. Using similarity network analysis and cosine similarity measures, the study identifies gender-specific terms (she/lei, he/lui) as key elements revealing systematic bias patterns in machine translation models. Grounding their approach in human rights law and linguistics literature, the authors advocate for gender-neutral translation as a means to promote gender inclusion and improve the objectivity of machine translation systems.
+
 ## Data Description
 
 Evaluates gender stereotypes and biases in automated English-to-Italian translation systems using similarity networks to identify gender-specific terms and cosine similarity to reveal model bias. Advocates gender-neutral translation for gender inclusion. Proposes evaluation methodology rather than introducing a dataset.

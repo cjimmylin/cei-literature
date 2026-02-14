@@ -66,6 +66,10 @@ research_topic: "Question Answering"
 
 First benchmark to assess social biases in Basque across eight domains using multiple-choice QA. Evaluates autoregressive LLMs including multilingual and Basque-adapted models. Finds high negative bias in Disability Status, Age, Physical Appearance categories. Larger models exhibit lower negative bias.
 
+## Summary
+
+This paper introduces BasqBBQ, the first benchmark designed to assess social biases in Basque language models across eight social bias domains using a multiple-choice question-answering format. Evaluating both multilingual and Basque-adapted autoregressive LLMs, the study reveals particularly high negative bias in Disability Status, Age, and Physical Appearance categories. The results demonstrate that larger models tend to exhibit lower negative bias, providing important insights for developing fairer LLMs for low-resource languages like Basque.
+
 ## Data Description
 
 Introduces BasqBBQ, the first benchmark to assess social biases in Basque across eight domains using multiple-choice QA. Evaluates autoregressive LLMs including multilingual and Basque-adapted models, finding high negative bias in Disability Status, Age, and Physical Appearance categories. Larger models exhibit lower negative bias.

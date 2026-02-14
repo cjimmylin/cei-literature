@@ -65,6 +65,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 Compares GPT-4o, Perspective API, and Moderation API for detecting hate speech in German newspaper comments using HOCON34k dataset. GPT-4o outperforms both other tools across zero-shot, one-shot, and few-shot prompting.
 
+## Summary
+
+This paper evaluates three automated hate speech detection systems—GPT-4o, Google's Perspective API, and OpenAI's Moderation API—on German newspaper reader comments using the HOCON34k dataset. Testing across zero-shot, one-shot, and few-shot prompting scenarios, the study finds that GPT-4o consistently outperforms both commercial APIs in detecting hate speech in German content. The research addresses the practical need for automated content moderation in German online newspapers where manual review is labor-intensive and legally required.
+
 ## Data Description
 
 Compares GPT-4o, Perspective API, and Moderation API for detecting hate speech in German newspaper reader comments using the HOCON34k dataset. GPT-4o outperforms both commercial APIs across zero-shot, one-shot, and few-shot prompting. Evaluates existing models on existing dataset rather than introducing new data.

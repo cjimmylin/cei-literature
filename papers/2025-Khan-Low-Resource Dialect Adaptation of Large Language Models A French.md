@@ -65,6 +65,10 @@ research_topic: "Machine Learning"
 
 Adapts three LLMs to Quebecois French dialect using a small dataset and benchmarks them on the COLE suite. Shows continued pre-training with LoRA achieves dialectal gains with minimal regression on prestige French. Highlights that systems defaulting to prestige French can normalize away regional features and reinforce linguistic hierarchies.
 
+## Summary
+
+This paper explores continual pre-training for dialect adaptation in low-resource settings, using Quebec French as a case study. The authors adapt three LLMs (CroissantLLM, Llama-3.2-1B, Llama-3.1-8B) using parameter-efficient fine-tuning with LoRA on a very small 86M token corpus, updating less than 1% of model parameters. Evaluation on the COLE benchmark suite demonstrates improved performance on Quebec French tasks with minimal regression on prestige French benchmarks, though gains are highly contingent on corpus composition, with the work highlighting how models defaulting to prestige variants can reinforce linguistic hierarchies by normalizing away regional features.
+
 ## Data Description
 
 Introduces the first Quebecois French LLMs by adapting three base models (CroissantLLM, Llama-3.2-1B, Llama-3.1-8B) using continual pre-training with LoRA on a small 86M token corpus, evaluated on the COLE benchmark suite for both Quebec French and prestige French tasks.

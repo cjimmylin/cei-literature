@@ -68,6 +68,10 @@ research_topic: "Machine Learning"
 
 Catalan Language Understanding Benchmark encompassing datasets for POS tagging, NER, text classification, textual entailment, and extracted QA. Part of AINA and PlanTL public funding initiatives to empower the Catalan language in AI.
 
+## Summary
+
+This paper presents the Catalan Language Understanding Benchmark (CLUB), a comprehensive NLU evaluation suite for Catalan following the GLUE model, comprising six tasks: text classification (153,265 news articles), textual entailment (20,000+ sentence pairs), question answering (three datasets including XQuAD-Ca, VilaQuAD, ViquiQuAD), named entity recognition, and POS tagging (from AnCora corpus). Developed under the AINA and PlanTL public funding initiatives, the benchmark evaluates Catalan BERT and RoBERTa models against multilingual baselines, with all datasets released under permissive licenses on Zenodo and HuggingFace to democratize Catalan AI language resources.
+
 ## Data Description
 
 Catalan Language Understanding Benchmark (CLUB) consisting of six tasks: text classification, paraphrase detection, semantic textual similarity, question answering, NER, and POS tagging. Tests Catalan BERT and RoBERTa models against multilingual baselines.

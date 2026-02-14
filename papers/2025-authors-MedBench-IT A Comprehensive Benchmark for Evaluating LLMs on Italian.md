@@ -67,6 +67,10 @@ ethics_perspective: "Bias & Fairness"
 
 First comprehensive benchmark for evaluating LLMs on Italian medical university entrance exams, comprising 17,410 expert-written multiple-choice questions across six subjects and three difficulty levels.
 
+## Summary
+
+This paper introduces MedBench-IT, the first comprehensive benchmark for evaluating LLMs on Italian medical university entrance examinations, comprising 17,410 expert-written multiple-choice questions. Sourced from Edizioni Simone, a leading preparatory materials publisher, the benchmark spans six subjects (Biology, Chemistry, Logic, General Culture, Physics, Mathematics) across three difficulty levels corresponding to actual Italian medical entrance exam tiers. The benchmark addresses the scarcity of non-English specialized domain evaluation resources and provides a rigorous assessment tool for LLM performance in Italian medical education contexts.
+
 ## Data Description
 
 Introduces MedBench-IT, the first comprehensive benchmark for evaluating LLMs on Italian medical university entrance examinations, comprising 17,410 expert-written multiple-choice questions across six subjects and three difficulty levels. Focuses on benchmark creation for medical domain evaluation.

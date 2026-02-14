@@ -67,6 +67,10 @@ abstract: "As Large Language Models (LLMs) are now capable of producing fluent a
 
 Multilingual meta-evaluation benchmark with five core subsets (Chat, Reasoning, Safety, Language Hallucination, Linguistics) spanning 18 languages. Models achieve only 68.9% average accuracy (50% = random). Safety subset performance in low-resource languages is 18.4% lower than English.
 
+## Summary
+
+This paper introduces MM-Eval, a multilingual meta-evaluation benchmark designed to assess whether LLM-based evaluators (LLM-as-a-Judge and reward models) can reliably evaluate non-English outputs from multilingual LLMs. Unlike existing English-centric meta-evaluation benchmarks, MM-Eval is constructed with multilingual-specific challenges in mind, comprising five core subsets (Chat, Reasoning, Safety, Language Hallucination, Linguistics) covering 18 languages plus a Language Consistency subset spanning 122 languages. The benchmark evaluates both ranking accuracy (pairwise comparisons) and consistency/fairness of absolute scores across languages using a novel Language Consistency Index (LCI) metric. Results from evaluating 12 evaluator LLMs show considerable room for improvement (68.9% average accuracy vs. 50% random baseline), with safety evaluation performance in low-resource languages degrading by 18.4% compared to English, revealing unfairness and inconsistency in cross-lingual evaluation.
+
 ## Data Description
 
 MM-Eval is a multilingual meta-evaluation benchmark with five core subsets (Chat, Reasoning, Safety, Language Hallucination, Linguistics) spanning 18 languages. Models achieve only 68.9% average accuracy (50% = random). Safety subset performance in low-resource languages is 18.4% lower than English, revealing significant degradation in non-English safety evaluation.

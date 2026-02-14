@@ -69,6 +69,10 @@ ethics_perspective: "Bias & Fairness"
 
 Extends origin and gender bias analysis to multilingual word embeddings in four European languages including French. Demonstrates origin bias concerning local migration groups. Published in Frontiers in Big Data.
 
+## Summary
+
+This paper extends previous work on bias in word embeddings to examine gender and origin bias in Italian and Swedish fastText embeddings, and investigates origin bias concerning Swiss migration groups in German embeddings. Using the Word Embedding Association Test (WEAT) method, the study demonstrates that bias manifests differently across languages and cultural contexts, confirming that real-world stereotypes are encoded in multilingual word embeddings. The authors propose BiasWords, an automatic method for detecting new forms of culturally-specific bias by exploring the vector space, emphasizing that bias detection and mitigation strategies must account for language-specific and cultural differences rather than applying English-centric approaches universally.
+
 ## Data Description
 
 Extension of bias analysis to multilingual word embeddings (fastText) in Italian and Swedish, plus origin bias concerning Swiss migration groups in German embeddings. Tests bias using WEAT method on static embeddings, not LLMs.

@@ -68,6 +68,10 @@ research_topic: "Machine Learning"
 
 Streamlined NLP benchmark suite for Norwegian LMs with standardized data splits and evaluation metrics. Includes diagnostic tasks probing gender-bias and toxic language affinity in language models.
 
+## Summary
+
+This paper introduces NorBench, a streamlined suite of NLP tasks and diagnostic probes for evaluating Norwegian language models on standardized data splits and metrics. The benchmark encompasses nine datasets covering morpho-syntactic tasks, named entity recognition, sentiment analysis, linguistic acceptability, question answering, and machine translation, along with diagnostic tasks that probe gender bias and toxic language affinity using the HONEST metric adapted for Norwegian. The authors develop new state-of-the-art Norwegian language models (NorBERT3 encoder and NorT5 encoder-decoder) and evaluate them alongside existing models (NB-BERT, ScandiBERT, mBERT, XLM-RoBERTa). Results show that training on curated Norwegian corpora outperforms simple concatenation of all available resources, and that joint modeling of both Norwegian written varieties (Bokmål and Nynorsk) works effectively.
+
 ## Data Description
 
 NorBench comprehensive benchmark for Norwegian language models, including 9 datasets covering sentiment analysis, named entity recognition, dependency parsing, and diagnostic tasks for gender bias and toxicity. Includes harmfulness scores using HONEST metric adapted for Norwegian.

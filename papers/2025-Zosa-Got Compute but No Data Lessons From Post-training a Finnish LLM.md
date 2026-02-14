@@ -66,6 +66,10 @@ research_topic: "Machine Translation"
 
 Post-training a Finnish LLM (Poro) for instruction-following. Translates IFEval benchmark to Finnish. Using all available English+Finnish data for SFT gives best performance. Releases datasets, recipes, and model openly.
 
+## Summary
+
+This paper documents the experience of post-training the Poro-34B Finnish LLM for instruction-following capabilities in a low-resource language context. The authors translate the IFEval benchmark to Finnish to enable evaluation and demonstrate that supervised fine-tuning using all available English and Finnish data yields the best performance compared to Finnish-only or English-only approaches. The work openly releases training datasets, training recipes, and the Poro-34B-chat model, providing practical lessons for instruction-following alignment in languages with limited training data.
+
 ## Data Description
 
 Post-trains the Poro Finnish LLM for instruction-following, translates IFEval benchmark to Finnish, and demonstrates that using all available English+Finnish data for supervised fine-tuning yields best performance. Releases datasets, training recipes, and the Poro-34B-chat model openly.

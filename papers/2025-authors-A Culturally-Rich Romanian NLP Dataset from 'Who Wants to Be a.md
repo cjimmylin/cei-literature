@@ -68,6 +68,10 @@ research_topic: "Machine Translation"
 
 Novel culturally-rich dataset from Romanian 'Who Wants to Be a Millionaire?' videos for LLM evaluation. Reveals significant performance gap: models achieve 80-95% on international questions vs. 50-75% on Romanian-specific cultural questions. Romanian fine-tuning shows mixed effects on cultural knowledge.
 
+## Summary
+
+This paper introduces WWTBM-RO, a culturally-rich Romanian dataset derived from video recordings of 'Who Wants to Be a Millionaire?' (Vrei să fii Milionar?) using optical character recognition, automated text extraction, and manual verification. The dataset includes question-answer pairs enriched with metadata including difficulty levels and cultural specificity annotations. Evaluation of LLMs reveals a striking performance gap between international questions (80-95% accuracy) and Romanian-specific cultural questions (50-75% accuracy), highlighting significant deficits in cultural knowledge for low-resource languages despite Romanian fine-tuning.
+
 ## Data Description
 
 Introduces WWTBM-RO, a culturally-rich dataset from Romanian 'Who Wants to Be a Millionaire?' videos for LLM evaluation. Reveals significant performance gap: models achieve 80-95% on international questions vs. 50-75% on Romanian-specific cultural questions, highlighting cultural knowledge deficits in current LLMs.

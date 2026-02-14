@@ -499,7 +499,7 @@ Among papers with data URLs, classified by hosting platform:
 | 79 | [[2023-Soemer-Antisemitic Messages A Guide to High-Quality]] | https://zenodo.org/records/7932888 |
 | 80 | [[2023-Susanto-BHASA A Holistic Southeast Asian Linguistic]] | https://github.com/aisingapore/BHASA |
 | 81 | [[2023-University-Antisemitism on Twitter A Dataset for]] | https://zenodo.org/records/7932888 |
-| 82 | [[2023-Unknown-NEHATE Large-Scale Annotated Data Shedding Light]] | https://github.com/shucoll/NEHate |
+| 82 | [[2023-[[Unknown]]-NEHATE Large-Scale Annotated Data Shedding Light]] | https://github.com/shucoll/NEHate |
 | 83 | [[2023-Yao-From Instructions to Intrinsic Human Values -- A]] | https://github.com/ValueCompass/Alignment-Goal-Survey |
 | 84 | [[2023-Zhang-WYWEB A NLP Evaluation Benchmark for]] | https://github.com/baudzhou/WYWEB |
 | 85 | [[2023-team-SeaLLMs Large Language Models for Southeast]] | https://huggingface.co/SeaLLMs |
@@ -601,7 +601,7 @@ Among papers with data URLs, classified by hosting platform:
 | 181 | [[2025-Qi-A Survey of Automatic Hallucination Evaluation on]] | https://github.com/siyaqi/Awesome-Hallu-Eval |
 | 182 | [[2025-Schacht-Mapping Moral Reasoning Circuits]] | https://github.com/coairesearch/mapping_moral_reasoning.git |
 | 183 | [[2025-Sekine-AnswerCarefully A Dataset for Improving the]] | https://huggingface.co/datasets/llm-jp/AnswerCarefully |
-| 184 | [[2025-Unknown-SweEval Do LLMs Really Swear A]] | https://huggingface.co/datasets/ariondas/SweEval-Bench |
+| 184 | [[2025-[[Unknown]]-SweEval Do LLMs Really Swear A]] | https://huggingface.co/datasets/ariondas/SweEval-Bench |
 | 185 | [[2025-Vasilev-RusCode]] | https://github.com/ai-forever/RusCode |
 | 186 | [[2025-Verma-MILU A Multi-task Indic Language Understanding]] | https://huggingface.co/datasets/ai4bharat/MILU |
 | 187 | [[2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist]] | https://huggingface.co/datasets/Nethmi14/BuddhismEval |
@@ -619,7 +619,7 @@ Among papers with data URLs, classified by hosting platform:
 | 199 | [[2025-initiative-Faith Respect and Moral Compass in]] | In development (collaborating with BYU, Notre Dame, Baylor, Yeshiva) |
 | 200 | [[2025-initiative-FaithBench AI Benchmark for Christian Theology]] | https://faithbench.com/ |
 | 201 | [[2025-project-Kaku-Ora Zen Wisdom Diffused -- An]] | GitHub (code available); HuggingFace Spaces (model hosted) |
-| 202 | [[2025-results-BenchMAX A Comprehensive Multilingual Evaluation Suite]] | https://github.com/CONE-MT/BenchMAX |
+| 202 | [[2025-results]]-BenchMAX A Comprehensive Multilingual Evaluation Suite]] | https://github.com/CONE-MT/BenchMAX |
 | 203 | [[2025-team-SEA-LION Southeast Asian Languages in One]] | https://github.com/aisingapore/sealion |
 | 204 | [[2025-team-SeaExam and SeaBench Benchmarking LLMs with]] | https://github.com/DAMO-NLP-SG/SeaExam |
 | 205 | [[2025-team-WangchanThaiInstruct An Instruction-Following Dataset for Culture-Aware]] | https://huggingface.co/datasets/airesearch/WangchanThaiInstruct |

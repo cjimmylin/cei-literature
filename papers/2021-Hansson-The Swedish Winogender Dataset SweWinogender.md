@@ -67,6 +67,10 @@ research_topic: "Machine Learning"
 
 Swedish adaptation of WinoGender benchmark for measuring gender bias in coreference resolution. Released with reference statistics on gender distribution between occupations in Swedish corpus material. Version 2.0 reformulated as NLI task.
 
+## Summary
+
+This paper presents SweWinogender, a Swedish adaptation of the WinoGender benchmark for measuring gender bias in coreference resolution systems. The dataset contains Swedish translations of the Winogender sentences designed to test whether systems rely on gender stereotypes when resolving pronouns to occupations. The resource is released with reference statistics on gender distribution between occupations in Swedish corpus material and includes a Version 2.0 reformulated as a natural language inference task, providing a culturally-adapted evaluation tool for Swedish-specific gender bias in NLP systems.
+
 ## Data Description
 
 Swedish adaptation of WinoGender benchmark for measuring gender bias in coreference resolution. Released with reference statistics on gender distribution between occupations in Swedish corpus material. Designed for coreference resolution systems, not specifically LLMs.

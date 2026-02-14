@@ -66,6 +66,10 @@ research_topic: "Machine Learning"
 
 A curated benchmark of 100 questions for evaluating logical reasoning capabilities of LLMs in Georgian, a Kartvelian language. Addresses the gap in evaluation benchmarks for Georgian as a low-resource language. Published at the 1st Workshop on Advancing NLP for Low-Resource Languages (RANLP 2025).
 
+## Summary
+
+This paper introduces GeoLogicQA, the first dedicated benchmark for evaluating logical reasoning capabilities of LLMs in Georgian, a Kartvelian language. The benchmark consists of 100 carefully curated questions designed to assess LLM performance on logical reasoning tasks in a low-resource language setting. Published at the 1st Workshop on Advancing NLP for Low-Resource Languages at RANLP 2025, the work addresses a critical gap in evaluation resources for Georgian NLP and contributes to more equitable assessment of LLM capabilities across languages.
+
 ## Data Description
 
 GeoLogicQA is a curated benchmark of 100 questions for evaluating logical reasoning capabilities of LLMs in Georgian, a Kartvelian language. It is the first dedicated Georgian LLM reasoning benchmark, addressing the gap in evaluation benchmarks for Georgian as a low-resource language. Published at the 1st Workshop on Advancing NLP for Low-Resource Languages (RANLP 2025).

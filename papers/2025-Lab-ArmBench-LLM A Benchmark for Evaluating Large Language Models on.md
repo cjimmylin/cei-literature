@@ -67,6 +67,10 @@ research_topic: "Machine Learning"
 
 The first benchmark specifically designed to evaluate LLMs on Armenian language tasks. Features Armenian university entrance exams in Literature, Language, History, and Mathematics, plus 1,000 MMLU questions translated and post-processed into Armenian. Claude 3.7 Sonnet leads overall, Gemini 2.0 Flash leads MMLU-Pro-Hy.
 
+## Summary
+
+This paper presents ArmBench-LLM, the first comprehensive benchmark specifically designed for evaluating LLMs on Armenian language tasks. The benchmark features authentic Armenian university entrance exams covering Literature, Language, History, and Mathematics, plus 1,000 MMLU questions translated and culturally adapted to Armenian. The evaluation reveals that Claude 3.7 Sonnet leads overall performance while Gemini 2.0 Flash excels on the MMLU-Pro-Hy component, demonstrating that tasks requiring deep understanding of Armenian language and culture remain challenging for current LLMs.
+
 ## Data Description
 
 ArmBench-LLM is the first benchmark specifically designed to evaluate LLMs on Armenian language tasks. It features Armenian university entrance exams in Literature, Language, History, and Mathematics, plus 1,000 MMLU questions translated and post-processed into Armenian. Claude 3.7 Sonnet leads overall, Gemini 2.0 Flash leads MMLU-Pro-Hy.

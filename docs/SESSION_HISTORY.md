@@ -2,6 +2,47 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 72 (Feb 14, 2026) - Placeholder Author Filename Normalization (Executed + Committed)
+
+### Overview
+Implemented and executed a full placeholder-author filename normalization pass across the active token-matched cohort, including paper filenames, linked PDF/PDF Extract assets, frontmatter/body author metadata, and exact repo-wide reference rewrites. Added a dedicated migration script and committed all resulting changes.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Commit | `9b649c7e` |
+| Active target scope at execution time | 88 papers (`results]]`, `retrieved`, `available`, `authors`, `various` token match) |
+| Paper renames | 86 |
+| PDF renames | 73 |
+| PDF Extract renames | 73 |
+| Author recovery sources | arXiv: 47, Crossref DOI: 12, ACL BibTeX: 4, existing metadata: 4 |
+| Fallback `Unknown` | 21 papers |
+| Repo-wide exact rewrites | 208 files, 1639 replacements |
+| Stale old filename refs (post-check) | 0 |
+| Migrated-paper broken `local_pdf` wikilinks | 0 |
+| Missing `local_pdf` / `pdf_extract` targets (migrated set) | 0 |
+
+### Key Decisions / Constraints
+- Deterministic author recovery only (no fuzzy title matching): existing metadata → arXiv ID → ACL ID → exact DOI (Crossref) → fallback `Unknown`.
+- Title segment in filenames preserved; only author-slot normalized.
+- Exact-string reference replacement only (no broad token/global replacements).
+- Reporting note: initial plan snapshot mentioned 106 files, but live repo scope at execution time was 88 token-matched papers.
+
+### Files Created / Updated
+- New script:
+  - `PYTHON/fix_placeholder_author_filenames.py`
+- Migration artifacts:
+  - `logs/20260214-placeholder-author-filename-fix-map.csv`
+  - `logs/20260214-placeholder-author-filename-fix-unresolved.csv`
+  - `logs/20260214-placeholder-author-filename-fix-report.json` (generated, gitignored by `logs/*.json`)
+
+### Residual Notes
+- Two filenames still contain token words in the title text (not in author slot), so they are not unresolved author-slot placeholders:
+  - `papers/2024-Unknown-Available hate speech datasets for Arabic. Download Scientific Diagram.md`
+  - `papers/2025-Open-Uncensored AI in the Wild Tracking Publicly Available and Locally.md`
+
+---
+
 ## Session 71 (Feb 14, 2026) - Wave 4 Summary Verification & Re-generation
 
 ### Overview

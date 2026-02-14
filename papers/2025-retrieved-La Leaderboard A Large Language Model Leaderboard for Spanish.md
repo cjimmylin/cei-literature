@@ -12,8 +12,8 @@ last_author: "[[Authors not fully retrieved]]"
 authors: "Authors not fully retrieved"
 url: "https://arxiv.org/abs/2507.00999"
 external_pdf: "https://arxiv.org/pdf/2507.00999.pdf"
-local_pdf: "[[PDFs/2025/2025-retrieved-La Leaderboard A Large Language Model Leaderboard for Spanish.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-retrieved-La Leaderboard A Large Language Model Leaderboard for Spanish.md"
+local_pdf: "[[PDFs/2025/2025-retrieved-La Leaderboard A Large Language Model Leaderboard for Spanish.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Anwar Hossain Zahid; Monoshi Kumar Roy; Swarna Das"
 url: "https://arxiv.org/abs/2502.19612"
 external_pdf: "https://arxiv.org/pdf/2502.19612.pdf"
-local_pdf: "[[PDFs/2025/2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and.md"
+local_pdf: "[[PDFs/2025/2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

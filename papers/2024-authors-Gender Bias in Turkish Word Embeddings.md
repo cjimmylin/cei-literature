@@ -13,8 +13,8 @@ authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2024.gebnlp-1.13.pdf"
 external_pdf: "https://aclanthology.org/2024.gebnlp-1.13.pdf"
-local_pdf: "[[PDFs/2024/2024-authors-Gender Bias in Turkish Word Embeddings.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-authors-Gender Bias in Turkish Word Embeddings.md"
+local_pdf: "[[PDFs/2024/2024-authors-Gender Bias in Turkish Word Embeddings.pdf]]"
 publication: "GeBNLP 2024 (ACL Workshop)"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Hai-Long Nguyen; Thi-Kieu-Trang Pham; Thai-Son Le; Tan-Minh Nguyen; Thi-Hai-Yen Vuong; Ha-Thanh Nguyen"
 url: "https://arxiv.org/abs/2309.09071"
 external_pdf: "https://arxiv.org/pdf/2309.09071.pdf"
-local_pdf: "[[PDFs/2023/2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence.md"
+local_pdf: "[[PDFs/2023/2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

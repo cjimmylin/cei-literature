@@ -13,8 +13,8 @@ authors: Various
 url: "https://arxiv.org/abs/2506.12502"
 external_pdf: "https://arxiv.org/pdf/2506.12502.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Various-Towards Fairness Assessment of Dutch Hate Speech Detection.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Various-Towards Fairness Assessment of Dutch Hate Speech Detection.md"
+local_pdf: "[[PDFs/2025/2025-Various-Towards Fairness Assessment of Dutch Hate Speech Detection.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

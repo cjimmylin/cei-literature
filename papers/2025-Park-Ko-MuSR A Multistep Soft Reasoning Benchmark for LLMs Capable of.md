@@ -12,8 +12,8 @@ last_author: "[[Byung-Won On]]"
 authors: "Chanwoo Park, Yong-Ho Kim, Byung-Won On"
 url: "https://arxiv.org/abs/2510.24150"
 external_pdf: "https://arxiv.org/pdf/2510.24150.pdf"
-local_pdf: "[[PDFs/2025/2025-Park-Ko-MuSR A Multistep Soft Reasoning Benchmark for LLMs Capable of.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Park-Ko-MuSR A Multistep Soft Reasoning Benchmark for LLMs Capable of.md"
+local_pdf: "[[PDFs/2025/2025-Park-Ko-MuSR A Multistep Soft Reasoning Benchmark for LLMs Capable of.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

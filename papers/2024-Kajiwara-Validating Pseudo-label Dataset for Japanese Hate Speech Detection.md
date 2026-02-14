@@ -12,8 +12,8 @@ last_author: [[Kajiwara]]
 authors: Kajiwara
 url: "https://ieeexplore.ieee.org/iel8/10902665/10902666/10902753.pdf"
 publication: IEEE
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ authors: "[[Du, Yihan]]; [[Kong, Seo Taek]]; [[Srikant, R.]]"
 authors_incomplete: false
 publication: "ACL 2024"
 external_pdf: "https://arxiv.org/pdf/2510.05703.pdf"
-local_pdf: "[[PDFs/2024/2024-Wang-Fake Alignment FINE Framework.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Wang-Fake Alignment FINE Framework.md"
+local_pdf: "[[PDFs/2024/2024-Wang-Fake Alignment FINE Framework.pdf]]"
 DATE_ADDED: 20260207
 ethics_overall: No
 virtue_ethics: No

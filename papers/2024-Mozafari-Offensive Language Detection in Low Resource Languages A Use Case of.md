@@ -15,8 +15,8 @@ doi: 10.1371/journal.pone.0304166
 url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0304166"
 external_pdf: "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0304166&type=printable"
 publication: "PLOS ONE"
-local_pdf: "[[PDFs/2024/2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of.md"
+local_pdf: "[[PDFs/2024/2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

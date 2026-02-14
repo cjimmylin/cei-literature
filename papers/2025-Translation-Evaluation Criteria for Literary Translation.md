@@ -13,8 +13,8 @@ authors: "Evaluation Criteria for Literary Translation; Anna Hakobyan"
 url: "https://www.researchgate.net/publication/348918378_Evaluation_Criteria_for_Literary_Translation"
 external_pdf: "https://journals.ysu.am/index.php/arm-fol-angl/article/download/Vol.7_No.1_2011_pp.122-127/Vol.7_No.1_2011_pp.122-127.pdf"
 publication: ResearchGate
-local_pdf: "[[PDFs/2025/2025-Translation-Evaluation Criteria for Literary Translation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Translation-Evaluation Criteria for Literary Translation.md"
+local_pdf: "[[PDFs/2025/2025-Translation-Evaluation Criteria for Literary Translation.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Thong Nguyen; Duc Nguyen; Minh Dang; Thai Dao; Long Nguyen; Quan H. Nguyen; Dat Nguyen; Kien Tran; Minh Tran"
 url: "https://arxiv.org/abs/2506.01305"
 external_pdf: "https://arxiv.org/pdf/2506.01305.pdf"
-local_pdf: "[[PDFs/2025/2025-Nguyen-VM14K First Vietnamese Medical Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Nguyen-VM14K First Vietnamese Medical Benchmark.md"
+local_pdf: "[[PDFs/2025/2025-Nguyen-VM14K First Vietnamese Medical Benchmark.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

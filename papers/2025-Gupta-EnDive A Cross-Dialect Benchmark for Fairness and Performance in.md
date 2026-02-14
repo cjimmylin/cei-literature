@@ -13,8 +13,8 @@ authors: "Abhay Gupta; Jacob Cheung; Philip Meng; Shayan Sayyed; Austen Liao; Ke
 url: "https://arxiv.org/html/2504.07100"
 external_pdf: "https://arxiv.org/pdf/2504.07100.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in.md"
+local_pdf: "[[PDFs/2025/2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

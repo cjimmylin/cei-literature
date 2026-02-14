@@ -13,8 +13,8 @@ authors: [[Unknown]]
 authors_incomplete: true
 url: "https://arxiv.org/abs/2506.16399"
 external_pdf: "https://arxiv.org/pdf/2506.16399.pdf"
-local_pdf: "[[PDFs/2025/2025-[[Unknown]]-NepaliGPT A Generative Language Model for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-[[Unknown]]-NepaliGPT A Generative Language Model for.md"
+local_pdf: "[[PDFs/2025/2025-[[Unknown]]-NepaliGPT A Generative Language Model for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

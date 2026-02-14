@@ -13,8 +13,8 @@ authors: "[[Ahmet Yusuf Alan, Enis Karaarslan, Omer Aydin]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2401.15378"
 external_pdf: "https://arxiv.org/pdf/2401.15378.pdf"
-local_pdf: "[[PDFs/2024/2024-Aydin-Improving LLM Reliability with RAG in.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Aydin-Improving LLM Reliability with RAG in.md"
+local_pdf: "[[PDFs/2024/2024-Aydin-Improving LLM Reliability with RAG in.pdf]]"
 publication: "Turkish Journal of Engineering / arXiv"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: Unknown
 url: "https://www.scitepress.org/Papers/2024/128120/128120.pdf"
 external_pdf: "https://www.scitepress.org/Papers/2024/128120/128120.pdf"
 publication: Web
-local_pdf: "[[PDFs/2024/2024-Unknown-A Web-Based Hate Speech Detection System for Dialectal Arabic.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Unknown-A Web-Based Hate Speech Detection System for Dialectal Arabic.md"
+local_pdf: "[[PDFs/2024/2024-Unknown-A Web-Based Hate Speech Detection System for Dialectal Arabic.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -12,8 +12,8 @@ last_author: "[[MLCommons AI Risk and Reliability Working Group]]"
 authors: "MLCommons AI Risk and Reliability Working Group"
 url: "https://mlcommons.org/ailuminate/safety/"
 publication: MLCommons
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

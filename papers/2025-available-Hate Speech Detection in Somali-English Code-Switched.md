@@ -13,8 +13,8 @@ authors: "[[Authors not fully available]]"
 authors_incomplete: false
 url: "https://link.springer.com/chapter/10.1007/978-981-95-3349-7_28"
 external_pdf: "https://arxiv.org/pdf/2110.09393.pdf"
-local_pdf: "[[PDFs/2025/2025-available-Hate Speech Detection in Somali-English Code-Switched.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-available-Hate Speech Detection in Somali-English Code-Switched.md"
+local_pdf: "[[PDFs/2025/2025-available-Hate Speech Detection in Somali-English Code-Switched.pdf]]"
 publication: "WebSearch: Somali NLP benchmark dataset evaluation hate speech"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: "[[AI Angkor Intelligence]]"
 authors_incomplete: false
 url: "https://www.angkor-intelligence.com/projects/khmer-llm"
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "AI Angkor Intelligence website"
 DATE_ADDED: 20260213
 ethics_overall: No

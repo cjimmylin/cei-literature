@@ -12,8 +12,8 @@ last_author: "[[European LLM benchmarking consortium]]"
 authors: "European LLM benchmarking consortium"
 url: "https://arxiv.org/abs/2510.24450"
 external_pdf: "https://arxiv.org/pdf/2510.24450.pdf"
-local_pdf: "[[PDFs/2025/2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a.md"
+local_pdf: "[[PDFs/2025/2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

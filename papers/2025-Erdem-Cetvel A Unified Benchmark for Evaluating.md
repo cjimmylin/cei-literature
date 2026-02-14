@@ -13,8 +13,8 @@ authors: "[[Yakup Abrek Er, Ilker Kesen, Gozde Gul Sahin, Aykut Erdem]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.16431"
 external_pdf: "https://arxiv.org/pdf/2508.16431.pdf"
-local_pdf: "[[PDFs/2025/2025-Erdem-Cetvel A Unified Benchmark for Evaluating.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Erdem-Cetvel A Unified Benchmark for Evaluating.md"
+local_pdf: "[[PDFs/2025/2025-Erdem-Cetvel A Unified Benchmark for Evaluating.pdf]]"
 publication: arxiv.org
 DATE_ADDED: 20260213
 ethics_overall: No

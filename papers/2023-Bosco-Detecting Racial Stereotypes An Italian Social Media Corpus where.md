@@ -14,13 +14,13 @@ doi: 10.1016/j.ipm.2022.103118
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0306457322002199"
 external_pdf: "https://hdl.handle.net/11586/413290"
 publication: "Information Processing & Management (Elsevier)"
+pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://hdl.handle.net/11586/413290"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
-pdf_extract: 
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

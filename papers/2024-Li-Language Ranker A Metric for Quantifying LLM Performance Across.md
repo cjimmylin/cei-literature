@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Zihao Li; Yucheng Shi; Zirui Liu; Fan Yang; Ali Payani; Ninghao Liu; Mengnan Du"
 url: "https://arxiv.org/abs/2404.11553"
 external_pdf: "https://arxiv.org/pdf/2404.11553.pdf"
-local_pdf: "[[PDFs/2024/2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across.md"
+local_pdf: "[[PDFs/2024/2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

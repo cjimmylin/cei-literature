@@ -13,8 +13,8 @@ authors: "[[Chen, Ziyu]]; [[Sun, Junfei]]; [[Li, Chenxi]]; [[Nguyen, Tuan Dung]]
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.24216"
 external_pdf: "https://arxiv.org/pdf/2509.24216.pdf"
-local_pdf: "[[PDFs/2025/2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.md"
+local_pdf: "[[PDFs/2025/2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.pdf]]"
 publication: EMNLP
 DATE_ADDED: 20260207
 ethics_overall: No

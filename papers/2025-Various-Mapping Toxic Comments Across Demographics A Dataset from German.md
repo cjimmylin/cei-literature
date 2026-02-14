@@ -13,8 +13,8 @@ authors: Various
 url: "https://arxiv.org/abs/2508.21084"
 external_pdf: "https://arxiv.org/pdf/2508.21084.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Various-Mapping Toxic Comments Across Demographics A Dataset from German.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Various-Mapping Toxic Comments Across Demographics A Dataset from German.md"
+local_pdf: "[[PDFs/2025/2025-Various-Mapping Toxic Comments Across Demographics A Dataset from German.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

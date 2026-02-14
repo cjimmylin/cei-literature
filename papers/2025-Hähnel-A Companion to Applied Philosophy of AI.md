@@ -12,8 +12,8 @@ last_author: "[[Müller, Regina (eds.)]]"
 authors: "[[Hähnel, Martin]]; [[Müller, Regina (eds.)]]"
 doi: 10.1002/9781119809449
 url: "https://www.wiley.com/en-us/A+Companion+to+Applied+Philosophy+of+AI-p-9781119809"
-local_pdf: "[[PDFs/2025/2025-Hähnel-A Companion to Applied Philosophy of AI.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Hähnel-A Companion to Applied Philosophy of AI.md"
+local_pdf: "[[PDFs/2025/2025-Hähnel-A Companion to Applied Philosophy of AI.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: Buddhism
 religious_values_list: Buddhism

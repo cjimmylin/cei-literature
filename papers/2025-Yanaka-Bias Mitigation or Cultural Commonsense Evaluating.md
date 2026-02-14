@@ -13,8 +13,8 @@ authors: "[[Taisei Yamamoto, Ryoma Kumon, Danushka Bollegala, Hitomi Yanaka]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.24468"
 external_pdf: "https://arxiv.org/pdf/2509.24468.pdf"
-local_pdf: "[[PDFs/2025/2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating.md"
+local_pdf: "[[PDFs/2025/2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating.pdf]]"
 publication: "EMNLP 2025 (Main Conference)"
 DATE_ADDED: 20260213
 ethics_overall: No

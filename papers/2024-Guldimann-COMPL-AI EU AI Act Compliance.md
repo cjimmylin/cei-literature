@@ -13,8 +13,8 @@ authors: "[[Guldimann, Philipp]]; [[Spiridonov, Alexander]]; [[Staab, Robin]]; [
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.07959"
 external_pdf: "https://arxiv.org/pdf/2410.07959.pdf"
-local_pdf: "[[PDFs/2024/2024-Guldimann-COMPL-AI EU AI Act Compliance.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Guldimann-COMPL-AI EU AI Act Compliance.md"
+local_pdf: "[[PDFs/2024/2024-Guldimann-COMPL-AI EU AI Act Compliance.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
 ethics_overall: No

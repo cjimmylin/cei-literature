@@ -14,8 +14,8 @@ doi: 10.3724/2096-7004.di.2025.0116
 url: "https://www.sciengine.com/DI/doi/10.3724/2096-7004.di.2025.0116"
 external_pdf: "https://www.sciengine.com/doi/pdf/6A0FFAF926684232A3BB85AA8F6C02DF"
 publication: Web
-local_pdf: "[[PDFs/2025/2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese.md"
+local_pdf: "[[PDFs/2025/2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

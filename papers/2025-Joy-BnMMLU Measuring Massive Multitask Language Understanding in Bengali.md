@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Saman Sarker Joy; Swakkhar Shatabda"
 url: "https://arxiv.org/abs/2505.18951"
 external_pdf: "https://arxiv.org/pdf/2505.18951.pdf"
-local_pdf: "[[PDFs/2025/2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali.md"
+local_pdf: "[[PDFs/2025/2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

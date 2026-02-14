@@ -13,8 +13,8 @@ last_author: "[[Alexandre Mouzalon]]"
 authors: "Erick Fonseca, Leandro Borges dos Santos, Marcelo Finger, Alexandre Mouzalon"
 url: "http://nilc.icmc.usp.br/assin/"
 publication: NILC/USP
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

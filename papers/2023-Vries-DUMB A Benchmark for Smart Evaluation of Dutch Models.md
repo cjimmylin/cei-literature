@@ -13,8 +13,8 @@ authors: "Wietse de Vries et al."
 url: "https://arxiv.org/abs/2305.13026"
 external_pdf: "https://arxiv.org/pdf/2305.13026.pdf"
 publication: "arXiv / EMNLP 2023"
-local_pdf: "[[PDFs/2023/2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models.md"
+local_pdf: "[[PDFs/2023/2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

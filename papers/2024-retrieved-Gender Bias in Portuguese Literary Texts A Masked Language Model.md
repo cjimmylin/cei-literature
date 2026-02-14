@@ -14,8 +14,8 @@ authors: "Authors not fully retrieved"
 url: "https://sol.sbc.org.br/index.php/stil/article/download/37842/37620/"
 external_pdf: "https://sol.sbc.org.br/index.php/stil/article/download/37842/37620"
 publication: "STIL 2024"
-local_pdf: "[[PDFs/2024/2024-retrieved-Gender Bias in Portuguese Literary Texts A Masked Language Model.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-retrieved-Gender Bias in Portuguese Literary Texts A Masked Language Model.md"
+local_pdf: "[[PDFs/2024/2024-retrieved-Gender Bias in Portuguese Literary Texts A Masked Language Model.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

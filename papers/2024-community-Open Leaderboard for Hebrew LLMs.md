@@ -13,8 +13,8 @@ last_author: "[[Hugging Face / Hebrew NLP community]]"
 authors: "Hugging Face / Hebrew NLP community"
 url: "https://huggingface.co/blog/leaderboard-hebrew"
 publication: HuggingFace
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Andy Rosenbaum; Assaf Siani; Ilan Kernerman"
 url: "https://arxiv.org/abs/2602.06546"
 external_pdf: "https://arxiv.org/pdf/2602.06546.pdf"
-local_pdf: "[[PDFs/2025/2025-Rosenbaum-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Rosenbaum-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew.md"
+local_pdf: "[[PDFs/2025/2025-Rosenbaum-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

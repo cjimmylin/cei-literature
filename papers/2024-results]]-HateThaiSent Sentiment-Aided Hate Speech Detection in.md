@@ -13,8 +13,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/10494986/"
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "IEEE Transactions on Computational Social Systems"
 DATE_ADDED: 20260213
 ethics_overall: No

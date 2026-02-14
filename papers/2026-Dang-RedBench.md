@@ -12,8 +12,8 @@ last_author: "[[Truong-Son Hy]]"
 authors: "Quy-Anh Dang, Chris Ngo, Truong-Son Hy"
 url: "https://arxiv.org/abs/2601.03699"
 external_pdf: "https://arxiv.org/pdf/2601.03699.pdf"
+pdf_extract: "PDF Extracts/0000/2026-Dang-RedBench.md"
 local_pdf: "[[PDFs/2026-Dang-RedBench.pdf]]"
-pdf_extract: "PDF Extracts/2026/2026-Dang-RedBench.md"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
 ethics_overall: No

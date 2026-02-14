@@ -13,8 +13,8 @@ last_author: [[Unknown]]
 authors: "Minghao Wu; Weixuan Wang; Sinuo Liu; Huifeng Yin; Xintong Wang; Yu Zhao; Chenyang Lyu; Longyue Wang; Weihua Luo; Kaifu Zhang"
 url: "https://arxiv.org/abs/2504.15521"
 external_pdf: "https://arxiv.org/pdf/2504.15521.pdf"
-local_pdf: "[[PDFs/2025/2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks.md"
+local_pdf: "[[PDFs/2025/2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

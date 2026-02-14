@@ -14,8 +14,8 @@ authors: "Ijaz Ul Haq, Dongji Qiu et al."
 url: "https://peerj.com/articles/cs-1617/"
 external_pdf: "https://europepmc.org/articles/PMC10702970?pdf=render"
 publication: "PeerJ Computer Science"
-local_pdf: "[[PDFs/2023/2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.md"
+local_pdf: "[[PDFs/2023/2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

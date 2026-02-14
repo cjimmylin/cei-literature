@@ -13,8 +13,8 @@ authors: "[[Nouar AlDahoul, Yasir Zaki]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.15796"
 external_pdf: "https://arxiv.org/pdf/2508.15796.pdf"
-local_pdf: "[[PDFs/2025/2025-Zaki-Benchmarking the Legal Reasoning of LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zaki-Benchmarking the Legal Reasoning of LLMs.md"
+local_pdf: "[[PDFs/2025/2025-Zaki-Benchmarking the Legal Reasoning of LLMs.pdf]]"
 publication: "arXiv (related to QIAS 2025 Challenge)"
 DATE_ADDED: 20260213
 ethics_overall: No

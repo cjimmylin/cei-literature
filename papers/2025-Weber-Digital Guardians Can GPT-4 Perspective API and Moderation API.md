@@ -13,8 +13,8 @@ authors: "Manuel Weber et al."
 url: "https://arxiv.org/abs/2501.01256"
 external_pdf: "https://arxiv.org/pdf/2501.01256.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API.md"
+local_pdf: "[[PDFs/2025/2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

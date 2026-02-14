@@ -12,8 +12,8 @@ last_author: "[[Carlos González Carballo]]"
 authors: "Carlos González Carballo, et al."
 url: "https://arxiv.org/abs/2504.03312"
 external_pdf: "https://arxiv.org/pdf/2504.03312.pdf"
-local_pdf: "[[PDFs/2025/2025-Carballo-Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Carballo-Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on.md"
+local_pdf: "[[PDFs/2025/2025-Carballo-Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on.pdf]]"
 publication: "arXiv / SEPLN"
 DATE_ADDED: 20260213
 ethics_overall: No

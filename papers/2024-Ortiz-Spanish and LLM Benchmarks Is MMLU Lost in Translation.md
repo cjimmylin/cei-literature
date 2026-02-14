@@ -12,8 +12,8 @@ last_author: "[[Irene Plaza Ortiz]]"
 authors: "Irene Plaza Ortiz, et al."
 url: "https://arxiv.org/abs/2406.17789"
 external_pdf: "https://arxiv.org/pdf/2406.17789.pdf"
-local_pdf: "[[PDFs/2024/2024-Ortiz-Spanish and LLM Benchmarks Is MMLU Lost in Translation.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Ortiz-Spanish and LLM Benchmarks Is MMLU Lost in Translation.md"
+local_pdf: "[[PDFs/2024/2024-Ortiz-Spanish and LLM Benchmarks Is MMLU Lost in Translation.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

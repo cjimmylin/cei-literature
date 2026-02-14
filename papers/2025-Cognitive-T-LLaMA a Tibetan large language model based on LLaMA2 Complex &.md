@@ -14,8 +14,8 @@ doi: 10.1007/s40747-024-01641-7
 url: "https://link.springer.com/article/10.1007/s40747-024-01641-7"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s40747-024-01641-7.pdf"
 publication: Springer
-local_pdf: "[[PDFs/2025/2025-Cognitive-T-LLaMA a Tibetan large language model based on LLaMA2 Complex &.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Cognitive-T-LLaMA a Tibetan large language model based on LLaMA2 Complex &.md"
+local_pdf: "[[PDFs/2025/2025-Cognitive-T-LLaMA a Tibetan large language model based on LLaMA2 Complex &.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,13 +13,13 @@ authors: "[[Ligeia Lugli, Matej Martinc, Andraz Pelicon, Senja Pollak]]"
 authors_incomplete: false
 url: 
 external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10280248/pdf/peerj-cs-08-1128.pdf"
+pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10280248/pdf/peerj-cs-08-1128.pdf"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
-pdf_extract: 
 publication: "LREC 2022 (Thirteenth Language Resources and Evaluation Conference), pages 3861-3871, Marseille, France"
 DATE_ADDED: 20260213
 ethics_overall: No

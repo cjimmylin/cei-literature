@@ -13,8 +13,8 @@ last_author: "[[Pawel Dybala]]"
 authors: "Michal Ptaszynski, Agata Pieciukiewicz, Pawel Dybala"
 url: "https://github.com/ptaszynski/cyberbullying-Polish"
 publication: "PolEval 2019 Workshop"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

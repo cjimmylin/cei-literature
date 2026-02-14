@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Shimanto Bhowmik; Tawsif Tashwar Dipto; Md Sazzad Islam; Sheryl Hsu; Tahsin Reasat"
 url: "https://arxiv.org/abs/2507.23248"
 external_pdf: "https://arxiv.org/pdf/2507.23248.pdf"
-local_pdf: "[[PDFs/2025/2025-Bhowmik-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Bhowmik-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark.md"
+local_pdf: "[[PDFs/2025/2025-Bhowmik-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

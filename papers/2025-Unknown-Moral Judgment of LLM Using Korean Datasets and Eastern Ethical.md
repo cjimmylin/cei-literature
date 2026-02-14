@@ -14,8 +14,8 @@ authors: Unknown
 url: "https://koreascience.or.kr/article/CFKO202521032403557.page"
 external_pdf: "https://koreascience.or.kr/article/CFKO202521032403557.pdf"
 publication: "KIPS Annual Conference 2025"
-local_pdf: "[[PDFs/2025/2025-Unknown-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

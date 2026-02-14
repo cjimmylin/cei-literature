@@ -15,8 +15,8 @@ doi: 10.18653/v1/2022.case-1.1
 url: "https://aclanthology.org/2022.case-1.1/"
 external_pdf: "https://aclanthology.org/2022.case-1.1.pdf"
 publication: "ACL Anthology (CASE 2022)"
-local_pdf: "[[PDFs/2022/2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media.md"
+local_pdf: "[[PDFs/2022/2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

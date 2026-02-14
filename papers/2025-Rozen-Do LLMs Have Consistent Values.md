@@ -12,8 +12,8 @@ last_author: "[[Ella Daniel]]"
 authors: "Naama Rozen, Liat Bezalel, Gal Elidan, Amir Globerson, Ella Daniel"
 url: "https://arxiv.org/abs/2407.12878"
 external_pdf: "https://arxiv.org/pdf/2407.12878.pdf"
-local_pdf: "[[PDFs/2025/2025-Rozen-Do LLMs Have Consistent Values.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Rozen-Do LLMs Have Consistent Values.md"
+local_pdf: "[[PDFs/2025/2025-Rozen-Do LLMs Have Consistent Values.pdf]]"
 publication: "ICLR 2025"
 DATE_ADDED: 20260207
 ethics_overall: No

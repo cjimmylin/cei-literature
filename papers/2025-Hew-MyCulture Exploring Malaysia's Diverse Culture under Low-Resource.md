@@ -12,8 +12,8 @@ last_author: "[[Zhong Ken Hew]]"
 authors: "Zhong Ken Hew et al."
 url: "https://arxiv.org/abs/2508.05429"
 external_pdf: "https://arxiv.org/pdf/2508.05429.pdf"
-local_pdf: "[[PDFs/2025/2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource.md"
+local_pdf: "[[PDFs/2025/2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

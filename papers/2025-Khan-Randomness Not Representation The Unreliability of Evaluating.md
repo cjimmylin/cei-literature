@@ -13,8 +13,8 @@ authors: "Ariba Khan; Stephen Casper; Dylan Hadfield-Menell"
 doi: 10.1145/3715275.3732147
 url: "https://arxiv.org/abs/2503.08688"
 external_pdf: "https://arxiv.org/pdf/2503.08688.pdf"
-local_pdf: "[[PDFs/2025/2025-Khan-Randomness Not Representation The Unreliability of Evaluating.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Khan-Randomness Not Representation The Unreliability of Evaluating.md"
+local_pdf: "[[PDFs/2025/2025-Khan-Randomness Not Representation The Unreliability of Evaluating.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

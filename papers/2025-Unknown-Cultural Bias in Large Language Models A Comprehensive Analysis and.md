@@ -13,8 +13,8 @@ authors: Unknown
 doi: 10.1515/jtc-2023-0019/html?lang=en
 url: "https://www.degruyterbrill.com/document/doi/10.1515/jtc-2023-0019/html?lang=en"
 publication: Web
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

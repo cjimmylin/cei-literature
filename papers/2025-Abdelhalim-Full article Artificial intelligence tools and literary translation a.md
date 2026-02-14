@@ -13,8 +13,8 @@ authors: "S. Abdelhalim; Asma A. Alsahil; Zainab Alsuhaibani"
 doi: 10.1080/23311983.2025.2508031
 url: "https://www.tandfonline.com/doi/full/10.1080/23311983.2025.2508031"
 publication: Web
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

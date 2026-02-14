@@ -13,8 +13,8 @@ authors: "[[AI4Bharat team]]"
 authors_incomplete: false
 url: "https://github.com/AI4Bharat/indic-bias"
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "WebSearch: INDIC-BIAS benchmark"
 DATE_ADDED: 20260213
 ethics_overall: No

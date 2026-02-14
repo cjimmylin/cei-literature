@@ -13,8 +13,8 @@ authors: "Hwaran Lee, Seokhee Hong, Joonsuk Park, Takyoung Kim, Gunhee Kim, Byou
 doi: 10.18653/v1/2023.acl-long.370
 url: "https://arxiv.org/abs/2305.17696"
 external_pdf: "https://arxiv.org/pdf/2305.17696.pdf"
-local_pdf: "[[PDFs/2023/2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable.md"
+local_pdf: "[[PDFs/2023/2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable.pdf]]"
 publication: "arXiv / ACL 2023"
 DATE_ADDED: 20260213
 ethics_overall: No

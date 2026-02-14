@@ -13,8 +13,8 @@ authors: "[[LocalDoc Azerbaijan]]"
 authors_incomplete: false
 url: "https://huggingface.co/LocalDoc/azerbaijani_toxicity_classifier"
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: HuggingFace
 DATE_ADDED: 20260213
 ethics_overall: No

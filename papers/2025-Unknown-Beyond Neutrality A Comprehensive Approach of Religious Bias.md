@@ -13,8 +13,8 @@ authors: Unknown
 url: "https://dspace.bracu.ac.bd/xmlui/bitstream/handle/10361/27421/21201496,%2022101698,%2022101788,%2022101426_CSE.pdf?sequence=1&isAllowed=y"
 external_pdf: "https://dspace.bracu.ac.bd/xmlui/bitstream/handle/10361/27421/21201496,%2022101698,%2022101788,%2022101426_CSE.pdf?sequence=1&isAllowed=y"
 publication: Web
-local_pdf: "[[PDFs/2025/2025-Unknown-Beyond Neutrality A Comprehensive Approach of Religious Bias.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Beyond Neutrality A Comprehensive Approach of Religious Bias.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-Beyond Neutrality A Comprehensive Approach of Religious Bias.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ authors: "Teemu Maatta"
 url: "https://www.researchgate.net/publication/362261601_Language_Models_for_Code-switch_Detection_of_te_reo_Maori_and_English_in_a_Low-resource_Setting"
 external_pdf: "https://aclanthology.org/2022.findings-naacl.49.pdf"
 publication: ResearchGate
-local_pdf: "[[PDFs/2025/2025-Maatta-Language Models for Code-switch Detection of te reo Māori and English.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Maatta-Language Models for Code-switch Detection of te reo Māori and English.md"
+local_pdf: "[[PDFs/2025/2025-Maatta-Language Models for Code-switch Detection of te reo Māori and English.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

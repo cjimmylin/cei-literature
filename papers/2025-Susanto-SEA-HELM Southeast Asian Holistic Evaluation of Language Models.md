@@ -12,8 +12,8 @@ last_author: "[[William Chandra Tjhi]]"
 authors: "Yosephine Susanto, Adithya Venkatadri Hulagadri, Jann Railey Montalan, Jian Gang Ngui, Xian Bin Yong, Weiqi Leong, Hamsawardhini Rengarajan, Peerat Limkonchotiwat, Yifan Mai, William Chandra Tjhi"
 url: "https://arxiv.org/abs/2502.14301"
 external_pdf: "https://arxiv.org/pdf/2502.14301.pdf"
-local_pdf: "[[PDFs/2025/2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models.md"
+local_pdf: "[[PDFs/2025/2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models.pdf]]"
 publication: "arXiv / ACL Anthology"
 DATE_ADDED: 20260213
 ethics_overall: No

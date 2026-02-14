@@ -12,8 +12,8 @@ last_author: "[[Rodrigo Nogueira]]"
 authors: "Ramon Pires, Hugo Abonizio, Thales Sales Almeida, Rodrigo Nogueira"
 url: "https://arxiv.org/abs/2304.07880"
 external_pdf: "https://arxiv.org/pdf/2304.07880.pdf"
-local_pdf: "[[PDFs/2023/2023-Pires-Sabiá Portuguese Large Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Pires-Sabiá Portuguese Large Language Models.md"
+local_pdf: "[[PDFs/2023/2023-Pires-Sabiá Portuguese Large Language Models.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

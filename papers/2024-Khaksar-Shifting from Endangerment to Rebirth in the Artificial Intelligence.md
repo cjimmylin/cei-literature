@@ -13,8 +13,8 @@ last_author: [[Unknown]]
 authors: "Aram Khaksar; Hossein Hassani"
 url: "https://arxiv.org/abs/2409.16884"
 external_pdf: "https://arxiv.org/pdf/2409.16884.pdf"
-local_pdf: "[[PDFs/2024/2024-Khaksar-Shifting from Endangerment to Rebirth in the Artificial Intelligence.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Khaksar-Shifting from Endangerment to Rebirth in the Artificial Intelligence.md"
+local_pdf: "[[PDFs/2024/2024-Khaksar-Shifting from Endangerment to Rebirth in the Artificial Intelligence.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

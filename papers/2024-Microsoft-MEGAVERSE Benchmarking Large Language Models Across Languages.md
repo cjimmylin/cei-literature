@@ -12,8 +12,8 @@ last_author: "[[Not fully listed in search results (Microsoft)]]"
 authors: "Not fully listed in search results (Microsoft)"
 url: "https://arxiv.org/abs/2311.07463"
 external_pdf: "https://arxiv.org/pdf/2311.07463.pdf"
-local_pdf: "[[PDFs/2024/2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages.md"
+local_pdf: "[[PDFs/2024/2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages.pdf]]"
 publication: "WebSearch: Megaverse benchmarking LLM"
 DATE_ADDED: 20260213
 ethics_overall: No

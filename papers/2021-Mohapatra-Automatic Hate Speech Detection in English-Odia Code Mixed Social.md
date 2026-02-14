@@ -15,8 +15,8 @@ doi: 10.3390/app11188575
 url: "https://www.mdpi.com/2076-3417/11/18/8575"
 external_pdf: "https://web.archive.org/web/20220617211948if_/https://www.mdpi.com/2076-3417/11/18/8575/pdf"
 publication: "MDPI Applied Sciences"
-local_pdf: "[[PDFs/2021/2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social.md"
+local_pdf: "[[PDFs/2021/2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

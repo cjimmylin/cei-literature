@@ -13,8 +13,8 @@ authors: "[[Katharina Simbeck, Mariam Mahran]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.17665"
 external_pdf: "https://arxiv.org/pdf/2509.17665.pdf"
-local_pdf: "[[PDFs/2025/2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.md"
+local_pdf: "[[PDFs/2025/2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.pdf]]"
 publication: "AEQUITAS 2025 Workshop (co-located with ECAI 2025); arXiv"
 DATE_ADDED: 20260213
 ethics_overall: No

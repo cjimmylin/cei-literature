@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Alham Fikri Aji; Trevor Cohn"
 url: "https://arxiv.org/abs/2508.12459"
 external_pdf: "https://arxiv.org/pdf/2508.12459.pdf"
-local_pdf: "[[PDFs/2025/2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.md"
+local_pdf: "[[PDFs/2025/2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.pdf]]"
 publication: "arXiv / ACL Anthology (EMNLP 2025)"
 DATE_ADDED: 20260213
 ethics_overall: No

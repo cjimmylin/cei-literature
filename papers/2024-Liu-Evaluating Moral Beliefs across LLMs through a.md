@@ -12,6 +12,7 @@ last_author: "[[Yu, Dong]]"
 authors: "[[Liu, Xuelin]]; [[Zhu, Yanfei]]; [[Zhu, Shucheng]]; [[Liu, Pengyuan]]; [[Liu, Ying]]; [[Yu, Dong]]"
 doi: 10.48550/arXiv.2411.03665
 url: "http://arxiv.org/abs/2411.03665"
+pdf_extract: "PDF Extracts/2024/2024-Liu-Evaluating Moral Beliefs across LLMs through a.md"
 local_pdf: "[[PDFs/2024/2024-Liu-Evaluating Moral Beliefs across LLMs through a.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2411.03665.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
@@ -22,7 +23,6 @@ moral_psychology: N/A
 newtags: "Chinese, Deontology"
 key_contribution: "Evaluates moral beliefs of LLMs using Chinese moral choice scenarios, revealing a divide between English (Individualistic) and Chinese (Collectivist) models"
 significance: "Highlights that 'alignment' is culturally relative; explicit deontological rule-sets must account for collectivist vs individualist value systems"
-pdf_extract: "PDF Extracts/2024/2024-Liu-Evaluating Moral Beliefs across LLMs through a.md"
 tags: 
 abstract: "Proper moral beliefs are fundamental for lan- guage models, yet assessing these beliefs poses a significant challenge. This study introduces a novel three-module framework to evaluate the moral beliefs of four prominent large language models. Initially, we constructed a dataset containing 472 moral choice scenarios in Chi- nese, derived from moral words. The decision- making process of the models in these scenar- ios reveals their moral principle preferences. By ranking these moral choices, we d"
 paper_summary: "Abstract: Proper moral beliefs are fundamental for lan- guage models, yet assessing these beliefs poses a significant challenge. This study introduces a novel three-module framework to evaluate the moral belief | Overview: Evaluating Moral Beliefs across LLMs through a Pluralistic Framework Xuelin Liu*1, Yanfei Zhu*1, Shucheng Zhu*2, Pengyuan Liu†1,3, Ying Liu†2, Dong Yu†1 1School of Information Science, Beijing Languag | Conclusions: drawn in Section 5.1. ChatGPT and Gemini con- sistently performed well in moral decision-making, closely aligning with moral beliefs of the sample of"

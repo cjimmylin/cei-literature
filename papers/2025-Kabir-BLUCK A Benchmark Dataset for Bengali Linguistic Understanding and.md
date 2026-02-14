@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Daeen Kabir; Minhajur Rahman Chowdhury Mahim; Sheikh Shafayat; Adnan Sadik; Arian Ahmed; Eunsu Kim; Alice Oh"
 url: "https://arxiv.org/abs/2505.21092"
 external_pdf: "https://arxiv.org/pdf/2505.21092.pdf"
-local_pdf: "[[PDFs/2025/2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and.md"
+local_pdf: "[[PDFs/2025/2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

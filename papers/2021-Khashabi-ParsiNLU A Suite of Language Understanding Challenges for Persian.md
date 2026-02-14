@@ -14,8 +14,8 @@ authors: "Daniel Khashabi, Arman Cohan et al."
 url: "https://aclanthology.org/2021.tacl-1.68.pdf"
 external_pdf: "https://arxiv.org/pdf/2012.06154v2.pdf"
 publication: TACL
-local_pdf: "[[PDFs/2021/2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian.md"
+local_pdf: "[[PDFs/2021/2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

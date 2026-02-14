@@ -13,8 +13,8 @@ authors: "Hwaran Lee, Seokhee Hong, Joonsuk Park, Takyoung Kim, Meeyoung Cha, Ye
 doi: 10.18653/v1/2023.acl-industry.21
 url: "https://arxiv.org/abs/2305.17701"
 external_pdf: "https://arxiv.org/pdf/2305.17701.pdf"
-local_pdf: "[[PDFs/2023/2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.md"
+local_pdf: "[[PDFs/2023/2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.pdf]]"
 publication: "arXiv / ACL 2023 Industry Track"
 DATE_ADDED: 20260213
 ethics_overall: No

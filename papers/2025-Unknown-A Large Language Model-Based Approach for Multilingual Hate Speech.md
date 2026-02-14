@@ -13,8 +13,8 @@ authors: Unknown
 url: "https://www.mdpi.com/2073-431X/14/7/279"
 external_pdf: "https://arxiv.org/pdf/2506.08147"
 publication: MDPI
-local_pdf: "[[PDFs/2025/2025-Unknown-A Large Language Model-Based Approach for Multilingual Hate Speech.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-A Large Language Model-Based Approach for Multilingual Hate Speech.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-A Large Language Model-Based Approach for Multilingual Hate Speech.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

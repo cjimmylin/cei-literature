@@ -14,8 +14,8 @@ authors: "Sara Bourbour Hosseinbeigi et al."
 url: "https://aclanthology.org/2025.findings-naacl.147/"
 external_pdf: "https://aclanthology.org/2025.findings-naacl.147.pdf"
 publication: "NAACL 2025 Findings"
-local_pdf: "[[PDFs/2025/2025-Hosseinbeigi-Advancing Persian LLM Evaluation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Hosseinbeigi-Advancing Persian LLM Evaluation.md"
+local_pdf: "[[PDFs/2025/2025-Hosseinbeigi-Advancing Persian LLM Evaluation.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

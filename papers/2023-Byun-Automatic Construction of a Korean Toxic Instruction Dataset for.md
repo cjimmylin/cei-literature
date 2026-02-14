@@ -12,8 +12,8 @@ last_author: "[[Hyopil Shin]]"
 authors: "Sungjoo Byun, Dongjun Jang, Hyemi Jo, Hyopil Shin"
 url: "https://arxiv.org/abs/2311.18215"
 external_pdf: "https://arxiv.org/pdf/2311.18215.pdf"
-local_pdf: "[[PDFs/2023/2023-Byun-Automatic Construction of a Korean Toxic Instruction Dataset for.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Byun-Automatic Construction of a Korean Toxic Instruction Dataset for.md"
+local_pdf: "[[PDFs/2023/2023-Byun-Automatic Construction of a Korean Toxic Instruction Dataset for.pdf]]"
 publication: "arXiv / NeurIPS 2023 Workshop"
 DATE_ADDED: 20260213
 ethics_overall: No

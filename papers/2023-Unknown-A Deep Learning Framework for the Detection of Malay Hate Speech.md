@@ -15,8 +15,8 @@ doi: 10.1109/ACCESS.2023.3297856
 url: "https://ieeexplore.ieee.org/document/10192900/"
 external_pdf: "https://ieeexplore.ieee.org/ielx7/6287639/10005208/10192900.pdf"
 publication: "IEEE Xplore"
-local_pdf: "[[PDFs/2023/2023-Unknown-A Deep Learning Framework for the Detection of Malay Hate Speech.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Unknown-A Deep Learning Framework for the Detection of Malay Hate Speech.md"
+local_pdf: "[[PDFs/2023/2023-Unknown-A Deep Learning Framework for the Detection of Malay Hate Speech.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

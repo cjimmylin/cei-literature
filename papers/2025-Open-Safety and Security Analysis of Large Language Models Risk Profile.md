@@ -13,8 +13,8 @@ authors: "Ant Open"
 url: "https://arxiv.org/html/2509.10655v1"
 external_pdf: "https://arxiv.org/pdf/2509.10655.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Open-Safety and Security Analysis of Large Language Models Risk Profile.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Open-Safety and Security Analysis of Large Language Models Risk Profile.md"
+local_pdf: "[[PDFs/2025/2025-Open-Safety and Security Analysis of Large Language Models Risk Profile.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

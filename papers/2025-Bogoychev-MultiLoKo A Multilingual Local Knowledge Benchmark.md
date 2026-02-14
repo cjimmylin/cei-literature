@@ -13,8 +13,8 @@ authors: "[[Dieuwke Hupkes, Nikolay Bogoychev et al]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.10356"
 external_pdf: "https://arxiv.org/pdf/2504.10356.pdf"
-local_pdf: "[[PDFs/2025/2025-Bogoychev-MultiLoKo A Multilingual Local Knowledge Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Bogoychev-MultiLoKo A Multilingual Local Knowledge Benchmark.md"
+local_pdf: "[[PDFs/2025/2025-Bogoychev-MultiLoKo A Multilingual Local Knowledge Benchmark.pdf]]"
 publication: "Meta Research"
 DATE_ADDED: 20260213
 ethics_overall: No

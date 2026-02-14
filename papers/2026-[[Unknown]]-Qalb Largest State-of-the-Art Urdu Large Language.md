@@ -13,8 +13,8 @@ authors: [[Unknown]]
 authors_incomplete: true
 url: "https://arxiv.org/abs/2601.08141"
 external_pdf: "https://arxiv.org/pdf/2601.08141.pdf"
-local_pdf: "[[PDFs/2026/2026-[[Unknown]]-Qalb Largest State-of-the-Art Urdu Large Language.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-[[Unknown]]-Qalb Largest State-of-the-Art Urdu Large Language.md"
+local_pdf: "[[PDFs/2026/2026-[[Unknown]]-Qalb Largest State-of-the-Art Urdu Large Language.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

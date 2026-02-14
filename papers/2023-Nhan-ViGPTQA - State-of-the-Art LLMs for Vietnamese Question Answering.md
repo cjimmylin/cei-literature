@@ -14,8 +14,8 @@ doi: 10.18653/v1/2023.emnlp-industry.70
 url: "https://aclanthology.org/2023.emnlp-industry.70/"
 external_pdf: "https://aclanthology.org/2023.emnlp-industry.70.pdf"
 publication: "ACL Anthology / EMNLP 2023 Industry"
-local_pdf: "[[PDFs/2023/2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering.md"
+local_pdf: "[[PDFs/2023/2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

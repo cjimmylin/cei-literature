@@ -13,8 +13,8 @@ authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.12829"
 external_pdf: "https://arxiv.org/pdf/2502.12829.pdf"
-local_pdf: "[[PDFs/2025/2025-authors-KazMMLU Evaluating Language Models on Kazakh.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-authors-KazMMLU Evaluating Language Models on Kazakh.md"
+local_pdf: "[[PDFs/2025/2025-authors-KazMMLU Evaluating Language Models on Kazakh.pdf]]"
 publication: "arxiv.org / ACL 2025"
 DATE_ADDED: 20260213
 ethics_overall: No

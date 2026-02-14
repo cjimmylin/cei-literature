@@ -14,8 +14,8 @@ doi: 10.3390/bioengineering11060521
 url: "https://www.mdpi.com/2306-5354/11/6/521"
 external_pdf: "https://europepmc.org/articles/PMC11200492?pdf=render"
 publication: "MDPI Bioengineering"
-local_pdf: "[[PDFs/2024/2024-Paraskevopoulos-A Comparative Sentiment Analysis of Greek Clinical Conversations.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Paraskevopoulos-A Comparative Sentiment Analysis of Greek Clinical Conversations.md"
+local_pdf: "[[PDFs/2024/2024-Paraskevopoulos-A Comparative Sentiment Analysis of Greek Clinical Conversations.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

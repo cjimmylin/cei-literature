@@ -13,8 +13,8 @@ authors: "[[Huang, Chutian]]; [[Cao, Dake]]; [[Ji, Jiacheng]]; [[Fan, Yunlou]]; 
 authors_incomplete: false
 publication: "Not specified"
 external_pdf: "https://arxiv.org/pdf/2601.12652.pdf"
-local_pdf: "[[PDFs/2025/2025-Wu-Chain-of-Ethics Defense Framework Wu et al..pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Wu-Chain-of-Ethics Defense Framework Wu et al..md"
+local_pdf: "[[PDFs/2025/2025-Wu-Chain-of-Ethics Defense Framework Wu et al..pdf]]"
 DATE_ADDED: 20260207
 ethics_overall: No
 virtue_ethics: No

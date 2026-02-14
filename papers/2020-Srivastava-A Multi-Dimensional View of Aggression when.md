@@ -21,8 +21,8 @@ key_contribution: "Created a Hindi-English code-mixed dataset annotated across d
 significance: "Provides a granular understanding of how aggression and sarcasm interact in code-mixed social media contexts, supporting the detection of nuanced toxicity in non-Western linguistic settings."
 tags: 
 abstract: "The advent of social media has immensely proliferated the amount of opinions and arguments voiced on the internet. These virtual debates often present cases of aggression. While research has been focused largely on analyzing aggression and stance in isolation from each other, this work is the ﬁrst attempt to gain an extensive and ﬁne-grained understanding of patterns of aggression and ﬁgurative language use when voicing opinion. We present a Hindi-English code-mixed dataset of opinion on the pol"
-local_pdf: "[[PDFs/2020/2020-Srivastava-A Multi-Dimensional View of Aggression when.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Srivastava-A Multi-Dimensional View of Aggression when.md"
+local_pdf: "[[PDFs/2020/2020-Srivastava-A Multi-Dimensional View of Aggression when.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

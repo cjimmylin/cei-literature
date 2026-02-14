@@ -13,8 +13,8 @@ authors: "Max Mueller-Eberstein et al."
 url: "https://arxiv.org/abs/2504.02403"
 external_pdf: "https://arxiv.org/pdf/2504.02403.pdf"
 publication: "arXiv / C3NLP 2025"
-local_pdf: "[[PDFs/2025/2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for.md"
+local_pdf: "[[PDFs/2025/2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

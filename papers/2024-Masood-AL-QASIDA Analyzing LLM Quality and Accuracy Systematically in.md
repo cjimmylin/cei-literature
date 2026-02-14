@@ -13,8 +13,8 @@ authors: "Adnan Masood, Ph"
 url: "https://arxiv.org/html/2412.04193v2"
 external_pdf: "https://arxiv.org/pdf/2412.04193.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024/2024-Masood-AL-QASIDA Analyzing LLM Quality and Accuracy Systematically in.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Masood-AL-QASIDA Analyzing LLM Quality and Accuracy Systematically in.md"
+local_pdf: "[[PDFs/2024/2024-Masood-AL-QASIDA Analyzing LLM Quality and Accuracy Systematically in.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ last_author: "[[Lj Miranda]]"
 authors: "Lj Miranda"
 url: "https://ljvmiranda921.github.io/notebook/2024/12/17/filipino-llm/"
 publication: "Blog / Technical Report"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

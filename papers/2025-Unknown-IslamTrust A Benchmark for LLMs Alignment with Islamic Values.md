@@ -13,8 +13,8 @@ authors: Unknown
 url: "https://openreview.net/pdf?id=PBcv90iKFB"
 external_pdf: "https://openreview.net/pdf?id=PBcv90iKFB"
 publication: OpenReview
-local_pdf: "[[PDFs/2025/2025-Unknown-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

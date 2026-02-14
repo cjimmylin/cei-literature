@@ -13,8 +13,8 @@ authors: Unknown
 url: "https://aclanthology.org/C16-3002/"
 external_pdf: "https://aclanthology.org/C16-3002.pdf"
 publication: "ACL Anthology"
-local_pdf: "[[PDFs/2025/2025-Unknown-Chinese Textual Sentiment Analysis Datasets Resources and Tools.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Chinese Textual Sentiment Analysis Datasets Resources and Tools.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-Chinese Textual Sentiment Analysis Datasets Resources and Tools.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

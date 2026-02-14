@@ -13,8 +13,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.16188"
 external_pdf: "https://arxiv.org/pdf/2509.16188.pdf"
-local_pdf: "[[PDFs/2025/2025-results]]-CultureScope A Dimensional Lens for Probing.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-results]]-CultureScope A Dimensional Lens for Probing.md"
+local_pdf: "[[PDFs/2025/2025-results]]-CultureScope A Dimensional Lens for Probing.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

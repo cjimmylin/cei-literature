@@ -14,8 +14,8 @@ doi: 10.1007/s40747-021-00608-2
 url: "https://arxiv.org/abs/2006.08328"
 external_pdf: "https://arxiv.org/pdf/2006.08328.pdf"
 publication: "arXiv / Complex & Intelligent Systems"
-local_pdf: "[[PDFs/2020/2020-Mollas-ETHOS an Online Hate Speech Detection Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Mollas-ETHOS an Online Hate Speech Detection Dataset.md"
+local_pdf: "[[PDFs/2020/2020-Mollas-ETHOS an Online Hate Speech Detection Dataset.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

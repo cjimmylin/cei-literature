@@ -13,8 +13,8 @@ authors: "Kalvin Chang; Yiwen Shao; Jiahong Li; Dong Yu"
 url: "https://arxiv.org/html/2601.07274"
 external_pdf: "https://arxiv.org/pdf/2601.07274.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2026/2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects.md"
+local_pdf: "[[PDFs/2026/2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

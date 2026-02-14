@@ -13,8 +13,8 @@ authors: "[[Rahul Aralikatte, Miryam de Lhoneux, Anoop Kunchukuttan, Anders Soga
 authors_incomplete: false
 url: "https://arxiv.org/abs/2106.03269"
 external_pdf: "https://arxiv.org/pdf/2106.03269.pdf"
-local_pdf: "[[PDFs/2021/2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit.md"
+local_pdf: "[[PDFs/2021/2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit.pdf]]"
 publication: "WAT 2021 (Workshop on Asian Translation)"
 DATE_ADDED: 20260213
 ethics_overall: No

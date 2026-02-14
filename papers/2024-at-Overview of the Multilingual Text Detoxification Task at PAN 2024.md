@@ -14,8 +14,8 @@ authors: "Overview of the Multilingual Text Detoxification Task at"
 url: "https://ceur-ws.org/Vol-3740/paper-223.pdf"
 external_pdf: "https://ceur-ws.org/Vol-3740/paper-223.pdf"
 publication: "CLEF / PAN"
-local_pdf: "[[PDFs/2024/2024-at-Overview of the Multilingual Text Detoxification Task at PAN 2024.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-at-Overview of the Multilingual Text Detoxification Task at PAN 2024.md"
+local_pdf: "[[PDFs/2024/2024-at-Overview of the Multilingual Text Detoxification Task at PAN 2024.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

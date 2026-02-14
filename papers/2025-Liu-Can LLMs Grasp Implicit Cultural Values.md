@@ -13,6 +13,7 @@ authors: "[[Liu, Ziyi]]; [[Dey, Priyanka]]; [[Zhao, Zhenyu]]; [[Huang, Jen-tse]]
 doi: 10.48550/arXiv.2504.01127
 tags: 
 url: "http://arxiv.org/abs/2504.01127"
+pdf_extract: "PDF Extracts/2025/2025-Liu-Can LLMs Grasp Implicit Cultural Values.md"
 local_pdf: "[[PDFs/2025/2025-Liu-Can LLMs Grasp Implicit Cultural Values.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2504.01127.pdf"
 national_ethnic_cultural: Multicultural/Cross-cultural
@@ -22,7 +23,6 @@ moral_psychology: N/A
 newtags: "Multicultural/Cross-cultural, Virtue Ethics"
 key_contribution: "Introduces CQ-Bench, a benchmark for evaluating LLMs' metacognitive cultural intelligence and ability to infer implicit values"
 significance: "Demonstrates that while LLMs can select explicit values, they struggle with granular attitude detection and open-ended cultural reasoning"
-pdf_extract: "PDF Extracts/2025/2025-Liu-Can LLMs Grasp Implicit Cultural Values.md"
 abstract: "Cultural Intelligence (CQ) refers to the ability to understand unfamiliar cultural contexts—a crucial skill for large language models (LLMs) to effectively engage with globally diverse users. Existing studies often focus on explicitly stated cultural norms, but fail to capture the subtle, implicit values that are common in daily conversation. To address this gap, we introduce CQ-Bench, a benchmark specifically designed to assess LLMs’ capability to infer implicit cul- tural values from natural c"
 paper_summary: "Abstract: Cultural Intelligence (CQ) refers to the ability to understand unfamiliar cultural contexts—a crucial skill for large language models (LLMs) to effectively engage with globally diverse users. Existing | Overview: Can LLMs Grasp Implicit Cultural Values? Benchmarking LLMs’ Cultural Intelligence with CQ-Bench Ziyi Liu1 Priyanka Dey1 Jen-tse Huang3 Zhenyu Zhao1 Bowen Jiang4 Rahul Gupta2 Yang Liu2 Yao Du1 Jieyu Zh | Methodology: for extracting social norms from conversations, em- phasizing norm mining rather than cultural value identification. In contrast, our work focuses on  | Key Findings: We construct three escalating tasks—attitude detection, value selection, and value extraction—to systemati- cally evaluate open-sourced and close-sour | Conclusions: We introduce CQ-Bench, a benchmark for evaluat- ing LLMs’ ability to infer implicit cultural values in conversations. CQ-Bench assesses model’s cul- t"
 ethics_overall: No

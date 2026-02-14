@@ -13,8 +13,8 @@ authors: Sakhadib
 url: "https://arxiv.org/html/2510.13430v1"
 external_pdf: "https://arxiv.org/pdf/2510.13430.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Sakhadib-Evaluating Arabic Large Language Models A Survey of Benchmarks.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Sakhadib-Evaluating Arabic Large Language Models A Survey of Benchmarks.md"
+local_pdf: "[[PDFs/2025/2025-Sakhadib-Evaluating Arabic Large Language Models A Survey of Benchmarks.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

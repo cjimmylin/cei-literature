@@ -13,8 +13,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.18466"
 external_pdf: "https://arxiv.org/pdf/2505.18466.pdf"
-local_pdf: "[[PDFs/2025/2025-results]]-Measuring South Asian Biases in Large.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-results]]-Measuring South Asian Biases in Large.md"
+local_pdf: "[[PDFs/2025/2025-results]]-Measuring South Asian Biases in Large.pdf]]"
 publication: "WebSearch: South Asian biases LLM"
 DATE_ADDED: 20260213
 ethics_overall: No

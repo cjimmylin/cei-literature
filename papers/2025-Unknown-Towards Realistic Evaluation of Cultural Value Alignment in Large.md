@@ -14,8 +14,8 @@ authors: Unknown
 doi: 10.1016/j.techfore.2025.123XX
 url: "https://www.sciencedirect.com/science/article/abs/pii/S030645732500041X"
 publication: "Technological Forecasting and Social Change (ScienceDirect)"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

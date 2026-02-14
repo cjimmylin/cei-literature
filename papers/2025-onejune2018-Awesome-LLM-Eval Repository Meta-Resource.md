@@ -32,6 +32,8 @@ data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
 no_pdf_applicable: true
+pdf_extract: 
+local_pdf: N/A
 ---
 # Awesome-LLM-Eval Repository (Meta-Resource)
 

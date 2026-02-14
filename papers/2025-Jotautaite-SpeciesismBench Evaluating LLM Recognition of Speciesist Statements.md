@@ -13,8 +13,8 @@ authors: "[[Jotautaitė, Monika]]; [[Caviola, Lucius]]; [[Brewster, David A.]]; 
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.11534"
 external_pdf: "https://arxiv.org/pdf/2508.11534.pdf"
-local_pdf: "[[PDFs/2025/2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.md"
+local_pdf: "[[PDFs/2025/2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

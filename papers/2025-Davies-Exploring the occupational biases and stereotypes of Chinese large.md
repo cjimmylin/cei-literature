@@ -13,8 +13,8 @@ authors: "Dave Davies"
 url: "https://www.nature.com/articles/s41598-025-03893-w"
 external_pdf: "https://www.nature.com/articles/s41598-025-03893-w.pdf"
 publication: Nature
-local_pdf: "[[PDFs/2025/2025-Davies-Exploring the occupational biases and stereotypes of Chinese large.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Davies-Exploring the occupational biases and stereotypes of Chinese large.md"
+local_pdf: "[[PDFs/2025/2025-Davies-Exploring the occupational biases and stereotypes of Chinese large.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

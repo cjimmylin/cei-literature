@@ -13,8 +13,8 @@ authors: "[[Manuel Tonneau et al]]"
 authors_incomplete: false
 url: "https://huggingface.co/datasets/manueltonneau/turkish-hate-speech-superset"
 external_pdf: "https://aclanthology.org/2022.lrec-1.443.pdf"
-local_pdf: "[[PDFs/2024/2024-Tonneau-Turkish Hate Speech Superset Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Tonneau-Turkish Hate Speech Superset Dataset.md"
+local_pdf: "[[PDFs/2024/2024-Tonneau-Turkish Hate Speech Superset Dataset.pdf]]"
 publication: HuggingFace
 DATE_ADDED: 20260213
 ethics_overall: No

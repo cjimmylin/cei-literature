@@ -13,8 +13,8 @@ authors: "Elmurod Kuriyozov; Sanatbek Matlatipov; Miguel A. Alonso; Carlos Góme
 doi: 10.1007/978-3-031-05328-3_15
 url: "https://link.springer.com/chapter/10.1007/978-3-031-05328-3_15"
 publication: Springer
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

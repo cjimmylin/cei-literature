@@ -13,8 +13,8 @@ authors: "Michael J. Ryan, William Held, Diyi Yang"
 doi: 10.18653/v1/2024.acl-long.853
 url: "https://doi.org/10.18653/v1/2024.acl-long.853"
 external_pdf: "https://aclanthology.org/2024.acl-long.853.pdf"
-local_pdf: "[[PDFs/2024/2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation.md"
+local_pdf: "[[PDFs/2024/2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation.pdf]]"
 publication: "ACL 2024"
 DATE_ADDED: 20260207
 ethics_overall: No

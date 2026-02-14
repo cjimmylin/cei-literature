@@ -13,8 +13,8 @@ authors: "[[Casey Sapp, Kyle Horne, Ken Churchill, Andrew Clark, Andrew Noble, P
 authors_incomplete: false
 url: 
 external_pdf: "https://core.ac.uk/download/143685631.pdf"
-local_pdf: "[[PDFs/2025/2025-Coalition-The Gospel Coalition AI Christian Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Coalition-The Gospel Coalition AI Christian Benchmark.md"
+local_pdf: "[[PDFs/2025/2025-Coalition-The Gospel Coalition AI Christian Benchmark.pdf]]"
 publication: "The Gospel Coalition (industry report)"
 DATE_ADDED: 20260213
 ethics_overall: No

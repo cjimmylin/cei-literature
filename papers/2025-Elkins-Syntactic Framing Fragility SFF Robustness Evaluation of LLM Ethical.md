@@ -12,8 +12,8 @@ last_author: [[J.]]
 authors: "Elkins, K. & Chun, J."
 url: "https://arxiv.org/abs/2601.09724"
 external_pdf: "https://arxiv.org/pdf/2601.09724.pdf"
-local_pdf: "[[PDFs/2025/2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical.md"
+local_pdf: "[[PDFs/2025/2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

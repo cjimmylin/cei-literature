@@ -13,8 +13,8 @@ authors: "[[Not fully listed in search results (MLCommons funded)]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.13912"
 external_pdf: "https://arxiv.org/pdf/2501.13912.pdf"
-local_pdf: "[[PDFs/2025/2025-funded-Analysis of Indic Language Capabilities in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-funded-Analysis of Indic Language Capabilities in.md"
+local_pdf: "[[PDFs/2025/2025-funded-Analysis of Indic Language Capabilities in.pdf]]"
 publication: "WebSearch: Analysis Indic Language Capabilities"
 DATE_ADDED: 20260213
 ethics_overall: No

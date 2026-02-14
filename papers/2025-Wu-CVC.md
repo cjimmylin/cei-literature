@@ -13,6 +13,7 @@ authors: "[[Wu, Ping]]; [[Shen, Guobin]]; [[Zhao, Dongcheng]]; [[Wang, Yuwei]]; 
 doi: 10.48550/arXiv.2506.01495
 tags: 
 url: "http://arxiv.org/abs/2506.01495"
+pdf_extract: "PDF Extracts/0000/2025-Wu-CVC.md"
 local_pdf: "[[PDFs/2025-Wu-CVC.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2506.01495.pdf"
 publication: arXiv.org
@@ -23,7 +24,6 @@ moral_psychology: N/A
 newtags: "Chinese, Deontology"
 key_contribution: "Constructs the 'Chinese Values Corpus' (CVC) with 250k value rules based on a hierarchical framework of core Chinese values"
 significance: "Addresses western cultural bias by providing a large-scale, culturally adaptive benchmark for Chinese value alignment"
-pdf_extract: "PDF Extracts/2025/2025-Wu-CVC.md"
 abstract: "Ensuring that Large Language Models (LLMs) align with mainstream human val- ues and ethical norms is crucial for the safe and sustainable development of AI. Current value evaluation and alignment are constrained by Western cultural bias and incomplete domestic frameworks reliant on non-native rules; furthermore, the lack of scalable, rule-driven scenario generation methods makes evaluations costly and inadequate across diverse cultural contexts. To address these challenges, we propose a hierarch"
 paper_summary: "Abstract: Ensuring that Large Language Models (LLMs) align with mainstream human val- ues and ethical norms is crucial for the safe and sustainable development of AI. Current value evaluation and alignment are  | Overview: C-VARC: A Large-Scale Chinese Value Rule Corpus for Value Alignment of Large Language Models Ping Wu1,4,†, Guobin Shen1,4,†, Dongcheng Zhao2,3,5,†, Yuwei Wang5,† Yiting Dong1,4, Yu Shi4, Enmeng Lu2,3, | Key Findings: In ethics and moral psychology, moral dilemmas entail decisions between competing obligations, each involving the compromise of certain values[46]. Th"
 ethics_overall: No

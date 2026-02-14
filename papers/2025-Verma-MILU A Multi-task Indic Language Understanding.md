@@ -13,8 +13,8 @@ authors: "[[Sshubam Verma]]; [[and others (AI4Bharat, IBM Research India)]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.naacl-long.507/"
 external_pdf: "https://arxiv.org/pdf/2411.02538.pdf"
-local_pdf: "[[PDFs/2025/2025-Verma-MILU A Multi-task Indic Language Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Verma-MILU A Multi-task Indic Language Understanding.md"
+local_pdf: "[[PDFs/2025/2025-Verma-MILU A Multi-task Indic Language Understanding.pdf]]"
 publication: "WebSearch: MILU benchmark"
 DATE_ADDED: 20260213
 ethics_overall: No

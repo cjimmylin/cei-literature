@@ -13,8 +13,8 @@ authors: "[[Sarah Alnefaie, Eric Atwell, Mohammad Ammar Alsalka]]"
 authors_incomplete: false
 url: 
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "ROCLING 2023 (35th Conference on Computational Linguistics and Speech Processing) / ACL Anthology"
 DATE_ADDED: 20260213
 ethics_overall: No

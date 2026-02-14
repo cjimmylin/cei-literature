@@ -13,8 +13,8 @@ authors: "[[Kamel Gaanoun, Mohammed Alsuhaibani]]"
 authors_incomplete: false
 url: 
 external_pdf: "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09931123.pdf"
-local_pdf: "[[PDFs/2022/2022-Alsuhaibani-Fabricated Hadith Detection A Novel Matn-Based.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Alsuhaibani-Fabricated Hadith Detection A Novel Matn-Based.md"
+local_pdf: "[[PDFs/2022/2022-Alsuhaibani-Fabricated Hadith Detection A Novel Matn-Based.pdf]]"
 publication: "IEEE Access"
 DATE_ADDED: 20260213
 ethics_overall: No

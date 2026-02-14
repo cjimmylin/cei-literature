@@ -13,8 +13,8 @@ authors: "Hunzalah Hassan"
 url: "https://arxiv.org/html/2510.27543"
 external_pdf: "https://arxiv.org/pdf/2510.27543.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Hassan-DialectalArabicMMLU Benchmarking Dialectal Capabilities in Arabic and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Hassan-DialectalArabicMMLU Benchmarking Dialectal Capabilities in Arabic and.md"
+local_pdf: "[[PDFs/2025/2025-Hassan-DialectalArabicMMLU Benchmarking Dialectal Capabilities in Arabic and.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

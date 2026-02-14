@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Haryo Akbarianto Wibowo; Erland Hilman Fuadi; Made Nindyatama Nityasya; Radityo Eko Prasojo; Alham Fikri Aji"
 url: "https://arxiv.org/abs/2311.01012"
 external_pdf: "https://arxiv.org/pdf/2311.01012.pdf"
-local_pdf: "[[PDFs/2024/2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances.md"
+local_pdf: "[[PDFs/2024/2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances.pdf]]"
 publication: "arXiv / ACL Anthology (NAACL 2024)"
 DATE_ADDED: 20260213
 ethics_overall: No

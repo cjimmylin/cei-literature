@@ -13,8 +13,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://dl.acm.org/doi/10.1145/3712260"
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "WebSearch: Tamil hate speech multimodal"
 DATE_ADDED: 20260213
 ethics_overall: No

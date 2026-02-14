@@ -13,8 +13,8 @@ authors: "Joshua C. Yang; Damian Dailisan; Marcin Korecki; Carina I. Hausladen; 
 doi: 10.1609/aies.v7i1.31758
 url: "https://arxiv.org/abs/2402.01766"
 external_pdf: "https://arxiv.org/pdf/2402.01766.pdf"
-local_pdf: "[[PDFs/2024/2024-Yang-LLM Voting Human Choices and AI Collective Decision-Making.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Yang-LLM Voting Human Choices and AI Collective Decision-Making.md"
+local_pdf: "[[PDFs/2024/2024-Yang-LLM Voting Human Choices and AI Collective Decision-Making.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: "[[Unknown (independent research initiative]]; [[open to academic/semin
 authors_incomplete: false
 url: 
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "FaithBench.com (independent benchmark)"
 DATE_ADDED: 20260213
 ethics_overall: No

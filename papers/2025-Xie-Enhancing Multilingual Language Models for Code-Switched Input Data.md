@@ -13,8 +13,8 @@ authors: "Katherine Xie; Nitya Babbar; Vicky Chen; Yoanna Turura"
 url: "https://arxiv.org/html/2503.07990v1"
 external_pdf: "https://arxiv.org/pdf/2503.07990.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Xie-Enhancing Multilingual Language Models for Code-Switched Input Data.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Xie-Enhancing Multilingual Language Models for Code-Switched Input Data.md"
+local_pdf: "[[PDFs/2025/2025-Xie-Enhancing Multilingual Language Models for Code-Switched Input Data.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

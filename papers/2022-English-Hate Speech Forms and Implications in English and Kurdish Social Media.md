@@ -14,8 +14,8 @@ authors: "Implications in English; Kurdish Social Media.pdf"
 url: "https://journals.uhd.edu.iq/index.php/juhd/article/view/1006"
 external_pdf: "https://journals.uhd.edu.iq/index.php/juhd/article/download/1006/724"
 publication: "Journal of University of Human Development"
-local_pdf: "[[PDFs/2022/2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.md"
+local_pdf: "[[PDFs/2022/2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

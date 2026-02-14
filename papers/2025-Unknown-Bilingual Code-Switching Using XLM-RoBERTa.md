@@ -14,13 +14,13 @@ doi: 10.36227/techrxiv.175756344.42614762/v1
 url: "https://doi.org/10.36227/techrxiv.175756344.42614762/v1"
 external_pdf: "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762/v1"
 publication: Web
-local_pdf: 
+pdf_extract: 
+local_pdf: N/A
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "http_403 (HTTP 403)"
 pdf_access_url: "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762/v1"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
-pdf_extract: 
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

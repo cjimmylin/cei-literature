@@ -13,8 +13,8 @@ authors: "Dave Davies"
 url: "https://proceedings.neurips.cc/paper_files/paper/2024/file/2cb40fc022ca7bdc1a9a78b793661284-Paper-Datasets_and_Benchmarks_Track.pdf"
 external_pdf: "https://arxiv.org/pdf/2409.20288v4.pdf"
 publication: Web
-local_pdf: "[[PDFs/2025/2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.md"
+local_pdf: "[[PDFs/2025/2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

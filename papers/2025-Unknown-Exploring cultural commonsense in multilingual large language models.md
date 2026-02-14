@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: Unknown
 url: "https://pure.bit.edu.cn/en/publications/exploring-cultural-commonsense-in-multilingual-large-language-mod/"
 publication: Web
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

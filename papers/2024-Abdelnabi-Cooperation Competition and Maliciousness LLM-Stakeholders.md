@@ -12,8 +12,8 @@ last_author: "[[Mario Fritz]]"
 authors: "Sahar Abdelnabi; Amr Gomaa; Sarath Sivaprasad; Lea Schönherr; Mario Fritz"
 url: "https://arxiv.org/abs/2309.17234"
 external_pdf: "https://arxiv.org/pdf/2309.17234.pdf"
-local_pdf: "[[PDFs/2024/2024-Abdelnabi-Cooperation Competition and Maliciousness LLM-Stakeholders.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Abdelnabi-Cooperation Competition and Maliciousness LLM-Stakeholders.md"
+local_pdf: "[[PDFs/2024/2024-Abdelnabi-Cooperation Competition and Maliciousness LLM-Stakeholders.pdf]]"
 publication: "NeurIPS 2024"
 DATE_ADDED: 20260207
 ethics_overall: No

@@ -13,8 +13,8 @@ last_author: [[Unknown]]
 authors: "Azmine Toushik Wasi; Raima Islam; Mst Rafia Islam; Taki Hasan Rafi; Dong-Kyu Chae"
 url: "https://arxiv.org/abs/2407.18376"
 external_pdf: "https://arxiv.org/pdf/2407.18376.pdf"
-local_pdf: "[[PDFs/2024/2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.md"
+local_pdf: "[[PDFs/2024/2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

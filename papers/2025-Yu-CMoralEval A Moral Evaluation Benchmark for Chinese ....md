@@ -13,8 +13,8 @@ authors: "Linhao Yu; Yongqi Leng; Yufei Huang; Shang Wu; Haixin Liu; Xinmeng Ji;
 url: "https://aclanthology.org/2024.findings-acl.703.pdf"
 external_pdf: "https://arxiv.org/pdf/2408.09819v1.pdf"
 publication: "ACL Anthology"
-local_pdf: "[[PDFs/2025/2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md"
+local_pdf: "[[PDFs/2025/2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

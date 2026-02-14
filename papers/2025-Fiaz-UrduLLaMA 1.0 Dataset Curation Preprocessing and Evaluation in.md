@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Layba Fiaz; Munief Hassan Tahir; Sana Shams; Sarmad Hussain"
 url: "https://arxiv.org/abs/2502.16961"
 external_pdf: "https://arxiv.org/pdf/2502.16961.pdf"
-local_pdf: "[[PDFs/2025/2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in.md"
+local_pdf: "[[PDFs/2025/2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

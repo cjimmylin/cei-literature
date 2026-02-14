@@ -13,8 +13,8 @@ authors: "Multiple authors"
 url: "https://arxiv.org/abs/2509.07135"
 external_pdf: "https://arxiv.org/pdf/2509.07135.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-authors-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-authors-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian.md"
+local_pdf: "[[PDFs/2025/2025-authors-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ authors: "Leon Voukoutis, Dimitris Roussis, Georgios Paraskevopoulos, Sokratis S
 url: "https://arxiv.org/abs/2407.20743"
 external_pdf: "https://arxiv.org/pdf/2407.20743.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024/2024-Voukoutis-Meltemi The first open Large Language Model for Greek.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Voukoutis-Meltemi The first open Large Language Model for Greek.md"
+local_pdf: "[[PDFs/2024/2024-Voukoutis-Meltemi The first open Large Language Model for Greek.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

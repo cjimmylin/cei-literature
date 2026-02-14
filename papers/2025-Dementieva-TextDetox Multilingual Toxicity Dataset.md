@@ -13,8 +13,8 @@ last_author: "[[Alexander Panchenko]]"
 authors: "Daryna Dementieva, Daniil Moskovskiy, Alexander Panchenko et al."
 url: "https://huggingface.co/datasets/textdetox/multilingual_toxicity_dataset"
 publication: HuggingFace
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

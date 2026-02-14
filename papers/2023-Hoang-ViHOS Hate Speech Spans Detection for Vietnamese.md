@@ -13,8 +13,8 @@ authors: "Phu Gia Hoang, Canh Duc Luu, Khanh Quoc Tran, Kiet Van Nguyen, Ngan Lu
 doi: 10.18653/v1/2023.eacl-main.47
 url: "https://aclanthology.org/2023.eacl-main.47/"
 external_pdf: "https://arxiv.org/pdf/2301.10186.pdf"
-local_pdf: "[[PDFs/2023/2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese.md"
+local_pdf: "[[PDFs/2023/2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese.pdf]]"
 publication: "ACL Anthology"
 DATE_ADDED: 20260213
 ethics_overall: No

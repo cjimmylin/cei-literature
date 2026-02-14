@@ -13,8 +13,8 @@ authors: "Zehui Yu; Indira Sen; Dennis Assenmacher; Mattia Samory; Leon Fröhlin
 url: "https://arxiv.org/html/2405.08562v1"
 external_pdf: "https://arxiv.org/pdf/2405.08562.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024/2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful.md"
+local_pdf: "[[PDFs/2024/2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -12,8 +12,8 @@ last_author: "[[Jihyung Moon]]"
 authors: "Guijin Son, Hyunwoo Ko, Hanwool Lee, Suwan Kim, Huiseo Kim, Jihyung Moon"
 url: "https://arxiv.org/abs/2503.22968"
 external_pdf: "https://arxiv.org/pdf/2503.22968.pdf"
-local_pdf: "[[PDFs/2025/2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean.md"
+local_pdf: "[[PDFs/2025/2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

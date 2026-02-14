@@ -14,8 +14,8 @@ authors: "Abhik Bhattacharjee; Tahmid Hasan; Wasi Uddin Ahmad; Kazi Samin; Md Sa
 url: "https://aclanthology.org/2022.findings-naacl.98/"
 external_pdf: "https://arxiv.org/pdf/2101.00204v4.pdf"
 publication: "ACL Anthology (NAACL 2022 Findings)"
-local_pdf: "[[PDFs/2022/2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.md"
+local_pdf: "[[PDFs/2022/2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

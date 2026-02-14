@@ -13,8 +13,8 @@ authors: "Gudbjartur Ingi Sigurbergsson, Leon Derczynski"
 url: "https://aclanthology.org/2020.lrec-1.430/"
 external_pdf: "https://arxiv.org/pdf/1908.04531.pdf"
 publication: "ACL Anthology / LREC 2020"
-local_pdf: "[[PDFs/2020/2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.md"
+local_pdf: "[[PDFs/2020/2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

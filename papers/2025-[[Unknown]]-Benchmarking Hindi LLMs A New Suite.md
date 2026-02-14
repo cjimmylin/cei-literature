@@ -13,8 +13,8 @@ authors: [[Unknown]]
 authors_incomplete: true
 url: "https://arxiv.org/abs/2508.19831"
 external_pdf: "https://arxiv.org/pdf/2508.19831.pdf"
-local_pdf: "[[PDFs/2025/2025-[[Unknown]]-Benchmarking Hindi LLMs A New Suite.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-[[Unknown]]-Benchmarking Hindi LLMs A New Suite.md"
+local_pdf: "[[PDFs/2025/2025-[[Unknown]]-Benchmarking Hindi LLMs A New Suite.pdf]]"
 publication: "ACL Anthology"
 DATE_ADDED: 20260213
 ethics_overall: No

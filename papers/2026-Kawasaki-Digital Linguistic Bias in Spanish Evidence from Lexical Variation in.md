@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Yoshifumi Kawasaki"
 url: "https://arxiv.org/abs/2602.09346"
 external_pdf: "https://arxiv.org/pdf/2602.09346.pdf"
-local_pdf: "[[PDFs/2026/2026-Kawasaki-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Kawasaki-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in.md"
+local_pdf: "[[PDFs/2026/2026-Kawasaki-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -12,8 +12,8 @@ last_author: "[[Michal Hradis]]"
 authors: "Martin Fajcik, Martin Docekal, Jan Dolezal, Karel Ondrej, Karel Benes, Jan Kapsa, Pavel Smrz, Alexander Polok, Michal Hradis, et al."
 url: "https://arxiv.org/abs/2412.17933"
 external_pdf: "https://arxiv.org/pdf/2412.17933.pdf"
-local_pdf: "[[PDFs/2024/2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for.md"
+local_pdf: "[[PDFs/2024/2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

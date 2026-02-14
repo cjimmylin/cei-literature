@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: Unknown
 url: "https://www.thegreenreport.blog/articles/three-red-flags-that-your-llm-testing-strategy-is-too-shallow/three-red-flags-that-your-llm-testing-strategy-is-too-shallow.html"
 publication: Web
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

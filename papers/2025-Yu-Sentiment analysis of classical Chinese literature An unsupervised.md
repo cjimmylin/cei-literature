@@ -14,8 +14,8 @@ doi: 10.1371/journal.pone.0330919
 url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0330919"
 external_pdf: "https://europepmc.org/articles/PMC12456827?pdf=render"
 publication: Web
-local_pdf: "[[PDFs/2025/2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised.md"
+local_pdf: "[[PDFs/2025/2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

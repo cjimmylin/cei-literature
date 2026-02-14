@@ -13,8 +13,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0950705124008827"
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "WebSearch: sentiment analysis Dravidian cultural"
 DATE_ADDED: 20260213
 ethics_overall: No

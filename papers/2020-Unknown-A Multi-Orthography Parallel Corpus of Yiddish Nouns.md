@@ -14,8 +14,8 @@ authors: Unknown
 url: "https://aclanthology.org/2020.lrec-1.119/"
 external_pdf: "https://aclanthology.org/2020.lrec-1.119.pdf"
 publication: "ACL Anthology (LREC 2020)"
-local_pdf: "[[PDFs/2020/2020-Unknown-A Multi-Orthography Parallel Corpus of Yiddish Nouns.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Unknown-A Multi-Orthography Parallel Corpus of Yiddish Nouns.md"
+local_pdf: "[[PDFs/2020/2020-Unknown-A Multi-Orthography Parallel Corpus of Yiddish Nouns.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -14,13 +14,13 @@ authors_incomplete: false
 doi: 10.2139/ssrn.4871732
 url: "https://doi.org/10.2139/ssrn.4871732"
 external_pdf: "http://dx.doi.org/10.2139/ssrn.4871732"
+pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "http_403 (HTTP 403)"
 pdf_access_url: "http://dx.doi.org/10.2139/ssrn.4871732"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
-pdf_extract: 
 publication: SSRN
 DATE_ADDED: 20260213
 ethics_overall: No

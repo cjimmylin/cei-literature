@@ -12,8 +12,8 @@ last_author: "[[Mohammadreza Mirbagheri]]"
 authors: "Mohammadreza Mirbagheri et al."
 url: "https://arxiv.org/abs/2509.06838"
 external_pdf: "https://arxiv.org/pdf/2509.06838.pdf"
-local_pdf: "[[PDFs/2025/2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language.md"
+local_pdf: "[[PDFs/2025/2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

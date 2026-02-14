@@ -13,8 +13,8 @@ authors: "[[Jiang et al]]"
 authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/9645441/"
 external_pdf: "https://ieeexplore.ieee.org/ielx7/5971803/9645434/09645441.pdf"
-local_pdf: "[[PDFs/2021/2021-Jiang-Pretrained Models and Evaluation Data for.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Jiang-Pretrained Models and Evaluation Data for.md"
+local_pdf: "[[PDFs/2021/2021-Jiang-Pretrained Models and Evaluation Data for.pdf]]"
 publication: "IEEE Xplore / Tsinghua Science and Technology"
 DATE_ADDED: 20260213
 ethics_overall: No

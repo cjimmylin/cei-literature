@@ -13,8 +13,8 @@ authors: "[[Yun, Bhada]]; [[Su, Renn]]; [[Wang, April Yi]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.22440"
 external_pdf: "https://arxiv.org/pdf/2601.22440.pdf"
-local_pdf: "[[PDFs/2026/2026-Yun-VAPT Value-Alignment Perception Toolkit.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Yun-VAPT Value-Alignment Perception Toolkit.md"
+local_pdf: "[[PDFs/2026/2026-Yun-VAPT Value-Alignment Perception Toolkit.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

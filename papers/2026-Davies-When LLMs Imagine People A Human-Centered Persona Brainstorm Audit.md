@@ -13,8 +13,8 @@ authors: "Dave Davies"
 url: "https://arxiv.org/html/2602.00044v1"
 external_pdf: "https://arxiv.org/pdf/2602.00044.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2026/2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit.md"
+local_pdf: "[[PDFs/2026/2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

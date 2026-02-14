@@ -13,8 +13,8 @@ authors: "[[Nadas, Mihai Dan]]; [[Diosan, Laura]]; [[Tomescu, Andreea]]; [[Pisco
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.10410"
 external_pdf: "https://arxiv.org/pdf/2601.10410.pdf"
-local_pdf: "[[PDFs/2026/2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral.md"
+local_pdf: "[[PDFs/2026/2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

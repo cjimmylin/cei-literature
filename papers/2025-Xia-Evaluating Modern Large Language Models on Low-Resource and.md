@@ -13,8 +13,8 @@ authors: "Chengxuan Xia; Qianye Wu; Hongbin Guan; Sixuan Tian; Yilun Hao; Xiaoyu
 url: "https://arxiv.org/pdf/2511.10664"
 external_pdf: "https://arxiv.org/pdf/2511.10664.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Xia-Evaluating Modern Large Language Models on Low-Resource and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Xia-Evaluating Modern Large Language Models on Low-Resource and.md"
+local_pdf: "[[PDFs/2025/2025-Xia-Evaluating Modern Large Language Models on Low-Resource and.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

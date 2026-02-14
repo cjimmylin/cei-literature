@@ -13,8 +13,8 @@ authors: "Luoming Hu; Jingjie Zeng; Liang Yang; Hongfei Lin"
 url: "https://arxiv.org/html/2601.10307"
 external_pdf: "https://arxiv.org/pdf/2601.10307.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2026/2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.md"
+local_pdf: "[[PDFs/2026/2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

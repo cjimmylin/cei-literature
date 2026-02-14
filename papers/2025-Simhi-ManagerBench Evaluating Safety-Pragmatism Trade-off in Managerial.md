@@ -13,8 +13,8 @@ authors: "[[Simhi, Adi]]; [[Herzig, Jonathan]]; [[Tutek, Martin]]; [[Itzhak, Ita
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.00857"
 external_pdf: "https://arxiv.org/pdf/2510.00857.pdf"
-local_pdf: "[[PDFs/2025/2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial.md"
+local_pdf: "[[PDFs/2025/2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

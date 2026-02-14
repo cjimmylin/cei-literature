@@ -13,8 +13,8 @@ authors: "Adnan Masood, Ph"
 url: "https://www.nature.com/articles/s41598-026-36252-4"
 external_pdf: "https://www.nature.com/articles/s41598-026-36252-4_reference.pdf"
 publication: Nature
-local_pdf: "[[PDFs/2025/2025-Masood-Dialectal substitution as an adversarial approach for evaluating.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Masood-Dialectal substitution as an adversarial approach for evaluating.md"
+local_pdf: "[[PDFs/2025/2025-Masood-Dialectal substitution as an adversarial approach for evaluating.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

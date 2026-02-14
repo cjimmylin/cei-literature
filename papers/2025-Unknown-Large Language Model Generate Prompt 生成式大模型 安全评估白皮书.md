@@ -13,8 +13,8 @@ authors: Unknown
 url: "https://hulianhutongshequ.cn/upload/tank/report/2025/202502/1/06d030a5fdeb4a309f68e78e170cbd1b.pdf"
 external_pdf: "https://hulianhutongshequ.cn/upload/tank/report/2025/202502/1/06d030a5fdeb4a309f68e78e170cbd1b.pdf"
 publication: Web
-local_pdf: "[[PDFs/2025/2025-Unknown-Large Language Model Generate Prompt 生成式大模型 安全评估白皮书.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Large Language Model Generate Prompt 生成式大模型 安全评估白皮书.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-Large Language Model Generate Prompt 生成式大模型 安全评估白皮书.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

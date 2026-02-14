@@ -12,8 +12,8 @@ last_author: "[[CMC AI team]]"
 authors: "CMC AI team"
 url: "https://arxiv.org/abs/2512.14554"
 external_pdf: "https://arxiv.org/pdf/2512.14554.pdf"
-local_pdf: "[[PDFs/2024/2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.md"
+local_pdf: "[[PDFs/2024/2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

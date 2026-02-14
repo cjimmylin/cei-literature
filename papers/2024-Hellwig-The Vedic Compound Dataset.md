@@ -13,8 +13,8 @@ authors: "[[Sven Sellmer, Oliver Hellwig]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2024.mwe-1.8/"
 external_pdf: "https://aclanthology.org/2024.mwe-1.8.pdf"
-local_pdf: "[[PDFs/2024/2024-Hellwig-The Vedic Compound Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Hellwig-The Vedic Compound Dataset.md"
+local_pdf: "[[PDFs/2024/2024-Hellwig-The Vedic Compound Dataset.pdf]]"
 publication: "MWE-UD Workshop @ LREC-COLING 2024"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: Kajiwara
 url: "https://www.arxiv.org/pdf/2508.04913"
 external_pdf: "https://arxiv.org/pdf/2508.04913.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the.md"
+local_pdf: "[[PDFs/2025/2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

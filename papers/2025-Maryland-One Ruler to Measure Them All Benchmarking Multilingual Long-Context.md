@@ -12,8 +12,8 @@ last_author: "[[UMass Amherst]]"
 authors: "University of Maryland, Microsoft, UMass Amherst"
 url: "https://arxiv.org/abs/2503.01996"
 external_pdf: "https://arxiv.org/pdf/2503.01996.pdf"
-local_pdf: "[[PDFs/2025/2025-Maryland-One Ruler to Measure Them All Benchmarking Multilingual Long-Context.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Maryland-One Ruler to Measure Them All Benchmarking Multilingual Long-Context.md"
+local_pdf: "[[PDFs/2025/2025-Maryland-One Ruler to Measure Them All Benchmarking Multilingual Long-Context.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

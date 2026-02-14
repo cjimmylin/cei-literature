@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Samuel Cahyawijaya; Holy Lovenia; Alham Fikri Aji; Genta Indra Winata; Bryan Wilie; Rahmad Mahendra; Christian Wibisono; Ade Romadhony; Karissa Vincentio; Fajri Koto; Jennifer Santoso; David Moeljadi; Cahya Wirawan; Frederikus Hudi; Ivan Halim Parmonangan; Ika Alfina; Muhammad Satrio Wicaksono; Ilham Firdausi Putra; Samsul Rahmadani; Yulianti Oenang; Ali Akbar Septiandri; James Jaya; Kaustubh D. Dhole; Arie Ardiyanti Suryani; Rifki Afina Putri; Dan Su; Keith Stevens; Made Nindyatama Nityasya; Muhammad Farid Adilazuarda; Ryan Ignatius; Ryandito Diandaru; Tiezheng Yu; Vito Ghifari; Wenliang Dai; Yan Xu; Dyah Damapuspita; Cuk Tho; Ichwanul Muslim Karo Karo; Tirana Noor Fatyanosa; Ziwei Ji; Pascale Fung; Graham Neubig; Timothy Baldwin; Sebastian Ruder; Herry Sujaini; Sakriani Sakti; Ayu Purwarianti"
 url: "https://arxiv.org/abs/2212.09648"
 external_pdf: "https://arxiv.org/pdf/2212.09648.pdf"
-local_pdf: "[[PDFs/2023/2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources.md"
+local_pdf: "[[PDFs/2023/2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources.pdf]]"
 publication: "arXiv / ACL Anthology"
 DATE_ADDED: 20260213
 ethics_overall: No

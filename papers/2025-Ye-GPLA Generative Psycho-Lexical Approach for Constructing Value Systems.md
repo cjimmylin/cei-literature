@@ -13,8 +13,8 @@ authors: "[[Ye, Haoran]]; [[Zhang, Tianze]]; [[Xie, Yuhang]]; [[Zhang, Liyuan]];
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.02444"
 external_pdf: "https://arxiv.org/pdf/2502.02444.pdf"
-local_pdf: "[[PDFs/2025/2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems.md"
+local_pdf: "[[PDFs/2025/2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems.pdf]]"
 publication: ACL
 DATE_ADDED: 20260207
 ethics_overall: No

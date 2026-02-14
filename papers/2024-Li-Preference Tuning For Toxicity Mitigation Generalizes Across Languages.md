@@ -13,8 +13,8 @@ authors: "Xiaochen Li, Zheng Xin Yong, Stephen Bach"
 url: "https://arxiv.org/abs/2406.16235"
 external_pdf: "https://arxiv.org/pdf/2406.16235.pdf"
 publication: "arXiv / ACL Anthology"
-local_pdf: "[[PDFs/2024/2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages.md"
+local_pdf: "[[PDFs/2024/2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

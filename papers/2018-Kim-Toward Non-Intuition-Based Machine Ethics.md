@@ -13,6 +13,7 @@ authors: "[[Kim, Tae Wan]]; [[Hooker, John]]"
 doi: 10.1145/3278721.3278753
 url: "https://dl.acm.org/doi/10.1145/3278721.3278753"
 external_pdf: "https://johnhooker.tepper.cmu.edu/machineEthicsNonintuitive2.pdf"
+pdf_extract: "PDF Extracts/2018/2018-Kim-Toward Non-Intuition-Based Machine Ethics.md"
 local_pdf: "[[PDFs/2018/2018-Kim-Toward Non-Intuition-Based Machine Ethics.pdf]]"
 publication: "AIES '18: AAAI/ACM Conference on AI, Ethics, and Society"
 national_ethnic_cultural: N/A
@@ -36,7 +37,6 @@ data_description: N/A
 data_metrics: N/A
 LLM_assessed: NA
 DATA_URL: NA
-pdf_extract: "PDF Extracts/2018/2018-Kim-Toward Non-Intuition-Based Machine Ethics.md"
 ---
 # Toward Non-Intuition-Based Machine and Artificial Intelligence Ethics: A Deontological Approach Based on Modal Logic
 

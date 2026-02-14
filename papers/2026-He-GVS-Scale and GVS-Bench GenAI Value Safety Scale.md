@@ -13,8 +13,8 @@ authors: "[[He, Ying]]; [[Li, Baiyang]]; [[Cao, Yule]]; [[Xu, Huirun]]; [[Chen, 
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.09112"
 external_pdf: "https://arxiv.org/pdf/2601.09112.pdf"
-local_pdf: "[[PDFs/2026/2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.md"
+local_pdf: "[[PDFs/2026/2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

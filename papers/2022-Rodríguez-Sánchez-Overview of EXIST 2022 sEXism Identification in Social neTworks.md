@@ -14,8 +14,8 @@ authors: "Francisco Rodríguez-Sánchez, et al."
 url: "https://nlp.uned.es/exist2022/"
 external_pdf: "https://rua.ua.es/dspace/bitstream/10045/117491/1/PLN_67_17.pdf"
 publication: "IberLEF / CLEF / SEPLN"
-local_pdf: "[[PDFs/2022/2022-Rodríguez-Sánchez-Overview of EXIST 2022 sEXism Identification in Social neTworks.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Rodríguez-Sánchez-Overview of EXIST 2022 sEXism Identification in Social neTworks.md"
+local_pdf: "[[PDFs/2022/2022-Rodríguez-Sánchez-Overview of EXIST 2022 sEXism Identification in Social neTworks.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

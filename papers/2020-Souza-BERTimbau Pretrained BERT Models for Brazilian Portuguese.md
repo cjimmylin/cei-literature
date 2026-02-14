@@ -13,8 +13,8 @@ last_author: "[[Roberto Lotufo]]"
 authors: "Fábio Souza, Rodrigo Nogueira, Roberto Lotufo"
 url: "https://www.researchgate.net/publication/345395208_BERTimbau_Pretrained_BERT_Models_for_Brazilian_Portuguese"
 publication: "BRACIS 2020"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ authors: Unknown
 url: "https://openreview.net/pdf?id=D698BEfwgv"
 external_pdf: "https://openreview.net/pdf?id=D698BEfwgv"
 publication: OpenReview
-local_pdf: "[[PDFs/2024/2024-Unknown-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Unknown-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.md"
+local_pdf: "[[PDFs/2024/2024-Unknown-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

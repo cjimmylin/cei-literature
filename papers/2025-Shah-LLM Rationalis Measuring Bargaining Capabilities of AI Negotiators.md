@@ -12,8 +12,8 @@ last_author: "[[Mourad Heddaya]]"
 authors: "Cheril Shah; Akshit Agarwal; Kanak Garg; Mourad Heddaya"
 url: "https://arxiv.org/abs/2512.13063"
 external_pdf: "https://arxiv.org/pdf/2512.13063.pdf"
-local_pdf: "[[PDFs/2025/2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators.md"
+local_pdf: "[[PDFs/2025/2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
 ethics_overall: No

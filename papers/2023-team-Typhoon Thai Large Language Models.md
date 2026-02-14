@@ -12,8 +12,8 @@ last_author: "[[SCB 10X team]]"
 authors: "SCB 10X team"
 url: "https://arxiv.org/abs/2312.13951"
 external_pdf: "https://arxiv.org/pdf/2312.13951.pdf"
-local_pdf: "[[PDFs/2023/2023-team-Typhoon Thai Large Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-team-Typhoon Thai Large Language Models.md"
+local_pdf: "[[PDFs/2023/2023-team-Typhoon Thai Large Language Models.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

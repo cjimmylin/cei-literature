@@ -13,8 +13,8 @@ authors: [[Unknown]]
 authors_incomplete: true
 url: "https://link.springer.com/article/10.1007/s13278-024-01355-1"
 external_pdf: "https://www.researchsquare.com/article/rs-2800717/latest.pdf"
-local_pdf: "[[PDFs/2024/2024-[[Unknown]]-TABHATE A Target-based Hate Speech Detection.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-[[Unknown]]-TABHATE A Target-based Hate Speech Detection.md"
+local_pdf: "[[PDFs/2024/2024-[[Unknown]]-TABHATE A Target-based Hate Speech Detection.pdf]]"
 publication: "Springer (Social Network Analysis and Mining)"
 DATE_ADDED: 20260213
 ethics_overall: No

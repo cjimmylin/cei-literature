@@ -12,8 +12,8 @@ last_author: [[F.]]
 authors: "Ishmam, F. et al."
 url: "https://arxiv.org/abs/2410.13281"
 external_pdf: "https://arxiv.org/pdf/2410.13281.pdf"
-local_pdf: "[[PDFs/2025/2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.md"
+local_pdf: "[[PDFs/2025/2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.pdf]]"
 publication: "arXiv / NAACL 2025"
 DATE_ADDED: 20260213
 ethics_overall: No

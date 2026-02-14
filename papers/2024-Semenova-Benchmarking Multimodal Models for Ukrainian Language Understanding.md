@@ -12,8 +12,8 @@ last_author: "[[Lesia Semenova]]"
 authors: "Lesia Semenova et al."
 url: "https://arxiv.org/abs/2411.14647"
 external_pdf: "https://arxiv.org/pdf/2411.14647.pdf"
-local_pdf: "[[PDFs/2024/2024-Semenova-Benchmarking Multimodal Models for Ukrainian Language Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Semenova-Benchmarking Multimodal Models for Ukrainian Language Understanding.md"
+local_pdf: "[[PDFs/2024/2024-Semenova-Benchmarking Multimodal Models for Ukrainian Language Understanding.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

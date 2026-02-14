@@ -13,8 +13,8 @@ authors: "Amr Mohamed, Yang Zhang, Michalis Vazirgiannis"
 url: "https://arxiv.org/html/2506.14012v1"
 external_pdf: "https://arxiv.org/pdf/2506.14012.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Mohamed-Lost in the Mix Evaluating LLM Understanding of Code-Switched Text.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mohamed-Lost in the Mix Evaluating LLM Understanding of Code-Switched Text.md"
+local_pdf: "[[PDFs/2025/2025-Mohamed-Lost in the Mix Evaluating LLM Understanding of Code-Switched Text.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

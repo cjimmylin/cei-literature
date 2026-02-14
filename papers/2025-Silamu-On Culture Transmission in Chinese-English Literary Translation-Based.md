@@ -13,8 +13,8 @@ authors: "Wushouer Silamu"
 url: "https://www.scirp.org/journal/paperinformation?paperid=94402"
 external_pdf: "https://www.scirp.org/pdf/JSS_2019081614481189.pdf"
 publication: Web
-local_pdf: "[[PDFs/2025/2025-Silamu-On Culture Transmission in Chinese-English Literary Translation-Based.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Silamu-On Culture Transmission in Chinese-English Literary Translation-Based.md"
+local_pdf: "[[PDFs/2025/2025-Silamu-On Culture Transmission in Chinese-English Literary Translation-Based.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

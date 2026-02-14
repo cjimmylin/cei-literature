@@ -12,8 +12,8 @@ last_author: "[[Mohammed Ghaly]]"
 authors: "Abdessalam Bouchekif; Samer Rashwani; Emad Mohamed; Mutaz Al-Khatib; Heba Sbahi; Shahd Gaben; Wajdi Zaghouani; Aiman Erbad; Mohammed Ghaly"
 publication: Unknown
 external_pdf: "https://aclanthology.org/2025.arabicnlp-sharedtasks.117.pdf"
-local_pdf: "[[PDFs/2025/2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and.md"
+local_pdf: "[[PDFs/2025/2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and.pdf]]"
 DATE_ADDED: 20260207
 ethics_overall: No
 virtue_ethics: No

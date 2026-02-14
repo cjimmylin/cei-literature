@@ -22,8 +22,8 @@ key_contribution: "Validated a database of standardized moral vignettes and imag
 significance: "Provides reliable, context-specific stimuli for moral psychology research in the Netherlands, enabling more accurate cross-cultural comparisons."
 tags: 
 abstract: "Moral judgments are shaped by socialization and cultural heritage. Understanding how moral considerations vary across the globe requires the systematic development of moral stimuli for use in different cultures and languages. Focusing on Dutch populations, we adapted and validated two recent instruments for examining moral judgments: 1) the Moral Foundations Vignettes (MFVs) and 2) the Socio-Moral Image Database (SMID). We translated all 120 MFVs from English into Dutch and selected 120 images from SMID that primarily display moral, immoral, or neutral content. 586 crowd-workers from the Netherlands provided over 38,460 individual judgments for both stimuli sets on moral and affective dimensions. For both instruments, we find that moral judgments and relationships between the moral foundations and political orientation are similar to those reported in the US, Australia, and Brazil. We provide the validated MFV and SMID images, along with associated rating data here: https://osf.io/9gnza/"
-local_pdf: "[[PDFs/2023/2023-Hopp-The Dutch Moral Foundations Stimulus Database.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Hopp-The Dutch Moral Foundations Stimulus Database.md"
+local_pdf: "[[PDFs/2023/2023-Hopp-The Dutch Moral Foundations Stimulus Database.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Mohsinul Kabir; Mohammed Saidul Islam; Md Tahmid Rahman Laskar; Mir Tafseer Nayeem; M Saiful Bari; Enamul Hoque"
 url: "https://arxiv.org/abs/2309.13173"
 external_pdf: "https://arxiv.org/pdf/2309.13173.pdf"
-local_pdf: "[[PDFs/2024/2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and.md"
+local_pdf: "[[PDFs/2024/2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and.pdf]]"
 publication: "arXiv / LREC-COLING 2024"
 DATE_ADDED: 20260213
 ethics_overall: No

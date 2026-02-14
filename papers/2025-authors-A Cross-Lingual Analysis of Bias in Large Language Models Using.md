@@ -13,8 +13,8 @@ authors: "Multiple authors"
 url: "https://arxiv.org/abs/2510.02362"
 external_pdf: "https://arxiv.org/pdf/2510.02362.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-authors-A Cross-Lingual Analysis of Bias in Large Language Models Using.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-authors-A Cross-Lingual Analysis of Bias in Large Language Models Using.md"
+local_pdf: "[[PDFs/2025/2025-authors-A Cross-Lingual Analysis of Bias in Large Language Models Using.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Miguel Romero-Arjona; Pablo Valle; Juan C. Alonso; Ana B. Sánchez; Miriam Ugarte; Antonia Cazalilla; Vicente Cambrón; José A. Parejo; Aitor Arrieta; Sergio Segura"
 url: "https://arxiv.org/abs/2503.10192"
 external_pdf: "https://arxiv.org/pdf/2503.10192.pdf"
-local_pdf: "[[PDFs/2025/2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque.md"
+local_pdf: "[[PDFs/2025/2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

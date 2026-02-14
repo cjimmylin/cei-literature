@@ -12,8 +12,8 @@ last_author: "[[Sanad Sha]]"
 authors: "Anastasiia Demidova, Hanin Atwany, Nour Rabih, Sanad Sha"
 url: "https://dblp.org/db/conf/wanlp/arabicnlp2024.html"
 publication: Web
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

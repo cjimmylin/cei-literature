@@ -13,8 +13,8 @@ authors: "Language Models"
 url: "https://acl-bg.org/proceedings/2025/RANLP%202025/pdf/2025.ranlp-1.131.pdf"
 external_pdf: "https://doi.org/10.26615/978-954-452-098-4-131"
 publication: Web
-local_pdf: "[[PDFs/2025/2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ....pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ....md"
+local_pdf: "[[PDFs/2025/2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ....pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

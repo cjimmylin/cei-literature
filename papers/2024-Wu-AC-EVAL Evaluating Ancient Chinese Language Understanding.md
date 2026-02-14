@@ -13,8 +13,8 @@ authors: "[[Yuting Wei, Yuanxing Xu, Xinru Wei, Simin Yang, Yangfu Zhu, Yuqing L
 authors_incomplete: false
 url: "https://arxiv.org/abs/2403.06574"
 external_pdf: "https://arxiv.org/pdf/2403.06574.pdf"
-local_pdf: "[[PDFs/2024/2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding.md"
+local_pdf: "[[PDFs/2024/2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding.pdf]]"
 publication: "Findings of EMNLP 2024"
 DATE_ADDED: 20260213
 ethics_overall: No

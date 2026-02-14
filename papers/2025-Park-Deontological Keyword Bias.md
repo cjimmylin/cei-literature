@@ -13,6 +13,7 @@ authors: "[[Bumjin Park]], [[Jinsil Lee]], [[Jaesik Choi]]"
 doi: 10.48550/arXiv.2506.11068
 tags: "Computer Science - Computation and Language"
 url: "http://arxiv.org/abs/2506.11068"
+pdf_extract: "PDF Extracts/2025/2025-Park-Deontological Keyword Bias.md"
 local_pdf: "[[PDFs/2025/2025-Park-Deontological Keyword Bias.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2506.11068.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
@@ -23,7 +24,6 @@ moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Identifies 'Deontological Keyword Bias' (DKB) where modal verbs like 'must' cause LLMs to misclassify non-obligatory acts as obligations"
 significance: "demonstrates how linguistic framing significantly distorts normative judgments in LLMs, necessitating specific mitigation strategies"
-pdf_extract: "PDF Extracts/2025/2025-Park-Deontological Keyword Bias.md"
 abstract: "Large language models (LLMs) are increas- ingly engaging in moral and ethical reasoning, where criteria for judgment are often unclear, even for humans. While LLM alignment stud- ies cover many areas, one important yet under- explored area is how LLMs make judgments about obligations. This work reveals a strong tendency in LLMs to judge non-obligatory con- texts as obligations when prompts are aug- mented with modal expressions such as must or ought to. We introduce this phenomenon as De- ontolo"
 paper_summary: "Abstract: Large language models (LLMs) are increas- ingly engaging in moral and ethical reasoning, where criteria for judgment are often unclear, even for humans. While LLM alignment stud- ies cover many areas, | Overview: arXiv:2506.11068v1 [cs.CL] 1 Jun 2025 Deontological Keyword Bias: The Impact of Modal Expressions on Normative Judgments of Language Models Bumjin Park1, Jinsil Lee1, Jaesik Choi12 1KAIST AI 2INEEJI { | Methodology: Deontology (↑) Commonsense (↓) GPT-4o Llama-70B Qwen2 ExaOne GPT-4o Llama-70B Qwen2 ExaOne With MEs | Key Findings: We conducted a human evaluation with 100 participants, all of whom had at least a university-level education and self-reported the ability to judge wh | Conclusions: Modal expressions appear in a wide range of con- texts, each conveying varying degrees of neces- sity or enforceability depending on the situation (Pa"
 ethics_overall: No

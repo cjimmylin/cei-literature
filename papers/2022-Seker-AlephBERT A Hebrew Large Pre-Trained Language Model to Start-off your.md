@@ -12,8 +12,8 @@ last_author: "[[Reut Tsarfaty]]"
 authors: "Amit Seker, Elron Bandel, Dan Bareket, Idan Brusilovsky, Refael Shaked Greenfeld, Reut Tsarfaty"
 url: "https://arxiv.org/abs/2104.04052"
 external_pdf: "https://arxiv.org/pdf/2104.04052.pdf"
-local_pdf: "[[PDFs/2022/2022-Seker-AlephBERT A Hebrew Large Pre-Trained Language Model to Start-off your.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Seker-AlephBERT A Hebrew Large Pre-Trained Language Model to Start-off your.md"
+local_pdf: "[[PDFs/2022/2022-Seker-AlephBERT A Hebrew Large Pre-Trained Language Model to Start-off your.pdf]]"
 publication: "arXiv / ACL 2022"
 DATE_ADDED: 20260213
 ethics_overall: No

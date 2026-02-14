@@ -13,8 +13,8 @@ authors: "[[Li, Jing-Jing]]; [[Pyatkin, Valentina]]; [[Kleiman-Weiner, Max]]; [[
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.16665"
 external_pdf: "https://arxiv.org/pdf/2410.16665.pdf"
+pdf_extract: "PDF Extracts/0000/2025-Li-SafetyAnalyst.md"
 local_pdf: "[[PDFs/2025-Li-SafetyAnalyst.pdf]]"
-pdf_extract: "PDF Extracts/2025/2025-Li-SafetyAnalyst.md"
 publication: "ICML 2025"
 DATE_ADDED: 20260207
 ethics_overall: No

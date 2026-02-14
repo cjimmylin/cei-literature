@@ -13,6 +13,7 @@ authors: "[[Zgliczyński-Cuber, Tomasz]]"
 doi: 10.48550/arXiv.2507.11552
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2507.11552"
+pdf_extract: "PDF Extracts/2025/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.md"
 local_pdf: "[[PDFs/2025/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2507.11552.pdf"
 publication: arXiv
@@ -36,7 +37,6 @@ data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
-pdf_extract: "PDF Extracts/2025/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.md"
 ---
 # The AI Ethical Resonance Hypothesis: The Possibility of Discovering Moral Meta-Patterns in AI Systems
 

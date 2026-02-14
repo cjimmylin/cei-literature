@@ -13,8 +13,8 @@ authors: "[[Raghad Salameh, Mohamad Al Mdfaa, Nursultan Askarbekuly, Manuel Mazz
 authors_incomplete: false
 url: "https://arxiv.org/abs/2405.02675"
 external_pdf: "https://arxiv.org/pdf/2405.02675.pdf"
-local_pdf: "[[PDFs/2024/2024-Mazzara-Quranic Audio Dataset Crowdsourced and Labeled.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Mazzara-Quranic Audio Dataset Crowdsourced and Labeled.md"
+local_pdf: "[[PDFs/2024/2024-Mazzara-Quranic Audio Dataset Crowdsourced and Labeled.pdf]]"
 publication: ScienceDirect
 DATE_ADDED: 20260213
 ethics_overall: No

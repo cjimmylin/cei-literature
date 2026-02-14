@@ -13,8 +13,8 @@ authors: "Naseem Machlovi; Maryam Saleki; Innocent Ababio; Ruhul Amin"
 url: "https://arxiv.org/html/2508.07063v1"
 external_pdf: "https://arxiv.org/pdf/2508.07063.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a.md"
+local_pdf: "[[PDFs/2025/2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

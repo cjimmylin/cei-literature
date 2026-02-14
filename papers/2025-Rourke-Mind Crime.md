@@ -31,6 +31,7 @@ data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
+pdf_extract: 
 local_pdf: N/A
 ---
 # Mind Crime: The Moral Frontier of Artificial Intelligence

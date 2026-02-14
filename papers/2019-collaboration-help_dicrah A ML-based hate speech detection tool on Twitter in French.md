@@ -12,8 +12,8 @@ last_author: "[[Mik3M4n (DILCRAH collaboration)]]"
 authors: "Mik3M4n (DILCRAH collaboration)"
 url: "https://github.com/Mik3M4n/help_dicrah"
 publication: GitHub
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

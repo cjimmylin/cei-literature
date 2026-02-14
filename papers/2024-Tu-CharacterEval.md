@@ -11,6 +11,7 @@ first_author: "[[Quan Tu]]"
 last_author: "[[Rui Yan]]"
 authors: "Quan Tu; Shilong Fan; Zihang Tian; Rui Yan"
 url: "https://arxiv.org/abs/2401.01275"
+pdf_extract: "PDF Extracts/2024/2024-Tu-CharacterEval.md"
 local_pdf: [[PDFs/2024/2024-Tu-CharacterEval.pdf]]
 external_pdf: "https://arxiv.org/pdf/2401.01275.pdf"
 national_ethnic_cultural: Chinese
@@ -20,7 +21,6 @@ moral_psychology: N/A
 newtags: "Chinese, Virtue Ethics"
 key_contribution: "Introduces CharacterEval, a comprehensive Chinese benchmark for evaluating Role-Playing Conversational Agents across four dimensions"
 significance: "Addresses the lack of benchmarks for role-playing agents (RPCAs) and evaluates the ability of LLMs to maintain consistent character personas, a prerequisite for simulacra-based virtue modeling"
-pdf_extract: "PDF Extracts/2024/2024-Tu-CharacterEval.md"
 tags: 
 abstract: "Recently, the advent of large language models (LLMs) has revolutionized generative agents. Among them, Role-Playing Conversational Agents (RPCAs) attract considerable attention due to their ability to emotionally engage users. However, the absence of a comprehensive benchmark impedes progress in this field. To bridge this gap, we introduce CharacterEval, a Chinese benchmark for comprehensive RPCA assessment, complemented by a tailored high-quality dataset. The dataset contains 1,785 multi-turn dialogues with approximately 23,000 examples featuring 77 characters sourced from Chinese literary works. We employ a multifaceted evaluation approach, encompassing thirteen targeted metrics across four dimensions."
 paper_summary: "Introduces CharacterEval, a Chinese benchmark for evaluating Role-Playing Conversational Agents (RPCAs). Dataset contains 1,785 multi-turn dialogues with 23,000 examples featuring 77 characters from Chinese literary works. Employs 13 metrics across 4 dimensions; Chinese LLMs outperformed GPT-4 in role-playing tasks."

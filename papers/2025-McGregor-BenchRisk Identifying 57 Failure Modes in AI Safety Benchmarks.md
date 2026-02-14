@@ -13,8 +13,8 @@ authors: "[[McGregor, Sean]]; [[Lu, Victor]]; [[Tashev, Vassil]]; [[Foundjem, Ar
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.21460"
 external_pdf: "https://arxiv.org/pdf/2510.21460.pdf"
-local_pdf: "[[PDFs/2025/2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks.md"
+local_pdf: "[[PDFs/2025/2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

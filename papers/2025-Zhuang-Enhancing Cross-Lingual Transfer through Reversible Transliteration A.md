@@ -13,8 +13,8 @@ authors: "Wenhao Zhuang; Yuan Sun; Xiaobing Zhao"
 url: "https://arxiv.org/html/2509.17493"
 external_pdf: "https://arxiv.org/pdf/2509.17493.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.md"
+local_pdf: "[[PDFs/2025/2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

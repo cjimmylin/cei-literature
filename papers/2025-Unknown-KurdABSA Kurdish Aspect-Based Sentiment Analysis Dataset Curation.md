@@ -14,8 +14,8 @@ authors: Unknown
 url: "https://www.sciencedirect.com/science/article/pii/S2352340925007358"
 external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12452362/pdf/main.pdf"
 publication: "Data in Brief (ScienceDirect)"
-local_pdf: "[[PDFs/2025/2025-Unknown-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

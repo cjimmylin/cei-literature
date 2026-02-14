@@ -14,8 +14,8 @@ authors: "Authors from Universidade de Santiago de Compostela"
 url: "https://aclanthology.org/2022.tdle-1.6/"
 external_pdf: "https://ceur-ws.org/Vol-3224/paper07.pdf"
 publication: "ACL Anthology (TDLE 2022)"
-local_pdf: "[[PDFs/2022/2022-Compostela-Proxecto Nós Artificial Intelligence at the Service of the Galician.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Compostela-Proxecto Nós Artificial Intelligence at the Service of the Galician.md"
+local_pdf: "[[PDFs/2022/2022-Compostela-Proxecto Nós Artificial Intelligence at the Service of the Galician.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

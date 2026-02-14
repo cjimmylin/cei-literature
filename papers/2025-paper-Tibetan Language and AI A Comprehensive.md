@@ -13,8 +13,8 @@ authors: "[[(Multiple authors -- survey paper)]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.19144"
 external_pdf: "https://arxiv.org/pdf/2510.19144.pdf"
-local_pdf: "[[PDFs/2025/2025-paper-Tibetan Language and AI A Comprehensive.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-paper-Tibetan Language and AI A Comprehensive.md"
+local_pdf: "[[PDFs/2025/2025-paper-Tibetan Language and AI A Comprehensive.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260213
 ethics_overall: No

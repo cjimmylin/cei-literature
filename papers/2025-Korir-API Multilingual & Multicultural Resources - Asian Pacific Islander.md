@@ -12,8 +12,8 @@ last_author: "[[Kiplangat Korir]]"
 authors: "Kiplangat Korir"
 url: "https://apislhc.org/api-multilingual-multicultural-resources/"
 publication: Web
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -14,8 +14,8 @@ doi: 10.1007/978-3-031-88036-0_1
 url: "https://link.springer.com/chapter/10.1007/978-3-031-88036-0_1"
 external_pdf: "https://arxiv.org/pdf/2411.05503.pdf"
 publication: Springer
-local_pdf: "[[PDFs/2024/2024-Veitsman-KyrgyzNLP Challenges Progress and Future.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Veitsman-KyrgyzNLP Challenges Progress and Future.md"
+local_pdf: "[[PDFs/2024/2024-Veitsman-KyrgyzNLP Challenges Progress and Future.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

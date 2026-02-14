@@ -12,8 +12,8 @@ last_author: [[Wang]]
 authors: "Wang, et al."
 url: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"
 publication: GitHub
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

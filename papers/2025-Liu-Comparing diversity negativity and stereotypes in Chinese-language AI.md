@@ -13,8 +13,8 @@ authors: "Geng Liu; Carlo Alberto Bono; Francesco Pierri"
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11935762/"
 external_pdf: "https://arxiv.org/pdf/2408.15696v4.pdf"
 publication: PubMed
-local_pdf: "[[PDFs/2025/2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI.md"
+local_pdf: "[[PDFs/2025/2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -12,8 +12,8 @@ last_author: "[[Sophia Falk]]"
 authors: "Nicholas Kluge Corrêa, Sophia Falk, et al."
 url: "https://arxiv.org/abs/2411.07854"
 external_pdf: "https://arxiv.org/pdf/2411.07854.pdf"
-local_pdf: "[[PDFs/2025/2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese.md"
+local_pdf: "[[PDFs/2025/2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese.pdf]]"
 publication: "arXiv / Patterns (Cell Press)"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: "Multiple authors"
 url: "https://arxiv.org/abs/2504.19594"
 external_pdf: "https://arxiv.org/pdf/2504.19594.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-authors-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-authors-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.md"
+local_pdf: "[[PDFs/2025/2025-authors-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

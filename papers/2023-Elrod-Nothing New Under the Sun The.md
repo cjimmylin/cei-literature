@@ -13,8 +13,8 @@ authors: "[[A. G. Elrod]]"
 authors_incomplete: false
 url: 
 external_pdf: "https://arxiv.org/pdf/1307.6941v1.pdf"
-local_pdf: "[[PDFs/2023/2023-Elrod-Nothing New Under the Sun The.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Elrod-Nothing New Under the Sun The.md"
+local_pdf: "[[PDFs/2023/2023-Elrod-Nothing New Under the Sun The.pdf]]"
 publication: "HIPHIL Novum, 8(2), 1--32"
 DATE_ADDED: 20260213
 ethics_overall: No

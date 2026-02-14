@@ -14,8 +14,8 @@ authors: "Wijanarko, Susanto, Pratama, Idris, Hong, Wijaya"
 url: "https://aclanthology.org/2024.emnlp-demo.15/"
 external_pdf: "https://aclanthology.org/2024.emnlp-demo.15.pdf"
 publication: "ACL Anthology (EMNLP 2024 Demo)"
-local_pdf: "[[PDFs/2024/2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of.md"
+local_pdf: "[[PDFs/2024/2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

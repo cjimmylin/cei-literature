@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Farhan Farsi; Shayan Bali; Fatemeh Valeh; Parsa Ghofrani; Alireza Pakniat; Kian Kashfipour; Amir H. Payberah"
 url: "https://arxiv.org/abs/2510.19616"
 external_pdf: "https://arxiv.org/pdf/2510.19616.pdf"
-local_pdf: "[[PDFs/2025/2025-Farsi-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Farsi-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI.md"
+local_pdf: "[[PDFs/2025/2025-Farsi-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

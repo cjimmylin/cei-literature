@@ -13,8 +13,8 @@ authors: "Melanie Galea, Claudia Borg"
 url: "https://arxiv.org/abs/2507.03142"
 external_pdf: "https://arxiv.org/pdf/2507.03142.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Galea-From Measurement to Mitigation Exploring the Transferability of.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Galea-From Measurement to Mitigation Exploring the Transferability of.md"
+local_pdf: "[[PDFs/2025/2025-Galea-From Measurement to Mitigation Exploring the Transferability of.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ authors: "[[Priyanka Mandikal]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2408.11903"
 external_pdf: "https://arxiv.org/pdf/2408.11903.pdf"
-local_pdf: "[[PDFs/2024/2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented.md"
+local_pdf: "[[PDFs/2024/2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented.pdf]]"
 publication: "ML4AL Workshop, ACL 2024 (Outstanding Paper Award)"
 DATE_ADDED: 20260213
 ethics_overall: No

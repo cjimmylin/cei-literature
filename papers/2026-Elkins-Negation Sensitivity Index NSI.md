@@ -12,8 +12,8 @@ last_author: [[J.]]
 authors: "Elkins, K. & Chun, J."
 url: "https://arxiv.org/abs/2601.21433"
 external_pdf: "https://arxiv.org/pdf/2601.21433.pdf"
-local_pdf: "[[PDFs/2026/2026-Elkins-Negation Sensitivity Index NSI.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Elkins-Negation Sensitivity Index NSI.md"
+local_pdf: "[[PDFs/2026/2026-Elkins-Negation Sensitivity Index NSI.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: "https://peerj.com/articles/cs-3027/"
 external_pdf: "https://journal.engineering.fuoye.edu.ng/index.php/engineer/article/view/591/pdf"
-local_pdf: "[[PDFs/2025/2025-authors-Detection of offensive content in the.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-authors-Detection of offensive content in the.md"
+local_pdf: "[[PDFs/2025/2025-authors-Detection of offensive content in the.pdf]]"
 publication: "PeerJ Computer Science"
 DATE_ADDED: 20260213
 ethics_overall: No

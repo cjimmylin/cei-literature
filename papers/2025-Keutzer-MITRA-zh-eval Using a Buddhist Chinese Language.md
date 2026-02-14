@@ -13,8 +13,8 @@ authors: "[[Sebastian Nehrdich, Avery Chen, Marcus Bingenheimer, Lu Huang, Rouyi
 authors_incomplete: false
 url: 
 external_pdf: "https://aclanthology.org/2025.nlp4dh-1.12.pdf"
-local_pdf: "[[PDFs/2025/2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language.md"
+local_pdf: "[[PDFs/2025/2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language.pdf]]"
 publication: "NLP4DH 2025 (5th International Conference on Natural Language Processing for Digital Humanities)"
 DATE_ADDED: 20260213
 ethics_overall: No

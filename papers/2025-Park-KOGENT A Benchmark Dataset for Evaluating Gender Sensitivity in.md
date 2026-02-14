@@ -15,8 +15,8 @@ doi: 10.1038/s41597-025-06344-3
 url: "https://www.nature.com/articles/s41597-025-06344-3"
 external_pdf: "https://www.nature.com/articles/s41597-025-06344-3_reference.pdf"
 publication: "Nature Scientific Data 2025"
-local_pdf: "[[PDFs/2025/2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in.md"
+local_pdf: "[[PDFs/2025/2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

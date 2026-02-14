@@ -12,8 +12,8 @@ last_author: "[[Ali Emami]]"
 authors: "Nikta Gohari Sadr, Sahar Heidariasl, Karine Megerdoomian, Laleh Seyyed-Kalantari, Ali Emami"
 url: "https://arxiv.org/abs/2509.01035"
 external_pdf: "https://arxiv.org/pdf/2509.01035.pdf"
-local_pdf: "[[PDFs/2025/2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof.md"
+local_pdf: "[[PDFs/2025/2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof.pdf]]"
 publication: "arXiv / EMNLP 2025"
 DATE_ADDED: 20260213
 ethics_overall: No

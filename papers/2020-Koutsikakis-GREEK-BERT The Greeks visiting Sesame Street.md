@@ -14,8 +14,8 @@ doi: 10.1145/3411408.3411440
 url: "https://dl.acm.org/doi/10.1145/3411408.3411440"
 external_pdf: "https://arxiv.org/pdf/2008.12014"
 publication: "ACM / 11th Hellenic Conference on AI"
-local_pdf: "[[PDFs/2020/2020-Koutsikakis-GREEK-BERT The Greeks visiting Sesame Street.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Koutsikakis-GREEK-BERT The Greeks visiting Sesame Street.md"
+local_pdf: "[[PDFs/2020/2020-Koutsikakis-GREEK-BERT The Greeks visiting Sesame Street.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

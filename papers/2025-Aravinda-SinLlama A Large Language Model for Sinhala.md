@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "H. W. K. Aravinda; Rashad Sirajudeen; Samith Karunathilake; Nisansa de Silva; Surangika Ranathunga; Rishemjit Kaur"
 url: "https://arxiv.org/abs/2508.09115"
 external_pdf: "https://arxiv.org/pdf/2508.09115.pdf"
-local_pdf: "[[PDFs/2025/2025-Aravinda-SinLlama A Large Language Model for Sinhala.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Aravinda-SinLlama A Large Language Model for Sinhala.md"
+local_pdf: "[[PDFs/2025/2025-Aravinda-SinLlama A Large Language Model for Sinhala.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

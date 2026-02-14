@@ -14,8 +14,8 @@ doi: 10.1073/pnas.2416228122
 url: "https://www.pnas.org/doi/10.1073/pnas.2416228122"
 external_pdf: "https://europepmc.org/articles/PMC11874501?pdf=render"
 publication: PNAS
-local_pdf: "[[PDFs/2025/2025-Bai-Explicitly unbiased large language models still form biased.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Bai-Explicitly unbiased large language models still form biased.md"
+local_pdf: "[[PDFs/2025/2025-Bai-Explicitly unbiased large language models still form biased.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

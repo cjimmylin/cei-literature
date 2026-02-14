@@ -13,8 +13,8 @@ authors: "Konstantinos Perifanos, Dionysis Goutsos"
 doi: 10.3390/mti5070034
 url: "https://www.mdpi.com/2414-4088/5/7/34"
 publication: "MDPI Multimodal Technologies and Interaction"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

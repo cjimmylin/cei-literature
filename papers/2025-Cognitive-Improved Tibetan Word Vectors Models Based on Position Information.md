@@ -13,8 +13,8 @@ authors: "Integrating Cognitive"
 doi: 10.1145/3681787
 url: "https://dl.acm.org/doi/10.1145/3681787"
 publication: ACM
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

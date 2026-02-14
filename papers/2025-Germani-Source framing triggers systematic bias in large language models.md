@@ -14,8 +14,8 @@ doi: 10.1126/sciadv.adz2924
 url: "https://www.science.org/doi/10.1126/sciadv.adz2924"
 external_pdf: "https://arxiv.org/pdf/2505.13488"
 publication: Science
-local_pdf: "[[PDFs/2025/2025-Germani-Source framing triggers systematic bias in large language models.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Germani-Source framing triggers systematic bias in large language models.md"
+local_pdf: "[[PDFs/2025/2025-Germani-Source framing triggers systematic bias in large language models.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ authors: "Jiaxin Li; Zhenhui Jiang; Yang Liu; Xiaoyu Miao"
 doi: 10.1145/3769086
 url: "https://dl.acm.org/doi/10.1145/3769086"
 publication: ACM
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

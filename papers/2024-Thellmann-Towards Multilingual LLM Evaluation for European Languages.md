@@ -12,8 +12,8 @@ last_author: "[[Jasper Schulze Buschhoff]]"
 authors: "Klaudia Thellmann, Bernhard Stadler, Michael Fromm, Jasper Schulze Buschhoff, et al."
 url: "https://arxiv.org/abs/2410.08928"
 external_pdf: "https://arxiv.org/pdf/2410.08928.pdf"
-local_pdf: "[[PDFs/2024/2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages.md"
+local_pdf: "[[PDFs/2024/2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

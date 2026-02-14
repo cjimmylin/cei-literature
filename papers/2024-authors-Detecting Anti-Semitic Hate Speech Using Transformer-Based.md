@@ -13,8 +13,8 @@ authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2405.03794"
 external_pdf: "https://arxiv.org/pdf/2405.03794.pdf"
-local_pdf: "[[PDFs/2024/2024-authors-Detecting Anti-Semitic Hate Speech Using Transformer-Based.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-authors-Detecting Anti-Semitic Hate Speech Using Transformer-Based.md"
+local_pdf: "[[PDFs/2024/2024-authors-Detecting Anti-Semitic Hate Speech Using Transformer-Based.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

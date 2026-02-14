@@ -13,8 +13,8 @@ authors: "Scale AI research team"
 url: "https://arxiv.org/abs/2507.17476"
 external_pdf: "https://arxiv.org/pdf/2507.17476.pdf"
 publication: "arXiv / Scale AI"
-local_pdf: "[[PDFs/2025/2025-team-MultiNRC A Challenging and Native Multilingual Reasoning Evaluation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-team-MultiNRC A Challenging and Native Multilingual Reasoning Evaluation.md"
+local_pdf: "[[PDFs/2025/2025-team-MultiNRC A Challenging and Native Multilingual Reasoning Evaluation.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

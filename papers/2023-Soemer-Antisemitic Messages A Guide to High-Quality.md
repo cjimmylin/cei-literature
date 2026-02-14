@@ -13,8 +13,8 @@ authors: "[[Gunther Jikeli, Sameer Karali, Daniel Miehling, Katharina Soemer]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2304.14599"
 external_pdf: "https://arxiv.org/pdf/2304.14599.pdf"
-local_pdf: "[[PDFs/2023/2023-Soemer-Antisemitic Messages A Guide to High-Quality.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Soemer-Antisemitic Messages A Guide to High-Quality.md"
+local_pdf: "[[PDFs/2023/2023-Soemer-Antisemitic Messages A Guide to High-Quality.pdf]]"
 publication: "arXiv preprint (Indiana University ISCA)"
 DATE_ADDED: 20260213
 ethics_overall: No

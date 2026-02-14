@@ -12,8 +12,8 @@ last_author: "[[Davide Ceolin]]"
 authors: "Chadi Helwe, Oana Balalau, Davide Ceolin"
 publication: "ACL 2025"
 external_pdf: "https://arxiv.org/pdf/2506.22493.pdf"
-local_pdf: "[[PDFs/2025/2025-Helwe-Navigating the Political Compass Multilingual 50 Countries.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Helwe-Navigating the Political Compass Multilingual 50 Countries.md"
+local_pdf: "[[PDFs/2025/2025-Helwe-Navigating the Political Compass Multilingual 50 Countries.pdf]]"
 DATE_ADDED: 20260207
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ authors: "Combining Pretrained"
 doi: 10.1155/2021/5744248
 url: "https://onlinelibrary.wiley.com/doi/10.1155/2021/5744248"
 publication: Web
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

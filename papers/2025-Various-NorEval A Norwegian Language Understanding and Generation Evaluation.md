@@ -13,8 +13,8 @@ authors: Various
 url: "https://arxiv.org/abs/2504.07749"
 external_pdf: "https://arxiv.org/pdf/2504.07749.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Various-NorEval A Norwegian Language Understanding and Generation Evaluation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Various-NorEval A Norwegian Language Understanding and Generation Evaluation.md"
+local_pdf: "[[PDFs/2025/2025-Various-NorEval A Norwegian Language Understanding and Generation Evaluation.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

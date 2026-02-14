@@ -13,8 +13,8 @@ authors: "[[Ravikiran, Manikandan]]; [[Annamalai]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2021.dravidianlangtech-1.2/"
 external_pdf: "https://aclanthology.org/2021.dravidianlangtech-1.2.pdf"
-local_pdf: "[[PDFs/2021/2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification.md"
+local_pdf: "[[PDFs/2021/2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification.pdf]]"
 publication: "WebSearch: DOSA Kannada hate speech"
 DATE_ADDED: 20260213
 ethics_overall: No

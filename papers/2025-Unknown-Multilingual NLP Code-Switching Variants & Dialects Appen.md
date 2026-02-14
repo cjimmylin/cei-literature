@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: Unknown
 url: "https://www.appen.com/blog/emnlp-2025-multilingual-nlp"
 publication: Web
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

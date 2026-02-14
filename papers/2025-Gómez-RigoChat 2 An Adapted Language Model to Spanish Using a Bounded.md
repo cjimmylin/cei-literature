@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Gonzalo Santamaría Gómez; Guillem García Subies; Pablo Gutiérrez Ruiz; Mario González Valero; Natàlia Fuertes; Helena Montoro Zamorano; Carmen Muñoz Sanz; Leire Rosado Plaza; Nuria Aldama García; David Betancur Sánchez; Kateryna Sushkova; Marta Guerrero Nieto; Álvaro Barbero Jiménez"
 url: "https://arxiv.org/abs/2503.08188"
 external_pdf: "https://arxiv.org/pdf/2503.08188.pdf"
-local_pdf: "[[PDFs/2025/2025-Gómez-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Gómez-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded.md"
+local_pdf: "[[PDFs/2025/2025-Gómez-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -12,8 +12,8 @@ last_author: "[[Manuel Tonneau]]"
 authors: "Manuel Tonneau, et al."
 url: "https://arxiv.org/abs/2404.17874"
 external_pdf: "https://arxiv.org/pdf/2404.17874.pdf"
-local_pdf: "[[PDFs/2024/2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in.md"
+local_pdf: "[[PDFs/2024/2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

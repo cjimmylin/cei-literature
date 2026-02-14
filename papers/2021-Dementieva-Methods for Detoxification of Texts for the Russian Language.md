@@ -13,8 +13,8 @@ authors: "Daryna Dementieva, Daniil Moskovskiy, Varvara Logacheva, David Dale, O
 doi: 10.3390/mti5090054
 url: "https://www.mdpi.com/2414-4088/5/9/54"
 external_pdf: "https://arxiv.org/pdf/2105.09052.pdf"
-local_pdf: "[[PDFs/2021/2021-Dementieva-Methods for Detoxification of Texts for the Russian Language.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Dementieva-Methods for Detoxification of Texts for the Russian Language.md"
+local_pdf: "[[PDFs/2021/2021-Dementieva-Methods for Detoxification of Texts for the Russian Language.pdf]]"
 publication: "MDPI / arXiv"
 DATE_ADDED: 20260213
 ethics_overall: No

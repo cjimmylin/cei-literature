@@ -13,8 +13,8 @@ authors: "[[Sebastian Nehrdich, Marcus Bingenheimer, Justin Brody, Kurt Keutzer]
 authors_incomplete: false
 url: 
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "NLP4DH 2023 (Joint 3rd International Conference on Natural Language Processing for Digital Humanities and 8th International Workshop on Computational Linguistics for Uralic Languages), pages 266-277, Tokyo, Japan"
 DATE_ADDED: 20260213
 ethics_overall: No

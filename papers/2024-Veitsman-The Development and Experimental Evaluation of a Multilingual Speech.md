@@ -12,8 +12,8 @@ last_author: "[[Yana Veitsman]]"
 authors: "Yana Veitsman"
 url: "https://www.mdpi.com/2076-3417/15/24/12880"
 publication: MDPI
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

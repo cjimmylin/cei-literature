@@ -13,8 +13,8 @@ authors: "Wushouer Silamu"
 url: "http://www.cttl.org/uploads/5/2/4/3/5243866/cttl_e_2020_9_lyu_wang_and_xiangling_wang.pdf"
 external_pdf: "http://www.cttl.org/uploads/5/2/4/3/5243866/cttl_e_2020_9_lyu_wang_and_xiangling_wang.pdf"
 publication: Web
-local_pdf: "[[PDFs/2020/2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary.md"
+local_pdf: "[[PDFs/2020/2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

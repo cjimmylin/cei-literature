@@ -13,13 +13,13 @@ authors: "[[Marathi-LLM team]]"
 authors_incomplete: false
 url: "https://huggingface.co/marathi-llm/MahaMarathi-7B-v24.01-Base"
 external_pdf: "https://www.mdpi.com/2079-9292/14/17/3484/pdf?version=1756625048"
+pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "http_403 (HTTP 403)"
 pdf_access_url: "https://www.mdpi.com/2079-9292/14/17/3484/pdf?version=1756625048"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
-pdf_extract: 
 publication: HuggingFace
 DATE_ADDED: 20260213
 ethics_overall: No

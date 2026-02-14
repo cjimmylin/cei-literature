@@ -12,8 +12,8 @@ last_author: [[BSC]]
 authors: "Language Technologies Unit, BSC"
 url: "https://arxiv.org/abs/2502.08489"
 external_pdf: "https://arxiv.org/pdf/2502.08489.pdf"
-local_pdf: "[[PDFs/2025/2025-Unit-Salamandra Technical Report.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unit-Salamandra Technical Report.md"
+local_pdf: "[[PDFs/2025/2025-Unit-Salamandra Technical Report.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

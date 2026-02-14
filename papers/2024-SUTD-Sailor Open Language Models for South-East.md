@@ -13,8 +13,8 @@ authors: "[[Dou, Liu et al. (Sea AI Lab / SUTD)]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.03608"
 external_pdf: "https://arxiv.org/pdf/2404.03608.pdf"
-local_pdf: "[[PDFs/2024/2024-SUTD-Sailor Open Language Models for South-East.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-SUTD-Sailor Open Language Models for South-East.md"
+local_pdf: "[[PDFs/2024/2024-SUTD-Sailor Open Language Models for South-East.pdf]]"
 publication: "EMNLP 2024 Demo"
 DATE_ADDED: 20260213
 ethics_overall: No

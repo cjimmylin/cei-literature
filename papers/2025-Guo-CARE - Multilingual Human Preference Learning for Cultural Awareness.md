@@ -13,8 +13,8 @@ authors: "[[Guo, Geyang]]; [[Naous, Tarek]]; [[Wakaki, Hiromi]]; [[Nishimura, Yu
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.05154"
 external_pdf: "https://arxiv.org/pdf/2504.05154.pdf"
-local_pdf: "[[PDFs/2025/2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.md"
+local_pdf: "[[PDFs/2025/2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.pdf]]"
 publication: "EMNLP 2025"
 DATE_ADDED: 20260207
 ethics_overall: No

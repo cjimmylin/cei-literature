@@ -13,8 +13,8 @@ authors: Unknown
 doi: 10.3389/frai.2025.1661789/full
 url: "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1661789/full"
 publication: Frontiers
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

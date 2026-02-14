@@ -13,8 +13,8 @@ authors: "Gabriel Stanovsky, Noah A. Smith, Luke Zettlemoyer"
 url: "https://aclanthology.org/P19-1164/"
 external_pdf: "https://arxiv.org/pdf/1906.00591v1.pdf"
 publication: "ACL Anthology"
-local_pdf: "[[PDFs/2019/2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT.pdf]]"
 pdf_extract: "PDF Extracts/2019/2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT.md"
+local_pdf: "[[PDFs/2019/2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -12,8 +12,8 @@ last_author: "[[Hao Zhao]]"
 authors: "Junhao Chen; Jingbo Sun; Xiang Li; Haidong Xin; Yuhao Xue; Yibin Xu; Hao Zhao"
 url: "https://arxiv.org/abs/2509.16610"
 external_pdf: "https://arxiv.org/pdf/2509.16610.pdf"
-local_pdf: "[[PDFs/2025/2025-Chen-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gaming Contexts.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Chen-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gaming Contexts.md"
+local_pdf: "[[PDFs/2025/2025-Chen-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gaming Contexts.pdf]]"
 publication: "EMNLP 2025"
 DATE_ADDED: 20260207
 ethics_overall: No

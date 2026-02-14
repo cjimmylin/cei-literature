@@ -13,8 +13,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.19468"
 external_pdf: "https://arxiv.org/pdf/2506.19468.pdf"
-local_pdf: "[[PDFs/2025/2025-results]]-MuBench Assessment of Multilingual Capabilities of.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-results]]-MuBench Assessment of Multilingual Capabilities of.md"
+local_pdf: "[[PDFs/2025/2025-results]]-MuBench Assessment of Multilingual Capabilities of.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: "[[Daulet Sametov, Aidar Mujahid, et al]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.13640"
 external_pdf: "https://arxiv.org/pdf/2502.13640.pdf"
-local_pdf: "[[PDFs/2025/2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian.md"
+local_pdf: "[[PDFs/2025/2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian.pdf]]"
 publication: "arxiv.org / ACL 2025 Findings"
 DATE_ADDED: 20260213
 ethics_overall: No

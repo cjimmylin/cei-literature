@@ -13,8 +13,8 @@ authors: Kajiwara
 url: "https://internationalhatestudies.com/wp-content/uploads/2025/05/104-INHS-Newsletter-May-2025.pdf"
 external_pdf: "https://internationalhatestudies.com/wp-content/uploads/2025/05/104-INHS-Newsletter-May-2025.pdf"
 publication: Web
-local_pdf: "[[PDFs/2025/2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....md"
+local_pdf: "[[PDFs/2025/2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

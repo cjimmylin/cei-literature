@@ -13,8 +13,8 @@ authors: [[Unknown]]
 authors_incomplete: true
 url: "https://arxiv.org/abs/2308.09862"
 external_pdf: "https://arxiv.org/pdf/2308.09862.pdf"
-local_pdf: "[[PDFs/2023/2023-[[Unknown]]-Breaking Language Barriers A Question-Answering Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-[[Unknown]]-Breaking Language Barriers A Question-Answering Dataset.md"
+local_pdf: "[[PDFs/2023/2023-[[Unknown]]-Breaking Language Barriers A Question-Answering Dataset.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

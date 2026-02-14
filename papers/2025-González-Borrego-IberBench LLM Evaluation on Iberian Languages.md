@@ -12,8 +12,8 @@ last_author: "[[David Obrador]]"
 authors: "Isaac González-Borrego, David Obrador, et al."
 url: "https://arxiv.org/abs/2504.16921"
 external_pdf: "https://arxiv.org/pdf/2504.16921.pdf"
-local_pdf: "[[PDFs/2025/2025-González-Borrego-IberBench LLM Evaluation on Iberian Languages.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-González-Borrego-IberBench LLM Evaluation on Iberian Languages.md"
+local_pdf: "[[PDFs/2025/2025-González-Borrego-IberBench LLM Evaluation on Iberian Languages.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

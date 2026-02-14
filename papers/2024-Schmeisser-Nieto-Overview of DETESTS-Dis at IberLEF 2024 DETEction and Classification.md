@@ -14,8 +14,8 @@ authors: "Schmeisser-Nieto, et al."
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6620"
 external_pdf: "https://core.ac.uk/download/651124934.pdf"
 publication: "IberLEF / SEPLN 2024"
-local_pdf: "[[PDFs/2024/2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification.md"
+local_pdf: "[[PDFs/2024/2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

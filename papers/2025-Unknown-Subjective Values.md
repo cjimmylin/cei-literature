@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: Unknown
 url: "https://llmglobalvalues.anthropic.com/"
 publication: Web
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

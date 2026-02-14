@@ -13,8 +13,8 @@ authors: "[[Baum, Kevin]], [[Slavkovik, Marija]]"
 doi: 10.1609/aies.v8i1.36554
 tags: "Computer Science - AI Ethics"
 url: "https://ojs.aaai.org/index.php/AIES/article/view/36554"
-local_pdf: "[[PDFs/2025/2025-Baum-Aggregation Problems in Machine Ethics.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Baum-Aggregation Problems in Machine Ethics.md"
+local_pdf: "[[PDFs/2025/2025-Baum-Aggregation Problems in Machine Ethics.pdf]]"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
 ethics_perspective: "Value Pluralism"
 national_ethnic_cultural: N/A

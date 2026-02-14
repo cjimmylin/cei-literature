@@ -14,8 +14,8 @@ authors: "Das, D., Guha, S., Brubaker, J., Semaan, B."
 doi: 10.1145/3613904.3642669
 url: "https://arxiv.org/abs/2401.10535"
 external_pdf: "https://arxiv.org/pdf/2401.10535.pdf"
-local_pdf: "[[PDFs/2024/2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of.md"
+local_pdf: "[[PDFs/2024/2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of.pdf]]"
 publication: "arXiv / CHI 2024"
 DATE_ADDED: 20260213
 ethics_overall: No

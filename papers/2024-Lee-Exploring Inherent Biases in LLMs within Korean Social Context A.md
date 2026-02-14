@@ -15,8 +15,8 @@ doi: 10.18653/v1/2024.naacl-srw.11
 url: "https://aclanthology.org/2024.naacl-srw.11/"
 external_pdf: "https://aclanthology.org/2024.naacl-srw.11.pdf"
 publication: "ACL Anthology / NAACL 2024 SRW"
-local_pdf: "[[PDFs/2024/2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A.md"
+local_pdf: "[[PDFs/2024/2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

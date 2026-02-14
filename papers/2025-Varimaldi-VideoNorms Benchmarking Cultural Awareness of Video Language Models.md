@@ -13,8 +13,8 @@ authors: "[[Varimalla, Nikhil Reddy]]; [[Xu, Yunfei]]; [[Saakyan, Arkadiy]]; [[W
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.08543"
 external_pdf: "https://arxiv.org/pdf/2510.08543.pdf"
-local_pdf: "[[PDFs/2025/2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models.md"
+local_pdf: "[[PDFs/2025/2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

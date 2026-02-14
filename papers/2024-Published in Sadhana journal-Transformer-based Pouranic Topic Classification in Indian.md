@@ -13,8 +13,8 @@ authors: "[[(Published in Sadhana journal, 2024]]; [[specific author names not c
 authors_incomplete: false
 url: 
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "Sadhana (Indian Academy of Sciences)"
 DATE_ADDED: 20260213
 ethics_overall: No

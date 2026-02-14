@@ -13,8 +13,8 @@ authors: "[[Nuha Albadi, Maram Kurdi, Shivakant Mishra]]"
 authors_incomplete: false
 url: 
 external_pdf: "https://czasopisma.isppan.waw.pl/sm/article/download/2710/2291"
-local_pdf: "[[PDFs/2018/2018-Mishra-Are They Our Brothers Analysis and.pdf]]"
 pdf_extract: "PDF Extracts/2018/2018-Mishra-Are They Our Brothers Analysis and.md"
+local_pdf: "[[PDFs/2018/2018-Mishra-Are They Our Brothers Analysis and.pdf]]"
 publication: "IEEE/ACM ASONAM 2018"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Vynska Amalia Permadi; Xingwei Tan; Nafise Sadat Moosavi; Nikos Aletras"
 url: "https://arxiv.org/abs/2602.03709"
 external_pdf: "https://arxiv.org/pdf/2602.03709.pdf"
-local_pdf: "[[PDFs/2026/2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for.md"
+local_pdf: "[[PDFs/2026/2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

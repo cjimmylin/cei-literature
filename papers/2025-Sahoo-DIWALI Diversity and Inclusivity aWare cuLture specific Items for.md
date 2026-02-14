@@ -12,8 +12,8 @@ last_author: [[P.]]
 authors: "Sahoo, P. et al."
 url: "https://arxiv.org/abs/2509.17399"
 external_pdf: "https://arxiv.org/pdf/2509.17399.pdf"
-local_pdf: "[[PDFs/2025/2025-Sahoo-DIWALI Diversity and Inclusivity aWare cuLture specific Items for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Sahoo-DIWALI Diversity and Inclusivity aWare cuLture specific Items for.md"
+local_pdf: "[[PDFs/2025/2025-Sahoo-DIWALI Diversity and Inclusivity aWare cuLture specific Items for.pdf]]"
 publication: "arXiv / EMNLP 2025"
 DATE_ADDED: 20260213
 ethics_overall: No

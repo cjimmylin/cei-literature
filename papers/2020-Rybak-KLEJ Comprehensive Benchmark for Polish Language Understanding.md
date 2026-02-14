@@ -12,8 +12,8 @@ last_author: "[[Ireneusz Gawlik]]"
 authors: "Piotr Rybak, Robert Mroczkowski, Janusz Tracz, Ireneusz Gawlik"
 url: "https://arxiv.org/abs/2005.00630"
 external_pdf: "https://arxiv.org/pdf/2005.00630.pdf"
-local_pdf: "[[PDFs/2020/2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding.md"
+local_pdf: "[[PDFs/2020/2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding.pdf]]"
 publication: "arXiv / ACL 2020"
 DATE_ADDED: 20260213
 ethics_overall: No

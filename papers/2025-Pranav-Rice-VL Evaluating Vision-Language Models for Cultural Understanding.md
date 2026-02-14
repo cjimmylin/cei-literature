@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Tushar Pranav; Eshan Pandey; Austria Lyka Diane Bala; Aman Chadha; Indriyati Atmosukarto; Donny Soh Cheng Lock"
 url: "https://arxiv.org/abs/2512.01419"
 external_pdf: "https://arxiv.org/pdf/2512.01419.pdf"
-local_pdf: "[[PDFs/2025/2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.md"
+local_pdf: "[[PDFs/2025/2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

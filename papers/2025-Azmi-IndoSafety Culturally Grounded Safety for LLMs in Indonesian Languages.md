@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Muhammad Falensi Azmi; Muhammad Dehan Al Kautsar; Alfan Farizki Wicaksono; Fajri Koto"
 url: "https://arxiv.org/abs/2506.02573"
 external_pdf: "https://arxiv.org/pdf/2506.02573.pdf"
-local_pdf: "[[PDFs/2025/2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.md"
+local_pdf: "[[PDFs/2025/2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: [[Unknown]]
 authors_incomplete: true
 url: "https://arxiv.org/abs/2601.17664"
 external_pdf: "https://arxiv.org/pdf/2601.17664.pdf"
-local_pdf: "[[PDFs/2026/2026-[[Unknown]]-UrduLM A Resource-Efficient Monolingual Urdu Language.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-[[Unknown]]-UrduLM A Resource-Efficient Monolingual Urdu Language.md"
+local_pdf: "[[PDFs/2026/2026-[[Unknown]]-UrduLM A Resource-Efficient Monolingual Urdu Language.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

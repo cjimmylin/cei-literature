@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Ashmari Pramodya; Nirasha Nelki; Heshan Shalinda; Chamila Liyanage; Yusuke Sakai; Randil Pushpananda; Ruvan Weerasinghe; Hidetaka Kamigaito; Taro Watanabe"
 url: "https://arxiv.org/abs/2509.03162"
 external_pdf: "https://arxiv.org/pdf/2509.03162.pdf"
-local_pdf: "[[PDFs/2025/2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.md"
+local_pdf: "[[PDFs/2025/2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: "Mascha Kurpicz-Briki"
 url: "https://ceur-ws.org/Vol-2624/paper6.pdf"
 external_pdf: "https://ceur-ws.org/Vol-2624/paper6.pdf"
 publication: "CEUR Workshop Proceedings"
-local_pdf: "[[PDFs/2020/2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained.md"
+local_pdf: "[[PDFs/2020/2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

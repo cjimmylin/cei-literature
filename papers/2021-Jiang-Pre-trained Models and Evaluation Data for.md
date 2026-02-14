@@ -13,8 +13,8 @@ authors: "[[Jiang et al]]"
 authors_incomplete: false
 url: "https://link.springer.com/chapter/10.1007/978-3-030-92310-5_52"
 external_pdf: "https://arxiv.org/pdf/2308.02976"
-local_pdf: "[[PDFs/2021/2021-Jiang-Pre-trained Models and Evaluation Data for.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Jiang-Pre-trained Models and Evaluation Data for.md"
+local_pdf: "[[PDFs/2021/2021-Jiang-Pre-trained Models and Evaluation Data for.pdf]]"
 publication: Springer
 DATE_ADDED: 20260213
 ethics_overall: No

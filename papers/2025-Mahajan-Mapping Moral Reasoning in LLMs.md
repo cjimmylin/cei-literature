@@ -13,8 +13,8 @@ authors: "[[Mahajan, Sachit]]"
 doi: 10.1609/aies.v8i2.36665
 tags: "Computer Science - AI Ethics"
 url: "https://ojs.aaai.org/index.php/AIES/article/view/36665"
-local_pdf: "[[PDFs/2025/2025-Mahajan-Mapping Moral Reasoning in LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mahajan-Mapping Moral Reasoning in LLMs.md"
+local_pdf: "[[PDFs/2025/2025-Mahajan-Mapping Moral Reasoning in LLMs.pdf]]"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
 ethics_perspective: "Value Pluralism"
 national_ethnic_cultural: N/A

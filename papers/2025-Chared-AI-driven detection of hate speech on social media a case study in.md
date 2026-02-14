@@ -14,8 +14,8 @@ doi: 10.1007/s10586-025-05553-0
 url: "https://link.springer.com/article/10.1007/s10586-025-05553-0"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10586-025-05553-0.pdf"
 publication: Springer
-local_pdf: "[[PDFs/2025/2025-Chared-AI-driven detection of hate speech on social media a case study in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Chared-AI-driven detection of hate speech on social media a case study in.md"
+local_pdf: "[[PDFs/2025/2025-Chared-AI-driven detection of hate speech on social media a case study in.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

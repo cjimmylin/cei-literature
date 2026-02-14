@@ -14,8 +14,8 @@ doi: 10.1007/978-3-030-27947-9_9
 url: "https://link.springer.com/chapter/10.1007/978-3-030-27947-9_9"
 external_pdf: "https://arxiv.org/pdf/1906.02045v2.pdf"
 publication: "Springer / CLARIN"
-local_pdf: "[[PDFs/2019/2019-Ljubesic-The FRENK Datasets of Socially Unacceptable Discourse in Slovene and.pdf]]"
 pdf_extract: "PDF Extracts/2019/2019-Ljubesic-The FRENK Datasets of Socially Unacceptable Discourse in Slovene and.md"
+local_pdf: "[[PDFs/2019/2019-Ljubesic-The FRENK Datasets of Socially Unacceptable Discourse in Slovene and.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

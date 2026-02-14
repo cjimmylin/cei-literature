@@ -13,8 +13,8 @@ authors: "John Pavlopoulos, Juli Bakagianni, Kanella Pouli, Maria Gavriilidou"
 url: "https://arxiv.org/abs/2501.12826"
 external_pdf: "https://arxiv.org/pdf/2501.12826.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Pavlopoulos-Open or Closed LLM for Lesser-Resourced Languages Lessons from Greek.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Pavlopoulos-Open or Closed LLM for Lesser-Resourced Languages Lessons from Greek.md"
+local_pdf: "[[PDFs/2025/2025-Pavlopoulos-Open or Closed LLM for Lesser-Resourced Languages Lessons from Greek.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

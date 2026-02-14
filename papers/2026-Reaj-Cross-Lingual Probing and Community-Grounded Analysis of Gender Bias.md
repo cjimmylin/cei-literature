@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Md Asgor Hossain Reaj; Rajan Das Gupta; Jui Saha Pritha; Abdullah Al Noman; Abir Ahmed; Golam Md Mohiuddin; Tze Hui Liew"
 url: "https://arxiv.org/abs/2601.17764"
 external_pdf: "https://arxiv.org/pdf/2601.17764.pdf"
-local_pdf: "[[PDFs/2026/2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias.md"
+local_pdf: "[[PDFs/2026/2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

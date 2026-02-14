@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Jaione Bengoetxea; Itziar Gonzalez-Dios; Rodrigo Agerri"
 url: "https://arxiv.org/abs/2506.15239"
 external_pdf: "https://arxiv.org/pdf/2506.15239.pdf"
-local_pdf: "[[PDFs/2025/2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish.md"
+local_pdf: "[[PDFs/2025/2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish.pdf]]"
 publication: "arXiv / ACL Anthology / CoNLL 2025"
 DATE_ADDED: 20260213
 ethics_overall: No

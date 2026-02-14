@@ -13,8 +13,8 @@ authors: "Ning, Gu, et al."
 url: "https://arxiv.org/abs/2508.12733"
 external_pdf: "https://arxiv.org/pdf/2508.12733.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Ning-LinguaSafe A Comprehensive Multilingual Safety Benchmark for Large.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ning-LinguaSafe A Comprehensive Multilingual Safety Benchmark for Large.md"
+local_pdf: "[[PDFs/2025/2025-Ning-LinguaSafe A Comprehensive Multilingual Safety Benchmark for Large.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

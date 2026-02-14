@@ -12,6 +12,7 @@ last_author: "[[Xie, Xing]]"
 authors: "[[Biedma, Pablo]]; [[Yi, Xiaoyuan]]; [[Huang, Linus]]; [[Sun, Maosong]]; [[Xie, Xing]]"
 doi: 10.48550/arXiv.2404.12744
 url: "http://arxiv.org/abs/2404.12744"
+pdf_extract: "PDF Extracts/2024/2024-Biedma-Beyond Human Norms.md"
 local_pdf: "[[PDFs/2024/2024-Biedma-Beyond Human Norms.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2404.12744.pdf"
 publication: arXiv.org
@@ -22,7 +23,6 @@ moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Introduces 'ValueLex', a framework that reconstructs LLMs' unique value systems from scratch, identifying three core non-human dimensions: Competence, Character, and Integrity"
 significance: "Reveals that LLMs possess a structured, distinct value system ('Character', 'Integrity') that differs from human personality models, necessitating bespoke metrics for 'virtuous' AI behavior"
-pdf_extract: "PDF Extracts/2024/2024-Biedma-Beyond Human Norms.md"
 tags: 
 abstract: "Recent advancements in Large Language Models (LLMs) have revolution- ized the AI field but also pose potential safety and ethical risks. Deciphering LLMs’ embedded values becomes crucial for assessing and mitigating their risks. Despite extensive investigation into LLMs’ values, previous studies heavily rely on human-oriented value systems in social sciences. Then, a natural question arises: Do LLMs possess unique values beyond those of hu- mans? Delving into it, this work proposes a novel frame"
 paper_summary: "Abstract: Recent advancements in Large Language Models (LLMs) have revolution- ized the AI field but also pose potential safety and ethical risks. Deciphering LLMs’ embedded values becomes crucial for assessing | Overview: Pre-print Beyond Human Norms: Unveiling Unique Values of Large Language Models through Interdisciplinary Approaches Pablo Biedma♢, Xiaoyuan Yi§∗, Linus Huang‡, Maosong Sun♢∗, Xing Xie§ § Microsoft Res | Methodology: for eliciting beliefs encoded in LLMs and studies different beliefs encoded in diverse LLMs. Simmons (2022a) further utilizes MFQ to analyze LLMs’ pol | Key Findings: Input: p, Θ, S, V = {v1, v2, . . . , vK} Output: w = (w1, . . . , wK) 1: Y = ∅ 2: for each s ∈S do 3: for each θ ∈Θ do 4: Y = Y S{ym}M m=1, ym ∼p(y|s,"

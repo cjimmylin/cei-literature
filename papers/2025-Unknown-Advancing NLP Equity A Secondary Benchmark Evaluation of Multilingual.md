@@ -13,8 +13,8 @@ authors: Unknown
 url: "https://openreview.net/forum?id=YlTVWukmJe"
 external_pdf: "https://openreview.net/pdf?id=YlTVWukmJe"
 publication: OpenReview
-local_pdf: "[[PDFs/2025/2025-Unknown-Advancing NLP Equity A Secondary Benchmark Evaluation of Multilingual.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Advancing NLP Equity A Secondary Benchmark Evaluation of Multilingual.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-Advancing NLP Equity A Secondary Benchmark Evaluation of Multilingual.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

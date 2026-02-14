@@ -14,8 +14,8 @@ authors: "Chaya Liebeskind, Shmuel Liebeskind"
 doi: 10.1109/ICSEE.2018.8646190
 url: "https://ieeexplore.ieee.org/document/8646190"
 publication: "IEEE (ICSEE 2018)"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

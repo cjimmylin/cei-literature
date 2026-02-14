@@ -13,8 +13,8 @@ authors: "Kyuri Im; Shuzhou Yuan; Michael Färber"
 url: "https://arxiv.org/html/2601.08668"
 external_pdf: "https://arxiv.org/pdf/2601.08668.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2026/2026-Im-Analyzing Bias in False Refusal Behavior of Large Language Models for.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Im-Analyzing Bias in False Refusal Behavior of Large Language Models for.md"
+local_pdf: "[[PDFs/2026/2026-Im-Analyzing Bias in False Refusal Behavior of Large Language Models for.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

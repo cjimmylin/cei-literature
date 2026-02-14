@@ -13,8 +13,8 @@ authors: "Saga Hansson, Konstantinos Mavromatakis, Yvonne Adesam, Gerlof Bouma, 
 url: "https://aclanthology.org/2021.nodalida-main.52/"
 external_pdf: "https://aclanthology.org/2021.nodalida-main.52.pdf"
 publication: "NoDaLiDa 2021"
-local_pdf: "[[PDFs/2021/2021-Hansson-The Swedish Winogender Dataset SweWinogender.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Hansson-The Swedish Winogender Dataset SweWinogender.md"
+local_pdf: "[[PDFs/2021/2021-Hansson-The Swedish Winogender Dataset SweWinogender.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

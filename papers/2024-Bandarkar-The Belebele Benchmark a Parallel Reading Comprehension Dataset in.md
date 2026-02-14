@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Lucas Bandarkar; Davis Liang; Benjamin Muller; Mikel Artetxe; Satya Narayan Shukla; Donald Husa; Naman Goyal; Abhinandan Krishnan; Luke Zettlemoyer; Madian Khabsa"
 url: "https://arxiv.org/abs/2308.16884"
 external_pdf: "https://arxiv.org/pdf/2308.16884.pdf"
-local_pdf: "[[PDFs/2024/2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in.md"
+local_pdf: "[[PDFs/2024/2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in.pdf]]"
 publication: "arXiv / ACL 2024"
 DATE_ADDED: 20260213
 ethics_overall: No

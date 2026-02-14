@@ -13,8 +13,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.05501"
 external_pdf: "https://arxiv.org/pdf/2512.05501.pdf"
-local_pdf: "[[PDFs/2025/2025-results]]-SEA-SafeguardBench Evaluating AI Safety in SEA.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-results]]-SEA-SafeguardBench Evaluating AI Safety in SEA.md"
+local_pdf: "[[PDFs/2025/2025-results]]-SEA-SafeguardBench Evaluating AI Safety in SEA.pdf]]"
 publication: OpenReview
 DATE_ADDED: 20260213
 ethics_overall: No

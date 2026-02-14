@@ -12,6 +12,7 @@ last_author: "[[Samuel, Gabrielle]]"
 authors: "[[Odero, Brenda]]; [[Nderitu, David]]; [[Samuel, Gabrielle]]"
 doi: 10.12688/wellcomeopenres.23021.1
 url: "https://wellcomeopenresearch.org/articles/9-625"
+pdf_extract: "PDF Extracts/2024/2024-Odero-The Ubuntu Way.md"
 local_pdf: "[[PDFs/2024/2024-Odero-The Ubuntu Way.pdf]]"
 national_ethnic_cultural: African/Ubuntu
 religious_values: N/A
@@ -20,7 +21,6 @@ moral_psychology: N/A
 newtags: "African/Ubuntu, Virtue Ethics, Utilitarianism"
 key_contribution: "Proposes a research ethics framework integrating Ubuntu principles (communalism, interconnectedness) for AI health research in Africa"
 significance: "Challenges Western-centric bioethics by establishing a relational, community-centered virtue framework as essential for equitable and culturally competent AI deployment in the Global South"
-pdf_extract: "PDF Extracts/2024/2024-Odero-The Ubuntu Way.md"
 abstract: "The integration of artificial intelligence (AI) in health research has grown rapidly, particularly in African nations. However, the ethical frameworks governing AI use in health research are often based on Western philosophies, focusing on individualism, and may not fully address the unique challenges and cultural contexts of African communities. This paper advocates for the incorporation of African philosophies, specifically Ubuntu, into AI health research ethics frameworks. The proposed framework highlights four key principles derived from Ubuntu: communalism and openness, harmony and support, research prioritisation and community empowerment, and community-oriented decision-making. These principles are aligned with global ethical standards such as justice, beneficence, transparency, and accountability but are adapted to reflect the communal and relational values inherent in Ubuntu."
 paper_summary: "Proposes a research ethics framework integrating Ubuntu principles (communalism, interconnectedness) for AI health research in Africa. The framework highlights four key principles: communalism and openness, harmony and support, research prioritisation and community empowerment, and community-oriented decision-making."
 ethics_overall: No

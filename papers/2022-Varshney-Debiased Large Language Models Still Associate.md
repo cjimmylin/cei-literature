@@ -13,8 +13,8 @@ authors: "[[Babak Hemmatian, Lav R. Varshney]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2208.04417"
 external_pdf: "https://arxiv.org/pdf/2208.04417.pdf"
-local_pdf: "[[PDFs/2022/2022-Varshney-Debiased Large Language Models Still Associate.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Varshney-Debiased Large Language Models Still Associate.md"
+local_pdf: "[[PDFs/2022/2022-Varshney-Debiased Large Language Models Still Associate.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

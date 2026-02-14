@@ -13,8 +13,8 @@ authors: "Rui Sun"
 url: "https://arxiv.org/pdf/2411.13775"
 external_pdf: "https://arxiv.org/pdf/2411.13775.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024/2024-Sun-1 Benchmarking GPT-4 against Human Translators A.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Sun-1 Benchmarking GPT-4 against Human Translators A.md"
+local_pdf: "[[PDFs/2024/2024-Sun-1 Benchmarking GPT-4 against Human Translators A.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ authors: "Hyunseung Lim; Dasom Choi; Hwajung Hong"
 doi: 10.1145/3715275.3732207
 url: "https://dl.acm.org/doi/10.1145/3715275.3732207"
 publication: ACM
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

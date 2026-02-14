@@ -15,8 +15,8 @@ doi: 10.1016/j.ipm.2021.102674
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0306457321001606"
 external_pdf: "https://riunet.upv.es/bitstream/10251/183078/3/PronozaPanichevaKoltsova%20-%20Detecting%20Ethnicity-targeted%20Hate%20Speech%20in%20Russian%20Social%20Media%20Texts.pdf"
 publication: "Information Processing and Management (Elsevier)"
-local_pdf: "[[PDFs/2021/2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts.md"
+local_pdf: "[[PDFs/2021/2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Jann Railey Montalan; Jian Gang Ngui; Wei Qi Leong; Yosephine Susanto; Hamsawardhini Rengarajan; Alham Fikri Aji; William Chandra Tjhi"
 url: "https://arxiv.org/abs/2409.15380"
 external_pdf: "https://arxiv.org/pdf/2409.15380.pdf"
-local_pdf: "[[PDFs/2024/2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for.md"
+local_pdf: "[[PDFs/2024/2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

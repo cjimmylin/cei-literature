@@ -12,8 +12,8 @@ last_author: "[[Hwaran Lee]]"
 authors: "Haneul Yoo, Yongjin Yang, Hwaran Lee"
 url: "https://arxiv.org/abs/2406.15481"
 external_pdf: "https://arxiv.org/pdf/2406.15481.pdf"
-local_pdf: "[[PDFs/2025/2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual.md"
+local_pdf: "[[PDFs/2025/2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual.pdf]]"
 publication: "arXiv / ACL 2025"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -12,8 +12,8 @@ last_author: "[[David Jurgens Shivani Kumar]]"
 authors: "Shivani Kumar, David Jurgens"
 publication: "ACL 2025"
 external_pdf: "https://arxiv.org/pdf/2511.03180.pdf"
-local_pdf: "[[PDFs/2025/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.md"
+local_pdf: "[[PDFs/2025/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.pdf]]"
 DATE_ADDED: 20260207
 ethics_overall: No
 virtue_ethics: No

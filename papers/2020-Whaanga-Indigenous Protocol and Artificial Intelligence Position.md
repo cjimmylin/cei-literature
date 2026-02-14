@@ -13,13 +13,13 @@ authors: "[[Jason Edward Lewis, Angie Abdilla, Noelani Arista, Kaipulaumakaniolo
 authors_incomplete: false
 url: 
 external_pdf: "https://doi.org/10.11573/spectrum.library.concordia.ca.00986506"
+pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://doi.org/10.11573/spectrum.library.concordia.ca.00986506"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
-pdf_extract: 
 publication: "The Indigenous Protocol and Artificial Intelligence Working Group / CIFAR"
 DATE_ADDED: 20260213
 ethics_overall: No

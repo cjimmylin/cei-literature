@@ -12,8 +12,8 @@ last_author: "[[Fabiana de Melo]]"
 authors: "Francielle Vargas, Isabelle Carvalho, Fabiana de Melo, et al."
 url: "https://arxiv.org/abs/2103.14972"
 external_pdf: "https://arxiv.org/pdf/2103.14972.pdf"
-local_pdf: "[[PDFs/2022/2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram.md"
+local_pdf: "[[PDFs/2022/2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

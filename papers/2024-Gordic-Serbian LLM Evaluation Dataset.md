@@ -13,8 +13,8 @@ last_author: "[[Aleksa Gordic]]"
 authors: "Aleksa Gordic"
 url: "https://github.com/gordicaleksa/serbian-llm-eval"
 publication: "HuggingFace / GitHub"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

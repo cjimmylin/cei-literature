@@ -12,8 +12,8 @@ last_author: "[[Seunghyeok Hong]]"
 authors: "Guijin Son, Hyunwoo Ko, Hoyoung Lee, Yewon Kim, Seunghyeok Hong"
 url: "https://arxiv.org/abs/2409.11239"
 external_pdf: "https://arxiv.org/pdf/2409.11239.pdf"
-local_pdf: "[[PDFs/2024/2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do.md"
+local_pdf: "[[PDFs/2024/2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

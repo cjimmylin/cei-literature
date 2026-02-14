@@ -13,8 +13,8 @@ authors: "[[Maneesha Perera, Rajith Vidanaarachchi, Sangeetha Chandrashekeran, M
 authors_incomplete: false
 url: 
 external_pdf: "https://osf.io/6hrqj/download"
-local_pdf: "[[PDFs/2025/2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A.md"
+local_pdf: "[[PDFs/2025/2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A.pdf]]"
 publication: "Big Data & Society (SAGE)"
 DATE_ADDED: 20260213
 ethics_overall: No

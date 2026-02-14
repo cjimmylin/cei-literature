@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Azizul Hakim Fayaz; MD. Shorif Uddin; Rayhan Uddin Bhuiyan; Zakia Sultana; Md. Samiul Islam; Bidyarthi Paul; Tashreef Muhammad; Shahriar Manzoor"
 url: "https://arxiv.org/abs/2507.16183"
 external_pdf: "https://arxiv.org/pdf/2507.16183.pdf"
-local_pdf: "[[PDFs/2025/2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset.md"
+local_pdf: "[[PDFs/2025/2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

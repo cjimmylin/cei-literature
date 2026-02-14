@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Shahriar Kabir Nahin; Rabindra Nath Nandi; Sagor Sarker; Quazi Sarwar Muhtaseem; Md Kowsher; Apu Chandraw Shill; Md Ibrahim; Mehadi Hasan Menon; Tareq Al Muntasir; Firoj Alam"
 url: "https://arxiv.org/abs/2502.11187"
 external_pdf: "https://arxiv.org/pdf/2502.11187.pdf"
-local_pdf: "[[PDFs/2025/2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking.md"
+local_pdf: "[[PDFs/2025/2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking.pdf]]"
 publication: "arXiv / ACL 2025"
 DATE_ADDED: 20260213
 ethics_overall: No

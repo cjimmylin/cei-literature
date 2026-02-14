@@ -13,13 +13,13 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/pii/S2772941924000413"
 external_pdf: "https://doi.org/10.1016/j.sasc.2024.200112"
+pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://doi.org/10.1016/j.sasc.2024.200112"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
-pdf_extract: 
 publication: "WebSearch: Telugu hate speech detection"
 DATE_ADDED: 20260213
 ethics_overall: No

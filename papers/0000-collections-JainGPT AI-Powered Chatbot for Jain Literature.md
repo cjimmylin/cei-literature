@@ -13,8 +13,8 @@ authors: "[[JainKnowledge.com (built on JainELibrary.org]]; [[JainQQ.org collect
 authors_incomplete: false
 url: 
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "Web application"
 DATE_ADDED: 20260213
 ethics_overall: No

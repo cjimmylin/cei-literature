@@ -13,8 +13,8 @@ authors: "[[Sebastian Nehrdich, Kurt Keutzer (and collaborators at Berkeley AI R
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.06400"
 external_pdf: "https://arxiv.org/pdf/2601.06400.pdf"
-local_pdf: "[[PDFs/2026/2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and.md"
+local_pdf: "[[PDFs/2026/2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260213
 ethics_overall: No

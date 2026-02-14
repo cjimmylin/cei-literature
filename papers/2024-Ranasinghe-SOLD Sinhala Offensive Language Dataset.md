@@ -13,8 +13,8 @@ authors: "Tharindu Ranasinghe; Isuri Anuradha; Damith Premasiri; Kanishka Silva;
 doi: 10.1007/s10579-024-09723-1
 url: "https://link.springer.com/article/10.1007/s10579-024-09723-1"
 external_pdf: "https://arxiv.org/pdf/2212.00851.pdf"
-local_pdf: "[[PDFs/2024/2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset.md"
+local_pdf: "[[PDFs/2024/2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset.pdf]]"
 publication: "Springer / arXiv"
 DATE_ADDED: 20260213
 ethics_overall: No

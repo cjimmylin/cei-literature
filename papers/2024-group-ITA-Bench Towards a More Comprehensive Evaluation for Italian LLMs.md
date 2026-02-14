@@ -12,8 +12,8 @@ last_author: "[[SapienzaNLP group]]"
 authors: "SapienzaNLP group"
 url: "https://github.com/SapienzaNLP/ita-bench"
 publication: "CLiC-it 2024 / GitHub"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

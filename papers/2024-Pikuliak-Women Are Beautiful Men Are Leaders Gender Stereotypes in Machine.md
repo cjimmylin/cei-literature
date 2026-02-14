@@ -12,8 +12,8 @@ last_author: "[[Marian Simko]]"
 authors: "Matus Pikuliak, Andrea Hrckova, Stefan Oresko, Marian Simko"
 url: "https://arxiv.org/abs/2311.18711"
 external_pdf: "https://arxiv.org/pdf/2311.18711.pdf"
-local_pdf: "[[PDFs/2024/2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine.md"
+local_pdf: "[[PDFs/2024/2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine.pdf]]"
 publication: "arXiv / Findings of EMNLP 2024"
 DATE_ADDED: 20260213
 ethics_overall: No

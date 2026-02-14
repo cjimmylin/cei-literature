@@ -12,8 +12,8 @@ last_author: "[[Bjorn Pluster (LAION/Hessian.AI)]]"
 authors: "Bjorn Pluster (LAION/Hessian.AI)"
 url: "https://github.com/bjoernpl/GermanBenchmark"
 publication: GitHub
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

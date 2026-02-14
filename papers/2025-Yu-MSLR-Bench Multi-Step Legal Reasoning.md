@@ -12,8 +12,8 @@ last_author: "[[Lei Sha]]"
 authors: "Wenhan Yu, Xinbo Lin, Lanxin Ni, Jinhua Cheng, and Lei Sha"
 url: "https://arxiv.org/abs/2511.07979"
 external_pdf: "https://arxiv.org/pdf/2511.07979.pdf"
-local_pdf: "[[PDFs/2025/2025-Yu-MSLR-Bench Multi-Step Legal Reasoning.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yu-MSLR-Bench Multi-Step Legal Reasoning.md"
+local_pdf: "[[PDFs/2025/2025-Yu-MSLR-Bench Multi-Step Legal Reasoning.pdf]]"
 publication: "AAAI 2026"
 DATE_ADDED: 20260207
 ethics_overall: No

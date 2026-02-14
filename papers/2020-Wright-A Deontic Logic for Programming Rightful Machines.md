@@ -13,6 +13,7 @@ authors: "[[Wright, Ava Thomas]]"
 doi: 10.1145/3375627.3375867
 url: "https://dl.acm.org/doi/10.1145/3375627.3375867"
 external_pdf: "https://philpapers.org/archive/WRIADL-2.pdf"
+pdf_extract: "PDF Extracts/2020/2020-Wright-A Deontic Logic for Programming Rightful Machines.md"
 local_pdf: "[[PDFs/2020/2020-Wright-A Deontic Logic for Programming Rightful Machines.pdf]]"
 publication: "AIES '20: AAAI/ACM Conference on AI, Ethics, and Society"
 national_ethnic_cultural: N/A
@@ -36,7 +37,6 @@ data_description: N/A
 data_metrics: N/A
 LLM_assessed: NA
 DATA_URL: NA
-pdf_extract: "PDF Extracts/2020/2020-Wright-A Deontic Logic for Programming Rightful Machines.md"
 ---
 # A Deontic Logic for Programming Rightful Machines
 

@@ -12,8 +12,8 @@ last_author: "[[Saeedeh Momtazi]]"
 authors: "Farhan Farsi, Farnaz Aghababaloo, Shahriar Shariati Motlagh, Parsa Ghofrani, MohammadAli SadraeiJavaheri, Shayan Bali, Amirhossein Shabani, Farbod Bijary, Ghazal Zamaninejad, AmirMohammad Salehoof, Saeedeh Momtazi"
 url: "https://arxiv.org/abs/2508.00673"
 external_pdf: "https://arxiv.org/pdf/2508.00673.pdf"
-local_pdf: "[[PDFs/2025/2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.md"
+local_pdf: "[[PDFs/2025/2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

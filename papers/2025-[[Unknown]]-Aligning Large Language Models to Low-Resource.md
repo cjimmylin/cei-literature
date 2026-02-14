@@ -13,8 +13,8 @@ authors: [[Unknown]]
 authors_incomplete: true
 url: "https://aclanthology.org/2025.bhasha-1.6/"
 external_pdf: "https://aclanthology.org/2025.bhasha-1.6.pdf"
-local_pdf: "[[PDFs/2025/2025-[[Unknown]]-Aligning Large Language Models to Low-Resource.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-[[Unknown]]-Aligning Large Language Models to Low-Resource.md"
+local_pdf: "[[PDFs/2025/2025-[[Unknown]]-Aligning Large Language Models to Low-Resource.pdf]]"
 publication: "ACL Anthology (BHASHA 2025)"
 DATE_ADDED: 20260213
 ethics_overall: No

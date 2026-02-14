@@ -12,8 +12,8 @@ last_author: "[[MERA Evaluation Team]]"
 authors: "MERA Evaluation Team"
 url: "https://arxiv.org/abs/2511.15552"
 external_pdf: "https://arxiv.org/pdf/2511.15552.pdf"
-local_pdf: "[[PDFs/2025/2025-Team-Multimodal Evaluation of Russian-language Architectures MERA Multi.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Team-Multimodal Evaluation of Russian-language Architectures MERA Multi.md"
+local_pdf: "[[PDFs/2025/2025-Team-Multimodal Evaluation of Russian-language Architectures MERA Multi.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

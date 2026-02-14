@@ -14,8 +14,8 @@ authors: "Gemma Bel Enguix, Helena Gómez Adorno, Sergio Luís Ojeda-Trueba, et 
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6764/4136"
 external_pdf: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6764/4136"
 publication: "IberLEF / SEPLN 2025"
-local_pdf: "[[PDFs/2025/2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.md"
+local_pdf: "[[PDFs/2025/2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,6 +13,7 @@ authors: "[[Huang, Yue]]; [[Sun, Lichao]]; [[Wang, Haoran]]; [[Wu, Siyuan]]; [[Z
 doi: 10.48550/arXiv.2401.05561
 tags: 
 url: "http://arxiv.org/abs/2401.05561"
+pdf_extract: "PDF Extracts/2024/2024-Huang-TrustLLM.md"
 local_pdf: [[PDFs/2024/2024-Huang-TrustLLM.pdf]]
 external_pdf: "http://arxiv.org/pdf/2401.05561.pdf"
 publication: arXiv.org
@@ -23,7 +24,6 @@ moral_psychology: N/A
 newtags: "Deontology, Utilitarianism"
 key_contribution: "Establishes a comprehensive benchmark (TRUSTLLM) across 8 dimensions including machine ethics, evaluating 16 mainstream LLMs"
 significance: "Finds that while LLMs have basic moral understanding, they fall short in complex scenarios and proprietary models outperform open-source ones"
-pdf_extract: "PDF Extracts/2024/2024-Huang-TrustLLM.md"
 abstract: "Large language models (LLMs), exemplified by ChatGPT, have gained considerable attention for their excellent natural language processing capabilities. Nonetheless, these LLMs present many challenges, particularly in the realm of trustworthiness. Therefore, ensuring the trust- worthiness of LLMs emerges as an important topic. This paper introduces TRUSTLLM, a comprehensive study of trustworthiness in LLMs, including principles for different dimen- sions of trustworthiness, established benchmark,"
 paper_summary: "Abstract: Large language models (LLMs), exemplified by ChatGPT, have gained considerable attention for their excellent natural language processing capabilities. Nonetheless, these LLMs present many challenges,  | Overview: TRUSTLLM: TRUSTWORTHINESS IN LARGE LANGUAGE MODELS – A PRINCIPLE AND BENCHMARK Yue Huang1,2∗† ‡ Lichao Sun1∗† Haoran Wang3∗Siyuan Wu4∗‡ Qihui Zhang4∗‡ Yuan Li5 ‡ Chujie Gao4∗‡ Yixin Huang6∗Wenhan Lyu7 | Key Findings: provides a significant reference value for relevant open-weight developers. Both the model itself and trustworthiness-related technology should be tra | Conclusions: 79 17 Acknowledgement 79 4 --- Page 5 --- TRUSTLLM 1 Introduction The advent of large language models (LLMs) marks a significant milestone in natural"
 ethics_overall: No

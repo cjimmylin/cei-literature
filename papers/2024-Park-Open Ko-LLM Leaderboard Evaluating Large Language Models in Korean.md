@@ -13,8 +13,8 @@ authors: "Chanjun Park, Dahyun Kim, Sanghoon Kim, Sukyung Lee, Yungi Kim, Hyeonw
 doi: 10.18653/v1/2024.acl-long.177
 url: "https://arxiv.org/abs/2405.20574"
 external_pdf: "https://arxiv.org/pdf/2405.20574.pdf"
-local_pdf: "[[PDFs/2024/2024-Park-Open Ko-LLM Leaderboard Evaluating Large Language Models in Korean.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Park-Open Ko-LLM Leaderboard Evaluating Large Language Models in Korean.md"
+local_pdf: "[[PDFs/2024/2024-Park-Open Ko-LLM Leaderboard Evaluating Large Language Models in Korean.pdf]]"
 publication: "arXiv / ACL 2024"
 DATE_ADDED: 20260213
 ethics_overall: No

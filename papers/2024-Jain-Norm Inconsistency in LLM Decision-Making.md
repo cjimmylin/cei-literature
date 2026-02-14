@@ -13,8 +13,8 @@ authors: "Shomik Jain; D Calacci; Ashia Wilson"
 doi: 10.1609/aies.v7i1.31665
 url: "https://arxiv.org/abs/2405.14812"
 external_pdf: "https://arxiv.org/pdf/2405.14812.pdf"
-local_pdf: "[[PDFs/2024/2024-Jain-Norm Inconsistency in LLM Decision-Making.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Jain-Norm Inconsistency in LLM Decision-Making.md"
+local_pdf: "[[PDFs/2024/2024-Jain-Norm Inconsistency in LLM Decision-Making.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

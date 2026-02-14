@@ -12,8 +12,8 @@ last_author: "[[Gabriel Lino Garcia]]"
 authors: "Gabriel Lino Garcia, et al."
 url: "https://arxiv.org/abs/2401.02909"
 external_pdf: "https://arxiv.org/pdf/2401.02909.pdf"
-local_pdf: "[[PDFs/2024/2024-Garcia-Introducing Bode A Fine-Tuned Large Language Model for Portuguese.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Garcia-Introducing Bode A Fine-Tuned Large Language Model for Portuguese.md"
+local_pdf: "[[PDFs/2024/2024-Garcia-Introducing Bode A Fine-Tuned Large Language Model for Portuguese.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

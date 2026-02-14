@@ -13,8 +13,8 @@ authors: "Jiho Jin, Jiseon Kim, Nayeon Lee, Haneul Yoo, Alice Oh, Mark Hasegawa-
 doi: 10.1162/tacl_a_00661
 url: "https://arxiv.org/abs/2307.16778"
 external_pdf: "https://arxiv.org/pdf/2307.16778.pdf"
-local_pdf: "[[PDFs/2024/2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.md"
+local_pdf: "[[PDFs/2024/2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.pdf]]"
 publication: "arXiv / TACL 2024"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -14,8 +14,8 @@ authors: Unknown
 url: "https://aclanthology.org/2025.gebnlp-1.24/"
 external_pdf: "https://aclanthology.org/2025.gebnlp-1.24.pdf"
 publication: "ACL Anthology (GeBNLP 2025)"
-local_pdf: "[[PDFs/2025/2025-Unknown-Assessing Gender Bias of Pretrained Bangla Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Assessing Gender Bias of Pretrained Bangla Language Models.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-Assessing Gender Bias of Pretrained Bangla Language Models.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

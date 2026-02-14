@@ -13,8 +13,8 @@ authors: "Adnan Masood, Ph"
 url: "https://arxiv.org/pdf/2401.05632"
 external_pdf: "https://arxiv.org/pdf/2401.05632.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024/2024-Masood-1 Natural Language Processing for Dialects of a Language A Survey.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Masood-1 Natural Language Processing for Dialects of a Language A Survey.md"
+local_pdf: "[[PDFs/2024/2024-Masood-1 Natural Language Processing for Dialects of a Language A Survey.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

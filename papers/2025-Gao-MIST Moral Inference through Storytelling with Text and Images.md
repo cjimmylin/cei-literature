@@ -12,8 +12,8 @@ last_author: "[[Xiangliang Zhang]]"
 authors: "Chujie Gao; Yue Huang; Xiangqi Wang; Siyuan Wu; Nitesh V. Chawla; Xiangliang Zhang"
 doi: 10.1145/3746252.3760884
 url: "https://doi.org/10.1145/3746252.3760884"
-local_pdf: "[[PDFs/2025/2025-Gao-MIST Moral Inference through Storytelling with Text and Images.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Gao-MIST Moral Inference through Storytelling with Text and Images.md"
+local_pdf: "[[PDFs/2025/2025-Gao-MIST Moral Inference through Storytelling with Text and Images.pdf]]"
 publication: CIKM
 DATE_ADDED: 20260207
 ethics_overall: No

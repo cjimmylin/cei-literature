@@ -14,8 +14,8 @@ doi: 10.1007/s10579-025-09869-6
 url: "https://link.springer.com/article/10.1007/s10579-025-09869-6"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10579-025-09869-6.pdf"
 publication: Springer
-local_pdf: "[[PDFs/2024/2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and.md"
+local_pdf: "[[PDFs/2024/2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

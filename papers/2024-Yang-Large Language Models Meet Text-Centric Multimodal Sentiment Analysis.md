@@ -13,8 +13,8 @@ authors: "Hao Yang; Yanyan Zhao; Yang Wu; Shilong Wang; Tian Zheng; Hongbo Zhang
 url: "https://arxiv.org/html/2406.08068v2"
 external_pdf: "https://arxiv.org/pdf/2406.08068.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024/2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis.md"
+local_pdf: "[[PDFs/2024/2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

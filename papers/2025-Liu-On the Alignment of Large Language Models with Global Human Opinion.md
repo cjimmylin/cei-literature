@@ -13,8 +13,8 @@ authors: "Yang Liu; Masahiro Kaneko; Chenhui Chu"
 url: "https://arxiv.org/html/2509.01418"
 external_pdf: "https://arxiv.org/pdf/2509.01418.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Liu-On the Alignment of Large Language Models with Global Human Opinion.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Liu-On the Alignment of Large Language Models with Global Human Opinion.md"
+local_pdf: "[[PDFs/2025/2025-Liu-On the Alignment of Large Language Models with Global Human Opinion.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ authors: "Yimo Deng; Huangxun Chen"
 url: "https://arxiv.org/html/2312.07130v3"
 external_pdf: "https://arxiv.org/pdf/2312.07130.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2023/2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass.md"
+local_pdf: "[[PDFs/2023/2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

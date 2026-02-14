@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Tin Van Huynh; Kiet Van Nguyen; Ngan Luu-Thuy Nguyen"
 url: "https://arxiv.org/abs/2406.17716"
 external_pdf: "https://arxiv.org/pdf/2406.17716.pdf"
-local_pdf: "[[PDFs/2024/2024-Huynh-A New Benchmark Dataset and Mixture-of-Experts Language Models for.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Huynh-A New Benchmark Dataset and Mixture-of-Experts Language Models for.md"
+local_pdf: "[[PDFs/2024/2024-Huynh-A New Benchmark Dataset and Mixture-of-Experts Language Models for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

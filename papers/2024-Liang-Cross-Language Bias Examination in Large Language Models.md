@@ -13,8 +13,8 @@ authors: "Yuxuan Liang, et al."
 url: "https://arxiv.org/abs/2512.16029"
 external_pdf: "https://arxiv.org/pdf/2512.16029.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024/2024-Liang-Cross-Language Bias Examination in Large Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Liang-Cross-Language Bias Examination in Large Language Models.md"
+local_pdf: "[[PDFs/2024/2024-Liang-Cross-Language Bias Examination in Large Language Models.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

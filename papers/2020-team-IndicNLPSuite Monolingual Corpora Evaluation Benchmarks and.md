@@ -13,8 +13,8 @@ authors: "[[AI4Bharat team]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2020.findings-emnlp.445/"
 external_pdf: "https://aclanthology.org/2020.findings-emnlp.445.pdf"
-local_pdf: "[[PDFs/2020/2020-team-IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-team-IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and.md"
+local_pdf: "[[PDFs/2020/2020-team-IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and.pdf]]"
 publication: "EMNLP 2020 Findings"
 DATE_ADDED: 20260213
 ethics_overall: No

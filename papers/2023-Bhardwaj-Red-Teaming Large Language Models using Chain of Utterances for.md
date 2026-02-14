@@ -12,8 +12,8 @@ last_author: "[[Soujanya Poria]]"
 authors: "Rishabh Bhardwaj, Soujanya Poria"
 url: "https://arxiv.org/abs/2308.09662"
 external_pdf: "https://arxiv.org/pdf/2308.09662.pdf"
-local_pdf: "[[PDFs/2023/2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for.md"
+local_pdf: "[[PDFs/2023/2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

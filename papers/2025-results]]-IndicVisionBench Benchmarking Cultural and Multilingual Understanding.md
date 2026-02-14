@@ -13,8 +13,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2511.04727"
 external_pdf: "https://arxiv.org/pdf/2511.04727.pdf"
-local_pdf: "[[PDFs/2025/2025-results]]-IndicVisionBench Benchmarking Cultural and Multilingual Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-results]]-IndicVisionBench Benchmarking Cultural and Multilingual Understanding.md"
+local_pdf: "[[PDFs/2025/2025-results]]-IndicVisionBench Benchmarking Cultural and Multilingual Understanding.pdf]]"
 publication: "WebSearch: IndicVisionBench"
 DATE_ADDED: 20260213
 ethics_overall: No

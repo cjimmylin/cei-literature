@@ -13,8 +13,8 @@ authors: "[[AI Singapore team]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.05747"
 external_pdf: "https://arxiv.org/pdf/2504.05747.pdf"
-local_pdf: "[[PDFs/2025/2025-team-SEA-LION Southeast Asian Languages in One.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-team-SEA-LION Southeast Asian Languages in One.md"
+local_pdf: "[[PDFs/2025/2025-team-SEA-LION Southeast Asian Languages in One.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

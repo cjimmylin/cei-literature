@@ -13,8 +13,8 @@ authors: "Saffron Huang; Divya Siddarth; Liane Lovitt; Thomas I. Liao; Esin Durm
 doi: 10.1145/3630106.3658979
 url: "https://arxiv.org/abs/2406.07814"
 external_pdf: "https://arxiv.org/pdf/2406.07814.pdf"
-local_pdf: "[[PDFs/2024/2024-Huang-Collective Constitutional AI Aligning a Language Model with Public.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Huang-Collective Constitutional AI Aligning a Language Model with Public.md"
+local_pdf: "[[PDFs/2024/2024-Huang-Collective Constitutional AI Aligning a Language Model with Public.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

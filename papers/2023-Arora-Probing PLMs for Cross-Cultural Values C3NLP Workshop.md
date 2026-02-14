@@ -12,8 +12,8 @@ last_author: "[[Isabelle Augenstein]]"
 authors: "Arnav Arora, Lucie-Aimee Kaffee, Isabelle Augenstein"
 publication: Unknown
 external_pdf: "https://core.ac.uk/download/674011497.pdf"
-local_pdf: "[[PDFs/2023/2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop.md"
+local_pdf: "[[PDFs/2023/2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop.pdf]]"
 DATE_ADDED: 20260207
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ authors: "[[Joshi]]; [[and others (L3Cube Pune)]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2205.14728"
 external_pdf: "https://arxiv.org/pdf/2205.14728.pdf"
-local_pdf: "[[PDFs/2022/2022-Joshi-L3Cube-MahaNLP Marathi Natural Language Processing Datasets.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Joshi-L3Cube-MahaNLP Marathi Natural Language Processing Datasets.md"
+local_pdf: "[[PDFs/2022/2022-Joshi-L3Cube-MahaNLP Marathi Natural Language Processing Datasets.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

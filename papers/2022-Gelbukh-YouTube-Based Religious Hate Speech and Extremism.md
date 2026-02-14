@@ -13,8 +13,8 @@ authors: "[[Noman Ashraf, Abid Rafiq, Sabur Butt, Hafiz Muhammad Faisal Shehzad,
 authors_incomplete: false
 url: 
 external_pdf: "https://core.ac.uk/download/213021265.pdf"
-local_pdf: "[[PDFs/2022/2022-Gelbukh-YouTube-Based Religious Hate Speech and Extremism.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Gelbukh-YouTube-Based Religious Hate Speech and Extremism.md"
+local_pdf: "[[PDFs/2022/2022-Gelbukh-YouTube-Based Religious Hate Speech and Extremism.pdf]]"
 publication: "Journal of Intelligent and Fuzzy Systems"
 DATE_ADDED: 20260213
 ethics_overall: No

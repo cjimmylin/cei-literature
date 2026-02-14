@@ -13,8 +13,8 @@ authors: "[[Ji, Jiaming]]; [[Hong, Donghai]]; [[Zhang, Borong]]; [[Chen, Boyuan]
 authors_incomplete: false
 url: "https://arxiv.org/abs/2406.15513"
 external_pdf: "https://arxiv.org/pdf/2406.15513.pdf"
+pdf_extract: "PDF Extracts/0000/2025-Ji-PKU-SafeRLHF.md"
 local_pdf: "[[PDFs/2025-Ji-PKU-SafeRLHF.pdf]]"
-pdf_extract: "PDF Extracts/2025/2025-Ji-PKU-SafeRLHF.md"
 publication: "ACL 2025"
 DATE_ADDED: 20260207
 ethics_overall: No

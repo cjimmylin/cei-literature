@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: Unknown
 url: "https://literarytranslators.wordpress.com/2023/09/18/new-guidelines-for-evaluating-literary-translation-in-hiring-and-promotion-decisions/"
 publication: Web
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

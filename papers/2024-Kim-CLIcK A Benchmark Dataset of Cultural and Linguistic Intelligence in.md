@@ -13,8 +13,8 @@ authors: "Eunsu Kim, Juyoung Suk, Philhoon Oh, Haneul Yoo, James Thorne, Alice O
 doi: 10.18653/v1/2024.lrec-main.296
 url: "https://arxiv.org/abs/2403.06412"
 external_pdf: "https://arxiv.org/pdf/2403.06412.pdf"
-local_pdf: "[[PDFs/2024/2024-Kim-CLIcK A Benchmark Dataset of Cultural and Linguistic Intelligence in.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Kim-CLIcK A Benchmark Dataset of Cultural and Linguistic Intelligence in.md"
+local_pdf: "[[PDFs/2024/2024-Kim-CLIcK A Benchmark Dataset of Cultural and Linguistic Intelligence in.pdf]]"
 publication: "arXiv / LREC-COLING 2024"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -14,13 +14,13 @@ authors_incomplete: false
 doi: 10.1109/ICCIA62557.2024.10719327
 url: "https://doi.org/10.1109/ICCIA62557.2024.10719327"
 external_pdf: "https://ieeexplore.ieee.org/ielx8/10719028/10718863/10719327.pdf"
+pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://ieeexplore.ieee.org/ielx8/10719028/10718863/10719327.pdf"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
-pdf_extract: 
 publication: "IEEE ICCIA 2024"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -14,8 +14,8 @@ authors: Unknown
 url: "https://aclanthology.org/2024.findings-emnlp.36/"
 external_pdf: "https://aclanthology.org/2024.findings-emnlp.36.pdf"
 publication: "ACL Anthology (EMNLP 2024 Findings)"
-local_pdf: "[[PDFs/2024/2024-Unknown-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Unknown-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language.md"
+local_pdf: "[[PDFs/2024/2024-Unknown-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

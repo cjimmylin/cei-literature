@@ -12,8 +12,8 @@ last_author: "[[Moshe Koppel]]"
 authors: "Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel"
 url: "https://arxiv.org/abs/2510.20386"
 external_pdf: "https://arxiv.org/pdf/2510.20386.pdf"
-local_pdf: "[[PDFs/2025/2025-Shmidman-NeoDictaBERT Pushing the Frontier of BERT models for Hebrew.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Shmidman-NeoDictaBERT Pushing the Frontier of BERT models for Hebrew.md"
+local_pdf: "[[PDFs/2025/2025-Shmidman-NeoDictaBERT Pushing the Frontier of BERT models for Hebrew.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

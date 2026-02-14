@@ -14,13 +14,13 @@ authors_incomplete: false
 url: "https://doi.org/10.1177/23780231251377210"
 doi: 10.1177/23780231251377210
 external_pdf: "https://journals.sagepub.com/doi/pdf/10.1177/23780231251377210"
+pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "http_403 (HTTP 403)"
 pdf_access_url: "https://journals.sagepub.com/doi/pdf/10.1177/23780231251377210"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
-pdf_extract: 
 publication: "Socius (SAGE)"
 DATE_ADDED: 20260213
 ethics_overall: No

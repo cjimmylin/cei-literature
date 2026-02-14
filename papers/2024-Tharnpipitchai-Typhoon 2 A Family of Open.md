@@ -13,8 +13,8 @@ authors: "[[Kunat Pipatanakul, Potsawee Manakul, Natapong Nitarach, Warit Sirich
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.13702"
 external_pdf: "https://arxiv.org/pdf/2412.13702.pdf"
-local_pdf: "[[PDFs/2024/2024-Tharnpipitchai-Typhoon 2 A Family of Open.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Tharnpipitchai-Typhoon 2 A Family of Open.md"
+local_pdf: "[[PDFs/2024/2024-Tharnpipitchai-Typhoon 2 A Family of Open.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

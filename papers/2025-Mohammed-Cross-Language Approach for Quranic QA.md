@@ -13,8 +13,8 @@ authors: "[[Islam Oshallah, Mohamed Basem, Ali Hamdi, Ammar Mohammed]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.17449"
 external_pdf: "https://arxiv.org/pdf/2501.17449.pdf"
-local_pdf: "[[PDFs/2025/2025-Mohammed-Cross-Language Approach for Quranic QA.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mohammed-Cross-Language Approach for Quranic QA.md"
+local_pdf: "[[PDFs/2025/2025-Mohammed-Cross-Language Approach for Quranic QA.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

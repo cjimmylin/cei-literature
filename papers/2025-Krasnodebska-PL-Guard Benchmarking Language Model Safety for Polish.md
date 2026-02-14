@@ -12,8 +12,8 @@ last_author: "[[Wojciech Kusa]]"
 authors: "Aleksandra Krasnodebska, Karolina Seweryn, Szymon Lukasik, Wojciech Kusa"
 url: "https://arxiv.org/abs/2506.16322"
 external_pdf: "https://arxiv.org/pdf/2506.16322.pdf"
-local_pdf: "[[PDFs/2025/2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish.md"
+local_pdf: "[[PDFs/2025/2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

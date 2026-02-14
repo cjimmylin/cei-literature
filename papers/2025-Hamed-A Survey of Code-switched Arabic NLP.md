@@ -13,8 +13,8 @@ authors: "Injy Hamed; Caroline Sabty; Slim Abdennadher; Ngoc Thang Vu; Thamar So
 url: "https://aclanthology.org/2025.coling-main.307.pdf"
 external_pdf: "https://arxiv.org/pdf/2501.13419v1.pdf"
 publication: "ACL Anthology"
-local_pdf: "[[PDFs/2025/2025-Hamed-A Survey of Code-switched Arabic NLP.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Hamed-A Survey of Code-switched Arabic NLP.md"
+local_pdf: "[[PDFs/2025/2025-Hamed-A Survey of Code-switched Arabic NLP.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

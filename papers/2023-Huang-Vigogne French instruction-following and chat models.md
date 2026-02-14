@@ -12,8 +12,8 @@ last_author: "[[Bofeng Huang]]"
 authors: "Bofeng Huang"
 url: "https://github.com/bofenghuang/vigogne"
 publication: GitHub
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

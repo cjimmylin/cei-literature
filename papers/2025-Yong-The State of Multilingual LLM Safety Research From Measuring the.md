@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Zheng-Xin Yong; Beyza Ermis; Marzieh Fadaee; Stephen H. Bach; Julia Kreutzer"
 url: "https://arxiv.org/abs/2505.24119"
 external_pdf: "https://arxiv.org/pdf/2505.24119.pdf"
-local_pdf: "[[PDFs/2025/2025-Yong-The State of Multilingual LLM Safety Research From Measuring the.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yong-The State of Multilingual LLM Safety Research From Measuring the.md"
+local_pdf: "[[PDFs/2025/2025-Yong-The State of Multilingual LLM Safety Research From Measuring the.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

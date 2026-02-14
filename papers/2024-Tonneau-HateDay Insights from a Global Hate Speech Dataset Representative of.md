@@ -13,8 +13,8 @@ authors: "Manuel Tonneau, et al."
 url: "https://arxiv.org/abs/2411.15462"
 external_pdf: "https://arxiv.org/pdf/2411.15462.pdf"
 publication: "arXiv / ACL Anthology"
-local_pdf: "[[PDFs/2024/2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of.md"
+local_pdf: "[[PDFs/2024/2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

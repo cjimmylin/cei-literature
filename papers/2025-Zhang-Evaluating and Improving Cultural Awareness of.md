@@ -13,8 +13,8 @@ authors: "[[Hongbin Zhang, Kehai Chen, Xuefeng Bai, Yang Xiang, Min Zhang]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.21798"
 external_pdf: "https://arxiv.org/pdf/2509.21798.pdf"
-local_pdf: "[[PDFs/2025/2025-Zhang-Evaluating and Improving Cultural Awareness of.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhang-Evaluating and Improving Cultural Awareness of.md"
+local_pdf: "[[PDFs/2025/2025-Zhang-Evaluating and Improving Cultural Awareness of.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260213
 ethics_overall: No

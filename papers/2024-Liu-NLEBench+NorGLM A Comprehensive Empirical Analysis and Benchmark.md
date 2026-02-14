@@ -13,8 +13,8 @@ authors: "Peng Liu, Terje Rodahl, Lovise Bortne Drange, Marita Kolby Dahl et al.
 url: "https://arxiv.org/abs/2312.01314"
 external_pdf: "https://arxiv.org/pdf/2312.01314.pdf"
 publication: "arXiv / EMNLP 2024"
-local_pdf: "[[PDFs/2024/2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark.md"
+local_pdf: "[[PDFs/2024/2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

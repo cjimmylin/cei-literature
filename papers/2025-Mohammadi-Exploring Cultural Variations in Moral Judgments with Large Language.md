@@ -12,8 +12,8 @@ last_author: [[A]]
 authors: "Mohammadi, H., & Bagheri, A"
 url: "https://arxiv.org/abs/2506.12433"
 external_pdf: "https://arxiv.org/pdf/2506.12433.pdf"
-local_pdf: "[[PDFs/2025/2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.md"
+local_pdf: "[[PDFs/2025/2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

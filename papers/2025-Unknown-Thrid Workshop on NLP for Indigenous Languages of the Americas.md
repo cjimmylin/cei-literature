@@ -13,8 +13,8 @@ authors: Unknown
 url: "https://turing.iimas.unam.mx/americasnlp/"
 external_pdf: "https://turing.iimas.unam.mx/americasnlp/AmericasNLP_Call_2025.pdf"
 publication: Web
-local_pdf: "[[PDFs/2025/2025-Unknown-Thrid Workshop on NLP for Indigenous Languages of the Americas.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Thrid Workshop on NLP for Indigenous Languages of the Americas.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-Thrid Workshop on NLP for Indigenous Languages of the Americas.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

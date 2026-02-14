@@ -12,8 +12,8 @@ last_author: "[[Robert Monarch]]"
 authors: "Yiran Yang, Zeerak Talat, Robert Monarch"
 url: "https://arxiv.org/abs/2410.22153"
 external_pdf: "https://arxiv.org/pdf/2410.22153.pdf"
-local_pdf: "[[PDFs/2024/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.md"
+local_pdf: "[[PDFs/2024/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

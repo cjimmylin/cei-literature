@@ -13,8 +13,8 @@ authors: "[[Christian Faggionato, Marieke Meelen, Nathan Hill (and collaborators
 authors_incomplete: false
 url: 
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "ACM Transactions on Asian and Low-Resource Language Information Processing"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: "[[Xuechunzi Bai, Angelina Wang, Ilia Sucholutsky, Thomas L. Griffiths]
 authors_incomplete: false
 url: 
 external_pdf: "https://arxiv.org/pdf/2402.04105.pdf"
-local_pdf: "[[PDFs/2025/2025-Griffiths-Explicitly Unbiased Large Language Models Still.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Griffiths-Explicitly Unbiased Large Language Models Still.md"
+local_pdf: "[[PDFs/2025/2025-Griffiths-Explicitly Unbiased Large Language Models Still.pdf]]"
 publication: "PNAS (Proceedings of the National Academy of Sciences)"
 DATE_ADDED: 20260213
 ethics_overall: No

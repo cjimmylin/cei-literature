@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Lucky Susanto; Musa Izzanardi Wijanarko; Prasetia Anugrah Pratama; Traci Hong; Ika Idris; Alham Fikri Aji; Derry Wijaya"
 url: "https://arxiv.org/abs/2406.19349"
 external_pdf: "https://arxiv.org/pdf/2406.19349.pdf"
-local_pdf: "[[PDFs/2024/2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.md"
+local_pdf: "[[PDFs/2024/2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

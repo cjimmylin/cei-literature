@@ -13,8 +13,8 @@ authors: "A Leaderboard to Benchmark Ethical Biases in LLMs"
 url: "https://ceur-ws.org/Vol-3744/paper1.pdf"
 external_pdf: "https://ceur-ws.org/Vol-3744/paper1.pdf"
 publication: CEUR-WS
-local_pdf: "[[PDFs/2025/2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.md"
+local_pdf: "[[PDFs/2025/2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

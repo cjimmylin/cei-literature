@@ -13,8 +13,8 @@ authors: "[[Ghosh, Shaona]]; [[Varshney, Prasoon]]; [[Sreedhar, Makesh Narsimhan
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.09004"
 external_pdf: "https://arxiv.org/pdf/2501.09004.pdf"
-local_pdf: "[[PDFs/2025/2025-Ghosh-AEGIS 2.0.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ghosh-AEGIS 2.0.md"
+local_pdf: "[[PDFs/2025/2025-Ghosh-AEGIS 2.0.pdf]]"
 publication: "ACL 2025"
 DATE_ADDED: 20260207
 ethics_overall: No

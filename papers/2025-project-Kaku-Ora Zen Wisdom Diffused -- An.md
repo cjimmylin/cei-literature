@@ -13,8 +13,8 @@ authors: "[[(LessWrong community project)]]"
 authors_incomplete: false
 url: 
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "LessWrong / HuggingFace Spaces"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -12,8 +12,8 @@ last_author: "[[Moshe Koppel]]"
 authors: "Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel"
 url: "https://arxiv.org/abs/2309.14568"
 external_pdf: "https://arxiv.org/pdf/2309.14568.pdf"
-local_pdf: "[[PDFs/2023/2023-Shmidman-Introducing DictaLM - A Large Generative Language Model for Modern.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Shmidman-Introducing DictaLM - A Large Generative Language Model for Modern.md"
+local_pdf: "[[PDFs/2023/2023-Shmidman-Introducing DictaLM - A Large Generative Language Model for Modern.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

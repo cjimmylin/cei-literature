@@ -14,8 +14,8 @@ authors: "Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel"
 url: "https://dicta.org.il/publications/DictaLM_3_0___Techincal_Report.pdf"
 external_pdf: "https://arxiv.org/pdf/2602.02104.pdf"
 publication: "Dicta Technical Report"
-local_pdf: "[[PDFs/2025/2025-Shmidman-Dicta-LM 3.0 Advancing The Frontier of Hebrew Sovereign LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Shmidman-Dicta-LM 3.0 Advancing The Frontier of Hebrew Sovereign LLMs.md"
+local_pdf: "[[PDFs/2025/2025-Shmidman-Dicta-LM 3.0 Advancing The Frontier of Hebrew Sovereign LLMs.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

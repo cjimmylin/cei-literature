@@ -13,8 +13,8 @@ authors: "[[Karimi-Malekabadi, Farzan]]; [[Abdurahman, Suhaib]]; [[Sourati, Zhiv
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.01878"
 external_pdf: "https://arxiv.org/pdf/2601.01878.pdf"
-local_pdf: "[[PDFs/2026/2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks.md"
+local_pdf: "[[PDFs/2026/2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

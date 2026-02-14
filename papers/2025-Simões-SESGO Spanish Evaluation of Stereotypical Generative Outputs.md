@@ -12,8 +12,8 @@ last_author: "[[Guilherme Simões]]"
 authors: "Guilherme Simões, et al."
 url: "https://arxiv.org/abs/2509.03329"
 external_pdf: "https://arxiv.org/pdf/2509.03329.pdf"
-local_pdf: "[[PDFs/2025/2025-Simões-SESGO Spanish Evaluation of Stereotypical Generative Outputs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Simões-SESGO Spanish Evaluation of Stereotypical Generative Outputs.md"
+local_pdf: "[[PDFs/2025/2025-Simões-SESGO Spanish Evaluation of Stereotypical Generative Outputs.pdf]]"
 publication: "arXiv / AAAI AIES"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: "[[Liu, Haijiang]], [[Gu, Jinguang]], [[Wu, Xun]], [[Hershcovich, Danie
 doi: 10.48550/arXiv.2511.17256
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2511.17256"
-local_pdf: "[[PDFs/2025/2025-Liu-Cross-cultural value alignment frameworks.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Liu-Cross-cultural value alignment frameworks.md"
+local_pdf: "[[PDFs/2025/2025-Liu-Cross-cultural value alignment frameworks.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2511.17256.pdf"
 publication: arXiv
 ethics_perspective: "Cross-Cultural Ethics"

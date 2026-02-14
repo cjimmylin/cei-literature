@@ -12,8 +12,8 @@ last_author: "[[Bernardo Magnini]]"
 authors: "Gloria Comandini, Manuela Speranza, Sofia Brenna, Davide Testa, Stefania Cavagnoli, Bernardo Magnini"
 url: "https://www.evalita.it/campaigns/evalita-2026/tasks/"
 publication: "EVALITA 2026"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

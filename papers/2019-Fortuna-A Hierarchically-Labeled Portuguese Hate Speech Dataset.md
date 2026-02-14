@@ -14,8 +14,8 @@ authors: "Paula Fortuna, João Rocha da Silva, Juan Soler-Company, Leo Wanner, S
 url: "https://aclanthology.org/W19-3510/"
 external_pdf: "https://www.aclweb.org/anthology/W19-3510.pdf"
 publication: "ACL Anthology (ALW3 Workshop 2019)"
-local_pdf: "[[PDFs/2019/2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2019/2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset.md"
+local_pdf: "[[PDFs/2019/2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

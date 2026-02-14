@@ -14,8 +14,8 @@ authors: Unknown
 url: "https://github.com/Social-AI-Studio/SGHateCheck"
 external_pdf: "https://aclanthology.org/2024.woah-1.24.pdf"
 publication: "ACL Anthology (WOAH 2024)"
-local_pdf: "[[PDFs/2024/2024-Unknown-SGHateCheck Functional Tests for Detecting Hate Speech in.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Unknown-SGHateCheck Functional Tests for Detecting Hate Speech in.md"
+local_pdf: "[[PDFs/2024/2024-Unknown-SGHateCheck Functional Tests for Detecting Hate Speech in.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

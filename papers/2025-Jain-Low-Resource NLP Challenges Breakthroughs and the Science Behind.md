@@ -12,8 +12,8 @@ last_author: "[[Sulbha Jain]]"
 authors: "Sulbha Jain"
 url: "https://aiclub.ku.edu.np/low-resource-nlp-challenges-breakthroughs-and-the-science-behind-language-ai/"
 publication: Web
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

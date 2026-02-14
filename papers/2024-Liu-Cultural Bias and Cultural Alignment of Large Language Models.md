@@ -13,8 +13,8 @@ authors: "Yongshuo Liu, Di Jin, Linyuan Gong, Nanyun Peng"
 doi: 10.1093/pnasnexus/pgae346
 url: "https://arxiv.org/abs/2311.14096"
 external_pdf: "https://arxiv.org/pdf/2311.14096.pdf"
-local_pdf: "[[PDFs/2024/2024-Liu-Cultural Bias and Cultural Alignment of Large Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Liu-Cultural Bias and Cultural Alignment of Large Language Models.md"
+local_pdf: "[[PDFs/2024/2024-Liu-Cultural Bias and Cultural Alignment of Large Language Models.pdf]]"
 publication: "arXiv / PNAS Nexus 2024"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.06477"
 external_pdf: "https://arxiv.org/pdf/2601.06477.pdf"
-local_pdf: "[[PDFs/2026/2026-results]]-IndRegBias A Dataset for Studying Indian.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-results]]-IndRegBias A Dataset for Studying Indian.md"
+local_pdf: "[[PDFs/2026/2026-results]]-IndRegBias A Dataset for Studying Indian.pdf]]"
 publication: "WebSearch: IndRegBias regional biases"
 DATE_ADDED: 20260213
 ethics_overall: No

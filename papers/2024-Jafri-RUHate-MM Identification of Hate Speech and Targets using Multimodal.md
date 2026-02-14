@@ -15,8 +15,8 @@ doi: 10.1145/3589335.3651973
 url: "https://dl.acm.org/doi/10.1145/3589335.3651973"
 external_pdf: "https://vtechworks.lib.vt.edu/bitstreams/c4bc5298-22c5-4ec6-9839-6954f5cbf350/download"
 publication: "ACM Web Conference 2024"
-local_pdf: "[[PDFs/2024/2024-Jafri-RUHate-MM Identification of Hate Speech and Targets using Multimodal.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Jafri-RUHate-MM Identification of Hate Speech and Targets using Multimodal.md"
+local_pdf: "[[PDFs/2024/2024-Jafri-RUHate-MM Identification of Hate Speech and Targets using Multimodal.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

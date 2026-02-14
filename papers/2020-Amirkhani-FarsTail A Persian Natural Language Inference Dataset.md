@@ -13,8 +13,8 @@ authors: "Amirkhani, AzariJafari et al."
 doi: 10.1007/s00500-023-08959-3
 url: "https://arxiv.org/abs/2009.08820"
 external_pdf: "https://arxiv.org/pdf/2009.08820.pdf"
-local_pdf: "[[PDFs/2020/2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset.md"
+local_pdf: "[[PDFs/2020/2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset.pdf]]"
 publication: "arXiv / Soft Computing (Springer)"
 DATE_ADDED: 20260213
 ethics_overall: No

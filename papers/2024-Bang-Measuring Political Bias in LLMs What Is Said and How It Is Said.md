@@ -12,8 +12,8 @@ last_author: "[[Pascale Fung Nayeon Lee]]"
 authors: "Yejin Bang, Delong Chen, Nayeon Lee, Pascale Fung"
 url: "https://arxiv.org/abs/2403.18932"
 external_pdf: "https://arxiv.org/pdf/2403.18932.pdf"
-local_pdf: "[[PDFs/2024/2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said.md"
+local_pdf: "[[PDFs/2024/2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said.pdf]]"
 publication: "ACL 2024"
 DATE_ADDED: 20260207
 ethics_overall: No

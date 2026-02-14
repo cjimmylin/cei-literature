@@ -13,8 +13,8 @@ authors: "Admirim Aliti et al."
 url: "https://www.researchgate.net/publication/384927770_Large_Language_Models_LLMs_Output_Quality_Comparison_Between_English_and_Albanian"
 external_pdf: "https://arxiv.org/pdf/2307.05782v2.pdf"
 publication: ResearchGate
-local_pdf: "[[PDFs/2024/2024-Aliti-Large Language Models LLMs Output Quality Comparison Between English.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Aliti-Large Language Models LLMs Output Quality Comparison Between English.md"
+local_pdf: "[[PDFs/2024/2024-Aliti-Large Language Models LLMs Output Quality Comparison Between English.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

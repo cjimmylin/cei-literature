@@ -13,8 +13,8 @@ authors: "Carlos Rodriguez-Penagos et al. (Barcelona Supercomputing Center)"
 url: "https://arxiv.org/abs/2112.01894"
 external_pdf: "https://arxiv.org/pdf/2112.01894.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2021/2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark.md"
+local_pdf: "[[PDFs/2021/2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

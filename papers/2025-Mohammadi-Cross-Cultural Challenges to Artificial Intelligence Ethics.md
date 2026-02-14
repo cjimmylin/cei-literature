@@ -12,8 +12,8 @@ last_author: [[Yasmeen]]
 authors: "Hadi Mohammadi, Yasmeen"
 url: "https://www.mdpi.com/2813-0324/8/1/21"
 publication: MDPI
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

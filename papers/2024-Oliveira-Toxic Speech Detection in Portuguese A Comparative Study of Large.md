@@ -14,8 +14,8 @@ authors: "Amanda da Silva Oliveira, Thiago de Carvalho Cecote, João Paulo Reis 
 url: "https://aclanthology.org/2024.propor-1.11/"
 external_pdf: "https://aclanthology.org/2024.propor-1.11.pdf"
 publication: "ACL Anthology (PROPOR 2024)"
-local_pdf: "[[PDFs/2024/2024-Oliveira-Toxic Speech Detection in Portuguese A Comparative Study of Large.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Oliveira-Toxic Speech Detection in Portuguese A Comparative Study of Large.md"
+local_pdf: "[[PDFs/2024/2024-Oliveira-Toxic Speech Detection in Portuguese A Comparative Study of Large.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -12,8 +12,8 @@ last_author: [[A]]
 authors: "Agarwal, D., Shukla, A., Sitaram, S., & Vashistha, A"
 url: "https://arxiv.org/abs/2505.21548"
 external_pdf: "https://arxiv.org/pdf/2505.21548.pdf"
-local_pdf: "[[PDFs/2025/2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md"
+local_pdf: "[[PDFs/2025/2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

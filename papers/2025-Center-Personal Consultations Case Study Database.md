@@ -33,6 +33,7 @@ LLM_assessed: NA
 DATA_URL: "https://www.ncbcenter.org/case-study-database"
 pdf_extract: 
 no_pdf_applicable: true
+local_pdf: N/A
 ---
 # Personal Consultations Case Study Database
 

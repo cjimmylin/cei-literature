@@ -12,8 +12,8 @@ last_author: "[[Wonseok Hwang]]"
 authors: "Heeju Yoon, Youngmin Kim, Woojun Kim, Jongwon Lee, Jinhwan Choi, Hai Jin Park, Wonseok Hwang"
 url: "https://arxiv.org/abs/2512.24572"
 external_pdf: "https://arxiv.org/pdf/2512.24572.pdf"
-local_pdf: "[[PDFs/2025/2025-Yoon-Korean Canonical Legal Benchmark Toward Knowledge-Independent.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yoon-Korean Canonical Legal Benchmark Toward Knowledge-Independent.md"
+local_pdf: "[[PDFs/2025/2025-Yoon-Korean Canonical Legal Benchmark Toward Knowledge-Independent.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

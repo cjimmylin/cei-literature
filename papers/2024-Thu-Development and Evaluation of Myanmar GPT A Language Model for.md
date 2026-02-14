@@ -13,8 +13,8 @@ last_author: "[[Pyae Sone Phyo]]"
 authors: "Min Si Thu, Pyae Sone Phyo"
 url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4871732"
 publication: SSRN
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

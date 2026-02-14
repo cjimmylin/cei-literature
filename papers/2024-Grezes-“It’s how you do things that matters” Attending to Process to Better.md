@@ -13,8 +13,8 @@ authors: "Felix Grezes"
 url: "https://arxiv.org/html/2402.02639v2"
 external_pdf: "https://arxiv.org/pdf/2402.02639.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024/2024-Grezes-“It’s how you do things that matters” Attending to Process to Better.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Grezes-“It’s how you do things that matters” Attending to Process to Better.md"
+local_pdf: "[[PDFs/2024/2024-Grezes-“It’s how you do things that matters” Attending to Process to Better.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

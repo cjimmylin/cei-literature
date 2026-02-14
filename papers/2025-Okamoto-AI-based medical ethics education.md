@@ -32,8 +32,8 @@ data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
-local_pdf: "[[PDFs/2025/2025-Okamoto-AI-based medical ethics education.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Okamoto-AI-based medical ethics education.md"
+local_pdf: "[[PDFs/2025/2025-Okamoto-AI-based medical ethics education.pdf]]"
 ---
 # AI-based medical ethics education: examining the potential of large language models as a tool for virtue cultivation
 

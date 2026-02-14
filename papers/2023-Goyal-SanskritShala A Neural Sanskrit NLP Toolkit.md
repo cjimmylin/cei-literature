@@ -13,8 +13,8 @@ authors: "[[Tushar Sandhan, Anshul Agarwal, Jivnesh Sandhan, Laxmidhar Behera, P
 authors_incomplete: false
 url: "https://arxiv.org/abs/2302.09527"
 external_pdf: "https://arxiv.org/pdf/2302.09527.pdf"
-local_pdf: "[[PDFs/2023/2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit.md"
+local_pdf: "[[PDFs/2023/2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit.pdf]]"
 publication: "ACL 2023 (System Demonstrations)"
 DATE_ADDED: 20260213
 ethics_overall: No

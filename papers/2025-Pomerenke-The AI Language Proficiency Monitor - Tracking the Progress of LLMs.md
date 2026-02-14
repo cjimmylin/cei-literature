@@ -13,8 +13,8 @@ authors: "David Pomerenke, Jonas Nothnagel, Simon Ostermann"
 url: "https://arxiv.org/abs/2507.08538"
 external_pdf: "https://arxiv.org/pdf/2507.08538.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Pomerenke-The AI Language Proficiency Monitor - Tracking the Progress of LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Pomerenke-The AI Language Proficiency Monitor - Tracking the Progress of LLMs.md"
+local_pdf: "[[PDFs/2025/2025-Pomerenke-The AI Language Proficiency Monitor - Tracking the Progress of LLMs.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

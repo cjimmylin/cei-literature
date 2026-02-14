@@ -13,8 +13,8 @@ authors: Various
 url: "https://arxiv.org/abs/2412.12956"
 external_pdf: "https://arxiv.org/pdf/2412.12956.pdf"
 publication: "arXiv / NoDaLiDa 2025"
-local_pdf: "[[PDFs/2024/2024-Various-SnakModel Lessons Learned from Training an Open Danish Large Language.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Various-SnakModel Lessons Learned from Training an Open Danish Large Language.md"
+local_pdf: "[[PDFs/2024/2024-Various-SnakModel Lessons Learned from Training an Open Danish Large Language.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

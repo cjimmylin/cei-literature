@@ -31,8 +31,8 @@ data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
-local_pdf: "[[PDFs/2025/2025-Pipitone-Unlocking practical wisdom.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Pipitone-Unlocking practical wisdom.md"
+local_pdf: "[[PDFs/2025/2025-Pipitone-Unlocking practical wisdom.pdf]]"
 ---
 # Unlocking practical wisdom through the inner voice of robots
 

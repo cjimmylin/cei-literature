@@ -13,8 +13,8 @@ authors: Various
 url: "https://arxiv.org/abs/2509.12340"
 external_pdf: "https://arxiv.org/pdf/2509.12340.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Various-MTEB-NL and E5-NL Embedding Benchmark and Models for Dutch.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Various-MTEB-NL and E5-NL Embedding Benchmark and Models for Dutch.md"
+local_pdf: "[[PDFs/2025/2025-Various-MTEB-NL and E5-NL Embedding Benchmark and Models for Dutch.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

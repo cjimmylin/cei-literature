@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Salsabila Zahirah Pranida; Rifo Ahmad Genadi; Fajri Koto"
 url: "https://arxiv.org/abs/2502.12932"
 external_pdf: "https://arxiv.org/pdf/2502.12932.pdf"
-local_pdf: "[[PDFs/2025/2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource.md"
+local_pdf: "[[PDFs/2025/2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource.pdf]]"
 publication: "arXiv / ACL Anthology (MRL 2025)"
 DATE_ADDED: 20260213
 ethics_overall: No

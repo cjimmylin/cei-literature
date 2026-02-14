@@ -13,8 +13,8 @@ authors: "Donghyun Baek, Sangwon Park, Donghyeon Jeon, Yohan Choi, Jonghwan Hyeo
 doi: 10.18653/v1/2025.acl-long.1066
 url: "https://arxiv.org/abs/2406.16469"
 external_pdf: "https://arxiv.org/pdf/2406.16469.pdf"
-local_pdf: "[[PDFs/2024/2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.md"
+local_pdf: "[[PDFs/2024/2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.pdf]]"
 publication: "arXiv / ACL 2025"
 DATE_ADDED: 20260213
 ethics_overall: No

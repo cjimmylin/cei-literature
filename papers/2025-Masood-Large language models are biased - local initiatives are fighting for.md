@@ -12,8 +12,8 @@ last_author: [[Ph]]
 authors: "Adnan Masood, Ph"
 url: "https://www.nature.com/articles/d41586-025-03891-y"
 publication: Nature
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

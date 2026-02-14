@@ -12,8 +12,8 @@ last_author: "[[Authors not fully available]]"
 authors: "Authors not fully available"
 url: "https://arxiv.org/abs/2506.02280"
 external_pdf: "https://arxiv.org/pdf/2506.02280.pdf"
-local_pdf: "[[PDFs/2025/2025-available-The State of Large Language Models for African Languages Progress and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-available-The State of Large Language Models for African Languages Progress and.md"
+local_pdf: "[[PDFs/2025/2025-available-The State of Large Language Models for African Languages Progress and.pdf]]"
 publication: "WebSearch: decolonial AI African languages benchmark evaluation"
 DATE_ADDED: 20260213
 ethics_overall: No

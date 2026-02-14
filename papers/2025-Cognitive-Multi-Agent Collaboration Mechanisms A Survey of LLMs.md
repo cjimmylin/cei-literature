@@ -13,8 +13,8 @@ authors: "Integrating Cognitive"
 url: "https://arxiv.org/html/2501.06322v1"
 external_pdf: "https://arxiv.org/pdf/2501.06322.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Cognitive-Multi-Agent Collaboration Mechanisms A Survey of LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Cognitive-Multi-Agent Collaboration Mechanisms A Survey of LLMs.md"
+local_pdf: "[[PDFs/2025/2025-Cognitive-Multi-Agent Collaboration Mechanisms A Survey of LLMs.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

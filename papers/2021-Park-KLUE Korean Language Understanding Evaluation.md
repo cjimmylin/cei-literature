@@ -12,8 +12,8 @@ last_author: "[[Kyunghyun Cho]]"
 authors: "Sungjoon Park, Jihyung Moon, Sungdong Kim, Won Ik Cho, Jiyoon Han, Jangwon Park, Chisung Song, Junseong Kim, Yongsook Song, Taehwan Oh, Joohong Lee, Juhyun Oh, Sungwon Lyu, Younghoon Jeong, Inkwon Lee, Sangwoo Seo, Dongjun Lee, Hyunwoo Kim, Myeonghwa Lee, Seongbo Jang, Seungwon Do, Sunkyoung Kim, Kyungtae Lim, Jongwon Lee, Kyumin Park, Jamin Shin, Seonghyun Kim, Lucy Park, Alice Oh, Jungwoo Ha, Kyunghyun Cho"
 url: "https://arxiv.org/abs/2105.09680"
 external_pdf: "https://arxiv.org/pdf/2105.09680.pdf"
-local_pdf: "[[PDFs/2021/2021-Park-KLUE Korean Language Understanding Evaluation.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Park-KLUE Korean Language Understanding Evaluation.md"
+local_pdf: "[[PDFs/2021/2021-Park-KLUE Korean Language Understanding Evaluation.pdf]]"
 publication: "arXiv / NeurIPS 2021 Datasets Track"
 DATE_ADDED: 20260213
 ethics_overall: No

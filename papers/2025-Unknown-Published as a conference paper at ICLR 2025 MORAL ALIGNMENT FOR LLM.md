@@ -13,8 +13,8 @@ authors: Unknown
 url: "https://www.mircomusolesi.org/papers/iclr25_moral_alignment_llm_agents.pdf"
 external_pdf: "https://core.ac.uk/download/656945121.pdf"
 publication: Web
+pdf_extract: "PDF Extracts/0000/2025-Unknown-Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM.md"
 local_pdf: "[[PDFs/2025-Unknown-Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM.pdf]]"
-pdf_extract: "PDF Extracts/2025/2025-Unknown-Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM.md"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ authors: "Haneul Yoo"
 url: "https://aclanthology.org/2025.findings-acl.407.pdf"
 external_pdf: "https://arxiv.org/pdf/2411.02460v2.pdf"
 publication: "ACL Anthology"
-local_pdf: "[[PDFs/2025/2025-Yoo-Code-Switching Curriculum Learning for Multilingual ....pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yoo-Code-Switching Curriculum Learning for Multilingual ....md"
+local_pdf: "[[PDFs/2025/2025-Yoo-Code-Switching Curriculum Learning for Multilingual ....pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

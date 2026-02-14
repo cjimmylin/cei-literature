@@ -13,8 +13,8 @@ authors: "[[Rastogi, Charvi]]; [[Teh, Tian Huey]]; [[Mishra, Pushkar]]; [[Patel,
 authors_incomplete: false
 url: "https://arxiv.org/abs/2507.13383"
 external_pdf: "https://arxiv.org/pdf/2507.13383.pdf"
-local_pdf: "[[PDFs/2025/2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models.md"
+local_pdf: "[[PDFs/2025/2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

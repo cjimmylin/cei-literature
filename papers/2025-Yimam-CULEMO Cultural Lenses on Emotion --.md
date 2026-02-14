@@ -13,8 +13,8 @@ authors: "[[Tadesse Destaw Belay, Ahmed Haj Ahmed, Alvin Grissom II, Iqra Ameer,
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.10688"
 external_pdf: "https://arxiv.org/pdf/2503.10688.pdf"
-local_pdf: "[[PDFs/2025/2025-Yimam-CULEMO Cultural Lenses on Emotion --.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yimam-CULEMO Cultural Lenses on Emotion --.md"
+local_pdf: "[[PDFs/2025/2025-Yimam-CULEMO Cultural Lenses on Emotion --.pdf]]"
 publication: "WebSearch: CuLEmo cultural lenses emotion benchmarking"
 DATE_ADDED: 20260213
 ethics_overall: No

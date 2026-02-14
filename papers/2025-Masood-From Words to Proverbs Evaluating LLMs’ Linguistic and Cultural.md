@@ -13,8 +13,8 @@ authors: "Adnan Masood, Ph"
 url: "https://arxiv.org/html/2507.10216"
 external_pdf: "https://arxiv.org/pdf/2507.10216.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Masood-From Words to Proverbs Evaluating LLMs’ Linguistic and Cultural.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Masood-From Words to Proverbs Evaluating LLMs’ Linguistic and Cultural.md"
+local_pdf: "[[PDFs/2025/2025-Masood-From Words to Proverbs Evaluating LLMs’ Linguistic and Cultural.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

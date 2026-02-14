@@ -13,8 +13,8 @@ authors: "Peng Xie; Xingyuan Liu; Tsz Wai Chan; Yequan Bie; Yangqiu Song; Yang W
 url: "https://arxiv.org/html/2506.00087v1"
 external_pdf: "https://arxiv.org/pdf/2506.00087.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic.md"
+local_pdf: "[[PDFs/2025/2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

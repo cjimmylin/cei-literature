@@ -13,8 +13,8 @@ authors: "[[MBZUAI-Oryx team]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.07032"
 external_pdf: "https://arxiv.org/pdf/2506.07032.pdf"
-local_pdf: "[[PDFs/2025/2025-team-ViMUL A Culturally-diverse Multilingual Multimodal Video.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-team-ViMUL A Culturally-diverse Multilingual Multimodal Video.md"
+local_pdf: "[[PDFs/2025/2025-team-ViMUL A Culturally-diverse Multilingual Multimodal Video.pdf]]"
 publication: "EMNLP 2025"
 DATE_ADDED: 20260213
 ethics_overall: No

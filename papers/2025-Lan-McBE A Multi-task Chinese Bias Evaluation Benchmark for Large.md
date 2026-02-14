@@ -13,8 +13,8 @@ authors: "Tian Lan; Xiangdong Su; Xu Liu; Ruirui Wang; Ke Chang; Jiang Li; Guang
 url: "https://arxiv.org/html/2507.02088"
 external_pdf: "https://arxiv.org/pdf/2507.02088.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.md"
+local_pdf: "[[PDFs/2025/2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

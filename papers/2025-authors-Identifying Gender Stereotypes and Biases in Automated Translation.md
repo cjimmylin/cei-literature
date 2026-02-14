@@ -13,8 +13,8 @@ authors: "Multiple authors"
 url: "https://arxiv.org/abs/2502.11611"
 external_pdf: "https://arxiv.org/pdf/2502.11611.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-authors-Identifying Gender Stereotypes and Biases in Automated Translation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-authors-Identifying Gender Stereotypes and Biases in Automated Translation.md"
+local_pdf: "[[PDFs/2025/2025-authors-Identifying Gender Stereotypes and Biases in Automated Translation.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

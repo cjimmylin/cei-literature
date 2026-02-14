@@ -12,6 +12,7 @@ last_author: "[[Dunn, Michael]]"
 authors: "[[Muyskens, Kathryn]]; [[Ma, Yonghui]]; [[Dunn, Michael]]"
 doi: 10.1177/09697330241238332
 url: "https://journals.sagepub.com/doi/10.1177/09697330241238332"
+pdf_extract: 
 local_pdf: N/A
 national_ethnic_cultural: Chinese
 religious_values: Confucianism

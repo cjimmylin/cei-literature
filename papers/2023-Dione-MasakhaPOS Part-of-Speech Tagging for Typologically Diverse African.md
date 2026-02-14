@@ -12,8 +12,8 @@ last_author: "[[Blessing Sibanda]]"
 authors: "Cheikh M. Bamba Dione, David Adelani, Peter Nabende, Jesujoba Alabi, Thapelo Sindane, Happy Buzaaba, Shamsuddeen Hassan Muhammad, Chris Chinenye Emezue, Perez Ogayo, Anuoluwapo Aremu, Catherine Gitau, Derguene Mbaye, Jonathan Mukiibi, Blessing Sibanda, et al."
 url: "https://arxiv.org/abs/2305.13989"
 external_pdf: "https://arxiv.org/pdf/2305.13989.pdf"
-local_pdf: "[[PDFs/2023/2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African.md"
+local_pdf: "[[PDFs/2023/2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African.pdf]]"
 publication: "WebSearch: MasakhaPOS African languages part-of-speech benchmark"
 DATE_ADDED: 20260213
 ethics_overall: No

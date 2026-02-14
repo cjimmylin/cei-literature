@@ -12,8 +12,8 @@ last_author: [[Kajiwara]]
 authors: Kajiwara
 url: "https://www.mdpi.com/2079-3197/13/8/196"
 publication: MDPI
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

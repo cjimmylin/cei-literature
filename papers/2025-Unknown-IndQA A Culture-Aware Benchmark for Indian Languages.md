@@ -13,8 +13,8 @@ last_author: [[Unknown]]
 authors: Unknown
 url: "https://openai.com/index/introducing-indqa/"
 publication: OpenAI
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

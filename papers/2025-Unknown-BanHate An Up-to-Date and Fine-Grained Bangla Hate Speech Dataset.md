@@ -14,8 +14,8 @@ authors: Unknown
 url: "https://aclanthology.org/2025.banglalp-1.19/"
 external_pdf: "https://aclanthology.org/2025.banglalp-1.19.pdf"
 publication: "ACL Anthology (BLP 2025)"
-local_pdf: "[[PDFs/2025/2025-Unknown-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

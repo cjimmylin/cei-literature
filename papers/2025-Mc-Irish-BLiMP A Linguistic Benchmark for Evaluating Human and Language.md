@@ -13,8 +13,8 @@ authors: "Josh Mc"
 url: "https://arxiv.org/html/2510.20957"
 external_pdf: "https://arxiv.org/pdf/2510.20957.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Mc-Irish-BLiMP A Linguistic Benchmark for Evaluating Human and Language.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mc-Irish-BLiMP A Linguistic Benchmark for Evaluating Human and Language.md"
+local_pdf: "[[PDFs/2025/2025-Mc-Irish-BLiMP A Linguistic Benchmark for Evaluating Human and Language.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

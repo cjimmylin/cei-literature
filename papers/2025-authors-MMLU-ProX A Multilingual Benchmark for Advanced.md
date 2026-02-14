@@ -13,8 +13,8 @@ authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.10497"
 external_pdf: "https://arxiv.org/pdf/2503.10497.pdf"
-local_pdf: "[[PDFs/2025/2025-authors-MMLU-ProX A Multilingual Benchmark for Advanced.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-authors-MMLU-ProX A Multilingual Benchmark for Advanced.md"
+local_pdf: "[[PDFs/2025/2025-authors-MMLU-ProX A Multilingual Benchmark for Advanced.pdf]]"
 publication: "arxiv.org / EMNLP 2025"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: "Yang Zhang, Mersin Konomi, Christos Xypolopoulos, Konstantinos Divriot
 url: "https://arxiv.org/abs/2602.05150"
 external_pdf: "https://arxiv.org/pdf/2602.05150.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2026/2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating.md"
+local_pdf: "[[PDFs/2026/2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

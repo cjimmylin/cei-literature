@@ -12,8 +12,8 @@ last_author: "[[German Rigau]]"
 authors: "Adrian de Wynter, Ishaan Watts, Tua Wongsangaroonsri, Minghui Zhang, Noura Farra, Lena Baber, Samantha Claudet, Judit Dominguez, Aishwarya Gupta, Anna Kaminskaya, Maram Kurdi, Jongho Lee, Mahsa Moghimi, Aadil Mufti, Karthik Narasimhan, German Rigau"
 url: "https://arxiv.org/abs/2404.14397"
 external_pdf: "https://arxiv.org/pdf/2404.14397.pdf"
-local_pdf: "[[PDFs/2024/2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios.md"
+local_pdf: "[[PDFs/2024/2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

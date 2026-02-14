@@ -13,8 +13,8 @@ authors: "[[Not fully identified in search results (preprint available at Prepri
 authors_incomplete: false
 url: 
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s43681-025-00970-8.pdf"
-local_pdf: "[[PDFs/2025/2025-Preprintsorg-Incorporating Indigenous Knowledge Systems into AI.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Preprintsorg-Incorporating Indigenous Knowledge Systems into AI.md"
+local_pdf: "[[PDFs/2025/2025-Preprintsorg-Incorporating Indigenous Knowledge Systems into AI.pdf]]"
 publication: "AI and Ethics (Springer)"
 DATE_ADDED: 20260213
 ethics_overall: No

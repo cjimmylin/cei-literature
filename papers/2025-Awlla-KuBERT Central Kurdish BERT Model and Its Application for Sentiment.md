@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Kozhin muhealddin Awlla; Hadi Veisi; Abdulhady Abas Abdullah"
 url: "https://arxiv.org/abs/2509.16804"
 external_pdf: "https://arxiv.org/pdf/2509.16804.pdf"
-local_pdf: "[[PDFs/2025/2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment.md"
+local_pdf: "[[PDFs/2025/2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

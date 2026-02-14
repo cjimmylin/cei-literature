@@ -14,8 +14,8 @@ authors: "Soran Badawi; Arefeh Kazemi; Vali Rezaie"
 doi: 10.1007/s10579-023-09716-6
 url: "https://link.springer.com/article/10.1007/s10579-023-09716-6"
 publication: "Language Resources and Evaluation (Springer)"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

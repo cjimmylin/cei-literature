@@ -12,8 +12,8 @@ last_author: "[[Veronika Grigoreva]]"
 authors: "Veronika Grigoreva et al."
 url: "https://arxiv.org/abs/2403.17553"
 external_pdf: "https://arxiv.org/pdf/2403.17553.pdf"
-local_pdf: "[[PDFs/2024/2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset.md"
+local_pdf: "[[PDFs/2024/2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

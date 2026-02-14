@@ -13,8 +13,8 @@ authors: "[[AI4Bharat team]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2403.06350"
 external_pdf: "https://arxiv.org/pdf/2403.06350.pdf"
-local_pdf: "[[PDFs/2024/2024-team-IndicLLMSuite A Blueprint for Creating Pre-training.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-team-IndicLLMSuite A Blueprint for Creating Pre-training.md"
+local_pdf: "[[PDFs/2024/2024-team-IndicLLMSuite A Blueprint for Creating Pre-training.pdf]]"
 publication: HuggingFace
 DATE_ADDED: 20260213
 ethics_overall: No

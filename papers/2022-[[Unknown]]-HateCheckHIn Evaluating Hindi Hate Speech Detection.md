@@ -13,8 +13,8 @@ authors: [[Unknown]]
 authors_incomplete: true
 url: "https://arxiv.org/abs/2205.00328"
 external_pdf: "https://arxiv.org/pdf/2205.00328.pdf"
-local_pdf: "[[PDFs/2022/2022-[[Unknown]]-HateCheckHIn Evaluating Hindi Hate Speech Detection.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-[[Unknown]]-HateCheckHIn Evaluating Hindi Hate Speech Detection.md"
+local_pdf: "[[PDFs/2022/2022-[[Unknown]]-HateCheckHIn Evaluating Hindi Hate Speech Detection.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

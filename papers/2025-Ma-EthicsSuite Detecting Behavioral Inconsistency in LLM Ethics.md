@@ -22,8 +22,8 @@ national_ethnic_cultural: N/A
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: N/A
-local_pdf: "[[PDFs/2025/2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.md"
+local_pdf: "[[PDFs/2025/2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.pdf]]"
 newtags: "Ethics-Testing, Reflective-Equilibrium, Behavioral-Inconsistency, LLM-Evaluation"
 is_benchmark: Yes
 is_eval: Yes

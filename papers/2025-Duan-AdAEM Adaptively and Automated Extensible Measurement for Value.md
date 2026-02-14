@@ -13,8 +13,8 @@ authors: "[[Duan, Shitong]]; [[Yi, Xiaoyuan]]; [[Zhang, Peng]]; [[Xu, Dongkuan]]
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.13531"
 external_pdf: "https://arxiv.org/pdf/2505.13531.pdf"
-local_pdf: "[[PDFs/2025/2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value.md"
+local_pdf: "[[PDFs/2025/2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

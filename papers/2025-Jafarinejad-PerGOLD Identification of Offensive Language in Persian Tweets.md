@@ -14,8 +14,8 @@ authors: "Jafarinejad, Rahimi, Khodabakhsh, Karimi"
 url: "https://cke.um.ac.ir/article_46412.html"
 external_pdf: "https://cke.um.ac.ir/article_46412_dc00307da37c32ca327cb54c47db3a32.pdf"
 publication: "Computer and Knowledge Engineering (CKE)"
-local_pdf: "[[PDFs/2025/2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.md"
+local_pdf: "[[PDFs/2025/2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ authors: "[[Zhihan Zhou, Daqian Shi, Rui Song, Lida Shi, Xiaolei Diao, Hao Xu]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.17756"
 external_pdf: "https://arxiv.org/pdf/2512.17756.pdf"
-local_pdf: "[[PDFs/2025/2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated.md"
+local_pdf: "[[PDFs/2025/2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated.pdf]]"
 publication: "EMNLP 2025"
 DATE_ADDED: 20260213
 ethics_overall: No

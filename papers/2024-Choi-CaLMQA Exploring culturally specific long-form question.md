@@ -13,8 +13,8 @@ authors: "[[Shane Arora, Marzena Karpinska, Hung-Ting Chen, Ipsita Bhattacharjee
 authors_incomplete: false
 url: "https://arxiv.org/abs/2406.17761"
 external_pdf: "https://arxiv.org/pdf/2406.17761.pdf"
-local_pdf: "[[PDFs/2024/2024-Choi-CaLMQA Exploring culturally specific long-form question.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Choi-CaLMQA Exploring culturally specific long-form question.md"
+local_pdf: "[[PDFs/2024/2024-Choi-CaLMQA Exploring culturally specific long-form question.pdf]]"
 publication: "WebSearch: CaLMQA culturally specific long-form question answering"
 DATE_ADDED: 20260213
 ethics_overall: No

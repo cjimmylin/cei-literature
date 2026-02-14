@@ -13,8 +13,8 @@ authors: "[[Guo, Dou et al]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.01186"
 external_pdf: "https://arxiv.org/pdf/2412.01186.pdf"
-local_pdf: "[[PDFs/2024/2024-Dou-SailCompass Towards Reproducible and Robust Evaluation.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Dou-SailCompass Towards Reproducible and Robust Evaluation.md"
+local_pdf: "[[PDFs/2024/2024-Dou-SailCompass Towards Reproducible and Robust Evaluation.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

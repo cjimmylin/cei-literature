@@ -13,8 +13,8 @@ authors: "Megasis Network"
 url: "https://arxiv.org/html/2407.12620v1"
 external_pdf: "https://arxiv.org/pdf/2407.12620.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024/2024-Network-Harnessing the Power of Artificial Intelligence to Vitalize.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Network-Harnessing the Power of Artificial Intelligence to Vitalize.md"
+local_pdf: "[[PDFs/2024/2024-Network-Harnessing the Power of Artificial Intelligence to Vitalize.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

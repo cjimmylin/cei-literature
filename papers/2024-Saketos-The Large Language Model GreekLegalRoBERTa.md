@@ -13,8 +13,8 @@ authors: "Vasileios Saketos et al."
 url: "https://arxiv.org/abs/2410.12852"
 external_pdf: "https://arxiv.org/pdf/2410.12852.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024/2024-Saketos-The Large Language Model GreekLegalRoBERTa.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Saketos-The Large Language Model GreekLegalRoBERTa.md"
+local_pdf: "[[PDFs/2024/2024-Saketos-The Large Language Model GreekLegalRoBERTa.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

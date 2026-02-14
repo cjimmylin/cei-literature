@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Samuel Cahyawijaya; Genta Indra Winata; Bryan Wilie; Karissa Vincentio; Xiaohong Li; Adhiguna Kuncoro; Sebastian Ruder; Zhi Yuan Lim; Syafri Bahar; Masayu Leylia Khodra; Ayu Purwarianti; Pascale Fung"
 url: "https://arxiv.org/abs/2104.08200"
 external_pdf: "https://arxiv.org/pdf/2104.08200.pdf"
-local_pdf: "[[PDFs/2021/2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.md"
+local_pdf: "[[PDFs/2021/2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.pdf]]"
 publication: "arXiv / ACL Anthology (EMNLP 2021)"
 DATE_ADDED: 20260213
 ethics_overall: No

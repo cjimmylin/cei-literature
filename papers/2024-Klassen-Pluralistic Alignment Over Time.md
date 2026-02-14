@@ -12,8 +12,8 @@ last_author: "[[Sheila A. McIlraith]]"
 authors: "Toryn Q. Klassen; Parand A. Alamdari; Sheila A. McIlraith"
 url: "https://arxiv.org/abs/2411.10654"
 external_pdf: "https://arxiv.org/pdf/2411.10654.pdf"
-local_pdf: "[[PDFs/2024/2024-Klassen-Pluralistic Alignment Over Time.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Klassen-Pluralistic Alignment Over Time.md"
+local_pdf: "[[PDFs/2024/2024-Klassen-Pluralistic Alignment Over Time.pdf]]"
 publication: "NeurIPS 2024"
 DATE_ADDED: 20260207
 ethics_overall: No

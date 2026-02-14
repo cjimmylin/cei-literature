@@ -13,8 +13,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.01486"
 external_pdf: "https://arxiv.org/pdf/2508.01486.pdf"
-local_pdf: "[[PDFs/2025/2025-results]]-TeSent A Benchmark Dataset for Fairness-aware.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-results]]-TeSent A Benchmark Dataset for Fairness-aware.md"
+local_pdf: "[[PDFs/2025/2025-results]]-TeSent A Benchmark Dataset for Fairness-aware.pdf]]"
 publication: "WebSearch: Telugu NLP bias fairness"
 DATE_ADDED: 20260213
 ethics_overall: No

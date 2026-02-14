@@ -13,8 +13,8 @@ authors: "Yeeun Kim, Young Rok Choi, Eunkyung Choi, Jinhwan Choi, Hai Jin Park, 
 doi: 10.18653/v1/2024.findings-emnlp.319
 url: "https://arxiv.org/abs/2410.08731"
 external_pdf: "https://arxiv.org/pdf/2410.08731.pdf"
-local_pdf: "[[PDFs/2024/2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language.md"
+local_pdf: "[[PDFs/2024/2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language.pdf]]"
 publication: "arXiv / EMNLP 2024 Findings"
 DATE_ADDED: 20260213
 ethics_overall: No

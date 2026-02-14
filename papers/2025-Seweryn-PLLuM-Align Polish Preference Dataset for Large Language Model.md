@@ -14,8 +14,8 @@ authors: "Karolina Seweryn, Anna Kolos, Agnieszka Karlinska, Katarzyna Lorenc, e
 url: "https://aclanthology.org/2025.emnlp-main.1219/"
 external_pdf: "https://aclanthology.org/2025.emnlp-main.1219.pdf"
 publication: "ACL Anthology / EMNLP 2025"
-local_pdf: "[[PDFs/2025/2025-Seweryn-PLLuM-Align Polish Preference Dataset for Large Language Model.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Seweryn-PLLuM-Align Polish Preference Dataset for Large Language Model.md"
+local_pdf: "[[PDFs/2025/2025-Seweryn-PLLuM-Align Polish Preference Dataset for Large Language Model.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

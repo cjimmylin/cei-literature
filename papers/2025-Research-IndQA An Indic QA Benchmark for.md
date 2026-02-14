@@ -13,8 +13,8 @@ authors: "[[AI4Bharat / IBM Research]]"
 authors_incomplete: false
 url: "https://www.ibm.com/think/news/indqa-llm-benchmark"
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "IBM Research"
 DATE_ADDED: 20260213
 ethics_overall: No

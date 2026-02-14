@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: Unknown
 url: "https://www.researchgate.net/publication/379815378_Decolonizing_African_NLP_A_Survey_on_Power_Dynamics_and_Data_Colonialism_in_Tech_Development"
 publication: ResearchGate
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

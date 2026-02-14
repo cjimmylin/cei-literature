@@ -13,8 +13,8 @@ authors: "Kenneth Enevoldsen, Marton Kardos, Niklas Muennighoff, Kristoffer Laig
 url: "https://arxiv.org/abs/2406.02396"
 external_pdf: "https://arxiv.org/pdf/2406.02396.pdf"
 publication: "arXiv / NeurIPS 2024"
-local_pdf: "[[PDFs/2024/2024-Enevoldsen-The Scandinavian Embedding Benchmarks Comprehensive Assessment of.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Enevoldsen-The Scandinavian Embedding Benchmarks Comprehensive Assessment of.md"
+local_pdf: "[[PDFs/2024/2024-Enevoldsen-The Scandinavian Embedding Benchmarks Comprehensive Assessment of.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

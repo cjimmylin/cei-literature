@@ -12,8 +12,8 @@ last_author: "[[Michiel A. Bakker]]"
 authors: "Elinor Poole-Dayan; Jiayi Wu; Taylor Sorensen; Jiaxin Pei; Michiel A. Bakker"
 url: "https://arxiv.org/abs/2512.01351"
 external_pdf: "https://arxiv.org/pdf/2512.01351.pdf"
-local_pdf: "[[PDFs/2025/2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs.md"
+local_pdf: "[[PDFs/2025/2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

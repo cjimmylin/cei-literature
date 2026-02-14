@@ -12,8 +12,8 @@ last_author: "[[Authors not fully retrieved]]"
 authors: "Authors not fully retrieved"
 url: "https://arxiv.org/abs/2506.10245"
 external_pdf: "https://arxiv.org/pdf/2506.10245.pdf"
-local_pdf: "[[PDFs/2025/2025-retrieved-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-retrieved-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.md"
+local_pdf: "[[PDFs/2025/2025-retrieved-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

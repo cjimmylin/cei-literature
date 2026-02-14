@@ -14,8 +14,8 @@ authors: "Chaya Liebeskind, Marina Litvak, Natalia Vanetik"
 url: "https://aclanthology.org/2024.woah-1.8.pdf"
 external_pdf: "https://aclanthology.org/2024.woah-1.8.pdf"
 publication: "ACL Anthology (WOAH 2024)"
-local_pdf: "[[PDFs/2024/2024-Liebeskind-From Linguistics to Practice a Case Study of Offensive Language.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Liebeskind-From Linguistics to Practice a Case Study of Offensive Language.md"
+local_pdf: "[[PDFs/2024/2024-Liebeskind-From Linguistics to Practice a Case Study of Offensive Language.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

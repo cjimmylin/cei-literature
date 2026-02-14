@@ -13,8 +13,8 @@ authors: "Jiho Jin, Jiseon Kim, Nayeon Lee, Alice Oh"
 doi: 10.18653/v1/2025.findings-acl.585
 url: "https://arxiv.org/abs/2503.06987"
 external_pdf: "https://arxiv.org/pdf/2503.06987.pdf"
-local_pdf: "[[PDFs/2025/2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and.md"
+local_pdf: "[[PDFs/2025/2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and.pdf]]"
 publication: "arXiv / ACL 2025 Findings"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.13522"
 external_pdf: "https://arxiv.org/pdf/2407.13522.pdf"
-local_pdf: "[[PDFs/2024/2024-results]]-Indic-QA Benchmark A Multilingual Benchmark to.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-results]]-Indic-QA Benchmark A Multilingual Benchmark to.md"
+local_pdf: "[[PDFs/2024/2024-results]]-Indic-QA Benchmark A Multilingual Benchmark to.pdf]]"
 publication: "WebSearch: multilingual benchmark Indic"
 DATE_ADDED: 20260213
 ethics_overall: No

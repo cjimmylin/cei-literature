@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Lester James V. Miranda; Elyanah Aco; Conner Manuel; Jan Christian Blaise Cruz; Joseph Marvin Imperial"
 url: "https://aclanthology.org/2025.emnlp-main.127/"
 external_pdf: "https://arxiv.org/pdf/2508.03523.pdf"
-local_pdf: "[[PDFs/2025/2025-Miranda-FilBench Can LLMs Understand and Generate Filipino.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Miranda-FilBench Can LLMs Understand and Generate Filipino.md"
+local_pdf: "[[PDFs/2025/2025-Miranda-FilBench Can LLMs Understand and Generate Filipino.pdf]]"
 publication: "ACL Anthology (EMNLP 2025)"
 DATE_ADDED: 20260213
 ethics_overall: No

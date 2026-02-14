@@ -10,6 +10,7 @@ last_author: "[[Stephen C. Angle]]"
 authors: "[[Angle, Stephen C.]]"
 doi: 10.1007/978-981-16-2309-7_4
 url: "https://link.springer.com/chapter/10.1007/978-981-16-2309-7_4"
+pdf_extract: "PDF Extracts/2021/2021-Angle-Can AI Lead to Genuine Virtue Confucian.md"
 local_pdf: "[[PDFs/2021/2021-Angle-Can AI Lead to Genuine Virtue Confucian.pdf]]"
 national_ethnic_cultural: Chinese/Confucian
 religious_values: Confucianism
@@ -20,7 +21,6 @@ key_contribution: "Examines from Confucian perspective whether AI can lead human
 significance: "One of the first rigorous Confucian philosophical analyses of AI and virtue, published in multi-author volume bridging Chinese philosophy and AI"
 external_pdf: N/A
 abstract: "Philosophers, technologists, and pundits are beginning to recognize the deep ethical questions raised by artificial intelligence. So far, attention has concentrated in three areas: (1) how we are being damaged or controlled by profit-driven algorithms ('the attention economy'), and what to do about it; (2) how to ensure that autonomous, intelligent machines (like driverless vehicles) make 'good' decisions, and how to define what these decisions are; and (3) how to think about (and perhaps resist) the possibility of artificial superintelligence surpassing and perhaps controlling us. To the extent that theorists have looked at the good that AI can bring, they have tended focus on possibilities for material abundance and leisure. In addition, virtually all of this theorizing to-date has been limited to Western ethical frameworks. Especially given the huge investments in AI presently being made in China, it seems prudent to expand our collective philosophical frameworks to encompass a more global set of ethical perspectives."
-pdf_extract: "PDF Extracts/2021/2021-Angle-Can AI Lead to Genuine Virtue Confucian.md"
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No

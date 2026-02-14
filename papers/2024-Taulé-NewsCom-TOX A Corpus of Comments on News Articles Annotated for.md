@@ -15,8 +15,8 @@ doi: 10.1007/s10579-023-09711-x
 url: "https://link.springer.com/article/10.1007/s10579-023-09711-x"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10579-023-09711-x.pdf"
 publication: "Springer / Language Resources and Evaluation"
-local_pdf: "[[PDFs/2024/2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for.md"
+local_pdf: "[[PDFs/2024/2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ authors: "Jan Batzner, Volker Stocker, Stefan Schmid, Gjergji Kasneci"
 doi: 10.1609/aies.v8i1.36552
 url: "https://arxiv.org/abs/2407.18008"
 external_pdf: "https://arxiv.org/pdf/2407.18008.pdf"
-local_pdf: "[[PDFs/2025/2025-Batzner-GermanPartiesQA Benchmarking LLMs for Political Alignment and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Batzner-GermanPartiesQA Benchmarking LLMs for Political Alignment and.md"
+local_pdf: "[[PDFs/2025/2025-Batzner-GermanPartiesQA Benchmarking LLMs for Political Alignment and.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

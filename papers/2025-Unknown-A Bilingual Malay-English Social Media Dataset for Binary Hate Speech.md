@@ -14,8 +14,8 @@ authors: Unknown
 url: "https://www.sciencedirect.com/science/article/pii/S2352340925008741"
 external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12557484/pdf/main.pdf"
 publication: "ScienceDirect (Data in Brief)"
-local_pdf: "[[PDFs/2025/2025-Unknown-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

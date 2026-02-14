@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Adimulya Kartiyasa; Bao Gia Cao; Boyang Li"
 url: "https://arxiv.org/abs/2601.12921"
 external_pdf: "https://arxiv.org/pdf/2601.12921.pdf"
-local_pdf: "[[PDFs/2026/2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve.md"
+local_pdf: "[[PDFs/2026/2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

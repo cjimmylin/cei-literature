@@ -13,8 +13,8 @@ authors: "[[David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, Teresa Lynn, In
 authors_incomplete: false
 url: "https://arxiv.org/abs/2406.05967"
 external_pdf: "https://arxiv.org/pdf/2406.05967.pdf"
-local_pdf: "[[PDFs/2024/2024-authors-CVQA Culturally-diverse Multilingual Visual Question Answering.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-authors-CVQA Culturally-diverse Multilingual Visual Question Answering.md"
+local_pdf: "[[PDFs/2024/2024-authors-CVQA Culturally-diverse Multilingual Visual Question Answering.pdf]]"
 publication: "WebSearch: CVQA culturally diverse multilingual visual question answering"
 DATE_ADDED: 20260213
 ethics_overall: No

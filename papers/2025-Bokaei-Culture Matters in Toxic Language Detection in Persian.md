@@ -12,8 +12,8 @@ last_author: "[[Bonnie Webber]]"
 authors: "Zahra Bokaei, Walid Magdy, Bonnie Webber"
 url: "https://aclanthology.org/2025.acl-long.456/"
 external_pdf: "https://arxiv.org/pdf/2506.03458.pdf"
-local_pdf: "[[PDFs/2025/2025-Bokaei-Culture Matters in Toxic Language Detection in Persian.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Bokaei-Culture Matters in Toxic Language Detection in Persian.md"
+local_pdf: "[[PDFs/2025/2025-Bokaei-Culture Matters in Toxic Language Detection in Persian.pdf]]"
 publication: "ACL 2025"
 DATE_ADDED: 20260213
 ethics_overall: No

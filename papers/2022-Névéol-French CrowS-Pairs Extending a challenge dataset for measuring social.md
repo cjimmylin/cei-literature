@@ -13,8 +13,8 @@ authors: "Aurélie Névéol, Yoann Dupont, Julien Bezançon, Karën Fort"
 url: "https://aclanthology.org/2022.acl-long.583/"
 external_pdf: "https://aclanthology.org/2022.acl-long.583.pdf"
 publication: "ACL Anthology"
-local_pdf: "[[PDFs/2022/2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social.md"
+local_pdf: "[[PDFs/2022/2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ authors: "Xiuyuan Chen; Jian Zhao; Yuxiang He; Yuan Xun; Xinwei Liu; Yanshu Li; 
 url: "https://www.arxiv.org/pdf/2512.05485"
 external_pdf: "https://arxiv.org/pdf/2512.05485.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards.md"
+local_pdf: "[[PDFs/2025/2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

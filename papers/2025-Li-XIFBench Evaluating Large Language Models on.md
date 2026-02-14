@@ -13,8 +13,8 @@ authors: "Zhenyu Li; Kehai Chen; Yunfei Long; Xuefeng Bai; Yaoyin Zhang; Xuchen 
 url: "https://openreview.net/pdf/da14c5ecc0ecf18bfb2f9ccbd84f45422a3077fb.pdf"
 external_pdf: "https://arxiv.org/pdf/2503.07539v2.pdf"
 publication: OpenReview
-local_pdf: "[[PDFs/2025/2025-Li-XIFBench Evaluating Large Language Models on.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Li-XIFBench Evaluating Large Language Models on.md"
+local_pdf: "[[PDFs/2025/2025-Li-XIFBench Evaluating Large Language Models on.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

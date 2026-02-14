@@ -13,8 +13,8 @@ authors: "Unknown (CIS NLP group)"
 url: "https://arxiv.org/abs/2410.05873"
 external_pdf: "https://arxiv.org/pdf/2410.05873.pdf"
 publication: "arXiv / ACL Anthology"
-local_pdf: "[[PDFs/2025/2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via.md"
+local_pdf: "[[PDFs/2025/2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ authors: Islamic
 url: "https://openreview.net/pdf?id=q9kPg2ndg2"
 external_pdf: "https://arxiv.org/pdf/2407.15390.pdf"
 publication: OpenReview
+pdf_extract: "PDF Extracts/0000/2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English.md"
 local_pdf: "[[PDFs/2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English.pdf]]"
-pdf_extract: "PDF Extracts/2025/2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English.md"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -12,8 +12,8 @@ last_author: "[[S. K. R Kasu]]"
 authors: "Kasu, S. K. R"
 url: "https://arxiv.org/abs/2509.11648"
 external_pdf: "https://arxiv.org/pdf/2509.11648.pdf"
+pdf_extract: "PDF Extracts/0000/2025-Kasu-EthicsMH.md"
 local_pdf: "[[PDFs/2025-Kasu-EthicsMH.pdf]]"
-pdf_extract: "PDF Extracts/2025/2025-Kasu-EthicsMH.md"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

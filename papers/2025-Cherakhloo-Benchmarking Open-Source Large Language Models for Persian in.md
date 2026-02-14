@@ -12,8 +12,8 @@ last_author: "[[Mahdi Cherakhloo]]"
 authors: "Mahdi Cherakhloo et al."
 url: "https://arxiv.org/abs/2510.12807"
 external_pdf: "https://arxiv.org/pdf/2510.12807.pdf"
-local_pdf: "[[PDFs/2025/2025-Cherakhloo-Benchmarking Open-Source Large Language Models for Persian in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Cherakhloo-Benchmarking Open-Source Large Language Models for Persian in.md"
+local_pdf: "[[PDFs/2025/2025-Cherakhloo-Benchmarking Open-Source Large Language Models for Persian in.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

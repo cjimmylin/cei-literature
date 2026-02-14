@@ -14,8 +14,8 @@ authors: "Sabelo Mhlambi"
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9023883/"
 external_pdf: "https://repository.up.ac.za/bitstream/handle/2263/57703/Saloojee_Social_2011.pdf?sequence=1"
 publication: "WebSearch: Ubuntu ethics AI African values benchmark"
-local_pdf: "[[PDFs/2022/2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.md"
+local_pdf: "[[PDFs/2022/2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

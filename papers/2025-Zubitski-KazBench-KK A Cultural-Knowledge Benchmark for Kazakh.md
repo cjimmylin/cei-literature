@@ -13,8 +13,8 @@ authors: "[[Sanzhar Umbet, Sanzhar Murzakhmetov, Beksultan Sagyndyk, Kirill Yaku
 authors_incomplete: false
 url: "https://aclanthology.org/2025.fieldmatters-1.4/"
 external_pdf: "https://aclanthology.org/2025.fieldmatters-1.4.pdf"
-local_pdf: "[[PDFs/2025/2025-Zubitski-KazBench-KK A Cultural-Knowledge Benchmark for Kazakh.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zubitski-KazBench-KK A Cultural-Knowledge Benchmark for Kazakh.md"
+local_pdf: "[[PDFs/2025/2025-Zubitski-KazBench-KK A Cultural-Knowledge Benchmark for Kazakh.pdf]]"
 publication: "ACL 2025 FieldMatters Workshop"
 DATE_ADDED: 20260213
 ethics_overall: No

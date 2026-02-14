@@ -14,8 +14,8 @@ authors: "Flor Miriam Plaza-del-Arco, et al."
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6388"
 external_pdf: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6388/3808"
 publication: "IberLEF / SEPLN"
-local_pdf: "[[PDFs/2021/2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.md"
+local_pdf: "[[PDFs/2021/2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

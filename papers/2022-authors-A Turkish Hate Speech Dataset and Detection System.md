@@ -14,8 +14,8 @@ authors: "Multiple authors"
 url: "https://aclanthology.org/2022.lrec-1.443/"
 external_pdf: "https://aclanthology.org/2022.lrec-1.443.pdf"
 publication: "LREC 2022"
-local_pdf: "[[PDFs/2022/2022-authors-A Turkish Hate Speech Dataset and Detection System.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-authors-A Turkish Hate Speech Dataset and Detection System.md"
+local_pdf: "[[PDFs/2022/2022-authors-A Turkish Hate Speech Dataset and Detection System.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

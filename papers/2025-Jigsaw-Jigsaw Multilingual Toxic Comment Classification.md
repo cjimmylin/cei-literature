@@ -12,8 +12,8 @@ last_author: [[Jigsaw]]
 authors: Jigsaw
 url: "https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification"
 publication: Web
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

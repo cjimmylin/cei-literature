@@ -13,8 +13,8 @@ authors: "Ramezani, A. & Xu, Y."
 doi: 10.1111/tops.12774
 url: "https://doi.org/10.1111/tops.12774"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11637772&blobtype=pdf"
-local_pdf: "[[PDFs/2024/2024-Ramezani-Moral Association Graph Cognitive Model for Interpretable Moral.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Ramezani-Moral Association Graph Cognitive Model for Interpretable Moral.md"
+local_pdf: "[[PDFs/2024/2024-Ramezani-Moral Association Graph Cognitive Model for Interpretable Moral.pdf]]"
 publication: "Topics in Cognitive Science"
 DATE_ADDED: 20260207
 ethics_overall: No

@@ -14,8 +14,8 @@ authors: "Valerio Basile, Cristina Bosco, Elisabetta Fersini, Debora Nozza, et a
 url: "https://aclanthology.org/S19-2007/"
 external_pdf: "https://aclanthology.org/S19-2077.pdf"
 publication: "ACL Anthology / SemEval 2019"
-local_pdf: "[[PDFs/2019/2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against.pdf]]"
 pdf_extract: "PDF Extracts/2019/2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against.md"
+local_pdf: "[[PDFs/2019/2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

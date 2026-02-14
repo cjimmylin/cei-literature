@@ -14,8 +14,8 @@ authors: "Ari M. Saeed; Aso N. Ismael; Danya L. Rasul; Rayan S. Majeed; Tarik Ah
 doi: 10.1007/978-3-031-14054-9_24
 url: "https://link.springer.com/chapter/10.1007/978-3-031-14054-9_24"
 publication: "Springer (ICCCI 2022)"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

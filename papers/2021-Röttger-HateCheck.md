@@ -21,8 +21,8 @@ newtags: Utilitarianism
 key_contribution: "Introduces HateCheck, a suite of functional tests for hate speech detection models, moving beyond simple F1/accuracy metrics"
 significance: "Enables targeted diagnosis of model weaknesses (e.g., reclaiming slurs, counter-speech), a precursor to nuanced consequentialist evaluation of harm"
 tags: 
-local_pdf: [[PDFs/2021/2021-Röttger-HateCheck.pdf]]
 pdf_extract: "PDF Extracts/2021/2021-Röttger-HateCheck.md"
+local_pdf: [[PDFs/2021/2021-Röttger-HateCheck.pdf]]
 abstract: "Detecting online hate is a difﬁcult task that even state-of-the-art models struggle with. Typically, hate speech detection models are evaluated by measuring their performance on held-out test data using metrics such as accu- racy and F1 score. However, this approach makes it difﬁcult to identify speciﬁc model weak points. It also risks overestimating generalisable model performance due to in- creasingly well-evidenced systematic gaps and biases in hate speech datasets. To enable more targeted di"
 ethics_overall: No
 virtue_ethics: No

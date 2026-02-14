@@ -12,8 +12,8 @@ last_author: "[[Hung Bui]]"
 authors: "Dat Quoc Nguyen, Linh The Nguyen, Chi Tran, Dung Ngoc Nguyen, Dinh Phung, Hung Bui"
 url: "https://arxiv.org/abs/2311.02945"
 external_pdf: "https://arxiv.org/pdf/2311.02945.pdf"
-local_pdf: "[[PDFs/2023/2023-Nguyen-PhoGPT Generative Pre-training for Vietnamese.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Nguyen-PhoGPT Generative Pre-training for Vietnamese.md"
+local_pdf: "[[PDFs/2023/2023-Nguyen-PhoGPT Generative Pre-training for Vietnamese.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

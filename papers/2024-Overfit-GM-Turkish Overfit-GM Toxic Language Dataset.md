@@ -13,8 +13,8 @@ authors: [[Overfit-GM]]
 authors_incomplete: false
 url: "https://huggingface.co/datasets/Overfit-GM/turkish-toxic-language"
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: HuggingFace
 DATE_ADDED: 20260213
 ethics_overall: No

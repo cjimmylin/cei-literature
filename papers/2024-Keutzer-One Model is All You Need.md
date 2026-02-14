@@ -13,8 +13,8 @@ authors: "[[Sebastian Nehrdich, Oliver Hellwig, Kurt Keutzer]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2409.13920"
 external_pdf: "https://arxiv.org/pdf/2409.13920.pdf"
-local_pdf: "[[PDFs/2024/2024-Keutzer-One Model is All You Need.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Keutzer-One Model is All You Need.md"
+local_pdf: "[[PDFs/2024/2024-Keutzer-One Model is All You Need.pdf]]"
 publication: "Findings of EMNLP 2024"
 DATE_ADDED: 20260213
 ethics_overall: No

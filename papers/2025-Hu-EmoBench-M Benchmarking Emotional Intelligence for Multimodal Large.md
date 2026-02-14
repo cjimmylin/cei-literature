@@ -12,8 +12,8 @@ last_author: "[[Laizhong Cui]]"
 authors: "He Hu; Yucheng Zhou; Lianzhong You; Hongbo Xu; Qianning Wang; Zheng Lian; Fei Richard Yu; Fei Ma; Laizhong Cui"
 url: "https://arxiv.org/abs/2502.04424"
 external_pdf: "https://arxiv.org/pdf/2502.04424.pdf"
-local_pdf: "[[PDFs/2025/2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large.md"
+local_pdf: "[[PDFs/2025/2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
 ethics_overall: No

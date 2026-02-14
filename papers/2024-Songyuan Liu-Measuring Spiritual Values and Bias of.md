@@ -13,8 +13,8 @@ authors: "[[Songyuan Liu,]]; [[5 others]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.11647"
 external_pdf: "https://arxiv.org/pdf/2410.11647.pdf"
-local_pdf: "[[PDFs/2024/2024-Songyuan Liu-Measuring Spiritual Values and Bias of.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Songyuan Liu-Measuring Spiritual Values and Bias of.md"
+local_pdf: "[[PDFs/2024/2024-Songyuan Liu-Measuring Spiritual Values and Bias of.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

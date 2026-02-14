@@ -13,8 +13,8 @@ authors: "[[Cagri Toraman, Ahmet Kaan Sever, Ayse Aysu Cengiz, Elif Ecem Arslan,
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.07020"
 external_pdf: "https://arxiv.org/pdf/2601.07020.pdf"
-local_pdf: "[[PDFs/2026/2026-Darici-TurkBench A Benchmark for Evaluating Turkish.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Darici-TurkBench A Benchmark for Evaluating Turkish.md"
+local_pdf: "[[PDFs/2026/2026-Darici-TurkBench A Benchmark for Evaluating Turkish.pdf]]"
 publication: arxiv.org
 DATE_ADDED: 20260213
 ethics_overall: No

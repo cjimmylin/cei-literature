@@ -13,8 +13,8 @@ authors: "Vlad-Cristian Matei, Iulian-Marius Tăiatu, Răzvan-Alexandru Smădu, 
 url: "https://arxiv.org/abs/2409.20498"
 external_pdf: "https://arxiv.org/pdf/2409.20498.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024/2024-Matei-Enhancing Romanian Offensive Language Detection through Knowledge.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Matei-Enhancing Romanian Offensive Language Detection through Knowledge.md"
+local_pdf: "[[PDFs/2024/2024-Matei-Enhancing Romanian Offensive Language Detection through Knowledge.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

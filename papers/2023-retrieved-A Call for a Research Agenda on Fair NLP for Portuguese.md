@@ -14,8 +14,8 @@ authors: "Authors not fully retrieved"
 url: "https://sol.sbc.org.br/index.php/stil/article/view/25450"
 external_pdf: "https://sol.sbc.org.br/index.php/stil/article/download/25450/25271"
 publication: "STIL 2023"
-local_pdf: "[[PDFs/2023/2023-retrieved-A Call for a Research Agenda on Fair NLP for Portuguese.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-retrieved-A Call for a Research Agenda on Fair NLP for Portuguese.md"
+local_pdf: "[[PDFs/2023/2023-retrieved-A Call for a Research Agenda on Fair NLP for Portuguese.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

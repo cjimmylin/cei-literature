@@ -13,8 +13,8 @@ authors: "[[Arda Yuksel, Abdullatif Koksal, Lutfi Kerem Senel, Anna Korhonen, Hi
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.12402"
 external_pdf: "https://arxiv.org/pdf/2407.12402.pdf"
-local_pdf: "[[PDFs/2024/2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding.md"
+local_pdf: "[[PDFs/2024/2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding.pdf]]"
 publication: arxiv.org
 DATE_ADDED: 20260213
 ethics_overall: No

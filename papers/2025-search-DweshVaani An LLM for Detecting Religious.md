@@ -13,8 +13,8 @@ authors: "[[Multiple (not fully specified in search]]; [[published at CHiPSAL 20
 authors_incomplete: false
 url: 
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "CHiPSAL 2025 Workshop (co-located with COLING 2025, Abu Dhabi)"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -12,8 +12,8 @@ last_author: [[Derner]]
 authors: "Derner, et al."
 url: "https://arxiv.org/abs/2406.13677"
 external_pdf: "https://arxiv.org/pdf/2406.13677.pdf"
-local_pdf: "[[PDFs/2025/2025-Derner-Leveraging Large Language Models to Measure Gender Representation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Derner-Leveraging Large Language Models to Measure Gender Representation.md"
+local_pdf: "[[PDFs/2025/2025-Derner-Leveraging Large Language Models to Measure Gender Representation.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -13,6 +13,7 @@ authors: "[[Atf, Zahra]], [[Lewis, Peter R.]]"
 doi: 10.48550/arXiv.2510.03892
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2510.03892"
+pdf_extract: "PDF Extracts/2025/2025-Atf-Kantian-Utilitarian XAI.md"
 local_pdf: "[[PDFs/2025/2025-Atf-Kantian-Utilitarian XAI.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2510.03892.pdf"
 publication: arXiv
@@ -36,7 +37,6 @@ data_description: "Coffee domain ethical decision-making scenarios"
 data_metrics: "Deontic compliance rate, welfare scores, regret bounds"
 LLM_assessed: NA
 DATA_URL: NA
-pdf_extract: "PDF Extracts/2025/2025-Atf-Kantian-Utilitarian XAI.md"
 ---
 # Kantian-Utilitarian XAI: Meta-Explained
 

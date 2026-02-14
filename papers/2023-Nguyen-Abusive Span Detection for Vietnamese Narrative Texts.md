@@ -13,8 +13,8 @@ authors: "Nguyen, Pham, Nguyen, Nguyen"
 doi: 10.1145/3628797.3628921
 url: "https://arxiv.org/abs/2312.07831"
 external_pdf: "https://arxiv.org/pdf/2312.07831.pdf"
-local_pdf: "[[PDFs/2023/2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts.md"
+local_pdf: "[[PDFs/2023/2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts.pdf]]"
 publication: "arXiv / ACM SOICT 2023"
 DATE_ADDED: 20260213
 ethics_overall: No

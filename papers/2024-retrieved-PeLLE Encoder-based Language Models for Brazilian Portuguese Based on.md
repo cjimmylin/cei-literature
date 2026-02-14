@@ -12,8 +12,8 @@ last_author: "[[Authors not fully retrieved]]"
 authors: "Authors not fully retrieved"
 url: "https://arxiv.org/abs/2402.19204"
 external_pdf: "https://arxiv.org/pdf/2402.19204.pdf"
-local_pdf: "[[PDFs/2024/2024-retrieved-PeLLE Encoder-based Language Models for Brazilian Portuguese Based on.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-retrieved-PeLLE Encoder-based Language Models for Brazilian Portuguese Based on.md"
+local_pdf: "[[PDFs/2024/2024-retrieved-PeLLE Encoder-based Language Models for Brazilian Portuguese Based on.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

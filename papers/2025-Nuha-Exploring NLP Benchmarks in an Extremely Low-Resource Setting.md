@@ -13,8 +13,8 @@ authors: "Ulin Nuha; Adam Jatowt"
 url: "https://arxiv.org/html/2509.03962v1"
 external_pdf: "https://arxiv.org/pdf/2509.03962.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting.md"
+local_pdf: "[[PDFs/2025/2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

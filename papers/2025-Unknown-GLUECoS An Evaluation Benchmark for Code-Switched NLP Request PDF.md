@@ -13,8 +13,8 @@ authors: Unknown
 url: "https://www.researchgate.net/publication/343300735_GLUECoS_An_Evaluation_Benchmark_for_Code-Switched_NLP"
 external_pdf: "https://www.aclweb.org/anthology/2020.acl-main.329.pdf"
 publication: ResearchGate
-local_pdf: "[[PDFs/2025/2025-Unknown-GLUECoS An Evaluation Benchmark for Code-Switched NLP Request PDF.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-GLUECoS An Evaluation Benchmark for Code-Switched NLP Request PDF.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-GLUECoS An Evaluation Benchmark for Code-Switched NLP Request PDF.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

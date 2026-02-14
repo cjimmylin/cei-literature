@@ -13,8 +13,8 @@ authors: "Ekaterina Taktasheva, Alena Fenogenova, Tatiana Shavrina, et al."
 doi: 10.18653/v1/2022.findings-emnlp.183
 url: "https://arxiv.org/abs/2210.12813"
 external_pdf: "https://arxiv.org/pdf/2210.12813.pdf"
-local_pdf: "[[PDFs/2022/2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding.md"
+local_pdf: "[[PDFs/2022/2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding.pdf]]"
 publication: "arXiv / ACL Anthology (EMNLP Findings 2022)"
 DATE_ADDED: 20260213
 ethics_overall: No

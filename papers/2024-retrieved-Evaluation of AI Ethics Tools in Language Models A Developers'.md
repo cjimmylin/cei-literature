@@ -12,8 +12,8 @@ last_author: "[[Authors not fully retrieved]]"
 authors: "Authors not fully retrieved"
 url: "https://arxiv.org/abs/2512.15791"
 external_pdf: "https://arxiv.org/pdf/2512.15791.pdf"
-local_pdf: "[[PDFs/2024/2024-retrieved-Evaluation of AI Ethics Tools in Language Models A Developers'.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-retrieved-Evaluation of AI Ethics Tools in Language Models A Developers'.md"
+local_pdf: "[[PDFs/2024/2024-retrieved-Evaluation of AI Ethics Tools in Language Models A Developers'.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

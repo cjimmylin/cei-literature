@@ -13,8 +13,8 @@ authors: "[[A. G. Elrod]]"
 authors_incomplete: false
 url: 
 external_pdf: "https://tidsskrift.dk/hiphilnovum/article/download/143407/187035"
-local_pdf: "[[PDFs/2024/2024-Elrod-Uncovering Theological and Ethical Biases in.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Elrod-Uncovering Theological and Ethical Biases in.md"
+local_pdf: "[[PDFs/2024/2024-Elrod-Uncovering Theological and Ethical Biases in.pdf]]"
 publication: "HIPHIL Novum, 9(1), 2--45"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -12,8 +12,8 @@ last_author: [[Y]]
 authors: "Sukiennik, N., Gao, C., Xu, F., & Li, Y"
 url: "https://arxiv.org/abs/2504.08863"
 external_pdf: "https://arxiv.org/pdf/2504.08863.pdf"
-local_pdf: "[[PDFs/2025/2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM.md"
+local_pdf: "[[PDFs/2025/2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

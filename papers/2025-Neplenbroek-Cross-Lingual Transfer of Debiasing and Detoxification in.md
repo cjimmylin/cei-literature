@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Vera Neplenbroek; Arianna Bisazza; Raquel Fernández"
 url: "https://arxiv.org/abs/2412.14050"
 external_pdf: "https://arxiv.org/pdf/2412.14050.pdf"
-local_pdf: "[[PDFs/2025/2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in.md"
+local_pdf: "[[PDFs/2025/2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in.pdf]]"
 publication: "arXiv / ACL Anthology (ACL 2025 Findings)"
 DATE_ADDED: 20260213
 ethics_overall: No

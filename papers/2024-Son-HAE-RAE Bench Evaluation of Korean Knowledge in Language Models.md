@@ -13,8 +13,8 @@ authors: "Guijin Son, Hanwool Lee, Suwan Kim, Huiseo Kim, Jaecheol Lee, Je Won Y
 doi: 10.18653/v1/2024.lrec-main.704
 url: "https://arxiv.org/abs/2309.02706"
 external_pdf: "https://arxiv.org/pdf/2309.02706.pdf"
-local_pdf: "[[PDFs/2024/2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models.md"
+local_pdf: "[[PDFs/2024/2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models.pdf]]"
 publication: "arXiv / LREC-COLING 2024"
 DATE_ADDED: 20260213
 ethics_overall: No

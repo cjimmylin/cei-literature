@@ -13,8 +13,8 @@ authors: "Liwei Jiang; Jena D. Hwang; Chandra Bhagavatula; Ronan Le Bras; Jenny 
 doi: 10.1038/s42256-024-00969-6
 url: "https://doi.org/10.1038/s42256-024-00969-6"
 external_pdf: "https://www.nature.com/articles/s42256-024-00969-6.pdf"
-local_pdf: "[[PDFs/2025/2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment.md"
+local_pdf: "[[PDFs/2025/2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment.pdf]]"
 publication: "Nature Machine Intelligence"
 DATE_ADDED: 20260207
 ethics_overall: No

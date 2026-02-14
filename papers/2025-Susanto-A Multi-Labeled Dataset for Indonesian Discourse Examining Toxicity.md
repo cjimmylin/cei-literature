@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Lucky Susanto; Musa Wijanarko; Prasetia Pratama; Zilu Tang; Fariz Akyas; Traci Hong; Ika Idris; Alham Aji; Derry Wijaya"
 url: "https://arxiv.org/abs/2503.00417"
 external_pdf: "https://arxiv.org/pdf/2503.00417.pdf"
-local_pdf: "[[PDFs/2025/2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.md"
+local_pdf: "[[PDFs/2025/2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.pdf]]"
 publication: "arXiv / ACL Anthology"
 DATE_ADDED: 20260213
 ethics_overall: No

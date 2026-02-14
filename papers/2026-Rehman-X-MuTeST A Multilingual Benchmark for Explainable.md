@@ -13,8 +13,8 @@ authors: "[[Rehman, Zia]]; [[and others]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.03194"
 external_pdf: "https://arxiv.org/pdf/2601.03194.pdf"
-local_pdf: "[[PDFs/2026/2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.md"
+local_pdf: "[[PDFs/2026/2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.pdf]]"
 publication: "WebSearch: X-MuTeST Telugu hate speech"
 DATE_ADDED: 20260213
 ethics_overall: No

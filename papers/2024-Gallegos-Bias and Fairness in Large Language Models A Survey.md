@@ -13,8 +13,8 @@ authors: "Isabel O. Gallegos, et al."
 url: "https://aclanthology.org/2024.cl-3.8/"
 external_pdf: "https://arxiv.org/pdf/2309.00770.pdf"
 publication: "arXiv / ACL Anthology"
-local_pdf: "[[PDFs/2024/2024-Gallegos-Bias and Fairness in Large Language Models A Survey.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Gallegos-Bias and Fairness in Large Language Models A Survey.md"
+local_pdf: "[[PDFs/2024/2024-Gallegos-Bias and Fairness in Large Language Models A Survey.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

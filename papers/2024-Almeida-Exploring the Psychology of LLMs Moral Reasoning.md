@@ -13,6 +13,7 @@ authors: "[[Almeida, Guilherme F. C. F.]]; [[Nunes, José Luiz]]; [[Pontes, Neel
 doi: 10.1016/j.artint.2024.104081
 url: "https://www.sciencedirect.com/science/article/abs/pii/S000437022400081X"
 external_pdf: "https://arxiv.org/pdf/2308.01264.pdf"
+pdf_extract: "PDF Extracts/2024/2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning.md"
 local_pdf: "[[PDFs/2024/2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning.pdf]]"
 publication: "Artificial Intelligence"
 national_ethnic_cultural: N/A
@@ -36,7 +37,6 @@ data_description: N/A
 data_metrics: "Human-LLM alignment correlation"
 LLM_assessed: "GPT-4, Claude, Llama-2, Gemini"
 DATA_URL: "https://osf.io/zunm4/?view_only=217abaddc7f6498483fda045157f5dd6"
-pdf_extract: "PDF Extracts/2024/2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning.md"
 ---
 # Exploring the Psychology of LLMs' Moral and Legal Reasoning
 

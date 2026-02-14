@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: Unknown
 url: "https://www.researchgate.net/publication/383673931_Enhancing_Multilingual_Hate_Speech_Detection_From_Language-Specific_Insights_to_Cross-Linguistic_Integration"
 publication: ResearchGate
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -14,8 +14,8 @@ doi: 10.1007/s44443-025-00055-w
 url: "https://link.springer.com/article/10.1007/s44443-025-00055-w"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s44443-025-00055-w.pdf"
 publication: Springer
-local_pdf: "[[PDFs/2025/2025-Wang-Large and Small models for collaborative cross-lingual data.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Wang-Large and Small models for collaborative cross-lingual data.md"
+local_pdf: "[[PDFs/2025/2025-Wang-Large and Small models for collaborative cross-lingual data.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

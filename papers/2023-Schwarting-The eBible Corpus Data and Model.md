@@ -13,8 +13,8 @@ authors: "[[Vesa Akerman, David Baines, Damien Daspit, Ulf Hermjakob, Taeho Jang
 authors_incomplete: false
 url: "https://arxiv.org/abs/2304.09919"
 external_pdf: "https://arxiv.org/pdf/2304.09919.pdf"
-local_pdf: "[[PDFs/2023/2023-Schwarting-The eBible Corpus Data and Model.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Schwarting-The eBible Corpus Data and Model.md"
+local_pdf: "[[PDFs/2023/2023-Schwarting-The eBible Corpus Data and Model.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260213
 ethics_overall: No

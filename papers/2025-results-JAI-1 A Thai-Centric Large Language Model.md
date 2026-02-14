@@ -12,8 +12,8 @@ last_author: "[[Not fully listed in search results]]"
 authors: "Not fully listed in search results"
 url: "https://arxiv.org/abs/2510.08620"
 external_pdf: "https://arxiv.org/pdf/2510.08620.pdf"
-local_pdf: "[[PDFs/2025/2025-results-JAI-1 A Thai-Centric Large Language Model.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-results-JAI-1 A Thai-Centric Large Language Model.md"
+local_pdf: "[[PDFs/2025/2025-results-JAI-1 A Thai-Centric Large Language Model.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

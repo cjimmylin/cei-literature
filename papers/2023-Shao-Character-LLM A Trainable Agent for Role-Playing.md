@@ -11,6 +11,7 @@ first_author: "[[Yunfan Shao]]"
 last_author: "[[Qiu, Xipeng]]"
 authors: "[[Shao, Yunfan]]; [[Li, Linyang]]; [[Dai, Junqi]]; [[Qiu, Xipeng]]"
 url: "https://aclanthology.org/2023.emnlp-main.814/"
+pdf_extract: "PDF Extracts/2023/2023-Shao-Character-LLM A Trainable Agent for Role-Playing.md"
 local_pdf: "[[PDFs/2023/2023-Shao-Character-LLM A Trainable Agent for Role-Playing.pdf]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/J3VV4C8K/2023 - Character-LLM A Trainable Agent for Role-Playing.pdf"
 national_ethnic_cultural: American
@@ -20,7 +21,6 @@ moral_psychology: N/A
 newtags: "American, Virtue Ethics"
 key_contribution: "Introduces 'Character-LLM', a trainable agent framework that edits profiles as experiences to simulate specific human characters (simulacra)"
 significance: "Enables the detailed simulation of specific personal avatars with consistent profiles and emotional states, relevant for character-based AI interactions"
-pdf_extract: "PDF Extracts/2023/2023-Shao-Character-LLM A Trainable Agent for Role-Playing.md"
 tags: 
 abstract: "Large language models (LLMs) can be used to serve as agents to simulate human behav- iors, given the powerful ability to understand human instructions and provide high-quality generated texts. Such ability stimulates us to wonder whether LLMs can simulate a person in a higher form than simple human behaviors. Therefore, we aim to train an agent with the profile, experience, and emotional states of a specific person instead of using limited prompts to instruct ChatGPT API. In this work, we in- tr"
 paper_summary: "Abstract: Large language models (LLMs) can be used to serve as agents to simulate human behav- iors, given the powerful ability to understand human instructions and provide high-quality generated texts. Such ab | Overview: Character-LLM: A Trainable Agent for Role-Playing Yunfan Shao1,2∗, Linyang Li1, Junqi Dai1, Xipeng Qiu1† 1School of Computer Science, Fudan University 1Shanghai Key Laboratory of Intelligent Informati | Methodology: Our methodology diverges from the existing prac- tice of mimicking the style and tones of curated utterances via Supervised Fine-Tuning (SFT) or provi"

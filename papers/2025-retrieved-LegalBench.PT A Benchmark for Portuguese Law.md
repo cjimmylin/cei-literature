@@ -12,8 +12,8 @@ last_author: "[[Authors not fully retrieved]]"
 authors: "Authors not fully retrieved"
 url: "https://arxiv.org/abs/2502.16357"
 external_pdf: "https://arxiv.org/pdf/2502.16357.pdf"
-local_pdf: "[[PDFs/2025/2025-retrieved-LegalBench.PT A Benchmark for Portuguese Law.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-retrieved-LegalBench.PT A Benchmark for Portuguese Law.md"
+local_pdf: "[[PDFs/2025/2025-retrieved-LegalBench.PT A Benchmark for Portuguese Law.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -12,8 +12,8 @@ last_author: "[[Andrzej Pralat]]"
 authors: "Anna Kolos, Inez Okulska, Kinga Glabinska, Agnieszka Karlinska, Emilia Wisnios, Pawel Ellerik, Andrzej Pralat"
 url: "https://arxiv.org/abs/2308.10592"
 external_pdf: "https://arxiv.org/pdf/2308.10592.pdf"
-local_pdf: "[[PDFs/2023/2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content.md"
+local_pdf: "[[PDFs/2023/2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content.pdf]]"
 publication: "arXiv / LREC 2024"
 DATE_ADDED: 20260213
 ethics_overall: No

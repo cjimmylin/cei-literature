@@ -13,8 +13,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0885230822000250"
 external_pdf: "https://arxiv.org/pdf/2210.03479v1.pdf"
-local_pdf: "[[PDFs/2022/2022-results]]-Hate Speech and Offensive Language Detection.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-results]]-Hate Speech and Offensive Language Detection.md"
+local_pdf: "[[PDFs/2022/2022-results]]-Hate Speech and Offensive Language Detection.pdf]]"
 publication: "WebSearch: hate speech detection Dravidian languages"
 DATE_ADDED: 20260213
 ethics_overall: No

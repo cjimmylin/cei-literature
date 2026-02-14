@@ -13,8 +13,8 @@ authors: "[[Gagan Bhatia, Hamdy Mubarak, Mustafa Jarrar, George Mikros, Fadi Zar
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.07528"
 external_pdf: "https://arxiv.org/pdf/2601.07528.pdf"
-local_pdf: "[[PDFs/2026/2026-Alam-From RAG to Agentic RAG for.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Alam-From RAG to Agentic RAG for.md"
+local_pdf: "[[PDFs/2026/2026-Alam-From RAG to Agentic RAG for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

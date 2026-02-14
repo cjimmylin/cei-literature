@@ -13,8 +13,8 @@ authors: "Julien Launay, et al. (LightOn)"
 url: "https://aclanthology.org/2022.lrec-1.455/"
 external_pdf: "https://arxiv.org/pdf/2110.08554.pdf"
 publication: "arXiv / ACL Anthology"
-local_pdf: "[[PDFs/2022/2022-Launay-PAGnol An Extra-Large French Generative Model.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Launay-PAGnol An Extra-Large French Generative Model.md"
+local_pdf: "[[PDFs/2022/2022-Launay-PAGnol An Extra-Large French Generative Model.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

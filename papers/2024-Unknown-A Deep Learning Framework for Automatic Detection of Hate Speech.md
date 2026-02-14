@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: Unknown
 url: "https://www.researchgate.net/publication/349093400_A_Deep_Learning_Framework_for_Automatic_Detection_of_Hate_Speech_Embedded_in_Arabic_Tweets"
 publication: ResearchGate
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

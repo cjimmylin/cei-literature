@@ -21,8 +21,8 @@ newtags: "American, Bias & Fairness"
 key_contribution: "Investigated subjectivity in skin tone annotations for computer vision benchmarks, finding significant disagreement among annotators and a lack of uncertainty reporting."
 significance: "Challenges the use of skin tone as an 'objective' metric for fairness, demonstrating that it is a socially constructed perception that varies by annotator, complicating its use as a ground truth."
 tags: 
-local_pdf: "[[PDFs/2023/2023-Barrett-Skin Deep.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Barrett-Skin Deep.md"
+local_pdf: "[[PDFs/2023/2023-Barrett-Skin Deep.pdf]]"
 abstract: "To investigate the well-observed racial disparities in computer vi- sion systems that analyze images of humans, researchers have turned to skin tone as more objective annotation than race meta- data for fairness performance evaluations. However, the current state of skin tone annotation procedures is highly varied. For in- stance, researchers use a range of untested scales and skin tone categories, have unclear annotation procedures, and provide in- adequate analyses of uncertainty. In addition,"
 ethics_overall: No
 virtue_ethics: No

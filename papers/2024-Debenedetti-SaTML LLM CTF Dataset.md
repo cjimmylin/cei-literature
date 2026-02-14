@@ -13,8 +13,8 @@ authors: "[[Debenedetti, Edoardo]]; [[Rando, Javier]]; [[Paleka, Daniel]]; [[Flo
 authors_incomplete: false
 url: "https://arxiv.org/abs/2406.07954"
 external_pdf: "https://arxiv.org/pdf/2406.07954.pdf"
-local_pdf: "[[PDFs/2024/2024-Debenedetti-SaTML LLM CTF Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Debenedetti-SaTML LLM CTF Dataset.md"
+local_pdf: "[[PDFs/2024/2024-Debenedetti-SaTML LLM CTF Dataset.pdf]]"
 publication: "NeurIPS 2024"
 DATE_ADDED: 20260207
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: "Kurt Micallef, Albert Gatt et al."
 url: "https://aclanthology.org/2022.deeplo-1.10/"
 external_pdf: "https://arxiv.org/pdf/2205.10517.pdf"
 publication: "ACL Anthology / DeepLo 2022"
-local_pdf: "[[PDFs/2022/2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language.md"
+local_pdf: "[[PDFs/2022/2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

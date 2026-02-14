@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Omer Hofman; Jonathan Brokman; Oren Rachmil; Shamik Bose; Vikas Pahuja; Toshiya Shimizu; Trisha Starostina; Kelly Marchisio; Seraphina Goldfarb-Tarrant; Roman Vainshtein"
 url: "https://arxiv.org/abs/2505.15935"
 external_pdf: "https://arxiv.org/pdf/2505.15935.pdf"
-local_pdf: "[[PDFs/2025/2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and.md"
+local_pdf: "[[PDFs/2025/2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

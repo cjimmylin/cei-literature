@@ -13,8 +13,8 @@ authors: "Ranwa Aly, Yara Allam, Rana Gaber"
 url: "https://aclanthology.org/2023.findings-acl.21.pdf"
 external_pdf: "https://arxiv.org/pdf/2307.01503v1.pdf"
 publication: "ACL Anthology"
-local_pdf: "[[PDFs/2025/2025-Aly-On Evaluating and Mitigating Gender Biases in Multilingual ....pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Aly-On Evaluating and Mitigating Gender Biases in Multilingual ....md"
+local_pdf: "[[PDFs/2025/2025-Aly-On Evaluating and Mitigating Gender Biases in Multilingual ....pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

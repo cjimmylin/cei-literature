@@ -12,8 +12,8 @@ last_author: "[[Jaeyoung Do]]"
 authors: "Woojin Kim; Sieun Hyeon; Jusang Oh; Jaeyoung Do"
 url: "https://arxiv.org/abs/2602.03160"
 external_pdf: "https://arxiv.org/pdf/2602.03160.pdf"
-local_pdf: "[[PDFs/2026/2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md"
+local_pdf: "[[PDFs/2026/2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
 ethics_overall: No

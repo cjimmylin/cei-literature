@@ -12,8 +12,8 @@ last_author: "[[Authors from Universidade de Santiago de Compostela]]"
 authors: "Authors from Universidade de Santiago de Compostela"
 url: "https://arxiv.org/abs/2406.13893"
 external_pdf: "https://arxiv.org/pdf/2406.13893.pdf"
-local_pdf: "[[PDFs/2024/2024-Compostela-Open Generative Large Language Models for Galician.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Compostela-Open Generative Large Language Models for Galician.md"
+local_pdf: "[[PDFs/2024/2024-Compostela-Open Generative Large Language Models for Galician.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

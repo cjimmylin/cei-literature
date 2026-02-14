@@ -12,8 +12,8 @@ last_author: "[[CYFRA GOV PL)]]"
 authors: "PLLuM Team (OPI PIB, CYFRA GOV PL)"
 url: "https://arxiv.org/abs/2511.03823"
 external_pdf: "https://arxiv.org/pdf/2511.03823.pdf"
-local_pdf: "[[PDFs/2025/2025-PIB-PLLuM A Family of Polish Large Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-PIB-PLLuM A Family of Polish Large Language Models.md"
+local_pdf: "[[PDFs/2025/2025-PIB-PLLuM A Family of Polish Large Language Models.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

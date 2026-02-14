@@ -13,8 +13,8 @@ authors: "[[Kai Golan Hashiloni, Shay Cohen, Asaf Shina, Jingyi Yang, Orr Meir Z
 authors_incomplete: false
 url: 
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "IJCNLP-AACL 2025 (Proceedings of the 14th International Joint Conference on Natural Language Processing)"
 DATE_ADDED: 20260213
 ethics_overall: No

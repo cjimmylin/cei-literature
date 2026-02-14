@@ -13,8 +13,8 @@ authors: [[Unknown]]
 authors_incomplete: true
 url: "https://arxiv.org/abs/2405.15453"
 external_pdf: "https://arxiv.org/pdf/2405.15453.pdf"
-local_pdf: "[[PDFs/2024/2024-[[Unknown]]-Benchmarking Pre-trained Large Language Models Potential.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-[[Unknown]]-Benchmarking Pre-trained Large Language Models Potential.md"
+local_pdf: "[[PDFs/2024/2024-[[Unknown]]-Benchmarking Pre-trained Large Language Models Potential.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

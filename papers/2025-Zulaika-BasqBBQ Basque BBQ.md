@@ -13,8 +13,8 @@ authors: "[[Zulaika, Muitze]]; [[Saralegi, Xabier]]"
 authors_incomplete: false
 publication: "COLING 2025"
 external_pdf: "https://arxiv.org/pdf/2308.10684v2.pdf"
-local_pdf: "[[PDFs/2025/2025-Zulaika-BasqBBQ Basque BBQ.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zulaika-BasqBBQ Basque BBQ.md"
+local_pdf: "[[PDFs/2025/2025-Zulaika-BasqBBQ Basque BBQ.pdf]]"
 DATE_ADDED: 20260207
 ethics_overall: No
 virtue_ethics: No

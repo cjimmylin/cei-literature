@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Fajri Koto; Afshin Rahimi; Jey Han Lau; Timothy Baldwin"
 url: "https://arxiv.org/abs/2011.00677"
 external_pdf: "https://arxiv.org/pdf/2011.00677.pdf"
-local_pdf: "[[PDFs/2020/2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.md"
+local_pdf: "[[PDFs/2020/2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.pdf]]"
 publication: "arXiv / ACL Anthology (COLING 2020)"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: "[[Hu, Zhe]]; [[Ren, Yixiao]]; [[Li, Jing]]; [[Yin, Yu]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.03000"
 external_pdf: "https://arxiv.org/pdf/2407.03000.pdf"
-local_pdf: "[[PDFs/2024/2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values.md"
+local_pdf: "[[PDFs/2024/2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values.pdf]]"
 publication: EMNLP
 DATE_ADDED: 20260207
 ethics_overall: No

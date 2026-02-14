@@ -14,8 +14,8 @@ authors: "Flor Miriam Plaza-del-Arco, et al."
 url: "https://aclanthology.org/2021.ranlp-1.123/"
 external_pdf: "https://doi.org/10.26615/978-954-452-072-4_123"
 publication: "ACL Anthology / RANLP 2021"
-local_pdf: "[[PDFs/2021/2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research.md"
+local_pdf: "[[PDFs/2021/2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

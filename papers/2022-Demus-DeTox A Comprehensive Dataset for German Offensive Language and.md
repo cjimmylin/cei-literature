@@ -13,8 +13,8 @@ authors: "Christoph Demus, Jonas Pitz, Mina Schussler, Dirk Labudde, Udo Kruschw
 url: "https://aclanthology.org/2022.woah-1.14/"
 external_pdf: "https://aclanthology.org/2022.woah-1.14.pdf"
 publication: "ACL Anthology"
-local_pdf: "[[PDFs/2022/2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and.md"
+local_pdf: "[[PDFs/2022/2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

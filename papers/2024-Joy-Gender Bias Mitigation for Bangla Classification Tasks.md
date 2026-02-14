@@ -12,8 +12,8 @@ last_author: [[S.K.S.]]
 authors: "Joy, S.K.S. et al."
 url: "https://arxiv.org/abs/2411.10636"
 external_pdf: "https://arxiv.org/pdf/2411.10636.pdf"
-local_pdf: "[[PDFs/2024/2024-Joy-Gender Bias Mitigation for Bangla Classification Tasks.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Joy-Gender Bias Mitigation for Bangla Classification Tasks.md"
+local_pdf: "[[PDFs/2024/2024-Joy-Gender Bias Mitigation for Bangla Classification Tasks.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

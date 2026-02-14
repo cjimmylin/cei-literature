@@ -13,8 +13,8 @@ authors: "[[Bertie Vidgen, Taha Yasseri]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/1812.10400"
 external_pdf: "https://arxiv.org/pdf/1812.10400.pdf"
-local_pdf: "[[PDFs/2020/2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.md"
+local_pdf: "[[PDFs/2020/2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.pdf]]"
 publication: "Journal of Information Technology & Politics"
 DATE_ADDED: 20260213
 ethics_overall: No

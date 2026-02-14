@@ -13,8 +13,8 @@ authors: "[[VISTEC / AIResearch.in.th team]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.15239"
 external_pdf: "https://arxiv.org/pdf/2508.15239.pdf"
-local_pdf: "[[PDFs/2025/2025-team-WangchanThaiInstruct An Instruction-Following Dataset for Culture-Aware.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-team-WangchanThaiInstruct An Instruction-Following Dataset for Culture-Aware.md"
+local_pdf: "[[PDFs/2025/2025-team-WangchanThaiInstruct An Instruction-Following Dataset for Culture-Aware.pdf]]"
 publication: "EMNLP 2025 / HuggingFace"
 DATE_ADDED: 20260213
 ethics_overall: No

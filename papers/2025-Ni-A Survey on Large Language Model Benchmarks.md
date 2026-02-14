@@ -13,8 +13,8 @@ authors: "Shiwen Ni; Guhong Chen; Shuaimin Li; Xuanang Chen; Siyi Li; Bingli Wan
 url: "https://arxiv.org/html/2508.15361v1"
 external_pdf: "https://arxiv.org/pdf/2508.15361.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Ni-A Survey on Large Language Model Benchmarks.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ni-A Survey on Large Language Model Benchmarks.md"
+local_pdf: "[[PDFs/2025/2025-Ni-A Survey on Large Language Model Benchmarks.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

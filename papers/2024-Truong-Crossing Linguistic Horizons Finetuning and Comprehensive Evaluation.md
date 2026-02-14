@@ -12,8 +12,8 @@ last_author: "[[Sanmi Koyejo]]"
 authors: "Sang Truong, Duc Nguyen, Toan Nguyen, Dong Le, Nhi Truong, Tho Quan, Sanmi Koyejo"
 url: "https://aclanthology.org/2024.findings-naacl.182/"
 external_pdf: "https://arxiv.org/pdf/2403.02715.pdf"
-local_pdf: "[[PDFs/2024/2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation.md"
+local_pdf: "[[PDFs/2024/2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation.pdf]]"
 publication: "ACL Anthology / arXiv"
 DATE_ADDED: 20260213
 ethics_overall: No

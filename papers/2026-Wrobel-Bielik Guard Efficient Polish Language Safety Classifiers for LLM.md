@@ -12,8 +12,8 @@ last_author: "[[Maciej Szymanski]]"
 authors: "Krzysztof Wrobel, Jan Maria Kowalski, Jerzy Surma, Igor Ciuciura, Maciej Szymanski"
 url: "https://arxiv.org/abs/2602.07954"
 external_pdf: "https://arxiv.org/pdf/2602.07954.pdf"
-local_pdf: "[[PDFs/2026/2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM.md"
+local_pdf: "[[PDFs/2026/2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

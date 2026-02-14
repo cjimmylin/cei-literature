@@ -12,8 +12,8 @@ last_author: [[others]]
 authors: "Ho Thanh Phuong, Nguyen Van Phu, others"
 url: "https://arxiv.org/abs/1911.09339"
 external_pdf: "https://arxiv.org/pdf/1911.09339.pdf"
-local_pdf: "[[PDFs/2019/2019-Phuong-Emotion Recognition for Vietnamese Social Media Text.pdf]]"
 pdf_extract: "PDF Extracts/2019/2019-Phuong-Emotion Recognition for Vietnamese Social Media Text.md"
+local_pdf: "[[PDFs/2019/2019-Phuong-Emotion Recognition for Vietnamese Social Media Text.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

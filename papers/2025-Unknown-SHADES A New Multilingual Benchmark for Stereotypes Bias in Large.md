@@ -13,8 +13,8 @@ authors: Unknown
 url: "https://aiadvisoryboards.wordpress.com/2025/05/02/shades-a-new-multilingual-benchmark-for-stereotypes-bias-in-large-language-models-2025/"
 external_pdf: "https://aclanthology.org/2025.naacl-long.600.pdf"
 publication: Web
-local_pdf: "[[PDFs/2025/2025-Unknown-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

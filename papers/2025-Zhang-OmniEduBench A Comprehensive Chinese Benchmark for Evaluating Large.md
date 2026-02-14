@@ -13,8 +13,8 @@ authors: "Min Zhang; Hao Chen; Hao Chen; Wenqi Zhang; Didi Zhu; Xin Lin; Bo Jian
 url: "https://arxiv.org/html/2510.26422v1"
 external_pdf: "https://arxiv.org/pdf/2510.26422.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Zhang-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhang-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large.md"
+local_pdf: "[[PDFs/2025/2025-Zhang-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

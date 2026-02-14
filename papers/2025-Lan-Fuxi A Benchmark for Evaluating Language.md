@@ -13,8 +13,8 @@ authors: "[[Shangqing Zhao, Yuhao Zhou, Yupei Ren, Zhe Chen, Chenghao Jia, Fang 
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.15837"
 external_pdf: "https://arxiv.org/pdf/2503.15837.pdf"
-local_pdf: "[[PDFs/2025/2025-Lan-Fuxi A Benchmark for Evaluating Language.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Lan-Fuxi A Benchmark for Evaluating Language.md"
+local_pdf: "[[PDFs/2025/2025-Lan-Fuxi A Benchmark for Evaluating Language.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: "Chandan Kumar Sah; Xiaoli Lian; Tony Xu; Li Zhang"
 url: "https://hal.science/hal-05031750v1/file/FairEval_Evaluating%20Fairness%20in%20LLM-Based%20Recommendations%20with%20Personality%20Awareness.pdf"
 external_pdf: "https://arxiv.org/pdf/2504.07801v1.pdf"
 publication: Web
-local_pdf: "[[PDFs/2025/2025-Sah-FairEval Evaluating Fairness in LLM-Based ....pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Sah-FairEval Evaluating Fairness in LLM-Based ....md"
+local_pdf: "[[PDFs/2025/2025-Sah-FairEval Evaluating Fairness in LLM-Based ....pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

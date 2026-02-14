@@ -13,8 +13,8 @@ authors: "Multiple authors"
 url: "https://aclanthology.org/2025.clicit-1.56.pdf"
 external_pdf: "https://ceur-ws.org/Vol-4112/55_main_long.pdf"
 publication: "ACL Anthology (CLiC-it 2025)"
-local_pdf: "[[PDFs/2025/2025-authors-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-authors-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.md"
+local_pdf: "[[PDFs/2025/2025-authors-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

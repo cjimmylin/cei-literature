@@ -13,8 +13,8 @@ authors: "Dan Nielsen et al."
 url: "https://arxiv.org/abs/2304.00906"
 external_pdf: "https://arxiv.org/pdf/2304.00906.pdf"
 publication: "arXiv / NoDaLiDa 2023"
-local_pdf: "[[PDFs/2023/2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing.md"
+local_pdf: "[[PDFs/2023/2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

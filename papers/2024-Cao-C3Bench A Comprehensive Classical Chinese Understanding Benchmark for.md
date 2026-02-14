@@ -13,8 +13,8 @@ authors: "Jiahuan Cao; Yongxin Shi; Dezhi Peng; Yang Liu; Lianwen Jin"
 url: "https://arxiv.org/html/2405.17732v1"
 external_pdf: "https://arxiv.org/pdf/2405.17732.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024/2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.md"
+local_pdf: "[[PDFs/2024/2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

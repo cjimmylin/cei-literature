@@ -13,8 +13,8 @@ authors: Enkhbold
 url: "https://www.nature.com/articles/s41598-022-27267-8"
 external_pdf: "https://www.nature.com/articles/s41598-022-27267-8.pdf"
 publication: Nature
-local_pdf: "[[PDFs/2024/2024-Enkhbold-A new dataset for mongolian online handwritten recognition.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Enkhbold-A new dataset for mongolian online handwritten recognition.md"
+local_pdf: "[[PDFs/2024/2024-Enkhbold-A new dataset for mongolian online handwritten recognition.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ authors: "[[Multiple (MDPI Big Data]]; [[Cognitive Computing 2023)]]"
 authors_incomplete: false
 url: 
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "MDPI Big Data and Cognitive Computing"
 DATE_ADDED: 20260213
 ethics_overall: No

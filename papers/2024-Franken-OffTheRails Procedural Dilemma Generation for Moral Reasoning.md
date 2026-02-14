@@ -13,8 +13,8 @@ authors: "[[Fränken, Jan-Philipp]]; [[Gandhi, Kanishk]]; [[Qiu, Tori]]; [[Khawa
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.10975"
 external_pdf: "https://arxiv.org/pdf/2404.10975.pdf"
-local_pdf: "[[PDFs/2024/2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md"
+local_pdf: "[[PDFs/2024/2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

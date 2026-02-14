@@ -13,8 +13,8 @@ authors: "[[Multiple authors (presented at conference on Human Freedom]]; [[AI)]
 authors_incomplete: false
 url: 
 external_pdf: "https://osf.io/b2ug9/download"
-local_pdf: "[[PDFs/2024/2024-AI-Religious Bias Benchmarks for ChatGPT.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-AI-Religious Bias Benchmarks for ChatGPT.md"
+local_pdf: "[[PDFs/2024/2024-AI-Religious Bias Benchmarks for ChatGPT.pdf]]"
 publication: "Conference on Human Freedom and AI / ResearchGate"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Nan Li; Bo Kang; Tijl De Bie"
 url: "https://arxiv.org/abs/2601.10257"
 external_pdf: "https://arxiv.org/pdf/2601.10257.pdf"
-local_pdf: "[[PDFs/2025/2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.md"
+local_pdf: "[[PDFs/2025/2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

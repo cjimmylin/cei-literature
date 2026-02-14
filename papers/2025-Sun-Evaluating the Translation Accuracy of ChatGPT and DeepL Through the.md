@@ -12,8 +12,8 @@ last_author: "[[Rui Sun]]"
 authors: "Rui Sun"
 url: "https://papers.ssrn.com/sol3/Delivery.cfm/5029393.pdf?abstractid=5029393&mirid=1"
 publication: Web
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

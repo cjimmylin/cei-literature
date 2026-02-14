@@ -13,8 +13,8 @@ authors: Unknown
 url: "https://aclanthology.org/2020.findings-emnlp.445.pdf"
 external_pdf: "https://aclanthology.org/2020.findings-emnlp.445.pdf"
 publication: "ACL Anthology"
-local_pdf: "[[PDFs/2025/2025-Unknown-IndicNLPSuite Monolingual Corpora Evaluation ....pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-IndicNLPSuite Monolingual Corpora Evaluation ....md"
+local_pdf: "[[PDFs/2025/2025-Unknown-IndicNLPSuite Monolingual Corpora Evaluation ....pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

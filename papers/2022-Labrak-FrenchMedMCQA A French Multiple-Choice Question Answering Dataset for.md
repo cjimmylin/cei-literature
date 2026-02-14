@@ -13,8 +13,8 @@ authors: "Yanis Labrak, et al."
 url: "https://aclanthology.org/2022.louhi-1.5/"
 external_pdf: "https://arxiv.org/pdf/2304.04280.pdf"
 publication: "ACL Anthology"
-local_pdf: "[[PDFs/2022/2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.md"
+local_pdf: "[[PDFs/2022/2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

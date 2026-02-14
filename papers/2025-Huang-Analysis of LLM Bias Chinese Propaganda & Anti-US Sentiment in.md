@@ -13,8 +13,8 @@ authors: "PeiHsuan Huang; ZihWei Lin; Simon Imbot; WenCheng Fu; Ethan Tu"
 url: "https://arxiv.org/html/2506.01814v1"
 external_pdf: "https://arxiv.org/pdf/2506.01814.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in.md"
+local_pdf: "[[PDFs/2025/2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

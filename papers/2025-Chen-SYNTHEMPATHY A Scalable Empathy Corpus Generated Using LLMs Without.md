@@ -12,8 +12,8 @@ last_author: "[[Julia Hirschberg]]"
 authors: "Run Chen; Jun Shin; Julia Hirschberg"
 url: "https://arxiv.org/abs/2502.17857"
 external_pdf: "https://arxiv.org/pdf/2502.17857.pdf"
-local_pdf: "[[PDFs/2025/2025-Chen-SYNTHEMPATHY A Scalable Empathy Corpus Generated Using LLMs Without.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Chen-SYNTHEMPATHY A Scalable Empathy Corpus Generated Using LLMs Without.md"
+local_pdf: "[[PDFs/2025/2025-Chen-SYNTHEMPATHY A Scalable Empathy Corpus Generated Using LLMs Without.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
 ethics_overall: No

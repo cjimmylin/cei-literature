@@ -13,8 +13,8 @@ authors: "[[Multiple (Journal of King Saud University, 2025)]]"
 authors_incomplete: false
 url: 
 external_pdf: "https://arxiv.org/pdf/2502.11014.pdf"
+pdf_extract: "PDF Extracts/0000/2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.md"
 local_pdf: "[[PDFs/2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.pdf]]"
-pdf_extract: "PDF Extracts/2025/2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.md"
 publication: "Journal of King Saud University Computer and Information Sciences"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -12,8 +12,8 @@ last_author: "[[Dung Nguyen Quang]]"
 authors: "Dung Nguyen Quang"
 url: "https://huggingface.co/datasets/nqdhocai/vietnamese-legal-qa"
 publication: HuggingFace
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

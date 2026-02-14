@@ -12,6 +12,7 @@ last_author: "[[Wei, Xuetao]]"
 authors: "[[Zhou, Ziyi]]; [[Guo, Xinwei]]; [[Gao, Jiashi]]; [[Zhao, Xiangyu]]; [[Zhang, Shiyao]]; [[Yao, Xin]]; [[Wei, Xuetao]]"
 url: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/48726631f87322012c6be38e00c72a47-Abstract-Conference.html"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/MWSLHSCV/2024 - tSMC A Toolbox for Safety-Aware Multi-Agent Reinforcement Learning.pdf"
+pdf_extract: "PDF Extracts/2024/2024-Zhou-tSMC.md"
 local_pdf: [[PDFs/2024/2024-Zhou-tSMC.pdf]]
 national_ethnic_cultural: N/A
 religious_values: N/A
@@ -34,7 +35,6 @@ data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, Gemini, Llama-2, Llama-3, Mistral, Mixtral, Gemma, Phi"
 DATA_URL: NA
-pdf_extract: "PDF Extracts/2024/2024-Zhou-tSMC.md"
 ---
 # Unveiling the Bias Impact on Symmetric Moral Consistency of Large Language Models
 

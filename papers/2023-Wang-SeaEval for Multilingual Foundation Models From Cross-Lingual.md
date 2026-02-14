@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Bin Wang; Zhengyuan Liu; Xin Huang; Fangkai Jiao; Yang Ding; AiTi Aw; Nancy F. Chen"
 url: "https://arxiv.org/abs/2309.04766"
 external_pdf: "https://arxiv.org/pdf/2309.04766.pdf"
-local_pdf: "[[PDFs/2023/2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual.md"
+local_pdf: "[[PDFs/2023/2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

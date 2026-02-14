@@ -12,8 +12,8 @@ last_author: "[[Reyila Dilnigar]]"
 authors: "Reyila Dilnigar"
 url: "https://fairbank.fas.harvard.edu/research/blog/uyghur-poetry-in-translation-perhat-tursuns-elegy/"
 publication: Web
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

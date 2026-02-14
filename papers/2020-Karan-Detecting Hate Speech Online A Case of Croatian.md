@@ -14,13 +14,13 @@ doi: 10.1007/978-3-030-38833-1_16
 url: "https://link.springer.com/chapter/10.1007/978-3-030-38833-1_16"
 external_pdf: "https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:892/datastream/FILE0"
 publication: Springer
+pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "http_418 (HTTP 418)"
 pdf_access_url: "https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:892/datastream/FILE0"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
-pdf_extract: 
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

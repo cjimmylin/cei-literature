@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Fajri Koto"
 url: "https://arxiv.org/abs/2409.08564"
 external_pdf: "https://arxiv.org/pdf/2409.08564.pdf"
-local_pdf: "[[PDFs/2024/2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World.md"
+local_pdf: "[[PDFs/2024/2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World.pdf]]"
 publication: "arXiv / ACL Anthology (NAACL 2025)"
 DATE_ADDED: 20260213
 ethics_overall: No

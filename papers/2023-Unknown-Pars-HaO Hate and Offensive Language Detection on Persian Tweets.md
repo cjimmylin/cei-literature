@@ -13,8 +13,8 @@ last_author: [[Unknown]]
 authors: Unknown
 url: "https://www.authorea.com/users/581546/articles/683116-pars-hao-hate-and-offensive-language-detection-on-persian-tweets-using-machine-learning-and-deep-learning"
 publication: "TechRxiv / Authorea"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

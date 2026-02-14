@@ -13,8 +13,8 @@ authors: "[[Muhammad Umar Salman, Mohammad Areeb Qazi, Mohammed Talha Alam]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.17880"
 external_pdf: "https://arxiv.org/pdf/2601.17880.pdf"
-local_pdf: "[[PDFs/2026/2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset.md"
+local_pdf: "[[PDFs/2026/2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset.pdf]]"
 publication: "NeurIPS 2025 Datasets and Benchmarks Track / arXiv"
 DATE_ADDED: 20260213
 ethics_overall: No

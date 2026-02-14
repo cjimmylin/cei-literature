@@ -13,8 +13,8 @@ authors: "Kiplangat Korir"
 url: "https://aclanthology.org/2022.cltw-1.pdf"
 external_pdf: "https://aclanthology.org/2022.cltw-1.pdf"
 publication: "ACL Anthology"
-local_pdf: "[[PDFs/2022/2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.md"
+local_pdf: "[[PDFs/2022/2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

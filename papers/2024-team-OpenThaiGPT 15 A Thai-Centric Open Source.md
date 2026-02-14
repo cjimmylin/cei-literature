@@ -13,8 +13,8 @@ authors: "[[OpenThaiGPT team]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2411.07238"
 external_pdf: "https://arxiv.org/pdf/2411.07238.pdf"
-local_pdf: "[[PDFs/2024/2024-team-OpenThaiGPT 15 A Thai-Centric Open Source.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-team-OpenThaiGPT 15 A Thai-Centric Open Source.md"
+local_pdf: "[[PDFs/2024/2024-team-OpenThaiGPT 15 A Thai-Centric Open Source.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

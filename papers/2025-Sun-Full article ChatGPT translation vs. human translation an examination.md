@@ -13,8 +13,8 @@ authors: "Rui Sun"
 doi: 10.1080/23311886.2025.2472916
 url: "https://www.tandfonline.com/doi/full/10.1080/23311886.2025.2472916"
 publication: Web
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

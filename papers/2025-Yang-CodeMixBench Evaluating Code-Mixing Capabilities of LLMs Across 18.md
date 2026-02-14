@@ -13,8 +13,8 @@ authors: "Yilun Yang"
 url: "https://arxiv.org/html/2507.18791v2"
 external_pdf: "https://arxiv.org/pdf/2507.18791.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18.md"
+local_pdf: "[[PDFs/2025/2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

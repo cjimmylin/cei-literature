@@ -13,8 +13,8 @@ authors: "[[Gerrit W. Gong et al. (interfaith coalition initiative)]]"
 authors_incomplete: false
 url: 
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "Presented at Vatican City; multi-institutional initiative"
 DATE_ADDED: 20260213
 ethics_overall: No

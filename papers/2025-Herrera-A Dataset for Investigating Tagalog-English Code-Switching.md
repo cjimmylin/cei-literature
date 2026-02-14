@@ -13,8 +13,8 @@ authors: "Herrera, Megan"
 url: "https://aclanthology.org/2022.lrec-1.225.pdf"
 external_pdf: "https://aclanthology.org/2022.lrec-1.225.pdf"
 publication: "ACL Anthology"
-local_pdf: "[[PDFs/2025/2025-Herrera-A Dataset for Investigating Tagalog-English Code-Switching.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Herrera-A Dataset for Investigating Tagalog-English Code-Switching.md"
+local_pdf: "[[PDFs/2025/2025-Herrera-A Dataset for Investigating Tagalog-English Code-Switching.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -13,8 +13,8 @@ authors: "Andong Chen; Lianzhang Lou; Kehai Chen; Xuefeng Bai; Yang Xiang; Muyun
 url: "https://arxiv.org/html/2408.09945v1"
 external_pdf: "https://arxiv.org/pdf/2408.09945.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024/2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.md"
+local_pdf: "[[PDFs/2024/2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

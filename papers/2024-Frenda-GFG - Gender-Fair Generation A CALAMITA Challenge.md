@@ -13,8 +13,8 @@ authors: "Simona Frenda, Andrea Piergentili, Beatrice Savoldi, Marco Madeddu, Ma
 url: "https://arxiv.org/abs/2412.19168"
 external_pdf: "https://arxiv.org/pdf/2412.19168.pdf"
 publication: "arXiv / CLiC-it 2024"
-local_pdf: "[[PDFs/2024/2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.md"
+local_pdf: "[[PDFs/2024/2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

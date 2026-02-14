@@ -13,8 +13,8 @@ authors: "Dave Davies"
 url: "https://arxiv.org/html/2506.12574"
 external_pdf: "https://arxiv.org/pdf/2506.12574.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Davies-Overview of the NLPCC 2025 Shared Task Gender Bias Mitigation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Davies-Overview of the NLPCC 2025 Shared Task Gender Bias Mitigation.md"
+local_pdf: "[[PDFs/2025/2025-Davies-Overview of the NLPCC 2025 Shared Task Gender Bias Mitigation.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

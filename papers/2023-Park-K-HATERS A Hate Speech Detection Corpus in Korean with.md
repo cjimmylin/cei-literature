@@ -13,8 +13,8 @@ authors: "Chaewon Park, Soohwan Kim, Kyubyong Park, Kunwoo Park"
 doi: 10.18653/v1/2023.findings-emnlp.952
 url: "https://arxiv.org/abs/2310.15439"
 external_pdf: "https://arxiv.org/pdf/2310.15439.pdf"
-local_pdf: "[[PDFs/2023/2023-Park-K-HATERS A Hate Speech Detection Corpus in Korean with.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Park-K-HATERS A Hate Speech Detection Corpus in Korean with.md"
+local_pdf: "[[PDFs/2023/2023-Park-K-HATERS A Hate Speech Detection Corpus in Korean with.pdf]]"
 publication: "arXiv / EMNLP 2023 Findings"
 DATE_ADDED: 20260213
 ethics_overall: No

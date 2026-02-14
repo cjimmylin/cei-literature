@@ -34,8 +34,8 @@ data_description: "MCT and MFQ responses from humans and LLMs"
 data_metrics: "Moral competence scores, MFQ foundation scores"
 LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: NA
-local_pdf: "[[PDFs/2025/2025-Sameer-Insights into Moral Reasoning of AI.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Sameer-Insights into Moral Reasoning of AI.md"
+local_pdf: "[[PDFs/2025/2025-Sameer-Insights into Moral Reasoning of AI.pdf]]"
 ---
 # Insights into Moral Reasoning of AI: A Comparative Study Between Humans and Large Language Models
 

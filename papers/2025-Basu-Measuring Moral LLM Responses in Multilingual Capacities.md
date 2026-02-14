@@ -12,8 +12,8 @@ last_author: "[[Allison Yu]]"
 authors: "Kimaya Basu; Savi Kolari; Allison Yu"
 url: "https://arxiv.org/abs/2510.08776"
 external_pdf: "https://arxiv.org/pdf/2510.08776.pdf"
-local_pdf: "[[PDFs/2025/2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.md"
+local_pdf: "[[PDFs/2025/2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
 ethics_overall: No

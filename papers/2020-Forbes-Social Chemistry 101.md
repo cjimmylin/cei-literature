@@ -22,8 +22,8 @@ key_contribution: "Introduced 'Social Chemistry', a framework and dataset (Socia
 significance: "Formalizes 'rules-of-thumb' as a computational unit for social norms, enabling models to reason about the pragmatic and detailed social expectations that govern real-world behavior, beyond abstract ethical theories."
 tags: 
 abstract: "Social norms—the unspoken commonsense rules about acceptable social behavior—are crucial in understanding the underlying causes and intents of people’s actions in narratives. For example, underlying an action such as “wanting to call cops on my neighbor” are social norms that inform our conduct, such as “It is expected that you report crimes.” We present SOCIAL CHEMISTRY, a new conceptual formalism to study people’s everyday social norms and moral judgments over a rich spectrum of real life..."
-local_pdf: "[[PDFs/2020/2020-Forbes-Social Chemistry 101.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Forbes-Social Chemistry 101.md"
+local_pdf: "[[PDFs/2020/2020-Forbes-Social Chemistry 101.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

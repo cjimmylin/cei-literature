@@ -14,13 +14,13 @@ doi: 10.1007/s43681-025-00716-6
 url: "https://link.springer.com/article/10.1007/s43681-025-00716-6"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s43681-025-00716-6.pdf"
 publication: "Springer AI and Ethics"
+pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://link.springer.com/content/pdf/10.1007/s43681-025-00716-6.pdf"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
-pdf_extract: 
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

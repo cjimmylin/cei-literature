@@ -23,6 +23,7 @@ significance: "Enables 'moral transparency' in dialogue systems, allowing models
 tags: 
 abstract: "Content Warning: some examples in this paper may be offensive or upsetting."
 pdf: "http://arxiv.org/pdf/2204.03021"
+pdf_extract: "PDF Extracts/2022/2022-Ziems-The Moral Integrity Corpus.md"
 local_pdf: "[[PDFs/2022/2022-Ziems-The Moral Integrity Corpus.pdf]]"
 publication: "ACL 2022"
 ethics_overall: No
@@ -37,7 +38,6 @@ data_description: "Benchmark for moral/ethical reasoning text corpus for convers
 data_metrics: "Not specified"
 LLM_assessed: "GPT-2, T5, BART, BERT, ALBERT"
 DATA_URL: "https://github.com/GT-SALT/mic"
-pdf_extract: "PDF Extracts/2022/2022-Ziems-The Moral Integrity Corpus.md"
 ---
 # The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems
 

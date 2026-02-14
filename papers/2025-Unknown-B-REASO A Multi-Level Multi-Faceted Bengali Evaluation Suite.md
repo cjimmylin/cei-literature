@@ -14,8 +14,8 @@ authors: Unknown
 url: "https://aclanthology.org/2025.findings-emnlp.492/"
 external_pdf: "https://aclanthology.org/2025.findings-emnlp.492.pdf"
 publication: "ACL Anthology (EMNLP 2025 Findings)"
-local_pdf: "[[PDFs/2025/2025-Unknown-B-REASO A Multi-Level Multi-Faceted Bengali Evaluation Suite.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-B-REASO A Multi-Level Multi-Faceted Bengali Evaluation Suite.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-B-REASO A Multi-Level Multi-Faceted Bengali Evaluation Suite.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

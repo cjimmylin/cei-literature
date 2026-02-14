@@ -13,8 +13,8 @@ last_author: [[Ghayoomi]]
 authors: "Khodabakhsh, Jafarinejad, Rahimi, Ghayoomi"
 url: "https://tjee.tabrizu.ac.ir/article_15794.html"
 publication: "Tabriz Journal of Electrical Engineering"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

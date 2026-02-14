@@ -12,8 +12,8 @@ last_author: [[N.]]
 authors: "Romim, N. et al."
 url: "https://aclanthology.org/2022.lrec-1.552/"
 external_pdf: "https://arxiv.org/pdf/2206.00372.pdf"
-local_pdf: "[[PDFs/2022/2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.md"
+local_pdf: "[[PDFs/2022/2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.pdf]]"
 publication: "ACL Anthology (LREC 2022)"
 DATE_ADDED: 20260213
 ethics_overall: No

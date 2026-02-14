@@ -13,8 +13,8 @@ authors: "[[Shabaz Patel, Hassan Kane, Rayhan Patel]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2312.06652"
 external_pdf: "https://arxiv.org/pdf/2312.06652.pdf"
-local_pdf: "[[PDFs/2023/2023-Patel-Building Domain-Specific LLMs Faithful To The.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Patel-Building Domain-Specific LLMs Faithful To The.md"
+local_pdf: "[[PDFs/2023/2023-Patel-Building Domain-Specific LLMs Faithful To The.pdf]]"
 publication: "Muslims in ML Workshop at NeurIPS 2023 / arXiv"
 DATE_ADDED: 20260213
 ethics_overall: No

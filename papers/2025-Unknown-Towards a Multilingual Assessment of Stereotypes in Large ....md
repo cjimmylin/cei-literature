@@ -13,8 +13,8 @@ authors: Unknown
 url: "https://aclanthology.org/2025.naacl-long.600.pdf"
 external_pdf: "https://aclanthology.org/2025.naacl-long.600.pdf"
 publication: "ACL Anthology"
+pdf_extract: "PDF Extracts/0000/2025-Unknown-Towards a Multilingual Assessment of Stereotypes in Large ....md"
 local_pdf: "[[PDFs/2025-Unknown-Towards a Multilingual Assessment of Stereotypes in Large ....pdf]]"
-pdf_extract: "PDF Extracts/2025/2025-Unknown-Towards a Multilingual Assessment of Stereotypes in Large ....md"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

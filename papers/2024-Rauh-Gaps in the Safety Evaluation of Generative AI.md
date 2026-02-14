@@ -13,8 +13,8 @@ authors: "Maribeth Rauh; Nahema Marchal; Arianna Manzini; L. Hendricks; R. Coman
 doi: 10.1609/aies.v7i1.31717
 url: "https://doi.org/10.1609/aies.v7i1.31717"
 external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/31717/33884"
-local_pdf: "[[PDFs/2024/2024-Rauh-Gaps in the Safety Evaluation of Generative AI.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Rauh-Gaps in the Safety Evaluation of Generative AI.md"
+local_pdf: "[[PDFs/2024/2024-Rauh-Gaps in the Safety Evaluation of Generative AI.pdf]]"
 publication: Unknown
 DATE_ADDED: 20260207
 ethics_overall: No

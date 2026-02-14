@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Genta Indra Winata; Alham Fikri Aji; Samuel Cahyawijaya; Rahmad Mahendra; Fajri Koto; Ade Romadhony; Kemal Kurniawan; David Moeljadi; Radityo Eko Prasojo; Pascale Fung; Timothy Baldwin; Jey Han Lau; Rico Sennrich; Sebastian Ruder"
 url: "https://arxiv.org/abs/2205.15960"
 external_pdf: "https://arxiv.org/pdf/2205.15960.pdf"
-local_pdf: "[[PDFs/2022/2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local.md"
+local_pdf: "[[PDFs/2022/2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local.pdf]]"
 publication: "arXiv / ACL Anthology (EACL 2023, Outstanding Paper)"
 DATE_ADDED: 20260213
 ethics_overall: No

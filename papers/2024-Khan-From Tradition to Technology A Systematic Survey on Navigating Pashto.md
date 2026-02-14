@@ -13,8 +13,8 @@ last_author: "[[Nek Dil Khan]]"
 authors: "Zohaib Ahmad Khan, Yuanqing Xia, Fiza Khaliq, Javed Ali Khan, Nek Dil Khan"
 url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5031721"
 publication: SSRN
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

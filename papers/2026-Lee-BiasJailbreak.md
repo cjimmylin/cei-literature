@@ -12,8 +12,8 @@ last_author: "[[Haebin Seong Isack Lee]]"
 authors: "Isack Lee, Haebin Seong"
 url: "https://arxiv.org/abs/2410.13334"
 external_pdf: "https://arxiv.org/pdf/2410.13334.pdf"
+pdf_extract: "PDF Extracts/0000/2026-Lee-BiasJailbreak.md"
 local_pdf: "[[PDFs/2026-Lee-BiasJailbreak.pdf]]"
-pdf_extract: "PDF Extracts/2026/2026-Lee-BiasJailbreak.md"
 publication: "AAAI 2026"
 DATE_ADDED: 20260207
 ethics_overall: No

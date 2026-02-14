@@ -13,8 +13,8 @@ authors: "Rui Sun"
 url: "https://openreview.net/pdf?id=sXErPfdA7Q"
 external_pdf: "https://aclanthology.org/2023.emnlp-main.1036.pdf"
 publication: OpenReview
+pdf_extract: "PDF Extracts/0000/2025-Sun-Document-Level Machine Translation with Large Language Models Longyue.md"
 local_pdf: "[[PDFs/2025-Sun-Document-Level Machine Translation with Large Language Models Longyue.pdf]]"
-pdf_extract: "PDF Extracts/2025/2025-Sun-Document-Level Machine Translation with Large Language Models Longyue.md"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -14,8 +14,8 @@ authors: Unknown
 url: "https://www.sciencedirect.com/science/article/pii/S2352340925008108"
 external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12504998/pdf/main.pdf"
 publication: "ScienceDirect / Data in Brief"
-local_pdf: "[[PDFs/2025/2025-Unknown-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

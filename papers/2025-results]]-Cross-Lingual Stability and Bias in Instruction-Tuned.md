@@ -13,8 +13,8 @@ authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.22823"
 external_pdf: "https://arxiv.org/pdf/2510.22823.pdf"
-local_pdf: "[[PDFs/2025/2025-results]]-Cross-Lingual Stability and Bias in Instruction-Tuned.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-results]]-Cross-Lingual Stability and Bias in Instruction-Tuned.md"
+local_pdf: "[[PDFs/2025/2025-results]]-Cross-Lingual Stability and Bias in Instruction-Tuned.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

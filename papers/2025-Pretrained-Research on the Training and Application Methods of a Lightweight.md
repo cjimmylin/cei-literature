@@ -12,8 +12,8 @@ last_author: "[[Combining Pretrained]]"
 authors: "Combining Pretrained"
 url: "https://www.mdpi.com/2076-3417/14/13/5764"
 publication: MDPI
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

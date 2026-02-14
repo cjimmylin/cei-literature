@@ -13,8 +13,8 @@ authors: "[[Tan, Yingshui]]; [[Zheng, Boren]]; [[Zheng, Baihui]]; [[Cao, Kerui]]
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.15265"
 external_pdf: "https://arxiv.org/pdf/2412.15265.pdf"
-local_pdf: "[[PDFs/2024/2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark.md"
+local_pdf: "[[PDFs/2024/2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark.pdf]]"
 publication: "ACL 2025"
 DATE_ADDED: 20260207
 ethics_overall: No

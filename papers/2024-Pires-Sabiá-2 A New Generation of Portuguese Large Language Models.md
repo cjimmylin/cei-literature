@@ -12,8 +12,8 @@ last_author: "[[Ramon Pires]]"
 authors: "Ramon Pires, et al."
 url: "https://arxiv.org/abs/2403.09887"
 external_pdf: "https://arxiv.org/pdf/2403.09887.pdf"
-local_pdf: "[[PDFs/2024/2024-Pires-Sabiá-2 A New Generation of Portuguese Large Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Pires-Sabiá-2 A New Generation of Portuguese Large Language Models.md"
+local_pdf: "[[PDFs/2024/2024-Pires-Sabiá-2 A New Generation of Portuguese Large Language Models.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

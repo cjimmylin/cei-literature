@@ -13,8 +13,8 @@ authors: "MilaNLProc group"
 url: "https://aclanthology.org/2022.woah-1.24/"
 external_pdf: "https://aclanthology.org/2022.woah-1.24.pdf"
 publication: "ACL Anthology (WOAH @ NAACL 2022)"
-local_pdf: "[[PDFs/2022/2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text.md"
+local_pdf: "[[PDFs/2022/2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

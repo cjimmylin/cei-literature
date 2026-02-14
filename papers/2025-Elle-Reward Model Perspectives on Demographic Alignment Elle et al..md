@@ -13,8 +13,8 @@ authors: "[[Yang, Elle Michelle]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.06391"
 external_pdf: "https://arxiv.org/pdf/2510.06391.pdf"
-local_pdf: "[[PDFs/2025/2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..md"
+local_pdf: "[[PDFs/2025/2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
 ethics_overall: No

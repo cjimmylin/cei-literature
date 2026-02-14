@@ -13,8 +13,8 @@ authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-emnlp.1393/"
 external_pdf: "https://aclanthology.org/2025.findings-emnlp.1393.pdf"
-local_pdf: "[[PDFs/2025/2025-authors-HATECAT-TR A Hate Speech Span Detection.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-authors-HATECAT-TR A Hate Speech Span Detection.md"
+local_pdf: "[[PDFs/2025/2025-authors-HATECAT-TR A Hate Speech Span Detection.pdf]]"
 publication: "EMNLP 2025 Findings"
 DATE_ADDED: 20260213
 ethics_overall: No

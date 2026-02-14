@@ -13,8 +13,8 @@ last_author: "[[RafieeZade, Hossein]]"
 authors: "Davardoust, Hadi; Zare, Hadi; RafieeZade, Hossein"
 url: "https://github.com/davardoust/PHICAD"
 publication: "SoCal NLP Symposium 2024"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

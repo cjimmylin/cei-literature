@@ -13,8 +13,8 @@ authors: Various
 doi: 10.1007/978-3-031-78090-5_18
 url: "https://link.springer.com/chapter/10.1007/978-3-031-78090-5_18"
 publication: Springer
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -12,8 +12,8 @@ last_author: "[[Javier Hernandez]]"
 authors: "Jina Suh; Lindy Le; Erfan Shayegani; Gonzalo Ramos; Judith Amores; Desmond C. Ong; Mary Czerwinski; Javier Hernandez"
 url: "https://arxiv.org/abs/2509.16437"
 external_pdf: "https://arxiv.org/pdf/2509.16437.pdf"
-local_pdf: "[[PDFs/2025/2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of.md"
+local_pdf: "[[PDFs/2025/2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
 ethics_overall: No

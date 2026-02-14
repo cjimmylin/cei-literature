@@ -14,13 +14,13 @@ doi: 10.1109/KSE.2018.8573337
 url: "https://ieeexplore.ieee.org/document/8573337/"
 external_pdf: "http://xplorestaging.ieee.org/ielx7/8553666/8573236/08573337.pdf?arnumber=8573337"
 publication: IEEE
+pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "http://xplorestaging.ieee.org/ielx7/8553666/8573236/08573337.pdf?arnumber=8573337"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
-pdf_extract: 
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

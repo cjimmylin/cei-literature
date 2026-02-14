@@ -12,8 +12,8 @@ last_author: "[[Dan Hendrycks]]"
 authors: "Dan Hendrycks"
 url: "https://ieeexplore.ieee.org/document/11230346/"
 publication: IEEE
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

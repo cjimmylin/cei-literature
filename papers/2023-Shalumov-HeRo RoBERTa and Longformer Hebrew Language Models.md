@@ -12,8 +12,8 @@ last_author: "[[Harel Haskey]]"
 authors: "Vitaly Shalumov, Harel Haskey"
 url: "https://arxiv.org/abs/2304.11077"
 external_pdf: "https://arxiv.org/pdf/2304.11077.pdf"
-local_pdf: "[[PDFs/2023/2023-Shalumov-HeRo RoBERTa and Longformer Hebrew Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Shalumov-HeRo RoBERTa and Longformer Hebrew Language Models.md"
+local_pdf: "[[PDFs/2023/2023-Shalumov-HeRo RoBERTa and Longformer Hebrew Language Models.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

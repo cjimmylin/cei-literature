@@ -12,8 +12,8 @@ last_author: "[[Hanwool Lee]]"
 authors: "Guijin Son, Hyunwoo Ko, Suwan Kim, Hanwool Lee"
 url: "https://arxiv.org/abs/2507.08924"
 external_pdf: "https://arxiv.org/pdf/2507.08924.pdf"
-local_pdf: "[[PDFs/2025/2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite.md"
+local_pdf: "[[PDFs/2025/2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

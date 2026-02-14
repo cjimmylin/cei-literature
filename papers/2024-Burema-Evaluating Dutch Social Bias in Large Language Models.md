@@ -13,8 +13,8 @@ authors: "Renate Burema"
 url: "https://studenttheses.uu.nl/handle/20.500.12932/48930"
 external_pdf: "https://studenttheses.uu.nl/bitstream/handle/20.500.12932/48930/Master_Thesis_Burema%286502180%29.pdf?sequence=1&isAllowed=y"
 publication: "Utrecht University"
-local_pdf: "[[PDFs/2024/2024-Burema-Evaluating Dutch Social Bias in Large Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Burema-Evaluating Dutch Social Bias in Large Language Models.md"
+local_pdf: "[[PDFs/2024/2024-Burema-Evaluating Dutch Social Bias in Large Language Models.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

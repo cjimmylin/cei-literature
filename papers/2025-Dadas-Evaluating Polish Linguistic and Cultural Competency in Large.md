@@ -12,8 +12,8 @@ last_author: "[[Rafal Poswiata]]"
 authors: "Slawomir Dadas, Malgorzata Grebowiec, Michal Perelkiewicz, Rafal Poswiata"
 url: "https://arxiv.org/abs/2503.00995"
 external_pdf: "https://arxiv.org/pdf/2503.00995.pdf"
-local_pdf: "[[PDFs/2025/2025-Dadas-Evaluating Polish Linguistic and Cultural Competency in Large.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Dadas-Evaluating Polish Linguistic and Cultural Competency in Large.md"
+local_pdf: "[[PDFs/2025/2025-Dadas-Evaluating Polish Linguistic and Cultural Competency in Large.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: "David Beauchemin, Richard Khoury"
 url: "https://arxiv.org/abs/2508.16867"
 external_pdf: "https://arxiv.org/pdf/2508.16867.pdf"
 publication: "arXiv / ACL Anthology"
-local_pdf: "[[PDFs/2025/2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.md"
+local_pdf: "[[PDFs/2025/2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

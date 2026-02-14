@@ -13,8 +13,8 @@ authors: "[[Yin, Sheng]]; [[Pang, Xianghe]]; [[Ding, Yuanzhuo]]; [[Chen, Menglan
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.13178"
 external_pdf: "https://arxiv.org/pdf/2412.13178.pdf"
+pdf_extract: "PDF Extracts/0000/2024-Yin-SafeAgentBench.md"
 local_pdf: "[[PDFs/2024-Yin-SafeAgentBench.pdf]]"
-pdf_extract: "PDF Extracts/2024/2024-Yin-SafeAgentBench.md"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
 ethics_overall: No

@@ -13,8 +13,8 @@ authors: "[[AI Singapore team]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2602.01618"
 external_pdf: "https://arxiv.org/pdf/2602.01618.pdf"
-local_pdf: "[[PDFs/2026/2026-team-SEA-Guard Culturally Grounded Multilingual Safeguard for.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-team-SEA-Guard Culturally Grounded Multilingual Safeguard for.md"
+local_pdf: "[[PDFs/2026/2026-team-SEA-Guard Culturally Grounded Multilingual Safeguard for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

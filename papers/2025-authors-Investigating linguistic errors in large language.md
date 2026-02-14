@@ -13,8 +13,8 @@ authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: "https://www.tandfonline.com/doi/full/10.1080/23311983.2025.2600519"
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "Cogent Arts & Humanities (Taylor & Francis)"
 DATE_ADDED: 20260213
 ethics_overall: No

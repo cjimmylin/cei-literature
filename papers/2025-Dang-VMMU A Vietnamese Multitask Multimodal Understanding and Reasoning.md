@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Vy Tuong Dang; An Vo; Emilio Villa-Cueva; Quang Tau; Duc Dm; Thamar Solorio; Daeyoung Kim"
 url: "https://arxiv.org/abs/2508.13680"
 external_pdf: "https://arxiv.org/pdf/2508.13680.pdf"
-local_pdf: "[[PDFs/2025/2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.md"
+local_pdf: "[[PDFs/2025/2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

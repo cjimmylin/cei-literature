@@ -13,8 +13,8 @@ authors: "[[Mahit Nandan A D, Ishan Godbole, Pranav M Kapparad, Shrutilipi Bhatt
 authors_incomplete: false
 url: 
 external_pdf: 
-local_pdf: N/A
 pdf_extract: 
+local_pdf: N/A
 publication: "CLRel 2025 (New Horizons in Computational Linguistics for Religious Texts), Abu Dhabi, UAE"
 DATE_ADDED: 20260213
 ethics_overall: No

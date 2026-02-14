@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: "Md Arid Hasan; Firoj Alam; Md Fahad Hossain; Usman Naseem; Syed Ishtiaque Ahmed"
 url: "https://arxiv.org/abs/2510.01995"
 external_pdf: "https://arxiv.org/pdf/2510.01995.pdf"
-local_pdf: "[[PDFs/2025/2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and.md"
+local_pdf: "[[PDFs/2025/2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

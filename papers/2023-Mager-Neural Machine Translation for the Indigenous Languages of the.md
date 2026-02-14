@@ -13,8 +13,8 @@ authors: "Manuel Mager; Rajat Bhatnagar; Graham Neubig; Ngoc Thang Vu; Katharina
 url: "https://arxiv.org/html/2306.06804"
 external_pdf: "https://arxiv.org/pdf/2306.06804.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2023/2023-Mager-Neural Machine Translation for the Indigenous Languages of the.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Mager-Neural Machine Translation for the Indigenous Languages of the.md"
+local_pdf: "[[PDFs/2023/2023-Mager-Neural Machine Translation for the Indigenous Languages of the.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

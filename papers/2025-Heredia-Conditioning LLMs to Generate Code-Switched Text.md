@@ -13,8 +13,8 @@ authors: "Maite Heredia; Gorka Labaka; Jeremy Barnes; Aitor Soroa"
 url: "https://arxiv.org/html/2502.12924"
 external_pdf: "https://arxiv.org/pdf/2502.12924.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025/2025-Heredia-Conditioning LLMs to Generate Code-Switched Text.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Heredia-Conditioning LLMs to Generate Code-Switched Text.md"
+local_pdf: "[[PDFs/2025/2025-Heredia-Conditioning LLMs to Generate Code-Switched Text.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

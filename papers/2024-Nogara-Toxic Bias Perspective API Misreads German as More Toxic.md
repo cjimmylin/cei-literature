@@ -13,8 +13,8 @@ authors: "Gianluca Nogara, Francesco Pierri, Stefano Cresci, Luca Luceri, Petter
 url: "https://arxiv.org/abs/2312.12651"
 external_pdf: "https://arxiv.org/pdf/2312.12651.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024/2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic.md"
+local_pdf: "[[PDFs/2024/2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

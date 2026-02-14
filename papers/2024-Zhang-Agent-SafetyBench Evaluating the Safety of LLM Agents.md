@@ -13,8 +13,8 @@ authors: "[[Zhang, Zhexin]]; [[Cui, Shiyao]]; [[Lu, Yida]]; [[Zhou, Jingzhuo]]; 
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.14470"
 external_pdf: "https://arxiv.org/pdf/2412.14470.pdf"
-local_pdf: "[[PDFs/2024/2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents.md"
+local_pdf: "[[PDFs/2024/2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
 ethics_overall: No

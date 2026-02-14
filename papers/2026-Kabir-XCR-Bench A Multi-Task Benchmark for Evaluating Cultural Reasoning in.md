@@ -12,8 +12,8 @@ last_author: "[[Mohsinul Kabir]]"
 authors: "Mohsinul Kabir, et al."
 url: "https://arxiv.org/abs/2601.14063"
 external_pdf: "https://arxiv.org/pdf/2601.14063.pdf"
-local_pdf: "[[PDFs/2026/2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in.md"
+local_pdf: "[[PDFs/2026/2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -22,8 +22,8 @@ key_contribution: "Created ToxiGen, a large-scale (274k) machine-generated datas
 significance: "Addresses the scarcity of implicit toxicity data by using LMs to generate subtle hate speech, showing that finetuning on this synthetic data significantly improves detection of human-written implicit hate."
 tags: 
 abstract: "Toxic language detection systems often falsely ﬂag text that contains minority group mentions as toxic, as those groups are often the targets of online hate. Such over-reliance on spurious correlations also causes systems to struggle with detecting implicitly toxic language. To help mitigate these issues, we create TOXIGEN, a new large-scale and machinegenerated dataset of 274k toxic and benign statements about 13 minority groups. We develop a demonstration-based prompting framework and an adver"
-local_pdf: [[PDFs/2022/2022-Hartvigsen-ToxiGen.pdf]]
 pdf_extract: "PDF Extracts/2022/2022-Hartvigsen-ToxiGen.md"
+local_pdf: [[PDFs/2022/2022-Hartvigsen-ToxiGen.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

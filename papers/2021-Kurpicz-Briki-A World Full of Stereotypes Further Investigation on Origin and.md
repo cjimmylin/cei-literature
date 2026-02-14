@@ -14,8 +14,8 @@ doi: 10.3389/fdata.2021.625290
 url: "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2021.625290/full"
 external_pdf: "https://europepmc.org/articles/PMC8209512?pdf=render"
 publication: "Frontiers in Big Data"
-local_pdf: "[[PDFs/2021/2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and.md"
+local_pdf: "[[PDFs/2021/2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

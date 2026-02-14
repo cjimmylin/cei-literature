@@ -12,8 +12,8 @@ last_author: "[[Hansaem Kim]]"
 authors: "Xiaonan Wang, Jinyoung Yeo, Joon-Ho Lim, Hansaem Kim"
 url: "https://arxiv.org/abs/2412.07251"
 external_pdf: "https://arxiv.org/pdf/2412.07251.pdf"
-local_pdf: "[[PDFs/2024/2024-Wang-KULTURE Bench A Benchmark for Assessing Language Model in Korean.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Wang-KULTURE Bench A Benchmark for Assessing Language Model in Korean.md"
+local_pdf: "[[PDFs/2024/2024-Wang-KULTURE Bench A Benchmark for Assessing Language Model in Korean.pdf]]"
 publication: "arXiv / PACLIC 2024"
 DATE_ADDED: 20260213
 ethics_overall: No

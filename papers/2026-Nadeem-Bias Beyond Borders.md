@@ -12,8 +12,8 @@ last_author: "[[Usman Naseem Mehwish Nasim]]"
 authors: "Afrozah Nadeem, Agrima, Mehwish Nasim, Usman Naseem"
 url: "https://arxiv.org/abs/2601.23001"
 external_pdf: "https://arxiv.org/pdf/2601.23001.pdf"
-local_pdf: "[[PDFs/2026/2026-Nadeem-Bias Beyond Borders.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Nadeem-Bias Beyond Borders.md"
+local_pdf: "[[PDFs/2026/2026-Nadeem-Bias Beyond Borders.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
 ethics_overall: No

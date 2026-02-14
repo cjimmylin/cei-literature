@@ -14,8 +14,8 @@ authors: Unknown
 doi: 10.1109/MERCon50084.2020.9023655
 url: "https://ieeexplore.ieee.org/document/9023655/"
 publication: "IEEE (MERCon 2020)"
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

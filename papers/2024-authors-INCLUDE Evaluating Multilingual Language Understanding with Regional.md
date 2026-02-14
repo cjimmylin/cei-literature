@@ -13,8 +13,8 @@ authors: "Angelika Romanou et al. (59 authors)"
 url: "https://arxiv.org/abs/2411.19799"
 external_pdf: "https://arxiv.org/pdf/2411.19799.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024/2024-authors-INCLUDE Evaluating Multilingual Language Understanding with Regional.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-authors-INCLUDE Evaluating Multilingual Language Understanding with Regional.md"
+local_pdf: "[[PDFs/2024/2024-authors-INCLUDE Evaluating Multilingual Language Understanding with Regional.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

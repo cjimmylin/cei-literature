@@ -12,8 +12,8 @@ last_author: "[[Hae Won Park]]"
 authors: "Jocelyn Shen; Yubin Kim; Mohit Hulse; Wazeer Zulfikar; Sharifa Alghowinem; Cynthia Breazeal; Hae Won Park"
 url: "https://arxiv.org/abs/2405.15708"
 external_pdf: "https://arxiv.org/pdf/2405.15708.pdf"
-local_pdf: "[[PDFs/2024/2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal.md"
+local_pdf: "[[PDFs/2024/2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal.pdf]]"
 publication: "ACL 2024"
 DATE_ADDED: 20260207
 ethics_overall: No

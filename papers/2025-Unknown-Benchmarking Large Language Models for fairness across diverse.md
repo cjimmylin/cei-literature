@@ -12,8 +12,8 @@ last_author: [[Unknown]]
 authors: Unknown
 url: "https://community.sap.com/t5/artificial-intelligence-blogs-posts/benchmarking-large-language-models-for-fairness-across-diverse-downstream/ba-p/14287254"
 publication: Web
-local_pdf: 
 pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

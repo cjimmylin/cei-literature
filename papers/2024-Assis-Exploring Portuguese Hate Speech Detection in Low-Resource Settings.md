@@ -14,8 +14,8 @@ authors: "Gabriel Assis, Annie Amorim, Jonnathan Carvalho, Daniel de Oliveira, D
 url: "https://aclanthology.org/2024.propor-1.31/"
 external_pdf: "https://aclanthology.org/2024.propor-1.31.pdf"
 publication: "ACL Anthology (PROPOR 2024)"
-local_pdf: "[[PDFs/2024/2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings.md"
+local_pdf: "[[PDFs/2024/2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

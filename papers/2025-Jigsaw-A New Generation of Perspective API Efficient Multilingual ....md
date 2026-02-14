@@ -14,8 +14,8 @@ doi: 10.1145/3534678.3539147
 url: "https://dl.acm.org/doi/pdf/10.1145/3534678.3539147"
 external_pdf: "https://arxiv.org/pdf/2202.11176"
 publication: ACM
-local_pdf: "[[PDFs/2025/2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ....pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ....md"
+local_pdf: "[[PDFs/2025/2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ....pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

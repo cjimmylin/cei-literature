@@ -13,8 +13,8 @@ authors: "[[Edward Bayes, Israel Abebe Azime, Jesujoba O. Alabi, Jonas Kgomo, Ty
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.00948"
 external_pdf: "https://arxiv.org/pdf/2412.00948.pdf"
-local_pdf: "[[PDFs/2024/2024-Adelani-Uhura A Benchmark for Evaluating Scientific.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Adelani-Uhura A Benchmark for Evaluating Scientific.md"
+local_pdf: "[[PDFs/2024/2024-Adelani-Uhura A Benchmark for Evaluating Scientific.pdf]]"
 publication: "WebSearch: Uhura benchmark African languages scientific question answering"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -15,8 +15,8 @@ doi: 10.2478/jazcas-2025-0025
 url: "https://journals.savba.sk/index.php/jc/article/view/6139"
 external_pdf: "https://reference-global.com/2/v2/download/article/10.2478/jazcas-2025-0025.pdf"
 publication: "Jazykovedny casopis"
-local_pdf: "[[PDFs/2025/2025-Team-Annotated Slovak Datasets for Toxicity Hate Speech and Sentiment.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Team-Annotated Slovak Datasets for Toxicity Hate Speech and Sentiment.md"
+local_pdf: "[[PDFs/2025/2025-Team-Annotated Slovak Datasets for Toxicity Hate Speech and Sentiment.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

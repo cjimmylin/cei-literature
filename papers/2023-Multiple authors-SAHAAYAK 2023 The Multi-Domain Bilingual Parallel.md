@@ -13,8 +13,8 @@ authors: "[[(Multiple authors, published on arXiv)]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2307.00021"
 external_pdf: "https://arxiv.org/pdf/2307.00021.pdf"
-local_pdf: "[[PDFs/2023/2023-Multiple authors-SAHAAYAK 2023 The Multi-Domain Bilingual Parallel.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Multiple authors-SAHAAYAK 2023 The Multi-Domain Bilingual Parallel.md"
+local_pdf: "[[PDFs/2023/2023-Multiple authors-SAHAAYAK 2023 The Multi-Domain Bilingual Parallel.pdf]]"
 publication: "arXiv (data article)"
 DATE_ADDED: 20260213
 ethics_overall: No

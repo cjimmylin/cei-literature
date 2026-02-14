@@ -12,8 +12,8 @@ last_author: "[[Sriraam Natarajan]]"
 authors: "Santhosh G S; Akshay Govind S; Gokul S Krishnan; Balaraman Ravindran; Sriraam Natarajan"
 url: "https://arxiv.org/abs/2510.02742"
 external_pdf: "https://arxiv.org/pdf/2510.02742.pdf"
-local_pdf: "[[PDFs/2025/2025-Santhosh-IndiCASA - Dataset and Bias Evaluation Framework for LLMs in Indian.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Santhosh-IndiCASA - Dataset and Bias Evaluation Framework for LLMs in Indian.md"
+local_pdf: "[[PDFs/2025/2025-Santhosh-IndiCASA - Dataset and Bias Evaluation Framework for LLMs in Indian.pdf]]"
 publication: "AIES 2025"
 DATE_ADDED: 20260207
 ethics_overall: No

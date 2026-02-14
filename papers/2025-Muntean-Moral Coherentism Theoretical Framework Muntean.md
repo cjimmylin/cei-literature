@@ -12,6 +12,7 @@ last_author: "[[Ioan Muntean]]"
 authors: "Muntean, Ioan"
 doi: 10.5406/21521123.62.3.06
 url: "https://doi.org/10.5406/21521123.62.3.06"
+pdf_extract: 
 local_pdf: N/A
 publication: "American Philosophical Quarterly"
 volume: 62

@@ -12,8 +12,8 @@ last_author: "[[CUS-QA Team (Charles University)]]"
 authors: "CUS-QA Team (Charles University)"
 url: "https://arxiv.org/abs/2507.22752"
 external_pdf: "https://arxiv.org/pdf/2507.22752.pdf"
-local_pdf: "[[PDFs/2025/2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset.md"
+local_pdf: "[[PDFs/2025/2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset.pdf]]"
 publication: "arXiv / Hugging Face"
 DATE_ADDED: 20260213
 ethics_overall: No

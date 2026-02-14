@@ -13,8 +13,8 @@ authors: "Md Saroar Jahan, Mourad Oussalah, Nabil Arhab"
 url: "https://aclanthology.org/2022.lrec-1.92/"
 external_pdf: "https://aclanthology.org/2022.lrec-1.92.pdf"
 publication: "ACL Anthology / LREC 2022"
-local_pdf: "[[PDFs/2022/2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.md"
+local_pdf: "[[PDFs/2022/2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

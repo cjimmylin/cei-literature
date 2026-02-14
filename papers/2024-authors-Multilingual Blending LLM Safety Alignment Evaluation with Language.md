@@ -12,8 +12,8 @@ last_author: "[[Multiple authors]]"
 authors: "Multiple authors"
 url: "https://arxiv.org/abs/2407.07342"
 external_pdf: "https://arxiv.org/pdf/2407.07342.pdf"
-local_pdf: "[[PDFs/2024/2024-authors-Multilingual Blending LLM Safety Alignment Evaluation with Language.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-authors-Multilingual Blending LLM Safety Alignment Evaluation with Language.md"
+local_pdf: "[[PDFs/2024/2024-authors-Multilingual Blending LLM Safety Alignment Evaluation with Language.pdf]]"
 publication: "arXiv / NAACL Findings 2025"
 DATE_ADDED: 20260213
 ethics_overall: No

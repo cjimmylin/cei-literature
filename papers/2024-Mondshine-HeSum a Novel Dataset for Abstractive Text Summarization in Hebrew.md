@@ -12,8 +12,8 @@ last_author: "[[Reut Tsarfaty]]"
 authors: "Itai Mondshine, Tzuf Paz-Argaman, Asaf Achi Mordechai, Reut Tsarfaty"
 url: "https://arxiv.org/abs/2406.03897"
 external_pdf: "https://arxiv.org/pdf/2406.03897.pdf"
-local_pdf: "[[PDFs/2024/2024-Mondshine-HeSum a Novel Dataset for Abstractive Text Summarization in Hebrew.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Mondshine-HeSum a Novel Dataset for Abstractive Text Summarization in Hebrew.md"
+local_pdf: "[[PDFs/2024/2024-Mondshine-HeSum a Novel Dataset for Abstractive Text Summarization in Hebrew.pdf]]"
 publication: "arXiv / ACL Anthology (LoResMT 2024)"
 DATE_ADDED: 20260213
 ethics_overall: No

@@ -77,6 +77,39 @@ This paper introduces MEXA, a method for assessing the multilingual capabilities
 Introduces MEXA, a method to assess multilingual capabilities of English-centric LLMs using cross-lingual alignment scores computed from parallel sentences (FLORES-200 and Bible datasets), achieving 0.90 Pearson correlation with downstream task performance across nine models.
 
 
+## Detailed Summary
+
+This paper introduces MEXA (Multilingual Evaluation via Cross-Lingual Alignment), a method for assessing the multilingual capabilities of pre-trained English-centric LLMs by measuring how well non-English language embeddings align with their English counterparts in the model's intermediate layers. Building on the observation that English-centric LLMs use English as a "pivot language" in their middle layers for semantic processing, MEXA computes alignment scores using parallel sentences from FLORES-200 and the Bible corpus. The method achieves an average Pearson correlation of 0.90 between predicted alignment scores and actual downstream task performance (Belebele, m-MMLU, m-ARC) across nine models from the Llama family, Gemma family, Mistral, and OLMo. The authors explore different methods to compute embeddings in decoder-only models, finding that weighted average based on tokens combined with mean pooling across layers yields the best results. MEXA provides a scalable alternative to exhaustive language-specific benchmarking, particularly valuable for languages where evaluation resources are scarce. A public leaderboard is maintained at cis-lmu-mexa.hf.space.
+
+## Paper Outline
+
+1. Introduction - English-centric LLMs and the need for multilingual evaluation
+2. Background and Related Work - Cross-lingual alignment research; pre-training data distribution
+3. MEXA Method - Alignment computation using parallel sentences and middle-layer embeddings
+4. Experimental Setup - Parallel datasets, models, downstream tasks
+5. Results - Correlation analysis between MEXA scores and task performance
+6. Design Analysis - Token-level pooling, layer-level pooling, embedding computation methods
+7. Discussion and Conclusion
+
+## Methods Summary
+
+MEXA leverages the finding that English-centric LLMs process non-English input through an English "detour" in middle layers, assigning higher probabilities to English tokens before selecting foreign language tokens in upper layers. The method computes alignment by: (1) generating embeddings for parallel sentence pairs in English and a target language, (2) measuring alignment between these embeddings in the model's intermediate layers. Two parallel datasets are used: FLORES-200 (covering 200+ languages) and the Bible (covering even more languages). Design analyses compare last-token vs. weighted-average token pooling and different layer pooling strategies. Validation uses three downstream tasks: Belebele (reading comprehension), m-MMLU, and m-ARC.
+
+## Results Summary
+
+MEXA achieves an average Pearson correlation of 0.90 with actual downstream task performance across nine models and two parallel datasets. The weighted-average token pooling combined with mean pooling across layers yields the best and most consistent results. The method works across different model families (Llama, Gemma, Mistral, OLMo) and tasks, demonstrating its generalizability. Languages with higher MEXA alignment scores consistently achieve better downstream performance, validating the approach as a reliable proxy for multilingual capability estimation.
+
+## Conclusions
+
+MEXA provides a scalable, cost-effective method for estimating the multilingual coverage of English-centric LLMs without requiring language-specific downstream evaluation. The high correlation with actual performance suggests that cross-lingual alignment in intermediate layers is a reliable indicator of language capability. The method is particularly valuable for low-resource languages where evaluation benchmarks are unavailable.
+
+## Artifact Contributions
+
+- **Method:** MEXA - cross-lingual alignment scoring for multilingual LLM evaluation
+- **Code:** github.com/cisnlp/MEXA
+- **Leaderboard:** cis-lmu-mexa.hf.space - public multilingual capability leaderboard
+- **Analysis:** Comprehensive evaluation across 9 models, 2 parallel datasets, and 3 downstream tasks
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B6

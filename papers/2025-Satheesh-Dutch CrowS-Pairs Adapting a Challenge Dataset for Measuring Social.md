@@ -76,6 +76,37 @@ This paper presents Dutch CrowS-Pairs, the first full adaptation of the CrowS-Pa
 Dutch CrowS-Pairs is the first full adaptation of CrowS-Pairs for Dutch with 1,463 sentence pairs covering 9 bias categories including sexual orientation, gender, and disability. GEITje (Dutch fine-tuned model) exhibited significantly more bias than base Mistral-7B. Also evaluates English and French models for cross-lingual comparison.
 
 
+## Detailed Summary
+
+This paper introduces Dutch CrowS-Pairs, the first full adaptation of the CrowS-Pairs bias measurement dataset for Dutch, containing 1,463 sentence pairs covering 9 bias categories: race/ethnicity, nationality, physical appearance, sexual orientation, gender, religion, age, disability, and socioeconomic status. The dataset consists of minimally different sentence pairs where one sentence concerns disadvantaged groups and the other advantaged groups, enabling measurement of social biases in language models through pseudo-log-likelihood scoring. The adaptation process involved translating, culturally adapting, and validating sentence pairs to ensure relevance to Dutch cultural context.
+
+Using the Dutch CrowS-Pairs dataset, the authors evaluate bias in several language models: Dutch-specific models (BERTje, RobBERT, GEITje), multilingual BERT, and Mistral-7B. Cross-lingual comparison with English models (BERT, RoBERTa) and French models (FlauBERT, CamemBERT) reveals that English models exhibit the most bias while Dutch models show the least. A notable finding is that GEITje, a Dutch fine-tuned model based on Mistral-7B, exhibits significantly more bias than the base Mistral-7B model, suggesting that language-specific fine-tuning can amplify existing biases. The study also investigates persona-based prompting, finding that assigning personas (e.g., "good person" or "bad person") to LLMs changes the level of bias they exhibit, with cultural and linguistic factors playing a significant role in shaping model biases.
+
+## Paper Outline
+
+1. Introduction - Need for non-English bias measurement datasets
+2. Related Work - Bias detection methods, datasets, and multilingual efforts
+3. Methods - Corpus development and experimental setup
+4. Results - Bias measurements across models and languages
+5. Discussion - Cross-lingual bias differences and persona effects
+6. Conclusion
+
+## Methods Summary
+
+The Dutch CrowS-Pairs dataset is developed by translating and culturally adapting the English CrowS-Pairs, with modifications to ensure cultural relevance for Dutch contexts (e.g., replacing US-specific stereotypes with Dutch-relevant ones). Bias is measured using pseudo-log-likelihood scoring, comparing model preferences between stereotyped and anti-stereotyped sentence pairs. Models evaluated include Dutch (BERTje, RobBERT, GEITje), multilingual (mBERT, Mistral-7B), English (BERT, RoBERTa), and French (FlauBERT, CamemBERT). Persona-based prompting experiments assign different roles (good/bad person) to LLMs to study how impersonation affects bias expression. Both the adapted dataset and all evaluation scripts are made publicly available.
+
+## Results Summary
+
+Dutch language models exhibit the least overall bias compared to English and French models, while English models show the most pronounced biases. GEITje (Dutch fine-tuned Mistral) exhibits significantly more bias than the base Mistral-7B, indicating that language-specific fine-tuning can amplify biases. Bias levels vary substantially across the 9 categories, with nationality and religion showing particularly high bias rates. The cross-lingual comparison demonstrates that bias patterns are not consistent across languages, suggesting that cultural and linguistic factors significantly influence model biases. Persona assignment affects bias levels, with "bad person" personas generally increasing exhibited bias and "good person" personas sometimes reducing it.
+
+## Conclusions
+
+The study highlights the variability of bias across languages and contexts, demonstrating that findings from English bias research cannot be directly extrapolated to other languages. Limitations include potential quality issues from translation-based dataset construction and the limited number of models tested. Future work includes expanding the dataset with more culturally-specific Dutch stereotype scenarios, testing additional models, and developing bias mitigation strategies specifically designed for Dutch language models.
+
+## Artifact Contributions
+
+- **Dutch CrowS-Pairs**: First full Dutch adaptation of CrowS-Pairs with 1,463 sentence pairs across 9 bias categories (scripts and dataset made publicly available)
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B7

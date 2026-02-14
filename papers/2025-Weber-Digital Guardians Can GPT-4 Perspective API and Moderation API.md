@@ -74,6 +74,37 @@ This paper evaluates three automated hate speech detection systems—GPT-4o, Goo
 Compares GPT-4o, Perspective API, and Moderation API for detecting hate speech in German newspaper reader comments using the HOCON34k dataset. GPT-4o outperforms both commercial APIs across zero-shot, one-shot, and few-shot prompting. Evaluates existing models on existing dataset rather than introducing new data.
 
 
+## Detailed Summary
+
+This paper compares the effectiveness of three automated hate speech detection solutions -- OpenAI's GPT-4o, Google Jigsaw's Perspective API, and OpenAI's Moderation API -- on German online newspaper reader comments using the HOCON34k dataset. The HOCON34k dataset contains 34,223 annotated reader comments from German online newspapers, of which a 1,592-sample annotated test set is used for evaluation. Each solution uses a pretrained model with no fine-tuning or additional training. For GPT-4o, three different prompting strategies are tested: Zero-Shot, One-Shot, and Few-Shot approaches. The study uses a combined metric of Matthews Correlation Coefficient (MCC) and F2-score for comparison, with a fine-tuned GBERT model from the HOCON34k project serving as the baseline. The comprehensive hate speech definition follows guidelines from online newspaper behavior codes, covering racist, sexist, homophobic, antisemitic, extremist, vulgar, and threatening content.
+
+## Paper Outline
+
+1. Introduction - Need for automated hate speech detection in German online newspapers
+2. Related Work - LLM-based hate speech detection; Perspective API and Moderation API evaluations
+3. Methodology - Test setup, prompting strategies, evaluation metrics
+4. Dataset - HOCON34k description and test set selection
+5. Experiments - GPT-4o (Zero/One/Few-Shot), Perspective API, Moderation API
+6. Results - Performance comparison using MCC, F2-score, and combined metric
+7. Discussion - Practical implications for content moderation
+8. Conclusion
+
+## Methods Summary
+
+The evaluation uses a 1,592-sample annotated test set from HOCON34k. GPT-4o is tested with three prompting strategies: Zero-Shot (no examples), One-Shot (one example), and Few-Shot (multiple examples). The Perspective API and Moderation API are queried with their default configurations. A fine-tuned GBERT model serves as the baseline. Performance is measured using F2-score (emphasizing recall over precision for hate speech detection), MCC (handling class imbalance), and a combined metric of both. All solutions use pretrained models as of June 2024 with no additional fine-tuning.
+
+## Results Summary
+
+GPT-4o outperforms both the Perspective API and Moderation API across all prompting configurations. GPT-4o also exceeds the HOCON34k fine-tuned GBERT baseline by approximately 5 percentage points on the combined MCC/F2-score metric. Few-Shot prompting generally improves performance over Zero-Shot approaches. The Perspective API and Moderation API, while convenient commercial solutions, do not match GPT-4o's performance on German-language hate speech detection, though previous studies noted the Perspective API performed relatively better for German compared to other tools.
+
+## Conclusions
+
+The study demonstrates that GPT-4o represents a viable and effective tool for automated hate speech detection in German online newspaper comments, outperforming both specialized commercial APIs and fine-tuned baseline models without any task-specific training. The findings have practical implications for content moderation in compliance with EU Digital Services Act requirements, suggesting that general-purpose LLMs with appropriate prompting can serve as effective digital guardians for German-language content.
+
+## Artifact Contributions
+
+- **Evaluation Results:** Comprehensive comparison of GPT-4o, Perspective API, and Moderation API on German hate speech detection using the HOCON34k benchmark
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B7

@@ -74,6 +74,36 @@ This paper presents four versions of GreekLegalRoBERTa, domain-specific large la
 Four versions of RoBERTa-based language models trained on Greek legal and non-legal text. Surpasses performance of GreekLegalBERT and GreekBERT in named entity recognition and multi-class legal topic classification. Contribution to domain-specific NLP tasks in low-resource languages.
 
 
+## Detailed Summary
+
+This paper presents four versions of GreekLegalRoBERTa, domain-specific language models for the Greek legal domain built on the RoBERTa architecture. The models are trained on a combination of Greek legal text from the Nomothesia platform (Greek legislation as linked data), Greek Parliament Proceedings, the Greek portion of European Parliament Proceedings Parallel Corpus, Greek EU legislation, the Raptarchis legal collection, and general Greek text from OSCAR. The four model variants use different combinations of these training corpora to investigate the impact of domain-specific vs. general text on downstream performance. The work demonstrates that focused, language-specific models can outperform larger multilingual models on domain-specific tasks, contributing to NLP research for low-resource languages.
+
+## Paper Outline
+
+1. Introduction - Motivation for Greek legal domain LLMs
+2. Related Work - Monolingual Greek models, generative models, legal benchmarks (LEGALBENCH, LEXTREME)
+3. The GreekLegalRoBERTa Models - Four model configurations, training data sources
+4. Evaluation - Named entity recognition (GreekLegalNER), multi-class legal topic classification (GreekLegalCode)
+5. Conclusion - Limitations and future work
+
+## Methods Summary
+
+The authors develop four RoBERTa-based models using different training corpus combinations drawn from six sources: Nomothesia platform legislation, Greek Parliament Proceedings, European Parliament Proceedings (Greek portion), EU legislation (Greek part), Raptarchis legal collection, and OSCAR general corpus. The models are evaluated on two tasks from the LEXTREME benchmark: (1) GreekLegalNER for named entity recognition in Greek legal documents, originally constructed from Nomothesia platform data, and (2) GreekLegalCode for multi-class legal topic classification across three granularity levels (volume, chapter, subject) using 47k legal documents.
+
+## Results Summary
+
+GreekLegalRoBERTa models surpass all previous models including GreekLegalBERT, GreekLegalBERT-v2, and GreekBERT on both tasks. In NER, improvements of 1.2 points in micro average and 1.4 points in weighted average over GreekLegalBERT-v2 are achieved. In legal topic classification, improvements of 0.12 points (volume), 0.89 points (chapter), and 0.67 points (subject) are recorded. The results demonstrate that concentrating on a single language enables development of models more effective than the multilingual ones used in broader benchmarks like LEXTREME, where XLM-RoBERTa was previously the most effective model.
+
+## Conclusions
+
+Focused, language-specific models using the RoBERTa architecture can outperform both general-purpose monolingual models and multilingual models on domain-specific tasks for low-resource languages like Greek. The authors make models, datasets, and code publicly available, and note that the work complements the recent development of the generative Meltemi LLM for Greek. Future work includes exploring RAG architectures for legal question answering.
+
+## Artifact Contributions
+
+- **GreekLegalRoBERTa models**: Four RoBERTa variants trained on Greek legal and general text (available at https://huggingface.co/AI-team-UoA)
+- **Code**: https://github.com/AI-team-UoA/GreekLegalRoBERTa
+- **State-of-the-art results**: New best performance on GreekLegalNER and GreekLegalCode benchmarks
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B9

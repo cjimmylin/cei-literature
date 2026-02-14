@@ -77,6 +77,38 @@ This paper introduces INCLUDE, a comprehensive multilingual knowledge and reason
 INCLUDE is a comprehensive multilingual benchmark across 44 written languages (including French, Albanian, Armenian, Georgian, Greek, Maltese) with 197,243 QA pairs from local exam sources. Evaluates regional and cultural knowledge rather than translated English content. Models struggle in Armenian, Greek, and Urdu especially on culturally grounded topics. GPT-4o achieves best overall performance at ~77% average accuracy.
 
 
+## Detailed Summary
+
+This paper presents INCLUDE, a large-scale multilingual knowledge and reasoning benchmark comprising 197,243 QA pairs from 1,926 examinations across 44 written languages, 15 scripts, and 52 countries. Unlike existing multilingual benchmarks that rely on English translation (creating translationese artifacts and missing regional context), INCLUDE is constructed from local academic exams, professional certifications, and regional licenses collected in collaboration with native speakers, capturing authentic regional and cultural knowledge. The benchmark addresses the critical observation that language implicitly represents regional knowledge: a legal question in Greek, Russian, or English likely reflects different jurisdictional contexts. INCLUDE categorizes questions by regionality into four types: region-agnostic (34.4%), explicitly regional (18.8%), cultural (16.4%), and implicitly regional (30.4%), enabling fine-grained analysis of how models handle different levels of regional knowledge.
+
+## Paper Outline
+
+1. Introduction - Performance differential of LLMs across languages
+2. Preliminaries - Language availability, regional knowledge definition
+3. The INCLUDE Benchmark - Data collection, quality control, knowledge categorization
+4. Experimental Setup - Data selection (BASE/LITE), models, prompting strategies
+5. Results and Analysis - General performance, regional knowledge, language-specific analysis
+6. Conclusion
+
+## Methods Summary
+
+Data collection involves collecting multiple-choice exams from academic, professional, and regional license sources in collaboration with native speakers. Automatic extraction is followed by quality control where native speaker co-authors verify parsed questions, filter image-dependent items, and annotate metadata (language, topic, level, country). The benchmark is enriched with existing datasets (ArabicMMLU, ChineseMMLU, TurkishMMLU, PersianMMLU, VNHSGE, EXAMS). Two evaluation subsets are curated: INCLUDE-BASE (22,635 QA pairs, max 550 per language) and INCLUDE-LITE (10,770 pairs, max 250 per language). Models are evaluated with 5-shot and zero-shot CoT settings, using both in-language and English prompts, with optional regional prefix prompting.
+
+## Results Summary
+
+GPT-4o achieves the highest overall performance at approximately 77% accuracy across all domains. CoT prompting moderately enhances GPT-4o on Professional and STEM tasks but causes significant drops for Llama-3.1-70B and Qwen2.5-14B. For smaller models (8B or less), Gemma-7B delivers best overall performance. Instruction-tuning shows little benefit and sometimes hurts performance (Gemma-7B-Instruct drops ~15%). Scaling model size within families (Aya-expanse 8B to 32B: +12%; Qwen2.5 7B to 14B: +7%) significantly improves multilingual capabilities. Models struggle most with region-specific questions requiring local legal, regulatory, or cultural knowledge, with performance variance highest across languages for these question types.
+
+## Conclusions
+
+INCLUDE demonstrates that current LLMs exhibit significant performance gaps when evaluated on authentic regional knowledge rather than translated English content. Models perform particularly poorly on low-resource languages and culturally-grounded topics. The benchmark provides a comprehensive resource for evaluating whether multilingual LLMs can genuinely serve diverse language communities rather than merely processing translated content.
+
+## Artifact Contributions
+
+- **INCLUDE benchmark**: 197,243 QA pairs in 44 languages from 1,926 exams (available at https://huggingface.co/datasets/CohereForAI/include-base-44)
+- **INCLUDE-BASE and INCLUDE-LITE**: Standardized evaluation subsets with balanced language coverage
+- **Regional knowledge taxonomy**: Four-category classification (region-agnostic, explicitly regional, cultural, implicitly regional)
+- **Comprehensive evaluation**: Results for GPT-4o, Llama-3.1, Aya-Expanse, Qwen2.5, Gemma, and Mistral families
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B6, B9

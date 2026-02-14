@@ -74,6 +74,39 @@ This paper evaluates the counterfactual fairness of hate speech detection models
 Evaluates counterfactual fairness of Dutch hate speech detection models by creating a Dutch Social Group Terms list and generating counterfactual data using LLMs, then measuring fairness metrics (Counterfactual Token Fairness, equality of odds, demographic parity) on transformer-based models. Does not introduce a new dataset but proposes an evaluation methodology.
 
 
+## Detailed Summary
+
+This paper presents the first comprehensive fairness assessment of hate speech detection models for the Dutch language, focusing on counterfactual fairness -- the principle that a model's decision should remain consistent if sensitive attributes (nationality, ethnicity, sexuality, religion) are changed while keeping all other content identical. The study makes four key contributions: (1) curation of a list of Dutch Social Group Terms reflecting social context, (2) generation of counterfactual data for Dutch using LLMs and established strategies including Manual Group Substitution (MGS) and Sentence Log-Likelihood (SLL), (3) fine-tuning of BERTje-based transformer models with counterfactual data, and (4) fairness evaluation using Counterfactual Token Fairness (CTF) and group fairness metrics (equality of odds, demographic parity). The qualitative evaluation highlights specific challenges in generating realistic counterfactual sentences that conform to Dutch grammar and contextual coherence. Results show that models fine-tuned with counterfactual data perform better in both hate speech detection accuracy and fairness metrics.
+
+## Paper Outline
+
+1. Introduction - Motivation for counterfactual fairness in Dutch hate speech detection
+2. Related Work - Hate speech detection in Dutch; fairness and counterfactual evaluation methods
+3. Methodology - Dutch Social Group Terms curation; counterfactual generation methods
+4. Counterfactual Data Generation - LLM-based (LLMlist, LLMdef) and traditional (MGS, SLL) approaches
+5. Model Fine-tuning - BERTje fine-tuning with counterfactual data
+6. Evaluation - Performance metrics and fairness assessment
+7. Results and Discussion
+8. Conclusion
+
+## Methods Summary
+
+The methodology involves four main components. First, Dutch Social Group Terms are curated to reflect the Dutch social context across sensitive attributes. Second, four counterfactual data generation methods are compared: LLMlist (LLM with group term list), LLMdef (LLM with definitions), SLL (Sentence Log-Likelihood), and MGS (Manual Group Substitution). Third, BERTje models are fine-tuned with the generated counterfactual data. Fourth, models are evaluated on both detection performance and fairness using CTF metrics and group fairness measures (equality of odds, demographic parity). Template-based Dutch counterfactual test data is used for final fairness evaluation.
+
+## Results Summary
+
+Models fine-tuned with counterfactual data demonstrate improvements in hate speech detection performance, average counterfactual fairness, and group fairness metrics. The qualitative evaluation reveals challenges specific to Dutch counterfactual generation, including Dutch grammar rules and contextual coherence issues that make literal group substitution problematic. The study provides practical insights for improving both model performance and fairness in Dutch-language hate speech detection systems.
+
+## Conclusions
+
+The paper bridges a significant gap in counterfactual fairness research for non-English languages by providing the first systematic assessment for Dutch. The findings demonstrate that counterfactual data augmentation can improve both detection performance and fairness simultaneously, while highlighting the need for language-specific adaptations of fairness evaluation methods.
+
+## Artifact Contributions
+
+- **Resource:** Curated list of Dutch Social Group Terms for counterfactual fairness evaluation
+- **Methodology:** Comparative framework for counterfactual data generation in Dutch (4 methods)
+- **Evaluation Framework:** Fairness assessment pipeline using CTF, equality of odds, and demographic parity for Dutch hate speech detection
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B7

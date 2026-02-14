@@ -74,6 +74,35 @@ This interdisciplinary paper combines Linguistics, Law, and Computer Science per
 Evaluates gender stereotypes and biases in automated English-to-Italian translation systems using similarity networks to identify gender-specific terms and cosine similarity to reveal model bias. Advocates gender-neutral translation for gender inclusion. Proposes evaluation methodology rather than introducing a dataset.
 
 
+## Detailed Summary
+
+This interdisciplinary paper, a collaboration between Linguistics, Law, and Computer Science at the University of Milan, evaluates gender stereotypes and biases in English-to-Italian automated translation systems using similarity network analysis. The study situates itself within the broader European legal framework for AI, including the EU AI Act (March 2024) and Council of Europe treaty on human rights in AI systems (May 2024). The methodology involves: (1) defining gender bias categories following human rights law and linguistics literature, (2) collecting word corpora containing gender-specific and gender-neutral terms, (3) representing these words in a feature space organized into a similarity network, (4) computing cosine similarity between target terms and gender-specific anchors (she/lei, he/lui). The paper addresses the specific challenge of translating between English (a notional gender language) and Italian (a grammatical gender language), where the "inclusive masculine" rule and lack of established feminine professional titles create systematic bias opportunities. A comparative analysis between FastText word embeddings and Google Translate reveals significant shifts in bias direction after translation, with the methodology effectively identifying terms susceptible to gender bias.
+
+## Paper Outline
+
+1. Introduction - Gender bias in machine translation and the English-Italian case
+2. Background and Related Work - Gender bias in law and linguistics; MT bias studies; notional vs. grammatical gender
+3. Methodology - Word corpora collection; similarity network construction; bias features
+4. Results - FastText vs. Google Translate comparison; bias direction shifts
+5. Conclusion - Implications for gender-neutral translation algorithms
+
+## Methods Summary
+
+The approach uses cosine similarity to measure semantic associations between gender-specific anchor terms (she/lei, he/lui) and other terms in the embedding space. Word corpora containing both gender-specific and gender-neutral terms are collected and represented using FastText word embeddings and Google Translate outputs. Similarity networks are constructed to visualize and quantify gender associations. Specially designed numerical features capture both the intensity and direction of bias for each term. A comparative analysis between the embedding model (FastText) and the MT system (Google Translate) reveals how translation shifts bias patterns.
+
+## Results Summary
+
+The study finds a significant shift in the direction of gender bias after translation from English to Italian via Google Translate. The methodology effectively identifies terms susceptible to gender bias, providing quantitative measures of bias intensity and direction. The analysis reveals that Italian's grammatical gender system, with its "inclusive masculine" rule and historically asymmetric professional terminology, creates systematic opportunities for bias amplification in machine translation. The comparative analysis demonstrates that both word embedding methods and MT systems exhibit gender bias, but with different patterns and intensities.
+
+## Conclusions
+
+The paper advocates for gender-neutral translation as both a manifestation of gender inclusion and an objective for MT model development. The methodology provides tangible insights for developing and training gender-neutral translation algorithms, contributing to fairer representation of gender in automated translation systems. The approach can be extended to other notional-grammatical language pairs beyond English-Italian.
+
+## Artifact Contributions
+
+- **Methodology:** Similarity network-based framework for identifying and quantifying gender bias in machine translation between notional and grammatical gender languages
+- **Analysis:** Comparative bias assessment between FastText embeddings and Google Translate for English-to-Italian translation
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B8

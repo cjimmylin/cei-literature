@@ -78,6 +78,38 @@ This paper addresses hate speech detection in French social media by compiling a
 This paper compiles and preprocesses a custom French hate speech dataset by merging and cleaning existing corpora. Develops and benchmarks binary-class ML (SVM, RF, NB, LR), DL (LSTM, Bi-LSTM, GRU), and Transformer models (CamemBERT, DistilCamemBERT, DeHateBert) for French hate speech detection. Provides state-of-the-art results for French hate speech detection.
 
 
+## Detailed Summary
+
+This paper addresses the challenge of hate speech detection in French social media, a language that remains under-resourced compared to English, Arabic, or Hindi for this task. The authors compile and preprocess a custom French-language dataset by merging and cleaning existing French hate speech corpora, then develop and evaluate a comprehensive range of models: traditional machine learning classifiers (SVM, Random Forest, Naive Bayes, Logistic Regression), deep learning architectures (LSTM, Bi-LSTM, GRU), and Transformer models (CamemBERT, DistilCamemBERT, DeHateBERT).
+
+Experimental results demonstrate that DistilCamemBERT significantly outperforms all other models, achieving an F1-score of 80% on the binary hate speech classification task. The paper also goes beyond standard classification by implementing interpretability studies using explainable AI methods and bias mitigation techniques to ensure transparency in AI-driven content moderation decisions. The authors discuss the legal framework for hate speech in France, the social impact of online hate speech, and the privacy concerns raised by AI-driven detection systems, emphasizing the importance of fair and unbiased automated decisions.
+
+## Paper Outline
+
+1. Introduction - Expansion of hate speech online, legal aspects, work contributions
+2. Related Work - Prior approaches to hate speech detection
+3. Dataset - Compilation, preprocessing, and analysis of French hate speech corpora
+4. Methodology - ML, DL, and Transformer model architectures
+5. Experimental Results - Performance comparison across all models
+6. Explainable AI and Bias Analysis - SHAP/LIME interpretability studies
+7. Conclusion
+
+## Methods Summary
+
+The authors create a custom French hate speech dataset by merging and cleaning existing French corpora for binary classification (hate vs. non-hate). Three categories of models are developed: traditional ML classifiers (SVM, Random Forest, Naive Bayes, Logistic Regression) with various text representations, deep learning models (LSTM, Bi-LSTM, GRU) for sequential text processing, and Transformer-based models including CamemBERT, DistilCamemBERT, and DeHateBERT. Models are evaluated using standard classification metrics including F1-score. The study includes explainability analysis using SHAP and LIME to interpret model decisions and bias mitigation techniques.
+
+## Results Summary
+
+DistilCamemBERT achieves the best overall performance with an F1-score of 80%, significantly outperforming other approaches on French hate speech detection. Transformer-based models consistently outperform traditional ML and deep learning approaches. The explainable AI analysis reveals how models make classification decisions and identifies potential biases in the detection process. Comparison with existing state-of-the-art results confirms the competitive performance of the proposed approach for French-language hate speech detection.
+
+## Conclusions
+
+The paper highlights that French hate speech detection resources lag behind those available for English. Limitations include the reliance on binary classification (hate vs. non-hate) without fine-grained categories, and the potential biases in merged datasets from different sources. Future work includes expanding to multi-class hate speech categorization, improving bias mitigation, and developing more robust interpretability frameworks for content moderation in French.
+
+## Artifact Contributions
+
+No publicly released artifacts identified.
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B6

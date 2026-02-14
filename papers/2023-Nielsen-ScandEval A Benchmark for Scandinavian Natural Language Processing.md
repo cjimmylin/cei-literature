@@ -77,6 +77,42 @@ This paper introduces ScandEval, a comprehensive benchmarking platform for Scand
 ScandEval benchmark for evaluating NLP models across 4 Scandinavian languages (Danish, Swedish, Norwegian Bokmål, Norwegian Nynorsk) plus Icelandic and Faroese. Covers 4 task types: text classification, named entity recognition, question answering, and linguistic acceptability.
 
 
+## Detailed Summary
+
+This paper introduces ScandEval, a comprehensive benchmarking platform for Scandinavian Natural Language Processing that evaluates pretrained models across four tasks in Danish, Swedish, Norwegian (Bokmaal and Nynorsk), Icelandic, and Faroese. The benchmark addresses the proliferation of monolingual Scandinavian language models by providing a standardized, reproducible evaluation framework. Two new datasets are contributed: ScaLA (Scandinavian Linguistic Acceptability) constructed from Universal Dependencies treebanks with controlled corruption strategies, and ScandiQA (Scandinavian Question Answering) built from the MKQA dataset with translated context paragraphs.
+
+The authors benchmark over 100 models and present results on an interactive online leaderboard. Cross-lingual transfer experiments confirm two key hypotheses: (1) substantial transfer exists among Mainland Scandinavian languages (Danish, Swedish, Norwegian), with the benchmark group {da, no, sv} achieving the highest F-statistic of 33.34; and (2) limited transfer exists between Mainland and Insular Scandinavian languages (Icelandic, Faroese). NB-BERT-large achieves the best overall performance, DFM-encoder-large-v1 leads for Danish, and KB-BERT-large for Swedish, all outperforming massively multilingual models like XLM-RoBERTa and mDeBERTaV3, demonstrating that investment in language-specific technology yields dividends.
+
+## Paper Outline
+
+1. Introduction - Motivation and hypotheses about cross-lingual transfer
+2. Related Work - Non-English NLU benchmarks
+3. Methodology - Finetuning setup, bootstrapping evaluation, cross-lingual transfer measurement, uniform dataset construction
+4. ScandEval Tasks - NER, sentiment classification, linguistic acceptability (ScaLA), question answering (ScandiQA), inference speed
+5. Benchmarking Package and CLI
+6. Experiments - Benchmarking results and cross-lingual transfer analysis
+7. Discussion
+8. Conclusion
+
+## Methods Summary
+
+Models are fine-tuned with a learning rate of 2e-5, 100 warmup steps, batch size 32, AdamW optimizer, and linear learning rate schedule. Each model-dataset combination is evaluated 10 times with different random seeds on bootstrapped test sets, yielding mean scores with 95% confidence intervals. All datasets are uniformized to 1,024 training / 256 validation / 2,048 test samples. Cross-lingual transfer is measured using F-statistics from clustering benchmark scores of representative monolingual models from each language against a control group of non-Scandinavian languages (English, German, Dutch, Finnish, Russian, Arabic). Approximately 1,000 GPU hours on GeForce RTX 2080 Ti were required.
+
+## Results Summary
+
+NB-BERT-large (Norwegian) ranks first overall and in Norwegian; DFM-encoder-large-v1 leads in Danish; KB-BERT-large leads in Swedish. The Norwegian model appears in the top 2 across all three Mainland languages, indicating strong cross-lingual transfer. The cross-lingual experiment yields the highest F-statistic (33.34) for the {da, no, sv} group, confirming Mainland Scandinavian cohesion. Adding Insular languages reduces cohesion: {da, no, sv, fo} yields 25.40, while {da, no, sv, is} drops to 6.97. Dedicated Nordic models outperform massively multilingual models like RemBERT and mDeBERTaV3.
+
+## Conclusions
+
+The results indicate that investing in language-specific models at the Scandinavian level is worthwhile, and a joint Mainland Scandinavian approach could further improve results. Limitations include the translated nature of ScandiQA potentially favoring multilingual models, and the conservative approach to ScaLA corruption that may miss some grammatically incorrect constructions. Future work includes expanding to more tasks and investigating joint Scandinavian model training.
+
+## Artifact Contributions
+
+- **ScandEval Python Package and CLI**: Benchmarking tool for any model on the Hugging Face Hub (https://github.com/saattrupdan/ScandEval)
+- **ScaLA Dataset**: Linguistic acceptability datasets for 6 Scandinavian languages (https://huggingface.co/ScandEval)
+- **ScandiQA Dataset**: Question answering datasets for Mainland Scandinavian languages (https://huggingface.co/datasets/alexandrainst/scandi-qa)
+- **Online Leaderboard**: Interactive results display (https://scandeval.github.io)
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B7

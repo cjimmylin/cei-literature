@@ -75,6 +75,40 @@ This paper introduces Llama-Krikri-8B, a state-of-the-art Greek LLM built on Lla
 Llama-Krikri-8B is a next-generation Greek LLM based on Llama 3.1-8B, trained on 56.7B Greek tokens. The paper proposes three novel public benchmarks for Greek evaluation and supports Modern Greek, English, polytonic text, and Ancient Greek. Shows notable improvements over comparable Greek and multilingual LLMs. Uses human and synthetic instruction/preference data for alignment.
 
 
+## Detailed Summary
+
+This paper introduces Llama-Krikri-8B, a state-of-the-art open Large Language Model tailored for the Greek language, built on Meta's Llama 3.1-8B architecture through continual pre-training on a diverse, high-quality Greek corpus of 56.7 billion tokens. The model supports Modern Greek, English, polytonic text, and Ancient Greek, addressing the underrepresentation of Greek in current LLM research. Key technical innovations include expanding the original Llama 3.1 tokenizer and embeddings for improved efficiency on Greek text, and conducting an annealing phase with high-quality and synthetic data.
+
+The chat version (Llama-Krikri-8B-Instruct) features a multi-stage post-training pipeline utilizing both human and synthetic instruction/preference data created via various synthesis techniques including MAGPIE. The pipeline incorporates Supervised Fine-Tuning (SFT) and alignment through Direct Preference Optimization (DPO), specifically designed to address Greek data scarcity while ensuring helpful, honest, and harmless outputs. The authors also introduce three novel public benchmarks for evaluating Greek instruction-tuned models, covering instruction-following, multi-turn chats, and code/math tasks. Evaluation demonstrates that Llama-Krikri significantly outperforms existing Greek and multilingual LLMs including Meltemi-7B (the previous state-of-the-art Greek LLM), while being competitive with models 3-4 times larger. The Instruct version even surpasses Llama-3.1-8B-Instruct on several English tasks.
+
+## Paper Outline
+
+1. Introduction - Motivation for Greek-specific LLM development
+2. Background and Related Work - Language-specific LLM development and continual pre-training
+3. Pre-training - Corpus collection, tokenizer expansion, training strategy
+4. Post-training - SFT, DPO, synthetic data generation
+5. Evaluation Benchmarks - Three novel Greek benchmarks
+6. Results - Comparison with existing models
+7. Conclusion
+
+## Methods Summary
+
+Llama-Krikri-8B is developed through continual pre-training of Llama 3.1-8B on 56.7B Greek tokens, with expanded tokenizer and embeddings for improved Greek text processing efficiency. An annealing phase uses high-quality and synthetic data to refine model capabilities. Post-training involves multi-stage SFT using both human-created and MAGPIE-synthesized instruction data, followed by DPO alignment using synthetic preference data. Three novel evaluation benchmarks are created for Greek instruction-tuned models. The model is evaluated on existing benchmarks as well as the proposed new benchmarks, comparing against Meltemi-7B, Llama-3.1-8B, and other multilingual LLMs across NLU, NLG, math, code, and instruction-following tasks.
+
+## Results Summary
+
+Llama-Krikri-8B significantly outperforms Meltemi-7B (the previous state-of-the-art Greek LLM) and comparable multilingual LLMs across Greek tasks spanning NLU, NLG, math, code, and instruction-following. The Instruct version surpasses Llama-3.1-8B-Instruct on several English tasks despite being specifically adapted for Greek, demonstrating that language-specific adaptation need not sacrifice multilingual capabilities. The model is competitive with models 3-4 times larger, demonstrating the effectiveness of the continual pre-training and synthetic data pipeline approach. The expanded tokenizer improves processing efficiency for Greek text by reducing token count per text unit.
+
+## Conclusions
+
+Llama-Krikri-8B demonstrates that high-quality Greek language models can be built through efficient continual pre-training and synthetic data strategies, addressing the critical challenge of data scarcity for Greek. Limitations include the bounded base model capabilities inherited from Llama 3.1-8B and the reliance on synthetic data for post-training. Future work includes scaling to larger model sizes, expanding the Greek pre-training corpus, and developing more comprehensive evaluation suites for Greek.
+
+## Artifact Contributions
+
+- **Llama-Krikri-8B-Base**: Greek foundation model (https://huggingface.co/ilsp/Llama-Krikri-8B-Base)
+- **Llama-Krikri-8B-Instruct**: Greek instruction-tuned model with function calling support
+- **Three Novel Greek Benchmarks**: Evaluation benchmarks for instruction-following, multi-turn chats, and code/math tasks
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B9

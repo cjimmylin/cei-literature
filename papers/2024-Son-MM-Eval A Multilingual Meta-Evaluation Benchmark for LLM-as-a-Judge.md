@@ -76,6 +76,39 @@ This paper introduces MM-Eval, a multilingual meta-evaluation benchmark designed
 MM-Eval is a multilingual meta-evaluation benchmark with five core subsets (Chat, Reasoning, Safety, Language Hallucination, Linguistics) spanning 18 languages. Models achieve only 68.9% average accuracy (50% = random). Safety subset performance in low-resource languages is 18.4% lower than English, revealing significant degradation in non-English safety evaluation.
 
 
+## Detailed Summary
+
+This paper introduces MM-Eval, a multilingual meta-evaluation benchmark that assesses whether LLM-based evaluators can reliably judge non-English outputs from multilingual LLMs. The benchmark addresses a critical gap: existing meta-evaluation benchmarks are English-centric, yet evaluator LLMs are widely used to assess multilingual outputs without verification of their cross-lingual reliability. MM-Eval is distinguished by its multilingual-first design philosophy, constructing challenges unique to multilingual settings rather than merely translating English benchmarks. It comprises five core subsets (Chat, Reasoning, Safety, Language Hallucination, Linguistics) covering 18 languages, plus a Language Consistency subset spanning 122 languages. A novel metric, the Language Consistency Index (LCI), quantifies how uniformly evaluators score parallel inputs across languages, measuring fairness and consistency beyond simple ranking accuracy.
+
+## Paper Outline
+
+1. Introduction - Gap in multilingual meta-evaluation
+2. Preliminary - Role of evaluator LLMs in alignment
+3. MM-Eval Benchmark - Five core subsets and Language Consistency subset design
+4. Experimental Setup - 12 evaluator LLMs (open reward models, open judges, proprietary)
+5. Results - Performance across subsets and languages
+6. Validation - Correlation with Best-of-N rankings
+7. Conclusion
+
+## Methods Summary
+
+MM-Eval uses controlled translation rather than full machine translation to avoid translationese artifacts. The five core subsets evaluate different capabilities: Chat (general instruction following), Reasoning (logical and mathematical), Safety (harmful content detection), Language Hallucination (detecting when models respond in the wrong language), and Linguistics (language-specific grammatical and morphological challenges). The Language Consistency subset presents parallel inputs across 122 languages to test whether evaluators assign consistent scores regardless of language. Evaluation uses both pairwise accuracy (standard meta-evaluation) and the novel LCI metric. The benchmark is validated by measuring correlation with Best-of-N rankings, finding significantly stronger correlation compared to English-only and machine-translated benchmarks.
+
+## Results Summary
+
+Across 12 evaluator LLMs (including GPT-4o, Claude models, and open-weight judges), the overall average accuracy is only 68.9% on core subsets (where random guessing yields 50%). Performance on the Safety subset degrades by 18.4% for low-resource languages compared to English. On the Linguistics subset, performance differences between high-resource and low-resource languages are significant. The Language Consistency analysis reveals that evaluators are unfair and inconsistent for lower-resourced languages, systematically assigning lower scores to good responses and higher scores to bad ones. MM-Eval shows statistically significant positive correlation with Best-of-N performance rankings, while English-only meta-evaluation benchmarks fail to show such alignment for multilingual evaluation.
+
+## Conclusions
+
+Strong evaluation performance in English does not readily transfer to non-English languages. Developing robust multilingual evaluator LLMs requires addressing fairness and consistency across languages, beyond simply capturing human preferences in English. The authors warn against assuming that English evaluation capabilities naturally generalize and release MM-Eval to serve as a foundation for building better multilingual evaluators.
+
+## Artifact Contributions
+
+- **MM-Eval benchmark**: Six subsets covering 18+122 languages with multilingual-specific challenges
+- **Language Consistency Index (LCI)**: Novel metric for measuring cross-lingual evaluation fairness
+- **Code and benchmark**: https://github.com/guijinSON/MM-Eval
+- **Empirical evaluation**: Results for 12 evaluator LLMs across all subsets
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B6

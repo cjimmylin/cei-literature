@@ -74,6 +74,37 @@ This paper investigates dialect bias in LLMs by examining seven German dialects 
 This paper constructs a novel evaluation corpus pairing sentences from seven regional German dialects (Low German, North Frisian, Saterfrisian, Ripuarian, Rhine Franconian, Alemannic, Bavarian) with their standard German counterparts. It evaluates dialect naming bias and dialect usage bias through association tasks and decision-making tasks, finding all LLMs exhibit significant bias against German dialect speakers.
 
 
+## Detailed Summary
+
+This paper investigates whether LLMs replicate societal stereotypes against German dialect speakers, drawing on sociolinguistic literature on dialect perception to analyze traits commonly associated with dialect speakers. The authors examine seven German dialects -- Low German, North Frisian, Saterfrisian, Ripuarian, Rhine Franconian, Alemannic, and Bavarian -- across two bias dimensions: dialect naming bias (explicitly labeling someone as a dialect speaker) and dialect usage bias (providing text written in dialect). Two experimental tasks are used: an association task measuring implicit adjective associations with dialect versus standard German speakers, and a decision task probing biased decision-making such as job assignments.
+
+The analysis of nine open-source models of varying sizes and one proprietary model (including Llama-3.1-70B, Llama-3.1-8B, Mistral-7B, Gemma-7B, and GPT-4o-mini) reveals that all evaluated LLMs exhibit significant dialect naming and dialect usage bias. In the association task, models link negative traits (e.g., "uneducated," "unfriendly") to dialect speakers, even reversing the sociolinguistic finding that dialect speakers are viewed as friendly. In the decision task, models consistently assign dialect speakers to occupations requiring lower educational levels. Critically, the study finds that explicitly labeling linguistic demographics amplifies bias more than implicit cues like dialect usage, contradicting prior work showing minimal bias with explicit demographic mentions for other categories.
+
+## Paper Outline
+
+1. Introduction - Historical context of German dialect stereotypes and research questions
+2. Related Work - Dialect perception in sociolinguistics and bias in NLP
+3. Experimental Setup - Trait selection, dialect corpus construction, association and decision tasks
+4. Results - Association task findings, decision task findings, dialect naming vs. usage bias comparison
+5. Discussion - Implications for real-world deployment and comparison with prior bias research
+6. Conclusion
+
+## Methods Summary
+
+The authors construct a novel evaluation corpus pairing sentences from seven German dialects with standard German counterparts. Two experimental paradigms are used: (1) an association task presenting LLMs with two writers (standard German vs. dialect) and asking them to assign adjectives describing stereotypical traits, and (2) a decision task requiring models to generate profiles and make job recommendations for standard German vs. dialect writers. Both tasks test dialect naming bias (explicit labels like "writes Alemannic dialect") and dialect usage bias (actual dialect text samples without labels). Nine open-source models (Llama-3.1-70B/8B, Llama-3-70B/8B, Mistral-7B, Gemma-7B, and others) and one proprietary model are evaluated.
+
+## Results Summary
+
+All evaluated LLMs exhibit significant dialect naming and dialect usage bias in both tasks. In the association task, Llama-3.1-70B significantly associates adjectives related to the "uneducated" trait with dialect speakers. Even the sole positive trait from sociolinguistic studies (friendliness) is reversed by LLMs, which associate dialect speakers with "unfriendly" instead. In the decision task, models show more consistent alignment with human dialect perceptions, systematically assigning dialect speakers to lower-status occupations. Explicitly labeling individuals as dialect speakers amplifies bias more than implicit dialect usage cues, contradicting findings from prior work on other demographic categories. This highlights the pressing need to address dialect bias in LLMs deployed in real-world applications.
+
+## Conclusions
+
+The study demonstrates that current LLMs display explicit discriminatory behavior toward German dialect speakers, with potential real-world consequences in applications such as hiring tools and educational platforms. Limitations include the focus on German dialects only, and the study does not explore mitigation strategies. Future work directions include extending the analysis to other languages with dialect variation, developing debiasing techniques for dialect bias, and investigating the impact of training data composition on dialect-related stereotypes.
+
+## Artifact Contributions
+
+No publicly released artifacts identified.
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B7

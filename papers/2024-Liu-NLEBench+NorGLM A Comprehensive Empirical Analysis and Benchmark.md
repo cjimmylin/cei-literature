@@ -77,6 +77,39 @@ This paper presents NLEBench, a comprehensive benchmark for evaluating generativ
 NLEBench is a comprehensive Norwegian generative LM benchmark including translation, human-annotated datasets, toxicity and bias evaluation, instruction fine-tuning, and Chain-of-Thought investigation. Includes datasets covering Norwegian culture, idioms, and expressions. NorGLM models are Norwegian GPT-2/Llama-based models trained from scratch.
 
 
+## Detailed Summary
+
+This paper presents NLEBench, the first comprehensive benchmark for evaluating generative language models in Norwegian, alongside NorGLM, a family of four Norwegian open language models based on GPT-2 and Llama architectures (369M to 23B parameters). The benchmark is designed to probe Norwegian-specific capabilities including cultural knowledge, idiomatic expressions, and multi-task reasoning, going beyond translated English datasets. The NorGLM models are trained from scratch on a multi-source corpus including mC4, OSCAR, Norwegian National Library materials, Schibsted news articles, tweets, and Reddit posts, supplemented with Danish, Swedish, German, and English text for robustness. The work addresses the gap in evaluation resources for Norwegian, a low-resource language with only 5 million speakers.
+
+## Paper Outline
+
+1. Introduction - Gap in Norwegian GLM evaluation
+2. Related Work - Language models for low-resource languages, multi-task benchmarks
+3. Norwegian Generative Language Model Suite (NorGLM) - Architecture, training data, model variants
+4. Norwegian Benchmark Dataset (NLEBench) - Tasks, dataset categories, evaluation settings
+5. Experiments and Results - Performance comparisons across models
+6. Conclusion
+
+## Methods Summary
+
+NorGLM models (NorGPT-369M, NorGPT-3B, NorGPT-23B, NorLlama-3B) are trained from scratch using multi-source Norwegian data. The benchmark NLEBench includes: existing Norwegian datasets, machine-translated datasets (via Google Translation API, validated by native speakers), and manually annotated datasets. Tasks span instruction following with Norwegian cultural content, document-grounded multi-task evaluation (question answering, summarization), and Chain-of-Thought reasoning. GPT-3.5-Turbo serves as a commercial baseline. Pre-training data is carefully curated to avoid overlap with benchmark data.
+
+## Results Summary
+
+Key findings include: (1) GPT-3.5 shows limited capability in understanding Norwegian context despite being the dominant English LLM; (2) increasing model parameter scales has limited impact on downstream task performance when pre-training data is size-constrained; (3) smaller models can demonstrate Chain-of-Thought reasoning capability; (4) multi-task datasets with synergy tasks effectively verify LLM generalizability on natural language understanding. NB-GPT-J-6B, continued-trained from English GPT-J-6B on a dataset 20x larger than NorGLM's training data, provides an informative comparison between training-from-scratch and continued-pretraining approaches.
+
+## Conclusions
+
+NLEBench fills a critical evaluation gap for Norwegian generative language models by providing culturally-specific and multi-task benchmarks. The work demonstrates that dedicated language-specific benchmarks are essential for understanding LLM capabilities in low-resource languages, as English-dominated models show significant limitations in Norwegian contexts. The resources are released under CC BY-NC 4.0 license for reproducibility.
+
+## Artifact Contributions
+
+- **NLEBench benchmark**: First comprehensive Norwegian GLM evaluation suite with culture-specific tasks
+- **NorGLM models**: Four Norwegian generative language models (369M-23B parameters)
+- **Norwegian instruction dataset**: Human-written instructions specific to Norwegian culture and expressions
+- **Document-grounded multi-task dataset**: Human-annotated QA pairs and summaries
+- **Code and data**: https://github.com/Smartmedia-AI/NorGLM
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B7

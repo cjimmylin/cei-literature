@@ -77,6 +77,37 @@ This paper presents DaCy, a unified SpaCy-based framework for Danish NLP providi
 DaCy framework providing three Danish NLP models: DaCy small (Danish ELECTRA, 14M parameters), DaCy medium (Danish BERT, 110M parameters), and DaCy large (XLM-RoBERTa, 550M parameters). Evaluated on POS tagging, NER, and dependency parsing with data augmentation tests for robustness.
 
 
+## Detailed Summary
+
+This paper presents DaCy, a unified SpaCy-based framework for Danish NLP that provides state-of-the-art multitask models for named entity recognition, part-of-speech tagging, and dependency parsing. DaCy includes three fine-tuned models of varying size: DaCy small (based on Danish ELECTRA, 14M parameters), DaCy medium (based on Danish BERT, 110M parameters), and DaCy large (based on multilingual XLM-RoBERTa, 550M parameters). All models perform POS tagging, NER, and dependency parsing in a single forward pass for efficiency. Beyond core NLP tasks, DaCy provides convenient wrappers for integrating other models for polarity, emotion, and subjectivity detection, and supports any HuggingFace Transformers model for sentence classification.
+
+A significant contribution is the systematic evaluation of bias and robustness using data augmentation on the DaNE benchmark dataset. The authors argue that for languages with limited benchmark sets like Danish, standard test set evaluation provides unrealistic performance estimates, as the DaNE data was collected from 1983-1992 text and may not represent contemporary language use. Through augmentation-based testing (including name substitution with ethnically diverse names, spelling error injection, and casing variations), the authors find that all models except DaCy large display significant biases related to ethnicity in NER performance, while only the Polyglot model shows significant gender bias. DaCy large is especially robust to long input lengths and spelling variations, suggesting that larger multilingual models generalize better than smaller monolingual ones for bias robustness.
+
+## Paper Outline
+
+1. Introduction - Motivation for unified Danish NLP framework
+2. Methods - Model training, data augmentation for bias and robustness testing
+3. Results - Performance on DaNE, augmented evaluations, bias analysis
+4. Discussion - Implications for low-resource language model development
+5. Conclusion
+
+## Methods Summary
+
+All publicly available Danish language models are fine-tuned on the DaNE corpus using SpaCy 3.0.3 for joint POS tagging, NER, and dependency parsing. Models evaluated include two Danish ELECTRAs, Danish ConvBERT, Danish BERT, and multilingual XLM-RoBERTa Large. For bias and robustness testing, the DaNE test set is augmented using: (1) name substitution with Danish first and last names stratified by gender and Muslim/non-Muslim origin; (2) character-level perturbations simulating spelling errors; (3) casing variations; and (4) keystroke error simulation. Statistical significance of bias is assessed by comparing model performance across augmented demographic groups using bootstrapped confidence intervals.
+
+## Results Summary
+
+DaCy large achieves the best overall performance on standard DaNE evaluation, with the highest NER average F1, best UAS/LAS for dependency parsing, and competitive POS accuracy. Under augmented evaluation, DaCy large is the most robust model, maintaining performance under spelling errors, casing variations, and long input lengths. All models except DaCy large show statistically significant ethnicity bias in NER, with lower performance on Muslim-origin names compared to Danish-origin names. Only Polyglot shows significant gender bias. Smaller models (DaCy small, DaCy medium) are more sensitive to input perturbations than the larger multilingual model, suggesting that model scale and multilingual pre-training contribute to robustness.
+
+## Conclusions
+
+The authors conclude that data augmentation is particularly valuable for evaluating language models in low-resource settings where limited benchmarks may provide misleading performance estimates. They recommend that model developers routinely test for demographic biases through name augmentation and provide a series of augmenters as a starting point for more thorough evaluation. Future work includes developing additional augmenters, expanding the DaCy framework with more tasks, and investigating bias mitigation strategies for Danish NLP models.
+
+## Artifact Contributions
+
+- **DaCy Framework**: Unified Danish NLP framework built on SpaCy with three multitask models (https://github.com/centre-for-humanities-computing/DaCy)
+- **Data Augmenters**: Bias and robustness testing tools for Danish NLP evaluation
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B7

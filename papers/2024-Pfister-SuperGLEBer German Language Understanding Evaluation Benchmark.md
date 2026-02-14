@@ -77,6 +77,38 @@ This paper introduces SuperGLEBer, the first comprehensive Natural Language Unde
 SuperGLEBer is a comprehensive German NLU benchmark with 29 tasks spanning document classification, sequence tagging, sentence similarity, and question answering. Evaluates 10 German-pretrained models. First comprehensive German-language benchmark for LLMs.
 
 
+## Detailed Summary
+
+This paper introduces SuperGLEBer, the first comprehensive Natural Language Understanding benchmark suite specifically designed for the German language. The benchmark addresses a critical gap: newly introduced German BERT-based models have historically been evaluated on only two tasks each, insufficient for understanding their full capabilities. SuperGLEBer assembles 29 diverse tasks across four categories (document classification, sequence tagging, sentence similarity, and question answering), sourced from various domains including toxic/offensive language identification, sentiment analysis, named entity recognition, semantic textual similarity, and reading comprehension. All tasks use German-native or human-translated test sets (not machine-translated), and feature simple input/output formats with intuitive evaluation metrics. Ten German-pretrained models spanning encoder-only, decoder-only, and encoder-decoder architectures are comprehensively evaluated.
+
+## Paper Outline
+
+1. Introduction - Need for systematic German NLU evaluation
+2. German Evaluation Tasks - Task descriptions across four categories
+3. Model Selection - 10 German-pretrained models across three architectures
+4. Experimental Setup - Training details, hyperparameters
+5. Results - Comprehensive benchmark evaluation
+6. Conclusion
+
+## Methods Summary
+
+The benchmark selects tasks meeting strict criteria: datasets must have human-translated or natively German-annotated test sets (no machine translation), simple input/output formats avoiding complex task-specific architectures, and evaluable with intuitive metrics (ruling out open-ended generation). The 29 tasks span five text classification domains (toxic/offensive language, sentiment analysis, news/topic classification, fact checking, other classification), sequence tagging (NER, POS, clause segmentation), sentence similarity (STS, paraphrase detection, NLI), and question answering (extractive, multiple choice). Models evaluated include 4 encoder-only (gBERT variants, gelectra, GPTBERT), 3 decoder-only (bloom-clp, mGPT, leo-7b), and 3 encoder-decoder (mT5, mBART, leo-hessianai-13b) architectures.
+
+## Results Summary
+
+Encoder models generally perform best and are usually consistently close to each other across tasks. Notably, the two largest models (mBART and leo-7b) also perform well despite not being encoder architectures, likely due to their larger size. However, the largest encoder model (gBERT-large) does not consistently profit from its larger size compared to smaller counterparts. The benchmark reveals that no single architecture dominates all task types, with different models excelling in different areas. The inclusion of toxic and offensive language identification tasks (Wiegand et al. 2018, Risch et al. 2021) provides evaluation of German hate speech detection capabilities.
+
+## Conclusions
+
+SuperGLEBer provides a much-needed comprehensive evaluation framework for German NLU, enabling systematic comparison of German-pretrained models across diverse tasks and domains. The open-source benchmark suite with public leaderboard (supergleber.professor-x.de) is designed for community expansion with additional tasks and models, fostering continued German LLM research. Published at NAACL 2024.
+
+## Artifact Contributions
+
+- **SuperGLEBer benchmark**: 29-task German NLU evaluation suite covering four task types
+- **Comprehensive evaluation**: Results for 10 German-pretrained models across three architectures
+- **Public leaderboard**: supergleber.professor-x.de for community contributions
+- **Open-source code**: https://github.com/LSX-UniWue/SuperGLEBer
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B7

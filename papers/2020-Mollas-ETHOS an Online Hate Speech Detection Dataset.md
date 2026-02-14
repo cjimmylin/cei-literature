@@ -81,6 +81,37 @@ This paper presents ETHOS, an online hate speech detection dataset containing ap
 ETHOS dataset for online hate speech detection in English with binary and multi-label annotations. Contains Reddit and YouTube comments annotated for violence, directed/undirected hate, and target groups. Evaluated with BERT and traditional ML classifiers.
 
 
+## Detailed Summary
+
+This paper presents ETHOS (onlinE haTe speecH detectiOn dataSet), a hate speech detection dataset with two variants: binary and multi-label, constructed from YouTube and Reddit comments and validated using the Figure-Eight (now Appen) crowdsourcing platform. The dataset contains approximately 998 annotated comments in English. The binary variant classifies comments as hate speech or not, while the multi-label variant annotates eight dimensions: violence, directed vs. undirected hate, and target categories including gender, race, national origin, disability, religion, and sexual orientation. A key contribution is the active sampling annotation protocol designed to ensure balanced representation across hate speech categories while maintaining dataset informativeness, addressing common problems of class imbalance and redundancy in existing hate speech datasets.
+
+The authors benchmark ETHOS using a range of approaches spanning traditional machine learning (Random Forest, Gradient Boosting, Logistic Regression, Naive Bayes), neural networks with and without word embeddings (fastText, GloVe), and BERT-based transformer models. Despite the dataset's limited size, its careful design during the active sampling stage yields competitive classification results. The multi-label formulation is argued to be more practical than binary classification, as it provides human reviewers with richer information about the nature and targets of hateful content, enabling more informed moderation decisions. The dataset and annotation protocol are publicly available to foster research in hate speech detection.
+
+## Paper Outline
+
+1. Introduction - Hate speech problem and motivation for multi-label approach
+2. Related Datasets - Survey of existing hate speech datasets
+3. Annotation Protocol - Active sampling procedure for balanced dataset creation
+4. Experiments - Binary and multi-label classification using ML and DL models
+5. Cross-dataset Evaluation - Generalization tests on external datasets
+6. Discussion and Conclusion - Dataset assets and future directions
+
+## Methods Summary
+
+The annotation protocol uses an active sampling procedure starting from seed data (Hatebusters dataset from social media), iteratively selecting informative instances for crowdsourced annotation to ensure class balance. Binary and multi-label experiments are conducted using: (1) traditional ML algorithms including Random Forest, Gradient Boosting, Logistic Regression, and Naive Bayes with TF-IDF features; (2) neural networks including BiLSTM and CNN with fastText and GloVe embeddings; and (3) BERT-based transformers. The multi-label task uses binary relevance decomposition. Cross-dataset evaluation tests generalization to Davidson et al. (2017) and the multilingual MLMA dataset.
+
+## Results Summary
+
+BERT-based models achieve the best binary classification performance on ETHOS. In multi-label classification, the most challenging categories to detect are those with fewer training examples and more subtle linguistic markers. The active sampling protocol produces a more balanced dataset compared to random sampling approaches, resulting in improved detection of underrepresented hate speech categories. Cross-dataset experiments demonstrate reasonable generalization, though performance degrades when transferring between datasets with different annotation schemas and data sources, highlighting the ongoing challenge of building robust hate speech detectors.
+
+## Conclusions
+
+The authors emphasize that the active sampling approach, while producing a smaller dataset, ensures higher quality and balance than larger but randomly sampled alternatives. The multi-label perspective provides more actionable insights for content moderation than binary classification. Future work includes extending the annotation protocol to other domains, incorporating multimedia content analysis, and developing more sophisticated active learning strategies for hate speech detection.
+
+## Artifact Contributions
+
+- **ETHOS Dataset**: Binary and multi-label hate speech dataset from YouTube and Reddit comments (https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset)
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B9

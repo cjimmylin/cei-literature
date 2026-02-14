@@ -75,6 +75,38 @@ This paper demonstrates that Direct Preference Optimization (DPO) training using
 Shows that DPO (Direct Preference Optimization) training with only English data significantly reduces toxicity in multilingual open-ended generations across 17 languages. Toxic generation probability drops from 46.8% to 3.9%. Uses mechanistic interpretability to identify dual multilinguality property of MLP layers.
 
 
+## Detailed Summary
+
+This paper demonstrates that Direct Preference Optimization (DPO) training using only English toxic/non-toxic data pairs achieves zero-shot cross-lingual generalization for toxicity mitigation across 17 languages. Unlike prior work suggesting limited cross-lingual transfer for safety tasks like safeguarding against malicious instructions, the authors show that DPO-based detoxification transfers robustly. For mGPT-1.3B, the probability of generating toxic continuations drops from 46.8% to 3.9% across all 17 languages after English-only DPO training. The results generalize to multiple LLM families including BLOOM (1.7B and 7.1B), Llama3-8B, and Aya-23-8B.
+
+## Paper Outline
+
+1. Introduction - Motivation for multilingual toxicity mitigation
+2. Related Work - Cross-lingual RLHF generalization, multilingual toxicity evaluation
+3. Experimental Setup - Models, datasets, evaluation metrics
+4. Results - Cross-lingual generalization of DPO detoxification
+5. Mechanistic Interpretability - Dual multilinguality of MLP layers
+6. Predicting Cross-lingual Transferability
+7. Conclusion
+
+## Methods Summary
+
+The authors train DPO on English-only toxic/non-toxic preference pairs and evaluate toxicity in 17 languages using the RTP-LX multilingual toxicity benchmark. They employ mechanistic interpretability tools including causal intervention and activation analysis to examine MLP key and value vectors in trained models. Bilingual sentence retrieval accuracy (using LASER embeddings) is used to predict language-pairwise transferability. Models evaluated include mGPT-1.3B, BLOOM (1.7B, 7.1B), Llama2-7B, Llama3-8B, and Aya-23-8B.
+
+## Results Summary
+
+English-only DPO training dramatically reduces toxic generation probability across all 17 languages: mGPT drops from 46.8% to 3.9%, with similar reductions for BLOOM and Llama variants. The mechanistic analysis reveals a "dual multilinguality property" of MLP layers: value vectors encode multilingual toxic concepts, and key vectors respond to toxic prompts consistently across languages. Post-DPO, key vector activations that promote toxic content are effectively suppressed. Bilingual sentence retrieval accuracy correlates strongly with cross-lingual detoxification transferability, providing a practical predictive tool.
+
+## Conclusions
+
+English-only preference tuning for toxicity mitigation generalizes cross-lingually in a zero-shot manner, contrasting with limited transfer observed for other safety tasks. The dual multilinguality property of MLP layers provides a mechanistic explanation for this generalization. Bilingual sentence retrieval can predict which languages will benefit most from English DPO training, offering practical guidance for multilingual safety deployment.
+
+## Artifact Contributions
+
+- **Code repository**: https://github.com/BatsResearch/cross-lingual-detox
+- **Mechanistic insight**: Identification of dual multilinguality property in MLP key/value vectors
+- **Practical predictor**: Bilingual sentence retrieval as a proxy for cross-lingual DPO transferability
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B6

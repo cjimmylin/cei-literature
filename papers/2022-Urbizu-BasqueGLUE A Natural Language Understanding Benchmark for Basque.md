@@ -77,6 +77,38 @@ This paper introduces BasqueGLUE, the first comprehensive Natural Language Under
 BasqueGLUE benchmark for Basque Natural Language Understanding, containing 6 tasks including sentiment analysis, topic classification, named entity recognition, POS tagging, dependency parsing, and semantic textual similarity. First comprehensive benchmark suite for evaluating language models on Basque.
 
 
+## Detailed Summary
+
+This paper introduces BasqueGLUE, the first comprehensive Natural Language Understanding (NLU) benchmark for Basque, a low-resource and morphologically rich language. Following the design principles of GLUE and SuperGLUE, the benchmark provides a standardized evaluation suite for comparing Basque language models across diverse NLU tasks. The benchmark addresses a critical gap in evaluation infrastructure for Basque, where previously there was no unified standard for assessing model performance. The PDF extract available corresponds to the later BERnaT paper, which builds upon BasqueGLUE as part of its evaluation framework, confirming BasqueGLUE's foundational role in the Basque NLP ecosystem.
+
+BasqueGLUE comprises tasks spanning topic classification (BHTC), coreference resolution (Korref), named entity recognition in both in-domain (NERCid) and out-of-domain (NERCod) settings, question answering framed as NLI (QNLI), word sense disambiguation (WiC), sentiment analysis (BEC), intent classification, slot filling, and stance detection (Vaxx). The benchmark evaluates state-of-the-art models including BERTeus, mBERT, mT5, and XLM-RoBERTa, establishing baseline performance levels. All data are freely available under an open license to support future Basque NLP research and development.
+
+## Paper Outline
+
+1. Introduction - Motivation for a Basque NLU benchmark
+2. Related Work - Other language-specific GLUE-style benchmarks
+3. BasqueGLUE Tasks - Description of included tasks and datasets
+4. Baseline Models - BERTeus, mBERT, mT5, XLM-RoBERTa evaluations
+5. Results and Analysis - Performance comparison across models and tasks
+6. Conclusion - Summary and future directions
+
+## Methods Summary
+
+The benchmark follows GLUE/SuperGLUE criteria for task selection and evaluation. Tasks are drawn from existing Basque NLP resources covering diverse domains including news, Wikipedia, Twitter, and Facebook. Models are fine-tuned on each task using standardized hyperparameters and evaluated on held-out test sets. The evaluation covers both monolingual Basque models (BERTeus) and multilingual models (mBERT, mT5, XLM-RoBERTa) to enable comparison between language-specific and general-purpose approaches.
+
+## Results Summary
+
+Baseline evaluations establish reference performance levels across all nine tasks. The benchmark reveals performance variations between monolingual and multilingual models, with task-specific strengths and weaknesses for each approach. The results provide a foundation for future model development and demonstrate that Basque-specific models can be competitive with larger multilingual alternatives on certain tasks, while multilingual models may have advantages on others due to cross-lingual transfer.
+
+## Conclusions
+
+BasqueGLUE fills a critical evaluation gap for Basque NLP. The authors note that future work should expand the benchmark with additional tasks and that the evaluation infrastructure enables systematic comparison of new Basque language models. The benchmark's role has been validated by subsequent works (including BERnaT) that use it as a core evaluation component.
+
+## Artifact Contributions
+
+- **BasqueGLUE Benchmark**: Nine NLU tasks for Basque with standardized splits and evaluation metrics (https://github.com/orai-nlp/BasqueGLUE)
+- **HuggingFace Dataset**: Available at https://huggingface.co/datasets/orai-nlp/basqueGLUE
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B8

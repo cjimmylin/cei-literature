@@ -77,6 +77,39 @@ This paper presents the Catalan Language Understanding Benchmark (CLUB), a compr
 Catalan Language Understanding Benchmark (CLUB) consisting of six tasks: text classification, paraphrase detection, semantic textual similarity, question answering, NER, and POS tagging. Tests Catalan BERT and RoBERTa models against multilingual baselines.
 
 
+## Detailed Summary
+
+This paper presents the Catalan Language Understanding Benchmark (CLUB), a comprehensive NLU evaluation suite for Catalan modeled after the English GLUE benchmark. CLUB is developed as part of AINA and PlanTL, two public funding initiatives in Spain aimed at empowering the Catalan language in the AI era by providing high-quality resources and tools. The benchmark encompasses multiple NLU tasks including Part-of-Speech (POS) tagging and Named Entity Recognition (NERC) from the AnCora corpus projected onto Universal Dependencies, Textual Entailment for Catalan (TECa) with over 20,000 annotated sentence pairs, and Text Classification (TeCla) with 153,265 news articles across 30 categories from the Catalan News Agency.
+
+The benchmark also includes three Question Answering datasets: XQuAD-Ca (Catalan translation of XQuAD), VilaQuAD (extractive QA from Vilaweb news), and ViquiQuAD (extractive QA from Catalan Wikipedia). All datasets are released under permissive licenses on Zenodo and HuggingFace, with training/evaluation/test splits provided. The datasets follow best practices for data statements (Bender and Friedman, 2018), noting that all annotators were native Catalan speakers with linguistic expertise. The benchmark evaluates Catalan-specific BERT and RoBERTa models against multilingual baselines, establishing evaluation infrastructure that democratizes access to Catalan AI language resources for institutions, organizations, and individuals.
+
+## Paper Outline
+
+1. Introduction - AINA and PlanTL initiatives for Catalan AI
+2. Datasets - POS/NERC from AnCora, TECa textual entailment, TeCla text classification, QA datasets
+3. Data Statements - Annotation quality and transparency
+4. Evaluation - Catalan BERT/RoBERTa vs. multilingual baselines
+5. Conclusion - Summary and availability
+
+## Methods Summary
+
+The benchmark datasets are constructed through multiple approaches: POS and NERC annotations are derived from the existing AnCora corpus projected onto Universal Dependencies format. TECa is created by commissioning native Catalan-speaking annotators (translators, philologists, linguists) to write three hypotheses (neutral, inference, contradiction) for each of 18,000 premise sentences from the Catalan Textual Corpus and Vilaweb newswire, achieving 83.57% inter-annotator agreement. TeCla crawls 219,586 articles from the Catalan News Agency archive. QA datasets include translations (XQuAD-Ca) and original extractive QA from news and Wikipedia sources. Evaluation uses Catalan-specific BERT and RoBERTa models compared against multilingual baselines.
+
+## Results Summary
+
+Catalan-specific BERT and RoBERTa models demonstrate competitive or superior performance compared to multilingual baselines across the CLUB tasks, validating the value of language-specific model development. The benchmark provides comprehensive evaluation across multiple NLU capabilities including syntactic analysis (POS), information extraction (NERC), semantic understanding (TECa, TeCla), and reading comprehension (QA datasets). The diversity of tasks ensures that model evaluation captures both low-level linguistic competency and higher-level language understanding abilities for Catalan.
+
+## Conclusions
+
+CLUB establishes a foundational evaluation infrastructure for Catalan NLP that enables systematic assessment and comparison of language models. Future work includes expanding the benchmark with additional tasks, developing larger and more diverse Catalan language models, and extending the evaluation to cover more advanced NLU capabilities. The open availability of all resources through HuggingFace and Zenodo supports community-driven development.
+
+## Artifact Contributions
+
+- **CLUB Benchmark**: Catalan Language Understanding Benchmark with multiple NLU task datasets (https://github.com/projecte-aina/club)
+- **TECa Dataset**: Textual Entailment for Catalan with 20,000+ sentence pairs (https://doi.org/10.5281/zenodo.4761458)
+- **TeCla Dataset**: Catalan text classification corpus with 153,265 news articles (https://doi.org/10.5281/zenodo.4627197)
+- **HuggingFace Models**: Catalan BERT and RoBERTa models (https://huggingface.co/bsc)
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B8

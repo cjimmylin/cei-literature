@@ -74,6 +74,35 @@ This study evaluates and compares output quality of large language models (Claud
 Comparative evaluation of LLM output quality between English and Albanian across math problems, code generation, and sensitive questions. Finds Claude demonstrates more language-agnostic performance than competitors. No public evaluation dataset provided.
 
 
+## Detailed Summary
+
+This study evaluates and compares the output quality of three large language models -- Claude.ai, GPT-4, and Gemini -- between English and Albanian, a morphologically complex, low-resource language. The evaluation covers three task categories: mathematical problem-solving, code generation, and sensitive question handling. Albanian serves as a contrast case to high-resource English, allowing examination of cross-lingual performance disparities in LLMs that are predominantly trained on English data. The study finds that Claude.ai demonstrates more language-agnostic capabilities with similar accuracy between English and Albanian outputs, while GPT-4 and Gemini show greater performance gaps between the two languages. The work explores ethical dimensions through the sensitive questions category, examining how models handle culturally and linguistically nuanced queries in a low-resource language context, contributing to understanding fairness and equity in LLM performance across different resource levels.
+
+## Paper Outline
+
+1. Introduction - Motivation for cross-lingual LLM evaluation
+2. Related Work - LLM evaluation methodologies, low-resource language challenges
+3. Methodology - Task categories (math, code, sensitive questions), evaluation criteria, language pair selection
+4. Results - Performance comparison across models and languages
+5. Discussion - Implications for low-resource language support
+6. Conclusion
+
+## Methods Summary
+
+Three commercial LLMs (Claude.ai, GPT-4, Gemini) are evaluated on identical tasks presented in both English and Albanian. Tasks span mathematical problem-solving (testing logical reasoning across languages), code generation (assessing whether code quality degrades with non-English prompts), and sensitive questions (examining how models handle ethically charged queries in different linguistic contexts). Outputs are assessed for accuracy, completeness, and appropriateness. The morphological complexity of Albanian, with its extensive case system and unique grammatical features, provides a challenging test case for models primarily trained on English-dominant corpora.
+
+## Results Summary
+
+Claude.ai demonstrates the most language-agnostic performance, achieving similar accuracy levels between English and Albanian across task categories. GPT-4 and Gemini show larger performance gaps, with notably reduced quality for Albanian outputs on complex reasoning and sensitive questions. All models perform relatively better on code generation tasks in Albanian compared to natural language tasks, likely because code syntax is language-independent. The sensitive questions category reveals the most significant disparities, with models providing less nuanced and sometimes inappropriate responses in Albanian compared to English, highlighting potential fairness concerns in low-resource language deployment.
+
+## Conclusions
+
+The study demonstrates that current LLMs exhibit significant performance disparities between high-resource and low-resource languages, with implications for equitable AI access. The finding that Claude.ai shows more balanced cross-lingual performance suggests that certain architectural or training choices can mitigate language-based performance gaps. Limitations include the small scale of the evaluation, the focus on only one low-resource language, and the reliance on a single comparison pair. Future work should expand to additional low-resource languages and develop standardized cross-lingual evaluation benchmarks.
+
+## Artifact Contributions
+
+No publicly released artifacts identified. The evaluation dataset is not publicly available.
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B9

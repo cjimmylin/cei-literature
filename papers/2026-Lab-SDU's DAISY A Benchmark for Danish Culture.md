@@ -77,6 +77,37 @@ This paper introduces SDU's DAISY, a benchmark for evaluating Danish cultural he
 Introduces SDU's DAISY, a benchmark of 741 close-ended QA pairs based on Danish Culture Canon 2006, covering artifacts from 1300 BC to contemporary culture. Each question is humanly approved/corrected. Evaluates GPT-OSS, Mistral-Small, Llama-3.3, and Gemma-3 on Danish cultural heritage knowledge.
 
 
+## Detailed Summary
+
+This paper introduces SDU's DAISY (named after Queen Margrethe II's nickname and the Danish national flower), the first culturally-grounded benchmark for evaluating Danish language models' knowledge of Danish cultural heritage. The benchmark is based on the Kulturkanon (Culture Canon), a curated collection of 108 works across eight cultural domains (architecture, visual arts, design/crafts, film, literature, children's literature, music, performing arts) established by the Danish government in 2006 as an authoritative reference for national cultural identity. For each canonical artifact, the authors query the corresponding Wikipedia page and use a language model to generate questions, followed by human approval or correction of each QA pair. This yields 741 close-ended question-answer pairs spanning artifacts from 1300 BCE archaeological findings through contemporary pop music, design, and architecture, with a mix of central and peripheral questions that test both mainstream knowledge and in-depth understanding of cultural cornerstones. The benchmark addresses a critical gap: despite Danish being spoken by approximately six million people with rich cultural traditions spanning millennia, no standardized benchmark existed for assessing Danish cultural knowledge in AI systems. Baseline evaluations of contemporary LLMs (GPT-OSS, Mistral-Small, Llama-3.3, Gemma-3) are provided.
+
+## Paper Outline
+
+1. The Missing Danish Benchmarks - Motivation and gap analysis
+2. The Danish Culture Canon (Kulturkanon) - History, structure, and suitability as benchmark foundation
+3. The Daisy Benchmark - Generation pipeline, question types, human validation
+4. Baseline Results - LLM evaluation on DAISY
+5. Discussion - Contextualization with related benchmarks
+6. Conclusion
+
+## Methods Summary
+
+The benchmark generation pipeline involves: (1) querying Wikipedia pages for each of the 108 works in the Kulturkanon, (2) using a language model to generate random questions from the page content, creating a sampling strategy with a mix of central and peripheral questions, (3) human approval or correction of each generated QA pair to ensure accuracy. This approach combines LLM-generated diversity with human quality control. The resulting 741 close-ended QA pairs are publicly released alongside an evaluation tool. Baseline evaluation tests GPT-OSS, Mistral-Small, Llama-3.3, and Gemma-3 on the benchmark.
+
+## Results Summary
+
+Baseline evaluations show that contemporary LLMs have varying degrees of Danish cultural knowledge, with models demonstrating decent Danish language ability but significant gaps in deep cultural heritage understanding. The benchmark successfully differentiates between models' levels of Danish cultural knowledge across the eight cultural domains and historical periods covered by the Kulturkanon.
+
+## Conclusions
+
+DAISY provides the first standardized tool for measuring how well LLMs capture Danish cultural knowledge, addressing a critical need for smaller linguistic communities where model evaluation proceeds without adequate feedback mechanisms. By grounding the benchmark in the officially endorsed Kulturkanon, the authors ensure legitimacy, representativeness, and ecological validity that algorithmically-derived datasets cannot match. The work contributes insights into challenges and opportunities for improving cultural representation in language models for low-resource languages.
+
+## Artifact Contributions
+
+- **Benchmark:** SDU's DAISY - 741 close-ended QA pairs covering Danish cultural heritage (https://github.com/schneiderkamplab/SDU-Daisy)
+- **Evaluation Tool:** Public tool for evaluating LLMs on Danish cultural knowledge
+- **Baseline Results:** Evaluation of GPT-OSS, Mistral-Small, Llama-3.3, and Gemma-3
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B7

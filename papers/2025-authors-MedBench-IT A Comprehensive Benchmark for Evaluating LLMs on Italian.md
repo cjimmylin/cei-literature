@@ -76,6 +76,38 @@ This paper introduces MedBench-IT, the first comprehensive benchmark for evaluat
 Introduces MedBench-IT, the first comprehensive benchmark for evaluating LLMs on Italian medical university entrance examinations, comprising 17,410 expert-written multiple-choice questions across six subjects and three difficulty levels. Focuses on benchmark creation for medical domain evaluation.
 
 
+## Detailed Summary
+
+This paper introduces MedBench-IT, the first comprehensive benchmark for evaluating LLMs on Italian medical university entrance examinations. Sourced from Edizioni Simone, a leading Italian publisher of preparatory materials, MedBench-IT comprises 17,410 expert-written multiple-choice questions spanning six subjects (Biology, Chemistry, Logic, General Culture, Mathematics, Physics) and three difficulty levels, mirroring the structure of actual Italian medical admissions tests. The evaluation encompasses diverse models including proprietary LLMs (GPT-4o, Claude series) and resource-efficient open-source alternatives under 30 billion parameters, with a focus on practical deployability in Italian organizational contexts. Beyond standard accuracy assessment, the study conducts rigorous reproducibility tests (88.86% response consistency), ordering bias analysis (finding minimal impact), and reasoning prompt evaluation. The study also examines correlations between question readability and model performance, finding a statistically significant but small inverse relationship. MedBench-IT distinguishes itself from general Italian benchmarks through its specialized medical focus, large corpus size, detailed subject/difficulty breakdowns, and comprehensive robustness analyses.
+
+## Paper Outline
+
+1. Introduction - Need for Italian-specific medical domain benchmarks
+2. Related Work - General and medical LLM benchmarks; Italian NLP resources
+3. Dataset Construction - Sourcing from Edizioni Simone; subject and difficulty taxonomy
+4. Experimental Setup - Model selection; evaluation protocol; robustness analyses
+5. Results - Accuracy, reproducibility, ordering bias, reasoning prompts, readability
+6. Discussion - Implications for Italian EdTech and medical education
+7. Limitations
+8. Conclusion and Future Work
+
+## Methods Summary
+
+The benchmark is constructed from Edizioni Simone's medical entrance exam preparation materials, with 17,410 expert-validated multiple-choice questions organized by six subjects and three difficulty levels. Evaluation uses standard accuracy on the full dataset, plus four in-depth analyses: (1) reproducibility testing across identical runs to measure response consistency; (2) ordering bias analysis with permuted answer choices; (3) comparison of direct prompting versus chain-of-thought reasoning prompts; (4) readability analysis correlating text complexity metrics with model accuracy. Both proprietary (GPT-4o, Claude) and open-source (<30B parameter) models are evaluated.
+
+## Results Summary
+
+Reproducibility testing reveals 88.86% response consistency across identical runs, varying by subject. Ordering bias has minimal impact on model performance. Chain-of-thought reasoning prompts show variable effects depending on model and task complexity. A statistically significant but small inverse relationship exists between question readability and model performance. Proprietary models (GPT-4o, Claude) outperform open-source alternatives, though some smaller models demonstrate practical deployability for Italian educational contexts. Performance varies substantially across subjects and difficulty levels.
+
+## Conclusions
+
+MedBench-IT provides a crucial resource for the Italian NLP community, EdTech developers, and medical education practitioners by establishing a standardized evaluation methodology for LLMs on Italian medical entrance examinations. The comprehensive robustness analyses beyond simple accuracy provide actionable insights into model reliability for high-stakes educational applications.
+
+## Artifact Contributions
+
+- **Benchmark:** MedBench-IT - 17,410 expert-written Italian medical entrance exam questions across 6 subjects and 3 difficulty levels
+- **Evaluation Results:** Comprehensive analysis of proprietary and open-source LLMs including reproducibility, ordering bias, and reasoning prompt assessments
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B8

@@ -75,6 +75,37 @@ This paper presents taz2024full, the largest publicly available German newspaper
 Presents taz2024full, the largest publicly available German newspaper corpus comprising 1.8 million articles from taz newspaper (1980-2024), used for gender bias and discrimination analysis across four decades of German media coverage. Does not evaluate LLMs but provides a resource for training and analyzing German-language models.
 
 
+## Detailed Summary
+
+This paper introduces taz2024full, the largest publicly available corpus of German newspaper articles, comprising over 1.8 million texts from the German daily newspaper taz (die tageszeitung) spanning the period from 1980 to 2024. The corpus is presented as a dual contribution: first as a large-scale open-access resource for German NLP and computational social science, and second as a demonstration of its utility for studying gender bias and discrimination in journalistic language over more than four decades. The authors analyze gender representation using a pronoun-based identification approach within a scalable, structured pipeline, finding a consistent overrepresentation of men in news coverage alongside a gradual shift toward more balanced reporting in recent years. The corpus fills a critical gap in German-language resources, where existing datasets are often limited to keyword searches, sentence-level results, or restricted access.
+
+## Paper Outline
+
+1. Introduction - Motivation for large-scale German corpora and gender bias research
+2. Related Work - Survey of English and German news corpora and bias detection methods
+3. Data Collection and Preprocessing - Web scraping and cleaning of taz articles (1980-2024)
+4. Corpus Statistics - Distribution analysis across decades, sections, and article lengths
+5. Gender Bias Analysis - Pronoun-based actor identification and sentiment analysis pipeline
+6. Results - Temporal trends in gender representation and linguistic framing
+7. Conclusion - Summary of contributions and future research directions
+
+## Methods Summary
+
+The authors constructed the corpus by systematically scraping and preprocessing articles from the taz newspaper website. For the gender bias demonstration, they employed a structured analysis pipeline using pronoun-based gender identification (limited to binary categories due to German linguistic constraints lacking widely used non-binary pronouns). The pipeline combines information extraction and linguistic discourse analysis to examine actor mentions, frequency of gender references, sentiment associated with different genders, and linguistic framing patterns across four decades of reporting. Statistical analysis tracks temporal trends in gender representation.
+
+## Results Summary
+
+The analysis reveals a consistent overrepresentation of men in German newspaper coverage across all four decades examined (1980-2024). However, the data also shows a gradual shift toward more balanced gender coverage in recent years, suggesting evolving journalistic practices. The corpus contains over 1.8 million articles providing sufficient volume for statistically robust diachronic analysis. The pronoun-based approach effectively captures gender representation patterns at scale, though the authors acknowledge limitations in capturing non-binary gender identities.
+
+## Conclusions
+
+The authors conclude that taz2024full provides a valuable open-access resource for German NLP research and computational social science, addressing a significant gap in available large-scale German corpora. The gender bias analysis demonstrates the corpus's utility for studying societal trends reflected in media language, while the scalable analysis pipeline can be adapted for investigating other phenomena. The corpus is freely available to support inclusive and reproducible research in German-language NLP.
+
+## Artifact Contributions
+
+- **Dataset:** taz2024full corpus - 1.8M+ German newspaper articles spanning 1980-2024, publicly available via Zenodo (https://doi.org/10.5281/zenodo.15480855)
+- **Analysis Pipeline:** Scalable structured pipeline for pronoun-based gender identification and bias analysis in German texts
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B7

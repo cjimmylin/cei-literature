@@ -77,6 +77,38 @@ This paper presents HATE-ITA, a set of multilingual models for hate speech detec
 HATE-ITA dataset of Italian tweets annotated for hate speech detection. Dataset includes binary hate/non-hate labels and multi-class target categories (gender, religion, nationality, disability, etc.). Developed for evaluating Italian language models on toxicity and hate speech classification.
 
 
+## Detailed Summary
+
+This paper presents HATE-ITA, a set of multilingual models for hate speech detection in Italian social media text, addressing the severe imbalance between English-focused and non-English hate speech detection resources. The authors combine a large collection of English hate speech data (177,749 samples across five target categories: origin, gender, religion, sexual orientation, and disability) with smaller Italian datasets from EVALITA shared tasks (AMI18 for misogyny and HaSpeeDe18 for anti-immigrant hate speech). The work demonstrates that multilingual training significantly outperforms monolingual approaches for Italian hate speech detection.
+
+The study evaluates six pretrained language models in three experimental frameworks: monolingual (Italian-only training), multilingual (combined English-Italian training), and zero-shot cross-lingual (English-only training tested on Italian). Results show that multilingual XLM-Twitter achieves the best overall performance (83.34 Macro-F1), substantially outperforming the best monolingual model mBERT (66.93 Macro-F1). The models are further validated on the Multilingual HateCheck (MHC) Italian subset, where XLM-Large achieves 77.26 Macro-F1, outperforming the original baseline of 69.60. Qualitative analysis using SHAP explanations demonstrates the models' ability to distinguish context-dependent Italian expressions, such as "finocchi" (meaning either "fennels" or a slur depending on context).
+
+## Paper Outline
+
+1. Introduction - Motivation for Italian hate speech detection and multilingual approach
+2. Datasets - Background, Italian corpora (AMI18, HaSpeeDe18), English corpora compilation
+3. Experimental Methodology - Models, data setup, training frameworks
+4. Results - Overall results, per-dataset results, Multilingual HateCheck evaluation, qualitative evaluation
+5. Related Work - Cross-lingual and zero-shot hate speech detection
+6. Conclusion - Summary and ethical statement
+
+## Methods Summary
+
+Six pretrained models were tested: multilingual (XLM-RoBERTa base/large, XLM-Twitter, mBERT) and monolingual Italian (ITA-Base-XXL, ITA-Base), plus DeHateBert. Models were fine-tuned for 5 epochs with batch size 64, learning rate 1e-3, and AdamW optimizer, evaluated every 50 steps with best checkpoint selection based on validation loss. Three experimental frameworks were compared: monolingual Italian training, multilingual English+Italian training, and zero-shot cross-lingual English-only training. All experiments were repeated 5 times with averaged results. SHAP explanations were used for qualitative evaluation of token-level contributions.
+
+## Results Summary
+
+Multilingual training consistently outperforms monolingual and zero-shot approaches. XLM-Twitter MULTI achieves the best overall Macro-F1 of 83.34, compared to 66.93 for the best monolingual model (mBERT MONO) and 57.27 for the best zero-shot model (XLM-Large ZERO). On individual datasets, XLM-Twitter beats DeHateBert by 39 and 19 F1 points on AMI18 and AMI20 respectively. On Multilingual HateCheck, XLM-Large achieves 77.26 Macro-F1, surpassing the original baseline of 69.60. Monolingual Italian models (ITA-Base: 40.45, ITA-Base-XXL: 61.20) significantly underperform, confirming that small Italian-only datasets are insufficient for robust hate speech detection.
+
+## Conclusions
+
+The authors acknowledge HATE-ITA as a first step rather than a definitive solution, noting uncertainty about whether the model maintains fair precision across different targets and categories. Key limitations include potential overlooking of sensible details and the need for careful benchmarking across additional hate speech targets. Future work should expand target coverage and evaluate cross-lingual transfer to other mid-to-low resource languages.
+
+## Artifact Contributions
+
+- **HATE-ITA Models**: Set of multilingual hate speech detection models for Italian, released as open-source Python library (https://github.com/MilaNLProc/hate-ita)
+- **HuggingFace Models**: Available at https://huggingface.co/MilaNLProc
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B8

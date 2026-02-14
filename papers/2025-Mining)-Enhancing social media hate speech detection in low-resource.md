@@ -78,6 +78,39 @@ This paper addresses hate speech detection in Albanian, a low-resource language 
 This paper enhances hate speech detection in Albanian social media using transformers and explainable AI. Creates a dataset of 20,860 Facebook comments with multi-annotator process. Fine-tuned XLM-RoBERTa achieves F1=86%, establishing new state-of-the-art for Albanian hate speech detection. Uses SHAP and LIME for explainability, addressing dialectal writing, implicit insults, and cultural context challenges in Albanian.
 
 
+## Detailed Summary
+
+This paper addresses the challenge of automatic hate speech detection in Albanian, a low-resource language marked by dialectal diversity (Gheg and Tosk), limited NLP tools, and scarce annotated data. The authors collect a large-scale dataset of 20,860 Facebook comments manually annotated through a rigorous multi-annotator process using majority voting, making it the largest Albanian hate speech dataset to date. The study systematically compares machine learning classifiers (SVM, Random Forest, Logistic Regression, KNN, Naive Bayes), deep learning models (CNN, LSTM, BiLSTM, GRU), and transformer-based models (BERT, XLM-RoBERTa, mBERT) across various feature engineering strategies.
+
+Results demonstrate that character-level 4-gram TF-IDF features consistently reinforce ML classifiers for handling informal spelling and slang, while the fine-tuned XLM-RoBERTa achieves the highest overall performance with an F1-score of 86%. The authors conduct thorough error analysis using both manual inspection and explainable AI approaches (SHAP and LIME), revealing key challenges including dialectal writing variations, short sentences with limited context, and implicit insults that lack explicit hate indicators. These insights highlight the importance of domain-aligned embedding resources and more extensive annotation for low-resource contexts.
+
+## Paper Outline
+
+1. Introduction - Problem statement and research questions
+2. Related Work - High-resource and Albanian-specific hate speech detection
+3. Dataset - Data collection, annotation process, and statistics
+4. Methodology - Feature engineering, ML/DL/Transformer models
+5. Experimental Results - Performance comparison across all models
+6. Error Analysis - Manual inspection and XAI (SHAP/LIME) analysis
+7. Discussion - Key findings and implications
+8. Conclusion
+
+## Methods Summary
+
+The dataset comprises 20,860 Facebook comments in Albanian collected from public posts and annotated by multiple annotators using majority voting for binary classification (hate vs. non-hate). Feature engineering strategies include TF-IDF (word and character n-grams), word embeddings (Word2Vec, FastText), and contextual embeddings. Models evaluated span traditional ML classifiers (SVM, Random Forest, Logistic Regression, KNN, Naive Bayes), deep learning architectures (CNN, LSTM, BiLSTM, GRU), and transformer-based models (BERT, XLM-RoBERTa, mBERT). Explainable AI analysis uses SHAP and LIME to identify token-level contributions to classification decisions and reveal failure modes.
+
+## Results Summary
+
+Fine-tuned XLM-RoBERTa achieves the highest performance with an F1-score of 86%, establishing a new state-of-the-art for Albanian hate speech detection. Character-level 4-gram TF-IDF features prove most effective for ML classifiers, capturing informal spelling and dialectal variations. Among ML models, SVM with character 4-gram features performs best. Deep learning models show moderate improvement over ML baselines but are outperformed by transformers. Error analysis reveals persistent challenges: dialectal writing introduces spelling variations that confuse models, short sentences lack sufficient context for accurate classification, and implicit insults without explicit hate keywords remain difficult to detect across all architectures.
+
+## Conclusions
+
+The study establishes a new benchmark for Albanian hate speech detection and demonstrates the effectiveness of multilingual transformers for low-resource language tasks. Limitations include the binary classification scheme (hate vs. non-hate) without fine-grained categories, and the dataset is limited to Facebook comments. Future work includes extending to multi-class hate speech categorization, developing Albanian-specific pre-trained models, creating domain-aligned embedding resources, and expanding annotation to capture more diverse hate speech manifestations including implicit and coded language.
+
+## Artifact Contributions
+
+No publicly released artifacts identified.
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B9

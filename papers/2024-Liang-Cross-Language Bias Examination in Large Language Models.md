@@ -74,6 +74,37 @@ This study introduces a comprehensive multilingual bias evaluation framework tha
 Multilingual bias evaluation framework combining explicit bias assessment (BBQ benchmark translated to 5 languages: Arabic, Chinese, English, French, Spanish) with implicit bias measurement using prompt-based Implicit Association Test. Finds significant bias differences across languages, with Arabic and Spanish showing high stereotyping.
 
 
+## Detailed Summary
+
+This study constructs a multilingual bias evaluation framework that combines explicit and implicit bias assessment to examine LLM bias across five languages (English, Chinese, Arabic, French, Spanish). For explicit bias, the authors translate BBQ benchmark prompts into target languages using DeepL API and evaluate GPT-4's responses to derive accuracy and bias scores across dimensions including gender, age, race, and religion. For implicit bias, they adapt the Implicit Association Test (IAT) by translating attribute word lists and prompting the model to associate attributes with target concepts, enabling calculation of IAT-style bias scores. The dual-method design reveals that explicit and implicit biases are often divergent, filling a critical gap in multilingual LLM fairness research.
+
+## Paper Outline
+
+1. Introduction - Research questions and contributions
+2. Related Works - Explicit bias measuring, implicit bias measuring, multilingual LLM performances
+3. Methodology - Translation pipeline, BBQ explicit bias testing, IAT implicit bias testing
+4. Results - Cross-language bias scores across dimensions
+5. Discussion - Linguistic, cultural, and technical factors explaining disparities
+6. Conclusion
+
+## Methods Summary
+
+The study employs a four-step workflow: (1) prepare English BBQ prompts and IAT word lists, (2) translate all materials into five target languages via DeepL API with careful meaning preservation, (3) invoke GPT-4 across all languages to collect responses, and (4) compute bias scores. For explicit bias, BBQ accuracy and bias scores are derived from GPT-4's multiple-choice answers in ambiguous and disambiguated contexts. For implicit bias, IAT scores are calculated from GPT-4's forced-choice associations between attributes (e.g., pleasant/unpleasant words) and target concepts (e.g., racial groups), measuring response latency-like association strengths.
+
+## Results Summary
+
+Arabic and Spanish consistently show high levels of stereotype across both explicit and implicit measures. Chinese and English exhibit comparatively lower bias levels. A notable finding is the opposite pattern across bias types: age shows the lowest explicit bias but the highest implicit bias, highlighting that standard benchmarks alone would miss significant latent biases. Gender bias is more prominent in explicit measures, while race-related biases appear more in implicit measures. The results demonstrate that LLMs vary significantly across languages and bias dimensions.
+
+## Conclusions
+
+The framework demonstrates that bias in LLMs is not uniform across languages and that explicit debiasing techniques may not address implicit biases. The divergence between explicit and implicit bias patterns underscores the need for dual-method evaluation approaches in multilingual settings. The work provides a reproducible methodology for cross-language bias analysis and establishes a foundation for developing equitable multilingual LLMs.
+
+## Artifact Contributions
+
+- **Multilingual bias evaluation framework**: Combining BBQ (explicit) and IAT (implicit) methods across five languages
+- **Cross-language bias scores**: Empirical bias measurements for English, Chinese, Arabic, French, and Spanish on GPT-4
+- **Methodology template**: Reproducible workflow for multilingual bias assessment using DeepL translation and dual-method design
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B6

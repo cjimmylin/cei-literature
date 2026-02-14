@@ -74,6 +74,38 @@ This paper addresses NLP challenges for Modern Greek, a lesser-resourced languag
 This paper evaluates open-source (Llama-70b) and closed-source (GPT-4o mini) LLMs on seven core Greek NLP tasks. It reframes Authorship Attribution as a tool to assess potential data usage by LLMs in pre-training, with high 0-shot accuracy suggesting ethical implications for data provenance. Includes a legal NLP case study for Greek.
 
 
+## Detailed Summary
+
+This paper addresses NLP challenges for Modern Greek, a lesser-resourced language, through three key contributions. First, based on a systematic literature review of 142 Greek NLP studies (2012-2023), the authors aggregate publicly available Greek datasets into a unified collection and benchmark seven core NLP tasks using both an open-source model (Llama-70b) and a closed-source model (GPT-4o mini). The tasks include Named Entity Recognition, Summarization, Grammatical Error Correction, Machine Translation (Greek to English, Farsi, and Japanese), Intent Classification, Part-of-Speech Tagging, and Toxicity Detection. The comparison reveals task-specific strengths: Llama performs better on NER and Summarization, GPT excels at GEC, MT (el-jpn), Intent Classification, and POS Tagging, while both perform comparably on Toxicity Detection and some MT pairs.
+
+Second, the authors innovatively reframe Authorship Attribution as a tool to assess potential data usage by LLMs in pre-training. High zero-shot accuracy in authorship attribution suggests that the authored texts may have been included in the model's pre-training data, raising ethical implications for data provenance, particularly relevant for lesser-resourced languages where data availability is limited and unauthorized use is more impactful. Third, the paper introduces the first Text Clustering benchmark for Greek legal texts, demonstrating that a Summarize-Translate-Embed (STE) methodology outperforms traditional TF-IDF approaches for organizing long, complex legal documents.
+
+## Paper Outline
+
+1. Introduction - Challenges for lesser-resourced language NLP
+2. The Data - Dataset availability, popularity, licensing analysis
+3. NLP Task Benchmarks - Seven core tasks with open vs. closed model comparison
+4. Authorship Attribution - Reframed as data provenance assessment
+5. Legal Text Clustering - First Greek legal text clustering benchmark
+6. Related Work
+7. Conclusion
+
+## Methods Summary
+
+The study aggregates 94 Greek datasets identified from a systematic literature review, filtering for those with open-access licenses that permit derivatives. Seven NLP tasks are benchmarked using Llama-70b (open-source) and GPT-4o mini (closed-source) in various evaluation settings. Authorship Attribution uses zero-shot evaluation to test whether models can identify known Greek authors, with high accuracy hypothesized to indicate pre-training data inclusion. The legal text clustering benchmark uses the STE (Summarize, Translate, and Embed) methodology, which first summarizes long legal texts, translates summaries to English, then generates embeddings for clustering, compared against a TF-IDF baseline.
+
+## Results Summary
+
+Task-specific comparison shows Llama-70b excels at NER and Summarization while GPT-4o mini is better at GEC, MT (el-jpn), Intent Classification, and POS Tagging; both perform comparably on Toxicity Detection and some MT pairs. High zero-shot authorship attribution accuracy raises concerns about unauthorized data usage in pre-training, particularly relevant for lesser-resourced languages with limited data sources. The STE methodology significantly outperforms TF-IDF for Greek legal text clustering, demonstrating a practical solution for organizing complex legal documents in lesser-resourced language settings. The availability analysis reveals that most Greek NLP datasets are not publicly accessible, with studies providing available data attracting more citations.
+
+## Conclusions
+
+The paper provides a roadmap for advancing NLP in lesser-resourced languages through model evaluation, task innovation, and practical applications. Limitations include the focus on only two models (one open, one closed), the limited scope of the authorship attribution experiment as a proxy for data provenance, and the single-language focus. Future work includes expanding the benchmark to more models and tasks, developing more robust methods for detecting pre-training data inclusion, and extending the legal clustering methodology to other domains and languages.
+
+## Artifact Contributions
+
+- **Greek NLP Benchmark Code**: Unified evaluation code for Greek NLP tasks (https://github.com/greek-nlp/benchmark)
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B9

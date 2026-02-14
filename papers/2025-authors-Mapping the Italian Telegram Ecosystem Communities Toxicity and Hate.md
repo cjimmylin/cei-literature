@@ -74,6 +74,38 @@ This paper presents a comprehensive large-scale analysis of the Italian Telegram
 Large-scale analysis of Italian Telegram using 186 million messages from 13,151 chats collected in 2023, examining toxicity and hate speech distribution using Perspective API and LLMs. Finds primary hate targets are Black people, Jews, and gay individuals, with toxicity widely normalized. Uses LLMs for analysis but does not evaluate specific models.
 
 
+## Detailed Summary
+
+This paper presents the first comprehensive large-scale mapping of the Italian Telegram ecosystem, analyzing 186 million messages from 13,151 chats collected throughout 2023. The study addresses a significant research gap, as prior work on Telegram examined misinformation, extremism, and toxicity separately and focused primarily on right-wing spaces. Starting from 21,470 seed chats (from Telegram Italia and TGStat), the authors verified language (Italian majority), applied snowball sampling via the forwarding mechanism, and built a directed weighted forwarding network. Using LLMs for thematic characterization and political orientation classification, combined with the Perspective API for toxicity detection, the study addresses three research questions: how political orientations vary across communities, whether toxicity is concentrated or distributed, and who the primary hate speech targets are. Results reveal strong thematic and ideological homophily, a hybrid ideological group where far-left and far-right rhetoric coexists on geopolitical issues, widespread normalization of toxicity within highly toxic communities (not confined to fringe groups), and hate speech primarily targeting Black people, Jews, and LGBTQ+ individuals. A distinctive finding is intra-national hostility where Italians attack other Italian groups along old historical regional divisions.
+
+## Paper Outline
+
+1. Introduction - Research gap in comprehensive Telegram ecosystem analysis
+2. Related Work - Prior Telegram research on extremism, conspiracy, and toxicity
+3. Data Collection - Seed collection, snowball sampling, forwarding network
+4. Network Analysis - Community detection and ideological clustering
+5. Toxicity Analysis - Perspective API evaluation and distribution patterns
+6. Hate Speech Target Analysis - Identity targets and ideological alignment
+7. Discussion - Context-specific moderation strategies
+8. Conclusion
+
+## Methods Summary
+
+Data collection begins with 21,470 seed chats from Telegram Italia and TGStat, filtered to 4,360 valid Italian-language seeds. Snowball sampling via Telegram's forwarding mechanism expands the dataset. A directed weighted forwarding network enables community detection. LLMs classify individual chats by most discussed topics and political orientation. The Perspective API assesses message toxicity levels. Hate speech targets are identified and analyzed across different community types and ideological alignments. The methodology combines network analysis with NLP tools to provide both structural and content-level insights.
+
+## Results Summary
+
+Key findings include: (1) strong thematic and ideological homophily across communities; (2) identification of mixed ideological communities where far-left and far-right rhetoric coexist on geopolitical issues; (3) toxicity is widely normalized within highly toxic communities rather than isolated in extreme fringe groups; (4) hate speech primarily targets Black people, Jews, and LGBTQ+ individuals, independently of the community topic; (5) a common pattern of intra-national hostility where Italians attack other Italians, reflecting regional and historical divisions traceable to old cultural conflicts. Only 18% of Telegram Italia seeds proved valid, while TGStat had 63% validity.
+
+## Conclusions
+
+The study provides the first large-scale mapping of the Italian Telegram sphere, revealing that toxicity is a pervasive and normalized feature rather than an extremist niche phenomenon. The findings suggest the need for context-specific moderation strategies that account for cultural, ideological, and linguistic specificities of the Italian digital ecosystem, and pave the way for cross-linguistic comparisons of toxicity patterns on Telegram.
+
+## Artifact Contributions
+
+- **Dataset:** 186 million Italian Telegram messages from 13,151 chats (2023), the most extensive Italian-focused Telegram dataset to date
+- **Analysis Framework:** Combined network analysis, LLM-based topic/ideology classification, and Perspective API toxicity assessment pipeline
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B8

@@ -77,6 +77,40 @@ This paper extends the US-centered CrowS-Pairs bias measurement dataset to Frenc
 French CrowS-Pairs dataset containing 1,677 sentence pairs in French covering 10 bias categories (gender, religion, age, nationality, sexual orientation, socioeconomic status, physical appearance, disability, race/ethnicity, other). Dataset extends the original English CrowS-Pairs to measure stereotypical biases in French masked language models.
 
 
+## Detailed Summary
+
+This paper extends the US-centered CrowS-Pairs bias measurement dataset to French, creating 1,677 sentence pairs covering stereotypes across ten bias categories including gender, religion, age, nationality, sexual orientation, socioeconomic status, physical appearance, and disability. The dataset consists of 1,467 sentence pairs translated from the original English CrowS-Pairs and 210 newly crowdsourced French-specific pairs that were back-translated to English. The translation process involved professional-quality manual translation by native French speakers fluent in English, with careful attention to maintaining minimal pairs and adapting culturally-specific stereotypes (e.g., replacing "Mexicans love tacos" with "Les marocains adorent faire du couscous"). The authors identified and addressed several limitations in the original CrowS-Pairs, including non-minimal pairs, double switches, and bias mismatches.
+
+Four widely used French and multilingual masked language models (CamemBERT, FlauBERT, FrALBERT, and multilingual BERT) were evaluated. Results show all models except mBERT for French exhibit statistically significant bias (metric scores above 50, t-test p<0.05), with CamemBERT showing the highest bias (59.3 metric score) and mBERT the lowest (50.9). English models generally exhibited higher bias than French models. The study reveals that both the pretraining corpus and model architecture can drastically impact bias expression, and provides guidelines for extending the dataset to other languages and cultural environments.
+
+## Paper Outline
+
+1. Introduction - Motivation for extending bias measurement to French
+2. Corpus Development - Translation methodology, addressing CrowS-Pairs limitations, new data collection via LanguageARC
+3. Measuring Bias in Masked Language Models - Experimental protocol, results for French and English models
+4. Corpus Analysis - Translation process commentary, comparison to original CrowS-Pairs, recommendations for extension
+5. Related Work - Prior work on French bias measurement
+6. Conclusion - Summary and future directions
+7. Ethical Considerations and Limitations
+
+## Methods Summary
+
+The authors extended CrowS-Pairs through two approaches: (1) manual translation of the original 1,508 English pairs into French by native French speakers with professional translation training, with each translation verified by a second author; and (2) crowdsourcing of 210 new French-specific stereotype pairs via the LanguageARC citizen science platform, which were then back-translated to English. Bias was measured using the pseudo-log-likelihood scoring method from the original CrowS-Pairs, evaluating four French/multilingual masked language models (CamemBERT-base, FlauBERT-base, FrALBERT, mBERT) on a single GPU. Statistical significance was assessed via t-tests (p<0.05).
+
+## Results Summary
+
+All tested models favor stereotypical sentences in most bias categories. CamemBERT shows the highest overall bias (metric score 59.3), followed by FrALBERT (55.9), FlauBERT (53.7), and mBERT (50.9). For English, RoBERTa (65.1) and BERT (61.3) show higher bias than their French counterparts. Religion is the most biased category for French models (CamemBERT: 69.6, FrALBERT: 72.2). Notably, mBERT for French shows no significant bias overall. The newly collected French-native sentences show slightly different bias patterns compared to translated sentences, confirming the value of culturally-specific data collection.
+
+## Conclusions
+
+The study identifies US-centric cultural traits in the original CrowS-Pairs that do not transfer to French contexts. Limitations include the restriction to masked language models, the focus on only two cultural contexts (US and France), and the volunteer-based crowdsourcing which may limit participant diversity. Future work includes extending the dataset to more languages, adding formal bias descriptions using frameworks like Social Bias Frames, and applying the methodology to generative language models.
+
+## Artifact Contributions
+
+- **French CrowS-Pairs Dataset**: 1,677 French sentence pairs and 210 new English pairs covering 10 bias categories, released under CC BY-SA 4.0 (https://gitlab.inria.fr/french-crows-pairs/acl-2022-paper-data-and-code)
+- **Revised English CrowS-Pairs**: Corrected version addressing non-minimal pairs, double switches, and bias mismatches
+- **LanguageARC Project**: Citizen science data collection project for French stereotypes (https://languagearc.com/projects/19)
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B6

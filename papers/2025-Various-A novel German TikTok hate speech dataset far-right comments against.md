@@ -78,6 +78,39 @@ This paper introduces the first German TikTok hate speech dataset comprising 10,
 Presents the first German TikTok hate speech dataset with 10,586 comments annotated using a fine-grained 32-label schema developed with extremism experts, targeting far-right content with 13.76% hateful. Uses ensemble of six classifiers for initial filtering but does not evaluate specific LLMs as the main contribution.
 
 
+## Detailed Summary
+
+This paper presents the first German TikTok hate speech dataset, consisting of 10,586 comments collected from comment sections of TikTok videos associated with the German far-right scene. The dataset was developed as part of the European Research Project RECO_DAR in collaboration with domain experts in online extremism and deradicalization. An extensive novel annotation schema comprising 32 labels was designed to capture various dimensions of hate speech including targets, types, and intensity levels, specifically tailored to the TikTok platform. Three trained annotators meticulously annotated the dataset, identifying 13.76% of comments as hateful. The quantitative analysis reveals extensive hate directed toward German politicians (particularly Green Party members), women, and immigrants. The research addresses the critical gap in German-language hate speech research on TikTok, a platform with 47.4% of users under 30 and 25% between ages 10-19, making content moderation particularly important given EU Digital Services Act and AI Act requirements.
+
+## Paper Outline
+
+1. Introduction - Motivation for TikTok hate speech research in German
+2. Background - Definitions of far-right ideology and hate speech; survey of existing datasets
+3. Dataset - Sources, collection process, privacy measures, and data statement
+4. Methodology - Taxonomy development and annotation procedure
+5. Analysis - Label distribution, inter-annotator agreement, sentiment, and keyword analysis
+6. Qualitative Findings - In-depth examination of hate speech patterns
+7. Discussion - Interpretation of results
+8. Conclusion and Future Outlook
+
+## Methods Summary
+
+The dataset was constructed through a multi-step process. First, 323 accounts relevant to the German far-right ecosystem were identified through expert interviews, keywords, and snowball sampling (142 ultimately included). Approximately 815,000 comments were collected in November 2023. An ensemble of six hate speech classifiers (five open models plus Google Jigsaw) performed initial binary classification on a 150,000-comment subset. Videos with the highest average hate levels were selected until reaching 10,586 comments. The 32-label annotation schema was developed with extremism prevention experts, and three trained annotators performed the final annotation.
+
+## Results Summary
+
+Of the 10,586 comments, 13.76% were annotated as hateful. The dataset reveals hate speech predominantly targeting German politicians (especially Green Party members), women, and immigrants. The analysis identifies primary keywords within hate speech classes, label combinations and distributions, and sentiment patterns. Inter-annotator agreement metrics confirm annotation reliability. The fine-grained 32-label schema enables nuanced capture of subtle variations in hate speech expression beyond simple binary classification.
+
+## Conclusions
+
+The research contributes the first German TikTok hate speech dataset with a novel fine-grained annotation schema, addressing an important gap as existing German hate speech datasets focus primarily on Twitter. The comprehensive annotation approach enables more consistent and nuanced analysis compared to binary classification, and the dataset provides research institutions with a resource for developing platform-specific hate speech detection tools for German-language TikTok content.
+
+## Artifact Contributions
+
+- **Dataset:** 10,586 annotated German TikTok comments with 32-label hate speech schema
+- **Annotation Schema:** Novel 32-class fine-grained taxonomy for hate speech annotation, developed with domain experts in online extremism
+- **Code:** Scripts for data collection and classification available on GitHub
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B7

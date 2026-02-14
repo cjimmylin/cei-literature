@@ -74,6 +74,40 @@ This paper presents SnakModel, an open Danish large language model based on Llam
 SnakModel is a Danish LLM based on Llama2-7B, continuously pre-trained on 13.6B Danish words and tuned on 3.7M Danish instructions. Evaluated on 8 language and culturally-specific tasks. Achieves highest overall performance among Llama2-7B-based models for Danish.
 
 
+## Detailed Summary
+
+This paper presents SnakModel, an open Danish large language model based on Llama2-7B, developed through continuous pre-training on 13.6 billion Danish words from a strictly curated corpus of 350 million documents sourced from diverse origins. The model is further instruction-tuned on 3.7 million Danish instruction-answer pairs. The work provides a comprehensive examination of early modeling and training decisions throughout the entire development pipeline, establishing training guidelines for languages with similar resource constraints to Danish. Through detailed analysis of data curation, training dynamics, and hyperparameter ablations, the authors demonstrate that careful attention to each stage of the pipeline is essential for achieving strong performance in low-resource language settings.
+
+## Paper Outline
+
+1. Introduction - Motivation for Danish-specific LLM development
+2. Data Creation - Curating a 13.6B-word Danish corpus from diverse sources
+3. Continuous Pre-training - Adapting Llama2-7B for Danish
+4. Instruction Tuning - Creating 3.7M Danish instruction-answer pairs
+5. Evaluation - Performance on 8 Danish-specific tasks from ScandEval
+6. Analysis - Training dynamics, hyperparameter ablations
+7. Conclusion - Training guidelines for low-resource languages
+
+## Methods Summary
+
+The training pipeline involves: (1) creation of a strictly curated corpus of 13.6 billion Danish words from 350 million documents across diverse sources; (2) continuous pre-training of Llama2-7B on this corpus with careful learning rate scheduling and other hyperparameter choices; (3) instruction tuning using 3.7 million Danish instruction-answer pairs. The model is evaluated on eight language- and culturally-specific tasks from the ScandEval benchmark. Ablation studies examine the effects of various training decisions including data quality filtering, corpus composition, learning rate scheduling, and training duration.
+
+## Results Summary
+
+SnakModel achieves the highest overall performance among contemporary Llama2-7B-based Danish models across the eight evaluation tasks from ScandEval. The analysis reveals that data quality and careful curation are more important than raw data volume, and that training dynamics (learning rate scheduling, warmup strategies) significantly impact final performance. Hyperparameter ablations demonstrate that some design choices that work well for English or high-resource language training do not necessarily transfer to low-resource settings, highlighting the need for language-specific development guidelines.
+
+## Conclusions
+
+The work establishes practical training guidelines for developing LLMs in languages with limited resources, demonstrating that continuous pre-training of an existing English-centric model can effectively adapt it to a new language when combined with careful corpus curation and training decisions. By releasing the model, pre-training corpus, code, and intermediate checkpoints under open licenses, the authors contribute to enabling similar efforts for other low-resource languages.
+
+## Artifact Contributions
+
+- **SnakModel**: Open Danish LLM based on Llama2-7B (model weights publicly available)
+- **Danish pre-training corpus**: 13.6B words from 350M documents, curated and released
+- **Training code and checkpoints**: Open release of full pipeline for reproducibility
+- **Training guidelines**: Documented lessons learned for low-resource language LLM development
+- **Published at NoDaLiDa 2025**
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B7

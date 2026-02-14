@@ -75,6 +75,39 @@ This paper presents LLäMmlein, the first fully transparent German-only language
 German-only decoder models (120M and 1B params) trained from scratch with custom tokenizer. Evaluated on SuperGLEBer benchmark. The 120M model outperforms bert-base-german-cased by 14% on NLI tasks. Fully transparent training pipeline for German language model development.
 
 
+## Detailed Summary
+
+This paper presents LLäMmlein, the first German-only language model family trained entirely from scratch with full transparency, comprising 120M and 1B parameter decoder models. The authors address the lack of reproducible, well-documented German LLMs by providing complete access to training data, code, model weights, and incremental checkpoints. The training pipeline involves cleaning and filtering German text from RedPajama V2 (yielding approximately 2.7 trillion tokens from head and middle quality partitions), creating a dedicated 32k-token German tokenizer optimized for fertility, and pretraining autoregressive models. Multiple checkpoints are evaluated on the SuperGLEBer benchmark throughout training to analyze learning dynamics and scaling effects, providing insights into when performance plateaus occur for different task types.
+
+## Paper Outline
+
+1. Introduction - Need for transparent German-only LLMs
+2. Methodology - Dataset preprocessing, tokenizer fitting, model pretraining, evaluation
+3. Tokenizer - German tokenizer creation and comparison with existing tokenizers
+4. Training - Pre-training procedure, hyperparameters, checkpoint saving
+5. Evaluation - SuperGLEBer benchmark, lm-evaluation-harness-de, downstream adaptations
+6. Conclusion
+
+## Methods Summary
+
+The training data is derived from the German portion of RedPajama V2, filtered to head and middle quality partitions (approximately 2.7 trillion tokens before deduplication). A custom 32k-token German tokenizer is fitted on varying data amounts and compared against existing German tokenizers. Two autoregressive decoder models (120M and 1B parameters) are pretrained from scratch, with incremental checkpoints saved at equal intervals and analyzed using the SuperGLEBer benchmark. Models are evaluated on both the SuperGLEBer benchmark (29 German NLU tasks) and the lm-evaluation-harness-de (translated prompt-based few-shot QA tasks), and compared against existing German-capable models including multilingual and adapted models.
+
+## Results Summary
+
+Both LLäMmlein models perform competitively on the SuperGLEBer benchmark, consistently matching or surpassing models with similar parameter sizes. The 120M model notably outperforms bert-base-german-cased by 14% on natural language inference tasks. Model quality scales with size as expected, but performance improvements on some tasks plateau early during training, offering valuable insights into resource allocation for future models. The checkpoint analysis reveals task-specific learning dynamics, showing that some capabilities emerge early while others continue improving throughout training.
+
+## Conclusions
+
+LLäMmlein establishes a transparent foundation for understanding, improving, and expanding the German LLM ecosystem. By releasing all components (model weights, training data, code, incremental checkpoints), the work enables systematic analysis of the relationship between training data and model outputs, addressing the critical lack of traceability in existing German-capable models. The authors subsequently released a 7B model as well.
+
+## Artifact Contributions
+
+- **LLäMmlein models**: 120M and 1B (and later 7B) German-only decoder models
+- **German tokenizer**: Custom 32k-token tokenizer optimized for German text fertility
+- **Training data**: Cleaned and filtered German subset of RedPajama V2
+- **Incremental checkpoints**: Full checkpoint history for learning dynamics analysis
+- **Code and documentation**: https://professor-x.de/lm/LLaMmlein
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B7

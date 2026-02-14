@@ -77,6 +77,40 @@ This paper introduces DUMB (Dutch Model Benchmark), a comprehensive evaluation s
 DUMB (Dutch Model Benchmark) suite containing 6 datasets for evaluating Dutch language models across sentiment analysis, topic classification, hate speech detection, and natural language inference tasks. Designed to provide comprehensive evaluation of Dutch NLP models.
 
 
+## Detailed Summary
+
+This paper introduces DUMB (Dutch Model Benchmark), a comprehensive evaluation suite comprising nine diverse tasks for Dutch language models, designed to address the lack of a standard benchmark for Dutch. The benchmark balances word-level, word-pair-level, sentence-pair-level, and document-level tasks across low-resource (hundreds of training examples), mid-resource (thousands), and high-resource (tens of thousands) scenarios. Four of the nine tasks were previously unavailable in Dutch: Word Sense Disambiguation (WiC-NL, constructed from DutchSemCor), Pronoun Resolution (DPR, from SemEval2010 coreference data), Causal Reasoning (COPA-NL, translated from COPA with manual correction), and Question Answering (SQuAD-NL, translated from SQuAD2.0). The remaining five tasks are Part-of-Speech tagging (Lassy Small with 218 fine-grained tags), Named Entity Recognition (SoNaR-1 with 7 entity types), Natural Language Inference (SICK-NL), Sentiment Analysis (DBRD book reviews), and Abusive Language Detection (DALC v2.0 with offensive/abusive/neutral tweets). Rather than using a mean score, the authors propose Relative Error Reduction (RER) as a more robust aggregate metric that compares model performance against a strong baseline, enabling future comparisons even when evaluating different model sets.
+
+## Paper Outline
+
+1. Introduction - Motivation, contributions, other benchmarks comparison
+2. DUMB Tasks - Word tasks (POS, NER), word pair tasks (WSD, PR), sentence pair tasks (CR, NLI), document tasks (SA, ALD, QA)
+3. Methods - Pre-trained models, fine-tuning, Relative Error Reduction metric
+4. Results - Overall performance, task-level analysis, internal consistency
+5. Discussion - Implications for Dutch model development
+6. Conclusion
+
+## Methods Summary
+
+Fourteen pre-trained language models are evaluated: Dutch monolingual models (BERTje, RobBERT-v1/v2/2022), multilingual base models (mBERT, XLM-R-base, mDeBERTaV3-base), large multilingual models (XLM-R-large, DeBERTaV3-large), and English models (BERT-base, RoBERTa-base, DeBERTaV3-base/large) as reference points. Models are fine-tuned with task-specific hyperparameters. The Relative Error Reduction (RER) metric compares each model's performance against a strong baseline (DeBERTaV3-large), computed as the percentage reduction in error rate relative to that baseline. Cross-validation splits are used for datasets lacking standard splits, with careful attention to preventing data leakage between tasks sharing source corpora.
+
+## Results Summary
+
+DeBERTaV3-large achieves the best overall performance, followed by XLM-R-large and mDeBERTaV3-base. Current Dutch monolingual models (BERTje, RobBERT variants) significantly underperform compared to large multilingual models, with RobBERT2022 achieving RER of only 50.5% compared to DeBERTaV3-large's baseline. English-only DeBERTaV3-large surprisingly outperforms all Dutch monolingual models on Dutch tasks, suggesting that architecture and training objectives matter more than language-specific pre-training at current scales. The abusive language detection (DALC) task proves most challenging, with the best model achieving only 63.7% macro F1. Internal consistency analysis confirms that the benchmark tasks measure sufficiently distinct capabilities.
+
+## Conclusions
+
+The results strongly suggest that the Dutch NLP community should invest in training larger Dutch models with alternative architectures (e.g., DeBERTa-style disentangled attention) and pre-training objectives beyond standard masked language modeling. The current Dutch monolingual models, all based on BERT/RoBERTa-base architectures, are insufficient to compete with large multilingual alternatives. DUMB provides a public leaderboard at dumbench.nl and will foster further research on Dutch language models, with plans to extend to decoder-based generative model evaluation.
+
+## Artifact Contributions
+
+- **DUMB Benchmark**: Nine-task Dutch evaluation suite with standardized splits (https://github.com/wietsedv/dumb)
+- **WiC-NL Dataset**: Dutch Word Sense Disambiguation dataset constructed from DutchSemCor
+- **DPR Dataset**: Dutch Pronoun Resolution dataset from SemEval2010 coreference annotations
+- **COPA-NL Dataset**: Dutch translation of COPA for causal reasoning
+- **SQuAD-NL Dataset**: Dutch translation of SQuAD2.0 for extractive QA
+- **Public Leaderboard**: Available at dumbench.nl
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B7

@@ -76,6 +76,36 @@ This paper introduces WinoMT, a challenge set of 3,888 English sentences derived
 WinoMT challenge set of 3,888 English segments for evaluating gender bias in machine translation to 8+ languages. Tests four commercial MT systems (Google Translate, Microsoft Translator, Amazon Translate, SYSTRAN) and two academic MT models, not LLMs. Uses morphological analysis to detect gender bias in translations.
 
 
+## Detailed Summary
+
+This paper introduces WinoMT, the first challenge set and evaluation protocol for measuring gender bias in machine translation. WinoMT is composed by concatenating the Winogender (720 instances) and WinoBias (3,168 instances) coreference datasets, yielding 3,888 English sentences balanced between male and female genders and between stereotypical and non-stereotypical gender-role assignments. The evaluation pipeline translates WinoMT sentences into eight target languages with grammatical gender (Spanish, French, Italian, Russian, Ukrainian, Hebrew, Arabic, German), uses fast_align for source-target alignment, and extracts the translated entity's gender via language-specific morphological analysis tools (spaCy for Romance languages, Korobov's analyzer for Slavic languages, and custom tools for Semitic and Germanic languages).
+
+The authors evaluate four commercial MT systems (Google Translate, Microsoft Translator, Amazon Translate, SYSTRAN) and two state-of-the-art academic models (Ott et al. 2018 for English-French, Edunov et al. 2018 for English-German). Three metrics are computed: overall gender accuracy, gender gap (difference in F1 between male and female translations), and stereotype gap (difference in F1 between pro-stereotypical and anti-stereotypical role assignments). Results reveal that all systems exhibit significant gender bias across all tested languages, with most systems performing near chance on gender accuracy and consistently better on stereotypical assignments. A novel "fighting bias with bias" experiment shows that prepending gendered adjectives ("handsome"/"pretty") can improve accuracy by up to 11.2 percentage points in some languages. Human validation on 9,600 annotations confirms 87% agreement with the automatic method.
+
+## Paper Outline
+
+1. Introduction - Gender bias in MT systems and motivation
+2. Challenge Set for Gender Bias in MT - WinoMT composition and evaluation protocol
+3. Evaluation - Experimental setup, results, fighting bias with bias, human validation
+4. Discussion - Related work, limitations, future work
+5. Conclusions - Summary of findings
+
+## Methods Summary
+
+The evaluation method consists of three steps: (1) translate all WinoMT sentences into the target language using each MT system, (2) align source and target words using fast_align trained on the automatic translations, and (3) extract the translated entity's gender using language-specific morphological analysis tools. For Romance languages (Spanish, French, Italian), spaCy is used for gendered noun-determiner agreement detection. For Slavic languages (Russian, Ukrainian), Korobov's morphological analyzer is employed. Arabic gender is identified via the ta marbuta character, Hebrew uses a dedicated analyzer, and German uses DEMorphy. The evaluation computes accuracy, gender gap, and stereotype gap metrics.
+
+## Results Summary
+
+All tested MT systems exhibit significant gender bias. Google Translate achieves the highest accuracy on German (59.4%) and Hebrew (53.7%), while SYSTRAN shows the largest gender gaps (up to 49.4% on Arabic). The stereotype gap is consistently positive across all systems and languages, with SYSTRAN showing the largest gap on Spanish (15.0%) and Google Translate on Hebrew (37.8%). The academic French model (Ott et al.) achieves only 49.4% accuracy with a 16.1% stereotype gap. Adding gendered adjectives improves Google Translate accuracy by 4.5-11.2 percentage points on Spanish, Russian, and Ukrainian. Human validation shows 87% average agreement with the automatic method (vs. 90% inter-annotator agreement), confirming the reliability of the evaluation pipeline.
+
+## Conclusions
+
+The authors acknowledge that WinoMT is composed of synthetic English sentences, which may introduce artificial biases. The dataset serves as a proxy estimation and could be augmented with natural "in the wild" instances from many source languages. The rudimentary debiasing scheme requires oracle coreference resolution and is impractical for real-world use. Future work should develop more gender-balanced MT models and extend the benchmark to more languages and natural text.
+
+## Artifact Contributions
+
+- **WinoMT Challenge Set**: 3,888-instance gender bias evaluation set for MT with evaluation code (https://github.com/gabrielStanovsky/mt_gender)
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B6

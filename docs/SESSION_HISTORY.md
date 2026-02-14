@@ -2,6 +2,34 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 69 (Feb 13, 2026) - Wave 3 (B1-B5) Gap Investigation
+
+### Overview
+Investigated Wave 3 language search agents (B1-B5: Korean, Spanish, Slavic, Vietnamese) for gaps due to potential interruption. Found no agent-level interruption — all 5 agents completed successfully. Identified processing/enrichment gaps in the Wave 2-3 batch and created a saved plan for remediation.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Wave 3 agent status | All 5 complete (no interruption) |
+| Papers in Wave 2-3 batch (LSRC 1-345) | 306 |
+| Missing PDFs | 72/306 (24%) |
+| Missing abstracts | 131/306 (43%) |
+| Placeholder authors | 69/306 (23%) |
+| Ethics classification | 306/306 (100%) |
+| LLM assessment | 306/306 (100%) |
+| Papers traced from B1-B5 agents | 212 found, 199 matched via DOI/arXiv/title, 13 initially "missing" → all 13 found via precise keyword search |
+
+### Key Learnings
+- [Data Quality] Wave 3 agents produced 0 truly new papers — all 212 overlapped with earlier imports. This is normal for later waves covering well-studied languages.
+- [Workflows] Title word-overlap matching (80% Jaccard) produces false negatives for papers with truncated filenames or placeholder authors. Multi-strategy matching (DOI → arXiv → regex keyword) is needed.
+- [Data Quality] LSRC key gaps (43 missing in range 1-345) correspond to filename collisions during import — the papers exist under other names, not lost.
+
+### Files Changed
+- Plans: 1 new (`~/.claude/plans/wave3.md` — remediation plan for Wave 2-3 enrichment gaps)
+- No papers, scripts, or PDFs were modified
+
+---
+
 ## Session 68 (Feb 13, 2026) - Wave 5 Processing Gap Closure (Abstracts + PDFs + Extracts)
 
 ### Overview

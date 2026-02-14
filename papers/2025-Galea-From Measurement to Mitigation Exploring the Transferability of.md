@@ -74,6 +74,39 @@ This paper investigates gender bias in Maltese language models by adapting Engli
 This paper adapts CrowS-Pairs and SEAT benchmarks to Maltese and evaluates gender bias in Maltese language models (BERTu and mBERTu). It tests four debiasing methods: Counterfactual Data Augmentation, Dropout Regularization, Auto-Debias, and GuiDebias. Finds mBERTu shows less biased representation than BERTu. Creates new Maltese evaluation datasets for gender bias research.
 
 
+## Detailed Summary
+
+This paper investigates gender bias in Maltese language models, focusing on BERTu (monolingual) and mBERTu (multilingual mBERT further pre-trained on Maltese). The work is motivated by the observation that most bias research focuses on English, while methods developed for English may not generalize to morphologically rich, low-resource languages. Maltese presents unique challenges as a Semitic-core language with Romance influences, complex gendered grammar, and written in Latin script. The authors adapt English bias measurement benchmarks (CrowS-Pairs and SEAT) to Maltese and implement four debiasing methods: Counterfactual Data Augmentation, Dropout Regularization, Auto-Debias, and GuiDebias.
+
+The study contributes new Maltese evaluation datasets for gender bias research and provides a systematic analysis of the transferability of English-centric debiasing approaches to a linguistically complex low-resource language. The authors argue that gender bias in language models is harmful because it reinforces limiting societal stereotypes and excludes gender diversity, which is especially problematic in gendered languages. Results show that mBERTu exhibits less biased representations than BERTu, while highlighting significant challenges in applying existing English-centric bias mitigation techniques to morphologically complex languages, underscoring the need for more inclusive approaches in multilingual NLP development.
+
+## Paper Outline
+
+1. Introduction - Motivation for bias research in low-resource gendered languages
+2. Related Work - Bias evaluation and mitigation for English and non-English models
+3. Methodology - Bias measurement and mitigation approaches adapted to Maltese
+4. Experiments - Evaluation setup and debiasing implementations
+5. Results - Bias measurement and mitigation effectiveness
+6. Discussion - Transferability challenges and implications
+7. Conclusion
+
+## Methods Summary
+
+Gender bias is measured using CrowS-Pairs (adapted to Maltese) and SEAT (Sentence Encoder Association Test) benchmarks. Four debiasing methods are implemented: Counterfactual Data Augmentation (augmenting training data with gender-swapped examples), Dropout Regularization (applying dropout during fine-tuning to reduce bias), Auto-Debias (automated debiasing without manual attribute selection), and GuiDebias (guided debiasing using external knowledge). Both BERTu (monolingual Maltese BERT) and mBERTu (multilingual mBERT further pre-trained on Maltese) are evaluated before and after debiasing. The evaluation accounts for Maltese-specific challenges including gendered noun forms and complex morphology.
+
+## Results Summary
+
+The multilingual model mBERTu shows less biased representations than the monolingual BERTu model, suggesting that exposure to multiple languages during pre-training may help mitigate some forms of gender bias. However, the effectiveness of debiasing methods varies significantly when transferred from English to Maltese. The complex morphology and gendered grammar of Maltese present challenges for methods designed for English's relatively simple gender system. Some methods that work well for English show limited effectiveness for Maltese, while others introduce unintended side effects on downstream task performance.
+
+## Conclusions
+
+The paper highlights that applying English-centric bias mitigation methods to morphologically complex, low-resource languages requires significant adaptation and may not always yield the expected improvements. Limitations include the focus on binary gender bias only, excluding non-binary gender identities. Future work includes developing bias evaluation and mitigation methods specifically designed for gendered and morphologically rich languages, expanding to other forms of social bias beyond gender, and creating larger Maltese evaluation datasets.
+
+## Artifact Contributions
+
+- **Maltese CrowS-Pairs**: Adapted CrowS-Pairs evaluation dataset for Maltese gender bias measurement
+- **Maltese SEAT**: Adapted SEAT benchmark for Maltese sentence encoder bias evaluation
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B9

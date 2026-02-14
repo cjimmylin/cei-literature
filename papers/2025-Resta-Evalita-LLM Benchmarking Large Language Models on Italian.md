@@ -77,6 +77,38 @@ This paper presents Evalita-LLM, a comprehensive benchmark for evaluating LLMs o
 Evalita-LLM is a comprehensive benchmark and leaderboard designed to evaluate LLMs on Italian tasks, covering ten native Italian tasks including both multiple-choice and generative formats, with multiple prompts per task to mitigate sensitivity. All tasks are native Italian, avoiding translation biases. Provides leaderboard for 23 open-source models.
 
 
+## Detailed Summary
+
+This paper describes Evalita-LLM, a new benchmark designed to evaluate LLMs on native Italian tasks, addressing critical limitations of existing evaluation practices where Italian models are primarily tested on benchmarks automatically translated from English. The benchmark features three key innovations: (1) all tasks are native Italian, avoiding translation quality issues and cultural biases inherent in translated benchmarks; (2) the benchmark includes both multiple-choice and generative tasks, enabling more natural interaction with LLMs compared to the predominant multiple-choice paradigm; and (3) all tasks are evaluated against multiple prompts, mitigating model sensitivity to specific prompt formulations and enabling fairer comparisons.
+
+The benchmark comprises 10 tasks selected from the Evalita initiative (the Italian Association for Computational Linguistics' evaluation campaigns) and other sources, covering diverse linguistic phenomena, genres, and applications including word sense disambiguation, text classification, question answering, information extraction, and summarization. The authors employ an iterative validation methodology where candidate tasks and prompts are tested against a set of development LLMs before inclusion. The benchmark addresses important methodological issues including generative task evaluation challenges, multiple-prompt evaluation for fairness, and dataset saturation concerns where models may have seen benchmark data during pre-training. Twenty-three open-source models are evaluated, including Llama-3.1, Gemma-2, Mistral, Qwen-2.5, Aya-Expanse, and Italian-specific models like Minerva-3B and Zefiro.
+
+## Paper Outline
+
+1. Introduction - Issues with translated benchmarks for Italian
+2. Methodology - Iterative validation process for task and prompt selection
+3. Evalita-LLM Tasks - Ten tasks spanning multiple NLP competencies
+4. Evaluation Metrics - Accuracy, F1, and ROUGE for different task types
+5. Experimental Setup - Development and evaluation models
+6. Results - Performance statistics for state-of-the-art LLMs
+7. Conclusion
+
+## Methods Summary
+
+Tasks are drawn from the Evalita evaluation campaigns and implemented using the lm-evaluation-harness library. The development follows an iterative validation process: candidate datasets are selected from ELG, converted to HuggingFace format, and tasks are defined with prompt design, pre/post-processing, and evaluation metrics. Candidate tasks and prompts are validated against development LLMs, with tasks that prove too complex or prompts that fail to elicit meaningful responses being refined or discarded. Six tasks are implemented as multiple-choice (using logits for option selection) and four as generative (using generate-until). Each task uses multiple prompts to assess model sensitivity. Metrics include accuracy for multiple-choice tasks, F1 for classification/extraction, and ROUGE for summarization.
+
+## Results Summary
+
+The evaluation of 23 open-source LLMs reveals variation across tasks and model families. Italian-specific models (Minerva, Zefiro) show advantages on culturally-specific tasks but not universally. The multiple-prompt evaluation methodology reveals significant prompt sensitivity across models, with performance varying substantially depending on prompt formulation -- highlighting the unfairness of single-prompt evaluation. Generative tasks prove more challenging than multiple-choice for most models, with output formatting issues contributing to lower scores. The benchmark establishes reference performance levels for Italian LLM evaluation and demonstrates that native Italian tasks provide more meaningful assessment than translated English benchmarks.
+
+## Conclusions
+
+Evalita-LLM provides a methodologically sound, native Italian benchmark that avoids the translation quality, cultural bias, and stylistic issues of translated benchmarks. Limitations include the current coverage of 10 tasks (expandable in future releases) and the focus on instruction-tuned models without fine-tuning evaluation. Future work includes adding more tasks from the Evalita campaigns, integrating with other Italian benchmark initiatives (Ita-bench, Calamita), and investigating dataset saturation and prompt contamination effects more systematically.
+
+## Artifact Contributions
+
+- **Evalita-LLM Benchmark**: Ten native Italian NLP evaluation tasks with multiple prompts (https://huggingface.co/spaces/evalita-llm)
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B8

@@ -149,7 +149,7 @@ This report applies a **semantic reading** approach. Section 1 covers explicit N
 | 2025 | Chengyi Ju | [[2025-Ju-NaVAB.md]] |
 | 2025 | Ben Yao | [[2025-Yao-NurValues.md]] |
 | 2025 | Alok Abhishek | [[2025-Anonymous-BEATS.md]] |
-| 2024 | Yutao Mou | [[2024-Various-SGBench.md]] |
+| 2024 | Yutao Mou | [[2024-Mou-SGBench.md]] |
 | 2024 | Yu Ying Chiu | [[2024-Chiu-DailyDilemmas.md]] |
 | 2024 | Yi Zeng | [[2024-Zeng-AIR-Bench 2024.md]] |
 | 2024 | Xuelin Liu | [[2024-Liu-Evaluating Moral Beliefs across LLMs through a.md]] |

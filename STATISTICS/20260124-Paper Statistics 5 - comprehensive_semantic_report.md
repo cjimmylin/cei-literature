@@ -592,7 +592,7 @@ This report applies a **semantic reading** approach. Section 1 covers explicit N
 *Analysis not available in deep dive report.*
 
 
-### 2024 | Yutao Mou | [[2024-Various-SGBench.md]]
+### 2024 | Yutao Mou | [[2024-Mou-SGBench.md]]
 *Analysis not available in deep dive report.*
 
 

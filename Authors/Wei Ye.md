@@ -18,7 +18,7 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
-- [[2024-Various-SGBench|SG-Bench]] (Last Author)
+- [[2024-Mou-SGBench|SG-Bench]] (Last Author)
 - [[2023-Chang-A Survey on Evaluation of Large Language Models|A Survey on Evaluation of Large Language Models]]
 
 ## Notes

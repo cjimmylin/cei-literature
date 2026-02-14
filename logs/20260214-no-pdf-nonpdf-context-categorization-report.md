@@ -64,7 +64,7 @@ Source PDFs dir: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs`
 - Dominant source types: publisher-journal:17, web-other:16, code-repo:4
 - Sample papers:
   - `2018-Liebeskind-Identifying Abusive Comments in Hebrew Facebook.md` (2025, publisher-journal)
-  - `2019-authors-Cross-Platform Evaluation for Italian Hate Speech Detection.md` (2025, web-other)
+  - `2019-Unknown-Cross-Platform Evaluation for Italian Hate Speech Detection.md` (2025, web-other)
   - `2019-collaboration-help_dicrah A ML-based hate speech detection tool on Twitter in French.md` (2025, code-repo)
   - `2020-Karan-Detecting Hate Speech Online A Case of Croatian.md` (2025, publisher-journal)
   - `2020-Souza-BERTimbau Pretrained BERT Models for Brazilian Portuguese.md` (2025, web-other)
@@ -130,21 +130,21 @@ Source PDFs dir: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs`
 | Paper | Year | Source Type | Domain | Assignment Reason |
 |---|---:|---|---|---|
 | `2018-Liebeskind-Identifying Abusive Comments in Hebrew Facebook.md` | 2025 | publisher-journal | ieeexplore.ieee.org | ethics_perspective:Toxicity & Hate Speech |
-| `2019-authors-Cross-Platform Evaluation for Italian Hate Speech Detection.md` | 2025 | web-other | hal.science | ethics_perspective:Toxicity & Hate Speech |
+| `2019-Unknown-Cross-Platform Evaluation for Italian Hate Speech Detection.md` | 2025 | web-other | hal.science | ethics_perspective:Toxicity & Hate Speech |
 | `2019-collaboration-help_dicrah A ML-based hate speech detection tool on Twitter in French.md` | 2025 | code-repo | github.com | ethics_perspective:Toxicity & Hate Speech |
 | `2020-Karan-Detecting Hate Speech Online A Case of Croatian.md` | 2025 | publisher-journal | link.springer.com | ethics_perspective:Toxicity & Hate Speech |
 | `2020-Souza-BERTimbau Pretrained BERT Models for Brazilian Portuguese.md` | 2025 | web-other | www.researchgate.net | heuristic:title_abstract_url:Toxicity/Hate Speech |
 | `2020-Unknown-Sinhala Hate Speech Detection in Social Media using Text Mining and.md` | 2025 | publisher-journal | ieeexplore.ieee.org | ethics_perspective:Toxicity & Hate Speech |
 | `2021-Perifanos-Multimodal Hate Speech Detection in Greek Social Media.md` | 2025 | web-other | www.mdpi.com | ethics_perspective:Toxicity & Hate Speech |
 | `2021-Team-Slovenian Twitter Hate Speech Dataset IMSyPP-sl.md` | 2025 | web-other | www.clarin.si | ethics_perspective:Toxicity & Hate Speech |
-| `2021-authors-Cyberbullying and Hate Speech Detection on.md` | 2025 | web-other | www.researchgate.net | ethics_perspective:Toxicity & Hate Speech |
+| `2021-Mghari-Cyberbullying and Hate Speech Detection on.md` | 2025 | web-other | www.researchgate.net | ethics_perspective:Toxicity & Hate Speech |
 | `2022-Ataei-Pars-OFF A Benchmark for Offensive Language Detection on Farsi Social.md` | 2025 | publisher-journal | ieeexplore.ieee.org | ethics_perspective:Toxicity & Hate Speech |
 | `2022-Saeed-Hate Speech Detection in Social Media for the Kurdish Language.md` | 2025 | publisher-journal | link.springer.com | ethics_perspective:Toxicity & Hate Speech |
 | `2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram.md` | 2025 | web-other | tjee.tabrizu.ac.ir | ethics_perspective:Toxicity & Hate Speech |
 | `2023-Unknown-Hate speech and abusive language detection in Indonesian social media.md` | 2025 | publisher-journal | www.sciencedirect.com | ethics_perspective:Toxicity & Hate Speech |
 | `2023-Unknown-Pars-HaO Hate and Offensive Language Detection on Persian Tweets.md` | 2025 | web-other | www.authorea.com | ethics_perspective:Toxicity & Hate Speech |
 | `2023-[[Unknown]]-NEHATE Large-Scale Annotated Data Shedding Light.md` | 2025 | web-other | www.researchgate.net | ethics_perspective:Toxicity & Hate Speech |
-| `2023-results]]-Ex-ThaiHate A Generative Multi-task Framework for.md` | 2025 | publisher-journal | link.springer.com | ethics_perspective:Toxicity & Hate Speech |
+| `2023-Maity-Ex-ThaiHate A Generative Multi-task Framework for.md` | 2025 | publisher-journal | link.springer.com | ethics_perspective:Toxicity & Hate Speech |
 | `2024-Azerbaijan-Azerbaijani Toxicity Classifier.md` | 2025 | code-repo | huggingface.co | heuristic:title_abstract_url:Toxicity/Hate Speech |
 | `2024-Kajiwara-A curated dataset for hate speech detection on social media text - PMC.md` | 2025 | web-other | pmc.ncbi.nlm.nih.gov | ethics_perspective:Toxicity & Hate Speech |
 | `2024-Kajiwara-Hate Speech and Offensive Language Dataset.md` | 2025 | web-other | www.kaggle.com | ethics_perspective:Toxicity & Hate Speech |
@@ -153,19 +153,19 @@ Source PDFs dir: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs`
 | `2024-Trajano-OLID-BR Offensive Language Identification Dataset for Brazilian.md` | 2025 | publisher-journal | link.springer.com | ethics_perspective:Toxicity & Hate Speech |
 | `2024-Unknown-A Deep Learning Framework for Automatic Detection of Hate Speech.md` | 2025 | web-other | www.researchgate.net | ethics_perspective:Toxicity & Hate Speech |
 | `2024-Unknown-Available hate speech datasets for Arabic. Download Scientific Diagram.md` | 2025 | web-other | www.researchgate.net | ethics_perspective:Toxicity & Hate Speech |
-| `2024-Various-HOCON34k A Corpus of Hate Speech in Online Comments from German.md` | 2025 | publisher-journal | link.springer.com | ethics_perspective:Toxicity & Hate Speech |
+| `2024-Keller-HOCON34k A Corpus of Hate Speech in Online Comments from German.md` | 2025 | publisher-journal | link.springer.com | ethics_perspective:Toxicity & Hate Speech |
 | `2024-Yeltay-Kazakh Language Dataset for Hate Speech.md` | 2024 | publisher-journal | doi.org | ethics_perspective:Toxicity & Hate Speech |
 | `2024-[[Unknown]]-Urdu Toxicity Detection A Multi-Stage and.md` | 2025 | web-other | www.mdpi.com | heuristic:title_abstract_url:Toxicity/Hate Speech |
-| `2024-authors-Offensive Text Span Detection in Romanian Comments Using Large.md` | 2025 | web-other | www.mdpi.com | ethics_perspective:Toxicity & Hate Speech |
-| `2024-authors-So-haTRed A Novel Hybrid System for.md` | 2025 | publisher-journal | ieeexplore.ieee.org | ethics_perspective:Toxicity & Hate Speech |
-| `2024-results]]-HateThaiSent Sentiment-Aided Hate Speech Detection in.md` | 2025 | publisher-journal | ieeexplore.ieee.org | ethics_perspective:Toxicity & Hate Speech |
-| `2024-results]]-Telugu Language Hate Speech Detection Using.md` | 2025 | publisher-journal | www.sciencedirect.com | ethics_perspective:Toxicity & Hate Speech |
+| `2024-Paraschiv-Offensive Text Span Detection in Romanian Comments Using Large.md` | 2025 | web-other | www.mdpi.com | ethics_perspective:Toxicity & Hate Speech |
+| `2024-Altinel-So-haTRed A Novel Hybrid System for.md` | 2025 | publisher-journal | ieeexplore.ieee.org | ethics_perspective:Toxicity & Hate Speech |
+| `2024-Unknown-HateThaiSent Sentiment-Aided Hate Speech Detection in.md` | 2025 | publisher-journal | ieeexplore.ieee.org | ethics_perspective:Toxicity & Hate Speech |
+| `2024-Khanduja-Telugu Language Hate Speech Detection Using.md` | 2025 | publisher-journal | www.sciencedirect.com | ethics_perspective:Toxicity & Hate Speech |
 | `2025-Deepawali-Hate Speech Detection Research in South Asian Languages A Survey of.md` | 2025 | publisher-journal | dl.acm.org | ethics_perspective:Toxicity & Hate Speech |
 | `2025-Hendrycks-MUST An Explainable AI-Based Framework for Multilingual Hate Speech.md` | 2025 | publisher-journal | ieeexplore.ieee.org | ethics_perspective:Toxicity & Hate Speech |
 | `2025-Jigsaw-Jigsaw Multilingual Toxic Comment Classification.md` | 2025 | web-other | www.kaggle.com | ethics_perspective:Toxicity & Hate Speech |
 | `2025-Unknown-Enhancing Multilingual Hate Speech Detection From Language-Specific.md` | 2025 | web-other | www.researchgate.net | ethics_perspective:Toxicity & Hate Speech |
 | `2025-Unknown-Improving hate speech detection using Cross-Lingual Learning -.md` | 2025 | publisher-journal | www.sciencedirect.com | ethics_perspective:Toxicity & Hate Speech |
-| `2025-results]]-A Multimodal Approach for Hate and.md` | 2025 | publisher-journal | dl.acm.org | ethics_perspective:Toxicity & Hate Speech |
+| `2025-Mohan-A Multimodal Approach for Hate and.md` | 2025 | publisher-journal | dl.acm.org | ethics_perspective:Toxicity & Hate Speech |
 
 ### Bias/Fairness
 
@@ -225,7 +225,7 @@ Source PDFs dir: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs`
 | `2025-Unknown-New report and guidelines for indigenous data sovereignty in.md` | 2025 | org-site | www.unesco.org | heuristic:title_abstract_url:General Ethics/Values |
 | `2025-Unknown-Preserving the Past AI in Indigenous Language Preservation - Viterbi.md` | 2025 | academic-site | vce.usc.edu | ethics_perspective:Social & Cultural Values |
 | `2025-Unknown-Subjective Values.md` | 2025 | web-other | llmglobalvalues.anthropic.com | ethics_perspective:General Ethics |
-| `2025-authors-Teachers vs. large language models ethical decision-making across.md` | 2025 | publisher-journal | www.tandfonline.com | ethics_perspective:Machine Ethics |
+| `2025-Göçen-Teachers vs. large language models ethical decision-making across.md` | 2025 | publisher-journal | www.tandfonline.com | ethics_perspective:Machine Ethics |
 
 ### Machine Translation/Multilingual
 
@@ -283,7 +283,7 @@ Source PDFs dir: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs`
 | `2024-Yakunin-Kazakh Dastur-MC Multiple Choice Benchmark on.md` | 2025 | code-repo | huggingface.co | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2024-community-Open Leaderboard for Hebrew LLMs.md` | 2025 | code-repo | huggingface.co | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2024-group-ITA-Bench Towards a More Comprehensive Evaluation for Italian LLMs.md` | 2025 | code-repo | github.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
-| `2024-results]]-A Novel Socio-pragmatic Framework for Sentiment.md` | 2025 | publisher-journal | www.sciencedirect.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
+| `2024-Unknown-A Novel Socio-pragmatic Framework for Sentiment.md` | 2025 | publisher-journal | www.sciencedirect.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2024-team-MahaMarathi-7B Marathi Large Language Model.md` | 2025 | code-repo | huggingface.co | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2025-Consortium-The Vals Legal AI Report (VLAIR).md` | 2025 | web-other | www.vals.ai | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2025-Lab-ArmBench-LLM A Benchmark for Evaluating Large Language Models on.md` | 2025 | web-other | metric.am | heuristic:title_abstract_url:Dataset/Benchmark Resource |
@@ -296,7 +296,7 @@ Source PDFs dir: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs`
 | `2025-Unknown-MIZAN A Persian LLM Leaderboard.md` | 2025 | code-repo | huggingface.co | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2025-Unknown-Multi-lingual HateSpeech Dataset.md` | 2025 | web-other | www.kaggle.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2025-Unknown-TELEIA A Spanish Language Dataset for Evaluating Artificial.md` | 2025 | publisher-journal | www.sciencedirect.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
-| `2025-authors-How do LLMs perform on Turkish.md` | 2025 | publisher-journal | www.sciencedirect.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
+| `2025-Solidjonov-How do LLMs perform on Turkish.md` | 2025 | publisher-journal | www.sciencedirect.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 
 ### Other/Unclear
 
@@ -331,6 +331,6 @@ Source PDFs dir: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs`
 | `2025-Unknown-中文大模型内容安全测评基准DSPSafeBench上线，首批模型测评结果揭晓！_中文大模型内容安全测评基准dspsafebench-CSDN.md` | 2025 | blog | blog.csdn.net | heuristic:title_abstract_url:Other/Unclear |
 | `2025-Velay-Vitow-Putting the AI in Eudaimonia.md` | 2025 | web-other | therepublicjournal.com | heuristic:title_abstract_url:Other/Unclear |
 | `2025-Xie-Ce‐LLMs Status and trends of education‐specific large language models.md` | 2025 | publisher-journal | onlinelibrary.wiley.com | heuristic:title_abstract_url:Other/Unclear |
-| `2025-authors-Investigating linguistic errors in large language.md` | 2025 | publisher-journal | www.tandfonline.com | heuristic:title_abstract_url:Other/Unclear |
+| `2025-Solidjonov-Investigating linguistic errors in large language.md` | 2025 | publisher-journal | www.tandfonline.com | heuristic:title_abstract_url:Other/Unclear |
 | `2026-Unknown-Arabic LLMs for Banking Telecom and Government in GCC - 2026.md` | 2025 | web-other | makitsol.com | heuristic:title_abstract_url:Other/Unclear |
 

@@ -54,7 +54,7 @@
     "reasoning": "A philosophical book on virtue ethics and AI. Purely theoretical/philosophical with no empirical evaluation component."
   },
   {
-    "filename": "2024-Various-SGBench.md",
+    "filename": "2024-Mou-SGBench.md",
     "decision": "Yes",
     "benchmark_name": "SG-Bench",
     "what_measures": "LLM safety generalization across diverse tasks and prompt types (discriminative and generative)",

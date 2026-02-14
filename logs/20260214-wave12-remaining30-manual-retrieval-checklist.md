@@ -20,14 +20,14 @@ Tactics:
 - If paywalled, search accepted manuscript via OpenAlex/Google Scholar/institutional repository.
 Papers:
 - `2020-Whaanga-Indigenous Protocol and Artificial Intelligence Position.md` | `not_pdf_header HTTP 200` | https://doi.org/10.11573/spectrum.library.concordia.ca.00986506
-- `2021-authors-Cyberbullying and Hate Speech Detection on.md` | `not_pdf_header HTTP 200` | https://doi.org/10.1016/j.dib.2022.108540
+- `2021-Mghari-Cyberbullying and Hate Speech Detection on.md` | `not_pdf_header HTTP 200` | https://doi.org/10.1016/j.dib.2022.108540
 - `2023-Das-Mytho-Annotator An Annotation Tool for Indian.md` | `not_pdf_header HTTP 200` | https://doi.org/10.7717/peerj-cs.1617
 - `2024-Kajiwara-Hate Speech and Offensive Language Dataset.md` | `not_pdf_header HTTP 200` | https://doi.org/10.1016/j.ipm.2021.102524
-- `2024-authors-Offensive Text Span Detection in Romanian Comments Using Large.md` | `http_403 HTTP 403` | https://doi.org/10.3390/info15010008
-- `2024-authors-So-haTRed A Novel Hybrid System for.md` | `not_pdf_header HTTP 200` | https://doi.org/10.1109/access.2024.3415350
-- `2024-results]]-Telugu Language Hate Speech Detection Using.md` | `not_pdf_header HTTP 200` | https://doi.org/10.1016/j.sasc.2024.200112
+- `2024-Paraschiv-Offensive Text Span Detection in Romanian Comments Using Large.md` | `http_403 HTTP 403` | https://doi.org/10.3390/info15010008
+- `2024-Altinel-So-haTRed A Novel Hybrid System for.md` | `not_pdf_header HTTP 200` | https://doi.org/10.1109/access.2024.3415350
+- `2024-Khanduja-Telugu Language Hate Speech Detection Using.md` | `not_pdf_header HTTP 200` | https://doi.org/10.1016/j.sasc.2024.200112
 - `2025-Sharma-Hate Speech Detection Research in South.md` | `not_pdf_header HTTP 200` | https://doi.org/10.1016/j.knosys.2025.113915
-- `2025-authors-How do LLMs perform on Turkish.md` | `http_403 HTTP 403` | https://doi.org/10.1080/23311983.2025.2600519
+- `2025-Solidjonov-How do LLMs perform on Turkish.md` | `http_403 HTTP 403` | https://doi.org/10.1080/23311983.2025.2600519
 
 ### www.mdpi.com (3)
 Tactics:
@@ -105,7 +105,7 @@ Tactics:
 - Open HAL record and look for attached full-text file under Documents/Files.
 - If no file, use DOI/title search for mirror repositories.
 Papers:
-- `2019-authors-Cross-Platform Evaluation for Italian Hate Speech Detection.md` | `not_pdf_header HTTP 200` | https://hal.science/hal-02381152
+- `2019-Unknown-Cross-Platform Evaluation for Italian Hate Speech Detection.md` | `not_pdf_header HTTP 200` | https://hal.science/hal-02381152
 
 ### hdl.handle.net (1)
 Tactics:

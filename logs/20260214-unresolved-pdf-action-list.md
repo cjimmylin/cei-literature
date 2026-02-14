@@ -29,9 +29,9 @@
 ## P2 Next Items (Top 20)
 - 2025-Martinez-Religion and Racial Bias in Artificial.md | BROKEN_OR_REMOVED_URL | http_404
 - 2025-Unknown-Bilingual Code-Switching Using XLM-RoBERTa.md | BROKEN_OR_REMOVED_URL | http_404
-- 2021-authors-Cyberbullying and Hate Speech Detection on.md | HOST_OR_TLS_FAILURE | http_000
+- 2021-Mghari-Cyberbullying and Hate Speech Detection on.md | HOST_OR_TLS_FAILURE | http_000
 - 2024-Zeng-Proposing Central Asian AI Ethics Principles.md | HOST_REJECTED_REQUEST | http_204
-- 2025-authors-How do LLMs perform on Turkish.md | HOST_REJECTED_REQUEST | http_202
+- 2025-Solidjonov-How do LLMs perform on Turkish.md | HOST_REJECTED_REQUEST | http_202
 - 0000-projects-BaniDB Shabad OS Digital Gurbani Database.md | LANDING_PAGE_NOT_DIRECT_PDF | not_pdf
 - 2023-[[Unknown]]-ISE-Hate A Benchmark Corpus for Inter-faith.md | LANDING_PAGE_NOT_DIRECT_PDF | not_pdf
 - 2024-Akhunzada-Multi-IsnadSet MIS for Sahih Muslim Hadith.md | LANDING_PAGE_NOT_DIRECT_PDF | not_pdf

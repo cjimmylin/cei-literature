@@ -56,7 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
-- [[2025-Various-AISafetyLab|AISafetyLab]]
+- [[2025-Zhang-AISafetyLab|AISafetyLab]]
 - [[2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language|EmotionQueen: A Benchmark for Evaluating Empathy of Large Language Models]]
 
 ## External Links & Profiles

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, GPT 3, GPT 3.5, GPT 4, GPT3, GPT3.5, GPT4, Gemma, Gemma7, Llama, Mistral, Mistral-based, MistralFT"
-DATA_URL: NA
+DATA_URL: "https://github.com/PolyAgent/from-bytes-to-borsch"
 tags: 
 abstract: "In the rapidly advancing field of AI and NLP, generative large language models (LLMs) stand at the forefront of innovation, showcasing unparalleled abilities in text understanding and generation. However, the limited representation of low-resource languages like Ukrainian poses a notable challenge, restricting the reach and relevance of this technology. Our paper addresses this by fine-tuning the open-source Gemma and Mistral LLMs with Ukrainian datasets, aiming to improve their linguistic..."
 ---
@@ -70,7 +71,7 @@ Presents Ukrainian Knowledge and Instruction Dataset (UKID) for LLM fine-tuning.
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, GPT 3, GPT 3.5, GPT 4, GPT3, GPT3.5, GPT4, Gemma, Gemma7, Llama, Mistral, Mistral-based, MistralFT. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include Alpaca, GPT 3, GPT 3.5, GPT 4, GPT3, GPT3.5, GPT4, Gemma, Gemma7, Llama, Mistral, Mistral-based, MistralFT. Verified dataset/resource link: https://github.com/PolyAgent/from-bytes-to-borsch.
 
 ## Notes
 

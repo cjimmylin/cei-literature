@@ -107,7 +107,7 @@ This report identifies papers that discuss **normative ethical systems** (Virtue
 | 2024 | Wang | [[2024-Wang-A Comprehensive Survey of LLM Alignment Techniques]] | UTILITARIAN |
 | 2024 | Wang | [[2024-Wang-Do-Not-Answer]] | VIRTUE |
 | 2024 | Vladimirova | [[2024-Vladimirova-FairJob]] | UTILITARIAN, VIRTUE |
-| 2024 | Various | [[2024-Various-SGBench]] | DEONTOLOGY |
+| 2024 | Various | [[2024-Mou-SGBench]] | DEONTOLOGY |
 | 2024 | Tlaie | [[2024-Tlaie-Exploring and steering the moral compass of Large]] | DEONTOLOGY, UTILITARIAN, VIRTUE |
 | 2024 | Tennant | [[2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations]] | DEONTOLOGY, UTILITARIAN, VIRTUE |
 | 2024 | Tennant | [[2024-Tennant-Moral Alignment for LLM Agents]] | DEONTOLOGY, UTILITARIAN, VIRTUE |
@@ -479,7 +479,7 @@ This report identifies papers that discuss **normative ethical systems** (Virtue
 | 2024 | Yu | [[2024-Yu-CMoralEval]] |
 | 2024 | Ye | [[2024-Ye-Measuring Human and AI Values Based on Generative]] |
 | 2024 | Woodgate | [[2024-Woodgate-Macro Ethics Principles for Responsible AI Systems]] |
-| 2024 | Various | [[2024-Various-SGBench]] |
+| 2024 | Various | [[2024-Mou-SGBench]] |
 | 2024 | Tlaie | [[2024-Tlaie-Exploring and steering the moral compass of Large]] |
 | 2024 | Tennant | [[2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations]] |
 | 2024 | Tennant | [[2024-Tennant-Moral Alignment for LLM Agents]] |

@@ -17,9 +17,9 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Various-SGBench|SGBench]]
-- [[2025-Various-AISafetyLab|AISafetyLab]]
-- [[2025-Various-U-SafeBench|U-SafeBench]]
+- [[2024-Mou-SGBench|SGBench]]
+- [[2025-Zhang-AISafetyLab|AISafetyLab]]
+- [[2025-In-U-SafeBench|U-SafeBench]]
 
 ## Notes
 

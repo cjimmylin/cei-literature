@@ -21,7 +21,7 @@ Yutao Mou is a researcher at the National Engineering Research Center for Softwa
 ## Papers in this Vault
 
 
-- [[2024-Various-SGBench|SG-Bench]] (First Author)
+- [[2024-Mou-SGBench|SG-Bench]] (First Author)
 
 ## Notes
 

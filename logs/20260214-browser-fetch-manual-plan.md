@@ -90,7 +90,7 @@
   OpenAlex: https://api.openalex.org/works?search=Dialectal%20Bias%20in%20Bengali%3A%20An%20Evaluation%20of%20Multilingual%20Language%20Models
   Scholar: https://scholar.google.com/scholar?q=Dialectal%20Bias%20in%20Bengali%3A%20An%20Evaluation%20of%20Multilingual%20Language%20Models
   Tactic: ACM paywall likely. Try institutional login in browser; if blocked, locate author-accepted manuscript via DOI/OpenAlex and institutional repositories.
-- `2025-authors-Teachers vs. large language models ethical decision-making across.md` | P3-Hard | conf 80 | www.tandfonline.com
+- `2025-Göçen-Teachers vs. large language models ethical decision-making across.md` | P3-Hard | conf 80 | www.tandfonline.com
   Candidate: https://www.tandfonline.com/doi/pdf/10.1080/10508422.2025.2581274
   DOI: https://doi.org/10.1080/10508422.2025.2581274
   OpenAlex: https://api.openalex.org/works?search=Teachers%20vs.%20large%20language%20models%3A%20ethical%20decision-making%20across%20educational%20dilemmas%20in%20Turkish%20schools

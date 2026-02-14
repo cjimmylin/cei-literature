@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_dataset: Yes
 data_description: "Multilingual benchmark text corpus for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "BART, BART-based, BERT, T5"
-DATA_URL: NA
+DATA_URL: "https://github.com/IndoNLP/indonlg"
 tags: 
 abstract: "Natural language generation (NLG) benchmarks provide an important avenue to measure progress and develop better NLG systems. Unfortunately, the lack of publicly available NLG benchmarks for low-resource languages poses a challenging barrier for building NLG systems that work well for languages with limited amounts of data. Here we introduce IndoNLG, the ﬁrst benchmark to measure natural language generation (NLG) progress in three low-resource—yet widely spoken— languages of Indonesia:..."
 research_topic: "Machine Translation"
@@ -71,7 +72,7 @@ First NLG benchmark for Indonesian, Javanese, and Sundanese covering summarizati
 
 ## Data Description
 
-Backfill summary: Models assessed include BART, BART-based, BERT, T5. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include BART, BART-based, BERT, T5. Verified dataset/resource link: https://github.com/IndoNLP/indonlg.
 
 ## Notes
 

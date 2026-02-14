@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ abstract: "This paper presents two effective approaches for Extractive Question 
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, DeepSeek, GPT-3, GPT-3.5, GPT-4"
-DATA_URL: NA
+DATA_URL: "https://gitlab.com/bigirqu/quran-qa-2023/-/"
 ethics_perspective: "AI Safety & Alignment"
 ---
 # Few-Shot Prompting for Extractive Quranic QA with Instruction-Tuned LLMs
@@ -71,7 +72,7 @@ Qur'an QA shared task dataset
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, DeepSeek, GPT-3, GPT-3.5, GPT-4. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include BERT, DeepSeek, GPT-3, GPT-3.5, GPT-4. Verified dataset/resource link: https://gitlab.com/bigirqu/quran-qa-2023/-/.
 
 ## Notes
 

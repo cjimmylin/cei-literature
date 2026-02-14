@@ -492,7 +492,7 @@ Among papers with data URLs, classified by hosting platform:
 | 72 | [[2023-Moss-Bias on Demand]] | https://github.com/koenecke/crosscultural_labelconsistency/ |
 | 73 | [[2023-Muhammad-AfriSenti]] | https://github.com/afrisenti-semeval/afrisent-semeval-2023 |
 | 74 | [[2023-Muhammad-SemEval-2023 Task 12]] | https://github.com/afrisenti-semeval/afrisent-semeval-2023 |
-| 75 | [[2023-Multiple authors-SAHAAYAK 2023 The Multi-Domain Bilingual Parallel]] | Public domain release |
+| 75 | [[2023-Bakrola-SAHAAYAK 2023 The Multi-Domain Bilingual Parallel]] | Public domain release |
 | 76 | [[2023-Patel-Building Domain-Specific LLMs Faithful To The]] | https://github.com/shabazpatel/domain-specific-llm |
 | 77 | [[2023-Qiu-Large AI Models in Health Informatics]] | https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models |
 | 78 | [[2023-Schwarting-The eBible Corpus Data and Model]] | https://huggingface.co/datasets/bible-nlp/biblenlp-corpus / https:/... |
@@ -613,8 +613,8 @@ Among papers with data URLs, classified by hosting platform:
 | 193 | [[2025-Yu-TLUE A Tibetan Language Understanding Evaluation]] | https://github.com/Vicentvankor/TLUE |
 | 194 | [[2025-Zhang-Evaluating and Improving Cultural Awareness of]] | Not confirmed from search results |
 | 195 | [[2025-Zhao-WenyanGPT A Large Language Model for]] | Training data, instruction fine-tuning data, and WenyanBENCH public... |
-| 196 | [[2025-authors-IslamTrust A Benchmark for LLMs Alignment]] | https://github.com/aii-lab-dot-org/IslamTrust and https://huggingfa... |
-| 197 | [[2025-authors-MMLU-ProX A Multilingual Benchmark for Advanced]] | https://github.com/weihao1115/MMLU-ProX |
+| 196 | [[2025-Unknown-IslamTrust A Benchmark for LLMs Alignment]] | https://github.com/aii-lab-dot-org/IslamTrust and https://huggingfa... |
+| 197 | [[2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced]] | https://github.com/weihao1115/MMLU-ProX |
 | 198 | [[2025-initiative-CatholicBench]] | https://www.catholicbench.com/ |
 | 199 | [[2025-initiative-Faith Respect and Moral Compass in]] | In development (collaborating with BYU, Notre Dame, Baylor, Yeshiva) |
 | 200 | [[2025-initiative-FaithBench AI Benchmark for Christian Theology]] | https://faithbench.com/ |

@@ -450,7 +450,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
 
 ## P3 · PAYWALL_TANDF (1)
 
-- [ ] `LSRC0072` `2025-authors-Teachers vs. large language models ethical decision-making across.md`
+- [ ] `LSRC0072` `2025-Göçen-Teachers vs. large language models ethical decision-making across.md`
   Status: blocked - blocked (handoff no_verified_pdf: HTTP 403)
   Title: Teachers vs. large language models: ethical decision-making across educational dilemmas in Turkish schools
   Host: `www.tandfonline.com`

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-Mini, GPT4o, LlamA-3.2, Llama, Llama-3, Llama-3.1, Llama-3.3, Llama3, Llama3.3, Qwen, Qwen 2.5, Qwen2.5"
-DATA_URL: NA
+DATA_URL: "https://github.com/ZaloAI-Jaist/VMLU"
 tags: 
 abstract: 
 research_topic: "Machine Learning"
@@ -70,7 +71,7 @@ First Vietnamese Multitask Language Understanding Benchmarks with 10,880 multipl
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-Mini, GPT4o, LlamA-3.2, Llama, Llama-3, Llama-3.1, Llama-3.3, Llama3, Llama3.3, Qwen, Qwen 2.5, Qwen2.5. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-Mini, GPT4o, LlamA-3.2, Llama, Llama-3, Llama-3.1, Llama-3.3, Llama3, Llama3.3, Qwen, Qwen 2.5, Qwen2.5. Verified dataset/resource link: https://github.com/ZaloAI-Jaist/VMLU.
 
 ## Notes
 

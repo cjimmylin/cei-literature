@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ ethics_perspective: "Moral Reasoning & Psychology"
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "Claude, Llama"
-DATA_URL: NA
+DATA_URL: "https://github.com/Lossfunk/modeling-moral-machine"
 ---
 # Building Interpretable Models for Moral Decision-Making
 

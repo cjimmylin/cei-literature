@@ -18,7 +18,7 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
-- [[2025-Various-AISafetyLab|AISafetyLab]] (Last Author)
+- [[2025-Zhang-AISafetyLab|AISafetyLab]] (Last Author)
 - [[2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models|SocialEval: Evaluating Social Intelligence of Large Language Models]] (Last Author)
 - [[2024-Chen-ToMBench|ToMBench]] (Last Author)
 - [[2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language|EmoBench: Evaluating the Emotional Intelligence of Large Language Models]] (Last Author)

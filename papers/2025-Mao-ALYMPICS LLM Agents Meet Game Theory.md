@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ research_topic: "NLP & Representation Learning"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: GPT-4
-DATA_URL: NA
+DATA_URL: "https://github.com/microsoft/Alympics"
 ---
 # ALYMPICS: LLM Agents Meet Game Theory
 

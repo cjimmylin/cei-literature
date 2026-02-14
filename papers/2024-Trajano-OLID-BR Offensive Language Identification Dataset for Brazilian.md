@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: NA
+DATA_URL: "https://github.com/DougTrajano/olid-br"
 tags: 
 abstract: "Collection of 7,943 Portuguese comments with 5 NLP tasks: detecting offensive comments, classifying offense types (racism, LGBTQphobia, sexism, xenophobia), identifying type/target, and extracting toxic spans."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -73,7 +74,7 @@ Collection of 7,943 Portuguese comments with 5 NLP tasks: detecting offensive co
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/DougTrajano/olid-br.
 
 ## Notes
 

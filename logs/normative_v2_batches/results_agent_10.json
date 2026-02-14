@@ -24,7 +24,7 @@
     "reasoning": "BasqBBQ is a cultural adaptation of the BBQ social bias benchmark for the Basque language. It measures social biases and stereotypes in LLMs, not normative ethical reasoning. No normative ethics frameworks are involved."
   },
   {
-    "filename": "2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md",
+    "filename": "2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md",
     "decision": "Exclude",
     "normative_frameworks": "N/A",
     "data_artifact": "CCD-Bench: 2,182 open-ended dilemmas across 7 domains, each with 10 culturally-grounded response options aligned with GLOBE cultural clusters",

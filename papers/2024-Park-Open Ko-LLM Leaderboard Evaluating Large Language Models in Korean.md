@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard"
 tags: 
 abstract: "This paper introduces the Open Ko-LLM Leaderboard1 and the Ko-H5 Benchmark as vital tools for evaluating Large Language Models (LLMs) in Korean. Incorporating private test sets while mirroring the English Open LLM Leaderboard, we establish a robust evaluation framework that has been well integrated in the Korean LLM community. We perform data leakage analysis that shows the benefit of private test sets along with a correlation study within the Ko-H5 benchmark and temporal analyses of the Ko-H5..."
 research_topic: "Machine Learning"
@@ -73,7 +74,7 @@ Comprehensive Korean LLM evaluation ecosystem with Ko-H5 benchmark. Includes Ko-
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-4. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include GPT-4. Verified dataset/resource link: https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard.
 
 ## Notes
 

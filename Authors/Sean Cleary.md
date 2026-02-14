@@ -28,7 +28,7 @@ His research on rotation distances measures the differences in structure between
 ## Papers in this Vault
 
 
-- [[2025-Various-U-SafeBench|U-SafeBench]] (First Author)
+- [[2025-In-U-SafeBench|U-SafeBench]] (First Author)
 
 ## Notes
 

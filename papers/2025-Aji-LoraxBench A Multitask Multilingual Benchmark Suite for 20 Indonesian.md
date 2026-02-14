@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_dataset: Yes
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "700 languages; 20 languages"
 LLM_assessed: "BLOOMZ, Bloom 1B, Bloom-7B1, Gemma, Gemma 2, Gemma2, Gemma3, QWEN-2.5, Qwen, Qwen 1.5B, Qwen-7B, Qwen2, Qwen2.5, Qwen_1_5B_instruct, Qwen_500M_instruct, Qwen_7B_instruct"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/datasets/google/LoraxBench"
 tags: 
 abstract: "As one of the world’s most populous countries, with 700 languages spoken, Indonesia is behind in terms of NLP progress. We introduce LORAXBENCH, a benchmark that focuses on lowresource languages of Indonesia and covers 6 diverse tasks: reading comprehension, opendomain QA, language inference, causal reasoning, translation, and cultural QA. Our dataset covers 20 languages, with the addition of two formality registers for three languages."
 research_topic: "Machine Translation"
@@ -71,7 +72,7 @@ Benchmark covering 20 Indonesian languages across 6 tasks including cultural QA.
 
 ## Data Description
 
-Backfill summary: Models assessed include BLOOMZ, Bloom 1B, Bloom-7B1, Gemma, Gemma 2, Gemma2, Gemma3, QWEN-2.5, Qwen, Qwen 1.5B, Qwen-7B, Qwen2, Qwen2.5, Qwen_1_5B_instruct, Qwen_500M_instruct, Qwen_7B_instruct. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include BLOOMZ, Bloom 1B, Bloom-7B1, Gemma, Gemma 2, Gemma2, Gemma3, QWEN-2.5, Qwen, Qwen 1.5B, Qwen-7B, Qwen2, Qwen2.5, Qwen_1_5B_instruct, Qwen_500M_instruct, Qwen_7B_instruct. Verified dataset/resource link: https://huggingface.co/datasets/google/LoraxBench.
 
 ## Notes
 

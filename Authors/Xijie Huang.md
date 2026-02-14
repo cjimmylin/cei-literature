@@ -56,7 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
-- [[2025-Various-AISafetyLab|AISafetyLab]]
+- [[2025-Zhang-AISafetyLab|AISafetyLab]]
 - [[2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data|Synth-Empathy: Towards High-Quality Synthetic Empathy Data]]
 
 ## External Links & Profiles

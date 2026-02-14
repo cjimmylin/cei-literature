@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/datasets/nilc-nlp/assin2"
 tags: 
 abstract: "10,000 sentence pairs (5,000 Brazilian Portuguese + 5,000 European Portuguese) annotated for semantic similarity and textual entailment. ASSIN-2 adds 6,500 training pairs for Brazilian Portuguese."
 research_topic: Other
@@ -69,7 +70,7 @@ research_topic: Other
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/nilc-nlp/assin2.
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: "Claude 3.5, Claude 3.5 Haiku, Claude haiku, DeepSeek V3, DeepSeek-AI, GPT-4, GPT-4o, Llama 3, Claude"
-DATA_URL: NA
+DATA_URL: "https://github.com/niktaas/TAAROFBENCH"
 tags: 
 abstract: "Large language models (LLMs) struggle to navigate culturally specific communication norms, limiting their effectiveness in global contexts. We focus on Persian taarof, a social norm in Iranian interactions, which is a sophisticated system of ritual politeness that emphasizes deference, modesty, and indirectness, yet remains absent from existing cultural benchmarks. We introduce TAAROFBENCH, the first benchmark for evaluating LLM understanding of taarof, comprising 450 role-play scenarios..."
 ethics_perspective: "Social & Cultural Values"
@@ -69,7 +70,7 @@ First benchmark for evaluating LLM understanding of taarof (Persian ritual polit
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude 3.5, Claude 3.5 Haiku, Claude haiku, DeepSeek V3, DeepSeek-AI, GPT-4, GPT-4o, Llama 3, Claude. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include Claude 3.5, Claude 3.5 Haiku, Claude haiku, DeepSeek V3, DeepSeek-AI, GPT-4, GPT-4o, Llama 3, Claude. Verified dataset/resource link: https://github.com/niktaas/TAAROFBENCH.
 
 ## Notes
 

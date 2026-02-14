@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_dataset: Yes
 data_description: "Evaluation framework annotated dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Word2Vec"
-DATA_URL: NA
+DATA_URL: "https://github.com/tarudesu/ViCTSD"
 tags: 
 abstract: "The rise of social media has led to the increasing of comments on online forums. However, there still exists invalid comments which are not informative for users. Moreover, those comments are also quite toxic and harmful to people. In this paper, we create a dataset for constructive and toxic speech detection, named UIT-ViCTSD (Vietnamese Constructive and Toxic Speech Detection dataset) with 10,000 humanannotated comments."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -73,7 +74,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Word2Vec. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include BERT, Word2Vec. Verified dataset/resource link: https://github.com/tarudesu/ViCTSD.
 
 ## Notes
 

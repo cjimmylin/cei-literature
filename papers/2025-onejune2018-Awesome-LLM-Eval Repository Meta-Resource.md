@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,7 +31,7 @@ research_topic: Other
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: NA
+DATA_URL: "https://github.com/AthenaCore/AwesomeResponsibleAI"
 no_pdf_applicable: true
 pdf_extract: 
 local_pdf: N/A

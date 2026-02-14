@@ -16,7 +16,7 @@
 - `0000-projects-BaniDB Shabad OS Digital Gurbani Database.md` | conf `60` | host `xplorestaging.ieee.org`
   Candidate: http://xplorestaging.ieee.org/ielx7/8643018/8645960/08646190.pdf?arnumber=864619
   Tactic: Open in browser; if blocked, resolve DOI and look for repository/preprint mirrors.
-- `2021-authors-Cyberbullying and Hate Speech Detection on.md` | conf `60` | host `doi.org`
+- `2021-Mghari-Cyberbullying and Hate Speech Detection on.md` | conf `60` | host `doi.org`
   Candidate: https://doi.org/10.1016/j.dib.2022.108540
   Tactic: Open in browser; if blocked, resolve DOI and look for repository/preprint mirrors.
 - `2023-University-Antisemitism on Twitter A Dataset for.md` | conf `60` | host `doi.org`
@@ -58,6 +58,6 @@
   Candidate: https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762/v1
   DOI: https://doi.org/10.36227/techrxiv.175756344.42614762/v1
   Tactic: TechRxiv may block scripted requests. Open DOI/article page in browser and download PDF manually.
-- `2025-authors-How do LLMs perform on Turkish.md` | conf `60` | host `doi.org`
+- `2025-Solidjonov-How do LLMs perform on Turkish.md` | conf `60` | host `doi.org`
   Candidate: https://doi.org/10.1080/23311983.2025.2600519
   Tactic: Open in browser; if blocked, resolve DOI and look for repository/preprint mirrors.

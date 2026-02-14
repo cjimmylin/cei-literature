@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ ethics_perspective: "AI Safety & Alignment"
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, GPT-4, Llama, Llama-2"
-DATA_URL: NA
+DATA_URL: "https://github.com/AIFlames/Fake-Alignment"
 ---
 # Fake Alignment (FINE Framework)
 

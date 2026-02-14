@@ -21,7 +21,7 @@ Zhexin Zhang is a researcher at The CoAI (Conversational AI) group, Department o
 ## Papers in this Vault
 
 
-- [[2025-Various-AISafetyLab|AISafetyLab]] (First Author)
+- [[2025-Zhang-AISafetyLab|AISafetyLab]] (First Author)
 - [[2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents|Agent-SafetyBench: Evaluating the Safety of LLM Agents]] (First Author)
 - [[2024-Zhang-SafetyBench|SafetyBench]] (First Author)
 - [[2022-Sun-MoralDial|MoralDial]]

@@ -6,7 +6,7 @@
 
 ## P2 Queue
 - 0000-projects-BaniDB Shabad OS Digital Gurbani Database.md | fallback_latest | conf=0 | unknown | https://xplorestaging.ieee.org/ielx7/8643018/8645960/08646190.pdf?arnumber=864619
-- 2021-authors-Cyberbullying and Hate Speech Detection on.md | fallback_latest | conf=0 | unknown | https://namespace.openaire.eu/oaf
+- 2021-Mghari-Cyberbullying and Hate Speech Detection on.md | fallback_latest | conf=0 | unknown | https://namespace.openaire.eu/oaf
 - 2023-University-Antisemitism on Twitter A Dataset for.md | host_transform | conf=66 | landing_page | https://doi.org/10.5281/zenodo.7932888
 - 2023-[[Unknown]]-ISE-Hate A Benchmark Corpus for Inter-faith.md | fallback_latest | conf=0 | unknown | https://www.sciencedirect.com/science/article/abs/pii/S0306457323000079
 - 2024-Moe-Fact Checking in Low-Resource Languages A.md | fallback_latest | conf=0 | unknown | https://www.yorku.ca/research/ycar/events/fact-checking-dataset-transformer-model-burmese-language-lwin-moe-13112024/
@@ -25,7 +25,7 @@
 - 2025-Ochasi-Reframing Justice in Healthcare AI.md | crossref | conf=70 | blocked | https://onlinelibrary.wiley.com/doi/pdf/10.1111/dewb.70007
 - 2025-Unknown-Bilingual Code-Switching Using XLM-RoBERTa.md | unpaywall | conf=88 | blocked | https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762/v1
 - 2025-Unknown-Bilingual Code-Switching Using XLM-RoBERTa.md | crossref | conf=80 | blocked | https://doi.org/10.36227/techrxiv.175756344.42614762/v1
-- 2025-authors-How do LLMs perform on Turkish.md | fallback_latest | conf=0 | unknown | https://www.semanticscholar.org/paper/97df3935f7098dbf1a4e13d343469cd01fa6888e
+- 2025-Solidjonov-How do LLMs perform on Turkish.md | fallback_latest | conf=0 | unknown | https://www.semanticscholar.org/paper/97df3935f7098dbf1a4e13d343469cd01fa6888e
 
 ## Next P3 (Top 60)
 - 2018-Liebeskind-Identifying Abusive Comments in Hebrew Facebook.md | crossref | conf=90 | landing_page | https://doi.org/10.1109/icsee.2018.8646190
@@ -72,8 +72,8 @@
 - 2024-Trajano-OLID-BR Offensive Language Identification Dataset for Brazilian.md | crossref | conf=90 | landing_page | https://link.springer.com/article/10.1007/s10579-023-09657-0/fulltext.html
 - 2024-Unknown-A structured sentiment analysis dataset based on public comments from.md | semantic_scholar_title | conf=67 | landing_page | https://doi.org/10.1016/j.dib.2024.110232
 - 2024-Unknown-Towards Better Sentiment Analysis in the Turkish Language Dataset.md | fallback_latest | conf=0 | unknown | https://www.semanticscholar.org/paper/dd6418de683b5a4054a8b8c9ed261c288093fa13
-- 2024-Various-HOCON34k A Corpus of Hate Speech in Online Comments from German.md | crossref | conf=90 | landing_page | https://link.springer.com/content/pdf/10.1007/978-3-031-78090-5_18
-- 2024-Various-HOCON34k A Corpus of Hate Speech in Online Comments from German.md | crossref | conf=90 | landing_page | https://doi.org/10.1007/978-3-031-78090-5_18
+- 2024-Keller-HOCON34k A Corpus of Hate Speech in Online Comments from German.md | crossref | conf=90 | landing_page | https://link.springer.com/content/pdf/10.1007/978-3-031-78090-5_18
+- 2024-Keller-HOCON34k A Corpus of Hate Speech in Online Comments from German.md | crossref | conf=90 | landing_page | https://doi.org/10.1007/978-3-031-78090-5_18
 - 2024-Veitsman-The Development and Experimental Evaluation of a Multilingual Speech.md | fallback_latest | conf=0 | unknown | https://www.mdpi.com/2076-3417/15/24/12880
 - 2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach.md | crossref | conf=90 | landing_page | https://link.springer.com/content/pdf/10.1007/s43681-024-00505-7.pdf
 - 2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach.md | crossref | conf=90 | landing_page | https://link.springer.com/article/10.1007/s43681-024-00505-7/fulltext.html

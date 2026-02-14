@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: NA
+DATA_URL: "https://data.mendeley.com/datasets/x6628zzpdx/1"
 tags: 
 abstract: "First Kurdish hate speech dataset of 6,882 Facebook comments divided into hate/not-hate classes from TV channels, athletes, religions, politicians. SVM, Decision Tree, Naive Bayes evaluated."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -72,7 +73,7 @@ First Kurdish hate speech dataset of 6,882 Facebook comments divided into hate/n
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://data.mendeley.com/datasets/x6628zzpdx/1.
 
 ## Notes
 

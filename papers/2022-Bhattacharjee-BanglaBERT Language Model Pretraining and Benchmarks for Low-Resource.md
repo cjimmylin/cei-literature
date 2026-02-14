@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
-DATA_URL: NA
+DATA_URL: "https://github.com/csebuetnlp/banglabert"
 tags: 
 abstract: "First Bangla Language Understanding Benchmark (BLUB) with four NLU tasks (text classification, sequence labeling, span prediction). Introduces BanglaBERT pretrained model. Establishes baseline for Bangla NLU evaluation."
 research_topic: "NLP & Representation Learning"
@@ -71,7 +72,7 @@ First Bangla Language Understanding Benchmark (BLUB) with four NLU tasks (text c
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/csebuetnlp/banglabert.
 
 ## Notes
 

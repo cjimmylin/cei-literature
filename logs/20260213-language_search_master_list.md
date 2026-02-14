@@ -2633,7 +2633,7 @@
 
 | Title | Matched File | Languages |
 |-------|-------------|-----------|
-| SANSKRITI: A Comprehensive Benchmark for Evaluating Language | 2025-results]]-SANSKRITI A Comprehensive Benchmark for Evaluating.md | English, Hindi, Kannada, Malayalam, Tamil, Telugu, and other Indic languages, multiple Indic languages |
+| SANSKRITI: A Comprehensive Benchmark for Evaluating Language | 2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating.md | English, Hindi, Kannada, Malayalam, Tamil, Telugu, and other Indic languages, multiple Indic languages |
 | Ethical Reasoning and Moral Value Alignment of LLMs Depend o | 2024-Agarwal-Ethical Reasoning Depends on Language.md | Chinese, English, Hindi, Russian, Spanish, Swahili |
 | One Model, Many Morals: Uncovering Cross-Linguistic Misalign | 2025-Farid-One Model, Many Morals.md | Chinese, English, German, Hindi, Russian, Spanish, Urdu |
 | Are Rules Meant to be Broken? Understanding Multilingual Mor | 2025-Kumar-Are Rules Meant to be Broken.md | Arabic, Chinese, English, Hindi, Russian, Spanish |
@@ -2641,19 +2641,19 @@
 | Measuring Moral LLM Responses in Multilingual Capacities | 2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.md | Chinese, English, Multilingual, Multiple high and low-resource languages, multiple low and high-resource languages |
 | Indian-BhED: A Dataset for Measuring India-Centric Biases in | 2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md | English, Hindi |
 | IndiBias: A Benchmark Dataset to Measure Social Biases in La | 2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context.md | English, Hindi |
-| BharatBBQ: A Multilingual Bias Benchmark for Question Answer | 2025-results]]-BharatBBQ A Multilingual Bias Benchmark for.md | Assamese, Bengali, English, Hindi, Marathi, Odia, Tamil, Telugu |
+| BharatBBQ: A Multilingual Bias Benchmark for Question Answer | 2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for.md | Assamese, Bengali, English, Hindi, Marathi, Odia, Tamil, Telugu |
 | IndiCASA: A Dataset and Bias Evaluation Framework in LLMs Us | 2025-Santhosh-IndiCASA - Dataset and Bias Evaluation Framework for LLMs in Indian.md | English, English (India context), Hindi |
 | How Deep Is Representational Bias in LLMs? The Cases of Cast | 2025-Bali-How Deep Is Representational Bias in.md | English (India-focused content) |
-| IndRegBias: A Dataset for Studying Indian Regional Biases in | 2026-results]]-IndRegBias A Dataset for Studying Indian.md | Code-mixed Indian languages, English, Hindi (code-mixed) |
+| IndRegBias: A Dataset for Studying Indian Regional Biases in | 2026-Panda-IndRegBias A Dataset for Studying Indian.md | Code-mixed Indian languages, English, Hindi (code-mixed) |
 | MILU: A Multi-task Indic Language Understanding Benchmark | 2025-Verma-MILU A Multi-task Indic Language Understanding.md | Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Nepali, Odia, Punjabi, Tamil, Telugu |
 | IndicGenBench: A Multilingual Benchmark to Evaluate Generati | 2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate.md | 29 Indic languages including Tamil, Telugu, Kannada, Malayalam, Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Nepali, Odia, Punjabi, Tamil, Telugu, Urdu, and 19 more |
 | IndicParam: Benchmark to Evaluate LLMs on Low-Resource Indic | 2025-Maheshwari-IndicParam Benchmark to Evaluate LLMs on.md | Bengali, Bodo, Dogri, Gujarati, Hindi, Kannada, Konkani, Maithili, Malayalam, Marathi, Nepali, Odia, Punjabi, Rajasthani, Sanskrit, Santali, Tamil, Telugu, Urdu |
-| IndicMMLU-Pro: Benchmarking Indic Large Language Models on M | 2025-results]]-IndicMMLU-Pro Benchmarking Indic Large Language Models.md | Bengali, Gujarati, Hindi, Kannada, Marathi, Punjabi, Tamil, Telugu, Urdu |
+| IndicMMLU-Pro: Benchmarking Indic Large Language Models on M | 2025-KJ-IndicMMLU-Pro Benchmarking Indic Large Language Models.md | Bengali, Gujarati, Hindi, Kannada, Marathi, Punjabi, Tamil, Telugu, Urdu |
 | L3Cube-IndicQuest: A Benchmark Question Answering Dataset fo | 2024-team-L3Cube-IndicQuest A Benchmark Question Answering Dataset.md | Assamese, Bengali, Dogri, English, Gujarati, Hindi, Kannada, Konkani, Maithili, Malayalam, Manipuri, Marathi, Nepali, Odia, Punjabi, Sanskrit, Sindhi, Tamil, Telugu, Urdu, and 15 more Indic languages |
 | PARIKSHA: A Large-Scale Investigation of Human-LLM Evaluator | 2024-Watts-PARIKSHA.md | Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu |
 | Fluent but Foreign: Even Regional LLMs Lack Cultural Alignme | 2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md | Hindi, multiple Indic languages |
 | An Evaluation of Cultural Value Alignment in LLM | 2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM.md | 20 countries' languages including Hindi, Arabic, Bengali, Chinese, Dutch, English, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Multiple, Multiple including Russian, Polish, Portuguese, Russian, Spanish, Swedish, Thai, Turkish, Vietnamese, and 19 other country-language pairs, multiple (20 countries) |
-| Common to Whom? Regional Cultural Commonsense and LLM Bias i | 2026-results]]-Common to Whom Regional Cultural Commonsense.md | English, English (India-focused), English (with regional Indian cultural content from North, South, East, West, Central India), Hindi |
+| Common to Whom? Regional Cultural Commonsense and LLM Bias i | 2026-Madhusudan-Common to Whom Regional Cultural Commonsense.md | English, English (India-focused), English (with regional Indian cultural content from North, South, East, West, Central India), Hindi |
 | CDEval: A Benchmark for Measuring the Cultural Dimensions of | 2024-Sang-CDEval A Benchmark for Measuring the.md | Arabic, Chinese, English, English (primarily), French, Multiple (Hofstede cultural dimensions), Multiple (Hofstede dimensions for many cultures including German), Multiple (cultural dimensions framework), Portuguese, Spanish, and others |
 | LLM-GLOBE: A Benchmark Evaluating the Cultural Values Embedd | 2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural.md | Arabic, Chinese, English, French, German, Japanese, Multilingual, Multiple (62 societies), Multiple (GLOBE framework countries), Multiple (GLOBE framework covers many cultures), Portuguese, Spanish, multilingual |
 | BLEnD: A Benchmark for LLMs on Everyday Knowledge in Diverse | 2024-Bang-BLEnD A Benchmark for LLMs on.md | 13 languages across 16 countries (may include Thai), 13 languages from 16 countries/regions, 13 languages including Assamese and other low-resource languages, Amharic, Arabic, Assamese, Azerbaijani, Basque, Bengali, Chinese, English, Greek, Hausa, Hindi, Indonesian, Japanese, Javanese, Korean, Portuguese, Sinhala, Spanish, Sundanese, Tamil, Turkish, and 5 others |
@@ -2675,7 +2675,7 @@
 | HateCheckHIn: Evaluating Hindi Hate Speech Detection Models | 2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection.md | Hindi |
 | X-MuTeST: A Multilingual Benchmark for Explainable Hate Spee | 2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.md | English, Hindi, Telugu |
 | DRISHTIKON: A Multimodal Multilingual Benchmark for Testing  | 2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for.md | 15 Indian languages including Tamil, Telugu, Kannada, Malayalam, Assamese, Bengali, English, Gujarati, Hindi, Kannada, Konkani, Malayalam, Marathi, Odia, Punjabi, Sindhi, Tamil, Telugu, Urdu |
-| IndicVisionBench: Benchmarking Cultural and Multilingual Und | 2025-results]]-IndicVisionBench Benchmarking Cultural and Multilingual Understanding.md | Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu |
+| IndicVisionBench: Benchmarking Cultural and Multilingual Und | 2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding.md | Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu |
 | ViMUL: A Culturally-diverse Multilingual Multimodal Video Be | 2025-team-ViMUL A Culturally-diverse Multilingual Multimodal Video.md | Arabic, Bengali, Chinese, English, French, German, Hindi, Japanese, Russian, Sinhala, Spanish, Swedish, Tamil, Urdu |
 | IndicLLMSuite: A Blueprint for Creating Pre-training and Fin | 2024-team-IndicLLMSuite A Blueprint for Creating Pre-training.md | Hindi, Marathi, Nepali, Urdu, and 18 more Indic languages |
 | BharatBench: Comprehensive Multilingual Multimodal Evaluatio | 2025-team-BharatBench Comprehensive Multilingual Multimodal Evaluations of.md | Hindi, Marathi, Nepali, Urdu, and more Indic languages |
@@ -2723,16 +2723,16 @@
 | Jochre 3 and the Yiddish OCR corpus | 2025-Urieli-Jochre 3 and the Yiddish OCR corpus.md | Yiddish |
 | A Multi-Orthography Parallel Corpus of Yiddish Nouns | 2020-Unknown-A Multi-Orthography Parallel Corpus of Yiddish Nouns.md | Yiddish |
 | XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Re | 2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in.md | Bengali, English, Multilingual, Multiple languages, multiple |
-| MMLU-ProX: A Multilingual Benchmark for Advanced Large Langu | 2025-authors-MMLU-ProX A Multilingual Benchmark for Advanced.md | 29 languages, 29 languages (likely includes Turkish), 29 languages (may include Greek), 29 languages including Russian, Ukrainian, Arabic, Chinese, Czech, English, French, German, Hindi, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, and 27 other languages |
+| MMLU-ProX: A Multilingual Benchmark for Advanced Large Langu | 2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced.md | 29 languages, 29 languages (likely includes Turkish), 29 languages (may include Greek), 29 languages including Russian, Ukrainian, Arabic, Chinese, Czech, English, French, German, Hindi, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, and 27 other languages |
 | Open Leaderboard for Hebrew LLMs | 2024-community-Open Leaderboard for Hebrew LLMs.md | Hebrew |
 | Monitoring the evolution of antisemitic discourse on extremi | 2024-University-Monitoring the Evolution of Antisemitic Discourse.md | English |
-| Evaluating Cultural Awareness of LLMs for Yoruba, Malayalam, | 2024-results]]-Evaluating Cultural Awareness of LLMs for.md | English, Malayalam, Yoruba |
+| Evaluating Cultural Awareness of LLMs for Yoruba, Malayalam, | 2024-Dawson-Evaluating Cultural Awareness of LLMs for.md | English, Malayalam, Yoruba |
 | Measuring South Asian Biases in Large Language Models | 2025-Rinki-Measuring South Asian Biases in Large.md | 10 Indo-Aryan and Dravidian languages |
 | DravidianCodeMix: Sentiment Analysis and Offensive Language  | 2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language.md | Kannada-English, Malayalam-English, Tamil-English |
 | DOSA: Dravidian Code-Mixed Offensive Span Identification Dat | 2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification.md | Kannada-English, Tamil-English |
 | TeSent: A Benchmark Dataset for Fairness-aware Explainable S | 2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware.md | Telugu |
 | MATA (mata): Mindful Assessment of the Telugu Abilities of L | 2025-Kranti-MATA mata Mindful Assessment of the.md | Telugu |
-| From Phonemes to Meaning: Evaluating Large Language Models o | 2025-results]]-From Phonemes to Meaning Evaluating Large.md | Tamil |
+| From Phonemes to Meaning: Evaluating Large Language Models o | 2025-Varsha-From Phonemes to Meaning Evaluating Large.md | Tamil |
 | Toxicity Red-Teaming: Benchmarking LLM Safety in Singapore's | 2025-Shan-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.md | Chinese, Malay, Multilingual, Singlish, Tamil |
 | RabakBench: Scaling Human Annotations to Construct Localized | 2025-Chua-RabakBench.md | Chinese, Malay, Singlish, Tamil |
 | DECASTE: Unveiling Caste Stereotypes in Large Language Model | 2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large.md | English (India caste context) |
@@ -2742,15 +2742,15 @@
 | BharatBench: Comprehensive Multilingual Multimodal Evaluatio | 2025-Krutrim)-BharatBench Comprehensive Multilingual Multimodal Evaluations of.md | Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Tamil, Telugu, and others |
 | BenchMAX: A Comprehensive Multilingual Evaluation Suite for  | 2025-results]]-BenchMAX A Comprehensive Multilingual Evaluation Suite.md | 17 languages including French, Arabic, Bengali, Chinese, Czech, Dutch, English, French, German, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Portuguese, Russian, Serbian, Spanish, Swahili, Telugu, Thai, Turkish, Vietnamese, and 16 other languages |
 | MEGAVERSE: Benchmarking Large Language Models Across Languag | 2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages.md | 83 languages including Tamil, Telugu, Malayalam, Kannada |
-| Uncovering Cross-Linguistic Disparities in LLMs using Sparse | 2025-results]]-Uncovering Cross-Linguistic Disparities in LLMs using.md | 10 languages including Malayalam, Marathi |
+| Uncovering Cross-Linguistic Disparities in LLMs using Sparse | 2025-Xuan-Uncovering Cross-Linguistic Disparities in LLMs using.md | 10 languages including Malayalam, Marathi |
 | MFTCXplain: A Multilingual Benchmark Dataset for Evaluating  | 2025-Trager-MFTCXplain.md | English, Italian, Persian, Portuguese |
 | Hate Speech Detection Research in South Asian Languages: A S | 2025-Deepawali-Hate Speech Detection Research in South Asian Languages A Survey of.md | Bengali, Hindi, Kannada, Malayalam, Sinhala, Tamil, Urdu, and other South Asian languages |
 | Kannada Code-Mixed Abusive Speech Detection (MuRIL-based) | 2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.md | Kannada-English code-mixed |
-| Leveraging Large Language Models for Code-Mixed Data Augment | 2024-results]]-Leveraging Large Language Models for Code-Mixed.md | Code-switching, English, Hindi, Malayalam-English, and others |
+| Leveraging Large Language Models for Code-Mixed Data Augment | 2024-Zeng-Leveraging Large Language Models for Code-Mixed.md | Code-switching, English, Hindi, Malayalam-English, and others |
 | Tamil-Llama: A New Tamil Language Model Based on Llama 2 | 2023-Abhinand-Tamil-Llama A New Tamil Language Model.md | Tamil |
-| Evaluating Telugu Proficiency in Large Language Models: A Co | 2024-results]]-Evaluating Telugu Proficiency in Large Language.md | Telugu |
+| Evaluating Telugu Proficiency in Large Language Models: A Co | 2024-Kishore-Evaluating Telugu Proficiency in Large Language.md | Telugu |
 | Indic-QA Benchmark: A Multilingual Benchmark to Evaluate Que | 2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to.md | 10 Indian languages including Tamil, Telugu, Kannada, Malayalam |
-| Social Bias in Multilingual Language Models: A Survey | 2025-results]]-Social Bias in Multilingual Language Models.md | Arabic, English, Multilingual, Multiple including French, Multiple languages, Survey covering multiple languages including African languages, Welsh |
+| Social Bias in Multilingual Language Models: A Survey | 2025-Gamboa-Social Bias in Multilingual Language Models.md | Arabic, English, Multilingual, Multiple including French, Multiple languages, Survey covering multiple languages including African languages, Welsh |
 | TurkBench: A Benchmark for Evaluating Turkish Large Language | 2026-Darici-TurkBench A Benchmark for Evaluating Turkish.md | Turkish |
 | Cetvel: A Unified Benchmark for Evaluating Language Understa | 2025-Erdem-Cetvel A Unified Benchmark for Evaluating.md | Turkish |
 | TurkishMMLU: Measuring Massive Multitask Language Understand | 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding.md | Turkish |
@@ -2759,54 +2759,54 @@
 | I Am Aligned, But With Whom? MENA Values Benchmark for Evalu | 2025-Asgari-I Am Aligned But With Whom.md | Arabic, English, Multilingual, Persian, Turkish |
 | TUMLU: A Unified and Native Language Understanding Benchmark | 2025-Barov-TUMLU A Unified and Native Language.md | Azerbaijani, Crimean Tatar, Karakalpak, Kazakh, Kyrgyz, Multilingual, Tatar, Turkish, Uyghur, Uzbek |
 | Qorgau: Evaluating LLM Safety in Kazakh-Russian Bilingual Co | 2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian.md | Kazakh, Russian |
-| KazMMLU: Evaluating Language Models on Kazakh, Russian, and  | 2025-authors-KazMMLU Evaluating Language Models on Kazakh.md | Kazakh, Russian |
+| KazMMLU: Evaluating Language Models on Kazakh, Russian, and  | 2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh.md | Kazakh, Russian |
 | KazBench-KK: A Cultural-Knowledge Benchmark for Kazakh | 2025-Zubitski-KazBench-KK A Cultural-Knowledge Benchmark for Kazakh.md | Kazakh |
 | Instruction Tuning on Public Government and Cultural Data fo | 2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for.md | Kazakh |
 | Kazakh Dastur-MC: Multiple Choice Benchmark on Kazakh Tradit | 2024-Yakunin-Kazakh Dastur-MC Multiple Choice Benchmark on.md | Kazakh |
 | Kazakh Language Dataset for Hate Speech Detection on Social  | 2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text.md | Kazakh |
-| A Turkish Hate Speech Dataset and Detection System | 2022-authors-A Turkish Hate Speech Dataset and Detection System.md | Turkish |
+| A Turkish Hate Speech Dataset and Detection System | 2022-Beyhan-A Turkish Hate Speech Dataset and Detection System.md | Turkish |
 | Large-Scale Hate Speech Detection with Cross-Domain Transfer | 2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.md | English, Turkish |
-| Open foundation models for Azerbaijani language | 2024-authors-Open foundation models for Azerbaijani language.md | Azerbaijani |
+| Open foundation models for Azerbaijani language | 2024-Isbarov-Open foundation models for Azerbaijani language.md | Azerbaijani |
 | Language Model Alignment in Multilingual Trolley Problems (M | 2024-Jin-Language Model Alignment in Multilingual Trolley.md | 100+ languages including Russian, Ukrainian, Bulgarian, Belarusian, 100+ languages including Vietnamese, Chinese, English, French, German, Italian, Portuguese, Russian, Spanish, Turkish, Uzbek, and 105 other languages |
 | How Well Do LLMs Represent Values Across Cultures? Empirical | 2024-authors-How Well Do LLMs Represent Values.md | 36 countries/languages including African nations, Afrikaans, Albanian, Arabic, Armenian, Azerbaijani, Belarusian, Bulgarian, Chinese, Czech, Danish, Dutch, English, Finnish, French, Georgian, German, Greek, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Malay, Mongolian, Multiple (36 countries including German-speaking), Multiple languages including Italian and Romanian contexts, Persian, Polish, Portuguese, Romanian, Russian, Sinhala, Spanish, Swedish, Thai, Turkish, Ukrainian, Vietnamese, and others |
-| Recent Advancements and Challenges of Turkic Central Asian L | 2024-authors-Recent Advancements and Challenges of Turkic.md | Kazakh, Kyrgyz, Turkmen, Uzbek |
+| Recent Advancements and Challenges of Turkic Central Asian L | 2024-Veitsman-Recent Advancements and Challenges of Turkic.md | Kazakh, Kyrgyz, Turkmen, Uzbek |
 | Proposing Central Asian AI Ethics Principles: A Multilevel A | 2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach.md | Kazakh, Kyrgyz, Tajik, Turkmen, Uzbek |
 | Text classification dataset and analysis for Uzbek language | 2023-Kuriyozov-Text classification dataset and analysis for.md | Uzbek |
 | Turkish Overfit-GM Toxic Language Dataset | 2024-Overfit-GM-Turkish Overfit-GM Toxic Language Dataset.md | Turkish |
 | Turkish Hate Speech Superset Dataset | 2024-Tonneau-Turkish Hate Speech Superset Dataset.md | Turkish |
 | Turkish Offensive Language Detection Dataset | 2024-Toygar-Turkish Offensive Language Detection Dataset.md | Turkish |
-| Teachers vs. large language models: ethical decision-making  | 2025-authors-Teachers vs. large language models ethical decision-making across.md | Turkish |
+| Teachers vs. large language models: ethical decision-making  | 2025-Göçen-Teachers vs. large language models ethical decision-making across.md | Turkish |
 | Azerbaijani LLM Leaderboard | 2024-LLM-Beetle-Azerbaijani LLM Leaderboard.md | Azerbaijani |
-| Gender Bias in Turkish Word Embeddings | 2024-authors-Gender Bias in Turkish Word Embeddings.md | Turkish |
+| Gender Bias in Turkish Word Embeddings | 2024-Altinok-Gender Bias in Turkish Word Embeddings.md | Turkish |
 | Representing the Under-Represented: Cultural and Core Capabi | 2024-Porkaew-Representing the Under-Represented Cultural and Core.md | Thai |
 | Typhoon 2: A Family of Open Text and Multimodal Thai Large L | 2024-Tharnpipitchai-Typhoon 2 A Family of Open.md | Thai |
 | Assessing Thai Dialect Performance in LLMs with Automatic Be | 2025-Kaewkasi-A Benchmark for Large Language Models on Northern.md | Kyrgyz, Thai (Isan, Lanna, Southern dialects), Turkish |
 | WangchanThaiInstruct: An Instruction-Following Dataset for C | 2025-team-WangchanThaiInstruct An Instruction-Following Dataset for Culture-Aware.md | Thai |
 | WangchanBERTa: Pretraining transformer-based Thai Language M | 2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models.md | Thai |
-| Debiasing Large Language Models in Thai Political Stance Det | 2025-results]]-Debiasing Large Language Models in Thai.md | Thai |
+| Debiasing Large Language Models in Thai Political Stance Det | 2025-Sermsri-Debiasing Large Language Models in Thai.md | Thai |
 | NitiBench: A Comprehensive Study of LLM Framework Capabiliti | 2025-Pothavorn-NitiBench A Comprehensive Study of LLM.md | Thai |
 | JAI-1: A Thai-Centric Large Language Model | 2025-results-JAI-1 A Thai-Centric Large Language Model.md | Thai |
 | OpenThaiGPT 1.5: A Thai-Centric Open Source Large Language M | 2024-team-OpenThaiGPT 15 A Thai-Centric Open Source.md | Thai |
 | LaoBench: A Large-Scale Multidimensional Lao Benchmark for L | 2025-Xuan-LaoBench A Large-Scale Multidimensional Lao Benchmark.md | Lao |
 | LaoPLM: Pre-trained Language Models for Lao | 2021-Sun-LaoPLM Pre-trained Language Models for Lao.md | Lao |
-| Myanmar XNLI: Building a Dataset and Exploring Low-resource  | 2024-results]]-Myanmar XNLI Building a Dataset and.md | Burmese |
+| Myanmar XNLI: Building a Dataset and Exploring Low-resource  | 2024-Htet-Myanmar XNLI Building a Dataset and.md | Burmese |
 | Development and Evaluation of Myanmar GPT: A Language Model  | 2024-Thu-Development and Evaluation of Myanmar GPT A Language Model for.md | Burmese |
 | BHASA: A Holistic Southeast Asian Linguistic and Cultural Ev | 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic.md | Indonesian, Tamil, Thai, Vietnamese |
 | SEACrowd: A Multilingual Multimodal Data Hub and Benchmark S | 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub.md | Burmese, Filipino/Tagalog, Indonesian, Javanese, Khmer, Lao, Malay, Sundanese, Thai, and ~1000 SEA languages |
 | SEA-SafeguardBench: Evaluating AI Safety in SEA Languages an | 2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA.md | Burmese, Filipino, Filipino/Tagalog, Indonesian, Malay, Tamil, Thai, Vietnamese |
 | SEA-Guard: Culturally Grounded Multilingual Safeguard for So | 2026-team-SEA-Guard Culturally Grounded Multilingual Safeguard for.md | Burmese, English, Filipino, Filipino/Tagalog, Indonesian, Malay, Tamil, Thai, Vietnamese |
-| SEALGuard: Safeguarding the Multilingual Conversations in So | 2025-results]]-SEALGuard Safeguarding the Multilingual Conversations in.md | Burmese, Filipino, Filipino/Tagalog, Indonesian, Javanese, Khmer, Lao, Malay, Tamil, Thai, Vietnamese |
+| SEALGuard: Safeguarding the Multilingual Conversations in So | 2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in.md | Burmese, Filipino, Filipino/Tagalog, Indonesian, Javanese, Khmer, Lao, Malay, Tamil, Thai, Vietnamese |
 | SeaLLMs: Large Language Models for Southeast Asia | 2023-team-SeaLLMs Large Language Models for Southeast.md | Burmese, Indonesian, Javanese, Khmer, Lao, Malay, Tagalog, Tamil, Thai, Vietnamese |
 | SeaLLMs 3: Open Foundation and Chat Multilingual Large Langu | 2024-team-SeaLLMs 3 Open Foundation and Chat Multilingual Large Language Models.md | Burmese, Chinese, Indonesian, Khmer, Lao, Thai, Vietnamese |
 | SeaExam and SeaBench: Benchmarking LLMs with Local Multiling | 2025-team-SeaExam and SeaBench Benchmarking LLMs with.md | Chinese, English, Indonesian, Thai, Vietnamese |
 | SailCompass: Towards Reproducible and Robust Evaluation for  | 2024-Dou-SailCompass Towards Reproducible and Robust Evaluation.md | Indonesian, Thai, Vietnamese |
 | Sailor: Open Language Models for South-East Asia | 2024-SUTD-Sailor Open Language Models for South-East.md | Indonesian, Lao, Malay, Thai, Vietnamese |
 | SEA-LION: Southeast Asian Languages in One Network | 2025-team-SEA-LION Southeast Asian Languages in One.md | Burmese, Chinese, English, Filipino, Filipino/Tagalog, Indonesian, Javanese, Khmer, Lao, Malay, Tamil, Thai, Vietnamese |
-| Cross-Lingual Stability and Bias in Instruction-Tuned Langua | 2025-results]]-Cross-Lingual Stability and Bias in Instruction-Tuned.md | Arabic, Burmese, Chinese, English, Hindi, Lingala, Multiple including Russian, Ukrainian, Russian, Ukrainian |
+| Cross-Lingual Stability and Bias in Instruction-Tuned Langua | 2025-Nemkova-Cross-Lingual Stability and Bias in Instruction-Tuned.md | Arabic, Burmese, Chinese, English, Hindi, Lingala, Multiple including Russian, Ukrainian, Russian, Ukrainian |
 | ALM-Bench: All Languages Matter - Evaluating LMMs on Cultura | 2024-Vayani-All Languages Matter.md | 100 languages including Persian, Kurdish, Pashto, Burmese, Thai, and 98 other languages |
-| MuBench: Assessment of Multilingual Capabilities of Large La | 2025-results]]-MuBench Assessment of Multilingual Capabilities of.md | Burmese, Thai, and 59 other languages |
+| MuBench: Assessment of Multilingual Capabilities of Large La | 2025-Han-MuBench Assessment of Multilingual Capabilities of.md | Burmese, Thai, and 59 other languages |
 | MultiLoKo: A Multilingual Local Knowledge Benchmark for LLMs | 2025-Bogoychev-MultiLoKo A Multilingual Local Knowledge Benchmark.md | Khmer, and 30 other languages |
-| CultureScope: A Dimensional Lens for Probing Cultural Unders | 2025-results]]-CultureScope A Dimensional Lens for Probing.md | Chinese, Multiple (framework for cultural evaluation), Multiple including French, Spanish |
+| CultureScope: A Dimensional Lens for Probing Cultural Unders | 2025-Zhang-CultureScope A Dimensional Lens for Probing.md | Chinese, Multiple (framework for cultural evaluation), Multiple including French, Spanish |
 | Typhoon: Thai Large Language Models | 2023-team-Typhoon Thai Large Language Models.md | Thai |
 | Khmer LLM: Cambodia's First Native Language Model | 2025-Intelligence-Khmer LLM Cambodias First Native Language.md | Khmer |
 | KhmerST: A Low-Resource Khmer Scene Text Detection and Recog | 2024-Nom-KhmerST A Low-Resource Khmer Scene Text.md | Khmer |
@@ -2844,7 +2844,7 @@
 | Decolonizing NLP for 'Low-resource Languages': Applying Abeb | 2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.md |  |
 | Lugha-Llama: Adapting Large Language Models for African Lang | 2025-Happy Buzaaba-Lugha-Llama Adapting Large Language Models for.md | Multiple African languages |
 | The State of Large Language Models for African Languages: Pr | 2025-Tewabe-The State of Large Language Models for African Languages Progress and.md | Survey covering African languages broadly |
-| WolBanking77: Wolof Banking Speech Intent Classification Dat | 2025-available-WolBanking77 Wolof Banking Speech Intent Classification.md | Wolof |
+| WolBanking77: Wolof Banking Speech Intent Classification Dat | 2025-Kandji-WolBanking77 Wolof Banking Speech Intent Classification.md | Wolof |
 | No Shortcuts to Culture: Indonesian Multi-hop Question Answe | 2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for.md | English, Indonesian |
 | Injecting Knowledge from Social Science Journals to Improve  | 2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve.md | Indonesian |
 | IndoCulture: Exploring Geographically-Influenced Cultural Co | 2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense.md | Indonesian |
@@ -2962,7 +2962,7 @@
 | BengaliFig: A Low-Resource Challenge for Figurative and Cult | 2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally.md | Bengali |
 | Building a Llama2-finetuned LLM for Odia Language Utilizing  | 2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain.md | Odia |
 | PoETa v2: Toward More Robust Evaluation of Large Language Mo | 2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in.md | Portuguese |
-| ToxSyn: Reducing Bias in Hate Speech Detection via Synthetic | 2025-retrieved-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.md | Portuguese |
+| ToxSyn: Reducing Bias in Hate Speech Detection via Synthetic | 2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.md | Portuguese |
 | HateBR: A Large Expert Annotated Corpus of Brazilian Instagr | 2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram.md | Portuguese |
 | Toxic Language Detection in Social Media for Brazilian Portu | 2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New.md | Portuguese |
 | OLID-BR: Offensive Language Identification Dataset for Brazi | 2024-Trajano-OLID-BR Offensive Language Identification Dataset for Brazilian.md | Portuguese |
@@ -2971,7 +2971,7 @@
 | Decoding Multilingual Moral Preferences: Unveiling LLM's Bia | 2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.md | Arabic, Chinese, English, French, German, Hindi, Italian, Japanese, Korean, Portuguese, Russian, Spanish, multiple including 10 languages |
 | IberBench: LLM Evaluation on Iberian Languages | 2025-González-Borrego-IberBench LLM Evaluation on Iberian Languages.md | Basque, Catalan, English, Galician, Portuguese, Spanish |
 | La Leaderboard: A Large Language Model Leaderboard for Spani | 2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish.md | Basque, Catalan, Galician, Spanish |
-| Bridging Gaps in Hate Speech Detection: Meta-Collections and | 2025-retrieved-Bridging Gaps in Hate Speech Detection Meta-Collections and.md | Basque, Catalan, European Portuguese, European Spanish, Galician, Portuguese, Spanish |
+| Bridging Gaps in Hate Speech Detection: Meta-Collections and | 2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and.md | Basque, Catalan, European Portuguese, European Spanish, Galician, Portuguese, Spanish |
 | Sabiá: Portuguese Large Language Models | 2023-Pires-Sabiá Portuguese Large Language Models.md | Portuguese |
 | Sabiá-2: A New Generation of Portuguese Large Language Model | 2024-Pires-Sabiá-2 A New Generation of Portuguese Large Language Models.md | Portuguese |
 | Tucano: Advancing Neural Text Generation for Portuguese | 2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese.md | Portuguese |
@@ -2982,22 +2982,22 @@
 | ASSIN: Avaliação de Similaridade Semântica e INferência text | 2016-Fonseca-ASSIN Avaliação de Similaridade Semântica e INferência textual.md | Portuguese |
 | Napolab: The Natural Portuguese Language Benchmark | 2024-Chaves-Napolab The Natural Portuguese Language Benchmark.md | Catalan, English, Galician, Portuguese, Spanish |
 | Open Portuguese LLM Leaderboard | 2024-Garcia-Open Portuguese LLM Leaderboard.md | Portuguese |
-| A Call for a Research Agenda on Fair NLP for Portuguese | 2023-retrieved-A Call for a Research Agenda on Fair NLP for Portuguese.md | Portuguese |
+| A Call for a Research Agenda on Fair NLP for Portuguese | 2023-Unknown-A Call for a Research Agenda on Fair NLP for Portuguese.md | Portuguese |
 | Is there Gender Bias and Stereotype in Portuguese Word Embed | 2018-Santana-Is there Gender Bias and Stereotype in Portuguese Word Embeddings.md | Portuguese |
 | Toxic Speech Detection in Portuguese: A Comparative Study of | 2024-Oliveira-Toxic Speech Detection in Portuguese A Comparative Study of Large.md | Portuguese |
 | Exploring Portuguese Hate Speech Detection in Low-Resource S | 2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings.md | Portuguese |
-| Context-Aware and Expert Data Resources for Brazilian Portug | 2025-retrieved-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate.md | Portuguese |
-| Evaluation of AI Ethics Tools in Language Models: A Develope | 2024-retrieved-Evaluation of AI Ethics Tools in Language Models A Developers'.md | Portuguese |
+| Context-Aware and Expert Data Resources for Brazilian Portug | 2025-Unknown-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate.md | Portuguese |
+| Evaluation of AI Ethics Tools in Language Models: A Develope | 2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'.md | Portuguese |
 | Albertina: Advancing Neural Encoding of Portuguese | 2023-team-Albertina Advancing Neural Encoding of Portuguese.md | Portuguese |
 | BERTimbau: Pretrained BERT Models for Brazilian Portuguese | 2020-Souza-BERTimbau Pretrained BERT Models for Brazilian Portuguese.md | Portuguese |
 | Open Generative Large Language Models for Galician | 2024-Compostela-Open Generative Large Language Models for Galician.md | Galician |
 | A Galician-Portuguese Generative Model | 2024-CiTIUS-A Galician-Portuguese Generative Model.md | Galician, Portuguese |
 | Enhancing Large Language Models for Underrepresented Varieti | 2025-Compostela-Enhancing Large Language Models for Underrepresented Varieties.md | Galician, Portuguese |
 | Proxecto Nós: Artificial Intelligence at the Service of the  | 2022-Compostela-Proxecto Nós Artificial Intelligence at the Service of the Galician.md | Galician |
-| Exploring Brazil's LLM Fauna: Investigating the Generative P | 2025-retrieved-Exploring Brazil's LLM Fauna Investigating the Generative Performance.md | Portuguese |
+| Exploring Brazil's LLM Fauna: Investigating the Generative P | 2025-Unknown-Exploring Brazil's LLM Fauna Investigating the Generative Performance.md | Portuguese |
 | PeLLE: Encoder-based Language Models for Brazilian Portugues | 2024-Mello-PeLLE Encoder-based Language Models for Brazilian Portuguese Based on.md | Portuguese |
-| Gender Bias in Portuguese Literary Texts: A Masked Language  | 2024-retrieved-Gender Bias in Portuguese Literary Texts A Masked Language Model.md | Portuguese |
-| LegalBench.PT: A Benchmark for Portuguese Law | 2025-retrieved-LegalBench.PT A Benchmark for Portuguese Law.md | Portuguese |
+| Gender Bias in Portuguese Literary Texts: A Masked Language  | 2024-Unknown-Gender Bias in Portuguese Literary Texts A Masked Language Model.md | Portuguese |
+| LegalBench.PT: A Benchmark for Portuguese Law | 2025-Canaverde-LegalBench.PT A Benchmark for Portuguese Law.md | Portuguese |
 | KorNAT: LLM Alignment Benchmark for Korean Social Values and | 2024-Lee-KorNAT.md | Korean |
 | KoBBQ: Korean Bias Benchmark for Question Answering | 2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.md | Korean |
 | KoSBi: A Dataset for Mitigating Social Bias Risks Towards Sa | 2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.md | Korean |
@@ -3084,10 +3084,10 @@
 | BelarusianGLUE: Towards a Natural Language Understanding Ben | 2025-Papadimitriou-BelarusianGLUE Towards a Natural Language Understanding Benchmark for.md | Belarusian |
 | bgGLUE: A Bulgarian General Language Understanding Evaluatio | 2023-Hardalov-bgGLUE A Bulgarian General Language Understanding Evaluation Benchmark.md | Bulgarian |
 | Hate Speech Classification in Bulgarian | 2022-researchers-Hate Speech Classification in Bulgarian.md | Bulgarian |
-| HALF: Harm-Aware LLM Fairness Evaluation Aligned with Deploy | 2025-authors-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment.md | English, German, Russian, Spanish, Ukrainian |
+| HALF: Harm-Aware LLM Fairness Evaluation Aligned with Deploy | 2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment.md | English, German, Russian, Spanish, Ukrainian |
 | SHADES: Towards a Multilingual Assessment of Stereotypes in  | 2025-Mitchell-SHADES Towards a Multilingual Assessment of Stereotypes in Large.md | 16 languages from 20 regions, 16 languages including French, 16 languages including Russian |
 | EuroGEST: Investigating Gender Stereotypes in Multilingual L | 2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language.md | Basque, Bulgarian, Catalan, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Icelandic, Irish, Italian, Maltese, Norwegian, Polish, Romanian, Russian, Slovak, Slovenian, Swedish, Turkish, Ukrainian, and 21 more European languages, and 22 more European languages, and 23 other European languages, and 25 other European languages, and 28 other European languages |
-| Multilingual Blending: LLM Safety Alignment Evaluation with  | 2024-authors-Multilingual Blending LLM Safety Alignment Evaluation with Language.md | Multiple including Russian, Bulgarian, Polish |
+| Multilingual Blending: LLM Safety Alignment Evaluation with  | 2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language.md | Multiple including Russian, Bulgarian, Polish |
 | All Languages Matter: On the Multilingual Safety of Large La | 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language.md | Arabic, Bengali, Chinese, English, French, German, Hindi, Japanese, Russian, Spanish |
 | The Language You Ask In: Language-Conditioned Ideological Di | 2026-Smirnov-The Language You Ask In Language-Conditioned Ideological Divergence.md | Russian, Ukrainian |
 | Transformer-Based Language Models for Bulgarian | 2023-researchers-Transformer-Based Language Models for Bulgarian.md | Bulgarian |
@@ -3192,13 +3192,13 @@
 | GermEval 2018 Shared Task on the Identification of Offensive | 2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.md | German |
 | GermEval 2021 Shared Task on the Identification of Toxic, En | 2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.md | German |
 | GAHD: Improving Adversarial Data Collection by Supporting An | 2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -.md | German |
-| HOCON34k: A Corpus of Hate Speech in Online Comments from Ge | 2024-Various-HOCON34k A Corpus of Hate Speech in Online Comments from German.md | German |
+| HOCON34k: A Corpus of Hate Speech in Online Comments from Ge | 2024-Keller-HOCON34k A Corpus of Hate Speech in Online Comments from German.md | German |
 | Digital Guardians: Can GPT-4, Perspective API, and Moderatio | 2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API.md | German |
-| Mapping Toxic Comments Across Demographics: A Dataset from G | 2025-Various-Mapping Toxic Comments Across Demographics A Dataset from German.md | German |
+| Mapping Toxic Comments Across Demographics: A Dataset from G | 2025-Fillies-Mapping Toxic Comments Across Demographics A Dataset from German.md | German |
 | taz2024full: Analysing German Newspapers for Gender Bias and | 2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and.md | German |
-| A novel German TikTok hate speech dataset: far-right comment | 2025-Various-A novel German TikTok hate speech dataset far-right comments against.md | German |
+| A novel German TikTok hate speech dataset: far-right comment | 2025-Fillies-A novel German TikTok hate speech dataset far-right comments against.md | German |
 | Large Language Models Discriminate Against Speakers of Germa | 2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects.md | German |
-| Comparative Survey of German Hate Speech Datasets: Backgroun | 2024-Various-Comparative Survey of German Hate Speech Datasets Background.md | German |
+| Comparative Survey of German Hate Speech Datasets: Backgroun | 2024-Unknown-Comparative Survey of German Hate Speech Datasets Background.md | German |
 | Hate Speech Detection Using Cross-Platform Social Media Data | 2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In.md | English, German |
 | German HateSpeech Corpus | 2021-Wuerzburg-German HateSpeech Corpus.md | German |
 | LLaMmlein: Transparent, Compact and Competitive German-Only  | 2024-Pfister-LLaMmlein Transparent Compact and Competitive German-Only Language.md | German |
@@ -3206,15 +3206,15 @@
 | ScandEval: A Benchmark for Scandinavian Natural Language Pro | 2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing.md | Danish, Faroese, Icelandic, Norwegian, Swedish |
 | NorBench: A Benchmark for Norwegian Language Models | 2023-Oslo-NorBench A Benchmark for Norwegian Language Models.md | Norwegian |
 | NLEBench+NorGLM: A Comprehensive Empirical Analysis and Benc | 2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark.md | Norwegian |
-| NorEval: A Norwegian Language Understanding and Generation E | 2025-Various-NorEval A Norwegian Language Understanding and Generation Evaluation.md | Norwegian |
+| NorEval: A Norwegian Language Understanding and Generation E | 2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation.md | Norwegian |
 | DUMB: A Benchmark for Smart Evaluation of Dutch Models | 2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models.md | Dutch |
-| Towards Fairness Assessment of Dutch Hate Speech Detection | 2025-Various-Towards Fairness Assessment of Dutch Hate Speech Detection.md | Dutch |
+| Towards Fairness Assessment of Dutch Hate Speech Detection | 2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.md | Dutch |
 | Evaluating Dutch Social Bias in Large Language Models | 2024-Burema-Evaluating Dutch Social Bias in Large Language Models.md | Dutch |
-| MTEB-NL and E5-NL: Embedding Benchmark and Models for Dutch | 2025-Various-MTEB-NL and E5-NL Embedding Benchmark and Models for Dutch.md | Dutch |
+| MTEB-NL and E5-NL: Embedding Benchmark and Models for Dutch | 2025-Banar-MTEB-NL and E5-NL Embedding Benchmark and Models for Dutch.md | Dutch |
 | DaKultur: Evaluating the Cultural Awareness of Language Mode | 2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for.md | Danish |
 | SDU's DAISY: A Benchmark for Danish Culture | 2026-Lab-SDU's DAISY A Benchmark for Danish Culture.md | Danish |
-| Danoliteracy of Generative Large Language Models | 2024-Various-Danoliteracy of Generative Large Language Models.md | Danish |
-| SnakModel: Lessons Learned from Training an Open Danish Larg | 2024-Various-SnakModel Lessons Learned from Training an Open Danish Large Language.md | Danish |
+| Danoliteracy of Generative Large Language Models | 2024-Holm-Danoliteracy of Generative Large Language Models.md | Danish |
+| SnakModel: Lessons Learned from Training an Open Danish Larg | 2024-Zhang-SnakModel Lessons Learned from Training an Open Danish Large Language.md | Danish |
 | Offensive Language and Hate Speech Detection for Danish (DKH | 2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.md | Danish |
 | DaCy: A Unified Framework for Danish NLP | 2021-Enevoldsen-DaCy A Unified Framework for Danish NLP.md | Danish |
 | The Scandinavian Embedding Benchmarks: Comprehensive Assessm | 2024-Enevoldsen-The Scandinavian Embedding Benchmarks Comprehensive Assessment of.md | Danish, Norwegian, Swedish |
@@ -3226,7 +3226,7 @@
 | Toxicity Detection in Finnish Using Machine Translation | 2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation.md | English, Finnish |
 | Got Compute, but No Data: Lessons From Post-training a Finni | 2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM.md | English, Finnish |
 | GermanBenchmark: German translations of popular LLM benchmar | 2023-LAIONHessian.AI-GermanBenchmark German translations of popular LLM benchmarks.md | German |
-| Towards Multilingual LLM Evaluation for Baltic and Nordic La | 2025-Various-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.md | Lithuanian, Nordic languages |
+| Towards Multilingual LLM Evaluation for Baltic and Nordic La | 2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.md | Lithuanian, Nordic languages |
 | ITALIC: An Italian Culture-Aware Natural Language Benchmark | 2025-Seveso-ITALIC An Italian Culture-Aware Natural Language Benchmark.md | Italian |
 | Evalita-LLM: Benchmarking Large Language Models on Italian | 2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian.md | Italian |
 | CALAMITA: Challenging the Abilities of LAnguage Models in IT | 2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian.md | Italian |
@@ -3236,23 +3236,23 @@
 | HaSpeeDe 2 @ EVALITA2020: Overview of the EVALITA 2020 Hate  | 2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech.md | Italian |
 | AMI @ EVALITA2020: Automatic Misogyny Identification | 2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification.md | Italian |
 | An Empirical Investigation of Gender Stereotype Representati | 2025-Giachino-An Empirical Investigation of Gender Stereotype Representation in.md | Italian |
-| Identifying Gender Stereotypes and Biases in Automated Trans | 2025-authors-Identifying Gender Stereotypes and Biases in Automated Translation.md | English, Italian |
+| Identifying Gender Stereotypes and Biases in Automated Trans | 2025-Mohammadi-Identifying Gender Stereotypes and Biases in Automated Translation.md | English, Italian |
 | Detecting Racial Stereotypes: An Italian Social Media Corpus | 2023-Bosco-Detecting Racial Stereotypes An Italian Social Media Corpus where.md | Italian |
-| Italian Linguistic Features for Toxic Language Detection in  | 2023-authors-Italian Linguistic Features for Toxic Language Detection in Social.md | Italian |
-| Mapping the Italian Telegram Ecosystem: Communities, Toxicit | 2025-authors-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.md | Italian |
-| MuLTa-Telegram: A Fine-Grained Italian and Polish Dataset fo | 2025-authors-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.md | Italian, Polish |
-| Cross-Platform Evaluation for Italian Hate Speech Detection | 2019-authors-Cross-Platform Evaluation for Italian Hate Speech Detection.md | Italian |
+| Italian Linguistic Features for Toxic Language Detection in  | 2023-Unknown-Italian Linguistic Features for Toxic Language Detection in Social.md | Italian |
+| Mapping the Italian Telegram Ecosystem: Communities, Toxicit | 2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.md | Italian |
+| MuLTa-Telegram: A Fine-Grained Italian and Polish Dataset fo | 2025-Unknown-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.md | Italian, Polish |
+| Cross-Platform Evaluation for Italian Hate Speech Detection | 2019-Unknown-Cross-Platform Evaluation for Italian Hate Speech Detection.md | Italian |
 | BasqBBQ: A QA Benchmark for Assessing Social Biases in LLMs  | 2025-Zulaika-BasqBBQ A QA Benchmark for Assessing Social Biases in LLMs for Basque.md | Basque |
 | EsBBQ and CaBBQ: The Spanish and Catalan Bias Benchmarks for | 2025-Ruiz-Fernández-EsBBQ and CaBBQ.md | Catalan, Spanish |
 | BasqueGLUE: A Natural Language Understanding Benchmark for B | 2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque.md | Basque |
 | Latxa: An Open Language Model and Evaluation Suite for Basqu | 2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque.md | Basque |
 | The Catalan Language CLUB (Catalan Language Understanding Be | 2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark.md | Catalan |
-| A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be | 2025-authors-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a.md | Romanian |
-| A Cross-Lingual Analysis of Bias in Large Language Models Us | 2025-authors-A Cross-Lingual Analysis of Bias in Large Language Models Using.md | English, Romanian, and others |
+| A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be | 2025-Ganea-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a.md | Romanian |
+| A Cross-Lingual Analysis of Bias in Large Language Models Us | 2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using.md | English, Romanian, and others |
 | Enhancing Romanian Offensive Language Detection through Know | 2024-Matei-Enhancing Romanian Offensive Language Detection through Knowledge.md | Romanian |
-| Offensive Text Span Detection in Romanian Comments Using Lar | 2024-authors-Offensive Text Span Detection in Romanian Comments Using Large.md | Romanian |
+| Offensive Text Span Detection in Romanian Comments Using Lar | 2024-Paraschiv-Offensive Text Span Detection in Romanian Comments Using Large.md | Romanian |
 | GSI:detect — Gender Stereotype Detection Shared Task at EVAL | 2026-Comandini-GSIdetect - Gender Stereotype Detection Shared Task at EVALITA 2026.md | Italian |
-| MedBench-IT: A Comprehensive Benchmark for Evaluating LLMs o | 2025-authors-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian.md | Italian |
+| MedBench-IT: A Comprehensive Benchmark for Evaluating LLMs o | 2025-Lazzaroni-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian.md | Italian |
 | GreekMMLU: A Native-Sourced Multitask Benchmark for Evaluati | 2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating.md | Greek |
 | Meltemi: The first open Large Language Model for Greek | 2024-Voukoutis-Meltemi The first open Large Language Model for Greek.md | Greek |
 | Krikri: Advancing Open Large Language Models for Greek | 2025-Roussis-Krikri Advancing Open Large Language Models for Greek.md | English, Greek |
@@ -3290,7 +3290,7 @@
 | Exploring Cultural Variations in Moral Judgments with Large  | 2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.md | Arabic, English, Japanese, Multilingual, Turkish |
 | Analyzing Social Biases in Japanese Large Language Models | 2024-Yanaka-JBBQ.md | Japanese |
 | Benchmarking the Legal Reasoning of LLMs in Arabic Islamic I | 2025-Zaki-Benchmarking the Legal Reasoning of LLMs.md | Arabic |
-| MMLU-ProX: A Multilingual Benchmark for Advanced ... | 2025-authors-MMLU-ProX A Multilingual Benchmark for Advanced.md | Multilingual |
+| MMLU-ProX: A Multilingual Benchmark for Advanced ... | 2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced.md | Multilingual |
 | Evaluating and Improving Cultural Awareness of Reward Models | 2025-Zhang-Evaluating and Improving Cultural Awareness of.md | Arabic, English, Multilingual, Turkish |
 | Uncovering Political Bias in Large Language Models using Par | 2026-Chen-PoliBias Parliamentary Voting Records.md | English, Multilingual |
 | WorldValuesBench: A Large-Scale Benchmark Dataset for Multi- | 2024-Wu-WorldValuesBench.md | Multilingual |

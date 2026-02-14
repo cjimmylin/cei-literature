@@ -221,35 +221,76 @@ def scalar_state(value: str | None) -> str:
 def parse_http_urls(raw: str | None) -> list[str]:
     if not raw:
         return []
-    urls = re.findall(r"https?://[^\s,;\"')\]]+", raw)
+    urls = re.findall(r"https?://[^\s\"'<>]+", raw)
     out = []
     seen = set()
     for url in urls:
-        u = url.rstrip(".,;:)}]")
+        u = url.rstrip(".,;:)}]>")
+        if "](" in u:
+            u = u.split("](", 1)[0]
+        if "(" in u and ")" not in u and "/(" in u:
+            u = u.split("(", 1)[0]
         if u and u not in seen:
             out.append(u)
             seen.add(u)
     return out
 
 
+def extract_http_urls_from_text(text: str) -> list[str]:
+    return parse_http_urls(text or "")
+
+
 def normalize_host(url: str) -> str:
-    host = urlparse(url).netloc.lower()
+    host = urlparse(url).netloc.lower().strip()
     if host.startswith("www."):
         host = host[4:]
     return host
+
+
+def has_confident_data_path(url: str) -> bool:
+    parsed = urlparse(url)
+    host = normalize_host(url)
+    segs = [s for s in parsed.path.split("/") if s]
+
+    if host in {"github.com", "gitlab.com"}:
+        return len(segs) >= 2 and all(s.lower() not in {"dataset", "datasets"} for s in segs[:2])
+    if host == "huggingface.co":
+        if len(segs) >= 3 and segs[0].lower() in {"datasets", "spaces"}:
+            return segs[1].lower() not in {"dataset", "datasets"} and segs[2].lower() not in {"dataset", "datasets"}
+        return len(segs) >= 2 and segs[0].lower() not in {"dataset", "datasets"} and segs[1].lower() not in {"dataset", "datasets"}
+    if host == "kaggle.com":
+        return len(segs) >= 2 and segs[0].lower() in {"datasets", "competitions"} and segs[1].lower() not in {"dataset", "datasets"}
+    if host == "zenodo.org":
+        return len(segs) >= 2 and segs[0].lower() in {"record", "records"} and segs[1].isdigit()
+    if host == "osf.io":
+        return len(segs) >= 1 and len(segs[0]) >= 4
+    if host == "data.mendeley.com":
+        return len(segs) >= 2 and segs[0].lower() == "datasets"
+    if host == "paperswithcode.com":
+        return len(segs) >= 1
+    if host == "figshare.com":
+        return len(segs) >= 1
+    if "dataverse." in host:
+        return len(segs) >= 1
+    return len(segs) >= 1
 
 
 def is_approved_data_url(url: str) -> bool:
     host = normalize_host(url)
     if not host:
         return False
+    host_ok = False
     for pat in APPROVED_DATA_HOST_PATTERNS:
         if pat.endswith("."):
             if pat in host:
-                return True
-        elif host == pat or host.endswith("." + pat):
-            return True
-    return False
+                host_ok = True
+                break
+        elif host == pat:
+            host_ok = True
+            break
+    if not host_ok:
+        return False
+    return has_confident_data_path(url)
 
 
 def data_url_rank(url: str) -> tuple[int, str]:
@@ -383,9 +424,16 @@ def conservative_models_from_extract(extract_text: str) -> tuple[list[str], list
     return plausible, confident
 
 
-def select_data_url(fields: dict[str, str], extract_urls: list[str]) -> tuple[str, list[str]]:
+def select_data_url(
+    fields: dict[str, str],
+    extract_pattern_urls: list[str],
+    extract_text: str,
+    body_text: str,
+) -> tuple[str, list[str]]:
     candidate_urls = []
-    candidate_urls.extend(extract_urls)
+    candidate_urls.extend(extract_pattern_urls)
+    candidate_urls.extend(extract_http_urls_from_text(extract_text))
+    candidate_urls.extend(extract_http_urls_from_text(body_text))
     candidate_urls.extend(parse_http_urls(fields.get("url")))
     candidate_urls.extend(parse_http_urls(fields.get("external_pdf")))
 
@@ -660,7 +708,12 @@ def main() -> None:
             llm_should_update = True
 
         if data_state in TARGET_STATES:
-            selected_url, all_candidates = select_data_url(rec.fields, extract_url_hits)
+            selected_url, all_candidates = select_data_url(
+                rec.fields,
+                extract_url_hits,
+                extract_text,
+                rec.body,
+            )
             data_after = selected_url
             data_source = "approved_candidate" if selected_url != "NA" else "fallback_NA"
         else:

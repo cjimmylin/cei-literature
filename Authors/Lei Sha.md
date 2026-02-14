@@ -55,10 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Various-AISafetyLab|AISafetyLab]]
+- [[2025-Zhang-AISafetyLab|AISafetyLab]]
 - [[2025-Yu-MSLR-Bench Multi-Step Legal Reasoning|MSLR-Bench (Multi-Step Legal Reasoning)]] (Last Author)]]
 
-- [[2025-Various-AISafetyLab|AISafetyLab]]
+- [[2025-Zhang-AISafetyLab|AISafetyLab]]
 - [[2025-Yu-MSLR-Bench Multi-Step Legal Reasoning|MSLR-Bench (Multi-Step Legal Reasoning)]] (Last Author)
 
 ## External Links & Profiles

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, BLOOMz, ChatGPT, Claude Sonnet, Claude-haiku, CommandR, DeepSeek R1, DeepSeek-R1, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT-4o, Llama, Llama-3, Llama 3.3, Llama 2, Llama-3.3, Mistral L2, Mistral Large, Mistral-7B, Mixtral-8x7B, Vicuna"
-DATA_URL: NA
+DATA_URL: "https://github.com/ariba-k/llm-cultural-alignment-evaluation"
 tags: 
 abstract: "A large number of studies rely on closed-style multiple-choice surveys to evaluate cultural alignment in Large Language Models (LLMs). In this work, we challenge this constrained evaluation paradigm and explore more realistic, unconstrained approaches. Using the World Values Survey (WVS) and Hofstede Cultural Dimensions as case studies, we demonstrate that LLMs exhibit stronger cultural alignment in less constrained settings, where responses are not forced."
 ethics_perspective: "Social & Cultural Values"
@@ -68,7 +69,7 @@ Challenges closed-style multiple-choice surveys for cultural alignment evaluatio
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, BLOOMz, ChatGPT, Claude Sonnet, Claude-haiku, CommandR, DeepSeek R1, DeepSeek-R1, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT-4o, Llama, Llama-3, Llama 3.3, Llama 2, Llama-3.3, Mistral L2, Mistral Large, Mistral-7B, Mixtral-8x7B, Vicuna. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include Alpaca, BLOOMz, ChatGPT, Claude Sonnet, Claude-haiku, CommandR, DeepSeek R1, DeepSeek-R1, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT-4o, Llama, Llama-3, Llama 3.3, Llama 2, Llama-3.3, Mistral L2, Mistral Large, Mistral-7B, Mixtral-8x7B, Vicuna. Verified dataset/resource link: https://github.com/ariba-k/llm-cultural-alignment-evaluation.
 
 ## Notes
 

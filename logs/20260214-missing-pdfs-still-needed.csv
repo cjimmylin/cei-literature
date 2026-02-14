@@ -6,7 +6,7 @@ paper,local_state,local_pdf_raw,external_pdf,url,doi
 2018-Liebeskind-Identifying Abusive Comments in Hebrew Facebook.md,na,N/A,,https://ieeexplore.ieee.org/document/8646190,10.1109/ICSEE.2018.8646190
 2018-Nguyen-UIT-VSFC Vietnamese Students' Feedback Corpus for Sentiment Analysis.md,na,N/A,http://xplorestaging.ieee.org/ielx7/8553666/8573236/08573337.pdf?arnumber=8573337,https://ieeexplore.ieee.org/document/8573337/,10.1109/KSE.2018.8573337
 2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open.md,na,N/A,,https://github.com/ptaszynski/cyberbullying-Polish,
-2019-authors-Cross-Platform Evaluation for Italian Hate Speech Detection.md,na,N/A,https://hal.science/hal-02381152,https://hal.science/hal-02381152,
+2019-Unknown-Cross-Platform Evaluation for Italian Hate Speech Detection.md,na,N/A,https://hal.science/hal-02381152,https://hal.science/hal-02381152,
 2019-collaboration-help_dicrah A ML-based hate speech detection tool on Twitter in French.md,na,N/A,,https://github.com/Mik3M4n/help_dicrah,
 2020-Karan-Detecting Hate Speech Online A Case of Croatian.md,na,N/A,https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:892/datastream/FILE0,https://link.springer.com/chapter/10.1007/978-3-030-38833-1_16,10.1007/978-3-030-38833-1_16
 2020-Souza-BERTimbau Pretrained BERT Models for Brazilian Portuguese.md,na,N/A,,https://www.researchgate.net/publication/345395208_BERTimbau_Pretrained_BERT_Models_for_Brazilian_Portuguese,
@@ -16,7 +16,7 @@ paper,local_state,local_pdf_raw,external_pdf,url,doi
 2021-Pretrained-Research on Uyghur‐Chinese Neural Machine Translation Based on the.md,na,N/A,,https://onlinelibrary.wiley.com/doi/10.1155/2021/5744248,10.1155/2021/5744248
 2021-Sullins-Artificial Phronesis - What It Is and Is Not.md,na,N/A,,https://academic.oup.com/book/41621/chapter-abstract/353452047,10.1093/oso/9780190081713.003.0015
 2021-Team-Slovenian Twitter Hate Speech Dataset IMSyPP-sl.md,na,N/A,,https://www.clarin.si/repository/xmlui/handle/11356/1398,
-2021-authors-Cyberbullying and Hate Speech Detection on.md,na,N/A,https://doi.org/10.1016/j.dib.2022.108540,https://www.researchgate.net/publication/352848223,
+2021-Mghari-Cyberbullying and Hate Speech Detection on.md,na,N/A,https://doi.org/10.1016/j.dib.2022.108540,https://www.researchgate.net/publication/352848223,
 2021-collaborators-Optimisation of the Largest Annotated Tibetan.md,na,N/A,,,
 2022-Ataei-Pars-OFF A Benchmark for Offensive Language Detection on Farsi Social.md,na,N/A,,https://ieeexplore.ieee.org/document/9936700,10.1109/taffc.2022.3219229
 2022-Atwell-Challenging the Transformer-based Models with a.md,na,N/A,,,
@@ -42,7 +42,7 @@ paper,local_state,local_pdf_raw,external_pdf,url,doi
 2023-Unknown-Pars-HaO Hate and Offensive Language Detection on Persian Tweets.md,na,N/A,,https://www.authorea.com/users/581546/articles/683116-pars-hao-hate-and-offensive-language-detection-on-persian-tweets-using-machine-learning-and-deep-learning,
 2023-[[Unknown]]-ISE-Hate A Benchmark Corpus for Inter-faith.md,na,N/A,https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.24106617.v2,https://www.sciencedirect.com/science/article/abs/pii/S0306457323000079,
 2023-[[Unknown]]-NEHATE Large-Scale Annotated Data Shedding Light.md,na,N/A,https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA230535,https://www.researchgate.net/publication/374325865_NEHATE_Large-Scale_Annotated_Data_Shedding_Light_on_Hate_Speech_in_Nepali_Local_Election_Discourse,
-2023-results]]-Ex-ThaiHate A Generative Multi-task Framework for.md,na,N/A,,https://link.springer.com/chapter/10.1007/978-3-031-43427-3_9,
+2023-Maity-Ex-ThaiHate A Generative Multi-task Framework for.md,na,N/A,,https://link.springer.com/chapter/10.1007/978-3-031-43427-3_9,
 2024-Azerbaijan-Azerbaijani Toxicity Classifier.md,na,N/A,,https://huggingface.co/LocalDoc/azerbaijani_toxicity_classifier,
 2024-CiTIUS-A Galician-Portuguese Generative Model.md,na,N/A,,https://link.springer.com/chapter/10.1007/978-3-031-73503-5_24,10.1007/978-3-031-73503-5_24
 2024-Demidova-dblp ArabicNLP 2024.md,na,N/A,,https://dblp.org/db/conf/wanlp/arabicnlp2024.html,
@@ -77,22 +77,22 @@ paper,local_state,local_pdf_raw,external_pdf,url,doi
 2024-Unknown-Available hate speech datasets for Arabic. Download Scientific Diagram.md,na,N/A,,https://www.researchgate.net/figure/Available-hate-speech-datasets-for-Arabic_tbl1_381031629,
 2024-Unknown-Towards Better Sentiment Analysis in the Turkish Language Dataset.md,na,N/A,,https://www.mdpi.com/2076-3417/15/4/2062,
 2024-Unknown-WoNBias A Complete Bengali Gender Bias Dataset.md,na,N/A,,https://huggingface.co/datasets/gender-bias-bengali/wonbias-complete-dataset,
-2024-Various-HOCON34k A Corpus of Hate Speech in Online Comments from German.md,na,N/A,,https://link.springer.com/chapter/10.1007/978-3-031-78090-5_18,10.1007/978-3-031-78090-5_18
+2024-Keller-HOCON34k A Corpus of Hate Speech in Online Comments from German.md,na,N/A,,https://link.springer.com/chapter/10.1007/978-3-031-78090-5_18,10.1007/978-3-031-78090-5_18
 2024-Veitsman-The Development and Experimental Evaluation of a Multilingual Speech.md,na,N/A,,https://www.mdpi.com/2076-3417/15/24/12880,
 2024-Wang-XSafety Multilingual Safety Benchmark.md,na,N/A,,https://github.com/Jarviswang94/Multilingual_safety_benchmark,
 2024-Yakunin-Kazakh Dastur-MC Multiple Choice Benchmark on.md,na,N/A,,https://huggingface.co/datasets/kz-transformers/kazakh-dastur-mc,
 2024-Yeltay-Kazakh Language Dataset for Hate Speech.md,na,N/A,https://ieeexplore.ieee.org/ielx8/10719028/10718863/10719327.pdf,https://doi.org/10.1109/ICCIA62557.2024.10719327,10.1109/ICCIA62557.2024.10719327
 2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach.md,na,N/A,,https://link.springer.com/article/10.1007/s43681-024-00505-7,10.1007/s43681-024-00505-7
 2024-[[Unknown]]-Urdu Toxicity Detection A Multi-Stage and.md,na,N/A,https://www.mdpi.com/2673-2688/6/8/194/pdf?version=1755769417,https://www.mdpi.com/2673-2688/6/8/194,
-2024-authors-Offensive Text Span Detection in Romanian Comments Using Large.md,na,N/A,https://doi.org/10.3390/info15010008,https://www.mdpi.com/2078-2489/15/1/8,10.3390/info15010008
-2024-authors-So-haTRed A Novel Hybrid System for.md,na,N/A,https://doi.org/10.1109/access.2024.3415350,https://ieeexplore.ieee.org/document/10559617/,
-2024-authors-hatebnBERT An Innovative Novel Transformer Model.md,na,N/A,,,
+2024-Paraschiv-Offensive Text Span Detection in Romanian Comments Using Large.md,na,N/A,https://doi.org/10.3390/info15010008,https://www.mdpi.com/2078-2489/15/1/8,10.3390/info15010008
+2024-Altinel-So-haTRed A Novel Hybrid System for.md,na,N/A,https://doi.org/10.1109/access.2024.3415350,https://ieeexplore.ieee.org/document/10559617/,
+2024-Unknown-hatebnBERT An Innovative Novel Transformer Model.md,na,N/A,,,
 2024-community-Open Leaderboard for Hebrew LLMs.md,na,N/A,,https://huggingface.co/blog/leaderboard-hebrew,
 2024-group-ITA-Bench Towards a More Comprehensive Evaluation for Italian LLMs.md,na,N/A,,https://github.com/SapienzaNLP/ita-bench,
 2024-project-DharmicData Comprehensive Open-Source Collection of Hindu.md,na,N/A,,,
-2024-results]]-A Novel Socio-pragmatic Framework for Sentiment.md,na,N/A,,https://www.sciencedirect.com/science/article/abs/pii/S0950705124008827,
-2024-results]]-HateThaiSent Sentiment-Aided Hate Speech Detection in.md,na,N/A,,https://ieeexplore.ieee.org/document/10494986/,
-2024-results]]-Telugu Language Hate Speech Detection Using.md,na,N/A,https://doi.org/10.1016/j.sasc.2024.200112,https://www.sciencedirect.com/science/article/pii/S2772941924000413,
+2024-Unknown-A Novel Socio-pragmatic Framework for Sentiment.md,na,N/A,,https://www.sciencedirect.com/science/article/abs/pii/S0950705124008827,
+2024-Unknown-HateThaiSent Sentiment-Aided Hate Speech Detection in.md,na,N/A,,https://ieeexplore.ieee.org/document/10494986/,
+2024-Khanduja-Telugu Language Hate Speech Detection Using.md,na,N/A,https://doi.org/10.1016/j.sasc.2024.200112,https://www.sciencedirect.com/science/article/pii/S2772941924000413,
 2024-team-Indic-Bias A Comprehensive Benchmark for Fairness.md,na,N/A,,https://huggingface.co/datasets/ai4bharat/Indic-Bias,
 2024-team-Indic-Bias A Comprehensive Benchmark to Evaluate.md,na,N/A,,https://github.com/AI4Bharat/indic-bias,
 2024-team-MahaMarathi-7B Marathi Large Language Model.md,na,N/A,https://www.mdpi.com/2079-9292/14/17/3484/pdf?version=1756625048,https://huggingface.co/marathi-llm/MahaMarathi-7B-v24.01-Base,
@@ -188,17 +188,17 @@ paper,local_state,local_pdf_raw,external_pdf,url,doi
 2025-Wasi-Dialectal Bias in Bengali An Evaluation of Multilingual Language.md,na,N/A,,https://dl.acm.org/doi/10.1145/3701716.3715468,10.1145/3701716.3715468
 2025-Xie-Ce‐LLMs Status and trends of education‐specific large language models.md,na,N/A,,https://onlinelibrary.wiley.com/doi/10.1002/fer3.70008,10.1002/fer3.70008
 2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist.md,na,N/A,,,
-2025-authors-How do LLMs perform on Turkish.md,na,N/A,https://doi.org/10.1080/23311983.2025.2600519,https://www.sciencedirect.com/science/article/abs/pii/S0957417425010437,
-2025-authors-Investigating linguistic errors in large language.md,na,N/A,,https://www.tandfonline.com/doi/full/10.1080/23311983.2025.2600519,
-2025-authors-IslamTrust A Benchmark for LLMs Alignment.md,na,N/A,,,
-2025-authors-Teachers vs. large language models ethical decision-making across.md,na,N/A,,https://www.tandfonline.com/doi/full/10.1080/10508422.2025.2581274,10.1080/10508422.2025.2581274
+2025-Solidjonov-How do LLMs perform on Turkish.md,na,N/A,https://doi.org/10.1080/23311983.2025.2600519,https://www.sciencedirect.com/science/article/abs/pii/S0957417425010437,
+2025-Solidjonov-Investigating linguistic errors in large language.md,na,N/A,,https://www.tandfonline.com/doi/full/10.1080/23311983.2025.2600519,
+2025-Unknown-IslamTrust A Benchmark for LLMs Alignment.md,na,N/A,,,
+2025-Göçen-Teachers vs. large language models ethical decision-making across.md,na,N/A,,https://www.tandfonline.com/doi/full/10.1080/10508422.2025.2581274,10.1080/10508422.2025.2581274
 2025-initiative-CatholicBench.md,na,N/A,,,
 2025-initiative-Faith Respect and Moral Compass in.md,na,N/A,,,
 2025-initiative-FaithBench AI Benchmark for Christian Theology.md,na,N/A,,,
 2025-onejune2018-Awesome-LLM-Eval Repository Meta-Resource.md,na,N/A,,,
 2025-paper-LLMs and Islamic Fiqh A Reliability.md,na,N/A,,,
 2025-project-Kaku-Ora Zen Wisdom Diffused -- An.md,na,N/A,,,
-2025-results]]-A Multimodal Approach for Hate and.md,na,N/A,,https://dl.acm.org/doi/10.1145/3712260,
+2025-Mohan-A Multimodal Approach for Hate and.md,na,N/A,,https://dl.acm.org/doi/10.1145/3712260,
 2025-search-DweshVaani An LLM for Detecting Religious.md,na,N/A,,,
 2026-Comandini-GSIdetect - Gender Stereotype Detection Shared Task at EVALITA 2026.md,na,N/A,,https://www.evalita.it/campaigns/evalita-2026/tasks/,
 2026-Unknown-Arabic LLMs for Banking Telecom and Government in GCC - 2026.md,na,N/A,,https://makitsol.com/arabic-llms-for-banking-telecom-and-government-in-gcc/,

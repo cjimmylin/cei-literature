@@ -1,13 +1,13 @@
 ---
-title: "2026-results]]-IndRegBias A Dataset for Studying Indian - PDF Extract"
-source_pdf: "2026-results]]-IndRegBias A Dataset for Studying Indian.pdf"
+title: "2026-Panda-IndRegBias A Dataset for Studying Indian - PDF Extract"
+source_pdf: "2026-Panda-IndRegBias A Dataset for Studying Indian.pdf"
 pages: 20
 extracted_at: "2026-02-13T09:15:46.329638"
 ---
 
-# PDF Extract: 2026-results]]-IndRegBias A Dataset for Studying Indian
+# PDF Extract: 2026-Panda-IndRegBias A Dataset for Studying Indian
 
-**Source PDF:** 2026-results]]-IndRegBias A Dataset for Studying Indian.pdf
+**Source PDF:** 2026-Panda-IndRegBias A Dataset for Studying Indian.pdf
 **Total Pages:** 20
 
 ---

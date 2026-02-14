@@ -89,7 +89,7 @@
     "reasoning": "Creates a benchmark for evaluating cultural norm understanding (including moral/social norms) in video language models across US and Chinese cultures. While focused on socio-cultural norms rather than purely moral reasoning, the norms have ethical dimensions."
   },
   {
-    "filename": "2025-Various-AISafetyLab.md",
+    "filename": "2025-Zhang-AISafetyLab.md",
     "decision": "Yes",
     "benchmark_name": "AISafetyLab",
     "what_measures": "AI safety through integrated attack, defense, and evaluation methodologies",
@@ -101,7 +101,7 @@
     "reasoning": "Provides a comprehensive evaluation framework and toolkit for AI safety that includes safety evaluation benchmarks with ethical dimensions. While primarily a safety toolkit, it covers ethical safety evaluation aspects."
   },
   {
-    "filename": "2025-Various-U-SafeBench.md",
+    "filename": "2025-In-U-SafeBench.md",
     "decision": "Exclude",
     "reasoning": "Metadata mismatch: despite the title suggesting an LLM safety benchmark, the actual paper content is about phylogenetic tree balance indices (GFB trees, imbalance measures). This is a mathematics/biology paper that was incorrectly cataloged. No relevance to AI ethics evaluation."
   },

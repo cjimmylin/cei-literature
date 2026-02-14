@@ -1,13 +1,13 @@
 ---
-title: "2025-results]]-Cross-Lingual Stability and Bias in Instruction-Tuned - PDF Extract"
-source_pdf: "2025-results]]-Cross-Lingual Stability and Bias in Instruction-Tuned.pdf"
+title: "2025-Nemkova-Cross-Lingual Stability and Bias in Instruction-Tuned - PDF Extract"
+source_pdf: "2025-Nemkova-Cross-Lingual Stability and Bias in Instruction-Tuned.pdf"
 pages: 10
 extracted_at: "2026-02-13T09:15:45.384366"
 ---
 
-# PDF Extract: 2025-results]]-Cross-Lingual Stability and Bias in Instruction-Tuned
+# PDF Extract: 2025-Nemkova-Cross-Lingual Stability and Bias in Instruction-Tuned
 
-**Source PDF:** 2025-results]]-Cross-Lingual Stability and Bias in Instruction-Tuned.pdf
+**Source PDF:** 2025-Nemkova-Cross-Lingual Stability and Bias in Instruction-Tuned.pdf
 **Total Pages:** 10
 
 ---

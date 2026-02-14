@@ -190,6 +190,10 @@ def clean_author_name(name: str) -> str:
     s = strip_quotes(name)
     if s.startswith("[[") and s.endswith("]]"):
         s = s[2:-2]
+    # Strip common BibTeX/LaTeX escapes from author names.
+    s = re.sub(r"\\[a-zA-Z]+\{([^}]*)\}", r"\1", s)
+    s = re.sub(r"\\[a-zA-Z]+", "", s)
+    s = s.replace("{", "").replace("}", "")
     if "|" in s:
         s = s.split("|", 1)[0]
     s = s.strip().strip("[]()")
@@ -598,9 +602,9 @@ def update_body_authors(body: str, authors: List[str], unresolved: bool) -> str:
 
     authors_section_re = re.compile(r"(?ms)^## Authors\s*\n.*?(?=\n## |\Z)")
     if authors_section_re.search(body):
-        body = authors_section_re.sub(f"## Authors\n\n{authors_wikilinks}\n", body, count=1)
+        body = authors_section_re.sub(lambda _m: f"## Authors\n\n{authors_wikilinks}\n", body, count=1)
 
-    body = re.sub(r"(?m)^\*\*Authors:\*\*.*$", f"**Authors:** {body_authors_line}", body, count=1)
+    body = re.sub(r"(?m)^\*\*Authors:\*\*.*$", lambda _m: f"**Authors:** {body_authors_line}", body, count=1)
     return body
 
 
@@ -981,7 +985,8 @@ def main() -> int:
     resolver = DeterministicResolver(timeout=args.probe_timeout)
     plans, planning_errors = build_plans(resolver=resolver, timeout=args.probe_timeout)
 
-    replacements_before_apply, replacement_conflicts = collect_replacement_pairs(plans)
+    initial_target_count = len(plans)
+    _unused_replacements, replacement_conflicts = collect_replacement_pairs(plans)
 
     map_rows: List[Dict[str, object]] = []
     unresolved_rows: List[Dict[str, object]] = []
@@ -1141,7 +1146,7 @@ def main() -> int:
         unresolved_rows,
     )
 
-    target_count = len(scan_target_papers()) if not dry_run else len(plans)
+    target_count = initial_target_count
     collision_count = sum(1 for p in plans if p.collision)
     error_count = sum(1 for p in plans if p.error)
     unresolved_count = sum(1 for p in plans if p.recovery.unresolved)

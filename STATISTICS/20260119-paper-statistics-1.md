@@ -281,7 +281,7 @@ Total Categories: 3
 Total Categories: 25
 
 ### AI Safety & Alignment (145)
-- 2025, [[Zhexin Zhang]], [[2025-Various-AISafetyLab|2025-Various-AISafetyLab.md]]
+- 2025, [[Zhexin Zhang]], [[2025-Zhang-AISafetyLab|2025-Zhang-AISafetyLab.md]]
 - 2025, [[Zahra Pourbahman]], [[2025-Pourbahman-ELAB|2025-Pourbahman-ELAB.md]]
 - 2025, [[Yuru Jiang]], [[2025-Jiang-SPARTA ALIGNMENT|SPARTA ALIGNMENT]]
 - 2025, [[Yichen Wu]], [[2025-Wu-OpenDeception|2025-Wu-OpenDeception.md]]
@@ -302,7 +302,7 @@ Total Categories: 25
 - 2025, [[Shramay Palta]], [[2025-Palta-Speaking the Right Language|Speaking the Right Language]]
 - 2025, [[Shaona Ghosh]], [[2025-Group-AILuminate|2025-Group-AILuminate.md]]
 - 2025, [[Shaina Raza]], [[2025-Raza-HumaniBench|2025-Raza-HumaniBench.md]]
-- 2025, [[Sean Cleary]], [[2025-Various-U-SafeBench|2025-Various-U-SafeBench.md]]
+- 2025, [[Sean Cleary]], [[2025-In-U-SafeBench|2025-In-U-SafeBench.md]]
 - 2025, [[Saeid Jamshidi]], [[2025-Jamshidi-MoCoP|2025-Jamshidi-MoCoP.md]]
 - 2025, [[Pierre Le Jeune]], [[2025-Le Jeune-Phare A Safety Probe for Large Language Models|Phare: A Safety Probe for Large Language Models]]
 - 2025, [[Peng Wang]], [[2025-Wang-X-WebAgentBench|2025-Wang-X-WebAgentBench.md]]
@@ -338,8 +338,8 @@ Total Categories: 25
 - 2024, [[Zhichao Wang]], [[2024-Wang-A Comprehensive Survey of LLM Alignment Techniques|A Comprehensive Survey of LLM Alignment Techniques]]
 - 2024, [[Zhexin Zhang]], [[2024-Zhang-SafetyBench|2024-Zhang-SafetyBench.md]]
 - 2024, [[Yuxia Wang]], [[2024-Wang-Do-Not-Answer|2024-Wang-Do-Not-Answer.md]]
-- 2024, [[Yutao Mou]], [[2024-Various-SGBench|2024-Mou-SG-Bench.md]]
-- 2024, [[Yutao Mou]], [[2024-Various-SGBench|2024-Various-SGBench.md]]
+- 2024, [[Yutao Mou]], [[2024-Mou-SGBench|2024-Mou-SG-Bench.md]]
+- 2024, [[Yutao Mou]], [[2024-Mou-SGBench|2024-Mou-SGBench.md]]
 - 2024, [[Yuan Li]], [[2024-Li-Quantifying AI Psychology|Quantifying AI Psychology]]
 - 2024, [[Yipeng Kang]], [[2024-Kang-Are the Values of LLMs Structurally Aligned with|Are the Values of LLMs Structurally Aligned with]]
 - 2024, [[Yiju Guo]], [[2024-Liu-Controllable Preference Optimization|Controllable Preference Optimization]]

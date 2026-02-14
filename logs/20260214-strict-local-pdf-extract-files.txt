@@ -32,7 +32,7 @@ papers/2024-Ren-Safetywashing.md
 papers/2024-Team-GuardBench.md
 papers/2024-Team-WildGuard.md
 papers/2024-Tu-CharacterEval.md
-papers/2024-Various-SGBench.md
+papers/2024-Mou-SGBench.md
 papers/2024-Yanaka-JBBQ.md
 papers/2024-Yin-SafeAgentBench.md
 papers/2024-Yu-CMoralEval.md

@@ -21,7 +21,7 @@ Hongning Wang is an Associate Professor in the Department of Computer Science an
 ## Papers in this Vault
 
 
-- [[2025-Various-AISafetyLab|AISafetyLab]]
+- [[2025-Zhang-AISafetyLab|AISafetyLab]]
 - [[2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models|SocialEval: Evaluating Social Intelligence of Large Language Models]]
 - [[2023-Liu-AlignBench|AlignBench]]
 

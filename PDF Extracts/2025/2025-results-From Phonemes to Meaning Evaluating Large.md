@@ -1,13 +1,13 @@
 ---
-title: "2025-results]]-From Phonemes to Meaning Evaluating Large - PDF Extract"
-source_pdf: "2025-results]]-From Phonemes to Meaning Evaluating Large.pdf"
+title: "2025-Varsha-From Phonemes to Meaning Evaluating Large - PDF Extract"
+source_pdf: "2025-Varsha-From Phonemes to Meaning Evaluating Large.pdf"
 pages: 11
 extracted_at: "2026-02-13T09:15:41.854575"
 ---
 
-# PDF Extract: 2025-results]]-From Phonemes to Meaning Evaluating Large
+# PDF Extract: 2025-Varsha-From Phonemes to Meaning Evaluating Large
 
-**Source PDF:** 2025-results]]-From Phonemes to Meaning Evaluating Large.pdf
+**Source PDF:** 2025-Varsha-From Phonemes to Meaning Evaluating Large.pdf
 **Total Pages:** 11
 
 ---

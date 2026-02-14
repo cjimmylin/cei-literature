@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_dataset: Yes
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Gemma"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/datasets/manueltonneau/spanish-hate-speech-superset"
 tags: 
 abstract: "Perceptions of hate can vary greatly across cultural contexts. Hate speech (HS) datasets, however, have traditionally been developed by language. This hides potential cultural biases, as one language may be spoken in different countries home to different cultures. In this work, we evaluate cultural bias in HS datasets by leveraging two interrelated cultural proxies: language and geography. We conduct a systematic survey of HS datasets in eight languages and confirm past findings on their..."
 ethics_perspective: "Social & Cultural Values"
@@ -70,7 +71,7 @@ Systematic survey of hate speech datasets showing geo-cultural bias. Compiles 29
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Gemma. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include BERT, Gemma. Verified dataset/resource link: https://huggingface.co/datasets/manueltonneau/spanish-hate-speech-superset.
 
 ## Notes
 

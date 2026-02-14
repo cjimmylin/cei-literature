@@ -1,10 +1,10 @@
 paper,candidate_url,source_title,confidence,method,seed_url,doi,host
 0000-projects-BaniDB Shabad OS Digital Gurbani Database.md,http://xplorestaging.ieee.org/ielx7/8643018/8645960/08646190.pdf?arnumber=864619,,65,seed,http://xplorestaging.ieee.org/ielx7/8643018/8645960/08646190.pdf?arnumber=864619,,xplorestaging.ieee.org
 2018-Nguyen-UIT-VSFC Vietnamese Students' Feedback Corpus for Sentiment Analysis.md,http://xplorestaging.ieee.org/ielx7/8553666/8573236/08573337.pdf?arnumber=8573337,,65,seed,http://xplorestaging.ieee.org/ielx7/8553666/8573236/08573337.pdf?arnumber=8573337,,xplorestaging.ieee.org
-2019-authors-Cross-Platform Evaluation for Italian Hate Speech Detection.md,https://hal.science/hal-02381152,,65,seed,https://hal.science/hal-02381152,,hal.science
+2019-Unknown-Cross-Platform Evaluation for Italian Hate Speech Detection.md,https://hal.science/hal-02381152,,65,seed,https://hal.science/hal-02381152,,hal.science
 2020-Karan-Detecting Hate Speech Online A Case of Croatian.md,https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:892/datastream/FILE0,,65,seed,https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:892/datastream/FILE0,,repozitorij.ffzg.unizg.hr
 2020-Whaanga-Indigenous Protocol and Artificial Intelligence Position.md,https://doi.org/10.11573/spectrum.library.concordia.ca.00986506,,65,seed,https://doi.org/10.11573/spectrum.library.concordia.ca.00986506,,doi.org
-2021-authors-Cyberbullying and Hate Speech Detection on.md,https://doi.org/10.1016/j.dib.2022.108540,,65,seed,https://doi.org/10.1016/j.dib.2022.108540,,doi.org
+2021-Mghari-Cyberbullying and Hate Speech Detection on.md,https://doi.org/10.1016/j.dib.2022.108540,,65,seed,https://doi.org/10.1016/j.dib.2022.108540,,doi.org
 2022-Pollak-Embeddings Models for Buddhist Sanskrit.md,https://pmc.ncbi.nlm.nih.gov/articles/PMC10280248/pdf/peerj-cs-08-1128.pdf,,65,seed,https://pmc.ncbi.nlm.nih.gov/articles/PMC10280248/pdf/peerj-cs-08-1128.pdf,,pmc.ncbi.nlm.nih.gov
 2023-Bosco-Detecting Racial Stereotypes An Italian Social Media Corpus where.md,https://hdl.handle.net/11586/413290,,65,seed,https://hdl.handle.net/11586/413290,,hdl.handle.net
 2023-Das-Mytho-Annotator An Annotation Tool for Indian.md,https://doi.org/10.7717/peerj-cs.1617,,65,seed,https://doi.org/10.7717/peerj-cs.1617,,doi.org
@@ -29,9 +29,9 @@ paper,candidate_url,source_title,confidence,method,seed_url,doi,host
 2024-Zeng-Proposing Central Asian AI Ethics Principles.md,https://link.springer.com/article/10.1007/s43681-024-00505-7/fulltext.html,,65,crossref_link,https://link.springer.com/content/pdf/10.1007/s43681-024-00505-7.pdf,10.1007/s43681-024-00505-7,link.springer.com
 2024-Zeng-Proposing Central Asian AI Ethics Principles.md,https://doi.org/10.1007/s43681-024-00505-7,,65,crossref_url,https://link.springer.com/content/pdf/10.1007/s43681-024-00505-7.pdf,10.1007/s43681-024-00505-7,doi.org
 2024-[[Unknown]]-Urdu Toxicity Detection A Multi-Stage and.md,https://www.mdpi.com/2673-2688/6/8/194/pdf?version=1755769417,,65,seed,https://www.mdpi.com/2673-2688/6/8/194/pdf?version=1755769417,,www.mdpi.com
-2024-authors-Offensive Text Span Detection in Romanian Comments Using Large.md,https://doi.org/10.3390/info15010008,,65,seed,https://doi.org/10.3390/info15010008,,doi.org
-2024-authors-So-haTRed A Novel Hybrid System for.md,https://doi.org/10.1109/access.2024.3415350,,65,seed,https://doi.org/10.1109/access.2024.3415350,,doi.org
-2024-results]]-Telugu Language Hate Speech Detection Using.md,https://doi.org/10.1016/j.sasc.2024.200112,,65,seed,https://doi.org/10.1016/j.sasc.2024.200112,,doi.org
+2024-Paraschiv-Offensive Text Span Detection in Romanian Comments Using Large.md,https://doi.org/10.3390/info15010008,,65,seed,https://doi.org/10.3390/info15010008,,doi.org
+2024-Altinel-So-haTRed A Novel Hybrid System for.md,https://doi.org/10.1109/access.2024.3415350,,65,seed,https://doi.org/10.1109/access.2024.3415350,,doi.org
+2024-Khanduja-Telugu Language Hate Speech Detection Using.md,https://doi.org/10.1016/j.sasc.2024.200112,,65,seed,https://doi.org/10.1016/j.sasc.2024.200112,,doi.org
 2024-team-MahaMarathi-7B Marathi Large Language Model.md,https://www.mdpi.com/2079-9292/14/17/3484/pdf?version=1756625048,,65,seed,https://www.mdpi.com/2079-9292/14/17/3484/pdf?version=1756625048,,www.mdpi.com
 2025-Ishkhanyan-Ethical considerations in AI-powered language technologies insights.md,https://link.springer.com/content/pdf/10.1007/s43681-025-00716-6.pdf,,65,seed,https://link.springer.com/content/pdf/10.1007/s43681-025-00716-6.pdf,,link.springer.com
 2025-Martinez-Religion and Racial Bias in Artificial.md,https://journals.sagepub.com/doi/pdf/10.1177/23780231251377210,,65,seed,https://journals.sagepub.com/doi/pdf/10.1177/23780231251377210,10.1177/23780231251377210,journals.sagepub.com
@@ -42,4 +42,4 @@ paper,candidate_url,source_title,confidence,method,seed_url,doi,host
 2025-Sharma-Hate Speech Detection Research in South.md,https://doi.org/10.1016/j.knosys.2025.113915,,65,seed,https://doi.org/10.1016/j.knosys.2025.113915,,doi.org
 2025-Unknown-Bilingual Code-Switching Using XLM-RoBERTa.md,https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762/v1,,65,seed,https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762/v1,10.36227/techrxiv.175756344.42614762/v1,www.techrxiv.org
 2025-Unknown-Bilingual Code-Switching Using XLM-RoBERTa.md,https://doi.org/10.36227/techrxiv.175756344.42614762/v1,,65,crossref_url,https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762/v1,10.36227/techrxiv.175756344.42614762/v1,doi.org
-2025-authors-How do LLMs perform on Turkish.md,https://doi.org/10.1080/23311983.2025.2600519,,65,seed,https://doi.org/10.1080/23311983.2025.2600519,,doi.org
+2025-Solidjonov-How do LLMs perform on Turkish.md,https://doi.org/10.1080/23311983.2025.2600519,,65,seed,https://doi.org/10.1080/23311983.2025.2600519,,doi.org

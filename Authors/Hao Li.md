@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Various-AISafetyLab|AISafetyLab]]]]
+- [[2025-Zhang-AISafetyLab|AISafetyLab]]]]
 
-- [[2025-Various-AISafetyLab|AISafetyLab]]
+- [[2025-Zhang-AISafetyLab|AISafetyLab]]
 
 ## External Links & Profiles
 

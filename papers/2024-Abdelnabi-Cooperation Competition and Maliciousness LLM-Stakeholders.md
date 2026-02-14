@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Llama-3, Mixtral"
-DATA_URL: NA
+DATA_URL: "https://github.com/S-Abdelnabi/LLM-Deliberation"
 ---
 # Cooperation, Competition, and Maliciousness: LLM-Stakeholders Interactive Negotiation
 

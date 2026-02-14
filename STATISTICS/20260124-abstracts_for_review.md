@@ -2853,7 +2853,7 @@ In this landmark work, Shannon Vallor presents a critical examination of artific
 ---
 
 ## Paper: 2024 | Yutao Mou | SGBench
-File: [[2024-Various-SGBench.md]]
+File: [[2024-Mou-SGBench.md]]
 
 ### Abstract
 Ensuring the safety of large language model (LLM) applications is essential for developing trustworthy artificial intelligence. Current LLM safety benchmarks have two limitations. First, they focus solely on either discriminative or generative evaluation paradigms while ignoring their interconnection. Second, they rely on standardized inputs, overlooking the effects of widespread prompting techniques, such as system prompts, few-shot demonstrations, and chain-of-thought prompting. To overcome th
@@ -4459,7 +4459,7 @@ This paper introduces Democracy-in-Silico, an agent-based simulation where soci-
 ---
 
 ## Paper: 2025 | Zhexin Zhang | AISafetyLab
-File: [[2025-Various-AISafetyLab.md]]
+File: [[2025-Zhang-AISafetyLab.md]]
 
 ### Abstract
 As AI models are increasingly deployed across diverse real-world scenarios, ensuring their safety remains a critical yet underexplored chal- lenge. While substantial efforts have been made to evaluate and enhance AI safety, the lack of a standardized framework and compre- hensive toolkit poses significant obstacles to systematic research and practical adoption. To bridge this gap, we introduce AISafetyLab, a unified framework and toolkit that integrates representative attack, defense, and evalua
@@ -4467,7 +4467,7 @@ As AI models are increasingly deployed across diverse real-world scenarios, ensu
 ---
 
 ## Paper: 2025 | Sean Cleary | U-SafeBench
-File: [[2025-Various-U-SafeBench.md]]
+File: [[2025-In-U-SafeBench.md]]
 
 ### Abstract
 Tree balance plays an important role in various research areas in phylogenetics and computer science. Typically, it is measured with the help of a balance index or imbalance index. There are more than 25 such indices available, recently surveyed in a book by Fischer et al. They are used to rank rooted binary trees on a scale from the most balanced to the least balanced. We show that a wide range of subtree-size based measures satisfying concavity and monotonicity conditions are minimized by the complete or greedy-from-the-bottom (GFB) tree and maximized by the caterpillar tree, yielding an infinitely large family of distinct new imbalance indices. Answering an open question from the literature, we show that one such established measure, the $\widehat{s}$-shape statistic, has the GFB tree as its unique minimizer. We also provide an alternative characterization of GFB trees, showing that they are equivalent to complete trees, which arise in different contexts. We give asymptotic bounds on the expected $\widehat{s}$-shape statistic under the uniform and Yule-Harding distributions of trees, and answer questions for the related $Q$-shape statistic as well.

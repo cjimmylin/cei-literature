@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Making|CCD-Bench: Probing Cultural Conflict in LLM Decision-Making]] (First Author)]]
+- [[2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making|CCD-Bench: Probing Cultural Conflict in LLM Decision-Making]] (First Author)]]
 
-- [[2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Making|CCD-Bench: Probing Cultural Conflict in LLM Decision-Making]] (First Author)
+- [[2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making|CCD-Bench: Probing Cultural Conflict in LLM Decision-Making]] (First Author)
 
 ## External Links & Profiles
 

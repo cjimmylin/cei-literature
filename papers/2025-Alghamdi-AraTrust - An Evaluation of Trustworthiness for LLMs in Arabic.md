@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/datasets/asas-ai/AraTrust"
 ---
 # AraTrust -- An Evaluation of Trustworthiness for LLMs in Arabic
 

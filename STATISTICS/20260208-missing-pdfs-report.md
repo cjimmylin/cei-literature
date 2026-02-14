@@ -179,7 +179,7 @@ These papers have a `local_pdf` wikilink that omits the `PDFs/YYYY/` prefix (use
 | 6 | `[[2024-Kaiyom-HELM Safety]]` | `[[2024-Kaiyom-HELM Safety.pdf]]` | `[[PDFs/2024/2024-Kaiyom-HELM Safety.pdf]]` |
 | 7 | `[[2024-Leech-Ten Hard Problems in Artificial Intelligence We]]` | `[[2024-Leech-Ten Hard Problems in Artificial Intelligence We.pdf]]` | `[[PDFs/2024/2024-Leech-Ten Hard Problems in Artificial Intelligence We.pdf]]` |
 | 8 | `[[2024-Levine-Religious Affiliation and Conceptions of the]]` | `[[2024-Levine-Religious Affiliation and Conceptions of the.pdf]]` | `[[PDFs/2024/2024-Levine-Religious Affiliation and Conceptions of the.pdf]]` |
-| 9 | `[[2024-Various-SGBench]]` | `[[2024-Mou-SG-Bench.pdf]]` | `[[PDFs/2024/2024-Mou-SG-Bench.pdf]]` |
+| 9 | `[[2024-Mou-SGBench]]` | `[[2024-Mou-SG-Bench.pdf]]` | `[[PDFs/2024/2024-Mou-SG-Bench.pdf]]` |
 | 10 | `[[2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI]]` | `[[2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI.pdf]]` | `[[PDFs/2024/2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI.pdf]]` |
 | 11 | `[[2025-Banerjee-SafeInfer]]` | `[[2025-Banerjee-SafeInfer.pdf]]` | `[[PDFs/2025/2025-Banerjee-SafeInfer.pdf]]` |
 | 12 | `[[2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons]]` | `[[2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.pdf]]` | `[[PDFs/2025/2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.pdf]]` |

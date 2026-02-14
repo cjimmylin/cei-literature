@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Various-SGBench|SG-Bench]]
+- [[2024-Mou-SGBench|SG-Bench]]
 
 
 ## External Links & Profiles

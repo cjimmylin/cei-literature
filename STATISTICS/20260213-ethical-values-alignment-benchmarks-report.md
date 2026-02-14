@@ -826,7 +826,7 @@ This report catalogues **152 benchmarks and resources** for evaluating ethical v
 - **LLMs tested:** 17 leading LLMs
 - **Key finding:** Explicitly designed to evaluate pluralistic moral reasoning under cross-cultural value conflict.
 - **Readiness:** ★★★ HIGH
-- **Vault:** [[2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Making]]
+- **Vault:** [[2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making]]
 
 ### C24. Moralization Corpus (Becker, Maria, 2025)
 - **Citation:** [[Becker, Maria]] et al. (2025). The Moralization Corpus. *arXiv*.

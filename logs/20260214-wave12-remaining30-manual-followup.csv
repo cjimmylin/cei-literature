@@ -1,10 +1,10 @@
 paper,error,http_code,candidate_url,status
 0000-projects-BaniDB Shabad OS Digital Gurbani Database.md,not_pdf_header,200,http://xplorestaging.ieee.org/ielx7/8643018/8645960/08646190.pdf?arnumber=864619,download_failed
 2018-Nguyen-UIT-VSFC Vietnamese Students' Feedback Corpus for Sentiment Analysis.md,not_pdf_header,200,http://xplorestaging.ieee.org/ielx7/8553666/8573236/08573337.pdf?arnumber=8573337,download_failed
-2019-authors-Cross-Platform Evaluation for Italian Hate Speech Detection.md,not_pdf_header,200,https://hal.science/hal-02381152,download_failed
+2019-Unknown-Cross-Platform Evaluation for Italian Hate Speech Detection.md,not_pdf_header,200,https://hal.science/hal-02381152,download_failed
 2020-Karan-Detecting Hate Speech Online A Case of Croatian.md,http_418,418,https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:892/datastream/FILE0,download_failed
 2020-Whaanga-Indigenous Protocol and Artificial Intelligence Position.md,not_pdf_header,200,https://doi.org/10.11573/spectrum.library.concordia.ca.00986506,download_failed
-2021-authors-Cyberbullying and Hate Speech Detection on.md,not_pdf_header,200,https://doi.org/10.1016/j.dib.2022.108540,download_failed
+2021-Mghari-Cyberbullying and Hate Speech Detection on.md,not_pdf_header,200,https://doi.org/10.1016/j.dib.2022.108540,download_failed
 2022-Pollak-Embeddings Models for Buddhist Sanskrit.md,not_pdf_header,200,https://pmc.ncbi.nlm.nih.gov/articles/PMC10280248/pdf/peerj-cs-08-1128.pdf,download_failed
 2023-Bosco-Detecting Racial Stereotypes An Italian Social Media Corpus where.md,not_pdf_header,200,https://hdl.handle.net/11586/413290,download_failed
 2023-Das-Mytho-Annotator An Annotation Tool for Indian.md,not_pdf_header,200,https://doi.org/10.7717/peerj-cs.1617,download_failed
@@ -19,13 +19,13 @@ paper,error,http_code,candidate_url,status
 2024-Yeltay-Kazakh Language Dataset for Hate Speech.md,not_pdf_header,200,https://ieeexplore.ieee.org/ielx8/10719028/10718863/10719327.pdf,download_failed
 2024-Zeng-Proposing Central Asian AI Ethics Principles.md,not_pdf_header,200,https://link.springer.com/content/pdf/10.1007/s43681-024-00505-7.pdf,download_failed
 2024-[[Unknown]]-Urdu Toxicity Detection A Multi-Stage and.md,http_403,403,https://www.mdpi.com/2673-2688/6/8/194/pdf?version=1755769417,download_failed
-2024-authors-Offensive Text Span Detection in Romanian Comments Using Large.md,http_403,403,https://doi.org/10.3390/info15010008,download_failed
-2024-authors-So-haTRed A Novel Hybrid System for.md,not_pdf_header,200,https://doi.org/10.1109/access.2024.3415350,download_failed
-2024-results]]-Telugu Language Hate Speech Detection Using.md,not_pdf_header,200,https://doi.org/10.1016/j.sasc.2024.200112,download_failed
+2024-Paraschiv-Offensive Text Span Detection in Romanian Comments Using Large.md,http_403,403,https://doi.org/10.3390/info15010008,download_failed
+2024-Altinel-So-haTRed A Novel Hybrid System for.md,not_pdf_header,200,https://doi.org/10.1109/access.2024.3415350,download_failed
+2024-Khanduja-Telugu Language Hate Speech Detection Using.md,not_pdf_header,200,https://doi.org/10.1016/j.sasc.2024.200112,download_failed
 2024-team-MahaMarathi-7B Marathi Large Language Model.md,http_403,403,https://www.mdpi.com/2079-9292/14/17/3484/pdf?version=1756625048,download_failed
 2025-Ishkhanyan-Ethical considerations in AI-powered language technologies insights.md,not_pdf_header,200,https://link.springer.com/content/pdf/10.1007/s43681-025-00716-6.pdf,download_failed
 2025-Martinez-Religion and Racial Bias in Artificial.md,http_403,403,https://journals.sagepub.com/doi/pdf/10.1177/23780231251377210,download_failed
 2025-Salehi-Blind Faith User Preference and Expert.md,http_403,403,https://dl.acm.org/doi/pdf/10.1145/3715275.3732162,download_failed
 2025-Sharma-Hate Speech Detection Research in South.md,not_pdf_header,200,https://doi.org/10.1016/j.knosys.2025.113915,download_failed
 2025-Unknown-Bilingual Code-Switching Using XLM-RoBERTa.md,http_403,403,https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762/v1,download_failed
-2025-authors-How do LLMs perform on Turkish.md,http_403,403,https://doi.org/10.1080/23311983.2025.2600519,download_failed
+2025-Solidjonov-How do LLMs perform on Turkish.md,http_403,403,https://doi.org/10.1080/23311983.2025.2600519,download_failed

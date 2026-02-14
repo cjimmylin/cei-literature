@@ -1,13 +1,13 @@
 ---
-title: "2025-results]]-BharatBBQ A Multilingual Bias Benchmark for - PDF Extract"
-source_pdf: "2025-results]]-BharatBBQ A Multilingual Bias Benchmark for.pdf"
+title: "2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for - PDF Extract"
+source_pdf: "2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for.pdf"
 pages: 20
 extracted_at: "2026-02-13T09:15:45.345939"
 ---
 
-# PDF Extract: 2025-results]]-BharatBBQ A Multilingual Bias Benchmark for
+# PDF Extract: 2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for
 
-**Source PDF:** 2025-results]]-BharatBBQ A Multilingual Bias Benchmark for.pdf
+**Source PDF:** 2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for.pdf
 **Total Pages:** 20
 
 ---

@@ -15,7 +15,7 @@
 
 ## P2 Next Items (Top 30 Manual Candidates)
 - 0000-projects-BaniDB Shabad OS Digital Gurbani Database.md | fallback_latest | conf=0 | unknown | https://xplorestaging.ieee.org/ielx7/8643018/8645960/08646190.pdf?arnumber=864619
-- 2021-authors-Cyberbullying and Hate Speech Detection on.md | fallback_latest | conf=0 | unknown | https://namespace.openaire.eu/oaf
+- 2021-Mghari-Cyberbullying and Hate Speech Detection on.md | fallback_latest | conf=0 | unknown | https://namespace.openaire.eu/oaf
 - 2023-University-Antisemitism on Twitter A Dataset for.md | host_transform | conf=66 | landing_page | https://doi.org/10.5281/zenodo.7932888
 - 2023-[[Unknown]]-ISE-Hate A Benchmark Corpus for Inter-faith.md | fallback_latest | conf=0 | unknown | https://www.sciencedirect.com/science/article/abs/pii/S0306457323000079
 - 2024-Moe-Fact Checking in Low-Resource Languages A.md | fallback_latest | conf=0 | unknown | https://www.yorku.ca/research/ycar/events/fact-checking-dataset-transformer-model-burmese-language-lwin-moe-13112024/
@@ -34,4 +34,4 @@
 - 2025-Ochasi-Reframing Justice in Healthcare AI.md | crossref | conf=70 | blocked | https://onlinelibrary.wiley.com/doi/pdf/10.1111/dewb.70007
 - 2025-Unknown-Bilingual Code-Switching Using XLM-RoBERTa.md | unpaywall | conf=88 | blocked | https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762/v1
 - 2025-Unknown-Bilingual Code-Switching Using XLM-RoBERTa.md | crossref | conf=80 | blocked | https://doi.org/10.36227/techrxiv.175756344.42614762/v1
-- 2025-authors-How do LLMs perform on Turkish.md | fallback_latest | conf=0 | unknown | https://www.semanticscholar.org/paper/97df3935f7098dbf1a4e13d343469cd01fa6888e
+- 2025-Solidjonov-How do LLMs perform on Turkish.md | fallback_latest | conf=0 | unknown | https://www.semanticscholar.org/paper/97df3935f7098dbf1a4e13d343469cd01fa6888e

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_dataset: Yes
 data_description: "Benchmark annotated dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "Claude-3, Claude-3-Opus, GPT-4, GPT-4-Turbo, GPT-4o, InternLM-XC2, InternLM-XComposer2, Llama-3.2, gpt-4o-mini"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/datasets/ddehun/k-viscuit"
 tags: 
 abstract: "To create culturally inclusive vision-language models (VLMs), developing a benchmark that tests their ability to address culturally relevant questions is essential. Existing approaches typically rely on human annotators, making the process labor-intensive and creating a cognitive burden in generating diverse questions. To address this, we propose a semi-automated framework for constructing cultural VLM benchmarks, specifically targeting multiple-choice QA."
 research_topic: "Machine Learning"
@@ -74,7 +75,7 @@ Multi-choice VQA benchmark for evaluating VLMs on Korean culture. Two evaluation
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude-3, Claude-3-Opus, GPT-4, GPT-4-Turbo, GPT-4o, InternLM-XC2, InternLM-XComposer2, Llama-3.2, gpt-4o-mini. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include Claude-3, Claude-3-Opus, GPT-4, GPT-4-Turbo, GPT-4o, InternLM-XC2, InternLM-XComposer2, Llama-3.2, gpt-4o-mini. Verified dataset/resource link: https://huggingface.co/datasets/ddehun/k-viscuit.
 
 ## Notes
 

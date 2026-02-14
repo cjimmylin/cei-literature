@@ -18,7 +18,7 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
-- [[2025-Various-AISafetyLab|AISafetyLab]]
+- [[2025-Zhang-AISafetyLab|AISafetyLab]]
 - [[2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models|SocialEval: Evaluating Social Intelligence of Large Language Models]]
 - [[2024-Zhang-SafetyBench|SafetyBench]]
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_dataset: Yes
 data_description: "Benchmark for ai safety annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Gemma, Llama, Llama Guard, Qwen3Guard, RoBERTa"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/speakleash/Bielik-Guard-0.1B-v1.0"
 tags: 
 abstract: "As Large Language Models (LLMs) become increasingly deployed in Polish language applications, the need for efficient and accurate content safety classifiers has become paramount. We present Bielik Guard, a family of compact Polish language safety classifiers comprising two model variants: a 0.1B parameter model based on MMLW-RoBERTa-base and a 0.5B parameter model based on PKOBP/polish-roberta-8k. Fine-tuned on a community-annotated dataset of 6,885 Polish texts, these models classify content..."
 ethics_perspective: "AI Safety & Alignment"
@@ -69,7 +70,7 @@ Family of compact Polish safety classifiers (0.1B and 0.5B parameters) classifyi
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Gemma, Llama, Llama Guard, Qwen3Guard, RoBERTa. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include BERT, Gemma, Llama, Llama Guard, Qwen3Guard, RoBERTa. Verified dataset/resource link: https://huggingface.co/speakleash/Bielik-Guard-0.1B-v1.0.
 
 ## Notes
 

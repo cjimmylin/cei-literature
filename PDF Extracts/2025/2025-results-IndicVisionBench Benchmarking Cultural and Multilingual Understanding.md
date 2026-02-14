@@ -1,13 +1,13 @@
 ---
-title: "2025-results]]-IndicVisionBench Benchmarking Cultural and Multilingual Understanding - PDF Extract"
-source_pdf: "2025-results]]-IndicVisionBench Benchmarking Cultural and Multilingual Understanding.pdf"
+title: "2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding - PDF Extract"
+source_pdf: "2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding.pdf"
 pages: 39
 extracted_at: "2026-02-13T09:15:42.321528"
 ---
 
-# PDF Extract: 2025-results]]-IndicVisionBench Benchmarking Cultural and Multilingual Understanding
+# PDF Extract: 2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding
 
-**Source PDF:** 2025-results]]-IndicVisionBench Benchmarking Cultural and Multilingual Understanding.pdf
+**Source PDF:** 2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding.pdf
 **Total Pages:** 39
 
 ---

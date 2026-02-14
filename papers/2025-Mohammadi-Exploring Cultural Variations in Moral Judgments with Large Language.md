@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ ethics_perspective: "Social & Cultural Values"
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, GPT-2, OPT, BLOOM, Qwen, Gemma, Llama-2, Llama-3, Falcon"
-DATA_URL: NA
+DATA_URL: "https://github.com/mohammadi-hadi/cultural-moral-judgments-llms"
 ---
 # Exploring Cultural Variations in Moral Judgments with Large Language Models
 

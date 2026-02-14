@@ -2,14 +2,14 @@ paper,url,score,sources,http,bytes,note
 2024-Moe-Fact Checking in Low-Resource Languages A.md,https://arxiv.org/pdf/2406.02169.pdf,8,external_pdf;latest,404,10451,http_404
 2024-Moe-Fact Checking in Low-Resource Languages A.md,https://www.yorku.ca/research/ycar/events/fact-checking-dataset-transformer-model-burmese-language-lwin-moe-13112024/,1,url_field,200,83370,not_pdf
 0000-projects-BaniDB Shabad OS Digital Gurbani Database.md,https://xplorestaging.ieee.org/ielx7/8643018/8645960/08646190.pdf?arnumber=864619,5,external_pdf;latest,200,42963,not_pdf
-2021-authors-Cyberbullying and Hate Speech Detection on.md,https://doaj.org/article/55bea1e2c9754ee78422ddefe69bc3a6,1,openaire_doi,200,62357,not_pdf
-2021-authors-Cyberbullying and Hate Speech Detection on.md,https://doi.org/10.1016/j.dib.2022.108540,1,doi_resolver;external_pdf;latest;openaire_doi,200,2655,not_pdf
-2021-authors-Cyberbullying and Hate Speech Detection on.md,https://doi.org/10.60692/cse20-4s257,1,openaire_doi,302,2655,http_302
-2021-authors-Cyberbullying and Hate Speech Detection on.md,https://doi.org/10.60692/hz9yp-cah90,1,openaire_doi,302,2655,http_302
-2021-authors-Cyberbullying and Hate Speech Detection on.md,https://dx.doi.org/10.1016/j.dib.2022.108540,1,openaire_doi,200,2655,not_pdf
-2021-authors-Cyberbullying and Hate Speech Detection on.md,https://dx.doi.org/10.60692/cse20-4s257,1,openaire_doi,302,2655,http_302
-2021-authors-Cyberbullying and Hate Speech Detection on.md,https://dx.doi.org/10.60692/hz9yp-cah90,1,openaire_doi,302,2655,http_302
-2021-authors-Cyberbullying and Hate Speech Detection on.md,https://namespace.openaire.eu/oaf,1,openaire_doi,000,2655,http_000
+2021-Mghari-Cyberbullying and Hate Speech Detection on.md,https://doaj.org/article/55bea1e2c9754ee78422ddefe69bc3a6,1,openaire_doi,200,62357,not_pdf
+2021-Mghari-Cyberbullying and Hate Speech Detection on.md,https://doi.org/10.1016/j.dib.2022.108540,1,doi_resolver;external_pdf;latest;openaire_doi,200,2655,not_pdf
+2021-Mghari-Cyberbullying and Hate Speech Detection on.md,https://doi.org/10.60692/cse20-4s257,1,openaire_doi,302,2655,http_302
+2021-Mghari-Cyberbullying and Hate Speech Detection on.md,https://doi.org/10.60692/hz9yp-cah90,1,openaire_doi,302,2655,http_302
+2021-Mghari-Cyberbullying and Hate Speech Detection on.md,https://dx.doi.org/10.1016/j.dib.2022.108540,1,openaire_doi,200,2655,not_pdf
+2021-Mghari-Cyberbullying and Hate Speech Detection on.md,https://dx.doi.org/10.60692/cse20-4s257,1,openaire_doi,302,2655,http_302
+2021-Mghari-Cyberbullying and Hate Speech Detection on.md,https://dx.doi.org/10.60692/hz9yp-cah90,1,openaire_doi,302,2655,http_302
+2021-Mghari-Cyberbullying and Hate Speech Detection on.md,https://namespace.openaire.eu/oaf,1,openaire_doi,000,2655,http_000
 2023-[[Unknown]]-ISE-Hate A Benchmark Corpus for Inter-faith.md,https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.24106617.v2,5,external_pdf,403,7880,http_403
 2023-[[Unknown]]-ISE-Hate A Benchmark Corpus for Inter-faith.md,https://www.sciencedirect.com/science/article/abs/pii/S0306457323000079,1,latest;url_field,200,330436,not_pdf
 2024-Akhunzada-Multi-IsnadSet MIS for Sahih Muslim Hadith.md,https://pmc.ncbi.nlm.nih.gov/articles/PMC11096860/pdf/main.pdf,8,external_pdf;latest,200,1817,not_pdf
@@ -29,8 +29,8 @@ paper,url,score,sources,http,bytes,note
 2024-Zeng-Proposing Central Asian AI Ethics Principles.md,https://casseng.cssn.cn/,1,openaire_doi,000,207,http_000
 2024-Zeng-Proposing Central Asian AI Ethics Principles.md,https://doi.org/10.1007/s43681-024-00505-7,1,openaire_doi,200,285119,not_pdf
 2024-Zeng-Proposing Central Asian AI Ethics Principles.md,https://link.springer.com/content/pdf/10.1007/s43681-024-00505-7.pdf,5,html_inline,204,0,http_204
-2024-authors-So-haTRed A Novel Hybrid System for.md,https://dogus.edu.tr/docs/default-source/2025katalog/neden-dogus-web.pdf,5,html:openaire_doi,200,33209713,ok_pdf
-2024-results]]-Telugu Language Hate Speech Detection Using.md,https://www.kluniversity.in/pdfs/2024c.pdf,5,html:openaire_doi,200,180599,ok_pdf
+2024-Altinel-So-haTRed A Novel Hybrid System for.md,https://dogus.edu.tr/docs/default-source/2025katalog/neden-dogus-web.pdf,5,html:openaire_doi,200,33209713,ok_pdf
+2024-Khanduja-Telugu Language Hate Speech Detection Using.md,https://www.kluniversity.in/pdfs/2024c.pdf,5,html:openaire_doi,200,180599,ok_pdf
 2024-team-MahaMarathi-7B Marathi Large Language Model.md,https://www.mdpi.com/2079-9292/14/17/3484/pdf?version=1756625048,5,external_pdf,403,413,http_403
 2024-team-MahaMarathi-7B Marathi Large Language Model.md,https://huggingface.co/marathi-llm/MahaMarathi-7B-v24.01-Base,4,latest;url_field,200,95525,not_pdf
 2025-Ochasi-Reframing Justice in Healthcare AI.md,https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/dewb.70007,5,external_pdf,403,7893,http_403
@@ -74,10 +74,10 @@ paper,url,score,sources,http,bytes,note
 2025-Unknown-Bilingual Code-Switching Using XLM-RoBERTa.md,https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762,5,url_field,403,7965,http_403
 2025-Unknown-Bilingual Code-Switching Using XLM-RoBERTa.md,https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762/v2,5,latest,403,7956,http_403
 2025-Unknown-Bilingual Code-Switching Using XLM-RoBERTa.md,https://doi.org/10.36227/techrxiv.175756344.42614762,1,doi_resolver,404,10352,http_404
-2025-authors-How do LLMs perform on Turkish.md,https://www.tandfonline.com/doi/pdf/10.1080/23311983.2025.2600519,5,latest,403,7905,http_403
-2025-authors-How do LLMs perform on Turkish.md,https://doi.org/10.1080/23311983.2025.2600519,1,doi_resolver;external_pdf,403,7908,http_403
-2025-authors-How do LLMs perform on Turkish.md,https://www.sciencedirect.com/science/article/abs/pii/S0957417425010437,1,url_field,200,353345,not_pdf
-2025-authors-How do LLMs perform on Turkish.md,https://www.semanticscholar.org/paper/97df3935f7098dbf1a4e13d343469cd01fa6888e,1,semantic,202,2061,http_202
+2025-Solidjonov-How do LLMs perform on Turkish.md,https://www.tandfonline.com/doi/pdf/10.1080/23311983.2025.2600519,5,latest,403,7905,http_403
+2025-Solidjonov-How do LLMs perform on Turkish.md,https://doi.org/10.1080/23311983.2025.2600519,1,doi_resolver;external_pdf,403,7908,http_403
+2025-Solidjonov-How do LLMs perform on Turkish.md,https://www.sciencedirect.com/science/article/abs/pii/S0957417425010437,1,url_field,200,353345,not_pdf
+2025-Solidjonov-How do LLMs perform on Turkish.md,https://www.semanticscholar.org/paper/97df3935f7098dbf1a4e13d343469cd01fa6888e,1,semantic,202,2061,http_202
 2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task.md,https://aclanthology.org/2021.emnlp-main.100.pdf,8,html:url_field,200,7949301,ok_pdf
 2025-Elder-The Ethics of Digital Ghosts.md,https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&amp;identifierValue=10.4324/9781003632658&amp;type=googlepdf,1,html:doi_resolver;html:openaire_doi;html:url_field,200,897452,ok_pdf
 2025-Unknown-The Green Report Three Red Flags That Your LLM Testing Strategy Is.md,https://universepg.com/public/storage/journal-pdf/Green,1,latest,200,278,http_200
@@ -97,7 +97,7 @@ paper,url,score,sources,http,bytes,note
 2018-Liebeskind-Identifying Abusive Comments in Hebrew Facebook.md,https://www.openaire.eu/schema/1.0/oaf-1.0.xsd,1,openaire_doi,200,1126,not_pdf
 2018-Liebeskind-Identifying Abusive Comments in Hebrew Facebook.md,https://www.semanticscholar.org/paper/0355feaca618bcc1d1ef7e991cf8d334f595e359,1,semantic,202,2061,http_202
 2018-Nguyen-UIT-VSFC Vietnamese Students' Feedback Corpus for Sentiment Analysis.md,https://www.uit.edu.vn/sites/vi/files/images/ThongTin/2012/NOI%20QUY%20CO%20QUAN%20DHCNTT-QD241.pdf,5,html:openaire_doi,200,218129,ok_pdf
-2019-authors-Cross-Platform Evaluation for Italian Hate Speech Detection.md,https://hal.science/hal-02381152v1/file/paper22.pdf,8,html:latest;html:url_field,200,379020,ok_pdf
+2019-Unknown-Cross-Platform Evaluation for Italian Hate Speech Detection.md,https://hal.science/hal-02381152v1/file/paper22.pdf,8,html:latest;html:url_field,200,379020,ok_pdf
 2020-Whaanga-Indigenous Protocol and Artificial Intelligence Position.md,https://library.concordia.ca/research/open-access/SenateResolutiononOpenAccess.pdf,5,html:doi_resolver;html:latest,200,61685,ok_pdf
 2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.md,https://hdl.handle.net/10045/117506,1,latest,200,449961,not_pdf
 2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.md,http://localhost:4000/bitstreams/d85368a8-466e-44a1-bcf3-9cd5b30f90c4/download,0,html_inline,000,449961,http_000
@@ -127,8 +127,8 @@ paper,url,score,sources,http,bytes,note
 2022-Multiple Data in Brief-Sanadset 650K Data on Hadith Narrators.md,https://dx.doi.org/10.60692/hz9yp-cah90,1,openaire_doi,302,2655,http_302
 2022-Multiple Data in Brief-Sanadset 650K Data on Hadith Narrators.md,https://namespace.openaire.eu/oaf,1,openaire_doi,000,2655,http_000
 2022-Pollak-Embeddings Models for Buddhist Sanskrit.md,https://pmc.ncbi.nlm.nih.gov/articles/PMC10280248/pdf/peerj-cs-08-1128.pdf,8,external_pdf;latest,200,1817,not_pdf
-2022-authors-A Turkish Hate Speech Dataset and Detection System.md,https://aclanthology.org/2022.lrec-1.443.pdf,8,html:url_field,200,282311,ok_pdf
-2022-authors-Addressing Religious Hate Online From Taxonomy.md,https://pmc.ncbi.nlm.nih.gov/articles/PMC10280248/pdf/peerj-cs-08-1128.pdf,8,latest,200,1817,not_pdf
+2022-Beyhan-A Turkish Hate Speech Dataset and Detection System.md,https://aclanthology.org/2022.lrec-1.443.pdf,8,html:url_field,200,282311,ok_pdf
+2022-Unknown-Addressing Religious Hate Online From Taxonomy.md,https://pmc.ncbi.nlm.nih.gov/articles/PMC10280248/pdf/peerj-cs-08-1128.pdf,8,latest,200,1817,not_pdf
 2023-Badawi-KurdiSent A Corpus for Kurdish Sentiment Analysis.md,https://link.springer.com/content/pdf/10.1007/s10579-023-09716-6.pdf,5,html:doi_resolver;html:openaire_doi;html:url_field;latest,200,329646,not_pdf
 2023-Badawi-KurdiSent A Corpus for Kurdish Sentiment Analysis.md,https://link.springer.com/content/pdf/10.1007/s10579-023-09716-6.pdf,5,html_inline,204,0,http_204
 2023-Badawi-KurdiSent A Corpus for Kurdish Sentiment Analysis.md,https://api.semanticscholar.org/CorpusID:10467454.,1,openaire_doi,202,2465,http_202
@@ -255,8 +255,8 @@ paper,url,score,sources,http,bytes,note
 2025-Unknown-TELEIA A Spanish Language Dataset for Evaluating Artificial.md,https://dx.doi.org/10.1016/J.DIB.2025.111437,1,openaire_doi,200,2696,not_pdf
 2025-Unknown-TELEIA A Spanish Language Dataset for Evaluating Artificial.md,https://dx.doi.org/10.1016/j.dib.2025.111437,1,openaire_doi,200,2696,not_pdf
 2025-Unknown-TELEIA A Spanish Language Dataset for Evaluating Artificial.md,https://namespace.openaire.eu/oaf,1,openaire_doi,000,2696,http_000
-2025-authors-Investigating linguistic errors in large language.md,https://doaj.org/article/b6554845cc5949e0afd39893f175a05e,1,latest,200,62251,not_pdf
-2025-authors-Investigating linguistic errors in large language.md,https://www.tandfonline.com/doi/full/10.1080/23311983.2025.2600519,1,url_field,403,7908,http_403
+2025-Solidjonov-Investigating linguistic errors in large language.md,https://doaj.org/article/b6554845cc5949e0afd39893f175a05e,1,latest,200,62251,not_pdf
+2025-Solidjonov-Investigating linguistic errors in large language.md,https://www.tandfonline.com/doi/full/10.1080/23311983.2025.2600519,1,url_field,403,7908,http_403
 2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social.md,https://srisriuniversity.edu.in/wp-content/uploads/2024/11/Notification-StaffFaculty-Grievance-Rederessal-Committee.pdf,5,html:openaire_doi,200,269680,ok_pdf
 2021-Perifanos-Multimodal Hate Speech Detection in Greek Social Media.md,https://www.mdpi.com/2414-4088/5/7/34/pdf,5,openaire_doi,403,404,http_403
 2021-Perifanos-Multimodal Hate Speech Detection in Greek Social Media.md,https://archive.softwareheritage.org/browse/origin/https://github.com/doccano/doccano,1,openaire_doi,200,4673,not_pdf
@@ -292,7 +292,7 @@ paper,url,score,sources,http,bytes,note
 2024-Thu-Development and Evaluation of Myanmar GPT A Language Model for.md,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4871732,1,url_field,403,7824,http_403
 2024-Unknown-Towards Better Sentiment Analysis in the Turkish Language Dataset.md,https://www.mdpi.com/2076-3417/15/4/2062,1,latest;url_field,403,401,http_403
 2024-Unknown-Towards Better Sentiment Analysis in the Turkish Language Dataset.md,https://www.semanticscholar.org/paper/dd6418de683b5a4054a8b8c9ed261c288093fa13,1,semantic,202,2465,http_202
-2024-authors-Offensive Text Span Detection in Romanian Comments Using Large.md,https://www.aosr.ro/wp-content/uploads/2015/04/Istoria_AOSR_vol-I.pdf,5,html:openaire_doi,200,18014184,ok_pdf
+2024-Paraschiv-Offensive Text Span Detection in Romanian Comments Using Large.md,https://www.aosr.ro/wp-content/uploads/2015/04/Istoria_AOSR_vol-I.pdf,5,html:openaire_doi,200,18014184,ok_pdf
 2025-2025-Pretrained Models Against Traditional Machine Learning.md,https://www.mdpi.com/2079-9292/14/17/3484/pdf,5,latest,403,408,http_403
 2025-Cognitive-Cognitive LLMs Toward Human-Like Artificial Intelligence by.md,https://doi.org/10.1177/29498732251377341,1,doi_resolver;openaire_doi,403,7835,http_403
 2025-Cognitive-Cognitive LLMs Toward Human-Like Artificial Intelligence by.md,https://github.com/SiyuWu528/LLM-ACTR,1,openaire_doi,200,232768,not_pdf

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: "GPT 4o, GPT-4o, Gemma, Gemma-3, Llama, LLaMA-3.1, Mistral 7B, Phi-4 14B, Qwen, Qwen-2.5"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/datasets/aplycaebous/BanHate"
 tags: 
 abstract: "19,203 YouTube comments (April 2024-June 2025) annotated for binary hate labels, 7 fine-grained categories, and 7 target groups. Benchmarked with open/closed-source LLMs under prompting and LoRA fine-tuning. GPT-4o and Gemini achieve strong binary classification."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -72,7 +73,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT 4o, GPT-4o, Gemma, Gemma-3, Llama, LLaMA-3.1, Mistral 7B, Phi-4 14B, Qwen, Qwen-2.5. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include GPT 4o, GPT-4o, Gemma, Gemma-3, Llama, LLaMA-3.1, Mistral 7B, Phi-4 14B, Qwen, Qwen-2.5. Verified dataset/resource link: https://huggingface.co/datasets/aplycaebous/BanHate.
 
 ## Notes
 

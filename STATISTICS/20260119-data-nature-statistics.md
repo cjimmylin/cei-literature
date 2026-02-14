@@ -234,7 +234,7 @@ Total papers analyzed: **576**
   - *Description*: Benchmark for moral/ethical reasoning
 - 2024 - [[Y. Moon]] - [[2024-Moon-BEAF|]]
   - *Description*: Benchmark for hallucination detection dataset
-- 2024 - [[Xiangyu Mou]] - [[2024-Various-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
+- 2024 - [[Xiangyu Mou]] - [[2024-Mou-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
   - *Description*: Benchmark for ai safety
 - 2024 - [[Alfred Malengo Kondoro]] - [[2024-Oliech-SwaQuAD-24|SwaQuAD-24: A Benchmark Dataset for Question Answering in Swahili]]
   - *Description*: Benchmark for moral/ethical reasoning annotated dataset for question answering
@@ -284,7 +284,7 @@ Total papers analyzed: **576**
   - *Description*: Benchmark dataset for conversational ai
 - 2024 - [[Cem Uluoglakci]] - [[2024-Uluoglakci-HypoTermQA|HypoTermQA: Hypothetical Terms Dataset for Benchmarking Hallucination Tendency of LLMs]]
   - *Description*: Benchmark for hallucination detection dataset for question answering
-- 2024 - [[Yutao Mou]] - [[2024-Various-SGBench|SGBench: A Benchmark for Evaluating the Safety of Generative AI]]
+- 2024 - [[Yutao Mou]] - [[2024-Mou-SGBench|SGBench: A Benchmark for Evaluating the Safety of Generative AI]]
   - *Description*: Benchmark for ai safety
 - 2024 - [[Ashmal Vayani]] - [[2024-Vayani-All Languages Matter|All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages]]
   - *Metrics*: 100 languages
@@ -483,7 +483,7 @@ Total papers analyzed: **576**
   - *Description*: Benchmark for ai safety
 - 2025 - [[Jackson Trager]] - [[2025-Trager-MFTCXplain|MFTCXplain: A Multilingual Benchmark Dataset for Evaluating the Moral Reasoning of LLMs through Hate Speech Multi-hop Explanations]]
   - *Description*: Multilingual benchmark for moral/ethical reasoning annotated dataset for hate speech detection
-- 2025 - [[Sean Cleary]] - [[2025-Various-U-SafeBench|U-SafeBench: A Unified Benchmark for Evaluating the Safety of Language Models]]
+- 2025 - [[Sean Cleary]] - [[2025-In-U-SafeBench|U-SafeBench: A Unified Benchmark for Evaluating the Safety of Language Models]]
   - *Description*: Benchmark
 - 2025 - [[Viacheslav Vasilev]] - [[2025-Vasilev-RusCode|RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation]]
   - *Metrics*: 1250 prompts; 19 categories
@@ -733,7 +733,7 @@ Total papers analyzed: **576**
 - 2024 - [[Jared Moore]] - [[2024-Moore-Are Large Language Models Consistent over|Are Large Language Models Consistent over Value-laden Questions?]]
   - *Metrics*: 8,000 questions
 - 2024 - [[Jared Moore]] - [[2024-Moore-Intuitions of Compromise|Intuitions of Compromise: Utilitarianism vs. Contractualism]]
-- 2024 - [[Xiangyu Mou]] - [[2024-Various-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
+- 2024 - [[Xiangyu Mou]] - [[2024-Mou-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
 - 2024 - [[Carlos Mougan]] - [[2024-Mougan-Kantian Deontology Meets AI Alignment|]]
 - 2024 - [[Matthew Pisano]] - [[2024-Pisano-Moral High Ground|Moral High Ground: A text-based games benchmark for moral evaluation]]
 - 2024 - [[Faiza Qamar]] - [[2024-Qamar-A Benchmark Dataset with Larger Context for|A Benchmark Dataset with Larger Context for Non-Factoid QA over Islamic Text]]
@@ -765,7 +765,7 @@ Total papers analyzed: **576**
 - 2024 - [[Quan Tu]] - [[2024-Tu-CharacterEval|]]
   - *Metrics*: 23,020 examples
 - 2024 - [[Cem Uluoglakci]] - [[2024-Uluoglakci-HypoTermQA|HypoTermQA: Hypothetical Terms Dataset for Benchmarking Hallucination Tendency of LLMs]]
-- 2024 - [[Yutao Mou]] - [[2024-Various-SGBench|SGBench: A Benchmark for Evaluating the Safety of Generative AI]]
+- 2024 - [[Yutao Mou]] - [[2024-Mou-SGBench|SGBench: A Benchmark for Evaluating the Safety of Generative AI]]
 - 2024 - [[Ashmal Vayani]] - [[2024-Vayani-All Languages Matter|All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages]]
   - *Metrics*: 100 languages
 - 2024 - [[Mariia Vladimirova]] - [[2024-Vladimirova-FairJob|FairJob: A Real-World Dataset for Fairness in Online Systems]]
@@ -928,8 +928,8 @@ Total papers analyzed: **576**
 - 2025 - [[Yehor Tereshchenko]] - [[2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps|A Comparative Analysis of Ethical and Safety Gaps in LLMs using Relative Danger Coefficient]]
 - 2025 - [[Jackson Trager]] - [[2025-Trager-MFTCXplain|MFTCXplain: A Multilingual Benchmark Dataset for Evaluating the Moral Reasoning of LLMs through Hate Speech Multi-hop Explanations]]
 - 2025 - [[Trisanth Srinivasan]] - [[2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment|Democracy-in-Silico: "Institutional Design as Alignment in AI-Governed Polities"]]
-- 2025 - [[Zhexin Zhang]] - [[2025-Various-AISafetyLab|AISafetyLab: A Comprehensive Framework for Evaluating and Mitigating AI Safety Risks]]
-- 2025 - [[Sean Cleary]] - [[2025-Various-U-SafeBench|U-SafeBench: A Unified Benchmark for Evaluating the Safety of Language Models]]
+- 2025 - [[Zhexin Zhang]] - [[2025-Zhang-AISafetyLab|AISafetyLab: A Comprehensive Framework for Evaluating and Mitigating AI Safety Risks]]
+- 2025 - [[Sean Cleary]] - [[2025-In-U-SafeBench|U-SafeBench: A Unified Benchmark for Evaluating the Safety of Language Models]]
 - 2025 - [[Viacheslav Vasilev]] - [[2025-Vasilev-RusCode|RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation]]
   - *Metrics*: 1250 prompts; 19 categories
 - 2025 - [[Jiahao Wang]] - [[2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning|Diverse Human Value Alignment for Large Language Models via Ethical Reasoning]]

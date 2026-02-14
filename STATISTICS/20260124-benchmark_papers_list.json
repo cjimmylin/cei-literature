@@ -1878,7 +1878,7 @@
     "year": "2024",
     "author": "Unknown",
     "title": "2024-Various-SGBench",
-    "link": "[[2024-Various-SGBench.md]]",
+    "link": "[[2024-Mou-SGBench.md]]",
     "matches": [
       "Text Match: developing trustworthy artificial intelligence. Cu...",
       "Text Match: safety benchmark..."
@@ -3031,7 +3031,7 @@
     "year": "2025",
     "author": "Unknown",
     "title": "2025-Various-AISafetyLab",
-    "link": "[[2025-Various-AISafetyLab.md]]",
+    "link": "[[2025-Zhang-AISafetyLab.md]]",
     "matches": [
       "Text Match: introduce AISafetyLab, a unified framework..."
     ],
@@ -3041,7 +3041,7 @@
     "year": "2025",
     "author": "Unknown",
     "title": "2025-Various-U-SafeBench",
-    "link": "[[2025-Various-U-SafeBench.md]]",
+    "link": "[[2025-In-U-SafeBench.md]]",
     "matches": [
       "Text Match: Safety Benchmark..."
     ],

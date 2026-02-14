@@ -257,7 +257,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Benchmark for moral/ethical reasoning
 - 2024 - [[Y. Moon]] - [[2024-Moon-BEAF|]]
   - *Description*: Benchmark for hallucination detection dataset
-- 2024 - [[Xiangyu Mou]] - [[2024-Various-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
+- 2024 - [[Xiangyu Mou]] - [[2024-Mou-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
   - *Description*: Benchmark for ai safety
 - 2024 - [[Alfred Malengo Kondoro]] - [[2024-Oliech-SwaQuAD-24|SwaQuAD-24: A Benchmark Dataset for Question Answering in Swahili]]
   - *Description*: Benchmark for moral/ethical reasoning annotated dataset for question answering
@@ -307,7 +307,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Metrics*: 23,020 examples
 - 2024 - [[Cem Uluoglakci]] - [[2024-Uluoglakci-HypoTermQA|HypoTermQA: Hypothetical Terms Dataset for Benchmarking Hallucination Tendency of LLMs]]
   - *Description*: Benchmark for hallucination detection dataset for question answering
-- 2024 - [[Yutao Mou]] - [[2024-Various-SGBench|SGBench: A Benchmark for Evaluating the Safety of Generative AI]]
+- 2024 - [[Yutao Mou]] - [[2024-Mou-SGBench|SGBench: A Benchmark for Evaluating the Safety of Generative AI]]
   - *Description*: Benchmark for ai safety
 - 2024 - [[Ashmal Vayani]] - [[2024-Vayani-All Languages Matter|All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages]]
   - *Description*: Benchmark
@@ -506,7 +506,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Benchmark for ai safety
 - 2025 - [[Jackson Trager]] - [[2025-Trager-MFTCXplain|MFTCXplain: A Multilingual Benchmark Dataset for Evaluating the Moral Reasoning of LLMs through Hate Speech Multi-hop Explanations]]
   - *Description*: Multilingual benchmark for moral/ethical reasoning annotated dataset for hate speech detection
-- 2025 - [[Sean Cleary]] - [[2025-Various-U-SafeBench|U-SafeBench: A Unified Benchmark for Evaluating the Safety of Language Models]]
+- 2025 - [[Sean Cleary]] - [[2025-In-U-SafeBench|U-SafeBench: A Unified Benchmark for Evaluating the Safety of Language Models]]
   - *Description*: Benchmark
 - 2025 - [[Viacheslav Vasilev]] - [[2025-Vasilev-RusCode|RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation]]
   - *Description*: Benchmark for bias and fairness dataset
@@ -923,7 +923,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Metrics*: 8,000 questions
 - 2024 - [[Jared Moore]] - [[2024-Moore-Intuitions of Compromise|Intuitions of Compromise: Utilitarianism vs. Contractualism]]
   - *Description*: Evaluation methodology
-- 2024 - [[Xiangyu Mou]] - [[2024-Various-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
+- 2024 - [[Xiangyu Mou]] - [[2024-Mou-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
   - *Description*: Benchmark for ai safety
 - 2024 - [[Carlos Mougan]] - [[2024-Mougan-Kantian Deontology Meets AI Alignment|]]
   - *Description*: Evaluation framework
@@ -980,7 +980,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Metrics*: 23,020 examples
 - 2024 - [[Cem Uluoglakci]] - [[2024-Uluoglakci-HypoTermQA|HypoTermQA: Hypothetical Terms Dataset for Benchmarking Hallucination Tendency of LLMs]]
   - *Description*: Benchmark for hallucination detection dataset for question answering
-- 2024 - [[Yutao Mou]] - [[2024-Various-SGBench|SGBench: A Benchmark for Evaluating the Safety of Generative AI]]
+- 2024 - [[Yutao Mou]] - [[2024-Mou-SGBench|SGBench: A Benchmark for Evaluating the Safety of Generative AI]]
   - *Description*: Benchmark for ai safety
 - 2024 - [[Ashmal Vayani]] - [[2024-Vayani-All Languages Matter|All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages]]
   - *Description*: Benchmark
@@ -1290,9 +1290,9 @@ This report provides a comprehensive breakdown of all papers by their data natur
   - *Description*: Multilingual benchmark for moral/ethical reasoning annotated dataset for hate speech detection
 - 2025 - [[Trisanth Srinivasan]] - [[2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment|Democracy-in-Silico: "Institutional Design as Alignment in AI-Governed Polities"]]
   - *Description*: Evaluation framework
-- 2025 - [[Zhexin Zhang]] - [[2025-Various-AISafetyLab|AISafetyLab: A Comprehensive Framework for Evaluating and Mitigating AI Safety Risks]]
+- 2025 - [[Zhexin Zhang]] - [[2025-Zhang-AISafetyLab|AISafetyLab: A Comprehensive Framework for Evaluating and Mitigating AI Safety Risks]]
   - *Description*: Evaluation framework
-- 2025 - [[Sean Cleary]] - [[2025-Various-U-SafeBench|U-SafeBench: A Unified Benchmark for Evaluating the Safety of Language Models]]
+- 2025 - [[Sean Cleary]] - [[2025-In-U-SafeBench|U-SafeBench: A Unified Benchmark for Evaluating the Safety of Language Models]]
   - *Description*: Benchmark
 - 2025 - [[Viacheslav Vasilev]] - [[2025-Vasilev-RusCode|RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation]]
   - *Description*: Benchmark for bias and fairness dataset
@@ -2161,13 +2161,13 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2024 - [[MLCommons]] - [[2024-MLCommons-MLCommons AILuminate Benchmark|MLCommons AILuminate Benchmark]]
 - 2024 - [[Giovanni Franco Gabriel Marraffini]] - [[2024-Marraffini-The Greatest Good Benchmark|The Greatest Good Benchmark: Measuring LLMs’ Alignment with Utilitarian Moral Dilemmas]]
 - 2024 - [[Gwenyth Isobel Meadows]] - [[2024-Meadows-LocalValueBench|LocalValueBench: A Collaboratively Built and Extensible Benchmark for Evaluating Localized Value Alignment and Ethical Safety in Large Language Models]]
-- 2024 - [[Xiangyu Mou]] - [[2024-Various-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
+- 2024 - [[Xiangyu Mou]] - [[2024-Mou-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
 - 2024 - [[Matthew Pisano]] - [[2024-Pisano-Moral High Ground|Moral High Ground: A text-based games benchmark for moral evaluation]]
 - 2024 - [[Richard Ren]] - [[2024-Ren-Safetywashing|Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress?]]
 - 2024 - [[Yuanyi Ren]] - [[2024-Ren-ValueBench|ValueBench: Towards Comprehensively Evaluating Value Orientations and Understanding of Large Language Models]]
 - 2024 - [[Anka Reuel]] - [[2024-Reuel-BetterBench|BetterBench: Assessing AI Benchmarks, Uncovering Issues and Opportunities]]
 - 2024 - [[Avner Seror]] - [[2024-Seror-The Moral Mind(s) of Large Language Models|]]
-- 2024 - [[Yutao Mou]] - [[2024-Various-SGBench|SGBench: A Benchmark for Evaluating the Safety of Generative AI]]
+- 2024 - [[Yutao Mou]] - [[2024-Mou-SGBench|SGBench: A Benchmark for Evaluating the Safety of Generative AI]]
 - 2024 - [[Ashmal Vayani]] - [[2024-Vayani-All Languages Matter|All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages]]
 - 2024 - [[Tongxin Yuan]] - [[2024-Yuan-R-Judge|]]
 - 2024 - [[Yi Zeng]] - [[2024-Zeng-AIR-Bench 2024|AIR-Bench 2024: A Safety Benchmark Based on Risk Categories from Regulations and Policies]]
@@ -2208,7 +2208,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2025 - [[S. Shahriar]] - [[2025-Shahriar-Priv-IQ|Priv-IQ: A Multimodal Benchmark for Evaluating the Privacy Intelligence of Large Language Models]]
 - 2025 - [[Ian Steenstra]] - [[2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered|A Risk Taxonomy for Evaluating AI-Powered Psychotherapy Agents]]
 - 2025 - [[Guangzhi Sun]] - [[2025-Sun-CASE-Bench|CASE-Bench: Context-Aware SafEty Benchmark for Large Language Models]]
-- 2025 - [[Sean Cleary]] - [[2025-Various-U-SafeBench|U-SafeBench: A Unified Benchmark for Evaluating the Safety of Language Models]]
+- 2025 - [[Sean Cleary]] - [[2025-In-U-SafeBench|U-SafeBench: A Unified Benchmark for Evaluating the Safety of Language Models]]
 - 2025 - [[Jiahao Wang]] - [[2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning|Diverse Human Value Alignment for Large Language Models via Ethical Reasoning]]
 - 2025 - [[Angelina Wang]] - [[2025-Wang-Measuring Desired Group Discrimination in LLMs|Measuring Desired Group Discrimination in LLMs (DiffAware Benchmark Suite)]]
 - 2025 - [[Peng Wang]] - [[2025-Wang-X-WebAgentBench|X-WebAgentBench: A Multilingual Interactive Web Benchmark for Evaluating Global Agentic System]]
@@ -2460,7 +2460,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2025 - [[Abhinav Rao]] - [[2025-Rao-NormAd|NormAd: A Framework for Measuring the Cultural Adaptability of Large Language Models]]
 - 2025 - [[Abhimanyu Pallavi Sudhir]] - [[2025-Saunders-A Scalable Oversight Benchmark|A Scalable Oversight Benchmark]]
 - 2025 - [[Ian Steenstra]] - [[2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered|A Risk Taxonomy for Evaluating AI-Powered Psychotherapy Agents]]
-- 2025 - [[Sean Cleary]] - [[2025-Various-U-SafeBench|U-SafeBench: A Unified Benchmark for Evaluating the Safety of Language Models]]
+- 2025 - [[Sean Cleary]] - [[2025-In-U-SafeBench|U-SafeBench: A Unified Benchmark for Evaluating the Safety of Language Models]]
 
 ### Benchmark for moral/ethical reasoning
 
@@ -2526,7 +2526,7 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2025 - [[Marc Steen]] - [[2025-Steen-Ethical aspects of ChatGPT|Ethical aspects of ChatGPT: An approach to discuss and evaluate key requirements from different ethical perspectives]]
 - 2025 - [[Elizaveta Tennant]] - [[2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents|]]
 - 2025 - [[Trisanth Srinivasan]] - [[2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment|Democracy-in-Silico: "Institutional Design as Alignment in AI-Governed Polities"]]
-- 2025 - [[Zhexin Zhang]] - [[2025-Various-AISafetyLab|AISafetyLab: A Comprehensive Framework for Evaluating and Mitigating AI Safety Risks]]
+- 2025 - [[Zhexin Zhang]] - [[2025-Zhang-AISafetyLab|AISafetyLab: A Comprehensive Framework for Evaluating and Mitigating AI Safety Risks]]
 
 ### Evaluation approach dataset
 
@@ -2599,10 +2599,10 @@ This report provides a comprehensive breakdown of all papers by their data natur
 - 2024 - [[Bertie Vidgen]] - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 - 2024 - [[Lijun Li]] - [[2024-Li-SALAD-Bench|SALAD-Bench: A Hierarchical and Comprehensive Safety Benchmark for Large Language Models]]
 - 2024 - [[MLCommons]] - [[2024-MLCommons-MLCommons AILuminate Benchmark|MLCommons AILuminate Benchmark]]
-- 2024 - [[Xiangyu Mou]] - [[2024-Various-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
+- 2024 - [[Xiangyu Mou]] - [[2024-Mou-SGBench|SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types]]
 - 2024 - [[Richard Ren]] - [[2024-Ren-Safetywashing|Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress?]]
 - 2024 - [[Paul Röttger]] - [[2024-Röttger-XSTest|XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models]]
-- 2024 - [[Yutao Mou]] - [[2024-Various-SGBench|SGBench: A Benchmark for Evaluating the Safety of Generative AI]]
+- 2024 - [[Yutao Mou]] - [[2024-Mou-SGBench|SGBench: A Benchmark for Evaluating the Safety of Generative AI]]
 - 2024 - [[Tongxin Yuan]] - [[2024-Yuan-R-Judge|]]
 - 2024 - [[Yi Zeng]] - [[2024-Zeng-AIR-Bench 2024|AIR-Bench 2024: A Safety Benchmark Based on Risk Categories from Regulations and Policies]]
 - 2024 - [[Zhexin Zhang]] - [[2024-Zhang-SafetyBench|SafetyBench: Evaluating the Safety of Large Language Models]]

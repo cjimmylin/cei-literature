@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_dataset: Yes
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
-DATA_URL: NA
+DATA_URL: "https://github.com/JAugusto97/ToLD-Br"
 tags: 
 abstract: "Hate speech and toxic comments are a common concern of social media platform users. Although these comments are, fortunately, the minority in these platforms, they are still capable of causing harm. Therefore, identifying these comments is an important task for studying and preventing the proliferation of toxicity in social media. Previous work in automatically detecting toxic comments focus mainly in English, with very few work in languages like Brazilian Portuguese."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -69,7 +70,7 @@ Largest toxic language dataset for Brazilian Portuguese with 21,000 tweets annot
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/JAugusto97/ToLD-Br.
 
 ## Notes
 

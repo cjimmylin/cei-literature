@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,7 +32,7 @@ is_dataset: Yes
 data_description: "Benchmark for bias and fairness text corpus for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4, Llama-3, Llama-2, Mistral, Gemma"
-DATA_URL: NA
+DATA_URL: "https://github.com/FanZT6/FairMT-bench"
 pdf_extract: "PDF Extracts/2025/2025-Fan-FAIRMT-BENCH.md"
 local_pdf: [[PDFs/2025/2025-Fan-FAIRMT-BENCH.pdf]]
 ---

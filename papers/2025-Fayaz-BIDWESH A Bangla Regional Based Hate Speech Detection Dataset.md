@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_dataset: Yes
 data_description: "Text corpus for hate speech detection"
 data_metrics: "9,183 instances"
 LLM_assessed: "BERT, CodeLlama, DeepSeekCoder, ELECTRA, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, Llama2, RoBERTa"
-DATA_URL: NA
+DATA_URL: "https://data.mendeley.com/datasets/bpkrvf882k/1"
 tags: 
 abstract: "Hate speech on digital platforms has become a growing concern globally, especially in linguistically diverse countries like Bangladesh, where regional dialects play a major role in everyday communication. Despite progress in hate speech detection for standard Bangla, Existing datasets and systems fail to address the informal and culturally rich expressions found in dialects such as Barishal, Noakhali, and Chittagong."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -71,7 +72,7 @@ First benchmark for hate speech in Bangla regional dialects (Noakhali, Chittagon
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, CodeLlama, DeepSeekCoder, ELECTRA, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, Llama2, RoBERTa. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include BERT, CodeLlama, DeepSeekCoder, ELECTRA, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, Llama2, RoBERTa. Verified dataset/resource link: https://data.mendeley.com/datasets/bpkrvf882k/1.
 
 ## Notes
 

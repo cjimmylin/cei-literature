@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Various-U-SafeBench|U-SafeBench]]]]
+- [[2025-In-U-SafeBench|U-SafeBench]]]]
 
-- [[2025-Various-U-SafeBench|U-SafeBench]]
+- [[2025-In-U-SafeBench|U-SafeBench]]
 
 ## External Links & Profiles
 

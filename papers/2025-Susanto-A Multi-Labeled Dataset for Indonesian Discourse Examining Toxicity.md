@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_dataset: Yes
 data_description: "Benchmark text corpus for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-4o, GPT-4o-mini, Llama3.1"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/datasets/Exqrch/IndoDiscourse"
 tags: 
 abstract: "Polarization is defined as divisive opinions held by two or more groups on substantive issues. As the world’s third-largest democracy, Indonesia faces growing concerns about the interplay between political polarization and online toxicity, which is often directed at vulnerable minority groups. Despite the importance of this issue, previous NLP research has not fully explored the relationship between toxicity and polarization."
 research_topic: "Bias & Fairness"
@@ -70,7 +71,7 @@ Multi-label Indonesian dataset with 28,477 texts annotated for toxicity, polariz
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-4o, GPT-4o-mini, Llama3.1. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include BERT, GPT-4o, GPT-4o-mini, Llama3.1. Verified dataset/resource link: https://huggingface.co/datasets/Exqrch/IndoDiscourse.
 
 ## Notes
 

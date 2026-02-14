@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Llama, Llama3, Qwen3"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/dicta-il/neodictabert"
 tags: 
 abstract: "Since their initial release, BERT models have demonstrated exceptional performance on a variety of tasks, despite their relatively small size (BERT-base has ~110M parameters). Nevertheless, the architectural choices used in these models are outdated compared to newer transformer-based models such as Llama3 and Qwen3. In recent months, several architectures have been proposed to close this gap. ModernBERT and NeoBERT both show strong improvements on English benchmarks and significantly extend..."
 research_topic: "NLP & Representation Learning"
@@ -69,7 +70,7 @@ RoBERTa-style encoder (BERT architecture) for Hebrew trained on 235B tokens with
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Llama, Llama3, Qwen3. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include BERT, Llama, Llama3, Qwen3. Verified dataset/resource link: https://huggingface.co/dicta-il/neodictabert.
 
 ## Notes
 

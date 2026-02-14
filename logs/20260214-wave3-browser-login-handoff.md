@@ -379,7 +379,7 @@
   Scholar: https://scholar.google.com/scholar?q=TELEIA%3A+A+Spanish+Language+Dataset+for+Evaluating+Artificial+Intelligence+Models
   Success criteria: Save valid PDF (starts with %PDF) and confirm title match, then update `external_pdf`, `local_pdf`, and `pdf_extract`.
 
-- [ ] `LSRC0072` `2025-authors-Teachers vs. large language models ethical decision-making across.md`
+- [ ] `LSRC0072` `2025-Göçen-Teachers vs. large language models ethical decision-making across.md`
   Priority: `P3` | Category: `PAYWALL_TANDF` | Host: `www.tandfonline.com`
   Status note: blocked (doi-mirror no_verified_pdf)
   Primary URL: https://www.tandfonline.com/doi/full/10.1080/10508422.2025.2581274

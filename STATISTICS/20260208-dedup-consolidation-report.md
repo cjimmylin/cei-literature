@@ -274,7 +274,7 @@
 
 ### Group 33: arxiv:2410.21965
 
-- **Primary:** `2024-Various-SGBench.md` (key: CSK47GC7)
+- **Primary:** `2024-Mou-SGBench.md` (key: CSK47GC7)
 - **Recycled:** `2024-Tom-SG-Bench - Evaluating LLM Safety Generalization.md`
 - **Fields merged:** ethics_overall, publication, DATE_ADDED
 - **PDF:** recycled 2024-Tom-SG-Bench - Evaluating LLM Safety Generalization.pdf

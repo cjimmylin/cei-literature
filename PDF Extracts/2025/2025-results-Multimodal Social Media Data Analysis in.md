@@ -1,13 +1,13 @@
 ---
-title: "2025-results]]-Multimodal Social Media Data Analysis in - PDF Extract"
-source_pdf: "2025-results]]-Multimodal Social Media Data Analysis in.pdf"
+title: "2025-Ofli-Multimodal Social Media Data Analysis in - PDF Extract"
+source_pdf: "2025-Ofli-Multimodal Social Media Data Analysis in.pdf"
 pages: 10
 extracted_at: "2026-02-13T10:43:56.024768"
 ---
 
-# PDF Extract: 2025-results]]-Multimodal Social Media Data Analysis in
+# PDF Extract: 2025-Ofli-Multimodal Social Media Data Analysis in
 
-**Source PDF:** 2025-results]]-Multimodal Social Media Data Analysis in.pdf
+**Source PDF:** 2025-Ofli-Multimodal Social Media Data Analysis in.pdf
 **Total Pages:** 10
 
 ---

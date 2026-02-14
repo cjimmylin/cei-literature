@@ -203,7 +203,7 @@
     "reasoning": "Adapts BBQ bias benchmark to Basque language context, measuring social bias and stereotyping in LMs. Relevant as a cultural/linguistic adaptation of bias evaluation for a low-resource language."
   },
   {
-    "filename": "2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md",
+    "filename": "2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md",
     "decision": "Yes",
     "benchmark_name": "CCD-Bench",
     "what_measures": "LLM decision-making under cross-cultural value conflict; how LLMs adjudicate when multiple cultural frameworks directly clash",

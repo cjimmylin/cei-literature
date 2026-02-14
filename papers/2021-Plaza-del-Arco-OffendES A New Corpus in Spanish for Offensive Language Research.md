@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/datasets/fmplaza/offendes"
 tags: 
 abstract: "47,128 Spanish comments manually labeled on offensive categories from Twitter, Instagram, and YouTube focused on young influencers. Fine-grained annotation: OFP (offensive to person), OFG (offensive to group), NOE (non-offensive with expletives), NO (non-offensive)."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -71,7 +72,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://huggingface.co/datasets/fmplaza/offendes.
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_dataset: Yes
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, BLOOM, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Llama, Llama-2, T5, ChatGPT"
-DATA_URL: NA
+DATA_URL: "https://github.com/HAE-RAE/HAE-RAE-BENCH"
 tags: 
 abstract: "Large language models (LLMs) trained on massive corpora demonstrate impressive capabilities in a wide range of tasks. While there are ongoing efforts to adapt these models to languages beyond English, the attention given to their evaluation methodologies remains limited. Current multilingual benchmarks often rely on back translations or re-implementations of English tests, limiting their capacity to capture unique cultural and linguistic nuances."
 research_topic: "Social & Cultural Analysis"
@@ -73,7 +74,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, BLOOM, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Llama, Llama-2, T5, ChatGPT. No high-confidence repository-style data URL was identified.
+Backfill summary: Models assessed include BERT, BLOOM, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Llama, Llama-2, T5, ChatGPT. Verified dataset/resource link: https://github.com/HAE-RAE/HAE-RAE-BENCH.
 
 ## Notes
 

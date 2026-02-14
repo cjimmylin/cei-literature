@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: NA
+DATA_URL: "https://huggingface.co/datasets/TUKE-KEMT/hate_speech_slovak"
 tags: 
 abstract: "Three new annotated Slovak datasets for toxicity detection, hate speech detection, and sentiment analysis. Addresses gap in Slovak NLP resources for automated moderation."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -74,7 +75,7 @@ Three new annotated Slovak datasets for toxicity detection, hate speech detectio
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/TUKE-KEMT/hate_speech_slovak.
 
 ## Notes
 

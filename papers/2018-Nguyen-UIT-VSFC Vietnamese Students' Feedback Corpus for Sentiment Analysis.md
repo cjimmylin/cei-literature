@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +40,7 @@ is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: NA
-DATA_URL: NA
+DATA_URL: "https://github.com/kietnv/uit-vsfc"
 tags: 
 abstract: 
 research_topic: "NLP & Representation Learning"
@@ -78,7 +79,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/kietnv/uit-vsfc.
 
 ## Notes
 

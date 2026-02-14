@@ -430,7 +430,7 @@ From 266 papers evaluated for normative ethics content (EXSR batch), **7** were 
 | 11 | 2025 | [[2025-Alwajih-Palm]] | PALM | Cultural sensitivity and inclusivity of LL... | Public (code, annotation guidelines,... |
 | 12 | 2025 | [[2025-Andriushchenko-AgentHarm]] | AgentHarm | Harmfulness of LLM agents: compliance with... | Public (HuggingFace: ai-safety-instit... |
 | 13 | 2025 | [[2025-Ashkinaze-Deep Value Benchmark]] | Deep Value Benchmark (DVB) | Whether LLMs learn fundamental human value... | Public (dataset released with human v... |
-| 14 | 2025 | [[2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Making]] | CCD-Bench | LLM decision-making under cross-cultural v... | Public |
+| 14 | 2025 | [[2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making]] | CCD-Bench | LLM decision-making under cross-cultural v... | Public |
 | 15 | 2025 | [[2025-Backmann-When Ethics and Payoffs Diverge LLM Agents in Morally Charged Social]] | MORALSIM | LLM moral behavior when ethical norms conf... | Public (GitHub: sbackmann/moralsim) |
 | 16 | 2025 | [[2025-Backmann-When Ethics and Payoffs Diverge]] | MORALSIM | LLM moral behavior in social dilemmas wher... | Public (GitHub: sbackmann/moralsim) |
 | 17 | 2025 | [[2025-Bae-CharMoral]] | CharMoral | Moral evolution and dynamic morality of ch... | Public (GitHub: BaeSuyoung/CharMoral) |
@@ -671,7 +671,7 @@ From 266 papers evaluated for normative ethics content (EXSR batch), **7** were 
 | 31 | 2025 | [[2025-Andriushchenko-AgentHarm]] | AgentHarm | No | Public |
 | 32 | 2025 | [[2025-Anonymous-BEATS]] | BEATS | Partial | Not stated |
 | 33 | 2025 | [[2025-Ashkinaze-Deep Value Benchmark]] | Deep Value Benchmark (DVB) | No | Public |
-| 34 | 2025 | [[2025-authors-CCD-Bench Probing Cultural Conflict in LLM Decision-Making]] | CCD-Bench | Yes | Public |
+| 34 | 2025 | [[2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making]] | CCD-Bench | Yes | Public |
 | 35 | 2025 | [[2025-Backmann-When Ethics and Payoffs Diverge LLM Agents in Morally Charged Social]] | MORALSIM | No | Public |
 | 36 | 2025 | [[2025-Backmann-When Ethics and Payoffs Diverge]] | MORALSIM | No | Public |
 | 37 | 2025 | [[2025-Bae-CharMoral]] | CharMoral | No | Public |
@@ -858,7 +858,7 @@ From 266 papers evaluated for normative ethics content (EXSR batch), **7** were 
 | 218 | 2025 | [[2025-Trager-MFTCXplain]] | MFTCXplain | Yes | Public |
 | 219 | 2025 | [[2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment]] | Democracy-in-Silico / Power-Preservation Index... | Partial | Not stated |
 | 220 | 2025 | [[2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models]] | VideoNorms | Yes | Not stated |
-| 221 | 2025 | [[2025-Various-AISafetyLab]] | AISafetyLab | No | Public |
+| 221 | 2025 | [[2025-Zhang-AISafetyLab]] | AISafetyLab | No | Public |
 | 222 | 2025 | [[2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning]] | Ethical Reasoning Paradigm (evaluated on SafeWo... | Yes | Not stated |
 | 223 | 2025 | [[2025-Wang-Measuring Desired Group Discrimination in LLMs]] | DiffAware Benchmark Suite | Partial | Public |
 | 224 | 2025 | [[2025-Wang-Multimodal Understanding of Human Values in Videos]] | TikTok Values Dataset | Partial | Public |
@@ -980,7 +980,7 @@ From 266 papers evaluated for normative ethics content (EXSR batch), **7** were 
 | 340 | 2024 | [[2024-MLCommons-MLCommons AILuminate Benchmark]] | AILuminate v1.0 | Partial | Public |
 | 341 | 2024 | [[2024-Moore-Are Large Language Models Consistent over]] | Unnamed (Value Consistency Evaluation) | Yes | Not stated |
 | 342 | 2024 | [[2024-Moore-Intuitions of Compromise - Utilitarianism vs. Contractualism]] | Unnamed (Utilitarian Sum vs Nash Product evalua... | Yes | Not stated |
-| 343 | 2024 | [[2024-Various-SGBench]] | SG-Bench | No | Public |
+| 343 | 2024 | [[2024-Mou-SGBench]] | SG-Bench | No | Public |
 | 344 | 2024 | [[2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and]] | EAI (Emotional AI Framework) | No | Public |
 | 345 | 2024 | [[2024-Nahian-The Goofus & Gallant Story Corpus for Practical]] | Goofus & Gallant Story Corpus | No | Not stated |
 | 346 | 2024 | [[2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding]] | Unnamed (Moral Hypocrisy Evaluation using MFQ +... | Yes | Not stated |
@@ -1022,7 +1022,7 @@ From 266 papers evaluated for normative ethics content (EXSR batch), **7** were 
 | 382 | 2024 | [[2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark]] | Chinese SafetyQA | Partial | Public |
 | 383 | 2024 | [[2024-Tlaie-Exploring and steering the moral compass of Large]] | Moral Foundations Questionnaire (MFQ) + ethical... | Yes | Not stated |
 | 384 | 2024 | [[2024-Tom-SG-Bench - Evaluating LLM Safety Generalization]] | SG-Bench | No | Public |
-| 385 | 2024 | [[2024-Various-SGBench]] | SG-Bench | No | Public |
+| 385 | 2024 | [[2024-Mou-SGBench]] | SG-Bench | No | Public |
 | 386 | 2024 | [[2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases]] | Moral Machine Experiment (MME) for LLMs | Yes | Not stated |
 | 387 | 2024 | [[2024-Wang-All Languages Matter]] | XSafety | Partial | Public |
 | 388 | 2024 | [[2024-Wang-Do-Not-Answer]] | Do-Not-Answer | No | Public |

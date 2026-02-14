@@ -65,6 +65,10 @@ research_topic: "NLP & Representation Learning"
 
 Danish LLM based on Llama2-7B continuously pre-trained on 13.6B Danish words, tuned on 3.7M Danish instructions. Evaluated on 8 language and culturally-specific tasks. Achieves highest overall performance among Llama2-7B-based models.
 
+## Summary
+
+This paper presents SnakModel, an open Danish large language model based on Llama2-7B, along with comprehensive analysis of training decisions throughout the entire development pipeline. The authors continuously pre-train Llama2-7B on a strictly curated corpus of 13.6 billion Danish words from diverse sources (350M documents), then instruction-tune on 3.7 million Danish instruction-answer pairs. Through detailed examination of data curation, training dynamics, hyperparameter ablations, and evaluation on eight language and culturally-specific tasks from the ScandEval benchmark, SnakModel achieves the highest overall performance among contemporary Llama2-7B-based Danish models. By releasing the model, pre-training corpus, code, and intermediate checkpoints under open licenses, the work establishes training guidelines for languages with similar resource constraints.
+
 ## Data Description
 
 SnakModel is a Danish LLM based on Llama2-7B, continuously pre-trained on 13.6B Danish words and tuned on 3.7M Danish instructions. Evaluated on 8 language and culturally-specific tasks. Achieves highest overall performance among Llama2-7B-based models for Danish.

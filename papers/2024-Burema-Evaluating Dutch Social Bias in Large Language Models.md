@@ -64,6 +64,10 @@ ethics_perspective: "Bias & Fairness"
 
 Master's thesis evaluating social bias (gender and country of origin) in Dutch LLM outputs. Tests gpt-4o-mini, claude-3.5-haiku, Geitje-7B-Ultra and EuroLLM-9B-Instruct, finding all models exhibit social bias in their Dutch outputs.
 
+## Summary
+
+This Utrecht University master's thesis evaluates social bias in Dutch language outputs from large language models, focusing on gender and country of origin biases. The author tests multiple state-of-the-art models including GPT-3.5, GPT-4, LLaMa-2, Mistral, and Zephyr (specifically gpt-4o-mini, claude-3.5-haiku, Geitje-7B-Ultra, and EuroLLM-9B-Instruct), using Dutch-translated and adapted social bias evaluation prompts covering gender, nationality, religion, and other demographic dimensions. The study finds that all tested models exhibit social bias in their Dutch language outputs, demonstrating that bias issues persist across different model architectures and languages.
+
 ## Data Description
 
 Dutch translation and adaptation of social bias evaluation prompts for LLMs. Tests gender, nationality, religion, and other demographic biases in Dutch language generations from major LLMs. No public dataset URL provided.

@@ -67,6 +67,10 @@ research_topic: "Machine Learning"
 
 Dataset of 50K naturally occurring French prompts and their continuations, annotated with toxicity scores from Perspective API. Evaluated 14 different LLMs from four open-source families (XGLM, BLOOM, LLaMa, LLaMa2). Found toxicity metrics grow with model size and are higher for toxic prompts. Published at TRAC Workshop @ LREC-COLING 2024.
 
+## Summary
+
+This paper introduces FrenchToxicityPrompts, a large-scale benchmark comprising 50,000 naturally occurring French prompts and their continuations, annotated with toxicity scores using the Perspective API. The authors evaluate 14 different large language models from four open-source families (XGLM, BLOOM, LLaMa, LLaMa-2) on this benchmark, finding that toxicity metrics grow with model size and are higher for toxic prompts. Key findings show that XGLM and LLaMa generate more toxic content for French than BLOOM and LLaMa-2, while instruction tuning decreases toxicity. The work was published at the TRAC Workshop at LREC-COLING 2024 and provides a foundational resource for evaluating and mitigating toxicity in French text generation.
+
 ## Data Description
 
 FrenchToxicityPrompts dataset containing 50,000 French prompts for evaluating toxicity in LLM generations. Covers diverse topics and toxicity categories, enabling measurement of harmful content generation across 14 multilingual models. Shows toxicity increases with model size.

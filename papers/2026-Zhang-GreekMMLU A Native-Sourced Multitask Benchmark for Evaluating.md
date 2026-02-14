@@ -68,6 +68,10 @@ research_topic: "Machine Translation"
 
 A native-sourced benchmark for massive multitask language understanding in Greek, comprising 21,805 multiple-choice questions across 45 subject areas. All questions sourced or authored in Greek from academic, professional, and governmental exams. Evaluations of over 80 open- and closed-source LLMs reveal substantial performance gaps.
 
+## Summary
+
+This paper introduces GreekMMLU, the first large-scale, fully native-sourced benchmark for evaluating massive multitask language understanding in Greek, comprising 21,805 multiple-choice questions across 45 subject areas organized under STEM, Humanities, Social Sciences, and Other domains. All questions are sourced or authored in Greek from authentic academic, professional, and governmental examinations spanning primary school through professional certification levels, with eight Greek-specific subject areas requiring localized cultural knowledge. Evaluating over 80 open- and closed-source LLMs reveals substantial performance gaps between frontier and open-weight models and between Greek-adapted and general multilingual models, with 16,857 samples publicly released and 4,948 reserved for contamination-resistant evaluation.
+
 ## Data Description
 
 Introduces GreekMMLU, a native-sourced benchmark for massive multitask language understanding in Greek, comprising 21,805 multiple-choice questions across 45 subject areas sourced from academic, professional, and governmental exams. Evaluates 80+ LLMs revealing substantial performance gaps between frontier and open-weight models, with 16,857 public and 4,948 private samples.

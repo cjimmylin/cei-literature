@@ -68,6 +68,10 @@ ethics_perspective: "Social & Cultural Values"
 
 Comprehensive multilingual benchmark across 44 written languages with 197,243 QA pairs from local exam sources. Evaluates regional and cultural knowledge rather than translated English content. Models struggle in Armenian, Greek, and Urdu especially on culturally grounded topics. GPT-4o best overall at ~77% average accuracy.
 
+## Summary
+
+This paper introduces INCLUDE, a comprehensive multilingual knowledge and reasoning benchmark comprising 197,243 QA pairs from 1,926 local examinations across 44 languages, 15 scripts, and 52 countries. Unlike existing multilingual benchmarks that rely on English translations (creating translationese artifacts and missing regional context), INCLUDE is constructed from native academic exams, professional certifications, and regional licenses collected with native speakers, capturing authentic regional and cultural knowledge. The benchmark specifically includes questions requiring understanding of local legal systems, cultural practices, and region-specific information, addressing the Western bias prevalent in LLMs. Evaluation of both closed and open models reveals high variance across languages, with models achieving particularly low performance in low-resource languages (especially Armenian, Greek, and Urdu) on culturally grounded topics, and GPT-4o achieving the best overall performance at approximately 77% average accuracy.
+
 ## Data Description
 
 INCLUDE is a comprehensive multilingual benchmark across 44 written languages (including French, Albanian, Armenian, Georgian, Greek, Maltese) with 197,243 QA pairs from local exam sources. Evaluates regional and cultural knowledge rather than translated English content. Models struggle in Armenian, Greek, and Urdu especially on culturally grounded topics. GPT-4o achieves best overall performance at ~77% average accuracy.

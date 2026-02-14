@@ -66,6 +66,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 Collection of French GPT models with PAGnol-XL (1.5B parameters) being the largest model trained from scratch for French. Found that OSCAR pre-training dataset led to low-quality offensive text generation, highlighting importance of dataset selection for ethically sound models. Published at LREC 2022.
 
+## Summary
+
+This paper introduces PAGnol, a collection of French GPT models with PAGnol-XL (1.5 billion parameters) being the largest non-sparse French language model trained to date, using scaling laws to achieve optimal compute efficiency with the same budget as CamemBERT (13 times smaller). Critically, the authors find that the OSCAR pre-training dataset leads to low-quality offensive text generation, highlighting the importance of dataset curation for generative models. The models are evaluated on discriminative tasks (FLUE benchmark) and generative tasks (FQuAD question answering, OrangeSum summarization), achieving state-of-the-art performance on French abstract summarization while revealing significant data quality challenges for French language model development.
+
 ## Data Description
 
 Collection of French GPT models with PAGnol-XL (1.5B parameters) being the largest French model trained from scratch. Evaluated on discriminative (FLUE) and generative tasks (FQuAD question answering, OrangeSum summarization). Found OSCAR pre-training dataset led to low-quality offensive text generation, highlighting data quality importance.

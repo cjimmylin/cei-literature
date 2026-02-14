@@ -67,6 +67,10 @@ ethics_perspective: "AI Safety & Alignment"
 
 Multilingual benchmark evaluating LLM safety in five European languages with 15K high-quality prompts per language (75K total). Extensive experiments on 39 state-of-the-art LLMs show significant inconsistencies in safety across languages and categories, with French often showing disproportionately high toxicity rates.
 
+## Summary
+
+This paper introduces M-ALERT, a multilingual benchmark for evaluating the safety of large language models across five European languages (English, French, German, Italian, and Spanish), comprising 15,000 high-quality prompts per language for a total of 75,000 prompts. The authors conduct extensive experiments on 39 state-of-the-art LLMs including GPT-3.5, GPT-4, Claude-2, Llama-2, Mistral, Gemini, and Command, testing for jailbreaking resistance, toxicity, and harmful content generation. Results reveal significant cross-linguistic safety inconsistencies, with French showing disproportionately high toxicity rates compared to other European languages and substantial variation across safety categories. This work highlights critical gaps in multilingual safety alignment and the need for language-specific safety interventions.
+
 ## Data Description
 
 M-ALERT multilingual safety benchmark containing 75,000 prompts across 5 European languages (English, French, German, Italian, Spanish). Tests jailbreaking, toxicity, and harmful content generation across 39 state-of-the-art LLMs, revealing significant cross-linguistic safety vulnerabilities.

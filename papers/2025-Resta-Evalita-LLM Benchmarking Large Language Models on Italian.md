@@ -68,6 +68,10 @@ research_topic: "Machine Learning"
 
 Comprehensive benchmark and leaderboard designed to evaluate LLMs on Italian tasks, covering ten native Italian tasks including both multiple-choice and generative formats, with multiple prompts per task to mitigate sensitivity. All tasks are native Italian, avoiding translation biases.
 
+## Summary
+
+This paper presents Evalita-LLM, a comprehensive benchmark for evaluating LLMs on ten native Italian tasks spanning word sense disambiguation, text classification, question answering, information extraction, and summarization. The benchmark addresses critical issues in translated benchmarks including translation quality, cultural content bias, and stylistic limitations by using only native Italian datasets from the Evalita initiative. The methodology employs multiple prompts per task to mitigate model sensitivity and includes both multiple-choice and generative task formats, providing a leaderboard for 23 open-source models including Llama-3.1, Gemma-2, Mistral, and Italian-specific models like Minerva and Zefiro.
+
 ## Data Description
 
 Evalita-LLM is a comprehensive benchmark and leaderboard designed to evaluate LLMs on Italian tasks, covering ten native Italian tasks including both multiple-choice and generative formats, with multiple prompts per task to mitigate sensitivity. All tasks are native Italian, avoiding translation biases. Provides leaderboard for 23 open-source models.

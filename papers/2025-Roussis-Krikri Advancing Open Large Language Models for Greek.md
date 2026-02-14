@@ -66,6 +66,10 @@ research_topic: "Machine Translation"
 
 Llama-Krikri-8B is a next-generation Greek LLM based on Llama 3.1-8B, trained on 56.7B Greek tokens. Proposes three novel public benchmarks for Greek evaluation. Supports Modern Greek, English, polytonic text, and Ancient Greek. Shows notable improvements over comparable Greek and multilingual LLMs.
 
+## Summary
+
+This paper introduces Llama-Krikri-8B, a state-of-the-art Greek LLM built on Llama 3.1-8B through continual pre-training on 56.7B Greek tokens, with expanded tokenizer and embeddings for improved efficiency. The model features a multi-stage post-training pipeline using both human and synthetic instruction/preference data created via MAGPIE to address Greek data scarcity, incorporating supervised fine-tuning and Direct Preference Optimization for alignment. The authors propose three novel public benchmarks for Greek instruction-tuned model evaluation, demonstrating that Llama-Krikri significantly outperforms existing Greek and multilingual LLMs including Meltemi-7B while supporting Modern Greek, English, polytonic text, and Ancient Greek.
+
 ## Data Description
 
 Llama-Krikri-8B is a next-generation Greek LLM based on Llama 3.1-8B, trained on 56.7B Greek tokens. The paper proposes three novel public benchmarks for Greek evaluation and supports Modern Greek, English, polytonic text, and Ancient Greek. Shows notable improvements over comparable Greek and multilingual LLMs. Uses human and synthetic instruction/preference data for alignment.

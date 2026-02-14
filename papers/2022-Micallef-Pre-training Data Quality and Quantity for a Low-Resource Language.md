@@ -67,6 +67,10 @@ research_topic: "NLP & Representation Learning"
 
 Develops BERTu, a monolingual BERT model for Maltese, and mBERTu. Trained on Korpus Malti v4.0. Achieves state-of-the-art despite smaller corpus. Foundation for downstream bias evaluation in Maltese.
 
+## Summary
+
+This paper presents BERTu, a monolingual BERT model for Maltese (a low-resource Semitic language not included in mBERT), and mBERTu (a further pre-trained multilingual BERT variant), both trained on the newly created Korpus Malti v4.0 corpus. The authors systematically investigate the effects of pre-training data quality, quantity, and domain diversity on downstream task performance across dependency parsing, POS tagging, named entity recognition, and sentiment analysis. Results show that using a mixture of domains outperforms Wikipedia-only training, and that BERTu achieves state-of-the-art performance despite the corpus being considerably smaller than those used for high-resource languages, with BERTu generally outperforming mBERTu especially on higher-level tasks.
+
 ## Data Description
 
 BERTu and mBERTu models for Maltese trained on Korpus Malti v4.0 corpus. Evaluates monolingual BERT (BERTu) trained from scratch versus further pre-trained multilingual BERT (mBERTu) on dependency parsing, POS tagging, NER, and sentiment analysis for low-resource Maltese language.

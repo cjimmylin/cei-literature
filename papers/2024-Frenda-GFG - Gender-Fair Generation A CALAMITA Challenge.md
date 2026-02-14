@@ -67,6 +67,10 @@ research_topic: "Bias & Fairness"
 
 Challenge to assess and monitor recognition and generation of gender-fair language in Italian. Includes three tasks: detection of gendered expressions, reformulation into gender-fair alternatives, and generation of gender-fair language in English-to-Italian translation. Uses GFL-it corpus, GeNTE, and Neo-GATE datasets.
 
+## Summary
+
+This paper presents the Gender-Fair Generation (GFG) challenge, part of the CALAMITA shared task series, designed to assess and promote recognition and generation of gender-fair language in Italian, a heavily gender-marked language. The challenge comprises three tasks: detection of gendered expressions, reformulation into gender-fair alternatives, and generation of gender-fair language in English-to-Italian translation, using three datasets (GFL-it corpus, GeNTE, and Neo-GATE). The authors evaluate multiple language models including GPT-3.5, GPT-4, LLaMa-2, and Mistral on occupation-based prompts that test for stereotypical gendered continuations. The work addresses the challenge of implementing gender-fair strategies in languages with extensive grammatical gender marking and includes evaluation of non-binary neomorphemes in Italian.
+
 ## Data Description
 
 GFG (Gender-Fair Generation) challenge dataset for evaluating gender bias in Italian text generation. Includes occupation-based prompts testing for stereotypical gendered continuations in Italian language models. Part of CALAMITA shared task series.

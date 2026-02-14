@@ -67,6 +67,10 @@ research_topic: "Question Answering"
 
 Family of LLMs for Basque (7B-70B parameters) with 4 evaluation datasets: EusProficiency (5,169 questions), EusReading (352 questions), EusTrivia (1,715 questions), EusExams (16,774 questions). Latxa outperforms all previous open models and is competitive with GPT-4 Turbo.
 
+## Summary
+
+This paper introduces Latxa, a family of open large language models for Basque ranging from 7 to 70 billion parameters, based on Llama 2 and further pre-trained on a new Basque corpus comprising 4.3 million documents and 4.2 billion tokens. To address the scarcity of high-quality benchmarks for Basque, the authors create four multiple-choice evaluation datasets: EusProficiency (5,169 questions from official language proficiency exams), EusReading (352 reading comprehension questions), EusTrivia (1,715 trivia questions), and EusExams (16,774 exam questions). Latxa outperforms all previous open Basque models and achieves competitive performance with GPT-4 Turbo, while the comprehensive evaluation suite establishes a foundation for subsequent bias and fairness studies in Basque NLP.
+
 ## Data Description
 
 Latxa language model family and evaluation suite for Basque, based on LLaMa-2 architecture with continued pre-training and instruction tuning on Basque text. Includes EusKaliBench evaluation benchmark testing question answering, sentiment analysis, named entity recognition, and linguistic tasks.

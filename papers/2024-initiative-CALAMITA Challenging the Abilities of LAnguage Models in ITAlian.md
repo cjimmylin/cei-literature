@@ -67,6 +67,10 @@ research_topic: "Other"
 
 Large-scale collaborative benchmarking initiative for Italian that federates 80+ contributors. Assembles 20+ tasks and ~100 subtasks covering linguistic competence, commonsense reasoning, factual consistency, fairness, summarization, translation, and code generation.
 
+## Summary
+
+CALAMITA (Challenging the Abilities of LAnguage Models in ITAlian) is a large-scale collaborative benchmarking initiative coordinated by the Italian Association for Computational Linguistics, federating over 80 contributors from 31 institutions including academia, industry, and the public sector. Unlike leaderboard-focused efforts, CALAMITA emphasizes methodology and community-driven evaluation, assembling over 20 tasks and almost 100 subtasks covering linguistic competence, commonsense reasoning, factual consistency, fairness, summarization, translation, and code generation. The initiative establishes a centralized evaluation pipeline supporting heterogeneous datasets and metrics, with results reported for four open-weight LLMs highlighting systematic strengths and weaknesses. Conceived as a rolling benchmark enabling continuous integration of new tasks and models, CALAMITA serves both as the most comprehensive benchmark for Italian to date and as a framework blueprint for sustainable, community-driven LLM evaluation in other languages.
+
 ## Data Description
 
 CALAMITA is a large-scale collaborative benchmarking initiative for Italian that federates 80+ contributors. Assembles 20+ tasks and ~100 subtasks covering linguistic competence, commonsense reasoning, factual consistency, fairness, summarization, translation, and code generation. Explicitly includes fairness evaluation as one of its task categories.

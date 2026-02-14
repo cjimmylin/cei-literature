@@ -67,6 +67,10 @@ research_topic: "Other"
 
 A benchmark suite for evaluating LLMs on Italian, including 10 benchmarks (ARC, BoolQ, GSM8K, HellaSwag, MMLU, PIQA, SciQ, TruthfulQA, Winogrande). Addresses the problem that English-centric benchmark translations may contain culturally inappropriate instances.
 
+## Summary
+
+ITA-Bench is a comprehensive benchmark suite for evaluating large language models on Italian, comprising 10 widely-used benchmarks including ARC, BoolQ, GSM8K, HellaSwag, MMLU, PIQA, SciQ, TruthfulQA, and Winogrande. The initiative addresses the critical problem that direct translations of English-centric benchmarks may contain culturally inappropriate or contextually invalid instances when applied to Italian, potentially producing misleading evaluation results. By providing Italian versions with cultural adaptation where necessary, ITA-Bench enables more accurate assessment of LLM capabilities for Italian language tasks, with TruthfulQA specifically evaluating truthfulness and safety dimensions in Italian contexts.
+
 ## Data Description
 
 ITA-Bench is a benchmark suite for evaluating LLMs on Italian, including 10 benchmarks (ARC, BoolQ, GSM8K, HellaSwag, MMLU, PIQA, SciQ, TruthfulQA, Winogrande). Includes TruthfulQA for Italian to evaluate truthfulness and safety. Addresses the problem that English-centric benchmark translations may contain culturally inappropriate instances.

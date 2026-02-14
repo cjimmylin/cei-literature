@@ -69,6 +69,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 Develops human-annotated dataset of over 11,000 comments from Albanian social media platforms with a two-layer taxonomy for hate speech. Three expert annotators with Fleiss kappa of 0.62. Naive Bayes with TF-IDF achieves F1=0.80 binary, XGBoost F1=0.77 multiclass.
 
+## Summary
+
+This paper develops a human-annotated dataset of over 11,000 comments from Albanian social media platforms for hate speech detection, using a two-layer taxonomy annotated by three expert annotators with a Fleiss kappa inter-annotator agreement of 0.62. The authors evaluate traditional machine learning approaches rather than modern transformer models, finding that Naive Bayes with TF-IDF achieves F1=0.80 for binary classification while XGBoost achieves F1=0.77 for multiclass classification. The work also integrates the hate speech detection system into a mobile web application for real-time moderation. This dataset addresses the critical lack of annotated resources for Albanian, a low-resource language, and provides a foundation for future toxicity and safety research in Albanian NLP.
+
 ## Data Description
 
 Dataset of 11,000+ Albanian social media comments annotated for hate speech with two-layer taxonomy by 3 expert annotators (Fleiss kappa 0.62). Evaluates traditional ML (Naive Bayes, XGBoost) rather than modern LLMs. No public dataset URL provided.

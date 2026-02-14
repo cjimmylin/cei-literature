@@ -68,6 +68,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 Comprehensive investigation into detecting offensive text spans in Romanian using Transformer encoders and LLMs. Introduces 4,800 Romanian comments annotated with offensive text spans. BERT models show superior performance; few-shot LLM strategies also evaluated.
 
+## Summary
+
+This paper conducts a comprehensive investigation into offensive text span detection in Romanian, moving beyond binary classification to identify specific offensive portions within comments. The authors introduce a novel dataset of 4,800 Romanian comments with fine-grained annotations marking the exact spans of offensive text, enabling more precise content moderation. Comparative evaluation of Transformer-based encoders (BERT family) and large language models (GPT-3.5, GPT-4) using few-shot learning strategies shows that BERT models achieve superior performance for this task, demonstrating the continued value of smaller, task-specific models over general-purpose LLMs for certain applications in low-resource language settings.
+
 ## Data Description
 
 Comprehensive investigation into detecting offensive text spans in Romanian using Transformer encoders and LLMs. Introduces 4,800 Romanian comments annotated with offensive text spans. BERT models show superior performance over few-shot LLM strategies for span detection.

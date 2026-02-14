@@ -67,6 +67,10 @@ ethics_perspective: "Bias & Fairness"
 
 First full adaptation of CrowS-Pairs for Dutch with 1,463 sentence pairs covering 9 bias categories including sexual orientation, gender, and disability. GEITje (Dutch fine-tuned model) exhibited significantly more bias than base Mistral-7B. Accepted at RANLP 2025.
 
+## Summary
+
+This paper presents Dutch CrowS-Pairs, the first full adaptation of the CrowS-Pairs bias measurement dataset for Dutch, containing 1,463 minimally different sentence pairs contrasting stereotyped versus anti-stereotyped language across 9 bias categories including sexual orientation, gender, and disability. The authors evaluate Dutch models (BERTje, RobBERT, GEITje), multilingual BERT, and Mistral-7B, comparing results with English (BERT, RoBERTa) and French (FlauBERT, CamemBERT) models. Results reveal that GEITje exhibits significantly more bias than base Mistral-7B, English models show the most bias while Dutch models show the least, and assigning personas to LLMs changes their exhibited bias levels, highlighting the role of cultural and linguistic factors in shaping model biases.
+
 ## Data Description
 
 Dutch CrowS-Pairs is the first full adaptation of CrowS-Pairs for Dutch with 1,463 sentence pairs covering 9 bias categories including sexual orientation, gender, and disability. GEITje (Dutch fine-tuned model) exhibited significantly more bias than base Mistral-7B. Also evaluates English and French models for cross-lingual comparison.

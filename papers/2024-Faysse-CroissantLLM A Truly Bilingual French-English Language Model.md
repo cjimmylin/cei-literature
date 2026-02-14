@@ -68,6 +68,10 @@ research_topic: "NLP & Representation Learning"
 
 1.3B bilingual model pretrained on 3T English and French tokens with 1:1 ratio to mitigate English-centric cultural bias. Introduces FrenchBench, a novel benchmark for French LLM evaluation covering classification and generation tasks, including French cultural knowledge trivia. Evaluates bias and cultural knowledge dimensions.
 
+## Summary
+
+This paper introduces CroissantLLM, a 1.3 billion parameter language model pre-trained on 3 trillion English and French tokens with a pioneering 1:1 English-to-French data ratio to mitigate English-centric cultural bias. The model uses a custom bilingual tokenizer and is fine-tuned on bilingual datasets to achieve truly balanced bilingual performance on consumer-grade hardware. The authors develop FrenchBench, the first comprehensive benchmark for French LLM evaluation covering both classification and generation tasks, including French cultural knowledge trivia to assess cultural bias dimensions. CroissantLLM demonstrates improved French capabilities compared to English-centric models while explicitly evaluating cultural biases alongside standard NLP performance metrics.
+
 ## Data Description
 
 CroissantLLM bilingual French-English language model trained from scratch with balanced French-English data. Includes training corpus and evaluation benchmarks for bilingual LLM performance, demonstrating improved French capabilities compared to English-centric models.

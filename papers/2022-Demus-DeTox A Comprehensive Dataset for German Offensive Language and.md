@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/hdaSprachtechnologie/detox"
 tags: 
 abstract:
 ethics_perspective: "Toxicity & Hate Speech"
@@ -66,6 +67,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 A publicly available dataset of 10,278 German social media comments with 12 annotation categories covering toxicity, criminal relevance, and discrimination types. About half the comments come from coherent conversations, enabling conversation-level analysis of offensive language contagion.
+
+## Data Description
+
+DeTox dataset of 10,278 German social media comments with 12 annotation categories covering toxicity, criminal relevance, and discrimination types. About half the comments are from coherent conversations enabling conversation-level analysis. Evaluated with BERT-based models.
+
 
 ## Notes
 

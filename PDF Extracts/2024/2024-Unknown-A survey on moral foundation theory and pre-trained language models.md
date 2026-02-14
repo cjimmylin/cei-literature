@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-A survey on moral foundation theory and pre-trained language models - PDF Extract"
-source_pdf: "2024-Unknown-A survey on moral foundation theory and pre-trained language models.pdf"
+title: "2024-Zangari-A survey on moral foundation theory and pre-trained language models - PDF Extract"
+source_pdf: "2024-Zangari-A survey on moral foundation theory and pre-trained language models.pdf"
 pages: 26
 extracted_at: "2026-02-13T14:50:53.679142"
 ---
 
-# PDF Extract: 2024-Unknown-A survey on moral foundation theory and pre-trained language models
+# PDF Extract: 2024-Zangari-A survey on moral foundation theory and pre-trained language models
 
-**Source PDF:** 2024-Unknown-A survey on moral foundation theory and pre-trained language models.pdf
+**Source PDF:** 2024-Zangari-A survey on moral foundation theory and pre-trained language models.pdf
 **Total Pages:** 26
 
 ---

@@ -1,0 +1,76 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0756
+type: conferencePaper
+short_title: "FairEval: Evaluating Fairness in LLM-Based ..."
+year: 2025
+first_author: "[[Chandan Kumar Sah]]"
+last_author: "[[Unknown]]"
+authors: Chandan Kumar Sah; Xiaoli Lian; Tony Xu; Li Zhang
+url: "https://hal.science/hal-05031750v1/file/FairEval_Evaluating%20Fairness%20in%20LLM-Based%20Recommendations%20with%20Personality%20Awareness.pdf"
+external_pdf: "https://arxiv.org/pdf/2504.07801v1.pdf"
+publication: Web
+local_pdf: "[[PDFs/2025/2025-Sah-FairEval Evaluating Fairness in LLM-Based ....pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Sah-FairEval Evaluating Fairness in LLM-Based ....md"
+DATE_ADDED: 20260213
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+languages_list: "English, Multilingual"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract: "Recent advances in Large Language Models (LLMs) have enabled their application to recommender systems (RecLLMs), yet concerns remain regarding fairness across demographic and psychological user dimensions. We introduce FairEval, a novel evaluation framework to systematically assess fairness in LLM-based recommendations. Unlike prior benchmarks that focus solely on demographic attributes, FairEval uniquely integrates personality traits with eight sensitive demographic attributes, including gender, race, and age enabling a comprehensive and nuanced assessment of user-level bias. We evaluate state-of-the-art models, including ChatGPT 4o and Gemini 1.5 Flash, on music and movie recommendation tasks using structured prompts. FairEval’s personality-aware fairness metric, PAFS@25, achieves high consistency scores up to 0.9969 for ChatGPT 4o and 0.9997 for Gemini 1.5 Flash, underscoring its robustness in equitable recommendations across diverse user profiles, while also uncovering fairness gaps, with SNSR disparities reaching up to 34.79%. Our results also reveal disparities in recommendation consistency across user identities and prompt formulations, including typographical and multilingual variations. By Chandan Kumar Sah1 Xiaoli Lian1, Tony Xu2, Li Zhang1+ 1School of Computer Science and Engineering, Beihang University, Beijing, China 2Department of Electrical and Computer Engineering, McGill University, Montreal, Canada {sahchandan98,lianxiaoli,lily}@buaa.edu.cn,Tony.xu@mail.mcgill.ca integrating personality-aware fairness evaluation into the RecLLM pipeline, FairEval advances the development of more inclusive and trustworthy recommendation systems."
+ethics_perspective: "Bias & Fairness"
+---
+# FairEval: Evaluating Fairness in LLM-Based ...
+
+## Authors
+
+[[Chandan Kumar Sah]], [[Xiaoli Lian]], [[Tony Xu]], [[Li Zhang]]
+
+## Metadata
+
+**Authors:** Chandan Kumar Sah; Xiaoli Lian; Tony Xu; Li Zhang
+
+**Year:** 2025
+
+**Type:** conferencePaper
+
+**Venue:** Web
+
+**Languages:** English, Multilingual
+
+**Benchmark:** FairEval
+
+## Links
+
+- **URL:** https://hal.science/hal-05031750v1/file/FairEval_Evaluating%20Fairness%20in%20LLM-Based%20Recommendations%20with%20Personality%20Awareness.pdf
+
+## Abstract
+
+
+Recent advances in Large Language Models (LLMs) have enabled their application to recommender systems (RecLLMs), yet concerns remain regarding fairness across demographic and psychological user dimensions. We introduce FairEval, a novel evaluation framework to systematically assess fairness in LLM-based recommendations. Unlike prior benchmarks that focus solely on demographic attributes, FairEval uniquely integrates personality traits with eight sensitive demographic attributes, including gender, race, and age enabling a comprehensive and nuanced assessment of user-level bias. We evaluate state-of-the-art models, including ChatGPT 4o and Gemini 1.5 Flash, on music and movie recommendation tasks using structured prompts. FairEval’s personality-aware fairness metric, PAFS@25, achieves high consistency scores up to 0.9969 for ChatGPT 4o and 0.9997 for Gemini 1.5 Flash, underscoring its robustness in equitable recommendations across diverse user profiles, while also uncovering fairness gaps, with SNSR disparities reaching up to 34.79%. Our results also reveal disparities in recommendation consistency across user identities and prompt formulations, including typographical and multilingual variations. By Chandan Kumar Sah1 Xiaoli Lian1, Tony Xu2, Li Zhang1+ 1School of Computer Science and Engineering, Beihang University, Beijing, China 2Department of Electrical and Computer Engineering, McGill University, Montreal, Canada {sahchandan98,lianxiaoli,lily}@buaa.edu.cn,Tony.xu@mail.mcgill.ca integrating personality-aware fairness evaluation into the RecLLM pipeline, FairEval advances the development of more inclusive and trustworthy recommendation systems.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent D1
+**Relevance:** FairEval benchmark for Multilingual, English; bias/fairness focus
+
+## Tags
+

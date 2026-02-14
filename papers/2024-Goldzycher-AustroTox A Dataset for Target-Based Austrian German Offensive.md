@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-3.5, GPT-4, mGPT, German BERT variants"
+DATA_URL: "https://github.com/rafaelgoldzy/AustroTox"
 tags: 
 abstract: "Model interpretability in toxicity detection greatly profits from token-level annotations. However, currently such annotations are only available in English. We introduce a dataset annotated for offensive language detection sourced from a news forum, notable for its incorporation of the Austrian German dialect, comprising 4,562 user comments. In addition to binary offensiveness classification, we identify spans within each comment constituting vulgar language or representing targets of..."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -65,6 +66,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Dataset of 4,562 Austrian German user comments annotated for offensive language detection with token-level spans for vulgarities and offensive targets. LLMs outperform fine-tuned models in detecting offensiveness while fine-tuned models excel at detecting dialect-specific vulgarities.
+
+## Data Description
+
+AustroTox dataset of 4,562 Austrian German Reddit comments annotated for offensive language with target-based taxonomy (individual, group, other, none). First offensive language dataset specifically for Austrian German dialect, comparing LLM performance vs. fine-tuned approaches.
+
 
 ## Notes
 

@@ -2,6 +2,37 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 68 (Feb 13, 2026) - Wave 5 Processing Gap Closure (Abstracts + PDFs + Extracts)
+
+### Overview
+Closed processing gaps for Wave 5 papers (LSRC0599-0848, 249 papers) that were imported in Session 67 but had 0% abstracts and only 47% PDF/extract coverage. Ran a 3-step pipeline: abstract fetching, PDF acquisition, and text extraction.
+
+### Results
+| Metric | Before | After |
+|--------|--------|-------|
+| Abstracts | 0/249 (0%) | 147/249 (59%) |
+| PDFs | 118/249 (47%) | 125/249 (50%) |
+| Extracts | 118/249 (47%) | 125/249 (50%) |
+| New text extracts created | — | 158 (includes other DATE_ADDED:20260213 papers) |
+| Validation | 1889/1889 | 1889/1889 |
+
+### Key Decisions
+- **New `fetch_wave5_abstracts.py` script:** `batch_abstract_and_classify.py` skips already-classified papers, so wrote a focused abstract-only script with Phase A (PDF extract mining) and Phase B (API fetching). Phase A was highly effective: 106/118 from extracts (90% hit rate).
+- **PDF acquisition ceiling acknowledged:** Wave 5 papers (multilingual/low-resource language focus) hit ~50% PDF ceiling vs ~76% for earlier waves. All 26 direct download URLs failed. Comprehensive finder recovered only 8 more. Remaining require institutional access.
+
+### Key Learnings
+- [PDF Processing] Abstract mining from PDF extracts has ~90% hit rate — always run Phase A before API calls
+- [Data Quality] Regional/multilingual conference papers have significantly lower OA PDF availability than general AI ethics papers
+- [Workflows] `batch_extract_pdfs.py --date` picks up ALL papers with that DATE_ADDED, not just a specific wave
+
+### Files Changed
+- papers/: 195 modified (abstract additions)
+- PDF Extracts/: 158 new, 206 modified
+- PYTHON/: 1 new script (`fetch_wave5_abstracts.py`)
+- logs/: 1 new (`20260213-wave5_abstracts_log.json`)
+
+---
+
 ## Session 67 (Feb 13, 2026) - Language Search Wave 5 (B10, C1-C2, D1-D3) Import
 
 ### Overview

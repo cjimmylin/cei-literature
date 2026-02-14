@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-A Survey on LLM-as-a-Judge - PDF Extract"
-source_pdf: "2024-Unknown-A Survey on LLM-as-a-Judge.pdf"
+title: "2024-Gu-A Survey on LLM-as-a-Judge - PDF Extract"
+source_pdf: "2024-Gu-A Survey on LLM-as-a-Judge.pdf"
 pages: 64
 extracted_at: "2026-02-13T13:57:12.462909"
 ---
 
-# PDF Extract: 2024-Unknown-A Survey on LLM-as-a-Judge
+# PDF Extract: 2024-Gu-A Survey on LLM-as-a-Judge
 
-**Source PDF:** 2024-Unknown-A Survey on LLM-as-a-Judge.pdf
+**Source PDF:** 2024-Gu-A Survey on LLM-as-a-Judge.pdf
 **Total Pages:** 64
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4, Claude Opus, Gemini Pro, Command R+, Llama3, Mistral, and other Danish LLMs"
+DATA_URL: "NA"
 tags: 
 abstract: "The language technology moonshot moment of Generative Large Language Models (GLLMs) was not limited to English: These models brought a surge of technological applications, investments, and hype to low-resource languages as well. However, the capabilities of these models in languages such as Danish were, until recently, difficult to verify beyond qualitative demonstrations due to a lack of applicable evaluation corpora."
 research_topic: "Machine Learning"
@@ -65,6 +66,11 @@ research_topic: "Machine Learning"
 ## Abstract
 
 GLLM benchmark evaluating Danish language and cultural competency across 8 scenarios including citizenship tests and social media QA. Produces robust ranking correlating to human feedback at rho ~0.8. GPT-4 and Claude Opus achieve highest rankings.
+
+## Data Description
+
+Danoliteracy is a GLLM benchmark evaluating Danish language and cultural competency across 8 scenarios including citizenship tests and social media QA. Produces robust ranking correlating to human feedback at rho ~0.8. GPT-4 and Claude Opus achieve highest rankings.
+
 
 ## Notes
 

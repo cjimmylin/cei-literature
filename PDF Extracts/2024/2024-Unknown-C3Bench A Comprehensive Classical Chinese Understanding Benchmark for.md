@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for - PDF Extract"
-source_pdf: "2024-Unknown-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.pdf"
+title: "2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for - PDF Extract"
+source_pdf: "2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.pdf"
 pages: 10
 extracted_at: "2026-02-13T13:57:12.588203"
 ---
 
-# PDF Extract: 2024-Unknown-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for
+# PDF Extract: 2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for
 
-**Source PDF:** 2024-Unknown-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.pdf
+**Source PDF:** 2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.pdf
 **Total Pages:** 10
 
 ---

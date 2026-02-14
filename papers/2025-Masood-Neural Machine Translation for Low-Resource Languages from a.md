@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Machine translation–the automatic transformation of one natural language (source language) into another (target language) through computational means–occupies a central role in computational linguistics and stands as a cornerstone of research within the field of Natural Language Processing (NLP). In recent years, the prominence of Neural Machine Translation (NMT) has grown exponentially, offering an advanced framework for machine translation research. It is noted for its superior translation performance, especially when tackling the challenges posed by low-resource language pairs that suffer from a limited corpus of data resources. This article offers an exhaustive exploration of the historical trajectory and advancements in NMT, accompanied by an analysis of the underlying foundational concepts. It subsequently provides a concise demarcation of the unique characteristics associated with low-resource languages and presents a succinct review of pertinent translation models and their applications, specifically within the context of languages with low-resources. Moreover, this article delves deeply into machine translation techniques, highlighting approaches tailored for Chinese-centric low-resource languages. Ultimately, it anticipates upcoming research directions in the realm of low-resource language translation."
 research_topic: "Machine Translation"
 ---
 # Neural Machine Translation for Low-Resource Languages from a Chinese-centric Perspective: A Survey | ACM Transactions on Asian and Low-Resource Language Information Processing
@@ -65,7 +65,8 @@ research_topic: "Machine Translation"
 
 ## Abstract
 
-Based on the search results, I found information about a comprehensive evaluation benchmark for Uyghur literary translation involving ChatGPT and other translation tools. Uyghur Literary Translation Evaluation Study A comparative study employed two neural machine translation (NMT) systems—Google Translate and Bing Translator—and one generative AI large language model (LLM), ChatGPT to evaluate Uyghur to English literary translation.
+
+Machine translation–the automatic transformation of one natural language (source language) into another (target language) through computational means–occupies a central role in computational linguistics and stands as a cornerstone of research within the field of Natural Language Processing (NLP). In recent years, the prominence of Neural Machine Translation (NMT) has grown exponentially, offering an advanced framework for machine translation research. It is noted for its superior translation performance, especially when tackling the challenges posed by low-resource language pairs that suffer from a limited corpus of data resources. This article offers an exhaustive exploration of the historical trajectory and advancements in NMT, accompanied by an analysis of the underlying foundational concepts. It subsequently provides a concise demarcation of the unique characteristics associated with low-resource languages and presents a succinct review of pertinent translation models and their applications, specifically within the context of languages with low-resources. Moreover, this article delves deeply into machine translation techniques, highlighting approaches tailored for Chinese-centric low-resource languages. Ultimately, it anticipates upcoming research directions in the realm of low-resource language translation.
 
 ## Notes
 

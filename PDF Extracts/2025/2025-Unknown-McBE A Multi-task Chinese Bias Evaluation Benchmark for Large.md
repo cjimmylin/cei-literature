@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large - PDF Extract"
-source_pdf: "2025-Unknown-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.pdf"
+title: "2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large - PDF Extract"
+source_pdf: "2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.pdf"
 pages: 24
 extracted_at: "2026-02-13T13:57:15.004112"
 ---
 
-# PDF Extract: 2025-Unknown-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large
+# PDF Extract: 2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large
 
-**Source PDF:** 2025-Unknown-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.pdf
+**Source PDF:** 2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.pdf
 **Total Pages:** 24
 
 ---

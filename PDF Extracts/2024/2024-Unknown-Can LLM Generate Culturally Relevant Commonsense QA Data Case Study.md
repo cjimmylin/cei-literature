@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study - PDF Extract"
-source_pdf: "2024-Unknown-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study.pdf"
+title: "2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study - PDF Extract"
+source_pdf: "2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study.pdf"
 pages: 20
 extracted_at: "2026-02-13T09:50:29.100169"
 ---
 
-# PDF Extract: 2024-Unknown-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study
+# PDF Extract: 2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study
 
-**Source PDF:** 2024-Unknown-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study.pdf
+**Source PDF:** 2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study.pdf
 **Total Pages:** 20
 
 ---

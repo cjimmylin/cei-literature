@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Other"
@@ -65,6 +66,11 @@ research_topic: "Other"
 ## Abstract
 
 Large-scale collaborative benchmarking initiative for Italian that federates 80+ contributors. Assembles 20+ tasks and ~100 subtasks covering linguistic competence, commonsense reasoning, factual consistency, fairness, summarization, translation, and code generation.
+
+## Data Description
+
+CALAMITA is a large-scale collaborative benchmarking initiative for Italian that federates 80+ contributors. Assembles 20+ tasks and ~100 subtasks covering linguistic competence, commonsense reasoning, factual consistency, fairness, summarization, translation, and code generation. Explicitly includes fairness evaluation as one of its task categories.
+
 
 ## Notes
 

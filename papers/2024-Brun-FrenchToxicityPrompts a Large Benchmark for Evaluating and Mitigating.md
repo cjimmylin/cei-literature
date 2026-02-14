@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "XGLM, BLOOM, LLaMa, LLaMa-2"
+DATA_URL: "https://huggingface.co/datasets/FrenchToxicityPrompts"
 tags: 
 abstract:
 research_topic: "Machine Learning"
@@ -65,6 +66,11 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Dataset of 50K naturally occurring French prompts and their continuations, annotated with toxicity scores from Perspective API. Evaluated 14 different LLMs from four open-source families (XGLM, BLOOM, LLaMa, LLaMa2). Found toxicity metrics grow with model size and are higher for toxic prompts. Published at TRAC Workshop @ LREC-COLING 2024.
+
+## Data Description
+
+FrenchToxicityPrompts dataset containing 50,000 French prompts for evaluating toxicity in LLM generations. Covers diverse topics and toxicity categories, enabling measurement of harmful content generation across 14 multilingual models. Shows toxicity increases with model size.
+
 
 ## Notes
 

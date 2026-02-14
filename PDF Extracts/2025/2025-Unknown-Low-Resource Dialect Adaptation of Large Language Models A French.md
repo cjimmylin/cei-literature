@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Low-Resource Dialect Adaptation of Large Language Models A French - PDF Extract"
-source_pdf: "2025-Unknown-Low-Resource Dialect Adaptation of Large Language Models A French.pdf"
+title: "2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French - PDF Extract"
+source_pdf: "2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French.pdf"
 pages: 11
 extracted_at: "2026-02-13T13:14:06.992920"
 ---
 
-# PDF Extract: 2025-Unknown-Low-Resource Dialect Adaptation of Large Language Models A French
+# PDF Extract: 2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French
 
-**Source PDF:** 2025-Unknown-Low-Resource Dialect Adaptation of Large Language Models A French.pdf
+**Source PDF:** 2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French.pdf
 **Total Pages:** 11
 
 ---

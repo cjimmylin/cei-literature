@@ -1,0 +1,75 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0180
+type: preprint
+short_title: "LLM-Based Multi-Task Bangla Hate Speech Detection: Type, Severity, and Target"
+year: 2025
+first_author: "[[Md Arid Hasan]]"
+last_author: "[[Unknown]]"
+authors: Md Arid Hasan; Firoj Alam; Md Fahad Hossain; Usman Naseem; Syed Ishtiaque Ahmed
+url: "https://arxiv.org/abs/2510.01995"
+external_pdf: "https://arxiv.org/pdf/2510.01995.pdf"
+local_pdf: "[[PDFs/2025/2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and.md"
+publication: arXiv
+DATE_ADDED: 20260213
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+languages_list: "Bengali"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multi-task benchmark for ai safety annotated dataset for hate speech detection"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract: "Online social media platforms are central to everyday communication and information seeking. While these platforms serve positive purposes, they also provide fertile ground for the spread of hate speech, offensive language, and bullying content targeting individuals, organizations, and communities. Such content undermines safety, participation, and equity online. Reliable detection systems are therefore needed, especially for low-resource languages where moderation tools are limited."
+ethics_perspective: "AI Safety & Alignment"
+---
+# LLM-Based Multi-Task Bangla Hate Speech Detection: Type, Severity, and Target
+
+## Authors
+
+[[Md Arid Hasan]], [[Firoj Alam]], [[Md Fahad Hossain]], [[Usman Naseem]], [[Syed Ishtiaque Ahmed]]
+
+## Metadata
+
+**Authors:** Md Arid Hasan; Firoj Alam; Md Fahad Hossain; Usman Naseem; Syed Ishtiaque Ahmed
+
+**Year:** 2025
+
+**Type:** preprint
+
+**Venue:** arXiv
+
+**Languages:** Bengali
+
+**Benchmark:** BanglaMultiHate
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2510.01995
+
+## Abstract
+
+First multi-task Bangla hate speech dataset (BanglaMultiHate) supporting type, severity, and target classification. Tests encoder (BanglaBert) and decoder (GPT-4, LLaMA 3.1, Gemma-2) models. Chain-of-thought with few-shot prompting most effective.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent A8
+**Relevance:** Multi-dimensional Bangla hate speech evaluation with LLM benchmarking
+
+## Tags
+

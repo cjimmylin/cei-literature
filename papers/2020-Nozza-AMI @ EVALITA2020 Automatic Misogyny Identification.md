@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Other"
@@ -66,6 +67,15 @@ research_topic: "Other"
 ## Abstract
 
 Shared task for automatically identifying misogynous content in Italian tweets. Two subtasks: (A) misogyny and aggressiveness identification, (B) fairness of the model. Annotated for misogyny categories: Discredit, Derailing, Dominance, Sexual Harassment, Stereotype & Objectification.
+
+## Summary
+
+This paper presents the AMI (Automatic Misogyny Identification) shared task at EVALITA 2020, which focuses on detecting misogynous content in Italian tweets across two subtasks: (A) identifying misogyny and aggressiveness, and (B) evaluating model fairness. The dataset includes fine-grained annotations for misogyny categories including Discredit, Derailing, Dominance, Sexual Harassment, and Stereotype & Objectification. Multiple teams participated using various approaches including BERT-based models, with Subtask B explicitly measuring fairness to address bias concerns in misogyny detection systems.
+
+## Data Description
+
+Automatic Misogyny Identification (AMI) shared task at EVALITA2020 for Italian. Tests systems for binary misogyny detection and misogyny category classification. Participating teams used various approaches including BERT-based models.
+
 
 ## Notes
 

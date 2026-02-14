@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Dialectal Arabic (DA) varieties are underserved by language technologies, particularly large language models (LLMs). This trend threatens to exacerbate existing social inequalities and limits LLM applications, yet the research community lacks operationalized performance measurements in DA. We present a framework that comprehensively assesses LLMs’ DA modeling capabilities across four dimensions: fidelity, understanding, quality, and diglossia. We evaluate nine LLMs in eight DA varieties and provide practical recommendations. Our evaluation suggests that LLMs do not produce DA as well as they understand it, not because their DA fluency is poor, but because they are reluctant to generate DA. Further analysis suggests that current post-training can contribute to bias against DA, that few-shot examples can overcome this deficiency, and that otherwise no measurable features of input text correlate well with LLM DA performance."
 research_topic: "Other"
 ---
 # AL-QASIDA: Analyzing LLM Quality and Accuracy Systematically in Dialectal Arabic
@@ -64,7 +64,8 @@ research_topic: "Other"
 
 ## Abstract
 
-Based on the search results, here's what recent research reveals about dialectal Arabic NLP evaluation benchmarks and bias: Key Findings on Benchmarking Dialectal Arabic A comprehensive survey analyzing 40+ evaluation benchmarks across NLP tasks, knowledge domains, cultural understanding, and specialized capabilities has revealed important insights about the field. Identified Critical Gaps The analysis reveals significant progress in benchmark diversity while identifying critical gaps:
+
+Dialectal Arabic (DA) varieties are underserved by language technologies, particularly large language models (LLMs). This trend threatens to exacerbate existing social inequalities and limits LLM applications, yet the research community lacks operationalized performance measurements in DA. We present a framework that comprehensively assesses LLMs’ DA modeling capabilities across four dimensions: fidelity, understanding, quality, and diglossia. We evaluate nine LLMs in eight DA varieties and provide practical recommendations. Our evaluation suggests that LLMs do not produce DA as well as they understand it, not because their DA fluency is poor, but because they are reluctant to generate DA. Further analysis suggests that current post-training can contribute to bias against DA, that few-shot examples can overcome this deficiency, and that otherwise no measurable features of input text correlate well with LLM DA performance.
 
 ## Notes
 

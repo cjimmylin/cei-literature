@@ -34,7 +34,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Abstract United Nations Development Programme worked to build a rights-based approach into each of its primary programming areas but with varying success. Access to justice programs, which seek to empower citizens through legal means, have important rights components. Work with the transgender community, for example, is clearly rights-oriented, as is Right to Information programming. Other areas have been less successful, but all have at least tried to consider what rights mean. The overall impression is of an agency that recognizes the important rights challenges, but has not yet fully decided what they mean for programming, or how they sit next to more traditional interventions."
 research_topic: "Other"
 ---
 # Ensuring Indigenous Peoples’ rights in the age of AI | United Nations
@@ -61,7 +61,8 @@ research_topic: "Other"
 
 ## Abstract
 
-I've completed the web search for "indigenous languages AI ethics cultural values." Here are the key findings: Overview The search results reveal a complex landscape where AI presents both opportunities and challenges for Indigenous language preservation and cultural values. Key Themes Language Preservation and Opportunities When developed inclusively and ethically, AI can support language revitalization and enhance cultural preservation.
+
+Abstract United Nations Development Programme worked to build a rights-based approach into each of its primary programming areas but with varying success. Access to justice programs, which seek to empower citizens through legal means, have important rights components. Work with the transgender community, for example, is clearly rights-oriented, as is Right to Information programming. Other areas have been less successful, but all have at least tried to consider what rights mean. The overall impression is of an agency that recognizes the important rights challenges, but has not yet fully decided what they mean for programming, or how they sit next to more traditional interventions.
 
 ## Notes
 

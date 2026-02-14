@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-A comprehensive review on detection of hate speech for multi-lingual - PDF Extract"
-source_pdf: "2025-Unknown-A comprehensive review on detection of hate speech for multi-lingual.pdf"
+title: "2025-Narula-A comprehensive review on detection of hate speech for multi-lingual - PDF Extract"
+source_pdf: "2025-Narula-A comprehensive review on detection of hate speech for multi-lingual.pdf"
 pages: 35
 extracted_at: "2026-02-13T14:50:55.738063"
 ---
 
-# PDF Extract: 2025-Unknown-A comprehensive review on detection of hate speech for multi-lingual
+# PDF Extract: 2025-Narula-A comprehensive review on detection of hate speech for multi-lingual
 
-**Source PDF:** 2025-Unknown-A comprehensive review on detection of hate speech for multi-lingual.pdf
+**Source PDF:** 2025-Narula-A comprehensive review on detection of hate speech for multi-lingual.pdf
 **Total Pages:** 35
 
 ---

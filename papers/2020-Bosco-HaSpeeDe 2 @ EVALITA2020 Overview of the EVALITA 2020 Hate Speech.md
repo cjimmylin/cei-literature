@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/msang/haspeede/tree/master/2020"
 tags: 
 abstract:
 ethics_perspective: "Toxicity & Hate Speech"
@@ -66,6 +67,15 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Second edition shared task on detection of hateful content in Italian Twitter messages. Composed of main task (hate speech detection) and pilot tasks (stereotype detection, nominal utterance detection). 14 teams participated; best macro F1 of 0.8088.
+
+## Summary
+
+This paper presents HaSpeeDe 2, the second edition of the EVALITA shared task on hate speech detection in Italian Twitter messages and news headlines. The task includes a main hate speech detection track and two pilot tasks for stereotype detection and nominal utterance detection, with 14 participating teams employing various approaches including BERT-based models. The best-performing system achieved a macro F1 score of 0.8088, and the shared task provides cross-domain evaluation between Twitter and news domains to assess model robustness.
+
+## Data Description
+
+Second edition shared task on detecting hateful content in Italian Twitter messages. Includes main task (hate speech detection) and pilot tasks (stereotype detection, nominal utterance detection). 14 teams participated with various approaches including BERT models, achieving best macro F1 of 0.8088.
+
 
 ## Notes
 

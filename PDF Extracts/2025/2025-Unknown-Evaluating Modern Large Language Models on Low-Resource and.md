@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Evaluating Modern Large Language Models on Low-Resource and - PDF Extract"
-source_pdf: "2025-Unknown-Evaluating Modern Large Language Models on Low-Resource and.pdf"
+title: "2025-Xia-Evaluating Modern Large Language Models on Low-Resource and - PDF Extract"
+source_pdf: "2025-Xia-Evaluating Modern Large Language Models on Low-Resource and.pdf"
 pages: 17
 extracted_at: "2026-02-13T13:57:14.776425"
 ---
 
-# PDF Extract: 2025-Unknown-Evaluating Modern Large Language Models on Low-Resource and
+# PDF Extract: 2025-Xia-Evaluating Modern Large Language Models on Low-Resource and
 
-**Source PDF:** 2025-Unknown-Evaluating Modern Large Language Models on Low-Resource and.pdf
+**Source PDF:** 2025-Xia-Evaluating Modern Large Language Models on Low-Resource and.pdf
 **Total Pages:** 17
 
 ---

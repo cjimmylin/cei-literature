@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Toxicity & Hate Speech"
@@ -64,6 +65,15 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Shared task for identification of offensive language in German tweets with 8,000+ tweets. Includes coarse-grained binary classification and fine-grained multi-class (Insult, Profanity, Abuse) subtypes.
+
+## Summary
+
+This paper presents GermEval 2018, a shared task competition for identifying offensive language in German tweets using a dataset of over 8,000 annotated tweets. The task includes both coarse-grained binary classification (offensive vs. non-offensive) and fine-grained multi-class categorization into subtypes including Insult, Profanity, and Abuse. This foundational shared task has been widely used in subsequent German hate speech detection research and established benchmark performance metrics for the community.
+
+## Data Description
+
+Shared task dataset for identifying offensive language in German tweets with 8,000+ tweets. Includes coarse-grained binary classification and fine-grained multi-class subtypes (Insult, Profanity, Abuse). The paper describes a shared task competition format, not LLM evaluation.
+
 
 ## Notes
 

@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian - PDF Extract"
-source_pdf: "2025-Unknown-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.pdf"
+title: "2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian - PDF Extract"
+source_pdf: "2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.pdf"
 pages: 26
 extracted_at: "2026-02-13T09:50:28.392229"
 ---
 
-# PDF Extract: 2025-Unknown-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian
+# PDF Extract: 2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian
 
-**Source PDF:** 2025-Unknown-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.pdf
+**Source PDF:** 2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.pdf
 **Total Pages:** 26
 
 ---

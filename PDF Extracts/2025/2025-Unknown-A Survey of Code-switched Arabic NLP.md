@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-A Survey of Code-switched Arabic NLP - PDF Extract"
-source_pdf: "2025-Unknown-A Survey of Code-switched Arabic NLP.pdf"
+title: "2025-Hamed-A Survey of Code-switched Arabic NLP - PDF Extract"
+source_pdf: "2025-Hamed-A Survey of Code-switched Arabic NLP.pdf"
 pages: 25
 extracted_at: "2026-02-13T14:50:55.544652"
 ---
 
-# PDF Extract: 2025-Unknown-A Survey of Code-switched Arabic NLP
+# PDF Extract: 2025-Hamed-A Survey of Code-switched Arabic NLP
 
-**Source PDF:** 2025-Unknown-A Survey of Code-switched Arabic NLP.pdf
+**Source PDF:** 2025-Hamed-A Survey of Code-switched Arabic NLP.pdf
 **Total Pages:** 25
 
 ---
@@ -120,8 +120,10 @@ CSW Type
 Example
 Inter-sentential
 I need to prepare for it. .I. K
-Q¯ 	àAjJÓ@ ø
- Y	J« A	K@
+Q¯ 	àAjJÓ@
+ ø
+ Y	J« A	K
+@
 I have an exam coming up. I need to prepare for it.
 Extra-sentential
 . @QºK. ¨ðQåÖÏ@ úÎ« É	ªJ Aë Okay

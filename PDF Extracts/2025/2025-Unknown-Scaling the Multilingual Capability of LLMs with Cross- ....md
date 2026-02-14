@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Scaling the Multilingual Capability of LLMs with Cross- ... - PDF Extract"
-source_pdf: "2025-Unknown-Scaling the Multilingual Capability of LLMs with Cross- ....pdf"
+title: "2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ... - PDF Extract"
+source_pdf: "2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ....pdf"
 pages: 28
 extracted_at: "2026-02-13T14:50:57.849202"
 ---
 
-# PDF Extract: 2025-Unknown-Scaling the Multilingual Capability of LLMs with Cross- ...
+# PDF Extract: 2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ...
 
-**Source PDF:** 2025-Unknown-Scaling the Multilingual Capability of LLMs with Cross- ....pdf
+**Source PDF:** 2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ....pdf
 **Total Pages:** 28
 
 ---

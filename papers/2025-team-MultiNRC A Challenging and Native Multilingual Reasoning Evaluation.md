@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "o3-pro, multiple LLMs"
+DATA_URL: "https://scale.com/leaderboard/multinrc"
 tags: 
 abstract: "Although recent Large Language Models (LLMs) have shown rapid improvement on reasoning benchmarks in English, the evaluation of such LLMs’ multilingual reasoning capability across diverse languages and cultural contexts remains limited. Existing multilingual reasoning benchmarks are typically constructed by translating existing English reasoning benchmarks, biasing these benchmarks towards reasoning problems with context in English language/cultures."
 research_topic: "Machine Translation"
@@ -66,6 +67,11 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Native multilingual reasoning benchmark with 1,000+ questions authored by native speakers in French, Spanish, and Chinese. Covers linguistic reasoning, wordplay, cultural/tradition reasoning, and math with cultural relevance. Best LLM (o3-pro) achieves only 49% accuracy. Published July 2025.
+
+## Data Description
+
+Introduces MultiNRC, a native multilingual reasoning benchmark with 1,000+ questions authored by native speakers in French, Spanish, and Chinese, covering linguistic reasoning, wordplay, cultural/tradition reasoning, and culturally relevant math. Best LLM (o3-pro) achieves only 49% accuracy, revealing performance gaps.
+
 
 ## Notes
 

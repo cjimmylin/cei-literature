@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-SweEval Do LLMs Really Swear A - PDF Extract"
-source_pdf: "2025-Unknown-SweEval Do LLMs Really Swear A.pdf"
+title: "2025-[[Unknown]]-SweEval Do LLMs Really Swear A - PDF Extract"
+source_pdf: "2025-[[Unknown]]-SweEval Do LLMs Really Swear A.pdf"
 pages: 25
 extracted_at: "2026-02-13T09:15:42.822906"
 ---
 
-# PDF Extract: 2025-Unknown-SweEval Do LLMs Really Swear A
+# PDF Extract: 2025-[[Unknown]]-SweEval Do LLMs Really Swear A
 
-**Source PDF:** 2025-Unknown-SweEval Do LLMs Really Swear A.pdf
+**Source PDF:** 2025-[[Unknown]]-SweEval Do LLMs Really Swear A.pdf
 **Total Pages:** 25
 
 ---

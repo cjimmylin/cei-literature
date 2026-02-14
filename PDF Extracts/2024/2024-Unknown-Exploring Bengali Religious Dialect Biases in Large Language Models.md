@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-Exploring Bengali Religious Dialect Biases in Large Language Models - PDF Extract"
-source_pdf: "2024-Unknown-Exploring Bengali Religious Dialect Biases in Large Language Models.pdf"
+title: "2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models - PDF Extract"
+source_pdf: "2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.pdf"
 pages: 10
 extracted_at: "2026-02-13T09:50:29.287651"
 ---
 
-# PDF Extract: 2024-Unknown-Exploring Bengali Religious Dialect Biases in Large Language Models
+# PDF Extract: 2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models
 
-**Source PDF:** 2024-Unknown-Exploring Bengali Religious Dialect Biases in Large Language Models.pdf
+**Source PDF:** 2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.pdf
 **Total Pages:** 10
 
 ---

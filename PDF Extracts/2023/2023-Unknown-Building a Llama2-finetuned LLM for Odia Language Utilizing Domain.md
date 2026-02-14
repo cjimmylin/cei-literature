@@ -1,13 +1,13 @@
 ---
-title: "2023-Unknown-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain - PDF Extract"
-source_pdf: "2023-Unknown-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain.pdf"
+title: "2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain - PDF Extract"
+source_pdf: "2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain.pdf"
 pages: 7
 extracted_at: "2026-02-13T09:50:27.958649"
 ---
 
-# PDF Extract: 2023-Unknown-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain
+# PDF Extract: 2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain
 
-**Source PDF:** 2023-Unknown-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain.pdf
+**Source PDF:** 2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain.pdf
 **Total Pages:** 7
 
 ---

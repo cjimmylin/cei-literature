@@ -1,13 +1,13 @@
 ---
-title: "2025-results-MuBench Assessment of Multilingual Capabilities of - PDF Extract"
-source_pdf: "2025-results-MuBench Assessment of Multilingual Capabilities of.pdf"
+title: "2025-results]]-MuBench Assessment of Multilingual Capabilities of - PDF Extract"
+source_pdf: "2025-results]]-MuBench Assessment of Multilingual Capabilities of.pdf"
 pages: 28
 extracted_at: "2026-02-13T09:15:43.379914"
 ---
 
-# PDF Extract: 2025-results-MuBench Assessment of Multilingual Capabilities of
+# PDF Extract: 2025-results]]-MuBench Assessment of Multilingual Capabilities of
 
-**Source PDF:** 2025-results-MuBench Assessment of Multilingual Capabilities of.pdf
+**Source PDF:** 2025-results]]-MuBench Assessment of Multilingual Capabilities of.pdf
 **Total Pages:** 28
 
 ---

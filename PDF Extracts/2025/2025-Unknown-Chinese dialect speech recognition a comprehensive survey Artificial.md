@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Chinese dialect speech recognition a comprehensive survey Artificial - PDF Extract"
-source_pdf: "2025-Unknown-Chinese dialect speech recognition a comprehensive survey Artificial.pdf"
+title: "2025-Li-Chinese dialect speech recognition a comprehensive survey Artificial - PDF Extract"
+source_pdf: "2025-Li-Chinese dialect speech recognition a comprehensive survey Artificial.pdf"
 pages: 39
 extracted_at: "2026-02-13T14:50:56.428963"
 ---
 
-# PDF Extract: 2025-Unknown-Chinese dialect speech recognition a comprehensive survey Artificial
+# PDF Extract: 2025-Li-Chinese dialect speech recognition a comprehensive survey Artificial
 
-**Source PDF:** 2025-Unknown-Chinese dialect speech recognition a comprehensive survey Artificial.pdf
+**Source PDF:** 2025-Li-Chinese dialect speech recognition a comprehensive survey Artificial.pdf
 **Total Pages:** 39
 
 ---

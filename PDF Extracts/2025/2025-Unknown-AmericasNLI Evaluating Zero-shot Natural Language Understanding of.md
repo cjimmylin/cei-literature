@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-AmericasNLI Evaluating Zero-shot Natural Language Understanding of - PDF Extract"
-source_pdf: "2025-Unknown-AmericasNLI Evaluating Zero-shot Natural Language Understanding of.pdf"
+title: "2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of - PDF Extract"
+source_pdf: "2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of.pdf"
 pages: 21
 extracted_at: "2026-02-13T14:50:55.939007"
 ---
 
-# PDF Extract: 2025-Unknown-AmericasNLI Evaluating Zero-shot Natural Language Understanding of
+# PDF Extract: 2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of
 
-**Source PDF:** 2025-Unknown-AmericasNLI Evaluating Zero-shot Natural Language Understanding of.pdf
+**Source PDF:** 2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of.pdf
 **Total Pages:** 21
 
 ---

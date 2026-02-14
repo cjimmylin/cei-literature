@@ -1,13 +1,13 @@
 ---
-title: "2026-Unknown-The Straight and Narrow Do LLMs Possess an Internal Moral Path - PDF Extract"
-source_pdf: "2026-Unknown-The Straight and Narrow Do LLMs Possess an Internal Moral Path.pdf"
+title: "2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path - PDF Extract"
+source_pdf: "2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.pdf"
 pages: 20
 extracted_at: "2026-02-13T13:57:16.418874"
 ---
 
-# PDF Extract: 2026-Unknown-The Straight and Narrow Do LLMs Possess an Internal Moral Path
+# PDF Extract: 2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path
 
-**Source PDF:** 2026-Unknown-The Straight and Narrow Do LLMs Possess an Internal Moral Path.pdf
+**Source PDF:** 2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.pdf
 **Total Pages:** 20
 
 ---

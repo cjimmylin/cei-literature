@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Toxicity & Hate Speech"
@@ -68,6 +69,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 34,223 German comments from online newspaper platforms annotated for hate speech by 29 volunteers. BERT baseline achieves MCC 0.32, F2-score 0.64. Publicly available for German hate speech research.
+
+## Data Description
+
+HOCON34k contains 34,223 German comments from online newspaper platforms annotated for hate speech by 29 volunteers. BERT baseline achieves MCC 0.32, F2-score 0.64. Publicly available for German hate speech research. Used as benchmark for evaluating detection tools.
+
 
 ## Notes
 

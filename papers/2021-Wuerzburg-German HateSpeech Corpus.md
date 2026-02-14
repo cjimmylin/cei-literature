@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/cophi-wue/German_HateSpeech_Corpus"
 tags: 
 abstract:
 research_topic: "Other"
@@ -66,6 +67,11 @@ research_topic: "Other"
 ## Abstract
 
 Annotated corpus combining GermEval 2018 tweets (2,871 instances), POLLY corpus of politically charged German tweets around 2017 election (~4,500 annotated), and Facebook comments from Pegida pages (3,500). Annotated as hate speech, offensive language, or non-hate.
+
+## Data Description
+
+GMHP7k corpus of 7,061 German social media posts annotated for general hate speech and misogynistic hate speech specifically. Tests BERT models achieving F1 scores up to 0.79 for hate speech and 0.75 for misogynistic hate speech detection.
+
 
 ## Notes
 

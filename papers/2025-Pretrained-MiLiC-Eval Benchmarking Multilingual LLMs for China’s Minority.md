@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Large language models (LLMs) excel in highresource languages but struggle with lowresource languages (LRLs), particularly those spoken by minority communities in China, such as Tibetan, Uyghur, Kazakh, and Mongolian. To systematically track the progress in these languages, we introduce MiLiC-Eval, a benchmark designed for minority languages in China, featuring 24K instances across 9 tasks. MiLiCEval focuses on underrepresented writing systems. Its parallelism between tasks and languages can provide a faithful and fine-grained assessment of linguistic and problem-solving skills. Our evaluation reveals that open-source LLMs perform poorly on syntax-intensive tasks and multi-script languages. We further demonstrate how MiLiC-Eval can help advance LRL research in handling diverse writing systems and understanding the process of language adaptation 1."
 research_topic: "Machine Translation"
 ---
 # MiLiC-Eval: Benchmarking Multilingual LLMs for China’s Minority Languages
@@ -64,7 +64,8 @@ research_topic: "Machine Translation"
 
 ## Abstract
 
-Based on the search results, I found relevant information about TarimGPT and Uyghur language model evaluation: TarimGPT Overview TarimGPT is a generative pre-trained model based on the Transformer architecture designed to explore the potential of autoregressive language modeling for mixed Chinese and Uyghur training tasks as well as lightweight models. Model Development and Purpose The model addresses the lack of support for minority languages like Uyghur, the scarcity of Uyghur languag
+
+Large language models (LLMs) excel in highresource languages but struggle with lowresource languages (LRLs), particularly those spoken by minority communities in China, such as Tibetan, Uyghur, Kazakh, and Mongolian. To systematically track the progress in these languages, we introduce MiLiC-Eval, a benchmark designed for minority languages in China, featuring 24K instances across 9 tasks. MiLiCEval focuses on underrepresented writing systems. Its parallelism between tasks and languages can provide a faithful and fine-grained assessment of linguistic and problem-solving skills. Our evaluation reveals that open-source LLMs perform poorly on syntax-intensive tasks and multi-script languages. We further demonstrate how MiLiC-Eval can help advance LRL research in handling diverse writing systems and understanding the process of language adaptation 1.
 
 ## Notes
 

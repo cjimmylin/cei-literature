@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis - PDF Extract"
-source_pdf: "2024-Unknown-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis.pdf"
+title: "2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis - PDF Extract"
+source_pdf: "2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis.pdf"
 pages: 40
 extracted_at: "2026-02-13T13:57:12.724217"
 ---
 
-# PDF Extract: 2024-Unknown-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis
+# PDF Extract: 2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis
 
-**Source PDF:** 2024-Unknown-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis.pdf
+**Source PDF:** 2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis.pdf
 **Total Pages:** 40
 
 ---

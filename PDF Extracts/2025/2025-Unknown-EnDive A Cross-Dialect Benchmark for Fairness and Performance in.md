@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-EnDive A Cross-Dialect Benchmark for Fairness and Performance in - PDF Extract"
-source_pdf: "2025-Unknown-EnDive A Cross-Dialect Benchmark for Fairness and Performance in.pdf"
+title: "2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in - PDF Extract"
+source_pdf: "2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in.pdf"
 pages: 21
 extracted_at: "2026-02-13T13:57:14.648697"
 ---
 
-# PDF Extract: 2025-Unknown-EnDive A Cross-Dialect Benchmark for Fairness and Performance in
+# PDF Extract: 2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in
 
-**Source PDF:** 2025-Unknown-EnDive A Cross-Dialect Benchmark for Fairness and Performance in.pdf
+**Source PDF:** 2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in.pdf
 **Total Pages:** 21
 
 ---

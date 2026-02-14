@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Bias & Fairness"
@@ -64,6 +65,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 EVALITA 2026 shared task evaluating systems' ability to detect and classify gender stereotypes in Italian short texts. Main task assigns a numerical GS value quantifying the degree of gender stereotype content. Final workshop in Bari, Italy, February 2026.
+
+## Data Description
+
+Announces GSI:detect shared task at EVALITA 2026 evaluating systems' ability to detect and classify gender stereotypes in Italian short texts. Main task assigns a numerical GS value quantifying the degree of gender stereotype content. Represents a shared task announcement rather than a dataset or evaluation study.
+
 
 ## Notes
 

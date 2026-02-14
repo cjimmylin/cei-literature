@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "CroissantLLM, Llama-2, Mistral, Qwen"
+DATA_URL: "https://huggingface.co/croissantllm"
 tags: 
 abstract: "We introduce CroissantLLM, a 1.3B language model pre-trained on a set of 3T English and French tokens, to bring to the research and industrial community a high-performance, fully open-sourced bilingual model that runs swiftly on consumer-grade local hardware. To that end, we pioneer the approach of training an intrinsically bilingual model with a 1:1 English-to-French pretraining data ratio, a custom tokenizer, and bilingual finetuning datasets."
 research_topic: "NLP & Representation Learning"
@@ -66,6 +67,11 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 1.3B bilingual model pretrained on 3T English and French tokens with 1:1 ratio to mitigate English-centric cultural bias. Introduces FrenchBench, a novel benchmark for French LLM evaluation covering classification and generation tasks, including French cultural knowledge trivia. Evaluates bias and cultural knowledge dimensions.
+
+## Data Description
+
+CroissantLLM bilingual French-English language model trained from scratch with balanced French-English data. Includes training corpus and evaluation benchmarks for bilingual LLM performance, demonstrating improved French capabilities compared to English-centric models.
+
 
 ## Notes
 

@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Cross-Lingual Transfer of Debiasing and Detoxification in - PDF Extract"
-source_pdf: "2025-Unknown-Cross-Lingual Transfer of Debiasing and Detoxification in.pdf"
+title: "2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in - PDF Extract"
+source_pdf: "2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in.pdf"
 pages: 26
 extracted_at: "2026-02-13T09:50:32.153144"
 ---
 
-# PDF Extract: 2025-Unknown-Cross-Lingual Transfer of Debiasing and Detoxification in
+# PDF Extract: 2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in
 
-**Source PDF:** 2025-Unknown-Cross-Lingual Transfer of Debiasing and Detoxification in.pdf
+**Source PDF:** 2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in.pdf
 **Total Pages:** 26
 
 ---

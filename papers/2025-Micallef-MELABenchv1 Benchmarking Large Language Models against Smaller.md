@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Llama-3.1, Gemma, Qwen, Mistral, Aya, mBERT, XLM-RoBERTa"
+DATA_URL: "https://huggingface.co/MLRS"
 tags: 
 abstract: "Large Language Models (LLMs) have demonstrated remarkable performance across various Natural Language Processing (NLP) tasks, largely due to their generalisability and ability to perform tasks without additional training. However, their effectiveness for low-resource languages remains limited. In this study, we evaluate the performance of 55 publicly available LLMs on Maltese, a low-resource language, using a newly introduced benchmark covering 11 discriminative and generative tasks."
 research_topic: "NLP & Representation Learning"
@@ -66,6 +67,11 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Evaluates 55 LLMs on Maltese using 11 discriminative and generative tasks including sentiment, SIB-200, Taxi1500, Belebele, news categories, and MultiEURLEX. Finds many models perform poorly, especially on generative tasks. Smaller fine-tuned models often outperform larger LLMs across all tasks.
+
+## Data Description
+
+MELABenchv1 is a comprehensive benchmark evaluating 55 LLMs on Maltese using 11 discriminative and generative tasks including sentiment, SIB-200, Taxi1500, Belebele, news categories, and MultiEURLEX. Finds many models perform poorly, especially on generative tasks. Smaller fine-tuned models often outperform larger LLMs across all tasks, highlighting the importance of prior exposure to Maltese during pre-training.
+
 
 ## Notes
 

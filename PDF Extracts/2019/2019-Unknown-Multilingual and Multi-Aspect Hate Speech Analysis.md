@@ -1,13 +1,13 @@
 ---
-title: "2019-Unknown-Multilingual and Multi-Aspect Hate Speech Analysis - PDF Extract"
-source_pdf: "2019-Unknown-Multilingual and Multi-Aspect Hate Speech Analysis.pdf"
+title: "2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis - PDF Extract"
+source_pdf: "2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis.pdf"
 pages: 10
 extracted_at: "2026-02-13T13:13:45.030629"
 ---
 
-# PDF Extract: 2019-Unknown-Multilingual and Multi-Aspect Hate Speech Analysis
+# PDF Extract: 2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis
 
-**Source PDF:** 2019-Unknown-Multilingual and Multi-Aspect Hate Speech Analysis.pdf
+**Source PDF:** 2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis.pdf
 **Total Pages:** 10
 
 ---

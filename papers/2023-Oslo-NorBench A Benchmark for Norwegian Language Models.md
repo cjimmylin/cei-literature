@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NorBERT3, NorT5, NB-BERT, ScandiBERT, mBERT, XLM-RoBERTa"
+DATA_URL: "https://github.com/ltgoslo/NorBench"
 tags: 
 abstract: "We present NorBench: a streamlined suite of NLP tasks and probes for evaluating Norwegian language models (LMs) on standardized data splits and evaluation metrics. We also introduce a range of new Norwegian language models (both encoder and encoder-decoder based). Finally, we compare and analyze their performance, along with other existing LMs, across the different benchmark tests of NorBench."
 research_topic: "Machine Learning"
@@ -66,6 +67,11 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Streamlined NLP benchmark suite for Norwegian LMs with standardized data splits and evaluation metrics. Includes diagnostic tasks probing gender-bias and toxic language affinity in language models.
+
+## Data Description
+
+NorBench comprehensive benchmark for Norwegian language models, including 9 datasets covering sentiment analysis, named entity recognition, dependency parsing, and diagnostic tasks for gender bias and toxicity. Includes harmfulness scores using HONEST metric adapted for Norwegian.
+
 
 ## Notes
 

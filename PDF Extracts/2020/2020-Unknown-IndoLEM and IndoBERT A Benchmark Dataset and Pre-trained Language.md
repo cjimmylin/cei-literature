@@ -1,13 +1,13 @@
 ---
-title: "2020-Unknown-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language - PDF Extract"
-source_pdf: "2020-Unknown-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.pdf"
+title: "2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language - PDF Extract"
+source_pdf: "2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.pdf"
 pages: 14
 extracted_at: "2026-02-13T09:50:28.164190"
 ---
 
-# PDF Extract: 2020-Unknown-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language
+# PDF Extract: 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language
 
-**Source PDF:** 2020-Unknown-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.pdf
+**Source PDF:** 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.pdf
 **Total Pages:** 14
 
 ---

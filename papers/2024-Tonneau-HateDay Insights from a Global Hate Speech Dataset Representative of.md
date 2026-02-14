@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "https://huggingface.co/datasets/manueltonneau/hateday"
 tags: 
 abstract: "To address the global challenge of online hate speech, prior research has developed detection models to flag such content on social media. However, due to systematic biases in evaluation datasets, the real-world effectiveness of these models remains unclear, particularly across geographies. We introduce HATEDAY, the first global hate speech dataset representative of social media settings, constructed from a random sample of all tweets posted on September 21, 2022 and covering eight languages..."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -66,6 +67,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Global Twitter dataset of 540K tweets sampled from September 21, 2022 and annotated for hate speech detection in 8 languages including French. Each language has 20K tweets with annotations by 3 human annotators per language (hateful, offensive, or neutral). Published at ACL 2025.
+
+## Data Description
+
+HateDay is a global Twitter dataset of 540K tweets sampled from September 21, 2022, annotated for hate speech detection in 8 languages (Arabic, English, French, German, Indonesian, Portuguese, Spanish, Turkish). Each language has 20K tweets with annotations by 3 human annotators per language (hateful, offensive, or neutral). Prescriptive annotation with detailed guidelines.
+
 
 ## Notes
 

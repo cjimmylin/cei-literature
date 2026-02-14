@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-CUGE A Chinese Language Understanding and Generation Evaluation - PDF Extract"
-source_pdf: "2025-Unknown-CUGE A Chinese Language Understanding and Generation Evaluation.pdf"
+title: "2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation - PDF Extract"
+source_pdf: "2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation.pdf"
 pages: 10
 extracted_at: "2026-02-13T14:50:56.320201"
 ---
 
-# PDF Extract: 2025-Unknown-CUGE A Chinese Language Understanding and Generation Evaluation
+# PDF Extract: 2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation
 
-**Source PDF:** 2025-Unknown-CUGE A Chinese Language Understanding and Generation Evaluation.pdf
+**Source PDF:** 2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation.pdf
 **Total Pages:** 10
 
 ---

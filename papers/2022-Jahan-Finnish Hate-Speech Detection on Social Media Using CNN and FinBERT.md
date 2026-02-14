@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "FinBERT"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Other"
@@ -62,6 +63,11 @@ research_topic: "Other"
 ## Abstract
 
 Constructs Finnish hate speech dataset from Suomi24 forum with 10.7k sentences (16.7% hate speech). FinBERT achieves 91.7% accuracy and 90.8% F1, outperforming multilingual-BERT and CNN approaches.
+
+## Data Description
+
+Finnish hate speech dataset from Suomi24 forum with 10.7k sentences (16.7% hate speech). FinBERT achieves 91.7% accuracy and 90.8% F1, outperforming multilingual BERT and CNN approaches on Finnish hate speech detection.
+
 
 ## Notes
 

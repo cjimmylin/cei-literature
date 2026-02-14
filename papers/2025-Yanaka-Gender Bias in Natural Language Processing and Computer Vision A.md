@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Taking an interdisciplinary approach to surveying issues around gender bias in textual and visual AI, we present literature on gender bias detection and mitigation in NLP, CV, as well as combined visual-linguistic models. We identify conceptual parallels between these strands of research as well as how methodologies were adapted cross-disciplinary from NLP to CV. We also find that there is a growing awareness for theoretical frameworks from the social sciences around gender in NLP that could be beneficial for aligning bias analytics in CV with human values and conceptualising gender beyond the binary categories of male/female."
 ethics_perspective: "Bias & Fairness"
 ---
 # Gender Bias in Natural Language Processing and Computer Vision: A Comparative Survey | ACM Computing Surveys
@@ -65,7 +65,8 @@ ethics_perspective: "Bias & Fairness"
 
 ## Abstract
 
-Based on the search results, I found relevant information about the ArGAN dataset. Here's what I found: ArGAN: Arabic Gender, Ability, and Nationality Dataset ArGAN is a dataset for evaluating biases in large language models, authored by Ranwa Aly, Yara Allam, Rana Gaber, and Christine Basta, and presented at the 6th Workshop on Gender Bias in Natural Language Processing (GeBNLP) in 2025.
+
+Taking an interdisciplinary approach to surveying issues around gender bias in textual and visual AI, we present literature on gender bias detection and mitigation in NLP, CV, as well as combined visual-linguistic models. We identify conceptual parallels between these strands of research as well as how methodologies were adapted cross-disciplinary from NLP to CV. We also find that there is a growing awareness for theoretical frameworks from the social sciences around gender in NLP that could be beneficial for aligning bias analytics in CV with human values and conceptualising gender beyond the binary categories of male/female.
 
 ## Notes
 

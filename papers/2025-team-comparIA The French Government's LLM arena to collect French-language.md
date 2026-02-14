@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety dataset for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "multiple LLMs"
+DATA_URL: "https://huggingface.co/datasets/ministere-culture/comparia-conversations"
 tags: 
 abstract: "Large Language Models (LLMs) often show reduced performance, cultural alignment, and safety robustness in non-English languages, partly because English dominates both pre-training data and human preference alignment datasets. Training methods like Reinforcement Learning from Human Feedback (RLHF) and Direct Preference Optimization (DPO) require human preference data, which remains scarce and largely non-public for many languages beyond English."
 ethics_perspective: "AI Safety & Alignment"
@@ -66,6 +67,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Open-source digital public service developed by the French government to collect large-scale human preference data from a predominantly French-speaking audience. Over 600K prompts and 250K preference votes collected since October 2024. Releases conversations, votes, and reactions datasets under open licenses, with a French-language model leaderboard.
+
+## Data Description
+
+Introduces compar:IA, an open-source digital public service developed by the French government to collect large-scale human preference data from French-speaking users. Over 600K prompts and 250K preference votes collected since October 2024, with 89% French-language data. Releases conversations, votes, and reactions datasets under open licenses with a French-language model leaderboard.
+
 
 ## Notes
 

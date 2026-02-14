@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew - PDF Extract"
-source_pdf: "2025-Unknown-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew.pdf"
+title: "2025-Rosenbaum-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew - PDF Extract"
+source_pdf: "2025-Rosenbaum-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew.pdf"
 pages: 11
 extracted_at: "2026-02-13T09:50:28.595261"
 ---
 
-# PDF Extract: 2025-Unknown-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew
+# PDF Extract: 2025-Rosenbaum-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew
 
-**Source PDF:** 2025-Unknown-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew.pdf
+**Source PDF:** 2025-Rosenbaum-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew.pdf
 **Total Pages:** 11
 
 ---

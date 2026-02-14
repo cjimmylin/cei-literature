@@ -1,13 +1,13 @@
 ---
-title: "2025-results-Social Bias in Multilingual Language Models - PDF Extract"
-source_pdf: "2025-results-Social Bias in Multilingual Language Models.pdf"
+title: "2025-results]]-Social Bias in Multilingual Language Models - PDF Extract"
+source_pdf: "2025-results]]-Social Bias in Multilingual Language Models.pdf"
 pages: 24
 extracted_at: "2026-02-13T09:15:44.125087"
 ---
 
-# PDF Extract: 2025-results-Social Bias in Multilingual Language Models
+# PDF Extract: 2025-results]]-Social Bias in Multilingual Language Models
 
-**Source PDF:** 2025-results-Social Bias in Multilingual Language Models.pdf
+**Source PDF:** 2025-results]]-Social Bias in Multilingual Language Models.pdf
 **Total Pages:** 24
 
 ---

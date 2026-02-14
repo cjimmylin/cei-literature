@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "9 categories"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERTje, RobBERT, mBERT, GEITje, Mistral-7B, BERT, RoBERTa, FlauBERT, CamemBERT"
+DATA_URL: "NA"
 tags: 
 abstract: "Warning: This paper contains explicit statements of offensive stereotypes which might be upsetting Language models are prone to exhibiting biases, further amplifying unfair and harmful stereotypes. Given the fast-growing popularity and wide application of these models, it is necessary to ensure safe and fair language models. As of recent considerable attention has been paid to measuring bias in language models, yet the majority of studies have focused only on English language."
 ethics_perspective: "Bias & Fairness"
@@ -65,6 +66,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 First full adaptation of CrowS-Pairs for Dutch with 1,463 sentence pairs covering 9 bias categories including sexual orientation, gender, and disability. GEITje (Dutch fine-tuned model) exhibited significantly more bias than base Mistral-7B. Accepted at RANLP 2025.
+
+## Data Description
+
+Dutch CrowS-Pairs is the first full adaptation of CrowS-Pairs for Dutch with 1,463 sentence pairs covering 9 bias categories including sexual orientation, gender, and disability. GEITje (Dutch fine-tuned model) exhibited significantly more bias than base Mistral-7B. Also evaluates English and French models for cross-lingual comparison.
+
 
 ## Notes
 

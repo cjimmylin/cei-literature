@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Recent advances in deep neural networks (DNNs) have led to significant enhancements in Arabic natural language processing (NLP). However, their robustness remains insufficiently explored, particularly in adversarial settings. Most existing Arabic NLP systems are predominantly trained on Modern Standard Arabic (MSA), whereas real-world Arabic text frequently incorporates dialectal forms that diverge lexically and morphologically. To evaluate the impact of this distributional mismatch between training data and deployment conditions, this paper introduces dialectal substitution as a black-box token-level adversarial method against DNN-based MSA classification systems. Our approach identifies the most influential token in an input sequence via a scoring function and replaces it with a dialectally equivalent form using a fine-tuned Arabic dialectizer. The proposed attack demonstrates how dialectal substitutions can diminish the classification accuracy of the models, exposing vulnerabilities in DNN-based models trained on MSA corpora. We reveal a significant gap in current Arabic NLP systems, which fail to resist the diglossia nature of the Arabic language. We encourage researchers to pursue more robust and generalizable models that consider all forms of Arabic dialects."
 research_topic: "AI Safety & Alignment"
 ---
 # Dialectal substitution as an adversarial approach for evaluating Arabic NLP robustness
@@ -62,7 +62,8 @@ research_topic: "AI Safety & Alignment"
 
 ## Abstract
 
-Based on the search results, here's what recent research reveals about dialectal Arabic NLP evaluation benchmarks and bias: Key Findings on Benchmarking Dialectal Arabic A comprehensive survey analyzing 40+ evaluation benchmarks across NLP tasks, knowledge domains, cultural understanding, and specialized capabilities has revealed important insights about the field. Identified Critical Gaps The analysis reveals significant progress in benchmark diversity while identifying critical gaps:
+
+Recent advances in deep neural networks (DNNs) have led to significant enhancements in Arabic natural language processing (NLP). However, their robustness remains insufficiently explored, particularly in adversarial settings. Most existing Arabic NLP systems are predominantly trained on Modern Standard Arabic (MSA), whereas real-world Arabic text frequently incorporates dialectal forms that diverge lexically and morphologically. To evaluate the impact of this distributional mismatch between training data and deployment conditions, this paper introduces dialectal substitution as a black-box token-level adversarial method against DNN-based MSA classification systems. Our approach identifies the most influential token in an input sequence via a scoring function and replaces it with a dialectally equivalent form using a fine-tuned Arabic dialectizer. The proposed attack demonstrates how dialectal substitutions can diminish the classification accuracy of the models, exposing vulnerabilities in DNN-based models trained on MSA corpora. We reveal a significant gap in current Arabic NLP systems, which fail to resist the diglossia nature of the Arabic language. We encourage researchers to pursue more robust and generalizable models that consider all forms of Arabic dialects.
 
 ## Notes
 

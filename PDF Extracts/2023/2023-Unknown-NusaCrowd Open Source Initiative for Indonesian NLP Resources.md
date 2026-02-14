@@ -1,13 +1,13 @@
 ---
-title: "2023-Unknown-NusaCrowd Open Source Initiative for Indonesian NLP Resources - PDF Extract"
-source_pdf: "2023-Unknown-NusaCrowd Open Source Initiative for Indonesian NLP Resources.pdf"
+title: "2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources - PDF Extract"
+source_pdf: "2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources.pdf"
 pages: 76
 extracted_at: "2026-02-13T09:50:28.211158"
 ---
 
-# PDF Extract: 2023-Unknown-NusaCrowd Open Source Initiative for Indonesian NLP Resources
+# PDF Extract: 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources
 
-**Source PDF:** 2023-Unknown-NusaCrowd Open Source Initiative for Indonesian NLP Resources.pdf
+**Source PDF:** 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources.pdf
 **Total Pages:** 76
 
 ---

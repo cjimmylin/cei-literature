@@ -1,13 +1,13 @@
 ---
-title: "2025-results-Inconsistencies in Hate Speech Detection Across - PDF Extract"
-source_pdf: "2025-results-Inconsistencies in Hate Speech Detection Across.pdf"
+title: "2025-results]]-Inconsistencies in Hate Speech Detection Across - PDF Extract"
+source_pdf: "2025-results]]-Inconsistencies in Hate Speech Detection Across.pdf"
 pages: 15
 extracted_at: "2026-02-13T09:15:41.905046"
 ---
 
-# PDF Extract: 2025-results-Inconsistencies in Hate Speech Detection Across
+# PDF Extract: 2025-results]]-Inconsistencies in Hate Speech Detection Across
 
-**Source PDF:** 2025-results-Inconsistencies in Hate Speech Detection Across.pdf
+**Source PDF:** 2025-results]]-Inconsistencies in Hate Speech Detection Across.pdf
 **Total Pages:** 15
 
 ---

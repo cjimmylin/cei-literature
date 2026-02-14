@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity - PDF Extract"
-source_pdf: "2025-Unknown-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.pdf"
+title: "2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity - PDF Extract"
+source_pdf: "2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.pdf"
 pages: 25
 extracted_at: "2026-02-13T09:50:31.753154"
 ---
 
-# PDF Extract: 2025-Unknown-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity
+# PDF Extract: 2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity
 
-**Source PDF:** 2025-Unknown-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.pdf
+**Source PDF:** 2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.pdf
 **Total Pages:** 25
 
 ---

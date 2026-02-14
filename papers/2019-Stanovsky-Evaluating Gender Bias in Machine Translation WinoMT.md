@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/gabrielStanovsky/mt_gender"
 tags: 
 abstract:
 ethics_perspective: "Bias & Fairness"
@@ -65,6 +66,15 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Challenge set of 3,888 English segments for evaluating gender bias in machine translation to 8+ languages including French. Balanced with respect to gender and stereotype. Proposes accuracy, gender gap (Delta-G), and stereotype gap (Delta-S) metrics. Foundational work cited in 47+ en-fr studies.
+
+## Summary
+
+This paper introduces WinoMT, a challenge set of 3,888 English sentences derived from Winogender and WinoBias coreference datasets for evaluating gender bias in machine translation to eight target languages with grammatical gender. The authors use morphological analysis to automatically detect whether MT systems correctly translate gender based on context rather than stereotypes, testing four commercial systems (Google Translate, Microsoft Translator, Amazon Translate, SYSTRAN) and two academic models. The evaluation reveals that all tested systems exhibit significant gender bias, stereotypically translating occupations (e.g., translating 'doctor' as male and 'nurse' as female regardless of context), with the paper proposing accuracy, gender gap, and stereotype gap metrics for measuring bias.
+
+## Data Description
+
+WinoMT challenge set of 3,888 English segments for evaluating gender bias in machine translation to 8+ languages. Tests four commercial MT systems (Google Translate, Microsoft Translator, Amazon Translate, SYSTRAN) and two academic MT models, not LLMs. Uses morphological analysis to detect gender bias in translations.
+
 
 ## Notes
 

@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-Airavata Introducing Hindi Instruction-tuned LLM - PDF Extract"
-source_pdf: "2024-Unknown-Airavata Introducing Hindi Instruction-tuned LLM.pdf"
+title: "2024-[[Unknown]]-Airavata Introducing Hindi Instruction-tuned LLM - PDF Extract"
+source_pdf: "2024-[[Unknown]]-Airavata Introducing Hindi Instruction-tuned LLM.pdf"
 pages: 20
 extracted_at: "2026-02-13T09:15:44.918138"
 ---
 
-# PDF Extract: 2024-Unknown-Airavata Introducing Hindi Instruction-tuned LLM
+# PDF Extract: 2024-[[Unknown]]-Airavata Introducing Hindi Instruction-tuned LLM
 
-**Source PDF:** 2024-Unknown-Airavata Introducing Hindi Instruction-tuned LLM.pdf
+**Source PDF:** 2024-[[Unknown]]-Airavata Introducing Hindi Instruction-tuned LLM.pdf
 **Total Pages:** 20
 
 ---

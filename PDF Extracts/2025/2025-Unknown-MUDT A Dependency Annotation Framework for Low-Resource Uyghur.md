@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-MUDT A Dependency Annotation Framework for Low-Resource Uyghur - PDF Extract"
-source_pdf: "2025-Unknown-MUDT A Dependency Annotation Framework for Low-Resource Uyghur.pdf"
+title: "2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur - PDF Extract"
+source_pdf: "2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur.pdf"
 pages: 20
 extracted_at: "2026-02-13T13:57:14.915219"
 ---
 
-# PDF Extract: 2025-Unknown-MUDT A Dependency Annotation Framework for Low-Resource Uyghur
+# PDF Extract: 2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur
 
-**Source PDF:** 2025-Unknown-MUDT A Dependency Annotation Framework for Low-Resource Uyghur.pdf
+**Source PDF:** 2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur.pdf
 **Total Pages:** 20
 
 ---

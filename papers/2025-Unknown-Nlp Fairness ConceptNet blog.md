@@ -34,7 +34,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Model compression techniques are receiving increasing attention; however, the effect of compression on model fairness is still under explored. This is the first paper to examine the effect of distillation and pruning on the toxicity and bias of generative language models. We test Knowledge Distillation and Pruning methods on the GPT2 model and found a consistent pattern of toxicity and bias reduction after model distillation; this result can be potentially interpreted by existing line of research which describes model compression as a regularization technique; our work not only serves as a reference for safe deployment of compressed models, but also extends the discussion of 'compression as regularization' into the setting of neural LMs, and hints at the possibility of using compression to develop fairer models."
 ethics_perspective: "Bias & Fairness"
 ---
 # Nlp Fairness | ConceptNet blog
@@ -61,7 +61,8 @@ ethics_perspective: "Bias & Fairness"
 
 ## Abstract
 
-The search results reveal significant research on code-switching bias, fairness, and NLP evaluation. Here are the key findings: Language Bias in Code-Switching Models consistently default to Korean when faced with mixed-language inputs, and their accuracy drops sharply when the expected response is English, according to recent LLM evaluations.
+
+Model compression techniques are receiving increasing attention; however, the effect of compression on model fairness is still under explored. This is the first paper to examine the effect of distillation and pruning on the toxicity and bias of generative language models. We test Knowledge Distillation and Pruning methods on the GPT2 model and found a consistent pattern of toxicity and bias reduction after model distillation; this result can be potentially interpreted by existing line of research which describes model compression as a regularization technique; our work not only serves as a reference for safe deployment of compressed models, but also extends the discussion of "compression as regularization" into the setting of neural LMs, and hints at the possibility of using compression to develop fairer models.
 
 ## Notes
 

@@ -56,9 +56,9 @@ def resolve_extract_path(paper_path, fm_text):
 
 
 def has_llm_assessed(fm_text):
-    """Check if the paper already has the LLM_assessed field."""
+    """Check if the paper already has a non-empty LLM_assessed field."""
     fields = parse_frontmatter(fm_text)
-    return "LLM_assessed" in fields
+    return bool(fields.get("LLM_assessed", "").strip())
 
 
 def main():
@@ -67,7 +67,20 @@ def main():
                         help="Pilot mode: process only N papers (default: all)")
     parser.add_argument("--num-batches", type=int, default=0,
                         help="Number of batches (default: auto — 10 for pilot, 20 for full)")
+    parser.add_argument("--keys", type=str, default="",
+                        help="Filter by LSRC key range, e.g. LSRC0428:LSRC0551")
     args = parser.parse_args()
+
+    # Parse key range filter
+    key_start = key_end = None
+    if args.keys:
+        parts = args.keys.split(":")
+        if len(parts) == 2:
+            key_start, key_end = parts[0].strip(), parts[1].strip()
+            print("Key filter: {} to {}".format(key_start, key_end))
+        else:
+            print("ERROR: --keys must be in format START:END (e.g. LSRC0428:LSRC0551)")
+            sys.exit(1)
 
     # Collect all papers needing processing
     papers = []
@@ -93,6 +106,14 @@ def main():
         if has_llm_assessed(fm_text):
             skipped += 1
             continue
+
+        # Apply key range filter if specified
+        if key_start and key_end:
+            fields = parse_frontmatter(fm_text)
+            paper_key = fields.get("key", "").strip()
+            if not paper_key or paper_key < key_start or paper_key > key_end:
+                skipped += 1
+                continue
 
         extract_ref = resolve_extract_path(paper_path, fm_text)
         papers.append({

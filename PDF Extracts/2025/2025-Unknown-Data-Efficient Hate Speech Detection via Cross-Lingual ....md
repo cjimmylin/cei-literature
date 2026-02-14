@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Data-Efficient Hate Speech Detection via Cross-Lingual ... - PDF Extract"
-source_pdf: "2025-Unknown-Data-Efficient Hate Speech Detection via Cross-Lingual ....pdf"
+title: "2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ... - PDF Extract"
+source_pdf: "2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ....pdf"
 pages: 16
 extracted_at: "2026-02-13T13:57:14.578514"
 ---
 
-# PDF Extract: 2025-Unknown-Data-Efficient Hate Speech Detection via Cross-Lingual ...
+# PDF Extract: 2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ...
 
-**Source PDF:** 2025-Unknown-Data-Efficient Hate Speech Detection via Cross-Lingual ....pdf
+**Source PDF:** 2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ....pdf
 **Total Pages:** 16
 
 ---

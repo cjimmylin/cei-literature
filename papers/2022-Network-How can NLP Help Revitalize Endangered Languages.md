@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "More than 43% of the languages spoken in the world are endangered, and language loss currently occurs at an accelerated rate because of globalization and neocolonialism. Saving and revitalizing endangered languages has become very important for maintaining the cultural diversity on our planet. In this work, we focus on discussing how NLP can help revitalize endangered languages. We first suggest three principles that may help NLP practitioners to foster mutual understanding and collaboration with language communities, and we discuss three ways in which NLP can potentially assist in language education. We then take Cherokee, a severely-endangered Native American language, as a case study. After reviewing the language’s history, linguistic features, and existing resources, we (in collaboration with Cherokee community members) arrive at a few meaningful ways NLP practitioners can collaborate with community partners. We suggest two approaches to enrich the Cherokee language’s resources with machine-in-the-loop processing, and discuss several NLP tools that people from the Cherokee community have shown interest in. We hope that our work serves not only to inform the NLP community about Cherokee, but also to provide inspiration for future work on endangered languages in general.1"
 research_topic: "NLP & Representation Learning"
 ---
 # How can NLP Help Revitalize Endangered Languages?
@@ -62,7 +62,8 @@ research_topic: "NLP & Representation Learning"
 
 ## Abstract
 
-Based on the search results, here's what I found about language revitalization, NLP, and AI ethics: Key Areas of Intersection Since 2022, researchers have been exploring application areas and technologies in which Artificial Intelligence and Natural Language Processing, such as Large Language Models, can be employed to foster the usage and facilitate the documentation of Indigenous languages which are in danger of disappearing. Main Opportunities AI technologies such as natural language
+
+More than 43% of the languages spoken in the world are endangered, and language loss currently occurs at an accelerated rate because of globalization and neocolonialism. Saving and revitalizing endangered languages has become very important for maintaining the cultural diversity on our planet. In this work, we focus on discussing how NLP can help revitalize endangered languages. We first suggest three principles that may help NLP practitioners to foster mutual understanding and collaboration with language communities, and we discuss three ways in which NLP can potentially assist in language education. We then take Cherokee, a severely-endangered Native American language, as a case study. After reviewing the language’s history, linguistic features, and existing resources, we (in collaboration with Cherokee community members) arrive at a few meaningful ways NLP practitioners can collaborate with community partners. We suggest two approaches to enrich the Cherokee language’s resources with machine-in-the-loop processing, and discuss several NLP tools that people from the Cherokee community have shown interest in. We hope that our work serves not only to inform the NLP community about Cherokee, but also to provide inspiration for future work on endangered languages in general.1
 
 ## Notes
 

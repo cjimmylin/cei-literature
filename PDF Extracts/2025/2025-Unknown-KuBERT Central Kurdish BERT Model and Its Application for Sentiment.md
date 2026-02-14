@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-KuBERT Central Kurdish BERT Model and Its Application for Sentiment - PDF Extract"
-source_pdf: "2025-Unknown-KuBERT Central Kurdish BERT Model and Its Application for Sentiment.pdf"
+title: "2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment - PDF Extract"
+source_pdf: "2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment.pdf"
 pages: 32
 extracted_at: "2026-02-13T09:50:28.074119"
 ---
 
-# PDF Extract: 2025-Unknown-KuBERT Central Kurdish BERT Model and Its Application for Sentiment
+# PDF Extract: 2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment
 
-**Source PDF:** 2025-Unknown-KuBERT Central Kurdish BERT Model and Its Application for Sentiment.pdf
+**Source PDF:** 2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment.pdf
 **Total Pages:** 32
 
 ---

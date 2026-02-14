@@ -1,13 +1,13 @@
 ---
-title: "2024-results-Evaluating Cultural Awareness of LLMs for - PDF Extract"
-source_pdf: "2024-results-Evaluating Cultural Awareness of LLMs for.pdf"
+title: "2024-results]]-Evaluating Cultural Awareness of LLMs for - PDF Extract"
+source_pdf: "2024-results]]-Evaluating Cultural Awareness of LLMs for.pdf"
 pages: 19
 extracted_at: "2026-02-13T09:15:41.921083"
 ---
 
-# PDF Extract: 2024-results-Evaluating Cultural Awareness of LLMs for
+# PDF Extract: 2024-results]]-Evaluating Cultural Awareness of LLMs for
 
-**Source PDF:** 2024-results-Evaluating Cultural Awareness of LLMs for.pdf
+**Source PDF:** 2024-results]]-Evaluating Cultural Awareness of LLMs for.pdf
 **Total Pages:** 19
 
 ---

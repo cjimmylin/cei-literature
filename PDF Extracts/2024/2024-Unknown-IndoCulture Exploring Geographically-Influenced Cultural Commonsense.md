@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-IndoCulture Exploring Geographically-Influenced Cultural Commonsense - PDF Extract"
-source_pdf: "2024-Unknown-IndoCulture Exploring Geographically-Influenced Cultural Commonsense.pdf"
+title: "2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense - PDF Extract"
+source_pdf: "2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense.pdf"
 pages: 15
 extracted_at: "2026-02-13T09:50:29.367496"
 ---
 
-# PDF Extract: 2024-Unknown-IndoCulture Exploring Geographically-Influenced Cultural Commonsense
+# PDF Extract: 2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense
 
-**Source PDF:** 2024-Unknown-IndoCulture Exploring Geographically-Influenced Cultural Commonsense.pdf
+**Source PDF:** 2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense.pdf
 **Total Pages:** 15
 
 ---

@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Biased outputs from Large Language Models (LLMs) can reinforce stereotypes and perpetuate inequities in real-world applications, making fairness auditing essential. We introduce the Persona Brainstorm Audit (PBA), a scalable and transparent auditing method for detecting bias through open-ended persona generation. Unlike existing methods that rely on fixed identity categories and static benchmarks, PBA uncovers biases across multiple social dimensions while supporting longitudinal tracking and mitigating data leakage risks. Applying PBA to 12 state-of-the-art LLMs, we compare bias severity across models, dimensions, and versions, uncover distinct patterns and lineage-specific variability, and trace how biases attenuate, persist, or resurface across successive generations. Robustness analyses show PBA remains stable under varying sample sizes, role-playing prompts, and debiasing prompts, establishing its reliability for fairness auditing in LLMs."
 ethics_perspective: "Bias & Fairness"
 ---
 # When LLMs Imagine People: A Human-Centered Persona Brainstorm Audit for Bias and Fairness in Creative Applications
@@ -62,7 +62,8 @@ ethics_perspective: "Bias & Fairness"
 
 ## Abstract
 
-I've performed a web search and found several relevant results about Chinese NLP dataset bias and fairness evaluation. Here are the key findings: Recent Chinese NLP Bias and Fairness Research (2025-2026) Gender Bias in Chinese Text (2025) As natural language processing for gender bias becomes significant, pre-trained language models suffer from biased corpus, particularly for languages like Chinese with less fairness-related computational linguistic resources.
+
+Biased outputs from Large Language Models (LLMs) can reinforce stereotypes and perpetuate inequities in real-world applications, making fairness auditing essential. We introduce the Persona Brainstorm Audit (PBA), a scalable and transparent auditing method for detecting bias through open-ended persona generation. Unlike existing methods that rely on fixed identity categories and static benchmarks, PBA uncovers biases across multiple social dimensions while supporting longitudinal tracking and mitigating data leakage risks. Applying PBA to 12 state-of-the-art LLMs, we compare bias severity across models, dimensions, and versions, uncover distinct patterns and lineage-specific variability, and trace how biases attenuate, persist, or resurface across successive generations. Robustness analyses show PBA remains stable under varying sample sizes, role-playing prompts, and debiasing prompts, establishing its reliability for fairness auditing in LLMs.
 
 ## Notes
 

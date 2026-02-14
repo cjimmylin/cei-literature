@@ -134,26 +134,48 @@ def safe_yaml_value(value):
 
 def insert_yaml_fields(fm_text, llm_assessed, data_url):
     """
-    Insert LLM_assessed and DATA_URL fields after data_metrics in frontmatter.
+    Insert or replace LLM_assessed and DATA_URL fields in frontmatter.
 
-    Uses safe regex insertion — NEVER parse/rebuild round-trip.
+    If fields already exist (even empty), replaces in-place to avoid duplicates.
+    Otherwise, inserts after data_metrics line.
+    Uses safe regex — NEVER parse/rebuild round-trip.
     """
     llm_safe = safe_yaml_value(llm_assessed)
     url_safe = safe_yaml_value(data_url)
+    new_fm = fm_text
 
-    # Insert after data_metrics line
-    new_fm, count = re.subn(
-        r'^(data_metrics:.*?)$',
-        r'\1\nLLM_assessed: "' + llm_safe + r'"\nDATA_URL: "' + url_safe + r'"',
-        fm_text,
+    # Strategy 1: Replace existing fields in-place (handles Wave 4 empty-field case)
+    new_fm, llm_count = re.subn(
+        r'^LLM_assessed:.*$',
+        'LLM_assessed: "{}"'.format(llm_safe),
+        new_fm,
+        count=1,
+        flags=re.MULTILINE,
+    )
+    new_fm, url_count = re.subn(
+        r'^DATA_URL:.*$',
+        'DATA_URL: "{}"'.format(url_safe),
+        new_fm,
         count=1,
         flags=re.MULTILINE,
     )
 
-    if count == 0:
-        # Fallback: append to end of frontmatter if data_metrics not found
-        new_fm = fm_text.rstrip() + '\nLLM_assessed: "{}"\nDATA_URL: "{}"'.format(
-            llm_safe, url_safe)
+    if llm_count > 0 and url_count > 0:
+        return new_fm
+
+    # Strategy 2: Insert after data_metrics line (fields don't exist yet)
+    if llm_count == 0 and url_count == 0:
+        new_fm, count = re.subn(
+            r'^(data_metrics:.*?)$',
+            r'\1\nLLM_assessed: "' + llm_safe + r'"\nDATA_URL: "' + url_safe + r'"',
+            fm_text,
+            count=1,
+            flags=re.MULTILINE,
+        )
+        if count == 0:
+            # Fallback: append to end of frontmatter
+            new_fm = fm_text.rstrip() + '\nLLM_assessed: "{}"\nDATA_URL: "{}"'.format(
+                llm_safe, url_safe)
 
     return new_fm
 
@@ -203,9 +225,9 @@ def apply_to_paper(paper_path, entry, dry_run=False):
     except (ValueError, UnicodeDecodeError) as e:
         return {"status": "error", "error": str(e)}
 
-    # Check if already has LLM_assessed (idempotent)
+    # Check if already has non-empty LLM_assessed (idempotent)
     fields = parse_frontmatter(fm_text)
-    if "LLM_assessed" in fields:
+    if fields.get("LLM_assessed", "").strip():
         return {"status": "skipped", "reason": "already has LLM_assessed"}
 
     # Insert YAML fields

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Qwen3-4B, GPT-4o, Gemini-2.5, DeepSeek-R1, CamemBERT, BLOOM, Mistral"
+DATA_URL: "https://huggingface.co/datasets/AxelDlv00/ToxiFrench"
 tags: 
 abstract: "Detecting toxic content using language models is crucial yet challenging. While substantial progress has been made in English, toxicity detection in French remains underdeveloped, primarily due to the lack of culturally relevant, human-annotated, large-scale datasets. In this work, we release TOXIFRENCH, a dataset of 53,622 French online comments together with a balanced benchmark split for systematic evaluation."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -66,6 +67,15 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Dataset of 53,622 native French online comments with a balanced benchmark split for systematic evaluation of toxicity detection. Constructed via semi-automated annotation pipeline reducing manual labeling to 10%. Largest high-quality public French toxicity dataset with Chain-of-Thought explanations for every label.
+
+## Summary
+
+This paper releases ToxiFrench, a dataset of 53,622 native French online comments for toxicity detection, constructed via a semi-automated annotation pipeline that reduces manual labeling to only 10% while maintaining statistical alignment with human-only annotation. The authors benchmark SLMs, BERT-style models, commercial APIs, and LLMs, revealing that small language models often surpass larger ones in robustness. They propose a novel Chain-of-Thought fine-tuning strategy with Dynamic Weighted Loss, achieving state-of-the-art performance with a fine-tuned Qwen3-4B model that outperforms GPT-4o and DeepSeek-R1 on their benchmark.
+
+## Data Description
+
+ToxiFrench is a dataset of 53,622 native French online comments with a balanced benchmark split for systematic toxicity detection evaluation. Constructed via semi-automated annotation pipeline reducing manual labeling to 10%. It is the largest high-quality public French toxicity dataset with Chain-of-Thought explanations for every label.
+
 
 ## Notes
 

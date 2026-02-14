@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-On Limitations of LLM as Annotator for Low Resource Languages Marathi - PDF Extract"
-source_pdf: "2024-Unknown-On Limitations of LLM as Annotator for Low Resource Languages Marathi.pdf"
+title: "2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi - PDF Extract"
+source_pdf: "2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi.pdf"
 pages: 6
 extracted_at: "2026-02-13T09:50:29.738793"
 ---
 
-# PDF Extract: 2024-Unknown-On Limitations of LLM as Annotator for Low Resource Languages Marathi
+# PDF Extract: 2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi
 
-**Source PDF:** 2024-Unknown-On Limitations of LLM as Annotator for Low Resource Languages Marathi.pdf
+**Source PDF:** 2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi.pdf
 **Total Pages:** 6
 
 ---

@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in - PDF Extract"
-source_pdf: "2024-Unknown-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in.pdf"
+title: "2024-Zhang-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in - PDF Extract"
+source_pdf: "2024-Zhang-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in.pdf"
 pages: 7
 extracted_at: "2026-02-13T13:57:12.758821"
 ---
 
-# PDF Extract: 2024-Unknown-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in
+# PDF Extract: 2024-Zhang-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in
 
-**Source PDF:** 2024-Unknown-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in.pdf
+**Source PDF:** 2024-Zhang-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in.pdf
 **Total Pages:** 7
 
 ---

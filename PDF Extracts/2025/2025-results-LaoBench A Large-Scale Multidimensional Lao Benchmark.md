@@ -1,13 +1,13 @@
 ---
-title: "2025-results-LaoBench A Large-Scale Multidimensional Lao Benchmark - PDF Extract"
-source_pdf: "2025-results-LaoBench A Large-Scale Multidimensional Lao Benchmark.pdf"
+title: "2025-results]]-LaoBench A Large-Scale Multidimensional Lao Benchmark - PDF Extract"
+source_pdf: "2025-results]]-LaoBench A Large-Scale Multidimensional Lao Benchmark.pdf"
 pages: 17
 extracted_at: "2026-02-13T09:15:42.435075"
 ---
 
-# PDF Extract: 2025-results-LaoBench A Large-Scale Multidimensional Lao Benchmark
+# PDF Extract: 2025-results]]-LaoBench A Large-Scale Multidimensional Lao Benchmark
 
-**Source PDF:** 2025-results-LaoBench A Large-Scale Multidimensional Lao Benchmark.pdf
+**Source PDF:** 2025-results]]-LaoBench A Large-Scale Multidimensional Lao Benchmark.pdf
 **Total Pages:** 17
 
 ---

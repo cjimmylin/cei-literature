@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and - PDF Extract"
-source_pdf: "2025-Unknown-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and.pdf"
+title: "2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and - PDF Extract"
+source_pdf: "2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and.pdf"
 pages: 19
 extracted_at: "2026-02-13T09:50:31.863093"
 ---
 
-# PDF Extract: 2025-Unknown-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and
+# PDF Extract: 2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and
 
-**Source PDF:** 2025-Unknown-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and.pdf
+**Source PDF:** 2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and.pdf
 **Total Pages:** 19
 
 ---

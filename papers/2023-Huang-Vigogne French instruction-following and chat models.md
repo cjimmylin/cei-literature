@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Vigogne (LLaMa-based), Alpaca, ChatGPT, GPT-4"
+DATA_URL: "https://github.com/bofenghuang/vigogne"
 tags: 
 abstract:
 research_topic: "Other"
@@ -63,6 +64,15 @@ research_topic: "Other"
 ## Abstract
 
 Collection of French LLMs fine-tuned for instruction-following and chat. Includes instruction-following and multi-turn chat models based on LLaMA. Training data includes 460K GPT-3.5-Turbo examples and 60K GPT-4 examples. Provides French LLM evaluation methodology.
+
+## Summary
+
+This work presents Vigogne, a collection of French large language models fine-tuned for instruction-following and multi-turn chat applications based on the LLaMA architecture. The training data comprises approximately 460,000 examples from GPT-3.5-Turbo and 60,000 examples from GPT-4, translated into French from Stanford Alpaca and self-instruct datasets. The authors develop both instruction-following and chat variants of the models and provide an evaluation methodology for assessing French LLM performance. Vigogne represents a major contribution to French conversational AI and serves as an important evaluation target for French values alignment and safety assessment.
+
+## Data Description
+
+Vigogne collection of French instruction-following and chat models based on LLaMa architecture. Includes training data of French instructions translated from Stanford Alpaca and self-instruct datasets, plus models fine-tuned for French conversational AI.
+
 
 ## Notes
 

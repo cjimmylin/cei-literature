@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-A Systematic Study of Position Bias in LLM-as-a-Judge - PDF Extract"
-source_pdf: "2025-Unknown-A Systematic Study of Position Bias in LLM-as-a-Judge.pdf"
+title: "2025-Shi-A Systematic Study of Position Bias in LLM-as-a-Judge - PDF Extract"
+source_pdf: "2025-Shi-A Systematic Study of Position Bias in LLM-as-a-Judge.pdf"
 pages: 23
 extracted_at: "2026-02-13T14:50:55.618555"
 ---
 
-# PDF Extract: 2025-Unknown-A Systematic Study of Position Bias in LLM-as-a-Judge
+# PDF Extract: 2025-Shi-A Systematic Study of Position Bias in LLM-as-a-Judge
 
-**Source PDF:** 2025-Unknown-A Systematic Study of Position Bias in LLM-as-a-Judge.pdf
+**Source PDF:** 2025-Shi-A Systematic Study of Position Bias in LLM-as-a-Judge.pdf
 **Total Pages:** 23
 
 ---

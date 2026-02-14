@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-BnMMLU Measuring Massive Multitask Language Understanding in Bengali - PDF Extract"
-source_pdf: "2025-Unknown-BnMMLU Measuring Massive Multitask Language Understanding in Bengali.pdf"
+title: "2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali - PDF Extract"
+source_pdf: "2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali.pdf"
 pages: 19
 extracted_at: "2026-02-13T09:50:31.998264"
 ---
 
-# PDF Extract: 2025-Unknown-BnMMLU Measuring Massive Multitask Language Understanding in Bengali
+# PDF Extract: 2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali
 
-**Source PDF:** 2025-Unknown-BnMMLU Measuring Massive Multitask Language Understanding in Bengali.pdf
+**Source PDF:** 2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali.pdf
 **Total Pages:** 19
 
 ---
@@ -1968,7 +1968,8 @@ prompts and decoding parameters to ensure com-
 parability across systems.
 Bengali (Literature)
 Question (Bengali). ’iTikya QakaI crm sa¯Qkta ny.’-
-mÚbYiT ekan rcna eQek enOya?
+mÚbYiT ekan
+ rcna eQek enOya?
 Translation: ’Merely surviving is not the ultimate
 success.’ - From which composition is this comment
 taken?

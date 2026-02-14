@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question - PDF Extract"
-source_pdf: "2024-Unknown-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question.pdf"
+title: "2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question - PDF Extract"
+source_pdf: "2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question.pdf"
 pages: 13
 extracted_at: "2026-02-13T10:43:52.641369"
 ---
 
-# PDF Extract: 2024-Unknown-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question
+# PDF Extract: 2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question
 
-**Source PDF:** 2024-Unknown-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question.pdf
+**Source PDF:** 2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question.pdf
 **Total Pages:** 13
 
 ---

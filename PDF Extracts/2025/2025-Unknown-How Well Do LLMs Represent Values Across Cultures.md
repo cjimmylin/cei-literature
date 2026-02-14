@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-How Well Do LLMs Represent Values Across Cultures - PDF Extract"
-source_pdf: "2025-Unknown-How Well Do LLMs Represent Values Across Cultures.pdf"
+title: "2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures - PDF Extract"
+source_pdf: "2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.pdf"
 pages: 22
 extracted_at: "2026-02-13T14:50:57.276768"
 ---
 
-# PDF Extract: 2025-Unknown-How Well Do LLMs Represent Values Across Cultures
+# PDF Extract: 2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures
 
-**Source PDF:** 2025-Unknown-How Well Do LLMs Represent Values Across Cultures.pdf
+**Source PDF:** 2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.pdf
 **Total Pages:** 22
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "NA"
 tags: 
 abstract: "As offensive language has become a rising issue for online communities and social media platforms, researchers have been investigating ways of coping with abusive content and developing systems to detect its different types: cyberbullying, hate speech, aggression, etc. With a few notable exceptions, most research on this topic so far has dealt with English. This is mostly due to the availability of language resources for English."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -67,6 +68,15 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Presents the first Greek annotated dataset for offensive language identification: the Offensive Greek Tweet Dataset (OGTD), containing 4,779 manually annotated Twitter posts. Evaluates several computational models from traditional ML to BERT and DistilBERT transformers.
+
+## Summary
+
+This paper presents the Offensive Greek Tweet Dataset (OGTD), the first manually annotated dataset for offensive language identification in Greek, containing 4,779 Twitter posts collected using keyword-based queries and trending hashtags during the 2019 Greek elections and television programs. The dataset follows the OLID annotation framework for binary offensive/non-offensive classification. The authors evaluate multiple computational models including traditional machine learning approaches, LSTMs with attention, and BERT-based transformers, with the best system achieving 0.89 F1 score, establishing baseline performance for Greek offensive language detection.
+
+## Data Description
+
+Dataset and models for offensive language identification in Greek social media. Evaluates BERT and other deep learning approaches on Greek offensive language detection tasks with focus on toxic comment classification.
+
 
 ## Notes
 

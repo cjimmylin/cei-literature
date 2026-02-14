@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NB-BERT, KB-BERT, DFM-encoder, RemBERT, mDeBERTaV3, Scandinavian BERT variants"
+DATA_URL: "https://github.com/saattrupdan/ScandEval"
 tags: 
 abstract: "This paper introduces a Scandinavian benchmarking platform, ScandEval, which can benchmark any pretrained model on four different tasks in the Scandinavian languages. The datasets used in two of the tasks, linguistic acceptability and question answering, are new. We develop and release a Python package and command-line interface, scandeval, which can benchmark any model that has been uploaded to the Hugging Face Hub, with reproducible results."
 research_topic: "Machine Translation"
@@ -66,6 +67,11 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Benchmarking platform for Scandinavian languages across 4 NLP tasks with new linguistic acceptability and QA datasets. Evaluates 100+ models. Shows substantial cross-lingual transfer among Mainland Scandinavian but limited transfer with Icelandic/Faroese. Evolved into EuroEval.
+
+## Data Description
+
+ScandEval benchmark for evaluating NLP models across 4 Scandinavian languages (Danish, Swedish, Norwegian Bokmål, Norwegian Nynorsk) plus Icelandic and Faroese. Covers 4 task types: text classification, named entity recognition, question answering, and linguistic acceptability.
+
 
 ## Notes
 

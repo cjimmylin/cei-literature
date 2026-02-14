@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and - PDF Extract"
-source_pdf: "2025-Unknown-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and.pdf"
+title: "2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and - PDF Extract"
+source_pdf: "2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and.pdf"
 pages: 14
 extracted_at: "2026-02-13T09:50:28.183099"
 ---
 
-# PDF Extract: 2025-Unknown-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and
+# PDF Extract: 2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and
 
-**Source PDF:** 2025-Unknown-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and.pdf
+**Source PDF:** 2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and.pdf
 **Total Pages:** 14
 
 ---

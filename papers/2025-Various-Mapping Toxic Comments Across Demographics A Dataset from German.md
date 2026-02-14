@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "A lack of demographic context in existing toxic speech datasets limits our understanding of how different age groups communicate online. In collaboration with funk, a German public service content network, this research introduces the first large-scale German dataset annotated for toxicity and enriched with platform-provided age estimates. The dataset includes 3,024 human-annotated and 30,024 LLM-annotated anonymized comments from Instagram, TikTok, and YouTube."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -63,6 +64,15 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 First large-scale German dataset annotated for toxicity enriched with age demographics from German public broadcasting (funk). 3,024 human-annotated and 30,024 LLM-annotated comments from Instagram, TikTok, and YouTube. Reveals age-based differences in toxic speech patterns.
+
+## Summary
+
+This paper presents the first large-scale German toxicity dataset enriched with platform-provided age demographics, developed in partnership with funk (ARD/ZDF public broadcasting network). The dataset comprises 3,024 human-annotated comments and 30,024 LLM-annotated comments from Instagram, TikTok, and YouTube, with comments consolidated using predefined toxic keywords resulting in 16.7% labeled as problematic. The analysis reveals significant age-based differences in toxic speech patterns, with younger users favoring expressive language and users aged 31-35 more likely to produce disinformation and devaluation, while Instagram shows the highest proportion of toxic content across platforms.
+
+## Data Description
+
+Presents the first large-scale German toxicity dataset enriched with age demographics from public broadcasting (funk), comprising 3,024 human-annotated and 30,024 LLM-annotated comments from Instagram, TikTok, and YouTube, revealing age-based differences in toxic speech patterns. Uses LLMs for annotation but does not evaluate specific models.
+
 
 ## Notes
 

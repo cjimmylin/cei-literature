@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "https://huggingface.co/datasets"
 tags: 
 abstract: "Large Language Models (LLMs) demonstrate varying performance across languages and cultural contexts. This study introduces a novel, culturally-rich, multilingual dataset derived from video recordings of the Romanian game show 'Who Wants to Be a Millionaire?' (Vrei să fii Milionar?). We employed an innovative process combining optical character recognition (OCR), automated text extraction, and manual verification to collect question-answer pairs, enriching them with metadata including question..."
 research_topic: "Machine Translation"
@@ -66,6 +67,11 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Novel culturally-rich dataset from Romanian 'Who Wants to Be a Millionaire?' videos for LLM evaluation. Reveals significant performance gap: models achieve 80-95% on international questions vs. 50-75% on Romanian-specific cultural questions. Romanian fine-tuning shows mixed effects on cultural knowledge.
+
+## Data Description
+
+Introduces WWTBM-RO, a culturally-rich dataset from Romanian 'Who Wants to Be a Millionaire?' videos for LLM evaluation. Reveals significant performance gap: models achieve 80-95% on international questions vs. 50-75% on Romanian-specific cultural questions, highlighting cultural knowledge deficits in current LLMs.
+
 
 ## Notes
 

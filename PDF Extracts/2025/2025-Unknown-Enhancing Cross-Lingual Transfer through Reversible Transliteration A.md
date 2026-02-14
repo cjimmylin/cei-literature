@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Enhancing Cross-Lingual Transfer through Reversible Transliteration A - PDF Extract"
-source_pdf: "2025-Unknown-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.pdf"
+title: "2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A - PDF Extract"
+source_pdf: "2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.pdf"
 pages: 17
 extracted_at: "2026-02-13T13:57:14.703458"
 ---
 
-# PDF Extract: 2025-Unknown-Enhancing Cross-Lingual Transfer through Reversible Transliteration A
+# PDF Extract: 2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A
 
-**Source PDF:** 2025-Unknown-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.pdf
+**Source PDF:** 2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.pdf
 **Total Pages:** 17
 
 ---

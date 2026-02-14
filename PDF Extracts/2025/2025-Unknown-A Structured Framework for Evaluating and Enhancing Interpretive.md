@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-A Structured Framework for Evaluating and Enhancing Interpretive - PDF Extract"
-source_pdf: "2025-Unknown-A Structured Framework for Evaluating and Enhancing Interpretive.pdf"
+title: "2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive - PDF Extract"
+source_pdf: "2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive.pdf"
 pages: 27
 extracted_at: "2026-02-13T13:57:13.907307"
 ---
 
-# PDF Extract: 2025-Unknown-A Structured Framework for Evaluating and Enhancing Interpretive
+# PDF Extract: 2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive
 
-**Source PDF:** 2025-Unknown-A Structured Framework for Evaluating and Enhancing Interpretive.pdf
+**Source PDF:** 2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive.pdf
 **Total Pages:** 27
 
 ---

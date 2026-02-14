@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Toxicity & Hate Speech"
@@ -64,6 +65,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Extended GermEval shared task to include toxic, engaging, and fact-claiming comment identification in German. Expands beyond offensive language detection to include respectful communication and fact-checking dimensions.
+
+## Data Description
+
+Extended GermEval shared task for identifying toxic, engaging, and fact-claiming comments in German Facebook posts. Expands beyond offensive language detection to include respectful communication and fact-checking dimensions. Participating systems used BERT-based models.
+
 
 ## Notes
 

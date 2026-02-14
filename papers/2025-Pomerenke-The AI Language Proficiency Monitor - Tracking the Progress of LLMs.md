@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "200 languages"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "To ensure equitable access to the benefits of large language models (LLMs), it is essential to evaluate their capabilities across the world’s languages. We introduce the AI Language Proficiency Monitor, a comprehensive multilingual benchmark that systematically assesses LLM performance across up to 200 languages, with a particular focus on low-resource languages. Our benchmark aggregates diverse tasks including translation, question answering, math, and reasoning, using datasets such as..."
 research_topic: "Machine Translation"
@@ -65,6 +66,11 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Comprehensive multilingual benchmark systematically assessing LLM performance across up to 200 languages with focus on low-resource languages. Aggregates tasks including translation, QA, math, and reasoning using FLORES+, MMLU, GSM8K, TruthfulQA, and ARC. Provides auto-updating leaderboard and dashboard.
+
+## Data Description
+
+The AI Language Proficiency Monitor is a comprehensive multilingual benchmark systematically assessing LLM performance across up to 200 languages (including Greek, Georgian, Armenian, Albanian, Maltese) with focus on low-resource languages. Aggregates tasks including translation, QA, math, and reasoning using FLORES+, MMLU, GSM8K, TruthfulQA, and ARC. Provides auto-updating leaderboard and dashboard.
+
 
 ## Notes
 

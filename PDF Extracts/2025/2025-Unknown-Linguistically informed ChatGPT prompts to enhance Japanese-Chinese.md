@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese - PDF Extract"
-source_pdf: "2025-Unknown-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese.pdf"
+title: "2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese - PDF Extract"
+source_pdf: "2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese.pdf"
 pages: 17
 extracted_at: "2026-02-13T14:50:57.577955"
 ---
 
-# PDF Extract: 2025-Unknown-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese
+# PDF Extract: 2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese
 
-**Source PDF:** 2025-Unknown-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese.pdf
+**Source PDF:** 2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese.pdf
 **Total Pages:** 17
 
 ---

@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-Benchmarking Multilabel Topic Classification in the Kyrgyz Language - PDF Extract"
-source_pdf: "2024-Unknown-Benchmarking Multilabel Topic Classification in the Kyrgyz Language.pdf"
+title: "2024-Alekseev-Benchmarking Multilabel Topic Classification in the Kyrgyz Language - PDF Extract"
+source_pdf: "2024-Alekseev-Benchmarking Multilabel Topic Classification in the Kyrgyz Language.pdf"
 pages: 16
 extracted_at: "2026-02-13T14:50:53.729722"
 ---
 
-# PDF Extract: 2024-Unknown-Benchmarking Multilabel Topic Classification in the Kyrgyz Language
+# PDF Extract: 2024-Alekseev-Benchmarking Multilabel Topic Classification in the Kyrgyz Language
 
-**Source PDF:** 2024-Unknown-Benchmarking Multilabel Topic Classification in the Kyrgyz Language.pdf
+**Source PDF:** 2024-Alekseev-Benchmarking Multilabel Topic Classification in the Kyrgyz Language.pdf
 **Total Pages:** 16
 
 ---

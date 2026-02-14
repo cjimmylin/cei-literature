@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Cross-lingual hate speech detection using domain-specific word - PDF Extract"
-source_pdf: "2025-Unknown-Cross-lingual hate speech detection using domain-specific word.pdf"
+title: "2025-Monnar-Cross-lingual hate speech detection using domain-specific word - PDF Extract"
+source_pdf: "2025-Monnar-Cross-lingual hate speech detection using domain-specific word.pdf"
 pages: 18
 extracted_at: "2026-02-13T14:50:56.702895"
 ---
 
-# PDF Extract: 2025-Unknown-Cross-lingual hate speech detection using domain-specific word
+# PDF Extract: 2025-Monnar-Cross-lingual hate speech detection using domain-specific word
 
-**Source PDF:** 2025-Unknown-Cross-lingual hate speech detection using domain-specific word.pdf
+**Source PDF:** 2025-Monnar-Cross-lingual hate speech detection using domain-specific word.pdf
 **Total Pages:** 18
 
 ---

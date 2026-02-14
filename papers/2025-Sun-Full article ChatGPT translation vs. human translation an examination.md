@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "This study evaluates the proficiency of ChatGPT-based translation compared to Human Translation (HT) using an Arabic literary work. It also examines potential translation gaps in ChatGPT and explores its potential to replace human translators. The research analyzes 12 excerpts from Mawsim Al-Hijra Ela Al-Shamal (1966) by Tayeb Salih, comparing the English translation by Denys Johnson-Davies (Season of Migration to the North, 1969) with ChatGPT’s output. A mixed-method approach (qualitative and quantitative) was used, assessing translations through three dimensions of the Multidimensional Quality Metrics (MQM) framework: accuracy, fluency, and design. The MQM scoring model was also employed to ensure reliability. The findings show that HT is more accurate, with an average accuracy score of 94.5%, compared to 77.9% for ChatGPT. However, ChatGPT produces fluent translations, scoring 97.2% in fluency versus 96.6% for HT. Despite its fluency, ChatGPT struggles with design-related elements and often introduces superfluous content. The study concludes that ChatGPT is not a fully reliable tool for translating Arabic literature, which requires professional human translators like Denys Johnson-Davies to ensure accuracy and cultural sensitivity."
 research_topic: "Machine Translation"
 ---
 # Full article: ChatGPT translation vs. human translation: an examination of a literary text
@@ -65,7 +65,8 @@ research_topic: "Machine Translation"
 
 ## Abstract
 
-Based on the search results, I found information about a comprehensive evaluation benchmark for Uyghur literary translation involving ChatGPT and other translation tools. Uyghur Literary Translation Evaluation Study A comparative study employed two neural machine translation (NMT) systems—Google Translate and Bing Translator—and one generative AI large language model (LLM), ChatGPT to evaluate Uyghur to English literary translation.
+
+This study evaluates the proficiency of ChatGPT-based translation compared to Human Translation (HT) using an Arabic literary work. It also examines potential translation gaps in ChatGPT and explores its potential to replace human translators. The research analyzes 12 excerpts from Mawsim Al-Hijra Ela Al-Shamal (1966) by Tayeb Salih, comparing the English translation by Denys Johnson-Davies (Season of Migration to the North, 1969) with ChatGPT’s output. A mixed-method approach (qualitative and quantitative) was used, assessing translations through three dimensions of the Multidimensional Quality Metrics (MQM) framework: accuracy, fluency, and design. The MQM scoring model was also employed to ensure reliability. The findings show that HT is more accurate, with an average accuracy score of 94.5%, compared to 77.9% for ChatGPT. However, ChatGPT produces fluent translations, scoring 97.2% in fluency versus 96.6% for HT. Despite its fluency, ChatGPT struggles with design-related elements and often introduces superfluous content. The study concludes that ChatGPT is not a fully reliable tool for translating Arabic literature, which requires professional human translators like Denys Johnson-Davies to ensure accuracy and cultural sensitivity.
 
 ## Notes
 

@@ -1,13 +1,13 @@
 ---
-title: "2021-Unknown-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural - PDF Extract"
-source_pdf: "2021-Unknown-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.pdf"
+title: "2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural - PDF Extract"
+source_pdf: "2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.pdf"
 pages: 24
 extracted_at: "2026-02-13T09:50:28.749073"
 ---
 
-# PDF Extract: 2021-Unknown-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural
+# PDF Extract: 2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural
 
-**Source PDF:** 2021-Unknown-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.pdf
+**Source PDF:** 2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.pdf
 **Total Pages:** 24
 
 ---

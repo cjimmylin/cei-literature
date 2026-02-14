@@ -1,13 +1,13 @@
 ---
-title: "2025-results-BenchMAX A Comprehensive Multilingual Evaluation Suite - PDF Extract"
-source_pdf: "2025-results-BenchMAX A Comprehensive Multilingual Evaluation Suite.pdf"
+title: "2025-results]]-BenchMAX A Comprehensive Multilingual Evaluation Suite - PDF Extract"
+source_pdf: "2025-results]]-BenchMAX A Comprehensive Multilingual Evaluation Suite.pdf"
 pages: 24
 extracted_at: "2026-02-13T09:15:45.210978"
 ---
 
-# PDF Extract: 2025-results-BenchMAX A Comprehensive Multilingual Evaluation Suite
+# PDF Extract: 2025-results]]-BenchMAX A Comprehensive Multilingual Evaluation Suite
 
-**Source PDF:** 2025-results-BenchMAX A Comprehensive Multilingual Evaluation Suite.pdf
+**Source PDF:** 2025-results]]-BenchMAX A Comprehensive Multilingual Evaluation Suite.pdf
 **Total Pages:** 24
 
 ---

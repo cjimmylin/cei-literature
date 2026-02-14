@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a - PDF Extract"
-source_pdf: "2025-Unknown-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.pdf"
+title: "2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a - PDF Extract"
+source_pdf: "2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.pdf"
 pages: 16
 extracted_at: "2026-02-13T09:50:31.919896"
 ---
 
-# PDF Extract: 2025-Unknown-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a
+# PDF Extract: 2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a
 
-**Source PDF:** 2025-Unknown-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.pdf
+**Source PDF:** 2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.pdf
 **Total Pages:** 16
 
 ---

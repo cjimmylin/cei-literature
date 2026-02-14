@@ -223,9 +223,9 @@ def process_paper(paper_path, dry_run=False):
         print("  ERROR: {}: {}".format(paper_path.name, e))
         return None
 
-    # Check if already processed
+    # Check if already processed (non-empty LLM_assessed value)
     fields = parse_frontmatter(fm_text)
-    if "LLM_assessed" in fields:
+    if fields.get("LLM_assessed", "").strip():
         print("  SKIP (already has LLM_assessed): {}".format(paper_path.name))
         return None
 

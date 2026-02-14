@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-3.5, GPT-4, LLaMa-2, Mistral, Zephyr"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Bias & Fairness"
@@ -62,6 +63,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Master's thesis evaluating social bias (gender and country of origin) in Dutch LLM outputs. Tests gpt-4o-mini, claude-3.5-haiku, Geitje-7B-Ultra and EuroLLM-9B-Instruct, finding all models exhibit social bias in their Dutch outputs.
+
+## Data Description
+
+Dutch translation and adaptation of social bias evaluation prompts for LLMs. Tests gender, nationality, religion, and other demographic biases in Dutch language generations from major LLMs. No public dataset URL provided.
+
 
 ## Notes
 

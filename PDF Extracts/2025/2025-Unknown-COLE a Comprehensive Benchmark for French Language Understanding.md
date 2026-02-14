@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-COLE a Comprehensive Benchmark for French Language Understanding - PDF Extract"
-source_pdf: "2025-Unknown-COLE a Comprehensive Benchmark for French Language Understanding.pdf"
+title: "2025-preprint)-COLE a Comprehensive Benchmark for French Language Understanding - PDF Extract"
+source_pdf: "2025-preprint)-COLE a Comprehensive Benchmark for French Language Understanding.pdf"
 pages: 19
 extracted_at: "2026-02-13T13:14:05.238029"
 ---
 
-# PDF Extract: 2025-Unknown-COLE a Comprehensive Benchmark for French Language Understanding
+# PDF Extract: 2025-preprint)-COLE a Comprehensive Benchmark for French Language Understanding
 
-**Source PDF:** 2025-Unknown-COLE a Comprehensive Benchmark for French Language Understanding.pdf
+**Source PDF:** 2025-preprint)-COLE a Comprehensive Benchmark for French Language Understanding.pdf
 **Total Pages:** 19
 
 ---

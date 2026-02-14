@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "EuroLLM, Teuken-7B, Salamandra"
+DATA_URL: "NA"
 tags: 
 abstract: "The breakthrough of generative large language models (LLMs) that can solve different tasks through chat interaction has led to a significant increase in the use of general benchmarks to assess the quality or performance of these models beyond individual applications. There is also a need for better methods to evaluate and also to compare models due to the ever increasing number of new models published. However, most of the established benchmarks revolve around the English language."
 research_topic: "Machine Translation"
@@ -63,6 +64,15 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Analyzes benefits and limitations of current multilingual European evaluation datasets, focusing on seven multilingual benchmarks. Identifies four major challenges including cultural biases in translated benchmarks. Discusses solutions for translation quality and cultural bias mitigation including human-in-the-loop verification.
+
+## Summary
+
+This meta-analysis paper examines seven multilingual European LLM benchmarks (GlobalMMLU, MMMLU, EU20, OKAPI, Include, Belebele, Xtreme) to assess their benefits and limitations. The authors identify four major challenges in multilingual evaluation, with particular focus on cultural biases inherent in translated benchmarks and translation quality issues. They propose solutions including human-in-the-loop verification, iterative translation ranking, and culturally aware benchmark development to improve the assessment of multilingual European LLMs.
+
+## Data Description
+
+This is a meta-analysis paper that analyzes seven multilingual European benchmarks (GlobalMMLU, MMMLU, EU20, OKAPI, Include, Belebele, Xtreme) and identifies four major challenges in multilingual LLM evaluation including cultural biases in translated benchmarks. It does not introduce a new dataset but evaluates existing benchmarking approaches.
+
 
 ## Notes
 

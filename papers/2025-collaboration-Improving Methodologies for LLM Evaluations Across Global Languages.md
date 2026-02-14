@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "2 open-weight models"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Other"
@@ -63,6 +64,11 @@ research_topic: "Other"
 ## Abstract
 
 Joint multilingual evaluation exercise by international AI safety institutes (Singapore, Japan, Australia, Canada, EU, France, Kenya, South Korea, UK). Tested 2 open-weight models across 10 languages with over 6,000 prompts across 5 harm categories. French INESIA (ANSSI, Inria, LNE, PEReN) participated. Finds jailbreaking is a common weakness for non-English languages.
+
+## Data Description
+
+Joint multilingual evaluation exercise by international AI safety institutes (including France's INESIA) testing 2 open-weight models across 10 languages with over 6,000 prompts across 5 harm categories (privacy, crime, intellectual property, jailbreak robustness). Finds jailbreaking is a common weakness for non-English languages.
+
 
 ## Notes
 

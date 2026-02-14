@@ -1,13 +1,13 @@
 ---
-title: "2023-Unknown-SeaEval for Multilingual Foundation Models From Cross-Lingual - PDF Extract"
-source_pdf: "2023-Unknown-SeaEval for Multilingual Foundation Models From Cross-Lingual.pdf"
+title: "2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual - PDF Extract"
+source_pdf: "2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual.pdf"
 pages: 21
 extracted_at: "2026-02-13T09:50:28.328441"
 ---
 
-# PDF Extract: 2023-Unknown-SeaEval for Multilingual Foundation Models From Cross-Lingual
+# PDF Extract: 2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual
 
-**Source PDF:** 2023-Unknown-SeaEval for Multilingual Foundation Models From Cross-Lingual.pdf
+**Source PDF:** 2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual.pdf
 **Total Pages:** 21
 
 ---

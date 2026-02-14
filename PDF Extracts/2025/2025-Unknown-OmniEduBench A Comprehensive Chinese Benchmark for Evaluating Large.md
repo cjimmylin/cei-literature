@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large - PDF Extract"
-source_pdf: "2025-Unknown-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large.pdf"
+title: "2025-Zhang-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large - PDF Extract"
+source_pdf: "2025-Zhang-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large.pdf"
 pages: 18
 extracted_at: "2026-02-13T13:57:15.148394"
 ---
 
-# PDF Extract: 2025-Unknown-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large
+# PDF Extract: 2025-Zhang-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large
 
-**Source PDF:** 2025-Unknown-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large.pdf
+**Source PDF:** 2025-Zhang-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large.pdf
 **Total Pages:** 18
 
 ---

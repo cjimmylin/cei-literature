@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, mBERT"
+DATA_URL: "https://huggingface.co/MLRS/BERTu"
 tags: 
 abstract: "Multilingual language models such as mBERT have seen impressive cross-lingual transfer to a variety of languages, but many languages remain excluded from these models. In this paper, we analyse the effect of pre-training with monolingual data for a low-resource language that is not included in mBERT – Maltese – with a range of pre-training set ups. We conduct evaluations with the newly pretrained models on three morphosyntactic tasks – dependency parsing, part-of-speech tagging, and..."
 research_topic: "NLP & Representation Learning"
@@ -65,6 +66,11 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Develops BERTu, a monolingual BERT model for Maltese, and mBERTu. Trained on Korpus Malti v4.0. Achieves state-of-the-art despite smaller corpus. Foundation for downstream bias evaluation in Maltese.
+
+## Data Description
+
+BERTu and mBERTu models for Maltese trained on Korpus Malti v4.0 corpus. Evaluates monolingual BERT (BERTu) trained from scratch versus further pre-trained multilingual BERT (mBERTu) on dependency parsing, POS tagging, NER, and sentiment analysis for low-resource Maltese language.
+
 
 ## Notes
 

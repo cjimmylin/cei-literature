@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards - PDF Extract"
-source_pdf: "2025-Unknown-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards.pdf"
+title: "2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards - PDF Extract"
+source_pdf: "2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards.pdf"
 pages: 48
 extracted_at: "2026-02-13T13:57:15.651054"
 ---
 
-# PDF Extract: 2025-Unknown-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards
+# PDF Extract: 2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards
 
-**Source PDF:** 2025-Unknown-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards.pdf
+**Source PDF:** 2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards.pdf
 **Total Pages:** 48
 
 ---

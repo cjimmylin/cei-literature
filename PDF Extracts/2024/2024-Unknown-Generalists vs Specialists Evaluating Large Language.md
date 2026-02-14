@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-Generalists vs Specialists Evaluating Large Language - PDF Extract"
-source_pdf: "2024-Unknown-Generalists vs Specialists Evaluating Large Language.pdf"
+title: "2024-[[Unknown]]-Generalists vs Specialists Evaluating Large Language - PDF Extract"
+source_pdf: "2024-[[Unknown]]-Generalists vs Specialists Evaluating Large Language.pdf"
 pages: 18
 extracted_at: "2026-02-13T09:15:45.141657"
 ---
 
-# PDF Extract: 2024-Unknown-Generalists vs Specialists Evaluating Large Language
+# PDF Extract: 2024-[[Unknown]]-Generalists vs Specialists Evaluating Large Language
 
-**Source PDF:** 2024-Unknown-Generalists vs Specialists Evaluating Large Language.pdf
+**Source PDF:** 2024-[[Unknown]]-Generalists vs Specialists Evaluating Large Language.pdf
 **Total Pages:** 18
 
 ---

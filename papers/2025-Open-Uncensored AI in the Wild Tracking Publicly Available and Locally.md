@@ -34,7 +34,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Open-weight generative large language models (LLMs) can be freely downloaded and modified, yet little empirical evidence exists on how these models are systematically altered and redistributed. This study presents the first large-scale analysis of safety-modified open-weight LLMs, examining 8,608 model repositories scraped from Hugging Face to identify a growing population of uncensored models adapted to bypass alignment safeguards. Selected modified models are evaluated across unsafe prompts spanning election disinformation, criminal instruction, and regulatory evasion. The study demonstrates that modified models exhibit a complete safety inversion: while unmodified models complied with only 18.8% of unsafe requests, modified variants complied at a mean rate of 74.1%. Modification effectiveness was independent of model size, with smaller 14-billion parameter variants sometimes matching or exceeding the compliance levels of 70-billion parameter versions. The ecosystem is highly concentrated yet structurally decentralized; for example, the top 5% of providers account for over 60% of downloads, and the top 20 for nearly 86%. Moreover, more than half of the identified models use GGUF packaging, optimized for consumer hardware, and 4-bit quantization methods proliferate widely, though full- and 16-bit models remain the most downloaded. These findings demonstrate how locally deployable, modified LLMs represent a paradigm shift for Internet safety governance, calling for new regulatory approaches suited to decentralized AI."
 research_topic: "Other"
 ---
 # Uncensored AI in the Wild: Tracking Publicly Available and Locally Deployable LLMs
@@ -61,7 +61,8 @@ research_topic: "Other"
 
 ## Abstract
 
-Based on my web search results, I was unable to find any specific information about "ShadowRisk" as a Chinese LLM safety benchmark related to black market TikTok or 2025. The search returned results about various LLM safety benchmarks from 2025, but no matches for ShadowRisk specifically.
+
+Open-weight generative large language models (LLMs) can be freely downloaded and modified, yet little empirical evidence exists on how these models are systematically altered and redistributed. This study presents the first large-scale analysis of safety-modified open-weight LLMs, examining 8,608 model repositories scraped from Hugging Face to identify a growing population of uncensored models adapted to bypass alignment safeguards. Selected modified models are evaluated across unsafe prompts spanning election disinformation, criminal instruction, and regulatory evasion. The study demonstrates that modified models exhibit a complete safety inversion: while unmodified models complied with only 18.8% of unsafe requests, modified variants complied at a mean rate of 74.1%. Modification effectiveness was independent of model size, with smaller 14-billion parameter variants sometimes matching or exceeding the compliance levels of 70-billion parameter versions. The ecosystem is highly concentrated yet structurally decentralized; for example, the top 5% of providers account for over 60% of downloads, and the top 20 for nearly 86%. Moreover, more than half of the identified models use GGUF packaging, optimized for consumer hardware, and 4-bit quantization methods proliferate widely, though full- and 16-bit models remain the most downloaded. These findings demonstrate how locally deployable, modified LLMs represent a paradigm shift for Internet safety governance, calling for new regulatory approaches suited to decentralized AI.
 
 ## Notes
 

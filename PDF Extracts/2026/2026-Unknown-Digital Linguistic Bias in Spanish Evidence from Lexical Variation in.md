@@ -1,13 +1,13 @@
 ---
-title: "2026-Unknown-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in - PDF Extract"
-source_pdf: "2026-Unknown-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in.pdf"
+title: "2026-Kawasaki-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in - PDF Extract"
+source_pdf: "2026-Kawasaki-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in.pdf"
 pages: 11
 extracted_at: "2026-02-13T09:50:30.932887"
 ---
 
-# PDF Extract: 2026-Unknown-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in
+# PDF Extract: 2026-Kawasaki-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in
 
-**Source PDF:** 2026-Unknown-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in.pdf
+**Source PDF:** 2026-Kawasaki-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in.pdf
 **Total Pages:** 11
 
 ---

@@ -1,0 +1,74 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0670
+type: preprint
+short_title: "Benchmarking LLMs for Translating Classical Chinese Poetry: Evaluating Adequacy, Fluency, and Elegance"
+year: 2024
+first_author: "[[Andong Chen]]"
+last_author: "[[Unknown]]"
+authors: Andong Chen; Lianzhang Lou; Kehai Chen; Xuefeng Bai; Yang Xiang; Muyun Yang; Tiejun Zhao; Min Zhang
+url: "https://arxiv.org/html/2408.09945v1"
+external_pdf: "https://arxiv.org/pdf/2408.09945.pdf"
+publication: arXiv
+local_pdf: "[[PDFs/2024/2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.md"
+DATE_ADDED: 20260213
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
+languages_list: "Chinese, Classical Chinese, English"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract: "Different from the traditional translation tasks, classical Chinese poetry translation requires both adequacy and fluency in translating culturally and historically significant content and linguistic poetic elegance. Large language models (LLMs) with impressive multilingual capabilities may bring a ray of hope to achieve this extreme translation demand. This paper first introduces a suitable benchmark (PoetMT) where each Chinese poetry has a recognized elegant translation. Meanwhile, we propose a new metric based on GPT4 to evaluate the extent to which current LLMs can meet these demands. Our empirical evaluation reveals that the existing LLMs fall short in the challenging task. Hence, we propose a Retrieval-Augmented machine Translation (RAT) method which incorporates knowledge related to classical poetry for advancing the translation of Chinese Poetry in LLMs. Experimental results show that RAT consistently outperforms all comparison methods regarding wildly used BLEU, COMET, BLEURT, our proposed metric, and human evaluation."
+research_topic: "Other"
+---
+# Benchmarking LLMs for Translating Classical Chinese Poetry: Evaluating Adequacy, Fluency, and Elegance
+
+## Authors
+
+[[Andong Chen]], [[Lianzhang Lou]], [[Kehai Chen]], [[Xuefeng Bai]], [[Yang Xiang]], [[Muyun Yang]], [[Tiejun Zhao]], [[Min Zhang]]
+
+## Metadata
+
+**Authors:** Andong Chen; Lianzhang Lou; Kehai Chen; Xuefeng Bai; Yang Xiang; Muyun Yang; Tiejun Zhao; Min Zhang
+
+**Year:** 2024
+
+**Type:** preprint
+
+**Venue:** arXiv
+
+**Languages:** Chinese, Classical Chinese, English
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2408.09945
+
+## Abstract
+
+
+Different from the traditional translation tasks, classical Chinese poetry translation requires both adequacy and fluency in translating culturally and historically significant content and linguistic poetic elegance. Large language models (LLMs) with impressive multilingual capabilities may bring a ray of hope to achieve this extreme translation demand. This paper first introduces a suitable benchmark (PoetMT) where each Chinese poetry has a recognized elegant translation. Meanwhile, we propose a new metric based on GPT4 to evaluate the extent to which current LLMs can meet these demands. Our empirical evaluation reveals that the existing LLMs fall short in the challenging task. Hence, we propose a Retrieval-Augmented machine Translation (RAT) method which incorporates knowledge related to classical poetry for advancing the translation of Chinese Poetry in LLMs. Experimental results show that RAT consistently outperforms all comparison methods regarding wildly used BLEU, COMET, BLEURT, our proposed metric, and human evaluation.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent C1
+**Relevance:** Relevant to Chinese, Classical Chinese, English
+
+## Tags
+

@@ -1,13 +1,13 @@
 ---
-title: "2025-results-Counter-Speech Generation for Homophobic and Transphobic - PDF Extract"
-source_pdf: "2025-results-Counter-Speech Generation for Homophobic and Transphobic.pdf"
+title: "2025-results]]-Counter-Speech Generation for Homophobic and Transphobic - PDF Extract"
+source_pdf: "2025-results]]-Counter-Speech Generation for Homophobic and Transphobic.pdf"
 pages: 21
 extracted_at: "2026-02-13T10:43:55.982847"
 ---
 
-# PDF Extract: 2025-results-Counter-Speech Generation for Homophobic and Transphobic
+# PDF Extract: 2025-results]]-Counter-Speech Generation for Homophobic and Transphobic
 
-**Source PDF:** 2025-results-Counter-Speech Generation for Homophobic and Transphobic.pdf
+**Source PDF:** 2025-results]]-Counter-Speech Generation for Homophobic and Transphobic.pdf
 **Total Pages:** 21
 
 ---

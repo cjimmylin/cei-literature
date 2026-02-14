@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Leveraging LLM and Self-Supervised Training Models for Speech - PDF Extract"
-source_pdf: "2025-Unknown-Leveraging LLM and Self-Supervised Training Models for Speech.pdf"
+title: "2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech - PDF Extract"
+source_pdf: "2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech.pdf"
 pages: 5
 extracted_at: "2026-02-13T13:57:14.857579"
 ---
 
-# PDF Extract: 2025-Unknown-Leveraging LLM and Self-Supervised Training Models for Speech
+# PDF Extract: 2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech
 
-**Source PDF:** 2025-Unknown-Leveraging LLM and Self-Supervised Training Models for Speech.pdf
+**Source PDF:** 2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech.pdf
 **Total Pages:** 5
 
 ---

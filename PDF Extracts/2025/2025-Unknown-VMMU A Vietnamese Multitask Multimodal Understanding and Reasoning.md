@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning - PDF Extract"
-source_pdf: "2025-Unknown-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.pdf"
+title: "2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning - PDF Extract"
+source_pdf: "2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.pdf"
 pages: 47
 extracted_at: "2026-02-13T09:50:29.601641"
 ---
 
-# PDF Extract: 2025-Unknown-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning
+# PDF Extract: 2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning
 
-**Source PDF:** 2025-Unknown-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.pdf
+**Source PDF:** 2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.pdf
 **Total Pages:** 47
 
 ---

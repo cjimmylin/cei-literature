@@ -1,13 +1,13 @@
 ---
-title: "2023-Unknown-HASOC 2023 Hate Speech and Offensive Content Identification in - PDF Extract"
-source_pdf: "2023-Unknown-HASOC 2023 Hate Speech and Offensive Content Identification in.pdf"
+title: "2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in - PDF Extract"
+source_pdf: "2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in.pdf"
 pages: 14
 extracted_at: "2026-02-13T11:18:54.991508"
 ---
 
-# PDF Extract: 2023-Unknown-HASOC 2023 Hate Speech and Offensive Content Identification in
+# PDF Extract: 2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in
 
-**Source PDF:** 2023-Unknown-HASOC 2023 Hate Speech and Offensive Content Identification in.pdf
+**Source PDF:** 2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in.pdf
 **Total Pages:** 14
 
 ---

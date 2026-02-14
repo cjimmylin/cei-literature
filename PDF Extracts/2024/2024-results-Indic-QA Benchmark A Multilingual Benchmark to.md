@@ -1,13 +1,13 @@
 ---
-title: "2024-results-Indic-QA Benchmark A Multilingual Benchmark to - PDF Extract"
-source_pdf: "2024-results-Indic-QA Benchmark A Multilingual Benchmark to.pdf"
+title: "2024-results]]-Indic-QA Benchmark A Multilingual Benchmark to - PDF Extract"
+source_pdf: "2024-results]]-Indic-QA Benchmark A Multilingual Benchmark to.pdf"
 pages: 20
 extracted_at: "2026-02-13T09:15:42.014893"
 ---
 
-# PDF Extract: 2024-results-Indic-QA Benchmark A Multilingual Benchmark to
+# PDF Extract: 2024-results]]-Indic-QA Benchmark A Multilingual Benchmark to
 
-**Source PDF:** 2024-results-Indic-QA Benchmark A Multilingual Benchmark to.pdf
+**Source PDF:** 2024-results]]-Indic-QA Benchmark A Multilingual Benchmark to.pdf
 **Total Pages:** 20
 
 ---

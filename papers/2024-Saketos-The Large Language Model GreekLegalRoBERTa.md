@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GreekLegalRoBERTa, GreekLegalBERT, GreekLegalBERT-v2, GreekBERT"
+DATA_URL: "NA"
 tags: 
 abstract: "We develop four versions of GreekLegalRoBERTa, which are four large language models trained on Greek legal and nonlegal text. We show that our models surpass the performance of GreekLegalBERT, Greek- LegalBERT-v2, and GreekBERT in two tasks involving Greek legal documents: named entity recognition and multiclass legal topic classiﬁcation. We view our work as a contribution to the study of domain-speciﬁc NLP tasks in low-resource languages, like Greek, using modern NLP techniques and..."
 research_topic: "NLP & Representation Learning"
@@ -63,6 +64,11 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Four versions of RoBERTa-based language models trained on Greek legal and non-legal text. Surpasses performance of GreekLegalBERT and GreekBERT in NER and multi-class legal topic classification. Contribution to domain-specific NLP tasks in low-resource languages using modern NLP techniques.
+
+## Data Description
+
+Four versions of RoBERTa-based language models trained on Greek legal and non-legal text. Surpasses performance of GreekLegalBERT and GreekBERT in named entity recognition and multi-class legal topic classification. Contribution to domain-specific NLP tasks in low-resource languages.
+
 
 ## Notes
 

@@ -34,7 +34,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Sentiment analysis in the Turkish language has gained increasing attention due to the growing availability of Turkish textual data across various domains. However, existing datasets often suffer from limitations such as insufficient size, lack of diversity, and annotation inconsistencies, which hinder the development of robust and accurate sentiment analysis models. In this study, we present a novel enhanced dataset specifically designed to address these challenges, providing a comprehensive and high-quality resource for Turkish sentiment analysis. We perform a comparative evaluation of previously proposed models using our dataset to assess their performance and limitations. Experimental findings demonstrate the effectiveness of the presented dataset and trained models, offering valuable insights for advancing sentiment analysis research in the Turkish language. These results underscore the critical role of the enhanced dataset in bridging the gap between existing datasets and the importance of training the modern sentiment analysis models on scalable, balanced, and curated datasets. This can offer valuable insights for advancing sentiment analysis research in the Turkish language. Furthermore, the experimental results represent an important step in overcoming the challenges associated with Turkish sentiment analysis and improving the performance of existing models."
 research_topic: "NLP & Representation Learning"
 ---
 # Towards Better Sentiment Analysis in the Turkish Language: Dataset Improvements and Model Innovations
@@ -61,7 +61,8 @@ research_topic: "NLP & Representation Learning"
 
 ## Abstract
 
-Based on the web search results, here are the findings related to Uyghur sentiment analysis dataset evaluation: Recent Research on Uyghur Sentiment Analysis (2024-2025) Recent research conducted experiments on the Uyghur sentiment analysis dataset with experimental evaluation using multiple evaluation indicators including Accuracy, Precision, Recall, and F1-score. Specifically, a study on Uyghur Sentiment Classification Based on Temporal Attention Capsule Networks showed that their model ca
+
+Sentiment analysis in the Turkish language has gained increasing attention due to the growing availability of Turkish textual data across various domains. However, existing datasets often suffer from limitations such as insufficient size, lack of diversity, and annotation inconsistencies, which hinder the development of robust and accurate sentiment analysis models. In this study, we present a novel enhanced dataset specifically designed to address these challenges, providing a comprehensive and high-quality resource for Turkish sentiment analysis. We perform a comparative evaluation of previously proposed models using our dataset to assess their performance and limitations. Experimental findings demonstrate the effectiveness of the presented dataset and trained models, offering valuable insights for advancing sentiment analysis research in the Turkish language. These results underscore the critical role of the enhanced dataset in bridging the gap between existing datasets and the importance of training the modern sentiment analysis models on scalable, balanced, and curated datasets. This can offer valuable insights for advancing sentiment analysis research in the Turkish language. Furthermore, the experimental results represent an important step in overcoming the challenges associated with Turkish sentiment analysis and improving the performance of existing models.
 
 ## Notes
 

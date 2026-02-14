@@ -1,13 +1,13 @@
 ---
-title: "2026-Unknown-Injecting Knowledge from Social Science Journals to Improve - PDF Extract"
-source_pdf: "2026-Unknown-Injecting Knowledge from Social Science Journals to Improve.pdf"
+title: "2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve - PDF Extract"
+source_pdf: "2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve.pdf"
 pages: 19
 extracted_at: "2026-02-13T09:50:31.001497"
 ---
 
-# PDF Extract: 2026-Unknown-Injecting Knowledge from Social Science Journals to Improve
+# PDF Extract: 2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve
 
-**Source PDF:** 2026-Unknown-Injecting Knowledge from Social Science Journals to Improve.pdf
+**Source PDF:** 2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve.pdf
 **Total Pages:** 19
 
 ---

@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-BengaliFig A Low-Resource Challenge for Figurative and Culturally - PDF Extract"
-source_pdf: "2025-Unknown-BengaliFig A Low-Resource Challenge for Figurative and Culturally.pdf"
+title: "2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally - PDF Extract"
+source_pdf: "2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally.pdf"
 pages: 20
 extracted_at: "2026-02-13T14:50:56.130636"
 ---
 
-# PDF Extract: 2025-Unknown-BengaliFig A Low-Resource Challenge for Figurative and Culturally
+# PDF Extract: 2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally
 
-**Source PDF:** 2025-Unknown-BengaliFig A Low-Resource Challenge for Figurative and Culturally.pdf
+**Source PDF:** 2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally.pdf
 **Total Pages:** 20
 
 ---

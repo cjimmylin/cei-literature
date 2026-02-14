@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-Kalahi A handcrafted grassroots cultural LLM evaluation suite for - PDF Extract"
-source_pdf: "2024-Unknown-Kalahi A handcrafted grassroots cultural LLM evaluation suite for.pdf"
+title: "2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for - PDF Extract"
+source_pdf: "2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for.pdf"
 pages: 27
 extracted_at: "2026-02-13T09:50:29.563287"
 ---
 
-# PDF Extract: 2024-Unknown-Kalahi A handcrafted grassroots cultural LLM evaluation suite for
+# PDF Extract: 2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for
 
-**Source PDF:** 2024-Unknown-Kalahi A handcrafted grassroots cultural LLM evaluation suite for.pdf
+**Source PDF:** 2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for.pdf
 **Total Pages:** 27
 
 ---

@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Sentiment analysis of classical Chinese literature An unsupervised - PDF Extract"
-source_pdf: "2025-Unknown-Sentiment analysis of classical Chinese literature An unsupervised.pdf"
+title: "2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised - PDF Extract"
+source_pdf: "2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised.pdf"
 pages: 23
 extracted_at: "2026-02-13T14:50:57.983843"
 ---
 
-# PDF Extract: 2025-Unknown-Sentiment analysis of classical Chinese literature An unsupervised
+# PDF Extract: 2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised
 
-**Source PDF:** 2025-Unknown-Sentiment analysis of classical Chinese literature An unsupervised.pdf
+**Source PDF:** 2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised.pdf
 **Total Pages:** 23
 
 ---

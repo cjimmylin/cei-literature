@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "In the rapidly evolving field of artificial intelligence, large language models (LLMs) have emerged as powerful tools for a myriad of applications, from natural language processing to decision-making support systems. However, as these models become increasingly integrated into societal frameworks, the imperative to ensure they operate within ethical and moral boundaries has never been more critical. This paper introduces a novel benchmark designed to measure and compare the moral reasoning capabilities of LLMs. We present the first comprehensive dataset specifically curated to probe the moral dimensions of LLM outputs, addressing a wide range of ethical dilemmas and scenarios reflective of real-world complexities. The main contribution of this work lies in the development of benchmark datasets and metrics for assessing the moral identity of LLMs, which accounts for nuance, contextual sensitivity, and alignment with human ethical standards. We publicly release the benchmark datasets1 and also open-source the code of the project2."
 ethics_perspective: "General Ethics"
 ---
 # MoralBench: Moral Evaluation of LLMs
@@ -64,7 +64,8 @@ ethics_perspective: "General Ethics"
 
 ## Abstract
 
-Based on my search results, here are the key findings on Arabic language model ethics and moral reasoning benchmarks in 2025: Arabic Language Model Benchmarks Modern benchmarks like LAraBench, BALSAM, ORCA, and Dolphin provide unified evaluation benchmarks capturing understanding, generation, reasoning, and instruction-following while incorporating dialectal and domain diversity. Specific Ethics and Trustworthiness Benchmarks AraTrust: An AraTrust benchmark was introduced to evalua
+
+In the rapidly evolving field of artificial intelligence, large language models (LLMs) have emerged as powerful tools for a myriad of applications, from natural language processing to decision-making support systems. However, as these models become increasingly integrated into societal frameworks, the imperative to ensure they operate within ethical and moral boundaries has never been more critical. This paper introduces a novel benchmark designed to measure and compare the moral reasoning capabilities of LLMs. We present the first comprehensive dataset specifically curated to probe the moral dimensions of LLM outputs, addressing a wide range of ethical dilemmas and scenarios reflective of real-world complexities. The main contribution of this work lies in the development of benchmark datasets and metrics for assessing the moral identity of LLMs, which accounts for nuance, contextual sensitivity, and alignment with human ethical standards. We publicly release the benchmark datasets1 and also open-source the code of the project2.
 
 ## Notes
 

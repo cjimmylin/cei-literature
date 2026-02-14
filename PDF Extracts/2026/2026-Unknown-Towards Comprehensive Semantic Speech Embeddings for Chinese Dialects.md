@@ -1,13 +1,13 @@
 ---
-title: "2026-Unknown-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects - PDF Extract"
-source_pdf: "2026-Unknown-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects.pdf"
+title: "2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects - PDF Extract"
+source_pdf: "2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects.pdf"
 pages: 9
 extracted_at: "2026-02-13T13:57:16.462416"
 ---
 
-# PDF Extract: 2026-Unknown-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects
+# PDF Extract: 2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects
 
-**Source PDF:** 2026-Unknown-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects.pdf
+**Source PDF:** 2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects.pdf
 **Total Pages:** 9
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERTu, mBERTu"
+DATA_URL: "NA"
 tags: 
 abstract: "The advancement of Large Language Models (LLMs) has transformed Natural Language Processing (NLP), enabling performance across diverse tasks with little task-specific training. However, LLMs remain susceptible to social biases, particularly reflecting harmful stereotypes from training data, which can disproportionately affect marginalised communities. We measure gender bias in Maltese LMs, arguing that such bias is harmful as it reinforces societal stereotypes and fails to account for gender..."
 ethics_perspective: "Bias & Fairness"
@@ -63,6 +64,15 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Measures gender bias in Maltese language models (BERTu and mBERTu) and evaluates transferability of debiasing methods from English. Adapts CrowS-Pairs and SEAT benchmarks to Maltese. Tests Counterfactual Data Augmentation, Dropout Regularization, Auto-Debias, and GuiDebias. Finds mBERTu shows less biased representation than BERTu.
+
+## Summary
+
+This paper investigates gender bias in Maltese language models by adapting English bias measurement benchmarks (CrowS-Pairs and SEAT) to Maltese, a low-resource gendered language with complex morphology. The authors evaluate BERTu (monolingual) and mBERTu (multilingual) and test four debiasing methods: Counterfactual Data Augmentation, Dropout Regularization, Auto-Debias, and GuiDebias. Results show mBERTu exhibits less biased representations than BERTu, while highlighting challenges in transferring English-centric bias mitigation techniques to morphologically complex languages.
+
+## Data Description
+
+This paper adapts CrowS-Pairs and SEAT benchmarks to Maltese and evaluates gender bias in Maltese language models (BERTu and mBERTu). It tests four debiasing methods: Counterfactual Data Augmentation, Dropout Regularization, Auto-Debias, and GuiDebias. Finds mBERTu shows less biased representation than BERTu. Creates new Maltese evaluation datasets for gender bias research.
+
 
 ## Notes
 

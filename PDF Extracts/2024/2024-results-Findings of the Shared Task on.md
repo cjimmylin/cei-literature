@@ -1,13 +1,13 @@
 ---
-title: "2024-results-Findings of the Shared Task on - PDF Extract"
-source_pdf: "2024-results-Findings of the Shared Task on.pdf"
+title: "2024-results]]-Findings of the Shared Task on - PDF Extract"
+source_pdf: "2024-results]]-Findings of the Shared Task on.pdf"
 pages: 7
 extracted_at: "2026-02-13T09:15:41.953244"
 ---
 
-# PDF Extract: 2024-results-Findings of the Shared Task on
+# PDF Extract: 2024-results]]-Findings of the Shared Task on
 
-**Source PDF:** 2024-results-Findings of the Shared Task on.pdf
+**Source PDF:** 2024-results]]-Findings of the Shared Task on.pdf
 **Total Pages:** 7
 
 ---

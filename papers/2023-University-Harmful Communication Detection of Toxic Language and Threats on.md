@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERTić, CroSloEngual BERT"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "AI Safety & Alignment"
@@ -66,6 +67,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Uses transfer learning and BERT to train models for toxic language (F1>0.94) and threats (F1=0.86) in Swedish. Models' performance decreases significantly on unseen social media data. Finds 20% of social media threats are not toxic.
+
+## Data Description
+
+Study on harmful communication detection in Croatian online platforms, focusing on toxic language and threats. Evaluates Croatian BERT models on toxicity classification. No public dataset URL provided.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "11k examples"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-3.5, GPT-4, LeoLM, gelectra-large"
+DATA_URL: "https://github.com/jagol/gahd"
 tags: 
 abstract: "Hate speech detection models are only as good as the data they are trained on. Datasets sourced from social media suffer from systematic gaps and biases, leading to unreliable models with simplistic decision boundaries. Adversarial datasets, collected by exploiting model weaknesses, promise to fix this problem. However, adversarial data collection can be slow and costly, and individual annotators have limited creativity."
 ethics_perspective: "AI Safety & Alignment"
@@ -66,6 +67,15 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 German Adversarial Hate speech Dataset with ~11,000 examples (42.4% hate speech). Uses adversarial data collection with annotator support strategies. Training on GAHD clearly improves model robustness.
+
+## Summary
+
+This paper introduces GAHD, a German Adversarial Hate speech Dataset with approximately 11,000 examples collected through four rounds of dynamic adversarial data collection (DADC). The authors explore multiple annotator support strategies across different rounds: free creation (R1), validating English-to-German translations (R2), validating newspaper sentences misclassified as hate speech (R3), and creating contrastive examples (R4). Experimental results show that training on GAHD improves model robustness substantially, with 18-20 percentage point increases in macro F1 scores on both in-domain and out-of-domain tests, and that mixing multiple support strategies yields the most consistent improvements.
+
+## Data Description
+
+GAHD (German Adversarial Hate speech Dataset) contains 11,000 German examples (42.4% hate speech) collected via dynamic adversarial data collection across 4 rounds. Training on GAHD improves model robustness, with 18-20 percentage point increases in macro F1 on in-domain and out-of-domain tests.
+
 
 ## Notes
 

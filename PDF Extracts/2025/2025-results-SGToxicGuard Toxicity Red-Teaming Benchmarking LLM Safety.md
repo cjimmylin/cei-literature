@@ -1,13 +1,13 @@
 ---
-title: "2025-results-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety - PDF Extract"
-source_pdf: "2025-results-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.pdf"
+title: "2025-results]]-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety - PDF Extract"
+source_pdf: "2025-results]]-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.pdf"
 pages: 19
 extracted_at: "2026-02-13T09:15:44.019574"
 ---
 
-# PDF Extract: 2025-results-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety
+# PDF Extract: 2025-results]]-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety
 
-**Source PDF:** 2025-results-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.pdf
+**Source PDF:** 2025-results]]-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.pdf
 **Total Pages:** 19
 
 ---

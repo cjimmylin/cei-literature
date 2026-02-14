@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-HalleluBERT Let every token that has meaning bear its weight - PDF Extract"
-source_pdf: "2025-Unknown-HalleluBERT Let every token that has meaning bear its weight.pdf"
+title: "2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight - PDF Extract"
+source_pdf: "2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight.pdf"
 pages: 9
 extracted_at: "2026-02-13T09:50:27.893854"
 ---
 
-# PDF Extract: 2025-Unknown-HalleluBERT Let every token that has meaning bear its weight
+# PDF Extract: 2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight
 
-**Source PDF:** 2025-Unknown-HalleluBERT Let every token that has meaning bear its weight.pdf
+**Source PDF:** 2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight.pdf
 **Total Pages:** 9
 
 ---

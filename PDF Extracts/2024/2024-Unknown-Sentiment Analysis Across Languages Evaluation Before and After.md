@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-Sentiment Analysis Across Languages Evaluation Before and After - PDF Extract"
-source_pdf: "2024-Unknown-Sentiment Analysis Across Languages Evaluation Before and After.pdf"
+title: "2024-Kathunia-Sentiment Analysis Across Languages Evaluation Before and After - PDF Extract"
+source_pdf: "2024-Kathunia-Sentiment Analysis Across Languages Evaluation Before and After.pdf"
 pages: 7
 extracted_at: "2026-02-13T13:57:12.788128"
 ---
 
-# PDF Extract: 2024-Unknown-Sentiment Analysis Across Languages Evaluation Before and After
+# PDF Extract: 2024-Kathunia-Sentiment Analysis Across Languages Evaluation Before and After
 
-**Source PDF:** 2024-Unknown-Sentiment Analysis Across Languages Evaluation Before and After.pdf
+**Source PDF:** 2024-Kathunia-Sentiment Analysis Across Languages Evaluation Before and After.pdf
 **Total Pages:** 7
 
 ---

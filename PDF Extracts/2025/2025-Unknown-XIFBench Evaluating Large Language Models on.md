@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-XIFBench Evaluating Large Language Models on - PDF Extract"
-source_pdf: "2025-Unknown-XIFBench Evaluating Large Language Models on.pdf"
+title: "2025-Li-XIFBench Evaluating Large Language Models on - PDF Extract"
+source_pdf: "2025-Li-XIFBench Evaluating Large Language Models on.pdf"
 pages: 35
 extracted_at: "2026-02-13T14:50:58.383135"
 ---
 
-# PDF Extract: 2025-Unknown-XIFBench Evaluating Large Language Models on
+# PDF Extract: 2025-Li-XIFBench Evaluating Large Language Models on
 
-**Source PDF:** 2025-Unknown-XIFBench Evaluating Large Language Models on.pdf
+**Source PDF:** 2025-Li-XIFBench Evaluating Large Language Models on.pdf
 **Total Pages:** 35
 
 ---

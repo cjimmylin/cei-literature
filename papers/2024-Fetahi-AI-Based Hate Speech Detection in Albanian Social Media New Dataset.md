@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "AlBERT-Albanian (if exists), mBERT, XLM-RoBERTa"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Toxicity & Hate Speech"
@@ -67,6 +68,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Develops human-annotated dataset of over 11,000 comments from Albanian social media platforms with a two-layer taxonomy for hate speech. Three expert annotators with Fleiss kappa of 0.62. Naive Bayes with TF-IDF achieves F1=0.80 binary, XGBoost F1=0.77 multiclass.
+
+## Data Description
+
+Dataset of 11,000+ Albanian social media comments annotated for hate speech with two-layer taxonomy by 3 expert annotators (Fleiss kappa 0.62). Evaluates traditional ML (Naive Bayes, XGBoost) rather than modern LLMs. No public dataset URL provided.
+
 
 ## Notes
 

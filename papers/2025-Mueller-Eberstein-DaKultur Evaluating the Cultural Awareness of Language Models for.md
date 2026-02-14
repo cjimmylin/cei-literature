@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "https://mxij.me/x/dakultur"
 tags: 
 abstract: "Large Language Models (LLMs) have seen widespread societal adoption. However, while they are able to interact with users in languages beyond English, they have been shown to lack cultural awareness, providing anglocentric or inappropriate responses for underrepresented language communities. To investigate this gap and disentangle linguistic versus cultural proficiency, we conduct the first cultural evaluation study for the mid-resource language of Danish, in which native speakers prompt..."
 research_topic: "Social & Cultural Analysis"
@@ -65,6 +66,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 First cultural evaluation study for Danish with 1,038 interactions from 63 native speakers. Training on native-speaker data doubles response acceptance rates. Maximum acceptance of 42% highlights need for further research in aligning LLMs to Danish culture.
+
+## Data Description
+
+DaKultur is the first cultural evaluation dataset for Danish with 1,038 interactions from 63 native speakers. Native speakers prompt different models to solve tasks requiring cultural awareness. Training on native-speaker data doubles response acceptance rates (14% to 42%), with maximum acceptance of 42% highlighting the need for further research in aligning LLMs to Danish culture.
+
 
 ## Notes
 

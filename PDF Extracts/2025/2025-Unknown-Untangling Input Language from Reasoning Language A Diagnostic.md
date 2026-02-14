@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Untangling Input Language from Reasoning Language A Diagnostic - PDF Extract"
-source_pdf: "2025-Unknown-Untangling Input Language from Reasoning Language A Diagnostic.pdf"
+title: "2025-Li-Untangling Input Language from Reasoning Language A Diagnostic - PDF Extract"
+source_pdf: "2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.pdf"
 pages: 22
 extracted_at: "2026-02-13T09:50:29.334163"
 ---
 
-# PDF Extract: 2025-Unknown-Untangling Input Language from Reasoning Language A Diagnostic
+# PDF Extract: 2025-Li-Untangling Input Language from Reasoning Language A Diagnostic
 
-**Source PDF:** 2025-Unknown-Untangling Input Language from Reasoning Language A Diagnostic.pdf
+**Source PDF:** 2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.pdf
 **Total Pages:** 22
 
 ---

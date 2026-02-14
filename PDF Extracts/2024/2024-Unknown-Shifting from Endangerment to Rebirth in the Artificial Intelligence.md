@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-Shifting from Endangerment to Rebirth in the Artificial Intelligence - PDF Extract"
-source_pdf: "2024-Unknown-Shifting from Endangerment to Rebirth in the Artificial Intelligence.pdf"
+title: "2024-Khaksar-Shifting from Endangerment to Rebirth in the Artificial Intelligence - PDF Extract"
+source_pdf: "2024-Khaksar-Shifting from Endangerment to Rebirth in the Artificial Intelligence.pdf"
 pages: 19
 extracted_at: "2026-02-13T09:50:29.935698"
 ---
 
-# PDF Extract: 2024-Unknown-Shifting from Endangerment to Rebirth in the Artificial Intelligence
+# PDF Extract: 2024-Khaksar-Shifting from Endangerment to Rebirth in the Artificial Intelligence
 
-**Source PDF:** 2024-Unknown-Shifting from Endangerment to Rebirth in the Artificial Intelligence.pdf
+**Source PDF:** 2024-Khaksar-Shifting from Endangerment to Rebirth in the Artificial Intelligence.pdf
 **Total Pages:** 19
 
 ---

@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Large and Small models for collaborative cross-lingual data - PDF Extract"
-source_pdf: "2025-Unknown-Large and Small models for collaborative cross-lingual data.pdf"
+title: "2025-Wang-Large and Small models for collaborative cross-lingual data - PDF Extract"
+source_pdf: "2025-Wang-Large and Small models for collaborative cross-lingual data.pdf"
 pages: 22
 extracted_at: "2026-02-13T14:50:57.522514"
 ---
 
-# PDF Extract: 2025-Unknown-Large and Small models for collaborative cross-lingual data
+# PDF Extract: 2025-Wang-Large and Small models for collaborative cross-lingual data
 
-**Source PDF:** 2025-Unknown-Large and Small models for collaborative cross-lingual data.pdf
+**Source PDF:** 2025-Wang-Large and Small models for collaborative cross-lingual data.pdf
 **Total Pages:** 22
 
 ---

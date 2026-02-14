@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERTeus, mBERT, mT5, XLM-RoBERTa"
+DATA_URL: "https://github.com/orai-nlp/BasqueGLUE"
 tags: 
 abstract:
 research_topic: "Machine Learning"
@@ -66,6 +67,15 @@ research_topic: "Machine Learning"
 ## Abstract
 
 First NLU benchmark for Basque, following GLUE/SuperGLUE criteria. Includes 9 tasks and baselines from state-of-the-art Basque language models. Freely available under open license.
+
+## Summary
+
+This paper introduces BasqueGLUE, the first comprehensive Natural Language Understanding benchmark for Basque, a low-resource and morphologically rich language, following the design principles of GLUE and SuperGLUE. The benchmark comprises nine tasks including sentiment analysis, topic classification, named entity recognition, POS tagging, dependency parsing, and semantic textual similarity. The authors evaluate several state-of-the-art language models on BasqueGLUE including BERTeus, mBERT, mT5, and XLM-RoBERTa to establish baseline performance. The benchmark and all associated data are freely available under an open license to support future Basque NLP research.
+
+## Data Description
+
+BasqueGLUE benchmark for Basque Natural Language Understanding, containing 6 tasks including sentiment analysis, topic classification, named entity recognition, POS tagging, dependency parsing, and semantic textual similarity. First comprehensive benchmark suite for evaluating language models on Basque.
+
 
 ## Notes
 

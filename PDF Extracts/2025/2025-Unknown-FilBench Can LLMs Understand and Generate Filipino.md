@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-FilBench Can LLMs Understand and Generate Filipino - PDF Extract"
-source_pdf: "2025-Unknown-FilBench Can LLMs Understand and Generate Filipino.pdf"
+title: "2025-Miranda-FilBench Can LLMs Understand and Generate Filipino - PDF Extract"
+source_pdf: "2025-Miranda-FilBench Can LLMs Understand and Generate Filipino.pdf"
 pages: 33
 extracted_at: "2026-02-13T09:50:32.516846"
 ---
 
-# PDF Extract: 2025-Unknown-FilBench Can LLMs Understand and Generate Filipino
+# PDF Extract: 2025-Miranda-FilBench Can LLMs Understand and Generate Filipino
 
-**Source PDF:** 2025-Unknown-FilBench Can LLMs Understand and Generate Filipino.pdf
+**Source PDF:** 2025-Miranda-FilBench Can LLMs Understand and Generate Filipino.pdf
 **Total Pages:** 33
 
 ---

@@ -1,0 +1,78 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0152
+type: conferencePaper
+short_title: "KurdiSent: A Corpus for Kurdish Sentiment Analysis"
+year: 2023
+first_author: "[[Soran Badawi]]"
+last_author: "[[Unknown]]"
+authors: Soran Badawi; Arefeh Kazemi; Vali Rezaie
+doi: 10.1007/s10579-023-09716-6
+url: "https://link.springer.com/article/10.1007/s10579-023-09716-6"
+publication: Language Resources and Evaluation (Springer)
+local_pdf: 
+pdf_extract: 
+DATE_ADDED: 20260213
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+languages_list: "Kurdish (Sorani)"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract:
+research_topic: "NLP & Representation Learning"
+---
+# KurdiSent: A Corpus for Kurdish Sentiment Analysis
+
+## Authors
+
+[[Soran Badawi]], [[Arefeh Kazemi]], [[Vali Rezaie]]
+
+## Metadata
+
+**Authors:** Soran Badawi; Arefeh Kazemi; Vali Rezaie
+
+**Year:** 2023
+
+**Type:** conferencePaper
+
+**Venue:** Language Resources and Evaluation (Springer)
+
+**DOI:** [10.1007/s10579-023-09716-6](https://doi.org/10.1007/s10579-023-09716-6)
+
+**Languages:** Kurdish (Sorani)
+
+**Benchmark:** KurdiSent
+
+## Links
+
+- **DOI:** https://doi.org/10.1007/s10579-023-09716-6
+- **URL:** https://link.springer.com/article/10.1007/s10579-023-09716-6
+
+## Abstract
+
+Kurdish sentiment analysis corpus evaluated with machine learning and deep learning classifiers. XLM-R achieves best accuracy of 85%.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent A7
+**Relevance:** Kurdish sentiment analysis corpus — foundational for evaluating bias and sentiment understanding in Kurdish.
+
+## Tags
+

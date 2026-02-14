@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "5,169 questions; 16,774 questions; 4.3m documents"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Latxa (LLaMa-based), Irati, Llama-2, Mistral"
+DATA_URL: "https://github.com/hitz-zentroa/latxa"
 tags: 
 abstract: "We introduce Latxa, a family of large language models for Basque ranging from 7 to 70 billion parameters. Latxa is based on Llama 2, which we continue pretraining on a new Basque corpus comprising 4.3M documents and 4.2B tokens. Addressing the scarcity of high-quality benchmarks for Basque, we further introduce 4 multiple choice evaluation datasets: EusProficiency, comprising 5,169 questions from official language proficiency exams; EusReading, comprising 352 reading comprehension questions;..."
 research_topic: "Question Answering"
@@ -65,6 +66,11 @@ research_topic: "Question Answering"
 ## Abstract
 
 Family of LLMs for Basque (7B-70B parameters) with 4 evaluation datasets: EusProficiency (5,169 questions), EusReading (352 questions), EusTrivia (1,715 questions), EusExams (16,774 questions). Latxa outperforms all previous open models and is competitive with GPT-4 Turbo.
+
+## Data Description
+
+Latxa language model family and evaluation suite for Basque, based on LLaMa-2 architecture with continued pre-training and instruction tuning on Basque text. Includes EusKaliBench evaluation benchmark testing question answering, sentiment analysis, named entity recognition, and linguistic tasks.
+
 
 ## Notes
 

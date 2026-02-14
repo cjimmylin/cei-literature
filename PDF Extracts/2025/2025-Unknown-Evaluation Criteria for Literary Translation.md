@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Evaluation Criteria for Literary Translation - PDF Extract"
-source_pdf: "2025-Unknown-Evaluation Criteria for Literary Translation.pdf"
+title: "2025-Translation-Evaluation Criteria for Literary Translation - PDF Extract"
+source_pdf: "2025-Translation-Evaluation Criteria for Literary Translation.pdf"
 pages: 6
 extracted_at: "2026-02-13T14:50:56.825927"
 ---
 
-# PDF Extract: 2025-Unknown-Evaluation Criteria for Literary Translation
+# PDF Extract: 2025-Translation-Evaluation Criteria for Literary Translation
 
-**Source PDF:** 2025-Unknown-Evaluation Criteria for Literary Translation.pdf
+**Source PDF:** 2025-Translation-Evaluation Criteria for Literary Translation.pdf
 **Total Pages:** 6
 
 ---

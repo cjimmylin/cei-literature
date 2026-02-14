@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns - PDF Extract"
-source_pdf: "2025-Unknown-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns.pdf"
+title: "2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns - PDF Extract"
+source_pdf: "2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns.pdf"
 pages: 15
 extracted_at: "2026-02-13T13:57:15.413019"
 ---
 
-# PDF Extract: 2025-Unknown-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns
+# PDF Extract: 2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns
 
-**Source PDF:** 2025-Unknown-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns.pdf
+**Source PDF:** 2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns.pdf
 **Total Pages:** 15
 
 ---

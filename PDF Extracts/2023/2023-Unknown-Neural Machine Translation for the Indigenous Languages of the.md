@@ -1,13 +1,13 @@
 ---
-title: "2023-Unknown-Neural Machine Translation for the Indigenous Languages of the - PDF Extract"
-source_pdf: "2023-Unknown-Neural Machine Translation for the Indigenous Languages of the.pdf"
+title: "2023-Mager-Neural Machine Translation for the Indigenous Languages of the - PDF Extract"
+source_pdf: "2023-Mager-Neural Machine Translation for the Indigenous Languages of the.pdf"
 pages: 25
 extracted_at: "2026-02-13T13:57:10.837608"
 ---
 
-# PDF Extract: 2023-Unknown-Neural Machine Translation for the Indigenous Languages of the
+# PDF Extract: 2023-Mager-Neural Machine Translation for the Indigenous Languages of the
 
-**Source PDF:** 2023-Unknown-Neural Machine Translation for the Indigenous Languages of the.pdf
+**Source PDF:** 2023-Mager-Neural Machine Translation for the Indigenous Languages of the.pdf
 **Total Pages:** 25
 
 ---

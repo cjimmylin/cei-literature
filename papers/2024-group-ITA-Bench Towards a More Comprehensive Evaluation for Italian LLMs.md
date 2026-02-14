@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/SapienzaNLP/ita-bench"
 tags: 
 abstract:
 research_topic: "Other"
@@ -65,6 +66,11 @@ research_topic: "Other"
 ## Abstract
 
 A benchmark suite for evaluating LLMs on Italian, including 10 benchmarks (ARC, BoolQ, GSM8K, HellaSwag, MMLU, PIQA, SciQ, TruthfulQA, Winogrande). Addresses the problem that English-centric benchmark translations may contain culturally inappropriate instances.
+
+## Data Description
+
+ITA-Bench is a benchmark suite for evaluating LLMs on Italian, including 10 benchmarks (ARC, BoolQ, GSM8K, HellaSwag, MMLU, PIQA, SciQ, TruthfulQA, Winogrande). Includes TruthfulQA for Italian to evaluate truthfulness and safety. Addresses the problem that English-centric benchmark translations may contain culturally inappropriate instances.
+
 
 ## Notes
 

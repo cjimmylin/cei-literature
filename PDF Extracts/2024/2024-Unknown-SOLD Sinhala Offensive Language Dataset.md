@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-SOLD Sinhala Offensive Language Dataset - PDF Extract"
-source_pdf: "2024-Unknown-SOLD Sinhala Offensive Language Dataset.pdf"
+title: "2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset - PDF Extract"
+source_pdf: "2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset.pdf"
 pages: 48
 extracted_at: "2026-02-13T09:50:29.836901"
 ---
 
-# PDF Extract: 2024-Unknown-SOLD Sinhala Offensive Language Dataset
+# PDF Extract: 2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset
 
-**Source PDF:** 2024-Unknown-SOLD Sinhala Offensive Language Dataset.pdf
+**Source PDF:** 2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset.pdf
 **Total Pages:** 48
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/guscode/dkhate"
 tags: 
 abstract: "The presence of offensive language on social media platforms and the implications this poses is becoming a major concern in modern society. Given the enormous amount of content created every day, automatic methods are required to detect and deal with this type of content. Until now, most of the research has focused on solving the problem for the English language, while the problem is multilingual. We construct a Danish dataset containing user-generated comments from Reddit and Facebook."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -67,6 +68,15 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 First Danish hate speech/offensive language dataset with 3,600 annotated comments from various social media platforms following the OLID annotation scheme. Provides train/test splits for benchmarking.
+
+## Summary
+
+This paper introduces DKHate, the first Danish dataset for offensive language and hate speech detection, containing 3,600 user-generated comments from Reddit and Facebook annotated using the OLID three-level hierarchical framework (offensive vs. non-offensive, targeted vs. untargeted, and target type). The authors develop four automatic classification systems designed to work for both English and Danish, with the best Danish system achieving macro F1 scores of 0.70 for offensive language detection, 0.73 for targeting detection, and 0.63 for target type classification. The dataset addresses the multilingual gap in offensive language research and captures characteristics of hate speech and cyberbullying.
+
+## Data Description
+
+DKHate dataset for offensive language and hate speech detection in Danish, containing annotated comments from Reddit and Facebook. Evaluates Danish BERT models and multilingual models on binary offensive language classification.
+
 
 ## Notes
 

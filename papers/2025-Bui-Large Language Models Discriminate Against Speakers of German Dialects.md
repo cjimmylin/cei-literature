@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Llama-3.1-70B, Llama-3.1-8B, Llama-3-70B, Llama-3-8B, Mistral-7B, Gemma-7B, GPT-4o-mini, GPT-4, Claude-3.5-Sonnet"
+DATA_URL: "NA"
 tags: 
 abstract: "Dialects represent a significant component of human culture and are found across all regions of the world. In Germany, more than 40% of the population speaks a regional dialect (Adler and Hansen, 2022). However, despite cultural importance, individuals speaking dialects often face negative societal stereotypes. We examine whether such stereotypes are mirrored by large language models (LLMs). We draw on the sociolinguistic literature on dialect perception to analyze traits commonly associated..."
 ethics_perspective: "Bias & Fairness"
@@ -63,6 +64,15 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Examines whether LLMs exhibit stereotypes against German dialect speakers. Evaluates 7 German dialects and finds all LLMs show significant dialect naming and usage bias against dialect speakers, reflected in negative adjective associations and biased decision-making.
+
+## Summary
+
+This paper investigates dialect bias in LLMs by examining seven German dialects (Low German, North Frisian, Saterfrisian, Ripuarian, Rhine Franconian, Alemannic, Bavarian) using association and decision tasks. The authors construct a novel evaluation corpus pairing dialect sentences with standard German counterparts and evaluate nine LLMs including Llama-3.1, GPT-4o, and Claude-3.5-Sonnet. Findings reveal that all models exhibit significant dialect naming and usage bias, associating dialect speakers with negative traits like 'uneducated' and making biased decisions in job assignment tasks, with explicit demographic labeling amplifying bias more than implicit dialect usage.
+
+## Data Description
+
+This paper constructs a novel evaluation corpus pairing sentences from seven regional German dialects (Low German, North Frisian, Saterfrisian, Ripuarian, Rhine Franconian, Alemannic, Bavarian) with their standard German counterparts. It evaluates dialect naming bias and dialect usage bias through association tasks and decision-making tasks, finding all LLMs exhibit significant bias against German dialect speakers.
+
 
 ## Notes
 

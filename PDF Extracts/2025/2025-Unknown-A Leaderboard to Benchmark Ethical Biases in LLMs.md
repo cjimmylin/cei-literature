@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-A Leaderboard to Benchmark Ethical Biases in LLMs - PDF Extract"
-source_pdf: "2025-Unknown-A Leaderboard to Benchmark Ethical Biases in LLMs.pdf"
+title: "2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs - PDF Extract"
+source_pdf: "2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.pdf"
 pages: 7
 extracted_at: "2026-02-13T14:50:55.385950"
 ---
 
-# PDF Extract: 2025-Unknown-A Leaderboard to Benchmark Ethical Biases in LLMs
+# PDF Extract: 2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs
 
-**Source PDF:** 2025-Unknown-A Leaderboard to Benchmark Ethical Biases in LLMs.pdf
+**Source PDF:** 2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.pdf
 **Total Pages:** 7
 
 ---

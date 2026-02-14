@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Large language models (LLMs) play a crucial role in a wide range of real world applications. However, concerns about their safety and ethical implications are growing. While research on LLM safety is expanding, there is a noticeable gap in evaluating safety across multiple languages, especially in Arabic and Russian. We address this gap by exploring biases in LLMs across different languages and contexts, focusing on GPT-3.5 and Gemini. Through carefully designed argument-based prompts and scenarios in Arabic, English, and Russian, we examine biases in cultural, political, racial, religious, and gender domains. Our findings reveal biases in these domains. In particular, our investigation uncovers subtle biases where each model tends to present winners as those speaking the primary language the model is prompted with. Our study contributes to ongoing efforts to ensure justice and equality in LLM development and emphasizes the importance of further research towards responsible progress in this field."
 ethics_perspective: "Bias & Fairness"
 ---
 # John vs. Ahmed: Debate-Induced Bias in Multilingual LLMs
@@ -62,7 +62,8 @@ ethics_perspective: "Bias & Fairness"
 
 ## Abstract
 
-Based on the search results, I found several recent 2025 studies on religious bias in LLMs with focus on Arabic and Islamic topics: Key Benchmarks and Studies IslamTrust Benchmark: LLMs struggle significantly with Islamic values, exhibiting biases and misconceptions, with the best-performing model achieving only 66.5% overall alignment, with better performance in Arabic (71.43%) than English (61.58%). PalmX 2025 Shared Task: A benchmarking effort focused on the cultural competence o
+
+Large language models (LLMs) play a crucial role in a wide range of real world applications. However, concerns about their safety and ethical implications are growing. While research on LLM safety is expanding, there is a noticeable gap in evaluating safety across multiple languages, especially in Arabic and Russian. We address this gap by exploring biases in LLMs across different languages and contexts, focusing on GPT-3.5 and Gemini. Through carefully designed argument-based prompts and scenarios in Arabic, English, and Russian, we examine biases in cultural, political, racial, religious, and gender domains. Our findings reveal biases in these domains. In particular, our investigation uncovers subtle biases where each model tends to present winners as those speaking the primary language the model is prompted with. Our study contributes to ongoing efforts to ensure justice and equality in LLM development and emphasizes the importance of further research towards responsible progress in this field.
 
 ## Notes
 

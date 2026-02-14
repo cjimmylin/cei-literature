@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Meltemi-7B, Mistral-7B"
+DATA_URL: "https://huggingface.co/ilsp/Meltemi-7B-v1"
 tags: 
 abstract: "We describe the development and capabilities of Meltemi 7B, the ﬁrst open Large Language Model for the Greek language. Meltemi 7B has 7 billion parameters and is trained on a 40 billion token Greek corpus. For the development of Meltemi 7B, we adapt Mistral, by continuous pretraining on the Greek Corpus. Meltemi 7B contains upto-date information up to September 2023. Furthermore, we have translated and curated a Greek instruction corpus, which has been used for the instruction-tuning of a chat..."
 ethics_perspective: "AI Safety & Alignment"
@@ -66,6 +67,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 The first open LLM for Greek, built on Mistral-7B with continual pretraining on 40B Greek tokens. Includes a comprehensive evaluation suite with Greek versions of ARC, TruthfulQA, HellaSwag, MMLU, Belebele, and a novel Medical MCQA benchmark. Meltemi-7B shows +20.2% average improvement across all Greek test sets.
+
+## Data Description
+
+Meltemi is the first open LLM for Greek, built on Mistral-7B with continual pretraining on 40B Greek tokens. Includes a comprehensive evaluation suite with Greek versions of ARC, TruthfulQA, HellaSwag, MMLU, Belebele, and a novel Medical MCQA benchmark. Meltemi-7B shows +20.2% average improvement across all Greek test sets.
+
 
 ## Notes
 

@@ -1,0 +1,78 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0615
+type: conferencePaper
+short_title: How Large Language Models Enhance Low-Resource Mongolian-Chinese Machine Translation?
+year: 2025
+first_author: "[[Zhenjie Gao]]"
+last_author: "[[Unknown]]"
+authors: Zhenjie Gao; Feilong Bao; Yuan Li; Ruichen Hou; Yibo Han
+doi: 10.3724/2096-7004.di.2025.0116
+url: "https://www.sciengine.com/DI/doi/10.3724/2096-7004.di.2025.0116"
+external_pdf: "https://www.sciengine.com/doi/pdf/6A0FFAF926684232A3BB85AA8F6C02DF"
+publication: Web
+local_pdf: "[[PDFs/2025/2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese.md"
+DATE_ADDED: 20260213
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
+languages_list: "Chinese, Mongolian"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract: "The rapid development of Inner Mongolia has led to a growing demand for Mongolian-Chinese translation. However, Mongolian presents significant challenges for machine translation, such as data scarcity and its complex syntactic structures. Consequently, traditional Mongolian-Chinese machine translation methods often produce outputs with poor fluency and suffer from the loss of critical semantic information. In this paper, we propose a Mongolian-Chinese machine translation method based on large language models (LLM-CPT-SymFT). Specifically, LLM-CPTSymFT involves continual pre-training (CPT) of the base model using Mongolian and Chinese corpora, followed by symmetrical fine-tuning (SymFT), which leverages a mix of original Mongolian-Chinese parallel data and its synthetically reversed counterpart, primarily to enhance Mongolian-to-Chinese translation performance. We evaluated our method on two datasets, achieving an average BLEU score improvement of 28.89 compared to baseline models. Results confirm our method’s strong potential for improving Mongolian-Chinese machine translation."
+research_topic: "Machine Translation"
+---
+# How Large Language Models Enhance Low-Resource Mongolian-Chinese Machine Translation?
+
+## Authors
+
+[[Zhenjie Gao]], [[Feilong Bao]], [[Yuan Li]], [[Ruichen Hou]], [[Yibo Han]]
+
+## Metadata
+
+**Authors:** Zhenjie Gao; Feilong Bao; Yuan Li; Ruichen Hou; Yibo Han
+
+**Year:** 2025
+
+**Type:** conferencePaper
+
+**Venue:** Web
+
+**DOI:** [10.3724/2096-7004.di.2025.0116](https://doi.org/10.3724/2096-7004.di.2025.0116)
+
+**Languages:** Chinese, Mongolian
+
+## Links
+
+- **DOI:** https://doi.org/10.3724/2096-7004.di.2025.0116
+- **URL:** https://www.sciengine.com/DI/doi/10.3724/2096-7004.di.2025.0116
+
+## Abstract
+
+
+The rapid development of Inner Mongolia has led to a growing demand for Mongolian-Chinese translation. However, Mongolian presents significant challenges for machine translation, such as data scarcity and its complex syntactic structures. Consequently, traditional Mongolian-Chinese machine translation methods often produce outputs with poor fluency and suffer from the loss of critical semantic information. In this paper, we propose a Mongolian-Chinese machine translation method based on large language models (LLM-CPT-SymFT). Specifically, LLM-CPTSymFT involves continual pre-training (CPT) of the base model using Mongolian and Chinese corpora, followed by symmetrical fine-tuning (SymFT), which leverages a mix of original Mongolian-Chinese parallel data and its synthetically reversed counterpart, primarily to enhance Mongolian-to-Chinese translation performance. We evaluated our method on two datasets, achieving an average BLEU score improvement of 28.89 compared to baseline models. Results confirm our method’s strong potential for improving Mongolian-Chinese machine translation.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent B10
+**Relevance:** Relevant to Mongolian, Chinese
+
+## Tags
+

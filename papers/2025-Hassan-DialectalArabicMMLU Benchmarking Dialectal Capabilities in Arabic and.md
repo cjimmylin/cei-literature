@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "We present DIALECTALARABICMMLU, a new benchmark for evaluating the performance of large language models (LLMs) across Arabic dialects. While recently developed Arabic and multilingual benchmarks have advanced LLM evaluation for Modern Standard Arabic (MSA), dialectal varieties remain underrepresented despite their prevalence in everyday communication. DIALECTALARABICMMLU extends the MMLU-Redux framework through manual translation and adaptation of 3K multiple-choice question–answer pairs into five major dialects (Syrian, Egyptian, Emirati, Saudi, and Moroccan), yielding a total of 15K QA pairs across 32 academic and professional domains (22K QA pairs when also including English and MSA). The benchmark enables systematic assessment of LLM reasoning and comprehension beyond MSA, supporting both task-based and linguistic analysis. We evaluate 19 open-weight Arabic and multilingual LLMs (1B–13B parameters) and report substantial performance variation across dialects, revealing persistent gaps in dialectal generalization. DIALECTALARABICMMLU provides the first unified, human-curated resource for measuring dialectal understanding in Arabic, thus promoting more inclusive evaluation and future model development."
 research_topic: "Machine Translation"
 ---
 # DialectalArabicMMLU: Benchmarking Dialectal Capabilities in Arabic and Multilingual Language Models
@@ -64,7 +64,8 @@ research_topic: "Machine Translation"
 
 ## Abstract
 
-Based on the search results, here's what I found regarding Dialectal Arabic NLP evaluation benchmarks and fairness in 2025: Key Developments Culture & Dialects is showing growing emphasis with 7 benchmarks in 2025 alone, reflecting recognition of cultural alignment importance. Important 2025 Benchmarks DialectalArabicMMLU: A detailed analysis of model behavior across dialects reveals substantial performance disparities and highlights the need for dialect-aware evaluation and traini
+
+We present DIALECTALARABICMMLU, a new benchmark for evaluating the performance of large language models (LLMs) across Arabic dialects. While recently developed Arabic and multilingual benchmarks have advanced LLM evaluation for Modern Standard Arabic (MSA), dialectal varieties remain underrepresented despite their prevalence in everyday communication. DIALECTALARABICMMLU extends the MMLU-Redux framework through manual translation and adaptation of 3K multiple-choice question–answer pairs into five major dialects (Syrian, Egyptian, Emirati, Saudi, and Moroccan), yielding a total of 15K QA pairs across 32 academic and professional domains (22K QA pairs when also including English and MSA). The benchmark enables systematic assessment of LLM reasoning and comprehension beyond MSA, supporting both task-based and linguistic analysis. We evaluate 19 open-weight Arabic and multilingual LLMs (1B–13B parameters) and report substantial performance variation across dialects, revealing persistent gaps in dialectal generalization. DIALECTALARABICMMLU provides the first unified, human-curated resource for measuring dialectal understanding in Arabic, thus promoting more inclusive evaluation and future model development.
 
 ## Notes
 

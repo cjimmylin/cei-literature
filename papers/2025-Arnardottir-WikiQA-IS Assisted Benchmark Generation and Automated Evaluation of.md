@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4, GPT-4o"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Social & Cultural Analysis"
@@ -64,6 +65,15 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 2,000 QA pairs on Icelandic culture and history generated from Wikipedia/news using GPT-4. Automated evaluation via GPT-4o as judge shows strong agreement with human evaluation. Closed-source models outperform open-weights for Icelandic cultural knowledge.
+
+## Summary
+
+This paper presents WikiQA-IS, a benchmark of 2,000 question-answer pairs on Icelandic culture and history generated from Wikipedia and news sources using GPT-4. The authors use GPT-4o as an automated judge for evaluation, demonstrating strong agreement with human evaluation. The benchmark reveals that closed-source LLMs significantly outperform open-weight models on Icelandic cultural knowledge tasks.
+
+## Data Description
+
+WikiQA-IS is a benchmark of 2,000 QA pairs on Icelandic culture and history generated from Wikipedia and news using GPT-4. Automated evaluation via GPT-4o as judge shows strong agreement with human evaluation. Closed-source models outperform open-weights for Icelandic cultural knowledge.
+
 
 ## Notes
 

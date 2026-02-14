@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Mitigating Social Bias in English and - PDF Extract"
-source_pdf: "2025-Unknown-Mitigating Social Bias in English and.pdf"
+title: "2025-[[Unknown]]-Mitigating Social Bias in English and - PDF Extract"
+source_pdf: "2025-[[Unknown]]-Mitigating Social Bias in English and.pdf"
 pages: 16
 extracted_at: "2026-02-13T09:15:42.570743"
 ---
 
-# PDF Extract: 2025-Unknown-Mitigating Social Bias in English and
+# PDF Extract: 2025-[[Unknown]]-Mitigating Social Bias in English and
 
-**Source PDF:** 2025-Unknown-Mitigating Social Bias in English and.pdf
+**Source PDF:** 2025-[[Unknown]]-Mitigating Social Bias in English and.pdf
 **Total Pages:** 16
 
 ---

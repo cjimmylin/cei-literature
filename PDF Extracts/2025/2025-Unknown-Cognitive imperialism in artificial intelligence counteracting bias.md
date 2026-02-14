@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Cognitive imperialism in artificial intelligence counteracting bias - PDF Extract"
-source_pdf: "2025-Unknown-Cognitive imperialism in artificial intelligence counteracting bias.pdf"
+title: "2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias - PDF Extract"
+source_pdf: "2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias.pdf"
 pages: 17
 extracted_at: "2026-02-13T14:50:56.503489"
 ---
 
-# PDF Extract: 2025-Unknown-Cognitive imperialism in artificial intelligence counteracting bias
+# PDF Extract: 2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias
 
-**Source PDF:** 2025-Unknown-Cognitive imperialism in artificial intelligence counteracting bias.pdf
+**Source PDF:** 2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias.pdf
 **Total Pages:** 17
 
 ---

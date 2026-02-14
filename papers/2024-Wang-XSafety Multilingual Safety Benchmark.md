@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"
 tags: 
 abstract:
 ethics_perspective: "AI Safety & Alignment"
@@ -65,6 +66,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Multilingual safety benchmark covering 14 commonly used safety issues across 10 languages including French. Evaluates LLM safety behaviors across diverse linguistic contexts. Highlights that safety performance does not generalize well across languages.
+
+## Data Description
+
+XSafety is a multilingual safety benchmark covering 14 commonly used safety issues across 10 languages including French, Arabic, Bengali, Chinese, English, German, Hindi, Japanese, Russian, and Spanish. Evaluates LLM safety behaviors across diverse linguistic contexts. Highlights that safety performance does not generalize well across languages.
+
 
 ## Notes
 

@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Incorporating indigenous knowledge systems into AI governance - PDF Extract"
-source_pdf: "2025-Unknown-Incorporating indigenous knowledge systems into AI governance.pdf"
+title: "2025-Ray-Incorporating indigenous knowledge systems into AI governance - PDF Extract"
+source_pdf: "2025-Ray-Incorporating indigenous knowledge systems into AI governance.pdf"
 pages: 16
 extracted_at: "2026-02-13T14:50:57.368403"
 ---
 
-# PDF Extract: 2025-Unknown-Incorporating indigenous knowledge systems into AI governance
+# PDF Extract: 2025-Ray-Incorporating indigenous knowledge systems into AI governance
 
-**Source PDF:** 2025-Unknown-Incorporating indigenous knowledge systems into AI governance.pdf
+**Source PDF:** 2025-Ray-Incorporating indigenous knowledge systems into AI governance.pdf
 **Total Pages:** 16
 
 ---

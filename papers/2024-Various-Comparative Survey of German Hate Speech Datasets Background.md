@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Bias & Fairness"
@@ -63,6 +64,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Overview of nine German hate speech datasets applying a bias analysis framework. Identifies topical biases across datasets and notes that German datasets predominantly focus on Twitter with limited exploration of other platforms.
+
+## Data Description
+
+Overview of nine German hate speech datasets applying a bias analysis framework. Identifies topical biases across datasets and notes that German datasets predominantly focus on Twitter with limited exploration of other platforms. This is a survey paper, not a benchmark or model evaluation.
+
 
 ## Notes
 

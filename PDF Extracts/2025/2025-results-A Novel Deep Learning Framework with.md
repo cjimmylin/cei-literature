@@ -1,13 +1,13 @@
 ---
-title: "2025-results-A Novel Deep Learning Framework with - PDF Extract"
-source_pdf: "2025-results-A Novel Deep Learning Framework with.pdf"
+title: "2025-results]]-A Novel Deep Learning Framework with - PDF Extract"
+source_pdf: "2025-results]]-A Novel Deep Learning Framework with.pdf"
 pages: 13
 extracted_at: "2026-02-13T10:43:55.895792"
 ---
 
-# PDF Extract: 2025-results-A Novel Deep Learning Framework with
+# PDF Extract: 2025-results]]-A Novel Deep Learning Framework with
 
-**Source PDF:** 2025-results-A Novel Deep Learning Framework with.pdf
+**Source PDF:** 2025-results]]-A Novel Deep Learning Framework with.pdf
 **Total Pages:** 13
 
 ---

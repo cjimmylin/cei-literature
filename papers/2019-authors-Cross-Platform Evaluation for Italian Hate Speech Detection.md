@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Toxicity & Hate Speech"
@@ -62,6 +63,15 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Comparative evaluation on datasets for hate speech detection in Italian across four social media platforms: Facebook, Twitter, Instagram, and WhatsApp. Shows combining platform-dependent datasets for training is beneficial, though impact varies by social network.
+
+## Summary
+
+This paper conducts a cross-platform evaluation of hate speech detection models for Italian, comparing performance across datasets from Facebook, Twitter, Instagram, and WhatsApp. The study demonstrates that combining platform-dependent datasets for training improves model performance, though the magnitude of improvement varies across different social media platforms. The work addresses the challenge of cross-domain bias in hate speech detection and provides insights into platform-specific characteristics that affect model generalization.
+
+## Data Description
+
+Cross-platform evaluation study for Italian hate speech detection across Facebook, Twitter, Instagram, and WhatsApp. Shows that combining platform-dependent datasets for training is beneficial. The paper focuses on evaluation methodology rather than introducing a new dataset.
+
 
 ## Notes
 

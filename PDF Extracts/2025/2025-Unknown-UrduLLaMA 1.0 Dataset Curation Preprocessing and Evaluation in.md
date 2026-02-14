@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in - PDF Extract"
-source_pdf: "2025-Unknown-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in.pdf"
+title: "2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in - PDF Extract"
+source_pdf: "2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in.pdf"
 pages: 13
 extracted_at: "2026-02-13T09:50:29.396547"
 ---
 
-# PDF Extract: 2025-Unknown-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in
+# PDF Extract: 2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in
 
-**Source PDF:** 2025-Unknown-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in.pdf
+**Source PDF:** 2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in.pdf
 **Total Pages:** 13
 
 ---

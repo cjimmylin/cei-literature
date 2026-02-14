@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-HateXplain A Benchmark Dataset for Explainable Hate Speech Detection - PDF Extract"
-source_pdf: "2025-Unknown-HateXplain A Benchmark Dataset for Explainable Hate Speech Detection.pdf"
+title: "2025-Mathew-HateXplain A Benchmark Dataset for Explainable Hate Speech Detection - PDF Extract"
+source_pdf: "2025-Mathew-HateXplain A Benchmark Dataset for Explainable Hate Speech Detection.pdf"
 pages: 12
 extracted_at: "2026-02-13T14:50:57.152896"
 ---
 
-# PDF Extract: 2025-Unknown-HateXplain A Benchmark Dataset for Explainable Hate Speech Detection
+# PDF Extract: 2025-Mathew-HateXplain A Benchmark Dataset for Explainable Hate Speech Detection
 
-**Source PDF:** 2025-Unknown-HateXplain A Benchmark Dataset for Explainable Hate Speech Detection.pdf
+**Source PDF:** 2025-Mathew-HateXplain A Benchmark Dataset for Explainable Hate Speech Detection.pdf
 **Total Pages:** 12
 
 ---

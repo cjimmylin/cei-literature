@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Code-switching (CSW) is the act of alternating between two or more languages within a single discourse. This phenomenon is widespread in multilingual communities, and increasingly prevalent in online content, where users naturally mix languages in everyday communication. As a result, Large Language Models (LLMs), now central to content processing and generation, are frequently exposed to code-switched inputs. Given their widespread use, it is crucial to understand how LLMs process and reason about such mixed-language text. This paper presents a systematic evaluation of LLM comprehension under codeswitching by generating CSW variants of established reasoning and comprehension benchmarks. While degradation is evident when foreign tokens disrupt English text—even under linguistic constraints—embedding English into other languages often improves comprehension. Though prompting yields mixed results, finetuning offers a more stable path to degradation mitigation."
 research_topic: "Other"
 ---
 # Lost in the Mix: Evaluating LLM Understanding of Code-Switched Text
@@ -62,7 +62,8 @@ research_topic: "Other"
 
 ## Abstract
 
-I've retrieved comprehensive search results on code-switching LLM benchmark evaluation. Here's a summary of the key findings: Recent Research and Benchmarks Current benchmarks for evaluating code-switching capabilities of language models primarily focus on surface-level tasks but largely overlook deeper reasoning and semantic understanding in mixed-language settings.
+
+Code-switching (CSW) is the act of alternating between two or more languages within a single discourse. This phenomenon is widespread in multilingual communities, and increasingly prevalent in online content, where users naturally mix languages in everyday communication. As a result, Large Language Models (LLMs), now central to content processing and generation, are frequently exposed to code-switched inputs. Given their widespread use, it is crucial to understand how LLMs process and reason about such mixed-language text. This paper presents a systematic evaluation of LLM comprehension under codeswitching by generating CSW variants of established reasoning and comprehension benchmarks. While degradation is evident when foreign tokens disrupt English text—even under linguistic constraints—embedding English into other languages often improves comprehension. Though prompting yields mixed results, finetuning offers a more stable path to degradation mitigation.
 
 ## Notes
 

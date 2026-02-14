@@ -1,13 +1,13 @@
 ---
-title: "2025-results-Debiasing Large Language Models in Thai - PDF Extract"
-source_pdf: "2025-results-Debiasing Large Language Models in Thai.pdf"
+title: "2025-results]]-Debiasing Large Language Models in Thai - PDF Extract"
+source_pdf: "2025-results]]-Debiasing Large Language Models in Thai.pdf"
 pages: 9
 extracted_at: "2026-02-13T09:15:41.808650"
 ---
 
-# PDF Extract: 2025-results-Debiasing Large Language Models in Thai
+# PDF Extract: 2025-results]]-Debiasing Large Language Models in Thai
 
-**Source PDF:** 2025-results-Debiasing Large Language Models in Thai.pdf
+**Source PDF:** 2025-results]]-Debiasing Large Language Models in Thai.pdf
 **Total Pages:** 9
 
 ---

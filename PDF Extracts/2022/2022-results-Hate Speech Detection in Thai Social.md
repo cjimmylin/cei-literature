@@ -1,13 +1,13 @@
 ---
-title: "2022-results-Hate Speech Detection in Thai Social - PDF Extract"
-source_pdf: "2022-results-Hate Speech Detection in Thai Social.pdf"
+title: "2022-results]]-Hate Speech Detection in Thai Social - PDF Extract"
+source_pdf: "2022-results]]-Hate Speech Detection in Thai Social.pdf"
 pages: 45
 extracted_at: "2026-02-13T10:43:50.492101"
 ---
 
-# PDF Extract: 2022-results-Hate Speech Detection in Thai Social
+# PDF Extract: 2022-results]]-Hate Speech Detection in Thai Social
 
-**Source PDF:** 2022-results-Hate Speech Detection in Thai Social.pdf
+**Source PDF:** 2022-results]]-Hate Speech Detection in Thai Social.pdf
 **Total Pages:** 45
 
 ---

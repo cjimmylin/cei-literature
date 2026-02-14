@@ -1,13 +1,13 @@
 ---
-title: "2022-Unknown-Hate Speech Forms and Implications in English and Kurdish Social Media - PDF Extract"
-source_pdf: "2022-Unknown-Hate Speech Forms and Implications in English and Kurdish Social Media.pdf"
+title: "2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media - PDF Extract"
+source_pdf: "2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.pdf"
 pages: 9
 extracted_at: "2026-02-13T10:43:50.350355"
 ---
 
-# PDF Extract: 2022-Unknown-Hate Speech Forms and Implications in English and Kurdish Social Media
+# PDF Extract: 2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media
 
-**Source PDF:** 2022-Unknown-Hate Speech Forms and Implications in English and Kurdish Social Media.pdf
+**Source PDF:** 2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.pdf
 **Total Pages:** 9
 
 ---

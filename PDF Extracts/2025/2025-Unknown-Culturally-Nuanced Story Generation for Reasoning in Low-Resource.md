@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Culturally-Nuanced Story Generation for Reasoning in Low-Resource - PDF Extract"
-source_pdf: "2025-Unknown-Culturally-Nuanced Story Generation for Reasoning in Low-Resource.pdf"
+title: "2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource - PDF Extract"
+source_pdf: "2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource.pdf"
 pages: 16
 extracted_at: "2026-02-13T09:50:32.213211"
 ---
 
-# PDF Extract: 2025-Unknown-Culturally-Nuanced Story Generation for Reasoning in Low-Resource
+# PDF Extract: 2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource
 
-**Source PDF:** 2025-Unknown-Culturally-Nuanced Story Generation for Reasoning in Low-Resource.pdf
+**Source PDF:** 2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource.pdf
 **Total Pages:** 16
 
 ---

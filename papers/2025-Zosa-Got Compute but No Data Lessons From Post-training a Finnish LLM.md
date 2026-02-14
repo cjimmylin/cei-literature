@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Poro-34B"
+DATA_URL: "https://huggingface.co/LumiOpen/Poro-34B-chat-OpenAssistant"
 tags: 
 abstract: "As LLMs gain more popularity as chatbots and general assistants, methods have been developed to enable LLMs to follow instructions and align with human preferences. These methods have found success in the field, but their effectiveness has not been demonstrated outside of high-resource languages. In this work, we discuss our experiences in post-training an LLM for instruction-following for English and Finnish."
 research_topic: "Machine Translation"
@@ -64,6 +65,11 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Post-training a Finnish LLM (Poro) for instruction-following. Translates IFEval benchmark to Finnish. Using all available English+Finnish data for SFT gives best performance. Releases datasets, recipes, and model openly.
+
+## Data Description
+
+Post-trains the Poro Finnish LLM for instruction-following, translates IFEval benchmark to Finnish, and demonstrates that using all available English+Finnish data for supervised fine-tuning yields best performance. Releases datasets, training recipes, and the Poro-34B-chat model openly.
+
 
 ## Notes
 

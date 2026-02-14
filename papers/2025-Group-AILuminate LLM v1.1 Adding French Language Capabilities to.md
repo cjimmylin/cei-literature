@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/mlcommons/ailuminate"
 tags: 
 abstract:
 ethics_perspective: "AI Safety & Alignment"
@@ -65,6 +66,15 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Industry-standard AI safety benchmark from MLCommons, released v1.1 with French language capabilities. Assesses LLM responses to over 24,000 French language test prompts across twelve hazard categories including violent crime, hate, and privacy. Developed by Stanford, Columbia, TU Eindhoven, and industry partners.
+
+## Summary
+
+AILuminate LLM v1.1 is an industry-standard AI safety benchmark from MLCommons that extends the original English benchmark with French language capabilities. The benchmark assesses LLM responses to over 24,000 French language test prompts across twelve hazard categories including violent crime, hate speech, privacy violations, and other safety concerns. Developed collaboratively by researchers at Stanford, Columbia University, TU Eindhoven, and industry partners, it provides the first industry-standard methodology for evaluating AI safety across multiple languages with no advance model access.
+
+## Data Description
+
+AILuminate LLM v1.1 is an industry-standard AI safety benchmark from MLCommons with French language capabilities. It assesses LLM responses to over 24,000 French language test prompts across twelve hazard categories including violent crime, hate, and privacy. Developed by Stanford, Columbia, TU Eindhoven, and industry partners.
+
 
 ## Notes
 

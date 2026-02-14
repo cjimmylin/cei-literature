@@ -1,13 +1,13 @@
 ---
-title: "2026-Unknown-UrduBench An Urdu Reasoning Benchmark using - PDF Extract"
-source_pdf: "2026-Unknown-UrduBench An Urdu Reasoning Benchmark using.pdf"
+title: "2026-[[Unknown]]-UrduBench An Urdu Reasoning Benchmark using - PDF Extract"
+source_pdf: "2026-[[Unknown]]-UrduBench An Urdu Reasoning Benchmark using.pdf"
 pages: 19
 extracted_at: "2026-02-13T09:15:46.078231"
 ---
 
-# PDF Extract: 2026-Unknown-UrduBench An Urdu Reasoning Benchmark using
+# PDF Extract: 2026-[[Unknown]]-UrduBench An Urdu Reasoning Benchmark using
 
-**Source PDF:** 2026-Unknown-UrduBench An Urdu Reasoning Benchmark using.pdf
+**Source PDF:** 2026-[[Unknown]]-UrduBench An Urdu Reasoning Benchmark using.pdf
 **Total Pages:** 19
 
 ---
@@ -1767,7 +1767,8 @@ a
 âصورφȎوφʚ
  FϖüّżTϐĩ
  
-لاسφĖ
+
+لاسφĖ
  رφƘ
  یHʋر ںsŮHφį
  
@@ -1778,7 +1779,8 @@ b
  دوںχĖرφʱ
  اφĥ رہŴ Ǹد اχĖرφƘ
  
-cدψĖدφū.
+cدψĖد
+φū.
  سردی کے وںŵ ŭH̥φŒ
  کے ϖüżϙώƑ
  
@@ -1815,7 +1817,8 @@ bوںψńسرد.
  رہŴ Ǹد ےňرφƘ
  ےňوHφǰ
  
-cدψĖدφū.
+cدψĖد
+φū.
  سردی کے وںŵ ŭH̥φŒ
  کے ϖüżϙώƑ
   
@@ -1841,7 +1844,8 @@ c.go slowly
 d.ocean 
 e.slow down 
  
-اںφū
+اں
+φū
  وφƘ ھرφƟ
  
 Fϖ ϗ Ϙ
@@ -1888,7 +1892,8 @@ dدرŦمφƅ.
  
 e. ہůسHφǅ ٓا لوφŪ
  
-اںφū
+اں
+φū
  وφƘ ھرφƟ
  
 Fϖ ϗ Ϙ
@@ -1953,7 +1958,8 @@ e.trip over
  اور ورر اφĖگاφƖ
  اور اφŪوφǬ
  ہφʻ
- وہ دφĖاφū
+ وہ دφĖا
+φū
  
 دوسرے رŴمφŞ
  رφʱ
@@ -1997,7 +2003,8 @@ eرφƘھوؕφŁ.
  اور ورر اφĖگاφƖ
  اور اφŪوφǬ
  ہφʻ
- وہ دφĖاφū
+ وہ دφĖا
+φū
  
 دوسرے رŴمφŞ
  رφʱ
@@ -2041,7 +2048,8 @@ b.quit eating lunch out
 c.buy less with monopoly money 
 d.have lunch with friends 
  
-کχĕا صɼ φ
+کχĕا صɼ 
+φ
 ȹ
  الφū
  کے رφŜ ٓا ںŮφİ
@@ -2057,7 +2065,8 @@ d.have lunch with friends
 ûسTųTφĕ
  
 اφĖا̣ φł
- روعس اχĖرφƘ
+ روع
+س اχĖرφƘ
  اŦ HφǅاφŪ
  ے۔HȄ
  
@@ -2107,7 +2116,8 @@ dوںŵφǁدو.
  رHʃ χōدو اφĥ اφĖھاφƝ
  ھادφƝ
  
-کχĕا صɼ φ
+کχĕا صɼ 
+φ
 ȹ
  الφū
  کے رφŜ ٓا ںŮφİ
@@ -2123,7 +2133,8 @@ dوںŵφǁدو.
 ûسTųTφĕ
  
 اφĖا̣ φł
- روعس اχĖرφƘ
+ روع
+س اχĖرφƘ
  اŦ HφǅاφŪ
  ے۔HȄ
  

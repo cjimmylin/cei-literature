@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking - PDF Extract"
-source_pdf: "2025-Unknown-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking.pdf"
+title: "2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking - PDF Extract"
+source_pdf: "2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking.pdf"
 pages: 19
 extracted_at: "2026-02-13T09:50:29.222467"
 ---
 
-# PDF Extract: 2025-Unknown-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking
+# PDF Extract: 2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking
 
-**Source PDF:** 2025-Unknown-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking.pdf
+**Source PDF:** 2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking.pdf
 **Total Pages:** 19
 
 ---

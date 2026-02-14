@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-Overview of the Multilingual Text Detoxification Task at PAN 2024 - PDF Extract"
-source_pdf: "2024-Unknown-Overview of the Multilingual Text Detoxification Task at PAN 2024.pdf"
+title: "2024-at-Overview of the Multilingual Text Detoxification Task at PAN 2024 - PDF Extract"
+source_pdf: "2024-at-Overview of the Multilingual Text Detoxification Task at PAN 2024.pdf"
 pages: 30
 extracted_at: "2026-02-13T10:43:52.609417"
 ---
 
-# PDF Extract: 2024-Unknown-Overview of the Multilingual Text Detoxification Task at PAN 2024
+# PDF Extract: 2024-at-Overview of the Multilingual Text Detoxification Task at PAN 2024
 
-**Source PDF:** 2024-Unknown-Overview of the Multilingual Text Detoxification Task at PAN 2024.pdf
+**Source PDF:** 2024-at-Overview of the Multilingual Text Detoxification Task at PAN 2024.pdf
 **Total Pages:** 30
 
 ---

@@ -1,13 +1,13 @@
 ---
-title: "2025-results-CultureScope A Dimensional Lens for Probing - PDF Extract"
-source_pdf: "2025-results-CultureScope A Dimensional Lens for Probing.pdf"
+title: "2025-results]]-CultureScope A Dimensional Lens for Probing - PDF Extract"
+source_pdf: "2025-results]]-CultureScope A Dimensional Lens for Probing.pdf"
 pages: 20
 extracted_at: "2026-02-13T09:15:45.459715"
 ---
 
-# PDF Extract: 2025-results-CultureScope A Dimensional Lens for Probing
+# PDF Extract: 2025-results]]-CultureScope A Dimensional Lens for Probing
 
-**Source PDF:** 2025-results-CultureScope A Dimensional Lens for Probing.pdf
+**Source PDF:** 2025-results]]-CultureScope A Dimensional Lens for Probing.pdf
 **Total Pages:** 20
 
 ---

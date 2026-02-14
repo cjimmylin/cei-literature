@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1"
 tags: 
 abstract:
 research_topic: "NLP & Representation Learning"
@@ -68,6 +69,15 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 A monolingual BERT-based language model for modern Greek, evaluated on three NLP tasks including POS tagging, NER, and NLI. Foundation model for downstream Greek NLP tasks including bias evaluation.
+
+## Summary
+
+This paper introduces GREEK-BERT, a monolingual BERT-based language model for modern Greek trained on 29GB of Greek text with a 35,000 sub-word vocabulary. The model is evaluated on three downstream NLP tasks (part-of-speech tagging, named entity recognition, and natural language inference) and achieves state-of-the-art performance, outperforming multilingual models (M-BERT, XLM-R) by 5-10% on two benchmarks. The publicly released model and code serve as a foundation for Greek NLP research and applications, including subsequent bias and fairness evaluations.
+
+## Data Description
+
+GREEK-BERT, a monolingual BERT model for modern Greek trained on 29GB of Greek text from various sources including Wikipedia, news, and legal documents. Evaluated on NER, POS tagging, and UD parsing tasks for Greek NLP.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark annotated dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4o, Claude-3.5-Sonnet, Gemini-Pro, Llama-3.1, Qwen-2.5, DeepSeek-V3, Mistral-Large, Command-R-Plus, Aya-Expanse, GLM-4, InternLM, EXAONE, Plutus-8B"
+DATA_URL: "https://huggingface.co/collections/TheFinAI/plutus-benchmarking-greek-financial-llms-67bc718fb8d897c65f1e87db"
 tags: 
 abstract: "Despite Greece’s pivotal role in the global economy, large language models (LLMs) remain underexplored for Greek financial context due to the linguistic complexity of Greek and the scarcity of domainspecific datasets. Previous efforts in multilingual financial natural language processing (NLP) have exposed considerable performance disparities, yet no dedicated Greek financial benchmarks or Greekspecific financial LLMs have been developed until now."
 research_topic: "NLP & Representation Learning"
@@ -66,6 +67,11 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 The first Greek Financial Evaluation Benchmark addressing five core financial NLP tasks: numeric and textual NER, QA, abstractive summarization, and topic classification. Comprehensive evaluation of 22 LLMs reveals that Greek financial NLP remains challenging. Includes Plutus-8B, the first Greek financial LLM.
+
+## Data Description
+
+Plutus-ben is the first Greek Financial Evaluation Benchmark addressing five core financial NLP tasks: numeric and textual NER, QA, abstractive summarization, and topic classification. Comprehensive evaluation of 22 LLMs reveals that Greek financial NLP remains challenging. Includes Plutus-8B, the first Greek financial LLM, plus three novel human-annotated datasets by expert native Greek speakers.
+
 
 ## Notes
 

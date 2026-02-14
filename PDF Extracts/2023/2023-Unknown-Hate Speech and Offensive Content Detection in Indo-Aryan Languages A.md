@@ -1,13 +1,13 @@
 ---
-title: "2023-Unknown-Hate Speech and Offensive Content Detection in Indo-Aryan Languages A - PDF Extract"
-source_pdf: "2023-Unknown-Hate Speech and Offensive Content Detection in Indo-Aryan Languages A.pdf"
+title: "2023-Narayan-Hate Speech and Offensive Content Detection in Indo-Aryan Languages A - PDF Extract"
+source_pdf: "2023-Narayan-Hate Speech and Offensive Content Detection in Indo-Aryan Languages A.pdf"
 pages: 14
 extracted_at: "2026-02-13T09:50:27.997494"
 ---
 
-# PDF Extract: 2023-Unknown-Hate Speech and Offensive Content Detection in Indo-Aryan Languages A
+# PDF Extract: 2023-Narayan-Hate Speech and Offensive Content Detection in Indo-Aryan Languages A
 
-**Source PDF:** 2023-Unknown-Hate Speech and Offensive Content Detection in Indo-Aryan Languages A.pdf
+**Source PDF:** 2023-Narayan-Hate Speech and Offensive Content Detection in Indo-Aryan Languages A.pdf
 **Total Pages:** 14
 
 ---

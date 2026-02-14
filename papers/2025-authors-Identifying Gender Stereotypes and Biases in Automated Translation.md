@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "machine translation systems"
+DATA_URL: "NA"
 tags: 
 abstract: "This paper is a collaborative effort between Linguistics, Law, and Computer Science to evaluate stereotypes and biases in automated translation systems. We advocate gender-neutral translation as a means to promote gender inclusion and improve the objectivity of machine translation. Our approach focuses on identifying gender bias in Englishto-Italian translations. First, we define gender bias following human rights law and linguistics literature."
 ethics_perspective: "Bias & Fairness"
@@ -63,6 +64,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Evaluates stereotypes and biases in automated English-to-Italian translation systems using similarity networks. Identifies gender-specific terms (she/lei, he/lui) as key elements and uses cosine similarity to reveal model bias. Advocates gender-neutral translation for gender inclusion.
+
+## Data Description
+
+Evaluates gender stereotypes and biases in automated English-to-Italian translation systems using similarity networks to identify gender-specific terms and cosine similarity to reveal model bias. Advocates gender-neutral translation for gender inclusion. Proposes evaluation methodology rather than introducing a dataset.
+
 
 ## Notes
 

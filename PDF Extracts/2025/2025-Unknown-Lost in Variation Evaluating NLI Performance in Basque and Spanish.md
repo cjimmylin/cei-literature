@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Lost in Variation Evaluating NLI Performance in Basque and Spanish - PDF Extract"
-source_pdf: "2025-Unknown-Lost in Variation Evaluating NLI Performance in Basque and Spanish.pdf"
+title: "2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish - PDF Extract"
+source_pdf: "2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish.pdf"
 pages: 17
 extracted_at: "2026-02-13T09:50:28.457632"
 ---
 
-# PDF Extract: 2025-Unknown-Lost in Variation Evaluating NLI Performance in Basque and Spanish
+# PDF Extract: 2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish
 
-**Source PDF:** 2025-Unknown-Lost in Variation Evaluating NLI Performance in Basque and Spanish.pdf
+**Source PDF:** 2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish.pdf
 **Total Pages:** 17
 
 ---

@@ -1,13 +1,13 @@
 ---
-title: "2022-Unknown-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local - PDF Extract"
-source_pdf: "2022-Unknown-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local.pdf"
+title: "2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local - PDF Extract"
+source_pdf: "2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local.pdf"
 pages: 20
 extracted_at: "2026-02-13T09:50:29.199146"
 ---
 
-# PDF Extract: 2022-Unknown-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local
+# PDF Extract: 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local
 
-**Source PDF:** 2022-Unknown-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local.pdf
+**Source PDF:** 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local.pdf
 **Total Pages:** 20
 
 ---

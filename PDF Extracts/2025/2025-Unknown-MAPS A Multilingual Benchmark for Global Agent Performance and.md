@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-MAPS A Multilingual Benchmark for Global Agent Performance and - PDF Extract"
-source_pdf: "2025-Unknown-MAPS A Multilingual Benchmark for Global Agent Performance and.pdf"
+title: "2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and - PDF Extract"
+source_pdf: "2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and.pdf"
 pages: 25
 extracted_at: "2026-02-13T09:50:28.555464"
 ---
 
-# PDF Extract: 2025-Unknown-MAPS A Multilingual Benchmark for Global Agent Performance and
+# PDF Extract: 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and
 
-**Source PDF:** 2025-Unknown-MAPS A Multilingual Benchmark for Global Agent Performance and.pdf
+**Source PDF:** 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and.pdf
 **Total Pages:** 25
 
 ---

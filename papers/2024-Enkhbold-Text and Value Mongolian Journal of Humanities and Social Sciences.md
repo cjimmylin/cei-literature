@@ -34,7 +34,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Given a data set and a learning task such as classification, there are two prime motives for executing some kind of data set reduction. On one hand there is the possible algorithm performance improvement. On the other hand the decrease in the overall size of the data set can bring advantages in storage space used and time spent computing. Our purpose is to determine the importance of several basic reduction techniques on Support Vector Machines, by comparing their relative performance improvement when applied on the standard REUTERS-21578 benchmark."
 ethics_perspective: "General Ethics"
 ---
 # Text and Value | Mongolian Journal of Humanities and Social Sciences
@@ -61,7 +61,8 @@ ethics_perspective: "General Ethics"
 
 ## Abstract
 
-I found the research paper you were looking for. The paper "Recognizing Textual Inference in Mongolian Bar Exam Questions" was authored by Khaltarkhuu, Garmaabazar; Batjargal, Biligsaikhan; and Maeda, Akira.
+
+Given a data set and a learning task such as classification, there are two prime motives for executing some kind of data set reduction. On one hand there is the possible algorithm performance improvement. On the other hand the decrease in the overall size of the data set can bring advantages in storage space used and time spent computing. Our purpose is to determine the importance of several basic reduction techniques on Support Vector Machines, by comparing their relative performance improvement when applied on the standard REUTERS-21578 benchmark.
 
 ## Notes
 

@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and - PDF Extract"
-source_pdf: "2024-Unknown-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.pdf"
+title: "2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and - PDF Extract"
+source_pdf: "2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.pdf"
 pages: 56
 extracted_at: "2026-02-13T09:50:29.435525"
 ---
 
-# PDF Extract: 2024-Unknown-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and
+# PDF Extract: 2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and
 
-**Source PDF:** 2024-Unknown-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.pdf
+**Source PDF:** 2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.pdf
 **Total Pages:** 56
 
 ---

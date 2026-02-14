@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-OSS, Mistral-Small, Llama-3.3, Gemma-3"
+DATA_URL: "https://github.com/schneiderkamplab/SDU-Daisy"
 tags: 
 abstract: "We introduce a new benchmark for Danish culture via cultural heritage, Daisy, based on the curated topics from the Danish Culture Canon 2006. For each artifact in the culture canon, we query the corresponding Wikipedia page and have a language model generate random questions. This yields a sampling strategy within each work, with a mix of central of peripheral questions for each work, not only knowledge of mainstream information, but also in-depth cornerstones defining the heritage of Danish..."
 research_topic: "Social & Cultural Analysis"
@@ -66,6 +67,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Benchmark of 741 close-ended QA pairs based on Danish Culture Canon 2006, covering artifacts from 1300 BC to contemporary culture. Each question humanly approved/corrected. Evaluates LLMs' Danish cultural heritage knowledge.
+
+## Data Description
+
+Introduces SDU's DAISY, a benchmark of 741 close-ended QA pairs based on Danish Culture Canon 2006, covering artifacts from 1300 BC to contemporary culture. Each question is humanly approved/corrected. Evaluates GPT-OSS, Mistral-Small, Llama-3.3, and Gemma-3 on Danish cultural heritage knowledge.
+
 
 ## Notes
 

@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages - PDF Extract"
-source_pdf: "2025-Unknown-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.pdf"
+title: "2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages - PDF Extract"
+source_pdf: "2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.pdf"
 pages: 25
 extracted_at: "2026-02-13T09:50:27.996846"
 ---
 
-# PDF Extract: 2025-Unknown-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages
+# PDF Extract: 2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages
 
-**Source PDF:** 2025-Unknown-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.pdf
+**Source PDF:** 2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.pdf
 **Total Pages:** 25
 
 ---

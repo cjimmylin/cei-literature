@@ -1,0 +1,78 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0771
+type: conferencePaper
+short_title: "Cross-lingual Capsule Network for Hate Speech Detection in Social Media | Proceedings of the 32nd ACM Conference on Hypertext and Social Media"
+year: 2025
+first_author: "[[Aiqi Jiang]]"
+last_author: "[[Unknown]]"
+authors: Aiqi Jiang; Arkaitz Zubiaga
+doi: 10.1145/3465336.3475102
+url: "https://dl.acm.org/doi/10.1145/3465336.3475102"
+external_pdf: "https://arxiv.org/pdf/2108.03089"
+publication: ACM
+local_pdf: "[[PDFs/2025/2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.md"
+DATE_ADDED: 20260213
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+languages_list: "English, Multilingual"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract: "Most hate speech detection research focuses on a single language, generally English, which limits their generalisability to other languages. In this paper we investigate the cross-lingual hate speech detection task, tackling the problem by adapting the hate speech resources from one language to another. We propose a cross-lingual capsule network learning model coupled with extra domain-specific lexical semantics for hate speech (CCNL-Ex). Our model achieves state-of-the-art performance on benchmark datasets from AMI@Evalita2018 and AMI@Ibereval2018 involving three languages: English, Spanish and Italian, outperforming state-of-the-art baselines on all six language pairs."
+ethics_perspective: "Toxicity & Hate Speech"
+---
+# Cross-lingual Capsule Network for Hate Speech Detection in Social Media | Proceedings of the 32nd ACM Conference on Hypertext and Social Media
+
+## Authors
+
+[[Aiqi Jiang]], [[Arkaitz Zubiaga]]
+
+## Metadata
+
+**Authors:** Aiqi Jiang; Arkaitz Zubiaga
+
+**Year:** 2025
+
+**Type:** conferencePaper
+
+**Venue:** ACM
+
+**DOI:** [10.1145/3465336.3475102](https://doi.org/10.1145/3465336.3475102)
+
+**Languages:** English, Multilingual
+
+## Links
+
+- **DOI:** https://doi.org/10.1145/3465336.3475102
+- **URL:** https://dl.acm.org/doi/10.1145/3465336.3475102
+
+## Abstract
+
+
+Most hate speech detection research focuses on a single language, generally English, which limits their generalisability to other languages. In this paper we investigate the cross-lingual hate speech detection task, tackling the problem by adapting the hate speech resources from one language to another. We propose a cross-lingual capsule network learning model coupled with extra domain-specific lexical semantics for hate speech (CCNL-Ex). Our model achieves state-of-the-art performance on benchmark datasets from AMI@Evalita2018 and AMI@Ibereval2018 involving three languages: English, Spanish and Italian, outperforming state-of-the-art baselines on all six language pairs.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent D1
+**Relevance:** Relevant to Multilingual, English; toxicity/hate speech focus
+
+## Tags
+

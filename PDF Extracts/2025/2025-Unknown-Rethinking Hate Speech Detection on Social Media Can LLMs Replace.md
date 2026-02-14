@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Rethinking Hate Speech Detection on Social Media Can LLMs Replace - PDF Extract"
-source_pdf: "2025-Unknown-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.pdf"
+title: "2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace - PDF Extract"
+source_pdf: "2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.pdf"
 pages: 17
 extracted_at: "2026-02-13T13:57:15.477042"
 ---
 
-# PDF Extract: 2025-Unknown-Rethinking Hate Speech Detection on Social Media Can LLMs Replace
+# PDF Extract: 2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace
 
-**Source PDF:** 2025-Unknown-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.pdf
+**Source PDF:** 2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.pdf
 **Total Pages:** 17
 
 ---

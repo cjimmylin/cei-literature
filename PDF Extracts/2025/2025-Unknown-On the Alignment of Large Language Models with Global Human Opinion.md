@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-On the Alignment of Large Language Models with Global Human Opinion - PDF Extract"
-source_pdf: "2025-Unknown-On the Alignment of Large Language Models with Global Human Opinion.pdf"
+title: "2025-Liu-On the Alignment of Large Language Models with Global Human Opinion - PDF Extract"
+source_pdf: "2025-Liu-On the Alignment of Large Language Models with Global Human Opinion.pdf"
 pages: 28
 extracted_at: "2026-02-13T13:57:15.257569"
 ---
 
-# PDF Extract: 2025-Unknown-On the Alignment of Large Language Models with Global Human Opinion
+# PDF Extract: 2025-Liu-On the Alignment of Large Language Models with Global Human Opinion
 
-**Source PDF:** 2025-Unknown-On the Alignment of Large Language Models with Global Human Opinion.pdf
+**Source PDF:** 2025-Liu-On the Alignment of Large Language Models with Global Human Opinion.pdf
 **Total Pages:** 28
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Perspective API"
+DATA_URL: "NA"
 tags: 
 abstract: "Please check and cite the published version of this paper in the Proceedings of the 19th AAAI International Conference on Web and Social Media (ICWSM’25). Proprietary public APIs play a crucial and growing role as research tools among social scientists. Among such APIs, Google’s machine learning-based Perspective API is extensively utilized for assessing the toxicity of social media messages, providing both an important resource for researchers and automatic content moderation."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -63,6 +64,15 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Exposes intrinsic language biases in Perspective API's toxicity assessment, showing German content receives significantly higher toxicity scores than equivalent English content. Four times more tweets and users would be moderated when using the German language compared to English translations.
+
+## Summary
+
+This paper exposes significant intrinsic language bias in Google's widely-used Perspective API, which assesses toxicity in online content for both research and automated content moderation. Through analysis of multiple datasets including multilingual Twitter conversations and Wikipedia summaries, the authors demonstrate that German language text consistently receives significantly higher toxicity scores than equivalent content in other languages, regardless of the actual content. The bias is robust across various translations, topics, and data sources, with the practical consequence that approximately four times more tweets and users would be subject to moderation when using German compared to English translations. These findings raise concerns about the reliability of proprietary black-box APIs for both research and content moderation.
+
+## Data Description
+
+Exposes intrinsic language biases in Perspective API's toxicity assessment. Shows German content receives significantly higher toxicity scores than equivalent English content. Four times more tweets and users would be moderated when using German language compared to English translations. This is a bias evaluation study, not a benchmark dataset.
+
 
 ## Notes
 

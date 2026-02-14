@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-KurdSTS The Kurdish Semantic Textual Similarity - PDF Extract"
-source_pdf: "2025-Unknown-KurdSTS The Kurdish Semantic Textual Similarity.pdf"
+title: "2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity - PDF Extract"
+source_pdf: "2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity.pdf"
 pages: 18
 extracted_at: "2026-02-13T09:50:28.128173"
 ---
 
-# PDF Extract: 2025-Unknown-KurdSTS The Kurdish Semantic Textual Similarity
+# PDF Extract: 2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity
 
-**Source PDF:** 2025-Unknown-KurdSTS The Kurdish Semantic Textual Similarity.pdf
+**Source PDF:** 2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity.pdf
 **Total Pages:** 18
 
 ---

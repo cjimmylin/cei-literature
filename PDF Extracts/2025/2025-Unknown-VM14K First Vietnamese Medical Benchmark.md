@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-VM14K First Vietnamese Medical Benchmark - PDF Extract"
-source_pdf: "2025-Unknown-VM14K First Vietnamese Medical Benchmark.pdf"
+title: "2025-Nguyen-VM14K First Vietnamese Medical Benchmark - PDF Extract"
+source_pdf: "2025-Nguyen-VM14K First Vietnamese Medical Benchmark.pdf"
 pages: 14
 extracted_at: "2026-02-13T09:50:29.452885"
 ---
 
-# PDF Extract: 2025-Unknown-VM14K First Vietnamese Medical Benchmark
+# PDF Extract: 2025-Nguyen-VM14K First Vietnamese Medical Benchmark
 
-**Source PDF:** 2025-Unknown-VM14K First Vietnamese Medical Benchmark.pdf
+**Source PDF:** 2025-Nguyen-VM14K First Vietnamese Medical Benchmark.pdf
 **Total Pages:** 14
 
 ---

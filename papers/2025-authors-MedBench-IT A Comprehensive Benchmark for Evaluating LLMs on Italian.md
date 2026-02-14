@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) show increasing potential in education, yet benchmarks for non-English languages in specialized domains remain scarce. We introduce MedBench-IT, the first comprehensive benchmark for evaluating LLMs on Italian medical university entrance examinations. Sourced from Edizioni Simone, a leading preparatory materials publisher, MedBench-IT comprises 17,410 expert-written multiple-choice questions across six subjects (Biology, Chemistry, Logic, General Culture,..."
 ethics_perspective: "Bias & Fairness"
@@ -65,6 +66,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 First comprehensive benchmark for evaluating LLMs on Italian medical university entrance exams, comprising 17,410 expert-written multiple-choice questions across six subjects and three difficulty levels.
+
+## Data Description
+
+Introduces MedBench-IT, the first comprehensive benchmark for evaluating LLMs on Italian medical university entrance examinations, comprising 17,410 expert-written multiple-choice questions across six subjects and three difficulty levels. Focuses on benchmark creation for medical domain evaluation.
+
 
 ## Notes
 

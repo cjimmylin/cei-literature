@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Toxicity & Hate Speech"
@@ -67,6 +68,15 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 First German TikTok dataset with 10,586 comments annotated for far-right extremism and hate speech using a 32-aspect fine-grained annotation schema. 13.76% annotated as hateful. Addresses gap in TikTok hate speech research for German.
+
+## Summary
+
+This paper introduces the first German TikTok hate speech dataset comprising 10,586 comments collected from far-right accounts and annotated using a novel fine-grained schema of 32 labels developed with extremism experts. Using an ensemble of six hate speech classifiers for initial filtering followed by manual annotation by three trained annotators, the dataset identifies 13.76% of comments as hateful. The analysis reveals extensive hate directed toward German politicians (particularly Green Party members), women, and immigrants, with the comprehensive annotation schema enabling nuanced capture of hate speech types, targets, and intensity levels.
+
+## Data Description
+
+Presents the first German TikTok hate speech dataset with 10,586 comments annotated using a fine-grained 32-label schema developed with extremism experts, targeting far-right content with 13.76% hateful. Uses ensemble of six classifiers for initial filtering but does not evaluate specific LLMs as the main contribution.
+
 
 ## Notes
 

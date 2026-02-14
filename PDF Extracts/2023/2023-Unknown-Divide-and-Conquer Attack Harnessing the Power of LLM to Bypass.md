@@ -1,13 +1,13 @@
 ---
-title: "2023-Unknown-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass - PDF Extract"
-source_pdf: "2023-Unknown-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass.pdf"
+title: "2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass - PDF Extract"
+source_pdf: "2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass.pdf"
 pages: 10
 extracted_at: "2026-02-13T13:57:10.736039"
 ---
 
-# PDF Extract: 2023-Unknown-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass
+# PDF Extract: 2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass
 
-**Source PDF:** 2023-Unknown-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass.pdf
+**Source PDF:** 2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass.pdf
 **Total Pages:** 10
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Bias & Fairness"
@@ -63,6 +64,15 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Investigates gender and origin bias in French and German word embeddings. Finds real-world bias and stereotypes from the 18th century are still present in today's embeddings. Shows cultural differences in bias forms across languages. Extended by subsequent work on Italian and Swedish embeddings.
+
+## Summary
+
+This paper investigates gender and origin bias in pre-trained German and French word embeddings (word2vec and fastText) using the Word Embedding Association Test (WEAT) method adapted from the Implicit Association Test. The analysis reveals that real-world biases and stereotypes from the 18th century persist in contemporary word embeddings, and demonstrates that gender bias manifests differently across languages due to cultural differences. The findings suggest that bias detection and mitigation strategies need to account for language-specific and culturally-specific patterns rather than applying English-centric approaches universally.
+
+## Data Description
+
+Analysis of gender and origin bias in multilingual word embeddings (word2vec, fastText) for four European languages including French. Tests bias using WEAT method but does not evaluate LLMs; focuses on static embeddings like word2vec and fastText.
+
 
 ## Notes
 

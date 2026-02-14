@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Bias & Fairness"
@@ -64,6 +65,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Comprehensive survey organizing LLM bias and fairness work into three categories: metrics, datasets, and techniques. Covers embedding-based, probability-based, and generated text-based bias evaluation approaches. Published in Computational Linguistics 2024.
+
+## Data Description
+
+Comprehensive survey of bias and fairness research in LLMs. Reviews existing benchmarks and methods but does not test specific models. Provides taxonomy of bias types and mitigation strategies across the LLM lifecycle.
+
 
 ## Notes
 

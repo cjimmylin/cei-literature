@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large - PDF Extract"
-source_pdf: "2025-Unknown-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large.pdf"
+title: "2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large - PDF Extract"
+source_pdf: "2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large.pdf"
 pages: 24
 extracted_at: "2026-02-13T09:50:32.355262"
 ---
 
-# PDF Extract: 2025-Unknown-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large
+# PDF Extract: 2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large
 
-**Source PDF:** 2025-Unknown-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large.pdf
+**Source PDF:** 2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large.pdf
 **Total Pages:** 24
 
 ---

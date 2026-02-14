@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude.ai, GPT-4, Gemini"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Other"
@@ -63,6 +64,11 @@ research_topic: "Other"
 ## Abstract
 
 Evaluates LLM output quality comparing English and Albanian across math problems, code tasks, and sensitive questions. Finds Claude.ai demonstrates more language-agnostic capabilities with similar accuracy between English and Albanian. Albanian serves as a morphologically complex, lower-resource contrast to English.
+
+## Data Description
+
+Comparative evaluation of LLM output quality between English and Albanian across math problems, code generation, and sensitive questions. Finds Claude demonstrates more language-agnostic performance than competitors. No public evaluation dataset provided.
+
 
 ## Notes
 

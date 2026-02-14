@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes - PDF Extract"
-source_pdf: "2024-Unknown-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes.pdf"
+title: "2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes - PDF Extract"
+source_pdf: "2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes.pdf"
 pages: 12
 extracted_at: "2026-02-13T09:50:29.885743"
 ---
 
-# PDF Extract: 2024-Unknown-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes
+# PDF Extract: 2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes
 
-**Source PDF:** 2024-Unknown-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes.pdf
+**Source PDF:** 2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes.pdf
 **Total Pages:** 12
 
 ---

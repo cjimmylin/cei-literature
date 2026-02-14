@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "State-of-the-art natural language processing (NLP) models are trained on massive training corpora, and report a superlative performance on evaluation datasets. This survey delves into an important attribute of these datasets: the dialect of a language. Motivated by the performance degradation of NLP models for dialectal datasets and its implications for the equity of language technologies, we survey past research in NLP for dialects in terms of datasets, and approaches. We describe a wide range of NLP tasks in terms of two categories: natural language understanding (NLU) (for tasks such as dialect classification, sentiment analysis, parsing, and NLU benchmarks) and natural language generation (NLG) (for summarisation, machine translation, and dialogue systems). The survey is also broad in its coverage of languages which include English, Arabic, German, among others. We observe that past work in NLP concerning dialects goes deeper than mere dialect classification, and extends to several NLU and NLG tasks. For these tasks, we describe classical machine learning using statistical models, along with the recent deep learning-based approaches based on pre-trained language models. We expect that this survey will be useful to NLP researchers interested in building equitable language technologies by rethinking LLM benchmarks and model architectures."
 research_topic: "NLP & Representation Learning"
 ---
 # 1 Natural Language Processing for Dialects of a Language: A Survey
@@ -62,7 +62,8 @@ research_topic: "NLP & Representation Learning"
 
 ## Abstract
 
-Based on the search results, here's what recent research reveals about dialectal Arabic NLP evaluation benchmarks and bias: Key Findings on Benchmarking Dialectal Arabic A comprehensive survey analyzing 40+ evaluation benchmarks across NLP tasks, knowledge domains, cultural understanding, and specialized capabilities has revealed important insights about the field. Identified Critical Gaps The analysis reveals significant progress in benchmark diversity while identifying critical gaps:
+
+State-of-the-art natural language processing (NLP) models are trained on massive training corpora, and report a superlative performance on evaluation datasets. This survey delves into an important attribute of these datasets: the dialect of a language. Motivated by the performance degradation of NLP models for dialectal datasets and its implications for the equity of language technologies, we survey past research in NLP for dialects in terms of datasets, and approaches. We describe a wide range of NLP tasks in terms of two categories: natural language understanding (NLU) (for tasks such as dialect classification, sentiment analysis, parsing, and NLU benchmarks) and natural language generation (NLG) (for summarisation, machine translation, and dialogue systems). The survey is also broad in its coverage of languages which include English, Arabic, German, among others. We observe that past work in NLP concerning dialects goes deeper than mere dialect classification, and extends to several NLU and NLG tasks. For these tasks, we describe classical machine learning using statistical models, along with the recent deep learning-based approaches based on pre-trained language models. We expect that this survey will be useful to NLP researchers interested in building equitable language technologies by rethinking LLM benchmarks and model architectures.
 
 ## Notes
 

@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating - PDF Extract"
-source_pdf: "2024-Unknown-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.pdf"
+title: "2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating - PDF Extract"
+source_pdf: "2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.pdf"
 pages: 16
 extracted_at: "2026-02-13T13:57:12.549534"
 ---
 
-# PDF Extract: 2024-Unknown-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating
+# PDF Extract: 2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating
 
-**Source PDF:** 2024-Unknown-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.pdf
+**Source PDF:** 2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.pdf
 **Total Pages:** 16
 
 ---

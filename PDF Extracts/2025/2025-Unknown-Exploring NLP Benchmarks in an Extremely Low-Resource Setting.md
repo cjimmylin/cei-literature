@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Exploring NLP Benchmarks in an Extremely Low-Resource Setting - PDF Extract"
-source_pdf: "2025-Unknown-Exploring NLP Benchmarks in an Extremely Low-Resource Setting.pdf"
+title: "2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting - PDF Extract"
+source_pdf: "2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting.pdf"
 pages: 14
 extracted_at: "2026-02-13T13:57:14.826799"
 ---
 
-# PDF Extract: 2025-Unknown-Exploring NLP Benchmarks in an Extremely Low-Resource Setting
+# PDF Extract: 2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting
 
-**Source PDF:** 2025-Unknown-Exploring NLP Benchmarks in an Extremely Low-Resource Setting.pdf
+**Source PDF:** 2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting.pdf
 **Total Pages:** 14
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-3.5, GPT-4, Claude-2, Llama-2, Mistral, Gemini, Command, and 32 additional LLMs (39 total)"
+DATA_URL: "https://github.com/cmu-lti/m-alert"
 tags: 
 abstract: "Building safe Large Language Models (LLMs) across multiple languages is essential in ensuring both safe access and linguistic diversity. To this end, we conduct a large-scale, comprehensive safety evaluation of the current LLM landscape. For this purpose, we introduce M-ALERT, a multilingual benchmark that evaluates the safety of LLMs in five languages: English, French, German, Italian, and Spanish."
 ethics_perspective: "AI Safety & Alignment"
@@ -65,6 +66,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Multilingual benchmark evaluating LLM safety in five European languages with 15K high-quality prompts per language (75K total). Extensive experiments on 39 state-of-the-art LLMs show significant inconsistencies in safety across languages and categories, with French often showing disproportionately high toxicity rates.
+
+## Data Description
+
+M-ALERT multilingual safety benchmark containing 75,000 prompts across 5 European languages (English, French, German, Italian, Spanish). Tests jailbreaking, toxicity, and harmful content generation across 39 state-of-the-art LLMs, revealing significant cross-linguistic safety vulnerabilities.
+
 
 ## Notes
 

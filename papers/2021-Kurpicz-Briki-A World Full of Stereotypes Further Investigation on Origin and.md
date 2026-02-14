@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Bias & Fairness"
@@ -67,6 +68,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Extends origin and gender bias analysis to multilingual word embeddings in four European languages including French. Demonstrates origin bias concerning local migration groups. Published in Frontiers in Big Data.
+
+## Data Description
+
+Extension of bias analysis to multilingual word embeddings (fastText) in Italian and Swedish, plus origin bias concerning Swiss migration groups in German embeddings. Tests bias using WEAT method on static embeddings, not LLMs.
+
 
 ## Notes
 

@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in - PDF Extract"
-source_pdf: "2025-Unknown-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in.pdf"
+title: "2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in - PDF Extract"
+source_pdf: "2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in.pdf"
 pages: 12
 extracted_at: "2026-02-13T09:50:32.563350"
 ---
 
-# PDF Extract: 2025-Unknown-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in
+# PDF Extract: 2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in
 
-**Source PDF:** 2025-Unknown-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in.pdf
+**Source PDF:** 2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in.pdf
 **Total Pages:** 12
 
 ---

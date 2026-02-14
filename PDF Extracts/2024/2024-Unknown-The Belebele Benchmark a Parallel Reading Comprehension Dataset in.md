@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-The Belebele Benchmark a Parallel Reading Comprehension Dataset in - PDF Extract"
-source_pdf: "2024-Unknown-The Belebele Benchmark a Parallel Reading Comprehension Dataset in.pdf"
+title: "2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in - PDF Extract"
+source_pdf: "2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in.pdf"
 pages: 27
 extracted_at: "2026-02-13T09:50:30.025976"
 ---
 
-# PDF Extract: 2024-Unknown-The Belebele Benchmark a Parallel Reading Comprehension Dataset in
+# PDF Extract: 2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in
 
-**Source PDF:** 2024-Unknown-The Belebele Benchmark a Parallel Reading Comprehension Dataset in.pdf
+**Source PDF:** 2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in.pdf
 **Total Pages:** 27
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "https://spraakbanken.gu.se/en/resources/swewinogender"
 tags: 
 abstract:
 research_topic: "Machine Learning"
@@ -65,6 +66,11 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Swedish adaptation of WinoGender benchmark for measuring gender bias in coreference resolution. Released with reference statistics on gender distribution between occupations in Swedish corpus material. Version 2.0 reformulated as NLI task.
+
+## Data Description
+
+Swedish adaptation of WinoGender benchmark for measuring gender bias in coreference resolution. Released with reference statistics on gender distribution between occupations in Swedish corpus material. Designed for coreference resolution systems, not specifically LLMs.
+
 
 ## Notes
 

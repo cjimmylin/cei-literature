@@ -34,7 +34,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "In this letter an approach for fitting saturation characteristic and hysteresis using arctangent functions is presented. It has direct application to modeling transformers and electric machines. The approach is based on measurements of the magnetizing curve of the ferromagnetic material. The analytical form of the characteristic can be completely described by only three parameters. These three parameters are enough to take into account: the slope of the linear region, the position of the knee, and the saturating slope. The appropriate selection of these parameters allows the fitting of a wide class of magnetizing characteristics in simulation programs."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Validating Pseudo-label Dataset for Japanese Hate Speech Detection | IEEE Conference Publication | IEEE Xplore
@@ -61,7 +61,8 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Abstract
 
-I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled "Validating Pseudo-label Dataset for Japanese Hate Speech Detection" was published in 2024.
+
+In this letter an approach for fitting saturation characteristic and hysteresis using arctangent functions is presented. It has direct application to modeling transformers and electric machines. The approach is based on measurements of the magnetizing curve of the ferromagnetic material. The analytical form of the characteristic can be completely described by only three parameters. These three parameters are enough to take into account: the slope of the linear region, the position of the knee, and the saturating slope. The appropriate selection of these parameters allows the fitting of a wide class of magnetizing characteristics in simulation programs.
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4o, Llama-3.1, Qwen2"
+DATA_URL: "NA"
 tags: 
 abstract: "In this work, we evaluated Lithuanian and general history knowledge of multilingual Large Language Models (LLMs) on a multiple-choice question-answering task. The models were tested on a dataset of Lithuanian national and general history questions translated into Baltic, Nordic, and other languages (English, Ukrainian, Arabic) to assess the knowledge sharing from culturally and historically connected groups. We evaluated GPT-4o, LLaMa3.1 8b and 70b, QWEN2."
 ethics_perspective: "AI Safety & Alignment"
@@ -63,6 +64,15 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Evaluates multilingual LLMs on Lithuanian and general history, exploring how LLMs perform when prompted in different languages within the Nordic and Baltic language group.
+
+## Summary
+
+This paper evaluates the Lithuanian and general history knowledge of multilingual LLMs (GPT-4o, Llama-3.1 8b/70b, Qwen2) using a multiple-choice question-answering task. The study translates Lithuanian national and general history questions into Baltic, Nordic, and other languages (English, Ukrainian, Arabic) to assess knowledge sharing from culturally and historically connected language groups. The cross-lingual evaluation approach investigates whether LLMs exhibit different performance when prompted in languages from related cultural and historical contexts versus more distant languages.
+
+## Data Description
+
+Evaluates multilingual LLMs on Lithuanian and general history knowledge using multiple-choice questions translated into Baltic, Nordic, and other languages to assess knowledge sharing across culturally connected language groups. Does not introduce a publicly available dataset.
+
 
 ## Notes
 

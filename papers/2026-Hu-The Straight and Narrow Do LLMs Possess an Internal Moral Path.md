@@ -1,0 +1,74 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0696
+type: preprint
+short_title: "The Straight and Narrow: Do LLMs Possess an Internal Moral Path?"
+year: 2026
+first_author: "[[Luoming Hu]]"
+last_author: "[[Unknown]]"
+authors: Luoming Hu; Jingjie Zeng; Liang Yang; Hongfei Lin
+url: "https://arxiv.org/html/2601.10307"
+external_pdf: "https://arxiv.org/pdf/2601.10307.pdf"
+publication: arXiv
+local_pdf: "[[PDFs/2026/2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.pdf]]"
+pdf_extract: "PDF Extracts/2026/2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.md"
+DATE_ADDED: 20260213
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+languages_list: "Chinese"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract: "Enhancing the moral alignment of Large Language Models (LLMs) is a critical challenge in AI safety. Current alignment techniques often act as superficial guardrails, leaving the intrinsic moral representations of LLMs largely untouched. In this paper, we bridge this gap by leveraging Moral Foundations Theory (MFT) to map and manipulate the fine-grained moral landscape of LLMs. Through cross-lingual linear probing, we validate the shared nature of moral representations in middle layers and uncover a shared yet different moral subspace between English and Chinese. Building upon this, we extract steerable Moral Vectors and successfully validate their efficacy at both internal and behavioral levels. Leveraging the high generalizability of morality, we propose Adaptive Moral Fusion (AMF), a dynamic inferencetime intervention that synergizes probe detection with vector injection to tackle the safetyhelpfulness trade-off. Empirical results confirm that our approach acts as a targeted intrinsic defense, effectively reducing incorrect refusals on benign queries while minimizing jailbreak success rates compared to standard baselines."
+ethics_perspective: "General Ethics"
+---
+# The Straight and Narrow: Do LLMs Possess an Internal Moral Path?
+
+## Authors
+
+[[Luoming Hu]], [[Jingjie Zeng]], [[Liang Yang]], [[Hongfei Lin]]
+
+## Metadata
+
+**Authors:** Luoming Hu; Jingjie Zeng; Liang Yang; Hongfei Lin
+
+**Year:** 2026
+
+**Type:** preprint
+
+**Venue:** arXiv
+
+**Languages:** Chinese
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2601.10307
+
+## Abstract
+
+
+Enhancing the moral alignment of Large Language Models (LLMs) is a critical challenge in AI safety. Current alignment techniques often act as superficial guardrails, leaving the intrinsic moral representations of LLMs largely untouched. In this paper, we bridge this gap by leveraging Moral Foundations Theory (MFT) to map and manipulate the fine-grained moral landscape of LLMs. Through cross-lingual linear probing, we validate the shared nature of moral representations in middle layers and uncover a shared yet different moral subspace between English and Chinese. Building upon this, we extract steerable Moral Vectors and successfully validate their efficacy at both internal and behavioral levels. Leveraging the high generalizability of morality, we propose Adaptive Moral Fusion (AMF), a dynamic inferencetime intervention that synergizes probe detection with vector injection to tackle the safetyhelpfulness trade-off. Empirical results confirm that our approach acts as a targeted intrinsic defense, effectively reducing incorrect refusals on benign queries while minimizing jailbreak success rates compared to standard baselines.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent C1
+**Relevance:** Relevant to Chinese; ethics/values focus
+
+## Tags
+

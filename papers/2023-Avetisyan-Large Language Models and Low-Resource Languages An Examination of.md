@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "NLP & Representation Learning"
@@ -63,6 +64,15 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Examines how effectively LLMs process Armenian by evaluating performance across extractive QA, reasoning, and knowledge access tasks. Finds that while GPT handles basic tasks well, performance sharply declines for deep linguistic understanding and context-based problems in Armenian.
+
+## Summary
+
+This paper provides the first comprehensive review of Natural Language Processing research on Armenian, a low-resource Indo-European language with unique linguistic characteristics and limited digital resources. The authors synthesize and evaluate various studies in Armenian NLP, identifying key advancements, challenges, and areas for improvement across linguistic resources, machine learning methodologies, and specific NLP tasks. A notable finding is the underutilization of Large Language Models in Armenian NLP, highlighting a significant opportunity for future development. The paper advocates for increased attention to low-resource languages in NLP research and stresses the importance of linguistic diversity and equity in developing NLP technologies.
+
+## Data Description
+
+Survey paper examining challenges of applying LLMs to low-resource languages like Armenian. No specific LLMs tested; focuses on discussing existing approaches for tokenization, pre-training, and transfer learning in low-resource contexts.
+
 
 ## Notes
 

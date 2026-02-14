@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-Language Ranker A Metric for Quantifying LLM Performance Across - PDF Extract"
-source_pdf: "2024-Unknown-Language Ranker A Metric for Quantifying LLM Performance Across.pdf"
+title: "2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across - PDF Extract"
+source_pdf: "2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across.pdf"
 pages: 11
 extracted_at: "2026-02-13T09:50:29.715555"
 ---
 
-# PDF Extract: 2024-Unknown-Language Ranker A Metric for Quantifying LLM Performance Across
+# PDF Extract: 2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across
 
-**Source PDF:** 2024-Unknown-Language Ranker A Metric for Quantifying LLM Performance Across.pdf
+**Source PDF:** 2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across.pdf
 **Total Pages:** 11
 
 ---

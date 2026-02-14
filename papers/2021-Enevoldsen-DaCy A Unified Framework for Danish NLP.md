@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multi-task benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ELECTRA, BERT, XLM-RoBERTa"
+DATA_URL: "https://github.com/centre-for-humanities-computing/DaCy"
 tags: 
 abstract: "Danish natural language processing (NLP) has in recent years obtained considerable improvements with the addition of multiple new datasets and models. However, at present, there is no coherent framework for applying state-of-the-art models for Danish. We present DaCy: a uniﬁed framework for Danish NLP built on SpaCy. DaCy uses efﬁcient multitask models which obtain state-of-the-art performance on named entity recognition, part-of-speech tagging, and dependency parsing."
 ethics_perspective: "Bias & Fairness"
@@ -66,6 +67,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Unified Danish NLP framework with bias and robustness testing. Found all models except DaCy large display significant ethnicity biases; only Polyglot shows significant gender bias. Uses data augmentation for more realistic performance estimates.
+
+## Data Description
+
+DaCy framework providing three Danish NLP models: DaCy small (Danish ELECTRA, 14M parameters), DaCy medium (Danish BERT, 110M parameters), and DaCy large (XLM-RoBERTa, 550M parameters). Evaluated on POS tagging, NER, and dependency parsing with data augmentation tests for robustness.
+
 
 ## Notes
 

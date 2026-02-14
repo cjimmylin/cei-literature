@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-CMoralEval A Moral Evaluation Benchmark for Chinese ... - PDF Extract"
-source_pdf: "2025-Unknown-CMoralEval A Moral Evaluation Benchmark for Chinese ....pdf"
+title: "2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ... - PDF Extract"
+source_pdf: "2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....pdf"
 pages: 21
 extracted_at: "2026-02-13T14:50:56.283274"
 ---
 
-# PDF Extract: 2025-Unknown-CMoralEval A Moral Evaluation Benchmark for Chinese ...
+# PDF Extract: 2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...
 
-**Source PDF:** 2025-Unknown-CMoralEval A Moral Evaluation Benchmark for Chinese ....pdf
+**Source PDF:** 2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....pdf
 **Total Pages:** 21
 
 ---

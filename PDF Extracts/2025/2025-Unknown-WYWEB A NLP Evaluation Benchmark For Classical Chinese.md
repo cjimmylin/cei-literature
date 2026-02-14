@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-WYWEB A NLP Evaluation Benchmark For Classical Chinese - PDF Extract"
-source_pdf: "2025-Unknown-WYWEB A NLP Evaluation Benchmark For Classical Chinese.pdf"
+title: "2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese - PDF Extract"
+source_pdf: "2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.pdf"
 pages: 24
 extracted_at: "2026-02-13T14:50:58.224853"
 ---
 
-# PDF Extract: 2025-Unknown-WYWEB A NLP Evaluation Benchmark For Classical Chinese
+# PDF Extract: 2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese
 
-**Source PDF:** 2025-Unknown-WYWEB A NLP Evaluation Benchmark For Classical Chinese.pdf
+**Source PDF:** 2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.pdf
 **Total Pages:** 24
 
 ---

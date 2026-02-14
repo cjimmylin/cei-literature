@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-Komodo A Linguistic Expedition into Indonesia's Regional Languages - PDF Extract"
-source_pdf: "2024-Unknown-Komodo A Linguistic Expedition into Indonesia's Regional Languages.pdf"
+title: "2024-Owen-Komodo A Linguistic Expedition into Indonesia's Regional Languages - PDF Extract"
+source_pdf: "2024-Owen-Komodo A Linguistic Expedition into Indonesia's Regional Languages.pdf"
 pages: 30
 extracted_at: "2026-02-13T09:50:29.654746"
 ---
 
-# PDF Extract: 2024-Unknown-Komodo A Linguistic Expedition into Indonesia's Regional Languages
+# PDF Extract: 2024-Owen-Komodo A Linguistic Expedition into Indonesia's Regional Languages
 
-**Source PDF:** 2024-Unknown-Komodo A Linguistic Expedition into Indonesia's Regional Languages.pdf
+**Source PDF:** 2024-Owen-Komodo A Linguistic Expedition into Indonesia's Regional Languages.pdf
 **Total Pages:** 30
 
 ---

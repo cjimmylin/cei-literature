@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-A cross-validation study of Turkish sentiment analysis datasets and - PDF Extract"
-source_pdf: "2024-Unknown-A cross-validation study of Turkish sentiment analysis datasets and.pdf"
+title: "2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and - PDF Extract"
+source_pdf: "2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and.pdf"
 pages: 39
 extracted_at: "2026-02-13T14:50:53.553011"
 ---
 
-# PDF Extract: 2024-Unknown-A cross-validation study of Turkish sentiment analysis datasets and
+# PDF Extract: 2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and
 
-**Source PDF:** 2024-Unknown-A cross-validation study of Turkish sentiment analysis datasets and.pdf
+**Source PDF:** 2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and.pdf
 **Total Pages:** 39
 
 ---

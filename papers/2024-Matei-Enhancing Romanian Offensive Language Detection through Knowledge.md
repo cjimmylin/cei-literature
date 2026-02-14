@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, RoGPT-2"
+DATA_URL: "https://huggingface.co/datasets/readerbench/ro-offense"
 tags: 
 abstract: "This paper highlights the significance of natural language processing (NLP) within artificial intelligence, underscoring its pivotal role in comprehending and modeling human language. Recent advancements in NLP, particularly in conversational bots, have garnered substantial attention and adoption among developers. This paper explores advanced methodologies for attaining smaller and more efficient NLP models."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -66,6 +67,15 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Develops automatic offensive language detection for Romanian using Transformer-based models with knowledge distillation, data augmentation, and multi-task learning. Uses RO-Offense dataset (12,447 annotated records: Profanity 13%, Insult 23%, Abuse 28%, Other 36%).
+
+## Summary
+
+This paper develops advanced methods for automatic offensive language detection in Romanian, addressing the challenges of limited dataset availability and model efficiency for low-resource languages. The authors employ Transformer-based BERT models enhanced through three key approaches: knowledge distillation to transfer information from large models to smaller architectures, data augmentation using RoGPT-2 and techniques like ASDA and MixUp, and multi-task learning incorporating sentiment analysis, emotion analysis, and sexist language detection tasks. Experiments on the RO-Offense dataset (12,447 annotated records across four categories: Profanity, Insult, Abuse, and Other) demonstrate improved performance while maintaining model efficiency.
+
+## Data Description
+
+Develops automatic offensive language detection for Romanian using Transformer-based models with knowledge distillation, data augmentation, and multi-task learning. Uses RO-Offense dataset with 12,447 annotated records across four categories: Profanity (13%), Insult (23%), Abuse (28%), Other (36%).
+
 
 ## Notes
 

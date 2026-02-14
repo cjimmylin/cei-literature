@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://github.com/TeMU-BSC/club"
 tags: 
 abstract: "The Catalan Language Understanding Benchmark (CLUB) encompasses various datasets representative of diﬀerent NLU tasks that enable accurate evaluations of language models, following the General Language Understanding Evaluation (GLUE) example. It is part of AINA and PlanTL, two public funding initiatives to empower the Catalan language in the Artiﬁcial Intelligence era."
 research_topic: "Machine Learning"
@@ -66,6 +67,11 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Catalan Language Understanding Benchmark encompassing datasets for POS tagging, NER, text classification, textual entailment, and extracted QA. Part of AINA and PlanTL public funding initiatives to empower the Catalan language in AI.
+
+## Data Description
+
+Catalan Language Understanding Benchmark (CLUB) consisting of six tasks: text classification, paraphrase detection, semantic textual similarity, question answering, NER, and POS tagging. Tests Catalan BERT and RoBERTa models against multilingual baselines.
+
 
 ## Notes
 

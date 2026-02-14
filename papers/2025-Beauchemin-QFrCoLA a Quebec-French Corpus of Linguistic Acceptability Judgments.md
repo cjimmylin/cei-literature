@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, CamemBERT, XLM-RoBERTa, BLOOM-7B, BLOOMZ-7B, Mistral-7B, Llama-3.1-8B, Lucie"
+DATA_URL: "https://github.com/GRAAL-Research/QFrCoLA"
 tags: 
 abstract: "Large language models (LLM) perform outstandingly in various downstream tasks. However, there is limited understanding regarding how these models internalize linguistic knowledge, so various linguistic benchmarks have recently been proposed to facilitate syntactic evaluation of language models (LM) across languages. This paper introduces QFrCoLA (Quebec-French Corpus of Linguistic Acceptability Judgments), a normative binary acceptability judgments dataset comprising 25,153 in-domain and 2,675..."
 ethics_perspective: "General Ethics"
@@ -65,6 +66,15 @@ ethics_perspective: "General Ethics"
 ## Abstract
 
 First normative binary acceptability judgments corpus in French (25,153 in-domain and 2,675 out-of-domain sentences). Sources from Banque de dépannage linguistique and Académie française. Shows pre-trained cross-lingual LLMs have not acquired linguistic judgment capabilities for Quebec French. Published at EMNLP 2025.
+
+## Summary
+
+This paper introduces QFrCoLA, the first normative binary acceptability judgments corpus for Quebec French, containing 25,153 in-domain and 2,675 out-of-domain sentences sourced from official linguistic authorities. The authors benchmark eight language models including BERT variants, BLOOM, Mistral, and Llama-3.1 on grammatical acceptability judgment tasks. Results demonstrate that pre-trained cross-lingual LLMs have not adequately acquired linguistic judgment capabilities for Quebec French, with fine-tuned Transformer models outperforming zero-shot LLMs.
+
+## Data Description
+
+QFrCoLA is the first normative binary acceptability judgments corpus for Quebec French with 25,153 in-domain and 2,675 out-of-domain sentences from official linguistic sources. It is the second-largest linguistic acceptability corpus in any language and evaluates whether LLMs can distinguish grammatical from ungrammatical Quebec French sentences.
+
 
 ## Notes
 

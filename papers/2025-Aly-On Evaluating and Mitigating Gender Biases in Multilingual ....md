@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "While understanding and removing gender biases in language models has been a longstanding problem in Natural Language Processing, prior research work has primarily been limited to English. In this work, we investigate some of the challenges with evaluating and mitigating biases in multilingual settings which stem from a lack of existing benchmarks and resources for bias evaluation beyond English especially for non-western context. In this paper, we first create a benchmark for evaluating gender biases in pre-trained masked language models by extending DisCo to different Indian languages using human annotations. We extend various debiasing methods to work beyond English and evaluate their effectiveness for SOTA massively multilingual models on our proposed metric. Overall, our work highlights the challenges that arise while studying social biases in multilingual settings and provides resources as well as mitigation techniques to take a step toward scaling to more languages."
 research_topic: "Bias & Fairness"
 ---
 # On Evaluating and Mitigating Gender Biases in Multilingual ...
@@ -62,7 +62,8 @@ research_topic: "Bias & Fairness"
 
 ## Abstract
 
-Based on the search results, I found relevant information about the ArGAN dataset. Here's what I found: ArGAN: Arabic Gender, Ability, and Nationality Dataset ArGAN is a dataset for evaluating biases in large language models, authored by Ranwa Aly, Yara Allam, Rana Gaber, and Christine Basta, and presented at the 6th Workshop on Gender Bias in Natural Language Processing (GeBNLP) in 2025.
+
+While understanding and removing gender biases in language models has been a longstanding problem in Natural Language Processing, prior research work has primarily been limited to English. In this work, we investigate some of the challenges with evaluating and mitigating biases in multilingual settings which stem from a lack of existing benchmarks and resources for bias evaluation beyond English especially for non-western context. In this paper, we first create a benchmark for evaluating gender biases in pre-trained masked language models by extending DisCo to different Indian languages using human annotations. We extend various debiasing methods to work beyond English and evaluate their effectiveness for SOTA massively multilingual models on our proposed metric. Overall, our work highlights the challenges that arise while studying social biases in multilingual settings and provides resources as well as mitigation techniques to take a step toward scaling to more languages.
 
 ## Notes
 

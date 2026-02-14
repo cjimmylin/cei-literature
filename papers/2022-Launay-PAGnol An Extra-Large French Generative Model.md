@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-2, PAGnol"
+DATA_URL: "https://lair.lighton.ai/pagnol"
 tags: 
 abstract: "Access to large pre-trained models of varied architectures, in many different languages, is central to the democratization of NLP. We introduce PAGnol, a collection of French GPT models. Using scaling laws, we efﬁciently train PAGnol-XL (1.5B parameters) with the same computational budget as CamemBERT, a model 13 times smaller. PAGnol-XL is the largest model trained to date for the French language. We plan to train increasingly large and performing versions of PAGnol, exploring the capabilities..."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -64,6 +65,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Collection of French GPT models with PAGnol-XL (1.5B parameters) being the largest model trained from scratch for French. Found that OSCAR pre-training dataset led to low-quality offensive text generation, highlighting importance of dataset selection for ethically sound models. Published at LREC 2022.
+
+## Data Description
+
+Collection of French GPT models with PAGnol-XL (1.5B parameters) being the largest French model trained from scratch. Evaluated on discriminative (FLUE) and generative tasks (FQuAD question answering, OrangeSum summarization). Found OSCAR pre-training dataset led to low-quality offensive text generation, highlighting data quality importance.
+
 
 ## Notes
 

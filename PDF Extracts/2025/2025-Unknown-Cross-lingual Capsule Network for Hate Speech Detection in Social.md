@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Cross-lingual Capsule Network for Hate Speech Detection in Social - PDF Extract"
-source_pdf: "2025-Unknown-Cross-lingual Capsule Network for Hate Speech Detection in Social.pdf"
+title: "2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social - PDF Extract"
+source_pdf: "2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.pdf"
 pages: 7
 extracted_at: "2026-02-13T14:50:56.637631"
 ---
 
-# PDF Extract: 2025-Unknown-Cross-lingual Capsule Network for Hate Speech Detection in Social
+# PDF Extract: 2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social
 
-**Source PDF:** 2025-Unknown-Cross-lingual Capsule Network for Hate Speech Detection in Social.pdf
+**Source PDF:** 2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.pdf
 **Total Pages:** 7
 
 ---

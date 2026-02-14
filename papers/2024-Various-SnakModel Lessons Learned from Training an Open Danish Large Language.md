@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "SnakModel (Llama2-7B-based), other Llama2-7B-based Danish models"
+DATA_URL: "NA"
 tags: 
 abstract: "We present SNAKMODEL, a Danish large language model (LLM) based on LLAMA2-7B, which we continuously pre-train on 13.6B Danish words, and further tune on 3.7M Danish instructions. As best practices for creating LLMs for smaller language communities have yet to be established, we examine the effects of early modeling and training decisions on downstream performance throughout the entire training pipeline, including (1) the creation of a strictly curated corpus of Danish text from diverse sources;..."
 research_topic: "NLP & Representation Learning"
@@ -63,6 +64,11 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Danish LLM based on Llama2-7B continuously pre-trained on 13.6B Danish words, tuned on 3.7M Danish instructions. Evaluated on 8 language and culturally-specific tasks. Achieves highest overall performance among Llama2-7B-based models.
+
+## Data Description
+
+SnakModel is a Danish LLM based on Llama2-7B, continuously pre-trained on 13.6B Danish words and tuned on 3.7M Danish instructions. Evaluated on 8 language and culturally-specific tasks. Achieves highest overall performance among Llama2-7B-based models for Danish.
+
 
 ## Notes
 

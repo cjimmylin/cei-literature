@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "In this case study, we select a set of controversial Romanian historical questions and ask multiple Large Language Models to answer them across languages and contexts, in order to assess their biases. Besides being a study mainly performed for educational purposes, the motivation also lies in the recognition that history is often presented through altered perspectives, primarily influenced by the culture and ideals of a state, even through large language models."
 ethics_perspective: "Bias & Fairness"
@@ -63,6 +64,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Selects controversial Romanian historical questions and tests multiple LLMs across languages. Results show binary response stability varies by language, with models flipping stance across languages or between formats. Romanian used as native baseline to ground the cultural context.
+
+## Data Description
+
+Examines how multiple LLMs respond to controversial Romanian historical questions across languages and contexts to assess cultural and political biases. Finds binary response stability varies by language, with models flipping stance across languages. Does not introduce a dataset or evaluate specific models systematically.
+
 
 ## Notes
 

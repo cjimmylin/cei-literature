@@ -1,13 +1,13 @@
 ---
-title: "2023-Unknown-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence - PDF Extract"
-source_pdf: "2023-Unknown-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence.pdf"
+title: "2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence - PDF Extract"
+source_pdf: "2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence.pdf"
 pages: 6
 extracted_at: "2026-02-13T09:50:28.236402"
 ---
 
-# PDF Extract: 2023-Unknown-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence
+# PDF Extract: 2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence
 
-**Source PDF:** 2023-Unknown-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence.pdf
+**Source PDF:** 2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence.pdf
 **Total Pages:** 6
 
 ---

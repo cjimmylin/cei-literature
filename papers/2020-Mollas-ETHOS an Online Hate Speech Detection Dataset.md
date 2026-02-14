@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset"
 tags: 
 abstract: "Online hate speech is a recent problem in our society that is rising at a steady pace by leveraging the vulnerabilities of the corresponding regimes that characterise most social media platforms. This phenomenon is primarily fostered by offensive comments, either during user interaction or in the form of a posted multimedia context. Nowadays, giant corporations own platforms where millions of users log in every day, and protection from exposure to similar phenomena appears to be necessary in..."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -70,6 +71,15 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 A textual dataset with binary and multi-label variants for hate speech detection, based on YouTube and Reddit comments. Contains 998 comments with labels about hate speech presence or absence. By Greek researchers at Aristotle University of Thessaloniki.
+
+## Summary
+
+This paper presents ETHOS, an online hate speech detection dataset containing approximately 998 YouTube and Reddit comments with both binary (hate speech or not) and multi-label annotations validated using the Figure-Eight crowdsourcing platform. The multi-label annotations include violence, directed/undirected hate, and target groups (race, religion, gender, sexual orientation, national origin, disability). The authors employ an active sampling procedure to balance the dataset across various aspects and evaluate performance using BERT and traditional machine learning classifiers, demonstrating that careful dataset design during the sampling stage improves model performance despite limited dataset size.
+
+## Data Description
+
+ETHOS dataset for online hate speech detection in English with binary and multi-label annotations. Contains Reddit and YouTube comments annotated for violence, directed/undirected hate, and target groups. Evaluated with BERT and traditional ML classifiers.
+
 
 ## Notes
 

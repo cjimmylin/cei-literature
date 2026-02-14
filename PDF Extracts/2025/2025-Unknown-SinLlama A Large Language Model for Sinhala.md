@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-SinLlama A Large Language Model for Sinhala - PDF Extract"
-source_pdf: "2025-Unknown-SinLlama A Large Language Model for Sinhala.pdf"
+title: "2025-Aravinda-SinLlama A Large Language Model for Sinhala - PDF Extract"
+source_pdf: "2025-Aravinda-SinLlama A Large Language Model for Sinhala.pdf"
 pages: 6
 extracted_at: "2026-02-13T09:50:28.828722"
 ---
 
-# PDF Extract: 2025-Unknown-SinLlama A Large Language Model for Sinhala
+# PDF Extract: 2025-Aravinda-SinLlama A Large Language Model for Sinhala
 
-**Source PDF:** 2025-Unknown-SinLlama A Large Language Model for Sinhala.pdf
+**Source PDF:** 2025-Aravinda-SinLlama A Large Language Model for Sinhala.pdf
 **Total Pages:** 6
 
 ---

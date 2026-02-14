@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4o-mini, Gemini-1.5-flash"
+DATA_URL: "NA"
 tags: 
 abstract: "The increasing use of Large Language Models (LLMs) in a large variety of domains has sparked worries about how easily they can perpetuate stereotypes and contribute to the generation of biased content. With a focus on gender and professional bias, this work examines in which manner LLMs shape responses to ungendered prompts, contributing to biased outputs. This analysis uses a structured experimental method, giving different prompts involving three different professional job combinations, which..."
 ethics_perspective: "Bias & Fairness"
@@ -63,6 +64,15 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Examines how LLMs shape responses to ungendered Italian prompts, contributing to biased outputs. Focuses on gender and professional bias. Results show Gemini associated 100% of 'she' pronouns with 'assistant' rather than 'manager'. Highlights how Italian grammatical gender amplifies stereotypes.
+
+## Summary
+
+This empirical study examines gender and professional bias in LLM responses to ungendered Italian prompts, leveraging Italian's extensive grammatical gender system to highlight bias amplification. The authors test GPT-4o-mini and Gemini-1.5-flash using structured prompts involving three professional job combinations with hierarchical relationships, collecting 3,600 responses via API. Results reveal severe gender stereotyping, with Gemini associating 100% of female pronouns with 'assistant' rather than 'manager', and ChatGPT showing 97% of the same pattern, demonstrating how LLMs perpetuate stereotypes in gendered languages.
+
+## Data Description
+
+This empirical study examines how LLMs shape responses to ungendered Italian prompts, focusing on gender and professional bias. Uses structured experimental method with 3,600 responses testing three professional job combinations with hierarchical relationships. Finds Gemini associated 100% of 'she' pronouns with 'assistant' rather than 'manager', highlighting how Italian's extensive grammatical gender system amplifies stereotypes.
+
 
 ## Notes
 

@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask - PDF Extract"
-source_pdf: "2025-Unknown-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.pdf"
+title: "2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask - PDF Extract"
+source_pdf: "2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.pdf"
 pages: 19
 extracted_at: "2026-02-13T09:50:28.942759"
 ---
 
-# PDF Extract: 2025-Unknown-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask
+# PDF Extract: 2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask
 
-**Source PDF:** 2025-Unknown-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.pdf
+**Source PDF:** 2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.pdf
 **Total Pages:** 19
 
 ---

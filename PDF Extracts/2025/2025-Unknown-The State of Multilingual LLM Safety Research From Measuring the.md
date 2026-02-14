@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-The State of Multilingual LLM Safety Research From Measuring the - PDF Extract"
-source_pdf: "2025-Unknown-The State of Multilingual LLM Safety Research From Measuring the.pdf"
+title: "2025-Yong-The State of Multilingual LLM Safety Research From Measuring the - PDF Extract"
+source_pdf: "2025-Yong-The State of Multilingual LLM Safety Research From Measuring the.pdf"
 pages: 26
 extracted_at: "2026-02-13T09:50:29.140208"
 ---
 
-# PDF Extract: 2025-Unknown-The State of Multilingual LLM Safety Research From Measuring the
+# PDF Extract: 2025-Yong-The State of Multilingual LLM Safety Research From Measuring the
 
-**Source PDF:** 2025-Unknown-The State of Multilingual LLM Safety Research From Measuring the.pdf
+**Source PDF:** 2025-Yong-The State of Multilingual LLM Safety Research From Measuring the.pdf
 **Total Pages:** 26
 
 ---

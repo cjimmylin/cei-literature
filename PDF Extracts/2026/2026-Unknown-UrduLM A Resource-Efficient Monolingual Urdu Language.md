@@ -1,13 +1,13 @@
 ---
-title: "2026-Unknown-UrduLM A Resource-Efficient Monolingual Urdu Language - PDF Extract"
-source_pdf: "2026-Unknown-UrduLM A Resource-Efficient Monolingual Urdu Language.pdf"
+title: "2026-[[Unknown]]-UrduLM A Resource-Efficient Monolingual Urdu Language - PDF Extract"
+source_pdf: "2026-[[Unknown]]-UrduLM A Resource-Efficient Monolingual Urdu Language.pdf"
 pages: 12
 extracted_at: "2026-02-13T09:15:46.133182"
 ---
 
-# PDF Extract: 2026-Unknown-UrduLM A Resource-Efficient Monolingual Urdu Language
+# PDF Extract: 2026-[[Unknown]]-UrduLM A Resource-Efficient Monolingual Urdu Language
 
-**Source PDF:** 2026-Unknown-UrduLM A Resource-Efficient Monolingual Urdu Language.pdf
+**Source PDF:** 2026-[[Unknown]]-UrduLM A Resource-Efficient Monolingual Urdu Language.pdf
 **Total Pages:** 12
 
 ---

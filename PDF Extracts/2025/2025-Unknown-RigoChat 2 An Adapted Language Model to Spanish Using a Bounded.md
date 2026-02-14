@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded - PDF Extract"
-source_pdf: "2025-Unknown-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded.pdf"
+title: "2025-Gómez-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded - PDF Extract"
+source_pdf: "2025-Gómez-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded.pdf"
 pages: 21
 extracted_at: "2026-02-13T09:50:28.798628"
 ---
 
-# PDF Extract: 2025-Unknown-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded
+# PDF Extract: 2025-Gómez-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded
 
-**Source PDF:** 2025-Unknown-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded.pdf
+**Source PDF:** 2025-Gómez-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded.pdf
 **Total Pages:** 21
 
 ---

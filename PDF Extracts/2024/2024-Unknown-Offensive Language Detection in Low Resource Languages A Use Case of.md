@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-Offensive Language Detection in Low Resource Languages A Use Case of - PDF Extract"
-source_pdf: "2024-Unknown-Offensive Language Detection in Low Resource Languages A Use Case of.pdf"
+title: "2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of - PDF Extract"
+source_pdf: "2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of.pdf"
 pages: 30
 extracted_at: "2026-02-13T10:43:52.478649"
 ---
 
-# PDF Extract: 2024-Unknown-Offensive Language Detection in Low Resource Languages A Use Case of
+# PDF Extract: 2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of
 
-**Source PDF:** 2024-Unknown-Offensive Language Detection in Low Resource Languages A Use Case of.pdf
+**Source PDF:** 2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of.pdf
 **Total Pages:** 30
 
 ---

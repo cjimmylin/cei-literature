@@ -12,9 +12,10 @@ first_author: "[[Unknown]]"
 last_author: "[[Unknown]]"
 authors: Unknown
 url: "https://aclanthology.org/2025.naacl-long.600.pdf"
+external_pdf: "https://aclanthology.org/2025.naacl-long.600.pdf"
 publication: ACL Anthology
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2025-Unknown-Towards a Multilingual Assessment of Stereotypes in Large ....pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Unknown-Towards a Multilingual Assessment of Stereotypes in Large ....md"
 DATE_ADDED: 20260213
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -34,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Large Language Models (LLMs), the bedrock of many “artificial intelligence” (AI) applications, are known to reproduce social biases present in their training data. Yet resources to measure and control this issue are limited. Research identifying and mitigating stereotype biases have primarily been concentrated around English, lagging the rapid advancement of LLMs in multilingual settings. To help further advance the ability to address stereotype bias in AI systems, we introduce a new multilingual dataset: SHADES.1 Designed for examining culturally-specific stereotypes that may be learned by LLMs, SHADES includes over 300 stereotypes from 37 regions, translated across 16 languages and annotated with multiple features to aid multilingual stereotype analysis. All statements in all languages are paired with templates, to serve as a resource for unlimited 1Available at: https://huggingface.co/datasets/ LanguageShades/BiasShades generation of new evaluation data. We demonstrate the utility of the dataset in a series of exploratory evaluations that reveal significant differences in how stereotypes are recognized and reflected across models and languages. Figure 1: Regions with recognized stereotypes in SHADES. 11995"
 research_topic: "Machine Translation"
 ---
 # Towards a Multilingual Assessment of Stereotypes in Large ...
@@ -61,7 +62,8 @@ research_topic: "Machine Translation"
 
 ## Abstract
 
-Based on the search results, here's what recent 2025 research reveals about Chinese social bias and stereotypes in LLM evaluation: Key Research Areas Occupational and Gender Biases in Chinese LLMs A systematic study examined biases in five representative Chinese LLMs by collecting 90 Chinese surnames and 12 occupations as input prompts, generating 16,200 personal profiles that were evaluated for biases regarding gender, region, age, and educational background. Pre-training corpora for
+
+Large Language Models (LLMs), the bedrock of many “artificial intelligence” (AI) applications, are known to reproduce social biases present in their training data. Yet resources to measure and control this issue are limited. Research identifying and mitigating stereotype biases have primarily been concentrated around English, lagging the rapid advancement of LLMs in multilingual settings. To help further advance the ability to address stereotype bias in AI systems, we introduce a new multilingual dataset: SHADES.1 Designed for examining culturally-specific stereotypes that may be learned by LLMs, SHADES includes over 300 stereotypes from 37 regions, translated across 16 languages and annotated with multiple features to aid multilingual stereotype analysis. All statements in all languages are paired with templates, to serve as a resource for unlimited 1Available at: https://huggingface.co/datasets/ LanguageShades/BiasShades generation of new evaluation data. We demonstrate the utility of the dataset in a series of exploratory evaluations that reveal significant differences in how stereotypes are recognized and reflected across models and languages. Figure 1: Regions with recognized stereotypes in SHADES. 11995
 
 ## Notes
 

@@ -1,0 +1,76 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0669
+type: preprint
+short_title: "C3Bench: A Comprehensive Classical Chinese Understanding Benchmark for Large Language Models"
+year: 2024
+first_author: "[[Jiahuan Cao]]"
+last_author: "[[Unknown]]"
+authors: Jiahuan Cao; Yongxin Shi; Dezhi Peng; Yang Liu; Lianwen Jin
+url: "https://arxiv.org/html/2405.17732v1"
+external_pdf: "https://arxiv.org/pdf/2405.17732.pdf"
+publication: arXiv
+local_pdf: "[[PDFs/2024/2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.md"
+DATE_ADDED: 20260213
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
+languages_list: "Chinese, Classical Chinese, English"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract: "Classical Chinese Understanding (CCU) holds significant value in preserving and exploration of the outstanding traditional Chinese culture. Recently, researchers have attempted to leverage the potential of Large Language Models (LLMs) for CCU by capitalizing on their remarkable comprehension and semantic capabilities. However, no comprehensive benchmark is available to assess the CCU capabilities of LLMs. To fill this gap, this paper introduces C3bench, a Comprehensive Classical Chinese understanding benchmark, which comprises 50,000 text pairs for five primary CCU tasks, including classification, retrieval, named entity recognition, punctuation, and translation. Furthermore, the data in C3bench originates from ten different domains, covering most of the categories in classical Chinese. Leveraging the proposed C3bench, we extensively evaluate the quantitative performance of 15 representative LLMs on all five CCU tasks. Our results not only establish a public leaderboard of LLMs’ CCU capabilities but also gain some findings. Specifically, existing LLMs are struggle with CCU tasks and still inferior to supervised models. Additionally, the results indicate that CCU is a task that requires special attention. We believe this study could provide a standard benchmark, comprehensive baselines, and valuable insights for the future advancement of LLMbased CCU research. The evaluation pipeline and dataset are available at https://github.com/ SCUT-DLVCLab/C3bench."
+research_topic: "Machine Learning"
+---
+# C3Bench: A Comprehensive Classical Chinese Understanding Benchmark for Large Language Models
+
+## Authors
+
+[[Jiahuan Cao]], [[Yongxin Shi]], [[Dezhi Peng]], [[Yang Liu]], [[Lianwen Jin]]
+
+## Metadata
+
+**Authors:** Jiahuan Cao; Yongxin Shi; Dezhi Peng; Yang Liu; Lianwen Jin
+
+**Year:** 2024
+
+**Type:** preprint
+
+**Venue:** arXiv
+
+**Languages:** Chinese, Classical Chinese, English
+
+**Benchmark:** C3Bench
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2405.17732
+
+## Abstract
+
+
+Classical Chinese Understanding (CCU) holds significant value in preserving and exploration of the outstanding traditional Chinese culture. Recently, researchers have attempted to leverage the potential of Large Language Models (LLMs) for CCU by capitalizing on their remarkable comprehension and semantic capabilities. However, no comprehensive benchmark is available to assess the CCU capabilities of LLMs. To fill this gap, this paper introduces C3bench, a Comprehensive Classical Chinese understanding benchmark, which comprises 50,000 text pairs for five primary CCU tasks, including classification, retrieval, named entity recognition, punctuation, and translation. Furthermore, the data in C3bench originates from ten different domains, covering most of the categories in classical Chinese. Leveraging the proposed C3bench, we extensively evaluate the quantitative performance of 15 representative LLMs on all five CCU tasks. Our results not only establish a public leaderboard of LLMs’ CCU capabilities but also gain some findings. Specifically, existing LLMs are struggle with CCU tasks and still inferior to supervised models. Additionally, the results indicate that CCU is a task that requires special attention. We believe this study could provide a standard benchmark, comprehensive baselines, and valuable insights for the future advancement of LLMbased CCU research. The evaluation pipeline and dataset are available at https://github.com/ SCUT-DLVCLab/C3bench.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent C1
+**Relevance:** C3Bench benchmark for Chinese, Classical Chinese, English
+
+## Tags
+

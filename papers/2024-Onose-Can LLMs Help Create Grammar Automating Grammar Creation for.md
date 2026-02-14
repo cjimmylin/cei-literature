@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Yes! In the present-day documenting and preserving endangered languages, the application of Large Language Models (LLMs) presents a promising approach. This paper explores how LLMs, particularly through in-context learning, can assist in generating grammatical information for low-resource languages with limited amount of data. We takes Moklen as a case study to evaluate the efficacy of LLMs in producing coherent grammatical rules and lexical entries using only bilingual dictionaries and parallel sentences of the unknown language without building the model from scratch. Our methodology involves organising the existing linguistic data and prompting to efficiently enable to generate formal XLE grammar. Our results demonstrate that LLMs can successfully capture key grammatical structures and lexical information, although challenges such as the potential for English grammatical biases remain. This study highlights the potential of LLMs to enhance language documentation efforts, providing a cost-effective solution for generating linguistic data and contributing to the preservation of endangered languages."
 research_topic: "Other"
 ---
 # Can LLMs Help Create Grammar?: Automating Grammar Creation for Endangered Languages with In-Context Learning
@@ -62,7 +62,8 @@ research_topic: "Other"
 
 ## Abstract
 
-Based on the search results, here's what I found regarding endangered languages and LLM evaluation benchmarks: Recent Benchmarks and Research LLMs are increasingly employed in language documentation tasks such as annotation, grammatical analysis, and cross-linguistic comparison, as well as in language preservation where they are used to accelerate transcription, translation, morphological analysis, glossing, and grammatical description, crucial for the preservation of endangered languages.
+
+Yes! In the present-day documenting and preserving endangered languages, the application of Large Language Models (LLMs) presents a promising approach. This paper explores how LLMs, particularly through in-context learning, can assist in generating grammatical information for low-resource languages with limited amount of data. We takes Moklen as a case study to evaluate the efficacy of LLMs in producing coherent grammatical rules and lexical entries using only bilingual dictionaries and parallel sentences of the unknown language without building the model from scratch. Our methodology involves organising the existing linguistic data and prompting to efficiently enable to generate formal XLE grammar. Our results demonstrate that LLMs can successfully capture key grammatical structures and lexical information, although challenges such as the potential for English grammatical biases remain. This study highlights the potential of LLMs to enhance language documentation efforts, providing a cost-effective solution for generating linguistic data and contributing to the preservation of endangered languages.
 
 ## Notes
 

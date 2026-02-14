@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-The Unseen Targets of Hate – A Systematic Review of Hateful - PDF Extract"
-source_pdf: "2024-Unknown-The Unseen Targets of Hate – A Systematic Review of Hateful.pdf"
+title: "2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful - PDF Extract"
+source_pdf: "2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful.pdf"
 pages: 20
 extracted_at: "2026-02-13T13:57:12.909086"
 ---
 
-# PDF Extract: 2024-Unknown-The Unseen Targets of Hate – A Systematic Review of Hateful
+# PDF Extract: 2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful
 
-**Source PDF:** 2024-Unknown-The Unseen Targets of Hate – A Systematic Review of Hateful.pdf
+**Source PDF:** 2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful.pdf
 **Total Pages:** 20
 
 ---

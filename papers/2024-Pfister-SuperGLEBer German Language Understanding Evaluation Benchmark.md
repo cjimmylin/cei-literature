@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "10 German-pretrained models"
+DATA_URL: "https://github.com/LSX-UniWue/SuperGLEBer"
 tags: 
 abstract:
 research_topic: "Machine Learning"
@@ -66,6 +67,15 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Comprehensive German NLU benchmark with 29 tasks spanning document classification, sequence tagging, sentence similarity, and question answering. Evaluates 10 German-pretrained models. First comprehensive German-language benchmark for LLMs.
+
+## Summary
+
+This paper introduces SuperGLEBer, the first comprehensive Natural Language Understanding benchmark suite for the German language, addressing the lack of systematic evaluation frameworks for German LLMs. The benchmark comprises 29 diverse tasks across four types (document classification, sequence tagging, sentence similarity, and question answering) sourced from various domains, with tasks selected to have simple input/output formats and intuitive evaluation metrics. The authors evaluate 10 German-pretrained models (4 encoder-only, 3 decoder-only, 3 encoder-decoder) and find that encoder models generally perform best, though the largest encoder model does not consistently outperform smaller counterparts. The benchmark suite and leaderboard are publicly available to foster continued German LLM research.
+
+## Data Description
+
+SuperGLEBer is a comprehensive German NLU benchmark with 29 tasks spanning document classification, sequence tagging, sentence similarity, and question answering. Evaluates 10 German-pretrained models. First comprehensive German-language benchmark for LLMs.
+
 
 ## Notes
 

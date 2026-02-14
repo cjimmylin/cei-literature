@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks - PDF Extract"
-source_pdf: "2025-Unknown-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks.pdf"
+title: "2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks - PDF Extract"
+source_pdf: "2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks.pdf"
 pages: 22
 extracted_at: "2026-02-13T09:50:29.030998"
 ---
 
-# PDF Extract: 2025-Unknown-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks
+# PDF Extract: 2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks
 
-**Source PDF:** 2025-Unknown-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks.pdf
+**Source PDF:** 2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks.pdf
 **Total Pages:** 22
 
 ---

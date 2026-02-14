@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "The advancement of large language models (LLMs) has predominantly focused on highresource languages, leaving low-resource languages, such as those in the Finno-Ugric family, significantly underrepresented. This paper addresses this gap by focusing on Võro, Livonian, and Komi. We cover almost the entire cycle of LLM creation, from data collection to instruction tuning and evaluation. Our contributions include developing multilingual base and instruction-tuned models; creating evaluation benchmarks, including the SMUGRI-MTBENCH multi-turn conversational benchmark; and conducting human evaluation. We intend for this work to promote linguistic diversity, ensuring that lesser-resourced languages can benefit from advancements in NLP."
 research_topic: "Other"
 ---
 # LLMs for Extremely Low-Resource Finno-Ugric Languages
@@ -64,7 +64,8 @@ research_topic: "Other"
 
 ## Abstract
 
-Based on the search results, here's what I found regarding endangered languages and LLM evaluation benchmarks: Recent Benchmarks and Research LLMs are increasingly employed in language documentation tasks such as annotation, grammatical analysis, and cross-linguistic comparison, as well as in language preservation where they are used to accelerate transcription, translation, morphological analysis, glossing, and grammatical description, crucial for the preservation of endangered languages.
+
+The advancement of large language models (LLMs) has predominantly focused on highresource languages, leaving low-resource languages, such as those in the Finno-Ugric family, significantly underrepresented. This paper addresses this gap by focusing on Võro, Livonian, and Komi. We cover almost the entire cycle of LLM creation, from data collection to instruction tuning and evaluation. Our contributions include developing multilingual base and instruction-tuned models; creating evaluation benchmarks, including the SMUGRI-MTBENCH multi-turn conversational benchmark; and conducting human evaluation. We intend for this work to promote linguistic diversity, ensuring that lesser-resourced languages can benefit from advancements in NLP.
 
 ## Notes
 

@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Evaluation of Hate Speech Detection Using Large Language Models and - PDF Extract"
-source_pdf: "2025-Unknown-Evaluation of Hate Speech Detection Using Large Language Models and.pdf"
+title: "2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and - PDF Extract"
+source_pdf: "2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and.pdf"
 pages: 6
 extracted_at: "2026-02-13T09:50:32.279514"
 ---
 
-# PDF Extract: 2025-Unknown-Evaluation of Hate Speech Detection Using Large Language Models and
+# PDF Extract: 2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and
 
-**Source PDF:** 2025-Unknown-Evaluation of Hate Speech Detection Using Large Language Models and.pdf
+**Source PDF:** 2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and.pdf
 **Total Pages:** 6
 
 ---

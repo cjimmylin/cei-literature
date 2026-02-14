@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Indigenous languages are historically underserved by Natural Language Processing (NLP) technologies, but this is changing for some languages with the recent scaling of large multilingual models and an increased focus by the NLP community on endangered languages. This position paper explores ethical considerations in building NLP technologies for Indigenous languages, based on the premise that such projects should primarily serve Indigenous communities. We report on interviews with 17 researchers working in or with Aboriginal and/or Torres Strait Islander communities on language technology projects in Australia. Drawing on insights from the interviews, we recommend practices for NLP researchers to increase attention to the process of engagements with Indigenous communities, rather than focusing only on decontextualised artefacts."
 research_topic: "Other"
 ---
 # “It’s how you do things that matters”: Attending to Process to Better Serve Indigenous Communities with Language Technologies
@@ -62,7 +62,8 @@ research_topic: "Other"
 
 ## Abstract
 
-Based on the web search results, here's what I found about decolonizing NLP for indigenous languages evaluation: Key Issues and Challenges The discourse surrounding decolonization resonates deeply within the realm of NLP, where dominant Western perspectives, datasets, and methodologies often eclipse indigenous knowledge systems and local voices. Indigenous languages are endangered due not to any inherent linguistic inferiority, but rather due to the global economic, ideological, military, a
+
+Indigenous languages are historically underserved by Natural Language Processing (NLP) technologies, but this is changing for some languages with the recent scaling of large multilingual models and an increased focus by the NLP community on endangered languages. This position paper explores ethical considerations in building NLP technologies for Indigenous languages, based on the premise that such projects should primarily serve Indigenous communities. We report on interviews with 17 researchers working in or with Aboriginal and/or Torres Strait Islander communities on language technology projects in Australia. Drawing on insights from the interviews, we recommend practices for NLP researchers to increase attention to the process of engagements with Indigenous communities, rather than focusing only on decontextualised artefacts.
 
 ## Notes
 

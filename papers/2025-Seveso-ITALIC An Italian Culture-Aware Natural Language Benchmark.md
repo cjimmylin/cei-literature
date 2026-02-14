@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4, Claude, Gemini, Llama, Mistral, Qwen, Aya"
+DATA_URL: "https://italicbench.it/"
 tags: 
 abstract:
 research_topic: "Machine Learning"
@@ -66,6 +67,11 @@ research_topic: "Machine Learning"
 ## Abstract
 
 A large-scale benchmark dataset of 10,000 multiple-choice questions designed to evaluate NLU of Italian language and culture across 12 domains. Baseline performances established using 17 state-of-the-art LLMs reveal current limitations in Italian language understanding and highlight significant cultural specificity challenges.
+
+## Data Description
+
+ITALIC is a large-scale benchmark dataset of 10,000 multiple-choice questions designed to evaluate natural language understanding of Italian language and culture across 12 domains. Baseline performances established using 17 state-of-the-art LLMs reveal current limitations in Italian language understanding and highlight significant cultural specificity challenges.
+
 
 ## Notes
 

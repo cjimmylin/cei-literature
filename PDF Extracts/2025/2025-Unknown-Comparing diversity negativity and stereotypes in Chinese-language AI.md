@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Comparing diversity negativity and stereotypes in Chinese-language AI - PDF Extract"
-source_pdf: "2025-Unknown-Comparing diversity negativity and stereotypes in Chinese-language AI.pdf"
+title: "2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI - PDF Extract"
+source_pdf: "2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI.pdf"
 pages: 21
 extracted_at: "2026-02-13T14:50:56.588748"
 ---
 
-# PDF Extract: 2025-Unknown-Comparing diversity negativity and stereotypes in Chinese-language AI
+# PDF Extract: 2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI
 
-**Source PDF:** 2025-Unknown-Comparing diversity negativity and stereotypes in Chinese-language AI.pdf
+**Source PDF:** 2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI.pdf
 **Total Pages:** 21
 
 ---

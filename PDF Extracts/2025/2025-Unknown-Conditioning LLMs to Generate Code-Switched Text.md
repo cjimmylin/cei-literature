@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Conditioning LLMs to Generate Code-Switched Text - PDF Extract"
-source_pdf: "2025-Unknown-Conditioning LLMs to Generate Code-Switched Text.pdf"
+title: "2025-Heredia-Conditioning LLMs to Generate Code-Switched Text - PDF Extract"
+source_pdf: "2025-Heredia-Conditioning LLMs to Generate Code-Switched Text.pdf"
 pages: 15
 extracted_at: "2026-02-13T13:57:14.507059"
 ---
 
-# PDF Extract: 2025-Unknown-Conditioning LLMs to Generate Code-Switched Text
+# PDF Extract: 2025-Heredia-Conditioning LLMs to Generate Code-Switched Text
 
-**Source PDF:** 2025-Unknown-Conditioning LLMs to Generate Code-Switched Text.pdf
+**Source PDF:** 2025-Heredia-Conditioning LLMs to Generate Code-Switched Text.pdf
 **Total Pages:** 15
 
 ---

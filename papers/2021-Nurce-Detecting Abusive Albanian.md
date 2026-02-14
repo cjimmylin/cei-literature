@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT"
+DATA_URL: "https://doi.org/10.6084/m9.figshare.19333298.v1"
 tags: 
 abstract: "The ever growing usage of social media in the recent years has had a direct impact on the increased presence of hate speech and offensive speech in online platforms. Research on effective detection of such content has mainly focused on English and a few other widespread languages, while the leftover majority fail to have the same work put into them and thus cannot benefit from the steady advancements made in the field."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -66,6 +67,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Presents SHAJ, an annotated Albanian dataset for hate speech and offensive speech constructed from user-generated content on Instagram and YouTube. Contains 11,874 instances with 13.2% abusive content, annotated hierarchically (offensive/not; untargeted/targeted; person/group/other).
+
+## Data Description
+
+SHAJ dataset of 11,874 Albanian social media comments from Instagram and YouTube with hierarchical annotation for offensive/hate speech. Tests BERT, BiLSTM, and logistic regression models achieving F1 scores of 0.77 for offensive language identification.
+
 
 ## Notes
 

@@ -34,7 +34,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Cultural Survival Quarterly Sujet : For 40 years Cultural Survival has partnered with Indigenous communities around the world to defend their lands, languages, and cultures. We publicize Indigenous Peoples' issues through our award-winning publications; we mount letter-writing campaigns and other advocacy efforts to stop environmental destruction and abuses of Native Peoples' rights; and we work on the ground in Indigenous communities, always at their invitation. Our work is predicated on..."
 research_topic: "Social & Cultural Analysis"
 ---
 # Artificial Intelligence and Indigenous Peoples’ Realities | Cultural Survival
@@ -61,7 +61,8 @@ research_topic: "Social & Cultural Analysis"
 
 ## Abstract
 
-I've completed the web search for "indigenous languages AI ethics cultural values." Here are the key findings: Overview The search results reveal a complex landscape where AI presents both opportunities and challenges for Indigenous language preservation and cultural values. Key Themes Language Preservation and Opportunities When developed inclusively and ethically, AI can support language revitalization and enhance cultural preservation.
+
+Cultural Survival Quarterly Sujet : For 40 years Cultural Survival has partnered with Indigenous communities around the world to defend their lands, languages, and cultures. We publicize Indigenous Peoples' issues through our award-winning publications; we mount letter-writing campaigns and other advocacy efforts to stop environmental destruction and abuses of Native Peoples' rights; and we work on the ground in Indigenous communities, always at their invitation. Our work is predicated on...
 
 ## Notes
 

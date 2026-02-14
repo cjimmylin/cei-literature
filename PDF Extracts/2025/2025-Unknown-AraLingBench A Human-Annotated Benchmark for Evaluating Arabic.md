@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic - PDF Extract"
-source_pdf: "2025-Unknown-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic.pdf"
+title: "2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic - PDF Extract"
+source_pdf: "2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic.pdf"
 pages: 18
 extracted_at: "2026-02-13T13:57:14.268347"
 ---
 
-# PDF Extract: 2025-Unknown-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic
+# PDF Extract: 2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic
 
-**Source PDF:** 2025-Unknown-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic.pdf
+**Source PDF:** 2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic.pdf
 **Total Pages:** 18
 
 ---

@@ -16,9 +16,9 @@ last_author: "[[Nethmi Muthugala, Deyi Xiong]]"
 authors: "[[Nethmi Muthugala, Deyi Xiong]]"
 authors_incomplete: false
 url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: "http://www.gbv.de/dms/bowker/toc/9780415749237.pdf"
+local_pdf: "[[PDFs/2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.md"
 publication: Submitted to NeurIPS 2025 (under review)
 DATE_ADDED: 20260213
 ethics_overall: "Yes"

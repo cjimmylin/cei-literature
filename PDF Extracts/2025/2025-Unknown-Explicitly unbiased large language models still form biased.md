@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Explicitly unbiased large language models still form biased - PDF Extract"
-source_pdf: "2025-Unknown-Explicitly unbiased large language models still form biased.pdf"
+title: "2025-Bai-Explicitly unbiased large language models still form biased - PDF Extract"
+source_pdf: "2025-Bai-Explicitly unbiased large language models still form biased.pdf"
 pages: 9
 extracted_at: "2026-02-13T14:50:56.961329"
 ---
 
-# PDF Extract: 2025-Unknown-Explicitly unbiased large language models still form biased
+# PDF Extract: 2025-Bai-Explicitly unbiased large language models still form biased
 
-**Source PDF:** 2025-Unknown-Explicitly unbiased large language models still form biased.pdf
+**Source PDF:** 2025-Bai-Explicitly unbiased large language models still form biased.pdf
 **Total Pages:** 9
 
 ---

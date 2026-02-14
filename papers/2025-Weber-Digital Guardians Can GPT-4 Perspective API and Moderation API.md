@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4o"
+DATA_URL: "NA"
 tags: 
 abstract: "In recent years, toxic content and hate speech have become widespread phenomena on the internet. Moderators of online newspapers and forums are now required, partly due to legal regulations, to carefully review and, if necessary, delete reader comments. This is a labor-intensive process. Some providers of large language models already offer solutions for automated hate speech detection or the identification of toxic content."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -63,6 +64,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Compares GPT-4o, Perspective API, and Moderation API for detecting hate speech in German newspaper comments using HOCON34k dataset. GPT-4o outperforms both other tools across zero-shot, one-shot, and few-shot prompting.
+
+## Data Description
+
+Compares GPT-4o, Perspective API, and Moderation API for detecting hate speech in German newspaper reader comments using the HOCON34k dataset. GPT-4o outperforms both commercial APIs across zero-shot, one-shot, and few-shot prompting. Evaluates existing models on existing dataset rather than introducing new data.
+
 
 ## Notes
 

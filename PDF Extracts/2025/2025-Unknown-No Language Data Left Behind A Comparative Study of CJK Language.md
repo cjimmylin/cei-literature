@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-No Language Data Left Behind A Comparative Study of CJK Language - PDF Extract"
-source_pdf: "2025-Unknown-No Language Data Left Behind A Comparative Study of CJK Language.pdf"
+title: "2025-Choi-No Language Data Left Behind A Comparative Study of CJK Language - PDF Extract"
+source_pdf: "2025-Choi-No Language Data Left Behind A Comparative Study of CJK Language.pdf"
 pages: 10
 extracted_at: "2026-02-13T13:57:15.060880"
 ---
 
-# PDF Extract: 2025-Unknown-No Language Data Left Behind A Comparative Study of CJK Language
+# PDF Extract: 2025-Choi-No Language Data Left Behind A Comparative Study of CJK Language
 
-**Source PDF:** 2025-Unknown-No Language Data Left Behind A Comparative Study of CJK Language.pdf
+**Source PDF:** 2025-Choi-No Language Data Left Behind A Comparative Study of CJK Language.pdf
 **Total Pages:** 10
 
 ---

@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI - PDF Extract"
-source_pdf: "2025-Unknown-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI.pdf"
+title: "2025-Farsi-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI - PDF Extract"
+source_pdf: "2025-Farsi-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI.pdf"
 pages: 15
 extracted_at: "2026-02-13T09:50:28.654107"
 ---
 
-# PDF Extract: 2025-Unknown-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI
+# PDF Extract: 2025-Farsi-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI
 
-**Source PDF:** 2025-Unknown-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI.pdf
+**Source PDF:** 2025-Farsi-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI.pdf
 **Total Pages:** 15
 
 ---

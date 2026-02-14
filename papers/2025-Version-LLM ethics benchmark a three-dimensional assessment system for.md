@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "This study establishes a novel framework for systematically evaluating the moral reasoning capabilities of large language models (LLMs) as they increasingly integrate into critical societal domains. Current assessment methodologies lack the precision needed to evaluate nuanced ethical decision-making in AI systems, creating significant accountability gaps. Our framework addresses this challenge by quantifying alignment with human ethical standards through three dimensions: foundational moral principles, reasoning robustness, and value consistency across diverse scenarios. This approach enables precise identification of ethical strengths and weaknesses in LLMs, facilitating targeted improvements and stronger alignment with societal values. To promote transparency and collaborative advancement in ethical AI development, we are publicly releasing both our benchmark datasets and evaluation codebase at https://github.com/ The-Responsible-AI-Initiative/LLM_Ethics_Benchmark.git."
 ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # LLM ethics benchmark: a three-dimensional assessment system for evaluating moral reasoning in large language models
@@ -64,7 +64,8 @@ ethics_perspective: "Moral Reasoning & Psychology"
 
 ## Abstract
 
-Based on my search results, here are the key findings on Arabic language model ethics and moral reasoning benchmarks in 2025: Arabic Language Model Benchmarks Modern benchmarks like LAraBench, BALSAM, ORCA, and Dolphin provide unified evaluation benchmarks capturing understanding, generation, reasoning, and instruction-following while incorporating dialectal and domain diversity. Specific Ethics and Trustworthiness Benchmarks AraTrust: An AraTrust benchmark was introduced to evalua
+
+This study establishes a novel framework for systematically evaluating the moral reasoning capabilities of large language models (LLMs) as they increasingly integrate into critical societal domains. Current assessment methodologies lack the precision needed to evaluate nuanced ethical decision-making in AI systems, creating significant accountability gaps. Our framework addresses this challenge by quantifying alignment with human ethical standards through three dimensions: foundational moral principles, reasoning robustness, and value consistency across diverse scenarios. This approach enables precise identification of ethical strengths and weaknesses in LLMs, facilitating targeted improvements and stronger alignment with societal values. To promote transparency and collaborative advancement in ethical AI development, we are publicly releasing both our benchmark datasets and evaluation codebase at https://github.com/ The-Responsible-AI-Initiative/LLM_Ethics_Benchmark.git.
 
 ## Notes
 

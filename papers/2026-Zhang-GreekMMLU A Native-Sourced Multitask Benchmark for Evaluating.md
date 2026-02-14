@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark annotated dataset"
 data_metrics: "16,857 samples; 4,948 samples"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "80+ open- and closed-source LLMs"
+DATA_URL: "https://github.com/mersinkonomi/GreekMMLU"
 tags: 
 abstract: "Large Language Models (LLMs) are commonly trained on multilingual corpora that include Greek, yet reliable evaluation benchmarks for Greek—particularly those based on authentic, native-sourced content—remain limited. Existing datasets are often machine-translated from English, failing to capture Greek linguistic and cultural characteristics. We introduce GreekMMLU1, a native-sourced benchmark for massive multitask language understanding in Greek, comprising 21,805 multiple-choice questions..."
 research_topic: "Machine Translation"
@@ -66,6 +67,11 @@ research_topic: "Machine Translation"
 ## Abstract
 
 A native-sourced benchmark for massive multitask language understanding in Greek, comprising 21,805 multiple-choice questions across 45 subject areas. All questions sourced or authored in Greek from academic, professional, and governmental exams. Evaluations of over 80 open- and closed-source LLMs reveal substantial performance gaps.
+
+## Data Description
+
+Introduces GreekMMLU, a native-sourced benchmark for massive multitask language understanding in Greek, comprising 21,805 multiple-choice questions across 45 subject areas sourced from academic, professional, and governmental exams. Evaluates 80+ LLMs revealing substantial performance gaps between frontier and open-weight models, with 16,857 public and 4,948 private samples.
+
 
 ## Notes
 

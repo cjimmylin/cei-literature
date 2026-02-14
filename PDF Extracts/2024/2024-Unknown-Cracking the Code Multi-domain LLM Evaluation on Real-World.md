@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-Cracking the Code Multi-domain LLM Evaluation on Real-World - PDF Extract"
-source_pdf: "2024-Unknown-Cracking the Code Multi-domain LLM Evaluation on Real-World.pdf"
+title: "2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World - PDF Extract"
+source_pdf: "2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World.pdf"
 pages: 11
 extracted_at: "2026-02-13T09:50:29.150067"
 ---
 
-# PDF Extract: 2024-Unknown-Cracking the Code Multi-domain LLM Evaluation on Real-World
+# PDF Extract: 2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World
 
-**Source PDF:** 2024-Unknown-Cracking the Code Multi-domain LLM Evaluation on Real-World.pdf
+**Source PDF:** 2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World.pdf
 **Total Pages:** 11
 
 ---

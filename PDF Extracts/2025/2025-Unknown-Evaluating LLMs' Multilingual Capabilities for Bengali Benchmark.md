@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark - PDF Extract"
-source_pdf: "2025-Unknown-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark.pdf"
+title: "2025-Bhowmik-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark - PDF Extract"
+source_pdf: "2025-Bhowmik-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark.pdf"
 pages: 10
 extracted_at: "2026-02-13T09:50:32.252569"
 ---
 
-# PDF Extract: 2025-Unknown-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark
+# PDF Extract: 2025-Bhowmik-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark
 
-**Source PDF:** 2025-Unknown-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark.pdf
+**Source PDF:** 2025-Bhowmik-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark.pdf
 **Total Pages:** 10
 
 ---

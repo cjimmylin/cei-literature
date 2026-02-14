@@ -1,13 +1,13 @@
 ---
-title: "2024-Unknown-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances - PDF Extract"
-source_pdf: "2024-Unknown-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances.pdf"
+title: "2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances - PDF Extract"
+source_pdf: "2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances.pdf"
 pages: 19
 extracted_at: "2026-02-13T09:50:29.024721"
 ---
 
-# PDF Extract: 2024-Unknown-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances
+# PDF Extract: 2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances
 
-**Source PDF:** 2024-Unknown-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances.pdf
+**Source PDF:** 2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances.pdf
 **Total Pages:** 19
 
 ---

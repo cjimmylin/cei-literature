@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Toxicity & Hate Speech"
@@ -65,6 +66,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Multi-lingual, multi-target dataset of ~4,000 Telegram messages in Italian and Polish annotated for hate speech and targets including People with Disabilities, LGBTQ+, Religion (Jews, Muslims, Christians), Ethnicity/Origin (People of Color, Romani, Migrants), and Women.
+
+## Data Description
+
+Introduces MuLTa-Telegram, a multilingual dataset of approximately 4,000 Telegram messages in Italian and Polish annotated for hate speech with fine-grained target annotations including People with Disabilities, LGBTQ+, Religion (Jews, Muslims, Christians), Ethnicity/Origin, and Women. Enables evaluation of bias against diverse social groups.
+
 
 ## Notes
 

@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Rice-VL Evaluating Vision-Language Models for Cultural Understanding - PDF Extract"
-source_pdf: "2025-Unknown-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.pdf"
+title: "2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding - PDF Extract"
+source_pdf: "2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.pdf"
 pages: 14
 extracted_at: "2026-02-13T09:50:28.749505"
 ---
 
-# PDF Extract: 2025-Unknown-Rice-VL Evaluating Vision-Language Models for Cultural Understanding
+# PDF Extract: 2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding
 
-**Source PDF:** 2025-Unknown-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.pdf
+**Source PDF:** 2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.pdf
 **Total Pages:** 14
 
 ---

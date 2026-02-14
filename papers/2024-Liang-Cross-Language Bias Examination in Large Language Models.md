@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4"
+DATA_URL: "NA"
 tags: 
 abstract: "This study introduces an innovative multilingual bias evaluation framework for assessing bias in Large Language Models, combining explicit bias assessment through the BBQ benchmark with implicit bias measurement using a prompt-based Implicit Association Test. By translating the prompts and word list into five target languages — English, Chinese, Arabic, French, and Spanish — we were able to directly compare different types of bias across languages."
 ethics_perspective: "Bias & Fairness"
@@ -63,6 +64,15 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Multilingual bias evaluation framework combining explicit bias assessment (BBQ benchmark translated to 5 languages) with implicit bias measurement using prompt-based IAT. Finds significant bias differences across languages, with Arabic and Spanish showing high stereotyping consistently. Uses DeepL API for BBQ French translation.
+
+## Summary
+
+This study introduces a comprehensive multilingual bias evaluation framework that assesses both explicit and implicit bias in Large Language Models across five languages (English, Chinese, Arabic, French, Spanish). The authors translate the BBQ benchmark into target languages via DeepL API for explicit bias assessment and adapt the Implicit Association Test (IAT) with multilingual word lists to measure implicit bias. Results reveal substantial cross-language variations, with Arabic and Spanish consistently showing high levels of stereotyping while Chinese and English exhibit lower bias levels. Notably, they find opposite patterns across bias types, such as age showing the lowest explicit bias but highest implicit bias, highlighting the importance of dual-method bias detection.
+
+## Data Description
+
+Multilingual bias evaluation framework combining explicit bias assessment (BBQ benchmark translated to 5 languages: Arabic, Chinese, English, French, Spanish) with implicit bias measurement using prompt-based Implicit Association Test. Finds significant bias differences across languages, with Arabic and Spanish showing high stereotyping.
+
 
 ## Notes
 

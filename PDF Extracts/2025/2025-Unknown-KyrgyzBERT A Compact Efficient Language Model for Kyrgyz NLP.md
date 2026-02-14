@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP - PDF Extract"
-source_pdf: "2025-Unknown-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP.pdf"
+title: "2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP - PDF Extract"
+source_pdf: "2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP.pdf"
 pages: 3
 extracted_at: "2026-02-13T14:50:57.389168"
 ---
 
-# PDF Extract: 2025-Unknown-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP
+# PDF Extract: 2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP
 
-**Source PDF:** 2025-Unknown-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP.pdf
+**Source PDF:** 2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP.pdf
 **Total Pages:** 3
 
 ---

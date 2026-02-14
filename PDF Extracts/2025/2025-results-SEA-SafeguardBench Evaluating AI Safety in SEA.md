@@ -1,13 +1,13 @@
 ---
-title: "2025-results-SEA-SafeguardBench Evaluating AI Safety in SEA - PDF Extract"
-source_pdf: "2025-results-SEA-SafeguardBench Evaluating AI Safety in SEA.pdf"
+title: "2025-results]]-SEA-SafeguardBench Evaluating AI Safety in SEA - PDF Extract"
+source_pdf: "2025-results]]-SEA-SafeguardBench Evaluating AI Safety in SEA.pdf"
 pages: 30
 extracted_at: "2026-02-13T09:15:43.781811"
 ---
 
-# PDF Extract: 2025-results-SEA-SafeguardBench Evaluating AI Safety in SEA
+# PDF Extract: 2025-results]]-SEA-SafeguardBench Evaluating AI Safety in SEA
 
-**Source PDF:** 2025-results-SEA-SafeguardBench Evaluating AI Safety in SEA.pdf
+**Source PDF:** 2025-results]]-SEA-SafeguardBench Evaluating AI Safety in SEA.pdf
 **Total Pages:** 30
 
 ---

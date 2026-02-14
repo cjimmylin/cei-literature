@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Large Language Models (LLMs) have revolutionized natural language processing, but their susceptibility to biases poses signiﬁcant challenges. This comprehensive review examines the landscape of bias in LLMs, from its origins to current mitigation strategies. We categorize biases as intrinsic and extrinsic, analyzing their manifestations in various NLP tasks. The review critically assesses a range of bias evaluation methods, including data-level, model-level, and output-level approaches, providing researchers with a robust toolkit for bias detection. We further explore mitigation strategies, categorizing them into pre-model, intra-model, and post-model techniques, highlighting their eﬀectiveness and limitations. Ethical and legal implications of biased LLMs are discussed, emphasizing potential harms in real-world applications such as healthcare and criminal justice. By synthesizing current knowledge on bias in LLMs, this review contributes to the ongoing eﬀort to develop fair and responsible AI systems. Our work serves as a comprehensive resource for researchers and practitioners working towards understanding, evaluating, and mitigating bias in LLMs, fostering the development of more equitable AI technologies."
 ethics_perspective: "Bias & Fairness"
 ---
 # Bias in Large Language Models: Origin, Evaluation, and Mitigation
@@ -62,7 +62,8 @@ ethics_perspective: "Bias & Fairness"
 
 ## Abstract
 
-Based on the web search results, here's what I found about endangered language representation, LLM bias, and evaluation: Key Findings Endangered Languages and Low-Resource Language Representation: Low-resource languages (LRLs) — those with limited data, tools, and support — have moved from the periphery of NLP to a central challenge in the era of large language models. Data deserts, tokenizer inequities, bias/toxicity, and evaluation blind spots remain as persistent challenges.
+
+Large Language Models (LLMs) have revolutionized natural language processing, but their susceptibility to biases poses signiﬁcant challenges. This comprehensive review examines the landscape of bias in LLMs, from its origins to current mitigation strategies. We categorize biases as intrinsic and extrinsic, analyzing their manifestations in various NLP tasks. The review critically assesses a range of bias evaluation methods, including data-level, model-level, and output-level approaches, providing researchers with a robust toolkit for bias detection. We further explore mitigation strategies, categorizing them into pre-model, intra-model, and post-model techniques, highlighting their eﬀectiveness and limitations. Ethical and legal implications of biased LLMs are discussed, emphasizing potential harms in real-world applications such as healthcare and criminal justice. By synthesizing current knowledge on bias in LLMs, this review contributes to the ongoing eﬀort to develop fair and responsible AI systems. Our work serves as a comprehensive resource for researchers and practitioners working towards understanding, evaluating, and mitigating bias in LLMs, fostering the development of more equitable AI technologies.
 
 ## Notes
 

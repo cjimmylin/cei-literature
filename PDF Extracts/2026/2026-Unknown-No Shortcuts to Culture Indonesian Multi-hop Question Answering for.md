@@ -1,13 +1,13 @@
 ---
-title: "2026-Unknown-No Shortcuts to Culture Indonesian Multi-hop Question Answering for - PDF Extract"
-source_pdf: "2026-Unknown-No Shortcuts to Culture Indonesian Multi-hop Question Answering for.pdf"
+title: "2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for - PDF Extract"
+source_pdf: "2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for.pdf"
 pages: 23
 extracted_at: "2026-02-13T09:50:31.083951"
 ---
 
-# PDF Extract: 2026-Unknown-No Shortcuts to Culture Indonesian Multi-hop Question Answering for
+# PDF Extract: 2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for
 
-**Source PDF:** 2026-Unknown-No Shortcuts to Culture Indonesian Multi-hop Question Answering for.pdf
+**Source PDF:** 2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for.pdf
 **Total Pages:** 23
 
 ---

@@ -1,13 +1,13 @@
 ---
-title: "2022-results-Hate Speech and Offensive Language Detection - PDF Extract"
-source_pdf: "2022-results-Hate Speech and Offensive Language Detection.pdf"
+title: "2022-results]]-Hate Speech and Offensive Language Detection - PDF Extract"
+source_pdf: "2022-results]]-Hate Speech and Offensive Language Detection.pdf"
 pages: 11
 extracted_at: "2026-02-13T10:43:50.545948"
 ---
 
-# PDF Extract: 2022-results-Hate Speech and Offensive Language Detection
+# PDF Extract: 2022-results]]-Hate Speech and Offensive Language Detection
 
-**Source PDF:** 2022-results-Hate Speech and Offensive Language Detection.pdf
+**Source PDF:** 2022-results]]-Hate Speech and Offensive Language Detection.pdf
 **Total Pages:** 11
 
 ---

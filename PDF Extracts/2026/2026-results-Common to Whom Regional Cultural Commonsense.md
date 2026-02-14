@@ -1,13 +1,13 @@
 ---
-title: "2026-results-Common to Whom Regional Cultural Commonsense - PDF Extract"
-source_pdf: "2026-results-Common to Whom Regional Cultural Commonsense.pdf"
+title: "2026-results]]-Common to Whom Regional Cultural Commonsense - PDF Extract"
+source_pdf: "2026-results]]-Common to Whom Regional Cultural Commonsense.pdf"
 pages: 45
 extracted_at: "2026-02-13T09:15:46.257346"
 ---
 
-# PDF Extract: 2026-results-Common to Whom Regional Cultural Commonsense
+# PDF Extract: 2026-results]]-Common to Whom Regional Cultural Commonsense
 
-**Source PDF:** 2026-results-Common to Whom Regional Cultural Commonsense.pdf
+**Source PDF:** 2026-results]]-Common to Whom Regional Cultural Commonsense.pdf
 **Total Pages:** 45
 
 ---

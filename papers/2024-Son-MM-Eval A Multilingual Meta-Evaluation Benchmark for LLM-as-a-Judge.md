@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "18 languages; 122 languages"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4, GPT-4o, Claude models, various LLM-as-a-Judge and reward models"
+DATA_URL: "https://github.com/guijinSON/MM-Eval"
 tags: 
 abstract: "As Large Language Models (LLMs) are now capable of producing fluent and coherent content in languages other than English, it is not imperative to precisely evaluate these non-English outputs. However, when assessing the outputs from mutlilingual LLMs, prior works often employed LLM based evaluators that excel at assessing English outputs, without a thorough examination of whether these evaluators could effectively assess non-English text as well."
 ---
@@ -65,6 +66,11 @@ abstract: "As Large Language Models (LLMs) are now capable of producing fluent a
 ## Abstract
 
 Multilingual meta-evaluation benchmark with five core subsets (Chat, Reasoning, Safety, Language Hallucination, Linguistics) spanning 18 languages. Models achieve only 68.9% average accuracy (50% = random). Safety subset performance in low-resource languages is 18.4% lower than English.
+
+## Data Description
+
+MM-Eval is a multilingual meta-evaluation benchmark with five core subsets (Chat, Reasoning, Safety, Language Hallucination, Linguistics) spanning 18 languages. Models achieve only 68.9% average accuracy (50% = random). Safety subset performance in low-resource languages is 18.4% lower than English, revealing significant degradation in non-English safety evaluation.
+
 
 ## Notes
 

@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic - PDF Extract"
-source_pdf: "2025-Unknown-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic.pdf"
+title: "2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic - PDF Extract"
+source_pdf: "2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic.pdf"
 pages: 22
 extracted_at: "2026-02-13T13:57:15.560252"
 ---
 
-# PDF Extract: 2025-Unknown-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic
+# PDF Extract: 2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic
 
-**Source PDF:** 2025-Unknown-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic.pdf
+**Source PDF:** 2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic.pdf
 **Total Pages:** 22
 
 ---

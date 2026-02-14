@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-NepaliGPT A Generative Language Model for - PDF Extract"
-source_pdf: "2025-Unknown-NepaliGPT A Generative Language Model for.pdf"
+title: "2025-[[Unknown]]-NepaliGPT A Generative Language Model for - PDF Extract"
+source_pdf: "2025-[[Unknown]]-NepaliGPT A Generative Language Model for.pdf"
 pages: 11
 extracted_at: "2026-02-13T09:15:42.605039"
 ---
 
-# PDF Extract: 2025-Unknown-NepaliGPT A Generative Language Model for
+# PDF Extract: 2025-[[Unknown]]-NepaliGPT A Generative Language Model for
 
-**Source PDF:** 2025-Unknown-NepaliGPT A Generative Language Model for.pdf
+**Source PDF:** 2025-[[Unknown]]-NepaliGPT A Generative Language Model for.pdf
 **Total Pages:** 11
 
 ---

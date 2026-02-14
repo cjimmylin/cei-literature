@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-BenchMAX A Comprehensive Multilingual Evaluation ... - PDF Extract"
-source_pdf: "2025-Unknown-BenchMAX A Comprehensive Multilingual Evaluation ....pdf"
+title: "2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ... - PDF Extract"
+source_pdf: "2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ....pdf"
 pages: 24
 extracted_at: "2026-02-13T14:50:56.047677"
 ---
 
-# PDF Extract: 2025-Unknown-BenchMAX A Comprehensive Multilingual Evaluation ...
+# PDF Extract: 2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ...
 
-**Source PDF:** 2025-Unknown-BenchMAX A Comprehensive Multilingual Evaluation ....pdf
+**Source PDF:** 2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ....pdf
 **Total Pages:** 24
 
 ---

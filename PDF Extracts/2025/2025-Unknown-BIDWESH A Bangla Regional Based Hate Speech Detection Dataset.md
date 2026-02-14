@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset - PDF Extract"
-source_pdf: "2025-Unknown-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset.pdf"
+title: "2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset - PDF Extract"
+source_pdf: "2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset.pdf"
 pages: 16
 extracted_at: "2026-02-13T09:50:31.808293"
 ---
 
-# PDF Extract: 2025-Unknown-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset
+# PDF Extract: 2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset
 
-**Source PDF:** 2025-Unknown-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset.pdf
+**Source PDF:** 2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset.pdf
 **Total Pages:** 16
 
 ---

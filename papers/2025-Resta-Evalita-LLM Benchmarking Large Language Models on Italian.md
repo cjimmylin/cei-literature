@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Llama-3.1, Gemma-2, Mistral, Qwen-2.5, Aya-Expanse, Minerva-3B, Zefiro"
+DATA_URL: "https://huggingface.co/spaces/evalita-llm"
 tags: 
 abstract: "We describe Evalita-LLM, a new benchmark designed to evaluate Large Language Models (LLMs) on Italian tasks. The distinguishing and innovative features of Evalita-LLM are the following: (i) all tasks are native Italian, avoiding issues of translating from Italian and potential cultural biases; (ii) in addition to well established multiple-choice tasks, the benchmark includes generative tasks, enabling more natural interaction with LLMs; (iii) all tasks are evaluated against multiple prompts,..."
 research_topic: "Machine Learning"
@@ -66,6 +67,11 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Comprehensive benchmark and leaderboard designed to evaluate LLMs on Italian tasks, covering ten native Italian tasks including both multiple-choice and generative formats, with multiple prompts per task to mitigate sensitivity. All tasks are native Italian, avoiding translation biases.
+
+## Data Description
+
+Evalita-LLM is a comprehensive benchmark and leaderboard designed to evaluate LLMs on Italian tasks, covering ten native Italian tasks including both multiple-choice and generative formats, with multiple prompts per task to mitigate sensitivity. All tasks are native Italian, avoiding translation biases. Provides leaderboard for 23 open-source models.
+
 
 ## Notes
 

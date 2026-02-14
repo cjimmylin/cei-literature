@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-MEXA Multilingual Evaluation of English-Centric LLMs via - PDF Extract"
-source_pdf: "2025-Unknown-MEXA Multilingual Evaluation of English-Centric LLMs via.pdf"
+title: "2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via - PDF Extract"
+source_pdf: "2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via.pdf"
 pages: 23
 extracted_at: "2026-02-13T13:14:07.289192"
 ---
 
-# PDF Extract: 2025-Unknown-MEXA Multilingual Evaluation of English-Centric LLMs via
+# PDF Extract: 2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via
 
-**Source PDF:** 2025-Unknown-MEXA Multilingual Evaluation of English-Centric LLMs via.pdf
+**Source PDF:** 2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via.pdf
 **Total Pages:** 23
 
 ---

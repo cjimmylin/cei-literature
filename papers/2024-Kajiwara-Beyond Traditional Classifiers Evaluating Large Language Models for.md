@@ -34,7 +34,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Hate speech detection remains a significant challenge due to the nuanced and context-dependent nature of hateful language. Traditional classifiers, trained on specialized corpora, often struggle to accurately identify subtle or manipulated hate speech. This paper explores the potential of utilizing large language models (LLMs) to address these limitations. By leveraging their extensive training on diverse texts, LLMs demonstrate a superior ability to understand context, which is crucial for effective hate speech detection. We conduct a comprehensive evaluation of various LLMs on both binary and multi-label hate speech datasets to assess their performance. Our findings aim to clarify the extent to which LLMs can enhance hate speech classification accuracy, particularly in complex and challenging cases."
 ethics_perspective: "AI Safety & Alignment"
 ---
 # Beyond Traditional Classifiers: Evaluating Large Language Models for Robust Hate Speech Detection
@@ -61,7 +61,8 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Abstract
 
-I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled "Validating Pseudo-label Dataset for Japanese Hate Speech Detection" was published in 2024.
+
+Hate speech detection remains a significant challenge due to the nuanced and context-dependent nature of hateful language. Traditional classifiers, trained on specialized corpora, often struggle to accurately identify subtle or manipulated hate speech. This paper explores the potential of utilizing large language models (LLMs) to address these limitations. By leveraging their extensive training on diverse texts, LLMs demonstrate a superior ability to understand context, which is crucial for effective hate speech detection. We conduct a comprehensive evaluation of various LLMs on both binary and multi-label hate speech datasets to assess their performance. Our findings aim to clarify the extent to which LLMs can enhance hate speech classification accuracy, particularly in complex and challenging cases.
 
 ## Notes
 

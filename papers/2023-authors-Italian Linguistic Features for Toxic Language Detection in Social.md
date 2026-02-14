@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "PoliBERT, UmBERTo, bert-base-italian-xxl-uncased"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Toxicity & Hate Speech"
@@ -63,6 +64,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Framework for analyzing toxic language on Italian Facebook pages. Assesses toxic vs. non-toxic comments via length, vocabulary diversity, and linguistic standardness. Fine-tunes PoliBERT, UmBERTo, and bert-base-italian-xxl-uncased models.
+
+## Data Description
+
+Framework analyzing toxic language on Italian Facebook pages using linguistic features. Evaluates Italian BERT models fine-tuned on toxicity detection task. Dataset drawn from Italian social media but no public URL provided.
+
 
 ## Notes
 

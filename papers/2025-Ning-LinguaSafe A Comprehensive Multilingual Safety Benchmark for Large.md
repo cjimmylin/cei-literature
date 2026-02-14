@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "12 languages"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Claude-3.5-Sonnet, GPT-4o, Gemini-Pro, Llama-3, Qwen, DeepSeek"
+DATA_URL: "https://huggingface.co/datasets/telegraphpolehead/linguasafe"
 tags: 
 abstract: "The widespread adoption and increasing prominence of large language models (LLMs) in global technologies necessitate a rigorous focus on ensuring their safety across a diverse range of linguistic and cultural contexts. The lack of a comprehensive evaluation and diverse data in existing multilingual safety evaluations for LLMs limits their effectiveness, hindering the development of robust multilingual safety alignment."
 ethics_perspective: "AI Safety & Alignment"
@@ -65,6 +66,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Comprehensive multilingual safety benchmark with 45K entries in 12 languages curated using translated, transcreated, and natively-sourced data. Introduces TATER (Task-Aware Translate, Estimate, and Refine) framework. Finds safety performance varies dramatically across languages with English typically surpassing others.
+
+## Data Description
+
+LinguaSafe is a comprehensive multilingual safety benchmark with 45,000 entries in 12 languages (including French) curated using translated, transcreated, and natively-sourced data. Introduces TATER (Task-Aware Translate, Estimate, and Refine) framework for safety evaluation. Finds safety performance varies dramatically across languages with English typically surpassing others. Claude-3.5-Sonnet achieves lowest vulnerability.
+
 
 ## Notes
 

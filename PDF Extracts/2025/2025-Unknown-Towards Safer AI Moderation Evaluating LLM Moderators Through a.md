@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Towards Safer AI Moderation Evaluating LLM Moderators Through a - PDF Extract"
-source_pdf: "2025-Unknown-Towards Safer AI Moderation Evaluating LLM Moderators Through a.pdf"
+title: "2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a - PDF Extract"
+source_pdf: "2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a.pdf"
 pages: 18
 extracted_at: "2026-02-13T13:57:15.699897"
 ---
 
-# PDF Extract: 2025-Unknown-Towards Safer AI Moderation Evaluating LLM Moderators Through a
+# PDF Extract: 2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a
 
-**Source PDF:** 2025-Unknown-Towards Safer AI Moderation Evaluating LLM Moderators Through a.pdf
+**Source PDF:** 2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a.pdf
 **Total Pages:** 18
 
 ---

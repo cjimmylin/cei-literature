@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "multilingual and Basque-adapted LLMs"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Question Answering"
@@ -64,6 +65,11 @@ research_topic: "Question Answering"
 ## Abstract
 
 First benchmark to assess social biases in Basque across eight domains using multiple-choice QA. Evaluates autoregressive LLMs including multilingual and Basque-adapted models. Finds high negative bias in Disability Status, Age, Physical Appearance categories. Larger models exhibit lower negative bias.
+
+## Data Description
+
+Introduces BasqBBQ, the first benchmark to assess social biases in Basque across eight domains using multiple-choice QA. Evaluates autoregressive LLMs including multilingual and Basque-adapted models, finding high negative bias in Disability Status, Age, and Physical Appearance categories. Larger models exhibit lower negative bias.
+
 
 ## Notes
 

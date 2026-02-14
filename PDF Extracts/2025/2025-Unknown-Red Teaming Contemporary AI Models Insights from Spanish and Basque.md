@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-Red Teaming Contemporary AI Models Insights from Spanish and Basque - PDF Extract"
-source_pdf: "2025-Unknown-Red Teaming Contemporary AI Models Insights from Spanish and Basque.pdf"
+title: "2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque - PDF Extract"
+source_pdf: "2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque.pdf"
 pages: 14
 extracted_at: "2026-02-13T09:50:28.698812"
 ---
 
-# PDF Extract: 2025-Unknown-Red Teaming Contemporary AI Models Insights from Spanish and Basque
+# PDF Extract: 2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque
 
-**Source PDF:** 2025-Unknown-Red Teaming Contemporary AI Models Insights from Spanish and Basque.pdf
+**Source PDF:** 2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque.pdf
 **Total Pages:** 14
 
 ---

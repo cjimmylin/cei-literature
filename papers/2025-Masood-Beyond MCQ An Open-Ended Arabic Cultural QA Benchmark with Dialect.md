@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Large Language Models (LLMs) are increasingly used to answer everyday questions, yet their performance on culturally grounded and dialectal content remains uneven across languages. We propose a comprehensive method that (i) translates Modern Standard Arabic (MSA) multiple-choice questions (MCQs) into English and several Arabic dialects, (ii) converts them into open-ended questions (OEQs), (iii) benchmarks a range of zero-shot and fine-tuned LLMs under both MCQ and OEQ settings, and (iv) generates chain-of-thought (CoT) rationales to fine-tune models for step-by-step reasoning. Using this method, we extend an existing dataset in which QAs are parallelly aligned across multiple language varieties, making it, to our knowledge, the first of its kind. We conduct extensive experiments with both open and closed models. Our findings show that (i) models underperform on Arabic dialects, revealing persistent gaps in culturally grounded and dialect-specific knowledge; (ii) Arabic-centric models perform well on MCQs but struggle with OEQs; and (iii) CoT improves judged correctness while yielding mixed n-gram-based metrics. The developed dataset will be publicly released to support further research on culturally and linguistically inclusive evaluation."
 research_topic: "Question Answering"
 ---
 # Beyond MCQ: An Open-Ended Arabic Cultural QA Benchmark with Dialect Variants
@@ -62,7 +62,8 @@ research_topic: "Question Answering"
 
 ## Abstract
 
-Based on the search results, here's what recent research reveals about dialectal Arabic NLP evaluation benchmarks and bias: Key Findings on Benchmarking Dialectal Arabic A comprehensive survey analyzing 40+ evaluation benchmarks across NLP tasks, knowledge domains, cultural understanding, and specialized capabilities has revealed important insights about the field. Identified Critical Gaps The analysis reveals significant progress in benchmark diversity while identifying critical gaps:
+
+Large Language Models (LLMs) are increasingly used to answer everyday questions, yet their performance on culturally grounded and dialectal content remains uneven across languages. We propose a comprehensive method that (i) translates Modern Standard Arabic (MSA) multiple-choice questions (MCQs) into English and several Arabic dialects, (ii) converts them into open-ended questions (OEQs), (iii) benchmarks a range of zero-shot and fine-tuned LLMs under both MCQ and OEQ settings, and (iv) generates chain-of-thought (CoT) rationales to fine-tune models for step-by-step reasoning. Using this method, we extend an existing dataset in which QAs are parallelly aligned across multiple language varieties, making it, to our knowledge, the first of its kind. We conduct extensive experiments with both open and closed models. Our findings show that (i) models underperform on Arabic dialects, revealing persistent gaps in culturally grounded and dialect-specific knowledge; (ii) Arabic-centric models perform well on MCQs but struggle with OEQs; and (iii) CoT improves judged correctness while yielding mixed n-gram-based metrics. The developed dataset will be publicly released to support further research on culturally and linguistically inclusive evaluation.
 
 ## Notes
 

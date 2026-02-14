@@ -1,13 +1,13 @@
 ---
-title: "2025-results-Uncovering Cross-Linguistic Disparities in LLMs using - PDF Extract"
-source_pdf: "2025-results-Uncovering Cross-Linguistic Disparities in LLMs using.pdf"
+title: "2025-results]]-Uncovering Cross-Linguistic Disparities in LLMs using - PDF Extract"
+source_pdf: "2025-results]]-Uncovering Cross-Linguistic Disparities in LLMs using.pdf"
 pages: 14
 extracted_at: "2026-02-13T09:15:44.284600"
 ---
 
-# PDF Extract: 2025-results-Uncovering Cross-Linguistic Disparities in LLMs using
+# PDF Extract: 2025-results]]-Uncovering Cross-Linguistic Disparities in LLMs using
 
-**Source PDF:** 2025-results-Uncovering Cross-Linguistic Disparities in LLMs using.pdf
+**Source PDF:** 2025-results]]-Uncovering Cross-Linguistic Disparities in LLMs using.pdf
 **Total Pages:** 14
 
 ---

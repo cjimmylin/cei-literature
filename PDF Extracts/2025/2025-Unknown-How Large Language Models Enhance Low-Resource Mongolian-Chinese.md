@@ -1,13 +1,13 @@
 ---
-title: "2025-Unknown-How Large Language Models Enhance Low-Resource Mongolian-Chinese - PDF Extract"
-source_pdf: "2025-Unknown-How Large Language Models Enhance Low-Resource Mongolian-Chinese.pdf"
+title: "2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese - PDF Extract"
+source_pdf: "2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese.pdf"
 pages: 13
 extracted_at: "2026-02-13T14:50:57.196505"
 ---
 
-# PDF Extract: 2025-Unknown-How Large Language Models Enhance Low-Resource Mongolian-Chinese
+# PDF Extract: 2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese
 
-**Source PDF:** 2025-Unknown-How Large Language Models Enhance Low-Resource Mongolian-Chinese.pdf
+**Source PDF:** 2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese.pdf
 **Total Pages:** 13
 
 ---

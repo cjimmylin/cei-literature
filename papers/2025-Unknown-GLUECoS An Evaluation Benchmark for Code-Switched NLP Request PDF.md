@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Code-switching is the use of more than one language in the same conversation or utterance. Recently, multilingual contextual embedding models, trained on multiple monolingual corpora, have shown promising results on cross-lingual and multilingual tasks. We present an evaluation benchmark, GLUECoS, for code-switched languages, that spans several NLP tasks in English-Hindi and EnglishSpanish. Speciﬁcally, our evaluation benchmark includes Language Identiﬁcation from text, POS tagging, Named Entity Recognition, Sentiment Analysis, Question Answering and a new task for code-switching, Natural Language Inference. We present results on all these tasks using cross-lingual word embedding models and multilingual models. In addition, we ﬁne-tune multilingual models on artiﬁcially generated code-switched data. Although multilingual models perform signiﬁcantly better than cross-lingual models, our results show that in most tasks, across both language pairs, multilingual models ﬁne-tuned on code-switched data perform best, showing that multilingual models can be further optimized for code-switching tasks."
 research_topic: "NLP & Representation Learning"
 ---
 # GLUECoS: An Evaluation Benchmark for Code-Switched NLP | Request PDF
@@ -64,7 +64,8 @@ research_topic: "NLP & Representation Learning"
 
 ## Abstract
 
-The search results reveal significant research on code-switching bias, fairness, and NLP evaluation. Here are the key findings: Language Bias in Code-Switching Models consistently default to Korean when faced with mixed-language inputs, and their accuracy drops sharply when the expected response is English, according to recent LLM evaluations.
+
+Code-switching is the use of more than one language in the same conversation or utterance. Recently, multilingual contextual embedding models, trained on multiple monolingual corpora, have shown promising results on cross-lingual and multilingual tasks. We present an evaluation benchmark, GLUECoS, for code-switched languages, that spans several NLP tasks in English-Hindi and EnglishSpanish. Speciﬁcally, our evaluation benchmark includes Language Identiﬁcation from text, POS tagging, Named Entity Recognition, Sentiment Analysis, Question Answering and a new task for code-switching, Natural Language Inference. We present results on all these tasks using cross-lingual word embedding models and multilingual models. In addition, we ﬁne-tune multilingual models on artiﬁcially generated code-switched data. Although multilingual models perform signiﬁcantly better than cross-lingual models, our results show that in most tasks, across both language pairs, multilingual models ﬁne-tuned on code-switched data perform best, showing that multilingual models can be further optimized for code-switching tasks.
 
 ## Notes
 

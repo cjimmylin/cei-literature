@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BERT, RoBERTa, GPT-2, XLNet"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "NLP & Representation Learning"
@@ -66,6 +67,15 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Compares BERT, RoBERTa, GPT-2, and XLNet on sentiment analysis of 185 hours of Greek clinical conversations. Addresses class imbalance and bias through weighted evaluation. BERT outperforms across all sentiment categories. Maintains dataset authenticity to avoid introducing artificial biases.
+
+## Summary
+
+This paper conducts a comparative evaluation of four transformer-based models (BERT, RoBERTa, GPT-2, and XLNet) for sentiment analysis on 185 hours of Greek clinical conversations between patients and healthcare providers. The study explicitly addresses class imbalance and bias concerns through weighted evaluation metrics and maintains dataset authenticity to avoid introducing artificial biases through data augmentation. Results show that BERT consistently outperforms the other models across all sentiment categories in the clinical domain, providing insights for developing fair and accurate Greek NLP systems for healthcare applications.
+
+## Data Description
+
+Compares BERT, RoBERTa, GPT-2, and XLNet on sentiment analysis of 185 hours of Greek clinical conversations. Addresses class imbalance and bias through weighted evaluation. BERT outperforms across all sentiment categories. Maintains dataset authenticity to avoid introducing artificial biases.
+
 
 ## Notes
 

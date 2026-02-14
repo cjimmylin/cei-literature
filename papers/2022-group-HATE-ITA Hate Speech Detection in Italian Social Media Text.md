@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "AlBERTo, BERT-Italian, GilBERTo, UmBERTo, mBERT, XLM-RoBERTa"
+DATA_URL: "https://github.com/dhfbk/hate-ita"
 tags: 
 abstract:
 ethics_perspective: "Toxicity & Hate Speech"
@@ -66,6 +67,15 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Multi-language model trained on English data and Italian datasets for hate speech detection. HATE-ITA outperforms mono-lingual models and adapts well to language-specific Italian slurs. Released as a benchmark tool for the Italian community.
+
+## Summary
+
+This paper presents HATE-ITA, a set of multilingual models for hate speech detection in Italian social media text, trained on a large collection of English hate speech data combined with smaller Italian datasets. The authors evaluate multiple Italian language models (AlBERTo, BERT-Italian, GilBERTo, UmBERTo) and multilingual models (mBERT, XLM-RoBERTa) on two Italian hate speech datasets covering misogyny and anti-immigrant hate. Results show that multilingual models trained on combined English-Italian data outperform monolingual models and adapt well to language-specific Italian slurs. The HATE-ITA models are released as an open-source Python library to provide a strong baseline for the Italian NLP community.
+
+## Data Description
+
+HATE-ITA dataset of Italian tweets annotated for hate speech detection. Dataset includes binary hate/non-hate labels and multi-class target categories (gender, religion, nationality, disability, etc.). Developed for evaluating Italian language models on toxicity and hate speech classification.
+
 
 ## Notes
 

@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Fact verification has emerged as a critical task in combating misinformation, yet most research remains focused on English-language applications. This paper presents a comprehensive analysis of multilingual fact verification capabilities across three state-of-the-art large language models: Llama 3.1, Qwen 2.5, and Mistral Nemo. We evaluate these models on the X-Fact dataset that includes 25 typologically diverse languages, examining both seen and unseen languages through various evaluation scenarios. Our analysis employs few-shot prompting and LoRA fine-tuning approaches, revealing significant performance disparities based on script systems, with Latin script languages consistently outperforming others. We identify systematic cross-lingual instruction following failures, particularly affecting languages with non-Latin scripts. Surprisingly, some officially supported languages, such as Indonesian and Polish, which are not high-resource languages, achieve better performance than high-resource languages like German and Spanish, challenging conventional assumptions about resource availability and model performance. The results highlight critical limitations in current multilingual LLMs for the fact verification task and provide insights for developing more inclusive multilingual systems."
 research_topic: "Machine Translation"
 ---
 # Cross-Lingual Fact Verification: Analyzing LLM Performance ...
@@ -64,7 +64,8 @@ research_topic: "Machine Translation"
 
 ## Abstract
 
-Based on the search results, here's what I found about cross-lingual transfer moral reasoning LLM benchmarks: Key Research and Benchmarks A recent study tested 13 LLMs on Western (AITA) and Chinese (CMoral) datasets, revealing behavioral differences invisible to standard evaluation. Current safety evaluations assume that if a model handles a moral scenario correctly in English, it will handle the translation correctly too, but this assumption is dangerous.
+
+Fact verification has emerged as a critical task in combating misinformation, yet most research remains focused on English-language applications. This paper presents a comprehensive analysis of multilingual fact verification capabilities across three state-of-the-art large language models: Llama 3.1, Qwen 2.5, and Mistral Nemo. We evaluate these models on the X-Fact dataset that includes 25 typologically diverse languages, examining both seen and unseen languages through various evaluation scenarios. Our analysis employs few-shot prompting and LoRA fine-tuning approaches, revealing significant performance disparities based on script systems, with Latin script languages consistently outperforming others. We identify systematic cross-lingual instruction following failures, particularly affecting languages with non-Latin scripts. Surprisingly, some officially supported languages, such as Indonesian and Polish, which are not high-resource languages, achieve better performance than high-resource languages like German and Spanish, challenging conventional assumptions about resource availability and model performance. The results highlight critical limitations in current multilingual LLMs for the fact verification task and provide insights for developing more inclusive multilingual systems.
 
 ## Notes
 

@@ -1,13 +1,13 @@
 ---
-title: "2022-Unknown-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource - PDF Extract"
-source_pdf: "2022-Unknown-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.pdf"
+title: "2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource - PDF Extract"
+source_pdf: "2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.pdf"
 pages: 10
 extracted_at: "2026-02-13T10:43:50.301899"
 ---
 
-# PDF Extract: 2022-Unknown-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource
+# PDF Extract: 2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource
 
-**Source PDF:** 2022-Unknown-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.pdf
+**Source PDF:** 2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.pdf
 **Total Pages:** 10
 
 ---

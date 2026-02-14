@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "FinBERT"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Machine Translation"
@@ -63,6 +64,15 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Presents novel Finnish toxicity detection resources: machine-translated Jigsaw dataset for Finnish and manually annotated Suomi24 test set. Machine-translated training data outperforms zero-shot cross-lingual transfer with XLM-R.
+
+## Summary
+
+This paper introduces novel resources for toxicity detection in Finnish, a low-resource language, using machine translation approaches. The authors create a machine-translated version of the Jigsaw toxicity dataset for Finnish and develop a manually annotated Suomi24 test set for evaluation. They evaluate FinBERT language models and find that training on machine-translated data outperforms zero-shot cross-lingual transfer using XLM-RoBERTa. The work demonstrates that machine translation can be an effective strategy for creating toxicity detection resources in languages with limited annotated data.
+
+## Data Description
+
+Experiments using machine translation to create Finnish toxicity detection training data by translating English toxic text. Evaluates FinBERT on translated vs. native Finnish data. No public dataset URL provided.
+
 
 ## Notes
 

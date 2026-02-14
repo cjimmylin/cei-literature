@@ -34,7 +34,7 @@ data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "In this letter an approach for fitting saturation characteristic and hysteresis using arctangent functions is presented. It has direct application to modeling transformers and electric machines. The approach is based on measurements of the magnetizing curve of the ferromagnetic material. The analytical form of the characteristic can be completely described by only three parameters. These three parameters are enough to take into account: the slope of the linear region, the position of the knee, and the saturating slope. The appropriate selection of these parameters allows the fitting of a wide class of magnetizing characteristics in simulation programs."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # MUST: An Explainable AI-Based Framework for Multilingual Hate Speech Detection | IEEE Journals & Magazine | IEEE Xplore
@@ -63,7 +63,8 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Abstract
 
-Based on the search results, here are the key multilingual AI safety benchmarks for toxicity and hate speech: Multilingual Toxicity and Hate Speech Benchmarks PolygloToxicityPrompts: A dataset of 425K naturally-occurring prompts across 17 languages with varying degrees of toxicity. This research studies how large language models generate toxicity in multiple languages, how toxicity varies across differently-resourced languages, and how design decisions like model size and alignment meth
+
+In this letter an approach for fitting saturation characteristic and hysteresis using arctangent functions is presented. It has direct application to modeling transformers and electric machines. The approach is based on measurements of the magnetizing curve of the ferromagnetic material. The analytical form of the characteristic can be completely described by only three parameters. These three parameters are enough to take into account: the slope of the linear region, the position of the knee, and the saturating slope. The appropriate selection of these parameters allows the fitting of a wide class of magnetizing characteristics in simulation programs.
 
 ## Notes
 

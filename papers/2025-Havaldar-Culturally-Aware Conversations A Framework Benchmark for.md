@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +36,7 @@ tags:
 abstract: "Existing benchmarks that measure cultural adaptation in LLMs are misaligned with the actual challenges these models face when interacting with users from diverse cultural backgrounds. In this work, we introduce the first framework and benchmark designed to evaluate LLMs in realistic, multicultural conversational settings. Grounded in sociocultural theory, our framework formalizes how linguistic style — a key element of cultural communication — is shaped by situational, relational, and cultural..."
 data_description: "Benchmark annotated dataset for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "GPT-4, Claude, Gemini"
 DATA_URL: NA
 research_topic: "Social & Cultural Analysis"
 ---
@@ -68,7 +70,7 @@ First framework to evaluate LLMs in realistic multicultural conversational setti
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+Backfill summary: Models assessed include GPT-4, Claude, Gemini. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

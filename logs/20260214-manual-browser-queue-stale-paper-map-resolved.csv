@@ -1,0 +1,5 @@
+old_paper,queue_key,matched_by,matched_paper,score,notes
+2024-Moe-Fact Checking in Low-Resource Languages A.md,EXSR0480,title_similarity,2022-Nkemelu-Tackling Hate Speech in Low-resource Languages.md,0.736,alts: 2025-Unknown-1 Decolonizing NLP for “Low-resource Languages”.md | 2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of.md
+2024-Zeng-Proposing Central Asian AI Ethics Principles.md,EXSR0518,title_similarity,2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach.md,1.000,alts: 2024-Lazar-Frontier AI Ethics.md
+2024-Zeng-Proposing Central Asian AI Ethics Principles.md,EXSR0518,title_similarity,2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach.md,1.000,alts: 2024-Lazar-Frontier AI Ethics.md
+2025-Onose-Benchmarking Large Language Models Across Languages Modalities Models.md,LSRC0800,title_similarity,2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages.md,1.000,alts: 2026-Onose-Evaluating Metalinguistic Knowledge in Large Language Models across.md | 2025-Unknown-Benchmarking Large Language Models for fairness across diverse.md

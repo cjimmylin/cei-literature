@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,8 +16,8 @@ authors: Kajiwara
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9807815/"
 external_pdf: "http://arxiv.org/abs/2212.12799"
 publication: PubMed
-pdf_extract: 
-local_pdf: N/A
+pdf_extract: "PDF Extracts/2024/2024-Kajiwara-A curated dataset for hate speech detection on social media text - PMC.md"
+local_pdf: "[[PDFs/2024/2024-Kajiwara-A curated dataset for hate speech detection on social media text - PMC.pdf]]"
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "not_pdf_header (HTTP 200)"
@@ -37,7 +39,7 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BERT, Word2Vec"
 DATA_URL: NA
 tags: 
 abstract: 
@@ -71,7 +73,7 @@ I found search results related to Japanese hate speech detection and NLP evaluat
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+Backfill summary: Models assessed include BERT, Word2Vec. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

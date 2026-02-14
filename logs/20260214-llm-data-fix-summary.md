@@ -1,6 +1,6 @@
 # LLM/Data Backfill Summary
 
-Generated: 2026-02-14T07:28:21
+Generated: 2026-02-14T07:48:13
 Date prefix: `20260214`
 Mode: `write`
 
@@ -8,8 +8,8 @@ Mode: `write`
 
 - Papers scanned: **1847**
 - Target papers (LLM_assessed or DATA_URL in empty/NA/missing): **858**
-- Target papers with extract: **664**
-- Target papers without extract: **194**
+- Target papers with extract: **667**
+- Target papers without extract: **191**
 - Files changed: **0**
 - Files that would change (dry-run): **0**
 - Unchanged targets: **858**
@@ -18,12 +18,12 @@ Mode: `write`
 
 ## Field State Before
 
-- LLM_assessed: {'na': 436, 'filled': 1411}
+- LLM_assessed: {'na': 425, 'filled': 1422}
 - DATA_URL: {'filled': 1141, 'na': 706}
 
 ## Field State After
 
-- LLM_assessed: {'na': 436, 'filled': 1411}
+- LLM_assessed: {'na': 425, 'filled': 1422}
 - DATA_URL: {'filled': 1141, 'na': 706}
 
 ## Data Description Operations
@@ -32,8 +32,8 @@ Mode: `write`
 
 ## Unresolved
 
-- Count (both LLM_assessed and DATA_URL = NA after processing): **284**
-- Reasons: {'extract_present_no_confident_signal': 153, 'no_extract_no_candidates': 131}
+- Count (both LLM_assessed and DATA_URL = NA after processing): **273**
+- Reasons: {'extract_present_no_confident_signal': 145, 'no_extract_no_candidates': 128}
 
 ## Top DATA_URL Domains
 

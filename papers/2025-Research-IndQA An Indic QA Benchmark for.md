@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,8 +16,8 @@ authors: "[[AI4Bharat / IBM Research]]"
 authors_incomplete: false
 url: "https://www.ibm.com/think/news/indqa-llm-benchmark"
 external_pdf: 
-pdf_extract: 
-local_pdf: N/A
+pdf_extract: "PDF Extracts/2025/2025-Research-IndQA An Indic QA Benchmark for.md"
+local_pdf: "[[PDFs/2025/2025-Research-IndQA An Indic QA Benchmark for.pdf]]"
 publication: "IBM Research"
 DATE_ADDED: 20260213
 ethics_overall: No
@@ -34,7 +36,7 @@ tags:
 abstract: "QA benchmark across 12 languages and 10 domains including law, health, history, and current affairs. Multi-domain Indic QA benchmark covering culturally relevant domains."
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Llama, llama 2, Llama-2, llama2.70, llama2.70. chat, mixtral 8x7b"
 DATA_URL: NA
 research_topic: "Question Answering"
 ---
@@ -68,7 +70,7 @@ QA benchmark across 12 languages and 10 domains including law, health, history, 
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+Backfill summary: Models assessed include Llama, llama 2, Llama-2, llama2.70, llama2.70. chat, mixtral 8x7b. No high-confidence repository-style data URL was identified.
 
 ## Notes
 

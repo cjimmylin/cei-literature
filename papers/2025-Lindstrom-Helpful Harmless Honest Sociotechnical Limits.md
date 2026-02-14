@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: NA
+LLM_assessed: "ChatGPT, Claude, Llama"
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.md"
 local_pdf: "[[PDFs/2025/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.pdf]]"

@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_OBER2024
@@ -30,7 +31,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: NA
+LLM_assessed: "GPT-4, ChatGPT, Gemini, Llama"
 DATA_URL: NA
 publication: Oxford Institute for Ethics in AI
 ---

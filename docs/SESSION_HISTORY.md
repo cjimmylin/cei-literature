@@ -2,6 +2,45 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 73 (Feb 14, 2026) - LLM/Data YAML Backfill + Unresolved Recovery
+
+### Overview
+Executed a full metadata remediation workflow for missing/unfilled `LLM_assessed` and `DATA_URL` fields, including `## Data Description` updates, conservative inference, and unresolved follow-up passes (manual curation + PDF recovery for no-extract cases).
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Papers scanned | `1847` |
+| `LLM_assessed` final | `filled=1422`, `na=425`, `empty/missing=0` |
+| `DATA_URL` final | `filled=1141`, `na=706`, `empty/missing=0` |
+| Remaining unresolved (`LLM_assessed=NA` and `DATA_URL=NA`) | `273` |
+| Unresolved split | `145` with extract, `128` no-extract |
+| Idempotency | `would_update_files=0` |
+| No-extract recovery attempts | `131` targets → `3` recovered |
+| Manual high-confidence LLM curation | `9` papers |
+
+### Key Files
+- Added:
+  - `PYTHON/backfill_llm_data_metadata.py`
+  - `PYTHON/recover_no_extract_pdfs_from_urls.py`
+  - `docs/SESSION_2026_02_14_LLM_DATA_BACKFILL.md`
+- Primary logs:
+  - `logs/20260214-llm-data-fix-summary.md`
+  - `logs/20260214-llm-data-fix-results.csv`
+  - `logs/20260214-llm-data-fix-unresolved.csv`
+  - `logs/20260214-no-extract-recovery-summary.md`
+  - `logs/20260214-no-extract-recovery-results.csv`
+
+### Notes
+- Backfill policy used:
+  - Conservative model inference (evaluation-context required)
+  - Repo/dataset-style URL policy for `DATA_URL`
+  - Empty/missing values normalized to explicit `NA`
+- Full handoff and implementation details:
+  - `docs/SESSION_2026_02_14_LLM_DATA_BACKFILL.md`
+
+---
+
 ## Session 72 (Feb 14, 2026) - Placeholder Author Filename Normalization (Executed + Committed)
 
 ### Overview

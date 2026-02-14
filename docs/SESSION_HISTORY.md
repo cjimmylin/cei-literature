@@ -2,6 +2,34 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 70 (Feb 13, 2026) - Wave 1-2 Gap Investigation & Processing Plan
+
+### Overview
+Investigated Wave 1 (R+A1-A5, 322 papers) and Wave 2-3 (A6-B5, 345 papers) for gaps caused by potential agent interruptions. Confirmed all 25 search agents completed successfully — no papers lost during search phase. Created a saved processing plan for closing post-import gaps (PDFs, extracts, abstracts) across all waves.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Wave 1 agent status | All 15 complete (10 R-agents + 5 A-agents) |
+| Wave 2-3 agent status | All 10 complete (A6-A10, B1-B5) |
+| Wave 1 PDF coverage | ~80% (20% missing, marked N/A) |
+| Wave 2-3 PDF coverage | ~76% (84 missing) |
+| Wave 1 abstract coverage | ~97% |
+| Wave 2-3 abstract coverage | ~100% |
+| Classification | 100% across both waves |
+| Duplicate LSRC keys found | 4 (0055, 0056, 0313, 0316) |
+
+### Key Learnings
+- [Data Quality] All wave 1-5 search agents completed without interruption. Only wave 5 had agent-level issues (rate limits before JSON write). Waves 1-2 gaps are purely post-import processing (PDFs, extracts, abstracts).
+- [Workflows] All waves share `DATE_ADDED: 20260213`, so `--date` filtering processes all 1,044 papers together. Scripts are idempotent (skip already-processed papers), so this is beneficial.
+- [Data Quality] 4 duplicate LSRC keys (0055, 0056, 0313, 0316) found — data quality issue for future cleanup.
+
+### Files Changed
+- logs: 1 new (`logs/20260213-wave12-processing-gap-plan.md` — 7-step processing plan)
+- No papers, scripts, or PDFs were modified
+
+---
+
 ## Session 69 (Feb 13, 2026) - Wave 3 (B1-B5) Gap Investigation
 
 ### Overview

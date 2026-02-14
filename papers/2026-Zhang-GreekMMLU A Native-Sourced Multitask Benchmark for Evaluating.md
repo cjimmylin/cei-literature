@@ -77,6 +77,40 @@ This paper introduces GreekMMLU, the first large-scale, fully native-sourced ben
 Introduces GreekMMLU, a native-sourced benchmark for massive multitask language understanding in Greek, comprising 21,805 multiple-choice questions across 45 subject areas sourced from academic, professional, and governmental exams. Evaluates 80+ LLMs revealing substantial performance gaps between frontier and open-weight models, with 16,857 public and 4,948 private samples.
 
 
+## Detailed Summary
+
+This paper introduces GreekMMLU, the first large-scale, fully native-sourced benchmark for evaluating massive multitask language understanding in Greek. The benchmark comprises 21,805 multiple-choice questions across 45 manually defined subject areas organized under a newly defined taxonomy spanning STEM, Humanities, Social Sciences, and Other domains. All questions are sourced or authored in Greek from authentic academic, professional, and governmental examinations, covering educational difficulty levels from primary school through professional certification. Eight Greek-specific subject areas (Greek History, Greek Mythology, Greek Literature, Driving Rules, Citizenship Exams, etc.) require localized cultural knowledge. Of the total questions, 16,857 samples are publicly released while 4,948 are reserved for a private leaderboard to enable contamination-resistant evaluation. The benchmark addresses critical limitations of machine-translated MMLU variants, which fail to capture Greek linguistic characteristics (rich morphology, flexible word order, complex negation) and culturally grounded content (history, law, civics tied to national curricula). Evaluations of over 80 open- and closed-source LLMs reveal substantial performance gaps between frontier and open-weight models, and between Greek-adapted models and general multilingual ones.
+
+## Paper Outline
+
+1. Introduction - Limitations of translated benchmarks for Greek; motivation for native-sourced evaluation
+2. Related Work - MMLU and its multilingual extensions; Greek NLP resources
+3. Benchmark Design - Subject taxonomy; difficulty levels; data sources; quality control
+4. Data Collection - Academic, professional, and governmental exam sources
+5. Evaluation Setup - Model selection; prompting strategies; evaluation metrics
+6. Results - Performance analysis of 80+ LLMs
+7. Analysis - Effects of model scale, adaptation, and prompting on Greek performance
+8. Conclusion
+
+## Methods Summary
+
+Questions are collected exclusively from sources released under open-access licenses or educational reuse terms. The 45 subject areas are organized under four broad domains (STEM, Humanities, Social Sciences, Other) with a dedicated Greek-specific category for eight culturally grounded subjects. Educational difficulty levels span primary school, secondary school, university, and professional examinations. A private leaderboard with 4,948 reserved samples enables contamination-resistant evaluation. Over 80 open- and closed-source LLMs are evaluated with systematic analysis of factors including model scale, Greek-specific adaptation, and prompting strategies.
+
+## Results Summary
+
+Closed-source frontier models substantially outperform open-weight alternatives on Greek tasks. Model scale strongly correlates with performance. Greek-adapted models show improvements over general multilingual models, but the gap with frontier models remains significant. Performance varies substantially across subject areas and difficulty levels, with Greek-specific subjects proving particularly challenging for models without cultural grounding. The benchmark reveals that incidental exposure to Greek in web-scale training corpora is insufficient for strong Greek language understanding.
+
+## Conclusions
+
+GreekMMLU provides the first rigorous, native-sourced evaluation framework for Greek language understanding, enabling systematic assessment of LLM capabilities in a language that has been underserved by existing benchmarks. The systematic analysis of factors influencing performance provides actionable insights for improving LLM capabilities in Greek, including the importance of dedicated Greek adaptation beyond general multilingual training.
+
+## Artifact Contributions
+
+- **Benchmark:** GreekMMLU - 21,805 native Greek MCQ across 45 subjects (https://github.com/mersinkonomi/GreekMMLU)
+- **Public Leaderboard:** https://huggingface.co/spaces/yangzhang33/GreekMMLU-Leaderboard (4,948 private samples for contamination resistance)
+- **Evaluation Results:** Comprehensive analysis of 80+ LLMs on Greek language understanding
+- **Subject Taxonomy:** New 45-subject classification for Greek multitask evaluation
+
 ## Notes
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B9

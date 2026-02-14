@@ -30,7 +30,7 @@ data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
-pdf_extract: "[[2025-Consortium-The Vals Legal AI Report (VLAIR)]]"
+pdf_extract: 
 no_pdf_applicable: true
 ---
 # The Vals Legal AI Report (VLAIR)

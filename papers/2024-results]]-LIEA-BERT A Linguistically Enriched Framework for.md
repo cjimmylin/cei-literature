@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://datasciencehub.net/paper/liea-bert-linguistically-enriched-framework-hate-speech-detection-low-resource-thai"
 external_pdf: "https://datasciencehub.net/system/files/ds-paper-909.pdf"
 local_pdf: "[[PDFs/2024-results]]-LIEA-BERT A Linguistically Enriched Framework for.pdf]]"
-pdf_extract: 
+pdf_extract: "PDF Extracts/2024/2024-results]]-LIEA-BERT A Linguistically Enriched Framework for.md"
 publication: "Data Science Hub"
 DATE_ADDED: 20260213
 ethics_overall: No

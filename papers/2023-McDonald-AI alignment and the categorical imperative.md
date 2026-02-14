@@ -14,7 +14,7 @@ doi: 10.1007/s43681-022-00160-w
 tags: "Philosophy - AI Ethics"
 url: "https://doi.org/10.1007/s43681-022-00160-w"
 local_pdf: "[[PDFs/2023/2023-McDonald-AI alignment and the categorical imperative.pdf]]"
-pdf_extract: "[[PDF Extracts/2023-McDonald-AI alignment and the categorical imperative.md]]"
+pdf_extract: "PDF Extracts/2023/2023-McDonald-AI alignment and the categorical imperative.md"
 publication: "AI and Ethics"
 ethics_perspective: "Kantian Ethics"
 national_ethnic_cultural: N/A

@@ -11,7 +11,7 @@ first_author: "[[Sydney Levine]]"
 last_author: "[[Sydney Levine]]"
 authors: "Sydney Levine"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/QBMPEGEU/Levine - Religious Affiliation and Conceptions of the Moral Domain.pdf"
-pdf_extract: "[[2024-Levine-Religious Affiliation and Conceptions of the]]"
+pdf_extract: "PDF Extracts/2024/2024-Levine-Religious Affiliation and Conceptions of the.md"
 local_pdf: "[[PDFs/2024/2024-Levine-Religious Affiliation and Conceptions of the.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: "Islam, Judaism, Hinduism"

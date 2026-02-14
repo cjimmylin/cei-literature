@@ -11,7 +11,7 @@ first_author: "[[Cole Salvador]]"
 last_author: "[[Cole Salvador]]"
 authors: "Cole Salvador"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/C6JW9ET2/Salvador - A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI.pdf"
-pdf_extract: "[[2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI]]"
+pdf_extract: "PDF Extracts/2024/2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI.md"
 local_pdf: "[[PDFs/2024/2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: N/A

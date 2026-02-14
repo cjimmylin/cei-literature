@@ -11,7 +11,7 @@ first_author: "[[Gavin Leech]]"
 last_author: "[[Aleksandr Zhuravlev]]"
 authors: "Gavin Leech; Simson Garfinkel; Misha Yagudin; Alexander Briand; Aleksandr Zhuravlev"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/TZNF2SVG/Leech et al. - Ten Hard Problems in Artificial Intelligence We Must Get Right.pdf"
-pdf_extract: "[[2024-Leech-Ten Hard Problems in Artificial Intelligence We]]"
+pdf_extract: "PDF Extracts/2024/2024-Leech-Ten Hard Problems in Artificial Intelligence We.md"
 local_pdf: "[[PDFs/2024/2024-Leech-Ten Hard Problems in Artificial Intelligence We.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: N/A

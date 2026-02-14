@@ -13,7 +13,7 @@ authors: "Bence Bago; Marton Kovacs; John Protzko; Zoltan Kekecs; Tamas Nagy; Ri
 doi: 10.31234/osf.io/9uaqm
 url: "https://osf.io/9uaqm"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/9RF87LAQ/Bago et al. - 2019 - Situational factors shape moral judgments in the trolley dilemma in Eastern, Southern, and Western c.pdf"
-pdf_extract: "[[2022-Bago-Situational factors shape moral judgments in the]]"
+pdf_extract: "PDF Extracts/2022/2022-Bago-Situational factors shape moral judgments in the.md"
 local_pdf: "[[PDFs/2022/2022-Bago-Situational factors shape moral judgments in the.pdf]]"
 publication: "Nature Human Behaviour"
 national_ethnic_cultural: American

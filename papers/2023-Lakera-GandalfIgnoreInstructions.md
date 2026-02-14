@@ -30,7 +30,7 @@ data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
-pdf_extract: [[2023-Lakera-GandalfIgnoreInstructions]]
+pdf_extract: 
 no_pdf_applicable: true
 ---
 # GandalfIgnoreInstructions

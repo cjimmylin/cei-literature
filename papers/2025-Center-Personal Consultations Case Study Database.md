@@ -31,7 +31,7 @@ data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://www.ncbcenter.org/case-study-database"
-pdf_extract: "[[2025-Center-Personal Consultations Case Study Database]]"
+pdf_extract: 
 no_pdf_applicable: true
 ---
 # Personal Consultations Case Study Database

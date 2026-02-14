@@ -11,7 +11,7 @@ first_author: "[[Farzaan Kaiyom]]"
 last_author: "[[Percy Liang]]"
 authors: "Farzaan Kaiyom; Ahmed Ahmed; Yifan Mai; Kevin Klyman; Rishi Bommasani; Percy Liang"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5RFJXS3S/Kaiyom and others - HELM Safety Towards Standardized Safety Evaluations of Language Models.pdf"
-pdf_extract: "[[2024-Kaiyom-HELM Safety]]"
+pdf_extract: "PDF Extracts/2024/2024-Kaiyom-HELM Safety.md"
 local_pdf: "[[PDFs/2024/2024-Kaiyom-HELM Safety.pdf]]"
 national_ethnic_cultural: N/A
 religious_values: N/A

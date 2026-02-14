@@ -31,7 +31,7 @@ data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
-pdf_extract: "[[2025-Velay-Vitow-Putting the AI in Eudaimonia]]"
+pdf_extract: 
 local_pdf: N/A
 ---
 # Putting the AI in Eudaimonia

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2404.19369"
 external_pdf: "https://arxiv.org/pdf/2404.19369v1"
 local_pdf: "[[PDFs/2024/2024-results]]-Evaluating Telugu Proficiency in Large Language.pdf]]"
-pdf_extract: 
+pdf_extract: "PDF Extracts/2024/2024-results]]-Evaluating Telugu Proficiency in Large Language.md"
 publication: "WebSearch: Telugu LLM evaluation"
 DATE_ADDED: 20260213
 ethics_overall: No

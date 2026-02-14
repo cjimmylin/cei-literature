@@ -15,7 +15,7 @@ tags: "Law - Legal Informatics"
 url: "https://law.stanford.edu/publications/aligning-ai-agents-with-humans-through-law-as-information/"
 external_pdf: "https://law.stanford.edu/wp-content/uploads/2025/10/Aligning-AI-Agents-with-Humans-through-Law-as-Information.pdf"
 local_pdf: "[[PDFs/2025/2025-Nay-Aligning AI Agents with Humans through Law as Information.pdf]]"
-pdf_extract: "[[PDF Extracts/2025-Nay-Aligning AI Agents with Humans through Law as Information]]"
+pdf_extract: "PDF Extracts/2025/2025-Nay-Aligning AI Agents with Humans through Law as Information.md"
 publication: "Stanford Center for Legal Informatics (CodeX)"
 national_ethnic_cultural: N/A
 religious_values: N/A

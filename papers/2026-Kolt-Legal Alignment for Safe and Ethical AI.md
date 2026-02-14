@@ -14,7 +14,7 @@ doi: 10.48550/arXiv.2601.04175
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2601.04175"
 local_pdf: "[[PDFs/2026/2026-Kolt-Legal Alignment for Safe and Ethical AI.pdf]]"
-pdf_extract: "[[PDF Extracts/2026-Kolt-Legal Alignment for Safe and Ethical AI.md]]"
+pdf_extract: "PDF Extracts/2026/2026-Kolt-Legal Alignment for Safe and Ethical AI.md"
 external_pdf: "https://arxiv.org/pdf/2601.04175.pdf"
 publication: arXiv
 ethics_perspective: "Legal Ethics"

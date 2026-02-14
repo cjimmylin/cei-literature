@@ -7,9 +7,10 @@ key: LSRC0116
 type: preprint
 short_title: "IndoNLG: Benchmark and Resources for Evaluating Indonesian Natural Language Generation"
 year: 2025
-first_author: "[[Samuel Cahyawijaya]]"
-last_author: [[Unknown]]
-authors: "Samuel Cahyawijaya; Genta Indra Winata; Bryan Wilie; Karissa Vincentio; Xiaohong Li; Adhiguna Kuncoro; Sebastian Ruder; Zhi Yuan Lim; Syafri Bahar; Masayu Leylia Khodra; Ayu Purwarianti; Pascale Fung"
+first_author: "[[Cahyawijaya, Samuel]]"
+last_author: "[[Fung, Pascale]]"
+authors: "[[Cahyawijaya, Samuel]]; [[Winata, Genta Indra]]; [[Wilie, Bryan]]; [[Vincentio, Karissa]]; [[Li, Xiaohong]]; [[Kuncoro, Adhiguna]]; [[Ruder, Sebastian]]; [[Lim, Zhi Yuan]]; [[Bahar, Syafri]]; [[Khodra, Masayu Leylia]]; [[Purwarianti, Ayu]]; [[Fung, Pascale]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2104.08200"
 external_pdf: "https://arxiv.org/pdf/2104.08200.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.md"

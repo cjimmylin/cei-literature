@@ -7,9 +7,10 @@ key: LSRC0789
 type: conferencePaper
 short_title: "Preserving the Past: AI in Indigenous Language Preservation - Viterbi Conversations in Ethics"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://vce.usc.edu/weekly-news-profile/preserving-the-past-ai-in-indigenous-language-preservation/"
 publication: Web
 pdf_extract: 

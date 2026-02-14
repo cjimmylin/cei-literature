@@ -7,9 +7,10 @@ key: LSRC0656
 type: conferencePaper
 short_title: "A dataset of Mongolian, Tibetan and Uyghur speech fragments based on voice activity detection"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.scidb.cn/en/detail?dataSetId=743522838262054912"
 publication: Web
 pdf_extract: 

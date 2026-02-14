@@ -7,9 +7,10 @@ key: LSRC0375
 type: preprint
 short_title: "Untangling Input Language from Reasoning Language: A Diagnostic Framework for Cross-Lingual Moral Alignment in LLMs"
 year: 2025
-first_author: "[[Nan Li]]"
-last_author: [[Unknown]]
-authors: "Nan Li; Bo Kang; Tijl De Bie"
+first_author: "[[Li, Nan]]"
+last_author: "[[De Bie, Tijl]]"
+authors: "[[Li, Nan]]; [[Kang, Bo]]; [[De Bie, Tijl]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2601.10257"
 external_pdf: "https://arxiv.org/pdf/2601.10257.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.md"

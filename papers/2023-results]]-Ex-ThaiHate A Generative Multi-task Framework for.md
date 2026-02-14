@@ -7,10 +7,10 @@ key: EXSR0555
 type: preprint
 short_title: "Ex-ThaiHate A Generative Multi-task Framework for"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://link.springer.com/chapter/10.1007/978-3-031-43427-3_9"
 external_pdf: 
 pdf_extract: 

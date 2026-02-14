@@ -7,9 +7,10 @@ key: LSRC0785
 type: conferencePaper
 short_title: "Towards Measuring the Representation of Subjective Global Opinions in Language Models \ Anthropic"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models"
 publication: Web
 pdf_extract: 

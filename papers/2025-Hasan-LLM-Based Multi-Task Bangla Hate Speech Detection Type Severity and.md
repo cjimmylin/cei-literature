@@ -7,9 +7,10 @@ key: LSRC0180
 type: preprint
 short_title: "LLM-Based Multi-Task Bangla Hate Speech Detection: Type, Severity, and Target"
 year: 2025
-first_author: "[[Md Arid Hasan]]"
-last_author: [[Unknown]]
-authors: "Md Arid Hasan; Firoj Alam; Md Fahad Hossain; Usman Naseem; Syed Ishtiaque Ahmed"
+first_author: "[[Hasan, Md Arid]]"
+last_author: "[[Ahmed, Syed Ishtiaque]]"
+authors: "[[Hasan, Md Arid]]; [[Alam, Firoj]]; [[Hossain, Md Fahad]]; [[Naseem, Usman]]; [[Ahmed, Syed Ishtiaque]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2510.01995"
 external_pdf: "https://arxiv.org/pdf/2510.01995.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and.md"

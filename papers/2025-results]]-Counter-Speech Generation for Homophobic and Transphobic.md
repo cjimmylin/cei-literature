@@ -7,10 +7,10 @@ key: EXSR0348
 type: preprint
 short_title: "Counter-Speech Generation for Homophobic and Transphobic"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://link.springer.com/article/10.1007/s13278-025-01507-x"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s13278-025-01507-x.pdf"
 pdf_extract: "PDF Extracts/2025/2025-results]]-Counter-Speech Generation for Homophobic and Transphobic.md"

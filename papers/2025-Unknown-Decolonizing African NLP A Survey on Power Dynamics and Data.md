@@ -7,9 +7,10 @@ key: LSRC0809
 type: conferencePaper
 short_title: "Decolonizing African NLP: A Survey on Power Dynamics and Data Colonialism in Tech Development"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.researchgate.net/publication/379815378_Decolonizing_African_NLP_A_Survey_on_Power_Dynamics_and_Data_Colonialism_in_Tech_Development"
 publication: ResearchGate
 pdf_extract: 

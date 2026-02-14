@@ -7,9 +7,10 @@ key: LSRC0289
 type: preprint
 short_title: "From Languages to Geographies: Towards Evaluating Cultural Bias in Hate Speech Datasets"
 year: 2025
-first_author: "[[Manuel Tonneau]]"
-last_author: "[[Manuel Tonneau]]"
-authors: "Manuel Tonneau, et al."
+first_author: "[[Tonneau, Manuel]]"
+last_author: "[[Tonneau, Manuel]]"
+authors: "[[Tonneau, Manuel]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2404.17874"
 external_pdf: "https://arxiv.org/pdf/2404.17874.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in.md"

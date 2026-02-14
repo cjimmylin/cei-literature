@@ -7,9 +7,10 @@ key: LSRC0758
 type: conferencePaper
 short_title: "A Leaderboard to Benchmark Ethical Biases in LLMs"
 year: 2025
-first_author: "[[A Leaderboard to Benchmark Ethical Biases in LLMs]]"
-last_author: [[Unknown]]
-authors: "A Leaderboard to Benchmark Ethical Biases in LLMs"
+first_author: "[[LLMs, A Leaderboard to Benchmark Ethical Biases in]]"
+last_author: "[[LLMs, A Leaderboard to Benchmark Ethical Biases in]]"
+authors: "[[LLMs, A Leaderboard to Benchmark Ethical Biases in]]"
+authors_incomplete: false
 url: "https://ceur-ws.org/Vol-3744/paper1.pdf"
 external_pdf: "https://ceur-ws.org/Vol-3744/paper1.pdf"
 publication: CEUR-WS

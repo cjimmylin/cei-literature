@@ -7,9 +7,9 @@ key: EXSR0315
 type: preprint
 short_title: "UrduLM A Resource-Efficient Monolingual Urdu Language"
 year: 2025
-first_author: [[[[Unknown]]]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2601.17664"
 external_pdf: "https://arxiv.org/pdf/2601.17664.pdf"

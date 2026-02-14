@@ -7,9 +7,10 @@ key: LSRC0607
 type: preprint
 short_title: "Exploring NLP Benchmarks in an Extremely Low-Resource Setting"
 year: 2025
-first_author: "[[Ulin Nuha]]"
-last_author: [[Unknown]]
-authors: "Ulin Nuha; Adam Jatowt"
+first_author: "[[Nuha, Ulin]]"
+last_author: "[[Jatowt, Adam]]"
+authors: "[[Nuha, Ulin]]; [[Jatowt, Adam]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2509.03962v1"
 external_pdf: "https://arxiv.org/pdf/2509.03962.pdf"
 publication: arXiv

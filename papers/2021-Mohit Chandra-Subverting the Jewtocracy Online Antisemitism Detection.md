@@ -7,9 +7,9 @@ key: EXSR0601
 type: conference_paper
 short_title: "Subverting the Jewtocracy Online Antisemitism Detection"
 year: 2025
-first_author: "[[Mohit Chandra, Pailla, and others (IIIT Hyderabad)]]"
-last_author: "[[Mohit Chandra, Pailla, and others (IIIT Hyderabad)]]"
-authors: "[[Mohit Chandra, Pailla,]]; [[others (IIIT Hyderabad)]]"
+first_author: "[[Mohit Chandra, Pailla,]]"
+last_author: "[[Hyderabad, others (IIIT]]"
+authors: "[[Mohit Chandra, Pailla,]]; [[Hyderabad, others (IIIT]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2104.05947"
 external_pdf: "https://arxiv.org/pdf/2104.05947.pdf"

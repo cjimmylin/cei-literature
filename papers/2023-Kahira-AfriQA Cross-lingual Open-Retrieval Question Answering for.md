@@ -7,10 +7,10 @@ key: EXSR0548
 type: preprint
 short_title: "AfriQA Cross-lingual Open-Retrieval Question Answering for"
 year: 2025
-first_author: "[[Odunayo Ogundepo, Tajuddeen R. Gwadabe, Clara E. Rivera, Jonathan H. Clark, Sebastian Ruder, David Ifeoluwa Adelani, Bonaventure F. P. Dossou, Abdou Aziz DIOP, Claytone Sikasote, Gilles Hacheme, Happy Buzaaba, Ignatius Ezeani, Rooweither Mabuya, Salomey Osei, Chris Emezue, Albert Njoroge Kahira,]]"
-last_author: "[[Odunayo Ogundepo, Tajuddeen R. Gwadabe, Clara E. Rivera, Jonathan H. Clark, Sebastian Ruder, David Ifeoluwa Adelani, Bonaventure F. P. Dossou, Abdou Aziz DIOP, Claytone Sikasote, Gilles Hacheme, Happy Buzaaba, Ignatius Ezeani, Rooweither Mabuya, Salomey Osei, Chris Emezue, Albert Njoroge Kahira,]]"
-authors: "[[Odunayo Ogundepo, Tajuddeen R. Gwadabe, Clara E. Rivera, Jonathan H. Clark, Sebastian Ruder, David Ifeoluwa Adelani, Bonaventure F. P. Dossou, Abdou Aziz DIOP, Claytone Sikasote, Gilles Hacheme, Happy Buzaaba, Ignatius Ezeani, Rooweither Mabuya, Salomey Osei, Chris Emezue, Albert Njoroge Kahira, et al]]"
-authors_incomplete: false
+first_author: "[[Ogundepo, Odunayo]]"
+last_author: "[[Kahira, Albert Njoroge]]"
+authors: "[[Ogundepo, Odunayo]]; [[Gwadabe, Tajuddeen R.]]; [[Rivera, Clara E.]]; [[Clark, Jonathan H.]]; [[Ruder, Sebastian]]; [[Adelani, David Ifeoluwa]]; [[Dossou, Bonaventure F. P.]]; [[DIOP, Abdou Aziz]]; [[Sikasote, Claytone]]; [[Hacheme, Gilles]]; [[Buzaaba, Happy]]; [[Ezeani, Ignatius]]; [[Mabuya, Rooweither]]; [[Osei, Salomey]]; [[Emezue, Chris]]; [[Kahira, Albert Njoroge]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2305.06897"
 external_pdf: "https://arxiv.org/pdf/2305.06897.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.md"

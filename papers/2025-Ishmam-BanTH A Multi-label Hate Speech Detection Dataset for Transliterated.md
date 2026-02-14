@@ -7,9 +7,10 @@ key: LSRC0178
 type: preprint
 short_title: "BanTH: A Multi-label Hate Speech Detection Dataset for Transliterated Bangla"
 year: 2025
-first_author: "[[F. Ishmam]]"
-last_author: [[F.]]
-authors: "Ishmam, F. et al."
+first_author: "[[Ishmam, F.]]"
+last_author: "[[F.]]"
+authors: "[[Ishmam, F.]]; [[F.]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2410.13281"
 external_pdf: "https://arxiv.org/pdf/2410.13281.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.md"

@@ -7,10 +7,10 @@ key: EXSR0589
 type: preprint
 short_title: "Hate Speech and Offensive Language Detection"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0885230822000250"
 external_pdf: "https://arxiv.org/pdf/2210.03479v1.pdf"
 pdf_extract: "PDF Extracts/2022/2022-results]]-Hate Speech and Offensive Language Detection.md"

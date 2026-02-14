@@ -7,9 +7,10 @@ key: LSRC0740
 type: conferencePaper
 short_title: "A Web-Based Hate Speech Detection System for Dialectal Arabic"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.scitepress.org/Papers/2024/128120/128120.pdf"
 external_pdf: "https://www.scitepress.org/Papers/2024/128120/128120.pdf"
 publication: Web

@@ -7,9 +7,9 @@ key: EXSR0596
 type: conference_paper
 short_title: "Re-contextualizing Fairness in NLP The Case"
 year: 2025
-first_author: "[[Shaily Bhatt, and others (Google Research)]]"
-last_author: "[[Shaily Bhatt, and others (Google Research)]]"
-authors: "[[Shaily Bhatt,]]; [[others (Google Research)]]"
+first_author: "[[Shaily Bhatt,]]"
+last_author: "[[Research, others (Google]]"
+authors: "[[Shaily Bhatt,]]; [[Research, others (Google]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2209.12226"
 external_pdf: "https://arxiv.org/pdf/2209.12226.pdf"

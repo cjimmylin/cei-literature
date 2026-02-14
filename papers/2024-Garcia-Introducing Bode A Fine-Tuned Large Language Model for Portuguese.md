@@ -7,9 +7,10 @@ key: LSRC0218
 type: preprint
 short_title: "Introducing Bode: A Fine-Tuned Large Language Model for Portuguese Prompt-Based Task"
 year: 2025
-first_author: "[[Gabriel Lino Garcia]]"
-last_author: "[[Gabriel Lino Garcia]]"
-authors: "Gabriel Lino Garcia, et al."
+first_author: "[[Garcia, Gabriel Lino]]"
+last_author: "[[Garcia, Gabriel Lino]]"
+authors: "[[Garcia, Gabriel Lino]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2401.02909"
 external_pdf: "https://arxiv.org/pdf/2401.02909.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Garcia-Introducing Bode A Fine-Tuned Large Language Model for Portuguese.md"

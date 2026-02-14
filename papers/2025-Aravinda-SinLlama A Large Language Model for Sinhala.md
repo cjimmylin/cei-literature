@@ -7,9 +7,10 @@ key: LSRC0194
 type: preprint
 short_title: "SinLlama: A Large Language Model for Sinhala"
 year: 2025
-first_author: "[[H. W. K. Aravinda]]"
-last_author: [[Unknown]]
-authors: "H. W. K. Aravinda; Rashad Sirajudeen; Samith Karunathilake; Nisansa de Silva; Surangika Ranathunga; Rishemjit Kaur"
+first_author: "[[Aravinda, H. W. K.]]"
+last_author: "[[Kaur, Rishemjit]]"
+authors: "[[Aravinda, H. W. K.]]; [[Sirajudeen, Rashad]]; [[Karunathilake, Samith]]; [[de Silva, Nisansa]]; [[Ranathunga, Surangika]]; [[Kaur, Rishemjit]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2508.09115"
 external_pdf: "https://arxiv.org/pdf/2508.09115.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Aravinda-SinLlama A Large Language Model for Sinhala.md"

@@ -7,9 +7,10 @@ key: LSRC0197
 type: preprint
 short_title: "Evaluating LLMs' Multilingual Capabilities for Bengali: Benchmark Creation and Performance Analysis"
 year: 2025
-first_author: "[[Shimanto Bhowmik]]"
-last_author: [[Unknown]]
-authors: "Shimanto Bhowmik; Tawsif Tashwar Dipto; Md Sazzad Islam; Sheryl Hsu; Tahsin Reasat"
+first_author: "[[Bhowmik, Shimanto]]"
+last_author: "[[Reasat, Tahsin]]"
+authors: "[[Bhowmik, Shimanto]]; [[Dipto, Tawsif Tashwar]]; [[Islam, Md Sazzad]]; [[Hsu, Sheryl]]; [[Reasat, Tahsin]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2507.23248"
 external_pdf: "https://arxiv.org/pdf/2507.23248.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Bhowmik-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark.md"

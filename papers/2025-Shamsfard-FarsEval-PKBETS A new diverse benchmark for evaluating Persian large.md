@@ -7,9 +7,10 @@ key: LSRC0132
 type: preprint
 short_title: "FarsEval-PKBETS: A new diverse benchmark for evaluating Persian large language models"
 year: 2025
-first_author: "[[Mehrnoush Shamsfard]]"
-last_author: [[Unknown]]
-authors: "Mehrnoush Shamsfard; Zahra Saaberi; Mostafa Karimi manesh; Seyed Mohammad Hossein Hashemi; Zahra Vatankhah; Motahareh Ramezani; Niki Pourazin; Tara Zare; Maryam Azimi; Sarina Chitsaz; Sama Khoraminejad; Morteza Mahdavi Mortazavi; Mohammad Mahdi Chizari; Sahar Maleki; Seyed Soroush Majd; Mostafa Masumi; Sayed Ali Musavi Khoeini; Amir Mohseni; Sogol Alipour"
+first_author: "[[Shamsfard, Mehrnoush]]"
+last_author: "[[Alipour, Sogol]]"
+authors: "[[Shamsfard, Mehrnoush]]; [[Saaberi, Zahra]]; [[manesh, Mostafa Karimi]]; [[Hashemi, Seyed Mohammad Hossein]]; [[Vatankhah, Zahra]]; [[Ramezani, Motahareh]]; [[Pourazin, Niki]]; [[Zare, Tara]]; [[Azimi, Maryam]]; [[Chitsaz, Sarina]]; [[Khoraminejad, Sama]]; [[Mortazavi, Morteza Mahdavi]]; [[Chizari, Mohammad Mahdi]]; [[Maleki, Sahar]]; [[Majd, Seyed Soroush]]; [[Masumi, Mostafa]]; [[Khoeini, Sayed Ali Musavi]]; [[Mohseni, Amir]]; [[Alipour, Sogol]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2504.14690"
 external_pdf: "https://arxiv.org/pdf/2504.14690.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large.md"

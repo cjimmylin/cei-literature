@@ -8,9 +8,10 @@ key: LSRC0277
 type: conferencePaper
 short_title: "Overview of DETOXIS at IberLEF 2021: DEtection of TOXicity in comments In Spanish"
 year: 2025
-first_author: "[[Mariona Taulé]]"
-last_author: "[[Mariona Taulé]]"
-authors: "Mariona Taulé, et al."
+first_author: "[[Taulé, Mariona]]"
+last_author: "[[Taulé, Mariona]]"
+authors: "[[Taulé, Mariona]]"
+authors_incomplete: true
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6390/0"
 external_pdf: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6390/3810"
 publication: "IberLEF / SEPLN"

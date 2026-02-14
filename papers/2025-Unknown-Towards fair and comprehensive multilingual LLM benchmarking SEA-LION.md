@@ -7,9 +7,10 @@ key: LSRC0609
 type: conferencePaper
 short_title: "Towards fair and comprehensive multilingual LLM benchmarking | SEA-LION"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://sea-lion.ai/blog/multilingual-llm-benchmarking/"
 publication: Web
 pdf_extract: 

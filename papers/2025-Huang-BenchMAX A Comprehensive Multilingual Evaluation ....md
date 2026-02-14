@@ -7,9 +7,10 @@ key: LSRC0717
 type: conferencePaper
 short_title: "BenchMAX: A Comprehensive Multilingual Evaluation ..."
 year: 2025
-first_author: "[[Xu Huang]]"
-last_author: [[Unknown]]
-authors: "Xu Huang; Wenhao Zhu; Hanxu Hu; Conghui He; Lei Li; Shujian Huang; Fei Yuan"
+first_author: "[[Huang, Xu]]"
+last_author: "[[Yuan, Fei]]"
+authors: "[[Huang, Xu]]; [[Zhu, Wenhao]]; [[Hu, Hanxu]]; [[He, Conghui]]; [[Li, Lei]]; [[Huang, Shujian]]; [[Yuan, Fei]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-emnlp.909.pdf"
 external_pdf: "https://arxiv.org/pdf/2502.07346v2.pdf"
 publication: "ACL Anthology"

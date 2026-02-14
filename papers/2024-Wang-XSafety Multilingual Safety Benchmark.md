@@ -7,9 +7,10 @@ key: LSRC0440
 type: conferencePaper
 short_title: "XSafety: Multilingual Safety Benchmark"
 year: 2025
-first_author: [[Wang]]
-last_author: [[Wang]]
-authors: "Wang, et al."
+first_author: "[[Wang]]"
+last_author: "[[Wang]]"
+authors: "[[Wang]]"
+authors_incomplete: true
 url: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"
 publication: GitHub
 pdf_extract: 

@@ -7,9 +7,10 @@ key: LSRC0795
 type: conferencePaper
 short_title: "New report and guidelines for indigenous data sovereignty in artificial intelligence developments | Global AI Ethics and Governance Observatory"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.unesco.org/ethics-ai/en/articles/new-report-and-guidelines-indigenous-data-sovereignty-artificial-intelligence-developments"
 publication: Web
 pdf_extract: 

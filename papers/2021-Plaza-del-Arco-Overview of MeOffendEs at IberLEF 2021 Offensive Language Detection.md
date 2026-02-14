@@ -8,9 +8,10 @@ key: LSRC0280
 type: conferencePaper
 short_title: "Overview of MeOffendEs at IberLEF 2021: Offensive Language Detection in Spanish Variants"
 year: 2025
-first_author: "[[Flor Miriam Plaza-del-Arco]]"
-last_author: "[[Flor Miriam Plaza-del-Arco]]"
-authors: "Flor Miriam Plaza-del-Arco, et al."
+first_author: "[[Plaza-del-Arco, Flor Miriam]]"
+last_author: "[[Plaza-del-Arco, Flor Miriam]]"
+authors: "[[Plaza-del-Arco, Flor Miriam]]"
+authors_incomplete: true
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6388"
 external_pdf: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6388/3808"
 publication: "IberLEF / SEPLN"

@@ -7,9 +7,10 @@ key: LSRC0658
 type: preprint
 short_title: "Enhancing Cross-Lingual Transfer through Reversible Transliteration: A Huffman-Based Approach for Low-Resource Languages"
 year: 2025
-first_author: "[[Wenhao Zhuang]]"
-last_author: [[Unknown]]
-authors: "Wenhao Zhuang; Yuan Sun; Xiaobing Zhao"
+first_author: "[[Zhuang, Wenhao]]"
+last_author: "[[Zhao, Xiaobing]]"
+authors: "[[Zhuang, Wenhao]]; [[Sun, Yuan]]; [[Zhao, Xiaobing]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2509.17493"
 external_pdf: "https://arxiv.org/pdf/2509.17493.pdf"
 publication: arXiv

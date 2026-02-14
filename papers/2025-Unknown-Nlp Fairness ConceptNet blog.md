@@ -7,9 +7,10 @@ key: LSRC0833
 type: conferencePaper
 short_title: "Nlp Fairness | ConceptNet blog"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "http://blog.conceptnet.io/nlp-fairness/"
 publication: Web
 pdf_extract: 

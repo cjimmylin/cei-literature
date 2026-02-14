@@ -7,9 +7,10 @@ key: LSRC0757
 type: conferencePaper
 short_title: "On the Challenges of Bias Evaluation Under Multilingual ..."
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2022.bigscience-1.3.pdf"
 external_pdf: "https://aclanthology.org/2022.bigscience-1.3.pdf"
 publication: "ACL Anthology"

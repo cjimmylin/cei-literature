@@ -8,9 +8,10 @@ key: LSRC0199
 type: conferencePaper
 short_title: "Dialectal Bias in Bengali: An Evaluation of Multilingual Language Models"
 year: 2025
-first_author: "[[Azmine Toushik Wasi]]"
-last_author: [[Unknown]]
-authors: "Azmine Toushik Wasi; Raima Islam; Mst Rafia Islam; Farig Sadeque; Taki Hasan Rafi; Dong-Kyu Chae"
+first_author: "[[Wasi, Azmine Toushik]]"
+last_author: "[[Chae, Dong-Kyu]]"
+authors: "[[Wasi, Azmine Toushik]]; [[Islam, Raima]]; [[Islam, Mst Rafia]]; [[Sadeque, Farig]]; [[Rafi, Taki Hasan]]; [[Chae, Dong-Kyu]]"
+authors_incomplete: false
 doi: 10.1145/3701716.3715468
 url: "https://dl.acm.org/doi/10.1145/3701716.3715468"
 publication: ACM

@@ -7,10 +7,10 @@ key: EXSR0420
 type: preprint
 short_title: "Qorgau Evaluating LLM Safety in Kazakh-Russian"
 year: 2025
-first_author: "[[Daulet Sametov, Aidar Mujahid,]]"
-last_author: "[[Daulet Sametov, Aidar Mujahid,]]"
-authors: "[[Daulet Sametov, Aidar Mujahid, et al]]"
-authors_incomplete: false
+first_author: "[[Sametov, Daulet]]"
+last_author: "[[Mujahid, Aidar]]"
+authors: "[[Sametov, Daulet]]; [[Mujahid, Aidar]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2502.13640"
 external_pdf: "https://arxiv.org/pdf/2502.13640.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian.md"

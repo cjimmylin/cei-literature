@@ -7,9 +7,10 @@ key: LSRC0701
 type: journalArticle
 short_title: "Diagnosing the bias iceberg in large language models: A three-level framework of explicit, evaluative, and implicit gender bias - ScienceDirect"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.sciencedirect.com/science/article/pii/S0306457325004959"
 publication: ScienceDirect
 pdf_extract: 

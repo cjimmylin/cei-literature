@@ -7,9 +7,10 @@ key: LSRC0676
 type: preprint
 short_title: "Leveraging LLM and Self-Supervised Training Models for Speech Recognition in Chinese Dialects: A Comparative Analysis"
 year: 2025
-first_author: "[[Tianyi Xu]]"
-last_author: [[Unknown]]
-authors: "Tianyi Xu; Hongjie Chen; Wang Qing; Lv Hang; Jian Kang; Li Jie; Zhennan Lin; Yongxiang Li; Xie Lei"
+first_author: "[[Xu, Tianyi]]"
+last_author: "[[Lei, Xie]]"
+authors: "[[Xu, Tianyi]]; [[Chen, Hongjie]]; [[Qing, Wang]]; [[Hang, Lv]]; [[Kang, Jian]]; [[Jie, Li]]; [[Lin, Zhennan]]; [[Li, Yongxiang]]; [[Lei, Xie]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2505.21138v1"
 external_pdf: "https://arxiv.org/pdf/2505.21138.pdf"
 publication: arXiv

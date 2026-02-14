@@ -7,9 +7,10 @@ key: LSRC0486
 type: preprint
 short_title: "DaKultur: Evaluating the Cultural Awareness of Language Models for Danish with Native Speakers"
 year: 2025
-first_author: "[[Max Mueller-Eberstein]]"
-last_author: "[[Max Mueller-Eberstein]]"
-authors: "Max Mueller-Eberstein et al."
+first_author: "[[Mueller-Eberstein, Max]]"
+last_author: "[[Mueller-Eberstein, Max]]"
+authors: "[[Mueller-Eberstein, Max]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2504.02403"
 external_pdf: "https://arxiv.org/pdf/2504.02403.pdf"
 publication: "arXiv / C3NLP 2025"

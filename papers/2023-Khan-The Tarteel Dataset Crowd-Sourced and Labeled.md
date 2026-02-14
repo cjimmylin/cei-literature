@@ -7,10 +7,10 @@ key: EXSR0574
 type: journal_article
 short_title: "The Tarteel Dataset Crowd-Sourced and Labeled"
 year: 2025
-first_author: [[Khan]]
-last_author: [[Khan]]
-authors: "[[Khan et al]]"
-authors_incomplete: false
+first_author: "[[Khan]]"
+last_author: "[[Khan]]"
+authors: "[[Khan]]"
+authors_incomplete: true
 url: 
 external_pdf: 
 pdf_extract: 

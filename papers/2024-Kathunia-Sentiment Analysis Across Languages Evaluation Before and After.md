@@ -7,9 +7,10 @@ key: LSRC0630
 type: preprint
 short_title: "Sentiment Analysis Across Languages: Evaluation Before and After Machine Translation to English"
 year: 2025
-first_author: "[[Aekansh Kathunia]]"
-last_author: [[Unknown]]
-authors: "Aekansh Kathunia; Mohammad Kaif; Nalin Arora; N Narotam"
+first_author: "[[Kathunia, Aekansh]]"
+last_author: "[[Narotam, N]]"
+authors: "[[Kathunia, Aekansh]]; [[Kaif, Mohammad]]; [[Arora, Nalin]]; [[Narotam, N]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2405.02887v2"
 external_pdf: "https://arxiv.org/pdf/2405.02887.pdf"
 publication: arXiv

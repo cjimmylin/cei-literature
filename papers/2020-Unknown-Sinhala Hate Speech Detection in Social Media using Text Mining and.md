@@ -8,9 +8,10 @@ key: LSRC0192
 type: conferencePaper
 short_title: "Sinhala Hate Speech Detection in Social Media using Text Mining and Machine Learning"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 doi: 10.1109/MERCon50084.2020.9023655
 url: "https://ieeexplore.ieee.org/document/9023655/"
 publication: "IEEE (MERCon 2020)"

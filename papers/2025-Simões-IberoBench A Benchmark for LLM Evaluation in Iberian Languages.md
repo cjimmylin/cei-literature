@@ -8,9 +8,10 @@ key: LSRC0272
 type: conferencePaper
 short_title: "IberoBench: A Benchmark for LLM Evaluation in Iberian Languages"
 year: 2025
-first_author: "[[Guilherme Simões]]"
-last_author: "[[Ferrando Espinosa]]"
-authors: "Guilherme Simões, Ferrando Espinosa, et al."
+first_author: "[[Simões, Guilherme]]"
+last_author: "[[Espinosa, Ferrando]]"
+authors: "[[Simões, Guilherme]]; [[Espinosa, Ferrando]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2025.coling-main.699/"
 external_pdf: "https://aclanthology.org/2025.coling-main.699.pdf"
 publication: "ACL Anthology / COLING 2025"

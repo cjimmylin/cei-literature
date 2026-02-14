@@ -7,9 +7,10 @@ key: LSRC0770
 type: preprint
 short_title: "Data-Efficient Hate Speech Detection via Cross-Lingual ..."
 year: 2025
-first_author: "[[Faeze Ghorbanpour]]"
-last_author: [[Unknown]]
-authors: "Faeze Ghorbanpour; Daryna Dementieva; Alexander Fraser"
+first_author: "[[Ghorbanpour, Faeze]]"
+last_author: "[[Fraser, Alexander]]"
+authors: "[[Ghorbanpour, Faeze]]; [[Dementieva, Daryna]]; [[Fraser, Alexander]]"
+authors_incomplete: false
 url: "https://arxiv.org/pdf/2505.14272"
 external_pdf: "https://arxiv.org/pdf/2505.14272.pdf"
 publication: arXiv

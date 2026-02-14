@@ -7,9 +7,10 @@ key: LSRC0620
 type: conferencePaper
 short_title: "A cross-validation study of Turkish sentiment analysis datasets and tools | Language Resources and Evaluation | Springer Nature Link"
 year: 2025
-first_author: "[[Sevval Çakici]]"
-last_author: [[Unknown]]
-authors: "Sevval Çakici; Dilara Karaduman; Mehmet Akif Çirlan; Ali Hurriyetoglu"
+first_author: "[[Çakici, Sevval]]"
+last_author: "[[Hurriyetoglu, Ali]]"
+authors: "[[Çakici, Sevval]]; [[Karaduman, Dilara]]; [[Çirlan, Mehmet Akif]]; [[Hurriyetoglu, Ali]]"
+authors_incomplete: false
 doi: 10.1007/s10579-025-09869-6
 url: "https://link.springer.com/article/10.1007/s10579-025-09869-6"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10579-025-09869-6.pdf"

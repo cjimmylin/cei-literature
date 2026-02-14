@@ -7,9 +7,10 @@ key: LSRC0532
 type: preprint
 short_title: "The Large Language Model GreekLegalRoBERTa"
 year: 2025
-first_author: "[[Vasileios Saketos]]"
-last_author: "[[Vasileios Saketos]]"
-authors: "Vasileios Saketos et al."
+first_author: "[[Saketos, Vasileios]]"
+last_author: "[[Saketos, Vasileios]]"
+authors: "[[Saketos, Vasileios]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2410.12852"
 external_pdf: "https://arxiv.org/pdf/2410.12852.pdf"
 publication: arXiv

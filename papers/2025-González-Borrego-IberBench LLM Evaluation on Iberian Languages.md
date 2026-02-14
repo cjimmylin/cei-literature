@@ -7,9 +7,10 @@ key: LSRC0210
 type: preprint
 short_title: "IberBench: LLM Evaluation on Iberian Languages"
 year: 2025
-first_author: "[[Isaac González-Borrego]]"
-last_author: "[[David Obrador]]"
-authors: "Isaac González-Borrego, David Obrador, et al."
+first_author: "[[González-Borrego, Isaac]]"
+last_author: "[[Obrador, David]]"
+authors: "[[González-Borrego, Isaac]]; [[Obrador, David]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2504.16921"
 external_pdf: "https://arxiv.org/pdf/2504.16921.pdf"
 pdf_extract: "PDF Extracts/2025/2025-González-Borrego-IberBench LLM Evaluation on Iberian Languages.md"

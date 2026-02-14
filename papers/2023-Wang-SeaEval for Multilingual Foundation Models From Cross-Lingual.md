@@ -8,8 +8,9 @@ type: preprint
 short_title: "SeaEval for Multilingual Foundation Models: From Cross-Lingual Alignment to Cultural Reasoning"
 year: 2025
 first_author: "[[Bin Wang]]"
-last_author: [[Unknown]]
-authors: "Bin Wang; Zhengyuan Liu; Xin Huang; Fangkai Jiao; Yang Ding; AiTi Aw; Nancy F. Chen"
+last_author: "[[Chen, Nancy F.]]"
+authors: "[[Bin Wang]]; [[Liu, Zhengyuan]]; [[Huang, Xin]]; [[Jiao, Fangkai]]; [[Ding, Yang]]; [[Aw, AiTi]]; [[Chen, Nancy F.]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2309.04766"
 external_pdf: "https://arxiv.org/pdf/2309.04766.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual.md"

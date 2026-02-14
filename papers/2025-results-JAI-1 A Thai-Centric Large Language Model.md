@@ -7,9 +7,10 @@ key: LSRC0079
 type: preprint
 short_title: "JAI-1: A Thai-Centric Large Language Model"
 year: 2025
-first_author: "[[Not fully listed in search results]]"
-last_author: "[[Not fully listed in search results]]"
-authors: "Not fully listed in search results"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2510.08620"
 external_pdf: "https://arxiv.org/pdf/2510.08620.pdf"
 pdf_extract: "PDF Extracts/2025/2025-results-JAI-1 A Thai-Centric Large Language Model.md"

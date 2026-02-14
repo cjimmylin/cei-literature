@@ -7,9 +7,10 @@ key: LSRC0312
 type: preprint
 short_title: "Vikhr: The Family of Open-Source Instruction-Tuned Large Language Models for Russian"
 year: 2025
-first_author: "[[Aleksandr Nikolich]]"
-last_author: "[[Georgy Okulov]]"
-authors: "Aleksandr Nikolich, Konstantin Korolev, Georgy Okulov, et al."
+first_author: "[[Nikolich, Aleksandr]]"
+last_author: "[[Okulov, Georgy]]"
+authors: "[[Nikolich, Aleksandr]]; [[Korolev, Konstantin]]; [[Okulov, Georgy]]"
+authors_incomplete: true
 doi: 10.18653/v1/2024.mrl-1.15
 url: "https://arxiv.org/abs/2405.13929"
 external_pdf: "https://arxiv.org/pdf/2405.13929.pdf"

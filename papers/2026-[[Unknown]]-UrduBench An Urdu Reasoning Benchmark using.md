@@ -7,9 +7,9 @@ key: EXSR0314
 type: preprint
 short_title: "UrduBench An Urdu Reasoning Benchmark using"
 year: 2025
-first_author: [[[[Unknown]]]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2601.21000"
 external_pdf: "https://arxiv.org/pdf/2601.21000.pdf"

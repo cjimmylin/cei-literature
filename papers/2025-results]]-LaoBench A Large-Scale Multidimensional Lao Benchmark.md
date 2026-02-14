@@ -7,10 +7,10 @@ key: EXSR0401
 type: preprint
 short_title: "LaoBench A Large-Scale Multidimensional Lao Benchmark"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2511.11334"
 external_pdf: "https://arxiv.org/pdf/2511.11334.pdf"
 pdf_extract: "PDF Extracts/2025/2025-results]]-LaoBench A Large-Scale Multidimensional Lao Benchmark.md"

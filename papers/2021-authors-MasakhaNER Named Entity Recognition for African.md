@@ -7,10 +7,10 @@ key: EXSR0608
 type: preprint
 short_title: "MasakhaNER Named Entity Recognition for African"
 year: 2025
-first_author: "[[David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D'souza, Julia Kreutzer, Constantine Lignos, Chester Palen-Michel, Happy Buzaaba, Shruti Rijhwani, Sebastian Ruder, Stephen Mayhew, Israel Abebe Azime, Shamsuddeen Muhammad, Chris Chinenye Emezue, et al. (61 authors)]]"
-last_author: "[[David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D'souza, Julia Kreutzer, Constantine Lignos, Chester Palen-Michel, Happy Buzaaba, Shruti Rijhwani, Sebastian Ruder, Stephen Mayhew, Israel Abebe Azime, Shamsuddeen Muhammad, Chris Chinenye Emezue, et al. (61 authors)]]"
-authors: "[[David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D'souza, Julia Kreutzer, Constantine Lignos, Chester Palen-Michel, Happy Buzaaba, Shruti Rijhwani, Sebastian Ruder, Stephen Mayhew, Israel Abebe Azime, Shamsuddeen Muhammad, Chris Chinenye Emezue, et al. (61 authors)]]"
-authors_incomplete: false
+first_author: "[[Adelani, David Ifeoluwa]]"
+last_author: "[[Emezue, Chris Chinenye]]"
+authors: "[[Adelani, David Ifeoluwa]]; [[Abbott, Jade]]; [[Neubig, Graham]]; [[D'souza, Daniel]]; [[Kreutzer, Julia]]; [[Lignos, Constantine]]; [[Palen-Michel, Chester]]; [[Buzaaba, Happy]]; [[Rijhwani, Shruti]]; [[Ruder, Sebastian]]; [[Mayhew, Stephen]]; [[Azime, Israel Abebe]]; [[Muhammad, Shamsuddeen]]; [[Emezue, Chris Chinenye]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2103.11811"
 external_pdf: "https://arxiv.org/pdf/2103.11811.pdf"
 pdf_extract: "PDF Extracts/2021/2021-authors-MasakhaNER Named Entity Recognition for African.md"

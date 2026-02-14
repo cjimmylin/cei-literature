@@ -7,9 +7,10 @@ key: LSRC0683
 type: preprint
 short_title: "Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns and Social Groups"
 year: 2025
-first_author: "[[Geng Liu]]"
-last_author: [[Unknown]]
-authors: "Geng Liu; Feng Li; Junjie Mu; Mengxiao Zhu; Francesco Pierri"
+first_author: "[[Liu, Geng]]"
+last_author: "[[Pierri, Francesco]]"
+authors: "[[Liu, Geng]]; [[Li, Feng]]; [[Mu, Junjie]]; [[Zhu, Mengxiao]]; [[Pierri, Francesco]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2510.06974"
 external_pdf: "https://arxiv.org/pdf/2510.06974.pdf"
 publication: arXiv

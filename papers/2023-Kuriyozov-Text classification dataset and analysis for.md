@@ -9,8 +9,8 @@ short_title: "Text classification dataset and analysis for"
 year: 2025
 first_author: "[[Kuriyozov, Elmurod]]"
 last_author: "[[Kuriyozov, Elmurod]]"
-authors: "[[Elmurod Kuriyozov et al]]"
-authors_incomplete: false
+authors: "[[Kuriyozov, Elmurod]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2302.14494"
 external_pdf: "https://arxiv.org/pdf/2302.14494.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Kuriyozov-Text classification dataset and analysis for.md"

@@ -7,9 +7,10 @@ key: LSRC0619
 type: conferencePaper
 short_title: "Towards Better Sentiment Analysis in the Turkish Language: Dataset Improvements and Model Innovations"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.mdpi.com/2076-3417/15/4/2062"
 publication: MDPI
 pdf_extract: 

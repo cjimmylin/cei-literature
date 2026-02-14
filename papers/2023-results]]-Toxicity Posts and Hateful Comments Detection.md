@@ -7,10 +7,10 @@ key: EXSR0576
 type: journal_article
 short_title: "Toxicity Posts and Hateful Comments Detection"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://ph01.tci-thaijo.org/index.php/RMUTLEngJ/article/view/256026"
 external_pdf: "https://ph01.tci-thaijo.org/index.php/RMUTLEngJ/article/download/256026/174267"
 pdf_extract: "PDF Extracts/2023/2023-results]]-Toxicity Posts and Hateful Comments Detection.md"

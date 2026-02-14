@@ -7,9 +7,10 @@ key: LSRC0769
 type: conferencePaper
 short_title: "A survey on multi-lingual offensive language detection - PMC"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11042037/"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11042037&blobtype=pdf"
 publication: PubMed

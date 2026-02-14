@@ -7,9 +7,10 @@ key: LSRC0205
 type: preprint
 short_title: "ToxSyn: Reducing Bias in Hate Speech Detection via Synthetic Minority Data in Brazilian Portuguese"
 year: 2025
-first_author: "[[Authors not fully retrieved]]"
-last_author: "[[Authors not fully retrieved]]"
-authors: "Authors not fully retrieved"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2506.10245"
 external_pdf: "https://arxiv.org/pdf/2506.10245.pdf"
 pdf_extract: "PDF Extracts/2025/2025-retrieved-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.md"

@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Ober-AI Ethics with Aristotle|AI Ethics with Aristotle]] (First Author)]]
+- [[2024-Ober-Lyceum Project AI Ethics Aristotle|AI Ethics with Aristotle]] (First Author)]]
 
-- [[2024-Ober-AI Ethics with Aristotle|AI Ethics with Aristotle]] (First Author)
 
 ## External Links & Profiles
 

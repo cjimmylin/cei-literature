@@ -7,9 +7,10 @@ key: LSRC0195
 type: preprint
 short_title: "The Belebele Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants"
 year: 2025
-first_author: "[[Lucas Bandarkar]]"
-last_author: [[Unknown]]
-authors: "Lucas Bandarkar; Davis Liang; Benjamin Muller; Mikel Artetxe; Satya Narayan Shukla; Donald Husa; Naman Goyal; Abhinandan Krishnan; Luke Zettlemoyer; Madian Khabsa"
+first_author: "[[Bandarkar, Lucas]]"
+last_author: "[[Khabsa, Madian]]"
+authors: "[[Bandarkar, Lucas]]; [[Liang, Davis]]; [[Muller, Benjamin]]; [[Artetxe, Mikel]]; [[Shukla, Satya Narayan]]; [[Husa, Donald]]; [[Goyal, Naman]]; [[Krishnan, Abhinandan]]; [[Zettlemoyer, Luke]]; [[Khabsa, Madian]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2308.16884"
 external_pdf: "https://arxiv.org/pdf/2308.16884.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in.md"

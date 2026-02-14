@@ -7,10 +7,10 @@ key: EXSR0611
 type: preprint
 short_title: "Pre-trained Models and Evaluation Data for"
 year: 2025
-first_author: [[Jiang]]
-last_author: [[Jiang]]
-authors: "[[Jiang et al]]"
-authors_incomplete: false
+first_author: "[[Jiang]]"
+last_author: "[[Jiang]]"
+authors: "[[Jiang]]"
+authors_incomplete: true
 url: "https://link.springer.com/chapter/10.1007/978-3-030-92310-5_52"
 external_pdf: "https://arxiv.org/pdf/2308.02976"
 pdf_extract: "PDF Extracts/2021/2021-Jiang-Pre-trained Models and Evaluation Data for.md"

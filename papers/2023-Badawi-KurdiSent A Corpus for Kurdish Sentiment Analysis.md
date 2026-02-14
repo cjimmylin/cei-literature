@@ -8,9 +8,10 @@ key: LSRC0152
 type: conferencePaper
 short_title: "KurdiSent: A Corpus for Kurdish Sentiment Analysis"
 year: 2025
-first_author: "[[Soran Badawi]]"
-last_author: [[Unknown]]
-authors: "Soran Badawi; Arefeh Kazemi; Vali Rezaie"
+first_author: "[[Badawi, Soran]]"
+last_author: "[[Rezaie, Vali]]"
+authors: "[[Badawi, Soran]]; [[Kazemi, Arefeh]]; [[Rezaie, Vali]]"
+authors_incomplete: false
 doi: 10.1007/s10579-023-09716-6
 url: "https://link.springer.com/article/10.1007/s10579-023-09716-6"
 publication: "Language Resources and Evaluation (Springer)"

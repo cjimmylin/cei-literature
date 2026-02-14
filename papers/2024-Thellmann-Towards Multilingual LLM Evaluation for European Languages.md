@@ -7,9 +7,10 @@ key: LSRC0353
 type: preprint
 short_title: "Towards Multilingual LLM Evaluation for European Languages"
 year: 2025
-first_author: "[[Klaudia Thellmann]]"
-last_author: "[[Jasper Schulze Buschhoff]]"
-authors: "Klaudia Thellmann, Bernhard Stadler, Michael Fromm, Jasper Schulze Buschhoff, et al."
+first_author: "[[Thellmann, Klaudia]]"
+last_author: "[[Buschhoff, Jasper Schulze]]"
+authors: "[[Thellmann, Klaudia]]; [[Stadler, Bernhard]]; [[Fromm, Michael]]; [[Buschhoff, Jasper Schulze]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2410.08928"
 external_pdf: "https://arxiv.org/pdf/2410.08928.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages.md"

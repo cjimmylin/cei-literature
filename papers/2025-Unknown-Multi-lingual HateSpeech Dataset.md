@@ -7,9 +7,10 @@ key: LSRC0772
 type: conferencePaper
 short_title: "Multi-lingual HateSpeech Dataset"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.kaggle.com/datasets/wajidhassanmoosa/multilingual-hatespeech-dataset"
 publication: Web
 pdf_extract: 

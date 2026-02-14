@@ -7,9 +7,10 @@ key: LSRC0147
 type: preprint
 short_title: "Benchmarking Open-Source Large Language Models for Persian in Zero-Shot and Few-Shot Learning"
 year: 2025
-first_author: "[[Mahdi Cherakhloo]]"
-last_author: "[[Mahdi Cherakhloo]]"
-authors: "Mahdi Cherakhloo et al."
+first_author: "[[Cherakhloo, Mahdi]]"
+last_author: "[[Cherakhloo, Mahdi]]"
+authors: "[[Cherakhloo, Mahdi]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2510.12807"
 external_pdf: "https://arxiv.org/pdf/2510.12807.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Cherakhloo-Benchmarking Open-Source Large Language Models for Persian in.md"

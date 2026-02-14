@@ -7,10 +7,10 @@ key: EXSR0604
 type: preprint
 short_title: "Findings of the Sentiment Analysis of"
 year: 2025
-first_author: [[Chakravarthi]]
-last_author: [[Chakravarthi]]
-authors: "[[Chakravarthi]]; [[and others]]"
-authors_incomplete: false
+first_author: "[[Chakravarthi]]"
+last_author: "[[Chakravarthi]]"
+authors: "[[Chakravarthi]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2111.09811"
 external_pdf: "https://arxiv.org/pdf/2111.09811.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Chakravarthi-Findings of the Sentiment Analysis of.md"

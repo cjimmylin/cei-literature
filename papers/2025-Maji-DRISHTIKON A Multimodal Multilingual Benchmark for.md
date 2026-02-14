@@ -7,10 +7,10 @@ key: EXSR0355
 type: preprint
 short_title: "DRISHTIKON A Multimodal Multilingual Benchmark for"
 year: 2025
-first_author: [[Maji]]
-last_author: [[Kumar]]
-authors: "[[Maji]]; [[Kumar]]; [[and others]]"
-authors_incomplete: false
+first_author: "[[Maji]]"
+last_author: "[[Kumar]]"
+authors: "[[Maji]]; [[Kumar]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2509.19274"
 external_pdf: "https://arxiv.org/pdf/2509.19274.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for.md"

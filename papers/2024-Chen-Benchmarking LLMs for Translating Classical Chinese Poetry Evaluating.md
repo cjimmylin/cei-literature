@@ -7,9 +7,10 @@ key: LSRC0670
 type: preprint
 short_title: "Benchmarking LLMs for Translating Classical Chinese Poetry: Evaluating Adequacy, Fluency, and Elegance"
 year: 2025
-first_author: "[[Andong Chen]]"
-last_author: [[Unknown]]
-authors: "Andong Chen; Lianzhang Lou; Kehai Chen; Xuefeng Bai; Yang Xiang; Muyun Yang; Tiejun Zhao; Min Zhang"
+first_author: "[[Chen, Andong]]"
+last_author: "[[Zhang, Min]]"
+authors: "[[Chen, Andong]]; [[Lou, Lianzhang]]; [[Chen, Kehai]]; [[Bai, Xuefeng]]; [[Xiang, Yang]]; [[Yang, Muyun]]; [[Zhao, Tiejun]]; [[Zhang, Min]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2408.09945v1"
 external_pdf: "https://arxiv.org/pdf/2408.09945.pdf"
 publication: arXiv

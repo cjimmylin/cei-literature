@@ -7,9 +7,10 @@ key: LSRC0056
 type: conferencePaper
 short_title: "MEGAVERSE: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks"
 year: 2025
-first_author: "[[Not fully listed in search results (Microsoft)]]"
-last_author: "[[Not fully listed in search results (Microsoft)]]"
-authors: "Not fully listed in search results (Microsoft)"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2311.07463"
 external_pdf: "https://arxiv.org/pdf/2311.07463.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages.md"

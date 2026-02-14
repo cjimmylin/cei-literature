@@ -9,8 +9,8 @@ short_title: "MATA mata Mindful Assessment of the"
 year: 2025
 first_author: "[[Kranti, Chalamalasetti]]"
 last_author: "[[Kranti, Chalamalasetti]]"
-authors: "[[Chalamalasetti Kranti]]; [[and others]]"
-authors_incomplete: false
+authors: "[[Kranti, Chalamalasetti]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2508.13526"
 external_pdf: "https://arxiv.org/pdf/2508.13526.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kranti-MATA mata Mindful Assessment of the.md"

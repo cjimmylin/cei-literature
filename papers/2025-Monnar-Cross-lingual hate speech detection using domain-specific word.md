@@ -7,9 +7,10 @@ key: LSRC0765
 type: conferencePaper
 short_title: "Cross-lingual hate speech detection using domain-specific word embeddings | PLOS One"
 year: 2025
-first_author: "[[Ayme Arango Monnar]]"
-last_author: [[Unknown]]
-authors: "Ayme Arango Monnar; Jorge Perez Rojas; Barbara Polete Labra"
+first_author: "[[Monnar, Ayme Arango]]"
+last_author: "[[Labra, Barbara Polete]]"
+authors: "[[Monnar, Ayme Arango]]; [[Rojas, Jorge Perez]]; [[Labra, Barbara Polete]]"
+authors_incomplete: false
 doi: 10.1371/journal.pone.0306521
 url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306521"
 external_pdf: "https://europepmc.org/articles/PMC11288409?pdf=render"

@@ -8,9 +8,10 @@ key: LSRC0126
 type: journalArticle
 short_title: "Hate speech and abusive language detection in Indonesian social media: Progress and challenges"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.sciencedirect.com/science/article/pii/S2405844023058553"
 publication: "ScienceDirect (Heliyon)"
 pdf_extract: 

@@ -7,9 +7,10 @@ key: LSRC0662
 type: preprint
 short_title: "A Survey on Large Language Model Benchmarks"
 year: 2025
-first_author: "[[Shiwen Ni]]"
-last_author: [[Unknown]]
-authors: "Shiwen Ni; Guhong Chen; Shuaimin Li; Xuanang Chen; Siyi Li; Bingli Wang; Qiyao Wang; Xingjian Wang; Yifan Zhang; Liyang Fan; Chengming Li; Ruifeng Xu; Le Sun; Min Yang"
+first_author: "[[Ni, Shiwen]]"
+last_author: "[[Yang, Min]]"
+authors: "[[Ni, Shiwen]]; [[Chen, Guhong]]; [[Li, Shuaimin]]; [[Chen, Xuanang]]; [[Li, Siyi]]; [[Wang, Bingli]]; [[Wang, Qiyao]]; [[Wang, Xingjian]]; [[Zhang, Yifan]]; [[Fan, Liyang]]; [[Li, Chengming]]; [[Xu, Ruifeng]]; [[Le Sun]]; [[Yang, Min]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2508.15361v1"
 external_pdf: "https://arxiv.org/pdf/2508.15361.pdf"
 publication: arXiv

@@ -7,9 +7,10 @@ key: LSRC0041
 type: preprint
 short_title: "XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Reasoning in LLMs"
 year: 2025
-first_author: "[[Mohsinul Kabir]]"
-last_author: "[[Mohsinul Kabir]]"
-authors: "Mohsinul Kabir, et al."
+first_author: "[[Kabir, Mohsinul]]"
+last_author: "[[Kabir, Mohsinul]]"
+authors: "[[Kabir, Mohsinul]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2601.14063"
 external_pdf: "https://arxiv.org/pdf/2601.14063.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in.md"

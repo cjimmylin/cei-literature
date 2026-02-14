@@ -7,9 +7,9 @@ key: EXSR0543
 type: preprint
 short_title: "Urdu Toxicity Detection A Multi-Stage and"
 year: 2025
-first_author: [[[[Unknown]]]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://www.mdpi.com/2673-2688/6/8/194"
 external_pdf: "https://www.mdpi.com/2673-2688/6/8/194/pdf?version=1755769417"

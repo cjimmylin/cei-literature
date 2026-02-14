@@ -8,9 +8,10 @@ key: LSRC0188
 type: conferencePaper
 short_title: "Few-shot and zero-shot Assamese hate speech detection: a comparative benchmark of large language models"
 year: 2025
-first_author: "[[Basab Nath]]"
-last_author: [[Unknown]]
-authors: "Basab Nath; Krishna Kant Pandey; Vinod Yadav; Phaneendra Varma Chintalapati"
+first_author: "[[Nath, Basab]]"
+last_author: "[[Chintalapati, Phaneendra Varma]]"
+authors: "[[Nath, Basab]]; [[Pandey, Krishna Kant]]; [[Yadav, Vinod]]; [[Chintalapati, Phaneendra Varma]]"
+authors_incomplete: false
 doi: 10.1007/s13278-025-01531-x
 url: "https://link.springer.com/article/10.1007/s13278-025-01531-x"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s13278-025-01531-x.pdf"

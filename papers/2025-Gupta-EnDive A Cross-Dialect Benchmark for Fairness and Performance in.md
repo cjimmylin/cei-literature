@@ -7,9 +7,10 @@ key: LSRC0726
 type: preprint
 short_title: "EnDive: A Cross-Dialect Benchmark for Fairness and Performance in Large Language Models"
 year: 2025
-first_author: "[[Abhay Gupta]]"
-last_author: [[Unknown]]
-authors: "Abhay Gupta; Jacob Cheung; Philip Meng; Shayan Sayyed; Austen Liao; Kevin Zhu; Sean O'Brien"
+first_author: "[[Gupta, Abhay]]"
+last_author: "[[O'Brien, Sean]]"
+authors: "[[Gupta, Abhay]]; [[Cheung, Jacob]]; [[Meng, Philip]]; [[Sayyed, Shayan]]; [[Liao, Austen]]; [[Zhu, Kevin]]; [[O'Brien, Sean]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2504.07100"
 external_pdf: "https://arxiv.org/pdf/2504.07100.pdf"
 publication: arXiv

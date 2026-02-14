@@ -7,9 +7,10 @@ key: LSRC0605
 type: conferencePaper
 short_title: "Benchmarking Multilabel Topic Classification in the Kyrgyz Language"
 year: 2025
-first_author: "[[Anton Alekseev]]"
-last_author: [[Unknown]]
-authors: "Anton Alekseev; Sergey I. Nikolenko; Gulnara Kabaeva"
+first_author: "[[Alekseev, Anton]]"
+last_author: "[[Kabaeva, Gulnara]]"
+authors: "[[Alekseev, Anton]]; [[Nikolenko, Sergey I.]]; [[Kabaeva, Gulnara]]"
+authors_incomplete: false
 doi: 10.1007/978-3-031-54534-4_2
 url: "https://link.springer.com/chapter/10.1007/978-3-031-54534-4_2"
 external_pdf: "https://arxiv.org/pdf/2308.15952v1.pdf"

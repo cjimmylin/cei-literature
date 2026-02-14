@@ -9,8 +9,8 @@ short_title: "Few-Shot Prompting for Extractive Quranic QA"
 year: 2025
 first_author: "[[Basem, Mohamed]]"
 last_author: "[[Basem, Mohamed]]"
-authors: "[[Mohamed Basem et al]]"
-authors_incomplete: false
+authors: "[[Basem, Mohamed]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2508.06103"
 external_pdf: "https://arxiv.org/pdf/2508.06103.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Basem-Few-Shot Prompting for Extractive Quranic QA.md"

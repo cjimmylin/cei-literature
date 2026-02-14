@@ -7,9 +7,10 @@ key: LSRC0842
 type: preprint
 short_title: "Divide-and-Conquer Attack: Harnessing the Power of LLM to Bypass Safety Filters of Text-to-Image Models"
 year: 2025
-first_author: "[[Yimo Deng]]"
-last_author: [[Unknown]]
-authors: "Yimo Deng; Huangxun Chen"
+first_author: "[[Deng, Yimo]]"
+last_author: "[[Chen, Huangxun]]"
+authors: "[[Deng, Yimo]]; [[Chen, Huangxun]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2312.07130v3"
 external_pdf: "https://arxiv.org/pdf/2312.07130.pdf"
 publication: arXiv

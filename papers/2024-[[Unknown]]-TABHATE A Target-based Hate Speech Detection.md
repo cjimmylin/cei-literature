@@ -7,9 +7,9 @@ key: EXSR0531
 type: preprint
 short_title: "TABHATE A Target-based Hate Speech Detection"
 year: 2025
-first_author: [[[[Unknown]]]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://link.springer.com/article/10.1007/s13278-024-01355-1"
 external_pdf: "https://www.researchsquare.com/article/rs-2800717/latest.pdf"

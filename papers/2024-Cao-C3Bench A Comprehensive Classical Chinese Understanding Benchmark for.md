@@ -7,9 +7,10 @@ key: LSRC0669
 type: preprint
 short_title: "C3Bench: A Comprehensive Classical Chinese Understanding Benchmark for Large Language Models"
 year: 2025
-first_author: "[[Jiahuan Cao]]"
-last_author: [[Unknown]]
-authors: "Jiahuan Cao; Yongxin Shi; Dezhi Peng; Yang Liu; Lianwen Jin"
+first_author: "[[Cao, Jiahuan]]"
+last_author: "[[Jin, Lianwen]]"
+authors: "[[Cao, Jiahuan]]; [[Shi, Yongxin]]; [[Peng, Dezhi]]; [[Liu, Yang]]; [[Jin, Lianwen]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2405.17732v1"
 external_pdf: "https://arxiv.org/pdf/2405.17732.pdf"
 publication: arXiv

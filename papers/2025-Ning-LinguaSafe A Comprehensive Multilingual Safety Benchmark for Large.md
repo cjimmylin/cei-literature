@@ -7,9 +7,10 @@ key: LSRC0436
 type: preprint
 short_title: "LinguaSafe: A Comprehensive Multilingual Safety Benchmark for Large Language Models"
 year: 2025
-first_author: [[Ning]]
-last_author: [[Gu]]
-authors: "Ning, Gu, et al."
+first_author: "[[Ning]]"
+last_author: "[[Gu]]"
+authors: "[[Ning]]; [[Gu]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2508.12733"
 external_pdf: "https://arxiv.org/pdf/2508.12733.pdf"
 publication: arXiv

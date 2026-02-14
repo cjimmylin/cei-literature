@@ -7,9 +7,10 @@ key: LSRC0095
 type: preprint
 short_title: "IndoCulture: Exploring Geographically-Influenced Cultural Commonsense Reasoning Across Eleven Indonesian Provinces"
 year: 2025
-first_author: "[[Fajri Koto]]"
-last_author: [[Unknown]]
-authors: "Fajri Koto; Rahmad Mahendra; Nurul Aisyah; Timothy Baldwin"
+first_author: "[[Koto, Fajri]]"
+last_author: "[[Baldwin, Timothy]]"
+authors: "[[Koto, Fajri]]; [[Mahendra, Rahmad]]; [[Aisyah, Nurul]]; [[Baldwin, Timothy]]"
+authors_incomplete: false
 doi: 10.1162/tacl_a_00726
 url: "https://arxiv.org/abs/2404.01854"
 external_pdf: "https://arxiv.org/pdf/2404.01854.pdf"

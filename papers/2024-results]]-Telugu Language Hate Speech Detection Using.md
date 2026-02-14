@@ -7,10 +7,10 @@ key: EXSR0532
 type: preprint
 short_title: "Telugu Language Hate Speech Detection Using"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.sciencedirect.com/science/article/pii/S2772941924000413"
 external_pdf: "https://doi.org/10.1016/j.sasc.2024.200112"
 pdf_extract: 

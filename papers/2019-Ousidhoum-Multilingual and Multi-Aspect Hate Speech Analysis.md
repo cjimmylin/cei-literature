@@ -7,9 +7,10 @@ key: LSRC0456
 type: preprint
 short_title: "Multilingual and Multi-Aspect Hate Speech Analysis"
 year: 2025
-first_author: "[[Nedjma Ousidhoum]]"
-last_author: [[Unknown]]
-authors: "Nedjma Ousidhoum; Zizheng Lin; Hongming Zhang; Yangqiu Song; Dit-Yan Yeung"
+first_author: "[[Ousidhoum, Nedjma]]"
+last_author: "[[Yeung, Dit-Yan]]"
+authors: "[[Ousidhoum, Nedjma]]; [[Lin, Zizheng]]; [[Zhang, Hongming]]; [[Song, Yangqiu]]; [[Yeung, Dit-Yan]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/1908.11049"
 external_pdf: "https://arxiv.org/pdf/1908.11049.pdf"
 publication: arXiv

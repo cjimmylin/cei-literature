@@ -7,9 +7,10 @@ key: LSRC0442
 type: preprint
 short_title: "PAGnol: An Extra-Large French Generative Model"
 year: 2025
-first_author: "[[Julien Launay]]"
-last_author: "[[et al. (LightOn)]]"
-authors: "Julien Launay, et al. (LightOn)"
+first_author: "[[Launay, Julien]]"
+last_author: "[[Launay, Julien]]"
+authors: "[[Launay, Julien]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2022.lrec-1.455/"
 external_pdf: "https://arxiv.org/pdf/2110.08554.pdf"
 publication: "arXiv / ACL Anthology"

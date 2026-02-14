@@ -7,9 +7,10 @@ key: LSRC0122
 type: preprint
 short_title: "Cross-Lingual Transfer of Debiasing and Detoxification in Multilingual LLMs: An Extensive Investigation"
 year: 2025
-first_author: "[[Vera Neplenbroek]]"
-last_author: [[Unknown]]
-authors: "Vera Neplenbroek; Arianna Bisazza; Raquel Fernández"
+first_author: "[[Neplenbroek, Vera]]"
+last_author: "[[Fernández, Raquel]]"
+authors: "[[Neplenbroek, Vera]]; [[Bisazza, Arianna]]; [[Fernández, Raquel]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2412.14050"
 external_pdf: "https://arxiv.org/pdf/2412.14050.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in.md"

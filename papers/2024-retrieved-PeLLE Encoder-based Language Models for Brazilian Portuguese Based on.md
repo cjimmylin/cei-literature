@@ -7,9 +7,10 @@ key: LSRC0236
 type: preprint
 short_title: "PeLLE: Encoder-based Language Models for Brazilian Portuguese Based on Open Data"
 year: 2025
-first_author: "[[Authors not fully retrieved]]"
-last_author: "[[Authors not fully retrieved]]"
-authors: "Authors not fully retrieved"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2402.19204"
 external_pdf: "https://arxiv.org/pdf/2402.19204.pdf"
 pdf_extract: "PDF Extracts/2024/2024-retrieved-PeLLE Encoder-based Language Models for Brazilian Portuguese Based on.md"

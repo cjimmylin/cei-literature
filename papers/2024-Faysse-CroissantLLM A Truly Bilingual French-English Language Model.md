@@ -7,9 +7,10 @@ key: LSRC0432
 type: preprint
 short_title: "CroissantLLM: A Truly Bilingual French-English Language Model"
 year: 2025
-first_author: "[[Manuel Faysse]]"
-last_author: "[[Manuel Faysse]]"
-authors: "Manuel Faysse, et al."
+first_author: "[[Faysse, Manuel]]"
+last_author: "[[Faysse, Manuel]]"
+authors: "[[Faysse, Manuel]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2402.00786"
 external_pdf: "https://arxiv.org/pdf/2402.00786.pdf"
 publication: arXiv

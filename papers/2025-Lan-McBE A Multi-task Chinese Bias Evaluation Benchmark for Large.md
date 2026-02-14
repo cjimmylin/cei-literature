@@ -7,9 +7,10 @@ key: LSRC0679
 type: preprint
 short_title: "McBE: A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models"
 year: 2025
-first_author: "[[Tian Lan]]"
-last_author: [[Unknown]]
-authors: "Tian Lan; Xiangdong Su; Xu Liu; Ruirui Wang; Ke Chang; Jiang Li; Guanglai Gao"
+first_author: "[[Lan, Tian]]"
+last_author: "[[Gao, Guanglai]]"
+authors: "[[Lan, Tian]]; [[Su, Xiangdong]]; [[Liu, Xu]]; [[Wang, Ruirui]]; [[Chang, Ke]]; [[Li, Jiang]]; [[Gao, Guanglai]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2507.02088"
 external_pdf: "https://arxiv.org/pdf/2507.02088.pdf"
 publication: arXiv

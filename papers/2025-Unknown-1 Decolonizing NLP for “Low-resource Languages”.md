@@ -7,9 +7,10 @@ key: LSRC0811
 type: conferencePaper
 short_title: "1 Decolonizing NLP for “Low-resource Languages”"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://ojs.stanford.edu/ojs/index.php/grace/article/download/2584/1546/9011"
 external_pdf: "https://ojs.stanford.edu/ojs/index.php/grace/article/download/2584/1546/9011"
 publication: Web

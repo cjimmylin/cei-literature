@@ -7,9 +7,10 @@ key: LSRC0817
 type: conferencePaper
 short_title: "AmericasNLI: Machine translation and natural language inference systems for Indigenous languages of the Americas - PMC"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9755662/"
 external_pdf: "https://www.frontiersin.org/articles/10.3389/frai.2022.995667/pdf"
 publication: PubMed

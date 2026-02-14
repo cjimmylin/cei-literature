@@ -8,9 +8,10 @@ key: LSRC0295
 type: journalArticle
 short_title: "Spanish Is Not Just One: A Dataset of Spanish Dialect Recognition for LLMs"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.sciencedirect.com/science/article/pii/S2352340925008108"
 external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12504998/pdf/main.pdf"
 publication: "ScienceDirect / Data in Brief"

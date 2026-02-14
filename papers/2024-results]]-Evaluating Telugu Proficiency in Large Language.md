@@ -7,10 +7,10 @@ key: EXSR0478
 type: preprint
 short_title: "Evaluating Telugu Proficiency in Large Language"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2404.19369"
 external_pdf: "https://arxiv.org/pdf/2404.19369v1"
 pdf_extract: "PDF Extracts/2024/2024-results]]-Evaluating Telugu Proficiency in Large Language.md"

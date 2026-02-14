@@ -8,9 +8,10 @@ key: LSRC0191
 type: conferencePaper
 short_title: "BanglaBERT: Language Model Pretraining and Benchmarks for Low-Resource Language Understanding Evaluation in Bangla"
 year: 2025
-first_author: "[[Abhik Bhattacharjee]]"
-last_author: [[Unknown]]
-authors: "Abhik Bhattacharjee; Tahmid Hasan; Wasi Uddin Ahmad; Kazi Samin; Md Saiful Islam; Anindya Iqbal; M. Sohel Rahman; Rifat Shahriyar"
+first_author: "[[Bhattacharjee, Abhik]]"
+last_author: "[[Shahriyar, Rifat]]"
+authors: "[[Bhattacharjee, Abhik]]; [[Hasan, Tahmid]]; [[Ahmad, Wasi Uddin]]; [[Samin, Kazi]]; [[Islam, Md Saiful]]; [[Iqbal, Anindya]]; [[Rahman, M. Sohel]]; [[Shahriyar, Rifat]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2022.findings-naacl.98/"
 external_pdf: "https://arxiv.org/pdf/2101.00204v4.pdf"
 publication: "ACL Anthology (NAACL 2022 Findings)"

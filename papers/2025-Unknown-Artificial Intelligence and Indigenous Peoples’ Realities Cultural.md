@@ -7,9 +7,10 @@ key: LSRC0793
 type: conferencePaper
 short_title: "Artificial Intelligence and Indigenous Peoples’ Realities | Cultural Survival"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.culturalsurvival.org/publications/cultural-survival-quarterly/artificial-intelligence-and-indigenous-peoples-realities"
 publication: Web
 pdf_extract: 

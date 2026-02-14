@@ -8,9 +8,10 @@ key: LSRC0271
 type: journalArticle
 short_title: "Adaptive Ensemble Techniques Leveraging BERT-based Models for Multilingual Hate Speech Detection in Korean and English"
 year: 2025
-first_author: "[[Seohyun Yoo]]"
-last_author: [[Unknown]]
-authors: "Seohyun Yoo; Eunbae Jeon; Joonseo Hyeon; Jaehyuk Cho"
+first_author: "[[Yoo, Seohyun]]"
+last_author: "[[Cho, Jaehyuk]]"
+authors: "[[Yoo, Seohyun]]; [[Jeon, Eunbae]]; [[Hyeon, Joonseo]]; [[Cho, Jaehyuk]]"
+authors_incomplete: false
 doi: 10.1038/s41598-025-88960-y
 url: "https://www.nature.com/articles/s41598-025-88960-y"
 external_pdf: "https://www.nature.com/articles/s41598-025-88960-y.pdf"

@@ -7,9 +7,10 @@ key: LSRC0632
 type: conferencePaper
 short_title: "Sentiment analysis in multilingual context: Comparative analysis of machine learning and hybrid deep learning models - PMC"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10560063/"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC10560063&blobtype=pdf"
 publication: PubMed

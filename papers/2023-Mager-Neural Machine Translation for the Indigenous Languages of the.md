@@ -7,9 +7,10 @@ key: LSRC0818
 type: preprint
 short_title: "Neural Machine Translation for the Indigenous Languages of the Americas: An Introduction."
 year: 2025
-first_author: "[[Manuel Mager]]"
-last_author: [[Unknown]]
-authors: "Manuel Mager; Rajat Bhatnagar; Graham Neubig; Ngoc Thang Vu; Katharina Kann"
+first_author: "[[Mager, Manuel]]"
+last_author: "[[Kann, Katharina]]"
+authors: "[[Mager, Manuel]]; [[Bhatnagar, Rajat]]; [[Neubig, Graham]]; [[Vu, Ngoc Thang]]; [[Kann, Katharina]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2306.06804"
 external_pdf: "https://arxiv.org/pdf/2306.06804.pdf"
 publication: arXiv

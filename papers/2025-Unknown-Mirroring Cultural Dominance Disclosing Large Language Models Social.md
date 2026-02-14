@@ -7,9 +7,10 @@ key: LSRC0677
 type: conferencePaper
 short_title: "Mirroring Cultural Dominance: Disclosing Large Language Models Social Values, Attitudes and Stereotypes"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.mdpi.com/2075-4698/15/5/142"
 publication: MDPI
 pdf_extract: 

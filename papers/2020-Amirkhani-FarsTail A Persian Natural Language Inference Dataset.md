@@ -7,9 +7,10 @@ key: LSRC0145
 type: preprint
 short_title: "FarsTail: A Persian Natural Language Inference Dataset"
 year: 2025
-first_author: [[Amirkhani]]
-last_author: [[AzariJafari]]
-authors: "Amirkhani, AzariJafari et al."
+first_author: "[[Amirkhani]]"
+last_author: "[[AzariJafari]]"
+authors: "[[Amirkhani]]; [[AzariJafari]]"
+authors_incomplete: true
 doi: 10.1007/s00500-023-08959-3
 url: "https://arxiv.org/abs/2009.08820"
 external_pdf: "https://arxiv.org/pdf/2009.08820.pdf"

@@ -7,10 +7,10 @@ key: EXSR0481
 type: preprint
 short_title: "Findings of the Shared Task on"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2024.dravidianlangtech-1.8/"
 external_pdf: "https://aclanthology.org/2024.dravidianlangtech-1.8.pdf"
 pdf_extract: "PDF Extracts/2024/2024-results]]-Findings of the Shared Task on.md"

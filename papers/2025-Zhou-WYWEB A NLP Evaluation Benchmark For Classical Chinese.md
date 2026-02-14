@@ -7,9 +7,10 @@ key: LSRC0675
 type: conferencePaper
 short_title: "WYWEB: A NLP Evaluation Benchmark For Classical Chinese"
 year: 2025
-first_author: "[[Bo Zhou]]"
-last_author: [[Unknown]]
-authors: "Bo Zhou; Qianglong Chen; Tianyu Wang; Xiaomi Zhong; Yin Zhang"
+first_author: "[[Zhou, Bo]]"
+last_author: "[[Zhang, Yin]]"
+authors: "[[Zhou, Bo]]; [[Chen, Qianglong]]; [[Wang, Tianyu]]; [[Zhong, Xiaomi]]; [[Zhang, Yin]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2023.findings-acl.204/"
 external_pdf: "https://arxiv.org/pdf/2305.14150v1.pdf"
 publication: "ACL Anthology"

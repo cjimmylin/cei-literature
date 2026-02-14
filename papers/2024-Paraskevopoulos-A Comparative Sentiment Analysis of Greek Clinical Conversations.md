@@ -7,9 +7,10 @@ key: LSRC0551
 type: conferencePaper
 short_title: "A Comparative Sentiment Analysis of Greek Clinical Conversations Using BERT, RoBERTa, GPT-2, and XLNet"
 year: 2025
-first_author: "[[Georgios Paraskevopoulos]]"
-last_author: "[[Georgios Paraskevopoulos]]"
-authors: "Georgios Paraskevopoulos et al."
+first_author: "[[Paraskevopoulos, Georgios]]"
+last_author: "[[Paraskevopoulos, Georgios]]"
+authors: "[[Paraskevopoulos, Georgios]]"
+authors_incomplete: true
 doi: 10.3390/bioengineering11060521
 url: "https://www.mdpi.com/2306-5354/11/6/521"
 external_pdf: "https://europepmc.org/articles/PMC11200492?pdf=render"

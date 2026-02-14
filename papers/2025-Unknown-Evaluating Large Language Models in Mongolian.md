@@ -7,9 +7,10 @@ key: LSRC0601
 type: conferencePaper
 short_title: "Evaluating Large Language Models in Mongolian"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q1-12.pdf"
 external_pdf: "https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q1-12.pdf"
 publication: ANLP

@@ -7,9 +7,10 @@ key: LSRC0382
 type: preprint
 short_title: "RMDM: A Multilabel Fakenews Dataset for Vietnamese Evidence Verification"
 year: 2025
-first_author: "[[Hai-Long Nguyen]]"
-last_author: [[Unknown]]
-authors: "Hai-Long Nguyen; Thi-Kieu-Trang Pham; Thai-Son Le; Tan-Minh Nguyen; Thi-Hai-Yen Vuong; Ha-Thanh Nguyen"
+first_author: "[[Nguyen, Hai-Long]]"
+last_author: "[[Nguyen, Ha-Thanh]]"
+authors: "[[Nguyen, Hai-Long]]; [[Pham, Thi-Kieu-Trang]]; [[Le, Thai-Son]]; [[Nguyen, Tan-Minh]]; [[Vuong, Thi-Hai-Yen]]; [[Nguyen, Ha-Thanh]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2309.09071"
 external_pdf: "https://arxiv.org/pdf/2309.09071.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence.md"

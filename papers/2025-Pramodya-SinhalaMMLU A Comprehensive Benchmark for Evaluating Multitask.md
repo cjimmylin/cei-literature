@@ -7,9 +7,10 @@ key: LSRC0168
 type: preprint
 short_title: "SinhalaMMLU: A Comprehensive Benchmark for Evaluating Multitask Language Understanding in Sinhala"
 year: 2025
-first_author: "[[Ashmari Pramodya]]"
-last_author: [[Unknown]]
-authors: "Ashmari Pramodya; Nirasha Nelki; Heshan Shalinda; Chamila Liyanage; Yusuke Sakai; Randil Pushpananda; Ruvan Weerasinghe; Hidetaka Kamigaito; Taro Watanabe"
+first_author: "[[Pramodya, Ashmari]]"
+last_author: "[[Watanabe, Taro]]"
+authors: "[[Pramodya, Ashmari]]; [[Nelki, Nirasha]]; [[Shalinda, Heshan]]; [[Liyanage, Chamila]]; [[Sakai, Yusuke]]; [[Pushpananda, Randil]]; [[Weerasinghe, Ruvan]]; [[Kamigaito, Hidetaka]]; [[Watanabe, Taro]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2509.03162"
 external_pdf: "https://arxiv.org/pdf/2509.03162.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.md"

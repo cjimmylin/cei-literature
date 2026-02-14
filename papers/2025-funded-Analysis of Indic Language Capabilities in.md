@@ -7,10 +7,10 @@ key: EXSR0326
 type: preprint
 short_title: "Analysis of Indic Language Capabilities in"
 year: 2025
-first_author: "[[funded), Not fully listed in search results (MLCommons]]"
-last_author: "[[funded), Not fully listed in search results (MLCommons]]"
-authors: "[[Not fully listed in search results (MLCommons funded)]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2501.13912"
 external_pdf: "https://arxiv.org/pdf/2501.13912.pdf"
 pdf_extract: "PDF Extracts/2025/2025-funded-Analysis of Indic Language Capabilities in.md"

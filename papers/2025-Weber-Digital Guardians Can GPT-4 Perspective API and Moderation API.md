@@ -7,9 +7,10 @@ key: LSRC0469
 type: preprint
 short_title: "Digital Guardians: Can GPT-4, Perspective API, and Moderation API reliably detect hate speech in reader comments of German online newspapers?"
 year: 2025
-first_author: "[[Manuel Weber]]"
-last_author: "[[Manuel Weber]]"
-authors: "Manuel Weber et al."
+first_author: "[[Weber, Manuel]]"
+last_author: "[[Weber, Manuel]]"
+authors: "[[Weber, Manuel]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2501.01256"
 external_pdf: "https://arxiv.org/pdf/2501.01256.pdf"
 publication: arXiv

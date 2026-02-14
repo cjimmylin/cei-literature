@@ -9,8 +9,8 @@ short_title: "Tackling Hate Speech in Low-resource Languages"
 year: 2025
 first_author: "[[Nkemelu, Daniel]]"
 last_author: "[[Nkemelu, Daniel]]"
-authors: "[[Daniel Nkemelu et al]]"
-authors_incomplete: false
+authors: "[[Nkemelu, Daniel]]"
+authors_incomplete: true
 url: "https://dl.acm.org/doi/fullHtml/10.1145/3572334.3572372"
 external_pdf: "https://arxiv.org/pdf/2303.16828v1.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Nkemelu-Tackling Hate Speech in Low-resource Languages.md"

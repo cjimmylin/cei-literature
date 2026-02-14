@@ -7,9 +7,10 @@ key: LSRC0776
 type: conferencePaper
 short_title: "Exploring cultural commonsense in multilingual large language models: A survey - Beijing Institute of Technology"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://pure.bit.edu.cn/en/publications/exploring-cultural-commonsense-in-multilingual-large-language-mod/"
 publication: Web
 pdf_extract: 

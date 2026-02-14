@@ -7,9 +7,10 @@ key: LSRC0762
 type: conferencePaper
 short_title: "A Large Language Model-Based Approach for Multilingual Hate Speech Detection on Social Media"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.mdpi.com/2073-431X/14/7/279"
 external_pdf: "https://arxiv.org/pdf/2506.08147"
 publication: MDPI

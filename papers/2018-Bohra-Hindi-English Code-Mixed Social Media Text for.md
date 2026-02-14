@@ -7,10 +7,10 @@ key: EXSR0619
 type: conference_paper
 short_title: "Hindi-English Code-Mixed Social Media Text for"
 year: 2025
-first_author: [[Bohra]]
-last_author: [[Bohra]]
-authors: "[[Bohra]]; [[and others]]"
-authors_incomplete: false
+first_author: "[[Bohra]]"
+last_author: "[[Bohra]]"
+authors: "[[Bohra]]"
+authors_incomplete: true
 url: "https://aclanthology.org/W18-1105/"
 external_pdf: "https://aclanthology.org/W18-1105.pdf"
 pdf_extract: "PDF Extracts/2018/2018-Bohra-Hindi-English Code-Mixed Social Media Text for.md"

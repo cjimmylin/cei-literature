@@ -7,9 +7,10 @@ key: LSRC0291
 type: preprint
 short_title: "Red Teaming Contemporary AI Models: Insights from Spanish and Basque Perspectives"
 year: 2025
-first_author: "[[Miguel Romero-Arjona]]"
-last_author: [[Unknown]]
-authors: "Miguel Romero-Arjona; Pablo Valle; Juan C. Alonso; Ana B. Sánchez; Miriam Ugarte; Antonia Cazalilla; Vicente Cambrón; José A. Parejo; Aitor Arrieta; Sergio Segura"
+first_author: "[[Romero-Arjona, Miguel]]"
+last_author: "[[Segura, Sergio]]"
+authors: "[[Romero-Arjona, Miguel]]; [[Valle, Pablo]]; [[Alonso, Juan C.]]; [[Sánchez, Ana B.]]; [[Ugarte, Miriam]]; [[Cazalilla, Antonia]]; [[Cambrón, Vicente]]; [[Parejo, José A.]]; [[Arrieta, Aitor]]; [[Segura, Sergio]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2503.10192"
 external_pdf: "https://arxiv.org/pdf/2503.10192.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque.md"

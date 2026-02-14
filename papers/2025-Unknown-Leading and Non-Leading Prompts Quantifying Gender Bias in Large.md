@@ -8,9 +8,10 @@ key: LSRC0286
 type: journalArticle
 short_title: "Leading and Non-Leading Prompts: Quantifying Gender Bias in Large Language Models through BiasBloom Corpus"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.sciencedirect.com/science/article/pii/S0950705125009608"
 publication: "ScienceDirect / Knowledge-Based Systems"
 pdf_extract: 

@@ -7,9 +7,10 @@ key: LSRC0503
 type: preprint
 short_title: "Evalita-LLM: Benchmarking Large Language Models on Italian"
 year: 2025
-first_author: "[[Marco Resta]]"
-last_author: "[[Marco Resta]]"
-authors: "Marco Resta et al."
+first_author: "[[Resta, Marco]]"
+last_author: "[[Resta, Marco]]"
+authors: "[[Resta, Marco]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2502.02289"
 external_pdf: "https://arxiv.org/pdf/2502.02289.pdf"
 publication: arXiv

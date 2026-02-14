@@ -7,9 +7,10 @@ key: LSRC0819
 type: conferencePaper
 short_title: "AmericasNLI: Evaluating Zero-shot Natural Language Understanding of Pretrained Multilingual Models in Truly Low-resource Languages"
 year: 2025
-first_author: "[[Abteen Ebrahimi]]"
-last_author: [[Unknown]]
-authors: "Abteen Ebrahimi; Manuel Mager; Arturo Oncevay; Vishrav Chaudhary; Luis Chiruzzo; Angela Fan; John Ortega; Ricardo Ramos; Annette Rios; Ivan Meza-Ruiz; Gustavo A. Giménez-Lugo; Elisabeth Mager; Graham Neubig; Alexis Palmer; Rolando Coto-Solano; Ngoc Thang Vu; Katharina Kann"
+first_author: "[[Ebrahimi, Abteen]]"
+last_author: "[[Kann, Katharina]]"
+authors: "[[Ebrahimi, Abteen]]; [[Mager, Manuel]]; [[Oncevay, Arturo]]; [[Chaudhary, Vishrav]]; [[Chiruzzo, Luis]]; [[Fan, Angela]]; [[Ortega, John]]; [[Ramos, Ricardo]]; [[Rios, Annette]]; [[Meza-Ruiz, Ivan]]; [[Giménez-Lugo, Gustavo A.]]; [[Mager, Elisabeth]]; [[Neubig, Graham]]; [[Palmer, Alexis]]; [[Coto-Solano, Rolando]]; [[Vu, Ngoc Thang]]; [[Kann, Katharina]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2022.acl-long.435/"
 external_pdf: "https://arxiv.org/pdf/2104.08726v2.pdf"
 publication: "ACL Anthology"

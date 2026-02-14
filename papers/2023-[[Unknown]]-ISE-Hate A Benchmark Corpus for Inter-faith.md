@@ -7,9 +7,9 @@ key: EXSR0559
 type: preprint
 short_title: "ISE-Hate A Benchmark Corpus for Inter-faith"
 year: 2025
-first_author: [[[[Unknown]]]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0306457323000079"
 external_pdf: "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.24106617.v2"

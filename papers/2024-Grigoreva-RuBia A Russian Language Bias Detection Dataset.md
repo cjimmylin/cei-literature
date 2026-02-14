@@ -7,9 +7,10 @@ key: LSRC0304
 type: preprint
 short_title: "RuBia: A Russian Language Bias Detection Dataset"
 year: 2025
-first_author: "[[Veronika Grigoreva]]"
-last_author: "[[Veronika Grigoreva]]"
-authors: "Veronika Grigoreva et al."
+first_author: "[[Grigoreva, Veronika]]"
+last_author: "[[Grigoreva, Veronika]]"
+authors: "[[Grigoreva, Veronika]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2403.17553"
 external_pdf: "https://arxiv.org/pdf/2403.17553.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset.md"

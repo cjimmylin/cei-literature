@@ -7,10 +7,10 @@ key: EXSR0612
 type: preprint
 short_title: "Pretrained Models and Evaluation Data for"
 year: 2025
-first_author: [[Jiang]]
-last_author: [[Jiang]]
-authors: "[[Jiang et al]]"
-authors_incomplete: false
+first_author: "[[Jiang]]"
+last_author: "[[Jiang]]"
+authors: "[[Jiang]]"
+authors_incomplete: true
 url: "https://ieeexplore.ieee.org/document/9645441/"
 external_pdf: "https://ieeexplore.ieee.org/ielx7/5971803/9645434/09645441.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Jiang-Pretrained Models and Evaluation Data for.md"

@@ -7,9 +7,10 @@ key: LSRC0774
 type: conferencePaper
 short_title: "SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models | Montreal AI Ethics Institute"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://montrealethics.ai/towards-a-multilingual-assessment-of-stereotypes-in-large-language-models/"
 external_pdf: "https://aclanthology.org/2025.naacl-long.600.pdf"
 publication: Web

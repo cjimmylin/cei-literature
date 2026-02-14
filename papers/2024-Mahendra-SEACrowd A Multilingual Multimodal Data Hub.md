@@ -7,10 +7,10 @@ key: EXSR0523
 type: preprint
 short_title: "SEACrowd A Multilingual Multimodal Data Hub"
 year: 2025
-first_author: "[[Holy Lovenia, Rahmad Mahendra]]"
-last_author: "[[Holy Lovenia, Rahmad Mahendra]]"
-authors: "[[Holy Lovenia, Rahmad Mahendra et al]]"
-authors_incomplete: false
+first_author: "[[Lovenia, Holy]]"
+last_author: "[[Lovenia, Holy]]"
+authors: "[[Lovenia, Holy]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2406.10118"
 external_pdf: "https://arxiv.org/pdf/2406.10118.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub.md"

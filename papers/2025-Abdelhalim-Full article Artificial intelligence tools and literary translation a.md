@@ -7,9 +7,10 @@ key: LSRC0645
 type: conferencePaper
 short_title: "Full article: Artificial intelligence tools and literary translation: a comparative investigation of ChatGPT and Google Translate from novice and advanced EFL student translators’ perspectives"
 year: 2025
-first_author: "[[S. Abdelhalim]]"
-last_author: [[Unknown]]
-authors: "S. Abdelhalim; Asma A. Alsahil; Zainab Alsuhaibani"
+first_author: "[[Abdelhalim, S.]]"
+last_author: "[[Alsuhaibani, Zainab]]"
+authors: "[[Abdelhalim, S.]]; [[Alsahil, Asma A.]]; [[Alsuhaibani, Zainab]]"
+authors_incomplete: false
 doi: 10.1080/23311983.2025.2508031
 url: "https://www.tandfonline.com/doi/full/10.1080/23311983.2025.2508031"
 publication: Web

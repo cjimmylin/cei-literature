@@ -7,9 +7,10 @@ key: LSRC0062
 type: preprint
 short_title: "Instruction Tuning on Public Government and Cultural Data for Low-Resource Language: a Case Study in Kazakh"
 year: 2025
-first_author: [[Laiyk]]
-last_author: [[Laiyk]]
-authors: "Laiyk et al."
+first_author: "[[Laiyk]]"
+last_author: "[[Laiyk]]"
+authors: "[[Laiyk]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2502.13647"
 external_pdf: "https://arxiv.org/pdf/2502.13647.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for.md"

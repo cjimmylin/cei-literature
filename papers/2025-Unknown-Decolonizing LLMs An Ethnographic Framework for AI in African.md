@@ -7,9 +7,10 @@ key: LSRC0807
 type: conferencePaper
 short_title: "Decolonizing LLMs: An Ethnographic Framework for AI in African Contexts - EPIC"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.epicpeople.org/decolonizing-llms-ethnographic-framework-for-ai-in-african-contexts/"
 publication: Web
 pdf_extract: 

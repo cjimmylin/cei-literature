@@ -7,10 +7,10 @@ key: EXSR0304
 type: preprint
 short_title: "Common to Whom Regional Cultural Commonsense"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2601.15550"
 external_pdf: "https://arxiv.org/pdf/2601.15550.pdf"
 pdf_extract: "PDF Extracts/2026/2026-results]]-Common to Whom Regional Cultural Commonsense.md"

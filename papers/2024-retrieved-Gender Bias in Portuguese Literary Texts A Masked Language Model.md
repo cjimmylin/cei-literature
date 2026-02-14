@@ -8,9 +8,10 @@ key: LSRC0237
 type: conferencePaper
 short_title: "Gender Bias in Portuguese Literary Texts: A Masked Language Model Approach"
 year: 2025
-first_author: "[[Authors not fully retrieved]]"
-last_author: "[[Authors not fully retrieved]]"
-authors: "Authors not fully retrieved"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://sol.sbc.org.br/index.php/stil/article/download/37842/37620/"
 external_pdf: "https://sol.sbc.org.br/index.php/stil/article/download/37842/37620"
 publication: "STIL 2024"

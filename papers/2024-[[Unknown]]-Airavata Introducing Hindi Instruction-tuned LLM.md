@@ -7,9 +7,9 @@ key: EXSR0458
 type: preprint
 short_title: "Airavata Introducing Hindi Instruction-tuned LLM"
 year: 2025
-first_author: [[[[Unknown]]]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2401.15006"
 external_pdf: "https://arxiv.org/pdf/2401.15006.pdf"

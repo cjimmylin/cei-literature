@@ -7,9 +7,10 @@ key: LSRC0744
 type: conferencePaper
 short_title: "Benchmarking LLM Fairness: Multi- Agent Evaluators for ..."
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.preprints.org/manuscript/202512.1084/v1/download"
 publication: Web
 pdf_extract: 

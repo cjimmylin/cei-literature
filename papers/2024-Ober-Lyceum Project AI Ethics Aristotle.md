@@ -32,6 +32,7 @@ data_description: N/A
 data_metrics: N/A
 LLM_assessed: NA
 DATA_URL: NA
+publication: Oxford Institute for Ethics in AI
 ---
 # The Lyceum Project: AI Ethics with Aristotle
 

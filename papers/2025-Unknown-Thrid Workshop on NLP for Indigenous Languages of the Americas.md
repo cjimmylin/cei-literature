@@ -7,9 +7,10 @@ key: LSRC0806
 type: conferencePaper
 short_title: "Thrid Workshop on NLP for Indigenous Languages of the Americas (AmericasNLP)"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://turing.iimas.unam.mx/americasnlp/"
 external_pdf: "https://turing.iimas.unam.mx/americasnlp/AmericasNLP_Call_2025.pdf"
 publication: Web

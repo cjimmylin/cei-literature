@@ -7,9 +7,10 @@ key: LSRC0752
 type: conferencePaper
 short_title: "ArabicNLP 2025"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arabicnlp2025.sigarab.org/"
 publication: Web
 pdf_extract: 

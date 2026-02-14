@@ -7,9 +7,10 @@ key: LSRC0444
 type: preprint
 short_title: "MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models"
 year: 2025
-first_author: "[[Guijin Son]]"
-last_author: "[[Guijin Son]]"
-authors: "Guijin Son, et al."
+first_author: "[[Son, Guijin]]"
+last_author: "[[Son, Guijin]]"
+authors: "[[Son, Guijin]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2410.17578"
 external_pdf: "https://arxiv.org/pdf/2410.17578.pdf"
 publication: arXiv

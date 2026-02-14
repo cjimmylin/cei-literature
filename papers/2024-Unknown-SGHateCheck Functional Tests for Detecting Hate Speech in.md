@@ -8,9 +8,10 @@ key: LSRC0113
 type: conferencePaper
 short_title: "SGHateCheck: Functional Tests for Detecting Hate Speech in Low-Resource Languages of Singapore"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://github.com/Social-AI-Studio/SGHateCheck"
 external_pdf: "https://aclanthology.org/2024.woah-1.24.pdf"
 publication: "ACL Anthology (WOAH 2024)"

@@ -7,10 +7,10 @@ key: EXSR0495
 type: preprint
 short_title: "IndicGenBench A Multilingual Benchmark to Evaluate"
 year: 2025
-first_author: [[Singh]]
-last_author: "[[(Google), and others]]"
-authors: "[[Singh]]; [[Gupta]]; [[and others (Google)]]"
-authors_incomplete: false
+first_author: "[[Singh]]"
+last_author: "[[Gupta]]"
+authors: "[[Singh]]; [[Gupta]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2404.16816"
 external_pdf: "https://arxiv.org/pdf/2404.16816.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate.md"

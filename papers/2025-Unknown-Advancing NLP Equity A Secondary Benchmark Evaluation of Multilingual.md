@@ -7,9 +7,10 @@ key: LSRC0598
 type: conferencePaper
 short_title: "Advancing NLP Equity: A Secondary Benchmark Evaluation of Multilingual Language Models for Underrepresented Languages"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://openreview.net/forum?id=YlTVWukmJe"
 external_pdf: "https://openreview.net/pdf?id=YlTVWukmJe"
 publication: OpenReview

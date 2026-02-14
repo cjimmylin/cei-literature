@@ -7,9 +7,9 @@ key: EXSR0590
 type: preprint
 short_title: "HateCheckHIn Evaluating Hindi Hate Speech Detection"
 year: 2025
-first_author: [[[[Unknown]]]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2205.00328"
 external_pdf: "https://arxiv.org/pdf/2205.00328.pdf"

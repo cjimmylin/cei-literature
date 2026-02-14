@@ -7,10 +7,10 @@ key: EXSR0462
 type: preprint
 short_title: "BLEnD A Benchmark for LLMs on"
 year: 2025
-first_author: "[[Nayeon Lee, Nikhil Mehta, Yejin Bang,]]"
-last_author: "[[Nayeon Lee, Nikhil Mehta, Yejin Bang,]]"
-authors: "[[Nayeon Lee, Nikhil Mehta, Yejin Bang, et al]]"
-authors_incomplete: false
+first_author: "[[Lee, Nayeon]]"
+last_author: "[[Bang, Yejin]]"
+authors: "[[Lee, Nayeon]]; [[Mehta, Nikhil]]; [[Bang, Yejin]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2406.09948"
 external_pdf: "https://arxiv.org/pdf/2406.09948.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Bang-BLEnD A Benchmark for LLMs on.md"

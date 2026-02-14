@@ -7,10 +7,10 @@ key: EXSR0493
 type: preprint
 short_title: "Indic-QA Benchmark A Multilingual Benchmark to"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2407.13522"
 external_pdf: "https://arxiv.org/pdf/2407.13522.pdf"
 pdf_extract: "PDF Extracts/2024/2024-results]]-Indic-QA Benchmark A Multilingual Benchmark to.md"

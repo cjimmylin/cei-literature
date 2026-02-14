@@ -7,9 +7,10 @@ key: LSRC0273
 type: preprint
 short_title: "SESGO: Spanish Evaluation of Stereotypical Generative Outputs"
 year: 2025
-first_author: "[[Guilherme Simões]]"
-last_author: "[[Guilherme Simões]]"
-authors: "Guilherme Simões, et al."
+first_author: "[[Simões, Guilherme]]"
+last_author: "[[Simões, Guilherme]]"
+authors: "[[Simões, Guilherme]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2509.03329"
 external_pdf: "https://arxiv.org/pdf/2509.03329.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Simões-SESGO Spanish Evaluation of Stereotypical Generative Outputs.md"

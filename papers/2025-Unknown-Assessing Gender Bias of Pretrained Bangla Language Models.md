@@ -8,9 +8,10 @@ key: LSRC0201
 type: conferencePaper
 short_title: "Assessing Gender Bias of Pretrained Bangla Language Models"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2025.gebnlp-1.24/"
 external_pdf: "https://aclanthology.org/2025.gebnlp-1.24.pdf"
 publication: "ACL Anthology (GeBNLP 2025)"

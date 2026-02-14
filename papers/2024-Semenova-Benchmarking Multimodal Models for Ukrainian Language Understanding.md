@@ -7,9 +7,10 @@ key: LSRC0315
 type: preprint
 short_title: "Benchmarking Multimodal Models for Ukrainian Language Understanding Across Academic and Cultural Domains"
 year: 2025
-first_author: "[[Lesia Semenova]]"
-last_author: "[[Lesia Semenova]]"
-authors: "Lesia Semenova et al."
+first_author: "[[Semenova, Lesia]]"
+last_author: "[[Semenova, Lesia]]"
+authors: "[[Semenova, Lesia]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2411.14647"
 external_pdf: "https://arxiv.org/pdf/2411.14647.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Semenova-Benchmarking Multimodal Models for Ukrainian Language Understanding.md"

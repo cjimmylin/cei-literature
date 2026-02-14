@@ -7,9 +7,10 @@ key: LSRC0829
 type: conferencePaper
 short_title: "The Decades Progress on Code-Switching Research in NLP"
 year: 2025
-first_author: "[[Genta Indra Winata]]"
-last_author: [[Unknown]]
-authors: "Genta Indra Winata; Alham Fikri Aji; Zheng-Xin Yong; Thamar Solorio"
+first_author: "[[Winata, Genta Indra]]"
+last_author: "[[Solorio, Thamar]]"
+authors: "[[Winata, Genta Indra]]; [[Aji, Alham Fikri]]; [[Yong, Zheng-Xin]]; [[Solorio, Thamar]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2023.findings-acl.185.pdf"
 external_pdf: "https://arxiv.org/pdf/2212.09660v2.pdf"
 publication: "ACL Anthology"

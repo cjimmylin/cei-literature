@@ -7,9 +7,10 @@ key: LSRC0659
 type: preprint
 short_title: "The Unseen Targets of Hate – A Systematic Review of Hateful Communication Datasets"
 year: 2025
-first_author: "[[Zehui Yu]]"
-last_author: [[Unknown]]
-authors: "Zehui Yu; Indira Sen; Dennis Assenmacher; Mattia Samory; Leon Fröhling; Christina Dahn; Debora Nozza; Claudia Wagner"
+first_author: "[[Yu, Zehui]]"
+last_author: "[[Wagner, Claudia]]"
+authors: "[[Yu, Zehui]]; [[Sen, Indira]]; [[Assenmacher, Dennis]]; [[Samory, Mattia]]; [[Fröhling, Leon]]; [[Dahn, Christina]]; [[Nozza, Debora]]; [[Wagner, Claudia]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2405.08562v1"
 external_pdf: "https://arxiv.org/pdf/2405.08562.pdf"
 publication: arXiv

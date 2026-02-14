@@ -7,10 +7,10 @@ key: EXSR0525
 type: preprint
 short_title: "Sailor Open Language Models for South-East"
 year: 2025
-first_author: "[[Dou, Liu et al. (Sea AI Lab / SUTD)]]"
-last_author: "[[Dou, Liu et al. (Sea AI Lab / SUTD)]]"
-authors: "[[Dou, Liu et al. (Sea AI Lab / SUTD)]]"
-authors_incomplete: false
+first_author: "[[Dou]]"
+last_author: "[[Dou]]"
+authors: "[[Dou]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2404.03608"
 external_pdf: "https://arxiv.org/pdf/2404.03608.pdf"
 pdf_extract: "PDF Extracts/2024/2024-SUTD-Sailor Open Language Models for South-East.md"

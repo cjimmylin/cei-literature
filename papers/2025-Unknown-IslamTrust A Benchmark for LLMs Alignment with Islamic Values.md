@@ -7,9 +7,10 @@ key: LSRC0714
 type: conferencePaper
 short_title: "IslamTrust: A Benchmark for LLMs Alignment with Islamic Values"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://openreview.net/pdf?id=PBcv90iKFB"
 external_pdf: "https://openreview.net/pdf?id=PBcv90iKFB"
 publication: OpenReview

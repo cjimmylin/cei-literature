@@ -9,8 +9,8 @@ short_title: "X-MuTeST A Multilingual Benchmark for Explainable"
 year: 2025
 first_author: "[[Rehman, Zia]]"
 last_author: "[[Rehman, Zia]]"
-authors: "[[Rehman, Zia]]; [[and others]]"
-authors_incomplete: false
+authors: "[[Rehman, Zia]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2601.03194"
 external_pdf: "https://arxiv.org/pdf/2601.03194.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.md"

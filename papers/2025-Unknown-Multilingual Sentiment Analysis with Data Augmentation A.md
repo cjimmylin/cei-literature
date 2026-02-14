@@ -7,9 +7,10 @@ key: LSRC0631
 type: conferencePaper
 short_title: "Multilingual Sentiment Analysis with Data Augmentation: A Cross-Language Evaluation in French, German, and Japanese"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.mdpi.com/2078-2489/16/9/806"
 publication: MDPI
 pdf_extract: 

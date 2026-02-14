@@ -7,9 +7,10 @@ key: LSRC0716
 type: conferencePaper
 short_title: "A Multilingual Benchmark to Evaluate Large Language"
 year: 2025
-first_author: "[[Nishat Raihan]]"
-last_author: [[Unknown]]
-authors: "Nishat Raihan; Antonios Anastasopoulos; Marcos Zampieri"
+first_author: "[[Raihan, Nishat]]"
+last_author: "[[Zampieri, Marcos]]"
+authors: "[[Raihan, Nishat]]; [[Anastasopoulos, Antonios]]; [[Zampieri, Marcos]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2025.naacl-long.570.pdf"
 external_pdf: "https://arxiv.org/pdf/2410.15037v2.pdf"
 publication: "ACL Anthology"

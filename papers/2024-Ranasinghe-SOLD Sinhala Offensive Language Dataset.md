@@ -7,9 +7,10 @@ key: LSRC0169
 type: preprint
 short_title: "SOLD: Sinhala Offensive Language Dataset"
 year: 2025
-first_author: "[[Tharindu Ranasinghe]]"
-last_author: [[Unknown]]
-authors: "Tharindu Ranasinghe; Isuri Anuradha; Damith Premasiri; Kanishka Silva; Hansi Hettiarachchi; Lasitha Uyangodage; Marcos Zampieri"
+first_author: "[[Ranasinghe, Tharindu]]"
+last_author: "[[Zampieri, Marcos]]"
+authors: "[[Ranasinghe, Tharindu]]; [[Anuradha, Isuri]]; [[Premasiri, Damith]]; [[Silva, Kanishka]]; [[Hettiarachchi, Hansi]]; [[Uyangodage, Lasitha]]; [[Zampieri, Marcos]]"
+authors_incomplete: false
 doi: 10.1007/s10579-024-09723-1
 url: "https://link.springer.com/article/10.1007/s10579-024-09723-1"
 external_pdf: "https://arxiv.org/pdf/2212.00851.pdf"

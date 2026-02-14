@@ -8,9 +8,10 @@ key: LSRC0141
 type: conferencePaper
 short_title: "ParsOffensive: Persian Offensive Comments Dataset"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://ieeexplore.ieee.org/document/11006224"
 external_pdf: "https://arxiv.org/pdf/2404.05540"
 publication: IEEE

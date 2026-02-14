@@ -7,9 +7,10 @@ key: LSRC0643
 type: journalArticle
 short_title: "Machine translation of Chinese classical poetry: a comparison among ChatGPT, Google Translate, and DeepL Translator | Humanities and Social Sciences Communications"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.nature.com/articles/s41599-024-03363-0"
 external_pdf: "https://www.nature.com/articles/s41599-024-03363-0.pdf?error=cookies_not_supported&code=29f09f92-c181-467c-91ee-bad257558a9a"
 publication: Nature

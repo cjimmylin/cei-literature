@@ -8,9 +8,10 @@ key: LSRC0161
 type: conferencePaper
 short_title: "NLPashto: NLP Toolkit for Low-resource Pashto Language"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://github.com/dr-ijaz/nlpashto"
 external_pdf: "http://thesai.org/Downloads/Volume14No6/Paper_142-NLPashto_NLP_Toolkit_for_Low_resource_Pashto_Language.pdf"
 publication: IJACSA

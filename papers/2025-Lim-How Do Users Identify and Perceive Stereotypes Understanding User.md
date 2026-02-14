@@ -7,9 +7,10 @@ key: LSRC0703
 type: conferencePaper
 short_title: "How Do Users Identify and Perceive Stereotypes? Understanding User Perspectives on Stereotypical Biases in Large Language Models | Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency"
 year: 2025
-first_author: "[[Hyunseung Lim]]"
-last_author: [[Unknown]]
-authors: "Hyunseung Lim; Dasom Choi; Hwajung Hong"
+first_author: "[[Lim, Hyunseung]]"
+last_author: "[[Hong, Hwajung]]"
+authors: "[[Lim, Hyunseung]]; [[Choi, Dasom]]; [[Hong, Hwajung]]"
+authors_incomplete: false
 doi: 10.1145/3715275.3732207
 url: "https://dl.acm.org/doi/10.1145/3715275.3732207"
 publication: ACM

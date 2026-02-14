@@ -7,9 +7,10 @@ key: LSRC0167
 type: preprint
 short_title: "BLUCK: A Benchmark Dataset for Bengali Linguistic Understanding and Cultural Knowledge"
 year: 2025
-first_author: "[[Daeen Kabir]]"
-last_author: [[Unknown]]
-authors: "Daeen Kabir; Minhajur Rahman Chowdhury Mahim; Sheikh Shafayat; Adnan Sadik; Arian Ahmed; Eunsu Kim; Alice Oh"
+first_author: "[[Kabir, Daeen]]"
+last_author: "[[Oh, Alice]]"
+authors: "[[Kabir, Daeen]]; [[Mahim, Minhajur Rahman Chowdhury]]; [[Shafayat, Sheikh]]; [[Sadik, Adnan]]; [[Ahmed, Arian]]; [[Kim, Eunsu]]; [[Oh, Alice]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2505.21092"
 external_pdf: "https://arxiv.org/pdf/2505.21092.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and.md"

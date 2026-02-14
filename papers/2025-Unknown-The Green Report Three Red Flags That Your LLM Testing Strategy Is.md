@@ -7,9 +7,10 @@ key: LSRC0840
 type: conferencePaper
 short_title: "The Green Report | Three Red Flags That Your LLM Testing Strategy Is Too Shallow"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.thegreenreport.blog/articles/three-red-flags-that-your-llm-testing-strategy-is-too-shallow/three-red-flags-that-your-llm-testing-strategy-is-too-shallow.html"
 publication: Web
 pdf_extract: 

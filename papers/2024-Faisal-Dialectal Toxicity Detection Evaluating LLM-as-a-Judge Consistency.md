@@ -7,9 +7,10 @@ key: LSRC0162
 type: preprint
 short_title: "Dialectal Toxicity Detection: Evaluating LLM-as-a-Judge Consistency Across Language Varieties"
 year: 2025
-first_author: "[[Fahim Faisal]]"
-last_author: [[Unknown]]
-authors: "Fahim Faisal; Md Mushfiqur Rahman; Antonios Anastasopoulos"
+first_author: "[[Faisal, Fahim]]"
+last_author: "[[Anastasopoulos, Antonios]]"
+authors: "[[Faisal, Fahim]]; [[Rahman, Md Mushfiqur]]; [[Anastasopoulos, Antonios]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2411.10954"
 external_pdf: "https://arxiv.org/pdf/2411.10954.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency.md"

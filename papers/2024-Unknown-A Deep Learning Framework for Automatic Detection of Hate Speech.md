@@ -7,9 +7,10 @@ key: LSRC0741
 type: conferencePaper
 short_title: "A Deep Learning Framework for Automatic Detection of Hate Speech Embedded in Arabic Tweets | Request PDF"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.researchgate.net/publication/349093400_A_Deep_Learning_Framework_for_Automatic_Detection_of_Hate_Speech_Embedded_in_Arabic_Tweets"
 publication: ResearchGate
 pdf_extract: 

@@ -8,9 +8,10 @@ key: LSRC0151
 type: conferencePaper
 short_title: "Hate Speech Detection in Social Media for the Kurdish Language"
 year: 2025
-first_author: "[[Ari M. Saeed]]"
-last_author: [[Unknown]]
-authors: "Ari M. Saeed; Aso N. Ismael; Danya L. Rasul; Rayan S. Majeed; Tarik Ahmed Rashid"
+first_author: "[[Saeed, Ari M.]]"
+last_author: "[[Rashid, Tarik Ahmed]]"
+authors: "[[Saeed, Ari M.]]; [[Ismael, Aso N.]]; [[Rasul, Danya L.]]; [[Majeed, Rayan S.]]; [[Rashid, Tarik Ahmed]]"
+authors_incomplete: false
 doi: 10.1007/978-3-031-14054-9_24
 url: "https://link.springer.com/chapter/10.1007/978-3-031-14054-9_24"
 publication: "Springer (ICCCI 2022)"

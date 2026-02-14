@@ -7,9 +7,10 @@ key: LSRC0832
 type: conferencePaper
 short_title: "Multilingual Large Language Models Are Not (Yet) Code- ..."
 year: 2025
-first_author: "[[Shangrui Nie]]"
-last_author: [[Unknown]]
-authors: "Shangrui Nie; Michael Fromm; Charles Welch; Rebekka Görge; Akbar Karimi; Joan Plepi; Nazia Afsan Mowmita; Nicolas Flores-Herr; Mehdi Ali; Lucie Flek"
+first_author: "[[Nie, Shangrui]]"
+last_author: "[[Flek, Lucie]]"
+authors: "[[Nie, Shangrui]]; [[Fromm, Michael]]; [[Welch, Charles]]; [[Görge, Rebekka]]; [[Karimi, Akbar]]; [[Plepi, Joan]]; [[Mowmita, Nazia Afsan]]; [[Flores-Herr, Nicolas]]; [[Ali, Mehdi]]; [[Flek, Lucie]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2023.emnlp-main.774.pdf"
 external_pdf: "https://arxiv.org/pdf/2407.05740v2.pdf"
 publication: "ACL Anthology"

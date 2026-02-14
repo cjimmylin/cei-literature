@@ -7,9 +7,10 @@ key: LSRC0214
 type: preprint
 short_title: "Sabiá-2: A New Generation of Portuguese Large Language Models"
 year: 2025
-first_author: "[[Ramon Pires]]"
-last_author: "[[Ramon Pires]]"
-authors: "Ramon Pires, et al."
+first_author: "[[Pires, Ramon]]"
+last_author: "[[Pires, Ramon]]"
+authors: "[[Pires, Ramon]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2403.09887"
 external_pdf: "https://arxiv.org/pdf/2403.09887.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Pires-Sabiá-2 A New Generation of Portuguese Large Language Models.md"

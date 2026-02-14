@@ -7,9 +7,10 @@ key: LSRC0642
 type: conferencePaper
 short_title: "Is ChatGPT A Good Translator? A Preliminary Study"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.researchgate.net/publication/367359399_Is_ChatGPT_A_Good_Translator_A_Preliminary_Study"
 publication: ResearchGate
 pdf_extract: 

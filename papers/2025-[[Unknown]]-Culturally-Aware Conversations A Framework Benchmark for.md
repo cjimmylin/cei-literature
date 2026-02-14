@@ -7,9 +7,9 @@ key: EXSR0352
 type: preprint
 short_title: "Culturally-Aware Conversations A Framework Benchmark for"
 year: 2025
-first_author: [[[[Unknown]]]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2510.11563"
 external_pdf: "https://arxiv.org/pdf/2510.11563.pdf"

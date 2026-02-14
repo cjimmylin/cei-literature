@@ -7,9 +7,10 @@ key: LSRC0597
 type: preprint
 short_title: "No Language Data Left Behind: A Comparative Study of CJK Language Datasets in the Hugging Face Ecosystem"
 year: 2025
-first_author: "[[Dasol Choi]]"
-last_author: [[Unknown]]
-authors: "Dasol Choi; Woomyoung Park; Youngsook Song"
+first_author: "[[Choi, Dasol]]"
+last_author: "[[Song, Youngsook]]"
+authors: "[[Choi, Dasol]]; [[Park, Woomyoung]]; [[Song, Youngsook]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2507.04329v1"
 external_pdf: "https://arxiv.org/pdf/2507.04329.pdf"
 publication: arXiv

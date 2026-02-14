@@ -7,9 +7,10 @@ key: LSRC0119
 type: preprint
 short_title: "Komodo: A Linguistic Expedition into Indonesia's Regional Languages"
 year: 2025
-first_author: "[[Louis Owen]]"
-last_author: [[Unknown]]
-authors: "Louis Owen; Vishesh Tripathi; Abhay Kumar; Biddwan Ahmed"
+first_author: "[[Owen, Louis]]"
+last_author: "[[Ahmed, Biddwan]]"
+authors: "[[Owen, Louis]]; [[Tripathi, Vishesh]]; [[Kumar, Abhay]]; [[Ahmed, Biddwan]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2403.09362"
 external_pdf: "https://arxiv.org/pdf/2403.09362.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Owen-Komodo A Linguistic Expedition into Indonesia's Regional Languages.md"

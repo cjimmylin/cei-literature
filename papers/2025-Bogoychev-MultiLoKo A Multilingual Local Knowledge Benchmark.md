@@ -7,10 +7,10 @@ key: EXSR0412
 type: preprint
 short_title: "MultiLoKo A Multilingual Local Knowledge Benchmark"
 year: 2025
-first_author: "[[Dieuwke Hupkes, Nikolay Bogoychev]]"
-last_author: "[[Dieuwke Hupkes, Nikolay Bogoychev]]"
-authors: "[[Dieuwke Hupkes, Nikolay Bogoychev et al]]"
-authors_incomplete: false
+first_author: "[[Hupkes, Dieuwke]]"
+last_author: "[[Hupkes, Dieuwke]]"
+authors: "[[Hupkes, Dieuwke]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2504.10356"
 external_pdf: "https://arxiv.org/pdf/2504.10356.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Bogoychev-MultiLoKo A Multilingual Local Knowledge Benchmark.md"

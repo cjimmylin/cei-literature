@@ -8,9 +8,10 @@ key: LSRC0340
 type: conferencePaper
 short_title: "Expert-Annotated Dataset to Study Cyberbullying in Polish Language"
 year: 2025
-first_author: "[[Michal Ptaszynski]]"
-last_author: "[[Michal Ptaszynski]]"
-authors: "Michal Ptaszynski, et al."
+first_author: "[[Ptaszynski, Michal]]"
+last_author: "[[Ptaszynski, Michal]]"
+authors: "[[Ptaszynski, Michal]]"
+authors_incomplete: true
 doi: 10.3390/data9010001
 url: "https://www.mdpi.com/2306-5729/9/1/1"
 external_pdf: "https://ruj.uj.edu.pl/bitstreams/1bc26747-5281-49b4-a130-4e97d5ea622b/download"

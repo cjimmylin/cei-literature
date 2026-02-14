@@ -8,9 +8,10 @@ key: LSRC0166
 type: journalArticle
 short_title: "Hate Speech Forms and Implications in English and Kurdish Social Media"
 year: 2025
-first_author: "[[Implications in English]]"
-last_author: [[Unknown]]
-authors: "Implications in English; Kurdish Social Media.pdf"
+first_author: "[[English, Implications in]]"
+last_author: "[[Media.pdf, Kurdish Social]]"
+authors: "[[English, Implications in]]; [[Media.pdf, Kurdish Social]]"
+authors_incomplete: false
 url: "https://journals.uhd.edu.iq/index.php/juhd/article/view/1006"
 external_pdf: "https://journals.uhd.edu.iq/index.php/juhd/article/download/1006/724"
 publication: "Journal of University of Human Development"

@@ -7,9 +7,9 @@ key: EXSR0564
 type: preprint
 short_title: "NEHATE Large-Scale Annotated Data Shedding Light"
 year: 2025
-first_author: [[[[Unknown]]]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://www.researchgate.net/publication/374325865_NEHATE_Large-Scale_Annotated_Data_Shedding_Light_on_Hate_Speech_in_Nepali_Local_Election_Discourse"
 external_pdf: "https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA230535"

@@ -7,9 +7,10 @@ key: LSRC0341
 type: preprint
 short_title: "BenCzechMark: A Czech-centric Multitask and Multimetric Benchmark for Large Language Models with Duel Scoring Mechanism"
 year: 2025
-first_author: "[[Martin Fajcik]]"
-last_author: "[[Michal Hradis]]"
-authors: "Martin Fajcik, Martin Docekal, Jan Dolezal, Karel Ondrej, Karel Benes, Jan Kapsa, Pavel Smrz, Alexander Polok, Michal Hradis, et al."
+first_author: "[[Fajcik, Martin]]"
+last_author: "[[Hradis, Michal]]"
+authors: "[[Fajcik, Martin]]; [[Docekal, Martin]]; [[Dolezal, Jan]]; [[Ondrej, Karel]]; [[Benes, Karel]]; [[Kapsa, Jan]]; [[Smrz, Pavel]]; [[Polok, Alexander]]; [[Hradis, Michal]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2412.17933"
 external_pdf: "https://arxiv.org/pdf/2412.17933.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for.md"

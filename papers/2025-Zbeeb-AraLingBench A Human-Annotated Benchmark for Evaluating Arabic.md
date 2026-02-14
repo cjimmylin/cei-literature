@@ -7,9 +7,10 @@ key: LSRC0748
 type: preprint
 short_title: "AraLingBench A Human-Annotated Benchmark for Evaluating Arabic Linguistic Capabilities of Large Language Models"
 year: 2025
-first_author: "[[Mohammad Zbeeb]]"
-last_author: [[Unknown]]
-authors: "Mohammad Zbeeb; Hasan Abed Al Kader Hammoud; Sina Mukalled; Nadine Rizk; Fatima Karnib; Issam Lakkis; Ammar Mohanna; Bernard Ghanem"
+first_author: "[[Zbeeb, Mohammad]]"
+last_author: "[[Ghanem, Bernard]]"
+authors: "[[Zbeeb, Mohammad]]; [[Hammoud, Hasan Abed Al Kader]]; [[Mukalled, Sina]]; [[Rizk, Nadine]]; [[Karnib, Fatima]]; [[Lakkis, Issam]]; [[Mohanna, Ammar]]; [[Ghanem, Bernard]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2511.14295"
 external_pdf: "https://arxiv.org/pdf/2511.14295.pdf"
 publication: arXiv

@@ -8,9 +8,10 @@ key: LSRC0158
 type: conferencePaper
 short_title: "Towards a Complete Kurdish NLP Pipeline: Challenges and Opportunities"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://journal.uad.ac.id/index.php/JIFO/article/view/26053"
 external_pdf: "https://journal.uad.ac.id/index.php/JIFO/article/download/26053/pdf_66"
 publication: "Jurnal Informatika"

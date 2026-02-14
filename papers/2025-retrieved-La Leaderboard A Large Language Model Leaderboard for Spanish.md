@@ -7,9 +7,10 @@ key: LSRC0211
 type: preprint
 short_title: "La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America"
 year: 2025
-first_author: "[[Authors not fully retrieved]]"
-last_author: "[[Authors not fully retrieved]]"
-authors: "Authors not fully retrieved"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2507.00999"
 external_pdf: "https://arxiv.org/pdf/2507.00999.pdf"
 pdf_extract: "PDF Extracts/2025/2025-retrieved-La Leaderboard A Large Language Model Leaderboard for Spanish.md"

@@ -8,9 +8,10 @@ key: LSRC0282
 type: conferencePaper
 short_title: "Overview of DETESTS-Dis at IberLEF 2024: DETEction and Classification of Racial STereotypes in Spanish - Learning with Disagreement"
 year: 2025
-first_author: [[Schmeisser-Nieto]]
-last_author: [[Schmeisser-Nieto]]
-authors: "Schmeisser-Nieto, et al."
+first_author: "[[Schmeisser-Nieto]]"
+last_author: "[[Schmeisser-Nieto]]"
+authors: "[[Schmeisser-Nieto]]"
+authors_incomplete: true
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6620"
 external_pdf: "https://core.ac.uk/download/651124934.pdf"
 publication: "IberLEF / SEPLN 2024"

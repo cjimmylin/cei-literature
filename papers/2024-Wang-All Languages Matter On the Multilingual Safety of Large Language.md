@@ -7,9 +7,10 @@ key: LSRC0327
 type: preprint
 short_title: "All Languages Matter: On the Multilingual Safety of Large Language Models"
 year: 2025
-first_author: "[[Wenxuan Wang]]"
-last_author: "[[Wenxuan Wang]]"
-authors: "Wenxuan Wang, et al."
+first_author: "[[Wang, Wenxuan]]"
+last_author: "[[Wang, Wenxuan]]"
+authors: "[[Wang, Wenxuan]]"
+authors_incomplete: true
 doi: 10.18653/v1/2024.findings-acl.349
 url: "https://arxiv.org/abs/2310.00905"
 external_pdf: "https://arxiv.org/pdf/2310.00905.pdf"

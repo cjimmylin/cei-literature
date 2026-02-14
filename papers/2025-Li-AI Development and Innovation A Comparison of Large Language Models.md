@@ -7,9 +7,10 @@ key: LSRC0663
 type: conferencePaper
 short_title: "AI Development and Innovation: A Comparison of Large Language Models from the U.S. and China | ACM Transactions on Management Information Systems"
 year: 2025
-first_author: "[[Jiaxin Li]]"
-last_author: [[Unknown]]
-authors: "Jiaxin Li; Zhenhui Jiang; Yang Liu; Xiaoyu Miao"
+first_author: "[[Li, Jiaxin]]"
+last_author: "[[Miao, Xiaoyu]]"
+authors: "[[Li, Jiaxin]]; [[Jiang, Zhenhui]]; [[Liu, Yang]]; [[Miao, Xiaoyu]]"
+authors_incomplete: false
 doi: 10.1145/3769086
 url: "https://dl.acm.org/doi/10.1145/3769086"
 publication: ACM

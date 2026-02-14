@@ -7,9 +7,10 @@ key: LSRC0097
 type: preprint
 short_title: "IndoSafety: Culturally Grounded Safety for LLMs in Indonesian Languages"
 year: 2025
-first_author: "[[Muhammad Falensi Azmi]]"
-last_author: [[Unknown]]
-authors: "Muhammad Falensi Azmi; Muhammad Dehan Al Kautsar; Alfan Farizki Wicaksono; Fajri Koto"
+first_author: "[[Azmi, Muhammad Falensi]]"
+last_author: "[[Koto, Fajri]]"
+authors: "[[Azmi, Muhammad Falensi]]; [[Al Kautsar, Muhammad Dehan]]; [[Wicaksono, Alfan Farizki]]; [[Koto, Fajri]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2506.02573"
 external_pdf: "https://arxiv.org/pdf/2506.02573.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.md"

@@ -7,9 +7,10 @@ key: LSRC0384
 type: preprint
 short_title: "VM14K: First Vietnamese Medical Benchmark"
 year: 2025
-first_author: "[[Thong Nguyen]]"
-last_author: [[Unknown]]
-authors: "Thong Nguyen; Duc Nguyen; Minh Dang; Thai Dao; Long Nguyen; Quan H. Nguyen; Dat Nguyen; Kien Tran; Minh Tran"
+first_author: "[[Nguyen, Thong]]"
+last_author: "[[Tran, Minh]]"
+authors: "[[Nguyen, Thong]]; [[Nguyen, Duc]]; [[Dang, Minh]]; [[Dao, Thai]]; [[Nguyen, Long]]; [[Nguyen, Quan H.]]; [[Nguyen, Dat]]; [[Tran, Kien]]; [[Tran, Minh]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2506.01305"
 external_pdf: "https://arxiv.org/pdf/2506.01305.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Nguyen-VM14K First Vietnamese Medical Benchmark.md"

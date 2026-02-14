@@ -7,9 +7,10 @@ key: LSRC0206
 type: preprint
 short_title: "HateBR: A Large Expert Annotated Corpus of Brazilian Instagram Comments for Hate Speech and Offensive Language Detection"
 year: 2025
-first_author: "[[Francielle Vargas]]"
-last_author: "[[Fabiana de Melo]]"
-authors: "Francielle Vargas, Isabelle Carvalho, Fabiana de Melo, et al."
+first_author: "[[Vargas, Francielle]]"
+last_author: "[[de Melo, Fabiana]]"
+authors: "[[Vargas, Francielle]]; [[Carvalho, Isabelle]]; [[de Melo, Fabiana]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2103.14972"
 external_pdf: "https://arxiv.org/pdf/2103.14972.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram.md"

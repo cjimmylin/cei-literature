@@ -7,9 +7,10 @@ key: LSRC0459
 type: preprint
 short_title: "Bias and Fairness in Large Language Models: A Survey"
 year: 2025
-first_author: "[[Isabel O. Gallegos]]"
-last_author: "[[Isabel O. Gallegos]]"
-authors: "Isabel O. Gallegos, et al."
+first_author: "[[Gallegos, Isabel O.]]"
+last_author: "[[Gallegos, Isabel O.]]"
+authors: "[[Gallegos, Isabel O.]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2024.cl-3.8/"
 external_pdf: "https://arxiv.org/pdf/2309.00770.pdf"
 publication: "arXiv / ACL Anthology"

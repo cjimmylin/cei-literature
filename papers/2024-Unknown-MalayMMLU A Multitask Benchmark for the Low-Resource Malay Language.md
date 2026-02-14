@@ -8,9 +8,10 @@ key: LSRC0104
 type: conferencePaper
 short_title: "MalayMMLU: A Multitask Benchmark for the Low-Resource Malay Language"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2024.findings-emnlp.36/"
 external_pdf: "https://aclanthology.org/2024.findings-emnlp.36.pdf"
 publication: "ACL Anthology (EMNLP 2024 Findings)"

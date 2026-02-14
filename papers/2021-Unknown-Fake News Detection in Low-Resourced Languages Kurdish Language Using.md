@@ -8,9 +8,10 @@ key: LSRC0156
 type: journalArticle
 short_title: "Fake News Detection in Low-Resourced Languages: Kurdish Language Using Machine Learning Algorithms"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://turcomat.org/index.php/turkbilmat/article/view/8393"
 external_pdf: "https://turcomat.org/index.php/turkbilmat/article/download/8393/6569"
 publication: "Turkish Journal of Computer and Mathematics Education"

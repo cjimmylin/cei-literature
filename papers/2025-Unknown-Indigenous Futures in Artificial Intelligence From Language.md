@@ -7,9 +7,10 @@ key: LSRC0790
 type: conferencePaper
 short_title: "Indigenous Futures in Artificial Intelligence: From Language Sovereignty to Ecological Stewardship – Intercontinental Cry"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://icmagazine.org/indigenous-futures-in-artificial-intelligence-from-language-sovereignty-to-ecological-stewardship/"
 publication: Web
 pdf_extract: 

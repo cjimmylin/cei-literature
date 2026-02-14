@@ -7,9 +7,10 @@ key: LSRC0121
 type: preprint
 short_title: "Bias Beyond English: Evaluating Social Bias and Debiasing Methods in a Low-Resource Setting"
 year: 2025
-first_author: "[[Ej Zhou]]"
-last_author: [[Unknown]]
-authors: "Ej Zhou; Weiming Lu"
+first_author: "[[Zhou, Ej]]"
+last_author: "[[Lu, Weiming]]"
+authors: "[[Zhou, Ej]]; [[Lu, Weiming]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2504.11183"
 external_pdf: "https://arxiv.org/pdf/2504.11183.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.md"

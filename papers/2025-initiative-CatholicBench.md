@@ -7,10 +7,10 @@ key: EXSR0343
 type: preprint
 short_title: CatholicBench
 year: 2025
-first_author: "[[initiative), Unknown (independent]]"
-last_author: "[[initiative), Unknown (independent]]"
-authors: "[[Unknown (independent initiative)]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: 
 external_pdf: 
 pdf_extract: 

@@ -7,9 +7,10 @@ key: LSRC0844
 type: conferencePaper
 short_title: "Bypassing LLM guardrails: character and AML attacks in practice - Mindgard"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://mindgard.ai/resources/bypassing-llm-guardrails-character-and-aml-attacks-in-practice"
 external_pdf: "https://arxiv.org/pdf/2504.11168"
 publication: Web

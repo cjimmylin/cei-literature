@@ -8,9 +8,10 @@ key: LSRC0155
 type: journalArticle
 short_title: "Bochun: Automatically Annotated Stance Detection Dataset for Sorani Kurdish Language"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.sciencedirect.com/science/article/pii/S2352340925005669"
 publication: "Data in Brief (ScienceDirect)"
 pdf_extract: 

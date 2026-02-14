@@ -7,9 +7,10 @@ key: LSRC0447
 type: preprint
 short_title: "INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge"
 year: 2025
-first_author: "[[Angelika Romanou et al. (59 authors)]]"
-last_author: "[[Angelika Romanou et al. (59 authors)]]"
-authors: "Angelika Romanou et al. (59 authors)"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2411.19799"
 external_pdf: "https://arxiv.org/pdf/2411.19799.pdf"
 publication: arXiv

@@ -7,10 +7,10 @@ key: EXSR0432
 type: preprint
 short_title: "Sentiment Analysis in African Languages Evaluating"
 year: 2025
-first_author: "[[search, (Authors not fully available from]]"
-last_author: "[[Johannesburg), affiliated with University of]]"
-authors: "[[(Authors not fully available from search]]; [[affiliated with University of Johannesburg)]]"
-authors_incomplete: false
+first_author: "[[affiliated with University of Johannesburg]]"
+last_author: "[[affiliated with University of Johannesburg]]"
+authors: "[[affiliated with University of Johannesburg]]"
+authors_incomplete: true
 url: 
 external_pdf: "https://aclanthology.org/2023.findings-emnlp.271.pdf"
 pdf_extract: "PDF Extracts/2025/2025-search-Sentiment Analysis in African Languages Evaluating.md"

@@ -7,9 +7,10 @@ key: LSRC0761
 type: preprint
 short_title: "Analyzing Bias in False Refusal Behavior of Large Language Models for Hate Speech Detoxification"
 year: 2025
-first_author: "[[Kyuri Im]]"
-last_author: [[Unknown]]
-authors: "Kyuri Im; Shuzhou Yuan; Michael Färber"
+first_author: "[[Im, Kyuri]]"
+last_author: "[[Färber, Michael]]"
+authors: "[[Im, Kyuri]]; [[Yuan, Shuzhou]]; [[Färber, Michael]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2601.08668"
 external_pdf: "https://arxiv.org/pdf/2601.08668.pdf"
 publication: arXiv

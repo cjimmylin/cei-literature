@@ -7,9 +7,10 @@ key: LSRC0380
 type: conferencePaper
 short_title: "Cross-Linguistic Moral Preferences in Large Language Models: Evidence from Distributive Justice Scenarios and Domain Persona Interventions"
 year: 2025
-first_author: "[[Seongyu Jang]]"
-last_author: [[Unknown]]
-authors: "Seongyu Jang; Chaewon Jeong; Jimin Kim; Hyungu Kahng"
+first_author: "[[Jang, Seongyu]]"
+last_author: "[[Kahng, Hyungu]]"
+authors: "[[Jang, Seongyu]]; [[Jeong, Chaewon]]; [[Kim, Jimin]]; [[Kahng, Hyungu]]"
+authors_incomplete: false
 doi: 10.3390/electronics14244919
 url: "https://www.mdpi.com/2079-9292/14/24/4919"
 publication: "MDPI Electronics"

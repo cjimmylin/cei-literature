@@ -7,9 +7,10 @@ key: LSRC0103
 type: preprint
 short_title: "Culturally-Nuanced Story Generation for Reasoning in Low-Resource Languages: The Case of Javanese and Sundanese"
 year: 2025
-first_author: "[[Salsabila Zahirah Pranida]]"
-last_author: [[Unknown]]
-authors: "Salsabila Zahirah Pranida; Rifo Ahmad Genadi; Fajri Koto"
+first_author: "[[Pranida, Salsabila Zahirah]]"
+last_author: "[[Koto, Fajri]]"
+authors: "[[Pranida, Salsabila Zahirah]]; [[Genadi, Rifo Ahmad]]; [[Koto, Fajri]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2502.12932"
 external_pdf: "https://arxiv.org/pdf/2502.12932.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource.md"

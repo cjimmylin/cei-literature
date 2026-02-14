@@ -7,9 +7,10 @@ key: LSRC0454
 type: preprint
 short_title: "MEXA: Multilingual Evaluation of English-Centric LLMs via Cross-Lingual Alignment"
 year: 2025
-first_author: "[[Unknown (CIS NLP group)]]"
-last_author: [[Unknown]]
-authors: "Unknown (CIS NLP group)"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2410.05873"
 external_pdf: "https://arxiv.org/pdf/2410.05873.pdf"
 publication: "arXiv / ACL Anthology"

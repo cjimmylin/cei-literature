@@ -9,8 +9,8 @@ short_title: "BHASA A Holistic Southeast Asian Linguistic"
 year: 2025
 first_author: "[[Susanto, Yosephine]]"
 last_author: "[[Susanto, Yosephine]]"
-authors: "[[Yosephine Susanto et al]]"
-authors_incomplete: false
+authors: "[[Susanto, Yosephine]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2309.06085"
 external_pdf: "https://arxiv.org/pdf/2309.06085.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Susanto-BHASA A Holistic Southeast Asian Linguistic.md"

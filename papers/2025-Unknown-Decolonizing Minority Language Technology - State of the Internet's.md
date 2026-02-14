@@ -7,9 +7,10 @@ key: LSRC0810
 type: conferencePaper
 short_title: "Decolonizing Minority Language Technology - State of the Internet's Languages Report"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://internetlanguages.org/en/stories/decolonizing-minority-language/"
 publication: Web
 pdf_extract: 

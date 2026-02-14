@@ -7,9 +7,10 @@ key: LSRC0482
 type: preprint
 short_title: "DUMB: A Benchmark for Smart Evaluation of Dutch Models"
 year: 2025
-first_author: "[[Wietse de Vries]]"
-last_author: "[[Wietse de Vries]]"
-authors: "Wietse de Vries et al."
+first_author: "[[de Vries, Wietse]]"
+last_author: "[[de Vries, Wietse]]"
+authors: "[[de Vries, Wietse]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2305.13026"
 external_pdf: "https://arxiv.org/pdf/2305.13026.pdf"
 publication: "arXiv / EMNLP 2023"

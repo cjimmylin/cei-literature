@@ -7,9 +7,10 @@ key: LSRC0212
 type: preprint
 short_title: "Bridging Gaps in Hate Speech Detection: Meta-Collections and Benchmarks for Low-Resource Iberian Languages"
 year: 2025
-first_author: "[[Authors not fully retrieved]]"
-last_author: "[[Authors not fully retrieved]]"
-authors: "Authors not fully retrieved"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2510.11167"
 external_pdf: "https://arxiv.org/pdf/2510.11167.pdf"
 pdf_extract: "PDF Extracts/2025/2025-retrieved-Bridging Gaps in Hate Speech Detection Meta-Collections and.md"

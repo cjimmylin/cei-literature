@@ -7,9 +7,10 @@ key: LSRC0209
 type: conferencePaper
 short_title: "Exploring Multilingual Concepts of Human Value in Large Language Models: Is Value Alignment Consistent, Transferable and Controllable across Languages?"
 year: 2025
-first_author: "[[Shaoyang Xu]]"
-last_author: "[[Shaoyang Xu]]"
-authors: "Shaoyang Xu, et al."
+first_author: "[[Xu, Shaoyang]]"
+last_author: "[[Xu, Shaoyang]]"
+authors: "[[Xu, Shaoyang]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2402.18120"
 external_pdf: "https://arxiv.org/pdf/2402.18120.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language.md"

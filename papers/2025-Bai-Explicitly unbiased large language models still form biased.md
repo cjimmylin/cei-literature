@@ -7,9 +7,10 @@ key: LSRC0681
 type: journalArticle
 short_title: "Explicitly unbiased large language models still form biased associations | PNAS"
 year: 2025
-first_author: "[[Xuechunzi Bai]]"
-last_author: [[Unknown]]
-authors: "Xuechunzi Bai; Angelina Wang; Ilia Sucholutsky; Thomas L. Griffiths"
+first_author: "[[Bai, Xuechunzi]]"
+last_author: "[[Griffiths, Thomas L.]]"
+authors: "[[Bai, Xuechunzi]]; [[Wang, Angelina]]; [[Sucholutsky, Ilia]]; [[Griffiths, Thomas L.]]"
+authors_incomplete: false
 doi: 10.1073/pnas.2416228122
 url: "https://www.pnas.org/doi/10.1073/pnas.2416228122"
 external_pdf: "https://europepmc.org/articles/PMC11874501?pdf=render"

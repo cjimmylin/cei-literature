@@ -8,9 +8,10 @@ key: LSRC0198
 type: conferencePaper
 short_title: "B-REASO: A Multi-Level Multi-Faceted Bengali Evaluation Suite"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2025.findings-emnlp.492/"
 external_pdf: "https://aclanthology.org/2025.findings-emnlp.492.pdf"
 publication: "ACL Anthology (EMNLP 2025 Findings)"

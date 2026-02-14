@@ -8,9 +8,10 @@ key: LSRC0137
 type: conferencePaper
 short_title: "Pars-HaO: Hate and Offensive Language Detection on Persian Tweets Using Machine Learning and Deep Learning"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.authorea.com/users/581546/articles/683116-pars-hao-hate-and-offensive-language-detection-on-persian-tweets-using-machine-learning-and-deep-learning"
 publication: "TechRxiv / Authorea"
 pdf_extract: 

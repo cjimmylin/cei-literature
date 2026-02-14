@@ -8,9 +8,10 @@ key: LSRC0200
 type: conferencePaper
 short_title: "WoNBias: A Complete Bengali Gender Bias Dataset"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://huggingface.co/datasets/gender-bias-bengali/wonbias-complete-dataset"
 publication: HuggingFace
 pdf_extract: 

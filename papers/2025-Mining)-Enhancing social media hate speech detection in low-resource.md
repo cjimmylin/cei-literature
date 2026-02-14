@@ -7,9 +7,10 @@ key: LSRC0544
 type: conferencePaper
 short_title: "Enhancing social media hate speech detection in low-resource languages using transformers and explainable AI"
 year: 2025
-first_author: "[[Unknown (published in Social Network Analysis and Mining)]]"
-last_author: [[Unknown]]
-authors: "Unknown (published in Social Network Analysis and Mining)"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 doi: 10.1007/s13278-025-01497-w
 url: "https://link.springer.com/article/10.1007/s13278-025-01497-w"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s13278-025-01497-w.pdf"

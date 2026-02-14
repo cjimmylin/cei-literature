@@ -7,9 +7,10 @@ key: LSRC0175
 type: preprint
 short_title: "Gender Bias Mitigation for Bangla Classification Tasks"
 year: 2025
-first_author: [[Joy]]
-last_author: [[S.K.S.]]
-authors: "Joy, S.K.S. et al."
+first_author: "[[Joy]]"
+last_author: "[[S.K.S.]]"
+authors: "[[Joy]]; [[S.K.S.]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2411.10636"
 external_pdf: "https://arxiv.org/pdf/2411.10636.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Joy-Gender Bias Mitigation for Bangla Classification Tasks.md"

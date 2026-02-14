@@ -7,9 +7,10 @@ key: LSRC0451
 type: conferencePaper
 short_title: "FrenchMedMCQA: A French Multiple-Choice Question Answering Dataset for Medical domain"
 year: 2025
-first_author: "[[Yanis Labrak]]"
-last_author: "[[Yanis Labrak]]"
-authors: "Yanis Labrak, et al."
+first_author: "[[Labrak, Yanis]]"
+last_author: "[[Labrak, Yanis]]"
+authors: "[[Labrak, Yanis]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2022.louhi-1.5/"
 external_pdf: "https://arxiv.org/pdf/2304.04280.pdf"
 publication: "ACL Anthology"

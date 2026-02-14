@@ -8,9 +8,10 @@ key: LSRC0336
 type: conferencePaper
 short_title: "PLLuM-Align: Polish Preference Dataset for Large Language Model Alignment"
 year: 2025
-first_author: "[[Karolina Seweryn]]"
-last_author: "[[Katarzyna Lorenc]]"
-authors: "Karolina Seweryn, Anna Kolos, Agnieszka Karlinska, Katarzyna Lorenc, et al."
+first_author: "[[Seweryn, Karolina]]"
+last_author: "[[Lorenc, Katarzyna]]"
+authors: "[[Seweryn, Karolina]]; [[Kolos, Anna]]; [[Karlinska, Agnieszka]]; [[Lorenc, Katarzyna]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2025.emnlp-main.1219/"
 external_pdf: "https://aclanthology.org/2025.emnlp-main.1219.pdf"
 publication: "ACL Anthology / EMNLP 2025"

@@ -7,9 +7,10 @@ key: LSRC0288
 type: preprint
 short_title: "SeeGULL Multilingual: A Dataset of Geo-Culturally Situated Stereotypes"
 year: 2025
-first_author: "[[Mukul Bhutani]]"
-last_author: [[Unknown]]
-authors: "Mukul Bhutani; Kevin Robinson; Vinodkumar Prabhakaran; Shachi Dave; Sunipa Dev"
+first_author: "[[Bhutani, Mukul]]"
+last_author: "[[Dev, Sunipa]]"
+authors: "[[Bhutani, Mukul]]; [[Robinson, Kevin]]; [[Prabhakaran, Vinodkumar]]; [[Dave, Shachi]]; [[Dev, Sunipa]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2403.05696"
 external_pdf: "https://arxiv.org/pdf/2403.05696.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes.md"

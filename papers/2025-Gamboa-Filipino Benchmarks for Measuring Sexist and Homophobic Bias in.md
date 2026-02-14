@@ -7,9 +7,10 @@ key: LSRC0111
 type: preprint
 short_title: "Filipino Benchmarks for Measuring Sexist and Homophobic Bias in Multilingual Language Models from Southeast Asia"
 year: 2025
-first_author: "[[Lance Calvin Lim Gamboa]]"
-last_author: [[Unknown]]
-authors: "Lance Calvin Lim Gamboa; Mark Lee"
+first_author: "[[Gamboa, Lance Calvin Lim]]"
+last_author: "[[Lee, Mark]]"
+authors: "[[Gamboa, Lance Calvin Lim]]; [[Lee, Mark]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2412.07303"
 external_pdf: "https://arxiv.org/pdf/2412.07303.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in.md"

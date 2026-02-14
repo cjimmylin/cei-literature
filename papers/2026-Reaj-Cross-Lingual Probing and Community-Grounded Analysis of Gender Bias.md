@@ -7,9 +7,10 @@ key: LSRC0173
 type: preprint
 short_title: "Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias in Low-Resource Bengali"
 year: 2025
-first_author: "[[Md Asgor Hossain Reaj]]"
-last_author: [[Unknown]]
-authors: "Md Asgor Hossain Reaj; Rajan Das Gupta; Jui Saha Pritha; Abdullah Al Noman; Abir Ahmed; Golam Md Mohiuddin; Tze Hui Liew"
+first_author: "[[Reaj, Md Asgor Hossain]]"
+last_author: "[[Liew, Tze Hui]]"
+authors: "[[Reaj, Md Asgor Hossain]]; [[Das Gupta, Rajan]]; [[Pritha, Jui Saha]]; [[Al Noman, Abdullah]]; [[Ahmed, Abir]]; [[Mohiuddin, Golam Md]]; [[Liew, Tze Hui]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2601.17764"
 external_pdf: "https://arxiv.org/pdf/2601.17764.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias.md"

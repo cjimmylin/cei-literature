@@ -7,9 +7,10 @@ key: LSRC0301
 type: preprint
 short_title: "The State of Multilingual LLM Safety Research: From Measuring the Language Gap to Mitigating It"
 year: 2025
-first_author: "[[Zheng-Xin Yong]]"
-last_author: [[Unknown]]
-authors: "Zheng-Xin Yong; Beyza Ermis; Marzieh Fadaee; Stephen H. Bach; Julia Kreutzer"
+first_author: "[[Yong, Zheng-Xin]]"
+last_author: "[[Kreutzer, Julia]]"
+authors: "[[Yong, Zheng-Xin]]; [[Ermis, Beyza]]; [[Fadaee, Marzieh]]; [[Bach, Stephen H.]]; [[Kreutzer, Julia]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2505.24119"
 external_pdf: "https://arxiv.org/pdf/2505.24119.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Yong-The State of Multilingual LLM Safety Research From Measuring the.md"

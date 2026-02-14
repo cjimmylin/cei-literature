@@ -7,10 +7,10 @@ key: EXSR0441
 type: preprint
 short_title: "TeSent A Benchmark Dataset for Fairness-aware"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2508.01486"
 external_pdf: "https://arxiv.org/pdf/2508.01486.pdf"
 pdf_extract: "PDF Extracts/2025/2025-results]]-TeSent A Benchmark Dataset for Fairness-aware.md"

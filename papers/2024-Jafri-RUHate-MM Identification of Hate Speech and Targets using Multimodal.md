@@ -8,9 +8,10 @@ key: LSRC0319
 type: conferencePaper
 short_title: "RUHate-MM: Identification of Hate Speech and Targets using Multimodal Data from Russia-Ukraine Crisis"
 year: 2025
-first_author: "[[Farhan Jafri]]"
-last_author: "[[Farhan Jafri]]"
-authors: "Farhan Jafri, et al."
+first_author: "[[Jafri, Farhan]]"
+last_author: "[[Jafri, Farhan]]"
+authors: "[[Jafri, Farhan]]"
+authors_incomplete: true
 doi: 10.1145/3589335.3651973
 url: "https://dl.acm.org/doi/10.1145/3589335.3651973"
 external_pdf: "https://vtechworks.lib.vt.edu/bitstreams/c4bc5298-22c5-4ec6-9839-6954f5cbf350/download"

@@ -7,9 +7,10 @@ key: LSRC0038
 type: preprint
 short_title: "MTQE.en-he: Machine Translation Quality Estimation for English-Hebrew"
 year: 2025
-first_author: "[[Andy Rosenbaum]]"
-last_author: [[Unknown]]
-authors: "Andy Rosenbaum; Assaf Siani; Ilan Kernerman"
+first_author: "[[Rosenbaum, Andy]]"
+last_author: "[[Kernerman, Ilan]]"
+authors: "[[Rosenbaum, Andy]]; [[Siani, Assaf]]; [[Kernerman, Ilan]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2602.06546"
 external_pdf: "https://arxiv.org/pdf/2602.06546.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Rosenbaum-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew.md"

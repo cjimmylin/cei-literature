@@ -8,9 +8,10 @@ key: LSRC0235
 type: journalArticle
 short_title: "Exploring Brazil's LLM Fauna: Investigating the Generative Performance of Large Language Models in Portuguese"
 year: 2025
-first_author: "[[Authors not fully retrieved]]"
-last_author: "[[Authors not fully retrieved]]"
-authors: "Authors not fully retrieved"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://journals-sol.sbc.org.br/index.php/jbcs/article/view/5814"
 external_pdf: "https://journals-sol.sbc.org.br/index.php/jbcs/article/download/5814/3514"
 publication: "Journal of the Brazilian Computer Society 2025"

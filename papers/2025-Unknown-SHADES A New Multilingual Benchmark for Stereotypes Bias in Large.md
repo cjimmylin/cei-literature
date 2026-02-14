@@ -7,9 +7,10 @@ key: LSRC0784
 type: conferencePaper
 short_title: "SHADES: A New Multilingual Benchmark for Stereotypes Bias in Large Language Models (2025) – AI Advisory Boards"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://aiadvisoryboards.wordpress.com/2025/05/02/shades-a-new-multilingual-benchmark-for-stereotypes-bias-in-large-language-models-2025/"
 external_pdf: "https://aclanthology.org/2025.naacl-long.600.pdf"
 publication: Web

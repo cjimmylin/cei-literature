@@ -7,9 +7,10 @@ key: LSRC0682
 type: journalArticle
 short_title: "Source framing triggers systematic bias in large language models | Science Advances"
 year: 2025
-first_author: "[[Federico Germani]]"
-last_author: [[Unknown]]
-authors: "Federico Germani; G. Spitale"
+first_author: "[[Germani, Federico]]"
+last_author: "[[Spitale, G.]]"
+authors: "[[Germani, Federico]]; [[Spitale, G.]]"
+authors_incomplete: false
 doi: 10.1126/sciadv.adz2924
 url: "https://www.science.org/doi/10.1126/sciadv.adz2924"
 external_pdf: "https://arxiv.org/pdf/2505.13488"

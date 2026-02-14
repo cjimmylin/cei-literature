@@ -7,9 +7,10 @@ key: LSRC0787
 type: conferencePaper
 short_title: "Tokenising culture: causes and consequences of cultural misalignment in large language models | Ada Lovelace Institute"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.adalovelaceinstitute.org/blog/cultural-misalignment-llms/"
 publication: Web
 pdf_extract: 

@@ -7,9 +7,10 @@ key: LSRC0691
 type: preprint
 short_title: "OmniEduBench: A Comprehensive Chinese Benchmark for Evaluating Large Language Models in Education"
 year: 2025
-first_author: "[[Min Zhang]]"
-last_author: [[Unknown]]
-authors: "Min Zhang; Hao Chen; Hao Chen; Wenqi Zhang; Didi Zhu; Xin Lin; Bo Jiang; Aimin Zhou; Fei Wu; Kun Kuang"
+first_author: "[[Zhang, Min]]"
+last_author: "[[Kuang, Kun]]"
+authors: "[[Zhang, Min]]; [[Chen, Hao]]; [[Zhang, Wenqi]]; [[Zhu, Didi]]; [[Lin, Xin]]; [[Jiang, Bo]]; [[Zhou, Aimin]]; [[Wu, Fei]]; [[Kuang, Kun]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2510.26422v1"
 external_pdf: "https://arxiv.org/pdf/2510.26422.pdf"
 publication: arXiv

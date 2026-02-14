@@ -7,9 +7,10 @@ key: LSRC0287
 type: preprint
 short_title: "Leveraging Large Language Models to Measure Gender Representation Bias in Gendered Language Corpora"
 year: 2025
-first_author: [[Derner]]
-last_author: [[Derner]]
-authors: "Derner, et al."
+first_author: "[[Derner]]"
+last_author: "[[Derner]]"
+authors: "[[Derner]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2406.13677"
 external_pdf: "https://arxiv.org/pdf/2406.13677.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Derner-Leveraging Large Language Models to Measure Gender Representation.md"

@@ -7,9 +7,10 @@ key: LSRC0179
 type: preprint
 short_title: "BIDWESH: A Bangla Regional Based Hate Speech Detection Dataset"
 year: 2025
-first_author: "[[Azizul Hakim Fayaz]]"
-last_author: [[Unknown]]
-authors: "Azizul Hakim Fayaz; MD. Shorif Uddin; Rayhan Uddin Bhuiyan; Zakia Sultana; Md. Samiul Islam; Bidyarthi Paul; Tashreef Muhammad; Shahriar Manzoor"
+first_author: "[[Fayaz, Azizul Hakim]]"
+last_author: "[[Manzoor, Shahriar]]"
+authors: "[[Fayaz, Azizul Hakim]]; [[Uddin, MD. Shorif]]; [[Bhuiyan, Rayhan Uddin]]; [[Sultana, Zakia]]; [[Islam, Md. Samiul]]; [[Paul, Bidyarthi]]; [[Muhammad, Tashreef]]; [[Manzoor, Shahriar]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2507.16183"
 external_pdf: "https://arxiv.org/pdf/2507.16183.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset.md"

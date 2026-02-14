@@ -7,9 +7,9 @@ key: EXSR0488
 type: preprint
 short_title: "HindiLLM Large Language Model for Hindi"
 year: 2025
-first_author: [[[[Unknown]]]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2412.20357"
 external_pdf: "https://arxiv.org/pdf/2412.20357.pdf"

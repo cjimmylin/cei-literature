@@ -8,9 +8,10 @@ key: LSRC0008
 type: conferencePaper
 short_title: "IndicCONAN: A Multilingual Dataset for Combating Hate Speech in Indian Context"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://ojs.aaai.org/index.php/AAAI/article/view/30237"
 external_pdf: "https://ojs.aaai.org/index.php/AAAI/article/download/30237/32202"
 publication: AAAI

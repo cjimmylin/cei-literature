@@ -7,9 +7,10 @@ key: LSRC0453
 type: conferencePaper
 short_title: "AI-driven detection of hate speech on social media: a case study in the French language"
 year: 2025
-first_author: "[[Zahim Chared]]"
-last_author: [[Unknown]]
-authors: "Zahim Chared; Clément Jantet; Calliste Ravix; Robin Salmi; Ehtesham Hashmi; Sule YAYILGAN YILDIRIM"
+first_author: "[[Chared, Zahim]]"
+last_author: "[[YILDIRIM, Sule YAYILGAN]]"
+authors: "[[Chared, Zahim]]; [[Jantet, Clément]]; [[Ravix, Calliste]]; [[Salmi, Robin]]; [[Hashmi, Ehtesham]]; [[YILDIRIM, Sule YAYILGAN]]"
+authors_incomplete: false
 doi: 10.1007/s10586-025-05553-0
 url: "https://link.springer.com/article/10.1007/s10586-025-05553-0"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10586-025-05553-0.pdf"

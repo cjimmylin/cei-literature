@@ -7,10 +7,10 @@ key: EXSR0453
 type: preprint
 short_title: "A Novel Socio-pragmatic Framework for Sentiment"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0950705124008827"
 external_pdf: 
 pdf_extract: 

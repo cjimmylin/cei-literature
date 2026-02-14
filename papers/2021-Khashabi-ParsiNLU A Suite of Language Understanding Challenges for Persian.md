@@ -8,9 +8,10 @@ key: LSRC0143
 type: conferencePaper
 short_title: "ParsiNLU: A Suite of Language Understanding Challenges for Persian"
 year: 2025
-first_author: "[[Daniel Khashabi]]"
-last_author: "[[Arman Cohan]]"
-authors: "Daniel Khashabi, Arman Cohan et al."
+first_author: "[[Khashabi, Daniel]]"
+last_author: "[[Khashabi, Daniel]]"
+authors: "[[Khashabi, Daniel]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2021.tacl-1.68.pdf"
 external_pdf: "https://arxiv.org/pdf/2012.06154v2.pdf"
 publication: TACL

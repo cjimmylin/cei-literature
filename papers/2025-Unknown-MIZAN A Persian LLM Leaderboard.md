@@ -8,9 +8,10 @@ key: LSRC0149
 type: conferencePaper
 short_title: "MIZAN: A Persian LLM Leaderboard"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://huggingface.co/spaces/MCINext/mizan-llm-leaderboard"
 publication: "HuggingFace / MCINext"
 pdf_extract: 

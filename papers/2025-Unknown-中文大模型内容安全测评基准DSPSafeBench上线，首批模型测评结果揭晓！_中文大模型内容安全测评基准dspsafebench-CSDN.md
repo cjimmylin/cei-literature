@@ -7,9 +7,10 @@ key: LSRC0688
 type: conferencePaper
 short_title: 中文大模型内容安全测评基准(DSPSafeBench)上线，首批模型测评结果揭晓！_中文大模型内容安全测评基准dspsafebench-CSDN博客
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://blog.csdn.net/sinat_37574187/article/details/144504312"
 publication: Web
 pdf_extract: 

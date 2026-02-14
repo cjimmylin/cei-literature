@@ -8,9 +8,10 @@ key: LSRC0320
 type: conferencePaper
 short_title: "BelarusianGLUE: Towards a Natural Language Understanding Benchmark for Belarusian"
 year: 2025
-first_author: "[[Maksim Papadimitriou]]"
-last_author: "[[Maksim Papadimitriou]]"
-authors: "Maksim Papadimitriou et al."
+first_author: "[[Papadimitriou, Maksim]]"
+last_author: "[[Papadimitriou, Maksim]]"
+authors: "[[Papadimitriou, Maksim]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2025.acl-long.25/"
 external_pdf: "https://aclanthology.org/2025.acl-long.25.pdf"
 publication: "ACL Anthology (ACL 2025)"

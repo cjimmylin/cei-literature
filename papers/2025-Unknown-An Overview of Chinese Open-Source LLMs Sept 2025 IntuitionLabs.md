@@ -7,9 +7,10 @@ key: LSRC0692
 type: conferencePaper
 short_title: "An Overview of Chinese Open-Source LLMs (Sept 2025) | IntuitionLabs"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://intuitionlabs.ai/articles/chinese-open-source-llms-2025"
 publication: Web
 pdf_extract: 

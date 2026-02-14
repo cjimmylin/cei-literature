@@ -7,9 +7,10 @@ key: LSRC0693
 type: conferencePaper
 short_title: "Beyond Verdicts: Evaluating Language Model Moral Competence Aaron J. Snoswell1,"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://philarchive.org/archive/SNOBVE"
 external_pdf: "https://philarchive.org/archive/SNOBVE"
 publication: PhilArchive

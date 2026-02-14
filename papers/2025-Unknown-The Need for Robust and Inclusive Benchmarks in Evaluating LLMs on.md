@@ -7,9 +7,10 @@ key: LSRC0728
 type: conferencePaper
 short_title: "The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on Arabic Text"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2025.icnlsp-1.20.pdf"
 external_pdf: "https://aclanthology.org/2025.icnlsp-1.20.pdf"
 publication: "ACL Anthology"

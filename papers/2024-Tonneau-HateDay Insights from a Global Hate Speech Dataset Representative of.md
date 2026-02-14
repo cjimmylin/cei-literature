@@ -7,9 +7,10 @@ key: LSRC0435
 type: preprint
 short_title: "HateDay: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter"
 year: 2025
-first_author: "[[Manuel Tonneau]]"
-last_author: "[[Manuel Tonneau]]"
-authors: "Manuel Tonneau, et al."
+first_author: "[[Tonneau, Manuel]]"
+last_author: "[[Tonneau, Manuel]]"
+authors: "[[Tonneau, Manuel]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2411.15462"
 external_pdf: "https://arxiv.org/pdf/2411.15462.pdf"
 publication: "arXiv / ACL Anthology"

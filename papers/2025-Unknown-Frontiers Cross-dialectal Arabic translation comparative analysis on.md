@@ -7,9 +7,10 @@ key: LSRC0730
 type: journalArticle
 short_title: "Frontiers | Cross-dialectal Arabic translation: comparative analysis on large language models"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 doi: 10.3389/frai.2025.1661789/full
 url: "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1661789/full"
 publication: Frontiers

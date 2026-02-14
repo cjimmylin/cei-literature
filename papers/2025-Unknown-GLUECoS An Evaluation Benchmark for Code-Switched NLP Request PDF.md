@@ -7,9 +7,10 @@ key: LSRC0830
 type: conferencePaper
 short_title: "GLUECoS: An Evaluation Benchmark for Code-Switched NLP | Request PDF"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.researchgate.net/publication/343300735_GLUECoS_An_Evaluation_Benchmark_for_Code-Switched_NLP"
 external_pdf: "https://www.aclweb.org/anthology/2020.acl-main.329.pdf"
 publication: ResearchGate

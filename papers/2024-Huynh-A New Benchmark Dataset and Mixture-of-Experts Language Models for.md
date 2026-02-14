@@ -7,9 +7,10 @@ key: LSRC0383
 type: preprint
 short_title: "A New Benchmark Dataset and Mixture-of-Experts Language Models for Adversarial Natural Language Inference in Vietnamese"
 year: 2025
-first_author: "[[Tin Van Huynh]]"
-last_author: [[Unknown]]
-authors: "Tin Van Huynh; Kiet Van Nguyen; Ngan Luu-Thuy Nguyen"
+first_author: "[[Van Huynh, Tin]]"
+last_author: "[[Nguyen, Ngan Luu-Thuy]]"
+authors: "[[Van Huynh, Tin]]; [[Van Nguyen, Kiet]]; [[Nguyen, Ngan Luu-Thuy]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2406.17716"
 external_pdf: "https://arxiv.org/pdf/2406.17716.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Huynh-A New Benchmark Dataset and Mixture-of-Experts Language Models for.md"

@@ -7,9 +7,10 @@ key: LSRC0174
 type: preprint
 short_title: "ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores Non-Gendered Pronouns: Findings across Bengali and Five other Low-Resource Languages"
 year: 2025
-first_author: "[[S. Ghosh]]"
-last_author: [[S.]]
-authors: "Ghosh, S. et al."
+first_author: "[[Ghosh, S.]]"
+last_author: "[[S.]]"
+authors: "[[Ghosh, S.]]; [[S.]]"
+authors_incomplete: true
 doi: 10.1145/3600211.3604672
 url: "https://arxiv.org/abs/2305.10510"
 external_pdf: "https://arxiv.org/pdf/2305.10510.pdf"

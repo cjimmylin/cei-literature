@@ -7,9 +7,10 @@ key: LSRC0672
 type: preprint
 short_title: "Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects"
 year: 2025
-first_author: "[[Kalvin Chang]]"
-last_author: [[Unknown]]
-authors: "Kalvin Chang; Yiwen Shao; Jiahong Li; Dong Yu"
+first_author: "[[Chang, Kalvin]]"
+last_author: "[[Yu, Dong]]"
+authors: "[[Chang, Kalvin]]; [[Shao, Yiwen]]; [[Li, Jiahong]]; [[Yu, Dong]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2601.07274"
 external_pdf: "https://arxiv.org/pdf/2601.07274.pdf"
 publication: arXiv

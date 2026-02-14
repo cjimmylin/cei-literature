@@ -7,9 +7,10 @@ key: LSRC0181
 type: preprint
 short_title: "DIWALI: Diversity and Inclusivity aWare cuLture specific Items for India Dataset and Assessment of LLMs for Cultural Text Adaptation in Indian Context"
 year: 2025
-first_author: "[[P. Sahoo]]"
-last_author: [[P.]]
-authors: "Sahoo, P. et al."
+first_author: "[[Sahoo, P.]]"
+last_author: "[[P.]]"
+authors: "[[Sahoo, P.]]; [[P.]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2509.17399"
 external_pdf: "https://arxiv.org/pdf/2509.17399.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Sahoo-DIWALI Diversity and Inclusivity aWare cuLture specific Items for.md"

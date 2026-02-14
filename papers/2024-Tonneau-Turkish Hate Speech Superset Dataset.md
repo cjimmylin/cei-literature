@@ -9,10 +9,10 @@ short_title: "Turkish Hate Speech Superset Dataset"
 year: 2025
 first_author: "[[Tonneau, Manuel]]"
 last_author: "[[Tonneau, Manuel]]"
-authors: "[[Manuel Tonneau et al]]"
-authors_incomplete: false
+authors: "[[Tonneau, Manuel]]"
+authors_incomplete: true
 url: "https://huggingface.co/datasets/manueltonneau/turkish-hate-speech-superset"
-external_pdf: "https://aclanthology.org/2022.lrec-1.443.pdf"
+external_pdf: 
 pdf_extract: "PDF Extracts/2024/2024-Tonneau-Turkish Hate Speech Superset Dataset.md"
 local_pdf: "[[PDFs/2024/2024-Tonneau-Turkish Hate Speech Superset Dataset.pdf]]"
 publication: HuggingFace

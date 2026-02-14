@@ -8,9 +8,10 @@ key: LSRC0227
 type: journalArticle
 short_title: "Context-Aware and Expert Data Resources for Brazilian Portuguese Hate Speech Detection"
 year: 2025
-first_author: "[[Authors not fully retrieved]]"
-last_author: "[[Authors not fully retrieved]]"
-authors: "Authors not fully retrieved"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.cambridge.org/core/journals/natural-language-processing/article/contextaware-and-expert-data-resources-for-brazilian-portuguese-hate-speech-detection/7D9019ED5471CD16E320EBED06A6E923"
 external_pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7D9019ED5471CD16E320EBED06A6E923/S2977042424000189a.pdf/div-class-title-context-aware-and-expert-data-resources-for-brazilian-portuguese-hate-speech-detection-div.pdf"
 publication: "Cambridge NLP Journal 2025"

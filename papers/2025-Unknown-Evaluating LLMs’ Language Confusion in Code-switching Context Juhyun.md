@@ -7,9 +7,10 @@ key: LSRC0821
 type: conferencePaper
 short_title: "Evaluating LLMs’ Language Confusion in Code-switching Context Juhyun Oh KAIST"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://openreview.net/pdf/2c888725c8f08727a2b712c2740bfa5e0b9b205a.pdf"
 external_pdf: "https://openreview.net/pdf/2c888725c8f08727a2b712c2740bfa5e0b9b205a.pdf"
 publication: OpenReview

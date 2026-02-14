@@ -7,9 +7,10 @@ key: LSRC0437
 type: preprint
 short_title: "COLE: a Comprehensive Benchmark for French Language Understanding Evaluation"
 year: 2025
-first_author: "[[Unknown (arXiv preprint)]]"
-last_author: [[Unknown]]
-authors: "Unknown (arXiv preprint)"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2510.05046"
 external_pdf: "https://arxiv.org/pdf/2510.05046.pdf"
 publication: arXiv

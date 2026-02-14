@@ -7,9 +7,10 @@ key: LSRC0238
 type: preprint
 short_title: "LegalBench.PT: A Benchmark for Portuguese Law"
 year: 2025
-first_author: "[[Authors not fully retrieved]]"
-last_author: "[[Authors not fully retrieved]]"
-authors: "Authors not fully retrieved"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2502.16357"
 external_pdf: "https://arxiv.org/pdf/2502.16357.pdf"
 pdf_extract: "PDF Extracts/2025/2025-retrieved-LegalBench.PT A Benchmark for Portuguese Law.md"

@@ -7,9 +7,9 @@ key: EXSR0526
 type: preprint
 short_title: "SamPar A Marathi Hate Speech Dataset"
 year: 2025
-first_author: [[[[Unknown]]]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://link.springer.com/chapter/10.1007/978-3-031-58495-4_3"
 external_pdf: "https://arxiv.org/pdf/2203.13778"

@@ -7,9 +7,10 @@ key: LSRC0629
 type: conferencePaper
 short_title: "Optimizing Sentiment Analysis in Multilingual Balanced Datasets: A New Comparative Approach to Enhancing Feature Extraction Performance with ML and DL Classifiers"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.mdpi.com/2571-5577/8/4/104"
 publication: MDPI
 pdf_extract: 

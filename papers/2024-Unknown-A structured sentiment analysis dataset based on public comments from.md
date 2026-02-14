@@ -7,9 +7,10 @@ key: LSRC0621
 type: journalArticle
 short_title: "A structured sentiment analysis dataset based on public comments from various domains - ScienceDirect"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.sciencedirect.com/science/article/pii/S2352340924002038"
 publication: ScienceDirect
 pdf_extract: 

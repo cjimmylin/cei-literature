@@ -7,9 +7,10 @@ key: LSRC0639
 type: preprint
 short_title: "Large Language Models Meet Text-Centric Multimodal Sentiment Analysis: A Survey"
 year: 2025
-first_author: "[[Hao Yang]]"
-last_author: [[Unknown]]
-authors: "Hao Yang; Yanyan Zhao; Yang Wu; Shilong Wang; Tian Zheng; Hongbo Zhang; Zongyang Ma; Wanxiang Che; Bing Qin"
+first_author: "[[Yang, Hao]]"
+last_author: "[[Qin, Bing]]"
+authors: "[[Yang, Hao]]; [[Zhao, Yanyan]]; [[Wu, Yang]]; [[Wang, Shilong]]; [[Zheng, Tian]]; [[Zhang, Hongbo]]; [[Ma, Zongyang]]; [[Che, Wanxiang]]; [[Qin, Bing]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2406.08068v2"
 external_pdf: "https://arxiv.org/pdf/2406.08068.pdf"
 publication: arXiv

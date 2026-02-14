@@ -7,9 +7,10 @@ key: LSRC0471
 type: preprint
 short_title: "taz2024full: Analysing German Newspapers for Gender Bias and Discrimination across Decades"
 year: 2025
-first_author: "[[Stefanie Urchs]]"
-last_author: "[[Sigurd Thurner]]"
-authors: "Stefanie Urchs, Sigurd Thurner et al."
+first_author: "[[Urchs, Stefanie]]"
+last_author: "[[Urchs, Stefanie]]"
+authors: "[[Urchs, Stefanie]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2506.05388"
 external_pdf: "https://arxiv.org/pdf/2506.05388.pdf"
 publication: "arXiv / ACL 2025"

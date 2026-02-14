@@ -7,9 +7,10 @@ key: LSRC0215
 type: preprint
 short_title: "Tucano: Advancing Neural Text Generation for Portuguese"
 year: 2025
-first_author: "[[Nicholas Kluge Corrêa]]"
-last_author: "[[Sophia Falk]]"
-authors: "Nicholas Kluge Corrêa, Sophia Falk, et al."
+first_author: "[[Corrêa, Nicholas Kluge]]"
+last_author: "[[Falk, Sophia]]"
+authors: "[[Corrêa, Nicholas Kluge]]; [[Falk, Sophia]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2411.07854"
 external_pdf: "https://arxiv.org/pdf/2411.07854.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese.md"

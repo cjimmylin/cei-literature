@@ -7,9 +7,10 @@ key: LSRC0093
 type: preprint
 short_title: "No Shortcuts to Culture: Indonesian Multi-hop Question Answering for Complex Cultural Understanding"
 year: 2025
-first_author: "[[Vynska Amalia Permadi]]"
-last_author: [[Unknown]]
-authors: "Vynska Amalia Permadi; Xingwei Tan; Nafise Sadat Moosavi; Nikos Aletras"
+first_author: "[[Permadi, Vynska Amalia]]"
+last_author: "[[Aletras, Nikos]]"
+authors: "[[Permadi, Vynska Amalia]]; [[Tan, Xingwei]]; [[Moosavi, Nafise Sadat]]; [[Aletras, Nikos]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2602.03709"
 external_pdf: "https://arxiv.org/pdf/2602.03709.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for.md"

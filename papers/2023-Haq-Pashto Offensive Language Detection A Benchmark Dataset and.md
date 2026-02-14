@@ -8,9 +8,10 @@ key: LSRC0160
 type: journalArticle
 short_title: "Pashto Offensive Language Detection: A Benchmark Dataset and Monolingual Pashto BERT"
 year: 2025
-first_author: "[[Ijaz Ul Haq]]"
-last_author: "[[Dongji Qiu]]"
-authors: "Ijaz Ul Haq, Dongji Qiu et al."
+first_author: "[[Haq, Ijaz Ul]]"
+last_author: "[[Haq, Ijaz Ul]]"
+authors: "[[Haq, Ijaz Ul]]"
+authors_incomplete: true
 url: "https://peerj.com/articles/cs-1617/"
 external_pdf: "https://europepmc.org/articles/PMC10702970?pdf=render"
 publication: "PeerJ Computer Science"

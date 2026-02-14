@@ -7,9 +7,10 @@ key: LSRC0517
 type: conferencePaper
 short_title: "BasqBBQ: A QA Benchmark for Assessing Social Biases in LLMs for Basque, a Low-Resource Language"
 year: 2025
-first_author: "[[Muitze Zulaika]]"
-last_author: "[[Xabier Saralegi]]"
-authors: "Muitze Zulaika, Xabier Saralegi et al."
+first_author: "[[Zulaika, Muitze]]"
+last_author: "[[Zulaika, Muitze]]"
+authors: "[[Zulaika, Muitze]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2025.coling-main.318/"
 external_pdf: "https://aclanthology.org/2025.coling-main.318.pdf"
 publication: "ACL Anthology (COLING 2025)"

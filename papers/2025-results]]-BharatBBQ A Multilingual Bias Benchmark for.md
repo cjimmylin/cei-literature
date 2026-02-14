@@ -7,10 +7,10 @@ key: EXSR0335
 type: preprint
 short_title: "BharatBBQ A Multilingual Bias Benchmark for"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2508.07090"
 external_pdf: "https://arxiv.org/pdf/2508.07090.pdf"
 pdf_extract: "PDF Extracts/2025/2025-results]]-BharatBBQ A Multilingual Bias Benchmark for.md"

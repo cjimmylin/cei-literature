@@ -8,9 +8,10 @@ key: LSRC0125
 type: conferencePaper
 short_title: "SEA-VQA: Southeast Asian Cultural Context Dataset For Visual Question Answering"
 year: 2025
-first_author: "[[Vision Research]]"
-last_author: [[Unknown]]
-authors: "Vision Research"
+first_author: "[[Research, Vision]]"
+last_author: "[[Research, Vision]]"
+authors: "[[Research, Vision]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2024.alvr-1.15/"
 external_pdf: "https://aclanthology.org/2024.alvr-1.15.pdf"
 publication: "ACL Anthology"

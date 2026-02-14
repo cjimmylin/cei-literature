@@ -8,9 +8,10 @@ key: LSRC0276
 type: conferencePaper
 short_title: "SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter (HatEval)"
 year: 2025
-first_author: "[[Valerio Basile]]"
-last_author: "[[Debora Nozza]]"
-authors: "Valerio Basile, Cristina Bosco, Elisabetta Fersini, Debora Nozza, et al."
+first_author: "[[Basile, Valerio]]"
+last_author: "[[Nozza, Debora]]"
+authors: "[[Basile, Valerio]]; [[Bosco, Cristina]]; [[Fersini, Elisabetta]]; [[Nozza, Debora]]"
+authors_incomplete: true
 url: "https://aclanthology.org/S19-2007/"
 external_pdf: "https://aclanthology.org/S19-2077.pdf"
 publication: "ACL Anthology / SemEval 2019"

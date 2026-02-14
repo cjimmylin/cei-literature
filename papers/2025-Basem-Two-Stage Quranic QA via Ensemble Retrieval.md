@@ -9,8 +9,8 @@ short_title: "Two-Stage Quranic QA via Ensemble Retrieval"
 year: 2025
 first_author: "[[Basem, Mohamed]]"
 last_author: "[[Basem, Mohamed]]"
-authors: "[[Mohamed Basem et al]]"
-authors_incomplete: false
+authors: "[[Basem, Mohamed]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2508.06971"
 external_pdf: "https://arxiv.org/pdf/2508.06971.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Basem-Two-Stage Quranic QA via Ensemble Retrieval.md"

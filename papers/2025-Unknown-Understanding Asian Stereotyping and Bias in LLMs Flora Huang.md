@@ -7,9 +7,10 @@ key: LSRC0702
 type: conferencePaper
 short_title: "Understanding Asian Stereotyping and Bias in LLMs Flora Huang"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://cs191.stanford.edu/projects/Huang,%20Flora_CS191.pdf"
 external_pdf: "https://cs191.stanford.edu/projects/Huang,%20Flora_CS191.pdf"
 publication: Web

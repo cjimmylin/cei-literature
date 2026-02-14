@@ -7,10 +7,10 @@ key: EXSR0466
 type: preprint
 short_title: "CVQA Culturally-diverse Multilingual Visual Question Answering"
 year: 2025
-first_author: "[[David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, Teresa Lynn, Injy Hamed, et al. (70+ authors)]]"
-last_author: "[[David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, Teresa Lynn, Injy Hamed, et al. (70+ authors)]]"
-authors: "[[David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, Teresa Lynn, Injy Hamed, et al. (70+ authors)]]"
-authors_incomplete: false
+first_author: "[[Romero, David]]"
+last_author: "[[Hamed, Injy]]"
+authors: "[[Romero, David]]; [[Lyu, Chenyang]]; [[Wibowo, Haryo Akbarianto]]; [[Lynn, Teresa]]; [[Hamed, Injy]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2406.05967"
 external_pdf: "https://arxiv.org/pdf/2406.05967.pdf"
 pdf_extract: "PDF Extracts/2024/2024-authors-CVQA Culturally-diverse Multilingual Visual Question Answering.md"

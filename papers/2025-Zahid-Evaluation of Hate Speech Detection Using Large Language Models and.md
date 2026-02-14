@@ -7,9 +7,10 @@ key: LSRC0302
 type: preprint
 short_title: "Evaluation of Hate Speech Detection Using Large Language Models and Geographical Contextualization"
 year: 2025
-first_author: "[[Anwar Hossain Zahid]]"
-last_author: [[Unknown]]
-authors: "Anwar Hossain Zahid; Monoshi Kumar Roy; Swarna Das"
+first_author: "[[Zahid, Anwar Hossain]]"
+last_author: "[[Das, Swarna]]"
+authors: "[[Zahid, Anwar Hossain]]; [[Roy, Monoshi Kumar]]; [[Das, Swarna]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2502.19612"
 external_pdf: "https://arxiv.org/pdf/2502.19612.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and.md"

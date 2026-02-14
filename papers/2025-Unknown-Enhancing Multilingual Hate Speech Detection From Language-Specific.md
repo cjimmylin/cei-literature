@@ -7,9 +7,10 @@ key: LSRC0768
 type: conferencePaper
 short_title: "Enhancing Multilingual Hate Speech Detection: From Language-Specific Insights to Cross-Linguistic Integration"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.researchgate.net/publication/383673931_Enhancing_Multilingual_Hate_Speech_Detection_From_Language-Specific_Insights_to_Cross-Linguistic_Integration"
 publication: ResearchGate
 pdf_extract: 

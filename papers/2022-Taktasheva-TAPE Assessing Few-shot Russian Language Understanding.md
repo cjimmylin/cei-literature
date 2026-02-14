@@ -7,9 +7,10 @@ key: LSRC0307
 type: preprint
 short_title: "TAPE: Assessing Few-shot Russian Language Understanding"
 year: 2025
-first_author: "[[Ekaterina Taktasheva]]"
-last_author: "[[Tatiana Shavrina]]"
-authors: "Ekaterina Taktasheva, Alena Fenogenova, Tatiana Shavrina, et al."
+first_author: "[[Taktasheva, Ekaterina]]"
+last_author: "[[Shavrina, Tatiana]]"
+authors: "[[Taktasheva, Ekaterina]]; [[Fenogenova, Alena]]; [[Shavrina, Tatiana]]"
+authors_incomplete: true
 doi: 10.18653/v1/2022.findings-emnlp.183
 url: "https://arxiv.org/abs/2210.12813"
 external_pdf: "https://arxiv.org/pdf/2210.12813.pdf"

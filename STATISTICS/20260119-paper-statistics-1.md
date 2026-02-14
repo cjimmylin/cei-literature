@@ -167,7 +167,7 @@ Total Categories: 3
 - 2024, [[Mariusz Tabaczek]], [[2024-Tabaczek-Virtuous AI Aristotelian-Thomistic|Virtuous AI Aristotelian-Thomistic]]
 - 2024, [[Kathryn Muyskens]], [[2024-Muyskens-Can an AI-carebot be filial|2024-Muyskens-Can an AI-carebot be filial.md]]
 - 2024, [[Julian Marvin Jörs]], [[2024-Jörs-Through Eudaimonia's Lenses|2024-Jörs-Through Eudaimonia's Lenses.md]]
-- 2024, [[Josiah Ober]], [[2024-Ober-AI Ethics with Aristotle|AI Ethics with Aristotle]]
+- 2024, [[Josiah Ober]], [[2024-Ober-Lyceum Project AI Ethics Aristotle|AI Ethics with Aristotle]]
 - 2024, [[Josiah Ober]], [[2024-Ober-Lyceum Project AI Ethics Aristotle|Lyceum Project AI Ethics Aristotle]]
 - 2024, [[Jingyan Zhou]], [[2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning|Rethinking Machine Ethics]]
 - 2024, [[Ike Obi]], [[2024-Obi-Value Imprint|Value Imprint]]
@@ -874,7 +874,7 @@ Total Categories: 30
 - 2022, [[Ajay Vishwanath]], [[2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML|Towards Artificial Virtuous Agents - Games and ML]]
 
 ### Aristotelian Ethics & AI Flourishing (1)
-- 2024, [[Josiah Ober]], [[2024-Ober-AI Ethics with Aristotle|AI Ethics with Aristotle]]
+- 2024, [[Josiah Ober]], [[2024-Ober-Lyceum Project AI Ethics Aristotle|AI Ethics with Aristotle]]
 
 ### AI Impact on Practical Wisdom (1)
 - 2022, [[Eisikovits, [[2024-Eisikovits-AI and Phronesis|AI and Phronesis]]

@@ -8,9 +8,10 @@ key: LSRC0148
 type: conferencePaper
 short_title: "Advancing Persian LLM Evaluation"
 year: 2025
-first_author: "[[Sara Bourbour Hosseinbeigi]]"
-last_author: "[[Sara Bourbour Hosseinbeigi]]"
-authors: "Sara Bourbour Hosseinbeigi et al."
+first_author: "[[Hosseinbeigi, Sara Bourbour]]"
+last_author: "[[Hosseinbeigi, Sara Bourbour]]"
+authors: "[[Hosseinbeigi, Sara Bourbour]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2025.findings-naacl.147/"
 external_pdf: "https://aclanthology.org/2025.findings-naacl.147.pdf"
 publication: "NAACL 2025 Findings"

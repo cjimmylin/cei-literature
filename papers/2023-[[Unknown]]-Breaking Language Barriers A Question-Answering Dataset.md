@@ -7,9 +7,9 @@ key: EXSR0552
 type: preprint
 short_title: "Breaking Language Barriers A Question-Answering Dataset"
 year: 2025
-first_author: [[[[Unknown]]]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2308.09862"
 external_pdf: "https://arxiv.org/pdf/2308.09862.pdf"

@@ -7,10 +7,10 @@ key: EXSR0318
 type: preprint
 short_title: "A Multimodal Approach for Hate and"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://dl.acm.org/doi/10.1145/3712260"
 external_pdf: 
 pdf_extract: 

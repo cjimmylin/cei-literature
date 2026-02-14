@@ -7,9 +7,10 @@ key: LSRC0695
 type: conferencePaper
 short_title: "Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM AGENTS"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.mircomusolesi.org/papers/iclr25_moral_alignment_llm_agents.pdf"
 external_pdf: "https://core.ac.uk/download/656945121.pdf"
 publication: Web

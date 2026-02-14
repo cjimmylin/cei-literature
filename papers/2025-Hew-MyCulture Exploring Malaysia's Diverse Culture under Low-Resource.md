@@ -7,9 +7,10 @@ key: LSRC0105
 type: preprint
 short_title: "MyCulture: Exploring Malaysia's Diverse Culture under Low-Resource Language Constraints"
 year: 2025
-first_author: "[[Zhong Ken Hew]]"
-last_author: "[[Zhong Ken Hew]]"
-authors: "Zhong Ken Hew et al."
+first_author: "[[Hew, Zhong Ken]]"
+last_author: "[[Hew, Zhong Ken]]"
+authors: "[[Hew, Zhong Ken]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2508.05429"
 external_pdf: "https://arxiv.org/pdf/2508.05429.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource.md"

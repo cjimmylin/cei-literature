@@ -7,9 +7,10 @@ key: LSRC0117
 type: preprint
 short_title: "IndoNLU: Benchmark and Resources for Evaluating Indonesian Natural Language Understanding"
 year: 2025
-first_author: "[[Bryan Wilie]]"
-last_author: "[[Samuel Cahyawijaya]]"
-authors: "Bryan Wilie, Karissa Vincentio, Genta Indra Winata, Samuel Cahyawijaya et al."
+first_author: "[[Wilie, Bryan]]"
+last_author: "[[Winata, Genta Indra]]"
+authors: "[[Wilie, Bryan]]; [[Vincentio, Karissa]]; [[Winata, Genta Indra]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2009.05387"
 external_pdf: "https://arxiv.org/pdf/2009.05387.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural.md"

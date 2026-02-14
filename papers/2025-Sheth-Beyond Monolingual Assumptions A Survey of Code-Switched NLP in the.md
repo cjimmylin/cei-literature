@@ -7,9 +7,10 @@ key: LSRC0828
 type: preprint
 short_title: "Beyond Monolingual Assumptions: A Survey of Code-Switched NLP in the Era of Large Language Models"
 year: 2025
-first_author: "[[Rajvee Sheth]]"
-last_author: [[Unknown]]
-authors: "Rajvee Sheth; Samridhi Raj Sinha; Mahavir Patil; Himanshu Beniwal; Mayank Singh"
+first_author: "[[Sheth, Rajvee]]"
+last_author: "[[Singh, Mayank]]"
+authors: "[[Sheth, Rajvee]]; [[Sinha, Samridhi Raj]]; [[Patil, Mahavir]]; [[Beniwal, Himanshu]]; [[Singh, Mayank]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2510.07037v1"
 external_pdf: "https://arxiv.org/pdf/2510.07037.pdf"
 publication: arXiv

@@ -7,9 +7,10 @@ key: LSRC0176
 type: conferencePaper
 short_title: "BD-SHS: A Benchmark Dataset for Learning to Detect Online Bangla Hate Speech in Different Social Contexts"
 year: 2025
-first_author: "[[N. Romim]]"
-last_author: [[N.]]
-authors: "Romim, N. et al."
+first_author: "[[Romim, N.]]"
+last_author: "[[N.]]"
+authors: "[[Romim, N.]]; [[N.]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2022.lrec-1.552/"
 external_pdf: "https://arxiv.org/pdf/2206.00372.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.md"

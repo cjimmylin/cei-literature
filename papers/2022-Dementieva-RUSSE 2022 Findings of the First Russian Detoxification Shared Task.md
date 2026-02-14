@@ -8,9 +8,10 @@ key: LSRC0311
 type: conferencePaper
 short_title: "RUSSE 2022: Findings of the First Russian Detoxification Shared Task Based on Parallel Corpora"
 year: 2025
-first_author: "[[Daryna Dementieva]]"
-last_author: "[[Varvara Logacheva]]"
-authors: "Daryna Dementieva, Varvara Logacheva, et al."
+first_author: "[[Dementieva, Daryna]]"
+last_author: "[[Logacheva, Varvara]]"
+authors: "[[Dementieva, Daryna]]; [[Logacheva, Varvara]]"
+authors_incomplete: true
 url: "https://russe.nlpub.org/2022/tox/"
 external_pdf: "https://web.archive.org/web/20240817172642if_/https://www.dialog-21.ru/media/5755/dementievadplusetal105.pdf"
 publication: "RUSSE / Dialogue Conference"

@@ -7,9 +7,10 @@ key: LSRC0015
 type: preprint
 short_title: "On Limitations of LLM as Annotator for Low Resource Languages (Marathi case study)"
 year: 2025
-first_author: "[[Suramya Jadhav]]"
-last_author: [[Unknown]]
-authors: "Suramya Jadhav; Abhay Shanbhag; Amogh Thakurdesai; Ridhima Sinare; Raviraj Joshi"
+first_author: "[[Jadhav, Suramya]]"
+last_author: "[[Joshi, Raviraj]]"
+authors: "[[Jadhav, Suramya]]; [[Shanbhag, Abhay]]; [[Thakurdesai, Amogh]]; [[Sinare, Ridhima]]; [[Joshi, Raviraj]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2411.17637"
 external_pdf: "https://arxiv.org/pdf/2411.17637.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi.md"

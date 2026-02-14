@@ -8,9 +8,10 @@ key: LSRC0269
 type: journalArticle
 short_title: "Evaluation of Social Bias Classification Performance of LLMs Using the KoSBI Dataset"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.koreascience.kr/article/JAKO202530450459760.page"
 external_pdf: "https://www.koreascience.kr/article/JAKO202530450459760.pdf"
 publication: "Korea Science (Informatization Policy)"

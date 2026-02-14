@@ -7,9 +7,10 @@ key: LSRC0480
 type: preprint
 short_title: "NLEBench+NorGLM: A Comprehensive Empirical Analysis and Benchmark Dataset for Generative Language Models in Norwegian"
 year: 2025
-first_author: "[[Peng Liu]]"
-last_author: "[[Marita Kolby Dahl]]"
-authors: "Peng Liu, Terje Rodahl, Lovise Bortne Drange, Marita Kolby Dahl et al."
+first_author: "[[Liu, Peng]]"
+last_author: "[[Drange, Lovise Bortne]]"
+authors: "[[Liu, Peng]]; [[Rodahl, Terje]]; [[Drange, Lovise Bortne]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2312.01314"
 external_pdf: "https://arxiv.org/pdf/2312.01314.pdf"
 publication: "arXiv / EMNLP 2024"

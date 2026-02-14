@@ -8,9 +8,10 @@ key: LSRC0270
 type: journalArticle
 short_title: "Towards Realistic Evaluation of Cultural Value Alignment in Large Language Models: Diversity Enhancement for Survey Response Simulation"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 doi: 10.1016/j.techfore.2025.123XX
 url: "https://www.sciencedirect.com/science/article/abs/pii/S030645732500041X"
 publication: "Technological Forecasting and Social Change (ScienceDirect)"

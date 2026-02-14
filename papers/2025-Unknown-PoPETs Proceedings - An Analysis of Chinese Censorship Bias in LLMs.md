@@ -7,9 +7,10 @@ key: LSRC0706
 type: conferencePaper
 short_title: "PoPETs Proceedings — An Analysis of Chinese Censorship Bias in LLMs"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://petsymposium.org/popets/2025/popets-2025-0122.php"
 external_pdf: "https://petsymposium.org/popets/2025/popets-2025-0122.pdf"
 publication: Web

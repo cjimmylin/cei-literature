@@ -7,9 +7,10 @@ key: LSRC0438
 type: preprint
 short_title: "Low-Resource Dialect Adaptation of Large Language Models: A French Dialect Case-Study"
 year: 2025
-first_author: "[[Eeham Khan]]"
-last_author: [[Unknown]]
-authors: "Eeham Khan; Firas Saidani; Owen Van Esbroeck; Richard Khoury; Leila Kosseim"
+first_author: "[[Khan, Eeham]]"
+last_author: "[[Kosseim, Leila]]"
+authors: "[[Khan, Eeham]]; [[Saidani, Firas]]; [[Van Esbroeck, Owen]]; [[Khoury, Richard]]; [[Kosseim, Leila]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2510.22747"
 external_pdf: "https://arxiv.org/pdf/2510.22747.pdf"
 publication: arXiv

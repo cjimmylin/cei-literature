@@ -8,9 +8,10 @@ key: LSRC0223
 type: conferencePaper
 short_title: "A Call for a Research Agenda on Fair NLP for Portuguese"
 year: 2025
-first_author: "[[Authors not fully retrieved]]"
-last_author: "[[Authors not fully retrieved]]"
-authors: "Authors not fully retrieved"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://sol.sbc.org.br/index.php/stil/article/view/25450"
 external_pdf: "https://sol.sbc.org.br/index.php/stil/article/download/25450/25271"
 publication: "STIL 2023"

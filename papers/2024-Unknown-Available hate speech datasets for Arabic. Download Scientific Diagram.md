@@ -7,9 +7,10 @@ key: LSRC0742
 type: conferencePaper
 short_title: "Available hate speech datasets for Arabic. | Download Scientific Diagram"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.researchgate.net/figure/Available-hate-speech-datasets-for-Arabic_tbl1_381031629"
 publication: ResearchGate
 pdf_extract: 

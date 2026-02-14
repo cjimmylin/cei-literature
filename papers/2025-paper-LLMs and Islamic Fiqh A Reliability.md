@@ -7,10 +7,10 @@ key: EXSR0399
 type: conference_paper
 short_title: "LLMs and Islamic Fiqh A Reliability"
 year: 2025
-first_author: "[[paper), Unknown (OpenReview]]"
-last_author: "[[paper), Unknown (OpenReview]]"
-authors: "[[Unknown (OpenReview paper)]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: 
 external_pdf: 
 pdf_extract: 

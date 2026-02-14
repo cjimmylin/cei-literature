@@ -7,9 +7,10 @@ key: LSRC0689
 type: conferencePaper
 short_title: "Ce‐LLMs: Status and trends of education‐specific large language models developed in China - Xie - 2025 - Future in Educational Research - Wiley Online Library"
 year: 2025
-first_author: "[[Tao Xie]]"
-last_author: [[Unknown]]
-authors: "Tao Xie; Yingli Zhou; Jiazhen Yu"
+first_author: "[[Xie, Tao]]"
+last_author: "[[Yu, Jiazhen]]"
+authors: "[[Xie, Tao]]; [[Zhou, Yingli]]; [[Yu, Jiazhen]]"
+authors_incomplete: false
 doi: 10.1002/fer3.70008
 url: "https://onlinelibrary.wiley.com/doi/10.1002/fer3.70008"
 publication: Web

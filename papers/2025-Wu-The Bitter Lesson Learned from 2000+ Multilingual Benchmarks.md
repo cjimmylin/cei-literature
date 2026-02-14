@@ -8,9 +8,10 @@ key: LSRC0300
 type: preprint
 short_title: "The Bitter Lesson Learned from 2,000+ Multilingual Benchmarks"
 year: 2025
-first_author: "[[Minghao Wu]]"
-last_author: [[Unknown]]
-authors: "Minghao Wu; Weixuan Wang; Sinuo Liu; Huifeng Yin; Xintong Wang; Yu Zhao; Chenyang Lyu; Longyue Wang; Weihua Luo; Kaifu Zhang"
+first_author: "[[Wu, Minghao]]"
+last_author: "[[Zhang, Kaifu]]"
+authors: "[[Wu, Minghao]]; [[Wang, Weixuan]]; [[Liu, Sinuo]]; [[Yin, Huifeng]]; [[Wang, Xintong]]; [[Zhao, Yu]]; [[Lyu, Chenyang]]; [[Wang, Longyue]]; [[Luo, Weihua]]; [[Zhang, Kaifu]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2504.15521"
 external_pdf: "https://arxiv.org/pdf/2504.15521.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks.md"

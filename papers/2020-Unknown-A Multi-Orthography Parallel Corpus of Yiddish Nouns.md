@@ -8,9 +8,10 @@ key: LSRC0040
 type: conferencePaper
 short_title: "A Multi-Orthography Parallel Corpus of Yiddish Nouns"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2020.lrec-1.119/"
 external_pdf: "https://aclanthology.org/2020.lrec-1.119.pdf"
 publication: "ACL Anthology (LREC 2020)"

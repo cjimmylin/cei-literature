@@ -7,9 +7,10 @@ key: LSRC0032
 type: preprint
 short_title: "HalleluBERT: Let every token that has meaning bear its weight"
 year: 2025
-first_author: "[[Raphael Scheible-Schmitt]]"
-last_author: [[Unknown]]
-authors: "Raphael Scheible-Schmitt"
+first_author: "[[Scheible-Schmitt, Raphael]]"
+last_author: "[[Scheible-Schmitt, Raphael]]"
+authors: "[[Scheible-Schmitt, Raphael]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2510.21372"
 external_pdf: "https://arxiv.org/pdf/2510.21372.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight.md"

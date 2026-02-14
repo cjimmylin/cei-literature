@@ -8,9 +8,10 @@ key: LSRC0177
 type: conferencePaper
 short_title: "BanHate: An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2025.banglalp-1.19/"
 external_pdf: "https://aclanthology.org/2025.banglalp-1.19.pdf"
 publication: "ACL Anthology (BLP 2025)"

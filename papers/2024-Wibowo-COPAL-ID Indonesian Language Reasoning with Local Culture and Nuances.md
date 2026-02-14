@@ -7,9 +7,10 @@ key: LSRC0100
 type: preprint
 short_title: "COPAL-ID: Indonesian Language Reasoning with Local Culture and Nuances"
 year: 2025
-first_author: "[[Haryo Akbarianto Wibowo]]"
-last_author: [[Unknown]]
-authors: "Haryo Akbarianto Wibowo; Erland Hilman Fuadi; Made Nindyatama Nityasya; Radityo Eko Prasojo; Alham Fikri Aji"
+first_author: "[[Wibowo, Haryo Akbarianto]]"
+last_author: "[[Aji, Alham Fikri]]"
+authors: "[[Wibowo, Haryo Akbarianto]]; [[Fuadi, Erland Hilman]]; [[Nityasya, Made Nindyatama]]; [[Prasojo, Radityo Eko]]; [[Aji, Alham Fikri]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2311.01012"
 external_pdf: "https://arxiv.org/pdf/2311.01012.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances.md"

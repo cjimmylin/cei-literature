@@ -7,9 +7,10 @@ key: LSRC0755
 type: conferencePaper
 short_title: "Multilingual Multicultural Evaluation Workshop"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://multilingual-multicultural-evaluation.github.io/"
 publication: Web
 pdf_extract: 

@@ -7,9 +7,10 @@ key: LSRC0694
 type: conferencePaper
 short_title: "CMoralEval: A Moral Evaluation Benchmark for Chinese ..."
 year: 2025
-first_author: "[[Linhao Yu]]"
-last_author: [[Unknown]]
-authors: "Linhao Yu; Yongqi Leng; Yufei Huang; Shang Wu; Haixin Liu; Xinmeng Ji; Jiahui Zhao; Jinwang Song; Tingting Cui; Xiaoqing Cheng; Tao Liu; Deyi Xiong"
+first_author: "[[Yu, Linhao]]"
+last_author: "[[Xiong, Deyi]]"
+authors: "[[Yu, Linhao]]; [[Leng, Yongqi]]; [[Huang, Yufei]]; [[Wu, Shang]]; [[Liu, Haixin]]; [[Ji, Xinmeng]]; [[Zhao, Jiahui]]; [[Song, Jinwang]]; [[Cui, Tingting]]; [[Cheng, Xiaoqing]]; [[Liu, Tao]]; [[Xiong, Deyi]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2024.findings-acl.703.pdf"
 external_pdf: "https://arxiv.org/pdf/2408.09819v1.pdf"
 publication: "ACL Anthology"

@@ -7,9 +7,10 @@ key: LSRC0299
 type: preprint
 short_title: "Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on End-User Devices"
 year: 2025
-first_author: "[[Carlos González Carballo]]"
-last_author: "[[Carlos González Carballo]]"
-authors: "Carlos González Carballo, et al."
+first_author: "[[Carballo, Carlos González]]"
+last_author: "[[Carballo, Carlos González]]"
+authors: "[[Carballo, Carlos González]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2504.03312"
 external_pdf: "https://arxiv.org/pdf/2504.03312.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Carballo-Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on.md"

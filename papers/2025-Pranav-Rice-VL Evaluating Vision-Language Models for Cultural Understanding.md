@@ -7,9 +7,10 @@ key: LSRC0124
 type: preprint
 short_title: "Rice-VL: Evaluating Vision-Language Models for Cultural Understanding Across ASEAN Countries"
 year: 2025
-first_author: "[[Tushar Pranav]]"
-last_author: [[Unknown]]
-authors: "Tushar Pranav; Eshan Pandey; Austria Lyka Diane Bala; Aman Chadha; Indriyati Atmosukarto; Donny Soh Cheng Lock"
+first_author: "[[Pranav, Tushar]]"
+last_author: "[[Lock, Donny Soh Cheng]]"
+authors: "[[Pranav, Tushar]]; [[Pandey, Eshan]]; [[Bala, Austria Lyka Diane]]; [[Chadha, Aman]]; [[Atmosukarto, Indriyati]]; [[Lock, Donny Soh Cheng]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2512.01419"
 external_pdf: "https://arxiv.org/pdf/2512.01419.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.md"

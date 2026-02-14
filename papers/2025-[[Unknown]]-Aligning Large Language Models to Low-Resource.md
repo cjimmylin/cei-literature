@@ -7,9 +7,9 @@ key: EXSR0325
 type: conference_paper
 short_title: "Aligning Large Language Models to Low-Resource"
 year: 2025
-first_author: [[[[Unknown]]]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://aclanthology.org/2025.bhasha-1.6/"
 external_pdf: "https://aclanthology.org/2025.bhasha-1.6.pdf"

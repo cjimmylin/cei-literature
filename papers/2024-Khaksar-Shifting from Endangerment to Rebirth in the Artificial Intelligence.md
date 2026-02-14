@@ -8,9 +8,10 @@ key: LSRC0157
 type: preprint
 short_title: "Shifting from Endangerment to Rebirth in the Artificial Intelligence Age: An Ensemble Machine Learning Approach for Hawrami Text Classification"
 year: 2025
-first_author: "[[Aram Khaksar]]"
-last_author: [[Unknown]]
-authors: "Aram Khaksar; Hossein Hassani"
+first_author: "[[Khaksar, Aram]]"
+last_author: "[[Hassani, Hossein]]"
+authors: "[[Khaksar, Aram]]; [[Hassani, Hossein]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2409.16884"
 external_pdf: "https://arxiv.org/pdf/2409.16884.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Khaksar-Shifting from Endangerment to Rebirth in the Artificial Intelligence.md"

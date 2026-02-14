@@ -7,9 +7,9 @@ key: EXSR0381
 type: preprint
 short_title: "INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate"
 year: 2025
-first_author: [[[[Unknown]]]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://cse.iitkgp.ac.in/~abhijnan/papers/singh_hate_speech.pdf"
 external_pdf: "https://cse.iitkgp.ac.in/~abhijnan/papers/singh_hate_speech.pdf"

@@ -7,9 +7,10 @@ key: LSRC0746
 type: conferencePaper
 short_title: "A Systematic Study of Position Bias in LLM-as-a-Judge"
 year: 2025
-first_author: "[[Lin Shi]]"
-last_author: [[Unknown]]
-authors: "Lin Shi; Chiyu Ma; Wenhua Liang; Xingjian Diao; Weicheng Ma; Soroush Vosoughi"
+first_author: "[[Shi, Lin]]"
+last_author: "[[Vosoughi, Soroush]]"
+authors: "[[Shi, Lin]]; [[Ma, Chiyu]]; [[Liang, Wenhua]]; [[Diao, Xingjian]]; [[Ma, Weicheng]]; [[Vosoughi, Soroush]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2025.ijcnlp-long.18.pdf"
 external_pdf: "https://arxiv.org/pdf/2406.07791v9.pdf"
 publication: "ACL Anthology"

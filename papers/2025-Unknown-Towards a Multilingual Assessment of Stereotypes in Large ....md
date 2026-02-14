@@ -7,9 +7,10 @@ key: LSRC0680
 type: conferencePaper
 short_title: "Towards a Multilingual Assessment of Stereotypes in Large ..."
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2025.naacl-long.600.pdf"
 external_pdf: "https://aclanthology.org/2025.naacl-long.600.pdf"
 publication: "ACL Anthology"

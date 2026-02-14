@@ -7,9 +7,10 @@ key: LSRC0548
 type: conferencePaper
 short_title: "Pre-training Data Quality and Quantity for a Low-Resource Language: New Corpus and BERT Models for Maltese"
 year: 2025
-first_author: "[[Kurt Micallef]]"
-last_author: "[[Albert Gatt]]"
-authors: "Kurt Micallef, Albert Gatt et al."
+first_author: "[[Micallef, Kurt]]"
+last_author: "[[Micallef, Kurt]]"
+authors: "[[Micallef, Kurt]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2022.deeplo-1.10/"
 external_pdf: "https://arxiv.org/pdf/2205.10517.pdf"
 publication: "ACL Anthology / DeepLo 2022"

@@ -7,9 +7,10 @@ key: LSRC0704
 type: conferencePaper
 short_title: "Cultural Bias in Large Language Models: A Comprehensive Analysis and Mitigation Strategies"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 doi: 10.1515/jtc-2023-0019/html?lang=en
 url: "https://www.degruyterbrill.com/document/doi/10.1515/jtc-2023-0019/html?lang=en"
 publication: Web

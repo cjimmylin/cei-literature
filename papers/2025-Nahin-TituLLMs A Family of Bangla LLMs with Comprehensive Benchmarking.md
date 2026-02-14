@@ -7,9 +7,10 @@ key: LSRC0183
 type: preprint
 short_title: "TituLLMs: A Family of Bangla LLMs with Comprehensive Benchmarking"
 year: 2025
-first_author: "[[Shahriar Kabir Nahin]]"
-last_author: [[Unknown]]
-authors: "Shahriar Kabir Nahin; Rabindra Nath Nandi; Sagor Sarker; Quazi Sarwar Muhtaseem; Md Kowsher; Apu Chandraw Shill; Md Ibrahim; Mehadi Hasan Menon; Tareq Al Muntasir; Firoj Alam"
+first_author: "[[Nahin, Shahriar Kabir]]"
+last_author: "[[Alam, Firoj]]"
+authors: "[[Nahin, Shahriar Kabir]]; [[Nandi, Rabindra Nath]]; [[Sarker, Sagor]]; [[Muhtaseem, Quazi Sarwar]]; [[Kowsher, Md]]; [[Shill, Apu Chandraw]]; [[Ibrahim, Md]]; [[Menon, Mehadi Hasan]]; [[Al Muntasir, Tareq]]; [[Alam, Firoj]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2502.11187"
 external_pdf: "https://arxiv.org/pdf/2502.11187.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking.md"

@@ -7,9 +7,10 @@ key: LSRC0118
 type: preprint
 short_title: "IndoLEM and IndoBERT: A Benchmark Dataset and Pre-trained Language Model for Indonesian NLP"
 year: 2025
-first_author: "[[Fajri Koto]]"
-last_author: [[Unknown]]
-authors: "Fajri Koto; Afshin Rahimi; Jey Han Lau; Timothy Baldwin"
+first_author: "[[Koto, Fajri]]"
+last_author: "[[Baldwin, Timothy]]"
+authors: "[[Koto, Fajri]]; [[Rahimi, Afshin]]; [[Lau, Jey Han]]; [[Baldwin, Timothy]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2011.00677"
 external_pdf: "https://arxiv.org/pdf/2011.00677.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.md"

@@ -7,10 +7,10 @@ key: EXSR0415
 type: journal_article
 short_title: "NepX-Hate A Nepali Hate Speech Corpus"
 year: 2025
-first_author: [[Basile]]
-last_author: [[Bosco]]
-authors: "[[Basile]]; [[Bosco]]; [[and others]]"
-authors_incomplete: false
+first_author: "[[Basile]]"
+last_author: "[[Bosco]]"
+authors: "[[Basile]]; [[Bosco]]"
+authors_incomplete: true
 url: "https://openreview.net/forum?id=PChNLEcv3V"
 external_pdf: "https://openreview.net/pdf?id=PChNLEcv3V"
 pdf_extract: "PDF Extracts/2025/2025-Basile-NepX-Hate A Nepali Hate Speech Corpus.md"

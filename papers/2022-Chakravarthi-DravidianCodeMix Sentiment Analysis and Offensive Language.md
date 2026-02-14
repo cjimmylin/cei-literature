@@ -7,10 +7,10 @@ key: EXSR0584
 type: preprint
 short_title: "DravidianCodeMix Sentiment Analysis and Offensive Language"
 year: 2025
-first_author: [[Chakravarthi]]
-last_author: [[Chakravarthi]]
-authors: "[[Chakravarthi]]; [[and others]]"
-authors_incomplete: false
+first_author: "[[Chakravarthi]]"
+last_author: "[[Chakravarthi]]"
+authors: "[[Chakravarthi]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2106.09460"
 external_pdf: "https://arxiv.org/pdf/2106.09460.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language.md"

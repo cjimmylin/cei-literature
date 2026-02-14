@@ -7,9 +7,10 @@ key: LSRC0684
 type: conferencePaper
 short_title: "Sentiment analysis of classical Chinese literature: An unsupervised deep learning model with BERT and graph attention networks | PLOS One"
 year: 2025
-first_author: "[[Xiaohan Yu]]"
-last_author: [[Unknown]]
-authors: "Xiaohan Yu; Jin Wang"
+first_author: "[[Yu, Xiaohan]]"
+last_author: "[[Wang, Jin]]"
+authors: "[[Yu, Xiaohan]]; [[Wang, Jin]]"
+authors_incomplete: false
 doi: 10.1371/journal.pone.0330919
 url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0330919"
 external_pdf: "https://europepmc.org/articles/PMC12456827?pdf=render"

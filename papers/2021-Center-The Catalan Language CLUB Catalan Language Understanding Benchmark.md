@@ -7,9 +7,10 @@ key: LSRC0520
 type: preprint
 short_title: "The Catalan Language CLUB (Catalan Language Understanding Benchmark)"
 year: 2025
-first_author: "[[Carlos Rodriguez-Penagos et al. (Barcelona Supercomputing Center)]]"
-last_author: "[[Carlos Rodriguez-Penagos et al. (Barcelona Supercomputing Center)]]"
-authors: "Carlos Rodriguez-Penagos et al. (Barcelona Supercomputing Center)"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2112.01894"
 external_pdf: "https://arxiv.org/pdf/2112.01894.pdf"
 publication: arXiv

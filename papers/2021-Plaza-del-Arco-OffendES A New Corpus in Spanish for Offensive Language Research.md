@@ -8,9 +8,10 @@ key: LSRC0279
 type: conferencePaper
 short_title: "OffendES: A New Corpus in Spanish for Offensive Language Research"
 year: 2025
-first_author: "[[Flor Miriam Plaza-del-Arco]]"
-last_author: "[[Flor Miriam Plaza-del-Arco]]"
-authors: "Flor Miriam Plaza-del-Arco, et al."
+first_author: "[[Plaza-del-Arco, Flor Miriam]]"
+last_author: "[[Plaza-del-Arco, Flor Miriam]]"
+authors: "[[Plaza-del-Arco, Flor Miriam]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2021.ranlp-1.123/"
 external_pdf: "https://doi.org/10.26615/978-954-452-072-4_123"
 publication: "ACL Anthology / RANLP 2021"

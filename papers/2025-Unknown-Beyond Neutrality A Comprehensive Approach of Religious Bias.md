@@ -7,9 +7,10 @@ key: LSRC0737
 type: conferencePaper
 short_title: "Beyond Neutrality: A Comprehensive Approach of Religious Bias"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://dspace.bracu.ac.bd/xmlui/bitstream/handle/10361/27421/21201496,%2022101698,%2022101788,%2022101426_CSE.pdf?sequence=1&isAllowed=y"
 external_pdf: "https://dspace.bracu.ac.bd/xmlui/bitstream/handle/10361/27421/21201496,%2022101698,%2022101788,%2022101426_CSE.pdf?sequence=1&isAllowed=y"
 publication: Web

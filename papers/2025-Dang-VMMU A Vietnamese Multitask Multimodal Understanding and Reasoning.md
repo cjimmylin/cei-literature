@@ -7,9 +7,10 @@ key: LSRC0379
 type: preprint
 short_title: "VMMU: A Vietnamese Multitask Multimodal Understanding and Reasoning Benchmark"
 year: 2025
-first_author: "[[Vy Tuong Dang]]"
-last_author: [[Unknown]]
-authors: "Vy Tuong Dang; An Vo; Emilio Villa-Cueva; Quang Tau; Duc Dm; Thamar Solorio; Daeyoung Kim"
+first_author: "[[Dang, Vy Tuong]]"
+last_author: "[[Kim, Daeyoung]]"
+authors: "[[Dang, Vy Tuong]]; [[Vo, An]]; [[Villa-Cueva, Emilio]]; [[Tau, Quang]]; [[Dm, Duc]]; [[Solorio, Thamar]]; [[Kim, Daeyoung]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2508.13680"
 external_pdf: "https://arxiv.org/pdf/2508.13680.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.md"

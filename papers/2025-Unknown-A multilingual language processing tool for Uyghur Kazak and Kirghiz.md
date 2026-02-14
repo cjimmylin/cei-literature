@@ -7,9 +7,10 @@ key: LSRC0614
 type: conferencePaper
 short_title: "A multilingual language processing tool for Uyghur, Kazak and Kirghiz | IEEE Conference Publication | IEEE Xplore"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://ieeexplore.ieee.org/document/8282131"
 publication: IEEE
 pdf_extract: 

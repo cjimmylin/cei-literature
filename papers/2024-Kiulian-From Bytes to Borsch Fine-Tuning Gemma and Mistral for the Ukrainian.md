@@ -7,9 +7,10 @@ key: LSRC0317
 type: preprint
 short_title: "From Bytes to Borsch: Fine-Tuning Gemma and Mistral for the Ukrainian Language Representation"
 year: 2025
-first_author: "[[Ostap Kiulian]]"
-last_author: "[[Iryna Polishko]]"
-authors: "Ostap Kiulian, Iryna Polishko, et al."
+first_author: "[[Kiulian, Ostap]]"
+last_author: "[[Polishko, Iryna]]"
+authors: "[[Kiulian, Ostap]]; [[Polishko, Iryna]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2404.09138"
 external_pdf: "https://arxiv.org/pdf/2404.09138.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Kiulian-From Bytes to Borsch Fine-Tuning Gemma and Mistral for the Ukrainian.md"

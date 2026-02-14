@@ -7,9 +7,10 @@ key: LSRC0519
 type: preprint
 short_title: "Latxa: An Open Language Model and Evaluation Suite for Basque"
 year: 2025
-first_author: "[[Julen Etxaniz]]"
-last_author: "[[Oscar Sainz]]"
-authors: "Julen Etxaniz, Oscar Sainz et al."
+first_author: "[[Etxaniz, Julen]]"
+last_author: "[[Etxaniz, Julen]]"
+authors: "[[Etxaniz, Julen]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2403.20266"
 external_pdf: "https://arxiv.org/pdf/2403.20266.pdf"
 publication: "arXiv / ACL 2024"

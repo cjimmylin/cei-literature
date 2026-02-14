@@ -7,9 +7,10 @@ key: LSRC0764
 type: journalArticle
 short_title: "Improving hate speech detection using Cross-Lingual Learning - ScienceDirect"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0957417423016172"
 publication: ScienceDirect
 pdf_extract: 

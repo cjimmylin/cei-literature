@@ -7,9 +7,10 @@ key: LSRC0604
 type: preprint
 short_title: "KyrgyzBERT: A Compact, Efficient Language Model for Kyrgyz NLP"
 year: 2025
-first_author: "[[Adilet Metinov]]"
-last_author: [[Unknown]]
-authors: "Adilet Metinov; Gulida M. Kudakeeva; Gulnara D. Kabaeva"
+first_author: "[[Metinov, Adilet]]"
+last_author: "[[Kabaeva, Gulnara D.]]"
+authors: "[[Metinov, Adilet]]; [[Kudakeeva, Gulida M.]]; [[Kabaeva, Gulnara D.]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2511.20182"
 external_pdf: "https://arxiv.org/pdf/2511.20182.pdf"
 publication: arXiv

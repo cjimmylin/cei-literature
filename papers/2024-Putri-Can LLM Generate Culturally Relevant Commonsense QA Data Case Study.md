@@ -7,9 +7,10 @@ key: LSRC0102
 type: preprint
 short_title: "Can LLM Generate Culturally Relevant Commonsense QA Data? Case Study in Indonesian and Sundanese"
 year: 2025
-first_author: "[[Rifki Afina Putri]]"
-last_author: [[Unknown]]
-authors: "Rifki Afina Putri; Faiz Ghifari Haznitrama; Dea Adhista; Alice Oh"
+first_author: "[[Putri, Rifki Afina]]"
+last_author: "[[Oh, Alice]]"
+authors: "[[Putri, Rifki Afina]]; [[Haznitrama, Faiz Ghifari]]; [[Adhista, Dea]]; [[Oh, Alice]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2402.17302"
 external_pdf: "https://arxiv.org/pdf/2402.17302.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study.md"

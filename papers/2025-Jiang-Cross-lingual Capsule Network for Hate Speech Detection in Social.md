@@ -7,9 +7,10 @@ key: LSRC0771
 type: conferencePaper
 short_title: "Cross-lingual Capsule Network for Hate Speech Detection in Social Media | Proceedings of the 32nd ACM Conference on Hypertext and Social Media"
 year: 2025
-first_author: "[[Aiqi Jiang]]"
-last_author: [[Unknown]]
-authors: "Aiqi Jiang; Arkaitz Zubiaga"
+first_author: "[[Jiang, Aiqi]]"
+last_author: "[[Zubiaga, Arkaitz]]"
+authors: "[[Jiang, Aiqi]]; [[Zubiaga, Arkaitz]]"
+authors_incomplete: false
 doi: 10.1145/3465336.3475102
 url: "https://dl.acm.org/doi/10.1145/3465336.3475102"
 external_pdf: "https://arxiv.org/pdf/2108.03089"

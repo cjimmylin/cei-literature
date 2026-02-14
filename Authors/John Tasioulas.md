@@ -27,8 +27,7 @@ Key contributions include work on:
 ## Papers in this Vault
 
 
-- [[2024-Ober-AI Ethics with Aristotle|AI Ethics with Aristotle]] (Last Author)
-- [[2024-Ober-Lyceum Project AI Ethics Aristotle|Lyceum Project AI Ethics Aristotle]] (Last Author)
+- [[2024-Ober-Lyceum Project AI Ethics Aristotle|AI Ethics with Aristotle]] (Last Author)
 - [[2024-Sorensen-Value Kaleidoscope|Value Kaleidoscope]]
 
 ## Notes

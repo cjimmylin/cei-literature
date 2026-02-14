@@ -8,9 +8,10 @@ key: LSRC0153
 type: journalArticle
 short_title: "KurdABSA: Kurdish Aspect-Based Sentiment Analysis Dataset Curation Using Few-Shot Learning"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.sciencedirect.com/science/article/pii/S2352340925007358"
 external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12452362/pdf/main.pdf"
 publication: "Data in Brief (ScienceDirect)"

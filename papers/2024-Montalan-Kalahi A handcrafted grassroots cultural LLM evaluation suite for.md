@@ -7,9 +7,10 @@ key: LSRC0109
 type: preprint
 short_title: "Kalahi: A handcrafted, grassroots cultural LLM evaluation suite for Filipino"
 year: 2025
-first_author: "[[Jann Railey Montalan]]"
-last_author: [[Unknown]]
-authors: "Jann Railey Montalan; Jian Gang Ngui; Wei Qi Leong; Yosephine Susanto; Hamsawardhini Rengarajan; Alham Fikri Aji; William Chandra Tjhi"
+first_author: "[[Montalan, Jann Railey]]"
+last_author: "[[Tjhi, William Chandra]]"
+authors: "[[Montalan, Jann Railey]]; [[Ngui, Jian Gang]]; [[Leong, Wei Qi]]; [[Susanto, Yosephine]]; [[Rengarajan, Hamsawardhini]]; [[Aji, Alham Fikri]]; [[Tjhi, William Chandra]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2409.15380"
 external_pdf: "https://arxiv.org/pdf/2409.15380.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for.md"

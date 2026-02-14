@@ -7,9 +7,10 @@ key: LSRC0610
 type: conferencePaper
 short_title: "Benchmarking Large Language Models for fairness across diverse downstream tasks"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://community.sap.com/t5/artificial-intelligence-blogs-posts/benchmarking-large-language-models-for-fairness-across-diverse-downstream/ba-p/14287254"
 publication: Web
 pdf_extract: 

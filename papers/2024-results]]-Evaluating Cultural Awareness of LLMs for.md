@@ -7,10 +7,10 @@ key: EXSR0477
 type: preprint
 short_title: "Evaluating Cultural Awareness of LLMs for"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2410.01811"
 external_pdf: "https://arxiv.org/pdf/2410.01811.pdf"
 pdf_extract: "PDF Extracts/2024/2024-results]]-Evaluating Cultural Awareness of LLMs for.md"

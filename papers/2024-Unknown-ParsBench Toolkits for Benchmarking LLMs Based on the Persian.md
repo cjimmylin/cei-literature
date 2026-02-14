@@ -8,9 +8,10 @@ key: LSRC0144
 type: conferencePaper
 short_title: "ParsBench: Toolkits for Benchmarking LLMs Based on the Persian Language Tasks"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://github.com/ParsBench/ParsBench"
 external_pdf: "https://arxiv.org/pdf/2404.02403"
 publication: "GitHub / HuggingFace"

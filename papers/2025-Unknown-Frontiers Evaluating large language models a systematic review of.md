@@ -7,9 +7,10 @@ key: LSRC0617
 type: journalArticle
 short_title: "Frontiers | Evaluating large language models: a systematic review of efficiency, applications, and future directions"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 doi: 10.3389/fcomp.2025.1523699/full
 url: "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1523699/full"
 publication: Frontiers

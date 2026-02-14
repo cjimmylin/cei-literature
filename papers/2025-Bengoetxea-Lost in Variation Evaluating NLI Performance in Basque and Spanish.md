@@ -7,9 +7,10 @@ key: LSRC0296
 type: preprint
 short_title: "Lost in Variation? Evaluating NLI Performance in Basque and Spanish Geographical Variants"
 year: 2025
-first_author: "[[Jaione Bengoetxea]]"
-last_author: [[Unknown]]
-authors: "Jaione Bengoetxea; Itziar Gonzalez-Dios; Rodrigo Agerri"
+first_author: "[[Bengoetxea, Jaione]]"
+last_author: "[[Agerri, Rodrigo]]"
+authors: "[[Bengoetxea, Jaione]]; [[Gonzalez-Dios, Itziar]]; [[Agerri, Rodrigo]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2506.15239"
 external_pdf: "https://arxiv.org/pdf/2506.15239.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish.md"

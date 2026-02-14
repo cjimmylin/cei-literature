@@ -7,10 +7,10 @@ key: EXSR0317
 type: preprint
 short_title: "A Foundational Architecture for Engineering an"
 year: 2025
-first_author: "[[Nsarkoh, F., Banful, A.B., Arthur, J.,]]"
-last_author: "[[Nsarkoh, F., Banful, A.B., Arthur, J.,]]"
-authors: "[[Nsarkoh, F., Banful, A.B., Arthur, J., et al]]"
-authors_incomplete: false
+first_author: "[[Nsarkoh]]"
+last_author: "[[J.]]"
+authors: "[[Nsarkoh]]; [[F.]]; [[Banful]]; [[A.B.]]; [[Arthur]]; [[J.]]"
+authors_incomplete: true
 url: 
 external_pdf: "https://core.ac.uk/download/55728193.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Nsarkoh-A Foundational Architecture for Engineering an.md"

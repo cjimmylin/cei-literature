@@ -7,9 +7,10 @@ key: LSRC0441
 type: preprint
 short_title: "Cross-Language Bias Examination in Large Language Models"
 year: 2025
-first_author: "[[Yuxuan Liang]]"
-last_author: "[[Yuxuan Liang]]"
-authors: "Yuxuan Liang, et al."
+first_author: "[[Liang, Yuxuan]]"
+last_author: "[[Liang, Yuxuan]]"
+authors: "[[Liang, Yuxuan]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2512.16029"
 external_pdf: "https://arxiv.org/pdf/2512.16029.pdf"
 publication: arXiv

@@ -7,9 +7,9 @@ key: EXSR0410
 type: preprint
 short_title: "Mitigating Social Bias in English and"
 year: 2025
-first_author: [[[[Unknown]]]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2512.09854"
 external_pdf: "https://arxiv.org/pdf/2512.09854.pdf"

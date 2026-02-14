@@ -7,9 +7,10 @@ key: LSRC0120
 type: preprint
 short_title: "LoraxBench: A Multitask, Multilingual Benchmark Suite for 20 Indonesian Languages"
 year: 2025
-first_author: "[[Alham Fikri Aji]]"
-last_author: [[Unknown]]
-authors: "Alham Fikri Aji; Trevor Cohn"
+first_author: "[[Aji, Alham Fikri]]"
+last_author: "[[Cohn, Trevor]]"
+authors: "[[Aji, Alham Fikri]]; [[Cohn, Trevor]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2508.12459"
 external_pdf: "https://arxiv.org/pdf/2508.12459.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.md"

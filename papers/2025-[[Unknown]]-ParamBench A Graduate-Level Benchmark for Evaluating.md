@@ -7,9 +7,9 @@ key: EXSR0418
 type: preprint
 short_title: "ParamBench A Graduate-Level Benchmark for Evaluating"
 year: 2025
-first_author: [[[[Unknown]]]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2508.16185"
 external_pdf: "https://arxiv.org/pdf/2508.16185.pdf"

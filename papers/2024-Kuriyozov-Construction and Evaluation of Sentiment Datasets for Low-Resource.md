@@ -7,9 +7,10 @@ key: LSRC0618
 type: conferencePaper
 short_title: "Construction and Evaluation of Sentiment Datasets for Low-Resource Languages: The Case of Uzbek | Springer Nature Link"
 year: 2025
-first_author: "[[Elmurod Kuriyozov]]"
-last_author: [[Unknown]]
-authors: "Elmurod Kuriyozov; Sanatbek Matlatipov; Miguel A. Alonso; Carlos Gómez-Rodríguez"
+first_author: "[[Kuriyozov, Elmurod]]"
+last_author: "[[Gómez-Rodríguez, Carlos]]"
+authors: "[[Kuriyozov, Elmurod]]; [[Matlatipov, Sanatbek]]; [[Alonso, Miguel A.]]; [[Gómez-Rodríguez, Carlos]]"
+authors_incomplete: false
 doi: 10.1007/978-3-031-05328-3_15
 url: "https://link.springer.com/chapter/10.1007/978-3-031-05328-3_15"
 publication: Springer

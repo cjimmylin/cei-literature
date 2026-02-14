@@ -7,9 +7,10 @@ key: LSRC0510
 type: preprint
 short_title: "An Empirical Investigation of Gender Stereotype Representation in Large Language Models: The Italian Case"
 year: 2025
-first_author: "[[Gioele Giachino]]"
-last_author: "[[Gioele Giachino]]"
-authors: "Gioele Giachino et al."
+first_author: "[[Giachino, Gioele]]"
+last_author: "[[Giachino, Gioele]]"
+authors: "[[Giachino, Gioele]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2507.19156"
 external_pdf: "https://arxiv.org/pdf/2507.19156.pdf"
 publication: arXiv

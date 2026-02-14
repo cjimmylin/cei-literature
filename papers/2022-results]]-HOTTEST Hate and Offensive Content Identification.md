@@ -7,10 +7,10 @@ key: EXSR0587
 type: preprint
 short_title: "HOTTEST Hate and Offensive Content Identification"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0885230822000870"
 external_pdf: "https://core.ac.uk/download/143686156.pdf"
 pdf_extract: "PDF Extracts/2022/2022-results]]-HOTTEST Hate and Offensive Content Identification.md"

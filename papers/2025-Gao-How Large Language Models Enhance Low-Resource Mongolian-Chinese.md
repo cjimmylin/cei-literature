@@ -7,9 +7,10 @@ key: LSRC0615
 type: conferencePaper
 short_title: "How Large Language Models Enhance Low-Resource Mongolian-Chinese Machine Translation?"
 year: 2025
-first_author: "[[Zhenjie Gao]]"
-last_author: [[Unknown]]
-authors: "Zhenjie Gao; Feilong Bao; Yuan Li; Ruichen Hou; Yibo Han"
+first_author: "[[Gao, Zhenjie]]"
+last_author: "[[Han, Yibo]]"
+authors: "[[Gao, Zhenjie]]; [[Bao, Feilong]]; [[Li, Yuan]]; [[Hou, Ruichen]]; [[Han, Yibo]]"
+authors_incomplete: false
 doi: 10.3724/2096-7004.di.2025.0116
 url: "https://www.sciengine.com/DI/doi/10.3724/2096-7004.di.2025.0116"
 external_pdf: "https://www.sciengine.com/doi/pdf/6A0FFAF926684232A3BB85AA8F6C02DF"

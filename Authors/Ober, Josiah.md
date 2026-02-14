@@ -57,7 +57,6 @@ twitter: ""
 
 - [[2024-Ober-Lyceum Project AI Ethics Aristotle|Lyceum Project AI Ethics Aristotle]] (First Author)]]
 
-- [[2024-Ober-Lyceum Project AI Ethics Aristotle|Lyceum Project AI Ethics Aristotle]] (First Author)
 
 ## External Links & Profiles
 

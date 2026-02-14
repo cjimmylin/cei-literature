@@ -7,9 +7,10 @@ key: LSRC0159
 type: preprint
 short_title: "KurdSTS: The Kurdish Semantic Textual Similarity"
 year: 2025
-first_author: "[[Abdulhady Abas Abdullah]]"
-last_author: [[Unknown]]
-authors: "Abdulhady Abas Abdullah; Hadi Veisi; Hussein M. Al"
+first_author: "[[Abdullah, Abdulhady Abas]]"
+last_author: "[[Al, Hussein M.]]"
+authors: "[[Abdullah, Abdulhady Abas]]; [[Veisi, Hadi]]; [[Al, Hussein M.]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2510.02336"
 external_pdf: "https://arxiv.org/pdf/2510.02336.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity.md"

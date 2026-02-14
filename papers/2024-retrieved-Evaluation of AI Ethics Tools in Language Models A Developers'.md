@@ -7,9 +7,10 @@ key: LSRC0228
 type: preprint
 short_title: "Evaluation of AI Ethics Tools in Language Models: A Developers' Perspective Case Study"
 year: 2025
-first_author: "[[Authors not fully retrieved]]"
-last_author: "[[Authors not fully retrieved]]"
-authors: "Authors not fully retrieved"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2512.15791"
 external_pdf: "https://arxiv.org/pdf/2512.15791.pdf"
 pdf_extract: "PDF Extracts/2024/2024-retrieved-Evaluation of AI Ethics Tools in Language Models A Developers'.md"

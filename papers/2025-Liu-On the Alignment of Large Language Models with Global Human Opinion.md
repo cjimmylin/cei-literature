@@ -7,9 +7,10 @@ key: LSRC0786
 type: preprint
 short_title: "On the Alignment of Large Language Models with Global Human Opinion"
 year: 2025
-first_author: "[[Yang Liu]]"
-last_author: [[Unknown]]
-authors: "Yang Liu; Masahiro Kaneko; Chenhui Chu"
+first_author: "[[Liu, Yang]]"
+last_author: "[[Chu, Chenhui]]"
+authors: "[[Liu, Yang]]; [[Kaneko, Masahiro]]; [[Chu, Chenhui]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2509.01418"
 external_pdf: "https://arxiv.org/pdf/2509.01418.pdf"
 publication: arXiv

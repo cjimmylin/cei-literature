@@ -7,9 +7,10 @@ key: LSRC0115
 type: preprint
 short_title: "NusaCrowd: Open Source Initiative for Indonesian NLP Resources"
 year: 2025
-first_author: "[[Samuel Cahyawijaya]]"
-last_author: [[Unknown]]
-authors: "Samuel Cahyawijaya; Holy Lovenia; Alham Fikri Aji; Genta Indra Winata; Bryan Wilie; Rahmad Mahendra; Christian Wibisono; Ade Romadhony; Karissa Vincentio; Fajri Koto; Jennifer Santoso; David Moeljadi; Cahya Wirawan; Frederikus Hudi; Ivan Halim Parmonangan; Ika Alfina; Muhammad Satrio Wicaksono; Ilham Firdausi Putra; Samsul Rahmadani; Yulianti Oenang; Ali Akbar Septiandri; James Jaya; Kaustubh D. Dhole; Arie Ardiyanti Suryani; Rifki Afina Putri; Dan Su; Keith Stevens; Made Nindyatama Nityasya; Muhammad Farid Adilazuarda; Ryan Ignatius; Ryandito Diandaru; Tiezheng Yu; Vito Ghifari; Wenliang Dai; Yan Xu; Dyah Damapuspita; Cuk Tho; Ichwanul Muslim Karo Karo; Tirana Noor Fatyanosa; Ziwei Ji; Pascale Fung; Graham Neubig; Timothy Baldwin; Sebastian Ruder; Herry Sujaini; Sakriani Sakti; Ayu Purwarianti"
+first_author: "[[Cahyawijaya, Samuel]]"
+last_author: "[[Purwarianti, Ayu]]"
+authors: "[[Cahyawijaya, Samuel]]; [[Lovenia, Holy]]; [[Aji, Alham Fikri]]; [[Winata, Genta Indra]]; [[Wilie, Bryan]]; [[Mahendra, Rahmad]]; [[Wibisono, Christian]]; [[Romadhony, Ade]]; [[Vincentio, Karissa]]; [[Koto, Fajri]]; [[Santoso, Jennifer]]; [[Moeljadi, David]]; [[Wirawan, Cahya]]; [[Hudi, Frederikus]]; [[Parmonangan, Ivan Halim]]; [[Alfina, Ika]]; [[Wicaksono, Muhammad Satrio]]; [[Putra, Ilham Firdausi]]; [[Rahmadani, Samsul]]; [[Oenang, Yulianti]]; [[Septiandri, Ali Akbar]]; [[Jaya, James]]; [[Dhole, Kaustubh D.]]; [[Suryani, Arie Ardiyanti]]; [[Putri, Rifki Afina]]; [[Su, Dan]]; [[Stevens, Keith]]; [[Nityasya, Made Nindyatama]]; [[Adilazuarda, Muhammad Farid]]; [[Ignatius, Ryan]]; [[Diandaru, Ryandito]]; [[Yu, Tiezheng]]; [[Ghifari, Vito]]; [[Dai, Wenliang]]; [[Xu, Yan]]; [[Damapuspita, Dyah]]; [[Tho, Cuk]]; [[Karo, Ichwanul Muslim Karo]]; [[Fatyanosa, Tirana Noor]]; [[Ji, Ziwei]]; [[Fung, Pascale]]; [[Neubig, Graham]]; [[Baldwin, Timothy]]; [[Ruder, Sebastian]]; [[Sujaini, Herry]]; [[Sakti, Sakriani]]; [[Purwarianti, Ayu]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2212.09648"
 external_pdf: "https://arxiv.org/pdf/2212.09648.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources.md"

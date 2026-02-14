@@ -8,9 +8,10 @@ key: LSRC0303
 type: conferencePaper
 short_title: "Cultural Evaluation of LLMs in Russian: Catchphrases and Cultural Types"
 year: 2025
-first_author: "[[E. Gromenko]]"
-last_author: [[E.]]
-authors: "Gromenko, E. et al."
+first_author: "[[Gromenko, E.]]"
+last_author: "[[E.]]"
+authors: "[[Gromenko, E.]]; [[E.]]"
+authors_incomplete: true
 url: "https://dialogue-conf.org/wp-content/uploads/2025/04/GromenkoEetal.029.pdf"
 external_pdf: "https://doi.org/10.28995/2075-7182-2025-23-117-128"
 publication: "Dialogue Conference 2025"

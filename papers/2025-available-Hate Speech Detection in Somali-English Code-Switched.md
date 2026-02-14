@@ -7,10 +7,10 @@ key: EXSR0375
 type: preprint
 short_title: "Hate Speech Detection in Somali-English Code-Switched"
 year: 2025
-first_author: "[[available, Authors not fully]]"
-last_author: "[[available, Authors not fully]]"
-authors: "[[Authors not fully available]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://link.springer.com/chapter/10.1007/978-981-95-3349-7_28"
 external_pdf: "https://arxiv.org/pdf/2110.09393.pdf"
 pdf_extract: "PDF Extracts/2025/2025-available-Hate Speech Detection in Somali-English Code-Switched.md"

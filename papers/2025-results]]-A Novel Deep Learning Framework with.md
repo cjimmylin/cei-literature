@@ -7,10 +7,10 @@ key: EXSR0319
 type: preprint
 short_title: "A Novel Deep Learning Framework with"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.nature.com/articles/s41599-025-06268-8"
 external_pdf: "https://arxiv.org/pdf/2011.03525v2.pdf"
 pdf_extract: "PDF Extracts/2025/2025-results]]-A Novel Deep Learning Framework with.md"

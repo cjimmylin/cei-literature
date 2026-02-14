@@ -7,10 +7,10 @@ key: EXSR0487
 type: journal_article
 short_title: "HateThaiSent Sentiment-Aided Hate Speech Detection in"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://ieeexplore.ieee.org/document/10494986/"
 external_pdf: 
 pdf_extract: 

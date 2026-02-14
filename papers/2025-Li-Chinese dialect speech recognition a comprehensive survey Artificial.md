@@ -7,9 +7,10 @@ key: LSRC0673
 type: conferencePaper
 short_title: "Chinese dialect speech recognition: a comprehensive survey | Artificial Intelligence Review"
 year: 2025
-first_author: "[[Qiang Li]]"
-last_author: [[Unknown]]
-authors: "Qiang Li; Qianyu Mai; Mandou Wang; Mingjuan Ma"
+first_author: "[[Li, Qiang]]"
+last_author: "[[Ma, Mingjuan]]"
+authors: "[[Li, Qiang]]; [[Mai, Qianyu]]; [[Wang, Mandou]]; [[Ma, Mingjuan]]"
+authors_incomplete: false
 doi: 10.1007/s10462-023-10668-0
 url: "https://link.springer.com/article/10.1007/s10462-023-10668-0"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10462-023-10668-0.pdf"

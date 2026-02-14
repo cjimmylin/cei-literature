@@ -8,9 +8,10 @@ key: LSRC0318
 type: conferencePaper
 short_title: "A Multi-Modal Dataset for Hate Speech Detection on Social Media: Case-study of Russia-Ukraine Conflict"
 year: 2025
-first_author: "[[Farhan Jafri]]"
-last_author: "[[Farhan Jafri]]"
-authors: "Farhan Jafri, et al."
+first_author: "[[Jafri, Farhan]]"
+last_author: "[[Jafri, Farhan]]"
+authors: "[[Jafri, Farhan]]"
+authors_incomplete: true
 doi: 10.18653/v1/2022.case-1.1
 url: "https://aclanthology.org/2022.case-1.1/"
 external_pdf: "https://aclanthology.org/2022.case-1.1.pdf"

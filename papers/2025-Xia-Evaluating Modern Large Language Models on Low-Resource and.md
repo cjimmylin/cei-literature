@@ -7,9 +7,10 @@ key: LSRC0606
 type: preprint
 short_title: "Evaluating Modern Large Language Models on Low-Resource and"
 year: 2025
-first_author: "[[Chengxuan Xia]]"
-last_author: [[Unknown]]
-authors: "Chengxuan Xia; Qianye Wu; Hongbin Guan; Sixuan Tian; Yilun Hao; Xiaoyu Wu"
+first_author: "[[Xia, Chengxuan]]"
+last_author: "[[Wu, Xiaoyu]]"
+authors: "[[Xia, Chengxuan]]; [[Wu, Qianye]]; [[Guan, Hongbin]]; [[Tian, Sixuan]]; [[Hao, Yilun]]; [[Wu, Xiaoyu]]"
+authors_incomplete: false
 url: "https://arxiv.org/pdf/2511.10664"
 external_pdf: "https://arxiv.org/pdf/2511.10664.pdf"
 publication: arXiv

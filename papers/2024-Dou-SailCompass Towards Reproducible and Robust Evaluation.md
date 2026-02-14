@@ -9,8 +9,8 @@ short_title: "SailCompass Towards Reproducible and Robust Evaluation"
 year: 2025
 first_author: "[[Guo, Dou]]"
 last_author: "[[Guo, Dou]]"
-authors: "[[Guo, Dou et al]]"
-authors_incomplete: false
+authors: "[[Guo, Dou]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2412.01186"
 external_pdf: "https://arxiv.org/pdf/2412.01186.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Dou-SailCompass Towards Reproducible and Robust Evaluation.md"

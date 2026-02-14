@@ -7,10 +7,10 @@ key: EXSR0403
 type: preprint
 short_title: "Lugha-Llama Adapting Large Language Models for"
 year: 2025
-first_author: "[[Happy Buzaaba,]]"
-last_author: "[[Happy Buzaaba,]]"
-authors: "[[Happy Buzaaba, et al]]"
-authors_incomplete: false
+first_author: "[[Buzaaba, Happy]]"
+last_author: "[[Buzaaba, Happy]]"
+authors: "[[Buzaaba, Happy]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2504.06536"
 external_pdf: "https://arxiv.org/pdf/2504.06536.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Happy Buzaaba-Lugha-Llama Adapting Large Language Models for.md"

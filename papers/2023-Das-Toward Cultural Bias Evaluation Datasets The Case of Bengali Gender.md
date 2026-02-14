@@ -8,9 +8,10 @@ key: LSRC0170
 type: conferencePaper
 short_title: "Toward Cultural Bias Evaluation Datasets: The Case of Bengali Gender, Religious, and National Identity (BIBED)"
 year: 2025
-first_author: "[[D. Das]]"
-last_author: [[D.]]
-authors: "Das, D. et al."
+first_author: "[[Das, D.]]"
+last_author: "[[D.]]"
+authors: "[[Das, D.]]; [[D.]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2023.c3nlp-1.8/"
 external_pdf: "https://aclanthology.org/2023.c3nlp-1.8.pdf"
 publication: "ACL Anthology (C3NLP @ EACL 2023)"

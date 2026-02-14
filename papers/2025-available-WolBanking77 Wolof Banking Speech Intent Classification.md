@@ -7,10 +7,10 @@ key: EXSR0452
 type: preprint
 short_title: "WolBanking77 Wolof Banking Speech Intent Classification"
 year: 2025
-first_author: "[[available, Authors not fully]]"
-last_author: "[[available, Authors not fully]]"
-authors: "[[Authors not fully available]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2509.19271"
 external_pdf: "https://arxiv.org/pdf/2509.19271.pdf"
 pdf_extract: "PDF Extracts/2025/2025-available-WolBanking77 Wolof Banking Speech Intent Classification.md"

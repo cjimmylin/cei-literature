@@ -8,9 +8,10 @@ key: LSRC0281
 type: conferencePaper
 short_title: "Overview of EXIST 2022: sEXism Identification in Social neTworks"
 year: 2025
-first_author: "[[Francisco Rodríguez-Sánchez]]"
-last_author: "[[Francisco Rodríguez-Sánchez]]"
-authors: "Francisco Rodríguez-Sánchez, et al."
+first_author: "[[Rodríguez-Sánchez, Francisco]]"
+last_author: "[[Rodríguez-Sánchez, Francisco]]"
+authors: "[[Rodríguez-Sánchez, Francisco]]"
+authors_incomplete: true
 url: "https://nlp.uned.es/exist2022/"
 external_pdf: "https://rua.ua.es/dspace/bitstream/10045/117491/1/PLN_67_17.pdf"
 publication: "IberLEF / CLEF / SEPLN"

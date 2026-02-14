@@ -7,10 +7,10 @@ key: EXSR0505
 type: preprint
 short_title: "Leveraging Large Language Models for Code-Mixed"
 year: 2025
-first_author: "[[[[Not fully listed in search results]]]]"
-last_author: "[[results, Not fully listed in search]]"
-authors: "[[Not fully listed in search results]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2411.00691"
 external_pdf: "https://arxiv.org/pdf/2411.00691.pdf"
 pdf_extract: "PDF Extracts/2024/2024-results]]-Leveraging Large Language Models for Code-Mixed.md"

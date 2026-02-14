@@ -7,9 +7,10 @@ key: LSRC0846
 type: preprint
 short_title: "Conditioning LLMs to Generate Code-Switched Text"
 year: 2025
-first_author: "[[Maite Heredia]]"
-last_author: [[Unknown]]
-authors: "Maite Heredia; Gorka Labaka; Jeremy Barnes; Aitor Soroa"
+first_author: "[[Heredia, Maite]]"
+last_author: "[[Soroa, Aitor]]"
+authors: "[[Heredia, Maite]]; [[Labaka, Gorka]]; [[Barnes, Jeremy]]; [[Soroa, Aitor]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2502.12924"
 external_pdf: "https://arxiv.org/pdf/2502.12924.pdf"
 publication: arXiv

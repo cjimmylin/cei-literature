@@ -7,9 +7,10 @@ key: LSRC0767
 type: conferencePaper
 short_title: "A comprehensive review on detection of hate speech for multi-lingual data | Social Network Analysis and Mining"
 year: 2025
-first_author: "[[Rachna Narula]]"
-last_author: [[Unknown]]
-authors: "Rachna Narula; Poonam Chaudhary"
+first_author: "[[Narula, Rachna]]"
+last_author: "[[Chaudhary, Poonam]]"
+authors: "[[Narula, Rachna]]; [[Chaudhary, Poonam]]"
+authors_incomplete: false
 doi: 10.1007/s13278-024-01401-y
 url: "https://link.springer.com/article/10.1007/s13278-024-01401-y"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s13278-024-01401-y.pdf"

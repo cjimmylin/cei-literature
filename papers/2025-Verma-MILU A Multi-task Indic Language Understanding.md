@@ -8,9 +8,9 @@ type: preprint
 short_title: "MILU A Multi-task Indic Language Understanding"
 year: 2025
 first_author: "[[Verma, Sshubam]]"
-last_author: "[[and others (AI4Bharat, IBM Research India)]]"
-authors: "[[Sshubam Verma]]; [[and others (AI4Bharat, IBM Research India)]]"
-authors_incomplete: false
+last_author: "[[Verma, Sshubam]]"
+authors: "[[Verma, Sshubam]]"
+authors_incomplete: true
 url: "https://aclanthology.org/2025.naacl-long.507/"
 external_pdf: "https://arxiv.org/pdf/2411.02538.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Verma-MILU A Multi-task Indic Language Understanding.md"

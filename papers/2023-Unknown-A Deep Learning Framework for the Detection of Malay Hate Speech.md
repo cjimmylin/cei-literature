@@ -8,9 +8,10 @@ key: LSRC0107
 type: conferencePaper
 short_title: "A Deep Learning Framework for the Detection of Malay Hate Speech"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 doi: 10.1109/ACCESS.2023.3297856
 url: "https://ieeexplore.ieee.org/document/10192900/"
 external_pdf: "https://ieeexplore.ieee.org/ielx7/6287639/10005208/10192900.pdf"

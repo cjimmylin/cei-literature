@@ -7,10 +7,10 @@ key: EXSR0366
 type: preprint
 short_title: "Faith Respect and Moral Compass in"
 year: 2025
-first_author: "[[initiative), Gerrit W. Gong et al. (interfaith coalition]]"
-last_author: "[[initiative), Gerrit W. Gong et al. (interfaith coalition]]"
-authors: "[[Gerrit W. Gong et al. (interfaith coalition initiative)]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: 
 external_pdf: 
 pdf_extract: 

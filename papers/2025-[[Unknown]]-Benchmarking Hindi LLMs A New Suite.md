@@ -7,9 +7,9 @@ key: EXSR0331
 type: preprint
 short_title: "Benchmarking Hindi LLMs A New Suite"
 year: 2025
-first_author: [[[[Unknown]]]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2508.19831"
 external_pdf: "https://arxiv.org/pdf/2508.19831.pdf"

@@ -7,9 +7,10 @@ key: LSRC0707
 type: preprint
 short_title: "Analysis of LLM Bias (Chinese Propaganda & Anti-US Sentiment) in DeepSeek-R1 vs. ChatGPT o3-mini-high"
 year: 2025
-first_author: "[[PeiHsuan Huang]]"
-last_author: [[Unknown]]
-authors: "PeiHsuan Huang; ZihWei Lin; Simon Imbot; WenCheng Fu; Ethan Tu"
+first_author: "[[Huang, PeiHsuan]]"
+last_author: "[[Tu, Ethan]]"
+authors: "[[Huang, PeiHsuan]]; [[Lin, ZihWei]]; [[Imbot, Simon]]; [[Fu, WenCheng]]; [[Tu, Ethan]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2506.01814v1"
 external_pdf: "https://arxiv.org/pdf/2506.01814.pdf"
 publication: arXiv

@@ -7,9 +7,10 @@ key: LSRC0616
 type: conferencePaper
 short_title: "Large and Small models for collaborative cross-lingual data augmentation in entity relationship extraction for low-resource languages | Journal of King Saud University Computer and Information Sciences | Springer Nature Link"
 year: 2025
-first_author: "[[Yurong Wang]]"
-last_author: [[Unknown]]
-authors: "Yurong Wang; Min Lin; Qitu Hu; Longjie Bao; Shuangcheng Bai; Yanling Li"
+first_author: "[[Wang, Yurong]]"
+last_author: "[[Li, Yanling]]"
+authors: "[[Wang, Yurong]]; [[Lin, Min]]; [[Hu, Qitu]]; [[Bao, Longjie]]; [[Bai, Shuangcheng]]; [[Li, Yanling]]"
+authors_incomplete: false
 doi: 10.1007/s44443-025-00055-w
 url: "https://link.springer.com/article/10.1007/s44443-025-00055-w"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s44443-025-00055-w.pdf"

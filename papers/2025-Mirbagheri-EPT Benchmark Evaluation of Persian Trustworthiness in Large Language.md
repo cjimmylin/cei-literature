@@ -7,9 +7,10 @@ key: LSRC0130
 type: preprint
 short_title: "EPT Benchmark: Evaluation of Persian Trustworthiness in Large Language Models"
 year: 2025
-first_author: "[[Mohammadreza Mirbagheri]]"
-last_author: "[[Mohammadreza Mirbagheri]]"
-authors: "Mohammadreza Mirbagheri et al."
+first_author: "[[Mirbagheri, Mohammadreza]]"
+last_author: "[[Mirbagheri, Mohammadreza]]"
+authors: "[[Mirbagheri, Mohammadreza]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2509.06838"
 external_pdf: "https://arxiv.org/pdf/2509.06838.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language.md"

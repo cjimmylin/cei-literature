@@ -7,9 +7,10 @@ key: LSRC0036
 type: preprint
 short_title: "MAPS: A Multilingual Benchmark for Global Agent Performance and Security"
 year: 2025
-first_author: "[[Omer Hofman]]"
-last_author: [[Unknown]]
-authors: "Omer Hofman; Jonathan Brokman; Oren Rachmil; Shamik Bose; Vikas Pahuja; Toshiya Shimizu; Trisha Starostina; Kelly Marchisio; Seraphina Goldfarb-Tarrant; Roman Vainshtein"
+first_author: "[[Hofman, Omer]]"
+last_author: "[[Vainshtein, Roman]]"
+authors: "[[Hofman, Omer]]; [[Brokman, Jonathan]]; [[Rachmil, Oren]]; [[Bose, Shamik]]; [[Pahuja, Vikas]]; [[Shimizu, Toshiya]]; [[Starostina, Trisha]]; [[Marchisio, Kelly]]; [[Goldfarb-Tarrant, Seraphina]]; [[Vainshtein, Roman]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2505.15935"
 external_pdf: "https://arxiv.org/pdf/2505.15935.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and.md"

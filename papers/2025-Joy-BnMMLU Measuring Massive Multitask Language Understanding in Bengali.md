@@ -7,9 +7,10 @@ key: LSRC0184
 type: preprint
 short_title: "BnMMLU: Measuring Massive Multitask Language Understanding in Bengali"
 year: 2025
-first_author: "[[Saman Sarker Joy]]"
-last_author: [[Unknown]]
-authors: "Saman Sarker Joy; Swakkhar Shatabda"
+first_author: "[[Joy, Saman Sarker]]"
+last_author: "[[Shatabda, Swakkhar]]"
+authors: "[[Joy, Saman Sarker]]; [[Shatabda, Swakkhar]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2505.18951"
 external_pdf: "https://arxiv.org/pdf/2505.18951.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali.md"

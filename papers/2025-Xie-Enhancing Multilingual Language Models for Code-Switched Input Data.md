@@ -7,9 +7,10 @@ key: LSRC0827
 type: preprint
 short_title: "Enhancing Multilingual Language Models for Code-Switched Input Data"
 year: 2025
-first_author: "[[Katherine Xie]]"
-last_author: [[Unknown]]
-authors: "Katherine Xie; Nitya Babbar; Vicky Chen; Yoanna Turura"
+first_author: "[[Xie, Katherine]]"
+last_author: "[[Turura, Yoanna]]"
+authors: "[[Xie, Katherine]]; [[Babbar, Nitya]]; [[Chen, Vicky]]; [[Turura, Yoanna]]"
+authors_incomplete: false
 url: "https://arxiv.org/html/2503.07990v1"
 external_pdf: "https://arxiv.org/pdf/2503.07990.pdf"
 publication: arXiv

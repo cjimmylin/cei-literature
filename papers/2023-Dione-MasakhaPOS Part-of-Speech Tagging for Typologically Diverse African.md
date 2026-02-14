@@ -7,9 +7,10 @@ key: LSRC0087
 type: conferencePaper
 short_title: "MasakhaPOS: Part-of-Speech Tagging for Typologically Diverse African Languages"
 year: 2025
-first_author: "[[Cheikh M. Bamba Dione]]"
-last_author: "[[Blessing Sibanda]]"
-authors: "Cheikh M. Bamba Dione, David Adelani, Peter Nabende, Jesujoba Alabi, Thapelo Sindane, Happy Buzaaba, Shamsuddeen Hassan Muhammad, Chris Chinenye Emezue, Perez Ogayo, Anuoluwapo Aremu, Catherine Gitau, Derguene Mbaye, Jonathan Mukiibi, Blessing Sibanda, et al."
+first_author: "[[Dione, Cheikh M. Bamba]]"
+last_author: "[[Sibanda, Blessing]]"
+authors: "[[Dione, Cheikh M. Bamba]]; [[Adelani, David]]; [[Nabende, Peter]]; [[Alabi, Jesujoba]]; [[Sindane, Thapelo]]; [[Buzaaba, Happy]]; [[Muhammad, Shamsuddeen Hassan]]; [[Emezue, Chris Chinenye]]; [[Ogayo, Perez]]; [[Aremu, Anuoluwapo]]; [[Gitau, Catherine]]; [[Mbaye, Derguene]]; [[Mukiibi, Jonathan]]; [[Sibanda, Blessing]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2305.13989"
 external_pdf: "https://arxiv.org/pdf/2305.13989.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African.md"

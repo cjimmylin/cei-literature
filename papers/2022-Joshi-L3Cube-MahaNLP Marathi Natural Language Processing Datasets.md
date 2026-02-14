@@ -7,10 +7,10 @@ key: EXSR0593
 type: preprint
 short_title: "L3Cube-MahaNLP Marathi Natural Language Processing Datasets"
 year: 2025
-first_author: [[Joshi]]
-last_author: "[[Pune), and others (L3Cube]]"
-authors: "[[Joshi]]; [[and others (L3Cube Pune)]]"
-authors_incomplete: false
+first_author: "[[Joshi]]"
+last_author: "[[Joshi]]"
+authors: "[[Joshi]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2205.14728"
 external_pdf: "https://arxiv.org/pdf/2205.14728.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Joshi-L3Cube-MahaNLP Marathi Natural Language Processing Datasets.md"

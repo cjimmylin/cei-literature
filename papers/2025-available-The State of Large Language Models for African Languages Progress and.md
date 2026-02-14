@@ -7,9 +7,10 @@ key: LSRC0092
 type: conferencePaper
 short_title: "The State of Large Language Models for African Languages: Progress and Challenges"
 year: 2025
-first_author: "[[Authors not fully available]]"
-last_author: "[[Authors not fully available]]"
-authors: "Authors not fully available"
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2506.02280"
 external_pdf: "https://arxiv.org/pdf/2506.02280.pdf"
 pdf_extract: "PDF Extracts/2025/2025-available-The State of Large Language Models for African Languages Progress and.md"

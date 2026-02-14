@@ -8,9 +8,10 @@ key: LSRC0142
 type: conferencePaper
 short_title: "Offensive Language Detection in Low Resource Languages: A Use Case of Persian Language"
 year: 2025
-first_author: "[[Marzieh Mozafari]]"
-last_author: [[Unknown]]
-authors: "Marzieh Mozafari; Khouloud Mnassri; R. Farahbakhsh; Noel Crespi"
+first_author: "[[Mozafari, Marzieh]]"
+last_author: "[[Crespi, Noel]]"
+authors: "[[Mozafari, Marzieh]]; [[Mnassri, Khouloud]]; [[Farahbakhsh, R.]]; [[Crespi, Noel]]"
+authors_incomplete: false
 doi: 10.1371/journal.pone.0304166
 url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0304166"
 external_pdf: "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0304166&type=printable"

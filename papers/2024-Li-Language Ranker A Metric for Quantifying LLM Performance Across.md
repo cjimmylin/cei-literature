@@ -7,9 +7,10 @@ key: LSRC0163
 type: preprint
 short_title: "Language Ranker: A Metric for Quantifying LLM Performance Across Languages"
 year: 2025
-first_author: "[[Zihao Li]]"
-last_author: [[Unknown]]
-authors: "Zihao Li; Yucheng Shi; Zirui Liu; Fan Yang; Ali Payani; Ninghao Liu; Mengnan Du"
+first_author: "[[Li, Zihao]]"
+last_author: "[[Du, Mengnan]]"
+authors: "[[Li, Zihao]]; [[Shi, Yucheng]]; [[Liu, Zirui]]; [[Yang, Fan]]; [[Payani, Ali]]; [[Liu, Ninghao]]; [[Du, Mengnan]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2404.11553"
 external_pdf: "https://arxiv.org/pdf/2404.11553.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across.md"

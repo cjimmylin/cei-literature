@@ -7,10 +7,10 @@ key: EXSR0436
 type: preprint
 short_title: "Swahili and Code-Switched English-Swahili Political Hate"
 year: 2025
-first_author: "[[available, Authors not fully]]"
-last_author: "[[available, Authors not fully]]"
-authors: "[[Authors not fully available]]"
-authors_incomplete: false
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://www.sciengine.com/DI/doi/10.3724/2096-7004.di.2025.0053"
 external_pdf: "https://www.sciengine.com/parse/pdf/2096-7004/D74782CFAA4A4B1A9E29A12EC0FEA64B.pdf"
 pdf_extract: "PDF Extracts/2025/2025-available-Swahili and Code-Switched English-Swahili Political Hate.md"

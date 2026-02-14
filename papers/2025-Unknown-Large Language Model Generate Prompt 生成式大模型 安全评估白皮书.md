@@ -7,9 +7,10 @@ key: LSRC0687
 type: conferencePaper
 short_title: "Large Language Model Generate Prompt 生成式大模型 安全评估白皮书"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://hulianhutongshequ.cn/upload/tank/report/2025/202502/1/06d030a5fdeb4a309f68e78e170cbd1b.pdf"
 external_pdf: "https://hulianhutongshequ.cn/upload/tank/report/2025/202502/1/06d030a5fdeb4a309f68e78e170cbd1b.pdf"
 publication: Web

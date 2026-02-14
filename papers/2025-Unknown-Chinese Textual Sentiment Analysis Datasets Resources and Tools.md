@@ -7,9 +7,10 @@ key: LSRC0685
 type: conferencePaper
 short_title: "Chinese Textual Sentiment Analysis: Datasets, Resources and Tools"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: Unknown
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
+authors_incomplete: true
 url: "https://aclanthology.org/C16-3002/"
 external_pdf: "https://aclanthology.org/C16-3002.pdf"
 publication: "ACL Anthology"

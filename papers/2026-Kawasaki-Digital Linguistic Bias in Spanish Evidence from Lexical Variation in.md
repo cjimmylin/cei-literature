@@ -7,9 +7,10 @@ key: LSRC0294
 type: preprint
 short_title: "Digital Linguistic Bias in Spanish: Evidence from Lexical Variation in LLMs"
 year: 2025
-first_author: "[[Yoshifumi Kawasaki]]"
-last_author: [[Unknown]]
-authors: "Yoshifumi Kawasaki"
+first_author: "[[Kawasaki, Yoshifumi]]"
+last_author: "[[Kawasaki, Yoshifumi]]"
+authors: "[[Kawasaki, Yoshifumi]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2602.09346"
 external_pdf: "https://arxiv.org/pdf/2602.09346.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Kawasaki-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in.md"

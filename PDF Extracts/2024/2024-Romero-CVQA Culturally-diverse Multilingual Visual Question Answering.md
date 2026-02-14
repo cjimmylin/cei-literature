@@ -1,13 +1,12 @@
 ---
-title: "2024-authors-CVQA Culturally-diverse Multilingual Visual Question Answering - PDF Extract"
-source_pdf: "2024-authors-CVQA Culturally-diverse Multilingual Visual Question Answering.pdf"
+title: "2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering - PDF Extract"
+source_pdf: "2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering.pdf"
 pages: 26
 extracted_at: "2026-02-13T09:15:45.633743"
 ---
 
-# PDF Extract: 2024-authors-CVQA Culturally-diverse Multilingual Visual Question Answering
-
-**Source PDF:** 2024-authors-CVQA Culturally-diverse Multilingual Visual Question Answering.pdf
+# PDF Extract: 2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering
+**Source PDF:** 2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering.pdf
 **Total Pages:** 26
 
 ---

@@ -13,8 +13,8 @@ authors: "[[affiliated with University of Johannesburg]]"
 authors_incomplete: true
 url: 
 external_pdf: "https://aclanthology.org/2023.findings-emnlp.271.pdf"
-pdf_extract: "PDF Extracts/2025/2025-search-Sentiment Analysis in African Languages Evaluating.md"
-local_pdf: "[[PDFs/2025/2025-search-Sentiment Analysis in African Languages Evaluating.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Johannesburg-Sentiment Analysis in African Languages Evaluating.md"
+local_pdf: "[[PDFs/2025/2025-Johannesburg-Sentiment Analysis in African Languages Evaluating.pdf]]"
 publication: "SAICSIT 2025, Springer (LNCS, vol. 978-3-031-96262-2)"
 DATE_ADDED: 20260213
 ethics_overall: No

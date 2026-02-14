@@ -1,13 +1,12 @@
 ---
-title: "2021-authors-MasakhaNER Named Entity Recognition for African - PDF Extract"
-source_pdf: "2021-authors-MasakhaNER Named Entity Recognition for African.pdf"
+title: "2021-Adelani-MasakhaNER Named Entity Recognition for African - PDF Extract"
+source_pdf: "2021-Adelani-MasakhaNER Named Entity Recognition for African.pdf"
 pages: 15
 extracted_at: "2026-02-13T09:15:42.431257"
 ---
 
-# PDF Extract: 2021-authors-MasakhaNER Named Entity Recognition for African
-
-**Source PDF:** 2021-authors-MasakhaNER Named Entity Recognition for African.pdf
+# PDF Extract: 2021-Adelani-MasakhaNER Named Entity Recognition for African
+**Source PDF:** 2021-Adelani-MasakhaNER Named Entity Recognition for African.pdf
 **Total Pages:** 15
 
 ---

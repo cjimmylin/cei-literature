@@ -446,7 +446,7 @@ Among papers with data URLs, classified by hosting platform:
 | 26 | [[2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification]] | https://github.com/manikandan-ravikiran/dosa |
 | 27 | [[2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for]] | https://github.com/hate-alert/Hate-Alert-DravidianLangTech |
 | 28 | [[2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit]] | https://github.com/rahular/itihasa |
-| 29 | [[2021-authors-MasakhaNER Named Entity Recognition for African]] | https://github.com/masakhane-io/masakhane-ner |
+| 29 | [[2021-Adelani-MasakhaNER Named Entity Recognition for African]] | https://github.com/masakhane-io/masakhane-ner |
 | 30 | [[2021-collaborators-Optimisation of the Largest Annotated Tibetan]] | https://zenodo.org/records/3951503 ; https://github.com/lothelanor/... |
 | 31 | [[2022-Alsuhaibani-Fabricated Hadith Detection A Novel Matn-Based]] | MAHADDAT dataset (released with paper) |
 | 32 | [[2022-Atwell-Challenging the Transformer-based Models with a]] | https://github.com/ShathaTm/Quran_Hadith_Datasets |
@@ -558,7 +558,7 @@ Among papers with data URLs, classified by hosting platform:
 | 138 | [[2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous]] | https://www.indigenous-ai.net/ ; https://abundant-intelligences.net/ |
 | 139 | [[2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural]] | https://github.com/raovish6/LLM-GLOBE |
 | 140 | [[2024-Zhang-CHiSafetyBench]] | https://github.com/UnicomAI/UnicomBenchmark/tree/main/CHiSafetyBench |
-| 141 | [[2024-authors-CVQA Culturally-diverse Multilingual Visual Question Answering]] | https://cvqa-benchmark.org/ |
+| 141 | [[2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering]] | https://cvqa-benchmark.org/ |
 | 142 | [[2024-project-DharmicData Comprehensive Open-Source Collection of Hindu]] | https://github.com/bhavykhatri/DharmicData (ODbL license) |
 | 143 | [[2024-team-Indic-Bias A Comprehensive Benchmark for Fairness]] | https://huggingface.co/datasets/ai4bharat/Indic-Bias |
 | 144 | [[2024-team-Indic-Bias A Comprehensive Benchmark to Evaluate]] | https://github.com/AI4Bharat/indic-bias |

@@ -2827,11 +2827,11 @@
 | NaijaSenti: A Nigerian Twitter Sentiment Corpus for Multilin | 2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus.md | Hausa, Igbo, Nigerian Pidgin, Yoruba |
 | AfriQA: Cross-lingual Open-Retrieval Question Answering for  | 2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.md | 10 African languages including Hausa, Igbo, Swahili, Yoruba, Amharic, Wolof |
 | SERENGETI: Massively Multilingual Language Models for Africa | 2023-Inciarte-SERENGETI Massively Multilingual Language Models for.md | 517 African languages and varieties |
-| MasakhaNER: Named Entity Recognition for African Languages | 2021-authors-MasakhaNER Named Entity Recognition for African.md | Amharic, Hausa, Igbo, Kinyarwanda, Luganda, Luo, Nigerian Pidgin, Swahili, Wolof, Yoruba |
+| MasakhaNER: Named Entity Recognition for African Languages | 2021-Adelani-MasakhaNER Named Entity Recognition for African.md | Amharic, Hausa, Igbo, Kinyarwanda, Luganda, Luo, Nigerian Pidgin, Swahili, Wolof, Yoruba |
 | MasakhaPOS: Part-of-Speech Tagging for Typologically Diverse | 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African.md | Bambara, Chichewa, Ewe, Fon, Ghomala, Hausa, Igbo, Kinyarwanda, Kiswahili, Luganda, Luo, Mossi, Nigerian Pidgin, Setswana, Twi, Wolof, Yoruba, chiShona, isiXhosa, isiZulu |
 | AfroLM: A Self-Active Learning-based Multilingual Pretrained | 2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained.md | 23 African languages including Swahili, Yoruba, Hausa, Igbo, Amharic, Twi, Wolof |
 | CaLMQA: Exploring culturally specific long-form question ans | 2024-Choi-CaLMQA Exploring culturally specific long-form question.md | 23 languages including Wolof, Tswana, Kirundi |
-| CVQA: Culturally-diverse Multilingual Visual Question Answer | 2024-authors-CVQA Culturally-diverse Multilingual Visual Question Answering.md | 31 languages from 30 countries including African languages, Indonesian, Javanese, Sundanese |
+| CVQA: Culturally-diverse Multilingual Visual Question Answer | 2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering.md | 31 languages from 30 countries including African languages, Indonesian, Javanese, Sundanese |
 | Hate Speech Detection in Somali-English Code-Switched Texts | 2025-available-Hate Speech Detection in Somali-English Code-Switched.md | Somali, Somali-English code-switched |
 | A multilingual dataset for offensive language and hate speec | 2024-Murtala-A multilingual dataset for offensive language.md | Hausa, Igbo, Yoruba |
 | Gender Bias Evaluation in Machine Translation for Amharic, T | 2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.md | Afaan Oromoo, Amharic, Tigrinya |

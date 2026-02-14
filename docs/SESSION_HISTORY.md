@@ -2,6 +2,30 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 74 (Feb 14, 2026) - End-Session Closure + Memory Consolidation
+
+### Overview
+Executed a manual equivalent of `/end-session` (remember-thread + finalize-thread) to close this thread cleanly, since Codex did not expose the local `.claude` skill in its active skill registry. Consolidated handoff memory, ran validation/audit checks, and documented closure status for continuation in new threads.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| `validate_all_papers.py` | 1847/1847 PASS |
+| `validate_papers_enhanced.py` | reports existing legacy warnings/errors |
+| `audit_pdf_links.py` | 1629 valid, 200 N/A, 12 file-not-found, 6 missing field |
+| Documentation commits in this thread | `0f453604`, `879eed9a` |
+
+### Key Learnings
+- [Workflows] If a named skill is unavailable in the active Codex skill list, run the documented manual fallback so session closure guarantees still hold.
+- [Data Quality] End-session QA should include both structural YAML validation and link/path audits; passing YAML integrity does not imply fully healthy PDF link state.
+
+### Files Updated for Continuity
+- `docs/SESSION_HISTORY.md`
+- `docs/SESSION_2026_02_14_PLACEHOLDER_AUTHOR_FILENAME_NORMALIZATION.md`
+- `_OPERATING-SYSTEM/Learnings/learnings-log.md`
+
+---
+
 ## Session 73 (Feb 14, 2026) - LLM/Data YAML Backfill + Unresolved Recovery
 
 ### Overview

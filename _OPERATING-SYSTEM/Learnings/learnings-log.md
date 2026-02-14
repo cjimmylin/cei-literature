@@ -1,5 +1,5 @@
 # Learnings Log
-*Last updated: 2026-02-13*
+*Last updated: 2026-02-14*
 
 ---
 
@@ -141,6 +141,8 @@
 | 2026-02-14 | Workflows | **Verify Plan Claims Before Re-running Agent Swarms:** Session 71 launched 5 parallel agents to generate 96 summaries that already existed (committed in Session 69). The plan document stated "outputs were lost — 0 papers have `## Detailed Summary`" but this was based on a grep using the wrong YAML key (`lsrc_key:` instead of `key:`). Always verify on-disk state with correct field names before accepting plan claims. Cost: ~50 min compute, no data loss. |
 | 2026-02-14 | Data Quality | **Mismatched PDF Extracts Are Silent Failures:** Aliti paper's `pdf_extract` pointed to a file containing Douglas lecture notes instead of the Albanian LLM comparison paper. The extract file existed and had content, so validation passed. Only noticed when a summarization agent produced an unrelated summary. Mitigation: cross-check extract content against paper title/abstract before generating summaries. |
 | 2026-02-14 | Workflows | **Agent Idempotency Check Unreliable for Overwrite:** Summary agents checked for existing `## Detailed Summary` but some still overwrote with equivalent content. The Edit tool succeeds when old_string matches (inserting before `## Notes`), even if the summary sections already exist earlier in the file. For true idempotency, agents should grep for the section BEFORE attempting any edit. |
+| 2026-02-14 | Workflows | **Placeholder-Author Filename Migration Requires Pre-Execution Scope Check:** Planned scope can drift as files are renamed mid-session. The placeholder-author migration was planned from a 106-file snapshot but active execution scope was 88 token-matched papers. Always compute scope from current disk state immediately before `--execute` and persist that scope in report artifacts. |
+| 2026-02-14 | Data Quality | **Author-Slot vs Title-Token Disambiguation Prevents False Positives:** Filename token scans for words like `available` and `authors` can flag valid titles. Validate placeholder status using the author slot (`YYYY-<author>-title`) rather than whole filename contains-match to avoid chasing non-issues after migration. |
 
 ---
 

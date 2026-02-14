@@ -68,6 +68,10 @@ ethics_perspective: "AI Safety & Alignment"
 
 Method for assessing multilingual capabilities of English-centric LLMs using parallel sentences. Achieves 0.90 Pearson correlation between predicted scores and actual task performance. Uses FLORES-200 and Bible parallel datasets. Published at ACL 2025 Findings.
 
+## Summary
+
+This paper introduces MEXA, a method for assessing the multilingual capabilities of English-centric LLMs using cross-lingual alignment scores computed from parallel sentences in the FLORES-200 and Bible datasets. The approach achieves a 0.90 Pearson correlation between predicted alignment scores and actual downstream task performance across nine evaluated models (Llama-3.1, Gemma, Mistral, OLMo). MEXA provides a cost-effective alternative to exhaustive multilingual benchmarking by estimating language capabilities without requiring language-specific downstream tasks, particularly valuable for languages where evaluation resources are scarce.
+
 ## Data Description
 
 Introduces MEXA, a method to assess multilingual capabilities of English-centric LLMs using cross-lingual alignment scores computed from parallel sentences (FLORES-200 and Bible datasets), achieving 0.90 Pearson correlation with downstream task performance across nine models.

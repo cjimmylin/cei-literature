@@ -68,6 +68,10 @@ ethics_perspective: "AI Safety & Alignment"
 
 Open-source digital public service developed by the French government to collect large-scale human preference data from a predominantly French-speaking audience. Over 600K prompts and 250K preference votes collected since October 2024. Releases conversations, votes, and reactions datasets under open licenses, with a French-language model leaderboard.
 
+## Summary
+
+This paper presents compar:IA, an open-source digital public service developed by the French Ministry of Culture to collect large-scale human preference data from French-speaking users for LLM alignment. Since its October 2024 launch, the platform has collected over 600,000 prompts and 250,000 preference votes, with 89% of the data in French. The initiative addresses the scarcity of non-English human preference data critical for RLHF and DPO training methods, releasing conversations, votes, and reactions datasets under open licenses alongside a French-language model leaderboard to improve cultural alignment and safety robustness for French.
+
 ## Data Description
 
 Introduces compar:IA, an open-source digital public service developed by the French government to collect large-scale human preference data from French-speaking users. Over 600K prompts and 250K preference votes collected since October 2024, with 89% French-language data. Releases conversations, votes, and reactions datasets under open licenses with a French-language model leaderboard.

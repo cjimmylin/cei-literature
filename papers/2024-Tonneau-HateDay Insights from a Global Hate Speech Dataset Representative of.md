@@ -68,6 +68,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 Global Twitter dataset of 540K tweets sampled from September 21, 2022 and annotated for hate speech detection in 8 languages including French. Each language has 20K tweets with annotations by 3 human annotators per language (hateful, offensive, or neutral). Published at ACL 2025.
 
+## Summary
+
+This paper introduces HateDay, the first hate speech dataset representative of real-world social media settings, constructed from a random sample of 240,000 tweets (20,000 per language/country) posted on September 21, 2022 across eight languages (Arabic, English, French, German, Indonesian, Portuguese, Spanish, Turkish) and four English-speaking countries. Using prescriptive annotation guidelines with three annotators per language, the dataset enables cross-lingual and cross-national comparison of hate speech prevalence and composition. Evaluation of publicly available hate speech detection models reveals that performance is substantially overestimated on academic datasets and extremely low in real-world settings (especially for non-European languages), driven by models' difficulty distinguishing hate from offensive speech and mismatches between academic and real-world target groups. The findings suggest automatic moderation is currently too error-prone, while human-in-the-loop systems can achieve higher moderation rates at the cost of substantial human review.
+
 ## Data Description
 
 HateDay is a global Twitter dataset of 540K tweets sampled from September 21, 2022, annotated for hate speech detection in 8 languages (Arabic, English, French, German, Indonesian, Portuguese, Spanish, Turkish). Each language has 20K tweets with annotations by 3 human annotators per language (hateful, offensive, or neutral). Prescriptive annotation with detailed guidelines.

@@ -65,6 +65,10 @@ research_topic: "Other"
 
 Evaluates LLM output quality comparing English and Albanian across math problems, code tasks, and sensitive questions. Finds Claude.ai demonstrates more language-agnostic capabilities with similar accuracy between English and Albanian. Albanian serves as a morphologically complex, lower-resource contrast to English.
 
+## Summary
+
+This study evaluates and compares output quality of large language models (Claude.ai, GPT-4, Gemini) between English and Albanian across three task categories: mathematical problem-solving, code generation, and sensitive questions. Albanian serves as a morphologically complex, low-resource language contrast to high-resource English, allowing examination of cross-lingual performance disparities. The evaluation finds that Claude.ai demonstrates more language-agnostic capabilities with similar accuracy between English and Albanian, while other models show greater performance gaps. The work explores ethical dimensions through sensitive question handling and contributes to understanding fairness and equity in LLM performance across different resource levels.
+
 ## Data Description
 
 Comparative evaluation of LLM output quality between English and Albanian across math problems, code generation, and sensitive questions. Finds Claude demonstrates more language-agnostic performance than competitors. No public evaluation dataset provided.

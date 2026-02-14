@@ -65,6 +65,10 @@ ethics_perspective: "Bias & Fairness"
 
 Evaluates open-source (Llama-70b) and closed-source (GPT-4o mini) LLMs on seven core Greek NLP tasks. Reframes Authorship Attribution as a tool to assess potential data usage by LLMs in pre-training, with high 0-shot accuracy suggesting ethical implications for data provenance. Includes a legal NLP case study.
 
+## Summary
+
+This paper addresses NLP challenges for Modern Greek, a lesser-resourced language, through three contributions: benchmarking Llama-70b and GPT-4o mini on seven core tasks revealing task-specific strengths, reframing Authorship Attribution to assess potential data usage in pre-training with ethical implications for data provenance, and demonstrating a legal NLP case study where a Summarize-Translate-Embed methodology outperforms TF-IDF for clustering long legal texts. The work aggregates publicly available Greek datasets into a unified collection, providing a roadmap for advancing NLP in lesser-resourced languages while highlighting inherited biases from high-resource languages.
+
 ## Data Description
 
 This paper evaluates open-source (Llama-70b) and closed-source (GPT-4o mini) LLMs on seven core Greek NLP tasks. It reframes Authorship Attribution as a tool to assess potential data usage by LLMs in pre-training, with high 0-shot accuracy suggesting ethical implications for data provenance. Includes a legal NLP case study for Greek.

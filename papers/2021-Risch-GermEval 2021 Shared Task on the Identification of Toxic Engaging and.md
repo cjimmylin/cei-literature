@@ -66,6 +66,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 Extended GermEval shared task to include toxic, engaging, and fact-claiming comment identification in German. Expands beyond offensive language detection to include respectful communication and fact-checking dimensions.
 
+## Summary
+
+This paper presents the GermEval 2021 shared task, which extends traditional hate speech detection to include identification of toxic comments, engaging comments, and fact-claiming comments in German Facebook posts. The task moves beyond binary offensive/non-offensive classification to capture nuanced dimensions of online discourse quality, including toxicity detection, respectful engagement assessment, and fact-checking needs. Participating systems primarily used BERT-based models, and the multi-faceted annotation scheme enables research on fostering constructive online conversations while addressing harmful content.
+
 ## Data Description
 
 Extended GermEval shared task for identifying toxic, engaging, and fact-claiming comments in German Facebook posts. Expands beyond offensive language detection to include respectful communication and fact-checking dimensions. Participating systems used BERT-based models.

@@ -65,6 +65,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 Framework for analyzing toxic language on Italian Facebook pages. Assesses toxic vs. non-toxic comments via length, vocabulary diversity, and linguistic standardness. Fine-tunes PoliBERT, UmBERTo, and bert-base-italian-xxl-uncased models.
 
+## Summary
+
+This study develops a framework for analyzing toxic language on Italian social media, building upon the multilingual LiLaH project that analyzes hateful content across Dutch, English, French, Slovene, and Croatian. The authors examine linguistic features of Italian toxic comments on Facebook pages from the HaSpeeDe dataset, finding that toxic comments tend to be longer and contain fewer unique emojis compared to non-toxic comments while exhibiting similar lexical diversity. They fine-tune three Italian pre-trained language models (PoliBERT, UmBERTo, and bert-base-italian-xxl-uncased) on toxicity detection, but find that despite the correlation between linguistic features and toxicity, their inclusion actually worsens model performance. The work extends the LiLaH project's standardized framework to Italian, addressing the lack of systematic approaches to hate speech detection in Italian NLP research.
+
 ## Data Description
 
 Framework analyzing toxic language on Italian Facebook pages using linguistic features. Evaluates Italian BERT models fine-tuned on toxicity detection task. Dataset drawn from Italian social media but no public URL provided.

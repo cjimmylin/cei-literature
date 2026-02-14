@@ -68,6 +68,10 @@ research_topic: "Other"
 
 Annotated corpus combining GermEval 2018 tweets (2,871 instances), POLLY corpus of politically charged German tweets around 2017 election (~4,500 annotated), and Facebook comments from Pegida pages (3,500). Annotated as hate speech, offensive language, or non-hate.
 
+## Summary
+
+This paper presents the GMHP7k corpus containing 7,061 German social media posts (from Facebook and Twitter) annotated for both general hate speech and misogynistic hate speech specifically. The dataset was annotated by six volunteers with inter-rater reliability of 0.6409 (Fleiss' Kappa) for general hate speech and 0.8258 for misogynistic hate speech. Baseline experiments using fine-tuned BERT models achieve macro F1 scores of 0.79 for hate speech detection and 0.75 for misogynistic hate speech detection, providing the first publicly available German corpus specifically targeting misogynistic content.
+
 ## Data Description
 
 GMHP7k corpus of 7,061 German social media posts annotated for general hate speech and misogynistic hate speech specifically. Tests BERT models achieving F1 scores up to 0.79 for hate speech and 0.75 for misogynistic hate speech detection.

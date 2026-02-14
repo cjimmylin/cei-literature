@@ -68,6 +68,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 Presents SHAJ, an annotated Albanian dataset for hate speech and offensive speech constructed from user-generated content on Instagram and YouTube. Contains 11,874 instances with 13.2% abusive content, annotated hierarchically (offensive/not; untargeted/targeted; person/group/other).
 
+## Summary
+
+This paper introduces SHAJ (Spoken Hate in the Albanian Jargon), the first Albanian dataset for hate speech and offensive language detection containing 11,874 user-generated comments from Instagram and YouTube with 13.2% abusive content. The dataset follows the hierarchical OffensEval annotation schema with three levels: offensive vs. non-offensive, targeted vs. untargeted, and target type (person, group, or other). The authors benchmark the dataset using BERT, BiLSTM, and logistic regression models, achieving F1 scores of 0.77 for offensive language identification, 0.64 for offensive type categorization, and 0.52 for target identification, addressing the gap in hate speech detection resources for Albanian.
+
 ## Data Description
 
 SHAJ dataset of 11,874 Albanian social media comments from Instagram and YouTube with hierarchical annotation for offensive/hate speech. Tests BERT, BiLSTM, and logistic regression models achieving F1 scores of 0.77 for offensive language identification.

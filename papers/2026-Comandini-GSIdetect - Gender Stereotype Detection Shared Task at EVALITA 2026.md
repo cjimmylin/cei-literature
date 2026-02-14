@@ -66,6 +66,10 @@ ethics_perspective: "Bias & Fairness"
 
 EVALITA 2026 shared task evaluating systems' ability to detect and classify gender stereotypes in Italian short texts. Main task assigns a numerical GS value quantifying the degree of gender stereotype content. Final workshop in Bari, Italy, February 2026.
 
+## Summary
+
+This paper announces GSI:detect, a shared task at EVALITA 2026 focused on evaluating systems' ability to detect and classify gender stereotypes in Italian short texts. The main task requires systems to assign a numerical GS (Gender Stereotype) value quantifying the degree of gender stereotype content, enabling fine-grained assessment beyond binary classification. The shared task, culminating in a workshop in Bari, Italy in February 2026, represents a focused effort to advance gender stereotype detection capabilities for Italian NLP systems.
+
 ## Data Description
 
 Announces GSI:detect shared task at EVALITA 2026 evaluating systems' ability to detect and classify gender stereotypes in Italian short texts. Main task assigns a numerical GS value quantifying the degree of gender stereotype content. Represents a shared task announcement rather than a dataset or evaluation study.

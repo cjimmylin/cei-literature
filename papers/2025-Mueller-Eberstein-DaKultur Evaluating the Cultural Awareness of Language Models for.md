@@ -67,6 +67,10 @@ research_topic: "Social & Cultural Analysis"
 
 First cultural evaluation study for Danish with 1,038 interactions from 63 native speakers. Training on native-speaker data doubles response acceptance rates. Maximum acceptance of 42% highlights need for further research in aligning LLMs to Danish culture.
 
+## Summary
+
+This paper presents DaKultur, the first cultural evaluation dataset for Danish with 1,038 interactions from 63 demographically diverse native speakers who prompt different LLMs to solve tasks requiring cultural awareness. The study disentangles linguistic versus cultural proficiency in mid-resource language contexts, revealing that training on native-speaker data can more than double response acceptance rates from 14% to 42%. The maximum acceptance rate of 42% demonstrates that cultural adaptation remains an open challenge, highlighting how automatically translated data are insufficient for measuring cultural alignment.
+
 ## Data Description
 
 DaKultur is the first cultural evaluation dataset for Danish with 1,038 interactions from 63 native speakers. Native speakers prompt different models to solve tasks requiring cultural awareness. Training on native-speaker data doubles response acceptance rates (14% to 42%), with maximum acceptance of 42% highlighting the need for further research in aligning LLMs to Danish culture.

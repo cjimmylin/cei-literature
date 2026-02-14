@@ -70,6 +70,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 34,223 German comments from online newspaper platforms annotated for hate speech by 29 volunteers. BERT baseline achieves MCC 0.32, F2-score 0.64. Publicly available for German hate speech research.
 
+## Summary
+
+This paper presents HOCON34k, a corpus of 34,223 German comments collected from online newspaper platforms and annotated for hate speech by 29 volunteer annotators. The dataset addresses the need for diverse platform representation in German hate speech research beyond Twitter-dominant datasets. Baseline experiments using BERT models achieve a Matthews Correlation Coefficient (MCC) of 0.32 and F2-score of 0.64, establishing initial benchmarks for hate speech detection performance on newspaper comment sections. The publicly available corpus provides researchers with a valuable resource for training and evaluating German hate speech detection systems in the newspaper comment domain.
+
 ## Data Description
 
 HOCON34k contains 34,223 German comments from online newspaper platforms annotated for hate speech by 29 volunteers. BERT baseline achieves MCC 0.32, F2-score 0.64. Publicly available for German hate speech research. Used as benchmark for evaluating detection tools.

@@ -67,6 +67,10 @@ research_topic: "Machine Learning"
 
 Comprehensive French NLU benchmark of 23 diverse tasks covering sentiment analysis, paraphrase detection, grammatical judgment, and reasoning. Evaluated 94 LLMs, highlighting a significant performance gap between closed- and open-weights models. Includes focus on understanding of regional language variations.
 
+## Summary
+
+This paper introduces COLE, a comprehensive benchmark for French Natural Language Understanding comprising 23 diverse tasks spanning sentiment analysis, paraphrase detection, grammatical judgment, and reasoning, with particular focus on linguistic phenomena relevant to French including regional language variations. Evaluating 95 large language models (including GPT-4, Claude, Gemini, Llama, Mistral, Qwen, Bloom, and CroissantLLM), the study provides an extensive analysis of the current state of French NLU and reveals a significant performance gap between closed-source frontier models and open-weight alternatives.
+
 ## Data Description
 
 COLE is a comprehensive French NLU benchmark of 23 diverse tasks covering sentiment analysis, paraphrase detection, grammatical judgment, and reasoning. Evaluated 94 LLMs (note: abstract says 95), highlighting a significant performance gap between closed- and open-weights models. Includes focus on understanding of regional French language variations.

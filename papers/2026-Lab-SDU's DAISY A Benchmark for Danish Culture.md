@@ -68,6 +68,10 @@ research_topic: "Social & Cultural Analysis"
 
 Benchmark of 741 close-ended QA pairs based on Danish Culture Canon 2006, covering artifacts from 1300 BC to contemporary culture. Each question humanly approved/corrected. Evaluates LLMs' Danish cultural heritage knowledge.
 
+## Summary
+
+This paper introduces SDU's DAISY, a benchmark for evaluating Danish cultural heritage knowledge in LLMs based on the authoritative Danish Culture Canon 2006 curated by the Danish government. The benchmark comprises 741 close-ended question-answer pairs spanning artifacts from 1300 BCE archaeological findings through contemporary pop music, design, and architecture, with each question humanly approved or corrected. Using a sampling strategy that generates questions from Wikipedia pages of canonical works via LLMs, DAISY evaluates models (GPT-OSS, Mistral-Small, Llama-3.3, Gemma-3) on both mainstream and in-depth knowledge defining Danish cultural identity.
+
 ## Data Description
 
 Introduces SDU's DAISY, a benchmark of 741 close-ended QA pairs based on Danish Culture Canon 2006, covering artifacts from 1300 BC to contemporary culture. Each question is humanly approved/corrected. Evaluates GPT-OSS, Mistral-Small, Llama-3.3, and Gemma-3 on Danish cultural heritage knowledge.

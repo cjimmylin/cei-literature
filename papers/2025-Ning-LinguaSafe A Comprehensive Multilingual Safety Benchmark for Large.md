@@ -67,6 +67,10 @@ ethics_perspective: "AI Safety & Alignment"
 
 Comprehensive multilingual safety benchmark with 45K entries in 12 languages curated using translated, transcreated, and natively-sourced data. Introduces TATER (Task-Aware Translate, Estimate, and Refine) framework. Finds safety performance varies dramatically across languages with English typically surpassing others.
 
+## Summary
+
+This paper introduces LinguaSafe, a comprehensive multilingual safety benchmark containing 45,000 entries across 12 languages including French, Hungarian, and Malay, curated using translated, transcreated, and natively-sourced data. The authors develop the TATER (Task-Aware Translate, Estimate, and Refine) framework to improve multilingual data quality and introduce a multidimensional evaluation framework with direct and indirect safety assessments including oversensitivity evaluation. Evaluation of models including Claude-3.5-Sonnet, GPT-4o, and Llama-3 reveals that safety performance varies dramatically across languages with English typically surpassing others, and Claude-3.5-Sonnet achieves the lowest vulnerability.
+
 ## Data Description
 
 LinguaSafe is a comprehensive multilingual safety benchmark with 45,000 entries in 12 languages (including French) curated using translated, transcreated, and natively-sourced data. Introduces TATER (Task-Aware Translate, Estimate, and Refine) framework for safety evaluation. Finds safety performance varies dramatically across languages with English typically surpassing others. Claude-3.5-Sonnet achieves lowest vulnerability.

@@ -68,6 +68,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 A publicly available dataset of 10,278 German social media comments with 12 annotation categories covering toxicity, criminal relevance, and discrimination types. About half the comments come from coherent conversations, enabling conversation-level analysis of offensive language contagion.
 
+## Summary
+
+This paper presents DeTox, a comprehensive German offensive language dataset containing 10,278 annotated social media comments collected in early 2021 with twelve annotation categories covering hate speech, toxicity, sentiment, criminal relevance (under German law), threat, and various discrimination types (age, gender, ethnicity, religion, sexual orientation). Uniquely, approximately half of the comments come from coherent conversation threads, enabling context-aware analysis and research on the contagion of offensive language in conversations. The dataset was evaluated using BERT-based models and supports fine-grained classification beyond binary hate speech detection, developed to assist the Hessen state government's hate comment reporting center.
+
 ## Data Description
 
 DeTox dataset of 10,278 German social media comments with 12 annotation categories covering toxicity, criminal relevance, and discrimination types. About half the comments are from coherent conversations enabling conversation-level analysis. Evaluated with BERT-based models.

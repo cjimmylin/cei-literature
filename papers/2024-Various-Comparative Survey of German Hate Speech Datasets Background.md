@@ -65,6 +65,10 @@ ethics_perspective: "Bias & Fairness"
 
 Overview of nine German hate speech datasets applying a bias analysis framework. Identifies topical biases across datasets and notes that German datasets predominantly focus on Twitter with limited exploration of other platforms.
 
+## Summary
+
+This survey paper provides a systematic analysis of nine German hate speech datasets (Covid2021, De-reddit-corpus, Germeval2018, Germeval2019, Hasoc2019, Hasoc2020, and others) using a comprehensive bias analysis framework adapted from literature. The authors apply multiple methods to identify potential biases including Latent Semantic Indexing (LSI), topic models, Mutual Information, and Shapley values to analyze topical distribution and intra/inter-dataset similarity. Results reveal significant topical biases across datasets and highlight that German hate speech datasets predominantly focus on Twitter with limited platform diversity. The analysis provides crucial insights for understanding the limitations and potential generalization issues of hate speech classifiers trained on these datasets.
+
 ## Data Description
 
 Overview of nine German hate speech datasets applying a bias analysis framework. Identifies topical biases across datasets and notes that German datasets predominantly focus on Twitter with limited exploration of other platforms. This is a survey paper, not a benchmark or model evaluation.

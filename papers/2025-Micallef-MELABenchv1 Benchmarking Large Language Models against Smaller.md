@@ -68,6 +68,10 @@ research_topic: "NLP & Representation Learning"
 
 Evaluates 55 LLMs on Maltese using 11 discriminative and generative tasks including sentiment, SIB-200, Taxi1500, Belebele, news categories, and MultiEURLEX. Finds many models perform poorly, especially on generative tasks. Smaller fine-tuned models often outperform larger LLMs across all tasks.
 
+## Summary
+
+This paper introduces MELABenchv1, a comprehensive benchmark evaluating 55 publicly available LLMs on Maltese, a low-resource EU language, across 11 discriminative and generative tasks. The authors test models including Llama-3.1, Gemma, Qwen, Mistral, and fine-tuned models like mBERT and XLM-RoBERTa using both zero-shot and one-shot prompting. Results reveal that many LLMs perform poorly on Maltese, particularly on generative tasks, with smaller fine-tuned models often outperforming much larger LLMs, highlighting that prior exposure to Maltese during pre-training emerges as the most important factor for performance.
+
 ## Data Description
 
 MELABenchv1 is a comprehensive benchmark evaluating 55 LLMs on Maltese using 11 discriminative and generative tasks including sentiment, SIB-200, Taxi1500, Belebele, news categories, and MultiEURLEX. Finds many models perform poorly, especially on generative tasks. Smaller fine-tuned models often outperform larger LLMs across all tasks, highlighting the importance of prior exposure to Maltese during pre-training.

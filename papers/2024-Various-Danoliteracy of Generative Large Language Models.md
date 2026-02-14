@@ -67,6 +67,10 @@ research_topic: "Machine Learning"
 
 GLLM benchmark evaluating Danish language and cultural competency across 8 scenarios including citizenship tests and social media QA. Produces robust ranking correlating to human feedback at rho ~0.8. GPT-4 and Claude Opus achieve highest rankings.
 
+## Summary
+
+This paper presents the Danoliterate Benchmark, a comprehensive evaluation framework for measuring 'Danoliteracy' (Danish language and cultural competency) of Generative Large Language Models across eight diverse scenarios including Danish citizenship tests and abstractive social media question answering. The benchmark evaluates 83 GLLMs including both closed-source and open-weights models, producing a robust ranking that correlates with human feedback at ρ ≈ 0.8, with GPT-4 and Claude Opus achieving the highest rankings. Factor analysis reveals one strong underlying factor explaining 95% of scenario performance variance, suggesting the existence of a 'g factor' of model consistency in language adaptation. The work addresses the critical gap in GLLM evaluation for low-resource languages (Danish has 6 million speakers) and provides evidence that closed models significantly outperform open-weights models in Danish language tasks.
+
 ## Data Description
 
 Danoliteracy is a GLLM benchmark evaluating Danish language and cultural competency across 8 scenarios including citizenship tests and social media QA. Produces robust ranking correlating to human feedback at rho ~0.8. GPT-4 and Claude Opus achieve highest rankings.

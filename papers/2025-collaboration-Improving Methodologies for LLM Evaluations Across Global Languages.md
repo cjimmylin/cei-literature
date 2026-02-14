@@ -65,6 +65,10 @@ research_topic: "Other"
 
 Joint multilingual evaluation exercise by international AI safety institutes (Singapore, Japan, Australia, Canada, EU, France, Kenya, South Korea, UK). Tested 2 open-weight models across 10 languages with over 6,000 prompts across 5 harm categories. French INESIA (ANSSI, Inria, LNE, PEReN) participated. Finds jailbreaking is a common weakness for non-English languages.
 
+## Summary
+
+This paper reports on a joint multilingual evaluation exercise conducted by international AI safety institutes from Singapore, Japan, Australia, Canada, EU, France, Kenya, South Korea, and the UK. Testing 2 open-weight models across 10 languages (including Cantonese, French, Japanese, Korean, Mandarin Chinese, and others) with over 6,000 prompts across 5 harm categories (privacy, crime, intellectual property, jailbreak robustness), the study identifies jailbreaking as a common weakness for non-English languages. The collaborative effort represents a significant international coordination on AI safety evaluation methodologies.
+
 ## Data Description
 
 Joint multilingual evaluation exercise by international AI safety institutes (including France's INESIA) testing 2 open-weight models across 10 languages with over 6,000 prompts across 5 harm categories (privacy, crime, intellectual property, jailbreak robustness). Finds jailbreaking is a common weakness for non-English languages.

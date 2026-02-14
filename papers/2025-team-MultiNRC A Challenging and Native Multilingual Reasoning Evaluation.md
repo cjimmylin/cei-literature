@@ -68,6 +68,10 @@ research_topic: "Machine Translation"
 
 Native multilingual reasoning benchmark with 1,000+ questions authored by native speakers in French, Spanish, and Chinese. Covers linguistic reasoning, wordplay, cultural/tradition reasoning, and math with cultural relevance. Best LLM (o3-pro) achieves only 49% accuracy. Published July 2025.
 
+## Summary
+
+This paper introduces MultiNRC, a challenging native multilingual reasoning benchmark comprising over 1,000 questions authored by native speakers in French, Spanish, and Chinese to avoid the cultural biases inherent in machine-translated benchmarks. Covering linguistic reasoning, wordplay, cultural and tradition reasoning, and culturally relevant mathematics, the benchmark reveals significant performance gaps even for frontier models, with the best-performing LLM (o3-pro) achieving only 49% accuracy. The native-sourced approach ensures questions reflect authentic cultural contexts and linguistic nuances that are lost in translation-based benchmarks.
+
 ## Data Description
 
 Introduces MultiNRC, a native multilingual reasoning benchmark with 1,000+ questions authored by native speakers in French, Spanish, and Chinese, covering linguistic reasoning, wordplay, cultural/tradition reasoning, and culturally relevant math. Best LLM (o3-pro) achieves only 49% accuracy, revealing performance gaps.

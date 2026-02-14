@@ -69,6 +69,10 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 Enhances hate speech detection in Albanian social media using transformers and explainable AI. Dataset of 20,860 Facebook comments with multi-annotator process. Fine-tuned XLM-RoBERTa achieves F1=86%, establishing new state-of-the-art for Albanian hate speech detection. Uses SHAP and LIME for explainability.
 
+## Summary
+
+This paper addresses hate speech detection in Albanian, a low-resource language with dialectal diversity and limited NLP tools, by creating a dataset of 20,860 manually annotated Facebook comments using rigorous multi-annotator processes. The authors compare machine learning, deep neural networks, and transformer models, finding that character-level 4-gram TF-IDF features strengthen ML classifiers while fine-tuned XLM-RoBERTa achieves the highest performance with F1=86%. Error analysis using SHAP and LIME reveals key challenges including dialectal writing, short sentences, and implicit insults, establishing a new state-of-the-art benchmark for Albanian hate speech detection.
+
 ## Data Description
 
 This paper enhances hate speech detection in Albanian social media using transformers and explainable AI. Creates a dataset of 20,860 Facebook comments with multi-annotator process. Fine-tuned XLM-RoBERTa achieves F1=86%, establishing new state-of-the-art for Albanian hate speech detection. Uses SHAP and LIME for explainability, addressing dialectal writing, implicit insults, and cultural context challenges in Albanian.

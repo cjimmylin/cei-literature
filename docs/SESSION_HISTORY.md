@@ -2,6 +2,31 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 71 (Feb 14, 2026) - Wave 4 Summary Verification & Re-generation
+
+### Overview
+Resumed Wave 4 processing (124 papers, LSRC keys B6-B9) to add detailed summaries. Launched 5 parallel agents to generate summaries for 96 papers with PDF extracts. Discovered that the previous session (69) had already successfully written and committed all 96 summaries — the plan's claim that "outputs were lost" was incorrect. Agents overwrote identical content harmlessly. Validated all 1889 papers pass YAML integrity.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Papers with `## Detailed Summary` | 240 (96 from Wave 4) |
+| Papers without extract (skipped) | 28 |
+| YAML validation | 1889/1889 PASS |
+| Git status | Clean (all changes pre-committed in Session 69-70) |
+| New commits this session | 0 |
+
+### Key Learnings
+- [Workflows] Always verify plan claims against actual disk/git state before launching expensive agent swarms. Initial grep used wrong YAML key (`lsrc_key:` vs `key:`), masking that summaries already existed.
+- [Data Quality] Aliti paper (batch 02) had mismatched PDF extract (Douglas lecture notes instead of Albanian comparison paper) — agent adapted by summarizing from metadata only.
+- [Workflows] Agent idempotency is imperfect — 5 agents overwrote 96 existing summaries with equivalent content rather than skipping. No data loss but wasted ~50 minutes of compute.
+
+### Files Changed
+- papers/: 96 files overwritten with identical content (no net change)
+- No new scripts, docs, or PDFs
+
+---
+
 ## Session 70 (Feb 13, 2026) - Wave 1-2 Gap Investigation & Processing Plan
 
 ### Overview

@@ -25,7 +25,9 @@ Investigated Wave 1 (R+A1-A5, 322 papers) and Wave 2-3 (A6-B5, 345 papers) for g
 - [Data Quality] 4 duplicate LSRC keys (0055, 0056, 0313, 0316) found — data quality issue for future cleanup.
 
 ### Files Changed
-- logs: 1 new (`logs/20260213-wave12-processing-gap-plan.md` — 7-step processing plan)
+- plans/: New directory created with 2 plans:
+  - `plans/20260213-wave12-processing-gap-plan.md` — 7-step processing plan for waves 1-2
+  - `plans/20260213-wave3-enrichment-gap-plan.md` — Wave 3 enrichment gap plan (moved from `~/.claude/plans/`)
 - No papers, scripts, or PDFs were modified
 
 ---

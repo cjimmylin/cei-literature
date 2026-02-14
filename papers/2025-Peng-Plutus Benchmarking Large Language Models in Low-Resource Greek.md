@@ -68,6 +68,10 @@ research_topic: "NLP & Representation Learning"
 
 The first Greek Financial Evaluation Benchmark addressing five core financial NLP tasks: numeric and textual NER, QA, abstractive summarization, and topic classification. Comprehensive evaluation of 22 LLMs reveals that Greek financial NLP remains challenging. Includes Plutus-8B, the first Greek financial LLM.
 
+## Summary
+
+This paper introduces Plutus-ben, the first comprehensive benchmark for evaluating LLMs on Greek financial tasks, and Plutus-8B, the first Greek-specific financial LLM. The benchmark covers five core tasks including numeric and textual named entity recognition, question answering, abstractive summarization, and topic classification, using three novel datasets annotated by expert native Greek speakers plus two existing resources. Evaluation of 22 models including GPT-4o, Claude-3.5-Sonnet, and domain-specific models reveals that Greek financial NLP remains challenging due to linguistic complexity and domain-specific terminology, with Plutus-8B surpassing GPT-4 by 15.38% and Deepseek-V3 by 93.55%.
+
 ## Data Description
 
 Plutus-ben is the first Greek Financial Evaluation Benchmark addressing five core financial NLP tasks: numeric and textual NER, QA, abstractive summarization, and topic classification. Comprehensive evaluation of 22 LLMs reveals that Greek financial NLP remains challenging. Includes Plutus-8B, the first Greek financial LLM, plus three novel human-annotated datasets by expert native Greek speakers.

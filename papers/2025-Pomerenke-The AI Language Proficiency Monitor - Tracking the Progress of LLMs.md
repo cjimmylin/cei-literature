@@ -67,6 +67,10 @@ research_topic: "Machine Translation"
 
 Comprehensive multilingual benchmark systematically assessing LLM performance across up to 200 languages with focus on low-resource languages. Aggregates tasks including translation, QA, math, and reasoning using FLORES+, MMLU, GSM8K, TruthfulQA, and ARC. Provides auto-updating leaderboard and dashboard.
 
+## Summary
+
+This paper presents the AI Language Proficiency Monitor, a comprehensive multilingual benchmark systematically assessing LLM performance across up to 200 languages including Greek, Georgian, Armenian, Albanian, and Maltese, with particular focus on low-resource languages. The benchmark aggregates diverse tasks including translation (FLORES+), question answering (MMLU, ARC), math (GSM8K), and reasoning (TruthfulQA), providing an open-source auto-updating leaderboard and dashboard with descriptive analyses including global proficiency maps and temporal trends. The system aims to support researchers, developers, and policymakers in identifying strengths and gaps in model performance, fostering transparency and inclusivity in multilingual AI.
+
 ## Data Description
 
 The AI Language Proficiency Monitor is a comprehensive multilingual benchmark systematically assessing LLM performance across up to 200 languages (including Greek, Georgian, Armenian, Albanian, Maltese) with focus on low-resource languages. Aggregates tasks including translation, QA, math, and reasoning using FLORES+, MMLU, GSM8K, TruthfulQA, and ARC. Provides auto-updating leaderboard and dashboard.

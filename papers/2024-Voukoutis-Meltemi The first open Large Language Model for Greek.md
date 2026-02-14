@@ -68,6 +68,10 @@ ethics_perspective: "AI Safety & Alignment"
 
 The first open LLM for Greek, built on Mistral-7B with continual pretraining on 40B Greek tokens. Includes a comprehensive evaluation suite with Greek versions of ARC, TruthfulQA, HellaSwag, MMLU, Belebele, and a novel Medical MCQA benchmark. Meltemi-7B shows +20.2% average improvement across all Greek test sets.
 
+## Summary
+
+This paper introduces Meltemi 7B and Meltemi 7B Instruct, the first open large language models specifically developed for the Greek language. The authors adapt Mistral-7B through continuous pretraining on a 40-billion-token Greek corpus from diverse sources (Wikipedia, ELRC-SHARE, EUR-LEX, academic repositories, CulturaX), extending the tokenizer with Greek tokens and using a mixed Greek-English data approach to prevent catastrophic forgetting. The instruction-tuned version (Meltemi 7B Instruct) is created using translated preference data with the ORPO algorithm, with special attention to alignment and toxic content removal. Evaluation on a comprehensive Greek benchmark suite (translated versions of ARC, TruthfulQA, HellaSwag, MMLU, Belebele, plus a novel Medical MCQA) shows Meltemi achieving a 20.2% average improvement across all Greek test sets. Both models are released under Apache 2.0 license.
+
 ## Data Description
 
 Meltemi is the first open LLM for Greek, built on Mistral-7B with continual pretraining on 40B Greek tokens. Includes a comprehensive evaluation suite with Greek versions of ARC, TruthfulQA, HellaSwag, MMLU, Belebele, and a novel Medical MCQA benchmark. Meltemi-7B shows +20.2% average improvement across all Greek test sets.

@@ -69,6 +69,10 @@ research_topic: "Machine Learning"
 
 First publicly available MCQA dataset in French for medical domain. Contains 3,105 questions from real French medical specialization exams (pharmacy). Finds English specialized models yield better results than generic French ones despite the dataset being in French. Available on HuggingFace.
 
+## Summary
+
+This paper introduces FrenchMedMCQA, the first publicly available multiple-choice question answering dataset in French for the medical domain, containing 3,105 questions from real French pharmacy specialization exams with both single and multiple answer formats. Using a two-step retriever-reader architecture, the authors evaluate French models (CamemBERT) and English medical models (BioBERT, PubMedBERT) along with multilingual XLM-RoBERTa and generative BARThez. Surprisingly, they find that English specialized medical models outperform generic French models despite the dataset being in French, highlighting the importance of domain-specific representations over language-specific ones for technical medical content.
+
 ## Data Description
 
 FrenchMedMCQA dataset of 3,105 French medical multiple-choice questions from pharmacy exams. Evaluates French (CamemBERT) and English medical models (BioBERT, PubMedBERT) plus multilingual XLM-RoBERTa and generative BARThez, finding English specialized models outperform French generic ones despite French dataset.

@@ -67,6 +67,10 @@ research_topic: "Machine Translation"
 
 Comprehensive text embedding evaluation framework for Scandinavian languages across 24 tasks, 10 subtasks, and 4 task categories. Evaluates 26+ models, uncovering significant performance disparities between public and commercial solutions.
 
+## Summary
+
+This paper introduces the Scandinavian Embedding Benchmark (SEB), a comprehensive framework for evaluating text embeddings across Scandinavian languages (Danish, Norwegian, Swedish, Icelandic, Faroese, and Norwegian Nynorsk). The benchmark encompasses 24 tasks, 10 subtasks, and 4 task categories including classification, retrieval, semantic similarity, and clustering, addressing the lack of multilingual benchmarks beyond English. The authors evaluate 26+ models including E5-multilingual, Sentence-T5, LaBSE, and various Scandinavian sentence encoders, uncovering significant performance disparities between public and commercial embedding solutions. Published at NeurIPS 2024, SEB enables the transition from evaluating a handful of datasets to broad task coverage for Scandinavian text embeddings, similar to how MTEB revolutionized English embedding evaluation.
+
 ## Data Description
 
 Scandinavian Embedding Benchmark (SEB) evaluating sentence embeddings across 6 Scandinavian languages (Danish, Swedish, Norwegian, Icelandic, Faroese, Norwegian Nynorsk) on 24 diverse tasks including classification, retrieval, and semantic similarity.

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2403.15412"
 external_pdf: "http://arxiv.org/pdf/2403.15412.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Social & Cultural Values"
 key_contribution: "Surveyed 90 papers on culture in LLMs, finding a lack of clear definitions ('culture' vs 'proxies') and a neglect of semantic domains and 'aboutness'."
@@ -38,7 +36,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/faridlazuarda/cultural-llm-papers"
 ---
 # Towards Measuring and Modeling "Culture" in LLMs: A Survey

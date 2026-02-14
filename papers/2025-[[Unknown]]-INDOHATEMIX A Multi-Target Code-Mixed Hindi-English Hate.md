@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,34 +7,34 @@ key: EXSR0381
 type: preprint
 short_title: "INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate"
 year: 2025
-first_author: "[[[[Unknown]]]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
+first_author: [[[[Unknown]]]]
+last_author: [[Unknown]]
+authors: [[Unknown]]
 authors_incomplete: true
 url: "https://cse.iitkgp.ac.in/~abhijnan/papers/singh_hate_speech.pdf"
 external_pdf: "https://cse.iitkgp.ac.in/~abhijnan/papers/singh_hate_speech.pdf"
 local_pdf: "[[PDFs/2025/2025-[[Unknown]]-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-[[Unknown]]-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate.md"
-publication: IIT Kharagpur
+publication: "IIT Kharagpur"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Hate speech detection across contemporary social media presents unique challenges due to linguistic diversity and the informal nature of online discourse. These challenges are further amplified in settings involving code-mixing, transliteration, and culturally nuanced expressions. While fine-tuned transformer models, such as BERT, have become standard for this task, we argue that recent large language models (LLMs) not only surpass them but also redefine the landscape of hate speech detection..."
 data_description: "Multilingual benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # INDOHATEMIX: A Multi-Target, Code-Mixed Hindi-English Hate Speech Dataset

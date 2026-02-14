@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +8,7 @@ type: preprint
 short_title: "EnDive: A Cross-Dialect Benchmark for Fairness and Performance in Large Language Models"
 year: 2025
 first_author: "[[Abhay Gupta]]"
-last_author: "[[Unknown]]"
+last_author: [[Unknown]]
 authors: "Abhay Gupta; Jacob Cheung; Philip Meng; Shayan Sayyed; Austen Liao; Kevin Zhu; Sean O'Brien"
 url: "https://arxiv.org/html/2504.07100"
 external_pdf: "https://arxiv.org/pdf/2504.07100.pdf"
@@ -17,20 +16,20 @@ publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Arabic, English"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

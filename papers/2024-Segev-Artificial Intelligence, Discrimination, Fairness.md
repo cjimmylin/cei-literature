@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "https://doi.org/10.1007/s11023-024-09702-z"
 external_pdf: 
 publication: "Minds and Machines"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -36,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Artificial Intelligence, Discrimination, Fairness, and Other Moral Concerns
 

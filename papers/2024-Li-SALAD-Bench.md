@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "[[Li, Lijun]]; [[Dong, Bowen]]; [[Wang, Ruohui]]; [[Hu, Xuhao]]; [[Zuo
 url: "https://aclanthology.org/2024.findings-acl.235/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/6WRTXGCW/2024 - SALAD-Bench A Hierarchical and Comprehensive Safety Benchmark for Large Language Models.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Proposes SALAD-Bench, a hierarchical safety benchmark evaluating LLMs, attacks, and defenses, featuring an LLM-based 'MD-Judge'"
@@ -35,7 +33,7 @@ data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Llama-2, Llama-3, Mistral, Mixtral, Qwen, Gemma, Vicuna"
 DATA_URL: "https://github.com/OpenSafetyLab/SALAD-BENCH"
 pdf_extract: "PDF Extracts/2024/2024-Li-SALAD-Bench.md"
-local_pdf: "[[PDFs/2024/2024-Li-SALAD-Bench.pdf]]"
+local_pdf: [[PDFs/2024/2024-Li-SALAD-Bench.pdf]]
 ---
 # SALAD-Bench: A Hierarchical and Comprehensive Safety Benchmark for Large Language Models
 

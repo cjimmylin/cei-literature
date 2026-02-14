@@ -1,35 +1,34 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0252
 type: preprint
-short_title: Automatic Construction of a Korean Toxic Instruction Dataset for Ethical Tuning of Large Language Models
-year: 2023
+short_title: "Automatic Construction of a Korean Toxic Instruction Dataset for Ethical Tuning of Large Language Models"
+year: 2025
 first_author: "[[Sungjoo Byun]]"
 last_author: "[[Hyopil Shin]]"
-authors: Sungjoo Byun, Dongjun Jang, Hyemi Jo, Hyopil Shin
+authors: "Sungjoo Byun, Dongjun Jang, Hyemi Jo, Hyopil Shin"
 url: "https://arxiv.org/abs/2311.18215"
 external_pdf: "https://arxiv.org/pdf/2311.18215.pdf"
 local_pdf: "[[PDFs/2023/2023-Byun-Automatic Construction of a Korean Toxic Instruction Dataset for.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Byun-Automatic Construction of a Korean Toxic Instruction Dataset for.md"
-publication: arXiv / NeurIPS 2023 Workshop
+publication: "arXiv / NeurIPS 2023 Workshop"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Korean"
-languages_list: "Korean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Korean
+languages_list: Korean
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: 

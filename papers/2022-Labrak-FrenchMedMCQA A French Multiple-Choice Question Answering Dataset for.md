@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,29 +6,29 @@ Not AI:
 key: LSRC0451
 type: conferencePaper
 short_title: "FrenchMedMCQA: A French Multiple-Choice Question Answering Dataset for Medical domain"
-year: 2022
+year: 2025
 first_author: "[[Yanis Labrak]]"
 last_author: "[[Yanis Labrak]]"
-authors: Yanis Labrak, et al.
+authors: "Yanis Labrak, et al."
 url: "https://aclanthology.org/2022.louhi-1.5/"
 external_pdf: "https://arxiv.org/pdf/2304.04280.pdf"
-publication: ACL Anthology
+publication: "ACL Anthology"
 local_pdf: "[[PDFs/2022/2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "French"
-languages_list: "French"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: French
+languages_list: French
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus for question answering"
 data_metrics: "3,105 questions"
 LLM_assessed: "CamemBERT, BioBERT, PubMedBERT, XLM-RoBERTa, BARThez"

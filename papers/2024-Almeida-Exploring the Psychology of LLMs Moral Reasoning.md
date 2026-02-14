@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ external_pdf: "https://arxiv.org/pdf/2308.01264.pdf"
 local_pdf: "[[PDFs/2024/2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning.pdf]]"
 publication: "Artificial Intelligence"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: Yes
 newtags: "Moral-Psychology, Legal-Reasoning, LLM-Evaluation, Experimental-Methods, GPT-4"
 key_contribution: "Replicates 8 psychology studies with 4 LLMs; finds GPT-4 leads but all models exaggerate human moral effects"

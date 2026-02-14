@@ -1,15 +1,12 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0224
 type: conferencePaper
-short_title: Towards Understanding Sycophancy in Language Models
-year: 2024
+short_title: "Towards Understanding Sycophancy in Language Models"
+year: 2025
 first_author: "[[Sharma, Mrinank]]"
 last_author: "[[Perez, Ethan]]"
 authors: "[[Sharma, Mrinank]]; [[Tong, Meg]]; [[Korbak, Tomasz]]; [[Duvenaud, David]]; [[Askell, Amanda]]; [[Bowman, Samuel R.]]; [[Cheng, Newton]]; [[Durmus, Esin]]; [[Hatfield-Dodds, Zac]]; [[Johnston, Scott R.]]; [[Kravec, Shauna]]; [[Maxwell, Timothy]]; [[McCandlish, Sam]]; [[Ndousse, Kamal]]; [[Rausch, Oliver]]; [[Schiefer, Nicholas]]; [[Yan, Da]]; [[Zhang, Miranda]]; [[Perez, Ethan]]"
@@ -18,24 +15,24 @@ url: "https://arxiv.org/abs/2310.13548"
 external_pdf: "https://arxiv.org/pdf/2310.13548.pdf"
 local_pdf: "[[PDFs/2024/2024-Sharma-Towards Understanding Sycophancy in Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Sharma-Towards Understanding Sycophancy in Language Models.md"
-publication: ICLR 2024
+publication: "ICLR 2024"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "Human feedback is commonly utilized to finetune AI assistants. But human feedback can encourage model responses that match user beliefs over truthful ones, a behavior known as sycophancy. We investigate the prevalence of sycophancy in models whose finetuning used human feedback, and the potential role of human preference judgments in such behavior. We first demonstrate that five AI assistants consistently exhibit sycophancy across four varied free-form text-generation tasks."
 research_topic: "Truthfulness & Factuality"
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "Claude, GPT-3.5, GPT-4, Llama-2"
 DATA_URL: "https://github.com/meg-tong/sycophancy-eval"

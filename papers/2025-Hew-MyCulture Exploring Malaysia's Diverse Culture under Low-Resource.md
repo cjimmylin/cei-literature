@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "MyCulture: Exploring Malaysia's Diverse Culture under Low-Resource
 year: 2025
 first_author: "[[Zhong Ken Hew]]"
 last_author: "[[Zhong Ken Hew]]"
-authors: Zhong Ken Hew et al.
+authors: "Zhong Ken Hew et al."
 url: "https://arxiv.org/abs/2508.05429"
 external_pdf: "https://arxiv.org/pdf/2508.05429.pdf"
 local_pdf: "[[PDFs/2025/2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
-languages_list: "Malay"
-religious_values: "N/A"
-religious_values_list: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
+languages_list: Malay
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

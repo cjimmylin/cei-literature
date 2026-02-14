@@ -1,36 +1,35 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0133
 type: conferencePaper
-short_title: Culture Matters in Toxic Language Detection in Persian
+short_title: "Culture Matters in Toxic Language Detection in Persian"
 year: 2025
 first_author: "[[Zahra Bokaei]]"
 last_author: "[[Bonnie Webber]]"
-authors: Zahra Bokaei, Walid Magdy, Bonnie Webber
+authors: "Zahra Bokaei, Walid Magdy, Bonnie Webber"
 url: "https://aclanthology.org/2025.acl-long.456/"
 external_pdf: "https://arxiv.org/pdf/2506.03458.pdf"
 local_pdf: "[[PDFs/2025/2025-Bokaei-Culture Matters in Toxic Language Detection in Persian.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Bokaei-Culture Matters in Toxic Language Detection in Persian.md"
-publication: ACL 2025
+publication: "ACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Iranian"
-languages_list: "Persian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Iranian
+languages_list: Persian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

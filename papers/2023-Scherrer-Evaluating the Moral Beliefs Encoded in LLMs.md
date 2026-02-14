@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2307.14324"
 external_pdf: "http://arxiv.org/pdf/2307.14324.pdf"
 publication: "Neural Information Processing Systems"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Introduced statistical measures to quantify the consistency and uncertainty of LLM moral choices in high- vs low-ambiguity scenarios."

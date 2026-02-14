@@ -1,40 +1,38 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0532
 type: preprint
-short_title: The Large Language Model GreekLegalRoBERTa
-year: 2024
+short_title: "The Large Language Model GreekLegalRoBERTa"
+year: 2025
 first_author: "[[Vasileios Saketos]]"
 last_author: "[[Vasileios Saketos]]"
-authors: Vasileios Saketos et al.
+authors: "Vasileios Saketos et al."
 url: "https://arxiv.org/abs/2410.12852"
 external_pdf: "https://arxiv.org/pdf/2410.12852.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2024/2024-Saketos-The Large Language Model GreekLegalRoBERTa.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Saketos-The Large Language Model GreekLegalRoBERTa.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Greek"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Greek
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GreekLegalRoBERTa, GreekLegalBERT, GreekLegalBERT-v2, GreekBERT"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "We develop four versions of GreekLegalRoBERTa, which are four large language models trained on Greek legal and nonlegal text. We show that our models surpass the performance of GreekLegalBERT, Greek- LegalBERT-v2, and GreekBERT in two tasks involving Greek legal documents: named entity recognition and multiclass legal topic classiﬁcation. We view our work as a contribution to the study of domain-speciﬁc NLP tasks in low-resource languages, like Greek, using modern NLP techniques and..."
 research_topic: "NLP & Representation Learning"

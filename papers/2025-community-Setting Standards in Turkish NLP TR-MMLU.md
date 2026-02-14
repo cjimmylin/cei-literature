@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,24 +17,24 @@ local_pdf: "[[PDFs/2025/2025-community-Setting Standards in Turkish NLP TR-MMLU.
 pdf_extract: "PDF Extracts/2025/2025-community-Setting Standards in Turkish NLP TR-MMLU.md"
 publication: arxiv.org
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Language models have made remarkable advancements in understanding and generating human language, achieving notable success across a wide array of applications. However, evaluating these models remains a signiﬁcant challenge, particularly for resource-limited languages such as Turkish. To address this gap, we introduce the Turkish MMLU (TR-MMLU) benchmark, a comprehensive evaluation framework designed to assess the linguistic and conceptual capabilities of large language models (LLMs) in Turkish."
 data_description: "Benchmark dataset"
 data_metrics: "280,000 questions"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 research_topic: "NLP & Representation Learning"
 ---
 # Setting Standards in Turkish NLP: TR-MMLU for Large Language Model Evaluation

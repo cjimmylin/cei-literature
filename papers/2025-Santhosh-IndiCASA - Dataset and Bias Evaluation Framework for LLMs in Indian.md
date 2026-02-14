@@ -1,36 +1,33 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0064
 type: conferencePaper
-short_title: IndiCASA -- Dataset and Bias Evaluation Framework for LLMs in Indian Context
+short_title: "IndiCASA -- Dataset and Bias Evaluation Framework for LLMs in Indian Context"
 year: 2025
 first_author: "[[Santhosh G S]]"
 last_author: "[[Sriraam Natarajan]]"
-authors: Santhosh G S; Akshay Govind S; Gokul S Krishnan; Balaraman Ravindran; Sriraam Natarajan
+authors: "Santhosh G S; Akshay Govind S; Gokul S Krishnan; Balaraman Ravindran; Sriraam Natarajan"
 url: "https://arxiv.org/abs/2510.02742"
 external_pdf: "https://arxiv.org/pdf/2510.02742.pdf"
 local_pdf: "[[PDFs/2025/2025-Santhosh-IndiCASA - Dataset and Bias Evaluation Framework for LLMs in Indian.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Santhosh-IndiCASA - Dataset and Bias Evaluation Framework for LLMs in Indian.md"
-publication: AIES 2025
+publication: "AIES 2025"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Large Language Models (LLMs) have gained significant traction across critical domains owing to their impressive contextual understanding and generative capabilities. However, their increasing deployment in high stakes applications necessitates rigorous evaluation of embedded biases, particularly in culturally diverse contexts like India where existing embedding-based bias assessment methods often fall short in capturing nuanced stereotypes."
 ethics_perspective: "Bias & Fairness"

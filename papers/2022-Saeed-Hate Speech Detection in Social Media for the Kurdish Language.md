@@ -6,36 +6,36 @@ Human View note:
 Not AI: 
 key: LSRC0151
 type: conferencePaper
-short_title: Hate Speech Detection in Social Media for the Kurdish Language
-year: 2022
+short_title: "Hate Speech Detection in Social Media for the Kurdish Language"
+year: 2025
 first_author: "[[Ari M. Saeed]]"
-last_author: "[[Unknown]]"
-authors: Ari M. Saeed; Aso N. Ismael; Danya L. Rasul; Rayan S. Majeed; Tarik Ahmed Rashid
+last_author: [[Unknown]]
+authors: "Ari M. Saeed; Aso N. Ismael; Danya L. Rasul; Rayan S. Majeed; Tarik Ahmed Rashid"
 doi: 10.1007/978-3-031-14054-9_24
 url: "https://link.springer.com/chapter/10.1007/978-3-031-14054-9_24"
-publication: Springer (ICCCI 2022)
+publication: "Springer (ICCCI 2022)"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Kurdish (Sorani)"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "First Kurdish hate speech dataset of 6,882 Facebook comments divided into hate/not-hate classes from TV channels, athletes, religions, politicians. SVM, Decision Tree, Naive Bayes evaluated."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Hate Speech Detection in Social Media for the Kurdish Language

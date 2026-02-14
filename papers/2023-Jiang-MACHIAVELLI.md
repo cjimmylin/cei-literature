@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Alexander Pan; Jun Shern Chan; Andy Zou; Nathaniel Li; Steven Basart; 
 url: "https://arxiv.org/abs/2304.03279"
 external_pdf: "https://arxiv.org/pdf/2304.03279.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, Utilitarianism"
 key_contribution: "Introduced MACHIAVELLI benchmark (134 CYOA games) to measure power-seeking, deception, and utility maximization trade-offs"
@@ -25,7 +23,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Jiang-MACHIAVELLI.md"
 abstract: "Artificial agents have traditionally been trained to maximize reward, which may incentivize power- seeking and deception, analogous to how next- token prediction in language models (LMs) may incentivize toxicity. So do agents naturally learn to be Machiavellian? And how do we measure these behaviors in general-purpose models such as GPT-4? Towards answering these questions, we introduce MACHIAVELLI, a benchmark of 134 Choose-Your-Own-Adventure games contain- ing over half a million rich, diverse"
 paper_summary: "Abstract: Artificial agents have traditionally been trained to maximize reward, which may incentivize power- seeking and deception, analogous to how next- token prediction in language models (LMs) may incentivi | Overview: Do the Rewards Justify the Means? Measuring Trade-Offs Between Rewards and Ethical Behavior in the MACHIAVELLI Benchmark Alexander Pan * 1 Jun Shern Chan * 2 Andy Zou * 3 Nathaniel Li 1 Steven Basart  | Conclusions: We built MACHIAVELLI, a suite of 134 text-based Choose- Your-Own-Adventure games to evaluate both the capabili- ties and safety of AI agents. After ma"
-local_pdf: "[[PDFs/2023/2023-Jiang-MACHIAVELLI.pdf]]"
+local_pdf: [[PDFs/2023/2023-Jiang-MACHIAVELLI.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

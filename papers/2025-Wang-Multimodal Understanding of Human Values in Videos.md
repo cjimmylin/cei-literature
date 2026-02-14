@@ -1,14 +1,11 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0280
 type: journalArticle
-short_title: Multimodal Understanding of Human Values in Videos
+short_title: "Multimodal Understanding of Human Values in Videos"
 year: 2025
 first_author: "[[Y. Wang]]"
 last_author: "[[Xiaofang Luo]]"
@@ -20,25 +17,25 @@ local_pdf: "[[PDFs/2025/2025-Wang-Multimodal Understanding of Human Values in Vi
 pdf_extract: "PDF Extracts/2025/2025-Wang-Multimodal Understanding of Human Values in Videos.md"
 publication: Neurocomputing
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Moral Reasoning & Psychology"
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "Gemini, Mistral, RoBERTa, DeBERTa"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Multimodal Understanding of Human Values in Videos
 

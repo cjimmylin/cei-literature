@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "Untangling Input Language from Reasoning Language: A Diagnostic Framework for Cross-Lingual Moral Alignment in LLMs"
 year: 2025
 first_author: "[[Nan Li]]"
-last_author: "[[Unknown]]"
-authors: Nan Li; Bo Kang; Tijl De Bie
+last_author: [[Unknown]]
+authors: "Nan Li; Bo Kang; Tijl De Bie"
 url: "https://arxiv.org/abs/2601.10257"
 external_pdf: "https://arxiv.org/pdf/2601.10257.pdf"
 local_pdf: "[[PDFs/2025/2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
 languages_list: "Chinese, English"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

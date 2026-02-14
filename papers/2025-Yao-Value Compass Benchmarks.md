@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "http://arxiv.org/abs/2501.07071"
 external_pdf: "http://arxiv.org/pdf/2501.07071.pdf"
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed 'Value Compass', a dynamic benchmarking platform using generative testing to assess LLMs on 27 value dimensions (expanded from Schwartz)."

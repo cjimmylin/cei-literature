@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,33 +7,33 @@ key: LSRC0631
 type: conferencePaper
 short_title: "Multilingual Sentiment Analysis with Data Augmentation: A Cross-Language Evaluation in French, German, and Japanese"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+first_author: [[Unknown]]
+last_author: [[Unknown]]
 authors: Unknown
 url: "https://www.mdpi.com/2078-2489/16/9/806"
 publication: MDPI
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Japanese, French, German"
 languages_list: "Japanese, Mongolian, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 research_topic: "Machine Translation"
 ---
 # Multilingual Sentiment Analysis with Data Augmentation: A Cross-Language Evaluation in French, German, and Japanese

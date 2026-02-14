@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,36 +6,36 @@ Not AI:
 key: EXSR0612
 type: preprint
 short_title: "Pretrained Models and Evaluation Data for"
-year: 2021
-first_author: "[[Jiang]]"
-last_author: "[[Jiang]]"
+year: 2025
+first_author: [[Jiang]]
+last_author: [[Jiang]]
 authors: "[[Jiang et al]]"
 authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/9645441/"
 external_pdf: "https://ieeexplore.ieee.org/ielx7/5971803/9645434/09645441.pdf"
 local_pdf: "[[PDFs/2021/2021-Jiang-Pretrained Models and Evaluation Data for.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Jiang-Pretrained Models and Evaluation Data for.md"
-publication: IEEE Xplore / Tsinghua Science and Technology
+publication: "IEEE Xplore / Tsinghua Science and Technology"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "First transformer-based pretrained models for Khmer language. Evaluated on POS tagging and news categorization tasks. Self-constructed news categorization dataset of 7,166 Khmer news articles from khmer.voanews.com. Foundation Khmer language models and evaluation data. First pretrained models for Khmer, relevant as infrastructure for future cultural/values evaluation."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
-research_topic: "Other"
+LLM_assessed: NA
+DATA_URL: 
+research_topic: Other
 ---
 # Pretrained Models and Evaluation Data for the Khmer Language
 

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0665
 type: preprint
 short_title: "When LLMs Imagine People: A Human-Centered Persona Brainstorm Audit for Bias and Fairness in Creative Applications"
-year: 2026
+year: 2025
 first_author: "[[Dave Davies]]"
 last_author: "[[Dave Davies]]"
-authors: Dave Davies
+authors: "Dave Davies"
 url: "https://arxiv.org/html/2602.00044v1"
 external_pdf: "https://arxiv.org/pdf/2602.00044.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2026/2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

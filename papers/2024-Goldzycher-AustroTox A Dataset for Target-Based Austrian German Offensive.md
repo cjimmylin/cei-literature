@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,29 +6,29 @@ Not AI:
 key: LSRC0463
 type: preprint
 short_title: "AustroTox: A Dataset for Target-Based Austrian German Offensive Language Detection"
-year: 2024
+year: 2025
 first_author: "[[Janis Goldzycher]]"
 last_author: "[[Hanna Mahler]]"
-authors: Janis Goldzycher, Anna Maria Planitzer, Claudia Pichler, Sebastian Pado, Hanna Mahler
+authors: "Janis Goldzycher, Anna Maria Planitzer, Claudia Pichler, Sebastian Pado, Hanna Mahler"
 url: "https://arxiv.org/abs/2406.08080"
 external_pdf: "https://arxiv.org/pdf/2406.08080.pdf"
-publication: arXiv / ACL Anthology
+publication: "arXiv / ACL Anthology"
 local_pdf: "[[PDFs/2024/2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "German"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: German
 languages_list: "German (Austrian)"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach annotated dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, mGPT, German BERT variants"

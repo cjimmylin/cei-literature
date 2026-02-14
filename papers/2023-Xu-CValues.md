@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "http://arxiv.org/abs/2307.09705"
 external_pdf: "http://arxiv.org/pdf/2307.09705.pdf"
 publication: arXiv.org
 national_ethnic_cultural: Chinese
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Chinese, AI Safety & Alignment"
 key_contribution: "Presents CVALUES, the first specialized benchmark for Chinese human values alignment, evaluating LLMs on both safety and responsibility criteria across 10 scenarios."
@@ -27,8 +25,8 @@ significance: "Demonstrates that while Chinese models often pass safety audits, 
 pdf_extract: "PDF Extracts/2023/2023-Xu-CValues.md"
 abstract: "Warning: this paper contains examples that may be offensive or upsetting. With the rapid evolution of large language mod- els (LLMs), there is a growing concern that they may pose risks or have negative social im- pacts. Therefore, evaluation of human values alignment is becoming increasingly important. Previous work mainly focuses on assessing the performance of LLMs on certain knowledge and reasoning abilities, while neglecting the alignment to human values, especially in a Chi- nese context."
 paper_summary: "Abstract: Warning: this paper contains examples that may be offensive or upsetting. With the rapid evolution of large language mod- els (LLMs), there is a growing concern that they may pose risks or have negati | Overview: CVALUES: Measuring the Values of Chinese Large Language Models from Safety to Responsibility Guohai Xu1, Jiayi Liu1, Ming Yan1∗, Haotian Xu1, Jinghui Si1, Zhuoran Zhou1 Peng Yi1, Xing Gao1, Jitao Sang | Methodology: is to develop a model that can directly predict the safety or responsibility of each response. For ex- ample, Sun et al. (2023) do prompt engineering  | Key Findings: benchmark to measure the alignment ability of LLMs in terms of both safety and responsi- bility criteria. As a result, we have manually collected adve | Conclusions: This paper evaluates the values performance of Chinese large language models based on human evaluation and automatic evaluation. We present three impo"
-local_pdf: "[[PDFs/2023/2023-Xu-CValues.pdf]]"
-ethics_overall: Yes
+local_pdf: "[[PDFs/2023-Xu-CValues.pdf]]"
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

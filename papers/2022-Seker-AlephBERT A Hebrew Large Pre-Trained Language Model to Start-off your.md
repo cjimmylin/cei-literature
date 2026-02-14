@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0027
 type: preprint
 short_title: "AlephBERT: A Hebrew Large Pre-Trained Language Model to Start-off your Hebrew NLP Application With"
-year: 2022
+year: 2025
 first_author: "[[Amit Seker]]"
 last_author: "[[Reut Tsarfaty]]"
-authors: Amit Seker, Elron Bandel, Dan Bareket, Idan Brusilovsky, Refael Shaked Greenfeld, Reut Tsarfaty
+authors: "Amit Seker, Elron Bandel, Dan Bareket, Idan Brusilovsky, Refael Shaked Greenfeld, Reut Tsarfaty"
 url: "https://arxiv.org/abs/2104.04052"
 external_pdf: "https://arxiv.org/pdf/2104.04052.pdf"
 local_pdf: "[[PDFs/2022/2022-Seker-AlephBERT A Hebrew Large Pre-Trained Language Model to Start-off your.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Seker-AlephBERT A Hebrew Large Pre-Trained Language Model to Start-off your.md"
-publication: arXiv / ACL 2022
+publication: "arXiv / ACL 2022"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Hebrew/Israeli"
-languages_list: "Hebrew"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Hebrew/Israeli
+languages_list: Hebrew
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

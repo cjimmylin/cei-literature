@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,31 +9,31 @@ short_title: "The Hidden Flaw in LLM Safety: Translation as a Jailbreak - Welo D
 year: 2025
 first_author: "[[Embedding Jailbreak]]"
 last_author: "[[Embedding Jailbreak]]"
-authors: Embedding Jailbreak
+authors: "Embedding Jailbreak"
 url: "https://welodata.ai/2025/12/10/the-hidden-flaw-in-llm-safety-translation-as-a-jailbreak/"
 publication: Web
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Arabic, English, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "AI Safety & Alignment"
 ---
 # The Hidden Flaw in LLM Safety: Translation as a Jailbreak - Welo Data

@@ -1,18 +1,15 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0015
 type: conferencePaper
-short_title: "\"Do Your Guardrails Even Guard?\" Evaluating Moderation Guardrails for LLM Alignment"
+short_title: \
 year: 2025
 first_author: "[[Anindya Das Antar]]"
 last_author: "[[Nikola Banovic]]"
-authors: Anindya Das Antar; Xun Huan; Nikola Banovic
+authors: "Anindya Das Antar; Xun Huan; Nikola Banovic"
 doi: 10.1609/aies.v8i1.36583
 url: "https://doi.org/10.1609/aies.v8i1.36583"
 external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/36583/38721"
@@ -20,25 +17,25 @@ local_pdf: "[[PDFs/2025/2025-Antar-Do Your Guardrails Even Guard Evaluating Mode
 pdf_extract: "PDF Extracts/2025/2025-Antar-Do Your Guardrails Even Guard Evaluating Moderation Guardrails for.md"
 publication: Unknown
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # "Do Your Guardrails Even Guard?" Evaluating Moderation Guardrails for LLM Alignment
 

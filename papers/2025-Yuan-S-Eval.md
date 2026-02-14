@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,22 +13,22 @@ authors: "[[Yuan, Xiaohan]]; [[Li, Jinfeng]]; [[Wang, Dongxia]]; [[Chen, Yuefeng
 authors_incomplete: false
 url: "https://arxiv.org/abs/2405.14191"
 external_pdf: "https://arxiv.org/pdf/2405.14191.pdf"
-local_pdf: "[[PDFs/2025/2025-Yuan-S-Eval.pdf]]"
+local_pdf: "[[PDFs/2025-Yuan-S-Eval.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yuan-S-Eval.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Generative large language models (LLMs) have revolutionized natural language processing with their transformative and emergent capabilities. However, recent evidence indicates that LLMs can produce harmful content that violates social norms, raising significant concerns regarding the safety and ethical ramifications of deploying these advanced models. Thus, it is both critical and imperative to perform a rigorous and comprehensive safety evaluation of LLMs before deployment."
 data_description: "Benchmark for moral/ethical reasoning"

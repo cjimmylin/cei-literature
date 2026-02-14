@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "https://www.mdpi.com/2504-4990/7/3/77"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/L5X24WSS/Rashid et al. - 2025 - Evaluating Prompt Injection Attacks with LSTM-Based Generative Adversarial Networks A Lightweight A.pdf"
 local_pdf: "[[PDFs/2025/2025-Rashid-Evaluating Prompt Injection Attacks with.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -34,7 +32,7 @@ is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, GPT-4"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Rashid-Evaluating Prompt Injection Attacks with.md"
 ---
 # Evaluating Prompt Injection Attacks with LSTM-Based Generative Adversarial Networks: A Lightweight Alternative to Large Language Models

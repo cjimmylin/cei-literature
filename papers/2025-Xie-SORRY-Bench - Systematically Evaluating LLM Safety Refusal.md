@@ -1,14 +1,11 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0116
 type: conferencePaper
-short_title: SORRY-Bench -- Systematically Evaluating LLM Safety Refusal
+short_title: "SORRY-Bench -- Systematically Evaluating LLM Safety Refusal"
 year: 2025
 first_author: "[[Xie, Tinghao]]"
 last_author: "[[Mittal, Prateek]]"
@@ -18,20 +15,20 @@ url: "https://arxiv.org/abs/2406.14598"
 external_pdf: "https://arxiv.org/pdf/2406.14598.pdf"
 local_pdf: "[[PDFs/2025/2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal.md"
-publication: ICLR 2025
+publication: "ICLR 2025"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Evaluating aligned large language models’ (LLMs) ability to recognize and reject unsafe user requests is crucial for safe, policy-compliant deployments. Existing evaluation efforts, however, face three limitations that we address with SORRYBench, our proposed benchmark. First, existing methods often use coarse-grained taxonomies of unsafe topics, and are over-representing some fine-grained topics. For example, among the ten existing datasets that we evaluated, tests for refusals of self-harm..."
 ethics_perspective: "AI Safety & Alignment"

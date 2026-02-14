@@ -1,9 +1,4 @@
 ---
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,18 +17,18 @@ local_pdf: "[[PDFs/2025/2025-Jotautaite-SpeciesismBench Evaluating LLM Recogniti
 pdf_extract: "PDF Extracts/2025/2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "As large language models (LLMs) become more widely deployed, it is crucial to examine their ethical tendencies. Building on research on fairness and discrimination in AI, we investigate whether LLMs exhibit speciesist bias—discrimination based on species membership— and how they value non‑human animals. We systematically examine this issue across three paradigms: (1) SpeciesismBench, a 1,003‑item benchmark assessing recognition and moral evaluation of speciesist statements; (2) established..."
 ethics_perspective: "Bias & Fairness"

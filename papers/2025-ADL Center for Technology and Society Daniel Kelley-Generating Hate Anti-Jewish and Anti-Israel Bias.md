@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,29 +11,29 @@ first_author: "[[ADL Center for Technology and Society (Daniel Kelley, interim h
 last_author: "[[ADL Center for Technology and Society (Daniel Kelley, interim head)]]"
 authors: "[[ADL Center for Technology]]; [[Society (Daniel Kelley, interim head)]]"
 authors_incomplete: false
-url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
-publication: Anti-Defamation League (ADL) Report
+url: 
+external_pdf: 
+local_pdf: N/A
+pdf_extract: 
+publication: "Anti-Defamation League (ADL) Report"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Hebrew/Israeli"
-religious_values: "Judaism"
-religious_values_list: "Judaism"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Hebrew/Israeli
+religious_values: Judaism
+religious_values_list: Judaism
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "Summary: Most comprehensive evaluation to date of anti-Jewish and anti-Israel bias in major LLMs. Tests across 6 categories: bias against Jews, bias against Israel, Gaza/Hamas war, antisemitic conspiracy theories, Holocaust conspiracy theories, and general antisemitism. All 4 LLMs showed concerning answers; Meta's Llama performed worst."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://www.adl.org/resources/report/generating-hate-anti-jewish-and-anti-israel-bias-leading-large-language-models"
 ethics_perspective: "Bias & Fairness"
 ---

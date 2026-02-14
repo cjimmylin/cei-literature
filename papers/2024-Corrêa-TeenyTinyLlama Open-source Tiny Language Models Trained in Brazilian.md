@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0217
 type: preprint
 short_title: "TeenyTinyLlama: Open-source Tiny Language Models Trained in Brazilian Portuguese"
-year: 2024
+year: 2025
 first_author: "[[Nicholas Kluge Corrêa]]"
 last_author: "[[Sophia Falk]]"
-authors: Nicholas Kluge Corrêa, Sophia Falk
+authors: "Nicholas Kluge Corrêa, Sophia Falk"
 url: "https://arxiv.org/abs/2401.16640"
 external_pdf: "https://arxiv.org/pdf/2401.16640.pdf"
 local_pdf: "[[PDFs/2024/2024-Corrêa-TeenyTinyLlama Open-source Tiny Language Models Trained in Brazilian.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Corrêa-TeenyTinyLlama Open-source Tiny Language Models Trained in Brazilian.md"
-publication: arXiv / ScienceDirect
+publication: "arXiv / ScienceDirect"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Brazilian"
-languages_list: "Portuguese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Brazilian
+languages_list: Portuguese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

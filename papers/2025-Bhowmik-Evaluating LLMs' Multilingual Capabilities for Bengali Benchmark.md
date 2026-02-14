@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "Evaluating LLMs' Multilingual Capabilities for Bengali: Benchmark Creation and Performance Analysis"
 year: 2025
 first_author: "[[Shimanto Bhowmik]]"
-last_author: "[[Unknown]]"
-authors: Shimanto Bhowmik; Tawsif Tashwar Dipto; Md Sazzad Islam; Sheryl Hsu; Tahsin Reasat
+last_author: [[Unknown]]
+authors: "Shimanto Bhowmik; Tawsif Tashwar Dipto; Md Sazzad Islam; Sheryl Hsu; Tahsin Reasat"
 url: "https://arxiv.org/abs/2507.23248"
 external_pdf: "https://arxiv.org/pdf/2507.23248.pdf"
 local_pdf: "[[PDFs/2025/2025-Bhowmik-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Bhowmik-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Bengali, English"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

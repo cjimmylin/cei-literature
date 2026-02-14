@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,32 +9,32 @@ short_title: "MuLTa-Telegram: A Fine-Grained Italian and Polish Dataset for Hate
 year: 2025
 first_author: "[[Multiple authors]]"
 last_author: "[[Multiple authors]]"
-authors: Multiple authors
+authors: "Multiple authors"
 url: "https://aclanthology.org/2025.clicit-1.56.pdf"
 external_pdf: "https://ceur-ws.org/Vol-4112/55_main_long.pdf"
-publication: ACL Anthology (CLiC-it 2025)
+publication: "ACL Anthology (CLiC-it 2025)"
 local_pdf: "[[PDFs/2025/2025-authors-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-authors-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Italian"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Italian
 languages_list: "Italian, Polish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # MuLTa-Telegram: A Fine-Grained Italian and Polish Dataset for Hate Speech Detection

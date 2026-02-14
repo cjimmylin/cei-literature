@@ -1,16 +1,15 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0016
 type: preprint
-short_title: Offensive Hebrew Corpus and Detection using BERT
-year: 2023
+short_title: "Offensive Hebrew Corpus and Detection using BERT"
+year: 2025
 first_author: "[[Nagham Hamad]]"
 last_author: "[[Nadim Nashif]]"
-authors: Nagham Hamad, Mustafa Jarrar, Mohammed Khalilia, Nadim Nashif
+authors: "Nagham Hamad, Mustafa Jarrar, Mohammed Khalilia, Nadim Nashif"
 doi: 10.1109/ICSEE61636.2024.10479258
 url: "https://arxiv.org/abs/2309.02724"
 external_pdf: "https://arxiv.org/pdf/2309.02724.pdf"
@@ -18,19 +17,19 @@ local_pdf: "[[PDFs/2023/2023-Hamad-Offensive Hebrew Corpus and Detection using B
 pdf_extract: "PDF Extracts/2023/2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Arabic, Hebrew/Israeli"
-languages_list: "Hebrew"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+languages_list: Hebrew
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach text corpus for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: 

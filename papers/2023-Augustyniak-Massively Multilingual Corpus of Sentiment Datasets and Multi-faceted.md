@@ -1,35 +1,34 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0355
 type: preprint
-short_title: Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted Sentiment Classification Benchmark
-year: 2023
+short_title: "Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted Sentiment Classification Benchmark"
+year: 2025
 first_author: "[[Lukasz Augustyniak]]"
 last_author: "[[Tomasz Kajdanowicz]]"
-authors: Lukasz Augustyniak, Szymon Wozniak, Marcin Gruza, Piotr Gramacki, Krzysztof Rajda, Mikolaj Morzy, Tomasz Kajdanowicz
+authors: "Lukasz Augustyniak, Szymon Wozniak, Marcin Gruza, Piotr Gramacki, Krzysztof Rajda, Mikolaj Morzy, Tomasz Kajdanowicz"
 url: "https://arxiv.org/abs/2306.07902"
 external_pdf: "https://arxiv.org/pdf/2306.07902.pdf"
 local_pdf: "[[PDFs/2023/2023-Augustyniak-Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Augustyniak-Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted.md"
-publication: arXiv / NeurIPS 2023
+publication: "arXiv / NeurIPS 2023"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Croatian, Czech, Polish, Serbian, Slovak, Slovenian, and 21 other languages"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "350 datasets; 27 languages; 6 language"
 LLM_assessed: 

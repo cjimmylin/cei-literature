@@ -1,44 +1,41 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0202
 type: conferencePaper
-short_title: Multilingual Defining Issues Test
-year: 2024
+short_title: "Multilingual Defining Issues Test"
+year: 2025
 first_author: "[[Aditi Khandelwal]]"
 last_author: "[[Monojit Choudhury Kumar Tanmay]]"
-authors: Aditi Khandelwal, Utkarsh Agarwal, Kumar Tanmay, Monojit Choudhury
+authors: "Aditi Khandelwal, Utkarsh Agarwal, Kumar Tanmay, Monojit Choudhury"
 doi: 10.18653/v1/2024.eacl-long.176
 url: "https://doi.org/10.18653/v1/2024.eacl-long.176"
 external_pdf: "https://aclanthology.org/2024.eacl-long.176.pdf"
 local_pdf: "[[PDFs/2024/2024-Khandelwal-Multilingual Defining Issues Test.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Khandelwal-Multilingual Defining Issues Test.md"
-publication: ACL 2024
+publication: "ACL 2024"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Cognitive Developmental"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
-abstract:
+abstract: 
 research_topic: "Machine Translation"
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, ChatGPT, Llama-2"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Multilingual Defining Issues Test
 

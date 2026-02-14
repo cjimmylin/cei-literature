@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.18653/v1/W19-3807
 url: "https://www.aclweb.org/anthology/W19-3807"
 external_pdf: "https://arxiv.org/pdf/1903.03467v1.pdf"
 national_ethnic_cultural: Hebrew/Israeli
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: Hebrew/Israeli
 tags: 
@@ -34,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Filling Gender & Number Gaps in Neural Machine Translation with Black-box Context Injection
 

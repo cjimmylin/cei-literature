@@ -1,0 +1,31 @@
+paper,candidate_url,source_title,confidence,seed_url,doi,status,action_bucket
+0000-projects-BaniDB Shabad OS Digital Gurbani Database.md,http://xplorestaging.ieee.org/ielx7/8643018/8645960/08646190.pdf?arnumber=864619,,60,http://xplorestaging.ieee.org/ielx7/8643018/8645960/08646190.pdf?arnumber=864619,,manual_added,LANDING_PAGE_NOT_DIRECT_PDF
+2018-Nguyen-UIT-VSFC Vietnamese Students' Feedback Corpus for Sentiment Analysis.md,http://xplorestaging.ieee.org/ielx7/8553666/8573236/08573337.pdf?arnumber=8573337,,60,http://xplorestaging.ieee.org/ielx7/8553666/8573236/08573337.pdf?arnumber=8573337,,dryrun_seed,
+2019-authors-Cross-Platform Evaluation for Italian Hate Speech Detection.md,https://hal.science/hal-02381152,,60,https://hal.science/hal-02381152,,dryrun_seed,
+2020-Karan-Detecting Hate Speech Online A Case of Croatian.md,https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:892/datastream/FILE0,,60,https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:892/datastream/FILE0,,dryrun_seed,
+2020-Whaanga-Indigenous Protocol and Artificial Intelligence Position.md,https://doi.org/10.11573/spectrum.library.concordia.ca.00986506,,60,https://doi.org/10.11573/spectrum.library.concordia.ca.00986506,,dryrun_seed,
+2021-authors-Cyberbullying and Hate Speech Detection on.md,https://doi.org/10.1016/j.dib.2022.108540,,60,https://doi.org/10.1016/j.dib.2022.108540,,manual_added,HOST_OR_TLS_FAILURE
+2022-Pollak-Embeddings Models for Buddhist Sanskrit.md,https://pmc.ncbi.nlm.nih.gov/articles/PMC10280248/pdf/peerj-cs-08-1128.pdf,,60,https://pmc.ncbi.nlm.nih.gov/articles/PMC10280248/pdf/peerj-cs-08-1128.pdf,,dryrun_seed,
+2023-Bosco-Detecting Racial Stereotypes An Italian Social Media Corpus where.md,https://hdl.handle.net/11586/413290,,60,https://hdl.handle.net/11586/413290,,dryrun_seed,
+2023-Das-Mytho-Annotator An Annotation Tool for Indian.md,https://doi.org/10.7717/peerj-cs.1617,,60,https://doi.org/10.7717/peerj-cs.1617,,dryrun_seed,
+2023-[[Unknown]]-ISE-Hate A Benchmark Corpus for Inter-faith.md,https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.24106617.v2,,60,https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.24106617.v2,,manual_added,LANDING_PAGE_NOT_DIRECT_PDF
+2023-[[Unknown]]-NEHATE Large-Scale Annotated Data Shedding Light.md,https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA230535,,60,https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA230535,,dryrun_seed,
+2024-Akhunzada-Multi-IsnadSet MIS for Sahih Muslim Hadith.md,https://pmc.ncbi.nlm.nih.gov/articles/PMC11096860/pdf/main.pdf,,60,https://pmc.ncbi.nlm.nih.gov/articles/PMC11096860/pdf/main.pdf,10.1016/j.dib.2024.110439,manual_added,LANDING_PAGE_NOT_DIRECT_PDF
+2024-Kajiwara-A curated dataset for hate speech detection on social media text - PMC.md,http://arxiv.org/abs/2212.12799,,60,http://arxiv.org/abs/2212.12799,,dryrun_seed,
+2024-Kajiwara-Hate Speech and Offensive Language Dataset.md,https://doi.org/10.1016/j.ipm.2021.102524,,60,https://doi.org/10.1016/j.ipm.2021.102524,,dryrun_seed,
+2024-Moe-Fact Checking in Low-Resource Languages A.md,https://arxiv.org/pdf/2406.02169.pdf,,60,https://arxiv.org/pdf/2406.02169.pdf,,manual_added,LANDING_PAGE_NOT_DIRECT_PDF
+2024-Phyo-Development and Evaluation of Myanmar GPT.md,http://dx.doi.org/10.2139/ssrn.4871732,,60,http://dx.doi.org/10.2139/ssrn.4871732,10.2139/ssrn.4871732,manual_added,LANDING_PAGE_NOT_DIRECT_PDF
+2024-Toygar-Turkish Offensive Language Detection Dataset.md,https://www.mdpi.com/2079-9292/14/24/4919/pdf,,60,https://www.mdpi.com/2079-9292/14/24/4919/pdf,,manual_added,LANDING_PAGE_NOT_DIRECT_PDF
+2024-Yeltay-Kazakh Language Dataset for Hate Speech.md,https://ieeexplore.ieee.org/ielx8/10719028/10718863/10719327.pdf,,60,https://ieeexplore.ieee.org/ielx8/10719028/10718863/10719327.pdf,10.1109/ICCIA62557.2024.10719327,manual_added,LANDING_PAGE_NOT_DIRECT_PDF
+2024-Zeng-Proposing Central Asian AI Ethics Principles.md,https://link.springer.com/content/pdf/10.1007/s43681-024-00505-7.pdf,,60,https://link.springer.com/content/pdf/10.1007/s43681-024-00505-7.pdf,10.1007/s43681-024-00505-7,manual_added,HOST_REJECTED_REQUEST
+2024-[[Unknown]]-Urdu Toxicity Detection A Multi-Stage and.md,https://www.mdpi.com/2673-2688/6/8/194/pdf?version=1755769417,,60,https://www.mdpi.com/2673-2688/6/8/194/pdf?version=1755769417,,manual_added,PAYWALL_OR_ACCESS_BLOCK
+2024-authors-Offensive Text Span Detection in Romanian Comments Using Large.md,https://doi.org/10.3390/info15010008,,60,https://doi.org/10.3390/info15010008,,dryrun_seed,
+2024-authors-So-haTRed A Novel Hybrid System for.md,https://doi.org/10.1109/access.2024.3415350,,60,https://doi.org/10.1109/access.2024.3415350,,dryrun_seed,
+2024-results]]-Telugu Language Hate Speech Detection Using.md,https://doi.org/10.1016/j.sasc.2024.200112,,60,https://doi.org/10.1016/j.sasc.2024.200112,,dryrun_seed,
+2024-team-MahaMarathi-7B Marathi Large Language Model.md,https://www.mdpi.com/2079-9292/14/17/3484/pdf?version=1756625048,,60,https://www.mdpi.com/2079-9292/14/17/3484/pdf?version=1756625048,,manual_added,LANDING_PAGE_NOT_DIRECT_PDF
+2025-Ishkhanyan-Ethical considerations in AI-powered language technologies insights.md,https://link.springer.com/content/pdf/10.1007/s43681-025-00716-6.pdf,,60,https://link.springer.com/content/pdf/10.1007/s43681-025-00716-6.pdf,,dryrun_seed,
+2025-Martinez-Religion and Racial Bias in Artificial.md,https://journals.sagepub.com/doi/pdf/10.1177/23780231251377210,,70,https://journals.sagepub.com/doi/pdf/10.1177/23780231251377210,10.1177/23780231251377210,blocked_or_manual,BROKEN_OR_REMOVED_URL
+2025-Salehi-Blind Faith User Preference and Expert.md,https://dl.acm.org/doi/pdf/10.1145/3715275.3732162,,60,https://dl.acm.org/doi/pdf/10.1145/3715275.3732162,,dryrun_seed,
+2025-Sharma-Hate Speech Detection Research in South.md,https://doi.org/10.1016/j.knosys.2025.113915,,60,https://doi.org/10.1016/j.knosys.2025.113915,,dryrun_seed,
+2025-Unknown-Bilingual Code-Switching Using XLM-RoBERTa.md,https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762/v1,,60,https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762/v1,10.36227/techrxiv.175756344.42614762/v1,manual_added,BROKEN_OR_REMOVED_URL
+2025-authors-How do LLMs perform on Turkish.md,https://doi.org/10.1080/23311983.2025.2600519,,60,https://doi.org/10.1080/23311983.2025.2600519,,manual_added,HOST_REJECTED_REQUEST

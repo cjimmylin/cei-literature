@@ -1,17 +1,14 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0024
 type: preprint
-short_title: Analyzing the Safety of Japanese Large Language Models in Stereotype-Triggering Prompts
+short_title: "Analyzing the Safety of Japanese Large Language Models in Stereotype-Triggering Prompts"
 year: 2025
 first_author: "[[A. Nakanishi]]"
-last_author: "[[F]]"
+last_author: [[F]]
 authors: "Nakanishi, A., Sano, Y., Liu, G., & Pierri, F"
 url: "https://arxiv.org/abs/2503.01947"
 external_pdf: "https://arxiv.org/pdf/2503.01947.pdf"
@@ -19,18 +16,18 @@ local_pdf: "[[PDFs/2025/2025-Nakanishi-Analyzing the Safety of Japanese Large La
 pdf_extract: "PDF Extracts/2025/2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Chinese, Japanese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "In recent years, Large Language Models (LLMs) have attracted growing interest for their significant potential, though concerns have rapidly emerged regarding unsafe behaviors stemming from inherent stereotypes and biases. Most research on stereotypes in LLMs has primarily relied on indirect evaluation setups, in which models are prompted to select between pairs of sentences associated with particular social groups."
 ethics_perspective: "Bias & Fairness"

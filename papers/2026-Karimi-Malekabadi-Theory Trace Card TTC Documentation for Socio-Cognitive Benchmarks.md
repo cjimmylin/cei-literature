@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: EXSR0265
 type: preprint
 short_title: "Theory Trace Card (TTC): Documentation for Socio-Cognitive Benchmarks"
-year: 2026
+year: 2025
 first_author: "[[Karimi-Malekabadi, Farzan]]"
 last_author: "[[Dehghani, Morteza]]"
 authors: "[[Karimi-Malekabadi, Farzan]]; [[Abdurahman, Suhaib]]; [[Sourati, Zhivar]]; [[Trager, Jackson]]; [[Dehghani, Morteza]]"
@@ -20,25 +17,25 @@ local_pdf: "[[PDFs/2026/2026-Karimi-Malekabadi-Theory Trace Card TTC Documentati
 pdf_extract: "PDF Extracts/2026/2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Socio-cognitive benchmarks for large language models (LLMs) often fail to predict real-world behavior, even when models achieve high benchmark scores. Prior work has attributed this evaluation–deployment gap to problems of measurement and validity. While these critiques are insightful, we argue that they overlook a more fundamental issue: many sociocognitive evaluations proceed without an explicit theoretical specification of the target capability, leaving the assumptions linking task..."
 research_topic: "Machine Learning"
-data_description: "Benchmark"
+data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Theory Trace Card (TTC): Documentation for Socio-Cognitive Benchmarks
 

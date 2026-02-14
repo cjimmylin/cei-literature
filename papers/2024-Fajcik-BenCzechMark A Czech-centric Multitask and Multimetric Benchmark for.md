@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0341
 type: preprint
 short_title: "BenCzechMark: A Czech-centric Multitask and Multimetric Benchmark for Large Language Models with Duel Scoring Mechanism"
-year: 2024
+year: 2025
 first_author: "[[Martin Fajcik]]"
 last_author: "[[Michal Hradis]]"
-authors: Martin Fajcik, Martin Docekal, Jan Dolezal, Karel Ondrej, Karel Benes, Jan Kapsa, Pavel Smrz, Alexander Polok, Michal Hradis, et al.
+authors: "Martin Fajcik, Martin Docekal, Jan Dolezal, Karel Ondrej, Karel Benes, Jan Kapsa, Pavel Smrz, Alexander Polok, Michal Hradis, et al."
 url: "https://arxiv.org/abs/2412.17933"
 external_pdf: "https://arxiv.org/pdf/2412.17933.pdf"
 local_pdf: "[[PDFs/2024/2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Czech"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Czech
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "8 categories"
 LLM_assessed: 

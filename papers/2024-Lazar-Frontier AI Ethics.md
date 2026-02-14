@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,8 +12,8 @@ last_author: "[[Seth Lazar]]"
 authors: "Seth Lazar"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/FNRNTSRF/Lazar - Frontier AI Ethics Anticipating and Evaluating the Societal Impacts of Language Model Agents.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, Utilitarianism"
 key_contribution: "Explores societal impacts and normative questions of 'Language Model Agents', focusing on their distinctiveness as complex, tool-using systems"
@@ -31,8 +29,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Lazar-Frontier AI Ethics.md"
 local_pdf: "[[PDFs/2024/2024-Lazar-Frontier AI Ethics.pdf]]"
 ---

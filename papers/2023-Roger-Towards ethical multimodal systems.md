@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "http://arxiv.org/abs/2304.13765"
 external_pdf: "http://arxiv.org/pdf/2304.13765.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Created a multimodal ethical database from human feedback and developed classifiers (RoBERTa, MLP) to automatically assess the ethicality of system responses involving both text and images."
@@ -38,8 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "RoBERTa"
-DATA_URL: "NA"
+LLM_assessed: RoBERTa
+DATA_URL: NA
 ---
 # Towards ethical multimodal systems
 

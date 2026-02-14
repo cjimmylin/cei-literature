@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2506.02481"
 external_pdf: "http://arxiv.org/pdf/2506.02481.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Found that value preferences inferred from short-form tests (surveys) weakly correlate with those expressed in long-form open-ended generation."

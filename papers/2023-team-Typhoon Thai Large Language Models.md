@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0085
 type: preprint
 short_title: "Typhoon: Thai Large Language Models"
-year: 2023
+year: 2025
 first_author: "[[SCB 10X team]]"
 last_author: "[[SCB 10X team]]"
-authors: SCB 10X team
+authors: "SCB 10X team"
 url: "https://arxiv.org/abs/2312.13951"
 external_pdf: "https://arxiv.org/pdf/2312.13951.pdf"
 local_pdf: "[[PDFs/2023/2023-team-Typhoon Thai Large Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-team-Typhoon Thai Large Language Models.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Thai"
-languages_list: "Thai"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Thai
+languages_list: Thai
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

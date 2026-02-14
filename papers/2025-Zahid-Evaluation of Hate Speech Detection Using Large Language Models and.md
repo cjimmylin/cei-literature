@@ -1,35 +1,34 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0302
 type: preprint
-short_title: Evaluation of Hate Speech Detection Using Large Language Models and Geographical Contextualization
+short_title: "Evaluation of Hate Speech Detection Using Large Language Models and Geographical Contextualization"
 year: 2025
 first_author: "[[Anwar Hossain Zahid]]"
-last_author: "[[Unknown]]"
-authors: Anwar Hossain Zahid; Monoshi Kumar Roy; Swarna Das
+last_author: [[Unknown]]
+authors: "Anwar Hossain Zahid; Monoshi Kumar Roy; Swarna Das"
 url: "https://arxiv.org/abs/2502.19612"
 external_pdf: "https://arxiv.org/pdf/2502.19612.pdf"
 local_pdf: "[[PDFs/2025/2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Arabic, English, French, German, Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: 

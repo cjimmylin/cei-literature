@@ -1,15 +1,14 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0722
 type: journalArticle
-short_title: A comprehensive framework for multi-modal hate speech detection in social media using deep learning
-year: 2024
-first_author: "[[Kajiwara]]"
-last_author: "[[Kajiwara]]"
+short_title: "A comprehensive framework for multi-modal hate speech detection in social media using deep learning"
+year: 2025
+first_author: [[Kajiwara]]
+last_author: [[Kajiwara]]
 authors: Kajiwara
 url: "https://www.nature.com/articles/s41598-025-94069-z"
 external_pdf: "https://www.nature.com/articles/s41598-025-94069-z.pdf"
@@ -17,25 +16,25 @@ publication: Nature
 local_pdf: "[[PDFs/2024/2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Japanese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Japanese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # A comprehensive framework for multi-modal hate speech detection in social media using deep learning

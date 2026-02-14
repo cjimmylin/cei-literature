@@ -10,32 +10,32 @@ short_title: "Teachers vs. large language models: ethical decision-making across
 year: 2025
 first_author: "[[Multiple authors]]"
 last_author: "[[Multiple authors]]"
-authors: Multiple authors
+authors: "Multiple authors"
 doi: 10.1080/10508422.2025.2581274
 url: "https://www.tandfonline.com/doi/full/10.1080/10508422.2025.2581274"
 publication: "Ethics & Behavior (Taylor & Francis)"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Turkish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Turkish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Compares LLM and human teacher ethical decision-making in Turkish school dilemmas. LLMs produce uniform utilitarian/deontological/Rawlsian outcomes while teachers show ethical pluralism and context sensitivity."
 ethics_perspective: "Machine Ethics"
 ---
 # Teachers vs. large language models: ethical decision-making across educational dilemmas in Turkish schools

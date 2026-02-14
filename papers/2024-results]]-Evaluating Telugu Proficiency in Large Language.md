@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,36 +6,36 @@ Not AI:
 key: EXSR0478
 type: preprint
 short_title: "Evaluating Telugu Proficiency in Large Language"
-year: 2024
+year: 2025
 first_author: "[[[[Not fully listed in search results]]]]"
 last_author: "[[results, Not fully listed in search]]"
 authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.19369"
-external_pdf: "https://arxiv.org/pdf/2404.19369.pdf"
-local_pdf: "N/A"
-pdf_extract: ""
-publication: WebSearch: Telugu LLM evaluation
+external_pdf: "https://arxiv.org/pdf/2404.19369v1"
+local_pdf: "[[PDFs/2024/2024-results]]-Evaluating Telugu Proficiency in Large Language.pdf]]"
+pdf_extract: 
+publication: "WebSearch: Telugu LLM evaluation"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Comparative analysis of ChatGPT and Gemini on Telugu language proficiency across various NLP tasks. Telugu-specific LLM evaluation comparing major models. Assesses Telugu language capabilities of commercial LLMs."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
-research_topic: "Other"
+LLM_assessed: NA
+DATA_URL: 
+research_topic: Other
 ---
 # Evaluating Telugu Proficiency in Large Language Models: A Comparative Analysis of ChatGPT and Gemini
 

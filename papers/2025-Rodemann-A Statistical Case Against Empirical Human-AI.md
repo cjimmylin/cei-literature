@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2502.14581"
 external_pdf: "http://arxiv.org/pdf/2502.14581.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Argues against 'naive empirical alignment' (mimicking observed human behavior), demonstrating that it introduces statistical biases and lacks normative grounding."
@@ -38,8 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # A Statistical Case Against Empirical Human-AI Alignment
 

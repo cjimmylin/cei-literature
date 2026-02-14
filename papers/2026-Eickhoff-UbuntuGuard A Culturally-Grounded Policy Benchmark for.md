@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0313
 type: preprint
 short_title: "UbuntuGuard A Culturally-Grounded Policy Benchmark for"
-year: 2026
+year: 2025
 first_author: "[[Tassallah Abdullahi, Macton Mgonzo, Mardiyyah Oduwole, Paul Okewunmi, Abraham Owodunni, Ritambhara Singh, Carsten Eickhoff]]"
 last_author: "[[Tassallah Abdullahi, Macton Mgonzo, Mardiyyah Oduwole, Paul Okewunmi, Abraham Owodunni, Ritambhara Singh, Carsten Eickhoff]]"
 authors: "[[Tassallah Abdullahi, Macton Mgonzo, Mardiyyah Oduwole, Paul Okewunmi, Abraham Owodunni, Ritambhara Singh, Carsten Eickhoff]]"
@@ -21,23 +17,23 @@ local_pdf: "[[PDFs/2026/2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy B
 pdf_extract: "PDF Extracts/2026/2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "African/Ubuntu"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: African/Ubuntu
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Current guardian models are predominantly Western-centric and optimized for highresource languages, leaving low-resource African languages vulnerable to evolving harms, cross-lingual safety failures, and cultural misalignment. Moreover, most guardian models rely on rigid, predefined safety categories that fail to generalize across diverse linguistic and sociocultural contexts. Robust safety, therefore, requires flexible, runtimeenforceable policies and benchmarks that reflect local norms, harm..."
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/hemhemoh/UbuntuGuard (CC BY 4.0)"
 ethics_perspective: "AI Safety & Alignment"
 ---

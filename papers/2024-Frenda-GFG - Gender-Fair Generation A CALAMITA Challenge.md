@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,29 +6,29 @@ Not AI:
 key: LSRC0505
 type: preprint
 short_title: "GFG -- Gender-Fair Generation: A CALAMITA Challenge"
-year: 2024
+year: 2025
 first_author: "[[Simona Frenda]]"
 last_author: "[[Luisa Bentivogli]]"
-authors: Simona Frenda, Andrea Piergentili, Beatrice Savoldi, Marco Madeddu, Martina Rosola, Silvia Casola, Chiara Ferrando, Viviana Patti, Matteo Negri, Luisa Bentivogli
+authors: "Simona Frenda, Andrea Piergentili, Beatrice Savoldi, Marco Madeddu, Martina Rosola, Silvia Casola, Chiara Ferrando, Viviana Patti, Matteo Negri, Luisa Bentivogli"
 url: "https://arxiv.org/abs/2412.19168"
 external_pdf: "https://arxiv.org/pdf/2412.19168.pdf"
-publication: arXiv / CLiC-it 2024
+publication: "arXiv / CLiC-it 2024"
 local_pdf: "[[PDFs/2024/2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Italian"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Italian
 languages_list: "English, Italian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, LLaMa-2, Mistral"

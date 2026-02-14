@@ -1,36 +1,35 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0266
 type: preprint
-short_title: Evaluating Multimodal Generative AI with Korean Educational Standards (KoNET)
+short_title: "Evaluating Multimodal Generative AI with Korean Educational Standards (KoNET)"
 year: 2025
 first_author: "[[Sanghoon Kim]]"
 last_author: "[[Youngjune Gwon]]"
-authors: Sanghoon Kim, Juhwan Choi, Youngjune Gwon
+authors: "Sanghoon Kim, Juhwan Choi, Youngjune Gwon"
 doi: 10.18653/v1/2025.naacl-short.56
 url: "https://arxiv.org/abs/2502.15422"
 external_pdf: "https://arxiv.org/pdf/2502.15422.pdf"
 local_pdf: "[[PDFs/2025/2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards.md"
-publication: arXiv / NAACL 2025
+publication: "arXiv / NAACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Korean"
-languages_list: "Korean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Korean
+languages_list: Korean
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

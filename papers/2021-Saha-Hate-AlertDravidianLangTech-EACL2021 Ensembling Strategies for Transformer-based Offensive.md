@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,34 +6,34 @@ Not AI:
 key: EXSR0605
 type: preprint
 short_title: "Hate-AlertDravidianLangTech-EACL2021 Ensembling Strategies for Transformer-based Offensive"
-year: 2021
-first_author: "[[Saha]]"
-last_author: "[[Saha]]"
+year: 2025
+first_author: [[Saha]]
+last_author: [[Saha]]
 authors: "[[Saha]]; [[and others]]"
 authors_incomplete: false
 url: "https://hate-alert.github.io/publication/saha2021hate/"
 external_pdf: "https://arxiv.org/pdf/2102.10084.pdf"
 local_pdf: "[[PDFs/2021/2021-Saha-Hate-AlertDravidianLangTech-EACL2021 Ensembling Strategies for Transformer-based Offensive.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Saha-Hate-AlertDravidianLangTech-EACL2021 Ensembling Strategies for Transformer-based Offensive.md"
-publication: WebSearch: DravidianLangTech shared task
+publication: "WebSearch: DravidianLangTech shared task"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "Winning submission to the DravidianLangTech EACL 2021 shared task on offensive language identification in code-mixed Tamil-English, Malayalam-English, and Kannada-English datasets from social media. Foundation shared task for offensive language detection in three Dravidian languages. Establishes baselines and evaluation protocol for the community."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/hate-alert/Hate-Alert-DravidianLangTech"
 ethics_perspective: "Toxicity & Hate Speech"
 ---

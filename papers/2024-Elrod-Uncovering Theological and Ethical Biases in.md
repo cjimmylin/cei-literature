@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,35 +6,35 @@ Not AI:
 key: EXSR0542
 type: preprint
 short_title: "Uncovering Theological and Ethical Biases in"
-year: 2024
+year: 2025
 first_author: "[[Elrod, A. G.]]"
 last_author: "[[Elrod, A. G.]]"
 authors: "[[A. G. Elrod]]"
 authors_incomplete: false
-url: ""
+url: 
 external_pdf: "https://tidsskrift.dk/hiphilnovum/article/download/143407/187035"
 local_pdf: "[[PDFs/2024/2024-Elrod-Uncovering Theological and Ethical Biases in.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Elrod-Uncovering Theological and Ethical Biases in.md"
-publication: HIPHIL Novum, 9(1), 2--45
+publication: "HIPHIL Novum, 9(1), 2--45"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Hebrew/Israeli"
-religious_values: "Christianity"
-religious_values_list: "Christianity"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Hebrew/Israeli
+religious_values: Christianity
+religious_values_list: Christianity
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "Summary: Uses creative text generation tasks based on the Ten Commandments (Exodus 20) and the Book of Jonah to probe theological and ethical biases. Finds a prevalent progressive bias across all models, aligning with contemporary socio-political and environmental concerns. Combines qualitative hermeneutical analysis with quantitative textual analysis."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Bias & Fairness"
 ---
 # Uncovering Theological and Ethical Biases in LLMs: An Integrated Hermeneutical Approach Employing Texts from the Hebrew Bible

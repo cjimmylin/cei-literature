@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,8 +18,8 @@ external_pdf: "https://arxiv.org/pdf/2511.14476.pdf"
 publication: arXiv
 ethics_perspective: "Value Pluralism"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Deontology, Value Pluralism, AI Alignment, Safety Trade-offs"
 key_contribution: "Reveals trade-offs between safety, inclusivity, and model behavior when aligning LLMs with pluralistic values"
@@ -37,7 +34,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Pluralistic alignment evaluation"
 data_metrics: "Safety-inclusivity trade-off metrics"
-LLM_assessed: "Vicuna"
+LLM_assessed: Vicuna
 DATA_URL: "https://github.com/DALIAALISIDDIG/AlignCure"
 pdf_extract: "PDF Extracts/2025/2025-Sorensen-Operationalizing Pluralistic Values.md"
 normative_ethics_benchmark: Borderline

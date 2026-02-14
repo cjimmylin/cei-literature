@@ -1,36 +1,33 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0218
 type: conferencePaper
-short_title: Social (Measuring Social Norms of LLMs)
-year: 2024
+short_title: "Social (Measuring Social Norms of LLMs)"
+year: 2025
 first_author: "[[Ye Yuan]]"
 last_author: "[[Chenguang Wang]]"
-authors: Ye Yuan, Kexin Tang, Jianhao Shen, Ming Zhang, Chenguang Wang
+authors: "Ye Yuan, Kexin Tang, Jianhao Shen, Ming Zhang, Chenguang Wang"
 url: "https://arxiv.org/abs/2404.02491"
 external_pdf: "https://arxiv.org/pdf/2404.02491.pdf"
 local_pdf: "[[PDFs/2024/2024-Yuan-Social Measuring Social Norms of LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Yuan-Social Measuring Social Norms of LLMs.md"
-publication: ACL 2024
+publication: "ACL 2024"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "We present a new challenge to examine whether large language models understand social norms. In contrast to existing datasets, our dataset requires a fundamental understanding of social norms to solve. Our dataset features the largest set of social norm skills, consisting of 402 skills and 12, 383 questions covering a wide set of social norms ranging from opinions and arguments to culture and laws. We design our dataset according to the K-12 curriculum."
 research_topic: "Machine Learning"

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2502.11020"
 external_pdf: "https://arxiv.org/pdf/2502.11020.pdf"
 local_pdf: "[[PDFs/2025/2025-Barov-TUMLU A Unified and Native Language.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Barov-TUMLU A Unified and Native Language.md"
-publication: arxiv.org / ACL 2025
+publication: "arxiv.org / ACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Being able to thoroughly assess massive multitask language understanding (MMLU) capabilities is essential for advancing the applicability of multilingual language models. However, preparing such benchmarks in high quality native language is often costly and therefore limits the representativeness of evaluation datasets. While recent efforts focused on building more inclusive MMLU benchmarks, these are conventionally built using machine translation from high-resource languages, which may..."
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/ceferisbarov/TUMLU"
 research_topic: "Machine Translation"
 ---

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,8 +8,8 @@ type: conferencePaper
 short_title: "Cross-lingual hate speech detection using domain-specific word embeddings | PLOS One"
 year: 2025
 first_author: "[[Ayme Arango Monnar]]"
-last_author: "[[Unknown]]"
-authors: Ayme Arango Monnar; Jorge Perez Rojas; Barbara Polete Labra
+last_author: [[Unknown]]
+authors: "Ayme Arango Monnar; Jorge Perez Rojas; Barbara Polete Labra"
 doi: 10.1371/journal.pone.0306521
 url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306521"
 external_pdf: "https://europepmc.org/articles/PMC11288409?pdf=render"
@@ -18,20 +17,20 @@ publication: Web
 local_pdf: "[[PDFs/2025/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "English, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

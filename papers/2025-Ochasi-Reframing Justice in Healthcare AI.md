@@ -1,6 +1,4 @@
 ---
-
-
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "African healthcare, ubuntu, relational"
@@ -14,10 +12,10 @@ last_author: "[[Nkwocha, Levi U C]]"
 authors: "[[Ochasi, Aloysius]]; [[Mahamadou, Abdoul Jalil Djiberou]]; [[Altman, Russ B.]]; [[Nkwocha, Levi U C]]"
 doi: 10.1111/dewb.70007
 url: "https://doi.org/10.1111/dewb.70007"
-local_pdf: "N/A"
+local_pdf: N/A
 national_ethnic_cultural: African/Ubuntu
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "African/Ubuntu, Virtue Ethics, Utilitarianism"
 key_contribution: "Introduces Ubuntu as a guiding framework for AI in African healthcare, focusing on justice, communalism, and collective well-being"
@@ -35,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
  Reframing Justice in Healthcare AI: An Ubuntu-Based Approach for Africa
 

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,8 +18,8 @@ external_pdf: "https://arxiv.org/pdf/2510.03892.pdf"
 publication: arXiv
 ethics_perspective: "Kantian Ethics"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Kantian Ethics, Deontology, Utilitarianism, Explainable AI"
 key_contribution: "Gamified XAI system with separate Kantian and utilitarian modules plus meta-explainer for ethical trade-offs"
@@ -36,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Coffee domain ethical decision-making scenarios"
 data_metrics: "Deontic compliance rate, welfare scores, regret bounds"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Atf-Kantian-Utilitarian XAI.md"
 ---
 # Kantian-Utilitarian XAI: Meta-Explained

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2311.07723"
 external_pdf: "http://arxiv.org/pdf/2311.07723.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -36,7 +34,7 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "8 categories"
-LLM_assessed: "Llama"
+LLM_assessed: Llama
 DATA_URL: "https://github.com/Joshuaclymer/GENIES"
 ---
 # Generalization Analogies: A Testbed for Generalizing AI Oversight to Hard-To-Measure Domains

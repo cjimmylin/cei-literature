@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +15,8 @@ url: "https://arxiv.org/abs/2506.14948"
 external_pdf: "https://arxiv.org/pdf/2506.14948.pdf"
 publication: arXiv
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: Yes
 newtags: "Moral-Reasoning, Value-Systems, LLM-Evaluation, Prompting, Knowledge-Transfer"
 key_contribution: "Shows structured prompting with explicit moral frameworks improves LLM accuracy; smaller models learn moral reasoning via knowledge transfer"
@@ -37,7 +34,7 @@ is_dataset: Yes
 data_description: "Four moral datasets with value-grounded prompts"
 data_metrics: "Accuracy, coherence across ethical frameworks"
 LLM_assessed: "Llama-3, Llama-2, Mistral, Qwen, Phi"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Chakraborty-Structured Moral Reasoning.md"
 local_pdf: "[[PDFs/2025/2025-Chakraborty-Structured Moral Reasoning.pdf]]"
 normative_ethics_benchmark: Yes

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +6,28 @@ Not AI:
 key: EXSR0164
 type: conferencePaper
 short_title: "EmoBench: Evaluating the Emotional Intelligence of Large Language Models"
-year: 2024
+year: 2025
 first_author: "[[Sahand Sabour]]"
 last_author: "[[Minlie Huang]]"
-authors: Sahand Sabour; Siyang Liu; Zheyuan Zhang; June M. Liu; Jinfeng Zhou; Alvionna S. Sunaryo; Juanzi Li; Tatia M. C. Lee; Rada Mihalcea; Minlie Huang
+authors: "Sahand Sabour; Siyang Liu; Zheyuan Zhang; June M. Liu; Jinfeng Zhou; Alvionna S. Sunaryo; Juanzi Li; Tatia M. C. Lee; Rada Mihalcea; Minlie Huang"
 url: "https://arxiv.org/abs/2402.12071"
 external_pdf: "https://arxiv.org/pdf/2402.12071.pdf"
 local_pdf: "[[PDFs/2024/2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language.md"
-publication: ACL 2024
+publication: "ACL 2024"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Recent advances in Large Language Models (LLMs) have highlighted the need for robust, comprehensive, and challenging benchmarks. Yet, research on evaluating their Emotional Intelligence (EI) is considerably limited. Existing benchmarks have two major shortcomings: first, they mainly focus on emotion recognition, neglecting essential EI capabilities such as emotion regulation and thought facilitation through emotion understanding; second, they are primarily constructed from existing datasets,..."
 research_topic: "Machine Learning"

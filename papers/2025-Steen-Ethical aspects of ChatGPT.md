@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1007/s43681-024-00571-x
 url: "https://doi.org/10.1007/s43681-024-00571-x"
 external_pdf: N/A
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Evaluates ChatGPT using EU 'trustworthy AI' requirements through 4 ethical lenses: consequentialism, deontology, relational, and virtue ethics"
@@ -32,8 +30,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 local_pdf: "[[PDFs/2025/2025-Steen-Ethical aspects of ChatGPT.pdf]]"
 pdf_extract: "[[2025-Steen-Ethical aspects of ChatGPT]]"
 ---

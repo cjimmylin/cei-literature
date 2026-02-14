@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ external_pdf: "http://arxiv.org/pdf/2505.11615.pdf"
 publication: arXiv.org
 research_topic: "NLP & Representation Learning"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -39,8 +37,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Gemma"
-DATA_URL: "NA"
+LLM_assessed: Gemma
+DATA_URL: NA
 ---
 # Steering Risk Preferences in Large Language Models by Aligning Behavioral and Neural Representations
 

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,13 +9,13 @@ short_title: "AI Alignment as Fair Treatment of Claims"
 year: 2025
 first_author: "[[Iason Gabriel]]"
 last_author: "[[Geoff Keeling]]"
-authors: Iason Gabriel; Geoff Keeling
+authors: "Iason Gabriel; Geoff Keeling"
 doi: 10.1007/s11098-025-02300-4
 url: "https://link.springer.com/article/10.1007/s11098-025-02300-4"
 publication: "Philosophical Studies"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
@@ -34,9 +32,9 @@ is_benchmark: No
 is_eval: No
 is_dataset: No
 data_description: 
-data_metrics:
-LLM_assessed: "NA"
-DATA_URL: "NA"
+data_metrics: 
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # AI Alignment as Fair Treatment of Claims
 

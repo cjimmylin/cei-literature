@@ -1,15 +1,12 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0187
 type: conferencePaper
-short_title: IrokoBench -- A Benchmark for African Languages in the Age of LLMs
-year: 2024
+short_title: "IrokoBench -- A Benchmark for African Languages in the Age of LLMs"
+year: 2025
 first_author: "[[Adelani, David Ifeoluwa]]"
 last_author: "[[Stenetorp, Pontus]]"
 authors: "[[Adelani, David Ifeoluwa]]; [[Ojo, Jessica]]; [[Azime, Israel Abebe]]; [[Zhuang, Jian Yun]]; [[Alabi, Jesujoba O.]]; [[He, Xuanli]]; [[Ochieng, Millicent]]; [[Hooker, Sara]]; [[Bukula, Andiswa]]; [[Lee, En-Shiun Annie]]; [[Chukwuneke, Chiamaka]]; [[Buzaaba, Happy]]; [[Sibanda, Blessing]]; [[Kalipe, Godson]]; [[Mukiibi, Jonathan]]; [[Kabongo, Salomon]]; [[Yuehgoh, Foutse]]; [[Setaka, Mmasibidi]]; [[Ndolela, Lolwethu]]; [[Odu, Nkiruka]]; [[Mabuya, Rooweither]]; [[Muhammad, Shamsuddeen Hassan]]; [[Osei, Salomey]]; [[Samb, Sokhar]]; [[Guge, Tadesse Kebede]]; [[Sherman, Tombekai Vangoni]]; [[Stenetorp, Pontus]]"
@@ -18,27 +15,27 @@ url: "https://arxiv.org/abs/2406.03368"
 external_pdf: "https://arxiv.org/pdf/2406.03368.pdf"
 local_pdf: "[[PDFs/2024/2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs.md"
-publication: ACL 2025
+publication: "ACL 2025"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "African/Ubuntu, French"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Despite the widespread adoption of Large language models (LLMs), their remarkable capabilities remain limited to a few high-resource languages. Additionally, many low-resource languages (e.g., African languages) are often evaluated only on basic text classification tasks due to the lack of appropriate or comprehensive benchmarks outside of highresource languages. In this paper, we introduce IrokoBench—a human-translated benchmark dataset for 17 typologically-diverse lowresource African..."
 research_topic: "Machine Learning"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Gemini, Gemma, Claude, Llama-3, BLOOM"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # IrokoBench -- A Benchmark for African Languages in the Age of LLMs
 

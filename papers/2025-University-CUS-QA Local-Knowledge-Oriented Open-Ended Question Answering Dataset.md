@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "CUS-QA: Local-Knowledge-Oriented Open-Ended Question Answering Dat
 year: 2025
 first_author: "[[CUS-QA Team (Charles University)]]"
 last_author: "[[CUS-QA Team (Charles University)]]"
-authors: CUS-QA Team (Charles University)
+authors: "CUS-QA Team (Charles University)"
 url: "https://arxiv.org/abs/2507.22752"
 external_pdf: "https://arxiv.org/pdf/2507.22752.pdf"
 local_pdf: "[[PDFs/2025/2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset.md"
-publication: arXiv / Hugging Face
+publication: "arXiv / Hugging Face"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Czech, Slovak, Ukrainian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: 

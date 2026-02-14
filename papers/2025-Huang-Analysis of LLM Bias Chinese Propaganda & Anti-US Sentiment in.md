@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +8,28 @@ type: preprint
 short_title: "Analysis of LLM Bias (Chinese Propaganda & Anti-US Sentiment) in DeepSeek-R1 vs. ChatGPT o3-mini-high"
 year: 2025
 first_author: "[[PeiHsuan Huang]]"
-last_author: "[[Unknown]]"
-authors: PeiHsuan Huang; ZihWei Lin; Simon Imbot; WenCheng Fu; Ethan Tu
+last_author: [[Unknown]]
+authors: "PeiHsuan Huang; ZihWei Lin; Simon Imbot; WenCheng Fu; Ethan Tu"
 url: "https://arxiv.org/html/2506.01814v1"
 external_pdf: "https://arxiv.org/pdf/2506.01814.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Chinese, American"
-languages_list: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+languages_list: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

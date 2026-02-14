@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,33 +9,33 @@ short_title: "Tibetan Text Classification based on Prompt Learning and Ensemble 
 year: 2025
 first_author: "[[Integrating Cognitive]]"
 last_author: "[[Integrating Cognitive]]"
-authors: Integrating Cognitive
+authors: "Integrating Cognitive"
 doi: 10.1145/3711827
 url: "https://dl.acm.org/doi/10.1145/3711827"
 publication: ACM
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Tibetan"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Tibetan
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
 abstract: "With the advancement of pre-trained language models, prompt learning has emerged as a trend for text classification. It offers several advantages over traditional machine learning methods, particularly for low-resource natural language processing tasks. Prompt learning enables fine-tuning of pre-trained language models on relatively small datasets, eliminating the need for a large number of expensive labeled samples. This article proposes an effective approach that combines prompt learning and ensemble learning, aiming to enhance the performance of individual language models in Tibetan text classification tasks. This approach introduces a different perspective by transforming the traditional text classification problem into an entailment relationship exploration. Instead of directly assigning categories to sentences, models judge the sentence category based on whether it is entailed by a given prompt. This innovative method enables us to leverage the strengths of prompt learning and ensemble learning simultaneously, resulting in improved classification accuracy. To evaluate the effectiveness of our approach, we conducted extensive experiments on two public datasets, TNCC and WCM. The experimental results demonstrate the effectiveness of our method, achieving weighted F1 scores of 72.72% and 78% on TNCC and WCM, respectively. Compared to traditional machine learning methods, this prompt learning approach exhibits a significant 10% performance gain in low-resource natural language processing tasks."
-research_topic: "Other"
+research_topic: Other
 ---
 # Tibetan Text Classification based on Prompt Learning and Ensemble Learning | ACM Transactions on Asian and Low-Resource Language Information Processing
 

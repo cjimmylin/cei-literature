@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "TituLLMs: A Family of Bangla LLMs with Comprehensive Benchmarking"
 year: 2025
 first_author: "[[Shahriar Kabir Nahin]]"
-last_author: "[[Unknown]]"
-authors: Shahriar Kabir Nahin; Rabindra Nath Nandi; Sagor Sarker; Quazi Sarwar Muhtaseem; Md Kowsher; Apu Chandraw Shill; Md Ibrahim; Mehadi Hasan Menon; Tareq Al Muntasir; Firoj Alam
+last_author: [[Unknown]]
+authors: "Shahriar Kabir Nahin; Rabindra Nath Nandi; Sagor Sarker; Quazi Sarwar Muhtaseem; Md Kowsher; Apu Chandraw Shill; Md Ibrahim; Mehadi Hasan Menon; Tareq Al Muntasir; Firoj Alam"
 url: "https://arxiv.org/abs/2502.11187"
 external_pdf: "https://arxiv.org/pdf/2502.11187.pdf"
 local_pdf: "[[PDFs/2025/2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking.md"
-publication: arXiv / ACL 2025
+publication: "arXiv / ACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Bengali"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Bengali
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "2 token"
 LLM_assessed: 

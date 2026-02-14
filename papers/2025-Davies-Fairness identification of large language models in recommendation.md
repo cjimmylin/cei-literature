@@ -1,41 +1,40 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0666
 type: journalArticle
-short_title: Fairness identification of large language models in recommendation
+short_title: "Fairness identification of large language models in recommendation"
 year: 2025
 first_author: "[[Dave Davies]]"
 last_author: "[[Dave Davies]]"
-authors: Dave Davies
+authors: "Dave Davies"
 url: "https://www.nature.com/articles/s41598-025-89965-3"
 external_pdf: "https://www.nature.com/articles/s41598-025-89965-3.pdf"
 publication: Nature
 local_pdf: "[[PDFs/2025/2025-Davies-Fairness identification of large language models in recommendation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Davies-Fairness identification of large language models in recommendation.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Bias & Fairness"
 ---
 # Fairness identification of large language models in recommendation

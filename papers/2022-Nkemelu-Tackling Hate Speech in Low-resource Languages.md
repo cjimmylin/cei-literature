@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0599
 type: preprint
 short_title: "Tackling Hate Speech in Low-resource Languages"
-year: 2022
+year: 2025
 first_author: "[[Nkemelu, Daniel]]"
 last_author: "[[Nkemelu, Daniel]]"
 authors: "[[Daniel Nkemelu et al]]"
@@ -19,26 +15,26 @@ url: "https://dl.acm.org/doi/fullHtml/10.1145/3572334.3572372"
 external_pdf: "https://arxiv.org/pdf/2303.16828v1.pdf"
 local_pdf: "[[PDFs/2022/2022-Nkemelu-Tackling Hate Speech in Low-resource Languages.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Nkemelu-Tackling Hate Speech in Low-resource Languages.md"
-publication: ACM Digital Library
+publication: "ACM Digital Library"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "Curated dataset of 226 Burmese hate speech posts from Facebook collected during the 2020 Myanmar national elections. Develops process for coordinating ML work in low-resource language settings with context experts. 873 posts categorized with toxicity scores. PRIMARY Burmese hate speech dataset. Directly relevant to toxicity and values evaluation in Myanmar context. Addresses real-world hate speech challenges during critical political events."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Tackling Hate Speech in Low-resource Languages with Context Experts

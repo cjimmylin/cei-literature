@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,34 +6,34 @@ Not AI:
 key: LSRC0741
 type: conferencePaper
 short_title: "A Deep Learning Framework for Automatic Detection of Hate Speech Embedded in Arabic Tweets | Request PDF"
-year: 2024
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+year: 2025
+first_author: [[Unknown]]
+last_author: [[Unknown]]
 authors: Unknown
 url: "https://www.researchgate.net/publication/349093400_A_Deep_Learning_Framework_for_Automatic_Detection_of_Hate_Speech_Embedded_in_Arabic_Tweets"
 publication: ResearchGate
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Arabic"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Arabic
 languages_list: "Arabic, Egyptian Arabic, Gulf Arabic, Levantine, Maghrebi"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # A Deep Learning Framework for Automatic Detection of Hate Speech Embedded in Arabic Tweets | Request PDF

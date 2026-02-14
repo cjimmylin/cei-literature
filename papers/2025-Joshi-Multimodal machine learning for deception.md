@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1038/s41598-025-92399-6
 url: "https://www.nature.com/articles/s41598-025-92399-6"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/QL55WV8C/Joshi et al. - 2025 - Multimodal machine learning for deception detection using behavioral and physiological data.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -33,8 +31,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Joshi-Multimodal machine learning for deception.md"
 local_pdf: "[[PDFs/2025/2025-Joshi-Multimodal machine learning for deception.pdf]]"
 ---

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2404.14068"
 external_pdf: "http://arxiv.org/pdf/2404.14068.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Summarized Google DeepMind's holistic approach to safety evaluation, detailing frameworks for organizing risk domains and emphasizing the need for interdisciplinary collaboration."
@@ -38,8 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Holistic Safety and Responsibility Evaluations of Advanced AI Models
 

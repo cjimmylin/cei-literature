@@ -1,36 +1,35 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0761
 type: preprint
-short_title: Analyzing Bias in False Refusal Behavior of Large Language Models for Hate Speech Detoxification
-year: 2026
+short_title: "Analyzing Bias in False Refusal Behavior of Large Language Models for Hate Speech Detoxification"
+year: 2025
 first_author: "[[Kyuri Im]]"
-last_author: "[[Unknown]]"
-authors: Kyuri Im; Shuzhou Yuan; Michael Färber
+last_author: [[Unknown]]
+authors: "Kyuri Im; Shuzhou Yuan; Michael Färber"
 url: "https://arxiv.org/html/2601.08668"
 external_pdf: "https://arxiv.org/pdf/2601.08668.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2026/2026-Im-Analyzing Bias in False Refusal Behavior of Large Language Models for.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Im-Analyzing Bias in False Refusal Behavior of Large Language Models for.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Multilingual
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

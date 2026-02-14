@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +8,28 @@ type: preprint
 short_title: "MTQE.en-he: Machine Translation Quality Estimation for English-Hebrew"
 year: 2025
 first_author: "[[Andy Rosenbaum]]"
-last_author: "[[Unknown]]"
-authors: Andy Rosenbaum; Assaf Siani; Ilan Kernerman
+last_author: [[Unknown]]
+authors: "Andy Rosenbaum; Assaf Siani; Ilan Kernerman"
 url: "https://arxiv.org/abs/2602.06546"
 external_pdf: "https://arxiv.org/pdf/2602.06546.pdf"
 local_pdf: "[[PDFs/2025/2025-Rosenbaum-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Rosenbaum-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Hebrew/Israeli"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Hebrew/Israeli
 languages_list: "English, Hebrew"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

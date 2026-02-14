@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0514
 type: conference_paper
 short_title: "One Model is All You Need"
-year: 2024
+year: 2025
 first_author: "[[Sebastian Nehrdich, Oliver Hellwig, Kurt Keutzer]]"
 last_author: "[[Sebastian Nehrdich, Oliver Hellwig, Kurt Keutzer]]"
 authors: "[[Sebastian Nehrdich, Oliver Hellwig, Kurt Keutzer]]"
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2409.13920"
 external_pdf: "https://arxiv.org/pdf/2409.13920.pdf"
 local_pdf: "[[PDFs/2024/2024-Keutzer-One Model is All You Need.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Keutzer-One Model is All You Need.md"
-publication: Findings of EMNLP 2024
+publication: "Findings of EMNLP 2024"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "Hinduism"
-religious_values_list: "Hinduism"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: Hinduism
+religious_values_list: Hinduism
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Morphologically rich languages are notoriously challenging to process for downstream NLP applications. This paper presents a new pretrained language model, ByT5-Sanskrit, designed for NLP applications involving the morphologically rich language Sanskrit. We evaluate ByT5-Sanskrit on established Sanskrit word segmentation tasks, where it outperforms previous data-driven approaches by a considerable margin and matches the performance of the current best lexicon-based model."
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/sebastian-nehrdich/byt5-sanskrit-analyzers ; https://huggingface.co/buddhist-nlp/byt5-sanskrit"
 research_topic: "NLP & Representation Learning"
 ---

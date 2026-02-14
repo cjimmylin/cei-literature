@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "MAPS: A Multilingual Benchmark for Global Agent Performance and Security"
 year: 2025
 first_author: "[[Omer Hofman]]"
-last_author: "[[Unknown]]"
-authors: Omer Hofman; Jonathan Brokman; Oren Rachmil; Shamik Bose; Vikas Pahuja; Toshiya Shimizu; Trisha Starostina; Kelly Marchisio; Seraphina Goldfarb-Tarrant; Roman Vainshtein
+last_author: [[Unknown]]
+authors: "Omer Hofman; Jonathan Brokman; Oren Rachmil; Shamik Bose; Vikas Pahuja; Toshiya Shimizu; Trisha Starostina; Kelly Marchisio; Seraphina Goldfarb-Tarrant; Roman Vainshtein"
 url: "https://arxiv.org/abs/2505.15935"
 external_pdf: "https://arxiv.org/pdf/2505.15935.pdf"
 local_pdf: "[[PDFs/2025/2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Arabic, German, Hebrew, Hindi, Italian, Japanese, Korean, Portuguese, Russian, Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "12 languages"
 LLM_assessed: 

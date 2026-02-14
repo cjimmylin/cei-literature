@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,13 +9,13 @@ short_title: "AI and Phronesis"
 year: 2025
 first_author: "[[Nir Eisikovits]]"
 last_author: "[[Dan Feldman]]"
-authors: Nir Eisikovits; Dan Feldman
+authors: "Nir Eisikovits; Dan Feldman"
 doi: 10.1515/mopp-2021-0026
 url: "https://www.degruyter.com/document/doi/10.1515/mopp-2021-0026/html"
 publication: "Moral Philosophy and Politics"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
@@ -34,9 +32,9 @@ is_benchmark: No
 is_eval: No
 is_dataset: No
 data_description: 
-data_metrics:
-LLM_assessed: "NA"
-DATA_URL: "NA"
+data_metrics: 
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # AI and Phronesis
 

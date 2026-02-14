@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,25 +9,25 @@ short_title: "ValueCompass: A Framework for Measuring Contextual Value Alignment
 year: 2025
 first_author: "[[Hua Shen]]"
 last_author: "[[Yun Huang]]"
-authors: Hua Shen; Tiffany Knearem; Reshmi Ghosh; Yu-Ju Yang; Nicholas Clark; Tanushree Mitra; Yun Huang
+authors: "Hua Shen; Tiffany Knearem; Reshmi Ghosh; Yu-Ju Yang; Nicholas Clark; Tanushree Mitra; Yun Huang"
 url: "https://arxiv.org/abs/2409.09586"
 external_pdf: "https://arxiv.org/pdf/2409.09586.pdf"
 local_pdf: "[[PDFs/2025/2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.md"
-publication: ACL 2025
+publication: "ACL 2025"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "As AI advances, aligning it with diverse human and societal values grows critical. But how do we define these values and measure AI’s adherence to them? We present ValueCompass, a framework grounded in psychological theories, to assess human-AI alignment. Applying it to five diverse LLMs and 112 humans from seven countries across four scenarios—collaborative writing, education, public sectors, and healthcare—we uncover key misalignments."
 ethics_perspective: "AI Safety & Alignment"

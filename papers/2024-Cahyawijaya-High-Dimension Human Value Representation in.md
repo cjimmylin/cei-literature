@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2404.07900"
 external_pdf: "http://arxiv.org/pdf/2404.07900.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Proposed UniVaR, a method to represent human values in LLMs as a high-dimensional vector space, analyzing how 8 models prioritize different values across 25 languages."
@@ -39,7 +37,7 @@ is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "25 languages"
 LLM_assessed: "ChatGPT, Llama-2, Llama-3, Mistral, Mixtral, BLOOM"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # High-Dimension Human Value Representation in Large Language Models
 

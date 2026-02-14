@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,29 +7,30 @@ key: LSRC0733
 type: conferencePaper
 short_title: "Gender Bias in Natural Language Processing and Computer Vision: A Comparative Survey | ACM Computing Surveys"
 year: 2025
-first_author: "[[Yanaka]]"
-last_author: "[[Yanaka]]"
-authors: Yanaka et al.
+first_author: [[Yanaka]]
+last_author: [[Yanaka]]
+authors: "Yanaka et al."
 doi: 10.1145/3700438
 url: "https://dl.acm.org/doi/10.1145/3700438"
+external_pdf: "https://doras.dcu.ie/30830/1/Gender-Bias-in-Natural-Language-Processing-and-Computer-Vision-A-Comparative-SurveyACM-Computing-Surveys.pdf"
 publication: ACM
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2025/2025-Yanaka-Gender Bias in Natural Language Processing and Computer Vision A.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Yanaka-Gender Bias in Natural Language Processing and Computer Vision A.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Arabic"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Arabic
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

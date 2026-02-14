@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,31 +11,36 @@ first_author: "[[Sabriya Alam, Marwa Abdulhai, Niloufar Salehi]]"
 last_author: "[[Sabriya Alam, Marwa Abdulhai, Niloufar Salehi]]"
 authors: "[[Sabriya Alam, Marwa Abdulhai, Niloufar Salehi]]"
 authors_incomplete: false
-url: ""
+url: 
 external_pdf: "https://dl.acm.org/doi/pdf/10.1145/3715275.3732162"
-local_pdf: "N/A"
-pdf_extract: ""
-publication: ACM FAccT 2025
+local_pdf: N/A
+pdf_access_status: manual_only
+pdf_access_last_checked: 2026-02-14
+pdf_access_error: "http_403 (HTTP 403)"
+pdf_access_url: "https://dl.acm.org/doi/pdf/10.1145/3715275.3732162"
+pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
+pdf_extract: 
+publication: "ACM FAccT 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Mixed-methods study finding Muslim users overwhelmingly preferred AI-generated responses to Islamic questions (81.3%) in blind evaluations despite expressing distrust. Expert Islamic scholars found critical shortcomings in accuracy, depth, and contextual sensitivity. Highlights the paradox of user preference vs. expert quality assessment in religious AI content."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
-research_topic: "Other"
+LLM_assessed: NA
+DATA_URL: 
+research_topic: Other
 ---
 # Blind Faith? User Preference and Expert Assessment of AI-Generated Religious Content
 

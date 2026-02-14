@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2402.01586"
 external_pdf: "http://arxiv.org/pdf/2402.01586.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed 'TrustAgent', a framework injecting safety at three stages (pre-planning, in-planning, post-planning) for LLM Agents."
@@ -27,7 +25,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Hua-TrustAgent.md"
 abstract: "The rise of LLM-based agents shows great po- tential to revolutionize task planning, capturing significant attention. Given that these agents will be integrated into high-stake domains, en- suring their reliability and safety is crucial. This paper presents an Agent-Constitution- based agent framework, TrustAgent, with a particular focus on improving the LLM-based agent safety. The proposed framework en- sures strict adherence to the Agent Constitu- tion through three strategic components: pre-"
 paper_summary: "Abstract: The rise of LLM-based agents shows great po- tential to revolutionize task planning, capturing significant attention. Given that these agents will be integrated into high-stake domains, en- suring the | Overview: TrustAgent: Towards Safe and Trustworthy LLM-based Agents Wenyue Hua1 Xianjun Yang2 Mingyu Jin1 Zelong Li1 Wei Cheng3 Ruixiang Tang1 Yongfeng Zhang1 1Department of Computer Science, Rutgers University | Key Findings: Agent Consititution Pre-planning Learning Post-planning Learning In-planning Prompting Constitution Post-planning Learning Pre-planning Learning Actio"
-local_pdf: "[[PDFs/2024/2024-Hua-TrustAgent.pdf]]"
+local_pdf: [[PDFs/2024/2024-Hua-TrustAgent.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ url: "https://arxiv.org/abs/2309.13356"
 external_pdf: "https://arxiv.org/pdf/2309.13356.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Cognitive Developmental"
 newtags: "Cognitive Developmental, Moral Reasoning & Psychology"
 key_contribution: "Applied the 'Defining Issues Test' (DIT) from Kohlberg's moral psychology to LLMs, finding that GPT-4 scores at a 'post-conventional' level (graduate student equivalent), while GPT-3 is random."
@@ -27,7 +25,7 @@ pdf_extract: "PDF Extracts/2023/2023-Deng-Probing the Moral Development of Large
 abstract: "In this study, we measure the moral reasoning ability of LLMs using the Defining Issues Test [1]- a psychometric instrument developed for measuring the moral development stage of a person according to the Kohlberg’s Cognitive Moral De- velopment Model [2]. DIT uses moral dilemmas followed by a set of ethical considerations that the respondent has to judge for importance in resolving the dilemma, and then rank-order them by importance. A moral development stage score of the respondent is then com"
 paper_summary: "Abstract: In this study, we measure the moral reasoning ability of LLMs using the Defining Issues Test [1]- a psychometric instrument developed for measuring the moral development stage of a person according to | Overview: Probing the Moral Development of Large Language Models through Defining Issues Test Kumar Tanmay∗ Microsoft t-ktanmay@microsoft.com Aditi Khandelwal∗ Microsoft t-aditikh@microsoft.com Utkarsh Agarwal∗ | Methodology: In this section, we describe our experimental setup, the datasets, LLMs tested, prompt structure and metrics. We present the LLMs with a prompt that c | Key Findings: of chatgpt on reasoning, hallucination, and interactivity. arXiv preprint arXiv:2302.04023, 2023. [10] Yue Zhang, Yafu Li, Leyang Cui, Deng Cai, Lemao | Conclusions: In this study, we propose an effective evaluation framework to measure the ethical reasoning capability of LLMs based on Kohlberg’s Cognitive Moral De"
 local_pdf: "[[PDFs/2023/2023-Deng-Probing the Moral Development of Large Language.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -38,7 +36,7 @@ is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, ChatGPT, PaLM-2, Llama-2, text-davinci"
-DATA_URL: "NA"
+DATA_URL: NA
 DATE_ADDED: 20260207
 ---
 # Probing the Moral Development of Large Language Models through Defining Issues Test

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,13 +9,13 @@ short_title: "Evaluating Computational Models of Ethics"
 year: 2025
 first_author: "[[Jatin Chhabra]]"
 last_author: "[[Jay Deshmukh]]"
-authors: Jatin Chhabra; Kartik Sama; Jay Deshmukh
+authors: "Jatin Chhabra; Kartik Sama; Jay Deshmukh"
 doi: 10.1007/s43681-024-00532-4
 url: "https://link.springer.com/article/10.1007/s43681-024-00532-4"
 publication: "AI and Ethics"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
@@ -35,9 +32,9 @@ is_benchmark: Yes
 is_eval: No
 is_dataset: No
 data_description: 
-data_metrics:
-LLM_assessed: "NA"
-DATA_URL: "NA"
+data_metrics: 
+LLM_assessed: NA
+DATA_URL: NA
 normative_ethics_benchmark: Borderline
 ---
 # Evaluating Computational Models of Ethics

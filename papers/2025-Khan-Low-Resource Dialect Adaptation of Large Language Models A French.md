@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,27 +8,27 @@ type: preprint
 short_title: "Low-Resource Dialect Adaptation of Large Language Models: A French Dialect Case-Study"
 year: 2025
 first_author: "[[Eeham Khan]]"
-last_author: "[[Unknown]]"
-authors: Eeham Khan; Firas Saidani; Owen Van Esbroeck; Richard Khoury; Leila Kosseim
+last_author: [[Unknown]]
+authors: "Eeham Khan; Firas Saidani; Owen Van Esbroeck; Richard Khoury; Leila Kosseim"
 url: "https://arxiv.org/abs/2510.22747"
 external_pdf: "https://arxiv.org/pdf/2510.22747.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "French"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: French
 languages_list: "French, Quebecois French"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "CroissantLLM, Llama-3.1, Llama-3.2"

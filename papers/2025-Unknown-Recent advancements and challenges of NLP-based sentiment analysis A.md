@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,33 +7,33 @@ key: LSRC0628
 type: journalArticle
 short_title: "Recent advancements and challenges of NLP-based sentiment analysis: A state-of-the-art review - ScienceDirect"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+first_author: [[Unknown]]
+last_author: [[Unknown]]
 authors: Unknown
 url: "https://www.sciencedirect.com/science/article/pii/S2949719124000074"
 publication: ScienceDirect
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Mongolian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Mongolian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 research_topic: "NLP & Representation Learning"
 ---
 # Recent advancements and challenges of NLP-based sentiment analysis: A state-of-the-art review - ScienceDirect

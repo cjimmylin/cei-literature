@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.18653/v1/2023.semeval-1.41
 url: "https://aclanthology.org/2023.semeval-1.41/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/2GNWRXJ3/Chang et al. - 2023 - niceNLP at SemEval-2023 Task 10 Dual Model Alternate Pseudo-labeling Improves Your Predictions.pdf"
 national_ethnic_cultural: N/A
-religious_values: "Islam"
-religious_values_list: "Islam"
+religious_values: Islam
+religious_values_list: Islam
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -35,7 +33,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "DeBERTa, RoBERTa, BERT"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Chang-niceNLP at SemEval-2023 Task 10.md"
 ---
 # niceNLP at SemEval-2023 Task 10: Dual Model Alternate Pseudo-labeling Improves Your Predictions

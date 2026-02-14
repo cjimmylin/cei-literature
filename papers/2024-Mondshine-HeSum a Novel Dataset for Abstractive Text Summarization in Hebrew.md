@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0029
 type: preprint
 short_title: "HeSum: a Novel Dataset for Abstractive Text Summarization in Hebrew"
-year: 2024
+year: 2025
 first_author: "[[Itai Mondshine]]"
 last_author: "[[Reut Tsarfaty]]"
-authors: Itai Mondshine, Tzuf Paz-Argaman, Asaf Achi Mordechai, Reut Tsarfaty
+authors: "Itai Mondshine, Tzuf Paz-Argaman, Asaf Achi Mordechai, Reut Tsarfaty"
 url: "https://arxiv.org/abs/2406.03897"
 external_pdf: "https://arxiv.org/pdf/2406.03897.pdf"
 local_pdf: "[[PDFs/2024/2024-Mondshine-HeSum a Novel Dataset for Abstractive Text Summarization in Hebrew.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Mondshine-HeSum a Novel Dataset for Abstractive Text Summarization in Hebrew.md"
-publication: arXiv / ACL Anthology (LoResMT 2024)
+publication: "arXiv / ACL Anthology (LoResMT 2024)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Hebrew/Israeli"
-languages_list: "Hebrew"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Hebrew/Israeli
+languages_list: Hebrew
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,12 +14,12 @@ doi: 10.18653/v1/2023.findings-emnlp.915
 url: "https://aclanthology.org/2023.findings-emnlp.915/"
 external_pdf: "https://aclanthology.org/2023.findings-emnlp.915.pdf"
 national_ethnic_cultural: Hebrew/Israeli
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: Hebrew/Israeli
 tags: 
-local_pdf: "[[PDFs/2023/2023-Cohen-HeQ.pdf]]"
+local_pdf: [[PDFs/2023/2023-Cohen-HeQ.pdf]]
 pdf_extract: "PDF Extracts/2023/2023-Cohen-HeQ.md"
 abstract: "Current benchmarks for Hebrew Natural Lan- guage Processing (NLP) focus mainly on morpho-syntactic tasks, neglecting the se- mantic dimension of language understanding. To bridge this gap, we set out to deliver a Hebrew Machine Reading Comprehension (MRC) dataset, where MRC is to be real- ized as extractive Question Answering. The morphologically-rich nature of Hebrew poses a challenge to this endeavor: the indetermi- nacy and non-transparency of span boundaries in morphologically complex forms"
 ethics_overall: No
@@ -34,7 +32,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: "https://github.com/NNLP-IL/Hebrew-Question-Answering-Dataset"
 ---
 # HeQ: a Large and Diverse Hebrew Reading Comprehension Benchmark

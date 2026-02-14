@@ -1,17 +1,14 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0023
 type: preprint
-short_title: An Evaluation of Cultural Value Alignment in LLM
+short_title: "An Evaluation of Cultural Value Alignment in LLM"
 year: 2025
 first_author: "[[N. Sukiennik]]"
-last_author: "[[Y]]"
+last_author: [[Y]]
 authors: "Sukiennik, N., Gao, C., Xu, F., & Li, Y"
 url: "https://arxiv.org/abs/2504.08863"
 external_pdf: "https://arxiv.org/pdf/2504.08863.pdf"
@@ -19,25 +16,25 @@ local_pdf: "[[PDFs/2025/2025-Sukiennik-An Evaluation of Cultural Value Alignment
 pdf_extract: "PDF Extracts/2025/2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Chinese, American"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "LLMs as intelligent agents are being increasingly applied in scenarios where human interactions are involved, leading to a critical concern about whether LLMs are faithful to the variations in culture across regions. Several works have investigated this question in various ways, finding that there are biases present in the cultural representations of LLM outputs. To gain a more comprehensive view, in this work, we conduct the first large-scale evaluation of LLM culture assessing 20 countries’..."
 ethics_perspective: "Social & Cultural Values"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-3, DeepSeek, Qwen"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # An Evaluation of Cultural Value Alignment in LLM
 

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "BanTH: A Multi-label Hate Speech Detection Dataset for Transliterated Bangla"
 year: 2025
 first_author: "[[F. Ishmam]]"
-last_author: "[[F.]]"
-authors: Ishmam, F. et al.
+last_author: [[F.]]
+authors: "Ishmam, F. et al."
 url: "https://arxiv.org/abs/2410.13281"
 external_pdf: "https://arxiv.org/pdf/2410.13281.pdf"
 local_pdf: "[[PDFs/2025/2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.md"
-publication: arXiv / NAACL 2025
+publication: "arXiv / NAACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indian"
-languages_list: "Bengali"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indian
+languages_list: Bengali
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: 

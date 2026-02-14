@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0366
 type: preprint
 short_title: "ViLLM-Eval: A Comprehensive Evaluation Suite for Vietnamese Large Language Models"
-year: 2024
+year: 2025
 first_author: "[[Trong-Hieu Nguyen]]"
 last_author: "[[Le-Minh Nguyen]]"
-authors: Trong-Hieu Nguyen, Quang-Bao Ta, Cuc Thi Bui, Phong Nguyen-Thuan Do, Le-Minh Nguyen
+authors: "Trong-Hieu Nguyen, Quang-Bao Ta, Cuc Thi Bui, Phong Nguyen-Thuan Do, Le-Minh Nguyen"
 url: "https://arxiv.org/abs/2404.11086"
 external_pdf: "https://arxiv.org/pdf/2404.11086.pdf"
 local_pdf: "[[PDFs/2024/2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

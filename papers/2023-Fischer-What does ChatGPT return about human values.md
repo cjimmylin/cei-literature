@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Ronald Fischer; Markus Luczak-Roesch; Johannes A Karl"
 url: "https://arxiv.org/abs/2304.03612"
 external_pdf: "https://arxiv.org/pdf/2304.03612.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Analysed ChatGPT's value alignment using Schwartz's Basic Value Theory prompts, finding high fidelity to theoretical constructs but some merging of social values."
@@ -36,7 +34,7 @@ is_eval: No
 is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT"
+LLM_assessed: ChatGPT
 DATA_URL: "https://osf.io/w46nq/"
 ---
 # What does ChatGPT return about human values? Exploring value bias in ChatGPT using a descriptive value theory

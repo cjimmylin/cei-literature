@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.48550/arXiv.2508.08333
 url: "https://arxiv.org/abs/2508.08333"
 external_pdf: "https://arxiv.org/pdf/2508.08333.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Proposed a 'Two-Level Architecture' for AI agents: a 'Universal Layer' for hard constraints and a 'Local Layer' for context-specific value weighing, managed by a teacher-student distillation process."
@@ -36,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Normative Moral Pluralism for AI: A Framework for Deliberation in Complex Moral Contexts
 

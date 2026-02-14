@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/31617/33784/
 local_pdf: "[[PDFs/2024/2024-Arzberger-Nothing Comes Without Its World.pdf]]"
 publication: "AIES 2024"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "RLHF, Feminist-Epistemology, Situated-Values, Values-Alignment, AI-Safety"
 key_contribution: "Critiques RLHF through feminist epistemology lens; proposes situated annotation, expressive instruction, reflexive adaptation"
@@ -36,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Arzberger-Nothing Comes Without Its World.md"
 ---
 # Nothing Comes Without Its World – Practical Challenges of Aligning LLMs to Situated Human Values through RLHF

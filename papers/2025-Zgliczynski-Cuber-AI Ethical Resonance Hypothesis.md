@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,8 +18,8 @@ external_pdf: "https://arxiv.org/pdf/2507.11552.pdf"
 publication: arXiv
 ethics_perspective: "Emergent Ethics"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Deontology, Emergent Ethics, Moral Meta-Patterns, AI Alignment"
 key_contribution: "Proposes that AI systems with 'ethical resonators' can identify moral meta-patterns transcending cultural biases"
@@ -36,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.md"
 ---
 # The AI Ethical Resonance Hypothesis: The Possibility of Discovering Moral Meta-Patterns in AI Systems

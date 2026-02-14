@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2509.17665"
 external_pdf: "https://arxiv.org/pdf/2509.17665.pdf"
 local_pdf: "[[PDFs/2025/2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.md"
-publication: AEQUITAS 2025 Workshop (co-located with ECAI 2025); arXiv
+publication: "AEQUITAS 2025 Workshop (co-located with ECAI 2025); arXiv"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "Islam"
-religious_values_list: "Islam"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: Islam
+religious_values_list: Islam
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Despite growing research on bias in large language models (LLMs), most work has focused on gender and race, with little attention to religious identity. This paper explores how religion is internally represented in LLMs and how it intersects with concepts of violence and geography. Using mechanistic interpretability and Sparse Autoencoders (SAEs) via the Neuronpedia API, we analyze latent feature activations across five models."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "Uses Neuronpedia API"
 ethics_perspective: "Social & Cultural Values"
 ---

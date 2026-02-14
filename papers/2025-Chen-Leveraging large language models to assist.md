@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1057/s41599-025-04657-7
 url: "https://www.nature.com/articles/s41599-025-04657-7"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/PYP5EUPP/Chen et al. - 2025 - Leveraging large language models to assist philosophical counseling prospective techniques, value,.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Social & Cultural Values"
 key_contribution: "Explored using LLMs for 'philosophical counseling' (logic-based therapy), analyzing potential and ethical challenges like lack of empathy."
@@ -34,8 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Chen-Leveraging large language models to assist.md"
 local_pdf: "[[PDFs/2025/2025-Chen-Leveraging large language models to assist.pdf]]"
 ---

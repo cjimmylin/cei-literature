@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,8 +18,8 @@ pdf_extract: "[[PDF Extracts/2025-Terziyan-Towards ethical evolution.md]]"
 publication: "AI and Ethics"
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Deontology, AI Safety & Alignment, Recursive Ethics"
 key_contribution: "Proposes genetic responsibility model for ensuring ethical inheritance across AI generations"
@@ -36,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Towards ethical evolution: responsible autonomy of artificial intelligence across generations
 

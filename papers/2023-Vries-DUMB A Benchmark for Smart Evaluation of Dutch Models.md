@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,29 +6,29 @@ Not AI:
 key: LSRC0482
 type: preprint
 short_title: "DUMB: A Benchmark for Smart Evaluation of Dutch Models"
-year: 2023
+year: 2025
 first_author: "[[Wietse de Vries]]"
 last_author: "[[Wietse de Vries]]"
-authors: Wietse de Vries et al.
+authors: "Wietse de Vries et al."
 url: "https://arxiv.org/abs/2305.13026"
 external_pdf: "https://arxiv.org/pdf/2305.13026.pdf"
-publication: arXiv / EMNLP 2023
+publication: "arXiv / EMNLP 2023"
 local_pdf: "[[PDFs/2023/2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Dutch"
-languages_list: "Dutch"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Dutch
+languages_list: Dutch
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERTje, RobBERT, mBERT, XLM-RoBERTa"

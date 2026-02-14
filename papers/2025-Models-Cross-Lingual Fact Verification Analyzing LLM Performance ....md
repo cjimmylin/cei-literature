@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,27 +9,27 @@ short_title: "Cross-Lingual Fact Verification: Analyzing LLM Performance ..."
 year: 2025
 first_author: "[[Language Models]]"
 last_author: "[[Language Models]]"
-authors: Language Models
+authors: "Language Models"
 url: "https://acl-bg.org/proceedings/2025/RANLP%202025/pdf/2025.ranlp-1.131.pdf"
 external_pdf: "https://doi.org/10.26615/978-954-452-098-4-131"
 publication: Web
 local_pdf: "[[PDFs/2025/2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ....pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ....md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Chinese, English, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

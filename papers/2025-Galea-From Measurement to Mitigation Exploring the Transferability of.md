@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,30 +9,30 @@ short_title: "From Measurement to Mitigation: Exploring the Transferability of D
 year: 2025
 first_author: "[[Melanie Galea]]"
 last_author: "[[Claudia Borg]]"
-authors: Melanie Galea, Claudia Borg
+authors: "Melanie Galea, Claudia Borg"
 url: "https://arxiv.org/abs/2507.03142"
 external_pdf: "https://arxiv.org/pdf/2507.03142.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Galea-From Measurement to Mitigation Exploring the Transferability of.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Galea-From Measurement to Mitigation Exploring the Transferability of.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Maltese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Maltese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERTu, mBERTu"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "The advancement of Large Language Models (LLMs) has transformed Natural Language Processing (NLP), enabling performance across diverse tasks with little task-specific training. However, LLMs remain susceptible to social biases, particularly reflecting harmful stereotypes from training data, which can disproportionately affect marginalised communities. We measure gender bias in Maltese LMs, arguing that such bias is harmful as it reinforces societal stereotypes and fails to account for gender..."
 ethics_perspective: "Bias & Fairness"

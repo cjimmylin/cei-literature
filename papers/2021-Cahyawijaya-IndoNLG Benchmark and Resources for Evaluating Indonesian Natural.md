@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0116
 type: preprint
 short_title: "IndoNLG: Benchmark and Resources for Evaluating Indonesian Natural Language Generation"
-year: 2021
+year: 2025
 first_author: "[[Samuel Cahyawijaya]]"
-last_author: "[[Unknown]]"
-authors: Samuel Cahyawijaya; Genta Indra Winata; Bryan Wilie; Karissa Vincentio; Xiaohong Li; Adhiguna Kuncoro; Sebastian Ruder; Zhi Yuan Lim; Syafri Bahar; Masayu Leylia Khodra; Ayu Purwarianti; Pascale Fung
+last_author: [[Unknown]]
+authors: "Samuel Cahyawijaya; Genta Indra Winata; Bryan Wilie; Karissa Vincentio; Xiaohong Li; Adhiguna Kuncoro; Sebastian Ruder; Zhi Yuan Lim; Syafri Bahar; Masayu Leylia Khodra; Ayu Purwarianti; Pascale Fung"
 url: "https://arxiv.org/abs/2104.08200"
 external_pdf: "https://arxiv.org/pdf/2104.08200.pdf"
 local_pdf: "[[PDFs/2021/2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.md"
-publication: arXiv / ACL Anthology (EMNLP 2021)
+publication: "arXiv / ACL Anthology (EMNLP 2021)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indonesian"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indonesian
 languages_list: "Indonesian, Javanese, Sundanese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark text corpus for question answering"
 data_metrics: "Not specified"
 LLM_assessed: 

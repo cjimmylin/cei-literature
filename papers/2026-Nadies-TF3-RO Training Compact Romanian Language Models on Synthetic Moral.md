@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: EXSR0293
 type: preprint
 short_title: "TF3-RO: Training Compact Romanian Language Models on Synthetic Moral Microfiction"
-year: 2026
+year: 2025
 first_author: "[[Nadas, Mihai Dan]]"
 last_author: "[[Piscoran, Andrei]]"
 authors: "[[Nadas, Mihai Dan]]; [[Diosan, Laura]]; [[Tomescu, Andreea]]; [[Piscoran, Andrei]]"
@@ -20,24 +17,24 @@ local_pdf: "[[PDFs/2026/2026-Nadies-TF3-RO Training Compact Romanian Language Mo
 pdf_extract: "PDF Extracts/2026/2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Recent advances in synthetic data generation have shown that compact language models can be trained effectively when the underlying corpus is structurally controlled and linguistically coherent. However, for morphologically rich and computationally under-resourced languages such as Romanian, there is still no openly documented, end-to-end pipeline that unifies tokenizer design, preprocessing, pretraining, compression, evaluation, and large-scale synthetic data generation in a reproducible..."
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # TF3-RO: Training Compact Romanian Language Models on Synthetic Moral Microfiction
 

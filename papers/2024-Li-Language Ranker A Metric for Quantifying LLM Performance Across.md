@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0163
 type: preprint
 short_title: "Language Ranker: A Metric for Quantifying LLM Performance Across Languages"
-year: 2024
+year: 2025
 first_author: "[[Zihao Li]]"
-last_author: "[[Unknown]]"
-authors: Zihao Li; Yucheng Shi; Zirui Liu; Fan Yang; Ali Payani; Ninghao Liu; Mengnan Du
+last_author: [[Unknown]]
+authors: "Zihao Li; Yucheng Shi; Zirui Liu; Fan Yang; Ali Payani; Ninghao Liu; Mengnan Du"
 url: "https://arxiv.org/abs/2404.11553"
 external_pdf: "https://arxiv.org/pdf/2404.11553.pdf"
 local_pdf: "[[PDFs/2024/2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "French, German"
 languages_list: "Multiple including Kurdish (0.308), Pashto (0.284)"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "Not specified"
 LLM_assessed: 

@@ -1,40 +1,45 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0724
 type: conferencePaper
-short_title: Hate Speech and Offensive Language Dataset
-year: 2024
-first_author: "[[Kajiwara]]"
-last_author: "[[Kajiwara]]"
+short_title: "Hate Speech and Offensive Language Dataset"
+year: 2025
+first_author: [[Kajiwara]]
+last_author: [[Kajiwara]]
 authors: Kajiwara
 url: "https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset"
+external_pdf: "https://doi.org/10.1016/j.ipm.2021.102524"
 publication: Web
-local_pdf: 
+local_pdf: N/A
+pdf_access_status: manual_only
+pdf_access_last_checked: 2026-02-14
+pdf_access_error: "not_pdf_header (HTTP 200)"
+pdf_access_url: "https://doi.org/10.1016/j.ipm.2021.102524"
+pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Japanese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Japanese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Hate Speech and Offensive Language Dataset

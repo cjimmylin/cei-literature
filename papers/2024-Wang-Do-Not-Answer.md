@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "[[Wang, Yuxia]]; [[Li, Haonan]]; [[Han, Xudong]]; [[Nakov, Preslav]]; 
 url: "https://aclanthology.org/2024.findings-eacl.61/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/VZA7CY4P/2024 - Do-Not-Answer A Dataset for Evaluating Safeguards in LLMs.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Released Do-Not-Answer, an open-source dataset of 'dangerous capabilities' instructions for evaluating safeguards in LLMs."
@@ -36,7 +34,7 @@ data_metrics: "Not specified"
 LLM_assessed: "GPT-4, ChatGPT, Claude, Vicuna, Llama-2, BERT"
 DATA_URL: "https://github.com/Libr-AI/do-not-answer"
 pdf_extract: "PDF Extracts/2024/2024-Wang-Do-Not-Answer.md"
-local_pdf: "[[PDFs/2024/2024-Wang-Do-Not-Answer.pdf]]"
+local_pdf: [[PDFs/2024/2024-Wang-Do-Not-Answer.pdf]]
 ---
 # Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs
 

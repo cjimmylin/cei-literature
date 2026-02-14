@@ -1,42 +1,40 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0448
 type: conferencePaper
-short_title: Evaluating Gender Bias in Machine Translation (WinoMT)
-year: 2019
+short_title: "Evaluating Gender Bias in Machine Translation (WinoMT)"
+year: 2025
 first_author: "[[Gabriel Stanovsky]]"
 last_author: "[[Luke Zettlemoyer]]"
-authors: Gabriel Stanovsky, Noah A. Smith, Luke Zettlemoyer
+authors: "Gabriel Stanovsky, Noah A. Smith, Luke Zettlemoyer"
 url: "https://aclanthology.org/P19-1164/"
 external_pdf: "https://arxiv.org/pdf/1906.00591v1.pdf"
-publication: ACL Anthology
+publication: "ACL Anthology"
 local_pdf: "[[PDFs/2019/2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT.pdf]]"
 pdf_extract: "PDF Extracts/2019/2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Arabic, Czech, English, French, Hebrew, Italian, Polish, Russian, Spanish, Ukrainian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/gabrielStanovsky/mt_gender"
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Bias & Fairness"
 ---
 # Evaluating Gender Bias in Machine Translation (WinoMT)

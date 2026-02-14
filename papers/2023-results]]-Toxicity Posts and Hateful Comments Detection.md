@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,35 +6,35 @@ Not AI:
 key: EXSR0576
 type: journal_article
 short_title: "Toxicity Posts and Hateful Comments Detection"
-year: 2023
+year: 2025
 first_author: "[[[[Not fully listed in search results]]]]"
 last_author: "[[results, Not fully listed in search]]"
 authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://ph01.tci-thaijo.org/index.php/RMUTLEngJ/article/view/256026"
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
-publication: RMUTL Engineering Journal
+external_pdf: 
+local_pdf: N/A
+pdf_extract: 
+publication: "RMUTL Engineering Journal"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Thai"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Thai
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "Uses a dataset of 2,160 posts from the Thai toxicity Twitter corpus for training and verifying Thai language toxic and hateful classification using supervised ensemble methods. Thai toxicity detection dataset from Twitter. Relevant to toxicity and hate speech evaluation in Thai."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 research_topic: "Machine Learning"
 ---
 # Toxicity Posts and Hateful Comments Detection in Thai Language Using Supervised Ensemble Classification

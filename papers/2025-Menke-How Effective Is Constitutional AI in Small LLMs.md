@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ local_pdf: "[[PDFs/2025/2025-Menke-How Effective Is Constitutional AI in Small L
 external_pdf: "http://arxiv.org/pdf/2503.17365.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Studies the effectiveness of Constitutional AI (CAI) self-critique on small (7-9B) models like DeepSeek-R1 and Llama 3"
@@ -38,7 +36,7 @@ is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "90 prompts"
 LLM_assessed: "DeepSeek, Gemma, Llama-3, Qwen"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
  How Effective Is Constitutional AI in Small LLMs? A Study on DeepSeek-R1 and Its Peers
 

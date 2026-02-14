@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +6,28 @@ Not AI:
 key: EXSR0013
 type: preprint
 short_title: RedBench
-year: 2026
+year: 2025
 first_author: "[[Quy-Anh Dang]]"
 last_author: "[[Truong-Son Hy]]"
-authors: Quy-Anh Dang, Chris Ngo, Truong-Son Hy
+authors: "Quy-Anh Dang, Chris Ngo, Truong-Son Hy"
 url: "https://arxiv.org/abs/2601.03699"
 external_pdf: "https://arxiv.org/pdf/2601.03699.pdf"
-local_pdf: "[[PDFs/2026/2026-Dang-RedBench.pdf]]"
+local_pdf: "[[PDFs/2026-Dang-RedBench.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Dang-RedBench.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "As large language models (LLMs) become integral to safety-critical applications, ensuring their robustness against adversarial prompts is paramount. However, existing red teaming datasets suffer from inconsistent risk categorizations, limited domain coverage, and outdated evaluations, hindering systematic vulnerability assessments. To address these challenges, we introduce RedBench, a universal dataset aggregating 37 benchmark datasets from leading conferences and repositories, comprising..."
 ethics_perspective: "AI Safety & Alignment"

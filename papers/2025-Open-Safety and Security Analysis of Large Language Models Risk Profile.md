@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,27 +9,27 @@ short_title: "Safety and Security Analysis of Large Language Models: Risk Profil
 year: 2025
 first_author: "[[Ant Open]]"
 last_author: "[[Ant Open]]"
-authors: Ant Open
+authors: "Ant Open"
 url: "https://arxiv.org/html/2509.10655v1"
 external_pdf: "https://arxiv.org/pdf/2509.10655.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Open-Safety and Security Analysis of Large Language Models Risk Profile.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Open-Safety and Security Analysis of Large Language Models Risk Profile.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Chinese
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

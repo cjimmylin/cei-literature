@@ -1,42 +1,39 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0102
 type: preprint
-short_title: PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture
+short_title: "PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture"
 year: 2025
 first_author: "[[Fakhraddin Alwajih]]"
 last_author: "[[Muhammad Abdul-Mageed]]"
-authors: Fakhraddin Alwajih; Abdellah El Mekki; Hamdy Mubarak; Majd Hawasly; Abubakr Mohamed; Muhammad Abdul-Mageed
+authors: "Fakhraddin Alwajih; Abdellah El Mekki; Hamdy Mubarak; Majd Hawasly; Abubakr Mohamed; Muhammad Abdul-Mageed"
 url: "https://arxiv.org/abs/2509.02550"
 external_pdf: "https://arxiv.org/pdf/2509.02550.pdf"
 local_pdf: "[[PDFs/2025/2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
 national_ethnic_cultural: "Arabic, American"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "Large Language Models (LLMs) inherently reflect the vast data distributions they encounter during their pre-training phase. As this data is predominantly sourced from the web, there is a high chance it will be skewed towards high-resourced languages and cultures, such as those of the West. Consequently, LLMs often exhibit a diminished understanding of certain communities, a gap that is particularly evident in their knowledge of Arabic and Islamic cultures."
 research_topic: "Social & Cultural Analysis"
-data_description: "Benchmark"
+data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/UBC-NLP/palmx_2025"
 ---
 # PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2310.13915"
 external_pdf: "http://arxiv.org/pdf/2310.13915.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Surveyed 92 NLP papers on morality, identifying a widespread lack of clear definitions and philosophical grounding (confusing descriptive vs. normative)."
@@ -38,8 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Values, Ethics, Morals? On the Use of Moral Concepts in NLP Research
 

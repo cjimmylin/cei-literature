@@ -1,36 +1,35 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0770
 type: preprint
-short_title: Data-Efficient Hate Speech Detection via Cross-Lingual ...
+short_title: "Data-Efficient Hate Speech Detection via Cross-Lingual ..."
 year: 2025
 first_author: "[[Faeze Ghorbanpour]]"
-last_author: "[[Unknown]]"
-authors: Faeze Ghorbanpour; Daryna Dementieva; Alexander Fraser
+last_author: [[Unknown]]
+authors: "Faeze Ghorbanpour; Daryna Dementieva; Alexander Fraser"
 url: "https://arxiv.org/pdf/2505.14272"
 external_pdf: "https://arxiv.org/pdf/2505.14272.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ....pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ....md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "English, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

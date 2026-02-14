@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,33 +7,34 @@ key: LSRC0737
 type: conferencePaper
 short_title: "Beyond Neutrality: A Comprehensive Approach of Religious Bias"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+first_author: [[Unknown]]
+last_author: [[Unknown]]
 authors: Unknown
 url: "https://dspace.bracu.ac.bd/xmlui/bitstream/handle/10361/27421/21201496,%2022101698,%2022101788,%2022101426_CSE.pdf?sequence=1&isAllowed=y"
+external_pdf: "https://dspace.bracu.ac.bd/xmlui/bitstream/handle/10361/27421/21201496,%2022101698,%2022101788,%2022101426_CSE.pdf?sequence=1&isAllowed=y"
 publication: Web
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2025/2025-Unknown-Beyond Neutrality A Comprehensive Approach of Religious Bias.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Unknown-Beyond Neutrality A Comprehensive Approach of Religious Bias.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Arabic, English"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Bias & Fairness"
 ---
 # Beyond Neutrality: A Comprehensive Approach of Religious Bias

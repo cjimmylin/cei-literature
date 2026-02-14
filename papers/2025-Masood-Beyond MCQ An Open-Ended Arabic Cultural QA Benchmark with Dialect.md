@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +8,28 @@ type: preprint
 short_title: "Beyond MCQ: An Open-Ended Arabic Cultural QA Benchmark with Dialect Variants"
 year: 2025
 first_author: "[[Adnan Masood]]"
-last_author: "[[Ph]]"
-authors: Adnan Masood, Ph
+last_author: [[Ph]]
+authors: "Adnan Masood, Ph"
 url: "https://arxiv.org/html/2510.24328"
 external_pdf: "https://arxiv.org/pdf/2510.24328.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Masood-Beyond MCQ An Open-Ended Arabic Cultural QA Benchmark with Dialect.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Masood-Beyond MCQ An Open-Ended Arabic Cultural QA Benchmark with Dialect.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Arabic"
-languages_list: "Arabic"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Arabic
+languages_list: Arabic
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

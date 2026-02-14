@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1007/978-3-031-93415-5_6
 url: "https://link.springer.com/chapter/10.1007/978-3-031-93415-5_6"
 publication: "HCII 2025 - Artificial Intelligence in HCI"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Used mechanistic interpretability to identify specific 'moral neurons' and sub-circuits in LLMs responsible for processing dimensions like Care, Fairness, and Sanctity."
@@ -34,7 +32,7 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/coairesearch/mapping_moral_reasoning.git"
 pdf_extract: "PDF Extracts/2025/2025-Schacht-Mapping Moral Reasoning Circuits.md"
 local_pdf: "[[PDFs/2025/2025-Schacht-Mapping Moral Reasoning Circuits.pdf]]"

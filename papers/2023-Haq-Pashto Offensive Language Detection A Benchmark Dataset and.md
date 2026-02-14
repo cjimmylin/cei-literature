@@ -7,34 +7,34 @@ Not AI:
 key: LSRC0160
 type: journalArticle
 short_title: "Pashto Offensive Language Detection: A Benchmark Dataset and Monolingual Pashto BERT"
-year: 2023
+year: 2025
 first_author: "[[Ijaz Ul Haq]]"
 last_author: "[[Dongji Qiu]]"
-authors: Ijaz Ul Haq, Dongji Qiu et al.
+authors: "Ijaz Ul Haq, Dongji Qiu et al."
 url: "https://peerj.com/articles/cs-1617/"
-publication: PeerJ Computer Science
-local_pdf: 
-pdf_extract: 
-DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Pashto"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+external_pdf: "https://europepmc.org/articles/PMC10702970?pdf=render"
+publication: "PeerJ Computer Science"
+local_pdf: "[[PDFs/2023/2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.md"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Pashto
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "34,400 Pashto tweets for offensive language detection with monolingual Pashto BERT (Ps-BERT) achieving F1 94.34%. First comprehensive benchmark for Pashto offensive language detection."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Pashto Offensive Language Detection: A Benchmark Dataset and Monolingual Pashto BERT

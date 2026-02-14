@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/RRZFH676/Körner and Deutsc
 pdf_extract: "PDF Extracts/2023/2023-Körner-Deontology and Utilitarianism in Real Life.md"
 local_pdf: "[[PDFs/2023/2023-Körner-Deontology and Utilitarianism in Real Life.pdf]]"
 national_ethnic_cultural: American
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "American, Deontology, Utilitarianism"
 key_contribution: "Introduces a set of moral dilemmas based on real-life historic events to test deontology vs utilitarianism in a realistic setting"
@@ -36,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Deontology and Utilitarianism in Real Life: A Set of Moral Dilemmas Based on Historic Events
 

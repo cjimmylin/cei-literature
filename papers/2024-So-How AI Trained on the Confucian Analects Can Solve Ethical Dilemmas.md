@@ -1,42 +1,38 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0182
 type: conferencePaper
-short_title: How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas
-year: 2024
+short_title: "How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas"
+year: 2025
 first_author: "[[E So]]"
-last_author: "[[E]]"
-authors: So, E
+last_author: [[E]]
+authors: "So, E"
 publication: Unknown
 external_pdf: "https://arxiv.org/pdf/2601.16513v1.pdf"
 local_pdf: "[[PDFs/2024/2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
-religious_values: "Confucianism"
-religious_values_list: "Confucianism"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
+religious_values: Confucianism
+religious_values_list: Confucianism
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Social & Cultural Values"
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/famous-blue-raincoat/AI_Ethics_Discourse"
 normative_ethics_benchmark: Borderline
 ---

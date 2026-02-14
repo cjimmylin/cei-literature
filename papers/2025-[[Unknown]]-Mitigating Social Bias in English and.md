@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +7,9 @@ key: EXSR0410
 type: preprint
 short_title: "Mitigating Social Bias in English and"
 year: 2025
-first_author: "[[[[Unknown]]]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
+first_author: [[[[Unknown]]]]
+last_author: [[Unknown]]
+authors: [[Unknown]]
 authors_incomplete: true
 url: "https://arxiv.org/abs/2512.09854"
 external_pdf: "https://arxiv.org/pdf/2512.09854.pdf"
@@ -21,24 +17,24 @@ local_pdf: "[[PDFs/2025/2025-[[Unknown]]-Mitigating Social Bias in English and.p
 pdf_extract: "PDF Extracts/2025/2025-[[Unknown]]-Mitigating Social Bias in English and.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Large language models (LLMs) increasingly mediate human communication, decision support, content creation, and information retrieval. Despite impressive fluency, these systems frequently produce biased or stereotypical content, especially when prompted with socially sensitive language. A growing body of research has demonstrated that such biases disproportionately affect low-resource languages, where training data is limited and culturally unrepresentative."
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL:
 ---
 # Mitigating Social Bias in English and Urdu Language Models Using PRM-Guided Candidate Selection and Sequential Refinement
 

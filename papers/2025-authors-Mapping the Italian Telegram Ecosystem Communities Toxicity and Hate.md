@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,30 +9,30 @@ short_title: "Mapping the Italian Telegram Ecosystem: Communities, Toxicity, and
 year: 2025
 first_author: "[[Multiple authors]]"
 last_author: "[[Multiple authors]]"
-authors: Multiple authors
+authors: "Multiple authors"
 url: "https://arxiv.org/abs/2504.19594"
 external_pdf: "https://arxiv.org/pdf/2504.19594.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-authors-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-authors-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Italian"
-languages_list: "Italian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Italian
+languages_list: Italian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "LLMs for content annotation"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Telegram has become a major space for political discourse and alternative media. However, its lack of moderation allows misinformation, extremism, and toxicity to spread. While prior research focused on these particular phenomena or topics, these have mostly been examined separately, and a broader understanding of the Telegram ecosystem is still missing. In this work, we fill this gap by conducting a large-scale analysis of the Italian Telegram sphere, leveraging a dataset of 186 million..."
 ethics_perspective: "Toxicity & Hate Speech"

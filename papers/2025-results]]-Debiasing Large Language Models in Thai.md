@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +15,26 @@ url: "https://arxiv.org/abs/2509.21946"
 external_pdf: "https://arxiv.org/pdf/2509.21946.pdf"
 local_pdf: "[[PDFs/2025/2025-results]]-Debiasing Large Language Models in Thai.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-results]]-Debiasing Large Language Models in Thai.md"
-publication: ACL Anthology (WiNLP 2025)
+publication: "ACL Anthology (WiNLP 2025)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Thai"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Thai
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 tags: 
 abstract: "Political stance detection in low-resource and culturally complex settings poses a critical challenge for large language models (LLMs). In the Thai political landscape—rich with indirect expressions, polarized figures, and sentimentstance entanglement—LLMs often exhibit systematic biases, including sentiment leakage and entity favoritism. These biases not only compromise model fairness but also degrade predictive reliability in real-world applications."
-data_description: "Dataset"
+data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Bias & Fairness"
 ---
 # Debiasing Large Language Models in Thai Political Stance Detection via Counterfactual Calibration

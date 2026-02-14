@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: EXSR0144
 type: preprint
 short_title: "Agent-SafetyBench: Evaluating the Safety of LLM Agents"
-year: 2024
+year: 2025
 first_author: "[[Zhang, Zhexin]]"
 last_author: "[[Huang, Minlie]]"
 authors: "[[Zhang, Zhexin]]; [[Cui, Shiyao]]; [[Lu, Yida]]; [[Zhou, Jingzhuo]]; [[Yang, Junxiao]]; [[Wang, Hongning]]; [[Huang, Minlie]]"
@@ -18,20 +15,20 @@ url: "https://arxiv.org/abs/2412.14470"
 external_pdf: "https://arxiv.org/pdf/2412.14470.pdf"
 local_pdf: "[[PDFs/2024/2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "As large language models (LLMs) are increasingly deployed as agents, their integration into interactive environments and tool use introduce new safety challenges beyond those associated with the models themselves. However, the absence of comprehensive benchmarks for evaluating agent safety presents a significant barrier to effective assessment and further improvement. In this paper, we introduce AGENTSAFETYBENCH, a comprehensive benchmark designed to evaluate the safety of LLM agents."
 ethics_perspective: "AI Safety & Alignment"

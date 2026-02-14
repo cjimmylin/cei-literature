@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: EXSR0277
 type: conferencePaper
 short_title: "VIVA: A Benchmark for Vision-Grounded Decision-Making with Human Values"
-year: 2024
+year: 2025
 first_author: "[[Hu, Zhe]]"
 last_author: "[[Yin, Yu]]"
 authors: "[[Hu, Zhe]]; [[Ren, Yixiao]]; [[Li, Jing]]; [[Yin, Yu]]"
@@ -20,18 +17,18 @@ local_pdf: "[[PDFs/2024/2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Ma
 pdf_extract: "PDF Extracts/2024/2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values.md"
 publication: EMNLP
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 tags: 
 abstract: "Large vision language models (VLMs) have demonstrated significant potential for integration into daily life, making it crucial for them to incorporate human values when making decisions in real-world situations. This paper introduces VIVA, a benchmark for VIsiongrounded decision-making driven by human VAlues. While most large VLMs focus on physical-level skills, our work is the first to examine their multimodal capabilities in leveraging human values to make decisions under a vision-depicted..."
 ethics_perspective: "Moral Reasoning & Psychology"

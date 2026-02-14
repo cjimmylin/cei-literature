@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,29 +6,29 @@ Not AI:
 key: LSRC0487
 type: preprint
 short_title: "SDU's DAISY: A Benchmark for Danish Culture"
-year: 2026
+year: 2025
 first_author: "[[Various (SDU/Schneiderkamp Lab)]]"
 last_author: "[[Various (SDU/Schneiderkamp Lab)]]"
-authors: Various (SDU/Schneiderkamp Lab)
+authors: "Various (SDU/Schneiderkamp Lab)"
 url: "https://arxiv.org/abs/2601.19930"
 external_pdf: "https://arxiv.org/pdf/2601.19930.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2026/2026-Lab-SDU's DAISY A Benchmark for Danish Culture.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Lab-SDU's DAISY A Benchmark for Danish Culture.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Danish"
-religious_values: "N/A"
-religious_values_list: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Danish
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-OSS, Mistral-Small, Llama-3.3, Gemma-3"

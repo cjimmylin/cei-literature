@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ local_pdf: "[[PDFs/2025/2025-Nunes-Evidence of conceptual mastery in the applica
 external_pdf: "https://arxiv.org/pdf/2503.00992.pdf"
 research_topic: Other
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Psychometric investigation of LLMs' 'concept of a rule', testing if they treat rules as binding text (deontology) vs guides (purposive)"

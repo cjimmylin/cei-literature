@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,35 +6,35 @@ Not AI:
 key: LSRC0431
 type: conferencePaper
 short_title: "French CrowS-Pairs: Extending a challenge dataset for measuring social bias in masked language models to a language other than English"
-year: 2022
+year: 2025
 first_author: "[[Aurélie Névéol]]"
 last_author: "[[Karën Fort]]"
-authors: Aurélie Névéol, Yoann Dupont, Julien Bezançon, Karën Fort
+authors: "Aurélie Névéol, Yoann Dupont, Julien Bezançon, Karën Fort"
 url: "https://aclanthology.org/2022.acl-long.583/"
 external_pdf: "https://aclanthology.org/2022.acl-long.583.pdf"
-publication: ACL Anthology
+publication: "ACL Anthology"
 local_pdf: "[[PDFs/2022/2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "French"
-languages_list: "French"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: French
+languages_list: French
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "CamemBERT, FlauBERT, FrALBERT, mBERT"
 DATA_URL: "https://github.com/masonreznov/French-CrowS-Pairs"
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Bias & Fairness"
 ---
 # French CrowS-Pairs: Extending a challenge dataset for measuring social bias in masked language models to a language other than English

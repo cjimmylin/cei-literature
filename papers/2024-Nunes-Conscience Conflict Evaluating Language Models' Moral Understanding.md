@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,34 +6,34 @@ Not AI:
 key: EXSR0154
 type: conferencePaper
 short_title: "Conscience Conflict: Evaluating Language Models' Moral Understanding"
-year: 2024
+year: 2025
 first_author: "[[José Luiz Nunes]]"
 last_author: "[[Simone D. J. Barbosa]]"
-authors: José Luiz Nunes; Guilherme F. C. F. Almeida; Marcelo de Araujo; Simone D. J. Barbosa
+authors: "José Luiz Nunes; Guilherme F. C. F. Almeida; Marcelo de Araujo; Simone D. J. Barbosa"
 publication: Unknown
 external_pdf: "https://arxiv.org/pdf/2405.11100.pdf"
 local_pdf: "[[PDFs/2024/2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.md"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "Christianity"
-religious_values_list: "Christianity"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: Christianity
+religious_values_list: Christianity
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "General Ethics"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Borderline
 ---
 # Conscience Conflict: Evaluating Language Models' Moral Understanding

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,35 +6,35 @@ Not AI:
 key: EXSR0555
 type: preprint
 short_title: "Ex-ThaiHate A Generative Multi-task Framework for"
-year: 2023
+year: 2025
 first_author: "[[[[Not fully listed in search results]]]]"
 last_author: "[[results, Not fully listed in search]]"
 authors: "[[Not fully listed in search results]]"
 authors_incomplete: false
 url: "https://link.springer.com/chapter/10.1007/978-3-031-43427-3_9"
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
-publication: Springer (ECML PKDD 2023)
+external_pdf: 
+local_pdf: N/A
+pdf_extract: 
+publication: "Springer (ECML PKDD 2023)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Thai"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Thai
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "First benchmark hate speech corpus in Thai with four annotations: hate, sentiment, emotion, and rationales (explainability). Proposes GenX, a unified generative framework that redefines multi-task hate speech detection as text-to-text generation. First annotated Thai hate speech corpus with explainability. Includes rationale annotations showing which phrases justify hate speech classification. Directly relevant to Thai toxicity and values evaluation."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Ex-ThaiHate: A Generative Multi-task Framework for Sentiment and Emotion Aware Hate Speech Detection with Explanation in Thai

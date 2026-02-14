@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "From KMMLU-Redux to KMMLU-Pro: A Professional Korean Benchmark Sui
 year: 2025
 first_author: "[[Guijin Son]]"
 last_author: "[[Hanwool Lee]]"
-authors: Guijin Son, Hyunwoo Ko, Suwan Kim, Hanwool Lee
+authors: "Guijin Son, Hyunwoo Ko, Suwan Kim, Hanwool Lee"
 url: "https://arxiv.org/abs/2507.08924"
 external_pdf: "https://arxiv.org/pdf/2507.08924.pdf"
 local_pdf: "[[PDFs/2025/2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Korean"
-languages_list: "Korean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Korean
+languages_list: Korean
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

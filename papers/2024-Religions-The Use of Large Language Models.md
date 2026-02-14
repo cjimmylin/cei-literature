@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,36 +6,36 @@ Not AI:
 key: EXSR0533
 type: preprint
 short_title: "The Use of Large Language Models"
-year: 2024
+year: 2025
 first_author: "[[Religions), (Authors from MDPI]]"
 last_author: "[[Religions), (Authors from MDPI]]"
 authors: "[[(Authors from MDPI Religions)]]"
 authors_incomplete: false
-url: ""
-external_pdf: "http://dx.doi.org/10.2139/ssrn.4871732"
-local_pdf: "N/A"
-pdf_extract: ""
-publication: Religions (MDPI), Vol. 15, Issue 12, Article 1559
+url: 
+external_pdf: "https://journals.plos.org/digitalhealth/article/file?id=10.1371/journal.pdig.0000198&type=printable"
+local_pdf: "[[PDFs/2024/2024-Religions-The Use of Large Language Models.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Religions-The Use of Large Language Models.md"
+publication: "Religions (MDPI), Vol. 15, Issue 12, Article 1559"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
-religious_values: "Buddhism"
-religious_values_list: "Buddhism"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
+religious_values: Buddhism
+religious_values_list: Buddhism
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
-abstract: ""
+abstract: 
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
-research_topic: "Other"
+LLM_assessed: NA
+DATA_URL: 
+research_topic: Other
 ---
 # The Use of Large Language Models for Translating Buddhist Texts from Classical Chinese to Modern English: An Analysis and Evaluation with ChatGPT 4, ERNIE Bot 4, and Gemini Advanced
 

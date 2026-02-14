@@ -1,6 +1,4 @@
 ---
-
-
 Human View: false
 Not AI: 
 key: AUTO_ANGLE2021
@@ -12,10 +10,10 @@ last_author: "[[Stephen C. Angle]]"
 authors: "[[Angle, Stephen C.]]"
 doi: 10.1007/978-981-16-2309-7_4
 url: "https://link.springer.com/chapter/10.1007/978-981-16-2309-7_4"
-local_pdf: N/A
+local_pdf: "[[PDFs/2021/2021-Angle-Can AI Lead to Genuine Virtue Confucian.pdf]]"
 national_ethnic_cultural: Chinese/Confucian
-religious_values: "Confucianism"
-religious_values_list: "Confucianism"
+religious_values: Confucianism
+religious_values_list: Confucianism
 moral_psychology: Yes
 newtags: "Virtue Ethics, Confucian Ethics, AI Philosophy, Technomoral Virtue"
 key_contribution: "Examines from Confucian perspective whether AI can lead humans to genuine virtue, expanding beyond Western ethical frameworks"
@@ -32,8 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Can Artificial Intelligence Lead Us to Genuine Virtue? A Confucian Perspective
 

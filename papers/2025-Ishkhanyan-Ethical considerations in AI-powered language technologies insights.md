@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,32 +9,38 @@ short_title: "Ethical considerations in AI-powered language technologies: insigh
 year: 2025
 first_author: "[[Artur Ishkhanyan]]"
 last_author: "[[Artur Ishkhanyan]]"
-authors: Artur Ishkhanyan
+authors: "Artur Ishkhanyan"
 doi: 10.1007/s43681-025-00716-6
 url: "https://link.springer.com/article/10.1007/s43681-025-00716-6"
-publication: Springer AI and Ethics
-local_pdf: 
+external_pdf: "https://link.springer.com/content/pdf/10.1007/s43681-025-00716-6.pdf"
+publication: "Springer AI and Ethics"
+local_pdf: N/A
+pdf_access_status: manual_only
+pdf_access_last_checked: 2026-02-14
+pdf_access_error: "not_pdf_header (HTTP 200)"
+pdf_access_url: "https://link.springer.com/content/pdf/10.1007/s43681-025-00716-6.pdf"
+pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Armenian (East), Armenian (West)"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "General Ethics"
 ---
 # Ethical considerations in AI-powered language technologies: insights from East and West Armenian

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,33 +9,33 @@ short_title: "Cognitive LLMs: Toward Human-Like Artificial Intelligence by Integ
 year: 2025
 first_author: "[[Integrating Cognitive]]"
 last_author: "[[Integrating Cognitive]]"
-authors: Integrating Cognitive
+authors: "Integrating Cognitive"
 doi: 10.1177/29498732251377341
 url: "https://journals.sagepub.com/doi/10.1177/29498732251377341"
 publication: Web
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Tibetan"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Tibetan
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
 abstract: "Resolving the dichotomy between the human-like yet constrained reasoning processes of cognitive architectures (CAs) and the broad but often noisy inference behavior of large language models (LLMs) remains a challenging yet exciting pursuit, aimed at enabling reliable machine reasoning capabilities in LLMs. Previous approaches that employ off-the-shelf LLMs in manufacturing decision-making face challenges in complex reasoning tasks, often exhibiting human-level yet unhuman-like behaviors due to insufficient grounding. This present article start to address this gap by asking whether LLMs can replicate cognition from CAs to make human-like decisions. We introduce             cognitive LLMs             , which are hybrid decision-making architectures comprised of a CA and an LLM through a knowledge transfer mechanism                            LLM-ACTR                          .             Cognitive LLMs             extract and embed knowledge of CA’s internal decision-making process as latent neural representations, inject this information into trainable LLM adapter layers, and fine-tune the LLMs for downstream prediction tasks. We find that, after knowledge transfer through                            LLM-ACTR                          , the             cognitive LLMs             offers better representations of human decision-making behaviors on a novel design for manufacturing problem, compared to an LLM-only model that employs chain-of-thought. Taken together, the results open up new research directions for equipping LLMs with the necessary knowledge to computationally model and replicate the internal mechanisms of human cognitive decision-making. We release the code and data samples at             https://github.com/SiyuWu528/LLM-ACTR             ."
-research_topic: "Other"
+research_topic: Other
 ---
 # Cognitive LLMs: Toward Human-Like Artificial Intelligence by Integrating Cognitive Architectures and Large Language Models for Manufacturing Decision-Making - Siyu Wu, Alessandro Oltramari, Jonathan Francis, C Lee Giles, Frank E Ritter, 2025
 

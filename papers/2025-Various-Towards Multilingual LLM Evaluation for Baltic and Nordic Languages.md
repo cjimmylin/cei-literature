@@ -1,16 +1,14 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0501
 type: preprint
-short_title: Towards Multilingual LLM Evaluation for Baltic and Nordic Languages
+short_title: "Towards Multilingual LLM Evaluation for Baltic and Nordic Languages"
 year: 2025
-first_author: "[[Various]]"
-last_author: "[[Various]]"
+first_author: [[Various]]
+last_author: [[Various]]
 authors: Various
 url: "https://arxiv.org/abs/2501.09154"
 external_pdf: "https://arxiv.org/pdf/2501.09154.pdf"
@@ -18,23 +16,23 @@ publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Various-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Various-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Arabic"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Arabic
 languages_list: "Lithuanian, Nordic languages"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, Llama-3.1, Qwen2"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "In this work, we evaluated Lithuanian and general history knowledge of multilingual Large Language Models (LLMs) on a multiple-choice question-answering task. The models were tested on a dataset of Lithuanian national and general history questions translated into Baltic, Nordic, and other languages (English, Ukrainian, Arabic) to assess the knowledge sharing from culturally and historically connected groups. We evaluated GPT-4o, LLaMa3.1 8b and 70b, QWEN2."
 ethics_perspective: "AI Safety & Alignment"

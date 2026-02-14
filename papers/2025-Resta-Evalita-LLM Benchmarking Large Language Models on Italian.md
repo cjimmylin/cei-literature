@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,26 +9,26 @@ short_title: "Evalita-LLM: Benchmarking Large Language Models on Italian"
 year: 2025
 first_author: "[[Marco Resta]]"
 last_author: "[[Marco Resta]]"
-authors: Marco Resta et al.
+authors: "Marco Resta et al."
 url: "https://arxiv.org/abs/2502.02289"
 external_pdf: "https://arxiv.org/pdf/2502.02289.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Italian"
-languages_list: "Italian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Italian
+languages_list: Italian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3.1, Gemma-2, Mistral, Qwen-2.5, Aya-Expanse, Minerva-3B, Zefiro"

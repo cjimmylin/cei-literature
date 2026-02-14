@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "Rice-VL: Evaluating Vision-Language Models for Cultural Understanding Across ASEAN Countries"
 year: 2025
 first_author: "[[Tushar Pranav]]"
-last_author: "[[Unknown]]"
-authors: Tushar Pranav; Eshan Pandey; Austria Lyka Diane Bala; Aman Chadha; Indriyati Atmosukarto; Donny Soh Cheng Lock
+last_author: [[Unknown]]
+authors: "Tushar Pranav; Eshan Pandey; Austria Lyka Diane Bala; Aman Chadha; Indriyati Atmosukarto; Donny Soh Cheng Lock"
 url: "https://arxiv.org/abs/2512.01419"
 external_pdf: "https://arxiv.org/pdf/2512.01419.pdf"
 local_pdf: "[[PDFs/2025/2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Filipino/Tagalog, Indonesian, Malay"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 LLM_assessed: 

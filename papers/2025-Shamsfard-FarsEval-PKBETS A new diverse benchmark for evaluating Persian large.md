@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "FarsEval-PKBETS: A new diverse benchmark for evaluating Persian large language models"
 year: 2025
 first_author: "[[Mehrnoush Shamsfard]]"
-last_author: "[[Unknown]]"
-authors: Mehrnoush Shamsfard; Zahra Saaberi; Mostafa Karimi manesh; Seyed Mohammad Hossein Hashemi; Zahra Vatankhah; Motahareh Ramezani; Niki Pourazin; Tara Zare; Maryam Azimi; Sarina Chitsaz; Sama Khoraminejad; Morteza Mahdavi Mortazavi; Mohammad Mahdi Chizari; Sahar Maleki; Seyed Soroush Majd; Mostafa Masumi; Sayed Ali Musavi Khoeini; Amir Mohseni; Sogol Alipour
+last_author: [[Unknown]]
+authors: "Mehrnoush Shamsfard; Zahra Saaberi; Mostafa Karimi manesh; Seyed Mohammad Hossein Hashemi; Zahra Vatankhah; Motahareh Ramezani; Niki Pourazin; Tara Zare; Maryam Azimi; Sarina Chitsaz; Sama Khoraminejad; Morteza Mahdavi Mortazavi; Mohammad Mahdi Chizari; Sahar Maleki; Seyed Soroush Majd; Mostafa Masumi; Sayed Ali Musavi Khoeini; Amir Mohseni; Sogol Alipour"
 url: "https://arxiv.org/abs/2504.14690"
 external_pdf: "https://arxiv.org/pdf/2504.14690.pdf"
 local_pdf: "[[PDFs/2025/2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Iranian"
-languages_list: "Persian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Iranian
+languages_list: Persian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multi-task benchmark for bias and fairness text corpus"
 data_metrics: "4,000 questions"
 LLM_assessed: 

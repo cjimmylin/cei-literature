@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0842
 type: preprint
 short_title: "Divide-and-Conquer Attack: Harnessing the Power of LLM to Bypass Safety Filters of Text-to-Image Models"
-year: 2023
+year: 2025
 first_author: "[[Yimo Deng]]"
-last_author: "[[Unknown]]"
-authors: Yimo Deng; Huangxun Chen
+last_author: [[Unknown]]
+authors: "Yimo Deng; Huangxun Chen"
 url: "https://arxiv.org/html/2312.07130v3"
 external_pdf: "https://arxiv.org/pdf/2312.07130.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2023/2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Arabic, English, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

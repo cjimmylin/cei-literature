@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,31 +11,31 @@ first_author: "[[Maneesha Perera, Rajith Vidanaarachchi, Sangeetha Chandrasheker
 last_author: "[[Maneesha Perera, Rajith Vidanaarachchi, Sangeetha Chandrashekeran, Melissa Kennedy, Brendan Kennedy, Saman Halgamuge]]"
 authors: "[[Maneesha Perera, Rajith Vidanaarachchi, Sangeetha Chandrashekeran, Melissa Kennedy, Brendan Kennedy, Saman Halgamuge]]"
 authors_incomplete: false
-url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
-publication: Big Data & Society (SAGE)
+url: 
+external_pdf: "https://osf.io/6hrqj/download"
+local_pdf: "[[PDFs/2025/2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A.md"
+publication: "Big Data & Society (SAGE)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "This systematic literature review examines 53 articles (2012-2023) on Indigenous peoples and AI, identifying four categories: AI assisting Indigenous Knowledge Systems, AI risks for Indigenous peoples, and how Indigenous knowledge can enrich AI development. Critically addresses the tension between open data principles in AI (needed for benchmarks) and Indigenous data sovereignty. Provides a comprehensive map of the field and identifies future research directions."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
-research_topic: "Other"
+LLM_assessed: NA
+DATA_URL: 
+research_topic: Other
 ---
 # Indigenous Peoples and Artificial Intelligence: A Systematic Review and Future Directions
 

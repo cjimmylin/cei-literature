@@ -1,40 +1,40 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0654
 type: conferencePaper
-short_title: On Culture Transmission in Chinese-English Literary Translation—Based on Weicheng’s English Version
+short_title: "On Culture Transmission in Chinese-English Literary Translation—Based on Weicheng’s English Version"
 year: 2025
 first_author: "[[Wushouer Silamu]]"
 last_author: "[[Wushouer Silamu]]"
-authors: Wushouer Silamu
+authors: "Wushouer Silamu"
 url: "https://www.scirp.org/journal/paperinformation?paperid=94402"
+external_pdf: "https://www.scirp.org/pdf/JSS_2019081614481189.pdf"
 publication: Web
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2025/2025-Silamu-On Culture Transmission in Chinese-English Literary Translation-Based.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Silamu-On Culture Transmission in Chinese-English Literary Translation-Based.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
 languages_list: "Chinese, English, Uyghur"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 research_topic: "Machine Translation"
 ---
 # On Culture Transmission in Chinese-English Literary Translation—Based on Weicheng’s English Version

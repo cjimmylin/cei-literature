@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "http://arxiv.org/abs/2311.04978"
 external_pdf: "http://arxiv.org/pdf/2311.04978.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 pdf_extract: "PDF Extracts/2023/2023-Li-On the steerability of large language models.md"
@@ -36,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "Falcon"
-DATA_URL: "NA"
+LLM_assessed: Falcon
+DATA_URL: NA
 ---
 # On the steerability of large language models toward data-driven personas
 

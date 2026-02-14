@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0304
 type: preprint
 short_title: "RuBia: A Russian Language Bias Detection Dataset"
-year: 2024
+year: 2025
 first_author: "[[Veronika Grigoreva]]"
 last_author: "[[Veronika Grigoreva]]"
-authors: Veronika Grigoreva et al.
+authors: "Veronika Grigoreva et al."
 url: "https://arxiv.org/abs/2403.17553"
 external_pdf: "https://arxiv.org/pdf/2403.17553.pdf"
 local_pdf: "[[PDFs/2024/2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Russian"
-languages_list: "Russian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Russian
+languages_list: Russian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

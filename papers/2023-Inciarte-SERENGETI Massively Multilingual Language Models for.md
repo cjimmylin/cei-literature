@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0568
 type: preprint
 short_title: "SERENGETI Massively Multilingual Language Models for"
-year: 2023
+year: 2025
 first_author: "[[Ife Adebara, AbdelRahim Elmadany, Muhammad Abdul-Mageed, Alcides Alcoba Inciarte]]"
 last_author: "[[Ife Adebara, AbdelRahim Elmadany, Muhammad Abdul-Mageed, Alcides Alcoba Inciarte]]"
 authors: "[[Ife Adebara, AbdelRahim Elmadany, Muhammad Abdul-Mageed, Alcides Alcoba Inciarte]]"
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2212.10785"
 external_pdf: "https://arxiv.org/pdf/2212.10785.pdf"
 local_pdf: "[[PDFs/2023/2023-Inciarte-SERENGETI Massively Multilingual Language Models for.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Inciarte-SERENGETI Massively Multilingual Language Models for.md"
-publication: WebSearch: SERENGETI multilingual language model African evaluation
+publication: "WebSearch: SERENGETI multilingual language model African evaluation"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "African/Ubuntu"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: African/Ubuntu
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Multilingual pretrained language models (mPLMs) acquire valuable, generalizable linguistic information during pretraining and have advanced the state of the art on task-specific finetuning. To date, only ∼31 out of ∼2, 000 African languages are covered in existing language models. We ameliorate this limitation by developing SERENGETI, a massively multilingual language model that covers 517 African languages and language varieties."
 data_description: "Evaluation approach dataset"
 data_metrics: "20 datasets"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/UBC-NLP/serengeti-E250"
 research_topic: "Machine Translation"
 ---

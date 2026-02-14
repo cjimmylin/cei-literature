@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,26 +9,26 @@ short_title: "QFrCoLA: a Quebec-French Corpus of Linguistic Acceptability Judgme
 year: 2025
 first_author: "[[David Beauchemin]]"
 last_author: "[[Richard Khoury]]"
-authors: David Beauchemin, Richard Khoury
+authors: "David Beauchemin, Richard Khoury"
 url: "https://arxiv.org/abs/2508.16867"
 external_pdf: "https://arxiv.org/pdf/2508.16867.pdf"
-publication: arXiv / ACL Anthology
+publication: "arXiv / ACL Anthology"
 local_pdf: "[[PDFs/2025/2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "French"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: French
 languages_list: "Quebecois French"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, CamemBERT, XLM-RoBERTa, BLOOM-7B, BLOOMZ-7B, Mistral-7B, Llama-3.1-8B, Lucie"

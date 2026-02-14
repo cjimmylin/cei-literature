@@ -1,6 +1,4 @@
 ---
-
-
 Human View: false
 Not AI: 
 key: AUTO_RIBEIRO2024
@@ -14,8 +12,8 @@ doi: 10.1007/978-3-031-48855-9_29
 url: "https://link.springer.com/chapter/10.1007/978-3-031-48855-9_29"
 local_pdf: N/A
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, Machine Ethics, Robot Ethics, Neural Networks"
 key_contribution: "Presents Virtue Ethics as optimal framework for robot moral behavior given advances in neural networks, machine learning, and cognitive robotics"
@@ -32,8 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Machine Ethics and the Architecture of Virtue
 

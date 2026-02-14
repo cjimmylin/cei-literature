@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,13 +7,13 @@ key: SIXNG6RX
 type: document
 short_title: "The Vals Legal AI Report (VLAIR)"
 year: 2025
-first_author: "[[Consortium]]"
+first_author: [[Consortium]]
 last_author: "[[Vals AI &]]"
 authors: "Consortium; Vals AI &"
 url: "https://www.vals.ai/vlair"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -30,10 +28,10 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "[[2025-Consortium-The Vals Legal AI Report (VLAIR)]]"
-no_pdf_applicable: "true"
+no_pdf_applicable: true
 ---
 # The Vals Legal AI Report (VLAIR)
 

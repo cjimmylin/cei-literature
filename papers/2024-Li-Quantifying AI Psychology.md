@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ tags:
 url: "http://arxiv.org/abs/2406.17675"
 external_pdf: "http://arxiv.org/pdf/2406.17675.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed a comprehensive psychometrics benchmark for LLMs covering six psychological dimensions including personality, values, emotion, and theory of mind."
@@ -38,7 +36,7 @@ is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4, Mistral, Mixtral, Llama-3, Qwen"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Quantifying AI Psychology: A Psychometrics Benchmark for Large Language Models
 

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1145/3278721.3278729
 url: "https://dl.acm.org/doi/10.1145/3278721.3278729"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/7UNGXMSM/Dixon et al. - 2018 - Measuring and Mitigating Unintended Bias in Text Classification.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "One of the first papers to define 'unintended bias' in text classification (e.g., toxicity detectors flagging 'I am a gay man' as toxic) and proposed a 'balancing' mitigation strategy."
@@ -35,7 +33,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology annotated dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/conversationai/unintended-ml-bias-analysis"
 pdf_extract: "PDF Extracts/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.md"
 local_pdf: "[[PDFs/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.pdf]]"

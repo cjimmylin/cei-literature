@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +15,8 @@ url: "https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1"
 external_pdf: "https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1.full.pdf"
 publication: medRxiv
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: Yes
 newtags: "Healthcare Ethics, Utilitarianism, Deontology, Medical AI, Trolley Problem"
 key_contribution: "Evaluates 14 LLMs including GPT-o1 on medical versions of trolley dilemma, finding inconsistent utilitarian vs deontological alignment"
@@ -39,7 +36,7 @@ is_dataset: No
 data_description: "Five medical versions of trolley dilemma tested on 14 LLMs with 50 responses per model"
 data_metrics: "Binary yes/no ethical decisions across utilitarian vs deontological frameworks"
 LLM_assessed: "o1, GPT-4, GPT-3.5, Llama-3, Gemini, Gemma, Phi, Qwen"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Yes
 ---
 # Ethical Alignment of LLMs in Healthcare: Does GPT-o1 Adopt a Deontological or Utilitarian Approach?

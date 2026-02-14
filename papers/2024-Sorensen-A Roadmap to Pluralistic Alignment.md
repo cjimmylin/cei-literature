@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2402.05070"
 external_pdf: "http://arxiv.org/pdf/2402.05070.pdf"
 publication: "International Conference on Machine Learning"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Proposed a 'roadmap to pluralistic alignment' defining three types of pluralism: Overton (spectrum of responses), Steerable (user-controlled), and Distributional (population-calibrated)."
@@ -38,8 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # A Roadmap to Pluralistic Alignment
 

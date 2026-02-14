@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,27 +9,27 @@ short_title: "JAI-1: A Thai-Centric Large Language Model"
 year: 2025
 first_author: "[[Not fully listed in search results]]"
 last_author: "[[Not fully listed in search results]]"
-authors: Not fully listed in search results
+authors: "Not fully listed in search results"
 url: "https://arxiv.org/abs/2510.08620"
 external_pdf: "https://arxiv.org/pdf/2510.08620.pdf"
 local_pdf: "[[PDFs/2025/2025-results-JAI-1 A Thai-Centric Large Language Model.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-results-JAI-1 A Thai-Centric Large Language Model.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Thai"
-languages_list: "Thai"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Thai
+languages_list: Thai
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

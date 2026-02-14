@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,29 +6,29 @@ Not AI:
 key: EXSR0234
 type: conferencePaper
 short_title: BeaverTails
-year: 2023
+year: 2025
 first_author: "[[Ji, Jiaming]]"
 last_author: "[[Yang, Yaodong]]"
 authors: "[[Ji, Jiaming]]; [[Liu, Mickel]]; [[Dai, Juntao]]; [[Pan, Xuehai]]; [[Zhang, Chi]]; [[Bian, Ce]]; [[Zhang, Chi]]; [[Sun, Ruiyang]]; [[Wang, Yizhou]]; [[Yang, Yaodong]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2307.04657"
 external_pdf: "https://arxiv.org/pdf/2307.04657.pdf"
-local_pdf: "[[PDFs/2023/2023-Ji-BeaverTails.pdf]]"
+local_pdf: "[[PDFs/2023-Ji-BeaverTails.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Ji-BeaverTails.md"
-publication: NeurIPS 2023
+publication: "NeurIPS 2023"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "In this paper, we introduce the BEAVERTAILS dataset, aimed at fostering research on safety alignment in large language models (LLMs). This dataset uniquely separates annotations of helpfulness and harmlessness for question-answering pairs, thus offering distinct perspectives on these crucial attributes. In total, we have gathered safety meta-labels for 333,963 question-answer (QA) pairs and 361,903 pairs of expert comparison data for both the helpfulness and harmlessness metrics."
 ethics_perspective: "AI Safety & Alignment"

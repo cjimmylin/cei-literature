@@ -6,36 +6,37 @@ Human View note:
 Not AI: 
 key: LSRC0340
 type: conferencePaper
-short_title: Expert-Annotated Dataset to Study Cyberbullying in Polish Language
-year: 2024
+short_title: "Expert-Annotated Dataset to Study Cyberbullying in Polish Language"
+year: 2025
 first_author: "[[Michal Ptaszynski]]"
 last_author: "[[Michal Ptaszynski]]"
-authors: Michal Ptaszynski, et al.
+authors: "Michal Ptaszynski, et al."
 doi: 10.3390/data9010001
 url: "https://www.mdpi.com/2306-5729/9/1/1"
-publication: MDPI Data
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://ruj.uj.edu.pl/bitstreams/1bc26747-5281-49b4-a130-4e97d5ea622b/download"
+publication: "MDPI Data"
+local_pdf: "[[PDFs/2024/2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Polish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Polish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Expert-annotated dataset for cyberbullying and hate-speech detection in Polish with two quality-controlled annotation versions. Binary (harmful/non-harmful) and multi-class (cyberbullying/hate-speech/non-harmful) tasks."
 research_topic: "Machine Learning"
 ---
 # Expert-Annotated Dataset to Study Cyberbullying in Polish Language

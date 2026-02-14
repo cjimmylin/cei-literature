@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0229
 type: preprint
 short_title: "Albertina: Advancing Neural Encoding of Portuguese"
-year: 2023
+year: 2025
 first_author: "[[PORTULAN/CLUL team]]"
 last_author: "[[PORTULAN/CLUL team]]"
-authors: PORTULAN/CLUL team
+authors: "PORTULAN/CLUL team"
 url: "https://arxiv.org/abs/2305.06721"
 external_pdf: "https://arxiv.org/pdf/2305.06721.pdf"
 local_pdf: "[[PDFs/2023/2023-team-Albertina Advancing Neural Encoding of Portuguese.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-team-Albertina Advancing Neural Encoding of Portuguese.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "American, Brazilian"
-languages_list: "Portuguese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+languages_list: Portuguese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 LLM_assessed: 

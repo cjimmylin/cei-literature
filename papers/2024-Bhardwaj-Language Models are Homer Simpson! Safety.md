@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "[[Bhardwaj, Rishabh]]; [[Do, Duc Anh]]; [[Poria, Soujanya]]"
 url: "https://aclanthology.org/2024.acl-long.762/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/B6BW5928/2024 - Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Ar.pdf"
 national_ethnic_cultural: "Chinese, Indian"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Chinese, Indian, AI Safety & Alignment"
 key_contribution: "Proposed RESTA (Restoring Safety through Task Arithmetic), a method to realign fine-tuned models by simply adding a 'safety vector' to their weights."
@@ -33,7 +31,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "11 categories"
-LLM_assessed: "Llama-2"
+LLM_assessed: Llama-2
 DATA_URL: "https://github.com/declare-lab/resta"
 pdf_extract: "PDF Extracts/2024/2024-Bhardwaj-Language Models are Homer Simpson! Safety.md"
 local_pdf: "[[PDFs/2024/2024-Bhardwaj-Language Models are Homer Simpson! Safety.pdf]]"

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0306
 type: preprint
 short_title: "IndRegBias A Dataset for Studying Indian"
-year: 2026
+year: 2025
 first_author: "[[[[Not fully listed in search results]]]]"
 last_author: "[[results, Not fully listed in search]]"
 authors: "[[Not fully listed in search results]]"
@@ -19,26 +15,26 @@ url: "https://arxiv.org/abs/2601.06477"
 external_pdf: "https://arxiv.org/pdf/2601.06477.pdf"
 local_pdf: "[[PDFs/2026/2026-results]]-IndRegBias A Dataset for Studying Indian.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-results]]-IndRegBias A Dataset for Studying Indian.md"
-publication: WebSearch: IndRegBias regional biases
+publication: "WebSearch: IndRegBias regional biases"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Warning: This paper consists of examples representing regional biases in Indian regions that might be offensive towards a particular region. While social biases corresponding to gender, race, socio-economic conditions, etc., have been extensively studied in the major applications of Natural Language Processing (NLP), biases corresponding to regions have garnered less attention. This is mainly because of (i) difficulty in the extraction of regional bias datasets, (ii) disagreements in annotation..."
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Bias & Fairness"
 ---
 # IndRegBias: A Dataset for Studying Indian Regional Biases in English and Code-Mixed Social Media Comments

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,18 +14,18 @@ doi: 10.1609/aies.v8i2.36665
 tags: "Computer Science - AI Ethics"
 url: "https://ojs.aaai.org/index.php/AIES/article/view/36665"
 local_pdf: "[[PDFs/2025/2025-Mahajan-Mapping Moral Reasoning in LLMs.pdf]]"
-pdf_extract: PDF Extracts/2025/2025-Mahajan-Mapping Moral Reasoning in LLMs A Multi-Dimensional Analysis of.md
+pdf_extract: "PDF Extracts/2025/2025-Mahajan-Mapping Moral Reasoning in LLMs A Multi-Dimensional Analysis of.md"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
 ethics_perspective: "Value Pluralism"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Deontology, Value Pluralism, LLM Evaluation, Moral Reasoning"
 key_contribution: "Analyzes how open-weight LLMs resolve conflicts between competing safety principles using ethical dilemmas"
 significance: "Identifies three behavioral patterns in LLM moral reasoning: rule-based, balanced, and pragmatic integration"
 abstract: "This paper presents a structured analysis of how open-weight LLMs resolve conflicts between competing safety principles—including public welfare, institutional transparency, and individual rights—using carefully designed ethical dilemmas. Statistically significant differences emerge in reasoning style and moral salience (p < 0.01), while PCA and clustering reveal three recurring behavioral patterns: rule-based, balanced, and pragmatic integration. An ablation study confirms that these clusters persist without dictionary features (Adjusted Rand Index = 0.475), supporting the robustness of semantic alignment. This work contributes a replicable methodology for the moral profiling of LLMs, offering empirical tools for diagnosing value conflicts and informing future efforts in AI transparency, contestability, and pluralistic alignment."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: Yes

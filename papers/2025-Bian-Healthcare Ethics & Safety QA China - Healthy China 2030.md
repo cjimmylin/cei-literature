@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,25 +9,25 @@ short_title: "Healthcare Ethics & Safety QA (China -- Healthy China 2030)"
 year: 2025
 first_author: "[[Mouxiao Bian]]"
 last_author: "[[Jie Xu]]"
-authors: Mouxiao Bian, Rongzhao Zhang, Chao Ding, Xinwei Peng, and Jie Xu
+authors: "Mouxiao Bian, Rongzhao Zhang, Chao Ding, Xinwei Peng, and Jie Xu"
 url: "https://arxiv.org/abs/2505.07205"
 external_pdf: "https://arxiv.org/pdf/2505.07205.pdf"
 local_pdf: "[[PDFs/2025/2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Large Language Models (LLMs) are poised to transform healthcare under China’s Healthy China 2030 initiative, yet they introduce new ethical and patient-safety challenges. We present a novel 12,000-item Q&A benchmark covering 11 ethics and 9 safety dimensions in medical contexts, to quantitatively evaluate these risks. Using this dataset, we assess state-of-the-art Chinese medical LLMs (e.g., Qwen 2.5-32B, DeepSeek), revealing moderate baseline performance (accuracy 42.7% for Qwen 2."
 ethics_perspective: "AI Safety & Alignment"

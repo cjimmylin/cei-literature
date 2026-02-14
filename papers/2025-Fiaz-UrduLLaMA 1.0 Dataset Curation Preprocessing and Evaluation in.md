@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "UrduLLaMA 1.0: Dataset Curation, Preprocessing, and Evaluation in Low-Resource Settings"
 year: 2025
 first_author: "[[Layba Fiaz]]"
-last_author: "[[Unknown]]"
-authors: Layba Fiaz; Munief Hassan Tahir; Sana Shams; Sarmad Hussain
+last_author: [[Unknown]]
+authors: "Layba Fiaz; Munief Hassan Tahir; Sana Shams; Sarmad Hussain"
 url: "https://arxiv.org/abs/2502.16961"
 external_pdf: "https://arxiv.org/pdf/2502.16961.pdf"
 local_pdf: "[[PDFs/2025/2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Urdu"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Urdu
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

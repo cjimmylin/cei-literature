@@ -1,36 +1,35 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0308
 type: preprint
-short_title: Methods for Detoxification of Texts for the Russian Language
-year: 2021
+short_title: "Methods for Detoxification of Texts for the Russian Language"
+year: 2025
 first_author: "[[Daryna Dementieva]]"
 last_author: "[[Alexander Panchenko]]"
-authors: Daryna Dementieva, Daniil Moskovskiy, Varvara Logacheva, David Dale, Olga Kozlova, Nikita Semenov, Alexander Panchenko
+authors: "Daryna Dementieva, Daniil Moskovskiy, Varvara Logacheva, David Dale, Olga Kozlova, Nikita Semenov, Alexander Panchenko"
 doi: 10.3390/mti5090054
 url: "https://www.mdpi.com/2414-4088/5/9/54"
 external_pdf: "https://arxiv.org/pdf/2105.09052.pdf"
 local_pdf: "[[PDFs/2021/2021-Dementieva-Methods for Detoxification of Texts for the Russian Language.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Dementieva-Methods for Detoxification of Texts for the Russian Language.md"
-publication: MDPI / arXiv
+publication: "MDPI / arXiv"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Russian"
-languages_list: "Russian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Russian
+languages_list: Russian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: 

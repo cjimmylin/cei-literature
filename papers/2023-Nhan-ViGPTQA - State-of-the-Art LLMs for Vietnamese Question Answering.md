@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,36 +6,36 @@ Not AI:
 key: LSRC0373
 type: conferencePaper
 short_title: "ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering: System Overview, Core Models Training, and Evaluations"
-year: 2023
+year: 2025
 first_author: "[[Le Trong Nhan]]"
 last_author: "[[Hien Nguyen]]"
-authors: Le Trong Nhan, Tai Dang, Hien Nguyen
+authors: "Le Trong Nhan, Tai Dang, Hien Nguyen"
 doi: 10.18653/v1/2023.emnlp-industry.70
 url: "https://aclanthology.org/2023.emnlp-industry.70/"
 external_pdf: "https://aclanthology.org/2023.emnlp-industry.70.pdf"
-publication: ACL Anthology / EMNLP 2023 Industry
+publication: "ACL Anthology / EMNLP 2023 Industry"
 local_pdf: "[[PDFs/2023/2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 research_topic: "Question Answering"
 ---
 # ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering: System Overview, Core Models Training, and Evaluations

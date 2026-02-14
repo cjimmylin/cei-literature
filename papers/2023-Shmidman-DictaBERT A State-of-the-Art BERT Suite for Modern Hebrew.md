@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0030
 type: preprint
 short_title: "DictaBERT: A State-of-the-Art BERT Suite for Modern Hebrew"
-year: 2023
+year: 2025
 first_author: "[[Shaltiel Shmidman]]"
 last_author: "[[Moshe Koppel]]"
-authors: Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel
+authors: "Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel"
 url: "https://arxiv.org/abs/2308.16687"
 external_pdf: "https://arxiv.org/pdf/2308.16687.pdf"
 local_pdf: "[[PDFs/2023/2023-Shmidman-DictaBERT A State-of-the-Art BERT Suite for Modern Hebrew.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Shmidman-DictaBERT A State-of-the-Art BERT Suite for Modern Hebrew.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Hebrew/Israeli"
-languages_list: "Hebrew"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Hebrew/Israeli
+languages_list: Hebrew
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

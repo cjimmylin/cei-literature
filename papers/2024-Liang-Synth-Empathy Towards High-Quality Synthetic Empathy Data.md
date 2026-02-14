@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +6,28 @@ Not AI:
 key: EXSR0219
 type: preprint
 short_title: "Synth-Empathy: Towards High-Quality Synthetic Empathy Data"
-year: 2024
+year: 2025
 first_author: "[[Hao Liang]]"
 last_author: "[[Wentao Zhang]]"
-authors: Hao Liang; Linzhuang Sun; Jingxuan Wei; Xijie Huang; Linkun Sun; Bihui Yu; Conghui He; Wentao Zhang
+authors: "Hao Liang; Linzhuang Sun; Jingxuan Wei; Xijie Huang; Linkun Sun; Bihui Yu; Conghui He; Wentao Zhang"
 url: "https://arxiv.org/abs/2407.21669"
 external_pdf: "https://arxiv.org/pdf/2407.21669.pdf"
 local_pdf: "[[PDFs/2024/2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "In recent years, with the rapid advancements in large language models (LLMs), achieving excellent empathetic response capabilities has become a crucial prerequisite. Consequently, managing and understanding empathetic datasets have gained increasing significance. However, empathetic data are typically human-labeled, leading to insufficient datasets and wasted human labor. In this work, we present Synth-Empathy, an LLM-based data generation and quality and diversity selection pipeline that..."
 research_topic: "AI Safety & Alignment"

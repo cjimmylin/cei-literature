@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +15,8 @@ url: "https://aclanthology.org/2023.findings-emnlp.892/"
 local_pdf: "[[PDFs/2023/2023-Rao-Ethical Reasoning over Moral Alignment.pdf]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/IPRKMTVJ/Rao et al. - 2023 - Ethical Reasoning over Moral Alignment A Case and Framework for In-Context Ethical Policies in LLMs.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, Deontology"
 key_contribution: "Proposes infusing generic ethical reasoning capabilities into LLMs to handle global value pluralism rather than aligning to specific fixed principles"
@@ -39,7 +36,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, GPT-3, text-davinci"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Borderline
 ---
  Ethical Reasoning over Moral Alignment: A Case and Framework for In-Context Ethical Policies in LLMs

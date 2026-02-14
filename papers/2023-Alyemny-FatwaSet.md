@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,8 +12,8 @@ last_author: "[[Abdulrahman Mirza]]"
 authors: "Ohoud Alyemny; Hend Al-Khalifa; Abdulrahman Mirza"
 url: "https://www.mdpi.com/2306-5729/8/11/156"
 national_ethnic_cultural: N/A
-religious_values: "Islam"
-religious_values_list: "Islam"
+religious_values: Islam
+religious_values_list: Islam
 moral_psychology: N/A
 newtags: Islam
 tags: 
@@ -30,10 +28,10 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Alyemny-FatwaSet.md"
-local_pdf: "[[PDFs/2023/2023-Alyemny-FatwaSet.pdf]]"
+local_pdf: [[PDFs/2023/2023-Alyemny-FatwaSet.pdf]]
 ---
 # FatwaSet: A Data-Driven Exploration of a New Islamic Fatwas Dataset for Arabic NLP Tasks
 

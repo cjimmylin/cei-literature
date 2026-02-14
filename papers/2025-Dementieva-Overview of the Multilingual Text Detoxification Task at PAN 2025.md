@@ -6,36 +6,36 @@ Human View note:
 Not AI: 
 key: LSRC0021
 type: conferencePaper
-short_title: Overview of the Multilingual Text Detoxification Task at PAN 2025
+short_title: "Overview of the Multilingual Text Detoxification Task at PAN 2025"
 year: 2025
 first_author: "[[Daryna Dementieva]]"
 last_author: "[[Alexander Panchenko]]"
-authors: Daryna Dementieva, Daniil Moskovskiy, Nikolay Babakov, Abinew Ali Ayele, Naquee Rizwan, Florian Schneider, Xintong Wang, Guilherme Penedo, Daniel Nabus, Jakub Podolak, Jan Svec, Alexander Panchenko
+authors: "Daryna Dementieva, Daniil Moskovskiy, Nikolay Babakov, Abinew Ali Ayele, Naquee Rizwan, Florian Schneider, Xintong Wang, Guilherme Penedo, Daniel Nabus, Jakub Podolak, Jan Svec, Alexander Panchenko"
 url: "https://pan.webis.de/clef25/pan25-web/text-detoxification.html"
 external_pdf: "https://ceur-ws.org/Vol-4038/paper_278.pdf"
-publication: CLEF 2025
+publication: "CLEF 2025"
 local_pdf: "[[PDFs/2025/2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Amharic, Arabic, Chinese, English, French, German, Hebrew, Hindi, Hinglish, Italian, Japanese, Russian, Spanish, Tatar, Ukrainian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Multilingual text detoxification shared task at PAN 2025 covering 15 languages including Hebrew. Hebrew was one of six new languages added in 2025 with synthetic data. Evaluation on style transfer accuracy, content preservation, and fluency."
 research_topic: "Machine Translation"
 ---
 # Overview of the Multilingual Text Detoxification Task at PAN 2025

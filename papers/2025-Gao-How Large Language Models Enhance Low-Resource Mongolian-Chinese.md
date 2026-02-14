@@ -1,16 +1,15 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0615
 type: conferencePaper
-short_title: How Large Language Models Enhance Low-Resource Mongolian-Chinese Machine Translation?
+short_title: "How Large Language Models Enhance Low-Resource Mongolian-Chinese Machine Translation?"
 year: 2025
 first_author: "[[Zhenjie Gao]]"
-last_author: "[[Unknown]]"
-authors: Zhenjie Gao; Feilong Bao; Yuan Li; Ruichen Hou; Yibo Han
+last_author: [[Unknown]]
+authors: "Zhenjie Gao; Feilong Bao; Yuan Li; Ruichen Hou; Yibo Han"
 doi: 10.3724/2096-7004.di.2025.0116
 url: "https://www.sciengine.com/DI/doi/10.3724/2096-7004.di.2025.0116"
 external_pdf: "https://www.sciengine.com/doi/pdf/6A0FFAF926684232A3BB85AA8F6C02DF"
@@ -18,20 +17,20 @@ publication: Web
 local_pdf: "[[PDFs/2025/2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
 languages_list: "Chinese, Mongolian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

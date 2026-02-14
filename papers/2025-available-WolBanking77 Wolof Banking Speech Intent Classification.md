@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +15,26 @@ url: "https://arxiv.org/abs/2509.19271"
 external_pdf: "https://arxiv.org/pdf/2509.19271.pdf"
 local_pdf: "[[PDFs/2025/2025-available-WolBanking77 Wolof Banking Speech Intent Classification.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-available-WolBanking77 Wolof Banking Speech Intent Classification.md"
-publication: WebSearch: Twi OR Wolof NLP benchmark dataset values cultural evaluation
+publication: "WebSearch: Twi OR Wolof NLP benchmark dataset values cultural evaluation"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "African/Ubuntu"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: African/Ubuntu
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Intent classification models have made a significant progress in recent years. However, previous studies primarily focus on high-resource language datasets, which results in a gap for low-resource languages and for regions with high rates of illiteracy, where languages are more spoken than read or written. This is the case in Senegal, for example, where Wolof is spoken by around 90% of the population, while the national illiteracy rate remains at of 42%."
 data_description: "Evaluation approach dataset"
 data_metrics: "77 dataset"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 research_topic: "Machine Learning"
 ---
 # WolBanking77: Wolof Banking Speech Intent Classification Dataset

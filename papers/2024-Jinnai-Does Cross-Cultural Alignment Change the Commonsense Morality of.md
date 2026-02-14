@@ -1,39 +1,36 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0160
 type: conferencePaper
-short_title: Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?
-year: 2024
+short_title: "Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?"
+year: 2025
 first_author: "[[Y Jinnai]]"
-last_author: "[[Y]]"
-authors: Jinnai, Y
-publication: ACL 2024
+last_author: [[Y]]
+authors: "Jinnai, Y"
+publication: "ACL 2024"
 external_pdf: "https://arxiv.org/pdf/2406.16316v1.pdf"
 local_pdf: "[[PDFs/2024/2024-Jinnai-Does Cross-Cultural Alignment Change the Commonsense Morality of.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Jinnai-Does Cross-Cultural Alignment Change the Commonsense Morality of.md"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Multicultural/Cross-cultural
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Social & Cultural Values"
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2"
 DATA_URL: "https://huggingface.co/datasets/cyberagent/chatbot-arena-ja-calm2-7b-chat-experimental"

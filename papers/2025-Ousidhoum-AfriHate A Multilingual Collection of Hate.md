@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2501.08284"
 external_pdf: "https://arxiv.org/pdf/2501.08284.pdf"
 local_pdf: "[[PDFs/2025/2025-Ousidhoum-AfriHate A Multilingual Collection of Hate.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ousidhoum-AfriHate A Multilingual Collection of Hate.md"
-publication: WebSearch: AfriHate African hate speech dataset benchmark
+publication: "WebSearch: AfriHate African hate speech dataset benchmark"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "African/Ubuntu"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: African/Ubuntu
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 tags: 
 abstract: "Hate speech and abusive language are global phenomena that need socio-cultural background knowledge to be understood, identified, and moderated. However, in many regions of the Global South, there have been several documented occurrences of (1) absence of moderation and (2) censorship due to the reliance on keyword spotting out of context. Further, highprofile individuals have frequently been at the center of the moderation process, while large and targeted hate speech campaigns against..."
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/papers/2501.08284"
 ethics_perspective: "Toxicity & Hate Speech"
 ---

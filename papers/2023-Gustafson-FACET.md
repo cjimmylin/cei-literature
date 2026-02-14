@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1109/ICCV51070.2023.01863
 url: "https://ieeexplore.ieee.org/document/10377223/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/RS2ZQBS3/Gustafson et al. - 2023 - FACET Fairness in Computer Vision Evaluation Benchmark.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Released FACET (Fairness in Computer Vision Evaluation), a benchmark of 32k images with expert-annotated person-related attributes (skin tone, hair type) to measure CV model fairness."
@@ -34,10 +32,10 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://facet.metademolab.com"
 pdf_extract: "PDF Extracts/2023/2023-Gustafson-FACET.md"
-local_pdf: "[[PDFs/2023/2023-Gustafson-FACET.pdf]]"
+local_pdf: [[PDFs/2023/2023-Gustafson-FACET.pdf]]
 ---
 # FACET: Fairness in Computer Vision Evaluation Benchmark
 

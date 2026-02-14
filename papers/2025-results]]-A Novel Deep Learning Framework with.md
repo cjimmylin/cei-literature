@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +15,26 @@ url: "https://www.nature.com/articles/s41599-025-06268-8"
 external_pdf: "https://arxiv.org/pdf/2011.03525v2.pdf"
 local_pdf: "[[PDFs/2025/2025-results]]-A Novel Deep Learning Framework with.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-results]]-A Novel Deep Learning Framework with.md"
-publication: WebSearch: Malayalam hate speech detection
+publication: "WebSearch: Malayalam hate speech detection"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "Framework for hate speech detection in accented and low-resource Malayalam speech using balanced learning, multi-level validation, and robustness evaluation. Establishes transferable framework for multilingual content moderation. Malayalam speech-based hate speech detection. Addresses accent-specific challenges in content moderation relevant to cultural values enforcement."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # A Novel Deep Learning Framework with Advanced Feature Engineering for Hate Speech Detection in Accented Malayalam Speech

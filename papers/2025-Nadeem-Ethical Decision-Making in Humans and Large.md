@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +12,8 @@ last_author: "[[Afreen, Shagufta]]"
 authors: "[[Nadeem, Mohammad]]; [[Afreen, Shagufta]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/CTQZ79SQ/Nadeem and Afreen - 2025 - Ethical Decision-Making in Humans and Large Language Models Insights from Five Moral Domains.pdf"
 national_ethnic_cultural: N/A
-religious_values: "Islam"
-religious_values_list: "Islam"
+religious_values: Islam
+religious_values_list: Islam
 moral_psychology: N/A
 newtags: "Deontology, Utilitarianism"
 key_contribution: "Benchmarks 5 major LLMs against human judgments across 5 moral domains, identifying distinct 'moral personalities' (e.g., Gemini=Util, Copilot=Deont)"
@@ -33,7 +30,7 @@ is_dataset: Yes
 data_description: "Evaluation framework annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Gemini, DeepSeek"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.md"
 local_pdf: "[[PDFs/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.pdf]]"
 normative_ethics_benchmark: Yes

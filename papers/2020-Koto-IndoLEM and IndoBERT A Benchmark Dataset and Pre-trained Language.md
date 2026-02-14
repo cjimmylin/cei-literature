@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0118
 type: preprint
 short_title: "IndoLEM and IndoBERT: A Benchmark Dataset and Pre-trained Language Model for Indonesian NLP"
-year: 2020
+year: 2025
 first_author: "[[Fajri Koto]]"
-last_author: "[[Unknown]]"
-authors: Fajri Koto; Afshin Rahimi; Jey Han Lau; Timothy Baldwin
+last_author: [[Unknown]]
+authors: "Fajri Koto; Afshin Rahimi; Jey Han Lau; Timothy Baldwin"
 url: "https://arxiv.org/abs/2011.00677"
 external_pdf: "https://arxiv.org/pdf/2011.00677.pdf"
 local_pdf: "[[PDFs/2020/2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.md"
-publication: arXiv / ACL Anthology (COLING 2020)
+publication: "arXiv / ACL Anthology (COLING 2020)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indonesian"
-languages_list: "Indonesian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indonesian
+languages_list: Indonesian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

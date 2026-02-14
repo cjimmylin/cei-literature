@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0028
 type: conferencePaper
 short_title: "HeQ: a Large and Diverse Hebrew Reading Comprehension Benchmark"
-year: 2023
+year: 2025
 first_author: "[[Amir DN Cohen]]"
 last_author: "[[Ori Shapira]]"
-authors: Amir DN Cohen, Amir Feder, Ori Shapira
+authors: "Amir DN Cohen, Amir Feder, Ori Shapira"
 url: "https://aclanthology.org/2023.findings-emnlp.915/"
 external_pdf: "https://arxiv.org/pdf/2508.01812.pdf"
 local_pdf: "[[PDFs/2023/2023-Cohen-HeQ a Large and Diverse Hebrew Reading Comprehension Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Cohen-HeQ a Large and Diverse Hebrew Reading Comprehension Benchmark.md"
-publication: ACL Anthology (EMNLP 2023 Findings)
+publication: "ACL Anthology (EMNLP 2023 Findings)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Hebrew/Israeli"
-languages_list: "Hebrew"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Hebrew/Israeli
+languages_list: Hebrew
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: 

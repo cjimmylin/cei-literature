@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0218
 type: preprint
 short_title: "Introducing Bode: A Fine-Tuned Large Language Model for Portuguese Prompt-Based Task"
-year: 2024
+year: 2025
 first_author: "[[Gabriel Lino Garcia]]"
 last_author: "[[Gabriel Lino Garcia]]"
-authors: Gabriel Lino Garcia, et al.
+authors: "Gabriel Lino Garcia, et al."
 url: "https://arxiv.org/abs/2401.02909"
 external_pdf: "https://arxiv.org/pdf/2401.02909.pdf"
 local_pdf: "[[PDFs/2024/2024-Garcia-Introducing Bode A Fine-Tuned Large Language Model for Portuguese.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Garcia-Introducing Bode A Fine-Tuned Large Language Model for Portuguese.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Brazilian"
-languages_list: "Portuguese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Brazilian
+languages_list: Portuguese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

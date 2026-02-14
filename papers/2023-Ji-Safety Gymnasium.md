@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Jiaming Ji; Borong Zhang; Jiayi Zhou; Xuehai Pan; Weidong Huang; Ruiya
 url: "https://proceedings.neurips.cc/paper_files/paper/2023/file/3c557a3d6a48cc99444f85e924c66753-Paper-Datasets_and_Benchmarks.pdf"
 external_pdf: "https://proceedings.neurips.cc/paper_files/paper/2023/file/3c557a3d6a48cc99444f85e924c66753-Paper-Datasets_and_Benchmarks.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Released Safety Gymnasium, a unified environment for Safe Reinforcement Learning, featuring tasks with safety constraints (e.g., avoid hazards) alongside reward goals."
@@ -36,7 +34,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://sites.google.com/view/safety-gymnasium"
 ---
 # Safety Gymnasium: A Unified Safe Reinforcement Learning Environment

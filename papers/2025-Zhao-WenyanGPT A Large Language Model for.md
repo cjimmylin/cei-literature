@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2504.20609"
 external_pdf: "https://arxiv.org/pdf/2504.20609.pdf"
 local_pdf: "[[PDFs/2025/2025-Zhao-WenyanGPT A Large Language Model for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhao-WenyanGPT A Large Language Model for.md"
-publication: IJCAI 2025
+publication: "IJCAI 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Classical Chinese, as the core carrier of Chinese culture, plays a crucial role in the inheritance and study of ancient literature. However, existing natural language processing models primarily optimize for Modern Chinese, resulting in inadequate performance on Classical Chinese. This paper presents a comprehensive solution for Classical Chinese language processing. By continuing pre-training and instruction fine-tuning on the LLaMA38B-Chinese model, we construct a large language model,..."
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "Training data, instruction fine-tuning data, and WenyanBENCH publicly available"
 research_topic: "Machine Learning"
 ---

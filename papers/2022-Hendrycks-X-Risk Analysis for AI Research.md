@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Dan Hendrycks; Mantas Mazeika"
 url: "https://arxiv.org/abs/2206.05862"
 external_pdf: "https://arxiv.org/pdf/2206.05862.pdf"
 national_ethnic_cultural: American
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "American, AI Safety & Alignment"
 key_contribution: "Provides a systematic framework for analyzing existential risks (x-risks) from AI, borrowing core concepts from hazard analysis and systems safety engineering."
@@ -37,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # X-Risk Analysis for AI Research
 

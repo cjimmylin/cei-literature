@@ -6,35 +6,36 @@ Human View note:
 Not AI: 
 key: LSRC0265
 type: conferencePaper
-short_title: Moral Judgment of LLM Using Korean Datasets and Eastern Ethical Principles
+short_title: "Moral Judgment of LLM Using Korean Datasets and Eastern Ethical Principles"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+first_author: [[Unknown]]
+last_author: [[Unknown]]
 authors: Unknown
 url: "https://koreascience.or.kr/article/CFKO202521032403557.page"
-publication: KIPS Annual Conference 2025
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://koreascience.or.kr/article/CFKO202521032403557.pdf"
+publication: "KIPS Annual Conference 2025"
+local_pdf: "[[PDFs/2025/2025-Unknown-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Unknown-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Korean"
-languages_list: "Korean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Korean
+languages_list: Korean
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Analyzes LLM moral biases using Korean datasets and Eastern ethical principles. Examines how moral judgment varies in low-resource vs high-resource language environments. Compares Eastern and Western ethical policies on LLM moral output."
 ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Moral Judgment of LLM Using Korean Datasets and Eastern Ethical Principles

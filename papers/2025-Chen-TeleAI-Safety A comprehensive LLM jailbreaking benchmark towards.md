@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +8,28 @@ type: preprint
 short_title: "TeleAI-Safety: A comprehensive LLM jailbreaking benchmark towards attacks,"
 year: 2025
 first_author: "[[Xiuyuan Chen]]"
-last_author: "[[Unknown]]"
-authors: Xiuyuan Chen; Jian Zhao; Yuxiang He; Yuan Xun; Xinwei Liu; Yanshu Li; Huilin Zhou; Wei Cai; Ziyan Shi; Yuchen Yuan; Tianle Zhang; Chi Zhang; Xuelong Li
+last_author: [[Unknown]]
+authors: "Xiuyuan Chen; Jian Zhao; Yuxiang He; Yuan Xun; Xinwei Liu; Yanshu Li; Huilin Zhou; Wei Cai; Ziyan Shi; Yuchen Yuan; Tianle Zhang; Chi Zhang; Xuelong Li"
 url: "https://www.arxiv.org/pdf/2512.05485"
 external_pdf: "https://arxiv.org/pdf/2512.05485.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Arabic, English, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

@@ -7,35 +7,36 @@ Not AI:
 key: LSRC0277
 type: conferencePaper
 short_title: "Overview of DETOXIS at IberLEF 2021: DEtection of TOXicity in comments In Spanish"
-year: 2021
+year: 2025
 first_author: "[[Mariona Taulé]]"
 last_author: "[[Mariona Taulé]]"
-authors: Mariona Taulé, et al.
+authors: "Mariona Taulé, et al."
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6390/0"
-publication: IberLEF / SEPLN
-local_pdf: 
-pdf_extract: 
+external_pdf: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6390/3810"
+publication: "IberLEF / SEPLN"
+local_pdf: "[[PDFs/2021/2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.pdf]]"
+pdf_extract: "PDF Extracts/2021/2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Spanish"
-languages_list: "Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Spanish
+languages_list: Spanish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
-research_topic: "Other"
+abstract: "First task focused on detecting different levels of toxicity in Spanish news comments related to immigration. Two subtasks: binary toxicity detection and toxicity level detection. Uses NewsCom-TOX dataset with 4,359 Spanish comments."
+research_topic: Other
 ---
 # Overview of DETOXIS at IberLEF 2021: DEtection of TOXicity in comments In Spanish
 
@@ -71,4 +72,3 @@ First task focused on detecting different levels of toxicity in Spanish news com
 **Relevance:** First Spanish-specific toxicity detection shared task. Focuses on xenophobia and immigration-related toxic speech in European Spanish.
 
 ## Tags
-

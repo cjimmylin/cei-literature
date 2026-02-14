@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,31 +6,31 @@ Not AI:
 key: LSRC0145
 type: preprint
 short_title: "FarsTail: A Persian Natural Language Inference Dataset"
-year: 2020
-first_author: "[[Amirkhani]]"
-last_author: "[[AzariJafari]]"
-authors: Amirkhani, AzariJafari et al.
+year: 2025
+first_author: [[Amirkhani]]
+last_author: [[AzariJafari]]
+authors: "Amirkhani, AzariJafari et al."
 doi: 10.1007/s00500-023-08959-3
 url: "https://arxiv.org/abs/2009.08820"
 external_pdf: "https://arxiv.org/pdf/2009.08820.pdf"
 local_pdf: "[[PDFs/2020/2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset.md"
-publication: arXiv / Soft Computing (Springer)
+publication: "arXiv / Soft Computing (Springer)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Iranian"
-languages_list: "Persian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Iranian
+languages_list: Persian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "10,367 samples"
 LLM_assessed: 
 DATA_URL: 

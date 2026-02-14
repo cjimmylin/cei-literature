@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,29 +6,29 @@ Not AI:
 key: LSRC0444
 type: preprint
 short_title: "MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models"
-year: 2024
+year: 2025
 first_author: "[[Guijin Son]]"
 last_author: "[[Guijin Son]]"
-authors: Guijin Son, et al.
+authors: "Guijin Son, et al."
 url: "https://arxiv.org/abs/2410.17578"
 external_pdf: "https://arxiv.org/pdf/2410.17578.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2024/2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "122 languages for consistency, 18 languages including French"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "18 languages; 122 languages"
 LLM_assessed: "GPT-4, GPT-4o, Claude models, various LLM-as-a-Judge and reward models"

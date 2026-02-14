@@ -1,40 +1,39 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0753
 type: conferencePaper
-short_title: SIGARAB - Arabic NLP Archives
+short_title: "SIGARAB - Arabic NLP Archives"
 year: 2025
 first_author: "[[Anastasiia Demidova]]"
 last_author: "[[Sanad Sha]]"
-authors: Anastasiia Demidova, Hanin Atwany, Nour Rabih, Sanad Sha
+authors: "Anastasiia Demidova, Hanin Atwany, Nour Rabih, Sanad Sha"
 url: "https://www.sigarab.org/arabic-nlp-archives"
 publication: Web
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Arabic"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Arabic
 languages_list: "Arabic, Maghrebi"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 research_topic: "NLP & Representation Learning"
 ---
 # SIGARAB - Arabic NLP Archives

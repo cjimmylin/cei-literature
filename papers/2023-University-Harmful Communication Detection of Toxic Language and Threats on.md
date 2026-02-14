@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,35 +6,35 @@ Not AI:
 key: LSRC0493
 type: conferencePaper
 short_title: "Harmful Communication: Detection of Toxic Language and Threats on Swedish"
-year: 2023
+year: 2025
 first_author: "[[Various (Uppsala University)]]"
 last_author: "[[Various (Uppsala University)]]"
-authors: Various (Uppsala University)
+authors: "Various (Uppsala University)"
 doi: 10.1145/3625007.3627597
 url: "https://dl.acm.org/doi/10.1145/3625007.3627597"
-publication: IEEE/ACM ASONAM 2023
+publication: "IEEE/ACM ASONAM 2023"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Swedish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Swedish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "BERTić, CroSloEngual BERT"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "AI Safety & Alignment"
 ---
 # Harmful Communication: Detection of Toxic Language and Threats on Swedish

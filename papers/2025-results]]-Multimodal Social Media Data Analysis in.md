@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +15,26 @@ url: "https://www.researchgate.net/publication/392074708"
 external_pdf: "https://arxiv.org/pdf/2004.11838"
 local_pdf: "[[PDFs/2025/2025-results]]-Multimodal Social Media Data Analysis in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-results]]-Multimodal Social Media Data Analysis in.md"
-publication: WebSearch: DravidianLangTech 2025
+publication: "WebSearch: DravidianLangTech 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "Fifth Workshop on Speech, Vision, and Language Technologies for Dravidian Languages featuring multimodal hate speech detection using late fusion of MuRIL and Wav2Vec models. Latest iteration of DravidianLangTech expanding to multimodal hate speech detection for all four Dravidian languages."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 research_topic: "Computer Vision & Multimodal"
 ---
 # Multimodal Social Media Data Analysis in Dravidian Languages (MSMDA-DL) at DravidianLangTech-2025

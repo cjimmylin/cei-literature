@@ -1,41 +1,40 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0466
 type: conferencePaper
-short_title: GermEval 2021 Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments
-year: 2021
+short_title: "GermEval 2021 Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments"
+year: 2025
 first_author: "[[Julian Risch]]"
 last_author: "[[Michael Wiegand]]"
-authors: Julian Risch, Anke Stoll, Lena Wilms, Michael Wiegand
+authors: "Julian Risch, Anke Stoll, Lena Wilms, Michael Wiegand"
 url: "https://aclanthology.org/2021.germeval-1.1/"
-publication: ACL Anthology
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://aclanthology.org/2021.germeval-1.1.pdf"
+publication: "ACL Anthology"
+local_pdf: "[[PDFs/2021/2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.pdf]]"
+pdf_extract: "PDF Extracts/2021/2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "German"
-languages_list: "German"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: German
+languages_list: German
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
-DATA_URL: "NA"
+LLM_assessed: BERT
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # GermEval 2021 Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments

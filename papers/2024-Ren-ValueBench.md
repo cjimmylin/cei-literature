@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "http://arxiv.org/abs/2406.04214"
 external_pdf: "http://arxiv.org/pdf/2406.04214.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Responsible AI"
 key_contribution: "'ValueBench' – a psychometric benchmark with 44 inventories (453 dimensions) to profile LLM value orientations."
@@ -27,7 +25,7 @@ significance: "Applies human psychometrics to AI, allowing us to map models onto
 pdf_extract: "PDF Extracts/2024/2024-Ren-ValueBench.md"
 abstract: "Large Language Models (LLMs) are trans- forming diverse fields and gaining increasing influence as human proxies. This develop- ment underscores the urgent need for evalu- ating value orientations and understanding of LLMs to ensure their responsible integration into public-facing applications. This work in- troduces ValueBench, the first comprehensive psychometric benchmark for evaluating value orientations and value understanding in LLMs. ValueBench collects data from 44 established psychometr"
 paper_summary: "Abstract: Large Language Models (LLMs) are trans- forming diverse fields and gaining increasing influence as human proxies. This develop- ment underscores the urgent need for evalu- ating value orientations and | Overview: ValueBench: Towards Comprehensively Evaluating Value Orientations and Understanding of Large Language Models Yuanyi Ren1, Haoran Ye1, Hanjun Fang2, Xin Zhang3, Guojie Song1,4,∗ 1National Key Laborator | Key Findings: of LLMs to settings demanding more powerful se- mantic understanding and reasoning skills. This evaluation also examines LLMs’ potential to per- form  | Conclusions: This work presents ValueBench, a comprehensive benchmark for evaluating value orientations and understanding in LLMs. ValueBench comprises hundreds of"
-local_pdf: "[[PDFs/2024/2024-Ren-ValueBench.pdf]]"
+local_pdf: [[PDFs/2024/2024-Ren-ValueBench.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0321
 type: preprint
 short_title: "bgGLUE: A Bulgarian General Language Understanding Evaluation Benchmark"
-year: 2023
+year: 2025
 first_author: "[[Momchil Hardalov]]"
 last_author: "[[Dragomir Radev]]"
-authors: Momchil Hardalov, Pepa Atanasova, Todor Mihaylov, Galia Angelova, Kiril Simov, Petya Osenova, Ves Stoyanov, Ivan Koychev, Preslav Nakov, Dragomir Radev
+authors: "Momchil Hardalov, Pepa Atanasova, Todor Mihaylov, Galia Angelova, Kiril Simov, Petya Osenova, Ves Stoyanov, Ivan Koychev, Preslav Nakov, Dragomir Radev"
 url: "https://arxiv.org/abs/2306.02349"
 external_pdf: "https://arxiv.org/pdf/2306.02349.pdf"
 local_pdf: "[[PDFs/2023/2023-Hardalov-bgGLUE A Bulgarian General Language Understanding Evaluation Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Hardalov-bgGLUE A Bulgarian General Language Understanding Evaluation Benchmark.md"
-publication: arXiv / ACL 2023
+publication: "arXiv / ACL 2023"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Bulgarian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Bulgarian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

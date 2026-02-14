@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,14 +14,14 @@ doi: 10.3389/frai.2022.995667
 url: "https://www.frontiersin.org/articles/10.3389/frai.2022.995667/full"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/V529JKHQ/Kann et al. - 2022 - AmericasNLI Machine translation and natural language inference systems for Indigenous languages of.pdf"
 national_ethnic_cultural: American
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: American
 tags: 
 abstract: "Little attention has been paid to the development of human language technology for truly low-resource languages—i.e., languages with limited amounts of digitally available text data, such as Indigenous languages. However, it has been shown that pretrained multilingual models are able to perform crosslingual transfer in a zero-shot setting even for low-resource languages which are unseen during pretraining. Yet, prior work evaluating performance on unseen languages has largely been limited to sha"
 pdf: "https://aclanthology.org/2022.acl-long.435.pdf"
-local_pdf: "[[PDFs/2022/2022-Kann-AmericasNLI.pdf]]"
+local_pdf: [[PDFs/2022/2022-Kann-AmericasNLI.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -34,7 +32,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/abteen/americasnli"
 pdf_extract: "PDF Extracts/2022/2022-Kann-AmericasNLI.md"
 ---

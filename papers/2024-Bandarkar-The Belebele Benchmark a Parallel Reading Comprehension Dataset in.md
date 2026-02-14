@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0195
 type: preprint
 short_title: "The Belebele Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants"
-year: 2024
+year: 2025
 first_author: "[[Lucas Bandarkar]]"
-last_author: "[[Unknown]]"
-authors: Lucas Bandarkar; Davis Liang; Benjamin Muller; Mikel Artetxe; Satya Narayan Shukla; Donald Husa; Naman Goyal; Abhinandan Krishnan; Luke Zettlemoyer; Madian Khabsa
+last_author: [[Unknown]]
+authors: "Lucas Bandarkar; Davis Liang; Benjamin Muller; Mikel Artetxe; Satya Narayan Shukla; Donald Husa; Naman Goyal; Abhinandan Krishnan; Luke Zettlemoyer; Madian Khabsa"
 url: "https://arxiv.org/abs/2308.16884"
 external_pdf: "https://arxiv.org/pdf/2308.16884.pdf"
 local_pdf: "[[PDFs/2024/2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in.md"
-publication: arXiv / ACL 2024
+publication: "arXiv / ACL 2024"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Assamese, Bengali, English, Sinhala"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "122 language; 200 dataset"
 LLM_assessed: 

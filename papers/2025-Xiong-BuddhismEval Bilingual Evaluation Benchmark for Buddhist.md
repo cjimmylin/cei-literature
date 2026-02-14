@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,29 +11,29 @@ first_author: "[[Nethmi Muthugala, Deyi Xiong]]"
 last_author: "[[Nethmi Muthugala, Deyi Xiong]]"
 authors: "[[Nethmi Muthugala, Deyi Xiong]]"
 authors_incomplete: false
-url: ""
+url: 
 external_pdf: "http://www.gbv.de/dms/bowker/toc/9780415749237.pdf"
 local_pdf: "[[PDFs/2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.md"
-publication: Submitted to NeurIPS 2025 (under review)
+publication: "Submitted to NeurIPS 2025 (under review)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "Buddhism"
-religious_values_list: "Buddhism"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: Buddhism
+religious_values_list: Buddhism
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
-abstract: ""
-data_description: "Benchmark"
+abstract: 
+data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/Nethmi14/BuddhismEval"
 ethics_perspective: "General Ethics"
 ---

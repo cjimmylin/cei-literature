@@ -1,35 +1,34 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0299
 type: preprint
-short_title: Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on End-User Devices
+short_title: "Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on End-User Devices"
 year: 2025
 first_author: "[[Carlos González Carballo]]"
 last_author: "[[Carlos González Carballo]]"
-authors: Carlos González Carballo, et al.
+authors: "Carlos González Carballo, et al."
 url: "https://arxiv.org/abs/2504.03312"
 external_pdf: "https://arxiv.org/pdf/2504.03312.pdf"
 local_pdf: "[[PDFs/2025/2025-Carballo-Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Carballo-Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on.md"
-publication: arXiv / SEPLN
+publication: "arXiv / SEPLN"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Basque, Catalan, Galician, Portuguese, Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 LLM_assessed: 

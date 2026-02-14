@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "https://dl.acm.org/doi/10.1145/3715275.3732044"
 external_pdf: "https://arxiv.org/pdf/2501.18081.pdf"
 publication: "ACM FAccT 2025"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: Yes
 newtags: "LLM-Evaluation, Moral-Judgment, AITA-Dataset, Normative-Ethics, Everyday-Dilemmas"
 key_contribution: "Evaluates LLMs on 10,000+ Reddit AITA moral dilemmas; reveals distinct moral judgment patterns with low inter-model agreement"
@@ -36,7 +34,7 @@ is_dataset: Yes
 data_description: "10,000+ Reddit AITA moral dilemmas with LLM judgments"
 data_metrics: "Blame assignment, self-consistency, inter-model agreement"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, PaLM-2, Llama-2, Mistral, Gemma"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md"
 local_pdf: "[[PDFs/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.pdf]]"
 ---

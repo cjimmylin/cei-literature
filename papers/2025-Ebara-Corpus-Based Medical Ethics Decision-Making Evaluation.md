@@ -1,15 +1,11 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0036
 type: conferencePaper
-short_title: Corpus-Based Medical Ethics Decision-Making Evaluation
+short_title: "Corpus-Based Medical Ethics Decision-Making Evaluation"
 year: 2025
 first_author: "[[Memi Ebara]]"
 last_author: "[[Kazuhiko Ohe]]"
@@ -20,25 +16,25 @@ local_pdf: "[[PDFs/2025/2025-Ebara-Corpus-Based Medical Ethics Decision-Making E
 pdf_extract: "PDF Extracts/2025/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.md"
 publication: Unknown
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Applied Ethics"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Gemini"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Borderline
 ---
 # Corpus-Based Medical Ethics Decision-Making Evaluation

@@ -1,36 +1,35 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0683
 type: preprint
-short_title: Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns and Social Groups
+short_title: "Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns and Social Groups"
 year: 2025
 first_author: "[[Geng Liu]]"
-last_author: "[[Unknown]]"
-authors: Geng Liu; Feng Li; Junjie Mu; Mengxiao Zhu; Francesco Pierri
+last_author: [[Unknown]]
+authors: "Geng Liu; Feng Li; Junjie Mu; Mengxiao Zhu; Francesco Pierri"
 url: "https://arxiv.org/html/2510.06974"
 external_pdf: "https://arxiv.org/pdf/2510.06974.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
-languages_list: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
+languages_list: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

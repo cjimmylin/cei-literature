@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0306
 type: preprint
 short_title: "RussianSuperGLUE: A Russian Language Understanding Evaluation Benchmark"
-year: 2020
+year: 2025
 first_author: "[[Tatiana Shavrina]]"
 last_author: "[[Andrey Evlampiev]]"
-authors: Tatiana Shavrina, Alena Fenogenova, Emelyanov Anton, Denis Shevelev, Ekaterina Artemova, Valentin Malykh, Vladislav Mikhailov, Maria Tikhonova, Andrey Chertok, Andrey Evlampiev
+authors: "Tatiana Shavrina, Alena Fenogenova, Emelyanov Anton, Denis Shevelev, Ekaterina Artemova, Valentin Malykh, Vladislav Mikhailov, Maria Tikhonova, Andrey Chertok, Andrey Evlampiev"
 doi: 10.18653/v1/2020.emnlp-main.381
 url: "https://arxiv.org/abs/2010.15925"
 external_pdf: "https://arxiv.org/pdf/2010.15925.pdf"
 local_pdf: "[[PDFs/2020/2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark.md"
-publication: arXiv / ACL Anthology (EMNLP 2020)
+publication: "arXiv / ACL Anthology (EMNLP 2020)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Russian"
-languages_list: "Russian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Russian
+languages_list: Russian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 LLM_assessed: 

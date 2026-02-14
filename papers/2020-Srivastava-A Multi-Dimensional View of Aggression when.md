@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Arjit Srivastava; Avijit Vajpayee; Syed Sarfaraz Akhtar; Naman Jain; V
 url: "https://aclanthology.org/2020.trac-1.3/"
 external_pdf: "https://aclanthology.org/2020.trac-1.3.pdf"
 national_ethnic_cultural: Indian
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Indian, Toxicity & Hate Speech"
 key_contribution: "Created a Hindi-English code-mixed dataset annotated across dimensions of aggression, hate speech, emotion, and figurative language (sarcasm, irony)."
@@ -35,7 +33,7 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/arjitsrivastava/MultidimensionalViewOpinionMining"
 ---
 # A Multi-Dimensional View of Aggression when voicing Opinion

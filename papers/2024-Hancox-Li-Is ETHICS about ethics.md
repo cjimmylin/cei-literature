@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "http://arxiv.org/abs/2410.13009"
 external_pdf: "http://arxiv.org/pdf/2410.13009.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Critiqued the popular ETHICS benchmark, arguing that it primarily tests for 'commonsense morality' or pattern matching rather than genuine ethical reasoning capability."
@@ -38,8 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Is ETHICS about ethics? Evaluating the ETHICS benchmark
 

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ local_pdf: "[[PDFs/2024/2024-Obi-Value Imprint.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2411.11937.pdf"
 publication: "Neural Information Processing Systems"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, Utilitarianism"
 key_contribution: "Introduces 'Value Imprint', a framework for auditing RLHF datasets which reveals that current datasets prioritize information-utility values over prosocial virtues like justice and well-being"
@@ -37,8 +35,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "RoBERTa"
-DATA_URL: "NA"
+LLM_assessed: RoBERTa
+DATA_URL: NA
 ---
  Value Imprint: A Technique for Auditing the Human Values Embedded in RLHF Datasets
 

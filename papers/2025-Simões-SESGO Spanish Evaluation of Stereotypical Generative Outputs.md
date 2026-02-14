@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "SESGO: Spanish Evaluation of Stereotypical Generative Outputs"
 year: 2025
 first_author: "[[Guilherme Simões]]"
 last_author: "[[Guilherme Simões]]"
-authors: Guilherme Simões, et al.
+authors: "Guilherme Simões, et al."
 url: "https://arxiv.org/abs/2509.03329"
 external_pdf: "https://arxiv.org/pdf/2509.03329.pdf"
 local_pdf: "[[PDFs/2025/2025-Simões-SESGO Spanish Evaluation of Stereotypical Generative Outputs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Simões-SESGO Spanish Evaluation of Stereotypical Generative Outputs.md"
-publication: arXiv / AAAI AIES
+publication: "arXiv / AAAI AIES"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Spanish, American, Latin American"
-languages_list: "Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+languages_list: Spanish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework text corpus for toxicity detection"
 data_metrics: "4,000 prompts"
 LLM_assessed: 

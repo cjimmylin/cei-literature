@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +8,28 @@ type: conferencePaper
 short_title: "FilBench: Can LLMs Understand and Generate Filipino?"
 year: 2025
 first_author: "[[Lester James V. Miranda]]"
-last_author: "[[Unknown]]"
-authors: Lester James V. Miranda; Elyanah Aco; Conner Manuel; Jan Christian Blaise Cruz; Joseph Marvin Imperial
+last_author: [[Unknown]]
+authors: "Lester James V. Miranda; Elyanah Aco; Conner Manuel; Jan Christian Blaise Cruz; Joseph Marvin Imperial"
 url: "https://aclanthology.org/2025.emnlp-main.127/"
 external_pdf: "https://arxiv.org/pdf/2508.03523.pdf"
 local_pdf: "[[PDFs/2025/2025-Miranda-FilBench Can LLMs Understand and Generate Filipino.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Miranda-FilBench Can LLMs Understand and Generate Filipino.md"
-publication: ACL Anthology (EMNLP 2025)
+publication: "ACL Anthology (EMNLP 2025)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Filipino"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Filipino
 languages_list: "Cebuano, Filipino/Tagalog"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

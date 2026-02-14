@@ -1,35 +1,34 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0287
 type: preprint
-short_title: Leveraging Large Language Models to Measure Gender Representation Bias in Gendered Language Corpora
+short_title: "Leveraging Large Language Models to Measure Gender Representation Bias in Gendered Language Corpora"
 year: 2025
-first_author: "[[Derner]]"
-last_author: "[[Derner]]"
-authors: Derner, et al.
+first_author: [[Derner]]
+last_author: [[Derner]]
+authors: "Derner, et al."
 url: "https://arxiv.org/abs/2406.13677"
 external_pdf: "https://arxiv.org/pdf/2406.13677.pdf"
 local_pdf: "[[PDFs/2025/2025-Derner-Leveraging Large Language Models to Measure Gender Representation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Derner-Leveraging Large Language Models to Measure Gender Representation.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Spanish"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Spanish
 languages_list: "French, Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
 LLM_assessed: 

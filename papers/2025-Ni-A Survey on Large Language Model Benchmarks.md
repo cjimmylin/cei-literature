@@ -1,36 +1,35 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0662
 type: preprint
-short_title: A Survey on Large Language Model Benchmarks
+short_title: "A Survey on Large Language Model Benchmarks"
 year: 2025
 first_author: "[[Shiwen Ni]]"
-last_author: "[[Unknown]]"
-authors: Shiwen Ni; Guhong Chen; Shuaimin Li; Xuanang Chen; Siyi Li; Bingli Wang; Qiyao Wang; Xingjian Wang; Yifan Zhang; Liyang Fan; Chengming Li; Ruifeng Xu; Le Sun; Min Yang
+last_author: [[Unknown]]
+authors: "Shiwen Ni; Guhong Chen; Shuaimin Li; Xuanang Chen; Siyi Li; Bingli Wang; Qiyao Wang; Xingjian Wang; Yifan Zhang; Liyang Fan; Chengming Li; Ruifeng Xu; Le Sun; Min Yang"
 url: "https://arxiv.org/html/2508.15361v1"
 external_pdf: "https://arxiv.org/pdf/2508.15361.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Ni-A Survey on Large Language Model Benchmarks.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ni-A Survey on Large Language Model Benchmarks.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Chinese, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

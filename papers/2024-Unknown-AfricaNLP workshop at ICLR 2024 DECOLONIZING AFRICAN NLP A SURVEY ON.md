@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,34 +6,35 @@ Not AI:
 key: LSRC0808
 type: conferencePaper
 short_title: "AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP: A SURVEY ON POWER"
-year: 2024
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+year: 2025
+first_author: [[Unknown]]
+last_author: [[Unknown]]
 authors: Unknown
 url: "https://openreview.net/pdf?id=D698BEfwgv"
+external_pdf: "https://openreview.net/pdf?id=D698BEfwgv"
 publication: OpenReview
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2024/2024-Unknown-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Unknown-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "African/Ubuntu"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: African/Ubuntu
 languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 research_topic: "NLP & Representation Learning"
 ---
 # AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP: A SURVEY ON POWER

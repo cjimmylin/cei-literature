@@ -1,35 +1,34 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0290
 type: preprint
-short_title: Salamandra Technical Report
+short_title: "Salamandra Technical Report"
 year: 2025
 first_author: "[[Language Technologies Unit]]"
-last_author: "[[BSC]]"
-authors: Language Technologies Unit, BSC
+last_author: [[BSC]]
+authors: "Language Technologies Unit, BSC"
 url: "https://arxiv.org/abs/2502.08489"
 external_pdf: "https://arxiv.org/pdf/2502.08489.pdf"
 local_pdf: "[[PDFs/2025/2025-Unit-Salamandra Technical Report.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unit-Salamandra Technical Report.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Basque, Catalan, English, French, Galician, German, Italian, Portuguese, Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety text corpus"
 data_metrics: "Not specified"
 LLM_assessed: 

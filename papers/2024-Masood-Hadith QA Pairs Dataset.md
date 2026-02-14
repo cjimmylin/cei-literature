@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "R. Masood"
 url: "https://www.kaggle.com/datasets/rwmasood/hadith-qa-pairs"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/C5KAAG92/Masood - 2024 - Hadith QA Pairs Dataset.pdf"
 national_ethnic_cultural: N/A
-religious_values: "Islam"
-religious_values_list: "Islam"
+religious_values: Islam
+religious_values_list: Islam
 moral_psychology: N/A
 newtags: Islam
 tags: 
@@ -31,8 +29,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Masood-Hadith QA Pairs Dataset.md"
 local_pdf: "[[PDFs/2024/2024-Masood-Hadith QA Pairs Dataset.pdf]]"
 ---

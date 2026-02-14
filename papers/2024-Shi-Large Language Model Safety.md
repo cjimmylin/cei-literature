@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2412.17686"
 external_pdf: "http://arxiv.org/pdf/2412.17686.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Provides a holistic survey of Large Language Model safety, examining potential risks (bias, toxicity, etc.) and associated mitigation strategies."
@@ -38,7 +36,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/tjunlp-lab/Awesome-LLM-Safety-Papers"
 ---
 # Large Language Model Safety: A Holistic Survey

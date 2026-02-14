@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2410.01708"
 external_pdf: "http://arxiv.org/pdf/2410.01708.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Evaluated Llama 3's ability to predict and replicate semantic tone differences based on social relationship factors (gender, age, friendship closeness) using Facebook data."
@@ -38,8 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-3"
-DATA_URL: "NA"
+LLM_assessed: Llama-3
+DATA_URL: NA
 ---
 # Examining the Role of Relationship Alignment in Large Language Models
 

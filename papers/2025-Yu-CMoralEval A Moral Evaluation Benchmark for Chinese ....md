@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +8,28 @@ type: conferencePaper
 short_title: "CMoralEval: A Moral Evaluation Benchmark for Chinese ..."
 year: 2025
 first_author: "[[Linhao Yu]]"
-last_author: "[[Unknown]]"
-authors: Linhao Yu; Yongqi Leng; Yufei Huang; Shang Wu; Haixin Liu; Xinmeng Ji; Jiahui Zhao; Jinwang Song; Tingting Cui; Xiaoqing Cheng; Tao Liu; Deyi Xiong
+last_author: [[Unknown]]
+authors: "Linhao Yu; Yongqi Leng; Yufei Huang; Shang Wu; Haixin Liu; Xinmeng Ji; Jiahui Zhao; Jinwang Song; Tingting Cui; Xiaoqing Cheng; Tao Liu; Deyi Xiong"
 url: "https://aclanthology.org/2024.findings-acl.703.pdf"
 external_pdf: "https://arxiv.org/pdf/2408.09819v1.pdf"
-publication: ACL Anthology
+publication: "ACL Anthology"
 local_pdf: "[[PDFs/2025/2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
-languages_list: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
+languages_list: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

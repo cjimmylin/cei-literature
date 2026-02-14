@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0242
 type: preprint
 short_title: "KULTURE Bench: A Benchmark for Assessing Language Model in Korean Cultural Context"
-year: 2024
+year: 2025
 first_author: "[[Xiaonan Wang]]"
 last_author: "[[Hansaem Kim]]"
-authors: Xiaonan Wang, Jinyoung Yeo, Joon-Ho Lim, Hansaem Kim
+authors: "Xiaonan Wang, Jinyoung Yeo, Joon-Ho Lim, Hansaem Kim"
 url: "https://arxiv.org/abs/2412.07251"
 external_pdf: "https://arxiv.org/pdf/2412.07251.pdf"
 local_pdf: "[[PDFs/2024/2024-Wang-KULTURE Bench A Benchmark for Assessing Language Model in Korean.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Wang-KULTURE Bench A Benchmark for Assessing Language Model in Korean.md"
-publication: arXiv / PACLIC 2024
+publication: "arXiv / PACLIC 2024"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Korean"
-languages_list: "Korean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Korean
+languages_list: Korean
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
 LLM_assessed: 

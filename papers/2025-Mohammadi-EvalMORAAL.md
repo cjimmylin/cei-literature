@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,13 +13,13 @@ authors: "[[Mohammadi, Hadi]], [[Giachanou, Anastasia]], [[Bagheri, Ayoub]]"
 doi: 10.48550/arXiv.2510.05942
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2510.05942"
-local_pdf: "[[PDFs/2025/2025-Mohammadi-EvalMORAAL.pdf]]"
+local_pdf: [[PDFs/2025/2025-Mohammadi-EvalMORAAL.pdf]]
 external_pdf: "https://arxiv.org/pdf/2510.05942.pdf"
 publication: arXiv
 ethics_perspective: "Cross-Cultural Ethics"
 national_ethnic_cultural: "Western vs Non-Western"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "World Values Survey"
 newtags: "Deontology, Cross-Cultural Ethics, LLM Evaluation, Moral Alignment"
 key_contribution: "Transparent CoT framework evaluating moral alignment in 20 LLMs using World Values Survey and PEW data"
@@ -37,7 +35,7 @@ is_dataset: No
 data_description: "World Values Survey, PEW Global Attitudes Survey"
 data_metrics: "Pearson correlation, regional alignment scores"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, PaLM-2, Llama-3, Qwen, Mistral, DeepSeek, Phi, o1"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Mohammadi-EvalMORAAL.md"
 ---
 # EvalMORAAL: Interpretable Chain-of-Thought and LLM-as-Judge Evaluation for Moral Alignment in Large Language Models

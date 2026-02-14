@@ -1,14 +1,11 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0294
 type: preprint
-short_title: Reward Model Perspectives on Demographic Alignment (Elle et al.)
+short_title: "Reward Model Perspectives on Demographic Alignment (Elle et al.)"
 year: 2025
 first_author: "[[Yang, Elle Michelle]]"
 last_author: "[[Yang, Elle Michelle]]"
@@ -20,24 +17,24 @@ local_pdf: "[[PDFs/2025/2025-Elle-Reward Model Perspectives on Demographic Align
 pdf_extract: "PDF Extracts/2025/2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "American"
-religious_values: "Christianity"
-religious_values_list: "Christianity"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: American
+religious_values: Christianity
+religious_values_list: Christianity
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Reward models (RMs) are central to the alignment of language models (LMs). An RM often serves as a proxy for human preferences to guide downstream LM behavior. However, our understanding of RM behavior is limited. Our work (i) formalizes a framework for measuring the alignment of opinions captured by RMs, (ii) investigates the extent to which RMs demonstrate sociodemographic biases, and (iii) explores the effects of prompting to steer rewards towards the preferences of a target group."
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "DeBERTa"
+LLM_assessed: DeBERTa
 DATA_URL: "https://github.com/socialnlp/rmp"
 ---
 # Reward Model Perspectives on Demographic Alignment (Elle et al.)

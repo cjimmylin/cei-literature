@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0117
 type: preprint
 short_title: "IndoNLU: Benchmark and Resources for Evaluating Indonesian Natural Language Understanding"
-year: 2020
+year: 2025
 first_author: "[[Bryan Wilie]]"
 last_author: "[[Samuel Cahyawijaya]]"
-authors: Bryan Wilie, Karissa Vincentio, Genta Indra Winata, Samuel Cahyawijaya et al.
+authors: "Bryan Wilie, Karissa Vincentio, Genta Indra Winata, Samuel Cahyawijaya et al."
 url: "https://arxiv.org/abs/2009.05387"
 external_pdf: "https://arxiv.org/pdf/2009.05387.pdf"
 local_pdf: "[[PDFs/2020/2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural.md"
-publication: arXiv / ACL Anthology (AACL-IJCNLP 2020)
+publication: "arXiv / ACL Anthology (AACL-IJCNLP 2020)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indonesian"
-languages_list: "Indonesian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indonesian
+languages_list: Indonesian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

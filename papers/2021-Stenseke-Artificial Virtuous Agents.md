@@ -1,6 +1,4 @@
 ---
-
-
 Human View: false
 Not AI: 
 key: AUTO_STENSEKE2021
@@ -14,8 +12,8 @@ doi: 10.1007/s00146-021-01325-7
 url: "https://link.springer.com/article/10.1007/s00146-021-01325-7"
 local_pdf: "[[PDFs/2021/2021-Stenseke-Artificial Virtuous Agents.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, Artificial Moral Agents, Connectionism, Eudaimonic Reward"
 key_contribution: "First comprehensive framework taking virtue ethics from theory to machine implementation using moral functionalism, connectionist learning, and eudaimonic reward"
@@ -32,8 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Artificial virtuous agents: from theory to machine implementation
 

@@ -1,35 +1,34 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0102
 type: preprint
-short_title: Can LLM Generate Culturally Relevant Commonsense QA Data? Case Study in Indonesian and Sundanese
-year: 2024
+short_title: "Can LLM Generate Culturally Relevant Commonsense QA Data? Case Study in Indonesian and Sundanese"
+year: 2025
 first_author: "[[Rifki Afina Putri]]"
-last_author: "[[Unknown]]"
-authors: Rifki Afina Putri; Faiz Ghifari Haznitrama; Dea Adhista; Alice Oh
+last_author: [[Unknown]]
+authors: "Rifki Afina Putri; Faiz Ghifari Haznitrama; Dea Adhista; Alice Oh"
 url: "https://arxiv.org/abs/2402.17302"
 external_pdf: "https://arxiv.org/pdf/2402.17302.pdf"
 local_pdf: "[[PDFs/2024/2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study.md"
-publication: arXiv / ACL Anthology (EMNLP 2024)
+publication: "arXiv / ACL Anthology (EMNLP 2024)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indonesian"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indonesian
 languages_list: "Indonesian, Sundanese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology text corpus for question answering"
 data_metrics: "4.5k questions"
 LLM_assessed: 

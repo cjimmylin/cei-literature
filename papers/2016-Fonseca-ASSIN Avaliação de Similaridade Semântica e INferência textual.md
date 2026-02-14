@@ -7,35 +7,35 @@ Not AI:
 key: LSRC0220
 type: conferencePaper
 short_title: "ASSIN: Avaliação de Similaridade Semântica e INferência textual"
-year: 2016
+year: 2025
 first_author: "[[Erick Fonseca]]"
 last_author: "[[Alexandre Mouzalon]]"
-authors: Erick Fonseca, Leandro Borges dos Santos, Marcelo Finger, Alexandre Mouzalon
+authors: "Erick Fonseca, Leandro Borges dos Santos, Marcelo Finger, Alexandre Mouzalon"
 url: "http://nilc.icmc.usp.br/assin/"
 publication: NILC/USP
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Portuguese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Portuguese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
-research_topic: "Other"
+abstract: "10,000 sentence pairs (5,000 Brazilian Portuguese + 5,000 European Portuguese) annotated for semantic similarity and textual entailment. ASSIN-2 adds 6,500 training pairs for Brazilian Portuguese."
+research_topic: Other
 ---
 # ASSIN: Avaliação de Similaridade Semântica e INferência textual
 

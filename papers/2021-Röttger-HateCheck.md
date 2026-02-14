@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,14 +14,14 @@ doi: 10.18653/v1/2021.acl-long.4
 url: "https://aclanthology.org/2021.acl-long.4/"
 external_pdf: "https://aclanthology.org/2021.acl-long.4.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Introduces HateCheck, a suite of functional tests for hate speech detection models, moving beyond simple F1/accuracy metrics"
 significance: "Enables targeted diagnosis of model weaknesses (e.g., reclaiming slurs, counter-speech), a precursor to nuanced consequentialist evaluation of harm"
 tags: 
-local_pdf: "[[PDFs/2021/2021-Röttger-HateCheck.pdf]]"
+local_pdf: [[PDFs/2021/2021-Röttger-HateCheck.pdf]]
 pdf_extract: "PDF Extracts/2021/2021-Röttger-HateCheck.md"
 abstract: "Detecting online hate is a difﬁcult task that even state-of-the-art models struggle with. Typically, hate speech detection models are evaluated by measuring their performance on held-out test data using metrics such as accu- racy and F1 score. However, this approach makes it difﬁcult to identify speciﬁc model weak points. It also risks overestimating generalisable model performance due to in- creasingly well-evidenced systematic gaps and biases in hate speech datasets. To enable more targeted di"
 ethics_overall: No
@@ -35,7 +33,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: "https://github.com/paul-rottger/hatecheck-data"
 ---
 # HateCheck: Functional Tests for Hate Speech Detection Models

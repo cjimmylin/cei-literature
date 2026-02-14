@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0245
 type: preprint
 short_title: "KMMLU: Measuring Massive Multitask Language Understanding in Korean"
-year: 2024
+year: 2025
 first_author: "[[Guijin Son]]"
 last_author: "[[Stella Biderman]]"
-authors: Guijin Son, Hanwool Lee, Sungdong Kim, Seungone Kim, Niklas Muennighoff, Taekyoon Choi, Cheonbok Park, Kang Min Yoo, Stella Biderman
+authors: "Guijin Son, Hanwool Lee, Sungdong Kim, Seungone Kim, Niklas Muennighoff, Taekyoon Choi, Cheonbok Park, Kang Min Yoo, Stella Biderman"
 doi: 10.18653/v1/2025.naacl-long.206
 url: "https://arxiv.org/abs/2402.11548"
 external_pdf: "https://arxiv.org/pdf/2402.11548.pdf"
 local_pdf: "[[PDFs/2024/2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean.md"
-publication: arXiv / NAACL 2025
+publication: "arXiv / NAACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Chinese, Korean"
-languages_list: "Korean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+languages_list: Korean
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

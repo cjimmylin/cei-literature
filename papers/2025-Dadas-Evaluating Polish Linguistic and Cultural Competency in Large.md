@@ -1,35 +1,34 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0330
 type: preprint
-short_title: Evaluating Polish Linguistic and Cultural Competency in Large Language Models
+short_title: "Evaluating Polish Linguistic and Cultural Competency in Large Language Models"
 year: 2025
 first_author: "[[Slawomir Dadas]]"
 last_author: "[[Rafal Poswiata]]"
-authors: Slawomir Dadas, Malgorzata Grebowiec, Michal Perelkiewicz, Rafal Poswiata
+authors: "Slawomir Dadas, Malgorzata Grebowiec, Michal Perelkiewicz, Rafal Poswiata"
 url: "https://arxiv.org/abs/2503.00995"
 external_pdf: "https://arxiv.org/pdf/2503.00995.pdf"
 local_pdf: "[[PDFs/2025/2025-Dadas-Evaluating Polish Linguistic and Cultural Competency in Large.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Dadas-Evaluating Polish Linguistic and Cultural Competency in Large.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Polish"
-religious_values: "N/A"
-religious_values_list: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Polish
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 LLM_assessed: 

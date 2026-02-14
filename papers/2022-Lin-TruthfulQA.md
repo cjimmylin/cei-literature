@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,12 +14,12 @@ doi: 10.18653/v1/2022.acl-long.229
 url: "https://aclanthology.org/2022.acl-long.229/"
 external_pdf: "https://aclanthology.org/2022.acl-long.229.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
-local_pdf: "[[PDFs/2022/2022-Lin-TruthfulQA.pdf]]"
+local_pdf: [[PDFs/2022/2022-Lin-TruthfulQA.pdf]]
 pdf_extract: "PDF Extracts/2022/2022-Lin-TruthfulQA.md"
 abstract: "We propose a benchmark to measure whether a language model is truthful in generating an- swers to questions. The benchmark comprises 817 questions that span 38 categories, includ- ing health, law, finance and politics. We crafted questions that some humans would answer falsely due to a false belief or misconception. To perform well, models must avoid generating false answers learned from imitating human texts. We tested GPT-3, GPT-Neo/J, GPT-2 and a T5-based model. The best model was truthful on"
 ethics_overall: No

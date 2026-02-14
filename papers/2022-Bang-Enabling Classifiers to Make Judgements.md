@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2210.07652"
 external_pdf: "http://arxiv.org/pdf/2210.07652.pdf"
 publication: TRUSTNLP
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed a framework for value-aligned classification that uses explicitly written human values in prompts to guide model predictions, rather than relying on implicit training data."
@@ -39,7 +37,7 @@ is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "OPT, ALBERT, RoBERTa, BART"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Enabling Classifiers to Make Judgements Explicitly Aligned with Human Values
 

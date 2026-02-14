@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,26 +9,26 @@ short_title: "Krikri: Advancing Open Large Language Models for Greek"
 year: 2025
 first_author: "[[Dimitris Roussis]]"
 last_author: "[[Vassilis Katsouros]]"
-authors: Dimitris Roussis, Leon Voukoutis, Georgios Paraskevopoulos, Sokratis Sofianopoulos, Prokopis Prokopidis, Vassilis Papavasileiou, Athanasios Katsamanis, Stelios Piperidis, Vassilis Katsouros
+authors: "Dimitris Roussis, Leon Voukoutis, Georgios Paraskevopoulos, Sokratis Sofianopoulos, Prokopis Prokopidis, Vassilis Papavasileiou, Athanasios Katsamanis, Stelios Piperidis, Vassilis Katsouros"
 url: "https://arxiv.org/abs/2505.13772"
 external_pdf: "https://arxiv.org/pdf/2505.13772.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Roussis-Krikri Advancing Open Large Language Models for Greek.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Roussis-Krikri Advancing Open Large Language Models for Greek.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "English, Greek"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-Krikri-8B, Llama-3.1-8B, Meltemi"

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,34 +6,34 @@ Not AI:
 key: EXSR0561
 type: conference_paper
 short_title: "MITRA-zh An Efficient Open Machine Translation"
-year: 2023
+year: 2025
 first_author: "[[Sebastian Nehrdich, Marcus Bingenheimer, Justin Brody, Kurt Keutzer]]"
 last_author: "[[Sebastian Nehrdich, Marcus Bingenheimer, Justin Brody, Kurt Keutzer]]"
 authors: "[[Sebastian Nehrdich, Marcus Bingenheimer, Justin Brody, Kurt Keutzer]]"
 authors_incomplete: false
-url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
-publication: NLP4DH 2023 (Joint 3rd International Conference on Natural Language Processing for Digital Humanities and 8th International Workshop on Computational Linguistics for Uralic Languages), pages 266-277, Tokyo, Japan
+url: 
+external_pdf: 
+local_pdf: N/A
+pdf_extract: 
+publication: "NLP4DH 2023 (Joint 3rd International Conference on Natural Language Processing for Digital Humanities and 8th International Workshop on Computational Linguistics for Uralic Languages), pages 266-277, Tokyo, Japan"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
-religious_values: "Buddhism"
-religious_values_list: "Buddhism"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
+religious_values: Buddhism
+religious_values_list: Buddhism
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
-abstract: ""
-data_description: "N/A"
+abstract: 
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "Open-source (Dharmamitra project)"
 research_topic: "Machine Translation"
 ---

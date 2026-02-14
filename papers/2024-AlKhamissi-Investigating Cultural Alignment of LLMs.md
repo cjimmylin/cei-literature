@@ -1,39 +1,36 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0186
 type: conferencePaper
-short_title: Investigating Cultural Alignment of LLMs
-year: 2024
+short_title: "Investigating Cultural Alignment of LLMs"
+year: 2025
 first_author: "[[Badr AlKhamissi]]"
 last_author: "[[Mona Diab Mai Alkhamissi]]"
-authors: Badr AlKhamissi, Muhammad ElNokrashy, Mai Alkhamissi, Mona Diab
-publication: ACL 2024
+authors: "Badr AlKhamissi, Muhammad ElNokrashy, Mai Alkhamissi, Mona Diab"
+publication: "ACL 2024"
 external_pdf: "https://arxiv.org/pdf/2402.13231.pdf"
 local_pdf: "[[PDFs/2024/2024-AlKhamissi-Investigating Cultural Alignment of LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-AlKhamissi-Investigating Cultural Alignment of LLMs.md"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "AI Safety & Alignment"
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, Llama-2"
 DATA_URL: "https://github.com/bkhmsi/cultural-trends.git"

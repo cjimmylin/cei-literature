@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,29 +11,29 @@ first_author: "[[Sebastian Nehrdich, Avery Chen, Marcus Bingenheimer, Lu Huang, 
 last_author: "[[Sebastian Nehrdich, Avery Chen, Marcus Bingenheimer, Lu Huang, Rouying Tang, Xiang Wei, Leijie Zhu, Kurt Keutzer]]"
 authors: "[[Sebastian Nehrdich, Avery Chen, Marcus Bingenheimer, Lu Huang, Rouying Tang, Xiang Wei, Leijie Zhu, Kurt Keutzer]]"
 authors_incomplete: false
-url: ""
+url: 
 external_pdf: "https://aclanthology.org/2025.nlp4dh-1.12.pdf"
 local_pdf: "[[PDFs/2025/2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language.md"
-publication: NLP4DH 2025 (5th International Conference on Natural Language Processing for Digital Humanities)
+publication: "NLP4DH 2025 (5th International Conference on Natural Language Processing for Digital Humanities)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
-religious_values: "Buddhism"
-religious_values_list: "Buddhism"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
+religious_values: Buddhism
+religious_values_list: Buddhism
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
-abstract: ""
+abstract: 
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://aclanthology.org/2025.nlp4dh-1.12/"
 research_topic: "Machine Translation"
 ---

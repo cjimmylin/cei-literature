@@ -1,0 +1,4 @@
+paper,status,action,source_url,source_note
+2024-Hellwig-The Vedic Compound Dataset.md,resolved,attached_pdf_and_updated_metadata,https://aclanthology.org/2024.mwe-1.8.pdf,Recovered canonical ACL Anthology entry 2024.mwe-1.8 from venue page.
+2025-Martinez-Religion and Racial Bias in Artificial.md,metadata_corrected_still_blocked,updated_doi_and_external_pdf,https://doi.org/10.1177/23780231251377210,Corrected DOI via Crossref/DOAJ; publisher endpoint remains blocked to scripted download (HTTP 403).
+2025-Ochasi-Reframing Justice in Healthcare AI.md,still_blocked,no_auto_download,https://doi.org/10.1111/dewb.70007,"Only publisher PDF available (Wiley), blocked to scripted download (HTTP 403)."

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: false
 Not AI: 
 key: AUTO_OBER2024
@@ -14,8 +12,8 @@ doi: N/A
 url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4879572"
 local_pdf: "[[PDFs/2024/2024-Ober-Lyceum Project AI Ethics Aristotle.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, Aristotelian Ethics, Human Flourishing, AI Ethics Framework"
 key_contribution: "Major Oxford/Stanford white paper arguing Aristotelian ethics offers most compelling framework for AI ethics, emphasizing human flourishing, virtues, and practical reason"
@@ -32,8 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # The Lyceum Project: AI Ethics with Aristotle
 

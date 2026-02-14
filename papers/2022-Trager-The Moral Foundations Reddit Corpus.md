@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2208.05545"
 external_pdf: "http://arxiv.org/pdf/2208.05545.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Released the Moral Foundations Reddit Corpus (MFRC), a dataset of 16k Reddit comments annotated for 8 moral sentiments based on Moral Foundations Theory."
@@ -39,7 +37,7 @@ is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "8 categories"
 LLM_assessed: "Llama-3, BERT"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # The Moral Foundations Reddit Corpus
 

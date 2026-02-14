@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2505.14633"
 external_pdf: "http://arxiv.org/pdf/2505.14633.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Created LITMUSVALUES and AIRISKDILEMMAS to test if models' 'values' (e.g., Care) predict risky behavior (e.g., lying for the greater good)."

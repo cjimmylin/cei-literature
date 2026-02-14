@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Mohamed Basem; Islam Oshallah; Baraa Hikal; Ali Hamdi; Ammar Mohamed"
 url: "https://arxiv.org/abs/2412.11431"
 external_pdf: "https://arxiv.org/pdf/2412.11431.pdf"
 national_ethnic_cultural: Arabic
-religious_values: "Islam"
-religious_values_list: "Islam"
+religious_values: Islam
+religious_values_list: Islam
 moral_psychology: N/A
 newtags: "Arabic, Islam"
 tags: 
@@ -35,7 +33,7 @@ is_dataset: Yes
 data_description: "Dataset for question answering"
 data_metrics: "251 questions; 629 questions"
 LLM_assessed: "BERT, RoBERTa"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Optimized Quran Passage Retrieval Using an Expanded QA Dataset and Fine-Tuned Language Models
 

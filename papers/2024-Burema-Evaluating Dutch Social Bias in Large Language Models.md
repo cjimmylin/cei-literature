@@ -1,41 +1,40 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0484
 type: conferencePaper
-short_title: Evaluating Dutch Social Bias in Large Language Models
-year: 2024
+short_title: "Evaluating Dutch Social Bias in Large Language Models"
+year: 2025
 first_author: "[[Renate Burema]]"
 last_author: "[[Renate Burema]]"
-authors: Renate Burema
+authors: "Renate Burema"
 url: "https://studenttheses.uu.nl/handle/20.500.12932/48930"
-publication: Utrecht University
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://studenttheses.uu.nl/bitstream/handle/20.500.12932/48930/Master_Thesis_Burema%286502180%29.pdf?sequence=1&isAllowed=y"
+publication: "Utrecht University"
+local_pdf: "[[PDFs/2024/2024-Burema-Evaluating Dutch Social Bias in Large Language Models.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Burema-Evaluating Dutch Social Bias in Large Language Models.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Dutch"
-languages_list: "Dutch"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Dutch
+languages_list: Dutch
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, LLaMa-2, Mistral, Zephyr"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Bias & Fairness"
 ---
 # Evaluating Dutch Social Bias in Large Language Models

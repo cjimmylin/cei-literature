@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Jieyu Zhao; Yichao Zhou; Zeyu Li; Wei Wang; Kai-Wei Chang"
 url: "https://arxiv.org/abs/1809.01496"
 external_pdf: "https://arxiv.org/pdf/1809.01496.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Proposed a training procedure for gender-neutral word embeddings (GN-GloVe) that isolates gender information to specific dimensions while neutralizing it in others."
@@ -36,7 +34,7 @@ is_eval: No
 is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "GloVe"
+LLM_assessed: GloVe
 DATA_URL: "https://github.com/uclanlp/gn_glove"
 doi: 10.18653/v1/D18-1521
 ---

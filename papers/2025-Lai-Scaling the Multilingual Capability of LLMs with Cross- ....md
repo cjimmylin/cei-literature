@@ -1,36 +1,35 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0782
 type: conferencePaper
-short_title: Scaling the Multilingual Capability of LLMs with Cross- ...
+short_title: "Scaling the Multilingual Capability of LLMs with Cross- ..."
 year: 2025
 first_author: "[[Wen Lai]]"
-last_author: "[[Unknown]]"
-authors: Wen Lai; Mohsen Mesgar; Alexander Fraser
+last_author: [[Unknown]]
+authors: "Wen Lai; Mohsen Mesgar; Alexander Fraser"
 url: "https://aclanthology.org/2024.findings-acl.488.pdf"
 external_pdf: "https://arxiv.org/pdf/2406.01771v1.pdf"
-publication: ACL Anthology
+publication: "ACL Anthology"
 local_pdf: "[[PDFs/2025/2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ....pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ....md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Chinese, English, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

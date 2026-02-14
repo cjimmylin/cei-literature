@@ -7,34 +7,35 @@ Not AI:
 key: LSRC0221
 type: conferencePaper
 short_title: "Napolab: The Natural Portuguese Language Benchmark"
-year: 2024
+year: 2025
 first_author: "[[Ruan Chaves]]"
 last_author: "[[Ruan Chaves]]"
-authors: Ruan Chaves
+authors: "Ruan Chaves"
 url: "https://github.com/ruanchaves/napolab"
-publication: GitHub / HuggingFace
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://arxiv.org/pdf/2401.16640"
+publication: "GitHub / HuggingFace"
+local_pdf: "[[PDFs/2024/2024-Chaves-Napolab The Natural Portuguese Language Benchmark.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Chaves-Napolab The Natural Portuguese Language Benchmark.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Brazilian"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Brazilian
 languages_list: "Catalan, English, Galician, Portuguese, Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Collection of Portuguese datasets for LLM evaluation with guidelines ensuring natural Portuguese text and expert annotations. All datasets have translations in Catalan, English, Galician, and Spanish."
 research_topic: "Machine Learning"
 ---
 # Napolab: The Natural Portuguese Language Benchmark

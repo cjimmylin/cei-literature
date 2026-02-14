@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2509.01081"
 external_pdf: "https://arxiv.org/pdf/2509.01081.pdf"
 local_pdf: "[[PDFs/2025/2025-Ghaly-Assessing Large Language Models on Islamic.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ghaly-Assessing Large Language Models on Islamic.md"
-publication: ArabicNLP 2025 (3rd Arabic NLP Conference) / arXiv
+publication: "ArabicNLP 2025 (3rd Arabic NLP Conference) / arXiv"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "This paper evaluates the knowledge and reasoning capabilities of Large Language Models in Islamic inheritance law, known as 'ilm al-maw¯ar¯ıth. We assess the performance of seven LLMs using a benchmark of 1,000 multiple-choice questions covering diverse inheritance scenarios, designed to test each model’s ability, from understanding the inheritance context to computing the distribution of shares prescribed by Islamic jurisprudence."
-data_description: "Benchmark"
+data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/bouchekif/inheritance_evaluation"
 research_topic: "Machine Learning"
 ---

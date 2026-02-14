@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.48550/arXiv.2505.19212
 url: "https://arxiv.org/abs/2505.19212"
 external_pdf: "https://arxiv.org/pdf/2505.19212.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Evaluates LLM agents in social dilemmas to test ethics vs. self-interest"
@@ -26,7 +24,7 @@ pdf_extract: "PDF Extracts/2025/2025-Backmann-When Ethics and Payoffs Diverge.md
 abstract: "Recent advances in large language models (LLMs) have enabled their use in complex agentic roles, involving decision-making with humans or other agents, making ethical alignment a key AI safety concern. While prior work has examined both LLMs’ moral judgment and strategic behavior in social dilemmas, there is limited understanding of how they act when moral imperatives directly conflict with rewards or incentives. To investigate this, we introduce MORAL Behavior in Social Dilemma SIMulation (MORA"
 paper_summary: "Abstract: Recent advances in large language models (LLMs) have enabled their use in complex agentic roles, involving decision-making with humans or other agents, making ethical alignment a key AI safety concern | Overview: When Ethics and Payoffs Diverge: LLM Agents in Morally Charged Social Dilemmas Steffen Backmann1 David Guzman Piedrahita2 Emanuel Tewolde3 Rada Mihalcea4 Bernhard Schölkopf5 Zhijing Jin5,6,7 1ETH Züri | Conclusions: We introduced MORALSIM, a framework for evaluating large language models in repeated game- theoretic scenarios enriched with strong moral contexts, al"
 local_pdf: "[[PDFs/2025/2025-Backmann-When Ethics and Payoffs Diverge.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -38,7 +36,7 @@ data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, DeepSeek, Qwen, o3"
 DATA_URL: "https://github.com/sbackmann/moralsim"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
 ---
 # When Ethics and Payoffs Diverge: LLM Agents in Morally Charged Social Dilemmas

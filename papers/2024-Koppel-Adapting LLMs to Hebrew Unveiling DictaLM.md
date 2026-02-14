@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0457
 type: preprint
 short_title: "Adapting LLMs to Hebrew Unveiling DictaLM"
-year: 2024
+year: 2025
 first_author: "[[Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel]]"
 last_author: "[[Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel]]"
 authors: "[[Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel]]"
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2407.07080"
 external_pdf: "https://arxiv.org/pdf/2407.07080.pdf"
 local_pdf: "[[PDFs/2024/2024-Koppel-Adapting LLMs to Hebrew Unveiling DictaLM.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Koppel-Adapting LLMs to Hebrew Unveiling DictaLM.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Hebrew/Israeli"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Hebrew/Israeli
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Training large language models (LLMs) in low-resource languages such as Hebrew poses unique challenges. In this paper, we introduce DictaLM2.0 and DictaLM2.0-Instruct, two LLMs derived from the Mistral model, trained on a substantial corpus of approximately 200 billion tokens in both Hebrew and English. Adapting a pre-trained model to a new language involves specialized techniques that differ significantly from training a model from scratch or further training existing models on well-resourced..."
 data_description: "Multilingual benchmark text corpus for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/dicta-il/dictalm2.0"
 research_topic: "NLP & Representation Learning"
 ---

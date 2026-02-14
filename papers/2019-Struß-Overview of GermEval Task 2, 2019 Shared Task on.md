@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,8 +12,8 @@ last_author: "[[Manfred Klenner]]"
 authors: "Julia Maria Struß; Melanie Siegel; Josef Ruppenhofer; Michael Wiegand; Manfred Klenner"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ITICC3WW/Struß et al. - Overview of GermEval Task 2, 2019 Shared Task on the Identiﬁcation of Offensive Language.pdf"
 national_ethnic_cultural: German
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "German, Toxicity & Hate Speech"
 key_contribution: "Shared task on offensive language identification in German tweets, introducing implicit vs explicit offense classification."
@@ -32,8 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
-DATA_URL: "NA"
+LLM_assessed: BERT
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.md"
 local_pdf: "[[PDFs/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.pdf]]"
 ---

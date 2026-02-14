@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,8 +19,8 @@ external_pdf: "https://arxiv.org/pdf/2507.20796.pdf"
 publication: arXiv
 ethics_perspective: "Kantian Ethics"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Kantian Ethics, Deontology, AI Alignment, LLM Fine-tuning"
 key_contribution: "Proposes supervised fine-tuning pipeline aligning LLM agents with homo economicus and homo moralis (Kantian universalizability) preferences"
@@ -39,7 +36,7 @@ is_dataset: No
 data_description: "Synthetic datasets from economic games"
 data_metrics: "Kantian moral concern parameter κ, cooperation rates"
 LLM_assessed: "GPT-4, o3"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Borderline
 ---
 # Aligning Large Language Model Agents with Rational and Moral Preferences: A Supervised Fine-Tuning Approach

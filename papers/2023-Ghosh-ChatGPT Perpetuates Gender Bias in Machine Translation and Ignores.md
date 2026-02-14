@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,31 +6,31 @@ Not AI:
 key: LSRC0174
 type: preprint
 short_title: "ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores Non-Gendered Pronouns: Findings across Bengali and Five other Low-Resource Languages"
-year: 2023
+year: 2025
 first_author: "[[S. Ghosh]]"
-last_author: "[[S.]]"
-authors: Ghosh, S. et al.
+last_author: [[S.]]
+authors: "Ghosh, S. et al."
 doi: 10.1145/3600211.3604672
 url: "https://arxiv.org/abs/2305.10510"
 external_pdf: "https://arxiv.org/pdf/2305.10510.pdf"
 local_pdf: "[[PDFs/2023/2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores.md"
-publication: arXiv / AAAI/ACM AIES 2023
+publication: "arXiv / AAAI/ACM AIES 2023"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Filipino, Thai, Iranian, Multicultural/Cross-cultural"
 languages_list: "Bengali, Farsi, Malay, Tagalog, Thai, Turkish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

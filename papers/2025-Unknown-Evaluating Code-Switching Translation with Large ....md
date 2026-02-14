@@ -1,40 +1,40 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0823
 type: conferencePaper
-short_title: Evaluating Code-Switching Translation with Large ...
+short_title: "Evaluating Code-Switching Translation with Large ..."
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+first_author: [[Unknown]]
+last_author: [[Unknown]]
 authors: Unknown
 url: "https://aclanthology.org/2024.lrec-main.565.pdf"
-publication: ACL Anthology
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://aclanthology.org/2024.lrec-main.565.pdf"
+publication: "ACL Anthology"
+local_pdf: "[[PDFs/2025/2025-Unknown-Evaluating Code-Switching Translation with Large ....pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Unknown-Evaluating Code-Switching Translation with Large ....md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Code-switching"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Code-switching
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 research_topic: "Machine Translation"
 ---
 # Evaluating Code-Switching Translation with Large ...

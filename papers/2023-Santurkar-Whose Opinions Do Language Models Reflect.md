@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Shibani Santurkar; Esin Durmus; Faisal Ladhak; Cinoo Lee; Percy Liang;
 url: "http://arxiv.org/abs/2303.17548"
 external_pdf: "http://arxiv.org/pdf/2303.17548.pdf"
 national_ethnic_cultural: American
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "American, AI Safety & Alignment"
 key_contribution: "Created OpinionsQA to compare LLM views against US public opinion polls, finding mismatches (e.g., misalignment with 65+ and widowed groups)."
@@ -27,7 +25,7 @@ pdf_extract: "PDF Extracts/2023/2023-Santurkar-Whose Opinions Do Language Models
 abstract: "Language models (LMs) are increasingly being used in open-ended contexts, where the opinions reﬂected by LMs in response to subjective queries can have a profound impact, both on user satisfaction, as well as shaping the views of society at large. In this work, we put forth a quantitative framework to investigate the opinions reﬂected by LMs – by leveraging high-quality public opinion polls and their associated human responses. Using this framework, we create OpinionQA, a new dataset for evaluat"
 paper_summary: "Abstract: Language models (LMs) are increasingly being used in open-ended contexts, where the opinions reﬂected by LMs in response to subjective queries can have a profound impact, both on user satisfaction, as | Overview: Whose Opinions Do Language Models Reﬂect? Shibani Santurkar Stanford shibani@stanford.edu Esin Durmus Stanford esindurmus@cs.stanford.edu Faisal Ladhak Columbia University faisal@cs.columbia.edu Cinoo | Methodology: from the main paper), focusing on the 500 questions from Section 4.2 computational reasons—see Appendix Figure 14. We only include a subset of demogra | Conclusions: Our work puts forth a framework to examine the opinions reﬂected by LMs through the lens of public opinion polls. Using our OpinionQA dataset, we iden"
 local_pdf: "[[PDFs/2023/2023-Santurkar-Whose Opinions Do Language Models Reflect.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -39,7 +37,7 @@ data_description: "Evaluation framework dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, text-davinci, InstructGPT"
 DATA_URL: "https://github.com/tatsu-lab/opinions_qa"
-publication: ICML 2023
+publication: "ICML 2023"
 DATE_ADDED: 20260207
 ---
 # Whose Opinions Do Language Models Reflect?

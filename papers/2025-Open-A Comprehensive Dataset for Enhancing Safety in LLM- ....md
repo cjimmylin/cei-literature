@@ -1,40 +1,40 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0699
 type: conferencePaper
-short_title: A Comprehensive Dataset for Enhancing Safety in LLM- ...
+short_title: "A Comprehensive Dataset for Enhancing Safety in LLM- ..."
 year: 2025
 first_author: "[[Ant Open]]"
 last_author: "[[Ant Open]]"
-authors: Ant Open
+authors: "Ant Open"
 url: "https://aclanthology.org/2025.emnlp-main.714.pdf"
-publication: ACL Anthology
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://aclanthology.org/2025.emnlp-main.714.pdf"
+publication: "ACL Anthology"
+local_pdf: "[[PDFs/2025/2025-Open-A Comprehensive Dataset for Enhancing Safety in LLM- ....pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Open-A Comprehensive Dataset for Enhancing Safety in LLM- ....md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "AI Safety & Alignment"
 ---
 # A Comprehensive Dataset for Enhancing Safety in LLM- ...

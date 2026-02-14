@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: EXSR0153
 type: preprint
 short_title: "Collective Constitutional AI: Aligning a Language Model with Public Input"
-year: 2024
+year: 2025
 first_author: "[[Saffron Huang]]"
 last_author: "[[Deep Ganguli]]"
 authors: "Saffron Huang; Divya Siddarth; Liane Lovitt; Thomas I. Liao; Esin Durmus; Alex Tamkin; Deep Ganguli"
@@ -20,25 +17,25 @@ local_pdf: "[[PDFs/2024/2024-Huang-Collective Constitutional AI Aligning a Langu
 pdf_extract: "PDF Extracts/2024/2024-Huang-Collective Constitutional AI Aligning a Language Model with Public.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Brazilian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Brazilian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "There is growing consensus that language model (LM) developers should not be the sole deciders of LM behavior, creating a need for methods that enable the broader public to collectively shape the behavior of LM systems that affect them. To address this need, we present Collective Constitutional AI (CCAI): a multi-stage process for sourcing and integrating public input into LMs—from identifying a target population to sourcing principles to training and evaluating a model."
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: "Claude"
-DATA_URL: "NA"
+LLM_assessed: Claude
+DATA_URL: NA
 ---
 # Collective Constitutional AI: Aligning a Language Model with Public Input
 

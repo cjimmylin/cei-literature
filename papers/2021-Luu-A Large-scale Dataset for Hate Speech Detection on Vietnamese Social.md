@@ -1,36 +1,35 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0362
 type: preprint
-short_title: A Large-scale Dataset for Hate Speech Detection on Vietnamese Social Media Texts
-year: 2021
+short_title: "A Large-scale Dataset for Hate Speech Detection on Vietnamese Social Media Texts"
+year: 2025
 first_author: "[[Son T. Luu]]"
 last_author: "[[Ngan Luu-Thuy Nguyen]]"
-authors: Son T. Luu, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen
+authors: "Son T. Luu, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen"
 doi: 10.1007/978-3-030-79457-6_35
 url: "https://arxiv.org/abs/2103.11528"
 external_pdf: "https://arxiv.org/pdf/2103.11528.pdf"
 local_pdf: "[[PDFs/2021/2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social.md"
-publication: arXiv / Springer
+publication: "arXiv / Springer"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: 

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0374
 type: preprint
 short_title: "VLegal-Bench: Cognitively Grounded Benchmark for Vietnamese Legal Reasoning of Large Language Models"
-year: 2024
+year: 2025
 first_author: "[[CMC AI team]]"
 last_author: "[[CMC AI team]]"
-authors: CMC AI team
+authors: "CMC AI team"
 url: "https://arxiv.org/abs/2512.14554"
 external_pdf: "https://arxiv.org/pdf/2512.14554.pdf"
 local_pdf: "[[PDFs/2024/2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "450 samples"
 LLM_assessed: 

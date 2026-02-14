@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +8,28 @@ type: preprint
 short_title: "McBE: A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models"
 year: 2025
 first_author: "[[Tian Lan]]"
-last_author: "[[Unknown]]"
-authors: Tian Lan; Xiangdong Su; Xu Liu; Ruirui Wang; Ke Chang; Jiang Li; Guanglai Gao
+last_author: [[Unknown]]
+authors: "Tian Lan; Xiangdong Su; Xu Liu; Ruirui Wang; Ke Chang; Jiang Li; Guanglai Gao"
 url: "https://arxiv.org/html/2507.02088"
 external_pdf: "https://arxiv.org/pdf/2507.02088.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
-languages_list: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
+languages_list: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

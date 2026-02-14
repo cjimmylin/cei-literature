@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,8 +12,8 @@ last_author: "[[Alexandra Birch]]"
 authors: "Eddie L Ungless; Nikolas Vitsakis; Zeerak Talat; James Garforth; Björn Ross; Arno Onken; Atoosa Kasirzadeh; Alexandra Birch"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/X4AQDWVV/Ungless et al. - ETHICS WHITEPAPER Whitepaper on Ethical Research into Large Language Models.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Published a comprehensive whitepaper detailing best practices and ethical considerations for research into and with Large Language Models."
@@ -32,7 +30,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/MxEddie/Ethics-Whitepaper"
 pdf_extract: "PDF Extracts/2024/2024-Ungless-ETHICS WHITEPAPER.md"
 local_pdf: "[[PDFs/2024/2024-Ungless-ETHICS WHITEPAPER.pdf]]"

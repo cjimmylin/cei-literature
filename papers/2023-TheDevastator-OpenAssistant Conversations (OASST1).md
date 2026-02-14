@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,14 +7,14 @@ key: AKVVEZBF
 type: document
 short_title: "OpenAssistant Conversations (OASST1)"
 year: 2025
-first_author: "[[TheDevastator]]"
-last_author: "[[TheDevastator]]"
+first_author: [[TheDevastator]]
+last_author: [[TheDevastator]]
 authors: TheDevastator
 url: "https://www.kaggle.com/datasets/thedevastator/multilingual-conversation-dataset"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/HGR2QABJ/TheDevastator - 2023 - OpenAssistant Conversations (OASST1).pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -31,8 +29,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark annotated dataset for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-TheDevastator-OpenAssistant Conversations (OASST1).md"
 local_pdf: "[[PDFs/2023/2023-TheDevastator-OpenAssistant Conversations (OASST1).pdf]]"
 ---

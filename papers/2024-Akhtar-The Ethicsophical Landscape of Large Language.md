@@ -1,6 +1,4 @@
 ---
-
-
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "LLM through view of Aristole and Kang"
@@ -16,8 +14,8 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/DIHXXCK6/Akhtar - The Ethic
 pdf_extract: "[[2024-Akhtar-The Ethicsophical Landscape of Large Language]]"
 local_pdf: "[[PDFs/2024/2024-Akhtar-The Ethicsophical Landscape of Large Language.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, Deontology"
 key_contribution: "Analyzes LLM capabilities through Aristotelian virtue and Kantian deontological lenses to assess their moral epistemological status"
@@ -33,8 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # The Ethicsophical Landscape of Large Language Models
 

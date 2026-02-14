@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,29 +6,29 @@ Not AI:
 key: LSRC0478
 type: preprint
 short_title: "ScandEval: A Benchmark for Scandinavian Natural Language Processing"
-year: 2023
+year: 2025
 first_author: "[[Dan Nielsen]]"
 last_author: "[[Dan Nielsen]]"
-authors: Dan Nielsen et al.
+authors: "Dan Nielsen et al."
 url: "https://arxiv.org/abs/2304.00906"
 external_pdf: "https://arxiv.org/pdf/2304.00906.pdf"
-publication: arXiv / NoDaLiDa 2023
+publication: "arXiv / NoDaLiDa 2023"
 local_pdf: "[[PDFs/2023/2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Danish, Faroese, Icelandic, Norwegian, Swedish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "NB-BERT, KB-BERT, DFM-encoder, RemBERT, mDeBERTaV3, Scandinavian BERT variants"

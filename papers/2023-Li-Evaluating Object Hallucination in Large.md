@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Yifan Li; Yifan Du; Kun Zhou; Jinpeng Wang; Wayne Xin Zhao; Ji-Rong We
 url: "https://arxiv.org/abs/2305.10355"
 external_pdf: "https://arxiv.org/pdf/2305.10355.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -34,8 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Evaluating Object Hallucination in Large Vision-Language Models (POPE)
 

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,36 +6,36 @@ Not AI:
 key: LSRC0635
 type: preprint
 short_title: "1 Benchmarking GPT-4 against Human Translators: A"
-year: 2024
+year: 2025
 first_author: "[[Rui Sun]]"
 last_author: "[[Rui Sun]]"
-authors: Rui Sun
+authors: "Rui Sun"
 url: "https://arxiv.org/pdf/2411.13775"
 external_pdf: "https://arxiv.org/pdf/2411.13775.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2024/2024-Sun-1 Benchmarking GPT-4 against Human Translators A.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Sun-1 Benchmarking GPT-4 against Human Translators A.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "English, Uyghur"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
 abstract: "This study presents a comprehensive evaluation of GPT-4’s translation capabilities compared to human translators of varying expertise levels. Through systematic human evaluation using the MQM schema, we assess translations across three language pairs (Chinese←→English, Russian←→English, and Chinese←→Hindi) and three domains (News, Technology, and Biomedical). Our findings reveal that GPT-4 achieves performance comparable to junior-level translators in terms of total errors, while still lagging behind senior translators. Unlike traditional Neural Machine Translation systems, which show significant performance degradation in resource-poor language directions, GPT-4 maintains consistent translation quality across all evaluated language pairs. Through qualitative analysis, we identify distinctive patterns in translation approaches: GPT4 tends toward overly literal translations and exhibits lexical inconsistency, while human translators sometimes over-interpret context and introduce hallucinations. This study represents the first systematic comparison between LLM and human translators across different proficiency levels, providing valuable insights into the current capabilities and limitations of LLM-based translation systems."
-research_topic: "Other"
+research_topic: Other
 ---
 # 1 Benchmarking GPT-4 against Human Translators: A
 

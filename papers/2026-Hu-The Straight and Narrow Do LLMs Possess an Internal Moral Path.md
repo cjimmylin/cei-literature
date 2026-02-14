@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0696
 type: preprint
 short_title: "The Straight and Narrow: Do LLMs Possess an Internal Moral Path?"
-year: 2026
+year: 2025
 first_author: "[[Luoming Hu]]"
-last_author: "[[Unknown]]"
-authors: Luoming Hu; Jingjie Zeng; Liang Yang; Hongfei Lin
+last_author: [[Unknown]]
+authors: "Luoming Hu; Jingjie Zeng; Liang Yang; Hongfei Lin"
 url: "https://arxiv.org/html/2601.10307"
 external_pdf: "https://arxiv.org/pdf/2601.10307.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2026/2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

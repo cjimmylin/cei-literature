@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,8 +18,8 @@ pdf_extract: "[[PDF Extracts/2024-Wang-Possibilities and challenges in the moral
 publication: "Ethics and Information Technology"
 ethics_perspective: "Moral Development Theory"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Dewey Moral Development"
 newtags: "Moral Development, RLHF, Deontology, AI Alignment"
 key_contribution: "Analyzes LLM moral development through RLHF using Dewey's moral philosophy framework"
@@ -37,7 +35,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-2, GPT-3, ChatGPT"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Possibilities and challenges in the moral growth of large language models: a philosophical perspective
 

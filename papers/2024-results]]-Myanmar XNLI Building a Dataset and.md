@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0513
 type: preprint
 short_title: "Myanmar XNLI Building a Dataset and"
-year: 2024
+year: 2025
 first_author: "[[[[Not fully listed in search results]]]]"
 last_author: "[[results, Not fully listed in search]]"
 authors: "[[Not fully listed in search results]]"
@@ -19,26 +15,26 @@ url: "https://arxiv.org/abs/2504.09645"
 external_pdf: "https://arxiv.org/pdf/2504.09645.pdf"
 local_pdf: "[[PDFs/2024/2024-results]]-Myanmar XNLI Building a Dataset and.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-results]]-Myanmar XNLI Building a Dataset and.md"
-publication: Springer (Language Resources and Evaluation)
+publication: "Springer (Language Resources and Evaluation)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Despite dramatic recent progress in NLP, it is still a major challenge to apply Large Language Models (LLM) to low-resource languages. This is made visible in benchmarks such as Cross-Lingual Natural Language Inference (XNLI), a key task that demonstrates cross-lingual capabilities of NLP systems across a set of 15 languages. In this paper, we extend the XNLI task for one additional low-resource language, Myanmar, as a proxy challenge for broader low-resource languages, and make three core..."
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "15 languages"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "General Ethics"
 ---
 # Myanmar XNLI: Building a Dataset and Exploring Low-resource Approaches to Natural Language Inference with Myanmar

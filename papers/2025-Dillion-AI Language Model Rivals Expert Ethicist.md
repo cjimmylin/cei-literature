@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,18 +15,18 @@ url: "https://www.nature.com/articles/s41598-025-86510-0"
 external_pdf: "https://www.nature.com/articles/s41598-025-86510-0.pdf"
 publication: "Scientific Reports"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Utilitarianism, Moral Turing Test, AI Ethics"
 key_contribution: "Empirical evidence that GPT-4o's ethical advice is rated more favorably than expert human ethicists"
 significance: "Advances the Moral Turing Test research showing AI can match or exceed human moral expertise perception"
 tags: 
-pdf_extract: PDF Extracts/2025/2025-Dillion-AI Language Model Rivals Expert Ethicist in Perceived Moral Expertise.md
+pdf_extract: "PDF Extracts/2025/2025-Dillion-AI Language Model Rivals Expert Ethicist in Perceived Moral Expertise.md"
 abstract: "This study advances work on the Moral Turing Test and finds that Americans rate ethical advice from GPT-4o as slightly more moral, trustworthy, thoughtful, and correct than that of the popular New York Times advice column, The Ethicist. Participants perceived GPT models as surpassing both a representative sample of Americans and a renowned ethicist in delivering moral justifications and advice...."
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Dillion-AI Language Model Rivals Expert Ethicist.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: Yes
@@ -38,7 +36,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4"
-DATA_URL: "NA"
+DATA_URL: NA
 DATE_ADDED: 20260207
 ---
 # AI Language Model Rivals Expert Ethicist

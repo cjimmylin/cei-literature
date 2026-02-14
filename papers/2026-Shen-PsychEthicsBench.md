@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,29 +6,29 @@ Not AI:
 key: EXSR0012
 type: preprint
 short_title: PsychEthicsBench
-year: 2026
+year: 2025
 first_author: "[[Shen, Yaling]]"
 last_author: "[[Ge, Zongyuan]]"
 authors: "[[Shen, Yaling]]; [[Fong, Stephanie]]; [[Jiang, Yiwen]]; [[Wang, Zimu]]; [[Tang, Feilong]]; [[Xu, Qingyang]]; [[Zhao, Xiangyu]]; [[Xu, Zhongxing]]; [[Liu, Jiahe]]; [[Hu, Jinpeng]]; [[Dwyer, Dominic]]; [[Ge, Zongyuan]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.03578"
 external_pdf: "https://arxiv.org/pdf/2601.03578.pdf"
-local_pdf: "[[PDFs/2026/2026-Shen-PsychEthicsBench.pdf]]"
+local_pdf: "[[PDFs/2026-Shen-PsychEthicsBench.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Shen-PsychEthicsBench.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Australian/Aboriginal"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Australian/Aboriginal
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "The increasing integration of large language models (LLMs) into mental health applications necessitates robust frameworks for evaluating professional safety alignment. Current evaluative approaches primarily rely on refusal-based safety signals, which offer limited insight into the nuanced behaviors required in clinical practice. In mental health, clinically inadequate refusals can be perceived as unempathetic and discourage help-seeking."
 ethics_perspective: "AI Safety & Alignment"

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,10 +12,10 @@ last_author: "[[R. Dara]]"
 authors: "S. Shahriar; R. Dara"
 url: "https://www.mdpi.com/2673-2688/6/2/29"
 external_pdf: "https://doi.org/10.3390/ai6020029"
-local_pdf: "[[PDFs/2025/2025-Shahriar-Priv-IQ.pdf]]"
+local_pdf: [[PDFs/2025/2025-Shahriar-Priv-IQ.pdf]]
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -33,7 +31,7 @@ is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, DeepSeek, Gemini, GPT-4"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Shahriar-Priv-IQ.md"
 ---
 # Priv-IQ: A Multimodal Benchmark for Evaluating the Privacy Intelligence of Large Language Models

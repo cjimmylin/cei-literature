@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "http://arxiv.org/abs/2505.19674"
 external_pdf: "http://arxiv.org/pdf/2505.19674.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Used 'Word Associations' (projective testing) to probe implicit moral values in LLMs, finding they lack the 'visceral' associations of humans and are biased towards WEIRD values (Care/Fairness)."
@@ -38,7 +36,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-3"
+LLM_assessed: Llama-3
 DATA_URL: "https://github.com/ChunhuaLiu596/Word_Association_Generation"
 ---
 # Comparing Moral Values in Western English-speaking societies and LLMs with Word Associations

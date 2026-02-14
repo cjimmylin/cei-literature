@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,26 +9,26 @@ short_title: "MultiNRC: A Challenging and Native Multilingual Reasoning Evaluati
 year: 2025
 first_author: "[[Scale AI research team]]"
 last_author: "[[Scale AI research team]]"
-authors: Scale AI research team
+authors: "Scale AI research team"
 url: "https://arxiv.org/abs/2507.17476"
 external_pdf: "https://arxiv.org/pdf/2507.17476.pdf"
-publication: arXiv / Scale AI
+publication: "arXiv / Scale AI"
 local_pdf: "[[PDFs/2025/2025-team-MultiNRC A Challenging and Native Multilingual Reasoning Evaluation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-team-MultiNRC A Challenging and Native Multilingual Reasoning Evaluation.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Chinese, French, Spanish"
 languages_list: "Chinese, French, Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "Not specified"
 LLM_assessed: "o3-pro, multiple LLMs"

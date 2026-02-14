@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "BnMMLU: Measuring Massive Multitask Language Understanding in Bengali"
 year: 2025
 first_author: "[[Saman Sarker Joy]]"
-last_author: "[[Unknown]]"
-authors: Saman Sarker Joy; Swakkhar Shatabda
+last_author: [[Unknown]]
+authors: "Saman Sarker Joy; Swakkhar Shatabda"
 url: "https://arxiv.org/abs/2505.18951"
 external_pdf: "https://arxiv.org/pdf/2505.18951.pdf"
 local_pdf: "[[PDFs/2025/2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Bengali"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Bengali
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

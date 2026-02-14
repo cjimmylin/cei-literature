@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,36 +6,36 @@ Not AI:
 key: EXSR0460
 type: preprint
 short_title: "Azerbaijani LLM Leaderboard"
-year: 2024
-first_author: "[[LLM-Beetle]]"
-last_author: "[[LLM-Beetle]]"
-authors: "[[LLM-Beetle]]"
+year: 2025
+first_author: [[LLM-Beetle]]
+last_author: [[LLM-Beetle]]
+authors: [[LLM-Beetle]]
 authors_incomplete: false
 url: "https://huggingface.co/spaces/LLM-Beetle/azerbaijani-llm-leaderboard"
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
+external_pdf: 
+local_pdf: N/A
+pdf_extract: 
 publication: HuggingFace
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "HuggingFace Space for browsing and filtering Azerbaijani LLM benchmark results, viewing evaluation queues, and submitting models for evaluation. Active leaderboard for Azerbaijani LLM evaluation. Provides standardized comparison infrastructure for Azerbaijani language models."
-data_description: "Benchmark"
+data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/spaces/LLM-Beetle/azerbaijani-llm-leaderboard"
-research_topic: "Other"
+research_topic: Other
 ---
 # Azerbaijani LLM Leaderboard
 

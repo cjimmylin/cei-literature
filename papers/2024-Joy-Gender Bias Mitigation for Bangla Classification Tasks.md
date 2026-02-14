@@ -1,35 +1,34 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0175
 type: preprint
-short_title: Gender Bias Mitigation for Bangla Classification Tasks
-year: 2024
-first_author: "[[Joy]]"
-last_author: "[[S.K.S.]]"
-authors: Joy, S.K.S. et al.
+short_title: "Gender Bias Mitigation for Bangla Classification Tasks"
+year: 2025
+first_author: [[Joy]]
+last_author: [[S.K.S.]]
+authors: "Joy, S.K.S. et al."
 url: "https://arxiv.org/abs/2411.10636"
 external_pdf: "https://arxiv.org/pdf/2411.10636.pdf"
 local_pdf: "[[PDFs/2024/2024-Joy-Gender Bias Mitigation for Bangla Classification Tasks.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Joy-Gender Bias Mitigation for Bangla Classification Tasks.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Bengali"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Bengali
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: 

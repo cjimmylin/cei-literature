@@ -7,35 +7,35 @@ Not AI:
 key: LSRC0311
 type: conferencePaper
 short_title: "RUSSE 2022: Findings of the First Russian Detoxification Shared Task Based on Parallel Corpora"
-year: 2022
+year: 2025
 first_author: "[[Daryna Dementieva]]"
 last_author: "[[Varvara Logacheva]]"
-authors: Daryna Dementieva, Varvara Logacheva, et al.
+authors: "Daryna Dementieva, Varvara Logacheva, et al."
 url: "https://russe.nlpub.org/2022/tox/"
-publication: RUSSE / Dialogue Conference
-local_pdf: 
-pdf_extract: 
-DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Russian"
-languages_list: "Russian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+external_pdf: "https://web.archive.org/web/20240817172642if_/https://www.dialog-21.ru/media/5755/dementievadplusetal105.pdf"
+publication: "RUSSE / Dialogue Conference"
+local_pdf: "[[PDFs/2022/2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task.md"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Russian
+languages_list: Russian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
-research_topic: "Other"
+abstract: "First shared task on Russian text detoxification with parallel corpus of toxic sentences and manually written non-toxic paraphrases. 6,948 training sentences from Odnoklassniki, Pikabu, and Twitter. Manual final evaluation."
+research_topic: Other
 ---
 # RUSSE 2022: Findings of the First Russian Detoxification Shared Task Based on Parallel Corpora
 

@@ -1,15 +1,12 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0207
 type: conferencePaper
-short_title: OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety
-year: 2024
+short_title: "OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety"
+year: 2025
 first_author: "[[C. Li]]"
 last_author: "[[Deyi Xiong]]"
 authors: "Chuang Liu; Linhao Yu; Jiaxuan Li; Renren Jin; Yufei Huang; Ling Shi; Junhui Zhang; Xinmeng Ji; Tingting Cui; Tao Liu; Jinwang Song; Hongying Zan; Sun Li; Deyi Xiong"
@@ -17,27 +14,27 @@ url: "https://arxiv.org/abs/2403.12316"
 external_pdf: "https://arxiv.org/pdf/2403.12316.pdf"
 local_pdf: "[[PDFs/2024/2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and.md"
-publication: ACL 2024
+publication: "ACL 2024"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "The rapid development of Chinese large language models (LLMs) poses big challenges for efficient LLM evaluation. While current initiatives have introduced new benchmarks or evaluation platforms for assessing Chinese LLMs, many of these focus primarily on capabilities, usually overlooking potential alignment and safety issues. To address this gap, we introduce OpenEval, an evaluation testbed that benchmarks Chinese LLMs across capability, alignment and safety."
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "7 datasets; 6 datasets"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety
 

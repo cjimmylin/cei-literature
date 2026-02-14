@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,30 +6,30 @@ Not AI:
 key: LSRC0479
 type: preprint
 short_title: "NorBench: A Benchmark for Norwegian Language Models"
-year: 2023
+year: 2025
 first_author: "[[Various (LTG Oslo)]]"
 last_author: "[[Various (LTG Oslo)]]"
-authors: Various (LTG Oslo)
+authors: "Various (LTG Oslo)"
 url: "https://arxiv.org/abs/2305.03880"
 external_pdf: "https://arxiv.org/pdf/2305.03880.pdf"
-publication: arXiv / NoDaLiDa 2023
+publication: "arXiv / NoDaLiDa 2023"
 local_pdf: "[[PDFs/2023/2023-Oslo-NorBench A Benchmark for Norwegian Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Oslo-NorBench A Benchmark for Norwegian Language Models.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Norwegian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Norwegian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: "NorBERT3, NorT5, NB-BERT, ScandiBERT, mBERT, XLM-RoBERTa"
 DATA_URL: "https://github.com/ltgoslo/NorBench"

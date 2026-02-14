@@ -1,18 +1,15 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0222
 type: conferencePaper
-short_title: The Political Preferences of LLMs
-year: 2024
+short_title: "The Political Preferences of LLMs"
+year: 2025
 first_author: "[[David Rozado]]"
 last_author: "[[David Rozado]]"
-authors: David Rozado
+authors: "David Rozado"
 doi: 10.1371/journal.pone.0306621
 url: "https://doi.org/10.1371/journal.pone.0306621"
 external_pdf: "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0306621&type=printable"
@@ -20,22 +17,22 @@ local_pdf: "[[PDFs/2024/2024-Rozado-The Political Preferences of LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Rozado-The Political Preferences of LLMs.md"
 publication: Unknown
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
-abstract:
+abstract: 
 research_topic: "Social & Cultural Analysis"
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, GPT-3, Gemini, Claude, Llama-2, Mistral, Qwen, Grok"
 DATA_URL: "https://doi.org/10.5281/zenodo.10553530"

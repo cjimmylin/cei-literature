@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +15,26 @@ url: "https://arxiv.org/abs/2508.20201"
 external_pdf: "https://arxiv.org/pdf/2508.20201.pdf"
 local_pdf: "[[PDFs/2025/2025-results]]-Social Bias in Multilingual Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-results]]-Social Bias in Multilingual Language Models.md"
-publication: WebSearch: social bias multilingual LLM
+publication: "WebSearch: social bias multilingual LLM"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Multicultural/Cross-cultural
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Pretrained multilingual models exhibit the same social bias as models processing English texts. This systematic review analyzes emerging research that extends bias evaluation and mitigation approaches into multilingual and non-English contexts. We examine these studies with respect to linguistic diversity, cultural awareness, and their choice of evaluation metrics and mitigation techniques. Our survey illuminates gaps in the field’s dominant methodological design choices (e.g."
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Bias & Fairness"
 ---
 # Social Bias in Multilingual Language Models: A Survey

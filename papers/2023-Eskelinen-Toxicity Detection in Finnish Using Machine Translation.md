@@ -1,41 +1,40 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0498
 type: conferencePaper
-short_title: Toxicity Detection in Finnish Using Machine Translation
-year: 2023
+short_title: "Toxicity Detection in Finnish Using Machine Translation"
+year: 2025
 first_author: "[[Anni Eskelinen]]"
 last_author: "[[Veronika Laippala]]"
-authors: Anni Eskelinen, Laura Silvala, Filip Ginter, Sampo Pyysalo, Veronika Laippala
+authors: "Anni Eskelinen, Laura Silvala, Filip Ginter, Sampo Pyysalo, Veronika Laippala"
 url: "https://aclanthology.org/2023.nodalida-1.68/"
-publication: ACL Anthology / NoDaLiDa 2023
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://aclanthology.org/2023.nodalida-1.68.pdf"
+publication: "ACL Anthology / NoDaLiDa 2023"
+local_pdf: "[[PDFs/2023/2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "English, Finnish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "FinBERT"
-DATA_URL: "NA"
+LLM_assessed: FinBERT
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 research_topic: "Machine Translation"
 ---
 # Toxicity Detection in Finnish Using Machine Translation

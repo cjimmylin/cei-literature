@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2312.10075"
 external_pdf: "http://arxiv.org/pdf/2312.10075.pdf"
 publication: arXiv.org
 national_ethnic_cultural: American
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "American, Value Pluralism / Schwartz, Social & Cultural Values"
 key_contribution: "Used the 'Recognizing Value Resonance' (RVR) model to identify implicit values in LLM text, quantifying 'moral distance' from World Values Survey (WVS) demographics."
@@ -28,7 +26,7 @@ pdf_extract: "PDF Extracts/2023/2023-Benkler-Assessing LLMs for Moral Value Plur
 abstract: "Moral values are important indicators of socio-cultural norms and behavior and guide our moral judgment and identity. Decades of social science research have developed and refined some widely-accepted surveys, such as the World Values Survey (WVS), that elicit value judgments from direct questions, enabling social scientists to measure higher-level moral values and even cultural value distance. While WVS is accepted as an explicit assessment of values, we lack methods for assessing implicit mora"
 paper_summary: "Abstract: Moral values are important indicators of socio-cultural norms and behavior and guide our moral judgment and identity. Decades of social science research have developed and refined some widely-accepted | Overview: Assessing LLMs for Moral Value Pluralism Noam Benkler Smart Information Flow Technologies 319 1st AVE Minneapolis, MN 55401 nbenkler@sift.net Drisana Mosaphir Smart Information Flow Technologies 319 1"
 local_pdf: "[[PDFs/2023/2023-Benkler-Assessing LLMs for Moral Value Pluralism.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -39,7 +37,7 @@ is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "text-davinci, RoBERTa"
-DATA_URL: "NA"
+DATA_URL: NA
 DATE_ADDED: 20260207
 ---
 # Assessing LLMs for Moral Value Pluralism

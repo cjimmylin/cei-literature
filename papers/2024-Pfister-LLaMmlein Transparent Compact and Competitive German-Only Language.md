@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,29 +6,29 @@ Not AI:
 key: LSRC0477
 type: preprint
 short_title: "LLaMmlein: Transparent, Compact and Competitive German-Only Language Models from Scratch"
-year: 2024
+year: 2025
 first_author: "[[Jan Pfister]]"
 last_author: "[[Andreas Hotho]]"
-authors: Jan Pfister, Julia Wunderle, Andreas Hotho
+authors: "Jan Pfister, Julia Wunderle, Andreas Hotho"
 url: "https://arxiv.org/abs/2411.11171"
 external_pdf: "https://arxiv.org/pdf/2411.11171.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2024/2024-Pfister-LLaMmlein Transparent Compact and Competitive German-Only Language.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Pfister-LLaMmlein Transparent Compact and Competitive German-Only Language.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "German"
-languages_list: "German"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: German
+languages_list: German
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "LLäMmlein-120M, LLäMmlein-1B, bert-base-german-cased"

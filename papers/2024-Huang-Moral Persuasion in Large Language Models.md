@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,13 +9,13 @@ short_title: "Moral Persuasion in Large Language Models"
 year: 2025
 first_author: "[[Allison Huang]]"
 last_author: "[[Carlos Mougan]]"
-authors: Allison Huang; Yulu Niki Pi; Carlos Mougan
+authors: "Allison Huang; Yulu Niki Pi; Carlos Mougan"
 url: "https://arxiv.org/abs/2411.11731"
 external_pdf: "https://arxiv.org/pdf/2411.11731.pdf"
 publication: arXiv
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
@@ -35,7 +32,7 @@ is_benchmark: No
 is_eval: Yes
 is_dataset: No
 data_description: 
-data_metrics:
+data_metrics: 
 LLM_assessed: "GPT-4, Claude, Llama-3, Mistral, Mixtral"
 DATA_URL: "https://github.com/acyhuang/moral-persuasion"
 normative_ethics_benchmark: Borderline

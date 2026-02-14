@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "https://openreview.net/forum?id=ZFk4eh0WcL"
 external_pdf: "https://openreview.net/pdf?id=ZFk4eh0WcL"
 publication: "ICLR Workshop"
 national_ethnic_cultural: N/A
-religious_values: "Christianity"
-religious_values_list: "Christianity"
+religious_values: Christianity
+religious_values_list: Christianity
 moral_psychology: N/A
 newtags: "Utilitarianism, Deontology, Intrinsic Rewards, RL"
 key_contribution: "Introduces intrinsic reward functions encoding deontological and utilitarian ethics for RL"
@@ -37,7 +35,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "Gemma"
+LLM_assessed: Gemma
 DATA_URL: "https://github.com/liza-tennant/LLM_morality"
 ---
 # Moral Intrinsic Rewards for Alignment

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,14 +13,14 @@ authors: "[[Chalkidis, Ilias]]; [[Pasini, Tommaso]]; [[Zhang, Sheng]]; [[Tomada,
 url: "https://aclanthology.org/2022.acl-long.301/"
 external_pdf: "http://arxiv.org/pdf/2203.07228"
 national_ethnic_cultural: "Chinese, French, German, Italian"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Chinese, French, German, Italian, Bias & Fairness"
 key_contribution: "Created FairLex, a multilingual benchmark (EN, DE, FR, IT, ZH) for fairness in legal text processing, covering 4 jurisdictions."
 significance: "Shows that 'legal fairness' is jurisdictional – what counts as bias in Swiss law differs from US law, and models trained on one don't transfer to the other."
 tags: 
-local_pdf: "[[PDFs/2022/2022-Chalkidis-FairLex.pdf]]"
+local_pdf: [[PDFs/2022/2022-Chalkidis-FairLex.pdf]]
 pdf_extract: "PDF Extracts/2022/2022-Chalkidis-FairLex.md"
 abstract: "We present a benchmark suite of four datasets for evaluating the fairness of pre-trained lan- guage models and the techniques used to ﬁne-tune them for downstream tasks. Our benchmarks cover four jurisdictions (Euro- pean Council, USA, Switzerland, and China), ﬁve languages (English, German, French, Ital- ian and Chinese) and fairness across ﬁve at- tributes (gender, age, region, language, and le- gal area). In our experiments, we evaluate pre- trained language models using several group- robust"
 ethics_overall: No
@@ -35,8 +33,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # FairLex: A Multilingual Benchmark for Evaluating Fairness in Legal Text Processing
 

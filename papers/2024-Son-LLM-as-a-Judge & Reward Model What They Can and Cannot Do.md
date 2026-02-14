@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0263
 type: preprint
 short_title: "LLM-as-a-Judge & Reward Model: What They Can and Cannot Do"
-year: 2024
+year: 2025
 first_author: "[[Guijin Son]]"
 last_author: "[[Seunghyeok Hong]]"
-authors: Guijin Son, Hyunwoo Ko, Hoyoung Lee, Yewon Kim, Seunghyeok Hong
+authors: "Guijin Son, Hyunwoo Ko, Hoyoung Lee, Yewon Kim, Seunghyeok Hong"
 url: "https://arxiv.org/abs/2409.11239"
 external_pdf: "https://arxiv.org/pdf/2409.11239.pdf"
 local_pdf: "[[PDFs/2024/2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Korean"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Korean
 languages_list: "English, Korean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

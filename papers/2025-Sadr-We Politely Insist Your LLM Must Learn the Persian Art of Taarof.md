@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,27 +9,27 @@ short_title: "We Politely Insist: Your LLM Must Learn the Persian Art of Taarof 
 year: 2025
 first_author: "[[Nikta Gohari Sadr]]"
 last_author: "[[Ali Emami]]"
-authors: Nikta Gohari Sadr, Sahar Heidariasl, Karine Megerdoomian, Laleh Seyyed-Kalantari, Ali Emami
+authors: "Nikta Gohari Sadr, Sahar Heidariasl, Karine Megerdoomian, Laleh Seyyed-Kalantari, Ali Emami"
 url: "https://arxiv.org/abs/2509.01035"
 external_pdf: "https://arxiv.org/pdf/2509.01035.pdf"
 local_pdf: "[[PDFs/2025/2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof.md"
-publication: arXiv / EMNLP 2025
+publication: "arXiv / EMNLP 2025"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Iranian"
-languages_list: "Persian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Iranian
+languages_list: Persian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

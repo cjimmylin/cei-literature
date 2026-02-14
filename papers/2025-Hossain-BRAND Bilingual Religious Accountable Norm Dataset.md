@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,22 +17,22 @@ local_pdf: "[[PDFs/2025/2025-Hossain-BRAND Bilingual Religious Accountable Norm 
 pdf_extract: "PDF Extracts/2025/2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 religious_values: "Islam, Christianity, Buddhism, Hinduism"
 religious_values_list: "Islam, Christianity, Buddhism, Hinduism"
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 tags: 
 abstract: "While recent developments in large language models have improved bias detection and classification, sensitive subjects like religion still present challenges because even minor errors can result in severe misunderstandings. In particular, multilingual models often misrepresent religions and have difficulties being accurate in religious contexts. To address this, we introduce BRAND: Bilingual Religious Accountable Norm Dataset, which focuses on the four main religions of South Asia: Buddhism,..."
 ethics_perspective: "Social & Cultural Values"
-data_description: "Dataset"
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: "Mistral, Llama-3, Gemini, Gemma, Qwen"
 DATA_URL: "https://anonymous.4open.science/r/BRAND/README.md"

@@ -1,42 +1,39 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0197
 type: conferencePaper
-short_title: Measuring What Matters -- Construct Validity in LLM Benchmarks
-year: 2024
+short_title: "Measuring What Matters -- Construct Validity in LLM Benchmarks"
+year: 2025
 first_author: "[[Andrew M. Bean]]"
 last_author: "[[Adam Mahdi]]"
-authors: Andrew M. Bean; Ryan Othniel Kearns; Angelika Romanou; Franziska Sofia Hafner; Harry Mayne; Jan Batzner; Negar Foroutan; Chris Schmitz; Karolina Korgul; Hunar Batra; Oishi Deb; Emma Beharry; Cornelius Emde; Thomas Foster; Anna Gausen; Maria Grandury; Simeng Han; Valentin Hofmann; Lujain Ibrahim; Hazel Kim; Hannah Rose Kirk; Fangru Lin; Gabrielle Kaili-May Liu; Lennart Luettgau; Jabez Magomere; Jonathan Rystrom; Anna Sotnikova; Yushi Yang; Yilun Zhao; Adel Bibi; Antoine Bosselut; Ronald Clark; Arman Cohan; Jakob Foerster; Yarin Gal; Scott A. Hale; Inioluwa Deborah Raji; Christopher Summerfield; Philip H.S. Torr; Cozmin Ududec; Luc Rocher; Adam Mahdi
-publication: NeurIPS 2024
+authors: "Andrew M. Bean; Ryan Othniel Kearns; Angelika Romanou; Franziska Sofia Hafner; Harry Mayne; Jan Batzner; Negar Foroutan; Chris Schmitz; Karolina Korgul; Hunar Batra; Oishi Deb; Emma Beharry; Cornelius Emde; Thomas Foster; Anna Gausen; Maria Grandury; Simeng Han; Valentin Hofmann; Lujain Ibrahim; Hazel Kim; Hannah Rose Kirk; Fangru Lin; Gabrielle Kaili-May Liu; Lennart Luettgau; Jabez Magomere; Jonathan Rystrom; Anna Sotnikova; Yushi Yang; Yilun Zhao; Adel Bibi; Antoine Bosselut; Ronald Clark; Arman Cohan; Jakob Foerster; Yarin Gal; Scott A. Hale; Inioluwa Deborah Raji; Christopher Summerfield; Philip H.S. Torr; Cozmin Ududec; Luc Rocher; Adam Mahdi"
+publication: "NeurIPS 2024"
 external_pdf: "https://openreview.net/pdf?id=mdA5lVvNcU"
 local_pdf: "[[PDFs/2024/2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks.md"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
-abstract:
-research_topic: "Other"
-data_description: "Benchmark"
+abstract: 
+research_topic: Other
+data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Measuring What Matters -- Construct Validity in LLM Benchmarks
 

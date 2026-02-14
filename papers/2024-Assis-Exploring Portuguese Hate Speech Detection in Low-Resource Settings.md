@@ -7,34 +7,35 @@ Not AI:
 key: LSRC0226
 type: conferencePaper
 short_title: "Exploring Portuguese Hate Speech Detection in Low-Resource Settings: Lightly Tuning Encoder Models or In-Context Learning of Large Models?"
-year: 2024
+year: 2025
 first_author: "[[Gabriel Assis]]"
 last_author: "[[Aline Paes]]"
-authors: Gabriel Assis, Annie Amorim, Jonnathan Carvalho, Daniel de Oliveira, Daniela Vianna, Aline Paes
+authors: "Gabriel Assis, Annie Amorim, Jonnathan Carvalho, Daniel de Oliveira, Daniela Vianna, Aline Paes"
 url: "https://aclanthology.org/2024.propor-1.31/"
-publication: ACL Anthology (PROPOR 2024)
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://aclanthology.org/2024.propor-1.31.pdf"
+publication: "ACL Anthology (PROPOR 2024)"
+local_pdf: "[[PDFs/2024/2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Brazilian"
-languages_list: "Portuguese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Brazilian
+languages_list: Portuguese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Compares lightly-tuned encoder models with in-context learning of large models for Portuguese hate speech detection in low-resource settings."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Exploring Portuguese Hate Speech Detection in Low-Resource Settings: Lightly Tuning Encoder Models or In-Context Learning of Large Models?

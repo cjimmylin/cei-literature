@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "http://arxiv.org/abs/2303.17466"
 external_pdf: "http://arxiv.org/pdf/2303.17466.pdf"
 publication: C3NLP
 national_ethnic_cultural: "American, Multicultural/Cross-cultural"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "American, Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Empirically evaluated ChatGPT's cultural alignment using prompts designed to quantify cultural dimensions (e.g., Hofstede), finding strong alignment with American culture."
@@ -38,7 +36,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach text corpus for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT"
+LLM_assessed: ChatGPT
 DATA_URL: "https://github.com/yongcaoplus/ProbingChatGPT"
 ---
 # Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study

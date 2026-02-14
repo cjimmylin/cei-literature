@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,8 +8,8 @@ type: conferencePaper
 short_title: "Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and Governance | Philosophy & Technology | Springer Nature Link"
 year: 2025
 first_author: "[[Seán S. ÓhÉigeartaigh]]"
-last_author: "[[Unknown]]"
-authors: Seán S. ÓhÉigeartaigh; Jess Whittlestone; Yang Liu; Yi Zeng; Zhe Liu
+last_author: [[Unknown]]
+authors: "Seán S. ÓhÉigeartaigh; Jess Whittlestone; Yang Liu; Yi Zeng; Zhe Liu"
 doi: 10.1007/s13347-020-00402-x
 url: "https://link.springer.com/article/10.1007/s13347-020-00402-x"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s13347-020-00402-x.pdf"
@@ -18,20 +17,20 @@ publication: Springer
 local_pdf: "[[PDFs/2025/2025-ÓhÉigeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-ÓhÉigeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Multicultural/Cross-cultural
 languages_list: "Arabic, English, Multilingual, Turkish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

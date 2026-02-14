@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,13 +9,13 @@ short_title: "Machine Ethics - Creation of a Virtuous Machine"
 year: 2025
 first_author: "[[Mohamed Akrout]]"
 last_author: "[[Robert Steinbauer]]"
-authors: Mohamed Akrout; Robert Steinbauer
+authors: "Mohamed Akrout; Robert Steinbauer"
 doi: "arXiv:2002.00213"
 url: "https://arxiv.org/abs/2002.00213"
 publication: arXiv
 national_ethnic_cultural: N/A
-religious_values: "Confucianism"
-religious_values_list: "Confucianism"
+religious_values: Confucianism
+religious_values_list: Confucianism
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
@@ -34,9 +32,9 @@ is_benchmark: No
 is_eval: No
 is_dataset: No
 data_description: 
-data_metrics:
-LLM_assessed: "NA"
-DATA_URL: "NA"
+data_metrics: 
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Machine Ethics - Creation of a Virtuous Machine
 

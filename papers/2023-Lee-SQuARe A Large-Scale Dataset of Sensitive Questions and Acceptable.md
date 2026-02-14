@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0241
 type: preprint
 short_title: "SQuARe: A Large-Scale Dataset of Sensitive Questions and Acceptable Responses Created Through Human-Machine Collaboration"
-year: 2023
+year: 2025
 first_author: "[[Hwaran Lee]]"
 last_author: "[[Nako Sung]]"
-authors: Hwaran Lee, Seokhee Hong, Joonsuk Park, Takyoung Kim, Gunhee Kim, Byoung-Tak Zhang, Meeyoung Cha, Yejin Choi, Nako Sung
+authors: "Hwaran Lee, Seokhee Hong, Joonsuk Park, Takyoung Kim, Gunhee Kim, Byoung-Tak Zhang, Meeyoung Cha, Yejin Choi, Nako Sung"
 doi: 10.18653/v1/2023.acl-long.370
 url: "https://arxiv.org/abs/2305.17696"
 external_pdf: "https://arxiv.org/pdf/2305.17696.pdf"
 local_pdf: "[[PDFs/2023/2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable.md"
-publication: arXiv / ACL 2023
+publication: "arXiv / ACL 2023"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Korean"
-languages_list: "Korean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Korean
+languages_list: Korean
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: 

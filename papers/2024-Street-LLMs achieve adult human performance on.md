@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Winnie Street; John Oliver Siy; Geoff Keeling; Adrien Baranes; Benjami
 url: "https://arxiv.org/abs/2405.18870"
 external_pdf: "https://arxiv.org/pdf/2405.18870.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -35,7 +33,7 @@ is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, LaMDA, PaLM, Flan-PaLM"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # LLMs achieve adult human performance on higher-order theory of mind tasks
 

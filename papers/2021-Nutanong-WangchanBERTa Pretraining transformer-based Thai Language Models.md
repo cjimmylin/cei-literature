@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0613
 type: preprint
 short_title: "WangchanBERTa Pretraining transformer-based Thai Language Models"
-year: 2021
+year: 2025
 first_author: "[[Lalita Lowphansirikul, Charin Polpanumas, Nawat Jantrakulchai, Sarana Nutanong]]"
 last_author: "[[Lalita Lowphansirikul, Charin Polpanumas, Nawat Jantrakulchai, Sarana Nutanong]]"
 authors: "[[Lalita Lowphansirikul, Charin Polpanumas, Nawat Jantrakulchai, Sarana Nutanong]]"
@@ -21,23 +17,23 @@ local_pdf: "[[PDFs/2021/2021-Nutanong-WangchanBERTa Pretraining transformer-base
 pdf_extract: "PDF Extracts/2021/2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Thai"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Thai
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 tags: 
 abstract: "Transformer-based language models, more speciﬁcally BERT-based architectures have achieved state-of-the-art performance in many downstream tasks. However, for a relatively low-resource language such as Thai, the choices of models are limited to training a BERT-based model based on a much smaller dataset or ﬁnetuning multi-lingual models, both of which yield suboptimal downstream performance. Moreover, large-scale multi-lingual pretraining does not take into account language-speciﬁc features for..."
 data_description: "Annotated dataset"
 data_metrics: "78gb; 78.5gb"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/airesearch/wangchanberta-base-att-spm-uncased"
 research_topic: "NLP & Representation Learning"
 ---

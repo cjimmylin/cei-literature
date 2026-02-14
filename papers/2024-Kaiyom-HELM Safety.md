@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/5RFJXS3S/Kaiyom and others 
 pdf_extract: "[[2024-Kaiyom-HELM Safety]]"
 local_pdf: "[[PDFs/2024/2024-Kaiyom-HELM Safety.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Part of the Holistic Evaluation of Language Models (HELM), defining and implementing standardized safety evaluations across multiple models."
@@ -35,7 +33,7 @@ is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Mistral, Mixtral, Qwen, DeepSeek, Gemini"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # HELM Safety: Towards Standardized Safety Evaluations of Language Models
 

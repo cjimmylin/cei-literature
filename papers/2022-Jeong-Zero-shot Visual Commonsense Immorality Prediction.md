@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2211.05521"
 external_pdf: "http://arxiv.org/pdf/2211.05521.pdf"
 publication: "British Machine Vision Conference"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Proposed a CLIP-based model to predict *visual* immorality (e.g., a photo of someone kicking a dog) in a zero-shot manner, trained on the ETHICS text dataset."

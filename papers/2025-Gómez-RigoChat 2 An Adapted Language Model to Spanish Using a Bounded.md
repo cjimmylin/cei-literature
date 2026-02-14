@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +8,28 @@ type: preprint
 short_title: "RigoChat 2: An Adapted Language Model to Spanish Using a Bounded Dataset and Reduced Hardware"
 year: 2025
 first_author: "[[Gonzalo Santamaría Gómez]]"
-last_author: "[[Unknown]]"
-authors: Gonzalo Santamaría Gómez; Guillem García Subies; Pablo Gutiérrez Ruiz; Mario González Valero; Natàlia Fuertes; Helena Montoro Zamorano; Carmen Muñoz Sanz; Leire Rosado Plaza; Nuria Aldama García; David Betancur Sánchez; Kateryna Sushkova; Marta Guerrero Nieto; Álvaro Barbero Jiménez
+last_author: [[Unknown]]
+authors: "Gonzalo Santamaría Gómez; Guillem García Subies; Pablo Gutiérrez Ruiz; Mario González Valero; Natàlia Fuertes; Helena Montoro Zamorano; Carmen Muñoz Sanz; Leire Rosado Plaza; Nuria Aldama García; David Betancur Sánchez; Kateryna Sushkova; Marta Guerrero Nieto; Álvaro Barbero Jiménez"
 url: "https://arxiv.org/abs/2503.08188"
 external_pdf: "https://arxiv.org/pdf/2503.08188.pdf"
 local_pdf: "[[PDFs/2025/2025-Gómez-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Gómez-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Spanish"
-languages_list: "Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Spanish
+languages_list: Spanish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

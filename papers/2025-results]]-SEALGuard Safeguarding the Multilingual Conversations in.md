@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +15,26 @@ url: "https://arxiv.org/abs/2507.08898"
 external_pdf: "https://arxiv.org/pdf/2507.08898.pdf"
 local_pdf: "[[PDFs/2025/2025-results]]-SEALGuard Safeguarding the Multilingual Conversations in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-results]]-SEALGuard Safeguarding the Multilingual Conversations in.md"
-publication: AIware 2025
+publication: "AIware 2025"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Safety alignment is critical for LLM-powered systems. While recent LLM-powered guardrail approaches such as LlamaGuard achieve high detection accuracy of unsafe inputs written in English (e.g., “How to create a bomb?”), they struggle with multilingual unsafe inputs. This limitation leaves LLM systems vulnerable to unsafe and jailbreak prompts written in low-resource languages such as those in Southeast Asia."
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "260,000 prompts"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "AI Safety & Alignment"
 ---
 # SEALGuard: Safeguarding the Multilingual Conversations in Southeast Asian Languages for LLM Software Systems

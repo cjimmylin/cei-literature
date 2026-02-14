@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "Code-Switching Red-Teaming: LLM Evaluation for Safety and Multilin
 year: 2025
 first_author: "[[Haneul Yoo]]"
 last_author: "[[Hwaran Lee]]"
-authors: Haneul Yoo, Yongjin Yang, Hwaran Lee
+authors: "Haneul Yoo, Yongjin Yang, Hwaran Lee"
 url: "https://arxiv.org/abs/2406.15481"
 external_pdf: "https://arxiv.org/pdf/2406.15481.pdf"
 local_pdf: "[[PDFs/2025/2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual.md"
-publication: arXiv / ACL 2025
+publication: "arXiv / ACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Arabic, Bengali, Chinese, English, Italian, Javanese, Korean, Swahili, Thai, Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "10 languages"
 LLM_assessed: 

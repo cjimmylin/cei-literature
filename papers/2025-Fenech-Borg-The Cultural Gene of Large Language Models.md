@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "http://arxiv.org/abs/2508.12411"
 external_pdf: "http://arxiv.org/pdf/2508.12411.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "Chinese, Multicultural/Cross-cultural"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Chinese, Multicultural/Cross-cultural, Value Pluralism / Schwartz, Social & Cultural Values"
 key_contribution: "Investigates the 'cultural genes' of LLMs using a Cultural Probe Dataset (CPD), comparing the value orientations (Individualism vs. Collectivism) of Western (GPT-4) vs. Eastern (ERNIE) models."
@@ -38,8 +36,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4"
-DATA_URL: "NA"
+LLM_assessed: GPT-4
+DATA_URL: NA
 ---
 # The Cultural Gene of Large Language Models: A Study on the Impact of Cross-Corpus Training on Model Values and Biases
 

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0617
 type: preprint
 short_title: "Annotating Antisemitic Online Content Towards an"
-year: 2019
+year: 2025
 first_author: "[[Jikeli, Cavar,]]"
 last_author: "[[Jikeli, Cavar,]]"
 authors: "[[Jikeli, Cavar,]]"
@@ -21,24 +17,24 @@ local_pdf: "[[PDFs/2019/2019-Jikeli-Annotating Antisemitic Online Content Toward
 pdf_extract: "PDF Extracts/2019/2019-Jikeli-Annotating Antisemitic Online Content Towards an.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Hebrew/Israeli"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Hebrew/Israeli
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Online antisemitism is hard to quantify. How can it be measured in rapidly growing and diversifying platforms? Are the numbers of antisemitic messages rising proportionally to other content or is it the case that the share of antisemitic content is increasing? How does such content travel and what are reactions to it? How widespread is online Jew-hatred beyond infamous websites and fora, and closed social media groups?"
 data_description: "Evaluation methodology annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Annotating Antisemitic Online Content: Towards an Applicable Definition of Antisemitism

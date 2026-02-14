@@ -1,18 +1,14 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0111
 type: conferencePaper
-short_title: Robustness of Large Language Models in Moral Judgements
+short_title: "Robustness of Large Language Models in Moral Judgements"
 year: 2025
 first_author: "[[S. & Demberg Oh]]"
-last_author: "[[V]]"
+last_author: [[V]]
 authors: "Oh, S. & Demberg, V"
 doi: 10.1098/rsos.241229
 url: "https://doi.org/10.1098/rsos.241229"
@@ -21,25 +17,25 @@ local_pdf: "[[PDFs/2025/2025-Oh-Robustness of Large Language Models in Moral Jud
 pdf_extract: "PDF Extracts/2025/2025-Oh-Robustness of Large Language Models in Moral Judgements.md"
 publication: Unknown
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "AI Safety & Alignment"
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3.5"
-DATA_URL: "NA"
+LLM_assessed: GPT-3.5
+DATA_URL: NA
 normative_ethics_benchmark: Borderline
 ---
 # Robustness of Large Language Models in Moral Judgements

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2502.19582"
 external_pdf: "https://arxiv.org/pdf/2502.19582.pdf"
 local_pdf: "[[PDFs/2025/2025-Abdul-Mageed-Where Are We Evaluating LLM Performance.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Abdul-Mageed-Where Are We Evaluating LLM Performance.md"
-publication: ACL 2025
+publication: "ACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "African/Ubuntu"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: African/Ubuntu
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Africa’s rich linguistic heritage remains underrepresented in NLP, largely due to historical policies that favor foreign languages and create significant data inequities. In this paper, we integrate theoretical insights on Africa’s language landscape with an empirical evaluation using SAHARA— a comprehensive benchmark we curate from large-scale, publicly accessible datasets capturing the continent’s linguistic diversity."
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://africa.dlnlp.ai/sahara/ (public leaderboard)"
 research_topic: "Machine Learning"
 ---

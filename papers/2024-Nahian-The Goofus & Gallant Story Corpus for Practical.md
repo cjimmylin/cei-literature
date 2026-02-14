@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ tags:
 url: "http://arxiv.org/abs/2501.09707"
 external_pdf: "http://arxiv.org/pdf/2501.09707.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Created the Goofus & Gallant Story Corpus, a multi-modal dataset (text + artistic images) of normative and non-normative behavior derived from children's educational stories."
@@ -38,7 +36,7 @@ is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, BERT"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # The Goofus & Gallant Story Corpus for Practical Value Alignment
 

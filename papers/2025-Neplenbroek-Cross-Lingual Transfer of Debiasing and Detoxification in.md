@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "Cross-Lingual Transfer of Debiasing and Detoxification in Multilingual LLMs: An Extensive Investigation"
 year: 2025
 first_author: "[[Vera Neplenbroek]]"
-last_author: "[[Unknown]]"
-authors: Vera Neplenbroek; Arianna Bisazza; Raquel Fernández
+last_author: [[Unknown]]
+authors: "Vera Neplenbroek; Arianna Bisazza; Raquel Fernández"
 url: "https://arxiv.org/abs/2412.14050"
 external_pdf: "https://arxiv.org/pdf/2412.14050.pdf"
 local_pdf: "[[PDFs/2025/2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in.md"
-publication: arXiv / ACL Anthology (ACL 2025 Findings)
+publication: "arXiv / ACL Anthology (ACL 2025 Findings)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Indonesian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Indonesian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: 

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,28 +13,33 @@ authors: "[[Sharma, Deepawali]]; [[Nath, Tanusree]]; [[Gupta, Vedika]]; [[Singh,
 authors_incomplete: false
 url: "https://dl.acm.org/doi/10.1145/3711710"
 external_pdf: "https://doi.org/10.1016/j.knosys.2025.113915"
-local_pdf: "N/A"
-pdf_extract: ""
-publication: WebSearch: hate speech South Asian languages survey
+local_pdf: N/A
+pdf_access_status: manual_only
+pdf_access_last_checked: 2026-02-14
+pdf_access_error: "not_pdf_header (HTTP 200)"
+pdf_access_url: "https://doi.org/10.1016/j.knosys.2025.113915"
+pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
+pdf_extract: 
+publication: "WebSearch: hate speech South Asian languages survey"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 tags: 
 abstract: "Comprehensive survey of hate speech detection tasks, available datasets, and computational approaches for South Asian languages. Covers Tamil, Malayalam, Kannada and other Dravidian languages. Published in ACM TALLIP. Meta-survey covering hate speech datasets for Dravidian languages. Key reference for understanding the landscape of values-relevant datasets in these languages."
-data_description: "Dataset"
+data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Hate Speech Detection Research in South Asian Languages: A Survey of Tasks, Datasets and Methods

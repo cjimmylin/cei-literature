@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.48550/arXiv.2308.03825
 url: "https://jailbreak-llms.xinyueshen.me/"
 external_pdf: "https://dl.acm.org/doi/pdf/10.1145/3658644.3670388"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 

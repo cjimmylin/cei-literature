@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,29 +6,29 @@ Not AI:
 key: LSRC0433
 type: preprint
 short_title: "M-ALERT: LLMs Lost in Translation: M-ALERT uncovers Cross-Linguistic Safety Inconsistencies"
-year: 2024
+year: 2025
 first_author: "[[Felix Friedrich]]"
 last_author: "[[Kristian Kersting]]"
-authors: Felix Friedrich, Simone Teber, Patrick Schramowski, Manuel Brack, Kristian Kersting
+authors: "Felix Friedrich, Simone Teber, Patrick Schramowski, Manuel Brack, Kristian Kersting"
 url: "https://arxiv.org/abs/2412.15035"
 external_pdf: "https://arxiv.org/pdf/2412.15035.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2024/2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "French, German, Italian, Spanish"
 languages_list: "English, French, German, Italian, Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, Claude-2, Llama-2, Mistral, Gemini, Command, and 32 additional LLMs (39 total)"

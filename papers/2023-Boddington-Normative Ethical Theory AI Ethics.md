@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,11 +12,11 @@ last_author: "[[Paula Boddington]]"
 authors: "Paula Boddington"
 doi: 10.1007/978-981-19-9382-4_6
 url: "https://link.springer.com/chapter/10.1007/978-981-19-9382-4_6"
-external_pdf: N/A
+external_pdf: "http://arxiv.org/pdf/2306.11432"
 publication: "AI Ethics (Springer)"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Utilitarianism, Deontology, Virtue Ethics, Normative Ethics"
 key_contribution: "Comprehensive overview of consequentialism, deontology, and virtue ethics for AI"
@@ -27,7 +25,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Boddington-Normative Ethical Theory AI Ethics.md"
 abstract: "Normative ethical theories propose frameworks for determining value and for guiding judgment and action. The chapter examines three dominant varieties: consequentialism, focusing on outcomes of actions; deontology, focusing on the nature of actions themselves; and virtue ethics, focusing on the moral character of the agent. The application of ethical theories to situations of rapidly changing technology presents many challenges...."
 paper_summary: 
-local_pdf: N/A
+local_pdf: "[[PDFs/2023/2023-Boddington-Normative Ethical Theory AI Ethics.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -37,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Normative Ethical Theory AI Ethics
 
@@ -91,4 +89,3 @@ No PDF extract available for analysis.
 #Utilitarianism-#Deontology-#Virtue-Ethics-#Normative-Ethics
 
 ## Citation Info
-

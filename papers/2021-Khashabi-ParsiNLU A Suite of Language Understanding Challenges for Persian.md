@@ -7,36 +7,36 @@ Not AI:
 key: LSRC0143
 type: conferencePaper
 short_title: "ParsiNLU: A Suite of Language Understanding Challenges for Persian"
-year: 2021
+year: 2025
 first_author: "[[Daniel Khashabi]]"
 last_author: "[[Arman Cohan]]"
-authors: Daniel Khashabi, Arman Cohan et al.
+authors: "Daniel Khashabi, Arman Cohan et al."
 url: "https://aclanthology.org/2021.tacl-1.68.pdf"
 external_pdf: "https://arxiv.org/pdf/2012.06154v2.pdf"
 publication: TACL
 local_pdf: "[[PDFs/2021/2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Iranian"
-languages_list: "Persian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Iranian
+languages_list: Persian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
-research_topic: "Other"
+abstract: "First comprehensive Persian NLU benchmark with 6 tasks: reading comprehension, multiple-choice QA, textual entailment, sentiment analysis, query paraphrasing, and machine translation. Expert-annotated by native Persian speakers."
+research_topic: Other
 ---
 # ParsiNLU: A Suite of Language Understanding Challenges for Persian
 

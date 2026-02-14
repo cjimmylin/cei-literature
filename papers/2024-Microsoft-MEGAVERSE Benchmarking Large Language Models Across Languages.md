@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0056
 type: conferencePaper
 short_title: "MEGAVERSE: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks"
-year: 2024
+year: 2025
 first_author: "[[Not fully listed in search results (Microsoft)]]"
 last_author: "[[Not fully listed in search results (Microsoft)]]"
-authors: Not fully listed in search results (Microsoft)
+authors: "Not fully listed in search results (Microsoft)"
 url: "https://arxiv.org/abs/2311.07463"
 external_pdf: "https://arxiv.org/pdf/2311.07463.pdf"
 local_pdf: "[[PDFs/2024/2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages.md"
 publication: "WebSearch: Megaverse benchmarking LLM"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "African/Ubuntu"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: African/Ubuntu
 languages_list: "83 languages including Tamil, Telugu, Malayalam, Kannada"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "22 datasets; 83 languages"
 LLM_assessed: 

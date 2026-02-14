@@ -6,35 +6,36 @@ Human View note:
 Not AI: 
 key: LSRC0201
 type: conferencePaper
-short_title: Assessing Gender Bias of Pretrained Bangla Language Models
+short_title: "Assessing Gender Bias of Pretrained Bangla Language Models"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+first_author: [[Unknown]]
+last_author: [[Unknown]]
 authors: Unknown
 url: "https://aclanthology.org/2025.gebnlp-1.24/"
-publication: ACL Anthology (GeBNLP 2025)
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://aclanthology.org/2025.gebnlp-1.24.pdf"
+publication: "ACL Anthology (GeBNLP 2025)"
+local_pdf: "[[PDFs/2025/2025-Unknown-Assessing Gender Bias of Pretrained Bangla Language Models.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Unknown-Assessing Gender Bias of Pretrained Bangla Language Models.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Bengali"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Bengali
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Assessment of gender bias in pretrained Bangla language models. Evaluates how pre-existing gender stereotypes are encoded in Bangla PLMs."
 ethics_perspective: "Bias & Fairness"
 ---
 # Assessing Gender Bias of Pretrained Bangla Language Models

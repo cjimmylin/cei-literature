@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0228
 type: preprint
 short_title: "Evaluation of AI Ethics Tools in Language Models: A Developers' Perspective Case Study"
-year: 2024
+year: 2025
 first_author: "[[Authors not fully retrieved]]"
 last_author: "[[Authors not fully retrieved]]"
-authors: Authors not fully retrieved
+authors: "Authors not fully retrieved"
 url: "https://arxiv.org/abs/2512.15791"
 external_pdf: "https://arxiv.org/pdf/2512.15791.pdf"
 local_pdf: "[[PDFs/2024/2024-retrieved-Evaluation of AI Ethics Tools in Language Models A Developers'.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-retrieved-Evaluation of AI Ethics Tools in Language Models A Developers'.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Brazilian"
-languages_list: "Portuguese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Brazilian
+languages_list: Portuguese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: 

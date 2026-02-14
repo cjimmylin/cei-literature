@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "https://arxiv.org/abs/1907.00430"
 external_pdf: "https://arxiv.org/pdf/1907.00430.pdf"
 publication: arXiv
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Utilitarianism, Utility Functions, Value Alignment"
 key_contribution: "Proposes augmented utilitarianism for AI utility functions based on moral intuitions"
@@ -37,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Requisite Variety Ethical Utility Functions
 

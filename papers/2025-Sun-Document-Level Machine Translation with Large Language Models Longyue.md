@@ -1,36 +1,35 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0634
 type: conferencePaper
-short_title: Document-Level Machine Translation with Large Language Models Longyue Wang1∗
+short_title: "Document-Level Machine Translation with Large Language Models Longyue Wang1∗"
 year: 2025
 first_author: "[[Rui Sun]]"
 last_author: "[[Rui Sun]]"
-authors: Rui Sun
+authors: "Rui Sun"
 url: "https://openreview.net/pdf?id=sXErPfdA7Q"
 external_pdf: "https://aclanthology.org/2023.emnlp-main.1036.pdf"
 publication: OpenReview
 local_pdf: "[[PDFs/2025-Sun-Document-Level Machine Translation with Large Language Models Longyue.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Sun-Document-Level Machine Translation with Large Language Models Longyue.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "English, Uyghur"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

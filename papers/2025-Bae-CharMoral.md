@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,11 +11,11 @@ first_author: "[[Suyoung Bae]]"
 last_author: "[[Li, Boyang]]"
 authors: "[[Bae, Suyoung]]; [[Cho, Gunhee]]; [[Cheong, Yun-Gyung]]; [[Li, Boyang]]"
 url: "https://aclanthology.org/2025.coling-main.589/"
-local_pdf: "[[PDFs/2025/2025-Bae-CharMoral.pdf]]"
+local_pdf: [[PDFs/2025/2025-Bae-CharMoral.pdf]]
 external_pdf: "file:///Users/jimmylin/Zotero/storage/WVX533HJ/2025 - CharMoral A Character Morality Dataset for Morally Dynamic Character Analysis in Long-Form Narrativ.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Introduces 'CharMoral', a dataset annotated for analyzing the moral evolution and dynamic morality of characters in long-form narratives"

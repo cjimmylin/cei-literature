@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1073/pnas.1911517117
 url: "https://pnas.org/doi/full/10.1073/pnas.1911517117"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/G3UPAJU7/Awad et al. - 2020 - Universals and variations in moral decisions made in 42 countries by 70,000 participants.pdf"
 national_ethnic_cultural: Multicultural/Cross-cultural
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Analyzed 70k responses from 42 countries to sacrificial dilemmas, finding universal qualitative ordering but significant quantitative cultural variation driven by 'relational mobility'."
@@ -35,7 +33,7 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "10 languages"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://bit.ly/2Y7Brr9"
 pdf_extract: "PDF Extracts/2020/2020-Awad-Universals and variations in moral decisions made.md"
 local_pdf: "[[PDFs/2020/2020-Awad-Universals and variations in moral decisions made.pdf]]"

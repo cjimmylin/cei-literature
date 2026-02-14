@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0371
 type: preprint
 short_title: "VinaLLaMA: LLaMA-based Vietnamese Foundation Model"
-year: 2023
+year: 2025
 first_author: "[[Quan Nguyen]]"
 last_author: "[[Bao Nguyen]]"
-authors: Quan Nguyen, Huy Pham, Bao Nguyen
+authors: "Quan Nguyen, Huy Pham, Bao Nguyen"
 url: "https://arxiv.org/abs/2312.11011"
 external_pdf: "https://arxiv.org/pdf/2312.11011.pdf"
 local_pdf: "[[PDFs/2023/2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

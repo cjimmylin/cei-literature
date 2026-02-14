@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,30 +11,30 @@ first_author: "[[Preprints.org), Not fully identified in search results (preprin
 last_author: "[[Preprints.org), Not fully identified in search results (preprint available at]]"
 authors: "[[Not fully identified in search results (preprint available at Preprints.org)]]"
 authors_incomplete: false
-url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
-publication: AI and Ethics (Springer)
+url: 
+external_pdf: "https://link.springer.com/content/pdf/10.1007/s43681-025-00970-8.pdf"
+local_pdf: "[[PDFs/2025/2025-Preprintsorg-Incorporating Indigenous Knowledge Systems into AI.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Preprintsorg-Incorporating Indigenous Knowledge Systems into AI.md"
+publication: "AI and Ethics (Springer)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "This paper uses Comparative Qualitative Analysis to examine how Maori Kaitiakitanga (guardianship/stewardship) and Navajo Hozho (harmony/balance) principles can enhance AI governance. It proposes culturally relevant frameworks addressing data sovereignty, ecological sustainability, and community-driven decision-making, filling gaps in Western-centric AI governance models. The dual Indigenous perspective makes it particularly valuable for cross-cultural evaluation design."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Responsible AI"
 ---
 # Incorporating Indigenous Knowledge Systems into AI Governance: Enhancing Ethical Frameworks with Maori and Navajo Perspectives

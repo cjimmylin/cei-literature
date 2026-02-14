@@ -1,37 +1,34 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0052
 type: conferencePaper
-short_title: FairI Tales / INDIC-BIAS -- Evaluation of Fairness in Indian Contexts
+short_title: "FairI Tales / INDIC-BIAS -- Evaluation of Fairness in Indian Contexts"
 year: 2025
 first_author: "[[Janki Atul Nawale]]"
 last_author: "[[Mitesh M. Khapra]]"
-authors: Janki Atul Nawale; Mohammed Safi Ur Rahman Khan; Janani D; Mansi Gupta; Danish Pruthi; Mitesh M. Khapra
+authors: "Janki Atul Nawale; Mohammed Safi Ur Rahman Khan; Janani D; Mansi Gupta; Danish Pruthi; Mitesh M. Khapra"
 doi: 10.1007/s44443-025-00137-9
 url: "https://arxiv.org/abs/2506.23111"
 external_pdf: "https://arxiv.org/pdf/2506.23111.pdf"
 local_pdf: "[[PDFs/2025/2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.md"
-publication: ACL 2025
+publication: "ACL 2025"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Warning: This paper includes content that may be considered offensive or upsetting. Existing studies on fairness are largely Westernfocused, making them inadequate for culturally diverse countries such as India. To address this gap, we introduce INDIC-BIAS, a comprehensive India-centric benchmark designed to evaluate fairness of LLMs across 85 identity groups encompassing diverse castes, religions, regions, and tribes."
 ethics_perspective: "Bias & Fairness"

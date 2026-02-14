@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +14,8 @@ doi: 10.1007/s43681-025-00703-x
 url: "https://link.springer.com/10.1007/s43681-025-00703-x"
 external_pdf: "https://doi.org/10.1007/s43681-025-00703-x"
 national_ethnic_cultural: American
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "American, AI Safety & Alignment"
 key_contribution: "Meta-ethical critique arguing that establishing a universal 'ethics benchmark' for AI is philosophically impossible due to the relative nature of values."
@@ -33,8 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI.md"
 local_pdf: "[[PDFs/2025/2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI.pdf]]"
 ---

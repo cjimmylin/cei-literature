@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,32 +9,32 @@ short_title: "ALYMPICS: LLM Agents Meet Game Theory"
 year: 2025
 first_author: "[[Shaoguang Mao]]"
 last_author: "[[Furu Wei]]"
-authors: Shaoguang Mao; Yuzhe Cai; Yan Xia; Wenshan Wu; Xun Wang; Fengyi Wang; Tao Ge; Furu Wei
+authors: "Shaoguang Mao; Yuzhe Cai; Yan Xia; Wenshan Wu; Xun Wang; Fengyi Wang; Tao Ge; Furu Wei"
 url: "https://arxiv.org/abs/2311.03220"
 external_pdf: "https://arxiv.org/pdf/2311.03220.pdf"
 local_pdf: "[[PDFs/2025/2025-Mao-ALYMPICS LLM Agents Meet Game Theory.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mao-ALYMPICS LLM Agents Meet Game Theory.md"
-publication: COLING 2025
+publication: "COLING 2025"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "This paper introduces Alympics (Olympics for Agents), a systematic simulation framework utilizing Large Language Model (LLM) agents for game theory research. Alympics creates a versatile platform for studying complex game theory problems, bridging the gap between theoretical game theory and empirical investigations by providing a controlled environment for simulating human-like strategic interactions with LLM agents."
 research_topic: "NLP & Representation Learning"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4"
-DATA_URL: "NA"
+LLM_assessed: GPT-4
+DATA_URL: NA
 ---
 # ALYMPICS: LLM Agents Meet Game Theory
 

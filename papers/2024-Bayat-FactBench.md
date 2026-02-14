@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,14 +16,14 @@ url: "http://arxiv.org/abs/2410.22257"
 external_pdf: "http://arxiv.org/pdf/2410.22257.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 pdf_extract: "PDF Extracts/2024/2024-Bayat-FactBench.md"
 abstract: "The rapid adoption of language models (LMs) across diverse applications has raised concerns about their factuality, i.e., their consistency with real-world facts. We first present VER- IFY (Verification and Evidence RetrIeval for FactualitY evaluation), a pipeline to evalu- ate LMs’ factuality in real-world user inter- actions. VERIFY considers the verifiabil- ity of LM-generated content and categorizes content units as supported, unsupported, or undecidable based on Web-retrieved ev- idence. Im"
 paper_summary: "Abstract: The rapid adoption of language models (LMs) across diverse applications has raised concerns about their factuality, i.e., their consistency with real-world facts. We first present VER- IFY (Verificati | Overview: FactBench: A Dynamic Benchmark for In-the-Wild Language Model Factuality Evaluation Farima Fatahi Bayat, Lechen Zhang, Sheza Munir, Lu Wang University of Michigan, Ann Arbor {farimaf, leczhang, shezam | Methodology: by labeling such cases as undecidable. While this evidence-based strategy may yield lower factuality scores, it ensures more trustworthy evaluations.  | Key Findings: Farima Fatahi Bayat, Lechen Zhang, Sheza Munir, Lu Wang University of Michigan, Ann Arbor {farimaf, leczhang, shezamnr, wangluxy}@umich.edu https://hu | Conclusions: We present VERIFY, a factuality evaluation pipeline that annotates LM responses in real-world settings by decomposing them into content units and labe"
-local_pdf: "[[PDFs/2024/2024-Bayat-FactBench.pdf]]"
+local_pdf: [[PDFs/2024/2024-Bayat-FactBench.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

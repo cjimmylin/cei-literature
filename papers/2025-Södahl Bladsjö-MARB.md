@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "[[Södahl Bladsjö, Tom]]; [[Muñoz Sánchez, Ricardo]]"
 url: "https://aclanthology.org/2025.gebnlp-1.5/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/95P47V4W/2025 - MARB A Dataset for Studying the Social Dimensions of Reporting Bias in Language Models.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Presented MARB, a dataset for studying 'reporting bias'—the tendency to over-report deviating attributes—as a lens for analyzing social biases (gender, etc.) in LMs."

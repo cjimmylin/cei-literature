@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,36 +6,36 @@ Not AI:
 key: LSRC0543
 type: journalArticle
 short_title: "AI-Based Hate Speech Detection in Albanian Social Media: New Dataset and Mobile Web Application Integration"
-year: 2024
+year: 2025
 first_author: "[[Etrit Fetahi]]"
 last_author: "[[Xhemal Zenuni]]"
-authors: Etrit Fetahi, Majlinda Hamiti, Arianit Susuri, Jaumin Ajdari, Xhemal Zenuni
+authors: "Etrit Fetahi, Majlinda Hamiti, Arianit Susuri, Jaumin Ajdari, Xhemal Zenuni"
 doi: 10.3991/ijim.v18i24.50851
 url: "https://online-journals.org/index.php/i-jim/article/view/50851"
 external_pdf: "https://online-journals.org/index.php/i-jim/article/download/50851/15687"
-publication: International Journal of Interactive Mobile Technologies
+publication: "International Journal of Interactive Mobile Technologies"
 local_pdf: "[[PDFs/2024/2024-Fetahi-AI-Based Hate Speech Detection in Albanian Social Media New Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Fetahi-AI-Based Hate Speech Detection in Albanian Social Media New Dataset.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Albanian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Albanian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: "AlBERT-Albanian (if exists), mBERT, XLM-RoBERTa"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # AI-Based Hate Speech Detection in Albanian Social Media: New Dataset and Mobile Web Application Integration

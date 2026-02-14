@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,29 +9,29 @@ short_title: "Will Systems of LLM Agents Cooperate: An Investigation into a Soci
 year: 2025
 first_author: "[[Richard Willis]]"
 last_author: "[[Michael Luck]]"
-authors: Richard Willis; Yali Du; Joel Z Leibo; Michael Luck
+authors: "Richard Willis; Yali Du; Joel Z Leibo; Michael Luck"
 url: "https://arxiv.org/abs/2501.16173"
 external_pdf: "https://arxiv.org/pdf/2501.16173.pdf"
 local_pdf: "[[PDFs/2025/2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "As autonomous agents become more prevalent, understanding their collective behaviour in strategic interactions is crucial. This study investigates the emergent cooperative tendencies of systems of Large Language Model (LLM) agents in a social dilemma. Unlike previous research where LLMs output individual actions, we prompt state-of-theart LLMs to generate complete strategies for iterated Prisoner’s Dilemma."
 research_topic: "NLP & Representation Learning"
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude"
 DATA_URL: "https://github.com/willis-richard/evollm"

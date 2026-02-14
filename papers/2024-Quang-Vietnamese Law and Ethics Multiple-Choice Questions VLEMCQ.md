@@ -1,40 +1,39 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0381
 type: conferencePaper
-short_title: Vietnamese Law and Ethics Multiple-Choice Questions (VLEMCQ)
-year: 2024
+short_title: "Vietnamese Law and Ethics Multiple-Choice Questions (VLEMCQ)"
+year: 2025
 first_author: "[[Dung Nguyen Quang]]"
 last_author: "[[Dung Nguyen Quang]]"
-authors: Dung Nguyen Quang
+authors: "Dung Nguyen Quang"
 url: "https://huggingface.co/datasets/nqdhocai/vietnamese-legal-qa"
 publication: HuggingFace
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "General Ethics"
 ---
 # Vietnamese Law and Ethics Multiple-Choice Questions (VLEMCQ)

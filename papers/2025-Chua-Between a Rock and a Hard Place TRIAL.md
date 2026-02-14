@@ -1,43 +1,39 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0028
 type: preprint
-short_title: Between a Rock and a Hard Place (TRIAL)
+short_title: "Between a Rock and a Hard Place (TRIAL)"
 year: 2025
 first_author: "[[Shei Pern Chua]]"
 last_author: "[[Xiaolin Hu Qibing Ren]]"
-authors: Shei Pern Chua, Zhen Leng Thai, Kai Jun Teh, Xiao Li, Qibing Ren, Xiaolin Hu
+authors: "Shei Pern Chua, Zhen Leng Thai, Kai Jun Teh, Xiao Li, Qibing Ren, Xiaolin Hu"
 url: "https://arxiv.org/abs/2509.05367"
 external_pdf: "https://arxiv.org/pdf/2509.05367.pdf"
 local_pdf: "[[PDFs/2025/2025-Chua-Between a Rock and a Hard Place TRIAL.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Chua-Between a Rock and a Hard Place TRIAL.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Warning: This paper contains potentially offensive and harmful text. Large Language Model safety alignment predominantly operates on a binary assumption that requests are either safe or unsafe. This classification proves insufficient when models encounter ethical dilemmas, where the capacity to reason through moral trade-offs creates a distinct attack surface. We formalize this vulnerability through TRIAL, a multi-turn red-teaming methodology that embeds harmful requests within ethical framings."
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Mistral"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Borderline
 ---
 # Between a Rock and a Hard Place (TRIAL)

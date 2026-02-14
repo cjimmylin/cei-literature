@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "https://link.springer.com/article/10.1007/s11098-024-02249-w"
 external_pdf: "https://arxiv.org/pdf/2408.16984.pdf"
 publication: "Philosophical Studies"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Utilitarianism, Value Alignment, Expected Utility Theory"
 key_contribution: "Critiques expected utility maximization as the foundation for AI alignment"
@@ -37,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Beyond Preferences in AI Alignment
 

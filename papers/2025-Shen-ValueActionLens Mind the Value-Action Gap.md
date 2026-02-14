@@ -1,36 +1,33 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0139
 type: conferencePaper
-short_title: ValueActionLens (Mind the Value-Action Gap)
+short_title: "ValueActionLens (Mind the Value-Action Gap)"
 year: 2025
 first_author: "[[Hua Shen]]"
 last_author: "[[Tanushree Mitra]]"
-authors: Hua Shen, Nicholas Clark, Tanushree Mitra
+authors: "Hua Shen, Nicholas Clark, Tanushree Mitra"
 url: "https://arxiv.org/abs/2501.15463"
 external_pdf: "https://arxiv.org/pdf/2501.15463.pdf"
 local_pdf: "[[PDFs/2025/2025-Shen-ValueActionLens Mind the Value-Action Gap.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Shen-ValueActionLens Mind the Value-Action Gap.md"
-publication: EMNLP 2025
+publication: "EMNLP 2025"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Existing research assesses LLMs’ values by analyzing their stated inclinations, overlooking potential discrepancies between stated values and actions—termed the “Value-Action Gap.” This study introduces ValueActionLens, a framework to evaluate the alignment between LLMs’ stated values and their value-informed actions. The framework includes a dataset of 14.8k value-informed actions across 12 cultures and 11 social topics, along with two tasks measuring alignment through three metrics."
 ethics_perspective: "AI Safety & Alignment"

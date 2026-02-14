@@ -1,40 +1,39 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0775
 type: conferencePaper
-short_title: Cross-Cultural Challenges to Artificial Intelligence Ethics
+short_title: "Cross-Cultural Challenges to Artificial Intelligence Ethics"
 year: 2025
 first_author: "[[Hadi Mohammadi]]"
-last_author: "[[Yasmeen]]"
-authors: Hadi Mohammadi, Yasmeen
+last_author: [[Yasmeen]]
+authors: "Hadi Mohammadi, Yasmeen"
 url: "https://www.mdpi.com/2813-0324/8/1/21"
 publication: MDPI
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Multicultural/Cross-cultural
 languages_list: "Arabic, English, Multilingual, Turkish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Social & Cultural Values"
 ---
 # Cross-Cultural Challenges to Artificial Intelligence Ethics

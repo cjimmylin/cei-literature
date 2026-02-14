@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0025
 type: preprint
 short_title: "HeBERT & HebEMO: a Hebrew BERT Model and a Tool for Polarity Analysis and Emotion Recognition"
-year: 2022
+year: 2025
 first_author: "[[Avihay Chriqui]]"
 last_author: "[[Inbal Yahav]]"
-authors: Avihay Chriqui, Inbal Yahav
+authors: "Avihay Chriqui, Inbal Yahav"
 doi: 10.1287/ijds.2022.0016
 url: "https://arxiv.org/abs/2102.01909"
 external_pdf: "https://arxiv.org/pdf/2102.01909.pdf"
 local_pdf: "[[PDFs/2022/2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model and a Tool for Polarity Analysis.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model and a Tool for Polarity Analysis.md"
-publication: arXiv / INFORMS Journal on Data Science
+publication: "arXiv / INFORMS Journal on Data Science"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-national_ethnic_cultural: "Hebrew/Israeli"
-languages_list: "Hebrew"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+national_ethnic_cultural: Hebrew/Israeli
+languages_list: Hebrew
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

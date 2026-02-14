@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +15,25 @@ url: "https://aclanthology.org/2025.naacl-long.507/"
 external_pdf: "https://arxiv.org/pdf/2411.02538.pdf"
 local_pdf: "[[PDFs/2025/2025-Verma-MILU A Multi-task Indic Language Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Verma-MILU A Multi-task Indic Language Understanding.md"
-publication: WebSearch: MILU benchmark
+publication: "WebSearch: MILU benchmark"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Evaluating Large Language Models (LLMs) in low-resource and linguistically diverse languages remains a significant challenge in NLP, particularly for languages using non-Latin scripts like those spoken in India. Existing benchmarks predominantly focus on English, leaving substantial gaps in assessing LLM capabilities in these languages. We introduce MILU—Multi-task Indic Language Understanding Benchmark—a comprehensive evaluation benchmark designed to address this gap."
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/ai4bharat/MILU"
 research_topic: "Machine Learning"
 ---

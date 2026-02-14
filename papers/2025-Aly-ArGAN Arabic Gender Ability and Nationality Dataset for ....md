@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,31 +9,32 @@ short_title: "ArGAN: Arabic Gender, Ability, and Nationality Dataset for ..."
 year: 2025
 first_author: "[[Ranwa Aly]]"
 last_author: "[[Rana Gaber]]"
-authors: Ranwa Aly, Yara Allam, Rana Gaber
+authors: "Ranwa Aly, Yara Allam, Rana Gaber"
 url: "https://aclanthology.org/2025.gebnlp-1.23.pdf"
-publication: ACL Anthology
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://aclanthology.org/2025.gebnlp-1.23.pdf"
+publication: "ACL Anthology"
+local_pdf: "[[PDFs/2025/2025-Aly-ArGAN Arabic Gender Ability and Nationality Dataset for ....pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Aly-ArGAN Arabic Gender Ability and Nationality Dataset for ....md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Arabic"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Arabic
 languages_list: "Arabic, English"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 research_topic: "Bias & Fairness"
 ---
 # ArGAN: Arabic Gender, Ability, and Nationality Dataset for ...

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +9,7 @@ short_title: "Randomness, Not Representation: The Unreliability of Evaluating Cu
 year: 2025
 first_author: "[[Ariba Khan]]"
 last_author: "[[Dylan Hadfield-Menell]]"
-authors: Ariba Khan; Stephen Casper; Dylan Hadfield-Menell
+authors: "Ariba Khan; Stephen Casper; Dylan Hadfield-Menell"
 doi: 10.1145/3715275.3732147
 url: "https://arxiv.org/abs/2503.08688"
 external_pdf: "https://arxiv.org/pdf/2503.08688.pdf"
@@ -20,25 +17,25 @@ local_pdf: "[[PDFs/2025/2025-Khan-Randomness Not Representation The Unreliabilit
 pdf_extract: "PDF Extracts/2025/2025-Khan-Randomness Not Representation The Unreliability of Evaluating.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, Mistral"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Randomness, Not Representation: The Unreliability of Evaluating Cultural Alignment in LLMs
 

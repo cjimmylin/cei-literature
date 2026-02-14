@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,34 +6,34 @@ Not AI:
 key: EXSR0618
 type: preprint
 short_title: "Are They Our Brothers Analysis and"
-year: 2018
+year: 2025
 first_author: "[[Nuha Albadi, Maram Kurdi, Shivakant Mishra]]"
 last_author: "[[Nuha Albadi, Maram Kurdi, Shivakant Mishra]]"
 authors: "[[Nuha Albadi, Maram Kurdi, Shivakant Mishra]]"
 authors_incomplete: false
-url: ""
-external_pdf: "https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00404/1962472/tacl_a_"
-local_pdf: "N/A"
-pdf_extract: ""
-publication: IEEE/ACM ASONAM 2018
+url: 
+external_pdf: "https://czasopisma.isppan.waw.pl/sm/article/download/2710/2291"
+local_pdf: "[[PDFs/2018/2018-Mishra-Are They Our Brothers Analysis and.pdf]]"
+pdf_extract: "PDF Extracts/2018/2018-Mishra-Are They Our Brothers Analysis and.md"
+publication: "IEEE/ACM ASONAM 2018"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Arabic"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Arabic
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "First paper to address religious hate speech detection in Arabic Twitter. Creates the first publicly available Arabic dataset annotated for religious hate speech and the first Arabic lexicon of religious discussion terms with polarity/strength scores. Achieves 0.84 AUROC with simple RNN-GRU architecture. Addresses sectarian hate speech, a critical gap in Arabic NLP."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/nuhaalbadi/Arabic_hatespeech"
 ethics_perspective: "Toxicity & Hate Speech"
 ---

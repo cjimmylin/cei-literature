@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1145/3627673.3679924
 url: "http://arxiv.org/abs/2410.09564"
 external_pdf: "http://arxiv.org/pdf/2410.09564.pdf"
 national_ethnic_cultural: Japanese
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Japanese, Moral Reasoning & Psychology"
 key_contribution: "Expanded the JCommonsenseMorality dataset (eJCM) using 'Masked Token and Label Enhancement' to capture Japanese-specific cultural moral norms."

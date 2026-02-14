@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1016/j.patter.2022.100462
 url: "https://linkinghub.elsevier.com/retrieve/pii/S2666389922000423"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/HH8893VS/Gwagwa et al. - 2022 - The role of the African value of Ubuntu in global AI inclusion discourse A normative ethics perspec.pdf"
 national_ethnic_cultural: African/Ubuntu
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "African/Ubuntu, Social & Cultural Values"
 key_contribution: "Explores how the African value of Ubuntu (relational ethics) can inform global AI inclusion and normative ethics."
@@ -34,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.md"
 local_pdf: "[[PDFs/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.pdf]]"
 ---

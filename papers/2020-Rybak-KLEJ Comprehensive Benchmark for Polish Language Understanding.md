@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0337
 type: preprint
 short_title: "KLEJ: Comprehensive Benchmark for Polish Language Understanding"
-year: 2020
+year: 2025
 first_author: "[[Piotr Rybak]]"
 last_author: "[[Ireneusz Gawlik]]"
-authors: Piotr Rybak, Robert Mroczkowski, Janusz Tracz, Ireneusz Gawlik
+authors: "Piotr Rybak, Robert Mroczkowski, Janusz Tracz, Ireneusz Gawlik"
 url: "https://arxiv.org/abs/2005.00630"
 external_pdf: "https://arxiv.org/pdf/2005.00630.pdf"
 local_pdf: "[[PDFs/2020/2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding.md"
-publication: arXiv / ACL 2020
+publication: "arXiv / ACL 2020"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Polish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Polish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

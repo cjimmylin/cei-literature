@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0519
 type: preprint
 short_title: "Quranic Audio Dataset Crowdsourced and Labeled"
-year: 2024
+year: 2025
 first_author: "[[Raghad Salameh, Mohamad Al Mdfaa, Nursultan Askarbekuly, Manuel Mazzara]]"
 last_author: "[[Raghad Salameh, Mohamad Al Mdfaa, Nursultan Askarbekuly, Manuel Mazzara]]"
 authors: "[[Raghad Salameh, Mohamad Al Mdfaa, Nursultan Askarbekuly, Manuel Mazzara]]"
@@ -21,23 +17,23 @@ local_pdf: "[[PDFs/2024/2024-Mazzara-Quranic Audio Dataset Crowdsourced and Labe
 pdf_extract: "PDF Extracts/2024/2024-Mazzara-Quranic Audio Dataset Crowdsourced and Labeled.md"
 publication: ScienceDirect
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Arabic"
-religious_values: "Islam"
-religious_values_list: "Islam"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Arabic
+religious_values: Islam
+religious_values_list: Islam
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 tags: 
 abstract: "This paper addresses the challenge of learning to recite the Quran for non-Arabic speakers. We explore the possibility of crowdsourcing a carefully annotated Quranic dataset, on top of which AI models can be built to simplify the learning process. In particular, we use the volunteer-based crowdsourcing genre and implement a crowdsourcing API to gather audio assets. We integrated the API into an existing mobile application called NamazApp to collect audio recitations."
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/RetaSy/quranic_audio_dataset"
 research_topic: "Machine Learning"
 ---

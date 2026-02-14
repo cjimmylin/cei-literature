@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/1811.05594"
 external_pdf: "http://arxiv.org/pdf/1811.05594.pdf"
 publication: "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (AIES)"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Machine Ethics"
 key_contribution: "Developed TrolleyMod v1.0, an open-source platform based on the CARLA simulator for collecting data on human ethical decision-making in driving scenarios (trolley problems)."
@@ -38,7 +36,7 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/zminton/TrolleyMod/wiki"
 ---
 # TrolleyMod v1.0: An Open-Source Simulation and Data-Collection Platform for Ethical Decision Making in Autonomous Vehicles

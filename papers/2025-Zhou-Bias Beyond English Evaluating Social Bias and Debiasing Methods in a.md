@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "Bias Beyond English: Evaluating Social Bias and Debiasing Methods in a Low-Resource Setting"
 year: 2025
 first_author: "[[Ej Zhou]]"
-last_author: "[[Unknown]]"
-authors: Ej Zhou; Weiming Lu
+last_author: [[Unknown]]
+authors: "Ej Zhou; Weiming Lu"
 url: "https://arxiv.org/abs/2504.11183"
 external_pdf: "https://arxiv.org/pdf/2504.11183.pdf"
 local_pdf: "[[PDFs/2025/2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Chinese, Indonesian, Thai, Russian"
-languages_list: "Indonesian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+languages_list: Indonesian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
 LLM_assessed: 

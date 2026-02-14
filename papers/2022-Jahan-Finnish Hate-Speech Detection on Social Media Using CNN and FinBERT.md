@@ -1,42 +1,41 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0497
 type: conferencePaper
-short_title: Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT
-year: 2022
+short_title: "Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT"
+year: 2025
 first_author: "[[Md Saroar Jahan]]"
 last_author: "[[Nabil Arhab]]"
-authors: Md Saroar Jahan, Mourad Oussalah, Nabil Arhab
+authors: "Md Saroar Jahan, Mourad Oussalah, Nabil Arhab"
 url: "https://aclanthology.org/2022.lrec-1.92/"
-publication: ACL Anthology / LREC 2022
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://aclanthology.org/2022.lrec-1.92.pdf"
+publication: "ACL Anthology / LREC 2022"
+local_pdf: "[[PDFs/2022/2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Finnish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Finnish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "FinBERT"
-DATA_URL: "NA"
+LLM_assessed: FinBERT
+DATA_URL: NA
 tags: 
-abstract:
-research_topic: "Other"
+abstract: 
+research_topic: Other
 ---
 # Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT
 

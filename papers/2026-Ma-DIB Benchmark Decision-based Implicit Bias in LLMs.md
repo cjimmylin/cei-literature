@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: EXSR0276
 type: preprint
 short_title: "DIB Benchmark: Decision-based Implicit Bias in LLMs"
-year: 2026
+year: 2025
 first_author: "[[Ma, Yiming]]"
 last_author: "[[Dong, Wei]]"
 authors: "[[Ma, Yiming]]; [[Wang, Lixu]]; [[Wang, Lionel Z.]]; [[Yang, Hongkun]]; [[Sun, Haoming]]; [[Xu, Xin]]; [[Wu, Jiaqi]]; [[Chen, Bin]]; [[Dong, Wei]]"
@@ -20,25 +17,25 @@ local_pdf: "[[PDFs/2026/2026-Ma-DIB Benchmark Decision-based Implicit Bias in LL
 pdf_extract: "PDF Extracts/2026/2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Chinese, Singaporean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Long-term memory mechanisms enable Large Language Models (LLMs) to maintain continuity and personalization across extended interaction lifecycles, but they also introduce new and underexplored risks related to fairness. In this work, we study how implicit bias, defined as subtle statistical prejudice, accumulates and propagates within LLMs equipped with long-term memory. To support systematic analysis, we introduce the Decision-based Implicit Bias (DIB) Benchmark, a large-scale dataset..."
 ethics_perspective: "Bias & Fairness"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude, Gemini, DeepSeek, Qwen, Llama-3"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # DIB Benchmark: Decision-based Implicit Bias in LLMs
 

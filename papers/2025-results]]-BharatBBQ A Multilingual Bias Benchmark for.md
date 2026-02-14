@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +15,26 @@ url: "https://arxiv.org/abs/2508.07090"
 external_pdf: "https://arxiv.org/pdf/2508.07090.pdf"
 local_pdf: "[[PDFs/2025/2025-results]]-BharatBBQ A Multilingual Bias Benchmark for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-results]]-BharatBBQ A Multilingual Bias Benchmark for.md"
-publication: WebSearch: BharatBBQ bias benchmark
+publication: "WebSearch: BharatBBQ bias benchmark"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Evaluating social biases in language models (LMs) is crucial for ensuring fairness and minimizing the reinforcement of harmful stereotypes in AI systems. Existing benchmarks, such as the Bias Benchmark for Question Answering (BBQ), primarily focus on Western contexts, limiting their applicability to the Indian context. To address this gap, we introduce BharatBBQ 1, a culturally adapted benchmark designed to assess biases in Hindi, English, Marathi, Bengali, Tamil, Telugu, Odia, and Assamese."
 data_description: "Multilingual benchmark for bias and fairness dataset for question answering"
 data_metrics: "49,108 examples; 392,864 examples"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Bias & Fairness"
 ---
 # BharatBBQ: A Multilingual Bias Benchmark for Question Answering in the Indian Context

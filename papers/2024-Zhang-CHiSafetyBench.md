@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Wenjing Zhang; Xuejiao Lei; Zhaoxiang Liu; Meijuan An; Bikun Yang; Kai
 url: "https://arxiv.org/abs/2406.10311"
 external_pdf: "https://arxiv.org/pdf/2406.10311.pdf"
 national_ethnic_cultural: Chinese
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Chinese, AI Safety & Alignment"
 key_contribution: "Introduced CHiSafetyBench, a hierarchical Chinese safety benchmark with 31 categories (5 risk areas) for evaluating risky content identification and refusal capabilities."
@@ -25,8 +23,8 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Zhang-CHiSafetyBench.md"
 abstract: "With the profound development of large language mod- els(LLMs), their safety concerns have garnered increasing attention. However, there is a scarcity of Chinese safety benchmarks for LLMs, and the existing safety taxonomies are inadequate, lacking comprehensive safety detection ca- pabilities in authentic Chinese scenarios. In this work, we introduce CHiSafetyBench, a dedicated safety benchmark for evaluating LLMs’ capabilities in identifying risky con- tent and refusing answering risky questio"
 paper_summary: "Abstract: With the profound development of large language mod- els(LLMs), their safety concerns have garnered increasing attention. However, there is a scarcity of Chinese safety benchmarks for LLMs, and the ex | Overview: CHiSafetyBench: A Chinese Hierarchical Safety Benchmark for Large Language Models Wenjing Zhang1,2, Xuejiao Lei1,2, Zhaoxiang Liu1,2*, Meijuan An1,2, Bikun Yang1,2, Kaikai Zhao1,2, Kai Wang1,2, Shiguo | Methodology: that rivals human assessment, facilitating cost-effective and efficient testing of model safety detection and de- fense capabilities, significantly re | Key Findings: not only focuses on overarching but also specific safety di- mensions. Notably, existing hierarchical safety benchmarks predominantly focus on English | Conclusions: We introduce CHiSafetyBench, a specialized and credible benchmark designed based on a Chinese hierarchical safety taxonomy. CHiSafetyBench encompasses"
-local_pdf: "[[PDFs/2024/2024-Zhang-CHiSafetyBench.pdf]]"
-ethics_overall: Yes
+local_pdf: "[[PDFs/2024-Zhang-CHiSafetyBench.pdf]]"
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -36,7 +34,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for ai safety text corpus"
 data_metrics: "31 categories"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/UnicomAI/UnicomBenchmark/tree/main/CHiSafetyBench"
 publication: arXiv
 DATE_ADDED: 20260207

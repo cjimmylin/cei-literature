@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "[[He, He]]; [[Zha, Sheng]]; [[Wang, Haohan]]"
 url: "https://aclanthology.org/D19-6115/"
 external_pdf: "https://aclanthology.org/D19-6115.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Proposed DRiFt (Debiased Residual Fitting), a learning algorithm that removes known dataset biases (superficial cues) by fitting the residual of a 'biased' model."
@@ -35,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
-DATA_URL: "NA"
+LLM_assessed: BERT
+DATA_URL: NA
 ---
 # Unlearn Dataset Bias in Natural Language Inference by Fitting the Residual
 

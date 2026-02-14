@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,35 +6,35 @@ Not AI:
 key: EXSR0181
 type: conferencePaper
 short_title: "Hidden Persuaders: LLMs' Political Leaning and Their Influence on Voters"
-year: 2024
+year: 2025
 first_author: "[[Yujin Potter]]"
 last_author: "[[Dawn Song]]"
-authors: Yujin Potter, Shiyang Lai, Junsol Kim, James Evans, Dawn Song
+authors: "Yujin Potter, Shiyang Lai, Junsol Kim, James Evans, Dawn Song"
 url: "https://arxiv.org/abs/2410.24190"
 external_pdf: "https://arxiv.org/pdf/2410.24190.pdf"
 local_pdf: "[[PDFs/2024/2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on.md"
-publication: EMNLP 2024
+publication: "EMNLP 2024"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "American"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: American
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "How could LLMs influence our democracy? We investigate LLMs’ political leanings and the potential influence of LLMs on voters by conducting multiple experiments in a U.S. presidential election context. Through a voting simulation, we first demonstrate 18 openand closed-weight LLMs’ political preference for a Democratic nominee over a Republican nominee. We show how this leaning towards the Democratic nominee becomes more pronounced in instruction-tuned models compared to their base versions by..."
 ethics_perspective: "AI Safety & Alignment"
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Llama-2, Gemini, Mixtral, Alpaca, Vicuna, Qwen"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Hidden Persuaders: LLMs' Political Leaning and Their Influence on Voters
 

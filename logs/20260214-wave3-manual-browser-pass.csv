@@ -1,0 +1,46 @@
+paper,status,source_url,dest,bytes,verify,attempts_count,doi,title,attempted_candidates
+2016-Fonseca-ASSIN Avaliação de Similaridade Semântica e INferência textual.md,unresolved,,,,,,,ASSIN: Avaliação de Similaridade Semântica e INferência textual,1
+2018-Liebeskind-Identifying Abusive Comments in Hebrew Facebook.md,unresolved,,,,,,10.1109/ICSEE.2018.8646190,Identifying Abusive Comments in Hebrew Facebook,32
+2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open.md,unresolved,,,,,,,Results of the PolEval 2019 Shared Task 6: First Dataset and Open Shared Task for Automatic Cyberbullying Detection in Polish Twitter,141
+2020-Souza-BERTimbau Pretrained BERT Models for Brazilian Portuguese.md,unresolved,,,,,,,BERTimbau: Pretrained BERT Models for Brazilian Portuguese,1
+2020-Unknown-Sinhala Hate Speech Detection in Social Media using Text Mining and.md,unresolved,,,,,,10.1109/MERCon50084.2020.9023655,Sinhala Hate Speech Detection in Social Media using Text Mining and Machine Learning,31
+2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.md,downloaded,http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6388/3808,/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2021/2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.pdf,875503,title_tokens:4/6,35,,,
+2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.md,downloaded,http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6390/3810,/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2021/2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.pdf,1149251,title_tokens:6/6,34,,,
+2021-Unknown-Fake News Detection in Low-Resourced Languages Kurdish Language Using.md,unresolved,,,,,,,Fake News Detection in Low-Resourced Languages: Kurdish Language Using Machine Learning Algorithms,92
+2022-Ataei-Pars-OFF A Benchmark for Offensive Language Detection on Farsi Social.md,unresolved,,,,,,10.1109/taffc.2022.3219229,Pars-OFF: A Benchmark for Offensive Language Detection on Farsi Social Media,31
+2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.md,unresolved,,,,,,,Kannada Code-Mixed Abusive Speech Detection (MuRIL-based),33
+2022-Saeed-Hate Speech Detection in Social Media for the Kurdish Language.md,unresolved,,,,,,10.1007/978-3-031-14054-9_24,Hate Speech Detection in Social Media for the Kurdish Language,135
+2023-Badawi-KurdiSent A Corpus for Kurdish Sentiment Analysis.md,unresolved,,,,,,10.1007/s10579-023-09716-6,KurdiSent: A Corpus for Kurdish Sentiment Analysis,182
+2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram.md,unresolved,,,,,,,PerBOLD: A Big Dataset of Persian Offensive Language on Instagram Comments,1
+2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.md,downloaded,https://ojs.stanford.edu/ojs/index.php/grace/article/download/2584/1546,/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2023/2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.pdf,227089,title_tokens:7/7,37,,,
+2023-Unknown-Hate speech and abusive language detection in Indonesian social media.md,unresolved,,,,,,,Hate speech and abusive language detection in Indonesian social media: Progress and challenges,28
+2023-Unknown-Pars-HaO Hate and Offensive Language Detection on Persian Tweets.md,unresolved,,,,,,,Pars-HaO: Hate and Offensive Language Detection on Persian Tweets Using Machine Learning and Deep Learning,1
+2023-Unknown-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.md,unresolved,,,,,,,Towards a Complete Kurdish NLP Pipeline: Challenges and Opportunities,220
+2024-Chaves-Napolab The Natural Portuguese Language Benchmark.md,unresolved,,,,,,,Napolab: The Natural Portuguese Language Benchmark,209
+2024-CiTIUS-A Galician-Portuguese Generative Model.md,unresolved,,,,,,10.1007/978-3-031-73503-5_24,A Galician-Portuguese Generative Model,191
+2024-Garcia-Open Portuguese LLM Leaderboard.md,unresolved,,,,,,,Open Portuguese LLM Leaderboard,11
+2024-Gordic-Serbian LLM Evaluation Dataset.md,unresolved,,,,,,,Serbian LLM Evaluation Dataset,211
+2024-Hadi-The Dark Side of Instagram A Large Dataset for Identifying Persian.md,unresolved,,,,,,,The Dark Side of Instagram: A Large Dataset for Identifying Persian Harmful Comments (PHICAD),141
+2024-Khan-From Tradition to Technology A Systematic Survey on Navigating Pashto.md,unresolved,,,,,,,From Tradition to Technology: A Systematic Survey on Navigating Pashto in Modern NLP,1
+2024-Miranda-Desiderata for Filipino NLP in the Age of LLMs.md,unresolved,,,,,,,Desiderata for Filipino NLP in the Age of LLMs,62
+2024-Thu-Development and Evaluation of Myanmar GPT A Language Model for.md,unresolved,,,,,,,Development and Evaluation of Myanmar GPT: A Language Model for Myanmar Natural Language Processing,1
+2024-Trajano-OLID-BR Offensive Language Identification Dataset for Brazilian.md,unresolved,,,,,,10.1007/s10579-023-09657-0,OLID-BR: Offensive Language Identification Dataset for Brazilian Portuguese,138
+2024-Unknown-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.md,unresolved,,,,,,,ParsBench: Toolkits for Benchmarking LLMs Based on the Persian Language Tasks,192
+2024-Unknown-ParsOffensive Persian Offensive Comments Dataset.md,downloaded,https://arxiv.org/pdf/2404.05540.pdf,/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2024/2024-Unknown-ParsOffensive Persian Offensive Comments Dataset.pdf,449733,title_tokens:3/4,30,,,
+2024-Unknown-WoNBias A Complete Bengali Gender Bias Dataset.md,unresolved,,,,,,,WoNBias: A Complete Bengali Gender Bias Dataset,66
+2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach.md,unresolved,,,,,,10.1007/s43681-024-00505-7,Proposing Central Asian AI Ethics Principles: A Multilevel Approach for Responsible AI,145
+2024-community-Open Leaderboard for Hebrew LLMs.md,unresolved,,,,,,,Open Leaderboard for Hebrew LLMs,62
+2025-Deepawali-Hate Speech Detection Research in South Asian Languages A Survey of.md,unresolved,,,,,,10.1145/3711710,"Hate Speech Detection Research in South Asian Languages: A Survey of Tasks, Datasets and Methods",3
+2025-Dementieva-TextDetox Multilingual Toxicity Dataset.md,unresolved,,,,,,,TextDetox Multilingual Toxicity Dataset,1
+2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.md,downloaded,http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6764/4136,/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2025/2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.pdf,1236220,title_tokens:14/14,1,,,
+2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.md,unresolved,,,,,,,PerGOLD: Identification of Offensive Language in Persian Tweets: Leveraging Crowdsourcing,122
+2025-Unknown-BenchMoral A Benchmarking to Assess the Moral Sensitivity of Large.md,unresolved,,,,,,,BenchMoral: A Benchmarking to Assess the Moral Sensitivity of Large Language Models (LLMs) in Spanish,63
+2025-Unknown-BharatBench Comprehensive Multilingual Multimodal Evaluations.md,unresolved,,,,,,,BharatBench: Comprehensive Multilingual Multimodal Evaluations,158
+2025-Unknown-Bochun Automatically Annotated Stance Detection Dataset for Sorani.md,unresolved,,,,,,,Bochun: Automatically Annotated Stance Detection Dataset for Sorani Kurdish Language,29
+2025-Unknown-IndQA A Culture-Aware Benchmark for Indian Languages.md,unresolved,,,,,,,IndQA: A Culture-Aware Benchmark for Indian Languages,1
+2025-Unknown-Leading and Non-Leading Prompts Quantifying Gender Bias in Large.md,unresolved,,,,,,,Leading and Non-Leading Prompts: Quantifying Gender Bias in Large Language Models through BiasBloom Corpus,31
+2025-Unknown-MIZAN A Persian LLM Leaderboard.md,unresolved,,,,,,,MIZAN: A Persian LLM Leaderboard,11
+2025-Unknown-TELEIA A Spanish Language Dataset for Evaluating Artificial.md,unresolved,,,,,,,TELEIA: A Spanish Language Dataset for Evaluating Artificial Intelligence Models,29
+2025-Unknown-Towards Realistic Evaluation of Cultural Value Alignment in Large.md,unresolved,,,,,,,Towards Realistic Evaluation of Cultural Value Alignment in Large Language Models: Diversity Enhancement for Survey Response Simulation,49
+2025-Wasi-Dialectal Bias in Bengali An Evaluation of Multilingual Language.md,unresolved,,,,,,10.1145/3701716.3715468,Dialectal Bias in Bengali: An Evaluation of Multilingual Language Models,3
+2025-authors-Teachers vs. large language models ethical decision-making across.md,unresolved,,,,,,10.1080/10508422.2025.2581274,Teachers vs. large language models: ethical decision-making across educational dilemmas in Turkish schools,3

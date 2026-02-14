@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/TZNF2SVG/Leech et al. - Ten
 pdf_extract: "[[2024-Leech-Ten Hard Problems in Artificial Intelligence We]]"
 local_pdf: "[[PDFs/2024/2024-Leech-Ten Hard Problems in Artificial Intelligence We.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Responsible AI"
 key_contribution: "Outlines 10 'hard problems' for AI2050 (e.g., alignment, assurance, governance, philosophical disruptions) that must be solved to avoid risks and realize AI's promise."
@@ -34,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Ten Hard Problems in Artificial Intelligence We Must Get Right
 

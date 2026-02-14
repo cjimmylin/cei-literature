@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1177/1948550619876629
 url: "https://doi.org/10.1177/1948550619876629"
 external_pdf: "https://journals.sagepub.com/doi/pdf/10.1177/1948550619876629"
 national_ethnic_cultural: N/A
-religious_values: "Christianity"
-religious_values_list: "Christianity"
+religious_values: Christianity
+religious_values_list: Christianity
 moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Created the MFTC, a large corpus of 35k tweets annotated for 10 Moral Foundations, across 7 distinct domains (e.g., #BlueLivesMatter, #Sandy, etc.)."
@@ -34,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology annotated dataset"
 data_metrics: "10 categories"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2020/2020-Hoover-Moral Foundations Twitter Corpus.md"
 local_pdf: "[[PDFs/2020/2020-Hoover-Moral Foundations Twitter Corpus.pdf]]"
 ---

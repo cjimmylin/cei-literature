@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.48550/arXiv.2408.09049
 url: "http://arxiv.org/abs/2408.09049"
 external_pdf: "http://arxiv.org/pdf/2408.09049.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Found 'inertia' in LLM value judgments; despite 'persona' prompting (e.g., 'act as a conservative'), models often revert to their default training values (e.g., harm avoidance)."
@@ -38,7 +36,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "Claude, GPT-4, GPT-3.5, Llama-3"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # When Prompting Fails to Sway: Inertia in Moral and Value Judgments of Large Language Models
 

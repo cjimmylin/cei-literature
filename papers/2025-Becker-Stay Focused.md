@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "http://arxiv.org/abs/2502.19559"
 external_pdf: "http://arxiv.org/pdf/2502.19559.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Identified and quantified 'problem drift' in multi-agent debates (where agents lose focus over time) and proposed DRIFTJudge/DRIFTPolicy to detect and mitigate it."

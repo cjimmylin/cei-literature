@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +8,28 @@ type: conferencePaper
 short_title: "CUGE: A Chinese Language Understanding and Generation Evaluation Benchmark"
 year: 2025
 first_author: "[[Yuan Yao]]"
-last_author: "[[Unknown]]"
-authors: Yuan Yao; Qingxiu Dong; Jian Guan; Boxi Cao; Zhengyan Zhang; Chaojun Xiao; Xiaozhi Wang; Fanchao Qi; Junwei Bao; Jinran Nie; Zheni Zeng; Yuxian Gu; Kun Zhou; Xuancheng Huang; Wenhao Li; Shuhuai Ren; Jinliang Lu; Chengqiang Xu; Huadong Wang; Guoyang Zeng; Zile Zhou; Jiajun Zhang; Juanzi Li; Minlie Huang; Rui Yan; Xiaodong He; Xiaojun Wan; Xin Zhao; Xu Sun; Yang Liu; Zhiyuan Liu; Xianpei Han; Erhong Yang; Zhifang Sui; Maosong Sun
+last_author: [[Unknown]]
+authors: "Yuan Yao; Qingxiu Dong; Jian Guan; Boxi Cao; Zhengyan Zhang; Chaojun Xiao; Xiaozhi Wang; Fanchao Qi; Junwei Bao; Jinran Nie; Zheni Zeng; Yuxian Gu; Kun Zhou; Xuancheng Huang; Wenhao Li; Shuhuai Ren; Jinliang Lu; Chengqiang Xu; Huadong Wang; Guoyang Zeng; Zile Zhou; Jiajun Zhang; Juanzi Li; Minlie Huang; Rui Yan; Xiaodong He; Xiaojun Wan; Xin Zhao; Xu Sun; Yang Liu; Zhiyuan Liu; Xianpei Han; Erhong Yang; Zhifang Sui; Maosong Sun"
 url: "http://cuge.baai.ac.cn/pdf/CUGE.pdf"
 external_pdf: "https://arxiv.org/pdf/2112.13610v2.pdf"
 publication: Web
 local_pdf: "[[PDFs/2025/2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
 languages_list: "Cantonese, Chinese, Hakka, Min"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

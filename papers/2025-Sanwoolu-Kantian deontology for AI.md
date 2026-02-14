@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1007/s43681-025-00784-8
 url: "https://link.springer.com/article/10.1007/s43681-025-00784-8"
 publication: "AI and Ethics"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Deontology, Kantian-Ethics, AI-Alignment, Values-Alignment"
 key_contribution: "Argues AI can follow Kantian Categorical Imperative principles for alignment without possessing moral agency"
@@ -34,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Sanwoolu-Kantian deontology for AI.md"
 local_pdf: "[[PDFs/2025/2025-Sanwoolu-Kantian deontology for AI.pdf]]"
 ---

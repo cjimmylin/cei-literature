@@ -6,36 +6,36 @@ Human View note:
 Not AI: 
 key: LSRC0166
 type: journalArticle
-short_title: Hate Speech Forms and Implications in English and Kurdish Social Media
-year: 2022
+short_title: "Hate Speech Forms and Implications in English and Kurdish Social Media"
+year: 2025
 first_author: "[[Implications in English]]"
-last_author: "[[Unknown]]"
-authors: Implications in English; Kurdish Social Media.pdf
+last_author: [[Unknown]]
+authors: "Implications in English; Kurdish Social Media.pdf"
 url: "https://journals.uhd.edu.iq/index.php/juhd/article/view/1006"
 external_pdf: "https://journals.uhd.edu.iq/index.php/juhd/article/download/1006/724"
-publication: Journal of University of Human Development
+publication: "Journal of University of Human Development"
 local_pdf: "[[PDFs/2022/2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "English, Kurdish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Cross-linguistic analysis of hate speech patterns finding Kurdish commentators primarily use dehumanization and demonization patterns distinct from English hate speech."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Hate Speech Forms and Implications in English and Kurdish Social Media

@@ -6,35 +6,35 @@ Human View note:
 Not AI: 
 key: LSRC0108
 type: journalArticle
-short_title: A Bilingual Malay-English Social Media Dataset for Binary Hate Speech Detection
+short_title: "A Bilingual Malay-English Social Media Dataset for Binary Hate Speech Detection"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+first_author: [[Unknown]]
+last_author: [[Unknown]]
 authors: Unknown
 url: "https://www.sciencedirect.com/science/article/pii/S2352340925008741"
-publication: ScienceDirect (Data in Brief)
-local_pdf: 
-pdf_extract: 
-DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12557484/pdf/main.pdf"
+publication: "ScienceDirect (Data in Brief)"
+local_pdf: "[[PDFs/2025/2025-Unknown-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Unknown-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech.md"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "English, Malay"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "26,985 bilingual Malay-English social media texts from five public sources for binary hate speech detection. 13,609 English and 13,376 Malay-language texts with human annotation and controlled pseudo-labelling."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # A Bilingual Malay-English Social Media Dataset for Binary Hate Speech Detection

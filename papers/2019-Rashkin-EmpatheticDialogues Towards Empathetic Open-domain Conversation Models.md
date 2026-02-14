@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,34 +6,34 @@ Not AI:
 key: EXSR0251
 type: preprint
 short_title: "EmpatheticDialogues: Towards Empathetic Open-domain Conversation Models"
-year: 2019
+year: 2025
 first_author: "[[Hannah Rashkin]]"
 last_author: "[[Y-Lan Boureau]]"
-authors: Hannah Rashkin; Eric Michael Smith; Margaret Li; Y-Lan Boureau
+authors: "Hannah Rashkin; Eric Michael Smith; Margaret Li; Y-Lan Boureau"
 url: "https://arxiv.org/abs/1811.00207"
 external_pdf: "https://arxiv.org/pdf/1811.00207.pdf"
 local_pdf: "[[PDFs/2019/2019-Rashkin-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models.pdf]]"
 pdf_extract: "PDF Extracts/2019/2019-Rashkin-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "One challenge for dialogue agents is recognizing feelings in the conversation partner and replying accordingly, a key communicative skill. While it is straightforward for humans to recognize and acknowledge others’ feelings in a conversation, this is a signiﬁcant challenge for AI systems due to the paucity of suitable publicly-available datasets for training and evaluation. This work proposes a new benchmark for empathetic dialogue generation and EMPATHETICDIALOGUES, a novel dataset of 25k..."
 research_topic: "Dialogue Systems"
 data_description: "Benchmark dataset for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: "https://github.com/facebookresearch/EmpatheticDialogues"
 ---
 # EmpatheticDialogues: Towards Empathetic Open-domain Conversation Models

@@ -1,41 +1,41 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0720
 type: conferencePaper
-short_title: INHS Newsletter May 2025 - The International Network for Hate ...
+short_title: "INHS Newsletter May 2025 - The International Network for Hate ..."
 year: 2025
-first_author: "[[Kajiwara]]"
-last_author: "[[Kajiwara]]"
+first_author: [[Kajiwara]]
+last_author: [[Kajiwara]]
 authors: Kajiwara
 url: "https://internationalhatestudies.com/wp-content/uploads/2025/05/104-INHS-Newsletter-May-2025.pdf"
+external_pdf: "https://internationalhatestudies.com/wp-content/uploads/2025/05/104-INHS-Newsletter-May-2025.pdf"
 publication: Web
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2025/2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Japanese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Japanese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
-research_topic: "Other"
+abstract: 
+research_topic: Other
 ---
 # INHS Newsletter May 2025 - The International Network for Hate ...
 

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,13 +9,13 @@ short_title: "Differences in Moral Foundations of LLMs"
 year: 2025
 first_author: "[[Peter Kirgis]]"
 last_author: "[[Peter Kirgis]]"
-authors: Peter Kirgis
+authors: "Peter Kirgis"
 url: "https://arxiv.org/abs/2511.11790"
 external_pdf: "https://arxiv.org/pdf/2511.11790.pdf"
 publication: arXiv
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Moral Foundations Theory"
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
@@ -34,7 +32,7 @@ is_benchmark: No
 is_eval: Yes
 is_dataset: No
 data_description: 
-data_metrics:
+data_metrics: 
 LLM_assessed: "Claude, DeepSeek, Gemini, Llama-3, GPT-3.5, GPT-4, o3, Grok"
 DATA_URL: "https://github.com/peterkirgis/llm-moral-foundations"
 ---

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,15 +16,15 @@ external_pdf: "http://arxiv.org/pdf/2507.22159.pdf"
 publication: arXiv.org
 research_topic: "Machine Learning"
 national_ethnic_cultural: Indonesian
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: Indonesian
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Wiyono-IndoPref.md"
 abstract: "Over 200 million people speak Indonesian, yet the language remains significantly underrepre- sented in preference-based research for large language models (LLMs). Most existing multi- lingual datasets are derived from English trans- lations, often resulting in content that lacks cul- tural and linguistic authenticity. To address this gap, we introduce INDOPREF, the first fully human-authored and multi-domain Indonesian preference dataset designed to evaluate the nat- uralness and quality of LLM-"
 paper_summary: "Abstract: Over 200 million people speak Indonesian, yet the language remains significantly underrepre- sented in preference-based research for large language models (LLMs). Most existing multi- lingual datasets | Overview: INDOPREF: A Multi-Domain Pairwise Preference Dataset for Indonesian Vanessa Rebecca Wiyono1*, David Anugraha2∗, Ayu Purwarianti1, Genta Indra Winata3 1Institut Teknologi Bandung 2Stanford University 3 | Key Findings: A.2 Indonesian Template Pairwise evaluation prompt template Evaluasi respons berdasarkan tugas, ma- sukan, respons, dan rubrik evaluasi yang diberikan | Conclusions: This paper introduces INDOPREF, a new bench- mark for evaluating LLMs on Indonesian-language preference tasks using fully human-authored data. By focu"
-local_pdf: "[[PDFs/2025/2025-Wiyono-IndoPref.pdf]]"
+local_pdf: [[PDFs/2025/2025-Wiyono-IndoPref.pdf]]
 key_contribution: "Introduces IndoPref, the first fully human-authored, multi-domain pairwise preference dataset for the Indonesian language, containing 522 prompts and 4,099 human-annotated preferences."
 significance: "Addresses the 'Translation-ese' problem in multilingual LLM evaluation by providing a native-authored gold standard that captures Indonesian cultural and linguistic authenticity, revealing critical performance gaps in English-centric models."
 ethics_overall: No

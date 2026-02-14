@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.3758/s13428-014-0551-2
 url: "https://doi.org/10.3758/s13428-014-0551-2"
 external_pdf: "https://link.springer.com/content/pdf/10.3758%2Fs13428-014-0551-2.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Created Moral Foundations Vignettes, a standardized database of text scenarios calibrated to measure reactions to the 5 Moral Foundations."
@@ -36,8 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Moral Foundations Vignettes: A Standardized Stimulus Database of Scenarios Based on Moral Foundations Theory
 

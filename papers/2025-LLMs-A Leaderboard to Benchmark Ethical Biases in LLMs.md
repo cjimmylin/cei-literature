@@ -1,36 +1,35 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0758
 type: conferencePaper
-short_title: A Leaderboard to Benchmark Ethical Biases in LLMs
+short_title: "A Leaderboard to Benchmark Ethical Biases in LLMs"
 year: 2025
 first_author: "[[A Leaderboard to Benchmark Ethical Biases in LLMs]]"
-last_author: "[[Unknown]]"
-authors: A Leaderboard to Benchmark Ethical Biases in LLMs
+last_author: [[Unknown]]
+authors: "A Leaderboard to Benchmark Ethical Biases in LLMs"
 url: "https://ceur-ws.org/Vol-3744/paper1.pdf"
 external_pdf: "https://ceur-ws.org/Vol-3744/paper1.pdf"
 publication: CEUR-WS
 local_pdf: "[[PDFs/2025/2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "English, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

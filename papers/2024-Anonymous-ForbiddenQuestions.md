@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,15 +7,15 @@ key: TQADI49R
 type: conferencePaper
 short_title: ForbiddenQuestions
 year: 2025
-first_author: "[[Anonymous]]"
-last_author: "[[Anonymous]]"
+first_author: [[Anonymous]]
+last_author: [[Anonymous]]
 authors: Anonymous
 doi: 10.1145/3658644.3670388
 url: "https://dl.acm.org/doi/10.1145/3658644.3670388"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/A83END5M/Anonymous - 2024 - ForbiddenQuestions A Benchmark of In-the-Wild Jailbreak Prompts.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -36,7 +34,7 @@ data_metrics: "107,250 samples"
 LLM_assessed: "ChatGPT, GPT-4, PaLM-2, Vicuna"
 DATA_URL: "https://github.com/verazuo/jailbreak_llms"
 pdf_extract: "PDF Extracts/2024/2024-Anonymous-ForbiddenQuestions.md"
-local_pdf: "[[PDFs/2024/2024-Anonymous-ForbiddenQuestions.pdf]]"
+local_pdf: [[PDFs/2024/2024-Anonymous-ForbiddenQuestions.pdf]]
 ---
 # ForbiddenQuestions: A Benchmark of In-the-Wild Jailbreak Prompts
 

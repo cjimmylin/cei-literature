@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,27 +15,27 @@ url: "https://arxiv.org/abs/2501.13912"
 external_pdf: "https://arxiv.org/pdf/2501.13912.pdf"
 local_pdf: "[[PDFs/2025/2025-funded-Analysis of Indic Language Capabilities in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-funded-Analysis of Indic Language Capabilities in.md"
-publication: WebSearch: Analysis Indic Language Capabilities
+publication: "WebSearch: Analysis Indic Language Capabilities"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "Comprehensive analysis of text-based LLM capabilities for Indic languages, reviewing 28 LLMs. Tamil and Telugu among the five best-represented languages. Funded by MLCommons for AI Safety Benchmarks. Provides prioritization framework for future benchmarks. Meta-analysis covering all four Dravidian languages. MLCommons-funded work directly informing AI safety benchmark development for Indic languages."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
-research_topic: "Other"
+LLM_assessed: NA
+DATA_URL: 
+research_topic: Other
 ---
 # Analysis of Indic Language Capabilities in LLMs
 

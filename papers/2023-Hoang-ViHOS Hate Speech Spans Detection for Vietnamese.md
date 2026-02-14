@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0361
 type: conferencePaper
 short_title: "ViHOS: Hate Speech Spans Detection for Vietnamese"
-year: 2023
+year: 2025
 first_author: "[[Phu Gia Hoang]]"
 last_author: "[[Ngan Luu-Thuy Nguyen]]"
-authors: Phu Gia Hoang, Canh Duc Luu, Khanh Quoc Tran, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen
+authors: "Phu Gia Hoang, Canh Duc Luu, Khanh Quoc Tran, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen"
 doi: 10.18653/v1/2023.eacl-main.47
 url: "https://aclanthology.org/2023.eacl-main.47/"
 external_pdf: "https://arxiv.org/pdf/2301.10186.pdf"
 local_pdf: "[[PDFs/2023/2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese.md"
-publication: ACL Anthology
+publication: "ACL Anthology"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "11k comments"
 LLM_assessed: 

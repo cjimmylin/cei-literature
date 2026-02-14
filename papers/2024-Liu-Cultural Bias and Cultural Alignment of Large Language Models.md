@@ -1,36 +1,35 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0257
 type: preprint
-short_title: Cultural Bias and Cultural Alignment of Large Language Models
-year: 2024
+short_title: "Cultural Bias and Cultural Alignment of Large Language Models"
+year: 2025
 first_author: "[[Yongshuo Liu]]"
 last_author: "[[Nanyun Peng]]"
-authors: Yongshuo Liu, Di Jin, Linyuan Gong, Nanyun Peng
+authors: "Yongshuo Liu, Di Jin, Linyuan Gong, Nanyun Peng"
 doi: 10.1093/pnasnexus/pgae346
 url: "https://arxiv.org/abs/2311.14096"
 external_pdf: "https://arxiv.org/pdf/2311.14096.pdf"
 local_pdf: "[[PDFs/2024/2024-Liu-Cultural Bias and Cultural Alignment of Large Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Liu-Cultural Bias and Cultural Alignment of Large Language Models.md"
-publication: arXiv / PNAS Nexus 2024
+publication: "arXiv / PNAS Nexus 2024"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Arabic, Chinese, Dutch, English, French, German, Hindi, Italian, Japanese, Korean, Portuguese, Russian, Spanish, Swahili"
-religious_values: "Christianity"
-religious_values_list: "Christianity"
-moral_psychology: "N/A"
+religious_values: Christianity
+religious_values_list: Christianity
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: 

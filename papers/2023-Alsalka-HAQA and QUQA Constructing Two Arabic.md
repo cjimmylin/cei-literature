@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,36 +6,36 @@ Not AI:
 key: EXSR0557
 type: conference_paper
 short_title: "HAQA and QUQA Constructing Two Arabic"
-year: 2023
+year: 2025
 first_author: "[[Sarah Alnefaie, Eric Atwell, Mohammad Ammar Alsalka]]"
 last_author: "[[Sarah Alnefaie, Eric Atwell, Mohammad Ammar Alsalka]]"
 authors: "[[Sarah Alnefaie, Eric Atwell, Mohammad Ammar Alsalka]]"
 authors_incomplete: false
-url: ""
+url: 
 external_pdf: "https://doi.org/10.26615/978-954-452-092-2_010"
 local_pdf: "[[PDFs/2023/2023-Alsalka-HAQA and QUQA Constructing Two Arabic.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Alsalka-HAQA and QUQA Constructing Two Arabic.md"
-publication: RANLP 2023 / ACL Anthology
+publication: "RANLP 2023 / ACL Anthology"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Arabic"
-religious_values: "Islam"
-religious_values_list: "Islam"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Arabic
+religious_values: Islam
+religious_values_list: Islam
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 tags: 
 abstract: "Creates two Arabic QA corpora: QUQA for the Quran (covering ~47% of Quran verses) and HAQA for Hadith. The most extensive collection of Arabic QA pairs for the Quran. Questions span factual, inferential, and interpretive types. Useful as gold-standard evaluation datasets for LLMs."
-data_description: "Dataset"
+data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://aclanthology.org/2023.ranlp-1.10/"
-research_topic: "Other"
+research_topic: Other
 ---
 # HAQA and QUQA: Constructing Two Arabic Question-Answering Corpora for the Quran and Hadith
 

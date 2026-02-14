@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Deep Ganguli; Liane Lovitt; Jackson Kernion; Amanda Askell; Yuntao Bai
 url: "https://arxiv.org/abs/2209.07858"
 external_pdf: "https://arxiv.org/pdf/2209.07858.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Released a dataset of 38,961 red team attacks and analyzed scaling behaviors for red teaming across model sizes and types (including RLHF models)."
@@ -36,7 +34,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/anthropics/hh-rlhf"
 ---
 # Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned

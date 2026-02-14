@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2409.12106"
 external_pdf: "http://arxiv.org/pdf/2409.12106.pdf"
 publication: "AAAI Conference on Artificial Intelligence"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Introduced Generative Psychometrics for Values (GPV), a paradigm using LLMs to dynamically parse unstructured text into value-laden perceptions, akin to psychometric testing."

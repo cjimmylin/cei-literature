@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,22 +17,22 @@ local_pdf: "[[PDFs/2025/2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM wit
 pdf_extract: "PDF Extracts/2025/2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 tags: 
 abstract: "Human preference plays a crucial role in the refinement of large language models (LLMs). However, collecting human preference feedback is costly and most existing datasets neglect the correlation between personalization and preferences. To address this issue, we introduce FAIR-PP, a synthetic dataset of personalized preferences targeting social equity, derived from real-world social survey data, which includes 28 social groups, 98 equity topics, and 5 personal preference dimensions."
 ethics_perspective: "Bias & Fairness"
-data_description: "Dataset"
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: "Falcon, Llama-3, Mistral, Qwen"
 DATA_URL: "https://github.com/tools-only/FairPP, https://huggingface.co/datasets/tools-o/Fair-PP"

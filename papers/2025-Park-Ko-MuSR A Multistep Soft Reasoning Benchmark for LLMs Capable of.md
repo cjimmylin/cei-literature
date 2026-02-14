@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "Ko-MuSR: A Multistep Soft Reasoning Benchmark for LLMs Capable of 
 year: 2025
 first_author: "[[Chanwoo Park]]"
 last_author: "[[Byung-Won On]]"
-authors: Chanwoo Park, Yong-Ho Kim, Byung-Won On
+authors: "Chanwoo Park, Yong-Ho Kim, Byung-Won On"
 url: "https://arxiv.org/abs/2510.24150"
 external_pdf: "https://arxiv.org/pdf/2510.24150.pdf"
 local_pdf: "[[PDFs/2025/2025-Park-Ko-MuSR A Multistep Soft Reasoning Benchmark for LLMs Capable of.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Park-Ko-MuSR A Multistep Soft Reasoning Benchmark for LLMs Capable of.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Korean"
-languages_list: "Korean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Korean
+languages_list: Korean
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 LLM_assessed: 

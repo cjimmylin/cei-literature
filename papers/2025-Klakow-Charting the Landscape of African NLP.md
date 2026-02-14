@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +15,26 @@ url: "https://arxiv.org/abs/2505.21315"
 external_pdf: "https://arxiv.org/pdf/2505.21315.pdf"
 local_pdf: "[[PDFs/2025/2025-Klakow-Charting the Landscape of African NLP.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Klakow-Charting the Landscape of African NLP.md"
-publication: WebSearch: Charting the Landscape African NLP mapping progress
+publication: "WebSearch: Charting the Landscape African NLP mapping progress"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-national_ethnic_cultural: "African/Ubuntu"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+national_ethnic_cultural: African/Ubuntu
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "With over 2,000 languages and potentially millions of speakers, Africa represents one of the richest linguistic regions in the world. Yet, this diversity is scarcely reflected in state-of-the-art natural language processing (NLP) systems and large language models (LLMs), which predominantly support a narrow set of high-resource languages. This exclusion not only limits the reach and utility of modern NLP technologies but also risks widening the digital divide across linguistic communities."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "2,000 languages"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 research_topic: "NLP & Representation Learning"
 ---
 # Charting the Landscape of African NLP: Mapping Progress and Shaping the Road Ahead

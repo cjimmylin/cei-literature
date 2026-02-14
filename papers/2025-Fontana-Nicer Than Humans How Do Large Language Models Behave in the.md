@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,32 +9,32 @@ short_title: "Nicer Than Humans: How Do Large Language Models Behave in the Pris
 year: 2025
 first_author: "[[Nicoló Fontana]]"
 last_author: "[[Luca Maria Aiello]]"
-authors: Nicoló Fontana; Francesco Pierri; Luca Maria Aiello
+authors: "Nicoló Fontana; Francesco Pierri; Luca Maria Aiello"
 url: "https://arxiv.org/abs/2406.13605"
 external_pdf: "https://arxiv.org/pdf/2406.13605.pdf"
 local_pdf: "[[PDFs/2025/2025-Fontana-Nicer Than Humans How Do Large Language Models Behave in the.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Fontana-Nicer Than Humans How Do Large Language Models Behave in the.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "The behavior of Large Language Models (LLMs) as artificial social agents is largely unexplored, and we still lack extensive evidence of how these agents react to simple social stimuli. Testing the behavior of AI agents in classic Game Theory experiments provides a promising theoretical framework for evaluating the norms and values of these agents in archetypal social situations. In this work, we investigate the cooperative behavior of three LLMs (Llama2, Llama3, and GPT3."
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-2, Llama-3, GPT-3.5"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Nicer Than Humans: How Do Large Language Models Behave in the Prisoner's Dilemma?
 

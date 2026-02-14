@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0020
 type: preprint
 short_title: "RTP-LX: Can LLMs Evaluate Toxicity in Multilingual Scenarios?"
-year: 2024
+year: 2025
 first_author: "[[Adrian de Wynter]]"
 last_author: "[[German Rigau]]"
-authors: Adrian de Wynter, Ishaan Watts, Tua Wongsangaroonsri, Minghui Zhang, Noura Farra, Lena Baber, Samantha Claudet, Judit Dominguez, Aishwarya Gupta, Anna Kaminskaya, Maram Kurdi, Jongho Lee, Mahsa Moghimi, Aadil Mufti, Karthik Narasimhan, German Rigau
+authors: "Adrian de Wynter, Ishaan Watts, Tua Wongsangaroonsri, Minghui Zhang, Noura Farra, Lena Baber, Samantha Claudet, Judit Dominguez, Aishwarya Gupta, Anna Kaminskaya, Maram Kurdi, Jongho Lee, Mahsa Moghimi, Aadil Mufti, Karthik Narasimhan, German Rigau"
 url: "https://arxiv.org/abs/2404.14397"
 external_pdf: "https://arxiv.org/pdf/2404.14397.pdf"
 local_pdf: "[[PDFs/2024/2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Arabic, Chinese, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese, Romanian, Russian, Spanish, Swahili, Swedish, Thai, Turkish, Ukrainian, Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach annotated dataset for toxicity detection"
 data_metrics: "28 languages"
 LLM_assessed: 

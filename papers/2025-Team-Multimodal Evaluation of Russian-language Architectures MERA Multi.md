@@ -1,35 +1,34 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0305
 type: preprint
-short_title: Multimodal Evaluation of Russian-language Architectures (MERA Multi)
+short_title: "Multimodal Evaluation of Russian-language Architectures (MERA Multi)"
 year: 2025
 first_author: "[[MERA Evaluation Team]]"
 last_author: "[[MERA Evaluation Team]]"
-authors: MERA Evaluation Team
+authors: "MERA Evaluation Team"
 url: "https://arxiv.org/abs/2511.15552"
 external_pdf: "https://arxiv.org/pdf/2511.15552.pdf"
 local_pdf: "[[PDFs/2025/2025-Team-Multimodal Evaluation of Russian-language Architectures MERA Multi.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Team-Multimodal Evaluation of Russian-language Architectures MERA Multi.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Russian"
-languages_list: "Russian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Russian
+languages_list: Russian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "18 datasets"
 LLM_assessed: 

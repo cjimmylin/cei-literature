@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1007/s10676-025-09834-5
 url: "https://link.springer.com/10.1007/s10676-025-09834-5"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5ZTYJ2SS/Yilma - 2025 - Ethics of AI in Africa Interrogating the role of Ubuntu and AI governance initiatives.pdf"
 national_ethnic_cultural: African/Ubuntu
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "African/Ubuntu, Responsible AI"
 key_contribution: "Interrogated the role of **Ubuntu** in African AI governance, arguing that current initiatives often reference 'African ethics' superficially without substantive implementation."
@@ -34,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Yilma-Ethics of AI in Africa.md"
 local_pdf: "[[PDFs/2025/2025-Yilma-Ethics of AI in Africa.pdf]]"
 ---

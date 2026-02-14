@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1145/3593013.3594098
 url: "https://dl.acm.org/doi/10.1145/3593013.3594098"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/LVYMDI7H/Moss and others - 2023 - Bias on Demand A Modelling Framework That Generates Synthetic Data With Bias.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "A framework to generate synthetic data with *controlled bias* ('Bias on Demand')."
@@ -34,7 +32,7 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/koenecke/crosscultural_labelconsistency/"
 pdf_extract: "PDF Extracts/2023/2023-Moss-Bias on Demand.md"
 local_pdf: "[[PDFs/2023/2023-Moss-Bias on Demand.pdf]]"

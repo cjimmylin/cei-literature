@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,15 +14,15 @@ doi: 10.18653/v1/2022.acl-long.234
 url: "https://aclanthology.org/2022.acl-long.234/"
 external_pdf: "https://aclanthology.org/2022.acl-long.234.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Toxicity & Hate Speech"
 key_contribution: "Created ToxiGen, a large-scale (274k) machine-generated dataset of toxic and benign statements about 13 minority groups, using adversarial prompting."
 significance: "Addresses the scarcity of implicit toxicity data by using LMs to generate subtle hate speech, showing that finetuning on this synthetic data significantly improves detection of human-written implicit hate."
 tags: 
 abstract: "Toxic language detection systems often falsely ﬂag text that contains minority group mentions as toxic, as those groups are often the targets of online hate. Such over-reliance on spurious correlations also causes systems to struggle with detecting implicitly toxic language. To help mitigate these issues, we create TOXIGEN, a new large-scale and machinegenerated dataset of 274k toxic and benign statements about 13 minority groups. We develop a demonstration-based prompting framework and an adver"
-local_pdf: "[[PDFs/2022/2022-Hartvigsen-ToxiGen.pdf]]"
+local_pdf: [[PDFs/2022/2022-Hartvigsen-ToxiGen.pdf]]
 pdf_extract: "PDF Extracts/2022/2022-Hartvigsen-ToxiGen.md"
 ethics_overall: No
 virtue_ethics: No

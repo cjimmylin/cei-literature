@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +6,10 @@ Not AI:
 key: EXSR0192
 type: preprint
 short_title: "LLM Voting: Human Choices and AI Collective Decision-Making"
-year: 2024
+year: 2025
 first_author: "[[Joshua C. Yang]]"
 last_author: "[[Dirk Helbing]]"
-authors: Joshua C. Yang; Damian Dailisan; Marcin Korecki; Carina I. Hausladen; Dirk Helbing
+authors: "Joshua C. Yang; Damian Dailisan; Marcin Korecki; Carina I. Hausladen; Dirk Helbing"
 doi: 10.1609/aies.v7i1.31758
 url: "https://arxiv.org/abs/2402.01766"
 external_pdf: "https://arxiv.org/pdf/2402.01766.pdf"
@@ -20,22 +17,22 @@ local_pdf: "[[PDFs/2024/2024-Yang-LLM Voting Human Choices and AI Collective Dec
 pdf_extract: "PDF Extracts/2024/2024-Yang-LLM Voting Human Choices and AI Collective Decision-Making.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 tags: 
 abstract: "This paper investigates the voting behaviors of Large Language Models (LLMs), specifically GPT-4 and LLaMA-2, their biases, and how they align with human voting patterns. Our methodology involved using a dataset from a human voting experiment to establish a baseline for human preferences and conducting a corresponding experiment with LLM agents. We observed that the choice of voting methods and the presentation order influenced LLM voting outcomes."
 ethics_perspective: "Bias & Fairness"
-data_description: "Dataset"
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama-2"
 DATA_URL: "https://github.com/joshuay1/zurich-pb-voting"

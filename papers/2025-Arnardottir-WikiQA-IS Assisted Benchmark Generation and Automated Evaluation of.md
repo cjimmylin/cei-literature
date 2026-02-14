@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,31 +9,32 @@ short_title: "WikiQA-IS: Assisted Benchmark Generation and Automated Evaluation 
 year: 2025
 first_author: "[[Thorunn Arnardottir]]"
 last_author: "[[Hafsteinn Einarsson]]"
-authors: Thorunn Arnardottir, Elias Bjartur Einarsson, Gardar Ingvarsson Juto, Thorvaldur Pall Helgason, Hafsteinn Einarsson
+authors: "Thorunn Arnardottir, Elias Bjartur Einarsson, Gardar Ingvarsson Juto, Thorvaldur Pall Helgason, Hafsteinn Einarsson"
 url: "https://aclanthology.org/2025.resourceful-1.13/"
-publication: ACL Anthology / RESOURCEFUL 2025
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://aclanthology.org/2025.resourceful-1.13.pdf"
+publication: "ACL Anthology / RESOURCEFUL 2025"
+local_pdf: "[[PDFs/2025/2025-Arnardottir-WikiQA-IS Assisted Benchmark Generation and Automated Evaluation of.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Arnardottir-WikiQA-IS Assisted Benchmark Generation and Automated Evaluation of.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Icelandic"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Icelandic
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-4o"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 research_topic: "Social & Cultural Analysis"
 ---
 # WikiQA-IS: Assisted Benchmark Generation and Automated Evaluation of Icelandic Cultural Knowledge in LLMs

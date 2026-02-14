@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,30 +11,30 @@ first_author: "[[Zhang, Song, Liu]]"
 last_author: "[[Zhang, Song, Liu]]"
 authors: "[[Zhang, Song, Liu]]"
 authors_incomplete: false
-url: ""
+url: 
 external_pdf: "https://www.nature.com/articles/s41598-025-99121-6.pdf"
 local_pdf: "[[PDFs/2025/2025-Zhang-Cognitive Bias in Generative AI Influences.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhang-Cognitive Bias in Generative AI Influences.md"
-publication: Scientific Reports (Nature)
+publication: "Scientific Reports (Nature)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "Experimental study showing generative AI not only reflects but amplifies cognitive biases in religious education. Christianity and Judaism perceptions became more positive after AI interaction, while Islam perception became more negative. Finds AI acts as 'double-edged sword': enhancing personalized learning while risking reinforcement of prejudice. Calls for ethical guidelines in deploying AI in religious contexts."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Bias & Fairness"
 ---
 # Cognitive Bias in Generative AI Influences Religious Education

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.3233/SW-180312
 url: "https://journals.sagepub.com/doi/full/10.3233/SW-180312"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/76ZVQIXB/Usbeck et al. - 2019 - Benchmarking question answering systems.pdf"
 national_ethnic_cultural: N/A
-religious_values: "Christianity"
-religious_values_list: "Christianity"
+religious_values: Christianity
+religious_values_list: Christianity
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -32,8 +30,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2019/2019-Usbeck-Benchmarking question answering systems.md"
 local_pdf: "[[PDFs/2019/2019-Usbeck-Benchmarking question answering systems.pdf]]"
 ---

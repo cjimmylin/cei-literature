@@ -1,39 +1,36 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0094
 type: conferencePaper
-short_title: Navigating the Political Compass (Multilingual, 50 Countries)
+short_title: "Navigating the Political Compass (Multilingual, 50 Countries)"
 year: 2025
 first_author: "[[Chadi Helwe]]"
 last_author: "[[Davide Ceolin]]"
-authors: Chadi Helwe, Oana Balalau, Davide Ceolin
-publication: ACL 2025
+authors: "Chadi Helwe, Oana Balalau, Davide Ceolin"
+publication: "ACL 2025"
 external_pdf: "https://arxiv.org/pdf/2506.22493.pdf"
 local_pdf: "[[PDFs/2025/2025-Helwe-Navigating the Political Compass Multilingual 50 Countries.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Helwe-Navigating the Political Compass Multilingual 50 Countries.md"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
-abstract:
+abstract: 
 research_topic: "Machine Translation"
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Mistral, Falcon, Gemma"
 DATA_URL: "https://github.com/sadiakamal/Detailed-factor-analysis-PCT"

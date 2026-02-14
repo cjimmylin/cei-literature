@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0328
 type: preprint
 short_title: "The Language You Ask In: Language-Conditioned Ideological Divergence in LLM Analysis of Contested Political Documents"
-year: 2026
+year: 2025
 first_author: "[[Oleg Smirnov]]"
 last_author: "[[Oleg Smirnov]]"
-authors: Oleg Smirnov
+authors: "Oleg Smirnov"
 url: "https://arxiv.org/abs/2601.12164"
 external_pdf: "https://arxiv.org/pdf/2601.12164.pdf"
 local_pdf: "[[PDFs/2026/2026-Smirnov-The Language You Ask In Language-Conditioned Ideological Divergence.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Smirnov-The Language You Ask In Language-Conditioned Ideological Divergence.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Russian"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Russian
 languages_list: "Russian, Ukrainian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: 

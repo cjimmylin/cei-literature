@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.18653/v1/2024.findings-acl.666
 url: "https://aclanthology.org/2024.findings-acl.666/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/K6EDWHWM/Lee et al. - 2024 - KorNAT LLM Alignment Benchmark for Korean Social Values and Common Knowledge.pdf"
 national_ethnic_cultural: Korean
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Korean, AI Safety & Alignment"
 key_contribution: "Created KorNAT, a benchmark for 'national alignment' with South Korea, comprising social values (survey-based) and common knowledge (textbook-based)."
@@ -37,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, PaLM-2, Gemini"
 DATA_URL: "https://huggingface.co/datasets/datumo/KorNAT"
 pdf_extract: "PDF Extracts/2024/2024-Lee-KorNAT.md"
-local_pdf: "[[PDFs/2024/2024-Lee-KorNAT.pdf]]"
+local_pdf: [[PDFs/2024/2024-Lee-KorNAT.pdf]]
 ---
 # KorNAT: LLM Alignment Benchmark for Korean Social Values and Common Knowledge
 

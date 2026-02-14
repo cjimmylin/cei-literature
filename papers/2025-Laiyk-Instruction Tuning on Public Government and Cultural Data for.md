@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,28 +7,28 @@ key: LSRC0062
 type: preprint
 short_title: "Instruction Tuning on Public Government and Cultural Data for Low-Resource Language: a Case Study in Kazakh"
 year: 2025
-first_author: "[[Laiyk]]"
-last_author: "[[Laiyk]]"
-authors: Laiyk et al.
+first_author: [[Laiyk]]
+last_author: [[Laiyk]]
+authors: "Laiyk et al."
 url: "https://arxiv.org/abs/2502.13647"
 external_pdf: "https://arxiv.org/pdf/2502.13647.pdf"
 local_pdf: "[[PDFs/2025/2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for.md"
-publication: arxiv.org / ACL 2025
+publication: "arxiv.org / ACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Kazakh"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Kazakh
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "10,600 samples"
 LLM_assessed: 

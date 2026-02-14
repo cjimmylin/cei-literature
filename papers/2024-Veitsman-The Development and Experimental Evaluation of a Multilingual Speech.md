@@ -1,40 +1,39 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0603
 type: conferencePaper
-short_title: The Development and Experimental Evaluation of a Multilingual Speech Corpus for Low-Resource Turkic Languages
-year: 2024
+short_title: "The Development and Experimental Evaluation of a Multilingual Speech Corpus for Low-Resource Turkic Languages"
+year: 2025
 first_author: "[[Yana Veitsman]]"
 last_author: "[[Yana Veitsman]]"
-authors: Yana Veitsman
+authors: "Yana Veitsman"
 url: "https://www.mdpi.com/2076-3417/15/24/12880"
 publication: MDPI
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Kyrgyz, Multilingual, Turkish, Uyghur"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 research_topic: "Machine Translation"
 ---
 # The Development and Experimental Evaluation of a Multilingual Speech Corpus for Low-Resource Turkic Languages

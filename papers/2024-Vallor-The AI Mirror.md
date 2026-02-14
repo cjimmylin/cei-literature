@@ -1,6 +1,4 @@
 ---
-
-
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics book"
@@ -18,8 +16,8 @@ url: "https://global.oup.com/academic/product/the-ai-mirror-9780197759066"
 local_pdf: "[[PDFs/2024/2024-Vallor-The AI Mirror.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Vallor-The AI Mirror.md"
 national_ethnic_cultural: American
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "American, Value Pluralism / Schwartz, Virtue Ethics"
 key_contribution: "Presents the metaphor of 'AI as a mirror' and argues that reclaiming human virtues like wisdom, courage, and care is essential for navigating the age of machine thinking"
@@ -34,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # The AI Mirror: How to Reclaim Our Humanity in an Age of Machine Thinking
 

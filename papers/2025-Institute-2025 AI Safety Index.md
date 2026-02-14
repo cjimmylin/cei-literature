@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,14 +7,14 @@ key: 2JMQI7PK
 type: document
 short_title: "2025 AI Safety Index"
 year: 2025
-first_author: "[[Institute]]"
+first_author: [[Institute]]
 last_author: "[[Future of Life]]"
 authors: "Institute; Future of Life"
 url: "https://futureoflife.org/ai-safety-index-summer-2025/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/NQNT4L9B/AI-Safety-Index-Summer-2025-2-page-v4.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "A report tracking the state of AI safety metrics and policy developments."
@@ -33,8 +31,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Institute-2025 AI Safety Index.md"
 local_pdf: "[[PDFs/2025/2025-Institute-2025 AI Safety Index.pdf]]"
 ---

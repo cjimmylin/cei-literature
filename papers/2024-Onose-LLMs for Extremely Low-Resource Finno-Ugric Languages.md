@@ -1,42 +1,41 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0801
 type: preprint
-short_title: LLMs for Extremely Low-Resource Finno-Ugric Languages
-year: 2024
+short_title: "LLMs for Extremely Low-Resource Finno-Ugric Languages"
+year: 2025
 first_author: "[[Ejiro Onose]]"
 last_author: "[[Ejiro Onose]]"
-authors: Ejiro Onose
+authors: "Ejiro Onose"
 url: "https://arxiv.org/html/2410.18902"
 external_pdf: "https://arxiv.org/pdf/2410.18902.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2024/2024-Onose-LLMs for Extremely Low-Resource Finno-Ugric Languages.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Onose-LLMs for Extremely Low-Resource Finno-Ugric Languages.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
 abstract: "The advancement of large language models (LLMs) has predominantly focused on highresource languages, leaving low-resource languages, such as those in the Finno-Ugric family, significantly underrepresented. This paper addresses this gap by focusing on Võro, Livonian, and Komi. We cover almost the entire cycle of LLM creation, from data collection to instruction tuning and evaluation. Our contributions include developing multilingual base and instruction-tuned models; creating evaluation benchmarks, including the SMUGRI-MTBENCH multi-turn conversational benchmark; and conducting human evaluation. We intend for this work to promote linguistic diversity, ensuring that lesser-resourced languages can benefit from advancements in NLP."
-research_topic: "Other"
+research_topic: Other
 ---
 # LLMs for Extremely Low-Resource Finno-Ugric Languages
 

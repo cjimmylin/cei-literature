@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,8 +17,8 @@ local_pdf: "[[PDFs/2025/2025-Park-Deontological Keyword Bias.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2506.11068.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Identifies 'Deontological Keyword Bias' (DKB) where modal verbs like 'must' cause LLMs to misclassify non-obligatory acts as obligations"
@@ -38,7 +36,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama-3, Gemma, Qwen"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
  Deontological Keyword Bias: The Impact of Modal Expressions on Normative Judgments of Language Models
 

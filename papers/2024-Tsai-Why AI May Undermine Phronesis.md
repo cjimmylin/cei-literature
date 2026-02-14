@@ -1,6 +1,4 @@
 ---
-
-
 Human View: false
 Not AI: 
 key: AUTO_TSAI2024
@@ -14,8 +12,8 @@ doi: 10.1007/s43681-024-00617-0
 url: "https://link.springer.com/article/10.1007/s43681-024-00617-0"
 local_pdf: "[[PDFs/2024/2024-Tsai-Why AI May Undermine Phronesis.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: Yes
 newtags: "Virtue Ethics, Phronesis, Practical Wisdom"
 key_contribution: "Proposes the 'principle of epistemic heed' to reconcile AI use with preservation of human phronesis (practical wisdom)"
@@ -32,8 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Why AI May Undermine Phronesis and What to Do about It
 

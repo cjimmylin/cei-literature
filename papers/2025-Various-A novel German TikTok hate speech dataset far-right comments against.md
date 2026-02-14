@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,35 +7,35 @@ key: LSRC0472
 type: conferencePaper
 short_title: "A novel German TikTok hate speech dataset: far-right comments against politicians, women, and others"
 year: 2025
-first_author: "[[Various]]"
-last_author: "[[Various]]"
+first_author: [[Various]]
+last_author: [[Various]]
 authors: Various
 doi: 10.1007/s44248-025-00020-y
 url: "https://link.springer.com/article/10.1007/s44248-025-00020-y"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s44248-025-00020-y.pdf"
-publication: Springer (Discover Data)
+publication: "Springer (Discover Data)"
 local_pdf: "[[PDFs/2025/2025-Various-A novel German TikTok hate speech dataset far-right comments against.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Various-A novel German TikTok hate speech dataset far-right comments against.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "German"
-languages_list: "German"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: German
+languages_list: German
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # A novel German TikTok hate speech dataset: far-right comments against politicians, women, and others

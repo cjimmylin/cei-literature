@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "http://arxiv.org/abs/2502.14083"
 external_pdf: "http://arxiv.org/pdf/2502.14083.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: "Chinese, Indian, Arabic, Spanish, Russian, Multicultural/Cross-cultural"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Chinese, Indian, Arabic, Spanish, Russian, Multicultural/Cross-cultural, Utilitarianism"
 key_contribution: "Introduces UniMoral, a multilingual dataset (6 languages) integrating psychological and social-media moral dilemmas to benchmark reasoning across cultures"

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/RWCWHF43/Colijn and Podar -
 pdf_extract: "[[2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons]]"
 local_pdf: "[[PDFs/2025/2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz"
 tags: 
@@ -32,8 +30,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Technical Risks of (Lethal) Autonomous Weapons Systems
 

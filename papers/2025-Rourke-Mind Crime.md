@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "[[Rourke, Nathan]]"
 doi: N/A
 url: "https://www.goodreads.com/book/show/226055728-mind-crime"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, Deontology"
 key_contribution: "Introduces the concept of 'mind crime' and explores the moral status of potential digital minds, linking the treatment of AI to human moral character"
@@ -31,8 +29,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 local_pdf: N/A
 ---
 # Mind Crime: The Moral Frontier of Artificial Intelligence

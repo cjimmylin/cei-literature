@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0182
 type: preprint
 short_title: "BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP"
-year: 2024
+year: 2025
 first_author: "[[Mohsinul Kabir]]"
-last_author: "[[Unknown]]"
-authors: Mohsinul Kabir; Mohammed Saidul Islam; Md Tahmid Rahman Laskar; Mir Tafseer Nayeem; M Saiful Bari; Enamul Hoque
+last_author: [[Unknown]]
+authors: "Mohsinul Kabir; Mohammed Saidul Islam; Md Tahmid Rahman Laskar; Mir Tafseer Nayeem; M Saiful Bari; Enamul Hoque"
 url: "https://arxiv.org/abs/2309.13173"
 external_pdf: "https://arxiv.org/pdf/2309.13173.pdf"
 local_pdf: "[[PDFs/2024/2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and.md"
-publication: arXiv / LREC-COLING 2024
+publication: "arXiv / LREC-COLING 2024"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Bengali"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Bengali
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

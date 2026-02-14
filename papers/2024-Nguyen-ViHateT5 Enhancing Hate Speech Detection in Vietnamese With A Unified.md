@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0363
 type: conferencePaper
 short_title: "ViHateT5: Enhancing Hate Speech Detection in Vietnamese With A Unified Text-to-Text Transformer Model"
-year: 2024
+year: 2025
 first_author: "[[Luan Thanh Nguyen]]"
 last_author: "[[Luan Thanh Nguyen]]"
-authors: Luan Thanh Nguyen
+authors: "Luan Thanh Nguyen"
 doi: 10.18653/v1/2024.findings-acl.355
 url: "https://aclanthology.org/2024.findings-acl.355/"
 external_pdf: "https://arxiv.org/pdf/2405.14141.pdf"
 local_pdf: "[[PDFs/2024/2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified.md"
-publication: ACL Anthology
+publication: "ACL Anthology"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Multi-task benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: 

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "https://www.mdpi.com/2504-3900/126/1/17"
 external_pdf: "https://www.mdpi.com/2504-3900/126/1/17/pdf"
 publication: "Proceedings (MDPI)"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Utilitarianism, Axiology, MCDA, Value Framework"
 key_contribution: "Proposes axiological framework using MCDA to integrate multiple ethical theories"
@@ -37,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Axiology AI Ethics MCDA
 

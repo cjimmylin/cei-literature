@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Hannah Rose Kirk; Alexander Whitefield; Paul Röttger; Andrew Bean; Ka
 url: "https://arxiv.org/abs/2404.16019"
 external_pdf: "https://arxiv.org/pdf/2404.16019.pdf"
 national_ethnic_cultural: "American, Multicultural/Cross-cultural"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "American, Multicultural/Cross-cultural, AI Safety & Alignment"
 key_contribution: "Introduced PRISM, a dataset mapping sociodemographics and preferences of 1,500 diverse participants from 75 countries to their feedback on 8,000+ interactions with 21 LLMs."
@@ -26,7 +24,7 @@ pdf_extract: "PDF Extracts/2024/2024-Kirk-The PRISM Alignment Project.md"
 abstract: "Human feedback is central to the alignment of Large Language Models (LLMs). However, open questions remain about methods (how), domains (where), people (who) and objectives (to what end) of feedback processes. To navigate these ques- tions, we introduce PRISM, a dataset that maps the sociodemographics and stated preferences of 1,500 diverse participants from 75 countries, to their contextual preferences and fine-grained feedback in 8,011 live conversations with 21 LLMs. With PRISM, we contribute"
 paper_summary: "Abstract: Human feedback is central to the alignment of Large Language Models (LLMs). However, open questions remain about methods (how), domains (where), people (who) and objectives (to what end) of feedback p | Overview: The PRISM Alignment Dataset: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models Hannah Rose Kirk1∗ A | Methodology: (HDBSCAN) does not assign a cluster for 32% of prompts. Content Warning: Some prompts may contain controversial, hateful or otherwise harmful content. | Key Findings: for Safety, June 2023. URL http://arxiv.org/abs/2306.11247. arXiv:2306.11247 [cs]. [80] Joseph Henrich, Steven J. Heine, and Ara Norenzayan. Most peop"
 local_pdf: "[[PDFs/2024/2024-Kirk-The PRISM Alignment Project.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -38,7 +36,7 @@ data_description: "Dataset for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, Mistral, Falcon, Flan-T5, PaLM-2"
 DATA_URL: "https://github.com/HannahKirk/prism-alignment, https://huggingface.co/datasets/HannahRoseKirk/prism-alignment"
-publication: NeurIPS 2024
+publication: "NeurIPS 2024"
 DATE_ADDED: 20260207
 ---
 # The PRISM Alignment Project: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models

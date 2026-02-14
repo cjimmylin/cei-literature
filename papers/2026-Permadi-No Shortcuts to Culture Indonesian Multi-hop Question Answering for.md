@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0093
 type: preprint
 short_title: "No Shortcuts to Culture: Indonesian Multi-hop Question Answering for Complex Cultural Understanding"
-year: 2026
+year: 2025
 first_author: "[[Vynska Amalia Permadi]]"
-last_author: "[[Unknown]]"
-authors: Vynska Amalia Permadi; Xingwei Tan; Nafise Sadat Moosavi; Nikos Aletras
+last_author: [[Unknown]]
+authors: "Vynska Amalia Permadi; Xingwei Tan; Nafise Sadat Moosavi; Nikos Aletras"
 url: "https://arxiv.org/abs/2602.03709"
 external_pdf: "https://arxiv.org/pdf/2602.03709.pdf"
 local_pdf: "[[PDFs/2026/2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indonesian"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indonesian
 languages_list: "English, Indonesian"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: 

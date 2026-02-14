@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,35 +6,35 @@ Not AI:
 key: LSRC0380
 type: conferencePaper
 short_title: "Cross-Linguistic Moral Preferences in Large Language Models: Evidence from Distributive Justice Scenarios and Domain Persona Interventions"
-year: 2024
+year: 2025
 first_author: "[[Seongyu Jang]]"
-last_author: "[[Unknown]]"
-authors: Seongyu Jang; Chaewon Jeong; Jimin Kim; Hyungu Kahng
+last_author: [[Unknown]]
+authors: "Seongyu Jang; Chaewon Jeong; Jimin Kim; Hyungu Kahng"
 doi: 10.3390/electronics14244919
 url: "https://www.mdpi.com/2079-9292/14/24/4919"
-publication: MDPI Electronics
+publication: "MDPI Electronics"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "multiple languages"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "General Ethics"
 ---
 # Cross-Linguistic Moral Preferences in Large Language Models: Evidence from Distributive Justice Scenarios and Domain Persona Interventions

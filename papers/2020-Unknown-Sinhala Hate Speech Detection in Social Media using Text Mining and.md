@@ -6,36 +6,36 @@ Human View note:
 Not AI: 
 key: LSRC0192
 type: conferencePaper
-short_title: Sinhala Hate Speech Detection in Social Media using Text Mining and Machine Learning
-year: 2020
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+short_title: "Sinhala Hate Speech Detection in Social Media using Text Mining and Machine Learning"
+year: 2025
+first_author: [[Unknown]]
+last_author: [[Unknown]]
 authors: Unknown
 doi: 10.1109/MERCon50084.2020.9023655
 url: "https://ieeexplore.ieee.org/document/9023655/"
-publication: IEEE (MERCon 2020)
+publication: "IEEE (MERCon 2020)"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Sinhala"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Sinhala
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Hate speech detection in Sinhala social media using text mining and ML. MNB with character tri-gram achieves 92.33% accuracy. Creates Sinhala hate speech dataset from social media comments."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Sinhala Hate Speech Detection in Social Media using Text Mining and Machine Learning

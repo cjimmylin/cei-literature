@@ -10,33 +10,33 @@ short_title: "KOGENT: A Benchmark Dataset for Evaluating Gender Sensitivity in K
 year: 2025
 first_author: "[[Sunkyoung Park]]"
 last_author: "[[Sanghoun Song]]"
-authors: Sunkyoung Park, Eunbi Cho, Chan Young Jung, Woo Chang Kang, Taegyoon Kim, Eunah Park, Sanghoun Song
+authors: "Sunkyoung Park, Eunbi Cho, Chan Young Jung, Woo Chang Kang, Taegyoon Kim, Eunah Park, Sanghoun Song"
 doi: 10.1038/s41597-025-06344-3
 url: "https://www.nature.com/articles/s41597-025-06344-3"
 external_pdf: "https://www.nature.com/articles/s41597-025-06344-3_reference.pdf"
-publication: Nature Scientific Data 2025
+publication: "Nature Scientific Data 2025"
 local_pdf: "[[PDFs/2025/2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Korean"
-languages_list: "Korean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Korean
+languages_list: Korean
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "1,222 Korean National Assembly transcripts with 6,024 utterances annotated for gender sensitivity. Spans legislative sessions 1948-2024. GPT-4.1 achieves 87.5-91.2% F1. Reveals LLM limitations in culturally specific terminology."
 research_topic: "Bias & Fairness"
 ---
 # KOGENT: A Benchmark Dataset for Evaluating Gender Sensitivity in Korean Political Discourse with Large Language Models

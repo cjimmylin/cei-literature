@@ -1,15 +1,12 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0183
 type: conferencePaper
-short_title: IndiBias -- Benchmark Dataset for Social Biases in Indian Context
-year: 2024
+short_title: "IndiBias -- Benchmark Dataset for Social Biases in Indian Context"
+year: 2025
 first_author: "[[Sahoo, Nihar Ranjan]]"
 last_author: "[[Bhattacharyya, Pushpak]]"
 authors: "[[Sahoo, Nihar Ranjan]]; [[Kulkarni, Pranamya Prashant]]; [[Asad, Narjis]]; [[Ahmad, Arif]]; [[Goyal, Tanu]]; [[Garimella, Aparna]]; [[Bhattacharyya, Pushpak]]"
@@ -18,20 +15,20 @@ url: "https://arxiv.org/abs/2403.20147"
 external_pdf: "https://arxiv.org/pdf/2403.20147.pdf"
 local_pdf: "[[PDFs/2024/2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context.md"
-publication: ACL 2024
+publication: "ACL 2024"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Warning: This paper contains examples and case studies that may be offensive. The pervasive influence of social biases in language data has sparked the need for benchmark datasets that capture and evaluate these biases in Large Language Models (LLMs). Existing efforts predominantly focus on English language and the Western context, leaving a void for a reliable dataset that encapsulates India’s unique socio-cultural nuances."
 ethics_perspective: "Bias & Fairness"

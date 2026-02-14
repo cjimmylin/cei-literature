@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,8 +18,8 @@ pdf_extract: "[[PDF Extracts/2025-Baum-Aggregation Problems in Machine Ethics.md
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
 ethics_perspective: "Value Pluralism"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Deontology, Value Pluralism, Machine Ethics, AI Alignment"
 key_contribution: "Analyzes how moral and social aggregation procedures face fundamental challenges in machine ethics and AI alignment"
@@ -36,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Aggregation Problems in Machine Ethics and AI Alignment
 

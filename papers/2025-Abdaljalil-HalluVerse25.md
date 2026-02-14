@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,15 +15,15 @@ url: "http://arxiv.org/abs/2503.07833"
 external_pdf: "http://arxiv.org/pdf/2503.07833.pdf"
 publication: arXiv.org
 national_ethnic_cultural: Arabic
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: Arabic
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Abdaljalil-HalluVerse25.md"
 abstract: "Large Language Models (LLMs) are in- creasingly used in various contexts, yet re- main prone to generating non-factual con- tent, commonly referred to as “hallucina- tions”. The literature categorizes halluci- nations into several types, including entity- level, relation-level, and sentence-level hal- lucinations. However, existing hallucination datasets often fail to capture fine-grained hal- lucinations in multilingual settings. In this work, we introduce HalluVerse25, a multilin- gual LLM hal"
 paper_summary: "Abstract: Large Language Models (LLMs) are in- creasingly used in various contexts, yet re- main prone to generating non-factual con- tent, commonly referred to as “hallucina- tions”. The literature categorizes | Overview: HalluVerse25: Fine-grained Multilingual Benchmark Dataset for LLM Hallucinations Samir Abdaljalil Texas A&M University College Station, TX., USA sabdaljalil@tamu.edu Hasan Kurban Hamad Bin Khalifa Uni | Key Findings: process, since the intended output is one of three labels, we set the temperature to 0 to ensure that it is deterministic. | Conclusions: In this paper, we present HalluVerse25, a fine- grained multilingual dataset for LLM-generated hallucinations, constructed by injecting halluci- nated"
-local_pdf: "[[PDFs/2025/2025-Abdaljalil-HalluVerse25.pdf]]"
+local_pdf: [[PDFs/2025/2025-Abdaljalil-HalluVerse25.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -37,7 +35,7 @@ is_dataset: Yes
 data_description: "Multilingual benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Phi, Mistral, Qwen, Gemini, Gemma, Llama-3, PaLM-2"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # HalluVerse25: Fine-grained Multilingual Benchmark Dataset for LLM Hallucinations
 

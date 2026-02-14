@@ -6,35 +6,35 @@ Human View note:
 Not AI: 
 key: LSRC0065
 type: conferencePaper
-short_title: A Turkish Hate Speech Dataset and Detection System
-year: 2022
+short_title: "A Turkish Hate Speech Dataset and Detection System"
+year: 2025
 first_author: "[[Multiple authors]]"
 last_author: "[[Multiple authors]]"
-authors: Multiple authors
+authors: "Multiple authors"
 url: "https://aclanthology.org/2022.lrec-1.443/"
-publication: LREC 2022
-local_pdf: 
-pdf_extract: 
-DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Turkish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+external_pdf: "https://aclanthology.org/2022.lrec-1.443.pdf"
+publication: "LREC 2022"
+local_pdf: "[[PDFs/2022/2022-authors-A Turkish Hate Speech Dataset and Detection System.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-authors-A Turkish Hate Speech Dataset and Detection System.md"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Turkish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Turkish hate speech dataset from two domains: Istanbul Convention withdrawal tweets and Refugees tweets. BERTurk-based detection system achieving 77% and 71% accuracy respectively."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # A Turkish Hate Speech Dataset and Detection System

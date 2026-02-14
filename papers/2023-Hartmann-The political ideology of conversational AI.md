@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.2139/ssrn.4316084
 url: "https://www.ssrn.com/abstract=4316084"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/BFN6ITR4/Hartmann et al. - 2023 - The political ideology of conversational AI Converging evidence on ChatGPT’s pro-environmental, lef.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -34,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT"
-DATA_URL: "NA"
+LLM_assessed: ChatGPT
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Hartmann-The political ideology of conversational AI.md"
 ---
 # The political ideology of conversational AI: Converging evidence on ChatGPT’s pro-environmental, left-libertarian orientation

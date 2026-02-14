@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0307
 type: preprint
 short_title: "TAPE: Assessing Few-shot Russian Language Understanding"
-year: 2022
+year: 2025
 first_author: "[[Ekaterina Taktasheva]]"
 last_author: "[[Tatiana Shavrina]]"
-authors: Ekaterina Taktasheva, Alena Fenogenova, Tatiana Shavrina, et al.
+authors: "Ekaterina Taktasheva, Alena Fenogenova, Tatiana Shavrina, et al."
 doi: 10.18653/v1/2022.findings-emnlp.183
 url: "https://arxiv.org/abs/2210.12813"
 external_pdf: "https://arxiv.org/pdf/2210.12813.pdf"
 local_pdf: "[[PDFs/2022/2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding.md"
-publication: arXiv / ACL Anthology (EMNLP Findings 2022)
+publication: "arXiv / ACL Anthology (EMNLP Findings 2022)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Russian"
-languages_list: "Russian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Russian
+languages_list: Russian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: 

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0293
 type: preprint
 short_title: "Spanish and LLM Benchmarks: Is MMLU Lost in Translation?"
-year: 2024
+year: 2025
 first_author: "[[Irene Plaza Ortiz]]"
 last_author: "[[Irene Plaza Ortiz]]"
-authors: Irene Plaza Ortiz, et al.
+authors: "Irene Plaza Ortiz, et al."
 url: "https://arxiv.org/abs/2406.17789"
 external_pdf: "https://arxiv.org/pdf/2406.17789.pdf"
 local_pdf: "[[PDFs/2024/2024-Ortiz-Spanish and LLM Benchmarks Is MMLU Lost in Translation.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Ortiz-Spanish and LLM Benchmarks Is MMLU Lost in Translation.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Spanish"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Spanish
 languages_list: "English, Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multi-task benchmark"
 data_metrics: "Not specified"
 LLM_assessed: 

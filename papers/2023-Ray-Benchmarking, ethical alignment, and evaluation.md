@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1016/j.tbench.2023.100136
 url: "https://linkinghub.elsevier.com/retrieve/pii/S2772485923000534"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/BA3ZHLQG/Ray - 2023 - Benchmarking, ethical alignment, and evaluation framework for conversational AI Advancing responsib.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Proposed a multidimensional evaluation framework for ChatGPT, analyzing existing benchmarks (GLUE, HELM, etc.) and adding new standards for 'context adaptability' and 'community involvement'."
@@ -34,8 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.md"
 local_pdf: "[[PDFs/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.pdf]]"
 ---

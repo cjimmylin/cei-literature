@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,34 +6,34 @@ Not AI:
 key: EXSR0621
 type: preprint
 short_title: "JainGPT AI-Powered Chatbot for Jain Literature"
-year: 0
+year: 2025
 first_author: "[[collections), JainKnowledge.com (built on JainELibrary.org and JainQQ.org]]"
 last_author: "[[collections), JainKnowledge.com (built on JainELibrary.org and JainQQ.org]]"
 authors: "[[JainKnowledge.com (built on JainELibrary.org]]; [[JainQQ.org collections)]]"
 authors_incomplete: false
-url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
-publication: Web application
+url: 
+external_pdf: 
+local_pdf: N/A
+pdf_extract: 
+publication: "Web application"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "Jainism"
-religious_values_list: "Jainism"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: Jainism
+religious_values_list: Jainism
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "**Breakdown by paper type:** - Benchmark: 11 - Dataset: 14 - Evaluation: 12 - Bias Study: 7 - Framework: 5 (Many papers span multiple types)  **Breakdown by implementation readiness:** - HIGH: 16 - MEDIUM: 9 - LOW: 2  **Key gaps identified:** 1. **Jainism is severely underrepresented** -- no dedicated Jain NLP benchmark or LLM evaluation dataset exists in peer-reviewed literature. JainGPT is the closest but is a commercial product, not a research benchmark. 2. **Sikhism has no dedicated NLP benchmark** -- GurbaniDB exists as a digital corpus but no published paper evaluates LLMs specifically on Sikh knowledge or values. The Guru Granth Sahib is included in a few multi-faith comparative studies only. 3. **Hindu ethics/values alignment for LLMs is nascent** -- While several bias studies test how LLMs represent Hinduism, no dedicated 'Hindu values alignment benchmark' exists akin to Islamic Fatwa QA or Confucian ethics LLM evaluations. 4. **Sanskrit NLP is flourishing** but primarily f..."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://jainknowledge.com / https://jaingpt.org/"
 research_topic: "Dialogue Systems"
 ---

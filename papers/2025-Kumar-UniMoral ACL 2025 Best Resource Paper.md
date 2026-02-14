@@ -1,39 +1,36 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0135
 type: conferencePaper
-short_title: UniMoral (ACL 2025 Best Resource Paper)
+short_title: "UniMoral (ACL 2025 Best Resource Paper)"
 year: 2025
 first_author: "[[Shivani Kumar]]"
 last_author: "[[David Jurgens Shivani Kumar]]"
-authors: Shivani Kumar, David Jurgens
-publication: ACL 2025
+authors: "Shivani Kumar, David Jurgens"
+publication: "ACL 2025"
 external_pdf: "https://arxiv.org/pdf/2511.03180.pdf"
 local_pdf: "[[PDFs/2025/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.md"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
-abstract:
-research_topic: "Other"
-data_description: "N/A"
+abstract: 
+research_topic: Other
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Gemma, Qwen, DeepSeek"
 DATA_URL: "https://huggingface.co/datasets/ciol-research/BengaliMoralBench"

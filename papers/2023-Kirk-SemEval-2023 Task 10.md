@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "[[Kirk, Hannah]]; [[Yin, Wenjie]]; [[Vidgen, Bertie]]; [[Röttger, Pau
 url: "https://aclanthology.org/2023.semeval-1.305/"
 external_pdf: "http://arxiv.org/pdf/2303.04222"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 

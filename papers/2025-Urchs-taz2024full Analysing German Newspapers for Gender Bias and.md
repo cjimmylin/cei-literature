@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,29 +9,29 @@ short_title: "taz2024full: Analysing German Newspapers for Gender Bias and Discr
 year: 2025
 first_author: "[[Stefanie Urchs]]"
 last_author: "[[Sigurd Thurner]]"
-authors: Stefanie Urchs, Sigurd Thurner et al.
+authors: "Stefanie Urchs, Sigurd Thurner et al."
 url: "https://arxiv.org/abs/2506.05388"
 external_pdf: "https://arxiv.org/pdf/2506.05388.pdf"
-publication: arXiv / ACL 2025
+publication: "arXiv / ACL 2025"
 local_pdf: "[[PDFs/2025/2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-national_ethnic_cultural: "German"
-languages_list: "German"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+national_ethnic_cultural: German
+languages_list: German
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://doi.org/10.5281/zenodo.15480855"
 tags: 
 abstract: "Open-access corpora are essential for advancing natural language processing (NLP) and computational social science (CSS). However, large-scale resources for German remain limited, restricting research on linguistic trends and societal issues such as gender bias. We present taz2024full, the largest publicly available corpus of German newspaper articles to date, comprising over 1.8 million texts from taz, spanning 1980 to 2024."

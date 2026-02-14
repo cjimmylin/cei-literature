@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ external_pdf: "https://johnhooker.tepper.cmu.edu/machineEthicsNonintuitive2.pdf"
 local_pdf: "[[PDFs/2018/2018-Kim-Toward Non-Intuition-Based Machine Ethics.pdf]]"
 publication: "AIES '18: AAAI/ACM Conference on AI, Ethics, and Society"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Deontology, Modal-Logic, Machine-Ethics, Kantian-Ethics, AI-Transparency"
 key_contribution: "Formalizes Kantian deontological principles in quantified modal logic, avoiding reliance on moral intuitions"
@@ -36,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2018/2018-Kim-Toward Non-Intuition-Based Machine Ethics.md"
 ---
 # Toward Non-Intuition-Based Machine and Artificial Intelligence Ethics: A Deontological Approach Based on Modal Logic

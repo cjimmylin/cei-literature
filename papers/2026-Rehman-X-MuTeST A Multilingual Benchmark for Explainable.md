@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0316
 type: preprint
 short_title: "X-MuTeST A Multilingual Benchmark for Explainable"
-year: 2026
+year: 2025
 first_author: "[[Rehman, Zia]]"
 last_author: "[[Rehman, Zia]]"
 authors: "[[Rehman, Zia]]; [[and others]]"
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2601.03194"
 external_pdf: "https://arxiv.org/pdf/2601.03194.pdf"
 local_pdf: "[[PDFs/2026/2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.md"
-publication: WebSearch: X-MuTeST Telugu hate speech
+publication: "WebSearch: X-MuTeST Telugu hate speech"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Hate speech detection on social media faces challenges in both accuracy and explainability, especially for underexplored Indic languages. We propose a novel explainabilityguided training framework, X-MuTeST (eXplainable Multilingual haTe Speech deTection), for hate speech detection that combines high-level semantic reasoning from large language models (LLMs) with traditional attentionenhancing techniques."
 data_description: "Multilingual benchmark annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/UVSKKR/X-MuTeST"
 ethics_perspective: "Responsible AI"
 ---

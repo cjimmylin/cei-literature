@@ -7,34 +7,34 @@ Not AI:
 key: LSRC0139
 type: journalArticle
 short_title: "PerBOLD: A Big Dataset of Persian Offensive Language on Instagram Comments"
-year: 2023
-first_author: "[[Khodabakhsh]]"
-last_author: "[[Ghayoomi]]"
-authors: Khodabakhsh, Jafarinejad, Rahimi, Ghayoomi
+year: 2025
+first_author: [[Khodabakhsh]]
+last_author: [[Ghayoomi]]
+authors: "Khodabakhsh, Jafarinejad, Rahimi, Ghayoomi"
 url: "https://tjee.tabrizu.ac.ir/article_15794.html"
-publication: Tabriz Journal of Electrical Engineering
+publication: "Tabriz Journal of Electrical Engineering"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Iranian"
-languages_list: "Persian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Iranian
+languages_list: Persian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Persian comment dataset from Instagram with two-level manual annotation for offensive language detection including fine-grained tags of different offensive language types."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # PerBOLD: A Big Dataset of Persian Offensive Language on Instagram Comments

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0570
 type: preprint
 short_title: "SeaLLMs Large Language Models for Southeast"
-year: 2023
+year: 2025
 first_author: "[[team, DAMO Academy / Alibaba]]"
 last_author: "[[team, DAMO Academy / Alibaba]]"
 authors: "[[DAMO Academy / Alibaba team]]"
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2312.00738"
 external_pdf: "https://arxiv.org/pdf/2312.00738.pdf"
 local_pdf: "[[PDFs/2023/2023-team-SeaLLMs Large Language Models for Southeast.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-team-SeaLLMs Large Language Models for Southeast.md"
-publication: ACL 2024 Demo
+publication: "ACL 2024 Demo"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Thai"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Thai
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Despite the remarkable achievements of large language models (LLMs) in various tasks, there remains a linguistic bias that favors highresource languages, such as English, often at the expense of low-resource and regional languages. To address this imbalance, we introduce SeaLLMs, an innovative series of language models that specifically focuses on Southeast Asian (SEA) languages. SeaLLMs are built upon popular English-centric models through continued pre-training with an extended vocabulary,..."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/SeaLLMs"
 ethics_perspective: "AI Safety & Alignment"
 ---

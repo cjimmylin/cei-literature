@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,8 +8,8 @@ type: conferencePaper
 short_title: "A comprehensive review on detection of hate speech for multi-lingual data | Social Network Analysis and Mining"
 year: 2025
 first_author: "[[Rachna Narula]]"
-last_author: "[[Unknown]]"
-authors: Rachna Narula; Poonam Chaudhary
+last_author: [[Unknown]]
+authors: "Rachna Narula; Poonam Chaudhary"
 doi: 10.1007/s13278-024-01401-y
 url: "https://link.springer.com/article/10.1007/s13278-024-01401-y"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s13278-024-01401-y.pdf"
@@ -18,20 +17,20 @@ publication: Springer
 local_pdf: "[[PDFs/2025/2025-Narula-A comprehensive review on detection of hate speech for multi-lingual.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Narula-A comprehensive review on detection of hate speech for multi-lingual.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "English, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

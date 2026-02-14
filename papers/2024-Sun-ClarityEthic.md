@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2412.12848"
 external_pdf: "http://arxiv.org/pdf/2412.12848.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Introduces ClarityEthic, a method that uses contrastive learning to help LLMs identify and select appropriate social norms for moral judgment"
@@ -34,10 +32,10 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Sun-ClarityEthic.md"
-local_pdf: "[[PDFs/2024/2024-Sun-ClarityEthic.pdf]]"
+local_pdf: [[PDFs/2024/2024-Sun-ClarityEthic.pdf]]
 ---
 # ClarityEthic: Explainable Moral Judgment Utilizing Contrastive Ethical Insights from Large Language Models
 

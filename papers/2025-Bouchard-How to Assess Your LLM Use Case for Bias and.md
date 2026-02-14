@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Dominique Bouchard"
 url: "https://medium.com/cvs-health-tech-blog/how-to-assess-your-llm-use-case-for-bias-and-fairness-with-langfair-7be89c0c4fab"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/DJYXXBYZ/Bouchard - 2025 - How to Assess Your LLM Use Case for Bias and Fairness with LangFair.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Describes LangFair, a toolkit/library for assessing bias and fairness metrics in LLM use cases."
@@ -33,7 +31,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: "Gemini"
+LLM_assessed: Gemini
 DATA_URL: "https://github.com/cvs-health/langfair"
 pdf_extract: "PDF Extracts/2025/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.md"
 local_pdf: "[[PDFs/2025/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.pdf]]"

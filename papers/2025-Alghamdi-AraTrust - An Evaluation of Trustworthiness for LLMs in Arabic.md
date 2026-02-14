@@ -1,14 +1,11 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0025
 type: conferencePaper
-short_title: AraTrust -- An Evaluation of Trustworthiness for LLMs in Arabic
+short_title: "AraTrust -- An Evaluation of Trustworthiness for LLMs in Arabic"
 year: 2025
 first_author: "[[Alghamdi, Emad A.]]"
 last_author: "[[Zaytoon, Mohamed]]"
@@ -18,27 +15,27 @@ url: "https://arxiv.org/abs/2403.09017"
 external_pdf: "https://arxiv.org/pdf/2403.09017.pdf"
 local_pdf: "[[PDFs/2025/2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.md"
-publication: COLING 2025
+publication: "COLING 2025"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Arabic"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Arabic
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "The swift progress and widespread acceptance of artificial intelligence (AI) systems highlight a pressing requirement to comprehend both the capabilities and potential risks associated with AI. Given the linguistic complexity, cultural richness, and underrepresented status of Arabic in AI research, there is a pressing need to focus on Large Language Models (LLMs) performance and safety for Arabic related tasks."
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # AraTrust -- An Evaluation of Trustworthiness for LLMs in Arabic
 

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,27 +9,27 @@ short_title: "PoETa v2: Toward More Robust Evaluation of Large Language Models i
 year: 2025
 first_author: "[[Eduardo Garcia]]"
 last_author: "[[Tiago Pimentel]]"
-authors: Eduardo Garcia, Matheus Pires, Tiago Pimentel, et al.
+authors: "Eduardo Garcia, Matheus Pires, Tiago Pimentel, et al."
 url: "https://arxiv.org/abs/2511.17808"
 external_pdf: "https://arxiv.org/pdf/2511.17808.pdf"
 local_pdf: "[[PDFs/2025/2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Brazilian"
-languages_list: "Portuguese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Brazilian
+languages_list: Portuguese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

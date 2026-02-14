@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +7,7 @@ key: EXSR0072
 type: preprint
 short_title: "LLMs on Trial: Evaluating Judicial Fairness for Large Language Models (JudiFair)"
 year: 2025
-first_author: "[[Hu]]"
+first_author: [[Hu]]
 last_author: "[[Weixing Shen]]"
 authors: "Yiran Hu; Zongyue Xue; Haitao Li; Siyuan Zheng; Qingjing Chen; Shaochun Wang; Xihan Zhang; Ning Zheng; Yun Liu; Qingyao Ai; Yiqun Liu; Charles L.A. Clarke; Weixing Shen"
 url: "https://arxiv.org/abs/2507.10852"
@@ -19,18 +16,18 @@ local_pdf: "[[PDFs/2025/2025-Hu-LLMs on Trial Evaluating Judicial Fairness for L
 pdf_extract: "PDF Extracts/2025/2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly used in high-stakes fields where their decisions impact rights and equity. However, LLMs’ judicial fairness and implications for social justice remain underexplored. When LLMs act as judges, the ability to fairly resolve judicial issues is a prerequisite to ensure their trustworthiness. Based on theories of judicial fairness, we construct a comprehensive framework to measure LLM fairness, leading to a selection of 65 labels and 161 corresponding..."
 ethics_perspective: "Bias & Fairness"

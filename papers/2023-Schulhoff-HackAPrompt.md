@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,12 +13,12 @@ authors: "[[Schulhoff, Sander]]; [[Pinto, Jeremy]]; [[Khan, Anaum]]; [[Bouchard,
 url: "https://aclanthology.org/2023.emnlp-main.302/"
 external_pdf: "https://aclanthology.org/2023.emnlp-main.302.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz"
 tags: 
-local_pdf: "[[PDFs/2023/2023-Schulhoff-HackAPrompt.pdf]]"
+local_pdf: [[PDFs/2023/2023-Schulhoff-HackAPrompt.pdf]]
 pdf_extract: "PDF Extracts/2023/2023-Schulhoff-HackAPrompt.md"
 abstract: "Large Language Models (LLMs) are deployed in interactive contexts with direct user engage- ment, such as chatbots and writing assistants. These deployments are vulnerable to prompt injection and jailbreaking (collectively, prompt hacking), in which models are manipulated to ignore their original instructions and follow potentially malicious ones. Although widely acknowledged as a significant security threat, there is a dearth of large-scale resources and quantitative studies on prompt hacking. T"
 ethics_overall: No
@@ -34,7 +32,7 @@ is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, ChatGPT, Flan-T5"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # HackAPrompt: Automated Prompt Engineering for Attacking and Defending LLMs
 

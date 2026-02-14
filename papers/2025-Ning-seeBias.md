@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Yilin Ning; Yian Ma; Mingxuan Liu; Xin Li; Nan Liu"
 url: "https://arxiv.org/abs/2504.08418"
 external_pdf: "https://arxiv.org/pdf/2504.08418.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Introduced seeBias, an R package for integrated visualization and assessment of fairness, calibration, and predictive performance."
@@ -25,7 +23,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Ning-seeBias.md"
 abstract: "Fairness in artificial intelligence (AI) prediction models is increasingly emphasized to support responsible adoption in high-stakes domains such as health care and criminal justice. Guidelines and implementation frameworks highlight the importance of both predictive accuracy and equitable outcomes. However, current fairness toolkits often evaluate classification performance disparities in isolation, with limited attention to other critical aspects such as calibration. To address these gaps, we"
 paper_summary: "Abstract: Fairness in artificial intelligence (AI) prediction models is increasingly emphasized to support responsible adoption in high-stakes domains such as health care and criminal justice. Guidelines and im | Overview: 1 seeBias: A Comprehensive Tool for Assessing and Visualizing AI Fairness Yilin Ning1,2, Yian Ma1,2, Mingxuan Liu1,2, Xin Li1,2, Nan Liu1,2,3,4* 1Centre for Quantitative Medicine, Duke-NUS Medical Sch | Key Findings: Inspired by the comprehensive assessment in fairmodels, seeBias visually evaluates a wider range of performance metrics in addition to TPR and FPR to  | Conclusions: Bias in AI models has been a significant concern in high-stakes applications such as criminal justice and healthcare (1,29–31). Current efforts to eva"
-local_pdf: "[[PDFs/2025/2025-Ning-seeBias.pdf]]"
+local_pdf: [[PDFs/2025/2025-Ning-seeBias.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -36,7 +34,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/nliulab/seeBias"
 ---
 # seeBias: A Comprehensive Tool for Assessing and Visualizing AI Fairness

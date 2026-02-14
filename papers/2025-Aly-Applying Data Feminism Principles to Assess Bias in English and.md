@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,32 +9,32 @@ short_title: "Applying Data Feminism Principles to Assess Bias in English and Ar
 year: 2025
 first_author: "[[Ranwa Aly]]"
 last_author: "[[Rana Gaber]]"
-authors: Ranwa Aly, Yara Allam, Rana Gaber
+authors: "Ranwa Aly, Yara Allam, Rana Gaber"
 doi: 10.1145/3715275.3732119
 url: "https://dl.acm.org/doi/10.1145/3715275.3732119"
 publication: ACM
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Arabic"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Arabic
 languages_list: "Arabic, English"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Bias & Fairness"
 ---
 # Applying Data Feminism Principles to Assess Bias in English and Arabic NLP Research | Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency

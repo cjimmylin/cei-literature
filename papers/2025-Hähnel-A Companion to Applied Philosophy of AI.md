@@ -1,6 +1,4 @@
 ---
-
-
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Amazing book on applied AI"
@@ -17,8 +15,8 @@ url: "https://www.wiley.com/en-us/A+Companion+to+Applied+Philosophy+of+AI-p-9781
 local_pdf: "[[PDFs/2025/2025-Hähnel-A Companion to Applied Philosophy of AI.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Hähnel-A Companion to Applied Philosophy of AI.md"
 national_ethnic_cultural: N/A
-religious_values: "Buddhism"
-religious_values_list: "Buddhism"
+religious_values: Buddhism
+religious_values_list: Buddhism
 moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Advocates for a neo-Aristotelian approach to AI ethics, applying virtue ethics principles to address the complexities of AI's governance and design"
@@ -33,8 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # A Companion to Applied Philosophy of AI
 

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2503.18288"
 external_pdf: "https://arxiv.org/pdf/2503.18288.pdf"
 local_pdf: "[[PDFs/2025/2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Advancement of large language models (LLMs) has brought transformative capabilities to NLP, but such progress remains unevenly distributed, especially for low-resource and culturally rich languages like Tibetan. In this paper, we present TIB-STC, the first large-scale, expert-curated, and multidomain dataset specifically designed to support the development and evaluation of LLMs for the Tibetan language."
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/Vicentvankor/sun-shine"
 research_topic: "Machine Learning"
 ---

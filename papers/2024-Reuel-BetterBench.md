@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Anka Reuel; Amelia Hardy; Chandler Smith; Max Lamparth; Malcolm Hardy;
 url: "https://arxiv.org/abs/2411.12990"
 external_pdf: "https://arxiv.org/pdf/2411.12990.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -24,7 +22,7 @@ osint_source: "Recovered via HTML"
 pdf_extract: "PDF Extracts/2024/2024-Reuel-BetterBench.md"
 abstract: "AI models are increasingly prevalent in high-stakes environments, necessitating thorough assessment of their capabilities and risks. Benchmarks are popular for measuring these attributes and for comparing model performance, tracking progress, and identifying weaknesses in foundation and non-foundation models. They can inform model selection for downstream tasks and influence policy initiatives. However, not all benchmarks are the same: their quality depends on their design and usability. In this"
 paper_summary: "Abstract: AI models are increasingly prevalent in high-stakes environments, necessitating thorough assessment of their capabilities and risks. Benchmarks are popular for measuring these attributes and for compa | Overview: BetterBench: Assessing AI Benchmarks, Uncovering Issues, and Establishing Best Practices Anka Reuel ∗ Stanford University Amelia Hardy∗ Stanford University Chandler Smith Northeastern University Max L | Methodology: Our benchmark assessment consists of 46 criteria based on our literature review and interviews with five primary groups of stakeholders. These groups, | Key Findings: is an essential discipline [15]. Current evaluation approaches include both internally (e.g., private testing on proprietary data) and externally deve | Conclusions: Not all benchmarks are of the same quality. Model developers frequently report performance on benchmarks that vary significantly in quality. For insta"
-local_pdf: "[[PDFs/2024/2024-Reuel-BetterBench.pdf]]"
+local_pdf: [[PDFs/2024/2024-Reuel-BetterBench.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -35,7 +33,7 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://betterbench.stanford.edu"
 ---
 # BetterBench: Assessing AI Benchmarks, Uncovering Issues and Opportunities

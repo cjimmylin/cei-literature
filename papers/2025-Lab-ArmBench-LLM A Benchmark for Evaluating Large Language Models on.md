@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,31 +9,31 @@ short_title: "ArmBench-LLM: A Benchmark for Evaluating Large Language Models on 
 year: 2025
 first_author: "[[Metric AI Research Lab]]"
 last_author: "[[Metric AI Research Lab]]"
-authors: Metric AI Research Lab
+authors: "Metric AI Research Lab"
 url: "https://metric.am/blog/introducing-armbench-llm/"
-publication: Metric AI Lab Blog
+publication: "Metric AI Lab Blog"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Armenian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Armenian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: "Claude-3.7-Sonnet, Gemini-2.0-Flash"
 DATA_URL: "https://huggingface.co/spaces/metric-am/ArmBench-LLM"
 tags: 
-abstract:
+abstract: 
 research_topic: "Machine Learning"
 ---
 # ArmBench-LLM: A Benchmark for Evaluating Large Language Models on Armenian Language Tasks

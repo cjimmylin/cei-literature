@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Monika Jotautaite; Mary Phuong; Chatrik Singh Mangat; Maria Angelica M
 url: "https://arxiv.org/abs/2504.06324"
 external_pdf: "https://arxiv.org/pdf/2504.06324.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Introduced the MFD-LLM dataset grounded in Moral Foundations Theory to evaluate the consistency/stability of LLM moral preferences across varied dilemmas."

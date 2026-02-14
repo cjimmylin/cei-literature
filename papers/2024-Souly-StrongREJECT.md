@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Alexandra Souly; Qingyuan Lu; Dillon Bowen; Tu Trinh; Elvis Hsieh; San
 url: "https://arxiv.org/abs/2402.10260"
 external_pdf: "https://arxiv.org/pdf/2402.10260.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced StrongREJECT, a jailbreak benchmark that uses 'strong rejection' (refusal) as the baseline and measures valid jailbreaks more rigorously than previous metrics."
@@ -25,7 +23,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Souly-StrongREJECT.md"
 abstract: "Most jailbreak papers claim the jailbreaks they propose are highly effective, often boasting near-100% attack success rates. However, it is perhaps more common than not for jailbreak developers to substantially exaggerate the effectiveness of their jailbreaks. We suggest this problem arises because jailbreak researchers lack a standard, high-quality benchmark for evaluating jailbreak performance, leaving researchers to create their own. To create a benchmark, researchers must choose a dataset of"
 paper_summary: "Abstract: Most jailbreak papers claim the jailbreaks they propose are highly effective, often boasting near-100% attack success rates. However, it is perhaps more common than not for jailbreak developers to sub | Overview: A STRONGREJECT for Empty Jailbreaks Alexandra Souly∗ Qingyuan Lu∗ Dillon Bowen∗ Tu Trinh† Elvis Hsieh† Sana Pandey Pieter Abbeel Justin Svegliato Scott Emmons‡ Olivia Watkins‡ Sam Toyer‡ Center for Hu | Methodology: Many automated evaluators use LLMs to score a forbidden prompt-victim model response pair. The LLM can be hosted remotely or on a user’s GPU. For exam | Key Findings: 😈 Figure 1: StrongREJECT improves on existing jailbreak benchmarks using prompts that are spe- cific, answerable, and harmful across six categories of | Conclusions: Broader impacts. Research into LLM jailbreaks is useful for understanding the weaknesses of large language models and identifying vulnerabilities that"
-local_pdf: "[[PDFs/2024/2024-Souly-StrongREJECT.pdf]]"
+local_pdf: [[PDFs/2024/2024-Souly-StrongREJECT.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

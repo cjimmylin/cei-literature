@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "[[Vasilev, Viacheslav]]; [[Agafonova, Julia]]; [[Gerasimenko, Nikolai]
 url: "https://aclanthology.org/2025.findings-naacl.425/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/JFUIN3WV/2025 - RusCode Russian Cultural Code Benchmark for Text-to-Image Generation.pdf"
 national_ethnic_cultural: Russian
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Russian, Social & Cultural Values"
 key_contribution: "Proposes the RusCode benchmark, consisting of 1250 text prompts in 19 categories (art, folk traditions, etc.) to evaluate Russian cultural code representation in text-to-image models."
@@ -33,10 +31,10 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "1250 prompts; 19 categories"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/ai-forever/RusCode"
 pdf_extract: "PDF Extracts/2025/2025-Vasilev-RusCode.md"
-local_pdf: "[[PDFs/2025/2025-Vasilev-RusCode.pdf]]"
+local_pdf: [[PDFs/2025/2025-Vasilev-RusCode.pdf]]
 ---
 # RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation
 

@@ -1,42 +1,40 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0535
 type: conferencePaper
-short_title: Multimodal Hate Speech Detection in Greek Social Media
-year: 2021
+short_title: "Multimodal Hate Speech Detection in Greek Social Media"
+year: 2025
 first_author: "[[Konstantinos Perifanos]]"
 last_author: "[[Dionysis Goutsos]]"
-authors: Konstantinos Perifanos, Dionysis Goutsos
+authors: "Konstantinos Perifanos, Dionysis Goutsos"
 doi: 10.3390/mti5070034
 url: "https://www.mdpi.com/2414-4088/5/7/34"
-publication: MDPI Multimodal Technologies and Interaction
+publication: "MDPI Multimodal Technologies and Interaction"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Greek"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Greek
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ResNet"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Multimodal Hate Speech Detection in Greek Social Media

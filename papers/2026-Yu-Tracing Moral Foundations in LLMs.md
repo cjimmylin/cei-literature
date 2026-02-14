@@ -1,6 +1,4 @@
 ---
-
-
 Human View: false
 Not AI: 
 key: AUTO_YU2026
@@ -14,8 +12,8 @@ doi: N/A
 url: "https://arxiv.org/abs/2601.05437"
 local_pdf: "[[PDFs/2026/2026-Yu-Tracing Moral Foundations in LLMs.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: Yes
 newtags: "Moral Foundations Theory, LLM Interpretability, Moral Reasoning"
 key_contribution: "Uses Moral Foundations Theory with mechanistic interpretability (sparse autoencoders, activation steering) to show LLMs encode moral reasoning in structured, layer-dependent ways"

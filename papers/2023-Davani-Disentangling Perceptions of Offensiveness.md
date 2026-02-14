@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2312.06861"
 external_pdf: "http://arxiv.org/pdf/2312.06861.pdf"
 publication: "Conference on Fairness, Accountability and Transparency"
 national_ethnic_cultural: Multicultural/Cross-cultural
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Analyzed 4300 participants from 21 countries to show that 'offensiveness' is not universal but culturally mediated by Moral Foundations (Care/Purity)."
@@ -38,8 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Disentangling Perceptions of Offensiveness: Cultural and Moral Correlates
 

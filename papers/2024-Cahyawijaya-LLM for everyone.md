@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Samuel Cahyawijaya"
 url: "https://lbezone.hkust.edu.hk/bib/991013340351603412"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/XZEW2FQS/Cahyawijaya - 2024 - LLM for everyone  representing the underrepresented in large language models.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -33,7 +31,7 @@ is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, Llama-3, BLOOM"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Cahyawijaya-LLM for everyone.md"
 local_pdf: "[[PDFs/2024/2024-Cahyawijaya-LLM for everyone.pdf]]"
 ---

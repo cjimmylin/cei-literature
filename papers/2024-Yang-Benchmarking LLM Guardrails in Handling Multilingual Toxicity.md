@@ -1,35 +1,34 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0258
 type: preprint
-short_title: Benchmarking LLM Guardrails in Handling Multilingual Toxicity
-year: 2024
+short_title: "Benchmarking LLM Guardrails in Handling Multilingual Toxicity"
+year: 2025
 first_author: "[[Yiran Yang]]"
 last_author: "[[Robert Monarch]]"
-authors: Yiran Yang, Zeerak Talat, Robert Monarch
+authors: "Yiran Yang, Zeerak Talat, Robert Monarch"
 url: "https://arxiv.org/abs/2410.22153"
 external_pdf: "https://arxiv.org/pdf/2410.22153.pdf"
 local_pdf: "[[PDFs/2024/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Arabic, Bengali, Chinese, English, French, German, Hindi, Korean, Spanish, Swahili"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: 

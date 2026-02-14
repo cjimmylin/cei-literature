@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,31 +9,32 @@ short_title: "BasqBBQ: A QA Benchmark for Assessing Social Biases in LLMs for Ba
 year: 2025
 first_author: "[[Muitze Zulaika]]"
 last_author: "[[Xabier Saralegi]]"
-authors: Muitze Zulaika, Xabier Saralegi et al.
+authors: "Muitze Zulaika, Xabier Saralegi et al."
 url: "https://aclanthology.org/2025.coling-main.318/"
-publication: ACL Anthology (COLING 2025)
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://aclanthology.org/2025.coling-main.318.pdf"
+publication: "ACL Anthology (COLING 2025)"
+local_pdf: "[[PDFs/2025/2025-Zulaika-BasqBBQ A QA Benchmark for Assessing Social Biases in LLMs for Basque.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Zulaika-BasqBBQ A QA Benchmark for Assessing Social Biases in LLMs for Basque.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Basque"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Basque
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: "multilingual and Basque-adapted LLMs"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 research_topic: "Question Answering"
 ---
 # BasqBBQ: A QA Benchmark for Assessing Social Biases in LLMs for Basque, a Low-Resource Language

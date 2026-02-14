@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "http://arxiv.org/abs/2407.16216"
 external_pdf: "http://arxiv.org/pdf/2407.16216.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Provides a comprehensive survey of LLM alignment techniques (RLHF, RLAIF, DPO, PPO, etc.), categorizing them by methodology and objective."
@@ -38,8 +36,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # A Comprehensive Survey of LLM Alignment Techniques: RLHF, RLAIF, PPO, DPO and More
 

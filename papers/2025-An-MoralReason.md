@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,11 +12,11 @@ last_author: "[[Du, Wan]]"
 authors: "[[An, Zhiyu]]; [[Du, Wan]]"
 doi: 10.48550/arXiv.2511.12271
 url: "https://arxiv.org/abs/2511.12271"
-local_pdf: "[[PDFs/2025/2025-An-MoralReason.pdf]]"
+local_pdf: [[PDFs/2025/2025-An-MoralReason.pdf]]
 external_pdf: "https://arxiv.org/pdf/2511.12271.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Proposes 'MoralReason', a framework using reasoning-level reinforcement learning to steer LLMs towards specific moral frameworks (utilitarian, deontological, virtue)"
@@ -36,7 +33,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework annotated dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "Qwen"
+LLM_assessed: Qwen
 DATA_URL: "https://huggingface.co/datasets/zankjhk/Moral-Reason-QA"
 normative_ethics_benchmark: Yes
 ---

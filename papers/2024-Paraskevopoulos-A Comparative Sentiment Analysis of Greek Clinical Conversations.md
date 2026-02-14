@@ -1,42 +1,41 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0551
 type: conferencePaper
-short_title: A Comparative Sentiment Analysis of Greek Clinical Conversations Using BERT, RoBERTa, GPT-2, and XLNet
-year: 2024
+short_title: "A Comparative Sentiment Analysis of Greek Clinical Conversations Using BERT, RoBERTa, GPT-2, and XLNet"
+year: 2025
 first_author: "[[Georgios Paraskevopoulos]]"
 last_author: "[[Georgios Paraskevopoulos]]"
-authors: Georgios Paraskevopoulos et al.
+authors: "Georgios Paraskevopoulos et al."
 doi: 10.3390/bioengineering11060521
 url: "https://www.mdpi.com/2306-5354/11/6/521"
-publication: MDPI Bioengineering
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://europepmc.org/articles/PMC11200492?pdf=render"
+publication: "MDPI Bioengineering"
+local_pdf: "[[PDFs/2024/2024-Paraskevopoulos-A Comparative Sentiment Analysis of Greek Clinical Conversations.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Paraskevopoulos-A Comparative Sentiment Analysis of Greek Clinical Conversations.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Greek"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Greek
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa, GPT-2, XLNet"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 research_topic: "NLP & Representation Learning"
 ---
 # A Comparative Sentiment Analysis of Greek Clinical Conversations Using BERT, RoBERTa, GPT-2, and XLNet

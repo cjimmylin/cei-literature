@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,30 +11,36 @@ first_author: "[[Milana Bolatbek, Moldir Sagynay, Shynar Mussiraliyeva, Zhastay 
 last_author: "[[Milana Bolatbek, Moldir Sagynay, Shynar Mussiraliyeva, Zhastay Yeltay]]"
 authors: "[[Milana Bolatbek, Moldir Sagynay, Shynar Mussiraliyeva, Zhastay Yeltay]]"
 authors_incomplete: false
-url: "https://ieeexplore.ieee.org/document/10719327/"
-external_pdf: "https://link.springer.com/content/pdf/10.1007/s43681-024-00505-7.pdf"
-local_pdf: "N/A"
-pdf_extract: ""
-publication: IEEE ICCIA 2024
+doi: 10.1109/ICCIA62557.2024.10719327
+url: "https://doi.org/10.1109/ICCIA62557.2024.10719327"
+external_pdf: "https://ieeexplore.ieee.org/ielx8/10719028/10718863/10719327.pdf"
+local_pdf: N/A
+pdf_access_status: manual_only
+pdf_access_last_checked: 2026-02-14
+pdf_access_error: "not_pdf_header (HTTP 200)"
+pdf_access_url: "https://ieeexplore.ieee.org/ielx8/10719028/10718863/10719327.pdf"
+pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
+pdf_extract: 
+publication: "IEEE ICCIA 2024"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 tags: 
 abstract: "Dataset compiled from YouTube, Telegram, and VK using keyword-based crawling for destructive speech in Kazakh. Covers cyberbullying, racism, religious extremism, nationalistic extremism. Kazakh-specific hate speech detection dataset addressing culturally relevant categories of harmful content including nationalistic extremism and religious extremism specific to Kazakhstan."
-data_description: "Dataset"
+data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Kazakh Language Dataset for Hate Speech Detection on Social Media Text

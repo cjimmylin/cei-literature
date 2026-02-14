@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,31 +6,31 @@ Not AI:
 key: LSRC0247
 type: preprint
 short_title: "Open Ko-LLM Leaderboard: Evaluating Large Language Models in Korean with Ko-H5 Benchmark"
-year: 2024
+year: 2025
 first_author: "[[Chanjun Park]]"
 last_author: "[[Hyeonwoo Kim]]"
-authors: Chanjun Park, Dahyun Kim, Sanghoon Kim, Sukyung Lee, Yungi Kim, Hyeonwoo Kim
+authors: "Chanjun Park, Dahyun Kim, Sanghoon Kim, Sukyung Lee, Yungi Kim, Hyeonwoo Kim"
 doi: 10.18653/v1/2024.acl-long.177
 url: "https://arxiv.org/abs/2405.20574"
 external_pdf: "https://arxiv.org/pdf/2405.20574.pdf"
 local_pdf: "[[PDFs/2024/2024-Park-Open Ko-LLM Leaderboard Evaluating Large Language Models in Korean.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Park-Open Ko-LLM Leaderboard Evaluating Large Language Models in Korean.md"
-publication: arXiv / ACL 2024
+publication: "arXiv / ACL 2024"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Korean"
-languages_list: "Korean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Korean
+languages_list: Korean
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

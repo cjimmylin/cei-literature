@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,33 +7,33 @@ key: EXSR0437
 type: preprint
 short_title: "SweEval Do LLMs Really Swear A"
 year: 2025
-first_author: "[[[[Unknown]]]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
+first_author: [[[[Unknown]]]]
+last_author: [[Unknown]]
+authors: [[Unknown]]
 authors_incomplete: true
 url: "https://arxiv.org/abs/2505.17332"
 external_pdf: "https://arxiv.org/pdf/2505.17332.pdf"
 local_pdf: "[[PDFs/2025/2025-[[Unknown]]-SweEval Do LLMs Really Swear A.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-[[Unknown]]-SweEval Do LLMs Really Swear A.md"
-publication: NAACL 2025
+publication: "NAACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Enterprise customers are increasingly adopting Large Language Models (LLMs) for critical communication tasks, such as drafting emails, crafting sales pitches, and composing casual messages. Deploying such models across different regions requires them to understand diverse cultural and linguistic contexts and generate safe and respectful responses. For enterprise applications, it is crucial to mitigate reputational risks, maintain trust, and ensure compliance by effectively identifying and..."
 data_description: "Multilingual benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/ariondas/SweEval-Bench"
 ethics_perspective: "AI Safety & Alignment"
 ---

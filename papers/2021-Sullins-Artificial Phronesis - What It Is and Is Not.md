@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,13 +9,13 @@ short_title: "Artificial Phronesis - What It Is and Is Not"
 year: 2025
 first_author: "[[John P. Sullins]]"
 last_author: "[[John P. Sullins]]"
-authors: John P. Sullins
+authors: "John P. Sullins"
 doi: 10.1093/oso/9780190081713.003.0015
 url: "https://academic.oup.com/book/41621/chapter-abstract/353452047"
 publication: "Science, Technology, and Virtues: Contemporary Perspectives (Oxford University Press)"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
@@ -34,9 +32,9 @@ is_benchmark: No
 is_eval: No
 is_dataset: No
 data_description: 
-data_metrics:
-LLM_assessed: "NA"
-DATA_URL: "NA"
+data_metrics: 
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Artificial Phronesis - What It Is and Is Not
 

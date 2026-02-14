@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,10 +12,10 @@ last_author: "[[Aqil M. Azmi]]"
 authors: "Hayfa A. Aleid; Aqil M. Azmi"
 doi: 10.1007/s44443-025-00128-w
 url: "https://link.springer.com/10.1007/s44443-025-00128-w"
-external_pdf: "file:///Users/jimmylin/Zotero/storage/4NPM5GIF/Aleid and Azmi - 2025 - Hajj-FQA A benchmark Arabic dataset for developing question-answering systems on Hajj fatwas.pdf"
+external_pdf: "https://link.springer.com/content/pdf/10.1007/s44443-025-00128-w.pdf"
 national_ethnic_cultural: Arabic
-religious_values: "Islam"
-religious_values_list: "Islam"
+religious_values: Islam
+religious_values_list: Islam
 moral_psychology: N/A
 newtags: "Arabic, Islam, Utilitarianism"
 key_contribution: "Introduces Hajj-FQA, a benchmark Arabic dataset for question answering on Hajj fatwas to develop specialized religious chatbots"
@@ -35,9 +33,9 @@ is_dataset: Yes
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa, DeBERTa, T5, BART"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Aleid-Hajj-FQA.md"
-local_pdf: "[[PDFs/2025/2025-Aleid-Hajj-FQA.pdf]]"
+local_pdf: "[[PDFs/2025-Aleid-Hajj-FQA.pdf]]"
 DATE_ADDED: 20260207
 ---
 # Hajj-FQA: A benchmark Arabic dataset for developing question-answering systems on Hajj fatwas

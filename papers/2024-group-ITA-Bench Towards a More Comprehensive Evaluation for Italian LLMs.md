@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,35 +6,35 @@ Not AI:
 key: LSRC0506
 type: conferencePaper
 short_title: "ITA-Bench: Towards a More Comprehensive Evaluation for Italian LLMs"
-year: 2024
+year: 2025
 first_author: "[[SapienzaNLP group]]"
 last_author: "[[SapienzaNLP group]]"
-authors: SapienzaNLP group
+authors: "SapienzaNLP group"
 url: "https://github.com/SapienzaNLP/ita-bench"
-publication: CLiC-it 2024 / GitHub
+publication: "CLiC-it 2024 / GitHub"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Italian"
-languages_list: "Italian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Italian
+languages_list: Italian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/SapienzaNLP/ita-bench"
 tags: 
-abstract:
-research_topic: "Other"
+abstract: 
+research_topic: Other
 ---
 # ITA-Bench: Towards a More Comprehensive Evaluation for Italian LLMs
 

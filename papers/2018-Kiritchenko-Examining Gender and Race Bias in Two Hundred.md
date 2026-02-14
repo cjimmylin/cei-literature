@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ tags:
 url: "https://aclanthology.org/S18-2005/"
 external_pdf: "https://arxiv.org/pdf/1805.04508v1.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Created the Equity Evaluation Corpus (EEC) and audited 219 sentiment analysis systems, finding widespread and statistically significant bias against certain races and genders."
@@ -36,7 +34,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "http://saifmohammad.com/WebPages/Biases-SA.html"
 ---
 # Examining Gender and Race Bias in Two Hundred Sentiment Analysis Systems

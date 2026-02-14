@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0466
 type: preprint
 short_title: "CVQA Culturally-diverse Multilingual Visual Question Answering"
-year: 2024
+year: 2025
 first_author: "[[David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, Teresa Lynn, Injy Hamed, et al. (70+ authors)]]"
 last_author: "[[David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, Teresa Lynn, Injy Hamed, et al. (70+ authors)]]"
 authors: "[[David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, Teresa Lynn, Injy Hamed, et al. (70+ authors)]]"
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2406.05967"
 external_pdf: "https://arxiv.org/pdf/2406.05967.pdf"
 local_pdf: "[[PDFs/2024/2024-authors-CVQA Culturally-diverse Multilingual Visual Question Answering.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-authors-CVQA Culturally-diverse Multilingual Visual Question Answering.md"
-publication: WebSearch: CVQA culturally diverse multilingual visual question answering
+publication: "WebSearch: CVQA culturally diverse multilingual visual question answering"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Visual Question Answering (VQA) is an important task in multimodal AI, and it is often used to test the ability of vision-language models to understand and reason on knowledge present in both visual and textual data. However, most of the current VQA models use datasets that are primarily focused on English and a few major world languages, with images that are typically Western-centric. While recent efforts have tried to increase the number of languages covered on VQA ∗Equal Contribution 38th..."
 data_description: "Multilingual benchmark for bias and fairness dataset for question answering"
 data_metrics: "10k questions; 2024 datasets; 31 languages"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://cvqa-benchmark.org/"
 ethics_perspective: "Social & Cultural Values"
 ---

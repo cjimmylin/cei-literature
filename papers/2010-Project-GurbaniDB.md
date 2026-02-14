@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,16 +7,16 @@ key: 9PE6HG5I
 type: document
 year: 2025
 short_title: GurbaniDB
-first_author: "[[Project]]"
+first_author: [[Project]]
 last_author: "[[The Sikher]]"
 authors: "Project; The Sikher"
 url: "https://sikher.com/projects/gurbanidb/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ZNGV87C6/Project - GurbaniDB.pdf"
 pdf_extract: [[2010-Project-GurbaniDB]]
-local_pdf: "[[PDFs/2010/2010-Project-GurbaniDB.pdf]]"
+local_pdf: [[PDFs/2010/2010-Project-GurbaniDB.pdf]]
 national_ethnic_cultural: N/A
-religious_values: "Sikhism"
-religious_values_list: "Sikhism"
+religious_values: Sikhism
+religious_values_list: Sikhism
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -33,7 +31,7 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/sikher/gurbanidb"
 ---
 # GurbaniDB

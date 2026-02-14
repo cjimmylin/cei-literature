@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "NeoDictaBERT: Pushing the Frontier of BERT models for Hebrew"
 year: 2025
 first_author: "[[Shaltiel Shmidman]]"
 last_author: "[[Moshe Koppel]]"
-authors: Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel
+authors: "Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel"
 url: "https://arxiv.org/abs/2510.20386"
 external_pdf: "https://arxiv.org/pdf/2510.20386.pdf"
 local_pdf: "[[PDFs/2025/2025-Shmidman-NeoDictaBERT Pushing the Frontier of BERT models for Hebrew.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Shmidman-NeoDictaBERT Pushing the Frontier of BERT models for Hebrew.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Hebrew/Israeli"
-languages_list: "Hebrew"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Hebrew/Israeli
+languages_list: Hebrew
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 LLM_assessed: 

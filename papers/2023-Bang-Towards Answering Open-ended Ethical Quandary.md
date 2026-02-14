@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.48550/arXiv.2205.05989
 url: "http://arxiv.org/abs/2205.05989"
 external_pdf: "http://arxiv.org/pdf/2205.05989.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, Moral Reasoning & Psychology"
 key_contribution: "Proposed the task of 'Ethical Quandary Generative Question Answering', prompting LLMs to provide deliberative, multi-perspective answers (Socratic method) rather than single-oracle verdicts."
@@ -37,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Towards Answering Open-ended Ethical Quandary Questions
 

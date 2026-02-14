@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "[[Jung, Dahyun]]; [[Lee, Seungyoon]]; [[Moon, Hyeonseok]]; [[Park, Cha
 url: "https://aclanthology.org/2025.findings-naacl.199/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/M5J3WHBS/2025 - FLEX A Benchmark for Evaluating Robustness of Fairness in Large Language Models.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Introduced FLEX, a fairness benchmark designed to test LLM robustness under 'extreme scenarios' (adversarial prompts that attempt to induce bias)."
@@ -36,7 +34,7 @@ data_metrics: "Not specified"
 LLM_assessed: "Llama-2, Llama-3, Mistral, Gemma, GPT-4, GPT-3.5"
 DATA_URL: "https://github.com/ekgus9/FLEX"
 pdf_extract: "PDF Extracts/2025/2025-Jung-FLEX.md"
-local_pdf: "[[PDFs/2025/2025-Jung-FLEX.pdf]]"
+local_pdf: [[PDFs/2025/2025-Jung-FLEX.pdf]]
 ---
 # FLEX: A Benchmark for Evaluating Robustness of Fairness in Large Language Models
 

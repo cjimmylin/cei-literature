@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0312
 type: preprint
 short_title: "Vikhr: The Family of Open-Source Instruction-Tuned Large Language Models for Russian"
-year: 2024
+year: 2025
 first_author: "[[Aleksandr Nikolich]]"
 last_author: "[[Georgy Okulov]]"
-authors: Aleksandr Nikolich, Konstantin Korolev, Georgy Okulov, et al.
+authors: "Aleksandr Nikolich, Konstantin Korolev, Georgy Okulov, et al."
 doi: 10.18653/v1/2024.mrl-1.15
 url: "https://arxiv.org/abs/2405.13929"
 external_pdf: "https://arxiv.org/pdf/2405.13929.pdf"
 local_pdf: "[[PDFs/2024/2024-Nikolich-Vikhr The Family of Open-Source Instruction-Tuned Large Language.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Nikolich-Vikhr The Family of Open-Source Instruction-Tuned Large Language.md"
-publication: arXiv / ACL Anthology (MRL 2024)
+publication: "arXiv / ACL Anthology (MRL 2024)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Russian"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Russian
 languages_list: "English, Russian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
 LLM_assessed: 

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0303
 type: preprint
 short_title: "An Ubuntu-Guided Large Language Model Framework"
-year: 2026
+year: 2025
 first_author: "[[Sontaga G. Forane, Absalom E. Ezugwu, Kevin Igwe, Karen van den Berg]]"
 last_author: "[[Sontaga G. Forane, Absalom E. Ezugwu, Kevin Igwe, Karen van den Berg]]"
 authors: "[[Sontaga G. Forane, Absalom E. Ezugwu, Kevin Igwe, Karen van den Berg]]"
@@ -21,24 +17,24 @@ local_pdf: "[[PDFs/2026/2026-Berg-An Ubuntu-Guided Large Language Model Framewor
 pdf_extract: "PDF Extracts/2026/2026-Berg-An Ubuntu-Guided Large Language Model Framework.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-national_ethnic_cultural: "African/Ubuntu"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+national_ethnic_cultural: African/Ubuntu
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "South Africa’s escalating mental health crisis, compounded by limited access to culturally responsive care, calls for innovative and contextually grounded interventions. While Large Language Models (LLMs) show considerable promise for mental health support, their predominantly Western-centric training data limit cultural and linguistic applicability in African contexts. This study introduces a proof-of-concept framework that integrates Cognitive Behavioural Therapy (CBT) with the African..."
 data_description: "Evaluation framework dataset for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL:
 ---
 # An Ubuntu-Guided Large Language Model Framework for Cognitive Behavioral Mental Health Dialogue
 

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0382
 type: preprint
 short_title: "RMDM: A Multilabel Fakenews Dataset for Vietnamese Evidence Verification"
-year: 2023
+year: 2025
 first_author: "[[Hai-Long Nguyen]]"
-last_author: "[[Unknown]]"
-authors: Hai-Long Nguyen; Thi-Kieu-Trang Pham; Thai-Son Le; Tan-Minh Nguyen; Thi-Hai-Yen Vuong; Ha-Thanh Nguyen
+last_author: [[Unknown]]
+authors: "Hai-Long Nguyen; Thi-Kieu-Trang Pham; Thai-Son Le; Tan-Minh Nguyen; Thi-Hai-Yen Vuong; Ha-Thanh Nguyen"
 url: "https://arxiv.org/abs/2309.09071"
 external_pdf: "https://arxiv.org/pdf/2309.09071.pdf"
 local_pdf: "[[PDFs/2023/2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "1,556 samples; 389 samples"
 LLM_assessed: 
 DATA_URL: 

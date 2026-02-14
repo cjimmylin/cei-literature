@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.48550/arXiv.2406.14230
 url: "http://arxiv.org/abs/2406.14230"
 external_pdf: "http://arxiv.org/pdf/2406.14230.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Proposed GETA (Generative Evolving Testing Approach), an adaptive testing method that dynamically generates test items to match the model's capability level."

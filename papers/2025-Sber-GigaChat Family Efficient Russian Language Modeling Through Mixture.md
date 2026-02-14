@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,27 +9,27 @@ short_title: "GigaChat Family: Efficient Russian Language Modeling Through Mixtu
 year: 2025
 first_author: "[[AI-SAGE Team (Sber)]]"
 last_author: "[[AI-SAGE Team (Sber)]]"
-authors: AI-SAGE Team (Sber)
+authors: "AI-SAGE Team (Sber)"
 doi: 10.18653/v1/2025.acl-demo.10
 url: "https://arxiv.org/abs/2506.09440"
 external_pdf: "https://arxiv.org/pdf/2506.09440.pdf"
 local_pdf: "[[PDFs/2025/2025-Sber-GigaChat Family Efficient Russian Language Modeling Through Mixture.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Sber-GigaChat Family Efficient Russian Language Modeling Through Mixture.md"
-publication: arXiv / ACL Anthology (ACL Demo 2025)
+publication: "arXiv / ACL Anthology (ACL Demo 2025)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Russian"
-languages_list: "Russian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Russian
+languages_list: Russian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 LLM_assessed: 

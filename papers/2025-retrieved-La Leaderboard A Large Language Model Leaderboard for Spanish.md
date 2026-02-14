@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "La Leaderboard: A Large Language Model Leaderboard for Spanish Var
 year: 2025
 first_author: "[[Authors not fully retrieved]]"
 last_author: "[[Authors not fully retrieved]]"
-authors: Authors not fully retrieved
+authors: "Authors not fully retrieved"
 url: "https://arxiv.org/abs/2507.00999"
 external_pdf: "https://arxiv.org/pdf/2507.00999.pdf"
 local_pdf: "[[PDFs/2025/2025-retrieved-La Leaderboard A Large Language Model Leaderboard for Spanish.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-retrieved-La Leaderboard A Large Language Model Leaderboard for Spanish.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Spanish, Multicultural/Cross-cultural"
 languages_list: "Basque, Catalan, Galician, Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "66 datasets"
 LLM_assessed: 

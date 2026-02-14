@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0455
 type: conference_paper
 short_title: "AC-EVAL Evaluating Ancient Chinese Language Understanding"
-year: 2024
+year: 2025
 first_author: "[[Yuting Wei, Yuanxing Xu, Xinru Wei, Simin Yang, Yangfu Zhu, Yuqing Li, Di Liu, Bin Wu]]"
 last_author: "[[Yuting Wei, Yuanxing Xu, Xinru Wei, Simin Yang, Yangfu Zhu, Yuqing Li, Di Liu, Bin Wu]]"
 authors: "[[Yuting Wei, Yuanxing Xu, Xinru Wei, Simin Yang, Yangfu Zhu, Yuqing Li, Di Liu, Bin Wu]]"
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2403.06574"
 external_pdf: "https://arxiv.org/pdf/2403.06574.pdf"
 local_pdf: "[[PDFs/2024/2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding.md"
-publication: Findings of EMNLP 2024
+publication: "Findings of EMNLP 2024"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Given the importance of ancient Chinese in capturing the essence of rich historical and cultural heritage, the rapid advancements in Large Language Models (LLMs) necessitate benchmarks that can effectively evaluate their understanding of ancient contexts. To meet this need, we present AC-EVAL, an innovative benchmark designed to assess the advanced knowledge and reasoning capabilities of LLMs within the context of ancient Chinese."
-data_description: "Benchmark"
+data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/yuting-wei/AC-EVAL"
 research_topic: "Machine Learning"
 ---

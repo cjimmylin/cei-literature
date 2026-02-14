@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,30 +11,36 @@ first_author: "[[Joshua C. Tom, Todd W. Ferguson, Brandon C. Martinez]]"
 last_author: "[[Joshua C. Tom, Todd W. Ferguson, Brandon C. Martinez]]"
 authors: "[[Joshua C. Tom, Todd W. Ferguson, Brandon C. Martinez]]"
 authors_incomplete: false
-url: ""
-external_pdf: "https://doi.org/10.20944/preprints202410.2112.v3"
-local_pdf: "N/A"
-pdf_extract: ""
-publication: Socius (SAGE)
+url: "https://doi.org/10.1177/23780231251377210"
+doi: 10.1177/23780231251377210
+external_pdf: "https://journals.sagepub.com/doi/pdf/10.1177/23780231251377210"
+local_pdf: N/A
+pdf_access_status: manual_only
+pdf_access_last_checked: 2026-02-14
+pdf_access_error: "http_403 (HTTP 403)"
+pdf_access_url: "https://journals.sagepub.com/doi/pdf/10.1177/23780231251377210"
+pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
+pdf_extract: 
+publication: "Socius (SAGE)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "Examines whether LLMs hold implicit assumptions about religious identities by generating 175 sermons specifying different combinations of race and religion. Finds Evangelical Protestant pastors had easier-to-read sermons while Jewish rabbis and Muslim imams had more difficult synthetic texts. Novel readability-based bias measurement approach. Tests five major LLMs for intersectional race-religion bias."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Bias & Fairness"
 ---
 # Religion and Racial Bias in Artificial Intelligence Large Language Models

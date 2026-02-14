@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "[[Seveso, Andrea]]; [[Potertì, Daniele]]; [[Federici, Edoardo]]; [[Me
 url: "https://aclanthology.org/2025.naacl-long.68/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/NNGKX8QR/2025 - ITALIC An Italian Culture-Aware Natural Language Benchmark.pdf"
 national_ethnic_cultural: Italian
-religious_values: "Christianity"
-religious_values_list: "Christianity"
+religious_values: Christianity
+religious_values_list: Christianity
 moral_psychology: N/A
 newtags: Italian
 tags: 
@@ -34,7 +32,7 @@ data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, Mistral"
 DATA_URL: "https://doi.org/10.5281/zenodo.14725822"
 pdf_extract: "PDF Extracts/2025/2025-Seveso-ITALIC.md"
-local_pdf: "[[PDFs/2025/2025-Seveso-ITALIC.pdf]]"
+local_pdf: [[PDFs/2025/2025-Seveso-ITALIC.pdf]]
 ---
 # ITALIC: An Italian Culture-Aware Natural Language Benchmark
 

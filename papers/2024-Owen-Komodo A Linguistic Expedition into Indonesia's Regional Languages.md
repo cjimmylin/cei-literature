@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0119
 type: preprint
 short_title: "Komodo: A Linguistic Expedition into Indonesia's Regional Languages"
-year: 2024
+year: 2025
 first_author: "[[Louis Owen]]"
-last_author: "[[Unknown]]"
-authors: Louis Owen; Vishesh Tripathi; Abhay Kumar; Biddwan Ahmed
+last_author: [[Unknown]]
+authors: "Louis Owen; Vishesh Tripathi; Abhay Kumar; Biddwan Ahmed"
 url: "https://arxiv.org/abs/2403.09362"
 external_pdf: "https://arxiv.org/pdf/2403.09362.pdf"
 local_pdf: "[[PDFs/2024/2024-Owen-Komodo A Linguistic Expedition into Indonesia's Regional Languages.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Owen-Komodo A Linguistic Expedition into Indonesia's Regional Languages.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indonesian"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indonesian
 languages_list: "Indonesian, Javanese, Sundanese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

@@ -8,34 +8,34 @@ key: LSRC0270
 type: journalArticle
 short_title: "Towards Realistic Evaluation of Cultural Value Alignment in Large Language Models: Diversity Enhancement for Survey Response Simulation"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+first_author: [[Unknown]]
+last_author: [[Unknown]]
 authors: Unknown
 doi: 10.1016/j.techfore.2025.123XX
 url: "https://www.sciencedirect.com/science/article/abs/pii/S030645732500041X"
-publication: Technological Forecasting and Social Change (ScienceDirect)
+publication: "Technological Forecasting and Social Change (ScienceDirect)"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Arabic, Chinese, English, French, German, Hindi, Japanese, Korean, Russian, Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Evaluates cultural value alignment through survey response simulation. Enhances diversity in simulated responses to better capture cultural nuances including Korean values. Uses World Values Survey as ground truth."
 ethics_perspective: "AI Safety & Alignment"
 ---
 # Towards Realistic Evaluation of Cultural Value Alignment in Large Language Models: Diversity Enhancement for Survey Response Simulation

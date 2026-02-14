@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "BIDWESH: A Bangla Regional Based Hate Speech Detection Dataset"
 year: 2025
 first_author: "[[Azizul Hakim Fayaz]]"
-last_author: "[[Unknown]]"
-authors: Azizul Hakim Fayaz; MD. Shorif Uddin; Rayhan Uddin Bhuiyan; Zakia Sultana; Md. Samiul Islam; Bidyarthi Paul; Tashreef Muhammad; Shahriar Manzoor
+last_author: [[Unknown]]
+authors: "Azizul Hakim Fayaz; MD. Shorif Uddin; Rayhan Uddin Bhuiyan; Zakia Sultana; Md. Samiul Islam; Bidyarthi Paul; Tashreef Muhammad; Shahriar Manzoor"
 url: "https://arxiv.org/abs/2507.16183"
 external_pdf: "https://arxiv.org/pdf/2507.16183.pdf"
 local_pdf: "[[PDFs/2025/2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Bengali"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Bengali
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus for hate speech detection"
 data_metrics: "9,183 instances"
 LLM_assessed: 

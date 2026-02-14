@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,32 +9,33 @@ short_title: "Evaluating ChatGPT's Performance in Creative Text ..."
 year: 2025
 first_author: "[[Rui Sun]]"
 last_author: "[[Rui Sun]]"
-authors: Rui Sun
+authors: "Rui Sun"
 url: "https://www.micjournal.org/article_206500_a5b4e89e67fae3aef1d4eeb3301d6723.pdf"
+external_pdf: "https://www.micjournal.org/article_206500_a5b4e89e67fae3aef1d4eeb3301d6723.pdf"
 publication: Web
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2025/2025-Sun-Evaluating ChatGPT's Performance in Creative Text ....pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Sun-Evaluating ChatGPT's Performance in Creative Text ....md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "English, Uyghur"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
-research_topic: "Other"
+abstract: 
+research_topic: Other
 ---
 # Evaluating ChatGPT's Performance in Creative Text ...
 

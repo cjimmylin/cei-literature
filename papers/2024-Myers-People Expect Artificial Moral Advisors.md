@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,11 +12,11 @@ last_author: "[[Jim A.C. Everett]]"
 authors: "Simon Myers; Jim A.C. Everett"
 doi: 10.1016/j.cognition.2024.106028
 url: "https://www.sciencedirect.com/science/article/pii/S0010027724003147"
-external_pdf: ""
+external_pdf: 
 publication: Cognition
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: Yes
 newtags: "Utilitarianism, AI Trust, Moral Advisors, Human-AI Interaction"
 key_contribution: "Demonstrates that humans expect AI to make utilitarian decisions and distrust AI giving utilitarian moral advice, revealing a fundamental tension in AI moral advisory roles"
@@ -37,7 +35,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Four pre-registered studies with 2604 participants on AI moral advisor perception"
 data_metrics: "Trust ratings, expectation of utilitarian decisions, agreement measures"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://osf.io/m3v48/"
 ---
 # People Expect Artificial Moral Advisors to be More Utilitarian and Distrust Utilitarian Moral Advisors

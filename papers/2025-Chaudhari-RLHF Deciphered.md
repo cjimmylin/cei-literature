@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "https://dl.acm.org/doi/10.1145/3743127"
 external_pdf: "https://dl.acm.org/doi/pdf/10.1145/3743127"
 publication: "ACM Computing Surveys"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "RLHF, Reward Modeling, Value Alignment"
 key_contribution: "Comprehensive critical analysis of RLHF revealing limitations and reward model issues"
@@ -37,7 +35,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/GaryYufei/AlignLLMHumanSurvey"
 ---
 # RLHF Deciphered

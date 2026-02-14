@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,27 +15,27 @@ url: "https://arxiv.org/abs/2510.24438"
 external_pdf: "https://arxiv.org/pdf/2510.24438.pdf"
 local_pdf: "[[PDFs/2025/2025-Qadir-Can LLMs Write Faithfully An Agent-Based.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Qadir-Can LLMs Write Faithfully An Agent-Based.md"
-publication: NeurIPS 2025 Workshop on Muslims in Machine Learning / arXiv
+publication: "NeurIPS 2025 Workshop on Muslims in Machine Learning / arXiv"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Arabic"
-religious_values: "Islam"
-religious_values_list: "Islam"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Arabic
+religious_values: Islam
+religious_values_list: Islam
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Large language models are increasingly used for Islamic guidance, but risk misquoting texts, misapplying jurisprudence, or producing culturally inconsistent responses. We pilot an evaluation of GPT-4o, Ansari AI, and Fanar on prompts from authentic Islamic blogs. Our dual-agent framework uses a quantitative agent for citation verification and six-dimensional scoring (e.g., Structure, Islamic Consistency, Citations) and a qualitative agent for five-dimensional side-by-side comparison (e.g."
-data_description: "Benchmark"
+data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
-research_topic: "Other"
+LLM_assessed: NA
+DATA_URL: 
+research_topic: Other
 ---
 # Can LLMs Write Faithfully? An Agent-Based Evaluation of LLM-generated Islamic Content
 

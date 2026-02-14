@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Haoan Jin; Jiacheng Shi; Hanhui Xu; Kenny Q Zhu; Mengyue Wu"
 url: "https://aclanthology.org/2025.naacl-industry.34/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/7CB4XXBJ/Jin et al. - MedEthicEval Evaluating Large Language Models Based on Chinese Medical Ethics.pdf"
 national_ethnic_cultural: Chinese
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Chinese, Applied Ethics"
 key_contribution: "Introduced MedEthicEval, a benchmark for Chinese Medical Ethics covering blatant violations, priority dilemmas, and equilibrium dilemmas."
@@ -36,7 +34,7 @@ data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Qwen, Llama-3"
 DATA_URL: "https://github.com/KaguraRuri/MedEthicEval"
 pdf_extract: "PDF Extracts/2025/2025-Jin-MedEthicEval.md"
-local_pdf: "[[PDFs/2025/2025-Jin-MedEthicEval.pdf]]"
+local_pdf: [[PDFs/2025/2025-Jin-MedEthicEval.pdf]]
 ---
 # MedEthicEval: Evaluating Large Language Models Based on Chinese Medical Ethics
 

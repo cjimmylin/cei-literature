@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2502.08640"
 external_pdf: "http://arxiv.org/pdf/2502.08640.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Proposes 'Utility Engineering' to analyze emergent value systems in LLMs, finding that coherent preference structures emerge with scale and often favor self-preservation over human welfare"
@@ -38,7 +36,7 @@ is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Llama-3, Gemma, Qwen"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs
 

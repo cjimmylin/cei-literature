@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,35 +6,35 @@ Not AI:
 key: EXSR0600
 type: journal_article
 short_title: "YouTube-Based Religious Hate Speech and Extremism"
-year: 2022
+year: 2025
 first_author: "[[Noman Ashraf, Abid Rafiq, Sabur Butt, Hafiz Muhammad Faisal Shehzad, Grigori Sidorov, Alexander Gelbukh]]"
 last_author: "[[Noman Ashraf, Abid Rafiq, Sabur Butt, Hafiz Muhammad Faisal Shehzad, Grigori Sidorov, Alexander Gelbukh]]"
 authors: "[[Noman Ashraf, Abid Rafiq, Sabur Butt, Hafiz Muhammad Faisal Shehzad, Grigori Sidorov, Alexander Gelbukh]]"
 authors_incomplete: false
-url: ""
+url: 
 external_pdf: "https://core.ac.uk/download/213021265.pdf"
 local_pdf: "[[PDFs/2022/2022-Gelbukh-YouTube-Based Religious Hate Speech and Extremism.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Gelbukh-YouTube-Based Religious Hate Speech and Extremism.md"
-publication: Journal of Intelligent and Fuzzy Systems
+publication: "Journal of Intelligent and Fuzzy Systems"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 tags: 
 abstract: "Creates a novel dataset for religious hate speech detection from YouTube comments. Applies data mining techniques on comments from religious videos to filter religion-oriented messages and detect videos used for spreading hate. Provides SVM, Logistic Regression, and k-NN baselines. Addresses the understudied platform of YouTube for religious extremism detection."
-data_description: "Dataset"
+data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # YouTube-Based Religious Hate Speech and Extremism Detection Dataset with Machine Learning Baselines

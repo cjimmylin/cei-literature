@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,24 +17,24 @@ local_pdf: "[[PDFs/2025/2025-results]]-SEA-SafeguardBench Evaluating AI Safety i
 pdf_extract: "PDF Extracts/2025/2025-results]]-SEA-SafeguardBench Evaluating AI Safety in SEA.md"
 publication: OpenReview
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Multicultural/Cross-cultural
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Safeguard models help large language models (LLMs) detect and block harmful content, but most evaluations remain English-centric and overlook linguistic and cultural diversity. Existing multilingual safety benchmarks often rely on machine-translated English data, which fails to capture nuances in low-resource languages. Southeast Asian (SEA) languages are underrepresented despite the region’s linguistic diversity and unique safety concerns, from culturally sensitive political speech to..."
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "21,640 samples"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "AI Safety & Alignment"
 ---
 # SEA-SafeguardBench: Evaluating AI Safety in SEA Languages and Cultures

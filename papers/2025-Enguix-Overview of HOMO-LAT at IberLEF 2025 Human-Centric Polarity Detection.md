@@ -10,32 +10,33 @@ short_title: "Overview of HOMO-LAT at IberLEF 2025: Human-Centric Polarity Detec
 year: 2025
 first_author: "[[Gemma Bel Enguix]]"
 last_author: "[[Sergio Luís Ojeda-Trueba]]"
-authors: Gemma Bel Enguix, Helena Gómez Adorno, Sergio Luís Ojeda-Trueba, et al.
+authors: "Gemma Bel Enguix, Helena Gómez Adorno, Sergio Luís Ojeda-Trueba, et al."
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6764/4136"
-publication: IberLEF / SEPLN 2025
-local_pdf: 
-pdf_extract: 
+external_pdf: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6764/4136"
+publication: "IberLEF / SEPLN 2025"
+local_pdf: "[[PDFs/2025/2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "American, Latin American"
-languages_list: "Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+languages_list: Spanish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
-research_topic: "Other"
+abstract: "Extension of HOMO-MEX to 19 Spanish-speaking Latin American countries. Polarity detection for LGBTQ+ community messages. Track 2 tests cross-country generalization with training/test data from different countries."
+research_topic: Other
 ---
 # Overview of HOMO-LAT at IberLEF 2025: Human-Centric Polarity Detection in Online Messages Oriented to the Latin American-speaking LGBTQ+ Population
 

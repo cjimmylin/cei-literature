@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,9 +14,9 @@ doi: 10.18653/v1/2020.emnlp-main.48
 url: "https://www.aclweb.org/anthology/2020.emnlp-main.48"
 external_pdf: "https://arxiv.org/pdf/2011.00620v3.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: Moral Foundations Theory
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: "Moral Foundations Theory"
 newtags: "General Ethics"
 key_contribution: "Introduced 'Social Chemistry', a framework and dataset (Social-Chem-101) containing 292k 'rules-of-thumb' annotated with 12 dimensions of social and moral judgment."
 significance: "Formalizes 'rules-of-thumb' as a computational unit for social norms, enabling models to reason about the pragmatic and detailed social expectations that govern real-world behavior, beyond abstract ethical theories."
@@ -26,7 +24,7 @@ tags:
 abstract: "Social norms—the unspoken commonsense rules about acceptable social behavior—are crucial in understanding the underlying causes and intents of people’s actions in narratives. For example, underlying an action such as “wanting to call cops on my neighbor” are social norms that inform our conduct, such as “It is expected that you report crimes.” We present SOCIAL CHEMISTRY, a new conceptual formalism to study people’s everyday social norms and moral judgments over a rich spectrum of real life..."
 local_pdf: "[[PDFs/2020/2020-Forbes-Social Chemistry 101.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Forbes-Social Chemistry 101.md"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -34,11 +32,11 @@ ethics_perspective: "Social & Cultural Values"
 is_benchmark: No
 is_eval: No
 is_dataset: Yes
-data_description: Text corpus
+data_description: "Text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-2, T5, BART"
-DATA_URL: "NA"
-publication: EMNLP 2020
+DATA_URL: NA
+publication: "EMNLP 2020"
 DATE_ADDED: 20260207
 ---
 # Social Chemistry 101: Learning to Reason about Social and Moral Norms

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +8,28 @@ type: preprint
 short_title: "Leveraging LLM and Self-Supervised Training Models for Speech Recognition in Chinese Dialects: A Comparative Analysis"
 year: 2025
 first_author: "[[Tianyi Xu]]"
-last_author: "[[Unknown]]"
-authors: Tianyi Xu; Hongjie Chen; Wang Qing; Lv Hang; Jian Kang; Li Jie; Zhennan Lin; Yongxiang Li; Xie Lei
+last_author: [[Unknown]]
+authors: "Tianyi Xu; Hongjie Chen; Wang Qing; Lv Hang; Jian Kang; Li Jie; Zhennan Lin; Yongxiang Li; Xie Lei"
 url: "https://arxiv.org/html/2505.21138v1"
 external_pdf: "https://arxiv.org/pdf/2505.21138.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
 languages_list: "Cantonese, Chinese, Hakka, Min"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

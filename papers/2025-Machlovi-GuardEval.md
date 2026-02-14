@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,29 +13,29 @@ authors: "[[Machlovi, Naseem]]; [[Saleki, Maryam]]; [[Amin, Ruhul]]; [[Rahouti, 
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.03273"
 external_pdf: "https://arxiv.org/pdf/2601.03273.pdf"
-local_pdf: "[[PDFs/2025/2025-Machlovi-GuardEval.pdf]]"
+local_pdf: "[[PDFs/2025-Machlovi-GuardEval.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Machlovi-GuardEval.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
-abstract:
-research_topic: "Other"
-data_description: "N/A"
+abstract: 
+research_topic: Other
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "Gemma, Llama-3"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # GuardEval
 

@@ -1,40 +1,40 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0687
 type: conferencePaper
-short_title: Large Language Model Generate Prompt 生成式大模型 安全评估白皮书
+short_title: "Large Language Model Generate Prompt 生成式大模型 安全评估白皮书"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+first_author: [[Unknown]]
+last_author: [[Unknown]]
 authors: Unknown
 url: "https://hulianhutongshequ.cn/upload/tank/report/2025/202502/1/06d030a5fdeb4a309f68e78e170cbd1b.pdf"
+external_pdf: "https://hulianhutongshequ.cn/upload/tank/report/2025/202502/1/06d030a5fdeb4a309f68e78e170cbd1b.pdf"
 publication: Web
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2025/2025-Unknown-Large Language Model Generate Prompt 生成式大模型 安全评估白皮书.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Unknown-Large Language Model Generate Prompt 生成式大模型 安全评估白皮书.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 research_topic: "NLP & Representation Learning"
 ---
 # Large Language Model Generate Prompt 生成式大模型 安全评估白皮书

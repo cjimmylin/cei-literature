@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,36 +6,36 @@ Not AI:
 key: LSRC0349
 type: conferencePaper
 short_title: "Automating News Comment Moderation with Limited Resources: Benchmarking in Croatian and Estonian"
-year: 2020
+year: 2025
 first_author: "[[Ravi Shekhar]]"
 last_author: "[[Matthew Purver]]"
-authors: Ravi Shekhar, Marko Pranjic, Senja Pollak, Andraz Pelicon, Matthew Purver
+authors: "Ravi Shekhar, Marko Pranjic, Senja Pollak, Andraz Pelicon, Matthew Purver"
 url: "https://jlcl.org/article/view/224"
 external_pdf: "https://jlcl.org/article/download/224/222"
 publication: JLCL
 local_pdf: "[[PDFs/2020/2020-Shekhar-Automating News Comment Moderation with Limited Resources.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Shekhar-Automating News Comment Moderation with Limited Resources.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Croatian, Estonian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
-research_topic: "Other"
+abstract: 
+research_topic: Other
 ---
 # Automating News Comment Moderation with Limited Resources: Benchmarking in Croatian and Estonian
 

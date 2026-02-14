@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,27 +9,27 @@ short_title: "Social Bias Benchmark for Generation: A Comparison of Generation a
 year: 2025
 first_author: "[[Jiho Jin]]"
 last_author: "[[Alice Oh]]"
-authors: Jiho Jin, Jiseon Kim, Nayeon Lee, Alice Oh
+authors: "Jiho Jin, Jiseon Kim, Nayeon Lee, Alice Oh"
 doi: 10.18653/v1/2025.findings-acl.585
 url: "https://arxiv.org/abs/2503.06987"
 external_pdf: "https://arxiv.org/pdf/2503.06987.pdf"
 local_pdf: "[[PDFs/2025/2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and.md"
-publication: arXiv / ACL 2025 Findings
+publication: "arXiv / ACL 2025 Findings"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Korean"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Korean
 languages_list: "English, Korean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 LLM_assessed: 

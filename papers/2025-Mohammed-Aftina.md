@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,10 +12,10 @@ last_author: "[[Ahmed Mohammed]]"
 authors: "Ahmed Mohammed"
 doi: 10.1007/s00521-025-11229-y
 url: "https://neuralcomputingjournals.com/aftina-fatwaqa"
-external_pdf: "file:///Users/jimmylin/Zotero/storage/VQU5HCPT/Mohammed and others - 2025 - Aftina Arabic Fatwa QA Benchmark for Islamic Jurisprudence.pdf"
+external_pdf: "https://link.springer.com/content/pdf/10.1007/s00521-025-11229-y.pdf"
 national_ethnic_cultural: Arabic
-religious_values: "Islam"
-religious_values_list: "Islam"
+religious_values: Islam
+religious_values_list: Islam
 moral_psychology: N/A
 newtags: "Arabic, Islam"
 tags: 
@@ -33,9 +31,9 @@ is_dataset: Yes
 data_description: "Benchmark for hallucination detection dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "Gemini, Gemma"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Mohammed-Aftina.md"
-local_pdf: "[[PDFs/2025/2025-Mohammed-Aftina.pdf]]"
+local_pdf: "[[PDFs/2025-Mohammed-Aftina.pdf]]"
 DATE_ADDED: 20260207
 ---
 # Aftina: Arabic Fatwa QA Benchmark for Islamic Jurisprudence

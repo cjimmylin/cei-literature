@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0109
 type: preprint
 short_title: "Kalahi: A handcrafted, grassroots cultural LLM evaluation suite for Filipino"
-year: 2024
+year: 2025
 first_author: "[[Jann Railey Montalan]]"
-last_author: "[[Unknown]]"
-authors: Jann Railey Montalan; Jian Gang Ngui; Wei Qi Leong; Yosephine Susanto; Hamsawardhini Rengarajan; Alham Fikri Aji; William Chandra Tjhi
+last_author: [[Unknown]]
+authors: "Jann Railey Montalan; Jian Gang Ngui; Wei Qi Leong; Yosephine Susanto; Hamsawardhini Rengarajan; Alham Fikri Aji; William Chandra Tjhi"
 url: "https://arxiv.org/abs/2409.15380"
 external_pdf: "https://arxiv.org/pdf/2409.15380.pdf"
 local_pdf: "[[PDFs/2024/2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Filipino"
-languages_list: "Filipino/Tagalog"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Filipino
+languages_list: Filipino/Tagalog
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 LLM_assessed: 

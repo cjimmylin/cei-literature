@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Benjamin Grant Purzycki; Coren Apicella; Quentin D. Atkinson; Emma Coh
 url: "https://www.nature.com/articles/sdata201660"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/D4GRALMJ/Purzycki and others - 2016 - Religious Belief and the Moral Circle Cross-Cultural Dataset.pdf"
 national_ethnic_cultural: Multicultural/Cross-cultural
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Published the 'Religious Belief and the Moral Circle' cross-cultural dataset, part of a larger project (The Evolution of Religion and Morality) investigating the link between 'moralistic gods' and prosocial behavior."
@@ -34,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2016/2016-Purzycki-Religious Belief and the Moral Circle.md"
 local_pdf: "[[PDFs/2016/2016-Purzycki-Religious Belief and the Moral Circle.pdf]]"
 ---

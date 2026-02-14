@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0510
 type: conference_paper
 short_title: "Modeling the Sacred Considerations when Using"
-year: 2024
+year: 2025
 first_author: "[[Hutchinson, Ben]]"
 last_author: "[[Hutchinson, Ben]]"
 authors: "[[Ben Hutchinson]]"
@@ -19,26 +15,26 @@ url: "https://arxiv.org/abs/2404.14740"
 external_pdf: "https://arxiv.org/pdf/2404.14740.pdf"
 local_pdf: "[[PDFs/2024/2024-Hutchinson-Modeling the Sacred Considerations when Using.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Hutchinson-Modeling the Sacred Considerations when Using.md"
-publication: Findings of NAACL 2024
+publication: "Findings of NAACL 2024"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 tags: 
 abstract: "This position paper concerns the use of religious texts in Natural Language Processing (NLP), which is of special interest to the Ethics of NLP. Religious texts are expressions of culturally important values, and machine learned models have a propensity to reproduce cultural values encoded in their training data. Furthermore, translations of religious texts are frequently used by NLP researchers when language data is scarce."
-data_description: "Dataset"
+data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Social & Cultural Values"
 ---
 # Modeling the Sacred: Considerations when Using Religious Texts in Natural Language Processing

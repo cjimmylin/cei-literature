@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "VMMU: A Vietnamese Multitask Multimodal Understanding and Reasoning Benchmark"
 year: 2025
 first_author: "[[Vy Tuong Dang]]"
-last_author: "[[Unknown]]"
-authors: Vy Tuong Dang; An Vo; Emilio Villa-Cueva; Quang Tau; Duc Dm; Thamar Solorio; Daeyoung Kim
+last_author: [[Unknown]]
+authors: "Vy Tuong Dang; An Vo; Emilio Villa-Cueva; Quang Tau; Duc Dm; Thamar Solorio; Daeyoung Kim"
 url: "https://arxiv.org/abs/2508.13680"
 external_pdf: "https://arxiv.org/pdf/2508.13680.pdf"
 local_pdf: "[[PDFs/2025/2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multi-task benchmark"
 data_metrics: "Not specified"
 LLM_assessed: 

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,8 +7,8 @@ key: LSRC0711
 type: conferencePaper
 short_title: "MoralBench: Moral Evaluation of LLMs"
 year: 2025
-first_author: "[[Sakhadib]]"
-last_author: "[[Sakhadib]]"
+first_author: [[Sakhadib]]
+last_author: [[Sakhadib]]
 authors: Sakhadib
 url: "https://kdd.org/exploration_files/p62-LLM_Moral_Benchmark.pdf"
 external_pdf: "https://arxiv.org/pdf/2406.04428v2.pdf"
@@ -17,19 +16,19 @@ publication: KDD
 local_pdf: "[[PDFs/2025/2025-Sakhadib-MoralBench Moral Evaluation of LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Sakhadib-MoralBench Moral Evaluation of LLMs.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Arabic"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Arabic
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: 

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,29 +11,35 @@ first_author: "[[Min Si Thu, Pyae Sone Phyo]]"
 last_author: "[[Min Si Thu, Pyae Sone Phyo]]"
 authors: "[[Min Si Thu, Pyae Sone Phyo]]"
 authors_incomplete: false
-url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4871732"
-external_pdf: "https://www.mdpi.com/2306-5729/9/1/1/pdf?version=1703042457"
-local_pdf: "N/A"
-pdf_extract: ""
+doi: 10.2139/ssrn.4871732
+url: "https://doi.org/10.2139/ssrn.4871732"
+external_pdf: "http://dx.doi.org/10.2139/ssrn.4871732"
+local_pdf: N/A
+pdf_access_status: manual_only
+pdf_access_last_checked: 2026-02-14
+pdf_access_error: "http_403 (HTTP 403)"
+pdf_access_url: "http://dx.doi.org/10.2139/ssrn.4871732"
+pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
+pdf_extract: 
 publication: SSRN
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Transformer-based language model specifically designed for Myanmar NLP. Trained on a private Myanmar language dataset, demonstrating improvements in text classification, translation, and generation tasks compared to existing models. First Myanmar-specific GPT model with evaluation. Foundation model for future Myanmar values/ethics evaluation."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/jojo-ai-mst/MyanmarGPT"
 research_topic: "NLP & Representation Learning"
 ---

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Jianhui Wei; Zijie Meng; Zikai Xiao; Tianxiang Hu; Yang Feng; Zhijie Z
 url: "https://arxiv.org/abs/2506.22808"
 external_pdf: "https://arxiv.org/pdf/2506.22808.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Applied Ethics"
 key_contribution: "Created MedEthicsQA, a benchmark of ~11,000 questions (multiple-choice and open-ended) for evaluating medical ethics in LLMs, derived from global standards and literature."
@@ -25,8 +23,8 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Wei-MedEthicsQA.md"
 abstract: "While Medical Large Language Models (MedLLMs) have demonstrated remarkable po- tential in clinical tasks, their ethical safety remains insufficiently explored. This paper introduces MedEthicsQA, a comprehensive benchmark comprising 5,623 multiple-choice questions and 5,351 open-ended questions for evaluation of medical ethics in LLMs. We systematically establish a hierarchical taxon- omy integrating global medical ethical stan- dards. The benchmark encompasses widely used medical datasets, autho"
 paper_summary: "Abstract: While Medical Large Language Models (MedLLMs) have demonstrated remarkable po- tential in clinical tasks, their ethical safety remains insufficiently explored. This paper introduces MedEthicsQA, a com | Overview: arXiv:2506.22808v1 [cs.CL] 28 Jun 2025 MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics Evaluation of LLMs Jianhui Wei1 Zijie Meng1 Zikai Xiao1 Tianxiang Hu1 Yang Feng2 Zhi | Methodology: minimizes the contents generated from the model’s knowledge, thus minimizing the potential halluci- nated and biased contents. The human validation | Key Findings: 3.1 Evaluation Method and Metrics We follow previous work (Que et al., 2024) to utilize checklist-based LLM-as-Judge evaluation, and use the key point | Conclusions: In this work, we present MedEthicsQA, a question- answering benchmark encompassing a hierarchical ethics taxonomy with 11k multi-choice and open- ende"
-local_pdf: "[[PDFs/2025/2025-Wei-MedEthicsQA.pdf]]"
-ethics_overall: Yes
+local_pdf: "[[PDFs/2025-Wei-MedEthicsQA.pdf]]"
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

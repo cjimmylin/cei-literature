@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0112
 type: preprint
 short_title: "SeaEval for Multilingual Foundation Models: From Cross-Lingual Alignment to Cultural Reasoning"
-year: 2023
+year: 2025
 first_author: "[[Bin Wang]]"
-last_author: "[[Unknown]]"
-authors: Bin Wang; Zhengyuan Liu; Xin Huang; Fangkai Jiao; Yang Ding; AiTi Aw; Nancy F. Chen
+last_author: [[Unknown]]
+authors: "Bin Wang; Zhengyuan Liu; Xin Huang; Fangkai Jiao; Yang Ding; AiTi Aw; Nancy F. Chen"
 url: "https://arxiv.org/abs/2309.04766"
 external_pdf: "https://arxiv.org/pdf/2309.04766.pdf"
 local_pdf: "[[PDFs/2023/2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Multicultural/Cross-cultural
 languages_list: "Filipino/Tagalog, Indonesian, Malay"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "Not specified"
 LLM_assessed: 

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +9,7 @@ short_title: "Decoding Moral Responses in AI: A Quantitative Analysis of Large L
 year: 2025
 first_author: "[[Chenkai Sun]]"
 last_author: "[[Heng Ji]]"
-authors: Chenkai Sun; Jinning Li; Yi R. Fung; Hou Pong Chan; Tarek Abdelzaher; ChengXiang Zhai; Heng Ji
+authors: "Chenkai Sun; Jinning Li; Yi R. Fung; Hou Pong Chan; Tarek Abdelzaher; ChengXiang Zhai; Heng Ji"
 doi: 10.1016/j.chbah.2025.100121
 url: "https://doi.org/10.1016/j.chbah.2025.100121"
 external_pdf: "https://arxiv.org/pdf/2310.13297.pdf"
@@ -21,22 +17,22 @@ local_pdf: "[[PDFs/2025/2025-Sun-Decoding Moral Responses in AI A Quantitative A
 pdf_extract: "PDF Extracts/2025/2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large.md"
 publication: Unknown
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "General Ethics"
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, DeBERTa, RoBERTa"
 DATA_URL: "https://github.com/chenkaisun/SocialSense"

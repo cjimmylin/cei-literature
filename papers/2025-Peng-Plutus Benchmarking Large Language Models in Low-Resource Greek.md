@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,26 +9,26 @@ short_title: "Plutus: Benchmarking Large Language Models in Low-Resource Greek F
 year: 2025
 first_author: "[[Xueqing Peng]]"
 last_author: "[[Sophia Ananiadou]]"
-authors: Xueqing Peng, Triantafillos Papadopoulos, Efstathia Soufleri, Polydoros Giannouris, Ruoyu Xiang, Yan Wang, Lingfei Qian, Jimin Huang, Qianqian Xie, Sophia Ananiadou
+authors: "Xueqing Peng, Triantafillos Papadopoulos, Efstathia Soufleri, Polydoros Giannouris, Ruoyu Xiang, Yan Wang, Lingfei Qian, Jimin Huang, Qianqian Xie, Sophia Ananiadou"
 url: "https://arxiv.org/abs/2502.18772"
 external_pdf: "https://arxiv.org/pdf/2502.18772.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Greek"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Greek
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark annotated dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, Claude-3.5-Sonnet, Gemini-Pro, Llama-3.1, Qwen-2.5, DeepSeek-V3, Mistral-Large, Command-R-Plus, Aya-Expanse, GLM-4, InternLM, EXAONE, Plutus-8B"

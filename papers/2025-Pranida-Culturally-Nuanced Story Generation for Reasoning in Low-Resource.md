@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "Culturally-Nuanced Story Generation for Reasoning in Low-Resource Languages: The Case of Javanese and Sundanese"
 year: 2025
 first_author: "[[Salsabila Zahirah Pranida]]"
-last_author: "[[Unknown]]"
-authors: Salsabila Zahirah Pranida; Rifo Ahmad Genadi; Fajri Koto
+last_author: [[Unknown]]
+authors: "Salsabila Zahirah Pranida; Rifo Ahmad Genadi; Fajri Koto"
 url: "https://arxiv.org/abs/2502.12932"
 external_pdf: "https://arxiv.org/pdf/2502.12932.pdf"
 local_pdf: "[[PDFs/2025/2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource.md"
-publication: arXiv / ACL Anthology (MRL 2025)
+publication: "arXiv / ACL Anthology (MRL 2025)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indonesian"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indonesian
 languages_list: "Javanese, Sundanese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

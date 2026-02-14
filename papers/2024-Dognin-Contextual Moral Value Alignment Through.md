@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2403.12805"
 external_pdf: "http://arxiv.org/pdf/2403.12805.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed a system for 'contextual moral value alignment' that aggregates responses from multiple independently trained agents (each aligned with a distinct value) based on the user's context."
@@ -38,8 +36,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "Llama-2"
-DATA_URL: "NA"
+LLM_assessed: Llama-2
+DATA_URL: NA
 ---
 # Contextual Moral Value Alignment Through Context-Based Aggregation
 

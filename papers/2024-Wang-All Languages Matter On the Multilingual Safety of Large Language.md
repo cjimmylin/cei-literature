@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0327
 type: preprint
 short_title: "All Languages Matter: On the Multilingual Safety of Large Language Models"
-year: 2024
+year: 2025
 first_author: "[[Wenxuan Wang]]"
 last_author: "[[Wenxuan Wang]]"
-authors: Wenxuan Wang, et al.
+authors: "Wenxuan Wang, et al."
 doi: 10.18653/v1/2024.findings-acl.349
 url: "https://arxiv.org/abs/2310.00905"
 external_pdf: "https://arxiv.org/pdf/2310.00905.pdf"
 local_pdf: "[[PDFs/2024/2024-Wang-All Languages Matter On the Multilingual Safety of Large Language.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Wang-All Languages Matter On the Multilingual Safety of Large Language.md"
-publication: arXiv / ACL Findings 2024
+publication: "arXiv / ACL Findings 2024"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Arabic, Bengali, Chinese, English, French, German, Hindi, Japanese, Russian, Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "Not specified"
 LLM_assessed: 

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,8 +8,8 @@ type: conferencePaper
 short_title: "Sentiment analysis of classical Chinese literature: An unsupervised deep learning model with BERT and graph attention networks | PLOS One"
 year: 2025
 first_author: "[[Xiaohan Yu]]"
-last_author: "[[Unknown]]"
-authors: Xiaohan Yu; Jin Wang
+last_author: [[Unknown]]
+authors: "Xiaohan Yu; Jin Wang"
 doi: 10.1371/journal.pone.0330919
 url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0330919"
 external_pdf: "https://europepmc.org/articles/PMC12456827?pdf=render"
@@ -18,20 +17,20 @@ publication: Web
 local_pdf: "[[PDFs/2025/2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
 languages_list: "Chinese, Classical Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

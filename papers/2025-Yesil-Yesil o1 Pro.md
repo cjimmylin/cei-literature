@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.2196/preprints.72646
 url: "https://preprints.jmir.org/preprint/72646"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/7B3HX5KJ/Yesil - 2025 - Yesil o1 Pro Evidence-Based AI Model for Health and Benchmarking in Clinical Decision Support.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 key_contribution: "Describes a specialized medical model 'Yesil o1 Pro' for clinical decision support."
@@ -36,7 +34,7 @@ is_dataset: Yes
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude, DeepSeek, Llama-3, Gemini"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Yesil-Yesil o1 Pro.md"
 local_pdf: "[[PDFs/2025/2025-Yesil-Yesil o1 Pro.pdf]]"
 ---

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,11 +12,11 @@ last_author: "[[Xiong, Deyi]]"
 authors: "[[Yu, Linhao]]; [[Leng, Yongqi]]; [[Huang, Yufei]]; [[Wu, Shang]]; [[Liu, Haixin]]; [[Ji, Xinmeng]]; [[Zhao, Jiahui]]; [[Song, Jinwang]]; [[Cui, Tingting]]; [[Cheng, Xiaoqing]]; [[Liutao, Liutao]]; [[Xiong, Deyi]]"
 doi: 10.18653/v1/2024.findings-acl.703
 url: "https://aclanthology.org/2024.findings-acl.703/"
-local_pdf: "[[PDFs/2024/2024-Yu-CMoralEval.pdf]]"
+local_pdf: [[PDFs/2024/2024-Yu-CMoralEval.pdf]]
 external_pdf: "file:///Users/jimmylin/Zotero/storage/B24568AJ/Yu et al. - 2024 - CMoralEval A Moral Evaluation Benchmark for Chinese Large Language Models.pdf"
 national_ethnic_cultural: "Chinese, American"
-religious_values: "Confucianism"
-religious_values_list: "Confucianism"
+religious_values: Confucianism
+religious_values_list: Confucianism
 moral_psychology: N/A
 newtags: "Chinese, American, Deontology"
 key_contribution: "Creates a moral evaluation benchmark (CMoralEval) for Chinese LLMs based on explicit moral norms and anomies"

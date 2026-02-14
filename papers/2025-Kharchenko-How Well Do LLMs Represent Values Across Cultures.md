@@ -1,36 +1,35 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0777
 type: conferencePaper
-short_title: How Well Do LLMs Represent Values Across Cultures?
+short_title: "How Well Do LLMs Represent Values Across Cultures?"
 year: 2025
 first_author: "[[Julia Kharchenko]]"
-last_author: "[[Unknown]]"
-authors: Julia Kharchenko; Tanya Roosta; Aman Chadha; Chirag Shah
+last_author: [[Unknown]]
+authors: "Julia Kharchenko; Tanya Roosta; Aman Chadha; Chirag Shah"
 url: "https://kdd-eval-workshop.github.io/genai-evaluation-kdd2025/assets/papers/Submission%2018.pdf"
 external_pdf: "https://arxiv.org/pdf/2406.14805v2.pdf"
 publication: Web
 local_pdf: "[[PDFs/2025/2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Multilingual
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

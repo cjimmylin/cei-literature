@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,9 +6,9 @@ Not AI:
 key: LSRC0468
 type: conferencePaper
 short_title: "HOCON34k: A Corpus of Hate Speech in Online Comments from German Newspapers"
-year: 2024
-first_author: "[[Various]]"
-last_author: "[[Various]]"
+year: 2025
+first_author: [[Various]]
+last_author: [[Various]]
 authors: Various
 doi: 10.1007/978-3-031-78090-5_18
 url: "https://link.springer.com/chapter/10.1007/978-3-031-78090-5_18"
@@ -18,25 +16,25 @@ publication: Springer
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "German"
-languages_list: "German"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: German
+languages_list: German
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
-DATA_URL: "NA"
+LLM_assessed: BERT
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # HOCON34k: A Corpus of Hate Speech in Online Comments from German Newspapers

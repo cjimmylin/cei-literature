@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,35 +6,40 @@ Not AI:
 key: EXSR0528
 type: preprint
 short_title: "So-haTRed A Novel Hybrid System for"
-year: 2024
+year: 2025
 first_author: "[[authors, Multiple]]"
 last_author: "[[authors, Multiple]]"
 authors: "[[Multiple authors]]"
 authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/10559617/"
 external_pdf: "https://doi.org/10.1109/access.2024.3415350"
-local_pdf: "N/A"
-pdf_extract: ""
-publication: IEEE Access
+local_pdf: N/A
+pdf_access_status: manual_only
+pdf_access_last_checked: 2026-02-14
+pdf_access_error: "not_pdf_header (HTTP 200)"
+pdf_access_url: "https://doi.org/10.1109/access.2024.3415350"
+pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
+pdf_extract: 
+publication: "IEEE Access"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "Hybrid system for Turkish hate speech detection using ensemble deep learning with BERT and clustered-graph networks. Includes 2K dataset of Turkish tweets labeled for hate speech, aggressive expression, and neither. Achieves 87.81% F1-score. Novel Turkish hate speech detection system and dataset combining graph networks with transformers. Three-class annotation scheme provides nuanced categorization."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # So-haTRed: A Novel Hybrid System for Turkish Hate Speech Detection in Social Media

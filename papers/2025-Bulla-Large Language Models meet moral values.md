@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1016/j.chbr.2025.100609
 url: "https://linkinghub.elsevier.com/retrieve/pii/S2451958825000247"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/IHQZ47VE/Bulla et al. - 2025 - Large Language Models meet moral values A comprehensive assessment of moral abilities.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Machine Ethics"
 key_contribution: "Evaluated the ability of LLMs (GPT-4, Llama, etc.) to perform *unsupervised* moral classification on the Moral Foundation Reddit Corpus, comparing them to human annotations."

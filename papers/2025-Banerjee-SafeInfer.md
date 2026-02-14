@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,10 +13,10 @@ authors: "Somnath Banerjee; Sayan Layek; Soham Tripathy; Shanu Kumar; Animesh Mu
 url: "https://ojs.aaai.org/index.php/AAAI/article/view/34927"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/KV9GGDEF/Jain and others - 2025 - SafeInfer Context Adaptive Decoding Time Safety Alignment for Large Language Models.pdf"
 pdf_extract: [[2025-Banerjee-SafeInfer]]
-local_pdf: "[[PDFs/2025/2025-Banerjee-SafeInfer.pdf]]"
+local_pdf: [[PDFs/2025/2025-Banerjee-SafeInfer.pdf]]
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed 'SafeInfer' for inference-time safety alignment (decoding adaptation)."

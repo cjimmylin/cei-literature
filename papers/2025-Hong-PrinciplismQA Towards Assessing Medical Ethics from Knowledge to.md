@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +8,7 @@ type: preprint
 short_title: "PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice"
 year: 2025
 first_author: "[[C. Hong]]"
-last_author: "[[Y]]"
+last_author: [[Y]]
 authors: "Hong, C., Wu, M., Xiao, Q., Wang, Y., Wan, X., Yu, G., Wang, B., & Hu, Y"
 url: "https://arxiv.org/abs/2508.05132"
 external_pdf: "https://arxiv.org/pdf/2508.05132.pdf"
@@ -20,24 +16,24 @@ local_pdf: "[[PDFs/2025/2025-Hong-PrinciplismQA Towards Assessing Medical Ethics
 pdf_extract: "PDF Extracts/2025/2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "The integration of large language models into healthcare necessitates a rigorous evaluation of their ethical reasoning, an area current benchmarks often overlook. We introduce PrinciplismQA, a comprehensive benchmark with 3,648 questions designed to systematically assess LLMs’ alignment with core medical ethics. Grounded in Principlism, our benchmark features a high-quality dataset. This includes multiple-choice questions curated from authoritative textbooks and openended questions sourced from..."
 data_description: "Benchmark for moral/ethical reasoning dataset for question answering"
 data_metrics: "3,648 questions"
 LLM_assessed: "GPT-4, o1, o3, Claude, Gemini, Gemma, Llama-3, Qwen, DeepSeek"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Yes
 ---
 # PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,29 +9,29 @@ short_title: "DaKultur: Evaluating the Cultural Awareness of Language Models for
 year: 2025
 first_author: "[[Max Mueller-Eberstein]]"
 last_author: "[[Max Mueller-Eberstein]]"
-authors: Max Mueller-Eberstein et al.
+authors: "Max Mueller-Eberstein et al."
 url: "https://arxiv.org/abs/2504.02403"
 external_pdf: "https://arxiv.org/pdf/2504.02403.pdf"
-publication: arXiv / C3NLP 2025
+publication: "arXiv / C3NLP 2025"
 local_pdf: "[[PDFs/2025/2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Danish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Danish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://mxij.me/x/dakultur"
 tags: 
 abstract: "Large Language Models (LLMs) have seen widespread societal adoption. However, while they are able to interact with users in languages beyond English, they have been shown to lack cultural awareness, providing anglocentric or inappropriate responses for underrepresented language communities. To investigate this gap and disentangle linguistic versus cultural proficiency, we conduct the first cultural evaluation study for the mid-resource language of Danish, in which native speakers prompt..."

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0577
 type: conference_paper
 short_title: "WYWEB A NLP Evaluation Benchmark for"
-year: 2023
+year: 2025
 first_author: "[[Bo Zhou, Qianglong Chen, Tianyu Wang, Xiaomi Zhong, Yin Zhang]]"
 last_author: "[[Bo Zhou, Qianglong Chen, Tianyu Wang, Xiaomi Zhong, Yin Zhang]]"
 authors: "[[Bo Zhou, Qianglong Chen, Tianyu Wang, Xiaomi Zhong, Yin Zhang]]"
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2305.14150"
 external_pdf: "https://arxiv.org/pdf/2305.14150.pdf"
 local_pdf: "[[PDFs/2023/2023-Zhang-WYWEB A NLP Evaluation Benchmark for.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Zhang-WYWEB A NLP Evaluation Benchmark for.md"
-publication: Findings of ACL 2023
+publication: "Findings of ACL 2023"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "To fully evaluate the overall performance of different NLP models in a given domain, many evaluation benchmarks are proposed, such as GLUE, SuperGLUE and CLUE. The field of natural language understanding has traditionally focused on benchmarks for various tasks in languages such as Chinese, English, and multilingual, however, there has been a lack of attention given to the area of classical Chinese, also known as 'wen yan wen (文言文)', which has a rich history spanning thousands of years and..."
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/baudzhou/WYWEB"
 ethics_perspective: "Social & Cultural Values"
 ---

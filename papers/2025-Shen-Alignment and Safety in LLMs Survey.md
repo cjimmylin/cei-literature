@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,8 +18,8 @@ external_pdf: "https://arxiv.org/pdf/2507.19672.pdf"
 publication: arXiv
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Deontology, AI Safety & Alignment, LLM Survey, Ethical Constraints"
 key_contribution: "Comprehensive survey of alignment techniques, training protocols, and empirical findings for LLM safety"
@@ -36,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: "Survey paper"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Shen-Alignment and Safety in LLMs Survey.md"
 ---
 # Alignment and Safety in Large Language Models: Safety Mechanisms, Training Paradigms, and Emerging Challenges

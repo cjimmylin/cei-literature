@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0248
 type: preprint
 short_title: "Open Ko-LLM Leaderboard2: Bridging Foundational and Practical Evaluation for Korean LLMs"
-year: 2024
+year: 2025
 first_author: "[[Hyeonwoo Kim]]"
 last_author: "[[Chanjun Park]]"
-authors: Hyeonwoo Kim, Dahyun Kim, Jihoo Kim, Sukyung Lee, Yungi Kim, Chanjun Park
+authors: "Hyeonwoo Kim, Dahyun Kim, Jihoo Kim, Sukyung Lee, Yungi Kim, Chanjun Park"
 url: "https://arxiv.org/abs/2410.12445"
 external_pdf: "https://arxiv.org/pdf/2410.12445.pdf"
 local_pdf: "[[PDFs/2024/2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Korean"
-languages_list: "Korean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Korean
+languages_list: Korean
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

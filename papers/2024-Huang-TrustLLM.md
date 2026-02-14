@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,12 +13,12 @@ authors: "[[Huang, Yue]]; [[Sun, Lichao]]; [[Wang, Haoran]]; [[Wu, Siyuan]]; [[Z
 doi: 10.48550/arXiv.2401.05561
 tags: 
 url: "http://arxiv.org/abs/2401.05561"
-local_pdf: "[[PDFs/2024/2024-Huang-TrustLLM.pdf]]"
+local_pdf: [[PDFs/2024/2024-Huang-TrustLLM.pdf]]
 external_pdf: "http://arxiv.org/pdf/2401.05561.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Deontology, Utilitarianism"
 key_contribution: "Establishes a comprehensive benchmark (TRUSTLLM) across 8 dimensions including machine ethics, evaluating 16 mainstream LLMs"

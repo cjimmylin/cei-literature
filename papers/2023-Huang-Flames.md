@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2311.06899"
 external_pdf: "http://arxiv.org/pdf/2311.06899.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
 national_ethnic_cultural: Chinese
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Chinese, AI Safety & Alignment"
 key_contribution: "Benchmarked LLM value alignment in Chinese (FLAMES), focusing on 'harmony' and other specific Chinese values, finding most models perform poorly on safety/fairness."
@@ -27,7 +25,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Huang-Flames.md"
 abstract: "The widespread adoption of large language models (LLMs) across various regions under- scores the urgent need to evaluate their align- ment with human values. Current benchmarks, however, fall short of effectively uncovering safety vulnerabilities in LLMs. Despite nu- merous models achieving high scores and ‘top- ping the chart’ in these evaluations, there is still a significant gap in LLMs’ deeper align- ment with human values and achieving gen- uine harmlessness. To this end, this paper propose"
 paper_summary: "Abstract: The widespread adoption of large language models (LLMs) across various regions under- scores the urgent need to evaluate their align- ment with human values. Current benchmarks, however, fall short of | Overview: FLAMES: Benchmarking Value Alignment of LLMs in Chinese Warning: this paper contains content that may be offensive or upsetting. Kexin Huang*†1,2 Xiangyang Liu*†1,2 Qianyu Guo*†1,2 Tianxiang Sun†1,2 J | Key Findings: LLM N+1 ? Adversarial methods Complex scenarios Figure 1: Pipeline of the construction of FLAMES Benchmark. tailed and fine-grained evaluation. Notabl | Conclusions: This study proposes FLAMES - the first highly ad- versarial benchmark for evaluating the value align- ment of LLMs in Chinese. FLAMES Benchmark consis"
-local_pdf: "[[PDFs/2023/2023-Huang-Flames.pdf]]"
+local_pdf: [[PDFs/2023/2023-Huang-Flames.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

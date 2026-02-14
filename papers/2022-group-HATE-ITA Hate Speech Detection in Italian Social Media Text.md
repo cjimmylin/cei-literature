@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,35 +6,35 @@ Not AI:
 key: LSRC0507
 type: conferencePaper
 short_title: "HATE-ITA: Hate Speech Detection in Italian Social Media Text"
-year: 2022
+year: 2025
 first_author: "[[MilaNLProc group]]"
 last_author: "[[MilaNLProc group]]"
-authors: MilaNLProc group
+authors: "MilaNLProc group"
 url: "https://aclanthology.org/2022.woah-1.24/"
 external_pdf: "https://aclanthology.org/2022.woah-1.24.pdf"
-publication: ACL Anthology (WOAH @ NAACL 2022)
+publication: "ACL Anthology (WOAH @ NAACL 2022)"
 local_pdf: "[[PDFs/2022/2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Italian"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Italian
 languages_list: "English, Italian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "AlBERTo, BERT-Italian, GilBERTo, UmBERTo, mBERT, XLM-RoBERTa"
 DATA_URL: "https://github.com/dhfbk/hate-ita"
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # HATE-ITA: Hate Speech Detection in Italian Social Media Text

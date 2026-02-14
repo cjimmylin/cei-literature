@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,31 +6,31 @@ Not AI:
 key: LSRC0240
 type: preprint
 short_title: "KoSBi: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Application"
-year: 2023
+year: 2025
 first_author: "[[Hwaran Lee]]"
 last_author: "[[Nako Sung]]"
-authors: Hwaran Lee, Seokhee Hong, Joonsuk Park, Takyoung Kim, Meeyoung Cha, Yejin Choi, Byoung-Tak Zhang, Gunhee Kim, Eun-Ju Lee, Nako Sung
+authors: "Hwaran Lee, Seokhee Hong, Joonsuk Park, Takyoung Kim, Meeyoung Cha, Yejin Choi, Byoung-Tak Zhang, Gunhee Kim, Eun-Ju Lee, Nako Sung"
 doi: 10.18653/v1/2023.acl-industry.21
 url: "https://arxiv.org/abs/2305.17701"
 external_pdf: "https://arxiv.org/pdf/2305.17701.pdf"
 local_pdf: "[[PDFs/2023/2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.md"
-publication: arXiv / ACL 2023 Industry Track
+publication: "arXiv / ACL 2023 Industry Track"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Korean"
-languages_list: "Korean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Korean
+languages_list: Korean
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "15 categories"
 LLM_assessed: 
 DATA_URL: 

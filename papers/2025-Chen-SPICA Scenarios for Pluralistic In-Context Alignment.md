@@ -1,41 +1,38 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0118
 type: conferencePaper
-short_title: SPICA (Scenarios for Pluralistic In-Context Alignment)
+short_title: "SPICA (Scenarios for Pluralistic In-Context Alignment)"
 year: 2025
 first_author: "[[Quan Ze Chen]]"
 last_author: "[[Amy X. Zhang Chan Young Park]]"
-authors: Quan Ze Chen, Kevin Feng, Chan Young Park, Amy X. Zhang
-publication: ACL 2025
+authors: "Quan Ze Chen, Kevin Feng, Chan Young Park, Amy X. Zhang"
+publication: "ACL 2025"
 external_pdf: "https://arxiv.org/pdf/2411.10912.pdf"
 local_pdf: "[[PDFs/2025/2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment.md"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "AI Safety & Alignment"
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/Social-Futures-Lab/SPICA-code"
 ---
 # SPICA (Scenarios for Pluralistic In-Context Alignment)

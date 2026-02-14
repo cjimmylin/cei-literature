@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "The State of Large Language Models for African Languages: Progress
 year: 2025
 first_author: "[[Authors not fully available]]"
 last_author: "[[Authors not fully available]]"
-authors: Authors not fully available
+authors: "Authors not fully available"
 url: "https://arxiv.org/abs/2506.02280"
 external_pdf: "https://arxiv.org/pdf/2506.02280.pdf"
 local_pdf: "[[PDFs/2025/2025-available-The State of Large Language Models for African Languages Progress and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-available-The State of Large Language Models for African Languages Progress and.md"
 publication: "WebSearch: decolonial AI African languages benchmark evaluation"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Arabic, African/Ubuntu"
 languages_list: "Survey covering African languages broadly"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
 LLM_assessed: 

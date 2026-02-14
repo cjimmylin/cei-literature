@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "https://arxiv.org/abs/2310.12773"
 external_pdf: "https://arxiv.org/pdf/2310.12773.pdf"
 publication: arXiv
 national_ethnic_cultural: N/A
-religious_values: "Christianity"
-religious_values_list: "Christianity"
+religious_values: Christianity
+religious_values_list: Christianity
 moral_psychology: N/A
 newtags: "RLHF, AI Safety, Constrained Optimization"
 key_contribution: "Proposes Safe RLHF that decouples helpfulness and harmlessness with separate models"

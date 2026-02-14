@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,27 +9,27 @@ short_title: "Irish-BLiMP: A Linguistic Benchmark for Evaluating Human and Langu
 year: 2025
 first_author: "[[Josh Mc]]"
 last_author: "[[Josh Mc]]"
-authors: Josh Mc
+authors: "Josh Mc"
 url: "https://arxiv.org/html/2510.20957"
 external_pdf: "https://arxiv.org/pdf/2510.20957.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Mc-Irish-BLiMP A Linguistic Benchmark for Evaluating Human and Language.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mc-Irish-BLiMP A Linguistic Benchmark for Evaluating Human and Language.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Irish, Multilingual, Welsh"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

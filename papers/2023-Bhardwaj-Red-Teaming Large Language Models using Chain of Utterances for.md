@@ -1,35 +1,34 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0368
 type: preprint
-short_title: Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment
-year: 2023
+short_title: "Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment"
+year: 2025
 first_author: "[[Rishabh Bhardwaj]]"
 last_author: "[[Soujanya Poria]]"
-authors: Rishabh Bhardwaj, Soujanya Poria
+authors: "Rishabh Bhardwaj, Soujanya Poria"
 url: "https://arxiv.org/abs/2308.09662"
 external_pdf: "https://arxiv.org/pdf/2308.09662.pdf"
 local_pdf: "[[PDFs/2023/2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+national_ethnic_cultural: N/A
 languages_list: "Chinese, English, Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multi-task benchmark for moral/ethical reasoning dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: 

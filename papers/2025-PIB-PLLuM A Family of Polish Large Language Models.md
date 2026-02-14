@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,33 +9,33 @@ short_title: "PLLuM: A Family of Polish Large Language Models"
 year: 2025
 first_author: "[[PLLuM Team (OPI PIB]]"
 last_author: "[[CYFRA GOV PL)]]"
-authors: PLLuM Team (OPI PIB, CYFRA GOV PL)
+authors: "PLLuM Team (OPI PIB, CYFRA GOV PL)"
 url: "https://arxiv.org/abs/2511.03823"
 external_pdf: "https://arxiv.org/pdf/2511.03823.pdf"
 local_pdf: "[[PDFs/2025/2025-PIB-PLLuM A Family of Polish Large Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-PIB-PLLuM A Family of Polish Large Language Models.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Polish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Polish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
-research_topic: "Other"
+abstract: 
+research_topic: Other
 ---
 # PLLuM: A Family of Polish Large Language Models
 

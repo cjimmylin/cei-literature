@@ -1,6 +1,4 @@
 ---
-
-
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Virtue ethics against extinction"
@@ -17,8 +15,8 @@ url: "https://journalofethics.ama-assn.org/article/virtue-ethics-and-postponing-
 local_pdf: "[[PDFs/2025/2025-Bryan-Virtue Ethics and Postponing Human Extinction.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Bryan-Virtue Ethics and Postponing Human Extinction.md"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Argues for the necessity of virtue ethics (wisdom, justice, temperance) alongside deontology/utilitarianism to address existential risks like rogue AI"
@@ -33,8 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Virtue Ethics and Postponing Human Extinction
 

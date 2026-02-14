@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "SinLlama: A Large Language Model for Sinhala"
 year: 2025
 first_author: "[[H. W. K. Aravinda]]"
-last_author: "[[Unknown]]"
-authors: H. W. K. Aravinda; Rashad Sirajudeen; Samith Karunathilake; Nisansa de Silva; Surangika Ranathunga; Rishemjit Kaur
+last_author: [[Unknown]]
+authors: "H. W. K. Aravinda; Rashad Sirajudeen; Samith Karunathilake; Nisansa de Silva; Surangika Ranathunga; Rishemjit Kaur"
 url: "https://arxiv.org/abs/2508.09115"
 external_pdf: "https://arxiv.org/pdf/2508.09115.pdf"
 local_pdf: "[[PDFs/2025/2025-Aravinda-SinLlama A Large Language Model for Sinhala.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Aravinda-SinLlama A Large Language Model for Sinhala.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Sinhala"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: Yes
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Sinhala
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
 LLM_assessed: 

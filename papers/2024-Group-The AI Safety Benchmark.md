@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Bertie Vidgen; Adarsh Agrawal; Ahmed M. Ahmed; Victor Akinwande; Namir
 url: "https://arxiv.org/abs/2404.12241"
 external_pdf: "https://arxiv.org/pdf/2404.12241.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced v0.5 of the MLCommons AI Safety Benchmark, a standardized suite of 43k test items covering 13 hazard categories for chat-tuned models."
@@ -36,7 +34,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/mlcommons/modelbench"
 ---
 # The AI Safety Benchmark

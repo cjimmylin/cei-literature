@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2402.16786"
 external_pdf: "http://arxiv.org/pdf/2402.16786.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Evaluated LLMs on the Political Compass Test (PCT), showing that results are unstable and depend heavily on formatting (forced choice vs. open text)."
@@ -28,7 +26,7 @@ pdf_extract: "PDF Extracts/2024/2024-Röttger-Political Compass or Spinning Arro
 abstract: "Much recent work seeks to evaluate values and opinions in large language models (LLMs) us- ing multiple-choice surveys and questionnaires. Most of this work is motivated by concerns around real-world LLM applications. For ex- ample, politically-biased LLMs may subtly in- fluence society when they are used by millions of people. Such real-world concerns, however, stand in stark contrast to the artificiality of cur- rent evaluations: real users do not typically ask LLMs survey questions. Motivated"
 paper_summary: "Abstract: Much recent work seeks to evaluate values and opinions in large language models (LLMs) us- ing multiple-choice surveys and questionnaires. Most of this work is motivated by concerns around real-world  | Overview: Political Compass or Spinning Arrow? Towards More Meaningful Evaluations for Values and Opinions in Large Language Models Paul Röttger1* Valentin Hofmann2,4,5* Valentina Pyatkin2 Musashi Hinck3 Hannah | Methodology: We searched Google Scholar, arXiv and the ACL Anthology using the keywords “political compass” combined with variants of “language model”. Ta- ble 1 s | Key Findings: Leaving be- hind the multiple-choice format complicates auto- mated evaluation, since string-matching on answer labels is no longer possible. Instead, | Conclusions: The PCT is a typical example for current con- strained approaches to evaluating values and opin- ions in LLMs. PCT evaluations are constrained by the"
 local_pdf: "[[PDFs/2024/2024-Röttger-Political Compass or Spinning Arrow.pdf]]"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

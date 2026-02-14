@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Dario Amodei; Chris Olah; Jacob Steinhardt; Paul Christiano; John Schu
 url: "https://arxiv.org/abs/1606.06565"
 external_pdf: "https://arxiv.org/pdf/1606.06565.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "The seminal paper defining five concrete technical problems in AI Safety: Side Effects, Reward Hacking, Scalable Supervision, Safe Exploration, and Distributional Shift."
@@ -36,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Concrete Problems in AI Safety
 

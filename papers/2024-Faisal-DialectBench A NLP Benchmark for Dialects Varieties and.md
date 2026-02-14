@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0839
 type: preprint
 short_title: "DialectBench: A NLP Benchmark for Dialects, Varieties, and Closely-Related Languages"
-year: 2024
+year: 2025
 first_author: "[[Fahim Faisal]]"
 last_author: "[[Yulia Tsvetkov]]"
-authors: Fahim Faisal, Orevaoghene Ahia, Aarohi Srivastava, Kabir Ahuja, David Chiang, Yulia Tsvetkov
+authors: "Fahim Faisal, Orevaoghene Ahia, Aarohi Srivastava, Kabir Ahuja, David Chiang, Yulia Tsvetkov"
 url: "https://arxiv.org/html/2403.11009v1"
 external_pdf: "https://arxiv.org/pdf/2403.11009.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2024/2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Chinese, English"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.31234/osf.io/ywhx2
 url: "https://doi.org/10.31234/osf.io/ywhx2"
 external_pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/199A848F4ACDF273759329C34FCC653B/S1930297524000056a.pdf/div-class-title-the-dutch-moral-foundations-stimulus-database-an-adaptation-and-validation-of-moral-vignettes-and-sociomoral-images-in-a-dutch-sample-div.pdf"
 national_ethnic_cultural: Dutch
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Moral Foundations Theory"
 newtags: "Dutch, Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Validated a database of standardized moral vignettes and images based on Moral Foundations Theory specifically for a Dutch sample."
@@ -36,7 +34,7 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://osf.io/9gnza"
 ---
 # The Dutch Moral Foundations Stimulus Database: A Validation of Standardized Vignettes and Socio-Moral Images in a Dutch Sample

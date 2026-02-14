@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "IndoSafety: Culturally Grounded Safety for LLMs in Indonesian Languages"
 year: 2025
 first_author: "[[Muhammad Falensi Azmi]]"
-last_author: "[[Unknown]]"
-authors: Muhammad Falensi Azmi; Muhammad Dehan Al Kautsar; Alfan Farizki Wicaksono; Fajri Koto
+last_author: [[Unknown]]
+authors: "Muhammad Falensi Azmi; Muhammad Dehan Al Kautsar; Alfan Farizki Wicaksono; Fajri Koto"
 url: "https://arxiv.org/abs/2506.02573"
 external_pdf: "https://arxiv.org/pdf/2506.02573.pdf"
 local_pdf: "[[PDFs/2025/2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indonesian"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indonesian
 languages_list: "Indonesian, Javanese, Minangkabau, Sundanese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

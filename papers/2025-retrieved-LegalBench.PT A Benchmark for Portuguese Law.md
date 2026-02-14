@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "LegalBench.PT: A Benchmark for Portuguese Law"
 year: 2025
 first_author: "[[Authors not fully retrieved]]"
 last_author: "[[Authors not fully retrieved]]"
-authors: Authors not fully retrieved
+authors: "Authors not fully retrieved"
 url: "https://arxiv.org/abs/2502.16357"
 external_pdf: "https://arxiv.org/pdf/2502.16357.pdf"
 local_pdf: "[[PDFs/2025/2025-retrieved-LegalBench.PT A Benchmark for Portuguese Law.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-retrieved-LegalBench.PT A Benchmark for Portuguese Law.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Brazilian"
-languages_list: "Portuguese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Brazilian
+languages_list: Portuguese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2306.16388"
 external_pdf: "http://arxiv.org/pdf/2306.16388.pdf"
 publication: arXiv.org
 national_ethnic_cultural: American
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: American
 tags: 
@@ -36,7 +34,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "Claude"
+LLM_assessed: Claude
 DATA_URL: "https://huggingface.co/datasets/Anthropic/llm_global_opinions"
 ---
 # Towards Measuring the Representation of Subjective Global Opinions in Language Models

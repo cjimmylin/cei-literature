@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0207
 type: conferencePaper
 short_title: "Toxic Language Detection in Social Media for Brazilian Portuguese: New Dataset and Multilingual Analysis (ToLD-Br)"
-year: 2020
+year: 2025
 first_author: "[[Joao Augusto Leite]]"
 last_author: "[[Carolina Scarton]]"
-authors: Joao Augusto Leite, Diego Silva, Kalina Bontcheva, Carolina Scarton
+authors: "Joao Augusto Leite, Diego Silva, Kalina Bontcheva, Carolina Scarton"
 url: "https://arxiv.org/abs/2010.04543"
 external_pdf: "https://arxiv.org/pdf/2010.04543.pdf"
 local_pdf: "[[PDFs/2020/2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New.md"
-publication: ACL Anthology (AACL 2020)
+publication: "ACL Anthology (AACL 2020)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Brazilian"
-languages_list: "Portuguese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Brazilian
+languages_list: Portuguese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: 

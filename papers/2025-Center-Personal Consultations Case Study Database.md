@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,13 +7,13 @@ key: T7SMT2WN
 type: document
 short_title: "Personal Consultations Case Study Database"
 year: 2025
-first_author: "[[Center]]"
+first_author: [[Center]]
 last_author: "[[NCBC Bioethics]]"
 authors: "Center; NCBC Bioethics"
 url: "https://www.ncbcenter.org/case-study-database"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -31,10 +29,10 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://www.ncbcenter.org/case-study-database"
 pdf_extract: "[[2025-Center-Personal Consultations Case Study Database]]"
-no_pdf_applicable: "true"
+no_pdf_applicable: true
 ---
 # Personal Consultations Case Study Database
 

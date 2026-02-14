@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0630
 type: preprint
 short_title: "Sentiment Analysis Across Languages: Evaluation Before and After Machine Translation to English"
-year: 2024
+year: 2025
 first_author: "[[Aekansh Kathunia]]"
-last_author: "[[Unknown]]"
-authors: Aekansh Kathunia; Mohammad Kaif; Nalin Arora; N Narotam
+last_author: [[Unknown]]
+authors: "Aekansh Kathunia; Mohammad Kaif; Nalin Arora; N Narotam"
 url: "https://arxiv.org/html/2405.02887v2"
 external_pdf: "https://arxiv.org/pdf/2405.02887.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2024/2024-Kathunia-Sentiment Analysis Across Languages Evaluation Before and After.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Kathunia-Sentiment Analysis Across Languages Evaluation Before and After.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "English, Mongolian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: 

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +8,28 @@ type: conferencePaper
 short_title: "WYWEB: A NLP Evaluation Benchmark For Classical Chinese"
 year: 2025
 first_author: "[[Bo Zhou]]"
-last_author: "[[Unknown]]"
-authors: Bo Zhou; Qianglong Chen; Tianyu Wang; Xiaomi Zhong; Yin Zhang
+last_author: [[Unknown]]
+authors: "Bo Zhou; Qianglong Chen; Tianyu Wang; Xiaomi Zhong; Yin Zhang"
 url: "https://aclanthology.org/2023.findings-acl.204/"
 external_pdf: "https://arxiv.org/pdf/2305.14150v1.pdf"
-publication: ACL Anthology
+publication: "ACL Anthology"
 local_pdf: "[[PDFs/2025/2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
 languages_list: "Cantonese, Chinese, Classical Chinese, Hakka, Min"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

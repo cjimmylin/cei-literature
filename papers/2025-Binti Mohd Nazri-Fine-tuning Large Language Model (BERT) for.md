@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.31436/ijpcc.v11i1.533
 url: "https://journals.iium.edu.my/kict/index.php/IJPCC/article/view/533"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/LSHSUEEF/Binti Mohd Nazri et al. - 2025 - Fine-tuning Large Language Model (BERT) for Islamic Moral Inquiry and Response.pdf"
 national_ethnic_cultural: N/A
-religious_values: "Islam"
-religious_values_list: "Islam"
+religious_values: Islam
+religious_values_list: Islam
 moral_psychology: N/A
 newtags: "Islam, Virtue Ethics"
 key_contribution: "Fine-tunes a BERT model on the 'Islam: Questions and Answers' corpus to enhance its ability to perform moral-related QA tasks from an Islamic perspective"
@@ -33,8 +31,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach text corpus for question answering"
 data_metrics: "0 dataset"
-LLM_assessed: "BERT"
-DATA_URL: "NA"
+LLM_assessed: BERT
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.md"
 local_pdf: "[[PDFs/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.pdf]]"
 ---

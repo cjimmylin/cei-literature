@@ -1,43 +1,40 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0070
 type: preprint
-short_title: LLM Rationalis? Measuring Bargaining Capabilities of AI Negotiators
+short_title: "LLM Rationalis? Measuring Bargaining Capabilities of AI Negotiators"
 year: 2025
 first_author: "[[Cheril Shah]]"
 last_author: "[[Mourad Heddaya]]"
-authors: Cheril Shah; Akshit Agarwal; Kanak Garg; Mourad Heddaya
+authors: "Cheril Shah; Akshit Agarwal; Kanak Garg; Mourad Heddaya"
 url: "https://arxiv.org/abs/2512.13063"
 external_pdf: "https://arxiv.org/pdf/2512.13063.pdf"
 local_pdf: "[[PDFs/2025/2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Bilateral negotiation is a complex, context-sensitive task in which human negotiators dynamically adjust anchors, pacing, and flexibility to exploit power asymmetries and informal cues. We introduce a unified mathematical framework for modeling concession dynamics based on a hyperbolic tangent curve, and propose two metrics burstiness (τ) and the Concession-Rigidity Index (CRI) to quantify the timing and rigidity of offer trajectories."
-research_topic: "Other"
+research_topic: Other
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, ChatGPT"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # LLM Rationalis? Measuring Bargaining Capabilities of AI Negotiators
 

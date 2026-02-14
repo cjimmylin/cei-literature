@@ -7,34 +7,35 @@ Not AI:
 key: LSRC0091
 type: conferencePaper
 short_title: "Decolonizing NLP for 'Low-resource Languages': Applying Abebe Birhane's Relational Ethics"
-year: 2023
+year: 2025
 first_author: "[[Authors from Stanford/Masakhane]]"
 last_author: "[[Authors from Stanford/Masakhane]]"
-authors: Authors from Stanford/Masakhane
+authors: "Authors from Stanford/Masakhane"
 url: "https://ojs.stanford.edu/ojs/index.php/grace/article/view/2584"
+external_pdf: "https://ojs.stanford.edu/ojs/index.php/grace/article/download/2584/1546"
 publication: "WebSearch: Decolonizing NLP low-resource languages relational ethics Birhane"
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2023/2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: 
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Applies Birhane's relational ethics framework to argue for decolonizing NLP for African languages. Advocates for language speakers to determine how their languages are used in AI, with communities retaining data ownership."
 ethics_perspective: "General Ethics"
 ---
 # Decolonizing NLP for 'Low-resource Languages': Applying Abebe Birhane's Relational Ethics
@@ -67,4 +68,3 @@ Applies Birhane's relational ethics framework to argue for decolonizing NLP for 
 **Relevance:** Foundational framework paper for ethical African language NLP. Applies relational ethics (African tradition) to data sovereignty and community ownership. Essential context for values-aligned AI development.
 
 ## Tags
-

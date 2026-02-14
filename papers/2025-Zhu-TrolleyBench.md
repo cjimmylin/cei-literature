@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,29 +8,29 @@ type: conferencePaper
 short_title: TrolleyBench
 year: 2025
 first_author: "[[A Zhu]]"
-last_author: "[[A]]"
-authors: Zhu, A
-publication: NeurIPS 2025
+last_author: [[A]]
+authors: "Zhu, A"
+publication: "NeurIPS 2025"
 external_pdf: "https://openreview.net/pdf?id=27j9XJQV5O"
-local_pdf: "[[PDFs/2025/2025-Zhu-TrolleyBench.pdf]]"
+local_pdf: "[[PDFs/2025-Zhu-TrolleyBench.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhu-TrolleyBench.md"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
-abstract:
-research_topic: "Other"
-data_description: "N/A"
+abstract: 
+research_topic: Other
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "DeepSeek, Mistral, Gemini, GPT-4"
 DATA_URL: "https://anonymous.4open.science/r/TrolleyBench-FD46/README.md"

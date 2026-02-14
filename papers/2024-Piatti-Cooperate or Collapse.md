@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "http://arxiv.org/abs/2404.16698"
 external_pdf: "http://arxiv.org/pdf/2404.16698.pdf"
 publication: "Neural Information Processing Systems"
 national_ethnic_cultural: American
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "American, Responsible AI"
 key_contribution: "Introduced GovSim, a 'Governance of the Commons Simulation' where LLM agents must manage a shared resource, testing their ability to cooperate and avoid 'tragedy of the commons' scenarios."

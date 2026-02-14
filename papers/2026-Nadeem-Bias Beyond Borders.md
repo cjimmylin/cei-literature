@@ -1,43 +1,40 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0002
 type: preprint
-short_title: Bias Beyond Borders
-year: 2026
+short_title: "Bias Beyond Borders"
+year: 2025
 first_author: "[[Afrozah Nadeem]]"
 last_author: "[[Usman Naseem Mehwish Nasim]]"
-authors: Afrozah Nadeem, Agrima, Mehwish Nasim, Usman Naseem
+authors: "Afrozah Nadeem, Agrima, Mehwish Nasim, Usman Naseem"
 url: "https://arxiv.org/abs/2601.23001"
 external_pdf: "https://arxiv.org/pdf/2601.23001.pdf"
 local_pdf: "[[PDFs/2026/2026-Nadeem-Bias Beyond Borders.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Nadeem-Bias Beyond Borders.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Multicultural/Cross-cultural
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Large Language Models (LLMs) increasingly shape global discourse, making fairness and ideological neutrality essential for responsible AI deployment. Despite growing attention to political bias in LLMs, prior work largely focuses on high-resource, Western languages or narrow multilingual settings, leaving crosslingual consistency and safe post-hoc mitigation underexplored. To address this gap, we present a large-scale multilingual evaluation of political bias spanning 50 countries and 33..."
 ethics_perspective: "Bias & Fairness"
 data_description: "Evaluation framework"
 data_metrics: "33 languages"
 LLM_assessed: "Mistral, DeepSeek"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Bias Beyond Borders
 

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,25 +9,25 @@ short_title: "ConflictScope: Generative Value Conflicts Reveal LLM Priorities"
 year: 2025
 first_author: "[[Andy Liu]]"
 last_author: "[[Max Kleiman-Weiner]]"
-authors: Andy Liu; Kshitish Ghate; Mona Diab; Daniel Fried; Atoosa Kasirzadeh; Max Kleiman-Weiner
+authors: "Andy Liu; Kshitish Ghate; Mona Diab; Daniel Fried; Atoosa Kasirzadeh; Max Kleiman-Weiner"
 url: "https://arxiv.org/abs/2509.25369"
 external_pdf: "https://arxiv.org/pdf/2509.25369.pdf"
 local_pdf: "[[PDFs/2025/2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Past work seeks to align large language model (LLM)-based assistants with a target set of values, but such assistants are frequently forced to make tradeoffs between values when deployed. In response to the scarcity of value conflict in existing alignment datasets, we introduce CONFLICTSCOPE, an automatic pipeline to evaluate how LLMs prioritize different values. Given a user-defined value set, CONFLICTSCOPE automatically generates scenarios in which a language model faces a conflict between..."
 ethics_perspective: "AI Safety & Alignment"

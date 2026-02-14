@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2501.17117"
 external_pdf: "http://arxiv.org/pdf/2501.17117.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
 national_ethnic_cultural: "Chinese, French"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Chinese, French, AI Safety & Alignment"
 key_contribution: "Created 'Histoires Morales', a *French* dataset for moral alignment (derived from Moral Stories but culturally adapted), covering tipping, honesty, etc."

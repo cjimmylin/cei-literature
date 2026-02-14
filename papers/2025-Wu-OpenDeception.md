@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2504.13707"
 external_pdf: "http://arxiv.org/pdf/2504.13707.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Introduced OpenDeception, a framework and dataset for evaluating deceptive behaviors in LLM agents through open-ended multi-turn simulations."
@@ -27,8 +25,8 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Wu-OpenDeception.md"
 abstract: "As the general capabilities of large language models (LLMs) improve and agent applications become more widespread, the underlying deception risks urgently require systematic evaluation and effective oversight. Unlike existing evaluation which uses simulated games or presents limited choices, we introduce OpenDecep- tion, a novel deception evaluation framework with an open-ended scenario dataset. OpenDeception jointly evaluates both the deception intention and capabilities of LLM-based agents by"
 paper_summary: "Abstract: As the general capabilities of large language models (LLMs) improve and agent applications become more widespread, the underlying deception risks urgently require systematic evaluation and effective o | Overview: OpenDeception: Benchmarking and Investigating AI Deceptive Behaviors via Open-ended Simulation Yichen Wu1, Xudong Pan1,2, Geng Hong1, Min Yang1 1Fudan University, 2Shanghai Innovation Institute (SII)  | Methodology: In this study, we use AI agents to simulate user-AI interactions, generating diverse conversational scenarios by varying roles and objectives. By anal | Key Findings: which uses simulated games or presents limited choices, we introduce OpenDecep- tion, a novel deception evaluation framework with an open-ended scenar"
-local_pdf: "[[PDFs/2025/2025-Wu-OpenDeception.pdf]]"
-ethics_overall: Yes
+local_pdf: "[[PDFs/2025-Wu-OpenDeception.pdf]]"
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

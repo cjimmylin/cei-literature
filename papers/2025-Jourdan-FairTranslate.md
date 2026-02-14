@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,11 +11,11 @@ first_author: "[[Fanny Jourdan]]"
 last_author: "[[Favre, Cécile]]"
 authors: "[[Jourdan, Fanny]]; [[Chevalier, Yannick]]; [[Favre, Cécile]]"
 url: "https://arxiv.org/abs/2504.15941"
-local_pdf: "[[PDFs/2025/2025-Jourdan-FairTranslate.pdf]]"
+local_pdf: [[PDFs/2025/2025-Jourdan-FairTranslate.pdf]]
 external_pdf: "https://arxiv.org/pdf/2504.15941.pdf"
 national_ethnic_cultural: French
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "French, Deontology"
 key_contribution: "Evaluates non-binary gender biases in English-French translation, focusing on inclusive language (singular 'they')"

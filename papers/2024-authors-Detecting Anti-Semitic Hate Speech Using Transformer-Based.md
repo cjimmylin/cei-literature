@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0473
 type: preprint
 short_title: "Detecting Anti-Semitic Hate Speech Using Transformer-Based"
-year: 2024
+year: 2025
 first_author: "[[authors, Multiple]]"
 last_author: "[[authors, Multiple]]"
 authors: "[[Multiple authors]]"
@@ -21,24 +17,24 @@ local_pdf: "[[PDFs/2024/2024-authors-Detecting Anti-Semitic Hate Speech Using Tr
 pdf_extract: "PDF Extracts/2024/2024-authors-Detecting Anti-Semitic Hate Speech Using Transformer-Based.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Academic researchers and social media entities grappling with the identification of hate speech face significant challenges, primarily due to the vast scale of data and the dynamic nature of hate speech. Given the ethical and practical limitations of large predictive models like ChatGPT in directly addressing such sensitive issues, our research has explored alternative advanced transformer-based and generative AI technologies since 2019."
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Detecting Anti-Semitic Hate Speech Using Transformer-Based Large Language Models

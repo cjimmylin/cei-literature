@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: EXSR0260
 type: preprint
 short_title: "VAPT: Value-Alignment Perception Toolkit"
-year: 2026
+year: 2025
 first_author: "[[Yun, Bhada]]"
 last_author: "[[Wang, April Yi]]"
 authors: "[[Yun, Bhada]]; [[Su, Renn]]; [[Wang, April Yi]]"
@@ -20,23 +17,23 @@ local_pdf: "[[PDFs/2026/2026-Yun-VAPT Value-Alignment Perception Toolkit.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Yun-VAPT Value-Alignment Perception Toolkit.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Does AI understand human values? While this remains an open philosophical question, we take a pragmatic stance by introducing VAPT, the Value-Alignment Perception Toolkit, for studying how LLMs reflect people’s values and how people judge those reflections. 20 participants texted a chatbot over a month, then completed a 2-hour interview with our toolkit evaluating AI’s ability to extract (pull details regarding), embody (make decisions guided by), and explain (provide proof of) their values."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "Claude"
+LLM_assessed: Claude
 DATA_URL: "https://github.com/KaluJo/chatbot-study"
 ---
 # VAPT: Value-Alignment Perception Toolkit

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "One Ruler to Measure Them All: Benchmarking Multilingual Long-Cont
 year: 2025
 first_author: "[[University of Maryland]]"
 last_author: "[[UMass Amherst]]"
-authors: University of Maryland, Microsoft, UMass Amherst
+authors: "University of Maryland, Microsoft, UMass Amherst"
 url: "https://arxiv.org/abs/2503.01996"
 external_pdf: "https://arxiv.org/pdf/2503.01996.pdf"
 local_pdf: "[[PDFs/2025/2025-Maryland-One Ruler to Measure Them All Benchmarking Multilingual Long-Context.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Maryland-One Ruler to Measure Them All Benchmarking Multilingual Long-Context.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Czech, Polish, Serbian, and 23 other languages"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "128k tokens; 26 languages"
 LLM_assessed: 

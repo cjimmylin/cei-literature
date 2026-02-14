@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0462
 type: preprint
 short_title: "BLEnD A Benchmark for LLMs on"
-year: 2024
+year: 2025
 first_author: "[[Nayeon Lee, Nikhil Mehta, Yejin Bang,]]"
 last_author: "[[Nayeon Lee, Nikhil Mehta, Yejin Bang,]]"
 authors: "[[Nayeon Lee, Nikhil Mehta, Yejin Bang, et al]]"
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2406.09948"
 external_pdf: "https://arxiv.org/pdf/2406.09948.pdf"
 local_pdf: "[[PDFs/2024/2024-Bang-BLEnD A Benchmark for LLMs on.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Bang-BLEnD A Benchmark for LLMs on.md"
-publication: arxiv.org / NeurIPS 2024
+publication: "arxiv.org / NeurIPS 2024"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "African/Ubuntu"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: African/Ubuntu
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Large language models (LLMs) often lack culture-specific knowledge of daily life, especially across diverse regions and non-English languages. Existing benchmarks for evaluating LLMs’ cultural sensitivities are limited to a single language or collected from online sources such as Wikipedia, which do not reflect the mundane everyday lifestyles of diverse regions. That is, information about the food people eat for their birthday celebrations, spices they typically use, musical instruments..."
 data_description: "Benchmark dataset"
 data_metrics: "52.6k question"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/nlee0212/BLEnD"
 research_topic: "Machine Learning"
 ---

@@ -1,14 +1,11 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0100
 type: conferencePaper
-short_title: PERSONA (Pluralistic Alignment Testbed)
+short_title: "PERSONA (Pluralistic Alignment Testbed)"
 year: 2025
 first_author: "[[Castricato, Louis]]"
 last_author: "[[Finn, Chelsea]]"
@@ -18,24 +15,24 @@ url: "https://arxiv.org/abs/2407.17387"
 external_pdf: "https://arxiv.org/pdf/2407.17387.pdf"
 local_pdf: "[[PDFs/2025/2025-Castricato-PERSONA Pluralistic Alignment Testbed.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Castricato-PERSONA Pluralistic Alignment Testbed.md"
-publication: COLING 2025
+publication: "COLING 2025"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "AI Safety & Alignment"
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Mistral, Qwen"
 DATA_URL: "https://www.synthlabs.ai/research/persona"

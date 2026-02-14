@@ -1,41 +1,40 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0465
 type: conferencePaper
-short_title: GermEval 2018 Shared Task on the Identification of Offensive Language
-year: 2018
+short_title: "GermEval 2018 Shared Task on the Identification of Offensive Language"
+year: 2025
 first_author: "[[Michael Wiegand]]"
 last_author: "[[Josef Ruppenhofer]]"
-authors: Michael Wiegand, Melanie Siegel, Josef Ruppenhofer
+authors: "Michael Wiegand, Melanie Siegel, Josef Ruppenhofer"
 url: "https://www.lsv.uni-saarland.de/wp-content/publications/2018/germeval2018_wiegand.pdf"
-publication: GermEval Workshop
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://www.lsv.uni-saarland.de/wp-content/publications/2018/germeval2018_wiegand.pdf"
+publication: "GermEval Workshop"
+local_pdf: "[[PDFs/2018/2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.pdf]]"
+pdf_extract: "PDF Extracts/2018/2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "German"
-languages_list: "German"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: German
+languages_list: German
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # GermEval 2018 Shared Task on the Identification of Offensive Language

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,25 +9,25 @@ short_title: "SI-Bench: Benchmarking Social Intelligence of Large Language Model
 year: 2025
 first_author: "[[Shuai Huang]]"
 last_author: "[[Jun Gao]]"
-authors: Shuai Huang; Wenxuan Zhao; Jun Gao
+authors: "Shuai Huang; Wenxuan Zhao; Jun Gao"
 url: "https://arxiv.org/abs/2510.23182"
 external_pdf: "https://arxiv.org/pdf/2510.23182.pdf"
 local_pdf: "[[PDFs/2025/2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "As large language models (LLMs) develop anthropomorphic abilities, they are increasingly being deployed as autonomous agents to interact with humans. However, evaluating their performance in realistic and complex social interactions remains a significant challenge. Most previous research built datasets through simulated agent-to-agent interactions, which fails to capture the authentic linguistic styles and relational dynamics found in real human conversations."
 research_topic: "Dialogue Systems"

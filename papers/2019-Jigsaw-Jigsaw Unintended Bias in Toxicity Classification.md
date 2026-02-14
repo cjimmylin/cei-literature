@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,14 +7,14 @@ key: JASNQSSB
 type: document
 short_title: "Jigsaw Unintended Bias in Toxicity Classification"
 year: 2025
-first_author: "[[Jigsaw]]"
-last_author: "[[Kaggle]]"
+first_author: [[Jigsaw]]
+last_author: [[Kaggle]]
 authors: "Jigsaw; Kaggle /"
 url: "https://www.kaggle.com/competitions/jigsaw-unintended-bias-in-toxicity-classification"
 external_pdf: "http://arxiv.org/pdf/2210.11762"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Provided a dataset for identifying unintended bias in toxicity classification, where models flag identity terms (gay, black) as toxic even in neutral contexts."

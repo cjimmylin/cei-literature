@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2503.10497"
 external_pdf: "https://arxiv.org/pdf/2503.10497.pdf"
 local_pdf: "[[PDFs/2025/2025-authors-MMLU-ProX A Multilingual Benchmark for Advanced.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-authors-MMLU-ProX A Multilingual Benchmark for Advanced.md"
-publication: arxiv.org / EMNLP 2025
+publication: "arxiv.org / EMNLP 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Existing large language model (LLM) evaluation benchmarks primarily focus on English, while current multilingual tasks lack parallel questions that specifically assess crosslinguistic reasoning abilities. This dual limitation makes it challenging to comprehensively assess LLMs’ performance in the multilingual setting. To fill this gap, we introduce MMLUProX, a comprehensive benchmark covering 29 languages, built on an English benchmark."
 data_description: "Multilingual benchmark"
 data_metrics: "658 questions; 29 languages"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/weihao1115/MMLU-ProX"
 research_topic: "Machine Translation"
 ---

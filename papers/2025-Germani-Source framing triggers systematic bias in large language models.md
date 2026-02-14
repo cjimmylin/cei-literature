@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +8,29 @@ type: journalArticle
 short_title: "Source framing triggers systematic bias in large language models | Science Advances"
 year: 2025
 first_author: "[[Federico Germani]]"
-last_author: "[[Unknown]]"
-authors: Federico Germani; G. Spitale
+last_author: [[Unknown]]
+authors: "Federico Germani; G. Spitale"
 doi: 10.1126/sciadv.adz2924
 url: "https://www.science.org/doi/10.1126/sciadv.adz2924"
+external_pdf: "https://arxiv.org/pdf/2505.13488"
 publication: Science
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2025/2025-Germani-Source framing triggers systematic bias in large language models.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Germani-Source framing triggers systematic bias in large language models.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

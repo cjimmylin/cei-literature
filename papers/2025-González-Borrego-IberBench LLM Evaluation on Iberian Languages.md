@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "IberBench: LLM Evaluation on Iberian Languages"
 year: 2025
 first_author: "[[Isaac González-Borrego]]"
 last_author: "[[David Obrador]]"
-authors: Isaac González-Borrego, David Obrador, et al.
+authors: "Isaac González-Borrego, David Obrador, et al."
 url: "https://arxiv.org/abs/2504.16921"
 external_pdf: "https://arxiv.org/pdf/2504.16921.pdf"
 local_pdf: "[[PDFs/2025/2025-González-Borrego-IberBench LLM Evaluation on Iberian Languages.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-González-Borrego-IberBench LLM Evaluation on Iberian Languages.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Spanish, Brazilian"
 languages_list: "Basque, Catalan, English, Galician, Portuguese, Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset for toxicity detection"
 data_metrics: "101 datasets"
 LLM_assessed: 

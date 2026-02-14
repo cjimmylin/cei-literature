@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0370
 type: preprint
 short_title: "PhoGPT: Generative Pre-training for Vietnamese"
-year: 2023
+year: 2025
 first_author: "[[Dat Quoc Nguyen]]"
 last_author: "[[Hung Bui]]"
-authors: Dat Quoc Nguyen, Linh The Nguyen, Chi Tran, Dung Ngoc Nguyen, Dinh Phung, Hung Bui
+authors: "Dat Quoc Nguyen, Linh The Nguyen, Chi Tran, Dung Ngoc Nguyen, Dinh Phung, Hung Bui"
 url: "https://arxiv.org/abs/2311.02945"
 external_pdf: "https://arxiv.org/pdf/2311.02945.pdf"
 local_pdf: "[[PDFs/2023/2023-Nguyen-PhoGPT Generative Pre-training for Vietnamese.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Nguyen-PhoGPT Generative Pre-training for Vietnamese.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus for conversational ai"
 data_metrics: "20480 token"
 LLM_assessed: 

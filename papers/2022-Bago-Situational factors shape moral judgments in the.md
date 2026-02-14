@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,8 +17,8 @@ pdf_extract: "[[2022-Bago-Situational factors shape moral judgments in the]]"
 local_pdf: "[[PDFs/2022/2022-Bago-Situational factors shape moral judgments in the.pdf]]"
 publication: "Nature Human Behaviour"
 national_ethnic_cultural: American
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "American, Deontology, Utilitarianism"
 key_contribution: "Replicated Greene's trolley dilemma experiments across 45 countries, testing the universality of situational factors on deontological vs utilitarian judgment"
@@ -36,7 +34,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/marton-balazs-kovacs/trolleyMultilabReplication"
 ---
 # Situational factors shape moral judgments in the trolley dilemma in Eastern, Southern, and Western countries in a culturally diverse sample

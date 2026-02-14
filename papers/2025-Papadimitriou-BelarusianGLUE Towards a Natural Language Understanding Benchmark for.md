@@ -10,32 +10,32 @@ short_title: "BelarusianGLUE: Towards a Natural Language Understanding Benchmark
 year: 2025
 first_author: "[[Maksim Papadimitriou]]"
 last_author: "[[Maksim Papadimitriou]]"
-authors: Maksim Papadimitriou et al.
+authors: "Maksim Papadimitriou et al."
 url: "https://aclanthology.org/2025.acl-long.25/"
 external_pdf: "https://aclanthology.org/2025.acl-long.25.pdf"
-publication: ACL Anthology (ACL 2025)
+publication: "ACL Anthology (ACL 2025)"
 local_pdf: "[[PDFs/2025/2025-Papadimitriou-BelarusianGLUE Towards a Natural Language Understanding Benchmark for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Papadimitriou-BelarusianGLUE Towards a Natural Language Understanding Benchmark for.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Belarusian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Belarusian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "First NLU benchmark for Belarusian with ~15K instances across 5 tasks: sentiment analysis, linguistic acceptability, word in context, Winograd schema challenge, and textual entailment. Evaluates BERT models and LLMs."
 research_topic: "Machine Learning"
 ---
 # BelarusianGLUE: Towards a Natural Language Understanding Benchmark for Belarusian

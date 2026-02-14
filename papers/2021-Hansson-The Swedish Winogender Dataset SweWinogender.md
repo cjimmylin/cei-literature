@@ -1,41 +1,40 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0494
 type: conferencePaper
-short_title: The Swedish Winogender Dataset (SweWinogender)
-year: 2021
+short_title: "The Swedish Winogender Dataset (SweWinogender)"
+year: 2025
 first_author: "[[Saga Hansson]]"
 last_author: "[[Dana Dannells]]"
-authors: Saga Hansson, Konstantinos Mavromatakis, Yvonne Adesam, Gerlof Bouma, Dana Dannells
+authors: "Saga Hansson, Konstantinos Mavromatakis, Yvonne Adesam, Gerlof Bouma, Dana Dannells"
 url: "https://aclanthology.org/2021.nodalida-main.52/"
-publication: NoDaLiDa 2021
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://aclanthology.org/2021.nodalida-main.52.pdf"
+publication: "NoDaLiDa 2021"
+local_pdf: "[[PDFs/2021/2021-Hansson-The Swedish Winogender Dataset SweWinogender.pdf]]"
+pdf_extract: "PDF Extracts/2021/2021-Hansson-The Swedish Winogender Dataset SweWinogender.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Swedish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Swedish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://spraakbanken.gu.se/en/resources/swewinogender"
 tags: 
-abstract:
+abstract: 
 research_topic: "Machine Learning"
 ---
 # The Swedish Winogender Dataset (SweWinogender)

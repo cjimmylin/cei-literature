@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,8 +17,8 @@ local_pdf: "[[PDFs/2025/2025-Jiao-LLM Ethics Benchmark.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2505.00853.pdf"
 publication: "Scientific Reports"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Establishes a 3D assessment framework (foundational principles, reasoning robustness, value consistency) to evaluate LLM moral reasoning"
@@ -29,7 +26,7 @@ significance: "Provides precise metric quantification for ethical strengths and 
 pdf_extract: "PDF Extracts/2025/2025-Jiao-LLM Ethics Benchmark.md"
 abstract: "This study establishes a novel framework for systematically evaluating the moral reasoning capabilities of large language models (LLMs) as they increasingly in- tegrate into critical societal domains. Current assessment methodologies lack the precision needed to evaluate nuanced ethical decision-making in AI systems, cre- ating significant accountability gaps. Our framework addresses this challenge by quantifying alignment with human ethical standards through three dimen- sions: foundational mor"
 paper_summary: "Abstract: This study establishes a novel framework for systematically evaluating the moral reasoning capabilities of large language models (LLMs) as they increasingly in- tegrate into critical societal domains. | Overview: LLM Ethics Benchmark A Three-Dimensional Assessment System for Evaluating Moral Reasoning in Large Language Models Junfeng Jiao Urban Information Lab The University of Texas at Austin jjiao@austin.ute | Key Findings: parameters. Third, we have established a standardized methodology for processing responses that extracts both numerical scores and reasoning text from"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: No

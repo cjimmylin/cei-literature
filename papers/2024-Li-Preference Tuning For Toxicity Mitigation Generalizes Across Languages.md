@@ -1,37 +1,35 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0443
 type: preprint
-short_title: Preference Tuning For Toxicity Mitigation Generalizes Across Languages
-year: 2024
+short_title: "Preference Tuning For Toxicity Mitigation Generalizes Across Languages"
+year: 2025
 first_author: "[[Xiaochen Li]]"
 last_author: "[[Stephen Bach]]"
-authors: Xiaochen Li, Zheng Xin Yong, Stephen Bach
+authors: "Xiaochen Li, Zheng Xin Yong, Stephen Bach"
 url: "https://arxiv.org/abs/2406.16235"
 external_pdf: "https://arxiv.org/pdf/2406.16235.pdf"
-publication: arXiv / ACL Anthology
+publication: "arXiv / ACL Anthology"
 local_pdf: "[[PDFs/2024/2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "17 languages including French"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "mGPT-1.3B, BLOOM-1.7B, BLOOM-7.1B, Llama2-7B, Llama3-8B, Aya-23-8B"
 DATA_URL: "https://github.com/BatsResearch/cross-lingual-detox"

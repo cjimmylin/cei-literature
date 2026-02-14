@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,29 +7,29 @@ key: LSRC0712
 type: conferencePaper
 short_title: "Structured Moral Reasoning in Language Models: A Value- ..."
 year: 2025
-first_author: "[[Sakhadib]]"
-last_author: "[[Sakhadib]]"
+first_author: [[Sakhadib]]
+last_author: [[Sakhadib]]
 authors: Sakhadib
 url: "https://aclanthology.org/2025.emnlp-main.1541.pdf"
 external_pdf: "https://arxiv.org/pdf/2506.14948v1.pdf"
-publication: ACL Anthology
+publication: "ACL Anthology"
 local_pdf: "[[PDFs/2025/2025-Sakhadib-Structured Moral Reasoning in Language Models A Value- ....pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Sakhadib-Structured Moral Reasoning in Language Models A Value- ....md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Arabic"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Arabic
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

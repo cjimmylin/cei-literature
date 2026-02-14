@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "Tucano: Advancing Neural Text Generation for Portuguese"
 year: 2025
 first_author: "[[Nicholas Kluge Corrêa]]"
 last_author: "[[Sophia Falk]]"
-authors: Nicholas Kluge Corrêa, Sophia Falk, et al.
+authors: "Nicholas Kluge Corrêa, Sophia Falk, et al."
 url: "https://arxiv.org/abs/2411.07854"
 external_pdf: "https://arxiv.org/pdf/2411.07854.pdf"
 local_pdf: "[[PDFs/2025/2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese.md"
-publication: arXiv / Patterns (Cell Press)
+publication: "arXiv / Patterns (Cell Press)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Brazilian"
-languages_list: "Portuguese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Brazilian
+languages_list: Portuguese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "Not specified"
 LLM_assessed: 

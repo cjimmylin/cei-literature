@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0326
 type: preprint
 short_title: "Multilingual Blending: LLM Safety Alignment Evaluation with Language Mixture"
-year: 2024
+year: 2025
 first_author: "[[Multiple authors]]"
 last_author: "[[Multiple authors]]"
-authors: Multiple authors
+authors: "Multiple authors"
 url: "https://arxiv.org/abs/2407.07342"
 external_pdf: "https://arxiv.org/pdf/2407.07342.pdf"
 local_pdf: "[[PDFs/2024/2024-authors-Multilingual Blending LLM Safety Alignment Evaluation with Language.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-authors-Multilingual Blending LLM Safety Alignment Evaluation with Language.md"
-publication: arXiv / NAACL Findings 2025
+publication: "arXiv / NAACL Findings 2025"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Multiple including Russian, Bulgarian, Polish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 LLM_assessed: 

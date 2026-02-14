@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,10 +12,10 @@ last_author: "[[Jing Shao]]"
 authors: "Lijun Li; Zhelun Shi; Xuhao Hu; Bowen Dong; Yiran Qin; Xihui Liu; Lu Sheng; Jing Shao"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/E7EZLTEZ/Li et al. - T2ISafety Benchmark for Assessing Fairness, Toxicity, and Privacy in Image Generation.pdf"
 pdf_extract: [[2025-Li-T2ISafety]]
-local_pdf: "[[PDFs/2025/2025-Li-T2ISafety.pdf]]"
+local_pdf: [[PDFs/2025/2025-Li-T2ISafety.pdf]]
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Released T2ISafety, a benchmark for assessing fairness, toxicity, and privacy in Text-to-Image models, revealing risks that even GPT-based evaluators miss."

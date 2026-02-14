@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0256
 type: preprint
 short_title: "K-Viscuit: Evaluating Visual and Cultural Interpretation with Human-VLM Collaboration"
-year: 2024
+year: 2025
 first_author: "[[Donghyun Baek]]"
 last_author: "[[Jonghwan Hyeon]]"
-authors: Donghyun Baek, Sangwon Park, Donghyeon Jeon, Yohan Choi, Jonghwan Hyeon
+authors: "Donghyun Baek, Sangwon Park, Donghyeon Jeon, Yohan Choi, Jonghwan Hyeon"
 doi: 10.18653/v1/2025.acl-long.1066
 url: "https://arxiv.org/abs/2406.16469"
 external_pdf: "https://arxiv.org/pdf/2406.16469.pdf"
 local_pdf: "[[PDFs/2024/2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.md"
-publication: arXiv / ACL 2025
+publication: "arXiv / ACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Korean, Multicultural/Cross-cultural"
-languages_list: "Korean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+languages_list: Korean
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark annotated dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: 

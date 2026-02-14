@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,26 +9,26 @@ short_title: "compar:IA: The French Government's LLM arena to collect French-lan
 year: 2025
 first_author: "[[French Ministry of Culture team]]"
 last_author: "[[French Ministry of Culture team]]"
-authors: French Ministry of Culture team
+authors: "French Ministry of Culture team"
 url: "https://arxiv.org/abs/2602.06669"
 external_pdf: "https://arxiv.org/pdf/2602.06669.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-team-comparIA The French Government's LLM arena to collect French-language.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-team-comparIA The French Government's LLM arena to collect French-language.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "French"
-languages_list: "French"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: French
+languages_list: French
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety dataset for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: "multiple LLMs"

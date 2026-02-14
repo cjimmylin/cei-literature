@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.48550/arXiv.2407.17436
 url: "http://arxiv.org/abs/2407.17436"
 external_pdf: "http://arxiv.org/pdf/2407.17436.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Created AIR-Bench 2024, a safety benchmark aligned with 8 government regulations and 16 company policies, categorized into a four-tiered taxonomy of 314 risk categories."

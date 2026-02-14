@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,32 +9,32 @@ short_title: "SENSE-7: Taxonomy and Dataset for Measuring User Perceptions of Em
 year: 2025
 first_author: "[[Jina Suh]]"
 last_author: "[[Javier Hernandez]]"
-authors: Jina Suh; Lindy Le; Erfan Shayegani; Gonzalo Ramos; Judith Amores; Desmond C. Ong; Mary Czerwinski; Javier Hernandez
+authors: "Jina Suh; Lindy Le; Erfan Shayegani; Gonzalo Ramos; Judith Amores; Desmond C. Ong; Mary Czerwinski; Javier Hernandez"
 url: "https://arxiv.org/abs/2509.16437"
 external_pdf: "https://arxiv.org/pdf/2509.16437.pdf"
 local_pdf: "[[PDFs/2025/2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Empathy is increasingly recognized as a key factor in human–AI communication, yet conventional approaches to “digital empathy” often focus on simulating internal, humanlike emotional states while overlooking the inherently subjective, contextual, and relational facets of empathy as perceived by users. In this work, we propose a human-centered taxonomy that emphasizes observable empathic behaviors and introduce a new dataset, SENSE-7, of real-world conversations between information workers and..."
 research_topic: "Machine Learning"
 data_description: "Evaluation approach dataset for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # SENSE-7: Taxonomy and Dataset for Measuring User Perceptions of Empathy in Sustained Human-AI Conversations
 

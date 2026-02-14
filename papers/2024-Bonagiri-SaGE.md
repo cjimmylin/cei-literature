@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2402.13709"
 external_pdf: "http://arxiv.org/pdf/2402.13709.pdf"
 publication: "International Conference on Language Resources and Evaluation"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed Semantic Graph Entropy (SaGE), a metric based on abstract 'Rules-of-Thumb' (RoTs), to evaluate the moral consistency of LLM generations."
@@ -27,8 +25,8 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Bonagiri-SaGE.md"
 abstract: "Despite recent advancements showcasing the impressive capabilities of Large Language Models (LLMs) in conversational systems, we show that even state-of-the-art LLMs are morally inconsistent in their generations, questioning their reliability (and trustworthiness in general). Prior works in LLM evaluation focus on developing ground-truth data to measure accuracy on specific tasks. However, for moral scenarios that often lack universally agreed-upon answers, consistency in model responses becomes"
 paper_summary: "Abstract: Despite recent advancements showcasing the impressive capabilities of Large Language Models (LLMs) in conversational systems, we show that even state-of-the-art LLMs are morally inconsistent in their  | Overview: SaGE: Evaluating Moral Consistency in Large Language Models Vamshi Krishna Bonagiri1,2, Sreeram Vennam1, Priyanshul Govil1,2 Ponnurangam Kumaraguru1, Manas Gaur2 1International Institute of Informatio | Methodology: to sampling-based generation. It is used to alter the probability distribution of a model’s output, with temperature as a parameter (Holtzman et al.,  | Key Findings: practices for generated text. Journal of Artificial Intelligence Research, 77:103–166. --- Page 11 --- Anmol Goel, Charu Sharma, and Ponnurangam Kumar | Conclusions: In this work, we introduce a novel framework to evaluate the moral consistency of LLMs. We in- troduce SaGE, a new information-theoretic metric, groun"
-local_pdf: "[[PDFs/2024/2024-Bonagiri-SaGE.pdf]]"
-ethics_overall: Yes
+local_pdf: "[[PDFs/2024-Bonagiri-SaGE.pdf]]"
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

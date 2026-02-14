@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ local_pdf: "[[PDFs/2022/2022-Fraser-Does Moral Code Have a Moral Code.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2205.12771.pdf"
 publication: TRUSTNLP
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Probes the Delphi model with standardized morality questionnaires to check for consistent higher-level ethical principles"
@@ -37,7 +35,7 @@ is_eval: No
 is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: "T5"
+LLM_assessed: T5
 DATA_URL: "https://svkir.com/projects/moralQ.html"
 ---
  Does Moral Code Have a Moral Code? Probing Delphi's Moral Philosophy

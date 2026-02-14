@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1145/3593013.3594049
 url: "https://dl.acm.org/doi/10.1145/3593013.3594049"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/GRACZJJQ/Andrus and others - 2023 - Augmented Datasheets for Speech Datasets and Ethical Decision-Making.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Machine Ethics"
 key_contribution: "Proposed 'augmented datasheets' for speech datasets including new fields for speaker demographics and ethical considerations, specifically for speech technology."
@@ -34,7 +32,7 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/SonyResearch/project_ethics_augmented_datasheets_for_speech_datasets"
 pdf_extract: "PDF Extracts/2023/2023-Andrus-Augmented Datasheets for Speech Datasets and.md"
 local_pdf: "[[PDFs/2023/2023-Andrus-Augmented Datasheets for Speech Datasets and.pdf]]"

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,8 +7,8 @@ key: LSRC0709
 type: journalArticle
 short_title: "LLM ethics benchmark: a three-dimensional assessment system for evaluating moral reasoning in large language models"
 year: 2025
-first_author: "[[Version]]"
-last_author: "[[Version]]"
+first_author: [[Version]]
+last_author: [[Version]]
 authors: Version
 url: "https://www.nature.com/articles/s41598-025-18489-7"
 external_pdf: "https://arxiv.org/pdf/2505.00853v1.pdf"
@@ -17,20 +16,20 @@ publication: Nature
 local_pdf: "[[PDFs/2025/2025-Version-LLM ethics benchmark a three-dimensional assessment system for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Version-LLM ethics benchmark a three-dimensional assessment system for.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Arabic, Chinese, English, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

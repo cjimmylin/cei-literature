@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,14 +7,14 @@ key: ZBZC7GIZ
 type: document
 short_title: "HelpSteer: A-i Alignment Dataset"
 year: 2025
-first_author: "[[TheDevastator]]"
-last_author: "[[TheDevastator]]"
+first_author: [[TheDevastator]]
+last_author: [[TheDevastator]]
 authors: TheDevastator
 url: "https://www.kaggle.com/datasets/thedevastator/helpsteer-ai-alignment-dataset"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/HBU2KS8B/TheDevastator - 2023 - HelpSteer A-i Alignment Dataset.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Released HelpSteer, an open-source dataset for training reward models in RLHF, containing prompts and responses annotated for helpfulness, truthfulness, and safety."
@@ -33,8 +31,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.md"
 local_pdf: "[[PDFs/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.pdf]]"
 ---

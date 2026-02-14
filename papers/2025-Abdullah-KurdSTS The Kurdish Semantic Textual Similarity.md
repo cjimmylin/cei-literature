@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "KurdSTS: The Kurdish Semantic Textual Similarity"
 year: 2025
 first_author: "[[Abdulhady Abas Abdullah]]"
-last_author: "[[Unknown]]"
-authors: Abdulhady Abas Abdullah; Hadi Veisi; Hussein M. Al
+last_author: [[Unknown]]
+authors: "Abdulhady Abas Abdullah; Hadi Veisi; Hussein M. Al"
 url: "https://arxiv.org/abs/2510.02336"
 external_pdf: "https://arxiv.org/pdf/2510.02336.pdf"
 local_pdf: "[[PDFs/2025/2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Kurdish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Kurdish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "[[Ju, Chengyi]]; [[Shi, Weijie]]; [[Liu, Chengzhong]]; [[Ji, Jiaming]]
 url: "https://aclanthology.org/2025.findings-acl.1028/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5RMIU8JW/2025 - NaVAB Benchmarking Multi-National Value Alignment for Large Language Models.pdf"
 national_ethnic_cultural: "Chinese, French, German, American"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Chinese, French, German, American, AI Safety & Alignment"
 key_contribution: "Introduced NaVAB, a benchmark for multi-national value alignment across 5 nations (CN, US, UK, FR, DE), extracting values from policy/legal documents."
@@ -36,7 +34,7 @@ data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Qwen, Mixtral, DeepSeek, GPT-4, Claude"
 DATA_URL: "https://huggingface.co/datasets/JadenGGGeee/NaVAB"
 pdf_extract: "PDF Extracts/2025/2025-Ju-NaVAB.md"
-local_pdf: "[[PDFs/2025/2025-Ju-NaVAB.pdf]]"
+local_pdf: [[PDFs/2025/2025-Ju-NaVAB.pdf]]
 ---
 # NaVAB: Benchmarking Multi-National Value Alignment for Large Language Models
 

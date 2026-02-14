@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,36 +6,36 @@ Not AI:
 key: EXSR0565
 type: preprint
 short_title: "Nothing New Under the Sun The"
-year: 2023
+year: 2025
 first_author: "[[Elrod, A. G.]]"
 last_author: "[[Elrod, A. G.]]"
 authors: "[[A. G. Elrod]]"
 authors_incomplete: false
-url: ""
+url: 
 external_pdf: "https://arxiv.org/pdf/1307.6941v1.pdf"
 local_pdf: "[[PDFs/2023/2023-Elrod-Nothing New Under the Sun The.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Elrod-Nothing New Under the Sun The.md"
-publication: HIPHIL Novum, 8(2), 1--32
+publication: "HIPHIL Novum, 8(2), 1--32"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Hebrew/Israeli"
-religious_values: "Christianity"
-religious_values_list: "Christianity"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Hebrew/Israeli
+religious_values: Christianity
+religious_values_list: Christianity
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "Summary: Investigates GPT's capabilities in biblical studies across three categories: knowledge retrieval/language understanding, generative modeling/creative problem solving, and command interpretation/query parsing. Demonstrates both limitations and proficiencies for Biblical Hebrew NLP."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
-research_topic: "Other"
+LLM_assessed: NA
+DATA_URL: 
+research_topic: Other
 ---
 # Nothing New Under the Sun? The Study of Biblical Hebrew in the Era of Generative Pre-trained AI
 

@@ -1,15 +1,12 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0149
 type: preprint
-short_title: COMPL-AI (EU AI Act Compliance)
-year: 2024
+short_title: "COMPL-AI (EU AI Act Compliance)"
+year: 2025
 first_author: "[[Guldimann, Philipp]]"
 last_author: "[[Vechev, Martin]]"
 authors: "[[Guldimann, Philipp]]; [[Spiridonov, Alexander]]; [[Staab, Robin]]; [[Jovanović, Nikola]]; [[Vero, Mark]]; [[Vechev, Velko]]; [[Gueorguieva, Anna-Maria]]; [[Balunović, Mislav]]; [[Konstantinov, Nikola]]; [[Bielik, Pavol]]; [[Tsankov, Petar]]; [[Vechev, Martin]]"
@@ -18,20 +15,20 @@ url: "https://arxiv.org/abs/2410.07959"
 external_pdf: "https://arxiv.org/pdf/2410.07959.pdf"
 local_pdf: "[[PDFs/2024/2024-Guldimann-COMPL-AI EU AI Act Compliance.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Guldimann-COMPL-AI EU AI Act Compliance.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "The EU’s Artificial Intelligence Act (AI Act) is a significant step towards responsible AI development, but lacks clear technical interpretation, making it difficult to assess models’ compliance. This work presents COMPL-AI, a comprehensive framework consisting of (i) the first technical interpretation of the EU AI Act, translating its broad regulatory requirements into measurable technical requirements, with the focus on large language models (LLMs), and (ii) an open-source Act-centered..."
 ethics_perspective: "AI Safety & Alignment"

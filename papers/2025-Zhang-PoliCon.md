@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,32 +9,32 @@ short_title: PoliCon
 year: 2025
 first_author: "[[Zhaowei Zhang]]"
 last_author: "[[Yaodong Yang]]"
-authors: Zhaowei Zhang; Xiaobo Wang; Minghua Yi; Mengmeng Wang; Fengshuo Bai; Zilong Zheng; Yipeng Kang; Yaodong Yang
+authors: "Zhaowei Zhang; Xiaobo Wang; Minghua Yi; Mengmeng Wang; Fengshuo Bai; Zilong Zheng; Yipeng Kang; Yaodong Yang"
 url: "https://arxiv.org/abs/2505.19558"
 external_pdf: "https://arxiv.org/pdf/2505.19558.pdf"
-local_pdf: "[[PDFs/2025/2025-Zhang-PoliCon.pdf]]"
+local_pdf: "[[PDFs/2025-Zhang-PoliCon.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhang-PoliCon.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
-abstract:
-research_topic: "Other"
-data_description: "N/A"
+abstract: 
+research_topic: Other
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Gemini, Qwen, Llama-3, DeepSeek"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Borderline
 ---
 # PoliCon

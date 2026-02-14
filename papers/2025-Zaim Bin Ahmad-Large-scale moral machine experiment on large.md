@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +15,8 @@ url: "https://dx.plos.org/10.1371/journal.pone.0322776"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/D7GUWN8N/Zaim Bin Ahmad and Takemoto - 2025 - Large-scale moral machine experiment on large language models.pdf"
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Trolley / Dilemmas (Psych), AI Safety & Alignment"
 key_contribution: "Replicated the Moral Machine Experiment on 52 LLMs using Conjoint Analysis, finding that larger models (10B+) align more closely with human utilitarian preferences."

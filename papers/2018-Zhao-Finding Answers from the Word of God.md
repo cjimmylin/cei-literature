@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1109/IJCNN.2018.8489756
 url: "http://arxiv.org/abs/1810.12118"
 external_pdf: "http://arxiv.org/pdf/1810.12118.pdf"
 national_ethnic_cultural: N/A
-religious_values: "Christianity"
-religious_values_list: "Christianity"
+religious_values: Christianity
+religious_values_list: Christianity
 moral_psychology: N/A
 newtags: Christianity
 tags: 
@@ -35,7 +33,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/helen-jiahe-zhao/BibleQA"
 ---
 # Finding Answers from the Word of God: Domain Adaptation for Neural Networks in Biblical Question Answering

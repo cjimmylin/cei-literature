@@ -1,6 +1,4 @@
 ---
-
-
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Chinese Role Playing Personas"
@@ -13,11 +11,11 @@ first_author: "[[Quan Tu]]"
 last_author: "[[Rui Yan]]"
 authors: "Quan Tu; Shilong Fan; Zihang Tian; Rui Yan"
 url: "https://arxiv.org/abs/2401.01275"
-local_pdf: "[[PDFs/2024/2024-Tu-CharacterEval.pdf]]"
+local_pdf: [[PDFs/2024/2024-Tu-CharacterEval.pdf]]
 external_pdf: "https://arxiv.org/pdf/2401.01275.pdf"
 national_ethnic_cultural: Chinese
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Chinese, Virtue Ethics"
 key_contribution: "Introduces CharacterEval, a comprehensive Chinese benchmark for evaluating Role-Playing Conversational Agents across four dimensions"

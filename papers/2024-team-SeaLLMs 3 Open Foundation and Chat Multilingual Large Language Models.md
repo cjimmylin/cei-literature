@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0084
 type: preprint
 short_title: "SeaLLMs 3: Open Foundation and Chat Multilingual Large Language Models for Southeast Asian Languages"
-year: 2024
+year: 2025
 first_author: "[[DAMO Academy / Alibaba team]]"
 last_author: "[[DAMO Academy / Alibaba team]]"
-authors: DAMO Academy / Alibaba team
+authors: "DAMO Academy / Alibaba team"
 url: "https://arxiv.org/abs/2407.19672"
 external_pdf: "https://arxiv.org/pdf/2407.19672.pdf"
 local_pdf: "[[PDFs/2024/2024-team-SeaLLMs 3 Open Foundation and Chat Multilingual Large Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-team-SeaLLMs 3 Open Foundation and Chat Multilingual Large Language Models.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Chinese, Indonesian, Filipino, Thai, Vietnamese"
 languages_list: "Burmese, Chinese, Indonesian, Khmer, Lao, Thai, Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
 LLM_assessed: 

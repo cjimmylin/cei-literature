@@ -1,36 +1,35 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0607
 type: preprint
-short_title: Exploring NLP Benchmarks in an Extremely Low-Resource Setting
+short_title: "Exploring NLP Benchmarks in an Extremely Low-Resource Setting"
 year: 2025
 first_author: "[[Ulin Nuha]]"
-last_author: "[[Unknown]]"
-authors: Ulin Nuha; Adam Jatowt
+last_author: [[Unknown]]
+authors: "Ulin Nuha; Adam Jatowt"
 url: "https://arxiv.org/html/2509.03962v1"
 external_pdf: "https://arxiv.org/pdf/2509.03962.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Multilingual
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

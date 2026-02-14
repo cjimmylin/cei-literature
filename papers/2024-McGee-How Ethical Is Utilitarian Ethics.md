@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4731871"
 external_pdf: "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4731871_code2139.pdf"
 publication: SSRN
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: Yes
 newtags: "Utilitarianism, AI Chatbots, Ethical Critique, Deontology, Virtue Ethics"
 key_contribution: "Identifies structural weaknesses of utilitarian ethics through comparative analysis of AI chatbot responses (Microsoft Copilot vs Gab AI)"
@@ -37,8 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Comparative analysis of two AI chatbot responses to utilitarian ethics questions"
 data_metrics: "Qualitative philosophical analysis"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # How Ethical Is Utilitarian Ethics? A Study in Artificial Intelligence
 

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "http://arxiv.org/abs/2410.07826"
 external_pdf: "http://arxiv.org/pdf/2410.07826.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "Jainism"
-religious_values_list: "Jainism"
+religious_values: Jainism
+religious_values_list: Jainism
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Investigated LLM performance on *ambiguous* ethical scenarios (using Scruples/DILEMMAS datasets), finding that fine-tuning improves alignment but models still lag behind BERT baselines in identifying ambiguity."
@@ -39,7 +37,7 @@ is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama-3, Mistral"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Fine-Tuning Language Models for Ethical Ambiguity: A Comparative Study of Alignment with Human Responses
 

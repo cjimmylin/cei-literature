@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,8 +12,8 @@ last_author: "[[Orestis Papakyriakopoulos]]"
 authors: "Dalia Ali; Aysenur Kocak; Michèle Wieland; Dora Zhao; Allison Koenecke; Orestis Papakyriakopoulos"
 url: "https://openreview.net/forum?id=JH9xhvSr4q"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Focuses on curating training data to ensure diverse ('pluralistic') value representation."
@@ -33,8 +31,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Ali-Data Curation for Pluralistic Alignment.md"
 local_pdf: "[[PDFs/2025/2025-Ali-Data Curation for Pluralistic Alignment.pdf]]"
 ---

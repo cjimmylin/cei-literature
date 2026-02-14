@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: N/A
 url: "https://openreview.net/"
 local_pdf: "[[PDFs/2025/2025-El Masri-Towards Attuned AI.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Argues for integrating care ethics into LLM alignment to address the limitations of RLHF, which often overlooks emotional and relational dimensions of human values"
@@ -34,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Towards Attuned AI: Integrating Care Ethics in Large Language Model Development and Alignment
 

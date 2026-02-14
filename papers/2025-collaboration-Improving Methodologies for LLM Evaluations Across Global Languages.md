@@ -1,43 +1,41 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0445
 type: preprint
-short_title: Improving Methodologies for LLM Evaluations Across Global Languages
+short_title: "Improving Methodologies for LLM Evaluations Across Global Languages"
 year: 2025
 first_author: "[[INESIA (Singapore AISI-led international collaboration)]]"
 last_author: "[[INESIA (Singapore AISI-led international collaboration)]]"
-authors: INESIA (Singapore AISI-led international collaboration)
+authors: "INESIA (Singapore AISI-led international collaboration)"
 url: "https://arxiv.org/abs/2601.15706"
 external_pdf: "https://arxiv.org/pdf/2601.15706.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Cantonese, English, Farsi, French, Japanese, Kiswahili, Korean, Malay, Mandarin Chinese, Telugu"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "2 open-weight models"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
-abstract:
-research_topic: "Other"
+abstract: 
+research_topic: Other
 ---
 # Improving Methodologies for LLM Evaluations Across Global Languages
 

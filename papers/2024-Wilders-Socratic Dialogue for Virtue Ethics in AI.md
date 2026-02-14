@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,12 +9,12 @@ short_title: "Socratic Dialogue for Virtue Ethics in AI"
 year: 2025
 first_author: "[[Maarten Wilders]]"
 last_author: "[[Roel Dobbe]]"
-authors: Maarten Wilders; Inigo Martinez de Rituerto de Troya; Roel Dobbe
+authors: "Maarten Wilders; Inigo Martinez de Rituerto de Troya; Roel Dobbe"
 url: "https://ojs.aaai.org/index.php/AIES/article/view/36748"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
@@ -33,9 +31,9 @@ is_benchmark: No
 is_eval: No
 is_dataset: No
 data_description: 
-data_metrics:
-LLM_assessed: "NA"
-DATA_URL: "NA"
+data_metrics: 
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Socratic Dialogue for Virtue Ethics in AI
 

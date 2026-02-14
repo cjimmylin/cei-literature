@@ -1,36 +1,33 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0082
 type: conferencePaper
-short_title: MSLR-Bench (Multi-Step Legal Reasoning)
+short_title: "MSLR-Bench (Multi-Step Legal Reasoning)"
 year: 2025
 first_author: "[[Wenhan Yu]]"
 last_author: "[[Lei Sha]]"
-authors: Wenhan Yu, Xinbo Lin, Lanxin Ni, Jinhua Cheng, and Lei Sha
+authors: "Wenhan Yu, Xinbo Lin, Lanxin Ni, Jinhua Cheng, and Lei Sha"
 url: "https://arxiv.org/abs/2511.07979"
 external_pdf: "https://arxiv.org/pdf/2511.07979.pdf"
 local_pdf: "[[PDFs/2025/2025-Yu-MSLR-Bench Multi-Step Legal Reasoning.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yu-MSLR-Bench Multi-Step Legal Reasoning.md"
-publication: AAAI 2026
+publication: "AAAI 2026"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "As large language models (LLMs) exhibit advanced reasoning capabilities in different specialized domains, their application to legal reasoning tasks is actively being explored. The pursuit of justice in legal contexts demands not only correct outcomes but also reasoned elaboration, which necessitates deriving conclusions through logically justified and transparent argumentation. Current legal benchmarks, despite being cited as reasoning-focused, suffer from three critical limitations:..."
 ethics_perspective: "Hallucination & Truthfulness"

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0101
 type: preprint
 short_title: "Cracking the Code: Multi-domain LLM Evaluation on Real-World Professional Exams in Indonesia"
-year: 2024
+year: 2025
 first_author: "[[Fajri Koto]]"
-last_author: "[[Unknown]]"
-authors: Fajri Koto
+last_author: [[Unknown]]
+authors: "Fajri Koto"
 url: "https://arxiv.org/abs/2409.08564"
 external_pdf: "https://arxiv.org/pdf/2409.08564.pdf"
 local_pdf: "[[PDFs/2024/2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World.md"
-publication: arXiv / ACL Anthology (NAACL 2025)
+publication: "arXiv / ACL Anthology (NAACL 2025)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indonesian"
-languages_list: "Indonesian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indonesian
+languages_list: Indonesian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

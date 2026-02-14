@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,8 +8,8 @@ type: conferencePaper
 short_title: "Cross-lingual Capsule Network for Hate Speech Detection in Social Media | Proceedings of the 32nd ACM Conference on Hypertext and Social Media"
 year: 2025
 first_author: "[[Aiqi Jiang]]"
-last_author: "[[Unknown]]"
-authors: Aiqi Jiang; Arkaitz Zubiaga
+last_author: [[Unknown]]
+authors: "Aiqi Jiang; Arkaitz Zubiaga"
 doi: 10.1145/3465336.3475102
 url: "https://dl.acm.org/doi/10.1145/3465336.3475102"
 external_pdf: "https://arxiv.org/pdf/2108.03089"
@@ -18,20 +17,20 @@ publication: ACM
 local_pdf: "[[PDFs/2025/2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "English, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: false
 Not AI: 
 key: AUTO_HAYES2024
@@ -14,8 +12,8 @@ doi: 10.1007/s43681-024-00472-z
 url: "https://link.springer.com/article/10.1007/s43681-024-00472-z"
 local_pdf: "[[PDFs/2024/2024-Hayes-Virtue and Narrative in AI Practices.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Virtue Ethics, Narrative Ethics, MacIntyre, Ricoeur, AI Ethics"
 key_contribution: "Proposes narrative and virtue-based ethics (VPD - Virtuous Practice Design) as foundation for AI ethics, building on MacIntyre and Ricoeur"
@@ -32,8 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # From applied ethics and ethical principles to virtue and narrative in AI practices
 

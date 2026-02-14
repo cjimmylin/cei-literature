@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,29 +6,29 @@ Not AI:
 key: LSRC0548
 type: conferencePaper
 short_title: "Pre-training Data Quality and Quantity for a Low-Resource Language: New Corpus and BERT Models for Maltese"
-year: 2022
+year: 2025
 first_author: "[[Kurt Micallef]]"
 last_author: "[[Albert Gatt]]"
-authors: Kurt Micallef, Albert Gatt et al.
+authors: "Kurt Micallef, Albert Gatt et al."
 url: "https://aclanthology.org/2022.deeplo-1.10/"
 external_pdf: "https://arxiv.org/pdf/2205.10517.pdf"
-publication: ACL Anthology / DeepLo 2022
+publication: "ACL Anthology / DeepLo 2022"
 local_pdf: "[[PDFs/2022/2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Maltese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Maltese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, mBERT"

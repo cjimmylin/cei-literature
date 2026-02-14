@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +8,28 @@ type: preprint
 short_title: "Enhancing Cross-Lingual Transfer through Reversible Transliteration: A Huffman-Based Approach for Low-Resource Languages"
 year: 2025
 first_author: "[[Wenhao Zhuang]]"
-last_author: "[[Unknown]]"
-authors: Wenhao Zhuang; Yuan Sun; Xiaobing Zhao
+last_author: [[Unknown]]
+authors: "Wenhao Zhuang; Yuan Sun; Xiaobing Zhao"
 url: "https://arxiv.org/html/2509.17493"
 external_pdf: "https://arxiv.org/pdf/2509.17493.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Kyrgyz, Mongolian, Multilingual, Tibetan, Uyghur"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

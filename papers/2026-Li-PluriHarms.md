@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,29 +6,29 @@ Not AI:
 key: EXSR0010
 type: preprint
 short_title: PluriHarms
-year: 2026
+year: 2025
 first_author: "[[Li, Jing-Jing]]"
 last_author: "[[Levine, Sydney]]"
 authors: "[[Li, Jing-Jing]]; [[Mire, Joel]]; [[Fleisig, Eve]]; [[Pyatkin, Valentina]]; [[Collins, Anne]]; [[Sap, Maarten]]; [[Levine, Sydney]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.08951"
 external_pdf: "https://arxiv.org/pdf/2601.08951.pdf"
-local_pdf: "[[PDFs/2026/2026-Li-PluriHarms.pdf]]"
+local_pdf: "[[PDFs/2026-Li-PluriHarms.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Li-PluriHarms.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "Current AI safety frameworks, which often treat harmfulness as binary, lack the flexibility to handle borderline cases where humans meaningfully disagree. To build more pluralistic systems, it is essential to move beyond consensus and instead understand where and why disagreements arise. We introduce PLURIHARMS, a benchmark designed to systematically study human harm judgments across two key dimensions—the harm axis (benign to harmful) and the agreement axis (agreement to disagreement)."
 ethics_perspective: "AI Safety & Alignment"

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,30 +9,30 @@ short_title: "An Empirical Investigation of Gender Stereotype Representation in 
 year: 2025
 first_author: "[[Gioele Giachino]]"
 last_author: "[[Gioele Giachino]]"
-authors: Gioele Giachino et al.
+authors: "Gioele Giachino et al."
 url: "https://arxiv.org/abs/2507.19156"
 external_pdf: "https://arxiv.org/pdf/2507.19156.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Giachino-An Empirical Investigation of Gender Stereotype Representation in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Giachino-An Empirical Investigation of Gender Stereotype Representation in.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Italian"
-languages_list: "Italian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Italian
+languages_list: Italian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4o-mini, Gemini-1.5-flash"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "The increasing use of Large Language Models (LLMs) in a large variety of domains has sparked worries about how easily they can perpetuate stereotypes and contribute to the generation of biased content. With a focus on gender and professional bias, this work examines in which manner LLMs shape responses to ungendered prompts, contributing to biased outputs. This analysis uses a structured experimental method, giving different prompts involving three different professional job combinations, which..."
 ethics_perspective: "Bias & Fairness"

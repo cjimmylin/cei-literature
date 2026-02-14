@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,35 +6,35 @@ Not AI:
 key: EXSR0535
 type: preprint
 short_title: "Transformer-based Pouranic Topic Classification in Indian"
-year: 2024
+year: 2025
 first_author: "[[(Published in Sadhana journal, 2024]]"
 last_author: "[[search), specific author names not confirmed via]]"
 authors: "[[(Published in Sadhana journal, 2024]]; [[specific author names not confirmed via search)]]"
 authors_incomplete: false
-url: ""
-external_pdf: ""
-local_pdf: "N/A"
-pdf_extract: ""
-publication: Sadhana (Indian Academy of Sciences)
+url: 
+external_pdf: 
+local_pdf: N/A
+pdf_extract: 
+publication: "Sadhana (Indian Academy of Sciences)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 tags: 
 abstract: "> Introduces PouranicTopic dataset of 200K+ annotated verses from 7 major Hindu Puranas. Evaluates BERT, RoBERTa, and DistilBERT for topic classification. Creates additional similarity-based and log-likelihood-based datasets via sentence clustering. Major Hindu mythology AI resource."
-data_description: "Dataset"
+data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 research_topic: "NLP & Representation Learning"
 ---
 # Transformer-based Pouranic Topic Classification in Indian Mythology (PouranicTopic Dataset)

@@ -1,35 +1,34 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0173
 type: preprint
-short_title: Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias in Low-Resource Bengali
-year: 2026
+short_title: "Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias in Low-Resource Bengali"
+year: 2025
 first_author: "[[Md Asgor Hossain Reaj]]"
-last_author: "[[Unknown]]"
-authors: Md Asgor Hossain Reaj; Rajan Das Gupta; Jui Saha Pritha; Abdullah Al Noman; Abir Ahmed; Golam Md Mohiuddin; Tze Hui Liew
+last_author: [[Unknown]]
+authors: "Md Asgor Hossain Reaj; Rajan Das Gupta; Jui Saha Pritha; Abdullah Al Noman; Abir Ahmed; Golam Md Mohiuddin; Tze Hui Liew"
 url: "https://arxiv.org/abs/2601.17764"
 external_pdf: "https://arxiv.org/pdf/2601.17764.pdf"
 local_pdf: "[[PDFs/2026/2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Bengali"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Bengali
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: 

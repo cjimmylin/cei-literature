@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2312.11970"
 external_pdf: "http://arxiv.org/pdf/2312.11970.pdf"
 publication: "Humanities and Social Sciences Communications"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Surveys the landscape of LLM-empowered Agent-Based Modeling and Simulation (ABMS), covering challenges in environment perception, human alignment, and evaluation."
@@ -38,8 +36,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives
 

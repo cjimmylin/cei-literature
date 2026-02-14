@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0360
 type: preprint
 short_title: "Crossing Linguistic Horizons: Finetuning and Comprehensive Evaluation of Vietnamese Large Language Models"
-year: 2024
+year: 2025
 first_author: "[[Sang Truong]]"
 last_author: "[[Sanmi Koyejo]]"
-authors: Sang Truong, Duc Nguyen, Toan Nguyen, Dong Le, Nhi Truong, Tho Quan, Sanmi Koyejo
+authors: "Sang Truong, Duc Nguyen, Toan Nguyen, Dong Le, Nhi Truong, Tho Quan, Sanmi Koyejo"
 url: "https://aclanthology.org/2024.findings-naacl.182/"
 external_pdf: "https://arxiv.org/pdf/2403.02715.pdf"
 local_pdf: "[[PDFs/2024/2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation.md"
-publication: ACL Anthology / arXiv
+publication: "ACL Anthology / arXiv"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

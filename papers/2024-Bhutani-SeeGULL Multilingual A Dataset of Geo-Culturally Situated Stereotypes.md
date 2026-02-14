@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0288
 type: preprint
 short_title: "SeeGULL Multilingual: A Dataset of Geo-Culturally Situated Stereotypes"
-year: 2024
+year: 2025
 first_author: "[[Mukul Bhutani]]"
-last_author: "[[Unknown]]"
-authors: Mukul Bhutani; Kevin Robinson; Vinodkumar Prabhakaran; Shachi Dave; Sunipa Dev
+last_author: [[Unknown]]
+authors: "Mukul Bhutani; Kevin Robinson; Vinodkumar Prabhakaran; Shachi Dave; Sunipa Dev"
 url: "https://arxiv.org/abs/2403.05696"
 external_pdf: "https://arxiv.org/pdf/2403.05696.pdf"
 local_pdf: "[[PDFs/2024/2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes.md"
-publication: arXiv / COLM 2024
+publication: "arXiv / COLM 2024"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
+national_ethnic_cultural: N/A
 languages_list: "Arabic, Bengali, Chinese, English, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Malay, Portuguese, Russian, Spanish, Swahili, Tamil, Thai, Turkish, Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "20 languages"
 LLM_assessed: 

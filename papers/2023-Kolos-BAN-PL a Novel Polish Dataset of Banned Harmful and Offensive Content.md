@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0334
 type: preprint
 short_title: "BAN-PL: a Novel Polish Dataset of Banned Harmful and Offensive Content from Wykop.pl web service"
-year: 2023
+year: 2025
 first_author: "[[Anna Kolos]]"
 last_author: "[[Andrzej Pralat]]"
-authors: Anna Kolos, Inez Okulska, Kinga Glabinska, Agnieszka Karlinska, Emilia Wisnios, Pawel Ellerik, Andrzej Pralat
+authors: "Anna Kolos, Inez Okulska, Kinga Glabinska, Agnieszka Karlinska, Emilia Wisnios, Pawel Ellerik, Andrzej Pralat"
 url: "https://arxiv.org/abs/2308.10592"
 external_pdf: "https://arxiv.org/pdf/2308.10592.pdf"
 local_pdf: "[[PDFs/2023/2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content.md"
-publication: arXiv / LREC 2024
+publication: "arXiv / LREC 2024"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Polish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Polish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

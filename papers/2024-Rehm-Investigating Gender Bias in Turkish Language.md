@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0497
 type: preprint
 short_title: "Investigating Gender Bias in Turkish Language"
-year: 2024
+year: 2025
 first_author: "[[Orhun Caglidil, Malte Ostendorff, Georg Rehm]]"
 last_author: "[[Orhun Caglidil, Malte Ostendorff, Georg Rehm]]"
 authors: "[[Orhun Caglidil, Malte Ostendorff, Georg Rehm]]"
@@ -21,24 +17,24 @@ local_pdf: "[[PDFs/2024/2024-Rehm-Investigating Gender Bias in Turkish Language.
 pdf_extract: "PDF Extracts/2024/2024-Rehm-Investigating Gender Bias in Turkish Language.md"
 publication: arxiv.org
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Language models are trained mostly on Web data, which often contains social stereotypes and biases that the models can inherit. This has potentially negative consequences, as models can amplify these biases in downstream tasks or applications. However, prior research has primarily focused on the English language, especially in the context of gender bias. In particular, grammatically gender-neutral languages such as Turkish are underexplored despite representing different linguistic properties..."
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Bias & Fairness"
 ---
 # Investigating Gender Bias in Turkish Language Models

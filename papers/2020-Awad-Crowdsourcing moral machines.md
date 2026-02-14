@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1145/3339904
 url: "https://dl.acm.org/doi/10.1145/3339904"
 external_pdf: "https://dl.acm.org/doi/pdf/10.1145/3339904"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Introduced the Moral Machine platform, a global crowdsourcing experiment to gather human perspectives on how autonomous machines should handle moral dilemmas."
@@ -34,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2020/2020-Awad-Crowdsourcing moral machines.md"
 local_pdf: "[[PDFs/2020/2020-Awad-Crowdsourcing moral machines.pdf]]"
 ---

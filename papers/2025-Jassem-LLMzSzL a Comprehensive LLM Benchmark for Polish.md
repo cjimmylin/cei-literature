@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "LLMzSzL: a Comprehensive LLM Benchmark for Polish"
 year: 2025
 first_author: "[[Krzysztof Jassem]]"
 last_author: "[[Ryszard Staruch]]"
-authors: Krzysztof Jassem, Michal Ciesiolka, Filip Gralinski, Piotr Jablonski, Jakub Pokrywka, Marek Kubis, Monika Jablonska, Ryszard Staruch
+authors: "Krzysztof Jassem, Michal Ciesiolka, Filip Gralinski, Piotr Jablonski, Jakub Pokrywka, Marek Kubis, Monika Jablonska, Ryszard Staruch"
 url: "https://arxiv.org/abs/2501.02266"
 external_pdf: "https://arxiv.org/pdf/2501.02266.pdf"
 local_pdf: "[[PDFs/2025/2025-Jassem-LLMzSzL a Comprehensive LLM Benchmark for Polish.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Jassem-LLMzSzL a Comprehensive LLM Benchmark for Polish.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Polish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Polish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

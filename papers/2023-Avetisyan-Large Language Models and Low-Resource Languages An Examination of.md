@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,35 +6,35 @@ Not AI:
 key: LSRC0540
 type: conferencePaper
 short_title: "Large Language Models and Low-Resource Languages: An Examination of Armenian NLP"
-year: 2023
+year: 2025
 first_author: "[[Hayastan Avetisyan]]"
 last_author: "[[David Broneske]]"
-authors: Hayastan Avetisyan, David Broneske
+authors: "Hayastan Avetisyan, David Broneske"
 url: "https://aclanthology.org/2023.findings-ijcnlp.18/"
 external_pdf: "https://aclanthology.org/2023.findings-ijcnlp.18.pdf"
-publication: ACL Anthology / IJCNLP-AACL 2023 Findings
+publication: "ACL Anthology / IJCNLP-AACL 2023 Findings"
 local_pdf: "[[PDFs/2023/2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Armenian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Armenian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 research_topic: "NLP & Representation Learning"
 ---
 # Large Language Models and Low-Resource Languages: An Examination of Armenian NLP

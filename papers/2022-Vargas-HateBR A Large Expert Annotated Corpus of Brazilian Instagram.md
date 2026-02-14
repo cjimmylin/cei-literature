@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0206
 type: preprint
 short_title: "HateBR: A Large Expert Annotated Corpus of Brazilian Instagram Comments for Hate Speech and Offensive Language Detection"
-year: 2022
+year: 2025
 first_author: "[[Francielle Vargas]]"
 last_author: "[[Fabiana de Melo]]"
-authors: Francielle Vargas, Isabelle Carvalho, Fabiana de Melo, et al.
+authors: "Francielle Vargas, Isabelle Carvalho, Fabiana de Melo, et al."
 url: "https://arxiv.org/abs/2103.14972"
 external_pdf: "https://arxiv.org/pdf/2103.14972.pdf"
 local_pdf: "[[PDFs/2022/2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Brazilian"
-languages_list: "Portuguese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Brazilian
+languages_list: Portuguese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: 

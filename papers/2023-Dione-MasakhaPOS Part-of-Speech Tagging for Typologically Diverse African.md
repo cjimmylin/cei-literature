@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0087
 type: conferencePaper
 short_title: "MasakhaPOS: Part-of-Speech Tagging for Typologically Diverse African Languages"
-year: 2023
+year: 2025
 first_author: "[[Cheikh M. Bamba Dione]]"
 last_author: "[[Blessing Sibanda]]"
-authors: Cheikh M. Bamba Dione, David Adelani, Peter Nabende, Jesujoba Alabi, Thapelo Sindane, Happy Buzaaba, Shamsuddeen Hassan Muhammad, Chris Chinenye Emezue, Perez Ogayo, Anuoluwapo Aremu, Catherine Gitau, Derguene Mbaye, Jonathan Mukiibi, Blessing Sibanda, et al.
+authors: "Cheikh M. Bamba Dione, David Adelani, Peter Nabende, Jesujoba Alabi, Thapelo Sindane, Happy Buzaaba, Shamsuddeen Hassan Muhammad, Chris Chinenye Emezue, Perez Ogayo, Anuoluwapo Aremu, Catherine Gitau, Derguene Mbaye, Jonathan Mukiibi, Blessing Sibanda, et al."
 url: "https://arxiv.org/abs/2305.13989"
 external_pdf: "https://arxiv.org/pdf/2305.13989.pdf"
 local_pdf: "[[PDFs/2023/2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African.md"
 publication: "WebSearch: MasakhaPOS African languages part-of-speech benchmark"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "African/Ubuntu"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: African/Ubuntu
 languages_list: "Bambara, Chichewa, Ewe, Fon, Ghomala, Hausa, Igbo, Kinyarwanda, Kiswahili, Luganda, Luo, Mossi, Nigerian Pidgin, Setswana, Twi, Wolof, Yoruba, chiShona, isiXhosa, isiZulu"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

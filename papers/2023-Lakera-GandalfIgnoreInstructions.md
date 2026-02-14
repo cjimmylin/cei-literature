@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,8 +12,8 @@ last_author: "[[Lakera AI]]"
 authors: "Lakera AI"
 url: "https://www.lakera.ai/blog/who-is-gandalf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -30,10 +28,10 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: [[2023-Lakera-GandalfIgnoreInstructions]]
-no_pdf_applicable: "true"
+no_pdf_applicable: true
 ---
 # GandalfIgnoreInstructions
 

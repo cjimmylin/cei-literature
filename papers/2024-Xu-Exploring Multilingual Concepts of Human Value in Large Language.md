@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0209
 type: conferencePaper
 short_title: "Exploring Multilingual Concepts of Human Value in Large Language Models: Is Value Alignment Consistent, Transferable and Controllable across Languages?"
-year: 2024
+year: 2025
 first_author: "[[Shaoyang Xu]]"
 last_author: "[[Shaoyang Xu]]"
-authors: Shaoyang Xu, et al.
+authors: "Shaoyang Xu, et al."
 url: "https://arxiv.org/abs/2402.18120"
 external_pdf: "https://arxiv.org/pdf/2402.18120.pdf"
 local_pdf: "[[PDFs/2024/2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language.md"
-publication: Findings of EMNLP 2024
+publication: "Findings of EMNLP 2024"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Arabic, Chinese, English, French, German, Hindi, Indonesian, Japanese, Korean, Portuguese, Russian, Spanish, Swahili, Thai, Turkish, Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "16 languages"
 LLM_assessed: 
 DATA_URL: 

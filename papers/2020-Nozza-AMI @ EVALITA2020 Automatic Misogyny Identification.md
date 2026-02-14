@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,36 +6,36 @@ Not AI:
 key: LSRC0509
 type: conferencePaper
 short_title: "AMI @ EVALITA2020: Automatic Misogyny Identification"
-year: 2020
+year: 2025
 first_author: "[[Debora Nozza]]"
 last_author: "[[Debora Nozza]]"
-authors: Debora Nozza et al.
+authors: "Debora Nozza et al."
 url: "https://amievalita2020.github.io/"
 external_pdf: "https://books.openedition.org/aaccademia/pdf/6732"
-publication: EVALITA 2020
+publication: "EVALITA 2020"
 local_pdf: "[[PDFs/2020/2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Italian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Italian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
-DATA_URL: "NA"
+LLM_assessed: BERT
+DATA_URL: NA
 tags: 
-abstract:
-research_topic: "Other"
+abstract: 
+research_topic: Other
 ---
 # AMI @ EVALITA2020: Automatic Misogyny Identification
 

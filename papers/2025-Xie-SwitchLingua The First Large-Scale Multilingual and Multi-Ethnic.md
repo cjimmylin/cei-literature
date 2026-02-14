@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +8,28 @@ type: preprint
 short_title: "SwitchLingua : The First Large-Scale Multilingual and Multi-Ethnic Code-Switching Dataset"
 year: 2025
 first_author: "[[Peng Xie]]"
-last_author: "[[Unknown]]"
-authors: Peng Xie; Xingyuan Liu; Tsz Wai Chan; Yequan Bie; Yangqiu Song; Yang Wang; Hao Chen; Kani Chen
+last_author: [[Unknown]]
+authors: "Peng Xie; Xingyuan Liu; Tsz Wai Chan; Yequan Bie; Yangqiu Song; Yang Wang; Hao Chen; Kani Chen"
 url: "https://arxiv.org/html/2506.00087v1"
 external_pdf: "https://arxiv.org/pdf/2506.00087.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Code-switching, English, Hindi, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

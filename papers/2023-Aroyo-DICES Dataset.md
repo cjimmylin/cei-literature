@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "http://arxiv.org/abs/2306.11247"
 external_pdf: "http://arxiv.org/pdf/2306.11247.pdf"
 publication: "Neural Information Processing Systems"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Released the DICES (Diversity In Conversational AI Evaluation for Safety) dataset, containing fine-grained demographic information and high replication of ratings (votes) from diverse raters."
@@ -38,7 +36,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for ai safety dataset for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/google-research-datasets/dices-dataset/"
 ---
 # DICES Dataset: Diversity in Conversational AI Evaluation for Safety

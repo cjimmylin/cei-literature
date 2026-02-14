@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +9,7 @@ short_title: "Understanding Gen Alpha's Digital Language: Evaluation of LLM Safe
 year: 2025
 first_author: "[[Manisha Mehta]]"
 last_author: "[[Fausto Giunchiglia]]"
-authors: Manisha Mehta; Fausto Giunchiglia
+authors: "Manisha Mehta; Fausto Giunchiglia"
 doi: 10.1145/3715275.3732184
 url: "https://arxiv.org/abs/2505.10588"
 external_pdf: "https://arxiv.org/pdf/2505.10588.pdf"
@@ -20,18 +17,18 @@ local_pdf: "[[PDFs/2025/2025-Mehta-Understanding Gen Alpha's Digital Language Ev
 pdf_extract: "PDF Extracts/2025/2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "This research provides a unique assessment of how AI systems interpret Generation Alpha (Gen Alpha, born 2010-2024) digital communication patterns. As the first generation to grow up with AI as part of daily life, Gen Alpha faces unprecedented online vulnerability due to their immersive digital engagement and the growing disconnect between their communication patterns and traditional safety mechanisms."
 ethics_perspective: "AI Safety & Alignment"

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,14 +7,14 @@ key: KZRT6VY8
 type: document
 short_title: "The Multilingual Alignment Prism"
 year: 2025
-first_author: "[[Aakanksha]]"
+first_author: [[Aakanksha]]
 last_author: "[[Sara Hooker]]"
 authors: "Aakanksha; Arash Ahmadian; Beyza Ermis; Seraphina Goldfarb-Tarrant; Julia Kreutzer; Marzieh Fadaee; Sara Hooker"
 url: "https://aclanthology.org/2024.emnlp-main.671/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/EMDAVPXV/2024 - The Multilingual Alignment Prism Aligning Global and Local Preferences to Reduce Harm.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Collected the first human-annotated red teaming prompts across 6 languages to evaluate the cross-lingual generalization of safety alignment."
@@ -33,7 +31,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "6 languages"
-LLM_assessed: "GPT-4"
+LLM_assessed: GPT-4
 DATA_URL: "https://huggingface.co/datasets/CohereForAI/aya_redteaming"
 pdf_extract: "PDF Extracts/2024/2024-Aakanksha-The Multilingual Alignment Prism.md"
 local_pdf: "[[PDFs/2024/2024-Aakanksha-The Multilingual Alignment Prism.pdf]]"

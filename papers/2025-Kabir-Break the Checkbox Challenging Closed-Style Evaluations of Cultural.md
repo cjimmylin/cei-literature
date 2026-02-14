@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "Break the Checkbox: Challenging Closed-Style Evaluations of Cultur
 year: 2025
 first_author: "[[Ariba Kabir]]"
 last_author: "[[Sophia Ananiadou]]"
-authors: Ariba Kabir, Abrar Anwar, Sophia Ananiadou
+authors: "Ariba Kabir, Abrar Anwar, Sophia Ananiadou"
 url: "https://arxiv.org/abs/2502.08045"
 external_pdf: "https://arxiv.org/pdf/2502.08045.pdf"
 local_pdf: "[[PDFs/2025/2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md"
-publication: arXiv / EMNLP 2025
+publication: "arXiv / EMNLP 2025"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Arabic, Chinese, English, French, German, Hindi, Japanese, Korean, Russian, Spanish, multiple native languages"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: 

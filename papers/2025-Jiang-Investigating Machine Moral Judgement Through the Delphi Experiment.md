@@ -1,15 +1,11 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0065
 type: journalArticle
-short_title: Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)
+short_title: "Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)"
 year: 2025
 first_author: "[[L. Jiang]]"
 last_author: "[[Yejin Choi]]"
@@ -19,27 +15,27 @@ url: "https://doi.org/10.1038/s42256-024-00969-6"
 external_pdf: "https://www.nature.com/articles/s42256-024-00969-6.pdf"
 local_pdf: "[[PDFs/2025/2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment.md"
-publication: Nature Machine Intelligence
+publication: "Nature Machine Intelligence"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "General Ethics"
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, T5"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Borderline
 ---
 # Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)

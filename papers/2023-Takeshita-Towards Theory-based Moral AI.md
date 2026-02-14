@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,8 +12,8 @@ last_author: "[[Kenji Araki]]"
 authors: "Masashi Takeshita; Rafal Rzepka; Kenji Araki"
 external_pdf: "http://arxiv.org/pdf/2306.11432"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Implemented 'Maximizing Expected Choiceworthiness' (MEC), an algorithm that aggregates value judgments from multiple normative theories (Utilitarianism, Deontology, etc.) to handle moral uncertainty."
@@ -35,7 +33,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "DeBERTa, BERT, RoBERTa, ALBERT, T5"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Towards Theory-based Moral AI: Moral AI with Aggregating Models Based on Normative Ethical Theory
 

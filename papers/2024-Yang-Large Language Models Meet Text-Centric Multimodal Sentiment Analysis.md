@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0639
 type: preprint
 short_title: "Large Language Models Meet Text-Centric Multimodal Sentiment Analysis: A Survey"
-year: 2024
+year: 2025
 first_author: "[[Hao Yang]]"
-last_author: "[[Unknown]]"
-authors: Hao Yang; Yanyan Zhao; Yang Wu; Shilong Wang; Tian Zheng; Hongbo Zhang; Zongyang Ma; Wanxiang Che; Bing Qin
+last_author: [[Unknown]]
+authors: "Hao Yang; Yanyan Zhao; Yang Wu; Shilong Wang; Tian Zheng; Hongbo Zhang; Zongyang Ma; Wanxiang Che; Bing Qin"
 url: "https://arxiv.org/html/2406.08068v2"
 external_pdf: "https://arxiv.org/pdf/2406.08068.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2024/2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Chinese, Uyghur"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

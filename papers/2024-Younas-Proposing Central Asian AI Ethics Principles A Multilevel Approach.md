@@ -7,35 +7,35 @@ Not AI:
 key: LSRC0069
 type: conferencePaper
 short_title: "Proposing Central Asian AI Ethics Principles: A Multilevel Approach for Responsible AI"
-year: 2024
+year: 2025
 first_author: "[[Ammar Younas]]"
 last_author: "[[Yi Zeng]]"
-authors: Ammar Younas, Yi Zeng
+authors: "Ammar Younas, Yi Zeng"
 doi: 10.1007/s43681-024-00505-7
 url: "https://link.springer.com/article/10.1007/s43681-024-00505-7"
-publication: AI and Ethics (Springer)
+publication: "AI and Ethics (Springer)"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Kazakh, Kyrgyz, Tajik, Turkmen, Uzbek"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Proposes layered AI ethics principles for Central Asian countries. Introduces 'Nomadic AI Principles' rooted in traditional beliefs, values, customs of the region. Covers national, regional, and sector-specific ethical frameworks."
 ethics_perspective: "Responsible AI"
 ---
 # Proposing Central Asian AI Ethics Principles: A Multilevel Approach for Responsible AI

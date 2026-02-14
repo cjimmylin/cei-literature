@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,27 +8,27 @@ type: preprint
 short_title: "MEXA: Multilingual Evaluation of English-Centric LLMs via Cross-Lingual Alignment"
 year: 2025
 first_author: "[[Unknown (CIS NLP group)]]"
-last_author: "[[Unknown]]"
-authors: Unknown (CIS NLP group)
+last_author: [[Unknown]]
+authors: "Unknown (CIS NLP group)"
 url: "https://arxiv.org/abs/2410.05873"
 external_pdf: "https://arxiv.org/pdf/2410.05873.pdf"
-publication: arXiv / ACL Anthology
+publication: "arXiv / ACL Anthology"
 local_pdf: "[[PDFs/2025/2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Multiple including French"
-religious_values: "Christianity"
-religious_values_list: "Christianity"
-moral_psychology: "N/A"
+religious_values: Christianity
+religious_values_list: Christianity
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3.1, Gemma, Mistral, OLMo"

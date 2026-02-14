@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,34 +6,34 @@ Not AI:
 key: LSRC0458
 type: conferencePaper
 short_title: "AfroBench: Multi-task Benchmark for Evaluating LLMs in African Languages"
-year: 2024
+year: 2025
 first_author: "[[McGill NLP Lab]]"
 last_author: "[[McGill NLP Lab]]"
-authors: McGill NLP Lab
+authors: "McGill NLP Lab"
 url: "https://mcgill-nlp.github.io/AfroBench/"
-publication: McGill NLP
+publication: "McGill NLP"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "African/Ubuntu"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: African/Ubuntu
 languages_list: "64 African languages, French"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://mcgill-nlp.github.io/AfroBench/"
 tags: 
-abstract:
+abstract: 
 research_topic: "Machine Learning"
 ---
 # AfroBench: Multi-task Benchmark for Evaluating LLMs in African Languages

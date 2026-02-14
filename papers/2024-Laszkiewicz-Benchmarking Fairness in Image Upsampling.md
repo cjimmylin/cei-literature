@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Mike Laszkiewicz; Oliver Evans"
 url: "https://facctconference.org/static/papers24/facct24-36.pdf"
 external_pdf: "https://facctconference.org/static/papers24/facct24-36.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Benchmarks fairness in image upsampling tasks, likely investigating whether super-resolution models introduce or amplify biases (e.g., changing facial features to match majority demographics)."
@@ -36,7 +34,7 @@ is_eval: No
 is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/MikeLasz/Benchmarking-Fairness-ImageUpsampling"
 ---
 # Benchmarking Fairness in Image Upsampling

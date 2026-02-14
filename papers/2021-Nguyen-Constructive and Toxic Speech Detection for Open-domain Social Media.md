@@ -1,36 +1,35 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0365
 type: preprint
-short_title: Constructive and Toxic Speech Detection for Open-domain Social Media Comments in Vietnamese
-year: 2021
+short_title: "Constructive and Toxic Speech Detection for Open-domain Social Media Comments in Vietnamese"
+year: 2025
 first_author: "[[Luan Thanh Nguyen]]"
 last_author: "[[Ngan Luu-Thuy Nguyen]]"
-authors: Luan Thanh Nguyen, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen
+authors: "Luan Thanh Nguyen, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen"
 doi: 10.1007/978-3-030-79457-6_49
 url: "https://arxiv.org/abs/2103.10069"
 external_pdf: "https://arxiv.org/pdf/2103.10069.pdf"
 local_pdf: "[[PDFs/2021/2021-Nguyen-Constructive and Toxic Speech Detection for Open-domain Social Media.pdf]]"
 pdf_extract: "PDF Extracts/2021/2021-Nguyen-Constructive and Toxic Speech Detection for Open-domain Social Media.md"
-publication: arXiv / Springer
+publication: "arXiv / Springer"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework annotated dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: 

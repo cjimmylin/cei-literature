@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "SinhalaMMLU: A Comprehensive Benchmark for Evaluating Multitask Language Understanding in Sinhala"
 year: 2025
 first_author: "[[Ashmari Pramodya]]"
-last_author: "[[Unknown]]"
-authors: Ashmari Pramodya; Nirasha Nelki; Heshan Shalinda; Chamila Liyanage; Yusuke Sakai; Randil Pushpananda; Ruvan Weerasinghe; Hidetaka Kamigaito; Taro Watanabe
+last_author: [[Unknown]]
+authors: "Ashmari Pramodya; Nirasha Nelki; Heshan Shalinda; Chamila Liyanage; Yusuke Sakai; Randil Pushpananda; Ruvan Weerasinghe; Hidetaka Kamigaito; Taro Watanabe"
 url: "https://arxiv.org/abs/2509.03162"
 external_pdf: "https://arxiv.org/pdf/2509.03162.pdf"
 local_pdf: "[[PDFs/2025/2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Sinhala"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Sinhala
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "7,000 questions; over 7,000 questions"
 LLM_assessed: 

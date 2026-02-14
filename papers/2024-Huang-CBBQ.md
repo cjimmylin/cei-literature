@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "[[Huang, Yufei]]; [[Xiong, Deyi]]"
 url: "https://aclanthology.org/2024.lrec-main.260/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/843YR4ZV/2024 - CBBQ A Chinese Bias Benchmark Dataset Curated with Human–AI Collaboration.pdf"
 national_ethnic_cultural: Chinese
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Chinese, Bias & Fairness"
 key_contribution: "Created 'CBBQ' (Chinese Bias Benchmark for QA), a dataset of 100k questions covering 14 social dimensions of bias in *Chinese* culture (e.g., regional stereotypes, unseen in Western benchmarks)."
@@ -36,7 +34,7 @@ data_metrics: "100k questions; over 100k questions"
 LLM_assessed: "GPT-3.5, BLOOM"
 DATA_URL: "https://github.com/YFHuangxxxx/CBBQ/"
 pdf_extract: "PDF Extracts/2024/2024-Huang-CBBQ.md"
-local_pdf: "[[PDFs/2024/2024-Huang-CBBQ.pdf]]"
+local_pdf: [[PDFs/2024/2024-Huang-CBBQ.pdf]]
 ---
 # CBBQ: A Chinese Bias Benchmark Dataset Curated with Human–AI Collaboration
 

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Pierre Le Jeune; Benoît Malézieux; Weixuan Xiao; Matteo Dora"
 url: "https://arxiv.org/abs/2505.11365"
 external_pdf: "https://arxiv.org/pdf/2505.11365.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced Phare, a multilingual safety probe evaluating LLMs on Hallucination, Social Bias, and Harmful Content, finding systematic vulnerabilities like sycophancy."

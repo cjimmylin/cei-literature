@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Yejin Bang; Ziwei Ji; Alan Schelten; Anthony Hartshorn; Tara Fowler; C
 url: "https://arxiv.org/abs/2504.17550"
 external_pdf: "https://arxiv.org/pdf/2504.17550.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 

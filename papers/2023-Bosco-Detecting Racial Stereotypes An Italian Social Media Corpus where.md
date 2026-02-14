@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,35 +6,41 @@ Not AI:
 key: LSRC0512
 type: conferencePaper
 short_title: "Detecting Racial Stereotypes: An Italian Social Media Corpus where Psychology Meets NLP"
-year: 2023
+year: 2025
 first_author: "[[Cristina Bosco]]"
 last_author: "[[Francesca D'Errico]]"
 authors: "Cristina Bosco, Viviana Patti, Simona Frenda, Alessandra T. Cignarella, Marina Paciello, Francesca D'Errico"
 doi: 10.1016/j.ipm.2022.103118
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0306457322002199"
+external_pdf: "https://hdl.handle.net/11586/413290"
 publication: "Information Processing & Management (Elsevier)"
-local_pdf: 
+local_pdf: N/A
+pdf_access_status: manual_only
+pdf_access_last_checked: 2026-02-14
+pdf_access_error: "not_pdf_header (HTTP 200)"
+pdf_access_url: "https://hdl.handle.net/11586/413290"
+pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Italian"
-languages_list: "Italian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Italian
+languages_list: Italian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: "AlBERTo, BERT-Italian, UmBERTo, mBERT, XLM-RoBERTa"
 DATA_URL: "https://github.com/dhfbk/LiLaH"
 tags: 
-abstract:
+abstract: 
 research_topic: "Social & Cultural Analysis"
 ---
 # Detecting Racial Stereotypes: An Italian Social Media Corpus where Psychology Meets NLP

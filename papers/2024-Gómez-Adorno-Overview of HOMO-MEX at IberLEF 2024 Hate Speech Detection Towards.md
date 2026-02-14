@@ -7,35 +7,35 @@ Not AI:
 key: LSRC0283
 type: conferencePaper
 short_title: "Overview of HOMO-MEX at IberLEF 2024: Hate Speech Detection Towards the Mexican Spanish Speaking LGBT+ Population"
-year: 2024
+year: 2025
 first_author: "[[Helena Gómez-Adorno]]"
 last_author: "[[Helena Gómez-Adorno]]"
-authors: Helena Gómez-Adorno, et al.
+authors: "Helena Gómez-Adorno, et al."
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6626"
 external_pdf: "https://core.ac.uk/download/655275054.pdf"
-publication: IberLEF / SEPLN 2024
+publication: "IberLEF / SEPLN 2024"
 local_pdf: "[[PDFs/2024/2024-Gómez-Adorno-Overview of HOMO-MEX at IberLEF 2024 Hate Speech Detection Towards.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Gómez-Adorno-Overview of HOMO-MEX at IberLEF 2024 Hate Speech Detection Towards.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Spanish"
-languages_list: "Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Spanish
+languages_list: Spanish
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Shared task detecting and classifying LGBT+phobic content in Mexican Spanish digital posts and song lyrics. ~12,000 tweets (2012-2022). Three tracks: multi-class LGBT+phobia, specific phobia types (Gayphobia, Lesbophobia, Transphobia, Biphobia, Aphobia), and song lyrics."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Overview of HOMO-MEX at IberLEF 2024: Hate Speech Detection Towards the Mexican Spanish Speaking LGBT+ Population

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "KOTOX: A Korean Toxic Dataset for Deobfuscation and Detoxification
 year: 2025
 first_author: "[[Yejin Lee]]"
 last_author: "[[Yo-Sub Han]]"
-authors: Yejin Lee, Su-Hyeon Kim, Hyundong Jin, Dayoung Kim, Yeonsoo Kim, Yo-Sub Han
+authors: "Yejin Lee, Su-Hyeon Kim, Hyundong Jin, Dayoung Kim, Yeonsoo Kim, Yo-Sub Han"
 url: "https://arxiv.org/abs/2510.10961"
 external_pdf: "https://arxiv.org/pdf/2510.10961.pdf"
 local_pdf: "[[PDFs/2025/2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Korean, American"
-languages_list: "Korean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+languages_list: Korean
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: 

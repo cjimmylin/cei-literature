@@ -1,43 +1,41 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0544
 type: conferencePaper
-short_title: Enhancing social media hate speech detection in low-resource languages using transformers and explainable AI
+short_title: "Enhancing social media hate speech detection in low-resource languages using transformers and explainable AI"
 year: 2025
 first_author: "[[Unknown (published in Social Network Analysis and Mining)]]"
-last_author: "[[Unknown]]"
-authors: Unknown (published in Social Network Analysis and Mining)
+last_author: [[Unknown]]
+authors: "Unknown (published in Social Network Analysis and Mining)"
 doi: 10.1007/s13278-025-01497-w
 url: "https://link.springer.com/article/10.1007/s13278-025-01497-w"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s13278-025-01497-w.pdf"
-publication: Springer Social Network Analysis and Mining
+publication: "Springer Social Network Analysis and Mining"
 local_pdf: "[[PDFs/2025/2025-Mining)-Enhancing social media hate speech detection in low-resource.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mining)-Enhancing social media hate speech detection in low-resource.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Albanian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Albanian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "XLM-RoBERTa"
-DATA_URL: "NA"
+LLM_assessed: XLM-RoBERTa
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Enhancing social media hate speech detection in low-resource languages using transformers and explainable AI

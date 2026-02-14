@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0490
 type: preprint
 short_title: "Improving LLM Reliability with RAG in"
-year: 2024
+year: 2025
 first_author: "[[Ahmet Yusuf Alan, Enis Karaarslan, Omer Aydin]]"
 last_author: "[[Ahmet Yusuf Alan, Enis Karaarslan, Omer Aydin]]"
 authors: "[[Ahmet Yusuf Alan, Enis Karaarslan, Omer Aydin]]"
@@ -19,26 +15,26 @@ url: "https://arxiv.org/abs/2401.15378"
 external_pdf: "https://arxiv.org/pdf/2401.15378.pdf"
 local_pdf: "[[PDFs/2024/2024-Aydin-Improving LLM Reliability with RAG in.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Aydin-Improving LLM Reliability with RAG in.md"
-publication: Turkish Journal of Engineering / arXiv
+publication: "Turkish Journal of Engineering / arXiv"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Question Answering Systems Chatbots Generative Artificial Intelligence Large Language Model Retrieval Augmented Generation Religious teachings can sometimes be complex and challenging to grasp, but chatbots can serve as effective assistants in this domain. Large Language Model (LLM) based chatbots, powered by Natural Language Processing (NLP), can connect related topics and provide wellsupported responses to intricate questions, making them valuable tools for religious education."
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "AI Safety & Alignment"
 ---
 # Improving LLM Reliability with RAG in Religious Question-Answering: MufassirQAS

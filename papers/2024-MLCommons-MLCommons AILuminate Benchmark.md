@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,13 +7,13 @@ key: 2HHK5J6K
 type: document
 short_title: "MLCommons AILuminate Benchmark"
 year: 2025
-first_author: "[[MLCommons]]"
-last_author: "[[MLCommons]]"
+first_author: [[MLCommons]]
+last_author: [[MLCommons]]
 authors: MLCommons
 url: "https://mlcommons.org/benchmarks/ailuminate"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -31,7 +29,7 @@ is_eval: Yes
 is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/mlcommons/ailuminate"
 pdf_extract: "PDF Extracts/2024/2024-MLCommons-MLCommons AILuminate Benchmark.md"
 local_pdf: "[[PDFs/2024/2024-MLCommons-MLCommons AILuminate Benchmark.pdf]]"

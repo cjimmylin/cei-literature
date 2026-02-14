@@ -1,9 +1,4 @@
 ---
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +6,7 @@ Not AI:
 key: EXSR0278
 type: preprint
 short_title: "OffTheRails: Procedural Dilemma Generation for Moral Reasoning"
-year: 2024
+year: 2025
 first_author: "[[Fränken, Jan-Philipp]]"
 last_author: "[[Gerstenberg, Tobias]]"
 authors: "[[Fränken, Jan-Philipp]]; [[Gandhi, Kanishk]]; [[Qiu, Tori]]; [[Khawaja, Ayesha]]; [[Goodman, Noah D.]]; [[Gerstenberg, Tobias]]"
@@ -22,18 +17,18 @@ local_pdf: "[[PDFs/2024/2024-Franken-OffTheRails Procedural Dilemma Generation f
 pdf_extract: "PDF Extracts/2024/2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "As AI systems like language models are increasingly integrated into decision-making processes affecting people’s lives, it’s critical to ensure that these systems have sound moral reasoning. To test whether they do, we need to develop systematic evaluations. We provide a framework that uses a language model to translate causal graphs that capture key aspects of moral dilemmas into prompt templates. With this framework, we procedurally generated a large and diverse set of moral dilemmas— the..."
 ethics_perspective: "Moral Reasoning & Psychology"

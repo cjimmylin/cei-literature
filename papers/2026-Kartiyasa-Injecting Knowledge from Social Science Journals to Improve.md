@@ -1,35 +1,34 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0094
 type: preprint
-short_title: Injecting Knowledge from Social Science Journals to Improve Indonesian Cultural Understanding by LLMs
-year: 2026
+short_title: "Injecting Knowledge from Social Science Journals to Improve Indonesian Cultural Understanding by LLMs"
+year: 2025
 first_author: "[[Adimulya Kartiyasa]]"
-last_author: "[[Unknown]]"
-authors: Adimulya Kartiyasa; Bao Gia Cao; Boyang Li
+last_author: [[Unknown]]
+authors: "Adimulya Kartiyasa; Bao Gia Cao; Boyang Li"
 url: "https://arxiv.org/abs/2601.12921"
 external_pdf: "https://arxiv.org/pdf/2601.12921.pdf"
 local_pdf: "[[PDFs/2026/2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indonesian"
-languages_list: "Indonesian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indonesian
+languages_list: Indonesian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

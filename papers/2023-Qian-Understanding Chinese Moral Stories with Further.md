@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.5121/ijnlc.2023.12201
 url: "https://doi.org/10.5121/ijnlc.2023.12201"
 external_pdf: "https://aircconline.com/ijnlc/V12N2/12223ijnlc01.pdf"
 national_ethnic_cultural: Chinese
-religious_values: "Confucianism"
-religious_values_list: "Confucianism"
+religious_values: Confucianism
+religious_values_list: Confucianism
 moral_psychology: N/A
 newtags: "Chinese, General Ethics"
 key_contribution: "Presented STORAL-ZH, a Chinese dataset of human-written moral stories, and evaluated models on their ability to understand and generate moral narratives."
@@ -37,7 +35,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa, T5"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Understanding Chinese Moral Stories with Further Pre-training (STORAL-ZH)
 

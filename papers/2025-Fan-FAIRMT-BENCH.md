@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,8 +12,8 @@ last_author: "[[Zuozhu Liu]]"
 authors: "Zhiting Fan; Ruizhe Chen; Tianxiang Hu; Zuozhu Liu"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/PNCXQE8M/Fan et al. - 2025 - FAIRMT-BENCH BENCHMARKING FAIRNESS FOR MULTI-TURN DIALOGUE IN CONVERSATIONAL LLMS.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Introduced FairMT-Bench for evaluating fairness in *multi-turn* dialogues, finding bias accumulates over turns unlike in single-turn benchmarks."
@@ -33,9 +31,9 @@ is_dataset: Yes
 data_description: "Benchmark for bias and fairness text corpus for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4, Llama-3, Llama-2, Mistral, Gemma"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Fan-FAIRMT-BENCH.md"
-local_pdf: "[[PDFs/2025/2025-Fan-FAIRMT-BENCH.pdf]]"
+local_pdf: [[PDFs/2025/2025-Fan-FAIRMT-BENCH.pdf]]
 ---
 # FAIRMT-BENCH: BENCHMARKING FAIRNESS FOR MULTI-TURN DIALOGUE IN CONVERSATIONAL LLMS
 

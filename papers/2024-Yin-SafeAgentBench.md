@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,29 +6,29 @@ Not AI:
 key: EXSR0215
 type: preprint
 short_title: SafeAgentBench
-year: 2024
+year: 2025
 first_author: "[[Yin, Sheng]]"
 last_author: "[[Chen, Siheng]]"
 authors: "[[Yin, Sheng]]; [[Pang, Xianghe]]; [[Ding, Yuanzhuo]]; [[Chen, Menglan]]; [[Bi, Yutong]]; [[Xiong, Yichen]]; [[Huang, Wenhao]]; [[Xiang, Zhen]]; [[Shao, Jing]]; [[Chen, Siheng]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.13178"
 external_pdf: "https://arxiv.org/pdf/2412.13178.pdf"
-local_pdf: "[[PDFs/2024/2024-Yin-SafeAgentBench.pdf]]"
+local_pdf: "[[PDFs/2024-Yin-SafeAgentBench.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Yin-SafeAgentBench.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "With the integration of large language models (LLMs), embodied agents have strong capabilities to understand and plan complicated natural language instructions. However, a foreseeable issue is that those embodied agents can also flawlessly execute some hazardous tasks, potentially causing damages in the real world. Existing benchmarks predominantly overlook critical safety risks, focusing solely on planning performance, while a few evaluate LLMs’ safety awareness only on non-interactive..."
 ethics_perspective: "AI Safety & Alignment"

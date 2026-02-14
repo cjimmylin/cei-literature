@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,32 +6,32 @@ Not AI:
 key: EXSR0003
 type: conferencePaper
 short_title: BiasJailbreak
-year: 2026
+year: 2025
 first_author: "[[Isack Lee]]"
 last_author: "[[Haebin Seong Isack Lee]]"
-authors: Isack Lee, Haebin Seong
+authors: "Isack Lee, Haebin Seong"
 url: "https://arxiv.org/abs/2410.13334"
 external_pdf: "https://arxiv.org/pdf/2410.13334.pdf"
-local_pdf: "[[PDFs/2026/2026-Lee-BiasJailbreak.pdf]]"
+local_pdf: "[[PDFs/2026-Lee-BiasJailbreak.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Lee-BiasJailbreak.md"
-publication: AAAI 2026
+publication: "AAAI 2026"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "Warning: This paper contains potentially offensive and harmful text. Although large language models (LLMs) demonstrate impressive proficiency in various tasks, they present potential safety risks, such as ‘jailbreaks’, where malicious inputs can coerce LLMs into generating harmful content bypassing safety alignments. In this paper, we delve into the ethical biases in LLMs and examine how those biases could be exploited for jailbreaks."
 ethics_perspective: "AI Safety & Alignment"
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, ChatGPT, Claude, Llama-2, Llama-3, Qwen, Phi"
 DATA_URL: "https://github.com/Isaac-theori/BiasJailbreak"

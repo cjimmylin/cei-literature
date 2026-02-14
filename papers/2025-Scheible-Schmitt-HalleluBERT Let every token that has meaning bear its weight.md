@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "HalleluBERT: Let every token that has meaning bear its weight"
 year: 2025
 first_author: "[[Raphael Scheible-Schmitt]]"
-last_author: "[[Unknown]]"
-authors: Raphael Scheible-Schmitt
+last_author: [[Unknown]]
+authors: "Raphael Scheible-Schmitt"
 url: "https://arxiv.org/abs/2510.21372"
 external_pdf: "https://arxiv.org/pdf/2510.21372.pdf"
 local_pdf: "[[PDFs/2025/2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Hebrew/Israeli"
-languages_list: "Hebrew"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Hebrew/Israeli
+languages_list: Hebrew
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "49.1 gb"
 LLM_assessed: 

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "http://arxiv.org/abs/2212.10276"
 external_pdf: "http://arxiv.org/pdf/2212.10276.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "Christianity"
-religious_values_list: "Christianity"
+religious_values: Christianity
+religious_values_list: Christianity
 moral_psychology: N/A
 newtags: 
 pdf_extract: "PDF Extracts/2022/2022-Caron-Identifying and Manipulating the Personality.md"
@@ -37,7 +35,7 @@ is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-2"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Identifying and Manipulating the Personality Traits of Language Models
 

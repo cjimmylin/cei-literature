@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,8 +17,8 @@ local_pdf: "[[PDFs/2025/2025-Neuman-Analyzing the Ethical Logic of Six Large Lan
 external_pdf: "https://arxiv.org/pdf/2501.08951.pdf"
 ethics_perspective: "Moral Reasoning & Psychology"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
 newtags: "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych), Deontology, Utilitarianism, Moral Reasoning & Psychology"
 key_contribution: "Analyzes ethical logic of 6 LLMs using explainability prompts, categorizing them via consequentialist-deontological analytic and Moral Foundations"
@@ -39,7 +36,7 @@ is_dataset: Yes
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama, Claude, Gemini, Mistral"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Yes
 ---
  Analyzing the Ethical Logic of Six Large Language Models

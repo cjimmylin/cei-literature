@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2411.08884"
 external_pdf: "http://arxiv.org/pdf/2411.08884.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Applied the Domain-Specific Risk-Taking (DOSPERT) scale to LLMs to quantify their 'risk personalities' and ethical risk attitudes."
@@ -39,7 +37,7 @@ is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Gemma, Qwen, Mistral, Vicuna"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Quantifying Risk Propensities of Large Language Models: Ethical Focus and Bias Detection through Role-Play
 

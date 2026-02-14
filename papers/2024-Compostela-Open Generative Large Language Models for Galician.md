@@ -1,35 +1,34 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0231
 type: preprint
-short_title: Open Generative Large Language Models for Galician
-year: 2024
+short_title: "Open Generative Large Language Models for Galician"
+year: 2025
 first_author: "[[Authors from Universidade de Santiago de Compostela]]"
 last_author: "[[Authors from Universidade de Santiago de Compostela]]"
-authors: Authors from Universidade de Santiago de Compostela
+authors: "Authors from Universidade de Santiago de Compostela"
 url: "https://arxiv.org/abs/2406.13893"
 external_pdf: "https://arxiv.org/pdf/2406.13893.pdf"
 local_pdf: "[[PDFs/2024/2024-Compostela-Open Generative Large Language Models for Galician.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Compostela-Open Generative Large Language Models for Galician.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Galician"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Galician
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
 LLM_assessed: 

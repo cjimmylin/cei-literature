@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "https://dl.acm.org/doi/10.1145/3715275.3732174"
 external_pdf: "https://philarchive.org/archive/KNETHP"
 publication: "ACM FAccT"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Utilitarianism, Value Alignment, Fairness"
 key_contribution: "Empirically demonstrates value forks between human and AI agents in moral trade-offs"
@@ -37,7 +35,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://osf.io/rqkcz"
 ---
 # Hard Problem AI Alignment Value Forks

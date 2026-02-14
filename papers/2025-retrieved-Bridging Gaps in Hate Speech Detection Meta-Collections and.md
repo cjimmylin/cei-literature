@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "Bridging Gaps in Hate Speech Detection: Meta-Collections and Bench
 year: 2025
 first_author: "[[Authors not fully retrieved]]"
 last_author: "[[Authors not fully retrieved]]"
-authors: Authors not fully retrieved
+authors: "Authors not fully retrieved"
 url: "https://arxiv.org/abs/2510.11167"
 external_pdf: "https://arxiv.org/pdf/2510.11167.pdf"
 local_pdf: "[[PDFs/2025/2025-retrieved-Bridging Gaps in Hate Speech Detection Meta-Collections and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-retrieved-Bridging Gaps in Hate Speech Detection Meta-Collections and.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: Yes
 national_ethnic_cultural: "Spanish, Brazilian"
 languages_list: "European Portuguese, European Spanish, Galician, Portuguese, Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark text corpus for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: 

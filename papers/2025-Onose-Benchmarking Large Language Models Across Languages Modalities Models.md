@@ -1,41 +1,40 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0800
 type: conferencePaper
-short_title: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks - Microsoft Research
+short_title: "Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks - Microsoft Research"
 year: 2025
 first_author: "[[Ejiro Onose]]"
 last_author: "[[Ejiro Onose]]"
-authors: Ejiro Onose
+authors: "Ejiro Onose"
 url: "https://www.microsoft.com/en-us/research/publication/benchmarking-large-language-models-across-languages-modalities-models-and-tasks/"
 publication: Web
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
-research_topic: "Other"
+abstract: 
+research_topic: Other
 ---
 # Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks - Microsoft Research
 

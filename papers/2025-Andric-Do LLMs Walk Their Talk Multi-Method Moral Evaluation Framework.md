@@ -1,14 +1,11 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0287
 type: preprint
-short_title: Do LLMs Walk Their Talk? Multi-Method Moral Evaluation Framework
+short_title: "Do LLMs Walk Their Talk? Multi-Method Moral Evaluation Framework"
 year: 2025
 first_author: "[[Andric, Sandro]]"
 last_author: "[[Andric, Sandro]]"
@@ -20,24 +17,24 @@ local_pdf: "[[PDFs/2025/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral E
 pdf_extract: "PDF Extracts/2025/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "We investigate whether Large Language Models (LLMs) exhibit altruistic tendencies, and critically, whether their implicit associations and self-reports predict actual altruistic behavior. Using a multimethod approach inspired by human social psychology, we tested 24 frontier LLMs across three paradigms: (1) an Implicit Association Test (IAT) measuring implicit altruism bias, (2) a forced binary choice task measuring behavioral altruism, and (3) a self-assessment scale measuring explicit..."
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Gemini, Gemma, Claude, Llama-3, Mistral, Grok, Phi"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Do LLMs Walk Their Talk? Multi-Method Moral Evaluation Framework
 

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +15,8 @@ url: "https://aclanthology.org/2024.findings-naacl.144/"
 external_pdf: "https://aclanthology.org/2024.findings-naacl.144.pdf"
 publication: "Findings of NAACL 2024"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: Yes
 newtags: "Moral Reasoning, Deontology, Utilitarianism, Virtue Ethics, Top-Down Ethics"
 key_contribution: "Proposes flexible top-down framework steering LLMs to perform moral reasoning with established moral theories from interdisciplinary research"
@@ -39,7 +36,7 @@ is_dataset: No
 data_description: "Moral theory-based evaluation datasets derived from deontology, virtue ethics, and consequentialism"
 data_metrics: "Theory-guided moral reasoning accuracy across multiple ethical frameworks"
 LLM_assessed: "Llama-2, GPT-4"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Yes
 ---
 # Rethinking Machine Ethics – Can LLMs Perform Moral Reasoning through the Lens of Moral Theories?

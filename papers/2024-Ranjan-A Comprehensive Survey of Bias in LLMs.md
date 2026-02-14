@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Rajesh Ranjan; Shailja Gupta; Surya Narayan Singh"
 url: "https://arxiv.org/abs/2409.16430"
 external_pdf: "https://arxiv.org/pdf/2409.16430.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Provides a comprehensive survey of bias in Large Language Models, classifying biases by type, source, and impact, and reviewing mitigation strategies."
@@ -36,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # A Comprehensive Survey of Bias in LLMs: Current Landscape and Future Directions
 

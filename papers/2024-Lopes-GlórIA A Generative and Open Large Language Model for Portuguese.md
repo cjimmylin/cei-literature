@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,29 +6,29 @@ Not AI:
 key: LSRC0216
 type: preprint
 short_title: "GlórIA: A Generative and Open Large Language Model for Portuguese"
-year: 2024
+year: 2025
 first_author: "[[Ricardo Lopes]]"
 last_author: "[[David Semedo]]"
-authors: Ricardo Lopes, João Magalhães, David Semedo
+authors: "Ricardo Lopes, João Magalhães, David Semedo"
 url: "https://arxiv.org/abs/2402.12969"
 external_pdf: "https://arxiv.org/pdf/2402.12969.pdf"
 local_pdf: "[[PDFs/2024/2024-Lopes-GlórIA A Generative and Open Large Language Model for Portuguese.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Lopes-GlórIA A Generative and Open Large Language Model for Portuguese.md"
-publication: arXiv / PROPOR 2024
+publication: "arXiv / PROPOR 2024"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Brazilian"
-languages_list: "Portuguese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Brazilian
+languages_list: Portuguese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
 LLM_assessed: 

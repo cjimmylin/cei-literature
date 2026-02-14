@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,29 +9,29 @@ short_title: "A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a Mil
 year: 2025
 first_author: "[[Multiple authors]]"
 last_author: "[[Multiple authors]]"
-authors: Multiple authors
+authors: "Multiple authors"
 url: "https://arxiv.org/abs/2506.05991"
 external_pdf: "https://arxiv.org/pdf/2506.05991.pdf"
-publication: arXiv / RANLP 2025
+publication: "arXiv / RANLP 2025"
 local_pdf: "[[PDFs/2025/2025-authors-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-authors-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "French"
-languages_list: "Romanian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: Yes
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: French
+languages_list: Romanian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets"
 tags: 
 abstract: "Large Language Models (LLMs) demonstrate varying performance across languages and cultural contexts. This study introduces a novel, culturally-rich, multilingual dataset derived from video recordings of the Romanian game show 'Who Wants to Be a Millionaire?' (Vrei să fii Milionar?). We employed an innovative process combining optical character recognition (OCR), automated text extraction, and manual verification to collect question-answer pairs, enriching them with metadata including question..."

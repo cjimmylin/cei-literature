@@ -7,35 +7,35 @@ Not AI:
 key: LSRC0136
 type: journalArticle
 short_title: "Pars-OFF: A Benchmark for Offensive Language Detection on Farsi Social Media"
-year: 2022
+year: 2025
 first_author: "[[Taha Shangipour Ataei]]"
-last_author: "[[Unknown]]"
-authors: Taha Shangipour Ataei; Kamyar Darvishi; Soroush Javdan; Amin Pourdabiri; B. Minaei-Bidgoli; Mohammad Taher Pilehvar
+last_author: [[Unknown]]
+authors: "Taha Shangipour Ataei; Kamyar Darvishi; Soroush Javdan; Amin Pourdabiri; B. Minaei-Bidgoli; Mohammad Taher Pilehvar"
 doi: 10.1109/taffc.2022.3219229
 url: "https://ieeexplore.ieee.org/document/9936700"
-publication: IEEE Transactions on Affective Computing
+publication: "IEEE Transactions on Affective Computing"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Iranian"
-languages_list: "Persian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Iranian
+languages_list: Persian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Three-layered annotated corpus of 10,563 Farsi data samples for offensive language detection. Uses similarity-based and keyword-based data selection. Best model BERT+fastText achieves F1-Macro of 89.57."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Pars-OFF: A Benchmark for Offensive Language Detection on Farsi Social Media

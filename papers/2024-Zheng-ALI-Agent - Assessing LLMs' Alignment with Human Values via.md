@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0143
 type: conferencePaper
 short_title: "ALI-Agent -- Assessing LLMs' Alignment with Human Values via Agent-based Evaluation"
-year: 2024
+year: 2025
 first_author: "[[Zheng, Jingnan]]"
 last_author: "[[Chua, Tat-Seng]]"
 authors: "[[Zheng, Jingnan]]; [[Wang, Han]]; [[Zhang, An]]; [[Nguyen, Tai D.]]; [[Sun, Jun]]; [[Chua, Tat-Seng]]"
@@ -19,20 +15,20 @@ url: "https://arxiv.org/abs/2405.14125"
 external_pdf: "https://arxiv.org/pdf/2405.14125.pdf"
 local_pdf: "[[PDFs/2024/2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via.md"
-publication: NeurIPS 2024
+publication: "NeurIPS 2024"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Large Language Models (LLMs) can elicit unintended and even harmful content when misaligned with human values, posing severe risks to users and society. To mitigate these risks, current evaluation benchmarks predominantly employ expertdesigned contextual scenarios to assess how well LLMs align with human values. However, the labor-intensive nature of these benchmarks limits their test scope, hindering their ability to generalize to the extensive variety of open-world use cases and identify rare..."
 ethics_perspective: "AI Safety & Alignment"

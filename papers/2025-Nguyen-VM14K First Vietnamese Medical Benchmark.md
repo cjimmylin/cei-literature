@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "VM14K: First Vietnamese Medical Benchmark"
 year: 2025
 first_author: "[[Thong Nguyen]]"
-last_author: "[[Unknown]]"
-authors: Thong Nguyen; Duc Nguyen; Minh Dang; Thai Dao; Long Nguyen; Quan H. Nguyen; Dat Nguyen; Kien Tran; Minh Tran
+last_author: [[Unknown]]
+authors: "Thong Nguyen; Duc Nguyen; Minh Dang; Thai Dao; Long Nguyen; Quan H. Nguyen; Dat Nguyen; Kien Tran; Minh Tran"
 url: "https://arxiv.org/abs/2506.01305"
 external_pdf: "https://arxiv.org/pdf/2506.01305.pdf"
 local_pdf: "[[PDFs/2025/2025-Nguyen-VM14K First Vietnamese Medical Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Nguyen-VM14K First Vietnamese Medical Benchmark.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "4k questions; 10k questions; 2k questions"
 LLM_assessed: 

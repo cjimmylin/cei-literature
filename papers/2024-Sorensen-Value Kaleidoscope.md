@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2309.00779"
 local_pdf: "[[PDFs/2024/2024-Sorensen-Value Kaleidoscope.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2309.00779.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, Deontology"
 key_contribution: "Explores value pluralism in AI, challenging the default 'average' value fitting of statistical learners which washes out conflicts"
@@ -27,14 +25,14 @@ pdf_extract: "PDF Extracts/2024/2024-Sorensen-Value Kaleidoscope.md"
 tags: 
 abstract: "Human values are crucial to human decision-making. Value pluralism is the view that multiple correct values may be held in tension with one another (e.g., when considering lying to a friend to protect their feelings, how does one balance honesty with friendship?). As statistical learners, AI systems fit to av- erages by default, washing out these potentially irreducible value conflicts. To improve AI systems to better reflect value pluralism, the first-order challenge is to explore the extent to"
 paper_summary: "Abstract: Human values are crucial to human decision-making. Value pluralism is the view that multiple correct values may be held in tension with one another (e.g., when considering lying to a friend to protect | Overview: Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties Taylor Sorensen 1,2, Liwei Jiang 1,2, Jena D. Hwang 2, Sydney Levine 2, Valentina Pyatkin 1,2, Peter West 1,2, Nouha D | Conclusions: Strengths Over Teacher Model Although our model per- forms strongly against the teacher in value generation, it also has several other advantages. It"
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: No
 is_benchmark: No
 is_eval: Yes
 is_dataset: Yes
-data_description: Evaluation framework dataset
+data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Flan-T5"
 DATA_URL: "https://huggingface.co/datasets/allenai/ValuePrism"

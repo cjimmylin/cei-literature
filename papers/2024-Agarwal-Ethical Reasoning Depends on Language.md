@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,15 +15,15 @@ url: "https://arxiv.org/abs/2404.18460"
 external_pdf: "https://arxiv.org/pdf/2404.18460.pdf"
 publication: "LREC-COLING 2024"
 national_ethnic_cultural: Yes
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: Yes
 newtags: "Multilingual, Cross-Cultural, Deontology, Virtue-Ethics, Consequentialism, LLM-Evaluation"
 key_contribution: "Shows LLM ethical reasoning varies by prompt language; GPT-4 most consistent across 6 languages"
 significance: "Demonstrates cultural/linguistic bias in AI moral reasoning, crucial for global AI deployment"
 tags: 
 abstract: "This paper extends the study of ethical reasoning of LLMs to a multilingual setup, probing LLMs with ethical dilemmas and policies from three branches of normative ethics: deontology, virtue, and consequentialism. Testing across six languages (English, Spanish, Russian, Chinese, Hindi, and Swahili), the team found that GPT-4 is the most consistent and unbiased ethical reasoner across languages while the other two models (ChatGPT and Llama2-70B-Chat) demonstrated notable bias shifts in non-English contexts. Their findings suggest that moral value judgments in LLMs are substantially influenced by the prompt language used."
-ethics_overall: Yes
+ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes
 utilitarian_ethics: Yes
@@ -37,7 +34,7 @@ is_dataset: Yes
 data_description: "Multilingual ethical dilemmas across 6 languages"
 data_metrics: "Ethical consistency across languages"
 LLM_assessed: "GPT-4, ChatGPT, Llama-2"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Agarwal-Ethical Reasoning Depends on Language.md"
 local_pdf: "[[PDFs/2024/2024-Agarwal-Ethical Reasoning Depends on Language.pdf]]"
 normative_ethics_benchmark: Yes

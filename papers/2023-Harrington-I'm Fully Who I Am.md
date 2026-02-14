@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.1145/3593013.3594094
 url: "https://dl.acm.org/doi/10.1145/3593013.3594094"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/34D75BD8/Harrington and others - 2023 - I'm Fully Who I Am Towards Centering Transgender and Non-Binary Voices to Measure Biases in Open La.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 

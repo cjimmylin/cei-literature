@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "https://montrealethics.ai/consequentialism-and-machine-ethics-towards-a-fo
 external_pdf: N/A
 publication: "Montreal AI Ethics Institute"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Utilitarianism, Consequentialism, Artificial Moral Agents"
 key_contribution: "Argues consequentialism is most suitable foundation for machine ethics"
@@ -37,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Consequentialism Machine Ethics
 

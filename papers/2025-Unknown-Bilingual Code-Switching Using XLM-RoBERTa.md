@@ -1,42 +1,47 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0831
 type: conferencePaper
-short_title: Bilingual Code-Switching Using XLM-RoBERTa
+short_title: "Bilingual Code-Switching Using XLM-RoBERTa"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+first_author: [[Unknown]]
+last_author: [[Unknown]]
 authors: Unknown
-doi: 10.36227/techrxiv.175756344.42614762
-url: "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762"
+doi: 10.36227/techrxiv.175756344.42614762/v1
+url: "https://doi.org/10.36227/techrxiv.175756344.42614762/v1"
+external_pdf: "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762/v1"
 publication: Web
 local_pdf: 
+pdf_access_status: manual_only
+pdf_access_last_checked: 2026-02-14
+pdf_access_error: "http_403 (HTTP 403)"
+pdf_access_url: "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762/v1"
+pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Code-switching, English, Korean, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
-research_topic: "Other"
+abstract: 
+research_topic: Other
 ---
 # Bilingual Code-Switching Using XLM-RoBERTa
 
@@ -73,4 +78,3 @@ The search results reveal significant research on code-switching bias, fairness,
 **Relevance:** Relevant to Multilingual, Code-switching, Korean
 
 ## Tags
-

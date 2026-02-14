@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,22 +13,22 @@ authors: "[[Li, Haitao]]; [[Chen, Junjie]]; [[Yang, Jingli]]; [[Ai, Qingyao]]; [
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.17259"
 external_pdf: "https://arxiv.org/pdf/2412.17259.pdf"
-local_pdf: "[[PDFs/2025/2025-Li-LegalAgentBench.pdf]]"
+local_pdf: "[[PDFs/2025-Li-LegalAgentBench.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Li-LegalAgentBench.md"
-publication: ACL 2025
+publication: "ACL 2025"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "With the increasing intelligence and autonomy of LLM agents, their potential applications in the legal domain are becoming increasingly apparent. However, existing general-domain benchmarks cannot fully capture the complexity and subtle nuances of real-world judicial cognition and decision-making. Therefore, we propose LegalAgentBench, a comprehensive benchmark specifically designed to evaluate LLM Agents in the Chinese legal domain."
 research_topic: "Machine Learning"

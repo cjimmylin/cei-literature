@@ -1,15 +1,14 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0695
 type: conferencePaper
-short_title: Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM AGENTS
+short_title: "Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM AGENTS"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+first_author: [[Unknown]]
+last_author: [[Unknown]]
 authors: Unknown
 url: "https://www.mircomusolesi.org/papers/iclr25_moral_alignment_llm_agents.pdf"
 external_pdf: "https://core.ac.uk/download/656945121.pdf"
@@ -17,20 +16,20 @@ publication: Web
 local_pdf: "[[PDFs/2025-Unknown-Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

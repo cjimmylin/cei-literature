@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,8 +12,8 @@ last_author: "[[Dorine van Norren]]"
 authors: "Dorine van Norren"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/XKSEZXMK/van Norren - DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020 (Africa Study Centre).pdf"
 national_ethnic_cultural: African/Ubuntu
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "African/Ubuntu, General Ethics"
 key_contribution: "Working paper discussing the exclusion of African ethical frameworks (like Ubuntu) from global AI ethics discourse (e.g., UNESCO consultations)."
@@ -32,8 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md"
 local_pdf: "[[PDFs/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.pdf]]"
 ---

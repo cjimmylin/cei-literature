@@ -1,42 +1,40 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0513
 type: journalArticle
-short_title: Italian Linguistic Features for Toxic Language Detection in Social Media
-year: 2023
+short_title: "Italian Linguistic Features for Toxic Language Detection in Social Media"
+year: 2025
 first_author: "[[Multiple authors]]"
 last_author: "[[Multiple authors]]"
-authors: Multiple authors
+authors: "Multiple authors"
 url: "https://journals.openedition.org/ijcol/1367"
 external_pdf: "http://journals.openedition.org/ijcol/pdf/1367"
-publication: Italian Journal of Computational Linguistics
+publication: "Italian Journal of Computational Linguistics"
 local_pdf: "[[PDFs/2023/2023-authors-Italian Linguistic Features for Toxic Language Detection in Social.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-authors-Italian Linguistic Features for Toxic Language Detection in Social.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Italian"
-languages_list: "Italian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Italian
+languages_list: Italian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "PoliBERT, UmBERTo, bert-base-italian-xxl-uncased"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Italian Linguistic Features for Toxic Language Detection in Social Media

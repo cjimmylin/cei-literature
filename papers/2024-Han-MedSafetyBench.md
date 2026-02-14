@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,12 +13,12 @@ authors: "[[Han, Tessa]]; [[Kumar, Aounon]]; [[Agarwal, Chirag]]; [[Lakkaraju, H
 doi: 10.48550/arXiv.2403.03744
 tags: 
 url: "http://arxiv.org/abs/2403.03744"
-local_pdf: "[[PDFs/2024/2024-Han-MedSafetyBench.pdf]]"
+local_pdf: [[PDFs/2024/2024-Han-MedSafetyBench.pdf]]
 external_pdf: "http://arxiv.org/pdf/2403.03744.pdf"
 publication: "Neural Information Processing Systems"
 national_ethnic_cultural: American
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "American, Utilitarianism"
 key_contribution: "Defines 'medical safety' for LLMs based on AMA ethics principles and introduces MedSafetyBench to evaluating it"

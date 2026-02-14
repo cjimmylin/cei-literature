@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "[[Lin, Zi]]; [[Wang, Zihan]]; [[Tong, Yongqi]]; [[Wang, Yangkun]]; [[G
 url: "https://aclanthology.org/2023.findings-emnlp.311/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/QG932ES4/2023 - ToxicChat Unveiling Hidden Challenges of Toxicity Detection in Real-World User-AI Conversations.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Toxicity & Hate Speech"
 key_contribution: "Released ToxicChat, a benchmark of real-world user-AI conversations that exhibit nuanced toxicity, distinct from the social media data typically used to train toxicity detectors."
@@ -36,7 +34,7 @@ data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://huggingface.co/datasets/lmsys/toxic-chat"
 pdf_extract: "PDF Extracts/2023/2023-Lin-ToxicChat.md"
-local_pdf: "[[PDFs/2023/2023-Lin-ToxicChat.pdf]]"
+local_pdf: [[PDFs/2023/2023-Lin-ToxicChat.pdf]]
 ---
 # ToxicChat: Unveiling Hidden Challenges of Toxicity Detection in Real-World User-AI Conversations
 

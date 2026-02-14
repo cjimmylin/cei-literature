@@ -1,43 +1,40 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0220
 type: preprint
-short_title: The Emergence of Strategic Reasoning of Large Language Models
-year: 2024
+short_title: "The Emergence of Strategic Reasoning of Large Language Models"
+year: 2025
 first_author: "[[Gavin Kader]]"
 last_author: "[[Dongwoo Lee]]"
-authors: Gavin Kader; Dongwoo Lee
+authors: "Gavin Kader; Dongwoo Lee"
 url: "https://arxiv.org/abs/2412.13013"
 external_pdf: "https://arxiv.org/pdf/2412.13013.pdf"
 local_pdf: "[[PDFs/2024/2024-Kader-The Emergence of Strategic Reasoning of Large Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Kader-The Emergence of Strategic Reasoning of Large Language Models.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "As large language models (LLMs) have demonstrated strong reasoning abilities in structured tasks (e.g., coding and mathematics), we explore whether these abilities extend to strategic multi-agent environments. We investigate strategic reasoning capabilities – the process of choosing an optimal course of action by predicting and adapting to others’ actions – of LLMs by analyzing their performance in three classical games from behavioral economics."
-research_topic: "Other"
+research_topic: Other
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, o1, Claude, Gemini"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # The Emergence of Strategic Reasoning of Large Language Models
 

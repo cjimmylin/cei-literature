@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +7,28 @@ key: LSRC0436
 type: preprint
 short_title: "LinguaSafe: A Comprehensive Multilingual Safety Benchmark for Large Language Models"
 year: 2025
-first_author: "[[Ning]]"
-last_author: "[[Gu]]"
-authors: Ning, Gu, et al.
+first_author: [[Ning]]
+last_author: [[Gu]]
+authors: "Ning, Gu, et al."
 url: "https://arxiv.org/abs/2508.12733"
 external_pdf: "https://arxiv.org/pdf/2508.12733.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Ning-LinguaSafe A Comprehensive Multilingual Safety Benchmark for Large.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ning-LinguaSafe A Comprehensive Multilingual Safety Benchmark for Large.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "12 languages including French"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "12 languages"
 LLM_assessed: "Claude-3.5-Sonnet, GPT-4o, Gemini-Pro, Llama-3, Qwen, DeepSeek"

@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2407.03059"
 external_pdf: "http://arxiv.org/pdf/2407.03059.pdf"
 publication: "Neural Information Processing Systems"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, Utilitarianism"
 key_contribution: "Releases FairJob, a real-world fairness dataset for job recommendation, including proxy estimates for sensitive attributes like gender"
@@ -27,7 +25,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Vladimirova-FairJob.md"
 abstract: "We introduce a fairness-aware dataset for job recommendation in advertising, designed to foster research in algorithmic fairness within real-world scenarios. It was collected and prepared to comply with privacy standards and business confidentiality. An additional challenge is the lack of access to protected user attributes such as gender, for which we propose a solution to obtain a proxy estimate. Despite being anonymized and including a proxy for a sensitive attribute, our dataset preserves pr"
 paper_summary: "Abstract: We introduce a fairness-aware dataset for job recommendation in advertising, designed to foster research in algorithmic fairness within real-world scenarios. It was collected and prepared to comply wi | Overview: FairJob: A Real-World Dataset for Fairness in Online Systems Mariia Vladimirova∗, Eustache Diemert Criteo AI Lab {m.vladimirova,e.diemert}@criteo.com Federico Pavone Université Paris Dauphine-PSL fede | Methodology: to compute a fair utility metric for the job recommendations in online systems case from a biased dataset. Experimental evaluations of bias mitigation | Conclusions: Addressing bias in AI goes beyond mere compliance with legal frameworks like the AI Act; it necessitates proactive measures to detect, prevent, and mi"
-local_pdf: "[[PDFs/2024/2024-Vladimirova-FairJob.pdf]]"
+local_pdf: [[PDFs/2024/2024-Vladimirova-FairJob.pdf]]
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -37,7 +35,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/criteo/FairJob"
 ---
 # FairJob: A Real-World Dataset for Fairness in Online Systems

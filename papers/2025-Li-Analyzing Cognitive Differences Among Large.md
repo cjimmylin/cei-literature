@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2505.01967"
 external_pdf: "http://arxiv.org/pdf/2505.01967.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Responsible AI"
 key_contribution: "Introduced the Social Worldview Taxonomy (SWT) based on Cultural Theory to measure cognitive differences (Hierarchy, Egalitarianism, etc.) across 28 LLMs."
@@ -39,7 +37,7 @@ is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, Qwen, Llama-3, Gemma, Gemini, DeepSeek, Phi"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # Analyzing Cognitive Differences Among Large Language Models through the Lens of Social Worldview
 

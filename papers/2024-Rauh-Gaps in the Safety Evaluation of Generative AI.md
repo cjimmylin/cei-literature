@@ -1,18 +1,15 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0177
 type: conferencePaper
-short_title: Gaps in the Safety Evaluation of Generative AI
-year: 2024
+short_title: "Gaps in the Safety Evaluation of Generative AI"
+year: 2025
 first_author: "[[Maribeth Rauh]]"
 last_author: "[[Laura Weidinger]]"
-authors: Maribeth Rauh; Nahema Marchal; Arianna Manzini; L. Hendricks; R. Comanescu; Canfer Akbulut; Tom Stepleton; Juan Mateos-Garcia; Stevie Bergman; Jackie Kay; Conor Griffin; Ben Bariach; Iason Gabriel; Verena Rieser; William Isaac; Laura Weidinger
+authors: "Maribeth Rauh; Nahema Marchal; Arianna Manzini; L. Hendricks; R. Comanescu; Canfer Akbulut; Tom Stepleton; Juan Mateos-Garcia; Stevie Bergman; Jackie Kay; Conor Griffin; Ben Bariach; Iason Gabriel; Verena Rieser; William Isaac; Laura Weidinger"
 doi: 10.1609/aies.v7i1.31717
 url: "https://doi.org/10.1609/aies.v7i1.31717"
 external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/31717/33884"
@@ -20,24 +17,24 @@ local_pdf: "[[PDFs/2024/2024-Rauh-Gaps in the Safety Evaluation of Generative AI
 pdf_extract: "PDF Extracts/2024/2024-Rauh-Gaps in the Safety Evaluation of Generative AI.md"
 publication: Unknown
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "Jainism"
-religious_values_list: "Jainism"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: Jainism
+religious_values_list: Jainism
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://dpmd.ai/EvalsRepo"
 ---
 # Gaps in the Safety Evaluation of Generative AI

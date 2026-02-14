@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "[[In, Yeonjun]]; [[Kim, Wonjoong]]; [[Yoon, Kanghoon]]; [[Kim, Sungchu
 url: "https://arxiv.org/abs/2502.15086"
 external_pdf: "https://arxiv.org/pdf/2502.15086"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduces U-SafeBench, a benchmark for evaluating user-specific safety of LLMs, revealing that current models fail to respect individualized safety standards."
@@ -24,7 +22,7 @@ significance: "Identifies a novel vulnerability in LLM safety — models apply u
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Various-U-SafeBench.md"
 paper_summary: "Introduces U-SafeBench, a comprehensive benchmark for evaluating user-specific safety of LLMs. Tests reveal current models fail to act safely when considering individualized safety standards, and proposes a chain-of-thought remedy to improve performance."
-local_pdf: "[[PDFs/2025/2025-Various-U-SafeBench.pdf]]"
+local_pdf: [[PDFs/2025/2025-Various-U-SafeBench.pdf]]
 abstract: "There is an ongoing debate about what safety means for large language models (LLMs). While most safety benchmarks evaluate LLMs against universal safety standards, in practice, safety requirements vary across users and contexts. We introduce U-SafeBench, a comprehensive benchmark for evaluating user-specific safety of LLMs. Our evaluation reveals that current LLMs fail to act safely when considering user-specific safety standards, representing a newly identified vulnerability. We propose a chain-of-thought based remedy that improves user-specific safety performance."
 ethics_overall: No
 virtue_ethics: No
@@ -36,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # U-SafeBench: A Unified Benchmark for Evaluating the Safety of Language Models
 

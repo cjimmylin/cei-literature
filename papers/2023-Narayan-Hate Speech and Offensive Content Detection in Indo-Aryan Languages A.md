@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0187
 type: preprint
 short_title: "Hate Speech and Offensive Content Detection in Indo-Aryan Languages: A Battle of LSTM and Transformers"
-year: 2023
+year: 2025
 first_author: "[[Nikhil Narayan]]"
-last_author: "[[Unknown]]"
-authors: Nikhil Narayan; Mrutyunjay Biswal; Pramod Goyal; Abhranta Panigrahi
+last_author: [[Unknown]]
+authors: "Nikhil Narayan; Mrutyunjay Biswal; Pramod Goyal; Abhranta Panigrahi"
 url: "https://arxiv.org/abs/2312.05671"
 external_pdf: "https://arxiv.org/pdf/2312.05671.pdf"
 local_pdf: "[[PDFs/2023/2023-Narayan-Hate Speech and Offensive Content Detection in Indo-Aryan Languages A.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Narayan-Hate Speech and Offensive Content Detection in Indo-Aryan Languages A.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Assamese, Bengali, Bodo, Gujarati, Sinhala"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

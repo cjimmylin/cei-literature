@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,8 +8,8 @@ type: conferencePaper
 short_title: "AI-driven detection of hate speech on social media: a case study in the French language"
 year: 2025
 first_author: "[[Zahim Chared]]"
-last_author: "[[Unknown]]"
-authors: Zahim Chared; Clément Jantet; Calliste Ravix; Robin Salmi; Ehtesham Hashmi; Sule YAYILGAN YILDIRIM
+last_author: [[Unknown]]
+authors: "Zahim Chared; Clément Jantet; Calliste Ravix; Robin Salmi; Ehtesham Hashmi; Sule YAYILGAN YILDIRIM"
 doi: 10.1007/s10586-025-05553-0
 url: "https://link.springer.com/article/10.1007/s10586-025-05553-0"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10586-025-05553-0.pdf"
@@ -19,25 +17,25 @@ publication: Springer
 local_pdf: "[[PDFs/2025/2025-Chared-AI-driven detection of hate speech on social media a case study in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Chared-AI-driven detection of hate speech on social media a case study in.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "French"
-languages_list: "French"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: French
+languages_list: French
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "CamemBERT, DistilCamemBERT, DeHateBERT"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # AI-driven detection of hate speech on social media: a case study in the French language

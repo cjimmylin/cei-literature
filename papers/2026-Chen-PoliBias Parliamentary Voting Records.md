@@ -1,15 +1,12 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0011
 type: preprint
-short_title: PoliBias (Parliamentary Voting Records)
-year: 2026
+short_title: "PoliBias (Parliamentary Voting Records)"
+year: 2025
 first_author: "[[Chen, Jieying]]"
 last_author: "[[Wang, Chendi]]"
 authors: "[[Chen, Jieying]]; [[Jong, Karen de]]; [[Poole, Andreas]]; [[Burakowski, Jan]]; [[Nosti, Elena Elderson]]; [[Windt, Joep]]; [[Wang, Chendi]]"
@@ -18,27 +15,27 @@ url: "https://arxiv.org/abs/2601.08785"
 external_pdf: "https://arxiv.org/pdf/2601.08785.pdf"
 local_pdf: "[[PDFs/2026/2026-Chen-PoliBias Parliamentary Voting Records.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Chen-PoliBias Parliamentary Voting Records.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Spanish, Dutch"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "As large language models (LLMs) become deeply embedded in digital platforms and decision-making systems, concerns about their political biases have grown. While substantial work has examined social biases such as gender and race, systematic studies of political bias remain limited—despite their direct societal impact. This paper introduces a general methodology for constructing political-bias benchmarks by aligning model-generated voting predictions with verified parliamentary voting records."
 ethics_perspective: "Bias & Fairness"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 LLM_assessed: "Mistral, Falcon, Gemma, DeepSeek, GPT-3.5, GPT-4, Llama-2, Llama-3"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # PoliBias (Parliamentary Voting Records)
 

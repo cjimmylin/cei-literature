@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0476
 type: conference_paper
 short_title: "Divine LLaMAs Bias Stereotypes Stigmatization and"
-year: 2024
+year: 2025
 first_author: "[[Flor Miriam Plaza-del-Arco, Simone Tedeschi, Fer-Jan de Vries, Dirk Hovy]]"
 last_author: "[[Flor Miriam Plaza-del-Arco, Simone Tedeschi, Fer-Jan de Vries, Dirk Hovy]]"
 authors: "[[Flor Miriam Plaza-del-Arco, Simone Tedeschi, Fer-Jan de Vries, Dirk Hovy]]"
@@ -19,26 +15,26 @@ url: "https://arxiv.org/abs/2407.06908"
 external_pdf: "https://arxiv.org/pdf/2407.06908.pdf"
 local_pdf: "[[PDFs/2024/2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and.md"
-publication: Findings of EMNLP 2024
+publication: "Findings of EMNLP 2024"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "American"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: American
 religious_values: "Islam, Buddhism, Judaism, Hinduism"
 religious_values_list: "Islam, Buddhism, Judaism, Hinduism"
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 tags: 
 abstract: "Emotions play important epistemological and cognitive roles in our lives, revealing our values and guiding our actions. Previous work has shown that LLMs display biases in emotion attribution along gender lines. However, unlike gender, which says little about our values, religion, as a socio-cultural system, prescribes a set of beliefs and values for its followers. Religions, therefore, cultivate certain emotions. Moreover, these rules are explicitly laid out and interpreted by religious leaders."
-data_description: "N/A"
+data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Social & Cultural Values"
 ---
 # Divine LLaMAs: Bias, Stereotypes, Stigmatization, and Emotion Representation of Religion in Large Language Models

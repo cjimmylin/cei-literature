@@ -1,43 +1,42 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0346
 type: conferencePaper
-short_title: The FRENK Datasets of Socially Unacceptable Discourse in Slovene and English
-year: 2019
+short_title: "The FRENK Datasets of Socially Unacceptable Discourse in Slovene and English"
+year: 2025
 first_author: "[[Nikola Ljubesic]]"
 last_author: "[[Tomaz Erjavec]]"
-authors: Nikola Ljubesic, Darja Fiser, Tomaz Erjavec
+authors: "Nikola Ljubesic, Darja Fiser, Tomaz Erjavec"
 doi: 10.1007/978-3-030-27947-9_9
 url: "https://link.springer.com/chapter/10.1007/978-3-030-27947-9_9"
 external_pdf: "https://arxiv.org/pdf/1906.02045v2.pdf"
-publication: Springer / CLARIN
+publication: "Springer / CLARIN"
 local_pdf: "[[PDFs/2019/2019-Ljubesic-The FRENK Datasets of Socially Unacceptable Discourse in Slovene and.pdf]]"
 pdf_extract: "PDF Extracts/2019/2019-Ljubesic-The FRENK Datasets of Socially Unacceptable Discourse in Slovene and.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Croatian, English, Slovenian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
-research_topic: "Other"
+abstract: 
+research_topic: Other
 ---
 # The FRENK Datasets of Socially Unacceptable Discourse in Slovene and English
 

@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +15,8 @@ url: "https://www.sciencedirect.com/science/article/pii/S2451958825002696"
 external_pdf: "https://www.sciencedirect.com/science/article/pii/S2451958825002696/pdfft?md5=c8e7d7c8c8c8c8c8c8c8c8c8c8c8c8c8&pid=1-s2.0-S2451958825002696-main.pdf"
 publication: "Computers in Human Behavior Reports"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Utilitarianism, Moral Dilemmas, LLM Evaluation"
 key_contribution: "Systematic quantitative comparison of seven LLMs on moral dilemmas showing utilitarian tendencies in impersonal contexts"
@@ -38,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 normative_ethics_benchmark: Borderline
 ---
 # Decoding Moral Responses in AI

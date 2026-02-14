@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "M. Miah"
 url: "https://www.kaggle.com/datasets/mamun18/islam-qa-dataset"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/JJPDXDYI/Miah - 2023 - Islam QA Web-scraped Islamic Question-Answer Corpus.pdf"
 national_ethnic_cultural: N/A
-religious_values: "Islam"
-religious_values_list: "Islam"
+religious_values: Islam
+religious_values_list: Islam
 moral_psychology: N/A
 newtags: Islam
 tags: 
@@ -31,8 +29,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "73,000 question; over 73,000 question"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Miah-Islam QA.md"
 local_pdf: "[[PDFs/2023/2023-Miah-Islam QA.pdf]]"
 ---

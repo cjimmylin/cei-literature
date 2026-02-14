@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +15,8 @@ url: "http://arxiv.org/abs/2410.07304"
 external_pdf: "http://arxiv.org/pdf/2410.07304.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: Yes
 newtags: Utilitarianism
 key_contribution: "Created a corpus of human vs. LLM responses to moral scenarios and conducted a user study (N=230) to evaluate detection and agreement"
@@ -39,7 +36,7 @@ is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Detection accuracy, agreement rates, anti-AI bias measures"
 LLM_assessed: "GPT-3.5, text-davinci"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Yes
 ---
 # The Moral Turing Test: Evaluating Human-LLM Alignment in Moral Decision-Making

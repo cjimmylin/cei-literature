@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,35 +6,35 @@ Not AI:
 key: EXSR0014
 type: preprint
 short_title: "VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models"
-year: 2026
+year: 2025
 first_author: "[[Woojin Kim]]"
 last_author: "[[Jaeyoung Do]]"
-authors: Woojin Kim; Sieun Hyeon; Jusang Oh; Jaeyoung Do
+authors: "Woojin Kim; Sieun Hyeon; Jusang Oh; Jaeyoung Do"
 url: "https://arxiv.org/abs/2602.03160"
 external_pdf: "https://arxiv.org/pdf/2602.03160.pdf"
 local_pdf: "[[PDFs/2026/2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md"
-publication: arXiv preprint
+publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Aligning Large Language Models (LLMs) with the diverse spectrum of human values remains a central challenge: preference-based methods often fail to capture deeper motivational principles. Value-based approaches offer a more principled path, yet three gaps persist– extraction often ignores hierarchical structure, evaluation detects presence but not calibrated intensity, and therefore, the steerability of LLMs at controlled intensities remains insufficiently understood."
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude, Gemini, Grok, Qwen, Mistral, Phi, Gemma"
-DATA_URL: "NA"
+DATA_URL: NA
 ---
 # VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models
 

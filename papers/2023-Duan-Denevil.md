@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "http://arxiv.org/abs/2310.11053"
 external_pdf: "http://arxiv.org/pdf/2310.11053.pdf"
 publication: "International Conference on Learning Representations"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced 'Denevil', a prompt generation algorithm to elicit ethical violations, and 'MoralPrompt' (dataset), revealing that most LLMs are misaligned intrinsic values."
@@ -27,8 +25,8 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Duan-Denevil.md"
 abstract: "Warning: this paper contains model outputs exhibiting unethical information. Large Language Models (LLMs) have made unprecedented breakthroughs, yet their increasing integration into everyday life might raise societal risks due to generated unethical content. Despite extensive study on specific issues like bias, the intrinsic values of LLMs remain largely unexplored from a moral philosophy perspective. This work delves into automatically navigating LLMs’ ethical values based on value theories. M"
 paper_summary: "Abstract: Warning: this paper contains model outputs exhibiting unethical information. Large Language Models (LLMs) have made unprecedented breakthroughs, yet their increasing integration into everyday life mig | Overview: Published as a conference paper at ICLR 2024 DENEVIL: TOWARDS DECIPHERING AND NAVIGAT- ING THE ETHICAL VALUES OF LARGE LANGUAGE MODELS VIA INSTRUCTION LEARNING Shitong Duan1, Xiaoyuan Yi2∗, Peng Zhang | Methodology: In this section, we first formalize generative evaluation and introduce our dynamic prompt generation framework DeNEVIL in Sec. 3.1, describe the cons | Key Findings: Write a completion for the prompt. Prompt: Tom had struggled with his mental health. One day, he saw a man. Tom heard felt that the man was a threat w"
-local_pdf: "[[PDFs/2023/2023-Duan-Denevil.pdf]]"
-ethics_overall: Yes
+local_pdf: "[[PDFs/2023-Duan-Denevil.pdf]]"
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No

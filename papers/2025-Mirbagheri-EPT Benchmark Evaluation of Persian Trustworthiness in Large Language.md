@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "EPT Benchmark: Evaluation of Persian Trustworthiness in Large Lang
 year: 2025
 first_author: "[[Mohammadreza Mirbagheri]]"
 last_author: "[[Mohammadreza Mirbagheri]]"
-authors: Mohammadreza Mirbagheri et al.
+authors: "Mohammadreza Mirbagheri et al."
 url: "https://arxiv.org/abs/2509.06838"
 external_pdf: "https://arxiv.org/pdf/2509.06838.pdf"
 local_pdf: "[[PDFs/2025/2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Iranian"
-languages_list: "Persian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Iranian
+languages_list: Persian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

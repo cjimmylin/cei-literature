@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +8,28 @@ type: preprint
 short_title: "OmniEduBench: A Comprehensive Chinese Benchmark for Evaluating Large Language Models in Education"
 year: 2025
 first_author: "[[Min Zhang]]"
-last_author: "[[Unknown]]"
-authors: Min Zhang; Hao Chen; Hao Chen; Wenqi Zhang; Didi Zhu; Xin Lin; Bo Jiang; Aimin Zhou; Fei Wu; Kun Kuang
+last_author: [[Unknown]]
+authors: "Min Zhang; Hao Chen; Hao Chen; Wenqi Zhang; Didi Zhu; Xin Lin; Bo Jiang; Aimin Zhou; Fei Wu; Kun Kuang"
 url: "https://arxiv.org/html/2510.26422v1"
 external_pdf: "https://arxiv.org/pdf/2510.26422.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Zhang-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhang-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
 languages_list: "Chinese, English"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: conferencePaper
 short_title: "HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection"
 year: 2025
 first_author: "[[Binny Mathew]]"
-last_author: "[[Unknown]]"
-authors: Binny Mathew; Punyajoy Saha; Seid Muhie Yimam; Chris Biemann; Pawan Goyal; Animesh Mukherjee
+last_author: [[Unknown]]
+authors: "Binny Mathew; Punyajoy Saha; Seid Muhie Yimam; Chris Biemann; Pawan Goyal; Animesh Mukherjee"
 url: "https://cdn.aaai.org/ojs/17745/17745-13-21239-1-2-20210518.pdf"
 external_pdf: "https://arxiv.org/pdf/2012.10289v2.pdf"
 publication: Web
 local_pdf: "[[PDFs/2025/2025-Mathew-HateXplain A Benchmark Dataset for Explainable Hate Speech Detection.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mathew-HateXplain A Benchmark Dataset for Explainable Hate Speech Detection.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "English, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

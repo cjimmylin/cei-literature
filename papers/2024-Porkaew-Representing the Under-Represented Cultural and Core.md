@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0522
 type: preprint
 short_title: "Representing the Under-Represented Cultural and Core"
-year: 2024
+year: 2025
 first_author: "[[Sawit Kasuriya, Parinthapat Pengpun, Peerat Limkonchotiwat, Potsawee Manakul, Can Udomcharoenchaikit, Kunat Pipatanakul, Phatrasek Jirabovonvisut, Kanokorn Srimai, Peerachet Porkaew]]"
 last_author: "[[Sawit Kasuriya, Parinthapat Pengpun, Peerat Limkonchotiwat, Potsawee Manakul, Can Udomcharoenchaikit, Kunat Pipatanakul, Phatrasek Jirabovonvisut, Kanokorn Srimai, Peerachet Porkaew]]"
 authors: "[[Sawit Kasuriya, Parinthapat Pengpun, Peerat Limkonchotiwat, Potsawee Manakul, Can Udomcharoenchaikit, Kunat Pipatanakul, Phatrasek Jirabovonvisut, Kanokorn Srimai, Peerachet Porkaew]]"
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2410.04795"
 external_pdf: "https://arxiv.org/pdf/2410.04795.pdf"
 local_pdf: "[[PDFs/2024/2024-Porkaew-Representing the Under-Represented Cultural and Core.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Porkaew-Representing the Under-Represented Cultural and Core.md"
-publication: ACL Anthology (COLING 2025)
+publication: "ACL Anthology (COLING 2025)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Thai"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Thai
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "The rapid advancement of large language models (LLMs) has highlighted the need for robust evaluation frameworks that assess their core capabilities, such as reasoning, knowledge, and commonsense, leading to the inception of certain widely-used benchmark suites such as the H6 benchmark. However, these benchmark suites are primarily built for the English language, and there exists a lack thereof for under-represented languages, in terms of LLM development, such as Thai."
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/UpstageAI/ThaiCLI_H6"
 research_topic: "Machine Learning"
 ---

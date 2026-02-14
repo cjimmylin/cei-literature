@@ -6,36 +6,36 @@ Human View note:
 Not AI: 
 key: LSRC0310
 type: conferencePaper
-short_title: Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts
-year: 2021
+short_title: "Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts"
+year: 2025
 first_author: "[[Anastasiia Pronoza]]"
 last_author: "[[Roman Rosenberg]]"
-authors: Anastasiia Pronoza, Polina Panicheva, Olga Koltsova, Roman Rosenberg
+authors: "Anastasiia Pronoza, Polina Panicheva, Olga Koltsova, Roman Rosenberg"
 doi: 10.1016/j.ipm.2021.102674
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0306457321001606"
-publication: Information Processing and Management (Elsevier)
-local_pdf: 
-pdf_extract: 
-DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Russian"
-languages_list: "Russian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+external_pdf: "https://riunet.upv.es/bitstream/10251/183078/3/PronozaPanichevaKoltsova%20-%20Detecting%20Ethnicity-targeted%20Hate%20Speech%20in%20Russian%20Social%20Media%20Texts.pdf"
+publication: "Information Processing and Management (Elsevier)"
+local_pdf: "[[PDFs/2021/2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts.pdf]]"
+pdf_extract: "PDF Extracts/2021/2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts.md"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Russian
+languages_list: Russian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "First dataset annotated with ethnicity-targeted hate speech in Russian (5.5K texts). Constructed from 2.6M user messages mentioning ethnic groups with 12K annotated instances. Addresses differentiation of attitudes towards different ethnic groups."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts

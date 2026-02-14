@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.18653/v1/2020.semeval-1.223
 url: "https://aclanthology.org/2020.semeval-1.223/"
 external_pdf: "https://aclanthology.org/2020.semeval-1.223.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -34,8 +32,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # UIC-NLP at SemEval-2020 Task 10: Exploring an Alternate Perspective on Evaluation
 

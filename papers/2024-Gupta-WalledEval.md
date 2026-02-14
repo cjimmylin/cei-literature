@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,29 +6,29 @@ Not AI:
 key: EXSR0230
 type: conferencePaper
 short_title: WalledEval
-year: 2024
+year: 2025
 first_author: "[[Gupta, Prannaya]]"
 last_author: "[[Poria, Soujanya]]"
 authors: "[[Gupta, Prannaya]]; [[Yau, Le Qi]]; [[Low, Hao Han]]; [[Lee, I-Shiang]]; [[Lim, Hugo Maximus]]; [[Teoh, Yu Xin]]; [[Koh, Jia Hng]]; [[Liew, Dar Win]]; [[Bhardwaj, Rishabh]]; [[Bhardwaj, Rajat]]; [[Poria, Soujanya]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2408.03837"
 external_pdf: "https://arxiv.org/pdf/2408.03837.pdf"
-local_pdf: "[[PDFs/2024/2024-Gupta-WalledEval.pdf]]"
+local_pdf: "[[PDFs/2024-Gupta-WalledEval.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Gupta-WalledEval.md"
-publication: EMNLP 2024
+publication: "EMNLP 2024"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "WALLEDEVAL is a comprehensive AI safety testing toolkit designed to evaluate large language models (LLMs). It accommodates a diverse range of models, including both open-weight and API-based ones, and features over 35 safety benchmarks covering areas such as multilingual safety, exaggerated safety, and prompt injections. The framework supports both LLM and judge benchmarking and incorporates custom mutators to test safety against various text-style mutations, such as future tense and..."
 ethics_perspective: "AI Safety & Alignment"

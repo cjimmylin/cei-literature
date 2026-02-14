@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "http://arxiv.org/abs/2505.16081"
 external_pdf: "http://arxiv.org/pdf/2505.16081.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Released BiasLab, a dataset of 300 political news articles with dual-axis bias annotations (Democrat vs. Republican sentiment) and rationale indicators."
@@ -27,8 +25,8 @@ significance: "Enhances explainable bias detection by providing 'rationale' anno
 pdf_extract: "PDF Extracts/2025/2025-Solaiman-BiasLab.md"
 abstract: "We present BiasLab, a dataset of 300 politi- cal news articles annotated for perceived ideo- logical bias. These articles were selected from a curated 900-document pool covering diverse political events and source biases. Each arti- cle is labeled by crowdworkers along two inde- pendent scales, assessing sentiment toward the Democratic and Republican parties, and enriched with rationale indicators adapted from media liter- acy guidelines. The annotation pipeline incorpo- rates targeted worker qu"
 paper_summary: "Abstract: We present BiasLab, a dataset of 300 politi- cal news articles annotated for perceived ideo- logical bias. These articles were selected from a curated 900-document pool covering diverse political even | Overview: BiasLab: Toward Explainable Political Bias Detection with Dual-Axis Human Annotations and Rationale Indicators KMA Solaiman 1 Abstract We present BiasLab, a dataset of 300 politi- cal news articles an | Methodology: for subjective annotation tasks, including bias detection. Budak et al. (11) demonstrated the effectiveness of crowd workers in quantifying media bias | Conclusions: BiasLab introduces a new resource for explainable politi- cal bias detection, pairing dual-axis sentiment labels with rationale indicators that surfac"
-local_pdf: "[[PDFs/2025/2025-Solaiman-BiasLab.pdf]]"
-ethics_overall: Yes
+local_pdf: "[[PDFs/2025-Solaiman-BiasLab.pdf]]"
+ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
@@ -38,7 +36,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4"
+LLM_assessed: GPT-4
 DATA_URL: "https://github.com/ksolaiman/PoliticalBiasCorpus"
 DATE_ADDED: 20260207
 ---

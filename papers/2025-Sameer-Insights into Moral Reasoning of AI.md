@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +16,8 @@ url: "https://doi.org/10.1080/23736992.2025.2553146"
 publication: "Journal of Media Ethics"
 ethics_perspective: "Moral Psychology"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Reasoning, Deontology, LLM Evaluation, Moral Foundations Theory"
 key_contribution: "Compares moral reasoning between humans and LLMs using Moral Competence Test (MCT) and Moral Foundations Questionnaire (MFQ)"
@@ -35,7 +33,7 @@ is_dataset: No
 data_description: "MCT and MFQ responses from humans and LLMs"
 data_metrics: "Moral competence scores, MFQ foundation scores"
 LLM_assessed: "ChatGPT, GPT-4"
-DATA_URL: "NA"
+DATA_URL: NA
 local_pdf: "[[PDFs/2025/2025-Sameer-Insights into Moral Reasoning of AI.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Sameer-Insights into Moral Reasoning of AI.md"
 ---

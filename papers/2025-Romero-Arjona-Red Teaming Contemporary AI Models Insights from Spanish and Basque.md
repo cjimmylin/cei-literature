@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,28 +8,28 @@ type: preprint
 short_title: "Red Teaming Contemporary AI Models: Insights from Spanish and Basque Perspectives"
 year: 2025
 first_author: "[[Miguel Romero-Arjona]]"
-last_author: "[[Unknown]]"
-authors: Miguel Romero-Arjona; Pablo Valle; Juan C. Alonso; Ana B. Sánchez; Miriam Ugarte; Antonia Cazalilla; Vicente Cambrón; José A. Parejo; Aitor Arrieta; Sergio Segura
+last_author: [[Unknown]]
+authors: "Miguel Romero-Arjona; Pablo Valle; Juan C. Alonso; Ana B. Sánchez; Miriam Ugarte; Antonia Cazalilla; Vicente Cambrón; José A. Parejo; Aitor Arrieta; Sergio Segura"
 url: "https://arxiv.org/abs/2503.10192"
 external_pdf: "https://arxiv.org/pdf/2503.10192.pdf"
 local_pdf: "[[PDFs/2025/2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque.md"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Chinese, Spanish, American"
 languages_list: "Basque, Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

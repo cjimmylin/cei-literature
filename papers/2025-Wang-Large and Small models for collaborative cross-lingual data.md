@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,8 +8,8 @@ type: conferencePaper
 short_title: "Large and Small models for collaborative cross-lingual data augmentation in entity relationship extraction for low-resource languages | Journal of King Saud University Computer and Information Sciences | Springer Nature Link"
 year: 2025
 first_author: "[[Yurong Wang]]"
-last_author: "[[Unknown]]"
-authors: Yurong Wang; Min Lin; Qitu Hu; Longjie Bao; Shuangcheng Bai; Yanling Li
+last_author: [[Unknown]]
+authors: "Yurong Wang; Min Lin; Qitu Hu; Longjie Bao; Shuangcheng Bai; Yanling Li"
 doi: 10.1007/s44443-025-00055-w
 url: "https://link.springer.com/article/10.1007/s44443-025-00055-w"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s44443-025-00055-w.pdf"
@@ -18,20 +17,20 @@ publication: Springer
 local_pdf: "[[PDFs/2025/2025-Wang-Large and Small models for collaborative cross-lingual data.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Wang-Large and Small models for collaborative cross-lingual data.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Mongolian, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

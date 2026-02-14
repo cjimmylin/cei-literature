@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +15,26 @@ url: "https://aclanthology.org/2025.findings-acl.228/"
 external_pdf: "https://arxiv.org/pdf/2506.15355.pdf"
 local_pdf: "[[PDFs/2025/2025-results]]-SANSKRITI A Comprehensive Benchmark for Evaluating.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-results]]-SANSKRITI A Comprehensive Benchmark for Evaluating.md"
-publication: WebSearch: SANSKRITI benchmark
+publication: "WebSearch: SANSKRITI benchmark"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
 national_ethnic_cultural: "Indian, Multicultural/Cross-cultural"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Language models (LMs) are indispensable tools shaping modern workflows, but their global effectiveness depends on understanding local socio-cultural contexts. To address this, we introduce SANSKRITI, a benchmark designed to evaluate language models’ comprehension of India’s rich cultural diversity. Comprising of 21,853 meticulously curated question-answer pairs spanning 28 states and 8 union territories, SANSKRITI is the largest dataset for testing Indian cultural knowledge."
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 research_topic: "Social & Cultural Analysis"
 ---
 # SANSKRITI: A Comprehensive Benchmark for Evaluating Language Models' Knowledge of Indian Culture

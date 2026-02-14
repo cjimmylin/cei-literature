@@ -1,15 +1,12 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0184
 type: preprint
-short_title: Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs
-year: 2024
+short_title: "Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs"
+year: 2025
 first_author: "[[V. & Tonneau Khandelwal]]"
 last_author: "[[Scott A. Hale]]"
 authors: "Khyati Khandelwal; Manuel Tonneau; Andrew M. Bean; Hannah Rose Kirk; Scott A. Hale"
@@ -20,20 +17,20 @@ local_pdf: "[[PDFs/2024/2024-Khandelwal-Indian-BhED - A Dataset for Measuring In
 pdf_extract: "PDF Extracts/2024/2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Indian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
-abstract:
+abstract: 
 research_topic: "Machine Learning"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"

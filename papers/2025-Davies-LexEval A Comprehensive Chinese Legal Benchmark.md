@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,27 +9,27 @@ short_title: "LexEval: A Comprehensive Chinese Legal Benchmark"
 year: 2025
 first_author: "[[Dave Davies]]"
 last_author: "[[Dave Davies]]"
-authors: Dave Davies
+authors: "Dave Davies"
 url: "https://proceedings.neurips.cc/paper_files/paper/2024/file/2cb40fc022ca7bdc1a9a78b793661284-Paper-Datasets_and_Benchmarks_Track.pdf"
 external_pdf: "https://arxiv.org/pdf/2409.20288v4.pdf"
 publication: Web
 local_pdf: "[[PDFs/2025/2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Chinese"
-languages_list: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Chinese
+languages_list: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

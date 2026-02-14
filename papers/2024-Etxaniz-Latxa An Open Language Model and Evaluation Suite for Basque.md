@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,29 +6,29 @@ Not AI:
 key: LSRC0519
 type: preprint
 short_title: "Latxa: An Open Language Model and Evaluation Suite for Basque"
-year: 2024
+year: 2025
 first_author: "[[Julen Etxaniz]]"
 last_author: "[[Oscar Sainz]]"
-authors: Julen Etxaniz, Oscar Sainz et al.
+authors: "Julen Etxaniz, Oscar Sainz et al."
 url: "https://arxiv.org/abs/2403.20266"
 external_pdf: "https://arxiv.org/pdf/2403.20266.pdf"
-publication: arXiv / ACL 2024
+publication: "arXiv / ACL 2024"
 local_pdf: "[[PDFs/2024/2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Basque"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Basque
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark text corpus"
 data_metrics: "5,169 questions; 16,774 questions; 4.3m documents"
 LLM_assessed: "Latxa (LLaMa-based), Irati, Llama-2, Mistral"

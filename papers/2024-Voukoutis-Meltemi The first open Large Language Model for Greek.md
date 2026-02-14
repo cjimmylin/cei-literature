@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,29 +6,29 @@ Not AI:
 key: LSRC0528
 type: preprint
 short_title: "Meltemi: The first open Large Language Model for Greek"
-year: 2024
+year: 2025
 first_author: "[[Leon Voukoutis]]"
 last_author: "[[Vassilis Katsouros]]"
-authors: Leon Voukoutis, Dimitris Roussis, Georgios Paraskevopoulos, Sokratis Sofianopoulos, Prokopis Prokopidis, Vassilis Papavasileiou, Athanasios Katsamanis, Stelios Piperidis, Vassilis Katsouros
+authors: "Leon Voukoutis, Dimitris Roussis, Georgios Paraskevopoulos, Sokratis Sofianopoulos, Prokopis Prokopidis, Vassilis Papavasileiou, Athanasios Katsamanis, Stelios Piperidis, Vassilis Katsouros"
 url: "https://arxiv.org/abs/2407.20743"
 external_pdf: "https://arxiv.org/pdf/2407.20743.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2024/2024-Voukoutis-Meltemi The first open Large Language Model for Greek.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Voukoutis-Meltemi The first open Large Language Model for Greek.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Greek"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Greek
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach text corpus for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "Meltemi-7B, Mistral-7B"

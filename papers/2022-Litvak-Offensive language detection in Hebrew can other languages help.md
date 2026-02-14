@@ -7,34 +7,35 @@ Not AI:
 key: LSRC0017
 type: conferencePaper
 short_title: "Offensive language detection in Hebrew: can other languages help?"
-year: 2022
+year: 2025
 first_author: "[[Marina Litvak]]"
 last_author: "[[Eran Madeghem]]"
-authors: Marina Litvak, Natalia Vanetik, Chaya Liebeskind, Oren Hmdia, Eran Madeghem
+authors: "Marina Litvak, Natalia Vanetik, Chaya Liebeskind, Oren Hmdia, Eran Madeghem"
 url: "https://aclanthology.org/2022.lrec-1.396/"
-publication: ACL Anthology (LREC 2022)
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://aclanthology.org/2022.lrec-1.396.pdf"
+publication: "ACL Anthology (LREC 2022)"
+local_pdf: "[[PDFs/2022/2022-Litvak-Offensive language detection in Hebrew can other languages help.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Litvak-Offensive language detection in Hebrew can other languages help.md"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Hebrew/Israeli"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Hebrew/Israeli
 languages_list: "Arabic, English, Hebrew"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: "Introduces a new dataset of annotated Facebook comments in Hebrew and conducts cross-lingual offensive language detection across Semitic languages (Hebrew and Arabic). Evaluates multiple supervised models and transfer learning approaches."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Offensive language detection in Hebrew: can other languages help?

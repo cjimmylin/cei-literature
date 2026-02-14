@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,35 +6,41 @@ Not AI:
 key: LSRC0357
 type: conferencePaper
 short_title: "Detecting Hate Speech Online: A Case of Croatian"
-year: 2020
+year: 2025
 first_author: "[[Mladen Karan]]"
 last_author: "[[Jan Snajder]]"
-authors: Mladen Karan, Jan Snajder
+authors: "Mladen Karan, Jan Snajder"
 doi: 10.1007/978-3-030-38833-1_16
 url: "https://link.springer.com/chapter/10.1007/978-3-030-38833-1_16"
+external_pdf: "https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:892/datastream/FILE0"
 publication: Springer
-local_pdf: 
+local_pdf: N/A
+pdf_access_status: manual_only
+pdf_access_last_checked: 2026-02-14
+pdf_access_error: "http_418 (HTTP 418)"
+pdf_access_url: "https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:892/datastream/FILE0"
+pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Croatian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Croatian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Detecting Hate Speech Online: A Case of Croatian

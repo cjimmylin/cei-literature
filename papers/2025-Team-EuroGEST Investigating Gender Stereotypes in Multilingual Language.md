@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "EuroGEST: Investigating Gender Stereotypes in Multilingual Languag
 year: 2025
 first_author: "[[UTTER Project Team]]"
 last_author: "[[UTTER Project Team]]"
-authors: UTTER Project Team
+authors: "UTTER Project Team"
 url: "https://arxiv.org/abs/2506.03867"
 external_pdf: "https://arxiv.org/pdf/2506.03867.pdf"
 local_pdf: "[[PDFs/2025/2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language.md"
-publication: arXiv / Hugging Face
+publication: "arXiv / Hugging Face"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Bulgarian, Croatian, Czech, English, Polish, Russian, Slovak, Slovenian, Ukrainian, and 21 more European languages, and 23 other European languages"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

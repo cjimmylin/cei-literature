@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,24 +17,24 @@ local_pdf: "[[PDFs/2025/2025-Rastogi-DIVE Dataset for Pluralistic Alignment of T
 pdf_extract: "PDF Extracts/2025/2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models.md"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 tags: 
 abstract: "Current text-to-image (T2I) models often fail to account for diverse human experiences, leading to misaligned systems. We advocate for pluralistic alignment, where an AI understands and is steerable towards diverse, and often conflicting, human values. Our work provides three core contributions to achieve this in T2I models. First, we introduce a novel dataset for Diverse Intersectional Visual Evaluation (DIVE) – the first multimodal dataset for pluralistic alignment."
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach dataset"
 data_metrics: "1000 prompts"
-LLM_assessed: "Gemma"
+LLM_assessed: Gemma
 DATA_URL: "https://huggingface.co/datasets/neurips-dataset-1211/DIVE"
 ---
 # DIVE: Dataset for Pluralistic Alignment of Text-to-Image Models

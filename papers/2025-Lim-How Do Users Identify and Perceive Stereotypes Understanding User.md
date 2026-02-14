@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,33 +8,33 @@ type: conferencePaper
 short_title: "How Do Users Identify and Perceive Stereotypes? Understanding User Perspectives on Stereotypical Biases in Large Language Models | Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency"
 year: 2025
 first_author: "[[Hyunseung Lim]]"
-last_author: "[[Unknown]]"
-authors: Hyunseung Lim; Dasom Choi; Hwajung Hong
+last_author: [[Unknown]]
+authors: "Hyunseung Lim; Dasom Choi; Hwajung Hong"
 doi: 10.1145/3715275.3732207
 url: "https://dl.acm.org/doi/10.1145/3715275.3732207"
 publication: ACM
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Chinese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Bias & Fairness"
 ---
 # How Do Users Identify and Perceive Stereotypes? Understanding User Perspectives on Stereotypical Biases in Large Language Models | Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency

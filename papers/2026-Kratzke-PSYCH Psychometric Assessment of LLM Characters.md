@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +6,7 @@ Not AI:
 key: EXSR0264
 type: journalArticle
 short_title: "PSYCH: Psychometric Assessment of LLM Characters"
-year: 2026
+year: 2025
 first_author: "[[N. Kratzke]]"
 last_author: "[[Monique Janneck]]"
 authors: "Nane Kratzke; Niklas Beuter; André Drews; Monique Janneck"
@@ -20,21 +17,21 @@ local_pdf: "[[PDFs/2026/2026-Kratzke-PSYCH Psychometric Assessment of LLM Charac
 pdf_extract: "PDF Extracts/2026/2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters.md"
 publication: Analytics
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
-abstract:
-research_topic: "Other"
+abstract: 
+research_topic: Other
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Grok, Llama, Llama-3, Qwen, DeepSeek, Mistral"

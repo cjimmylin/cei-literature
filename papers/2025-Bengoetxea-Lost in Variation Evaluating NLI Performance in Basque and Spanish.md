@@ -1,35 +1,34 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0296
 type: preprint
-short_title: Lost in Variation? Evaluating NLI Performance in Basque and Spanish Geographical Variants
+short_title: "Lost in Variation? Evaluating NLI Performance in Basque and Spanish Geographical Variants"
 year: 2025
 first_author: "[[Jaione Bengoetxea]]"
-last_author: "[[Unknown]]"
-authors: Jaione Bengoetxea; Itziar Gonzalez-Dios; Rodrigo Agerri
+last_author: [[Unknown]]
+authors: "Jaione Bengoetxea; Itziar Gonzalez-Dios; Rodrigo Agerri"
 url: "https://arxiv.org/abs/2506.15239"
 external_pdf: "https://arxiv.org/pdf/2506.15239.pdf"
 local_pdf: "[[PDFs/2025/2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish.md"
-publication: arXiv / ACL Anthology / CoNLL 2025
+publication: "arXiv / ACL Anthology / CoNLL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Spanish"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Spanish
 languages_list: "Basque, Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

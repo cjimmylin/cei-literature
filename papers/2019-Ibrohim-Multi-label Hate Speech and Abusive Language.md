@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +14,8 @@ doi: 10.18653/v1/W19-3506
 url: "https://www.aclweb.org/anthology/W19-3506"
 external_pdf: "https://www.aclweb.org/anthology/W19-3506.pdf"
 national_ethnic_cultural: Indonesian
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Indonesian, Value Pluralism / Schwartz, Toxicity & Hate Speech"
 key_contribution: "Developed a multi-label classification framework for hate speech detection on Indonesian Twitter, identifying target, category, and level of offensiveness."
@@ -34,7 +32,7 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/okkyibrohim/id-multi-label-hate-speech-and-abusive-language-detection"
 pdf_extract: "PDF Extracts/2019/2019-Ibrohim-Multi-label Hate Speech and Abusive Language.md"
 local_pdf: "[[PDFs/2019/2019-Ibrohim-Multi-label Hate Speech and Abusive Language.pdf]]"

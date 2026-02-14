@@ -1,7 +1,4 @@
 ---
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +14,8 @@ doi: 10.1098/rsos.231393
 url: "https://royalsocietypublishing.org/doi/10.1098/rsos.231393"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/XC5F78B6/Takemoto - 2024 - The moral machine experiment on large language models.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Trolley / Dilemmas (Psych), Machine Ethics"
 key_contribution: "Replicated the Moral Machine Experiment (trolley problems) on LLMs (GPT-4, PaLM, Llama), comparing their choices to human preferences."
@@ -36,7 +33,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, PaLM-2, Llama-2"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Takemoto-The moral machine experiment on large language.md"
 local_pdf: "[[PDFs/2024/2024-Takemoto-The moral machine experiment on large language.pdf]]"
 normative_ethics_benchmark: Borderline

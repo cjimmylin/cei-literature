@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,8 +12,8 @@ last_author: "[[David Clifton]]"
 authors: "Hongjian Zhou; Fenglin Liu; Boyang Gu; Xinyu Zou; Jinfa Huang; Jinge Wu; Yiru Li; Sam Chen; Peilin Zhou; Junling Liu; Yining Hua; Chengfeng Mao; Xian Wu; Yefeng Zheng; Lei Clifton; Zheng Li; Jiebo Luo; David Clifton"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/W4BM83AK/Zhou et al. - A Survey of Large Language Models in Medicine Progress, Application, and Challenge.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -30,8 +28,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-2"
-DATA_URL: "NA"
+LLM_assessed: Llama-2
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Zhou-A Survey of Large Language Models in Medicine.md"
 local_pdf: "[[PDFs/2023/2023-Zhou-A Survey of Large Language Models in Medicine.pdf]]"
 ---

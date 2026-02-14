@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +15,8 @@ url: "https://link.springer.com/article/10.1007/s10462-024-10732-3"
 external_pdf: "https://arxiv.org/pdf/2302.04218.pdf"
 publication: "Artificial Intelligence Review"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Utilitarianism, Deontology, Virtue Ethics, Computational Complexity"
 key_contribution: "Analyzes consequentialism, deontology, and virtue ethics through computational complexity theory"
@@ -37,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # Computational Complexity of Ethics
 

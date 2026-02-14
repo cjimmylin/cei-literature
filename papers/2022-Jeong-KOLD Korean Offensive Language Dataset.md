@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -7,30 +6,30 @@ Not AI:
 key: LSRC0250
 type: preprint
 short_title: "KOLD: Korean Offensive Language Dataset"
-year: 2022
+year: 2025
 first_author: "[[Younghoon Jeong]]"
 last_author: "[[Alice Oh]]"
-authors: Younghoon Jeong, Juhyun Oh, Jongwon Lee, Jaimeen Ahn, Jiyoung Han, Chiyoung Cha, Alice Oh
+authors: "Younghoon Jeong, Juhyun Oh, Jongwon Lee, Jaimeen Ahn, Jiyoung Han, Chiyoung Cha, Alice Oh"
 doi: 10.18653/v1/2022.emnlp-main.744
 url: "https://arxiv.org/abs/2205.11315"
 external_pdf: "https://arxiv.org/pdf/2205.11315.pdf"
 local_pdf: "[[PDFs/2022/2022-Jeong-KOLD Korean Offensive Language Dataset.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Jeong-KOLD Korean Offensive Language Dataset.md"
-publication: arXiv / EMNLP 2022
+publication: "arXiv / EMNLP 2022"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Korean"
-languages_list: "Korean"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Korean
+languages_list: Korean
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

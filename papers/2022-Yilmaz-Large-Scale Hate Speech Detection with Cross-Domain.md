@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +6,7 @@ Not AI:
 key: EXSR0594
 type: preprint
 short_title: "Large-Scale Hate Speech Detection with Cross-Domain"
-year: 2022
+year: 2025
 first_author: "[[Cagri Toraman, Furkan Sahinuc, Eyup Halit Yilmaz]]"
 last_author: "[[Cagri Toraman, Furkan Sahinuc, Eyup Halit Yilmaz]]"
 authors: "[[Cagri Toraman, Furkan Sahinuc, Eyup Halit Yilmaz]]"
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2203.01111"
 external_pdf: "https://arxiv.org/pdf/2203.01111.pdf"
 local_pdf: "[[PDFs/2022/2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.md"
-publication: LREC 2022 / arxiv
+publication: "LREC 2022 / arxiv"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 tags: 
 abstract: "The performance of hate speech detection models relies on the datasets on which the models are trained. Existing datasets are mostly prepared with a limited number of instances or hate domains that deﬁne hate topics. This hinders large-scale analysis and transfer learning with respect to hate domains. In this study, we construct large-scale tweet datasets for hate speech detection in English and a low-resource language, Turkish, consisting of human-labeled 100k tweets per each."
 data_description: "Dataset for hate speech detection"
 data_metrics: "100k tweets"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/ctoraman/large-scale-hate-speech-turkish-v2"
 ethics_perspective: "Toxicity & Hate Speech"
 ---

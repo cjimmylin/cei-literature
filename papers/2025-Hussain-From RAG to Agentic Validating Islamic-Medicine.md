@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +15,26 @@ url: "https://arxiv.org/abs/2506.15911"
 external_pdf: "https://arxiv.org/pdf/2506.15911.pdf"
 local_pdf: "[[PDFs/2025/2025-Hussain-From RAG to Agentic Validating Islamic-Medicine.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Hussain-From RAG to Agentic Validating Islamic-Medicine.md"
-publication: Muslims in Machine Learning Workshop at ICML 2025 / arXiv
+publication: "Muslims in Machine Learning Workshop at ICML 2025 / arXiv"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Centuries-old Islamic medical texts like Avicenna’s Canon of Medicine and the Prophetic Tibb-e-Nabawi, encode a wealth of preventive care, nutrition, and holistic therapies, yet remain inaccessible to many and underutilized in modern AI systems. Existing language-model benchmarks focus narrowly on factual recall or user preference, leaving a gap in validating culturally grounded medical guidance at scale."
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: ""
+LLM_assessed: NA
+DATA_URL: 
 ethics_perspective: "Social & Cultural Values"
 ---
 # From RAG to Agentic: Validating Islamic-Medicine Responses with LLM Agents (Tibbe-AG)

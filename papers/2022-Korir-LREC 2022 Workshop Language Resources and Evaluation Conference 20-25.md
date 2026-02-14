@@ -1,41 +1,41 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0802
 type: conferencePaper
-short_title: LREC 2022 Workshop Language Resources and Evaluation Conference 20-25 June 2022
-year: 2022
+short_title: "LREC 2022 Workshop Language Resources and Evaluation Conference 20-25 June 2022"
+year: 2025
 first_author: "[[Kiplangat Korir]]"
 last_author: "[[Kiplangat Korir]]"
-authors: Kiplangat Korir
+authors: "Kiplangat Korir"
 url: "https://aclanthology.org/2022.cltw-1.pdf"
-publication: ACL Anthology
-local_pdf: 
-pdf_extract: 
+external_pdf: "https://aclanthology.org/2022.cltw-1.pdf"
+publication: "ACL Anthology"
+local_pdf: "[[PDFs/2022/2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.pdf]]"
+pdf_extract: "PDF Extracts/2022/2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "Irish, Multilingual, Welsh"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 
 tags: 
-abstract:
-research_topic: "Other"
+abstract: 
+research_topic: Other
 ---
 # LREC 2022 Workshop Language Resources and Evaluation Conference 20-25 June 2022
 

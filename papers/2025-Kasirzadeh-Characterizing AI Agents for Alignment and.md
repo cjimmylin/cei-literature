@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,8 +12,8 @@ last_author: "[[Iason Gabriel]]"
 authors: "Atoosa Kasirzadeh; Iason Gabriel"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/UUHA3RW9/Kasirzadeh and Gabriel - Characterizing AI Agents for Alignment and Governance.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: "Responsible AI"
 key_contribution: "Proposed a 4-dimensional framework (Autonomy, Efficacy, Goal Complexity, Generality) to characterize AI agents for governance purposes."
@@ -32,8 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Kasirzadeh-Characterizing AI Agents for Alignment and.md"
 local_pdf: "[[PDFs/2025/2025-Kasirzadeh-Characterizing AI Agents for Alignment and.pdf]]"
 ---

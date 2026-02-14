@@ -1,8 +1,4 @@
 ---
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +15,25 @@ url: "https://arxiv.org/abs/2501.08441"
 external_pdf: "https://arxiv.org/pdf/2501.08441.pdf"
 local_pdf: "[[PDFs/2025/2025-Ajwad Abrar-Religious Bias Landscape in Language and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ajwad Abrar-Religious Bias Landscape in Language and.md"
-publication: AI & Society (Springer) / arXiv
+publication: "AI & Society (Springer) / arXiv"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 tags: 
 abstract: "Note: This paper includes examples of potentially offensive content related to religious bias, presented solely for academic purposes. The widespread adoption of language models highlights the need for critical examinations of their inherent biases, particularly concerning religion. This study systematically investigates religious bias in both language models and text-to-image generation models, analyzing both opensource and closed-source systems."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/ajwad-abrar/Religious-Bias (prompts and images publicly available)"
 ethics_perspective: "Bias & Fairness"
 ---

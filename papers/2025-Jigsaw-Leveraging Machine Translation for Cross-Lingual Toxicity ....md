@@ -1,36 +1,35 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0780
 type: conferencePaper
-short_title: Leveraging Machine Translation for Cross-Lingual Toxicity ...
+short_title: "Leveraging Machine Translation for Cross-Lingual Toxicity ..."
 year: 2025
-first_author: "[[Jigsaw]]"
-last_author: "[[Jigsaw]]"
+first_author: [[Jigsaw]]
+last_author: [[Jigsaw]]
 authors: Jigsaw
 url: "https://aclanthology.org/2025.wmt-1.15.pdf"
 external_pdf: "https://arxiv.org/pdf/2509.14493v1.pdf"
-publication: ACL Anthology
+publication: "ACL Anthology"
 local_pdf: "[[PDFs/2025/2025-Jigsaw-Leveraging Machine Translation for Cross-Lingual Toxicity ....pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Jigsaw-Leveraging Machine Translation for Cross-Lingual Toxicity ....md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
 languages_list: "English, Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

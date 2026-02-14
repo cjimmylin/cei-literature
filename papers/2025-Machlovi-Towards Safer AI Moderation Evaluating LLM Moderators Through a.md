@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,27 +8,27 @@ type: preprint
 short_title: "Towards Safer AI Moderation: Evaluating LLM Moderators Through a Unified Benchmark Dataset and Advocating a Human-First Approach"
 year: 2025
 first_author: "[[Naseem Machlovi]]"
-last_author: "[[Unknown]]"
-authors: Naseem Machlovi; Maryam Saleki; Innocent Ababio; Ruhul Amin
+last_author: [[Unknown]]
+authors: "Naseem Machlovi; Maryam Saleki; Innocent Ababio; Ruhul Amin"
 url: "https://arxiv.org/html/2508.07063v1"
 external_pdf: "https://arxiv.org/pdf/2508.07063.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Multilingual
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: 

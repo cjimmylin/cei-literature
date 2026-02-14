@@ -1,5 +1,4 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,26 +9,26 @@ short_title: "ViToSA: Audio-Based Toxic Spans Detection on Vietnamese Speech Utt
 year: 2025
 first_author: "[[Van-Phu Quang Do]]"
 last_author: "[[Kiet Van Nguyen]]"
-authors: Van-Phu Quang Do, Duc-Ung To, Son T. Luu, Kiet Van Nguyen
+authors: "Van-Phu Quang Do, Duc-Ung To, Son T. Luu, Kiet Van Nguyen"
 url: "https://arxiv.org/abs/2506.00636"
 external_pdf: "https://arxiv.org/pdf/2506.00636.pdf"
 local_pdf: "[[PDFs/2025/2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech.md"
-publication: arXiv / INTERSPEECH 2025
+publication: "arXiv / INTERSPEECH 2025"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark for ai safety annotated dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: 

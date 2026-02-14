@@ -1,36 +1,35 @@
 ---
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0748
 type: preprint
-short_title: AraLingBench A Human-Annotated Benchmark for Evaluating Arabic Linguistic Capabilities of Large Language Models
+short_title: "AraLingBench A Human-Annotated Benchmark for Evaluating Arabic Linguistic Capabilities of Large Language Models"
 year: 2025
 first_author: "[[Mohammad Zbeeb]]"
-last_author: "[[Unknown]]"
-authors: Mohammad Zbeeb; Hasan Abed Al Kader Hammoud; Sina Mukalled; Nadine Rizk; Fatima Karnib; Issam Lakkis; Ammar Mohanna; Bernard Ghanem
+last_author: [[Unknown]]
+authors: "Mohammad Zbeeb; Hasan Abed Al Kader Hammoud; Sina Mukalled; Nadine Rizk; Fatima Karnib; Issam Lakkis; Ammar Mohanna; Bernard Ghanem"
 url: "https://arxiv.org/html/2511.14295"
 external_pdf: "https://arxiv.org/pdf/2511.14295.pdf"
 publication: arXiv
 local_pdf: "[[PDFs/2025/2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic.md"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "Arabic"
-languages_list: "Arabic"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Arabic
+languages_list: Arabic
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: 
 DATA_URL: 

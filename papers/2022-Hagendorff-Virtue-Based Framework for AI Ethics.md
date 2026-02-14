@@ -1,6 +1,4 @@
 ---
-
-
 Human View: false
 Not AI: 
 key: AUTO_HAGENDORFF2022
@@ -14,8 +12,8 @@ doi: 10.1007/s13347-022-00553-z
 url: "https://link.springer.com/article/10.1007/s13347-022-00553-z"
 local_pdf: "[[PDFs/2022/2022-Hagendorff-Virtue-Based Framework for AI Ethics.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: Yes
 newtags: "Virtue Ethics, AI Ethics, Organizational Ethics"
 key_contribution: "Defines four basic AI virtues (justice, honesty, responsibility, care) and two second-order virtues (prudence, fortitude) for AI ethics practice"
@@ -32,8 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ---
 # A Virtue-Based Framework to Support Putting AI Ethics into Practice
 

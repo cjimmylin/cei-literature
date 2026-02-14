@@ -1,42 +1,46 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: LSRC0524
 type: conferencePaper
-short_title: Offensive Text Span Detection in Romanian Comments Using Large Language Models
-year: 2024
+short_title: "Offensive Text Span Detection in Romanian Comments Using Large Language Models"
+year: 2025
 first_author: "[[Multiple authors]]"
 last_author: "[[Multiple authors]]"
-authors: Multiple authors
+authors: "Multiple authors"
 doi: 10.3390/info15010008
 url: "https://www.mdpi.com/2078-2489/15/1/8"
-publication: MDPI Information
-local_pdf: 
+external_pdf: "https://doi.org/10.3390/info15010008"
+publication: "MDPI Information"
+local_pdf: N/A
+pdf_access_status: manual_only
+pdf_access_last_checked: 2026-02-14
+pdf_access_error: "http_403 (HTTP 403)"
+pdf_access_url: "https://doi.org/10.3390/info15010008"
+pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 pdf_extract: 
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-national_ethnic_cultural: "N/A"
-languages_list: "Romanian"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: N/A
+languages_list: Romanian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-3.5, GPT-4"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
-abstract:
+abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Offensive Text Span Detection in Romanian Comments Using Large Language Models

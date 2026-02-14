@@ -1,6 +1,4 @@
 ---
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +13,8 @@ authors: "Jinyang Li; Binyuan Hui; Ge Qu; Jiaxi Yang; Binhua Li; Bowen Li; Baili
 url: "https://bird-bench.github.io/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/TFIDUKB8/Li and others - 2023 - BIRD BIg Bench for LaRge-scale Database Grounded Text-to-SQL Evaluation.pdf"
 national_ethnic_cultural: N/A
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: N/A
+religious_values_list: N/A
 moral_psychology: N/A
 newtags: 
 tags: 
@@ -35,7 +33,7 @@ data_metrics: "33.4 gb"
 LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, T5"
 DATA_URL: "https://bird-bench.github.io/"
 pdf_extract: "PDF Extracts/2023/2023-Li-BIRD.md"
-local_pdf: "[[PDFs/2023/2023-Li-BIRD.pdf]]"
+local_pdf: [[PDFs/2023/2023-Li-BIRD.pdf]]
 ---
 # BIRD: BIg Bench for LaRge-scale Database Grounded Text-to-SQL Evaluation
 

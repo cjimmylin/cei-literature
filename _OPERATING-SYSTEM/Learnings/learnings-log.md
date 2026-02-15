@@ -44,6 +44,15 @@
 | 2026-02-14 | PDF Processing | **Manual Browser Download Queue Has 8 High-Priority Targets:** Of 28 failed PDF downloads, 8 are accessible but Cloudflare/login-blocked: 3 SSRN (free login), 3 ScienceDirect OA (Cloudflare JS), 1 TechRxiv, 1 ResearchSquare. EuropePMC's `ptpmcrender` endpoint is the most effective automated bypass for Cloudflare-protected OA papers. |
 | 2026-02-14 | Workflows | **Combined Discover+Apply Script Pattern:** `resolve_all_unknown_authors.py` combines previously separate discover + apply into a single-pass script with atomic per-paper resolution. The S2 backoff pattern (`S2_SKIP_UNTIL` global timestamp + 2-min cooldown on 429) prevents wasting time on permanently rate-limited APIs. |
 
+## 2026-02-14 (Session 76)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-14 | Workflows | **NA Sentinel Value Bug in Idempotency Checks:** `has_llm_assessed()` returned `True` for `LLM_assessed: NA` because `bool("NA")` is `True` in Python. This caused the batch generator to skip all 269 target papers. Fix: `value.upper() not in ("NA", "N/A")` in both the batch generator and consolidation script. General principle: when a YAML field uses sentinel values (NA, N/A, TBD), idempotency checks must explicitly exclude them. |
+| 2026-02-14 | Data Quality | **Agent-to-Disk Filename Drift Has 3 Sources:** (1) **Curly vs straight quotes** — Unicode `'` U+2019 vs ASCII `'` U+0027 in filenames from different tools/sessions. (2) **Author renames** — papers originally `Unknown-Title.md` later renamed to `AuthorName-Title.md` by dedup/author-fix scripts. (3) **Encoding normalization** — curly double quotes `\u201c`/`\u201d` in filenames. Fix: pre-consolidation Python script that maps agent filenames to actual disk files using keyword-based partial matching. |
+| 2026-02-14 | Workflows | **PDF Extract Availability Is the Enrichment Bottleneck:** Of 269 papers processed, only 91 (34%) had PDF extracts. Of those, ~5 had corrupted extracts (wrong paper content). Only 7 papers had LLM models identified and 33 had DATA_URLs — enrichment yield is directly proportional to extract availability. Prioritizing extract acquisition before LLM assessment would improve yield significantly. |
+| 2026-02-14 | Workflows | **Date Filter via `st_birthtime` for Targeted Batch Generation:** Added `--since YYYY-MM-DD` to `generate_llm_assessment_batches.py` using macOS `os.stat().st_birthtime` (file creation date). This avoids reprocessing ~156 older NA papers. macOS-specific — on Linux, use `st_ctime` or a YAML field like `DATE_ADDED` as a portable alternative. |
+
 ## 2026-02-14 (Session 75)
 
 | Date | Category | Learning |

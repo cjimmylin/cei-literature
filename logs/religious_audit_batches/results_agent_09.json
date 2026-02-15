@@ -1,0 +1,186 @@
+[
+  {
+    "filename": "2025-LaCroix-Metaethical perspectives on 'benchmarking' AI.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "Religious terms ('Jewish', 'Christian', 'Islam') appear only in bibliography citations (e.g., 'Elmahjub, E.: Artificial intelligence (AI) in Islamic ethics', 'the ethics of artificial intelligence through Jewish eyes', 'Chen, Z., He, Y.: Correlation of Christian ethics')",
+    "reasoning": "This is a meta-ethical critique arguing that establishing universal 'ethics benchmarks' for AI is philosophically impossible due to value relativity. Religious perspectives are cited in the bibliography as examples of diverse ethical viewpoints, but the paper does not engage with any religious ethical framework substantively. The argument is purely philosophical/meta-ethical."
+  },
+  {
+    "filename": "2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Multi-religious (Buddhism, Christianity, Islam, Confucianism, Judaism)",
+    "confidence": "medium",
+    "evidence": "Dataset includes 'Religious Bias' as one of 12 bias categories. Specific test scenarios include: 'those adhering to Islam are potentially visit a mosque'. The five traditions tested are Buddhism, Christianity, Islam, Confucianism, and Judaism.",
+    "reasoning": "This is a bias detection benchmark that systematically evaluates LLM bias toward religious groups in Chinese cultural context. While the engagement is through bias measurement (not theological discussion), the paper explicitly tests how LLMs respond to scenarios involving religious adherents and religious practices. This constitutes substantive engagement with religious bias, which is a form of religious tradition engagement in AI ethics context. Papers about religious BIAS in AI are relevant per instructions."
+  },
+  {
+    "filename": "2025-Lan-McBE.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Multi-religious (Buddhism, Christianity, Islam, Confucianism, Judaism)",
+    "confidence": "medium",
+    "evidence": "Same as above - this is the published conference version. Dataset includes 'Religious Bias' category with scenarios testing bias against Buddhism, Christianity, Islam, Confucianism, and Judaism.",
+    "reasoning": "Same paper as above (McBE benchmark), published in ACL 2025. Systematically tests religious bias in Chinese LLMs. The paper's contribution is identifying how Western bias categories don't map to Chinese culture, and religion is one of the 12 dimensions where culturally-specific bias patterns emerge."
+  },
+  {
+    "filename": "2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "Religious names ('Krishna', 'Jesus') appear as character names in moral dilemma examples (trolley problem variants), but there is no discussion of religious ethical frameworks",
+    "reasoning": "This paper studies whether input language vs. reasoning language drives differences in LLM moral judgments. It uses Moral Foundations Theory and value pluralism frameworks, with moral dilemmas translated between Chinese and English. The appearance of religious names is incidental (just character names in scenarios), not substantive engagement with religious ethics. The paper's focus is on linguistic/cultural factors in moral AI, not religious traditions."
+  },
+  {
+    "filename": "2025-Liu-On the Alignment of Large Language Models with Global Human Opinion.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "Mentions 'Christian', 'Muslim', 'Buddhist', 'Hindu' as demographic categories in World Values Survey data, alongside other demographics like age, gender, country, education level",
+    "reasoning": "This paper studies whether LLMs align with diverse demographic groups using survey data. Religion is treated as one demographic variable among many, not as an ethical framework being evaluated. The focus is on representational alignment (do LLM outputs match what different demographic groups believe), not on religious ethical teachings or values."
+  },
+  {
+    "filename": "2025-Mining)-Enhancing social media hate speech detection in low-resource.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Multi-religious (general religious hate speech)",
+    "confidence": "medium",
+    "evidence": "Paper categorizes hate speech into four types: 'general, religious, political, and ethnicity-based hate'. Extract states: 'Hate speech, however, focuses heavily on religious groups'",
+    "reasoning": "This is a hate speech detection paper for low-resource Bangla language that explicitly identifies religious hate speech as a major category. Per instructions, 'papers about religious BIAS in AI = relevant'. While the paper doesn't name specific traditions, it systematically addresses religious targeting in hate speech, which constitutes engagement with how AI systems handle religious communities."
+  },
+  {
+    "filename": "2025-Mohammadi-EvalMORAAL.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "medium",
+    "evidence": "Uses World Values Survey (55 countries) and PEW Global Attitudes Survey (39 countries) which include religiously diverse respondents, but paper focuses on moral alignment methodology (CoT framework, scoring methods)",
+    "reasoning": "This is a methodological contribution proposing a transparent chain-of-thought framework for evaluating moral alignment. While the survey data includes respondents of various religious backgrounds, the paper's focus is on the evaluation framework itself, not on analyzing differences across religious traditions or engaging with religious ethical systems."
+  },
+  {
+    "filename": "2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "Candidate tradition 'Confucianism' appears to be a false positive from keyword matching. This is a safety benchmark for Kazakh-Russian bilingual contexts. No evidence of religious content in title, abstract, or available metadata.",
+    "reasoning": "Safety evaluation benchmark for Central Asian languages. The Confucianism flag appears to be an error from automated keyword matching. No substantive religious content found."
+  },
+  {
+    "filename": "2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "Candidate tradition 'Christianity' appears to be false positive. This is a safety analysis of Japanese LLMs. No evidence of religious content in title, abstract, or available metadata.",
+    "reasoning": "Safety analysis paper focused on Japanese LLMs and culturally-specific safety issues. The Christianity flag is likely a false positive from keyword matching. No substantive religious content."
+  },
+  {
+    "filename": "2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "medium",
+    "evidence": "Paper evaluates safeguard models for Southeast Asian languages, which include Muslim-majority nations (Indonesia, Malaysia), but abstract focuses on linguistic/cultural diversity in general, not specifically religious content",
+    "reasoning": "This is a safety benchmark for Southeast Asian languages. While the region is religiously diverse (Islam, Buddhism, Christianity, Hinduism), the paper's focus is on linguistic and cultural nuances in safety detection, not on religious traditions specifically. Religion may be one aspect of cultural context but is not the paper's focus."
+  },
+  {
+    "filename": "2025-Okamoto-AI-based medical ethics education.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "Paper draws on 'neo-Aristotelian' philosophy and virtue ethics for medical education. The candidate tradition 'Confucianism' appears to be false positive. Focus is on Aristotelian virtue theory, not Confucian ethics.",
+    "reasoning": "This paper proposes using LLMs to foster virtues in medical ethics education based on Aristotelian philosophy. While Confucianism also emphasizes virtue, there's no evidence this paper engages with Confucian thought - it's explicitly neo-Aristotelian. The framework is secular philosophical virtue ethics, not religious."
+  },
+  {
+    "filename": "2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "medium",
+    "evidence": "Meta-collection paper aggregating multiple hate speech datasets. Candidate tradition 'Islam' flagged, but no specific religious hate speech focus found in abstract or extract",
+    "reasoning": "This paper creates meta-collections of hate speech datasets to address limited resources in low-resource languages. While some constituent datasets may include religious hate speech, the paper's contribution is about dataset aggregation methodology, not about religious targeting specifically."
+  },
+  {
+    "filename": "2025-Rodemann-A Statistical Case Against Empirical Human-AI.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "Candidate tradition 'Judaism' appears to be false positive. This is a statistical critique of human-AI alignment benchmarks. No religious content found.",
+    "reasoning": "This paper makes a statistical argument against current empirical approaches to human-AI alignment evaluation. The Judaism flag is a false positive. The paper is about measurement methodology, not religious ethics."
+  },
+  {
+    "filename": "2025-Ruiz-Fern\u00e1ndez-EsBBQ and CaBBQ.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Multi-religious (Christianity, Islam, Judaism, others)",
+    "confidence": "medium",
+    "evidence": "EsBBQ and CaBBQ are Spanish and Catalan adaptations of BBQ covering 10 bias categories including 'Religion'. Extract shows extensive discussion: 'Religion category exhibits negative bias', 'Multiple stereotypes in the original Religion category', 'Religion category reflects this reality and includes stereotypes about religions other than [Christianity]'.",
+    "reasoning": "These are Spanish/Catalan cultural adaptations of BBQ bias benchmark with Religion as one of 10 categories. The paper explicitly discusses how they adapted religious bias testing to Spanish cultural context (predominantly Catholic but with growing religious diversity). The extract shows substantive engagement with religious bias testing, including discussion of how stereotypes about different religions manifest in Spanish/Catalan contexts."
+  },
+  {
+    "filename": "2025-Saffari-Can I introduce my boyfriend to my grandmother.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "medium",
+    "evidence": "Creates 'Iranian Social Norms (ISN)' dataset with 1,699 norms for evaluating cultural alignment in Farsi. While Iran is predominantly Islamic, the paper focuses on cultural and social norms broadly, not specifically religious values.",
+    "reasoning": "This paper addresses Iranian cultural norms (e.g., relationship etiquette, gender interactions, social hierarchies) which are shaped by Islamic culture but are presented as 'social norms' rather than religious precepts. The dataset likely includes religiously-influenced norms, but the framing is cultural/national rather than theological. Without evidence of substantive engagement with Islamic teachings, keeping as N/A."
+  },
+  {
+    "filename": "2025-Salehi-Blind Faith User Preference and Expert.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam",
+    "confidence": "high",
+    "evidence": "Abstract: 'Mixed-methods study finding Muslim users overwhelmingly preferred AI-generated responses to Islamic questions (81.3%) in blind evaluations despite expressing distrust. Expert Islamic scholars found critical shortcomings in accuracy, depth, and contextual sensitivity.'",
+    "reasoning": "This paper directly evaluates AI-generated Islamic religious content by having both Muslim users and Islamic scholars assess LLM responses to religious questions. The paper substantively engages with Islam by examining how well AI can provide Islamic guidance and the gap between user preference and scholarly assessment of religious accuracy. This is explicit engagement with Islamic tradition in AI context."
+  },
+  {
+    "filename": "2025-Sekine-AnswerCarefully A Dataset for Improving the.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "medium",
+    "evidence": "AnswerCarefully is a Japanese safety dataset with 1,800 question-answer pairs requiring 'special attention'. Candidate traditions are Buddhism, Confucianism, Shinto. Without evidence these traditions are substantively discussed vs. just being demographic/cultural background, keeping as N/A.",
+    "reasoning": "This is a safety dataset for Japanese LLMs covering various risk categories. While Japanese culture has Buddhist, Shinto, and Confucian influences, the paper appears to focus on safety/appropriateness broadly rather than engaging with religious ethical frameworks specifically. The religious traditions may be cultural background but not the focus."
+  },
+  {
+    "filename": "2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "Candidate traditions Islam and Christianity flagged, but these appear as demographic variables in Asian public opinion surveys, not as ethical frameworks being examined",
+    "reasoning": "This paper studies gaps between LLM alignment and Asian public opinion using survey data. Religion may be a demographic factor in the surveys, but the paper's focus is on regional/cultural differences in moral judgments broadly, not on religious ethical traditions specifically."
+  },
+  {
+    "filename": "2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Multi-religious (Hinduism, Islam, Sikhism, Judaism)",
+    "confidence": "high",
+    "evidence": "Extract explicitly discusses religious hate speech: 'Hindus, Muslims, and Sikhs are repeatedly named with hateful or violent language. For instance, Muslims are sometimes stereotyped as naturally aggressive or untrustworthy, and Sikhs are blamed for following separatist.' Also mentions 'HateXplain data is primarily concentrated on religious communities, particularly Muslims and Jews.'",
+    "reasoning": "This paper analyzes hate speech datasets (IndoHateMix, HateXplain) and explicitly examines religious targeting as a major dimension. The paper discusses how different religious communities (Hindus, Muslims, Sikhs, Jews) are targeted with stereotypes and violent language. This constitutes substantive engagement with religious bias and hate speech, which per instructions is relevant."
+  },
+  {
+    "filename": "2025-Steen-Ethical aspects of ChatGPT.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "Candidate tradition Confucianism flagged, but likely false positive. Paper appears to be broad ethical analysis of ChatGPT without specific religious framework focus.",
+    "reasoning": "General ethical analysis of ChatGPT. The Confucianism flag appears to be a false positive from keyword matching. No evidence of substantive engagement with Confucian ethics or any religious tradition."
+  },
+  {
+    "filename": "2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Multi-religious (Islam, Christianity, Hinduism)",
+    "confidence": "medium",
+    "evidence": "Paper examines toxicity and polarization in Indonesia, 'world's third-largest democracy' with 'toxicity often directed at vulnerable minority groups.' Extract references 'automated hate speech detection: Addressing islamo-' suggesting Islamic/religious minority targeting.",
+    "reasoning": "Indonesia has significant religious diversity (Muslim majority with Christian, Hindu, Buddhist minorities) and history of religious tension. This paper examines online toxicity and polarization with specific attention to targeting of minority groups, which in Indonesian context includes religious minorities. The reference to Islamophobia detection and minority targeting suggests substantive engagement with religious bias, though confidence is medium without full text access."
+  },
+  {
+    "filename": "2025-Tewabe-The State of Large Language Models for African Languages Progress and.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "Candidate tradition Christianity flagged, but this appears to be false positive. Paper is about LLMs for African languages - technical/linguistic focus, not religious.",
+    "reasoning": "This is a survey/progress report on LLMs for African languages. While Africa has diverse religious traditions (Christianity, Islam, indigenous religions), the paper's focus is on language technology, not on religious content or ethics. The Christianity flag is a false positive."
+  },
+  {
+    "filename": "2025-Trager-MFTCXplain.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "Candidate tradition Islam flagged. MFTC likely refers to Moral Foundations Theory Corpus. This is about moral foundation detection/explanation, not religious traditions.",
+    "reasoning": "MFTCXplain appears to be about explaining moral foundation classifications in text. Moral Foundations Theory is a descriptive psychological framework, not a religious ethical system. The Islam flag is likely a false positive from example data or citations."
+  }
+]

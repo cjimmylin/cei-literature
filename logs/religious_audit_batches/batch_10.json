@@ -1,0 +1,214 @@
+[
+  {
+    "filename": "2025-Unknown-1 Decolonizing NLP for “Low-resource Languages”.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Unknown-1 Decolonizing NLP for “Low-resource Languages”.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Indigenous Spirituality"
+    ],
+    "max_score": 2,
+    "top_tradition": "Indigenous Spirituality"
+  },
+  {
+    "filename": "2025-Unknown-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Unknown-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Unknown-Decolonizing African NLP A Survey on Power Dynamics and Data.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "candidate_traditions": [
+      "Indigenous Spirituality"
+    ],
+    "max_score": 2,
+    "top_tradition": "Indigenous Spirituality"
+  },
+  {
+    "filename": "2025-Unknown-Decolonizing LLMs An Ethnographic Framework for AI in African.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "candidate_traditions": [
+      "Indigenous Spirituality"
+    ],
+    "max_score": 2,
+    "top_tradition": "Indigenous Spirituality"
+  },
+  {
+    "filename": "2025-Unknown-Decolonizing Minority Language Technology - State of the Internet's.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "candidate_traditions": [
+      "Indigenous Spirituality"
+    ],
+    "max_score": 2,
+    "top_tradition": "Indigenous Spirituality"
+  },
+  {
+    "filename": "2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Unknown-Thrid Workshop on NLP for Indigenous Languages of the Americas.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Unknown-Thrid Workshop on NLP for Indigenous Languages of the Americas.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Indigenous Spirituality"
+    ],
+    "max_score": 2,
+    "top_tradition": "Indigenous Spirituality"
+  },
+  {
+    "filename": "2025-Urieli-Jochre 3 and the Yiddish OCR corpus.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Urieli-Jochre 3 and the Yiddish OCR corpus.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Judaism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Judaism"
+  },
+  {
+    "filename": "2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism",
+      "Shinto"
+    ],
+    "max_score": 2,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2025-Yoo-Code-Switching Curriculum Learning for Multilingual ....md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yoo-Code-Switching Curriculum Learning for Multilingual ....md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Buddhism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Buddhism"
+  },
+  {
+    "filename": "2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-initiative-CatholicBench.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-team-Incorporating Diverse Perspectives in Cultural Alignment.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-team-Incorporating Diverse Perspectives in Cultural Alignment.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Buddhism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Buddhism"
+  },
+  {
+    "filename": "2026-team-SEA-Guard Culturally Grounded Multilingual Safeguard for.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-team-SEA-Guard Culturally Grounded Multilingual Safeguard for.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  }
+]

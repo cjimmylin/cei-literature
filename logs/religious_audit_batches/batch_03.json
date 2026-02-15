@@ -1,0 +1,249 @@
+[
+  {
+    "filename": "2021-Barikeri-REDDITBIAS.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Barikeri-REDDITBIAS.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Judaism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Judaism"
+  },
+  {
+    "filename": "2022-Abbasi-Deep Learning for Religious and Continent-Based.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Abbasi-Deep Learning for Religious and Continent-Based.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Judaism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2022-Jeong-KOLD Korean Offensive Language Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Jeong-KOLD Korean Offensive Language Dataset.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity"
+    ],
+    "max_score": 3,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2022-Sahoo-Detecting Unintended Social Bias in Toxic.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Sahoo-Detecting Unintended Social Bias in Toxic.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 3,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2023-Munn-The Five Tests Designing and Evaluating.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Munn-The Five Tests Designing and Evaluating.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Indigenous Spirituality"
+    ],
+    "max_score": 3,
+    "top_tradition": "Indigenous Spirituality"
+  },
+  {
+    "filename": "2024-Gallegos-Bias and Fairness in Large Language Models A Survey.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Gallegos-Bias and Fairness in Large Language Models A Survey.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity"
+    ],
+    "max_score": 3,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Huang-TrustLLM.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Huang-TrustLLM.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity"
+    ],
+    "max_score": 3,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Buddhism",
+      "Hinduism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Buddhism"
+  },
+  {
+    "filename": "2024-Koppel-Adapting LLMs to Hebrew Unveiling DictaLM.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Koppel-Adapting LLMs to Hebrew Unveiling DictaLM.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Judaism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Judaism"
+  },
+  {
+    "filename": "2024-University-Monitoring the Evolution of Antisemitic Discourse.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-University-Monitoring the Evolution of Antisemitic Discourse.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity",
+      "Judaism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Judaism"
+  },
+  {
+    "filename": "2024-Unknown-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Unknown-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Indigenous Spirituality"
+    ],
+    "max_score": 3,
+    "top_tradition": "Indigenous Spirituality"
+  },
+  {
+    "filename": "2024-Wang-Possibilities and challenges in the moral growth of LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Wang-Possibilities and challenges in the moral growth of LLMs.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism",
+      "Taoism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 3,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Ajwad Abrar-Religious Bias Landscape in Language and.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ajwad Abrar-Religious Bias Landscape in Language and.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Buddhism",
+      "Judaism",
+      "Hinduism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 3,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Dubey-Addressing Moral Uncertainty using Large Language.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Dubey-Addressing Moral Uncertainty using Large Language.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Buddhism",
+      "Confucianism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Buddhism"
+  },
+  {
+    "filename": "2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 3,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 3,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Ki-Multiple LLM Agents Debate for Equitable Cultural.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ki-Multiple LLM Agents Debate for Equitable Cultural.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 3,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Lee-When Prompting Fails to Sway.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Lee-When Prompting Fails to Sway.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 3,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Judaism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Islam"
+  }
+]

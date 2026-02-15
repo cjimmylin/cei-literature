@@ -1,0 +1,237 @@
+[
+  {
+    "filename": "2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Hinduism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Hinduism"
+  },
+  {
+    "filename": "2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2022-Das-Hate Speech and Offensive Language Detection.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Das-Hate Speech and Offensive Language Detection.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2022-Ganguli-Red Teaming Language Models to Reduce Harms.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Ganguli-Red Teaming Language Models to Reduce Harms.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Judaism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Judaism"
+  },
+  {
+    "filename": "2022-Hagendorff-Virtue-Based Framework for AI Ethics.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Hagendorff-Virtue-Based Framework for AI Ethics.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2022-Jiang-Can Machines Learn Morality.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Jiang-Can Machines Learn Morality.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2022-Nkemelu-Tackling Hate Speech in Low-resource Languages.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Nkemelu-Tackling Hate Speech in Low-resource Languages.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Hinduism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity",
+      "Sikhism",
+      "Jainism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Judaism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2022-researchers-Hate Speech Classification in Bulgarian.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-researchers-Hate Speech Classification in Bulgarian.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2023-Andrus-Augmented Datasheets for Speech Datasets and.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Andrus-Augmented Datasheets for Speech Datasets and.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2023-Bakrola-SAHAAYAK 2023 The Multi-Domain Bilingual Parallel.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Bakrola-SAHAAYAK 2023 The Multi-Domain Bilingual Parallel.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Hinduism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Hinduism"
+  },
+  {
+    "filename": "2023-Davis-Benchmarks for Automated Commonsense Reasoning.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Davis-Benchmarks for Automated Commonsense Reasoning.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2023-Dwivedi-EtiCor.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Dwivedi-EtiCor.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2023-Feng-From Pretraining Data to Language Models to.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Feng-From Pretraining Data to Language Models to.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Hinduism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Hinduism"
+  }
+]

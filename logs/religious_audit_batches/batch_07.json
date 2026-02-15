@@ -1,0 +1,240 @@
+[
+  {
+    "filename": "2024-Published in Sadhana journal-Transformer-based Pouranic Topic Classification in Indian.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "candidate_traditions": [
+      "Hinduism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Hinduism"
+  },
+  {
+    "filename": "2024-Rodríguez Louro-The Yarning Corpus.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Rodríguez Louro-The Yarning Corpus.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Indigenous Spirituality"
+    ],
+    "max_score": 2,
+    "top_tradition": "Indigenous Spirituality"
+  },
+  {
+    "filename": "2024-Sadhu-Social Bias in Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Sadhu-Social Bias in Large Language Models.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Hinduism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Saffari-PSN.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Saffari-PSN.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Sang-CDEval A Benchmark for Measuring the.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Sang-CDEval A Benchmark for Measuring the.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Buddhism",
+      "Confucianism",
+      "Shinto"
+    ],
+    "max_score": 2,
+    "top_tradition": "Buddhism"
+  },
+  {
+    "filename": "2024-Semenova-Benchmarking Multimodal Models for Ukrainian Language Understanding.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Semenova-Benchmarking Multimodal Models for Ukrainian Language Understanding.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Singh-Aya Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Singh-Aya Dataset.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Singla-Samayik A Benchmark and Dataset for.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Singla-Samayik A Benchmark and Dataset for.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Hinduism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Hinduism"
+  },
+  {
+    "filename": "2024-Stenseke-Computational Complexity of Ethics.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Stenseke-Computational Complexity of Ethics.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity",
+      "Confucianism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Suliman-The interconnectedness between Ubuntu principles.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Suliman-The interconnectedness between Ubuntu principles.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Tabaczek-Virtuous AI Aristotelian-Thomistic.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Tabaczek-Virtuous AI Aristotelian-Thomistic.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Tahir-Benchmarking Pre-trained Large Language Models Potential.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Tahir-Benchmarking Pre-trained Large Language Models Potential.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Tonneau-NaijaHate.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Tonneau-NaijaHate.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Unknown-WoNBias A Complete Bengali Gender Bias Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Unknown-WoNBias A Complete Bengali Gender Bias Dataset.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Unknown-hatebnBERT An Innovative Novel Transformer Model.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "candidate_traditions": [
+      "Islam",
+      "Hinduism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Xie-CultureLLM Incorporating Cultural Differences into Large.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Xie-CultureLLM Incorporating Cultural Differences into Large.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-[[Unknown]]-TABHATE A Target-based Hate Speech Detection.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-[[Unknown]]-TABHATE A Target-based Hate Speech Detection.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Adelani-INJONGO A Multicultural Intent Detection and.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Adelani-INJONGO A Multicultural Intent Detection and.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Judaism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Judaism"
+  }
+]

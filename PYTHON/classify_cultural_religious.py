@@ -130,16 +130,25 @@ RELIGIOUS_PATTERNS = {
     ],
     "Buddhism": [
         r"\bBuddhis[mt]\b", r"\bDharma\b", r"\bHumanistic Buddhism\b",
-        r"\bHBC\b.*\bBuddhis\b"
+        r"\bHBC\b.*\bBuddhis\b",
+        r"\bkarma\b", r"\bnirvana\b", r"\bbodhisattva\b",
+        r"\bFour Noble Truths\b", r"\bEightfold Path\b", r"\bsangha\b",
+        r"\bFive Precepts\b", r"\b佛教\b", r"\bDharmaBench\b", r"\bBuddhismEval\b",
+        r"\bpaticcasamuppada\b", r"\bsila\b.*\bsamadhi\b",
     ],
     "Judaism": [
-        r"\bJewish\b", r"\bJudaism\b", r"\bTorah\b", r"\bTalmud\b", r"\bRabbinical\b"
+        r"\bJewish\b", r"\bJudaism\b", r"\bTorah\b", r"\bTalmud\b", r"\bRabbinical\b",
+        r"\bhalakha\b", r"\bmitzvot\b", r"\bShabbat\b", r"\bkosher\b",
+        r"\bJewish ethics\b",
     ],
     "Hinduism": [
-        r"\bHindu\b", r"\bHinduism\b", r"\bVedic\b", r"\bDharmic\b"
+        r"\bHindu\b", r"\bHinduism\b", r"\bVedic\b", r"\bDharmic\b",
+        r"\bmoksha\b", r"\bahimsa\b", r"\batman\b",
+        r"\bBhagavad Gita\b", r"\bUpanishad\b", r"\bsamsara\b",
     ],
     "Sikhism": [
-        r"\bSikh\b", r"\bSikhism\b", r"\bGurbani\b", r"\bGuru Granth\b"
+        r"\bSikh\b", r"\bSikhism\b", r"\bGurbani\b", r"\bGuru Granth\b",
+        r"\bKhalsa\b", r"\bFive Ks\b", r"\bWaheguru\b", r"\bsewa\b",
     ],
     "Confucianism": [
         r"\bConfucian\b", r"\bConfucianism\b", r"\bConfucius\b", r"\bAnalects\b",
@@ -147,13 +156,19 @@ RELIGIOUS_PATTERNS = {
     ],
     "Taoism": [
         r"\bTaois[mt]\b", r"\bDaois[mt]\b", r"\bTao Te Ching\b", r"\bDaodejing\b",
-        r"\bLaozi\b", r"\bwu wei\b", r"\bZhuangzi\b"
+        r"\bLaozi\b", r"\bwu wei\b", r"\bZhuangzi\b",
+        r"\byin[\s-]?yang\b", r"\bziran\b", r"\b道教\b", r"\b无为\b",
     ],
     "Shinto": [
-        r"\bShinto\b", r"\bShintoism\b"
+        r"\bShinto\b", r"\bShintoism\b",
+        r"\bkami\b(?=.*(?:Japan|Shinto|spirit|sacred))",
+        r"\btorii\b", r"\bbushido\b", r"\bwa\b.*\bharmony\b",
+        r"\bpurification ritual\b", r"\b神道\b",
     ],
     "Jainism": [
-        r"\bJain\b", r"\bJainism\b"
+        r"\bJain\b", r"\bJainism\b",
+        r"\bahimsa\b.*\b[Jj]ain\b", r"\banekantavada\b",
+        r"\bMahavira\b", r"\bTirthankara\b",
     ],
     "Baha'i": [
         r"\bBaha'i\b", r"\bBahai\b"
@@ -163,7 +178,12 @@ RELIGIOUS_PATTERNS = {
     ],
     "Indigenous Spirituality": [
         r"\bIndigenous spiritual\b", r"\bAboriginal dreaming\b",
-        r"\bNative American spiritual\b"
+        r"\bNative American spiritual\b",
+        r"\bDreamtime\b", r"\bwhakapapa\b", r"\bmana\b.*\btapu\b",
+        r"\bFirst Nations?\b.*\bethic", r"\btwo[\s-]?eyed seeing\b",
+        r"\bdata sovereignty\b.*\b[Ii]ndigenous\b",
+        r"\belder wisdom\b", r"\bsacred land\b",
+        r"\bIndigenous knowledge\b", r"\boral tradition\b.*\bethic",
     ],
     "Multiple Religions": [
         r"\breligious pluralism\b", r"\binter[-\s]?religious\b",

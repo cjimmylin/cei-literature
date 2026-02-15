@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,8 +27,8 @@ deontological_ethics: No
 utilitarian_ethics: No
 national_ethnic_cultural: N/A
 languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "Indigenous Spirituality"
+religious_values_list: "Indigenous Spirituality"
 moral_psychology: N/A
 newtags: 
 is_benchmark: No

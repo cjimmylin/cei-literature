@@ -1,0 +1,186 @@
+[
+  {
+    "filename": "2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Contains Bible and Quran translation datasets, and 'indo_religious_mt_en_id' dataset, hate speech categorization includes 'HS_Religion'",
+    "reasoning": "This is a data hub paper aggregating Indonesian NLP resources. While it contains religious texts (Bible translations, Quran translations) as datasets, the paper does not engage with the religious/ethical content of these traditions. The religious texts are treated as linguistic corpora for machine translation tasks, not as sources of values or ethical principles."
+  },
+  {
+    "filename": "2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam, Hinduism",
+    "confidence": "High",
+    "evidence": "Dataset includes 11,724 religion-based pairs (Hindu/Muslim); addresses 'religious diversity of this ethnolinguistic group, with 71% Muslims and 28% Hindus'",
+    "reasoning": "This paper explicitly evaluates religious bias in Bengali NLP by contrasting Hindu vs. Muslim identity representations. The paper substantively engages with how religious identity (Hindu/Muslim) affects model behavior, making religion central to the evaluation methodology. The 11,724 religion-based sentence pairs demonstrate deep engagement with religious identity as a cultural dimension."
+  },
+  {
+    "filename": "2023-Hou-Foundational Moral Values for AI Alignment.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "References mentions: 'Religions...have emphasized family life–whether Judaism, Christianity, Islam, Hinduism, Buddhism'; Confucianism cited in bibliography",
+    "reasoning": "While the paper mentions multiple religious traditions in passing and cites Confucian texts, these references are incidental examples of traditions that value family/social order. The paper's foundational values (survival, sustainable existence, society, education, truth) are derived from secular philosophical requisites for human existence, not from religious ethical frameworks. Religious traditions are acknowledged as historical sources but not substantively engaged."
+  },
+  {
+    "filename": "2024-AI-Religious Bias Benchmarks for ChatGPT.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam, Christianity, Buddhism, Judaism, Hinduism",
+    "confidence": "High",
+    "evidence": "112 morality questions tailored to five belief systems; identifies biases favoring Buddhism/secular humanism and disfavoring Abrahamic religions",
+    "reasoning": "This benchmark is explicitly designed to evaluate LLM bias across five religious traditions (Islam, Christianity, Buddhism, Judaism, Hinduism). The paper substantively engages with each tradition's ethical perspectives by creating religion-specific morality questions and analyzing how models treat different belief systems. Religious values are central to the evaluation framework."
+  },
+  {
+    "filename": "2024-Aydin-Improving LLM Reliability with RAG in.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam",
+    "confidence": "High",
+    "evidence": "Builds vector database from 'Quran, hadith collections from Kutub-i Sitte, and Islamic catechism texts'; system generates responses based on 'core Islamic sources'",
+    "reasoning": "This paper develops an Islamic religious question-answering system (MufassirQAS) that explicitly engages with Islamic texts (Quran, hadith, tafsir, catechism) to provide religiously grounded responses. The entire methodology centers on accurately representing Islamic teachings and preventing hallucinations in religious content. Islam's values and textual tradition are the substantive focus."
+  },
+  {
+    "filename": "2024-Jiang-Can Language Models Reason about Individualistic.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper uses World Values Survey data which includes religious demographic information",
+    "reasoning": "While the IndieValueCatalog dataset is derived from World Values Survey (which includes religion as a demographic variable), the paper's focus is on individualistic value reasoning independent of demographic categories. Religion appears only as one demographic dimension among many, not as a substantive ethical framework being evaluated. The paper explicitly argues against bucket-based demographic reasoning."
+  },
+  {
+    "filename": "2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "No specific religious content mentioned in abstract or metadata",
+    "reasoning": "This is a comprehensive multilingual data hub for Southeast Asian languages. While SEA regions have diverse religious traditions, the paper does not engage with religious values or ethical frameworks. It focuses on linguistic representation and model performance across indigenous languages, not religious content."
+  },
+  {
+    "filename": "2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Christianity, African Traditional Religion",
+    "confidence": "High",
+    "evidence": "'Interdisciplinary study of African theological ethics'; spirituality defined as 'Supreme Being (God), the living, and the living-dead (ancestors)'; discusses 'Christian notion of salvation', 'soteriology', 'eschatology', 'post-Christian ideologies'",
+    "reasoning": "This paper substantively engages with both African Christian theology and African traditional spirituality as foundations for Ubuntu AI ethics. The framework explicitly incorporates spirituality (Supreme Being, ancestors, living-dead) as one of three core dimensions. The author discusses theological doctrines (soteriology, eschatology, imago Dei) and how transhumanism challenges Christian beliefs. Ubuntu ethics is grounded in African Theology and African Philosophy."
+  },
+  {
+    "filename": "2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam, Hinduism",
+    "confidence": "High",
+    "evidence": "Tests 20 religious dialect sentences (Hindu vs. Muslim-majority dialects); finds bias toward Muslim dialects",
+    "reasoning": "This paper explicitly evaluates religious dialect bias in Bengali by contrasting Hindu and Muslim linguistic variants. While focused on dialect rather than theology, the religious dimension (Hindu/Muslim) is central to the bias evaluation methodology, making this substantive engagement with religious identity in AI."
+  },
+  {
+    "filename": "2024-Yuan-Social Measuring Social Norms of LLMs.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "Medium",
+    "evidence": "402 social norm skills covering 'culture and laws'; aligned with K-12 curriculum",
+    "reasoning": "While the dataset covers broad social norms including cultural practices, there is no evidence from the abstract or metadata that religious values are substantively engaged. The K-12 curriculum alignment suggests secular social studies content. Religion may be mentioned but not as a central ethical framework."
+  },
+  {
+    "filename": "2025-Bali-How Deep Is Representational Bias in.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam, Hinduism, Sikhism, Jainism",
+    "confidence": "High",
+    "evidence": "Systematic audit reveals representational bias for 'caste and religion in the Indian context'; 7,200+ generated stories about birth, wedding, death rituals",
+    "reasoning": "This paper substantively engages with religious traditions (Islam, Hinduism, Sikhism, Jainism) by analyzing how GPT-4 represents religious rituals and life events. The focus on birth/wedding/death ceremonies requires engagement with specific religious practices and their cultural significance. Religion is a primary dimension of bias analysis alongside caste."
+  },
+  {
+    "filename": "2025-Chakraborty-Sometimes the Model doth Preach Quantifying.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Hinduism, Sikhism, Islam, Christianity",
+    "confidence": "High",
+    "evidence": "Title includes 'Quantifying Religious Bias'; compares LLM opinions against demographic surveys from India on 'religious tolerance and identity'; 'Hinduism, Sikhism, and other Indian faiths directly assessed'",
+    "reasoning": "This paper explicitly quantifies religious bias by profiling LLMs against demographic surveys about religious tolerance and identity. The evaluation directly assesses how models represent Hinduism, Sikhism, Islam, and Christianity in Asian (particularly Indian) contexts. Religious perspectives are central to the bias evaluation framework."
+  },
+  {
+    "filename": "2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam, Christianity, Buddhism, Judaism, Hinduism",
+    "confidence": "High",
+    "evidence": "Examines biases in 'cultural, political, racial, religious, and gender domains'; uses names like 'John vs. Ahmed' to test religious/cultural bias",
+    "reasoning": "This paper explicitly evaluates religious bias by contrasting Christian-associated names (John) with Muslim-associated names (Ahmed) across debate scenarios. The title and abstract indicate that religious domain bias is a central focus of the evaluation, making this substantive engagement with religious identity in multilingual contexts."
+  },
+  {
+    "filename": "2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A.md",
+    "decision": "Uncertain",
+    "religious_tradition": "Indigenous Spirituality",
+    "confidence": "Low",
+    "evidence": "Systematic review of 53 articles on Indigenous peoples and AI; addresses 'Indigenous Knowledge Systems'",
+    "reasoning": "While Indigenous Knowledge Systems often incorporate spiritual/religious elements, this systematic review paper's engagement with Indigenous spirituality is unclear from the abstract. The focus appears to be on data sovereignty and knowledge systems broadly, which may or may not substantively engage with Indigenous spiritual traditions as ethical frameworks. Requires deeper reading to confirm."
+  },
+  {
+    "filename": "2025-Huang-On the Trustworthiness of Generative Foundation.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "TrustGen benchmark evaluates safety, fairness, robustness across text/image/VLM models",
+    "reasoning": "This is a comprehensive trustworthiness evaluation framework focusing on technical safety dimensions (truthfulness, fairness, robustness, privacy). While fairness evaluation may touch on religious bias incidentally, there is no evidence from the abstract that religious traditions are substantively engaged as ethical frameworks."
+  },
+  {
+    "filename": "2025-Laukkonen-Contemplative Artificial Intelligence.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Buddhism, Taoism",
+    "confidence": "High",
+    "evidence": "Four 'Buddhist-inspired' principles: mindfulness, emptiness, non-duality, boundless care; 'contemplative wisdom traditions'; 'secular Buddhism as case study'; keywords include 'Buddhism; Meditation; Mindfulness'",
+    "reasoning": "This paper substantively engages with Buddhist philosophy and contemplative practices as the foundation for AI alignment. The four core principles (mindfulness, emptiness, non-duality, boundless care) are explicitly drawn from Buddhist wisdom traditions. The paper argues for implementing Buddhist meta-principles in AI architectures, making Buddhist ethics central to the proposal."
+  },
+  {
+    "filename": "2025-Martinez-Religion and Racial Bias in Artificial.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Christianity, Judaism, Islam",
+    "confidence": "High",
+    "evidence": "Generates 175 sermons with 'combinations of race and religion'; compares 'Evangelical Protestant pastors', 'Jewish rabbis', 'Muslim imams'; 'tests five major LLMs for intersectional race-religion bias'",
+    "reasoning": "This paper explicitly examines religious bias by generating religious sermons (Evangelical Protestant, Jewish, Muslim) and analyzing readability differences. The focus on religious leaders (pastors, rabbis, imams) and sermon content demonstrates substantive engagement with religious identity and how LLMs represent different faith traditions."
+  },
+  {
+    "filename": "2025-Rao-NormAd.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "NormAd-Eti benchmark of 2.6k social etiquette norms from 75 countries (Basic Etiquette, Eating, Visiting, Gift-Giving)",
+    "reasoning": "While cultural etiquette often has religious influences, the NormAd framework focuses on social norms and etiquette rules rather than religious values. The benchmark categories (eating etiquette, visiting norms, gift-giving) are secular social practices. Religion is not mentioned as a substantive dimension in the evaluation framework."
+  },
+  {
+    "filename": "2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "Medium",
+    "evidence": "13K role conflict scenarios across 65 roles in five domains: Family, Occupation, Society, Interpersonal Relationship, Religion; 'prioritization of male roles and Abrahamic religions'",
+    "reasoning": "While 'Religion' is one of five role domains and the paper finds bias favoring Abrahamic religions, the focus is on role conflict and contextual sensitivity in social dilemmas, not on the substantive ethical content of religious traditions. Religious roles appear as one category among many, without deep engagement with religious values or principles."
+  },
+  {
+    "filename": "2018-Awad-The Moral Machine experiment.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "Medium",
+    "evidence": "40M decisions on trolley dilemmas from 233 countries; includes 'demographic, political, and religious survey data'",
+    "reasoning": "While the Moral Machine collected religious demographic data and found cultural clusters, the paper analyzes moral preferences (sparing young vs. old, more vs. fewer lives) independent of religious frameworks. Religion appears as a demographic variable correlating with cultural clusters, not as a substantive ethical tradition being evaluated. The moral preferences are utilitarian/deontological calculus, not religiously grounded."
+  },
+  {
+    "filename": "2018-Berberich-The Virtuous Machine.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Proposes Aristotelian virtue ethics (temperance, friendship) for AI alignment",
+    "reasoning": "This paper engages with Aristotelian virtue ethics, which is a secular philosophical tradition from ancient Greece, not a religious tradition. While Aristotle's work influenced medieval Christian theology (Aquinas), the paper treats virtue ethics as a philosophical framework, not a religious one. The focus is on secular philosophical concepts of virtue, not religious values."
+  },
+  {
+    "filename": "2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam, Christianity, Judaism, Hinduism, Buddhism",
+    "confidence": "High",
+    "evidence": "ToxicBias dataset annotated for 'five social bias categories (gender, race/ethnicity, religion, political, LGBTQ)' with 'target groups and bias implications'",
+    "reasoning": "This dataset explicitly includes religion as one of five bias categories with specific target groups and bias annotations. While focused on toxicity classification rather than religious values per se, the dataset substantively engages with religious identity bias by identifying when religious identity terms are unfairly flagged as toxic."
+  },
+  {
+    "filename": "2019-Jikeli-Annotating Antisemitic Online Content Towards an.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Judaism",
+    "confidence": "High",
+    "evidence": "Applies 'IHRA working definition of antisemitism' to annotate online messages; '>10% of Twitter conversations about Jews and Israel are antisemitic'; 'antisemitic content has distinct features'",
+    "reasoning": "This paper substantively engages with antisemitism, which is bias against the Jewish religious and ethnic identity. The use of the IHRA definition and focus on detecting anti-Jewish content demonstrates engagement with Judaism as a target of bias. While the paper focuses on hate speech detection rather than Jewish values, antisemitism inherently involves Jewish religious/cultural identity."
+  }
+]

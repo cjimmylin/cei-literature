@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,8 +26,8 @@ deontological_ethics: No
 utilitarian_ethics: No
 national_ethnic_cultural: Indonesian
 languages_list: Indonesian
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "Multi-religious (Islam, Christianity, Hinduism)"
+religious_values_list: "Multi-religious (Islam, Christianity, Hinduism)"
 moral_psychology: N/A
 newtags: 
 is_benchmark: Yes

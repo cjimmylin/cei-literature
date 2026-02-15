@@ -1,0 +1,241 @@
+[
+  {
+    "filename": "2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-LaCroix-Metaethical perspectives on 'benchmarking' AI.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Judaism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Judaism"
+  },
+  {
+    "filename": "2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Buddhism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Lan-McBE.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Lan-McBE.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Buddhism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2025-Liu-On the Alignment of Large Language Models with Global Human Opinion.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Liu-On the Alignment of Large Language Models with Global Human Opinion.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Mining)-Enhancing social media hate speech detection in low-resource.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Mining)-Enhancing social media hate speech detection in low-resource.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Mohammadi-EvalMORAAL.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Mohammadi-EvalMORAAL.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Okamoto-AI-based medical ethics education.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Okamoto-AI-based medical ethics education.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Rodemann-A Statistical Case Against Empirical Human-AI.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Judaism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Judaism"
+  },
+  {
+    "filename": "2025-Ruiz-Fernández-EsBBQ and CaBBQ.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ruiz-Fernández-EsBBQ and CaBBQ.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Saffari-Can I introduce my boyfriend to my grandmother.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Salehi-Blind Faith User Preference and Expert.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Sekine-AnswerCarefully A Dataset for Improving the.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Sekine-AnswerCarefully A Dataset for Improving the.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Buddhism",
+      "Confucianism",
+      "Shinto"
+    ],
+    "max_score": 2,
+    "top_tradition": "Buddhism"
+  },
+  {
+    "filename": "2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Steen-Ethical aspects of ChatGPT.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Steen-Ethical aspects of ChatGPT.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Hinduism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Tewabe-The State of Large Language Models for African Languages Progress and.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Tewabe-The State of Large Language Models for African Languages Progress and.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Trager-MFTCXplain.md",
+    "pdf_extract_path": "PDF Extracts/0000/2025-Trager-MFTCXplain.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  }
+]

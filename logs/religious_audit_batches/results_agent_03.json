@@ -1,0 +1,186 @@
+[
+  {
+    "filename": "2021-Barikeri-REDDITBIAS.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "The paper measures religious bias in conversational models using identity terms (Muslims, Christians, Jews), but the focus is on detecting BIAS AGAINST religious groups in hate speech, not on substantive engagement with religious traditions themselves.",
+    "reasoning": "This is clearly about religious BIAS detection (measuring prejudice against Muslims, Christians, Jews) in toxic comments, not about the religious/ethical traditions themselves. The religious terms are identity markers for bias measurement, not substantive religious content."
+  },
+  {
+    "filename": "2022-Abbasi-Deep Learning for Religious and Continent-Based.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "Dataset contains religious labels (Christian, Jewish, Muslim, Hindu, Buddhist, Atheist) for toxic comment classification, measuring stereotypical associations with identity terms.",
+    "reasoning": "Like REDDITBIAS, this paper is about detecting toxicity and bias AGAINST religious groups (classifying hate speech targeting Muslims, Christians, Jews, etc.), not about religious traditions or teachings themselves. Religious categories are demographic labels for bias detection."
+  },
+  {
+    "filename": "2022-Jeong-KOLD Korean Offensive Language Dataset.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "Dataset includes 21 target groups including Muslim, Christian, Catholic with 1,725 religion-targeted offensive comments (13.42% of group-targeted offensive language).",
+    "reasoning": "This is a hate speech/offensive language detection dataset where religion is one of 21 demographic target categories. The focus is on detecting bias/toxicity AGAINST religious groups, not on religious traditions themselves."
+  },
+  {
+    "filename": "2022-Sahoo-Detecting Unintended Social Bias in Toxic.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "ToxicBias dataset has 'religion' as one of five bias categories (1,573 instances) targeting Christianity, Islam, Judaism.",
+    "reasoning": "This paper extracts social biases from toxic language datasets. Religion is treated as a demographic category for bias detection (measuring bias AGAINST Muslims, Christians, Jews), not as a substantive religious/ethical tradition."
+  },
+  {
+    "filename": "2023-Munn-The Five Tests Designing and Evaluating.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Māori spirituality / Indigenous spirituality",
+    "confidence": "high",
+    "evidence": "The entire paper is built on Māori scholar Sir Hirini Moko Mead's five tests framework: Tapu (sacred/prohibited), Mauri (life force), Take-utu-ea (reciprocity/resolution), Precedent (pūrākau/traditional narratives), and Principles (whanaungatanga, manaakitanga, mana, noa, tika). These are core Māori spiritual and ethical concepts.",
+    "reasoning": "This is a textbook case of substantive religious/ethical tradition engagement. The paper CENTERS Māori indigenous knowledge systems including spiritual concepts (tapu, mauri) and traditional narratives (pūrākau) as an evaluative framework for AI. The entire methodology is grounded in Māori tikanga (correct way of doing) and Mātauranga Māori (Māori knowledge system). Religious/spiritual concepts are not incidental mentions but the core analytical framework."
+  },
+  {
+    "filename": "2024-Gallegos-Bias and Fairness in Large Language Models A Survey.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "Survey mentions 'religion' as one dimension of bias alongside gender, race, age, disability. No substantive engagement with religious traditions.",
+    "reasoning": "This is a comprehensive bias/fairness survey that mentions religion as one of many demographic dimensions for bias measurement. It does not engage with religious traditions themselves—religion is treated as an identity category for fairness evaluation, not as a substantive knowledge system."
+  },
+  {
+    "filename": "2024-Huang-TrustLLM.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "medium-high",
+    "evidence": "The paper evaluates machine ethics using moral dilemmas (trolley problem, Kohlberg's dilemmas) and mentions 'religion and culture' as one of 12 factors in moral competence testing, but focuses on secular moral philosophy frameworks.",
+    "reasoning": "While the paper tests moral reasoning and includes 'religion and culture' as a testing dimension, the core framework is secular moral philosophy (deontology, utilitarianism) applied to AI safety. Religious traditions are mentioned as context variables for moral dilemmas, not as substantive ethical frameworks."
+  },
+  {
+    "filename": "2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "The dataset measures 'religious biases in the Indian context' alongside caste-based discrimination, but focuses on stereotypes ABOUT religious groups (Muslim, Hindu, Buddhist) not religious traditions themselves.",
+    "reasoning": "This is a bias detection dataset measuring stereotypes about religious groups in India. Like other bias detection papers, it treats religion as a demographic identity category for measuring prejudice, not as a substantive religious/ethical tradition to engage with."
+  },
+  {
+    "filename": "2024-Koppel-Adapting LLMs to Hebrew Unveiling DictaLM.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "medium",
+    "evidence": "The paper develops Hebrew language models with potential application to Jewish religious texts, but the paper itself focuses on NLP benchmarks (QA, sentiment analysis, translation) without substantive engagement with religious content.",
+    "reasoning": "While this Hebrew LLM infrastructure COULD be used for Jewish religious text analysis, the paper itself is about language model adaptation and NLP benchmarking. The religious connection is potential/infrastructural, not substantive in this paper. If they had evaluated on Talmudic reasoning or Torah interpretation, that would be different."
+  },
+  {
+    "filename": "2024-University-Monitoring the Evolution of Antisemitic Discourse.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "The paper tracks antisemitic discourse and hate speech targeting Jewish people on extremist social media platforms.",
+    "reasoning": "This is hate speech detection targeting a religious/ethnic group (Jews). Like other bias/toxicity papers, it's about discrimination AGAINST a religious community, not about Jewish religious traditions or teachings."
+  },
+  {
+    "filename": "2024-Unknown-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.md",
+    "decision": "Reclassify",
+    "religious_tradition": "African indigenous spirituality / Ubuntu philosophy",
+    "confidence": "medium-high",
+    "evidence": "The paper addresses decolonization of NLP and mentions Ubuntu philosophy as a counterpoint to Western frameworks. It discusses indigenous knowledge systems and 'local voices' in African contexts, though the religious/spiritual content appears less central than in the Māori paper.",
+    "reasoning": "This paper engages with African indigenous knowledge systems and Ubuntu philosophy as alternatives to Western NLP frameworks. While less explicitly spiritual than the Māori paper, Ubuntu is a philosophical/spiritual framework rooted in African traditions. The paper's decolonial stance positions indigenous African epistemologies (which include spiritual dimensions) as central to the argument. However, the religious/spiritual content is less developed than the Māori paper—it's more about power dynamics and data colonialism with Ubuntu as one example."
+  },
+  {
+    "filename": "2024-Wang-Possibilities and challenges in the moral growth of LLMs.md",
+    "decision": "Uncertain",
+    "religious_tradition": "Confucianism (possibly)",
+    "confidence": "low-medium",
+    "evidence": "The paper uses Dewey's moral development theory as its framework and includes 'religion and culture' as one of 12 test factors in moral dilemma scenarios. The abstract mentions testing across 'religion and culture' dimensions but focuses on Dewey's secular moral philosophy.",
+    "reasoning": "This is a borderline case. The paper's core framework is Dewey's secular moral development theory applied to RLHF. However, it includes 'religion and culture' as a testing dimension in moral dilemmas. The Chinese authorship and context (testing moral competence across 'religion and culture') suggests possible Confucian influence, but this isn't explicit in the available abstract/metadata. Without reading the full methodology, it's unclear if religious traditions are substantively engaged or just mentioned as context variables. Needs closer examination of the actual test scenarios."
+  },
+  {
+    "filename": "2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Confucianism and Taoism",
+    "confidence": "high",
+    "evidence": "The benchmark 'explicitly includes philosophy (encompassing Confucian and Taoist philosophical traditions) as one of its evaluation domains' across 13 tasks covering historical facts, geography, social customs, art, philosophy, classical poetry and prose.",
+    "reasoning": "This benchmark substantively evaluates LLM understanding of Confucian and Taoist philosophical traditions through ancient Chinese texts. Philosophy is a core evaluation domain, not an incidental mention. Confucianism and Taoism are religious/ethical traditions central to Chinese civilization, and the benchmark tests comprehension of their classical texts and philosophical concepts."
+  },
+  {
+    "filename": "2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "medium",
+    "evidence": "Abstract mentions 'Christianity' with max score 3 as a candidate tradition, suggesting religious references in the cultural alignment testing.",
+    "reasoning": "This paper tests cultural alignment, and religion may appear as a cultural dimension. However, without the full text, it appears to be testing alignment with cultural contexts (which include religious elements) rather than substantively engaging with religious traditions as ethical frameworks. Similar to other bias/alignment papers that mention religion as a demographic/cultural variable."
+  },
+  {
+    "filename": "2025-Ajwad Abrar-Religious Bias Landscape in Language and.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "Title explicitly about 'Religious Bias' with candidate traditions Islam, Christianity, Buddhism, Judaism, Hinduism (max score 3).",
+    "reasoning": "The title 'Religious Bias Landscape' clearly indicates this is about detecting BIAS in language models regarding religious groups, not about engaging with religious traditions themselves. Classic bias detection paper."
+  },
+  {
+    "filename": "2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "medium-high",
+    "evidence": "Arabic NLP benchmark with Islam (max score 3) as a candidate tradition, likely due to religious references in Arabic text corpora.",
+    "reasoning": "This appears to be an Arabic language NLP benchmark. While Arabic corpora naturally contain Islamic references (Arabic being the language of the Quran), the benchmark itself appears focused on NLP tasks rather than substantive Islamic scholarship or ethical reasoning. Religion is likely present as cultural context in the language data, not as the analytical framework."
+  },
+  {
+    "filename": "2025-Dubey-Addressing Moral Uncertainty using Large Language.md",
+    "decision": "Uncertain",
+    "religious_tradition": "Buddhism and Confucianism (possibly)",
+    "confidence": "low",
+    "evidence": "Candidate traditions are Buddhism and Confucianism (max score 3). The title suggests moral reasoning framework, but unclear if Buddhist/Confucian ethics are substantively engaged.",
+    "reasoning": "The title 'Addressing Moral Uncertainty' suggests this could be about moral philosophy frameworks. If the paper uses Buddhist or Confucian ethical frameworks to address moral uncertainty in LLMs, it would be relevant. However, it could also be a secular moral reasoning paper that merely mentions these traditions as examples. Cannot determine without reading the full text."
+  },
+  {
+    "filename": "2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "medium-high",
+    "evidence": "Benchmark for sexist and homophobic bias in Filipino context with Christianity (max score 3) as candidate tradition.",
+    "reasoning": "This is explicitly a bias detection benchmark (sexism, homophobia) in Filipino context. Christianity appears likely because of Filipino Catholic cultural context influencing attitudes toward gender and sexuality. But the paper is about measuring BIAS, not about Christian ethics as a substantive framework."
+  },
+  {
+    "filename": "2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.md",
+    "decision": "Uncertain",
+    "religious_tradition": "Confucianism (possibly)",
+    "confidence": "low",
+    "evidence": "Multilingual cultural awareness benchmark with Confucianism (max score 3) as candidate tradition.",
+    "reasoning": "This paper is about cultural awareness and human preference learning. If it substantively engages with Confucian values and ethics as part of cultural awareness evaluation, it could be relevant. However, it might just mention Confucianism as a cultural reference without deep engagement. Cannot determine without full text."
+  },
+  {
+    "filename": "2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "medium-high",
+    "evidence": "Cultural evaluation paper with Christianity (max score 3) as candidate tradition.",
+    "reasoning": "This appears to be a methodological paper about cultural evaluation frameworks (challenging closed-style evaluations). Religion appears as a cultural dimension being evaluated, not as a substantive framework. Similar to other cultural alignment papers."
+  },
+  {
+    "filename": "2025-Ki-Multiple LLM Agents Debate for Equitable Cultural.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "medium-high",
+    "evidence": "Multi-agent debate for cultural issues with Christianity (max score 3) as candidate tradition.",
+    "reasoning": "This appears to be about multi-agent LLM debates for cultural topics. Religion (Christianity) likely appears as a cultural topic being debated, not as a substantive ethical framework structuring the analysis."
+  },
+  {
+    "filename": "2025-Lee-When Prompting Fails to Sway.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "medium-high",
+    "evidence": "Paper about prompting effectiveness with Christianity (max score 3) as candidate tradition.",
+    "reasoning": "This appears to be about prompting techniques and LLM behavior. Religious content (Christianity) may appear in prompts or test scenarios, but doesn't seem to be a substantive engagement with Christian ethics or theology."
+  },
+  {
+    "filename": "2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "Hate speech dataset for Italian and Polish with Islam, Christianity, Judaism (max score 3) as candidate traditions.",
+    "reasoning": "This is explicitly a hate speech detection dataset. Like all other hate speech/bias detection papers, it measures hatred AGAINST religious groups (Muslims, Christians, Jews), not substantive engagement with religious traditions."
+  }
+]

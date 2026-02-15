@@ -1,0 +1,264 @@
+[
+  {
+    "filename": "2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity"
+    ],
+    "max_score": 4,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Hinduism"
+    ],
+    "max_score": 4,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2023-Hou-Foundational Moral Values for AI Alignment.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Hou-Foundational Moral Values for AI Alignment.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity",
+      "Confucianism"
+    ],
+    "max_score": 4,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2024-AI-Religious Bias Benchmarks for ChatGPT.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-AI-Religious Bias Benchmarks for ChatGPT.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Buddhism",
+      "Judaism"
+    ],
+    "max_score": 4,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Aydin-Improving LLM Reliability with RAG in.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Aydin-Improving LLM Reliability with RAG in.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 4,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Jiang-Can Language Models Reason about Individualistic.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Jiang-Can Language Models Reason about Individualistic.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 4,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 4,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 4,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Hinduism"
+    ],
+    "max_score": 4,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Yuan-Social Measuring Social Norms of LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Yuan-Social Measuring Social Norms of LLMs.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Judaism",
+      "Hinduism",
+      "Confucianism"
+    ],
+    "max_score": 4,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Bali-How Deep Is Representational Bias in.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Bali-How Deep Is Representational Bias in.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Hinduism",
+      "Sikhism",
+      "Jainism"
+    ],
+    "max_score": 4,
+    "top_tradition": "Hinduism"
+  },
+  {
+    "filename": "2025-Chakraborty-Sometimes the Model doth Preach Quantifying.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Chakraborty-Sometimes the Model doth Preach Quantifying.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Hinduism",
+      "Sikhism"
+    ],
+    "max_score": 4,
+    "top_tradition": "Hinduism"
+  },
+  {
+    "filename": "2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Buddhism",
+      "Judaism",
+      "Hinduism"
+    ],
+    "max_score": 4,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Indigenous Spirituality"
+    ],
+    "max_score": 4,
+    "top_tradition": "Indigenous Spirituality"
+  },
+  {
+    "filename": "2025-Huang-On the Trustworthiness of Generative Foundation.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Huang-On the Trustworthiness of Generative Foundation.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Judaism"
+    ],
+    "max_score": 4,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Laukkonen-Contemplative Artificial Intelligence.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Laukkonen-Contemplative Artificial Intelligence.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity",
+      "Buddhism",
+      "Taoism"
+    ],
+    "max_score": 4,
+    "top_tradition": "Buddhism"
+  },
+  {
+    "filename": "2025-Martinez-Religion and Racial Bias in Artificial.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Judaism"
+    ],
+    "max_score": 4,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Rao-NormAd.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Rao-NormAd.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 4,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Judaism",
+      "Hinduism"
+    ],
+    "max_score": 4,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2018-Awad-The Moral Machine experiment.md",
+    "pdf_extract_path": "PDF Extracts/2018/2018-Awad-The Moral Machine experiment.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 3,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2018-Berberich-The Virtuous Machine.md",
+    "pdf_extract_path": "PDF Extracts/2018/2018-Berberich-The Virtuous Machine.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 3,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification.md",
+    "pdf_extract_path": "PDF Extracts/2019/2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 3,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2019-Jikeli-Annotating Antisemitic Online Content Towards an.md",
+    "pdf_extract_path": "PDF Extracts/2019/2019-Jikeli-Annotating Antisemitic Online Content Towards an.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Judaism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Islam"
+  }
+]

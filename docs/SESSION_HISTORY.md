@@ -2,6 +2,48 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 78 (Feb 15, 2026) - Religious Tradition Reclassification & Gap Analysis
+
+### Overview
+Executed Workstreams A and C of the Religious Values Alignment plan. Expanded keyword patterns in the religious classifier, ran an extended audit scanning PDF extracts (228 candidates), launched a 10-agent deep-read swarm to classify candidates, reclassified 77 papers from N/A to specific religious traditions, and generated a comprehensive 12-section gap analysis report.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Keyword patterns expanded | +48 across 8 traditions |
+| Audit candidates found | 228 (from 1,847 papers scanned) |
+| Deep-read agents | 10 (Sonnet, ~23 papers each) |
+| Papers reclassified | 77 (34% of candidates) |
+| Papers confirmed N/A | 147 (65%) |
+| Papers uncertain | 4 (2%) |
+| Religious-tagged papers | 203 (was 126, +61% increase) |
+| Gap report generated | 779 lines, 12 sections |
+| Zero-benchmark traditions | 4 (Shinto, Baha'i, Zoroastrian, Indigenous) |
+| Validation | 1847/1847 PASS, 0 errors |
+
+### Key Learnings
+- [Classification] Keyword-only classification (title+abstract) missed 77 papers that substantively engage with religious traditions. Deep-reading PDF extracts with weighted scoring (title=3x, abstract=2x, extract=1x) catches papers where religious content is in the body only.
+- [Classification] 0/203 religious-tagged papers also have `ethics_overall=Yes` — papers are about religious *bias detection* or religious *NLP*, not religious *ethical frameworks applied to AI*. This is the real gap.
+- [Workflows] Free-text agent output for tradition labels produces inconsistent delimiters (`, ` vs `; ` vs parenthetical qualifiers). Report-level splitting logic must handle all patterns (`re.split(r'[,;]\s*', val)`).
+- [YAML] The `scan_all_papers()` function in report scripts maps YAML field names to dict keys — must check *dict key* names, not *YAML field* names, when fixing field references. A `replace_all` on `p["ethics"]` can break when the dict key differs from the YAML field.
+
+### Scripts Created
+- `PYTHON/audit_religious_traditions.py` — Extended keyword audit scanning papers + PDF extracts
+- `PYTHON/generate_religious_audit_batches.py` — Batch generator for agent swarm
+- `PYTHON/consolidate_religious_audit.py` — Consolidate + apply agent results with safe YAML regex
+- `PYTHON/generate_tradition_gap_report.py` — 12-section gap analysis report generator
+
+### Scripts Modified
+- `PYTHON/classify_cultural_religious.py` — Expanded `RELIGIOUS_PATTERNS` (+48 patterns across Buddhism, Judaism, Hinduism, Sikhism, Taoism, Shinto, Jainism, Indigenous)
+
+### Files Changed
+- papers/: 77 modified (religious_values reclassified)
+- PYTHON/: 4 new scripts, 1 modified
+- STATISTICS/: 1 new report (gap analysis)
+- logs/: 2 new JSON files + religious_audit_batches/ directory (10 batches + 10 results + rubric)
+
+---
+
 ## Session 77 (Feb 14, 2026) - Wave 3 Enrichment Gap-Closing & Unknown Author Resolution
 
 ### Overview

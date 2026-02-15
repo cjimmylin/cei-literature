@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,8 +26,8 @@ deontological_ethics: No
 utilitarian_ethics: No
 national_ethnic_cultural: Italian
 languages_list: Italian
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "Judaism (and Christianity, Islam as hate targets)"
+religious_values_list: "Judaism (and Christianity, Islam as hate targets)"
 moral_psychology: N/A
 newtags: 
 is_benchmark: No

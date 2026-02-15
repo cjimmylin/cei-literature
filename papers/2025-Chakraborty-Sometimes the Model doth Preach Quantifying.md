@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,8 +25,8 @@ virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
 national_ethnic_cultural: "Indian, American"
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "Hinduism, Sikhism, Islam, Christianity"
+religious_values_list: "Hinduism, Sikhism, Islam, Christianity"
 moral_psychology: N/A
 newtags: 
 is_benchmark: No

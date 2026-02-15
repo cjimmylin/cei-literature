@@ -1,0 +1,186 @@
+[
+  {
+    "filename": "2024-Published in Sadhana journal-Transformer-based Pouranic Topic Classification in Indian.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Hinduism",
+    "confidence": "High",
+    "evidence": "Paper creates PouranicTopic dataset of 200K+ annotated verses from 7 major Hindu Puranas (Matsya, Padma, Vishnu, Bhagavata, Narada, Markandeya, Brahmavaivarta). Evaluates BERT, RoBERTa, DistilBERT for topic classification of Hindu mythological texts.",
+    "reasoning": "This is centrally about Hindu religious texts (Puranas). The dataset consists entirely of verses from major Hindu scriptures. The paper's purpose is to create an AI resource for processing Hindu mythology. This is substantive engagement with a religious tradition, not merely incidental mention."
+  },
+  {
+    "filename": "2024-Rodríguez Louro-The Yarning Corpus.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper documents Aboriginal English sociolinguistic features in Nyungar Country, Western Australia. While the corpus contains culturally significant narratives about Stolen Generation and racism, there is no substantive discussion of Indigenous Spirituality as a religious/ethical framework.",
+    "reasoning": "The paper is about linguistic features of Aboriginal English, not about Aboriginal spirituality or religious beliefs. 'Indigenous Spirituality' was flagged as a candidate tradition, but the actual paper content focuses on language variation and sociolinguistic methodology. Cultural practices are mentioned but not as religious/ethical frameworks central to the analysis."
+  },
+  {
+    "filename": "2024-Sadhu-Social Bias in Large Language Models.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam; Hinduism",
+    "confidence": "High",
+    "evidence": "Paper explicitly examines religious bias in LLMs for Bangla. The abstract states they examine 'two types of social biases' with religious bias being one of them. The dataset includes template-based and naturally sourced probing for religious identity (Hindu-Muslim). The paper addresses religious bias in the context of Bangladesh where Hindu and Muslim are the two major religious communities.",
+    "reasoning": "This paper substantively engages with religious traditions (Islam and Hinduism) as the subject of bias analysis in AI systems. Religious identity is a core analytical category throughout the paper. The research question centers on how LLMs handle religious bias, particularly in the Bangla-speaking context where Hindu-Muslim dynamics are culturally significant. This is about religious BIAS in AI, which falls under the relevant category."
+  },
+  {
+    "filename": "2024-Saffari-PSN.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam",
+    "confidence": "Medium",
+    "evidence": "The PSN (Persian Social Norms) dataset includes demographic features with 'Religion' as one of the annotation categories. The paper states demographic features include 'gender, religion, ethnicity, family status' with 'Muslim, Christian, Jewish, Zoroastrian, Not Muslim' as possible values. 158 out of 522 entries with demographic features are annotated with religion. Example norms include 'Distributing votive food offerings' (mosque context, Muslim), 'read the Quran and recite Ramadan supplications'.",
+    "reasoning": "The paper explicitly includes religion as a demographic variable affecting social norms in Iranian culture. While the paper's primary focus is on Iranian social norms broadly, religion (particularly Islam) is one of the key contextual factors that shapes norm interpretation. The dataset includes religious context for understanding cultural appropriateness. This is substantive enough to warrant reclassification, though Islam is one of several cultural factors examined rather than the sole focus."
+  },
+  {
+    "filename": "2024-Sang-CDEval A Benchmark for Measuring the.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "CDEval measures cultural dimensions of LLMs using Hofstede's framework (Power Distance, Individualism vs. Collectivism, Masculinity vs. Femininity, Uncertainty Avoidance, Long-Term Orientation, Indulgence vs. Restraint). The paper evaluates LLMs on Chinese cultural values. While Buddhism, Confucianism, and Shinto were flagged as candidate traditions, the paper does not discuss these religious/philosophical traditions substantively.",
+    "reasoning": "This paper uses Hofstede's cultural dimensions theory, which is a social science framework, not a religious or explicitly ethical tradition. While the cultural dimensions it measures (e.g., collectivism, long-term orientation) may correlate with Buddhist or Confucian values, the paper does not frame its analysis in terms of religious traditions. The 'Buddhism, Confucianism, Shinto' detection appears to be a false positive based on keyword matching of cultural characteristics that happen to align with these traditions."
+  },
+  {
+    "filename": "2024-Semenova-Benchmarking Multimodal Models for Ukrainian Language Understanding.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper introduces ZNO-Vision benchmark for Ukrainian language and UACUISINE benchmark for Ukrainian cultural dishes. While Christianity was flagged as a candidate, the paper focuses on academic testing and cultural cuisine, not religious content.",
+    "reasoning": "This is a multimodal benchmark for Ukrainian language understanding across academic subjects and cultural knowledge (cuisine). There is no substantive engagement with Christianity as a religious tradition. The 'Christianity' flag was likely triggered by general Ukrainian cultural context, but the paper does not discuss Christian beliefs, practices, or ethics."
+  },
+  {
+    "filename": "2024-Singh-Aya Dataset.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "Medium",
+    "evidence": "The Aya Dataset is a multilingual instruction dataset covering 119 languages. Christianity was flagged as a candidate tradition, but without access to the PDF extract (file too large), I cannot verify substantive religious content. The abstract mentions it's an instruction dataset for multilingual NLP.",
+    "reasoning": "Based on the metadata, this appears to be a broad multilingual dataset for instruction-following, not specifically focused on religious content. The Christianity flag may be incidental. However, without the PDF extract, this is marked as medium confidence. The paper likely contains some religious content across its 119 languages but is not centrally about any religious tradition."
+  },
+  {
+    "filename": "2024-Singla-Samayik A Benchmark and Dataset for.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Hinduism",
+    "confidence": "High",
+    "evidence": "Abstract states 'Sanskrit is foundational to Hindu scriptural tradition.' The dataset consists of 53,000 parallel English-Sanskrit sentences. Sanskrit is the liturgical language of Hinduism and the language of foundational Hindu texts (Vedas, Upanishads, Bhagavad Gita, etc.).",
+    "reasoning": "While the paper's primary contribution is a translation benchmark for contemporary Sanskrit prose, Sanskrit is intrinsically linked to Hindu religious tradition. The abstract explicitly notes Sanskrit's role in Hindu scripture. This is not a paper about Hinduism per se, but the language itself is so deeply tied to Hindu religious tradition that work on Sanskrit NLP is substantively engaging with resources foundational to Hinduism."
+  },
+  {
+    "filename": "2024-Stenseke-Computational Complexity of Ethics.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper analyzes computational complexity of consequentialism, deontology, and virtue ethics. Christianity and Confucianism were flagged as candidates, but the paper is a theoretical analysis of normative ethical frameworks through computational complexity theory.",
+    "reasoning": "This paper analyzes secular philosophical ethics (consequentialism, deontology, virtue ethics) through the lens of computational complexity. While these ethical frameworks have historical connections to various religious traditions, the paper does not engage with Christianity or Confucianism substantively. It's a computational philosophy paper about normative ethics, not about religious ethical systems."
+  },
+  {
+    "filename": "2024-Suliman-The interconnectedness between Ubuntu principles.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper explores Ubuntu philosophy (African humanistic philosophy) in relation to Generative AI in distance education. Ubuntu is described with eight core principles: compassion, forgiveness, responsibility, honesty, self-control, caring, love, perseverance. Christianity was flagged as a candidate.",
+    "reasoning": "Ubuntu is an African philosophical/ethical tradition, not a religious tradition in the same sense as Christianity, Islam, or Hinduism. While Ubuntu philosophy may have some overlap with Christian values (particularly in South Africa where many practitioners are Christian), the paper treats Ubuntu as a cultural-philosophical framework distinct from religion. This is about an ethical philosophy, not a religious tradition."
+  },
+  {
+    "filename": "2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam; Christianity",
+    "confidence": "High",
+    "evidence": "Paper states the dataset focuses on 'texts targeting vulnerable groups' including 'Shia, LGBTQ, ethnic minorities' during Indonesian presidential elections. The abstract mentions targeting of Shia (Islamic sect) and ethnic minorities. Indonesia has Muslim majority with significant Christian minority.",
+    "reasoning": "This paper substantively engages with religious identity as a target of hate speech in Indonesian social media. The dataset explicitly annotates hate speech targeting religious minorities (Shia, an Islamic sect often persecuted in majority Sunni Indonesia). Religious identity is a core analytical category for understanding hate speech patterns. This is about religious bias/targeting in AI-detected hate speech, making it relevant."
+  },
+  {
+    "filename": "2024-Tabaczek-Virtuous AI Aristotelian-Thomistic.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Christianity (Catholic/Thomistic)",
+    "confidence": "High",
+    "evidence": "Paper offers an 'Aristotelian-Thomistic response' to whether AI can develop virtue. The author (Mariusz Tabaczek O.P.) is a Dominican friar. The analysis is explicitly based on Thomas Aquinas's understanding of moral and intellectual virtues. The philosophical framework is Thomistic ethics, which is Catholic philosophical theology.",
+    "reasoning": "This paper is centrally grounded in Thomistic (Catholic) philosophical theology. While Aquinas's virtue ethics draws on Aristotle, Thomistic philosophy is distinctly Catholic in its development and application. The author explicitly frames the analysis through Aquinas's theological understanding of virtue, including the role of grace, the distinction between natural and supernatural virtues (though this paper focuses on natural virtues), and the ontological status of persons versus AI. This is substantive engagement with a religious ethical tradition."
+  },
+  {
+    "filename": "2024-Tahir-Benchmarking Pre-trained Large Language Models Potential.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "Medium",
+    "evidence": "Paper benchmarks LLMs on Urdu NLP tasks across 14 tasks and 15 datasets. Christianity was flagged as a candidate. Urdu is primarily spoken in Pakistan (Muslim majority) and India. Without full PDF access, cannot verify if religious content is substantive.",
+    "reasoning": "This appears to be a general Urdu NLP benchmark paper without specific focus on religious content. The Christianity flag may be incidental. Urdu-speaking regions are predominantly Muslim, but the paper's focus seems to be on language model capabilities broadly, not religious content specifically. Marked medium confidence due to incomplete information."
+  },
+  {
+    "filename": "2024-Tonneau-NaijaHate.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam; Christianity",
+    "confidence": "Medium",
+    "evidence": "Paper analyzes hate speech on Nigerian Twitter. The abstract states hate speech targets include 'ethnic, religious, regional, and gender-based categories.' Nigerian religious landscape includes significant Muslim and Christian populations. The paper examines religious identity as a hate target category.",
+    "reasoning": "This paper substantively engages with religion as a category of hate speech targeting in Nigeria. Religious identity (Muslim vs. Christian tensions in Nigeria) is one of the key analytical categories. While the paper is primarily about hate speech detection methodology, the religious dimension is substantively addressed as part of the hate target analysis. However, the focus is on religious BIAS/targeting rather than religious traditions themselves, hence medium confidence."
+  },
+  {
+    "filename": "2024-Unknown-WoNBias A Complete Bengali Gender Bias Dataset.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper is described as 'Manually annotated corpus of Bengali designed to identify gender-based biases, stereotypes, and harmful language against women.' The focus is explicitly on gender bias, not religious content. Islam was flagged as a candidate tradition.",
+    "reasoning": "This is a gender bias dataset for Bengali language. While Bangladesh is majority Muslim and gender norms may be influenced by Islamic culture, the paper's focus is on gender bias, not religious tradition. The Islam flag appears to be based on the Bengali/Bangladeshi context, but the actual content is about gender bias detection, not about Islamic teachings or practices."
+  },
+  {
+    "filename": "2024-Unknown-hatebnBERT An Innovative Novel Transformer Model.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam; Hinduism",
+    "confidence": "High",
+    "evidence": "Abstract states the paper 'Introduces hatebnBERT, a BERT-based model tailored to Bangla for religious hate speech detection.' It creates datasets with five-class categorization including 'Blasphemy and Ethnic Hatred.' The abstract explicitly mentions 'Bangla-specific religious sensitivity challenges between Muslim and Hindu communities.'",
+    "reasoning": "This paper is explicitly about religious hate speech detection in Bangla, focusing on Muslim-Hindu tensions in Bangladesh. 'Religious hate speech' and 'blasphemy' are central categories. The paper directly addresses how AI systems handle religious sensitivities and detect hate speech targeting religious communities. This is substantive engagement with religious traditions as the subject of AI bias and hate speech analysis."
+  },
+  {
+    "filename": "2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam; Christianity",
+    "confidence": "High",
+    "evidence": "Abstract states the system is 'NLP-based hate speech classifier for texts targeting vulnerable groups in Indonesia (Shia, Ahmadiyyah, Christians, LGBTQ+, Chinese Indonesians, people with disabilities).' Shia and Ahmadiyyah are Islamic sects often persecuted in Indonesia. Christians are also listed as vulnerable targets.",
+    "reasoning": "This paper explicitly addresses hate speech targeting religious minorities in Indonesia. Shia and Ahmadiyyah (Islamic sects), and Christians are among the vulnerable groups the system monitors. Religious identity is a core category for hate speech detection in this deployed system. This is substantive engagement with religious bias/targeting in AI systems for content moderation."
+  },
+  {
+    "filename": "2024-Xie-CultureLLM Incorporating Cultural Differences into Large.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam (and broadly religious values)",
+    "confidence": "Medium",
+    "evidence": "Abstract states the paper uses 'World Values Survey seed data with semantic augmentation' covering '7 WVS topics including religious values, ethical values and norms.' The paper creates culture-specific LLMs evaluated on datasets that include topics related to religious values as defined by the World Values Survey.",
+    "reasoning": "The paper explicitly includes 'religious values' as one of the cultural dimensions it addresses through the World Values Survey framework. While not focused on a single religious tradition, it substantively engages with religious values as a component of cultural differences in LLMs. The Turkish-specific model (CultureLLM-Tr) would engage with Islamic values given Turkey's cultural context. This represents substantive engagement with religious values, though in a multi-dimensional cultural framework rather than deep analysis of specific traditions."
+  },
+  {
+    "filename": "2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper is a systematic review of hate speech datasets examining which identity groups are targeted. It analyzes the representation of different target identities in existing hate speech datasets. Islam was flagged as a candidate.",
+    "reasoning": "This is a meta-analysis/systematic review of hate speech datasets, examining which identity groups (including religious groups) are represented as targets. While religious identity is one category analyzed, the paper is not about religious traditions themselves but about dataset representation and bias in hate speech research. The focus is methodological - examining gaps in existing datasets - not substantive engagement with religious traditions."
+  },
+  {
+    "filename": "2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam (and other religious minorities in Iran)",
+    "confidence": "Medium",
+    "evidence": "Paper creates '7,000+ manually-annotated Persian tweets with multi-label hate speech annotations specifying targeted groups.' In Iranian context, religious minorities (Baha'i, Christians, Jews, Sunni Muslims vs. Shia majority) are often targets of hate speech. The paper is about detecting hate speech in Persian/Iranian context.",
+    "reasoning": "While the abstract doesn't explicitly mention religious targeting, Persian hate speech datasets in the Iranian context typically include religious minorities as hate targets (Baha'i, Sunni Muslims, Christians, Jews facing persecution from Shia majority). Given that the paper specifies targeted groups and provides rationales, religious identity is likely a substantive category. However, without explicit confirmation in the available metadata, this is marked medium confidence."
+  },
+  {
+    "filename": "2024-[[Unknown]]-TABHATE A Target-based Hate Speech Detection.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam; Hinduism",
+    "confidence": "Medium",
+    "evidence": "Paper is described as 'Target-based hate speech detection dataset in Hindi with cultural targeting annotations.' In the Indian context where Hindi is spoken, religious targeting (Hindu-Muslim tensions, also targeting of Christians, Sikhs) is a major category of hate speech. The abstract mentions 'cultural targeting annotations.'",
+    "reasoning": "Hindi hate speech in the Indian context frequently involves religious targeting, particularly Hindu-Muslim tensions. The paper's focus on 'target-based' hate speech with 'cultural targeting annotations' suggests religious identity is likely a substantive category. However, without more detailed information from the paper content, this is marked medium confidence. The Indian flag and target-based approach strongly suggest religious categories are included."
+  },
+  {
+    "filename": "2025-Adelani-INJONGO A Multicultural Intent Detection and.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper introduces 'INJONGO—a multicultural, open-source benchmark dataset for 16 African languages with utterances generated by native speakers across diverse domains, including banking, travel, home, dining.' The focus is on intent detection and slot-filling for conversational AI. Christianity was flagged as a candidate.",
+    "reasoning": "This is a conversational AI benchmark for African languages focused on practical domains (banking, travel, dining, home). While African cultures include various religious traditions, the paper's focus is on intent detection for everyday tasks, not religious content. The Christianity flag is likely incidental to the African cultural context. There is no substantive engagement with religious traditions as ethical frameworks or content domains."
+  },
+  {
+    "filename": "2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Judaism (and Christianity, Islam as hate targets)",
+    "confidence": "High",
+    "evidence": "Abstract states: 'Primary hate targets: Black people, Jews, gay individuals.' The paper analyzes hate speech on Italian Telegram finding Jews as one of the three primary hate targets. The paper substantively examines antisemitic hate speech in Italian social media.",
+    "reasoning": "This paper substantively addresses religious identity (Judaism) as a primary target of hate speech in Italian Telegram communities. While the paper is about hate speech detection generally, the identification of Jews as one of the three main hate targets means the research directly engages with antisemitism and religious targeting. This is about religious BIAS in the form of hate speech targeting religious minorities, which falls under the relevant category."
+  }
+]

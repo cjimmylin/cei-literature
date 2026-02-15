@@ -1,0 +1,237 @@
+[
+  {
+    "filename": "2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Judaism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2023-Li-ACLUE Can Large Language Model Comprehend.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Li-ACLUE Can Large Language Model Comprehend.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism",
+      "Taoism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2023-Mager-Neural Machine Translation for the Indigenous Languages of the.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Mager-Neural Machine Translation for the Indigenous Languages of the.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2023-Pires-Sabiá Portuguese Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Pires-Sabiá Portuguese Large Language Models.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2023-Santurkar-Whose Opinions Do Language Models Reflect.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Santurkar-Whose Opinions Do Language Models Reflect.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2023-Soemer-Antisemitic Messages A Guide to High-Quality.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Soemer-Antisemitic Messages A Guide to High-Quality.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Judaism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Judaism"
+  },
+  {
+    "filename": "2023-Susanto-BHASA A Holistic Southeast Asian Linguistic.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Susanto-BHASA A Holistic Southeast Asian Linguistic.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2023-Wang-DecodingTrust.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Wang-DecodingTrust.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-AlKhamissi-Investigating Cultural Alignment of LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-AlKhamissi-Investigating Cultural Alignment of LLMs.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Cahyawijaya-LLM for everyone.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Cahyawijaya-LLM for everyone.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Hinduism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Dou-SailCompass Towards Reproducible and Robust Evaluation.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Dou-SailCompass Towards Reproducible and Robust Evaluation.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Gabriel-The Ethics of Advanced AI Assistants.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Gabriel-The Ethics of Advanced AI Assistants.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Group-The AI Safety Benchmark.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Group-The AI Safety Benchmark.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Hendrycks-Introduction to AI Safety, Ethics, and Society.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Hendrycks-Introduction to AI Safety, Ethics, and Society.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Jin-WenMind A Comprehensive Benchmark for Evaluating.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Jin-WenMind A Comprehensive Benchmark for Evaluating.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism",
+      "Taoism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2024-Kirk-The PRISM Alignment Project.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Kirk-The PRISM Alignment Project.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  }
+]

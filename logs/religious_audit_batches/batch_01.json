@@ -1,0 +1,266 @@
+[
+  {
+    "filename": "2022-Kulkarni-Semantic and Sentiment Analysis of Selected.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Kulkarni-Semantic and Sentiment Analysis of Selected.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity",
+      "Buddhism",
+      "Hinduism"
+    ],
+    "max_score": 14,
+    "top_tradition": "Hinduism"
+  },
+  {
+    "filename": "2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 9,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Indigenous Spirituality"
+    ],
+    "max_score": 9,
+    "top_tradition": "Indigenous Spirituality"
+  },
+  {
+    "filename": "2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Indigenous Spirituality"
+    ],
+    "max_score": 8,
+    "top_tradition": "Indigenous Spirituality"
+  },
+  {
+    "filename": "2025-Ghaly-Assessing Large Language Models on Islamic.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ghaly-Assessing Large Language Models on Islamic.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 8,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Trepczynski-AI as a Rational Theologian A.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Trepczynski-AI as a Rational Theologian A.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Judaism",
+      "Confucianism",
+      "Multiple Religions"
+    ],
+    "max_score": 8,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Hinduism"
+    ],
+    "max_score": 7,
+    "top_tradition": "Hinduism"
+  },
+  {
+    "filename": "2025-Zhang-Cognitive Bias in Generative AI Influences.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhang-Cognitive Bias in Generative AI Influences.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Judaism",
+      "Hinduism"
+    ],
+    "max_score": 7,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2023-Trepczynski-Religion Theology and Philosophical Skills of.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Trepczynski-Religion Theology and Philosophical Skills of.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 6,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Griffiths-Explicitly Unbiased Large Language Models Still.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Griffiths-Explicitly Unbiased Large Language Models Still.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Buddhism",
+      "Judaism"
+    ],
+    "max_score": 6,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Lan-Fuxi A Benchmark for Evaluating Language.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Lan-Fuxi A Benchmark for Evaluating Language.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism",
+      "Taoism"
+    ],
+    "max_score": 6,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 6,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2016-Purzycki-Cross-cultural dataset for the evolution of.md",
+    "pdf_extract_path": "PDF Extracts/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity",
+      "Buddhism",
+      "Hinduism"
+    ],
+    "max_score": 5,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity",
+      "Judaism"
+    ],
+    "max_score": 5,
+    "top_tradition": "Judaism"
+  },
+  {
+    "filename": "2022-Unknown-Addressing Religious Hate Online From Taxonomy.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Unknown-Addressing Religious Hate Online From Taxonomy.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Judaism"
+    ],
+    "max_score": 5,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Hutchinson-Modeling the Sacred Considerations when Using.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Hutchinson-Modeling the Sacred Considerations when Using.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Judaism",
+      "Hinduism"
+    ],
+    "max_score": 5,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Network-Harnessing the Power of Artificial Intelligence to Vitalize.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Network-Harnessing the Power of Artificial Intelligence to Vitalize.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 5,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2024-Songyuan Liu-Measuring Spiritual Values and Bias of.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Songyuan Liu-Measuring Spiritual Values and Bias of.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Judaism",
+      "Hinduism"
+    ],
+    "max_score": 5,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Hinduism"
+    ],
+    "max_score": 5,
+    "top_tradition": "Hinduism"
+  },
+  {
+    "filename": "2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Indigenous Spirituality"
+    ],
+    "max_score": 5,
+    "top_tradition": "Indigenous Spirituality"
+  },
+  {
+    "filename": "2025-Unknown-Beyond Neutrality A Comprehensive Approach of Religious Bias.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Unknown-Beyond Neutrality A Comprehensive Approach of Religious Bias.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Buddhism",
+      "Judaism",
+      "Hinduism",
+      "Multiple Religions"
+    ],
+    "max_score": 5,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Hinduism",
+      "Confucianism"
+    ],
+    "max_score": 4,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2021-Nadeem-StereoSet.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Nadeem-StereoSet.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Hinduism"
+    ],
+    "max_score": 4,
+    "top_tradition": "Islam"
+  }
+]

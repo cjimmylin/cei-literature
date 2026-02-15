@@ -1,0 +1,84 @@
+BATCH 09 RELIGIOUS TRADITION CLASSIFICATION SUMMARY
+Agent 09 - Completed 2026-02-15
+================================================================================
+
+TASK: Deep-read 23 papers and classify engagement with religious/ethical traditions
+
+RESULTS:
+--------
+Total papers processed: 23
+Reclassify to religious: 7 (30.4%)
+Keep N/A: 16 (69.6%)
+Uncertain: 0 (0%)
+
+CONFIDENCE DISTRIBUTION:
+------------------------
+High confidence: 13 papers (56.5%)
+Medium confidence: 10 papers (43.5%)
+Low confidence: 0 papers (0%)
+
+PAPERS RECLASSIFIED (7):
+========================
+
+1. 2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.md
+   → Multi-religious (Buddhism, Christianity, Islam, Confucianism, Judaism)
+   → Medium confidence
+   → Religious bias benchmark for Chinese LLMs
+
+2. 2025-Lan-McBE.md (duplicate/published version of above)
+   → Multi-religious (Buddhism, Christianity, Islam, Confucianism, Judaism)
+   → Medium confidence
+   → Same benchmark, ACL 2025 publication
+
+3. 2025-Mining)-Enhancing social media hate speech detection in low-resource.md
+   → Multi-religious (general religious hate speech)
+   → Medium confidence
+   → Bangla hate speech detection with religious targeting category
+
+4. 2025-Ruiz-Fernández-EsBBQ and CaBBQ.md
+   → Multi-religious (Christianity, Islam, Judaism, others)
+   → Medium confidence
+   → Spanish/Catalan BBQ adaptation with Religion bias category
+
+5. 2025-Salehi-Blind Faith User Preference and Expert.md
+   → Islam
+   → High confidence
+   → Direct evaluation of AI-generated Islamic religious content
+
+6. 2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.md
+   → Multi-religious (Hinduism, Islam, Sikhism, Judaism)
+   → High confidence
+   → Analyzes religious hate speech targeting specific communities
+
+7. 2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.md
+   → Multi-religious (Islam, Christianity, Hinduism)
+   → Medium confidence
+   → Indonesian toxicity dataset addressing religious minority targeting
+
+KEY FINDINGS:
+=============
+
+SUBSTANTIVE ENGAGEMENT (2 papers):
+- Salehi (Islam): Evaluates AI-generated Islamic guidance with Muslim users and scholars
+- Singh (Multi-religious): Analyzes religious hate speech patterns and stereotypes
+
+BIAS/HATE SPEECH TESTING (5 papers):
+- McBE (x2): Chinese religious bias benchmark
+- Mining: Bangla religious hate speech detection
+- Ruiz-Fernández: Spanish/Catalan religious bias benchmark
+- Susanto: Indonesian religious minority toxicity
+
+FALSE POSITIVES IDENTIFIED:
+- Many papers flagged for "Confucianism" were about virtue ethics (Aristotelian)
+- Several papers mentioned religion only in bibliography citations
+- Some papers treated religion as demographic variable, not ethical framework
+
+CLASSIFICATION PRINCIPLES APPLIED:
+==================================
+1. Religious bias in AI = RELEVANT (per instructions)
+2. Hate speech targeting religious groups = RELEVANT
+3. Religion as demographic variable only = NOT RELEVANT
+4. Bibliography citations without discussion = NOT RELEVANT
+5. Religious names in examples without theological content = NOT RELEVANT
+
+OUTPUT: results_agent_09.json (23 entries, validated JSON)

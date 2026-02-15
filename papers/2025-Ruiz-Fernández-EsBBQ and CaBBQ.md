@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +17,8 @@ url: "http://arxiv.org/abs/2507.11216"
 external_pdf: "http://arxiv.org/pdf/2507.11216.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "Spanish, American"
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "Multi-religious (Christianity, Islam, Judaism, others)"
+religious_values_list: "Multi-religious (Christianity, Islam, Judaism, others)"
 moral_psychology: N/A
 newtags: "Spanish, American, Bias & Fairness"
 key_contribution: "Introduced EsBBQ and CaBBQ, Spanish and Catalan adaptations of the BBQ benchmark, tailored to the social context of Spain."

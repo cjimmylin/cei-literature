@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,8 +26,8 @@ deontological_ethics: No
 utilitarian_ethics: No
 national_ethnic_cultural: African/Ubuntu
 languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "African indigenous spirituality / Ubuntu philosophy"
+religious_values_list: "African indigenous spirituality / Ubuntu philosophy"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
 is_benchmark: No

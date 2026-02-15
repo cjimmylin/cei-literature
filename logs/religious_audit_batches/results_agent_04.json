@@ -1,0 +1,186 @@
+[
+  {
+    "filename": "2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "The benchmark covers 16 cultural attributes including 'religion' as one category among festivals, cuisine, dance, history, etc. The PDF extract shows religion is listed as one attribute defined as 'Belief systems and practices centred around faith and spirituality.' However, the paper is fundamentally a linguistic/cultural knowledge benchmark testing LLM knowledge of Indian states and union territories across diverse attributes. Religious content is incidental—one domain among 16, not the core analytical framework.",
+    "reasoning": "This is a cultural knowledge benchmark where religion appears as one of 16 attributes alongside tourism, cuisine, sports, etc. The paper's methodology treats religion as factual cultural knowledge (e.g., 'Which festival is celebrated in X state?') rather than examining religious traditions as ethical/philosophical systems. The YAML field 'religious_values: N/A' is accurate. Incidental mention of religion as cultural fact does not constitute substantive engagement."
+  },
+  {
+    "filename": "2025-Mushtaq-WorldView-Bench.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam, Christianity",
+    "confidence": "high",
+    "evidence": "The abstract states the benchmark is 'designed to evaluate Global Cultural Inclusivity (GCI) in LLMs by analyzing their ability to accommodate diverse worldviews' grounded in the 'Multiplex Worldview' framework distinguishing 'open' vs. 'closed' civilizations. The PDF shows 175 questions across 'seven knowledge domains (ethical/moral, religious, lifestyle, cultural norms, traditions, history, technology)' with 'religious' as a distinct domain. The benchmark explicitly measures whether LLMs exhibit 'uniplex' (Western-centric) vs. 'multiplex' (diverse perspectives) representation, achieving 94% improvement via multi-agent architecture representing 'distinct cultural perspectives.' The entire paper is about whether LLMs can represent non-Western worldviews, with religion as one of the core evaluative dimensions.",
+    "reasoning": "This paper treats religious perspectives as central to evaluating whether AI systems represent diverse civilizational worldviews (multiplex) or enforce Western hegemony (uniplex). Religion is one of seven core domains used to probe cultural inclusivity, and the philosophical framework (Multiplex Worldview) explicitly concerns how systems handle plurality in belief systems. This is substantive engagement with religious traditions as distinct epistemological frameworks. Should be tagged for Islam and Christianity based on the candidate_traditions from the batch file."
+  },
+  {
+    "filename": "2025-Narnaware-SB-Bench.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "The abstract warns 'May contain offensive statements!' and describes SB-Bench/BBQ-V as a 'comprehensive framework to date for assessing stereotype biases across nine diverse categories with nonsynthetic images.' The data description mentions '9 social bias categories and 50 sub-categories' including 'religion' among gender, race, disability, etc. This is a stereotype bias evaluation using real-world images to test whether LMMs link visual cues to stereotypical assumptions.",
+    "reasoning": "This benchmark tests visual stereotype bias (e.g., linking appearance to profession/traits). Religion appears as one demographic category among nine social dimensions (like gender, race), similar to how bias datasets typically include 'religion' as an identity attribute. The focus is detecting harmful stereotypes in multimodal models, not analyzing religious traditions as ethical systems. The candidate_traditions 'Christianity, Hinduism' likely appeared incidentally in bias test scenarios. Incidental mention for bias testing purposes ≠ substantive religious engagement."
+  },
+  {
+    "filename": "2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam, Christianity, Hinduism, Sikhism, Jainism",
+    "confidence": "high",
+    "evidence": "The abstract states 'INDIC-BIAS, a comprehensive India-centric benchmark designed to evaluate fairness of LLMs across 85 identity groups encompassing diverse castes, religions, regions, and tribes.' The paper explicitly evaluates allocative and representational harm toward religious identities: 'Our evaluation provides evidence of both allocative and representational harms that current LLMs could cause towards Indian identities.' The benchmark includes '20,000 manually validated real-world scenario templates' probing bias across religious groups, with 'religion' as one of the four primary identity categories (alongside caste, region, tribe).",
+    "reasoning": "This paper substantively engages with religious traditions as vulnerable identity groups in AI systems. Unlike generic bias papers that list 'religion' as a checkbox attribute, this work deeply examines how LLMs reinforce stereotypes toward specific religious communities (Islam, Christianity, Hinduism, Sikhism, Jainism) within the Indian social context. The 1,800+ expert-curated socio-cultural topics and 20K scenarios directly probe religious bias. The focus on 'representational harm' means examining how LLMs misrepresent religious communities' values and practices. This is about religious BIAS in AI, which is explicitly within scope per instructions ('Papers about religious BIAS in AI = relevant')."
+  },
+  {
+    "filename": "2025-Ohlhorst-Virtues for AI.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "The abstract proposes 'a three-dimensional classification system of possible artificial virtues based on: the domain in which virtue is an excellence, the norm that makes a virtue an excellence, and the mode of how the virtue delivers the excellence.' The key contribution is 'Expands virtue ethics for AI beyond narrow Aristotelian moral virtues to broader virtue taxonomy.' The paper mentions Confucianism as a candidate tradition with max_score=3, suggesting Confucian virtue traditions appeared in the text.",
+    "reasoning": "While Confucianism appears as a candidate tradition, the paper is fundamentally about expanding the artificial virtues research program beyond Aristotelian frameworks. It's a theoretical philosophy paper proposing a classification system for virtues in AI design. The mention of Confucianism is likely in the context of surveying different virtue theory traditions (alongside Aristotelian, Christian, etc.) to build a comprehensive taxonomy. This is a philosophical methodology paper, not a substantive engagement with Confucian ethics as a normative framework for AI. The paper treats virtue traditions as source material for classification, not as central arguments."
+  },
+  {
+    "filename": "2025-Rinki-Measuring South Asian Biases in Large.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam, Hinduism",
+    "confidence": "medium",
+    "evidence": "The abstract states the paper conducts 'multilingual and intersectional analysis of LLM outputs across 10 Indo-Aryan and Dravidian languages, identifying how cultural stigmas influenced by purdah and patriarchy are reinforced in generative tasks.' It 'Constructs a culturally grounded bias lexicon for gender, religion, marital status, and number of children.' The focus is on 'intersectional biases' including religion as one dimension, and evaluates 'culturally specific biases (purdah, patriarchy)' which have religious origins in Islamic and Hindu traditions.",
+    "reasoning": "This paper examines how LLMs reinforce religious stigmas specific to South Asian contexts (purdah from Islam, patriarchal norms influenced by Hinduism). Unlike generic bias papers, it constructs a 'culturally grounded bias lexicon' for religion and evaluates how these religiously-influenced cultural norms appear in LLM outputs across 10 languages. The focus on 'purdah' (Islamic practice of female seclusion) and patriarchy in South Asian contexts directly engages with how religious traditions shape cultural biases. This is religious BIAS in AI, which is within scope. Medium confidence because the paper's primary focus is intersectional/cultural bias broadly, with religion as one contributing factor."
+  },
+  {
+    "filename": "2025-Umer-Sacred or Secular Religious Bias in.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam, Christianity",
+    "confidence": "high",
+    "evidence": "The title is 'Sacred or Secular? Religious Bias in AI-Generated Financial Advice.' The abstract states: 'This study examines religious biases in AI-generated financial advice, focusing on ChatGPT's responses to financial queries...we find that 50% of the financial emails generated by ChatGPT exhibit religious biases, with explicit biases present in both ingroup and outgroup interactions. While ingroup biases personalize responses based on religious alignment, outgroup biases introduce religious framing that may alienate clients.'",
+    "reasoning": "This paper directly examines how AI systems inject religious framing into ostensibly secular domains (financial advice), finding that ChatGPT personalizes advice based on inferred religious identity. The distinction between 'ingroup' (same religion) and 'outgroup' (different religion) bias shows the paper is analyzing how religious identity shapes AI behavior. The title's question 'Sacred or Secular?' indicates the core research question is about the boundary between religious and secular reasoning in AI. This is substantive engagement with religious bias in AI systems. Should be tagged for Islam and Christianity based on candidate_traditions."
+  },
+  {
+    "filename": "2025-Unknown-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam",
+    "confidence": "high",
+    "evidence": "The title is 'IslamTrust: A Benchmark for LLMs Alignment with Islamic Values.' The benchmark name itself indicates focus on Islamic values alignment. The paper appears in the language search results with description 'IslamTrust benchmark for Arabic, English; ethics/values focus; cultural focus.' The YAML shows 'Benchmark: IslamTrust' and the source note indicates it was found in a religious/language search for ethics/values benchmarks.",
+    "reasoning": "A benchmark explicitly designed to evaluate LLM alignment with Islamic values is quintessentially within scope. This is about whether AI systems can represent Islamic ethical principles and cultural norms. Unlike incidental mentions of Islam in bias datasets, this benchmark centers Islamic values as the evaluative framework. The title and benchmark name make the substantive engagement with Islamic tradition unambiguous. High confidence despite incomplete abstract (likely due to import issues), as the paper's purpose is clear from title and metadata."
+  },
+  {
+    "filename": "2025-Xiang-Comparing Moral Values in Western.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "medium",
+    "evidence": "The title is 'Comparing Moral Values in Western English-speaking societies and LLMs with Word Associations.' The paper uses Moral Foundations Theory (Care, Fairness, Loyalty, Authority, Sanctity) to compare human vs. LLM moral associations. The abstract states the work 'proposes using Word Associations as a robust method for probing the Moral Values of Large Language Models' by comparing 'LLM-generated associations with those from Western English-speaking communities.' The candidate_tradition 'Christianity' with max_score=3 suggests Christian themes appeared.",
+    "reasoning": "While the paper examines moral values, it uses a secular psychological framework (Moral Foundations Theory) rather than religious traditions. MFT is a descriptive social psychology theory, not a religious ethical system. The 'Sanctity' foundation in MFT does relate to religious purity norms, but the paper treats this as a psychological dimension, not as Christian/religious theology. The comparison is 'Western English-speaking societies and LLMs'—a cultural/linguistic frame, not a religious one. Any mention of Christianity is likely incidental to discussing Western moral patterns. This is moral psychology research, not religious ethics. Medium confidence because 'Sanctity' in MFT does have religious origins, but the paper's framework is secular."
+  },
+  {
+    "filename": "2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "medium",
+    "evidence": "The abstract states: 'AncientBench is novel in introducing excavated documents (e.g., oracle bone inscriptions, bamboo strips) alongside transmitted texts into NLP evaluation, providing four dimensions of ancient character comprehension. The transmitted documents portion includes canonical Confucian and Taoist texts.' The paper tests LLM comprehension of classical Chinese texts including philosophical works. The YAML shows 'virtue_ethics: Yes' and 'national_ethnic_cultural: Chinese' with candidate_traditions 'Confucianism, Taoism.'",
+    "reasoning": "This benchmark evaluates linguistic/archaeological comprehension of ancient Chinese texts (glyph, pronunciation, meaning, contextual understanding). While it includes canonical Confucian and Taoist texts, the evaluation is about language understanding (can LLMs read oracle bone script? translate classical Chinese?) not philosophical engagement with Confucian/Taoist ethics. The 'virtue_ethics: Yes' tag is misleading—it likely appears because Confucian texts discuss virtue, but the paper doesn't engage with Confucian virtue ethics as a normative framework. This is an NLP/linguistics paper about ancient text comprehension, where religious/philosophical texts serve as test corpus. Incidental use of religious texts for linguistic evaluation ≠ substantive religious engagement. Medium confidence because the boundary between linguistic and philosophical analysis can be fuzzy."
+  },
+  {
+    "filename": "2025-Zaki-Benchmarking the Legal Reasoning of LLMs.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam",
+    "confidence": "high",
+    "evidence": "The title is 'Benchmarking the Legal Reasoning of LLMs in Arabic Islamic Inheritance Cases.' The abstract states: 'Islamic inheritance domain holds significant importance for Muslims to ensure fair distribution of shares between heirs...This study evaluates the reasoning capabilities of state-of-the-art LLMs to interpret and apply Islamic inheritance laws.' The paper 'Evaluates LLMs on identifying heirs, computing inheritance shares, and justifying reasoning aligned with Islamic legal principles' using the 'QIAS 2025 challenge dataset (Arabic inheritance scenarios).'",
+    "reasoning": "This paper directly engages with Islamic legal reasoning (Sharia law) as applied to inheritance. Islamic inheritance law is derived from Quranic principles and hadith—it's fundamentally a religious legal system. The paper evaluates whether LLMs can correctly apply Islamic jurisprudence to complex family scenarios. This is substantive engagement with Islamic religious tradition as a normative legal framework. The fact that it's in the legal domain doesn't diminish its religious nature—Islamic law is inseparable from Islamic theology. High confidence."
+  },
+  {
+    "filename": "2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "The abstract states: 'we introduce the WYWEB evaluation benchmark, which consists of nine NLP tasks in classical Chinese, implementing sentence classification, sequence labeling, reading comprehension, and machine translation.' The benchmark evaluates 'existing pre-trained language models' on classical Chinese NLP tasks. The candidate_tradition is 'Confucianism' with max_score=3, likely because classical Chinese corpus includes Confucian texts.",
+    "reasoning": "This is a pure NLP benchmark testing language understanding tasks (sentence classification, NER, reading comprehension, machine translation) on classical Chinese. While the corpus may include Confucian philosophical texts, the evaluation is linguistic, not philosophical. The paper doesn't analyze Confucian ethics or use Confucian principles as an evaluative framework—it uses Confucian texts as training/test data for NLP tasks. This is the same as using the Bible to test English NLP models—the text is religious, but the task is linguistic. Clear incidental mention. High confidence."
+  },
+  {
+    "filename": "2025-Zulaika-BasqBBQ Basque BBQ.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "The paper title is 'BasqBBQ (Basque BBQ)' which appears to be a BBQ-style bias benchmark for Basque language. The abstract states it's for 'automatic cyberbullying detection in Polish Twitter, distinguishing harmful tweets as cyberbullying (targeting private persons) or hate-speech (targeting public entities).' The data description mentions 'SOSLM bias dataset...1,638 profane and non-profane sentence pairs...across six sensitive attributes (gender, race, sexual orientation, religion, disability, social class).' Christianity appears as candidate_tradition with max_score=3.",
+    "reasoning": "This is a standard social bias/hate speech detection benchmark where 'religion' appears as one of six protected attributes (gender, race, etc.). The focus is on detecting offensive language targeting identity groups, not on engaging with religious traditions as ethical systems. Christianity likely appears because it's a common religion in Poland/Basque region and would be included in bias test scenarios. This is incidental mention for bias detection purposes, similar to the SB-Bench paper. High confidence."
+  },
+  {
+    "filename": "2026-Berg-An Ubuntu-Guided Large Language Model Framework.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Ubuntu (African philosophy)",
+    "confidence": "medium",
+    "evidence": "The title is 'An Ubuntu-Guided Large Language Model Framework for Cognitive Behavioral Mental Health Dialogue.' The abstract states: 'This study introduces a proof-of-concept framework that integrates Cognitive Behavioural Therapy (CBT) with the African philosophy of Ubuntu...' The paper 'applies deep theoretical adaptations (Ubuntu-based reframing) and surface-level linguistic/communicative cultural adaptations' and explicitly states it's 'Integrating cognitive behavioral therapy with Ubuntu philosophy to create a culturally sensitive AI mental health dialogue system.' The YAML shows 'national_ethnic_cultural: African/Ubuntu.'",
+    "reasoning": "Ubuntu is an African philosophical tradition (often translated 'I am because we are') that emphasizes communal interconnectedness and relational ethics. While not a 'religion' in the Western sense, Ubuntu is a substantive ethical/spiritual tradition that shapes worldviews in Southern African cultures. The paper doesn't just mention Ubuntu—it uses Ubuntu principles as a foundational framework to restructure CBT interventions for African contexts. This is deep philosophical engagement with an indigenous tradition's ethical principles. However, medium confidence because: (1) Ubuntu is philosophical/ethical rather than strictly religious, and (2) the candidate_tradition was 'Christianity' not Ubuntu, suggesting possible misclassification in the initial scan. But the paper's core contribution is Ubuntu-guided design, which qualifies as substantive engagement with a non-Western ethical tradition even if not formally 'religious.'"
+  },
+  {
+    "filename": "2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "The abstract states: 'Recently there have been intensifying efforts to improve the understanding of Indonesian cultures by large language models (LLMs). An attractive source of cultural knowledge that has been largely overlooked is local journals of social science...We present a novel text dataset of journal article passages, created from 151 open-source Indonesian social science journals, called IndoSoSci.' The paper demonstrates 'recipe for injecting Indonesian cultural knowledge into LLMs via RAG, achieving 81.4% on IndoCulture benchmark.' The candidate_tradition is 'Islam' with max_score=3.",
+    "reasoning": "This is a RAG (Retrieval-Augmented Generation) paper about improving LLM cultural knowledge by injecting Indonesian social science journal content. The focus is on broad Indonesian cultural understanding across 'eleven provinces.' Islam likely appears as candidate_tradition because Indonesia is majority Muslim and cultural knowledge would naturally include Islamic practices. However, the paper's framework is social-scientific cultural knowledge injection, not engagement with Islamic theology or ethics. Religion may appear as one cultural domain among many (like local customs, history, regional traditions), but it's not the analytical focus. This is incidental mention in the context of general cultural knowledge. High confidence."
+  },
+  {
+    "filename": "2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "medium",
+    "evidence": "The title is 'No Shortcuts to Culture: Indonesian Multi-hop Question Answering for Complex Cultural Understanding.' The abstract states the paper introduces 'ID-MoCQA, the first large-scale multi-hop QA dataset for assessing the cultural understanding of large language models (LLMs), grounded in Indonesian traditions.' It 'Transforms single-hop cultural questions into multi-hop reasoning chains spanning six clue types.' The YAML shows 'moral_psychology: Value Pluralism / Schwartz' and candidate_tradition 'Islam' with max_score=3.",
+    "reasoning": "This is a cultural knowledge QA benchmark testing LLMs' ability to perform multi-hop reasoning about Indonesian cultural traditions, customs, and practices. Islam appears as a candidate_tradition because Indonesia is majority Muslim and questions about Indonesian cultural traditions would naturally include Islamic practices (e.g., Ramadan, halal food, Islamic architecture). However, the paper's analytical framework is multi-hop reasoning and cultural knowledge assessment, not religious ethics. The 'Value Pluralism / Schwartz' tag suggests the paper uses Schwartz's values framework (a secular psychology theory), not Islamic ethics. Religion appears as cultural content (like cuisine, festivals, architecture), not as a normative framework. Medium confidence because Indonesian cultural traditions are deeply intertwined with Islam, but the paper treats this as factual cultural knowledge rather than theological engagement."
+  },
+  {
+    "filename": "0000-project-Vedanta Datasets.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Hinduism (Vedanta)",
+    "confidence": "high",
+    "evidence": "The title is 'Vedanta Datasets (for ML Analysis).' The abstract states: 'Repository of datasets from Vedantic texts formatted for ML analysis. Useful for Hindu philosophical text classification and evaluation.' The URL is 'https://github.com/atmabodha/Vedanta_Datasets.' Vedanta is one of the six orthodox schools of Hindu philosophy, encompassing Advaita (non-dualism), Vishishtadvaita (qualified non-dualism), and Dvaita (dualism) traditions. The repository explicitly focuses on Vedantic texts.",
+    "reasoning": "This is a dataset repository specifically created for ML analysis of Vedantic (Hindu philosophical) texts. Unlike the classical Chinese NLP papers that use philosophical texts incidentally, this resource is explicitly designed for Hindu philosophical analysis. The GitHub description 'Useful for Hindu philosophical text classification and evaluation' indicates the purpose is to enable ML models to understand Vedantic concepts and classifications. While it's a dataset (not a research paper analyzing results), it represents intentional engagement with Hindu religious/philosophical tradition as the core domain. This qualifies as substantive engagement—the dataset's raison d'être is Hindu philosophy. High confidence."
+  },
+  {
+    "filename": "2018-Amram-Representations and Architectures in Neural Sentiment Analysis for.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "The abstract states: 'First sentiment analysis benchmark for Modern Hebrew based on 12,804 social media comments from Israel president's Facebook page. Token-based and morpheme-based settings.' This is a sentiment analysis benchmark testing neural architectures (MLP, CNN, LSTM, BiLSTM) on Hebrew text. The candidate_tradition is 'Islam' with max_score=2, which seems like a mismatch (Hebrew ≠ Islam; should be Judaism if anything).",
+    "reasoning": "This is a pure NLP paper about sentiment analysis in morphologically rich languages, using Hebrew as a case study. The dataset comes from political social media (Israeli president's Facebook), which may include discussions of Israeli-Palestinian issues where Islam might be mentioned, but that's incidental. The paper's focus is linguistic: how to handle Hebrew's rich morphology in neural sentiment classifiers. There's no engagement with Jewish (or Islamic) religious traditions as ethical or philosophical frameworks. The Islam candidate_tradition appears to be a false positive from the initial scan. Clear incidental mention. High confidence."
+  },
+  {
+    "filename": "2018-Dixon-Measuring and Mitigating Unintended Bias in Text.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "The abstract describes the paper as introducing 'a new approach to measuring and mitigating unintended bias in machine learning models' focusing on toxicity detection. The paper demonstrates 'how imbalances in training data can lead to unintended bias in the resulting models' using '51 common demographic identity terms' including religion. The detailed summary shows the paper tests bias for terms like 'gay' but focuses on demographic identity terms as a category. Candidate_tradition is 'Islam' with max_score=2.",
+    "reasoning": "This is a seminal fairness paper that measures bias in toxicity detection models across demographic categories (gender, race, sexual orientation, religion, etc.). Religion appears as one protected attribute among many—the paper tests whether models unfairly flag statements like 'I am a Muslim' as toxic due to training data imbalances. However, the analytical framework is algorithmic fairness, not religious ethics. Islam likely appears because it's a common religion tested for bias (like the paper's famous 'gay' example). This is about religious BIAS detection methodology, but the paper doesn't engage with Islamic (or any) religious tradition's ethical principles. It's a meta-level fairness methodology paper. Incidental mention for bias detection purposes. High confidence."
+  },
+  {
+    "filename": "2018-Mishra-Are They Our Brothers Analysis and.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam",
+    "confidence": "high",
+    "evidence": "The title is 'Are They Our Brothers? Analysis and Detection of Religious Hate Speech in the Arabic Twittersphere.' The abstract states: 'First paper to address religious hate speech detection in Arabic Twitter. Creates the first publicly available Arabic dataset annotated for religious hate speech and the first Arabic lexicon of religious discussion terms with polarity/strength scores...Addresses sectarian hate speech, a critical gap in Arabic NLP.' The dataset contains 'religious hate speech' and a 'religious discussion terms lexicon' for Arabic.",
+    "reasoning": "This paper directly addresses religious hate speech in Arabic, specifically sectarian conflicts (likely Sunni-Shia given the Middle Eastern context). The title 'Are They Our Brothers?' references religious kinship language, and the focus on 'sectarian hate speech' indicates engagement with intra-Islamic religious divisions. Unlike generic bias papers that list religion as a checkbox, this work specifically analyzes how religious identity (Islamic sects) is weaponized in hate speech. The creation of a 'religious discussion terms lexicon' shows linguistic engagement with Islamic religious terminology. This is religious BIAS/hate speech research, which is explicitly within scope per instructions. High confidence."
+  },
+  {
+    "filename": "2019-Ibrohim-Multi-label Hate Speech and Abusive Language.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "The abstract describes 'multi-label text classification for abusive language and hate speech detection including detecting the target, category, and level of hate speech in Indonesian Twitter.' The hate speech categories include 'religion, race, physical/disability, gender/sexual orientation, other.' The data description states: '13,169 Indonesian Twitter posts annotated for multi-label hate speech...including hate speech target (individual/group), category (religion, race, physical/disability, gender/sexual orientation, other), and level (weak, moderate, strong).' Candidate_tradition is 'Christianity' with max_score=2.",
+    "reasoning": "This is a multi-label hate speech classification paper where 'religion' is one of five hate speech categories alongside race, disability, gender/sexual orientation, etc. The paper's innovation is the multi-label approach (detecting target, category, level simultaneously), not religious analysis. Christianity appears as candidate_tradition because Indonesia has Christian minorities who might be hate speech targets, but this is incidental—any religion could be a hate speech target in this framework. The analytical focus is ML methodology for hate speech detection, not religious traditions. This is the same pattern as other bias detection papers: religion as protected attribute, not substantive religious engagement. High confidence."
+  },
+  {
+    "filename": "2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "high",
+    "evidence": "The abstract states: 'First shared task for automatic cyberbullying detection in Polish Twitter, distinguishing harmful tweets as cyberbullying (targeting private persons) or hate-speech (targeting public entities).' The data description mentions 'SOSLM bias dataset...across six sensitive attributes (gender, race, sexual orientation, religion, disability, social class).' This is the PolEval 2019 Task 6 cyberbullying detection challenge. Candidate_tradition is 'Christianity' with max_score=2.",
+    "reasoning": "This is a shared task (ML competition) for cyberbullying/hate speech detection in Polish. Religion appears as one of six protected attributes in the bias dataset, same pattern as previous hate speech papers. Christianity appears because Poland is majority Catholic, so religious hate speech would likely target Christian denominations or minority religions. The focus is on NLP methodology for harmful content detection, not religious traditions. This is standard cyberbullying detection work where religion is a checkbox attribute. High confidence."
+  },
+  {
+    "filename": "2020-Awad-Crowdsourcing moral machines.md",
+    "decision": "Keep N/A",
+    "religious_tradition": null,
+    "confidence": "medium",
+    "evidence": "The abstract states: 'A platform for creating a crowdsourced picture of human opinions on how machines should handle moral dilemmas.' This is the famous Moral Machine platform that collected '40 million moral decisions from millions of participants across 233 countries' about autonomous vehicle trolley problems. The data description mentions 'trade-offs across nine dimensions including age, gender, fitness, social status, number of people, and species.' Candidate_tradition is 'Christianity' with max_score=2.",
+    "reasoning": "The Moral Machine is a descriptive study of human moral intuitions across cultures regarding autonomous vehicle dilemmas. It's not a normative religious ethics paper—it's empirical moral psychology research. While the global dataset likely revealed cross-cultural differences potentially influenced by religious traditions (e.g., Christian vs. Confucian countries might show different patterns), the paper doesn't analyze religious traditions as explanatory frameworks. The famous Nature paper from this project (Awad et al. 2018) analyzed cultural clusters but didn't frame the analysis in religious terms. Christianity appearing as candidate_tradition is likely because Christian-majority countries were in the dataset, but this is correlation not causation. Medium confidence because the Moral Machine data could be used for religious analysis (though this 2020 CACM paper is more of a platform description than analysis)."
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "filename": "2025-Unknown-1 Decolonizing NLP for \"Low-resource Languages\".md",
+    "decision": "Keep N/A",
+    "religious_tradition": "None",
+    "confidence": "High",
+    "evidence": "Focus on indigenous/minority LANGUAGES, decolonization of NLP, linguistic justice. 'Indigenous' refers to language communities and cultural preservation (African languages, Guarani, Hawaiian, Maori, etc.), not spiritual traditions.",
+    "reasoning": "False positive on 'Indigenous Spirituality' keyword. Paper addresses language technology equity, data sovereignty, and power dynamics in NLP through lens of Abebe Birhane's relational ethics - not religious/spiritual frameworks or practices."
+  },
+  {
+    "filename": "2025-Unknown-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam, Buddhism (Tibetan), Falun Gong",
+    "confidence": "High",
+    "evidence": "Examines Chinese government censorship of religious topics in LLMs: Uyghur Muslims, Islam in China, Tibetan Buddhism, Dalai Lama, Falun Gong, religious freedom. Tests explicitly include religious topics as censored categories in Table 1.",
+    "reasoning": "Religious bias in AI is central research topic. Paper directly examines how political censorship shapes LLM responses about religious groups and practices. This is substantive engagement with religious bias as a form of AI harm."
+  },
+  {
+    "filename": "2025-Unknown-Decolonizing African NLP A Survey on Power Dynamics and Data.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "None",
+    "confidence": "High",
+    "evidence": "Survey on power dynamics and data colonialism in African NLP development. Addresses linguistic justice for African languages, not religious traditions. 'Indigenous' refers to language/cultural communities.",
+    "reasoning": "False positive on 'Indigenous Spirituality'. Paper focuses on decolonization of NLP technology, data sovereignty, and power imbalances - not religious or spiritual frameworks."
+  },
+  {
+    "filename": "2025-Unknown-Decolonizing LLMs An Ethnographic Framework for AI in African.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "None",
+    "confidence": "High",
+    "evidence": "Ethnographic framework for AI development in African contexts. Addresses linguistic and cultural representation in LLMs, not religious traditions.",
+    "reasoning": "False positive on 'Indigenous Spirituality'. Paper on decolonizing AI methodology through ethnographic approaches - no engagement with religious/spiritual traditions."
+  },
+  {
+    "filename": "2025-Unknown-Decolonizing Minority Language Technology - State of the Internet's.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "None",
+    "confidence": "High",
+    "evidence": "State of minority language technology and internet representation. Focus on linguistic equity and digital inclusion, not religious traditions.",
+    "reasoning": "False positive on 'Indigenous Spirituality'. Paper addresses minority/indigenous LANGUAGES and technology access - not religious or spiritual frameworks."
+  },
+  {
+    "filename": "2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam, Buddhism (Tibetan), Falun Gong",
+    "confidence": "High",
+    "evidence": "Same paper as Mohamed Ahmed version. Examines Chinese government censorship of religious topics: Uyghur Muslims, Islam in China, Tibetan Buddhism, Dalai Lama, Falun Gong. Religious freedom is explicit test category.",
+    "reasoning": "Religious bias in AI is central research topic. Paper directly examines how political censorship shapes LLM responses about religious groups and practices."
+  },
+  {
+    "filename": "2025-Unknown-Thrid Workshop on NLP for Indigenous Languages of the Americas.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "None",
+    "confidence": "High",
+    "evidence": "Workshop proceedings on NLP for indigenous languages (Quechua, Guarani, Aymara, Nahuatl, etc.). Focus on linguistic technology, not spiritual traditions.",
+    "reasoning": "False positive on 'Indigenous Spirituality'. Workshop addresses indigenous LANGUAGES and NLP technology development - not religious or spiritual frameworks."
+  },
+  {
+    "filename": "2025-Urieli-Jochre 3 and the Yiddish OCR corpus.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "None",
+    "confidence": "High",
+    "evidence": "Technical OCR system for historical Yiddish texts using YOLOv8 for page layout analysis and CNN for glyph recognition. Yiddish Book Center digital library (660M words). Focus on character recognition challenges (diacritics, multiple alphabets, orthography). No discussion of Jewish religious content.",
+    "reasoning": "False positive. While Yiddish has Jewish cultural/historical associations, paper is purely NLP/computer vision technology. No engagement with Jewish religious tradition, theology, practices, or sacred texts."
+  },
+  {
+    "filename": "2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "None",
+    "confidence": "High",
+    "evidence": "Political hate speech detection dataset for Swahili/English social media from Kenya. Hate target categories include 'religion' as one of 8 annotation categories: politics, disability, ethnicity, gender, religion, social status, nationality, other. No substantive religious content.",
+    "reasoning": "Religion mentioned only as one annotation category among many for hate speech targets. Not substantive engagement with religious traditions - it's a taxonomic label for classification, not a research focus on religious bias or traditions themselves."
+  },
+  {
+    "filename": "2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "None",
+    "confidence": "High",
+    "evidence": "Benchmark for LLM safety refusal across 45 fine-grained unsafe topics. Focuses on harm taxonomy (self-harm, hate speech, weapons, misinformation, etc.). No religious traditions mentioned in abstract or first 50k characters of extract.",
+    "reasoning": "False positive (candidate: Christianity). Safety benchmark evaluating refusal capabilities with no substantive engagement with religious traditions. Focuses on harm taxonomies and safety evaluation methodology."
+  },
+  {
+    "filename": "2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "None",
+    "confidence": "High",
+    "evidence": "SOBACO benchmark evaluating trade-off between debiasing and cultural commonsense in Japanese LLMs. Focuses on social biases (stereotypes, prejudices, discrimination) versus cultural knowledge. No Confucian/Shinto content found in extract.",
+    "reasoning": "False positive (Confucianism/Shinto). Paper examines social bias and cultural norms broadly, not religious traditions. 'Cultural commonsense' refers to everyday social knowledge and conventions - not religious/philosophical frameworks."
+  },
+  {
+    "filename": "2025-Yoo-Code-Switching Curriculum Learning for Multilingual ....md",
+    "decision": "Keep N/A",
+    "religious_tradition": "None",
+    "confidence": "High",
+    "evidence": "Code-switching curriculum learning (CSCL) to enhance cross-lingual transfer for low-resource languages (Korean, Japanese, Indonesian). Technical NLP methodology using token-level and sentence-level code-switching inspired by second language acquisition.",
+    "reasoning": "False positive (Christianity). Pure NLP/multilingual learning paper with no religious content. Focuses on language transfer methodology and cross-lingual capabilities."
+  },
+  {
+    "filename": "2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "None",
+    "confidence": "Medium",
+    "evidence": "Framework for evaluating VLMs on traditional Chinese painting critique. One example critic persona (Su Shi, 1037-1101) described as 'deeply influenced by Confucianism, Daoism, and Chan Buddhism' as biographical background for his scholar-official painting theory. This is contextual information about a historical art critic, not substantive engagement with religious traditions.",
+    "reasoning": "Borderline case. Confucianism/Daoism/Buddhism mentioned as influences on historical art critic personas used for prompt engineering, but paper focuses on VLM multimodal art critique capability, not religious/philosophical traditions themselves. Incidental mention for cultural-historical context of traditional Chinese painting aesthetics."
+  },
+  {
+    "filename": "2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md",
+    "decision": "Reclassify",
+    "religious_tradition": "Confucianism",
+    "confidence": "High",
+    "evidence": "Moral evaluation benchmark explicitly grounded in 'moral framework established in ancient Confucianism and national moral initiatives.' Paper states: 'Drawing inspiration from the moral framework established in ancient Confucianism' to construct moral taxonomy. Develops dataset rooted in traditional Chinese culture and contemporary societal norms.",
+    "reasoning": "Confucian ethics are foundational to benchmark design and moral taxonomy. Paper explicitly draws on Confucian moral framework to construct Chinese-specific moral evaluation dataset with 14,964 explicit moral scenarios + 15,424 moral dilemmas. Substantive engagement with Confucian ethical tradition."
+  },
+  {
+    "filename": "2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Buddhism (Tibetan)",
+    "confidence": "High",
+    "evidence": "Multi-domain Tibetan language dataset (11 billion tokens) spanning 'literature, religion, medicine, law, and daily communication.' Explicitly lists 'Buddhism' as one of 5 core domains. Example shows Buddhist religious text: 'Homage and Prayer to the Root Guru of Inseparable Nature and Great Kindness' in Tibetan, Chinese, and English.",
+    "reasoning": "Buddhism/religion is one of 5 core domains in dataset structure. Paper preserves Tibetan Buddhist texts and religious content as part of cultural-linguistic richness and traditional grammar. Substantive inclusion of religious tradition as domain category."
+  },
+  {
+    "filename": "2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "None",
+    "confidence": "High",
+    "evidence": "Social bias evaluation and debiasing methods in low-resource language setting (Kazakh). Generic mention of 'religion' found in extract likely as one demographic/bias category among others (gender, race, ethnicity, age, etc.).",
+    "reasoning": "False positive (Christianity). Paper on social bias measurement and mitigation in low-resource NLP with no substantive engagement with religious traditions. Religion mentioned only as potential bias dimension."
+  },
+  {
+    "filename": "2025-initiative-CatholicBench.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Christianity (Catholic)",
+    "confidence": "High",
+    "evidence": "Benchmark explicitly testing 'Catholic theological competence at intersection of rigid dogmatic logic and nuanced pastoral care.' Evaluates across 5 categories: Moral Theology, Bioethics, Sacraments, Canon Law, and History/Bias. Measures 'Pastoral Charity' (empathy with truth) and 'Historical Accuracy' (avoiding anti-Catholic tropes). Name itself is 'CatholicBench.'",
+    "reasoning": "Core purpose is evaluating LLM alignment with Catholic doctrine, theology, and pastoral care. Direct, substantive engagement with Catholic religious tradition at intersection of theology and AI. Benchmark designed to assess theological competence."
+  },
+  {
+    "filename": "2025-team-Incorporating Diverse Perspectives in Cultural Alignment.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "None",
+    "confidence": "Medium",
+    "evidence": "Framework for evaluating cultural alignment in LLMs across awareness scope (majority vs. diversity-aware). Examples mention 'Islamic law' prohibition of alcohol in Saudi Arabia, 'non-Muslim diplomats,' and 'halal dietary requirements' in Singapore. Also mentions 'religion' as demographic factor affecting cultural preferences alongside region, language, socioeconomic status.",
+    "reasoning": "Islam mentioned as part of cultural/regional examples (Saudi alcohol laws, halal food in Singapore). Framework treats religion as one demographic dimension among many. Not substantive engagement with Islamic theology or tradition - incidental cultural context for illustrating diversity-aware vs. majority-focused alignment."
+  },
+  {
+    "filename": "2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "None",
+    "confidence": "High",
+    "evidence": "Uses Moral Foundations Theory (MFT) to map and manipulate moral representations in LLMs for moral alignment. Focuses on fine-grained moral landscape (Care/Harm, Fairness/Cheating, Loyalty/Betrayal, Authority/Subversion, Purity/Degradation). No Confucian content found in extract.",
+    "reasoning": "False positive (Confucianism). Paper uses MFT framework (secular moral psychology from Haidt et al.) for moral alignment research, not Confucian ethics. Entirely secular moral psychology approach with no religious tradition engagement."
+  },
+  {
+    "filename": "2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "None",
+    "confidence": "High",
+    "evidence": "Value-based alignment framework for LLMs addressing 'diverse spectrum of human values' with hierarchical structure, calibrated intensity evaluation, and steerable alignment. Focuses on value extraction, evaluation methodology, and preference alignment. No Buddhist content in abstract or first 10k chars of extract.",
+    "reasoning": "False positive (Buddhism). Paper on pluralistic value alignment using abstract value theory and preference modeling, not Buddhist philosophy. Addresses general human values framework, not religious traditions."
+  },
+  {
+    "filename": "2026-team-SEA-Guard Culturally Grounded Multilingual Safeguard for.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "None",
+    "confidence": "High",
+    "evidence": "Multilingual safeguard models for Southeast Asian languages/cultures. Example shows harmful stereotype: 'prompt that assumes all Indonesians are Muslim' as case requiring cultural knowledge. Religion mentioned as cultural dimension for region-specific safety, not substantive focus.",
+    "reasoning": "Islam mentioned as example of cultural knowledge needed for safety (countering stereotype that all Indonesians are Muslim). Paper treats religion as cultural/demographic factor for developing region-specific safeguards, not engagement with Islamic tradition itself. Focus is on culturally-grounded safety for SEA, not religious traditions."
+  }
+]

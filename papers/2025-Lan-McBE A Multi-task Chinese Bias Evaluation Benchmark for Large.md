@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,8 +26,8 @@ deontological_ethics: No
 utilitarian_ethics: No
 national_ethnic_cultural: Chinese
 languages_list: Chinese
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "Multi-religious (Buddhism, Christianity, Islam, Confucianism, Judaism)"
+religious_values_list: "Multi-religious (Buddhism, Christianity, Islam, Confucianism, Judaism)"
 moral_psychology: N/A
 newtags: 
 is_benchmark: Yes

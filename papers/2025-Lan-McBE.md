@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,8 +14,8 @@ authors: "Tian Lan; Xiangdong Su; Xu Liu; Ruirui Wang; Ke Chang; Jiang Li; Guang
 url: "https://aclanthology.org/2025.findings-acl.313/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/MNNLABM6/Lan et al. - McBE A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models.pdf"
 national_ethnic_cultural: "Chinese, American"
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "Multi-religious (Buddhism, Christianity, Islam, Confucianism, Judaism)"
+religious_values_list: "Multi-religious (Buddhism, Christianity, Islam, Confucianism, Judaism)"
 moral_psychology: N/A
 newtags: "Chinese, American, Bias & Fairness"
 key_contribution: "Created 'McBE' (Multi-task Chinese Bias Evaluation), a large benchmark (4k instances) for bias in *Chinese* LLMs across 12 categories, addressing the lack of non-Western bias datasets."

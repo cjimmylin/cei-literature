@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,8 +31,8 @@ virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: No
 national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "Christianity, Judaism, Islam"
+religious_values_list: "Christianity, Judaism, Islam"
 moral_psychology: N/A
 newtags: 
 is_benchmark: No

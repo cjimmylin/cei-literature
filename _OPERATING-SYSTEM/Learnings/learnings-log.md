@@ -1,5 +1,5 @@
 # Learnings Log
-*Last updated: 2026-02-14*
+*Last updated: 2026-02-15*
 
 ---
 
@@ -33,6 +33,16 @@
 - Link to relevant Standards/ files if applicable
 
 ---
+
+## 2026-02-15 (Session 78)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-15 | Classification | **Keyword-Only Religious Classification Has ~38% Recall Gap:** Title+abstract keyword scanning tagged 126/1847 papers as religious. Extended audit scanning PDF extracts found 228 additional candidates; 10-agent deep-read confirmed 77 genuinely engaged with traditions (34% hit rate). Total religious-tagged went from 126→203. Key lesson: religious content often appears only in the paper body (methodology, evaluation framework), never in title/abstract. |
+| 2026-02-15 | Classification | **Religious Bias Detection ≠ Religious Ethics Papers:** All 203 religious-tagged papers have `ethics_overall=No`. They study religious *bias in NLP* (hate speech, stereotypes) or religious *text processing* (Quranic QA, Vedic topic classification), not religious *ethical frameworks applied to AI*. The gap between "papers mentioning religion" and "papers operationalizing religious ethics as benchmarks" is the real finding. |
+| 2026-02-15 | Workflows | **Agent Free-Text Output Requires Normalization:** 10 Sonnet agents classifying tradition labels used inconsistent delimiters: comma-space (`Islam, Christianity`), semicolons (`Islam; Christianity`), parenthetical (`Multi-religious (Buddhism, Christianity, Islam)`). Report splitting logic must handle all variants: `re.split(r'[,;]\s*', val)`. For future agent swarms, constrain output to an enum or provide explicit delimiter instructions. |
+| 2026-02-15 | YAML | **Dict Key vs YAML Field Name Confusion:** Report scripts often map YAML fields to dict keys (e.g., `"ethics": fields.get("ethics_overall", "No")`). A global `replace_all` of `p["ethics"]` → `p["ethics_overall"]` breaks this mapping. Always check the scan function's field mapping before renaming dict accesses. |
+| 2026-02-15 | Workflows | **Weighted Keyword Scoring for Audit Candidates:** Title match=3x, abstract match=2x, PDF extract match=1x with threshold≥2 is a good balance for religious tradition audit. It avoids false positives from single extract mentions while catching papers where tradition is central to title/abstract. Of 228 candidates, 34% were confirmed — this precision is acceptable for human/agent review. |
 
 ## 2026-02-14 (Session 77)
 

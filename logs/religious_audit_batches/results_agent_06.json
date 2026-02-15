@@ -1,0 +1,186 @@
+[
+  {
+    "filename": "2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper mentions 'Islam religion', 'Judaism' in keyword table used for hate speech collection (page 3: keywords include 'Islamist', 'Muslim', 'Muhammad'). Religious terms appear only as targets of hate speech detection, not as framework for analysis.",
+    "reasoning": "This is a hate speech detection paper for Hebrew. Religious terms (Islam, Judaism, Muslim) appear only as potential targets of offensive content in the dataset, not as ethical/philosophical frameworks. The paper is about NLP bias detection, not about religious ethics or values. Incidental mention only."
+  },
+  {
+    "filename": "2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper includes 'Islam religion', 'Christian religion', 'Hindu religion' exam subjects (Table 6, page 14) as part of Indonesian curriculum. GPT-3.5 accuracy on these: Islam 78.6/59.9/67.7%, Christian 83.7/77.6/62%, Hindu 66.7/62/55.1% (Table 4, page 7).",
+    "reasoning": "Religion appears only as school exam subjects in the Indonesian curriculum, alongside math, science, civics, etc. The paper evaluates LLM performance on standardized tests, not religious ethical reasoning. Religious content is incidental to the benchmark design, not central to the research framework."
+  },
+  {
+    "filename": "2023-Li-ACLUE Can Large Language Model Comprehend.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Confucianism, Taoism",
+    "confidence": "Medium",
+    "evidence": "Abstract states questions 'span from Xia dynasty (2070 BCE) to Ming dynasty (1368 CE)', covering core periods of Confucian and Taoist text composition. Task T12 'Traditional Chinese culture' (国学常识) includes questions about classical philosophical concepts. Ancient Chinese texts from this period are foundational to Confucian and Taoist traditions.",
+    "reasoning": "ACLUE evaluates LLM understanding of ancient Chinese texts spanning 2070 BCE-1368 CE, which is precisely the period when Confucian and Taoist philosophical traditions were developed and canonized. The benchmark includes 'Traditional Chinese culture' questions testing knowledge of concepts embedded in these traditions. While not explicitly framed as religious ethics evaluation, the benchmark substantively engages with texts and cultural concepts rooted in Confucian and Taoist thought."
+  },
+  {
+    "filename": "2023-Mager-Neural Machine Translation for the Indigenous Languages of the.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper mentions 'Christianity' once in metadata (line 39). Actual content focuses on machine translation for Guarani and Quechua languages. No discussion of religious content, missions, or Bible translation despite historical associations.",
+    "reasoning": "This is a technical NLP paper on machine translation for Indigenous languages of the Americas. While Christianity historically spread through missionary Bible translation in these language communities, the paper itself makes no mention of religious texts or frameworks. The Christianity tag appears to be a false positive from automated keyword matching."
+  },
+  {
+    "filename": "2023-Pires-Sabiá Portuguese Large Language Models.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper flagged for 'Islam' (line 49 metadata). Actual content is about Portuguese LLM development and the Poeta benchmark of 14 Portuguese NLP tasks. No religious content in abstract or description.",
+    "reasoning": "Technical NLP paper on Portuguese language models. The Islam tag is likely a false positive from keyword matching in benchmark tasks. No substantive engagement with religious traditions, ethics, or values."
+  },
+  {
+    "filename": "2023-Santurkar-Whose Opinions Do Language Models Reflect.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper creates OpinionsQA dataset from Pew Research surveys covering topics 'from abortion to automation'. Evaluates LLM alignment with 60 US demographic groups. Christianity appears in metadata but not substantively in methodology.",
+    "reasoning": "This paper measures LLM opinion alignment with US demographic groups using public opinion polls. While some survey topics may have religious dimensions (e.g., abortion), the paper's framework is sociological/demographic, not theological. Religious identity may be one demographic variable among many, but religious ethics frameworks are not central to the analysis."
+  },
+  {
+    "filename": "2023-Soemer-Antisemitic Messages A Guide to High-Quality.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Judaism",
+    "confidence": "High",
+    "evidence": "Paper creates dataset of 6,941 tweets (later 11,311) for antisemitism detection based on IHRA (International Holocaust Remembrance Alliance) definition. Annotators required to specify which part of IHRA definition applies. 18% of tweets meet IHRA antisemitism criteria. Focus on hate toward Jews as religious/ethnic group.",
+    "reasoning": "This paper substantively engages with Judaism as the target of religious/ethnic bias. Antisemitism is inherently about bias against Jewish people and tradition. The IHRA definition framework used for annotation explicitly addresses anti-Jewish hate. While not about Jewish ethics or theology, the paper's core concern is bias against a religious tradition, making it relevant for understanding how AI systems handle religious prejudice."
+  },
+  {
+    "filename": "2023-Susanto-BHASA A Holistic Southeast Asian Linguistic.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper describes BHASA benchmark with 'cultural diagnostics' component probing 'cultural representation and sensitivity' for Indonesian, Thai, Vietnamese languages. Christianity appears in metadata but not in abstract or description of cultural evaluation.",
+    "reasoning": "Multilingual NLP benchmark for Southeast Asian languages. While it includes cultural diagnostics, there's no evidence these specifically engage religious traditions or ethics. The Christianity tag appears to be spurious metadata."
+  },
+  {
+    "filename": "2023-Wang-DecodingTrust.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "DecodingTrust benchmark covers 8 trustworthiness perspectives: toxicity, stereotype bias, adversarial robustness, privacy, machine ethics, fairness. Stereotype bias dataset covers 24 demographic groups. Islam and Christianity appear in metadata.",
+    "reasoning": "Comprehensive AI safety benchmark. While it includes 'machine ethics' and bias detection across demographic groups (which may include religious groups), the framework is safety/trustworthiness-oriented, not grounded in religious ethical traditions. Religious identity may be one demographic category among many in bias testing, but religious ethics are not central."
+  },
+  {
+    "filename": "2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "GPTBIAS evaluates bias across 9 categories: gender, religion, race, sexual orientation, age, nationality, disability, physical appearance, socioeconomic status. Uses GPT-4 to assess bias types and suggest mitigation.",
+    "reasoning": "Bias evaluation framework that includes religion as one of 9 protected categories. The paper tests for religious bias (discrimination based on religious identity), not religious ethics or values frameworks. Religion is treated as a demographic category, not as an ethical/philosophical tradition."
+  },
+  {
+    "filename": "2024-AlKhamissi-Investigating Cultural Alignment of LLMs.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper simulates World Values Survey (WVS-7) with 30 questions using personas from Egypt and US (303 participants each). Evaluates 4 LLMs on cultural alignment using soft/hard similarity metrics.",
+    "reasoning": "Cultural alignment study using sociological survey methodology (World Values Survey). While WVS may include questions with religious dimensions, the framework is cultural/sociological, not religious-ethical. The paper assesses cultural representativeness, not engagement with religious traditions as ethical frameworks."
+  },
+  {
+    "filename": "2024-Cahyawijaya-LLM for everyone.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "PhD thesis on LLMs for underrepresented languages, focusing on Indonesia (700+ languages). Introduces UniVaR framework for multicultural value alignment. Islam appears in metadata but not in abstract or thesis outline.",
+    "reasoning": "Thesis on multilingual LLM capabilities and cultural value alignment for underrepresented languages. While it addresses 'multicultural value alignment', there's no evidence of substantive engagement with religious traditions as ethical frameworks. The focus is on linguistic/cultural representation, not religious ethics."
+  },
+  {
+    "filename": "2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Algorithmic audit of Bengali sentiment analysis tools for identity-based biases across gender, religion, nationality. Examines colonial legacies in NLP. Hinduism and Islam appear in metadata.",
+    "reasoning": "Critical audit of NLP tools through postcolonial lens. While it examines religious bias (religion as identity category), the framework is postcolonial theory, not religious ethics. Religion appears as a dimension of colonial bias, not as an ethical tradition."
+  },
+  {
+    "filename": "2024-Dou-SailCompass Towards Reproducible and Robust Evaluation.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "SailCompass benchmark for Southeast Asian languages (Thai, Indonesian, Vietnamese) covering 8 tasks: generation, MCQ, classification. 14 datasets total. Islam appears in metadata.",
+    "reasoning": "Technical NLP evaluation benchmark for Southeast Asian languages. No evidence of religious content or ethical frameworks in the abstract or task descriptions."
+  },
+  {
+    "filename": "2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "M-ALERT multilingual safety benchmark: 75,000 prompts across English, French, German, Italian, Spanish testing jailbreaking, toxicity, harmful content. Safety taxonomy includes hate speech/discrimination, but French shows disproportionate toxicity.",
+    "reasoning": "Multilingual AI safety benchmark. While safety taxonomy may include hate speech that could target religious groups, the framework is safety/toxicity-oriented, not grounded in religious traditions. No substantive engagement with religious ethics."
+  },
+  {
+    "filename": "2024-Gabriel-The Ethics of Advanced AI Assistants.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "Medium",
+    "evidence": "273-page Google DeepMind report on ethics of AI assistants covering value alignment, well-being, safety, manipulation, trust, privacy, societal deployment. Marked 'utilitarian_ethics: Yes' in metadata. Christianity appears in metadata.",
+    "reasoning": "Comprehensive AI ethics analysis from consequentialist/utilitarian perspective. While it discusses 'value alignment' and 'machine ethics', there's no evidence of substantive engagement with Christian or other religious ethical traditions. The framework is secular philosophical ethics (utilitarian), not religious ethics. The Christianity tag appears spurious."
+  },
+  {
+    "filename": "2024-Group-The AI Safety Benchmark.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "MLCommons AI Safety Benchmark v0.5: 43,090 test items across 13 hazard categories for chat-tuned models. Single use case (adult chatting with general-purpose assistant in English) with 3 persona types.",
+    "reasoning": "Industry AI safety benchmark focusing on hazard detection and risk mitigation. While hazard categories may include hate speech that could target religious groups, the framework is safety-engineering-oriented, not grounded in religious traditions."
+  },
+  {
+    "filename": "2024-Hendrycks-Introduction to AI Safety, Ethics, and Society.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "630-page textbook covering AI safety, ethics, society across topics including catastrophic risks, safety engineering, machine ethics, fairness. Christianity appears in metadata but not in abstract or chapter outline.",
+    "reasoning": "Comprehensive AI safety textbook. While it includes 'machine ethics' as a topic, there's no indication of engagement with religious ethical traditions. The framework appears to be secular philosophical ethics and safety engineering."
+  },
+  {
+    "filename": "2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "KoBBQ: Korean adaptation of BBQ bias benchmark. 268 templates, 76,048 samples across 12 categories of social bias including 4 new Korean-specific bias categories. Christianity appears in metadata.",
+    "reasoning": "Social bias benchmark for Korean language. While it may include religious identity as one bias category, the framework is social bias detection, not religious ethics. Religion appears as a demographic category, not as an ethical tradition."
+  },
+  {
+    "filename": "2024-Jin-WenMind A Comprehensive Benchmark for Evaluating.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Confucianism, Taoism",
+    "confidence": "High",
+    "evidence": "WenMind benchmark for Chinese Classical Literature and Language Arts (CCLLA) with domain 'Ancient Literary Culture' that 'specifically tests knowledge of Confucian and Taoist philosophical traditions, literary commentary traditions, and cultural concepts embedded in classical texts' (abstract). 4,875 QA pairs across 42 tasks. Best model (ERNIE-4.0) achieved only 64.3%.",
+    "reasoning": "This benchmark explicitly tests knowledge of Confucian and Taoist philosophical traditions as embedded in classical Chinese literature. The 'Ancient Literary Culture' domain directly evaluates understanding of these religious/philosophical traditions. This is substantive engagement with Confucianism and Taoism as cultural-ethical frameworks, not mere incidental mention."
+  },
+  {
+    "filename": "2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "MalayMMLU: 24,213 questions from Malaysian primary/secondary education across 22 subjects including 5 broad topics. Evaluates 18 LLMs on Malay proficiency and Malaysian cultural context. Islam appears in metadata.",
+    "reasoning": "Educational benchmark for Malay language based on Malaysian curriculum. While Malaysia is majority Muslim and curriculum may include Islamic studies as a subject, there's no evidence this benchmark substantively engages with Islamic ethical frameworks. Similar to Indonesian benchmark, religious subjects would be incidental curriculum content."
+  },
+  {
+    "filename": "2024-Kirk-The PRISM Alignment Project.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "PRISM dataset: 1,500 participants from 75 countries providing feedback on 8,011 conversations with 21 LLMs. Maps sociodemographics and preferences to contextual feedback on 'subjective and multicultural perspectives on value-laden and controversial issues.' Christianity appears in metadata.",
+    "reasoning": "Participatory alignment dataset studying how diverse human demographics (including potential religious identities) provide feedback on LLM outputs. While it addresses 'value-laden' topics, the framework is sociological/demographic, not grounded in religious ethical traditions. Religion may be one demographic variable, but religious ethics are not central."
+  },
+  {
+    "filename": "2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Explores biases and toxicity of ChatGPT and GPT-4 in Korean social context using prompts reflecting 'major Korean societal issues' with varied personas. Finds GPT-4 produces 2x more toxic content than ChatGPT under certain conditions. Christianity appears in metadata.",
+    "reasoning": "Bias and toxicity study for Korean social context. While Korean society has significant Christian population and societal issues may have religious dimensions, there's no evidence the paper substantively engages with Christianity or other religious traditions as ethical frameworks. The Christianity tag appears spurious."
+  }
+]

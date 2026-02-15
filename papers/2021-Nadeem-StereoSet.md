@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,8 +16,8 @@ url: "http://arxiv.org/abs/2004.09456"
 external_pdf: "http://arxiv.org/pdf/2004.09456.pdf"
 publication: "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL 2021)"
 national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "Multiple Religions"
+religious_values_list: "Multiple Religions"
 moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Released StereoSet, a large-scale dataset to measure stereotypical bias in PLMs across gender, profession, race, and religion."

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,8 +14,8 @@ last_author: "[[Adam Elwood]]"
 authors: "[[Ruben E Laukkonen]], [[Fionn Inglis]], [[Shamil Chandaria]], [[Lars Sandved-Smith]], [[Edmundo Lopez-Sola]], [[Jakob Hohwy]], [[Jonathan Gold]], [[Adam Elwood]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/744PDNTG/Laukkonen et al. - Contemplative Artificial Intelligence.pdf"
 national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "Buddhism, Taoism"
+religious_values_list: "Buddhism, Taoism"
 moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Introduces 'Contemplative AI' principles (mindfulness, emptiness, non-duality, boundless care) to instill a resilient 'Wise World Model' in AI"

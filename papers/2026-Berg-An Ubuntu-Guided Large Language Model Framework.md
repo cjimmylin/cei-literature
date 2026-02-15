@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,8 +25,8 @@ virtue_ethics: No
 deontological_ethics: No
 utilitarian_ethics: Yes
 national_ethnic_cultural: African/Ubuntu
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "Ubuntu (African philosophy)"
+religious_values_list: "Ubuntu (African philosophy)"
 moral_psychology: N/A
 newtags: 
 is_benchmark: No

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,8 +14,8 @@ authors: "Hamidreza Saffari; Mohammadamin Shafiei; Donya Rooein; Francesco Pierr
 url: "https://arxiv.org/abs/2406.09123"
 external_pdf: "https://arxiv.org/pdf/2406.09123.pdf"
 national_ethnic_cultural: "Iranian, Multicultural/Cross-cultural"
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: N/A
 newtags: "Iranian, Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Created the Iranian Social Norms (ISN) dataset, containing 1,699 Farsi social norms annotated with context and scope, to test LLM cross-cultural understanding."

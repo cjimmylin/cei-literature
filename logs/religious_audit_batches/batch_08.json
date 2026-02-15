@@ -1,0 +1,235 @@
+[
+  {
+    "filename": "2025-Alwajih-Palm.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Alwajih-Palm.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Basem-Few-Shot Prompting for Extractive Quranic QA.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Basem-Few-Shot Prompting for Extractive Quranic QA.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Castricato-PERSONA Pluralistic Alignment Testbed.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Castricato-PERSONA Pluralistic Alignment Testbed.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Chen-Leveraging large language models to assist.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Chen-Leveraging large language models to assist.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Erdem-Cetvel A Unified Benchmark for Evaluating.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Erdem-Cetvel A Unified Benchmark for Evaluating.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Fan-FAIRMT-BENCH.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Fan-FAIRMT-BENCH.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Fillies-A novel German TikTok hate speech dataset far-right comments against.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Fillies-A novel German TikTok hate speech dataset far-right comments against.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Judaism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Flek-AmericasNLI Machine translation and natural language inference.md",
+    "pdf_extract_path": "PDF Extracts/0000/2025-Flek-AmericasNLI Machine translation and natural language inference.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Hamed-A Survey of Code-switched Arabic NLP.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Hamed-A Survey of Code-switched Arabic NLP.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Han-Value Portrait.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Han-Value Portrait.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Jung-FLEX.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Jung-FLEX.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2025-Klakow-Charting the Landscape of African NLP.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Klakow-Charting the Landscape of African NLP.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Krzanowski-Phronesis for AI Systems.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Krzanowski-Phronesis for AI Systems.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity",
+      "Judaism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  }
+]

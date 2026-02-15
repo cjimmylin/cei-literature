@@ -1,0 +1,242 @@
+[
+  {
+    "filename": "2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Buddhism",
+      "Jainism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Buddhism"
+  },
+  {
+    "filename": "2025-Mushtaq-WorldView-Bench.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Mushtaq-WorldView-Bench.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 3,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Narnaware-SB-Bench.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Narnaware-SB-Bench.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity",
+      "Hinduism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity",
+      "Hinduism",
+      "Sikhism",
+      "Jainism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Hinduism"
+  },
+  {
+    "filename": "2025-Ohlhorst-Virtues for AI.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ohlhorst-Virtues for AI.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2025-Rinki-Measuring South Asian Biases in Large.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Rinki-Measuring South Asian Biases in Large.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Hinduism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Umer-Sacred or Secular Religious Bias in.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Umer-Sacred or Secular Religious Bias in.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity"
+    ],
+    "max_score": 3,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Unknown-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Unknown-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam",
+      "Christianity"
+    ],
+    "max_score": 3,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Xiang-Comparing Moral Values in Western.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Xiang-Comparing Moral Values in Western.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 3,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism",
+      "Taoism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2025-Zaki-Benchmarking the Legal Reasoning of LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zaki-Benchmarking the Legal Reasoning of LLMs.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 3,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Confucianism"
+    ],
+    "max_score": 3,
+    "top_tradition": "Confucianism"
+  },
+  {
+    "filename": "2025-Zulaika-BasqBBQ Basque BBQ.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zulaika-BasqBBQ Basque BBQ.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 3,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2026-Berg-An Ubuntu-Guided Large Language Model Framework.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Berg-An Ubuntu-Guided Large Language Model Framework.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 3,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 3,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for.md",
+    "pdf_extract_path": "PDF Extracts/2026/2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 3,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "0000-project-Vedanta Datasets.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "candidate_traditions": [
+      "Hinduism"
+    ],
+    "max_score": 2,
+    "top_tradition": "Hinduism"
+  },
+  {
+    "filename": "2018-Amram-Representations and Architectures in Neural Sentiment Analysis for.md",
+    "pdf_extract_path": "PDF Extracts/2018/2018-Amram-Representations and Architectures in Neural Sentiment Analysis for.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2018-Dixon-Measuring and Mitigating Unintended Bias in Text.md",
+    "pdf_extract_path": "PDF Extracts/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2018-Mishra-Are They Our Brothers Analysis and.md",
+    "pdf_extract_path": "PDF Extracts/2018/2018-Mishra-Are They Our Brothers Analysis and.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Islam"
+    ],
+    "max_score": 2,
+    "top_tradition": "Islam"
+  },
+  {
+    "filename": "2019-Ibrohim-Multi-label Hate Speech and Abusive Language.md",
+    "pdf_extract_path": "PDF Extracts/2019/2019-Ibrohim-Multi-label Hate Speech and Abusive Language.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open.md",
+    "pdf_extract_path": "PDF Extracts/2019/2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  },
+  {
+    "filename": "2020-Awad-Crowdsourcing moral machines.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Awad-Crowdsourcing moral machines.md",
+    "has_extract": true,
+    "candidate_traditions": [
+      "Christianity"
+    ],
+    "max_score": 2,
+    "top_tradition": "Christianity"
+  }
+]

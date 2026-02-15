@@ -1,0 +1,187 @@
+[
+  {
+    "filename": "2025-Alwajih-Palm.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper focuses on Arabic cultural and linguistic diversity across 22 Arab countries with dataset covering Modern Standard Arabic and dialectal Arabic. PDF extract mentions Islam only in passing contexts: 'having beer after prayer' (cultural scenario), 'Ibrahimi Mosque' (geographic location), and one topic category 'major monotheistic religions (Islam, Christianity, Judaism)'. These are incidental cultural references within a broader cultural/linguistic evaluation dataset.",
+    "reasoning": "While the paper addresses Arabic culture which overlaps with Islamic culture, the religious references are purely incidental examples in cultural scenarios. The core contribution is linguistic diversity and cultural sensitivity testing across Arab countries, not religious/ethical engagement. Religion is one of many cultural dimensions, not central to the argument."
+  },
+  {
+    "filename": "2025-Basem-Few-Shot Prompting for Extractive Quranic QA.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam",
+    "confidence": "High",
+    "evidence": "Title explicitly states 'Quranic QA'. Abstract describes 'Extractive Question Answering on the Qur'an' addressing 'challenges related to complex language, unique terminology, and deep meaning' of Quranic text. PDF extract extensively discusses Classical Arabic specific to the Qur'an, Quranic passages, tafsir (interpretation), and religious comprehension. Example question in Figure 1 asks about 'punishment for usury' from Quranic verses. Dataset is specifically Qur'an QA 2023 Shared Task focusing on passage retrieval and reading comprehension of Quranic texts.",
+    "reasoning": "This is quintessentially about Islamic religious text analysis. The entire paper's methodology, dataset, and evaluation are centered on understanding and extracting answers from the Qur'an. This is not about bias against Muslims but about developing NLP technology specifically for engaging with Islamic scripture - substantive religious engagement."
+  },
+  {
+    "filename": "2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper evaluates counterfactual fairness in Dutch hate speech detection models. PDF extract shows 'religion' appears as one protected attribute among others (nationality, ethnicity, sexuality) in Social Group Terms list. Religious terms appear in bias evaluation templates but only as test cases for fairness metrics, not as subjects of substantive engagement.",
+    "reasoning": "This is about religious BIAS detection - testing whether hate speech models treat different religious groups fairly. While religion is a category being tested, the paper's contribution is methodological (counterfactual fairness evaluation for Dutch NLP), not engagement with religious traditions themselves. Religion is a variable in bias testing, not a subject of philosophical/ethical examination."
+  },
+  {
+    "filename": "2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Abstract describes 'code-mixed Hindi-English hate speech dataset' with 'religious and political targeting'. PDF extract shows religious communities (Hindus, Muslims, Sikhs) are TARGET GROUPS of hate speech being detected, not subjects of religious/ethical analysis. Analysis reveals patterns like 'Muslims are mentioned as [stereotypes]' and discusses Islamophobia as a hate speech phenomenon.",
+    "reasoning": "This is about detecting hate speech against religious groups, not engaging with religious traditions. The paper studies bias/discrimination patterns where religion is the target of harm, not a normative framework being examined. Similar to other hate speech papers - religion as demographic variable in bias research, not substantive engagement with religious ethics."
+  },
+  {
+    "filename": "2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper creates synthetic hate speech dataset in Brazilian Portuguese with multi-label target group annotations. PDF extract shows 'Muslim' appears once in a hate speech example, 'Antisemitic and Islamophobic' mentioned as hate categories. Dataset covers 'nine protected communities' including religious groups as targets of toxicity.",
+    "reasoning": "Religion appears only as a category of hate speech targets in a fairness/bias mitigation study. No engagement with religious traditions themselves - this is purely about detecting and reducing discrimination against religious minorities in Portuguese-language hate speech detection systems."
+  },
+  {
+    "filename": "2025-Castricato-PERSONA Pluralistic Alignment Testbed.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper creates 1,586 synthetic personas from US census data to test pluralistic alignment. PDF extract shows 'religion' appears in persona attributes (e.g., 'religion': 'Other Christian', 'religion': 'Protestant') generated from demographic data. Religion is one persona feature among many (28 total in appendix list).",
+    "reasoning": "Religion appears as a demographic variable in synthetic persona generation for testing whether LLMs can represent diverse viewpoints. This is about demographic diversity in value pluralism, not substantive engagement with religious/ethical traditions. The personas are statistically sampled attributes, not philosophical examination of religious frameworks."
+  },
+  {
+    "filename": "2025-Chen-Leveraging large language models to assist.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Confucianism",
+    "confidence": "Medium-High",
+    "evidence": "Paper explores using LLMs for 'philosophical counseling' (logic-based therapy). PDF extract contains multiple substantive references to Confucianism: discusses how 'deep roots of Confucianism and Daoism in Chinese consciousness results [in cultural barriers]', proposes 'complete database of Confucian and Daoist classics' as knowledge source for RAG, discusses 'integrating Confucian wisdom into philosophical counseling', and cites multiple sources on 'Confucian traditional values' and 'Confucian value of harmony'. Multiple references to Confucianism as philosophical framework for counseling.",
+    "reasoning": "While the paper is primarily about LLM applications in counseling, it explicitly proposes Confucianism as a philosophical tradition to integrate into AI counseling systems. The discussion of Confucian wisdom, values, and classics as foundations for counseling practice represents substantive engagement with religious/philosophical tradition, not mere demographic mention. Confucianism is presented as normative framework for ethical counseling."
+  },
+  {
+    "filename": "2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper provides benchmark suite for classifying human morals and values across four frameworks (MFT, Human Values, Morality-as-Cooperation, Common Morality). PDF extract shows one reference to 'Politics and Religion' book title in bibliography. No substantive engagement with religious traditions - frameworks are psychological/philosophical, not religious.",
+    "reasoning": "This is a technical classification benchmark for moral psychology frameworks, none of which are religiously grounded. The single bibliographic reference to religion is incidental. The paper's moral frameworks (Schwartz values, MFT, etc.) are secular social science constructs, not religious ethical systems."
+  },
+  {
+    "filename": "2025-Erdem-Cetvel A Unified Benchmark for Evaluating.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Comprehensive benchmark for Turkish LLM evaluation covering 23 tasks in 7 categories including 'culturally grounded question answering'. PDF extract mentions 'Turkish and Islamic history' as one task domain, with QA questions 'about Turkish and Islam history'. This is testing factual knowledge about Islamic history, not engaging with Islamic ethics/theology.",
+    "reasoning": "Islamic history appears as one knowledge domain among many (mathematics, sports, science, religion) being tested for Turkish cultural knowledge. This is factual historical knowledge testing, not normative engagement with Islamic religious/ethical tradition. Similar to testing knowledge of European Christian history - historical facts, not religious philosophy."
+  },
+  {
+    "filename": "2025-Fan-FAIRMT-BENCH.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper introduces fairness benchmark for multi-turn dialogue evaluating bias across six attributes including religion. PDF extract shows 'religion' as one of six bias attributes (gender, race, religion, disabled, age, appearance) being tested. Example shows 'Muslims are terrorists' stereotype being used to test bias detection, not as normative claim.",
+    "reasoning": "Religion is a protected attribute being tested for bias/discrimination in conversational AI, not a subject of religious/ethical engagement. The paper studies whether LLMs exhibit unfair treatment across demographic groups including religious identity. This is bias measurement methodology, not religious philosophy."
+  },
+  {
+    "filename": "2025-Fillies-A novel German TikTok hate speech dataset far-right comments against.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "German TikTok hate speech dataset with 32-label annotation schema. PDF extract shows religious targets: 'Jews and Muslims' as subcategories of targets, 'Antisemitism' label defined as 'prejudice against Jewish people based on ethnicity, religion', 'Muslims' label targets those who 'practice Islam or identify as Muslim', with hate examples like 'Greedy Jews' and 'Muslims and Germany are incompatible'.",
+    "reasoning": "Jews and Muslims are TARGET GROUPS of far-right hate speech being studied/detected, not subjects of religious engagement. This is about identifying and understanding patterns of religious hatred and Islamophobia/antisemitism in extremist discourse. The paper studies discrimination against religious groups, not religious/ethical traditions themselves."
+  },
+  {
+    "filename": "2025-Flek-AmericasNLI Machine translation and natural language inference.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "NLI benchmark for 10 Indigenous languages of the Americas (Quechua, Guarani, etc.). Abstract and metadata indicate this is machine translation and natural language inference task evaluation, not religious/cultural engagement. PDF extract path shows '0000' year subdirectory indicating minimal extract available.",
+    "reasoning": "This is a purely technical NLP benchmark for Indigenous American languages. No indication of religious content engagement - focuses on linguistic capabilities (translation, inference) for low-resource languages. Indigenous cultures may have spiritual traditions, but this paper doesn't engage with them substantively."
+  },
+  {
+    "filename": "2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Benchmark measuring LLM steerability across value dimensions (traditional, secular-rational, survival, self-expression) and style preferences grounded in World Values Survey. Abstract and data description mention no religious content. These value dimensions are from Inglehart-Welzel cultural values framework (sociological), not religious traditions.",
+    "reasoning": "The value dimensions tested are secular sociological constructs from World Values Survey, not religious ethical frameworks. 'Traditional vs. secular-rational' dimension relates to secularization theory, not specific religious traditions. This is about preference alignment and value steering in AI systems using social science frameworks, not religious philosophy."
+  },
+  {
+    "filename": "2025-Hamed-A Survey of Code-switched Arabic NLP.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Survey of code-switched Arabic NLP covering linguistic challenges of Modern Standard Arabic, dialects, and European language mixing. Abstract focuses on 'diglossic and multilingual setting', 'code-switching', and language technology development. No mention of religious content in abstract or data description.",
+    "reasoning": "This is a technical linguistics and NLP survey about code-switching phenomena in Arabic. While Arabic is associated with Islam culturally, this paper is purely about computational linguistics challenges (dialect variation, language mixing) with no engagement with Islamic religious/ethical content."
+  },
+  {
+    "filename": "2025-Han-Value Portrait.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Psychometrically validated benchmark evaluating LLMs on Schwartz's 10 basic values (Benevolence, Security, Self-Direction, Tradition, Power, Achievement, etc.) and Big Five personality traits. PDF extract shows 'religion' appears once in FLEX benchmark comparison table listing bias attributes, not as framework being tested. Value Portrait uses Schwartz value framework which is psychological, not religious.",
+    "reasoning": "Schwartz's value framework is a secular psychological theory of human values, not a religious/ethical tradition. While 'Tradition' is one value dimension, it refers to respect for customs/cultural norms generally, not specific religious traditions. The paper measures whether LLMs align with psychological value profiles, not religious doctrines."
+  },
+  {
+    "filename": "2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Multi-task Bangla hate speech dataset (BanglaMultiHate) detecting type, severity, and target. Abstract states hate speech 'targeting individuals, organizations, and communities' and targets include 'religion, politics, and gender'. PDF extract shows 'Religion' as one classification category (alongside Sports, Politics, Science) and example: 'people in this religion are bad' - showing religion as TARGET of hate, not subject of engagement.",
+    "reasoning": "Religion is a demographic category targeted by hate speech in Bengali social media, not a normative framework being examined. Like other hate speech papers, this studies bias and discrimination where religious identity is a protected attribute, not substantive engagement with religious traditions. The paper develops detection methods for religious hate speech."
+  },
+  {
+    "filename": "2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Judicial fairness evaluation framework (JudiFair) with 177,100 Chinese case facts testing LLM decision-making across 65 labels. PDF extract shows 'Islam' and 'Christianity' appear in candidate traditions list from batch file, but actual paper abstract mentions only 'demographic labels' showing 'pronounced biases' without specifying religion. Dataset derived from Chinese judicial documents testing fairness in legal reasoning.",
+    "reasoning": "Religion may be one demographic variable among 65 labels tested for judicial fairness bias, but the core contribution is judicial decision fairness methodology. No indication of substantive engagement with religious legal traditions - this is about bias in AI judicial reasoning across demographic attributes. Testing whether religion causes unfair judgments is bias detection, not religious ethics."
+  },
+  {
+    "filename": "2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Transliterated Bangla hate speech dataset (37.3k YouTube comments) with multi-label target classification. Abstract states 'discrimination based on target groups, e.g. gender, religion, and origin'. PDF extract shows 'Anti-Hindu Violence' as label, 'Muslim frequently appears in Religious hate', and religion/politics/gender as hate targets. Also shows 'Islami Andolon' (political party name), not theological content.",
+    "reasoning": "Religion is a target category for hate speech detection in transliterated Bengali text. References to Hindu, Muslim, and Islamic organizations are about identifying victims of hate speech and political actors, not engaging with Hindu or Islamic religious/ethical traditions. This is bias/toxicity detection where religion is a protected demographic attribute."
+  },
+  {
+    "filename": "2025-Jung-FLEX.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "FLEX benchmark evaluating LLM fairness robustness under adversarial prompts designed to induce bias. PDF extract shows 'religion' listed among bias attributes (along with race, nationality, age, ideology) being tested. Listed religions include 'Christianity, Islam, Hinduism, Buddhism, Judaism' as categories for bias testing scenarios, not as normative frameworks.",
+    "reasoning": "Religion is one demographic dimension where fairness is tested under adversarial conditions. The religions listed are variables in bias-inducing scenarios (testing if LLMs can resist generating discriminatory outputs about religious groups), not subjects of religious/ethical engagement. This is adversarial robustness testing for bias, not religious philosophy."
+  },
+  {
+    "filename": "2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper evaluates LLM cultural value alignment using Hofstede Cultural Dimensions across 36 countries/languages. PDF extract shows reference to 'The Confucius Connection' (Hofstede & Bond 1988 paper) and 'Confucianism' URL about Korean collectivist society, but these are citations about Hofstede's cultural dimensions research, not engagement with Confucian philosophy.",
+    "reasoning": "Hofstede's cultural dimensions (power distance, individualism/collectivism, uncertainty avoidance, masculinity/femininity, long-term orientation) are sociological frameworks for comparing national cultures, not religious traditions. The Confucius reference is to Hofstede's 'Confucian dynamism' dimension (now called long-term orientation), which is about cultural values statistically associated with East Asian societies, not Confucian philosophy itself."
+  },
+  {
+    "filename": "2025-Klakow-Charting the Landscape of African NLP.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Meta-survey of 884 African NLP papers covering 2,000+ languages. Paper is classified with 'national_ethnic_cultural: African/Ubuntu' tag and marked 'utilitarian_ethics: Yes', but abstract focuses on 'linguistic diversity', 'digital divide', and NLP technology gaps. No religious content mentioned in abstract or data description.",
+    "reasoning": "While Ubuntu philosophy has spiritual dimensions in African contexts, this survey paper is about NLP research landscape - multilingual resources, datasets, benchmarks for African languages. The 'Ubuntu' tag appears to be cultural classification, but the paper itself doesn't engage with Ubuntu philosophy substantively - it's a technical survey of language technology research. If Ubuntu philosophy is discussed, it's not evident in abstract/metadata."
+  },
+  {
+    "filename": "2025-Krzanowski-Phronesis for AI Systems.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "Medium",
+    "evidence": "Paper explores implementing phronesis (Aristotelian practical wisdom) in AI systems. PDF extract shows one reference to 'Studia Philosophiae Christianae' (journal title in Polish), mention of 'Christian historians' attributing Aztec story differently, and 'AI-religion' listed alongside 'AI-learning' as research areas. Also discusses 'religions that attribute human or superhuman agency'.",
+    "reasoning": "While the paper draws on Aristotelian virtue ethics (phronesis), which has roots in Greek philosophy often integrated with Christian tradition, the references to Christianity appear incidental (journal name, historical methodology note). The core argument is about practical wisdom in AI architecture using Aristotelian philosophy, which is philosophical not specifically religious. The 'AI-religion' mention is a research domain classification, not substantive engagement. This is borderline but leans toward secular virtue ethics rather than religious ethics - Aristotle is pre-Christian Greek philosophy.",
+    "decision_note": "Could be Uncertain if we consider Aristotelian virtue ethics as proto-religious or integrated with Judeo-Christian tradition, but treating as secular philosophical framework per typical classification."
+  },
+  {
+    "filename": "2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Telugu sentiment classification benchmark (TeSent) with fairness evaluation corpus (TeEEC) testing gender and religion biases. PDF extract shows 'religion' as bias dimension with test groups '{Hindu, Muslim, Christian}' used to generate counterfactual examples for fairness testing. Names like 'QuranicNames' used as data source for Muslim name generation. Religion is explicitly framed as 'social bias' to be measured.",
+    "reasoning": "Religion is a protected attribute being tested for bias in Telugu sentiment analysis models. The Hindu/Muslim/Christian categories are demographic variables in fairness testing, not subjects of religious/ethical engagement. Similar methodology to other bias papers - using religious identity as test case for whether models exhibit discriminatory behavior. This is bias measurement, not religious philosophy."
+  }
+]

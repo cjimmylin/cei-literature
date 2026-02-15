@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,8 +25,8 @@ virtue_ethics: No
 deontological_ethics: Yes
 utilitarian_ethics: No
 national_ethnic_cultural: Chinese
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "Multiple Religions"
+religious_values_list: "Multiple Religions"
 moral_psychology: N/A
 newtags: 
 is_benchmark: Yes

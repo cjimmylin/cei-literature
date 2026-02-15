@@ -1,0 +1,186 @@
+[
+  {
+    "filename": "2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam",
+    "confidence": "High",
+    "evidence": "Paper focuses on detecting Islamophobic hate speech, develops multi-class classifier distinguishing weak vs strong Islamophobia, defines Islamophobia as 'indiscriminate negative attitudes or emotions directed at Islam or Muslims', addresses anti-Muslim violence and discrimination",
+    "reasoning": "While this paper is about detecting BIAS against Muslims rather than promoting Islamic ethics, it is directly relevant to religious/ethical traditions because Islamophobia centrally engages with Islam as a religious identity. The paper documents discrimination and hate targeting a religious community, making religious tradition central to the research argument and methodology. This aligns with the instruction that 'Papers about religious BIAS in AI = relevant.'"
+  },
+  {
+    "filename": "2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "Medium",
+    "evidence": "Paper mentions Ubuntu philosophy and briefly references Christianity (one mention: 'This is the Ubuntu ethic which Forster furthermore links to Christianity'), discusses African relational ethics vs Western individualism in context of AI ethics",
+    "reasoning": "While the paper substantively engages with Ubuntu (an African philosophical tradition), the mentions of Christianity are incidental comparative references (1-2 sentences max). The candidate_traditions field shows 'Christianity' with score=2, but this appears to be a keyword match rather than substantive engagement. The core argument is about Ubuntu/African philosophy as a non-Western ethical framework for AI, not about Christian theological ethics. Christianity is not central to the argument."
+  },
+  {
+    "filename": "2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper introduces Sanskrit-English translation dataset from Ramayana and Mahabharata epics. These are Hindu religious texts, but paper treats them purely as linguistic/literary resources for NLP/machine translation benchmarking",
+    "reasoning": "Though the source texts (Ramayana, Mahabharata) are foundational Hindu religious epics, the paper's focus is entirely on NLP/machine translation technical challenges - OCR extraction, translation models, BLEU scores, vocabulary asymmetry. There is zero engagement with Hindu ethical/religious concepts. The texts are used as data sources, not for their religious content. This is analogous to using Bible text for English language modeling - the religious tradition is incidental to the NLP task."
+  },
+  {
+    "filename": "2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Paper introduces BanglaBERT pretrained model and BLUB benchmark for Bengali NLU. Candidate_traditions shows 'Islam' with score=2, likely due to Bengali Wikipedia/crawled data containing Islamic content, but paper makes no substantive engagement with Islamic traditions",
+    "reasoning": "This is a technical NLP paper on Bengali language modeling. The Islam keyword match likely comes from Bengali pretraining data that includes Islamic content (Bangladesh is Muslim-majority), but the paper does not engage with Islamic theology, ethics, or values in any way. It's purely about NLP model architecture and benchmarking tasks (sentiment, NLI, NER, QA)."
+  },
+  {
+    "filename": "2022-Das-Hate Speech and Offensive Language Detection.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "Medium",
+    "evidence": "Hate speech detection dataset for Bengali with target annotations including Religion (Hindu, Islam). Paper mentions instances targeting religious communities but does not substantively engage with religious traditions themselves",
+    "reasoning": "This paper detects hate speech targeting religious groups (Hindu, Muslim) and annotates target communities. While religion is a protected category in the annotation scheme, the paper is about NLP hate speech classification methodology, not about religious ethics or traditions. Similar to Islamophobia paper but difference: this paper treats religion as one demographic attribute among many (gender, nationality, etc.) without centering religious identity in the research argument."
+  },
+  {
+    "filename": "2022-Ganguli-Red Teaming Language Models to Reduce Harms.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Red teaming dataset for adversarial testing of LLMs. Candidate_traditions shows 'Judaism' score=2, but reviewing paper content reveals no substantive engagement - likely a spurious keyword match from example test prompts",
+    "reasoning": "This paper releases a red teaming dataset of 38,961 adversarial attacks on LMs. The Judaism keyword is likely from a random test example in the dataset, not substantive engagement. The paper is about AI safety methodology (RLHF, scaling behaviors, harmful outputs), not religious/ethical traditions."
+  },
+  {
+    "filename": "2022-Hagendorff-Virtue-Based Framework for AI Ethics.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Proposes virtue ethics framework for AI with 4 basic virtues (justice, honesty, responsibility, care) and 2 second-order virtues (prudence, fortitude). Draws from Aristotelian virtue ethics tradition but does not engage with religious ethical traditions",
+    "reasoning": "While virtue ethics has roots in religious traditions (Christian virtue ethics, Islamic virtue ethics), this paper explicitly grounds its framework in secular Aristotelian virtue ethics and organizational ethics literature. Confucianism appears in candidate_traditions with score=2 (likely keyword match from comparative reference), but there is no substantive engagement with Confucian or any other religious ethical framework. The paper is about secular applied ethics for AI organizations."
+  },
+  {
+    "filename": "2022-Jiang-Can Machines Learn Morality.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "The Delphi paper - introduces moral reasoning model trained on Commonsense Norm Bank. Candidate_traditions shows 'Islam' score=2, but paper does not engage with Islamic ethics or any religious tradition substantively",
+    "reasoning": "This is a secular commonsense morality paper. It trains models on crowd-sourced moral judgments about everyday situations, explicitly avoiding religious or philosophical frameworks. The Islam keyword is likely from test examples or dataset diversity mentions. The paper's approach is descriptive (what humans agree on) rather than normative (what religious traditions prescribe)."
+  },
+  {
+    "filename": "2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "LREC workshop proceedings on Celtic language NLP (Welsh, Irish, multilingual AMR parsing). Candidate_traditions shows 'Christianity' score=2, likely from historical/cultural context of Celtic languages, but no substantive engagement",
+    "reasoning": "This is a technical NLP conference proceedings focused on low-resource Celtic language processing. Christianity keyword likely appears because Celtic languages have Christian cultural heritage (monasteries, biblical translations), but the workshop content is about NLP tasks (parsing, POS tagging, MT), not religious traditions."
+  },
+  {
+    "filename": "2022-Nkemelu-Tackling Hate Speech in Low-resource Languages.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "Medium-High",
+    "evidence": "Burmese hate speech dataset from Myanmar elections. Paper addresses hate speech in political context but does not engage with religious traditions (Buddhism, Christianity, Islam present in Myanmar) as central to the analysis",
+    "reasoning": "While Myanmar has significant religious dimensions to its conflicts (Buddhist-Muslim tensions, Rohingya genocide), this paper treats hate speech as a low-resource NLP detection problem. It does not analyze religious content or engage with religious ethics. The focus is ML methodology with context experts, not religious traditions."
+  },
+  {
+    "filename": "2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "Medium",
+    "evidence": "50,200+ Bangla hate speech comments with target annotations including Religion. Candidate_traditions shows 'Islam' and 'Hinduism' score=2. Paper annotates religious targets but does not engage with religious traditions themselves",
+    "reasoning": "Similar to Das Bengali hate speech paper. This is a technical hate speech detection benchmark. While it annotates hate targeting religious groups (Islam, Hinduism common in Bangladesh/Bengal), the paper is about ML classification methodology, not religious ethics or traditions. Religion is a demographic category, not a central analytical framework."
+  },
+  {
+    "filename": "2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Multiple (Hinduism, Islam, Sikhism, Jainism, Christianity)",
+    "confidence": "High",
+    "evidence": "Develops fairness resources for India addressing caste, religion, and regional identity. Explicitly analyzes religious stereotypes and biases in NLP models. Candidate_traditions lists Christianity, Sikhism, Jainism with score=2, and paper substantively engages with religious identity as axis of social disparity in India",
+    "reasoning": "This paper centrally engages with religion as a major axis of social disparity and bias in India. It analyzes religious stereotypes (Hindu, Muslim, Sikh, Jain, Christian) in corpora and models, demonstrating prediction biases along religious lines. Religion is not incidental but core to the fairness framework being proposed for the Indian geo-cultural context. This is about religious BIAS in AI, which per instructions is relevant."
+  },
+  {
+    "filename": "2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Christianity, Islam, Judaism",
+    "confidence": "High",
+    "evidence": "100K Turkish and English tweets across 5 hate domains including Religion. Candidate_traditions shows Islam, Christianity, Judaism score=2. Paper explicitly includes Religion as one of the hate domains and analyzes cross-domain transfer for religious hate speech",
+    "reasoning": "This paper includes Religion as one of 5 explicit hate speech domains (alongside Gender, Race, Politics, Sports). It analyzes hate speech targeting religious groups (Islam, Christianity, Judaism) and domain-specific bias patterns. Religious traditions are central to the dataset construction and analysis methodology, even though the paper itself is about NLP detection rather than religious ethics."
+  },
+  {
+    "filename": "2022-researchers-Hate Speech Classification in Bulgarian.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Bulgarian hate speech dataset with categories racism, sexism, rudeness, profanity. Candidate_traditions shows 'Christianity' score=2, likely spurious match. Paper does not engage with religious traditions",
+    "reasoning": "This is a technical hate speech classification paper for Bulgarian. The Christianity keyword is likely incidental (Bulgaria is majority Orthodox Christian, but religion is not mentioned as a hate category). The annotation scheme focuses on racism, sexism, rudeness, profanity - not religious hate. No engagement with religious traditions."
+  },
+  {
+    "filename": "2023-Andrus-Augmented Datasheets for Speech Datasets and.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Proposes augmented datasheets for speech datasets addressing demographic bias, accent discrimination, consent. Candidate_traditions shows 'Christianity' score=2, likely spurious. Paper does not engage with religious traditions",
+    "reasoning": "This is a technical paper on speech dataset documentation and fairness. It addresses demographic attributes (language, accent, dialect, speech impairment, socioeconomic status) but does not mention religion as a protected attribute or engage with religious traditions. Christianity keyword is likely spurious from examples or author affiliations."
+  },
+  {
+    "filename": "2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Survey of Armenian NLP research and LLM capabilities for low-resource Armenian language. Candidate_traditions shows 'Christianity' score=2, likely from Armenian cultural/historical context, but no substantive engagement",
+    "reasoning": "This is a comprehensive NLP survey for Armenian language. While Armenia has deep Christian (Armenian Apostolic Church) heritage, the paper is about technical NLP challenges (morphology, tokenization, pre-training, low-resource ML). Christianity appears only in cultural/historical background, not as a topic of analysis."
+  },
+  {
+    "filename": "2023-Bakrola-SAHAAYAK 2023 The Multi-Domain Bilingual Parallel.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "Medium-High",
+    "evidence": "1.5M Sanskrit-Hindi parallel corpus including Bhagavad Gita and ancient Indian literature. Candidate_traditions shows 'Hinduism' score=2. Religious texts used as linguistic data, but no engagement with Hindu ethics/theology",
+    "reasoning": "Similar to Itihasa Sanskrit paper. This dataset includes Hindu religious texts (Bhagavad Gita) as data sources for machine translation, but treats them purely as linguistic resources. No engagement with Hindu philosophical or ethical concepts. The corpus covers multiple domains (news, politics, sports, ancient literature) with religious texts being one source among many."
+  },
+  {
+    "filename": "2023-Davis-Benchmarks for Automated Commonsense Reasoning.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Survey of 139 commonsense reasoning benchmarks. Candidate_traditions shows 'Christianity' score=2, likely from examples in surveyed benchmarks, but paper does not engage with religious traditions",
+    "reasoning": "This is a survey paper analyzing design of commonsense reasoning benchmarks. It critiques benchmark flaws and gaps but does not focus on religious/ethical reasoning. Christianity keyword likely from example benchmarks that include moral reasoning tasks, but Davis's paper itself is meta-analysis of benchmark methodology, not religious content."
+  },
+  {
+    "filename": "2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Etiquettes corpus from 5 global regions (East Asia, India, Middle East/Africa, North America-Europe, Latin America) covering dining, visits, travel, business etiquette. Candidate_traditions shows 'Islam' score=2. Tests cultural norms but not religious ethics",
+    "reasoning": "This paper tests LLMs on region-specific social etiquette (dining norms, business customs, travel courtesy). While some etiquettes may have religious origins (e.g., Middle Eastern dining customs influenced by Islam), the paper treats them as cultural/regional social norms, not religious prescriptions. Islam keyword likely from Middle East region data, but no engagement with Islamic ethical teachings."
+  },
+  {
+    "filename": "2023-Dwivedi-EtiCor.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "EMNLP 2023 version of same EtiCor paper. Same reasoning as above entry - cultural etiquettes, not religious ethics",
+    "reasoning": "Duplicate entry of same paper (conference proceedings version). Same reasoning applies - this is about cultural social norms (etiquettes) across regions, not religious ethical traditions."
+  },
+  {
+    "filename": "2023-Feng-From Pretraining Data to Language Models to.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Tracks political biases (social/economic axes) from pretraining data through LMs to hate speech/misinformation detection. Candidate_traditions shows 'Christianity' score=2, likely spurious. Paper analyzes political polarization, not religious traditions",
+    "reasoning": "This paper measures political biases along social and economic axes (left/right political compass), not religious dimensions. It examines hate speech and misinformation detection fairness but through political lens (partisan pretraining corpora - Left/Center/Right Reddit, News). Christianity keyword is likely spurious from dataset examples. No engagement with religious traditions as analytical framework."
+  },
+  {
+    "filename": "2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Tests ChatGPT's gender bias in translating gender-neutral pronouns from Bengali, Farsi, Malay, Tagalog, Thai, Turkish. Candidate_traditions shows 'Islam' score=2, likely from Bengali/Farsi being spoken in Muslim-majority countries, but paper focuses on gender bias, not religion",
+    "reasoning": "This is a gender bias study in machine translation. While some source languages (Bengali, Farsi) are spoken in Muslim-majority regions, the paper analyzes gender stereotypes (occupations assigned male vs female pronouns), not religious content. Islam keyword is incidental demographic context, not substantive engagement with Islamic traditions."
+  },
+  {
+    "filename": "2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "High",
+    "evidence": "Sanskrit NLP toolkit with word embeddings trained on Sanskrit corpora (likely including Hindu texts). Candidate_traditions shows 'Hinduism' score=2. Treats Sanskrit as classical language for NLP tasks, not as vehicle for Hindu philosophy",
+    "reasoning": "Similar to previous Sanskrit papers (Itihasa, SAHAAYAK). This is a technical NLP toolkit for Sanskrit language processing (word segmentation, morphology, parsing, compound identification). While Sanskrit is the liturgical language of Hinduism and training corpora likely include Hindu texts, the paper treats Sanskrit as a linguistic/computational challenge for NLP, not as a vehicle for Hindu ethical/religious content."
+  }
+]

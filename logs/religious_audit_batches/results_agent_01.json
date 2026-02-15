@@ -1,0 +1,186 @@
+[
+  {
+    "filename": "2022-Kulkarni-Semantic and Sentiment Analysis of Selected.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Hinduism",
+    "confidence": "High",
+    "evidence": "Paper creates hand-labelled sentiment dataset for Bhagavad Gita translations, uses BERT for verse-by-verse sentiment analysis. Notes 'absence of a Hindu philosophy BERT model' and identifies need for one that captures terms like Brahman, karma, dharma, maya.",
+    "reasoning": "The Bhagavad Gita is a core sacred text of Hinduism. The paper substantively engages with Hindu philosophical concepts and sacred scripture as its central subject matter, not merely as incidental mentions."
+  },
+  {
+    "filename": "2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam",
+    "confidence": "High",
+    "evidence": "FiqhQA benchmark focused on Islamic rulings explicitly categorized by four major Sunni schools of thought (Hanafi, Maliki, Shafi'i, Hanbali). Evaluates LLMs on Islamic jurisprudence queries and abstention behavior.",
+    "reasoning": "The paper's core evaluation methodology is grounded in Islamic legal traditions (fiqh). It tests LLMs' ability to answer according to specific madhahib (schools of thought), which requires deep engagement with Islamic religious and legal frameworks."
+  },
+  {
+    "filename": "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Indigenous Spirituality",
+    "confidence": "High",
+    "evidence": "Comparative analysis of Māori Kaitiakitanga and Navajo Hózhó principles for AI governance. Kaitiakitanga embodies guardianship/responsibility for natural world; Hózhó emphasizes harmony, balance, interconnectedness—both are spiritual frameworks.",
+    "reasoning": "These Indigenous knowledge systems are inherently spiritual/religious frameworks. The paper proposes concrete integration of these sacred principles into AI governance, with practical examples from Māori environmental management and Navajo health programs."
+  },
+  {
+    "filename": "2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Indigenous Spirituality",
+    "confidence": "High",
+    "evidence": "Paper describes 'Abundant Intelligences' project that 'imagines how to conceptualize and design AI based on Indigenous knowledge systems.' Discusses protocols for 'dialogue with ancestors and spiritual dimensions of the world.'",
+    "reasoning": "Indigenous knowledge systems are fundamentally spiritual/religious. The paper explicitly addresses how to embody different conceptions of intelligence based on Indigenous spiritual frameworks, including relationships with non-human kin and spiritual dimensions."
+  },
+  {
+    "filename": "2025-Ghaly-Assessing Large Language Models on Islamic.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam",
+    "confidence": "High",
+    "evidence": "Evaluates LLMs on Islamic inheritance law ('ilm al-mawarith). Tests 'ability to reason over inheritance problems' grounded in Quran, Sunnah, Islamic jurisprudence. Includes scriptural interpretation and legal reasoning.",
+    "reasoning": "Islamic inheritance law is a religious legal system derived from sacred texts. The paper tests LLMs on structured legal reasoning that 'combines normative principles with precise arithmetic calculations' rooted in Islamic scripture."
+  },
+  {
+    "filename": "2025-Trepczynski-AI as a Rational Theologian A.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Multiple Religions",
+    "confidence": "High",
+    "evidence": "Extended study showing 'leading chatbots possess core skills of a rational theologian.' Tests theological skills including interpretation of Scripture, abstract theological statements, logical formulas from religious texts.",
+    "reasoning": "The paper's central framework is theological—it evaluates LLMs as theologians. While it covers multiple religions (Christianity, Islam, Judaism, etc.), theology itself is a religious discipline that substantively engages with religious content."
+  },
+  {
+    "filename": "2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Hinduism",
+    "confidence": "High",
+    "evidence": "Creates VedantaNY-10M dataset from 612 Advaita Vedanta lectures. Tests LLM knowledge of Hindu Vedantic philosophy. Advaita Vedanta is one of the major schools of Hindu religious philosophy.",
+    "reasoning": "Advaita Vedanta is a core religious/philosophical school within Hinduism. The paper directly tests LLMs' ability to answer questions about Hindu spiritual concepts and sacred philosophical teachings—this is substantive religious engagement."
+  },
+  {
+    "filename": "2025-Zhang-Cognitive Bias in Generative AI Influences.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Multiple Religions",
+    "confidence": "High",
+    "evidence": "Experimental study showing AI 'amplifies cognitive biases in religious education.' Measures perception changes for Christianity, Judaism, and Islam after AI interaction. Christianity/Judaism became more positive, Islam more negative.",
+    "reasoning": "The paper's research question is centered on how AI affects religious education and perceptions of specific religions. This requires substantive engagement with religious content and its educational/psychological effects."
+  },
+  {
+    "filename": "2023-Trepczynski-Religion Theology and Philosophical Skills of.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Christianity",
+    "confidence": "High",
+    "evidence": "Tests chatbots on: (1) four senses of Scripture (medieval hermeneutics), (2) abstract theological statements, (3) logical formulas from religious texts. Uses theology and religion as evaluation domains.",
+    "reasoning": "Medieval hermeneutics and the 'four senses of Scripture' are Christian theological frameworks. The paper uses religious texts and theological reasoning as its core evaluation methodology."
+  },
+  {
+    "filename": "2025-Griffiths-Explicitly Unbiased Large Language Models Still.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Multiple Religions",
+    "confidence": "Medium",
+    "evidence": "Tests implicit bias across religion using LLM Word Association Test and Relative Decision Test. Finds 'all three tested religions show small negativity bias, with small pro-Christian bias over Islamic and Jewish groups.'",
+    "reasoning": "While the paper is about bias detection, it specifically measures associations and decision-making related to Christianity, Islam, and Judaism. The methodology requires engaging with religious categories to test discriminatory decisions."
+  },
+  {
+    "filename": "2025-Lan-Fuxi A Benchmark for Evaluating Language.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Multiple Religions",
+    "confidence": "Medium",
+    "evidence": "Benchmark for ancient Chinese text understanding and generation. Tasks include 'poetry composition and couplet completion...rooted in Confucian and Taoist literary traditions.' Tests 'deep cultural knowledge' of classical formats.",
+    "reasoning": "Confucianism and Taoism are religious/philosophical traditions. The paper tests models' ability to generate text following formats rooted in these traditions, requiring engagement with their principles (though less direct than sacred text analysis)."
+  },
+  {
+    "filename": "2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Islam",
+    "confidence": "High",
+    "evidence": "Evaluates 13 LLMs with RAG for 'Quranic question answering.' Measures 'context relevance, answer faithfulness, and answer relevance' for questions about the Quran.",
+    "reasoning": "The Quran is Islam's sacred scripture. The paper's central task is testing LLMs' ability to answer questions about the Quran faithfully—this is substantive religious content engagement."
+  },
+  {
+    "filename": "2016-Purzycki-Cross-cultural dataset for the evolution of.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "Medium",
+    "evidence": "Cross-cultural dataset examining 'evolution of religion and morality.' Includes variables on 'belief in moralistic gods, afterlife beliefs, punishment for norm violations' across diverse field sites.",
+    "reasoning": "While the paper studies religious beliefs, it approaches them as social science data points (like measuring frequency of religious participation). It doesn't engage with the content of religious traditions' ethical frameworks—it's studying religion as a phenomenon, not using religious frameworks."
+  },
+  {
+    "filename": "2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Judaism",
+    "confidence": "High",
+    "evidence": "First work on automated multimodal detection of online antisemitism. Creates datasets of antisemitic content on Twitter and Gab with text and image modalities, detects antisemitism categories.",
+    "reasoning": "The paper is about detecting religious hate/bias against Judaism. While it's a bias detection task, the content necessarily engages with antisemitic stereotypes and tropes related to Jewish religious and cultural identity."
+  },
+  {
+    "filename": "2022-Unknown-Addressing Religious Hate Online From Taxonomy.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Multiple Religions",
+    "confidence": "High",
+    "evidence": "Proposes 'fine-grained labeling scheme for religious hate speech detection covering three main monotheistic religions.' Creates bilingual dataset annotated for religious hate targeting Christianity, Islam, Judaism.",
+    "reasoning": "The paper creates a taxonomy specifically for religious hate speech. Understanding and detecting religious hate requires substantive knowledge of religious identities and stereotypes—this is engagement with religious content."
+  },
+  {
+    "filename": "2024-Hutchinson-Modeling the Sacred Considerations when Using.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Multiple Religions",
+    "confidence": "High",
+    "evidence": "Position paper on 'use of religious texts in NLP.' Argues 'religious texts encode culturally important values that ML models reproduce.' Discusses ethical considerations of using Bible, Quran, etc. in NLP research.",
+    "reasoning": "The paper explicitly addresses sacred texts (Bible, Quran) and their special status. It argues for ethical frameworks around religious text usage because these texts embody religious values—this is substantive engagement with religious content's normative dimensions."
+  },
+  {
+    "filename": "2024-Network-Harnessing the Power of Artificial Intelligence to Vitalize.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "Medium",
+    "evidence": "Paper on using AI/NLP for endangered Indigenous languages. Mentions Maori but focuses on linguistic preservation: 'machine learning translators,' 'spell-checkers, next-word predictors.' Proposes 'alternative development AI cycle based on community engagement.'",
+    "reasoning": "While Indigenous languages may contain spiritual content, this paper treats them as linguistic/cultural preservation challenges, not as vehicles for engaging with Indigenous spiritual frameworks. The mentions are incidental to the technical work."
+  },
+  {
+    "filename": "2024-Songyuan Liu-Measuring Spiritual Values and Bias of.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Multiple Religions",
+    "confidence": "High",
+    "evidence": "Develops psychometric tools (SP-Typology and SP-10Axes) to measure 'spiritual values and biases of LLMs.' Finds 'LLMs' spiritual values are surprisingly diverse.' Proposes 'continuing pre-training on spiritual texts' as mitigation.",
+    "reasoning": "The paper explicitly measures spiritual/religious values in LLMs and recommends training on spiritual texts. 'Spiritual values' here refers to religious frameworks and beliefs—substantive engagement with religious content."
+  },
+  {
+    "filename": "2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Hinduism",
+    "confidence": "High",
+    "evidence": "Framework to detect caste biases against Dalits/Shudras. Abstract notes 'Caste is deeply intertwined with Hindu social and religious structures.' Tests systematic reinforcement of caste hierarchies.",
+    "reasoning": "While caste is a social system, the paper explicitly acknowledges its grounding in Hindu religious structures. The caste system has scriptural/theological foundations in Hinduism (varna system), making this religious engagement."
+  },
+  {
+    "filename": "2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Indigenous Spirituality",
+    "confidence": "Medium",
+    "evidence": "Framework for 'integrating indigenous knowledge systems into AI.' Mentions case studies in NLP, content moderation, healthcare. Emphasizes 'ethical protocols for indigenous data governance' and 'co-creation with indigenous communities.'",
+    "reasoning": "Indigenous knowledge systems inherently include spiritual/religious dimensions. While the paper focuses on epistemology and bias, Indigenous worldviews don't separate secular from sacred—their knowledge systems are holistic including spiritual elements."
+  },
+  {
+    "filename": "2025-Unknown-Beyond Neutrality A Comprehensive Approach of Religious Bias.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Multiple Religions",
+    "confidence": "High",
+    "evidence": "Paper explicitly titled 'Beyond Neutrality: A Comprehensive Approach of Religious Bias.' Abstract mentions studies on 'Islamic values,' 'religious bias in LLMs,' focusing on Arabic and Islamic topics with benchmarks like IslamTrust.",
+    "reasoning": "The paper's central focus is religious bias. Even though it's a bias detection framework, it necessarily engages with religious content to identify and measure bias against religions."
+  },
+  {
+    "filename": "2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.md",
+    "decision": "Keep N/A",
+    "religious_tradition": "N/A",
+    "confidence": "Medium",
+    "evidence": "NLG benchmark for Indonesian, Javanese, Sundanese covering 'summarization, QA, chit-chat, machine translation.' Mentions Indonesia is Muslim-majority but benchmark tasks are general language tasks.",
+    "reasoning": "While Indonesia has significant Islamic cultural influence, the benchmark itself tests general language generation capabilities, not engagement with Islamic religious content. The mention of religious demographics is incidental context."
+  },
+  {
+    "filename": "2021-Nadeem-StereoSet.md",
+    "decision": "Reclassify",
+    "religious_tradition": "Multiple Religions",
+    "confidence": "Medium",
+    "evidence": "StereoSet measures stereotypical biases in 'four domains: gender, profession, race, and religion.' Tests models on stereotypes including religious categories. Dataset contains religion-related stereotypes.",
+    "reasoning": "While this is primarily a bias benchmark, one of its four core domains is religion. The paper tests LLMs on religious stereotypes—this requires engagement with religious categories and biases, similar to the Griffiths paper."
+  }
+]

@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_TABACZEK2024
@@ -13,8 +14,8 @@ url: "https://forumphilosophicum.ignatianum.edu.pl/7559-2902-08.html"
 pdf_extract: "PDF Extracts/2024/2024-Tabaczek-Virtuous AI Aristotelian-Thomistic.md"
 local_pdf: "[[PDFs/2024/2024-Tabaczek-Virtuous AI Aristotelian-Thomistic.pdf]]"
 national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "Christianity (Catholic/Thomistic)"
+religious_values_list: "Christianity (Catholic/Thomistic)"
 moral_psychology: Yes
 newtags: "Virtue Ethics, Thomistic Ethics, Aristotelian Ethics, AI Philosophy"
 key_contribution: "Argues from Aristotelian-Thomistic perspective that AI cannot possess properly human virtues but 'weak AI' with minimalist virtues might be possible"
